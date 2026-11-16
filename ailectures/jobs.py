@@ -64,11 +64,17 @@ class JobStore:
             raise KeyError("Unknown preparation job")
         return self.decode(row)
 
-    def list(self):
+    def list(self, lecture_id=None):
         with self.connect() as db:
+            where = (
+                " WHERE json_extract(specification, '$.row.id')=?" if lecture_id else ""
+            )
             return [
                 self.decode(row)
-                for row in db.execute("SELECT * FROM jobs ORDER BY created_at,id")
+                for row in db.execute(
+                    "SELECT * FROM jobs" + where + " ORDER BY created_at,id",
+                    (lecture_id,) if lecture_id else (),
+                )
             ]
 
     def enqueue(self, specifications, *, blocks=None):

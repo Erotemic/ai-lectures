@@ -19,7 +19,7 @@ service to the public Internet.
 
 ## Speech profile and voice selection
 
-**Crall Math DK v2 (Breeze)** is the default for the audio reader. Its
+**Crall Math DK v2 (Breeze)** is the checked-in default for the audio reader. Its
 profile ID is `crall-math-dk-v2-breeze-tts2`, and the voice ID sent to the
 server is `crall-math-dk-v2`. It uses
 `CRALL_TTS_ENDPOINT` or falls back to
@@ -31,9 +31,11 @@ using FFmpeg. Other `tts.toml` profiles are listed as available options.
 `KOKORO_TTS_ENDPOINT` (falling back to
 `http://127.0.0.1:8880/v1/audio/speech`).
 
-The reader uses the public profile unless overridden, in order, by the
+The reader uses the configured top-level `profile` (including `tts.local.toml`),
+unless overridden, in order, by the
 `--audio-tts-profile` / `make serve AUDIO_TTS_PROFILE=...` argument,
-`DKVIS_AUDIO_TTS_PROFILE`, or `DKVIS_TTS_PROFILE`. The browser's profile
+or `DKVIS_AUDIO_TTS_PROFILE`. The general `DKVIS_TTS_PROFILE` is a fallback only
+when the configuration does not select a profile. The browser's profile
 selection does not modify environment variables. Browsers remember explicitly
 selected profiles and voices; change the profile dropdown if a previous
 selection is retained.
@@ -78,7 +80,8 @@ endpoint = "http://127.0.0.1:8880/v1/audio/speech"
 ```
 
 New names appear in the profile dropdown after restarting `make serve`.
-The reader defaults to the public Breeze profile. A voice previously chosen in
+The local file can select a default with a top-level `profile = "local-kokoro"`.
+A voice previously chosen in
 the browser stays selected until changed. `TTS_CONFIG` instead selects a
 complete, independent TOML file (no automatic overlay).
 

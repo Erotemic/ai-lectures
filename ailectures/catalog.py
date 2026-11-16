@@ -263,21 +263,25 @@ class RepositoryCatalog:
             except (OSError, ValueError, KeyError, TypeError):
                 continue
 
-    def snapshot(self):
+    @property
+    def change_token(self):
+        return self._stamp
+
+    def snapshot(self, *, copy=True):
         with self._lock:
             try:
                 with source_lock(self.root):
-                    return self._read_snapshot()
+                    return self._read_snapshot(copy=copy)
             except (OSError, ValueError, KeyError) as exc:
                 self.errors = [
                     f"Source update unavailable: {exc}; serving the last published catalog"
                 ]
-                return deepcopy(self._packs)
+                return deepcopy(self._packs) if copy else self._packs
 
     def companion_file(self, lecture_id, identifier, expected):
         namespace = lecture_id.split(":")[0]
         with self._lock, source_lock(self.root):
-            pack = self._read_snapshot()[namespace]
+            pack = self._read_snapshot(copy=False)[namespace]
             directory = next(
                 directory
                 for directory, pack_id in self._directories.items()
@@ -290,7 +294,7 @@ class RepositoryCatalog:
                 expected,
             )
 
-    def _read_snapshot(self):
+    def _read_snapshot(self, *, copy=True):
         with self._lock:
             drafts = self.root / "draft-stages"
             paths = sorted(
@@ -472,7 +476,7 @@ class RepositoryCatalog:
                 self._packs = {k: v for k, v in packs.items() if k in existing}
                 self.errors = errors
                 self._stamp = stamp
-            return deepcopy(self._packs)
+            return deepcopy(self._packs) if copy else self._packs
 
     def generation(self):
         return digest(

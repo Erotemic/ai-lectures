@@ -328,6 +328,11 @@ The listening queue is labelled separately from the generation queue.
 
 The Production page retains configured TTS profiles, remembered voice choices,
 service voice discovery, voice-ID registration, and speech generation speed.
+The top-level `profile` in `tts.local.toml` selects this machine's audio default
+(for example, `profile = "kokoro"`). It takes precedence over the general
+`DKVIS_TTS_PROFILE` used by rendering tools. An explicit `--audio-tts-profile`
+or `DKVIS_AUDIO_TTS_PROFILE` remains an audio-specific override. Explicit browser
+voice choices are remembered; new selections otherwise use the configured default.
 Existing `audio-cache/registered-voices.json` entries are imported additively;
 new registrations live in durable `state/voices.sqlite3` and are shared with the
 compatibility reader. Raw reference material stays on the TTS host. Previously
@@ -353,6 +358,10 @@ Completed block requests publish portable partial recordings. Additional blocks
 share the same voice queue and preserve previously published audio; preparing the
 whole lecture reuses cached blocks. These controls do not
 require opening JSON diagnostics.
+Older imports whose label exactly identifies a configured profile can also fill
+missing blocks when their pagination matches. Existing audio stays unchanged;
+the new recording retains the original recording's identity and recipe in its
+inheritance metadata. Other speakers are never inferred from a display-name match.
 
 The same preparation workflow is available without keeping a browser open:
 
@@ -386,6 +395,9 @@ previously requested preparations are resumed in the background.
 Access is immediate. Use **This device** for browser-local progress, or add/select
 a named listener to share progress through this server. A device remembers the
 choice. Another device selects the same listener without a password or login.
+Entering an existing name selects that listener, including differences in case
+or incidental whitespace. Duplicate-profile repairs retain device aliases,
+listening progress, and queues so devices can continue using the original identity.
 The Listening page exports/imports personal history and can copy device-local
 history into a named listener where no shared position already exists. Its
 editable listening queue is device-local for anonymous use and shared through

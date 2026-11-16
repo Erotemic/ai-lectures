@@ -7,6 +7,7 @@ from datetime import datetime, timezone
 import json
 from pathlib import Path
 import sqlite3
+import unicodedata
 from uuid import uuid4
 
 from .core import Conflict, canonical, checksum, finite, qualified, text_digest
@@ -76,6 +77,7 @@ class ListenerState:
         with self.connect() as db:
             db.executescript("""
                 CREATE TABLE IF NOT EXISTS profiles (id TEXT PRIMARY KEY, name TEXT NOT NULL);
+                CREATE TABLE IF NOT EXISTS profile_aliases (id TEXT PRIMARY KEY, profile TEXT NOT NULL);
                 CREATE TABLE IF NOT EXISTS progress (
                     profile TEXT, lecture TEXT, version INTEGER NOT NULL, record TEXT NOT NULL,
                     PRIMARY KEY(profile, lecture));
@@ -109,13 +111,149 @@ class ListenerState:
             raise ValueError("Enter a listener name of 1–80 characters")
         result = {"id": str(uuid4()), "name": label.strip()}
         with self.connect() as db:
+            db.execute("BEGIN IMMEDIATE")
+            for row in db.execute("SELECT * FROM profiles ORDER BY rowid"):
+                if self.listener_name(row["name"]) == self.listener_name(label):
+                    return dict(row)
             db.execute(
                 "INSERT INTO profiles VALUES (?,?)", (result["id"], result["name"])
             )
         return result
 
-    def progress(self, profile):
+    @staticmethod
+    def listener_name(label):
+        return " ".join(unicodedata.normalize("NFKC", label).split()).casefold()
+
+    def aliases(self):
+        with self.connect() as db:
+            return dict(db.execute("SELECT id,profile FROM profile_aliases"))
+
+    def resolve_profile(self, profile):
         identifier(profile)
+        aliases = self.aliases()
+        while profile in aliases:
+            profile = aliases[profile]
+        return profile
+
+    def merge_profiles(self, source, target):
+        source, target = self.resolve_profile(source), self.resolve_profile(target)
+        with self.connect() as db:
+            db.execute("BEGIN IMMEDIATE")
+            people = {
+                row["id"]: dict(row) for row in db.execute("SELECT * FROM profiles")
+            }
+            if source not in people or target not in people:
+                raise KeyError("Unknown listener")
+            if source == target:
+                return people[target]
+            if self.listener_name(people[source]["name"]) != self.listener_name(
+                people[target]["name"]
+            ):
+                raise ValueError("These listeners have different names")
+            for row in db.execute(
+                "SELECT * FROM progress WHERE profile=?", (source,)
+            ).fetchall():
+                current = db.execute(
+                    "SELECT * FROM progress WHERE profile=? AND lecture=?",
+                    (target, row["lecture"]),
+                ).fetchone()
+                incoming = json.loads(row["record"])
+                previous = json.loads(current["record"]) if current else None
+                chosen = (
+                    max(
+                        [incoming, previous],
+                        key=lambda value: value.get("updated_at", ""),
+                    )
+                    if previous
+                    else incoming
+                )
+                if (
+                    previous
+                    and incoming.get("spoken_sha256")
+                    and incoming.get("spoken_sha256") == previous.get("spoken_sha256")
+                ):
+                    anchors = all(
+                        isinstance(record.get("anchor_word"), (int, float))
+                        for record in (incoming, previous)
+                    )
+                    same_recording = incoming.get("recording_id") and incoming.get(
+                        "recording_id"
+                    ) == previous.get("recording_id")
+
+                    def listened(record):
+                        if anchors:
+                            position = (float(record["anchor_word"]), 0)
+                        elif same_recording:
+                            position = (
+                                float(record.get("segment") or 0),
+                                float(record.get("seconds", 0)),
+                            )
+                        else:
+                            position = (0, 0)
+                        return (
+                            bool(record.get("completed")),
+                            position,
+                            record.get("updated_at", ""),
+                        )
+
+                    chosen = max([incoming, previous], key=listened)
+                version = (
+                    current["version"]
+                    if chosen is previous
+                    else (
+                        row["version"]
+                        if current is None
+                        else max(row["version"], current["version"]) + 1
+                    )
+                )
+                chosen = dict(chosen, profile_id=target, version=version)
+                db.execute(
+                    "INSERT OR REPLACE INTO progress VALUES (?,?,?,?)",
+                    (
+                        target,
+                        row["lecture"],
+                        chosen["version"],
+                        canonical(chosen).decode(),
+                    ),
+                )
+            for row in db.execute(
+                "SELECT * FROM device_sequences WHERE profile=?", (source,)
+            ).fetchall():
+                db.execute(
+                    "INSERT INTO device_sequences VALUES (?,?,?,?) ON CONFLICT(profile,lecture,device) DO UPDATE SET sequence=MAX(sequence,excluded.sequence)",
+                    (target, row["lecture"], row["device"], row["sequence"]),
+                )
+            queues = {
+                row["profile"]: json.loads(row["entries"])
+                for row in db.execute(
+                    "SELECT * FROM listening_queues WHERE profile IN (?,?)",
+                    (source, target),
+                )
+            }
+            entries = queues.get(target, [])
+            known = {entry["id"]: entry for entry in entries}
+            for entry in queues.get(source, []):
+                if entry["id"] not in known:
+                    entries.append(entry)
+                elif known[entry["id"]] != entry:
+                    entries.append(dict(entry, id=str(uuid4())))
+            db.execute(
+                "INSERT OR REPLACE INTO listening_queues VALUES (?,?)",
+                (target, canonical(entries).decode()),
+            )
+            for table in ("progress", "device_sequences", "listening_queues"):
+                db.execute(f"DELETE FROM {table} WHERE profile=?", (source,))
+            db.execute("DELETE FROM profiles WHERE id=?", (source,))
+            db.execute(
+                "UPDATE profile_aliases SET profile=? WHERE profile=?", (target, source)
+            )
+            db.execute(
+                "INSERT OR REPLACE INTO profile_aliases VALUES (?,?)", (source, target)
+            )
+            return people[target]
+
+    def progress(self, profile):
+        profile = self.resolve_profile(profile)
         with self.connect() as db:
             if not db.execute(
                 "SELECT 1 FROM profiles WHERE id=?", (profile,)
@@ -129,9 +267,10 @@ class ListenerState:
             }
 
     def save_progress(self, profile, payload):
-        identifier(profile)
-        event_id, lecture_id = identifier(payload["update_id"]), qualified(
-            payload["lecture_id"]
+        profile = self.resolve_profile(profile)
+        event_id, lecture_id = (
+            identifier(payload["update_id"]),
+            qualified(payload["lecture_id"]),
         )
         identifier(payload["device_id"])
         finite(payload["seconds"])
@@ -156,6 +295,25 @@ class ListenerState:
             if previous_event:
                 previous = json.loads(previous_event["record"])
                 if previous["input"] != encoded:
+                    old = json.loads(previous["input"])
+                    alias = db.execute(
+                        "SELECT profile FROM profile_aliases WHERE id=?",
+                        (old.get("profile"),),
+                    ).fetchone()
+                    if (
+                        alias
+                        and alias["profile"] == profile
+                        and old.get("payload") == payload
+                    ):
+                        current = db.execute(
+                            "SELECT record FROM progress WHERE profile=? AND lecture=?",
+                            (profile, lecture_id),
+                        ).fetchone()
+                        return (
+                            json.loads(current["record"])
+                            if current
+                            else previous["result"]
+                        )
                     raise Conflict("Progress update ID has conflicting contents")
                 return previous["result"]
             row = db.execute(
@@ -275,6 +433,7 @@ class ListenerState:
         return len(incoming.keys() - known.keys())
 
     def export_listener(self, profile):
+        profile = self.resolve_profile(profile)
         progress = self.progress(profile)
         person = next(p for p in self.profiles() if p["id"] == profile)
         return {
@@ -285,7 +444,7 @@ class ListenerState:
         }
 
     def queue(self, profile):
-        identifier(profile)
+        profile = self.resolve_profile(profile)
         with self.connect() as db:
             if not db.execute(
                 "SELECT 1 FROM profiles WHERE id=?", (profile,)
@@ -308,7 +467,7 @@ class ListenerState:
 
     def edit_queue(self, profile, operation):
         # Apply one user action to the current queue, never a stale full list.
-        identifier(profile)
+        profile = self.resolve_profile(profile)
         with self.connect() as db:
             db.execute("BEGIN IMMEDIATE")
             if not db.execute(

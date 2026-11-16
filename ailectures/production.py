@@ -212,19 +212,21 @@ class GenerationManager:
                     for key in (
                         self.default_profile,
                         os.environ.get("DKVIS_AUDIO_TTS_PROFILE"),
-                        os.environ.get("DKVIS_TTS_PROFILE"),
                         document.get("profile"),
+                        os.environ.get("DKVIS_TTS_PROFILE"),
                     )
                     if key in available
                 ),
                 None,
             )
+            rows.sort(key=lambda row: row["id"] != selected)
             return {
                 "profiles": rows,
                 "errors": errors,
                 "tools_available": bool(
                     shutil.which("ffmpeg") and shutil.which("ffprobe")
                 ),
+                "preferred_profile": selected,
                 "default_profile": (
                     selected
                     if any(row["id"] == selected for row in rows)
@@ -300,9 +302,23 @@ class GenerationManager:
             },
         }
 
-    def prepare(self, lecture_id, profile, *, voice=None, speed=1, blocks=None):
+    def prepare(
+        self,
+        lecture_id,
+        profile,
+        *,
+        voice=None,
+        speed=1,
+        blocks=None,
+        base_recording_id=None,
+    ):
         return self.prepare_many(
-            [lecture_id], profile, voice=voice, speed=speed, blocks=blocks
+            [lecture_id],
+            profile,
+            voice=voice,
+            speed=speed,
+            blocks=blocks,
+            base_recording_id=base_recording_id,
         )[0]
 
     def narrators(self, row, *, speed=1):
@@ -349,6 +365,16 @@ class GenerationManager:
                             and r["generator"].get("speech_speed", 1) == speed
                         )
                     ]
+                    legacy = [
+                        r
+                        for r in row["recordings"]
+                        if not r.get("generator")
+                        and r.get("label") == profile["id"]
+                        and voice == profile["voice"]
+                        and speed == 1
+                        and r["pages"] == pages
+                    ]
+                    recordings.extend(legacy)
                     recording = max(
                         recordings,
                         key=lambda r: (r["complete"], len(r["segments"])),
@@ -365,6 +391,15 @@ class GenerationManager:
                             speed=speed,
                             variant=variant,
                             recording_id=recording["id"] if recording else None,
+                            recording_complete=bool(
+                                recording and recording["complete"]
+                            ),
+                            base_recording_id=max(
+                                legacy, key=lambda r: len(r["segments"])
+                            )["id"]
+                            if legacy
+                            else None,
+                            aliases=["recording:" + r["variant"] for r in legacy],
                         )
                     )
         for recording in row["recordings"]:
@@ -374,11 +409,21 @@ class GenerationManager:
                         key="recording:" + recording["variant"],
                         label=recording.get("label") or recording["variant"],
                         recording_id=recording["id"],
+                        recording_complete=recording["complete"],
                     )
                 )
         return dict(**profiles, choices=choices, pages=pages)
 
-    def prepare_many(self, lecture_ids, profile, *, voice=None, speed=1, blocks=None):
+    def prepare_many(
+        self,
+        lecture_ids,
+        profile,
+        *,
+        voice=None,
+        speed=1,
+        blocks=None,
+        base_recording_id=None,
+    ):
         finite(speed, 0.5)
         if speed > 2 or (
             voice is not None and not re.fullmatch(r"[A-Za-z0-9_.+\-]{1,80}", voice)
@@ -395,7 +440,8 @@ class GenerationManager:
             ):
                 raise ValueError("Select one or more audio blocks")
             blocks = sorted(set(blocks))
-        if not self.profiles()["tools_available"]:
+        profiles = self.profiles()
+        if not profiles["tools_available"]:
             raise ValueError(
                 "Generation requires the production installation and FFmpeg tools"
             )
@@ -405,7 +451,12 @@ class GenerationManager:
         config, configuration = self._configuration(
             document, profile, voice, self.endpoint
         )
-        snapshot = self.library.snapshot()
+        default_voice = next(
+            row["voice"] for row in profiles["profiles"] if row["id"] == profile
+        )
+        if base_recording_id is not None and len(lecture_ids) != 1:
+            raise ValueError("Extend a recording within one lecture")
+        snapshot = self.library.snapshot(copy=False)
         requests = []
         for lecture_id in dict.fromkeys(lecture_ids):
             row = deepcopy(snapshot["lectures"][lecture_id])
@@ -413,6 +464,34 @@ class GenerationManager:
                 raise ValueError(
                     "Use the existing presentation renderer for this lecture"
                 )
+            base = None
+            if base_recording_id:
+                recording = next(
+                    (r for r in row["recordings"] if r["id"] == base_recording_id), None
+                )
+                if (
+                    recording is None
+                    or recording.get("generator")
+                    or recording.get("label") != profile
+                    or (voice or config["voice"]) != default_voice
+                    or speed != 1
+                ):
+                    raise ValueError(
+                        "This recording does not identify the selected profile's default voice"
+                    )
+                from dkvis.presentation.audio_library import split_pages
+
+                if recording["pages"] != split_pages(
+                    row["transcript"],
+                    max_chars=int(os.environ.get("DKVIS_AUDIO_PAGE_CHARS", "600")),
+                ):
+                    raise ValueError(
+                        "The recording uses different audio block boundaries"
+                    )
+                base = dict(
+                    recording=deepcopy(recording), release=recording["_release"]
+                )
+                base["recording"].pop("_release", None)
             row.pop("origin", None)
             row["recordings"] = []
             if blocks is not None:
@@ -430,6 +509,7 @@ class GenerationManager:
                     "revision": row["revision"],
                     "configuration": configuration,
                     "speed": speed,
+                    **({"base_recording": base_recording_id} if base else {}),
                 }
             )
             specification = {
@@ -438,6 +518,7 @@ class GenerationManager:
                 "voice": voice,
                 "speed": speed,
                 "configuration": configuration,
+                **({"base_recording": base} if base else {}),
             }
             requests.append((job_id, specification))
         self.jobs.enqueue(requests, blocks=blocks)
@@ -511,6 +592,7 @@ class GenerationManager:
             "label": f"{settings.voice} ({settings.model})",
             "published": None,
             "whole_lecture": False,
+            "base_recording": spec.get("base_recording"),
         }
         write_json(
             directory / "batch.json",
@@ -528,14 +610,56 @@ class GenerationManager:
         return job
 
     @staticmethod
+    def _inventory(job):
+        inventory = job["engine"].inventory("000000", job["settings"])
+        base = job.get("base_recording")
+        if base:
+            for segment in base["recording"]["segments"]:
+                inventory["states"][segment["index"]] = "ready"
+            inventory["ready"] = inventory["states"].count("ready")
+            inventory["percent"] = round(
+                100 * inventory["ready"] / max(1, inventory["total"]), 1
+            )
+            inventory["counts"] = {
+                state: inventory["states"].count(state) for state in inventory["counts"]
+            }
+        return inventory
+
+    def _blend_recording(self, job, recording, files):
+        base = job.get("base_recording")
+        if not base:
+            return
+        directory = self.library.store.historical(base["release"], job["row"]["id"])[1]
+        current = {segment["index"]: segment for segment in recording["segments"]}
+        inherited = []
+        for segment in base["recording"]["segments"]:
+            if segment["index"] not in current:
+                current[segment["index"]] = deepcopy(segment)
+                files[segment["path"]] = directory / segment["path"]
+                inherited.append(segment["index"])
+        recording["segments"] = [current[index] for index in sorted(current)]
+        recording["complete"] = len(current) == len(recording["pages"])
+        if inherited:
+            recording["generator"]["inherited_recordings"] = [
+                dict(
+                    id=base["recording"]["id"],
+                    recipe=base["recording"]["recipe"],
+                    blocks=inherited,
+                )
+            ]
+        recording["id"] = recording_id(recording)
+
+    @staticmethod
     def _request_blocks(job, blocks):
         engine, settings = job["engine"], job["settings"]
-        if blocks is None:
+        if blocks is None and not job.get("base_recording"):
             if not job["whole_lecture"]:
                 engine.prepare_lecture("000000", settings)
                 job["whole_lecture"] = True
             return
-        inventory = engine.inventory("000000", settings)
+        inventory = GenerationManager._inventory(job)
+        if blocks is None:
+            blocks = list(range(inventory["total"]))
         busy = sum(
             state in {"queued", "rendering", "canceling"}
             for state in inventory["states"]
@@ -559,7 +683,7 @@ class GenerationManager:
             active = self._jobs.get(job_id)
             job = active or self._open(record, start=False)
             try:
-                recording, _ = recording_from_engine(
+                recording, files = recording_from_engine(
                     job["engine"],
                     "000000",
                     job["row"],
@@ -568,6 +692,17 @@ class GenerationManager:
                     voice=job["settings"].voice,
                     speed=job["settings"].speed,
                 )
+                self._blend_recording(job, recording, files)
+                base = job.get("base_recording")
+                inherited = {
+                    index
+                    for item in recording["generator"].get("inherited_recordings", [])
+                    for index in item["blocks"]
+                }
+                for segment in recording["segments"]:
+                    if segment["index"] in inherited:
+                        segment["_release"] = base["release"]
+                        segment["_recording"] = base["recording"]["id"]
                 recording["_job"] = job_id
                 row = deepcopy(job["row"])
                 row["recordings"] = [recording]
@@ -665,8 +800,8 @@ class GenerationManager:
             },
         }
 
-    def list(self):
-        return [self._public(record) for record in self.jobs.list()]
+    def list(self, lecture_id=None):
+        return [self._public(record) for record in self.jobs.list(lecture_id)]
 
     def tick(self):
         with self._lock:
@@ -679,14 +814,14 @@ class GenerationManager:
                     if record["state"] == "cancelled":
                         job["engine"].cancel("000000", job["settings"])
                         self.jobs.retain_cancelled_inventory(
-                            job_id, job["engine"].inventory("000000", job["settings"])
+                            job_id, self._inventory(job)
                         )
                     job["engine"].close()
                     del self._jobs[job_id]
                     continue
                 try:
                     self._request_blocks(job, record["requested_blocks"])
-                    inventory = job["engine"].inventory("000000", job["settings"])
+                    inventory = self._inventory(job)
                     if not self.jobs.save(job_id, self.owner, inventory=inventory):
                         self.jobs.retain_cancelled_inventory(job_id, inventory)
                         job["engine"].close()
@@ -771,7 +906,7 @@ class GenerationManager:
         job = self._jobs.get(job_id)
         if job:
             result["variant"] = job["variant"]
-            result["inventory"] = job["engine"].inventory("000000", job["settings"])
+            result["inventory"] = self._inventory(job)
         return result
 
     def retry(self, job_id):
@@ -798,6 +933,7 @@ class GenerationManager:
             voice=settings.voice,
             speed=settings.speed,
         )
+        self._blend_recording(job, rec, files)
         pack_id = "audio-" + digest(row["id"])[:24]
         previous = next(
             (r for r in self.library.store.active() if r["pack_id"] == pack_id), None

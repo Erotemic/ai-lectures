@@ -102,6 +102,39 @@ export function coversBlocks(job, blocks) {
   );
 }
 
+export function preferredNarrator(
+  choices,
+  data,
+  { remembered, recordingId, profile, voice } = {},
+) {
+  return (
+    choices.find(
+      (choice) =>
+        choice.key === remembered || choice.aliases?.includes(remembered),
+    ) ||
+    choices.find(
+      (choice) => choice.recording_id && choice.recording_id === recordingId,
+    ) ||
+    choices.find(
+      (choice) =>
+        choice.profile === data.preferred_profile && choice.profile_default,
+    ) ||
+    choices.find(
+      (choice) =>
+        profile &&
+        choice.profile === profile &&
+        (!voice || choice.voice === voice),
+    ) ||
+    choices.find((choice) => choice.recording_complete) ||
+    choices.find((choice) => choice.recording_id) ||
+    choices.find(
+      (choice) =>
+        choice.profile === data.default_profile && choice.profile_default,
+    ) ||
+    choices[0]
+  );
+}
+
 // One selection owns playback, missing-block requests, and whole-lecture caching.
 export class LectureAudio {
   constructor({
@@ -119,7 +152,7 @@ export class LectureAudio {
     this.stopping = new Set();
     this.epoch = 0;
     this.root = el("section", { class: "preparation-panel section" });
-    this.select = el("select", { "aria-label": "Voice" });
+    this.select = el("select", { "aria-label": "Voice", disabled: true });
     this.status = el("p", {
       class: "muted",
       role: "status",
@@ -137,7 +170,7 @@ export class LectureAudio {
     this.moreSelect = el("select", { size: "6", "aria-label": "All voices" });
     this.more = el(
       "details",
-      {},
+      { hidden: true },
       el("summary", { text: "More voices" }),
       el("p", {
         class: "muted",
@@ -164,11 +197,13 @@ export class LectureAudio {
     this.playButton = el("button", {
       type: "button",
       class: "primary",
+      disabled: true,
       text: progress ? "Resume" : "Play",
       onclick: () => this.play(),
     });
     this.cache = el("button", {
       type: "button",
+      disabled: true,
       text: "Cache whole lecture",
       onclick: () => this.prepare(false),
     });
@@ -200,6 +235,7 @@ export class LectureAudio {
     });
     this.ahead.value = String(getStored("blocks-ahead", 1));
     this.ahead.disabled = !this.continueBlocks.checked;
+    this.status.textContent = "Loading voices…";
     this.continueBlocks.onchange = () => {
       store("continue-blocks", this.continueBlocks.checked);
       this.ahead.disabled = !this.continueBlocks.checked;
@@ -291,9 +327,12 @@ export class LectureAudio {
       this.select.value = selected;
   }
   async initialize() {
+    const jobs = api(this.jobsURL()).catch((error) => {
+      this.queueError = error.message;
+      return { jobs: [] };
+    });
     try {
       await this.loadOptions();
-      this.jobs = (await api("/api/library/production/jobs")).jobs;
     } catch (error) {
       this.data = { tools_available: false };
       this.pages = this.row.recordings[0]?.pages || [this.row.transcript];
@@ -311,27 +350,22 @@ export class LectureAudio {
     const remembered = getStored("narrator-choice");
     const profile = getStored("production-profile");
     const voice = getStored("production-voice:" + profile);
-    const preferred =
-      this.choices.find((c) => c.key === remembered) ||
-      this.choices.find(
-        (c) => c.profile === profile && (!voice || c.voice === voice),
-      ) ||
-      this.choices.find(
-        (c) =>
-          c.recording_id &&
-          c.recording_id ===
-            (this.player.row?.id === this.row.id
-              ? this.player.recording?.id
-              : this.progress?.recording_id),
-      ) ||
-      this.choices.find(
-        (c) =>
-          this.row.recordings.find((r) => r.id === c.recording_id)?.complete,
-      ) ||
-      this.choices.find((c) => c.profile === this.data.default_profile) ||
-      this.choices[0];
+    const preferred = preferredNarrator(this.choices, this.data, {
+      remembered,
+      profile,
+      voice,
+      recordingId:
+        this.player.row?.id === this.row.id
+          ? this.player.recording?.id
+          : this.progress?.recording_id,
+    });
     this.select.value = preferred?.key || "";
     this.choose(false);
+    jobs.then((result) => {
+      if (this.disposed || !this.active()) return;
+      this.jobs = result.jobs;
+      this.render();
+    });
     this.timer = setInterval(() => {
       if (
         this.disposed ||
@@ -346,6 +380,12 @@ export class LectureAudio {
   }
   get choice() {
     return this.choices.find((choice) => choice.key === this.select.value);
+  }
+  jobsURL() {
+    return (
+      "/api/library/production/jobs?" +
+      new URLSearchParams({ lecture_id: this.row.id })
+    );
   }
   get inventory() {
     return narratorInventory(this.choice, this.row, this.jobs, this.pages);
@@ -407,15 +447,25 @@ export class LectureAudio {
       option.textContent = `${choice.label} · ${count}/${states.length} generated${recording?.complete ? " · ready" : job && ["queued", "running"].includes(job.state) ? " · generating" : ""}`;
     }
     const { states, job } = this.inventory;
+    this.playButton.disabled = !this.choice;
+    const wholeLectureActive =
+      ["queued", "running"].includes(job?.state) &&
+      job.requested_blocks === null;
+    this.cache.textContent = wholeLectureActive
+      ? "Caching whole lecture…"
+      : "Cache whole lecture";
+    this.cache.title = wholeLectureActive
+      ? "This voice is already queued for whole-lecture preparation. See its progress below."
+      : "Generate missing blocks for the selected voice; reuse existing audio.";
     this.cache.disabled =
       !this.choice?.profile ||
       !this.data.tools_available ||
       this.submitting ||
-      (["queued", "running"].includes(job?.state) &&
-        job.requested_blocks === null);
+      wholeLectureActive;
     this.stop.disabled =
       !["queued", "running"].includes(job?.state) || this.stopping.has(job?.id);
     this.select.disabled = !this.choices.length;
+    this.more.hidden = !this.choices.length;
     this.status.textContent = this.pending
       ? `Waiting for block ${this.pending.index + 1} in ${this.choice.label}. Playback will start when it is ready.${job?.error ? " · " + job.error : ""}`
       : job
@@ -552,7 +602,15 @@ export class LectureAudio {
             : null,
         );
       }),
-      ...(jobs.length
+      ...(this.queueError
+        ? [
+            el("p", {
+              class: "notice",
+              text: "Generation status unavailable: " + this.queueError,
+            }),
+          ]
+        : []),
+      ...(jobs.length || this.queueError
         ? []
         : [
             el("p", {
@@ -621,6 +679,9 @@ export class LectureAudio {
         profile: choice.profile,
         voice: choice.voice,
         speed: choice.speed,
+        ...(choice.base_recording_id
+          ? { base_recording_id: choice.base_recording_id }
+          : {}),
         ...(blocks === null ? {} : { blocks }),
       });
       this.jobs = this.jobs
@@ -651,9 +712,10 @@ export class LectureAudio {
     this.polling = true;
     const epoch = this.epoch;
     try {
-      const jobs = (await api("/api/library/production/jobs")).jobs;
+      const jobs = (await api(this.jobsURL())).jobs;
       if (epoch !== this.epoch || this.disposed) return;
       this.jobs = jobs;
+      this.queueError = null;
       this.render();
       const { job } = this.inventory;
       const pending = this.pending;

@@ -129,3 +129,24 @@ def test_native_voice_catalog_accepts_service_records(tmp_path):
         server.shutdown()
         thread.join()
         server.server_close()
+
+
+def test_audio_default_prefers_config_over_generic_rendering_environment(
+    tmp_path, monkeypatch
+):
+    monkeypatch.setattr("dkvis.presentation.tts.load_env", lambda: None)
+    monkeypatch.setenv("DKVIS_TTS_PROFILE", "first")
+    monkeypatch.delenv("DKVIS_AUDIO_TTS_PROFILE", raising=False)
+    config = tmp_path / "tts.toml"
+    config.write_text(
+        'profile="second"\n[profiles.first]\nendpoint="http://127.0.0.1:1/v1/audio/speech"\nmodel="kokoro"\nvoice="af_alloy"\nresponse_format="mp3"\n[profiles.second]\nendpoint="http://127.0.0.1:1/v1/audio/speech"\nmodel="kokoro"\nvoice="af_heart"\nresponse_format="mp3"\n'
+    )
+    manager = GenerationManager(Library(tmp_path / "reader"), config=config)
+    try:
+        assert manager.profiles()["default_profile"] == "second"
+        monkeypatch.setenv("DKVIS_AUDIO_TTS_PROFILE", "first")
+        assert manager.profiles()["default_profile"] == "first"
+        manager.default_profile = "second"
+        assert manager.profiles()["default_profile"] == "second"
+    finally:
+        manager.close()

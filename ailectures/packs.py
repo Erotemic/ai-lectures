@@ -614,9 +614,15 @@ class PackStore:
                         break
             self.errors = errors
 
-    def snapshot(self):
-        self.reconcile()
-        return self.compose(self.active())
+    def snapshot(self, *, copy=True):
+        with self._lock:
+            self.reconcile()
+            active = self.active()
+            key = tuple((row["pack_id"], row["release"]) for row in active)
+            if key != getattr(self, "_snapshot_key", None):
+                self._snapshot_cache = self.compose(active)
+                self._snapshot_key = key
+            return deepcopy(self._snapshot_cache) if copy else self._snapshot_cache
 
     def historical(self, release_id, lecture_id):
         checksum(release_id)

@@ -1,5 +1,5 @@
 import assert from 'node:assert/strict';
-import {narratorInventory, resumeTarget, voiceGroups, lectureGenerations, LectureAudio, blockWindow, coversBlocks} from '../ailectures/static/lecture-audio.mjs';
+import {narratorInventory, resumeTarget, voiceGroups, lectureGenerations, LectureAudio, blockWindow, coversBlocks, preferredNarrator} from '../ailectures/static/lecture-audio.mjs';
 import {Player} from '../ailectures/static/player.mjs';
 
 const installed = {id:'other-recording',variant:'other',complete:true,pages:['One.','Two.'],segments:[{index:0,duration:2},{index:1,duration:3}]};
@@ -133,3 +133,11 @@ await secondRequest;
 assert.equal(comparison.submitting,false);
 assert.equal(replies[1].payload.profile,'alternate');
 console.log('Rapid voice switching keeps both scoped generation requests responsive');
+
+const primary = {key:'preferred',profile:'preferred',profile_default:true,recording_id:'partial',aliases:['recording:old-import']};
+const readyOther = {key:'other',profile:'other',profile_default:true,recording_id:'full',recording_complete:true};
+assert.equal(preferredNarrator([readyOther,primary],{preferred_profile:'preferred',default_profile:'preferred'}).key,'preferred');
+assert.equal(preferredNarrator([readyOther,primary],{preferred_profile:'preferred'},{remembered:'other'}).key,'other');
+assert.equal(preferredNarrator([readyOther,primary],{preferred_profile:'preferred'},{remembered:'recording:old-import'}).key,'preferred');
+assert.equal(preferredNarrator([primary,readyOther],{}).key,'other');
+console.log('Configured audio defaults and remembered legacy voices retain generation controls');

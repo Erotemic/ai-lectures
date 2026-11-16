@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import asyncio
 import json
+import threading
 from contextlib import asynccontextmanager
 from copy import deepcopy
 from pathlib import Path
@@ -18,10 +19,11 @@ from starlette.responses import (
     JSONResponse,
     PlainTextResponse,
     RedirectResponse,
+    Response,
 )
 from starlette.routing import Mount, Route
 
-from .core import Conflict, checksum, finite, qualified
+from .core import Conflict, checksum, finite, qualified, digest
 from .library import Library
 from .state import ListenerState, utcnow
 from .organization import collection_metadata, item_organization
@@ -81,6 +83,8 @@ def create_app(
     legacy = LazyLegacy(legacy_factory) if legacy_factory else None
     producer = generation_manager
     assets = LibraryAssets(directory=STATIC)
+    catalog_cache = {}
+    catalog_lock = threading.Lock()
 
     def production():
         nonlocal producer
@@ -124,7 +128,9 @@ def create_app(
             release = rec.pop("_release", row["origin"]["release"])
             for segment in rec["segments"]:
                 segment["url"] = (
-                    f"/api/library/production/jobs/{rec['_job']}/media/{segment['index']}/{segment['sha256']}"
+                    f"/api/library/media/{segment.pop('_release')}/{segment.pop('_recording')}/{segment['index']}"
+                    if segment.get("_release")
+                    else f"/api/library/production/jobs/{rec['_job']}/media/{segment['index']}/{segment['sha256']}"
                     if rec.get("_job")
                     else f"/api/library/media/{release}/{rec['id']}/{segment['index']}"
                 )
@@ -133,7 +139,22 @@ def create_app(
         return row
 
     def catalog(request):
-        snapshot = library.snapshot(refresh=request.query_params.get("refresh") == "1")
+        snapshot = library.snapshot(
+            refresh=request.query_params.get("refresh") == "1", copy=False
+        )
+        key = (snapshot["generation"], tuple(snapshot["errors"]))
+        etag = 'W/"' + digest(key) + '"'
+        if request.headers.get("if-none-match") == etag:
+            return Response(
+                status_code=304, headers={"Cache-Control": "no-cache", "ETag": etag}
+            )
+        with catalog_lock:
+            if catalog_cache.get("key") != key:
+                catalog_cache["response"] = catalog_response(snapshot, etag)
+                catalog_cache["key"] = key
+            return catalog_cache["response"]
+
+    def catalog_response(snapshot, etag):
         collections = [
             dict(course, **collection_metadata(course, course["id"].split(":")[0]))
             for course in snapshot["courses"].values()
@@ -157,7 +178,7 @@ def create_app(
                 "errors": snapshot["errors"],
                 "legacy": bool(legacy),
             },
-            headers={"Cache-Control": "no-store"},
+            headers={"Cache-Control": "no-cache", "ETag": etag},
         )
 
     def storage(request):
@@ -172,7 +193,7 @@ def create_app(
 
         lecture_id = request.query_params.get("lecture_id")
         release = request.query_params.get("release")
-        snapshot = library.snapshot()
+        snapshot = library.snapshot(copy=False)
         rows = snapshot["lectures"]
         if lecture_id:
             lecture_id = qualified(lecture_id)
@@ -205,13 +226,13 @@ def create_app(
 
     def lecture(request):
         key = qualified(request.path_params["lecture_id"])
-        snapshot = library.snapshot()
+        snapshot = library.snapshot(copy=False)
         key = snapshot.get("aliases", {}).get(key, key)
         if request.query_params.get("release"):
             row = library.historical(request.query_params["release"], key)
             row.setdefault("origin", {"release": request.query_params["release"]})
         else:
-            row = library.snapshot()["lectures"][key]
+            row = snapshot["lectures"][key]
         return JSONResponse(annotate(row), headers={"Cache-Control": "no-store"})
 
     def transcript(request):
@@ -220,7 +241,7 @@ def create_app(
         row = (
             library.historical(release, key)
             if release
-            else library.snapshot()["lectures"][key]
+            else library.snapshot(copy=False)["lectures"][key]
         )
         return PlainTextResponse(row["transcript"])
 
@@ -265,7 +286,9 @@ def create_app(
 
     async def profiles(request):
         if request.method == "GET":
-            return JSONResponse({"profiles": listeners.profiles()})
+            return JSONResponse(
+                {"profiles": listeners.profiles(), "aliases": listeners.aliases()}
+            )
         payload = await body(request)
         return JSONResponse(listeners.create_profile(payload["name"]), status_code=201)
 
@@ -400,7 +423,7 @@ def create_app(
         row = (
             library.historical(checksum(release), key)
             if release
-            else library.snapshot()["lectures"][key]
+            else library.snapshot(copy=False)["lectures"][key]
         )
         return JSONResponse(
             production().narrators(
@@ -461,11 +484,11 @@ def create_app(
     async def prepare(request):
         payload = await body(request)
         if payload.get("course_id") or payload.get("lecture_ids"):
-            if payload.get("blocks") is not None:
+            if payload.get("blocks") is not None or payload.get("base_recording_id"):
                 raise ValueError("Select blocks within one lecture")
             selection = payload.get("lecture_ids", [])
             if payload.get("course_id"):
-                snapshot = library.snapshot()
+                snapshot = library.snapshot(copy=False)
                 selection = snapshot["courses"][qualified(payload["course_id"])][
                     "lectures"
                 ]
@@ -487,9 +510,9 @@ def create_app(
             return JSONResponse({"jobs": result}, status_code=202)
         if (
             payload.get("revision")
-            and library.snapshot()["lectures"][qualified(payload["lecture_id"])][
-                "revision"
-            ]
+            and library.snapshot(copy=False)["lectures"][
+                qualified(payload["lecture_id"])
+            ]["revision"]
             != payload["revision"]
         ):
             raise Conflict(
@@ -501,7 +524,12 @@ def create_app(
             payload["profile"],
             voice=payload.get("voice"),
             speed=payload.get("speed", 1),
-            blocks=payload.get("blocks"),
+            **({"blocks": payload["blocks"]} if "blocks" in payload else {}),
+            **(
+                {"base_recording_id": payload["base_recording_id"]}
+                if payload.get("base_recording_id")
+                else {}
+            ),
         )
         return JSONResponse(result, status_code=202)
 
@@ -517,7 +545,10 @@ def create_app(
         )
 
     def jobs(request):
-        return JSONResponse({"jobs": production().list()})
+        lecture_id = request.query_params.get("lecture_id")
+        return JSONResponse(
+            {"jobs": production().list(qualified(lecture_id) if lecture_id else None)}
+        )
 
     async def retry_job(request):
         return JSONResponse(

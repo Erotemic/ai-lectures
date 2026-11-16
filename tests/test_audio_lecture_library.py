@@ -561,11 +561,10 @@ def test_local_tts_config_adds_reader_profile_without_replacing_defaults(tmp_pat
     monkeypatch.setattr(tts, 'LOCAL_CONFIG', overlay)
     hub = AudioLectureHub(cache=tmp_path / 'cache')
     try:
-        # Local profiles are additional options. The checked-in public Breeze
-        # profile remains the reader default unless the operator overrides it.
-        assert hub.profile == 'crall-math-dk-v2-breeze-tts2'
+        # The local top-level profile selects the audio reader default.
+        assert hub.profile == 'private-voice-breeze-tts2'
         ids = [row['id'] for row in hub.profiles()]
-        assert ids[0] == 'crall-math-dk-v2-breeze-tts2'
+        assert ids[0] == 'private-voice-breeze-tts2'
         assert 'private-voice-breeze-tts2' in ids
         engine = hub.engine('private-voice-breeze-tts2')
         assert engine.model == 'breeze-tts2'

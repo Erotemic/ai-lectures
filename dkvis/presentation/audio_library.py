@@ -948,11 +948,10 @@ class AudioLectureHub:
         # overrides still take precedence; preserve alternate configs that do
         # not include that public profile.
         profiles = self.document.get('profiles', {})
-        default_profile = ('crall-math-dk-v2-breeze-tts2'
-                           if 'crall-math-dk-v2-breeze-tts2' in profiles
-                           else self.document.get('profile', 'kokoro'))
+        default_profile = (self.document.get('profile')
+                           or os.environ.get('DKVIS_TTS_PROFILE') or 'kokoro')
         self.profile = (profile or os.environ.get('DKVIS_AUDIO_TTS_PROFILE')
-                        or os.environ.get('DKVIS_TTS_PROFILE') or default_profile)
+                        or default_profile)
         if self.profile not in profiles:
             raise ValueError(f'Unknown audio profile: {self.profile}')
         self._endpoint_override = endpoint

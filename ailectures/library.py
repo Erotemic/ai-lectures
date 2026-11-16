@@ -4,6 +4,7 @@ from __future__ import annotations
 
 from copy import deepcopy
 import json
+import threading
 
 from .catalog import RepositoryCatalog
 from .core import canonical, digest
@@ -30,17 +31,33 @@ class Library:
         )
         self.repository = RepositoryCatalog(repository) if repository else None
         self._saved_snapshots = set()
+        self._lock = threading.RLock()
+        self._snapshot_key = None
         with self.store.connect() as db:
             db.execute(
                 "CREATE TABLE IF NOT EXISTS source_snapshots (release TEXT PRIMARY KEY, catalog TEXT NOT NULL)"
             )
 
-    def snapshot(self, *, refresh=False):
-        if refresh:
-            self.store.reconcile(force=True)
-        installed = self.store.snapshot()
+    def snapshot(self, *, refresh=False, copy=True):
+        """Reuse unchanged compositions; copy=False is for read-only callers."""
+        with self._lock:
+            if refresh:
+                self.store.reconcile(force=True)
+            installed = self.store.snapshot(copy=False)
+            sources = self.repository.snapshot(copy=False) if self.repository else {}
+            key = (
+                installed["generation"],
+                self.repository.change_token if self.repository else None,
+                tuple(self.store.errors),
+                tuple(self.repository.errors) if self.repository else (),
+            )
+            if key != self._snapshot_key:
+                self._snapshot_cache = self._compose(installed, sources)
+                self._snapshot_key = key
+            return deepcopy(self._snapshot_cache) if copy else self._snapshot_cache
+
+    def _compose(self, installed, sources):
         result = deepcopy(installed)
-        sources = self.repository.snapshot() if self.repository else {}
         for pack_id, pack in sources.items():
             source_rows = deepcopy(pack["lectures"])
             for key, row in source_rows.items():

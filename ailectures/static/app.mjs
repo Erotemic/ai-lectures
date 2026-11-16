@@ -30,6 +30,8 @@ let catalog = { lectures: [], courses: [], packs: [] },
 let playingQueueEntry = null;
 let renderToken = 0;
 let lectureAudio = null;
+let lectureIndex = new Map(),
+  catalogTag = null;
 const device = getStored("device") || randomId();
 store("device", device);
 let sequence = getStored("sequence", 0),
@@ -56,7 +58,7 @@ const button = (text, action, primary = false) =>
   });
 const description = (text) => el("p", { class: "intro", text });
 const title = (text) => el("h1", { text });
-const byId = (id) => catalog.lectures.find((r) => r.id === id);
+const byId = (id) => lectureIndex.get(id);
 const ready = (row) => row?.recordings.some((r) => r.complete);
 const badgeText = (row) =>
   row?.kind === "presentation"
@@ -239,6 +241,21 @@ const listeningQueue = new ListeningQueue({
 });
 async function loadListeners() {
   const data = await api("/api/listeners");
+  if (data.aliases?.[profile]) {
+    const old = profile;
+    profile = data.aliases[profile];
+    store("listener", profile);
+    const pending = getStored("pending:" + profile, []);
+    const known = new Set(pending.map((event) => event.update_id));
+    store(
+      "pending:" + profile,
+      pending.concat(
+        getStored("pending:" + old, []).filter(
+          (event) => !known.has(event.update_id),
+        ),
+      ),
+    );
+  }
   $("listener").replaceChildren(
     el("option", { value: "", text: "This device" }),
     ...data.profiles.map((p) => el("option", { value: p.id, text: p.name })),
@@ -259,15 +276,17 @@ async function loadListeners() {
     await flushProgress();
   }
 }
-$("listener").onchange = async () => {
+async function selectListener(id) {
   player.save();
   playingQueueEntry = null;
   await saveChain;
-  profile = $("listener").value;
+  profile = id;
   store("listener", profile);
   await loadListeners();
-  render();
-};
+  await render();
+}
+$("listener").onchange = () =>
+  selectListener($("listener").value).catch((error) => message(error.message));
 $("add-listener").onclick = () => $("listener-dialog").showModal();
 $("listener-cancel").onclick = () => $("listener-dialog").close();
 $("listener-form").onsubmit = async (event) => {
@@ -276,12 +295,9 @@ $("listener-form").onsubmit = async (event) => {
     const row = await post("/api/listeners", {
       name: $("listener-name").value,
     });
-    profile = row.id;
-    store("listener", profile);
     $("listener-dialog").close();
     $("listener-name").value = "";
-    await loadListeners();
-    render();
+    await selectListener(row.id);
   } catch (e) {
     message(e.message);
   }
@@ -310,6 +326,10 @@ const browse = (collectionsOnly = false) =>
 const coursePage = (id) => browser.collection($("main"), id);
 async function lecturePage(id, autoplay = false, historical = null) {
   const token = ++renderToken;
+  $("main").replaceChildren(
+    title(byId(id)?.title || "Loading lecture…"),
+    description("Loading lecture…"),
+  );
   const latest =
     historical ||
     (await api("/api/library/lectures/" + encodeURIComponent(id)));
@@ -344,12 +364,15 @@ async function lecturePage(id, autoplay = false, historical = null) {
     onChange: () => refreshTranscript(),
   });
   lectureAudio = audio;
-  await audio.ready;
-  if (token !== renderToken) {
-    audio.dispose();
-    return;
-  }
-  player.course = currentCourse;
+  audio.ready.catch((error) => {
+    if (token === renderToken) message(error.message);
+  });
+  const pageCourse = currentCourse;
+  audio.ready
+    .then(() => {
+      if (token === renderToken) player.course = pageCourse;
+    })
+    .catch(() => {});
   const course = catalog.courses.find((c) => c.id === currentCourse);
   const top = el(
     "div",
@@ -384,29 +407,32 @@ async function lecturePage(id, autoplay = false, historical = null) {
       ),
     );
   const saved = progress[id];
-  if (saved?.legacy)
+  if (saved?.legacy) {
+    const legacyActions = el("div", { class: "actions" });
     top.append(
       el(
         "div",
         { class: "notice" },
         `The old reader saved passage ${saved.legacy.page_index + 1}, without source or narrator revisions. Its original history is retained. `,
-        player.recording
-          ? button("Resume approximately", () => {
-              const position = approximateLegacyPosition(
-                saved,
-                player.recording,
-              );
-              player.play(position.index, position.seconds);
-              message(
-                "This is an approximate position from the old reader's selected passage.",
-              );
-            })
-          : null,
-        player.recording
-          ? button("Start from beginning", () => player.play(0, 0))
-          : null,
+        legacyActions,
       ),
     );
+    audio.ready
+      .then(() => {
+        if (token !== renderToken || !player.recording) return;
+        legacyActions.append(
+          button("Resume approximately", () => {
+            const position = approximateLegacyPosition(saved, player.recording);
+            player.play(position.index, position.seconds);
+            message(
+              "This is an approximate position from the old reader's selected passage.",
+            );
+          }),
+          button("Start from beginning", () => player.play(0, 0)),
+        );
+      })
+      .catch(() => {});
+  }
   if (saved?.release && saved.spoken_sha256 !== row.spoken_sha256)
     top.append(
       el(
@@ -461,7 +487,11 @@ async function lecturePage(id, autoplay = false, historical = null) {
     text.replaceChildren();
     delete text.dataset.recording;
     delete text.dataset.lecture;
-    if (player.recording) {
+    if (
+      player.row?.id === row.id &&
+      player.row.revision === row.revision &&
+      player.recording
+    ) {
       text.dataset.lecture = row.id;
       text.dataset.recording = player.recording.id;
       player.recording.pages.forEach((page, index) => {
@@ -625,7 +655,10 @@ async function lecturePage(id, autoplay = false, historical = null) {
     el("div", { class: "lecture-layout" }, text, side),
   );
   player.update();
-  if (autoplay) audio.play();
+  if (autoplay) {
+    await audio.ready;
+    if (token === renderToken) audio.play();
+  }
 }
 function feedbackForm(row) {
   const key = "feedback:" + row.id + ":" + row.revision;
@@ -1004,9 +1037,23 @@ async function render(autoplay = false) {
   }
 }
 async function refresh(force = false) {
-  const next = await api("/api/library/catalog" + (force ? "?refresh=1" : ""));
+  const response = await fetch(
+    "/api/library/catalog" + (force ? "?refresh=1" : ""),
+    {
+      cache: "no-store",
+      headers: !force && catalogTag ? { "If-None-Match": catalogTag } : {},
+    },
+  );
+  if (response.status === 304) return false;
+  const next = await response.json();
+  if (!response.ok)
+    throw new Error(
+      next.error || `Catalog request failed (${response.status})`,
+    );
+  catalogTag = response.headers.get("ETag");
   const changed = next.generation !== catalog.generation;
   catalog = next;
+  lectureIndex = new Map(next.lectures.map((row) => [row.id, row]));
   $("presentations").hidden = !catalog.legacy;
   return changed;
 }
