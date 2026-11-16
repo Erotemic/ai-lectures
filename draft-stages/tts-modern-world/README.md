@@ -207,3 +207,13 @@ Source links, access scopes and evidence limits are recorded in display-only par
 - **086000 — [Who Must Change the Weather's Future? Climate Politics from Kyoto to Paris, 2000–2015](086000-who-must-change-the-weathers-future.md)** (2,285 spoken words; 23 paragraph-level evidence records). Kyoto, Copenhagen, Cancun, Durban, Paris, scientific evidence, finance and energy change.
 
 Supporting references and review limitations remain in non-spoken evidence ledgers and metadata sidecars. Length is determined by the content, not a prescribed target.
+
+
+## Displacement, epidemic response, Ukraine and labor (087000–090000)
+
+- **087000 — [The Crossing Is Not the Destination: Displacement and Europe's Mediterranean Borders, 2014–2016](087000-the-crossing-is-not-the-destination.md)** (2,271 spoken words; 20 paragraph-level evidence records). Mediterranean routes, protection law, reception, EU relocations and the 2016 EU–Turkey statement.
+- **088000 — [Care in the Time of Ebola: West Africa's Epidemic and Its Lessons, 2013–2016](088000-care-in-the-time-of-ebola.md)** (2,072 spoken words; 20 paragraph-level evidence records). Guinea, Liberia and Sierra Leone epidemic, local responders, public health, vaccine trials and survivors.
+- **089000 — [The Square, the Peninsula, and the Front Line: Ukraine, 2013–2015](089000-the-square-the-peninsula-and-the-front-line.md)** (2,095 spoken words; 19 paragraph-level evidence records). Maidan protests, government transition, annexation of Crimea, Donbas fighting and Minsk.
+- **090000 — [The Job Beyond the Job: Wages, Platforms, and Inequality in the 2010s](090000-the-job-beyond-the-job.md)** (2,075 spoken words; 19 paragraph-level evidence records). Supply chains, Rana Plaza, microtask platforms, household care, wages and distribution.
+
+Each narration paragraph maps to nonspoken citation records. Source review scope and limitations are explicit; lecture length follows the subject rather than a fixed policy.

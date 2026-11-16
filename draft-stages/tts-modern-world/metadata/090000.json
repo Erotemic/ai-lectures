@@ -1,0 +1,290 @@
+{
+  "schema_version": 1,
+  "lecture_id": "090000",
+  "transcript": "090000-the-job-beyond-the-job.md",
+  "related_resources": [
+    {
+      "source_id": "b4-lab-domestic",
+      "reason": "Domestic work incidence, demographics and social-protection gaps",
+      "access_scope": "source_webpage_or_search_excerpt_reviewed"
+    },
+    {
+      "source_id": "b4-lab-ilo-jobs",
+      "reason": "Employment types and policy interactions in changing labor markets",
+      "access_scope": "source_webpage_or_search_excerpt_reviewed"
+    },
+    {
+      "source_id": "b4-lab-platform",
+      "reason": "Global microtask-worker sample, availability and remuneration, working conditions",
+      "access_scope": "source_webpage_or_search_excerpt_reviewed"
+    },
+    {
+      "source_id": "b4-lab-rana",
+      "reason": "Rana Plaza 24 April 2013 collapse, Accord and response timeline",
+      "access_scope": "source_webpage_or_search_excerpt_reviewed"
+    },
+    {
+      "source_id": "b4-lab-ranacomp",
+      "reason": "Funding milestone, payments process and multi-stakeholder responsibilities",
+      "access_scope": "source_webpage_or_search_excerpt_reviewed"
+    },
+    {
+      "source_id": "b4-lab-ranasafety",
+      "reason": "Factory inspection and post-Rana Plaza safety improvements and limitations",
+      "access_scope": "source_webpage_or_search_excerpt_reviewed"
+    },
+    {
+      "source_id": "b4-lab-wages",
+      "reason": "Wages and between- versus within-firm wage inequality",
+      "access_scope": "source_webpage_or_search_excerpt_reviewed"
+    },
+    {
+      "source_id": "b4-lab-wid",
+      "reason": "Long-run global income growth distribution through 2016 and between/within country distinctions",
+      "access_scope": "source_webpage_or_search_excerpt_reviewed"
+    },
+    {
+      "source_id": "b4-lab-women",
+      "reason": "Paid and unpaid work, labor-force participation, wage gaps and employment quality",
+      "access_scope": "source_webpage_or_search_excerpt_reviewed"
+    },
+    {
+      "source_id": "b4-lab-worldbank",
+      "reason": "Lower-40-percent income growth across selected countries and global poverty trends",
+      "access_scope": "source_webpage_or_search_excerpt_reviewed"
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "090000-p01",
+      "anchor": "Consider a garment hanging in a shop window in two thousand and fifteen. A ",
+      "kind": "historical_research",
+      "source_ids": [
+        "b4-lab-ilo-jobs",
+        "b4-lab-rana"
+      ],
+      "source_locator": "b4-lab-ilo-jobs: Employment types and policy interactions in changing labor markets; b4-lab-rana: Rana Plaza 24 April 2013 collapse, Accord and response timeline",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "International labor agency overview; variation by country and occupation Institutional chronology with changing reported fatality figures"
+    },
+    {
+      "id": "090000-p02",
+      "anchor": "The first decade after the global financial crisis of two thousand and eigh",
+      "kind": "historical_research",
+      "source_ids": [
+        "b4-lab-worldbank",
+        "b4-lab-wid",
+        "b4-lab-wages"
+      ],
+      "source_locator": "b4-lab-worldbank: Lower-40-percent income growth across selected countries and global poverty trends; b4-lab-wid: Long-run global income growth distribution through 2016 and between/within country distinctions; b4-lab-wages: Wages and between- versus within-firm wage inequality",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Coverage constrained to studied countries and time periods; not all local inequality Estimates rely on income concepts, taxes and survey reconciliation; period broader than the 2010s Global research summary; doesn't establish causal mechanisms at each employer"
+    },
+    {
+      "id": "090000-p03",
+      "anchor": "To answer, we must separate several measures often called inequality. Inequ",
+      "kind": "historical_research",
+      "source_ids": [
+        "b4-lab-wid",
+        "b4-lab-wages",
+        "b4-lab-worldbank"
+      ],
+      "source_locator": "b4-lab-wid: Long-run global income growth distribution through 2016 and between/within country distinctions; b4-lab-wages: Wages and between- versus within-firm wage inequality; b4-lab-worldbank: Lower-40-percent income growth across selected countries and global poverty trends",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Estimates rely on income concepts, taxes and survey reconciliation; period broader than the 2010s Global research summary; doesn't establish causal mechanisms at each employer Coverage constrained to studied countries and time periods; not all local inequality"
+    },
+    {
+      "id": "090000-p04",
+      "anchor": "On April twenty-fourth, two thousand and thirteen, the Rana Plaza building ",
+      "kind": "historical_research",
+      "source_ids": [
+        "b4-lab-rana",
+        "b4-lab-ranasafety"
+      ],
+      "source_locator": "b4-lab-rana: Rana Plaza 24 April 2013 collapse, Accord and response timeline; b4-lab-ranasafety: Factory inspection and post-Rana Plaza safety improvements and limitations",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Institutional chronology with changing reported fatality figures ILO program retrospective, not independent firm-by-firm outcome evidence"
+    },
+    {
+      "id": "090000-p05",
+      "anchor": "After the collapse, international and Bangladeshi organizations helped crea",
+      "kind": "historical_research",
+      "source_ids": [
+        "b4-lab-rana",
+        "b4-lab-ranasafety",
+        "b4-lab-ranacomp"
+      ],
+      "source_locator": "b4-lab-rana: Rana Plaza 24 April 2013 collapse, Accord and response timeline; b4-lab-ranasafety: Factory inspection and post-Rana Plaza safety improvements and limitations; b4-lab-ranacomp: Funding milestone, payments process and multi-stakeholder responsibilities",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Institutional chronology with changing reported fatality figures ILO program retrospective, not independent firm-by-firm outcome evidence Official program status; compensation cannot substitute for preventive safety"
+    },
+    {
+      "id": "090000-p06",
+      "anchor": "Compensation raised another question. A payment made after someone is kille",
+      "kind": "historical_research",
+      "source_ids": [
+        "b4-lab-ranacomp"
+      ],
+      "source_locator": "b4-lab-ranacomp: Funding milestone, payments process and multi-stakeholder responsibilities",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Official program status; compensation cannot substitute for preventive safety"
+    },
+    {
+      "id": "090000-p07",
+      "anchor": "During the same decade, digital platforms offered another way to organize l",
+      "kind": "historical_research",
+      "source_ids": [
+        "b4-lab-platform",
+        "b4-lab-ilo-jobs"
+      ],
+      "source_locator": "b4-lab-platform: Global microtask-worker sample, availability and remuneration, working conditions; b4-lab-ilo-jobs: Employment types and policy interactions in changing labor markets",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Online microtask study of selected platforms, not a representative ride-hailing census International labor agency overview; variation by country and occupation"
+    },
+    {
+      "id": "090000-p08",
+      "anchor": "Platform labor took several forms. A ride-hailing driver used a vehicle and",
+      "kind": "historical_research",
+      "source_ids": [
+        "b4-lab-platform"
+      ],
+      "source_locator": "b4-lab-platform: Global microtask-worker sample, availability and remuneration, working conditions",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Online microtask study of selected platforms, not a representative ride-hailing census"
+    },
+    {
+      "id": "090000-p09",
+      "anchor": "The word flexible could describe genuine convenience, but it could also con",
+      "kind": "historical_research",
+      "source_ids": [
+        "b4-lab-platform",
+        "b4-lab-ilo-jobs"
+      ],
+      "source_locator": "b4-lab-platform: Global microtask-worker sample, availability and remuneration, working conditions; b4-lab-ilo-jobs: Employment types and policy interactions in changing labor markets",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Online microtask study of selected platforms, not a representative ride-hailing census International labor agency overview; variation by country and occupation"
+    },
+    {
+      "id": "090000-p10",
+      "anchor": "Not all economically necessary work appears as a wage. Raising children, ca",
+      "kind": "historical_research",
+      "source_ids": [
+        "b4-lab-women",
+        "b4-lab-wages"
+      ],
+      "source_locator": "b4-lab-women: Paid and unpaid work, labor-force participation, wage gaps and employment quality; b4-lab-wages: Wages and between- versus within-firm wage inequality",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Regional and global summary; not a single account of every household Global research summary; doesn't establish causal mechanisms at each employer"
+    },
+    {
+      "id": "090000-p11",
+      "anchor": "Paid domestic workers occupied a related but distinct position. They cared ",
+      "kind": "historical_research",
+      "source_ids": [
+        "b4-lab-domestic",
+        "b4-lab-women"
+      ],
+      "source_locator": "b4-lab-domestic: Domestic work incidence, demographics and social-protection gaps; b4-lab-women: Paid and unpaid work, labor-force participation, wage gaps and employment quality",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Earlier estimates and legal coverage snapshots subject to revision Regional and global summary; not a single account of every household"
+    },
+    {
+      "id": "090000-p12",
+      "anchor": "These are not merely accounting disputes. A government deciding whether to ",
+      "kind": "historical_research",
+      "source_ids": [
+        "b4-lab-women",
+        "b4-lab-worldbank"
+      ],
+      "source_locator": "b4-lab-women: Paid and unpaid work, labor-force participation, wage gaps and employment quality; b4-lab-worldbank: Lower-40-percent income growth across selected countries and global poverty trends",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Regional and global summary; not a single account of every household Coverage constrained to studied countries and time periods; not all local inequality"
+    },
+    {
+      "id": "090000-p13",
+      "anchor": "The evidence of the two thousand and tens does not support a story in which",
+      "kind": "historical_research",
+      "source_ids": [
+        "b4-lab-worldbank"
+      ],
+      "source_locator": "b4-lab-worldbank: Lower-40-percent income growth across selected countries and global poverty trends",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Coverage constrained to studied countries and time periods; not all local inequality"
+    },
+    {
+      "id": "090000-p14",
+      "anchor": "Researchers associated with the World Inequality Report estimated that, ove",
+      "kind": "historical_research",
+      "source_ids": [
+        "b4-lab-wid"
+      ],
+      "source_locator": "b4-lab-wid: Long-run global income growth distribution through 2016 and between/within country distinctions",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Estimates rely on income concepts, taxes and survey reconciliation; period broader than the 2010s"
+    },
+    {
+      "id": "090000-p15",
+      "anchor": "Firms were not homogeneous either. The International Labour Organization's ",
+      "kind": "historical_research",
+      "source_ids": [
+        "b4-lab-wages",
+        "b4-lab-ilo-jobs"
+      ],
+      "source_locator": "b4-lab-wages: Wages and between- versus within-firm wage inequality; b4-lab-ilo-jobs: Employment types and policy interactions in changing labor markets",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Global research summary; doesn't establish causal mechanisms at each employer International labor agency overview; variation by country and occupation"
+    },
+    {
+      "id": "090000-p16",
+      "anchor": "Workers responded in different ways. Factory employees organized unions and",
+      "kind": "historical_research",
+      "source_ids": [
+        "b4-lab-ranasafety",
+        "b4-lab-domestic",
+        "b4-lab-platform"
+      ],
+      "source_locator": "b4-lab-ranasafety: Factory inspection and post-Rana Plaza safety improvements and limitations; b4-lab-domestic: Domestic work incidence, demographics and social-protection gaps; b4-lab-platform: Global microtask-worker sample, availability and remuneration, working conditions",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "ILO program retrospective, not independent firm-by-firm outcome evidence Earlier estimates and legal coverage snapshots subject to revision Online microtask study of selected platforms, not a representative ride-hailing census"
+    },
+    {
+      "id": "090000-p17",
+      "anchor": "There was no universal solution in a single minimum wage, training program,",
+      "kind": "historical_research",
+      "source_ids": [
+        "b4-lab-wages",
+        "b4-lab-ranasafety",
+        "b4-lab-platform"
+      ],
+      "source_locator": "b4-lab-wages: Wages and between- versus within-firm wage inequality; b4-lab-ranasafety: Factory inspection and post-Rana Plaza safety improvements and limitations; b4-lab-platform: Global microtask-worker sample, availability and remuneration, working conditions",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Global research summary; doesn't establish causal mechanisms at each employer ILO program retrospective, not independent firm-by-firm outcome evidence Online microtask study of selected platforms, not a representative ride-hailing census"
+    },
+    {
+      "id": "090000-p18",
+      "anchor": "The history of work in the two thousand and tens was not simply a contest b",
+      "kind": "historical_research",
+      "source_ids": [
+        "b4-lab-ilo-jobs",
+        "b4-lab-platform",
+        "b4-lab-women"
+      ],
+      "source_locator": "b4-lab-ilo-jobs: Employment types and policy interactions in changing labor markets; b4-lab-platform: Global microtask-worker sample, availability and remuneration, working conditions; b4-lab-women: Paid and unpaid work, labor-force participation, wage gaps and employment quality",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "International labor agency overview; variation by country and occupation Online microtask study of selected platforms, not a representative ride-hailing census Regional and global summary; not a single account of every household"
+    },
+    {
+      "id": "090000-p19",
+      "anchor": "A worker's paycheck is evidence about one relationship. It does not fully e",
+      "kind": "historical_research",
+      "source_ids": [
+        "b4-lab-worldbank",
+        "b4-lab-wages",
+        "b4-lab-women"
+      ],
+      "source_locator": "b4-lab-worldbank: Lower-40-percent income growth across selected countries and global poverty trends; b4-lab-wages: Wages and between- versus within-firm wage inequality; b4-lab-women: Paid and unpaid work, labor-force participation, wage gaps and employment quality",
+      "audit_status": "source_scope_and_limits_mapped",
+      "source_limitations": "Coverage constrained to studied countries and time periods; not all local inequality Global research summary; doesn't establish causal mechanisms at each employer Regional and global summary; not a single account of every household"
+    }
+  ]
+}

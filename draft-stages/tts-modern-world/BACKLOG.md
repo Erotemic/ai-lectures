@@ -285,3 +285,20 @@ Citation quality takes priority over bibliography size: a reliable passage that 
 - **088000:** The West African Ebola epidemic, 2013–2016: infection control, local care systems, scientific research, survivor experiences and the international response.
 - **089000:** Ukraine's political upheaval and armed conflict, 2013–2015: competing civic claims, Crimea, Donbas, foreign involvement and civilian life; carefully distinguish verified records and disputed interpretations.
 - **090000:** Work, wages, and inequality in the 2010s: global supply chains, platform labor, labor organizing, public services and economic measurement beyond headline GDP.
+
+
+## Completed 087000–090000 — displacement, epidemic, Ukraine and work
+
+- **087000:** The Crossing Is Not the Destination: Displacement and Europe's Mediterranean Borders, 2014–2016. Mediterranean routes, protection law, reception, EU relocations and the 2016 EU–Turkey statement. (20 mapped narration paragraphs.)
+- **088000:** Care in the Time of Ebola: West Africa's Epidemic and Its Lessons, 2013–2016. Guinea, Liberia and Sierra Leone epidemic, local responders, public health, vaccine trials and survivors. (20 mapped narration paragraphs.)
+- **089000:** The Square, the Peninsula, and the Front Line: Ukraine, 2013–2015. Maidan protests, government transition, annexation of Crimea, Donbas fighting and Minsk. (19 mapped narration paragraphs.)
+- **090000:** The Job Beyond the Job: Wages, Platforms, and Inequality in the 2010s. Supply chains, Rana Plaza, microtask platforms, household care, wages and distribution. (19 mapped narration paragraphs.)
+
+**Evidence to deepen:** Seek refugee testimony in original languages and adjudication outcomes; local epidemic community archives and survivor studies; Ukrainian- and Russian-language contemporaneous sources and incident-specific investigations; and workers' original testimony and labor contract records. Linked source pages distinguish institutional chronology from measured outcomes.
+
+## Next research candidates (not indexed)
+
+- **091000:** Brexit referendum and withdrawal negotiations, 2015–2020: sovereignty, trade, the Irish border and competing national futures.
+- **092000:** Rohingya persecution and displacement, 2016–2018: citizenship, armed forces, refugee flight, evidence and international legal responses.
+- **093000:** Global protests and social movements in 2017–2019: Chile, Hong Kong, Sudan, Algeria and the many institutions protesters confronted.
+- **094000:** Early COVID-19 pandemic, 2019–2021: scientific discovery, public health, vaccine development and the unequal distribution of risk.
