@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "lecture_id": "011000",
+  "transcript": "011000-dust-collection-respiratory-exposure-and-workshop-ventilation.md",
+  "related_resources": [
+    {
+      "source_id": "osha-wood-dust-local-exhaust",
+      "reason": "Wood dust exposure and preferred local source capture, hoods and collectors"
+    },
+    {
+      "source_id": "osha-wood-dust-fire",
+      "reason": "Combustible dust, housekeeping, ignition and local extraction"
+    },
+    {
+      "source_id": "osha-crystalline-silica",
+      "reason": "Respirable silica production by concrete and masonry work and control distinction"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P011000-01",
+      "claim": "Local exhaust capture near wood cutting or sanding source is a primary occupational dust-control method.",
+      "kind": "original_osha_woodworking_guidance",
+      "supports": [
+        {
+          "source_id": "osha-wood-dust-local-exhaust",
+          "location": "Production wood dust; local capture",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim limited to source context and design/application; local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P011000-02",
+      "claim": "Dust collection and cleaning methods must account for combustible wood dust and possible ignition sources.",
+      "kind": "original_osha_fire_explosion_guidance",
+      "supports": [
+        {
+          "source_id": "osha-wood-dust-fire",
+          "location": "Woodworking fire/explosion prevention",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim limited to source context and design/application; local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P011000-03",
+      "claim": "Cutting and grinding concrete, brick, and mortar create respirable crystalline silica hazards distinct from wood-dust exposure.",
+      "kind": "original_osha_silica_guidance",
+      "supports": [
+        {
+          "source_id": "osha-crystalline-silica",
+          "location": "Sources and consequences of respirable silica",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim limited to source context and design/application; local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P011000-04",
+      "claim": "Respiratory equipment selection must be matched to the actual contaminant and cannot replace sound engineering control.",
+      "kind": "derived_exposure_control_synthesis",
+      "supports": [
+        {
+          "source_id": "osha-wood-dust-local-exhaust",
+          "location": "Local collection",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "osha-crystalline-silica",
+          "location": "Material-specific risk",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Derived explanatory synthesis; sources support relevant mechanisms, not independent certification.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_technical_review_pending",
+  "citation_policy": "Original issuers and named authors attributed; sourced facts and explanatory synthesis distinguished. No professional or jurisdictional certification is implied."
+}

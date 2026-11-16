@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "lecture_id": "011000",
+  "transcript": "011000-inspecting-an-existing-house-an-evidence-based-walkthrough.md",
+  "related_resources": [
+    {
+      "source_id": "doe-air-vapor",
+      "reason": "Separate air leakage, vapor diffusion and water-management functions"
+    },
+    {
+      "source_id": "pnnl-drainage-plane",
+      "reason": "Continuity of water-control layer; shingle laps and exterior drainage"
+    },
+    {
+      "source_id": "pnnl-window-flashing",
+      "reason": "Sill pan, jamb/head flashing and connections to drainage plane"
+    },
+    {
+      "source_id": "pnnl-basement-drain",
+      "reason": "Footing drainage, sump pit, below-floor water management and discharge"
+    },
+    {
+      "source_id": "epa-radon-action",
+      "reason": "EPA US 4 pCi/L action recommendation and 2–4 pCi/L consider-action range"
+    },
+    {
+      "source_id": "cdc-co-basics-building",
+      "reason": "CO exposure, fuel appliances, generators and detector maintenance"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P011000-01",
+      "claim": "Bulk water intrusion, air leakage, and water-vapor diffusion are distinct transport mechanisms and require different observations.",
+      "kind": "derived_building_physics_synthesis",
+      "supports": [
+        {
+          "source_id": "doe-air-vapor",
+          "location": "Air leakage and vapor diffusion",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "pnnl-drainage-plane",
+          "location": "Water-control and drainage paths",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Derived explanatory synthesis; sources support relevant mechanisms, not independent certification.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P011000-02",
+      "claim": "Roof and wall flashings need drainage continuity to guide incidental rainwater toward the exterior.",
+      "kind": "agency_drainage_detail_guidance",
+      "supports": [
+        {
+          "source_id": "pnnl-window-flashing",
+          "location": "Window drainage flashing",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "pnnl-drainage-plane",
+          "location": "Drainage plane continuity",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim limited to source context and design/application; local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P011000-03",
+      "claim": "Below-grade moisture symptoms can result from surface water, below-grade seepage, or vapor and humidity transport.",
+      "kind": "derived_diagnostic_synthesis",
+      "supports": [
+        {
+          "source_id": "pnnl-basement-drain",
+          "location": "Basement drainage strategies",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "doe-air-vapor",
+          "location": "Transport distinctions",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Derived explanatory synthesis; sources support relevant mechanisms, not independent certification.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P011000-04",
+      "claim": "A visual walk-through cannot alone establish hidden radon, combustion, electrical, or structural safety.",
+      "kind": "derived_scope_limit",
+      "supports": [
+        {
+          "source_id": "epa-radon-action",
+          "location": "Testing requirement",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "cdc-co-basics-building",
+          "location": "Carbon monoxide cannot be detected by smell",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Derived explanatory synthesis; sources support relevant mechanisms, not independent certification.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_technical_review_pending",
+  "citation_policy": "Original issuers and named authors attributed; sourced facts and explanatory synthesis distinguished. No professional or jurisdictional certification is implied."
+}

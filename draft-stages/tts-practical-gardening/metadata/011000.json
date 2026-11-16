@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "lecture_id": "011000",
+  "transcript": "011000-irrigation-scheduling-and-soil-water-budgets.md",
+  "related_resources": [
+    {
+      "source_id": "nrcs-water",
+      "reason": "Infiltration, retention and structure"
+    },
+    {
+      "source_id": "nrcs-agronomy-manual",
+      "reason": "Water potential, field capacity, and permanent wilting point"
+    },
+    {
+      "source_id": "usace-evapo",
+      "reason": "Stomata and soil-plant-atmosphere water transport"
+    },
+    {
+      "source_id": "epa-watersense-soil-controller",
+      "reason": "Feedback irrigation controllers with soil-moisture thresholds"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P011000-01",
+      "claim": "Soil water available to plants depends on pore structure, storage and root-zone conditions.",
+      "kind": "original_nrcs_soil_water",
+      "supports": [
+        {
+          "source_id": "nrcs-water",
+          "location": "Soil-water and retention principles",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim limited to source context and design/application; local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P011000-02",
+      "claim": "Irrigation planning balances rain and applied water against crop/plant use, runoff and drainage.",
+      "kind": "derived_water_budget",
+      "supports": [
+        {
+          "source_id": "nrcs-agronomy-manual",
+          "location": "Water budget and soil hydrology",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "usace-evapo",
+          "location": "Evaporation and transpiration mechanisms",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Derived explanatory synthesis; sources support relevant mechanisms, not independent certification.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P011000-03",
+      "claim": "Soil moisture sensors can inhibit or allow scheduled irrigation based on measured threshold conditions.",
+      "kind": "original_epa_watersense_guidance",
+      "supports": [
+        {
+          "source_id": "epa-watersense-soil-controller",
+          "location": "Sensor-based scheduling",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim limited to source context and design/application; local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P011000-04",
+      "claim": "Irrigation runtime and applied water depth are not interchangeable without measuring application rate and distribution.",
+      "kind": "derived_irrigation_mechanics",
+      "supports": [
+        {
+          "source_id": "nrcs-water",
+          "location": "Soil water movement",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "epa-watersense-soil-controller",
+          "location": "System measurement and control purpose",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Derived explanatory synthesis; sources support relevant mechanisms, not independent certification.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_technical_review_pending",
+  "citation_policy": "Original issuers and named authors attributed; sourced facts and explanatory synthesis distinguished. No professional or jurisdictional certification is implied."
+}

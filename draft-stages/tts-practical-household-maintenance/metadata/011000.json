@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "lecture_id": "011000",
+  "transcript": "011000-uneven-heating-case-study-airflow-heat-loss-and-controls.md",
+  "related_resources": [
+    {
+      "source_id": "energystar-duct-sealing-case",
+      "reason": "Supply and return duct air leakage, comfort and delivery losses"
+    },
+    {
+      "source_id": "doe-air-vapor",
+      "reason": "Different enclosure moisture pathways"
+    },
+    {
+      "source_id": "epa-maintenance",
+      "reason": "Leak monitoring and water-using systems"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P011000-01",
+      "claim": "Duct leakage can reduce delivered thermal energy and impair room comfort.",
+      "kind": "original_energystar_duct_guidance",
+      "supports": [
+        {
+          "source_id": "energystar-duct-sealing-case",
+          "location": "Duct loss and leakage",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim limited to source context and design/application; local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P011000-02",
+      "claim": "Room temperature alone cannot distinguish insufficient heat supply from excessive envelope heat loss.",
+      "kind": "derived_building_energy_balance",
+      "supports": [
+        {
+          "source_id": "doe-air-vapor",
+          "location": "Envelope air flow mechanisms",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "energystar-duct-sealing-case",
+          "location": "Distribution inefficiency",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Derived explanatory synthesis; sources support relevant mechanisms, not independent certification.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P011000-03",
+      "claim": "Supply and return air paths influence pressure and distribution, including when interior doors close.",
+      "kind": "derived_hvac_flow_synthesis",
+      "supports": [
+        {
+          "source_id": "energystar-duct-sealing-case",
+          "location": "Supply and return duct flow",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Derived explanatory synthesis; sources support relevant mechanisms, not independent certification.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P011000-04",
+      "claim": "Controlled observation before changing equipment reduces the risk of replacing unrelated parts.",
+      "kind": "derived_maintenance_methodology",
+      "supports": [
+        {
+          "source_id": "epa-maintenance",
+          "location": "Maintenance and inspection logic",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "doe-air-vapor",
+          "location": "Air movement causes",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Derived explanatory synthesis; sources support relevant mechanisms, not independent certification.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_technical_review_pending",
+  "citation_policy": "Original issuers and named authors attributed; sourced facts and explanatory synthesis distinguished. No professional or jurisdictional certification is implied."
+}

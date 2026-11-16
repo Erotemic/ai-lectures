@@ -1,0 +1,111 @@
+{
+  "schema_version": 1,
+  "lecture_id": "011000",
+  "transcript": "011000-choosing-fabrics-for-durability-drape-and-use.md",
+  "related_resources": [
+    {
+      "source_id": "usu-knits",
+      "reason": "Stretch and recovery testing"
+    },
+    {
+      "source_id": "wsu-fabrics",
+      "reason": "Woven, knit, nonwoven and fabric grain"
+    },
+    {
+      "source_id": "usu-grain",
+      "reason": "Lengthwise, crosswise and bias grain"
+    },
+    {
+      "source_id": "sewing-seams",
+      "reason": "Stitch lines and seam allowances"
+    },
+    {
+      "source_id": "osu-seams",
+      "reason": "Plain seams, allowances, pressing, finish decisions"
+    },
+    {
+      "source_id": "ftc-care-label",
+      "reason": "Garment care instructions and warnings; what a washing instruction must consider"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P011000-01",
+      "claim": "Woven and knitted structures differ in stretch behavior and pattern construction assumptions.",
+      "kind": "original_extension_textile_guidance",
+      "supports": [
+        {
+          "source_id": "usu-knits",
+          "location": "Knit characteristics",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "wsu-fabrics",
+          "location": "Woven and knit comparison",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim limited to source context and design/application; local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P011000-02",
+      "claim": "Fabric yarn direction and grain affect deformation and bias behavior.",
+      "kind": "original_extension_sewing_guidance",
+      "supports": [
+        {
+          "source_id": "usu-grain",
+          "location": "Grain and bias placement",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim limited to source context and design/application; local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P011000-03",
+      "claim": "Seam construction must suit fabric properties and intended use, not just the fiber label.",
+      "kind": "derived_sewing_synthesis",
+      "supports": [
+        {
+          "source_id": "sewing-seams",
+          "location": "Seam selection and strength",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "osu-seams",
+          "location": "Seam construction",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Derived explanatory synthesis; sources support relevant mechanisms, not independent certification.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P011000-04",
+      "claim": "Care and laundering instructions can help anticipate shrinkage and wear but are not exhaustive fabric performance tests.",
+      "kind": "regulatory_and_technical_scope",
+      "supports": [
+        {
+          "source_id": "ftc-care-label",
+          "location": "Care label requirements",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "wsu-fabrics",
+          "location": "Material properties",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim limited to source context and design/application; local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_technical_review_pending",
+  "citation_policy": "Original issuers and named authors attributed; sourced facts and explanatory synthesis distinguished. No professional or jurisdictional certification is implied."
+}

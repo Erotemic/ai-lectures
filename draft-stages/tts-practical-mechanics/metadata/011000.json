@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "lecture_id": "011000",
+  "transcript": "011000-hydraulic-circuits-valves-and-actuators.md",
+  "related_resources": [
+    {
+      "source_id": "nfpa-fluid-power-curriculum",
+      "reason": "Hydraulic pressure, flow, valves, actuators, energy balances and component concepts"
+    },
+    {
+      "source_id": "osha-hydraulic-injection-case",
+      "reason": "Documented danger of high-pressure fluid injection through skin"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P011000-01",
+      "claim": "Hydraulic cylinders convert pressure and flow to mechanical force and motion, subject to losses.",
+      "kind": "original_fluid_power_educational_material",
+      "supports": [
+        {
+          "source_id": "nfpa-fluid-power-curriculum",
+          "location": "Fluid power fundamentals and cylinders",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim limited to source context and design/application; local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P011000-02",
+      "claim": "Valves and circuit routing separately control flow direction, pressure, and actuator speed.",
+      "kind": "original_fluid_power_educational_material",
+      "supports": [
+        {
+          "source_id": "nfpa-fluid-power-curriculum",
+          "location": "Valves and circuit functions",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim limited to source context and design/application; local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P011000-03",
+      "claim": "Hydraulic power is related to pressure difference times volume flow, with real inefficiencies producing heat.",
+      "kind": "original_fluid_power_educational_material",
+      "supports": [
+        {
+          "source_id": "nfpa-fluid-power-curriculum",
+          "location": "Power efficiency and pressure/flow",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim limited to source context and design/application; local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P011000-04",
+      "claim": "Pressurized hydraulic leaks can inject fluid through skin and are not safe to detect by hand.",
+      "kind": "original_osha_incident_evidence",
+      "supports": [
+        {
+          "source_id": "osha-hydraulic-injection-case",
+          "location": "Documented high-pressure injection injury",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim limited to source context and design/application; local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_technical_review_pending",
+  "citation_policy": "Original issuers and named authors attributed; sourced facts and explanatory synthesis distinguished. No professional or jurisdictional certification is implied."
+}

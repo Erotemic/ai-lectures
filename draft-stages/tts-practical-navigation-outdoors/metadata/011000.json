@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "lecture_id": "011000",
+  "transcript": "011000-emergency-communication-trip-plans-and-rescue-handoffs.md",
+  "related_resources": [
+    {
+      "source_id": "nps-trip-plan",
+      "reason": "Trip plan left with trusted contact and overdue response; not a guaranteed rescue"
+    },
+    {
+      "source_id": "gpsgov-accuracy",
+      "reason": "Consumer accuracy limits, multipath, blockage, receiver and map errors"
+    },
+    {
+      "source_id": "usgs-map-compass-guide",
+      "reason": "Map scale, contour terrain interpretation and compass use"
+    },
+    {
+      "source_id": "nysdec-hike-smart",
+      "reason": "Layering, shelter, water, weather and planning for exposure"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P011000-01",
+      "claim": "A detailed trip plan left with a trusted contact assists overdue response and rescue coordination.",
+      "kind": "original_nps_trip_plan",
+      "supports": [
+        {
+          "source_id": "nps-trip-plan",
+          "location": "Recommended plan and trusted contact",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim limited to source context and design/application; local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P011000-02",
+      "claim": "An overdue plan depends on agreed contact thresholds and must be closed out on return.",
+      "kind": "original_nps_trip_plan",
+      "supports": [
+        {
+          "source_id": "nps-trip-plan",
+          "location": "Trusted contact responsibilities",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim limited to source context and design/application; local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P011000-03",
+      "claim": "GPS fixes have accuracy limits and should be accompanied by format and geographic context when communicated.",
+      "kind": "original_gps_public_guidance_and_synthesis",
+      "supports": [
+        {
+          "source_id": "gpsgov-accuracy",
+          "location": "GPS accuracy limits",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "usgs-map-compass-guide",
+          "location": "Mapped route and geographic references",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim limited to source context and design/application; local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P011000-04",
+      "claim": "Communications devices can fail because of terrain, power, service or operational dependencies.",
+      "kind": "derived_risk_assessment",
+      "supports": [
+        {
+          "source_id": "nysdec-hike-smart",
+          "location": "Outdoor preparation and communications",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nps-trip-plan",
+          "location": "Rescue information needs",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Derived explanatory synthesis; sources support relevant mechanisms, not independent certification.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_technical_review_pending",
+  "citation_policy": "Original issuers and named authors attributed; sourced facts and explanatory synthesis distinguished. No professional or jurisdictional certification is implied."
+}

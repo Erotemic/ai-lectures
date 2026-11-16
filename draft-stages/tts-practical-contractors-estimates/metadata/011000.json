@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "lecture_id": "011000",
+  "transcript": "011000-comparing-two-renovation-bids-from-the-same-scope.md",
+  "related_resources": [
+    {
+      "source_id": "ftc-improvement",
+      "reason": "Written estimates, contracts, licenses and payment caution"
+    },
+    {
+      "source_id": "md-allowances",
+      "reason": "Allowances and differences between fixed price and time/materials"
+    },
+    {
+      "source_id": "aba-contract",
+      "reason": "Scope, materials, change orders, responsibility and payment terms"
+    },
+    {
+      "source_id": "nyag-hiring-contractors",
+      "reason": "Local license checks, insurance, permits/inspections and written scope; NY guidance only"
+    },
+    {
+      "source_id": "nysenate-gbl771",
+      "reason": "Writing and signatures for home-improvement contract amendments under specific state law"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P011000-01",
+      "claim": "Contractors may exclude or leave ambiguous elements even when bidding against a common project sketch.",
+      "kind": "original_ftc_home_improvement_guidance",
+      "supports": [
+        {
+          "source_id": "ftc-improvement",
+          "location": "Written scope and clarifying bids",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim limited to source context and design/application; local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P011000-02",
+      "claim": "Allowances and unit-price provisions should identify their coverage and uncertain quantities to enable comparisons.",
+      "kind": "derived_contract_comparison_practice",
+      "supports": [
+        {
+          "source_id": "md-allowances",
+          "location": "Allowances and specification differences",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "aba-contract",
+          "location": "Terms, change orders and scope",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Derived explanatory synthesis; sources support relevant mechanisms, not independent certification.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P011000-03",
+      "claim": "Requirements about deposits, written contracts, licensing, and cancellation can vary with jurisdiction.",
+      "kind": "original_ny_specific_law_not_universal",
+      "supports": [
+        {
+          "source_id": "nyag-hiring-contractors",
+          "location": "State consumer guidance",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nysenate-gbl771",
+          "location": "NY statutory written-contract provisions",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim limited to source context and design/application; local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P011000-04",
+      "claim": "Schedule, payment and acceptance terms should be compared alongside nominal total price.",
+      "kind": "derived_procurement_method",
+      "supports": [
+        {
+          "source_id": "ftc-improvement",
+          "location": "Estimates and contractor choice",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "aba-contract",
+          "location": "Schedule/payment/acceptance concepts",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Derived explanatory synthesis; sources support relevant mechanisms, not independent certification.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_technical_review_pending",
+  "citation_policy": "Original issuers and named authors attributed; sourced facts and explanatory synthesis distinguished. No professional or jurisdictional certification is implied."
+}
