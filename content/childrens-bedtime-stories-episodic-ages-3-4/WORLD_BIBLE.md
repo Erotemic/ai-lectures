@@ -1,6 +1,6 @@
 # Willow Bend world bible — continuity authority
 
-For editors and later agents. **Not part of TTS narration.** This is the canonical record for what happens across episodes 001000–030000. Before adding an episode, reconcile its opening state with the final state below.
+For editors and later agents. **Not part of TTS narration.** This is the canonical record for what happens across episodes 001000–036000. Before adding an episode, reconcile its opening state with the final state below.
 
 ## The world
 
@@ -215,3 +215,31 @@ Future stories may borrow the **brown envelope** from the Story House, follow th
 | 030000 | Two sunflower shoots and more radish leaves; new garden picture folder at Story House; two green map marks | **Season complete:** patch is growing but not blooming, one bare spot remains, no crops harvested, friends go home |
 
 **Next-season contract:** The plants may continue growing, change, or fail with time and ordinary conditions; any such change must be shown if a new episode revisits them. Do not treat the garden as abandoned, already flowered or magically fully grown. No event depends on instant growth. Keep the other two shelf collections and the original geography intact.
+
+## Season six — The Moon Over Five Windows (031000–036000)
+
+**Continuity update, not spoken.** This season follows a *single waxing sequence* across several evenings over roughly two weeks, not six successive hours and not necessarily six consecutive nights. There are cloudy nights and ordinary days between the depicted scenes. A thin waxing crescent becomes a wider waxing crescent, then first quarter (half of the apparent disk lit), waxing gibbous (more than half lit), nearly full, and finally full near sunset. The Moon remains round throughout; the changing visible sunlit portion and occasional obscuration by cloud/reeds are distinct. References: [NASA, Moon Phases](https://science.nasa.gov/moon/moon-phases/); [NASA, Moon Facts](https://science.nasa.gov/moon/facts/). No astronomical claim is made about specific dates, months, distances to imaginary places, or a magical Moon.
+
+### Permanent places and safety remain as established
+
+- **Blue Door Cottage** is still west of Village Green and east of Bell Hill. Tess and Grandma Fern use the bedroom window; Tess's accurate real yellow map still rests beside her bed, with two green garden marks and the orchard bend corrected. The Moon is *not* drawn as a physical location.
+- **Bo's home** is in Willow Bend, without a newly specified street, family relationship or interior architecture except his own bedpost. His red scarf stays his; adults accompany him on daytime visits.
+- **Nori's home neighborhood** is by Round Pond, east of the single Pebble Bridge. Her grown-up accompanies her along a **dry path** with an unobstructed view of the pond; neither pebble-throwing nor walking in the water occurs. Nori still has three pebbles, including the striped gray pebble, in the violet pouch.
+- **Lila and Aunt Mallow** remain in their cream cottage in Far Meadow, west beyond Bell Hill. Lila's blue-ribboned straw hat remains hers; the orange/blue/violet picnic banner stays inside the cottage window. The biscuit-making scene involves Aunt Mallow handling the oven and hot tray. No late-night walk across Bell Hill.
+- **Rill and Aunt Cress** remain beside Reed Meadow, farther east along the path beyond Round Pond. They observe from the dry grassy rise, away from the lower wet hollow, and return on the same path. Rill still has two yellow boots, one blue-patched. A nearby reed can occlude a distant Moon as the observer changes position; it is not magic.
+- **Story House** retains Bo's tilted silver-spotted orange electric lantern by its window. Its low shelf still holds exactly the three established projects: the blue six-page *Book of Little Sounds*, brown envelope with imaginary Button Town map, and plain LITTLE GROWING GARDEN folder. No fourth moon book is created or silently added. Bo's silly paper Moon circle and hats are personal paper pieces taken home.
+- **Real Story House garden:** a couple of weeks pass in the lunar sequence, so existing small radish and sunflower plants may have somewhat larger leaves. At 036000 they are still **not described as having bloomed or been harvested**, and the once-bare corner is not claimed to be newly planted or sprouted. Watering/care continues between visits without a garden subplot. No replacement of the map, row signs, stepping stones or garden card.
+- **Sky direction in season ending:** Full Moon is seen rising at evening twilight toward the **east** from Village Green, in the broad direction of Pebble Bridge. No night route or second creek crossing is invented. After looking, adult-accompanied friends return by the already-known routes: Lila west, Rill east over the bridge to Reed Meadow, Nori east over bridge to Round Pond, Tess west to Blue Door Cottage, and Bo home in the village.
+
+### Season-six state ledger
+
+| Episode | Phase/story action | Persistent state after ending |
+|---|---|---|
+| 031000 | Tess sees a narrow waxing crescent from her bedroom after a garden check | Tess has begun an evening observation, tells herself Moon is still round; yellow map by her bed, no new map mark; Bo knows to look too |
+| 032000 | Several evenings later Bo makes silly paper hats; the crescent looks broader | Paper circle and all hats return to Bo's home, tiny hat by bedpost; Story House shelf/lantern untouched |
+| 033000 | Later Nori sees first-quarter-looking Moon in rippled reflection at Round Pond | Nori and grown-up return home; pouch and exactly three pebbles unchanged; no pebble tossed in water |
+| 034000 | Waxing gibbous Moon above Far Meadow; Lila and Aunt Mallow bake crooked Moon biscuits | Some food remains at cream cottage; ribbon stays on hat, banner in inside window; no nighttime travel |
+| 035000 | Near-full Moon alternately hidden and visible by nearby reeds as Rill shifts position | Rill and Aunt Cress go home; two boots unchanged, no new picture or artifact; no wet-hollow detour |
+| 036000 | Full Moon rises in east around sunset; established friends share different memories at Story House | Season complete, five friends return with adults. All persistent objects and previous season projects remain in their established locations; Bo's paper circle goes home. No new event pending |
+
+**Next-season contract:** The Moon will not remain perpetually full in future weeks. No permanent new moons, magical astronomy, or extra Story House projects were introduced. Future episodes may revisit the real garden after ordinary further growth, introduce a different narrative arc, or explore one friend's home. The sky sequence is complete and no cliffhanger or objective remains outstanding.
