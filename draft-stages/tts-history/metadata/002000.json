@@ -5,15 +5,19 @@
   "related_resources": [
     {
       "source_id": "history-jordan-bio",
-      "reason": "Broad biographical source for Jordan’s engineering, academic career, and contributions in algebra, topology, and analysis."
+      "reason": "Historical claims and attribution documented in the manuscript."
     },
     {
       "source_id": "history-jordan-lebesgue",
-      "reason": "A near-contemporary memorial providing depth on Jordan’s life and scientific community."
+      "reason": "Historical claims and attribution documented in the manuscript."
+    },
+    {
+      "source_id": "history-jordan-villat",
+      "reason": "Historical claims and attribution documented in the manuscript."
     },
     {
       "source_id": "history-jordan-treatise",
-      "reason": "Jordan’s actual 1870 book on permutations and polynomial equations; the starting point for the algebraic narrative."
+      "reason": "Historical claims and attribution documented in the manuscript."
     },
     {
       "source_id": "history-jordan-maa",
@@ -96,23 +100,65 @@
       "audit_status": "source_cross_checked"
     },
     {
-      "id": "002000-h04",
-      "anchor": "Georges Humbert had been Jordan's student",
-      "kind": "historical_biography_or_context",
-      "source_ids": [
-        "history-jordan-lebesgue-memorial"
-      ],
-      "source_locator": "Henri Lebesgue, Camille Jordan memorial",
-      "audit_status": "source_cross_checked"
-    },
-    {
-      "id": "002000-h05",
-      "anchor": "Three of Jordan's six sons died during World War I",
-      "kind": "historical_biography_or_context",
+      "id": "002000-new01",
+      "anchor": "Jordan attended the Collège d'Oullins and the Lycée de Lyon before passing the entrance examination",
+      "kind": "historical_biography_or_attribution",
       "source_ids": [
         "history-jordan-bio"
       ],
-      "source_locator": "MacTutor, Camille Jordan biography",
+      "source_locator": "MacTutor schooling",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "002000-new02",
+      "anchor": "Jordan's father later entered the National Assembly, serving during the early years of the Third Republic.",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-jordan-lebesgue",
+        "history-jordan-villat"
+      ],
+      "source_locator": "Lebesgue memorial and Villat, father's political service",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "002000-new03",
+      "anchor": "In eighteen sixty-one he defended a doctorate with work spanning algebra and integrals of algebraic differentials.",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-jordan-bio"
+      ],
+      "source_locator": "MacTutor examination accounts",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "002000-new04",
+      "anchor": "Jordan's major book on substitutions and algebraic equations appeared in eighteen seventy.",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-jordan-bio",
+        "history-jordan-treatise"
+      ],
+      "source_locator": "MacTutor and first edition",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "002000-new05",
+      "anchor": "Galois died in eighteen thirty-two; Liouville published important manuscripts in eighteen forty-six.",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-jordan-bio"
+      ],
+      "source_locator": "MacTutor Galois transmission history",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "002000-new06",
+      "anchor": "The Paris visits of Sophus Lie and Felix Klein around eighteen seventy",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-jordan-bio"
+      ],
+      "source_locator": "MacTutor on Lie/Klein visit",
       "audit_status": "source_cross_checked"
     }
   ]
