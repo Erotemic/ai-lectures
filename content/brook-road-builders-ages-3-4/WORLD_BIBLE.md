@@ -439,6 +439,27 @@ The very advanced spacecraft and a future professional program capable of transp
 
 **Technology source boundary:** NASA educational and facility descriptions support general launcher staging, ground systems, suppression water, lunar environment, radio, suit life support, surface power and return mechanisms. No citation establishes the fiction's Star Harbor or animal/child crew, six-person future spacecraft, schedules or mission results as real. Maintain narrative accuracy within the fictional premises without making it a construction or rocketry how-to.
 
+## Season Fifteen — Five Candles and Four Wheels (085000–090000, completed series finale)
+
+**Time and birthday:** This season takes place after all six travelers have safely returned from the Moon in episode 084000. The space travel occurred over a long project; exact prior birthday dates were not established. Jack's age is **nearly five** in episodes 085000–088000; **his fifth birthday occurs in episode 089000**; he is **five** in episode 090000 and thereafter. Do not rewrite it as a fourth birthday. The **primary listener remains age three**; the fictional boy's age is distinct from the audience label on the track.
+
+**Home and relationships:** Jack lives along Brook Road with his **unnamed dad** (newly shown during this closing season), who makes a fresh pencil height mark on the wooden doorframe; earlier, lower marks remain. Rex retains his single dark ear, house with blue front step, and repaired wooden dump truck. Gus wears his green cap, keeps his enormous cardboard box and blue gift ribbon for the surprise, and recognizes that a useful present need not be physically enormous. Molly remains the black-and-white farm puppy with white front paws and a blue rope toy, and regularly visits with Farmer Ruth via **pedestrian-only** Little Bridge. Aunt Jo, Mr. Lee and Ms. Pam help create the gift. The Moon crew adults Dr. Ada and Max remain in their prior roles; no new crewed flight occurs.
+
+**Birthday gift and persistence:** At Ms. Pam's **Red Door Garage**, Mr. Lee makes and Ms. Pam checks a *small red wooden pull wagon* with **four wheels**, designed to carry Jack's existing blue notebook, pencil, small objects and occasionally Rex's toy dump truck. It is **not for riding in**. In 087000 Molly hears a clunk; Ms. Pam adjusts and retests the loose fourth wheel before anyone receives the wagon. In 089000 the wagon is revealed from Gus's enormous cardboard gift box with a long blue ribbon. Its front carries **one small yellow Moon** and **four small marks for the four young friends**. Jack receives a paper yellow birthday crown. The wagon is subsequently parked at Jack's home, beneath his doorframe height marks.
+
+**Party and Moon continuity:** The fifth birthday picnic takes place **on Saturday afternoon at Pine Park**, beside **Pancake Hill and the tall pine**. The cake has **five** little yellow candles, which Jack blows out on two tries (four first and the fifth after), not four. Familiar neighbors attend. At the picnic Jack receives a **new picture** of Scout's original Moon rover and solar-equipped science station sent by Dr. Ada; this is a communication from the *same station* left in 083000, not an extra mission. Dr. Ada remained on Earth; Max and Aunt Jo returned safely in 084000. Jack puts the picture in the same blue notebook.
+
+**Final story:** Episode 090000 is the day after the fifth birthday. Jack rolls the red wagon from home to Pine Park and back with Rex, Gus, Molly and his dad. A wheel briefly catches at the softer edge off the established gravel path; they move it back onto the firm path and it rolls normally, with no newly damaged part. Jack draws the wagon and his three animal friends on a blank notebook page and parks the wagon under the doorframe. Earlier park features, picture board, rain gauge, garage, farm, road geography, Star Harbor and lunar rover station remain intact. **The series ends peacefully** with future questions and ordinary games possible, not an announced second Moon mission or a cliffhanger.
+
+| Episode | New continuing fact |
+|---|---|
+| 085000 | Dad makes a height mark; Jack is nearly five, and Saturday's birthday picnic is planned. |
+| 086000 | Gus obtains big cardboard wrapping, blue ribbon; Mr. Lee and Ms. Pam work on the small red wagon; five-candle tag. |
+| 087000 | Molly detects and Ms. Pam fixes a loose fourth wheel; wagon inspected and tested; Jack still unaware of gift. |
+| 088000 | Jack and Rex enjoy their old block-and-truck game together; Jack is still nearly five. |
+| 089000 | **Jack turns five** at Pine Park; five candles blown out; receives small red wagon, crown and new photo of existing lunar rover. |
+| 090000 | Jack's first wagon outing goes well after a soft-ground pause; notebook drawing added; wagon parked at home, series complete. |
+
 ## Authoring guardrails
 
 - Persistent geography, name spellings and object state survive across episodes and seasons. Never erase a completed project without a depicted reason.

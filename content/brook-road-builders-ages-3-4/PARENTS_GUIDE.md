@@ -199,6 +199,14 @@ The narration provides concrete sounds, wheels, movements, and animal perspectiv
 
 **Reference boundaries:** NASA pages support underlying physics and system categories, not the fictional animal astronaut eligibility, timeline, invented Star Harbor infrastructure specifications, the safety of a custom six-person crew ship, or empirical claims about childhood learning or bedtime quality. The story does not describe home rocket construction. Adults lead real machine, flight, suit and mission work inside the fiction. The complete state ledger is in `SPACE_ARC_BIBLE.md` and `WORLD_BIBLE.md`.
 
+## Season Fifteen: Five Candles and Four Wheels — the closing birthday season
+
+Six linked bedtime stories close the *Brook Road Builders* series after the real-within-fiction Moon adventure. Jack's **fifth** birthday is the central event, **not his fourth**. He is nearly five for the opening four stories, turns five in episode 089000, and is five in the final story. The intended listener is still primarily three years old; character age does not change the series' audience. The closing theme is that growing happens over time, while old games and friendships can remain enjoyable. No fixed developmental achievement is assigned to Jack for turning five.
+
+The chapters use concrete familiar objects: a dad's pencil height mark, Rex's long-repaired wooden dump truck, a big cardboard gift box with blue ribbon, four tested wagon wheels, **five birthday candles**, a paper crown, and the same blue notebook that reached the Moon. The four friends work with familiar adults, who construct and check the new wagon. The science-station picture comes from Dr. Ada; **Scout's rover is still on the Moon**, not a new spacecraft.
+
+**Optional listening conversation:** A child might like to count five pretend candles, identify four wagon wheels, recall Rex's truck, or wonder what they'd put in a little wagon. None is a learning requirement. The American Academy of Pediatrics' play report supports a general role for pretend play; the CDC's 5-year checklist is a broad clinical information resource, not an automatic checklist at a birthday or evidence that this fictional episode produces measurable outcomes. All citations stay outside spoken narration.
+
 ## Why there are sources
 
 - **Machine functions:** Caterpillar's equipment descriptions were consulted to avoid confusing bulldozers, diggers, loaders, trucks and compactors. These are general equipment facts; the fictional site is not an engineering case study and the passages are not operation instructions.

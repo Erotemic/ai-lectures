@@ -1,3 +1,11 @@
+# Brook Road Builders — fifteen-season complete series (not spoken)
+
+**Status:** 90 full stories, 15 completed seasons, 001000–090000. Season Fifteen is the **final planned season**: *Five Candles and Four Wheels*. Its birthday is explicitly **Jack's fifth birthday**. The five candles, four-wheel red wagon, first-year digger drawing, familiar games and still-working Moon rover join ordinary growing up to close the series. The original canon from Seasons 1–14 is preserved byte-for-byte. See `WORLD_BIBLE.md` for exact continuity; `SPACE_ARC_BIBLE.md` for the completed three-season Moon mission. No further season is scheduled or implied.
+
+**Concluding creative principle:** No sudden adult-like abilities on the birthday. Jack can ask for help while he grows. Four friends still enjoy their familiar games, the town stays in use, and a tiny robot still sends news from the Moon. Earlier possible future projects remain ideas only, not unfinished canon.
+
+---
+
 # Brook Road Builders — completed 14-season canon and future directions (not spoken)
 
 **The Path to Space is complete as one eighteen-episode arc, 067000–084000, spanning three seasons.** It follows eleven prior seasons, which remain canon unchanged. Season Twelve builds distant coastal Star Harbor; Season Thirteen prepares the crew rocket and sends the Scout robotic delivery mission; Season Fourteen puts the four young friends and two trained adults on the Moon, establishes a small rover research station and returns everyone safely to Brook Road. The spaceflight of young animals and a young child is speculative fiction. See `WORLD_BIBLE.md` and `SPACE_ARC_BIBLE.md` for all continuing facts.

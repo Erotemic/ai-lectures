@@ -1,6 +1,6 @@
 # Brook Road Builders — series atlas and expansion plan (not spoken)
 
-This is a planning companion, **not** a second continuity authority. `WORLD_BIBLE.md` holds canonical facts through episode 084000. Ideas tagged *future* must not be treated as already present in a spoken episode.
+This is a planning companion, **not** a second continuity authority. `WORLD_BIBLE.md` holds canonical facts through episode 090000. Ideas tagged *future* must not be treated as already present in a spoken episode.
 
 ## What makes this a world, not a truck catalogue
 
@@ -210,3 +210,9 @@ The sketch is conceptual, not a navigational map. The spaceport is **not** in or
 **New characters:** Dr. Ada (owl aerospace engineer, round glasses, many-pocket coat), Max (golden-furred adult dog pilot in a blue flight jacket). Do not rename or quietly expand the flight crew. Keep Rex's one dark ear, Gus's green cap, Jack's single notebook, Molly's white front paws and their distinct motivations. Existing town adults remain in their established professions. The animal/young-child crew is explicit *speculative fiction*, not a statement about actual human spaceflight capabilities.
 
 **Future potential:** The rover can send a new photograph or data to Star Harbor as a premise for future stories. A return visit requires fresh adult planning and equipment; the Moon does not secretly have a paved road or breathable outdoor air. The first fourteen seasons now form completed canon. Consult `SPACE_ARC_BIBLE.md` for the full cross-season narrative sequence.
+
+## Season Fifteen — Five Candles and Four Wheels (series finale)
+
+Jack's fifth birthday is a concrete timestamp after the Moon homecoming: before 089000 he is nearly five, in and after 089000 he is five. His dad has marked his height on the doorframe at their Brook Road home. A new **small red wooden four-wheeled science wagon** is made by Mr. Lee and inspected by Ms. Pam; Gus arranges its huge cardboard box and blue ribbon. The wagon can carry Jack's existing blue notebook and small objects but nobody rides in it. At Pine Park's birthday picnic it is presented alongside a yellow paper crown and an update from Dr. Ada about the same original lunar rover. In 090000, Jack pulls the wagon to Pine Park with Rex, Gus and Molly; the wagon returns home undamaged.
+
+The ordinary park/bridge/farm/garage roads and older props remain unchanged; the Moon science station remains on the Moon. The storybook ends without a new project, mission, location or unresolved danger. The four friends can keep growing, doing science, making little things and loving their old games. Age five belongs to **Jack, not to the story listener**; series metadata remains for ages three to four.
