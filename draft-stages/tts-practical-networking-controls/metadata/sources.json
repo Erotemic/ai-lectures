@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "sources": {
+    "cisco-switch": {
+      "title": "Cisco, What Is an Ethernet Switch?",
+      "kind": "manufacturer_technical_explanation",
+      "url": "https://www.cisco.com/site/us/en/learn/topics/networking/what-is-an-ethernet-switch.html",
+      "access": "free_no_login",
+      "notes": "Switch forwarding using Ethernet MAC addresses"
+    },
+    "cisco-poe": {
+      "title": "Cisco, What Is Power over Ethernet?",
+      "kind": "manufacturer_technical_explanation",
+      "url": "https://www.cisco.com/site/us/en/learn/topics/networking/what-is-power-over-ethernet.html",
+      "access": "free_no_login",
+      "notes": "PoE standards family and source/device power relationships"
+    },
+    "ieee-poe": {
+      "title": "IEEE 802.3 Ethernet Standards Family",
+      "kind": "formal_industry_standard",
+      "url": "https://standards.ieee.org/standard/802_3-2022.html",
+      "access": "free_no_login",
+      "notes": "Normative standard family; precise edition and amendment should be confirmed"
+    }
+  }
+}

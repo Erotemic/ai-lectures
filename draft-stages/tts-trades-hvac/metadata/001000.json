@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "lecture_id": "001000",
+  "transcript": "001000-moving-heat-and-moving-air.md",
+  "related_resources": [
+    {
+      "source_id": "doe-heatpumps",
+      "reason": "Heat transfer rather than direct heat generation"
+    },
+    {
+      "source_id": "energystar-ashp",
+      "reason": "Heating and cooling by reversing heat-transfer direction"
+    },
+    {
+      "source_id": "iea-cycle",
+      "reason": "Heat pump work and output heat balances"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P001000-01",
+      "claim": "Heat pumps move thermal energy rather than solely generating it",
+      "kind": "underlying_physics_or_field_practice",
+      "supports": [
+        {
+          "source_id": "doe-heatpumps",
+          "location": "Heat transfer rather than direct heat generation",
+          "role": "reference"
+        },
+        {
+          "source_id": "iea-cycle",
+          "location": "Heat pump work and output heat balances",
+          "role": "reference"
+        }
+      ],
+      "verification_level": "public_source_identified_editorial_check_pending",
+      "limits": "Introductory education. Application-specific design, manufacturer instructions, adopted rules, and required review are separate.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "P001000-02",
+      "claim": "Air-source heat pumps can reverse heating and cooling functions",
+      "kind": "underlying_physics_or_field_practice",
+      "supports": [
+        {
+          "source_id": "energystar-ashp",
+          "location": "Heating and cooling by reversing heat-transfer direction",
+          "role": "reference"
+        }
+      ],
+      "verification_level": "public_source_identified_editorial_check_pending",
+      "limits": "Introductory education. Application-specific design, manufacturer instructions, adopted rules, and required review are separate.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "P001000-03",
+      "claim": "Rated heat pump performance is operating-condition dependent",
+      "kind": "underlying_physics_or_field_practice",
+      "supports": [
+        {
+          "source_id": "iea-cycle",
+          "location": "Heat pump work and output heat balances",
+          "role": "reference"
+        },
+        {
+          "source_id": "energystar-ashp",
+          "location": "Heating and cooling by reversing heat-transfer direction",
+          "role": "reference"
+        }
+      ],
+      "verification_level": "public_source_identified_editorial_check_pending",
+      "limits": "Introductory education. Application-specific design, manufacturer instructions, adopted rules, and required review are separate.",
+      "professional_review": "pending"
+    }
+  ],
+  "editorial_status": "educational_draft_sources_recorded_not_field_validated",
+  "citation_policy": "Source records support narrow background claims. This first pass is not a full independent claim-by-claim professional evidence audit."
+}

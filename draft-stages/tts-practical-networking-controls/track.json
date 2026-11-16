@@ -1,0 +1,29 @@
+{
+  "id": "practical-networking-controls",
+  "title": "Networking, Sensors, and Local Automation",
+  "summary": "Trace physical links, Ethernet switching, IP paths, PoE power, local autonomy and sensor-to-actuator behavior.",
+  "categories": [
+    "Practical skills"
+  ],
+  "audiences": [
+    "general learners",
+    "adults"
+  ],
+  "assumed_background": [
+    "General literacy, everyday arithmetic; additional concepts introduced as needed"
+  ],
+  "sections": [
+    "packet-and-power-paths"
+  ],
+  "lectures": [
+    {
+      "id": "001000",
+      "title": "Follow the Packet and the Power: A Physical Model of a Home Network",
+      "section": "packet-and-power-paths",
+      "file": "001000-follow-the-packet-and-the-power.md",
+      "spoken_words": 1259,
+      "draft_status": "substantive",
+      "practice_classification": "conceptual_and_observational"
+    }
+  ]
+}

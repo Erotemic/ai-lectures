@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "sources": {
+    "usgs-topo": {
+      "title": "U.S. Geological Survey, What Is a Topographic Map?",
+      "kind": "federal_cartography_guidance",
+      "url": "https://www.usgs.gov/faqs/what-a-topographic-map",
+      "access": "free_no_login",
+      "notes": "Contour lines, elevation and mapping scales"
+    },
+    "nps-compass": {
+      "title": "National Park Service, Compass—Great Smoky Mountains National Park",
+      "kind": "federal_park_navigation_guidance",
+      "url": "https://www.nps.gov/grsm/planyourvisit/compass.htm",
+      "access": "free_no_login",
+      "notes": "Magnetic declination and north reference"
+    }
+  }
+}

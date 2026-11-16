@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "lecture_id": "001000",
+  "transcript": "001000-how-a-wooden-house-carries-load.md",
+  "related_resources": [
+    {
+      "source_id": "usda-wood",
+      "reason": "Chapters 4–9, 13, 17: moisture, strength, fastening, beam equations and framing"
+    },
+    {
+      "source_id": "awc-wfcm",
+      "reason": "Structural load-path and connection design reference, with prescribed scope limits"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P001000-01",
+      "claim": "Wood properties and movement depend on grain and moisture",
+      "kind": "underlying_physics_or_field_practice",
+      "supports": [
+        {
+          "source_id": "usda-wood",
+          "location": "Chapters 4–9, 13, 17: moisture, strength, fastening, beam equations and framing",
+          "role": "reference"
+        }
+      ],
+      "verification_level": "public_source_identified_editorial_check_pending",
+      "limits": "Introductory education. Application-specific design, manufacturer instructions, adopted rules, and required review are separate.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "P001000-02",
+      "claim": "Structural member behavior depends on load direction and cross section",
+      "kind": "underlying_physics_or_field_practice",
+      "supports": [
+        {
+          "source_id": "usda-wood",
+          "location": "Chapters 4–9, 13, 17: moisture, strength, fastening, beam equations and framing",
+          "role": "reference"
+        },
+        {
+          "source_id": "awc-wfcm",
+          "location": "Design scope, engineered and prescriptive provisions for connections, floor, wall, roof systems",
+          "role": "reference"
+        }
+      ],
+      "verification_level": "public_source_identified_editorial_check_pending",
+      "limits": "Introductory education. Application-specific design, manufacturer instructions, adopted rules, and required review are separate.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "P001000-03",
+      "claim": "Fastener performance depends on connection geometry",
+      "kind": "underlying_physics_or_field_practice",
+      "supports": [
+        {
+          "source_id": "usda-wood",
+          "location": "Chapters 4–9, 13, 17: moisture, strength, fastening, beam equations and framing",
+          "role": "reference"
+        },
+        {
+          "source_id": "awc-wfcm",
+          "location": "Design scope, engineered and prescriptive provisions for connections, floor, wall, roof systems",
+          "role": "reference"
+        }
+      ],
+      "verification_level": "public_source_identified_editorial_check_pending",
+      "limits": "Introductory education. Application-specific design, manufacturer instructions, adopted rules, and required review are separate.",
+      "professional_review": "pending"
+    }
+  ],
+  "editorial_status": "educational_draft_sources_recorded_not_field_validated",
+  "citation_policy": "Source records support narrow background claims. This first pass is not a full independent claim-by-claim professional evidence audit."
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "sources": {
+    "doe-air-vapor": {
+      "title": "DOE Building Science Education, Air Barriers vs Vapor Barriers",
+      "kind": "agency_technical_guidance",
+      "url": "https://bsesc.energy.gov/energy-basics/building-enclosure-air-barriers-vs-vapor-barriers-continuous-sealed-wrb-walls",
+      "access": "free_no_login",
+      "notes": "Separate air leakage, vapor diffusion and water-management functions"
+    },
+    "usda-wood": {
+      "title": "USDA Forest Service, Wood Handbook: Wood as an Engineering Material (2021)",
+      "kind": "agency_technical_handbook",
+      "url": "https://research.fs.usda.gov/fpl/wood-handbook",
+      "access": "free_no_login",
+      "notes": "Chapters 4, 13–17: wood moisture, drying and buildings"
+    },
+    "cdc-mold": {
+      "title": "CDC, Mold, Testing, and Remediation (2026)",
+      "kind": "public_health_guidance",
+      "url": "https://www.cdc.gov/niosh/mold/testing-remediation/index.html",
+      "access": "free_no_login",
+      "notes": "Moisture as a prerequisite for indoor mold growth"
+    }
+  }
+}

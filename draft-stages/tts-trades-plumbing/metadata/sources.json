@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "sources": {
+    "epa-maintenance": {
+      "title": "EPA WaterSense, Home Maintenance",
+      "kind": "agency_public_guidance",
+      "url": "https://www.epa.gov/watersense/home-maintenance",
+      "access": "free_no_login",
+      "notes": "Leaks, service pressure and maintenance"
+    },
+    "iapmo-venting": {
+      "title": "IAPMO Uniform Codes Spotlight, Plumbing Venting Principles",
+      "kind": "standards_committee_explanation",
+      "url": "https://forms.iapmo.org/email_marketing/codespotlight/2020/Feb13.htm",
+      "access": "free_no_login",
+      "notes": "Trap seal protection against siphonage and backpressure"
+    },
+    "iapmo-upc": {
+      "title": "IAPMO, 2018 Uniform Plumbing Code Public Reader",
+      "kind": "model_code_reader",
+      "url": "https://epubs.iapmo.org/2018/UPC/",
+      "access": "free_no_login",
+      "notes": "Chapters 9–10: vents and traps; code adoption varies"
+    }
+  }
+}

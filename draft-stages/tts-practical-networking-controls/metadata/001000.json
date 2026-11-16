@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "lecture_id": "001000",
+  "transcript": "001000-follow-the-packet-and-the-power.md",
+  "related_resources": [
+    {
+      "source_id": "cisco-switch",
+      "reason": "Switch forwarding using Ethernet MAC addresses"
+    },
+    {
+      "source_id": "cisco-poe",
+      "reason": "PoE standards family and source/device power relationships"
+    },
+    {
+      "source_id": "ieee-poe",
+      "reason": "Normative standard family; precise edition and amendment should be confirmed"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P001000-01",
+      "claim": "Switching and IP routing perform different functions",
+      "kind": "underlying_physics_or_field_practice",
+      "supports": [
+        {
+          "source_id": "cisco-switch",
+          "location": "Switch forwarding using Ethernet MAC addresses",
+          "role": "reference"
+        }
+      ],
+      "verification_level": "public_source_identified_editorial_check_pending",
+      "limits": "Introductory education. Application-specific design, manufacturer instructions, adopted rules, and required review are separate.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "P001000-02",
+      "claim": "Standard PoE delivers electrical power over compatible Ethernet cabling",
+      "kind": "underlying_physics_or_field_practice",
+      "supports": [
+        {
+          "source_id": "cisco-poe",
+          "location": "PoE standards family and source/device power relationships",
+          "role": "reference"
+        }
+      ],
+      "verification_level": "public_source_identified_editorial_check_pending",
+      "limits": "Introductory education. Application-specific design, manufacturer instructions, adopted rules, and required review are separate.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "P001000-03",
+      "claim": "Power budget and loss matter to a PoE system",
+      "kind": "underlying_physics_or_field_practice",
+      "supports": [
+        {
+          "source_id": "cisco-poe",
+          "location": "PoE standards family and source/device power relationships",
+          "role": "reference"
+        }
+      ],
+      "verification_level": "public_source_identified_editorial_check_pending",
+      "limits": "Introductory education. Application-specific design, manufacturer instructions, adopted rules, and required review are separate.",
+      "professional_review": "pending"
+    }
+  ],
+  "editorial_status": "educational_draft_sources_recorded_not_field_validated",
+  "citation_policy": "Source records support narrow background claims. This first pass is not a full independent claim-by-claim professional evidence audit."
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "sources": {
+    "fsis-safety": {
+      "title": "USDA FSIS, How Do I Keep My Foods Safe to Eat?",
+      "kind": "federal_food_safety_guidance",
+      "url": "https://ask.fsis.usda.gov/article/How-do-I-keep-my-foods-safe-to-eat",
+      "access": "free_no_login",
+      "notes": "Clean, separate, cook and chill practices"
+    },
+    "fsis-thermometer": {
+      "title": "USDA FSIS, How to Use a Food Thermometer",
+      "kind": "federal_food_safety_guidance",
+      "url": "https://ask.fsis.usda.gov/article/How-to-use-a-food-thermometer",
+      "access": "free_no_login",
+      "notes": "Measurement in thickest relevant portion of food"
+    },
+    "foodsafety-temps": {
+      "title": "FoodSafety.gov, Food Safety Charts",
+      "kind": "federal_joint_guidance",
+      "url": "https://www.foodsafety.gov/food-safety-charts",
+      "access": "free_no_login",
+      "notes": "Current food-type-specific safe minimum temperatures"
+    }
+  }
+}

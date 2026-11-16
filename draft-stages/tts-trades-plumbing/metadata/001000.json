@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "lecture_id": "001000",
+  "transcript": "001000-pressure-flow-and-the-two-networks.md",
+  "related_resources": [
+    {
+      "source_id": "epa-maintenance",
+      "reason": "Leaks, service pressure and maintenance"
+    },
+    {
+      "source_id": "iapmo-venting",
+      "reason": "Trap seal protection against siphonage and backpressure"
+    },
+    {
+      "source_id": "iapmo-upc",
+      "reason": "Chapters 9–10: vents and traps; code adoption varies"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P001000-01",
+      "claim": "Water-use performance depends on pressure and system restrictions",
+      "kind": "underlying_physics_or_field_practice",
+      "supports": [
+        {
+          "source_id": "epa-maintenance",
+          "location": "Leaks, service pressure and maintenance",
+          "role": "reference"
+        }
+      ],
+      "verification_level": "public_source_identified_editorial_check_pending",
+      "limits": "Introductory education. Application-specific design, manufacturer instructions, adopted rules, and required review are separate.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "P001000-02",
+      "claim": "Trap seals need pressure management and venting",
+      "kind": "underlying_physics_or_field_practice",
+      "supports": [
+        {
+          "source_id": "iapmo-venting",
+          "location": "Trap seal protection against siphonage and backpressure",
+          "role": "reference"
+        },
+        {
+          "source_id": "iapmo-upc",
+          "location": "Chapters 9–10: vents and traps; code adoption varies",
+          "role": "reference"
+        }
+      ],
+      "verification_level": "public_source_identified_editorial_check_pending",
+      "limits": "Introductory education. Application-specific design, manufacturer instructions, adopted rules, and required review are separate.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "P001000-03",
+      "claim": "Plumbing code requirements depend on the adopted edition and jurisdiction",
+      "kind": "underlying_physics_or_field_practice",
+      "supports": [
+        {
+          "source_id": "iapmo-upc",
+          "location": "Chapters 9–10: vents and traps; code adoption varies",
+          "role": "reference"
+        }
+      ],
+      "verification_level": "public_source_identified_editorial_check_pending",
+      "limits": "Introductory education. Application-specific design, manufacturer instructions, adopted rules, and required review are separate.",
+      "professional_review": "pending"
+    }
+  ],
+  "editorial_status": "educational_draft_sources_recorded_not_field_validated",
+  "citation_policy": "Source records support narrow background claims. This first pass is not a full independent claim-by-claim professional evidence audit."
+}

@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "sources": {
+    "usda-wood": {
+      "title": "USDA Forest Service, Wood Handbook: Wood as an Engineering Material (2021)",
+      "kind": "agency_technical_handbook",
+      "url": "https://research.fs.usda.gov/fpl/wood-handbook",
+      "access": "free_no_login",
+      "notes": "Chapters 4–9, 13, 17: moisture, strength, fastening, beam equations and framing"
+    },
+    "awc-wfcm": {
+      "title": "American Wood Council, 2024 Wood Frame Construction Manual (WFCM)",
+      "kind": "ansi_wood_structural_standard",
+      "url": "https://awc.org/resources/2024-wfcm/",
+      "access": "free_view_only",
+      "notes": "Committee-developed ANSI standard covers connections, floors, walls, and roofs in limited one- and two-family dwelling designs; scope and local adoption must be checked"
+    }
+  }
+}

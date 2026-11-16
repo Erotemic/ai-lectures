@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "sources": {
+    "epa-maintenance": {
+      "title": "EPA WaterSense, Home Maintenance",
+      "kind": "agency_public_guidance",
+      "url": "https://www.epa.gov/watersense/home-maintenance",
+      "access": "free_no_login",
+      "notes": "Leak monitoring and water-using systems"
+    },
+    "doe-air-vapor": {
+      "title": "DOE Building Science Education, Air Barriers vs Vapor Barriers",
+      "kind": "agency_technical_guidance",
+      "url": "https://bsesc.energy.gov/energy-basics/building-enclosure-air-barriers-vs-vapor-barriers-continuous-sealed-wrb-walls",
+      "access": "free_no_login",
+      "notes": "Different enclosure moisture pathways"
+    },
+    "cdc-mold": {
+      "title": "CDC, Mold, Testing, and Remediation",
+      "kind": "public_health_guidance",
+      "url": "https://www.cdc.gov/niosh/mold/testing-remediation/index.html",
+      "access": "free_no_login",
+      "notes": "Moisture as the major cause of indoor mold growth"
+    }
+  }
+}

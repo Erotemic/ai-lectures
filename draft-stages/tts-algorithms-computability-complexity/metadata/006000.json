@@ -1,0 +1,338 @@
+{
+  "schema_version": 1,
+  "lecture_id": "006000",
+  "transcript": "006000-reductions-and-rices-theorem.md",
+  "related_resources": [
+    {
+      "source_id": "acc-mit-6045",
+      "reason": "Index confirms lectures 6 (Turing machines), 7 (decidability), 8 (undecidability), and 9 (mapping reducibility and Rice theorem). Slides credited to Prof. Nancy Lynch; index rather than linked PDFs read."
+    },
+    {
+      "source_id": "acc-mit-complexity",
+      "reason": "P, NP, reductions, complexity categories; lecture summary and educational resource."
+    },
+    {
+      "source_id": "acc-rice1953",
+      "reason": "Transactions of the American Mathematical Society 74(2), 358–366; bibliography/DOI corroborated; source of named theorem, not falsely presented as fully read."
+    },
+    {
+      "source_id": "acc-sep-comp",
+      "reason": "Sections 1 and 2 describe historical calculi, universality, halting undecidability, complexity."
+    },
+    {
+      "source_id": "acc-sep-tm",
+      "reason": "Sections 2.3 and 2.4.1–2.4.3: universality, diagonal and Turing original circle-free versus contemporary halting formulation; 2025 revision verified."
+    },
+    {
+      "source_id": "acc-stanford-cs103",
+      "reason": "Course reference indexes recognizer, decider, complement, and co-recognizable terminology; tool-visible search excerpts, not independent proof of the theorem."
+    }
+  ],
+  "claim_evidence": [
+    {
+      "id": "acc-006-c001",
+      "anchor": "If problem A reduces to problem B, then a solution to B provides a solution to A.",
+      "source_ids": [
+        "acc-sep-tm",
+        "acc-sep-comp"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "SEP Turing Machines §2.4 and Computability and Complexity §4.1, reduction direction.",
+      "evidence_detail": "SEP Turing Machines §2.4 and Computability and Complexity §4.1, reduction direction."
+    },
+    {
+      "id": "acc-006-c002",
+      "anchor": "The impossible task must reduce into the task whose impossibility we wish to establish.",
+      "source_ids": [
+        "acc-sep-tm"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Contrapositive of decider-transfer theorem in companion.",
+      "evidence_detail": "Independent proof provided in the lecture companion. Contrapositive of decider-transfer theorem in companion."
+    },
+    {
+      "id": "acc-006-c003",
+      "anchor": "The transformation must itself be computable.",
+      "source_ids": [
+        "acc-mit-6045"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Definition of many-one/mapping reduction A ≤m B, MIT 6.045J lecture 9 index.",
+      "evidence_detail": "Independent proof provided in the lecture companion. Definition of many-one/mapping reduction A ≤m B, MIT 6.045J lecture 9 index."
+    },
+    {
+      "id": "acc-006-c004",
+      "anchor": "And it must preserve both answers: yes turns into yes, and no turns into no.",
+      "source_ids": [
+        "acc-mit-6045"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Biconditional x∈A iff f(x)∈B, not only positive preservation.",
+      "evidence_detail": "Independent proof provided in the lecture companion. Biconditional x∈A iff f(x)∈B, not only positive preservation."
+    },
+    {
+      "id": "acc-006-c005",
+      "anchor": "Therefore if A is undecidable and A reduces to B, B must be undecidable too.",
+      "source_ids": [
+        "acc-sep-comp"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Proof in narration using composition with target decider.",
+      "evidence_detail": "Independent proof provided in the lecture companion. Proof in narration using composition with target decider."
+    },
+    {
+      "id": "acc-006-c006",
+      "anchor": "If B has a recognizer and A maps to B, compute f of x and run B's recognizer.",
+      "source_ids": [
+        "acc-stanford-cs103"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Preservation of recognizability under total computable mapping reductions.",
+      "evidence_detail": "Independent proof provided in the lecture companion. Preservation of recognizability under total computable mapping reductions."
+    },
+    {
+      "id": "acc-006-c007",
+      "anchor": "A rejecting machine halts without accepting, and a looping machine does neither.",
+      "source_ids": [
+        "acc-stanford-cs103"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Stanford CS103 recognizer/decider terminology and machine acceptance.",
+      "evidence_detail": "Stanford CS103 recognizer/decider terminology and machine acceptance."
+    },
+    {
+      "id": "acc-006-c008",
+      "anchor": "the halting problem maps to the acceptance problem.",
+      "source_ids": [
+        "acc-sep-tm"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Construction: N accepts iff original M halts on fixed w. HALT ≤m A_TM.",
+      "evidence_detail": "Independent proof provided in the lecture companion. Construction: N accepts iff original M halts on fixed w. HALT ≤m A_TM."
+    },
+    {
+      "id": "acc-006-c009",
+      "anchor": "We do not run M to completion while constructing N",
+      "source_ids": [
+        "acc-mit-6045"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Totality of source-to-source compilation; input/w are embedded as constants in generated N.",
+      "evidence_detail": "Independent proof provided in the lecture companion. Totality of source-to-source compilation; input/w are embedded as constants in generated N."
+    },
+    {
+      "id": "acc-006-c010",
+      "anchor": "Since halting is not decidable, acceptance is not decidable either.",
+      "source_ids": [
+        "acc-sep-tm"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "HALT ≤m A_TM and contrapositive of transfer theorem.",
+      "evidence_detail": "Independent proof provided in the lecture companion. HALT ≤m A_TM and contrapositive of transfer theorem."
+    },
+    {
+      "id": "acc-006-c011",
+      "anchor": "So the acceptance problem reduces to the halting problem.",
+      "source_ids": [
+        "acc-sep-tm"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Construction: rejecting outcome becomes loop, acceptance becomes halt; A_TM ≤m HALT.",
+      "evidence_detail": "Independent proof provided in the lecture companion. Construction: rejecting outcome becomes loop, acceptance becomes halt; A_TM ≤m HALT."
+    },
+    {
+      "id": "acc-006-c012",
+      "anchor": "These questions are not identical.",
+      "source_ids": [
+        "acc-stanford-cs103"
+      ],
+      "provenance": "supported_interpretation",
+      "source_locator": "Rejecting halt belongs to HALT but not A_TM; semantic distinction.",
+      "evidence_detail": "Rejecting halt belongs to HALT but not A_TM; semantic distinction."
+    },
+    {
+      "id": "acc-006-c013",
+      "anchor": "In fact, it is undecidable.",
+      "source_ids": [
+        "acc-rice1953",
+        "acc-mit-6045"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Constructive A_TM ≤m NONEMPTY_TM in succeeding paragraphs; Rice historical author reference.",
+      "evidence_detail": "Independent proof provided in the lecture companion. Constructive A_TM ≤m NONEMPTY_TM in succeeding paragraphs; Rice historical author reference."
+    },
+    {
+      "id": "acc-006-c014",
+      "anchor": "the accepted language of N is the entire input universe in the yes case and the empty set in the no case.",
+      "source_ids": [
+        "acc-rice1953"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Two-case calculation L(N)=Σ* if M(w) accepts else ∅.",
+      "evidence_detail": "Independent proof provided in the lecture companion. Two-case calculation L(N)=Σ* if M(w) accepts else ∅."
+    },
+    {
+      "id": "acc-006-c015",
+      "anchor": "The transformation from M and w to N is algorithmic",
+      "source_ids": [
+        "acc-mit-6045"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Code generator outputs finite N description; does not decide M(w) while generating.",
+      "evidence_detail": "Independent proof provided in the lecture companion. Code generator outputs finite N description; does not decide M(w) while generating."
+    },
+    {
+      "id": "acc-006-c016",
+      "anchor": "It therefore directly reduces acceptance to nonemptiness, not to emptiness.",
+      "source_ids": [
+        "acc-mit-6045"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Direction and membership orientation audited; A_TM ≤m NONEMPTY_TM, not E_TM.",
+      "evidence_detail": "Independent proof provided in the lecture companion. Direction and membership orientation audited; A_TM ≤m NONEMPTY_TM, not E_TM."
+    },
+    {
+      "id": "acc-006-c017",
+      "anchor": "A reduction is a construction with a proof of behavior, not a solver hidden inside a compiler.",
+      "source_ids": [
+        "acc-mit-6045"
+      ],
+      "provenance": "editorial_inference",
+      "source_locator": "Total mapping construction may not run potentially divergent M(w) during translation.",
+      "evidence_detail": "Total mapping construction may not run potentially divergent M(w) during translation."
+    },
+    {
+      "id": "acc-006-c018",
+      "anchor": "This is the familiar language-property formulation of *Rice's theorem*",
+      "source_ids": [
+        "acc-rice1953",
+        "acc-mit-6045"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Rice 1953 original publication metadata; MIT 6.045J lecture 9 title explicitly Rice theorem.",
+      "evidence_detail": "Rice 1953 original publication metadata; MIT 6.045J lecture 9 title explicitly Rice theorem."
+    },
+    {
+      "id": "acc-006-c019",
+      "anchor": "It applies to recognized languages, not to the syntax of one implementation.",
+      "source_ids": [
+        "acc-rice1953"
+      ],
+      "provenance": "supported_interpretation",
+      "source_locator": "Rice property extensional on recognized language L(M).",
+      "evidence_detail": "Rice property extensional on recognized language L(M)."
+    },
+    {
+      "id": "acc-006-c020",
+      "anchor": "Call the property P.",
+      "source_ids": [
+        "acc-rice1953"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Setup for original full proof in narration and mathematical companion.",
+      "evidence_detail": "Independent proof provided in the lecture companion. Setup for original full proof in narration and mathematical companion."
+    },
+    {
+      "id": "acc-006-c021",
+      "anchor": "First suppose the empty language does not have P.",
+      "source_ids": [
+        "acc-rice1953"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Case split of theorem P(∅) false/true.",
+      "evidence_detail": "Independent proof provided in the lecture companion. Case split of theorem P(∅) false/true."
+    },
+    {
+      "id": "acc-006-c022",
+      "anchor": "If M accepts w, the initial simulation eventually finishes in acceptance, after which N behaves like T on each x.",
+      "source_ids": [
+        "acc-rice1953"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Constructed N recognizes L(T) on yes case; proof obligation explicit.",
+      "evidence_detail": "Independent proof provided in the lecture companion. Constructed N recognizes L(T) on yes case; proof obligation explicit."
+    },
+    {
+      "id": "acc-006-c023",
+      "anchor": "N recognizes the empty language, which does not have P.",
+      "source_ids": [
+        "acc-rice1953"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Constructed N recognizes ∅ if source M(w) does not accept.",
+      "evidence_detail": "Independent proof provided in the lecture companion. Constructed N recognizes ∅ if source M(w) does not accept."
+    },
+    {
+      "id": "acc-006-c024",
+      "anchor": "If P had a decider, we could swap yes and no to decide its complement.",
+      "source_ids": [
+        "acc-rice1953"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Second case P(∅) true, apply previous argument to ¬P.",
+      "evidence_detail": "Independent proof provided in the lecture companion. Second case P(∅) true, apply previous argument to ¬P."
+    },
+    {
+      "id": "acc-006-c025",
+      "anchor": "Whether a machine halts on every input is a property of its execution behavior",
+      "source_ids": [
+        "acc-rice1953"
+      ],
+      "provenance": "supported_interpretation",
+      "source_locator": "Rice applies only to accepted-language-extensional properties, unlike totality.",
+      "evidence_detail": "Rice applies only to accepted-language-extensional properties, unlike totality."
+    },
+    {
+      "id": "acc-006-c026",
+      "anchor": "Both recognize the empty language: neither accepts any string.",
+      "source_ids": [
+        "acc-rice1953"
+      ],
+      "provenance": "original_example",
+      "source_locator": "Machine rejecting all vs looping all, witness totality not language property.",
+      "evidence_detail": "Machine rejecting all vs looping all, witness totality not language property."
+    },
+    {
+      "id": "acc-006-c027",
+      "anchor": "whether the accepted language is regular *is* a language property.",
+      "source_ids": [
+        "acc-rice1953",
+        "acc-mit-6045"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Nontrivial extensional property; DFA languages recognizable; 0^n1^n recognizable nonregular, discussed in companion.",
+      "evidence_detail": "Independent proof provided in the lecture companion. Nontrivial extensional property; DFA languages recognizable; 0^n1^n recognizable nonregular, discussed in companion."
+    },
+    {
+      "id": "acc-006-c028",
+      "anchor": "mapping reductions only need to be computable; they need not be efficient in the sense of polynomial running time.",
+      "source_ids": [
+        "acc-sep-comp"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Computability and Complexity §4.1 distinguishes complexity reduction bounds from computability.",
+      "evidence_detail": "Computability and Complexity §4.1 distinguishes complexity reduction bounds from computability."
+    },
+    {
+      "id": "acc-006-c029",
+      "anchor": "the reduction itself must obey an explicit resource bound, usually polynomial time.",
+      "source_ids": [
+        "acc-sep-comp",
+        "acc-mit-complexity"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "SEP §4.1 and MIT 6.006 complexity lecture on polynomial reductions.",
+      "evidence_detail": "SEP §4.1 and MIT 6.006 complexity lecture on polynomial reductions."
+    },
+    {
+      "id": "acc-006-c030",
+      "anchor": "Only then take the contrapositive: a decider for the target would decide the source",
+      "source_ids": [
+        "acc-sep-tm"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Explicit proof checklist and contrapositive theorem.",
+      "evidence_detail": "Independent proof provided in the lecture companion. Explicit proof checklist and contrapositive theorem."
+    }
+  ]
+}

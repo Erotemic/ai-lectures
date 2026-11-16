@@ -1,0 +1,264 @@
+{
+  "schema_version": 1,
+  "lecture_id": "004000",
+  "transcript": "004000-why-no-program-can-decide-all-halting.md",
+  "related_resources": [
+    {
+      "source_id": "acc-lean",
+      "reason": "Recursion, induction, well-founded recursion; not evidence that this pack includes a checked Lean theorem."
+    },
+    {
+      "source_id": "acc-mit-6045",
+      "reason": "Index confirms lectures 6 (Turing machines), 7 (decidability), 8 (undecidability), and 9 (mapping reducibility and Rice theorem). Slides credited to Prof. Nancy Lynch; index rather than linked PDFs read."
+    },
+    {
+      "source_id": "acc-sep-comp",
+      "reason": "Sections 1 and 2 describe historical calculi, universality, halting undecidability, complexity."
+    },
+    {
+      "source_id": "acc-sep-tm",
+      "reason": "Sections 2.3 and 2.4.1–2.4.3: universality, diagonal and Turing original circle-free versus contemporary halting formulation; 2025 revision verified."
+    },
+    {
+      "source_id": "acc-turing",
+      "reason": "Proceedings of the London Mathematical Society s2-42, 230-265; original paper provenance and date; full reasoning on SEP."
+    }
+  ],
+  "claim_evidence": [
+    {
+      "id": "acc-004-c001",
+      "anchor": "no algorithm can make that promise for every program and every input in a sufficiently general model of computation.",
+      "source_ids": [
+        "acc-sep-tm",
+        "acc-sep-comp"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "SEP Turing Machines §2.4.3 standard halting theorem; Computability and Complexity §2.4 diagonal halting set.",
+      "evidence_detail": "SEP Turing Machines §2.4.3 standard halting theorem; Computability and Complexity §2.4 diagonal halting set."
+    },
+    {
+      "id": "acc-004-c002",
+      "anchor": "We can even decide the halting question for carefully restricted programming languages.",
+      "source_ids": [
+        "acc-sep-tm"
+      ],
+      "provenance": "supported_interpretation",
+      "source_locator": "Universality is a hypothesis; restricted finite-state models analyzed in companion.",
+      "evidence_detail": "Universality is a hypothesis; restricted finite-state models analyzed in companion."
+    },
+    {
+      "id": "acc-004-c003",
+      "anchor": "A universal machine can read such a description, together with some input data, and simulate the described machine.",
+      "source_ids": [
+        "acc-turing",
+        "acc-sep-tm"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Turing On Computable Numbers §§6–7 universal machine; SEP Turing Machines §2.3.",
+      "evidence_detail": "Turing On Computable Numbers §§6–7 universal machine; SEP Turing Machines §2.3."
+    },
+    {
+      "id": "acc-004-c004",
+      "anchor": "It may halt by accepting or rejecting; either counts as halting.",
+      "source_ids": [
+        "acc-sep-tm"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Exact modern HALT definition in companion; applies to designated halting states.",
+      "evidence_detail": "Independent proof provided in the lecture companion. Exact modern HALT definition in companion; applies to designated halting states."
+    },
+    {
+      "id": "acc-004-c005",
+      "anchor": "H always terminates.",
+      "source_ids": [
+        "acc-sep-tm"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Hypothetical totality is the premise of diagonal proof; SEP §2.4.3.",
+      "evidence_detail": "Independent proof provided in the lecture companion. Hypothetical totality is the premise of diagonal proof; SEP §2.4.3."
+    },
+    {
+      "id": "acc-004-c006",
+      "anchor": "If H says Q will halt, D deliberately loops forever.",
+      "source_ids": [
+        "acc-sep-tm"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "D construction with branch inversion; SEP §2.4.3.",
+      "evidence_detail": "Independent proof provided in the lecture companion. D construction with branch inversion; SEP §2.4.3."
+    },
+    {
+      "id": "acc-004-c007",
+      "anchor": "Now give D its own description.",
+      "source_ids": [
+        "acc-sep-tm",
+        "acc-turing"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Diagonal self-application in companion; universality and machine coding from Turing and SEP §2.4.",
+      "evidence_detail": "Independent proof provided in the lecture companion. Diagonal self-application in companion; universality and machine coding from Turing and SEP §2.4."
+    },
+    {
+      "id": "acc-004-c008",
+      "anchor": "if D halts, it must not halt.",
+      "source_ids": [
+        "acc-sep-tm"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Diagonal contradiction: H(d,d)=0 iff D(d) halts.",
+      "evidence_detail": "Independent proof provided in the lecture companion. Diagonal contradiction: H(d,d)=0 iff D(d) halts."
+    },
+    {
+      "id": "acc-004-c009",
+      "anchor": "if D does not halt, it must halt.",
+      "source_ids": [
+        "acc-sep-tm"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Diagonal contradiction other case H(d,d)=1 iff D(d) diverges.",
+      "evidence_detail": "Independent proof provided in the lecture companion. Diagonal contradiction other case H(d,d)=1 iff D(d) diverges."
+    },
+    {
+      "id": "acc-004-c010",
+      "anchor": "We derived a contradiction from the existence of a *total* decision procedure",
+      "source_ids": [
+        "acc-sep-tm"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Theorem in companion; totality and correctness both essential.",
+      "evidence_detail": "Independent proof provided in the lecture companion. Theorem in companion; totality and correctness both essential."
+    },
+    {
+      "id": "acc-004-c011",
+      "anchor": "The same construction then gives an input on which the detector's claimed total correctness cannot hold.",
+      "source_ids": [
+        "acc-sep-comp"
+      ],
+      "provenance": "supported_interpretation",
+      "source_locator": "SEP Computability and Complexity §2.4, diagonal construction defeats arbitrary solver.",
+      "evidence_detail": "SEP Computability and Complexity §2.4, diagonal construction defeats arbitrary solver."
+    },
+    {
+      "id": "acc-004-c012",
+      "anchor": "The construction is called *diagonalization*",
+      "source_ids": [
+        "acc-sep-comp"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "SEP Computability and Complexity §2.4, diagonal halting set K and reference to Cantor.",
+      "evidence_detail": "SEP Computability and Complexity §2.4, diagonal halting set K and reference to Cantor."
+    },
+    {
+      "id": "acc-004-c013",
+      "anchor": "there are countably many programs but far more sets of strings.",
+      "source_ids": [
+        "acc-sep-comp"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Finite program encodings are countable; powerset of countably infinite set uncountable (Cantor).",
+      "evidence_detail": "Independent proof provided in the lecture companion. Finite program encodings are countable; powerset of countably infinite set uncountable (Cantor)."
+    },
+    {
+      "id": "acc-004-c014",
+      "anchor": "The bounded question is decidable because you have placed a finite upper limit on the observation.",
+      "source_ids": [
+        "acc-mit-6045"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Companion HALT_WITHIN algorithm simulates at most t steps; course index decidability lecture 7 is contextual reference.",
+      "evidence_detail": "Independent proof provided in the lecture companion. Companion HALT_WITHIN algorithm simulates at most t steps; course index decidability lecture 7 is contextual reference."
+    },
+    {
+      "id": "acc-004-c015",
+      "anchor": "A finite timeout is therefore a legitimate engineering choice, but it answers a different question.",
+      "source_ids": [
+        "acc-sep-tm"
+      ],
+      "provenance": "editorial_inference",
+      "source_locator": "Finite simulation is not an algorithm for unbounded HALT; exact distinction in companion.",
+      "evidence_detail": "Finite simulation is not an algorithm for unbounded HALT; exact distinction in companion."
+    },
+    {
+      "id": "acc-004-c016",
+      "anchor": "We have a general way to recognize positive halting instances.",
+      "source_ids": [
+        "acc-sep-comp"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "SEP Computability and Complexity §2.4: diagonal halting set K is r.e.; finite acceptance witness.",
+      "evidence_detail": "SEP Computability and Complexity §2.4: diagonal halting set K is r.e.; finite acceptance witness."
+    },
+    {
+      "id": "acc-004-c017",
+      "anchor": "The halting theorem does not say that we can never learn the answer for an individual instance.",
+      "source_ids": [
+        "acc-sep-tm"
+      ],
+      "provenance": "supported_interpretation",
+      "source_locator": "Quantifier order of theorem excludes total universal solver, not individual proofs.",
+      "evidence_detail": "Quantifier order of theorem excludes total universal solver, not individual proofs."
+    },
+    {
+      "id": "acc-004-c018",
+      "anchor": "A repeated full configuration in a deterministic transition system implies that subsequent execution will repeat.",
+      "source_ids": [
+        "acc-mit-6045"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Finite state deterministic transition function; original finite-config reasoning, not claiming source demonstrates exact example.",
+      "evidence_detail": "Independent proof provided in the lecture companion. Finite state deterministic transition function; original finite-config reasoning, not claiming source demonstrates exact example."
+    },
+    {
+      "id": "acc-004-c019",
+      "anchor": "The contradiction requires D to be a permitted program and its description to be an admissible input.",
+      "source_ids": [
+        "acc-sep-tm"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Explicit hypotheses in diagonal construction; SEP §§2.3–2.4.",
+      "evidence_detail": "Independent proof provided in the lecture companion. Explicit hypotheses in diagonal construction; SEP §§2.3–2.4."
+    },
+    {
+      "id": "acc-004-c020",
+      "anchor": "The universal halting theorem blocks the fantasy of an unrestricted automatic mechanism that decides all such claims.",
+      "source_ids": [
+        "acc-lean",
+        "acc-sep-tm"
+      ],
+      "provenance": "supported_interpretation",
+      "source_locator": "Lean 4 Chapter 8 well-founded recursion; contrast with total halting impossibility.",
+      "evidence_detail": "Lean 4 Chapter 8 well-founded recursion; contrast with total halting impossibility."
+    },
+    {
+      "id": "acc-004-c021",
+      "anchor": "Its main presentation concerns machines producing computable sequences and distinguishes *circle-free* from *circular* behavior",
+      "source_ids": [
+        "acc-turing",
+        "acc-sep-tm"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Turing paper §§1–2, 8; SEP Turing Machines §2.4.2/2.4.3 historical clarification.",
+      "evidence_detail": "Turing paper §§1–2, 8; SEP Turing Machines §2.4.2/2.4.3 historical clarification."
+    },
+    {
+      "id": "acc-004-c022",
+      "anchor": "Today's compact formulation, 'given a program and input, does it halt?', expresses a closely related standard theorem.",
+      "source_ids": [
+        "acc-sep-tm"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "SEP Turing Machines §2.4.3 explicitly differentiates original from familiar HALT statement.",
+      "evidence_detail": "SEP Turing Machines §2.4.3 explicitly differentiates original from familiar HALT statement."
+    },
+    {
+      "id": "acc-004-c023",
+      "anchor": "The halting theorem demonstrates that precision alone is not sufficient.",
+      "source_ids": [
+        "acc-sep-comp"
+      ],
+      "provenance": "editorial_inference",
+      "source_locator": "Conceptual conclusion from diagonal theorem, original framing.",
+      "evidence_detail": "Conceptual conclusion from diagonal theorem, original framing."
+    }
+  ]
+}

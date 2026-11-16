@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "lecture_id": "001000",
+  "transcript": "001000-cement-concrete-mortar-and-the-ground.md",
+  "related_resources": [
+    {
+      "source_id": "aci-curing",
+      "reason": "Curing, hydration, moisture and favorable temperature"
+    },
+    {
+      "source_id": "aci-topic",
+      "reason": "Hydration, potential strength and durability"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P001000-01",
+      "claim": "Curing maintains moisture and temperature for cementitious reactions",
+      "kind": "underlying_physics_or_field_practice",
+      "supports": [
+        {
+          "source_id": "aci-curing",
+          "location": "Curing, hydration, moisture and favorable temperature",
+          "role": "reference"
+        },
+        {
+          "source_id": "aci-topic",
+          "location": "Hydration, potential strength and durability",
+          "role": "reference"
+        }
+      ],
+      "verification_level": "public_source_identified_editorial_check_pending",
+      "limits": "Introductory education. Application-specific design, manufacturer instructions, adopted rules, and required review are separate.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "P001000-02",
+      "claim": "Concrete hardening relies on hydration rather than simple drying",
+      "kind": "underlying_physics_or_field_practice",
+      "supports": [
+        {
+          "source_id": "aci-curing",
+          "location": "Curing, hydration, moisture and favorable temperature",
+          "role": "reference"
+        }
+      ],
+      "verification_level": "public_source_identified_editorial_check_pending",
+      "limits": "Introductory education. Application-specific design, manufacturer instructions, adopted rules, and required review are separate.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "P001000-03",
+      "claim": "Curing affects strength, durability and cracking risk",
+      "kind": "underlying_physics_or_field_practice",
+      "supports": [
+        {
+          "source_id": "aci-curing",
+          "location": "Curing, hydration, moisture and favorable temperature",
+          "role": "reference"
+        },
+        {
+          "source_id": "aci-topic",
+          "location": "Hydration, potential strength and durability",
+          "role": "reference"
+        }
+      ],
+      "verification_level": "public_source_identified_editorial_check_pending",
+      "limits": "Introductory education. Application-specific design, manufacturer instructions, adopted rules, and required review are separate.",
+      "professional_review": "pending"
+    }
+  ],
+  "editorial_status": "educational_draft_sources_recorded_not_field_validated",
+  "citation_policy": "Source records support narrow background claims. This first pass is not a full independent claim-by-claim professional evidence audit."
+}

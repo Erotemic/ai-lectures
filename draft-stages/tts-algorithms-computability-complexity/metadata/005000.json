@@ -1,0 +1,274 @@
+{
+  "schema_version": 1,
+  "lecture_id": "005000",
+  "transcript": "005000-recognizing-is-not-deciding.md",
+  "related_resources": [
+    {
+      "source_id": "acc-mit-6045",
+      "reason": "Index confirms lectures 6 (Turing machines), 7 (decidability), 8 (undecidability), and 9 (mapping reducibility and Rice theorem). Slides credited to Prof. Nancy Lynch; index rather than linked PDFs read."
+    },
+    {
+      "source_id": "acc-post1944",
+      "reason": "Bulletin of the American Mathematical Society 50(5), 284–316; verified title, year and DOI; not claiming direct inspection of its technical proofs."
+    },
+    {
+      "source_id": "acc-sep-comp",
+      "reason": "Sections 1 and 2 describe historical calculi, universality, halting undecidability, complexity."
+    },
+    {
+      "source_id": "acc-sep-tm",
+      "reason": "Sections 2.3 and 2.4.1–2.4.3: universality, diagonal and Turing original circle-free versus contemporary halting formulation; 2025 revision verified."
+    },
+    {
+      "source_id": "acc-stanford-cs103",
+      "reason": "Course reference indexes recognizer, decider, complement, and co-recognizable terminology; tool-visible search excerpts, not independent proof of the theorem."
+    }
+  ],
+  "claim_evidence": [
+    {
+      "id": "acc-005-c001",
+      "anchor": "An algorithm that eventually confirms every positive case need not be able to resolve every negative case.",
+      "source_ids": [
+        "acc-sep-comp",
+        "acc-stanford-cs103"
+      ],
+      "provenance": "supported_interpretation",
+      "source_locator": "Recognizability versus decidability; SEP §§2.3–2.4, Stanford CS103 terminology.",
+      "evidence_detail": "Recognizability versus decidability; SEP §§2.3–2.4, Stanford CS103 terminology."
+    },
+    {
+      "id": "acc-005-c002",
+      "anchor": "A machine recognizes a language L when it accepts every string in L, and never accepts a string outside L.",
+      "source_ids": [
+        "acc-stanford-cs103"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Stanford CS103 reference recognizer definition; formal definition in companion.",
+      "evidence_detail": "Stanford CS103 reference recognizer definition; formal definition in companion."
+    },
+    {
+      "id": "acc-005-c003",
+      "anchor": "On a string outside the language, the recognizer is allowed either to reject and halt, or to continue forever.",
+      "source_ids": [
+        "acc-stanford-cs103"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Stanford course recognizability definition; complement and nonacceptance distinct.",
+      "evidence_detail": "Stanford course recognizability definition; complement and nonacceptance distinct."
+    },
+    {
+      "id": "acc-005-c004",
+      "anchor": "A decider for L always halts.",
+      "source_ids": [
+        "acc-stanford-cs103"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Stanford CS103 decider entry and formal definition.",
+      "evidence_detail": "Stanford CS103 decider entry and formal definition."
+    },
+    {
+      "id": "acc-005-c005",
+      "anchor": "a genuine rejecting halt is an observable finite event.",
+      "source_ids": [
+        "acc-sep-tm"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Halting machine semantics vs unbounded waiting, formal definitions.",
+      "evidence_detail": "Independent proof provided in the lecture companion. Halting machine semantics vs unbounded waiting, formal definitions."
+    },
+    {
+      "id": "acc-005-c006",
+      "anchor": "Thus the halting language is recognizable.",
+      "source_ids": [
+        "acc-sep-comp"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "SEP Computability and Complexity §2.4 explicitly notes self-halting set K is recursively enumerable.",
+      "evidence_detail": "SEP Computability and Complexity §2.4 explicitly notes self-halting set K is recursively enumerable."
+    },
+    {
+      "id": "acc-005-c007",
+      "anchor": "It is not decidable.",
+      "source_ids": [
+        "acc-sep-comp",
+        "acc-sep-tm"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "SEP Computability and Complexity §2.4 and Turing Machines §2.4.3.",
+      "evidence_detail": "SEP Computability and Complexity §2.4 and Turing Machines §2.4.3."
+    },
+    {
+      "id": "acc-005-c008",
+      "anchor": "A language is decidable if and only if *both it and its complement are recognizable*.",
+      "source_ids": [
+        "acc-stanford-cs103",
+        "acc-mit-6045"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Complete proof in narration and companion, Stanford course reference co-RE and MIT decidability topic as modern context.",
+      "evidence_detail": "Independent proof provided in the lecture companion. Complete proof in narration and companion, Stanford course reference co-RE and MIT decidability topic as modern context."
+    },
+    {
+      "id": "acc-005-c009",
+      "anchor": "To recognize the complement, run the same decider and exchange its accepting and rejecting outcomes.",
+      "source_ids": [
+        "acc-stanford-cs103"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Forward proof direction: decider always halts.",
+      "evidence_detail": "Independent proof provided in the lecture companion. Forward proof direction: decider always halts."
+    },
+    {
+      "id": "acc-005-c010",
+      "anchor": "We cannot safely run R and wait for it to finish before starting S.",
+      "source_ids": [
+        "acc-sep-comp"
+      ],
+      "provenance": "original_example",
+      "source_locator": "Original counterexample to serial recognizer simulation; recognizers may diverge.",
+      "evidence_detail": "Original counterexample to serial recognizer simulation; recognizers may diverge."
+    },
+    {
+      "id": "acc-005-c011",
+      "anchor": "Instead we interleave the simulations.",
+      "source_ids": [
+        "acc-mit-6045"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Dovetailing proof, one step per simulation per stage; MIT Lecture 7 background.",
+      "evidence_detail": "Independent proof provided in the lecture companion. Dovetailing proof, one step per simulation per stage; MIT Lecture 7 background."
+    },
+    {
+      "id": "acc-005-c012",
+      "anchor": "the combined procedure halts with the correct membership decision.",
+      "source_ids": [
+        "acc-stanford-cs103"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Proof by complement partition and fairness, companion theorem.",
+      "evidence_detail": "Independent proof provided in the lecture companion. Proof by complement partition and fairness, companion theorem."
+    },
+    {
+      "id": "acc-005-c013",
+      "anchor": "This construction is called *dovetailing*.",
+      "source_ids": [
+        "acc-sep-comp"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Standard fair simulation principle; SEP §2.3 enumerability context.",
+      "evidence_detail": "Standard fair simulation principle; SEP §2.3 enumerability context."
+    },
+    {
+      "id": "acc-005-c014",
+      "anchor": "The correctness argument depends on the fact that every input is guaranteed to be a positive case for exactly one of the two recognized languages.",
+      "source_ids": [
+        "acc-stanford-cs103"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Coverage and disjointness of L and its complement required.",
+      "evidence_detail": "Independent proof provided in the lecture companion. Coverage and disjointness of L and its complement required."
+    },
+    {
+      "id": "acc-005-c015",
+      "anchor": "its complement—the set of program-and-input pairs on which the program never halts—cannot be recognizable.",
+      "source_ids": [
+        "acc-sep-comp"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "HALT recognized plus complementary recognizable ⇒ decidable; contradicted by halting theorem.",
+      "evidence_detail": "Independent proof provided in the lecture companion. HALT recognized plus complementary recognizable ⇒ decidable; contradicted by halting theorem."
+    },
+    {
+      "id": "acc-005-c016",
+      "anchor": "Individual nontermination certificates remain entirely possible.",
+      "source_ids": [
+        "acc-sep-tm"
+      ],
+      "provenance": "supported_interpretation",
+      "source_locator": "Quantified nonexistence of universal recognizer does not forbid instance-specific proof.",
+      "evidence_detail": "Quantified nonexistence of universal recognizer does not forbid instance-specific proof."
+    },
+    {
+      "id": "acc-005-c017",
+      "anchor": "And there are languages that are neither recognizable nor co-recognizable.",
+      "source_ids": [
+        "acc-sep-comp"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Countably many TMs vs uncountably many languages; complement family countable too.",
+      "evidence_detail": "Independent proof provided in the lecture companion. Countably many TMs vs uncountably many languages; complement family countable too."
+    },
+    {
+      "id": "acc-005-c018",
+      "anchor": "The modern term *computably enumerable* often refers to the same class.",
+      "source_ids": [
+        "acc-post1944",
+        "acc-sep-comp"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Post 1944 historical title plus SEP computability §2.3 terminology; modern term as common usage.",
+      "evidence_detail": "Post 1944 historical title plus SEP computability §2.3 terminology; modern term as common usage."
+    },
+    {
+      "id": "acc-005-c019",
+      "anchor": "A language is recognizable exactly when a computational process can *enumerate* its members.",
+      "source_ids": [
+        "acc-post1944",
+        "acc-sep-comp"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Two constructive directions in narration and companion; Post 1944 original enumerability context.",
+      "evidence_detail": "Independent proof provided in the lecture companion. Two constructive directions in narration and companion; Post 1944 original enumerability context."
+    },
+    {
+      "id": "acc-005-c020",
+      "anchor": "Whenever a simulation accepts, print that input.",
+      "source_ids": [
+        "acc-sep-comp"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Effective diagonal enumeration schedule, proof recognizer→enumerator.",
+      "evidence_detail": "Independent proof provided in the lecture companion. Effective diagonal enumeration schedule, proof recognizer→enumerator."
+    },
+    {
+      "id": "acc-005-c021",
+      "anchor": "run the enumerator and watch its outputs.",
+      "source_ids": [
+        "acc-sep-comp"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Enumerator→recognizer: if x ever appears accept, otherwise may diverge.",
+      "evidence_detail": "Independent proof provided in the lecture companion. Enumerator→recognizer: if x ever appears accept, otherwise may diverge."
+    },
+    {
+      "id": "acc-005-c022",
+      "anchor": "In the special case of the empty language, an enumerator may print nothing forever",
+      "source_ids": [
+        "acc-post1944"
+      ],
+      "provenance": "original_example",
+      "source_locator": "No members; operational enumerator need not output; avoids nonempty range issue.",
+      "evidence_detail": "No members; operational enumerator need not output; avoids nonempty range issue."
+    },
+    {
+      "id": "acc-005-c023",
+      "anchor": "In first-order logic, for example, completeness of a proof system does not make general validity decidable.",
+      "source_ids": [
+        "acc-sep-comp"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "SEP Computability and Complexity §1: recursive enumeration of proof-system theorems vs undecidability of first-order validity.",
+      "evidence_detail": "SEP Computability and Complexity §1: recursive enumeration of proof-system theorems vs undecidability of first-order validity."
+    },
+    {
+      "id": "acc-005-c024",
+      "anchor": "a decider that always finishes with the correct yes-or-no result.",
+      "source_ids": [
+        "acc-stanford-cs103"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Final decider guarantee of totality + membership correctness.",
+      "evidence_detail": "Final decider guarantee of totality + membership correctness."
+    }
+  ]
+}

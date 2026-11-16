@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "sources": {
+    "nhtsa-tires": {
+      "title": "NHTSA, Tire Safety Ratings and Awareness (TireWise)",
+      "kind": "federal_vehicle_safety_guidance",
+      "url": "https://www.nhtsa.gov/vehicle-safety/tires",
+      "access": "free_no_login",
+      "notes": "Inflation, vehicle placard, tread, balance and alignment"
+    },
+    "openstax-energy": {
+      "title": "OpenStax College Physics 2e, Kinetic Energy and Work-Energy Theorem",
+      "kind": "open_textbook",
+      "url": "https://openstax.org/books/college-physics-2e/pages/7-2-kinetic-energy-and-the-work-energy-theorem",
+      "access": "free_no_login",
+      "notes": "Mechanical kinetic energy scaling with speed"
+    }
+  }
+}

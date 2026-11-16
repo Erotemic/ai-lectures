@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "lecture_id": "001000",
+  "transcript": "001000-heat-water-and-the-structure-of-food.md",
+  "related_resources": [
+    {
+      "source_id": "fsis-safety",
+      "reason": "Clean, separate, cook and chill practices"
+    },
+    {
+      "source_id": "fsis-thermometer",
+      "reason": "Measurement in thickest relevant portion of food"
+    },
+    {
+      "source_id": "foodsafety-temps",
+      "reason": "Current food-type-specific safe minimum temperatures"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P001000-01",
+      "claim": "Visual cues alone are insufficient for food safety",
+      "kind": "underlying_physics_or_field_practice",
+      "supports": [
+        {
+          "source_id": "fsis-safety",
+          "location": "Clean, separate, cook and chill practices",
+          "role": "reference"
+        },
+        {
+          "source_id": "fsis-thermometer",
+          "location": "Measurement in thickest relevant portion of food",
+          "role": "reference"
+        }
+      ],
+      "verification_level": "public_source_identified_editorial_check_pending",
+      "limits": "Introductory education. Application-specific design, manufacturer instructions, adopted rules, and required review are separate.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "P001000-02",
+      "claim": "Food-specific internal temperatures and storage conditions vary",
+      "kind": "underlying_physics_or_field_practice",
+      "supports": [
+        {
+          "source_id": "foodsafety-temps",
+          "location": "Current food-type-specific safe minimum temperatures",
+          "role": "reference"
+        }
+      ],
+      "verification_level": "public_source_identified_editorial_check_pending",
+      "limits": "Introductory education. Application-specific design, manufacturer instructions, adopted rules, and required review are separate.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "P001000-03",
+      "claim": "Food thermometers must measure relevant interior locations",
+      "kind": "underlying_physics_or_field_practice",
+      "supports": [
+        {
+          "source_id": "fsis-thermometer",
+          "location": "Measurement in thickest relevant portion of food",
+          "role": "reference"
+        }
+      ],
+      "verification_level": "public_source_identified_editorial_check_pending",
+      "limits": "Introductory education. Application-specific design, manufacturer instructions, adopted rules, and required review are separate.",
+      "professional_review": "pending"
+    }
+  ],
+  "editorial_status": "educational_draft_sources_recorded_not_field_validated",
+  "citation_policy": "Source records support narrow background claims. This first pass is not a full independent claim-by-claim professional evidence audit."
+}

@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "sources": {
+    "osha-welding": {
+      "title": "OSHA, Welding, Cutting and Brazing: Hazards and Solutions",
+      "kind": "worker_safety_authority",
+      "url": "https://www.osha.gov/welding-cutting-brazing/hazards-solutions/",
+      "access": "free_no_login",
+      "notes": "Fumes, ultraviolet radiation, burns, electric shock and protective controls"
+    },
+    "osha-fact": {
+      "title": "OSHA Fact Sheet: Welding Fumes and Processes",
+      "kind": "worker_safety_technical_fact_sheet",
+      "url": "https://www.osha.gov/sites/default/files/publications/OSHA_FS-3647_WELDING.pdf",
+      "access": "free_no_login",
+      "notes": "Distinction between SMAW, GMAW, GTAW and brazing"
+    }
+  }
+}

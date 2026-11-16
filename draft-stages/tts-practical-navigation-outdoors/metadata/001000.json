@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "lecture_id": "001000",
+  "transcript": "001000-read-the-land-not-just-the-arrow.md",
+  "related_resources": [
+    {
+      "source_id": "usgs-topo",
+      "reason": "Contour lines, elevation and mapping scales"
+    },
+    {
+      "source_id": "nps-compass",
+      "reason": "Magnetic declination and north reference"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P001000-01",
+      "claim": "Contour lines represent equal-elevation positions",
+      "kind": "underlying_physics_or_field_practice",
+      "supports": [
+        {
+          "source_id": "usgs-topo",
+          "location": "Contour lines, elevation and mapping scales",
+          "role": "reference"
+        }
+      ],
+      "verification_level": "public_source_identified_editorial_check_pending",
+      "limits": "Introductory education. Application-specific design, manufacturer instructions, adopted rules, and required review are separate.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "P001000-02",
+      "claim": "Magnetic and true north can differ by local declination",
+      "kind": "underlying_physics_or_field_practice",
+      "supports": [
+        {
+          "source_id": "nps-compass",
+          "location": "Magnetic declination and north reference",
+          "role": "reference"
+        }
+      ],
+      "verification_level": "public_source_identified_editorial_check_pending",
+      "limits": "Introductory education. Application-specific design, manufacturer instructions, adopted rules, and required review are separate.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "P001000-03",
+      "claim": "Map scale distances need to be interpreted as projected distances",
+      "kind": "underlying_physics_or_field_practice",
+      "supports": [
+        {
+          "source_id": "usgs-topo",
+          "location": "Contour lines, elevation and mapping scales",
+          "role": "reference"
+        }
+      ],
+      "verification_level": "public_source_identified_editorial_check_pending",
+      "limits": "Introductory education. Application-specific design, manufacturer instructions, adopted rules, and required review are separate.",
+      "professional_review": "pending"
+    }
+  ],
+  "editorial_status": "educational_draft_sources_recorded_not_field_validated",
+  "citation_policy": "Source records support narrow background claims. This first pass is not a full independent claim-by-claim professional evidence audit."
+}

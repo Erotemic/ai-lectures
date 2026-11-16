@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "lecture_id": "001000",
+  "transcript": "001000-see-the-problem-and-organize-the-response.md",
+  "related_resources": [
+    {
+      "source_id": "rc-first-aid",
+      "reason": "Check, Call, Care and emergency activation"
+    },
+    {
+      "source_id": "rc-cpr",
+      "reason": "Cardiac arrest CPR and age-specific guidance"
+    },
+    {
+      "source_id": "rc-aed",
+      "reason": "AED prompts, clear before analysis and shock"
+    },
+    {
+      "source_id": "rc-hands",
+      "reason": "Compression-only adult CPR context"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P001000-01",
+      "claim": "Cardiac arrest response needs emergency activation and CPR/AED",
+      "kind": "underlying_physics_or_field_practice",
+      "supports": [
+        {
+          "source_id": "rc-first-aid",
+          "location": "Check, Call, Care and emergency activation",
+          "role": "reference"
+        },
+        {
+          "source_id": "rc-cpr",
+          "location": "Cardiac arrest CPR and age-specific guidance",
+          "role": "reference"
+        },
+        {
+          "source_id": "rc-aed",
+          "location": "AED prompts, clear before analysis and shock",
+          "role": "reference"
+        }
+      ],
+      "verification_level": "public_source_identified_editorial_check_pending",
+      "limits": "Introductory education. Application-specific design, manufacturer instructions, adopted rules, and required review are separate.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "P001000-02",
+      "claim": "An AED is used following device prompts and clear commands",
+      "kind": "underlying_physics_or_field_practice",
+      "supports": [
+        {
+          "source_id": "rc-aed",
+          "location": "AED prompts, clear before analysis and shock",
+          "role": "reference"
+        }
+      ],
+      "verification_level": "public_source_identified_editorial_check_pending",
+      "limits": "Introductory education. Application-specific design, manufacturer instructions, adopted rules, and required review are separate.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "P001000-03",
+      "claim": "Hands-only CPR guidance is distinct from age-specific conventional CPR",
+      "kind": "underlying_physics_or_field_practice",
+      "supports": [
+        {
+          "source_id": "rc-hands",
+          "location": "Compression-only adult CPR context",
+          "role": "reference"
+        },
+        {
+          "source_id": "rc-cpr",
+          "location": "Cardiac arrest CPR and age-specific guidance",
+          "role": "reference"
+        }
+      ],
+      "verification_level": "public_source_identified_editorial_check_pending",
+      "limits": "Introductory education. Application-specific design, manufacturer instructions, adopted rules, and required review are separate.",
+      "professional_review": "pending"
+    }
+  ],
+  "editorial_status": "educational_draft_sources_recorded_not_field_validated",
+  "citation_policy": "Source records support narrow background claims. This first pass is not a full independent claim-by-claim professional evidence audit."
+}

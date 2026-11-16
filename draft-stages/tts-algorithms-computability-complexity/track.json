@@ -10,7 +10,8 @@
   "sections": [
     "problems-algorithms-and-computability",
     "computational-cost-and-lower-bounds",
-    "proof-refinement-and-verification"
+    "proof-refinement-and-verification",
+    "computability-and-undecidability"
   ],
   "lectures": [
     {
@@ -35,6 +36,30 @@
       "section": "proof-refinement-and-verification",
       "file": "003000-from-proof-to-executable-algorithm.md",
       "spoken_words": 2165,
+      "draft_status": "substantive"
+    },
+    {
+      "id": "004000",
+      "title": "Why No Program Can Decide Every Halting Question",
+      "section": "computability-and-undecidability",
+      "file": "004000-why-no-program-can-decide-all-halting.md",
+      "spoken_words": 1921,
+      "draft_status": "substantive"
+    },
+    {
+      "id": "005000",
+      "title": "Recognizing an Answer Is Not the Same as Deciding It",
+      "section": "computability-and-undecidability",
+      "file": "005000-recognizing-is-not-deciding.md",
+      "spoken_words": 1983,
+      "draft_status": "substantive"
+    },
+    {
+      "id": "006000",
+      "title": "Reductions: How One Impossible Decision Problem Reveals Another",
+      "section": "computability-and-undecidability",
+      "file": "006000-reductions-and-rices-theorem.md",
+      "spoken_words": 2307,
       "draft_status": "substantive"
     }
   ]

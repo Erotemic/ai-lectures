@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "sources": {
+    "rc-first-aid": {
+      "title": "American Red Cross, First Aid Steps",
+      "kind": "first_aid_training_authority",
+      "url": "https://www.redcross.org/take-a-class/first-aid/performing-first-aid/first-aid-steps",
+      "access": "free_no_login",
+      "notes": "Check, Call, Care and emergency activation"
+    },
+    "rc-cpr": {
+      "title": "American Red Cross, CPR Steps",
+      "kind": "first_aid_training_authority",
+      "url": "https://www.redcross.org/take-a-class/cpr/performing-cpr/cpr-steps",
+      "access": "free_no_login",
+      "notes": "Cardiac arrest CPR and age-specific guidance"
+    },
+    "rc-aed": {
+      "title": "American Red Cross, AED Steps",
+      "kind": "first_aid_training_authority",
+      "url": "https://www.redcross.org/take-a-class/aed/using-an-aed/aed-steps",
+      "access": "free_no_login",
+      "notes": "AED prompts, clear before analysis and shock"
+    },
+    "rc-hands": {
+      "title": "American Red Cross, Hands-Only CPR",
+      "kind": "first_aid_training_authority",
+      "url": "https://www.redcross.org/get-help/how-to-prepare-for-emergencies/hands-only-cpr.html",
+      "access": "free_no_login",
+      "notes": "Compression-only adult CPR context"
+    }
+  }
+}

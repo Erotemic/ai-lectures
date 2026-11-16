@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "lecture_id": "001000",
+  "transcript": "001000-what-keeps-a-vehicle-moving-and-stopping.md",
+  "related_resources": [
+    {
+      "source_id": "nhtsa-tires",
+      "reason": "Inflation, vehicle placard, tread, balance and alignment"
+    },
+    {
+      "source_id": "openstax-energy",
+      "reason": "Mechanical kinetic energy scaling with speed"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P001000-01",
+      "claim": "Recommended tire inflation comes from vehicle specifications",
+      "kind": "underlying_physics_or_field_practice",
+      "supports": [
+        {
+          "source_id": "nhtsa-tires",
+          "location": "Inflation, vehicle placard, tread, balance and alignment",
+          "role": "reference"
+        }
+      ],
+      "verification_level": "public_source_identified_editorial_check_pending",
+      "limits": "Introductory education. Application-specific design, manufacturer instructions, adopted rules, and required review are separate.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "P001000-02",
+      "claim": "Tire condition and alignment affect vehicle behavior",
+      "kind": "underlying_physics_or_field_practice",
+      "supports": [
+        {
+          "source_id": "nhtsa-tires",
+          "location": "Inflation, vehicle placard, tread, balance and alignment",
+          "role": "reference"
+        }
+      ],
+      "verification_level": "public_source_identified_editorial_check_pending",
+      "limits": "Introductory education. Application-specific design, manufacturer instructions, adopted rules, and required review are separate.",
+      "professional_review": "pending"
+    },
+    {
+      "claim_id": "P001000-03",
+      "claim": "Braking energy grows with the square of speed",
+      "kind": "underlying_physics_or_field_practice",
+      "supports": [
+        {
+          "source_id": "openstax-energy",
+          "location": "Mechanical kinetic energy scaling with speed",
+          "role": "reference"
+        }
+      ],
+      "verification_level": "public_source_identified_editorial_check_pending",
+      "limits": "Introductory education. Application-specific design, manufacturer instructions, adopted rules, and required review are separate.",
+      "professional_review": "pending"
+    }
+  ],
+  "editorial_status": "educational_draft_sources_recorded_not_field_validated",
+  "citation_policy": "Source records support narrow background claims. This first pass is not a full independent claim-by-claim professional evidence audit."
+}

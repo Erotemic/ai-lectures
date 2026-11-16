@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "sources": {
+    "nist-uncertainty": {
+      "title": "NIST, Measurement Uncertainty",
+      "kind": "national_metrology_guidance",
+      "url": "https://www.nist.gov/itl/sed/topic-areas/measurement-uncertainty",
+      "access": "free_no_login",
+      "notes": "Measurement values, standards and uncertainty"
+    },
+    "usda-fasteners": {
+      "title": "USDA Forest Service, Wood Handbook (2021)",
+      "kind": "agency_technical_handbook",
+      "url": "https://research.fs.usda.gov/fpl/wood-handbook",
+      "access": "free_no_login",
+      "notes": "Chapter 8: fastening; Chapters 4–5: wood properties"
+    },
+    "openstax-torque": {
+      "title": "OpenStax College Physics 2e, The Second Condition for Equilibrium",
+      "kind": "open_textbook",
+      "url": "https://openstax.org/books/college-physics-2e/pages/9-2-the-second-condition-for-equilibrium",
+      "access": "free_no_login",
+      "notes": "Torque and perpendicular moment arm"
+    }
+  }
+}

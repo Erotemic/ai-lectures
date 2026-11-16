@@ -8,11 +8,11 @@ This is an editorial map, **not** a count or duration policy. Lecture boundaries
 - **002000** — Why Some Problems Are Harder Than Others. Input encodings, asymptotic notation, merge sort, comparison lower bound, bit versus word models.
 - **003000** — From Mathematical Proof to Executable Algorithm. Lower-bound search; invariant, decreasing measure, proof-to-implementation gaps, and verification practice.
 
-## Computability and mathematical limits (proposed next)
+## Computability and mathematical limits (partly drafted)
 
-- The halting problem: a detailed diagonal argument, its exact assumptions, and why restricting the program class can change decidability.
-- Recognition versus decision: recursively enumerable languages, complements, and effective enumeration.
-- Mapping reductions and Rice's theorem: correctly transferring undecidability to semantic properties.
+- **004000 — drafted:** Why No Program Can Decide Every Halting Question; detailed diagonal argument, its exact assumptions, and restricted program classes.
+- **005000 — drafted:** Recognizing an Answer Is Not the Same as Deciding It; r.e. languages, complements, dovetailing, enumeration.
+- **006000 — drafted:** Reductions: How One Impossible Decision Problem Reveals Another; mapping reductions, two-way transfer, and Rice's theorem.
 - Finite-state computation: languages, regular expressions, automata, and real implementation limits.
 - Stacks and grammars: pushdown automata, context-free parsing, and recognition boundaries.
 - Mathematical models of computation: universal machines, lambda calculus, recursive functions, and the proper scope of the Church–Turing thesis.
@@ -55,4 +55,4 @@ This is an editorial map, **not** a count or duration policy. Lecture boundaries
 
 ## Suggested next focused batch
 
-A substantive proof-driven sequence on **the halting problem, recognizability versus decidability, and reductions**. Preserve the possibility of longer single lectures when a full proof is best heard without artificial splits.
+The next independent block should distinguish **finite-state models, automata, and context-free languages** from Turing-complete computation; then return to **design paradigms** (divide-and-conquer, dynamic programming, greedy algorithms, graph search). A later focused block should tackle polynomial-time reductions and NP-completeness with explicit cost bounds. Preserve complete proofs without any lecture-duration policy.

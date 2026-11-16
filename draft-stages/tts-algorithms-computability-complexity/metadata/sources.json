@@ -91,6 +91,41 @@
       "url": "https://lean-lang.org/theorem_proving_in_lean4/Induction-and-Recursion/",
       "access": "free_no_login",
       "notes": "Recursion, induction, well-founded recursion; not evidence that this pack includes a checked Lean theorem."
+    },
+    "acc-sep-tm": {
+      "title": "Liesbeth De Mol, Turing Machines, Stanford Encyclopedia of Philosophy (substantive revision 21 May 2025)",
+      "kind": "peer_reviewed_encyclopedia",
+      "url": "https://plato.stanford.edu/entries/turing-machine/",
+      "access": "free_no_login",
+      "notes": "Sections 2.3 and 2.4.1–2.4.3: universality, diagonal and Turing original circle-free versus contemporary halting formulation; 2025 revision verified."
+    },
+    "acc-mit-6045": {
+      "title": "MIT OpenCourseWare 6.045J / 18.400J, Automata, Computability, and Complexity, Spring 2011, lecture notes index",
+      "kind": "official_course_index",
+      "url": "https://ocw.mit.edu/courses/6-045j-automata-computability-and-complexity-spring-2011/pages/lecture-notes/",
+      "access": "free_no_login",
+      "notes": "Index confirms lectures 6 (Turing machines), 7 (decidability), 8 (undecidability), and 9 (mapping reducibility and Rice theorem). Slides credited to Prof. Nancy Lynch; index rather than linked PDFs read."
+    },
+    "acc-stanford-cs103": {
+      "title": "Stanford CS103 Reference (course archive), recognizable, decidable, and co-recognizable languages",
+      "kind": "open_course_reference",
+      "url": "https://web.stanford.edu/class/archive/cs/cs103/cs103.1152/reference/",
+      "access": "open_html_reference",
+      "notes": "Course reference indexes recognizer, decider, complement, and co-recognizable terminology; tool-visible search excerpts, not independent proof of the theorem."
+    },
+    "acc-post1944": {
+      "title": "Emil L. Post, Recursively Enumerable Sets of Positive Integers and Their Decision Problems (1944)",
+      "kind": "historical_primary",
+      "url": "https://doi.org/10.1090/S0002-9904-1944-08111-1",
+      "access": "publisher_bibliographic",
+      "notes": "Bulletin of the American Mathematical Society 50(5), 284–316; verified title, year and DOI; not claiming direct inspection of its technical proofs."
+    },
+    "acc-rice1953": {
+      "title": "H. Gordon Rice, Classes of Recursively Enumerable Sets and Their Decision Problems (1953)",
+      "kind": "historical_primary",
+      "url": "https://doi.org/10.1090/S0002-9947-1953-0053041-6",
+      "access": "publisher_bibliographic",
+      "notes": "Transactions of the American Mathematical Society 74(2), 358–366; bibliography/DOI corroborated; source of named theorem, not falsely presented as fully read."
     }
   }
 }

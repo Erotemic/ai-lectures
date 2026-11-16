@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "sources": {
+    "doe-heatpumps": {
+      "title": "U.S. Department of Energy, Pump Up Your Savings With Heat Pumps",
+      "kind": "agency_technical_explanation",
+      "url": "https://www.energy.gov/articles/pump-your-savings-heat-pumps",
+      "access": "free_no_login",
+      "notes": "Heat transfer rather than direct heat generation"
+    },
+    "energystar-ashp": {
+      "title": "ENERGY STAR, Air-Source Heat Pumps",
+      "kind": "agency_product_guidance",
+      "url": "https://www.energystar.gov/products/air_source_heat_pumps",
+      "access": "free_no_login",
+      "notes": "Heating and cooling by reversing heat-transfer direction"
+    },
+    "iea-cycle": {
+      "title": "International Energy Agency, How a Heat Pump Works",
+      "kind": "intergovernmental_technical_explanation",
+      "url": "https://www.iea.org/reports/the-future-of-heat-pumps/how-a-heat-pump-works",
+      "access": "free_no_login",
+      "notes": "Heat pump work and output heat balances"
+    }
+  }
+}
