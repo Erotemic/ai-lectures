@@ -76,6 +76,12 @@ This is an independent, source-grounded, audio-first world-history curriculum fo
 | 036890 | Neighbors by the Lake: Kansyore, Urewe, and the Problems of a Farming Frontier | 1,094 |
 | 036900 | Words, Genes, and Moving Families: What the Bantu Expansion Explains | 1,276 |
 | 036910 | Mounds, Cattle, and Enclosures: Ntusi, Bigo, and Political Change in Uganda | 1,296 |
+| 036920 | At the Falls Again: Kalambo and the Many Ages of a Place | 1,026 |
+| 036930 | The Shelter Was Not Empty: Nakapapula and Contact in Central Zambia | 1,003 |
+| 036940 | Houses on a Moving Shore: The Iron Age beside Lake Malawi | 1,121 |
+| 036950 | A Seed, a Bone, and a Village: Farming in the Zambian Interior | 1,212 |
+| 036960 | Red Metal, Many Routes: Copper and Exchange in Central Africa | 1,211 |
+| 036970 | Burials beside the Lualaba: Work, Wealth, and the Upemba Wetlands | 1,317 |
 | 037000 | Fields, Lords, and Market Streets: Medieval European Societies | 1,344 |
 | 037100 | A Charter under Pressure: Magna Carta and the Claims of Law | 1,300 |
 | 038000 | Rivers to the Sea: Scandinavians, Rus, and the North Atlantic | 1,307 |
@@ -202,3 +208,7 @@ Every new spoken paragraph has a source mapping and a scope limitation in `metad
 Six further site- and method-led lectures use unused IDs `036800`–`036850` after the early East African settlement sequence. They address the collective herder cemetery at Lothagam North; herding and plant processing at Luxmanda; regional differences among Kansyore fishing and mixed economies; Kakapel's directly dated crop transitions; Kasigau iron production and agricultural landscapes; and Engaruka's engineered fields. **138 indexed lectures** now exist, without modifying any of the preceding 132 spoken manuscripts or their per-lecture evidence files.
 
 All 70 new spoken paragraphs map to scholarly source records with locally relevant evidence boundaries. Every lecture supplies academic references and Wikipedia orientation links. The September 2026 Luxmanda microbotany study is marked as reviewed via publisher abstract and highlights, not full methods. The Engaruka chronology is explicitly allowed to extend past 1500 and into later centuries. No grinding stone is presumed proof of crop cultivation, no ceramic type a direct ethnic label, no site-level plant date a universal crop arrival calendar, and no abandoned irrigation system a demonstration of human-caused ecological collapse.
+
+## Fourteenth regional-depth installment — Tanganyika, Malawi, and central African connections (November 2026)
+
+Six further lectures (`036920`–`036970`) examine Kalambo's temporally distinct occupations, Nakapapula rock-shelter contact, shifting shores and pottery traditions at Lake Malawi, Zambia's plant and faunal evidence, Copperbelt copper circulation, and Upemba graves. The pack now contains **150 indexed lectures**. Every new spoken paragraph has a non-Wikipedia scholarly source map and a claim-specific limitation; Wikipedia appears only as supplementary navigation. Previous 144 manuscripts and their per-lecture metadata remain unchanged.

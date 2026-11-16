@@ -323,3 +323,18 @@ The pack now has **138 indexed lectures**. Academic sources are cited in manuscr
 The index now holds **144 lectures**, including 138 unchanged predecessors. All **68 new spoken paragraphs** have one or more non-Wikipedia scholarly or institutional evidence mappings and specific scope limitations. Every manuscript includes academic bibliography entries plus explicitly supplementary Wikipedia articles. Abstract-only sources remain marked as such; interpretations about migration routes, early iron invention and earthworks' purpose are not presented as settled facts.
 
 **Further gaps:** Ancient farming and ironworking south and west of Lake Tanganyika (with Malawi and northern Zambia stratigraphy); pre-1500 highland African rural social history beyond Aksum and royal inscriptions; more detailed history of Indian Ocean networks' inland western Great Lakes ramifications; Congo Basin settlement and ecological change; direct botanical and faunal evidence across more Rwanda/Burundi sites.
+
+## Fourteenth regional-depth installment — Tanganyika, Malawi, Zambia, and Upemba (November 2026)
+
+| ID | New lecture | Evidence emphasis |
+| --- | --- | --- |
+| 036920 | At the Falls Again | Separate Kalambo's 476,000-year-old woodworking horizon from early first-millennium iron-using settlements; pottery group and dating limits |
+| 036930 | The Shelter Was Not Empty | Nakapapula's continuing Nachikufan tools and pottery co-occurrence, rock-art dating and alternatives to population replacement |
+| 036940 | Houses on a Moving Shore | Nkope, Kapeni, Namaso and Lake Malawi waterlines; overlapping ceramic phases and local exchange |
+| 036950 | A Seed, a Bone, and a Village | Muteteshi sorghum, Fibobe II production, Kalundu direct dates and 2021 ZooMS bone taxonomy; failed Muteteshi collagen |
+| 036960 | Red Metal, Many Routes | Chondwe ceramics, early Copperbelt extraction, HIH and later ingot changes and limits of currency or state inference |
+| 036970 | Burials beside the Lualaba | Kamilambian/Kisalian/Kabambian wetland graves, Sanga–Katoto enamel isotope differences and incomplete settlements |
+
+The pack now holds **150 indexed lectures**, including 144 unchanged predecessors and 68 mapped new narrated paragraphs. Manuscripts preserve scholarly bibliographies plus Wikipedia reading links, which are never treated as primary authority. Some source access is limited to abstracts or chapter excerpts and is flagged in the registry. The 1978 Cambridge synthesis is historical scholarship requiring methodological caution. Luba history after 1500 is not projected onto eighth-century Upemba; the Kalambo wood deposits are not continuous with Iron Age villages; Muteteshi’s four 2021 ZooMS samples all failed to yield usable collagen.
+
+**Research candidates:** Archaeological and ecological histories of the Congo Basin forests and river systems; northern Malawi and southern Tanzania rural settlement beyond pottery classification; new direct evidence on rural highland Ethiopia/Eritrea; archaeological histories of pre-1500 western and southern Africa outside monumental centers. Check current studies first, and prefer substantial evidence-backed questions over a mechanically growing topic list.
