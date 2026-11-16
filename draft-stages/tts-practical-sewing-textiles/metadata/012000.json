@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "lecture_id": "012000",
+  "transcript": "012000-drafting-and-adjusting-simple-garment-patterns.md",
+  "related_resources": [
+    {
+      "source_id": "usu-grain",
+      "reason": "Lengthwise, crosswise and bias grain"
+    },
+    {
+      "source_id": "usu-knits",
+      "reason": "Stretch and recovery testing"
+    },
+    {
+      "source_id": "wsu-fabrics",
+      "reason": "Woven, knit, nonwoven and fabric grain"
+    },
+    {
+      "source_id": "threads-ease-fitting",
+      "reason": "Finished measurements versus body measurements; wearing and design ease"
+    },
+    {
+      "source_id": "sewing-seams",
+      "reason": "Stitch lines and seam allowances"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P012000-01",
+      "claim": "Grain and bias placement influence the way woven fabric deforms and hangs.",
+      "kind": "original_university_extension_sewing",
+      "supports": [
+        {
+          "source_id": "usu-grain",
+          "location": "Lengthwise, crosswise and bias grain",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim is limited to the original source and its jurisdiction or engineering context.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P012000-02",
+      "claim": "Knits and woven fabrics differ in stretch behavior and pattern assumptions.",
+      "kind": "original_university_extension_textile",
+      "supports": [
+        {
+          "source_id": "usu-knits",
+          "location": "Stretch and recovery testing",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "wsu-fabrics",
+          "location": "Woven, knit, nonwoven and fabric grain",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim is limited to the original source and its jurisdiction or engineering context.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P012000-03",
+      "claim": "Wearing ease, design ease and seam allowance serve different functions in garment construction.",
+      "kind": "derived_pattern_construction_synthesis",
+      "supports": [
+        {
+          "source_id": "threads-ease-fitting",
+          "location": "Finished measurements versus body measurements; wearing and design ease",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "sewing-seams",
+          "location": "Stitch lines and seam allowances",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Explanatory synthesis; claims are not independently certified.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_technical_review_pending",
+  "citation_policy": "Original issuers and named authors attributed; claims and original synthesis distinguished. No professional, clinical or jurisdictional certification is implied."
+}

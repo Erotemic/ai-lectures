@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "lecture_id": "012000",
+  "transcript": "012000-planning-envelope-retrofits-without-trapping-moisture.md",
+  "related_resources": [
+    {
+      "source_id": "pnnl-cold-condensation",
+      "reason": "Air leakage versus vapor diffusion; exterior insulation and assembly drying pathways"
+    },
+    {
+      "source_id": "pnnl-drainage-plane",
+      "reason": "Continuity of water-control layer; shingle laps and exterior drainage"
+    },
+    {
+      "source_id": "pnnl-air-flow",
+      "reason": "Stack effect, neutral pressure plane, wind and duct leakage"
+    },
+    {
+      "source_id": "pnnl-ci",
+      "reason": "Assembly details, moisture/climate and thermal bridging"
+    },
+    {
+      "source_id": "pnnl-window-flashing",
+      "reason": "Sill pan, jamb/head flashing and connections to drainage plane"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P012000-01",
+      "claim": "Adding cavity insulation can lower outward heat flow while decreasing a wall's ability to dry after wetting.",
+      "kind": "original_building_science_guidance",
+      "supports": [
+        {
+          "source_id": "pnnl-cold-condensation",
+          "location": "Air leakage versus vapor diffusion; exterior insulation and assembly drying pathways",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim is limited to the original source and its jurisdiction or engineering context.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P012000-02",
+      "claim": "Bulk water, air leakage and vapor diffusion are distinct routes of moisture transport.",
+      "kind": "derived_building_physics_synthesis",
+      "supports": [
+        {
+          "source_id": "pnnl-drainage-plane",
+          "location": "Continuity of water-control layer; shingle laps and exterior drainage",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "pnnl-air-flow",
+          "location": "Stack effect, neutral pressure plane, wind and duct leakage",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Explanatory synthesis; claims are not independently certified.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P012000-03",
+      "claim": "Air sealing and insulation must be coordinated with seasonal drying and intentional ventilation.",
+      "kind": "original_agency_retrofit_guidance",
+      "supports": [
+        {
+          "source_id": "pnnl-cold-condensation",
+          "location": "Air leakage versus vapor diffusion; exterior insulation and assembly drying pathways",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "pnnl-ci",
+          "location": "Assembly details, moisture/climate and thermal bridging",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim is limited to the original source and its jurisdiction or engineering context.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P012000-04",
+      "claim": "The continuity of water-control layers at openings is critical even when thermal performance improves.",
+      "kind": "derived_enclosure_design_synthesis",
+      "supports": [
+        {
+          "source_id": "pnnl-window-flashing",
+          "location": "Sill pan, jamb/head flashing and connections to drainage plane",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "pnnl-drainage-plane",
+          "location": "Continuity of water-control layer; shingle laps and exterior drainage",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Explanatory synthesis; claims are not independently certified.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_technical_review_pending",
+  "citation_policy": "Original issuers and named authors attributed; claims and original synthesis distinguished. No professional, clinical or jurisdictional certification is implied."
+}

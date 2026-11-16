@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "lecture_id": "012000",
+  "transcript": "012000-mise-en-place-and-cooking-as-process-engineering.md",
+  "related_resources": [
+    {
+      "source_id": "foodsafety-four-steps",
+      "reason": "Clean, separate, cook, chill; 40°F refrigeration, 0°F freezer and 2-hour/1-hour rules"
+    },
+    {
+      "source_id": "usda-fsis-temps",
+      "reason": "Home-cooking category minimums and rest periods; checked 2026-11-15"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P012000-01",
+      "claim": "Safe food preparation requires separation, cleaning, adequate cooking and controlled chilling.",
+      "kind": "original_us_food_safety_guidance",
+      "supports": [
+        {
+          "source_id": "foodsafety-four-steps",
+          "location": "Clean, separate, cook, chill; 40°F refrigeration, 0°F freezer and 2-hour/1-hour rules",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "usda-fsis-temps",
+          "location": "Home-cooking category minimums and rest periods; checked 2026-11-15",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim is limited to the original source and its jurisdiction or engineering context.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P012000-02",
+      "claim": "Internal food temperature provides more reliable safety information than appearance alone for applicable foods.",
+      "kind": "original_us_food_safety_guidance",
+      "supports": [
+        {
+          "source_id": "usda-fsis-temps",
+          "location": "Home-cooking category minimums and rest periods; checked 2026-11-15",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim is limited to the original source and its jurisdiction or engineering context.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P012000-03",
+      "claim": "Preparation sequencing can reduce cross-contamination and scheduling conflicts.",
+      "kind": "derived_cooking_process_design",
+      "supports": [
+        {
+          "source_id": "foodsafety-four-steps",
+          "location": "Clean, separate, cook, chill; 40°F refrigeration, 0°F freezer and 2-hour/1-hour rules",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Explanatory synthesis; claims are not independently certified.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_technical_review_pending",
+  "citation_policy": "Original issuers and named authors attributed; claims and original synthesis distinguished. No professional, clinical or jurisdictional certification is implied."
+}

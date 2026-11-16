@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "lecture_id": "012000",
+  "transcript": "012000-wood-finishes-weathering-and-exterior-durability.md",
+  "related_resources": [
+    {
+      "source_id": "usfs-hunt-finishing-2021",
+      "reason": "Water, ultraviolet exposure, exterior finishes, preparation and expected performance"
+    },
+    {
+      "source_id": "usda-wood",
+      "reason": "Chapters 4–9, 13, 17: moisture, strength, fastening, beam equations and framing"
+    },
+    {
+      "source_id": "pnnl-window-full-flashing",
+      "reason": "Sill pan, jamb and head flashing integrated with drainage layer"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P012000-01",
+      "claim": "Exterior wood finishes help protect surfaces from moisture, ultraviolet exposure and weathering.",
+      "kind": "original_usfs_wood_science",
+      "supports": [
+        {
+          "source_id": "usfs-hunt-finishing-2021",
+          "location": "Water, ultraviolet exposure, exterior finishes, preparation and expected performance",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim is limited to the original source and its jurisdiction or engineering context.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P012000-02",
+      "claim": "Wood moisture cycling causes dimensional changes and affects coating durability.",
+      "kind": "original_usfs_wood_science",
+      "supports": [
+        {
+          "source_id": "usda-wood",
+          "location": "Chapters 4–9, 13, 17: moisture, strength, fastening, beam equations and framing",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "usfs-hunt-finishing-2021",
+          "location": "Water, ultraviolet exposure, exterior finishes, preparation and expected performance",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim is limited to the original source and its jurisdiction or engineering context.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P012000-03",
+      "claim": "Protecting exterior joints and end grain is part of finish performance, not a substitute for sound drainage detailing.",
+      "kind": "derived_carpentry_durability_synthesis",
+      "supports": [
+        {
+          "source_id": "usfs-hunt-finishing-2021",
+          "location": "Water, ultraviolet exposure, exterior finishes, preparation and expected performance",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "pnnl-window-full-flashing",
+          "location": "Sill pan, jamb and head flashing integrated with drainage layer",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Explanatory synthesis; claims are not independently certified.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_technical_review_pending",
+  "citation_policy": "Original issuers and named authors attributed; claims and original synthesis distinguished. No professional, clinical or jurisdictional certification is implied."
+}

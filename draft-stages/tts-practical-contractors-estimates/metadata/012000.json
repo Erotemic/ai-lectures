@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "lecture_id": "012000",
+  "transcript": "012000-inspecting-work-before-concealment-and-at-handover.md",
+  "related_resources": [
+    {
+      "source_id": "ftc-improvement",
+      "reason": "Written estimates, contracts, licenses and payment caution"
+    },
+    {
+      "source_id": "far-52-246-12-inspection",
+      "reason": "An example of contract-specified inspection and records; not universally binding for residential jobs"
+    },
+    {
+      "source_id": "aia-lima-submittals",
+      "reason": "AIA A201 distinction between submittals and contract documents; contract dependent"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P012000-01",
+      "claim": "Contract-specific inspection and acceptance depend on the specified scope and inspection rights.",
+      "kind": "original_contract_quality_framework",
+      "supports": [
+        {
+          "source_id": "ftc-improvement",
+          "location": "Written estimates, contracts, licenses and payment caution",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "far-52-246-12-inspection",
+          "location": "An example of contract-specified inspection and records; not universally binding for residential jobs",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim is limited to the original source and its jurisdiction or engineering context.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P012000-02",
+      "claim": "Construction inspection records are important evidence of work performed before subsequent concealment.",
+      "kind": "derived_construction_documentation",
+      "supports": [
+        {
+          "source_id": "far-52-246-12-inspection",
+          "location": "An example of contract-specified inspection and records; not universally binding for residential jobs",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "aia-lima-submittals",
+          "location": "AIA A201 distinction between submittals and contract documents; contract dependent",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Explanatory synthesis; claims are not independently certified.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P012000-03",
+      "claim": "Submittal approval and official inspection do not universally replace the contract's own performance obligations.",
+      "kind": "derived_contract_scope_distinction",
+      "supports": [
+        {
+          "source_id": "far-52-246-12-inspection",
+          "location": "An example of contract-specified inspection and records; not universally binding for residential jobs",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "aia-lima-submittals",
+          "location": "AIA A201 distinction between submittals and contract documents; contract dependent",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Explanatory synthesis; claims are not independently certified.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_technical_review_pending",
+  "citation_policy": "Original issuers and named authors attributed; claims and original synthesis distinguished. No professional, clinical or jurisdictional certification is implied."
+}

@@ -1,9 +1,9 @@
 # Rotation backlog: HVAC and Refrigeration: Heat, Airflow, Humidity, and Controls
 
-Status: lectures `001000`–`011000` authored. Remaining slots below are proposed topics, not completed manuscripts.
+Status: lectures `001000`–`012000` authored. Remaining slots below are proposed topics, not completed manuscripts.
 These are ordered topics, not duration or word-count requirements. Retain stable IDs once published.
 
-- `012000` — Hydronic Heating: Pumps, Loops, Radiators, and Balancing
+- `013000` — Heating System Commissioning: Supply, Controls, and Documentation
 
 **Editorial method:** Narrate the physics and practice directly; use non-spoken companions for equations, diagrams, source locators, regional code or regulatory scope, and unresolved professional-review needs.
 Do not describe these openings as professionally certified or jurisdiction-verified.

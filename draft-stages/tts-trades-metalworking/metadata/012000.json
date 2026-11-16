@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "lecture_id": "012000",
+  "transcript": "012000-practical-metrology-indicators-gauges-and-inspection-plans.md",
+  "related_resources": [
+    {
+      "source_id": "asme-y145-2018",
+      "reason": "Geometric specification of part size, location, form, orientation, and datum relationships"
+    },
+    {
+      "source_id": "nist-metrology-uncertainty",
+      "reason": "Meaning of measurement process and uncertainty"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P012000-01",
+      "claim": "Size, form and location tolerances express distinct requirements for mating features.",
+      "kind": "original_asme_dimensioning_standard_description",
+      "supports": [
+        {
+          "source_id": "asme-y145-2018",
+          "location": "Geometric specification of part size, location, form, orientation, and datum relationships",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim is limited to the original source and its jurisdiction or engineering context.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P012000-02",
+      "claim": "Metrology must account for measured quantity, reference and measurement uncertainty.",
+      "kind": "original_nist_metrology_definition",
+      "supports": [
+        {
+          "source_id": "nist-metrology-uncertainty",
+          "location": "Meaning of measurement process and uncertainty",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim is limited to the original source and its jurisdiction or engineering context.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P012000-03",
+      "claim": "Runout and local dimensions must be interpreted relative to the chosen support and datum.",
+      "kind": "derived_workshop_inspection_synthesis",
+      "supports": [
+        {
+          "source_id": "asme-y145-2018",
+          "location": "Geometric specification of part size, location, form, orientation, and datum relationships",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nist-metrology-uncertainty",
+          "location": "Meaning of measurement process and uncertainty",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Explanatory synthesis; claims are not independently certified.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_technical_review_pending",
+  "citation_policy": "Original issuers and named authors attributed; claims and original synthesis distinguished. No professional, clinical or jurisdictional certification is implied."
+}

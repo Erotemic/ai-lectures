@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "lecture_id": "012000",
+  "transcript": "012000-poisoning-exposures-and-emergency-information.md",
+  "related_resources": [
+    {
+      "source_id": "poisoncontrol-firstaid",
+      "reason": "Exposure routes, emergency symptoms, initial measures, poison center contact"
+    },
+    {
+      "source_id": "hrsa-poisonhelp",
+      "reason": "Poison Help hotline, prompt response and first-aid priorities"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P012000-01",
+      "claim": "Potential poison exposure requires prompt poison-center help rather than waiting for symptoms.",
+      "kind": "original_us_poison_center_guidance",
+      "supports": [
+        {
+          "source_id": "poisoncontrol-firstaid",
+          "location": "Exposure routes, emergency symptoms, initial measures, poison center contact",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "hrsa-poisonhelp",
+          "location": "Poison Help hotline, prompt response and first-aid priorities",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim is limited to the original source and its jurisdiction or engineering context.",
+      "professional_review": "clinical_editorial_review_required_before_authoritative_use"
+    },
+    {
+      "claim_id": "P012000-02",
+      "claim": "Inducing vomiting is not recommended for suspected swallowed poison.",
+      "kind": "original_us_poison_center_guidance",
+      "supports": [
+        {
+          "source_id": "poisoncontrol-firstaid",
+          "location": "Exposure routes, emergency symptoms, initial measures, poison center contact",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "hrsa-poisonhelp",
+          "location": "Poison Help hotline, prompt response and first-aid priorities",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim is limited to the original source and its jurisdiction or engineering context.",
+      "professional_review": "clinical_editorial_review_required_before_authoritative_use"
+    },
+    {
+      "claim_id": "P012000-03",
+      "claim": "Seizure, collapse, difficulty breathing or inability to awaken after possible exposure is an emergency-service trigger.",
+      "kind": "original_us_poison_center_guidance",
+      "supports": [
+        {
+          "source_id": "poisoncontrol-firstaid",
+          "location": "Exposure routes, emergency symptoms, initial measures, poison center contact",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim is limited to the original source and its jurisdiction or engineering context.",
+      "professional_review": "clinical_editorial_review_required_before_authoritative_use"
+    },
+    {
+      "claim_id": "P012000-04",
+      "claim": "The substance, route, concentration and circumstances affect exposure-specific instructions.",
+      "kind": "original_us_poison_center_guidance",
+      "supports": [
+        {
+          "source_id": "poisoncontrol-firstaid",
+          "location": "Exposure routes, emergency symptoms, initial measures, poison center contact",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "hrsa-poisonhelp",
+          "location": "Poison Help hotline, prompt response and first-aid priorities",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim is limited to the original source and its jurisdiction or engineering context.",
+      "professional_review": "clinical_editorial_review_required_before_authoritative_use"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_technical_review_pending",
+  "citation_policy": "Original issuers and named authors attributed; claims and original synthesis distinguished. No professional, clinical or jurisdictional certification is implied."
+}

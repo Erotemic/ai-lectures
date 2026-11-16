@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "lecture_id": "012000",
+  "transcript": "012000-choosing-plants-for-microclimate-soil-and-maintenance.md",
+  "related_resources": [
+    {
+      "source_id": "uf-ifas-right-plant",
+      "reason": "Microclimate, soil, moisture, light and plant siting"
+    },
+    {
+      "source_id": "nrcs-agronomy-manual",
+      "reason": "Water potential, field capacity, and permanent wilting point"
+    },
+    {
+      "source_id": "umn-tree-planting-2025",
+      "reason": "Root flare, wide planting hole, circling and girdling roots"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P012000-01",
+      "claim": "Light, drainage, soil conditions and microclimate materially influence which plants suit a site.",
+      "kind": "original_university_extension_guidance",
+      "supports": [
+        {
+          "source_id": "uf-ifas-right-plant",
+          "location": "Microclimate, soil, moisture, light and plant siting",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim is limited to the original source and its jurisdiction or engineering context.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P012000-02",
+      "claim": "Plants selected for the site's existing soil and moisture regime can reduce artificial maintenance needs.",
+      "kind": "original_university_extension_guidance",
+      "supports": [
+        {
+          "source_id": "uf-ifas-right-plant",
+          "location": "Microclimate, soil, moisture, light and plant siting",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nrcs-agronomy-manual",
+          "location": "Water potential, field capacity, and permanent wilting point",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim is limited to the original source and its jurisdiction or engineering context.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P012000-03",
+      "claim": "Plant establishment requirements can differ from requirements after roots become well established.",
+      "kind": "derived_horticultural_synthesis",
+      "supports": [
+        {
+          "source_id": "uf-ifas-right-plant",
+          "location": "Microclimate, soil, moisture, light and plant siting",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "umn-tree-planting-2025",
+          "location": "Root flare, wide planting hole, circling and girdling roots",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Explanatory synthesis; claims are not independently certified.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_technical_review_pending",
+  "citation_policy": "Original issuers and named authors attributed; claims and original synthesis distinguished. No professional, clinical or jurisdictional certification is implied."
+}
