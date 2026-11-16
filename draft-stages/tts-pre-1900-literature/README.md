@@ -238,8 +238,19 @@ Milton's history and editions, and the poem's later readers. The
 **1667 ten-book first edition** is distinguished from the 1674 structure.
 See `notes/paradise-lost-1674-books-texts-and-reading-guide.md`.
 
+**Medieval English poetry — Geoffrey Chaucer, *The Canterbury Tales***:
+275000–311000. Twenty-eight story lectures treat all **24 surviving tales**
+(including incomplete ones), the General Prologue, the Wife of Bath’s extended
+Prologue, and Chaucer’s Retraction; the Knight’s romance has two parts. Nine
+critical lectures then examine Chaucer’s public life, social estates,
+manuscript ordering and the ten fragments, competing marriages and women’s
+choices, religious authority and fraud, the Prioress’s antisemitic blood libel,
+Middle English verse and genres, and later literary reception. An incomplete
+manuscript is not misrepresented as a finished round-trip story. See
+`notes/canterbury-tales-ten-fragments-text-and-reading-guide.md`.
+
 ## Substantive next priorities
 
-Further high-impact omissions include Chaucer's *Canterbury Tales*
-and Boccaccio's *Decameron*. All spoken lecture
+The next major planned work is Boccaccio's *Decameron*, with its hundred
+short narratives, plague frame and ten storytelling days. All spoken lecture
 lengths remain descriptive measurements, not imposed targets.
