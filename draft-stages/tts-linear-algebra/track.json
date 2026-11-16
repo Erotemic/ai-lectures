@@ -1,0 +1,165 @@
+{
+  "id": "linear-algebra",
+  "title": "Linear Algebra from First Principles",
+  "summary": "A calculation-first and proof-driven course from linear equations, spans and bases through linear maps, determinants, eigenmodes, orthogonality, singular values, duals, multilinear forms and exact sequences. Supplies the missing algebraic foundations for advanced analysis, topology, geometry, differential equations, optimization and numerical methods.",
+  "assumed_background": [
+    "arithmetic and solving elementary algebraic equations; no prior linear algebra is assumed"
+  ],
+  "categories": [
+    "Mathematics"
+  ],
+  "sections": [
+    "001000-solving-linear-systems-from-equations-to-elimination",
+    "002000-vectors-linear-combinations-and-subspaces",
+    "003000-independence-bases-and-dimension-how-many-directions",
+    "004000-linear-maps-kernels-and-rank-nullity",
+    "005000-matrices-composition-and-changing-coordinates",
+    "006000-determinants-area-volume-and-orientation",
+    "007000-eigenvalues-and-eigenvectors-finding-directions-that-do-not-turn",
+    "008000-inner-products-measuring-angles-and-finding-projections",
+    "009000-least-squares-fitting-data-without-solving-an-impossible-system",
+    "010000-adjoints-and-the-spectral-theorem-symmetry-makes-operators-solvable",
+    "011000-singular-values-stretching-rank-and-conditioning",
+    "012000-dual-spaces-and-covectors-the-objects-that-measure-vectors",
+    "013000-bilinear-and-quadratic-forms-curvature-energy-and-signature",
+    "014000-tensor-products-and-exterior-algebra-how-measurements-combine",
+    "015000-quotient-spaces-and-exact-sequences-forgetting-information-on-purpose"
+  ],
+  "lectures": [
+    {
+      "id": "001000",
+      "title": "Solving Linear Systems: From Equations to Elimination",
+      "section": "001000-solving-linear-systems-from-equations-to-elimination",
+      "file": "001000-solving-linear-systems.md",
+      "spoken_words": 998,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.9
+    },
+    {
+      "id": "002000",
+      "title": "Vectors, Linear Combinations, and Subspaces",
+      "section": "002000-vectors-linear-combinations-and-subspaces",
+      "file": "002000-vectors-and-subspaces.md",
+      "spoken_words": 1047,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.2
+    },
+    {
+      "id": "003000",
+      "title": "Independence, Bases, and Dimension: How Many Directions?",
+      "section": "003000-independence-bases-and-dimension-how-many-directions",
+      "file": "003000-bases-independence-dimension.md",
+      "spoken_words": 968,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.7
+    },
+    {
+      "id": "004000",
+      "title": "Linear Maps, Kernels, and Rank–Nullity",
+      "section": "004000-linear-maps-kernels-and-rank-nullity",
+      "file": "004000-linear-maps-rank-nullity.md",
+      "spoken_words": 1009,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.0
+    },
+    {
+      "id": "005000",
+      "title": "Matrices, Composition, and Changing Coordinates",
+      "section": "005000-matrices-composition-and-changing-coordinates",
+      "file": "005000-matrices-and-coordinate-changes.md",
+      "spoken_words": 939,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.5
+    },
+    {
+      "id": "006000",
+      "title": "Determinants: Area, Volume, and Orientation",
+      "section": "006000-determinants-area-volume-and-orientation",
+      "file": "006000-determinants-and-orientation.md",
+      "spoken_words": 947,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.5
+    },
+    {
+      "id": "007000",
+      "title": "Eigenvalues and Eigenvectors: Finding Directions That Do Not Turn",
+      "section": "007000-eigenvalues-and-eigenvectors-finding-directions-that-do-not-turn",
+      "file": "007000-eigenvalues-and-diagonalization.md",
+      "spoken_words": 937,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.5
+    },
+    {
+      "id": "008000",
+      "title": "Inner Products: Measuring Angles and Finding Projections",
+      "section": "008000-inner-products-measuring-angles-and-finding-projections",
+      "file": "008000-inner-products-and-projections.md",
+      "spoken_words": 927,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.4
+    },
+    {
+      "id": "009000",
+      "title": "Least Squares: Fitting Data without Solving an Impossible System",
+      "section": "009000-least-squares-fitting-data-without-solving-an-impossible-system",
+      "file": "009000-least-squares-and-qr.md",
+      "spoken_words": 926,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.4
+    },
+    {
+      "id": "010000",
+      "title": "Adjoints and the Spectral Theorem: Symmetry Makes Operators Solvable",
+      "section": "010000-adjoints-and-the-spectral-theorem-symmetry-makes-operators-solvable",
+      "file": "010000-adjoints-and-spectral-theorem.md",
+      "spoken_words": 902,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.2
+    },
+    {
+      "id": "011000",
+      "title": "Singular Values: Stretching, Rank, and Conditioning",
+      "section": "011000-singular-values-stretching-rank-and-conditioning",
+      "file": "011000-singular-values-and-conditioning.md",
+      "spoken_words": 955,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.6
+    },
+    {
+      "id": "012000",
+      "title": "Dual Spaces and Covectors: The Objects That Measure Vectors",
+      "section": "012000-dual-spaces-and-covectors-the-objects-that-measure-vectors",
+      "file": "012000-dual-spaces-and-covectors.md",
+      "spoken_words": 993,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.8
+    },
+    {
+      "id": "013000",
+      "title": "Bilinear and Quadratic Forms: Curvature, Energy, and Signature",
+      "section": "013000-bilinear-and-quadratic-forms-curvature-energy-and-signature",
+      "file": "013000-bilinear-forms-and-quadratic-geometry.md",
+      "spoken_words": 990,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.8
+    },
+    {
+      "id": "014000",
+      "title": "Tensor Products and Exterior Algebra: How Measurements Combine",
+      "section": "014000-tensor-products-and-exterior-algebra-how-measurements-combine",
+      "file": "014000-tensor-products-and-exterior-algebra.md",
+      "spoken_words": 1041,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.2
+    },
+    {
+      "id": "015000",
+      "title": "Quotient Spaces and Exact Sequences: Forgetting Information on Purpose",
+      "section": "015000-quotient-spaces-and-exact-sequences-forgetting-information-on-purpose",
+      "file": "015000-quotient-spaces-and-exact-sequences.md",
+      "spoken_words": 1015,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.0
+    }
+  ]
+}

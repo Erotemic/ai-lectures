@@ -257,3 +257,14 @@ Fifteen substantive standalone lectures were added at 018200–018500, 020300–
 - 039100 — [A Family Index and Determinant Line by Hand: One Zero, One Twist](039100-a-family-index-and-determinant-line-by-hand.md)
 
 The sequence calculates stable differences of bundles and the Hopf class, converts K-theory to rational cohomology using the Chern character, derives a Riemann–Roch index, constructs Borel and Cartan equivariant cohomology, calculates equivariant localization on CP¹, derives the sphere's Duistermaat–Heckman pushforward measure, computes Čech cohomology on S¹ and sheaf cohomology of O(k) on CP¹, and finishes with a nontrivial determinant line over a family of rank-one maps.
+
+
+## Continuation 30: Contact boundary foundations (2026-11-16)
+
+Three standalone lectures added at 036100–036300: the local contact form dz−y dx and its Reeb field, Liouville domains and cotangent completions, and radial wrapping Hamiltonians with a no-escape proof model. The track grows from 111 to 114; the older 111 manuscripts are unchanged. The longer foundational contribution is a new independent `tts-linear-algebra` pack with 15 lectures.
+
+- [036100 — Contact Forms and Reeb Flows](036100-contact-forms-and-reeb-flows.md)
+- [036200 — Liouville Domains and Completions](036200-liouville-domains-and-completions.md)
+- [036300 — Wrapping Hamiltonians and No-Escape Estimates](036300-wrapping-hamiltonians-and-no-escape.md)
+
+The new calculations use the existing convention ω=dλ, ι_X_H ω=dH, including the minus sign in X_H=−h′R on the cylindrical end. The sign issue noted for the *older* Floer lecture 032000 remains separate and unchanged.

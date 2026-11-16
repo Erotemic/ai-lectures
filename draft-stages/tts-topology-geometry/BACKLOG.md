@@ -64,3 +64,12 @@ Next foundational targets with direct advanced destinations:
 - A separate narrow edit to resolve the older 032000 Floer-sign discrepancy once the track owner is ready, rather than silently changing an earlier manuscript in a content addition.
 
 No new duration policy is proposed.
+
+
+## Continuation 30 dispositions: contact basics + independent core linear algebra
+
+Completed 036100–036300 to supply contact form/plane-field, Reeb dynamics, Liouville boundary/completion and no-escape foundations for 037000 wrapped Floer and 038000 ECH capacities; 114 registered topology/geometry lectures. The main content growth is the new `draft-stages/tts-linear-algebra` track, 15 core lessons.
+
+Next contact prerequisites: Reeb orbit nondegeneracy, linearized return maps, Conley–Zehnder index, ECH generators and action filtration. Do not confuse these with an introduction to the ECH chain differential itself. Other core priorities: multivariable calculus, derivative chain rules and Jacobian change of variables; elementary proof techniques; matrix exponentials and generalized eigenvectors.
+
+Old lecture 032000 sign discrepancy remains flagged, not edited. No fixed lecture length policy.

@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "sources": {
+    "la-hefferon": {
+      "title": "Jim Hefferon, Linear Algebra, open textbook, University of Vermont",
+      "kind": "open_textbook",
+      "url": "https://hefferon.net/linearalgebra/",
+      "access": "free_no_login",
+      "notes": "Elementary systems, subspaces, bases, transformations, least squares, determinants and duals. Author-hosted free textbook."
+    },
+    "la-axler-fourth": {
+      "title": "Sheldon Axler, Linear Algebra Done Right, fourth edition, Springer (2024)",
+      "kind": "open_textbook",
+      "url": "https://linear.axler.net/",
+      "access": "free_no_login",
+      "notes": "Finite-dimensional spaces, operators, eigenvalues, inner products, singular values and multilinear algebra. Fourth edition freely available."
+    },
+    "la-mit-1806sc": {
+      "title": "MIT OpenCourseWare 18.06SC, Linear Algebra (Gilbert Strang, Fall 2011)",
+      "kind": "university_course",
+      "url": "https://ocw.mit.edu/courses/18-06sc-linear-algebra-fall-2011/",
+      "access": "free_no_login",
+      "notes": "Elementary elimination, matrix factorization, projections, eigenvectors, SVD and computational examples."
+    },
+    "la-bott-tu": {
+      "title": "Raoul Bott and Loring Tu, Differential Forms in Algebraic Topology (1982)",
+      "kind": "scholarly_textbook",
+      "url": "https://doi.org/10.1007/978-1-4757-3951-0",
+      "access": "publisher_or_institutional_access",
+      "notes": "Exterior algebra and differential forms as multilinear measurements."
+    }
+  }
+}
