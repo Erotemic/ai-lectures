@@ -251,7 +251,7 @@ manuscript is not misrepresented as a finished round-trip story. See
 
 ## Substantive next priorities
 
-The next major planned work is Boccaccio's *Decameron*, with its hundred
+The current expansion is Boccaccio's *Decameron*, with its hundred
 short narratives, plague frame and ten storytelling days. All spoken lecture
 lengths remain descriptive measurements, not imposed targets.
 
@@ -273,7 +273,18 @@ ingenuity. All ten tales receive individual narrative lectures. The Day Four
 frame separately narrates **Boccaccio's authorial interruption and defense
 of vernacular storytelling**, distinct from Filostrato's ten tales of love
 with disastrous endings; Dioneo's closing farce is retained as a contrast.
-Across the two installments, **40 of 100 tales** are narrated, while Days
-Five through Ten and the critical studies remain forthcoming. See
+Through this second installment, **40 of 100 tales** are narrated; later
+installments extend the tally. See
 `notes/decameron-days-three-four-reading-guide.md` for the tale-by-tale map,
 source references, interpretation cautions and close-reading questions.
+
+**Giovanni Boccaccio, *The Decameron*, Days Five and Six**: 356000–377000
+(**third installment**). Two new day-frame lectures and all twenty tales
+bring the completed narrative coverage to **60 of 100 tales**. Fiammetta's
+Day Five examines lovers surviving misfortune, without treating force or fear
+as automatically justified by a subsequent wedding. Elissa's Day Six examines
+witty speech, including the kitchen dispute between Licisca and Tindaro, the
+short verbal tales, Fra Cipolla's longer improvisation, and the Valley of the
+Ladies. **Days Seven through Ten** and work-level historical/literary critical
+lectures remain. See `notes/decameron-days-five-six-reading-guide.md` for
+narrators, tale-by-tale map, evidence qualifications, and sources.
