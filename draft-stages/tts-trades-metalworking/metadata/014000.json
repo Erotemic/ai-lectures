@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "lecture_id": "014000",
+  "transcript": "014000-sheet-metal-enclosures-stiffening-and-weather-sealing.md",
+  "related_resources": [
+    {
+      "source_id": "asm-sheet-bending",
+      "reason": "Elastic-plastic bending, springback, bendability and process alternatives; abstract publicly checked"
+    },
+    {
+      "source_id": "asme-y145-2018",
+      "reason": "Geometric specification of part size, location, form, orientation, and datum relationships"
+    },
+    {
+      "source_id": "ampp-galvanic-corrosion",
+      "reason": "Galvanic anode/cathode/electrolyte mechanisms and dissimilar-metal contact"
+    },
+    {
+      "source_id": "iso-fastener-grade",
+      "reason": "Specified fastener property classes, ambient-temperature test domain and exclusions; full standard not claimed reviewed"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P014000-01",
+      "claim": "Sheet metal gains directional bending stiffness when formed into flanges, hems and stiffened sections.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "asm-sheet-bending",
+          "location": "Elastic-plastic bending, springback, bendability and process alternatives; abstract publicly checked",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "asme-y145-2018",
+          "location": "Geometric specification of part size, location, form, orientation, and datum relationships",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Explanatory synthesis; sources are background and do not independently certify this conclusion.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P014000-02",
+      "claim": "Bend allowance and springback depend on sheet thickness, material, bend radius and tooling.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "asm-sheet-bending",
+          "location": "Elastic-plastic bending, springback, bendability and process alternatives; abstract publicly checked",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Statement bounded by source scope and any applicable local requirements.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P014000-03",
+      "claim": "Outdoor enclosure weather resistance depends on all seams, openings, cable entries and corrosion-prone interfaces.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "ampp-galvanic-corrosion",
+          "location": "Galvanic anode/cathode/electrolyte mechanisms and dissimilar-metal contact",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "asm-sheet-bending",
+          "location": "Elastic-plastic bending, springback, bendability and process alternatives; abstract publicly checked",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Explanatory synthesis; sources are background and do not independently certify this conclusion.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P014000-04",
+      "claim": "Metal enclosure use around electrical equipment adds listing, penetration and bonding requirements beyond basic fabrication.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "iso-fastener-grade",
+          "location": "Specified fastener property classes, ambient-temperature test domain and exclusions; full standard not claimed reviewed",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "ampp-galvanic-corrosion",
+          "location": "Galvanic anode/cathode/electrolyte mechanisms and dissimilar-metal contact",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Explanatory synthesis; sources are background and do not independently certify this conclusion.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_technical_review_pending",
+  "citation_policy": "Original authors and standards issuers attributed; original claims and synthesis distinguished. Not certified for professional, clinical or jurisdiction-specific use."
+}

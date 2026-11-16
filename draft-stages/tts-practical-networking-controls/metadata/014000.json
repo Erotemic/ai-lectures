@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "lecture_id": "014000",
+  "transcript": "014000-network-segmentation-local-discovery-and-access-control.md",
+  "related_resources": [
+    {
+      "source_id": "cisco-switch",
+      "reason": "Switch forwarding using Ethernet MAC addresses"
+    },
+    {
+      "source_id": "cisa-segmentation-2022",
+      "reason": "Segmentation restricts communication paths and requires appropriate access control boundaries"
+    },
+    {
+      "source_id": "nist-sp1800-15-iot",
+      "reason": "Restrict IoT traffic to device-appropriate purposes and apply updates and access controls"
+    },
+    {
+      "source_id": "rfc1034",
+      "reason": "Domain names and DNS resolution architecture"
+    },
+    {
+      "source_id": "rfc791",
+      "reason": "IPv4 addressing and IP layer; updated by later RFCs"
+    },
+    {
+      "source_id": "nist-router-security",
+      "reason": "Router integrity, availability, and security as system dependencies"
+    },
+    {
+      "source_id": "nist-sp80034r1-contingency",
+      "reason": "Dependency analysis, service recovery strategies and validating recovery plans; federal-system context"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P014000-01",
+      "claim": "VLANs separate link-layer traffic, but inter-subnet access requires correctly configured routing and firewall policy.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "cisco-switch",
+          "location": "Switch forwarding using Ethernet MAC addresses",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "cisa-segmentation-2022",
+          "location": "Segmentation restricts communication paths and requires appropriate access control boundaries",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Explanatory synthesis; sources are background and do not independently certify this conclusion.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P014000-02",
+      "claim": "Least-necessary communication access and secure updates limit the consequences of vulnerable IoT devices.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "nist-sp1800-15-iot",
+          "location": "Restrict IoT traffic to device-appropriate purposes and apply updates and access controls",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "cisa-segmentation-2022",
+          "location": "Segmentation restricts communication paths and requires appropriate access control boundaries",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Statement bounded by source scope and any applicable local requirements.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P014000-03",
+      "claim": "Local discovery mechanisms may not cross network boundaries even when unicast routing would permit a service connection.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "rfc1034",
+          "location": "Domain names and DNS resolution architecture",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "rfc791",
+          "location": "IPv4 addressing and IP layer; updated by later RFCs",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Explanatory synthesis; sources are background and do not independently certify this conclusion.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P014000-04",
+      "claim": "Testing both allowed and disallowed paths and preserving configurations is part of reliable segmentation.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "nist-router-security",
+          "location": "Router integrity, availability, and security as system dependencies",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nist-sp80034r1-contingency",
+          "location": "Dependency analysis, service recovery strategies and validating recovery plans; federal-system context",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Explanatory synthesis; sources are background and do not independently certify this conclusion.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_technical_review_pending",
+  "citation_policy": "Original authors and standards issuers attributed; original claims and synthesis distinguished. Not certified for professional, clinical or jurisdiction-specific use."
+}

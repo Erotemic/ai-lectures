@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "lecture_id": "014000",
+  "transcript": "014000-overnight-gear-systems-and-failure-tolerance.md",
+  "related_resources": [
+    {
+      "source_id": "rei-backpacking-checklist-2026",
+      "reason": "Backpacking shelter, sleep, water, food, route and backup equipment as interdependent systems"
+    },
+    {
+      "source_id": "nps-trip-planning-health",
+      "reason": "Preparation, group coordination and decisions to turn around when unsafe"
+    },
+    {
+      "source_id": "nps-winter-layers",
+      "reason": "Non-cotton cold-weather layers, wind/rain shell and spare dry clothing"
+    },
+    {
+      "source_id": "cdc-backcountry-water",
+      "reason": "Boiling 1/3 minutes by elevation; filtration plus disinfection; does not remove chemical contaminants"
+    },
+    {
+      "source_id": "nps-trip-plan",
+      "reason": "Trip plan left with trusted contact and overdue response; not a guaranteed rescue"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P014000-01",
+      "claim": "Overnight preparedness depends on interdependent shelter, sleep, water, cooking, navigation and communication systems.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "rei-backpacking-checklist-2026",
+          "location": "Backpacking shelter, sleep, water, food, route and backup equipment as interdependent systems",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nps-trip-planning-health",
+          "location": "Preparation, group coordination and decisions to turn around when unsafe",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Statement bounded by source scope and any applicable local requirements.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P014000-02",
+      "claim": "Ground insulation and dry shelter are integral to practical sleep warmth alongside the sleeping bag or quilt.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "rei-backpacking-checklist-2026",
+          "location": "Backpacking shelter, sleep, water, food, route and backup equipment as interdependent systems",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nps-winter-layers",
+          "location": "Non-cotton cold-weather layers, wind/rain shell and spare dry clothing",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Explanatory synthesis; sources are background and do not independently certify this conclusion.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P014000-03",
+      "claim": "Water treatment choices depend on relevant pathogens and conditions; a backup should address plausible primary failure.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "cdc-backcountry-water",
+          "location": "Boiling 1/3 minutes by elevation; filtration plus disinfection; does not remove chemical contaminants",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "rei-backpacking-checklist-2026",
+          "location": "Backpacking shelter, sleep, water, food, route and backup equipment as interdependent systems",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Statement bounded by source scope and any applicable local requirements.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P014000-04",
+      "claim": "An equipment rehearsal and realistic route/turnaround plan expose dependencies before remote travel.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "nps-trip-plan",
+          "location": "Trip plan left with trusted contact and overdue response; not a guaranteed rescue",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "rei-backpacking-checklist-2026",
+          "location": "Backpacking shelter, sleep, water, food, route and backup equipment as interdependent systems",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Explanatory synthesis; sources are background and do not independently certify this conclusion.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_technical_review_pending",
+  "citation_policy": "Original authors and standards issuers attributed; original claims and synthesis distinguished. Not certified for professional, clinical or jurisdiction-specific use."
+}

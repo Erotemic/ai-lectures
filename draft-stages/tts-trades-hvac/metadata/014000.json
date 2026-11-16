@@ -1,0 +1,115 @@
+{
+  "schema_version": 1,
+  "lecture_id": "014000",
+  "transcript": "014000-refrigerant-system-measurements-and-diagnostic-boundaries.md",
+  "related_resources": [
+    {
+      "source_id": "doe-heat-pump-cycle",
+      "reason": "Schematic refrigeration cycle and component names"
+    },
+    {
+      "source_id": "iea-cycle",
+      "reason": "Heat pump work and output heat balances"
+    },
+    {
+      "source_id": "energystar-hvac-quality",
+      "reason": "Load-based sizing, airflow, refrigerant charge and duct performance"
+    },
+    {
+      "source_id": "energystar-ducts",
+      "reason": "Duct leakage as an energy and air delivery problem"
+    },
+    {
+      "source_id": "doe-heatpumps",
+      "reason": "Heat transfer rather than direct heat generation"
+    },
+    {
+      "source_id": "energystar-ashp",
+      "reason": "Heating and cooling by reversing heat-transfer direction"
+    },
+    {
+      "source_id": "epa-section608-certification",
+      "reason": "Certification requirement and definition of refrigerant handling including pressure-gauge hose connections"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P014000-01",
+      "claim": "Refrigerant saturation pressure-temperature relationships and pipe temperatures define superheat and subcooling under correct conventions.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "doe-heat-pump-cycle",
+          "location": "Schematic refrigeration cycle and component names",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "iea-cycle",
+          "location": "Heat pump work and output heat balances",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Explanatory synthesis; sources are background and do not independently certify this conclusion.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P014000-02",
+      "claim": "Airflow, humidity, heat-exchanger condition and controls can alter temperatures even without a change in refrigerant charge.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "energystar-hvac-quality",
+          "location": "Load-based sizing, airflow, refrigerant charge and duct performance",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "energystar-ducts",
+          "location": "Duct leakage as an energy and air delivery problem",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Statement bounded by source scope and any applicable local requirements.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P014000-03",
+      "claim": "Manufacturer-specific conditions and operating mode are needed before refrigeration measurements can be interpreted.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "doe-heatpumps",
+          "location": "Heat transfer rather than direct heat generation",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "energystar-ashp",
+          "location": "Heating and cooling by reversing heat-transfer direction",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Explanatory synthesis; sources are background and do not independently certify this conclusion.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P014000-04",
+      "claim": "EPA Section 608 certification generally applies to activities that might release refrigerant, including attaching and detaching pressure gauge hoses.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "epa-section608-certification",
+          "location": "Certification requirement and definition of refrigerant handling including pressure-gauge hose connections",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Statement bounded by source scope and any applicable local requirements.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_technical_review_pending",
+  "citation_policy": "Original authors and standards issuers attributed; original claims and synthesis distinguished. Not certified for professional, clinical or jurisdiction-specific use."
+}
