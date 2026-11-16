@@ -97,6 +97,10 @@ def test_completed_pages_publish_after_restart_without_resynthesis(
         result = finished(second, request["id"])
         assert result["published"] and len(calls) == 1
         assert second.list()[0]["state"] == "ready"
+        assert result["created_at"] <= result["updated_at"]
+        repeated = second.prepare("music:001000", "test")
+        assert repeated["id"] == request["id"]
+        assert len(second.list()) == 1 and len(calls) == 1
     finally:
         second.close()
 

@@ -466,6 +466,13 @@ configuration. Course batches enqueue their full selection before processing.
 The Production page lists these server-owned requests across browsers and provides
 cancellation and retry controls.
 
+Queued and running preparations appear first, followed by requests needing
+attention. Completed and cancelled requests remain in collapsed finished history,
+ordered by their latest update. History shows compact narrator/date summaries in
+pages of 20; expand an entry for block details or to retry a cancelled request.
+Unchanged background polls preserve the current view and open details. Repeating
+an identical preparation reuses its existing job and matching audio.
+
 Pending work resumes automatically after a restart. Worker leases bound concurrent
 preparations across processes. Selected-block requests have one reserved slot
 alongside background whole-lecture work. Completed request-addressed pages in

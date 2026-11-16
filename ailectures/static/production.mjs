@@ -5,11 +5,37 @@ const $ = (id) => document.getElementById(id);
 const title = (text) => el("h1", { text });
 const description = (text) => el("p", { class: "intro", text });
 
+export function partitionJobs(jobs) {
+  const active = [],
+    attention = [],
+    history = [];
+  for (const job of jobs) {
+    if (["queued", "running"].includes(job.state)) active.push(job);
+    else if (["ready", "cancelled"].includes(job.state)) history.push(job);
+    else attention.push(job);
+  }
+  const newest = (a, b) =>
+    (b.updated_at || b.created_at || 0) - (a.updated_at || a.created_at || 0) ||
+    a.id.localeCompare(b.id);
+  active.sort(
+    (a, b) =>
+      Number(b.state === "running") - Number(a.state === "running") ||
+      (a.created_at || 0) - (b.created_at || 0) ||
+      a.id.localeCompare(b.id),
+  );
+  attention.sort(newest);
+  history.sort(newest);
+  return { active, attention, history };
+}
+
 export class ProductionPanel {
   constructor(options) {
     Object.assign(this, options);
     this.cancelling = new Set();
     this.cancelErrors = new Map();
+    this.historyOpen = false;
+    this.historyLimit = 20;
+    this.expandedHistory = new Set();
   }
   byId(id) {
     return this.catalog().lectures.find((row) => row.id === id);
@@ -197,117 +223,206 @@ export class ProductionPanel {
     }
     if ($("prepare-audio")) $("prepare-audio").disabled = !data.tools_available;
   }
+  jobTitle(job) {
+    return this.byId(job.lecture_id)?.title || job.title || job.lecture_id;
+  }
+  jobNarrator(job) {
+    return `${job.profile} · ${job.voice || "configured voice"} · ${job.model || "configured model"} · ${job.speed || 1}× speech`;
+  }
+  jobCard(job) {
+    const id = job.id;
+    const inv = job.inventory;
+    return el(
+      "article",
+      { class: "card", "data-job": id },
+      el(
+        "h3",
+        {},
+        this.link(this.jobTitle(job), lectureURL(job.lecture_id)),
+      ),
+      el("p", {
+        text: this.jobNarrator(job),
+      }),
+      el("p", {
+        class: "muted",
+        text: job.requested_blocks
+          ? job.requested_blocks.length === 1
+            ? `Block ${job.requested_blocks[0] + 1} requested`
+            : `${job.requested_blocks.length} audio blocks requested`
+          : "Whole lecture requested",
+      }),
+      el("p", {
+        text: job.published
+          ? "Recording published"
+          : `${job.state} · ${inv.ready} / ${inv.total || "?"} passages ready`,
+      }),
+      el("progress", {
+        value: inv.ready,
+        max: Math.max(1, inv.total),
+        "aria-label": "Prepared passages",
+      }),
+      job.error ? el("p", { class: "notice", text: job.error }) : null,
+      this.cancelErrors.has(id)
+        ? el("p", {
+            class: "notice",
+            role: "status",
+            text: this.cancelErrors.get(id),
+          })
+        : null,
+      blockGrid(inv.states || []),
+      ...(["queued", "running"].includes(job.state)
+        ? inv.queue || []
+        : []
+      ).map((item) =>
+        el(
+          "div",
+          { class: "generation-item" },
+          el("p", {
+            text: `Block ${item.page + 1} · ${item.kind} · ${generationStatus(item)}`,
+          }),
+        ),
+      ),
+      job.state === "settings_changed"
+        ? this.link(
+            "Prepare with current settings",
+            "/production?lecture=" + encodeURIComponent(job.lecture_id),
+          )
+        : ["failed", "cancelled"].includes(job.state)
+          ? this.button("Retry preparation", async () => {
+              await post(
+                "/api/library/production/jobs/" + id + "/retry",
+                {},
+              );
+              await this.showJobs();
+            })
+          : null,
+      ["queued", "running"].includes(job.state)
+        ? el("button", {
+            type: "button",
+            "data-cancel-job": id,
+            disabled: this.cancelling.has(id),
+            text: this.cancelling.has(id)
+              ? "Stopping…"
+              : "Cancel this lecture's generation",
+            onclick: () => this.cancelJob(id),
+          })
+        : null,
+      el(
+        "details",
+        {},
+        el("summary", { text: "Queue and preparation details" }),
+        el("pre", { text: JSON.stringify(inv, null, 2) }),
+      ),
+    );
+  }
+  historyEntry(job) {
+    const entry = el("details", {
+      class: "job-history-entry",
+      "data-history-job": job.id,
+      open: this.expandedHistory.has(job.id),
+    });
+    const timestamp = job.updated_at || job.created_at;
+    const when = timestamp
+      ? el("time", {
+          datetime: new Date(timestamp * 1000).toISOString(),
+          text: new Date(timestamp * 1000).toLocaleString(),
+        })
+      : null;
+    entry.append(
+      el(
+        "summary",
+        {},
+        el("strong", { text: this.jobTitle(job) }),
+        el("span", {
+          class: "muted",
+          text: `${this.jobNarrator(job)} · ${job.state === "ready" ? "Completed" : "Cancelled"}`,
+        }),
+        when,
+      ),
+    );
+    const expand = () => {
+      if (entry.open && !entry.querySelector("article"))
+        entry.append(this.jobCard(job));
+    };
+    entry.addEventListener("toggle", () => {
+      if (!entry.isConnected) return;
+      if (entry.open) this.expandedHistory.add(job.id);
+      else this.expandedHistory.delete(job.id);
+      expand();
+    });
+    expand();
+    return entry;
+  }
+  drawJobs(target, jobs) {
+    const { active, attention, history } = partitionJobs(jobs);
+    target.replaceChildren(
+      el("h2", { text: "Preparation jobs" }),
+      el("p", {
+        class: "muted",
+        text: `${active.length} active · ${attention.length} need attention · ${history.length} finished`,
+      }),
+      active.length
+        ? el(
+            "div",
+            { class: "grid", "data-active-jobs": "" },
+            ...active.map((job) => this.jobCard(job)),
+          )
+        : el("p", { text: "No preparations are queued or running." }),
+    );
+    if (attention.length)
+      target.append(
+        el(
+          "section",
+          { "data-attention-jobs": "" },
+          el("h3", { text: "Needs attention" }),
+          el("div", { class: "grid" }, ...attention.map((job) => this.jobCard(job))),
+        ),
+      );
+    if (!history.length) return;
+    const finished = el("details", {
+      class: "section",
+      "data-job-history": "",
+      open: this.historyOpen,
+    });
+    finished.append(el("summary", { text: `Finished history (${history.length})` }));
+    const entries = el("div");
+    const showHistory = () => {
+      entries.replaceChildren(
+        ...history.slice(0, this.historyLimit).map((job) => this.historyEntry(job)),
+      );
+      if (history.length > this.historyLimit)
+        entries.append(
+          this.button("Show more finished jobs", () => {
+            this.historyLimit += 20;
+            showHistory();
+          }),
+        );
+    };
+    finished.addEventListener("toggle", () => {
+      if (!finished.isConnected) return;
+      this.historyOpen = finished.open;
+      if (finished.open) showHistory();
+    });
+    finished.append(entries);
+    if (this.historyOpen) showHistory();
+    target.append(finished);
+  }
   async showJobs() {
     const target = this.root?.isConnected && this.root.querySelector("#jobs");
     if (!target) return;
-    const cards = [];
+    const token = (this.jobsToken = (this.jobsToken || 0) + 1);
     const jobs = (await api("/api/library/production/jobs")).jobs;
-    for (const job of jobs) {
-      const id = job.id;
-      try {
-        const inv = job.inventory;
-        cards.push(
-          el(
-            "article",
-            { class: "card", "data-job": id },
-            el(
-              "h3",
-              {},
-              this.link(
-                this.byId(job.lecture_id)?.title || job.title || job.lecture_id,
-                lectureURL(job.lecture_id),
-              ),
-            ),
-            el("p", {
-              text: `${job.profile} · ${job.voice || "configured voice"} · ${job.speed || 1}× speech`,
-            }),
-            el("p", {
-              class: "muted",
-              text: job.requested_blocks
-                ? job.requested_blocks.length === 1
-                  ? `Block ${job.requested_blocks[0] + 1} requested`
-                  : `${job.requested_blocks.length} audio blocks requested`
-                : "Whole lecture requested",
-            }),
-            el("p", {
-              text: job.published
-                ? "Recording published"
-                : `${job.state} · ${inv.ready} / ${inv.total || "?"} passages ready`,
-            }),
-            el("progress", {
-              value: inv.ready,
-              max: Math.max(1, inv.total),
-              "aria-label": "Prepared passages",
-            }),
-            job.error ? el("p", { class: "notice", text: job.error }) : null,
-            this.cancelErrors.has(id)
-              ? el("p", {
-                  class: "notice",
-                  role: "status",
-                  text: this.cancelErrors.get(id),
-                })
-              : null,
-            blockGrid(inv.states || []),
-            ...(["queued", "running"].includes(job.state)
-              ? inv.queue || []
-              : []
-            ).map((item) =>
-              el(
-                "div",
-                { class: "generation-item" },
-                el("p", {
-                  text: `Block ${item.page + 1} · ${item.kind} · ${generationStatus(item)}`,
-                }),
-              ),
-            ),
-            job.state === "settings_changed"
-              ? this.link(
-                  "Prepare with current settings",
-                  "/production?lecture=" + encodeURIComponent(job.lecture_id),
-                )
-              : ["failed", "cancelled"].includes(job.state)
-                ? this.button("Retry preparation", async () => {
-                    await post(
-                      "/api/library/production/jobs/" + id + "/retry",
-                      {},
-                    );
-                    await this.showJobs();
-                  })
-                : null,
-            !job.published &&
-              !["failed", "cancelled", "settings_changed"].includes(job.state)
-              ? el("button", {
-                  type: "button",
-                  "data-cancel-job": id,
-                  disabled: this.cancelling.has(id),
-                  text: this.cancelling.has(id)
-                    ? "Stopping…"
-                    : "Cancel this lecture's generation",
-                  onclick: () => this.cancelJob(id),
-                })
-              : null,
-            el(
-              "details",
-              {},
-              el("summary", { text: "Queue and preparation details" }),
-              el("pre", { text: JSON.stringify(inv, null, 2) }),
-            ),
-          ),
-        );
-      } catch (error) {
-        cards.push(
-          el("p", {
-            class: "muted",
-            text: error.message,
-          }),
-        );
-      }
-    }
-    if (!target.isConnected) return;
-    target.replaceChildren(
-      el("h2", { text: "Preparation jobs" }),
-      el("div", { class: "grid" }, ...cards),
-    );
+    if (!target.isConnected || token !== this.jobsToken) return;
+    // Unchanged polls leave open details, keyboard focus, and scroll intact.
+    const signature = JSON.stringify([
+      jobs,
+      [...this.cancelling],
+      [...this.cancelErrors],
+    ]);
+    if (this.jobsTarget === target && this.jobsSignature === signature) return;
+    this.drawJobs(target, jobs);
+    this.jobsTarget = target;
+    this.jobsSignature = signature;
   }
   async cancelJob(id) {
     if (this.cancelling.has(id)) return;

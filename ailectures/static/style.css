@@ -278,6 +278,11 @@ main {
 .audio-block.queued, .audio-block.rendering { border-style: dashed; }
 .audio-block.error, .audio-block.cancelled { color: var(--error); }
 .generation-item { border-top: 1px solid var(--line); padding: 0.7rem 0; }
+.job-history-entry { border-top: 1px solid var(--line); padding: 0.75rem 0; }
+.job-history-entry > summary { cursor: pointer; overflow-wrap: anywhere; }
+.job-history-entry > summary .muted,
+.job-history-entry > summary time { display: block; font-size: 0.9rem; }
+.job-history-entry > article { margin-top: 0.75rem; }
 .list {
   display: grid;
   gap: 0.7rem;

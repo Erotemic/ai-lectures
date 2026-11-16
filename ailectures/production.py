@@ -786,6 +786,8 @@ class GenerationManager:
             or spec["configuration"]["settings"]["model"],
             "speed": spec["speed"],
             "state": record["state"],
+            "created_at": record["created_at"],
+            "updated_at": record["updated_at"],
             "attempts": record["attempts"],
             "retry_at": record["retry_at"],
             "error": record["error"],
