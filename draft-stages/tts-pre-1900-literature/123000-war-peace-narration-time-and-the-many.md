@@ -1,0 +1,24 @@
+# War and Peace — How Tolstoy Makes a Crowd Legible
+
+**Work:** Leo Tolstoy, *War and Peace* (published complete 1868–1869)  
+**Form:** Analytical lecture
+
+<!-- BEGIN SPOKEN LECTURE -->
+# War and Peace — How Tolstoy Makes a Crowd Legible
+
+A reader approaching War and Peace for the first time may think the problem is remembering everybody's name. A more productive question is how a novel with so many people teaches us to care about individual minds without losing sight of the crowd. Tolstoy moves from a salon in which many people speak past one another to a single person noticing a face, a button, the smell of a coat, or the sound of a horse. Then he widens the frame again until one person's understanding seems hopelessly small. This motion, rather than any exhaustive family tree, is the book's principal method of orientation.
+
+Look at the opening Saint Petersburg party. The political talk sounds large and authoritative. Yet Tolstoy allows a person to be revealed by a pause, an arrangement of the face, or a privately calculated compliment. The conversation has public subject matter, but the narration shows how much of it is social work: identifying allies, maintaining prestige, finding a marriage prospect, avoiding the wrong kind of frankness. Pierre's awkward contributions interrupt the performance. The scene is funny because readers can hear both what the speakers intend and what their conduct betrays.
+
+The technique also works in intimate life. Natasha at her first ball is not given an essay about insecurity. Her experience develops through what she notices and what she imagines others notice in her. Andrei's encounter with the enormous sky at Austerlitz rearranges his scale of value without requiring an external narrator to state an ethical theorem. These scenes have different textures because the characters are not interchangeable devices for delivering Tolstoy's opinions. The person who interprets the world changes what counts as foreground.
+
+Tolstoy sometimes enters a mind with extraordinary closeness, then pulls away to describe actions whose consequences the person cannot know. Pierre's agricultural reform looks encouraging to Pierre because people stage his tour effectively. A larger narrative frame exposes what he has failed to inspect. At Borodino, Pierre's bewilderment among artillerymen offers a view no headquarters report can replace; at the same time, Tolstoy argues that no single eyewitness can account for the battle as a whole. Proximity reveals the reality of sensation and the limits of interpretation at once.
+
+Another technique is recurrence with variation. Andrei wants greatness in 1805, turns toward domestic withdrawal after Lise's death, and gradually becomes responsive to new life. His pride returns when Natasha breaks their engagement, then changes again when he sees Anatole wounded. Pierre looks for a system in Freemasonry, an impossible single deed in his plan to kill Napoleon, and finally a livable rhythm during imprisonment. Neither man develops along a straight line. The return of old impulses allows Tolstoy to show that character is persistent without being fixed.
+
+Time itself expands and contracts. A ballroom minute can occupy many pages. Months of administrative work can pass quickly. The central day of a battle appears through intersecting moments and moving vantage points, while years of marriage are condensed in the epilogue. Do not confuse the relative amount of prose given to an event with its objective length. The novel's duration follows the human importance of what is being experienced and the analytical pressure Tolstoy wants to place upon it.
+
+There is a risk in speaking of Tolstoy's narrator as omniscient. The novel often claims enormous authority, including historical authority, but it repeatedly demonstrates the failure of other people's claims to know causes. Its narrator is both a maker of vivid inner lives and an argumentative presence whose judgments can be tested. When the narrator tells us how battles work, we should ask how the adjacent scenes support or complicate that claim. When it makes declarations about women or nations, we should distinguish the book's governing philosophy from facts established by the invented world.
+
+A useful listening exercise is to choose one event and follow it at three scales. Take Moscow's abandonment. At the scale of command, it is a military decision after Borodino. At the scale of a household, it is an argument about whether carts carry goods or wounded men. At the scale of a person, it is Natasha insisting that the injured strangers be given space. All three are true descriptions of the same period. A historical novel becomes powerful when it lets the descriptions test one another, rather than asking one vocabulary to exhaust the event.
+<!-- END SPOKEN LECTURE -->

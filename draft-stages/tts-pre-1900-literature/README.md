@@ -110,6 +110,27 @@ English translations as identical to the 1857 French book. See
 Those ten Austen sidecars now cite Austen primary and scholarly references.
 The corresponding spoken manuscripts are unchanged.
 
+**Russian historical fiction — Leo Tolstoy, *War and Peace***: 114000–129000.
+Nine continuous story lectures cover the society and families of 1805, the first
+campaigns and Austerlitz, Pierre and Andrei's search for meaning, Natasha's
+engagement and crisis, the 1812 invasion and Borodino, Moscow's abandonment,
+captivity and retreat, the postwar households and both epilogues. Seven analyses
+examine panoramic narration, historical agency and the *great man* thesis,
+moral education, women and domestic ideals, serfdom and class, war scenes, and
+publication/translation. Tolstoy's historical theses are presented as arguments,
+not military facts. See `notes/war-peace-story-map-history-and-versions.md`.
+
+**Russian philosophical fiction — Fyodor Dostoevsky, *The Brothers Karamazov***:
+130000–146000. Seven consecutive story lectures cover the family and monastery,
+three-thousand-ruble conflicts, Ivan's *Rebellion* and *Grand Inquisitor*,
+Zosima's death, Dmitri's desperate night, Ivan's interviews with Smerdyakov,
+the trial, and Ilyusha's funeral. Ten analyses distinguish the sons and their
+shared inheritance, theodicy and active love, distributed moral responsibility
+from legal guilt, women's lives and children's lives, narrated voices and
+rhetoric, translation, and close reading. The attempted murder case and
+three monetary paths are distinguished. See
+`notes/brothers-karamazov-plot-evidence-and-versions.md`.
+
 These are original lectures, not extracts or dramatic recordings of the primary
 texts. Source citations, critical questions, and edition notes are outside the
 spoken regions; bibliographic records and anchored claims appear in `metadata/`.

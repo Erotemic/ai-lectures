@@ -1,0 +1,24 @@
+# The Brothers Karamazov — Close Reading: Five Scenes, Five Kinds of Evidence
+
+**Work:** Fyodor Dostoevsky, *The Brothers Karamazov* (1879–1880)  
+**Form:** Analytical lecture
+
+<!-- BEGIN SPOKEN LECTURE -->
+# The Brothers Karamazov — Close Reading: Five Scenes, Five Kinds of Evidence
+
+A close-reading workshop for The Brothers Karamazov should begin with one question: what does a scene ask the reader to know, and what does it make difficult to know? The novel contains vivid speeches, but its power depends on the difference between a character's account of himself and the events around him. We can practice reading that difference in five scenes without needing to solve the book's entire philosophical argument at once.
+
+Start with the meeting at Zosima's monastery. Fyodor Pavlovich behaves like a buffoon, provoking others while leaving himself room to claim that nothing serious was intended. Listen to how his jokes control the other participants. When someone becomes indignant, he can accuse that person of lacking humor. When someone tolerates him, he expands the insult. What evidence of character comes from his words, and what comes from the social effect of his performance? Now consider Zosima's bow before Dmitri. The gesture opens an interpretation without announcing it. It asks readers to keep an unresolved future in view.
+
+Next read Ivan's Rebellion and the Grand Inquisitor. Separate at least three voices: Ivan presenting examples of suffering, the Inquisitor speaking inside Ivan's poem, and the silent Christ whose action ends the parable. Do not write a summary in which the Inquisitor's assertions become facts the narrator has certified. Ask what Ivan gains by giving his strongest opponent, within his own invented story, no ordinary verbal reply. Then look at Alyosha's response to Ivan. The literary form permits a gesture to answer a speech without pretending that the argument has been logically defeated.
+
+Third, return to Grushenka's story of the onion. It is small compared with the Inquisitor's grand institutions, but it also concerns rescue and power. A woman receives the chance of salvation because she once gave a beggar an onion. She then tries to keep others from being rescued with her and loses her hold. In the scene where Grushenka tells it, ask what she wants Alyosha to know about her. Is she confessing, testing him, seeking reassurance, or doing all three? The story's meaning resides in the exchange between people as much as in the parable itself.
+
+Fourth, compare Smerdyakov's confession with the trial. Make a timeline of the physical evidence: the possible seizure, the time of the killing, the stolen banknotes, Dmitri's blow against Grigory, and the money later displayed at Mokroe. Then make a second timeline of who learns what. Ivan hears the confession, but the court hears an ill witness describe a dead confessor. The difference between events and their public documentation is the mechanism of the wrongful conviction. Notice how a plausible theory of Dmitri's character fills an evidentiary gap.
+
+Fifth, read Alyosha's speech near the stone after Ilyusha's funeral. The child is dead and will not be restored by eloquence. Listen for what Alyosha does and does not promise. He asks the boys to remember a shared good moment and their friend. He does not promise a world without future suffering. Compare this modest appeal with Ivan's refusal to accept a harmony built from innocent tears. The scenes do not erase each other. Reading them together reveals the distance between explanation and fidelity to a person who has died.
+
+We can add a sixth comparison to another great Russian novel. Tolstoy's War and Peace repeatedly shifts from the view of an individual to the operations of collective history. Dostoevsky's courtroom does something related on a smaller scale: one act has consequences distributed among witnesses, public stories, and institutions no single person controls. But the methods diverge. Tolstoy writes long arguments about historical causation; Dostoevsky puts rival arguments into people whose actions change their credibility. The comparison makes each author's technique more visible without forcing both into the same philosophy.
+
+The final test is to distinguish what a scene makes persuasive from what it makes true. Fyodor's social performance may make him seem harmless at the very moment he hurts people. Ivan's eloquence may make a philosophical objection compelling without turning a fictional Inquisitor into history. The prosecution makes Dmitri's guilt plausible without establishing the murder. Alyosha's promise may make hope possible without making grief disappear. A reader who learns to preserve those differences has learned one of the novel's most valuable forms of attention.
+<!-- END SPOKEN LECTURE -->

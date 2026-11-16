@@ -1,0 +1,24 @@
+# War and Peace — Composition, Translation, and an Unfinished Historical Argument
+
+**Work:** Leo Tolstoy, *War and Peace* (published complete 1868–1869)  
+**Form:** Analytical lecture
+
+<!-- BEGIN SPOKEN LECTURE -->
+# War and Peace — Composition, Translation, and an Unfinished Historical Argument
+
+War and Peace entered print through a complicated process. Portions appeared in the magazine The Russian Messenger in the mid-1860s under the earlier title 1805; a substantially revised and expanded book took shape over the following years and appeared complete in 1868–1869. Tolstoy continued revising his work in later editions. The familiar English reading text is therefore not an untouched reproduction of one fixed manuscript. It is a particular textual arrangement transmitted through editorial choices and translation.
+
+The novel is also formally hard to classify. A reader expecting one hero and an ascending sequence of obstacles discovers several families, historical figures, long conversations, battlefield scenes, and argumentative chapters that directly challenge conventional history. Tolstoy himself resisted easy genre descriptions. The essays are not an optional philosophical appendix pasted onto an otherwise uncomplicated romance. The narrative's changing scale has been preparing their questions from the opening party onward.
+
+The linguistic experience of the book changes across editions. Russian nobles frequently speak French, and Tolstoy uses that fact to mark class, habit, aspiration, and estrangement. Some translators preserve French passages and supply translations in notes; others present more of the dialogue directly in English. The choice affects the social texture. The listener should know whether a character's French is part of the original performance or an effect lost in a seamless translated version. Pronouncing foreign names consistently is useful for listening, but a pronunciation guide is not a substitute for understanding their relationships.
+
+In English the names also vary by transliteration: Andrei or Andrew, Nikolai or Nicholas, Marya or Maria, Karataev or Karatayev. The Maude translation, made by Louise and Aylmer Maude and available in public-domain digital form, is a reliable basis for a continuous English reading, but modern editions differ in vocabulary, structure, notes, and translation decisions. The aim of this lecture series is to clarify the work, not to imply that the Maudes' sentences are an unmediated rendering of Tolstoy's Russian.
+
+One interpretive question concerns the two epilogues. The first returns us to a family world in 1820, where marriage, children, estate management, and political disagreement continue. The second asks how any account of human action can reconcile freedom and necessity. Readers sometimes wish the novel would stop with one and leave out the other. But the juxtaposition is precisely what makes the work difficult to domesticate. An intimate ending asks what lives can become after loss; the philosophical ending asks whether individuals can fully explain the causes of those lives.
+
+Tolstoy's presentation of Napoleon, Kutuzov, and Russian national resistance is not historical evidence neutralized into objective narration. It is shaped by a distinctive argument and by retrospective Russian concerns. Tolstoy was writing in the 1860s about the 1800s and 1810s; the position of the writer is not that of the characters. When assessing a claim about 1812, one should compare the fictional scene with historical scholarship rather than citing Tolstoy alone. The historian's question and the novelist's question overlap but do not collapse into one another.
+
+The novel's influence is best understood as an expansion of possibilities rather than a simple invention. Earlier fiction had narrated wars, love, money, and national histories. Tolstoy combined their registers with a degree of sustained psychological and social attention that became a reference point for later writers. In modern discussions of historical fiction, panoramic narration, and ordinary life under catastrophe, War and Peace remains difficult to ignore. A careful account of influence identifies specific writers and techniques rather than claiming that all later fiction descends from one Russian monument.
+
+A final reading exercise is to place Pierre's rescue of a child in burning Moscow next to the philosophical argument against great-man history. In the scene, the act is not grand enough to change the campaign. It matters because a child would otherwise be in danger. In the essay, small actions appear as constituents of a historical movement no one commands. The two passages can illuminate each other without being identical. The novel's enduring question is whether one can act responsibly when one knows that neither good intention nor superior intelligence grants control over the consequences of history.
+<!-- END SPOKEN LECTURE -->
