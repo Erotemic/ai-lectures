@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "lecture_id": "009000",
+  "transcript": "009000-seed-starting-transplanting-and-establishment.md",
+  "related_resources": [
+    {
+      "source_id": "umn-seed-starting",
+      "reason": "Medium temperature, watering, seedling light and growing conditions"
+    },
+    {
+      "source_id": "uf-transplants",
+      "reason": "Indoor light direction, leggy growth and transplants"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P009000-01",
+      "claim": "Seedling germination and growth depend on medium temperature, water and suitable rooting conditions.",
+      "kind": "original_university_extension_guidance",
+      "supports": [
+        {
+          "source_id": "umn-seed-starting",
+          "location": "Temperature and moist rooting-medium guidance",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Claim limited to cited source; context and local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P009000-02",
+      "claim": "Insufficient or strongly directional light can lead to weak, elongated seedlings.",
+      "kind": "original_university_extension_guidance",
+      "supports": [
+        {
+          "source_id": "uf-transplants",
+          "location": "Windowsill light and leggy seedlings",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Claim limited to cited source; context and local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P009000-03",
+      "claim": "Successful transplanting requires a transition between protected growing conditions and outdoor exposure.",
+      "kind": "derived_horticulture_practice",
+      "supports": [
+        {
+          "source_id": "umn-seed-starting",
+          "location": "Indoor establishment conditions",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "uf-transplants",
+          "location": "Transition to outdoor planting conditions",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Explanatory synthesis; no direct quotation or certification is claimed.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_technical_review_pending",
+  "citation_policy": "Original authors and standards issuers named; source-backed claims and synthesis distinguished; professional review and jurisdictional adoption not implied."
+}

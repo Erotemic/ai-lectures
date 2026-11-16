@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "lecture_id": "009000",
+  "transcript": "009000-heat-treatment-and-fastener-selection.md",
+  "related_resources": [
+    {
+      "source_id": "iso-fastener-grade",
+      "reason": "Specified fastener property classes, ambient-temperature test domain and exclusions; full standard not claimed reviewed"
+    },
+    {
+      "source_id": "nasa-barrett-fastener",
+      "reason": "Fastener selection, torque, preload, coatings, fatigue and corrosion; publication record and summary"
+    },
+    {
+      "source_id": "asm-steel",
+      "reason": "Iron-carbon transformations, quenching and tempering"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P009000-01",
+      "claim": "Carbon/alloy steel fastener property classes specify mechanical behavior under a defined test-temperature scope.",
+      "kind": "original_iso_standard_public_abstract",
+      "supports": [
+        {
+          "source_id": "iso-fastener-grade",
+          "location": "ISO 898-1 abstract and scope/exclusions",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Claim limited to cited source; context and local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P009000-02",
+      "claim": "Fastener selection includes preload, fatigue, corrosion and surface treatment rather than strength grade alone.",
+      "kind": "original_nasa_engineering_reference",
+      "supports": [
+        {
+          "source_id": "nasa-barrett-fastener",
+          "location": "NASA RP 1228 publication summary and design criteria",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Claim limited to cited source; context and local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P009000-03",
+      "claim": "Steel heat treatment changes material structure and trades hardness against toughness depending on alloy/process.",
+      "kind": "original_metallurgy_publisher_abstract",
+      "supports": [
+        {
+          "source_id": "asm-steel",
+          "location": "Heat-treatment chapter abstract",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Claim limited to cited source; context and local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_technical_review_pending",
+  "citation_policy": "Original authors and standards issuers named; source-backed claims and synthesis distinguished; professional review and jurisdictional adoption not implied."
+}

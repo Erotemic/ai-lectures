@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "lecture_id": "009000",
+  "transcript": "009000-cooling-systems-radiators-and-thermostats.md",
+  "related_resources": [
+    {
+      "source_id": "nhtsa-summer",
+      "reason": "Cold pressure, vehicle placard rather than tire sidewall maximum"
+    },
+    {
+      "source_id": "aaa-fluids-guide",
+      "reason": "Roles and compatibility of engine coolant, oil, brake fluid and other vehicle fluids"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P009000-01",
+      "claim": "Cooling-system maintenance requires the manufacturer-specified coolant, checks for leaks and appropriate replacement as needed.",
+      "kind": "original_us_road_safety_guidance",
+      "supports": [
+        {
+          "source_id": "nhtsa-summer",
+          "location": "NHTSA cooling-system advice and owner-manual specificity",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Claim limited to cited source; context and local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P009000-02",
+      "claim": "Cooling, lubrication and other vehicle fluids require separate systems and service specifications.",
+      "kind": "original_motoring_service_guidance",
+      "supports": [
+        {
+          "source_id": "aaa-fluids-guide",
+          "location": "Vehicle fluid management overview",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Claim limited to cited source; context and local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P009000-03",
+      "claim": "Diagnosing overheating requires distinguishing coolant inventory, airflow and heat-exchanger capacity.",
+      "kind": "derived_engineering_energy_balance",
+      "supports": [
+        {
+          "source_id": "nhtsa-summer",
+          "location": "Cooling performance and leak-check scope",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Explanatory synthesis; no direct quotation or certification is claimed.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_technical_review_pending",
+  "citation_policy": "Original authors and standards issuers named; source-backed claims and synthesis distinguished; professional review and jurisdictional adoption not implied."
+}

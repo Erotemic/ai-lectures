@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "lecture_id": "009000",
+  "transcript": "009000-retaining-walls-lateral-loads-and-drainage.md",
+  "related_resources": [
+    {
+      "source_id": "nrcs-earth-pressure-nehandbook",
+      "reason": "Lateral earth pressure, saturated backfill, drainage and engineered design; reviewed original diagram p. 4.46"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P009000-01",
+      "claim": "Retained soil imposes lateral earth pressure depending on height, type and moisture of soil and the way the backfill is placed.",
+      "kind": "original_us_soil_engineering",
+      "supports": [
+        {
+          "source_id": "nrcs-earth-pressure-nehandbook",
+          "location": "Chapter 4 Section G, pp. 4.45–4.47",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Claim limited to cited source; context and local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P009000-02",
+      "claim": "Saturated backfill introduces a water-pressure load; drainage is a core design consideration.",
+      "kind": "original_us_soil_engineering",
+      "supports": [
+        {
+          "source_id": "nrcs-earth-pressure-nehandbook",
+          "location": "Figure 4-36 and accompanying paragraphs on water load",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Claim limited to cited source; context and local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P009000-03",
+      "claim": "Simple triangular earth-pressure load grows approximately with the square of height under fixed assumptions.",
+      "kind": "derived_idealized_soil_mechanics",
+      "supports": [
+        {
+          "source_id": "nrcs-earth-pressure-nehandbook",
+          "location": "Section G explanatory lateral pressure; simplified model not site calculation",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Explanatory synthesis; no direct quotation or certification is claimed.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_technical_review_pending",
+  "citation_policy": "Original authors and standards issuers named; source-backed claims and synthesis distinguished; professional review and jurisdictional adoption not implied."
+}

@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "lecture_id": "009000",
+  "transcript": "009000-shelter-exposure-and-clothing-layers.md",
+  "related_resources": [
+    {
+      "source_id": "nps-winter-layers",
+      "reason": "Non-cotton cold-weather layers, wind/rain shell and spare dry clothing"
+    },
+    {
+      "source_id": "nysdec-hike-smart",
+      "reason": "Layering, shelter, water, weather and planning for exposure"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P009000-01",
+      "claim": "Layers of moisture-managing and insulating clothing and weather shell reduce cold/wet exposure.",
+      "kind": "original_us_park_service_guidance",
+      "supports": [
+        {
+          "source_id": "nps-winter-layers",
+          "location": "Cold-weather clothing, wool/synthetic and rain/wind shell",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Claim limited to cited source; context and local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P009000-02",
+      "claim": "Hikers should carry extra clothing and adapt to deteriorating weather, not rely exclusively on clothing appropriate for exertion.",
+      "kind": "original_state_outdoors_guidance",
+      "supports": [
+        {
+          "source_id": "nysdec-hike-smart",
+          "location": "Extra clothing and variable weather planning",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Claim limited to cited source; context and local requirements may differ.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P009000-03",
+      "claim": "Exertion, sweat evaporation and stopping in wind change the balance of heat production and loss.",
+      "kind": "derived_heat_transfer",
+      "supports": [
+        {
+          "source_id": "nysdec-hike-smart",
+          "location": "Sweat and hypothermia prevention",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nps-winter-layers",
+          "location": "Moisture and layers",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Explanatory synthesis; no direct quotation or certification is claimed.",
+      "professional_review": "appropriate_field_expert_review_required_for_consequential_application"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_technical_review_pending",
+  "citation_policy": "Original authors and standards issuers named; source-backed claims and synthesis distinguished; professional review and jurisdictional adoption not implied."
+}

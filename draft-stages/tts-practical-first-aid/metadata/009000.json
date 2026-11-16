@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "lecture_id": "009000",
+  "transcript": "009000-burns-scalds-and-wound-healing.md",
+  "related_resources": [
+    {
+      "source_id": "aha-redcross-burns-2024",
+      "reason": "Thermal burn cooling 5–20 minutes, hypothermia, urgent evaluation and chemical skin decontamination"
+    },
+    {
+      "source_id": "aba-burn-firstaid",
+      "reason": "Cooling, avoiding direct ice, dressings and serious-burn referral"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P009000-01",
+      "claim": "Immediate cool running water is recommended for thermal burns; cooling for 5 to 20 minutes may be reasonable.",
+      "kind": "original_first_aid_guideline",
+      "supports": [
+        {
+          "source_id": "aha-redcross-burns-2024",
+          "location": "First Aid Cooling of Thermal Burns recommendations",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Claim limited to cited source; context and local requirements may differ.",
+      "professional_review": "clinical_editorial_review_required_before_authoritative_use"
+    },
+    {
+      "claim_id": "P009000-02",
+      "claim": "Burn depth, location, inhalation injury and body-surface area affect the urgency of medical assessment.",
+      "kind": "original_first_aid_guideline",
+      "supports": [
+        {
+          "source_id": "aha-redcross-burns-2024",
+          "location": "First aid after cooling and escalation criteria",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Claim limited to cited source; context and local requirements may differ.",
+      "professional_review": "clinical_editorial_review_required_before_authoritative_use"
+    },
+    {
+      "claim_id": "P009000-03",
+      "claim": "Direct ice and improvised household coatings are not suitable routine burn first aid.",
+      "kind": "original_burn_care_provider_guidance",
+      "supports": [
+        {
+          "source_id": "aba-burn-firstaid",
+          "location": "What NOT to do for minor/serious burns",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_reviewed; independent_subject_matter_review_pending",
+      "limits": "Claim limited to cited source; context and local requirements may differ.",
+      "professional_review": "clinical_editorial_review_required_before_authoritative_use"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_technical_review_pending",
+  "citation_policy": "Original authors and standards issuers named; source-backed claims and synthesis distinguished; professional review and jurisdictional adoption not implied."
+}
