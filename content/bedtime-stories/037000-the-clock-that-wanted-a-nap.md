@@ -6,7 +6,7 @@
 
 # The Clock That Wanted a Nap
 
-There was a little clock on the wall of Nia's kitchen.
+There was a little clock on the wall of Lisa's kitchen.
 
 It was round and cream-colored, with a blue circle around the edge.
 
@@ -28,7 +28,7 @@ A spoon clinked into a bowl.
 
 A cupboard opened and closed.
 
-Nia's slippers made soft slapping sounds across the floor.
+Lisa's slippers made soft slapping sounds across the floor.
 
 And the clock kept going.
 
@@ -64,7 +64,7 @@ That was a funny thought.
 
 A clock-shaped pancake would have twelve little raisins around the edge.
 
-It would also be much too large for Nia's breakfast plate.
+It would also be much too large for Lisa's breakfast plate.
 
 Tick, tock.
 
@@ -72,13 +72,13 @@ Tick, tock.
 
 After supper, the kitchen grew quieter.
 
-Nia helped Grandpa put the napkins away.
+Lisa helped Grandpa put the napkins away.
 
 One napkin went into the drawer.
 
 The next napkin went into the drawer.
 
-The last napkin was folded into a tiny triangle, because Nia liked triangles.
+The last napkin was folded into a tiny triangle, because Lisa liked triangles.
 
 Then Grandpa turned off the bright kitchen light.
 
@@ -86,7 +86,7 @@ A soft lamp in the next room made the doorway glow.
 
 The clock watched the shadows settle.
 
-It listened to Nia and Grandpa walking down the hall.
+It listened to Lisa and Grandpa walking down the hall.
 
 One set of footsteps was slow and heavy.
 
@@ -94,7 +94,7 @@ The other was quick and light.
 
 At the bedroom door, the quick footsteps stopped.
 
-Nia had remembered something.
+Lisa had remembered something.
 
 She padded back into the kitchen and looked up at the clock.
 

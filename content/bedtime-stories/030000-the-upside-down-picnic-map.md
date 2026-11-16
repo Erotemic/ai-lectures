@@ -6,13 +6,13 @@
 
 # The Upside-Down Picnic Map
 
-Moss the rabbit had packed a picnic.
+Danny the rabbit had packed a picnic.
 
 There were three oat biscuits, a little jar of berry spread, and one very round apple.
 
-He put them all in a basket and took the basket to meet Hazel the hedgehog.
+He put them all in a basket and took the basket to meet Kate the hedgehog.
 
-Hazel had brought something too.
+Kate had brought something too.
 
 A map.
 
@@ -20,11 +20,11 @@ She had drawn it herself on a large piece of paper.
 
 There was a blue pond, a curly path, a tree with three branches, and a yellow star beside the tree.
 
-“The star is where we can sit,” said Hazel.
+“The star is where we can sit,” said Kate.
 
-Moss thought it was a very handsome map.
+Danny thought it was a very handsome map.
 
-Hazel held it out for him to see.
+Kate held it out for him to see.
 
 But she was holding it upside down.
 
@@ -44,13 +44,13 @@ And there was a tall flower leaning sideways in the breeze.
 
 But there was no tree with three branches.
 
-Hazel turned the map a little.
+Kate turned the map a little.
 
-Moss turned his head a little.
+Danny turned his head a little.
 
 They both looked quite thoughtful.
 
-Then Moss saw the blue pond.
+Then Danny saw the blue pond.
 
 It was right where the map showed it.
 
@@ -60,23 +60,23 @@ The map had the pond on the left side of the path.
 
 The real pond was on the right.
 
-Hazel put the map down on a flat stone.
+Kate put the map down on a flat stone.
 
 She stood on one side.
 
-Moss stood on the other.
+Danny stood on the other.
 
-From Hazel's side, the pond was on the left.
+From Kate's side, the pond was on the left.
 
-From Moss's side, it was on the right.
+From Danny's side, it was on the right.
 
-“Oh,” said Hazel.
+“Oh,” said Kate.
 
-“Oh!” said Moss.
+“Oh!” said Danny.
 
 That was interesting.
 
-Hazel turned the paper halfway around.
+Kate turned the paper halfway around.
 
 Now the blue pond was beside the path in the same way as the real one.
 
@@ -88,11 +88,11 @@ Soon they came to a low wooden bridge.
 
 A very small beetle was crossing it.
 
-Moss and Hazel waited while the beetle reached the other side.
+Danny and Kate waited while the beetle reached the other side.
 
 Then they crossed the bridge too.
 
-Beyond it was a tree with three branches, just as Hazel had drawn.
+Beyond it was a tree with three branches, just as Kate had drawn.
 
 One branch pointed left.
 
@@ -102,23 +102,23 @@ And one reached straight up, as if it were stretching after a long nap.
 
 Beneath the tree was a patch of soft grass.
 
-Hazel pointed at the yellow star on her map.
+Kate pointed at the yellow star on her map.
 
 Then she pointed at the grass.
 
 They had found their picnic place.
 
-Moss spread out a cloth.
+Danny spread out a cloth.
 
-Hazel set the biscuits on it.
+Kate set the biscuits on it.
 
-Hazel took out the apple slices her aunt had packed for them.
+Kate took out the apple slices her aunt had packed for them.
 
 There was enough for everyone.
 
-After lunch, Hazel held up her map again.
+After lunch, Kate held up her map again.
 
-Moss peered at it.
+Danny peered at it.
 
 Then he turned it around once more.
 
@@ -130,13 +130,13 @@ The pond and bridge seemed to trade places on the paper.
 
 The real pond and bridge stayed exactly where they were.
 
-Moss liked that.
+Danny liked that.
 
 The map could turn.
 
 The whole meadow did not have to.
 
-Hazel folded the paper carefully and put it in her bag.
+Kate folded the paper carefully and put it in her bag.
 
 They gathered the picnic cloth and the empty basket.
 
@@ -144,13 +144,13 @@ On the walk home, they passed the bridge, then the pond, then the bush that look
 
 The sky was beginning to turn pink.
 
-Back at Hazel's doorway, Moss thanked her for drawing the map.
+Back at Kate's doorway, Danny thanked her for drawing the map.
 
-Hazel thanked Moss for carrying the basket.
+Kate thanked Danny for carrying the basket.
 
 They had found a good place to eat, and they had found their way home.
 
-That evening, the folded map rested beside Hazel's bed.
+That evening, the folded map rested beside Kate's bed.
 
 Whichever way the paper faced, the yellow star marked the same little tree.
 
@@ -162,8 +162,8 @@ And the tree stood quietly in the meadow, holding its three branches beneath the
 
 **Why this one exists:** This is a tiny orientation puzzle, not a lesson with a required answer. The physical map changes orientation while the meadow stays put. The characters compare a picture to the world, change one assumption, and find the intended picnic tree. It is fine if a three-year-old simply enjoys the beetle and the funny map instead of understanding map orientation.
 
-**Optional prompt:** “What happened when Hazel turned the paper?” A caregiver can demonstrate with a simple drawing later, if the child wants to.
+**Optional prompt:** “What happened when Kate turned the paper?” A caregiver can demonstrate with a simple drawing later, if the child wants to.
 
-**Sources and limits:** [NAEYC, Linder and Eckhoff, *Breaking Down STEAM for Young Children, Part 3: Questioning* (2020)](https://www.naeyc.org/resources/pubs/tyc/aug2020/breaking-down-steam) discusses asking open questions and testing ideas; [AAP, *Playful Reading Tips* (2023)](https://www.healthychildren.org/English/family-life/power-of-play/Pages/playful-reading-tips-ways-to-engage-your-child-in-the-magic-of-books.aspx) describes pausing to predict and examine what happens. Neither source claims a map story teaches spatial orientation or changes a child's reasoning ability. The picnic uses apple slices prepared by Hazel’s aunt, with no knives handled by the young characters.
+**Sources and limits:** [NAEYC, Linder and Eckhoff, *Breaking Down STEAM for Young Children, Part 3: Questioning* (2020)](https://www.naeyc.org/resources/pubs/tyc/aug2020/breaking-down-steam) discusses asking open questions and testing ideas; [AAP, *Playful Reading Tips* (2023)](https://www.healthychildren.org/English/family-life/power-of-play/Pages/playful-reading-tips-ways-to-engage-your-child-in-the-magic-of-books.aspx) describes pausing to predict and examine what happens. Neither source claims a map story teaches spatial orientation or changes a child's reasoning ability. The picnic uses apple slices prepared by Kate’s aunt, with no knives handled by the young characters.
 
 **Single-voice note:** Keep the two “Oh” responses gentle and brief; orientation is explained by the narrator, not by changing character voices.

@@ -1,14 +1,14 @@
-# 020000 — Otis and the Leaf Umbrella
+# 020000 — Pete and the Leaf Umbrella
 
 **Collection:** Children's Bedtime Stories. **Age range:** Ages 3–4 (primarily age three). **Form:** Original, single-narrator fiction. **Story shape:** Two friends have different ideas about a gentle rain.
 
 <!-- BEGIN SPOKEN LECTURE -->
 
-# Otis and the Leaf Umbrella
+# Pete and the Leaf Umbrella
 
-One afternoon, Otis the snail went walking through the garden.
+One afternoon, Pete the snail went walking through the garden.
 
-Walking was what Otis called it.
+Walking was what Pete called it.
 
 Nobody else would have called it a very fast walk.
 
@@ -16,7 +16,7 @@ The air smelled of wet earth.
 
 The clouds were soft and gray.
 
-Otis was halfway past a patch of clover when a raindrop landed on a leaf beside him.
+Pete was halfway past a patch of clover when a raindrop landed on a leaf beside him.
 
 Plip.
 
@@ -26,7 +26,7 @@ Plop.
 
 Then the rain began, gentle and steady.
 
-Otis stopped beneath a broad green leaf.
+Pete stopped beneath a broad green leaf.
 
 He listened to the rain tapping above him.
 
@@ -38,7 +38,7 @@ It made the clover look greener.
 
 And the whole garden smelled fresh and cool.
 
-Otis crept out from beneath the leaf.
+Pete crept out from beneath the leaf.
 
 The rain touched his shell.
 
@@ -46,55 +46,55 @@ It touched his little feelers.
 
 He was quite content.
 
-Then he saw Pip the mouse sitting beneath the garden bench.
+Then he saw Sam the mouse sitting beneath the garden bench.
 
-Pip was looking at his feet.
+Sam was looking at his feet.
 
 His socks had little yellow stripes.
 
 And both socks were damp.
 
-Pip did not seem nearly as delighted with the rain as Otis was.
+Sam did not seem nearly as delighted with the rain as Pete was.
 
-"My toes feel squishy," Pip said.
+"My toes feel squishy," Sam said.
 
-Otis looked at Pip's socks.
+Pete looked at Sam's socks.
 
 He did not have socks himself.
 
 Perhaps that made the rain a rather different experience.
 
-Otis thought for a while.
+Pete thought for a while.
 
 He was very good at thinking slowly.
 
 Then he crawled back to the broad green leaf.
 
-It had fallen from a low branch and was almost as wide as Pip's head.
+It had fallen from a low branch and was almost as wide as Sam's head.
 
-Otis nudged it carefully toward the bench.
+Pete nudged it carefully toward the bench.
 
-Pip watched the leaf approach.
+Sam watched the leaf approach.
 
 It took a while.
 
-Pip watched a raindrop slide down the bench leg.
+Sam watched a raindrop slide down the bench leg.
 
 He watched another settle in a little hollow in the path.
 
 Then, at last, the leaf arrived.
 
-"An umbrella?" Pip asked.
+"An umbrella?" Sam asked.
 
-Otis thought it could be.
+Pete thought it could be.
 
-Pip held the leaf above his head by its thick stem.
+Sam held the leaf above his head by its thick stem.
 
 Now the rain tapped on the leaf instead of on his ears.
 
 Plip, plop, plip.
 
-Pip smiled.
+Sam smiled.
 
 His socks were still damp, of course.
 
@@ -102,15 +102,15 @@ An umbrella did not dry socks.
 
 But it made the walk home feel a little nicer.
 
-The friends traveled toward Pip's doorway.
+The friends traveled toward Sam's doorway.
 
-Pip walked in small steps to keep beside Otis.
+Sam walked in small steps to keep beside Pete.
 
-Otis went at his ordinary snail speed, which was already quite small.
+Pete went at his ordinary snail speed, which was already quite small.
 
-At the doorstep, Pip said Otis could come inside and get dry.
+At the doorstep, Sam said Pete could come inside and get dry.
 
-Otis considered.
+Pete considered.
 
 He was enjoying the rain.
 
@@ -118,23 +118,23 @@ He liked the little drops on his shell.
 
 He thought he would stay outside a little longer.
 
-Pip nodded.
+Sam nodded.
 
 He had warm, dry socks waiting indoors.
 
-Otis had the cool garden.
+Pete had the cool garden.
 
 Neither needed the other to like exactly the same thing.
 
-Pip leaned the leaf beside the doorstep so Otis could use it again if he wanted.
+Sam leaned the leaf beside the doorstep so Pete could use it again if he wanted.
 
 Then he went inside, changed his socks, and watched from the window.
 
 By evening, the rain had become only a fine mist.
 
-Pip's new socks felt soft and warm.
+Sam's new socks felt soft and warm.
 
-Otis rested beside the clover, with the last drops shining on his shell.
+Pete rested beside the clover, with the last drops shining on his shell.
 
 The garden was quiet.
 

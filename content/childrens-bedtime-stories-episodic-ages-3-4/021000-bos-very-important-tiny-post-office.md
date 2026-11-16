@@ -1,12 +1,12 @@
-# 021000 - Bo's Very Important Tiny Post Office
+# 021000 - Ben's Very Important Tiny Post Office
 
 **Collection:** Children's Bedtime Stories — Episodic (Ages 3–4). **Series:** Willow Bend and the Little Lights. **Season:** Four. **Episode:** 3 of six. **Form:** Original, single-narrator story. **Continuity:** Season four explores the southern orchard and the shared Button Town pretend game.
 
 <!-- BEGIN SPOKEN LECTURE -->
 
-# Bo's Very Important Tiny Post Office
+# Ben's Very Important Tiny Post Office
 
-Bo had a problem.
+Ben had a problem.
 
 He had imagined a whole town near the orchard's Doorway Tree.
 
@@ -16,73 +16,73 @@ But there was one thing Button Town did not have.
 
 A post office.
 
-"A town needs somewhere for letters," Bo announced.
+"A town needs somewhere for letters," Ben announced.
 
-Tess looked up from her yellow map. Nori, who had come from Round Pond, was sitting beside her on the grass at Village Green.
+Amy looked up from her yellow map. Kim, who had come from Round Pond, was sitting beside her on the grass at Village Green.
 
-"Who are the letters for?" Tess asked.
+"Who are the letters for?" Amy asked.
 
-Bo paused.
+Ben paused.
 
 "I haven't imagined that part yet."
 
-So Grandma Fern took the three friends down the south path to the orchard. She brought a shallow wicker basket and a few sheets of leftover drawing paper.
+So Grandma May took the three friends down the south path to the orchard. She brought a shallow wicker basket and a few sheets of leftover drawing paper.
 
-The old mill stayed beyond its fence. The orchard path still curved around the two-trunk tree, just as Tess had corrected it on her map.
+The old mill stayed beyond its fence. The orchard path still curved around the two-trunk tree, just as Amy had corrected it on her map.
 
-Bo carried the wicker basket with both paws.
+Ben carried the wicker basket with both paws.
 
 "This," he announced, "is the Button Town Post Office."
 
 He set it on the dry grass beside the path.
 
-"It's very spacious," said Nori.
+"It's very spacious," said Kim.
 
-"For a town the size of a button," Tess agreed.
+"For a town the size of a button," Amy agreed.
 
-Grandma Fern helped the children fold the drawing paper into little cards.
+Grandma May helped the children fold the drawing paper into little cards.
 
-Bo drew an orange lantern with silver spots. It leaned to one side.
+Ben drew an orange lantern with silver spots. It leaned to one side.
 
 "That letter is for the lantern at the Story House," he explained.
 
-"Can lanterns read?" Nori asked.
+"Can lanterns read?" Kim asked.
 
-"Not even pretend ones, probably," Bo said. "But it might enjoy the picture."
+"Not even pretend ones, probably," Ben said. "But it might enjoy the picture."
 
-Tess drew a blue door and the apple tree beside it.
+Amy drew a blue door and the apple tree beside it.
 
 "This one is for my cottage."
 
-Nori thought for a moment. She took the striped gray pebble out of her violet pouch and held it in her palm.
+Kim thought for a moment. She took the striped gray pebble out of her violet pouch and held it in her palm.
 
-Bo pointed at it.
+Ben pointed at it.
 
 "That would make a beautiful round stamp."
 
-Nori looked at the pebble, then at the paper.
+Kim looked at the pebble, then at the paper.
 
 "I'd rather keep this one in my pouch," she said.
 
-Bo nodded.
+Ben nodded.
 
 "We could draw a round stamp instead."
 
-Tess drew a circle in the corner of a card.
+Amy drew a circle in the corner of a card.
 
-Nori put the pebble back. All three pebbles stayed inside her violet pouch.
+Kim put the pebble back. All three pebbles stayed inside her violet pouch.
 
 Then she drew three little ripples and a pair of yellow boots.
 
-"This is for Rill," she said. "I think he'll like the boots."
+"This is for Todd," she said. "I think he'll like the boots."
 
-Bo inspected the pictures.
+Ben inspected the pictures.
 
 "One for a lantern. One for a house. One for a frog. An excellent day of mail."
 
-"How will we deliver them?" Tess asked.
+"How will we deliver them?" Amy asked.
 
-Bo looked at the basket.
+Ben looked at the basket.
 
 "The letters could travel by invisible cart."
 
@@ -92,33 +92,33 @@ He pushed the pretend wagon around the tree.
 
 "Clatter, clatter," he said softly.
 
-"It has very quiet wheels," Nori observed.
+"It has very quiet wheels," Kim observed.
 
-Bo slowed down even more.
+Ben slowed down even more.
 
 "They're made of slippers."
 
-He delivered the lantern picture to a little spot in the grass that stood for the Story House. He delivered Tess's house picture to another spot that stood for the Blue Door Cottage.
+He delivered the lantern picture to a little spot in the grass that stood for the Story House. He delivered Amy's house picture to another spot that stood for the Blue Door Cottage.
 
-He carried Nori's frog picture around the other side of the tree, where an imaginary road led east to Reed Meadow.
+He carried Kim's frog picture around the other side of the tree, where an imaginary road led east to Reed Meadow.
 
-The real cards, of course, stayed safely in Grandma Fern's basket.
+The real cards, of course, stayed safely in Grandma May's basket.
 
-When the deliveries were finished, Bo discovered that the basket was empty only in Button Town. In the actual orchard, it still held all three pictures.
+When the deliveries were finished, Ben discovered that the basket was empty only in Button Town. In the actual orchard, it still held all three pictures.
 
 "Our mail has traveled everywhere," he said, "without leaving the basket."
 
-"Very efficient," said Grandma Fern.
+"Very efficient," said Grandma May.
 
-She opened a flat brown envelope and helped Bo tuck the cards inside.
+She opened a flat brown envelope and helped Ben tuck the cards inside.
 
-On the outside, Tess drew one big circle, like a button.
+On the outside, Amy drew one big circle, like a button.
 
-"We can keep these for later," Grandma Fern said. "And Nori can give Rill his picture when she sees him."
+"We can keep these for later," Grandma May said. "And Kim can give Todd his picture when she sees him."
 
-Nori liked that plan.
+Kim liked that plan.
 
-They carried the basket back to the Blue Door Cottage, where Grandma Fern put it away. The brown envelope stayed on the cottage table.
+They carried the basket back to the Blue Door Cottage, where Grandma May put it away. The brown envelope stayed on the cottage table.
 
 By evening, the imaginary post office was closed for the day.
 
@@ -126,7 +126,7 @@ There was no basket outside in the orchard, no paper to blow into the grass, and
 
 Only the Doorway Tree stood beneath the settling sky.
 
-Bo wrapped his red scarf around his neck and headed home.
+Ben wrapped his red scarf around his neck and headed home.
 
 He was very pleased with his post office.
 
@@ -136,9 +136,9 @@ Especially its slipper wheels.
 
 ## For parents and caregivers - not spoken
 
-**What carries forward:** Grandma Fern brings a shallow basket and paper, all returned home afterward; friends make three letter drawings (tilted lantern, blue door, yellow boots with ripples). Nori keeps all three pebbles and agrees to deliver Rill his card later. A brown envelope with the three drawings stays at Blue Door Cottage.
+**What carries forward:** Grandma May brings a shallow basket and paper, all returned home afterward; friends make three letter drawings (tilted lantern, blue door, yellow boots with ripples). Kim keeps all three pebbles and agrees to deliver Todd his card later. A brown envelope with the three drawings stays at Blue Door Cottage.
 
-**Why this episode exists:** The post office is comic role-play with familiar objects, not real delivery service. Nori can keep a valued object instead of surrendering it, and the group finds another pretend stamp. AAP and Harvard offer general play/social context only. It is original fiction; no developmental or sleep outcome from listening is claimed.
+**Why this episode exists:** The post office is comic role-play with familiar objects, not real delivery service. Kim can keep a valued object instead of surrendering it, and the group finds another pretend stamp. AAP and Harvard offer general play/social context only. It is original fiction; no developmental or sleep outcome from listening is claimed.
 
 **Optional prompt:** "How did the little post office deliver letters without moving any real cards?" Optional, especially at bedtime.
 

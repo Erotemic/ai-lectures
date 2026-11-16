@@ -1,20 +1,20 @@
-# 022000 — Luma and the Underwater Garden
+# 022000 — Abby and the Underwater Garden
 
 **Collection:** Children's Bedtime Stories. **Age range:** Ages 3–4 (primarily age three). **Form:** Original, single-narrator fiction. **Story shape:** A little octopus makes an underwater garden of pebbles, shells, and bubbles that refuse to stay put.
 
 <!-- BEGIN SPOKEN LECTURE -->
 
-# Luma and the Underwater Garden
+# Abby and the Underwater Garden
 
-Far beneath the little boats, where the water was blue and quiet, lived an octopus named Luma.
+Far beneath the little boats, where the water was blue and quiet, lived an octopus named Abby.
 
-Luma had a house beside a big, round rock.
+Abby had a house beside a big, round rock.
 
-The front door was a smooth opening beneath the rock, just wide enough for Luma to slip through.
+The front door was a smooth opening beneath the rock, just wide enough for Abby to slip through.
 
 Outside the door was a patch of clean sand.
 
-One morning, Luma decided that the sand needed a garden.
+One morning, Abby decided that the sand needed a garden.
 
 Not a garden like the ones above the sea, with daisies and watering cans.
 
@@ -30,7 +30,7 @@ One looked like a tiny cup. The other looked like a curly hat.
 
 She set the shells beside the pebbles.
 
-Luma swam backward to admire her work.
+Abby swam backward to admire her work.
 
 It was a very nice beginning.
 
@@ -38,9 +38,9 @@ But something was missing.
 
 A bubble floated up from a crack in the rocks.
 
-Round and bright, it wobbled past Luma's nose.
+Round and bright, it wobbled past Abby's nose.
 
-Luma watched it rise.
+Abby watched it rise.
 
 Aha, she thought. Bubble flowers.
 
@@ -50,7 +50,7 @@ The bubble landed for the smallest moment.
 
 Then it slipped away and floated up, up, up.
 
-Luma tried again.
+Abby tried again.
 
 Another bubble came.
 
@@ -62,17 +62,17 @@ She guided a third bubble between the two shells.
 
 Up it went, too.
 
-A little crab named Dori came walking along the sand.
+A little crab named Deb came walking along the sand.
 
-Dori had a habit of carrying interesting things on her back.
+Deb had a habit of carrying interesting things on her back.
 
 Today she was carrying one piece of seaweed, bent like a green ribbon.
 
-She stopped at Luma's garden.
+She stopped at Abby's garden.
 
-Luma explained that she was trying to grow a bubble flower, but every bubble kept leaving.
+Abby explained that she was trying to grow a bubble flower, but every bubble kept leaving.
 
-Dori looked at the empty shells.
+Deb looked at the empty shells.
 
 She looked at the rising bubbles.
 
@@ -80,7 +80,7 @@ She thought for a moment.
 
 Then she asked whether a garden had to stay still.
 
-Luma had never thought about that.
+Abby had never thought about that.
 
 The pebbles could stay still.
 
@@ -88,9 +88,9 @@ The shells could stay still.
 
 But perhaps the bubbles could be the part of the garden that went on a little trip.
 
-Dori laid her ribbon of seaweed beside the pebbles. It waved gently in the water.
+Deb laid her ribbon of seaweed beside the pebbles. It waved gently in the water.
 
-Luma arranged a second ribbon next to it.
+Abby arranged a second ribbon next to it.
 
 The ribbons leaned left.
 
@@ -100,7 +100,7 @@ Then left again.
 
 The pebbles did not move at all.
 
-Luma began to enjoy the difference.
+Abby began to enjoy the difference.
 
 She placed the white pebble beside the little cup shell.
 
@@ -110,7 +110,7 @@ She left a space right in the middle for the bubbles to pass.
 
 A bubble floated up through the space.
 
-Luma followed it with her eyes.
+Abby followed it with her eyes.
 
 It passed the pebbles.
 
@@ -128,13 +128,13 @@ One was almost round.
 
 And the last one was shaped a little like a potato.
 
-Luma liked that one best.
+Abby liked that one best.
 
-Dori took a slow walk around the finished garden.
+Deb took a slow walk around the finished garden.
 
 She said the striped pebble made a very fine path.
 
-Luma thought the curly shell was still a wonderful hat, even if there was no one wearing it.
+Abby thought the curly shell was still a wonderful hat, even if there was no one wearing it.
 
 They sat beside the rock and watched the next bubbles arrive.
 
@@ -144,9 +144,9 @@ Nobody needed to count them.
 
 The bubbles simply visited the garden on their way to somewhere else.
 
-When the water grew dim and the sun above the sea became a soft silver glow, Dori carried her things home.
+When the water grew dim and the sun above the sea became a soft silver glow, Deb carried her things home.
 
-Luma slipped beneath her rock.
+Abby slipped beneath her rock.
 
 From inside, she could still see a little of the garden through the opening.
 
@@ -156,7 +156,7 @@ The seaweed waved, very slowly.
 
 And now and then, one shining bubble drifted upward through the middle.
 
-Luma curled herself comfortably inside her home.
+Abby curled herself comfortably inside her home.
 
 The underwater garden was still there.
 
@@ -170,7 +170,7 @@ And all around them, the sea settled into evening.
 
 ## For parents and caregivers — not spoken
 
-**Why this one exists:** An entirely fictional underwater setting lets the narrator build a clear visual pattern: some things stay, some drift, and Luma's “bubble flowers” won't behave like ordinary flowers. It is a playful story, **not** an ocean-science lesson, a perseverance test, or advice to collect marine life. No moral is assigned.
+**Why this one exists:** An entirely fictional underwater setting lets the narrator build a clear visual pattern: some things stay, some drift, and Abby's “bubble flowers” won't behave like ordinary flowers. It is a playful story, **not** an ocean-science lesson, a perseverance test, or advice to collect marine life. No moral is assigned.
 
 **Optional prompt:** “Which would you put in a pretend underwater garden: a striped pebble, a curly shell, or a bubble?” A child can simply enjoy the story instead.
 

@@ -1,30 +1,30 @@
-# 034000 — Olive and the Bakery That Went for a Walk
+# 034000 — June and the Bakery That Went for a Walk
 
 **Collection:** Children's Bedtime Stories. **Age range:** Ages 3–4 (primarily age three). **Form:** Original, single-narrator bedtime fantasy. **Story shape:** A traveling bakery causes a few cheerful misunderstandings, then finds a place to rest.
 
 <!-- BEGIN SPOKEN LECTURE -->
 
-# Olive and the Bakery That Went for a Walk
+# June and the Bakery That Went for a Walk
 
-In a small garden town, at the end of a pebbly lane, lived a turtle named Olive.
+In a small garden town, at the end of a pebbly lane, lived a turtle named June.
 
-Olive had a bakery.
+June had a bakery.
 
 It was a very small bakery, made from a little wooden box. It had a striped cloth roof and a window with a painted sign.
 
-The sign said, “Olive's Buns.”
+The sign said, “June's Buns.”
 
-But there was something special about Olive's bakery.
+But there was something special about June's bakery.
 
 It sat on her shell.
 
-Whenever Olive went for a walk, the bakery went for a walk too.
+Whenever June went for a walk, the bakery went for a walk too.
 
-Each morning, Olive loaded the box with little rolls that had been baked in the village kitchen. One was round. One was long. One was shaped a little like a sleeping mouse.
+Each morning, June loaded the box with little rolls that had been baked in the village kitchen. One was round. One was long. One was shaped a little like a sleeping mouse.
 
 That last one was supposed to be round too, but the dough had other ideas.
 
-On this particular afternoon, Olive walked very slowly down the pebbly lane.
+On this particular afternoon, June walked very slowly down the pebbly lane.
 
 She stopped beside a pink flower.
 
@@ -34,13 +34,13 @@ Then she took one more step.
 
 A beetle came around the corner carrying a shopping basket.
 
-“Good afternoon,” said the beetle. “I'm going to Olive's bakery.”
+“Good afternoon,” said the beetle. “I'm going to June's bakery.”
 
-“You've found it,” said Olive.
+“You've found it,” said June.
 
 The beetle looked at the striped roof.
 
-He looked at Olive.
+He looked at June.
 
 He looked at the striped roof again.
 
@@ -48,7 +48,7 @@ He looked at the striped roof again.
 
 He bought a round roll and went home quite pleased with his short shopping trip.
 
-Olive continued past the bean plants.
+June continued past the bean plants.
 
 A sparrow flew down to the place where the bakery usually stood.
 
@@ -62,15 +62,15 @@ She followed the pebbly lane, looking left and right.
 
 At last she spotted the striped roof moving slowly behind a watering can.
 
-“Olive!” she called. “Your bakery is escaping!”
+“June!” she called. “Your bakery is escaping!”
 
-“It is not escaping,” Olive explained. “It is taking a walk.”
+“It is not escaping,” June explained. “It is taking a walk.”
 
 “May I walk with it?” asked the sparrow.
 
 “Of course.”
 
-So the sparrow hopped beside Olive, and together they went around the watering can.
+So the sparrow hopped beside June, and together they went around the watering can.
 
 On the other side they met a ladybug who wanted the long roll.
 
@@ -84,7 +84,7 @@ She tried tucking one end inside.
 
 The other end poked out like a little flag.
 
-Finally Olive cut it in two equal pieces, and the ladybug carried one in each side of her basket.
+Finally June cut it in two equal pieces, and the ladybug carried one in each side of her basket.
 
 “Now I have two rolls,” the ladybug said, rather amazed.
 
@@ -94,7 +94,7 @@ The ladybug considered this.
 
 Then she decided that was plenty of roll for one ladybug.
 
-By the time the sun touched the top of the garden fence, Olive had reached the old apple tree.
+By the time the sun touched the top of the garden fence, June had reached the old apple tree.
 
 She had sold the round roll and the long roll. Only the mouse-shaped roll remained.
 
@@ -102,7 +102,7 @@ The sparrow perched on a low branch.
 
 “Will the bakery walk all night?” she asked.
 
-Olive shook her head.
+June shook her head.
 
 “Bakeries need a place to stop.”
 
@@ -114,7 +114,7 @@ He stared at it.
 
 “Why,” he said, “that looks like my cousin.”
 
-“It was meant to be round,” Olive told him.
+“It was meant to be round,” June told him.
 
 The mouse looked at the bun's two pointy ears.
 
@@ -126,7 +126,7 @@ At last the bakery window was empty.
 
 The sparrow said goodnight and flew to her nest.
 
-Olive settled beneath the apple tree, with her little bakery resting on her shell.
+June settled beneath the apple tree, with her little bakery resting on her shell.
 
 The striped roof hardly moved at all.
 
@@ -134,7 +134,7 @@ The pebbly lane was quiet.
 
 The watering can stood still.
 
-And the bakery that had gone for a walk had arrived exactly where Olive wanted to be.
+And the bakery that had gone for a walk had arrived exactly where June wanted to be.
 
 Home, under the apple tree, in the gentle evening.
 

@@ -16,9 +16,9 @@ The first star was called Dot.
 
 Dot was small and bright and liked to be prepared.
 
-The second star was called Flicker.
+The second star was called Pop.
 
-Flicker liked to see what was around the next cloud.
+Pop liked to see what was around the next cloud.
 
 The third star was called Glow.
 
@@ -34,11 +34,11 @@ They floated through the sky until they found a wide, peaceful patch between two
 
 “This will do,” said Dot.
 
-Flicker looked up.
+Pop looked up.
 
 There was sky above them.
 
-Flicker looked down.
+Pop looked down.
 
 There was sky below them too.
 
@@ -50,13 +50,13 @@ One corner drifted toward a cloud.
 
 Another corner drifted the other way.
 
-Glow held the middle while Dot and Flicker tucked in the sides.
+Glow held the middle while Dot and Pop tucked in the sides.
 
 At last the tent hung comfortably between the clouds.
 
 Dot placed the three cloud pillows inside.
 
-Flicker set the little silver spoon beside the entrance.
+Pop set the little silver spoon beside the entrance.
 
 Glow lay down on a pillow immediately.
 
@@ -72,7 +72,7 @@ Dot tried to stir it.
 
 The spoon was too small for the bowl.
 
-Flicker tried next.
+Pop tried next.
 
 The spoon was still too small.
 
@@ -94,7 +94,7 @@ A moment later, it looked like a pillow.
 
 After that, it looked like a sheep carrying a pillow.
 
-Flicker found that very funny.
+Pop found that very funny.
 
 Dot smiled.
 
@@ -116,7 +116,7 @@ The stars watched without making a sound.
 
 Dot folded the empty soup cloth.
 
-Flicker put away the silver spoon.
+Pop put away the silver spoon.
 
 Glow pulled the edge of the blue tent a little closer.
 
@@ -126,7 +126,7 @@ Their tiny lights shone through the tent, faint and steady.
 
 Dot thought about the sheep-shaped cloud.
 
-Flicker thought about the spoon that had finally found its job.
+Pop thought about the spoon that had finally found its job.
 
 Glow was thinking of nothing very much at all.
 
@@ -136,9 +136,9 @@ The town below was quiet now.
 
 The three campers were quiet too.
 
-Dot said goodnight to Flicker.
+Dot said goodnight to Pop.
 
-Flicker said goodnight to Glow.
+Pop said goodnight to Glow.
 
 Glow gave a very small, sleepy goodnight to both of them.
 
@@ -156,4 +156,4 @@ And from the ground, the three little stars looked like three gentle points of l
 
 **Sources and limits:** [AAP, *How to Share Books with Children 2 and 3 Years Old* (2021)](https://www.healthychildren.org/English/ages-stages/toddler/Pages/How-to-Share-Books-with-2-and-3-Year-Olds.aspx) recommends shared storytelling and following a child's comments; [AAP, *Playful Reading Tips* (2023)](https://www.healthychildren.org/English/family-life/power-of-play/Pages/playful-reading-tips-ways-to-engage-your-child-in-the-magic-of-books.aspx) discusses imagination and prediction during shared reading. These sources did not evaluate this story, are not astronomy references, and do not establish that its final pages induce sleep.
 
-**Single-voice note:** Keep Dot, Flicker, and Glow in the same narrator voice. Their names and small repeated actions do the work that three separate acted voices might otherwise do.
+**Single-voice note:** Keep Dot, Pop, and Glow in the same narrator voice. Their names and small repeated actions do the work that three separate acted voices might otherwise do.

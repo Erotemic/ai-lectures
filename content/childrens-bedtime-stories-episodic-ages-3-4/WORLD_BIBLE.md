@@ -10,7 +10,7 @@ A reader-facing, schematic map — not to scale:
 
 ```text
                          Round Pond + willow
-                          (Nori's neighborhood)
+                          (Kim's neighborhood)
                                  |
                      Pebble Bridge across the creek
                                  |                 old mill
@@ -22,9 +22,9 @@ A reader-facing, schematic map — not to scale:
 
 Use the prose relationships as the authority if the monospace diagram is ambiguous:
 
-- The **Blue Door Cottage**, where Tess lives with Grandma Fern, is west of **Village Green**. One low-branched apple tree stands near its door.
+- The **Blue Door Cottage**, where Amy lives with Grandma May, is west of **Village Green**. One low-branched apple tree stands near its door.
 - **Village Green** has a fountain, long wooden bench, and **Story House** (squeaky door). The Story House is where neighbors prepare paper decorations.
-- **Pebble Bridge** lies east of the Green and crosses the creek. The wooden boards yield different footstep sounds; reeds by the bank hum softly in the breeze. **Round Pond**, willow and Nori's home neighborhood lie farther along the path on the *opposite* side.
+- **Pebble Bridge** lies east of the Green and crosses the creek. The wooden boards yield different footstep sounds; reeds by the bank hum softly in the breeze. **Round Pond**, willow and Kim's home neighborhood lie farther along the path on the *opposite* side.
 - The **orchard** is south of Village Green, with an old stone **mill** farther down the path near the creek. Its wheel is behind a fence. The orchard tree with two trunks resembles giant trousers.
 - **Bell Hill** rises to the west, beyond the Blue Door Cottage from Village Green. A resting bench stands partway up the gentle slope. Beyond the hill is **Far Meadow**; it is *not yet visited* in season one.
 - Farther east past Round Pond lie reeds that can lead to a **Reed Meadow** in a later season. No new route across the creek has been established apart from Pebble Bridge.
@@ -33,27 +33,27 @@ The Little-Light Walk route is **Village Green → Pebble Bridge → Round Pond 
 
 ## Recurring people
 
-- **Tess:** a young rabbit, curious and observant, lives with **Grandma Fern** at the Blue Door Cottage. She draws a folded **yellow paper map** using colored pencils; it is imperfect but lovingly specific. She can change her mind. She does not become an expert cartographer overnight.
-- **Bo:** a bear cub and Tess's friend. Wears a **red scarf**. Likes funny shapes, sounds, and trying ideas. Sometimes wants things perfectly straight; he can also appreciate a leaning lantern. He does not need a constant clown voice to be funny.
-- **Nori:** a young hedgehog living near **Round Pond**, first observed from afar in 002000 and met in 003000. Carries a **violet pouch** containing three pebbles, one round gray pebble with a white stripe. Prefers time to observe and does not want to be placed in the middle of a crowd. She is playful and curious; don't reduce her to “the shy one.” Her boundaries remain valid in later stories.
-- **Grandma Fern:** an older rabbit who lives with Tess. A steady adult presence, helping with routes near water, tools, lantern lights, and transitions home. She offers possibilities rather than speeches. Other adult neighbors may appear with clear roles, but no rapid cast changes are needed.
+- **Amy:** a young rabbit, curious and observant, lives with **Grandma May** at the Blue Door Cottage. She draws a folded **yellow paper map** using colored pencils; it is imperfect but lovingly specific. She can change her mind. She does not become an expert cartographer overnight.
+- **Ben:** a bear cub and Amy's friend. Wears a **red scarf**. Likes funny shapes, sounds, and trying ideas. Sometimes wants things perfectly straight; he can also appreciate a leaning lantern. He does not need a constant clown voice to be funny.
+- **Kim:** a young hedgehog living near **Round Pond**, first observed from afar in 002000 and met in 003000. Carries a **violet pouch** containing three pebbles, one round gray pebble with a white stripe. Prefers time to observe and does not want to be placed in the middle of a crowd. She is playful and curious; don't reduce her to “the shy one.” Her boundaries remain valid in later stories.
+- **Grandma May:** an older rabbit who lives with Amy. A steady adult presence, helping with routes near water, tools, lantern lights, and transitions home. She offers possibilities rather than speeches. Other adult neighbors may appear with clear roles, but no rapid cast changes are needed.
 
 Keep family assumptions limited to what is written. Do not invent a missing parent as a plot problem or supply trauma backstory for a gentle series.
 
 ## Stable shared objects
 
-1. **Tess's folded yellow map:** episode one begins it with the blue cottage/door, crooked green apple tree, fountain, beetle-shaped bench, Story House and its squeak curl; episode two adds the bridge, brook and smile; episode three adds pond, willow, leaf and three rings; episode four adds orchard, old mill, the red apple mark and leaf; episode five adds Bell Hill and bench and Bo's orange lantern. It is put by Tess's bed after each day. Episode six still leaves a blank margin beyond Bell Hill.
-2. **Bo's tilted lantern:** made in episode five. Paper, orange, silver-spotted, slightly tilted; little electric light; grown-ups handle the electric light and hang the lantern. It hangs near the Story House window and remains tilted during episode six. No open flame.
-3. **Nori's violet pouch:** holds three distinctive pebbles. The round gray pebble has a white stripe; it is briefly compared to a sleepy worm in daylight and a tiny road in lantern light. Do not lose or replace it without a depicted event.
-4. **The apple journey:** an ordinary apple rolled from Grandma Fern's orchard basket along a safe path, stopped under a leaf at the old mill, was washed and sliced by Grandma. It is not a supernatural apple and is no longer whole at episode five. Its drawn red dot remains on the map.
+1. **Amy's folded yellow map:** episode one begins it with the blue cottage/door, crooked green apple tree, fountain, beetle-shaped bench, Story House and its squeak curl; episode two adds the bridge, brook and smile; episode three adds pond, willow, leaf and three rings; episode four adds orchard, old mill, the red apple mark and leaf; episode five adds Bell Hill and bench and Ben's orange lantern. It is put by Amy's bed after each day. Episode six still leaves a blank margin beyond Bell Hill.
+2. **Ben's tilted lantern:** made in episode five. Paper, orange, silver-spotted, slightly tilted; little electric light; grown-ups handle the electric light and hang the lantern. It hangs near the Story House window and remains tilted during episode six. No open flame.
+3. **Kim's violet pouch:** holds three distinctive pebbles. The round gray pebble has a white stripe; it is briefly compared to a sleepy worm in daylight and a tiny road in lantern light. Do not lose or replace it without a depicted event.
+4. **The apple journey:** an ordinary apple rolled from Grandma May's orchard basket along a safe path, stopped under a leaf at the old mill, was washed and sliced by Grandma. It is not a supernatural apple and is no longer whole at episode five. Its drawn red dot remains on the map.
 
 ## Season one state ledger
 
 | Episode | Who knows whom? | Object/world state after the ending | What is still unresolved? |
 |---|---|---|---|
-| 001000 | Tess and Bo already friends; Grandma Fern cares for Tess | Map begins at home and Green; walk announced | Bridge, pond, other paths not yet drawn |
-| 002000 | Same; Nori only glimpsed, unnamed | Bridge and creek mapped; reed hum and steps remembered | Who carries violet pouch? What lies by pond? |
-| 003000 | Nori meets Tess, Bo, Grandma | Pond mapped; Nori may attend walk but has not committed | Orchard, hill; her choice remains her own |
+| 001000 | Amy and Ben already friends; Grandma May cares for Amy | Map begins at home and Green; walk announced | Bridge, pond, other paths not yet drawn |
+| 002000 | Same; Kim only glimpsed, unnamed | Bridge and creek mapped; reed hum and steps remembered | Who carries violet pouch? What lies by pond? |
+| 003000 | Kim meets Amy, Ben, Grandma | Pond mapped; Kim may attend walk but has not committed | Orchard, hill; her choice remains her own |
 | 004000 | Three friends spend a supervised day together | Orchard and mill mapped; apple recovered, washed, sliced | Lantern preparations not finished |
 | 005000 | All friends now familiar | Lantern tilted and hung; Bell Hill and resting bench mapped | Walk scheduled for tomorrow |
 | 006000 | Friends share walk; quiet preference respected | Walk completed; lantern still tilted; map preserved with open edge | **No urgent unresolved problem.** Far Meadow and Reed Meadow remain optional future explorations |
@@ -71,57 +71,57 @@ Keep family assumptions limited to what is written. Do not invent a missing pare
 
 ## Season two - Beyond Bell Hill (007000-012000)
 
-**Continuity update, not spoken.** Season one remains complete. Season two follows directly from the empty space on Tess's map past Bell Hill. It ends with a **completed** ribbon picnic, not a cliffhanger.
+**Continuity update, not spoken.** Season one remains complete. Season two follows directly from the empty space on Amy's map past Bell Hill. It ends with a **completed** ribbon picnic, not a cliffhanger.
 
 ### Expanded geography and people
 
 - From Village Green walk west past Blue Door Cottage, climb Bell Hill, rest at its halfway bench, cross its rounded crest, and descend the *same path* into **Far Meadow**. The meadow lies west of Bell Hill. The creek and Pebble Bridge remain to the east of the Green; do not place the creek beneath Far Meadow or invent a second crossing.
 - **Windbreak Tree:** a broad tree in Far Meadow with one conspicuously sideways-growing branch; tall grass sometimes makes wave patterns nearby. The tree creates a sheltered side.
-- **Sitting Stone:** broad, flat stone by the Windbreak Tree. Episode 008000 uses it for an *imaginary Pocket Museum*. Tess draws a small **spoon symbol** by the stone to remember the joke. The museum is not a permanent building.
-- **Clover Nook:** a quiet, open, adult-visible patch behind Windbreak Tree, reached by a softer grassy path that later rejoins the wider route at Sitting Stone. Tess marks a **small green circle**, at Nori's request. Its location stays fixed.
-- **Lila:** a young lamb living at Far Meadow's edge in a **cream-colored cottage** with her adult **Aunt Mallow**. Lila wears a straw hat with a **broad blue ribbon**. The breeze often threatens to lift the hat, which is recurring gentle comedy. She is eager to explore Willow Bend, not just a host in Far Meadow. First meets Tess/Bo/Nori in 007000, first visits Village Green and Story House in 010000.
-- **Aunt Mallow:** Lila's grown-up and a dependable adult near the meadow, Story House work, and picnic. Grandma Fern still accompanies Tess, Bo, and Nori on cross-hill outings. Nori's own grown-up remains part of her home life near Round Pond.
+- **Sitting Stone:** broad, flat stone by the Windbreak Tree. Episode 008000 uses it for an *imaginary Pocket Museum*. Amy draws a small **spoon symbol** by the stone to remember the joke. The museum is not a permanent building.
+- **Clover Nook:** a quiet, open, adult-visible patch behind Windbreak Tree, reached by a softer grassy path that later rejoins the wider route at Sitting Stone. Amy marks a **small green circle**, at Kim's request. Its location stays fixed.
+- **Wendy:** a young lamb living at Far Meadow's edge in a **cream-colored cottage** with her adult **Aunt Kay**. Wendy wears a straw hat with a **broad blue ribbon**. The breeze often threatens to lift the hat, which is recurring gentle comedy. She is eager to explore Willow Bend, not just a host in Far Meadow. First meets Amy/Ben/Kim in 007000, first visits Village Green and Story House in 010000.
+- **Aunt Kay:** Wendy's grown-up and a dependable adult near the meadow, Story House work, and picnic. Grandma May still accompanies Amy, Ben, and Kim on cross-hill outings. Kim's own grown-up remains part of her home life near Round Pond.
 
 ### Persisting objects and events
 
-- **Yellow map:** its old drawings remain; new marks: path over Bell Hill, Far Meadow, Lila's cottage, Windbreak Tree, Sitting Stone, small spoon by Sitting Stone, small green circle for Clover Nook, long Bell Hill bench shadow, three colored marks by Windbreak Tree (orange/blue/violet banner). The map is still imperfect and has room beyond the current places.
-- **Bo's red scarf** stays his everyday item. Bo's temporary pocket museum consists of a wooden spoon, folded napkin, leaf shaped like a fish, paper crown, and turnip drawing, all **taken home** after 008000. The tiny spoon on the map is just a symbol.
-- **Nori's violet pouch** continues to hold three pebbles, including a round gray one with a white stripe. She has not given away any pebble or changed this habit.
-- **Lila's hat:** straw with blue ribbon; it is carried during her first Willow Bend visit, worn again at the picnic. Its blue ribbon is the visual inspiration for the banner's blue section.
-- **Picnic banner:** adults finish a banner of broad **orange, blue, violet** fabric sections at the Story House in 011000. It has protected paper sun, pond, and leaf decorations. Adults put it at Far Meadow for the picnic in 012000, then safely take it down and keep it at **Lila's cottage window**. It does not hang outside permanently.
-- **Bo's silver-spotted orange paper lantern** from season one stays **tilted at the Story House** throughout season two; no flame or replacement lantern. It is not relocated for the meadow picnic.
-- **Picnic:** Lila suggests it in 010000, preparations happen in 011000, and everyone attends with adults in 012000. Both the outing and the season end completely.
+- **Yellow map:** its old drawings remain; new marks: path over Bell Hill, Far Meadow, Wendy's cottage, Windbreak Tree, Sitting Stone, small spoon by Sitting Stone, small green circle for Clover Nook, long Bell Hill bench shadow, three colored marks by Windbreak Tree (orange/blue/violet banner). The map is still imperfect and has room beyond the current places.
+- **Ben's red scarf** stays his everyday item. Ben's temporary pocket museum consists of a wooden spoon, folded napkin, leaf shaped like a fish, paper crown, and turnip drawing, all **taken home** after 008000. The tiny spoon on the map is just a symbol.
+- **Kim's violet pouch** continues to hold three pebbles, including a round gray one with a white stripe. She has not given away any pebble or changed this habit.
+- **Wendy's hat:** straw with blue ribbon; it is carried during her first Willow Bend visit, worn again at the picnic. Its blue ribbon is the visual inspiration for the banner's blue section.
+- **Picnic banner:** adults finish a banner of broad **orange, blue, violet** fabric sections at the Story House in 011000. It has protected paper sun, pond, and leaf decorations. Adults put it at Far Meadow for the picnic in 012000, then safely take it down and keep it at **Wendy's cottage window**. It does not hang outside permanently.
+- **Ben's silver-spotted orange paper lantern** from season one stays **tilted at the Story House** throughout season two; no flame or replacement lantern. It is not relocated for the meadow picnic.
+- **Picnic:** Wendy suggests it in 010000, preparations happen in 011000, and everyone attends with adults in 012000. Both the outing and the season end completely.
 
 ### Season two state ledger
 
 | Episode | New state after its ending | Carried into later episodes |
 |---|---|---|
-| 007000 | Friends visit Far Meadow and meet Lila/Aunt Mallow; tree, stone, cottage join map | Blue-ribbon hat; path over Bell Hill; new friend |
-| 008000 | Bo creates temporary pocket museum, repacks objects, Tess draws spoon by Sitting Stone | Spoon icon is a shared joke, objects **not** left in meadow |
-| 009000 | Clover Nook named and mapped as a small green circle; Nori chooses softer route | Second path joins at stone; nook stays open and adult-visible |
-| 010000 | Lila visits Willow Bend, sees tilted lantern; changing bench shadow noticed and drawn | First reciprocal visit; picnic idea introduced |
-| 011000 | Story House adults complete ribbon banner; Lila/Aunt Mallow carry it to meadow | Picnic planned for next day; orange/blue/violet colors fixed |
-| 012000 | Picnic occurs; banner goes to Lila's cottage window; all return home | Season ends peacefully; map fully includes Far Meadow; no urgent unresolved problem |
+| 007000 | Friends visit Far Meadow and meet Wendy/Aunt Kay; tree, stone, cottage join map | Blue-ribbon hat; path over Bell Hill; new friend |
+| 008000 | Ben creates temporary pocket museum, repacks objects, Amy draws spoon by Sitting Stone | Spoon icon is a shared joke, objects **not** left in meadow |
+| 009000 | Clover Nook named and mapped as a small green circle; Kim chooses softer route | Second path joins at stone; nook stays open and adult-visible |
+| 010000 | Wendy visits Willow Bend, sees tilted lantern; changing bench shadow noticed and drawn | First reciprocal visit; picnic idea introduced |
+| 011000 | Story House adults complete ribbon banner; Wendy/Aunt Kay carry it to meadow | Picnic planned for next day; orange/blue/violet colors fixed |
+| 012000 | Picnic occurs; banner goes to Wendy's cottage window; all return home | Season ends peacefully; map fully includes Far Meadow; no urgent unresolved problem |
 
 ### After season two
 
-Future episodes can visit Far Meadow without treating Lila as a stranger, can use Clover Nook and Sitting Stone, and may explore the as-yet-unvisited Reed Meadow east of Round Pond. Use **Pebble Bridge** as the known creek crossing. Do not restart or erase either season's completed events. Keep one locally satisfying story per episode and a continuing change when appropriate.
+Future episodes can visit Far Meadow without treating Wendy as a stranger, can use Clover Nook and Sitting Stone, and may explore the as-yet-unvisited Reed Meadow east of Round Pond. Use **Pebble Bridge** as the known creek crossing. Do not restart or erase either season's completed events. Keep one locally satisfying story per episode and a continuing change when appropriate.
 
 
 ## Season three — The Book of Little Sounds (013000–018000)
 
-**Continuity update, not spoken.** The Little-Light Walk and the Far Meadow ribbon picnic are both finished. This season introduces a *second* outward journey, east of Round Pond. The six-page sound book completes its little arc and goes on a low shelf at the Story House, with Bo’s permission to borrow it again. Nothing requires an urgent fourth-season follow-up.
+**Continuity update, not spoken.** The Little-Light Walk and the Far Meadow ribbon picnic are both finished. This season introduces a *second* outward journey, east of Round Pond. The six-page sound book completes its little arc and goes on a low shelf at the Story House, with Ben’s permission to borrow it again. Nothing requires an urgent fourth-season follow-up.
 
 ### Geography, people and persistent objects
 
 - **Route to Reed Meadow:** Village Green → **Pebble Bridge** (the one established creek crossing) → **Round Pond** and willow → dry winding path **east** → Reed Meadow. The route is on the same far side of the creek as Round Pond; there is **no invented second bridge or crossing**. The low wet hollow lies *below* the dry path, which curves along a small grassy rise above it. A crescent of tall reeds borders the hollow. Children visit accompanied by established adults.
-- **Relative geography:** Far Meadow remains *west* beyond Bell Hill, on the other side of Willow Bend from Reed Meadow. Lila crosses Bell Hill, passes Village Green, and uses Pebble Bridge to visit Reed Meadow. The old mill remains south near the orchard; it is never relocated.
-- **Rill:** a young frog who lives near Reed Meadow with his grown-up **Aunt Cress**, an older frog. He wears two **yellow boots**, one with a **blue patch**. He enjoys making short comic *bup* sounds and likes listening. He meets Tess, Bo and Nori in episode 015000; Lila meets him in 016000. He does not secretly know any character before their depicted meeting. Frog speech, boot-wearing and the particular bup are anthropomorphic fiction.
-- **Aunt Cress:** a reliable adult frog near the dry meadow path. She has a collection of broad, smooth leaves on her windowsill, mentioned in 015000 but not previously visited by the children. She accompanies Rill to Story House in 018000.
-- **Tess's yellow map:** retains all west-side places and the picnic banner marks. Adds the *eastward dry path*, the **crescent of reeds** at Reed Meadow and **small green curve** indicating the dry rise in 013000. Adds one **tiny yellow boot** by the reeds in 015000 to remember Rill. The map is still folded near Tess's bed when at home. No earlier map details are erased.
-- **Book of Little Sounds:** Grandma Fern lends Bo a small **blue six-page notebook** in 013000. It is **not an audio recording**; it carries pictures and a few words written by Grandma at children's requests. Its state is tracked below. Bo keeps it at home between trips until he **asks** that it live on the low shelf at Story House in 018000; Grandma agrees he may borrow it again. The notebook is distinct from Tess's yellow map.
-- **Bo's paper listening hat:** a funny soft-paper hat with drawn oversize ears and a green leaf, folded with Grandma Fern's help in 014000. It does *not* improve hearing; it crinkles. Its tips are bent; Bo keeps it at home after the outing. His **red scarf** remains his daily item.
-- **Prior persistent objects unchanged:** Nori has three pebbles, including the round gray pebble with a white stripe, in her violet pouch; Lila's straw hat still has its blue ribbon; the **orange/blue/violet picnic banner stays *inside* Lila's cream cottage window**; Bo's **tilted silver-spotted orange electric lantern remains by the Story House window**. No flames, magically animated objects, or supernatural geography.
+- **Relative geography:** Far Meadow remains *west* beyond Bell Hill, on the other side of Willow Bend from Reed Meadow. Wendy crosses Bell Hill, passes Village Green, and uses Pebble Bridge to visit Reed Meadow. The old mill remains south near the orchard; it is never relocated.
+- **Todd:** a young frog who lives near Reed Meadow with his grown-up **Aunt Pat**, an older frog. He wears two **yellow boots**, one with a **blue patch**. He enjoys making short comic *bup* sounds and likes listening. He meets Amy, Ben and Kim in episode 015000; Wendy meets him in 016000. He does not secretly know any character before their depicted meeting. Frog speech, boot-wearing and the particular bup are anthropomorphic fiction.
+- **Aunt Pat:** a reliable adult frog near the dry meadow path. She has a collection of broad, smooth leaves on her windowsill, mentioned in 015000 but not previously visited by the children. She accompanies Todd to Story House in 018000.
+- **Amy's yellow map:** retains all west-side places and the picnic banner marks. Adds the *eastward dry path*, the **crescent of reeds** at Reed Meadow and **small green curve** indicating the dry rise in 013000. Adds one **tiny yellow boot** by the reeds in 015000 to remember Todd. The map is still folded near Amy's bed when at home. No earlier map details are erased.
+- **Book of Little Sounds:** Grandma May lends Ben a small **blue six-page notebook** in 013000. It is **not an audio recording**; it carries pictures and a few words written by Grandma at children's requests. Its state is tracked below. Ben keeps it at home between trips until he **asks** that it live on the low shelf at Story House in 018000; Grandma agrees he may borrow it again. The notebook is distinct from Amy's yellow map.
+- **Ben's paper listening hat:** a funny soft-paper hat with drawn oversize ears and a green leaf, folded with Grandma May's help in 014000. It does *not* improve hearing; it crinkles. Its tips are bent; Ben keeps it at home after the outing. His **red scarf** remains his daily item.
+- **Prior persistent objects unchanged:** Kim has three pebbles, including the round gray pebble with a white stripe, in her violet pouch; Wendy's straw hat still has its blue ribbon; the **orange/blue/violet picnic banner stays *inside* Wendy's cream cottage window**; Ben's **tilted silver-spotted orange electric lantern remains by the Story House window**. No flames, magically animated objects, or supernatural geography.
 
 ### Exact six-page notebook ledger
 
@@ -129,51 +129,51 @@ Future episodes can visit Far Meadow without treating Lila as a stranger, can us
 |---|---|---|
 | 1 | 013000 | Tall reeds and **shhh** in Reed Meadow |
 | 2 | 014000 | Three feet on Pebble Bridge; **tok** and **tuk**, two small bird-note dots; oversized hat joke |
-| 3 | 015000 | Rill's round little croak, **bup** and **buuuuup** |
+| 3 | 015000 | Todd's round little croak, **bup** and **buuuuup** |
 | 4 | 016000 | Windbreak Tree branch from Far Meadow and reed crescent from Reed Meadow; **flutter** and **shhh** |
 | 5 | 017000 | Roof drip onto metal watering can outside Story House; **plink**; dots separated by a pause |
-| 6 | 018000 | Two folded corners and yellow map rectangle; the soft **ffft** of Tess opening her map |
+| 6 | 018000 | Two folded corners and yellow map rectangle; the soft **ffft** of Amy opening her map |
 
 ### Season-three state ledger
 
 | Episode | New state after its ending | What later chapters must preserve |
 |---|---|---|
-| 013000 | Nori guides the eastward exploration; Reed Meadow and path mapped; Bo receives blue notebook and fills page 1 | East route and notebook exist; nothing about Rill yet |
-| 014000 | Bo makes the paper listening hat and fills notebook page 2 with bridge sounds | Hat stays at Bo's home; book has exactly 2 filled pages |
-| 015000 | Rill and Aunt Cress met; one yellow boot drawn on map; notebook page 3 records bup | Rill's blue-patched yellow boot and new friendship persist; Rill hasn't visited village |
-| 016000 | Lila visits east with Aunt Mallow and meets Rill; notebook page 4 records contrasting winds | Lila and Rill know one another; banner stays at Lila's cottage |
-| 017000 | Rainy-day plink traced to watering can outside Story House; notebook page 5 drawn | The sixth page is still blank; rain ends; book goes home with Bo |
-| 018000 | Friends from east and west share the pages; map's unfolding sound fills page 6; Bo leaves finished book on Story House low shelf | **Season complete.** No impending event, unsolved problem, missing item, or forced cliffhanger |
+| 013000 | Kim guides the eastward exploration; Reed Meadow and path mapped; Ben receives blue notebook and fills page 1 | East route and notebook exist; nothing about Todd yet |
+| 014000 | Ben makes the paper listening hat and fills notebook page 2 with bridge sounds | Hat stays at Ben's home; book has exactly 2 filled pages |
+| 015000 | Todd and Aunt Pat met; one yellow boot drawn on map; notebook page 3 records bup | Todd's blue-patched yellow boot and new friendship persist; Todd hasn't visited village |
+| 016000 | Wendy visits east with Aunt Kay and meets Todd; notebook page 4 records contrasting winds | Wendy and Todd know one another; banner stays at Wendy's cottage |
+| 017000 | Rainy-day plink traced to watering can outside Story House; notebook page 5 drawn | The sixth page is still blank; rain ends; book goes home with Ben |
+| 018000 | Friends from east and west share the pages; map's unfolding sound fills page 6; Ben leaves finished book on Story House low shelf | **Season complete.** No impending event, unsolved problem, missing item, or forced cliffhanger |
 
 ### After season three
 
-Future episodes may borrow or revisit the book, visit Rill in Reed Meadow, have Lila and Rill encounter one another again, or explore new places. They must not reset the book to empty or turn the low shelf into a magical library. A new season can change the state, but only if the change happens on the page. New stories remain self-contained, gently resolved and suitable for a single TTS narrator.
+Future episodes may borrow or revisit the book, visit Todd in Reed Meadow, have Wendy and Todd encounter one another again, or explore new places. They must not reset the book to empty or turn the low shelf into a magical library. A new season can change the state, but only if the change happens on the page. New stories remain self-contained, gently resolved and suitable for a single TTS narrator.
 
 ## Season four — The Doorway Tree (019000–024000)
 
-**Continuity update, not spoken.** This season stays in the already-known southern orchard rather than inventing a new physical kingdom. The children create **Button Town**, a clearly imaginary place associated with the ordinary two-trunk tree. In episode 024000 they finish a separate pretend map, not a substitute for Tess's actual yellow map. No festival or cliffhanger is pending.
+**Continuity update, not spoken.** This season stays in the already-known southern orchard rather than inventing a new physical kingdom. The children create **Button Town**, a clearly imaginary place associated with the ordinary two-trunk tree. In episode 024000 they finish a separate pretend map, not a substitute for Amy's actual yellow map. No festival or cliffhanger is pending.
 
 ### Geography and new shared story state
 
-- **Real orchard route (corrected 019000):** From Village Green, take the established path south into the orchard, which **curves around the two-trunk tree** and passes a patch of daisies before continuing toward the **old stone mill** near the creek. The mill wheel remains behind its fence. Tess's original *straight* green pencil line was inaccurate; she draws a little curved alternative, marks the old straight line as superseded and adds the tree symbol. The corrected yellow map continues to show the real valley, including Far Meadow **west**, Reed Meadow **east**, and the single crossing at Pebble Bridge.
-- **Doorway Tree:** the **existing two-trunk tree** described in season one as giant trousers. Tess and Bo give it its new name in 019000. It is an ordinary tree, with no actual door, hidden land, or animated object.
+- **Real orchard route (corrected 019000):** From Village Green, take the established path south into the orchard, which **curves around the two-trunk tree** and passes a patch of daisies before continuing toward the **old stone mill** near the creek. The mill wheel remains behind its fence. Amy's original *straight* green pencil line was inaccurate; she draws a little curved alternative, marks the old straight line as superseded and adds the tree symbol. The corrected yellow map continues to show the real valley, including Far Meadow **west**, Reed Meadow **east**, and the single crossing at Pebble Bridge.
+- **Doorway Tree:** the **existing two-trunk tree** described in season one as giant trousers. Amy and Ben give it its new name in 019000. It is an ordinary tree, with no actual door, hidden land, or animated object.
 - **Button Town:** a persistent **pretend game** first named in 020000, not a second physical settlement. Imagined places: bakery for ants, blueberry-sized hat shop, street of twelve doors with no houses, **post office** with slipper-wheeled imaginary cart, **Lake Teacup** where a real rain puddle briefly appeared, and **the Little Quiet Place** on the adult-visible grass to the *south* side of the tree. There is a make-believe bell *away* from the quiet area, and a cloud-sock shop. Real papers and basket are taken home after play; no objects are left in the orchard.
-- **Lila:** visits the *orchard for the first time* with Aunt Mallow in 020000 and meets the Doorway Tree. Her straw hat **keeps its blue ribbon** and the picnic banner remains in the **window inside her cream-colored Far Meadow cottage**.
-- **Rill:** visits the *orchard for the first time* with Aunt Cress in 022000. Nori gives Rill her earlier drawing of three ripples and a pair of yellow boots; **Aunt Cress takes that card home with Rill**. Rill's yellow boots, one with the blue patch, remain his. The tiny puddle in the orchard may disappear as the ground dries: in 023000 it is mostly dry. The *imaginary Lake Teacup* stays on their pretend map.
-- **Nori:** still has **all three pebbles** (including the white-striped gray one) inside her violet pouch. She declines to use the striped pebble as a postmark in 021000, without conflict. Her Little Quiet Place is a fixed, adult-visible grassy patch near the tree, not a replacement for **Clover Nook** in Far Meadow or her Round Pond home.
-- **Paper props:** 020000: Tess draws a small square **ticket with a blue circle** and keeps it between the yellow map's folds. 021000: Bo, Tess, Nori draw three real cards (tilted orange lantern, blue-door cottage, ripples + yellow boots) and leave them in a **flat brown envelope at Blue Door Cottage**. 022000: the boot/ripple card is actually delivered to Rill; Tess separately draws Lake Teacup on a small paper. 023000: a *separate* rough Button Town sketch receives a green patch/pillow for the Little Quiet Place. 024000: all five friends produce a new **finished pretend map** on a larger separate sheet; Tess removes the ticket from her yellow map and adds it, the Lake Teacup drawing, the finished map and remaining cards to the brown envelope.
-- **Final storage after 024000:** Grandma Fern helps put the **brown Button Town envelope on the low Story House shelf**, beside but not on top of the already completed **blue Book of Little Sounds**. Both can be borrowed with permission. Bo's tilted, silver-spotted orange *electric* lantern remains by the Story House window; no flames. Tess's correctly revised **real yellow map goes home** beside her bed and has no Button Town fantasy roads added to it.
+- **Wendy:** visits the *orchard for the first time* with Aunt Kay in 020000 and meets the Doorway Tree. Her straw hat **keeps its blue ribbon** and the picnic banner remains in the **window inside her cream-colored Far Meadow cottage**.
+- **Todd:** visits the *orchard for the first time* with Aunt Pat in 022000. Kim gives Todd her earlier drawing of three ripples and a pair of yellow boots; **Aunt Pat takes that card home with Todd**. Todd's yellow boots, one with the blue patch, remain his. The tiny puddle in the orchard may disappear as the ground dries: in 023000 it is mostly dry. The *imaginary Lake Teacup* stays on their pretend map.
+- **Kim:** still has **all three pebbles** (including the white-striped gray one) inside her violet pouch. She declines to use the striped pebble as a postmark in 021000, without conflict. Her Little Quiet Place is a fixed, adult-visible grassy patch near the tree, not a replacement for **Clover Nook** in Far Meadow or her Round Pond home.
+- **Paper props:** 020000: Amy draws a small square **ticket with a blue circle** and keeps it between the yellow map's folds. 021000: Ben, Amy, Kim draw three real cards (tilted orange lantern, blue-door cottage, ripples + yellow boots) and leave them in a **flat brown envelope at Blue Door Cottage**. 022000: the boot/ripple card is actually delivered to Todd; Amy separately draws Lake Teacup on a small paper. 023000: a *separate* rough Button Town sketch receives a green patch/pillow for the Little Quiet Place. 024000: all five friends produce a new **finished pretend map** on a larger separate sheet; Amy removes the ticket from her yellow map and adds it, the Lake Teacup drawing, the finished map and remaining cards to the brown envelope.
+- **Final storage after 024000:** Grandma May helps put the **brown Button Town envelope on the low Story House shelf**, beside but not on top of the already completed **blue Book of Little Sounds**. Both can be borrowed with permission. Ben's tilted, silver-spotted orange *electric* lantern remains by the Story House window; no flames. Amy's correctly revised **real yellow map goes home** beside her bed and has no Button Town fantasy roads added to it.
 
 ### Season-four state ledger
 
 | Episode | Persisting change | Continuity to protect later |
 |---|---|---|
-| 019000 | Tess corrects orchard-route bend on physical yellow map and names the Doorway Tree | Ordinary tree and old mill unchanged; Bo only imagines a doorway; Button Town not yet invented |
-| 020000 | Lila first visits orchard; children invent Button Town and create blue-circle paper visitor ticket | Lila knows tree and game; ticket stays in Tess's map folds; Lila's blue ribbon remains on hat |
-| 021000 | Tiny imaginary post office; three picture cards placed in brown envelope at Tess's home | Basket returned home; Nori retains three pebbles; Rill has not received his card yet |
-| 022000 | Rill first visits orchard; receives boot/ripple drawing; rain puddle named Lake Teacup in pretend game | Rill takes card with Aunt Cress; separate lake sketch at cottage; real puddle temporary |
-| 023000 | Nori names Little Quiet Place on grass south of tree; pillow icon added to rough Button Town sketch | Children agree bell is away from that spot; dry ground where puddle had been; no exterior props left |
-| 024000 | Five friends draw completed separate imaginary map at Story House; brown envelope joins blue sound book on low shelf | **Season complete:** Yellow real map stays at Tess's home; imaginary map + props stored in brown envelope; sound book, lantern, banner, pouch and boots unchanged |
+| 019000 | Amy corrects orchard-route bend on physical yellow map and names the Doorway Tree | Ordinary tree and old mill unchanged; Ben only imagines a doorway; Button Town not yet invented |
+| 020000 | Wendy first visits orchard; children invent Button Town and create blue-circle paper visitor ticket | Wendy knows tree and game; ticket stays in Amy's map folds; Wendy's blue ribbon remains on hat |
+| 021000 | Tiny imaginary post office; three picture cards placed in brown envelope at Amy's home | Basket returned home; Kim retains three pebbles; Todd has not received his card yet |
+| 022000 | Todd first visits orchard; receives boot/ripple drawing; rain puddle named Lake Teacup in pretend game | Todd takes card with Aunt Pat; separate lake sketch at cottage; real puddle temporary |
+| 023000 | Kim names Little Quiet Place on grass south of tree; pillow icon added to rough Button Town sketch | Children agree bell is away from that spot; dry ground where puddle had been; no exterior props left |
+| 024000 | Five friends draw completed separate imaginary map at Story House; brown envelope joins blue sound book on low shelf | **Season complete:** Yellow real map stays at Amy's home; imaginary map + props stored in brown envelope; sound book, lantern, banner, pouch and boots unchanged |
 
 ### Next-season contract
 
@@ -185,21 +185,21 @@ Future stories may borrow the **brown envelope** from the Story House, follow th
 
 ### Where the garden is
 
-- On the **southern, sunny side of the existing Story House**, immediately behind it off the usual Village Green path, lies a **small stone-edged patch of bare earth**. A broad dry approach permits viewing without stepping on the plants. In 025000 Grandma Fern obtains permission from other Story House caretakers to make it a garden, keeping paths clear. No new creek crossing, house or distant territory is introduced.
-- A small old clay pot is found upside down nearby in 025000; it is not claimed to have magically sprouted anything. A fallen leaf is placed on the stone border by Bo. No significant real construction occurs.
-- Grandma Fern supervises soil preparation, seed spacing and gentle watering. The garden has **radishes in the front row and sunflowers in the back**, planted together during mild late-spring weather in 026000. The physical row labels show a red radish and a surprised-looking sunflower. A small sign reads **LITTLE GROWING GARDEN** and is placed on a path-side peg. Bo's gigantic first carrot sign **goes home with Bo** that same day and does not appear outside afterward.
-- After Nori's sequence of visits in 027000, **two flat stepping stones lie on the dry viewing path**, not in seeded soil. On Monday-Friday no sprouts are visible. A grown-up checks the unevenly damp soil after light rain; nobody digs seeds up to look.
-- **028000:** a few additional mornings after Nori's visits, three radish seedlings are visible as tiny green hooks. Sunflower row remains not visibly emerged. Rill visits with Aunt Cress, makes a drawing of the sprouts and his boot, and **takes the paper home**. This is Rill's first visit to the garden but not his first to the Story House. He and Lila already know each other.
-- **029000:** after more days, the initial radish leaves have opened and **one sunflower shoot** is visible in back. Lila visits with Aunt Mallow. Paper hats are made as a game and **go indoors**, never attached to the plant; Lila keeps the **blue ribbon on her straw hat**. A separate ribbon used to wrap the biscuit parcel is taken indoors. The outdoor garden sign remains bare.
-- **030000:** radishes have several leaves; **two sunflower shoots** are now visible. There is at least **one bare spot** where a seed has not visibly germinated. No flowers, harvest, or edible radish roots appear in this season. All five friends and established trusted adults are present. They draw a card of the garden *as it is now*, with jokes on the drawing. Grandma Fern places it in a new plain folder marked **LITTLE GROWING GARDEN**, on the **same low Story House shelf** as the blue Book of Little Sounds and brown Button Town envelope. Tess adds two little green marks inside the small garden square she added to her **real** yellow map in 025000. Friends return home with grown-ups; no pending public event.
+- On the **southern, sunny side of the existing Story House**, immediately behind it off the usual Village Green path, lies a **small stone-edged patch of bare earth**. A broad dry approach permits viewing without stepping on the plants. In 025000 Grandma May obtains permission from other Story House caretakers to make it a garden, keeping paths clear. No new creek crossing, house or distant territory is introduced.
+- A small old clay pot is found upside down nearby in 025000; it is not claimed to have magically sprouted anything. A fallen leaf is placed on the stone border by Ben. No significant real construction occurs.
+- Grandma May supervises soil preparation, seed spacing and gentle watering. The garden has **radishes in the front row and sunflowers in the back**, planted together during mild late-spring weather in 026000. The physical row labels show a red radish and a surprised-looking sunflower. A small sign reads **LITTLE GROWING GARDEN** and is placed on a path-side peg. Ben's gigantic first carrot sign **goes home with Ben** that same day and does not appear outside afterward.
+- After Kim's sequence of visits in 027000, **two flat stepping stones lie on the dry viewing path**, not in seeded soil. On Monday-Friday no sprouts are visible. A grown-up checks the unevenly damp soil after light rain; nobody digs seeds up to look.
+- **028000:** a few additional mornings after Kim's visits, three radish seedlings are visible as tiny green hooks. Sunflower row remains not visibly emerged. Todd visits with Aunt Pat, makes a drawing of the sprouts and his boot, and **takes the paper home**. This is Todd's first visit to the garden but not his first to the Story House. He and Wendy already know each other.
+- **029000:** after more days, the initial radish leaves have opened and **one sunflower shoot** is visible in back. Wendy visits with Aunt Kay. Paper hats are made as a game and **go indoors**, never attached to the plant; Wendy keeps the **blue ribbon on her straw hat**. A separate ribbon used to wrap the biscuit parcel is taken indoors. The outdoor garden sign remains bare.
+- **030000:** radishes have several leaves; **two sunflower shoots** are now visible. There is at least **one bare spot** where a seed has not visibly germinated. No flowers, harvest, or edible radish roots appear in this season. All five friends and established trusted adults are present. They draw a card of the garden *as it is now*, with jokes on the drawing. Grandma May places it in a new plain folder marked **LITTLE GROWING GARDEN**, on the **same low Story House shelf** as the blue Book of Little Sounds and brown Button Town envelope. Amy adds two little green marks inside the small garden square she added to her **real** yellow map in 025000. Friends return home with grown-ups; no pending public event.
 
 ### Existing continuity not changed
 
-- **Tess:** same yellow real-route map, including Bell Hill, west Far Meadow, east Reed Meadow, southern orchard's corrected bend and two-trunk Doorway Tree. It now has the Story House garden square and two small green marks at season end. The map returns to her bedside at Blue Door Cottage.
-- **Bo:** red scarf; his tilted **silver-spotted orange electric paper lantern** still hangs by the **Story House window**. The oversize carrot garden sign is a funny drawing stored at Bo's home, not an actual giant carrot. The blue six-page Book of Little Sounds is still on the low shelf.
-- **Nori:** violet pouch still holds exactly **three pebbles**, including the round gray one with a white stripe. Nori's two garden viewing stones are **ordinary additional flat stones**, not removed from her pouch.
-- **Lila:** straw hat with its existing **blue ribbon** remains hers; her cream cottage in Far Meadow still has the **orange, blue, violet picnic banner at an inside window**.
-- **Rill:** two yellow boots, one with blue patch; still lives near Reed Meadow with Aunt Cress. His paper sketch returns home with them.
+- **Amy:** same yellow real-route map, including Bell Hill, west Far Meadow, east Reed Meadow, southern orchard's corrected bend and two-trunk Doorway Tree. It now has the Story House garden square and two small green marks at season end. The map returns to her bedside at Blue Door Cottage.
+- **Ben:** red scarf; his tilted **silver-spotted orange electric paper lantern** still hangs by the **Story House window**. The oversize carrot garden sign is a funny drawing stored at Ben's home, not an actual giant carrot. The blue six-page Book of Little Sounds is still on the low shelf.
+- **Kim:** violet pouch still holds exactly **three pebbles**, including the round gray one with a white stripe. Kim's two garden viewing stones are **ordinary additional flat stones**, not removed from her pouch.
+- **Wendy:** straw hat with its existing **blue ribbon** remains hers; her cream cottage in Far Meadow still has the **orange, blue, violet picnic banner at an inside window**.
+- **Todd:** two yellow boots, one with blue patch; still lives near Reed Meadow with Aunt Pat. His paper sketch returns home with them.
 - **Button Town:** remains explicitly **imaginary**, with the separate pretend map and paper props in the brown envelope on the Story House shelf. The new real garden is not magically connected to Button Town.
 - No new permanent named characters join the cast. The occasional beetle is not identified as the same individual between episodes. Adults oversee the path, gardening tools, soil, water and food.
 
@@ -208,10 +208,10 @@ Future stories may borrow the **brown envelope** from the Story House, follow th
 | Episode | Persisting change | Continuity to protect |
 |---|---|---|
 | 025000 | Garden site approved behind Story House; small square added to real yellow map; no seeds | Do not place plants before sowing; caretakers gave permission, dry path clear |
-| 026000 | Radish/front and sunflower/back seeds planted; picture row labels, small garden sign; Bo's large sign goes home | No shoots visible yet; one real sign outdoors; water gently |
-| 027000 | Five daily visits, rain and soil observations; two stepping stones placed on dry approach | Still no shoots by Friday; Nori keeps all three pouch pebbles |
-| 028000 | Three radish shoots emerge; Rill first garden visit, draws a picture that goes home | Sunflower row still not visible; Rill's boots unchanged |
-| 029000 | First sunflower shoot visible; radish leaves opening; Lila plays with paper hats | Paper hats and spare parcel ribbon are indoors; no hats on plants |
+| 026000 | Radish/front and sunflower/back seeds planted; picture row labels, small garden sign; Ben's large sign goes home | No shoots visible yet; one real sign outdoors; water gently |
+| 027000 | Five daily visits, rain and soil observations; two stepping stones placed on dry approach | Still no shoots by Friday; Kim keeps all three pouch pebbles |
+| 028000 | Three radish shoots emerge; Todd first garden visit, draws a picture that goes home | Sunflower row still not visible; Todd's boots unchanged |
+| 029000 | First sunflower shoot visible; radish leaves opening; Wendy plays with paper hats | Paper hats and spare parcel ribbon are indoors; no hats on plants |
 | 030000 | Two sunflower shoots and more radish leaves; new garden picture folder at Story House; two green map marks | **Season complete:** patch is growing but not blooming, one bare spot remains, no crops harvested, friends go home |
 
 **Next-season contract:** The plants may continue growing, change, or fail with time and ordinary conditions; any such change must be shown if a new episode revisits them. Do not treat the garden as abandoned, already flowered or magically fully grown. No event depends on instant growth. Keep the other two shelf collections and the original geography intact.
@@ -222,25 +222,25 @@ Future stories may borrow the **brown envelope** from the Story House, follow th
 
 ### Permanent places and safety remain as established
 
-- **Blue Door Cottage** is still west of Village Green and east of Bell Hill. Tess and Grandma Fern use the bedroom window; Tess's accurate real yellow map still rests beside her bed, with two green garden marks and the orchard bend corrected. The Moon is *not* drawn as a physical location.
-- **Bo's home** is in Willow Bend, without a newly specified street, family relationship or interior architecture except his own bedpost. His red scarf stays his; adults accompany him on daytime visits.
-- **Nori's home neighborhood** is by Round Pond, east of the single Pebble Bridge. Her grown-up accompanies her along a **dry path** with an unobstructed view of the pond; neither pebble-throwing nor walking in the water occurs. Nori still has three pebbles, including the striped gray pebble, in the violet pouch.
-- **Lila and Aunt Mallow** remain in their cream cottage in Far Meadow, west beyond Bell Hill. Lila's blue-ribboned straw hat remains hers; the orange/blue/violet picnic banner stays inside the cottage window. The biscuit-making scene involves Aunt Mallow handling the oven and hot tray. No late-night walk across Bell Hill.
-- **Rill and Aunt Cress** remain beside Reed Meadow, farther east along the path beyond Round Pond. They observe from the dry grassy rise, away from the lower wet hollow, and return on the same path. Rill still has two yellow boots, one blue-patched. A nearby reed can occlude a distant Moon as the observer changes position; it is not magic.
-- **Story House** retains Bo's tilted silver-spotted orange electric lantern by its window. Its low shelf still holds exactly the three established projects: the blue six-page *Book of Little Sounds*, brown envelope with imaginary Button Town map, and plain LITTLE GROWING GARDEN folder. No fourth moon book is created or silently added. Bo's silly paper Moon circle and hats are personal paper pieces taken home.
+- **Blue Door Cottage** is still west of Village Green and east of Bell Hill. Amy and Grandma May use the bedroom window; Amy's accurate real yellow map still rests beside her bed, with two green garden marks and the orchard bend corrected. The Moon is *not* drawn as a physical location.
+- **Ben's home** is in Willow Bend, without a newly specified street, family relationship or interior architecture except his own bedpost. His red scarf stays his; adults accompany him on daytime visits.
+- **Kim's home neighborhood** is by Round Pond, east of the single Pebble Bridge. Her grown-up accompanies her along a **dry path** with an unobstructed view of the pond; neither pebble-throwing nor walking in the water occurs. Kim still has three pebbles, including the striped gray pebble, in the violet pouch.
+- **Wendy and Aunt Kay** remain in their cream cottage in Far Meadow, west beyond Bell Hill. Wendy's blue-ribboned straw hat remains hers; the orange/blue/violet picnic banner stays inside the cottage window. The biscuit-making scene involves Aunt Kay handling the oven and hot tray. No late-night walk across Bell Hill.
+- **Todd and Aunt Pat** remain beside Reed Meadow, farther east along the path beyond Round Pond. They observe from the dry grassy rise, away from the lower wet hollow, and return on the same path. Todd still has two yellow boots, one blue-patched. A nearby reed can occlude a distant Moon as the observer changes position; it is not magic.
+- **Story House** retains Ben's tilted silver-spotted orange electric lantern by its window. Its low shelf still holds exactly the three established projects: the blue six-page *Book of Little Sounds*, brown envelope with imaginary Button Town map, and plain LITTLE GROWING GARDEN folder. No fourth moon book is created or silently added. Ben's silly paper Moon circle and hats are personal paper pieces taken home.
 - **Real Story House garden:** a couple of weeks pass in the lunar sequence, so existing small radish and sunflower plants may have somewhat larger leaves. At 036000 they are still **not described as having bloomed or been harvested**, and the once-bare corner is not claimed to be newly planted or sprouted. Watering/care continues between visits without a garden subplot. No replacement of the map, row signs, stepping stones or garden card.
-- **Sky direction in season ending:** Full Moon is seen rising at evening twilight toward the **east** from Village Green, in the broad direction of Pebble Bridge. No night route or second creek crossing is invented. After looking, adult-accompanied friends return by the already-known routes: Lila west, Rill east over the bridge to Reed Meadow, Nori east over bridge to Round Pond, Tess west to Blue Door Cottage, and Bo home in the village.
+- **Sky direction in season ending:** Full Moon is seen rising at evening twilight toward the **east** from Village Green, in the broad direction of Pebble Bridge. No night route or second creek crossing is invented. After looking, adult-accompanied friends return by the already-known routes: Wendy west, Todd east over the bridge to Reed Meadow, Kim east over bridge to Round Pond, Amy west to Blue Door Cottage, and Ben home in the village.
 
 ### Season-six state ledger
 
 | Episode | Phase/story action | Persistent state after ending |
 |---|---|---|
-| 031000 | Tess sees a narrow waxing crescent from her bedroom after a garden check | Tess has begun an evening observation, tells herself Moon is still round; yellow map by her bed, no new map mark; Bo knows to look too |
-| 032000 | Several evenings later Bo makes silly paper hats; the crescent looks broader | Paper circle and all hats return to Bo's home, tiny hat by bedpost; Story House shelf/lantern untouched |
-| 033000 | Later Nori sees first-quarter-looking Moon in rippled reflection at Round Pond | Nori and grown-up return home; pouch and exactly three pebbles unchanged; no pebble tossed in water |
-| 034000 | Waxing gibbous Moon above Far Meadow; Lila and Aunt Mallow bake crooked Moon biscuits | Some food remains at cream cottage; ribbon stays on hat, banner in inside window; no nighttime travel |
-| 035000 | Near-full Moon alternately hidden and visible by nearby reeds as Rill shifts position | Rill and Aunt Cress go home; two boots unchanged, no new picture or artifact; no wet-hollow detour |
-| 036000 | Full Moon rises in east around sunset; established friends share different memories at Story House | Season complete, five friends return with adults. All persistent objects and previous season projects remain in their established locations; Bo's paper circle goes home. No new event pending |
+| 031000 | Amy sees a narrow waxing crescent from her bedroom after a garden check | Amy has begun an evening observation, tells herself Moon is still round; yellow map by her bed, no new map mark; Ben knows to look too |
+| 032000 | Several evenings later Ben makes silly paper hats; the crescent looks broader | Paper circle and all hats return to Ben's home, tiny hat by bedpost; Story House shelf/lantern untouched |
+| 033000 | Later Kim sees first-quarter-looking Moon in rippled reflection at Round Pond | Kim and grown-up return home; pouch and exactly three pebbles unchanged; no pebble tossed in water |
+| 034000 | Waxing gibbous Moon above Far Meadow; Wendy and Aunt Kay bake crooked Moon biscuits | Some food remains at cream cottage; ribbon stays on hat, banner in inside window; no nighttime travel |
+| 035000 | Near-full Moon alternately hidden and visible by nearby reeds as Todd shifts position | Todd and Aunt Pat go home; two boots unchanged, no new picture or artifact; no wet-hollow detour |
+| 036000 | Full Moon rises in east around sunset; established friends share different memories at Story House | Season complete, five friends return with adults. All persistent objects and previous season projects remain in their established locations; Ben's paper circle goes home. No new event pending |
 
 **Next-season contract:** The Moon will not remain perpetually full in future weeks. No permanent new moons, magical astronomy, or extra Story House projects were introduced. Future episodes may revisit the real garden after ordinary further growth, introduce a different narrative arc, or explore one friend's home. The sky sequence is complete and no cliffhanger or objective remains outstanding.
 
@@ -251,28 +251,28 @@ Future stories may borrow the **brown envelope** from the Story House, follow th
 ### Permanent new place and people
 
 - **Round Window Cottage** is a small **stone cottage** on the **southern orchard path**, between the existing two-trunk **Doorway Tree** and the **fenced old mill** farther down toward the creek. This is **not** a dwelling inside the mill, and its wheel is not touched or operated. From Village Green, reach the orchard southward, then follow the already-established bend around the Doorway Tree; there is no new creek crossing. The round window faces the orchard, and the cottage has an ordinary stone doorstep.
-- **Mira**, a young **mouse**, moves there at the start of 037000 with her caregiver **Grandpa Rowan**, an older mouse. She enjoys naming everyday objects in imaginative ways (a window like a biscuit, a puddle like an ocean) and making up games. She sometimes remembers the square window and warm doorstep at her previous home; that is allowed to coexist with her pleasure in the new house. Her past home is not given an invented precise location, and no abandonment or parent-loss story is introduced.
-- **Grandpa Rowan** accompanies Mira on trips until she knows the valley; he unpacks household items and provides a dependable bedtime/home routine. The friends' existing grown-ups continue to accompany them over the creek, over Bell Hill and during visits. No one travels near the mill wheel or into the creek alone.
-- The cottage has a **small blue handcart**, used to bring their things in, and Mira's **green cushion with one yellow star**, hers to keep or use. The cushion can move from bedside to window and rug but remains with Mira. Grandpa keeps the handcart at the cottage after unloading. One ordinary spoon was humorously packed in a box marked ONE SPOON; it eventually goes back to the kitchen drawer.
-- In 038000 Bo and Mira make a **small cardboard castle bakery** with an orange/brown packing-paper roof, crayon windows and a carrot flag. It remains **inside Round Window Cottage beside the round window**, not at Story House. No real oven or baking equipment is involved. The make-believe mountain's biscuits are imaginary; the spoon is returned to the kitchen.
-- Tess's **real yellow map** gains the new cottage only in 042000, at Mira's request: a little stone-colored roof and a **round window with a tiny yellow star inside**. The star stands for Mira's cushion, not a real star painted on the outer wall. Tess keeps the map and takes it home as before. The one real map is distinct from the imaginary Button Town map in its brown envelope.
+- **Sue**, a young **mouse**, moves there at the start of 037000 with her caregiver **Grandpa Ed**, an older mouse. She enjoys naming everyday objects in imaginative ways (a window like a biscuit, a puddle like an ocean) and making up games. She sometimes remembers the square window and warm doorstep at her previous home; that is allowed to coexist with her pleasure in the new house. Her past home is not given an invented precise location, and no abandonment or parent-loss story is introduced.
+- **Grandpa Ed** accompanies Sue on trips until she knows the valley; he unpacks household items and provides a dependable bedtime/home routine. The friends' existing grown-ups continue to accompany them over the creek, over Bell Hill and during visits. No one travels near the mill wheel or into the creek alone.
+- The cottage has a **small blue handcart**, used to bring their things in, and Sue's **green cushion with one yellow star**, hers to keep or use. The cushion can move from bedside to window and rug but remains with Sue. Grandpa keeps the handcart at the cottage after unloading. One ordinary spoon was humorously packed in a box marked ONE SPOON; it eventually goes back to the kitchen drawer.
+- In 038000 Ben and Sue make a **small cardboard castle bakery** with an orange/brown packing-paper roof, crayon windows and a carrot flag. It remains **inside Round Window Cottage beside the round window**, not at Story House. No real oven or baking equipment is involved. The make-believe mountain's biscuits are imaginary; the spoon is returned to the kitchen.
+- Amy's **real yellow map** gains the new cottage only in 042000, at Sue's request: a little stone-colored roof and a **round window with a tiny yellow star inside**. The star stands for Sue's cushion, not a real star painted on the outer wall. Amy keeps the map and takes it home as before. The one real map is distinct from the imaginary Button Town map in its brown envelope.
 
 ### Existing state that season seven does **not** alter
 
-- Tess remains at Blue Door Cottage west of Village Green with Grandma Fern. Bo has his red scarf; his tilted silver-spotted orange electric lantern remains at the Story House window. Nori's violet pouch retains exactly **three** pebbles, including the round gray striped one. Lila lives with Aunt Mallow in Far Meadow west beyond Bell Hill and keeps her straw hat's **blue ribbon**; the orange/blue/violet picnic banner is still inside her cream-cottage window. Rill lives with Aunt Cress east beyond Round Pond in Reed Meadow, with two **yellow boots**, one **blue-patched**.
+- Amy remains at Blue Door Cottage west of Village Green with Grandma May. Ben has his red scarf; his tilted silver-spotted orange electric lantern remains at the Story House window. Kim's violet pouch retains exactly **three** pebbles, including the round gray striped one. Wendy lives with Aunt Kay in Far Meadow west beyond Bell Hill and keeps her straw hat's **blue ribbon**; the orange/blue/violet picnic banner is still inside her cream-cottage window. Todd lives with Aunt Pat east beyond Round Pond in Reed Meadow, with two **yellow boots**, one **blue-patched**.
 - **Story House low shelf** still has only the **blue six-page Book of Little Sounds**, **brown Button Town envelope**, and **LITTLE GROWING GARDEN folder**. Season seven creates no fourth permanent shelf project. The real garden remains a small patch with more leaves and **no suddenly mature sunflower heads or guaranteed harvest**. Its stones, labels and map symbols stay where recorded.
-- **Cross-valley paths:** Mira's trip to Round Pond is via orchard → Village Green → the **single Pebble Bridge** → Round Pond, and back the same way with Grandpa Rowan. Rill and Aunt Cress continue east toward Reed Meadow. Mira's Far Meadow visit with Grandpa goes via Village Green → Blue Door Cottage → Bell Hill resting bench → Far Meadow, and returns before dark. There is no crossing beneath Far Meadow.
+- **Cross-valley paths:** Sue's trip to Round Pond is via orchard → Village Green → the **single Pebble Bridge** → Round Pond, and back the same way with Grandpa Ed. Todd and Aunt Pat continue east toward Reed Meadow. Sue's Far Meadow visit with Grandpa goes via Village Green → Blue Door Cottage → Bell Hill resting bench → Far Meadow, and returns before dark. There is no crossing beneath Far Meadow.
 - The **Almost Ocean** of 040000 is a temporary rain puddle **beside** the firm dry path near Round Pond, only a pretend name. It is **not** a second pond, a permanent map feature, or a route across the creek. The **dandelion audience** of 041000 stays rooted near Sitting Stone and the fallen-leaf hat show is temporary. These jokes can be remembered, not treated as infrastructure.
 
 ### Season-seven state ledger
 
 | Episode | Local conclusion | Permanent state after episode |
 |---|---|---|
-| 037000 | Blue cart is unloaded; Mira and Tess meet; Mira rests with her cushion at home | Mira and Grandpa Rowan occupy Round Window Cottage. Tess makes only a pencil locator on real map; cushion and important spoon at cottage |
-| 038000 | Bo and Mira complete the castle bakery and its imaginary mountain customer | Mira and Bo are friends; cardboard castle bakery remains indoors by round window; Mira keeps ownership of cushion, spoon back on table |
-| 039000 | Nori and Mira play with pretend mountains, then share an unhurried humming tune | Nori/Mira acquainted; all 3 pebbles return to violet pouch; cushion and castle stay at cottage; soft song ending can recur |
-| 040000 | Rill and Mira name a short-lived puddle the Almost Ocean and visit real Round Pond | Rill/Mira acquainted; Mira learns the existing route across the single bridge; puddle not mapped; boots unchanged |
-| 041000 | Lila and Mira conduct a tiny leaf-hat show for one dandelion at Sitting Stone | Lila/Mira acquainted; Mira knows Bell Hill and Far Meadow; her mixed feelings about the old/new windows remain legitimate; no props left behind |
-| 042000 | Mira chooses the new symbol for her cottage on Tess's yellow map; all return to their own homes | All six children now know Mira; real map shows Round Window Cottage with star inside round window; the original shelf collections, lantern, growing garden, pouch, ribbon and boots are preserved; the moving arc is resolved without a party or cliffhanger |
+| 037000 | Blue cart is unloaded; Sue and Amy meet; Sue rests with her cushion at home | Sue and Grandpa Ed occupy Round Window Cottage. Amy makes only a pencil locator on real map; cushion and important spoon at cottage |
+| 038000 | Ben and Sue complete the castle bakery and its imaginary mountain customer | Sue and Ben are friends; cardboard castle bakery remains indoors by round window; Sue keeps ownership of cushion, spoon back on table |
+| 039000 | Kim and Sue play with pretend mountains, then share an unhurried humming tune | Kim/Sue acquainted; all 3 pebbles return to violet pouch; cushion and castle stay at cottage; soft song ending can recur |
+| 040000 | Todd and Sue name a short-lived puddle the Almost Ocean and visit real Round Pond | Todd/Sue acquainted; Sue learns the existing route across the single bridge; puddle not mapped; boots unchanged |
+| 041000 | Wendy and Sue conduct a tiny leaf-hat show for one dandelion at Sitting Stone | Wendy/Sue acquainted; Sue knows Bell Hill and Far Meadow; her mixed feelings about the old/new windows remain legitimate; no props left behind |
+| 042000 | Sue chooses the new symbol for her cottage on Amy's yellow map; all return to their own homes | All six children now know Sue; real map shows Round Window Cottage with star inside round window; the original shelf collections, lantern, growing garden, pouch, ribbon and boots are preserved; the moving arc is resolved without a party or cliffhanger |
 
-**Next-season contract:** Mira is a recurring friend who may participate in later outings; keep her caregiver, home position, round window and green yellow-star cushion stable. Do not confuse Mira's house symbol with the imaginary Button Town map. Children's different preferences and ordinary moments of missing a previous place are allowed to persist. Future stories need not make her the focus, or keep her worrying about the move. No fixed story length, single-voice narration, and non-spoken parent citations remain required.
+**Next-season contract:** Sue is a recurring friend who may participate in later outings; keep her caregiver, home position, round window and green yellow-star cushion stable. Do not confuse Sue's house symbol with the imaginary Button Town map. Children's different preferences and ordinary moments of missing a previous place are allowed to persist. Future stories need not make her the focus, or keep her worrying about the move. No fixed story length, single-voice narration, and non-spoken parent citations remain required.

@@ -1,22 +1,22 @@
-# 038000 — Hazel's Painting for the Wind
+# 038000 — Kate's Painting for the Wind
 
-**Collection:** Children's Bedtime Stories. **Age range:** Ages 3–4 (primarily age three). **Form:** Original, single-narrator creative-play story. **Story shape:** Hazel tries to make a present for something she can feel but cannot see directly.
+**Collection:** Children's Bedtime Stories. **Age range:** Ages 3–4 (primarily age three). **Form:** Original, single-narrator creative-play story. **Story shape:** Kate tries to make a present for something she can feel but cannot see directly.
 
 <!-- BEGIN SPOKEN LECTURE -->
 
-# Hazel's Painting for the Wind
+# Kate's Painting for the Wind
 
-Hazel the hedgehog liked to make pictures.
+Kate the hedgehog liked to make pictures.
 
 She had drawn a round apple and a long carrot.
 
 She had drawn a beetle wearing boots.
 
-She had even drawn a picture of Pip the mouse looking at a picture of Pip the mouse.
+She had even drawn a picture of Sam the mouse looking at a picture of Sam the mouse.
 
-Pip said that one made his head feel funny.
+Sam said that one made his head feel funny.
 
-One afternoon, Hazel decided to make a picture for the wind.
+One afternoon, Kate decided to make a picture for the wind.
 
 The wind had been visiting her garden all day.
 
@@ -26,7 +26,7 @@ It moved the tall grass beside the path.
 
 And once it had carried her painting paper all the way under a cabbage leaf.
 
-Hazel thought the wind deserved a present.
+Kate thought the wind deserved a present.
 
 But she had a question.
 
@@ -46,7 +46,7 @@ She could see a little ribbon fluttering from the gate.
 
 She could not see the wind there either.
 
-Hazel sat on her stool and tried to draw what she imagined.
+Kate sat on her stool and tried to draw what she imagined.
 
 She drew a round blue swirl.
 
@@ -60,17 +60,17 @@ She held the paper up.
 
 A breeze rustled the corner of the paper.
 
-Hazel smiled.
+Kate smiled.
 
-But then the paper fell flat, and Hazel wondered whether the wind had really seen it.
+But then the paper fell flat, and Kate wondered whether the wind had really seen it.
 
-Pip came along with a basket of fallen leaves.
+Sam came along with a basket of fallen leaves.
 
 “What are you making?” he asked.
 
 “A painting for the wind.”
 
-Pip looked at the blue swirl.
+Sam looked at the blue swirl.
 
 He looked at the yellow swirl.
 
@@ -78,11 +78,11 @@ He looked at the green swirl.
 
 “It's very swirly,” he said.
 
-“Thank you,” said Hazel.
+“Thank you,” said Kate.
 
-Pip had an idea.
+Sam had an idea.
 
-He took a long blue ribbon from his basket. Hazel found a yellow one in her craft box. They tied the ribbons to a sturdy stick by the garden fence, with help from Aunt Juniper.
+He took a long blue ribbon from his basket. Kate found a yellow one in her craft box. They tied the ribbons to a sturdy stick by the garden fence, with help from Aunt Sue.
 
 The blue ribbon lifted and curled.
 
@@ -90,9 +90,9 @@ The yellow ribbon stretched out beside it.
 
 Then both ribbons drooped for a moment.
 
-“Now the wind is helping,” said Pip.
+“Now the wind is helping,” said Sam.
 
-Hazel thought that was a splendid idea.
+Kate thought that was a splendid idea.
 
 She added a soft green ribbon.
 
@@ -104,23 +104,23 @@ Then only the blue one moved.
 
 Then the yellow one waved at the cabbage patch.
 
-The green one got caught around the stick, and Aunt Juniper gently untwisted it.
+The green one got caught around the stick, and Aunt Sue gently untwisted it.
 
-Hazel laughed.
+Kate laughed.
 
 “This picture keeps changing.”
 
-Pip stood beside her.
+Sam stood beside her.
 
 The grass bent toward the path.
 
 The apple leaves turned their pale undersides to the sky.
 
-A dry brown leaf skittered across the ground and stopped by Hazel's stool.
+A dry brown leaf skittered across the ground and stopped by Kate's stool.
 
 She could not see the moving air, but she could see many things it moved.
 
-Hazel set her painted paper on a little stand beneath the fence, where it would not blow away.
+Kate set her painted paper on a little stand beneath the fence, where it would not blow away.
 
 The swirls stayed still on the page.
 
@@ -136,15 +136,15 @@ The yellow ribbon hung in a loose curve.
 
 The blue ribbon rested against the stick.
 
-Aunt Juniper gathered the craft supplies, and Pip carried his basket home.
+Aunt Sue gathered the craft supplies, and Sam carried his basket home.
 
-Hazel looked at her picture one last time.
+Kate looked at her picture one last time.
 
 The swirls were still there, bright and blue and yellow and green.
 
 Above them, the ribbons were quiet now.
 
-Hazel tucked her little painting inside, where it could wait for another breezy day.
+Kate tucked her little painting inside, where it could wait for another breezy day.
 
 Outside, the leaves settled on their branches.
 
@@ -154,10 +154,10 @@ And the garden rested without needing to move at all.
 
 ## For parents and caregivers — not spoken
 
-**Why this one exists:** This is mostly creative play, with one simple physical observation: wind is moving air, and we can notice its effects when leaves and ribbons move. Hazel doesn't discover a definitive picture of wind; she makes a playful representation. The story has no assigned moral.
+**Why this one exists:** This is mostly creative play, with one simple physical observation: wind is moving air, and we can notice its effects when leaves and ribbons move. Kate doesn't discover a definitive picture of wind; she makes a playful representation. The story has no assigned moral.
 
-**Optional prompt:** “What did Hazel see moving when the wind came?” A caregiver might notice leaves or curtains together on another day, without turning bedtime into a science test.
+**Optional prompt:** “What did Kate see moving when the wind came?” A caregiver might notice leaves or curtains together on another day, without turning bedtime into a science test.
 
-**Sources and limits:** [National Weather Service, *Estimating Wind Speeds with Visual Clues*](https://www.weather.gov/pqr/wind) describes using moving leaves, branches, and flags to observe wind effects. [NAEYC, *Playdough Power*](https://www.naeyc.org/our-work/families/playdough-power) describes children using creative materials for symbolic and imaginative representation. These sources do not establish that Hazel's ribbon painting develops scientific reasoning or creativity in a listener, and the playful dialogue is entirely invented.
+**Sources and limits:** [National Weather Service, *Estimating Wind Speeds with Visual Clues*](https://www.weather.gov/pqr/wind) describes using moving leaves, branches, and flags to observe wind effects. [NAEYC, *Playdough Power*](https://www.naeyc.org/our-work/families/playdough-power) describes children using creative materials for symbolic and imaginative representation. These sources do not establish that Kate's ribbon painting develops scientific reasoning or creativity in a listener, and the playful dialogue is entirely invented.
 
-**Single-voice note:** The onomatopoeic movement is carried by ordinary verbs; there is no need for a howling wind effect or a distinct Pip voice.
+**Single-voice note:** The onomatopoeic movement is carried by ordinary verbs; there is no need for a howling wind effect or a distinct Sam voice.

@@ -1,18 +1,18 @@
-# 008000 - Bo's Very Big Pocket
+# 008000 - Ben's Very Big Pocket
 
 **Collection:** Children's Bedtime Stories — Episodic (Ages 3–4). **Series:** Willow Bend and the Little Lights. **Season:** Two. **Episode:** 2 of six. **Form:** Original, single-narrator story. **Continuity:** Season two explores Far Meadow beyond Bell Hill; all places and relationships persist.
 
 <!-- BEGIN SPOKEN LECTURE -->
 
-# Bo's Very Big Pocket
+# Ben's Very Big Pocket
 
-Bo the bear cub had a pocket in his little brown coat.
+Ben the bear cub had a pocket in his little brown coat.
 
 It was an ordinary pocket.
 
 At least, it had been ordinary when the coat was new.
 
-That morning, Bo wanted to visit his new friend Lila in Far Meadow. He decided to take a few interesting things to show her.
+That morning, Ben wanted to visit his new friend Wendy in Far Meadow. He decided to take a few interesting things to show her.
 
 He put a folded napkin in his pocket.
 
@@ -24,7 +24,7 @@ He found a paper crown from last week's pretend feast. That went in too.
 
 The pocket began to look rather round.
 
-Bo looked at it.
+Ben looked at it.
 
 "Still room," he said.
 
@@ -32,21 +32,21 @@ He added a drawing of a very large turnip.
 
 Now the pocket looked like a small pillow stuck to his coat.
 
-Bo tried to pat it flat.
+Ben tried to pat it flat.
 
 Pat. Pat.
 
 The wooden spoon popped up and tapped him on the chin.
 
-"Good morning to you too," said Bo.
+"Good morning to you too," said Ben.
 
-He pulled the spoon down again, wrapped his red scarf around his neck, and went to meet Tess, Nori, and Grandma Fern.
+He pulled the spoon down again, wrapped his red scarf around his neck, and went to meet Amy, Kim, and Grandma May.
 
-Tess was carrying her folded yellow map. Nori carried her familiar violet pouch.
+Amy was carrying her folded yellow map. Kim carried her familiar violet pouch.
 
-"What have you got in there?" Tess asked, pointing to Bo's coat.
+"What have you got in there?" Amy asked, pointing to Ben's coat.
 
-"A few things," Bo said.
+"A few things," Ben said.
 
 The spoon poked up again.
 
@@ -54,17 +54,17 @@ The spoon poked up again.
 
 They crossed the Village Green, walked past the blue-door cottage, and climbed Bell Hill.
 
-They rested at the familiar bench. Bo sat down carefully, because the pocket had become so round that it didn't want to bend with him.
+They rested at the familiar bench. Ben sat down carefully, because the pocket had become so round that it didn't want to bend with him.
 
-"Your coat looks as if it ate breakfast," Nori observed.
+"Your coat looks as if it ate breakfast," Kim observed.
 
-"It has excellent taste," said Bo.
+"It has excellent taste," said Ben.
 
 Beyond the hill, the grasses of Far Meadow were waving in the breeze.
 
-Lila waited near the Windbreak Tree. Her straw hat had its blue ribbon, and Aunt Mallow was nearby.
+Wendy waited near the Windbreak Tree. Her straw hat had its blue ribbon, and Aunt Kay was nearby.
 
-"I brought some things to show you," Bo told her.
+"I brought some things to show you," Ben told her.
 
 He tried to reach into his pocket.
 
@@ -80,7 +80,7 @@ The paper crown rustled.
 
 "I think," he said at last, "my pocket has decided to keep everything."
 
-Lila laughed. Tess held the coat steady while Bo gently pulled out the spoon.
+Wendy laughed. Amy held the coat steady while Ben gently pulled out the spoon.
 
 Then came the napkin.
 
@@ -90,43 +90,43 @@ Then the paper crown.
 
 Then the drawing of a turnip.
 
-Bo lined them up on the broad Sitting Stone.
+Ben lined them up on the broad Sitting Stone.
 
 "Welcome," he said, "to the Museum of Things That Fit in One Pocket."
 
-"Did they all fit?" Nori asked.
+"Did they all fit?" Kim asked.
 
-"For a while," Bo said.
+"For a while," Ben said.
 
-Lila examined the fish-shaped leaf.
+Wendy examined the fish-shaped leaf.
 
 "This one looks like a fish," she said.
 
-"It is a leaf pretending to be a fish," Bo explained.
+"It is a leaf pretending to be a fish," Ben explained.
 
-Tess picked up the folded napkin and made it into a little mountain.
+Amy picked up the folded napkin and made it into a little mountain.
 
-Lila placed the paper crown on top.
+Wendy placed the paper crown on top.
 
 "Now the mountain is a king," she said.
 
-Nori held up the wooden spoon.
+Kim held up the wooden spoon.
 
 Its round bowl caught a small patch of sunlight.
 
 "And this," she said, "is the moon."
 
-"A daytime moon," Bo agreed.
+"A daytime moon," Ben agreed.
 
 They made up a story about a fish-leaf that sailed around a crowned mountain under the watch of a wooden-spoon moon.
 
 The turnip drawing became an island.
 
-"Why is it a turnip island?" Lila asked.
+"Why is it a turnip island?" Wendy asked.
 
-"Because nobody has ever seen one before," said Bo.
+"Because nobody has ever seen one before," said Ben.
 
-"Nobody has ever seen a spoon moon either," Tess pointed out.
+"Nobody has ever seen a spoon moon either," Amy pointed out.
 
 "Then our museum is very important."
 
@@ -136,35 +136,35 @@ For a moment, the king mountain wore a white blanket.
 
 Everyone giggled.
 
-When it was time for the visitors to go, Bo folded his treasures into the napkin and put the bundle in his little bag instead of his pocket.
+When it was time for the visitors to go, Ben folded his treasures into the napkin and put the bundle in his little bag instead of his pocket.
 
 "A better museum building," he decided.
 
-Tess marked the Sitting Stone on her yellow map with a small brown oval.
+Amy marked the Sitting Stone on her yellow map with a small brown oval.
 
 Beside it, she drew a tiny spoon.
 
 "So we remember where the museum was," she said.
 
-Lila put her hat on, holding the brim so the blue ribbon wouldn't take flight.
+Wendy put her hat on, holding the brim so the blue ribbon wouldn't take flight.
 
-"Next time," she told Bo, "you could bring just one thing."
+"Next time," she told Ben, "you could bring just one thing."
 
-Bo considered that.
+Ben considered that.
 
 "One very interesting thing," he agreed.
 
-They walked back over Bell Hill with Grandma Fern.
+They walked back over Bell Hill with Grandma May.
 
-Bo's pocket was flat again.
+Ben's pocket was flat again.
 
 It swung quietly as he walked.
 
-That evening, Bo hung his coat by the door.
+That evening, Ben hung his coat by the door.
 
 The empty pocket rested against the cloth like a little sleeping bag.
 
-"Goodnight, museum," Bo whispered.
+"Goodnight, museum," Ben whispered.
 
 There was no answer.
 
@@ -174,7 +174,7 @@ Even the spoon had gone to bed.
 
 ## For parents and caregivers - not spoken
 
-**What carries forward:** Sitting Stone hosts the first imaginary Pocket Museum; Tess adds a tiny spoon symbol beside it; Bo takes all his items home in a bag.
+**What carries forward:** Sitting Stone hosts the first imaginary Pocket Museum; Amy adds a tiny spoon symbol beside it; Ben takes all his items home in a bag.
 
 **Why this episode exists:** A mostly comic episode. The accumulating objects invite imagination without claiming that the fiction teaches a measured cognitive skill. The museum is a reusable shared joke. No developmental or sleep improvement from listening is asserted.
 

@@ -1,20 +1,20 @@
-# 013000 — Pip's Pillow Orchestra
+# 013000 — Sam's Pillow Orchestra
 
 **Collection:** Children's Bedtime Stories. **Age range:** Ages 3–4 (primarily age three). **Form:** Original, single-narrator fiction. **Story shape:** A concert of small, ordinary sounds becomes wonderfully quiet.
 
 <!-- BEGIN SPOKEN LECTURE -->
 
-# Pip's Pillow Orchestra
+# Sam's Pillow Orchestra
 
-Pip the mouse had a little blue pillow.
+Sam the mouse had a little blue pillow.
 
 It was soft and square, with one crooked corner.
 
-One evening, Pip dropped the pillow onto the rug.
+One evening, Sam dropped the pillow onto the rug.
 
 It made a very gentle thump.
 
-Pip picked it up and dropped it again.
+Sam picked it up and dropped it again.
 
 Another gentle thump.
 
@@ -24,21 +24,21 @@ It was the sort of sound that didn't wake anyone or shake anything.
 
 It was a very polite thump.
 
-Pip wondered whether it could be music.
+Sam wondered whether it could be music.
 
-He took the pillow into the sitting room, where Moss the rabbit was folding a blanket.
+He took the pillow into the sitting room, where Danny the rabbit was folding a blanket.
 
-Pip put his pillow down.
-
-Thump.
-
-Moss looked up.
-
-Pip put it down again.
+Sam put his pillow down.
 
 Thump.
 
-Moss smiled and patted the folded blanket with both paws.
+Danny looked up.
+
+Sam put it down again.
+
+Thump.
+
+Danny smiled and patted the folded blanket with both paws.
 
 The blanket made a quieter sound.
 
@@ -48,9 +48,9 @@ It was more like a soft puff of air.
 
 Now there were two sounds.
 
-Pip made the thump.
+Sam made the thump.
 
-Moss made the puff.
+Danny made the puff.
 
 They tried them one after the other.
 
@@ -58,15 +58,15 @@ Thump, then puff.
 
 Thump, then puff.
 
-Hazel the hedgehog came in carrying a little basket of clean leaves.
+Kate the hedgehog came in carrying a little basket of clean leaves.
 
 She heard the two sounds and wondered what was happening.
 
-Pip showed her the pillow.
+Sam showed her the pillow.
 
-Moss showed her the blanket.
+Danny showed her the blanket.
 
-Hazel looked into her basket and took out one large, dry leaf.
+Kate looked into her basket and took out one large, dry leaf.
 
 She rubbed it gently between her paws.
 
@@ -80,11 +80,11 @@ A puff.
 
 A rustle.
 
-Pip put his pillow down.
+Sam put his pillow down.
 
-Moss patted his blanket.
+Danny patted his blanket.
 
-Hazel rubbed the leaf.
+Kate rubbed the leaf.
 
 The three friends listened to their new little orchestra.
 
@@ -94,19 +94,19 @@ It wasn't quite a tune.
 
 But it was theirs.
 
-Then Tavi the bird arrived at the window and tapped her beak very lightly on the wooden frame.
+Then Beth the bird arrived at the window and tapped her beak very lightly on the wooden frame.
 
 Tap. Tap.
 
-Pip stared at the window.
+Sam stared at the window.
 
-Moss stared at the window.
+Danny stared at the window.
 
-Hazel stared at the window.
+Kate stared at the window.
 
 They had an orchestra with a special guest.
 
-Tavi came inside, settled on a low stool, and tapped once more.
+Beth came inside, settled on a low stool, and tapped once more.
 
 They tried a concert.
 
@@ -116,15 +116,15 @@ Then the blanket.
 
 Then the leaf.
 
-Then Tavi's tiny tap.
+Then Beth's tiny tap.
 
-Pip liked his part so much that he played it twice.
+Sam liked his part so much that he played it twice.
 
-Moss forgot when to make his puff and made it in the middle of Hazel's rustle.
+Danny forgot when to make his puff and made it in the middle of Kate's rustle.
 
-Hazel laughed and dropped the leaf.
+Kate laughed and dropped the leaf.
 
-Tavi tapped the wrong part of the stool.
+Beth tapped the wrong part of the stool.
 
 Nobody minded.
 
@@ -134,13 +134,13 @@ They were making a song out of a pillow, a blanket, a leaf, and a bird.
 
 After a while, the sounds grew smaller.
 
-Pip placed his pillow on the rug instead of dropping it.
+Sam placed his pillow on the rug instead of dropping it.
 
-Moss smoothed the blanket with one long stroke.
+Danny smoothed the blanket with one long stroke.
 
-Hazel set her leaf in the basket.
+Kate set her leaf in the basket.
 
-Tavi folded her wings.
+Beth folded her wings.
 
 Now the room was almost quiet.
 
@@ -156,21 +156,21 @@ The friends listened.
 
 The room, it seemed, had an orchestra of its own.
 
-Pip carried his blue pillow home.
+Sam carried his blue pillow home.
 
-Moss hung up the blanket.
+Danny hung up the blanket.
 
-Hazel set her basket beside the door.
+Kate set her basket beside the door.
 
-And Tavi went to the branch where she slept.
+And Beth went to the branch where she slept.
 
-Later, Pip put his pillow beneath his cheek.
+Later, Sam put his pillow beneath his cheek.
 
 It didn't make a thump anymore.
 
 It held his head very softly.
 
-And as the little room grew still, Pip thought the quiet might be his favorite part of the whole concert.
+And as the little room grew still, Sam thought the quiet might be his favorite part of the whole concert.
 
 <!-- END SPOKEN LECTURE -->
 

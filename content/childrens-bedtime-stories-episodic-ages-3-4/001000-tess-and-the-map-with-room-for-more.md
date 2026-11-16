@@ -1,26 +1,26 @@
-# 001000 — Tess and the Map with Room for More
+# 001000 — Amy and the Map with Room for More
 
-**Collection:** Children's Bedtime Stories — Episodic (Ages 3–4). **Series:** Willow Bend and the Little Lights. **Season:** One. **Episode:** One of six. **Form:** Original, single-narrator story. **Continuity:** Introduces Tess, Bo, Grandma Fern, Willow Bend, the yellow map, and the coming Little-Light Walk.
+**Collection:** Children's Bedtime Stories — Episodic (Ages 3–4). **Series:** Willow Bend and the Little Lights. **Season:** One. **Episode:** One of six. **Form:** Original, single-narrator story. **Continuity:** Introduces Amy, Ben, Grandma May, Willow Bend, the yellow map, and the coming Little-Light Walk.
 
 <!-- BEGIN SPOKEN LECTURE -->
 
-# Tess and the Map with Room for More
+# Amy and the Map with Room for More
 
 In a valley called Willow Bend, there was a cottage with a blue door.
 
 The door had a round wooden handle. The windows had green curtains. And beside the front step grew one apple tree with a branch that bent down low.
 
-A young rabbit named Tess lived there with Grandma Fern.
+A young rabbit named Amy lived there with Grandma May.
 
-One morning, Tess found a square of yellow paper on the kitchen table.
+One morning, Amy found a square of yellow paper on the kitchen table.
 
-Grandma Fern had placed a blue pencil beside it.
+Grandma May had placed a blue pencil beside it.
 
-“What's the paper for?” Tess asked.
+“What's the paper for?” Amy asked.
 
 “For a map,” Grandma said.
 
-Tess looked at the paper.
+Amy looked at the paper.
 
 Then she looked out the window.
 
@@ -28,15 +28,15 @@ Outside was the apple tree, the footpath, the roofs of Willow Bend, and the gree
 
 “That's a lot of places,” she said.
 
-Grandma Fern smiled. “We can start with one.”
+Grandma May smiled. “We can start with one.”
 
-Tess drew a blue square in the corner of the paper.
+Amy drew a blue square in the corner of the paper.
 
 “Our door,” she said.
 
 She added a crooked green line for the apple tree. It leaned so far to one side that the apple tree on the map looked as if it were trying to pick up a dropped spoon.
 
-Tess giggled.
+Amy giggled.
 
 “That's exactly how it looks,” Grandma said.
 
@@ -44,59 +44,59 @@ They carried the map down the path to the Village Green.
 
 The Village Green was a soft patch of grass surrounded by cottages. There was a wooden bench, a round stone fountain that splashed only a little, and the Story House, where neighbors came to borrow books and tell tales.
 
-A bear cub named Bo was sitting on the bench.
+A bear cub named Ben was sitting on the bench.
 
 His red scarf was tucked under one paw so it wouldn't drag in the dust.
 
 “What are you carrying?” he asked.
 
-“A map,” Tess said.
+“A map,” Amy said.
 
-Bo looked at the paper.
+Ben looked at the paper.
 
 He could see one blue square and one very crooked green line.
 
 “Is the rest of the valley missing?” he asked.
 
-“Not from the valley,” said Tess. “Only from my map.”
+“Not from the valley,” said Amy. “Only from my map.”
 
-Bo considered this.
+Ben considered this.
 
 “That's good,” he said. “Because I left my breakfast bowl at home.”
 
 He stood and walked with them around the Green.
 
-Tess drew the bench. It was two short lines and four tiny legs.
+Amy drew the bench. It was two short lines and four tiny legs.
 
-Bo peered at it.
+Ben peered at it.
 
 “Your bench looks like a long beetle,” he said.
 
-“It's a bench,” Tess told him.
+“It's a bench,” Amy told him.
 
 “Then it is a very comfortable-looking beetle.”
 
-Tess drew a small circle for the fountain.
+Amy drew a small circle for the fountain.
 
 She made three blue dots around it to show the splashes.
 
-Bo held his scarf out of the way so she could see the water properly.
+Ben held his scarf out of the way so she could see the water properly.
 
-At the Story House, Grandma Fern opened the door. It gave its familiar little squeak.
+At the Story House, Grandma May opened the door. It gave its familiar little squeak.
 
 Eee.
 
-Tess liked that sound.
+Amy liked that sound.
 
 She drew the Story House with a red roof. Beside it, she made one little line for the door.
 
-“What about the squeak?” Bo asked.
+“What about the squeak?” Ben asked.
 
-Tess thought for a moment. Then she added a tiny curl beside the door, like a piece of string.
+Amy thought for a moment. Then she added a tiny curl beside the door, like a piece of string.
 
 “That's the squeak,” she said.
 
-Bo looked delighted.
+Ben looked delighted.
 
 Now the map showed the cottage, the apple tree, the bench, the fountain, and the Story House.
 
@@ -104,29 +104,29 @@ But most of the yellow paper was still empty.
 
 Beyond the Green lay Pebble Bridge. Across the bridge was Round Pond. On the other side of the village grew the apple orchard. Farther up, Bell Hill rose above the roofs.
 
-Tess looked at all that empty yellow space.
+Amy looked at all that empty yellow space.
 
 “I don't know how to draw everything.”
 
-“You don't need to draw everything today,” Grandma Fern said.
+“You don't need to draw everything today,” Grandma May said.
 
-Bo pointed toward the east, where the brook glittered between the trees.
+Ben pointed toward the east, where the brook glittered between the trees.
 
 “We could see the bridge next time.”
 
-Tess folded the map, then opened it again.
+Amy folded the map, then opened it again.
 
 “I need to leave a place for the bridge.”
 
 She left a big space beside the Green.
 
-Grandma Fern told them that, at the end of the week, Willow Bend would have its Little-Light Walk. The neighbors would carry small lanterns along the paths and finish together on Bell Hill.
+Grandma May told them that, at the end of the week, Willow Bend would have its Little-Light Walk. The neighbors would carry small lanterns along the paths and finish together on Bell Hill.
 
-“Will they need a map?” Tess asked.
+“Will they need a map?” Amy asked.
 
 “Perhaps,” Grandma said. “Especially if it's a map that knows all the little places along the way.”
 
-Bo immediately wanted to draw a giant red arrow across the whole page.
+Ben immediately wanted to draw a giant red arrow across the whole page.
 
 But there was no room for a giant red arrow. There was barely room for his paw.
 
@@ -138,15 +138,15 @@ It pointed straight at the fountain.
 
 By afternoon, the shadows of the trees had grown long.
 
-Tess carried the folded map home. Bo walked beside her as far as the path to his own cottage.
+Amy carried the folded map home. Ben walked beside her as far as the path to his own cottage.
 
-“Bridge tomorrow?” Bo asked.
+“Bridge tomorrow?” Ben asked.
 
-“Bridge tomorrow,” Tess answered.
+“Bridge tomorrow,” Amy answered.
 
-At the blue door, Grandma Fern hung Tess's little coat on its peg.
+At the blue door, Grandma May hung Amy's little coat on its peg.
 
-Tess opened the map once more before supper.
+Amy opened the map once more before supper.
 
 The blue square was still there. So was the crooked apple tree. So were the beetle-shaped bench and the curl that meant the Story House squeaked.
 
@@ -154,7 +154,7 @@ And beside them was room for a bridge.
 
 Room for a pond.
 
-Room for all the places Tess had not visited yet.
+Room for all the places Amy had not visited yet.
 
 She folded the yellow paper into four careful squares and put it beside her bed.
 
@@ -170,7 +170,7 @@ There was no hurry to draw it all tonight.
 
 ## For parents and caregivers — not spoken
 
-**What carries forward:** Tess's folded yellow map initially shows the Blue Door Cottage, apple tree, Village Green, fountain, bench, and squeaky Story House. Bo wears a red scarf. The Little-Light Walk is planned for the end of the week; the next episode visits Pebble Bridge. The map must not suddenly become complete in the next story.
+**What carries forward:** Amy's folded yellow map initially shows the Blue Door Cottage, apple tree, Village Green, fountain, bench, and squeaky Story House. Ben wears a red scarf. The Little-Light Walk is planned for the end of the week; the next episode visits Pebble Bridge. The map must not suddenly become complete in the next story.
 
 **Why this episode exists:** A concrete object gives the continuing narrative a simple memory cue. The comedy of the beetle-bench and squeaky door is its own reward. An adult can invite the listener to recall a familiar place, without asking the child to memorize a fictional map.
 

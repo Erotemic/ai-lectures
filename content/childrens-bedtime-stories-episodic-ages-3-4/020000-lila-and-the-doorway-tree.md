@@ -1,68 +1,68 @@
-# 020000 - Lila and the Doorway Tree
+# 020000 - Wendy and the Doorway Tree
 
 **Collection:** Children's Bedtime Stories — Episodic (Ages 3–4). **Series:** Willow Bend and the Little Lights. **Season:** Four. **Episode:** 2 of six. **Form:** Original, single-narrator story. **Continuity:** Season four explores the southern orchard and the shared Button Town pretend game.
 
 <!-- BEGIN SPOKEN LECTURE -->
 
-# Lila and the Doorway Tree
+# Wendy and the Doorway Tree
 
-Lila had seen the leaning orange lantern at the Story House. She had visited Village Green. She had walked all the way east to Reed Meadow and met Rill in his yellow boots.
+Wendy had seen the leaning orange lantern at the Story House. She had visited Village Green. She had walked all the way east to Reed Meadow and met Todd in his yellow boots.
 
 But there was one part of Willow Bend she had never visited.
 
 The orchard.
 
-So one bright afternoon, Aunt Mallow brought Lila over Bell Hill to meet Tess, Bo, and Grandma Fern.
+So one bright afternoon, Aunt Kay brought Wendy over Bell Hill to meet Amy, Ben, and Grandma May.
 
-Lila wore her straw hat with the broad blue ribbon.
+Wendy wore her straw hat with the broad blue ribbon.
 
-The ribbon waved once in the breeze, as if it were saying hello before Lila could.
+The ribbon waved once in the breeze, as if it were saying hello before Wendy could.
 
-Tess showed them the path south from Village Green.
+Amy showed them the path south from Village Green.
 
 "There are apple trees," she said, "and an old mill farther along. But first I want to show you a tree with two trunks."
 
-"Does it have two leaves?" asked Lila.
+"Does it have two leaves?" asked Wendy.
 
-"Many more than two," said Bo.
+"Many more than two," said Ben.
 
 "Does it have two shadows?"
 
-"Sometimes it makes one big shadow," Tess said.
+"Sometimes it makes one big shadow," Amy said.
 
-"Does it have two hats?" Lila asked.
+"Does it have two hats?" Wendy asked.
 
-Bo looked at Lila's straw hat.
+Ben looked at Wendy's straw hat.
 
 "It might need two enormous ones."
 
 They laughed all the way to the orchard.
 
-Then Lila saw the tree.
+Then Wendy saw the tree.
 
 It rose from the grass on two thick trunks, with branches spreading wide overhead.
 
 "Oh," she said. "It looks just like a doorway."
 
-"That's its name!" said Tess. "The Doorway Tree."
+"That's its name!" said Amy. "The Doorway Tree."
 
-Lila stood on the path and pretended to knock in the air.
+Wendy stood on the path and pretended to knock in the air.
 
 Tap. Tap.
 
 "Is anybody home?"
 
-Bo looked around with a serious face.
+Ben looked around with a serious face.
 
 "I'm afraid the town is very busy."
 
-"What town?" asked Lila.
+"What town?" asked Wendy.
 
-Bo considered the enormous tree.
+Ben considered the enormous tree.
 
 "A town so small it can fit inside a button."
 
-"Button Town," Tess said.
+"Button Town," Amy said.
 
 They liked the sound of that.
 
@@ -70,81 +70,81 @@ There was no real Button Town behind the tree. Beyond the trunks was the same gr
 
 But for a little while, they could pretend.
 
-Bo pretended to be the keeper of Button Town's doorway.
+Ben pretended to be the keeper of Button Town's doorway.
 
-Lila pretended to be a visitor wearing a very important hat.
+Wendy pretended to be a visitor wearing a very important hat.
 
-Tess pretended to have a map of all the imaginary streets.
+Amy pretended to have a map of all the imaginary streets.
 
-"Do I need a ticket?" asked Lila.
+"Do I need a ticket?" asked Wendy.
 
-Bo searched his scarf for one.
+Ben searched his scarf for one.
 
 He found nothing but scarf.
 
 "A ticket would help," he said.
 
-Grandma Fern took a small square of scrap paper from her bag. Tess drew one round circle on it with a blue pencil.
+Grandma May took a small square of scrap paper from her bag. Amy drew one round circle on it with a blue pencil.
 
-"Here is your button ticket," Tess told Lila.
+"Here is your button ticket," Amy told Wendy.
 
-Lila admired the paper.
+Wendy admired the paper.
 
 "What may I see in Button Town?"
 
-Bo spread his arms.
+Ben spread his arms.
 
 "Over there is a bakery that makes bread for ants."
 
-"But it is pretend bread," Tess added.
+"But it is pretend bread," Amy added.
 
-"Good," Lila said. "Otherwise it might get crumbs in the grass."
+"Good," Wendy said. "Otherwise it might get crumbs in the grass."
 
-"Over there," Bo continued, "is the hat shop. Every hat is the size of a blueberry."
+"Over there," Ben continued, "is the hat shop. Every hat is the size of a blueberry."
 
-Lila held down her very large straw hat.
+Wendy held down her very large straw hat.
 
 "I think I'll keep my own, thank you."
 
-"And that way," Tess said, pointing toward a patch of ordinary grass, "is the street with twelve doors and no houses."
+"And that way," Amy said, pointing toward a patch of ordinary grass, "is the street with twelve doors and no houses."
 
 They pretended to open one of the doors.
 
 Behind it was a shop selling invisible socks.
 
-Lila bought four pairs.
+Wendy bought four pairs.
 
 She put all four invisible pairs in her invisible pocket and nearly fell over from their invisible weight.
 
-Bo offered to carry one pair. He staggered too.
+Ben offered to carry one pair. He staggered too.
 
-Grandma Fern sat on a bench along the orchard path while Aunt Mallow watched the children from beside her.
+Grandma May sat on a bench along the orchard path while Aunt Kay watched the children from beside her.
 
-Lila carefully tucked the blue paper ticket into the band of her straw hat.
+Wendy carefully tucked the blue paper ticket into the band of her straw hat.
 
 A gust of wind lifted the brim.
 
-"Oh!" Lila said, catching it. "Button Town almost took my ticket away."
+"Oh!" Wendy said, catching it. "Button Town almost took my ticket away."
 
-"Button Town has very breezy streets," said Tess.
+"Button Town has very breezy streets," said Amy.
 
-After a while, Aunt Mallow said it was time for the journey home.
+After a while, Aunt Kay said it was time for the journey home.
 
-Lila gave the square of paper back to Tess for safekeeping.
+Wendy gave the square of paper back to Amy for safekeeping.
 
 "Put it with the real map," she said. "So we can find our pretend town again."
 
-Tess slipped it between the folds of her yellow map.
+Amy slipped it between the folds of her yellow map.
 
-They walked north to Village Green, where Grandma Fern and Tess said goodbye. Lila and Aunt Mallow went back west over Bell Hill to their cream-colored cottage in Far Meadow.
+They walked north to Village Green, where Grandma May and Amy said goodbye. Wendy and Aunt Kay went back west over Bell Hill to their cream-colored cottage in Far Meadow.
 
-That evening, Lila saw the picnic banner still hanging inside the cottage window.
+That evening, Wendy saw the picnic banner still hanging inside the cottage window.
 
 She hung up her straw hat, with its blue ribbon still firmly attached.
 
 She thought of Button Town, where no one could ever run out of invisible socks.
 
-And at the Blue Door Cottage, Tess put the map beside her bed, with one small paper ticket safely folded inside.
+And at the Blue Door Cottage, Amy put the map beside her bed, with one small paper ticket safely folded inside.
 
 The Doorway Tree stayed an ordinary tree in the quiet orchard.
 
@@ -154,7 +154,7 @@ For tomorrow, that was quite enough.
 
 ## For parents and caregivers - not spoken
 
-**What carries forward:** Lila visits the orchard with Aunt Mallow; all agree Button Town is pretend, not a new physical settlement. Tess draws a small blue-circle paper visitor ticket and stores it inside her real yellow map; Lila keeps her blue-ribboned hat.
+**What carries forward:** Wendy visits the orchard with Aunt Kay; all agree Button Town is pretend, not a new physical settlement. Amy draws a small blue-circle paper visitor ticket and stores it inside her real yellow map; Wendy keeps her blue-ribboned hat.
 
 **Why this episode exists:** The imaginary town is explicitly placed alongside, rather than mistaken for, the observed real orchard. The role-play and playful props are editorially related to broader guidance on imaginary play, not validated educational intervention. It is original fiction; no developmental or sleep outcome from listening is claimed.
 

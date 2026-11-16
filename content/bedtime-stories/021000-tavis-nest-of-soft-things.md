@@ -1,12 +1,12 @@
-# 021000 — Tavi's Nest of Soft Things
+# 021000 — Beth's Nest of Soft Things
 
 **Collection:** Children's Bedtime Stories. **Age range:** Ages 3–4 (primarily age three). **Form:** Original, single-narrator fiction. **Story shape:** A small bird experiments with textures before choosing a cozy place to rest.
 
 <!-- BEGIN SPOKEN LECTURE -->
 
-# Tavi's Nest of Soft Things
+# Beth's Nest of Soft Things
 
-Tavi the little bird had a nest high in the apple tree.
+Beth the little bird had a nest high in the apple tree.
 
 It was a good nest.
 
@@ -16,13 +16,13 @@ The sides were snug.
 
 And the branch beneath it barely moved, even when a light breeze passed through the leaves.
 
-But Tavi had decided that her corner of the nest could be softer.
+But Beth had decided that her corner of the nest could be softer.
 
 She found a piece of dry grass.
 
 It was long and pale and bent in the middle.
 
-Tavi carried it home.
+Beth carried it home.
 
 She tucked it into her corner.
 
@@ -30,13 +30,13 @@ Then she sat down.
 
 The grass made a little tickle beneath her feathers.
 
-"Hmm," Tavi thought.
+"Hmm," Beth thought.
 
 A tickly nest was interesting.
 
 But it wasn't quite the softness she wanted.
 
-Tavi flew down to the garden path.
+Beth flew down to the garden path.
 
 She found a wide fallen leaf, soft at the edges and a little curled in the middle.
 
@@ -48,7 +48,7 @@ Crinkle.
 
 The leaf made a sound every time she moved.
 
-Tavi tried sitting very still.
+Beth tried sitting very still.
 
 The leaf stayed quiet.
 
@@ -62,29 +62,29 @@ Crinkle, crinkle.
 
 It was a funny sound.
 
-Tavi liked it.
+Beth liked it.
 
 But she didn't think she wanted to hear it all night.
 
-Mama Bird came home and found Tavi standing beside a little pile of grass and one curly leaf.
+Mama Bird came home and found Beth standing beside a little pile of grass and one curly leaf.
 
 She asked what was happening.
 
-Tavi explained that she was looking for the softest possible place to sleep.
+Beth explained that she was looking for the softest possible place to sleep.
 
 Mama Bird looked at the pile.
 
 She looked at the nest.
 
-Then she settled beside Tavi and felt the inside of the nest with one careful foot.
+Then she settled beside Beth and felt the inside of the nest with one careful foot.
 
 There was a hollow near the middle, where the grass didn't reach.
 
-Perhaps, Mama Bird suggested, Tavi didn't need to fill every part of the nest.
+Perhaps, Mama Bird suggested, Beth didn't need to fill every part of the nest.
 
 Maybe she only needed to make her own little resting place comfortable.
 
-Tavi thought about that.
+Beth thought about that.
 
 She took the crinkly leaf out again.
 
@@ -94,7 +94,7 @@ She pressed them down gently with her breast.
 
 Then she tucked the ends beneath the nest's sturdy edge, just as Mama Bird showed her.
 
-Tavi sat.
+Beth sat.
 
 She stood.
 
@@ -108,7 +108,7 @@ It wasn't a pillow.
 
 It wasn't a blanket.
 
-It wasn't a marshmallow, though Tavi had never seen a marshmallow and could only imagine how soft one might be.
+It wasn't a marshmallow, though Beth had never seen a marshmallow and could only imagine how soft one might be.
 
 But it was comfortable.
 
@@ -116,15 +116,15 @@ Very comfortable.
 
 Mama Bird settled into her own part of the nest.
 
-Tavi listened to the evening sounds below.
+Beth listened to the evening sounds below.
 
 The gate gave one quiet creak.
 
 A leaf brushed another leaf.
 
-Farther down the garden, Otis the snail was beginning his slow journey home.
+Farther down the garden, Pete the snail was beginning his slow journey home.
 
-Tavi looked at the little curly leaf she had set beside the nest.
+Beth looked at the little curly leaf she had set beside the nest.
 
 Tomorrow, she thought, perhaps it could become the roof of a tiny pretend house.
 
@@ -132,7 +132,7 @@ Tonight, it could rest.
 
 And so could she.
 
-Tavi tucked her head beneath one wing.
+Beth tucked her head beneath one wing.
 
 The apple tree held the nest.
 
@@ -144,7 +144,7 @@ And the garden grew still around them both.
 
 ## For parents and caregivers — not spoken
 
-**Why this one exists:** Tavi experiments with texture, keeps some of what she tries, and leaves something else for tomorrow. An adult offers bounded support, but the story is about a cozy nest, not a performance task or an argument that children must persevere. Bird behavior here is **gentle fiction**, not a field guide or instructions for building or altering wild birds' nests.
+**Why this one exists:** Beth experiments with texture, keeps some of what she tries, and leaves something else for tomorrow. An adult offers bounded support, but the story is about a cozy nest, not a performance task or an argument that children must persevere. Bird behavior here is **gentle fiction**, not a field guide or instructions for building or altering wild birds' nests.
 
 **Optional prompt:** "Which part of your bed feels the coziest?" No child is asked to modify their bedding or help wild animals.
 

@@ -1,12 +1,12 @@
-# 024000 — Reed and the Star in the Pond
+# 024000 — Mike and the Star in the Pond
 
 **Collection:** Children's Bedtime Stories. **Age range:** Ages 3–4 (primarily age three). **Form:** Original, single-narrator fiction. **Story shape:** A little otter notices a star reflected in water, then wonders where it went.
 
 <!-- BEGIN SPOKEN LECTURE -->
 
-# Reed and the Star in the Pond
+# Mike and the Star in the Pond
 
-Reed the little otter liked the pond best when evening came.
+Mike the little otter liked the pond best when evening came.
 
 During the day, the pond was busy.
 
@@ -20,11 +20,11 @@ But in the evening, the pond grew smooth.
 
 It looked like a wide, dark mirror.
 
-One evening, Reed walked to the bank with Mama Otter.
+One evening, Mike walked to the bank with Mama Otter.
 
 The first star had appeared above the willow tree.
 
-Reed looked up at it.
+Mike looked up at it.
 
 Then he looked down.
 
@@ -32,7 +32,7 @@ There was another star in the pond.
 
 It was just as bright.
 
-Reed sat down on the grass.
+Mike sat down on the grass.
 
 He looked at the sky star.
 
@@ -48,7 +48,7 @@ The leaf drifted slowly over the place where the pond star had been.
 
 And the little star disappeared.
 
-Reed blinked.
+Mike blinked.
 
 He looked up.
 
@@ -60,7 +60,7 @@ The pond star was gone.
 
 Mama Otter sat beside him.
 
-Reed told her that he had seen a star in the water, and now he could not find it.
+Mike told her that he had seen a star in the water, and now he could not find it.
 
 Mama Otter looked out across the pond.
 
@@ -70,19 +70,19 @@ Perhaps, she suggested, the water was showing them a picture of the sky.
 
 And perhaps something was hiding part of that picture.
 
-Reed watched the leaf move.
+Mike watched the leaf move.
 
 A slow current carried it past the willow's reflection.
 
 There, in the dark water beside the leaf, the little light appeared again.
 
-Reed leaned forward to look.
+Mike leaned forward to look.
 
 The light wobbled.
 
 Then it grew still.
 
-Reed was pleased.
+Mike was pleased.
 
 But now he had another question.
 
@@ -102,7 +102,7 @@ Then it broke into several tiny sparkles.
 
 When the breeze passed, the point came together again.
 
-Reed watched in silence.
+Mike watched in silence.
 
 It was as if the pond could draw the same star in different ways.
 
@@ -112,7 +112,7 @@ The duck was very sleepy and did not seem interested in the stars at all.
 
 Its reflection followed underneath it, upside down.
 
-Reed noticed the duck in the water.
+Mike noticed the duck in the water.
 
 Then the real duck above it.
 
@@ -120,7 +120,7 @@ The upside-down duck made him smile.
 
 He wondered whether the duck knew it had a second duck following along.
 
-Probably not, Reed thought.
+Probably not, Mike thought.
 
 The duck looked busy being one duck.
 
@@ -128,13 +128,13 @@ Mama Otter stood and stretched.
 
 It was time to walk back along the bank.
 
-Reed took one last look.
+Mike took one last look.
 
 The first star still shone above the willow.
 
 Its light still rested in the pond when the water was smooth enough to show it.
 
-Reed had not found a second star to take home.
+Mike had not found a second star to take home.
 
 He had found a very good place to look at the first one.
 

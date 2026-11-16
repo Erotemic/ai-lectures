@@ -12,33 +12,33 @@ Not a rushing, roaring rain.
 
 A soft rain that made small circles in the puddles on Village Green.
 
-Tess sat by the blue-door cottage window with Grandma Fern.
+Amy sat by the blue-door cottage window with Grandma May.
 
 She watched the drops slide down the glass.
 
 One drop caught another drop. They joined together and made a bigger drop, which hurried to the bottom.
 
-"That one had somewhere to go," Tess observed.
+"That one had somewhere to go," Amy observed.
 
-Grandma Fern smiled.
+Grandma May smiled.
 
 "Shall we take the covered path to the Story House when the rain gets lighter?"
 
-Tess liked that idea.
+Amy liked that idea.
 
-Bo was already at the Story House with the little blue Book of Little Sounds, and Nori was visiting with her grown-up from Round Pond.
+Ben was already at the Story House with the little blue Book of Little Sounds, and Kim was visiting with her grown-up from Round Pond.
 
-When Tess arrived, everyone was warm and dry inside.
+When Amy arrived, everyone was warm and dry inside.
 
-Bo had his red scarf wrapped around his neck. The orange paper lantern still leaned safely beside the window.
+Ben had his red scarf wrapped around his neck. The orange paper lantern still leaned safely beside the window.
 
-"I found a new sound," Bo announced.
+"I found a new sound," Ben announced.
 
 He held up the book.
 
 Four pages had pictures already: reeds, footsteps, a frog's bup, and two different kinds of windy leaves.
 
-"What sound?" Tess asked.
+"What sound?" Amy asked.
 
 "Plink."
 
@@ -56,11 +56,11 @@ Then, from somewhere outside the wall, came a clear little sound.
 
 Plink.
 
-Bo looked triumphant.
+Ben looked triumphant.
 
 "There it is!"
 
-Nori went to the window. She listened for a moment.
+Kim went to the window. She listened for a moment.
 
 Tip, tip.
 
@@ -68,11 +68,11 @@ Plink.
 
 "I don't think it's the window," she said.
 
-Tess looked toward the Story House door.
+Amy looked toward the Story House door.
 
 "Is the door squeaking?"
 
-Grandma Fern opened the door a little.
+Grandma May opened the door a little.
 
 Eeeee.
 
@@ -80,19 +80,19 @@ Eeeee.
 
 Then came another plink.
 
-"Different sound," Bo decided.
+"Different sound," Ben decided.
 
 The friends made guesses from the warm room.
 
-Tess guessed a pebble in a bowl.
+Amy guessed a pebble in a bowl.
 
-Nori guessed a water drop touching something hard.
+Kim guessed a water drop touching something hard.
 
-Bo guessed a very small bell practicing very quietly.
+Ben guessed a very small bell practicing very quietly.
 
 "A bell with a blanket on," he added.
 
-Grandma Fern looked through the window near the door.
+Grandma May looked through the window near the door.
 
 "I think I can see where it comes from."
 
@@ -106,17 +106,17 @@ Then another.
 
 Plink.
 
-The children watched from inside while Grandma Fern explained what they could see.
+The children watched from inside while Grandma May explained what they could see.
 
 "The drops are landing on the can," she said. "That gives them a different sound from drops landing in a puddle."
 
-Bo leaned close to the glass.
+Ben leaned close to the glass.
 
 "So the can is playing the rain."
 
-"You could say that," Grandma Fern replied.
+"You could say that," Grandma May replied.
 
-Nori watched the drops.
+Kim watched the drops.
 
 For a little while they fell almost together.
 
@@ -128,23 +128,23 @@ Plink.
 
 And then there was a quiet space.
 
-Bo opened the fifth page of the blue book.
+Ben opened the fifth page of the blue book.
 
 He drew a watering can with a very long spout. He drew three drops above it.
 
-"That looks like a bird drinking from a teapot," Tess said.
+"That looks like a bird drinking from a teapot," Amy said.
 
-"It can be both," Bo replied.
+"It can be both," Ben replied.
 
-Nori drew a little gap between the drops. Grandma Fern wrote plink beneath the picture.
+Kim drew a little gap between the drops. Grandma May wrote plink beneath the picture.
 
 By late afternoon, the rain stopped.
 
 The paths outside were damp, but the grown-ups knew which way everyone was going home.
 
-Nori left with her grown-up toward Round Pond. Bo tucked the notebook safely into his bag. Tess and Grandma Fern went back to the blue-door cottage.
+Kim left with her grown-up toward Round Pond. Ben tucked the notebook safely into his bag. Amy and Grandma May went back to the blue-door cottage.
 
-At home, Tess watched the last drop slide down the window.
+At home, Amy watched the last drop slide down the window.
 
 It made no plink at all.
 
@@ -152,7 +152,7 @@ That was fine.
 
 The plink was finished for today.
 
-The puddles rested. The Story House door stayed closed. And Bo's little book had one clean page left.
+The puddles rested. The Story House door stayed closed. And Ben's little book had one clean page left.
 
 There was no hurry to fill it.
 
@@ -160,7 +160,7 @@ There was no hurry to fill it.
 
 ## For parents and caregivers - not spoken
 
-**What carries forward:** Fifth book page records drip on metal watering can, with plink written by Grandma Fern; rain stops; sixth page remains blank; book returns home with Bo.
+**What carries forward:** Fifth book page records drip on metal watering can, with plink written by Grandma May; rain stops; sixth page remains blank; book returns home with Ben.
 
 **Why this episode exists:** A gentle sound-source mystery is solved through observation; the story retains pretend guesses and ends without a moral. Adult supervision is explicit and no one must go into rain to investigate. This is original fiction; no developmental or sleep outcome from listening is claimed.
 

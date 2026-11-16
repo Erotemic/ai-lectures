@@ -10,55 +10,55 @@ By the time all the friends came to see the garden together, the sunflowers had 
 
 The garden was still small.
 
-It was smaller than Tess's bed, smaller than the Story House table, and much smaller than the enormous carrot Bo had drawn on his first sign.
+It was smaller than Amy's bed, smaller than the Story House table, and much smaller than the enormous carrot Ben had drawn on his first sign.
 
 But it was no longer a bare patch of dirt.
 
-Tess brought her folded yellow map from Blue Door Cottage.
+Amy brought her folded yellow map from Blue Door Cottage.
 
-Grandma Fern had gone to meet Nori at Pebble Bridge. They arrived together, Nori carrying her violet pouch and all three pebbles.
+Grandma May had gone to meet Kim at Pebble Bridge. They arrived together, Kim carrying her violet pouch and all three pebbles.
 
-Bo arrived wearing his red scarf.
+Ben arrived wearing his red scarf.
 
-Lila crossed Bell Hill with Aunt Mallow, her straw hat tied with its blue ribbon.
+Wendy crossed Bell Hill with Aunt Kay, her straw hat tied with its blue ribbon.
 
-Rill came from Reed Meadow with Aunt Cress, wearing his two yellow boots. One still had the blue patch.
+Todd came from Reed Meadow with Aunt Pat, wearing his two yellow boots. One still had the blue patch.
 
 Nobody had to ask who anyone was. They were old friends now.
 
-At the Story House door, Bo greeted everyone with an announcement.
+At the Story House door, Ben greeted everyone with an announcement.
 
 "Welcome to the most important very small garden in Willow Bend!"
 
-"It's our only very small garden behind this particular building," Tess said.
+"It's our only very small garden behind this particular building," Amy said.
 
-"Exactly," said Bo. "A record holder."
+"Exactly," said Ben. "A record holder."
 
 The grown-ups smiled, and the friends went around to the little patch by the sunny southern wall.
 
 The sign still read LITTLE GROWING GARDEN.
 
-Tess's tiny map square still marked the spot.
+Amy's tiny map square still marked the spot.
 
-Nori's flat stepping stones were still on the dry path.
+Kim's flat stepping stones were still on the dry path.
 
 The radishes had several green leaves now, although the round red parts were not ready to pull.
 
 In the back row, two sunflower shoots had come up. One was a little taller than the other.
 
-Rill leaned forward and inspected the plants from his stepping stone.
+Todd leaned forward and inspected the plants from his stepping stone.
 
 "I see five hats," he declared.
 
-"They're leaves," Nori replied.
+"They're leaves," Kim replied.
 
-"They're very convincing hats," said Rill.
+"They're very convincing hats," said Todd.
 
-Lila held her straw hat in one hand, keeping it well away from the little plants.
+Wendy held her straw hat in one hand, keeping it well away from the little plants.
 
 "I think my hat is too big anyway."
 
-Bo opened his mouth, ready to suggest another enormous sign, but Tess noticed something first.
+Ben opened his mouth, ready to suggest another enormous sign, but Amy noticed something first.
 
 Near one corner of the patch, the soil was still bare.
 
@@ -68,17 +68,17 @@ A seed they had planted there had not become a visible plant.
 
 For a moment, the friends looked at the spot.
 
-Bo was the first to speak.
+Ben was the first to speak.
 
 "Maybe it went to Button Town and opened a tiny bakery."
 
-"Maybe," Lila said, smiling. "But not in the real garden."
+"Maybe," Wendy said, smiling. "But not in the real garden."
 
-Grandma Fern knelt beside the bed.
+Grandma May knelt beside the bed.
 
 "Some seeds don't come up. We can keep caring for the plants that did, and decide later whether to plant again."
 
-Nori looked from the bare place to the green rows.
+Kim looked from the bare place to the green rows.
 
 "We don't need to dig this one up today," she said.
 
@@ -92,43 +92,43 @@ They looked at the difference between the two sunflower shoots.
 
 They looked at a tiny beetle crossing the smooth stone border.
 
-"Is that the same beetle from the first day?" Tess wondered.
+"Is that the same beetle from the first day?" Amy wondered.
 
-"We can't tell," Nori said. "It hasn't introduced itself."
+"We can't tell," Kim said. "It hasn't introduced itself."
 
-Rill gave a happy little bup.
+Todd gave a happy little bup.
 
-Bo said, "Excuse me, Beetle. Have we met?"
+Ben said, "Excuse me, Beetle. Have we met?"
 
 The beetle kept walking.
 
-"A private sort of visitor," said Lila.
+"A private sort of visitor," said Wendy.
 
 The friends sat in a little circle on the grass beside the dry path. The garden was close enough to see, but nobody needed to stand over it anymore.
 
-Aunt Cress brought out a jug of water for the friends, and Aunt Mallow passed around fresh oat biscuits from her basket.
+Aunt Pat brought out a jug of water for the friends, and Aunt Kay passed around fresh oat biscuits from her basket.
 
-Grandma Fern found a small blank card and some pencils.
+Grandma May found a small blank card and some pencils.
 
 "Should we make a picture of how the garden looks today?" she asked.
 
-Tess drew the two rows.
+Amy drew the two rows.
 
-Nori drew the stepping stones and a beetle.
+Kim drew the stepping stones and a beetle.
 
-Rill drew three tiny hats, because his picture was still allowed to be funny.
+Todd drew three tiny hats, because his picture was still allowed to be funny.
 
-Lila drew her own blue-ribboned hat beside the garden, not on it.
+Wendy drew her own blue-ribboned hat beside the garden, not on it.
 
-Bo drew a great big carrot in the sky.
+Ben drew a great big carrot in the sky.
 
 "That's a cloud," he explained. "It is shaped exactly like my idea of a carrot."
 
 They signed the card with little pictures: a rabbit ear, a red scarf, a white-striped pebble, a ribbon, and a yellow boot.
 
-Grandma Fern put the card on the low Story House shelf, in a new plain folder labeled LITTLE GROWING GARDEN. The folder sat beside the blue Book of Little Sounds and the brown Button Town envelope.
+Grandma May put the card on the low Story House shelf, in a new plain folder labeled LITTLE GROWING GARDEN. The folder sat beside the blue Book of Little Sounds and the brown Button Town envelope.
 
-Tess added two green marks inside the garden square on her real yellow map, then folded it up again.
+Amy added two green marks inside the garden square on her real yellow map, then folded it up again.
 
 The little patch was a real place, and the marks showed that real plants had begun to grow there.
 
@@ -140,15 +140,15 @@ Those were things for other days, if the garden kept growing well.
 
 As the afternoon grew quiet, the friends said goodbye.
 
-Rill and Aunt Cress went east across Pebble Bridge toward Reed Meadow.
+Todd and Aunt Pat went east across Pebble Bridge toward Reed Meadow.
 
-Lila and Aunt Mallow followed the westward path over Bell Hill.
+Wendy and Aunt Kay followed the westward path over Bell Hill.
 
-Nori went home by Round Pond.
+Kim went home by Round Pond.
 
-Bo remembered the enormous first garden sign he had taken home after planting day. He decided that it would make a fine roof for a cardboard castle.
+Ben remembered the enormous first garden sign he had taken home after planting day. He decided that it would make a fine roof for a cardboard castle.
 
-Tess and Grandma Fern returned to the Blue Door Cottage.
+Amy and Grandma May returned to the Blue Door Cottage.
 
 The Story House was quiet. The tilted orange lantern still hung by its window. The three collections on the shelf waited to be opened another day.
 
@@ -166,7 +166,7 @@ The garden was already a garden.
 
 ## For parents and caregivers - not spoken
 
-**What carries forward:** All five friends and trusted adults see multiple radish leaves and two sunflower shoots; one planted patch still bare, no flowers or harvested radishes. Friends draw a paper card showing present garden (plus silly details), placed in new plain LITTLE GROWING GARDEN folder on Story House low shelf beside blue sound book and brown Button Town envelope. Tess adds two green marks inside real map garden square. Small garden sign and stepping stones remain outdoors. All friends return home with adults; season resolved without a pending event.
+**What carries forward:** All five friends and trusted adults see multiple radish leaves and two sunflower shoots; one planted patch still bare, no flowers or harvested radishes. Friends draw a paper card showing present garden (plus silly details), placed in new plain LITTLE GROWING GARDEN folder on Story House low shelf beside blue sound book and brown Button Town envelope. Amy adds two green marks inside real map garden square. Small garden sign and stepping stones remain outdoors. All friends return home with adults; season resolved without a pending event.
 
 **Why this episode exists:** The ending permits an imperfect garden to be a complete shared experience. Extension sources caution that not all seeds germinate; noticing differences supports conversation but this original narration has not been tested as an intervention.
 

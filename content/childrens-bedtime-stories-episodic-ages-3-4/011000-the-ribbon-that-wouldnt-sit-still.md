@@ -14,23 +14,23 @@ Not a very crowded picnic.
 
 Just a little gathering of friends, with baskets and blankets and something bright for the wind to play with.
 
-Lila the lamb had suggested it when she visited Willow Bend.
+Wendy the lamb had suggested it when she visited Willow Bend.
 
 Now everyone was getting ready.
 
-Tess arrived at the Story House with her folded yellow map. Bo wore his red scarf, and Nori carried her violet pouch.
+Amy arrived at the Story House with her folded yellow map. Ben wore his red scarf, and Kim carried her violet pouch.
 
-Grandma Fern opened the Story House door.
+Grandma May opened the Story House door.
 
 Eee.
 
 The door had not forgotten how to squeak.
 
-Bo's orange lantern still hung near the window. Its silver spot shone in the morning light, and the lantern still leaned just a little.
+Ben's orange lantern still hung near the window. Its silver spot shone in the morning light, and the lantern still leaned just a little.
 
-"Good morning, lantern," Bo said.
+"Good morning, lantern," Ben said.
 
-Grandma Fern had laid some broad pieces of cloth on a table.
+Grandma May had laid some broad pieces of cloth on a table.
 
 One was orange.
 
@@ -38,11 +38,11 @@ One was blue.
 
 One was violet.
 
-Aunt Mallow had brought the cloth from Far Meadow. Lila came with her, carrying the straw hat that had a blue ribbon around it.
+Aunt Kay had brought the cloth from Far Meadow. Wendy came with her, carrying the straw hat that had a blue ribbon around it.
 
-"We could make a little banner for the picnic," Aunt Mallow said. "The grown-ups will fasten it safely near the Windbreak Tree."
+"We could make a little banner for the picnic," Aunt Kay said. "The grown-ups will fasten it safely near the Windbreak Tree."
 
-"A banner!" Bo said.
+"A banner!" Ben said.
 
 He held the orange cloth against his chest.
 
@@ -52,41 +52,41 @@ Then a breeze came through the open Story House door.
 
 The cloth fluttered out of his paws and settled over his head.
 
-Bo became an orange hill.
+Ben became an orange hill.
 
 "Hello?" he said from underneath.
 
-Tess laughed and helped lift the cloth away.
+Amy laughed and helped lift the cloth away.
 
 "Our hill has ears," she said.
 
-"Very fine ears," Bo agreed.
+"Very fine ears," Ben agreed.
 
-Nori laid the violet cloth flat on the table. Lila placed the blue cloth beside it. Tess spread out the orange piece.
+Kim laid the violet cloth flat on the table. Wendy placed the blue cloth beside it. Amy spread out the orange piece.
 
 They considered the colors.
 
-"The orange looks like Bo's lantern," Tess said.
+"The orange looks like Ben's lantern," Amy said.
 
-"The violet looks like Nori's pouch," said Lila.
+"The violet looks like Kim's pouch," said Wendy.
 
-"And the blue looks like my hat ribbon," Nori added.
+"And the blue looks like my hat ribbon," Kim added.
 
-"Your hat ribbon," Lila corrected gently.
+"Your hat ribbon," Wendy corrected gently.
 
-"Yes," said Nori, smiling. "I borrowed it in my imagination."
+"Yes," said Kim, smiling. "I borrowed it in my imagination."
 
-Grandma Fern brought out large paper shapes the grown-ups had prepared: a sun, a leaf, and a little round pond.
+Grandma May brought out large paper shapes the grown-ups had prepared: a sun, a leaf, and a little round pond.
 
-The children could arrange them on the table while Aunt Mallow worked out how they might be fastened to the banner.
+The children could arrange them on the table while Aunt Kay worked out how they might be fastened to the banner.
 
-Bo put the sun on the violet cloth.
+Ben put the sun on the violet cloth.
 
-Nori moved the little pond beside it.
+Kim moved the little pond beside it.
 
 "The sun can look in the pond," she said.
 
-Lila put the leaf on the orange cloth.
+Wendy put the leaf on the orange cloth.
 
 The leaf tilted sideways.
 
@@ -94,17 +94,17 @@ Then it tipped the other way.
 
 Then a soft puff of air turned it all the way around.
 
-"That leaf won't sit still," Lila said.
+"That leaf won't sit still," Wendy said.
 
-"Perhaps it wants to dance," Tess suggested.
+"Perhaps it wants to dance," Amy suggested.
 
 They watched it turn one more time.
 
-Bo gave the leaf a tiny bow.
+Ben gave the leaf a tiny bow.
 
 "Excellent dancing," he told it.
 
-Aunt Mallow and Grandma Fern finished the banner while the children looked through picture books. The three broad cloth colors were joined together, with the paper shapes protected inside clear pockets so they wouldn't come loose in the wind.
+Aunt Kay and Grandma May finished the banner while the children looked through picture books. The three broad cloth colors were joined together, with the paper shapes protected inside clear pockets so they wouldn't come loose in the wind.
 
 When the grown-ups held the banner across the room, its colors made one long, soft stripe.
 
@@ -114,31 +114,31 @@ Blue.
 
 Violet.
 
-"It looks like a piece of a rainbow that came for a visit," Tess said.
+"It looks like a piece of a rainbow that came for a visit," Amy said.
 
-"A very polite rainbow," Bo added. "It didn't even splash in the fountain."
+"A very polite rainbow," Ben added. "It didn't even splash in the fountain."
 
 Outside the Story House, the Village Green was bright and breezy.
 
 The grown-ups carried the finished banner with them, rolled neatly so it would stay clean until the picnic.
 
-Bo walked to the little fountain and looked at his reflection in the water.
+Ben walked to the little fountain and looked at his reflection in the water.
 
 His scarf was still around his neck.
 
 "Don't worry," he told it. "You may come to the picnic too."
 
-Tess looked at the map.
+Amy looked at the map.
 
 She drew three little colored marks beside the Windbreak Tree, where the banner would hang.
 
 The orange mark leaned slightly.
 
-She thought Bo would like that.
+She thought Ben would like that.
 
-By late afternoon, the preparations were done. Lila and Aunt Mallow went home across Bell Hill, taking the banner for the next day's picnic. Tess, Bo, and Nori went to their own homes with their grown-ups.
+By late afternoon, the preparations were done. Wendy and Aunt Kay went home across Bell Hill, taking the banner for the next day's picnic. Amy, Ben, and Kim went to their own homes with their grown-ups.
 
-That evening, Bo took off his red scarf and folded it carefully beside his coat.
+That evening, Ben took off his red scarf and folded it carefully beside his coat.
 
 For once, it stayed exactly where he put it.
 
@@ -156,7 +156,7 @@ And the Story House grew quiet, with its crooked lantern in the window and tomor
 
 ## For parents and caregivers - not spoken
 
-**What carries forward:** Adult-finished three-color banner ready for Far Meadow picnic; Lila and Aunt Mallow carry it home; picnic scheduled for next day.
+**What carries forward:** Adult-finished three-color banner ready for Far Meadow picnic; Wendy and Aunt Kay carry it home; picnic scheduled for next day.
 
 **Why this episode exists:** The banner preparation makes the final episode feel earned. Most of the event is comedy and sensory play, with no attached moral. Adults handle fastening and placement. No developmental or sleep improvement from listening is asserted.
 

@@ -1,12 +1,12 @@
-# 011000 — Nia and the Backward Pajamas
+# 011000 — Lisa and the Backward Pajamas
 
 **Collection:** Children's Bedtime Stories. **Age range:** Ages 3–4 (primarily age three). **Form:** Original, single-narrator fiction. **Story shape:** A familiar bedtime routine takes a silly little turn.
 
 <!-- BEGIN SPOKEN LECTURE -->
 
-# Nia and the Backward Pajamas
+# Lisa and the Backward Pajamas
 
-Nia had pajamas with little yellow moons on them.
+Lisa had pajamas with little yellow moons on them.
 
 There were moons on the sleeves.
 
@@ -14,13 +14,13 @@ Moons on the legs.
 
 And one moon right above the pocket.
 
-Every night, Nia put them on before she climbed into bed.
+Every night, Lisa put them on before she climbed into bed.
 
 But tonight, something was different.
 
 The pocket was on the wrong side.
 
-Nia looked down.
+Lisa looked down.
 
 She looked in the mirror.
 
@@ -28,13 +28,13 @@ She twisted around to see her back.
 
 Her pajama top was on backward.
 
-Grandma came to the bedroom door carrying Nia's favorite bedtime book.
+Grandma came to the bedroom door carrying Lisa's favorite bedtime book.
 
-Nia showed her the mysterious pocket.
+Lisa showed her the mysterious pocket.
 
 Grandma said it looked as though the pajamas had decided to face the other way.
 
-Nia found that very funny.
+Lisa found that very funny.
 
 She turned around and faced the closet.
 
@@ -44,7 +44,7 @@ Grandma looked at the closet.
 
 It was still the closet.
 
-Nia looked at her bed.
+Lisa looked at her bed.
 
 It was still the bed.
 
@@ -52,7 +52,7 @@ She looked at her slippers.
 
 They were waiting beside the rug, just where she'd left them.
 
-Nia put one slipper on her hand.
+Lisa put one slipper on her hand.
 
 It made a rather floppy mitten.
 
@@ -62,13 +62,13 @@ Now she had two floppy mittens.
 
 Grandma laughed.
 
-Nia waved her slipper hands very slowly, like a sleepy penguin.
+Lisa waved her slipper hands very slowly, like a sleepy penguin.
 
 Then she took the slippers off and put them back on the floor.
 
 Slippers, she decided, were better at being slippers.
 
-Next, Nia tried walking backward toward the bed.
+Next, Lisa tried walking backward toward the bed.
 
 One careful step.
 
@@ -76,13 +76,13 @@ Then another.
 
 Grandma was right beside her.
 
-Nia stopped when she reached the rug and looked over her shoulder.
+Lisa stopped when she reached the rug and looked over her shoulder.
 
 The bed was still there.
 
 It hadn't moved at all.
 
-Nia thought perhaps the furniture wasn't very interested in playing backward.
+Lisa thought perhaps the furniture wasn't very interested in playing backward.
 
 But her teddy bear might be.
 
@@ -92,15 +92,15 @@ Now Teddy could look at the wallpaper flowers.
 
 There were blue flowers, white flowers, and one flower with a little crooked petal.
 
-Nia turned Teddy around again.
+Lisa turned Teddy around again.
 
 He looked quite pleased to see the room, though of course bears with stitched smiles always look a little pleased.
 
-Grandma sat beside Nia.
+Grandma sat beside Lisa.
 
 Together they turned the pajama top the right way around.
 
-Nia's pocket returned to the front, where she could reach it.
+Lisa's pocket returned to the front, where she could reach it.
 
 She slipped one hand inside.
 
@@ -112,21 +112,21 @@ It was a very small pretend moon, just the right size for a pajama pocket.
 
 Grandma opened the bedtime book.
 
-Nia tucked Teddy under one corner of the quilt.
+Lisa tucked Teddy under one corner of the quilt.
 
 The slippers sat beside the rug.
 
 The closet stood in its place.
 
-And the little yellow moons on Nia's pajamas shone quietly under the bedside lamp.
+And the little yellow moons on Lisa's pajamas shone quietly under the bedside lamp.
 
-Before Grandma turned the page, Nia whispered that tomorrow she might wear her socks on the wrong feet.
+Before Grandma turned the page, Lisa whispered that tomorrow she might wear her socks on the wrong feet.
 
 Grandma said socks could probably manage that.
 
 Then they began to read.
 
-And the pretend moon stayed safe in Nia's pocket all through the night.
+And the pretend moon stayed safe in Lisa's pocket all through the night.
 
 <!-- END SPOKEN LECTURE -->
 

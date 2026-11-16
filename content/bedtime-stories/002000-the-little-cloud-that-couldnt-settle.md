@@ -132,6 +132,6 @@ And across the evening sky, Puff floated on, peaceful and light.
 
 **Experiment:** A character with a simple frustration learns through three repeated but different observations. The refrain gains one phrase at each stop, then returns at the end. The cloud's changing shape allows quiet humor without any additional character's dialogue.
 
-**Single-voice note:** All speech is indirect. Allow the refrain to become increasingly spacious. The single cameo of Moss and the blue blanket is optional continuity; a listener does not need to know the earlier story.
+**Single-voice note:** All speech is indirect. Allow the refrain to become increasingly spacious. The single cameo of Danny and the blue blanket is optional continuity; a listener does not need to know the earlier story.
 
 **Originality:** Newly written fantasy fiction. Cloud behavior is personification, not an explanation of meteorology.

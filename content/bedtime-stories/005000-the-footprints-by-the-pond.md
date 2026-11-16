@@ -6,17 +6,17 @@
 
 # The Footprints by the Pond
 
-One morning, Pip the mouse went down to the pond with Moss the rabbit.
+One morning, Sam the mouse went down to the pond with Danny the rabbit.
 
 The pond was bright and blue.
 
 A duck was sleeping in the reeds. A little fish made one round ripple near the shore.
 
-Pip had brought a leaf boat.
+Sam had brought a leaf boat.
 
-Moss had brought two apple slices, wrapped in a clean cloth for their snack.
+Danny had brought two apple slices, wrapped in a clean cloth for their snack.
 
-But before they reached the water, Pip stopped.
+But before they reached the water, Sam stopped.
 
 There were marks in the soft mud.
 
@@ -28,15 +28,15 @@ Then another.
 
 And beside the marks was a long, thin line.
 
-Pip crouched down.
+Sam crouched down.
 
 What had walked here?
 
-Moss thought of the tall heron that sometimes visited the far end of the pond.
+Danny thought of the tall heron that sometimes visited the far end of the pond.
 
 Perhaps the heron had come for a morning walk.
 
-Pip wasn't sure. The marks looked so small.
+Sam wasn't sure. The marks looked so small.
 
 Perhaps they belonged to a tiny bird.
 
@@ -50,9 +50,9 @@ Three points.
 
 And the long, thin line beside them.
 
-Moss wondered about the line. Maybe someone had dragged a ribbon through the mud.
+Danny wondered about the line. Maybe someone had dragged a ribbon through the mud.
 
-Pip looked behind a stone. No ribbon.
+Sam looked behind a stone. No ribbon.
 
 He looked beneath a fallen leaf. No ribbon there, either.
 
@@ -60,7 +60,7 @@ Then he saw a feather.
 
 It was grey and white, and it rested beside a little tuft of grass.
 
-Pip picked it up carefully.
+Sam picked it up carefully.
 
 A feather!
 
@@ -68,17 +68,17 @@ So perhaps the marks did belong to a bird.
 
 But which bird?
 
-They were still wondering when Hazel the hedgehog came along the path. Hazel carried a small basket of smooth, round stones.
+They were still wondering when Kate the hedgehog came along the path. Kate carried a small basket of smooth, round stones.
 
-Moss showed Hazel the three-pointed marks and the thin line.
+Danny showed Kate the three-pointed marks and the thin line.
 
-Hazel looked from the mud to the water.
+Kate looked from the mud to the water.
 
 A quiet splashing sound came from behind the reeds.
 
 The friends stood still.
 
-Out waddled a small duck, no bigger than Pip's red bucket.
+Out waddled a small duck, no bigger than Sam's red bucket.
 
 The duck had a long willow twig held sideways in its bill.
 
@@ -96,9 +96,9 @@ Three points.
 
 And one long, wiggly line.
 
-Pip's nose twitched.
+Sam's nose twitched.
 
-Moss looked at the marks. Then at the duck. Then at the marks again.
+Danny looked at the marks. Then at the duck. Then at the marks again.
 
 It wasn't the heron.
 
@@ -108,21 +108,21 @@ The little duck was carrying a twig, perhaps to tuck beside the reeds.
 
 The duck waddled past them without stopping. The twig made a small curve in the mud as it went.
 
-Pip watched until the duck disappeared into the green leaves.
+Sam watched until the duck disappeared into the green leaves.
 
-Then Pip set the feather down where he had found it.
+Then Sam set the feather down where he had found it.
 
 The friends were hungry now.
 
-They sat on a patch of dry grass and shared the apple slices. Hazel had brought a pear, so there was enough for everyone.
+They sat on a patch of dry grass and shared the apple slices. Kate had brought a pear, so there was enough for everyone.
 
-Pip floated his leaf boat beside the reeds, where the water was still.
+Sam floated his leaf boat beside the reeds, where the water was still.
 
-Moss watched its reflection move slowly across the pond.
+Danny watched its reflection move slowly across the pond.
 
-There were many little marks along the shore: duck feet, a beetle's winding path, and a round dent where Hazel's basket had sat.
+There were many little marks along the shore: duck feet, a beetle's winding path, and a round dent where Kate's basket had sat.
 
-Pip didn't know who had made every mark.
+Sam didn't know who had made every mark.
 
 He liked looking at them anyway.
 
@@ -140,7 +140,7 @@ And the long, thin line stayed in the mud until the evening breeze dried it.
 
 **What the story offers:** Two plausible guesses are revised when the friends see the actual duck and twig. Neither guesser is punished or embarrassed. “Look again” is demonstrated as an action rather than delivered as a moral. The imagined track marks are *fictional*, not a field-identification guide: actual bird tracks vary by species, substrate, and movement.
 
-**Optional conversation:** “What made the long line?” or “What did Pip and Moss find out when they waited?” If the child wants to collect clues, a toy-trail game on paper or in damp sand is safer and clearer than expecting accurate wildlife tracking.
+**Optional conversation:** “What made the long line?” or “What did Sam and Danny find out when they waited?” If the child wants to collect clues, a toy-trail game on paper or in damp sand is safer and clearer than expecting accurate wildlife tracking.
 
 **Developmental reading and rationale:**
 

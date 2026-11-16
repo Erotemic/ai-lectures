@@ -12,19 +12,19 @@ It was not a long cave.
 
 It was more like a roomy stone porch with a roof and a back wall.
 
-On a warm afternoon, a little mountain goat named Fern came to sit beside it with Grandpa Goat.
+On a warm afternoon, a little mountain goat named Fran came to sit beside it with Grandpa Goat.
 
 They had brought a small blanket and two round pears.
 
 Grandpa spread the blanket on the grass outside the cave.
 
-Fern sat on one corner.
+Fran sat on one corner.
 
 Grandpa sat on the other.
 
 They ate their pears and listened to the soft wind in the grass.
 
-When Fern had finished, she looked toward the stone wall inside the cave.
+When Fran had finished, she looked toward the stone wall inside the cave.
 
 She wondered what would happen if she said hello.
 
@@ -36,13 +36,13 @@ A moment later, something answered from the cave.
 
 "Hello."
 
-Fern looked at Grandpa.
+Fran looked at Grandpa.
 
 Grandpa smiled.
 
 He explained that it was her own hello coming back after bouncing from the stone wall.
 
-Fern thought this was a very good trick for a wall to know.
+Fran thought this was a very good trick for a wall to know.
 
 She tried another word.
 
@@ -56,15 +56,15 @@ Just the sound of the word.
 
 "Pear."
 
-Fern laughed.
+Fran laughed.
 
 The cave gave back a tiny piece of her laugh.
 
-That made Fern laugh again.
+That made Fran laugh again.
 
 For a moment, the hill had two laughing goats and one very funny wall.
 
-Grandpa watched as Fern tried different words.
+Grandpa watched as Fran tried different words.
 
 "Woolly."
 
@@ -76,15 +76,15 @@ The cave sent back a small puddle.
 
 "Pickle."
 
-The cave sent back a pickle so quietly that Fern almost missed it.
+The cave sent back a pickle so quietly that Fran almost missed it.
 
 She decided the cave must be tired.
 
 Grandpa told her that the wall had not changed.
 
-Fern's voice had simply grown quieter.
+Fran's voice had simply grown quieter.
 
-That made Fern curious.
+That made Fran curious.
 
 She said the next word in a whisper.
 
@@ -92,7 +92,7 @@ She said the next word in a whisper.
 
 The answer was very faint.
 
-Fern listened carefully.
+Fran listened carefully.
 
 She could hear the word, just barely.
 
@@ -112,7 +112,7 @@ The little drops had their own soft sound.
 
 Grandpa folded the pear wrappers into his bag.
 
-Fern lay back on the blanket and watched a single thin cloud cross the sky.
+Fran lay back on the blanket and watched a single thin cloud cross the sky.
 
 The cave stayed where it was, quiet and cool.
 
@@ -120,7 +120,7 @@ A beetle walked past the edge of the blanket.
 
 A breeze moved the grass.
 
-Fern thought of all the words she had sent toward the wall.
+Fran thought of all the words she had sent toward the wall.
 
 Hello.
 
@@ -134,15 +134,15 @@ She thought of one more word, but she didn't say it yet.
 
 Grandpa began to fold the blanket.
 
-Fern helped by holding down one corner with her hoof.
+Fran helped by holding down one corner with her hoof.
 
 When the blanket was folded, they stood together and looked at the shallow cave one last time.
 
-Fern leaned close to Grandpa and whispered, "Goodnight."
+Fran leaned close to Grandpa and whispered, "Goodnight."
 
 Far inside, the stone wall returned the faintest little goodnight.
 
-Grandpa took Fern's hoof.
+Grandpa took Fran's hoof.
 
 They walked home along the grassy path.
 
@@ -158,7 +158,7 @@ And at the bottom of the hill, a little puddle quietly caught one more drop.
 
 **Why this one exists:** This is a listening game with one simple acoustic observation: a sound can be heard again after reflecting from a wall. The story avoids a character voice for the echo and keeps a trusted adult nearby. It offers a sensory shift from words and giggles to small environmental sounds. The cave is an invented, shallow porch-like shelter, not an invitation to explore real caves or rocky openings.
 
-**Optional prompt:** “What quiet sound did Fern hear after she stopped talking?” It is also fine to skip the question and simply listen to the end.
+**Optional prompt:** “What quiet sound did Fran hear after she stopped talking?” It is also fine to skip the question and simply listen to the end.
 
 **Sources and limits:** [NAEYC, Rebecca Parlakian, *Rocking and Rolling: Fostering Curiosity in Infants and Toddlers* (2020)](https://www.naeyc.org/resources/pubs/yc/dec2020/fostering-curiosity-infants) discusses attending to changes in sensory experiences and following children's curiosity. [CDC, *Milestones by 3 Years* (2026), “Parenting Tips and Activities”](https://www.cdc.gov/act-early/milestones/3-years.html) recommends simple songs, rhymes and noticing games. They are **not** validations of this fictional scenario, an acoustics manual, or evidence of a therapeutic sleep effect.
 

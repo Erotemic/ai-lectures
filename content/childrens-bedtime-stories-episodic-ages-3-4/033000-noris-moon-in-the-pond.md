@@ -1,12 +1,12 @@
-# 033000 - Nori's Moon in the Pond
+# 033000 - Kim's Moon in the Pond
 
 **Collection:** Children's Bedtime Stories - Episodic (Ages 3-4). **Series:** Willow Bend and the Little Lights. **Season:** Six. **Episode:** 3 of six. **Form:** Original, single-narrator story. **Continuity:** Moon appearances across a sequence of evenings and established homes.
 
 <!-- BEGIN SPOKEN LECTURE -->
 
-# Nori's Moon in the Pond
+# Kim's Moon in the Pond
 
-Nori was very good at noticing small things.
+Kim was very good at noticing small things.
 
 She could notice a beetle walking beside a stone.
 
@@ -18,25 +18,25 @@ There were still three pebbles in the pouch.
 
 Her favorite was the round gray one with a white stripe.
 
-One evening, when the sky had begun to turn blue-gray, Nori and her grown-up took a short walk along the dry path beside Round Pond.
+One evening, when the sky had begun to turn blue-gray, Kim and her grown-up took a short walk along the dry path beside Round Pond.
 
 They did not go into the water.
 
 They stopped at the familiar open spot where the willow branches did not block the sky.
 
-Nori looked up.
+Kim looked up.
 
 There was the Moon.
 
 This time its bright part looked like half a circle.
 
-"A half-looking Moon," Nori said.
+"A half-looking Moon," Kim said.
 
 Her grown-up smiled.
 
 "We can see about half of the bright round face from here tonight."
 
-Nori looked down.
+Kim looked down.
 
 And there was another Moon.
 
@@ -48,7 +48,7 @@ Her grown-up looked from sky to water.
 
 "One Moon, and one reflection."
 
-Nori knew something about reflections. She had seen her own face in a smooth bowl of water at home.
+Kim knew something about reflections. She had seen her own face in a smooth bowl of water at home.
 
 But this reflection was much bigger than a bowl.
 
@@ -64,7 +64,7 @@ It bent.
 
 It broke into several bright wiggles.
 
-Nori counted them.
+Kim counted them.
 
 "One, two, three, four—"
 
@@ -74,7 +74,7 @@ A ripple joined two wiggles together.
 
 Her grown-up asked, "What happened to the Moon in the sky?"
 
-Nori looked up.
+Kim looked up.
 
 The half-looking Moon was still there, calm and bright.
 
@@ -88,7 +88,7 @@ The water changed the picture.
 
 It had not changed the Moon.
 
-Nori sat on a dry, low stone a little way back from the pond's edge.
+Kim sat on a dry, low stone a little way back from the pond's edge.
 
 She thought for a moment about her striped pebble. Its line sometimes looked like a tiny road.
 
@@ -106,17 +106,17 @@ The frogs at the far end of the pond made small calls to one another.
 
 And each time the water settled, a clearer reflection appeared.
 
-"It's like a picture that won't sit still," Nori said.
+"It's like a picture that won't sit still," Kim said.
 
 "A picture made of water," said her grown-up.
 
-Nori tried to make the face that the pond might make if it were proud of its picture.
+Kim tried to make the face that the pond might make if it were proud of its picture.
 
 She puffed out her cheeks, blinked solemnly, and nodded at the Moon.
 
 Her grown-up laughed.
 
-"The pond is a very serious painter," Nori said.
+"The pond is a very serious painter," Kim said.
 
 Then, very quietly, she made a tiny splashing sound with her lips.
 
@@ -128,7 +128,7 @@ They watched until the last pink color had gone from the clouds.
 
 Then it was time to go home.
 
-Nori followed the dry path with her grown-up, past the willow and toward the place where the Round Pond neighbors lived.
+Kim followed the dry path with her grown-up, past the willow and toward the place where the Round Pond neighbors lived.
 
 Her violet pouch rested at her side.
 
@@ -140,11 +140,11 @@ She had only looked.
 
 That was enough for one evening.
 
-At her window, Nori could still see the bright half-looking Moon in the sky.
+At her window, Kim could still see the bright half-looking Moon in the sky.
 
 The pond was farther away now, out of sight.
 
-But Nori remembered its wiggly picture.
+But Kim remembered its wiggly picture.
 
 She tucked the pouch beside her bed and closed her eyes.
 
@@ -152,15 +152,15 @@ The water could keep moving.
 
 The Moon could keep shining.
 
-And Nori could be very, very still.
+And Kim could be very, very still.
 
 <!-- END SPOKEN LECTURE -->
 
 ## For parents and caregivers - not spoken
 
-**What carries forward:** A later evening near first quarter, Nori and her grown-up observe the Moon and its changing reflection from the dry path beside Round Pond. The violet pouch and all three pebbles return home. No stone enters the pond; no artifact is made or left behind.
+**What carries forward:** A later evening near first quarter, Kim and her grown-up observe the Moon and its changing reflection from the dry path beside Round Pond. The violet pouch and all three pebbles return home. No stone enters the pond; no artifact is made or left behind.
 
-**Why this episode exists:** The story distinguishes a distant object from a variable image of it in water, then allows Nori to stop investigating and rest. The pond painter joke is just a joke.
+**Why this episode exists:** The story distinguishes a distant object from a variable image of it in water, then allows Kim to stop investigating and rest. The pond painter joke is just a joke.
 
 **Optional prompt:** "What happened to the picture when the water moved?" Optional, especially at bedtime.
 

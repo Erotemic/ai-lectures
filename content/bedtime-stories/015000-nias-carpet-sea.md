@@ -1,12 +1,12 @@
-# 015000 — Nia's Carpet Sea
+# 015000 — Lisa's Carpet Sea
 
 **Collection:** Children's Bedtime Stories. **Age range:** Ages 3–4 (primarily age three). **Form:** Original, single-narrator fiction. **Story shape:** A bedroom becomes a little sea, then returns to being a bedroom.
 
 <!-- BEGIN SPOKEN LECTURE -->
 
-# Nia's Carpet Sea
+# Lisa's Carpet Sea
 
-On a rainy evening, Nia sat on her bedroom rug.
+On a rainy evening, Lisa sat on her bedroom rug.
 
 Most of her toys were put away.
 
@@ -14,7 +14,7 @@ Her pajamas were on.
 
 Grandma was folding a blue blanket at the end of the bed.
 
-Nia watched the blanket fall into soft folds.
+Lisa watched the blanket fall into soft folds.
 
 It looked like water.
 
@@ -22,7 +22,7 @@ Not real water, of course.
 
 Blanket water.
 
-Nia asked Grandma to lay the blanket on the rug.
+Lisa asked Grandma to lay the blanket on the rug.
 
 Grandma spread it out, and a little blue sea appeared in the middle of the room.
 
@@ -30,7 +30,7 @@ It had hills and valleys where the folds lay.
 
 It had a long, flat shore near the bed.
 
-Nia found a cushion and placed it beside the sea.
+Lisa found a cushion and placed it beside the sea.
 
 It was her boat.
 
@@ -38,7 +38,7 @@ She sat on it and held a wooden spoon like a paddle.
 
 Grandma sat beside the bed, where she could watch the voyage.
 
-Nia pushed her pretend paddle through the pretend water.
+Lisa pushed her pretend paddle through the pretend water.
 
 The boat did not move.
 
@@ -46,19 +46,19 @@ That was all right.
 
 In a pretend sea, a boat could travel without moving at all.
 
-Nia looked across the blue folds.
+Lisa looked across the blue folds.
 
 Far away, on the other side of the blanket, stood a tall island.
 
 It was a folded towel.
 
-Nia named it Towel Mountain.
+Lisa named it Towel Mountain.
 
 She steered her boat toward it.
 
 The cushion stayed in place, but the journey felt very long.
 
-Nia passed a tiny white island made from one rolled-up sock.
+Lisa passed a tiny white island made from one rolled-up sock.
 
 She called it Sock Island.
 
@@ -66,7 +66,7 @@ It was the smallest island in the whole sea.
 
 Grandma asked whether anyone lived there.
 
-Nia thought about that.
+Lisa thought about that.
 
 Perhaps one very small bear lived there, she said.
 
@@ -76,7 +76,7 @@ The bear sat very seriously upon the sock.
 
 It looked like the keeper of an important lighthouse.
 
-Nia waved to the bear and continued her voyage.
+Lisa waved to the bear and continued her voyage.
 
 She reached Towel Mountain just as an imaginary breeze began to blow.
 
@@ -84,7 +84,7 @@ The breeze was not strong.
 
 It was a good breeze for a little boat on a little sea.
 
-Nia pulled the spoon toward her, then pushed it away.
+Lisa pulled the spoon toward her, then pushed it away.
 
 She paddled around Towel Mountain.
 
@@ -94,7 +94,7 @@ There was a quiet bay where the blanket lay smooth and flat.
 
 It was just the right size for the stuffed bear's afternoon nap.
 
-Nia picked up the bear from Sock Island and brought it to the bay.
+Lisa picked up the bear from Sock Island and brought it to the bay.
 
 She made a little bed with the corner of the blue blanket.
 
@@ -112,7 +112,7 @@ Grandma looked at the little bear tucked into its pretend bed.
 
 She said the sea seemed to have a comfortable place to rest.
 
-Nia looked toward her own bed.
+Lisa looked toward her own bed.
 
 It had a pillow.
 
@@ -120,7 +120,7 @@ A quilt.
 
 And a place for a small stuffed bear, if the bear was finished being the lighthouse keeper.
 
-Nia steered her cushion boat slowly home.
+Lisa steered her cushion boat slowly home.
 
 She passed Towel Mountain again.
 
@@ -140,19 +140,19 @@ Sock Island became a sock.
 
 The cushion was a cushion again.
 
-Nia carried her little bear to bed and tucked it beside her pillow.
+Lisa carried her little bear to bed and tucked it beside her pillow.
 
 Grandma pulled the quilt over them both.
 
 The room looked just like it had before the voyage.
 
-Except that Nia knew how wide a sea could be, even when it was no wider than a blanket.
+Except that Lisa knew how wide a sea could be, even when it was no wider than a blanket.
 
 The rain made a gentle sound at the window.
 
 The bear lay still.
 
-And Nia's cushion boat rested beside the bed, ready to sail another day.
+And Lisa's cushion boat rested beside the bed, ready to sail another day.
 
 <!-- END SPOKEN LECTURE -->
 

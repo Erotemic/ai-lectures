@@ -60,19 +60,19 @@ Tink laughed.
 
 He took the hat off and carried it outside.
 
-By then his neighbor, a snail named Dot, had come to see what all the bumping was about.
+By then his neighbor, a snail named Meg, had come to see what all the bumping was about.
 
-Dot admired the hat.
+Meg admired the hat.
 
 She asked if she might try it on.
 
-Tink set it very carefully on Dot's shell.
+Tink set it very carefully on Meg's shell.
 
 The hat looked magnificent.
 
-It also made Dot look like a snail with a green tree growing from her back.
+It also made Meg look like a snail with a green tree growing from her back.
 
-Dot took three slow steps.
+Meg took three slow steps.
 
 The petal at the top swayed left, then right.
 
@@ -80,13 +80,13 @@ When she tried to turn the corner by the pebble fountain, the hat brushed agains
 
 A tiny shower of dry leaves fell onto the path.
 
-Dot didn't mind.
+Meg didn't mind.
 
 She thought the hat was an excellent roof duster.
 
-Next, a ladybug named Finn asked to try it.
+Next, a ladybug named Pat asked to try it.
 
-On Finn, the hat leaned so far to one side that it made a little green bridge.
+On Pat, the hat leaned so far to one side that it made a little green bridge.
 
 Two ants walked underneath.
 
@@ -102,9 +102,9 @@ There it stood perfectly straight.
 
 Now the hat looked like a tower.
 
-Dot sat beside the fence.
+Meg sat beside the fence.
 
-Finn sat on a smooth stone.
+Pat sat on a smooth stone.
 
 Two more neighbors arrived, carrying cups of berry tea.
 
@@ -124,9 +124,9 @@ Then twice.
 
 The ants finished their walk beneath the hat.
 
-Dot tucked herself comfortably beside the fence.
+Meg tucked herself comfortably beside the fence.
 
-Finn folded her wings.
+Pat folded her wings.
 
 Tink took a small sip of tea.
 

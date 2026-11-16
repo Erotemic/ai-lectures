@@ -1,14 +1,14 @@
-# 010000 — Pip's Very Small Parade
+# 010000 — Sam's Very Small Parade
 
 **Collection:** Children's Bedtime Stories. **Age range:** Ages 3–4 (primarily age three). **Form:** Original, single-narrator fiction. **Story shape:** A very small parade grows in delight, not in importance.
 
 <!-- BEGIN SPOKEN LECTURE -->
 
-# Pip's Very Small Parade
+# Sam's Very Small Parade
 
-One afternoon, Pip the mouse found a red leaf.
+One afternoon, Sam the mouse found a red leaf.
 
-It was the reddest leaf Pip had ever seen.
+It was the reddest leaf Sam had ever seen.
 
 He held it up by the stem and marched across the kitchen rug.
 
@@ -16,7 +16,7 @@ One step. Two steps. Three steps.
 
 The leaf bobbed above his head like a flag.
 
-Pip looked behind him.
+Sam looked behind him.
 
 There was nobody there.
 
@@ -28,41 +28,41 @@ This was not a very big parade.
 
 But it was a beginning.
 
-Pip marched past the chair and out to the garden path.
+Sam marched past the chair and out to the garden path.
 
-Moss the rabbit was sitting beside a basket of carrots.
+Danny the rabbit was sitting beside a basket of carrots.
 
-Moss watched Pip go by.
+Danny watched Sam go by.
 
 He watched the red leaf wave from side to side.
 
-He watched Pip march around a pebble and back again.
+He watched Sam march around a pebble and back again.
 
-Moss wondered where the parade was going.
+Danny wondered where the parade was going.
 
-Pip didn't know.
+Sam didn't know.
 
-So Moss picked up a carrot with its green top still on and joined in.
+So Danny picked up a carrot with its green top still on and joined in.
 
-Pip carried a red flag.
+Sam carried a red flag.
 
-Moss carried a carrot.
+Danny carried a carrot.
 
 The parade went around the pebble again.
 
 It was twice as long as before.
 
-Soon they met Hazel the hedgehog.
+Soon they met Kate the hedgehog.
 
-Hazel was polishing a smooth, round stone.
+Kate was polishing a smooth, round stone.
 
 She asked whether the parade had a special occasion.
 
-Pip thought for a moment.
+Sam thought for a moment.
 
 Then he said that the leaf was very red.
 
-Hazel examined the leaf.
+Kate examined the leaf.
 
 It certainly was.
 
@@ -74,23 +74,23 @@ But she had four small feet, and all four knew how to march.
 
 The three friends went around the pebble again.
 
-Pip went first.
+Sam went first.
 
-Moss went second.
+Danny went second.
 
-Hazel went third.
+Kate went third.
 
-When they came back to the beginning, Tavi the little bird landed on a low branch.
+When they came back to the beginning, Beth the little bird landed on a low branch.
 
-Tavi wanted to know why everyone kept walking around the same pebble.
+Beth wanted to know why everyone kept walking around the same pebble.
 
-Pip held up the leaf.
+Sam held up the leaf.
 
-Moss held up the carrot.
+Danny held up the carrot.
 
-Hazel wiggled all four feet.
+Kate wiggled all four feet.
 
-Tavi found this explanation quite satisfactory.
+Beth found this explanation quite satisfactory.
 
 She flew down and joined them, taking little hops instead of steps.
 
@@ -106,25 +106,25 @@ They marched past a snail resting on a cool stone.
 
 The snail lifted its little feelers to watch them go by.
 
-Pip waved his leaf.
+Sam waved his leaf.
 
-Moss waved his carrot.
+Danny waved his carrot.
 
-Hazel waved one paw and almost lost her balance.
+Kate waved one paw and almost lost her balance.
 
-Tavi hopped in a small circle.
+Beth hopped in a small circle.
 
 Then something funny happened.
 
-A breeze blew across the path and lifted Pip's red leaf right out of his paws.
+A breeze blew across the path and lifted Sam's red leaf right out of his paws.
 
 Up it floated.
 
-Over Moss's ears.
+Over Danny's ears.
 
-Over Hazel's basket.
+Over Kate's basket.
 
-Past Tavi's branch.
+Past Beth's branch.
 
 And down it came, very slowly, onto the snail's shell.
 
@@ -132,21 +132,21 @@ The snail now had a splendid red hat.
 
 Nobody had planned that.
 
-Pip laughed.
+Sam laughed.
 
-Moss laughed.
+Danny laughed.
 
-Hazel laughed so hard that she had to sit down.
+Kate laughed so hard that she had to sit down.
 
-Tavi gave one happy little chirp.
+Beth gave one happy little chirp.
 
 The snail stayed exactly where it was.
 
 Perhaps it was enjoying the hat.
 
-After a while the breeze lifted the leaf again and laid it gently at Pip's feet.
+After a while the breeze lifted the leaf again and laid it gently at Sam's feet.
 
-Pip picked it up.
+Sam picked it up.
 
 The light had turned golden. The garden was growing still.
 
@@ -156,13 +156,13 @@ It had traveled all the way around the garden.
 
 And, several times, around one very good pebble.
 
-Moss carried his carrot home.
+Danny carried his carrot home.
 
-Hazel carried her stone.
+Kate carried her stone.
 
-Tavi flew to her nest.
+Beth flew to her nest.
 
-Pip carried the red leaf back through the kitchen and into his little room.
+Sam carried the red leaf back through the kitchen and into his little room.
 
 He set it on the windowsill, where the evening light made it glow.
 

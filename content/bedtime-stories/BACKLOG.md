@@ -47,23 +47,23 @@ metadata sidecars. No claim of measured developmental efficacy.
 
 ## Added: 010000–015000 — lighter stories for the same age range
 
-- 010000 — Pip's Very Small Parade: a gentle escalating parade and accidental snail hat; no assigned moral.
-- 011000 — Nia and the Backward Pajamas: ordinary bedtime turned silly; no assigned moral.
-- 012000 — Otis and the Leaf Letter: a miniature journey with scale jokes; no assigned moral.
-- 013000 — Pip's Pillow Orchestra: soft-sound play, comic mistakes, and a quieter ending.
-- 014000 — Hazel's Hat Shop: visual comedy and pretend hats for garden objects; no assigned moral.
-- 015000 — Nia's Carpet Sea: imaginative play returns to a familiar room before bed.
+- 010000 — Sam's Very Small Parade: a gentle escalating parade and accidental snail hat; no assigned moral.
+- 011000 — Lisa and the Backward Pajamas: ordinary bedtime turned silly; no assigned moral.
+- 012000 — Pete and the Leaf Letter: a miniature journey with scale jokes; no assigned moral.
+- 013000 — Sam's Pillow Orchestra: soft-sound play, comic mistakes, and a quieter ending.
+- 014000 — Kate's Hat Shop: visual comedy and pretend hats for garden objects; no assigned moral.
+- 015000 — Lisa's Carpet Sea: imaginative play returns to a familiar room before bed.
 
 **Editorial balance:** Across the collection, stories may be playful, emotionally substantive, curious, or soothing. No virtue-of-the-week obligation. Cited caregiver notes stay outside narration and never claim the stories were evaluated for developmental effects.
 
 ## Added: 016000–021000 — playful range with quieter endings
 
-- 016000 — Nia's Cardboard Moon Mission: a safely contained pretend rocket trip, no assigned moral.
-- 017000 — Pip and the Very Long Goodnight: cumulative bedtime joke, no assigned moral.
-- 018000 — Moss and the Wobbly Pancake: comic cooking shapes and a small disappointment, without a moralizing ending.
-- 019000 — Hazel's Museum of Ordinary Things: imaginative naming and an absurd gift shop, no assigned moral.
-- 020000 — Otis and the Leaf Umbrella: two different preferences about rain, a light practical kindness.
-- 021000 — Tavi's Nest of Soft Things: tactile trial-and-error with a supportive adult, comforting closure.
+- 016000 — Lisa's Cardboard Moon Mission: a safely contained pretend rocket trip, no assigned moral.
+- 017000 — Sam and the Very Long Goodnight: cumulative bedtime joke, no assigned moral.
+- 018000 — Danny and the Wobbly Pancake: comic cooking shapes and a small disappointment, without a moralizing ending.
+- 019000 — Kate's Museum of Ordinary Things: imaginative naming and an absurd gift shop, no assigned moral.
+- 020000 — Pete and the Leaf Umbrella: two different preferences about rain, a light practical kindness.
+- 021000 — Beth's Nest of Soft Things: tactile trial-and-error with a supportive adult, comforting closure.
 
 **Quality rule:** Fun and a satisfying bedtime close are sufficient. Keep caregiver sources precise and outside narration. Claims about benefits from hearing any of these exact manuscripts require research we have not performed. No fixed lecture/story duration target.
 
@@ -81,7 +81,7 @@ All six remain original, one-narrator fiction for ages 3–4 (primarily three). 
 ## Added: 028000–033000 — lighter stories plus one real-world shadow idea
 
 - 028000 — A dragon sneezes daisies at a picnic; absurd and harmless, no assigned moral.
-- 029000 — An ordinary wagon travels the garden with Nia and Grandpa, including an easy cooperative bump.
+- 029000 — An ordinary wagon travels the garden with Lisa and Grandpa, including an easy cooperative bump.
 - 030000 — A picture map is upside down; a small orientation puzzle with no required answer.
 - 031000 — A moth discovers an oversized shadow from a paper lantern with an electric light; no flame or acting voice.
 - 032000 — A quilt for a mouse becomes a quilt for a giant's toe; gentle scale joke, gift returned.
@@ -92,12 +92,12 @@ All six remain text-only single-narrator stories for ages 3–4, primarily age t
 
 ## Added: 034000–039000 — a varied six-story batch
 
-- 034000 — Walking bakery on Olive's turtle shell, harmless neighborhood comedy.
-- 035000 — Nia's invisible *pretend* dinosaur; ordinary bedroom objects become clues.
-- 036000 — Bram the bat's upside-down rest; factual roosting, fictional companionship.
-- 037000 — Make-believe clock dreams while Nia's household grows quiet.
-- 038000 — Hazel paints the wind through moving ribbons; visual observation and art.
-- 039000 — Young seal Sula finds quieter sounds beside her mother at the shore.
+- 034000 — Walking bakery on June's turtle shell, harmless neighborhood comedy.
+- 035000 — Lisa's invisible *pretend* dinosaur; ordinary bedroom objects become clues.
+- 036000 — Eddie the bat's upside-down rest; factual roosting, fictional companionship.
+- 037000 — Make-believe clock dreams while Lisa's household grows quiet.
+- 038000 — Kate paints the wind through moving ribbons; visual observation and art.
+- 039000 — Young seal Dora finds quieter sounds beside her mother at the shore.
 
 Each remains one-narrator original fiction for ages 3–4, primarily three,
 with direct caregiver references and source-specific limits. None has an

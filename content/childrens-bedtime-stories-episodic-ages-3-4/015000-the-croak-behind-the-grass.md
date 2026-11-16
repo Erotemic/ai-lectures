@@ -6,7 +6,7 @@
 
 # The Croak Behind the Grass
 
-Nori had brought a small question to breakfast.
+Kim had brought a small question to breakfast.
 
 She had been near Reed Meadow the evening before, walking with her grown-up on the dry path.
 
@@ -18,29 +18,29 @@ Not the tiny tok of a pebble under her shoe.
 
 Something else.
 
-"Bup," Nori told Tess when they met the next morning.
+"Bup," Kim told Amy when they met the next morning.
 
-Tess blinked.
+Amy blinked.
 
 "Bup?"
 
-"Just like that," said Nori. "Only a little rounder."
+"Just like that," said Kim. "Only a little rounder."
 
-Bo arrived wearing his red scarf. He carried the blue Book of Little Sounds, which already held two pages of drawings.
+Ben arrived wearing his red scarf. He carried the blue Book of Little Sounds, which already held two pages of drawings.
 
-"Did it come from a bump?" Bo asked.
+"Did it come from a bump?" Ben asked.
 
-"I didn't see a bump," Nori replied.
+"I didn't see a bump," Kim replied.
 
-Grandma Fern had agreed to accompany the friends along the familiar path, past Pebble Bridge and Round Pond to the reed-lined meadow.
+Grandma May had agreed to accompany the friends along the familiar path, past Pebble Bridge and Round Pond to the reed-lined meadow.
 
 They walked on the dry rise above the wet hollow, with the tall reeds swaying below.
 
 Shhhh, said the leaves to one another.
 
-"That's not it," Nori said.
+"That's not it," Kim said.
 
-Bo listened.
+Ben listened.
 
 A little twig snapped under his shoe.
 
@@ -48,7 +48,7 @@ Tick.
 
 "Not that either."
 
-They sat where Grandma Fern could see the path and the grassy bank.
+They sat where Grandma May could see the path and the grassy bank.
 
 For a while nothing happened.
 
@@ -56,15 +56,15 @@ Then, from behind a tuft of grass, came a small sound.
 
 Bup.
 
-Bo looked at Tess.
+Ben looked at Amy.
 
-Tess looked at Nori.
+Amy looked at Kim.
 
-Nori pointed toward the tuft.
+Kim pointed toward the tuft.
 
 "That's the one."
 
-"Perhaps the grass has a hiccup," Bo suggested.
+"Perhaps the grass has a hiccup," Ben suggested.
 
 Another bup came from the same place.
 
@@ -74,23 +74,23 @@ They belonged to a small frog.
 
 The frog hopped onto a dry patch of earth and looked at the visitors.
 
-"Hello," he said. "I'm Rill."
+"Hello," he said. "I'm Todd."
 
-Rill lived near Reed Meadow with Aunt Cress, an older frog who was sitting on a flat stone a little farther along the dry bank.
+Todd lived near Reed Meadow with Aunt Pat, an older frog who was sitting on a flat stone a little farther along the dry bank.
 
-Rill wore his yellow boots because he liked them. One boot had a tiny blue patch on the side.
+Todd wore his yellow boots because he liked them. One boot had a tiny blue patch on the side.
 
-"Were you making that sound?" Nori asked.
+"Were you making that sound?" Kim asked.
 
-Rill nodded.
+Todd nodded.
 
 "I was trying a short croak. Sometimes it comes out as bup."
 
-Bo considered this very carefully.
+Ben considered this very carefully.
 
 "Can you make a long one?"
 
-Rill thought for a moment.
+Todd thought for a moment.
 
 "I can try."
 
@@ -98,59 +98,59 @@ He took a breath.
 
 "Buuuuup."
 
-Bo was delighted.
+Ben was delighted.
 
 "That's an extremely long bup."
 
-"I practiced," Rill said.
+"I practiced," Todd said.
 
-Aunt Cress gave a small wave from her stone. Grandma Fern waved back.
+Aunt Pat gave a small wave from her stone. Grandma May waved back.
 
-Tess told Rill about the map. It had the Village Green, the old mill, Bell Hill, Far Meadow, and now the path to Reed Meadow.
+Amy told Todd about the map. It had the Village Green, the old mill, Bell Hill, Far Meadow, and now the path to Reed Meadow.
 
-"Do you have the yellow boots on it?" Rill asked.
+"Do you have the yellow boots on it?" Todd asked.
 
-"Not yet," Tess said.
+"Not yet," Amy said.
 
-Rill sat down to show her the blue patch on his boot.
+Todd sat down to show her the blue patch on his boot.
 
-Tess drew one tiny yellow boot by the curve of the reeds.
+Amy drew one tiny yellow boot by the curve of the reeds.
 
-Bo opened the third page of his book.
+Ben opened the third page of his book.
 
 "Can I save your sound?"
 
-Rill looked puzzled.
+Todd looked puzzled.
 
 "Will it still be mine?"
 
-"Of course," Bo said. "A picture of it. The real noise stays with you."
+"Of course," Ben said. "A picture of it. The real noise stays with you."
 
-Rill smiled.
+Todd smiled.
 
-Bo drew a little round shape and three lines coming from it.
+Ben drew a little round shape and three lines coming from it.
 
-"That looks like a biscuit trying to sing," Tess said.
+"That looks like a biscuit trying to sing," Amy said.
 
-"A very good biscuit," Bo agreed.
+"A very good biscuit," Ben agreed.
 
-Grandma Fern wrote one word beneath the picture.
+Grandma May wrote one word beneath the picture.
 
 Bup.
 
-Then she added a second, longer word at Rill's request.
+Then she added a second, longer word at Todd's request.
 
 Buuuuup.
 
-The friends spent a little while talking about places they knew. Rill had never seen the silver-spotted orange lantern at the Story House. Bo had never seen Aunt Cress's collection of broad, smooth leaves that she kept on her windowsill.
+The friends spent a little while talking about places they knew. Todd had never seen the silver-spotted orange lantern at the Story House. Ben had never seen Aunt Pat's collection of broad, smooth leaves that she kept on her windowsill.
 
-"Maybe you can visit the village someday," Tess said.
+"Maybe you can visit the village someday," Amy said.
 
-"Maybe I will," Rill replied. "I'd like to hear the bridge."
+"Maybe I will," Todd replied. "I'd like to hear the bridge."
 
-When it was time to go, Nori said goodbye first. Bo waved with his enormous paper listening hat, which he had carried in his bag. Rill waved one yellow boot in return.
+When it was time to go, Kim said goodbye first. Ben waved with his enormous paper listening hat, which he had carried in his bag. Todd waved one yellow boot in return.
 
-At home, Bo opened his book to the third page.
+At home, Ben opened his book to the third page.
 
 The little round picture was still there.
 
@@ -160,7 +160,7 @@ But he could remember how the real bup had surprised everyone among the reeds.
 
 He closed the book gently.
 
-East of Round Pond, the reeds moved once in the breeze. Rill took off his yellow boots and set them neatly by his resting place.
+East of Round Pond, the reeds moved once in the breeze. Todd took off his yellow boots and set them neatly by his resting place.
 
 The path was quiet again.
 
@@ -170,9 +170,9 @@ And everyone in the valley had a comfortable place to sleep.
 
 ## For parents and caregivers - not spoken
 
-**What carries forward:** Rill and Aunt Cress are established at Reed Meadow; Rill wears yellow boots, one with a blue patch; Tess marks a tiny yellow boot on map; third sound-book page holds bup; Rill has not visited village.
+**What carries forward:** Todd and Aunt Pat are established at Reed Meadow; Todd wears yellow boots, one with a blue patch; Amy marks a tiny yellow boot on map; third sound-book page holds bup; Todd has not visited village.
 
-**Why this episode exists:** The children make guesses, discover a new character, and enjoy an invented bup. Real frogs make calls, but Rill’s spoken words and boot-wearing are fictional anthropomorphism. This is original fiction; no developmental or sleep outcome from listening is claimed.
+**Why this episode exists:** The children make guesses, discover a new character, and enjoy an invented bup. Real frogs make calls, but Todd’s spoken words and boot-wearing are fictional anthropomorphism. This is original fiction; no developmental or sleep outcome from listening is claimed.
 
 **Optional prompt:** "How did the friends know where the bup came from?" Optional, especially at bedtime.
 

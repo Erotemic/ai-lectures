@@ -1,18 +1,18 @@
-# 019000 — Hazel's Museum of Ordinary Things
+# 019000 — Kate's Museum of Ordinary Things
 
 **Collection:** Children's Bedtime Stories. **Age range:** Ages 3–4 (primarily age three). **Form:** Original, single-narrator fiction. **Story shape:** A little exhibition turns the garden's everyday objects into surprises.
 
 <!-- BEGIN SPOKEN LECTURE -->
 
-# Hazel's Museum of Ordinary Things
+# Kate's Museum of Ordinary Things
 
-Hazel the hedgehog found a smooth gray stone.
+Kate the hedgehog found a smooth gray stone.
 
 It was not a shiny stone.
 
 It did not sparkle.
 
-It was, as far as Hazel could tell, a very ordinary stone.
+It was, as far as Kate could tell, a very ordinary stone.
 
 But it fit neatly beside the doorway of her little garden home.
 
@@ -26,21 +26,21 @@ Then she found a pine cone, too big for her small basket.
 
 She rolled it home, one careful push at a time.
 
-When Moss the rabbit came by, he stopped to look at the things by Hazel's door.
+When Danny the rabbit came by, he stopped to look at the things by Kate's door.
 
 "What are they for?" he asked.
 
-Hazel was about to say she didn't know.
+Kate was about to say she didn't know.
 
 But she looked at the stone, the leaf, and the pine cone again.
 
 "I think," she said, "they might be a museum."
 
-Moss had never been to a museum with only three things in it.
+Danny had never been to a museum with only three things in it.
 
 He thought that sounded very interesting.
 
-Hazel led him to the stone first.
+Kate led him to the stone first.
 
 "This," she explained, "is the Stone of Sitting Still."
 
@@ -48,17 +48,17 @@ The stone did a beautiful job of sitting still.
 
 It did not wiggle or roll or hop away.
 
-Moss was impressed.
+Danny was impressed.
 
 Next came the leaf.
 
-Hazel held it up carefully.
+Kate held it up carefully.
 
 The holes made three small windows.
 
 "This is a window for someone who is almost the size of a leaf."
 
-Moss peered through one hole.
+Danny peered through one hole.
 
 The world on the other side looked exactly like the garden.
 
@@ -66,29 +66,29 @@ But it looked more important when seen through a leaf window.
 
 At last they reached the pine cone.
 
-Hazel was still thinking of its museum name.
+Kate was still thinking of its museum name.
 
-Moss circled around it.
+Danny circled around it.
 
 "A tiny mountain," he suggested.
 
-Hazel considered.
+Kate considered.
 
 "A mountain for an ant," she said.
 
-"Or a very prickly pineapple," said Moss.
+"Or a very prickly pineapple," said Danny.
 
-Hazel laughed.
+Kate laughed.
 
 They decided it could be both.
 
-Soon Pip the mouse appeared on the path, carrying his red leaf.
+Soon Sam the mouse appeared on the path, carrying his red leaf.
 
 He asked if the museum was open.
 
-Hazel said it was open to anyone who could walk quietly around the exhibits.
+Kate said it was open to anyone who could walk quietly around the exhibits.
 
-Pip walked around the stone.
+Sam walked around the stone.
 
 He looked through the leaf.
 
@@ -98,21 +98,21 @@ Then he asked the question no one had asked yet.
 
 "Where is the gift shop?"
 
-Hazel blinked.
+Kate blinked.
 
-Moss blinked.
+Danny blinked.
 
 Neither had thought of a gift shop.
 
-Pip explained that some museums had gift shops.
+Sam explained that some museums had gift shops.
 
-Hazel thought for a moment.
+Kate thought for a moment.
 
 She pointed to the open garden gate.
 
 There, she said, was the gift shop.
 
-Pip looked through the gate.
+Sam looked through the gate.
 
 There were daisies.
 
@@ -122,9 +122,9 @@ There was a long stretch of ordinary grass.
 
 "What can I buy?" he asked.
 
-"Nothing," Hazel said. "But you may look at everything."
+"Nothing," Kate said. "But you may look at everything."
 
-That was an excellent price, Pip thought.
+That was an excellent price, Sam thought.
 
 He found a fallen yellow leaf and brought it back to show his friends.
 
@@ -136,9 +136,9 @@ When evening came, the friends returned the leaves to a sheltered corner where t
 
 The pine cone stayed beneath the apple tree.
 
-The stone remained beside Hazel's door.
+The stone remained beside Kate's door.
 
-Hazel looked at it before going inside.
+Kate looked at it before going inside.
 
 It was still an ordinary gray stone.
 

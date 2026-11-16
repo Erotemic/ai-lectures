@@ -10,47 +10,47 @@ In Willow Bend, there was a hill with a bench halfway up.
 
 It was called Bell Hill.
 
-Tess knew the bench very well. She had drawn it on her folded yellow map, beside the path that climbed above the village roofs.
+Amy knew the bench very well. She had drawn it on her folded yellow map, beside the path that climbed above the village roofs.
 
 But at the edge of the map, beyond Bell Hill, she had left a space with nothing in it.
 
 Not even a dot.
 
-One sunny morning, Tess looked at that empty space.
+One sunny morning, Amy looked at that empty space.
 
 "Grandma, what's on the other side?" she asked.
 
-"Far Meadow," said Grandma Fern. "Shall we go and have a look?"
+"Far Meadow," said Grandma May. "Shall we go and have a look?"
 
-Tess put the yellow map into her little bag.
+Amy put the yellow map into her little bag.
 
-Bo arrived wearing his red scarf. Nori arrived with her violet pouch, which held three favorite pebbles. Their grown-ups knew about the morning walk, and Grandma Fern would accompany the friends.
+Ben arrived wearing his red scarf. Kim arrived with her violet pouch, which held three favorite pebbles. Their grown-ups knew about the morning walk, and Grandma May would accompany the friends.
 
-"Far Meadow," Bo said. "That sounds like a meadow that goes on for ever."
+"Far Meadow," Ben said. "That sounds like a meadow that goes on for ever."
 
-"It goes on for a little while," Grandma Fern answered. "Then it becomes something else."
+"It goes on for a little while," Grandma May answered. "Then it becomes something else."
 
-"Oh," said Bo. "That's much more sensible."
+"Oh," said Ben. "That's much more sensible."
 
-They passed the Village Green and the Story House, where Bo's orange paper lantern still hung in the window.
+They passed the Village Green and the Story House, where Ben's orange paper lantern still hung in the window.
 
 It was still leaning.
 
-Bo gave it a pleased little nod.
+Ben gave it a pleased little nod.
 
-Then they passed Tess's blue-door cottage, walked beside the crooked apple tree, and began climbing Bell Hill.
+Then they passed Amy's blue-door cottage, walked beside the crooked apple tree, and began climbing Bell Hill.
 
 At the halfway bench, they sat to rest.
 
 From there, Willow Bend looked like a gathering of little roofs tucked beneath green hills.
 
-"I can see the Story House," Tess said.
+"I can see the Story House," Amy said.
 
-"I can almost see my breakfast bowl," Bo said.
+"I can almost see my breakfast bowl," Ben said.
 
-"You can't see your breakfast bowl from here," Nori said.
+"You can't see your breakfast bowl from here," Kim said.
 
-"Then I shall have to remember it," Bo answered.
+"Then I shall have to remember it," Ben answered.
 
 When everyone was ready, they kept walking.
 
@@ -62,11 +62,11 @@ There were swaying grasses. There were little white flowers. And there was a gre
 
 Near the tree lay a broad, flat stone, warmed by the sun.
 
-Tess stopped.
+Amy stopped.
 
 "There's more," she said.
 
-Grandma Fern smiled. "There usually is."
+Grandma May smiled. "There usually is."
 
 Just then, a straw hat rolled slowly out from behind the tree.
 
@@ -80,19 +80,19 @@ A little lamb came trotting after it.
 
 "My hat has gone exploring again," she said.
 
-The lamb's name was Lila. She lived in the cream-colored cottage at the meadow's edge with Aunt Mallow, who was walking over from the cottage now.
+The lamb's name was Wendy. She lived in the cream-colored cottage at the meadow's edge with Aunt Kay, who was walking over from the cottage now.
 
-Lila picked up her hat. A broad blue ribbon was tied around it.
+Wendy picked up her hat. A broad blue ribbon was tied around it.
 
-"Hello," Tess said. "I'm Tess. This is Bo, and this is Nori."
+"Hello," Amy said. "I'm Amy. This is Ben, and this is Kim."
 
-"And this," Bo announced, pointing to the hat, "is a very fast traveler."
+"And this," Ben announced, pointing to the hat, "is a very fast traveler."
 
-"Only when it has a good wind," Lila said.
+"Only when it has a good wind," Wendy said.
 
 She showed them how the meadow breeze came across the grass in little waves. First the tall grass moved near the fence. Then the grass near the stone moved. Then the blue ribbon on her hat fluttered.
 
-Nori stood quietly and watched the waves travel.
+Kim stood quietly and watched the waves travel.
 
 "It looks like the meadow is breathing," she said.
 
@@ -100,53 +100,53 @@ They all looked.
 
 The grass lifted and lowered, lifted and lowered.
 
-Aunt Mallow offered the children a place to sit beside the broad stone while the grown-ups talked nearby.
+Aunt Kay offered the children a place to sit beside the broad stone while the grown-ups talked nearby.
 
-Lila told them she called the tree the Windbreak Tree, because its branches made a sheltered place on breezy days.
+Wendy told them she called the tree the Windbreak Tree, because its branches made a sheltered place on breezy days.
 
-"And the stone?" Bo asked.
+"And the stone?" Ben asked.
 
 "That's the Sitting Stone."
 
-"An excellent name," said Bo, and sat on it at once.
+"An excellent name," said Ben, and sat on it at once.
 
-Tess unfolded her yellow map on her knees.
+Amy unfolded her yellow map on her knees.
 
 She drew the path over Bell Hill. She drew a patch of green for Far Meadow. She drew a big tree with one sideways branch.
 
-"Does the tree look right?" she asked Lila.
+"Does the tree look right?" she asked Wendy.
 
-Lila turned her head one way. Then the other.
+Wendy turned her head one way. Then the other.
 
 "The branch needs to lean more," she said.
 
-Tess made it lean so much that it nearly reached the edge of the paper.
+Amy made it lean so much that it nearly reached the edge of the paper.
 
-"Now it looks exactly right," Lila said.
+"Now it looks exactly right," Wendy said.
 
 They talked until the shadows beside the stone grew a little longer.
 
-Then Grandma Fern said it was time to start home.
+Then Grandma May said it was time to start home.
 
-Lila held her hat firmly with both hooves.
+Wendy held her hat firmly with both hooves.
 
 "Come back," she said. "The grass makes different waves on different days."
 
-"And your hat might take another trip," Bo added.
+"And your hat might take another trip," Ben added.
 
-"It probably will," Lila said.
+"It probably will," Wendy said.
 
-They walked back over Bell Hill with Grandma Fern, past the resting bench, and down into Willow Bend.
+They walked back over Bell Hill with Grandma May, past the resting bench, and down into Willow Bend.
 
-At home, Tess spread the map beside her bed.
+At home, Amy spread the map beside her bed.
 
 Far Meadow had found a place on the yellow paper.
 
-So had the Sitting Stone, the Windbreak Tree, and Lila's little cottage.
+So had the Sitting Stone, the Windbreak Tree, and Wendy's little cottage.
 
 There was still empty space at the edges.
 
-Tess didn't mind.
+Amy didn't mind.
 
 She put the pencil away, folded the map, and tucked it beside her pillow.
 
@@ -160,7 +160,7 @@ And the new places stayed exactly where they were, waiting for another quiet day
 
 ## For parents and caregivers - not spoken
 
-**What carries forward:** Far Meadow visited; Windbreak Tree, Sitting Stone and cream cottage mapped; Lila and Aunt Mallow met; Lila wears a straw hat with blue ribbon.
+**What carries forward:** Far Meadow visited; Windbreak Tree, Sitting Stone and cream cottage mapped; Wendy and Aunt Kay met; Wendy wears a straw hat with blue ribbon.
 
 **Why this episode exists:** The season introduces a new place and new friend without undoing the first season. The waving grass and traveling hat offer a small playful discovery; mapmaking makes continuity concrete, not a skill assessment. No developmental or sleep improvement from listening is asserted.
 

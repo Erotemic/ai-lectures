@@ -1,12 +1,12 @@
-# 017000 — Pip and the Very Long Goodnight
+# 017000 — Sam and the Very Long Goodnight
 
 **Collection:** Children's Bedtime Stories. **Age range:** Ages 3–4 (primarily age three). **Form:** Original, single-narrator fiction. **Story shape:** A cumulative goodnight becomes a little joke before the whole garden rests.
 
 <!-- BEGIN SPOKEN LECTURE -->
 
-# Pip and the Very Long Goodnight
+# Sam and the Very Long Goodnight
 
-Pip the mouse was ready for bed.
+Sam the mouse was ready for bed.
 
 His blanket was folded.
 
@@ -14,7 +14,7 @@ His pillow was plumped.
 
 His little red leaf lay on the windowsill.
 
-Pip looked around his room.
+Sam looked around his room.
 
 "Goodnight, pillow," he said.
 
@@ -28,7 +28,7 @@ Then he noticed his slippers.
 
 It would have been a perfectly good bedtime right there.
 
-But Pip had an idea.
+But Sam had an idea.
 
 Perhaps everything in the room deserved a goodnight.
 
@@ -40,7 +40,7 @@ He said goodnight to the crooked little picture above his bed.
 
 The picture showed a carrot wearing a hat.
 
-Pip had painted it himself.
+Sam had painted it himself.
 
 "Goodnight, carrot with a hat."
 
@@ -48,7 +48,7 @@ The carrot did not answer.
 
 That was all right. It was only a painting.
 
-Pip looked at the windowsill.
+Sam looked at the windowsill.
 
 "Goodnight, red leaf."
 
@@ -60,7 +60,7 @@ The pebble was a good listener.
 
 It listened to the entire goodnight without interrupting once.
 
-Pip climbed into bed.
+Sam climbed into bed.
 
 Then he remembered the kitchen.
 
@@ -72,7 +72,7 @@ And a spoon that was a little bit bent.
 
 Could he go to sleep without saying goodnight to the spoon?
 
-Pip thought not.
+Sam thought not.
 
 So he called softly from his bed.
 
@@ -90,7 +90,7 @@ He said goodnight to the path.
 
 He said goodnight to the daisy patch.
 
-He said goodnight to the stone where Otis the snail sometimes sat.
+He said goodnight to the stone where Pete the snail sometimes sat.
 
 The garden was very large for such a small mouse.
 
@@ -100,7 +100,7 @@ What about the blades of grass?
 
 What about every leaf on every branch of the apple tree?
 
-Pip began to imagine them.
+Sam began to imagine them.
 
 Goodnight, first leaf.
 
@@ -112,7 +112,7 @@ He did not know how many leaves there were.
 
 He suspected there were more leaves than he could count before breakfast.
 
-Pip pulled the blanket up to his chin.
+Sam pulled the blanket up to his chin.
 
 Perhaps, he thought, the leaves wouldn't mind one goodnight together.
 
@@ -132,17 +132,17 @@ Outside, the apple tree stood still for a moment.
 
 The red leaf on the windowsill did not move at all.
 
-Pip gave his pillow one last little pat.
+Sam gave his pillow one last little pat.
 
 Then he noticed something.
 
 He had said goodnight to a chair, a spoon, a pebble, and a great many leaves.
 
-But he had forgotten Pip.
+But he had forgotten Sam.
 
 He tucked his paws beneath the blanket.
 
-"Goodnight, Pip," he whispered.
+"Goodnight, Sam," he whispered.
 
 And at last there was nobody left to answer except a very sleepy mouse.
 

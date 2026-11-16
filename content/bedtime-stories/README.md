@@ -14,39 +14,39 @@ course browser; each story sidecar repeats genre and age-range metadata.
 
 | Story ID | Title | Shape |
 | --- | --- | --- |
-| 001000 | [Moss and the Missing Blanket](001000-moss-and-the-missing-blanket.md) | A small mystery with a reassuring resolution |
+| 001000 | [Danny and the Missing Blanket](001000-moss-and-the-missing-blanket.md) | A small mystery with a reassuring resolution |
 | 002000 | [The Little Cloud That Couldn't Settle](002000-the-little-cloud-that-couldnt-settle.md) | A cumulative journey with a repeated phrase |
-| 003000 | [Nia and the Moonlight Garden](003000-nia-and-the-moonlight-garden.md) | A quiet sensory discovery with a caregiver |
-| 004000 | [Moss and the Two Shovels](004000-moss-and-the-two-shovels.md) | Kindness and keeping a boundary |
+| 003000 | [Lisa and the Moonlight Garden](003000-nia-and-the-moonlight-garden.md) | A quiet sensory discovery with a caregiver |
+| 004000 | [Danny and the Two Shovels](004000-moss-and-the-two-shovels.md) | Kindness and keeping a boundary |
 | 005000 | [The Footprints by the Pond](005000-the-footprints-by-the-pond.md) | Wondering, checking, revising a guess |
-| 006000 | [Pip's Tower Falls Down](006000-pips-tower-falls-down.md) | Disappointment and flexible problem solving |
+| 006000 | [Sam's Tower Falls Down](006000-pips-tower-falls-down.md) | Disappointment and flexible problem solving |
 | 007000 | [The Hedgehog Who Didn't Say Hello](007000-the-hedgehog-who-didnt-say-hello.md) | Other people can have reasons we do not see |
 | 008000 | [The Little Bird Who Needed Help](008000-the-little-bird-who-needed-help.md) | Asking for help while keeping agency |
 | 009000 | [The Very Important Puddle](009000-the-very-important-puddle.md) | The same thing can matter differently to different people |
-| 010000 | [Pip's Very Small Parade](010000-pips-very-small-parade.md) | Pip marches with a red leaf; friends join him, and the parade accidentally gives a snail a splendid hat. |
-| 011000 | [Nia and the Backward Pajamas](011000-nia-and-the-backward-pajamas.md) | A backward pajama top leads to slipper mittens, a very serious teddy bear, and a pretend moon in a pocket. |
-| 012000 | [Otis and the Leaf Letter](012000-otis-and-the-leaf-letter.md) | A garden snail carries a little picture-letter past a pebble hill and grass forest to invite Hazel to watch the evening sky. |
-| 013000 | [Pip's Pillow Orchestra](013000-pips-pillow-orchestra.md) | Friends find a soft thump, a puff, a rustle, and a tap, then notice the quieter sounds around them. |
-| 014000 | [Hazel's Hat Shop](014000-hazels-hat-shop.md) | Hazel tries hats on a watering can, a pumpkin, a fence post, and eventually a very fashionable mouse. |
-| 015000 | [Nia's Carpet Sea](015000-nias-carpet-sea.md) | A blanket becomes a sea, a towel becomes a mountain, and a stuffed bear finds a quiet bay for a nap. |
+| 010000 | [Sam's Very Small Parade](010000-pips-very-small-parade.md) | Sam marches with a red leaf; friends join him, and the parade accidentally gives a snail a splendid hat. |
+| 011000 | [Lisa and the Backward Pajamas](011000-nia-and-the-backward-pajamas.md) | A backward pajama top leads to slipper mittens, a very serious teddy bear, and a pretend moon in a pocket. |
+| 012000 | [Pete and the Leaf Letter](012000-otis-and-the-leaf-letter.md) | A garden snail carries a little picture-letter past a pebble hill and grass forest to invite Kate to watch the evening sky. |
+| 013000 | [Sam's Pillow Orchestra](013000-pips-pillow-orchestra.md) | Friends find a soft thump, a puff, a rustle, and a tap, then notice the quieter sounds around them. |
+| 014000 | [Kate's Hat Shop](014000-hazels-hat-shop.md) | Kate tries hats on a watering can, a pumpkin, a fence post, and eventually a very fashionable mouse. |
+| 015000 | [Lisa's Carpet Sea](015000-nias-carpet-sea.md) | A blanket becomes a sea, a towel becomes a mountain, and a stuffed bear finds a quiet bay for a nap. |
 
-| 016000 | [Nia's Cardboard Moon Mission](016000-nias-cardboard-moon-mission.md) | A cardboard-box rocket makes a very quiet pretend trip to the moon and brings a present made from a blue sock. |
-| 017000 | [Pip and the Very Long Goodnight](017000-pip-and-the-very-long-goodnight.md) | Pip tries to say goodnight to every object, pebble, and leaf, then remembers one sleepy mouse. |
-| 018000 | [Moss and the Wobbly Pancake](018000-moss-and-the-wobbly-pancake.md) | Moss and Aunt Juniper make pancakes shaped like an elephant, a boot, a moon, and a turtle. |
-| 019000 | [Hazel's Museum of Ordinary Things](019000-hazels-museum-of-ordinary-things.md) | Hazel opens a tiny museum containing a stone, a leaf window, a pine cone, and a surprise gift shop. |
-| 020000 | [Otis and the Leaf Umbrella](020000-otis-and-the-leaf-umbrella.md) | Otis enjoys the rain, Pip dislikes wet socks, and a broad leaf makes the walk home easier. |
-| 021000 | [Tavi's Nest of Soft Things](021000-tavis-nest-of-soft-things.md) | Tavi searches for a comfy resting spot, testing grass and a crinkly leaf with help from Mama Bird. |
-| 022000 | [Luma and the Underwater Garden](022000-luma-and-the-underwater-garden.md) | Luma the octopus builds a sand garden with pebbles, ribbons of seaweed, and bubbles that keep rising. |
+| 016000 | [Lisa's Cardboard Moon Mission](016000-nias-cardboard-moon-mission.md) | A cardboard-box rocket makes a very quiet pretend trip to the moon and brings a present made from a blue sock. |
+| 017000 | [Sam and the Very Long Goodnight](017000-pip-and-the-very-long-goodnight.md) | Sam tries to say goodnight to every object, pebble, and leaf, then remembers one sleepy mouse. |
+| 018000 | [Danny and the Wobbly Pancake](018000-moss-and-the-wobbly-pancake.md) | Danny and Aunt Sue make pancakes shaped like an elephant, a boot, a moon, and a turtle. |
+| 019000 | [Kate's Museum of Ordinary Things](019000-hazels-museum-of-ordinary-things.md) | Kate opens a tiny museum containing a stone, a leaf window, a pine cone, and a surprise gift shop. |
+| 020000 | [Pete and the Leaf Umbrella](020000-otis-and-the-leaf-umbrella.md) | Pete enjoys the rain, Sam dislikes wet socks, and a broad leaf makes the walk home easier. |
+| 021000 | [Beth's Nest of Soft Things](021000-tavis-nest-of-soft-things.md) | Beth searches for a comfy resting spot, testing grass and a crinkly leaf with help from Mama Bird. |
+| 022000 | [Abby and the Underwater Garden](022000-luma-and-the-underwater-garden.md) | Abby the octopus builds a sand garden with pebbles, ribbons of seaweed, and bubbles that keep rising. |
 | 023000 | [Puff and the Too-Many Pockets](023000-puff-and-the-too-many-pockets.md) | A cloud with seven pockets collects a paper crown, a cookie, a feather, and even a yawn. |
-| 024000 | [Reed and the Star in the Pond](024000-reed-and-the-star-in-the-pond.md) | Reed the otter notices a star reflected in the pond and follows changes when a leaf and breeze pass. |
+| 024000 | [Mike and the Star in the Pond](024000-reed-and-the-star-in-the-pond.md) | Mike the otter notices a star reflected in the pond and follows changes when a leaf and breeze pass. |
 | 025000 | [The Tallest Hat in Mushroom Village](025000-the-tallest-hat-in-mushroom-village.md) | A beetle builds a hat too tall for any doorway; it becomes a strange little roof for village visitors. |
 | 026000 | [The Night Train to Pillow Mountain](026000-the-night-train-to-pillow-mountain.md) | A child imagines a wooden train traveling over Button Bridge through Blanket Meadow to a pillow-shaped mountain. |
-| 027000 | [The Cave That Giggled Back](027000-the-cave-that-giggled-back.md) | Fern the little goat and Grandpa discover a soft echo outside a shallow cave, then settle into listening. |
+| 027000 | [The Cave That Giggled Back](027000-the-cave-that-giggled-back.md) | Fran the little goat and Grandpa discover a soft echo outside a shallow cave, then settle into listening. |
 
-| 028000 | [Della and the Daisy Sneeze](028000-della-and-the-daisy-sneeze.md) | A friendly dragon sneezes daisies into a picnic; her friends find the flowers very funny. |
-| 029000 | [The Little Red Wagon's Holiday](029000-the-little-red-wagons-holiday.md) | Nia takes her everyday garden wagon on a small holiday with Grandpa, all the way to the bean patch. |
-| 030000 | [The Upside-Down Picnic Map](030000-the-upside-down-picnic-map.md) | Moss and Hazel follow a picture map, notice the pond on the wrong side, and turn the paper around. |
-| 031000 | [Lina and the Lantern Shadow](031000-lina-and-the-lantern-shadow.md) | A little moth makes an enormous playful shadow beside a softly lit porch and discovers whose shape it is. |
+| 028000 | [Mona and the Daisy Sneeze](028000-della-and-the-daisy-sneeze.md) | A friendly dragon sneezes daisies into a picnic; her friends find the flowers very funny. |
+| 029000 | [The Little Red Wagon's Holiday](029000-the-little-red-wagons-holiday.md) | Lisa takes her everyday garden wagon on a small holiday with Grandpa, all the way to the bean patch. |
+| 030000 | [The Upside-Down Picnic Map](030000-the-upside-down-picnic-map.md) | Danny and Kate follow a picture map, notice the pond on the wrong side, and turn the paper around. |
+| 031000 | [Tina and the Lantern Shadow](031000-lina-and-the-lantern-shadow.md) | A little moth makes an enormous playful shadow beside a softly lit porch and discovers whose shape it is. |
 | 032000 | [The Giant's Small Quilt](032000-the-giants-small-quilt.md) | A mouse offers a little patchwork quilt to a giant, who finds it makes an excellent blanket for one chilly toe. |
 | 033000 | [The Stars' Small Camping Trip](033000-the-stars-small-camping-trip.md) | Three make-believe stars camp between clouds with a tiny spoon, pretend moonberry soup, and an unhurried goodnight. |
 
@@ -111,12 +111,12 @@ The six new stories include a flower-sneezing dragon, a garden wagon's holiday, 
 
 | Story ID | Title | Shape |
 | --- | --- | --- |
-| 034000 | [Olive and the Bakery That Went for a Walk](034000-olive-and-the-bakery-that-went-for-a-walk.md) | A turtle carries a tiny bakery on her shell, so the shop visits its customers and finds a quiet place under an apple tree. |
-| 035000 | [Nia and the Invisible Dinosaur](035000-nia-and-the-invisible-dinosaur.md) | Nia and Grandpa search for an invisible pretend dinosaur whose footprints are slippers and whose tail is a scarf. |
-| 036000 | [Bram's Upside-Down Bed](036000-brams-upside-down-bed.md) | Otis the snail discovers why Bram the bat is comfortable resting upside down while Otis prefers his leaf and shell. |
-| 037000 | [The Clock That Wanted a Nap](037000-the-clock-that-wanted-a-nap.md) | A round kitchen clock imagines cozy places to nap while the house gets quieter and Nia wishes it goodnight. |
-| 038000 | [Hazel's Painting for the Wind](038000-hazels-painting-for-the-wind.md) | Hazel draws swirls and helps hang colored ribbons that move with the wind, creating a picture that changes. |
-| 039000 | [Sula and the Sea's Smallest Song](039000-sula-and-the-seas-smallest-song.md) | A young seal listens to waves, water between stones, and the softer sounds of a sheltered cove beside her mother. |
+| 034000 | [June and the Bakery That Went for a Walk](034000-olive-and-the-bakery-that-went-for-a-walk.md) | A turtle carries a tiny bakery on her shell, so the shop visits its customers and finds a quiet place under an apple tree. |
+| 035000 | [Lisa and the Invisible Dinosaur](035000-nia-and-the-invisible-dinosaur.md) | Lisa and Grandpa search for an invisible pretend dinosaur whose footprints are slippers and whose tail is a scarf. |
+| 036000 | [Eddie's Upside-Down Bed](036000-brams-upside-down-bed.md) | Pete the snail discovers why Eddie the bat is comfortable resting upside down while Pete prefers his leaf and shell. |
+| 037000 | [The Clock That Wanted a Nap](037000-the-clock-that-wanted-a-nap.md) | A round kitchen clock imagines cozy places to nap while the house gets quieter and Lisa wishes it goodnight. |
+| 038000 | [Kate's Painting for the Wind](038000-hazels-painting-for-the-wind.md) | Kate draws swirls and helps hang colored ribbons that move with the wind, creating a picture that changes. |
+| 039000 | [Dora and the Sea's Smallest Song](039000-sula-and-the-seas-smallest-song.md) | A young seal listens to waves, water between stones, and the softer sounds of a sheltered cove beside her mother. |
 
 These six are mostly play-first; none has an assigned moral. The bat story
 uses a real natural-history detail (many bats roost upside down), and the

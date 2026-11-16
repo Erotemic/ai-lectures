@@ -6,105 +6,105 @@
 
 # The Hedgehog Who Didn't Say Hello
 
-Moss the rabbit liked to say hello.
+Danny the rabbit liked to say hello.
 
-He said hello to Pip when Pip came along the path with his red bucket.
+He said hello to Sam when Sam came along the path with his red bucket.
 
 He said hello to the ducks at the pond, although the ducks usually said nothing back.
 
-And he said hello to Hazel the hedgehog whenever she passed his garden.
+And he said hello to Kate the hedgehog whenever she passed his garden.
 
-One windy morning, Moss saw Hazel on the other side of the orchard.
+One windy morning, Danny saw Kate on the other side of the orchard.
 
 She wore a big green scarf around her neck, with the ends tucked close against the breeze.
 
-Moss lifted one paw.
+Danny lifted one paw.
 
-Hello, Hazel!
+Hello, Kate!
 
-Hazel kept walking.
+Kate kept walking.
 
-Moss waved again.
+Danny waved again.
 
 The apple leaves rattled overhead.
 
-Hazel didn't wave back.
+Kate didn't wave back.
 
-Moss lowered his paw.
+Danny lowered his paw.
 
-He wondered whether Hazel was cross with him.
+He wondered whether Kate was cross with him.
 
-Yesterday, they had played with wooden boats. Hazel had wanted the red boat, but Moss had already put it on the little river they had made from his blanket.
+Yesterday, they had played with wooden boats. Kate had wanted the red boat, but Danny had already put it on the little river they had made from his blanket.
 
-Perhaps Hazel was still disappointed.
+Perhaps Kate was still disappointed.
 
 Perhaps she didn't want to play anymore.
 
-Moss looked at the empty path and felt a little small.
+Danny looked at the empty path and felt a little small.
 
 He went home and helped Mama Rabbit put the apples in a bowl.
 
 The apples were round and shiny. One had a leaf still attached to its stem.
 
-Mama noticed that Moss had become quiet.
+Mama noticed that Danny had become quiet.
 
-Moss told her about Hazel.
+Danny told her about Kate.
 
 Mama listened.
 
 There might be more than one reason for a missed hello, she said.
 
-Moss thought about that while he polished an apple with a soft cloth.
+Danny thought about that while he polished an apple with a soft cloth.
 
-Maybe Hazel had been thinking about something.
+Maybe Kate had been thinking about something.
 
 Maybe the wind had been too loud.
 
-Or maybe Hazel had simply wanted a quiet walk.
+Or maybe Kate had simply wanted a quiet walk.
 
-Moss couldn't tell from across the orchard.
+Danny couldn't tell from across the orchard.
 
 Later that afternoon, the wind had settled.
 
-Moss went to the pond to watch the little fish near the reeds.
+Danny went to the pond to watch the little fish near the reeds.
 
-Hazel was there, sitting beside a basket of round stones.
+Kate was there, sitting beside a basket of round stones.
 
-She looked up when Moss came along.
+She looked up when Danny came along.
 
-This time Hazel waved first.
+This time Kate waved first.
 
-Moss waved back.
+Danny waved back.
 
-He came a little closer and told Hazel that he had said hello that morning.
+He came a little closer and told Kate that he had said hello that morning.
 
-Hazel blinked in surprise.
+Kate blinked in surprise.
 
 She hadn't heard him.
 
 The wind had been rushing through the apple trees. Her green scarf had been pulled up over one ear. And she had been trying to keep the basket from tipping over as she walked.
 
-Moss looked at the stones.
+Danny looked at the stones.
 
 There were a lot of them.
 
-Hazel had been carrying a heavy basket through a windy orchard. That had taken most of her attention.
+Kate had been carrying a heavy basket through a windy orchard. That had taken most of her attention.
 
-Moss felt the tight little feeling in his chest soften.
+Danny felt the tight little feeling in his chest soften.
 
-He told Hazel that he had wondered if she was cross about the red boat.
+He told Kate that he had wondered if she was cross about the red boat.
 
-Hazel remembered the boat. She had been disappointed yesterday, just for a while.
+Kate remembered the boat. She had been disappointed yesterday, just for a while.
 
-But she wasn't cross with Moss now.
+But she wasn't cross with Danny now.
 
 She liked the boats.
 
 She liked the pond.
 
-And she liked playing with Moss.
+And she liked playing with Danny.
 
-Moss smiled.
+Danny smiled.
 
 The two friends sat by the water without talking for a little while.
 
@@ -112,21 +112,21 @@ A fish made a small ripple.
 
 Then another.
 
-Hazel picked up one flat stone and showed Moss how its pale stripe curled across the top.
+Kate picked up one flat stone and showed Danny how its pale stripe curled across the top.
 
 It looked like a little path through a hill.
 
-Moss found a stone with a speckled pattern that reminded him of stars.
+Danny found a stone with a speckled pattern that reminded him of stars.
 
 They put the two stones side by side.
 
 When the sky began to turn pink, they carried the basket up the path together.
 
-At the orchard gate, Hazel went one way and Moss went the other.
+At the orchard gate, Kate went one way and Danny went the other.
 
 This time they both waved.
 
-Moss walked home beneath the apple leaves.
+Danny walked home beneath the apple leaves.
 
 There was hardly any wind now.
 
@@ -136,9 +136,9 @@ The leaves rustled softly above him as evening settled over the little gardens.
 
 ## For parents and caregivers — not spoken
 
-**What the story offers:** Moss has an interpretation, but not enough information. Several explanations remain possible until the friends speak. Hazel really *was* disappointed earlier, so the answer is not “all worries are imaginary”; a past feeling and a present missed greeting are simply not the same event. Hazel is also allowed to prefer silence sometimes: friendship does not create an obligation to respond instantly.
+**What the story offers:** Danny has an interpretation, but not enough information. Several explanations remain possible until the friends speak. Kate really *was* disappointed earlier, so the answer is not “all worries are imaginary”; a past feeling and a present missed greeting are simply not the same event. Kate is also allowed to prefer silence sometimes: friendship does not create an obligation to respond instantly.
 
-**Optional conversation:** “What else might Hazel have been doing when Moss waved?” or “What could Moss do if he wasn't sure?” Accept answers like “ask,” “wait,” or “play something else.”
+**Optional conversation:** “What else might Kate have been doing when Danny waved?” or “What could Danny do if he wasn't sure?” Accept answers like “ask,” “wait,” or “play something else.”
 
 **Developmental reading and rationale:**
 

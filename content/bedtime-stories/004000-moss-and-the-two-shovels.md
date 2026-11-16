@@ -1,18 +1,18 @@
-# 004000 — Moss and the Two Shovels
+# 004000 — Danny and the Two Shovels
 
 **Collection:** Children's Bedtime Stories. **Age range:** Ages 3–4 (primarily age three). **Form:** Original single-narrator fiction. **Story shape:** Two friends want the same thing; neither has to stop being kind.
 
 <!-- BEGIN SPOKEN LECTURE -->
 
-# Moss and the Two Shovels
+# Danny and the Two Shovels
 
-On a warm afternoon, Moss the rabbit was digging a little garden beside his house.
+On a warm afternoon, Danny the rabbit was digging a little garden beside his house.
 
 It wasn't a garden for carrots.
 
 It was a garden for pebbles.
 
-Moss had found six smooth pebbles by the path. He wanted to give every pebble a little place of its own, with a tiny hill in the middle.
+Danny had found six smooth pebbles by the path. He wanted to give every pebble a little place of its own, with a tiny hill in the middle.
 
 For the digging, he had a blue shovel.
 
@@ -26,71 +26,71 @@ Scoop.
 
 Pat.
 
-Soon, Moss had made three little places for three little pebbles.
+Soon, Danny had made three little places for three little pebbles.
 
-Then Pip the mouse came along, carrying an empty red bucket.
+Then Sam the mouse came along, carrying an empty red bucket.
 
-Pip liked buckets. A bucket could carry sand, water, leaves, or, if it was a very small bucket, one extremely important acorn.
+Sam liked buckets. A bucket could carry sand, water, leaves, or, if it was a very small bucket, one extremely important acorn.
 
-Pip saw the blue shovel.
+Sam saw the blue shovel.
 
-Pip wanted to dig, too.
+Sam wanted to dig, too.
 
 There was another shovel lying by the garden, a big green one with a long handle. Mama Rabbit used it for turning the soil.
 
-Pip lifted the handle with both paws. The shovel was much too heavy for a little mouse.
+Sam lifted the handle with both paws. The shovel was much too heavy for a little mouse.
 
-Pip put it down again. He liked the small blue shovel much better.
+Sam put it down again. He liked the small blue shovel much better.
 
-Moss told Pip that he was still using it.
+Danny told Sam that he was still using it.
 
-Pip looked at the shovel. Then Pip looked at the unfinished garden.
+Sam looked at the shovel. Then Sam looked at the unfinished garden.
 
-Pip wished Moss were finished already.
+Sam wished Danny were finished already.
 
-Pip asked again.
+Sam asked again.
 
-Moss still wasn't finished.
+Danny still wasn't finished.
 
-His ears felt a little hot. He liked Pip. He wanted Pip to have fun. But he also wanted to dig the last three places in his garden.
+His ears felt a little hot. He liked Sam. He wanted Sam to have fun. But he also wanted to dig the last three places in his garden.
 
 He held the blue handle gently and said, "I'm using this one now."
 
-Pip sat down beside the red bucket.
+Sam sat down beside the red bucket.
 
 For a moment, neither of them knew what to do.
 
 A breeze moved the leaves above them.
 
-One leaf drifted down and landed in Pip's bucket.
+One leaf drifted down and landed in Sam's bucket.
 
-Pip picked it up.
+Sam picked it up.
 
 It was a lovely leaf, with five pointy tips.
 
-Pip held it by the stem and scraped a little line in the soft earth.
+Sam held it by the stem and scraped a little line in the soft earth.
 
 The line was thin. Much too thin for a pebble garden.
 
 But it looked rather like a river.
 
-Pip made the river curl around a small stone.
+Sam made the river curl around a small stone.
 
 Then around another.
 
 The river needed a bridge.
 
-Pip found a short twig and laid it across the little line.
+Sam found a short twig and laid it across the little line.
 
 A bridge!
 
-Moss stopped digging for a moment to look.
+Danny stopped digging for a moment to look.
 
-Pip had made a whole tiny world using a leaf, two stones, and one stick.
+Sam had made a whole tiny world using a leaf, two stones, and one stick.
 
-Moss liked the bridge.
+Danny liked the bridge.
 
-Pip liked Moss's pebble hills.
+Sam liked Danny's pebble hills.
 
 They worked side by side for a while.
 
@@ -102,33 +102,33 @@ Scritch.
 
 Scritch.
 
-Now and then Pip checked to see whether Moss was finished.
+Now and then Sam checked to see whether Danny was finished.
 
 Not quite yet.
 
-And that was all right. Pip had a river to make.
+And that was all right. Sam had a river to make.
 
-At last, Moss patted down the earth beside the sixth pebble.
+At last, Danny patted down the earth beside the sixth pebble.
 
 The pebble garden was finished.
 
 Six pebbles. Six little places. One hill in the middle.
 
-Moss brushed the dirt from the blue shovel and put it on the grass between them.
+Danny brushed the dirt from the blue shovel and put it on the grass between them.
 
-Now Pip could use it, if Pip still wanted to.
+Now Sam could use it, if Sam still wanted to.
 
-Pip did.
+Sam did.
 
-With one scoop, Pip made a wide place at the end of the little river.
+With one scoop, Sam made a wide place at the end of the little river.
 
 The red bucket went upside down beside it, to make a house for a make-believe frog.
 
-Then Pip handed the shovel back without anyone asking.
+Then Sam handed the shovel back without anyone asking.
 
 The sun sank lower. A shadow from the apple tree reached all the way across the path.
 
-Moss and Pip stood up and looked at their work.
+Danny and Sam stood up and looked at their work.
 
 There was a pebble garden.
 
@@ -136,9 +136,9 @@ There was a tiny river.
 
 And there was a twig bridge that led from one to the other.
 
-Pip carried the red bucket home. Moss put the blue shovel by the door, beside the big green one.
+Sam carried the red bucket home. Danny put the blue shovel by the door, beside the big green one.
 
-That evening, Moss washed the soft earth from his paws.
+That evening, Danny washed the soft earth from his paws.
 
 He climbed into bed with his blue blanket and found the yellow moon stitched in one corner.
 
@@ -150,9 +150,9 @@ And the little twig bridge waited quietly for tomorrow.
 
 ## For parents and caregivers — not spoken
 
-**What the story offers:** Moss notices Pip's disappointment without surrendering a tool he is still using. Pip finds another activity, and the eventual turn is freely offered rather than demanded. The distinction is between caring about a friend's feelings and being required to make those feelings disappear. The story does *not* suggest that every three-year-old can negotiate this calmly without adult help.
+**What the story offers:** Danny notices Sam's disappointment without surrendering a tool he is still using. Sam finds another activity, and the eventual turn is freely offered rather than demanded. The distinction is between caring about a friend's feelings and being required to make those feelings disappear. The story does *not* suggest that every three-year-old can negotiate this calmly without adult help.
 
-**Optional conversation (not a bedtime quiz):** “What did Pip make before the shovel was free?” or “What could Pip say if he still wanted a turn?” A child may prefer to point, play it out with toys, or say nothing.
+**Optional conversation (not a bedtime quiz):** “What did Sam make before the shovel was free?” or “What could Sam say if he still wanted a turn?” A child may prefer to point, play it out with toys, or say nothing.
 
 **Developmental reading and rationale:**
 

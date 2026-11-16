@@ -1,28 +1,28 @@
-# 035000 — Nia and the Invisible Dinosaur
+# 035000 — Lisa and the Invisible Dinosaur
 
-**Collection:** Children's Bedtime Stories. **Age range:** Ages 3–4 (primarily age three). **Form:** Original, single-narrator pretend-play story. **Story shape:** Nia and Grandpa invent a dinosaur with clues made from familiar bedroom objects.
+**Collection:** Children's Bedtime Stories. **Age range:** Ages 3–4 (primarily age three). **Form:** Original, single-narrator pretend-play story. **Story shape:** Lisa and Grandpa invent a dinosaur with clues made from familiar bedroom objects.
 
 <!-- BEGIN SPOKEN LECTURE -->
 
-# Nia and the Invisible Dinosaur
+# Lisa and the Invisible Dinosaur
 
-Nia had a dinosaur in her bedroom.
+Lisa had a dinosaur in her bedroom.
 
 Nobody could see it.
 
 That was because it was an invisible dinosaur.
 
-It was also a pretend dinosaur, which meant Nia could decide exactly how enormous it was.
+It was also a pretend dinosaur, which meant Lisa could decide exactly how enormous it was.
 
 On Tuesday it had been as tall as a house.
 
 Tonight it was about as tall as a kitchen chair.
 
-This was convenient. A house-sized dinosaur would have had trouble fitting between Nia's bed and the bookcase.
+This was convenient. A house-sized dinosaur would have had trouble fitting between Lisa's bed and the bookcase.
 
 Grandpa was visiting for bedtime.
 
-Nia met him at the bedroom door.
+Lisa met him at the bedroom door.
 
 “Shhh,” she said. “There's a dinosaur in here.”
 
@@ -32,7 +32,7 @@ He saw a little lamp. He saw a blanket. He saw two slippers on the rug.
 
 He did not see a dinosaur.
 
-“Perhaps,” Nia whispered, “we should look for clues.”
+“Perhaps,” Lisa whispered, “we should look for clues.”
 
 Grandpa agreed.
 
@@ -44,7 +44,7 @@ Grandpa bent closer.
 
 “Those look very much like your slippers.”
 
-“They are,” said Nia. “The dinosaur borrowed them.”
+“They are,” said Lisa. “The dinosaur borrowed them.”
 
 “Very sensible,” Grandpa said. “A dinosaur ought to keep its toes warm.”
 
@@ -54,7 +54,7 @@ Grandpa lifted one end.
 
 “Isn't this your scarf?”
 
-“Yes,” said Nia. “But the dinosaur is wearing it as a tail.”
+“Yes,” said Lisa. “But the dinosaur is wearing it as a tail.”
 
 Grandpa nodded. A scarf made an excellent pretend tail. Especially one with tassels.
 
@@ -70,13 +70,13 @@ One looked a little squashed.
 
 “What are these?” Grandpa asked.
 
-“Dinosaur eggs,” said Nia.
+“Dinosaur eggs,” said Lisa.
 
 Grandpa looked carefully at the round pillow.
 
 “An egg with a pillowcase?”
 
-“Of course,” said Nia. “Baby dinosaurs need to be comfortable.”
+“Of course,” said Lisa. “Baby dinosaurs need to be comfortable.”
 
 Grandpa thought about that.
 
@@ -84,19 +84,19 @@ Grandpa thought about that.
 
 They tiptoed past the pillows and sat on the edge of the bed.
 
-But Nia had one small problem.
+But Lisa had one small problem.
 
 The dinosaur was standing exactly where she wanted to put her bedtime book.
 
 “Excuse me, dinosaur,” she said politely, to the empty patch beside the lamp.
 
-In Nia's imagination, the dinosaur shuffled a little to the left.
+In Lisa's imagination, the dinosaur shuffled a little to the left.
 
 Unfortunately, a chair-sized dinosaur was still too big.
 
 “Could it be a bit smaller?” Grandpa asked.
 
-Nia considered.
+Lisa considered.
 
 “Now it's the size of Teddy.”
 
@@ -106,7 +106,7 @@ They made a space beside Teddy.
 
 The dinosaur fitted perfectly.
 
-Grandpa chose the bedtime book. Nia picked up the blue slipper and set it beside the yellow one.
+Grandpa chose the bedtime book. Lisa picked up the blue slipper and set it beside the yellow one.
 
 She folded the green scarf and put it back on the chair.
 
@@ -118,29 +118,29 @@ Except, of course, for the invisible dinosaur.
 
 Grandpa read one story. It was about a little bird who found a feather.
 
-Nia listened with her blanket tucked beneath her chin.
+Lisa listened with her blanket tucked beneath her chin.
 
 At the end, Grandpa closed the book gently.
 
 “Where is the dinosaur now?” he asked.
 
-Nia looked at the quiet space beside Teddy.
+Lisa looked at the quiet space beside Teddy.
 
 “Sleeping,” she said.
 
 “Does it need a blanket?”
 
-Nia thought for a moment.
+Lisa thought for a moment.
 
 “No. It has very cozy scales.”
 
 Grandpa smiled and turned down the little lamp.
 
-Nia snuggled deeper into her pillow.
+Lisa snuggled deeper into her pillow.
 
 In her imagination, the dinosaur curled into a tiny round ball and rested beside Teddy, taking up hardly any room at all.
 
-Nia closed her eyes.
+Lisa closed her eyes.
 
 And the room was quiet enough for a child, a teddy bear, and one very small invisible dinosaur to sleep.
 
@@ -150,8 +150,8 @@ And the room was quiet enough for a child, a teddy bear, and one very small invi
 
 **Why this one exists:** This story explicitly identifies the dinosaur as pretend. Slippers, pillows, and a scarf become clues in a make-believe game, and the dinosaur's changing size creates humor without any frightening suspense. There is no assigned moral or developmental outcome.
 
-**Optional prompt:** “What did Nia use for dinosaur footprints?” The child may instead want to invent a completely different dinosaur, or may simply want to sleep.
+**Optional prompt:** “What did Lisa use for dinosaur footprints?” The child may instead want to invent a completely different dinosaur, or may simply want to sleep.
 
 **Sources and limits:** [NAEYC, *Playdough Power*](https://www.naeyc.org/our-work/families/playdough-power) describes young children assigning pretend identities to ordinary materials; [AAP, *Playful Reading Tips*](https://www.healthychildren.org/English/family-life/power-of-play/Pages/playful-reading-tips-ways-to-engage-your-child-in-the-magic-of-books.aspx) discusses reading as a setting for imagination and conversation. The invented dinosaur and the story's effect on a child are not findings of either source.
 
-**Single-voice note:** Nia and Grandpa's dialogue can be delivered by one narrator without character accents or imitations. The fictional dinosaur never speaks.
+**Single-voice note:** Lisa and Grandpa's dialogue can be delivered by one narrator without character accents or imitations. The fictional dinosaur never speaks.
