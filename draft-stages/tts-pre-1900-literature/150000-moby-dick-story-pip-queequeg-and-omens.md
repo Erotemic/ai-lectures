@@ -1,0 +1,26 @@
+# Moby-Dick — Story: Pip, Queequeg, and the Signs of Danger
+
+**Work:** Herman Melville, *Moby-Dick; or, The Whale* (1851)  
+**Form:** Narrative lecture; later voyage and competing claims on the captain
+
+<!-- BEGIN SPOKEN LECTURE -->
+# Moby-Dick — Story: Pip, Queequeg, and the Signs of Danger
+
+As the Pequod ranges through the world's whaling grounds, the story broadens into encounters between ships and sailors with different obligations. Ahab's demand is always the same: have you seen the white whale? Sometimes another captain offers relevant information. Sometimes the people he meets have concerns far more immediate than the hunt. Every answer becomes a measure of how thoroughly he has narrowed his moral attention.
+
+One of the most painful episodes concerns Pip, a young Black cabin boy. While serving in a boat crew, Pip becomes frightened and jumps into the sea. He is recovered the first time but warned that the work cannot stop for him repeatedly. On a later occasion he again ends up in the water and is left behind for a terrifying period before rescue. The experience alters him profoundly. Other sailors describe the change as madness, but Ishmael's narration also makes space for the abyss of loneliness and fear that Pip has endured. The boy's suffering should not be converted into picturesque proof that the ocean is mysterious. His vulnerability is connected to a work arrangement in which a child's life is exposed to extraordinary danger.
+
+Ahab develops an attachment to Pip. The captain speaks to him with sympathy and seems to recognize an injured human being whose distress cannot be solved by command. Yet this tenderness makes the captain's later choices harder, not easier, to excuse. He is capable of seeing a particular person's suffering; he remains unwilling to change the voyage that endangers everybody. Pip's fractured speech opens a momentary path away from the grand narrative of vengeance, and Ahab repeatedly turns back toward it.
+
+Queequeg also falls gravely ill. Convinced that death is near, he asks the ship's carpenter to make him a coffin according to a custom of his home. The men construct it, and Queequeg lies in it as though rehearsing the end. Then he recovers. The sudden recovery does not prove that death has been conquered, but it changes the coffin's practical destiny. Later, when the Pequod needs a new life buoy, the carpenter adapts Queequeg's coffin for the task. The object will travel from a private preparation for death to the means by which another person survives. This transformation becomes one of the most powerful material patterns in the novel.
+
+The carpenter, the blacksmith Perth, and the other skilled hands deserve attention. Their tasks are often technical and apparently secondary: building, forging, repairing, fitting, preserving a vessel that never stops wearing down. In the novel's dramatic scenes, these men sometimes speak like characters from a stage play. They can explain a tool with precision and then answer a captain's strange metaphysical demands with professional resignation. Ahab needs their skill. His apparent solitary grandeur is impossible without a network of other people's labor.
+
+The ship meets vessels with different stories. The Jeroboam carries a sailor who claims prophetic authority and is treated by some as a holy man. The account is tangled with illness, fear, and a warning about Moby Dick. Ahab hears what might concern him but not what would free him from compulsion. A later meeting with the Samuel Enderby is especially direct: its captain has lost an arm to Moby Dick, yet has concluded that he has reason enough to avoid another encounter. Ahab does not accept this example of a person injured by the whale who chooses not to organize the rest of his life around revenge.
+
+The details of these meetings matter because they prevent Ahab's psychology from seeming inevitable. He is not the only sailor to face mutilation, bereavement, danger, or rumor. Other people draw other conclusions. The Samuel Enderby's captain can accept bodily loss and continue his work. Starbuck can fear the sea while protecting the practical purposes of a voyage. Ishmael can contemplate enormity without believing that he must destroy it. Ahab's position is a decision maintained against competing evidence.
+
+There are prophecies and portents, too. Fedallah speaks in riddling terms about the circumstances under which Ahab may die. Ahab interprets these predictions as protection, or at least as proof that death cannot come in an ordinary fashion. The reader should resist treating that interpretation as reliable. A riddle can be understood in more than one way, and the novel repeatedly shows people finding in ambiguous words the assurances they want.
+
+By the later stages of the voyage, the Pequod has become a ship of exhausted bodies and increasingly charged objects: a coffin converted to a buoy, a gold coin fixed to a mast, ropes that may save or kill, and tools whose makers are ordered to serve a private obsession. Ahab has assembled all the signs into one picture. Ishmael's narrative keeps the rest of their meanings available. The voyage is approaching a decision about whether the ship belongs to its living crew or to the captain's idea of destiny.
+<!-- END SPOKEN LECTURE -->

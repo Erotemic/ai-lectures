@@ -1,0 +1,24 @@
+# Moby-Dick — Who Tells the Story, and in What Form?
+
+**Work:** Herman Melville, *Moby-Dick; or, The Whale* (1851)  
+**Form:** Literary analysis
+
+<!-- BEGIN SPOKEN LECTURE -->
+# Moby-Dick — Who Tells the Story, and in What Form?
+
+To understand why Moby-Dick changed the possibilities of prose fiction, consider the first narrator we meet. Ishmael is a sailor with a dark mood who decides to take a whaling voyage. He does not begin as an omniscient historian. Yet by the middle of the book he reports things he could not have heard directly: solitary reflections in cabins, speeches made away from his presence, and sequences arranged like a stage play. He lectures on whale anatomy, conducts arguments with imaginary opponents, and tells stories that another sailor told to someone else. A reader who expects one stable voice can reasonably wonder what kind of book this is.
+
+The answer is that Melville builds an account from several competing literary forms. The opening resembles a personal travel memoir: lodging, streets, companions, the awkward comedy of meeting a roommate. The quarterdeck and the scenes after it resemble drama. Ahab, Starbuck, and Stubb receive speeches whose formal arrangement lets a reader hear them even when Ishmael has no plausible opportunity to be present. Elsewhere the narrator borrows the vocabulary of sermons, catalogues, natural history, mock-legal argument, philosophical essay, and the sensational story told among seamen. The book does not apologize for its shifts because the shifts are central to its account of an ocean too large for any single description.
+
+Take the chapter called Cetology. Ishmael proposes to classify whales using the sizes of printed books: folio, octavo, duodecimo. The classification is ingenious, but it is not a modern biological taxonomy. Its humor comes partly from treating an animal as something to be organized on a bookshelf. Ishmael seeks order while demonstrating the oddity of the categories he uses. He wants knowledge and does not quite trust the systems by which knowledge claims completeness. This is not a defect that a more accurate marine handbook would repair. It is the novel thinking about how humans turn living things into descriptions.
+
+Now compare a soliloquy by Ahab. In dramatic form, Ahab can speak without a conversational partner. His inner language is immense, full of absolute claims about fate, injury, and invisible power. The format lets his ambition fill the stage. Yet immediately around it Melville can supply other voices. Starbuck's inward protest, a comic interruption by Stubb, and a noisy forecastle chorus refuse to let the captain's interpretation become the novel's own conclusion. The reader may feel the force of his language without accepting it as truth.
+
+The Town-Ho episode provides another test. A sailor tells an account of an officer and a mutinous crewman; Ishmael retells it, placing layers of audience between the alleged events and us. We hear of grievance, resistance, and a whale's arrival, but the narrative announces the problem of mediation. We can study what the story says about labor and justice while remembering that a tale repeated among sailors is not automatically a neutral record. Melville makes that instability productive rather than treating it as a nuisance.
+
+Even the final epilogue changes how we judge the narrator. Ishmael survives in the sea, rescued by the Rachel, but that survival does not make him a direct witness to every speech in the novel. He is both participant and arranger, a person whose account expands beyond first-person testimony. A strictly realist rule of who can know what would exclude much of the book's greatest writing. Melville instead asks a different question: can an elaborate, sometimes inconsistent assemblage express truths about a collective enterprise that a perfectly tidy diary could not?
+
+For a practical reading exercise, choose one technical chapter, one quarterdeck scene, and one first-person moment between Ishmael and Queequeg. Identify who is speaking, what kind of authority the language claims, and what would count as evidence against it. A whale's measured anatomy may resist an extravagant metaphor. Ahab's confident religious language may be contradicted by his treatment of the Rachel. Ishmael's first impression of Queequeg is corrected by experience. The formal variety teaches us to test authority, including the narrator's authority.
+
+Moby-Dick's place in literary history rests partly on this freedom. It can be a sea adventure, a work about work, a philosophical drama, and a parody of scholarship without becoming four disconnected books. Its forms constantly challenge one another. Ahab seeks a single meaning that cancels every other meaning. Melville's narrative survives because it permits more than one account of the world at once.
+<!-- END SPOKEN LECTURE -->

@@ -152,14 +152,31 @@ or binary assets are part of this pack.
   were **not** exhaustively line-by-line collated in this authoring pass.
 - No fixed word count or runtime minimum/maximum is used to accept a lecture.
 
+
+**American whaling novel — Herman Melville, *Moby-Dick***: 147000–159000.
+Six story lectures follow Ishmael and Queequeg, the Pequod and Ahab, shipboard
+labor, Pip and other whalers, the Rachel's request, the three-day chase and
+Ishmael's survival. Seven analyses address narrative forms, the uncertain
+symbolism of whiteness, authority and refusal, race and maritime labor,
+whaling science, scripture and stage form, the 1851 British/American editions,
+and close reading. The **American epilogue** is used explicitly; the British
+edition's omission is documented in
+`notes/moby-dick-story-map-text-and-history.md`.
+
+**Russian domestic and social novel — Leo Tolstoy, *Anna Karenina***:
+160000–172000. Seven story lectures follow all eight parts, including Levin
+and Kitty's parallel life, Anna's son and daughter, her death, and the final
+part's political and ethical debate. Six analyses examine parallel form,
+interior consciousness, unequal marital constraints, land and work, family
+and faith, editions, translation, and close reading. The separately published
+Part Eight is **part of the novel**, not a detachable postscript. See
+`notes/anna-karenina-eight-parts-and-edition-history.md`.
+
 ## Substantive next priorities
 
-1. **Leo Tolstoy, *War and Peace***: war, families, the philosophy of history and the novel's capacious form.
-2. **Fyodor Dostoevsky, *The Brothers Karamazov***: conflicting voices, family ethics and religious argument.
-
-Other major candidates include Chaucer's *Canterbury Tales*, Boccaccio's
-*Decameron*, Milton's *Paradise Lost*, Goethe's *Faust*, Emily Brontë's
-*Wuthering Heights*, George Eliot's *Middlemarch*, and Melville's *Moby-Dick*.
-Selections should be made for impact and explanatory value, not numerical
-coverage. Avoid duplicating the ancient-epic and world-history tracks without
-an explicit pedagogical reason.
+High-impact omissions worth prioritizing include George Eliot's *Middlemarch*,
+Emily Brontë's *Wuthering Heights*, Charlotte Brontë's *Jane Eyre*,
+Dostoevsky's *Crime and Punishment*, Goethe's *Faust*, Milton's *Paradise Lost*,
+Chaucer's *Canterbury Tales*, and Boccaccio's *Decameron*. Choose for historical
+and literary significance rather than geographic quota. All spoken lecture
+lengths are descriptive measurements, not imposed targets.

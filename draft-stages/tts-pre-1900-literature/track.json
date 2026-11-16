@@ -1,7 +1,7 @@
 {
   "id": "pre-1900-literature",
   "title": "Literary Classics Before 1900",
-  "summary": "Audio-first study of influential literature before 1900, from medieval poetry and Renaissance drama to the European novel, including Tolstoy and Dostoevsky.",
+  "summary": "Audio-first study of influential literature before 1900, from Dante and Shakespeare through major nineteenth-century European and American fiction, including Melville and Tolstoy.",
   "categories": [
     "Literature",
     "History & Culture"
@@ -11,7 +11,8 @@
   ],
   "assumed_background": [
     "No prior reading is needed for story lectures; critical lectures assume the narrated story or familiarity with the primary text.",
-    "Selections span medieval poetry, early modern drama and prose, Regency and Victorian fiction, Romantic Gothic narrative, mathematical satire, and French realism."
+    "Selections span medieval poetry, early modern drama and prose, Regency and Victorian fiction, Romantic Gothic narrative, mathematical satire, and French realism.",
+    "The Moby-Dick and Anna Karenina sections each narrate the complete principal plot before interpretive lectures, and name the English text or edition used for orientation."
   ],
   "sections": [
     "early-modern-drama",
@@ -29,7 +30,9 @@
     "victorian-bildungsroman-dickens",
     "french-realism-flaubert",
     "russian-historical-novel-tolstoy",
-    "russian-philosophical-novel-dostoevsky"
+    "russian-philosophical-novel-dostoevsky",
+    "american-whaling-novel-melville",
+    "russian-domestic-novel-tolstoy-anna"
   ],
   "lectures": [
     {
@@ -1345,6 +1348,240 @@
       "spoken_words": 723,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 5.0
+    },
+    {
+      "id": "147000",
+      "title": "Moby-Dick — Story: Ishmael and Queequeg Find a Ship",
+      "section": "american-whaling-novel-melville",
+      "file": "147000-moby-dick-story-ishmael-queequeg-nantucket.md",
+      "spoken_words": 802,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.5
+    },
+    {
+      "id": "148000",
+      "title": "Moby-Dick — Story: Ahab Takes Command of the Voyage",
+      "section": "american-whaling-novel-melville",
+      "file": "148000-moby-dick-story-ahab-and-the-quarterdeck.md",
+      "spoken_words": 839,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.8
+    },
+    {
+      "id": "149000",
+      "title": "Moby-Dick — Story: Work, Whales, and Stories at Sea",
+      "section": "american-whaling-novel-melville",
+      "file": "149000-moby-dick-story-work-whales-and-other-ships.md",
+      "spoken_words": 815,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.6
+    },
+    {
+      "id": "150000",
+      "title": "Moby-Dick — Story: Pip, Queequeg, and the Signs of Danger",
+      "section": "american-whaling-novel-melville",
+      "file": "150000-moby-dick-story-pip-queequeg-and-omens.md",
+      "spoken_words": 821,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.7
+    },
+    {
+      "id": "151000",
+      "title": "Moby-Dick — Story: The Rachel and the Final Course",
+      "section": "american-whaling-novel-melville",
+      "file": "151000-moby-dick-story-the-rachel-and-the-final-course.md",
+      "spoken_words": 804,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.5
+    },
+    {
+      "id": "152000",
+      "title": "Moby-Dick — Story: Three Days, a Sinking Ship, and One Survivor",
+      "section": "american-whaling-novel-melville",
+      "file": "152000-moby-dick-story-three-days-and-the-survivor.md",
+      "spoken_words": 869,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.0
+    },
+    {
+      "id": "153000",
+      "title": "Moby-Dick — Who Tells the Story, and in What Form?",
+      "section": "american-whaling-novel-melville",
+      "file": "153000-moby-dick-forms-of-storytelling.md",
+      "spoken_words": 736,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.1
+    },
+    {
+      "id": "154000",
+      "title": "Moby-Dick — Whiteness, Meaning, and What Cannot Be Known",
+      "section": "american-whaling-novel-melville",
+      "file": "154000-moby-dick-whiteness-knowledge-and-uncertainty.md",
+      "spoken_words": 723,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.0
+    },
+    {
+      "id": "155000",
+      "title": "Moby-Dick — Ahab, Starbuck, and the Ethics of Command",
+      "section": "american-whaling-novel-melville",
+      "file": "155000-moby-dick-ahab-starbuck-and-command.md",
+      "spoken_words": 719,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.0
+    },
+    {
+      "id": "156000",
+      "title": "Moby-Dick — Labor, Race, Empire, and the Pequod",
+      "section": "american-whaling-novel-melville",
+      "file": "156000-moby-dick-work-race-and-shipboard-power.md",
+      "spoken_words": 761,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.2
+    },
+    {
+      "id": "157000",
+      "title": "Moby-Dick — Whale Science, Practical Knowledge, and the Hunt",
+      "section": "american-whaling-novel-melville",
+      "file": "157000-moby-dick-cetology-science-and-whaling.md",
+      "spoken_words": 676,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 4.7
+    },
+    {
+      "id": "158000",
+      "title": "Moby-Dick — Scripture, Theatre, and the Language of Prophecy",
+      "section": "american-whaling-novel-melville",
+      "file": "158000-moby-dick-scripture-theatre-and-prophecy.md",
+      "spoken_words": 708,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 4.9
+    },
+    {
+      "id": "159000",
+      "title": "Moby-Dick — Editions, Reception, and a Close-Reading Workshop",
+      "section": "american-whaling-novel-melville",
+      "file": "159000-moby-dick-editions-reception-and-close-reading.md",
+      "spoken_words": 709,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 4.9
+    },
+    {
+      "id": "160000",
+      "title": "Anna Karenina — Story: A Family Crisis, a Visit, and a Ball",
+      "section": "russian-domestic-novel-tolstoy-anna",
+      "file": "160000-anna-karenina-story-families-and-the-ball.md",
+      "spoken_words": 775,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.3
+    },
+    {
+      "id": "161000",
+      "title": "Anna Karenina — Story: The Affair, the Race, and Kitty's Recovery",
+      "section": "russian-domestic-novel-tolstoy-anna",
+      "file": "161000-anna-karenina-story-the-affair-and-the-race.md",
+      "spoken_words": 752,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.2
+    },
+    {
+      "id": "162000",
+      "title": "Anna Karenina — Story: Levin's Work and Anna's Illness",
+      "section": "russian-domestic-novel-tolstoy-anna",
+      "file": "162000-anna-karenina-story-levins-work-and-annas-illness.md",
+      "spoken_words": 772,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.3
+    },
+    {
+      "id": "163000",
+      "title": "Anna Karenina — Story: Marriage, Exile, and Illness",
+      "section": "russian-domestic-novel-tolstoy-anna",
+      "file": "163000-anna-karenina-story-marriage-exile-and-illness.md",
+      "spoken_words": 750,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.2
+    },
+    {
+      "id": "164000",
+      "title": "Anna Karenina — Story: Estates, Jealousy, and Two Households",
+      "section": "russian-domestic-novel-tolstoy-anna",
+      "file": "164000-anna-karenina-story-estates-jealousy-and-two-homes.md",
+      "spoken_words": 771,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.3
+    },
+    {
+      "id": "165000",
+      "title": "Anna Karenina — Story: The Railway and Anna's Death",
+      "section": "russian-domestic-novel-tolstoy-anna",
+      "file": "165000-anna-karenina-story-the-railway-and-loss.md",
+      "spoken_words": 748,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.2
+    },
+    {
+      "id": "166000",
+      "title": "Anna Karenina — Story: Part Eight and Life After Loss",
+      "section": "russian-domestic-novel-tolstoy-anna",
+      "file": "166000-anna-karenina-story-part-eight-life-after-loss.md",
+      "spoken_words": 869,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.0
+    },
+    {
+      "id": "167000",
+      "title": "Anna Karenina — Two Interwoven Plots and the Shape of a Novel",
+      "section": "russian-domestic-novel-tolstoy-anna",
+      "file": "167000-anna-karenina-two-plots-and-the-shape-of-a-novel.md",
+      "spoken_words": 682,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 4.7
+    },
+    {
+      "id": "168000",
+      "title": "Anna Karenina — Consciousness, Perception, and Free Indirect Style",
+      "section": "russian-domestic-novel-tolstoy-anna",
+      "file": "168000-anna-karenina-consciousness-and-free-indirect-style.md",
+      "spoken_words": 696,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 4.8
+    },
+    {
+      "id": "169000",
+      "title": "Anna Karenina — Marriage, Gender, Law, and Social Punishment",
+      "section": "russian-domestic-novel-tolstoy-anna",
+      "file": "169000-anna-karenina-marriage-gender-and-law.md",
+      "spoken_words": 676,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 4.7
+    },
+    {
+      "id": "170000",
+      "title": "Anna Karenina — Rural Work, Property, and Social Change",
+      "section": "russian-domestic-novel-tolstoy-anna",
+      "file": "170000-anna-karenina-rural-work-property-and-reform.md",
+      "spoken_words": 687,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 4.7
+    },
+    {
+      "id": "171000",
+      "title": "Anna Karenina — Death, Faith, Childbirth, and Ordinary Goodness",
+      "section": "russian-domestic-novel-tolstoy-anna",
+      "file": "171000-anna-karenina-death-faith-and-family.md",
+      "spoken_words": 710,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 4.9
+    },
+    {
+      "id": "172000",
+      "title": "Anna Karenina — Publication, Translation, and Close Reading",
+      "section": "russian-domestic-novel-tolstoy-anna",
+      "file": "172000-anna-karenina-publication-translation-and-reading.md",
+      "spoken_words": 733,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.1
     }
   ]
 }
