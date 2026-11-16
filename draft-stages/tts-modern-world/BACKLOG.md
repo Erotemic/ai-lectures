@@ -200,3 +200,20 @@ Citation quality takes priority over bibliography size: a reliable passage that 
 - **068000:** The Asian financial crisis of 1997–1998, national reforms, IMF interventions and the daily experiences of laid-off workers.
 - **069000:** Migration, refugees and the border politics of the 1990s, including post-Soviet movement and regional displacement.
 - **070000:** Climate science, environmental organizing and international climate negotiations, 1988–2000, with attention to who bore the costs.
+
+
+## Completed 067000–070000 — trade, finance, movement, and the atmosphere
+
+- **067000:** The Rules Behind the Price: Trade and the World Trade Organization, 1986–2001. The Uruguay Round, WTO agreements, trade distribution, labor and the Seattle ministerial.
+- **068000:** When the Currency Falls: The Asian Financial Crisis, 1997–1999. Foreign currency borrowing, capital flight, regional policy differences and social consequences.
+- **069000:** A Border Through a Life: Migration and Refugee Politics in the 1990s. Post-Soviet migration, refugees of war, European asylum law and international labor.
+- **070000:** Who Owns the Atmosphere? Climate Science and Diplomacy, 1988–2000. Climate measurements, IPCC assessments, environmental justice and climate treaties.
+
+**Evidence deepening:** 067000 needs original delegates' interventions, workers' organizations and global South trade negotiators' records; 068000 needs first-person worker accounts and independent IMF policy assessment; 069000 needs oral histories and local administrative records rather than only UNHCR categories; 070000 needs original island negotiators' records, close study of the IPCC 1990/1995 reports, and energy-sector implementation histories. All current source-access limitations are recorded explicitly in the companions.
+
+## Next research candidates (unindexed)
+
+- **071000:** Russia and the post-Soviet political-economic transition: privatization, constitutional crisis, households, oligarchs and the 1998 default.
+- **072000:** The transformation of communications at the turn of the millennium: internet commercialization, mobile phones, media ownership and the digital divide.
+- **073000:** East and South Asia at the millennium: reform, crisis recovery, labor, social movements and regional tensions.
+- **074000:** The new millennium's contested international order, from Kosovo and East Timor through debates over sovereignty and humanitarian intervention, with distinct local histories.

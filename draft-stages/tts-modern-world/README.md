@@ -157,3 +157,13 @@ Source links, specific evidence-review scope and interpretation limits are in no
 - **066000 — [The Killing and the Reckoning: Yugoslavia and Rwanda in the 1990s](066000-the-killing-and-the-reckoning.md)** (2,967 spoken words; 24 source-linked narration paragraphs). Distinct origins of ethnic persecution and genocide, international failures, survivor archives and criminal justice.
 
 Source links, specific evidence-review scope and interpretation limits are in non-spoken paragraph ledgers and per-lecture JSON sidecars. No lecture-length policy applies.
+
+
+## Trade, finance, migration and climate at the turn of the millennium (067000–070000)
+
+- **067000 — [The Rules Behind the Price: Trade and the World Trade Organization, 1986–2001](067000-the-rules-behind-the-price.md)** (2,215 spoken words; 18 paragraph-level evidence records). The Uruguay Round, WTO agreements, trade distribution, labor and the Seattle ministerial.
+- **068000 — [When the Currency Falls: The Asian Financial Crisis, 1997–1999](068000-when-the-currency-falls.md)** (2,334 spoken words; 19 paragraph-level evidence records). Foreign currency borrowing, capital flight, regional policy differences and social consequences.
+- **069000 — [A Border Through a Life: Migration and Refugee Politics in the 1990s](069000-a-border-through-a-life.md)** (2,271 spoken words; 18 paragraph-level evidence records). Post-Soviet migration, refugees of war, European asylum law and international labor.
+- **070000 — [Who Owns the Atmosphere? Climate Science and Diplomacy, 1988–2000](070000-who-owns-the-atmosphere.md)** (2,487 spoken words; 20 paragraph-level evidence records). Climate measurements, IPCC assessments, environmental justice and climate treaties.
+
+Supporting references and source-review limitations are displayed after the narration and in per-lecture metadata. Length is descriptive, not a policy.
