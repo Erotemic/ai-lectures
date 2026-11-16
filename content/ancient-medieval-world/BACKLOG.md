@@ -1,6 +1,6 @@
 # Backlog — Ancient and Medieval Histories
 
-**Status:** Sixty-six lectures (001000–066000) are written, indexed, and source-mapped. Unit 6 (041000–050000), on the period around 1200–1500 CE, completes the initial chronological bridge from early urban worlds to the modern-world track. This is introductory coverage, not a declaration that every region, society, or source tradition has been addressed in sufficient depth.
+**Status:** Seventy-four lectures (001000–074000) are written, indexed, and source-mapped. Unit 6 (041000–050000), on the period around 1200–1500 CE, completes the initial chronological bridge from early urban worlds to the modern-world track. This is introductory coverage, not a declaration that every region, society, or source tradition has been addressed in sufficient depth.
 
 The chronology is a scaffold, not a sequence in which one region necessarily learns from another. Each unit should integrate changes to governance with work, family, belief, material culture, economic organization, and what the historical evidence actually allows us to know.
 
@@ -102,9 +102,24 @@ These new IDs continue the index without extending the chronological end date. T
 
 These case studies add source-level depth; they are neither a complete enumeration of Indigenous North American history nor a complete account of African, Southeast Asian or Central Asian societies.
 
+## Regional and documentary depth — third installment (written and indexed)
+
+| ID | Lecture | Evidence focus and gap addressed |
+| --- | --- | --- |
+| 067000 | The Plaza and the River: Moundville and the Southeastern Woodlands | Moundville's changes from town to ceremonial center, food and earthwork labor, descendant-collaborative interpretation |
+| 068000 | The Plains before the Horse: Bison, Fields, and Earthlodge Villages | Archaeological Middle Missouri communities, maize and bison economies, difference between pre-1500 sites and later named villages |
+| 069000 | Homes along the Ice: Inuit Ancestors and the Medieval Arctic | Ancestral Inuit dispersal and diverse regional technologies, Arctic archaeology and community knowledge |
+| 070000 | Land beneath the Churches: Labor and Faith in Medieval Ethiopia | Lalibela and Lasta rock-cut building, field labor, land-revenue claims and source survival |
+| 071000 | A House in Fustat: Marriage, Credit, and the Cairo Geniza | Named women's letters and court records, merchants, property claims and editorial mediation |
+| 072000 | Wheels of the Teaching: Buddhist Towns of Dvaravati | Buddhist art, local inscriptions, archaeology of trade and uncertain regional state structures |
+| 073000 | River Valleys to the Sea: Cham Worlds before 1500 | Sanctuary, inscriptions, coastal river polities and the limits of a single-kingdom map |
+| 074000 | The Price of Paper: Work, Debt, and Community at Dunhuang | Tibetan and Chinese manuscripts, scribe-paper register, community association circular and a child-sale contract |
+
+These are case studies, not a claim of exhaustive coverage. Their source records distinguish inspected documentary descriptions and full public scholarship from specialist works whose public access is limited to abstracts or excerpts.
+
 ## Next research campaigns (not yet indexed)
 
-The initial bridge and sixteen regional/documents-based depth lectures are written. The priorities below remain **research proposals**, not existing lectures or assigned identifiers.
+The initial bridge and twenty-four regional/documents-based depth lectures are written. The priorities below remain **research proposals**, not existing lectures or assigned identifiers.
 
 - **Original-language and archaeological evidence.** Review Persian, Arabic, Chinese, and Indigenous textual traditions with specialist translations and edition references; expand archaeological field reports rather than relying on heritage summaries alone.
 - **Regions still thinly treated.** Expand beyond the new case studies to Indigenous southeast North America, the Plains and Arctic; inland and eastern African polities, family and kinship histories, Southeast Asian villages beyond Angkor, and further Central Asian communities and languages.
@@ -125,3 +140,10 @@ The initial bridge and sixteen regional/documents-based depth lectures are writt
 - **Africa:** regional histories beyond court documents, economic and family life beyond the Qasr Ibrim elite archive, histories of slavery and coercion within and across regional economies, and additional archaeological landscapes in the Horn and southern Africa.
 - **Asia:** mainland Southeast Asia beyond the Khmer and Bagan cores, island Southeast Asia beyond Java, Korean and Japanese household records, and oasis communities beyond Old Uyghur Turfan and Sogdian letters.
 - **Method:** add independently checked first-language editions, community-led interpretation, dated excavations and clearly labeled archive biases, prioritizing substantive new insights rather than repeating generic caveats.
+
+### Following this installment
+
+- **North American comparative archaeology:** more Great Basin and Southwest communities beyond Chaco, broader Pueblo and Plains migration histories, and deeper work with community-led sources.
+- **Africa and the Middle East:** Ethiopian and Nubian lay archives where available, non-elite life beyond the Geniza's Jewish documentary sample, western African ironworking and ecological history, and Red Sea communities.
+- **Asian networks:** Korean local documents, South Asian regional courts beyond Maurya and Gupta, western Central Asian rural communities, early Philippines and maritime Indonesia beyond Java, and non-elite Southeast Asian settlements.
+- **Method:** review contemporary original-language texts with edition-level citations, explain source-transmission history, test local archaeological chronologies, and distinguish material facts from community traditions and scholarly inferences.

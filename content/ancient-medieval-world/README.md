@@ -72,14 +72,22 @@ This is an independent, source-grounded, audio-first world-history curriculum fo
 | 064000 | The Fields beneath the Pagodas: Bagan and the Making of a Sacred Landscape | 1,441 |
 | 065000 | Rice Fields and Stone Temples: Java before 1500 | 1,539 |
 | 066000 | Papers from the Oasis: Everyday Life in Medieval Turfan | 1,541 |
+| 067000 | The Plaza and the River: Moundville and the Southeastern Woodlands | 1,336 |
+| 068000 | The Plains before the Horse: Bison, Fields, and Earthlodge Villages | 1,250 |
+| 069000 | Homes along the Ice: Inuit Ancestors and the Medieval Arctic | 1,207 |
+| 070000 | Land beneath the Churches: Labor and Faith in Medieval Ethiopia | 1,240 |
+| 071000 | A House in Fustat: Marriage, Credit, and the Cairo Geniza | 1,351 |
+| 072000 | Wheels of the Teaching: Buddhist Towns of Dvaravati | 1,211 |
+| 073000 | River Valleys to the Sea: Cham Worlds before 1500 | 1,356 |
+| 074000 | The Price of Paper: Work, Debt, and Community at Dunhuang | 1,417 |
 
-Lectures 001000–007000 cover early urban and Bronze Age worlds; 008000–015000 cover Iron Age and early classical transformations; 016000–023000 cover classical empires and social history; 024000–031000 cover late antiquity; 032000–040000 examine medieval societies and networks from roughly 750 to 1200 CE; and 041000–050000 follow regional developments through roughly 1500 CE. **The introductory chronological bridge to the modern-world track is written and indexed. Lectures 051000–066000 add focused regional and evidence-based depth without changing the original chronology.** Additional work is needed on omitted regional histories, original sources and specialist scholarship; see `COVERAGE_AUDIT.md` and `BACKLOG.md`.
+Lectures 001000–007000 cover early urban and Bronze Age worlds; 008000–015000 cover Iron Age and early classical transformations; 016000–023000 cover classical empires and social history; 024000–031000 cover late antiquity; 032000–040000 examine medieval societies and networks from roughly 750 to 1200 CE; and 041000–050000 follow regional developments through roughly 1500 CE. **The introductory chronological bridge to the modern-world track is written and indexed. Lectures 051000–074000 add focused regional and evidence-based depth without changing the original chronology.** Additional work is needed on omitted regional histories, original sources and specialist scholarship; see `COVERAGE_AUDIT.md` and `BACKLOG.md`.
 
-Lectures 051000–058000 examine Central Asian mobility and Sogdian sources; Cahokia and Chaco in Indigenous North America; Caribbean communities before 1492; the Inland Niger Delta and Lake Chad basin; and the dispersed urban and agricultural landscape at Angkor. Lectures 059000–066000 extend the deeper studies to the Great Lakes, northeastern longhouse and council systems, Northwest Coast food engineering, women and property in medieval Nubia, domestic life on the Swahili coast, Bagan, Java, and documentary Turfan. These IDs reflect addition order, not chronological succession.
+Lectures 051000–058000 examine Central Asian mobility and Sogdian sources; Cahokia and Chaco in Indigenous North America; Caribbean communities before 1492; the Inland Niger Delta and Lake Chad basin; and the dispersed urban and agricultural landscape at Angkor. Lectures 059000–066000 extend the deeper studies to the Great Lakes, northeastern longhouse and council systems, Northwest Coast food engineering, women and property in medieval Nubia, domestic life on the Swahili coast, Bagan, Java, and documentary Turfan. Lectures 067000–074000 examine the southeastern Woodlands, Plains village societies, ancestral Inuit Arctic communities, medieval Ethiopian land and labor, households in the Cairo Geniza, Dvaravati Buddhist centers, Cham coastal polities, and documentary Dunhuang. These IDs reflect addition order, not chronological succession.
 
 ## How to read and maintain this pack
 
-- `track.json` is the local index. Lecture IDs are stable once published; new work receives new IDs. All sixty-six entries are self-contained, without a prerequisite chain.
+- `track.json` is the local index. Lecture IDs are stable once published; new work receives new IDs. All seventy-four entries are self-contained, without a prerequisite chain.
 - `NNNNNN-*.md` files contain narration between `BEGIN SPOKEN LECTURE` and `END SPOKEN LECTURE` markers. Everything outside those markers is non-spoken editorial or evidence context.
 - `metadata/NNNNNN.json` maps every spoken paragraph to named source records, with explicit source limitations and interpretive cautions.
 - `metadata/sources.json` contains source identities, links, and caveats. Add original-language evidence and specialized excavation reports when a claim needs more precision; do not misrepresent a general survey as an archival or archaeological primary source.

@@ -32,7 +32,7 @@ Status means sustained *chronological* treatment in this pack. It does not claim
 - **African social and regional history:** 056000 tests the centralized-state assumption using Djenné-Jeno's excavated urban complex; 057000 considers Lake Chad and Kanem–Bornu using regional archaeological questions as well as the Arabic geographers. Neither substitutes for a full history of women, kinship, or rural eastern African polities.
 - **Southeast Asian countryside:** 058000 investigates Angkor's dispersed settlement and agriculture through lidar, Khmer inscriptions, population models and excavation rather than monuments alone. Comparative work beyond the Khmer heartland remains needed.
 
-The initial fifty-lecture chronological sequence is unchanged. The new eight are deep dives, not new chronological eras and not proof that each geographic region is now covered comprehensively.
+The initial fifty-lecture chronological sequence is unchanged. The additional regional lectures are deep dives, not new chronological eras and not proof that each geographic region is now covered comprehensively.
 
 ## Second group of regional and documentary deep dives (059000–066000)
 
@@ -44,6 +44,17 @@ The initial fifty-lecture chronological sequence is unchanged. The new eight are
 - **Central Asian documentary life:** 066000 follows secular and religious texts in Turfan, separating manuscript languages, difficult dates, and the provenance of modern collections. This does not replace region-wide histories of other Central Asian societies.
 
 The new content does not claim equal research depth across periods: some evidence is based on public abstracts of specialist books and articles, while other references give accessible primary translations or full peer-reviewed methods and field results. Source records identify these differences. For future deep dives, prioritize material where direct field reports or primary-language editions can be read and checked in full.
+
+
+## Third group of evidence-based regional histories (067000–074000)
+
+- **Southeastern Woodlands and the Plains:** 067000 studies Moundville on the Black Warrior River from a fortified population center to a ceremonial place, with the University of Alabama's descendant-collaborative interpretation. 068000 studies pre-1500 Middle Missouri farming and bison-hunting economies and explicitly distinguishes early archaeological sites from historically documented Mandan, Hidatsa and Arikara villages of later centuries.
+- **Arctic:** 069000 treats Inuit ancestral movement, diverse coastal adaptations, changing ice conditions, and the distinction between archaeological category names and living community identities. Its date ranges vary across sites.
+- **Africa and household economy:** 070000 examines rock-cut architecture, land grants and field labor in medieval Ethiopian highlands. 071000 uses named fragments from the Cairo Geniza to study property, marriage, travel and credit. The latter is specifically a selective Jewish documentary corpus within medieval Egypt, not a population census.
+- **Southeast Asia:** 072000 separates Dvaravati Buddhist art from evidence of a unified political state, while 073000 treats Cham river valleys and inscription-supported political claims beyond a single fixed map of Champa. These subjects particularly need future domestic archaeology and locally edited epigraphy.
+- **Inner Asian manuscript worlds:** 074000 uses identifiable Chinese and Tibetan Dunhuang documents for scribal labor, local associations and coercive transactions, making both source contents and the colonial-era dispersion of Cave 17 manuscripts explicit.
+
+**Status does not equal verified exhaustive coverage.** Some source records are based on scholarly abstracts rather than full papers; individual dated primary documents and accessible institutional manuscript catalogs receive priority where available. None of the eight lectures changes the dates of the chronological bridge ending around 1500 CE.
 
 ## Cross-cutting deficits to investigate
 
@@ -59,4 +70,4 @@ The new content does not claim equal research depth across periods: some evidenc
 
 ## Status and next action
 
-Sixty-six lectures are indexed and contain paragraph-level evidence mapping: the original fifty-lecture chronological bridge plus sixteen focused regional and documentary deep dives. The planned **introductory chronological bridge** from approximately 3500 BCE to 1500 CE is written, but it is not comprehensive world history. Prioritize the remaining regional and social-history gaps, original-language evidence, specialist archaeology, and explicit links to existing specialist tracks. A future coverage audit should distinguish manuscript existence, evidentiary quality, and depth of teaching instead of treating the presence of a topic as proof that it has been mastered.
+Seventy-four lectures are indexed and contain paragraph-level evidence mapping: the original fifty-lecture chronological bridge plus twenty-four focused regional and documentary deep dives. The planned **introductory chronological bridge** from approximately 3500 BCE to 1500 CE is written, but it is not comprehensive world history. Prioritize the remaining regional and social-history gaps, original-language evidence, specialist archaeology, and explicit links to existing specialist tracks. A future coverage audit should distinguish manuscript existence, evidentiary quality, and depth of teaching instead of treating the presence of a topic as proof that it has been mastered.

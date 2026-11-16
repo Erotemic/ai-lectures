@@ -2310,6 +2310,321 @@
       "url": "https://turfan.bbaw.de/projekt-en.html",
       "access": "public_webpage_reviewed",
       "notes": "Editing of Uyghur economic texts, manuscripts, block prints and multilingual material; a cataloguing overview."
+    },
+    "g3-mv-ua": {
+      "title": "University of Alabama Museums, Moundville Archaeological Park, Ancient Site",
+      "kind": "museum_archaeology_synthesis",
+      "url": "https://moundville.museums.ua.edu/ancient-site/",
+      "access": "public_webpage_reviewed",
+      "notes": "Black Warrior setting, phased occupancy, plaza, palisade, mounds, ceremonial transformation; museum synthesis of archaeological research."
+    },
+    "g3-mv-blitz": {
+      "title": "John H. Blitz, Moundville in the Mississippian World, Oxford Handbook of North American Archaeology (2012)",
+      "kind": "specialist_archaeological_synthesis",
+      "url": "https://academic.oup.com/edited-volume/36328/chapter-abstract/318704218",
+      "access": "public_abstract_reviewed",
+      "notes": "Specialist four-phase occupation chronology and social-memory interpretation; only abstract publicly reviewed."
+    },
+    "g3-mv-ency": {
+      "title": "Vernon James Knight and Encyclopedia of Alabama, Moundville Archaeological Park",
+      "kind": "regional_specialist_encyclopedia",
+      "url": "https://encyclopediaofalabama.org/article/moundville-archaeological-park/",
+      "access": "public_webpage_reviewed",
+      "notes": "Settlement, maize, occupations, construction, burials and shifting population; estimates and elite interpretations are reconstructive."
+    },
+    "g3-mv-tribal": {
+      "title": "Moundville Archaeological Park, Self Guided Tour (2026), prepared with descendant Tribal communities",
+      "kind": "heritage_and_descendant_collaborative_interpretation",
+      "url": "https://moundville.museums.ua.edu/wp-content/uploads/sites/4/2026/03/Self-Guided-Tour-2026-5-1.pdf",
+      "access": "public_webpage_reviewed",
+      "notes": "Names living Tribal Nations, distinguishes archaeological label from community identity, describes material culture and changing burial role; official descendant-collaborative interpretation, not exact lineage census."
+    },
+    "g3-mv-exhibit": {
+      "title": "Moundville Archaeological Park, The Home of Our Ancestors exhibit co-curated by Jake Tiger (2026)",
+      "kind": "descendant_collaborative_heritage_record",
+      "url": "https://moundville.museums.ua.edu/2026/08/28/pum-vculvke-enliketv-tate-the-home-of-our-ancestors-exhibit/",
+      "access": "public_webpage_reviewed",
+      "notes": "Current Seminole co-curation and continuities of craft and culture; not independent proof of individual ancient genealogies."
+    },
+    "g3-pl-npspeople": {
+      "title": "National Park Service, Knife River People",
+      "kind": "heritage_and_oral_history_synthesis",
+      "url": "https://www.nps.gov/knri/learn/historyculture/kniferiverpeople.htm",
+      "access": "public_webpage_reviewed",
+      "notes": "Upper Missouri riverine farming, bison hunting, earthlodges and oral accounts; many described villages are post-1500, so avoid unqualified projection."
+    },
+    "g3-pl-npsplaces": {
+      "title": "National Park Service, Places at Knife River Indian Villages",
+      "kind": "heritage_site_record",
+      "url": "https://www.nps.gov/knri/learn/historyculture/places.htm",
+      "access": "public_webpage_reviewed",
+      "notes": "Geography, Hidatsa farm labor, earthlodge village traces and historic livelihoods; contact-era evidence cannot establish all prehistoric practices."
+    },
+    "g3-pl-npsarticle": {
+      "title": "National Park Service, Knife River Indian Villages National Historic Site",
+      "kind": "heritage_and_chronology_synthesis",
+      "url": "https://www.nps.gov/articles/kniferiver.htm",
+      "access": "public_webpage_reviewed",
+      "notes": "Village chronology and later Mandan/Hidatsa/Arikara history, including main Knife River site dates after 1525; careful pre-1500 scope required."
+    },
+    "g3-pl-middle": {
+      "title": "US National Park Service National Register, Bison Kill Sites in South Dakota thematic context, Middle Missouri archaeology",
+      "kind": "government_archaeological_synthesis",
+      "url": "https://npgallery.nps.gov/GetAsset/b5f2a6ad-a64c-4936-a0b0-8f85f9c0ba73",
+      "access": "public_webpage_reviewed",
+      "notes": "Archaeological context for Middle Missouri houses, village layout, mixed horticulture and hunting from AD 900 onward; regional synthesis and interpretive assignments."
+    },
+    "g3-pl-education": {
+      "title": "National Park Service, Knife River: Early Village Life on the Plains",
+      "kind": "heritage_education_and_documentary_synthesis",
+      "url": "https://home.nps.gov/articles/knife-river-early-village-life-on-the-plains-teaching-with-historic-places.htm",
+      "access": "public_webpage_reviewed",
+      "notes": "Earthlodge engineering and documented Mandan/Hidatsa/Arikara households, later-era descriptions that must not be assumed unchanged for year 1000."
+    },
+    "g3-arctic-sirm": {
+      "title": "Parks Canada, Sirmilik National Park: History",
+      "kind": "park_archaeological_and_cultural_synthesis",
+      "url": "https://www.parks.canada.ca/pn-np/nu/sirmilik/culture/histoire-history",
+      "access": "public_webpage_reviewed",
+      "notes": "Eastern Arctic Dorset and Thule occupation, house construction, hunting and mobility; Indigenous descent and uncertainty of interactions."
+    },
+    "g3-arctic-ivv": {
+      "title": "Parks Canada, Ivvavik National Park: Culture and history",
+      "kind": "park_archaeological_synthesis",
+      "url": "https://parks.canada.ca/pn-np/yt/ivvavik/culture",
+      "access": "public_webpage_reviewed",
+      "notes": "Beaufort Sea settlement and subsequent regional adaptation, including thirteenth-century developments; park-region specificity."
+    },
+    "g3-arctic-tuktut": {
+      "title": "Parks Canada, Tuktut Nogait: Culture and history",
+      "kind": "park_archaeological_synthesis",
+      "url": "https://www.parks.canada.ca/pn-np/nt/tuktutnogait/culture",
+      "access": "public_webpage_reviewed",
+      "notes": "Regional archaeological site distribution and c. 1200–1500 occupation, not a general chronology for entire Arctic."
+    },
+    "g3-arctic-review": {
+      "title": "Arctic Archaeology and Climate Change, Annual Review of Anthropology (2019)",
+      "kind": "peer_reviewed_research_synthesis",
+      "url": "https://doi.org/10.1146/annurev-anthro-102317-045901",
+      "access": "public_webpage_reviewed",
+      "notes": "Scholarly review of dispersal, subsistence variability, whales, exchange and climate responses; long-term synthesis with regional uncertainty."
+    },
+    "g3-arctic-qutt": {
+      "title": "Parks Canada, Quttinirpaaq Management Plan: Arctic archaeological sequence",
+      "kind": "heritage_plan_archaeological_context",
+      "url": "https://www.parks.canada.ca/pn-np/nu/quttinirpaaq/info/plan/gestion-management-2009",
+      "access": "public_webpage_reviewed",
+      "notes": "High Arctic archaeological evidence and Inuit heritage technologies, site variation and preservation."
+    },
+    "g3-et-unesco": {
+      "title": "UNESCO World Heritage Centre, Rock-Hewn Churches, Lalibela",
+      "kind": "world_heritage_monument_record",
+      "url": "https://whc.unesco.org/en/list/18",
+      "access": "public_webpage_reviewed",
+      "notes": "Architecture, sacred geography, related town remains and conservation; royal foundation narrative is heritage tradition not independent construction dating."
+    },
+    "g3-et-rock": {
+      "title": "The rock-cut churches of Lalibela and cave church of Washa Mikael, Antiquity 95 (2021)",
+      "kind": "peer_reviewed_archaeological_research",
+      "url": "https://www.cambridge.org/core/journals/antiquity/article/abs/rockcut-churches-of-lalibela-and-the-cave-church-of-washa-mikael-troglodytism-and-the-christianisation-of-the-ethiopian-highlands/DC1B8FC2A2221141A7E648F9B9219755",
+      "access": "public_abstract_reviewed",
+      "notes": "Specialist archaeological evidence of earlier troglodytic cultures and stages of Christianization; public abstract, not full field data."
+    },
+    "g3-et-lund": {
+      "title": "Lund University, The Church of Yimrhane Kristos: An Archaeological Investigation (2018)",
+      "kind": "specialist_dissertation_abstract",
+      "url": "https://www.lunduniversity.lu.se/publication/a9022f30-85fb-4892-b945-f90ba70a6e8a",
+      "access": "public_abstract_reviewed",
+      "notes": "Archaeometry, wood analysis, inscriptions and qualified use of hagiographic evidence; public research summary."
+    },
+    "g3-et-settlement": {
+      "title": "Settlement archaeology and oral history in Lasta, Ethiopia (2009)",
+      "kind": "archaeological_landscape_research",
+      "url": "https://www.tandfonline.com/doi/abs/10.1080/00671990903047629",
+      "access": "public_abstract_reviewed",
+      "notes": "Lalibela settlement context beyond churches and oral-history approaches; public abstract only."
+    },
+    "g3-et-land": {
+      "title": "Administrative and military impediments of medieval Ethiopian economy, Cogent Arts & Humanities (2023)",
+      "kind": "peer_reviewed_historical_analysis",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/23311983.2023.2264010",
+      "access": "public_webpage_reviewed",
+      "notes": "Discussion of gwelt, revenue claims and medieval Ethiopian officials; predominantly later medieval systems, avoid back-projection."
+    },
+    "g3-geniza-pgp": {
+      "title": "Princeton Geniza Project, Digital Corpus and introduction",
+      "kind": "primary_source_digital_archive",
+      "url": "https://geniza.princeton.edu/en/",
+      "access": "public_webpage_reviewed",
+      "notes": "Institutional history, letters, contracts, catalog and translations; corpus reflects documented Jewish communities, not population-wide sample."
+    },
+    "g3-geniza-court": {
+      "title": "Princeton Geniza Project, Legal document T-S 12.558",
+      "kind": "edited_primary_legal_document",
+      "url": "https://geniza.princeton.edu/en/documents/7267/",
+      "access": "public_webpage_reviewed",
+      "notes": "Cairo 1180s court notebook and half-house arrangement involving Sitt al-Fakhr; editorial description based on Goitein and Amir Ashur."
+    },
+    "g3-geniza-letter": {
+      "title": "Princeton Geniza Project, Letter T-S 10J15.9, including edited translation",
+      "kind": "edited_translated_primary_letter",
+      "url": "https://geniza.princeton.edu/en/documents/7886/",
+      "access": "public_webpage_reviewed",
+      "notes": "Woman to absent husband, illness, family dispute, possible divorce; fragmentary text and contested reconstructions."
+    },
+    "g3-geniza-goldberg": {
+      "title": "Jessica L. Goldberg, The use and abuse of commercial letters from the Cairo Geniza, Journal of Medieval History (2012)",
+      "kind": "peer_reviewed_historical_research",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/03044181.2012.673299",
+      "access": "public_webpage_reviewed",
+      "notes": "Commercial letter genres, business networks and why requests are not neutral transaction reports."
+    },
+    "g3-geniza-krak": {
+      "title": "Eve Krakowski, Coming of Age in Medieval Egypt, Princeton University Press (2018)",
+      "kind": "specialist_scholarly_monograph",
+      "url": "https://press.princeton.edu/books/paperback/9780691191638/coming-of-age-in-medieval-egypt",
+      "access": "public_abstract_reviewed",
+      "notes": "Study of Fatimid and Ayyubid Jewish girls, wealth, legal practice and household diversity; book description reviewed, not full text."
+    },
+    "g3-geniza-rustow": {
+      "title": "Princeton University, Marina Rustow and the Cairo Geniza: Fragile Fragments (2019)",
+      "kind": "university_scholarly_profile",
+      "url": "https://discovery.princeton.edu/2019/12/09/fragile-fragments-marina-rustow-unpacks-daily-life-in-medieval-egypt/",
+      "access": "public_webpage_reviewed",
+      "notes": "Geniza discovery, storage and dispersion, documents and public-administration research; institutional reporting on scholarly work."
+    },
+    "g3-geniza-women": {
+      "title": "Posen Library, Letter to Her Sister, early twelfth century",
+      "kind": "edited_primary_letter_summary",
+      "url": "https://www.posenlibrary.com/entry/letter-her-sister-0",
+      "access": "public_abstract_reviewed",
+      "notes": "Describes female author/scribe, family, guardianship and inheritance; publicly reviewed editorial summary rather than full restricted text."
+    },
+    "g3-dvar-oxford": {
+      "title": "Wesley Clarke and Matthew Gallon, Early States in Thailand: Dvaravati, Oxford Handbook of Early Southeast Asia (2022)",
+      "kind": "specialist_archaeological_research",
+      "url": "https://academic.oup.com/edited-volume/42054/chapter-abstract/355847845",
+      "access": "public_abstract_reviewed",
+      "notes": "Sixth–eleventh-century archaeology, uncertain polity form, poorly documented domestic sites, limitations of monument-centered research; abstract only."
+    },
+    "g3-dvar-met": {
+      "title": "Metropolitan Museum of Art, Lost Kingdoms exhibition: Dvaravati Buddhist art (2014)",
+      "kind": "museum_art_history",
+      "url": "https://www.metmuseum.org/exhibitions/listings/2014/lost-kingdoms",
+      "access": "public_webpage_reviewed",
+      "notes": "Sculpture, monumental images, wheels and narrative reliefs; museum art history does not demonstrate state boundaries."
+    },
+    "g3-dvar-chron": {
+      "title": "Metropolitan Museum of Art, Southeast Asia 500–1000 CE Chronology",
+      "kind": "museum_historical_synthesis",
+      "url": "https://artistproject.metmuseum.org/toah/ht/06/sse.html",
+      "access": "public_webpage_reviewed",
+      "notes": "Regional chronology, Dvaravati, Mon and trade connections; overview with simplifications about statehood."
+    },
+    "g3-dvar-inscr": {
+      "title": "East and West: New Inscriptions from Funan, Zhenla and Dvaravati, BEFEO (2021)",
+      "kind": "edited_original_inscription_research",
+      "url": "https://www.persee.fr/doc/befeo_0336-1519_2021_num_107_1_6376",
+      "access": "public_webpage_reviewed",
+      "notes": "New Nakhon Pathom Sanskrit epigraphy and paleographic date uncertainty; local elite claims not polity-wide map."
+    },
+    "g3-dvar-trade": {
+      "title": "The International Trade in Dvaravati Period: Archaeology of Nakhon Pathom, Silpakorn University Journal (2013)",
+      "kind": "archaeological_excavation_analysis",
+      "url": "https://so05.tci-thaijo.org/index.php/sujthai/article/view/17563",
+      "access": "public_abstract_reviewed",
+      "notes": "Excavated Tang pottery and nonlocal beads, contacts and trade; site-specific interpretation from abstract."
+    },
+    "g3-dvar-smith": {
+      "title": "Smithsonian National Museum of Asian Art, Dvaravati period stucco objects",
+      "kind": "museum_collection_catalog",
+      "url": "https://asia.si.edu/explore-art-culture/collections/collections-areas/southeast-asian/stucco/",
+      "access": "public_webpage_reviewed",
+      "notes": "Khu Bua and related sculpture chronology and provenance; art objects cannot establish household demographics."
+    },
+    "g3-cham-unesco": {
+      "title": "UNESCO World Heritage Centre, My Son Sanctuary",
+      "kind": "world_heritage_monument_record",
+      "url": "https://whc.unesco.org/en/list/949/",
+      "access": "public_webpage_reviewed",
+      "notes": "Thu Bon valley landscape, My Son temple forms and sanctuary chronology; heritage account tends to present a singular Cham kingdom."
+    },
+    "g3-cham-oxford": {
+      "title": "William A. Southworth, Champa, Oxford Handbook of Early Southeast Asia (2022)",
+      "kind": "specialist_archaeological_research",
+      "url": "https://academic.oup.com/edited-volume/42054/chapter-abstract/355848026",
+      "access": "public_abstract_reviewed",
+      "notes": "Tra Kieu, Go Cam, Han China, Sanskrit and Cham inscriptions, poor domestic ceramic dating; specialist abstract only."
+    },
+    "g3-cham-dissert": {
+      "title": "My Ket Chau, Communities and Cultural Exchanges of Champa: Art of the Chams in Central and Southern Vietnam, UCLA (2020)",
+      "kind": "scholarly_dissertation",
+      "url": "https://escholarship.org/uc/item/0rk5z9hs",
+      "access": "public_abstract_reviewed",
+      "notes": "Networked ritual arts, four pedestal-shrines, mixed interpretations, maritime links; dissertation abstract publicly reviewed."
+    },
+    "g3-cham-polity": {
+      "title": "Mai Bui Dieu Linh, Religious Identity and Contemporary Ritual Practices of the Cham Ahier in Vietnam, Extreme-Orient Extreme-Occident 45 (2022; online 2025)",
+      "kind": "specialist_scholarly_review",
+      "url": "https://journals.openedition.org/extremeorient/pdf/2723",
+      "access": "public_article_reviewed",
+      "notes": "The article discusses river-valley versus five-principality models of Champa and cites the competing argument from fifteenth-century epigraphy for a more extensive kingdom; this is a review of the debate in a study primarily of present-day Cham Ahier practice."
+    },
+    "g3-dun-history": {
+      "title": "International Dunhuang Programme, History of the IDP and Cave 17",
+      "kind": "digital_archive_provenance_history",
+      "url": "https://idp.bl.uk/about/history-of-the-idp/",
+      "access": "public_webpage_reviewed",
+      "notes": "Sealing, discovery, dispersion of Cave 17 materials; institutional history of collections."
+    },
+    "g3-dun-languages": {
+      "title": "International Dunhuang Programme, What Was Stored in Cave 17?",
+      "kind": "manuscript_archive_synthesis",
+      "url": "https://idp.bl.uk/discover/learning/dunhuang/dunhuang-articles/cave-17-the-library-cave/what-was-stored-in-cave-17/",
+      "access": "public_webpage_reviewed",
+      "notes": "Languages, religious texts, documents, Old Tibetan Annals and cave contents; collection-level profile."
+    },
+    "g3-dun-timeline": {
+      "title": "International Dunhuang Programme, A Timeline of Dunhuang",
+      "kind": "heritage_and_research_chronology",
+      "url": "https://idp.bl.uk/discover/learning/dunhuang/dunhuang-articles/introducing-dunhuang/a-timeline-of-dunhuang/",
+      "access": "public_webpage_reviewed",
+      "notes": "Tibetan rule approximately 781–848 and local Guiyijun regime; overview chronology."
+    },
+    "g3-dun-work": {
+      "title": "International Dunhuang Programme, Dunhuang at Work",
+      "kind": "manuscript_archive_social_history",
+      "url": "https://idp.bl.uk/discover/learning/dunhuang/dunhuang-articles/dunhuang-at-work/",
+      "access": "public_webpage_reviewed",
+      "notes": "Census, irrigation, taxes, local administration and diplomatic responsibilities under Guiyijun; general archive synthesis."
+    },
+    "g3-dun-scribes": {
+      "title": "International Dunhuang Programme, Scribes at Dunhuang: Pens, Paper and Punishments (2025)",
+      "kind": "transcribed_primary_document_analysis",
+      "url": "https://idp.bl.uk/blog/scribes-at-dunhuang-pens-paper-and-punishments/",
+      "access": "public_webpage_reviewed",
+      "notes": "Named IOL Tib J 1359 scribal-paper register and IOL Tib J 1274 Ser Dzinkheng wrapper; records threats, not measured enforcement."
+    },
+    "g3-dun-circular": {
+      "title": "International Dunhuang Programme, Entertainment and Social Life",
+      "kind": "translated_primary_document_synthesis",
+      "url": "https://idp.bl.uk/discover/learning/dunhuang/dunhuang-articles/daily-life/entertainment-and-social-life/",
+      "access": "public_webpage_reviewed",
+      "notes": "886 circular for meeting, fines, signatures and other local associations; translated summary of original document."
+    },
+    "g3-dun-guangde": {
+      "title": "International Dunhuang Programme, Daily Life Collection Items, contract of 916",
+      "kind": "translated_primary_legal_document",
+      "url": "https://idp.bl.uk/discover/learning/dunhuang/collection-items/daily-life/",
+      "access": "public_webpage_reviewed",
+      "notes": "Contract recording transfer of seven-year-old Guangde by mother A Wu, coercion and reused scroll; cannot establish the child’s later fate."
+    },
+    "g3-dun-taenzer": {
+      "title": "Gertraud Taenzer, The Dunhuang Region during Tibetan Rule (787–848): A Study of Secular Manuscripts, Harrassowitz (2012)",
+      "kind": "specialist_documentary_monograph",
+      "url": "https://www.jstor.org/stable/10.2307/j.ctvbqs6dn",
+      "access": "public_excerpt_reviewed",
+      "notes": "Chinese and Tibetan tax records, land, contracts and mixed administrative practice; part of scholarly book accessible in JSTOR text preview."
     }
   }
 }
