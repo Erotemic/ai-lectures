@@ -73,3 +73,10 @@ Word counts and estimated minutes are descriptive metadata, not length requireme
 - 020000 — [Nonlinear PDE Stability and Energy Estimates](020000-nonlinear-pde-stability-and-energy-estimates.md)
 
 The narration is standalone. Formulae, proofs, exercises and source references are provided in non-spoken companions. Recorded word counts are descriptive, not length requirements.
+
+## Continuation 11: Descent, geometry, and dependable computation
+
+- 021000 — [Kinetic Transport: From Particle Distributions to Fluid Equations](021000-kinetic-transport-and-boltzmann-equations.md)
+- 022000 — [Reaction Fronts: Comparison Principles and Selected Speeds](022000-comparison-principles-and-reaction-front-stability.md)
+
+Narrations are standalone. Exact calculations, proofs, exercises and sources are provided in non-spoken companions. Durations and word counts are descriptive only.

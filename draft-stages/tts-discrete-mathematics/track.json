@@ -28,7 +28,9 @@
     "graph-minors-treewidth",
     "entropy-shearer-counting",
     "random-connectivity",
-    "designs-codes"
+    "designs-codes",
+    "parameterized-algorithms",
+    "concentration-martingales"
   ],
   "lectures": [
     {
@@ -210,6 +212,24 @@
       "spoken_words": 860,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 5.9
+    },
+    {
+      "id": "021000",
+      "title": "Parameterized Algorithms: Finding Structure Inside Hard Problems",
+      "section": "parameterized-algorithms",
+      "file": "021000-parameterized-algorithms-and-kernels.md",
+      "spoken_words": 979,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.8
+    },
+    {
+      "id": "022000",
+      "title": "Martingales, Bounded Differences, and Concentration",
+      "section": "concentration-martingales",
+      "file": "022000-martingales-and-concentration-inequalities.md",
+      "spoken_words": 924,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.4
     }
   ]
 }

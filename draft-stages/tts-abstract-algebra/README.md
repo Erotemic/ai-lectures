@@ -93,3 +93,12 @@ Word counts and estimated minutes are descriptive metadata, not length requireme
 - 040000 — [Sheaf Cohomology and the Failure of Global Sections to Be Exact](040000-sheaf-cohomology-and-global-sections.md)
 
 The narration is standalone. Formulae, proofs, exercises and source references are provided in non-spoken companions. Recorded word counts are descriptive, not length requirements.
+
+## Continuation 11: Descent, geometry, and dependable computation
+
+- 041000 — [Faithfully Flat Descent: Recovering Objects from a Larger Ring](041000-faithfully-flat-descent-and-gluing.md)
+- 042000 — [Étale Fundamental Groups: The Symmetries of Finite Covers](042000-etale-fundamental-groups-and-finite-covers.md)
+- 043000 — [Deformation Theory: Tangent Directions and Obstructed Lifts](043000-deformation-theory-tangent-spaces-and-obstructions.md)
+- 044000 — [Surface Riemann–Roch, Intersection Numbers, and Genus](044000-surface-riemann-roch-and-intersection-classes.md)
+
+Narrations are standalone. Exact calculations, proofs, exercises and sources are provided in non-spoken companions. Durations and word counts are descriptive only.

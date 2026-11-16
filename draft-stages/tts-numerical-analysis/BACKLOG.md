@@ -1,12 +1,12 @@
-# Numerical Analysis — after 17 completed lectures
+# Numerical Analysis — after 18 completed lectures
 
-Coverage extends from conditioning and errors through Krylov, implicit stepping, automatic differentiation, interval enclosures and validated ODE integration.
+The sequence covers conditioning, Krylov, interpolation, integration, validated ODEs, automatic differentiation, and a posteriori finite-element residual estimates.
 
 ## Unindexed continuation proposals
 
-- 018000 — A Posteriori PDE Discretization Error Bounds
 - 019000 — Multigrid and Matrix-Free Preconditioning
-- 020000 — Verified Nonlinear Systems and Interval Newton–Krawczyk Methods
+- 020000 — Verified Nonlinear Systems: Interval Newton and Krawczyk
 - 021000 — Sensitivity of Nonsmooth Numerical Algorithms
+- 022000 — Equilibrated Flux Reconstructions and Guaranteed Error Bounds
 
-Distinguish measured error estimators from rigorous enclosures, and keep rounding, truncation and wrapping errors separate. Proposals are not registered.
+Keep discretization, algebraic, data-approximation and floating-point errors distinct. Do not call an empirical indicator a rigorous certificate without constants and hypotheses. Proposals are not registered.

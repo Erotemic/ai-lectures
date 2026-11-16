@@ -73,3 +73,10 @@ Word counts and estimated minutes are descriptive metadata, not length requireme
 - 020000 — [Block Designs, Finite Planes, and Hamming Codes](020000-block-designs-finite-planes-and-hamming-codes.md)
 
 The narration is standalone. Formulae, proofs, exercises and source references are provided in non-spoken companions. Recorded word counts are descriptive, not length requirements.
+
+## Continuation 11: Descent, geometry, and dependable computation
+
+- 021000 — [Parameterized Algorithms: Finding Structure Inside Hard Problems](021000-parameterized-algorithms-and-kernels.md)
+- 022000 — [Martingales, Bounded Differences, and Concentration](022000-martingales-and-concentration-inequalities.md)
+
+Narrations are standalone. Exact calculations, proofs, exercises and sources are provided in non-spoken companions. Durations and word counts are descriptive only.

@@ -28,7 +28,9 @@
     "gauss-bonnet-euler",
     "characteristic-classes",
     "topological-degree",
-    "hodge-harmonic"
+    "hodge-harmonic",
+    "moment-maps-reduction",
+    "chern-weil-bundles"
   ],
   "lectures": [
     {
@@ -210,6 +212,24 @@
       "spoken_words": 788,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 5.4
+    },
+    {
+      "id": "021000",
+      "title": "Moment Maps: Symmetry, Conserved Quantities, and Reduction",
+      "section": "moment-maps-reduction",
+      "file": "021000-symplectic-moment-maps-and-reduction.md",
+      "spoken_words": 919,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.3
+    },
+    {
+      "id": "022000",
+      "title": "Chern–Weil Theory: How Curvature Records Bundle Topology",
+      "section": "chern-weil-bundles",
+      "file": "022000-chern-weil-theory-and-bundle-curvature.md",
+      "spoken_words": 912,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.3
     }
   ]
 }

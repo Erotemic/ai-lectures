@@ -73,3 +73,10 @@ Word counts and estimated minutes are descriptive metadata, not length requireme
 - 020000 — [Hodge Decomposition and Harmonic Forms](020000-hodge-decomposition-and-harmonic-forms.md)
 
 The narration is standalone. Formulae, proofs, exercises and source references are provided in non-spoken companions. Recorded word counts are descriptive, not length requirements.
+
+## Continuation 11: Descent, geometry, and dependable computation
+
+- 021000 — [Moment Maps: Symmetry, Conserved Quantities, and Reduction](021000-symplectic-moment-maps-and-reduction.md)
+- 022000 — [Chern–Weil Theory: How Curvature Records Bundle Topology](022000-chern-weil-theory-and-bundle-curvature.md)
+
+Narrations are standalone. Exact calculations, proofs, exercises and sources are provided in non-spoken companions. Durations and word counts are descriptive only.

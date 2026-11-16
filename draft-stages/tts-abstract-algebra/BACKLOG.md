@@ -1,12 +1,12 @@
-# Abstract Algebra — after 40 completed lectures
+# Abstract Algebra — after 44 completed lectures
 
-The track now extends from groups, Galois theory and representations through modules, number fields, schemes, line bundles, Riemann–Roch, local intersection multiplicity and sheaf cohomology.
+The track now progresses from groups and fields through Galois theory, homological algebra, arithmetic schemes, sheaf cohomology, faithfully flat descent, finite étale covers, deformation theory and surface Riemann–Roch.
 
 ## Unindexed continuation proposals
 
-- 041000 — Faithfully Flat Descent and Gluing Geometric Objects
-- 042000 — Étale Fundamental Groups and Finite Covers
-- 043000 — Deformation Theory, Tangent Spaces and Obstructions
-- 044000 — Higher-Dimensional Riemann–Roch and Intersection Classes
+- 045000 — Derived Categories and Perfect Complexes on Schemes
+- 046000 — Grothendieck–Riemann–Roch and Pushforwards
+- 047000 — Algebraic Groups, Group Schemes and Lie Algebras
+- 048000 — Deformation-Obstruction Complexes in Moduli Problems
 
-For each theorem distinguish general schemes from smooth/proper varieties, keep field hypotheses visible, and work through a local computation before abstract generalization. Proposals are not registered.
+Preserve exact field, properness, smoothness and base-change hypotheses. Distinguish finite étale from general étale maps, and formal infinitesimal lifts from analytic families. Proposals are not registered.

@@ -72,3 +72,9 @@ Word counts and estimated minutes are descriptive metadata, not length requireme
 - 017000 — [Validated Integration of Ordinary Differential Equations](017000-validated-integration-of-ordinary-differential-equations.md)
 
 The narration is standalone. Formulae, proofs, exercises and source references are provided in non-spoken companions. Recorded word counts are descriptive, not length requirements.
+
+## Continuation 11: Descent, geometry, and dependable computation
+
+- 018000 — [A Posteriori Error Estimates for Finite Element Solutions](018000-a-posteriori-pde-error-estimates.md)
+
+Narrations are standalone. Exact calculations, proofs, exercises and sources are provided in non-spoken companions. Durations and word counts are descriptive only.

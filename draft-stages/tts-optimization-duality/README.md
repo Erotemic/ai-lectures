@@ -74,3 +74,9 @@ Word counts and estimated minutes are descriptive metadata, not length requireme
 - 014000 — [Monotone Operators, Resolvents, and Splitting Methods](014000-monotone-operators-and-splitting-methods.md)
 
 The narration is standalone. Formulae, proofs, exercises and source references are provided in non-spoken companions. Recorded word counts are descriptive, not length requirements.
+
+## Continuation 11: Descent, geometry, and dependable computation
+
+- 015000 — [Robust Optimization: Worst-Case Constraints and Tractable Reformulations](015000-robust-optimization-and-uncertainty-sets.md)
+
+Narrations are standalone. Exact calculations, proofs, exercises and sources are provided in non-spoken companions. Durations and word counts are descriptive only.

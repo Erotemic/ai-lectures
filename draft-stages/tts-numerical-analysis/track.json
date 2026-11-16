@@ -22,7 +22,8 @@
     "sparse-eigen-krylov",
     "implicit-stepping-newton-krylov",
     "automatic-differentiation-adjoints",
-    "validated-ode"
+    "validated-ode",
+    "posteriori-fem-errors"
   ],
   "lectures": [
     {
@@ -177,6 +178,15 @@
       "spoken_words": 831,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 5.7
+    },
+    {
+      "id": "018000",
+      "title": "A Posteriori Error Estimates for Finite Element Solutions",
+      "section": "posteriori-fem-errors",
+      "file": "018000-a-posteriori-pde-error-estimates.md",
+      "spoken_words": 1025,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.1
     }
   ]
 }

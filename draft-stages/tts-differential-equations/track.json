@@ -28,7 +28,9 @@
     "traveling-waves-fronts",
     "conservation-shocks-entropy",
     "hamiltonian-flows",
-    "nonlinear-pde-stability"
+    "nonlinear-pde-stability",
+    "kinetic-transport-boltzmann",
+    "comparison-front-stability"
   ],
   "lectures": [
     {
@@ -210,6 +212,24 @@
       "spoken_words": 877,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 6.0
+    },
+    {
+      "id": "021000",
+      "title": "Kinetic Transport: From Particle Distributions to Fluid Equations",
+      "section": "kinetic-transport-boltzmann",
+      "file": "021000-kinetic-transport-and-boltzmann-equations.md",
+      "spoken_words": 1000,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.9
+    },
+    {
+      "id": "022000",
+      "title": "Reaction Fronts: Comparison Principles and Selected Speeds",
+      "section": "comparison-front-stability",
+      "file": "022000-comparison-principles-and-reaction-front-stability.md",
+      "spoken_words": 995,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.9
     }
   ]
 }

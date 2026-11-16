@@ -48,7 +48,11 @@
     "divisors-picard",
     "riemann-roch-curves",
     "intersection-local",
-    "derived-global-sections"
+    "derived-global-sections",
+    "faithfully-flat-descent",
+    "etale-fundamental-groups",
+    "deformation-tangents",
+    "surface-riemann-roch"
   ],
   "lectures": [
     {
@@ -410,6 +414,42 @@
       "spoken_words": 741,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 5.1
+    },
+    {
+      "id": "041000",
+      "title": "Faithfully Flat Descent: Recovering Objects from a Larger Ring",
+      "section": "faithfully-flat-descent",
+      "file": "041000-faithfully-flat-descent-and-gluing.md",
+      "spoken_words": 1001,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.9
+    },
+    {
+      "id": "042000",
+      "title": "Étale Fundamental Groups: The Symmetries of Finite Covers",
+      "section": "etale-fundamental-groups",
+      "file": "042000-etale-fundamental-groups-and-finite-covers.md",
+      "spoken_words": 871,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.0
+    },
+    {
+      "id": "043000",
+      "title": "Deformation Theory: Tangent Directions and Obstructed Lifts",
+      "section": "deformation-tangents",
+      "file": "043000-deformation-theory-tangent-spaces-and-obstructions.md",
+      "spoken_words": 883,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.1
+    },
+    {
+      "id": "044000",
+      "title": "Surface Riemann–Roch, Intersection Numbers, and Genus",
+      "section": "surface-riemann-roch",
+      "file": "044000-surface-riemann-roch-and-intersection-classes.md",
+      "spoken_words": 915,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.3
     }
   ]
 }

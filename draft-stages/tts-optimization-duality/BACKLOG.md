@@ -1,12 +1,12 @@
-# Optimization and Duality — after 14 completed lectures
+# Optimization and Duality — after 15 completed lectures
 
-The sequence now includes convex duality, proximal and interior-point methods, conic certificates, discrete and submodular optimization, and maximal-monotone/resolvent splitting.
+The sequence includes convex/conic duality, interior-point and proximal algorithms, discrete and submodular optimization, sensitivity, operator splitting and robust optimization over explicit uncertainty sets.
 
 ## Unindexed continuation proposals
 
-- 015000 — Robust Optimization and Optimization under Uncertainty
 - 016000 — Homogeneous Self-Dual Embeddings and Infeasibility Certificates
 - 017000 — Nonmonotone Submodular Maximization under Matroid Constraints
 - 018000 — Inexact Proximal Steps and Convergence Diagnostics
+- 019000 — Distributionally Robust Optimization and Wasserstein Ambiguity Sets
 
-Keep convexity, existence, regularity and step-size requirements visible; distinguish an auxiliary splitting fixed point from the recovered primal solution. Proposals are not registered.
+Distinguish nominal, worst-case, chance-constrained and distributionally robust objectives. Prove whether any robust counterpart is exact before claiming it is a certificate. Proposals are not registered.

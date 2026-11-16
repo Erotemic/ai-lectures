@@ -19,7 +19,8 @@
     "optimization-sensitivity",
     "conic-duality-slater",
     "submodular-approximation",
-    "monotone-splitting"
+    "monotone-splitting",
+    "robust-uncertainty-sets"
   ],
   "lectures": [
     {
@@ -147,6 +148,15 @@
       "spoken_words": 840,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 5.8
+    },
+    {
+      "id": "015000",
+      "title": "Robust Optimization: Worst-Case Constraints and Tractable Reformulations",
+      "section": "robust-uncertainty-sets",
+      "file": "015000-robust-optimization-and-uncertainty-sets.md",
+      "spoken_words": 1050,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.2
     }
   ]
 }
