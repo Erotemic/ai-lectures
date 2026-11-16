@@ -51,6 +51,24 @@ distinguishes geometric higher dimensions from claims about physical space
 and the narrator's rigid social attitudes from Abbott's historical advocacy
 of educational reform. See `notes/flatland-geometry-and-satire.md`.
 
+**Jacobean tragedy — Shakespeare, *Macbeth***: 050000–058000.
+Four story lectures carry the prophecy, Duncan's murder, Banquo and the apparitions,
+and the Scottish resistance through the final battle. Five analyses examine the
+limits of prophecy, the Macbeths' changing complicity, kingship, blood/sleep/time
+as theatrical language, and First Folio/chronicle/transmission history. The
+retelling distinguishes the witches' words from Macbeth's independent decisions,
+and does not pass off contested Middleton attributions as settled. See
+`notes/macbeth-sources-and-performance.md`.
+
+**Jacobean tragedy — Shakespeare, *Othello***: 059000–068000.
+Four continuous story lectures from the Venice hearing to the bedroom murder
+precede six analyses of Iago's manufactured evidence, race and institutional
+service, Desdemona/Emilia/Bianca, jealousy and responsibility, stage language,
+and Quarto/Folio sources. The handkerchief's full route remains explicit, and
+neither Iago's accusations nor Othello's final self-account are treated as
+an independent finding of fact. See
+`notes/othello-sources-texts-and-performance.md`.
+
 These are original lectures, not extracts or dramatic recordings of the primary
 texts. Source citations, critical questions, and edition notes are outside the
 spoken regions; bibliographic records and anchored claims appear in `metadata/`.
@@ -74,13 +92,12 @@ or binary assets are part of this pack.
 
 ## Substantive next priorities
 
-1. **Shakespeare, *Macbeth* and *Othello***: two further defining tragedies, with complete theatrical stories before analysis.
-2. **Jane Austen, *Pride and Prejudice***: courtship, property, family pressure, free indirect discourse and irony.
-3. **Mary Shelley, *Frankenstein***: framed narratives, responsibility, Romanticism and later science fiction.
-4. **Charles Dickens, *Great Expectations* or *Bleak House***: Victorian serial form, class mobility and institutions.
-5. **Gustave Flaubert, *Madame Bovary***: the history of realism and the narrator's proximity to characters' minds.
-6. **Leo Tolstoy, *War and Peace***: war, families, the philosophy of history and the novel's capacious form.
-7. **Fyodor Dostoevsky, *The Brothers Karamazov***: conflicting voices, family ethics and religious argument.
+1. **Jane Austen, *Pride and Prejudice***: courtship, property, family pressure, free indirect discourse and irony.
+2. **Mary Shelley, *Frankenstein***: framed narratives, responsibility, Romanticism and later science fiction.
+3. **Charles Dickens, *Great Expectations* or *Bleak House***: Victorian serial form, class mobility and institutions.
+4. **Gustave Flaubert, *Madame Bovary***: the history of realism and the narrator's proximity to characters' minds.
+5. **Leo Tolstoy, *War and Peace***: war, families, the philosophy of history and the novel's capacious form.
+6. **Fyodor Dostoevsky, *The Brothers Karamazov***: conflicting voices, family ethics and religious argument.
 
 Other major candidates include Chaucer's *Canterbury Tales*, Boccaccio's
 *Decameron*, Milton's *Paradise Lost*, Goethe's *Faust*, Emily Brontë's
