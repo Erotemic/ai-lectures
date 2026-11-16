@@ -40,19 +40,25 @@ This is an independent, source-grounded, audio-first world-history curriculum fo
 | 032000 | A City of Paper and Rivers: Baghdad and the Abbasid Worlds | 1,378 |
 | 033000 | From Chang'an to the Southern Ports: Tang and Song China | 1,336 |
 | 034000 | Monsoons, Temples, and Ports: South and Southeast Asian Worlds | 1,394 |
+| 034100 | A Debt Cleared in Copper: Law and Language in Tenth-Century Luzon | 1,258 |
 | 035000 | Across the Sahel: Ghana, Cities, and Trans-Saharan Worlds | 1,367 |
 | 036000 | Shorelines of Exchange: East Africa and the Indian Ocean | 1,365 |
+| 036100 | Rice across an Ocean: Madagascar, the Comoros, and Early Island Settlement | 1,288 |
 | 037000 | Fields, Lords, and Market Streets: Medieval European Societies | 1,344 |
 | 038000 | Rivers to the Sea: Scandinavians, Rus, and the North Atlantic | 1,307 |
 | 039000 | Courts across the Water: Korea and Japan in Medieval East Asia | 1,337 |
+| 039100 | A Field under Several Names: Estates, Taxes, and Work in Medieval Japan | 1,293 |
 | 040000 | Reading the Ocean: Voyaging and Settlement in the Pacific | 1,359 |
 | 041000 | Many Khans, Many Empires: Conquest and Government across Eurasia | 1,341 |
 | 042000 | A Disease with Many Histories: Plague across the Fourteenth-Century World | 1,342 |
 | 043000 | More than a Pilgrimage: Mali, the Sahel, and the Work of Empire | 1,297 |
+| 043100 | Faces from a City: Pavements, Craft, and Authority at Ilé-Ifẹ̀ | 1,265 |
 | 044000 | The Walls and the Lives Beyond Them: Great Zimbabwe and Southern Africa | 1,249 |
+| 044100 | A Hill above the River: Cattle, Gold, and Power at Mapungubwe | 1,164 |
 | 045000 | More than One Capital: Maya and Mexica Worlds before 1500 | 1,244 |
 | 046000 | Roads before the Empire: Andean States and the Rise of the Inca | 1,237 |
 | 047000 | Ports between Monsoons: Maritime Asia before 1500 | 1,266 |
+| 047100 | Timber Sewn to the Sea: The Boats and River Ports of Butuan | 1,146 |
 | 048000 | A City through Several Empires: Byzantines and Ottomans before 1500 | 1,252 |
 | 049000 | After the Plague: Work, War, and Learning in Late Medieval Europe | 1,297 |
 | 050000 | The World around 1500: Connections, Boundaries, and New Encounters | 1,354 |
@@ -62,6 +68,7 @@ This is an independent, source-grounded, audio-first world-history curriculum fo
 | 054000 | Roads into the Canyon: Chaco and the Ancestral Pueblo World | 1,429 |
 | 055000 | Islands Connected by Water: Caribbean Societies before 1492 | 1,423 |
 | 056000 | A City without a Palace? Djenné-Jeno and the Inland Niger Delta | 1,407 |
+| 056100 | Houses of Stone on the Sahel: Farming and Community at Dhar Tichitt | 1,286 |
 | 057000 | Around the Moving Lake: Kanem, Bornu, and the Peoples of Central Africa | 1,399 |
 | 058000 | Beyond the Temple Walls: Water, Work, and Households at Angkor | 1,408 |
 | 059000 | Copper, Canoes, and Seasonal Worlds: The Great Lakes before 1500 | 1,521 |
@@ -91,6 +98,7 @@ This is an independent, source-grounded, audio-first world-history curriculum fo
 | 083000 | A Poem Is Not a Census: Tamil Voices, Landscapes, and Early Society | 1,372 |
 | 084000 | Five Hundred at the Port: Tamil Merchants across the Bay of Bengal | 1,309 |
 | 085000 | Oak Groves and Ocean Routes: Indigenous California before 1500 | 1,332 |
+| 085100 | A River with Rules: Salmon, Weirs, and Klamath Communities | 1,302 |
 | 086000 | Where Salmon and Camas Meet: Life on the Columbia Plateau | 1,313 |
 | 087000 | Beyond a Border on a Map: Balhae, Its Cities, and Its People | 1,302 |
 | 088000 | Carving a Library: Wood, War, and Learning in Goryeo Korea | 1,345 |
@@ -114,3 +122,7 @@ Lectures 051000–058000 examine Central Asian mobility and Sogdian sources; Cah
 Introduce places, institutions and methods at listener speed. Explain state formation through households, farmers, workers, merchants, soldiers, enslaved people, and displaced communities, not just rulers. Different societies should be studied in parallel on their own terms, not as prerequisites for European history. Separate excavated facts and textual testimony from reconstructions or later histories. Texts written by kings, imperial bureaucracies, religious communities, foreign travelers, or colonial investigators represent the interests and limits of their authors. Ancient names and dates sometimes remain debated; uncertainty belongs in the spoken narrative when it is essential to understanding the claim.
 
 The materials determine lecture length. Do not impose a fixed narrated duration or word count. No TTS output, private voices, binary images, shared runtime files, or shared course registries belong in this source pack.
+
+## Insertion-ID depth lectures — November 2026
+
+Eight new evidence-led lectures use spare lower-order ID positions (for example, `034100` and `085100`) to place companion studies beside their parent topics, without renumbering the existing 90 lectures. The track now has **98 indexed lectures**: 50 introductory chronological entries and 48 regional or documentary deep dives. Manuscript word counts are descriptive, not length targets.

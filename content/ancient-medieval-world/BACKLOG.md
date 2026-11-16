@@ -192,3 +192,22 @@ The initial bridge and forty regional/documents-based depth lectures are written
 - Expand the South Asian literary history with specialist studies of manuscript transmission, Tamil Jain and Buddhist writing, and gender in later devotional poetry rather than treating all Tamil texts as one ancient period.
 - Seek excavated, not only acquired, documentary archives in the Hindu Kush and Central Asian regions, and compare sources from Muslim and non-Muslim communities without assuming identical legal practice.
 - Explore pre-1500 Philippine settlements and material exchange, precolonial Madagascar, and further African rural archaeology as additional geographic depth campaigns.
+
+## Sixth regional-depth installment — inserted IDs (written and indexed)
+
+This campaign uses spare sub-thousand ID positions; it does not start at 091000 and does not alter identifiers or manuscripts already in the track.
+
+| ID | Focus | Evidence and still-open question |
+| --- | --- | --- |
+| 034100 | Laguna copperplate | Clavé–Griffiths 2022 rereading versus older Postma translation; verify individual terms against full critical edition before claiming final legal status |
+| 036100 | Madagascar and Comoros crops | Open archaeobotanical survey, genetic review; arrival sequence and routes remain unresolved |
+| 039100 | Japanese estate documents | Tōji and Tōdaiji archives, estate maps and local Kyushu study; more edited village petitions needed |
+| 043100 | Ilé-Ifẹ̀ cities and artistry | British Museum object record, Met research and archaeobotany; functions and personal identities of heads remain uncertain |
+| 044100 | Mapungubwe landscape | UNESCO landscape, SANParks discovery record, Pretoria excavation reappraisal; no single-cause explanation for political changes |
+| 047100 | Butuan boats | National Museum collections and Lacsina studies; radiocarbon dates and find histories require boat-by-boat treatment |
+| 056100 | Dhar Tichitt settlement | 2026 AMS reevaluation with landscape excavation; chronological gaps and status interpretations remain |
+| 085100 | Klamath fisheries | Yurok and Karuk community accounts and fisheries scholarship; distinguish later documentation from specific pre-1500 reconstruction |
+
+### Further depth priorities
+
+Extend first-language and material evidence for Philippine communities beyond these two examples, household and gender sources from Indian Ocean islands and Japan, excavated Yoruba and southern African settlement contexts, and community-led North American historical work. Continue filling the lower-order ID positions beside their closest existing subject; do not assume the unused numbers represent missing sequential epochs.
