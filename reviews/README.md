@@ -176,6 +176,37 @@ Console logs under `reviews/bulk-logs/` are gitignored; the run directory,
 registry, and coverage stay committed. Per-unit failures (proxy outage, bad
 output) are recorded in `progress.json` and re-billed by `--resume`.
 
+## One-at-a-time audit mode (full v2, deliberate pace)
+
+The deliberate audit of a track goes one lecture per pass, in **track
+order** (the lecture list in `track.json`, by ID). A session — fresh or
+post-compaction — reconstructs its position from the ledgers alone:
+
+1. Read `reviews/registry/coverage-<track>.jsonl` and
+   `reviews/registry/findings-<track>.jsonl`.
+2. A unit is **audit-complete** iff its coverage row has contract `v2`
+   (full, not a `v2w` bulk row) at the unit's current revision *and* it has
+   no open/confirmed/deferred findings. (A `v2w` row or a stale revision
+   means the unit still needs a full pass.)
+3. The **next unit** is the first lecture ID in track order that is not
+   audit-complete. Process it:
+
+```
+python3 tools/run_reviews.py run    --track <t> --unit <ID> --one --fresh
+python3 tools/run_reviews.py adjudicate --track <t> --run <newest run> \
+        --decisions-file <decisions.json>   # or --interactive per finding
+python3 tools/run_reviews.py verify
+```
+
+4. Adjudicate every finding of the unit (including any pre-seeded by an
+   earlier bulk pass) before moving on: the unit is only audit-complete
+   when its findings are all terminal (rejected / resolved) or deliberately
+   deferred with a reason in the adjudication note.
+5. **Commit after each unit** (or a small batch of units) with the
+   attribution trailer, then proceed. The commit is the checkpoint: after
+   any compaction, step 2 gives the next unit; raw responses, findings,
+   coverage, and run state are all on disk.
+
 ## Attribution
 
 `run.yaml` records, for the reviewer and the adjudicator separately: the

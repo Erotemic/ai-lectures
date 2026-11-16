@@ -114,6 +114,58 @@
   "403000",
   "404000"
  ],
- "stages": {},
- "in_progress": null
+ "stages": {
+  "002000": {
+   "stage": "verified",
+   "at": "2026-11-16T19:31:22Z",
+   "revision": "77b3e83156dc7102",
+   "findings": 3,
+   "dropped": 0,
+   "active": 3
+  },
+  "003000": {
+   "stage": "verified",
+   "at": "2026-11-16T19:32:36Z",
+   "revision": "bc397ade7747e85a",
+   "findings": 3,
+   "dropped": 0,
+   "active": 3
+  },
+  "004000": {
+   "stage": "verified",
+   "at": "2026-11-16T19:34:27Z",
+   "revision": "4e4ab5ff6b6eb3d4",
+   "findings": 3,
+   "dropped": 0,
+   "active": 3
+  },
+  "005000": {
+   "stage": "verified",
+   "at": "2026-11-16T19:36:20Z",
+   "revision": "a3db7b26e6d7357a",
+   "findings": 3,
+   "dropped": 0,
+   "active": 3
+  },
+  "006000": {
+   "stage": "verified",
+   "at": "2026-11-16T19:38:21Z",
+   "revision": "ed0b46f20b7f1404",
+   "findings": 3,
+   "dropped": 0,
+   "active": 3
+  },
+  "007000": {
+   "stage": "verified",
+   "at": "2026-11-16T19:39:50Z",
+   "revision": "0e11e84c956dbd6e",
+   "findings": 3,
+   "dropped": 0,
+   "active": 3
+  }
+ },
+ "in_progress": {
+  "unit": "007000",
+  "stage": "verified"
+ }
 }
