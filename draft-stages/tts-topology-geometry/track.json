@@ -35,16 +35,30 @@
     "covariant-transport",
     "curvature-holonomy-chern",
     "riemannian-metrics",
+    "metric-connection-calculations",
+    "jacobi-geodesic-deviation",
     "mayer-vietoris-excision",
+    "chain-complexes-exactness",
+    "homology-computations",
     "poincare-duality",
+    "cup-products-intersections",
     "gauss-bonnet-euler",
+    "gauss-bonnet-triangulation",
     "characteristic-classes",
+    "clutching-chern",
     "topological-degree",
+    "regular-values-degree",
     "hodge-harmonic",
+    "hodge-star-adjoint",
+    "elliptic-symbol-fredholm",
     "moment-maps-reduction",
+    "symplectic-hamiltonian-examples",
     "chern-weil-bundles",
+    "gauge-holonomy-calculations",
     "morse-handles",
+    "morse-chain-complex",
     "elliptic-index",
+    "de-rham-elliptic-index",
     "morse-bott-localization",
     "holonomy-gauge-moduli",
     "prequantum-line-bundles",
@@ -300,6 +314,24 @@
       "estimated_minutes_at_145_wpm": 8.4
     },
     {
+      "id": "014100",
+      "title": "Riemannian Geometry by Calculation: Metric, Connection, and Geodesics",
+      "section": "metric-connection-calculations",
+      "file": "014100-riemannian-geometry-calculations-in-coordinates.md",
+      "spoken_words": 1097,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.6
+    },
+    {
+      "id": "014200",
+      "title": "Jacobi Fields: Curvature Seen Through Neighboring Geodesics",
+      "section": "jacobi-geodesic-deviation",
+      "file": "014200-jacobi-fields-and-geodesic-deviation.md",
+      "spoken_words": 1043,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.2
+    },
+    {
       "id": "015000",
       "title": "Mayer–Vietoris and Excision: Computing Homology by Gluing",
       "section": "mayer-vietoris-excision",
@@ -307,6 +339,24 @@
       "spoken_words": 1128,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 7.8
+    },
+    {
+      "id": "015100",
+      "title": "Chain Complexes and Exact Sequences: How Topology Becomes Algebra",
+      "section": "chain-complexes-exactness",
+      "file": "015100-chain-complexes-exact-sequences-and-relative-homology.md",
+      "spoken_words": 1022,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.0
+    },
+    {
+      "id": "015200",
+      "title": "Calculating Homology of Circles, Spheres, and Tori",
+      "section": "homology-computations",
+      "file": "015200-mayer-vietoris-and-cellular-homology-by-example.md",
+      "spoken_words": 994,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.9
     },
     {
       "id": "016000",
@@ -318,6 +368,15 @@
       "estimated_minutes_at_145_wpm": 7.1
     },
     {
+      "id": "016100",
+      "title": "Cup Products and Intersection Numbers: What Two Holes Say to Each Other",
+      "section": "cup-products-intersections",
+      "file": "016100-cup-products-and-intersection-numbers-worked.md",
+      "spoken_words": 1041,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.2
+    },
+    {
       "id": "017000",
       "title": "Gauss–Bonnet: Curvature Counts Topology",
       "section": "gauss-bonnet-euler",
@@ -325,6 +384,15 @@
       "spoken_words": 1125,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 7.8
+    },
+    {
+      "id": "017100",
+      "title": "Gauss–Bonnet by Triangulation: From Angle Excess to Euler Characteristic",
+      "section": "gauss-bonnet-triangulation",
+      "file": "017100-gauss-bonnet-from-triangles-to-euler-characteristic.md",
+      "spoken_words": 1031,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.1
     },
     {
       "id": "018000",
@@ -336,6 +404,15 @@
       "estimated_minutes_at_145_wpm": 8.2
     },
     {
+      "id": "018100",
+      "title": "Characteristic Classes by Example: Gluing Lines over a Sphere",
+      "section": "clutching-chern",
+      "file": "018100-characteristic-classes-and-clutching-maps.md",
+      "spoken_words": 1020,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.0
+    },
+    {
       "id": "019000",
       "title": "Degree Theory, Brouwer Fixed Points, and Global Constraints",
       "section": "topological-degree",
@@ -343,6 +420,15 @@
       "spoken_words": 835,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 5.8
+    },
+    {
+      "id": "019100",
+      "title": "Regular Values and Degree: Counting Solutions with Signs",
+      "section": "regular-values-degree",
+      "file": "019100-regular-values-degree-and-fixed-points.md",
+      "spoken_words": 1070,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.4
     },
     {
       "id": "020000",
@@ -354,6 +440,24 @@
       "estimated_minutes_at_145_wpm": 5.4
     },
     {
+      "id": "020100",
+      "title": "Hodge Theory by Hand: Star, Adjoint, and Laplacian",
+      "section": "hodge-star-adjoint",
+      "file": "020100-hodge-star-adjoints-and-the-laplacian.md",
+      "spoken_words": 1151,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.9
+    },
+    {
+      "id": "020200",
+      "title": "Elliptic Operators: From Their Symbols to Finite-Dimensional Obstructions",
+      "section": "elliptic-symbol-fredholm",
+      "file": "020200-elliptic-operators-symbols-and-fredholm-theory.md",
+      "spoken_words": 1091,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.5
+    },
+    {
       "id": "021000",
       "title": "Moment Maps: Symmetry, Conserved Quantities, and Reduction",
       "section": "moment-maps-reduction",
@@ -361,6 +465,15 @@
       "spoken_words": 919,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 6.3
+    },
+    {
+      "id": "021100",
+      "title": "Symplectic Geometry by Example: Area Forms and Hamiltonian Motion",
+      "section": "symplectic-hamiltonian-examples",
+      "file": "021100-symplectic-forms-and-hamiltonian-motion.md",
+      "spoken_words": 1078,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.4
     },
     {
       "id": "022000",
@@ -372,6 +485,15 @@
       "estimated_minutes_at_145_wpm": 6.3
     },
     {
+      "id": "022100",
+      "title": "Gauge Geometry by Calculation: Connections, Curvature, and Holonomy",
+      "section": "gauge-holonomy-calculations",
+      "file": "022100-principal-connections-gauge-changes-and-holonomy.md",
+      "spoken_words": 1200,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 8.3
+    },
+    {
       "id": "023000",
       "title": "Morse Theory: Critical Points and Handle Decompositions",
       "section": "morse-handles",
@@ -381,6 +503,15 @@
       "estimated_minutes_at_145_wpm": 6.4
     },
     {
+      "id": "023100",
+      "title": "Morse Theory by Example: Critical Points Become a Chain Complex",
+      "section": "morse-chain-complex",
+      "file": "023100-morse-complexes-from-critical-points.md",
+      "spoken_words": 1201,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 8.3
+    },
+    {
       "id": "024000",
       "title": "Elliptic Index and the Atiyah-Singer Perspective",
       "section": "elliptic-index",
@@ -388,6 +519,15 @@
       "spoken_words": 800,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 5.5
+    },
+    {
+      "id": "024100",
+      "title": "An Index Theorem We Can Calculate: The de Rham Operator and Euler Characteristic",
+      "section": "de-rham-elliptic-index",
+      "file": "024100-de-rham-elliptic-complex-and-euler-index.md",
+      "spoken_words": 1054,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.3
     },
     {
       "id": "025000",

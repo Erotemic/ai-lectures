@@ -169,3 +169,24 @@ The preceding introductory lectures 008000, 009000, 010000, 011000, 012000 and 0
 - 013300 - [Curvature, Holonomy, and Chern Numbers](013300-curvature-holonomy-and-chern-numbers.md)
 
 These manuscripts were rebuilt after an interrupted previous continuation. The lecture titles and stable IDs were recovered; the prose is newly authored rather than a byte-for-byte recovery of the previous ZIP. Each file contains spoken prose followed by a mathematical companion, checks with answers, and primary reference links with Wikipedia overviews.
+
+## Continuation 26: Foundations for Advanced Geometry (2026-11-16)
+
+Fourteen additional lectures have been inserted after the relevant survey lectures, rather than at the end of the advanced sequence. The original 54 entries, including Continuation 25, are preserved.
+
+- 014100 — [Riemannian Geometry by Calculation: Metric, Connection, and Geodesics](014100-riemannian-geometry-calculations-in-coordinates.md)
+- 014200 — [Jacobi Fields: Curvature Seen Through Neighboring Geodesics](014200-jacobi-fields-and-geodesic-deviation.md)
+- 015100 — [Chain Complexes and Exact Sequences: How Topology Becomes Algebra](015100-chain-complexes-exact-sequences-and-relative-homology.md)
+- 015200 — [Calculating Homology of Circles, Spheres, and Tori](015200-mayer-vietoris-and-cellular-homology-by-example.md)
+- 016100 — [Cup Products and Intersection Numbers: What Two Holes Say to Each Other](016100-cup-products-and-intersection-numbers-worked.md)
+- 017100 — [Gauss–Bonnet by Triangulation: From Angle Excess to Euler Characteristic](017100-gauss-bonnet-from-triangles-to-euler-characteristic.md)
+- 018100 — [Characteristic Classes by Example: Gluing Lines over a Sphere](018100-characteristic-classes-and-clutching-maps.md)
+- 019100 — [Regular Values and Degree: Counting Solutions with Signs](019100-regular-values-degree-and-fixed-points.md)
+- 020100 — [Hodge Theory by Hand: Star, Adjoint, and Laplacian](020100-hodge-star-adjoints-and-the-laplacian.md)
+- 020200 — [Elliptic Operators: From Their Symbols to Finite-Dimensional Obstructions](020200-elliptic-operators-symbols-and-fredholm-theory.md)
+- 021100 — [Symplectic Geometry by Example: Area Forms and Hamiltonian Motion](021100-symplectic-forms-and-hamiltonian-motion.md)
+- 022100 — [Gauge Geometry by Calculation: Connections, Curvature, and Holonomy](022100-principal-connections-gauge-changes-and-holonomy.md)
+- 023100 — [Morse Theory by Example: Critical Points Become a Chain Complex](023100-morse-complexes-from-critical-points.md)
+- 024100 — [An Index Theorem We Can Calculate: The de Rham Operator and Euler Characteristic](024100-de-rham-elliptic-complex-and-euler-index.md)
+
+The sequence strengthens the foundations for Hodge decomposition, Chern–Weil theory, moment maps, elliptic index, Morse–Floer theory, holonomy, and four-dimensional gauge theory. Each new transcript has a marked spoken lecture and a separate non-spoken mathematical companion, worked checks, and cited source records. No duration or word-count target was applied.
