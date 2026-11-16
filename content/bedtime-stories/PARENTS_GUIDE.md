@@ -196,3 +196,32 @@ museum fossil. Moss supports a miniature habitat; magnification changes the
 *view*, not the plants. Saturn's rings are not solid, and visibility depends
 on the telescope and sky. The butterfly's wings must expand and dry after
 emergence; do not handle newly emerged butterflies.
+
+
+## Stories 052000–057000 — bigger and smaller kinds of wonder
+
+These stories use different kinds of observation: recorded footage from the
+deep sea, a dog's scent impressions, watching a tree over changing seasons,
+a glass-sided observation hive, a game with an octopus's camouflage, and a
+dim galaxy under dark skies. Each is fiction for listening, not a prescribed
+activity. The optional questions are invitations, not requirements.
+
+- **052000, Danny and the Lights Under the Sea.** The story contrasts a toy submarine with real deep-ocean footage. The surprising light has a physical source, while the imaginary conversation about it stays playful. Optional question: “What did Danny first think the little lights were?” Factual background: [NOAA Ocean Exploration, *What is bioluminescence?*](https://oceanexplorer.noaa.gov/ocean-fact/bioluminescence/); editorial reference: [National Association for the Education of Young Children, *Rocking and Rolling: Fostering Curiosity in Infants and Toddlers*](https://www.naeyc.org/resources/pubs/yc/dec2020/fostering-curiosity-infants).
+- **053000, Joe and the Invisible Parade.** Joe interprets familiar scents in playful terms while his father sees ordinary objects. The physical idea is dogs noticing odors humans often miss, not the claim that smells form a literal parade. Optional question: “Which smell did Joe notice before Dad did?” Factual background: [American Kennel Club, *How Powerful Is a Dog's Sense of Smell?*](https://www.akc.org/expert-advice/news/the-nose-knows/); editorial reference: [American Academy of Pediatrics, HealthyChildren.org; adapted from Melissa & Doug: Our Blog, *Playful Reading Tips: 4 Ways to Engage Your Child in the Magic of Books*](https://www.healthychildren.org/English/family-life/power-of-play/Pages/playful-reading-tips-ways-to-engage-your-child-in-the-magic-of-books.aspx).
+- **054000, Kate and the Acorn with a Long Plan.** A seed, a sapling, and an old tree make long-term change visible without pretending a mature tree could grow during one bedtime. Optional question: “What was the little tree before it had leaves?” Factual background: [U.S. National Park Service, *Trees Trees Trees Field Trip - Teachers*](https://www.nps.gov/teachers/classrooms/trees-trees-trees.htm); editorial reference: [Sandra M. Linder and Angela Eckhoff; National Association for the Education of Young Children, *Breaking Down STEAM for Young Children. Part 3: Questioning*](https://www.naeyc.org/resources/pubs/tyc/aug2020/breaking-down-steam).
+- **055000, Sam and the Bees Who Drew Directions.** The bee dance creates an observable mystery and a comic comparison with how Sam gives directions. The activity takes place at an enclosed educational observation hive. Optional question: “What did Sam do when he wanted to show Mum where his toy was?” Factual background: [North Carolina State University Extension, *The Honey Bee Dance Language*](https://content.ces.ncsu.edu/honey-bee-dance-language); editorial reference: [American Academy of Pediatrics, HealthyChildren.org, *How to Share Books with Children 2 and 3 Years Old*](https://www.healthychildren.org/English/ages-stages/toddler/Pages/How-to-Share-Books-with-2-and-3-Year-Olds.aspx).
+- **056000, Abby and the Rock That Blinked.** The comic mystery comes from real octopus camouflage, while Abby and Deb remain familiar talking animals in an invented scene. Optional question: “Which part of the rock moved when Deb looked closely?” Factual background: [Smithsonian Ocean, *How Octopuses and Squids Change Color*](https://ocean.si.edu/ocean-life/invertebrates/how-octopuses-and-squids-change-color); editorial reference: [American Academy of Pediatrics, *Young Children Learn a Lot When They Play*](https://www.healthychildren.org/English/family-life/power-of-play/Pages/young-children-learn-a-lot-when-they-play.aspx).
+- **057000, Lisa and the Little Smudge in the Sky.** The night-sky observation is intentionally a dim smudge, not a spectacular invented view. The distance is made meaningful without asking a young child to calculate it. Optional question: “Why did the faraway galaxy look so small and fuzzy?” Factual background: [NASA Science / Night Sky Network, *October's Night Sky Notes: Catch Andromeda Rising!*](https://science.nasa.gov/solar-system/skywatching/night-sky-network/catch-andromeda-rising/); editorial reference: [American Academy of Pediatrics, HealthyChildren.org, *How to Share Books with Children 2 and 3 Years Old*](https://www.healthychildren.org/English/ages-stages/toddler/Pages/How-to-Share-Books-with-2-and-3-Year-Olds.aspx).
+
+
+**Scope and accuracy:** Bioluminescent organisms make light via biological
+chemical reactions; a museum video is not a live sea visit. Joe's talking
+and his imaginary parade are fiction, although dogs really are sensitive to
+many odors. Oak trees take many seasons to become large; Kate's shoot appears
+after the colder months, not overnight. Honeybee dances convey information,
+not human language; the educational hive is behind glass. Octopus color and
+texture changes are real but Abby's conversation is invented. Andromeda
+appears faint, not like the colorful spiral in processed astronomical images;
+a dark observing site and suitable binoculars matter, and its light takes
+about 2.5 million years to reach Earth. These references do not evaluate the
+stories as an educational or sleep intervention.

@@ -50,7 +50,7 @@ course browser; each story sidecar repeats genre and age-range metadata.
 | 032000 | [The Giant's Small Quilt](032000-the-giants-small-quilt.md) | A mouse offers a little patchwork quilt to a giant, who finds it makes an excellent blanket for one chilly toe. |
 | 033000 | [The Stars' Small Camping Trip](033000-the-stars-small-camping-trip.md) | Three make-believe stars camp between clouds with a tiny spoon, pretend moonberry soup, and an unhurried goodnight. |
 
-## Parents' rationale and citations (004000–051000)
+## Parents' rationale and citations (004000–057000)
 
 [**A quiet guide for parents and caregivers**](PARENTS_GUIDE.md) explains the
 earlier developmental themes and newer play-first stories, gives optional
@@ -68,7 +68,7 @@ that our stories have been tested or cause measured learning outcomes.
 The original three pilot stories (001000–003000) remain unchanged and are
 original fiction without claimed developmental intervention effects.
 
-The **fifty-one** stories require no character-specific synthesized voices: dialogue
+The **fifty-seven** stories require no character-specific synthesized voices: dialogue
 is reported by the narrator, or is absent. The stories are not required to
 have a particular duration. They stand alone even though one includes a small
 cross-story reference.
@@ -79,7 +79,7 @@ The exact TTS text is between the `BEGIN SPOKEN LECTURE` and `END SPOKEN
 LECTURE` markers. Author companions below the end marker give reading notes
 and explain what the story is trying to accomplish. They are **not** spoken.
 
-All fifty-one manuscripts are newly authored original fiction. They do not adapt
+All fifty-seven manuscripts are newly authored original fiction. They do not adapt
 published plots or reuse external story text. `metadata/sources.json` holds
 parent-facing developmental and play references for 004000–039000 only. Original
 fictional descriptions and bedtime choices should not be misrepresented as
@@ -171,3 +171,28 @@ spoken story. They do not validate the fictional events or establish that
 listening to the story improves curiosity or sleep.
 
 This overlay does not modify the first 45 manuscripts or their sidecars.
+
+
+## Added: 052000–057000 — wonders hidden in plain sight and far away
+
+These six stand alone and use the established renamed cast. Each has a story
+rather than a quiz: a deep-sea video mystery, a dog's imaginary smell parade,
+a seed's long journey, a real bee dance and a pretend mouse dance, an octopus
+hide-and-seek game, and a faint galaxy in binoculars.
+
+| Story ID | Title | Premise |
+| --- | --- | --- |
+| 052000 | [Danny and the Lights Under the Sea](052000-danny-and-the-lights-under-the-sea.md) | At a maritime museum, Danny watches a robot camera explore the dark ocean and discovers small animals making their own light. |
+| 053000 | [Joe and the Invisible Parade](053000-joe-and-the-invisible-parade.md) | On a walk with Dad, Joe the puppy follows a whole parade of smells that his eyes cannot see. |
+| 054000 | [Kate and the Acorn with a Long Plan](054000-kate-and-the-acorn-with-a-long-plan.md) | Kate the hedgehog finds an acorn and discovers how a little seed, a small sapling, and an old oak belong to the same long story. |
+| 055000 | [Sam and the Bees Who Drew Directions](055000-sam-and-the-bees-who-drew-directions.md) | Sam the mouse notices a honeybee wiggling inside a glass-sided observation hive, then tries giving directions with a dance of his own. |
+| 056000 | [Abby and the Rock That Blinked](056000-abby-and-the-rock-that-blinked.md) | Abby the octopus is so good at blending into her underwater garden that her friend Deb mistakes her for a rock with an eye. |
+| 057000 | [Lisa and the Little Smudge in the Sky](057000-lisa-and-the-little-smudge-in-the-sky.md) | At a dark hillside lookout, Lisa finds a faint fuzzy patch through Grandpa’s binoculars and learns it is a galaxy full of stars. |
+
+Six science references are indexed in `metadata/sources.json` and cited by
+exact spoken passages in the metadata sidecars. Source references and optional
+caregiver questions stay outside the narration. The scientific background
+does not imply any developmental or bedtime outcome. No target duration, music,
+images, or special voice acting is required.
+
+All manuscripts and metadata files for 001000–051000 are unchanged.

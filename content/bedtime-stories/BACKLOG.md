@@ -134,3 +134,18 @@ quiet endings, not six required science lessons. They reuse established
 character names and do not touch older manuscripts or other tracks. Natural
 history references are factual background only; listening review of the
 rendered audio remains important before release.
+
+
+## Added: 052000–057000 — hidden signals and long distances
+
+- 052000 — Danny watches deep-sea camera footage of living lights.
+- 053000 — Joe imagines a scent parade during a walk with Dad.
+- 054000 — Kate sees an acorn, sapling, and old oak as one long growing story.
+- 055000 — Sam watches a bee's dance and tries directions of his own.
+- 056000 — Abby's changing skin makes Deb mistake her for a rock.
+- 057000 — Lisa sees Andromeda as a faint fuzzy patch through binoculars.
+
+All six are text-only, single-narrator original bedtime fiction for ages 3–4,
+primarily three. Avoid repeating these discovery devices in the next batch;
+prefer additional character-led plots and real listening review of the TTS
+output over new validation infrastructure. No fixed word-count or duration.
