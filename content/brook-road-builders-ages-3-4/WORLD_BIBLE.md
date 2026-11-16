@@ -316,6 +316,44 @@ A **gradual winter thaw** occurs after Season Eight; it is now early spring. No 
 
 **Factual limit:** Aggregate-extraction, sorting, loadout, weighing and stable trail-surface references in `metadata/sources.json` justify the broad machinery descriptions, not the specific invented road, measurements, weather, worksite or any measured listening benefit.
 
+## Season Ten — The Big Barn Fix (055000–060000)
+
+### Time, place, repair scope and chronology
+
+Several weeks have passed since the early-spring gravel-yard visit in Season Nine; it is now a mild **late spring** at Green Gate Farm. A light rain in 055000 reveals a slow drip at the **small existing exterior shelter over the red barn's side wagon-door area**. The fault is at the old side-shelter roofing edge where it meets the taller barn wall, and one old edge board is soft. **The main red barn is not damaged or rebuilt.** Its red tractor, hay bales from Season Three, tools and farm animals are safe and dry. The original one-front-wheel green wheelbarrow delivered in Season Five is moved from its customary place beside the barn into the dry main barn until the side shelter can be used again.
+
+**Mr. Lee**, the existing adult beaver carpenter, inspects the weathered shelter with **Farmer Ruth**, who commissions a limited replacement of the side-shelter roof and frame in **the same footprint**. The area is closed during the repair, while the farm's main barn and pedestrian paths continue ordinary use. This does **not** create a new barn, another bridge, a second tractor, or a major storm/disaster. Aunt Jo remains the town crew lead and caregiver; Farmer Ruth continues running the farm.
+
+1. **055000:** Molly hears a lingering plip after a spring shower. Ruth moves the existing green wheelbarrow indoors and blocks access to the shelter. Mr. Lee examines the weathered board and roof-wall connection; adults plan the limited repair, no new supplies yet.
+2. **056000:** A **separate open-bed materials delivery truck**, with an unnamed adult driver, brings strapped long timber and roof components along the **longer vehicle farm road**, never over pedestrian Little Bridge. **Dan the donkey** also delivers the smaller packaged fixings in **his established blue enclosed box truck**. Adults unload and stage materials securely inside the work zone.
+3. **057000:** At Jack's kitchen table, Jack, Rex, Gus and Molly compare a four-stick **loose-jointed square model** with the same square plus a diagonal stick. The braced frame resists racking. This is an analogy for what Mr. Lee explains; it does not establish a barn engineering specification. Back at the farm, adults have prepared the new shelter framing.
+4. **058000:** An adult-operated **yellow telehandler** with large tires, a telescopic boom and pallet forks places a **secured pallet of roof panels** onto an adult working platform. Mr. Lee's crew has installed and braced the replacement wooden shelter framing. Forks lift **material only**, never the children or workers; nobody stands beneath a raised pallet. The children watch from Farmer Ruth's farm porch with caregivers. The telehandler goes back to its work base after material handling.
+5. **059000:** The adult carpentry crew finishes roof-panel fastening, protective flashing at the barn-wall junction, a narrow front-edge gutter, and a short downspout leading to a **small splash-stone patch away from the wagon-door approach**. Work barrier remains until final inspection. A curious hen gives a comic interruption; no animal enters the tool zone.
+6. **060000:** A **new light shower** after the work demonstrates water draining down the finished low roof, to its gutter, along the short pipe and onto the separate stone splash patch. The old dripping location **under the little shelter stays dry**. The adults confirm completion and remove the barrier. Farmer Ruth returns the **same green wheelbarrow** to its old spot beneath the shelter. No roof work, truck load or leak remains unfinished. Jack draws old/new water arrows in his *existing* blue notebook.
+
+### Stable characters, equipment and routes
+
+- **Rex** keeps his red collar and one light/one dark ear. He visits Molly via Pine Park and **Little Bridge on foot** with Aunt Jo. His repaired wooden dump truck remains home with its four rolling wheels. He listens for a hammer's tapping and makes animal comparisons.
+- **Molly** remains a black-and-white farm puppy with white front paws; her **blue rope toy** stays at the farm and she still greets Rex with **one matching tail wag**. She first discovers the drip and tests the sheltered ground with her paws after the final shower.
+- **Gus** retains his **green cap**, makes sandwich-truck, invisible-sheep and barn-hiccup jokes. Neither the green cap nor imaginary sheep becomes a new permanent artifact or character.
+- **Jack** is the young human scientist with the **same blue notebook**. He sketches the leak, a simple braced-craft-square experiment, the telehandler with its short/extended boom and the corrected roof-water route. He does not overwrite earlier park, drainage or stone-yard pages.
+- **Farmer Ruth**, adult goat, runs the farm. **Mr. Lee**, adult beaver carpenter, designs/oversees the shelter repair. **Dan**, adult donkey, makes his normal small-box delivery. Aunt Jo brings the friends. **No newly named adult or major landmark** is required. The three hens, two sheep and small striped-collar goat retain their previous homes and routines.
+- The adult materials **flatbed is a new service vehicle, not Ms. Pam's white flatbed tow truck**. The **yellow telehandler** is a temporary work machine distinct from the yellow wheel loader at the gravel yard, the small front loader used for paths, the red tractor, and Captain Ann's vehicles. No machine crosses Little Bridge. The delivery trucks use the existing **long farm vehicle road**; the children use the pedestrian paths.
+- The original **farm-road culvert**, firehouse on Station Lane, red-door garage, blue parcel truck, gravel yard, completed Pine Park gate repair, park rain gauge, park's Pancake Hill and tall pine remain established; Season Ten does not change them.
+
+### Episode ledger
+
+| ID | Lasting change | Remaining within this season |
+|---|---|---|
+| 055000 | Side shelter leak discovered; wheelbarrow moved into main barn; only shelter closed | Timber/roof materials, repair and rain check |
+| 056000 | Flatbed material delivery and Dan's separate boxed delivery completed; adult materials staged | Assemble frame, roof and rain check |
+| 057000 | Jack records loose-square and diagonal-brace comparison; adult frame prepared | Telehandler lift, finish roof and rain check |
+| 058000 | Telehandler delivers material to adult work deck; braced shelter frame stands | Roofing edges, gutter and rain check |
+| 059000 | Roofing, roof-wall flashing and gutter/downspout completed; work area still closed | Final adult inspection and first rain test |
+| 060000 | Light shower sheds water away; shelter dry; wheelbarrow returned; barrier removed; Jack adds before/after sketch | None; work complete |
+
+**Technical/evidence boundaries:** University of Minnesota Extension discusses agricultural roof inspection; U.S. DOE guidance covers roof water management and flashing; FMCSA gives cargo securement principles; WoodWorks describes wood-frame bracing; JLG describes telescoping materials handlers and fork attachments. These references support broad real-world functions only. No professional structural verification, specific telehandler operating instructions or developmental outcome is claimed for the fictional event.
+
 ## Authoring guardrails
 
 - Persistent geography, name spellings and object state survive across episodes and seasons. Never erase a completed project without a depicted reason.

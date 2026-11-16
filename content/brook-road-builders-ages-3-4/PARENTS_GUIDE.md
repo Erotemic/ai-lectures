@@ -149,6 +149,25 @@ A small worn strip beside the Pine Park gate needs an adult-led repair after win
 
 **Continuity:** The crusher is not the screening deck; the conveyor carries finished material to storage; the loader transfers it to the road dump truck; the weighbridge is a scale, not the Little Bridge. Jack's original blue notebook remains, and the gate-side patch is fixed without rebuilding the rest of Pine Park. Molly still has her blue rope toy and one-wag greeting with Rex.
 
+## Season Ten: The Big Barn Fix
+
+Six chapters follow **one modest barn-side project**, not a new barn construction or a dramatic disaster. An old roof junction drips at the wagon-door shelter; the main barn and dry hay remain intact. Adult builders replace the little exterior shelter frame and roof in the same place, then guide water toward a gutter and stone splash area. The green one-wheel wheelbarrow delivered in Season Five is temporarily put indoors and returned after the job.
+
+| Episode | Optional question |
+|---|---|
+| 055 | What sound helped Molly find the wet corner? |
+| 056 | Which truck carried long boards, and which brought little boxes? |
+| 057 | What happened to Jack's wobbly square after he added one slanting stick? |
+| 058 | What part of the yellow telehandler stretched forward and up? |
+| 059 | Where was the new gutter going to send the raindrops? |
+| 060 | Did the old wet place under the shelter drip again? |
+
+**Machines and roles:** The long-bed materials truck carries timber secured for the journey. Dan's **existing** blue box truck brings smaller parts. The **telehandler** (adult-operated, telescoping arm and fork attachment) brings bundled materials up to an adult work deck, not people or children. Mr. Lee, Farmer Ruth and Aunt Jo handle the building work; children stay with caregivers beyond the marked area. Jack's little braced-square demonstration is an observation about toy frames with deliberately loose joints, not a practical barn-building method.
+
+**Factual-source scope:** University of Minnesota Extension supports inspection of agricultural roof leaks; DOE building-science sources explain water-shedding roofs and wall-junction flashing; FMCSA explains secure transport of lumber; WoodWorks discusses bracing, and JLG describes telehandlers and pallet attachments. The references support only the mechanisms described in the marked passages. They are not evidence that this fictional barn meets any building standard, or that these original stories improve sleep or development. A child can enjoy Rex's woodpecker guess, Gus's invisible sheep and Molly's puppy perspective without an equipment quiz.
+
+**Continuity:** Rex still owns his repaired wooden dump truck; Gus his green cap; Jack his same blue notebook; Molly her blue rope toy. The main barn still contains Farmer Ruth's red tractor and dry hay. Three hens, two sheep and the small goat remain. Little Bridge is for people and animals on foot, and all delivery and work trucks use the longer farm road.
+
 ## Why there are sources
 
 - **Machine functions:** Caterpillar's equipment descriptions were consulted to avoid confusing bulldozers, diggers, loaders, trucks and compactors. These are general equipment facts; the fictional site is not an engineering case study and the passages are not operation instructions.

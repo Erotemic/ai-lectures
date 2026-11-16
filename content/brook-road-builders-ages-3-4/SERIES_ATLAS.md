@@ -1,6 +1,6 @@
 # Brook Road Builders — series atlas and expansion plan (not spoken)
 
-This is a planning companion, **not** a second continuity authority. `WORLD_BIBLE.md` holds canonical facts through episode 054000. Ideas tagged *future* must not be treated as already present in a spoken episode.
+This is a planning companion, **not** a second continuity authority. `WORLD_BIBLE.md` holds canonical facts through episode 060000. Ideas tagged *future* must not be treated as already present in a spoken episode.
 
 ## What makes this a world, not a truck catalogue
 
@@ -140,6 +140,14 @@ After the snow of Season Eight melts naturally, a worn **small maintenance-acces
 
 Aunt Jo's crew repairs only the gate-side strip using a compact loader and a small roller. The restored surface and Jack's new drawing connect directly to the original Pine Park gravel and dump truck season. Rex, Gus, Jack, Molly, their fixed belongings and the whole town's older infrastructure remain unchanged. The gravel yard can recur as a source of material, not as a new playground.
 
+## Season Ten — the small barn-side shelter repair
+
+Green Gate Farm's **original red barn** persists with dry stored hay and Farmer Ruth's red tractor. Its existing **small side wagon-door shelter**, not the entire barn, gets a new framed roof in the **same location** after Molly hears a leak. Farmer Ruth temporarily moves her **existing green one-wheel wheelbarrow** into the main barn while the side shelter is closed, then returns it to the shelter when the adult crew completes the fix.
+
+The repair adds no new roads. A temporary **open-bed building-materials delivery truck** brings securely strapped long lumber by the **long farm road**. Dan's **same blue box truck** brings small boxed supplies. **Mr. Lee**, the adult beaver carpenter, oversees a replacement braced timber frame. A hired **yellow telehandler** with large tires, forks and an extendable boom places a material pallet on an adult working platform; it leaves again after the job. It is not the yellow gravel-yard wheel loader or a vehicle the children drive. Adult builders install the roof with water-shedding flashing, a front gutter and a short downspout ending at a small splash-stone patch away from the wagon door. The next light shower confirms the roof works; the farm stays inhabited and the shelter remains available in all later episodes.
+
+Jack's original notebook gains a page showing an imperfect **loose-jointed square** versus the same little craft model with a **diagonal brace**, and a before/after roof runoff drawing. Rex and Molly keep their one-wag greeting. Gus's cap, Molly's blue rope toy, the farm's hens, sheep, goat and all earlier objects remain unchanged. No new named friend is introduced.
+
 ## Eleven-season horizon (ideas, not canon)
 
 1. **Pine Park** — established and complete (earthmoving, paving, park opening).
@@ -151,7 +159,7 @@ Aunt Jo's crew repairs only the gate-side strip using a compact loader and a sma
 7. **Firehouse Open Day** — **complete**: Station Lane, Captain Ann, two red vehicle bays, distinct engine and ladder truck, turnout gear and hose demonstration; no incident.
 8. **Snow Trucks** — **complete**: one winter snowfall, orange road plow, red salt spreader, Farmer Ruth’s red tractor with snow blade, park snowblower, hand-cleared pedestrian bridge and Jack’s winter-route page.
 9. **Gravel Yard** — **complete**: upstream quarry stone, crusher, vibrating screen, conveyors and piles, yellow wheel loader, scale, green road dump truck and compacted park gate repair.
-10. **Barn Repair** — adult builders return with new equipment; working farm carries on.
+10. **The Big Barn Fix** — **complete**: an existing small wagon-door shelter gets a new braced frame, roof, gutter and downspout. Separate long-bed delivery truck, Dan’s familiar blue box truck and a temporary yellow telehandler; the main red barn and stored hay stay intact.
 11. **One Long Road** — an atlas of connected places and machines through the children's remembered experiences.
 
 An author can replace any future season with a stronger idea. Don't write stories just to complete this outline. Keep the recurring personalities more important than hitting a vehicle quota.
