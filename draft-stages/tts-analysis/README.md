@@ -189,3 +189,24 @@ No runtime or minimum-word target was imposed; manifest counts are descriptive.
 Next options: full Radon–Nikodym proof, open mapping and closed graph theorems,
 Banach adjoints and reflexivity, weak compactness, compact operators, and
 Hilbert-space spectral theory.
+
+## Functional calculus foundation bridge (041000–052000)
+
+A listener-first route from adjoints and spectrum to measurable/unbounded functions of operators, holomorphic contour calculus, and heat/wave/quantum evolution. The new sequence starts with finite matrix examples and multiplication on L-two before presenting the general theorems.
+
+Listening route and remaining prerequisites: [FUNCTIONAL_CALCULUS_LEARNING_PATH.md](FUNCTIONAL_CALCULUS_LEARNING_PATH.md).
+
+- 041000 — [Adjoints: Moving an Operator Across an Inner Product](041000-adjoints-and-inner-product-geometry.md)
+- 042000 — [Self-Adjoint and Positive Operators: The Geometry of Energy](042000-positivity-and-self-adjoint-operators.md)
+- 043000 — [Spectra and Resolvents: What If an Operator Cannot Be Inverted?](043000-spectrum-resolvents-and-approximate-eigenvectors.md)
+- 044000 — [Matrix Functions: Turning Scalar Formulas into Operator Formulas](044000-matrix-functions-from-eigenvectors.md)
+- 045000 — [Compact Operators and Continuous Spectrum: Two Ways Infinity Enters](045000-compact-operators-and-continuous-spectrum.md)
+- 046000 — [Continuous Functional Calculus: Build the Operator by Approximation](046000-continuous-functional-calculus-from-approximation.md)
+- 047000 — [Spectral Projections: Filtering an Operator by Frequency](047000-spectral-projections-as-filters.md)
+- 048000 — [Borel Functional Calculus: When a Function Has Jumps](048000-borel-functional-calculus-and-strong-limits.md)
+- 049000 — [Unbounded Operators: Why the Domain Is Part of the Definition](049000-unbounded-operators-and-their-domains.md)
+- 050000 — [Unbounded Functional Calculus: A Formula with an Input Test](050000-unbounded-functional-calculus-and-spectral-integrals.md)
+- 051000 — [Holomorphic Functional Calculus: Cauchy's Formula for Operators](051000-holomorphic-functional-calculus-and-resolvents.md)
+- 052000 — [Functional Calculus in Motion: Heat, Waves, and Quantum Evolution](052000-functional-calculus-heat-waves-and-quantum-motion.md)
+
+Spoken narration is independent of visual companions; exact mathematics, exercises, and references are retained after the spoken markers. Counts and estimates are descriptive only.

@@ -1,7 +1,7 @@
 {
   "id": "analysis",
   "title": "Analysis from First Principles",
-  "summary": "Real and complex analysis from limits and completeness through rigorous calculus, metric spaces, holomorphic functions and conformal mapping; measure and Lebesgue integration, L-p and Hilbert spaces, followed by L-p duality, bounded operators, Hahn–Banach, weak convergence and Banach–Steinhaus.",
+  "summary": "Real and complex analysis from limits and completeness through rigorous calculus, metric spaces, holomorphic functions and conformal mapping; measure and Lebesgue integration, L-p and Hilbert spaces, followed by L-p duality, bounded operators, Hahn–Banach, weak convergence and Banach–Steinhaus. A further twelve-lecture foundational bridge now develops adjoints, spectra, continuous and Borel functional calculi, unbounded domains, holomorphic calculus, and evolution equations.",
   "assumed_background": [
     "Elementary algebra, inequalities, and familiarity with fractions"
   ],
@@ -39,7 +39,19 @@
     "lp-duality",
     "bounded-operators",
     "hahn-banach-weak",
-    "baire-uniform-boundedness"
+    "baire-uniform-boundedness",
+    "adjoints-and-hilbert-duality",
+    "positive-operators",
+    "resolvents-spectrum",
+    "finite-matrix-functional-calculus",
+    "compact-continuous-spectrum",
+    "continuous-functional-calculus",
+    "projection-valued-measures",
+    "borel-functional-calculus",
+    "unbounded-operator-domains",
+    "unbounded-functional-calculus",
+    "holomorphic-functional-calculus",
+    "spectral-evolution-applications"
   ],
   "lectures": [
     {
@@ -401,6 +413,114 @@
       "spoken_words": 2048,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 14.1
+    },
+    {
+      "id": "041000",
+      "title": "Adjoints: Moving an Operator Across an Inner Product",
+      "section": "adjoints-and-hilbert-duality",
+      "file": "041000-adjoints-and-inner-product-geometry.md",
+      "spoken_words": 1058,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.3
+    },
+    {
+      "id": "042000",
+      "title": "Self-Adjoint and Positive Operators: The Geometry of Energy",
+      "section": "positive-operators",
+      "file": "042000-positivity-and-self-adjoint-operators.md",
+      "spoken_words": 1121,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.7
+    },
+    {
+      "id": "043000",
+      "title": "Spectra and Resolvents: What If an Operator Cannot Be Inverted?",
+      "section": "resolvents-spectrum",
+      "file": "043000-spectrum-resolvents-and-approximate-eigenvectors.md",
+      "spoken_words": 1040,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.2
+    },
+    {
+      "id": "044000",
+      "title": "Matrix Functions: Turning Scalar Formulas into Operator Formulas",
+      "section": "finite-matrix-functional-calculus",
+      "file": "044000-matrix-functions-from-eigenvectors.md",
+      "spoken_words": 1089,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.5
+    },
+    {
+      "id": "045000",
+      "title": "Compact Operators and Continuous Spectrum: Two Ways Infinity Enters",
+      "section": "compact-continuous-spectrum",
+      "file": "045000-compact-operators-and-continuous-spectrum.md",
+      "spoken_words": 1024,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.1
+    },
+    {
+      "id": "046000",
+      "title": "Continuous Functional Calculus: Build the Operator by Approximation",
+      "section": "continuous-functional-calculus",
+      "file": "046000-continuous-functional-calculus-from-approximation.md",
+      "spoken_words": 1093,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.5
+    },
+    {
+      "id": "047000",
+      "title": "Spectral Projections: Filtering an Operator by Frequency",
+      "section": "projection-valued-measures",
+      "file": "047000-spectral-projections-as-filters.md",
+      "spoken_words": 1124,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.8
+    },
+    {
+      "id": "048000",
+      "title": "Borel Functional Calculus: When a Function Has Jumps",
+      "section": "borel-functional-calculus",
+      "file": "048000-borel-functional-calculus-and-strong-limits.md",
+      "spoken_words": 1015,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.0
+    },
+    {
+      "id": "049000",
+      "title": "Unbounded Operators: Why the Domain Is Part of the Definition",
+      "section": "unbounded-operator-domains",
+      "file": "049000-unbounded-operators-and-their-domains.md",
+      "spoken_words": 1194,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 8.2
+    },
+    {
+      "id": "050000",
+      "title": "Unbounded Functional Calculus: A Formula with an Input Test",
+      "section": "unbounded-functional-calculus",
+      "file": "050000-unbounded-functional-calculus-and-spectral-integrals.md",
+      "spoken_words": 1218,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 8.4
+    },
+    {
+      "id": "051000",
+      "title": "Holomorphic Functional Calculus: Cauchy's Formula for Operators",
+      "section": "holomorphic-functional-calculus",
+      "file": "051000-holomorphic-functional-calculus-and-resolvents.md",
+      "spoken_words": 1060,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.3
+    },
+    {
+      "id": "052000",
+      "title": "Functional Calculus in Motion: Heat, Waves, and Quantum Evolution",
+      "section": "spectral-evolution-applications",
+      "file": "052000-functional-calculus-heat-waves-and-quantum-motion.md",
+      "spoken_words": 1236,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 8.5
     }
   ]
 }
