@@ -322,3 +322,5 @@ scholarly references, appropriate Wikipedia navigation and source-linked
 interpretive claims. See
 `notes/decameron-complete-work-criticism-reading-and-evidence-guide.md`.
 The *Decameron* narrative and work-level critical section is now complete.
+
+**Ming Chinese fiction — *Journey to the West*, expanded retelling:** Beginning with 441000–443000, this is a separate, chapter-faithful, scene-first telling, not a replacement for the World History overview (048000–053000) and historical textual essay (054000). The first three entries cover chapters 1–3: the stone birth, Water-Curtain Cave, fear of death, Subodhi's apprenticeship, transformations, the Demon King of Havoc, the Dragon Kings, the staff, the death registers and the invitation to Heaven. These are original prose retellings informed by chapter-specific Chinese primary texts, not reproductions of modern translations. The subsequent chapters remain to be added. See `notes/journey-west-expanded-retelling-source-map.md`.
