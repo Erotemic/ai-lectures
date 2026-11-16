@@ -211,3 +211,26 @@ Thirteen standalone prerequisite manuscripts have been inserted in the lower-sig
 - 034300 - [Bubbling and Removable Singularities: Where Instanton Energy Goes](034300-bubbling-energy-quantization-and-removable-singularities.md)
 
 The sequence builds from weak derivatives through elliptic regularity, Clifford algebra, Spin-C structures, Dirac operators, curvature estimates, index formulas, elliptic deformation complexes, Coulomb slices, instanton expected dimensions, and Uhlenbeck bubbling. Narration duration is governed by the amount of explanation required; no word or duration target is imposed.
+
+
+## Continuation 28: Symplectic and Floer Foundations (2026-11-16)
+
+Fifteen calculation-first foundation lectures were inserted at 021200-021400, 025100-025900, and 031100-031300. The prior 81 manuscripts are preserved. The track now has 96 substantive registered lectures. Each addition has standalone read-aloud narration, a non-spoken mathematical companion, exercises with answers, and source references. There is no fixed lecture duration.
+
+- 021200 — [Almost-Complex Structures: Turning Symplectic Area into Length](021200-compatible-almost-complex-structures-and-metrics.md)
+- 021300 — [Darboux and Moser: Why Symplectic Forms Are Locally Simple](021300-darboux-moser-and-changing-symplectic-forms.md)
+- 021400 — [Lagrangian Geometry: Graphs, Intersections, and Exactness](021400-lagrangian-graphs-and-exactness-in-cotangent-bundles.md)
+- 025100 — [Riemann Surfaces and Holomorphic Maps: The Models We Can Calculate](025100-riemann-surfaces-and-holomorphic-map-examples.md)
+- 025200 — [Pseudoholomorphic Curves: The Equation and the Area–Energy Identity](025200-pseudoholomorphic-curves-and-area-energy.md)
+- 025300 — [Cauchy–Riemann Operators: From Complex Derivatives to Elliptic Estimates](025300-cauchy-riemann-operators-and-elliptic-estimates.md)
+- 025400 — [Fredholm Index and Transversality: Counting Dimensions Before Curves](025400-fredholm-index-and-transversality-of-curves.md)
+- 025500 — [Boundary Conditions for Holomorphic Strips and the Maslov Index](025500-lagrangian-boundary-problems-and-maslov-index.md)
+- 025600 — [Hamiltonian Action: Why Periodic Orbits Are Critical Points](025600-hamiltonian-action-cappings-and-periodic-orbits.md)
+- 025700 — [Floer Cylinders: Negative Gradient Flow Becomes an Elliptic Equation](025700-floer-equation-negative-gradient-and-energy-identity.md)
+- 025800 — [Compactness for Holomorphic Curves: Bubbles, Breaking, and Escape](025800-gromov-compactness-bubbles-and-broken-trajectories.md)
+- 025900 — [Why Floer Boundaries Cancel: Moduli Spaces and Differential Squared](025900-floer-differential-gluing-and-d-squared.md)
+- 031100 — [Action Filtrations and Novikov Series: Keeping Infinite Floer Counts Finite](031100-action-filtrations-cappings-and-novikov-completions.md)
+- 031200 — [Continuation Maps: Why Floer Homology Survives Changing the Hamiltonian](031200-continuation-maps-invariance-and-arnold-bound.md)
+- 031300 — [A Complete Lagrangian Floer Model: Two Graphs over a Circle](031300-exact-lagrangian-floer-circle-worked-example.md)
+
+The sequence supplies the local geometry, nonlinear Cauchy–Riemann analysis, compactification and algebraic invariance arguments needed to read 032000 Floer Homology, 034000 Symplectic Nonsqueezing, and later wrapped Floer/symplectic-capacity work. The independent sign note in CONTINUATION_28_SYMPLECTIC_FLOER_FOUNDATIONS.md flags an earlier action-formula inconsistency without overwriting the existing 032000 manuscript.

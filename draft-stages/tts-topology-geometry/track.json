@@ -53,6 +53,9 @@
     "elliptic-symbol-fredholm",
     "moment-maps-reduction",
     "symplectic-hamiltonian-examples",
+    "almost-complex-compatible",
+    "darboux-moser-calculations",
+    "lagrangian-graphs-exactness",
     "chern-weil-bundles",
     "gauge-holonomy-calculations",
     "morse-handles",
@@ -62,6 +65,15 @@
     "weak-derivatives-sobolev",
     "elliptic-regularity",
     "morse-bott-localization",
+    "riemann-holomorphic-examples",
+    "pseudoholomorphic-area-energy",
+    "cauchy-riemann-elliptic",
+    "curve-index-transversality",
+    "lagrangian-maslov-boundary",
+    "hamiltonian-action-cappings",
+    "floer-equation-energy",
+    "gromov-bubbles-breaking",
+    "floer-differential-gluing",
     "holonomy-gauge-moduli",
     "prequantum-line-bundles",
     "holomorphic-quantization",
@@ -76,6 +88,9 @@
     "gauge-slices-kuranishi",
     "instantons-virtual-dimension",
     "anti-self-dual-instantons",
+    "floer-novikov-filtration",
+    "floer-continuation-invariance",
+    "exact-lagrangian-floer-circle",
     "floer-homology",
     "berry-curvature",
     "symplectic-nonsqueezing",
@@ -489,6 +504,33 @@
       "estimated_minutes_at_145_wpm": 7.4
     },
     {
+      "id": "021200",
+      "title": "Almost-Complex Structures: Turning Symplectic Area into Length",
+      "section": "almost-complex-compatible",
+      "file": "021200-compatible-almost-complex-structures-and-metrics.md",
+      "spoken_words": 1068,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.4
+    },
+    {
+      "id": "021300",
+      "title": "Darboux and Moser: Why Symplectic Forms Are Locally Simple",
+      "section": "darboux-moser-calculations",
+      "file": "021300-darboux-moser-and-changing-symplectic-forms.md",
+      "spoken_words": 1001,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.9
+    },
+    {
+      "id": "021400",
+      "title": "Lagrangian Geometry: Graphs, Intersections, and Exactness",
+      "section": "lagrangian-graphs-exactness",
+      "file": "021400-lagrangian-graphs-and-exactness-in-cotangent-bundles.md",
+      "spoken_words": 1035,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.1
+    },
+    {
       "id": "022000",
       "title": "Chern–Weil Theory: How Curvature Records Bundle Topology",
       "section": "chern-weil-bundles",
@@ -568,6 +610,87 @@
       "spoken_words": 918,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 6.3
+    },
+    {
+      "id": "025100",
+      "title": "Riemann Surfaces and Holomorphic Maps: The Models We Can Calculate",
+      "section": "riemann-holomorphic-examples",
+      "file": "025100-riemann-surfaces-and-holomorphic-map-examples.md",
+      "spoken_words": 1081,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.5
+    },
+    {
+      "id": "025200",
+      "title": "Pseudoholomorphic Curves: The Equation and the Area–Energy Identity",
+      "section": "pseudoholomorphic-area-energy",
+      "file": "025200-pseudoholomorphic-curves-and-area-energy.md",
+      "spoken_words": 990,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.8
+    },
+    {
+      "id": "025300",
+      "title": "Cauchy–Riemann Operators: From Complex Derivatives to Elliptic Estimates",
+      "section": "cauchy-riemann-elliptic",
+      "file": "025300-cauchy-riemann-operators-and-elliptic-estimates.md",
+      "spoken_words": 950,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.6
+    },
+    {
+      "id": "025400",
+      "title": "Fredholm Index and Transversality: Counting Dimensions Before Curves",
+      "section": "curve-index-transversality",
+      "file": "025400-fredholm-index-and-transversality-of-curves.md",
+      "spoken_words": 919,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.3
+    },
+    {
+      "id": "025500",
+      "title": "Boundary Conditions for Holomorphic Strips and the Maslov Index",
+      "section": "lagrangian-maslov-boundary",
+      "file": "025500-lagrangian-boundary-problems-and-maslov-index.md",
+      "spoken_words": 1049,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.2
+    },
+    {
+      "id": "025600",
+      "title": "Hamiltonian Action: Why Periodic Orbits Are Critical Points",
+      "section": "hamiltonian-action-cappings",
+      "file": "025600-hamiltonian-action-cappings-and-periodic-orbits.md",
+      "spoken_words": 1172,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 8.1
+    },
+    {
+      "id": "025700",
+      "title": "Floer Cylinders: Negative Gradient Flow Becomes an Elliptic Equation",
+      "section": "floer-equation-energy",
+      "file": "025700-floer-equation-negative-gradient-and-energy-identity.md",
+      "spoken_words": 1064,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.3
+    },
+    {
+      "id": "025800",
+      "title": "Compactness for Holomorphic Curves: Bubbles, Breaking, and Escape",
+      "section": "gromov-bubbles-breaking",
+      "file": "025800-gromov-compactness-bubbles-and-broken-trajectories.md",
+      "spoken_words": 1070,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.4
+    },
+    {
+      "id": "025900",
+      "title": "Why Floer Boundaries Cancel: Moduli Spaces and Differential Squared",
+      "section": "floer-differential-gluing",
+      "file": "025900-floer-differential-gluing-and-d-squared.md",
+      "spoken_words": 1167,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 8.0
     },
     {
       "id": "026000",
@@ -694,6 +817,33 @@
       "spoken_words": 1083,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 7.5
+    },
+    {
+      "id": "031100",
+      "title": "Action Filtrations and Novikov Series: Keeping Infinite Floer Counts Finite",
+      "section": "floer-novikov-filtration",
+      "file": "031100-action-filtrations-cappings-and-novikov-completions.md",
+      "spoken_words": 1056,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.3
+    },
+    {
+      "id": "031200",
+      "title": "Continuation Maps: Why Floer Homology Survives Changing the Hamiltonian",
+      "section": "floer-continuation-invariance",
+      "file": "031200-continuation-maps-invariance-and-arnold-bound.md",
+      "spoken_words": 1030,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.1
+    },
+    {
+      "id": "031300",
+      "title": "A Complete Lagrangian Floer Model: Two Graphs over a Circle",
+      "section": "exact-lagrangian-floer-circle",
+      "file": "031300-exact-lagrangian-floer-circle-worked-example.md",
+      "spoken_words": 1107,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.6
     },
     {
       "id": "032000",
