@@ -1,21 +1,23 @@
 {
   "id": "modern-literature",
   "title": "20th-Century Literature · Novels, voices, and the human condition",
-  "summary": "Story-first literary history and criticism of forty major twentieth-century works. Extended landmark sections treat Ulysses (twelve lectures), Proust’s In Search of Lost Time (fourteen), Faulkner’s The Sound and the Fury (twelve), and Woolf’s To the Lighthouse (twelve).",
+  "summary": "Story-first literary history and criticism of forty-one major twentieth-century works. Landmark sections now include Joyce, Proust, Faulkner, Woolf, and Borges’s Ficciones (nineteen story and analysis lectures).",
   "assumed_background": [
     "No prior reading is required for the story-first lectures, including the Lord of the Rings orientation and complete three-volume narrative.",
     "Analysis lectures assume the preceding complete story orientation or knowledge of the work; specialized Tolkien essays follow the full retelling.",
     "The five Ulysses narrative lectures tell a continuous, spoiler-containing story in order; analytical lectures assume this orientation or prior familiarity with the novel.",
     "The seven Proust story lectures cover the continuous novel volume by volume, with full spoilers; the seven analyses presuppose this orientation or the original work.",
     "The Sound and the Fury has five spoiler-complete narrative orientation lectures followed by seven formal, social, and textual studies; the latter assume the story orientation or knowledge of the novel.",
-    "The four To the Lighthouse story lectures cover all three parts and the ending with spoilers; the following eight analyses assume this orientation or independent familiarity with the novel."
+    "The four To the Lighthouse story lectures cover all three parts and the ending with spoilers; the following eight analyses assume this orientation or independent familiarity with the novel.",
+    "The Ficciones section provides complete spoiler-containing story orientations for all seventeen pieces in the expanded edition; seven analyses follow, requiring the story lectures or prior familiarity with the works."
   ],
   "sections": [
     "novels-and-their-worlds",
     "ulysses-a-day-in-dublin",
     "proust-in-search-of-lost-time",
     "faulkner-the-sound-and-the-fury",
-    "woolf-to-the-lighthouse"
+    "woolf-to-the-lighthouse",
+    "borges-ficciones-and-the-invention-of-metafiction"
   ],
   "lectures": [
     {
@@ -1196,6 +1198,177 @@
       "spoken_words": 1069,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 7.4
+    },
+    {
+      "id": "043000",
+      "title": "Ficciones: Tlön, Uqbar, Orbis Tertius — An Encyclopedia Replaces the World",
+      "section": "borges-ficciones-and-the-invention-of-metafiction",
+      "file": "043000-borges-story-tlon.md",
+      "spoken_words": 834,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.8
+    },
+    {
+      "id": "043100",
+      "title": "Ficciones: Pierre Menard — A Book Written Twice",
+      "section": "borges-ficciones-and-the-invention-of-metafiction",
+      "file": "043100-borges-story-pierre-menard.md",
+      "spoken_words": 667,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 4.6
+    },
+    {
+      "id": "043200",
+      "title": "Ficciones: The Circular Ruins — The Dreamer Who Is Dreamed",
+      "section": "borges-ficciones-and-the-invention-of-metafiction",
+      "file": "043200-borges-story-circular-ruins.md",
+      "spoken_words": 725,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.0
+    },
+    {
+      "id": "043300",
+      "title": "Ficciones: The Lottery in Babylon and Herbert Quain — Chance and Invented Books",
+      "section": "borges-ficciones-and-the-invention-of-metafiction",
+      "file": "043300-borges-story-lottery-and-quain.md",
+      "spoken_words": 728,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.0
+    },
+    {
+      "id": "043400",
+      "title": "Ficciones: The Library of Babel — Every Book and No Answer",
+      "section": "borges-ficciones-and-the-invention-of-metafiction",
+      "file": "043400-borges-story-library-babel.md",
+      "spoken_words": 701,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 4.8
+    },
+    {
+      "id": "043500",
+      "title": "Ficciones: The Garden of Forking Paths — A Murder Hidden in a Theory of Time",
+      "section": "borges-ficciones-and-the-invention-of-metafiction",
+      "file": "043500-borges-story-forking-paths.md",
+      "spoken_words": 718,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.0
+    },
+    {
+      "id": "043600",
+      "title": "Ficciones: Funes the Memorious — A Mind Without Forgetting",
+      "section": "borges-ficciones-and-the-invention-of-metafiction",
+      "file": "043600-borges-story-funes.md",
+      "spoken_words": 734,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.1
+    },
+    {
+      "id": "043700",
+      "title": "Ficciones: The Shape of the Sword and The Traitor and the Hero — Two Manufactured Histories",
+      "section": "borges-ficciones-and-the-invention-of-metafiction",
+      "file": "043700-borges-story-shape-and-traitor.md",
+      "spoken_words": 736,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.1
+    },
+    {
+      "id": "043800",
+      "title": "Ficciones: Death and the Compass — The Detective Walks into His Solution",
+      "section": "borges-ficciones-and-the-invention-of-metafiction",
+      "file": "043800-borges-story-death-compass.md",
+      "spoken_words": 667,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 4.6
+    },
+    {
+      "id": "043900",
+      "title": "Ficciones: The Secret Miracle and Three Versions of Judas — Time, Faith, and Interpretation",
+      "section": "borges-ficciones-and-the-invention-of-metafiction",
+      "file": "043900-borges-story-miracle-judas.md",
+      "spoken_words": 723,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.0
+    },
+    {
+      "id": "044000",
+      "title": "Ficciones: The End, The Sect of the Phoenix, and The South — Three Later Stories",
+      "section": "borges-ficciones-and-the-invention-of-metafiction",
+      "file": "044000-borges-story-1956-additions.md",
+      "spoken_words": 744,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.1
+    },
+    {
+      "id": "044100",
+      "title": "Ficciones: The Approach to Al-Mu’tasim — A Review of a Novel That Never Existed",
+      "section": "borges-ficciones-and-the-invention-of-metafiction",
+      "file": "044100-borges-story-almutasim.md",
+      "spoken_words": 690,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 4.8
+    },
+    {
+      "id": "044200",
+      "title": "Borges: The Impossible Book and the Authority of the Footnote",
+      "section": "borges-ficciones-and-the-invention-of-metafiction",
+      "file": "044200-borges-analysis-fictional-scholarship.md",
+      "spoken_words": 859,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.9
+    },
+    {
+      "id": "044300",
+      "title": "Borges: Infinity, Total Information, and the Limits of Knowledge",
+      "section": "borges-ficciones-and-the-invention-of-metafiction",
+      "file": "044300-borges-analysis-infinity-information.md",
+      "spoken_words": 832,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.7
+    },
+    {
+      "id": "044400",
+      "title": "Borges: Branching Time, Causality, Chance, and the False Pattern",
+      "section": "borges-ficciones-and-the-invention-of-metafiction",
+      "file": "044400-borges-analysis-time-causality-chance.md",
+      "spoken_words": 807,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.6
+    },
+    {
+      "id": "044500",
+      "title": "Borges: Identity, Repetition, and the Ethics of Interpretation",
+      "section": "borges-ficciones-and-the-invention-of-metafiction",
+      "file": "044500-borges-analysis-identity-and-repetition.md",
+      "spoken_words": 780,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.4
+    },
+    {
+      "id": "044600",
+      "title": "Borges: Argentina, War, Race, and the Politics of Apparently Abstract Fiction",
+      "section": "borges-ficciones-and-the-invention-of-metafiction",
+      "file": "044600-borges-analysis-argentina-politics.md",
+      "spoken_words": 834,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.8
+    },
+    {
+      "id": "044700",
+      "title": "Borges: A Close-Reading Workshop for Unreliable Documents and Perfect Patterns",
+      "section": "borges-ficciones-and-the-invention-of-metafiction",
+      "file": "044700-borges-analysis-reading-workshop.md",
+      "spoken_words": 885,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.1
+    },
+    {
+      "id": "044800",
+      "title": "Borges: Ficciones, Its Editions, Translations, and Literary Afterlife",
+      "section": "borges-ficciones-and-the-invention-of-metafiction",
+      "file": "044800-borges-analysis-publication-influence.md",
+      "spoken_words": 849,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.9
     }
   ]
 }

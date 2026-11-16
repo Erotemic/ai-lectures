@@ -1,0 +1,23 @@
+# Ficciones: Funes the Memorious — A Mind Without Forgetting
+
+<!-- BEGIN SPOKEN LECTURE -->
+
+The person who remembers everything should be the perfect witness. Ask when an event occurred, what someone wore, what the weather looked like, and he could recover the answer without distortion. But an experience contains more than an event label. It contains countless changing qualities, and a mind that retained each one exactly might have very little room left for thought. Borges turns this possibility into the story of Ireneo Funes.
+
+A narrator resembling Borges remembers a young man from Fray Bentos, in Uruguay. Early in their acquaintance, Funes impresses him by knowing the time without consulting a watch. He is sharp, reserved, and a little intimidating. There is nothing at first to suggest that this young man will become the center of a philosophical nightmare. Later, an accident changes his life. A fall from a horse leaves him unable to walk, and it seems to give him a memory of almost unbearable resolution.
+
+Funes does not simply remember things other people would forget. He can recall the exact arrangement of clouds on an afternoon and distinguish it from another afternoon with a precision the narrator can scarcely imagine. Every perception seems available to him, complete with color, shape, sound, and temporal location. A room in his memory is not a schematic room whose furniture remains approximately where he last saw it. It is a sequence of countless appearances, each one as particular as a different object. The flood of particulars makes the present nearly intolerable.
+
+The narrator comes to visit him at night. They converse in the dark while Funes reveals an extraordinary command of details and language. Funes has worked on systems of numbering and on attempts to replace general terms with exhaustive labels for specific things. A conventional number system reuses a manageable collection of signs to represent indefinitely many quantities. Funes imagines systems in which every number has its own designation. His inventions may be feats of memory, but they sacrifice the very generality that makes numbers useful to someone who has to calculate.
+
+Then the narrator notices a deeper difficulty. Funes appears almost incapable of thinking in the way that requires abstraction. An ordinary person says that the animal seen from two angles at two moments is the same dog. For Funes, the distinct appearances are overwhelmingly particular. Grouping them under one identity can seem a careless erasure of difference. Yet without the ability to disregard some variations we cannot compare, classify, reason, or even sustain a stable concept of a familiar thing.
+
+There is a trap here for the reader. Funes has suffered a physical injury and lives with an acquired disability; the story does not entitle us to infer that actual people with memory differences lack thought. Borges is inventing an extreme case to illuminate a relation between cognitive functions. The narrator himself is not an infallible clinician. He recalls a conversation from years earlier and openly arranges his recollection in language. We receive a representation of perfect recall from a witness whose own memory is ordinary and necessarily selective.
+
+The scene is also social. Funes lives in a provincial environment, and the educated visitor has access to books and a language of intellectual prestige. The young man's capabilities disturb the hierarchy between them. Funes learns rapidly what the visitor has worked hard to acquire, but he does not gain the visitor's power to move freely through the world. Their encounter has admiration, condescension, discomfort, and curiosity, not simply a neat diagram of memory systems.
+
+The story's central question is not whether remembering is bad. It is what forgetting makes possible. To speak of a tree, a friend, a nation, or a number is to omit almost everything about the individual instance before us. Those omissions are not necessarily mistakes; they are the conditions under which we can recognize a pattern and apply knowledge somewhere else. But abstraction is dangerous too. The visitor's neat categories can conceal aspects of Funes's experience he is unwilling to see.
+
+Funes's strange capacity makes visible a bargain ordinary minds accept constantly: some detail is lost so that some relation may be retained. Borges refuses to treat that bargain as either a simple victory or a simple tragedy. The young man's perfect recollection gives him an incomparable intimacy with the immediate world and may prevent him from sharing much of it. A person who cannot forget anything has not necessarily understood everything.
+
+<!-- END SPOKEN LECTURE -->
