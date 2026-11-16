@@ -69,6 +69,23 @@ neither Iago's accusations nor Othello's final self-account are treated as
 an independent finding of fact. See
 `notes/othello-sources-texts-and-performance.md`.
 
+**Regency social fiction — Jane Austen, *Pride and Prejudice***: 069000–078000.
+Four story lectures follow the full narrative, from the first Netherfield assembly
+through Darcy's letter, Lydia's crisis, and the final marriages. Six analyses
+examine narrative irony and free indirect discourse; money, property and the
+specific entail of Longbourn; letters and the revision of judgment; women's
+unequal choices; landscape and class; and the novel's 1813 publication and
+literary influence. See `notes/pride-prejudice-plot-forms-and-1813-edition.md`.
+
+**Romantic Gothic fiction — Mary Shelley, *Frankenstein***: 079000–090000.
+Four complete story lectures follow Walton, Victor, and the creature through the
+Arctic conclusion. Eight analyses study nested testimony, abandoned dependents,
+scientific ambition, language and prejudice, the underheard women, Miltonic and
+Promethean references, 1818 versus 1831 texts, and scene-based close reading.
+The narrative uses the **1818 first edition** and explicitly marks the changed
+Elizabeth backstory in 1831. See
+`notes/frankenstein-1818-1831-versions-and-story-map.md`.
+
 These are original lectures, not extracts or dramatic recordings of the primary
 texts. Source citations, critical questions, and edition notes are outside the
 spoken regions; bibliographic records and anchored claims appear in `metadata/`.
@@ -92,12 +109,10 @@ or binary assets are part of this pack.
 
 ## Substantive next priorities
 
-1. **Jane Austen, *Pride and Prejudice***: courtship, property, family pressure, free indirect discourse and irony.
-2. **Mary Shelley, *Frankenstein***: framed narratives, responsibility, Romanticism and later science fiction.
-3. **Charles Dickens, *Great Expectations* or *Bleak House***: Victorian serial form, class mobility and institutions.
-4. **Gustave Flaubert, *Madame Bovary***: the history of realism and the narrator's proximity to characters' minds.
-5. **Leo Tolstoy, *War and Peace***: war, families, the philosophy of history and the novel's capacious form.
-6. **Fyodor Dostoevsky, *The Brothers Karamazov***: conflicting voices, family ethics and religious argument.
+1. **Charles Dickens, *Great Expectations* or *Bleak House***: Victorian serial form, class mobility and institutions.
+2. **Gustave Flaubert, *Madame Bovary***: the history of realism and the narrator's proximity to characters' minds.
+3. **Leo Tolstoy, *War and Peace***: war, families, the philosophy of history and the novel's capacious form.
+4. **Fyodor Dostoevsky, *The Brothers Karamazov***: conflicting voices, family ethics and religious argument.
 
 Other major candidates include Chaucer's *Canterbury Tales*, Boccaccio's
 *Decameron*, Milton's *Paradise Lost*, Goethe's *Faust*, Emily Brontë's

@@ -1,0 +1,23 @@
+# Frankenstein — Story: Justine, the De Laceys, and the Creature’s Account
+
+**Work:** Mary Shelley, *Frankenstein; or, The Modern Prometheus* (1818 reading text)  
+**Form:** Narrative lecture
+
+<!-- BEGIN SPOKEN LECTURE -->
+# Frankenstein — Story: Justine, the De Laceys, and the Creature’s Account
+
+Victor arrives near Geneva after the death of his young brother William. In a lightning storm he sees his creation moving across the mountains and immediately suspects that the being killed the child. He has no court-admissible evidence, and his secrecy makes a public accusation almost impossible to support. A miniature portrait that William carried has been found in the clothing of Justine Moritz, a young woman connected with the Frankenstein household. Justine is tried for the murder. Under pressure from a confessor, she makes a false admission and then retracts it. She is executed. Elizabeth defends her character, and Victor knows he has failed to prevent another death. His guilt is not confined to making an artificial life: he has kept silent while a person he believes innocent is condemned.
+
+Grief drives Victor into the mountains. On a glacier near Montanvert he meets the being, who approaches him with remarkable speech. Victor responds with hatred and threats. The being demands an opportunity to be heard. It claims that it began life without knowledge, language, property, or guidance, and that Victor is responsible for its abandonment. Victor agrees to listen. We now enter another narrative level: the creature's story is told to Victor, who tells it to Walton, who writes to Margaret. No one outside this chain can fully verify every detail. Yet the creature's narrative has explanatory depth that Victor's initial description did not.
+
+The being recounts waking in bewilderment and learning through sensation: cold, hunger, light, shelter, fire. People who see it flee or attack it. It hides in a small space adjoining a rural cottage, where it can observe a family without being seen. The cottagers are the blind father De Lacey and his children Felix and Agatha. They are poor, but their gestures of care teach the creature that human beings can sustain one another. It discovers that food taken from their store harms them and begins leaving wood to help them instead. This detail matters: its first social education involves watching need and changing its behavior in response.
+
+Safie, a young woman connected to Felix, arrives and learns the language spoken in the cottage. By following Felix's lessons, the creature learns speech, reading, and a compressed account of human history. It discovers political structures, inequality, and the distance between benevolent ideals and cruelty. It also finds books, among them Plutarch's Lives, Goethe's The Sorrows of Young Werther, and Milton's Paradise Lost. The works give it models of virtue, grief, desire, and exclusion. It compares itself both to Adam, a creation who ought to be loved, and to Satan, a being cast out. It also finds Victor's journal describing the circumstances of its own making and recoils from the terms in which its creator first saw it.
+
+The creature hopes that the blind De Lacey might hear its words before judging its appearance. It enters the cottage when the younger people are absent, speaks to the old man, and begins to explain its loneliness. Felix returns and violently drives it away. The family abandons the cottage. The creature's hope of belonging collapses into fury. In another encounter it tries to save a girl from drowning but is shot by a man who mistakes its intervention for an assault. The story is not an excuse for every later act. It is an account of repeated rejection before the creature chooses revenge.
+
+Traveling toward Geneva, the creature meets William and hopes that a child might be less prejudiced. The boy is frightened and identifies himself as a member of the Frankenstein family. The creature kills him. It places the stolen portrait in Justine's clothing, deliberately framing an innocent person. The being, not Victor, commits these crimes. But its account asks whether a creator who gave life and then refused care bears some responsibility for the path that led there. Listening carefully requires us to hold both facts: the creature learned cruelty through suffering, and it chose to inflict suffering on people who had not caused its abandonment.
+<!-- END SPOKEN LECTURE -->
+
+## Non-spoken reading notes
+See `metadata/080000.json` for source anchors; see `notes/frankenstein-1818-1831-versions-and-story-map.md` for the edition basis and editorial distinctions.
