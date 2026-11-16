@@ -102,3 +102,12 @@ The narration is standalone. Formulae, proofs, exercises and source references a
 - 044000 — [Surface Riemann–Roch, Intersection Numbers, and Genus](044000-surface-riemann-roch-and-intersection-classes.md)
 
 Narrations are standalone. Exact calculations, proofs, exercises and sources are provided in non-spoken companions. Durations and word counts are descriptive only.
+
+## Continuation 12: Algebraic structure, geometry, and computation
+
+- 045000 — [Derived Categories and Perfect Complexes on Schemes](045000-derived-categories-and-perfect-complexes.md)
+- 046000 — [Grothendieck-Riemann-Roch and Pushforwards](046000-grothendieck-riemann-roch-and-pushforwards.md)
+- 047000 — [Algebraic Groups, Group Schemes, and Lie Algebras](047000-algebraic-groups-group-schemes-and-lie-algebras.md)
+- 048000 — [Deformation-Obstruction Complexes in Moduli Problems](048000-deformation-obstruction-complexes-in-moduli.md)
+
+Each narration is standalone; exact hypotheses, proofs, calculations, exercises and sources are in the non-spoken companions. Word counts are descriptive only.

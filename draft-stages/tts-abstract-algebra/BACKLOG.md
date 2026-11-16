@@ -1,12 +1,12 @@
-# Abstract Algebra — after 44 completed lectures
+# Abstract Algebra — after 48 completed lectures
 
-The track now progresses from groups and fields through Galois theory, homological algebra, arithmetic schemes, sheaf cohomology, faithfully flat descent, finite étale covers, deformation theory and surface Riemann–Roch.
+The track now reaches perfect complexes, Grothendieck-Riemann-Roch, algebraic group schemes and deformation-obstruction complexes in moduli theory, building on Galois theory, arithmetic geometry, sheaves and descent.
 
 ## Unindexed continuation proposals
 
-- 045000 — Derived Categories and Perfect Complexes on Schemes
-- 046000 — Grothendieck–Riemann–Roch and Pushforwards
-- 047000 — Algebraic Groups, Group Schemes and Lie Algebras
-- 048000 — Deformation-Obstruction Complexes in Moduli Problems
+- 049000 — Derived Deformation Theory and Obstruction Triangles
+- 050000 — Arithmetic Intersection Theory and Heights
+- 051000 — Tannakian Reconstruction and Tensor Categories
+- 052000 — Quotient Stacks, Stabilizers and Inertia
 
-Preserve exact field, properness, smoothness and base-change hypotheses. Distinguish finite étale from general étale maps, and formal infinitesimal lifts from analytic families. Proposals are not registered.
+Distinguish K-theory classes from individual cohomology dimensions, scheme-valued points from field-valued points, and infinitesimal obstruction spaces from actual nonzero obstructions. Proposals are not registered.

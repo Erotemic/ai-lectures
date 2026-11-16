@@ -80,3 +80,10 @@ The narration is standalone. Formulae, proofs, exercises and source references a
 - 022000 — [Reaction Fronts: Comparison Principles and Selected Speeds](022000-comparison-principles-and-reaction-front-stability.md)
 
 Narrations are standalone. Exact calculations, proofs, exercises and sources are provided in non-spoken companions. Durations and word counts are descriptive only.
+
+## Continuation 12: Algebraic structure, geometry, and computation
+
+- 023000 — [Dispersive Equations, Strichartz Bounds, and Scattering](023000-dispersive-schrodinger-strichartz-and-scattering.md)
+- 024000 — [Variational PDEs and Noether-Type Conservation Identities](024000-variational-pdes-and-noether-identities.md)
+
+Each narration is standalone; exact hypotheses, proofs, calculations, exercises and sources are in the non-spoken companions. Word counts are descriptive only.

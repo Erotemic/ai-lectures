@@ -80,3 +80,9 @@ The narration is standalone. Formulae, proofs, exercises and source references a
 - 015000 — [Robust Optimization: Worst-Case Constraints and Tractable Reformulations](015000-robust-optimization-and-uncertainty-sets.md)
 
 Narrations are standalone. Exact calculations, proofs, exercises and sources are provided in non-spoken companions. Durations and word counts are descriptive only.
+
+## Continuation 12: Algebraic structure, geometry, and computation
+
+- 016000 — [Homogeneous Self-Dual Embeddings and Infeasibility Certificates](016000-homogeneous-self-dual-embedding-and-certificates.md)
+
+Each narration is standalone; exact hypotheses, proofs, calculations, exercises and sources are in the non-spoken companions. Word counts are descriptive only.

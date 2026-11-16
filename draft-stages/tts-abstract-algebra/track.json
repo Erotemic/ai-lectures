@@ -52,7 +52,11 @@
     "faithfully-flat-descent",
     "etale-fundamental-groups",
     "deformation-tangents",
-    "surface-riemann-roch"
+    "surface-riemann-roch",
+    "derived-perfect",
+    "grr-pushforwards",
+    "algebraic-groups",
+    "moduli-obstructions"
   ],
   "lectures": [
     {
@@ -450,6 +454,42 @@
       "spoken_words": 915,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 6.3
+    },
+    {
+      "id": "045000",
+      "title": "Derived Categories and Perfect Complexes on Schemes",
+      "section": "derived-perfect",
+      "file": "045000-derived-categories-and-perfect-complexes.md",
+      "spoken_words": 895,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.2
+    },
+    {
+      "id": "046000",
+      "title": "Grothendieck-Riemann-Roch and Pushforwards",
+      "section": "grr-pushforwards",
+      "file": "046000-grothendieck-riemann-roch-and-pushforwards.md",
+      "spoken_words": 822,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.7
+    },
+    {
+      "id": "047000",
+      "title": "Algebraic Groups, Group Schemes, and Lie Algebras",
+      "section": "algebraic-groups",
+      "file": "047000-algebraic-groups-group-schemes-and-lie-algebras.md",
+      "spoken_words": 804,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.5
+    },
+    {
+      "id": "048000",
+      "title": "Deformation-Obstruction Complexes in Moduli Problems",
+      "section": "moduli-obstructions",
+      "file": "048000-deformation-obstruction-complexes-in-moduli.md",
+      "spoken_words": 822,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.7
     }
   ]
 }

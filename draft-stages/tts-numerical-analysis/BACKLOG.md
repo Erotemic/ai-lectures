@@ -1,12 +1,12 @@
-# Numerical Analysis — after 18 completed lectures
+# Numerical Analysis — after 19 completed lectures
 
-The sequence covers conditioning, Krylov, interpolation, integration, validated ODEs, automatic differentiation, and a posteriori finite-element residual estimates.
+The track extends verified ODE integration, residual-based a posteriori PDE analysis, and matrix-free preconditioning with multigrid and multiscale error correction.
 
 ## Unindexed continuation proposals
 
-- 019000 — Multigrid and Matrix-Free Preconditioning
 - 020000 — Verified Nonlinear Systems: Interval Newton and Krawczyk
-- 021000 — Sensitivity of Nonsmooth Numerical Algorithms
+- 021000 — Nonsmooth Sensitivities of Numerical Algorithms
 - 022000 — Equilibrated Flux Reconstructions and Guaranteed Error Bounds
+- 023000 — Robust Multigrid for Strongly Anisotropic Operators
 
-Keep discretization, algebraic, data-approximation and floating-point errors distinct. Do not call an empirical indicator a rigorous certificate without constants and hypotheses. Proposals are not registered.
+A preconditioner must respect the Krylov method's symmetry requirements. Distinguish algebraic, discretization and arithmetic errors. Proposals are not registered.

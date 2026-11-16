@@ -1,12 +1,12 @@
-# Optimization and Duality — after 15 completed lectures
+# Optimization and Duality — after 16 completed lectures
 
-The sequence includes convex/conic duality, interior-point and proximal algorithms, discrete and submodular optimization, sensitivity, operator splitting and robust optimization over explicit uncertainty sets.
+The course now develops homogeneous self-dual embedding for optimality and infeasibility certification, following conic duality, interior-point methods, robust optimization, operator splitting, and numerical certificates.
 
 ## Unindexed continuation proposals
 
-- 016000 — Homogeneous Self-Dual Embeddings and Infeasibility Certificates
 - 017000 — Nonmonotone Submodular Maximization under Matroid Constraints
 - 018000 — Inexact Proximal Steps and Convergence Diagnostics
-- 019000 — Distributionally Robust Optimization and Wasserstein Ambiguity Sets
+- 019000 — Distributionally Robust Optimization and Wasserstein Sets
+- 020000 — Facial Reduction and Degenerate Semidefinite Programs
 
-Distinguish nominal, worst-case, chance-constrained and distributionally robust objectives. Prove whether any robust counterpart is exact before claiming it is a certificate. Proposals are not registered.
+An approximate status flag is not a certificate. Report normalization, cone feasibility residuals, duality gaps and pathological tau=kappa=0 cases. Proposals are not registered.

@@ -30,7 +30,9 @@
     "topological-degree",
     "hodge-harmonic",
     "moment-maps-reduction",
-    "chern-weil-bundles"
+    "chern-weil-bundles",
+    "morse-handles",
+    "elliptic-index"
   ],
   "lectures": [
     {
@@ -230,6 +232,24 @@
       "spoken_words": 912,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 6.3
+    },
+    {
+      "id": "023000",
+      "title": "Morse Theory: Critical Points and Handle Decompositions",
+      "section": "morse-handles",
+      "file": "023000-morse-theory-critical-points-and-handles.md",
+      "spoken_words": 923,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.4
+    },
+    {
+      "id": "024000",
+      "title": "Elliptic Index and the Atiyah-Singer Perspective",
+      "section": "elliptic-index",
+      "file": "024000-elliptic-index-and-atiyah-singer.md",
+      "spoken_words": 800,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.5
     }
   ]
 }

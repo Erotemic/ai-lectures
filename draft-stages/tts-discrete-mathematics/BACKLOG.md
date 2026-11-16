@@ -1,12 +1,12 @@
-# Discrete Mathematics — after 22 completed lectures
+# Discrete Mathematics — after 24 completed lectures
 
-The track covers counting, matchings, matroids, flows, random graphs, entropy, network reliability, coding and design theory, parameterized algorithms, kernels and martingale concentration.
+The track adds explicit expander constructions and coding bounds to its earlier combinatorics, network flows, random graphs, graph minors, entropy, parameterized algorithms and concentration.
 
 ## Unindexed continuation proposals
 
-- 023000 — Expander Constructions and Pseudorandom Graphs
-- 024000 — Coding Bounds, Duality and Probabilistic Codes
-- 025000 — Extremal Set Systems and the Sunflower Lemma
-- 026000 — Randomized Rounding and Derandomization
+- 025000 — Extremal Set Systems and Sunflower Lemmas
+- 026000 — Randomized Rounding and Conditional Expectation
+- 027000 — Property Testing and Local Graph Algorithms
+- 028000 — Pseudorandom Generators and Extractors
 
-For algorithmic statements specify the parameter and whether FPT is conditional or known; for concentration identify independence and bounded-difference assumptions. Proposals are not registered.
+Distinguish probabilistic existence from explicit constructions and precise decoding guarantees from mere distance bounds. Proposals are not registered.

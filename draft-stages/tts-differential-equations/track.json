@@ -30,7 +30,9 @@
     "hamiltonian-flows",
     "nonlinear-pde-stability",
     "kinetic-transport-boltzmann",
-    "comparison-front-stability"
+    "comparison-front-stability",
+    "dispersive-scattering",
+    "variational-noether"
   ],
   "lectures": [
     {
@@ -230,6 +232,24 @@
       "spoken_words": 995,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 6.9
+    },
+    {
+      "id": "023000",
+      "title": "Dispersive Equations, Strichartz Bounds, and Scattering",
+      "section": "dispersive-scattering",
+      "file": "023000-dispersive-schrodinger-strichartz-and-scattering.md",
+      "spoken_words": 845,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.8
+    },
+    {
+      "id": "024000",
+      "title": "Variational PDEs and Noether-Type Conservation Identities",
+      "section": "variational-noether",
+      "file": "024000-variational-pdes-and-noether-identities.md",
+      "spoken_words": 934,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.4
     }
   ]
 }

@@ -23,7 +23,8 @@
     "implicit-stepping-newton-krylov",
     "automatic-differentiation-adjoints",
     "validated-ode",
-    "posteriori-fem-errors"
+    "posteriori-fem-errors",
+    "multigrid-preconditioning"
   ],
   "lectures": [
     {
@@ -187,6 +188,15 @@
       "spoken_words": 1025,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 7.1
+    },
+    {
+      "id": "019000",
+      "title": "Multigrid and Matrix-Free Preconditioning",
+      "section": "multigrid-preconditioning",
+      "file": "019000-multigrid-and-matrix-free-preconditioning.md",
+      "spoken_words": 947,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.5
     }
   ]
 }

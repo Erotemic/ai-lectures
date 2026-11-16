@@ -1,12 +1,12 @@
-# Differential Equations — after 22 completed lectures
+# Differential Equations — after 24 completed lectures
 
-The track develops ODEs, weak/entropy PDE solutions, bifurcation, Hamiltonian dynamics, nonlinear diffusion, kinetic transport and Boltzmann moments, and front comparison and stability.
+The course progresses from classical and weak PDEs, Hamiltonian systems and kinetic transport to dispersive estimates, scattering questions, variational actions and Noether currents.
 
 ## Unindexed continuation proposals
 
-- 023000 — Dispersive Equations, Strichartz Bounds and Scattering
-- 024000 — Variational PDEs and Noether-Type Identities
 - 025000 — Hypocoercivity and Return to Equilibrium
 - 026000 — Front Pinning in Heterogeneous Media
+- 027000 — Semilinear Wave Equations and Critical Exponents
+- 028000 — Structure-Preserving Numerical PDE Integrators
 
-Distinguish equations of moments from closed fluid models, and existence of a traveling wave from stability or speed selection for a particular initial-data class. Proposals are not registered.
+Separate formal identities from rigorous statements for weak solutions; scattering and global existence require equation-specific assumptions. Proposals are not registered.

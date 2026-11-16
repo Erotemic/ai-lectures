@@ -78,3 +78,9 @@ The narration is standalone. Formulae, proofs, exercises and source references a
 - 018000 — [A Posteriori Error Estimates for Finite Element Solutions](018000-a-posteriori-pde-error-estimates.md)
 
 Narrations are standalone. Exact calculations, proofs, exercises and sources are provided in non-spoken companions. Durations and word counts are descriptive only.
+
+## Continuation 12: Algebraic structure, geometry, and computation
+
+- 019000 — [Multigrid and Matrix-Free Preconditioning](019000-multigrid-and-matrix-free-preconditioning.md)
+
+Each narration is standalone; exact hypotheses, proofs, calculations, exercises and sources are in the non-spoken companions. Word counts are descriptive only.

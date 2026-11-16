@@ -80,3 +80,10 @@ The narration is standalone. Formulae, proofs, exercises and source references a
 - 022000 — [Chern–Weil Theory: How Curvature Records Bundle Topology](022000-chern-weil-theory-and-bundle-curvature.md)
 
 Narrations are standalone. Exact calculations, proofs, exercises and sources are provided in non-spoken companions. Durations and word counts are descriptive only.
+
+## Continuation 12: Algebraic structure, geometry, and computation
+
+- 023000 — [Morse Theory: Critical Points and Handle Decompositions](023000-morse-theory-critical-points-and-handles.md)
+- 024000 — [Elliptic Index and the Atiyah-Singer Perspective](024000-elliptic-index-and-atiyah-singer.md)
+
+Each narration is standalone; exact hypotheses, proofs, calculations, exercises and sources are in the non-spoken companions. Word counts are descriptive only.

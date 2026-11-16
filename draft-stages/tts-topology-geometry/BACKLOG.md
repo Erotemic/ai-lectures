@@ -1,12 +1,12 @@
-# Topology and Geometry — after 22 completed lectures
+# Topology and Geometry — after 24 completed lectures
 
-The track now develops basic topology, covering theory, manifolds, homology, characteristic classes, Gauss–Bonnet, degree, Hodge theory, moment maps, symplectic reduction and Chern–Weil curvature forms.
+Morse handle decompositions and elliptic index theory now connect the established material in homology, Hodge theory, characteristic classes, and symplectic geometry.
 
 ## Unindexed continuation proposals
 
-- 023000 — Morse Theory, Critical Points and Handle Decompositions
-- 024000 — Index Theory and the Atiyah–Singer Perspective
-- 025000 — Geometric Quantization and Prequantum Bundles
+- 025000 — Morse-Bott Theory and Equivariant Localization
 - 026000 — Holonomy, Parallel Transport and Gauge-Theoretic Moduli
+- 027000 — Geometric Quantization and Prequantum Bundles
+- 028000 — Spectral Sequences in Algebraic Topology
 
-Fix sign and connection conventions explicitly, distinguish integral characteristic classes from real de Rham classes, and state regularity of quotient constructions. Proposals are not registered.
+Index theorems require closed-manifold or carefully posed boundary hypotheses; a vanishing index does not imply invertibility. Proposals are not registered.

@@ -80,3 +80,10 @@ The narration is standalone. Formulae, proofs, exercises and source references a
 - 022000 — [Martingales, Bounded Differences, and Concentration](022000-martingales-and-concentration-inequalities.md)
 
 Narrations are standalone. Exact calculations, proofs, exercises and sources are provided in non-spoken companions. Durations and word counts are descriptive only.
+
+## Continuation 12: Algebraic structure, geometry, and computation
+
+- 023000 — [Expander Constructions and Pseudorandom Graphs](023000-expander-constructions-and-pseudorandom-graphs.md)
+- 024000 — [Coding Bounds, Duality, and Probabilistic Codes](024000-coding-bounds-duality-and-probabilistic-codes.md)
+
+Each narration is standalone; exact hypotheses, proofs, calculations, exercises and sources are in the non-spoken companions. Word counts are descriptive only.
