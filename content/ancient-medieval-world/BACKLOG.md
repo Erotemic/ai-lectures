@@ -1,6 +1,6 @@
 # Backlog — Ancient and Medieval Histories
 
-**Status:** Eighty-two lectures (001000–082000) are written, indexed, and source-mapped. Unit 6 (041000–050000), on the period around 1200–1500 CE, completes the initial chronological bridge from early urban worlds to the modern-world track. This is introductory coverage, not a declaration that every region, society, or source tradition has been addressed in sufficient depth.
+**Status:** Ninety lectures (001000–090000) are written, indexed, and source-mapped. Unit 6 (041000–050000), on the period around 1200–1500 CE, completes the initial chronological bridge from early urban worlds to the modern-world track. This is introductory coverage, not a declaration that every region, society, or source tradition has been addressed in sufficient depth.
 
 The chronology is a scaffold, not a sequence in which one region necessarily learns from another. Each unit should integrate changes to governance with work, family, belief, material culture, economic organization, and what the historical evidence actually allows us to know.
 
@@ -132,9 +132,24 @@ These are case studies, not a claim of exhaustive coverage. Their source records
 
 All eight are source-mapped case studies. Records distinguish primary inscriptions and edited contracts from secondary archaeology, and abstracts/excerpts from inspected full public webpages. A lecture's existence should not be mistaken for complete treatment of its region.
 
+## Regional and documentary depth - fifth installment (written and indexed)
+
+| ID | Lecture | Evidence focus and methodological distinction |
+| --- | --- | --- |
+| 083000 | A Poem Is Not a Census: Tamil Voices, Landscapes, and Early Society | Sangam akam/puram and tinai literary forms, later compilation, Tamil-Brahmi potsherds; poetry versus excavation and chronology |
+| 084000 | Five Hundred at the Port: Tamil Merchants across the Bay of Bengal | The 1088 Barus Tamil guild inscription, merchant association names, local Sumatra resin-producing labor and port archaeology |
+| 085000 | Oak Groves and Ocean Routes: Indigenous California before 1500 | Acorn processing, Indigenous fire stewardship, Chumash tomol crossings and debated chronology/functions of shell bead money |
+| 086000 | Where Salmon and Camas Meet: Life on the Columbia Plateau | Indigenous Celilo testimony, archaeology of long-term fisheries, fish preservation, root grounds, and the modern flooding of the falls |
+| 087000 | Beyond a Border on a Map: Balhae, Its Cities, and Its People | Capital archaeology, women’s royal epitaphs, diplomacy, and burial evidence for displacement after 926 |
+| 088000 | Carving a Library: Wood, War, and Learning in Goryeo Korea | The 1236–1251 Tripitaka project, 81,258 surviving blocks, textual collation, craft supply chains and limits of labor evidence |
+| 089000 | Letters on a Mountain: Marriage and Power in Sogdiana | Mount Mugh’s excavated archive, c. 709–710 Ot-tegin/Chat marriage contract and the 722 political upheaval |
+| 090000 | Seven Silver Coins in Bamiyan: A Jewish Family and the Afghan Genizah | May 1011 debt record, Abu Nasr’s family papers, multilingual account books, curated source selection and uncertain collecting provenance |
+
+Sources distinguish edited primary documents, scholarly abstracts, collection summaries, Indigenous-authored testimony, and museum narratives. This is not a comprehensive social history of these regions. The manuscript IDs represent addition order rather than time or relative importance.
+
 ## Next research campaigns (not yet indexed)
 
-The initial bridge and thirty-two regional/documents-based depth lectures are written. The priorities below remain **research proposals**, not existing lectures or assigned identifiers.
+The initial bridge and forty regional/documents-based depth lectures are written. The priorities below remain **research proposals**, not existing lectures or assigned identifiers.
 
 - **Original-language and archaeological evidence.** Review Persian, Arabic, Chinese, and Indigenous textual traditions with specialist translations and edition references; expand archaeological field reports rather than relying on heritage summaries alone.
 - **Regions still thinly treated.** Expand beyond the new case studies to Indigenous southeast North America, the Plains and Arctic; inland and eastern African polities, family and kinship histories, Southeast Asian villages beyond Angkor, and further Central Asian communities and languages.
@@ -169,3 +184,11 @@ The initial bridge and thirty-two regional/documents-based depth lectures are wr
 - **Indigenous North America:** additional Great Basin, California, Southwest and Plateau histories developed with community-led and contemporary archaeological evidence; distinguish ecological history from narratives of disappearance.
 - **Northeast and Central Asia:** Balhae regional societies, Silla and Goryeo local documents, oasis and agricultural communities beyond Bactrian parchment records, and better original-language editions.
 - **Sources and method:** update exact original inscription locations, publication and translations; compare accessible full archaeological research with abstract-level findings; check descendant-community explanations before applying archaeological culture names to peoples.
+
+### Following the fifth depth installment
+
+- Extend California histories beyond the Chumash and oak-woodland case studies with community-led northern California, inland, and desert histories.
+- Examine local records of Goryeo and Balhae outside court-centered collections; medieval Korean printing is not a substitute for landholding and household history.
+- Expand the South Asian literary history with specialist studies of manuscript transmission, Tamil Jain and Buddhist writing, and gender in later devotional poetry rather than treating all Tamil texts as one ancient period.
+- Seek excavated, not only acquired, documentary archives in the Hindu Kush and Central Asian regions, and compare sources from Muslim and non-Muslim communities without assuming identical legal practice.
+- Explore pre-1500 Philippine settlements and material exchange, precolonial Madagascar, and further African rural archaeology as additional geographic depth campaigns.

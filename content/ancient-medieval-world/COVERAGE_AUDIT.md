@@ -7,7 +7,7 @@
 | Deep Time (`draft-stages/tts-deep-time`) | Physical and biological deep history, human evolution, farming transitions and methods of prehistoric evidence; 36 indexed lectures at time of this audit | Does not sustain an account of later states, empires, belief systems, and linked trade networks |
 | World History (`draft-stages/tts-world-history`) | 110 indexed lectures on individual ancient and later people, literary works, archeological methods, and other historical episodes at time of audit | Many focused subjects, but not a sequential global course covering every period |
 | The Making of the Modern World (`draft-stages/tts-modern-world`) | 94 indexed lectures beginning around 1500 CE and continuing into early COVID-19 at time of audit | Starts after many institutions, economic systems, beliefs, and population histories already took shape |
-| **This pack**, `ancient-medieval-world` | Indexed 001000–066000. The first 50 form a chronological bridge through roughly 1500 CE. Sixteen further lectures deepen histories in Central Asia, the Americas, Africa, and Southeast Asia | **Six introductory units and sixteen targeted deep dives are written**; additional region-specific and source-level gaps remain |
+| **This pack**, `ancient-medieval-world` | Indexed 001000–090000. The first 50 form a chronological bridge through roughly 1500 CE. Forty further lectures deepen histories in Central Asia, the Americas, Africa, and Southeast Asia | **Six introductory units and forty targeted deep dives are written**; additional region-specific and source-level gaps remain |
 
 The temporal boundary between Deep Time and political history is not a universal date: agriculture, writing, urbanism, and state formation developed at different times in different parts of the world. Our approximate bridge is **3500 BCE–1500 CE**, not a claim that all regions entered the same historical stage together.
 
@@ -65,6 +65,15 @@ The new content does not claim equal research depth across periods: some evidenc
 
 Sources include accessible primary-source descriptions, scholar-edited inventories, community-authored histories and peer-reviewed abstract-only specialist work. Evidence metadata records which access level applies. Existing 001000-074000 manuscripts and paragraph metadata are not revised by this installment. The new IDs do not extend the chronological end date of roughly 1500 CE.
 
+## Fifth group of regional and documentary histories (083000-090000)
+
+- **Tamil-speaking worlds:** 083000 contrasts genre conventions in the Sangam corpus with potsherd inscriptions and site archaeology. 084000 centers the 1088 Barus guild inscription while keeping Sumatra’s forest-product workers, port residents, and other maritime groups visible.
+- **Western North America:** 085000 treats Indigenous California’s varied oak stewardship and Chumash maritime tools without presenting one group as representative of the whole region. 086000 pairs long-term occupation and fisheries at Celilo with Indigenous testimony and the evidence of camas-root grounds, distinguishing precolonial institutions from nineteenth-century documentation and the 1957 flooding.
+- **Korean peninsula and adjoining northeast Asia:** 087000 reads Balhae through royal women’s epitaphs and provincial archaeology, separating an ancient plural polity from modern nationalist categories. 088000 examines the Goryeo Tripitaka Koreana as a material and scholarly project, without pretending the surviving blocks constitute a ledger of craft labor.
+- **Central Asian archives:** 089000 analyzes Mount Mugh’s excavated documents, including the named Sogdian marriage agreement, while 090000 studies the edited May 1011 Bamiyan debt acknowledgment and acquired Afghan Genizah materials. Their different provenience allows a direct lesson in documentary bias.
+
+Some specialist scholarship was available only as public abstracts or excerpts, indicated in `metadata/sources.json`. The Sangam UNESCO legacy PDF sometimes redirects, so its access is described as excerpt-level; it should not be advertised as a newly consulted complete critical edition. No changes are made to 001000-082000 manuscripts or their paragraph evidence files. The chronological endpoint remains approximately 1500 CE.
+
 ## Cross-cutting deficits to investigate
 
 **History of ordinary people.** Household organization, farmers' and craftspeople's work, bondage and unfreedom, gender and family, migration and displaced populations should be part of political history rather than appended after rulers and battles.
@@ -79,4 +88,4 @@ Sources include accessible primary-source descriptions, scholar-edited inventori
 
 ## Status and next action
 
-Eighty-two lectures are indexed and contain paragraph-level evidence mapping: the original fifty-lecture chronological bridge plus thirty-two focused regional and documentary deep dives. The planned **introductory chronological bridge** from approximately 3500 BCE to 1500 CE is written, but it is not comprehensive world history. Prioritize the remaining regional and social-history gaps, original-language evidence, specialist archaeology, and explicit links to existing specialist tracks. A future coverage audit should distinguish manuscript existence, evidentiary quality, and depth of teaching instead of treating the presence of a topic as proof that it has been mastered.
+Ninety lectures are indexed and contain paragraph-level evidence mapping: the original fifty-lecture chronological bridge plus forty focused regional and documentary deep dives. The planned **introductory chronological bridge** from approximately 3500 BCE to 1500 CE is written, but it is not comprehensive world history. Prioritize the remaining regional and social-history gaps, original-language evidence, specialist archaeology, and explicit links to existing specialist tracks. A future coverage audit should distinguish manuscript existence, evidentiary quality, and depth of teaching instead of treating the presence of a topic as proof that it has been mastered.
