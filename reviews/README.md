@@ -1,0 +1,149 @@
+# Lecture review layer
+
+Reviews are a durable, **pack-disjoint** quality layer for lecture content. A
+review is not a document produced about a pack; it is a set of *findings* —
+stable, identity-bearing records — observed against specific content
+revisions by a bounded reviewer, and adjudicated by a more capable agent
+session.
+
+This directory is infrastructure, in the same sense as the LLM resource
+tally: it is read by review sessions, written only by review work, and never
+by content agents.
+
+## Disjointness invariants
+
+1. **Reads packs, writes only here.** Review tooling reads manuscripts,
+   `metadata/*.json` sidecars, `metadata/sources.json`, and `track.json`; it
+   writes only under `reviews/`. A pack is never modified, gated, or blocked
+   by review state: *diagnostics are separated from delivery*. An unreviewed
+   or flagged lecture remains fully servable.
+2. **Pack handoffs never carry review data.** Pack scopes are
+   `content/<ns>/` and `draft-stages/<track>/`; `reviews/` lies outside every
+   scope, so overlays and ZIPs cannot import or export findings.
+3. **Verbatim anchors.** Every finding must quote the target text verbatim.
+   The runner verifies the anchor against the extracted narration before a
+   finding enters the registry; unlocatable findings are dropped and
+   recorded, not guessed at.
+4. **Finder is not the adjudicator.** A 27b-class reviewer is invoked in
+   single-shot, no-tools calls. Only an agentic session with repo and source
+   access may move a finding out of `open`. A finding cannot be `confirmed`,
+   `rejected`, or `resolved` without an adjudication record.
+5. **Revision binding.** Units are keyed by a content hash covering the
+   manuscript, its sidecar, the track source registry, and `track.json`.
+   Staleness is computed, not remembered.
+
+## Layout
+
+```
+reviews/
+  README.md               # this contract
+  contract/
+    categories.md         # what may be flagged, and explicitly may not
+    prompt-vN.md          # versioned reviewer prompt (version recorded in runs)
+  registry/
+    findings-<track>.jsonl   # one row per finding identity (durable)
+    coverage-<track>.jsonl   # one row per (track, lecture, revision) reviewed
+  runs/
+    R-<YYYYMMDD>-<track>/
+      run.yaml            # scope, contract version, reviewer/adjudicator model + session
+      progress.json       # per-unit stages; the compaction-survival checkpoint
+      raw/<unit>.json     # raw reviewer responses (pre-validation audit trail)
+      report.md           # human-readable summary for the run
+```
+
+Track = any directory under `content/` or `draft-stages/` carrying a
+`track.json`. Registry and coverage files are sharded per track; review work
+on one track never touches another track's files.
+
+## Finding record
+
+```json
+{
+  "finding_id": "tts-world-history/001000#unverified_claim#a1b2c3d4",
+  "track": "tts-world-history",
+  "lecture_id": "001000",
+  "category": "unverified_claim",
+  "anchor": "verbatim contiguous quote from the narration",
+  "anchor_as_quoted": "what the reviewer actually sent (if normalization changed it)",
+  "claim": "one sentence: what the lecture asserts",
+  "detail": "one sentence: why that is a problem in this category",
+  "confidence": "high|low",
+  "source_ids": ["ids of the closest registered sources, if any"],
+  "status": "open|confirmed|rejected|deferred|resolved|stale",
+  "first_seen":  {"run": "R-…", "revision": "…", "at": "…"},
+  "last_seen":   {"run": "R-…", "revision": "…", "at": "…"},
+  "adjudication": {"by": "session:<id>|human", "decision": "…", "note": "…", "at": "…"},
+  "resolution":   {"revision": "…", "note": "…", "at": "…"},
+  "history": [{"status": "…", "run": "…", "at": "…"}]
+}
+```
+
+Identity = `(track, lecture_id, category, sha256(normalized_anchor)[:12])`.
+
+State machine:
+
+- `open` → `confirmed` / `rejected` / `deferred` — only via an adjudication.
+- `confirmed` / `deferred` → `resolved` — when the fix lands; record the
+  content hash of the fixed revision.
+- Any status → `stale` — when a later review of the unit shows the anchor no
+  longer occurs (the text was reworded or removed).
+- `resolved` or `rejected` → `open` (**regression re-open**) — when a later
+  review of a *different* revision flags the same identity again. The
+  transition is appended to `history`; the prior status is never lost.
+- `rejected` re-flagged at a newer revision keeps `rejected` but updates
+  `last_seen`: the reviewer's persistence is visible to the adjudicator.
+
+## Coverage record
+
+```json
+{"track": "…", "lecture_id": "…", "revision": "…", "run": "R-…",
+ "reviewed_at": "…", "outcome": "clean|findings:N",
+ "adjudicated_at": "…", "open": 0}
+```
+
+One row per (track, lecture) pair, replaced as newer revisions are reviewed.
+`outcome: clean` is a first-class result: a reviewed-and-clean lecture is not
+re-reviewed until its revision changes. `plan` consults coverage: a unit
+needs work iff its revision changed since its coverage row, it carries open
+findings, or it has never been reviewed.
+
+## Resume protocol (compaction-safe one-lecture-at-a-time work)
+
+The unit stage in `progress.json` is `queued → reviewed → verified →
+adjudicated`:
+
+- **Persist before the next read.** After each stage transition the runner
+  writes the raw response, registry rows, coverage row, and progress update,
+  and the session commits in small batches before loading the next lecture.
+  The expensive reviewer call is never re-bought by a later session.
+- **Post-compaction ritual:** read the run's `progress.json` (one small
+  file). `in_progress.stage == reviewed` → go straight to verification /
+  adjudication with the raw response on disk. `adjudicating` → per-finding
+  statuses in the registry are the fine-grained checkpoint; adjudicate only
+  the still-`open` findings. The unit stage is *derived* from finding
+  statuses, so there is one source of truth.
+
+## Attribution
+
+`run.yaml` records, for the reviewer and the adjudicator separately: the
+model exactly as the runtime identifies it, the session id (tally-attributable),
+and `model_actual` free text for deployments whose alias understates the
+weights behind them. Review commits carry the `Co-authored-by:` trailer
+required by AGENTS.md. Reviewer and adjudicator usage both land in the LLM
+resource tally under their session ids.
+
+## Commands
+
+```
+python3 tools/run_reviews.py plan     --track tts-world-history [--format table|json]
+python3 tools/run_reviews.py run      --track … [--unit ID …] [--limit N]
+                                      [--model M] [--resume RUN | --fresh] [--dry-run]
+python3 tools/run_reviews.py adjudicate --run R --unit ID
+                                      [--finding FID --decision … --note …]
+                                      [--interactive] [--as …]
+python3 tools/run_reviews.py report   [--run R] [--out PATH]
+python3 tools/run_reviews.py verify   [--track …]
+```
+
+The tool never commits and never writes outside `reviews/`; commit batching
+and the attribution trailer are the session's job.
