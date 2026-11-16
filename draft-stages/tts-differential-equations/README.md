@@ -136,3 +136,10 @@ All narrations are standalone. Precise assumptions, worked derivations, exercise
 - 038000 - [Metastable Multi-Front Motion in Allen-Cahn Equations](038000-metastable-multifront-allen-cahn-motion.md)
 
 All narrations stand alone. Derivations, exact assumptions, exercises with answers, and references remain outside spoken markers. Length is set by the material, not a word-count or duration target.
+
+## Continuation 20: Whitham modulation and moving-boundary conservation
+
+- 039000 — [Whitham Modulation and Dispersive Limits](039000-whitham-modulation-and-dispersive-limits.md)
+- 040000 — [Moving-Boundary PDEs and the Geometric Conservation Law](040000-moving-boundary-pdes-and-geometric-conservation.md)
+
+The spoken manuscripts stand alone. Their mathematical companions preserve exact hypotheses, derivations, exercises with answers, and references. Duration is descriptive, never a content quota.

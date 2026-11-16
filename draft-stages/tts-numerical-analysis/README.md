@@ -126,3 +126,9 @@ All narrations are standalone. Precise assumptions, worked derivations, exercise
 - 026000 - [Event-Time Sensitivities and Saltation Matrices](026000-event-time-sensitivities-and-saltation.md)
 
 All narrations stand alone. Derivations, exact assumptions, exercises with answers, and references remain outside spoken markers. Length is set by the material, not a word-count or duration target.
+
+## Continuation 20: Goal-oriented PDE accuracy and dual-weighted residuals
+
+- 027000 — [Goal-Oriented Error Estimation and Dual-Weighted Residuals](027000-goal-oriented-dual-weighted-residual.md)
+
+The spoken manuscripts stand alone. Their mathematical companions preserve exact hypotheses, derivations, exercises with answers, and references. Duration is descriptive, never a content quota.

@@ -1,12 +1,12 @@
-# Abstract Algebra: Structure, Symmetry, and Arithmetic - after 76 completed lectures
+# Abstract Algebra: Structure, Symmetry, and Arithmetic - after 80 completed lectures
 
-Effective Chabauty-Coleman bounds make a rank hypothesis and residue-disk count explicit; crystal graphs recover tensor-product decomposition; Gamma classes correct K-theory-to-quantum-flat-section comparisons; Hall multiplication detects nonsplit extensions and links quivers to cluster mutation.
+Quadratic Chabauty adds p-adic height constraints beyond the classical rank condition; Demazure crystals recover key polynomials; quantum Lefschetz yields quintic hypergeometric periods; a two-vertex quiver exposes stability wall crossing.
 
 ## Unindexed continuation proposals
 
-- 077000 - Quadratic Chabauty and p-adic Height Pairings
-- 078000 - Demazure Crystals and Key Polynomials
-- 079000 - Quantum Lefschetz and Gamma-Class Correspondences
-- 080000 - Stability Conditions, Quiver Mutations, and Wall Crossing
+- 081000 - p-adic Hodge Comparison and Galois Representations
+- 082000 - Kazhdan-Lusztig Polynomials and Representation Categories
+- 083000 - Quantum K-Theory and Difference Connections
+- 084000 - Bridgeland Stability on Derived Moduli Spaces
 
-Proposals are not registered; manuscripts are added only when written. Lecture length is determined by the subject, not a fixed duration policy.
+Proposals are not registered; manuscripts are added only when written. The material determines lecture depth and length; no duration or word-count policy applies.

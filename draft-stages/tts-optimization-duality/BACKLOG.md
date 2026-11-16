@@ -1,12 +1,12 @@
-# Optimization, Convexity, and Duality - after 23 completed lectures
+# Optimization, Convexity, and Duality - after 24 completed lectures
 
-Stochastic Mirror-Prox corrects bilinear rotation while paying an oracle-noise term in expected ergodic gap bounds. Two-oracle sampling, conditional unbiasedness, and prox geometry are explicit assumptions.
+CVaR and entropic risk describe different loss tails; a finite ambiguity interval gives explicit worst-case mean, CVaR, and entropic-risk calculations without swapping minimax operations without justification.
 
 ## Unindexed continuation proposals
 
-- 024000 - Entropic Risk and CVaR Under Distributional Ambiguity
 - 025000 - Exact SDP Duality and Numerical Facial Reduction
 - 026000 - Variance-Reduced Stochastic Mirror-Prox
 - 027000 - Adaptive Sampling and Inexact Variational Inequality Certificates
+- 028000 - Coherent Risk and Distributionally Robust Dynamic Programs
 
-Proposals are not registered; manuscripts are added only when written. Lecture length is determined by the subject, not a fixed duration policy.
+Proposals are not registered; manuscripts are added only when written. The material determines lecture depth and length; no duration or word-count policy applies.

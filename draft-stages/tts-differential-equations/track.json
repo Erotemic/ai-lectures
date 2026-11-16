@@ -46,7 +46,9 @@
     "viscous-shocks-evans",
     "multisymplectic-integrators",
     "green-kernels-shock-stability",
-    "allen-cahn-metastability"
+    "allen-cahn-metastability",
+    "whitham-modulation-dispersion",
+    "moving-boundary-geometric-conservation"
   ],
   "lectures": [
     {
@@ -390,6 +392,24 @@
       "spoken_words": 1301,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 9.0
+    },
+    {
+      "id": "039000",
+      "title": "Whitham Modulation and Dispersive Limits",
+      "section": "whitham-modulation-dispersion",
+      "file": "039000-whitham-modulation-and-dispersive-limits.md",
+      "spoken_words": 1050,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.2
+    },
+    {
+      "id": "040000",
+      "title": "Moving-Boundary PDEs and the Geometric Conservation Law",
+      "section": "moving-boundary-geometric-conservation",
+      "file": "040000-moving-boundary-pdes-and-geometric-conservation.md",
+      "spoken_words": 1153,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 8.0
     }
   ]
 }

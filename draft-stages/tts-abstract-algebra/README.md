@@ -174,3 +174,12 @@ All narrations are standalone. Precise assumptions, worked derivations, exercise
 - 076000 - [Hall Algebras, Extensions, and Cluster Mutations](076000-hall-algebras-and-cluster-mutations.md)
 
 All narrations stand alone. Derivations, exact assumptions, exercises with answers, and references remain outside spoken markers. Length is set by the material, not a word-count or duration target.
+
+## Continuation 20: Quadratic heights, Demazure characters, hypersurface curve counting, and wall crossing
+
+- 077000 — [Quadratic Chabauty and p-Adic Height Pairings](077000-quadratic-chabauty-and-p-adic-heights.md)
+- 078000 — [Demazure Crystals and Key Polynomials](078000-demazure-crystals-and-key-polynomials.md)
+- 079000 — [Quantum Lefschetz, Hypergeometric Periods, and Gamma Classes](079000-quantum-lefschetz-and-gamma-class.md)
+- 080000 — [Stability Conditions, Quiver Mutations, and Wall Crossing](080000-stability-quivers-and-wall-crossing.md)
+
+The spoken manuscripts stand alone. Their mathematical companions preserve exact hypotheses, derivations, exercises with answers, and references. Duration is descriptive, never a content quota.

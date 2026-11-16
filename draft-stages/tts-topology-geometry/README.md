@@ -136,3 +136,10 @@ All narrations are standalone. Precise assumptions, worked derivations, exercise
 - 038000 - [ECH Capacities and Symplectic Embedding Staircases](038000-ech-capacities-and-embedding-staircases.md)
 
 All narrations stand alone. Derivations, exact assumptions, exercises with answers, and references remain outside spoken markers. Length is set by the material, not a word-count or duration target.
+
+## Continuation 20: Donaldson gauge invariants and families index theory
+
+- 039000 — [Donaldson Invariants and the Smooth Topology of Four-Manifolds](039000-donaldson-intersection-invariants.md)
+- 040000 — [Families Index Theory and Determinant Line Bundles](040000-families-index-and-determinant-lines.md)
+
+The spoken manuscripts stand alone. Their mathematical companions preserve exact hypotheses, derivations, exercises with answers, and references. Duration is descriptive, never a content quota.

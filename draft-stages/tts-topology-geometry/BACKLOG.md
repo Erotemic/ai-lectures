@@ -1,12 +1,12 @@
-# Topology and Geometry - after 38 completed lectures
+# Topology and Geometry - after 40 completed lectures
 
-Wrapped Floer theory recovers based-loop topology through cotangent-fiber chords, and ECH capacities turn symplectic embedding obstructions into ordered lattice sums. Both require precise exactness/dimensional assumptions.
+Donaldson invariants use ASD moduli and intersection insertions to study smooth four-manifolds; families index theory packages jumping kernels in K-theory and determinant lines.
 
 ## Unindexed continuation proposals
 
-- 039000 - Donaldson Intersection Invariants
-- 040000 - Family Index Theory and Determinant Line Bundles
-- 041000 - Symplectic Field Theory and Reeb Orbit Counts
+- 041000 - Symplectic Field Theory and Reeb Orbits
 - 042000 - Geometric Quantization and Index Pairings
+- 043000 - Seiberg-Witten Monopoles and Four-Manifold Invariants
+- 044000 - Elliptic Genera and Loop-Space Index Theory
 
-Proposals are not registered; manuscripts are added only when written. Lecture length is determined by the subject, not a fixed duration policy.
+Proposals are not registered; manuscripts are added only when written. The material determines lecture depth and length; no duration or word-count policy applies.

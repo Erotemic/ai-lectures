@@ -128,3 +128,9 @@ All narrations are standalone. Precise assumptions, worked derivations, exercise
 - 023000 - [Stochastic Mirror-Prox and the Cost of Noisy Oracles](023000-stochastic-mirror-prox-and-oracle-noise.md)
 
 All narrations stand alone. Derivations, exact assumptions, exercises with answers, and references remain outside spoken markers. Length is set by the material, not a word-count or duration target.
+
+## Continuation 20: Entropic risk and CVaR under ambiguity
+
+- 024000 — [Entropic Risk, CVaR, and Distributional Ambiguity](024000-entropic-risk-cvar-and-ambiguity.md)
+
+The spoken manuscripts stand alone. Their mathematical companions preserve exact hypotheses, derivations, exercises with answers, and references. Duration is descriptive, never a content quota.

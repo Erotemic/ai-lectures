@@ -1,12 +1,12 @@
-# Numerical Analysis and Reliable Computation - after 26 completed lectures
+# Numerical Analysis and Reliable Computation - after 27 completed lectures
 
-Event-time sensitivities derive the implicit root-time derivative and the saltation update at a transverse hybrid event. Grazing and changed event sequences remain outside that classical derivative.
+Goal-oriented error analysis uses the adjoint to weight residuals; a finite-element Poisson example gives exact output error 1/48 and illustrates why a same-space numerical dual is insufficient.
 
 ## Unindexed continuation proposals
 
-- 027000 - Goal-Oriented Dual-Weighted Residual Certificates
 - 028000 - Algebraic Multigrid for Rotated Anisotropy
 - 029000 - Rigorous Floquet Bundles and Validated Manifolds
 - 030000 - Verified Hybrid Event Sequences and Zeno Exclusion
+- 031000 - Certified Goal-Adapted Mesh Design
 
-Proposals are not registered; manuscripts are added only when written. Lecture length is determined by the subject, not a fixed duration policy.
+Proposals are not registered; manuscripts are added only when written. The material determines lecture depth and length; no duration or word-count policy applies.

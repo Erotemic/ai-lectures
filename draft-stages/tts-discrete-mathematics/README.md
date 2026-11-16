@@ -136,3 +136,10 @@ All narrations are standalone. Precise assumptions, worked derivations, exercise
 - 038000 - [Sharp Thresholds, Influences, and the Tribes Function](038000-sharp-thresholds-and-tribes.md)
 
 All narrations stand alone. Derivations, exact assumptions, exercises with answers, and references remain outside spoken markers. Length is set by the material, not a word-count or duration target.
+
+## Continuation 20: Polynomial evaluation codes and hypergraph absorption
+
+- 039000 — [Polynomial Codes and Local Testability](039000-polynomial-codes-and-local-testability.md)
+- 040000 — [Hypergraph Matchings and the Absorption Method](040000-hypergraph-matchings-and-absorption.md)
+
+The spoken manuscripts stand alone. Their mathematical companions preserve exact hypotheses, derivations, exercises with answers, and references. Duration is descriptive, never a content quota.
