@@ -74,7 +74,7 @@ Citation quality takes priority over bibliography size: a reliable passage that 
 - **037000:** The Machinery of Genocide: Persecution, Murder, and the Holocaust. Genocide of European Jews, mobile killing, Wannsee, killing centers, Roma, the murder of disabled people, and the preservation of Jewish testimony.
 - **038000:** Who Paid for the War? Empire, Forced Labor, and Civilian Survival. British India and military service, the Bengal famine, forced Asian labor, prisoner-of-war camps, Japanese American incarceration, and uneven freedom.
 
-## Forward planning, not indexed
+## Archived planning record for completed lectures 039000–042000
 
 - **039000:** Japan’s defeat and the end of the Pacific war: atomic bombing of Hiroshima and Nagasaki, Soviet entry, competing arguments about surrender, and moral questions in the evidence. Distinguish what witnesses and governments could know at the time from later counterfactual debates.
 - **040000:** Refugees, population transfers, displaced persons and the lived problem of reconstruction after 1945; partition, border changes, rationing and access to property.
@@ -90,7 +90,7 @@ Citation quality takes priority over bibliography size: a reliable passage that 
 - **041000:** Who Inherited the Empire? Independence, Partition, and Revolution, 1945–1949. Indonesia, India and Pakistan, and Vietnam after Japan’s defeat, with attention to anticolonial agency, partition, warfare and rival claims to legitimacy.
 - **042000:** Rules for a Broken World: The United Nations, Rights, and Postwar Economic Order. 1945 United Nations Charter and veto, Nuremberg, genocide and human-rights law, refugee protection, and the Bretton Woods and GATT economic settlements.
 
-## Next research and composition candidates (not indexed)
+## Archived planning record for completed lectures 043000–046000
 
 - **043000:** 1945–1953 Cold War entanglements and the divided Korean peninsula, with Korean civilian agency rather than a purely US–Soviet diplomatic account; verify chronology of trusteeship disputes, rival governments and wartime displacement using Korean-authored scholarship.
 - **044000:** Competing postwar economic and social programs: postwar welfare states, Japanese land reforms, recovery in China and the contested meanings of development; do not treat one national recovery story as global.
@@ -107,7 +107,7 @@ Citation quality takes priority over bibliography size: a reliable passage that 
 - **045000:** When Independence Had Many Voices: African Liberation After 1945. Ghanaian political organization and women activists, Guinea, Kenya, and Algerian paths to independence.
 - **046000:** Who Governs the Land and Its Wealth? The Middle East, 1947-1956. Mandate Palestine and Israeli statehood, the Palestinian Nakba, Jewish displacement, Iranian oil nationalization, and Suez.
 
-## Next research candidates (not indexed)
+## Archived planning record for completed lectures 047000–050000
 
 - **047000:** Bandung, 1955, and nonalignment as self-directed diplomacy. Recover African and Asian delegates' actual proposals rather than treating nonalignment as lack of policy.
 - **048000:** Revolution, reconstruction and economic choices in East Asia, including the People's Republic of China, Japan and Taiwan, emphasizing distinct forms of land redistribution, state power and social consequences.
@@ -115,3 +115,20 @@ Citation quality takes priority over bibliography size: a reliable passage that 
 - **050000:** Latin American sovereignty and the Cold War, including Guatemala, Cuba and alternative arguments about development. Verify local archives rather than defaulting to U.S. diplomatic reports.
 
 **Evidence still needed:** For **043000**, add direct testimony from Korean families and scholarship based on northern archives; Chapter 10 of the Korean-authored history and South Korean truth-finding materials have specific institutional vantage points. For **044000**, assess economic outcomes with full comparative and village-level research rather than concluding from planning laws or institution histories. For **045000**, read surviving Ghanaian and Guinean political newspapers and organizers' letters, Kenyan detention testimony, and detailed Algerian historians' works beyond abstracts. For **046000**, expand first-person Palestinian and Jewish refugee sources through inspected individual interviews and cross-check Iranian accounts from Iranian archives. Historiographic disagreements, legal decisions and survivor experiences should remain distinct; no fixed target length applies.
+
+
+## Completed: 047000-050000 — 1950s and early 1960s movements and models
+
+- **047000:** A Third Voice Is Not Silence: Bandung and Nonalignment, 1955-1961. The 1955 Bandung Conference, its anticolonial and economic agenda, Asian-African diplomacy, and the 1961 Belgrade Non-Aligned summit.
+- **048000:** Three Paths Through Reconstruction: East Asia After 1945. Japan, mainland China and Taiwan after 1945, comparing land reform, political authority, industrial planning and their human consequences.
+- **049000:** Who Carries the Rights? Civil Rights and Anti-Apartheid Organizing. Grassroots organizers, legal change and political repression in the United States and South Africa during the 1950s and 1960s.
+- **050000:** Sovereignty and Its Price: Latin America in the Cold War. Development economics, Bolivian reform, Guatemala 1952-54, Cuba 1959-62 and the Alliance for Progress.
+
+## Next research candidates (not indexed)
+
+- **051000:** Congo's independence and the international struggle over sovereignty, 1960-65: Congolese political agency, Lumumba, Katanga, ONUC, Belgian interests, U.S. and Soviet roles. Seek Congolese archives and scholarly interpretations, not only UN and European official reports.
+- **052000:** The nuclear and space age as a public experience, from atmospheric tests and anti-nuclear movements to Sputnik, the Cuban missile crisis and the moon landing. Distinguish engineering achievement, national policy, exposure and the politics of secrecy.
+- **053000:** Working people and changing families after 1945: women organizing, rural-to-urban migration, migrant labor, labor rights and public provision across multiple regions, with attention to class, race and gender.
+- **054000:** Oil, environment and the new political economy in the 1960s-1970s: producing countries' aims, 1973 oil shock, inflation, environmental movements and the changing international monetary order.
+
+**Evidence to seek:** For 047000, obtain full conference interventions from African and Asian delegates, in original languages where possible. For 048000, compare village-level land records and surveys with government retrospectives, particularly in Taiwan and China. For 049000, add South African first-person testimony and archived organizing records beyond movement and state summaries. For 050000, review Guatemalan rural petitions, Bolivian Indigenous organizing records, Cuban teacher and learner letters, and rigorous outcome evaluations. Descriptive word counts do not imply a length policy.

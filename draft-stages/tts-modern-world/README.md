@@ -107,3 +107,13 @@ Each lecture is complete, spoken narration followed by a paragraph-mapped eviden
 - **046000 - [Who Governs the Land and Its Wealth? The Middle East, 1947-1956](046000-who-governs-the-land-and-its-wealth.md)** (2,773 spoken words). The 1947 UN partition proposal, Israeli statehood, Palestinian displacement, Jewish refugees, Iranian oil sovereignty and the Suez Crisis.
 
 Every narrated paragraph maps to an independently linked, display-only evidence entry with source locators, access scope and limitations. Source descriptions and historical debates are kept separate from the spoken lecture. Completed manuscript word counts are descriptive, not a length target.
+
+
+## Nonalignment, development, rights and sovereignty (047000-050000)
+
+- **047000 - [A Third Voice Is Not Silence: Bandung and Nonalignment, 1955-1961](047000-a-third-voice-is-not-silence.md)** (2,443 narrated words). The Bandung conference, debates within African and Asian delegations, concrete economic proposals, and the later Belgrade declaration.
+- **048000 - [Three Paths Through Reconstruction: East Asia After 1945](048000-three-paths-through-reconstruction.md)** (2,548 narrated words). Different land policies and industrial strategies in Japan, mainland China, and Taiwan, with rights, repression and famine kept in view.
+- **049000 - [Who Carries the Rights? Civil Rights and Anti-Apartheid Organizing](049000-who-carries-the-rights.md)** (2,561 narrated words). Organizers in Montgomery, SNCC, Mississippi and South Africa; segregation, pass laws, mass action and the limits of legal reform.
+- **050000 - [Sovereignty and Its Price: Latin America in the Cold War](050000-sovereignty-and-its-price.md)** (2,873 narrated words). Prebisch and industrialization; Bolivian, Guatemalan and Cuban reform; U.S. intervention and the Alliance for Progress.
+
+All historical paragraphs have an external display-only source ledger and structured metadata; explicit access limits prevent abstracts and government statements from being treated as the whole record. Word counts are descriptive, not targets.
