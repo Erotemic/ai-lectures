@@ -13,9 +13,8 @@
 - 004000: [Lagrange Multipliers and KKT Conditions: When Local Equations Certify an Optimum](004000-kkt-conditions-and-constraint-qualifications.md) (3,001 spoken words; ~21 minutes).
 - 005000: [Gradient Descent, Smoothness, and the Price of Poor Conditioning](005000-gradient-descent-and-conditioning.md) (1,603 spoken words; measured ~11 minutes at 145 words per minute).
 
-## Planned continuation
+## Planned continuation (remaining proposals)
 
-- 006000: Proximal Algorithms and Nonsmooth Convexity
 - 007000: Spectral and Semidefinite Optimization
 - 008000: Discrete Optimization, Relaxations, and Approximation
 - 009000: Numerical Error and Formally Checkable Certificates
@@ -25,3 +24,9 @@ The remaining titles are planning proposals.
 ## Reading and source records
 
 See `metadata/sources.json` and the per-lecture sidecars. Citation details and mathematical companions remain outside the spoken narration.
+
+## Newly completed continuation
+
+- 006000 — [Proximal Methods: Optimization When the Best Point Has a Corner](006000-proximal-methods-and-nonsmooth-convexity.md)
+
+Lecture lengths in the track manifest are measured, not prescribed. Exact mathematics and references remain in non-spoken companions.

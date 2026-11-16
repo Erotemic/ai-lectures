@@ -1,7 +1,7 @@
-# Discrete Mathematics and Combinatorics — proposed continuation
+# Discrete Mathematics and Combinatorics — continuation after four completed lectures
 
-- 003000 — Generating Functions: Encode a Sequence as Algebra
-- 004000 — Recurrences, Rational Generating Functions and Asymptotics
+001000–004000 are now complete. Remaining proposals are unindexed.
+
 - 005000 — Graphs, Walks, Trees and Cycle Structure
 - 006000 — Matchings and Hall's Marriage Theorem
 - 007000 — Flows, Cuts and Combinatorial Duality

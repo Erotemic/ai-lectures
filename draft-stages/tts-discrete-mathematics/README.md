@@ -10,3 +10,10 @@ Finite structures and counting arguments, progressing from bijections and double
 Every numbered manuscript has a single spoken-region marker pair. Its mathematical companion and bibliography are not spoken. The source records are in `metadata/sources.json`; per-lecture reading links are in `metadata/<id>.json`.
 
 The recorded word counts and estimated audio durations in `track.json` describe the existing narration; they are not writing targets or constraints.
+
+## Newly completed continuation
+
+- 003000 — [Generating Functions: Turn Counting into Algebra](003000-generating-functions.md)
+- 004000 — [Recurrences, Rational Generating Functions, and Growth](004000-recurrences-and-rational-generating-functions.md)
+
+Lecture lengths in the track manifest are measured, not prescribed. Exact mathematics and references remain in non-spoken companions.

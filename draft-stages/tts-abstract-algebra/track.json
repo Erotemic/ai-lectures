@@ -12,7 +12,11 @@
     "groups-and-symmetry",
     "homomorphisms-and-quotients",
     "group-actions",
-    "modular-arithmetic"
+    "modular-arithmetic",
+    "rings-and-ideals",
+    "polynomial-rings",
+    "field-extensions",
+    "modules"
   ],
   "lectures": [
     {
@@ -50,6 +54,42 @@
       "spoken_words": 1450,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 10.0
+    },
+    {
+      "id": "005000",
+      "title": "Rings, Ideals, and Quotients: Which Arithmetic Can Be Collapsed?",
+      "section": "rings-and-ideals",
+      "file": "005000-rings-ideals-and-quotients.md",
+      "spoken_words": 1368,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 9.4
+    },
+    {
+      "id": "006000",
+      "title": "Polynomial Rings, Factorization, and Irreducibility",
+      "section": "polynomial-rings",
+      "file": "006000-polynomial-rings-and-irreducibility.md",
+      "spoken_words": 1418,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 9.8
+    },
+    {
+      "id": "007000",
+      "title": "Field Extensions, Minimal Polynomials, and Degrees",
+      "section": "field-extensions",
+      "file": "007000-field-extensions-and-minimal-polynomials.md",
+      "spoken_words": 1328,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 9.2
+    },
+    {
+      "id": "008000",
+      "title": "Modules: Linear Algebra without Division",
+      "section": "modules",
+      "file": "008000-modules-and-linear-algebra-over-rings.md",
+      "spoken_words": 1315,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 9.1
     }
   ]
 }

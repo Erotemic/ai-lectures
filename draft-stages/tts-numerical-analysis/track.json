@@ -13,7 +13,8 @@
     "root-finding",
     "linear-algebra",
     "error-certificates",
-    "interpolation-and-approximation"
+    "interpolation-and-approximation",
+    "quadrature-and-error"
   ],
   "lectures": [
     {
@@ -87,6 +88,15 @@
       "spoken_words": 1625,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 11.2
+    },
+    {
+      "id": "009000",
+      "title": "Numerical Integration: Accuracy, Quadrature, and Honest Error Estimates",
+      "section": "quadrature-and-error",
+      "file": "009000-quadrature-error-and-adaptivity.md",
+      "spoken_words": 1307,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 9.0
     }
   ]
 }

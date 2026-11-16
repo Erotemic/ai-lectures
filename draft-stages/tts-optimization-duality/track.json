@@ -10,7 +10,8 @@
     "convex-geometry",
     "linear-duality",
     "kkt-conditions",
-    "first-order-methods"
+    "first-order-methods",
+    "proximal-and-nonsmooth"
   ],
   "lectures": [
     {
@@ -57,6 +58,15 @@
       "spoken_words": 1603,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 11.1
+    },
+    {
+      "id": "006000",
+      "title": "Proximal Methods: Optimization When the Best Point Has a Corner",
+      "section": "proximal-and-nonsmooth",
+      "file": "006000-proximal-methods-and-nonsmooth-convexity.md",
+      "spoken_words": 1260,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 8.7
     }
   ]
 }

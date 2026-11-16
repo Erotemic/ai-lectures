@@ -10,7 +10,9 @@
   ],
   "sections": [
     "bijections-and-counting",
-    "inclusion-exclusion"
+    "inclusion-exclusion",
+    "generating-functions",
+    "recurrences-and-growth"
   ],
   "lectures": [
     {
@@ -30,6 +32,24 @@
       "spoken_words": 1466,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 10.1
+    },
+    {
+      "id": "003000",
+      "title": "Generating Functions: Turn Counting into Algebra",
+      "section": "generating-functions",
+      "file": "003000-generating-functions.md",
+      "spoken_words": 1361,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 9.4
+    },
+    {
+      "id": "004000",
+      "title": "Recurrences, Rational Generating Functions, and Growth",
+      "section": "recurrences-and-growth",
+      "file": "004000-recurrences-and-rational-generating-functions.md",
+      "spoken_words": 1231,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 8.5
     }
   ]
 }

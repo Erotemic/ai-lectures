@@ -1,13 +1,6 @@
-# Abstract Algebra — proposed continuation (not indexed yet)
+# Abstract Algebra — continuation after eight completed lectures
 
-The first four lectures form **Section I: groups, maps, symmetry, and arithmetic**. Every future item should remain a substantive lecture with derivations and appropriate proof detail; no duration targets.
-
-## Section II — rings, ideals and fields
-
-- 005000 — Rings, Ideals, and Quotients: Kernels of Ring Maps
-- 006000 — Polynomial Rings, Factorization, and Irreducibility
-- 007000 — Fields, Extensions, and Why Polynomials Acquire Roots
-- 008000 — Vector Spaces and Modules over Rings
+The first eight manuscripts now cover groups, arithmetic, ideals, polynomial rings, field extensions and modules. Future titles remain unindexed until substantive manuscripts exist. No duration targets.
 
 ## Section III — field theory and Galois theory
 

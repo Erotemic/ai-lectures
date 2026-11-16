@@ -18,3 +18,9 @@ Each numbered manuscript has exactly one spoken region between `BEGIN SPOKEN LEC
 The `001000` entry is a **new composition**, not recovery of a lost original: no copy was found in the supplied Git history. The catalog lists only present, readable manuscript files. Individual lecture metadata and a track bibliography live under `metadata/`.
 
 This course emphasizes independently checked examples, explicitly scoped guarantees, and the distinction among conditioning, algorithm stability, residuals, and forward error. Later extensions may treat iterative linear algebra, quadrature, ODE discretization, interval verification, and error-aware scientific workflows when they add real conceptual depth.
+
+## Newly completed continuation
+
+- 009000 — [Numerical Integration: Accuracy, Quadrature, and Honest Error Estimates](009000-quadrature-error-and-adaptivity.md)
+
+Lecture lengths in the track manifest are measured, not prescribed. Exact mathematics and references remain in non-spoken companions.

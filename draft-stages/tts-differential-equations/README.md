@@ -10,3 +10,10 @@ Ordinary differential equations and dynamical systems: initial-value problems, e
 Every numbered manuscript has a single spoken-region marker pair. Its mathematical companion and bibliography are not spoken. The source records are in `metadata/sources.json`; per-lecture reading links are in `metadata/<id>.json`.
 
 The recorded word counts and estimated audio durations in `track.json` describe the existing narration; they are not writing targets or constraints.
+
+## Newly completed continuation
+
+- 003000 — [Separable and Linear First-Order Differential Equations](003000-separable-and-linear-equations.md)
+- 004000 — [Oscillators, Damping, and Resonance](004000-oscillators-and-resonance.md)
+
+Lecture lengths in the track manifest are measured, not prescribed. Exact mathematics and references remain in non-spoken companions.

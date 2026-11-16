@@ -1,7 +1,7 @@
-# Differential Equations and Dynamical Systems — proposed continuation
+# Differential Equations and Dynamical Systems — continuation after four completed lectures
 
-- 003000 — Separable and Linear First-Order Equations
-- 004000 — Second-Order Equations: Oscillators and Resonance
+001000–004000 are now complete. Remaining proposals are unindexed.
+
 - 005000 — Linear Systems, Eigenvalues and Matrix Exponentials
 - 006000 — Forced Systems and Green's Functions
 - 007000 — Nonlinear Systems, Phase Planes and Conserved Quantities

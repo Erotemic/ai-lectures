@@ -1,7 +1,7 @@
-# Topology and Geometry — proposed continuation
+# Topology and Geometry — continuation after four completed lectures
 
-- 003000 — Product and Quotient Topologies: Building New Spaces
-- 004000 — Separation Axioms and Metrization
+001000–004000 are now complete. Remaining proposals are unindexed.
+
 - 005000 — Homotopy: Deformations of Paths
 - 006000 — The Fundamental Group and the Circle
 - 007000 — Covering Spaces and Lifting
