@@ -249,11 +249,9 @@ Middle English verse and genres, and later literary reception. An incomplete
 manuscript is not misrepresented as a finished round-trip story. See
 `notes/canterbury-tales-ten-fragments-text-and-reading-guide.md`.
 
-## Substantive next priorities
+## Boccaccio's *Decameron*: complete narrative and critical curriculum
 
-The current expansion is Boccaccio's *Decameron*, with its hundred
-short narratives, plague frame and ten storytelling days. All spoken lecture
-lengths remain descriptive measurements, not imposed targets.
+The sequence covers the hundred tales, plague frame, ten storytelling days, and substantial critical studies. All spoken lecture lengths remain descriptive measurements, not imposed targets.
 
 **Medieval Italian novella — Giovanni Boccaccio, *The Decameron***:
 312000–333000 (**first installment**). A plague-frame lecture introduces the
@@ -296,7 +294,7 @@ expands to tricks across marriages, genders and social roles. Twenty tales
 have their own narrative lectures, including recurring Calandrino, Bruno and
 Buffalmacco episodes and Rinieri's long revenge tale. Two framing lectures
 include the transition to Emilia's open-theme Day Nine. **80 of 100 tales**
-were covered at that stage; the fifth installment completes all one hundred. Retrospective critical lectures remain.
+were covered at that stage; the fifth installment completes all one hundred. Retrospective critical lectures follow at 424000–440000.
 See `notes/decameron-days-seven-eight-reading-guide.md` for per-tale direct
 primary-text links, narrator mapping, relevant Wikipedia references, and
 historical and interpretive qualifications.
@@ -307,8 +305,20 @@ Panfilo's tenth day of magnificence complete **all 100 tale retellings** and
 all ten day frames. Two final lectures cover the company's departure from
 Florence's country retreat and Boccaccio's authorial epilogue. The last tale,
 Dioneo's Griselda, distinguishes the woman's extraordinary patience from the
-Marquis of Saluzzo's explicitly censured cruelty. The work-level historical
-and literary criticism remains the next step; narrative coverage is complete.
+Marquis of Saluzzo's explicitly censured cruelty. The work-level historical and literary criticism follows at 424000–440000; narrative coverage is complete.
 See `notes/decameron-days-nine-ten-reading-guide.md` for the 24 new primary-
 text section links, narrators, interpretation cautions, sources and Wikipedia
 navigation.
+
+**Giovanni Boccaccio, *The Decameron*, complete-work criticism**: 424000–440000
+(**sixth and final Decameron installment**). Seventeen substantive essays
+cover Boccaccio’s career and Naples/Florence, plague testimony and fiction,
+Florentine social orders, the brigata’s rules and servants, women readers,
+marriage and property, religion and satire, commerce, verbal wit, fortune,
+consent and violence in comedy, generosity and Griselda, Mediterranean travel,
+novella form, Hamilton 90 and translation, Petrarch and Chaucer, and Shakespeare
+and later reception. Each essay includes direct primary passage links, named
+scholarly references, appropriate Wikipedia navigation and source-linked
+interpretive claims. See
+`notes/decameron-complete-work-criticism-reading-and-evidence-guide.md`.
+The *Decameron* narrative and work-level critical section is now complete.

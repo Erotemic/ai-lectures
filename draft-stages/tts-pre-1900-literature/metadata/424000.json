@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "lecture_id": "424000",
+  "transcript": "424000-decameron-critical-boccaccio-naples-florence-and-the-book.md",
+  "related_resources": [
+    {
+      "source_id": "cl-dc-brown-english",
+      "reason": "Textual edition and translation orientation"
+    },
+    {
+      "source_id": "cl-dc-brown-italian",
+      "reason": "Textual edition and translation orientation"
+    },
+    {
+      "source_id": "cl-dc-rigg-proem",
+      "reason": "Primary translated passage"
+    },
+    {
+      "source_id": "cl-dc-rigg-day1-intro",
+      "reason": "Primary translated passage"
+    },
+    {
+      "source_id": "cl-dc-rigg-author-epilogue",
+      "reason": "Primary translated passage"
+    },
+    {
+      "source_id": "cl-dc-crit-brown-life",
+      "reason": "Secondary contextual or comparative evidence"
+    },
+    {
+      "source_id": "cl-dc-crit-duke-plague",
+      "reason": "Secondary contextual or comparative evidence"
+    },
+    {
+      "source_id": "cl-dc-cambridge-wallace",
+      "reason": "Secondary contextual or comparative evidence"
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "424000-c01",
+      "anchor": "Boccaccio was born in 1313. Historians do not agree whether his birthplace was Florence or nearby Certaldo, and",
+      "kind": "historical_or_textual_context",
+      "source_ids": [
+        "cl-dc-crit-brown-life",
+        "cl-dc-crit-duke-plague"
+      ],
+      "source_locator": "See direct primary passages and institutional reading notes for Boccaccio: Naples, Florence, and the Making of a Storyteller",
+      "audit_status": "primary_passages_and_published_source_descriptions_checked;_interpretive_reading_not_independent_historical_evidence"
+    },
+    {
+      "id": "424000-c02",
+      "anchor": "His earlier works show that the Decameron did not emerge from nowhere. Filocolo developed a long romance narrat",
+      "kind": "primary_text_close_reading",
+      "source_ids": [
+        "cl-dc-rigg-proem",
+        "cl-dc-rigg-day1-intro",
+        "cl-dc-rigg-author-epilogue"
+      ],
+      "source_locator": "See direct primary passages and institutional reading notes for Boccaccio: Naples, Florence, and the Making of a Storyteller",
+      "audit_status": "primary_passages_and_published_source_descriptions_checked;_interpretive_reading_not_independent_historical_evidence"
+    },
+    {
+      "id": "424000-c03",
+      "anchor": "In the decades after the Decameron, Boccaccio continued writing, studying ancient literature, and participating",
+      "kind": "comparative_literary_interpretation",
+      "source_ids": [
+        "cl-dc-crit-duke-plague",
+        "cl-dc-cambridge-wallace",
+        "cl-dc-rigg-proem",
+        "cl-dc-rigg-day1-intro"
+      ],
+      "source_locator": "See direct primary passages and institutional reading notes for Boccaccio: Naples, Florence, and the Making of a Storyteller",
+      "audit_status": "primary_passages_and_published_source_descriptions_checked;_interpretive_reading_not_independent_historical_evidence"
+    },
+    {
+      "id": "424000-c04",
+      "anchor": "The Decameron can now be heard as a work made by someone with more than one home and more than one education. F",
+      "kind": "interpretive_synthesis",
+      "source_ids": [
+        "cl-dc-crit-brown-life",
+        "cl-dc-crit-duke-plague",
+        "cl-dc-rigg-proem",
+        "cl-dc-rigg-day1-intro"
+      ],
+      "source_locator": "See direct primary passages and institutional reading notes for Boccaccio: Naples, Florence, and the Making of a Storyteller",
+      "audit_status": "primary_passages_and_published_source_descriptions_checked;_interpretive_reading_not_independent_historical_evidence"
+    }
+  ]
+}

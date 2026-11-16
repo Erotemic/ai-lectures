@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "lecture_id": "438000",
+  "transcript": "438000-decameron-critical-autograph-editions-translation-and-interpretation.md",
+  "related_resources": [
+    {
+      "source_id": "cl-dc-brown-english",
+      "reason": "Textual edition and translation orientation"
+    },
+    {
+      "source_id": "cl-dc-brown-italian",
+      "reason": "Textual edition and translation orientation"
+    },
+    {
+      "source_id": "cl-dc-rigg-day1-intro",
+      "reason": "Primary translated passage"
+    },
+    {
+      "source_id": "cl-dc-rigg-day4-intro",
+      "reason": "Primary translated passage"
+    },
+    {
+      "source_id": "cl-dc-rigg-author-epilogue",
+      "reason": "Primary translated passage"
+    },
+    {
+      "source_id": "cl-dc-crit-hamilton-autograph",
+      "reason": "Secondary contextual or comparative evidence"
+    },
+    {
+      "source_id": "cl-dc-crit-brown-texts",
+      "reason": "Secondary contextual or comparative evidence"
+    },
+    {
+      "source_id": "cl-dc-crit-cambridge-decameron",
+      "reason": "Secondary contextual or comparative evidence"
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "438000-c01",
+      "anchor": "In this case scholars possess a particularly important witness: Berlin Staatsbibliothek manuscript Hamilton 90,",
+      "kind": "historical_or_textual_context",
+      "source_ids": [
+        "cl-dc-crit-hamilton-autograph",
+        "cl-dc-crit-brown-texts"
+      ],
+      "source_locator": "See direct primary passages and institutional reading notes for Manuscripts, Authorial Revision, and Translation",
+      "audit_status": "primary_passages_and_published_source_descriptions_checked;_interpretive_reading_not_independent_historical_evidence"
+    },
+    {
+      "id": "438000-c02",
+      "anchor": "A reader listening in English has another layer between the author and the ear. J. M. Rigg's translation of 190",
+      "kind": "primary_text_close_reading",
+      "source_ids": [
+        "cl-dc-rigg-day1-intro",
+        "cl-dc-rigg-day4-intro",
+        "cl-dc-rigg-author-epilogue"
+      ],
+      "source_locator": "See direct primary passages and institutional reading notes for Manuscripts, Authorial Revision, and Translation",
+      "audit_status": "primary_passages_and_published_source_descriptions_checked;_interpretive_reading_not_independent_historical_evidence"
+    },
+    {
+      "id": "438000-c03",
+      "anchor": "The book's rubrics, its miniature statements of what happens in each tale, also belong to the authored design. ",
+      "kind": "comparative_literary_interpretation",
+      "source_ids": [
+        "cl-dc-crit-brown-texts",
+        "cl-dc-crit-cambridge-decameron",
+        "cl-dc-rigg-day1-intro",
+        "cl-dc-rigg-day4-intro"
+      ],
+      "source_locator": "See direct primary passages and institutional reading notes for Manuscripts, Authorial Revision, and Translation",
+      "audit_status": "primary_passages_and_published_source_descriptions_checked;_interpretive_reading_not_independent_historical_evidence"
+    },
+    {
+      "id": "438000-c04",
+      "anchor": "The manuscript history gives a final reason to resist the fantasy of a single transparent story. Boccaccio was ",
+      "kind": "interpretive_synthesis",
+      "source_ids": [
+        "cl-dc-crit-hamilton-autograph",
+        "cl-dc-crit-brown-texts",
+        "cl-dc-rigg-day1-intro",
+        "cl-dc-rigg-day4-intro"
+      ],
+      "source_locator": "See direct primary passages and institutional reading notes for Manuscripts, Authorial Revision, and Translation",
+      "audit_status": "primary_passages_and_published_source_descriptions_checked;_interpretive_reading_not_independent_historical_evidence"
+    }
+  ]
+}
