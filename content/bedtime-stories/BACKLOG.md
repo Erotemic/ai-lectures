@@ -118,3 +118,19 @@ This batch uses the updated names from the previous character-renaming overlay.
 It does not modify episodes 001000–039000 or the separate episodic tracks.
 No fixed duration, prescribed moral, or new source catalog entries are required.
 A real listening review remains the most useful next quality step.
+
+
+## Added: 046000–051000 — six tales about wonder and curiosity
+
+- 046000 — A prism reveals hidden colors in a band of ordinary sunlight.
+- 047000 — Pete and Kate watch fireflies flash across a quiet summer field.
+- 048000 — Danny sees a fern shape in a labeled fossil and looks for a living fern.
+- 049000 — Joe sees an entire little moss landscape through a hand lens.
+- 050000 — Lisa uses Grandpa's telescope to see Saturn's rings.
+- 051000 — Mona returns to a garden post as a caterpillar becomes a butterfly.
+
+These are standalone, single-narrator stories with distinct small plots and
+quiet endings, not six required science lessons. They reuse established
+character names and do not touch older manuscripts or other tracks. Natural
+history references are factual background only; listening review of the
+rendered audio remains important before release.

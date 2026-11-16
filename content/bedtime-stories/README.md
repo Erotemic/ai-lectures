@@ -50,7 +50,7 @@ course browser; each story sidecar repeats genre and age-range metadata.
 | 032000 | [The Giant's Small Quilt](032000-the-giants-small-quilt.md) | A mouse offers a little patchwork quilt to a giant, who finds it makes an excellent blanket for one chilly toe. |
 | 033000 | [The Stars' Small Camping Trip](033000-the-stars-small-camping-trip.md) | Three make-believe stars camp between clouds with a tiny spoon, pretend moonberry soup, and an unhurried goodnight. |
 
-## Parents' rationale and citations (004000–045000)
+## Parents' rationale and citations (004000–051000)
 
 [**A quiet guide for parents and caregivers**](PARENTS_GUIDE.md) explains the
 earlier developmental themes and newer play-first stories, gives optional
@@ -68,7 +68,7 @@ that our stories have been tested or cause measured learning outcomes.
 The original three pilot stories (001000–003000) remain unchanged and are
 original fiction without claimed developmental intervention effects.
 
-The **forty-five** stories require no character-specific synthesized voices: dialogue
+The **fifty-one** stories require no character-specific synthesized voices: dialogue
 is reported by the narrator, or is absent. The stories are not required to
 have a particular duration. They stand alone even though one includes a small
 cross-story reference.
@@ -79,7 +79,7 @@ The exact TTS text is between the `BEGIN SPOKEN LECTURE` and `END SPOKEN
 LECTURE` markers. Author companions below the end marker give reading notes
 and explain what the story is trying to accomplish. They are **not** spoken.
 
-All forty-five manuscripts are newly authored original fiction. They do not adapt
+All fifty-one manuscripts are newly authored original fiction. They do not adapt
 published plots or reuse external story text. `metadata/sources.json` holds
 parent-facing developmental and play references for 004000–039000 only. Original
 fictional descriptions and bedtime choices should not be misrepresented as
@@ -147,3 +147,27 @@ puppy, not a character in the separate *Brook Road Builders* continuity.
 The caretaker notes and exact story-linked editorial citations remain outside
 spoken narration. The source catalog is unchanged; only existing references
 are reused here.
+
+
+## Added: 046000–051000 — small wonders and large distances
+
+These six stand alone, with no need to know the other stories. Their plots grow from
+careful observation, while remaining bedtime fiction rather than narrated lessons.
+They do not impose a word count, listening time, or moral.
+
+| Story ID | Title | Small wonder |
+| --- | --- | --- |
+| 046000 | [Lisa and the Colors in the Sunbeam](046000-lisa-and-the-colors-in-the-sunbeam.md) | When a rainbow appears on Grandpa’s sleeve, Lisa follows the light to a little glass prism and tries to find where the colors go. |
+| 047000 | [Pete and the Lights in the Grass](047000-pete-and-the-lights-in-the-grass.md) | Pete the snail and Kate watch tiny lights blink across a summer field and discover that some lights seem to answer others. |
+| 048000 | [Danny and the Leaf Inside the Stone](048000-danny-and-the-leaf-inside-the-stone.md) | Danny finds the shape of a fern in an old fossil stone and goes looking for the same branching shape on a living leaf. |
+| 049000 | [Joe and the Forest on the Wall](049000-joe-and-the-forest-on-the-wall.md) | Joe thinks the backyard wall is only a wall, until a magnifying glass reveals a tiny green forest with a visitor walking through it. |
+| 050000 | [Lisa and the Planet with Ears](050000-lisa-and-the-planet-with-ears.md) | Grandpa shows Lisa a bright point in the evening sky; through a telescope, it becomes a tiny planet with unmistakable rings. |
+| 051000 | [Mona and the Butterfly That Was Not There](051000-mona-and-the-butterfly-that-was-not-there.md) | Mona the little dragon watches a caterpillar vanish into a green chrysalis, then discovers what emerges after days of waiting. |
+
+New external references cover six physical or natural-history details (prism colors,
+firefly signals, fern fossils, moss at hand-lens scale, Saturn's rings, and the
+butterfly's chrysalis). Those references appear in parent material, not the
+spoken story. They do not validate the fictional events or establish that
+listening to the story improves curiosity or sleep.
+
+This overlay does not modify the first 45 manuscripts or their sidecars.

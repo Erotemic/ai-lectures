@@ -165,3 +165,34 @@ noticing and repeated description, not scientific predictions about particular
 raindrops or marine navigation. Those observations are embedded in original
 fiction. Audio performance should be reviewed by listening to the rendered
 narration, not inferred from word counts.
+
+
+## Stories 046000–051000 — wonder from ordinary close looking
+
+The six plots center on a small surprise that becomes bigger through a second look.
+These are narrated stories, not instructions to undertake activities at bedtime.
+Each optionally supports a daytime conversation or a return visit to something
+seen in the real world. A child can also listen silently and fall asleep.
+
+The natural phenomena are grounded in the linked scientific materials, while the
+characters, conversations, coincidences, and outcomes are fictional. The science
+sources do not establish an effect from hearing a story; the caregiver resources
+do not evaluate the original manuscripts. No outcome is guaranteed.
+
+- **046000, Lisa and the Colors in the Sunbeam.** The changing patches of color create a concrete mystery, while a clear prism provides one satisfying cause. The story makes room for delight without demanding that a child recite the colors. Optional question: “Where did the colors appear when Grandpa moved the little glass prism?” Factual reference: [NASA Science / Space Telescope Science Institute, *Sunlight Spread Out into a Spectrum*](https://science.nasa.gov/asset/webb/sunlight-spread-out-into-a-spectrum/); reading guidance: [National Association for the Education of Young Children, *Rocking and Rolling: Fostering Curiosity in Infants and Toddlers*](https://www.naeyc.org/resources/pubs/yc/dec2020/fostering-curiosity-infants).
+- **047000, Pete and the Lights in the Grass.** The story builds from one light to several, with a pattern that can be heard and pictured. It treats the living insects as visitors to observe rather than objects to catch. Optional question: “Did the little lights stay on all the time, or did they blink?” Factual reference: [National Park Service, Great Smoky Mountains National Park, *Synchronous Fireflies*](https://home.nps.gov/grsm/learn/nature/fireflies.htm); reading guidance: [American Academy of Pediatrics, HealthyChildren.org, *How to Share Books with Children 2 and 3 Years Old*](https://www.healthychildren.org/English/ages-stages/toddler/Pages/How-to-Share-Books-with-2-and-3-Year-Olds.aspx).
+- **048000, Danny and the Leaf Inside the Stone.** A real-looking stone and an ordinary living fern make an enormous span of time understandable through one repeated shape, without dates or a geology lecture. Optional question: “What did Danny notice was the same in the old stone and the green fern?” Factual reference: [Smithsonian National Museum of Natural History, *Webinar: Natural History at Home - What Is a Fossil?*](https://naturalhistory.si.edu/events/family-programs/webinar-natural-history-home-what-fossil); reading guidance: [National Association for the Education of Young Children, *Rocking and Rolling: Fostering Curiosity in Infants and Toddlers*](https://www.naeyc.org/resources/pubs/yc/dec2020/fostering-curiosity-infants).
+- **049000, Joe and the Forest on the Wall.** Joe’s large-puppy viewpoint gives the tiny moss a comic sense of scale, while the reveal of miniature stems and a small creature provides a concrete moment of discovery. Optional question: “What looked different when Dad held up the magnifying glass?” Factual reference: [National Park Service, Acadia National Park, *Moss*](https://www.nps.gov/acad/learn/nature/moss.htm); reading guidance: [American Academy of Pediatrics, HealthyChildren.org, *How to Share Books with Children 2 and 3 Years Old*](https://www.healthychildren.org/English/ages-stages/toddler/Pages/How-to-Share-Books-with-2-and-3-Year-Olds.aspx).
+- **050000, Lisa and the Planet with Ears.** The central reveal changes a featureless bright dot into a specific distant world, connecting a familiar backyard to the scale of the solar system. Optional question: “What did Lisa think Saturn looked like through the telescope?” Factual reference: [NASA Science, *Saturn: Facts*](https://science.nasa.gov/saturn/facts/); reading guidance: [Sandra M. Linder and Angela Eckhoff; National Association for the Education of Young Children, *Breaking Down STEAM for Young Children. Part 3: Questioning*](https://www.naeyc.org/resources/pubs/tyc/aug2020/breaking-down-steam).
+- **051000, Mona and the Butterfly That Was Not There.** The story lets meaningful time pass and ends with an observed transformation rather than explaining it as a moral about change or growing up. Optional question: “What was on the garden post before the butterfly came out?” Factual reference: [Florida Museum of Natural History, University of Florida, *Butterfly Life Cycle - For Educators*](https://www.floridamuseum.ufl.edu/educators/resource/butterfly-life-cycle/); reading guidance: [American Academy of Pediatrics, HealthyChildren.org, *How to Share Books with Children 2 and 3 Years Old*](https://www.healthychildren.org/English/ages-stages/toddler/Pages/How-to-Share-Books-with-2-and-3-Year-Olds.aspx).
+
+
+**Precision notes:** A prism changes where the spread colors land when it is
+moved in sunlight; the light is not painted onto the wall. Firefly flashes
+can be signals between living beetles, but the exact exchange in the story
+is invented. Fossils preserve evidence of old organisms in several ways, not
+always literal photographs; Danny's specimen is represented as a labeled
+museum fossil. Moss supports a miniature habitat; magnification changes the
+*view*, not the plants. Saturn's rings are not solid, and visibility depends
+on the telescope and sky. The butterfly's wings must expand and dry after
+emergence; do not handle newly emerged butterflies.
