@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "lecture_id": "018000",
+  "transcript": "018000-emergency-shelter-and-evacuation-after-an-unplanned-stop.md",
+  "related_resources": [
+    {
+      "source_id": "nps-trip-plan",
+      "reason": "Trip plan left with trusted contact and overdue response; not a guaranteed rescue"
+    },
+    {
+      "source_id": "nysdec-hike-smart",
+      "reason": "Layering, shelter, water, weather and planning for exposure"
+    },
+    {
+      "source_id": "nps-winter-layers",
+      "reason": "Non-cotton cold-weather layers, wind/rain shell and spare dry clothing"
+    },
+    {
+      "source_id": "nws-lightning-outdoors",
+      "reason": "Lightning hazards and why tents/open shelters are not safe places during storms"
+    },
+    {
+      "source_id": "nps-hike-smart-groups",
+      "reason": "Slowest hiker pace, staying together and time/turnaround guidance"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P018000-01",
+      "claim": "An injured or immobile hiker changes group pace and exposure risk during a planned route.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "nysdec-hike-smart",
+          "location": "Layering, shelter, water, weather and planning for exposure",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nps-hike-smart-groups",
+          "location": "Slowest hiker pace, staying together and time/turnaround guidance",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P018000-02",
+      "claim": "Wind, moisture and ground contact reduce thermal protection during unplanned stops.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "nps-winter-layers",
+          "location": "Non-cotton cold-weather layers, wind/rain shell and spare dry clothing",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P018000-03",
+      "claim": "Improvised tarp or tree shelter does not provide lightning protection equivalent to a substantial building or enclosed hard-top vehicle.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "nws-lightning-outdoors",
+          "location": "Lightning hazards and why tents/open shelters are not safe places during storms",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P018000-04",
+      "claim": "Location, injury, group resources and changes in intended travel are crucial for rescue coordination.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "nps-trip-plan",
+          "location": "Trip plan left with trusted contact and overdue response; not a guaranteed rescue",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nysdec-hike-smart",
+          "location": "Layering, shelter, water, weather and planning for exposure",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_technical_review_pending",
+  "citation_policy": "Original authors and standards issuers attributed; synthesis distinguished from source-backed claims. Not certified for professional, clinical or jurisdiction-specific use."
+}

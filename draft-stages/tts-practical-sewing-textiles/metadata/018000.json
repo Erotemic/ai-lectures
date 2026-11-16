@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "lecture_id": "018000",
+  "transcript": "018000-replacing-a-zipper-without-distorting-a-garment.md",
+  "related_resources": [
+    {
+      "source_id": "ykk-zipper-faq",
+      "reason": "Slider problems and model-specific zipper installation guidance"
+    },
+    {
+      "source_id": "ykk-zipper-anatomy",
+      "reason": "Teeth/elements, slider, tape and geometry of engagement"
+    },
+    {
+      "source_id": "osu-seams",
+      "reason": "Plain seams, allowances, pressing, finish decisions"
+    },
+    {
+      "source_id": "usu-grain",
+      "reason": "Lengthwise, crosswise and bias grain"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P018000-01",
+      "claim": "Zipper tooth type, slider and bottom-separation components must be compatible.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "ykk-zipper-faq",
+          "location": "Slider problems and model-specific zipper installation guidance",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "ykk-zipper-anatomy",
+          "location": "Teeth/elements, slider, tape and geometry of engagement",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P018000-02",
+      "claim": "Zipper-tape alignment and fabric grain can affect garment distortion during replacement.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "usu-grain",
+          "location": "Lengthwise, crosswise and bias grain",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "osu-seams",
+          "location": "Plain seams, allowances, pressing, finish decisions",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P018000-03",
+      "claim": "Stitch choice and seam handling influence repair durability and later service.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "osu-seams",
+          "location": "Plain seams, allowances, pressing, finish decisions",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P018000-04",
+      "claim": "A mechanically functional zipper does not automatically restore a technical waterproof garment rating.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "ykk-zipper-faq",
+          "location": "Slider problems and model-specific zipper installation guidance",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_technical_review_pending",
+  "citation_policy": "Original authors and standards issuers attributed; synthesis distinguished from source-backed claims. Not certified for professional, clinical or jurisdiction-specific use."
+}

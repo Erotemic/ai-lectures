@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "lecture_id": "018000",
+  "transcript": "018000-rim-joists-cantilevers-and-concealed-air-boundaries.md",
+  "related_resources": [
+    {
+      "source_id": "doe-rim-joist-bsec",
+      "reason": "Rim joist air barrier continuity, rigid/spray foam insulation and basement/crawlspace interface"
+    },
+    {
+      "source_id": "doe-air-vapor",
+      "reason": "Separate air leakage, vapor diffusion and water-management functions"
+    },
+    {
+      "source_id": "usda-wood",
+      "reason": "Chapters 4, 13–17: wood moisture, drying and buildings"
+    },
+    {
+      "source_id": "pnnl-air-flow",
+      "reason": "Stack effect, neutral pressure plane, wind and duct leakage"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P018000-01",
+      "claim": "Rim-joist boundaries require air-sealing continuity separately from cavity insulation.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "doe-rim-joist-bsec",
+          "location": "Rim joist air barrier continuity, rigid/spray foam insulation and basement/crawlspace interface",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "doe-air-vapor",
+          "location": "Separate air leakage, vapor diffusion and water-management functions",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P018000-02",
+      "claim": "Cantilevered joist bays may connect an exterior underside to interior framing through poorly blocked cavities.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "doe-rim-joist-bsec",
+          "location": "Rim joist air barrier continuity, rigid/spray foam insulation and basement/crawlspace interface",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "pnnl-air-flow",
+          "location": "Stack effect, neutral pressure plane, wind and duct leakage",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P018000-03",
+      "claim": "Wood moisture and drying capacity depend on the enclosure layers and exposure.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "usda-wood",
+          "location": "Chapters 4, 13–17: wood moisture, drying and buildings",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "doe-air-vapor",
+          "location": "Separate air leakage, vapor diffusion and water-management functions",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P018000-04",
+      "claim": "Thermal images and moisture meters provide observations, not a definitive leak-path diagnosis.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "pnnl-air-flow",
+          "location": "Stack effect, neutral pressure plane, wind and duct leakage",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "usda-wood",
+          "location": "Chapters 4, 13–17: wood moisture, drying and buildings",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_technical_review_pending",
+  "citation_policy": "Original authors and standards issuers attributed; synthesis distinguished from source-backed claims. Not certified for professional, clinical or jurisdiction-specific use."
+}

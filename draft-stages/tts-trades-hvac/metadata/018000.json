@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "lecture_id": "018000",
+  "transcript": "018000-heat-recovery-ventilation-filters-and-pressure-boundaries.md",
+  "related_resources": [
+    {
+      "source_id": "doe-energy-recovery-ventilation",
+      "reason": "HRV versus ERV energy and vapor transfer, balanced supply and exhaust, and system components"
+    },
+    {
+      "source_id": "doe-whole-house-ventilation",
+      "reason": "Exhaust, supply, balanced, and energy-recovery ventilation as distinct systems"
+    },
+    {
+      "source_id": "energystar-ducts",
+      "reason": "Duct leakage as an energy and air delivery problem"
+    },
+    {
+      "source_id": "cdc-co-furnaces",
+      "reason": "CO hazards, furnace/water heater service and venting"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P018000-01",
+      "claim": "Heat recovery ventilation uses heat exchange between supply and exhaust airstreams.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "doe-energy-recovery-ventilation",
+          "location": "HRV versus ERV energy and vapor transfer, balanced supply and exhaust, and system components",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P018000-02",
+      "claim": "Energy recovery ventilators can transfer moisture as well as sensible heat, unlike simple heat recovery systems.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "doe-energy-recovery-ventilation",
+          "location": "HRV versus ERV energy and vapor transfer, balanced supply and exhaust, and system components",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P018000-03",
+      "claim": "Duct resistance, filter loading and simultaneous exhaust fans affect actual delivered airflow and building pressure.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "doe-whole-house-ventilation",
+          "location": "Exhaust, supply, balanced, and energy-recovery ventilation as distinct systems",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "energystar-ducts",
+          "location": "Duct leakage as an energy and air delivery problem",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P018000-04",
+      "claim": "Ventilation changes must consider combustion appliance backdraft and carbon monoxide hazards.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "cdc-co-furnaces",
+          "location": "CO hazards, furnace/water heater service and venting",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "doe-whole-house-ventilation",
+          "location": "Exhaust, supply, balanced, and energy-recovery ventilation as distinct systems",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_technical_review_pending",
+  "citation_policy": "Original authors and standards issuers attributed; synthesis distinguished from source-backed claims. Not certified for professional, clinical or jurisdiction-specific use."
+}

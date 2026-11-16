@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "lecture_id": "018000",
+  "transcript": "018000-testing-offline-automation-during-router-and-cloud-outages.md",
+  "related_resources": [
+    {
+      "source_id": "nist-sp80034r1-contingency",
+      "reason": "Dependency analysis, service recovery strategies and validating recovery plans; federal-system context"
+    },
+    {
+      "source_id": "nist-sp1800-15-iot",
+      "reason": "Restrict IoT traffic to device-appropriate purposes and apply updates and access controls"
+    },
+    {
+      "source_id": "ietf-rfc9110-idempotency",
+      "reason": "Idempotent request semantics and when a client may safely retry after a lost response"
+    },
+    {
+      "source_id": "ietf-rfc5905-ntp",
+      "reason": "Time synchronization, offsets, delays and network clock discipline"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P018000-01",
+      "claim": "Network/cloud/controller outages may affect different stages of an IoT actuation workflow.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "nist-sp80034r1-contingency",
+          "location": "Dependency analysis, service recovery strategies and validating recovery plans; federal-system context",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nist-sp1800-15-iot",
+          "location": "Restrict IoT traffic to device-appropriate purposes and apply updates and access controls",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P018000-02",
+      "claim": "Retrying set-state and toggle commands has different idempotence consequences.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "ietf-rfc9110-idempotency",
+          "location": "Idempotent request semantics and when a client may safely retry after a lost response",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P018000-03",
+      "claim": "Clock and time synchronization dependencies can alter scheduled automation recovery.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "ietf-rfc5905-ntp",
+          "location": "Time synchronization, offsets, delays and network clock discipline",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nist-sp80034r1-contingency",
+          "location": "Dependency analysis, service recovery strategies and validating recovery plans; federal-system context",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P018000-04",
+      "claim": "A restore plan needs verified procedures and dependency testing, not only backup files.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "nist-sp80034r1-contingency",
+          "location": "Dependency analysis, service recovery strategies and validating recovery plans; federal-system context",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_technical_review_pending",
+  "citation_policy": "Original authors and standards issuers attributed; synthesis distinguished from source-backed claims. Not certified for professional, clinical or jurisdiction-specific use."
+}

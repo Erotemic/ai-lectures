@@ -1,9 +1,9 @@
 # Rotation backlog: Tools and Measurement: Accuracy, Setup, and Workmanship
 
-Status: lectures `001000`–`017000` authored. Remaining slots are proposed, not completed manuscripts.
+Status: lectures `001000`–`018000` authored. Remaining slots are proposed, not completed manuscripts.
 These are ordered topics, not duration or word-count requirements. Retain stable IDs once published.
 
-- `018000` — Go/No-Go Fixtures and Repeatable Acceptance Tests
+- `019000` — Sampling, Process Drift, and Rework Decisions in Small Workshops
 
 **Editorial method:** Narrate physics and practical reasoning directly; use non-spoken companions for equations, diagrams, source locators, jurisdictional rules, and outstanding reviews.
 These drafts are not professionally certified or jurisdiction-verified.
