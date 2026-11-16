@@ -50,6 +50,7 @@ export class Player {
     this.audio.onplay = () => {
       this.started = true;
       document.getElementById("toggle-play").textContent = "Pause";
+      this.onBlockPlay?.(this.index);
     };
     this.audio.onpause = () => {
       document.getElementById("toggle-play").textContent = "Play";
@@ -65,6 +66,7 @@ export class Player {
       );
     this.audio.onended = () => {
       this.save(this.index === this.recording.pages.length - 1);
+      if (this.continueBlocks && !this.continueBlocks()) return;
       if (this.index < this.recording.pages.length - 1)
         this.play(this.index + 1, 0);
       else if (document.getElementById("continue-course").checked) this.next();

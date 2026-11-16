@@ -1,5 +1,5 @@
 import assert from 'node:assert/strict';
-import {narratorInventory, resumeTarget, voiceGroups, lectureGenerations, LectureAudio} from '../ailectures/static/lecture-audio.mjs';
+import {narratorInventory, resumeTarget, voiceGroups, lectureGenerations, LectureAudio, blockWindow, coversBlocks} from '../ailectures/static/lecture-audio.mjs';
 import {Player} from '../ailectures/static/player.mjs';
 
 const installed = {id:'other-recording',variant:'other',complete:true,pages:['One.','Two.'],segments:[{index:0,duration:2},{index:1,duration:3}]};
@@ -84,3 +84,52 @@ assert.deepEqual(controller.pending,{index:1});
 assert.equal(controller.epoch,7);
 assert.ok(controller.recentlyStopped.has(anotherVoice.id));
 console.log('Voice shortlist and cancellation independent of the selected voice passed');
+
+assert.deepEqual(blockWindow(3,10),[3]);
+assert.deepEqual(blockWindow(3,10,2),[3,4,5]);
+assert.deepEqual(blockWindow(8,10,2),[8,9]);
+assert.deepEqual(blockWindow(0,20,-1),[0]);
+assert.ok(coversBlocks({state:'running',requested_blocks:[1,2]},[2]));
+assert.ok(coversBlocks({state:'running',requested_blocks:null},[5]));
+assert.equal(coversBlocks({state:'cancelled',requested_blocks:null},[5]),false);
+assert.equal(coversBlocks({state:'ready',requested_blocks:[1]},[2]),false);
+// The same end-of-block event composes with the continuation checkbox.
+let playedNext=null;
+player.save=()=>{};
+player.play=(index)=>{playedNext=index;};
+player.index=0;
+player.continueBlocks=()=>false;
+audio.onended();
+assert.equal(playedNext,null);
+player.continueBlocks=()=>true;
+audio.onended();
+assert.equal(playedNext,1);
+console.log('One-block default, bounded lookahead, and opt-in continuation passed');
+
+const sparse={...installed,id:'sparse',complete:false,segments:[installed.segments[0]]};
+assert.deepEqual(narratorInventory({...choice,recording_id:sparse.id},{...row,recordings:[sparse]},[{...pending,inventory:{states:['missing','ready']}}],['One.','Two.']).states,['ready','ready']);
+
+// A new voice can submit while the previous voice's request is still returning.
+const comparison = Object.create(LectureAudio.prototype);
+const voices = [{...choice,key:'first'}, {...choice,key:'second',profile:'alternate',voice:'am_echo',variant:'alternate'}];
+Object.assign(comparison,{row,choices:voices,select:{value:'first'},jobs:[],views:new Map(),epoch:0,
+  data:{tools_available:true},pages:['One.','Two.'],cache:{},continueBlocks:{checked:false},
+  player:{row:null,index:0,recording:null,open(next){this.row=next;},position(){return null;}},
+  render(){},message(){}});
+comparison.choose(false);
+const replies=[];
+globalThis.fetch = async (url,options)=>new Promise(resolve=>replies.push({resolve,payload:JSON.parse(options.body)}));
+const firstRequest=comparison.prepare(false,[1]);
+comparison.select.value='second';
+comparison.choose();
+const secondRequest=comparison.prepare(false,[1]);
+assert.equal(replies.length,2);
+const receipt=(id,selected)=>({id,lecture_id:row.id,revision:row.revision,variant:selected.variant,speed:1,state:'queued',requested_blocks:[1],inventory:{states:['missing','queued']}});
+replies[0].resolve({ok:true,json:async()=>receipt('first',voices[0])});
+await firstRequest;
+assert.equal(comparison.submitting,true);
+replies[1].resolve({ok:true,json:async()=>receipt('second',voices[1])});
+await secondRequest;
+assert.equal(comparison.submitting,false);
+assert.equal(replies[1].payload.profile,'alternate');
+console.log('Rapid voice switching keeps both scoped generation requests responsive');

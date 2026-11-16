@@ -21,7 +21,16 @@ export function narratorInventory(choice, row, jobs, pages) {
     ? recordingStates(recording)
     : pages.map(() => "missing");
   if (job?.inventory.states?.length && (!recording || !recording.complete))
-    return { states: job.inventory.states, job, recording };
+    return {
+      states: job.inventory.states.map((state, index) =>
+        states.length === job.inventory.states.length &&
+        states[index] === "ready"
+          ? "ready"
+          : state,
+      ),
+      job,
+      recording,
+    };
   return { states, job, recording };
 }
 
@@ -74,6 +83,23 @@ export function resumeTarget(row, progress, pages) {
     remaining -= words;
   }
   return null;
+}
+
+export function blockWindow(index, total, ahead = 0) {
+  const count = Math.max(0, Math.min(8, Math.floor(Number(ahead) || 0)));
+  return Array.from(
+    { length: Math.max(0, Math.min(total - index, count + 1)) },
+    (_, offset) => index + offset,
+  );
+}
+
+export function coversBlocks(job, blocks) {
+  return Boolean(
+    job &&
+    !["cancelled", "failed", "settings_changed"].includes(job.state) &&
+    (job.requested_blocks === null ||
+      blocks.every((block) => job.requested_blocks?.includes(block))),
+  );
 }
 
 // One selection owns playback, missing-block requests, and whole-lecture caching.
@@ -160,6 +186,32 @@ export class LectureAudio {
       ),
     );
     this.speed.value = String(getStored("speech-speed", 1));
+    this.continueBlocks = el("input", {
+      type: "checkbox",
+      "aria-label": "Continue to next blocks",
+    });
+    this.continueBlocks.checked = getStored("continue-blocks", false);
+    this.ahead = el("input", {
+      type: "number",
+      min: "0",
+      max: "8",
+      step: "1",
+      "aria-label": "Blocks ahead",
+    });
+    this.ahead.value = String(getStored("blocks-ahead", 1));
+    this.ahead.disabled = !this.continueBlocks.checked;
+    this.continueBlocks.onchange = () => {
+      store("continue-blocks", this.continueBlocks.checked);
+      this.ahead.disabled = !this.continueBlocks.checked;
+      if (!this.player.audio.paused) this.queueAhead(this.player.index);
+    };
+    this.ahead.onchange = () => {
+      this.ahead.value = String(
+        Math.max(0, Math.min(8, Math.floor(Number(this.ahead.value) || 0))),
+      );
+      store("blocks-ahead", Number(this.ahead.value));
+      if (!this.player.audio.paused) this.queueAhead(this.player.index);
+    };
     this.root.append(
       el("label", {}, "Voice for playback and generation", this.select),
       this.more,
@@ -176,6 +228,21 @@ export class LectureAudio {
         }),
       ),
       this.status,
+      el(
+        "div",
+        { class: "filters" },
+        el(
+          "label",
+          { class: "check" },
+          this.continueBlocks,
+          "Continue to next blocks",
+        ),
+        el("label", {}, "Blocks ahead", this.ahead),
+      ),
+      el("p", {
+        class: "muted",
+        text: "Play generates and plays only the selected block unless continuation is checked. Set blocks ahead to 0 to generate each next block when playback reaches it.",
+      }),
       this.generations,
       this.blocks,
       el(
@@ -284,7 +351,11 @@ export class LectureAudio {
     return narratorInventory(this.choice, this.row, this.jobs, this.pages);
   }
   choose(remember = true) {
+    const selectedBlock =
+      this.pending?.index ??
+      (this.player.row?.id === this.row.id ? this.player.index : null);
     this.epoch++;
+    this.submitting = false;
     this.pending = null;
     const choice = this.choice;
     if (remember && choice) {
@@ -299,15 +370,26 @@ export class LectureAudio {
     this.resume = position || this.resume || this.progress;
     this.player.open(
       this.views.get(choice?.recording_id) || this.row,
-      this.resume,
+      remember ? null : this.resume,
       choice?.recording_id || false,
     );
     this.target = !this.player.recording
       ? resumeTarget(this.row, this.resume, this.pages)
       : null;
     if (this.target) this.player.index = this.target.index;
+    if (remember && selectedBlock !== null) {
+      const index = Math.min(
+        selectedBlock,
+        (this.player.recording?.pages || this.pages).length - 1,
+      );
+      this.player.index = index;
+      this.target = { index, seconds: 0 };
+      if (this.player.recording) this.player.load(index, 0, false);
+    }
     this.missingHandler = (index, seconds) => this.require(index, seconds);
     this.player.requestMissing = this.missingHandler;
+    this.player.continueBlocks = () => this.continueBlocks.checked;
+    this.player.onBlockPlay = (index) => this.queueAhead(index);
     this.onChange?.();
     this.render();
   }
@@ -329,7 +411,8 @@ export class LectureAudio {
       !this.choice?.profile ||
       !this.data.tools_available ||
       this.submitting ||
-      ["queued", "running"].includes(job?.state);
+      (["queued", "running"].includes(job?.state) &&
+        job.requested_blocks === null);
     this.stop.disabled =
       !["queued", "running"].includes(job?.state) || this.stopping.has(job?.id);
     this.select.disabled = !this.choices.length;
@@ -447,14 +530,15 @@ export class LectureAudio {
           el("strong", { text: label }),
           el("p", {
             class: "muted",
-            text: `${job.speed || 1}× speech · ${job.state} · ${job.inventory.ready}/${job.inventory.total || "?"} blocks ready${job.revision !== this.row.revision ? " · earlier transcript revision" : ""}`,
+            text: `${job.speed || 1}× speech · ${job.state} · ${job.requested_blocks ? (job.requested_blocks.length === 1 ? "block " + (job.requested_blocks[0] + 1) + " requested" : job.requested_blocks.length + " blocks requested") : "whole lecture"} · ${job.inventory.ready}/${job.inventory.total || "?"} blocks ready${job.revision !== this.row.revision ? " · earlier transcript revision" : ""}`,
           }),
           job.error ? el("p", { class: "notice", text: job.error }) : null,
-          ...(active ? job.inventory.queue || [] : [])
-            .slice(0, 1)
-            .map((item) =>
-              el("p", { class: "muted", text: generationStatus(item) }),
-            ),
+          ...(active ? job.inventory.queue || [] : []).slice(0, 1).map((item) =>
+            el("p", {
+              class: "muted",
+              text: `Block ${item.page + 1} · ${generationStatus(item)}`,
+            }),
+          ),
           active
             ? el("button", {
                 type: "button",
@@ -496,13 +580,38 @@ export class LectureAudio {
         seconds ?? (this.target?.index === index ? this.target.seconds : 0),
       epoch: this.epoch,
     };
-    await this.prepare(true);
+    const blocks = blockWindow(
+      index,
+      this.pages.length,
+      this.continueBlocks.checked ? this.ahead.value : 0,
+    );
+    if (coversBlocks(this.inventory.job, blocks)) await this.poll();
+    else await this.prepare(true);
   }
-  async prepare(forPlayback) {
+  queueAhead(index) {
+    if (
+      !this.continueBlocks.checked ||
+      !this.choice?.profile ||
+      !this.data.tools_available
+    )
+      return;
+    const blocks = blockWindow(index, this.pages.length, this.ahead.value);
+    const { job } = this.inventory;
+    if (!blocks.length || coversBlocks(job, blocks)) return;
+    this.prepare(false, blocks);
+  }
+  async prepare(forPlayback, blocks = null) {
     if (this.submitting) return;
     const choice = this.choice;
     if (!choice?.profile) return;
     const epoch = this.epoch;
+    this.submissionEpoch = epoch;
+    if (forPlayback)
+      blocks = blockWindow(
+        this.pending.index,
+        this.pages.length,
+        this.continueBlocks.checked ? this.ahead.value : 0,
+      );
     this.submitting = true;
     this.render();
     try {
@@ -512,6 +621,7 @@ export class LectureAudio {
         profile: choice.profile,
         voice: choice.voice,
         speed: choice.speed,
+        ...(blocks === null ? {} : { blocks }),
       });
       this.jobs = this.jobs
         .filter((existing) => existing.id !== job.id)
@@ -526,11 +636,14 @@ export class LectureAudio {
         this.showError(error);
       }
     } finally {
-      this.submitting = false;
-      this.cache.disabled =
-        !this.choice?.profile ||
-        !this.data.tools_available ||
-        ["queued", "running"].includes(this.inventory.job?.state);
+      if (this.submissionEpoch === epoch) {
+        this.submitting = false;
+        this.cache.disabled =
+          !this.choice?.profile ||
+          !this.data.tools_available ||
+          (["queued", "running"].includes(this.inventory.job?.state) &&
+            this.inventory.job.requested_blocks === null);
+      }
     }
   }
   async poll() {

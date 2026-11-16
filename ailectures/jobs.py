@@ -20,12 +20,17 @@ class JobStore:
         self.database = Path(directory) / "production.sqlite3"
         self.database.parent.mkdir(parents=True, exist_ok=True)
         with self.connect() as db:
+            db.execute("BEGIN IMMEDIATE")
             db.execute("""CREATE TABLE IF NOT EXISTS jobs (
                 id TEXT PRIMARY KEY, specification TEXT NOT NULL,
                 state TEXT NOT NULL, attempts INTEGER NOT NULL DEFAULT 0,
                 retry_at REAL NOT NULL DEFAULT 0, owner TEXT, lease_until REAL,
                 published TEXT, error TEXT, inventory TEXT,
                 created_at REAL NOT NULL, updated_at REAL NOT NULL)""")
+            if "requested_blocks" not in {
+                row[1] for row in db.execute("PRAGMA table_info(jobs)")
+            }:
+                db.execute("ALTER TABLE jobs ADD COLUMN requested_blocks TEXT")
 
     @contextmanager
     def connect(self):
@@ -44,6 +49,11 @@ class JobStore:
         result["inventory"] = (
             json.loads(result["inventory"]) if result["inventory"] else None
         )
+        result["requested_blocks"] = (
+            json.loads(result["requested_blocks"])
+            if result["requested_blocks"] is not None
+            else None
+        )
         return result
 
     def get(self, job_id):
@@ -61,20 +71,21 @@ class JobStore:
                 for row in db.execute("SELECT * FROM jobs ORDER BY created_at,id")
             ]
 
-    def enqueue(self, specifications):
+    def enqueue(self, specifications, *, blocks=None):
         now = time.time()
         with self.connect() as db:
             db.execute("BEGIN IMMEDIATE")
             for job_id, specification in specifications:
                 checksum(job_id)
                 data = canonical(specification).decode()
+                requested = canonical(blocks).decode() if blocks is not None else None
                 previous = db.execute(
                     "SELECT * FROM jobs WHERE id=?", (job_id,)
                 ).fetchone()
                 if previous is None:
                     db.execute(
-                        "INSERT INTO jobs (id,specification,state,created_at,updated_at) VALUES (?,?,?,?,?)",
-                        (job_id, data, "queued", now, now),
+                        "INSERT INTO jobs (id,specification,state,created_at,updated_at,requested_blocks) VALUES (?,?,?,?,?,?)",
+                        (job_id, data, "queued", now, now, requested),
                     )
                 elif previous["specification"] != data:
                     raise ValueError(
@@ -82,9 +93,38 @@ class JobStore:
                     )
                 elif previous["state"] in {"failed", "cancelled", "settings_changed"}:
                     db.execute(
-                        "UPDATE jobs SET state='queued',attempts=0,retry_at=0,error=NULL,owner=NULL,lease_until=NULL,updated_at=? WHERE id=?",
-                        (now, job_id),
+                        "UPDATE jobs SET state='queued',attempts=0,retry_at=0,error=NULL,owner=NULL,lease_until=NULL,published=NULL,requested_blocks=?,updated_at=? WHERE id=?",
+                        (requested, now, job_id),
                     )
+                else:
+                    old_blocks = (
+                        json.loads(previous["requested_blocks"])
+                        if previous["requested_blocks"] is not None
+                        else None
+                    )
+                    combined = (
+                        blocks
+                        if previous["state"] == "ready"
+                        else (
+                            sorted(set(old_blocks) | set(blocks))
+                            if old_blocks is not None and blocks is not None
+                            else None
+                        )
+                    )
+                    merged = (
+                        canonical(combined).decode() if combined is not None else None
+                    )
+                    if merged != previous["requested_blocks"]:
+                        if previous["state"] == "ready":
+                            db.execute(
+                                "UPDATE jobs SET requested_blocks=?,state='queued',attempts=0,retry_at=0,owner=NULL,lease_until=NULL,published=NULL,error=NULL,updated_at=? WHERE id=?",
+                                (merged, now, job_id),
+                            )
+                        else:
+                            db.execute(
+                                "UPDATE jobs SET requested_blocks=?,published=NULL,updated_at=? WHERE id=?",
+                                (merged, now, job_id),
+                            )
 
     def claim(self, owner, *, limit=2, lease_seconds=60):
         now = time.time()
@@ -97,9 +137,22 @@ class JobStore:
             active = db.execute(
                 "SELECT count(*) FROM jobs WHERE state='running'"
             ).fetchone()[0]
+            capacity = max(0, limit - active)
+            interactive_only = (
+                limit > 0
+                and capacity == 0
+                and not db.execute(
+                    "SELECT 1 FROM jobs WHERE state='running' AND requested_blocks IS NOT NULL LIMIT 1"
+                ).fetchone()
+            )
+            # Keep one slot available for explicitly selected blocks even when
+            # background whole-lecture preparations fill the normal capacity.
+            scope = " AND requested_blocks IS NOT NULL" if interactive_only else ""
             candidates = db.execute(
-                "SELECT id FROM jobs WHERE state='queued' AND retry_at<=? ORDER BY created_at,id LIMIT ?",
-                (now, max(0, limit - active)),
+                "SELECT id FROM jobs WHERE state='queued' AND retry_at<=?"
+                + scope
+                + " ORDER BY requested_blocks IS NULL,created_at,id LIMIT ?",
+                (now, 1 if interactive_only else capacity),
             ).fetchall()
             for row in candidates:
                 db.execute(
@@ -160,7 +213,7 @@ class JobStore:
                     ),
                 )
 
-    def publish(self, job_id, owner, inventory, callback):
+    def publish(self, job_id, owner, inventory, callback, *, requested_blocks=None):
         """Fence activation against another process reclaiming this request.
 
         Activation and the final job receipt happen while the ownership row is
@@ -170,9 +223,16 @@ class JobStore:
         with self.connect() as db:
             db.execute("BEGIN IMMEDIATE")
             row = db.execute(
-                "SELECT state,owner FROM jobs WHERE id=?", (job_id,)
+                "SELECT state,owner,requested_blocks FROM jobs WHERE id=?", (job_id,)
             ).fetchone()
             if row is None or row["state"] != "running" or row["owner"] != owner:
+                return None
+            expected = (
+                canonical(requested_blocks).decode()
+                if requested_blocks is not None
+                else None
+            )
+            if row["requested_blocks"] != expected:
                 return None
             published = callback()
             db.execute(

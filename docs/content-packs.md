@@ -311,11 +311,17 @@ with audio appear first; the shortlist also includes active preparations, one
 default per configured TTS profile, and the current selection. **More voices**
 opens the searchable full catalog, including other Kokoro voices. **Use this voice**
 changes the same playback/generation selection without starting synthesis.
-Each choice shows its generated-block count. **Play** uses that selection; when
-audio is missing it requests generation and starts as soon as the required block
-is ready, while preparation continues. It never substitutes a different narrator.
+Each choice shows its generated-block count. **Play** generates only the selected
+block if needed, plays it, and stops at its end by default. Selecting another voice
+keeps the same block and starts it from the beginning, making comparisons easy.
+It never substitutes a different narrator. Check **Continue to next blocks** to
+advance automatically. **Blocks ahead** sets the number of upcoming blocks to
+queue: 0 generates each next block when playback reaches it; 2 queues the current
+block plus up to two following blocks. This preference is remembered on the device.
 **Cache whole lecture** prepares the selected voice without starting playback;
 **Stop generation** cancels unfinished work and retains completed blocks.
+Play leaves an already queued whole-lecture preparation running; stop that
+preparation first if you want subsequent requests to generate individual blocks.
 Generation speed is under **Speech settings**. Collection pages
 can queue a whole collection, and Production can explicitly queue the whole library.
 The listening queue is labelled separately from the generation queue.
@@ -343,7 +349,9 @@ already running on a backend without cancellation support may finish remotely;
 its cancelled output is discarded locally.
 Completed blocks can play from the local build cache during preparation; exact
 recording snapshots keep listening positions and feedback attached to those bytes.
-Fully prepared recordings publish as portable media packs. These controls do not
+Completed block requests publish portable partial recordings. Additional blocks
+share the same voice queue and preserve previously published audio; preparing the
+whole lecture reuses cached blocks. These controls do not
 require opening JSON diagnostics.
 
 The same preparation workflow is available without keeping a browser open:
@@ -363,7 +371,8 @@ The Production page lists these server-owned requests across browsers and provid
 cancellation and retry controls.
 
 Pending work resumes automatically after a restart. Worker leases bound concurrent
-preparations across processes, and completed request-addressed pages in
+preparations across processes. Selected-block requests have one reserved slot
+alongside background whole-lecture work. Completed request-addressed pages in
 `build-cache/speech/` are reused. Changing one passage can reuse unchanged pages;
 a bibliography-only edit reuses all unchanged speech. Backend failures use bounded
 retries; cancellation survives restarts. A changed voice/backend configuration

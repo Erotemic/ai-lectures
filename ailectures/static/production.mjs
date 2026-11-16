@@ -222,6 +222,14 @@ export class ProductionPanel {
               text: `${job.profile} · ${job.voice || "configured voice"} · ${job.speed || 1}× speech`,
             }),
             el("p", {
+              class: "muted",
+              text: job.requested_blocks
+                ? job.requested_blocks.length === 1
+                  ? `Block ${job.requested_blocks[0] + 1} requested`
+                  : `${job.requested_blocks.length} audio blocks requested`
+                : "Whole lecture requested",
+            }),
+            el("p", {
               text: job.published
                 ? "Recording published"
                 : `${job.state} · ${inv.ready} / ${inv.total || "?"} passages ready`,

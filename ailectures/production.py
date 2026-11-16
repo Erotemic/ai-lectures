@@ -300,8 +300,10 @@ class GenerationManager:
             },
         }
 
-    def prepare(self, lecture_id, profile, *, voice=None, speed=1):
-        return self.prepare_many([lecture_id], profile, voice=voice, speed=speed)[0]
+    def prepare(self, lecture_id, profile, *, voice=None, speed=1, blocks=None):
+        return self.prepare_many(
+            [lecture_id], profile, voice=voice, speed=speed, blocks=blocks
+        )[0]
 
     def narrators(self, row, *, speed=1):
         """Describe selectable recordings and configured voices without synthesis."""
@@ -376,12 +378,23 @@ class GenerationManager:
                 )
         return dict(**profiles, choices=choices, pages=pages)
 
-    def prepare_many(self, lecture_ids, profile, *, voice=None, speed=1):
+    def prepare_many(self, lecture_ids, profile, *, voice=None, speed=1, blocks=None):
         finite(speed, 0.5)
         if speed > 2 or (
             voice is not None and not re.fullmatch(r"[A-Za-z0-9_.+\-]{1,80}", voice)
         ):
             raise ValueError("Invalid speech speed or voice")
+        if blocks is not None:
+            if (
+                not isinstance(blocks, list)
+                or not blocks
+                or any(
+                    isinstance(index, bool) or not isinstance(index, int) or index < 0
+                    for index in blocks
+                )
+            ):
+                raise ValueError("Select one or more audio blocks")
+            blocks = sorted(set(blocks))
         if not self.profiles()["tools_available"]:
             raise ValueError(
                 "Generation requires the production installation and FFmpeg tools"
@@ -402,6 +415,15 @@ class GenerationManager:
                 )
             row.pop("origin", None)
             row["recordings"] = []
+            if blocks is not None:
+                from dkvis.presentation.audio_library import split_pages
+
+                pages = split_pages(
+                    row["transcript"],
+                    max_chars=int(os.environ.get("DKVIS_AUDIO_PAGE_CHARS", "600")),
+                )
+                if blocks[-1] >= len(pages):
+                    raise ValueError("Unknown audio block")
             job_id = digest(
                 {
                     "lecture": lecture_id,
@@ -418,7 +440,7 @@ class GenerationManager:
                 "configuration": configuration,
             }
             requests.append((job_id, specification))
-        self.jobs.enqueue(requests)
+        self.jobs.enqueue(requests, blocks=blocks)
         self.tick()
         return [self._public(self.jobs.get(job_id)) for job_id, _ in requests]
 
@@ -488,6 +510,7 @@ class GenerationManager:
             "variant": variant,
             "label": f"{settings.voice} ({settings.model})",
             "published": None,
+            "whole_lecture": False,
         }
         write_json(
             directory / "batch.json",
@@ -501,8 +524,33 @@ class GenerationManager:
             },
         )
         if start:
-            engine.prepare_lecture("000000", settings)
+            self._request_blocks(job, record["requested_blocks"])
         return job
+
+    @staticmethod
+    def _request_blocks(job, blocks):
+        engine, settings = job["engine"], job["settings"]
+        if blocks is None:
+            if not job["whole_lecture"]:
+                engine.prepare_lecture("000000", settings)
+                job["whole_lecture"] = True
+            return
+        inventory = engine.inventory("000000", settings)
+        busy = sum(
+            state in {"queued", "rendering", "canceling"}
+            for state in inventory["states"]
+        )
+        for index in blocks:
+            if busy >= 3:
+                break
+            if inventory["states"][index] in {"missing", "cancelled"}:
+                engine.request(
+                    "000000",
+                    index,
+                    settings,
+                    "playback" if index == blocks[0] else "cache",
+                )
+                busy += 1
 
     def playback(self, job_id):
         """Read completed blocks while preparation continues; never enqueue work."""
@@ -607,6 +655,7 @@ class GenerationManager:
             "retry_at": record["retry_at"],
             "error": record["error"],
             "published": record["published"],
+            "requested_blocks": record["requested_blocks"],
             "inventory": record["inventory"]
             or {
                 "ready": 0,
@@ -636,21 +685,44 @@ class GenerationManager:
                     del self._jobs[job_id]
                     continue
                 try:
+                    self._request_blocks(job, record["requested_blocks"])
                     inventory = job["engine"].inventory("000000", job["settings"])
                     if not self.jobs.save(job_id, self.owner, inventory=inventory):
                         self.jobs.retain_cancelled_inventory(job_id, inventory)
                         job["engine"].close()
                         del self._jobs[job_id]
                         continue
-                    if inventory["ready"] == inventory["total"]:
+                    requested = record["requested_blocks"]
+                    complete = (
+                        inventory["ready"] == inventory["total"]
+                        if requested is None
+                        else all(
+                            inventory["states"][index] == "ready" for index in requested
+                        )
+                    )
+                    failed = (
+                        any(
+                            inventory["states"][index] == "error" for index in requested
+                        )
+                        if requested is not None
+                        else (inventory.get("preparation") or {}).get("state")
+                        == "finished_with_errors"
+                    )
+                    if complete:
                         # File probing/copying must not lock out cancellation.
                         with self._publication(job) as activate:
-                            self.jobs.publish(job_id, self.owner, inventory, activate)
+                            published = self.jobs.publish(
+                                job_id,
+                                self.owner,
+                                inventory,
+                                activate,
+                                requested_blocks=requested,
+                            )
+                        if published is None:
+                            continue
                         job["engine"].close()
                         del self._jobs[job_id]
-                    elif (inventory.get("preparation") or {}).get(
-                        "state"
-                    ) == "finished_with_errors":
+                    elif failed:
                         errors = [
                             job["engine"]
                             .status("000000", index, job["settings"])
@@ -704,7 +776,9 @@ class GenerationManager:
 
     def retry(self, job_id):
         record = self.jobs.get(job_id)
-        self.jobs.enqueue([(job_id, record["specification"])])
+        self.jobs.enqueue(
+            [(job_id, record["specification"])], blocks=record["requested_blocks"]
+        )
         return self.status(job_id)
 
     def publish(self, job):
@@ -732,6 +806,30 @@ class GenerationManager:
         if previous:
             old = json.loads(previous["catalog"])["lectures"].get(row["id"])
             if old and old["spoken_sha256"] == row["spoken_sha256"]:
+                for existing in old["recordings"]:
+                    if (
+                        existing["variant"] == rec["variant"]
+                        and existing["recipe"] == rec["recipe"]
+                        and existing["pages"] == rec["pages"]
+                    ):
+                        segments = {
+                            segment["index"]: segment
+                            for segment in existing["segments"]
+                        }
+                        segments.update(
+                            {segment["index"]: segment for segment in rec["segments"]}
+                        )
+                        for segment in existing["segments"]:
+                            if segments[segment["index"]]["path"] == segment["path"]:
+                                files.setdefault(
+                                    segment["path"],
+                                    Path(previous["directory"]) / segment["path"],
+                                )
+                        rec["segments"] = [
+                            segments[index] for index in sorted(segments)
+                        ]
+                        rec["complete"] = len(segments) == len(rec["pages"])
+                        rec["id"] = recording_id(rec)
                 if any(existing["id"] == rec["id"] for existing in old["recordings"]):
                     yield lambda: previous["release"]
                     return

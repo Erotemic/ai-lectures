@@ -461,6 +461,8 @@ def create_app(
     async def prepare(request):
         payload = await body(request)
         if payload.get("course_id") or payload.get("lecture_ids"):
+            if payload.get("blocks") is not None:
+                raise ValueError("Select blocks within one lecture")
             selection = payload.get("lecture_ids", [])
             if payload.get("course_id"):
                 snapshot = library.snapshot()
@@ -499,6 +501,7 @@ def create_app(
             payload["profile"],
             voice=payload.get("voice"),
             speed=payload.get("speed", 1),
+            blocks=payload.get("blocks"),
         )
         return JSONResponse(result, status_code=202)
 
