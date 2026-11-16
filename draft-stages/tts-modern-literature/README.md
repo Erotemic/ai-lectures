@@ -1,6 +1,6 @@
 # 20th-Century Literature: Story, Then Analysis
 
-The track currently covers **twenty-seven literary works** (one receives extended multi-lecture treatment). For each, a single continuous plot-orientation lecture comes immediately before a critical interpretation. The story account introduces the people, setting, main events, and ending; it does not require that the listener has read the book. The analysis can then explore form, historical context, and competing critical readings without explaining the plot again.
+The track currently covers **thirty-three literary works** (one receives extended multi-lecture treatment). For each work, complete plot narration precedes criticism: usually one continuous story lecture, with extended multi-volume treatment where the work itself warrants it. The story account introduces the people, setting, main events, and ending; it does not require that the listener has read the book. The analysis can then explore form, historical context, and competing critical readings without explaining the plot again.
 
 ## Scope and the latest expansion
 
@@ -98,3 +98,14 @@ The next three pairs extend the course through three kinds of twentieth-century 
 - `029200` / `030000`: Mikhail Bulgakov, *The Master and Margarita* (written before 1940; censored publication 1966–67). The Moscow, Margarita, and Pilate strands are told together through their final resolution. Analysis differentiates authorial manuscript history from the text's supernatural fantasy and rejects a single compulsory theology of 'peace' versus 'light'.
 
 Primary works are copyrighted; story lessons are independent, original expository summaries, not narrated reproductions of their prose. Source catalog records distinguish primary novels, freely available reader guides, original author statements, and scholarship accessible only through abstracts. The entire content addition is owned by `draft-stages/tts-modern-literature/`; no shared registry or tests need changing.
+
+
+## Agent A continuation: Woolf, Kafka, Walker (030200–033000)
+
+Three new complete story-first pairs add different narrative techniques to the same literary course:
+
+- `030200` then `031000`: Virginia Woolf, *Mrs Dalloway* (1925). The single day in 1923 London, Clarissa's friends and party, Septimus and Rezia's parallel tragedy; then an interpretation of public clock time versus lived time, free indirect perspective, gender, empire, class, and the ethics of another person's inward life. Clarissa never meets Septimus, and her response to the report of his death is not privileged knowledge of his intentions.
+- `031200` then `032000`: Franz Kafka, *The Trial* (written 1914–15, published by Max Brod in 1925). Josef K.'s arrest, court offices, lawyer, Titorelli, Block, cathedral parable and death, followed by analysis of procedural illegibility, shame, the costs of indefinite accusation, and the manuscript's unfinished editorial state. Common chapter order is **not** claimed to have been fixed by Kafka.
+- `032200` then `033000`: Alice Walker, *The Color Purple* (1982). Celie's voice, Sofia and Shug, the buried letters and Nettie's African experiences, family revelations, work and final reunion. Analysis of epistolary voice, chosen intimacy, social and racial power, spiritual revision, independent labor, and contested portrayals. This is the novel, not screen or stage adaptations; Olinka are **fictional**, not a real-world ethnographic sample.
+
+The full plots, including spoilers and endings, precede each analysis. Length measurements record what was written, not a target or an acceptance criterion. Primary texts, award records, open library essays, and publicly visible scholarly abstracts are distinguished in `metadata/sources.json`; claim anchors and reading limits are documented in the individual metadata sidecars and `notes/story-analysis-expansion-030200-033000.md`. All files remain inside Agent A's pack.

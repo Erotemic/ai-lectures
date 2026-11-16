@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "lecture_id": "033000",
+  "transcript": "033000-the-color-purple-analysis.md",
+  "related_resources": [
+    {
+      "source_id": "ml-purple-bibliography",
+      "reason": "Plot, publication, interpretive or editorial evidence as differentiated in the source catalog"
+    },
+    {
+      "source_id": "ml-purple-pulitzer",
+      "reason": "Plot, publication, interpretive or editorial evidence as differentiated in the source catalog"
+    },
+    {
+      "source_id": "ml-purple-plot",
+      "reason": "Plot, publication, interpretive or editorial evidence as differentiated in the source catalog"
+    },
+    {
+      "source_id": "ml-purple-oxford",
+      "reason": "Plot, publication, interpretive or editorial evidence as differentiated in the source catalog"
+    },
+    {
+      "source_id": "ml-purple-cambridge",
+      "reason": "Plot, publication, interpretive or editorial evidence as differentiated in the source catalog"
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "033000-c01",
+      "anchor": "The Color Purple won the 1983 Pulitzer Prize for Fiction and the National Book Award for Fiction.",
+      "kind": "literary_context_or_interpretation",
+      "source_ids": [
+        "ml-purple-pulitzer",
+        "ml-purple-bibliography"
+      ],
+      "source_locator": "Prize chronology",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "033000-c02",
+      "anchor": "The form gives someone denied public authority the power to set the terms of a story.",
+      "kind": "literary_context_or_interpretation",
+      "source_ids": [
+        "ml-purple-oxford",
+        "ml-purple-bibliography"
+      ],
+      "source_locator": "Epistolary voice interpretation",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "033000-c03",
+      "anchor": "Its representation of men, sexuality, Christianity, and Africa has produced substantial disagreement.",
+      "kind": "literary_context_or_interpretation",
+      "source_ids": [
+        "ml-purple-cambridge"
+      ],
+      "source_locator": "Critical reception and disputes",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "033000-c04",
+      "anchor": "The Olinka are a fictional people whose customs are assembled for the novel's purposes.",
+      "kind": "literary_context_or_interpretation",
+      "source_ids": [
+        "ml-purple-plot",
+        "ml-purple-cambridge"
+      ],
+      "source_locator": "Fiction and ethnography distinction",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}

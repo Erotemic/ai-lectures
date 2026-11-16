@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "lecture_id": "032000",
+  "transcript": "032000-the-trial-analysis.md",
+  "related_resources": [
+    {
+      "source_id": "ml-kafka-primary",
+      "reason": "Plot, publication, interpretive or editorial evidence as differentiated in the source catalog"
+    },
+    {
+      "source_id": "ml-kafka-project",
+      "reason": "Plot, publication, interpretive or editorial evidence as differentiated in the source catalog"
+    },
+    {
+      "source_id": "ml-kafka-history",
+      "reason": "Plot, publication, interpretive or editorial evidence as differentiated in the source catalog"
+    },
+    {
+      "source_id": "ml-kafka-oxford",
+      "reason": "Plot, publication, interpretive or editorial evidence as differentiated in the source catalog"
+    },
+    {
+      "source_id": "ml-kafka-spark",
+      "reason": "Plot, publication, interpretive or editorial evidence as differentiated in the source catalog"
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "032000-c01",
+      "anchor": "Kafka wrote most of The Trial in 1914 and 1915.",
+      "kind": "literary_context_or_interpretation",
+      "source_ids": [
+        "ml-kafka-oxford",
+        "ml-kafka-history"
+      ],
+      "source_locator": "Composition dates",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "032000-c02",
+      "anchor": "His friend Max Brod disregarded instructions to destroy unpublished papers and issued the novel in 1925.",
+      "kind": "literary_context_or_interpretation",
+      "source_ids": [
+        "ml-kafka-history",
+        "ml-kafka-oxford"
+      ],
+      "source_locator": "Brod edition",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "032000-c03",
+      "anchor": "Modern scholarly editions have revisited the manuscript material and the editorial decisions behind the familiar text.",
+      "kind": "literary_context_or_interpretation",
+      "source_ids": [
+        "ml-kafka-project",
+        "ml-kafka-oxford"
+      ],
+      "source_locator": "Textual authority and versioning",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "032000-c04",
+      "anchor": "The common English title, The Trial, draws attention to a judicial event.",
+      "kind": "literary_context_or_interpretation",
+      "source_ids": [
+        "ml-kafka-primary",
+        "ml-kafka-history"
+      ],
+      "source_locator": "Translation interpretation",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}
