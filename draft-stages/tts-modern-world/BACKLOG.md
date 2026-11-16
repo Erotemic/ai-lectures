@@ -183,3 +183,20 @@ Citation quality takes priority over bibliography size: a reliable passage that 
 - **064000:** The global HIV/AIDS epidemic, scientific discovery, treatment activism and international public-health inequalities in the 1980s–1990s.
 - **065000:** The end of apartheid and South Africa's political transition, including civil society, violence and constitutional negotiation.
 - **066000:** The first post-Cold War wars and peace settlements: Yugoslavia, Rwanda and their different local, international and legal histories.
+
+
+## Completed: 063000–066000 — revolutions, health, South African democracy, and international justice
+
+- **063000:** From Shipyard Gates to Open Borders: Eastern Europe, 1980–1991. Solidarity, martial law, 1989 revolutions, Baltic independence and Soviet dissolution.
+- **064000:** A Virus, a Movement, a Treatment: HIV/AIDS Across Borders. Viral genetic history, scientific discovery, ACT UP, Uganda, Brazil and treatment access.
+- **065000:** The Ballot After Apartheid: South Africa’s Difficult Transition. Civil society and labor, negotiation amid violence, constitutional settlement and truth commission.
+- **066000:** The Killing and the Reckoning: Yugoslavia and Rwanda in the 1990s. Distinct origins of ethnic persecution and genocide, international failures, survivor archives and criminal justice.
+
+**Evidence deepening:** 063000 needs Polish worker, Czech and Slovak regional, Baltic and Romanian oral histories and more complete evidence about the different outcomes of 1989; its election, archive and state records are identified by review scope. 064000 needs original Ugandan TASO participant interviews, Brazilian treatment-program primary records, women-led HIV research histories and earlier Central African clinical histories; a phylogenetic estimate is not a direct historical observation. 065000 needs workers and women organizers' full oral records, evidence from violence inquiries, and independent analysis of land, housing and redistribution after the transition. 066000 needs direct reading of specific survivor interviews, full tribunal judgments and close archival reconstruction of UN decisions; the memorial collection pages do not supply verbatim firsthand testimony.
+
+## Next research candidates (unindexed)
+
+- **067000:** Global trade, the World Trade Organization and arguments over labor, development and inequality, 1986–2001.
+- **068000:** The Asian financial crisis of 1997–1998, national reforms, IMF interventions and the daily experiences of laid-off workers.
+- **069000:** Migration, refugees and the border politics of the 1990s, including post-Soviet movement and regional displacement.
+- **070000:** Climate science, environmental organizing and international climate negotiations, 1988–2000, with attention to who bore the costs.

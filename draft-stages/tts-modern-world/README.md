@@ -147,3 +147,13 @@ Each narrated paragraph is supported by a linked evidence record in the display-
 - **062000 — [When a Technology Becomes Public: Computing, Broadcasting, and Biotechnology](062000-when-a-technology-becomes-public.md)** (2,644 spoken words; 21 source-linked narration paragraphs). Personal and networked computing, India satellite television, Philippine radio, recombinant insulin and AIDS activism.
 
 Source links, specific evidence-review scope and interpretation limits are in non-spoken paragraph ledgers and per-lecture JSON sidecars. No lecture-length policy applies.
+
+
+## Democratic transitions, health crises and international justice (063000–066000)
+
+- **063000 — [From Shipyard Gates to Open Borders: Eastern Europe, 1980–1991](063000-from-shipyard-gates-to-open-borders.md)** (2,554 spoken words; 22 source-linked narration paragraphs). Solidarity, martial law, 1989 revolutions, Baltic independence and Soviet dissolution.
+- **064000 — [A Virus, a Movement, a Treatment: HIV/AIDS Across Borders](064000-a-virus-a-movement-a-treatment.md)** (2,614 spoken words; 22 source-linked narration paragraphs). Viral genetic history, scientific discovery, ACT UP, Uganda, Brazil and treatment access.
+- **065000 — [The Ballot After Apartheid: South Africa’s Difficult Transition](065000-the-ballot-after-apartheid.md)** (2,485 spoken words; 21 source-linked narration paragraphs). Civil society and labor, negotiation amid violence, constitutional settlement and truth commission.
+- **066000 — [The Killing and the Reckoning: Yugoslavia and Rwanda in the 1990s](066000-the-killing-and-the-reckoning.md)** (2,967 spoken words; 24 source-linked narration paragraphs). Distinct origins of ethnic persecution and genocide, international failures, survivor archives and criminal justice.
+
+Source links, specific evidence-review scope and interpretation limits are in non-spoken paragraph ledgers and per-lecture JSON sidecars. No lecture-length policy applies.

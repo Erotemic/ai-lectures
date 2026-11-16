@@ -1,0 +1,319 @@
+{
+  "schema_version": 1,
+  "lecture_id": "064000",
+  "transcript": "064000-a-virus-a-movement-a-treatment.md",
+  "related_resources": [
+    {
+      "source_id": "hi-brazil",
+      "reason": "Public provision of antiretroviral treatment, legal guarantees and access difficulties",
+      "access_scope": "publisher_index_abstract"
+    },
+    {
+      "source_id": "hi-cdc",
+      "reason": "Original report of five Los Angeles cases, its clinical observations and contemporary framing",
+      "access_scope": "direct_html_primary_document"
+    },
+    {
+      "source_id": "hi-definition",
+      "reason": "1993 surveillance definition added invasive cervical cancer, other conditions and CD4 criteria",
+      "access_scope": "direct_html_primary_document"
+    },
+    {
+      "source_id": "hi-fda",
+      "reason": "Antibody screening, AZT, protests and altered drug-access regulations",
+      "access_scope": "web_page_excerpt"
+    },
+    {
+      "source_id": "hi-genetics",
+      "reason": "Kinshasa early epidemic and molecular dating based on archival genomes",
+      "access_scope": "open_research_article"
+    },
+    {
+      "source_id": "hi-nlm",
+      "reason": "ACT UP, treatment campaigns, women and public memory in U.S. epidemic",
+      "access_scope": "web_page_excerpt"
+    },
+    {
+      "source_id": "hi-pasteur",
+      "reason": "1983 virus isolation in Barré-Sinoussi and Montagnier research group",
+      "access_scope": "web_page_excerpt"
+    },
+    {
+      "source_id": "hi-taso",
+      "reason": "1987 TASO founding, Noerine Kaleeba, counseling, community support and positive living",
+      "access_scope": "web_page_excerpt"
+    },
+    {
+      "source_id": "hi-timeline",
+      "reason": "Early recognition, screening, antiretroviral development, activism and later public-health milestones",
+      "access_scope": "web_page_excerpt"
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "064000-p01",
+      "anchor": "The first official medical reports of AIDS in the United States appeared in ni",
+      "kind": "historical_research",
+      "source_ids": [
+        "hi-genetics",
+        "hi-cdc"
+      ],
+      "source_locator": "hi-genetics: Kinshasa early epidemic and molecular dating based on archival genomes; hi-cdc: Original report of five Los Angeles cases, its clinical observations and contemporary framing",
+      "audit_status": "web_sources_inspected_scope_limits_documented",
+      "source_limitations": "Phylogenetic dates are inference with uncertainty, not observation of a first infection; early clinical spread not fully reconstructed. U.S. surveillance snapshot of known patients, not evidence the epidemic began in the United States in 1981."
+    },
+    {
+      "id": "064000-p02",
+      "anchor": "On June fifth, nineteen eighty-one, the United States Centers for Disease Cont",
+      "kind": "historical_research",
+      "source_ids": [
+        "hi-cdc",
+        "hi-timeline"
+      ],
+      "source_locator": "hi-cdc: Original report of five Los Angeles cases, its clinical observations and contemporary framing; hi-timeline: Early recognition, screening, antiretroviral development, activism and later public-health milestones",
+      "audit_status": "web_sources_inspected_scope_limits_documented",
+      "source_limitations": "U.S. surveillance snapshot of known patients, not evidence the epidemic began in the United States in 1981. Primarily U.S.-centered retrospective and not a stand-alone source for region-specific disease burden."
+    },
+    {
+      "id": "064000-p03",
+      "anchor": "What later came to be called AIDS is acquired immunodeficiency syndrome: a col",
+      "kind": "historical_research",
+      "source_ids": [
+        "hi-timeline",
+        "hi-genetics"
+      ],
+      "source_locator": "hi-timeline: Early recognition, screening, antiretroviral development, activism and later public-health milestones; hi-genetics: Kinshasa early epidemic and molecular dating based on archival genomes",
+      "audit_status": "web_sources_inspected_scope_limits_documented",
+      "source_limitations": "Primarily U.S.-centered retrospective and not a stand-alone source for region-specific disease burden. Phylogenetic dates are inference with uncertainty, not observation of a first infection; early clinical spread not fully reconstructed."
+    },
+    {
+      "id": "064000-p04",
+      "anchor": "Researchers in France, including Françoise Barré-Sinoussi, working with collea",
+      "kind": "historical_research",
+      "source_ids": [
+        "hi-pasteur",
+        "hi-timeline"
+      ],
+      "source_locator": "hi-pasteur: 1983 virus isolation in Barré-Sinoussi and Montagnier research group; hi-timeline: Early recognition, screening, antiretroviral development, activism and later public-health milestones",
+      "audit_status": "web_sources_inspected_scope_limits_documented",
+      "source_limitations": "Scientific institution’s own history; discovery priority is disputed and work was international. Primarily U.S.-centered retrospective and not a stand-alone source for region-specific disease burden."
+    },
+    {
+      "id": "064000-p05",
+      "anchor": "HIV can be transmitted through particular exchanges of bodily fluids, includin",
+      "kind": "historical_research",
+      "source_ids": [
+        "hi-timeline",
+        "hi-fda"
+      ],
+      "source_locator": "hi-timeline: Early recognition, screening, antiretroviral development, activism and later public-health milestones; hi-fda: Antibody screening, AZT, protests and altered drug-access regulations",
+      "audit_status": "web_sources_inspected_scope_limits_documented",
+      "source_limitations": "Primarily U.S.-centered retrospective and not a stand-alone source for region-specific disease burden. U.S. regulatory retrospective, not a global treatment access study."
+    },
+    {
+      "id": "064000-p06",
+      "anchor": "Blood supplies revealed the consequences of delayed recognition. People who ne",
+      "kind": "historical_research",
+      "source_ids": [
+        "hi-timeline",
+        "hi-fda"
+      ],
+      "source_locator": "hi-timeline: Early recognition, screening, antiretroviral development, activism and later public-health milestones; hi-fda: Antibody screening, AZT, protests and altered drug-access regulations",
+      "audit_status": "web_sources_inspected_scope_limits_documented",
+      "source_limitations": "Primarily U.S.-centered retrospective and not a stand-alone source for region-specific disease burden. U.S. regulatory retrospective, not a global treatment access study."
+    },
+    {
+      "id": "064000-p07",
+      "anchor": "There were also differences between risk of infection and the groups selected ",
+      "kind": "historical_research",
+      "source_ids": [
+        "hi-cdc",
+        "hi-timeline"
+      ],
+      "source_locator": "hi-cdc: Original report of five Los Angeles cases, its clinical observations and contemporary framing; hi-timeline: Early recognition, screening, antiretroviral development, activism and later public-health milestones",
+      "audit_status": "web_sources_inspected_scope_limits_documented",
+      "source_limitations": "U.S. surveillance snapshot of known patients, not evidence the epidemic began in the United States in 1981. Primarily U.S.-centered retrospective and not a stand-alone source for region-specific disease burden."
+    },
+    {
+      "id": "064000-p08",
+      "anchor": "For many people in the United States, getting sick meant entering a medical an",
+      "kind": "historical_research",
+      "source_ids": [
+        "hi-nlm",
+        "hi-fda"
+      ],
+      "source_locator": "hi-nlm: ACT UP, treatment campaigns, women and public memory in U.S. epidemic; hi-fda: Antibody screening, AZT, protests and altered drug-access regulations",
+      "audit_status": "web_sources_inspected_scope_limits_documented",
+      "source_limitations": "U.S.-focused museum exhibit; not a comprehensive account of patient groups worldwide. U.S. regulatory retrospective, not a global treatment access study."
+    },
+    {
+      "id": "064000-p09",
+      "anchor": "In nineteen eighty-seven activists organized the AIDS Coalition to Unleash Pow",
+      "kind": "historical_research",
+      "source_ids": [
+        "hi-nlm",
+        "hi-fda"
+      ],
+      "source_locator": "hi-nlm: ACT UP, treatment campaigns, women and public memory in U.S. epidemic; hi-fda: Antibody screening, AZT, protests and altered drug-access regulations",
+      "audit_status": "web_sources_inspected_scope_limits_documented",
+      "source_limitations": "U.S.-focused museum exhibit; not a comprehensive account of patient groups worldwide. U.S. regulatory retrospective, not a global treatment access study."
+    },
+    {
+      "id": "064000-p10",
+      "anchor": "Women activists pointed out that a clinical definition of AIDS dominated by co",
+      "kind": "historical_research",
+      "source_ids": [
+        "hi-nlm",
+        "hi-definition"
+      ],
+      "source_locator": "hi-nlm: ACT UP, treatment campaigns, women and public memory in U.S. epidemic; hi-definition: 1993 surveillance definition added invasive cervical cancer, other conditions and CD4 criteria",
+      "audit_status": "web_sources_inspected_scope_limits_documented",
+      "source_limitations": "U.S.-focused museum exhibit; not a comprehensive account of patient groups worldwide. Surveillance criteria and effective date; clinical definitions are not identical to benefits eligibility in every jurisdiction."
+    },
+    {
+      "id": "064000-p11",
+      "anchor": "AIDS memorials, including the growing quilt displayed in Washington, expressed",
+      "kind": "historical_research",
+      "source_ids": [
+        "hi-nlm",
+        "hi-timeline"
+      ],
+      "source_locator": "hi-nlm: ACT UP, treatment campaigns, women and public memory in U.S. epidemic; hi-timeline: Early recognition, screening, antiretroviral development, activism and later public-health milestones",
+      "audit_status": "web_sources_inspected_scope_limits_documented",
+      "source_limitations": "U.S.-focused museum exhibit; not a comprehensive account of patient groups worldwide. Primarily U.S.-centered retrospective and not a stand-alone source for region-specific disease burden."
+    },
+    {
+      "id": "064000-p12",
+      "anchor": "In Uganda, the epidemic was publicly visible in communities before many intern",
+      "kind": "historical_research",
+      "source_ids": [
+        "hi-taso",
+        "hi-genetics"
+      ],
+      "source_locator": "hi-taso: 1987 TASO founding, Noerine Kaleeba, counseling, community support and positive living; hi-genetics: Kinshasa early epidemic and molecular dating based on archival genomes",
+      "audit_status": "web_sources_inspected_scope_limits_documented",
+      "source_limitations": "Organizational retrospective, not independent evaluation of every Ugandan AIDS response. Phylogenetic dates are inference with uncertainty, not observation of a first infection; early clinical spread not fully reconstructed."
+    },
+    {
+      "id": "064000-p13",
+      "anchor": "TASO's early work centered on counseling, visits, education, and support. Many",
+      "kind": "historical_research",
+      "source_ids": [
+        "hi-taso"
+      ],
+      "source_locator": "hi-taso: 1987 TASO founding, Noerine Kaleeba, counseling, community support and positive living",
+      "audit_status": "web_sources_inspected_scope_limits_documented",
+      "source_limitations": "Organizational retrospective, not independent evaluation of every Ugandan AIDS response."
+    },
+    {
+      "id": "064000-p14",
+      "anchor": "The work of community organizations was not confined to Uganda, and no one org",
+      "kind": "historical_research",
+      "source_ids": [
+        "hi-taso",
+        "hi-timeline"
+      ],
+      "source_locator": "hi-taso: 1987 TASO founding, Noerine Kaleeba, counseling, community support and positive living; hi-timeline: Early recognition, screening, antiretroviral development, activism and later public-health milestones",
+      "audit_status": "web_sources_inspected_scope_limits_documented",
+      "source_limitations": "Organizational retrospective, not independent evaluation of every Ugandan AIDS response. Primarily U.S.-centered retrospective and not a stand-alone source for region-specific disease burden."
+    },
+    {
+      "id": "064000-p15",
+      "anchor": "The scientific search for treatment continued as researchers learned how HIV r",
+      "kind": "historical_research",
+      "source_ids": [
+        "hi-timeline",
+        "hi-pasteur"
+      ],
+      "source_locator": "hi-timeline: Early recognition, screening, antiretroviral development, activism and later public-health milestones; hi-pasteur: 1983 virus isolation in Barré-Sinoussi and Montagnier research group",
+      "audit_status": "web_sources_inspected_scope_limits_documented",
+      "source_limitations": "Primarily U.S.-centered retrospective and not a stand-alone source for region-specific disease burden. Scientific institution’s own history; discovery priority is disputed and work was international."
+    },
+    {
+      "id": "064000-p16",
+      "anchor": "In wealthy countries, the arrival of combination therapy could be experienced ",
+      "kind": "historical_research",
+      "source_ids": [
+        "hi-timeline",
+        "hi-nlm"
+      ],
+      "source_locator": "hi-timeline: Early recognition, screening, antiretroviral development, activism and later public-health milestones; hi-nlm: ACT UP, treatment campaigns, women and public memory in U.S. epidemic",
+      "audit_status": "web_sources_inspected_scope_limits_documented",
+      "source_limitations": "Primarily U.S.-centered retrospective and not a stand-alone source for region-specific disease burden. U.S.-focused museum exhibit; not a comprehensive account of patient groups worldwide."
+    },
+    {
+      "id": "064000-p17",
+      "anchor": "Brazil offered one answer that challenged a simple division between scientific",
+      "kind": "historical_research",
+      "source_ids": [
+        "hi-brazil",
+        "hi-timeline"
+      ],
+      "source_locator": "hi-brazil: Public provision of antiretroviral treatment, legal guarantees and access difficulties; hi-timeline: Early recognition, screening, antiretroviral development, activism and later public-health milestones",
+      "audit_status": "web_sources_inspected_scope_limits_documented",
+      "source_limitations": "Bibliographic abstract inspected, not full Lancet article; longitudinal effectiveness cannot be inferred solely from abstract. Primarily U.S.-centered retrospective and not a stand-alone source for region-specific disease burden."
+    },
+    {
+      "id": "064000-p18",
+      "anchor": "Uganda and Brazil should not be flattened into examples of one formula. In Uga",
+      "kind": "historical_research",
+      "source_ids": [
+        "hi-brazil",
+        "hi-taso"
+      ],
+      "source_locator": "hi-brazil: Public provision of antiretroviral treatment, legal guarantees and access difficulties; hi-taso: 1987 TASO founding, Noerine Kaleeba, counseling, community support and positive living",
+      "audit_status": "web_sources_inspected_scope_limits_documented",
+      "source_limitations": "Bibliographic abstract inspected, not full Lancet article; longitudinal effectiveness cannot be inferred solely from abstract. Organizational retrospective, not independent evaluation of every Ugandan AIDS response."
+    },
+    {
+      "id": "064000-p19",
+      "anchor": "Prevention programs also had to confront real power relationships. Advice to u",
+      "kind": "historical_research",
+      "source_ids": [
+        "hi-timeline",
+        "hi-taso"
+      ],
+      "source_locator": "hi-timeline: Early recognition, screening, antiretroviral development, activism and later public-health milestones; hi-taso: 1987 TASO founding, Noerine Kaleeba, counseling, community support and positive living",
+      "audit_status": "web_sources_inspected_scope_limits_documented",
+      "source_limitations": "Primarily U.S.-centered retrospective and not a stand-alone source for region-specific disease burden. Organizational retrospective, not independent evaluation of every Ugandan AIDS response."
+    },
+    {
+      "id": "064000-p20",
+      "anchor": "Scientists and activists sometimes disagreed bitterly about which experiments ",
+      "kind": "historical_research",
+      "source_ids": [
+        "hi-timeline",
+        "hi-nlm"
+      ],
+      "source_locator": "hi-timeline: Early recognition, screening, antiretroviral development, activism and later public-health milestones; hi-nlm: ACT UP, treatment campaigns, women and public memory in U.S. epidemic",
+      "audit_status": "web_sources_inspected_scope_limits_documented",
+      "source_limitations": "Primarily U.S.-centered retrospective and not a stand-alone source for region-specific disease burden. U.S.-focused museum exhibit; not a comprehensive account of patient groups worldwide."
+    },
+    {
+      "id": "064000-p21",
+      "anchor": "This history also reveals the difference between scientific discovery and hist",
+      "kind": "historical_research",
+      "source_ids": [
+        "hi-genetics",
+        "hi-pasteur"
+      ],
+      "source_locator": "hi-genetics: Kinshasa early epidemic and molecular dating based on archival genomes; hi-pasteur: 1983 virus isolation in Barré-Sinoussi and Montagnier research group",
+      "audit_status": "web_sources_inspected_scope_limits_documented",
+      "source_limitations": "Phylogenetic dates are inference with uncertainty, not observation of a first infection; early clinical spread not fully reconstructed. Scientific institution’s own history; discovery priority is disputed and work was international."
+    },
+    {
+      "id": "064000-p22",
+      "anchor": "The people of the AIDS epidemic were not only victims in a tragedy whose concl",
+      "kind": "historical_research",
+      "source_ids": [
+        "hi-nlm",
+        "hi-taso",
+        "hi-brazil"
+      ],
+      "source_locator": "hi-nlm: ACT UP, treatment campaigns, women and public memory in U.S. epidemic; hi-taso: 1987 TASO founding, Noerine Kaleeba, counseling, community support and positive living; hi-brazil: Public provision of antiretroviral treatment, legal guarantees and access difficulties",
+      "audit_status": "web_sources_inspected_scope_limits_documented",
+      "source_limitations": "U.S.-focused museum exhibit; not a comprehensive account of patient groups worldwide. Organizational retrospective, not independent evaluation of every Ugandan AIDS response. Bibliographic abstract inspected, not full Lancet article; longitudinal effectiveness cannot be inferred solely from abstract."
+    }
+  ],
+  "notes": "22 narration paragraphs; source evidence, review scopes, and limitations are linked in display-only companion. Duration is descriptive, not a target."
+}
