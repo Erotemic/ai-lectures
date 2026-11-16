@@ -36,6 +36,9 @@ This is an independent, source-grounded, audio-first world-history curriculum fo
 | 022000 | Cities without the Roman Calendar: American Worlds across the Classical Centuries | 1,392 |
 | 022100 | A City of Many Neighbors: Migration and Work at Teotihuacan | 1,254 |
 | 022200 | Signs above the Valley: Writing, Power, and Households at Monte Albán | 1,316 |
+| 022210 | The Work behind the Walls: Families and Crafts at El Palmillo | 1,087 |
+| 022220 | A Sea in the City: Teopancazco and Teotihuacan’s Neighborhood Economy | 1,000 |
+| 022230 | One Day in 378: Tikal, Teotihuacan, and the Politics of an Arrival | 1,017 |
 | 023000 | An Empire at the Door: Homes, Labor, and Inequality in the Classical World | 1,411 |
 | 024000 | When Rome Changed Shape: Emperors, Cities, and the Eastern Empire | 1,447 |
 | 025000 | A King of Kings beside Other Worlds: Sasanian Iran and Its Neighbors | 1,366 |
@@ -115,6 +118,9 @@ This is an independent, source-grounded, audio-first world-history curriculum fo
 | 045000 | More than One Capital: Maya and Mexica Worlds before 1500 | 1,244 |
 | 045100 | A Book of Returning Days: Maya Manuscripts, Astronomy, and Lost Libraries | 1,356 |
 | 045200 | Names Cut into Stone: Rival Kings and the Classic Maya World | 1,236 |
+| 045300 | Eight Deer and the Painted History: Reading Mixtec Books | 1,020 |
+| 045310 | Lakes, Workshops, and a Court: The Purépecha State before 1500 | 1,030 |
+| 045320 | A Field Drawn and Measured: Indigenous Land Records after Conquest | 1,011 |
 | 046000 | Roads before the Empire: Andean States and the Rise of the Inca | 1,237 |
 | 046100 | Counting without a Page: Khipu and Knowledge in the Andes | 1,289 |
 | 046200 | Before the Inca: Wari, Tiwanaku, and Two Andean Ways of Power | 1,221 |
@@ -232,3 +238,7 @@ Six standalone lectures (`036980`, `036982`, `036984`, `036986`, `036988`, `0369
 ## Sixteenth regional-depth installment — Pacific histories beyond the survey (November 2026)
 
 Six new standalone Pacific lectures use `040200`–`040250`: Lapita families and migration; Tongan political exchange; Nan Madol and new monument dates; Rapa Nui agriculture and demography; early Māori settlement and Rangitāne repatriation; and pre-1500 Kohala farming. The indexed pack now contains **162 lectures**. Every new spoken paragraph has non-Wikipedia evidence mapping, and supplementary Wikipedia links are supplied separately. All preceding transcripts and individual metadata remain unchanged.
+
+## Seventeenth regional-depth installment — Mesoamerican families, states, and documents (November 2026)
+
+Six additional independent lectures deepen previously surveyed Teotihuacan and Oaxaca and add Mixtec, Purépecha, and postconquest Indigenous land documents. The collection now contains **168** lectures. Every new narration paragraph has a source map; Wikipedia links appear only in clearly marked supplementary reading. The early colonial land records are identified as such, not silently assigned to pre-1500 dates. Existing manuscripts and individual metadata files are not edited.

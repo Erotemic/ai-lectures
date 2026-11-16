@@ -368,3 +368,18 @@ After five nearly continuous African regional-depth campaigns, the next phase de
 | 040250 | Fields between Rain and Sea: Farming and Authority in Early Hawaiʻi | Windward and leeward Hawaiʻi, Kohala fields, houses, and the much later peak of agricultural intensification. |
 
 **Next geographic rotations:** Mesoamerica (Oaxaca and Purépecha social histories), South Asia (regional institutions and everyday work), then East/Central Asia or medieval Europe and the Middle East, returning to Africa after these gaps receive attention. Select the next region by coverage and significance, rather than aiming for uniform continental quotas. Preserve pre-1500 chronology and explicit source records.
+
+## Seventeenth regional-depth installment — Mesoamerican evidence beyond surveys (November 2026)
+
+| ID | New lecture | Evidence emphasis |
+| --- | --- | --- |
+| 022210 | The Work behind the Walls: Families and Crafts at El Palmillo | El Palmillo houses, terrace repairs, maguey fiber and variable domestic craft work. |
+| 022220 | A Sea in the City: Teopancazco and Teotihuacan’s Neighborhood Economy | Teopancazco specialized sectors, migrants and Gulf Coast ties within Teotihuacan. |
+| 022230 | One Day in 378: Tikal, Teotihuacan, and the Politics of an Arrival | 378 CE Tikal arrival, Stela 31 and limits of reconstructing the Teotihuacan intervention. |
+| 045300 | Eight Deer and the Painted History: Reading Mixtec Books | Mixtec screenfolds, Eight Deer, Tututepec archaeological comparison and manuscript survival. |
+| 045310 | Lakes, Workshops, and a Court: The Purépecha State before 1500 | Purépecha Lake Pátzcuaro state formation, localized pottery production, metalworking and later narrative. |
+| 045320 | A Field Drawn and Measured: Indigenous Land Records after Conquest | Early colonial Codex Vergara and Santa María Asunción land measures; continuity and conquest-period change. |
+
+**Period boundaries:** The principal histories concern pre-1500 worlds. The 1539–1543 cadastral manuscripts are explicitly a later documentary lens. The Relación de Michoacán is a collaborative colonial historical source, not a contemporary account of dynastic origins. No claim depends on Wikipedia.
+
+**Next regional rotation:** Investigate South and Southeast Asian local institutions, agrarian systems and documentary histories (beyond existing surveys), then Central/East Asia and medieval Mediterranean histories. Avoid extending any single continent by habit when gaps elsewhere are more consequential.
