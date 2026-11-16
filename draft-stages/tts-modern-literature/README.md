@@ -67,7 +67,7 @@ These pairs add more widely read twentieth-century fiction, alongside rather tha
 
 ## Further blind spots and familiar classics
 
-Choose a specific work and verify its primary plot and historical context before drafting. Candidates for further units include Clarice Lispector's *The Hour of the Star* (Brazilian Portuguese), *Nervous Conditions* (Zimbabwean women's experience), James Baldwin's *Giovanni's Room*, and Milan Kundera's Czech-language fiction are now covered. Further candidates include Clarice Lispector's *The Hour of the Star* (Brazilian Portuguese), Yasunari Kawabata's *Snow Country*, and works from Southeast Asian and Middle Eastern traditions. The purpose is to add perspectives and literary techniques the existing selections have not taught, not to fill a numerical quota. Each selected work gets its **own full story lecture followed by analysis**, packaged as a single independently applicable Agent A ZIP.
+Representation is not a tally to complete mechanically. Important omissions remain in Indigenous, South and Southeast Asian, African-language, Middle Eastern, and Eastern European traditions, as well as other kinds of genre fiction and experimental prose. The next works should be chosen for what they can teach about form, institutions and lived experience, with a complete story orientation preceding the analysis. Candidates include Yasunari Kawabata's *Snow Country*, Naguib Mahfouz's *Palace Walk*, and Toni Cade Bambara's *The Salt Eaters*; each requires its own plot and source review before drafting. There is no runtime or word-count requirement.
 
 ## Special treatment: Tolkien's *The Lord of the Rings*
 
@@ -109,3 +109,13 @@ Three new complete story-first pairs add different narrative techniques to the s
 - `032200` then `033000`: Alice Walker, *The Color Purple* (1982). Celie's voice, Sofia and Shug, the buried letters and Nettie's African experiences, family revelations, work and final reunion. Analysis of epistolary voice, chosen intimacy, social and racial power, spiritual revision, independent labor, and contested portrayals. This is the novel, not screen or stage adaptations; Olinka are **fictional**, not a real-world ethnographic sample.
 
 The full plots, including spoilers and endings, precede each analysis. Length measurements record what was written, not a target or an acceptance criterion. Primary texts, award records, open library essays, and publicly visible scholarly abstracts are distinguished in `metadata/sources.json`; claim anchors and reading limits are documented in the individual metadata sidecars and `notes/story-analysis-expansion-030200-033000.md`. All files remain inside Agent A's pack.
+
+## New continuation: Lispector, Pramoedya, du Maurier (033200–036000)
+
+Six original transcripts add three complete story/analysis pairs, in numerical listening order:
+
+- `033200` / `034000`: Clarice Lispector, *The Hour of the Star* (*A Hora da Estrela*, 1977; Portuguese). Story covers Macabéa, Rodrigo S. M., Olímpico, Glória, Madame Carlota and the street ending, then analysis examines mediated voice, class, and the ethics of representing social invisibility. The fictional male narrator is not collapsed into the author's own voice.
+- `034200` / `035000`: Pramoedya Ananta Toer, *This Earth of Mankind* (*Bumi Manusia*, 1980; Indonesian). Story ends where **the first volume** ends, with Annelies's forced departure. Analysis examines Minke's education, Nyai's practical power without legal standing, gendered colonial modernity, testimony, and the novel's oral/written composition history. The fictional lawsuit is not presented as a complete guide to Dutch East Indies law.
+- `035200` / `036000`: Daphne du Maurier, *Rebecca* (1938; English). Story follows the unnamed narrator, marriage, Manderley, Rebecca's death, the investigation and fire; analysis addresses Gothic/Bluebeard form, coercion, class, narrator agency, and the distinction between Maxim's confession and his account of Rebecca's motives. The **cause of the fire is not asserted as definitively known**; film adaptations are not substituted for the novel.
+
+All sources, interpretations, publication claims and concrete plot claims are recorded in `metadata/sources.json` and lecture sidecars, with claim anchors matching the spoken text. Scholarly abstracts and partial excerpts are clearly labeled. No fixed duration, length quota, or audio-generation work is part of this continuation. The overlay is scoped to this content pack only.

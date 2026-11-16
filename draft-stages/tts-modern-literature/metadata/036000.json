@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "lecture_id": "036000",
+  "transcript": "036000-rebecca-analysis.md",
+  "related_resources": [
+    {
+      "source_id": "ml-rebecca-publisher",
+      "reason": "Plot, historical, editorial, or scholarly evidence as differentiated in the source catalog"
+    },
+    {
+      "source_id": "ml-rebecca-spark",
+      "reason": "Plot, historical, editorial, or scholarly evidence as differentiated in the source catalog"
+    },
+    {
+      "source_id": "ml-rebecca-linkin",
+      "reason": "Plot, historical, editorial, or scholarly evidence as differentiated in the source catalog"
+    },
+    {
+      "source_id": "ml-rebecca-oxford",
+      "reason": "Plot, historical, editorial, or scholarly evidence as differentiated in the source catalog"
+    },
+    {
+      "source_id": "ml-rebecca-pyrhonen",
+      "reason": "Plot, historical, editorial, or scholarly evidence as differentiated in the source catalog"
+    },
+    {
+      "source_id": "ml-rebecca-archive",
+      "reason": "Plot, historical, editorial, or scholarly evidence as differentiated in the source catalog"
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "036000-c01",
+      "anchor": "Daphne du Maurier's novel appeared in 1938.",
+      "kind": "literary_context_or_interpretation",
+      "source_ids": [
+        "ml-rebecca-archive",
+        "ml-rebecca-publisher"
+      ],
+      "source_locator": "1938 publisher archival history",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "036000-c02",
+      "anchor": "Literary criticism has taken her more seriously than the stereotype of a merely passive Gothic heroine suggests.",
+      "kind": "literary_context_or_interpretation",
+      "source_ids": [
+        "ml-rebecca-linkin"
+      ],
+      "source_locator": "Narratorial agency and scholarship",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "036000-c03",
+      "anchor": "Rebecca has often been connected to the Bluebeard tradition.",
+      "kind": "literary_context_or_interpretation",
+      "source_ids": [
+        "ml-rebecca-oxford",
+        "ml-rebecca-pyrhonen"
+      ],
+      "source_locator": "Bluebeard Gothic parallels",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "036000-c04",
+      "anchor": "The doctor's evidence shows that Rebecca was gravely ill and not pregnant.",
+      "kind": "literary_context_or_interpretation",
+      "source_ids": [
+        "ml-rebecca-spark"
+      ],
+      "source_locator": "Causal uncertainty after medical evidence",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "036000-c05",
+      "anchor": "Scholars have explored the novel in relation to the Gothic double, gender performance, and the narrative power of its unnamed second wife.",
+      "kind": "literary_context_or_interpretation",
+      "source_ids": [
+        "ml-rebecca-linkin",
+        "ml-rebecca-pyrhonen"
+      ],
+      "source_locator": "Critical approaches and interpretive plurality",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "036000-c06",
+      "anchor": "We are not told with certainty who started the blaze.",
+      "kind": "literary_context_or_interpretation",
+      "source_ids": [
+        "ml-rebecca-spark"
+      ],
+      "source_locator": "Do not substitute film or later adaptation ending",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}

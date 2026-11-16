@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "lecture_id": "035000",
+  "transcript": "035000-this-earth-of-mankind-analysis.md",
+  "related_resources": [
+    {
+      "source_id": "ml-bumi-penguin",
+      "reason": "Plot, historical, editorial, or scholarly evidence as differentiated in the source catalog"
+    },
+    {
+      "source_id": "ml-bumi-modernity",
+      "reason": "Plot, historical, editorial, or scholarly evidence as differentiated in the source catalog"
+    },
+    {
+      "source_id": "ml-bumi-interview",
+      "reason": "Plot, historical, editorial, or scholarly evidence as differentiated in the source catalog"
+    },
+    {
+      "source_id": "ml-bumi-censorship",
+      "reason": "Plot, historical, editorial, or scholarly evidence as differentiated in the source catalog"
+    },
+    {
+      "source_id": "ml-bumi-indonesia",
+      "reason": "Plot, historical, editorial, or scholarly evidence as differentiated in the source catalog"
+    },
+    {
+      "source_id": "ml-bumi-pbs",
+      "reason": "Plot, historical, editorial, or scholarly evidence as differentiated in the source catalog"
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "035000-c01",
+      "anchor": "Pramoedya Ananta Toer's novel, first published in Indonesian in 1980 as Bumi Manusia, is set in the Dutch East Indies around the turn of the twentieth century.",
+      "kind": "literary_context_or_interpretation",
+      "source_ids": [
+        "ml-bumi-penguin",
+        "ml-bumi-indonesia"
+      ],
+      "source_locator": "Title, publication, first-volume setting",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "035000-c02",
+      "anchor": "Scholarship on the novel's account of modernity emphasizes its gendered character.",
+      "kind": "literary_context_or_interpretation",
+      "source_ids": [
+        "ml-bumi-modernity"
+      ],
+      "source_locator": "Sexuality/gender, plural modernities (visible abstract)",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "035000-c03",
+      "anchor": "The novel's court case is a fictional arrangement of Dutch colonial law.",
+      "kind": "literary_context_or_interpretation",
+      "source_ids": [
+        "ml-bumi-penguin",
+        "ml-bumi-plot"
+      ],
+      "source_locator": "Epistemic distinction: do not universalize fictional statutes",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "035000-c04",
+      "anchor": "While he lacked ordinary access to writing materials, he told versions of the quartet's story to fellow prisoners.",
+      "kind": "literary_context_or_interpretation",
+      "source_ids": [
+        "ml-bumi-interview",
+        "ml-bumi-pbs"
+      ],
+      "source_locator": "Author interview and oral compositional stage",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "035000-c05",
+      "anchor": "His own interview testimony distinguishes the oral transmission of general outlines from the later written composition.",
+      "kind": "literary_context_or_interpretation",
+      "source_ids": [
+        "ml-bumi-interview"
+      ],
+      "source_locator": "Author distinguishes oral outlines from fully written novels",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "035000-c06",
+      "anchor": "The Indonesian government banned the first volumes in 1981.",
+      "kind": "literary_context_or_interpretation",
+      "source_ids": [
+        "ml-bumi-censorship",
+        "ml-bumi-indonesia"
+      ],
+      "source_locator": "Contemporary censorship and timeline",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}

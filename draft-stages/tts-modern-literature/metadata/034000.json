@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "lecture_id": "034000",
+  "transcript": "034000-the-hour-of-the-star-analysis.md",
+  "related_resources": [
+    {
+      "source_id": "ml-hour-imscatalog",
+      "reason": "Plot, historical, editorial, or scholarly evidence as differentiated in the source catalog"
+    },
+    {
+      "source_id": "ml-hour-manuscript",
+      "reason": "Plot, historical, editorial, or scholarly evidence as differentiated in the source catalog"
+    },
+    {
+      "source_id": "ml-hour-penguin",
+      "reason": "Plot, historical, editorial, or scholarly evidence as differentiated in the source catalog"
+    },
+    {
+      "source_id": "ml-hour-unb",
+      "reason": "Plot, historical, editorial, or scholarly evidence as differentiated in the source catalog"
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "034000-c01",
+      "anchor": "This is a novella by the Brazilian writer Clarice Lispector, published in Portuguese in 1977 as A Hora da Estrela, the last of her books published in her lifetime.",
+      "kind": "literary_context_or_interpretation",
+      "source_ids": [
+        "ml-hour-imscatalog",
+        "ml-hour-penguin"
+      ],
+      "source_locator": "Publication and author chronology",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "034000-c02",
+      "anchor": "Rodrigo is not a transparent mouthpiece for her opinions.",
+      "kind": "literary_context_or_interpretation",
+      "source_ids": [
+        "ml-hour-imscatalog",
+        "ml-hour-penguin"
+      ],
+      "source_locator": "Author/narrator distinction (interpretation)",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "034000-c03",
+      "anchor": "Critical writing about the novella has long noticed that the narrated life, the act of its narration, and the narrator's own self-examination coexist.",
+      "kind": "literary_context_or_interpretation",
+      "source_ids": [
+        "ml-hour-unb",
+        "ml-hour-imscatalog"
+      ],
+      "source_locator": "Layered narrative accounts",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "034000-c04",
+      "anchor": "Her northeastern origin is relevant.",
+      "kind": "literary_context_or_interpretation",
+      "source_ids": [
+        "ml-hour-imscatalog"
+      ],
+      "source_locator": "Regional migration, class framing",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "034000-c05",
+      "anchor": "Then the car arrives.",
+      "kind": "literary_context_or_interpretation",
+      "source_ids": [
+        "ml-hour-globo",
+        "ml-hour-imscatalog"
+      ],
+      "source_locator": "Fortune-telling and car sequence",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}
