@@ -17,6 +17,20 @@ This is a separate literary retelling of the conventional 100-chapter Ming novel
 | 449000 | 6 | The Sparrow, the Fish, and the Temple | 1383 |
 | 450000 | 7 | Forty-Nine Days in the Eight-Trigrams Furnace | 1216 |
 | 451000 | 7 | The Buddha’s Palm and the Mountain of Five Elements | 1445 |
+| 452000 | 8 | The Buddha’s Scriptures and the Westward Mission | 980 |
+| 453000 | 8 | The River of Sands and the Pig Demon | 1061 |
+| 454000 | 8 | The Dragon Prisoner and the Monkey Beneath the Mountain | 1018 |
+| 455000 | 9 | Chen Guangrui and the Crossing at Hong River | 948 |
+| 456000 | 9 | The River Child and the Blood Letter | 927 |
+| 457000 | 9 | The Missing Toe and the Family Reunited | 993 |
+| 458000 | 10 | The Fisherman, the Woodcutter, and the Fortune Teller | 1170 |
+| 459000 | 10 | The Minister Who Slept and the Ghost at the Gate | 1006 |
+| 460000 | 11 | Taizong Before the Ten Kings of the Dead | 830 |
+| 461000 | 11 | The Hells, the City of Wrongful Death, and the Borrowed Money | 1000 |
+| 462000 | 11 | The Emperor’s Return and the Messenger with Melons | 843 |
+| 463000 | 12 | The Princess’s Borrowed Body and the Debt of Silver | 828 |
+| 464000 | 12 | Xuanzang and the Great Water-and-Land Ceremony | 1124 |
+| 465000 | 12 | Guanyin Revealed and Xuanzang’s Oath | 1058 |
 
 ## Text and evidence decisions
 
@@ -35,6 +49,11 @@ This is a separate literary retelling of the conventional 100-chapter Ming novel
 - Chapter 5: [Chinese Wikisource](https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC005%E5%9B%9E) — lectures 446000,447000.
 - Chapter 6: [Chinese Wikisource](https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC006%E5%9B%9E) — lectures 448000,449000.
 - Chapter 7: [Chinese Wikisource](https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC007%E5%9B%9E) — lectures 450000,451000.
+- Chapter 8: [Chinese Wikisource](https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC008%E5%9B%9E) — lectures 452000, 453000, 454000.
+- Chapter 9: [Chinese Wikisource](https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC009%E5%9B%9E) — lectures 455000, 456000, 457000.
+- Chapter 10: [Chinese Wikisource](https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC010%E5%9B%9E) — lectures 458000, 459000.
+- Chapter 11: [Chinese Wikisource](https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC011%E5%9B%9E) — lectures 460000, 461000, 462000.
+- Chapter 12: [Chinese Wikisource](https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC012%E5%9B%9E) — lectures 463000, 464000, 465000.
 
 ## Useful reading and navigation
 
@@ -45,12 +64,20 @@ This is a separate literary retelling of the conventional 100-chapter Ming novel
 - [Monkey King: Wikipedia](https://en.wikipedia.org/wiki/Monkey_King)
 - [Patriarch Subodhi: Wikipedia](https://en.wikipedia.org/wiki/Subhuti)
 
+## Textual problem: the River Child and numbering around chapter 9
+
+The selected Chinese Wikisource witness contains **Chapter 9, “Chen Guangrui Takes Office and Suffers Calamity; the River Child Monk Avenges and Repays His Origins.”** Its own header states that this material was added as an appendix by Wang Xiangxu and Huang Zhouxing in the Qing Kangxi era. This material is not securely a chapter of the surviving 1592 printing. Some complete printed and online editions place the monk's family-origin story in an appendix or omit it from the original consecutive sequence. Those presentations may label the Dragon King wager as chapter 9 rather than 10 and shift the subsequent chapter numbers.
+
+Lectures 455000–457000 retell the *River Child* episode because it forms a substantial part of the selected witness and because many modern readers know it, **not** because it is established as original to the sixteenth-century edition. Compare by **chapter subject or title**, not number alone, when using another edition. The rest of this installment follows the same linked witness: Jing River Dragon King (ch. 10), Taizong in the underworld (ch. 11), and Xuanzang's selection and oath (ch. 12).
+
+The novella-like origin episode is literary, not a historical biography of the real pilgrim Xuanzang. Its final statement about Wenjiao's suicide must not be softened into an uncomplicated family reunion. The threatening coercion that shapes her actions is part of the tale. The underworld and reincarnation passages in chapters 10–12 are also fictional, though they draw on religious and social traditions.
+
 ## Progress and next chapter group
 
-The expanded literary telling now includes chapters **1–7**, from the stone birth through the imprisonment under the Mountain of Five Elements. Lectures 444000–451000 use natural scene transitions within chapters 4–7 rather than claiming new divisions in the source novel.
+The expanded retelling now covers **chapters 1–12** in 25 substantial, original English narrative lectures. This overlay adds **452000–465000**, chapter 8's westward commission and the future companions, chapter 9's family-origin story in the selected witness, chapter 10's fatal rainfall wager and dream execution, chapter 11's afterlife journey and return, and chapter 12's courtly religious ceremony and the vow to seek the scriptures.
 
-The next natural story arc is chapters **8–12**, which establish the westward scripture mission and the Tang court and develop the historical-and-fictional groundwork for the pilgrim monk. Chapter numbering and arrangement may differ among editions, so verify those chapter boundaries against the chosen primary witness. The following long pilgrimage has repeated characters, journeys, reversals, and delayed consequences: let those developments govern episode boundaries rather than setting a fixed length or one-chapter-per-lecture rule.
+**Next:** Chapter 13 (the mountain of tigers, the first loss, the hunter Liu Boqin) and chapter 14 (the release of Wukong from the Mountain of Five Elements and the difficult beginning of their relationship), then chapter 15 (the future white horse and the Eagle-Sorrow Stream). Develop each narrative event and its consequences at a listening pace, without imposing an episode-length or chapter-count quota.
 
-Once the narrative reaches the end of the 100-chapter novel, separate criticism can address the textual tradition, Buddhist and Daoist language, Ming satire of institutions, religious ritual, the novel's representation of outsiders, the relationship between Sun Wukong and the monk, and its later adaptations.
+After chapter 100, a separate critical sequence can examine the novel's textual history, Buddhist and Daoist language, social satire, religious practice, outsiders, relations among the four pilgrims, and later adaptations.
 
-**This overlay covers chapters 4–7 only. The cumulative expanded narrative currently covers chapters 1–7 of 100; chapters 8–100 remain to be written.**
+**Chapters 13–100 remain to be written in the expanded literary retelling.** The six World History survey lectures remain available unchanged for listeners who want the complete plot in a shorter version.
