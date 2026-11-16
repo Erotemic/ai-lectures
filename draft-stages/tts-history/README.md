@@ -1,8 +1,20 @@
 # History · People and ideas
 
-The History track contains **50 substantive, standalone historical portraits**, including the original 28 and eighteen additional subjects. All narration is self-contained for a reader with the background indicated in each lecture. Historical claims have linked research sources in `metadata/sources.json`; mathematical appendices after the spoken markers preserve exact formulas without burdening narration.
+The History track contains **52 researched, standalone historical portraits** of mathematicians and scientists. Historical lives, places, relationships, working conditions and institutions are the principal subject. Detailed mathematical work may be narrated after the historical story has established its context; this track is not required to omit proof or calculations. Existing entries retain their identifiers and stated prerequisites. Historical claims have linked sources in `metadata/sources.json`; non-spoken companions can retain formulas, chronology and research qualifications.
 
-The newest additions are:
+## Agent D: historical-person refocus (16 November 2026)
+
+The new editorial direction is **the person in their place and time**, not a theorem presented through a person. Introduce the person and the circumstances first. Detailed calculations, derivations and proof sequences are welcome later in the narration when they help explain the individual's work; do not drop well-crafted technical material merely for being mathematical. There is no required formula, subject quota or runtime target. No source-supported personal story should be invented to fill a page; for antiquity and sparse records, the uncertainty itself may be an important historical subject.
+
+This pass adds two connected, biography-led portraits and revises six earlier manuscripts to begin with the life and historical circumstances while retaining their mathematical explanations:
+
+- **051000 — Felix Klein**, [A mathematician who built a world for mathematics](051000-klein.md): Düsseldorf and the 1848 revolutions; Plücker and the Franco-Prussian War; the Erlangen Program; teaching and illness; Göttingen institution-building; access to mathematical education; the 1914 pro-war manifesto; and collaboration with Noether and Hilbert.
+- **052000 — Emmy Noether**, [A mathematician in a world that would not employ her](052000-noether.md): Jewish family and schooling in Erlangen; restrictions on university study and employment; Fischer, Hilbert and Klein; war and relativity; the Göttingen school; exclusion under Nazism; and teaching in exile at Bryn Mawr and Princeton.
+
+The revisions cover **David Hilbert (008000), Henri Lebesgue (043000), Srinivasa Ramanujan (046000), Paul Dirac (047000), Nikola Tesla (048000), and Pierre de Fermat (050000)**. Their mathematical explanations remain in the spoken lecture, moved to a later section after the biographical narrative. The new Klein and Noether portraits also include non-spoken research companions. A prioritized follow-on review appears in [PORTRAIT_DIRECTION.md](PORTRAIT_DIRECTION.md).
+
+
+Earlier additions include:
 
 - **Gottfried Wilhelm Leibniz (`039000`)** — Paris and Huygens, the differential and integral calculi, the Newton priority dispute, numerical notation, binary arithmetic, the stepped reckoner, symbolic logic, and broader philosophical and institutional life. **4,813 spoken words**, about **33.2 minutes** at 145 WPM.
 - **Pythagoras (`040000`)** — Samos and Croton, religious-philosophical community, music and proportion, the right-triangle theorem, integer triples, irrationality, numerical cultures before Pythagoras, and later Pythagorean traditions. The lecture distinguishes the historical teacher from mathematics attributed to him centuries later. **4,811 spoken words**, about **33.2 minutes** at 145 WPM.
@@ -52,10 +64,10 @@ Chandler Davis (`018000`), William Kahan (`019000`), Per-Åke Wedin (`020000`), 
 
 ## New portraits, November 2026: 043000–046000
 
-- **043000 — Henri Lebesgue**: [Henri Lebesgue: How can we measure a function that changes everywhere?](043000-lebesgue.md). 2,686 spoken words; approximately 18.5 minutes at 145 words per minute.
+- **043000 — Henri Lebesgue**: [Henri Lebesgue: A schoolteacher and the reshaping of analysis](043000-lebesgue.md). The 16 November 2026 revision preserves technical material after the biographical arc.
 - **044000 — Geoffrey Hinton**: [Geoffrey Hinton: How can a network discover a representation?](044000-hinton.md). 2,612 spoken words; approximately 18.0 minutes at 145 words per minute.
 - **045000 — Terence Tao**: [Terence Tao: How can one mathematician connect so many kinds of problems?](045000-tao.md). 2,475 spoken words; approximately 17.1 minutes at 145 words per minute.
-- **046000 — Srinivasa Ramanujan**: [Srinivasa Ramanujan: How can patterns in numbers become theorems?](046000-ramanujan.md). 2,698 spoken words; approximately 18.6 minutes at 145 words per minute.
+- **046000 — Srinivasa Ramanujan**: [Srinivasa Ramanujan: From Madras notebooks to Cambridge](046000-ramanujan.md). The 16 November 2026 revision preserves technical material after the biographical arc.
 
 These four manuscripts were authored as a separate History expansion following the existing portrait backlog. They contain no image, generated audio, binary assets, or changes to Agent D’s music theory namespace. Sources are in the track-level source registry and each lecture’s metadata file.
 
@@ -70,11 +82,3 @@ These four manuscripts were authored as a separate History expansion following t
 The source registry and claim metadata for these lectures are local to this track. No new binary media, shared reader edits, or changes to any of the four independent agents' owned namespaces are included.
 
 
-## Portraits 047000–050000: theories, inventions and proofs
-
-- **047000 — Paul Dirac:** a source-grounded portrait of his Bristol upbringing, engineering training, Cambridge work, family, and the mathematical factorization behind his relativistic electron equation. Distinguishes the 1928 theory, Dirac's changing interpretation, and the 1932 positron observation.
-- **048000 — Nikola Tesla:** explicitly an electrical engineer rather than a mathematician, included as an applied-mathematics portrait. Develops the rotating magnetic-field vector, slip, polyphase power and transmission losses, while distinguishing independently developed inventions and an unrealized wireless-power proposal.
-- **049000 — Johannes Kepler:** Tycho's measurements, the eight-arcminute discrepancy, ellipse geometry, equal areas, the harmonic period law, family and religious upheaval, and the legal defense of Katharina Kepler. Newtonian interpretations are identified as later explanations.
-- **050000 — Pierre de Fermat:** a lawyer's mathematical correspondence, an accessible proof of the little theorem, tangents, Pascal's probability question, optics, infinite descent, and the historical distinction between an announced theorem and a surviving proof.
-
-The source registry and claim metadata for these lectures are local to this track. No new binary media, shared reader edits, or changes to any of the four independent agents' owned namespaces are included.

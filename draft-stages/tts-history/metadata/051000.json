@@ -1,0 +1,216 @@
+{
+  "schema_version": 1,
+  "lecture_id": "051000",
+  "transcript": "051000-klein.md",
+  "related_resources": [
+    {
+      "source_id": "history-klein-icmi",
+      "reason": "Historical account of education, German institutions, Franco-Prussian war service and role in mathematical instruction; search-accessible; original site may restrict automated fetches."
+    },
+    {
+      "source_id": "history-klein-mactutor",
+      "reason": "Bonn, Plücker, the wars, Erlangen, Munich, Leipzig health history, Göttingen, editing and educational reform; cites historical literature."
+    },
+    {
+      "source_id": "history-klein-manifesto",
+      "reason": "Primary document with Felix Klein as listed signatory. The document presents wartime propaganda claims, not verified fact."
+    },
+    {
+      "source_id": "history-noether-goettingen",
+      "reason": "Official university summary of 1915 invitation, 1919 habilitation, delayed teaching salary, expulsion and move to Bryn Mawr."
+    },
+    {
+      "source_id": "history-noether-klein-sauer",
+      "reason": "Research on working notes, authorship, 1915–1918 collaboration, habilitation barriers and the publication of the 1918 theorems."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "051000-h01",
+      "anchor": "born in Düsseldorf",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-klein-mactutor",
+        "history-klein-icmi"
+      ],
+      "source_locator": "Born 25 April 1849, Düsseldorf, and context of 1848–49",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "051000-h02",
+      "anchor": "His father, Caspar Klein, served the provincial administration",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-klein-icmi",
+        "history-klein-mactutor"
+      ],
+      "source_locator": "Klein family and Prussian state service",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "051000-h03",
+      "anchor": "assistant to Julius Plücker",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-klein-mactutor",
+        "history-klein-icmi"
+      ],
+      "source_locator": "University of Bonn and physics/geometry laboratory",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "051000-h04",
+      "anchor": "Plücker died in eighteen sixty-eight",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-klein-mactutor"
+      ],
+      "source_locator": "Death and completion of Plücker’s unfinished work",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "051000-h05",
+      "anchor": "Klein was in Paris in July eighteen seventy",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-klein-mactutor",
+        "history-klein-icmi"
+      ],
+      "source_locator": "Franco-Prussian War and return from Paris",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "051000-h06",
+      "anchor": "contracted typhus",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-klein-icmi"
+      ],
+      "source_locator": "1870 medical corps service and health",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "051000-h07",
+      "anchor": "full professor at Erlangen at the age of twenty-three",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-klein-mactutor",
+        "history-klein-icmi"
+      ],
+      "source_locator": "1872 Erlangen appointment and Erlangen Program",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "051000-h08",
+      "anchor": "married Anne Hegel",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-klein-mactutor"
+      ],
+      "source_locator": "Marriage in 1875",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "051000-h09",
+      "anchor": "period of depression in eighteen eighty-three and eighteen eighty-four",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-klein-mactutor"
+      ],
+      "source_locator": "Leipzig health and professional transition; cites Rowe",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "051000-h10",
+      "anchor": "eighteen eighty-six he accepted a chair in Göttingen",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-klein-mactutor"
+      ],
+      "source_locator": "1886 professorship and school building",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "051000-h11",
+      "anchor": "The journal *Mathematische Annalen*",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-klein-mactutor"
+      ],
+      "source_locator": "Editing, founding and intellectual influence",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "051000-h12",
+      "anchor": "Hilbert, whom he brought to Göttingen in eighteen ninety-five",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-klein-mactutor"
+      ],
+      "source_locator": "Klein and Hilbert Göttingen appointment",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "051000-h13",
+      "anchor": "Grace Chisholm",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-klein-mactutor"
+      ],
+      "source_locator": "Women’s education at Göttingen and Chisholm doctorate",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "051000-h14",
+      "anchor": "Klein and Hilbert invited her",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-noether-goettingen",
+        "history-noether-klein-sauer"
+      ],
+      "source_locator": "Noether invitation and collaboration in 1915",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "051000-h15",
+      "anchor": "Her nineteen eighteen paper",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-noether-klein-sauer"
+      ],
+      "source_locator": "Noether, Hilbert and Klein shared discussions, distinct authorship",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "051000-h16",
+      "anchor": "first president of the International Commission on Mathematical Instruction",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-klein-icmi",
+        "history-klein-mactutor"
+      ],
+      "source_locator": "ICMI foundation and Rome 1908",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "051000-h17",
+      "anchor": "signed the public declaration known as the Manifesto of the Ninety-Three",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-klein-manifesto"
+      ],
+      "source_locator": "Primary text, named signatories 1914",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "051000-h18",
+      "anchor": "retired from his professorship in nineteen thirteen",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-klein-mactutor"
+      ],
+      "source_locator": "Retirement and end of career",
+      "audit_status": "source_cross_checked"
+    }
+  ]
+}

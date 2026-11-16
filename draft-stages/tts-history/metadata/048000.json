@@ -30,6 +30,14 @@
     {
       "source_id": "history-tesla-topic",
       "reason": "Rotating field, synchronous speed, and slip"
+    },
+    {
+      "source_id": "history-tesla-american-national-biography",
+      "reason": "Early life, Serbian Orthodox household, education in Graz, work in Budapest, Paris and New York, industrial career."
+    },
+    {
+      "source_id": "history-tesla-franklin-case-files",
+      "reason": "Childhood and family context, education and migration; distinguish contemporary documentation from later autobiographical scenes."
     }
   ],
   "historical_claims": [
@@ -133,6 +141,27 @@
         "history-tesla-mit"
       ],
       "source_locator": "Death",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "048000-h11",
+      "anchor": "Nikola's older brother Dane died in childhood",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-tesla-american-national-biography",
+        "history-tesla-franklin-case-files"
+      ],
+      "source_locator": "Family and brother death in childhood",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "048000-h12",
+      "anchor": "he studied at the polytechnic in Graz but did not complete a university degree",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-tesla-american-national-biography"
+      ],
+      "source_locator": "Graz studies and no university degree",
       "audit_status": "source_cross_checked"
     }
   ]
