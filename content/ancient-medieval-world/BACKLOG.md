@@ -383,3 +383,18 @@ After five nearly continuous African regional-depth campaigns, the next phase de
 **Period boundaries:** The principal histories concern pre-1500 worlds. The 1539–1543 cadastral manuscripts are explicitly a later documentary lens. The Relación de Michoacán is a collaborative colonial historical source, not a contemporary account of dynastic origins. No claim depends on Wikipedia.
 
 **Next regional rotation:** Investigate South and Southeast Asian local institutions, agrarian systems and documentary histories (beyond existing surveys), then Central/East Asia and medieval Mediterranean histories. Avoid extending any single continent by habit when gaps elsewhere are more consequential.
+
+## Eighteenth regional-depth installment — South and Southeast Asian institutions (November 2026)
+
+| ID | New lecture | Evidence emphasis |
+| --- | --- | --- |
+| 034300 | The Reservoir beyond the Palace: Water and Work in Ancient Sri Lanka | Anuradhapura irrigation inscriptions, village tank cascades, stratigraphy and multigenerational repair. |
+| 034310 | A Grant at Kollam: Traders, Churches, and the Work of a Port | Kollam 849–50 copper plates: merchant associations, religious foundation, workers and tax privileges. |
+| 034320 | A House inside the Walls: The Pyu Cities before Bagan | Pyu settlement, water management and Yahanda household surfaces beneath Sri Ksetra monumental archaeology. |
+| 034330 | Beads along a Changing Delta: Angkor Borei and Óc Eo | Angkor Borei beads, Óc Eo workshops, pre-Angkorian canals and limits of the Funan label. |
+| 065100 | The Water Calendar: Fields and Irrigation Associations in Bali | Bali kasuwakan terminology, water rights, ecology, and competing farmer/king interpretations. |
+| 065200 | Seventy-Nine Crossings: Ferries, Taxes, and Law in Majapahit Java | Majapahit Canggu ferry charter, tax conversion, sima grants, litigation and the 1365 court poem. |
+
+**Evidence restrictions:** Later chronicles do not date Sri Lankan dams without corroboration. A ninth-century Kollam grant does not establish apostolic-era events. A Pyu funerary site does not automatically certify a religious tradition. A canal's infill date does not certify a population collapse. Modern subak is not an unchanged copy of early medieval irrigation. Majapahit court poem place lists do not document direct administration of every claimed dependency. Publisher-abstract evidence is explicitly labeled.
+
+**Next rotation:** Central Asia, medieval Iran and the Mediterranean, including how institutions functioned outside capital cities. Continue assessing coverage before adding another geographically concentrated installment.

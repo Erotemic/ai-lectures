@@ -57,6 +57,10 @@ This is an independent, source-grounded, audio-first world-history curriculum fo
 | 034000 | Monsoons, Temples, and Ports: South and Southeast Asian Worlds | 1,394 |
 | 034100 | A Debt Cleared in Copper: Law and Language in Tenth-Century Luzon | 1,258 |
 | 034200 | A Kingdom in the River Mouths: Srivijaya, Oaths, and the Straits | 1,297 |
+| 034300 | The Reservoir beyond the Palace: Water and Work in Ancient Sri Lanka | 1,134 |
+| 034310 | A Grant at Kollam: Traders, Churches, and the Work of a Port | 1,050 |
+| 034320 | A House inside the Walls: The Pyu Cities before Bagan | 1,121 |
+| 034330 | Beads along a Changing Delta: Angkor Borei and Óc Eo | 1,127 |
 | 035000 | Across the Sahel: Ghana, Cities, and Trans-Saharan Worlds | 1,367 |
 | 035100 | Before the Gold Crossed the Desert: Tadmekka, Gao, and the Work of Trade | 1,200 |
 | 036000 | Shorelines of Exchange: East Africa and the Indian Ocean | 1,365 |
@@ -148,6 +152,8 @@ This is an independent, source-grounded, audio-first world-history curriculum fo
 | 063000 | Inside the Stone Town: Households and Public Life on the Swahili Coast | 1,493 |
 | 064000 | The Fields beneath the Pagodas: Bagan and the Making of a Sacred Landscape | 1,441 |
 | 065000 | Rice Fields and Stone Temples: Java before 1500 | 1,539 |
+| 065100 | The Water Calendar: Fields and Irrigation Associations in Bali | 1,144 |
+| 065200 | Seventy-Nine Crossings: Ferries, Taxes, and Law in Majapahit Java | 1,130 |
 | 066000 | Papers from the Oasis: Everyday Life in Medieval Turfan | 1,541 |
 | 067000 | The Plaza and the River: Moundville and the Southeastern Woodlands | 1,336 |
 | 068000 | The Plains before the Horse: Bison, Fields, and Earthlodge Villages | 1,250 |
@@ -242,3 +248,7 @@ Six new standalone Pacific lectures use `040200`–`040250`: Lapita families and
 ## Seventeenth regional-depth installment — Mesoamerican families, states, and documents (November 2026)
 
 Six additional independent lectures deepen previously surveyed Teotihuacan and Oaxaca and add Mixtec, Purépecha, and postconquest Indigenous land documents. The collection now contains **168** lectures. Every new narration paragraph has a source map; Wikipedia links appear only in clearly marked supplementary reading. The early colonial land records are identified as such, not silently assigned to pre-1500 dates. Existing manuscripts and individual metadata files are not edited.
+
+## Eighteenth regional-depth installment — institutions in South and Southeast Asia (November 2026)
+
+Six lectures extend historical depth without replacing the existing South/Southeast Asian surveys. Sri Lankan tank cascades, the Kollam Christian-merchant copper-plate grant, Pyu domestic archaeology, the Mekong delta's canals and beads, Old Balinese irrigation records, and a Majapahit ferry charter provide contrasting material and documentary lenses. The collection now contains **174** lectures. Every new spoken paragraph has source-specific evidence-limit metadata; Wikipedia links are grouped solely as additional orientation. Existing manuscripts and their individual metadata remain unchanged.
