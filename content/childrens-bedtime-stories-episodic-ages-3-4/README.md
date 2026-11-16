@@ -1,7 +1,7 @@
 # Children's Bedtime Stories — Episodic (Ages 3–4)
 
 **Track ID:** `childrens-bedtime-stories-episodic-ages-3-4`  
-**Series:** *Willow Bend and the Little Lights*; nine completed seasons  
+**Series:** *Willow Bend and the Little Lights*; ten completed seasons  
 **Primary listener:** age three; intended age range: three to four  
 **Performance:** one consistent TTS narrator; no character acting, music, effects, or images needed  
 **Order:** listen in sequence for the full arc, but each episode supplies enough context to listen alone  
@@ -166,3 +166,19 @@ The world extends **west beyond Far Meadow**. A paved road and green bus lead to
 | 054000 | [Another Fold for Amy’s Map](054000-another-fold-for-amys-map.md) | All six children visit Market Street with their grown-ups. Kim and her grown-up return The Loud Blue Sock to the public library. Each child remembers a real market landmark. At home Grandma May helps Amy attach a new yellow fold-out flap to the west edge of her physical map, distinguishing the green bus line on the paved road from the walkable path over Bell Hill. Market Street’s bakery, shop clock, library, pigeon bench and flower stall become real map marks. The map goes beside Amy’s bed; the three Story House collections and repaired door, garden, lantern, pouch, hat, boots, and Sue’s bakery stay as before. There is no pending event. |
 
 See [WORLD_BIBLE.md](WORLD_BIBLE.md) for geographic routes, episode-by-episode state and all earlier persistent objects; [PARENTS_GUIDE.md](PARENTS_GUIDE.md) for optional non-spoken prompts and references. Narration is single-voice original fiction. No audio is included. All previous 48 scripts, episode IDs and filenames remain unchanged.
+
+
+## Season ten: When the Garden Grew Tall
+
+After many further weeks of adult care, the Story House's real garden changes substantially without impossible instant growth. The spring radishes have already been harvested at the appropriate point, and the two sunflower stems grow tall: one blooms by the season end, while the other remains budded. The original LITTLE GROWING GARDEN sign is moved a little along the dry path to remain readable. The first garden drawing and an interim sketch remain in the original folder, with a final, new **THE GARDEN TODAY** drawing added alongside them. Amy adds a single yellow flower dot inside the existing garden square of her **real map**, preserving the western Market Street bus flap.
+
+| Episode | Story | Lasting change |
+|---|---|---|
+| 055000 | [The Garden That Grew Past Its Sign](055000-the-garden-that-grew-past-its-sign.md) | Two sunflower stems have grown tall; one has a round green bud and the other is shorter. The radishes were harvested by caretakers at their proper time in preceding weeks, some washed and eaten, leaving the front row empty with its red label. The sign is partly hidden by a leaf but has not yet moved. Amy puts a small interim tall-plant sketch into the original LITTLE GROWING GARDEN folder beside the first picture. Map remains unchanged. |
+| 056000 | [Ben and the Sign That Went Missing](056000-ben-and-the-sign-that-went-missing.md) | With Grandma May present, Grandpa Ed relocates the existing garden sign and peg a short distance along the same dry approach, outside the sunflower leaves and without narrowing the path or touching the plants. Sue and Ben visit together and joke about the sign. No other permanent props or plants change. |
+| 057000 | [Kim and the Empty Row](057000-kim-and-the-empty-row.md) | Kim notices a beetle and shifting sunflower-leaf shadows in the bare front row but puts nothing in the soil. Her pouch still contains all three pebbles, including the striped one. Grandma May says no new planting has been decided yet. The existing stepping stones and moved sign are unchanged. |
+| 058000 | [Todd and the Bud with Its Coat On](058000-todd-and-the-bud-with-its-coat-on.md) | Across two visits with Aunt Pat, Todd compares the old drawing with present buds and makes a second drawing on the back of the same sheet. Several days later the larger bud shows a thin pale-yellow edge within its folds; it is not yet open. Todd takes his drawings home to Reed Meadow. No garden plant is handled or forced open. |
+| 059000 | [Wendy and the Flower Without a Hat](059000-wendy-and-the-flower-without-a-hat.md) | The first sunflower is open with broad yellow petals and a dark center. The second sunflower remains budded. A single incidental bee visits and flies away; the children do not chase it. Wendy takes her little crooked-brimmed paper hat home to Far Meadow and puts it on a walnut-shaped wooden knob. Her straw hat retains its blue ribbon. |
+| 060000 | [Two Pictures of the Same Garden](060000-two-pictures-of-the-same-garden.md) | Six friends and their trusted grown-ups make a new shared THE GARDEN TODAY picture and place it in the *existing* LITTLE GROWING GARDEN folder behind the original picture and interim sketch. Amy adds one small yellow dot to the existing garden square of her real yellow map while preserving its two green marks and the western bus flap. First sunflower stays open, second stays in bud, front row remains empty with red label. All go home; no new shelf folder or event. |
+
+The season has six complete single-narrator stories, with non-spoken caregiver notes and source anchors. No fixed story duration is imposed. Earlier episodes and metadata are unchanged. See [WORLD_BIBLE.md](WORLD_BIBLE.md) for chronological object/location facts and [PARENTS_GUIDE.md](PARENTS_GUIDE.md) for source scope and optional prompts. No audio or artwork is included.

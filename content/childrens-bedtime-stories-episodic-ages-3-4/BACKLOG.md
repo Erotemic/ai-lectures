@@ -14,6 +14,8 @@
 
 - **Season 9, 049000–054000 — The Green Bus to Market Street.** The children discover the paved road and bus west of Far Meadow, revisit the real market town on separate trips, and extend Amy's real yellow map with a western fold-out. Kim borrows then returns *The Loud Blue Sock*. Sue adds a pretend pocket clock to her existing cardboard bakery. No new named characters.
 
+- **Season 10, 055000–060000 — When the Garden Grew Tall.** Spring radishes have been harvested after normal care over intervening weeks; two tall sunflowers develop, one blooms and one stays in bud. Grandpa Ed and Grandma May move the original garden sign a little along the dry path. The existing garden folder gains an interim sketch and a new full-group picture; Amy adds a tiny yellow dot to the real map without removing its green marks or bus flap. No additional shelf collection.
+
 ## Continuity priorities
 
 `WORLD_BIBLE.md` is authoritative for geography, all friendships, maps and object custody. The garden is a real physical place on Amy's yellow map and should not be confused with imaginary Button Town. The Book of Little Sounds stays complete, the orange lantern stays tilted, Kim keeps three pouch pebbles, Wendy's blue ribbon stays on her hat and her picnic banner inside her cottage window, Todd keeps his yellow boots and sketch.
@@ -35,6 +37,12 @@ The old Story House squeak is a memory, not the door's present sound. Grandpa Ed
 Market Street is now a real town setting known to all six children. The green bus stop is beyond Far Meadow, and bus travel is shown as a bus route on Amy's new western fold-out flap rather than a walking shortcut. Kim has returned the borrowed library book. Sue's home bakery has a stationary pretend paper clock with a pocket holding a paper sandwich. The Story House door is still quiet, the older shelf collections remain, and the real garden may keep growing normally.
 
 **Toward eleven seasons:** Season ten could give the garden and people who care for it a new chapter after time has passed; season eleven could extend relationships beyond the bus without adding arbitrary new names. These are editorial possibilities, not fixed commitments or automatic lecture titles.
+
+## Season-ten resolved state and next-season direction
+
+The Story House garden now has a bare, post-harvest radish front row with its original label, one open sunflower, and another budded sunflower with a little yellow showing. Its old small sign now stands in a clear spot on the dry approach. The original garden folder contains its early picture, Amy's interim sketch and the completed group THE GARDEN TODAY picture, all on the same shelf beside the Book of Little Sounds and Button Town envelope. Amy's real map includes the garden's two green marks, one tiny yellow flower dot and the attached Market Street bus-route flap. No prior plot is reset.
+
+**Season eleven is next**, completing the stated goal of at least eleven seasons (66 connected episodes). Consider using the established geography and cast in a different kind of story: a friendly day of exchanging visits between Willow Bend and Market Street, a story handed from one character to the next, or a small real-world misunderstanding that needs more than one friend to settle. No requirement to add new characters or to make the next season another garden season. Each episode still needs its own safe bedtime ending and one earned permanent change.
 
 ## Possible future arcs, not commitments
 
