@@ -1,0 +1,22 @@
+# Wuthering Heights — Story: Catherine, Heathcliff, and a Choice
+
+**Work:** Emily Brontë, *Wuthering Heights* (1847)  
+**Form:** Narrative sequence, chapters 4–9
+
+<!-- BEGIN SPOKEN LECTURE -->
+# Wuthering Heights — Catherine, Heathcliff, and a Choice
+
+The foundling Heathcliff becomes inseparable from Catherine Earnshaw. They run across the moors, defy household rules, and share a fierce intimacy that seems to belong to a world outside ordinary family arrangements. Yet their freedom is never complete. Catherine is the daughter of the house. Heathcliff has been taken in by her father, but he has no independent claim to the family's name or property. Her brother Hindley resents the newcomer and increasingly treats him as a rival for affection and status. Childhood friendship grows inside a hierarchy that the children do not control.
+
+When Mr. Earnshaw dies, Hindley inherits control of Wuthering Heights. He has married Frances, and he uses his new authority to strip Heathcliff of education and reduce him to labor. The cruelty is partly personal revenge, but it is enabled by the power of a male heir over an unprotected dependent. Heathcliff can endure hardship and answer contempt with contempt. He cannot simply leave the social system that has placed him beneath the young men whose rank he resents. Catherine continues to love his company, but their shared life grows more difficult to imagine as a settled adult future.
+
+One night Catherine and Heathcliff spy on the neighboring household at Thrushcross Grange. The Lintons' domestic world seems elegant, sheltered, and ridiculous to them until a dog bites Catherine. She is taken into the house to recover, and she remains there for several weeks. When she returns to Wuthering Heights, she has been dressed and instructed in the manners of a young lady. Edgar and Isabella Linton have become familiar companions. Heathcliff experiences the transformation as a judgment on his rough clothes, manners, and prospects. Catherine can cross between the moor and the drawing room. Heathcliff increasingly cannot.
+
+Frances gives birth to a son, Hareton, and dies soon afterward. Hindley sinks into drinking and bitterness. His treatment of Heathcliff grows worse, and he neglects his own child. Nelly, who cares for Hareton, becomes more than an observer of the household. She has reason to judge Hindley's failures and Heathcliff's resentment, though her account cannot be mistaken for an impartial transcript of what everyone felt. The family is destroying the conditions in which its children might have grown without inheriting a feud.
+
+Edgar Linton courts Catherine. He offers wealth, social position, and a kind of cultivated affection that her early life with Heathcliff never offered. Catherine wants what marriage to Edgar makes possible, yet she has not ceased to regard Heathcliff as essential to herself. In a conversation with Nelly she tries to explain the conflict. She says it would degrade her to marry Heathcliff in his present position. She also declares that her bond with him is deeper than ordinary romantic preference: 'I am Heathcliff.' The two statements belong together. Her desire for social security and her sense of shared being do not cancel each other, and she has no practical account of how they might coexist.
+
+Heathcliff overhears the part about degradation and leaves before hearing the rest. He disappears for years. Catherine searches and grieves, but the decision to marry Edgar proceeds. Her choice has a logic; it also betrays the person with whom she thought she shared a life. Emily Brontë makes it difficult to classify Catherine as either a selfish social climber or a victim of circumstance. She has felt the force of status, made an advantageous choice, and perhaps believed she could preserve the older intimacy without reckoning with what that would ask of Edgar or Heathcliff.
+
+At the close of this early phase, the novel has created the possibility of a romance and dismantled its simple form. The problem is not merely that two lovers are kept apart by a cruel world. Catherine wants incompatible arrangements, Hindley governs through resentment, Edgar belongs to a class that assumes its own authority, and Heathcliff has been trained by mistreatment to look for revenge. The moors can hold the memory of freedom, but they cannot supply a lawful household or undo the decisions made indoors. The story turns when Heathcliff comes back.
+<!-- END SPOKEN LECTURE -->

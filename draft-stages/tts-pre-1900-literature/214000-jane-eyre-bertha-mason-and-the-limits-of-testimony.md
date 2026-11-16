@@ -1,0 +1,22 @@
+# Jane Eyre — Bertha Mason and the Limits of Testimony
+
+**Work:** Charlotte Brontë, *Jane Eyre: An Autobiography*  
+**Form:** Literary analysis, colonial history, confinement, and point of view
+
+<!-- BEGIN SPOKEN LECTURE -->
+# Jane Eyre — Bertha Mason and the Limits of Testimony
+
+The interrupted wedding is the moment when Jane discovers that a human being has been hidden inside the Gothic mystery at Thornfield. Rochester's first wife, Bertha Antoinetta Mason, is alive, confined in rooms on an upper floor and guarded by a paid attendant. The revelation reorganizes much of the story. The laughter Jane heard, the fire in Rochester's room, the injury to Richard Mason, and the destruction of the bridal veil all take on a different meaning. But solving the mystery of who was there is not the same as understanding the woman who has been concealed.
+
+Bertha comes into the narrative through other people's speech. Rochester supplies a history of a marriage arranged in Jamaica, involving family interests and money. He describes his wife as violent, mentally ill, and impossible to live with. Jane witnesses frightening behavior during the disclosure, but she does not hear Bertha give an account of the marriage, her home, or her confinement. The reader has to distinguish the fact of Rochester's existing marriage and Bertha's detention from his explanations of their causes and his verdict about her character. His bitterness is visible; his testimony is not neutral.
+
+The West Indian setting is not incidental. Rochester's family pursued a marriage with property and money attached to it, and Bertha's relatives belong to a British colonial world. The novel is set in a society whose wealth and mobility are connected to empire. To say this does not establish a particular plantation ledger or genealogy that the book does not provide. It does mean that a story often remembered as an English romance depends on events and interests reaching across the Atlantic. Rochester's earlier marriage and Jane's later inheritance through an uncle in Madeira both disturb any attempt to imagine an isolated English household untouched by wider commercial networks.
+
+How should a reader describe Bertha? One danger is to repeat the novel's most dehumanizing descriptions as though they were clinical observations. The narrative presents her at a moment of crisis through a hostile marital history and Jane's frightened view. Some actions attributed to her are violent and dangerous; the novel's plot cannot be understood by denying that. But the account does not authorize us to diagnose her with a modern psychiatric label, infer an unrecorded life, or erase the ethical significance of years of confinement. We can say what the text shows and ask what it refuses to let us know.
+
+The arrangement gives Jane and Bertha a disturbing connection. Both women have lived under a powerful man's decisions about their future. Jane can leave when she learns the truth, though leaving nearly kills her. Bertha has no corresponding ability to leave or narrate herself to the reader. Some critics see a symbolic double: Bertha acts out rage and desire that a respectable heroine must control. That is a reading, not a claim that Bertha is merely a projection of Jane's mind. A symbolic function does not cancel a fictional person's reality within the story.
+
+A later literary response makes the problem of voice vivid. Jean Rhys's novel Wide Sargasso Sea, published in 1966, imagines a Caribbean history for the woman associated with Rochester's first marriage. It is a different novel written long afterward, not a documentary recovery of what Charlotte Brontë privately intended. Its existence reveals how a narrative that gives one woman remarkable control over her own testimony can leave another woman almost entirely represented by those who possess power over her.
+
+The end of Jane Eyre depends upon Bertha's death in the Thornfield fire. The plot thereby removes a legal barrier to Jane's marriage, but it also exacts a life. When readers call the ending happy, they should say for whom. Jane's marriage is told in the first person, and we understand how hard-won her autonomy has been. The same attention to moral position should prevent us from treating the first wife's disappearance as a harmless piece of plot equipment. This tension is not a reason to stop reading the novel. It is one of the reasons its structure continues to demand thought.
+<!-- END SPOKEN LECTURE -->

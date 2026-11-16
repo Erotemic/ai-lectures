@@ -192,10 +192,33 @@ and **1866 serial/1867 book** history. No claim is made that legal confession
 instantly provides repentance. See
 `notes/crime-punishment-six-parts-epilogue-versions.md`.
 
+**Victorian Gothic Bildungsroman — Charlotte Brontë, *Jane Eyre***:
+203000–216000. Seven consecutive story lectures cover all **38 chapters**:
+Gateshead, Lowood, Thornfield, the interrupted wedding, Moor House, inheritance,
+and the ending at Ferndean. Seven analyses examine retrospective first-person
+narration, paid work and independence, the two proposals and consent, religious
+ethics, Bertha Mason and the limits of Jane's testimony, Gothic spaces, and
+publication/close reading. The Bertha material distinguishes Rochester's
+account from independently established fact; the reading source is not passed
+off as the 1847 first edition. See
+`notes/jane-eyre-1847-story-map-and-text.md`.
+
+**Victorian Gothic and generational novel — Emily Brontë, *Wuthering Heights***:
+217000–228000. Six continuous story lectures cover **all 34 chapters**,
+including Lockwood and Nelly's frame, Catherine and Heathcliff's childhood,
+Catherine's death, property revenge, young Cathy's coerced marriage, and the
+later relationship between Cathy and Hareton. Six critical lectures examine
+narrative evidence, inheritance and class, love and violence, recurring names
+and unequal education, Gothic language and landscape, and the **1847/1850
+edition problem**. The second generation and Isabella's testimony are not
+collapsed into a romantic tragedy about the first pair. See
+`notes/wuthering-heights-two-generations-1847-1850.md`.
+
 ## Substantive next priorities
 
-High-impact omissions worth prioritizing include Emily Brontë's *Wuthering Heights*,
-Charlotte Brontë's *Jane Eyre*, Goethe's *Faust*, Milton's *Paradise Lost*,
-Chaucer's *Canterbury Tales*, and Boccaccio's *Decameron*. Choose for historical
-and literary significance rather than geographic quota. All spoken lecture
-lengths are descriptive measurements, not imposed targets.
+The next large works planned are **Goethe's *Faust*** (explicitly both Part One
+and Part Two, rather than stopping at Gretchen's tragedy) and **Milton's
+*Paradise Lost*** (all twelve books of the 1674 arrangement, with the 1667
+ten-book history described separately). Further high-impact omissions include
+Chaucer's *Canterbury Tales* and Boccaccio's *Decameron*. All spoken lecture
+lengths remain descriptive measurements, not imposed targets.

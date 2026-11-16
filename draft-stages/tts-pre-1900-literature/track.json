@@ -1,7 +1,7 @@
 {
   "id": "pre-1900-literature",
   "title": "Literary Classics Before 1900",
-  "summary": "Audio-first study of influential pre-1900 literature, with complete narrative sequences and analyses from Dante and Shakespeare to Eliot, Tolstoy, and Dostoevsky.",
+  "summary": "Audio-first study of influential pre-1900 literature, with complete narrative sequences and analyses from Dante and Shakespeare to Austen, the Brontës, Eliot, Tolstoy, and Dostoevsky.",
   "categories": [
     "Literature",
     "History & Culture"
@@ -13,7 +13,8 @@
     "No prior reading is needed for story lectures; critical lectures assume the narrated story or familiarity with the primary text.",
     "Selections span medieval poetry, early modern drama and prose, Regency and Victorian fiction, Romantic Gothic narrative, mathematical satire, and French realism.",
     "The Moby-Dick and Anna Karenina sections each narrate the complete principal plot before interpretive lectures, and name the English text or edition used for orientation.",
-    "Middlemarch follows eight books and a Finale; Crime and Punishment follows six parts and its epilogue. All story lectures precede the critical studies."
+    "Middlemarch follows eight books and a Finale; Crime and Punishment follows six parts and its epilogue. All story lectures precede the critical studies.",
+    "The Brontë sections use complete story sequences before literary analyses; Jane Eyre is first-person retrospective narration and Wuthering Heights is framed by Lockwood and Nelly Dean. No advance reading is required for the story lectures."
   ],
   "sections": [
     "early-modern-drama",
@@ -35,7 +36,9 @@
     "american-whaling-novel-melville",
     "russian-domestic-novel-tolstoy-anna",
     "victorian-provincial-novel-george-eliot",
-    "russian-psychological-novel-dostoevsky-crime"
+    "russian-psychological-novel-dostoevsky-crime",
+    "victorian-gothic-bildungsroman-bronte-jane",
+    "victorian-gothic-two-generations-bronte-wuthering"
   ],
   "lectures": [
     {
@@ -1855,6 +1858,240 @@
       "spoken_words": 723,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 5.0
+    },
+    {
+      "id": "203000",
+      "title": "Jane Eyre — Story: Gateshead and the Red Room",
+      "section": "victorian-gothic-bildungsroman-bronte-jane",
+      "file": "203000-jane-eyre-story-gateshead-and-the-red-room.md",
+      "spoken_words": 747,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.2
+    },
+    {
+      "id": "204000",
+      "title": "Jane Eyre — Story: Lowood, Helen, and Miss Temple",
+      "section": "victorian-gothic-bildungsroman-bronte-jane",
+      "file": "204000-jane-eyre-story-lowood-helen-and-miss-temple.md",
+      "spoken_words": 746,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.1
+    },
+    {
+      "id": "205000",
+      "title": "Jane Eyre — Story: Thornfield and Its Secrets",
+      "section": "victorian-gothic-bildungsroman-bronte-jane",
+      "file": "205000-jane-eyre-story-thornfield-and-its-secrets.md",
+      "spoken_words": 724,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.0
+    },
+    {
+      "id": "206000",
+      "title": "Jane Eyre — Story: Visitors, Gateshead, and the Masquerade",
+      "section": "victorian-gothic-bildungsroman-bronte-jane",
+      "file": "206000-jane-eyre-story-visitors-gateshead-and-the-masquerade.md",
+      "spoken_words": 664,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 4.6
+    },
+    {
+      "id": "207000",
+      "title": "Jane Eyre — Story: Proposal, Wedding, and Flight",
+      "section": "victorian-gothic-bildungsroman-bronte-jane",
+      "file": "207000-jane-eyre-story-proposal-wedding-and-flight.md",
+      "spoken_words": 754,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.2
+    },
+    {
+      "id": "208000",
+      "title": "Jane Eyre — Story: Moor House and an Unexpected Family",
+      "section": "victorian-gothic-bildungsroman-bronte-jane",
+      "file": "208000-jane-eyre-story-moor-house-and-inheritance.md",
+      "spoken_words": 723,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.0
+    },
+    {
+      "id": "209000",
+      "title": "Jane Eyre — Story: St. John, Ferndean, and the Ending",
+      "section": "victorian-gothic-bildungsroman-bronte-jane",
+      "file": "209000-jane-eyre-story-st-john-ferndean-and-the-ending.md",
+      "spoken_words": 820,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.7
+    },
+    {
+      "id": "210000",
+      "title": "Jane Eyre — The Narrator and the Reader",
+      "section": "victorian-gothic-bildungsroman-bronte-jane",
+      "file": "210000-jane-eyre-the-narrator-and-the-reader.md",
+      "spoken_words": 783,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.4
+    },
+    {
+      "id": "211000",
+      "title": "Jane Eyre — Work, Money, and the Governess",
+      "section": "victorian-gothic-bildungsroman-bronte-jane",
+      "file": "211000-jane-eyre-work-money-and-the-governess.md",
+      "spoken_words": 738,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.1
+    },
+    {
+      "id": "212000",
+      "title": "Jane Eyre — Love, Knowledge, and Consent",
+      "section": "victorian-gothic-bildungsroman-bronte-jane",
+      "file": "212000-jane-eyre-love-knowledge-and-consent.md",
+      "spoken_words": 707,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 4.9
+    },
+    {
+      "id": "213000",
+      "title": "Jane Eyre — Religion, Justice, and Vocation",
+      "section": "victorian-gothic-bildungsroman-bronte-jane",
+      "file": "213000-jane-eyre-religion-justice-and-vocation.md",
+      "spoken_words": 673,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 4.6
+    },
+    {
+      "id": "214000",
+      "title": "Jane Eyre — Bertha Mason and the Limits of Testimony",
+      "section": "victorian-gothic-bildungsroman-bronte-jane",
+      "file": "214000-jane-eyre-bertha-mason-and-the-limits-of-testimony.md",
+      "spoken_words": 689,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 4.8
+    },
+    {
+      "id": "215000",
+      "title": "Jane Eyre — Gothic Fire, Weather, and Interior Life",
+      "section": "victorian-gothic-bildungsroman-bronte-jane",
+      "file": "215000-jane-eyre-gothic-fire-weather-and-interior-life.md",
+      "spoken_words": 703,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 4.8
+    },
+    {
+      "id": "216000",
+      "title": "Jane Eyre — Publication, Text, and Close Reading",
+      "section": "victorian-gothic-bildungsroman-bronte-jane",
+      "file": "216000-jane-eyre-publication-text-and-close-reading.md",
+      "spoken_words": 788,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.4
+    },
+    {
+      "id": "217000",
+      "title": "Wuthering Heights — Story: Lockwood and the Haunted House",
+      "section": "victorian-gothic-two-generations-bronte-wuthering",
+      "file": "217000-wuthering-heights-story-lockwood-and-the-haunted-house.md",
+      "spoken_words": 679,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 4.7
+    },
+    {
+      "id": "218000",
+      "title": "Wuthering Heights — Story: Catherine, Heathcliff, and a Choice",
+      "section": "victorian-gothic-two-generations-bronte-wuthering",
+      "file": "218000-wuthering-heights-story-catherine-heathcliff-and-a-choice.md",
+      "spoken_words": 686,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 4.7
+    },
+    {
+      "id": "219000",
+      "title": "Wuthering Heights — Story: The Return and Catherine's Death",
+      "section": "victorian-gothic-two-generations-bronte-wuthering",
+      "file": "219000-wuthering-heights-story-the-return-and-catherines-death.md",
+      "spoken_words": 648,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 4.5
+    },
+    {
+      "id": "220000",
+      "title": "Wuthering Heights — Story: Isabella, Hindley, and the Children",
+      "section": "victorian-gothic-two-generations-bronte-wuthering",
+      "file": "220000-wuthering-heights-story-isabella-hindley-and-the-children.md",
+      "spoken_words": 712,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 4.9
+    },
+    {
+      "id": "221000",
+      "title": "Wuthering Heights — Story: The Forced Marriage and the Estates",
+      "section": "victorian-gothic-two-generations-bronte-wuthering",
+      "file": "221000-wuthering-heights-story-the-forced-marriage-and-the-estates.md",
+      "spoken_words": 679,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 4.7
+    },
+    {
+      "id": "222000",
+      "title": "Wuthering Heights — Story: Cathy, Hareton, and the Last Visit",
+      "section": "victorian-gothic-two-generations-bronte-wuthering",
+      "file": "222000-wuthering-heights-story-cathy-hareton-and-the-last-visit.md",
+      "spoken_words": 710,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 4.9
+    },
+    {
+      "id": "223000",
+      "title": "Wuthering Heights — Lockwood, Nelly, and Narrative Evidence",
+      "section": "victorian-gothic-two-generations-bronte-wuthering",
+      "file": "223000-wuthering-heights-lockwood-nelly-and-narrative-evidence.md",
+      "spoken_words": 726,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.0
+    },
+    {
+      "id": "224000",
+      "title": "Wuthering Heights — Property, Inheritance, and Revenge",
+      "section": "victorian-gothic-two-generations-bronte-wuthering",
+      "file": "224000-wuthering-heights-property-inheritance-and-revenge.md",
+      "spoken_words": 714,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 4.9
+    },
+    {
+      "id": "225000",
+      "title": "Wuthering Heights — Love, Violence, and Moral Judgment",
+      "section": "victorian-gothic-two-generations-bronte-wuthering",
+      "file": "225000-wuthering-heights-love-violence-and-moral-judgment.md",
+      "spoken_words": 700,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 4.8
+    },
+    {
+      "id": "226000",
+      "title": "Wuthering Heights — Generations, Names, and Education",
+      "section": "victorian-gothic-two-generations-bronte-wuthering",
+      "file": "226000-wuthering-heights-generations-names-and-education.md",
+      "spoken_words": 720,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.0
+    },
+    {
+      "id": "227000",
+      "title": "Wuthering Heights — Moors, Ghosts, and Language",
+      "section": "victorian-gothic-two-generations-bronte-wuthering",
+      "file": "227000-wuthering-heights-moors-ghosts-and-language.md",
+      "spoken_words": 739,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.1
+    },
+    {
+      "id": "228000",
+      "title": "Wuthering Heights — Publication, Editions, and Close Reading",
+      "section": "victorian-gothic-two-generations-bronte-wuthering",
+      "file": "228000-wuthering-heights-publication-editions-and-close-reading.md",
+      "spoken_words": 740,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.1
     }
   ]
 }

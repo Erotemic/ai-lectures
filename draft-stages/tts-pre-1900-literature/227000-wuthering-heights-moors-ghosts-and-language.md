@@ -1,0 +1,24 @@
+# Wuthering Heights — Moors, Ghosts, and Language
+
+**Work:** Emily Brontë, *Wuthering Heights*  
+**Form:** Literary analysis, Gothic atmosphere and the social landscape
+
+<!-- BEGIN SPOKEN LECTURE -->
+# Wuthering Heights — Moors, Ghosts, and Language
+
+The title Wuthering Heights names a house exposed to rough weather. Lockwood hears the local term explained through the force of the wind around it. The setting is memorable enough that readers may imagine the moors as a free, wild world opposed to the confining rooms of social life. Emily Brontë uses that opposition and repeatedly complicates it. The weather can exhilarate, but it can also trap a visitor in a dangerous house. The home can provide shelter, but it can become a place where people are imprisoned and intimidated. Landscape and domestic architecture act upon one another.
+
+Look first at the contrast between the Heights and Thrushcross Grange. The Heights is rough, noisy, and associated with the Earnshaws' fierce habits. The Grange is comfortable, orderly, and associated with the Lintons' refinement. Catherine's childhood visit to the Grange changes her clothing and manners. Yet the houses are not allegories in which one represents authenticity and the other falsehood. Hindley's cruelty grows at the Heights; Edgar's narrowness and the pressures of status develop at the Grange. Later Heathcliff controls both houses, showing that property and authority can make their contrasts less stable than they initially appear.
+
+The moors are the country of Catherine and Heathcliff's early intimacy. They can run there beyond the immediate surveillance of a parent or teacher. That freedom matters because the pair's later lives are regulated by rank and inheritance. But the idea of freedom is inseparable from exposure. Lockwood's winter journey nearly traps him. Jane Eyre, in another Brontë novel, nearly starves while wandering a moorland district; here the country does not become a sentimental place where nature automatically solves society's harms. People require shelter, care, and arrangements through which they can live with one another.
+
+The novel's Gothic devices similarly operate on more than one level. Lockwood dreams of a small hand at the window, pleading for admission. Heathcliff cries out to the absent Catherine. Later he seeks signs of her nearness and behaves as though death may restore their connection. Other characters report ghosts or rumors of figures on the moors. Do we have to decide whether such figures are real? The text permits multiple readings. The cry at a window can be a supernatural visitation, an image of grief, or a story shaped by the terrified consciousness of a bad sleeper. Its force does not depend on a verdict from a modern paranormal investigation.
+
+At the same time, the novel contains remarkable physical detail: furniture, doors, paths, illness, food, household labor, letters, and the struggle over an estate. These details do not cancel the Gothic atmosphere. They make it harder to dismiss horror as something safely separate from ordinary life. The most consequential acts of violence are not performed by ghosts. They are performed by living people who lock doors, withhold education, arrange marriages, or neglect children.
+
+Language deepens the setting. Joseph speaks in regional Yorkshire dialect, while Lockwood's polished observations can sound absurdly confident. The contrast has been altered by some later editors and translators, who have to decide how much dialect to preserve or explain. Readers who struggle with Joseph should remember that unfamiliar speech is not a direct measure of intellectual worth. The novel makes speech part of class perception, just as it makes clothing and schooling parts of status. Nelly's language has a different role: she moves among classes and retells the story, carrying local knowledge through a voice that is both vivid and judgmental.
+
+A useful reading exercise is to compare three thresholds: the window at which Lockwood seems to hear Catherine, the gates and doors that confine young Cathy, and the room where Cathy later helps Hareton read. At one threshold a voice cannot enter; at another a person cannot leave; in the third a relationship changes because one person makes room for another's mind. The Gothic house has become a map of human exclusion and possible hospitality.
+
+The final quiet graves should not be taken as a simple proof that the landscape has reconciled everyone. Lockwood sees the peace of the grass and asks how anyone could imagine the dead restless beneath it. We already know how frequently his interpretations have gone astray. Emily Brontë closes with a scene in which the earth is calm and the past remains powerful enough to generate stories. She does not need to solve the haunting in order to end the novel.
+<!-- END SPOKEN LECTURE -->
