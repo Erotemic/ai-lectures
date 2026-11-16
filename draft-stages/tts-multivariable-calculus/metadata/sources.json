@@ -1,0 +1,152 @@
+{
+  "schema_version": 1,
+  "sources": {
+    "mv-openstax-v3": {
+      "title": "OpenStax, Calculus Volume 3, Rice University",
+      "kind": "open_textbook",
+      "url": "https://openstax.org/books/calculus-volume-3/pages/preface",
+      "access": "free_no_login",
+      "notes": "Functions of several variables, partial derivatives, multiple integrals and vector calculus."
+    },
+    "mv-mit-1802sc": {
+      "title": "MIT OpenCourseWare 18.02SC, Multivariable Calculus (Fall 2010)",
+      "kind": "university_course",
+      "url": "https://ocw.mit.edu/courses/18-02sc-multivariable-calculus-fall-2010/",
+      "access": "free_no_login",
+      "notes": "Computational examples, lectures, recitations and exercises from vector calculus."
+    },
+    "mv-mit-18022": {
+      "title": "MIT OpenCourseWare 18.022, Calculus of Several Variables (Fall 2010)",
+      "kind": "university_course",
+      "url": "https://ocw.mit.edu/courses/18-022-calculus-of-several-variables-fall-2010/pages/syllabus/",
+      "access": "free_no_login",
+      "notes": "More conceptual treatment of limits, differentiability, inverse/implicit functions, integration and forms."
+    },
+    "mv-wiki-001000": {
+      "title": "Wikipedia: Euclidean space",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Euclidean_space",
+      "access": "free_no_login",
+      "notes": "Terminology and general overview; use original textbooks for theorem conditions."
+    },
+    "mv-wiki-002000": {
+      "title": "Wikipedia: Limit of a function",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Limit_of_a_function",
+      "access": "free_no_login",
+      "notes": "Terminology and general overview; use original textbooks for theorem conditions."
+    },
+    "mv-wiki-003000": {
+      "title": "Wikipedia: Directional derivative",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Directional_derivative",
+      "access": "free_no_login",
+      "notes": "Terminology and general overview; use original textbooks for theorem conditions."
+    },
+    "mv-wiki-004000": {
+      "title": "Wikipedia: Fréchet derivative",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Fr%C3%A9chet_derivative",
+      "access": "free_no_login",
+      "notes": "Terminology and general overview; use original textbooks for theorem conditions."
+    },
+    "mv-wiki-005000": {
+      "title": "Wikipedia: Chain rule",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Chain_rule",
+      "access": "free_no_login",
+      "notes": "Terminology and general overview; use original textbooks for theorem conditions."
+    },
+    "mv-wiki-006000": {
+      "title": "Wikipedia: Gradient",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Gradient",
+      "access": "free_no_login",
+      "notes": "Terminology and general overview; use original textbooks for theorem conditions."
+    },
+    "mv-wiki-007000": {
+      "title": "Wikipedia: Implicit function theorem",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Implicit_function_theorem",
+      "access": "free_no_login",
+      "notes": "Terminology and general overview; use original textbooks for theorem conditions."
+    },
+    "mv-wiki-008000": {
+      "title": "Wikipedia: Hessian matrix",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Hessian_matrix",
+      "access": "free_no_login",
+      "notes": "Terminology and general overview; use original textbooks for theorem conditions."
+    },
+    "mv-wiki-009000": {
+      "title": "Wikipedia: Critical point (mathematics)",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Critical_point_(mathematics)",
+      "access": "free_no_login",
+      "notes": "Terminology and general overview; use original textbooks for theorem conditions."
+    },
+    "mv-wiki-010000": {
+      "title": "Wikipedia: Lagrange multiplier",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Lagrange_multiplier",
+      "access": "free_no_login",
+      "notes": "Terminology and general overview; use original textbooks for theorem conditions."
+    },
+    "mv-wiki-011000": {
+      "title": "Wikipedia: Multiple integral",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Multiple_integral",
+      "access": "free_no_login",
+      "notes": "Terminology and general overview; use original textbooks for theorem conditions."
+    },
+    "mv-wiki-012000": {
+      "title": "Wikipedia: Fubini's theorem",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Fubini%27s_theorem",
+      "access": "free_no_login",
+      "notes": "Terminology and general overview; use original textbooks for theorem conditions."
+    },
+    "mv-wiki-013000": {
+      "title": "Wikipedia: Spherical coordinate system",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Spherical_coordinate_system",
+      "access": "free_no_login",
+      "notes": "Terminology and general overview; use original textbooks for theorem conditions."
+    },
+    "mv-wiki-014000": {
+      "title": "Wikipedia: Jacobian matrix and determinant",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Jacobian_matrix_and_determinant",
+      "access": "free_no_login",
+      "notes": "Terminology and general overview; use original textbooks for theorem conditions."
+    },
+    "mv-wiki-015000": {
+      "title": "Wikipedia: Line integral",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Line_integral",
+      "access": "free_no_login",
+      "notes": "Terminology and general overview; use original textbooks for theorem conditions."
+    },
+    "mv-wiki-016000": {
+      "title": "Wikipedia: Green's theorem",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Green%27s_theorem",
+      "access": "free_no_login",
+      "notes": "Terminology and general overview; use original textbooks for theorem conditions."
+    },
+    "mv-wiki-017000": {
+      "title": "Wikipedia: Surface integral",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Surface_integral",
+      "access": "free_no_login",
+      "notes": "Terminology and general overview; use original textbooks for theorem conditions."
+    },
+    "mv-wiki-018000": {
+      "title": "Wikipedia: Stokes' theorem",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Stokes%27_theorem",
+      "access": "free_no_login",
+      "notes": "Terminology and general overview; use original textbooks for theorem conditions."
+    }
+  }
+}
