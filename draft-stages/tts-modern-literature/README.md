@@ -1,6 +1,6 @@
 # 20th-Century Literature: Story, Then Analysis
 
-The track currently covers **thirty-three literary works** (one receives extended multi-lecture treatment). For each work, complete plot narration precedes criticism: usually one continuous story lecture, with extended multi-volume treatment where the work itself warrants it. The story account introduces the people, setting, main events, and ending; it does not require that the listener has read the book. The analysis can then explore form, historical context, and competing critical readings without explaining the plot again.
+The track currently covers **thirty-seven literary works** (one receives extended multi-lecture treatment). For each work, complete plot narration precedes criticism: usually one continuous story lecture, with extended multi-volume treatment where the work itself warrants it. The story account introduces the people, setting, main events, and ending; it does not require that the listener has read the book. The analysis can then explore form, historical context, and competing critical readings without explaining the plot again.
 
 ## Scope and the latest expansion
 
@@ -119,3 +119,11 @@ Six original transcripts add three complete story/analysis pairs, in numerical l
 - `035200` / `036000`: Daphne du Maurier, *Rebecca* (1938; English). Story follows the unnamed narrator, marriage, Manderley, Rebecca's death, the investigation and fire; analysis addresses Gothic/Bluebeard form, coercion, class, narrator agency, and the distinction between Maxim's confession and his account of Rebecca's motives. The **cause of the fire is not asserted as definitively known**; film adaptations are not substituted for the novel.
 
 All sources, interpretations, publication claims and concrete plot claims are recorded in `metadata/sources.json` and lecture sidecars, with claim anchors matching the spoken text. Scholarly abstracts and partial excerpts are clearly labeled. No fixed duration, length quota, or audio-generation work is part of this continuation. The overlay is scoped to this content pack only.
+
+## Major-modernist landmark: James Joyce, *Ulysses* (036200–037300)
+
+A dedicated **twelve-lecture section** adds *Ulysses* (1922), bringing the total to 37 works. The five original-prose narrative lectures together retell all 18 episodes, from Stephen's morning in the tower to Bloom's return and Molly's final monologue. Seven additional lectures analyze its shifting narrative styles, Homeric architecture, Bloom and Stephen, women's voices, political belonging and prejudice, close-reading strategies, and publication/censorship/legacy. No runtime target governs the section.
+
+The catalog section `ulysses-a-day-in-dublin` preserves the narrative-before-analysis sequence. Episode names are commonly used critical labels, not a claim about printed chapter headings in the first edition. Molly's monologue is Joyce's composed fiction, not Nora Barnacle's transcribed voice. The first book was published by Sylvia Beach in Paris on 2 February 1922; the U.S. prosecution of *The Little Review* editors was a distinct 1921 event and the Woolsey importation decision was in 1933. The 1984 Gabler text is a significant edited edition, not the only uncontested text.
+
+Source, editorial, and lesson-level distinctions: `notes/ulysses-special-section-036200-037300.md` and `metadata/036200.json`–`metadata/037300.json`.
