@@ -1,12 +1,12 @@
-# Abstract Algebra — after 36 completed lectures
+# Abstract Algebra — after 40 completed lectures
 
-This track now includes groups and Galois theory, modules and homological algebra, number fields and commutative algebra, class groups, projectives and K-theory, affine schemes and quasi-coherent sheaves, etale maps, and second group cohomology.
+The track now extends from groups, Galois theory and representations through modules, number fields, schemes, line bundles, Riemann–Roch, local intersection multiplicity and sheaf cohomology.
 
 ## Unindexed continuation proposals
 
-- 037000 — Divisors, Line Bundles, and the Picard Group of a Scheme
-- 038000 — Algebraic Curves, Genus, and Riemann–Roch
-- 039000 — Localization, Completion, and Local Intersection Multiplicity
-- 040000 — Derived Functors of Global Sections and Sheaf Cohomology
+- 041000 — Faithfully Flat Descent and Gluing Geometric Objects
+- 042000 — Étale Fundamental Groups and Finite Covers
+- 043000 — Deformation Theory, Tangent Spaces and Obstructions
+- 044000 — Higher-Dimensional Riemann–Roch and Intersection Classes
 
-Develop definitions from local computations; distinguish schemes over fields from arithmetic bases and state Noetherian, separatedness, finiteness and cohomological hypotheses. Proposals are not registered.
+For each theorem distinguish general schemes from smooth/proper varieties, keep field hypotheses visible, and work through a local computation before abstract generalization. Proposals are not registered.

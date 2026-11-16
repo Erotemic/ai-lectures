@@ -1,12 +1,12 @@
-# Numerical Analysis and Reliable Computation — after 16 completed lectures
+# Numerical Analysis — after 17 completed lectures
 
-Coverage includes conditioning and backward error, linear algebra, interpolation, quadrature, verified enclosures, Krylov eigensolvers, implicit ODE stepping, Newton–Krylov and automatic/adjoint differentiation.
+Coverage extends from conditioning and errors through Krylov, implicit stepping, automatic differentiation, interval enclosures and validated ODE integration.
 
 ## Unindexed continuation proposals
 
-- 017000 — Validated Integration of Differential Equations
 - 018000 — A Posteriori PDE Discretization Error Bounds
-- 019000 — Matrix-Free Preconditioners and Multigrid
-- 020000 — Sensitivity of Nonsmooth and Piecewise Numerical Algorithms
+- 019000 — Multigrid and Matrix-Free Preconditioning
+- 020000 — Verified Nonlinear Systems and Interval Newton–Krawczyk Methods
+- 021000 — Sensitivity of Nonsmooth Numerical Algorithms
 
-Distinguish an algorithm's derivative from a continuum sensitivity, and conditioning from numerical instability. Proposals are not registered.
+Distinguish measured error estimators from rigorous enclosures, and keep rounding, truncation and wrapping errors separate. Proposals are not registered.

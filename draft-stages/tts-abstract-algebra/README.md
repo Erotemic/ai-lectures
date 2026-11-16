@@ -84,3 +84,12 @@ Narration word counts are descriptive. Exact equations, exercises and references
 - 036000 — [Group Cohomology: When a Group Extension Refuses to Split](036000-group-cohomology-and-extension-classes.md)
 
 Word counts and estimated minutes are descriptive metadata, not length requirements. Exact notation, proofs and references accompany the spoken manuscripts.
+
+## Continuation 10: Geometry, discrete structures and rigorous computation
+
+- 037000 — [Divisors, Line Bundles, and Picard Groups](037000-divisors-line-bundles-and-picard-groups.md)
+- 038000 — [Algebraic Curves, Genus, and Riemann–Roch](038000-riemann-roch-on-algebraic-curves.md)
+- 039000 — [Local Intersection Multiplicity and Completion](039000-local-intersection-multiplicity-and-completion.md)
+- 040000 — [Sheaf Cohomology and the Failure of Global Sections to Be Exact](040000-sheaf-cohomology-and-global-sections.md)
+
+The narration is standalone. Formulae, proofs, exercises and source references are provided in non-spoken companions. Recorded word counts are descriptive, not length requirements.

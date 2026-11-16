@@ -66,3 +66,9 @@ Narration word counts are descriptive. Exact equations, exercises and references
 - 016000 — [Automatic Differentiation and Adjoint Sensitivity](016000-automatic-differentiation-adjoints-and-sensitivity.md)
 
 Word counts and estimated minutes are descriptive metadata, not length requirements. Exact notation, proofs and references accompany the spoken manuscripts.
+
+## Continuation 10: Geometry, discrete structures and rigorous computation
+
+- 017000 — [Validated Integration of Ordinary Differential Equations](017000-validated-integration-of-ordinary-differential-equations.md)
+
+The narration is standalone. Formulae, proofs, exercises and source references are provided in non-spoken companions. Recorded word counts are descriptive, not length requirements.

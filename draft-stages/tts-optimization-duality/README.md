@@ -68,3 +68,9 @@ Narration word counts are descriptive. Exact equations, exercises and references
 - 013000 — [Submodular Optimization: Why Greedy Choices Can Be Provably Good](013000-submodular-optimization-and-greedy-guarantees.md)
 
 Word counts and estimated minutes are descriptive metadata, not length requirements. Exact notation, proofs and references accompany the spoken manuscripts.
+
+## Continuation 10: Geometry, discrete structures and rigorous computation
+
+- 014000 — [Monotone Operators, Resolvents, and Splitting Methods](014000-monotone-operators-and-splitting-methods.md)
+
+The narration is standalone. Formulae, proofs, exercises and source references are provided in non-spoken companions. Recorded word counts are descriptive, not length requirements.

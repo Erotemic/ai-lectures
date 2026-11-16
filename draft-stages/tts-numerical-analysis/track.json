@@ -21,7 +21,8 @@
     "interval-verification",
     "sparse-eigen-krylov",
     "implicit-stepping-newton-krylov",
-    "automatic-differentiation-adjoints"
+    "automatic-differentiation-adjoints",
+    "validated-ode"
   ],
   "lectures": [
     {
@@ -167,6 +168,15 @@
       "spoken_words": 1262,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 8.7
+    },
+    {
+      "id": "017000",
+      "title": "Validated Integration of Ordinary Differential Equations",
+      "section": "validated-ode",
+      "file": "017000-validated-integration-of-ordinary-differential-equations.md",
+      "spoken_words": 831,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.7
     }
   ]
 }

@@ -66,3 +66,10 @@ Narration word counts are descriptive. Exact equations, exercises and references
 - 018000 — [Entropy as a Counting Tool: Shearer's Inequality](018000-entropy-method-and-shearers-inequality.md)
 
 Word counts and estimated minutes are descriptive metadata, not length requirements. Exact notation, proofs and references accompany the spoken manuscripts.
+
+## Continuation 10: Geometry, discrete structures and rigorous computation
+
+- 019000 — [Network Reliability and Random Connectivity](019000-network-reliability-and-random-connectivity.md)
+- 020000 — [Block Designs, Finite Planes, and Hamming Codes](020000-block-designs-finite-planes-and-hamming-codes.md)
+
+The narration is standalone. Formulae, proofs, exercises and source references are provided in non-spoken companions. Recorded word counts are descriptive, not length requirements.

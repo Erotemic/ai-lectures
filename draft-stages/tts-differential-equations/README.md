@@ -66,3 +66,10 @@ Narration word counts are descriptive. Exact equations, exercises and references
 - 018000 — [Conservation Laws, Shocks, and Entropy Solutions](018000-conservation-laws-shocks-and-entropy-solutions.md)
 
 Word counts and estimated minutes are descriptive metadata, not length requirements. Exact notation, proofs and references accompany the spoken manuscripts.
+
+## Continuation 10: Geometry, discrete structures and rigorous computation
+
+- 019000 — [Hamiltonian Systems and Symplectic Flows](019000-hamiltonian-systems-and-symplectic-flows.md)
+- 020000 — [Nonlinear PDE Stability and Energy Estimates](020000-nonlinear-pde-stability-and-energy-estimates.md)
+
+The narration is standalone. Formulae, proofs, exercises and source references are provided in non-spoken companions. Recorded word counts are descriptive, not length requirements.

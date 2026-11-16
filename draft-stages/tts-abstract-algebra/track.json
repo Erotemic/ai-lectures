@@ -44,7 +44,11 @@
     "prime-spectra-affine-schemes",
     "quasi-coherent-affine-gluing",
     "etale-maps-jacobian",
-    "group-cohomology-extensions"
+    "group-cohomology-extensions",
+    "divisors-picard",
+    "riemann-roch-curves",
+    "intersection-local",
+    "derived-global-sections"
   ],
   "lectures": [
     {
@@ -370,6 +374,42 @@
       "spoken_words": 1033,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 7.1
+    },
+    {
+      "id": "037000",
+      "title": "Divisors, Line Bundles, and Picard Groups",
+      "section": "divisors-picard",
+      "file": "037000-divisors-line-bundles-and-picard-groups.md",
+      "spoken_words": 788,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.4
+    },
+    {
+      "id": "038000",
+      "title": "Algebraic Curves, Genus, and Riemann–Roch",
+      "section": "riemann-roch-curves",
+      "file": "038000-riemann-roch-on-algebraic-curves.md",
+      "spoken_words": 835,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.8
+    },
+    {
+      "id": "039000",
+      "title": "Local Intersection Multiplicity and Completion",
+      "section": "intersection-local",
+      "file": "039000-local-intersection-multiplicity-and-completion.md",
+      "spoken_words": 812,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.6
+    },
+    {
+      "id": "040000",
+      "title": "Sheaf Cohomology and the Failure of Global Sections to Be Exact",
+      "section": "derived-global-sections",
+      "file": "040000-sheaf-cohomology-and-global-sections.md",
+      "spoken_words": 741,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.1
     }
   ]
 }

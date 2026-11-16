@@ -1,12 +1,12 @@
-# Differential Equations and Dynamical Systems — after 18 completed lectures
+# Differential Equations — after 20 completed lectures
 
-This track now spans ODE existence/stability, phase planes and bifurcations, linear and nonlinear PDEs, weak solutions, Floquet theory, invariant manifolds, traveling fronts, conservation laws and entropy-admissible shocks.
+The course covers existence, stability, bifurcations, PDEs, weak and entropy solutions, traveling fronts, Hamiltonian/symplectic systems, and nonlinear diffusion energy estimates.
 
 ## Unindexed continuation proposals
 
-- 019000 — Hamiltonian Systems and Symplectic Flows
-- 020000 — Nonlinear PDE Stability and Energy Estimates
 - 021000 — Kinetic Transport and Boltzmann-Type Equations
 - 022000 — Reaction Front Stability and Comparison Principles
+- 023000 — Dispersive Equations, Conservation Laws and Scattering
+- 024000 — Variational PDEs and Noether-Type Identities
 
-Keep continuum models distinct from discretization and weak solution classes; separate scalar results from systems. Proposals are not registered.
+State solution regularity, boundary assumptions and the distinction between estimates, existence, uniqueness and long-time behavior. Proposals are not registered.

@@ -26,7 +26,9 @@
     "mayer-vietoris-excision",
     "poincare-duality",
     "gauss-bonnet-euler",
-    "characteristic-classes"
+    "characteristic-classes",
+    "topological-degree",
+    "hodge-harmonic"
   ],
   "lectures": [
     {
@@ -190,6 +192,24 @@
       "spoken_words": 1191,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 8.2
+    },
+    {
+      "id": "019000",
+      "title": "Degree Theory, Brouwer Fixed Points, and Global Constraints",
+      "section": "topological-degree",
+      "file": "019000-degree-theory-and-brouwer-fixed-points.md",
+      "spoken_words": 835,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.8
+    },
+    {
+      "id": "020000",
+      "title": "Hodge Decomposition and Harmonic Forms",
+      "section": "hodge-harmonic",
+      "file": "020000-hodge-decomposition-and-harmonic-forms.md",
+      "spoken_words": 788,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.4
     }
   ]
 }

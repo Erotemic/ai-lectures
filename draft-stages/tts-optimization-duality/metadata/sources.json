@@ -126,6 +126,27 @@
       "url": "https://arxiv.org/abs/1111.6453",
       "access": "free_no_login",
       "notes": "Lovasz extension, convexity and submodular optimization."
+    },
+    "od-proximal-boyd": {
+      "title": "Neal Parikh and Stephen Boyd, Proximal Algorithms (2014)",
+      "kind": "scholarly_survey",
+      "url": "https://web.stanford.edu/~boyd/papers/pdf/prox_algs.pdf",
+      "access": "free_no_login",
+      "notes": "Resolvents, firm nonexpansiveness and splitting methods."
+    },
+    "od-admm-boyd": {
+      "title": "Stephen Boyd et al., Distributed Optimization and Statistical Learning via the Alternating Direction Method of Multipliers",
+      "kind": "scholarly_survey",
+      "url": "https://stanford.edu/~boyd/admm",
+      "access": "free_no_login",
+      "notes": "ADMM, DR and primal-dual distinctions."
+    },
+    "od-dr-scaling": {
+      "title": "Pontus Giselsson and Stephen Boyd, Diagonal Scaling in Douglas-Rachford Splitting and ADMM",
+      "kind": "scholarly_paper",
+      "url": "https://stanford.edu/~boyd/papers/pdf/diag_scaling_DR_ADMM.pdf",
+      "access": "free_no_login",
+      "notes": "Resolvent and proximal-operator identities."
     }
   }
 }

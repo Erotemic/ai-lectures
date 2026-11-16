@@ -1,12 +1,12 @@
-# Topology and Geometry — after 18 completed lectures
+# Topology and Geometry — after 20 completed lectures
 
-This track progresses from general topology and homotopy to manifolds, differential forms, Stokes, homology/cohomology, bundles, Riemannian geometry, Mayer–Vietoris, Poincare duality, Gauss–Bonnet and characteristic classes.
+The course now progresses from topology and homology through manifolds, characteristic classes, Gauss–Bonnet, degree and fixed-point theory, and harmonic representatives of cohomology classes.
 
 ## Unindexed continuation proposals
 
-- 019000 — Degree Theory, Fixed Points, and Global Constraints
-- 020000 — Hodge Decomposition and Harmonic Forms
-- 021000 — Symplectic Geometry and Hamiltonian Flows
+- 021000 — Symplectic Geometry and Moment Maps
 - 022000 — Chern–Weil Theory and Connections on Principal Bundles
+- 023000 — Morse Theory, Critical Points and Handle Decompositions
+- 024000 — Index Theory and the Atiyah–Singer Perspective
 
-State orientability, compactness, boundary, and coefficient assumptions precisely. Proposals are not registered.
+Keep compactness, orientation, boundary conditions and coefficient-field assumptions explicit. Proposals are not registered.
