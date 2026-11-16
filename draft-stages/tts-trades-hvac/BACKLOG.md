@@ -1,9 +1,9 @@
 # Rotation backlog: HVAC and Refrigeration: Heat, Airflow, Humidity, and Controls
 
-Status: lectures `001000`–`015000` authored. Remaining slots below are proposed topics, not completed manuscripts.
+Status: lectures `001000`–`016000` authored. Remaining slots are proposed, not completed manuscripts.
 These are ordered topics, not duration or word-count requirements. Retain stable IDs once published.
 
-- `016000` — Diagnosing Comfort Complaints with Occupancy and Sensor Logs
+- `017000` — Heat Pump Cycling, Recovery, and Electrical Demand
 
-**Editorial method:** Narrate the physics and practice directly; use non-spoken companions for equations, diagrams, source locators, regional code or regulatory scope, and unresolved professional-review needs.
-Do not describe these openings as professionally certified or jurisdiction-verified.
+**Editorial method:** Narrate physics and practical reasoning directly; use non-spoken companions for equations, diagrams, source locators, jurisdictional rules, and outstanding reviews.
+These drafts are not professionally certified or jurisdiction-verified.

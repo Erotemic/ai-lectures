@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "lecture_id": "016000",
+  "transcript": "016000-roadside-fault-triage-and-service-documentation.md",
+  "related_resources": [
+    {
+      "source_id": "nhtsa-maintain-vehicle",
+      "reason": "Vehicle service records, tire/fluids/light checks and owner manual priority"
+    },
+    {
+      "source_id": "nhtsa-winter-battery",
+      "reason": "Cold weather reduces battery power and engine starting can require more power; service system check"
+    },
+    {
+      "source_id": "sae-dtc-j2012-2025",
+      "reason": "Standardized DTC definitions; standards page abstract, full text may require purchase"
+    },
+    {
+      "source_id": "openstax-ohms-law",
+      "reason": "Voltage drop I × R, resistive heating and limitations of linear Ohm model"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P016000-01",
+      "claim": "Vehicle maintenance should follow owner instructions and include documentation of conditions and service history.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "nhtsa-maintain-vehicle",
+          "location": "Vehicle service records, tire/fluids/light checks and owner manual priority",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific scope, equipment, adopted rules and relevant exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P016000-02",
+      "claim": "A starting fault can involve battery performance or high-current connection resistance, not only battery open-circuit voltage.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "nhtsa-winter-battery",
+          "location": "Cold weather reduces battery power and engine starting can require more power; service system check",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "openstax-ohms-law",
+          "location": "Voltage drop I × R, resistive heating and limitations of linear Ohm model",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational synthesis based on listed sources; no reference verifies every inferred detail.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P016000-03",
+      "claim": "Standardized diagnostic trouble codes identify detected conditions but not necessarily the defective physical part.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "sae-dtc-j2012-2025",
+          "location": "Standardized DTC definitions; standards page abstract, full text may require purchase",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational synthesis based on listed sources; no reference verifies every inferred detail.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P016000-04",
+      "claim": "Vehicle roadside observations should prioritize personal safety and preserve diagnostic evidence for later service.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "nhtsa-maintain-vehicle",
+          "location": "Vehicle service records, tire/fluids/light checks and owner manual priority",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational synthesis based on listed sources; no reference verifies every inferred detail.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_technical_review_pending",
+  "citation_policy": "Original authors and standards issuers attributed; synthesis distinguished from source-backed claims. Not certified for professional, clinical or jurisdiction-specific use."
+}

@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "lecture_id": "016000",
+  "transcript": "016000-frozen-pipe-case-study-prevention-and-recovery.md",
+  "related_resources": [
+    {
+      "source_id": "redcross-frozen-pipes",
+      "reason": "Vulnerable pipe locations, preventive heating, safe thaw methods, and warning against open flames"
+    },
+    {
+      "source_id": "michigan-frozen-pipes",
+      "reason": "Cold-air leakage prevention, hose disconnection, water shutoff and frozen-line handling"
+    },
+    {
+      "source_id": "doe-air-vapor",
+      "reason": "Different enclosure moisture pathways"
+    },
+    {
+      "source_id": "epa-maintenance",
+      "reason": "Leak monitoring and water-using systems"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P016000-01",
+      "claim": "Pipes in cold exterior walls and unheated spaces are vulnerable to freezing, particularly where warm air cannot reach them.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "redcross-frozen-pipes",
+          "location": "Vulnerable pipe locations, preventive heating, safe thaw methods, and warning against open flames",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "michigan-frozen-pipes",
+          "location": "Cold-air leakage prevention, hose disconnection, water shutoff and frozen-line handling",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific scope, equipment, adopted rules and relevant exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P016000-02",
+      "claim": "Air leakage and thermal boundary placement can expose plumbing to very cold local conditions.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "doe-air-vapor",
+          "location": "Different enclosure moisture pathways",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "michigan-frozen-pipes",
+          "location": "Cold-air leakage prevention, hose disconnection, water shutoff and frozen-line handling",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational synthesis based on listed sources; no reference verifies every inferred detail.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P016000-03",
+      "claim": "Open flames should not be used to thaw frozen pipes and electricity must be kept out of standing water.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "redcross-frozen-pipes",
+          "location": "Vulnerable pipe locations, preventive heating, safe thaw methods, and warning against open flames",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific scope, equipment, adopted rules and relevant exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P016000-04",
+      "claim": "Long-term repair should control the cold exposure pathway rather than merely replace a ruptured pipe in the same cavity.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "michigan-frozen-pipes",
+          "location": "Cold-air leakage prevention, hose disconnection, water shutoff and frozen-line handling",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "redcross-frozen-pipes",
+          "location": "Vulnerable pipe locations, preventive heating, safe thaw methods, and warning against open flames",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational synthesis based on listed sources; no reference verifies every inferred detail.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_technical_review_pending",
+  "citation_policy": "Original authors and standards issuers attributed; synthesis distinguished from source-backed claims. Not certified for professional, clinical or jurisdiction-specific use."
+}

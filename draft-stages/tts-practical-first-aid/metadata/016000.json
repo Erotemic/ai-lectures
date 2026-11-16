@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "lecture_id": "016000",
+  "transcript": "016000-seizures-recognition-and-scene-care.md",
+  "related_resources": [
+    {
+      "source_id": "aha-redcross-seizure-firstaid-2024",
+      "reason": "Seizure recognition, scene safety, recovery positioning, EMS activation thresholds and actions to avoid"
+    },
+    {
+      "source_id": "cdc-seizure-firstaid-2024",
+      "reason": "First-aid actions, timing, reasons to call 911, and avoidance of restraint or mouth insertion"
+    },
+    {
+      "source_id": "rc-first-aid",
+      "reason": "Check, Call, Care and emergency activation"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P016000-01",
+      "claim": "First-aid providers should protect against injury, stay with a person having a seizure, and time the event.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "aha-redcross-seizure-firstaid-2024",
+          "location": "Seizure recognition, scene safety, recovery positioning, EMS activation thresholds and actions to avoid",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "cdc-seizure-firstaid-2024",
+          "location": "First-aid actions, timing, reasons to call 911, and avoidance of restraint or mouth insertion",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific scope, equipment, adopted rules and relevant exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P016000-02",
+      "claim": "Restraint and insertion of objects into the mouth during a seizure can cause harm and are not recommended.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "aha-redcross-seizure-firstaid-2024",
+          "location": "Seizure recognition, scene safety, recovery positioning, EMS activation thresholds and actions to avoid",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "cdc-seizure-firstaid-2024",
+          "location": "First-aid actions, timing, reasons to call 911, and avoidance of restraint or mouth insertion",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific scope, equipment, adopted rules and relevant exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P016000-03",
+      "claim": "A seizure lasting about five minutes, repeated without recovery, first-time event, water involvement, breathing trouble, injury, pregnancy, or infant under six months warrants emergency service activation.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "aha-redcross-seizure-firstaid-2024",
+          "location": "Seizure recognition, scene safety, recovery positioning, EMS activation thresholds and actions to avoid",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific scope, equipment, adopted rules and relevant exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P016000-04",
+      "claim": "Following the seizure, support recovery and check normal responsiveness and breathing.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "aha-redcross-seizure-firstaid-2024",
+          "location": "Seizure recognition, scene safety, recovery positioning, EMS activation thresholds and actions to avoid",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "rc-first-aid",
+          "location": "Check, Call, Care and emergency activation",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific scope, equipment, adopted rules and relevant exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_technical_review_pending",
+  "citation_policy": "Original authors and standards issuers attributed; synthesis distinguished from source-backed claims. Not certified for professional, clinical or jurisdiction-specific use."
+}

@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "lecture_id": "016000",
+  "transcript": "016000-masonry-wall-ties-and-anchorage-inspection.md",
+  "related_resources": [
+    {
+      "source_id": "bia-tech-note44b-ties",
+      "reason": "Wall tie function, connection detailing, structural performance and corrosion resistance in anchored brick veneer and masonry"
+    },
+    {
+      "source_id": "bia-builder-notes",
+      "reason": "Drainable veneer, flashing, weeps, air space and moisture control"
+    },
+    {
+      "source_id": "nps-brick-masonry-problems",
+      "reason": "Hard mortar damage and compatible repointing of historic masonry"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P016000-01",
+      "claim": "Veneer ties transfer lateral loads between masonry and structural backing but are distinct from the veneer gravity support.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "bia-tech-note44b-ties",
+          "location": "Wall tie function, connection detailing, structural performance and corrosion resistance in anchored brick veneer and masonry",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific scope, equipment, adopted rules and relevant exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P016000-02",
+      "claim": "Corrosion resistance, tie geometry, embedment and backing attachment all influence veneer connection performance.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "bia-tech-note44b-ties",
+          "location": "Wall tie function, connection detailing, structural performance and corrosion resistance in anchored brick veneer and masonry",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific scope, equipment, adopted rules and relevant exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P016000-03",
+      "claim": "Drainage and flashing details help manage rain that penetrates veneer, reducing prolonged wetting of hidden components.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "bia-builder-notes",
+          "location": "Drainable veneer, flashing, weeps, air space and moisture control",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific scope, equipment, adopted rules and relevant exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P016000-04",
+      "claim": "Surface repointing does not establish the safety of a displaced or detached masonry veneer.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "bia-tech-note44b-ties",
+          "location": "Wall tie function, connection detailing, structural performance and corrosion resistance in anchored brick veneer and masonry",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nps-brick-masonry-problems",
+          "location": "Hard mortar damage and compatible repointing of historic masonry",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational synthesis based on listed sources; no reference verifies every inferred detail.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_technical_review_pending",
+  "citation_policy": "Original authors and standards issuers attributed; synthesis distinguished from source-backed claims. Not certified for professional, clinical or jurisdiction-specific use."
+}

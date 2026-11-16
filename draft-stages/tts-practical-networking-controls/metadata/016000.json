@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "lecture_id": "016000",
+  "transcript": "016000-home-automation-recovery-drills-and-observability.md",
+  "related_resources": [
+    {
+      "source_id": "nist-sp80034r1-contingency",
+      "reason": "Dependency analysis, service recovery strategies and validating recovery plans; federal-system context"
+    },
+    {
+      "source_id": "nist-sp80092-logs",
+      "reason": "Log collection, retention, analysis, and operational processes"
+    },
+    {
+      "source_id": "ietf-rfc9110-idempotency",
+      "reason": "Idempotent request semantics and when a client may safely retry after a lost response"
+    },
+    {
+      "source_id": "nist-ir8350-iot-onboarding",
+      "reason": "Onboarding functional roles, trust, lifecycle management and credentials"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P016000-01",
+      "claim": "A recovery plan needs dependency analysis and should be tested rather than relying only on the existence of backups.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "nist-sp80034r1-contingency",
+          "location": "Dependency analysis, service recovery strategies and validating recovery plans; federal-system context",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific scope, equipment, adopted rules and relevant exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P016000-02",
+      "claim": "Effective operational logs help distinguish events, state changes and failures across distributed components.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "nist-sp80092-logs",
+          "location": "Log collection, retention, analysis, and operational processes",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific scope, equipment, adopted rules and relevant exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P016000-03",
+      "claim": "Desired-state idempotent requests are safer to retry after uncertain network delivery than blind toggles.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "ietf-rfc9110-idempotency",
+          "location": "Idempotent request semantics and when a client may safely retry after a lost response",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific scope, equipment, adopted rules and relevant exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P016000-04",
+      "claim": "Device identity and secure onboarding remain relevant when failed hardware must be replaced.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "nist-ir8350-iot-onboarding",
+          "location": "Onboarding functional roles, trust, lifecycle management and credentials",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational synthesis based on listed sources; no reference verifies every inferred detail.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_technical_review_pending",
+  "citation_policy": "Original authors and standards issuers attributed; synthesis distinguished from source-backed claims. Not certified for professional, clinical or jurisdiction-specific use."
+}

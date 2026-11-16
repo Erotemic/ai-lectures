@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "lecture_id": "016000",
+  "transcript": "016000-weather-forecast-interpretation-for-backcountry-decisions.md",
+  "related_resources": [
+    {
+      "source_id": "nws-prob-precip-explanation",
+      "reason": "Point probability of measurable precipitation within the specified valid forecast period"
+    },
+    {
+      "source_id": "nws-area-forecast-discussion",
+      "reason": "Area Forecast Discussion as explanation of significant forecast issues, confidence, and model disagreement"
+    },
+    {
+      "source_id": "nws-lightning-outdoors",
+      "reason": "Lightning hazards and why tents/open shelters are not safe places during storms"
+    },
+    {
+      "source_id": "nps-backcountry-trip-plan",
+      "reason": "Main/alternate itinerary, water and river-crossing risk, check-ins and backup logistics"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P016000-01",
+      "claim": "A 40-percent probability of precipitation describes a point likelihood over a specified period, not 40 percent of time raining.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "nws-prob-precip-explanation",
+          "location": "Point probability of measurable precipitation within the specified valid forecast period",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific scope, equipment, adopted rules and relevant exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P016000-02",
+      "claim": "Area Forecast Discussions can identify significant hazards, forecast uncertainty and disagreements in guidance.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "nws-area-forecast-discussion",
+          "location": "Area Forecast Discussion as explanation of significant forecast issues, confidence, and model disagreement",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific scope, equipment, adopted rules and relevant exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P016000-03",
+      "claim": "Thunderstorm and lightning threats should inform exposure and route decisions rather than tent shelter assumptions.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "nws-lightning-outdoors",
+          "location": "Lightning hazards and why tents/open shelters are not safe places during storms",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific scope, equipment, adopted rules and relevant exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P016000-04",
+      "claim": "Alternative routes and turnaround plans must account for water crossings, timing and uncertain conditions.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "nps-backcountry-trip-plan",
+          "location": "Main/alternate itinerary, water and river-crossing risk, check-ins and backup logistics",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational synthesis based on listed sources; no reference verifies every inferred detail.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_technical_review_pending",
+  "citation_policy": "Original authors and standards issuers attributed; synthesis distinguished from source-backed claims. Not certified for professional, clinical or jurisdiction-specific use."
+}

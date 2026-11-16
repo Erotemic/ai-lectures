@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "lecture_id": "016000",
+  "transcript": "016000-diagnosing-summer-heat-gain-with-solar-and-room-temperature-logs.md",
+  "related_resources": [
+    {
+      "source_id": "doe-energy-star-window-basics",
+      "reason": "Whole-window U-factor and SHGC and their separate heat-flow functions"
+    },
+    {
+      "source_id": "doe-passive-solar-guide",
+      "reason": "Solar absorber, exposed thermal mass, heat distribution, and summer shading control"
+    },
+    {
+      "source_id": "ashrae-2025-energy-estimating",
+      "reason": "Degree-day and change-point regression models, base use and weather-dependent slope"
+    },
+    {
+      "source_id": "doe-airsealing-audit-2010",
+      "reason": "Blower-door reference pressure and calibrated airflow; infrared thermography under controlled conditions"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P016000-01",
+      "claim": "Whole-window U-factor describes thermal transfer while SHGC describes solar heat gain, so the values answer different questions.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "doe-energy-star-window-basics",
+          "location": "Whole-window U-factor and SHGC and their separate heat-flow functions",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific scope, equipment, adopted rules and relevant exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P016000-02",
+      "claim": "Solar exposure, shading and exposed thermal mass can produce delayed indoor temperature peaks.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "doe-passive-solar-guide",
+          "location": "Solar absorber, exposed thermal mass, heat distribution, and summer shading control",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific scope, equipment, adopted rules and relevant exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P016000-03",
+      "claim": "Comparisons across days require accounting for outdoor weather, occupancy and equipment changes.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "ashrae-2025-energy-estimating",
+          "location": "Degree-day and change-point regression models, base use and weather-dependent slope",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational synthesis based on listed sources; no reference verifies every inferred detail.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P016000-04",
+      "claim": "Thermography interpretation requires controlled observation conditions rather than assuming apparent IR temperature is always true surface temperature.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "doe-airsealing-audit-2010",
+          "location": "Blower-door reference pressure and calibrated airflow; infrared thermography under controlled conditions",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational synthesis based on listed sources; no reference verifies every inferred detail.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_technical_review_pending",
+  "citation_policy": "Original authors and standards issuers attributed; synthesis distinguished from source-backed claims. Not certified for professional, clinical or jurisdiction-specific use."
+}

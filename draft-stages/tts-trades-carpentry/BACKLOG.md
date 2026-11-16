@@ -1,9 +1,9 @@
 # Rotation backlog: Carpentry: Wood, Framing, Joinery, and Structural Judgment
 
-Status: lectures `001000`–`015000` authored. Remaining slots below are proposed topics, not completed manuscripts.
+Status: lectures `001000`–`016000` authored. Remaining slots are proposed, not completed manuscripts.
 These are ordered topics, not duration or word-count requirements. Retain stable IDs once published.
 
-- `016000` — Shear Walls, Diaphragms, and Lateral Resistance
+- `017000` — Deck Anchorage and Long-Term Inspection
 
-**Editorial method:** Narrate the physics and practice directly; use non-spoken companions for equations, diagrams, source locators, regional code or regulatory scope, and unresolved professional-review needs.
-Do not describe these openings as professionally certified or jurisdiction-verified.
+**Editorial method:** Narrate physics and practical reasoning directly; use non-spoken companions for equations, diagrams, source locators, jurisdictional rules, and outstanding reviews.
+These drafts are not professionally certified or jurisdiction-verified.

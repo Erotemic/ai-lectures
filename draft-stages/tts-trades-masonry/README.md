@@ -2,6 +2,6 @@
 
 Learn cement hydration, aggregates, masonry assemblies, substrate support, cracking and anchor behavior.
 
-This is one of the 17 coordinated **practical-skills** tracks. It contains fifteen completed lectures (`001000`–`015000`). For the next alternating pass, write this track's `016000` topic from `BACKLOG.md`, then visit the next track in the rotation. These are educational draft lectures; source provenance and technical companions are provided in the pack, but no field certification or code-adoption check is implied.
+This is one of the 17 coordinated **practical-skills** tracks. Sixteen lectures (`001000`–`016000`) are authored. For the alternating rotation, follow the `017000` topic in `BACKLOG.md` and then visit the next track. These are educational drafts with non-spoken technical companions and provenance; no field certification or code-adoption check is implied.
 
-Manuscripts use the repository's spoken-region markers so narration and non-spoken technical notes remain separate. The lecture length is determined by its teaching needs, never a duration target.
+Manuscripts have spoken-region markers, keeping the TTS narration separate from technical diagrams, notes, and references. Lecture length is determined by teaching needs, never a time target.
