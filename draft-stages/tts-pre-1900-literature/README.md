@@ -214,11 +214,23 @@ edition problem**. The second generation and Isabella's testimony are not
 collapsed into a romantic tragedy about the first pair. See
 `notes/wuthering-heights-two-generations-1847-1850.md`.
 
+**German drama and philosophical tragedy — Goethe, *Faust***:
+229000–251000. Fourteen consecutive story lectures cover the three opening
+frames, the whole Gretchen tragedy in Part One, and **all five acts** of Part
+Two: imperial finance and paper money, the Mothers and Helen, Wagner and
+Homunculus, Classical Walpurgis Night, the Helena episode and Euphorion,
+imperial war, coastal land reclamation, Philemon and Baucis, and the final
+vision of salvation. Nine analyses distinguish the heavenly wager from Faust's
+compact; examine Gretchen's unequal risk and the devil's agency; discuss
+classical forms, political economy, labor and forced displacement, grace,
+theatre, the early Faust myth and the long textual history. The final speeches
+are **not** treated as an uncontested contractual or moral victory. See
+`notes/faust-two-parts-five-acts-text-and-reading-guide.md`.
+
 ## Substantive next priorities
 
-The next large works planned are **Goethe's *Faust*** (explicitly both Part One
-and Part Two, rather than stopping at Gretchen's tragedy) and **Milton's
-*Paradise Lost*** (all twelve books of the 1674 arrangement, with the 1667
-ten-book history described separately). Further high-impact omissions include
+The next large work planned is **Milton's *Paradise Lost*** (all twelve
+books of the 1674 arrangement, with the 1667 ten-book history described
+separately). Further high-impact omissions include
 Chaucer's *Canterbury Tales* and Boccaccio's *Decameron*. All spoken lecture
 lengths remain descriptive measurements, not imposed targets.

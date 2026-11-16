@@ -1,7 +1,7 @@
 {
   "id": "pre-1900-literature",
   "title": "Literary Classics Before 1900",
-  "summary": "Audio-first study of influential pre-1900 literature, with complete narrative sequences and analyses from Dante and Shakespeare to Austen, the Brontës, Eliot, Tolstoy, and Dostoevsky.",
+  "summary": "Audio-first study of influential pre-1900 literature, with complete narrative sequences and analyses from Dante and Shakespeare to Austen, the Brontës, Goethe, Eliot, Tolstoy, and Dostoevsky.",
   "categories": [
     "Literature",
     "History & Culture"
@@ -14,7 +14,8 @@
     "Selections span medieval poetry, early modern drama and prose, Regency and Victorian fiction, Romantic Gothic narrative, mathematical satire, and French realism.",
     "The Moby-Dick and Anna Karenina sections each narrate the complete principal plot before interpretive lectures, and name the English text or edition used for orientation.",
     "Middlemarch follows eight books and a Finale; Crime and Punishment follows six parts and its epilogue. All story lectures precede the critical studies.",
-    "The Brontë sections use complete story sequences before literary analyses; Jane Eyre is first-person retrospective narration and Wuthering Heights is framed by Lockwood and Nelly Dean. No advance reading is required for the story lectures."
+    "The Brontë sections use complete story sequences before literary analyses; Jane Eyre is first-person retrospective narration and Wuthering Heights is framed by Lockwood and Nelly Dean. No advance reading is required for the story lectures.",
+    "Goethe’s Faust is narrated in its entirety: Part One’s Gretchen tragedy and all five acts of Part Two; the two wagers and the competing final judgments are kept distinct."
   ],
   "sections": [
     "early-modern-drama",
@@ -38,7 +39,10 @@
     "victorian-provincial-novel-george-eliot",
     "russian-psychological-novel-dostoevsky-crime",
     "victorian-gothic-bildungsroman-bronte-jane",
-    "victorian-gothic-two-generations-bronte-wuthering"
+    "victorian-gothic-two-generations-bronte-wuthering",
+    "german-drama-goethe-faust-one",
+    "german-drama-goethe-faust-two",
+    "german-drama-goethe-faust-criticism"
   ],
   "lectures": [
     {
@@ -2092,6 +2096,213 @@
       "spoken_words": 740,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 5.1
+    },
+    {
+      "id": "229000",
+      "title": "Faust — Part One, Story: Three Openings and a Scholar at Night",
+      "section": "german-drama-goethe-faust-one",
+      "file": "229000-faust-one-story-three-prologues-and-a-scholar-at-night.md",
+      "spoken_words": 674,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 4.6
+    },
+    {
+      "id": "230000",
+      "title": "Faust — Part One, Story: The Poodle, the Compact, and the Witch",
+      "section": "german-drama-goethe-faust-one",
+      "file": "230000-faust-one-story-the-poodle-the-compact-and-the-witch.md",
+      "spoken_words": 630,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 4.3
+    },
+    {
+      "id": "231000",
+      "title": "Faust — Part One, Story: Gretchen, the Gifts, and the Garden",
+      "section": "german-drama-goethe-faust-one",
+      "file": "231000-faust-one-story-gretchen-the-gifts-and-the-garden.md",
+      "spoken_words": 612,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 4.2
+    },
+    {
+      "id": "232000",
+      "title": "Faust — Part One, Story: Faith, Secrecy, and the First Deaths",
+      "section": "german-drama-goethe-faust-one",
+      "file": "232000-faust-one-story-the-question-of-faith-and-the-first-deaths.md",
+      "spoken_words": 616,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 4.2
+    },
+    {
+      "id": "233000",
+      "title": "Faust — Part One, Story: The Cathedral, Walpurgis Night, and a Vision",
+      "section": "german-drama-goethe-faust-one",
+      "file": "233000-faust-one-story-cathedral-walpurgis-and-the-vision.md",
+      "spoken_words": 597,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 4.1
+    },
+    {
+      "id": "234000",
+      "title": "Faust — Part One, Story: Gretchen’s Prison and the Judgment",
+      "section": "german-drama-goethe-faust-one",
+      "file": "234000-faust-one-story-gretchens-prison-and-the-judgment.md",
+      "spoken_words": 636,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 4.4
+    },
+    {
+      "id": "235000",
+      "title": "Faust — Part Two, Story: A New Morning and the Emperor’s Paper",
+      "section": "german-drama-goethe-faust-two",
+      "file": "235000-faust-two-story-a-new-morning-and-the-emperors-paper.md",
+      "spoken_words": 572,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 3.9
+    },
+    {
+      "id": "236000",
+      "title": "Faust — Part Two, Story: The Mothers and Helen’s Image",
+      "section": "german-drama-goethe-faust-two",
+      "file": "236000-faust-two-story-the-mothers-and-helens-image.md",
+      "spoken_words": 544,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 3.8
+    },
+    {
+      "id": "237000",
+      "title": "Faust — Part Two, Story: The Old Study and Homunculus",
+      "section": "german-drama-goethe-faust-two",
+      "file": "237000-faust-two-story-the-old-study-and-homunculus.md",
+      "spoken_words": 551,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 3.8
+    },
+    {
+      "id": "238000",
+      "title": "Faust — Part Two, Story: Classical Walpurgis Night and the Sea",
+      "section": "german-drama-goethe-faust-two",
+      "file": "238000-faust-two-story-classical-walpurgis-and-the-sea.md",
+      "spoken_words": 569,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 3.9
+    },
+    {
+      "id": "239000",
+      "title": "Faust — Part Two, Story: Helen, Faust, and Euphorion",
+      "section": "german-drama-goethe-faust-two",
+      "file": "239000-faust-two-story-helen-faust-and-euphorion.md",
+      "spoken_words": 556,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 3.8
+    },
+    {
+      "id": "240000",
+      "title": "Faust — Part Two, Story: The Emperor’s Battle and the Coastal Grant",
+      "section": "german-drama-goethe-faust-two",
+      "file": "240000-faust-two-story-emperors-battle-and-the-coastal-grant.md",
+      "spoken_words": 536,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 3.7
+    },
+    {
+      "id": "241000",
+      "title": "Faust — Part Two, Story: Philemon, Baucis, and the Fire",
+      "section": "german-drama-goethe-faust-two",
+      "file": "241000-faust-two-story-philemon-baucis-and-the-fire.md",
+      "spoken_words": 594,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 4.1
+    },
+    {
+      "id": "242000",
+      "title": "Faust — Part Two, Story: Care, the Grave, and Salvation",
+      "section": "german-drama-goethe-faust-two",
+      "file": "242000-faust-two-story-care-the-grave-and-salvation.md",
+      "spoken_words": 668,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 4.6
+    },
+    {
+      "id": "243000",
+      "title": "Faust — The Wager, the Compact, and Striving",
+      "section": "german-drama-goethe-faust-criticism",
+      "file": "243000-faust-the-wager-the-compact-and-striving.md",
+      "spoken_words": 641,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 4.4
+    },
+    {
+      "id": "244000",
+      "title": "Faust — Gretchen’s Tragedy: Class, Gender, and Conscience",
+      "section": "german-drama-goethe-faust-criticism",
+      "file": "244000-faust-gretchens-tragedy-class-gender-and-conscience.md",
+      "spoken_words": 610,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 4.2
+    },
+    {
+      "id": "245000",
+      "title": "Faust — Mephistopheles: Negation, Comedy, and Complicity",
+      "section": "german-drama-goethe-faust-criticism",
+      "file": "245000-faust-mephistopheles-negation-comedy-and-complicity.md",
+      "spoken_words": 643,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 4.4
+    },
+    {
+      "id": "246000",
+      "title": "Faust — Homunculus, Helen, and the Forms of Becoming",
+      "section": "german-drama-goethe-faust-criticism",
+      "file": "246000-faust-homunculus-helen-and-the-forms-of-becoming.md",
+      "spoken_words": 607,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 4.2
+    },
+    {
+      "id": "247000",
+      "title": "Faust — Paper Money, Empire, and the Economics of Illusion",
+      "section": "german-drama-goethe-faust-criticism",
+      "file": "247000-faust-paper-money-empire-and-the-economics-of-illusion.md",
+      "spoken_words": 596,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 4.1
+    },
+    {
+      "id": "248000",
+      "title": "Faust — Land Reclamation, Naboth, and the Cost of Progress",
+      "section": "german-drama-goethe-faust-criticism",
+      "file": "248000-faust-land-reclamation-naboth-and-the-cost-of-progress.md",
+      "spoken_words": 620,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 4.3
+    },
+    {
+      "id": "249000",
+      "title": "Faust — Salvation, Grace, and the Eternal Feminine",
+      "section": "german-drama-goethe-faust-criticism",
+      "file": "249000-faust-salvation-grace-and-the-eternal-feminine.md",
+      "spoken_words": 624,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 4.3
+    },
+    {
+      "id": "250000",
+      "title": "Faust — Theatre, Verse, and the Two Parts",
+      "section": "german-drama-goethe-faust-criticism",
+      "file": "250000-faust-theatre-verse-and-the-two-parts.md",
+      "spoken_words": 631,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 4.4
+    },
+    {
+      "id": "251000",
+      "title": "Faust — Legend, Composition, Editions, and Close Reading",
+      "section": "german-drama-goethe-faust-criticism",
+      "file": "251000-faust-legend-composition-editions-and-close-reading.md",
+      "spoken_words": 687,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 4.7
     }
   ]
 }
