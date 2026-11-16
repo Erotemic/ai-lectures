@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "lecture_id": "045900",
+  "transcript": "045900-beckett-analysis-text-versions.md",
+  "related_resources": [
+    {
+      "source_id": "ml-beckett-cambridge-graver",
+      "reason": "Dates of composition, French print and premiere, authorial translation; publisher excerpt accessible. Does not justify invented line-by-line variants."
+    },
+    {
+      "source_id": "ml-beckett-british-library",
+      "reason": "1971 educational edition notes revised and unexpurgated English published in 1965; supports British textual history."
+    },
+    {
+      "source_id": "ml-beckett-washu",
+      "reason": "Records 1975 Berlin production notebook holdings and related Cluchey materials; collection descriptions, not a full text of notebooks."
+    },
+    {
+      "source_id": "ml-beckett-emory",
+      "reason": "Documents Berlin production under Beckett, 1975 rehearsal/premiere, correspondence links; index metadata rather than complete letters."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "045900-c01",
+      "anchor": "Beckett composed En attendant Godot in French between October 1948 and January 1949.",
+      "kind": "documentary_fact_or_textual_history",
+      "source_ids": [
+        "ml-beckett-cambridge-graver"
+      ],
+      "source_locator": "See cited scholarship/archival record. Interpretive arguments are not documentary facts.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "045900-c02",
+      "anchor": "It was published in French in 1952 and first performed in Paris on January 5, 1953",
+      "kind": "documentary_fact_or_textual_history",
+      "source_ids": [
+        "ml-beckett-cambridge-graver",
+        "ml-beckett-reading-staging"
+      ],
+      "source_locator": "See cited scholarship/archival record. Interpretive arguments are not documentary facts.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "045900-c03",
+      "anchor": "The first English-language book edition appeared from Grove Press in New York in 1954",
+      "kind": "documentary_fact_or_textual_history",
+      "source_ids": [
+        "ml-beckett-cambridge-graver"
+      ],
+      "source_locator": "See cited scholarship/archival record. Interpretive arguments are not documentary facts.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "045900-c04",
+      "anchor": "Lawrence Graver's study of Godot emphasizes",
+      "kind": "documentary_fact_or_textual_history",
+      "source_ids": [
+        "ml-beckett-cambridge-graver"
+      ],
+      "source_locator": "See cited scholarship/archival record. Interpretive arguments are not documentary facts.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "045900-c05",
+      "anchor": "The British publication was affected by cuts and alterations",
+      "kind": "documentary_fact_or_textual_history",
+      "source_ids": [
+        "ml-beckett-british-library",
+        "ml-beckett-cambridge-graver"
+      ],
+      "source_locator": "See cited scholarship/archival record. Interpretive arguments are not documentary facts.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "045900-c06",
+      "anchor": "His 1975 Berlin production of Warten auf Godot",
+      "kind": "documentary_fact_or_textual_history",
+      "source_ids": [
+        "ml-beckett-washu",
+        "ml-beckett-emory"
+      ],
+      "source_locator": "See cited scholarship/archival record. Interpretive arguments are not documentary facts.",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}

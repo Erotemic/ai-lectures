@@ -1,7 +1,7 @@
 {
   "id": "modern-literature",
   "title": "20th-Century Literature · Novels, voices, and the human condition",
-  "summary": "Story-first literary history and criticism of forty-one major twentieth-century works. Landmark sections now include Joyce, Proust, Faulkner, Woolf, and Borges’s Ficciones (nineteen story and analysis lectures).",
+  "summary": "Story-first literary history and criticism of forty-two major twentieth-century works, including extended landmark sections on Joyce, Proust, Faulkner, Woolf, Borges, and Beckett’s Waiting for Godot.",
   "assumed_background": [
     "No prior reading is required for the story-first lectures, including the Lord of the Rings orientation and complete three-volume narrative.",
     "Analysis lectures assume the preceding complete story orientation or knowledge of the work; specialized Tolkien essays follow the full retelling.",
@@ -9,7 +9,8 @@
     "The seven Proust story lectures cover the continuous novel volume by volume, with full spoilers; the seven analyses presuppose this orientation or the original work.",
     "The Sound and the Fury has five spoiler-complete narrative orientation lectures followed by seven formal, social, and textual studies; the latter assume the story orientation or knowledge of the novel.",
     "The four To the Lighthouse story lectures cover all three parts and the ending with spoilers; the following eight analyses assume this orientation or independent familiarity with the novel.",
-    "The Ficciones section provides complete spoiler-containing story orientations for all seventeen pieces in the expanded edition; seven analyses follow, requiring the story lectures or prior familiarity with the works."
+    "The Ficciones section provides complete spoiler-containing story orientations for all seventeen pieces in the expanded edition; seven analyses follow, requiring the story lectures or prior familiarity with the works.",
+    "The two Waiting for Godot story lectures contain both acts with spoilers; the following nine analyses assume this orientation or a reading/performance of the play. The play is treated as theatre, not as a novel with a hidden plot resolution."
   ],
   "sections": [
     "novels-and-their-worlds",
@@ -17,7 +18,8 @@
     "proust-in-search-of-lost-time",
     "faulkner-the-sound-and-the-fury",
     "woolf-to-the-lighthouse",
-    "borges-ficciones-and-the-invention-of-metafiction"
+    "borges-ficciones-and-the-invention-of-metafiction",
+    "beckett-waiting-for-godot-drama-and-absence"
   ],
   "lectures": [
     {
@@ -1369,6 +1371,105 @@
       "spoken_words": 849,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 5.9
+    },
+    {
+      "id": "045000",
+      "title": "Waiting for Godot — Act One: The Appointment",
+      "section": "beckett-waiting-for-godot-drama-and-absence",
+      "file": "045000-beckett-story-act-one.md",
+      "spoken_words": 1032,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.1
+    },
+    {
+      "id": "045100",
+      "title": "Waiting for Godot — Act Two: Tomorrow Repeats",
+      "section": "beckett-waiting-for-godot-drama-and-absence",
+      "file": "045100-beckett-story-act-two.md",
+      "spoken_words": 1064,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.3
+    },
+    {
+      "id": "045200",
+      "title": "Waiting for Godot: The Two-Act Machine of Repetition and Damage",
+      "section": "beckett-waiting-for-godot-drama-and-absence",
+      "file": "045200-beckett-analysis-two-act-time.md",
+      "spoken_words": 870,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.0
+    },
+    {
+      "id": "045300",
+      "title": "Waiting for Godot: The Clown’s Serious Work",
+      "section": "beckett-waiting-for-godot-drama-and-absence",
+      "file": "045300-beckett-analysis-comedy.md",
+      "spoken_words": 932,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.4
+    },
+    {
+      "id": "045400",
+      "title": "Waiting for Godot: Conversation When Words Cannot Settle Anything",
+      "section": "beckett-waiting-for-godot-drama-and-absence",
+      "file": "045400-beckett-analysis-language.md",
+      "spoken_words": 911,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.3
+    },
+    {
+      "id": "045500",
+      "title": "Waiting for Godot: Pozzo, Lucky, and Power Made Visible",
+      "section": "beckett-waiting-for-godot-drama-and-absence",
+      "file": "045500-beckett-analysis-pozzo-lucky.md",
+      "spoken_words": 899,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.2
+    },
+    {
+      "id": "045600",
+      "title": "Waiting for Godot: The Absent Visitor and the Problem of Interpretation",
+      "section": "beckett-waiting-for-godot-drama-and-absence",
+      "file": "045600-beckett-analysis-godot.md",
+      "spoken_words": 905,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.2
+    },
+    {
+      "id": "045700",
+      "title": "Waiting for Godot: Memory, Recognition, and the Fear of Disappearing",
+      "section": "beckett-waiting-for-godot-drama-and-absence",
+      "file": "045700-beckett-analysis-memory.md",
+      "spoken_words": 850,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.9
+    },
+    {
+      "id": "045800",
+      "title": "Waiting for Godot: A Close-Reading Workshop for the Stage",
+      "section": "beckett-waiting-for-godot-drama-and-absence",
+      "file": "045800-beckett-analysis-stage-workshop.md",
+      "spoken_words": 950,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.6
+    },
+    {
+      "id": "045900",
+      "title": "Waiting for Godot: French, English, and the Changing Performance Text",
+      "section": "beckett-waiting-for-godot-drama-and-absence",
+      "file": "045900-beckett-analysis-text-versions.md",
+      "spoken_words": 911,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.3
+    },
+    {
+      "id": "046000",
+      "title": "Waiting for Godot: A Postwar Landmark and Its Afterlives",
+      "section": "beckett-waiting-for-godot-drama-and-absence",
+      "file": "046000-beckett-analysis-history-influence.md",
+      "spoken_words": 1021,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.0
     }
   ]
 }
