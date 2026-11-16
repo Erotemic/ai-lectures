@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "lecture_id": "042100",
+  "transcript": "042100-woolf-analysis-mr-ramsay-knowledge-and-need.md",
+  "related_resources": [
+    {
+      "source_id": "ml-woolf-window",
+      "reason": "Direct primary text for the opening day, child James, Mrs/Mr Ramsay, Tansley, Lily, Bankes, Paul and Minta, nursery, meal, and ending. Wikisource uses an American-edition witness; differences from first British edition matter in word-level textual comparison."
+    },
+    {
+      "source_id": "ml-woolf-lighthouse",
+      "reason": "Direct primary text for Lily, Mr Ramsay, James, Cam, Macalister and his son, the boat, boots, recognition of James, and the last canvas line. Not an edition-independent authority on typography."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "042100-c01",
+      "anchor": "Mr. Ramsay imagines scholarship as a sequence from A to Z.",
+      "kind": "literary_interpretation_with_primary_text",
+      "source_ids": [
+        "ml-woolf-window"
+      ],
+      "source_locator": "The Window, letter sequence",
+      "audit_status": "source_recorded_primary_checked"
+    },
+    {
+      "id": "042100-c02",
+      "anchor": "William Bankes admires him and remembers his vigorous, concentrated younger self.",
+      "kind": "literary_interpretation_with_primary_text",
+      "source_ids": [
+        "ml-woolf-window"
+      ],
+      "source_locator": "The Window, Bankes’ recollection",
+      "audit_status": "source_recorded_primary_checked"
+    },
+    {
+      "id": "042100-c03",
+      "anchor": "Lily's memory in the last section reduces those difficult inquiries to the image of a kitchen table when no one is there.",
+      "kind": "literary_interpretation_with_primary_text",
+      "source_ids": [
+        "ml-woolf-lighthouse"
+      ],
+      "source_locator": "The Lighthouse, Lily on Ramsay’s philosophy",
+      "audit_status": "source_recorded_primary_checked"
+    },
+    {
+      "id": "042100-c04",
+      "anchor": "Her unexpected praise of his boots nonetheless helps.",
+      "kind": "literary_interpretation_with_primary_text",
+      "source_ids": [
+        "ml-woolf-lighthouse"
+      ],
+      "source_locator": "The Lighthouse, boots episode",
+      "audit_status": "source_recorded_primary_checked"
+    },
+    {
+      "id": "042100-c05",
+      "anchor": "Near the lighthouse James steers well.",
+      "kind": "literary_interpretation_with_primary_text",
+      "source_ids": [
+        "ml-woolf-lighthouse"
+      ],
+      "source_locator": "The Lighthouse, final boat approach",
+      "audit_status": "source_recorded_primary_checked"
+    }
+  ]
+}

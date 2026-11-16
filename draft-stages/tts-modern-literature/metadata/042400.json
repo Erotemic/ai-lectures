@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "lecture_id": "042400",
+  "transcript": "042400-woolf-analysis-close-reading-workshop.md",
+  "related_resources": [
+    {
+      "source_id": "ml-woolf-window",
+      "reason": "Direct primary text for the opening day, child James, Mrs/Mr Ramsay, Tansley, Lily, Bankes, Paul and Minta, nursery, meal, and ending. Wikisource uses an American-edition witness; differences from first British edition matter in word-level textual comparison."
+    },
+    {
+      "source_id": "ml-woolf-time",
+      "reason": "Direct primary text for the empty house, bracketed notices of Mrs Ramsay, Prue and Andrew, wartime absence, Mrs McNab, Mrs Bast, George and restoration. Specific wording may differ in early British editions."
+    },
+    {
+      "source_id": "ml-woolf-lighthouse",
+      "reason": "Direct primary text for Lily, Mr Ramsay, James, Cam, Macalister and his son, the boat, boots, recognition of James, and the last canvas line. Not an edition-independent authority on typography."
+    },
+    {
+      "source_id": "ml-woolf-mendelson",
+      "reason": "Comparison of 1927 US/UK editions, the 1930 revised British impression, proof and section-number variants. Some editorial prescriptions are Mendelson’s judgments; do not flatten contested textual judgments into consensus."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "042400-c01",
+      "anchor": "First, read the opening exchange in The Window.",
+      "kind": "literary_interpretation_with_primary_text",
+      "source_ids": [
+        "ml-woolf-window"
+      ],
+      "source_locator": "The Window, section I",
+      "audit_status": "source_recorded_primary_checked"
+    },
+    {
+      "id": "042400-c02",
+      "anchor": "Second, find the passage where Mr. Ramsay imagines intellectual accomplishment as an alphabet.",
+      "kind": "literary_interpretation_with_primary_text",
+      "source_ids": [
+        "ml-woolf-window"
+      ],
+      "source_locator": "The Window, letter passage",
+      "audit_status": "source_recorded_primary_checked"
+    },
+    {
+      "id": "042400-c03",
+      "anchor": "Fifth, turn to Time Passes and find the bracketed notice of Mrs. Ramsay's death.",
+      "kind": "literary_interpretation_with_primary_text",
+      "source_ids": [
+        "ml-woolf-time"
+      ],
+      "source_locator": "Time Passes, bracketed sentence",
+      "audit_status": "source_recorded_primary_checked"
+    },
+    {
+      "id": "042400-c04",
+      "anchor": "Sixth, read the last morning as a double construction.",
+      "kind": "literary_interpretation_with_primary_text",
+      "source_ids": [
+        "ml-woolf-lighthouse"
+      ],
+      "source_locator": "The Lighthouse, boat and canvas alternating",
+      "audit_status": "source_recorded_primary_checked"
+    },
+    {
+      "id": "042400-c05",
+      "anchor": "The goal of close reading is not to produce a correct answer to a symbol quiz.",
+      "kind": "literary_interpretation_with_primary_text",
+      "source_ids": [
+        "ml-woolf-lighthouse"
+      ],
+      "source_locator": "Methodological synthesis with primary text, not documentary claim",
+      "audit_status": "source_recorded_primary_checked"
+    }
+  ]
+}

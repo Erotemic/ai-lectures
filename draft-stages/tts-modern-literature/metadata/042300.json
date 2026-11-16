@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "lecture_id": "042300",
+  "transcript": "042300-woolf-analysis-gender-class-and-empire.md",
+  "related_resources": [
+    {
+      "source_id": "ml-woolf-window",
+      "reason": "Direct primary text for the opening day, child James, Mrs/Mr Ramsay, Tansley, Lily, Bankes, Paul and Minta, nursery, meal, and ending. Wikisource uses an American-edition witness; differences from first British edition matter in word-level textual comparison."
+    },
+    {
+      "source_id": "ml-woolf-time",
+      "reason": "Direct primary text for the empty house, bracketed notices of Mrs Ramsay, Prue and Andrew, wartime absence, Mrs McNab, Mrs Bast, George and restoration. Specific wording may differ in early British editions."
+    },
+    {
+      "source_id": "ml-woolf-lighthouse",
+      "reason": "Direct primary text for Lily, Mr Ramsay, James, Cam, Macalister and his son, the boat, boots, recognition of James, and the last canvas line. Not an edition-independent authority on typography."
+    },
+    {
+      "source_id": "ml-woolf-cambridge-empire",
+      "reason": "Quotes the daughters’ text about Bank of England and Indian Empire, and situates patriarchy/finance/empire as related subjects. Full chapter not claimed to have been read."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "042300-c01",
+      "anchor": "Charles Tansley dismisses women's ability to paint or write.",
+      "kind": "literary_interpretation_with_primary_text",
+      "source_ids": [
+        "ml-woolf-window"
+      ],
+      "source_locator": "The Window, Tansley and Lily",
+      "audit_status": "source_recorded_primary_checked"
+    },
+    {
+      "id": "042300-c02",
+      "anchor": "Mrs. McNab remembers Mrs. Ramsay's manner and feels the weight of the family's absence",
+      "kind": "literary_interpretation_with_primary_text",
+      "source_ids": [
+        "ml-woolf-time"
+      ],
+      "source_locator": "Time Passes, McNab memories",
+      "audit_status": "source_recorded_primary_checked"
+    },
+    {
+      "id": "042300-c03",
+      "anchor": "Empire is present in the language of the opening section.",
+      "kind": "literary_interpretation_with_primary_text",
+      "source_ids": [
+        "ml-woolf-cambridge-empire"
+      ],
+      "source_locator": "Cambridge scholarly excerpt quotes empire and banking references",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "042300-c04",
+      "anchor": "The Ramsay daughters imagine a freer life",
+      "kind": "literary_interpretation_with_primary_text",
+      "source_ids": [
+        "ml-woolf-window"
+      ],
+      "source_locator": "The Window, daughters and Paris",
+      "audit_status": "source_recorded_primary_checked"
+    },
+    {
+      "id": "042300-c05",
+      "anchor": "For Macalister and his son the sea is a site of skill, danger and work.",
+      "kind": "literary_interpretation_with_primary_text",
+      "source_ids": [
+        "ml-woolf-lighthouse"
+      ],
+      "source_locator": "The Lighthouse, Macalister storm accounts; interpretive",
+      "audit_status": "source_recorded_primary_checked"
+    }
+  ]
+}

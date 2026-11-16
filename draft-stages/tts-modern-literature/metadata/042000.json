@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "lecture_id": "042000",
+  "transcript": "042000-woolf-analysis-lily-painting-art.md",
+  "related_resources": [
+    {
+      "source_id": "ml-woolf-window",
+      "reason": "Direct primary text for the opening day, child James, Mrs/Mr Ramsay, Tansley, Lily, Bankes, Paul and Minta, nursery, meal, and ending. Wikisource uses an American-edition witness; differences from first British edition matter in word-level textual comparison."
+    },
+    {
+      "source_id": "ml-woolf-lighthouse",
+      "reason": "Direct primary text for Lily, Mr Ramsay, James, Cam, Macalister and his son, the boat, boots, recognition of James, and the last canvas line. Not an edition-independent authority on typography."
+    },
+    {
+      "source_id": "ml-woolf-yale",
+      "reason": "Discussion of Lily’s modernist painting, family, multiple consciousnesses, and the war as rupture. Direct page access may fail; no claim of full-page inspection."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "042000-c01",
+      "anchor": "She places Mrs. Ramsay and James within a form which may be more like a purple triangle",
+      "kind": "literary_interpretation_with_primary_text",
+      "source_ids": [
+        "ml-woolf-window"
+      ],
+      "source_locator": "The Window, Lily and Bankes on painting",
+      "audit_status": "source_recorded_primary_checked"
+    },
+    {
+      "id": "042000-c02",
+      "anchor": "Charles Tansley has pronounced that women cannot paint and cannot write.",
+      "kind": "literary_interpretation_with_primary_text",
+      "source_ids": [
+        "ml-woolf-window"
+      ],
+      "source_locator": "The Window, Lily remembers Tansley",
+      "audit_status": "source_recorded_primary_checked"
+    },
+    {
+      "id": "042000-c03",
+      "anchor": "After the decade of absence, Lily returns to the painting.",
+      "kind": "literary_interpretation_with_primary_text",
+      "source_ids": [
+        "ml-woolf-lighthouse"
+      ],
+      "source_locator": "The Lighthouse, opening canvas scene",
+      "audit_status": "source_recorded_primary_checked"
+    },
+    {
+      "id": "042000-c04",
+      "anchor": "The novel's last gesture is a line drawn through the center of Lily's picture.",
+      "kind": "literary_interpretation_with_primary_text",
+      "source_ids": [
+        "ml-woolf-lighthouse"
+      ],
+      "source_locator": "The Lighthouse, final paragraph",
+      "audit_status": "source_recorded_primary_checked"
+    },
+    {
+      "id": "042000-c05",
+      "anchor": "We are not told that the painting will hang in a gallery",
+      "kind": "literary_interpretation_with_primary_text",
+      "source_ids": [
+        "ml-woolf-lighthouse"
+      ],
+      "source_locator": "The Lighthouse, limits of narrated conclusion",
+      "audit_status": "source_recorded_primary_checked"
+    }
+  ]
+}

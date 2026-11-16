@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "lecture_id": "042500",
+  "transcript": "042500-woolf-analysis-composition-editions-influence.md",
+  "related_resources": [
+    {
+      "source_id": "ml-woolf-cambridge-chronology",
+      "reason": "Chronology lists composition started 8 January 1926, British publication 5 May 1927, and 1928 Prix Femina. Preview is a partial book, not complete analysis."
+    },
+    {
+      "source_id": "ml-woolf-princeton",
+      "reason": "Lists 1927 Hogarth Press publication; describes literary perspectives, gender and the intellectual freedom of self-publishing. Exhibition summary is not a proof of Woolf’s personal intention in each passage."
+    },
+    {
+      "source_id": "ml-woolf-society",
+      "reason": "Records Talland House holidays in St Ives and the novel’s relocated Isle of Skye setting; biographical family history and death of Julia Stephen in 1895. Biographical source, not proof of fictional identity."
+    },
+    {
+      "source_id": "ml-woolf-smith",
+      "reason": "Catalogs corrections in Woolf’s handwriting on 1927 page proofs; documents her roles as writer, editor and publisher. Specific American editorial interventions must be checked against proofs."
+    },
+    {
+      "source_id": "ml-woolf-mendelson",
+      "reason": "Comparison of 1927 US/UK editions, the 1930 revised British impression, proof and section-number variants. Some editorial prescriptions are Mendelson’s judgments; do not flatten contested textual judgments into consensus."
+    },
+    {
+      "source_id": "ml-woolf-npg",
+      "reason": "Institutional summary of Woolf’s role in modernist fiction and Bloomsbury; a general assessment, not evidence of direct influence on specific later novelists."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "042500-c01",
+      "anchor": "Virginia Woolf published To the Lighthouse in nineteen twenty-seven.",
+      "kind": "documentary_fact_or_textual_history",
+      "source_ids": [
+        "ml-woolf-cambridge-chronology"
+      ],
+      "source_locator": "Cambridge author chronology, 1927",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "042500-c02",
+      "anchor": "Woolf remembered childhood holidays in St Ives, Cornwall",
+      "kind": "documentary_fact_or_textual_history",
+      "source_ids": [
+        "ml-woolf-society"
+      ],
+      "source_locator": "Virginia Woolf Society biographical entry",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "042500-c03",
+      "anchor": "Woolf began serious work on the novel in nineteen twenty-six.",
+      "kind": "documentary_fact_or_textual_history",
+      "source_ids": [
+        "ml-woolf-cambridge-chronology"
+      ],
+      "source_locator": "Cambridge author chronology: 8 January 1926",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "042500-c04",
+      "anchor": "The British and American editions appeared in the same year, but their texts do not represent one mechanically identical state.",
+      "kind": "documentary_fact_or_textual_history",
+      "source_ids": [
+        "ml-woolf-mendelson"
+      ],
+      "source_locator": "Mendelson scanned edition collation, 1927 and 1930",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "042500-c05",
+      "anchor": "The Hogarth Press matters beyond a decorative imprint on the title page.",
+      "kind": "documentary_fact_or_textual_history",
+      "source_ids": [
+        "ml-woolf-princeton"
+      ],
+      "source_locator": "Princeton Library exhibition on Hogarth Press",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "042500-c06",
+      "anchor": "Her novel has become an essential example in accounts of literary modernism",
+      "kind": "documentary_fact_or_textual_history",
+      "source_ids": [
+        "ml-woolf-npg"
+      ],
+      "source_locator": "NPG broad modernist assessment; rest is interpretive synthesis",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}

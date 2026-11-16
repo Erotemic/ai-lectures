@@ -1,19 +1,21 @@
 {
   "id": "modern-literature",
   "title": "20th-Century Literature · Novels, voices, and the human condition",
-  "summary": "Story-first literary history and criticism of thirty-nine major twentieth-century works. Special multi-lecture sections treat Ulysses (twelve lectures), Proust’s In Search of Lost Time (fourteen), and Faulkner’s The Sound and the Fury (twelve).",
+  "summary": "Story-first literary history and criticism of forty major twentieth-century works. Extended landmark sections treat Ulysses (twelve lectures), Proust’s In Search of Lost Time (fourteen), Faulkner’s The Sound and the Fury (twelve), and Woolf’s To the Lighthouse (twelve).",
   "assumed_background": [
     "No prior reading is required for the story-first lectures, including the Lord of the Rings orientation and complete three-volume narrative.",
     "Analysis lectures assume the preceding complete story orientation or knowledge of the work; specialized Tolkien essays follow the full retelling.",
     "The five Ulysses narrative lectures tell a continuous, spoiler-containing story in order; analytical lectures assume this orientation or prior familiarity with the novel.",
     "The seven Proust story lectures cover the continuous novel volume by volume, with full spoilers; the seven analyses presuppose this orientation or the original work.",
-    "The Sound and the Fury has five spoiler-complete narrative orientation lectures followed by seven formal, social, and textual studies; the latter assume the story orientation or knowledge of the novel."
+    "The Sound and the Fury has five spoiler-complete narrative orientation lectures followed by seven formal, social, and textual studies; the latter assume the story orientation or knowledge of the novel.",
+    "The four To the Lighthouse story lectures cover all three parts and the ending with spoilers; the following eight analyses assume this orientation or independent familiarity with the novel."
   ],
   "sections": [
     "novels-and-their-worlds",
     "ulysses-a-day-in-dublin",
     "proust-in-search-of-lost-time",
-    "faulkner-the-sound-and-the-fury"
+    "faulkner-the-sound-and-the-fury",
+    "woolf-to-the-lighthouse"
   ],
   "lectures": [
     {
@@ -1086,6 +1088,114 @@
       "spoken_words": 1319,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 9.1
+    },
+    {
+      "id": "041400",
+      "title": "To the Lighthouse: The Promised Journey",
+      "section": "woolf-to-the-lighthouse",
+      "file": "041400-woolf-story-the-window-afternoon.md",
+      "spoken_words": 1197,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 8.3
+    },
+    {
+      "id": "041500",
+      "title": "To the Lighthouse: Dinner and the Night",
+      "section": "woolf-to-the-lighthouse",
+      "file": "041500-woolf-story-the-window-evening.md",
+      "spoken_words": 1074,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.4
+    },
+    {
+      "id": "041600",
+      "title": "To the Lighthouse: Time Passes",
+      "section": "woolf-to-the-lighthouse",
+      "file": "041600-woolf-story-time-passes.md",
+      "spoken_words": 1173,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 8.1
+    },
+    {
+      "id": "041700",
+      "title": "To the Lighthouse: The Boat and the Picture",
+      "section": "woolf-to-the-lighthouse",
+      "file": "041700-woolf-story-the-lighthouse-and-the-picture.md",
+      "spoken_words": 1263,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 8.7
+    },
+    {
+      "id": "041800",
+      "title": "Woolf’s Two Clocks: Consciousness, Perspective, and Form",
+      "section": "woolf-to-the-lighthouse",
+      "file": "041800-woolf-analysis-time-consciousness-form.md",
+      "spoken_words": 1104,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.6
+    },
+    {
+      "id": "041900",
+      "title": "Mrs. Ramsay: Care, Authority, and the Cost of Making a World",
+      "section": "woolf-to-the-lighthouse",
+      "file": "041900-woolf-analysis-mrs-ramsay-domestic-power.md",
+      "spoken_words": 1082,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.5
+    },
+    {
+      "id": "042000",
+      "title": "Lily Briscoe’s Painting: What Art Can and Cannot Preserve",
+      "section": "woolf-to-the-lighthouse",
+      "file": "042000-woolf-analysis-lily-painting-art.md",
+      "spoken_words": 1015,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.0
+    },
+    {
+      "id": "042100",
+      "title": "Mr. Ramsay: Truth, Philosophy, and the Need to Be Loved",
+      "section": "woolf-to-the-lighthouse",
+      "file": "042100-woolf-analysis-mr-ramsay-knowledge-and-need.md",
+      "spoken_words": 1015,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.0
+    },
+    {
+      "id": "042200",
+      "title": "The House Without Its People: War, Death, and the Work of Return",
+      "section": "woolf-to-the-lighthouse",
+      "file": "042200-woolf-analysis-war-death-and-restoration.md",
+      "spoken_words": 975,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.7
+    },
+    {
+      "id": "042300",
+      "title": "Gender, Class, and Empire in a Family Summer House",
+      "section": "woolf-to-the-lighthouse",
+      "file": "042300-woolf-analysis-gender-class-and-empire.md",
+      "spoken_words": 975,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.7
+    },
+    {
+      "id": "042400",
+      "title": "Reading To the Lighthouse Closely: Six Moves on the Page",
+      "section": "woolf-to-the-lighthouse",
+      "file": "042400-woolf-analysis-close-reading-workshop.md",
+      "spoken_words": 1103,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.6
+    },
+    {
+      "id": "042500",
+      "title": "To the Lighthouse in Literary History: Composition, Editions, and Influence",
+      "section": "woolf-to-the-lighthouse",
+      "file": "042500-woolf-analysis-composition-editions-influence.md",
+      "spoken_words": 1069,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.4
     }
   ]
 }

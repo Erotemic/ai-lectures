@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "lecture_id": "041900",
+  "transcript": "041900-woolf-analysis-mrs-ramsay-domestic-power.md",
+  "related_resources": [
+    {
+      "source_id": "ml-woolf-window",
+      "reason": "Direct primary text for the opening day, child James, Mrs/Mr Ramsay, Tansley, Lily, Bankes, Paul and Minta, nursery, meal, and ending. Wikisource uses an American-edition witness; differences from first British edition matter in word-level textual comparison."
+    },
+    {
+      "source_id": "ml-woolf-time",
+      "reason": "Direct primary text for the empty house, bracketed notices of Mrs Ramsay, Prue and Andrew, wartime absence, Mrs McNab, Mrs Bast, George and restoration. Specific wording may differ in early British editions."
+    },
+    {
+      "source_id": "ml-woolf-cambridge-empire",
+      "reason": "Quotes the daughters’ text about Bank of England and Indian Empire, and situates patriarchy/finance/empire as related subjects. Full chapter not claimed to have been read."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "041900-c01",
+      "anchor": "She also helps people in the village, attempting to keep track of earnings and hardship",
+      "kind": "literary_interpretation_with_primary_text",
+      "source_ids": [
+        "ml-woolf-window"
+      ],
+      "source_locator": "The Window, charitable visits and notebook",
+      "audit_status": "source_recorded_primary_checked"
+    },
+    {
+      "id": "041900-c02",
+      "anchor": "Mrs. Ramsay believes in marriage.",
+      "kind": "literary_interpretation_with_primary_text",
+      "source_ids": [
+        "ml-woolf-window"
+      ],
+      "source_locator": "The Window, Paul and Minta and Lily",
+      "audit_status": "source_recorded_primary_checked"
+    },
+    {
+      "id": "041900-c03",
+      "anchor": "she covers the boar's skull for Cam without moving it against James's wish.",
+      "kind": "literary_interpretation_with_primary_text",
+      "source_ids": [
+        "ml-woolf-window"
+      ],
+      "source_locator": "The Window, nursery scene",
+      "audit_status": "source_recorded_primary_checked"
+    },
+    {
+      "id": "041900-c04",
+      "anchor": "Mrs. Ramsay requires privacy.",
+      "kind": "literary_interpretation_with_primary_text",
+      "source_ids": [
+        "ml-woolf-window"
+      ],
+      "source_locator": "The Window, the private beam of lighthouse light; interpretive",
+      "audit_status": "source_recorded_primary_checked"
+    },
+    {
+      "id": "041900-c05",
+      "anchor": "Then Mrs. Ramsay dies, reported in a sentence placed within brackets.",
+      "kind": "literary_interpretation_with_primary_text",
+      "source_ids": [
+        "ml-woolf-time"
+      ],
+      "source_locator": "Time Passes, Mrs Ramsay death notice",
+      "audit_status": "source_recorded_primary_checked"
+    }
+  ]
+}
