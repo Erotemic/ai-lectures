@@ -13,7 +13,6 @@ This is an independent, source-grounded, audio-first world-history curriculum fo
 | 005000 | Bronze and Bone: Early Chinese States and the Problem of Dynastic Memory | 1,396 |
 | 006000 | The Sea Between Palaces: Trade, Diplomacy, and the End of the Bronze Age | 1,367 |
 | 007000 | Cities on Different Terms: Caral, the Gulf Coast, and Early American Worlds | 1,223 |
-
 | 008000 | After the Palaces: Rebuilding Worlds around 1200 BCE | 1,300 |
 | 009000 | The Assyrian Imperial System and the People It Ruled | 1,265 |
 | 010000 | Persia: How an Empire Governs Many Peoples | 1,213 |
@@ -22,11 +21,20 @@ This is an independent, source-grounded, audio-first world-history curriculum fo
 | 013000 | Eastern Zhou: Contending States and Arguments about Rule | 1,124 |
 | 014000 | Beyond Egypt's Southern Border: Kush and the Early Sahel | 1,241 |
 | 015000 | Several American Worlds: Ceremonial Centers, Settlements, and Exchange | 1,166 |
-Lectures 001000–007000 form the early-urban and Bronze Age unit; lectures 008000–015000 cover the aftermath of the Bronze Age and the formation of Iron Age and early classical societies across several regions. **The curriculum is not yet a complete bridge to 1500 CE.** `BACKLOG.md` reserves 016000–050000, and `COVERAGE_AUDIT.md` explains what remains uncovered.
+| 016000 | After Alexander: Conquest, Succession, and the Hellenistic Kingdoms | 1,455 |
+| 017000 | A King's Words in Stone: The Maurya World and Ashoka's Edicts | 1,354 |
+| 018000 | Counting Households, Governing Distances: Qin and Han China | 1,287 |
+| 019000 | Who Owned the Republic? Rome's Road to Imperial Rule | 1,350 |
+| 020000 | Kingdoms between the Empires: Kush, Aksum, Arabia, and Iran | 1,426 |
+| 021000 | Routes without a Single Silk Road: Merchants, Oceans, and Intermediaries | 1,287 |
+| 022000 | Cities without the Roman Calendar: American Worlds across the Classical Centuries | 1,392 |
+| 023000 | An Empire at the Door: Homes, Labor, and Inequality in the Classical World | 1,410 |
+
+Lectures 001000–007000 cover early urban and Bronze Age worlds; 008000–015000 cover Iron Age and early classical transformations; 016000–023000 trace classical empires, interregional exchange, American societies, and everyday social life. **The curriculum is not yet a complete bridge to 1500 CE.** The remaining late antique and medieval lectures 024000–050000 are planned in `BACKLOG.md`.
 
 ## How to read and maintain this pack
 
-- `track.json` is the local index. Lecture IDs are stable once published; new work receives new IDs. All fifteen entries are self-contained, without a prerequisite chain.
+- `track.json` is the local index. Lecture IDs are stable once published; new work receives new IDs. All twenty-three entries are self-contained, without a prerequisite chain.
 - `NNNNNN-*.md` files contain narration between `BEGIN SPOKEN LECTURE` and `END SPOKEN LECTURE` markers. Everything outside those markers is non-spoken editorial or evidence context.
 - `metadata/NNNNNN.json` maps every spoken paragraph to named source records, with explicit source limitations and interpretive cautions.
 - `metadata/sources.json` contains source identities, links, and caveats. Add original-language evidence and specialized excavation reports when a claim needs more precision; do not misrepresent a general survey as an archival or archaeological primary source.

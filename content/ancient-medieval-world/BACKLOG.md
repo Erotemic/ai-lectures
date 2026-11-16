@@ -1,6 +1,6 @@
 # Backlog — Ancient and Medieval Histories
 
-**Status:** The opening fifteen lectures (001000–015000) are written, indexed, and source-mapped. Unit 2 (008000–015000) is now complete as an introductory lecture sequence. Entries from 016000 onward are **proposed manuscripts only**; they are not indexed and must not be described as complete.
+**Status:** The first twenty-three lectures (001000–023000) are written, indexed, and source-mapped. Unit 3 (016000–023000), on classical-era empires and networks, is complete as an introductory sequence. Entries 024000 onward are **proposed manuscripts only**; they are not indexed and must not be described as complete.
 
 The chronology is a scaffold, not a sequence in which one region necessarily learns from another. Each unit should integrate changes to governance with work, family, belief, material culture, economic organization, and what the historical evidence actually allows us to know.
 
@@ -17,7 +17,7 @@ The chronology is a scaffold, not a sequence in which one region necessarily lea
 | 014000 | Nile and Sahel: Regional Kingdoms and Trade | How should Kush, Nubian states, and early West African societies be placed in comparative history without inventing connections or erasing local chronology? |
 | 015000 | The Americas during Eurasia's Iron Age | What happened in Gulf Coast, Central Mexican, Andean and other American communities during the first millennium BCE? What is the evidence beyond monuments? |
 
-## Unit 3 — Ancient empires and exchange, about 300 BCE–300 CE (next to write)
+## Unit 3 — Ancient empires and exchange, about 300 BCE–300 CE (written and indexed)
 
 | Reserved ID | Working lecture | Guiding questions |
 | --- | --- | --- |
@@ -30,7 +30,7 @@ The chronology is a scaffold, not a sequence in which one region necessarily lea
 | 022000 | American Polities and Cities across the First Millennia | Oaxaca, Maya lowlands, early Andean states and relations between material evidence and named histories |
 | 023000 | Houses, Farms, and Inequality in the Classical World | Comparative social history of everyday work, land, gender, and unfree labor |
 
-## Unit 4 — Late antiquity and early Islamic transformations, about 300–750 CE
+## Unit 4 — Late antiquity and early Islamic transformations, about 300–750 CE (next to write)
 
 | Reserved ID | Working lecture | Guiding questions |
 | --- | --- | --- |
