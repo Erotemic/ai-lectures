@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "lecture_id": "402000",
+  "transcript": "402000-decameron-day-nine-tale-two-the-abbess-and-the-breeches.md",
+  "related_resources": [
+    {
+      "source_id": "cl-dc-brown-english",
+      "reason": "Textual context for the English translation"
+    },
+    {
+      "source_id": "cl-dc-gutenberg-rigg2",
+      "reason": "Textual context for the English translation"
+    },
+    {
+      "source_id": "cl-dc-rigg-day9-tale02",
+      "reason": "Direct day-and-tale primary translation"
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "402000-c01",
+      "anchor": "A young nun has found a lover. He visits her cell at night, and their meetings continue until other women",
+      "kind": "literary_primary_narrative_retelling",
+      "source_ids": [
+        "cl-dc-brown-english",
+        "cl-dc-gutenberg-rigg2",
+        "cl-dc-rigg-day9-tale02"
+      ],
+      "source_locator": "Day 9, Tale 2 (Elissa)",
+      "audit_status": "day_tale_narrator_and_plot_checked_against_primary_translation_not_full_italian_collation"
+    },
+    {
+      "id": "402000-c02",
+      "anchor": "The accused nun is rescued by an accident. Had the abbess put on the right veil, the same conduct might h",
+      "kind": "literary_interpretation",
+      "source_ids": [
+        "cl-dc-brown-english",
+        "cl-dc-gutenberg-rigg2",
+        "cl-dc-rigg-day9-tale02"
+      ],
+      "source_locator": "Day 9, Tale 2 (Elissa)",
+      "audit_status": "interpretive_synthesis_grounded_in_primary_text"
+    }
+  ]
+}

@@ -285,8 +285,8 @@ Day Five examines lovers surviving misfortune, without treating force or fear
 as automatically justified by a subsequent wedding. Elissa's Day Six examines
 witty speech, including the kitchen dispute between Licisca and Tindaro, the
 short verbal tales, Fra Cipolla's longer improvisation, and the Valley of the
-Ladies. **Days Seven–Eight** are now in the next overlay; Days Nine–Ten and work-level historical/literary critical
-lectures remain. See `notes/decameron-days-five-six-reading-guide.md` for
+Ladies. Days Seven–Ten are covered by subsequent installments; work-level
+historical and literary critical lectures remain. See `notes/decameron-days-five-six-reading-guide.md` for
 narrators, tale-by-tale map, evidence qualifications, and sources.
 
 **Giovanni Boccaccio, *The Decameron*, Days Seven and Eight**: 378000–399000
@@ -296,7 +296,19 @@ expands to tricks across marriages, genders and social roles. Twenty tales
 have their own narrative lectures, including recurring Calandrino, Bruno and
 Buffalmacco episodes and Rinieri's long revenge tale. Two framing lectures
 include the transition to Emilia's open-theme Day Nine. **80 of 100 tales**
-are now covered; Days Nine–Ten and the retrospective critical lectures remain.
+were covered at that stage; the fifth installment completes all one hundred. Retrospective critical lectures remain.
 See `notes/decameron-days-seven-eight-reading-guide.md` for per-tale direct
 primary-text links, narrator mapping, relevant Wikipedia references, and
 historical and interpretive qualifications.
+
+**Giovanni Boccaccio, *The Decameron*, Days Nine and Ten**: 400000–423000
+(**fifth narrative installment**). Emilia's unrestricted ninth day and
+Panfilo's tenth day of magnificence complete **all 100 tale retellings** and
+all ten day frames. Two final lectures cover the company's departure from
+Florence's country retreat and Boccaccio's authorial epilogue. The last tale,
+Dioneo's Griselda, distinguishes the woman's extraordinary patience from the
+Marquis of Saluzzo's explicitly censured cruelty. The work-level historical
+and literary criticism remains the next step; narrative coverage is complete.
+See `notes/decameron-days-nine-ten-reading-guide.md` for the 24 new primary-
+text section links, narrators, interpretation cautions, sources and Wikipedia
+navigation.
