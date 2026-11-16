@@ -16,6 +16,18 @@ Original presentation bookmarks and `/audio` remain available through a lazily
 loaded compatibility app. Content-pack updates require no restart. Changes to
 server code require restarting the process.
 
+Collections provide title/ID search, section and session jumps, and expandable
+contents. Search changes the view; playback still follows the full collection's
+original order. Breadcrumbs show the collection hierarchy, while return links
+preserve the route and search used to open a lecture. References, related routes,
+complete original sequences, and recording preparation remain under Resources
+& connections.
+
+Press `/` to search the current collection, or Ctrl/Cmd+K to search the library.
+Browsing options include category, audience, audio availability, every nested
+collection, and sorting by title or duration. Exact lecture IDs work in both
+searches. Browser asset changes require a server restart, just like server code.
+
 For an independent playback installation, build and transfer the reader wheel:
 
 ```bash

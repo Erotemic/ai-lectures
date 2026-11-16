@@ -16,7 +16,8 @@ import { ListeningQueue } from "./queue.mjs";
 import { speechSegments } from "./transcript.mjs";
 import { showStorage } from "./storage.mjs";
 import { referencesPage } from "./references.mjs";
-import { CatalogBrowser } from "./browse.mjs";
+import { CatalogBrowser, revealAnchor } from "./browse.mjs";
+import { collectionReturnPath } from "./browse-model.mjs";
 import { LectureAudio } from "./lecture-audio.mjs";
 import {
   legacyPositions,
@@ -30,6 +31,7 @@ let catalog = { lectures: [], courses: [], packs: [] },
   pendingConflict = null;
 let playingQueueEntry = null;
 let renderToken = 0;
+let navigationToken = 0;
 let lectureAudio = null;
 let lectureIndex = new Map(),
   catalogTag = null;
@@ -71,10 +73,15 @@ const badgeText = (row) =>
         : "Transcript available";
 const badge = (row) => el("span", { class: "badge", text: badgeText(row) });
 const courseLink = (course) => "/collections/" + encodeURIComponent(course.id);
-const lectureLink = (id, course = null) =>
-  byId(id)?.kind === "presentation"
-    ? "/presentations?deck=" + encodeURIComponent(byId(id).deck)
-    : lectureURL(id) + (course ? "?course=" + encodeURIComponent(course) : "");
+const lectureLink = (id, course = null) => {
+  if (byId(id)?.kind === "presentation") return "/presentations?deck=" + encodeURIComponent(byId(id).deck);
+  const params = new URLSearchParams(course ? { course } : {});
+  const current = new URLSearchParams(location.search);
+  const returnTo = collectionReturnPath(current.get("return"), course, location.origin);
+  if (returnTo && location.pathname.startsWith("/lectures/") && current.get("course") === course)
+    params.set("return", returnTo);
+  return lectureURL(id) + (params.size ? "?" + params : "");
+};
 const contextKey = () => profile || "device";
 function persistProgress() {
   store("progress:" + contextKey(), progress);
@@ -329,10 +336,12 @@ async function lecturePage(id, autoplay = false, historical = null) {
     })
     .catch(() => {});
   const course = catalog.courses.find((c) => c.id === currentCourse);
+  const returnTo = collectionReturnPath(new URLSearchParams(location.search).get("return"), course?.id, location.origin)
+    || (course ? courseLink(course) : "/");
   const top = el(
     "div",
     {},
-    course ? link(course.title, courseLink(course)) : link("Library", "/"),
+    course ? link("← " + course.title, returnTo) : link("Library", "/"),
     title(row.title),
     el(
       "div",
@@ -960,10 +969,14 @@ function packsPage() {
     ),
   );
 }
-function navigate(path, autoplay = false) {
+async function navigate(path, autoplay = false) {
+  const token = ++navigationToken;
+  history.replaceState({ ...history.state, scroll: window.scrollY }, "");
   history.pushState({}, "", path);
-  render(autoplay);
-  window.scrollTo(0, 0);
+  await render(autoplay);
+  if (token !== navigationToken) return;
+  $("main").focus({ preventScroll: true });
+  if (!revealAnchor()) window.scrollTo(0, 0);
 }
 document.addEventListener("click", (event) => {
   const a = event.target.closest("a[data-nav]");
@@ -979,14 +992,51 @@ document.addEventListener("click", (event) => {
   event.preventDefault();
   navigate(a.getAttribute("href"));
 });
-window.addEventListener("popstate", () => render());
+window.addEventListener("popstate", async (event) => {
+  const token = ++navigationToken;
+  await render();
+  if (token !== navigationToken) return;
+  $("main").focus({ preventScroll: true });
+  if (!revealAnchor()) window.scrollTo(0, event.state?.scroll || 0);
+});
+window.addEventListener("hashchange", () => revealAnchor());
+history.scrollRestoration = "manual";
+let scrollPending = false;
+window.addEventListener("scroll", () => {
+  if (scrollPending) return;
+  scrollPending = true;
+  const token = navigationToken;
+  requestAnimationFrame(() => {
+    scrollPending = false;
+    if (token === navigationToken)
+      history.replaceState({ ...history.state, scroll: window.scrollY }, "");
+  });
+}, { passive: true });
+async function findLibrary() {
+  await navigate("/?all=1");
+  document.querySelector(".library-search")?.focus();
+}
+$("find-library").addEventListener("click", findLibrary);
+document.addEventListener("keydown", (event) => {
+  if (document.querySelector("dialog[open]")) return;
+  if ((event.ctrlKey || event.metaKey) && !event.altKey && event.key.toLowerCase() === "k") {
+    event.preventDefault();
+    findLibrary();
+  } else if (event.key === "/" && !event.ctrlKey && !event.metaKey && !event.altKey &&
+    !event.target.closest("input, textarea, select, [contenteditable]")) {
+    event.preventDefault();
+    const search = document.querySelector("#collection-search, .library-search");
+    if (search) search.focus(); else findLibrary();
+  }
+});
 async function render(autoplay = false) {
   renderToken++;
   message("");
-  for (const a of document.querySelectorAll("nav a"))
+  for (const a of document.querySelectorAll("header nav a"))
     a.setAttribute(
       "aria-current",
-      a.getAttribute("href") === location.pathname ? "page" : "false",
+      a.getAttribute("href") === location.pathname ||
+      (a.getAttribute("href") === "/collections" && /^\/(collections|courses|lectures)\//.test(location.pathname)) ? "page" : "false",
     );
   try {
     const path = location.pathname;
@@ -1009,6 +1059,7 @@ async function render(autoplay = false) {
     else if (path === "/references") await referencesPage($("main"), catalog);
     else if (path === "/production") await production.render($("main"));
     else browse();
+    document.title = ($("main").querySelector("h1")?.textContent || "Library") + " · AI Lectures";
   } catch (e) {
     message(e.message);
   }
@@ -1039,6 +1090,7 @@ async function init() {
   for (const result of results)
     if (result.status === "rejected") message(result.reason.message);
   await render();
+  if (location.hash) revealAnchor();
   setInterval(async () => {
     try {
       const changed = await refresh();
@@ -1047,9 +1099,24 @@ async function init() {
         !location.pathname.startsWith("/lectures/") &&
         location.pathname != "/feedback" &&
         location.pathname != "/production"
-      )
+      ) {
+        const token = navigationToken;
+        const destination = location.href;
+        const active = document.activeElement;
+        const selector = active?.id ? "#" + CSS.escape(active.id)
+          : active?.matches(".library-search") ? ".library-search"
+          : active?.hasAttribute("aria-label") ? `[aria-label="${CSS.escape(active.getAttribute("aria-label"))}"]`
+          : active?.matches("summary") && active.parentElement.id ? `#${CSS.escape(active.parentElement.id)} > summary`
+          : active?.matches("a[href]") ? `a[href="${CSS.escape(active.getAttribute("href"))}"]` : null;
+        const selection = active?.matches("input[type=search], textarea") ? [active.selectionStart, active.selectionEnd] : null;
+        const scroll = window.scrollY;
         await render();
-      else if (
+        if (token !== navigationToken || destination !== location.href) return;
+        const restored = selector && document.querySelector(selector);
+        restored?.focus({ preventScroll: true });
+        if (restored && selection) restored.setSelectionRange(...selection);
+        window.scrollTo(0, scroll);
+      } else if (
         changed &&
         location.pathname.startsWith("/lectures/") &&
         player.row
