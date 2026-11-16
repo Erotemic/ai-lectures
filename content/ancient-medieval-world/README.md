@@ -14,11 +14,19 @@ This is an independent, source-grounded, audio-first world-history curriculum fo
 | 006000 | The Sea Between Palaces: Trade, Diplomacy, and the End of the Bronze Age | 1,367 |
 | 007000 | Cities on Different Terms: Caral, the Gulf Coast, and Early American Worlds | 1,223 |
 
-These seven lectures together provide a first thematic-chronological unit on the formation and transformation of early urban and Bronze Age worlds (with some overlap into the early Iron Age). **The curriculum is not yet a complete bridge to 1500 CE.** `BACKLOG.md` reserves subsequent lecture IDs, and `COVERAGE_AUDIT.md` explains what remains uncovered.
+| 008000 | After the Palaces: Rebuilding Worlds around 1200 BCE | 1,300 |
+| 009000 | The Assyrian Imperial System and the People It Ruled | 1,265 |
+| 010000 | Persia: How an Empire Governs Many Peoples | 1,213 |
+| 011000 | Greek Worlds before Alexander: Citizenship, Conflict, and the Polis | 1,239 |
+| 012000 | The Ganges Plain: Cities, Kingdoms, and Paths to Liberation | 1,196 |
+| 013000 | Eastern Zhou: Contending States and Arguments about Rule | 1,124 |
+| 014000 | Beyond Egypt's Southern Border: Kush and the Early Sahel | 1,241 |
+| 015000 | Several American Worlds: Ceremonial Centers, Settlements, and Exchange | 1,166 |
+Lectures 001000–007000 form the early-urban and Bronze Age unit; lectures 008000–015000 cover the aftermath of the Bronze Age and the formation of Iron Age and early classical societies across several regions. **The curriculum is not yet a complete bridge to 1500 CE.** `BACKLOG.md` reserves 016000–050000, and `COVERAGE_AUDIT.md` explains what remains uncovered.
 
 ## How to read and maintain this pack
 
-- `track.json` is the local index. Lecture IDs are stable once published; new work receives new IDs. All seven entries are self-contained, without a prerequisite chain.
+- `track.json` is the local index. Lecture IDs are stable once published; new work receives new IDs. All fifteen entries are self-contained, without a prerequisite chain.
 - `NNNNNN-*.md` files contain narration between `BEGIN SPOKEN LECTURE` and `END SPOKEN LECTURE` markers. Everything outside those markers is non-spoken editorial or evidence context.
 - `metadata/NNNNNN.json` maps every spoken paragraph to named source records, with explicit source limitations and interpretive cautions.
 - `metadata/sources.json` contains source identities, links, and caveats. Add original-language evidence and specialized excavation reports when a claim needs more precision; do not misrepresent a general survey as an archival or archaeological primary source.
