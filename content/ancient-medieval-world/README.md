@@ -42,6 +42,8 @@ This is an independent, source-grounded, audio-first world-history curriculum fo
 | 023000 | An Empire at the Door: Homes, Labor, and Inequality in the Classical World | 1,411 |
 | 024000 | When Rome Changed Shape: Emperors, Cities, and the Eastern Empire | 1,447 |
 | 025000 | A King of Kings beside Other Worlds: Sasanian Iran and Its Neighbors | 1,366 |
+| 025100 | Who Inherits the Orchard? Houses, Debts, and Sasanian Law | 1,287 |
+| 025110 | Five Marks in Clay: Seals and Offices in Sasanian Iran | 1,176 |
 | 026000 | Beyond a Golden Age: Gupta-Era India and Regional Power | 1,398 |
 | 027000 | Many Courts, One Canal: China from Division to the Early Tang | 1,386 |
 | 028000 | Many Churches, Changing Empires: Christianity in Late Antiquity | 1,368 |
@@ -133,10 +135,14 @@ This is an independent, source-grounded, audio-first world-history curriculum fo
 | 047100 | Timber Sewn to the Sea: The Boats and River Ports of Butuan | 1,146 |
 | 047200 | Ships under Imperial Orders: Zheng He and the Ming Indian Ocean | 1,280 |
 | 048000 | A City through Several Empires: Byzantines and Ottomans before 1500 | 1,252 |
+| 048100 | The Village as a Taxpayer: Farming and Property in Byzantium | 1,349 |
+| 048110 | Boundaries in Three Languages: Land and Labor in Norman Sicily | 1,275 |
 | 049000 | After the Plague: Work, War, and Learning in Late Medieval Europe | 1,297 |
 | 050000 | The World around 1500: Connections, Boundaries, and New Encounters | 1,354 |
 | 051000 | Power That Moved: Pastoral Worlds and the Empires of the Eurasian Steppe | 1,543 |
 | 052000 | Letters That Never Arrived: Sogdian Families and the Cities of Central Asia | 1,492 |
+| 052100 | The Painted Room: Households and Stories in Panjikent | 1,247 |
+| 052110 | Cities beyond the Pass: Suyab and Navikat in the Chuy Valley | 1,208 |
 | 053000 | The City Made of Earth: Cahokia and Its Mississippian Neighbors | 1,544 |
 | 054000 | Roads into the Canyon: Chaco and the Ancestral Pueblo World | 1,429 |
 | 055000 | Islands Connected by Water: Caribbean Societies before 1492 | 1,423 |
@@ -187,7 +193,7 @@ Lectures 051000–058000 examine Central Asian mobility and Sogdian sources; Cah
 
 ## How to read and maintain this pack
 
-- `track.json` is the local index. Lecture IDs are stable once published; new work receives new IDs. All 106 entries are self-contained, without a prerequisite chain.
+- `track.json` is the local index. Lecture IDs are stable once published; new work receives new IDs. All 180 entries are self-contained, without a prerequisite chain.
 - `NNNNNN-*.md` files contain narration between `BEGIN SPOKEN LECTURE` and `END SPOKEN LECTURE` markers. Everything outside those markers is non-spoken editorial or evidence context.
 - `metadata/NNNNNN.json` maps every spoken paragraph to named source records, with explicit source limitations and interpretive cautions.
 - `metadata/sources.json` contains source identities, links, and caveats. Add original-language evidence and specialized excavation reports when a claim needs more precision; do not misrepresent a general survey as an archival or archaeological primary source.
@@ -252,3 +258,7 @@ Six additional independent lectures deepen previously surveyed Teotihuacan and O
 ## Eighteenth regional-depth installment — institutions in South and Southeast Asia (November 2026)
 
 Six lectures extend historical depth without replacing the existing South/Southeast Asian surveys. Sri Lankan tank cascades, the Kollam Christian-merchant copper-plate grant, Pyu domestic archaeology, the Mekong delta's canals and beads, Old Balinese irrigation records, and a Majapahit ferry charter provide contrasting material and documentary lenses. The collection now contains **174** lectures. Every new spoken paragraph has source-specific evidence-limit metadata; Wikipedia links are grouped solely as additional orientation. Existing manuscripts and their individual metadata remain unchanged.
+
+## Nineteenth regional-depth installment — Iran, Central Asia, and the Mediterranean (November 2026)
+
+Six lectures use case-based legal scholarship, excavated Sasanian sealings, domestic murals and urban archaeology in Sogdian Central Asia, Byzantine village and monastic records, and Greek–Arabic Norman-Sicilian charters to develop regional institutional history. The track now contains **180 indexed lectures**. Each new spoken paragraph is mapped to an identified source and a specific evidence limitation. Wikipedia articles remain orientation links only. Existing manuscripts and their individual metadata files are unchanged.

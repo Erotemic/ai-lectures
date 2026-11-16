@@ -398,3 +398,18 @@ After five nearly continuous African regional-depth campaigns, the next phase de
 **Evidence restrictions:** Later chronicles do not date Sri Lankan dams without corroboration. A ninth-century Kollam grant does not establish apostolic-era events. A Pyu funerary site does not automatically certify a religious tradition. A canal's infill date does not certify a population collapse. Modern subak is not an unchanged copy of early medieval irrigation. Majapahit court poem place lists do not document direct administration of every claimed dependency. Publisher-abstract evidence is explicitly labeled.
 
 **Next rotation:** Central Asia, medieval Iran and the Mediterranean, including how institutions functioned outside capital cities. Continue assessing coverage before adding another geographically concentrated installment.
+
+## Nineteenth regional-depth installment — Iran, Central Asia, and the Mediterranean (November 2026)
+
+| ID | Lecture | Evidence emphasis |
+| --- | --- | --- |
+| 025100 | Who Inherits the Orchard? Houses, Debts, and Sasanian Law | Seventh-century Sasanian case-law compilation, estate shares, guardianship, inheritance and evidentiary limits. |
+| 025110 | Five Marks in Clay: Seals and Offices in Sasanian Iran | Excavated bullae, individual/office seals and preservation bias at Qasr-e Abu Nasr and Tappe Bardnakoon. |
+| 048100 | The Village as a Taxpayer: Farming and Property in Byzantium | Farmer’s Law, tenth-century pre-emption legislation and monastic archives including Radolibos in 1103. |
+| 048110 | Boundaries in Three Languages: Land and Labor in Norman Sicily | Greek–Arabic Tròccoli charters, 1141 Muslim peasant register, migration-date cautions and boundary conventions. |
+| 052100 | The Painted Room: Households and Stories in Panjikent | Panjikent urban plan, reception halls, Rustam paintings, workshops, religion and selective preservation. |
+| 052110 | Cities beyond the Pass: Suyab and Navikat in the Chuy Valley | Ak-Beshim/Suyab and Krasnaya Rechka/Navikat archaeological phases, inscriptions, shrines and civic life. |
+
+**Evidence boundaries:** A lawbook is not a universal practiced code; a seal is not its vanished document; an expensive painted hall is not the ordinary home of every resident; a heritage nomination does not independently settle every occupation date; a monastic tax register is not a village ethnography; multilingual land charters show official procedures alongside inequality. The full-text PDF screenshot service was unavailable for two Sicilian articles; parsed research text and publication extracts were reviewed, and access limitations are recorded.
+
+**Next rotation:** Review gaps in medieval Europe outside the imperial courts, or move to Central/East Asian agrarian and urban institutions, keeping geographical selection driven by coverage rather than recent momentum.
