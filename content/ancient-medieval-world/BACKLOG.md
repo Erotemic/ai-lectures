@@ -250,3 +250,20 @@ Check source claims in full primary or specialist editions wherever access is cu
 - Ancient South Arabian inscriptions and Ur III administrative tablets merit further specialist full-edition review, especially where only cataloguing or scholarly abstracts were accessible.
 - Develop the transmission of law and governing institutions beyond England, including documentary Middle Eastern, South Asian and African legal evidence.
 - Bring other major West African, Mesoamerican, and Andean political and intellectual developments into dedicated lectures, retaining meaningful depth rather than broad lists.
+
+## Ninth regional-depth installment — evidence-led companion lectures (written and indexed)
+
+| ID | Completed lecture | Remaining evidence gap |
+| --- | --- | --- |
+| 022200 | Signs above the Valley | Compare contested Zapotec sign readings and Oaxaca settlement phases with full inscriptions |
+| 030100 | A Release Written on Papyrus | Check full papyrus edition and further documentary evidence of local disputes and non-Muslim legal practice |
+| 033200 | When a Widow Went to Court | Compare the complete Qingming Ji rulings and competing legal-historical interpretations beyond abstracts |
+| 035100 | Before the Gold Crossed the Desert | Expand metallurgical chronology at Tadmekka and link excavated workshops to Gao trade evidence |
+| 036200 | Coins beneath the House | Test ritual and monetary interpretations against the whole Songo Mnara stratigraphy |
+| 043300 | When Was the Book Written? | Date extant manuscripts independently; separate text composition, copy dates, and later custody |
+| 044200 | Before the Brass Plaques | Review Edo-led heritage interpretation, earlier dated excavations, and the sequence of court guilds |
+| 045200 | Names Cut into Stone | Compare updated primary glyph editions at Tikal, Calakmul, and Palenque with regional settlement data |
+
+### Further research direction
+
+Prioritize additional original-language or archaeological accounts rather than increasing case-study count mechanically. Other substantial history gaps include the reigns and institutions of Meroitic Kush, Classical Khmer law and land grants, early Islamic East African settlement, Kongo before 1500, land use in precolonial Australia, and pre-contact Andean social history beyond dynastic labor systems. Track source limitations at claim level, especially when only abstracts and institutional syntheses were available.
