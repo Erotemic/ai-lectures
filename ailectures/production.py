@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 from copy import deepcopy
+from functools import lru_cache
 import json
 import os
 import re
@@ -43,6 +44,12 @@ def audio_duration(path):
     return finite(value, 0.001)
 
 
+@lru_cache(maxsize=4096)
+def audio_facts(path, modified, size):
+    """Probe completed, atomically published cache files once during playback."""
+    return file_digest(path), audio_duration(path)
+
+
 def recording_from_engine(
     engine, local_id, row, *, variant, label=None, voice=None, speed=1
 ):
@@ -66,6 +73,8 @@ def recording_from_engine(
         segments=[],
         complete=False,
         generator={
+            "profile": engine.profile,
+            "voice": settings.voice,
             "model": engine.model,
             "speech_policy": "paragraph80-v1" if engine.server_long_form else "legacy",
             "pagination": detail["pagination_version"],
@@ -80,15 +89,16 @@ def recording_from_engine(
         page_keys.append(key)
         if not engine._ready(target, key):
             continue
-        sha = file_digest(target)
+        stat = target.stat()
+        sha, duration = audio_facts(target, stat.st_mtime_ns, stat.st_size)
         path = (
-            f'artifacts/{variant}/{row["id"].replace(":", "-")}/{index:04d}-{sha}.mp3'
+            f"artifacts/{variant}/{row['id'].replace(':', '-')}/{index:04d}-{sha}.mp3"
         )
         segment = dict(
             index=index,
             path=path,
             sha256=sha,
-            duration=audio_duration(target),
+            duration=duration,
             media_type="audio/mpeg",
         )
         timing = target.with_name(target.name + ".timings.json")
@@ -292,6 +302,78 @@ class GenerationManager:
     def prepare(self, lecture_id, profile, *, voice=None, speed=1):
         return self.prepare_many([lecture_id], profile, voice=voice, speed=speed)[0]
 
+    def narrators(self, row, *, speed=1):
+        """Describe selectable recordings and configured voices without synthesis."""
+        finite(speed, 0.5)
+        if speed > 2:
+            raise ValueError("Invalid speech speed")
+        profiles = self.profiles()
+        choices = []
+        matched = set()
+        pages = next((rec["pages"] for rec in row["recordings"]), [row["transcript"]])
+        if profiles["profiles"]:
+            from dkvis.presentation.audio_library import split_pages
+            from dkvis.presentation.tts import load_profiles
+
+            pages = split_pages(
+                row["transcript"],
+                max_chars=int(os.environ.get("DKVIS_AUDIO_PAGE_CHARS", "600")),
+            )
+            document = load_profiles(self.config)
+            for profile in profiles["profiles"]:
+                voices = self.voices(profile["id"])
+                labels = {v["voice"]: v["label"] for v in voices["registered"]}
+                for voice in dict.fromkeys([profile["voice"], *voices["voices"]]):
+                    _, configuration = self._configuration(
+                        document, profile["id"], voice, self.endpoint
+                    )
+                    variant = self.variant(
+                        dict(
+                            profile=profile["id"],
+                            voice=voice,
+                            speed=speed,
+                            configuration=configuration,
+                        )
+                    )
+                    recordings = [
+                        r
+                        for r in row["recordings"]
+                        if r["variant"] == variant
+                        or (
+                            r.get("generator", {}).get("profile") == profile["id"]
+                            and r["generator"].get("voice") == voice
+                            and r["generator"].get("model") == profile["model"]
+                            and r["generator"].get("speech_speed", 1) == speed
+                        )
+                    ]
+                    recording = max(
+                        recordings,
+                        key=lambda r: (r["complete"], len(r["segments"])),
+                        default=None,
+                    )
+                    matched.update(r["id"] for r in recordings)
+                    choices.append(
+                        dict(
+                            key=f"tts:{profile['id']}:{voice}",
+                            label=f"{profile['label']} · {labels.get(voice, voice)}",
+                            profile=profile["id"],
+                            voice=voice,
+                            speed=speed,
+                            variant=variant,
+                            recording_id=recording["id"] if recording else None,
+                        )
+                    )
+        for recording in row["recordings"]:
+            if recording["id"] not in matched:
+                choices.append(
+                    dict(
+                        key="recording:" + recording["variant"],
+                        label=recording.get("label") or recording["variant"],
+                        recording_id=recording["id"],
+                    )
+                )
+        return dict(**profiles, choices=choices, pages=pages)
+
     def prepare_many(self, lecture_ids, profile, *, voice=None, speed=1):
         finite(speed, 0.5)
         if speed > 2 or (
@@ -345,7 +427,7 @@ class GenerationManager:
             except (OSError, sqlite3.Error):
                 pass
 
-    def _open(self, record):
+    def _open(self, record, *, start=True):
         from dkvis.presentation.audio_library import AudioLectureLibrary
         from dkvis.presentation.tts import load_profiles
 
@@ -416,8 +498,61 @@ class GenerationManager:
                 "speed": settings.speed,
             },
         )
-        engine.prepare_lecture("000000", settings)
+        if start:
+            engine.prepare_lecture("000000", settings)
         return job
+
+    def playback(self, job_id):
+        """Read completed blocks while preparation continues; never enqueue work."""
+        with self._lock:
+            record = self.jobs.get(job_id)
+            active = self._jobs.get(job_id)
+            job = active or self._open(record, start=False)
+            try:
+                recording, _ = recording_from_engine(
+                    job["engine"],
+                    "000000",
+                    job["row"],
+                    variant=job["variant"],
+                    label=job["label"],
+                    voice=job["settings"].voice,
+                    speed=job["settings"].speed,
+                )
+                recording["_job"] = job_id
+                row = deepcopy(job["row"])
+                row["recordings"] = [recording]
+                return row
+            finally:
+                if not active:
+                    job["engine"].close()
+
+    def playback_file(self, job_id, index, sha):
+        with self._lock:
+            record = self.jobs.get(job_id)
+            active = self._jobs.get(job_id)
+            job = active or self._open(record, start=False)
+            try:
+                path = job["engine"].audio_file("000000", index, job["settings"])
+                stat = path.stat()
+                if audio_facts(path, stat.st_mtime_ns, stat.st_size)[0] != sha:
+                    raise KeyError("This prepared block has changed")
+                return path
+            finally:
+                if not active:
+                    job["engine"].close()
+
+    def prioritize(self, job_id, index):
+        """Promote the passage the listener requested above background caching."""
+        if isinstance(index, bool) or not isinstance(index, int) or index < 0:
+            raise ValueError("Select an audio block")
+        with self._lock:
+            record = self.jobs.get(job_id)
+            job = self._jobs.get(job_id)
+            if job and record["state"] == "running" and record["owner"] == self.owner:
+                if index >= len(job["engine"].detail("000000")["pages"]):
+                    raise ValueError("Unknown audio block")
+                job["engine"].request("000000", index, job["settings"], "playback")
+            return self._public(record)
 
     @staticmethod
     def variant(spec, settings=None):
@@ -435,7 +570,9 @@ class GenerationManager:
                         or environment.get("DKVIS_AUDIO_TTS_VOICE")
                         or config["voice"]
                     ),
-            "speed": settings.speed if settings else round(float(spec["speed"]), 3),
+                    "speed": settings.speed
+                    if settings
+                    else round(float(spec["speed"]), 3),
                     "model": (
                         settings.model
                         if settings

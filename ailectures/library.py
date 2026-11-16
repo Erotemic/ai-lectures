@@ -152,3 +152,19 @@ class Library:
         if row:
             return json.loads(row["catalog"])[lecture_id]
         return self.store.historical(release, lecture_id)[0]
+
+    def remember_playback(self, row):
+        """Bind in-progress playback and feedback to the exact completed blocks."""
+        release = digest(row)
+        row = deepcopy(row)
+        row["origin"] = dict(
+            pack="audio-" + digest(row["id"])[:24], release=release, preparing=True
+        )
+        if release not in self._saved_snapshots:
+            with self.store.connect() as db:
+                db.execute(
+                    "INSERT OR IGNORE INTO source_snapshots VALUES (?,?)",
+                    (release, canonical({row["id"]: row}).decode()),
+                )
+            self._saved_snapshots.add(release)
+        return row

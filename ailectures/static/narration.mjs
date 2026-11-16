@@ -86,11 +86,13 @@ export class NarrationControls {
       this.loadVoices(
         this.discover && this.selectedProfile()?.reachable === true,
       );
+      this.rememberChoice();
       this.onChange?.();
     };
     this.voice.onchange = () => {
       this.custom.value = "";
       store("production-voice:" + this.profile.value, this.voice.value);
+      this.rememberChoice();
       this.onChange?.();
     };
     this.custom.onchange = () => {
@@ -99,6 +101,7 @@ export class NarrationControls {
           "production-voice:" + this.profile.value,
           this.custom.value.trim(),
         );
+      this.rememberChoice();
       this.onChange?.();
     };
     this.speed.onchange = () => {
@@ -113,6 +116,10 @@ export class NarrationControls {
     return this.profiles.profiles.find(
       (profile) => profile.id === this.profile.value,
     );
+  }
+  rememberChoice() {
+    const settings = this.settings();
+    store("narrator-choice", `tts:${settings.profile}:${settings.voice}`);
   }
   settings() {
     return {

@@ -305,10 +305,14 @@ their chosen revision and immutable media URLs while the library refreshes.
 
 ## Prepare audio
 
-Lecture pages put the registered **Narrator** profiles beside **Cache whole
-lecture** and **Stop generation**. The cache action queues every block for the
-selected profile, and a completed preparation offers **Play this narrator**.
-Individual voice IDs and speech speed are under advanced settings. Collection pages
+Lecture pages have one **Voice for playback and generation** selector containing
+configured profiles and their known/registered voices, plus installed recordings.
+Each choice shows its generated-block count. **Play** uses that selection; when
+audio is missing it requests generation and starts as soon as the required block
+is ready, while preparation continues. It never substitutes a different narrator.
+**Cache whole lecture** prepares the selected voice without starting playback;
+**Stop generation** cancels unfinished work and retains completed blocks.
+Generation speed is under **Speech settings**. Collection pages
 can queue a whole collection, and Production can explicitly queue the whole library.
 The listening queue is labelled separately from the generation queue.
 
@@ -323,7 +327,10 @@ when the service recovers.
 Each preparation shows ready/missing/queued/rendering blocks, its narrator,
 queue position, passage progress and available ETA. Cancel controls stop unfinished
 work for that lecture preparation and retain completed blocks. Lecture pages also
-show block coverage for the selected installed narrator. These controls do not
+show block coverage for the selected voice before any audio has been generated.
+Completed blocks can play from the local build cache during preparation; exact
+recording snapshots keep listening positions and feedback attached to those bytes.
+Fully prepared recordings publish as portable media packs. These controls do not
 require opening JSON diagnostics.
 
 The same preparation workflow is available without keeping a browser open:

@@ -86,7 +86,7 @@ export class Player {
       this.row.revision === row.revision &&
       JSON.stringify(this.row.recordings.map((r) => r.id)) ===
         JSON.stringify(row.recordings.map((r) => r.id)) &&
-      !preferred
+      (preferred === null || preferred === this.recording?.id)
     )
       return;
     this.save();
@@ -94,15 +94,18 @@ export class Player {
     this.started = false;
     this.audio.pause();
     this.loadToken++;
+    this.audio.onloadedmetadata = null;
     this.audio.removeAttribute("src");
     this.audio.load();
     this.row = row;
     this.recording =
-      row.recordings.find((r) => r.id === preferred) ||
-      row.recordings.find((r) => r.variant === getStored("variant")) ||
-      row.recordings.find((r) => r.complete) ||
-      row.recordings[0] ||
-      null;
+      preferred === false
+        ? null
+        : row.recordings.find((r) => r.id === preferred) ||
+          row.recordings.find((r) => r.variant === getStored("variant")) ||
+          row.recordings.find((r) => r.complete) ||
+          row.recordings[0] ||
+          null;
     this.index = 0;
     document.getElementById("player").hidden = false;
     document.getElementById("playing-title").textContent = row.title;
@@ -137,16 +140,19 @@ export class Player {
       this.load(this.index, seconds, false);
     } else {
       document.getElementById("playing-note").textContent =
-        "Transcript available · no installed recording";
+        "Selected voice has no prepared recording";
+      document.getElementById("elapsed").textContent = "0:00";
+      document.getElementById("duration").textContent = "—";
+      document.getElementById("timeline").value = "0";
     }
     this.update();
   }
   load(index, seconds = 0, autoplay = false) {
     const segment = this.recording?.segments.find((s) => s.index === index);
     if (!segment) {
-      this.message(
-        "Audio for this passage is not installed. Read it below or prepare audio in Production.",
-      );
+      this.index = index;
+      document.getElementById("playing-note").textContent =
+        "This passage has not been generated for the selected voice";
       return;
     }
     this.save();
@@ -182,6 +188,13 @@ export class Player {
     this.play(index, timeAtWord(text, segment, before));
   }
   play(index = this.index, seconds = null) {
+    if (
+      !this.recording?.segments.some((s) => s.index === index) &&
+      this.requestMissing
+    ) {
+      this.audio.pause();
+      return this.requestMissing(index, seconds);
+    }
     if (!this.recording)
       return this.message(
         "No recording is installed. The full transcript is available.",

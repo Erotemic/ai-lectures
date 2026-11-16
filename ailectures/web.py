@@ -125,7 +125,9 @@ def create_app(
             release = rec.pop("_release", row["origin"]["release"])
             for segment in rec["segments"]:
                 segment["url"] = (
-                    f"/api/library/media/{release}/{rec['id']}/{segment['index']}"
+                    f"/api/library/production/jobs/{rec['_job']}/media/{segment['index']}/{segment['sha256']}"
+                    if rec.get("_job")
+                    else f"/api/library/media/{release}/{rec['id']}/{segment['index']}"
                 )
         row["words"] = len(row["transcript"].split())
         row["estimated_minutes"] = round(row["words"] / 145, 1)
@@ -393,6 +395,49 @@ def create_app(
             production().profiles(probe=request.query_params.get("probe", "1") != "0")
         )
 
+    def production_narrators(request):
+        key = qualified(request.query_params["lecture_id"])
+        release = request.query_params.get("release")
+        row = (
+            library.historical(checksum(release), key)
+            if release
+            else library.snapshot()["lectures"][key]
+        )
+        return JSONResponse(
+            production().narrators(
+                row, speed=float(request.query_params.get("speed", 1))
+            )
+        )
+
+    async def production_playback(request):
+        if request.method == "POST":
+            payload = await body(request)
+            return JSONResponse(
+                await run_in_threadpool(
+                    production().prioritize,
+                    checksum(request.path_params["job_id"]),
+                    payload["index"],
+                ),
+                status_code=202,
+            )
+        row = await run_in_threadpool(
+            production().playback, checksum(request.path_params["job_id"])
+        )
+        return JSONResponse(
+            annotate(library.remember_playback(row)),
+            headers={"Cache-Control": "no-store"},
+        )
+
+    def production_media(request):
+        path = production().playback_file(
+            checksum(request.path_params["job_id"]),
+            request.path_params["index"],
+            checksum(request.path_params["sha256"]),
+        )
+        return FileResponse(
+            path, media_type="audio/mpeg", headers={"Cache-Control": "no-store"}
+        )
+
     def production_voices(request):
         return JSONResponse(
             production().voices(
@@ -577,12 +622,22 @@ def create_app(
         Route("/api/library/feedback/import", feedback_import, methods=["POST"]),
         Route("/api/library/packs", pack_change, methods=["POST"]),
         Route("/api/library/production", production_profiles),
+        Route("/api/library/production/narrators", production_narrators),
         Route("/api/library/production/voices", production_voices),
         Route(
             "/api/library/production/voices/register", register_voice, methods=["POST"]
         ),
         Route("/api/library/production/prepare", prepare, methods=["POST"]),
         Route("/api/library/production/jobs", jobs),
+        Route(
+            "/api/library/production/jobs/{job_id}/playback",
+            production_playback,
+            methods=["GET", "POST"],
+        ),
+        Route(
+            "/api/library/production/jobs/{job_id}/media/{index:int}/{sha256}",
+            production_media,
+        ),
         Route(
             "/api/library/production/jobs/{job_id}/retry", retry_job, methods=["POST"]
         ),

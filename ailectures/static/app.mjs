@@ -7,8 +7,7 @@ import { speechSegments } from "./transcript.mjs";
 import { showStorage } from "./storage.mjs";
 import { referencesPage } from "./references.mjs";
 import { CatalogBrowser } from "./browse.mjs";
-import { preparationPanel } from "./narration.mjs";
-import { blockGrid, recordingStates } from "./audio-blocks.mjs";
+import { LectureAudio } from "./lecture-audio.mjs";
 import {
   legacyPositions,
   approximateLegacyPosition,
@@ -21,6 +20,7 @@ let catalog = { lectures: [], courses: [], packs: [] },
   pendingConflict = null;
 let playingQueueEntry = null;
 let renderToken = 0;
+let lectureAudio = null;
 const device = getStored("device") || crypto.randomUUID();
 store("device", device);
 let sequence = getStored("sequence", 0),
@@ -324,7 +324,22 @@ async function lecturePage(id, autoplay = false, historical = null) {
     ? selectedCourse
     : null;
   const position = player.row?.id === id ? player.position() : null;
-  player.open(row, position || progress[id]);
+  lectureAudio?.dispose();
+  let refreshTranscript = () => {};
+  const audio = new LectureAudio({
+    row,
+    player,
+    progress: position || progress[id],
+    message,
+    active: () => token === renderToken,
+    onChange: () => refreshTranscript(),
+  });
+  lectureAudio = audio;
+  await audio.ready;
+  if (token !== renderToken) {
+    audio.dispose();
+    return;
+  }
   player.course = currentCourse;
   const course = catalog.courses.find((c) => c.id === currentCourse);
   const top = el(
@@ -335,11 +350,9 @@ async function lecturePage(id, autoplay = false, historical = null) {
     el(
       "div",
       { class: "actions" },
-      button(progress[id] ? "Resume" : "Play", () => player.play(), true),
       button("Add to listening queue", () =>
         listeningQueue.add(id, currentCourse),
       ),
-      badge(row),
       el("span", {
         class: "muted",
         text: `${row.words.toLocaleString()} words · approximately ${row.estimated_minutes} minutes`,
@@ -403,28 +416,7 @@ async function lecturePage(id, autoplay = false, historical = null) {
         }),
       ),
     );
-  top.append(
-    preparationPanel({
-      lectureId: id,
-      revision: row.revision,
-      label: "Generate audio",
-      onPlay: async (job) => {
-        const updated = await api(
-          "/api/library/lectures/" + encodeURIComponent(id),
-        );
-        const recording = updated.recordings.find(
-          (recording) => recording.variant === job.variant,
-        );
-        if (!recording)
-          return message(
-            "The prepared recording belongs to another transcript revision.",
-          );
-        store("variant", recording.variant);
-        player.open(updated, player.position() || progress[id], recording.id);
-        await lecturePage(id, true, updated);
-      },
-    }),
-  );
+  top.append(audio.root);
   if (row.companions?.length)
     top.append(
       el(
@@ -456,52 +448,59 @@ async function lecturePage(id, autoplay = false, historical = null) {
     class: "transcript",
     "aria-label": "Lecture transcript",
   });
-  if (player.recording) {
-    text.dataset.lecture = row.id;
-    text.dataset.recording = player.recording.id;
-    player.recording.pages.forEach((page, index) => {
-      const node = el("section", {
-        class: "passage" + (player.index === index ? " active" : ""),
-        "data-index": index,
-      });
-      const available = player.recording.segments.some(
-        (s) => s.index === index,
-      );
-      speechSegments(page).forEach((sentence, sentenceIndex) => {
-        const seek = () => player.seekSentence(index, sentenceIndex);
-        const trailing = sentence.match(/\s*$/)[0];
-        node.append(
-          el("span", {
-            class: "speech-segment",
-            role: "button",
-            tabindex: "0",
-            "data-sentence": sentenceIndex,
-            "aria-label": `Listen from sentence ${sentenceIndex + 1} in passage ${index + 1}`,
-            "aria-disabled": !available,
-            text: sentence.slice(0, sentence.length - trailing.length),
-            onclick: seek,
-            onkeydown: (event) => {
-              if (event.key === "Enter" || event.key === " ") {
-                event.preventDefault();
-                seek();
-              }
-            },
-          }),
-          trailing,
+  refreshTranscript = () => {
+    text.replaceChildren();
+    delete text.dataset.recording;
+    delete text.dataset.lecture;
+    if (player.recording) {
+      text.dataset.lecture = row.id;
+      text.dataset.recording = player.recording.id;
+      player.recording.pages.forEach((page, index) => {
+        const node = el("section", {
+          class: "passage" + (player.index === index ? " active" : ""),
+          "data-index": index,
+        });
+        const available = player.recording.segments.some(
+          (s) => s.index === index,
         );
+        speechSegments(page).forEach((sentence, sentenceIndex) => {
+          const seek = () => player.seekSentence(index, sentenceIndex);
+          const trailing = sentence.match(/\s*$/)[0];
+          node.append(
+            el("span", {
+              class: "speech-segment",
+              role: "button",
+              tabindex: "0",
+              "data-sentence": sentenceIndex,
+              "aria-label": `Listen from sentence ${sentenceIndex + 1} in passage ${index + 1}`,
+              "aria-disabled": !available && !audio.data.tools_available,
+              text: sentence.slice(0, sentence.length - trailing.length),
+              onclick: seek,
+              onkeydown: (event) => {
+                if (event.key === "Enter" || event.key === " ") {
+                  event.preventDefault();
+                  seek();
+                }
+              },
+            }),
+            trailing,
+          );
+        });
+        text.append(node);
       });
-      text.append(node);
-    });
-    top.append(
-      el("p", {
-        class: "muted",
-        text: "Select a sentence to seek. Highlights interpolate within recorded speech chunks when available; sentence positions are approximate.",
-      }),
-    );
-  } else
-    row.transcript
-      .split(/\n\s*\n/)
-      .forEach((p) => text.append(el("p", { text: p })));
+      text.append(
+        el("p", {
+          class: "muted",
+          text: "Select a sentence to seek. Highlights interpolate within recorded speech chunks when available; sentence positions are approximate.",
+        }),
+      );
+    } else
+      row.transcript
+        .split(/\n\s*\n/)
+        .forEach((p) => text.append(el("p", { text: p })));
+    player.update();
+  };
+  refreshTranscript();
   const side = el("aside", { class: "sidebar" });
   side.append(
     el(
@@ -517,41 +516,6 @@ async function lecturePage(id, autoplay = false, historical = null) {
       }),
     ),
   );
-  if (row.recordings.length) {
-    side.append(
-      el(
-        "section",
-        {},
-        el("h3", { text: "Audio blocks" }),
-        el("p", {
-          class: "muted",
-          text: `${player.recording.segments.length}/${player.recording.pages.length} generated for this narrator. Select a block to listen.`,
-        }),
-        blockGrid(recordingStates(player.recording), (index) =>
-          player.play(index, 0),
-        ),
-      ),
-    );
-    const select = el(
-      "select",
-      { "aria-label": "Installed narrator" },
-      ...row.recordings.map((r) =>
-        el("option", {
-          value: r.id,
-          text: (r.label || r.variant) + (r.complete ? "" : " · partial"),
-        }),
-      ),
-    );
-    select.value = player.recording.id;
-    select.onchange = () => {
-      const position = player.position();
-      const rec = row.recordings.find((r) => r.id === select.value);
-      store("variant", rec.variant);
-      player.open(row, position, select.value);
-      lecturePage(id, false, row);
-    };
-    side.append(el("section", {}, el("h3", { text: "Narrator" }), select));
-  }
   const transcriptLink = el("a", {
     href:
       "/api/library/lectures/" +
@@ -652,7 +616,7 @@ async function lecturePage(id, autoplay = false, historical = null) {
     el("div", { class: "lecture-layout" }, text, side),
   );
   player.update();
-  if (autoplay) player.play();
+  if (autoplay) audio.play();
 }
 function feedbackForm(row) {
   const key = "feedback:" + row.id + ":" + row.revision;
@@ -672,9 +636,10 @@ function feedbackForm(row) {
     const pos = player.row?.id === row.id ? player.position() : null;
     return {
       lecture_id: row.id,
-      release: row.origin.release,
+      release:
+        pos?.revision === row.revision ? pos.release : row.origin.release,
       revision: row.revision,
-      recording_id: pos?.recording_id,
+      recording_id: pos?.revision === row.revision ? pos.recording_id : null,
       segment: pos?.segment,
       seconds: pos?.seconds,
     };
@@ -1067,9 +1032,9 @@ async function init() {
         player.row
       ) {
         const current = byId(player.row.id);
-        if (current && current.origin.release !== player.row.origin.release)
+        if (current && current.revision !== player.row.revision)
           message(
-            "An updated lecture or recording is available. Current playback and feedback retain their revision; reopen the lecture after pausing to load the update.",
+            "An updated lecture is available. Current playback and feedback retain their revision; reopen the lecture after pausing to load the update.",
           );
       }
       await production.showJobs();
