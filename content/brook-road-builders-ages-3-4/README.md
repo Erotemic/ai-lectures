@@ -8,6 +8,8 @@ A **separate original episodic children's bedtime-story pack** for ages three to
 
 **Season Two: The Little Bridge** — episodes 007000–012000. A small pedestrian bridge connects the far side of Pine Park to Green Gate Farm. Rex discovers another puppy, Molly; the friends watch a mixer truck and crane, test a paper bridge at home, and finally walk across. The new path, bridge and farm become permanent locations; trucks take the longer vehicle roads.
 
+**Season Three: Farm Workdays** — episodes 013000–018000. Rex, Gus and Jack visit Molly at Green Gate Farm while Farmer Ruth's red tractor and farm equipment cut, dry, rake, bale and store hay over successive days. Molly learns the path back to Pine Park and sees Pancake Hill for the first time. The farm's hayfield, tractor, stored bales and new two-puppy tail greeting become part of the lasting world.
+
 **World expansion:** `SERIES_ATLAS.md` describes the established route between places and a nonbinding multi-season plan with more trucks, working animals and town locations. The canonical state of objects and characters is in `WORLD_BIBLE.md`.
 
 **Use:** Listen in order for callbacks, or start any episode with its self-contained introduction. Spoken text is strictly between `BEGIN SPOKEN LECTURE` and `END SPOKEN LECTURE`. Everything after the end marker is caregiver/editorial material only. A single TTS narrator reads the spoken story; no character voice switching, music, or sound effects are necessary. Written onomatopoeia is narrator-readable; it does not request actual machine audio.

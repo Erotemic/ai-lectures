@@ -92,6 +92,38 @@ Fanciful similes (giant spoon, cookie roller, gravel mountains) are character jo
 | 011000 | Little loader moves gravel; rails and approaches completed, crew checking | Fence removal / public opening |
 | 012000 | LITTLE BRIDGE opened for walking, new path and Green Gate Farm reachable, Rex meets Molly | No unresolved construction job; farm and bridge remain visitable |
 
+## Season Three — Farm Workdays: canonical expansion
+
+### Geography and calendar
+
+- **Hayfield:** a modest field of long grass **south of the red barn** at Green Gate Farm. Its work entrance is from the farm lane. It was already farm land in the wider region but had not previously appeared in an episode. It is not part of Pine Park or a new construction site.
+- **Farmyard bench:** beside the red barn, where Aunt Jo and Farmer Ruth can accompany the visiting children to watch field work. The working field and powered implements stay with grown-up operators.
+- **Vehicle route:** Farmer Ruth's red farm tractor and wagon use the farm lane and the longer farm road. Rex, Molly, Gus and Jack may walk via the open Little Bridge with adults; neither tractor nor hay wagon crosses the footbridge.
+- **Time:** The six visits occur over several warm, dry days, with drying time between mowing, tedding, raking, baling and storing. No miraculous instant hay, and no sudden change to winter. The hayfield is now cut for this harvest and may regrow later.
+
+### New persistent machines, animals, and objects
+
+- **Red farm tractor:** Farmer Ruth's own tractor. It has two larger rear tires, two smaller front tires, and pulls implements and a low four-wheel hay wagon. This particular shape does not describe every tractor. **The farm, not the children, owns and operates it**.
+- **Hay equipment:** a tractor-drawn mower cuts grass; a tedder fluffs the cut forage to dry; a rake moves it into windrows; a small-square baler compresses it into rectangular bales tied with twine. All machine work is done by adult farm workers. Bales are carried on the wagon to the covered red barn and stored dry above bare ground.
+- **Hay storage:** a raised, dry storage area inside the existing red barn contains the harvested bales at the end of episode 018000. The hens eat their own appropriate feed; the hay is for sheep/goats. There is no invented barn extension or new barn.
+- **Animals:** The established three hens, two woolly sheep, and one small goat with striped collar continue at the farm. No additional named farm animal is introduced in Season Three. Farmer Ruth's straw hat is an optional new visual detail, not a plot token.
+- **Molly's blue rope toy:** still kept at her farmhouse porch/door; she leaves it there before visiting Rex's park. Molly has now visited Pine Park once with Farmer Ruth, so future stories can recognize its bench, the single pine, the PINE PARK sign, and Pancake Hill as familiar to her.
+- **Rex and Molly's secret wave:** one small tail wag each, begun in 015000, revisited in 018000. Their friendship has moved beyond the two sides of the brook.
+- **Jack's blue notebook:** keeps every earlier page. New entries: big/small wheels and the farm lane (013), long/short cut grass (014), a tedder and two wagging tails (015), loose grass contrasted with windrows (016), lines of loose hay and rectangular bales (017), separate vehicle and foot routes (018). No notebook pages are discarded.
+
+### Episode-by-episode harvest ledger
+
+| ID | Persistent change | State of harvest afterward |
+|---|---|---|
+| 013000 | Hayfield first visited; red tractor and low empty hay wagon established; Jack sketches wheel sizes | Tall grass still growing; wagon staged by barn |
+| 014000 | Tractor mower cuts field; grass left spread out to dry | Cut forage drying on ground, no raking or baling |
+| 015000 | Tedder fluffs cut forage; Molly and Rex invent a small tail-wag greeting | Further drying needed, still loose |
+| 016000 | Rake gathers nearly dry hay into windrows; Jack draws two arrangements | Windrows await farmer's suitability check |
+| 017000 | Baler compresses suitable dry hay into tied small rectangular bales | Bales still in field; wagon awaits loading |
+| 018000 | Adults load, haul, and store hay in existing barn; Molly makes first park visit | Hay harvest finished for now; bales stored dry; Rex and Molly both know each other's places |
+
+**Technical scope:** General haymaking sequence and the reasons for drying/storage are supported by UNH, NC State, Maryland, Cornell, and UMN Extension references in `metadata/sources.json`. Do not extrapolate fictional dates or machinery from exact manufacturer specifications. No weather prediction or moisture measurement is performed by the child characters.
+
 ## Authoring guardrails
 
 - Persistent geography, name spellings and object state survive across episodes and seasons. Never erase a completed project without a depicted reason.

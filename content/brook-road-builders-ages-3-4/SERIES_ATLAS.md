@@ -1,6 +1,6 @@
 # Brook Road Builders — series atlas and expansion plan (not spoken)
 
-This is a planning companion, **not** a second continuity authority. `WORLD_BIBLE.md` holds canonical facts through episode 012000. Ideas tagged *future* must not be treated as already present in a spoken episode.
+This is a planning companion, **not** a second continuity authority. `WORLD_BIBLE.md` holds canonical facts through episode 018000. Ideas tagged *future* must not be treated as already present in a spoken episode.
 
 ## What makes this a world, not a truck catalogue
 
@@ -59,11 +59,26 @@ The existing animal visitors — duck with ducklings at Pine Park, sheep, hens a
 
 The footbridge is for walkers, paws and hooves. Grown-up-operated trucks travel by the farm road. The folded-paper/acorn demonstration (009000) is Jack's small experiment, not a substitute for professional construction.
 
+## Additional established farm space after Season Three
+
+South of Green Gate Farm's **existing red barn** is a working hayfield reached by the farm lane, never by the Little Bridge. It is cut, dried, raked, baled and harvested across episodes 013000–018000. The existing barn now stores dry bales; no new farm building appears. Farmer Ruth owns a **red tractor with two big back wheels** and a low four-wheel hay wagon. Its mower, tedder, rake and small-square baler have distinct jobs. The field can grow back in subsequent seasons. Molly has walked to Pine Park and seen Pancake Hill.
+
+### Vehicle additions
+
+| Equipment | First appearance | Lasting distinguishing function |
+|---|---|---|
+| Red farm tractor | 013000 | Pulls wagons and implements; particular tractor has larger back tires |
+| Low hay wagon | 013000 (empty), 018000 (loaded) | Carries adult-stacked rectangular hay bales over the farm road to barn |
+| Tractor mower | 014000 | Cuts the standing hay crop, leaving material to dry |
+| Hay tedder | 015000 | Fluffs the cut forage so more of it meets air and sunshine |
+| Hay rake | 016000 | Draws loose dry hay into long windrows |
+| Small-square hay baler | 017000 | Collects dry windrows into tied rectangular bales |
+
 ## Eleven-season horizon (ideas, not canon)
 
 1. **Pine Park** — established and complete (earthmoving, paving, park opening).
 2. **The Little Bridge** — established and complete (supports, mixer, crane, farm connection).
-3. **Farm Workdays** — tractors, hay wagons, feed deliveries, known animal neighbors.
+3. **Farm Workdays** — **complete**: red tractor, mower, tedder, rake, baler, hay wagon and Molly's first park visit.
 4. **Red-Door Garage** — towing, lifting, tires, repairing rather than building.
 5. **Delivery Route** — trucks carry useful things among already established places.
 6. **After the Rain** — drainage, road upkeep and why water follows low places.

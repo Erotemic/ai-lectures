@@ -32,6 +32,23 @@ The new arc includes two dogs as distinct characters: Rex (brown-and-white, oppo
 
 The paper-bridge experiment in the story compares one folded and one flat piece of paper with an acorn. It is not a claim that a paper model reproduces a full-scale bridge. Real lift and concrete work is not represented as a child's activity. The caregiver may revisit favorite vehicle words or simply read the final few paragraphs for a calmer ending.
 
+## Season Three: Farm Workdays
+
+A field south of the red barn follows a real **haymaking sequence** over several visits: Farmer Ruth's red tractor pulls a wagon and implements, the mower cuts long grass, the tedder fluffs it to dry, the rake gathers windrows, the baler makes tied rectangular bales, and adults load the wagon and store hay under cover. Several dry days pass between operations. Equipment is adult-operated, while the friends watch or play safely elsewhere. The steps explain a visible real-world change without being an equipment-operation guide.
+
+| Episode | One optional, simple conversation prompt |
+|---|---|
+| 013 | Which wheels on the red tractor were bigger? |
+| 014 | What looked different about the grass after the mower? |
+| 015 | What did the tedder do to the loose grass? |
+| 016 | Where did the hay rake put the grass? |
+| 017 | What shape came out of the baler? |
+| 018 | Why did the tractor and hay wagon take the farm road rather than the Little Bridge? |
+
+The two puppies remain distinguishable: Rex has one dark and one light ear and lives by the blue step on Brook Road; Molly has white front paws and lives at Green Gate Farm. She visits Pine Park for the first time at the end, while Rex and Gus discover more of her farm. Jack's sketches are observations, not expert declarations. No listening-time requirement or comprehension check is implied.
+
+**Farm and hay references:** Penn State Extension describes tractor functions; UNH, NC State and Maryland Extension describe cutting, drying, tedding and raking; Cornell Small Farms and University of Minnesota Extension describe baling, hauling and storage. Exact links and claims are in the source catalog and sidecars. These materials do not test this fiction's developmental or sleep effects.
+
 ## Why there are sources
 
 - **Machine functions:** Caterpillar's equipment descriptions were consulted to avoid confusing bulldozers, diggers, loaders, trucks and compactors. These are general equipment facts; the fictional site is not an engineering case study and the passages are not operation instructions.

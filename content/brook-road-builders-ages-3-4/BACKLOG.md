@@ -1,8 +1,8 @@
 # Brook Road Builders — future seasons and story backlog (not spoken)
 
-The completed canon is Season One (Pine Park, 001000–006000) and Season Two (The Little Bridge, 007000–012000). Everything below is an optional direction, not a completed episode, immutable title, or permission to retcon what is already built. See `WORLD_BIBLE.md` for what is actually established and `SERIES_ATLAS.md` for route/character/vehicle expansion notes.
+The completed canon comprises Season One (Pine Park, 001000–006000), Season Two (The Little Bridge, 007000–012000), and Season Three (Farm Workdays, 013000–018000). Everything below is an optional direction, not a completed episode, immutable title, or permission to retcon what is already built. See `WORLD_BIBLE.md` for what is actually established and `SERIES_ATLAS.md` for route/character/vehicle expansion notes.
 
-- Season Three candidate: **Farm Workdays** — Rex, Gus, Jack and Molly visit Green Gate Farm; a tractor pulls a wagon, the hay trailer arrives, a feed truck makes a delivery. The animals have recognizable habits and routines, not just an animal roll call. No construction site repeated merely to add a tractor.
+- **Season Three completed:** **Farm Workdays** — red tractor and hay-making equipment work through an adult-led hay harvest; Molly visits Pine Park for the first time. The farm hayfield is south of the red barn; harvested bales are stored inside.
 - Season Four candidate: **The Garage with the Red Door** — a tow truck brings a tired vehicle to a grown-up mechanic; tire repair, a lift, and a service truck appear. The small science questions concern wheels and air pressure. No children underneath supported vehicles.
 - Season Five candidate: **The Delivery Route** — box truck, flatbed and staffed loading yard, a driver making neighborhood stops. A package can pass through multiple established addresses; the logic of loading and unloading is consistent.
 - Season Six candidate: **After the Rain** — drain cleaning, street sweeper and a culvert inspection change a muddy roadside, without pretending that every puddle is an emergency.
