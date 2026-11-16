@@ -30,3 +30,12 @@ Lecture lengths in the track manifest are measured, not prescribed. Exact mathem
 - 012000 — [Solvability by Radicals and the Limits of Algebraic Formulas](012000-radicals-and-limits-of-formulas.md)
 
 The word counts in `track.json` are descriptive measurements from the canonical extractor, not targets. The mathematical companions and references are outside the spoken region.
+
+## Completed continuation — representations, discrete structure and dynamics
+
+- 013000 — [Representations: Making Symmetry Act on Vector Spaces](013000-representations-and-maschkes-theorem.md)
+- 014000 — [Characters: Traces, Orthogonality, and the Anatomy of a Representation](014000-characters-and-orthogonality.md)
+- 015000 — [Tensor Products: Encoding Bilinear Structure in a Linear Map](015000-tensor-products-and-universal-properties.md)
+- 016000 — [Exact Sequences and Resolutions: Measuring Lost Information](016000-exact-sequences-and-projective-resolutions.md)
+
+Narration lengths in the manifest are descriptive measurements only. Mathematical derivations, exercises, and source notes remain available outside the TTS region.

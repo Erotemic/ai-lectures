@@ -15,7 +15,8 @@
     "error-certificates",
     "interpolation-and-approximation",
     "quadrature-and-error",
-    "iterative-linear-algebra"
+    "iterative-linear-algebra",
+    "numerical-ode-methods"
   ],
   "lectures": [
     {
@@ -107,6 +108,15 @@
       "spoken_words": 1492,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 10.3
+    },
+    {
+      "id": "011000",
+      "title": "Euler and Runge–Kutta Methods: Accuracy Is Not Stability",
+      "section": "numerical-ode-methods",
+      "file": "011000-euler-runge-kutta-and-stability.md",
+      "spoken_words": 1363,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 9.4
     }
   ]
 }

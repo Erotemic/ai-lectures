@@ -1,12 +1,13 @@
-# Abstract Algebra — continuation after twelve completed lectures
+# Abstract Algebra — after sixteen completed lectures
 
-001000–012000 cover foundational algebra, field extensions, Galois groups, the Galois correspondence and solvability by radicals. The following proposals remain unindexed until substantive manuscripts are authored.
+001000–016000 now cover group actions, arithmetic and fields, Galois theory, finite-group representation theory, tensor products, and the first projective resolutions and Tor calculation.
 
-## Section IV — representation and homological algebra
+## Unindexed continuation proposals
 
-- 013000 — Representations and Group Characters
-- 014000 — Tensor Products and Universal Properties
-- 015000 — Exact Sequences, Kernels, Cokernels and Chain Complexes
-- 016000 — Projective Modules, Resolutions and Derived Functors
+- 017000 — Localization and Prime Ideals: Understanding a Ring One Prime at a Time
+- 018000 — Noetherian Rings and the Ascending Chain Condition
+- 019000 — Dedekind Domains, Ideals and Unique Factorization
+- 020000 — Representation Theory Beyond Semisimplicity: Extensions and Modular Examples
+- 021000 — Ext, Long Exact Sequences, and Derived Functors
 
-Connect the homological strand to Category Theory without repeating general categorical definitions. Further directions include algebraic number theory and commutative algebra. No duration targets.
+Continue toward commutative algebra and homological algebra without repeating the general Category Theory course. These are proposals, not registered lectures. Length follows the mathematics.

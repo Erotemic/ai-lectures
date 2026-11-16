@@ -24,3 +24,10 @@ Lecture lengths in the track manifest are measured, not prescribed. Exact mathem
 - 006000 — [The Fundamental Group of the Circle and Winding Numbers](006000-fundamental-group-of-circle.md)
 
 The word counts in `track.json` are descriptive measurements from the canonical extractor, not targets. The mathematical companions and references are outside the spoken region.
+
+## Completed continuation — representations, discrete structure and dynamics
+
+- 007000 — [Covering Spaces: Local Copies and Global Winding](007000-covering-spaces-and-lifting.md)
+- 008000 — [Smooth Manifolds: Coordinates without a Global Grid](008000-smooth-manifolds-and-tangent-spaces.md)
+
+Narration lengths in the manifest are descriptive measurements only. Mathematical derivations, exercises, and source notes remain available outside the TTS region.

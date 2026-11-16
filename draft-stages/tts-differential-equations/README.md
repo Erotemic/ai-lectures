@@ -24,3 +24,10 @@ Lecture lengths in the track manifest are measured, not prescribed. Exact mathem
 - 006000 — [Forced Systems, Variation of Constants, and Green's Functions](006000-forced-systems-and-green-functions.md)
 
 The word counts in `track.json` are descriptive measurements from the canonical extractor, not targets. The mathematical companions and references are outside the spoken region.
+
+## Completed continuation — representations, discrete structure and dynamics
+
+- 007000 — [Nonlinear Phase Planes: Energy, Equilibria, and the Pendulum](007000-nonlinear-phase-planes-and-energy.md)
+- 008000 — [Bifurcations and Limit Cycles: When Dynamics Change Their Shape](008000-bifurcations-and-limit-cycles.md)
+
+Narration lengths in the manifest are descriptive measurements only. Mathematical derivations, exercises, and source notes remain available outside the TTS region.

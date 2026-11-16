@@ -14,7 +14,9 @@
     "generating-functions",
     "recurrences-and-growth",
     "graphs-trees-and-cycles",
-    "matchings-and-hall"
+    "matchings-and-hall",
+    "flows-cuts-and-integrality",
+    "polya-enumeration"
   ],
   "lectures": [
     {
@@ -70,6 +72,24 @@
       "spoken_words": 1316,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 9.1
+    },
+    {
+      "id": "007000",
+      "title": "Flows and Cuts: A Combinatorial Equality with Two Certificates",
+      "section": "flows-cuts-and-integrality",
+      "file": "007000-flows-cuts-and-integrality.md",
+      "spoken_words": 1317,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 9.1
+    },
+    {
+      "id": "008000",
+      "title": "Pólya Enumeration: Counting Colorings without Double-Counting Symmetry",
+      "section": "polya-enumeration",
+      "file": "008000-polya-enumeration-and-cycle-indices.md",
+      "spoken_words": 1090,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.5
     }
   ]
 }

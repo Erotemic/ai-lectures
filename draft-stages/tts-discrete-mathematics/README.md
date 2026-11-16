@@ -24,3 +24,10 @@ Lecture lengths in the track manifest are measured, not prescribed. Exact mathem
 - 006000 — [Matchings and Hall's Marriage Theorem](006000-hall-marriage-theorem-and-matchings.md)
 
 The word counts in `track.json` are descriptive measurements from the canonical extractor, not targets. The mathematical companions and references are outside the spoken region.
+
+## Completed continuation — representations, discrete structure and dynamics
+
+- 007000 — [Flows and Cuts: A Combinatorial Equality with Two Certificates](007000-flows-cuts-and-integrality.md)
+- 008000 — [Pólya Enumeration: Counting Colorings without Double-Counting Symmetry](008000-polya-enumeration-and-cycle-indices.md)
+
+Narration lengths in the manifest are descriptive measurements only. Mathematical derivations, exercises, and source notes remain available outside the TTS region.

@@ -20,7 +20,11 @@
     "splitting-fields-and-separability",
     "galois-groups",
     "galois-correspondence",
-    "solvability-by-radicals"
+    "solvability-by-radicals",
+    "representations-and-maschke",
+    "characters-and-orthogonality",
+    "tensor-products",
+    "homological-algebra-foundations"
   ],
   "lectures": [
     {
@@ -130,6 +134,42 @@
       "spoken_words": 1247,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 8.6
+    },
+    {
+      "id": "013000",
+      "title": "Representations: Making Symmetry Act on Vector Spaces",
+      "section": "representations-and-maschke",
+      "file": "013000-representations-and-maschkes-theorem.md",
+      "spoken_words": 1329,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 9.2
+    },
+    {
+      "id": "014000",
+      "title": "Characters: Traces, Orthogonality, and the Anatomy of a Representation",
+      "section": "characters-and-orthogonality",
+      "file": "014000-characters-and-orthogonality.md",
+      "spoken_words": 1120,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.7
+    },
+    {
+      "id": "015000",
+      "title": "Tensor Products: Encoding Bilinear Structure in a Linear Map",
+      "section": "tensor-products",
+      "file": "015000-tensor-products-and-universal-properties.md",
+      "spoken_words": 1282,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 8.8
+    },
+    {
+      "id": "016000",
+      "title": "Exact Sequences and Resolutions: Measuring Lost Information",
+      "section": "homological-algebra-foundations",
+      "file": "016000-exact-sequences-and-projective-resolutions.md",
+      "spoken_words": 1282,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 8.8
     }
   ]
 }

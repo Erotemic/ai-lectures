@@ -30,3 +30,9 @@ Lecture lengths in the track manifest are measured, not prescribed. Exact mathem
 - 010000 — [Iterative Linear Solvers: Residuals, Spectra, and Conjugate Gradients](010000-iterative-linear-solvers-and-residuals.md)
 
 The word counts in `track.json` are descriptive measurements from the canonical extractor, not targets. The mathematical companions and references are outside the spoken region.
+
+## Completed continuation — representations, discrete structure and dynamics
+
+- 011000 — [Euler and Runge–Kutta Methods: Accuracy Is Not Stability](011000-euler-runge-kutta-and-stability.md)
+
+Narration lengths in the manifest are descriptive measurements only. Mathematical derivations, exercises, and source notes remain available outside the TTS region.

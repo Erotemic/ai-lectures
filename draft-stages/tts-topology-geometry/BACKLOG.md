@@ -1,12 +1,13 @@
-# Topology and Geometry — continuation after six completed lectures
+# Topology and Geometry — after eight completed lectures
 
-001000–006000 cover general topology, path homotopy and the computation of the circle fundamental group. Subsequent titles are proposals, not registered lectures.
+001000–008000 cover general topology, homotopy and winding, covering-space classification, and smooth manifolds with tangent maps.
 
-- 007000 — Covering Spaces and Lifting
-- 008000 — Smooth Manifolds: Coordinate Charts and Tangent Vectors
-- 009000 — Differential Forms and Stokes' Theorem
-- 010000 — Homology: Detecting Holes Algebraically
-- 011000 — Cohomology and Product Structure
-- 012000 — Fiber Bundles and Characteristic Classes
+## Unindexed continuation proposals
 
-Cross-link groups and subgroups from Abstract Algebra; do not presume knowledge of sheaves or higher categories.
+- 009000 — Differential Forms: Integration without a Preferred Coordinate System
+- 010000 — Orientation and Generalized Stokes' Theorem
+- 011000 — Simplicial and Singular Homology
+- 012000 — Cohomology and Product Structure
+- 013000 — Fiber Bundles and Characteristic Classes
+
+Distinguish smooth geometric constructions from statements requiring global topological hypotheses.

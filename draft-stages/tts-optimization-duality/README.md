@@ -15,7 +15,6 @@
 
 ## Planned continuation (remaining proposals)
 
-- 008000: Discrete Optimization, Relaxations, and Approximation
 - 009000: Numerical Error and Formally Checkable Certificates
 
 The remaining titles are planning proposals.
@@ -35,3 +34,9 @@ Lecture lengths in the track manifest are measured, not prescribed. Exact mathem
 - 007000 — [Semidefinite Programming: Optimizing over Positive Matrices](007000-semidefinite-programming-and-certificates.md)
 
 The word counts in `track.json` are descriptive measurements from the canonical extractor, not targets. The mathematical companions and references are outside the spoken region.
+
+## Completed continuation — representations, discrete structure and dynamics
+
+- 008000 — [Discrete Optimization: Relaxations, Integrality Gaps, and Certificates](008000-discrete-optimization-relaxations-and-bounds.md)
+
+Narration lengths in the manifest are descriptive measurements only. Mathematical derivations, exercises, and source notes remain available outside the TTS region.

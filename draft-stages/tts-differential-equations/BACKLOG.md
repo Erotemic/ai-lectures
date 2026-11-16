@@ -1,12 +1,12 @@
-# Differential Equations and Dynamical Systems — continuation after six completed lectures
+# Differential Equations and Dynamical Systems — after eight completed lectures
 
-001000–006000 cover initial-value problems, oscillators, matrix exponentials, and forced linear systems. Subsequent titles are proposals, not indexed lectures.
+001000–008000 cover scalar initial-value problems, linear systems, forcing, nonlinear phase planes, energy methods, and bifurcation normal forms with limit cycles.
 
-- 007000 — Nonlinear Systems, Phase Planes and Conserved Quantities
-- 008000 — Bifurcations and Limit Cycles
-- 009000 — Euler, Runge–Kutta and Global Error
-- 010000 — Stiff Equations and Implicit Methods
-- 011000 — Partial Differential Equations: Transport and Diffusion
-- 012000 — Boundary Data, Weak Solutions and Energy Methods
+## Unindexed continuation proposals
 
-Connect computational lectures to Numerical Analysis rather than duplicating numerical-error arguments.
+- 009000 — Stiff Systems, Fast and Slow Timescales
+- 010000 — Transport, Diffusion and the First Partial Differential Equations
+- 011000 — Boundary Data, Weak Solutions and Energy Estimates
+- 012000 — Poincaré Maps, Stability of Periodic Orbits, and Floquet Theory
+
+Numerical Analysis 011000 separately teaches Euler and Runge–Kutta error/stability; cross-reference it rather than duplicate it here.

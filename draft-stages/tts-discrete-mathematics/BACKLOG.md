@@ -1,10 +1,12 @@
-# Discrete Mathematics and Combinatorics — continuation after six completed lectures
+# Discrete Mathematics and Combinatorics — after eight completed lectures
 
-001000–006000 develop counting, generating functions, graph structure, and Hall's theorem. The following proposals are not yet indexed as lectures.
+001000–008000 now cover counting, generating functions, graphs and matchings, max-flow min-cut, and Pólya's cycle-index theorem.
 
-- 007000 — Flows, Cuts and Combinatorial Duality
-- 008000 — Pólya Enumeration and Cycle Indices (after Abstract Algebra 003000)
-- 009000 — Matroids: Independence Beyond Vector Spaces
-- 010000 — Extremal Combinatorics and the Probabilistic Method
+## Unindexed continuation proposals
 
-Keep this structurally focused rather than duplicating the algorithm-design course.
+- 009000 — Matroids, Exchange Axioms and Greedy Optimality
+- 010000 — Extremal Graph Theory: Turán's Theorem
+- 011000 — The Probabilistic Method: Existence without Construction
+- 012000 — Graph Coloring, Chromatic Polynomials and Planarity
+
+Preserve the structural combinatorial emphasis rather than duplicating an algorithms-implementation curriculum.
