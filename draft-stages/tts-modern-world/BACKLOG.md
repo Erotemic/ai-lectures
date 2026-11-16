@@ -234,3 +234,20 @@ Citation quality takes priority over bibliography size: a reliable passage that 
 - **076000:** The Iraq War, weapons claims, international law and the reshaping of the Middle East after 2003.
 - **077000:** European enlargement, mobility, inequality and the contested meanings of a common European space around 2004.
 - **078000:** SARS, global public-health cooperation and contested preparedness before the next pandemic era.
+
+
+## Completed 075000–078000 — wars, enlargement and public health
+
+- **075000:** The Day and the War: September 11 and Afghanistan, 2001–2004. The September 11 attacks, al-Qaeda and Taliban distinctions, the campaign, Afghan politics and civilians.
+- **076000:** The Evidence and the Invasion: Iraq, 2002–2005. Iraq weapons inspections, intelligence assessment, invasion, occupation policies and civilian harm.
+- **077000:** A Wider Europe: Enlargement and Unequal Mobility, 1993–2007. European Union enlargement, institutions, labor mobility, monetary distinctions and unequal costs.
+- **078000:** The Chain and the Warning: SARS and the World Health Response, 2002–2007. SARS origins and outbreak response, pathogen identification, containment and international health rules.
+
+**Evidence deepening:** 075000 needs Afghan interviews and locally authored history; 076000 needs fuller Iraqi archives and inspections evidence; 077000 needs national-language referendum and household studies; 078000 needs patient and clinical histories in affected regions. The paragraph ledgers record direct versus excerpt-only access to sources, and distinguish institutional positions from independent outcomes.
+
+## Next research candidates (unindexed)
+
+- **079000:** The Indian Ocean tsunami of 2004: seismic science, coastal disaster, international aid and the long politics of rebuilding.
+- **080000:** China and global manufacturing in the 2000s: export factories, migrant workers, changing consumption and the geography of trade.
+- **081000:** Africa in the early twenty-first century: the African Union, political movements, public health and economic change beyond a single continental story.
+- **082000:** The global financial crisis of 2007–2009: securitization, leverage, bank failures, state responses and unequal household consequences.

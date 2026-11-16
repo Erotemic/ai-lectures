@@ -177,3 +177,13 @@ Supporting references and source-review limitations are displayed after the narr
 - **074000 — [The Ballot and the Bomb: Kosovo and East Timor, 1999–2002](074000-the-ballot-and-the-bomb.md)** (2,331 spoken words; 20 paragraph-level evidence records). Two sovereignty crises, civilian protection and different international legal routes.
 
 Each narration paragraph has a display-only ledger and metadata reference, with review scope and limitations. No duration policy is applied.
+
+
+## Early 2000s: wars, enlargement and public health (075000–078000)
+
+- **075000 — [The Day and the War: September 11 and Afghanistan, 2001–2004](075000-the-day-and-the-war.md)** (2,205 spoken words; 17 paragraph-level evidence records). The September 11 attacks, al-Qaeda and Taliban distinctions, the campaign, Afghan politics and civilians.
+- **076000 — [The Evidence and the Invasion: Iraq, 2002–2005](076000-the-evidence-and-the-invasion.md)** (2,155 spoken words; 16 paragraph-level evidence records). Iraq weapons inspections, intelligence assessment, invasion, occupation policies and civilian harm.
+- **077000 — [A Wider Europe: Enlargement and Unequal Mobility, 1993–2007](077000-a-wider-europe.md)** (2,111 spoken words; 16 paragraph-level evidence records). European Union enlargement, institutions, labor mobility, monetary distinctions and unequal costs.
+- **078000 — [The Chain and the Warning: SARS and the World Health Response, 2002–2007](078000-the-chain-and-the-warning.md)** (2,263 spoken words; 18 paragraph-level evidence records). SARS origins and outbreak response, pathogen identification, containment and international health rules.
+
+Each paragraph maps to a nonspoken evidence ledger and sidecar claim. Source scope and limitations are preserved; no fixed length target is imposed.

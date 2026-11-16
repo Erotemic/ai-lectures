@@ -1,0 +1,273 @@
+{
+  "schema_version": 1,
+  "lecture_id": "078000",
+  "transcript": "078000-the-chain-and-the-warning.md",
+  "related_resources": [
+    {
+      "source_id": "sa-cdc",
+      "reason": "2003 world final case counts, Toronto resurgence, U.S. response",
+      "access_scope": "direct_html_archived_CDC_timeline"
+    },
+    {
+      "source_id": "sa-chronology",
+      "reason": "Guangdong cases, hotel cluster, March alert, contact tracing, containment",
+      "access_scope": "direct_html_contemporaneous_WHO_chronology"
+    },
+    {
+      "source_id": "sa-containment",
+      "reason": "5 July 2003 containment status, hotel-linked hospital outbreaks, vigilance",
+      "access_scope": "direct_html_contemporaneous_WHO_feature"
+    },
+    {
+      "source_id": "sa-early",
+      "reason": "early Hanoi and Hong Kong hospital clusters and WHO alert",
+      "access_scope": "direct_html_contemporaneous_WHO_update"
+    },
+    {
+      "source_id": "sa-ihr",
+      "reason": "event notification, public-health capacity, proportionality of travel measures",
+      "access_scope": "direct_html_publication_overview"
+    },
+    {
+      "source_id": "sa-lab",
+      "reason": "13 laboratories from 10 nations confirm novel coronavirus as cause",
+      "access_scope": "direct_html_primary_WHO_announcement"
+    },
+    {
+      "source_id": "sa-regulations",
+      "reason": "2005 revisions entered into force 15 June 2007",
+      "access_scope": "direct_html_primary_WHO_announcement"
+    },
+    {
+      "source_id": "sa-travel",
+      "reason": "spring 2003 WHO travel guidance in Hong Kong, China, Toronto and Taiwan",
+      "access_scope": "direct_html_contemporaneous_WHO_chronology"
+    },
+    {
+      "source_id": "sa-urbani",
+      "reason": "Carlo Urbani's March 2003 death and role identifying outbreak in Hanoi",
+      "access_scope": "direct_html_contemporaneous_WHO_update"
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "078000-p01",
+      "anchor": "In February two thousand and three, a hospital in Hanoi began treating a patie",
+      "kind": "historical_research",
+      "source_ids": [
+        "sa-early",
+        "sa-urbani"
+      ],
+      "source_locator": "sa-early: early Hanoi and Hong Kong hospital clusters and WHO alert; sa-urbani: Carlo Urbani's March 2003 death and role identifying outbreak in Hanoi",
+      "audit_status": "web_sources_reviewed_with_access_scope",
+      "source_limitations": "Reflects available information as of April 2003 Recognition does not imply one individual alone discovered the causative virus"
+    },
+    {
+      "id": "078000-p02",
+      "anchor": "The disease became known as severe acute respiratory syndrome, or SARS. Its ea",
+      "kind": "historical_research",
+      "source_ids": [
+        "sa-chronology",
+        "sa-early"
+      ],
+      "source_locator": "sa-chronology: Guangdong cases, hotel cluster, March alert, contact tracing, containment; sa-early: early Hanoi and Hong Kong hospital clusters and WHO alert",
+      "audit_status": "web_sources_reviewed_with_access_scope",
+      "source_limitations": "WHO 2003 provisional counts subsequently revised; origin source remains incomplete Reflects available information as of April 2003"
+    },
+    {
+      "id": "078000-p03",
+      "anchor": "SARS presented public-health teams with a particular problem: a respiratory di",
+      "kind": "historical_research",
+      "source_ids": [
+        "sa-chronology",
+        "sa-containment"
+      ],
+      "source_locator": "sa-chronology: Guangdong cases, hotel cluster, March alert, contact tracing, containment; sa-containment: 5 July 2003 containment status, hotel-linked hospital outbreaks, vigilance",
+      "audit_status": "web_sources_reviewed_with_access_scope",
+      "source_limitations": "WHO 2003 provisional counts subsequently revised; origin source remains incomplete Containment of recognized human chains was not proof virus disappeared permanently from nature"
+    },
+    {
+      "id": "078000-p04",
+      "anchor": "Hospital transmission mattered because caring for a sick person gathers people",
+      "kind": "historical_research",
+      "source_ids": [
+        "sa-early",
+        "sa-chronology"
+      ],
+      "source_locator": "sa-early: early Hanoi and Hong Kong hospital clusters and WHO alert; sa-chronology: Guangdong cases, hotel cluster, March alert, contact tracing, containment",
+      "audit_status": "web_sources_reviewed_with_access_scope",
+      "source_limitations": "Reflects available information as of April 2003 WHO 2003 provisional counts subsequently revised; origin source remains incomplete"
+    },
+    {
+      "id": "078000-p05",
+      "anchor": "Early reports from Guangdong reached international surveillance networks befor",
+      "kind": "historical_research",
+      "source_ids": [
+        "sa-chronology",
+        "sa-early"
+      ],
+      "source_locator": "sa-chronology: Guangdong cases, hotel cluster, March alert, contact tracing, containment; sa-early: early Hanoi and Hong Kong hospital clusters and WHO alert",
+      "audit_status": "web_sources_reviewed_with_access_scope",
+      "source_limitations": "WHO 2003 provisional counts subsequently revised; origin source remains incomplete Reflects available information as of April 2003"
+    },
+    {
+      "id": "078000-p06",
+      "anchor": "On March twelfth, the World Health Organization issued a global alert about cl",
+      "kind": "historical_research",
+      "source_ids": [
+        "sa-early",
+        "sa-chronology"
+      ],
+      "source_locator": "sa-early: early Hanoi and Hong Kong hospital clusters and WHO alert; sa-chronology: Guangdong cases, hotel cluster, March alert, contact tracing, containment",
+      "audit_status": "web_sources_reviewed_with_access_scope",
+      "source_limitations": "Reflects available information as of April 2003 WHO 2003 provisional counts subsequently revised; origin source remains incomplete"
+    },
+    {
+      "id": "078000-p07",
+      "anchor": "Investigators used contact tracing to reconstruct chains of illness. They aske",
+      "kind": "historical_research",
+      "source_ids": [
+        "sa-chronology",
+        "sa-containment"
+      ],
+      "source_locator": "sa-chronology: Guangdong cases, hotel cluster, March alert, contact tracing, containment; sa-containment: 5 July 2003 containment status, hotel-linked hospital outbreaks, vigilance",
+      "audit_status": "web_sources_reviewed_with_access_scope",
+      "source_limitations": "WHO 2003 provisional counts subsequently revised; origin source remains incomplete Containment of recognized human chains was not proof virus disappeared permanently from nature"
+    },
+    {
+      "id": "078000-p08",
+      "anchor": "In Singapore, authorities used extensive contact tracing and home quarantine f",
+      "kind": "historical_research",
+      "source_ids": [
+        "sa-chronology",
+        "sa-travel"
+      ],
+      "source_locator": "sa-chronology: Guangdong cases, hotel cluster, March alert, contact tracing, containment; sa-travel: spring 2003 WHO travel guidance in Hong Kong, China, Toronto and Taiwan",
+      "audit_status": "web_sources_reviewed_with_access_scope",
+      "source_limitations": "WHO 2003 provisional counts subsequently revised; origin source remains incomplete Advice changes reflect surveillance data and uncertainty at specific times"
+    },
+    {
+      "id": "078000-p09",
+      "anchor": "International travel recommendations became another disputed tool. In April, t",
+      "kind": "historical_research",
+      "source_ids": [
+        "sa-travel",
+        "sa-containment"
+      ],
+      "source_locator": "sa-travel: spring 2003 WHO travel guidance in Hong Kong, China, Toronto and Taiwan; sa-containment: 5 July 2003 containment status, hotel-linked hospital outbreaks, vigilance",
+      "audit_status": "web_sources_reviewed_with_access_scope",
+      "source_limitations": "Advice changes reflect surveillance data and uncertainty at specific times Containment of recognized human chains was not proof virus disappeared permanently from nature"
+    },
+    {
+      "id": "078000-p10",
+      "anchor": "While epidemiologists traced the movement of illness, laboratory scientists ac",
+      "kind": "historical_research",
+      "source_ids": [
+        "sa-lab",
+        "sa-chronology"
+      ],
+      "source_locator": "sa-lab: 13 laboratories from 10 nations confirm novel coronavirus as cause; sa-chronology: Guangdong cases, hotel cluster, March alert, contact tracing, containment",
+      "audit_status": "web_sources_reviewed_with_access_scope",
+      "source_limitations": "Laboratory collaboration is distinct from on-the-ground epidemiology WHO 2003 provisional counts subsequently revised; origin source remains incomplete"
+    },
+    {
+      "id": "078000-p11",
+      "anchor": "Scientific cooperation moved faster because participating laboratories shared ",
+      "kind": "historical_research",
+      "source_ids": [
+        "sa-lab",
+        "sa-containment"
+      ],
+      "source_locator": "sa-lab: 13 laboratories from 10 nations confirm novel coronavirus as cause; sa-containment: 5 July 2003 containment status, hotel-linked hospital outbreaks, vigilance",
+      "audit_status": "web_sources_reviewed_with_access_scope",
+      "source_limitations": "Laboratory collaboration is distinct from on-the-ground epidemiology Containment of recognized human chains was not proof virus disappeared permanently from nature"
+    },
+    {
+      "id": "078000-p12",
+      "anchor": "By July fifth, the World Health Organization reported that recognized chains o",
+      "kind": "historical_research",
+      "source_ids": [
+        "sa-containment",
+        "sa-chronology"
+      ],
+      "source_locator": "sa-containment: 5 July 2003 containment status, hotel-linked hospital outbreaks, vigilance; sa-chronology: Guangdong cases, hotel cluster, March alert, contact tracing, containment",
+      "audit_status": "web_sources_reviewed_with_access_scope",
+      "source_limitations": "Containment of recognized human chains was not proof virus disappeared permanently from nature WHO 2003 provisional counts subsequently revised; origin source remains incomplete"
+    },
+    {
+      "id": "078000-p13",
+      "anchor": "The retrospective figures most often cited for the two thousand and two to two",
+      "kind": "historical_research",
+      "source_ids": [
+        "sa-cdc",
+        "sa-containment"
+      ],
+      "source_locator": "sa-cdc: 2003 world final case counts, Toronto resurgence, U.S. response; sa-containment: 5 July 2003 containment status, hotel-linked hospital outbreaks, vigilance",
+      "audit_status": "web_sources_reviewed_with_access_scope",
+      "source_limitations": "Probable case definition revised over time; 8096/774 retrospective accepted totals Containment of recognized human chains was not proof virus disappeared permanently from nature"
+    },
+    {
+      "id": "078000-p14",
+      "anchor": "Even after the main outbreak was contained, the risk did not become zero. Heal",
+      "kind": "historical_research",
+      "source_ids": [
+        "sa-chronology",
+        "sa-containment"
+      ],
+      "source_locator": "sa-chronology: Guangdong cases, hotel cluster, March alert, contact tracing, containment; sa-containment: 5 July 2003 containment status, hotel-linked hospital outbreaks, vigilance",
+      "audit_status": "web_sources_reviewed_with_access_scope",
+      "source_limitations": "WHO 2003 provisional counts subsequently revised; origin source remains incomplete Containment of recognized human chains was not proof virus disappeared permanently from nature"
+    },
+    {
+      "id": "078000-p15",
+      "anchor": "SARS contributed to a larger debate over international obligations to report d",
+      "kind": "historical_research",
+      "source_ids": [
+        "sa-regulations",
+        "sa-ihr"
+      ],
+      "source_locator": "sa-regulations: 2005 revisions entered into force 15 June 2007; sa-ihr: event notification, public-health capacity, proportionality of travel measures",
+      "audit_status": "web_sources_reviewed_with_access_scope",
+      "source_limitations": "Formal legal duties do not ensure national readiness or compliance Details law's framework, not effectiveness in any particular outbreak"
+    },
+    {
+      "id": "078000-p16",
+      "anchor": "Writing an international rule and making it effective are different achievemen",
+      "kind": "historical_research",
+      "source_ids": [
+        "sa-regulations",
+        "sa-containment"
+      ],
+      "source_locator": "sa-regulations: 2005 revisions entered into force 15 June 2007; sa-containment: 5 July 2003 containment status, hotel-linked hospital outbreaks, vigilance",
+      "audit_status": "web_sources_reviewed_with_access_scope",
+      "source_limitations": "Formal legal duties do not ensure national readiness or compliance Containment of recognized human chains was not proof virus disappeared permanently from nature"
+    },
+    {
+      "id": "078000-p17",
+      "anchor": "It is tempting to tell SARS as a contest between an invisible enemy and a scie",
+      "kind": "historical_research",
+      "source_ids": [
+        "sa-early",
+        "sa-urbani",
+        "sa-lab"
+      ],
+      "source_locator": "sa-early: early Hanoi and Hong Kong hospital clusters and WHO alert; sa-urbani: Carlo Urbani's March 2003 death and role identifying outbreak in Hanoi; sa-lab: 13 laboratories from 10 nations confirm novel coronavirus as cause",
+      "audit_status": "web_sources_reviewed_with_access_scope",
+      "source_limitations": "Reflects available information as of April 2003 Recognition does not imply one individual alone discovered the causative virus Laboratory collaboration is distinct from on-the-ground epidemiology"
+    },
+    {
+      "id": "078000-p18",
+      "anchor": "The most lasting change after SARS was not that the world discovered the exist",
+      "kind": "historical_research",
+      "source_ids": [
+        "sa-cdc",
+        "sa-regulations",
+        "sa-ihr"
+      ],
+      "source_locator": "sa-cdc: 2003 world final case counts, Toronto resurgence, U.S. response; sa-regulations: 2005 revisions entered into force 15 June 2007; sa-ihr: event notification, public-health capacity, proportionality of travel measures",
+      "audit_status": "web_sources_reviewed_with_access_scope",
+      "source_limitations": "Probable case definition revised over time; 8096/774 retrospective accepted totals Formal legal duties do not ensure national readiness or compliance Details law's framework, not effectiveness in any particular outbreak"
+    }
+  ],
+  "notes": "18 narration paragraphs with nonspoken source ledgers and access limits; estimated minutes in track manifest are descriptive only."
+}
