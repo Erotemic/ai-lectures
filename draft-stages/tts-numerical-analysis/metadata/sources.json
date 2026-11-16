@@ -105,6 +105,27 @@
       "url": "https://standards.ieee.org/ieee/1788/4431/",
       "access": "publisher_metadata_or_institutional_access",
       "notes": "2015 definition of interval arithmetic models; inactive-reserved listing is not an assertion of current adoption."
+    },
+    "na-cornell-krylov": {
+      "title": "David Bindel, Cornell CS6210 (Fall 2025): Lanczos and Arnoldi",
+      "kind": "university_course_notes",
+      "url": "https://www.cs.cornell.edu/courses/cs6210/2025fa/lec/2025-11-17.html",
+      "access": "free_no_login",
+      "notes": "Krylov bases, Arnoldi and Lanczos recurrences."
+    },
+    "na-cornell-eigen": {
+      "title": "David Bindel, Cornell CS6210 (Fall 2025): Large-Scale Eigensolvers",
+      "kind": "university_course_notes",
+      "url": "https://www.cs.cornell.edu/courses/cs6210/2025fa/lec/2025-12-01.html",
+      "access": "free_no_login",
+      "notes": "Rayleigh-Ritz projection, Ritz values and residuals."
+    },
+    "na-eth-sparse": {
+      "title": "ETH Zurich, Lecture Notes on Solving Large Scale Eigenvalue Problems",
+      "kind": "university_course_notes",
+      "url": "https://people.inf.ethz.ch/arbenz/ewp/Lnotes/lsevp.pdf",
+      "access": "free_no_login",
+      "notes": "Lanczos/Arnoldi algorithms, large sparse matrices, numerical stability."
     }
   }
 }

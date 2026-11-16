@@ -45,3 +45,10 @@ Word counts and narration durations in the manifest are descriptive measurements
 - 012000 — [Cohomology, Cup Products, and de Rham Classes](012000-cohomology-cup-products-and-de-rham-classes.md)
 
 The manifest's narration measurements are descriptive only; exact mathematics and source records are in the non-spoken companions.
+
+## Completed continuation — structures, stability and sensitivity
+
+- 013000 — [Fiber Bundles, Connections, and Curvature](013000-fiber-bundles-connections-and-curvature.md)
+- 014000 — [Riemannian Metrics, Geodesics, and Intrinsic Curvature](014000-riemannian-metrics-geodesics-and-curvature.md)
+
+Spoken narration and non-spoken mathematical companions are separated by the repository extract markers. Word counts are descriptive, not limits or targets.

@@ -57,3 +57,12 @@ Word counts and narration durations in the manifest are descriptive measurements
 - 024000 — [Finitely Generated Modules over a PID: A Classification Theorem](024000-structure-theorem-for-modules-over-a-pid.md)
 
 The manifest's narration measurements are descriptive only; exact mathematics and source records are in the non-spoken companions.
+
+## Completed continuation — structures, stability and sensitivity
+
+- 025000 — [Algebraic Number Fields: Discriminants and Ramification](025000-number-fields-discriminants-and-ramification.md)
+- 026000 — [Flat Modules: When Tensor Products Preserve Exactness](026000-flat-modules-and-tensor-exactness.md)
+- 027000 — [Krull Dimension and Hilbert's Nullstellensatz](027000-krull-dimension-and-nullstellensatz.md)
+- 028000 — [Spectral Sequences: Recovering Homology in Stages](028000-spectral-sequences-and-filtered-complexes.md)
+
+Spoken narration and non-spoken mathematical companions are separated by the repository extract markers. Word counts are descriptive, not limits or targets.

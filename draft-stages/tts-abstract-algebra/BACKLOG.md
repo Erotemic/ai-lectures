@@ -1,12 +1,12 @@
-# Abstract Algebra — after 24 completed lectures
+# Abstract Algebra — after 28 completed lectures
 
-001000–024000 develop groups, fields, Galois theory, representations, commutative and homological algebra. The latest section computes Ext, associated primes, p-adic lifting, and PID module classification.
+001000–028000 develop groups and quotients, fields and Galois theory, representations, tensors and derived functors, commutative algebra, number fields, flatness, affine geometry, and filtered homological calculations.
 
 ## Unindexed continuation proposals
 
-- 025000 — Algebraic Number Fields, Discriminants, and Ramification
-- 026000 — Flat Modules, Tensor Exactness, and Localization
-- 027000 — Dimension, Chains of Prime Ideals, and the Nullstellensatz
-- 028000 — Spectral Sequences: Filtering Homological Information
+- 029000 — Norms, Units, and the Class Group of a Number Field
+- 030000 — Integral Dependence, Normalization, and Singular Curves
+- 031000 — Flat Base Change and Tor Spectral Sequences
+- 032000 — Projective Modules, K-Theory, and Explicit Obstructions
 
-Keep the homological and commutative directions integrated through explicit calculations and hypothesis checks. These are proposals, not cataloged lectures; depth determines manuscript length.
+Continue with calculations whose hypotheses and coefficient rings are explicit. These are proposals, not registered lectures. Lecture depth, not a duration target, determines manuscript length.

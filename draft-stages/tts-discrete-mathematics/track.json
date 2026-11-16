@@ -20,7 +20,9 @@
     "matroids-greedy",
     "extremal-graphs",
     "probabilistic-method",
-    "coloring-planarity"
+    "coloring-planarity",
+    "submodularity-matroid-intersection",
+    "ramsey-theory"
   ],
   "lectures": [
     {
@@ -130,6 +132,24 @@
       "spoken_words": 1090,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 7.5
+    },
+    {
+      "id": "013000",
+      "title": "Submodularity, Matroid Intersection, and the Limits of Greedy Choice",
+      "section": "submodularity-matroid-intersection",
+      "file": "013000-submodularity-and-matroid-intersection.md",
+      "spoken_words": 1241,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 8.6
+    },
+    {
+      "id": "014000",
+      "title": "Ramsey Theory: Why Large Structures Force Patterns",
+      "section": "ramsey-theory",
+      "file": "014000-ramsey-theory-and-unavoidable-patterns.md",
+      "spoken_words": 1143,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.9
     }
   ]
 }

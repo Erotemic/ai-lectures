@@ -20,7 +20,9 @@
     "stiff-systems",
     "transport-diffusion-pdes",
     "weak-pde-energies",
-    "poincare-floquet"
+    "poincare-floquet",
+    "wave-characteristics",
+    "reaction-diffusion-turing"
   ],
   "lectures": [
     {
@@ -130,6 +132,24 @@
       "spoken_words": 1089,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 7.5
+    },
+    {
+      "id": "013000",
+      "title": "Wave Equations, Characteristics, and Finite Propagation Speed",
+      "section": "wave-characteristics",
+      "file": "013000-wave-equations-characteristics-and-propagation.md",
+      "spoken_words": 1250,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 8.6
+    },
+    {
+      "id": "014000",
+      "title": "Reaction–Diffusion Systems and Turing Instability",
+      "section": "reaction-diffusion-turing",
+      "file": "014000-reaction-diffusion-and-turing-instability.md",
+      "spoken_words": 1138,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.8
     }
   ]
 }

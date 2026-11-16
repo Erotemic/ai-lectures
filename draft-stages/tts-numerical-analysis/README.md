@@ -48,3 +48,9 @@ Word counts and narration durations in the manifest are descriptive measurements
 - 013000 — [Interval Arithmetic: From Plausible Answers to Verified Enclosures](013000-interval-arithmetic-and-verified-enclosures.md)
 
 The manifest's narration measurements are descriptive only; exact mathematics and source records are in the non-spoken companions.
+
+## Completed continuation — structures, stability and sensitivity
+
+- 014000 — [Sparse Eigenvalue Problems: Krylov Spaces, Lanczos, and Arnoldi](014000-sparse-eigenvalues-krylov-lanczos-and-arnoldi.md)
+
+Spoken narration and non-spoken mathematical companions are separated by the repository extract markers. Word counts are descriptive, not limits or targets.

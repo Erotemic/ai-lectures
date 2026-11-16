@@ -32,7 +32,11 @@
     "ext-long-exact",
     "primary-decomposition",
     "hensel-completion",
-    "pid-structure-theorem"
+    "pid-structure-theorem",
+    "number-fields-ramification",
+    "flat-modules-tor",
+    "nullstellensatz-dimension",
+    "spectral-sequences"
   ],
   "lectures": [
     {
@@ -250,6 +254,42 @@
       "spoken_words": 1084,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 7.5
+    },
+    {
+      "id": "025000",
+      "title": "Algebraic Number Fields: Discriminants and Ramification",
+      "section": "number-fields-ramification",
+      "file": "025000-number-fields-discriminants-and-ramification.md",
+      "spoken_words": 1139,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.9
+    },
+    {
+      "id": "026000",
+      "title": "Flat Modules: When Tensor Products Preserve Exactness",
+      "section": "flat-modules-tor",
+      "file": "026000-flat-modules-and-tensor-exactness.md",
+      "spoken_words": 1144,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.9
+    },
+    {
+      "id": "027000",
+      "title": "Krull Dimension and Hilbert's Nullstellensatz",
+      "section": "nullstellensatz-dimension",
+      "file": "027000-krull-dimension-and-nullstellensatz.md",
+      "spoken_words": 1120,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.7
+    },
+    {
+      "id": "028000",
+      "title": "Spectral Sequences: Recovering Homology in Stages",
+      "section": "spectral-sequences",
+      "file": "028000-spectral-sequences-and-filtered-complexes.md",
+      "spoken_words": 1106,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.6
     }
   ]
 }

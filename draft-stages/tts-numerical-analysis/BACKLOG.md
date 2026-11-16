@@ -1,12 +1,12 @@
-# Numerical Analysis and Reliable Computation — after 13 completed lectures
+# Numerical Analysis and Reliable Computation — after 14 completed lectures
 
-001000–013000 cover floating-point arithmetic, conditioning, stable linear and nonlinear solvers, interpolation, quadrature, ODE stepping, adaptivity, and verified interval enclosures.
+001000–014000 cover floating point, conditioning, stable solvers, quadrature, ODE stepping, adaptive error estimation, verified enclosures, and sparse eigenvalue algorithms using Krylov spaces, Arnoldi and Lanczos.
 
 ## Unindexed continuation proposals
 
-- 014000 — Sparse Eigenvalue Problems and Krylov Subspaces
-- 015000 — Implicit Time Stepping, Newton–Krylov Methods, and Preconditioning
-- 016000 — Automatic Differentiation and Sensitivity Analysis
+- 015000 — Implicit Time Stepping, Newton–Krylov, and Preconditioning
+- 016000 — Automatic Differentiation, Adjoint Methods, and Sensitivities
 - 017000 — Validated Integration of Differential Equations
+- 018000 — A Posteriori PDE Discretization Error Bounds
 
-Distinguish a measured numerical estimate from a proved enclosure, and the certified discrete solve from an infinite-dimensional PDE certificate. Proposals are not registered lectures.
+A small algebraic eigenpair residual is distinct from an enclosure for the spectrum of the original continuous operator. Proposals are not registered lectures.

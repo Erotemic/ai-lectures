@@ -1,12 +1,12 @@
-# Differential Equations and Dynamical Systems — after 12 completed lectures
+# Differential Equations and Dynamical Systems — after 14 completed lectures
 
-The sequence covers ODEs and PDEs, linear and nonlinear phase portraits, bifurcations, stiffness, weak boundary-value solutions, and Floquet multipliers of periodic orbits.
+The sequence now extends through weak PDEs, periodic-orbit stability, finite-speed wave propagation, and diffusion-driven linear pattern instability, with explicit contrasts among ODE, hyperbolic PDE and parabolic PDE behavior.
 
 ## Unindexed continuation proposals
 
-- 013000 — Waves, Characteristics, and Finite Propagation Speed
-- 014000 — Reaction–Diffusion Equations and Pattern Formation
-- 015000 — Spectral Methods for PDE Boundary-Value Problems
-- 016000 — Stable and Unstable Manifolds in Nonlinear Dynamics
+- 015000 — Spectral Methods and Boundary Value Eigenproblems for PDEs
+- 016000 — Stable, Unstable, and Center Manifold Theorems
+- 017000 — Nonlinear Traveling Waves and Front Stability
+- 018000 — Conservation Laws, Weak Shocks, and Entropy Conditions
 
-Maintain the separation between analytic PDE well-posedness and numerical discretization guarantees. Proposals are not registered lectures.
+Do not equate linear instability with long-time nonlinear pattern existence. Proposals are not registered lectures.

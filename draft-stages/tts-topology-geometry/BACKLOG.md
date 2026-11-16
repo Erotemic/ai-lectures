@@ -1,12 +1,12 @@
-# Topology and Geometry — after 12 completed lectures
+# Topology and Geometry — after 14 completed lectures
 
-Topology now runs from spaces and coverings through smooth manifolds, differential forms and Stokes, to simplicial homology, singular homology, cohomology and the cup product.
+001000–014000 cover point-set spaces, coverings, smooth manifolds, differential forms and Stokes, homology, cohomology, fiber bundles, connections, Riemannian metrics, geodesics and intrinsic curvature.
 
 ## Unindexed continuation proposals
 
-- 013000 — Fiber Bundles, Connections, and Curvature
-- 014000 — Riemannian Metrics, Geodesics, and Curvature
-- 015000 — Mayer–Vietoris and Exact Sequences in Topology
-- 016000 — Poincare Duality and Intersection Pairings
+- 015000 — Mayer–Vietoris, Excision, and Exact Sequences in Topology
+- 016000 — Poincaré Duality and Intersection Pairings
+- 017000 — Gauss–Bonnet: Linking Curvature and Topology
+- 018000 — Characteristic Classes and Bundle Obstructions
 
-Mark orientability, smoothness, compactness and coefficient-ring hypotheses when they matter. Proposals are not registered lectures.
+State orientability, compactness, smoothness, coefficient and metric hypotheses whenever they affect a theorem. Proposals are not cataloged lectures.

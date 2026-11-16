@@ -45,3 +45,10 @@ Word counts and narration durations in the manifest are descriptive measurements
 - 012000 — [Graph Coloring, Chromatic Polynomials, and Planarity](012000-graph-coloring-chromatic-polynomials-and-planarity.md)
 
 The manifest's narration measurements are descriptive only; exact mathematics and source records are in the non-spoken companions.
+
+## Completed continuation — structures, stability and sensitivity
+
+- 013000 — [Submodularity, Matroid Intersection, and the Limits of Greedy Choice](013000-submodularity-and-matroid-intersection.md)
+- 014000 — [Ramsey Theory: Why Large Structures Force Patterns](014000-ramsey-theory-and-unavoidable-patterns.md)
+
+Spoken narration and non-spoken mathematical companions are separated by the repository extract markers. Word counts are descriptive, not limits or targets.

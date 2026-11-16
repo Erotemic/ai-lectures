@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "lecture_id": "013000",
+  "transcript": "013000-submodularity-and-matroid-intersection.md",
+  "related_resources": [
+    {
+      "source_id": "dm-princeton-submod",
+      "reason": "Submodularity and diminishing returns."
+    },
+    {
+      "source_id": "dm-stanford-matroid",
+      "reason": "Edmonds matroid-intersection theorem and proof."
+    },
+    {
+      "source_id": "dm-oxley",
+      "reason": "Rank submodularity and matroid axioms."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "013000-h01",
+      "anchor": "Jack Edmonds",
+      "kind": "historical_research",
+      "source_ids": [
+        "dm-stanford-matroid"
+      ],
+      "source_locator": "Edmonds attribution for matroid intersection theorem.",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}

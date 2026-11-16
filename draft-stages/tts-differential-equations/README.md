@@ -45,3 +45,10 @@ Word counts and narration durations in the manifest are descriptive measurements
 - 012000 — [Poincaré Maps, Periodic Orbits, and Floquet Theory](012000-poincare-maps-periodic-orbits-and-floquet-theory.md)
 
 The manifest's narration measurements are descriptive only; exact mathematics and source records are in the non-spoken companions.
+
+## Completed continuation — structures, stability and sensitivity
+
+- 013000 — [Wave Equations, Characteristics, and Finite Propagation Speed](013000-wave-equations-characteristics-and-propagation.md)
+- 014000 — [Reaction–Diffusion Systems and Turing Instability](014000-reaction-diffusion-and-turing-instability.md)
+
+Spoken narration and non-spoken mathematical companions are separated by the repository extract markers. Word counts are descriptive, not limits or targets.

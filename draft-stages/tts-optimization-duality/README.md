@@ -50,3 +50,9 @@ Word counts and narration durations in the manifest are descriptive measurements
 - 010000 — [Interior-Point Methods: Central Paths, Barriers, and Newton Systems](010000-interior-point-methods-central-paths-and-barriers.md)
 
 The manifest's narration measurements are descriptive only; exact mathematics and source records are in the non-spoken companions.
+
+## Completed continuation — structures, stability and sensitivity
+
+- 011000 — [Optimization Sensitivity: Perturbation Bounds and Shadow Prices](011000-sensitivity-perturbations-and-shadow-prices.md)
+
+Spoken narration and non-spoken mathematical companions are separated by the repository extract markers. Word counts are descriptive, not limits or targets.
