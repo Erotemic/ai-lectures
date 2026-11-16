@@ -84,37 +84,34 @@
       "audit_status": "biographical_sources_cross_checked"
     },
     {
-      "id": "016000-h06",
-      "anchor": "Arne Jensen remembered discussing a proof with Kato, then sometimes finding a further note in his mailbox the next morning.",
-      "kind": "historical_biography_or_recollection",
+      "id": "016000-new06",
+      "anchor": "Kato contracted tuberculosis.",
+      "kind": "historical_biography_or_context",
       "source_ids": [
-        "history-kato-ams-memorial",
+        "history-kato-ams-memorial"
+      ],
+      "source_locator": "MacTutor reports Barry Simon’s AMS memorial testimony",
+      "audit_status": "source_cross_checked_2026_11_16"
+    },
+    {
+      "id": "016000-new07",
+      "anchor": "Kato subsequently traveled to Berkeley and New York University",
+      "kind": "historical_biography_or_context",
+      "source_ids": [
         "history-kato-bio"
       ],
-      "source_locator": "Jensen in AMS Notices memorial (2000)",
-      "audit_status": "biographical_sources_cross_checked"
+      "source_locator": "MacTutor biography, 1954–55 and other US visits",
+      "audit_status": "source_cross_checked_2026_11_16"
     },
     {
-      "id": "016000-h07",
-      "anchor": "Kato admired the botanical classifications of Carl Linnaeus,",
-      "kind": "historical_biography_or_recollection",
+      "id": "016000-new08",
+      "anchor": "His earlier tuberculosis caused difficulty with immigration medical requirements.",
+      "kind": "historical_biography_or_context",
       "source_ids": [
-        "history-kato-bio",
-        "history-kato-ams-memorial"
+        "history-kato-bio"
       ],
-      "source_locator": "Jensen on walks, botany, and 1993 Uppsala trip",
-      "audit_status": "biographical_sources_cross_checked"
-    },
-    {
-      "id": "016000-h08",
-      "anchor": "His wife Mizue became ill in nineteen ninety-six,",
-      "kind": "historical_biography_or_recollection",
-      "source_ids": [
-        "history-kato-bio",
-        "history-kato-ams-memorial"
-      ],
-      "source_locator": "Cordes and Ponce reminiscences in AMS memorial, quoted by MacTutor",
-      "audit_status": "biographical_sources_cross_checked"
+      "source_locator": "MacTutor biography, Berkeley move, visa waiver",
+      "audit_status": "source_cross_checked_2026_11_16"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "id": "history",
   "title": "History · People and ideas",
-  "summary": "Fifty-six researched historical portrait episodes covering fifty-two mathematicians, scientists, and computing pioneers. Lives, relationships, places, institutions and political circumstances lead; mathematics is retained and explained once the historical setting is established. Newton, Leibniz, Galois, and Gödel each now have two episodes. No fixed duration limit applies.",
+  "summary": "Sixty-one researched historical portrait episodes covering fifty-two mathematicians, scientists, and computing pioneers. Lives, relationships, places, institutions, and political circumstances lead; mathematics is retained and explained once the historical setting is established. Newton, Leibniz, Galois, Gödel, Kepler, Fourier, Weyl, Kato, and Davis have two episodes each. No fixed duration limit applies.",
   "assumed_background": [
     "Background varies by portrait; newer human-history entries are accessible without technical mathematics, while earlier manuscripts retain their own stated prerequisites."
   ],
@@ -77,14 +77,25 @@
     },
     {
       "id": "005000",
-      "title": "Hermann Weyl: When do spectra survive a changing world?",
+      "title": "Hermann Weyl I: Göttingen, Zürich, and a mathematics of changing worlds",
       "person": "Hermann Weyl",
       "section": "variational",
       "file": "005000-weyl.md",
-      "spoken_words": 5739,
+      "spoken_words": 3778,
       "draft_status": "substantive",
       "source_g2": null,
-      "estimated_minutes_at_145_wpm": 39.6
+      "estimated_minutes_at_145_wpm": 26.1
+    },
+    {
+      "id": "005500",
+      "title": "Hermann Weyl II: The destruction of Göttingen and a life between continents",
+      "person": "Hermann Weyl",
+      "section": "variational",
+      "file": "005500-weyl-exile.md",
+      "spoken_words": 3155,
+      "draft_status": "substantive",
+      "source_g2": null,
+      "estimated_minutes_at_145_wpm": 21.8
     },
     {
       "id": "006000",
@@ -198,14 +209,25 @@
     },
     {
       "id": "016000",
-      "title": "Tosio Kato: How can a spectral subspace be followed while an operator changes?",
+      "title": "Tosio Kato I: War, Tokyo, and the making of mathematical quantum mechanics",
       "person": "Tosio Kato",
       "section": "operators",
       "file": "016000-kato.md",
-      "spoken_words": 4884,
+      "spoken_words": 2663,
       "draft_status": "substantive",
       "source_g2": null,
-      "estimated_minutes_at_145_wpm": 33.7
+      "estimated_minutes_at_145_wpm": 18.4
+    },
+    {
+      "id": "016500",
+      "title": "Tosio Kato II: Berkeley, students, and the discipline of operators",
+      "person": "Tosio Kato",
+      "section": "operators",
+      "file": "016500-kato-berkeley.md",
+      "spoken_words": 3356,
+      "draft_status": "substantive",
+      "source_g2": null,
+      "estimated_minutes_at_145_wpm": 23.1
     },
     {
       "id": "017000",
@@ -220,14 +242,25 @@
     },
     {
       "id": "018000",
-      "title": "Chandler Davis: How should we measure the rotation of an entire eigenspace?",
+      "title": "Chandler Davis I: Science fiction, the Red Scare, and a mathematician without a post",
       "person": "Chandler Davis",
       "section": "davis-kahan",
       "file": "018000-davis.md",
-      "spoken_words": 4690,
+      "spoken_words": 2031,
       "draft_status": "substantive",
       "source_g2": null,
-      "estimated_minutes_at_145_wpm": 32.3
+      "estimated_minutes_at_145_wpm": 14.0
+    },
+    {
+      "id": "018500",
+      "title": "Chandler Davis II: Toronto, academic freedom, and the geometry of perturbation",
+      "person": "Chandler Davis",
+      "section": "davis-kahan",
+      "file": "018500-davis-toronto.md",
+      "spoken_words": 3690,
+      "draft_status": "substantive",
+      "source_g2": null,
+      "estimated_minutes_at_145_wpm": 25.4
     },
     {
       "id": "019000",

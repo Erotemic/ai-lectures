@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "lecture_id": "016500",
+  "transcript": "016500-kato-berkeley.md",
+  "related_resources": [
+    {
+      "source_id": "history-kato-bio",
+      "reason": "Life, scholarly context, or confirmed authorship of Tosio Kato."
+    },
+    {
+      "source_id": "history-kato-primary",
+      "reason": "A mathematical publication or explanation connected to the contribution discussed."
+    },
+    {
+      "source_id": "history-kato-topic",
+      "reason": "Accessible background on spectral theorem."
+    },
+    {
+      "source_id": "history-kato-book",
+      "reason": "Kato’s original systematic text and its chapter coverage."
+    },
+    {
+      "source_id": "history-kato-obituary",
+      "reason": "Chronology and historical context for his operator and mathematical-physics research."
+    },
+    {
+      "source_id": "history-kato-ams-memorial",
+      "reason": "Specific biographical evidence used in the human-portrait revision."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "016500-h06",
+      "anchor": "Arne Jensen remembered discussing a proof with Kato, then sometimes finding a further note in his mailbox the next morning.",
+      "kind": "historical_biography_or_recollection",
+      "source_ids": [
+        "history-kato-ams-memorial",
+        "history-kato-bio"
+      ],
+      "source_locator": "Jensen in AMS Notices memorial (2000)",
+      "audit_status": "biographical_sources_cross_checked"
+    },
+    {
+      "id": "016500-h07",
+      "anchor": "Kato admired the botanical classifications of Carl Linnaeus,",
+      "kind": "historical_biography_or_recollection",
+      "source_ids": [
+        "history-kato-bio",
+        "history-kato-ams-memorial"
+      ],
+      "source_locator": "Jensen on walks, botany, and 1993 Uppsala trip",
+      "audit_status": "biographical_sources_cross_checked"
+    },
+    {
+      "id": "016500-h08",
+      "anchor": "His wife Mizue became ill in nineteen ninety-six,",
+      "kind": "historical_biography_or_recollection",
+      "source_ids": [
+        "history-kato-bio",
+        "history-kato-ams-memorial"
+      ],
+      "source_locator": "Cordes and Ponce reminiscences in AMS memorial, quoted by MacTutor",
+      "audit_status": "biographical_sources_cross_checked"
+    },
+    {
+      "id": "016500-new04",
+      "anchor": "In nineteen sixty-six Kato published Perturbation Theory for Linear Operators.",
+      "kind": "historical_biography_or_context",
+      "source_ids": [
+        "history-kato-book"
+      ],
+      "source_locator": "Springer publisher record, 1966 monograph",
+      "audit_status": "source_cross_checked_2026_11_16"
+    },
+    {
+      "id": "016500-new05",
+      "anchor": "three doctoral students in Tokyo and twenty-one at Berkeley.",
+      "kind": "historical_biography_or_context",
+      "source_ids": [
+        "history-kato-obituary"
+      ],
+      "source_locator": "UC Berkeley memorial, graduate supervision",
+      "audit_status": "source_cross_checked_2026_11_16"
+    },
+    {
+      "id": "016500-new06",
+      "anchor": "The Norbert Wiener Prize in Applied Mathematics in nineteen eighty",
+      "kind": "historical_biography_or_context",
+      "source_ids": [
+        "history-kato-obituary"
+      ],
+      "source_locator": "UC Berkeley memorial, award",
+      "audit_status": "source_cross_checked_2026_11_16"
+    }
+  ]
+}

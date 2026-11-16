@@ -30,6 +30,18 @@
     {
       "source_id": "history-davis-natalie-memorial",
       "reason": "University of Toronto Department of History: Natalie Zemon Davis — In Memoriam (2023)"
+    },
+    {
+      "source_id": "history-davis-natalie-2024",
+      "reason": "Natalie Zemon Davis on the family, passport seizure and pamphlet authorship"
+    },
+    {
+      "source_id": "history-davis-purge-firstperson",
+      "reason": "Chandler Davis first-person account of the subpoena"
+    },
+    {
+      "source_id": "history-davis-scifi-interview",
+      "reason": "Davis on his science fiction and editorial choices"
     }
   ],
   "historical_claims": [
@@ -115,44 +127,44 @@
       "audit_status": "source_passage_checked"
     },
     {
-      "id": "018000-h09",
-      "anchor": "James Arthur, later recalled taking his real and complex analysis course",
-      "kind": "historical_biography",
+      "id": "018000-new09",
+      "anchor": "The pamphlet Operation Mind was written by Natalie and Elizabeth Douvan",
+      "kind": "historical_biography_or_context",
       "source_ids": [
-        "history-davis-ams"
+        "history-davis-natalie-2024"
       ],
-      "source_locator": "AMS remembrance, quotation by James Arthur",
-      "audit_status": "source_passage_checked"
+      "source_locator": "Natalie Zemon Davis, Experiencing Exclusion, 2024",
+      "audit_status": "source_cross_checked_2026_11_16"
     },
     {
-      "id": "018000-h10",
-      "anchor": "he remained proud of challenging the committee under the First Amendment but regretted tactical decisions",
-      "kind": "historical_biography",
+      "id": "018000-new10",
+      "anchor": "Investigators served him a subpoena in nineteen fifty-three",
+      "kind": "historical_biography_or_context",
       "source_ids": [
-        "history-davis-mary-gray-interview"
+        "history-davis-purge-firstperson"
       ],
-      "source_locator": "Mary Gray interview, p. 3, regrets",
-      "audit_status": "source_passage_checked"
+      "source_locator": "Chandler Davis, The Purge, autumn 1953",
+      "audit_status": "source_cross_checked_2026_11_16"
     },
     {
-      "id": "018000-h11",
-      "anchor": "He also described his disillusionment with the Soviet leadership",
-      "kind": "historical_biography",
+      "id": "018000-new11",
+      "anchor": "he testified at a hearing in May nineteen fifty-four",
+      "kind": "historical_biography_or_context",
       "source_ids": [
-        "history-davis-mary-gray-interview"
+        "history-davis-um"
       ],
-      "source_locator": "Mary Gray interview, p. 3, political reassessment",
-      "audit_status": "source_passage_checked"
+      "source_locator": "Michigan Senate history and original hearing records",
+      "audit_status": "source_cross_checked_2026_11_16"
     },
     {
-      "id": "018000-h12",
-      "anchor": "served for more than twenty years as an editor of The Mathematical Intelligencer",
-      "kind": "historical_biography",
+      "id": "018000-new12",
+      "anchor": "In a late interview he discussed the way stories could criticize rigid gender roles",
+      "kind": "historical_biography_or_context",
       "source_ids": [
-        "history-davis-mary-gray-interview"
+        "history-davis-scifi-interview"
       ],
-      "source_locator": "Mary Gray interview, p. 5, editorship",
-      "audit_status": "source_passage_checked"
+      "source_locator": "2021 Strange Horizons interview",
+      "audit_status": "source_cross_checked_2026_11_16"
     }
   ]
 }

@@ -1,0 +1,125 @@
+# 016500 — Tosio Kato II: Berkeley, students, and the discipline of operators
+
+**Track:** History · People and ideas. **Theme:** Berkeley, students, botany, later research and operator domains. **Background:** familiarity with basic matrix eigenvalues; introductory functional analysis is helpful.
+
+<!-- BEGIN SPOKEN LECTURE -->
+
+Tosio Kato arrived in Berkeley in nineteen sixty-two as a mathematician trained in physics and already known for difficult results about quantum Hamiltonians. His career after that move was not merely an extended proof of one theorem. It included a large book, new generations of students, work on nonlinear differential equations, and friendships that colleagues later remembered through teaching and walks outdoors. This second part follows that life before returning to the technical machinery of unbounded operators.
+
+In nineteen sixty-six Kato published Perturbation Theory for Linear Operators. A research book can serve as an institution of its own: it gives readers a common language, supplies definitions and proofs in a usable order, and creates a basis for work by people who never met its author. Kato's book helped connect mathematicians concerned with Banach spaces and closed operators to physicists concerned with Hamiltonians. Its importance was cumulative. Many of the problems and methods had predecessors; what Kato provided was a systematic treatment with influence far beyond the group of researchers who had followed his early papers.
+
+Berkeley was a different setting from postwar Tokyo. Kato had entered a mathematics department, and his students went on to carry parts of his subject elsewhere. The university's memorial records three doctoral students in Tokyo and twenty-one at Berkeley. That number says something about his role as a teacher, though not everything. Students also learn from the pace of a seminar, a correction made after a discussion, and the choice of which question deserves attention. The recollections gathered after his death describe those less easily counted forms of influence.
+
+His interests did not freeze with the publication of the book. In later decades he worked extensively on evolution equations and nonlinear partial differential equations, including the Korteweg–de Vries equation. Such problems concern how a solution develops from its initial condition and what can be established about existence, uniqueness, and regularity. These were not simply appendices to his earlier quantum work. They show a mathematician continuing to change subjects late in an established career. The Norbert Wiener Prize in Applied Mathematics in nineteen eighty recognized the breadth and significance of his contributions.
+
+Kato carried this concern for domains into the way he advised younger mathematicians. Michael Taylor remembered asking him for guidance on a problem involving fractional powers of elliptic operators. Kato directed him toward interpolation theory and literature in other languages, and supported his later work. Arne Jensen remembered discussing a proof with Kato, then sometimes finding a further note in his mailbox the next morning. The students and visitors were asked to read new preprints, argue over details, and make a proof as clear as they could. The institutional setting was Berkeley, but the intellectual discipline grew out of Kato's earlier Tokyo work.
+
+Kato's intellectual life was not confined to operators. He was intensely private, and friends came to know parts of him during walks near Berkeley. Jensen recalled walking with him in Tilden Park and Strawberry Canyon, hearing him identify plants and trees by their scientific names. Kato admired the botanical classifications of Carl Linnaeus, tended plants at home, and made a visit to Linnaeus's garden in Sweden a priority during a mathematical trip. The drought of nineteen seventy-seven, Jensen remembered, was hard on Kato's plants. Here is a portrait of someone who took taxonomy and careful observation seriously in a setting far removed from the chalkboard. It would be too easy to claim that botany caused his systematic mathematical style. What we can say is that the same person had a sustained love of both subjects.
+
+The later years were difficult in ways his public mathematical reputation does not convey. Kato retired from Berkeley in nineteen eighty-eight but continued research. His wife Mizue became ill in nineteen ninety-six, and they eventually moved to a retirement home in Oakland. Heinz Cordes remembered that, after the move, Kato was able to work again. Gustavo Ponce recalled helping him clear books and papers from his Berkeley home in the spring of nineteen ninety-nine. It was a sad occasion, but Ponce found him still eager to talk about new mathematical questions. Kato died that October. This testimony comes from people who knew him, and it gives more substance to his late career than a closing list of awards.
+
+The technical sections that follow are best read as a record of the standards Kato brought to these diverse questions. A matrix is relatively easy to perturb because it acts on a fixed finite-dimensional space. A differential operator may act only on a carefully specified domain, and its resolvent may converge in several inequivalent senses. Physics supplies reasons to care about the operator; functional analysis supplies the language in which its behavior can be proved. We can now study that language without confusing the whole person with a single method.
+
+This is the point where the physicist's problem reappears. In quantum mechanics a differential expression can look persuasive on paper, but before it describes an observable we must know on which functions it acts and whether the resulting operator is self-adjoint. That is the issue Kato's difficult nineteen fifty-one paper helped settle for important classes of atomic Hamiltonians. He did not approach it merely as an exercise in abstract functional analysis. It was a question about whether the mathematical description of the physical system was well defined.
+
+The finite-dimensional story is only the entrance. A differential operator can be unbounded even though it acts linearly. For example, differentiation multiplies the high-frequency Fourier mode by its frequency. On square-integrable functions, those frequencies can grow without bound. Differentiation cannot be defined as a bounded map on all of the ambient Hilbert space. Its domain consists of functions with enough regularity for the derivative to exist in the required square-integrable sense. A spectral theorem for such an operator cannot ignore its domain. A perturbation that seems small when tested on one set of smooth functions may fail to be controlled on the actual operator domain.
+
+A closed operator has a graph that is a closed subspace of the product of its domain and codomain spaces, with the domain viewed inside the ambient Hilbert space. Its graph norm measures both a vector and the result of applying the operator. If the operator is A, the graph norm has the size of x and the size of A applied to x combined in quadrature. A sequence that converges in the ambient norm might not converge in graph norm. That distinction matters when applying an unbounded operator to a limit. Kato's treatment of operator perturbations uses the graph and resolvent frameworks to state the hypotheses under which such limits are legitimate.
+
+An example makes the difference clear. In the space of square-summable sequences, define A by multiplying the nth coordinate by n. Its domain consists of sequences whose n-weighted coordinates are still square summable. Let x be the sequence whose nth coordinate is one divided by n squared. This x belongs to the domain because the weighted sequence has entries one divided by n and is square summable. Truncate x after N coordinates. The truncated vectors converge to x in ordinary norm. Their images under A also converge, so this particular approximation converges in graph norm. By contrast, vectors supported at a single coordinate n, with amplitude one divided by n, converge to zero in ordinary norm, but their images under A have norm one. Ordinary convergence alone does not control what the unbounded operator does.
+
+Self-adjointness is another essential domain-aware condition. A symmetric operator satisfies an integration-by-parts symmetry relation on its domain. Self-adjointness also requires the adjoint to have exactly that domain. The distinction can determine whether a quantum Hamiltonian generates well-defined unitary time evolution. Different boundary conditions for a differential expression may produce different self-adjoint operators, even if they use the same formal derivative symbols. Calling the expression symmetric is therefore insufficient. Kato's early work on Schrödinger operators was important because singular physical potentials required precise self-adjointness results rather than formal manipulations that assumed the operator was already well defined.
+
+Kato's 1951 work on the self-adjointness of Schrödinger operators for atomic and molecular systems is an example of that achievement. The formal Hamiltonian combines a kinetic-energy operator with a potential that can become singular at the location of a nucleus. It is tempting to write the sum and proceed as if both terms were bounded matrices. They are not. A rigorous result must show that an appropriate domain produces a self-adjoint operator. Once this is established, the spectral theorem and unitary dynamics become available. The detailed hypotheses on potentials and domains are part of the result. The conceptual gain is that the mathematical model describes an actual operator, rather than an expression whose meaning was left implicit.
+
+One useful technique is relative boundedness. Suppose A is a well-understood closed operator and B is a perturbation. Instead of demanding that B be bounded on the whole Hilbert space, we may require that B applied to a vector in the domain of A is controlled by a constant times the norm of A applied to that vector, plus another constant times the norm of the vector itself. If the coefficient multiplying the A term is smaller than one, strong stability conclusions are possible for self-adjoint operators under the Kato–Rellich theorem's full assumptions. The smallness is relative to the unbounded base operator. This is a more realistic condition for differential equations than treating every perturbation as an everywhere-defined bounded matrix.
+
+There is a second route through quadratic forms. The energy of a self-adjoint positive operator can be described by a quadratic expression in a vector, often on a form domain larger than the operator domain. For the negative second derivative, a model energy is the integral of the squared magnitude of the first derivative. Functions with a square-integrable first derivative can have a finite energy even when their second derivative is not square integrable. A closed, semibounded quadratic form can determine a self-adjoint operator through a representation theorem. Perturbing the form can therefore be easier and more stable than perturbing the operator's graph directly. Kato's book develops this framework because it captures the natural variational language of physical systems.
+
+To see how the mathematical issues connect, imagine following the ground state of a family of Hamiltonians while changing a coupling parameter. We need a self-adjoint operator at each parameter value. We need to know what kind of convergence the operators satisfy as the parameter changes. We need a spectral gap isolating the ground-state eigenvalue if we want to track its projection alone. And we need an estimate for how much the resolvent, and hence the spectral projection, changes. A bare inequality between two formal differential expressions supplies none of those conclusions automatically. The full operator-theoretic setting makes the spectral question answerable.
+
+A useful distinction is norm resolvent convergence versus strong resolvent convergence. In norm resolvent convergence, the resolvents approach one another uniformly in operator norm at an appropriate spectral parameter. Strong resolvent convergence requires convergence after applying the resolvents to each fixed vector. Strong convergence is weaker: it gives pointwise control on vectors but may fail to control the worst unit vector uniformly. In a sequence space, finite-rank coordinate projections converge strongly to the identity because every fixed square-summable vector has a small tail. Yet the operator norm of the difference remains one for every finite cutoff, because a vector can live entirely beyond that cutoff. This basic example explains why different convergence notions cannot be substituted freely in a spectral perturbation argument.
+
+Kato's work also includes evolution equations and regularity questions that extend far beyond isolated eigenvalues. He contributed to the analysis of nonlinear partial differential equations and smoothing phenomena. Those subjects belong to the same broad program of understanding operators through domains, estimates, and limiting arguments, although they require mathematical machinery beyond a single lecture on spectral projections. The point is historical as well as technical: the book for which Kato is often remembered was part of a research career linking mathematical physics, functional analysis, and differential equations.
+
+There is a useful relation between Kato's spectral language and Davis–Kahan angle bounds. A contour formula tells us how to define an isolated spectral projection and study its dependence on an operator. An angle estimate tells us how far its range may move under a perturbation. They address compatible questions at different levels of specialization. The resolvent method is flexible and works in many settings where explicit eigenvectors are unavailable. Sharp subspace-angle inequalities can exploit self-adjoint structure and specific spectral-gap arrangements to yield stronger geometric constants. Neither viewpoint should be confused with a general claim about minimizing every ambient orthogonal transport cost.
+
+A small matrix example helps distinguish two phenomena. Start with the diagonal matrix whose entries are negative one and positive one. Rotate it by a parameter-dependent orthogonal matrix. The eigenvalues remain exactly negative one and positive one, while the eigenvectors rotate. This family has moving rank-one spectral projections but fixed spectrum. In a second family, add a scalar multiple of the identity that varies with the parameter. Now the eigenvalues move while the eigendirections stay fixed. A general perturbation can combine both behaviors. It is therefore a mistake to treat an eigenvalue bound as an eigenvector bound. The spectral projection formulation keeps the two questions separate and makes it possible to estimate both with appropriate tools.
+
+There is a further distinction between following eigenvalues continuously and choosing an eigenvector continuously with a prescribed normalization. A one-dimensional eigenspace determines a line, but a real unit eigenvector on that line has two choices of sign. Along a parameter path, signs can be chosen locally in a continuous way when the eigenvalue is simple, but a globally consistent sign choice can encounter topological issues on a closed parameter loop. For a multidimensional cluster, any orthonormal basis can be rotated internally. The spectral projection contains none of this gauge freedom. When the application truly requires a continuously varying basis, additional transport or connection constructions are needed. Kato's geometric operator methods offer tools to study such choices; they do not make every gauge ambiguity disappear.
+
+Consider a family of unbounded diagonal operators to see why the domain is part of the story. On square-summable sequences, let A multiply the nth coordinate by n. Now add a bounded diagonal perturbation B whose nth entry is one divided by n. The domain of A plus B is the same weighted square-summability domain as that of A, and the perturbation is uniformly bounded. The altered eigenvalues differ from the original ones by at most one. This is a straightforward setting for domain-aware perturbation estimates. But if we instead add a diagonal term that grows like n squared, the natural operator domain can shrink. It is no longer legitimate to call this a small bounded perturbation merely because some low-frequency coordinates hardly move. High-frequency behavior controls the operator's domain and may change its spectral properties.
+
+Relative boundedness gives a way to treat some unbounded perturbations. Imagine that the perturbing operator B acts on every vector in the domain of A, and that its norm can be bounded by a times the norm of A applied to the vector plus b times the norm of the vector. The number a measures how strongly the perturbation follows the unbounded growth of A. The threshold a less than one matters: it allows the A term to absorb B in estimates that prove closedness and, for the self-adjoint version under the Kato–Rellich conditions, self-adjointness of the sum. If a reaches or exceeds one, the same argument cannot simply be repeated. The theorem does not say every physically plausible perturbation is relatively bounded with a suitable coefficient; checking the inequality is a genuine part of an application.
+
+Quadratic forms let us approach differential operators from the energy side. Consider functions that vanish at the ends of an interval. The energy associated with the negative second derivative is the integral of the squared first derivative. The natural form domain consists of functions with a square-integrable weak first derivative and the specified boundary trace, not necessarily functions possessing a square-integrable second derivative. Minimizing this energy under a normalization can yield eigenvalue information through the Rayleigh quotient. Closedness of the form supplies the analytic control needed to pass to limits of approximating functions. The operator determined by the form has an additional domain condition; it is not simply the full form domain. This distinction is essential when one tries to perturb a potential term while retaining the same physical boundary conditions.
+
+An additional failure mode concerns the phrase 'nearby operators have nearby spectra.' Even for bounded operators, an arbitrarily small perturbation cannot always be expected to preserve an isolated label if the spectral gap also shrinks. For unbounded operators, a type of convergence too weak to control the relevant spectral projections can allow spectral pollution or loss of eigenvalues in approximations. For example, a sequence of finite-dimensional truncations may approximate an operator strongly on many vectors while introducing spurious approximate spectral points in a gap. The remedy is not a universal assertion that more truncation is enough. One chooses a convergence concept and an approximation scheme whose hypotheses guarantee the desired spectral conclusion.
+
+The distinction between strong and norm convergence can be tested with a diagonal sequence of projections. Let P sub N keep the first N coordinates of ell two. For every fixed square-summable vector, P sub N applied to the vector converges to the vector, because the tail norm tends to zero. Yet each difference from the identity has operator norm one: choose a unit vector supported beyond N. If we used strong convergence to infer uniform control on all unit vectors, this would be a counterexample. The lesson carries directly to resolvents and spectral projections. Pointwise statements about a fixed input vector cannot silently be turned into a worst-case bound on an infinite-dimensional unit ball.
+
+Kato's work sits at the meeting point of mathematical physics and abstract analysis. His self-adjointness results make physically motivated Hamiltonians into rigorous operators. His perturbation monograph explains how resolvents, spectral projections, and analytic families behave under changing data. His later differential-equation research addresses existence and regularity over time. These are separate research programs with related technical habits: begin by specifying the space and domain, identify the precise convergence or boundedness property available, and then prove the consequences appropriate to it. This methodological unity is more informative than treating the name Kato as if it denoted one isolated formula.
+
+Even the finite-dimensional contour construction carries a computational warning. The formula identifies a spectral projection mathematically, but numerically integrating resolvents near a poorly conditioned spectrum may amplify errors. One must choose a contour, evaluate inverses reliably, and account for quadrature error. A contour far from all spectral points may improve conditioning but enclose unwanted eigenvalues; a very tight contour may isolate the desired cluster while making resolvent norms large. This is a genuine design tradeoff. Kato's theory tells us what the exact object is and when it varies continuously. Turning that definition into a stable algorithm requires further numerical analysis, including estimates for approximation and rounding error.
+
+Return to the simple diagonal matrix with an isolated pair of eigenvalues. At the beginning we could track its two-dimensional spectral plane even though its internal eigenvectors might move. The contour projection gave a basis-independent way to specify that plane. The resolvent identity explained its stability while the contour stayed away from the spectrum. Passing to differential operators showed why closedness, self-adjointness, and domains must enter before we can make the same arguments in infinite dimension. Tosio Kato's contribution is the framework that connects these layers. His students' accounts add a human perspective: a private man who could compress a great deal into a measured lecture, who continued a discussion with a written note the next morning, who walked among trees and knew their names, and who returned to difficult mathematical questions through the disruptions of war, illness, and family life. The central lesson is to choose the spectral object carefully, identify the topology in which operators change, and state the domain and separation conditions under which spectral data really can be followed.
+
+<!-- END SPOKEN LECTURE -->
+
+---
+
+## Mathematical and historical companion (display only)
+
+### Riesz projections and resolvent identity
+
+For a closed operator `A` with nonempty resolvent and an isolated spectral
+component enclosed by a positively oriented contour `\Gamma` in the
+resolvent set,
+
+\[
+P_\Gamma(A)=\frac{1}{2\pi i}\oint_\Gamma (zI-A)^{-1}\,dz.
+\]
+
+For bounded `A,B` (or a compatible perturbation on a common resolvent domain),
+write `R_A(z)=(zI-A)^{-1}` and check
+
+\[
+R_B(z)-R_A(z)=R_B(z)(B-A)R_A(z).
+\]
+
+For `A=diag(1,5)`, a circle enclosing `1` but not `5` yields
+`P_\Gamma(A)=diag(1,0)`. A contour uniformly separated from the relevant
+spectrum gives a stable projection under appropriately small perturbations.
+
+### Domains and graph norms
+
+The diagonal operator `A(x_n)=(n x_n)` on
+`D(A)={x:(nx_n)\in\ell^2}` is closed and unbounded. The graph norm is
+
+\[
+\|x\|_{D(A)}=\big(\|x\|^2+\|Ax\|^2\big)^{1/2}.
+\]
+
+The sequence `x^{(n)}=e_n/n` tends to zero in the ambient `\ell^2` norm,
+but `\|Ax^{(n)}\|=1`. Hence ambient norm convergence is insufficient for
+applying an unbounded operator to a limit.
+
+The Kato–Rellich theorem requires the actual self-adjointness and relative
+boundedness hypotheses, including relative bound strictly below one. It is
+not a theorem about arbitrary perturbations of an unbounded formal expression.
+
+### Historical notes
+
+Kato studied physics in Tokyo, received his doctorate in 1951, joined UC
+Berkeley in 1962, and published *Perturbation Theory for Linear Operators* in
+1966 (second edition 1976). His 1951 work on Schrödinger operators was a
+major contribution to rigorous mathematical quantum mechanics.
+
+## Reading notes (non-spoken)
+The linked biography or contributor record identifies the person; the mathematical source documents a related publication or mathematical construction. The accessible topic article supplies background. Publication and personal history are distinguished from later eponymous terminology.
+### Historical reading for the second installment
+
+- [UC Berkeley, Tosio Kato](https://math.berkeley.edu/people/past-department-members/past-senate-faculty/tosio-kato) — appointment and memorial links
+- [MacTutor, Tosio Kato](https://mathshistory.st-andrews.ac.uk/Biographies/Kato/) — detailed memorial recollections and international career
+- [University of California, Tosio Kato memorial](https://mathshistory.st-andrews.ac.uk/Obituaries/Kato_UC/) — work, students, dates and family
+- [Wikipedia: Tosio Kato](https://en.wikipedia.org/wiki/Tosio_Kato) — orientation

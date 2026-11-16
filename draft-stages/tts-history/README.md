@@ -110,4 +110,12 @@ These four manuscripts were authored as a separate History expansion following t
 
 The source registry and claim metadata for these lectures are local to this track. No new binary media, shared reader edits, or changes to any of the four independent agents' owned namespaces are included.
 
+## Biography-first revisions: Weyl, Kato and Davis (16 November 2026)
 
+The existing manuscripts have been restructured and expanded into two-part biographies. The original lecture IDs remain assigned to the opening parts, and later parts use the immediately available half-thousand IDs. Technical derivations have been retained and arranged after the historical narrative in each part; the display-only mathematical companions accompany the later installments.
+
+- **005000/005500 Hermann Weyl:** Göttingen, Zürich and intellectual communities; the destruction of Göttingen, family emigration, the Institute for Advanced Study and his later life. Spectral inequalities, Weyl's law, equidistribution, gauge theory and essential spectrum remain in the narrations.
+- **016000/016500 Tosio Kato:** wartime Japan, tuberculosis, postwar Tokyo teaching, international networks, Berkeley, students and family; spectral projections, self-adjointness, quadratic forms and convergence remain.
+- **018000/018500 Chandler Davis:** early political and literary life, Natalie Zemon Davis and *Operation Mind*, HUAC, prison, Canada, professional teaching and academic freedom; principal angles, Davis–Kahan estimates and the transporter norm questions remain. The distinction between the 1953 subpoena and 1954 hearing is explicit.
+
+Primary-person testimony, institutional records and scholarly memorials are linked in the transcripts and indexed in `metadata/sources.json`. No images or other binary assets were added.
