@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "lecture_id": "017000",
+  "transcript": "017000-fixture-supply-stops-and-flow-restriction-diagnostics.md",
+  "related_resources": [
+    {
+      "source_id": "pnnl-service-pressure",
+      "reason": "Static supply pressure, PRV mechanism and closed-system expansion"
+    },
+    {
+      "source_id": "moen-low-flow-both",
+      "reason": "Manufacturer explanation of aerator/cartridge/diverter debris and model-specific flow diagnosis"
+    },
+    {
+      "source_id": "moen-low-flow-one-side",
+      "reason": "Fixture supply-stop and supply-line checks when hot and cold behavior differs"
+    },
+    {
+      "source_id": "moen-fixture-handle-leak",
+      "reason": "Distinguishes handle leaks and cartridges for particular Moen products"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P017000-01",
+      "claim": "Adequate static supply pressure can coexist with low fixture flow due to local flow resistance.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "pnnl-service-pressure",
+          "location": "Static supply pressure, PRV mechanism and closed-system expansion",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "moen-low-flow-both",
+          "location": "Manufacturer explanation of aerator/cartridge/diverter debris and model-specific flow diagnosis",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P017000-02",
+      "claim": "Blocked aerators or faucet cartridges can restrict hot and cold flow in model-dependent patterns.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "moen-low-flow-both",
+          "location": "Manufacturer explanation of aerator/cartridge/diverter debris and model-specific flow diagnosis",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P017000-03",
+      "claim": "A restriction in one fixture supply stop or feed can affect hot and cold delivery differently.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "moen-low-flow-one-side",
+          "location": "Fixture supply-stop and supply-line checks when hot and cold behavior differs",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P017000-04",
+      "claim": "Fixture isolation and leak inspection after service are separate from diagnosing the original flow restriction.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "moen-fixture-handle-leak",
+          "location": "Distinguishes handle leaks and cartridges for particular Moen products",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "pnnl-service-pressure",
+          "location": "Static supply pressure, PRV mechanism and closed-system expansion",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_technical_review_pending",
+  "citation_policy": "Original authors and standards issuers attributed; synthesis distinguished from source-backed claims. Not certified for professional, clinical or jurisdiction-specific use."
+}

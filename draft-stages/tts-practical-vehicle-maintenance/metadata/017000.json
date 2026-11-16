@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "lecture_id": "017000",
+  "transcript": "017000-diagnostic-test-plans-before-parts-replacement.md",
+  "related_resources": [
+    {
+      "source_id": "sae-dtc-j2012-2025",
+      "reason": "Standardized DTC definitions; standards page abstract, full text may require purchase"
+    },
+    {
+      "source_id": "epa-obd-procedures",
+      "reason": "Malfunction indicator, trouble code and freeze-frame evidence; jurisdiction-specific inspection criteria"
+    },
+    {
+      "source_id": "nhtsa-maintain-vehicle",
+      "reason": "Vehicle service records, tire/fluids/light checks and owner manual priority"
+    },
+    {
+      "source_id": "openstax-ohms-law",
+      "reason": "Voltage drop I × R, resistive heating and limitations of linear Ohm model"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P017000-01",
+      "claim": "A diagnostic trouble code identifies a detected condition, not automatically the defective component.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "sae-dtc-j2012-2025",
+          "location": "Standardized DTC definitions; standards page abstract, full text may require purchase",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "epa-obd-procedures",
+          "location": "Malfunction indicator, trouble code and freeze-frame evidence; jurisdiction-specific inspection criteria",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P017000-02",
+      "claim": "Clearing codes can alter monitor-readiness evidence and complicate emissions inspection.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "epa-obd-procedures",
+          "location": "Malfunction indicator, trouble code and freeze-frame evidence; jurisdiction-specific inspection criteria",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P017000-03",
+      "claim": "Voltage drop under load can reveal resistive problems missed by open-circuit electrical measurements.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "openstax-ohms-law",
+          "location": "Voltage drop I × R, resistive heating and limitations of linear Ohm model",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P017000-04",
+      "claim": "Maintenance observations and service history improve discrimination among competing mechanical causes.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "nhtsa-maintain-vehicle",
+          "location": "Vehicle service records, tire/fluids/light checks and owner manual priority",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_technical_review_pending",
+  "citation_policy": "Original authors and standards issuers attributed; synthesis distinguished from source-backed claims. Not certified for professional, clinical or jurisdiction-specific use."
+}

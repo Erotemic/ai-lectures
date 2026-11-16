@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "lecture_id": "017000",
+  "transcript": "017000-heat-pump-cycling-recovery-and-electrical-demand.md",
+  "related_resources": [
+    {
+      "source_id": "doe-heatpumps",
+      "reason": "Heat transfer rather than direct heat generation"
+    },
+    {
+      "source_id": "energystar-ashp",
+      "reason": "Heating and cooling by reversing heat-transfer direction"
+    },
+    {
+      "source_id": "doe-heatpump-thermostat",
+      "reason": "Heat pump control, auxiliary resistance heat, and thermostat recovery behavior"
+    },
+    {
+      "source_id": "nrel-winkler-ramaraj-defrost",
+      "reason": "Sections 4.1.6 and 5.6: reverse-cycle defrost, coil frost and energy impact; installation-dependent evidence"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P017000-01",
+      "claim": "Heat pumps transfer environmental heat and performance varies with operating conditions.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "doe-heatpumps",
+          "location": "Heat transfer rather than direct heat generation",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "energystar-ashp",
+          "location": "Heating and cooling by reversing heat-transfer direction",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P017000-02",
+      "claim": "Variable-speed operation and short cycling require distinct interpretations of runtime and control state.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "energystar-ashp",
+          "location": "Heating and cooling by reversing heat-transfer direction",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "doe-heatpump-thermostat",
+          "location": "Heat pump control, auxiliary resistance heat, and thermostat recovery behavior",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P017000-03",
+      "claim": "Resistance auxiliary heat can create substantial electric demand during setpoint recovery.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "doe-heatpump-thermostat",
+          "location": "Heat pump control, auxiliary resistance heat, and thermostat recovery behavior",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "doe-heatpumps",
+          "location": "Heat transfer rather than direct heat generation",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P017000-04",
+      "claim": "Cold-climate heat pumps may perform intentional outdoor coil defrost operations that temporarily change measured system behavior.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "nrel-winkler-ramaraj-defrost",
+          "location": "Sections 4.1.6 and 5.6: reverse-cycle defrost, coil frost and energy impact; installation-dependent evidence",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_technical_review_pending",
+  "citation_policy": "Original authors and standards issuers attributed; synthesis distinguished from source-backed claims. Not certified for professional, clinical or jurisdiction-specific use."
+}

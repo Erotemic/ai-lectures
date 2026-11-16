@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "lecture_id": "017000",
+  "transcript": "017000-owner-walkthroughs-and-post-completion-documentation.md",
+  "related_resources": [
+    {
+      "source_id": "ftc-improvement",
+      "reason": "Written estimates, contracts, licenses and payment caution"
+    },
+    {
+      "source_id": "aba-contract",
+      "reason": "Scope, materials, change orders, responsibility and payment terms"
+    },
+    {
+      "source_id": "aia-lima-submittals",
+      "reason": "AIA A201 distinction between submittals and contract documents; contract dependent"
+    },
+    {
+      "source_id": "nyag-hiring-contractors",
+      "reason": "Local license checks, insurance, permits/inspections and written scope; NY guidance only"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P017000-01",
+      "claim": "Written scope, change orders and agreed contract terms provide a basis for evaluating completed work.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "ftc-improvement",
+          "location": "Written estimates, contracts, licenses and payment caution",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "aba-contract",
+          "location": "Scope, materials, change orders, responsibility and payment terms",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P017000-02",
+      "claim": "Submittals, approvals, and final work records serve distinct functions in construction documentation.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "aia-lima-submittals",
+          "location": "AIA A201 distinction between submittals and contract documents; contract dependent",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P017000-03",
+      "claim": "Contractor and consumer rights around final payment, warranties and dispute resolution depend on jurisdiction and contract.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "aba-contract",
+          "location": "Scope, materials, change orders, responsibility and payment terms",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nyag-hiring-contractors",
+          "location": "Local license checks, insurance, permits/inspections and written scope; NY guidance only",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Specific assembly, equipment, adopted standards and exceptions govern practical application.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P017000-04",
+      "claim": "Location-specific punch-list evidence and verification criteria support clearer correction and handover.",
+      "kind": "derived_explanatory_synthesis",
+      "supports": [
+        {
+          "source_id": "ftc-improvement",
+          "location": "Written estimates, contracts, licenses and payment caution",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "aba-contract",
+          "location": "Scope, materials, change orders, responsibility and payment terms",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Educational synthesis based on sources; no reference independently verifies every inference.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_technical_review_pending",
+  "citation_policy": "Original authors and standards issuers attributed; synthesis distinguished from source-backed claims. Not certified for professional, clinical or jurisdiction-specific use."
+}
