@@ -1,6 +1,6 @@
 # 20th-Century Literature: Story, Then Analysis
 
-The track currently covers **forty literary works** (several receive extended multi-lecture treatment). For each work, complete plot narration precedes criticism: usually one continuous story lecture, with extended multi-volume treatment where the work itself warrants it. The story account introduces the people, setting, main events, and ending; it does not require that the listener has read the book. The analysis can then explore form, historical context, and competing critical readings without explaining the plot again.
+The track currently covers **forty-seven literary works** (several receive extended multi-lecture treatment). For each work, complete plot narration precedes criticism: usually one continuous story lecture, with extended multi-volume treatment where the work itself warrants it. The story account introduces the people, setting, main events, and ending; it does not require that the listener has read the book. The analysis can then explore form, historical context, and competing critical readings without explaining the plot again.
 
 ## Scope and the latest expansion
 
@@ -194,3 +194,18 @@ The spoken manuscripts distinguish public history from Saleem's fantasy and self
 The **nine-lecture section** begins with two complete plot lectures covering the funeral, Marie and Raymond, the beach killing, imprisonment, trial, and ending; seven analyses then address narration and omission, courtroom moral reasoning, colonial Algeria and the victim's lack of a name, Camus's philosophy, emotion and responsibility, translation and reception, and close-reading practices. The lectures distinguish the killing from philosophical interpretations offered in its aftermath and do not insert a depicted execution into the story.
 
 The dossier `notes/camus-the-stranger-049100-049900.md` records publication and translation witnesses and limitations. Kamel Daoud's *The Meursault Investigation* is introduced as a later response, not as a source for a name in the original Camus novel. All citations are recorded in `metadata/sources.json` and the nine new metadata sidecars; authoring is original explanatory prose rather than a recording of the novel. The catalog now holds **45 works and 197 lectures**. No fixed length quota, binary media, audio, or runtime code was added.
+
+
+## Vladimir Nabokov, *Lolita*: narrative authority and the limits of confession (050100–051100)
+
+Three consecutive, spoiler-complete original story lectures trace the Ramsdale household, the first and second road trips, the disappearance at Elphinstone, the meeting with Dolores Schiller, the murder of Clare Quilty, and the fictional editorial frame. Eight critical lectures examine John Ray's invented foreword, Humbert's rhetorical evasions, Dolores's constrained voice, the American commercial landscape, detective devices, Charlotte Haze's role, literary beauty and moral judgment, and publication/reception. The book is selected for its documented importance to narrative technique and modern literary argument, **not** as an endorsement of Humbert's self-description.
+
+The distinction between the historical writer Nabokov and the fictional narrator or editor is preserved throughout. Child abuse is identified accurately without sexualizing children in narration. Facts reported about Dolores are mediated through Humbert; critique does not invent missing testimony. The copyrighted primary novel was **not systematically collated** against a complete specified edition in this pass; bibliographic facts were checked against Cornell and the Nabokov Society, with plot cross-checks against a named secondary guide. Sources and editorial limits: `notes/nabokov-lolita-050100-051100.md` and eleven claim-level sidecars.
+
+## Ernest Hemingway, *The Sun Also Rises*: narration and postwar experience (051300–052200)
+
+Three original story lectures cover the Paris circle, the fishing excursion to Burguete, the fiesta and violence at Pamplona, and the final return to Brett in Madrid. Seven studies then address omission and rhythm, Jake Barnes's selective narration and antisemitism directed toward Robert Cohn, Brett Ashley and gender, bullfighting as craft and ethical practice, the postwar social economy, dialogue/close-reading, and publication and influence. The story is complete before analysis. The first American publication was by Scribner's in 1926; the British edition bore the title *Fiesta*.
+
+The source trail includes the original novel's accessible transcription, an independent plot guide, the Morgan and University of Utah edition records, and Library of America editorial commentary. Exact wording and pagination require a named edition for quotation. Sources and limitations: `notes/hemingway-sun-also-rises-051300-052200.md` and ten claim-level metadata sidecars. No fixed lecture length, binary illustrations, shared runtime modifications, or TTS synthesis are included.
+
+The track now contains **47 works and 218 registered lectures**.

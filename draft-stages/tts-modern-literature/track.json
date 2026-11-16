@@ -1,7 +1,7 @@
 {
   "id": "modern-literature",
   "title": "20th-Century Literature · Novels, voices, and the human condition",
-  "summary": "Story-first and form-sensitive literary history of forty-five major twentieth-century works, including extended landmark sections on Joyce, Proust, Faulkner, Woolf, Borges, Beckett, Eliot, Rushdie and Camus.",
+  "summary": "Story-first and form-sensitive literary history of forty-seven major twentieth-century works, including landmark sections on Joyce, Proust, Faulkner, Woolf, Borges, Beckett, Eliot, Rushdie, Camus, Nabokov and Hemingway.",
   "assumed_background": [
     "No prior reading is required for the story-first lectures, including the Lord of the Rings orientation and complete three-volume narrative.",
     "Analysis lectures assume the preceding complete story orientation or knowledge of the work; specialized Tolkien essays follow the full retelling.",
@@ -13,7 +13,9 @@
     "The two Waiting for Godot story lectures contain both acts with spoilers; the following nine analyses assume this orientation or a reading/performance of the play. The play is treated as theatre, not as a novel with a hidden plot resolution.",
     "The Waste Land is a five-part poem, not a single plot: its first six lectures orient listeners to the entire work without assuming prior reading, followed by nine analyses that assume the orientation or access to the poem.",
     "Midnight’s Children has four consecutive, spoiler-complete story lectures from its family prehistory through the 1977 ending. Eight analytic lectures require those or independent knowledge of the novel; historical dates are separated from Saleem’s unreliable claims.",
-    "The Stranger has two spoiler-complete narrative lectures covering both parts, followed by seven analyses on form, justice, colonial context, the absurd, translation, reception and close-reading. No prior knowledge of Camus is required for story orientation."
+    "The Stranger has two spoiler-complete narrative lectures covering both parts, followed by seven analyses on form, justice, colonial context, the absurd, translation, reception and close-reading. No prior knowledge of Camus is required for story orientation.",
+    "Nabokov’s Lolita has three complete story narrations first, then eight critical lectures. Humbert is a criminal narrator: his characterization of Dolores Haze is not independently authoritative, and John Ray’s foreword is a fictional paratext.",
+    "Hemingway’s The Sun Also Rises has three sequential story narrations, followed by seven studies of prose technique, narration, gender, bullfighting, war, history and close reading. The narrator’s account of Robert Cohn requires attention to antisemitism and bias."
   ],
   "sections": [
     "novels-and-their-worlds",
@@ -25,7 +27,9 @@
     "beckett-waiting-for-godot-drama-and-absence",
     "eliot-the-waste-land-modernist-poetry",
     "rushdie-midnights-children-nation-and-narration",
-    "camus-the-stranger-absurd-and-colonial-justice"
+    "camus-the-stranger-absurd-and-colonial-justice",
+    "nabokov-lolita-narrative-authority-and-abuse",
+    "hemingway-the-sun-also-rises-form-and-afterwar"
   ],
   "lectures": [
     {
@@ -1800,6 +1804,195 @@
       "spoken_words": 877,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 6.0
+    },
+    {
+      "id": "050100",
+      "title": "Lolita — Story I: Ramsdale and the Enchanted Hunters",
+      "section": "nabokov-lolita-narrative-authority-and-abuse",
+      "file": "050100-lolita-story-ramsdale-and-enchanted-hunters.md",
+      "spoken_words": 924,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.4
+    },
+    {
+      "id": "050200",
+      "title": "Lolita — Story II: Roads, Schools, and an Escape",
+      "section": "nabokov-lolita-narrative-authority-and-abuse",
+      "file": "050200-lolita-story-roads-and-beardsley.md",
+      "spoken_words": 925,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.4
+    },
+    {
+      "id": "050300",
+      "title": "Lolita — Story III: Dolores Schiller and Humbert’s End",
+      "section": "nabokov-lolita-narrative-authority-and-abuse",
+      "file": "050300-lolita-story-reunion-and-quilty.md",
+      "spoken_words": 925,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.4
+    },
+    {
+      "id": "050400",
+      "title": "Lolita: The Fictional Editor and a Trial Before the Story",
+      "section": "nabokov-lolita-narrative-authority-and-abuse",
+      "file": "050400-lolita-analysis-editor-and-frame.md",
+      "spoken_words": 829,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.7
+    },
+    {
+      "id": "050500",
+      "title": "Lolita: How Humbert Turns Harm into Style",
+      "section": "nabokov-lolita-narrative-authority-and-abuse",
+      "file": "050500-lolita-analysis-rhetoric-and-evasion.md",
+      "spoken_words": 884,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.1
+    },
+    {
+      "id": "050600",
+      "title": "Lolita: Recovering Dolores Without Inventing Her Voice",
+      "section": "nabokov-lolita-narrative-authority-and-abuse",
+      "file": "050600-lolita-analysis-dolores-and-missing-voice.md",
+      "spoken_words": 865,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.0
+    },
+    {
+      "id": "050700",
+      "title": "Lolita: Hotels, Highways, and an America Seen Through Glass",
+      "section": "nabokov-lolita-narrative-authority-and-abuse",
+      "file": "050700-lolita-analysis-roadside-america.md",
+      "spoken_words": 795,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.5
+    },
+    {
+      "id": "050800",
+      "title": "Lolita: Clare Quilty, Clues, and the Temptation of a Detective Plot",
+      "section": "nabokov-lolita-narrative-authority-and-abuse",
+      "file": "050800-lolita-analysis-quilty-and-doubles.md",
+      "spoken_words": 863,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.0
+    },
+    {
+      "id": "050900",
+      "title": "Lolita: Charlotte Haze, Respectability, and the Adults Who Fail",
+      "section": "nabokov-lolita-narrative-authority-and-abuse",
+      "file": "050900-lolita-analysis-charlotte-gender-and-institutions.md",
+      "spoken_words": 836,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.8
+    },
+    {
+      "id": "051000",
+      "title": "Lolita: Artistic Brilliance and the Reader’s Ethical Work",
+      "section": "nabokov-lolita-narrative-authority-and-abuse",
+      "file": "051000-lolita-analysis-art-and-ethical-reading.md",
+      "spoken_words": 842,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.8
+    },
+    {
+      "id": "051100",
+      "title": "Lolita: Publication, Censorship, and an Unsettled Legacy",
+      "section": "nabokov-lolita-narrative-authority-and-abuse",
+      "file": "051100-lolita-analysis-publication-and-influence.md",
+      "spoken_words": 894,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.2
+    },
+    {
+      "id": "051300",
+      "title": "The Sun Also Rises — Story I: Paris and an Unspoken Wound",
+      "section": "hemingway-the-sun-also-rises-form-and-afterwar",
+      "file": "051300-sun-also-rises-story-paris.md",
+      "spoken_words": 897,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.2
+    },
+    {
+      "id": "051400",
+      "title": "The Sun Also Rises — Story II: Fishing and the Road to Pamplona",
+      "section": "hemingway-the-sun-also-rises-form-and-afterwar",
+      "file": "051400-sun-also-rises-story-burguete.md",
+      "spoken_words": 852,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.9
+    },
+    {
+      "id": "051500",
+      "title": "The Sun Also Rises — Story III: Fiesta, Violence, and Madrid",
+      "section": "hemingway-the-sun-also-rises-form-and-afterwar",
+      "file": "051500-sun-also-rises-story-pamplona-and-madrid.md",
+      "spoken_words": 886,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.1
+    },
+    {
+      "id": "051600",
+      "title": "The Sun Also Rises: Omission and the Pressure Beneath a Sentence",
+      "section": "hemingway-the-sun-also-rises-form-and-afterwar",
+      "file": "051600-sun-also-rises-analysis-omission-and-style.md",
+      "spoken_words": 817,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.6
+    },
+    {
+      "id": "051700",
+      "title": "The Sun Also Rises: Jake Barnes, Robert Cohn, and Prejudice",
+      "section": "hemingway-the-sun-also-rises-form-and-afterwar",
+      "file": "051700-sun-also-rises-analysis-jake-cohn-and-prejudice.md",
+      "spoken_words": 794,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.5
+    },
+    {
+      "id": "051800",
+      "title": "The Sun Also Rises: Brett Ashley, Desire, and Others’ Stories",
+      "section": "hemingway-the-sun-also-rises-form-and-afterwar",
+      "file": "051800-sun-also-rises-analysis-brett-and-gender.md",
+      "spoken_words": 828,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.7
+    },
+    {
+      "id": "051900",
+      "title": "The Sun Also Rises: Bullfighting, Craft, and Watching",
+      "section": "hemingway-the-sun-also-rises-form-and-afterwar",
+      "file": "051900-sun-also-rises-analysis-bullfighting-and-craft.md",
+      "spoken_words": 796,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.5
+    },
+    {
+      "id": "052000",
+      "title": "The Sun Also Rises: War, Work, Money, and Escape",
+      "section": "hemingway-the-sun-also-rises-form-and-afterwar",
+      "file": "052000-sun-also-rises-analysis-war-work-and-money.md",
+      "spoken_words": 844,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.8
+    },
+    {
+      "id": "052100",
+      "title": "The Sun Also Rises: Dialogue and Close-Reading Workshop",
+      "section": "hemingway-the-sun-also-rises-form-and-afterwar",
+      "file": "052100-sun-also-rises-analysis-dialogue-and-close-reading.md",
+      "spoken_words": 918,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.3
+    },
+    {
+      "id": "052200",
+      "title": "The Sun Also Rises: The Lost Generation and Literary Influence",
+      "section": "hemingway-the-sun-also-rises-form-and-afterwar",
+      "file": "052200-sun-also-rises-analysis-publication-and-influence.md",
+      "spoken_words": 845,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.8
     }
   ]
 }
