@@ -82,6 +82,12 @@ This is an independent, source-grounded, audio-first world-history curriculum fo
 | 036950 | A Seed, a Bone, and a Village: Farming in the Zambian Interior | 1,212 |
 | 036960 | Red Metal, Many Routes: Copper and Exchange in Central Africa | 1,211 |
 | 036970 | Burials beside the Lualaba: Work, Wealth, and the Upemba Wetlands | 1,317 |
+| 036980 | When the Copper Crosses Changed: Upemba and the Kabambian Centuries | 972 |
+| 036982 | A Pot before the Ironworker: Luani, Nkar, and the Kwilu-Kasai Interior | 978 |
+| 036984 | The Centuries with Few Dates: Settlement Gaps in the Congo Basin | 976 |
+| 036986 | A King in the Story: Luba Origins, Authority, and Historical Evidence | 931 |
+| 036988 | A History in the Hand: Luba Lukasa and the Work of Remembering | 993 |
+| 036990 | A Marriage Told Many Ways: Luba, Lunda, and Political Histories | 997 |
 | 037000 | Fields, Lords, and Market Streets: Medieval European Societies | 1,344 |
 | 037100 | A Charter under Pressure: Magna Carta and the Claims of Law | 1,300 |
 | 038000 | Rivers to the Sea: Scandinavians, Rus, and the North Atlantic | 1,307 |
@@ -212,3 +218,7 @@ All 70 new spoken paragraphs map to scholarly source records with locally releva
 ## Fourteenth regional-depth installment — Tanganyika, Malawi, and central African connections (November 2026)
 
 Six further lectures (`036920`–`036970`) examine Kalambo's temporally distinct occupations, Nakapapula rock-shelter contact, shifting shores and pottery traditions at Lake Malawi, Zambia's plant and faunal evidence, Copperbelt copper circulation, and Upemba graves. The pack now contains **150 indexed lectures**. Every new spoken paragraph has a non-Wikipedia scholarly source map and a claim-specific limitation; Wikipedia appears only as supplementary navigation. Previous 144 manuscripts and their per-lecture metadata remain unchanged.
+
+## Fifteenth regional-depth installment - southern Congo archaeology and later Luba histories (November 2026)
+
+Six standalone lectures (`036980`, `036982`, `036984`, `036986`, `036988`, `036990`) bridge medieval Upemba archaeology to the documentary and oral-historical study of later Luba and Lunda political institutions. Two focus on the separate Kwilu-Kasai evidence, not a demonstrated continuous link to Upemba. **156 indexed lectures** total. The 60 new spoken paragraphs each map to non-Wikipedia sources with paragraph-specific evidence limits; Wikipedia articles are supplemental. No previous manuscript or per-lecture evidence JSON was modified.

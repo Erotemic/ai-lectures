@@ -338,3 +338,18 @@ The index now holds **144 lectures**, including 138 unchanged predecessors. All 
 The pack now holds **150 indexed lectures**, including 144 unchanged predecessors and 68 mapped new narrated paragraphs. Manuscripts preserve scholarly bibliographies plus Wikipedia reading links, which are never treated as primary authority. Some source access is limited to abstracts or chapter excerpts and is flagged in the registry. The 1978 Cambridge synthesis is historical scholarship requiring methodological caution. Luba history after 1500 is not projected onto eighth-century Upemba; the Kalambo wood deposits are not continuous with Iron Age villages; Muteteshi’s four 2021 ZooMS samples all failed to yield usable collagen.
 
 **Research candidates:** Archaeological and ecological histories of the Congo Basin forests and river systems; northern Malawi and southern Tanzania rural settlement beyond pottery classification; new direct evidence on rural highland Ethiopia/Eritrea; archaeological histories of pre-1500 western and southern Africa outside monumental centers. Check current studies first, and prefer substantial evidence-backed questions over a mechanically growing topic list.
+
+## Fifteenth regional-depth installment - Upemba, Kwilu-Kasai, and histories of royal memory (November 2026)
+
+| ID | Lecture | Evidence emphasis |
+| --- | --- | --- |
+| 036980 | When the Copper Crosses Changed: Upemba and the Kabambian Centuries | Kabambian A/B burials, evolving copper crosses, divergent grave wealth, late pottery continuity, and limits on inference of Luba dynastic origins. |
+| 036982 | A Pot before the Ironworker: Luani, Nkar, and the Kwilu-Kasai Interior | Luani cremation and pottery about 2400 BCE; later stone technology and Nkar early iron; pottery is not a language identifier. |
+| 036984 | The Centuries with Few Dates: Settlement Gaps in the Congo Basin | Rainforest and Kwilu-Kasai radiocarbon activity downturns are not identical; surviving occupations, dating biases and competing causal explanations. |
+| 036986 | A King in the Story: Luba Origins, Authority, and Historical Evidence | Luba royal genesis narratives, later kingship, specialists of memory and the separation of oral tradition from medieval archaeological chronology. |
+| 036988 | A History in the Hand: Luba Lukasa and the Work of Remembering | Lukasa boards, Mbudye expertise, museum object provenance, and later centuries of historical performance rather than medieval eyewitness records. |
+| 036990 | A Marriage Told Many Ways: Luba, Lunda, and Political Histories | Lueji and Chibinda Ilunga, Ruund positional succession, Luba/Lunda borrowing, and nineteenth-century reshaping of the royal marriage narrative. |
+
+**Editorial boundaries:** The 2025 Kwilu-Kasai chapter reports 152 new sites, a Luani Late Stone Age funerary pot, dated Idiofa early iron, and a later local decline in dated activity. Its sites do not identify speech communities, dynastic founders or a direct route to the Upemba wetlands. Upemba's Kabambian A/B graves overlap the medieval/early modern boundary, but surviving records of Luba royal government and memory boards chiefly concern later centuries. David Gordon's study documents nineteenth-century retellings, not an established sixteenth-century marriage date.
+
+**Further candidates:** Domestic archaeology between the Lualaba and Lomami; dated workshop contexts to test continuity with Luba metalworking; material and linguistic histories of communities around the Sankuru; pre-1500 Congo basin river transport without projecting later political borders. Reassess accessible primary research before adding more lectures.

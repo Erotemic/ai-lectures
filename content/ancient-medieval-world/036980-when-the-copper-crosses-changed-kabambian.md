@@ -1,0 +1,39 @@
+# When the Copper Crosses Changed: Upemba and the Kabambian Centuries
+
+<!-- BEGIN SPOKEN LECTURE -->
+
+A cluster of copper crosses lies in a grave in the wetlands of southeastern Congo. They are not Christian crosses, and the person buried with them cannot tell us what the metal meant. These carefully cast, cross-shaped ingots belong to a long tradition of copper exchange in southern Central Africa. Archaeologists found them among the remains of people whose communities lived beside the Upemba lakes and the upper Lualaba. The important question is not simply how much metal lay there. It is why the objects, the burials, and the wider networks changed between the thirteenth century and the centuries of the later Luba kingdoms.
+
+Upemba is not a single village. It is a long floodplain with lakes, marshes, channels, and higher places suitable for settlements. Excavations between the nineteen fifties and the nineteen eighties yielded nearly three hundred graves from several sites, but the associated homes remain much less well studied. Before the Kabambian phase, the Kisalian funerary sequence, especially between about the ninth and thirteenth centuries, often included fine ironwork and copper ornaments. Some graves were much richer than others. The burials show enduring craft skill and social distinction without recording a named kingdom or an administrative hierarchy.
+
+The transition archaeologists call Kabambian A began around the thirteenth or fourteenth century and lasted into the middle of the fifteenth. Pottery features in some deposits bridge the earlier Kisalian and later Kabambian classifications. There was continuity, but not simple repetition. The range of objects placed in graves became less uniform from place to place. Many burials contain relatively few metal goods; a small number stand out sharply. Calling one group Kisalian and another Kabambian is a shorthand for classifying excavated material. It is not a record of two named peoples replacing each other on a particular day.
+
+At Malemba-Nkulu, two particularly rich Kabambian A burials held hundreds of iron ornaments and many copper crosses. Together they accounted for more than half of the metal recovered in the Kabambian A funerary sample described by Nicolas Nikis. The concentration is striking, especially against the more modest neighboring burials. It invites questions about inherited privilege, ritual spending, and access to regional supply. But the excavators did not recover a tax ledger. We cannot decide from the distribution alone whether copper was accumulated by a ruler, a wealthy family, a ritual association, or several kinds of authority operating together.
+
+The shape and size of the copper pieces are important. Large cross-shaped ingots of the type often called HIH were produced in the Copperbelt during part of the first and early second millennia and appear in early Kabambian burials. Other, smaller cross-shaped ingots, commonly labeled HH, became numerous in later contexts. There were changes in size, quantity, and sometimes metal composition. Archaeologists compare these traits with objects found far beyond Upemba. A particular form can mark a period of circulation, but finding matching shapes in different places does not prove that two owners met or that every ingot had an agreed monetary value.
+
+Kabambian B begins around the middle of the fifteenth century and extends well beyond the year fifteen hundred in the archaeological sequence. The graves generally become even less furnished with varied iron tools, while small copper crosses can still occur in groups of dozens or hundreds. A change in what went into a grave is not automatically the same as a fall in iron production or a loss of skill. It can mark changing funerary obligations, available materials, social preferences, or political relationships. We have far less evidence from workshops and houses with which to test these alternatives.
+
+In the same later centuries, ceramics changed in ways that researchers have connected with practices documented among more recent Luba potters. The techniques show continuities as well as transformations. They offer one of the reasons scholars see historical relationships between the medieval Upemba sequence and the much later Luba political world. But continuity in clay-making is not an unbroken royal genealogy. A vessel form can persist when rulers change, and it can move when potters trade, migrate, marry, or teach. Material similarity opens a historical question; it cannot supply every missing link in a dynasty.
+
+It is tempting to put a famous name at the center of the rich medieval burials. Later histories tell of the Luba king, his council, and an influential circle of affiliated leaders. Yet the identifiable dynastic kingdom becomes clearer in later sources around the seventeenth and eighteenth centuries. Giacomo Macola describes earlier political experimentation around the Upemba floodplain and the territories between the upper Congo tributaries. That is a historically plausible connection between different eras. It is not a license to give a thirteenth-century grave a royal title taken from a nineteenth-century account.
+
+The location of the wetland matters to this problem. Upemba offered productive fishing grounds and cultivable places, while copper deposits lay farther south. Communities had reasons to organize labor and to maintain relations beyond a single shore. A scholar may suggest that competing groups developed institutions for managing resources or controlling trade. We must distinguish that argument from documented irrigation works, written property rules, or an identified toll post. None is supplied by the funerary assemblages themselves. The marshland was part of a political and material history long before anyone wrote its royal history down.
+
+The larger history of Upemba is a history of change on several scales. A pot can carry a craft tradition across centuries; copper crosses can register an altered economic sphere; a burial can express the standing of a family. None of these records alone proves the structure of the state that came later. Archaeologists have demonstrated substantial social development in central Africa well before European records of its dynastic kingdoms. To connect these eras responsibly, we must keep the documentary and archaeological clocks running separately, even when both point to the same landscape.
+
+<!-- END SPOKEN LECTURE -->
+
+## Evidence and scholarly reading
+
+- **[Nicolas Nikis, Upemba Depression, The Encyclopedia of Ancient History: Asia and Africa (2021)](https://www.africamuseum.be/publication_docs/Nikis%202021%20Upemba%20depression.pdf)**. Access: open_full_text_reviewed. Pages 1-7: Upemba graves, Kisalian, Kabambian, copper cross ingots and later Luba material continuity. Graves do not directly document households or the dates of royal dynasties.
+- **[Giacomo Macola, Luba-Lunda states, Wiley Encyclopedia of Empire (2015)](https://doi.org/10.1002/9781118455074.wbeoe060)**. Access: open_html_text_reviewed. Origins, dynastic authority by about 1700, Luba/Ruund distinctions, positional succession, perpetual kinship. Early causes are proposed mechanisms, not established institutions.
+
+## Wikipedia orientation (supplementary; not evidence for historical claims)
+
+- [Upemba Depression](https://en.wikipedia.org/wiki/Upemba_Depression) - background geography, terminology, or later history.
+- [Luba Empire](https://en.wikipedia.org/wiki/Luba_Empire) - background geography, terminology, or later history.
+
+## Evidence boundary
+
+Kabambian grave forms provide a late medieval sequence, not a direct date for the beginning of the dynastic Luba kingdom. Rich burials and copper crosses cannot alone establish taxes, exchange rates, or named royal offices.
