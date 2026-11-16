@@ -17,3 +17,10 @@ The recorded word counts and estimated audio durations in `track.json` describe 
 - 004000 — [Separation Axioms: When Can Points and Sets Be Told Apart?](004000-separation-axioms-and-metrization.md)
 
 Lecture lengths in the track manifest are measured, not prescribed. Exact mathematics and references remain in non-spoken companions.
+
+## Further completed lectures
+
+- 005000 — [Homotopy: When Paths Count as the Same Route](005000-homotopy-and-path-deformations.md)
+- 006000 — [The Fundamental Group of the Circle and Winding Numbers](006000-fundamental-group-of-circle.md)
+
+The word counts in `track.json` are descriptive measurements from the canonical extractor, not targets. The mathematical companions and references are outside the spoken region.

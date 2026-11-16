@@ -12,7 +12,9 @@
     "initial-value-problems",
     "phase-line-stability",
     "separable-and-linear-odes",
-    "oscillators-and-resonance"
+    "oscillators-and-resonance",
+    "linear-systems",
+    "forced-systems-and-kernels"
   ],
   "lectures": [
     {
@@ -50,6 +52,24 @@
       "spoken_words": 1167,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 8.0
+    },
+    {
+      "id": "005000",
+      "title": "Linear Systems, Eigenvalues, and Matrix Exponentials",
+      "section": "linear-systems",
+      "file": "005000-linear-systems-and-matrix-exponentials.md",
+      "spoken_words": 1325,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 9.1
+    },
+    {
+      "id": "006000",
+      "title": "Forced Systems, Variation of Constants, and Green's Functions",
+      "section": "forced-systems-and-kernels",
+      "file": "006000-forced-systems-and-green-functions.md",
+      "spoken_words": 1309,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 9.0
     }
   ]
 }

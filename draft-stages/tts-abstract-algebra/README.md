@@ -21,3 +21,12 @@ The recorded word counts and estimated audio durations in `track.json` describe 
 - 008000 — [Modules: Linear Algebra without Division](008000-modules-and-linear-algebra-over-rings.md)
 
 Lecture lengths in the track manifest are measured, not prescribed. Exact mathematics and references remain in non-spoken companions.
+
+## Further completed lectures
+
+- 009000 — [Splitting Fields, Finite Fields, and Separability](009000-splitting-fields-and-separability.md)
+- 010000 — [Galois Groups: Symmetries of the Roots](010000-galois-groups-and-root-symmetries.md)
+- 011000 — [The Galois Correspondence: Intermediate Fields and Subgroups](011000-galois-correspondence.md)
+- 012000 — [Solvability by Radicals and the Limits of Algebraic Formulas](012000-radicals-and-limits-of-formulas.md)
+
+The word counts in `track.json` are descriptive measurements from the canonical extractor, not targets. The mathematical companions and references are outside the spoken region.

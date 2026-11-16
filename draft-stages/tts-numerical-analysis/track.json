@@ -14,7 +14,8 @@
     "linear-algebra",
     "error-certificates",
     "interpolation-and-approximation",
-    "quadrature-and-error"
+    "quadrature-and-error",
+    "iterative-linear-algebra"
   ],
   "lectures": [
     {
@@ -97,6 +98,15 @@
       "spoken_words": 1307,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 9.0
+    },
+    {
+      "id": "010000",
+      "title": "Iterative Linear Solvers: Residuals, Spectra, and Conjugate Gradients",
+      "section": "iterative-linear-algebra",
+      "file": "010000-iterative-linear-solvers-and-residuals.md",
+      "spoken_words": 1492,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 10.3
     }
   ]
 }

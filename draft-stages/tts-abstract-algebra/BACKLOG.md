@@ -1,13 +1,6 @@
-# Abstract Algebra — continuation after eight completed lectures
+# Abstract Algebra — continuation after twelve completed lectures
 
-The first eight manuscripts now cover groups, arithmetic, ideals, polynomial rings, field extensions and modules. Future titles remain unindexed until substantive manuscripts exist. No duration targets.
-
-## Section III — field theory and Galois theory
-
-- 009000 — Splitting Fields, Finite Fields, and Separability
-- 010000 — Galois Groups: Symmetries of Roots
-- 011000 — Correspondence between Intermediate Fields and Subgroups
-- 012000 — Solvability by Radicals and the Limits of Formulas
+001000–012000 cover foundational algebra, field extensions, Galois groups, the Galois correspondence and solvability by radicals. The following proposals remain unindexed until substantive manuscripts are authored.
 
 ## Section IV — representation and homological algebra
 
@@ -16,4 +9,4 @@ The first eight manuscripts now cover groups, arithmetic, ideals, polynomial rin
 - 015000 — Exact Sequences, Kernels, Cokernels and Chain Complexes
 - 016000 — Projective Modules, Resolutions and Derived Functors
 
-The last strand should cross-link to the existing Category Theory course rather than repeat its categorical definitions. Later courses may branch into algebraic number theory and commutative algebra. Do not index unprepared titles as lectures.
+Connect the homological strand to Category Theory without repeating general categorical definitions. Further directions include algebraic number theory and commutative algebra. No duration targets.

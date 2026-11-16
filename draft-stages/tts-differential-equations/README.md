@@ -17,3 +17,10 @@ The recorded word counts and estimated audio durations in `track.json` describe 
 - 004000 — [Oscillators, Damping, and Resonance](004000-oscillators-and-resonance.md)
 
 Lecture lengths in the track manifest are measured, not prescribed. Exact mathematics and references remain in non-spoken companions.
+
+## Further completed lectures
+
+- 005000 — [Linear Systems, Eigenvalues, and Matrix Exponentials](005000-linear-systems-and-matrix-exponentials.md)
+- 006000 — [Forced Systems, Variation of Constants, and Green's Functions](006000-forced-systems-and-green-functions.md)
+
+The word counts in `track.json` are descriptive measurements from the canonical extractor, not targets. The mathematical companions and references are outside the spoken region.

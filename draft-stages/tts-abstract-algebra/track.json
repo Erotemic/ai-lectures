@@ -16,7 +16,11 @@
     "rings-and-ideals",
     "polynomial-rings",
     "field-extensions",
-    "modules"
+    "modules",
+    "splitting-fields-and-separability",
+    "galois-groups",
+    "galois-correspondence",
+    "solvability-by-radicals"
   ],
   "lectures": [
     {
@@ -90,6 +94,42 @@
       "spoken_words": 1315,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 9.1
+    },
+    {
+      "id": "009000",
+      "title": "Splitting Fields, Finite Fields, and Separability",
+      "section": "splitting-fields-and-separability",
+      "file": "009000-splitting-fields-and-separability.md",
+      "spoken_words": 1271,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 8.8
+    },
+    {
+      "id": "010000",
+      "title": "Galois Groups: Symmetries of the Roots",
+      "section": "galois-groups",
+      "file": "010000-galois-groups-and-root-symmetries.md",
+      "spoken_words": 1260,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 8.7
+    },
+    {
+      "id": "011000",
+      "title": "The Galois Correspondence: Intermediate Fields and Subgroups",
+      "section": "galois-correspondence",
+      "file": "011000-galois-correspondence.md",
+      "spoken_words": 1549,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 10.7
+    },
+    {
+      "id": "012000",
+      "title": "Solvability by Radicals and the Limits of Algebraic Formulas",
+      "section": "solvability-by-radicals",
+      "file": "012000-radicals-and-limits-of-formulas.md",
+      "spoken_words": 1247,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 8.6
     }
   ]
 }

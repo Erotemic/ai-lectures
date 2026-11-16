@@ -17,3 +17,10 @@ The recorded word counts and estimated audio durations in `track.json` describe 
 - 004000 — [Recurrences, Rational Generating Functions, and Growth](004000-recurrences-and-rational-generating-functions.md)
 
 Lecture lengths in the track manifest are measured, not prescribed. Exact mathematics and references remain in non-spoken companions.
+
+## Further completed lectures
+
+- 005000 — [Graphs, Trees, and the Structure of Cycles](005000-graphs-trees-and-cycle-structure.md)
+- 006000 — [Matchings and Hall's Marriage Theorem](006000-hall-marriage-theorem-and-matchings.md)
+
+The word counts in `track.json` are descriptive measurements from the canonical extractor, not targets. The mathematical companions and references are outside the spoken region.

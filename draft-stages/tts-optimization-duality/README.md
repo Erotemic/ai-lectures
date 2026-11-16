@@ -15,7 +15,6 @@
 
 ## Planned continuation (remaining proposals)
 
-- 007000: Spectral and Semidefinite Optimization
 - 008000: Discrete Optimization, Relaxations, and Approximation
 - 009000: Numerical Error and Formally Checkable Certificates
 
@@ -30,3 +29,9 @@ See `metadata/sources.json` and the per-lecture sidecars. Citation details and m
 - 006000 — [Proximal Methods: Optimization When the Best Point Has a Corner](006000-proximal-methods-and-nonsmooth-convexity.md)
 
 Lecture lengths in the track manifest are measured, not prescribed. Exact mathematics and references remain in non-spoken companions.
+
+## Further completed lectures
+
+- 007000 — [Semidefinite Programming: Optimizing over Positive Matrices](007000-semidefinite-programming-and-certificates.md)
+
+The word counts in `track.json` are descriptive measurements from the canonical extractor, not targets. The mathematical companions and references are outside the spoken region.
