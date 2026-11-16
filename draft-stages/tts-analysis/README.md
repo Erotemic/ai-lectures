@@ -210,3 +210,24 @@ Listening route and remaining prerequisites: [FUNCTIONAL_CALCULUS_LEARNING_PATH.
 - 052000 — [Functional Calculus in Motion: Heat, Waves, and Quantum Evolution](052000-functional-calculus-heat-waves-and-quantum-motion.md)
 
 Spoken narration is independent of visual companions; exact mathematics, exercises, and references are retained after the spoken markers. Counts and estimates are descriptive only.
+
+## Fourier, distributions, and PDE foundations (053000–064000)
+
+This bridge fills open-mapping, Fredholm and Radon–Nikodym prerequisites, then develops Fourier decompositions, distributions, weak derivatives, Sobolev control, weak elliptic equations, and evolution semigroups. It uses recurring examples rather than presuming that formal calculations imply pointwise smoothness.
+
+Start with [FOURIER_TO_PDE_LEARNING_PATH.md](FOURIER_TO_PDE_LEARNING_PATH.md) for the three-stage listening route and advanced-course connections.
+
+- 053000 — [Why a Bijective Operator Has a Bounded Inverse](053000-why-bijective-operators-have-bounded-inverses.md)
+- 054000 — [Compact Operators, Fredholm Alternatives, and Integral Equations](054000-compactness-fredholm-and-integral-equations.md)
+- 055000 — [Radon–Nikodym and Riesz: When Measurements Have Densities](055000-measures-as-densities-and-linear-measurements.md)
+- 056000 — [Fourier Series, Convolution, and the Shape of Approximation](056000-fourier-series-convolution-and-approximate-identities.md)
+- 057000 — [The Fourier Transform: Plancherel, Derivatives, and the Heat Equation](057000-fourier-transform-plancherel-and-derivatives.md)
+- 058000 — [Frequency Localization: Why Derivatives Measure High Frequencies](058000-frequency-localization-and-fourier-multipliers.md)
+- 059000 — [Distributions: Making Sense of Delta Functions and Rough Derivatives](059000-distributions-delta-functions-and-weak-derivatives.md)
+- 060000 — [Mollifiers and Weak Derivatives: Smooth Approximations to Rough Functions](060000-mollifiers-and-weak-derivatives.md)
+- 061000 — [Sobolev Spaces: Measuring Smoothness Without Pointwise Derivatives](061000-sobolev-spaces-and-compactness.md)
+- 062000 — [A Differential Equation Without Second Derivatives: Weak Poisson Problems](062000-weak-poisson-equations-and-lax-milgram.md)
+- 063000 — [Elliptic Regularity: Why Solutions Gain Derivatives](063000-elliptic-regularity-and-fourier-parametrices.md)
+- 064000 — [Semigroups and Generators: Solving Time Evolution Beyond Self-Adjoint Operators](064000-semigroups-generators-and-evolution.md)
+
+The narration is standalone; exact formulas, exercises and source references are outside the spoken extraction markers. Word counts and durations in track metadata are descriptive, not content goals.

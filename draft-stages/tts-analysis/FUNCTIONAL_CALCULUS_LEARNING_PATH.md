@@ -81,3 +81,8 @@ This bridge improves functional-calculus access. It does not make the entire adv
 - A prerequisite audit for the algebraic geometry, gauge theory and number theory tracks. Functional calculus alone cannot supply their missing topology, manifolds, cohomology, algebra, or probability.
 
 The next mathematics continuation should be chosen by a **listener-readiness audit** of a selected advanced lecture, not simply by incrementing the advanced topic indexes.
+
+
+## Follow-up foundation bridge
+
+The analysis course now continues at `053000`–`064000` with open mapping, Fredholm theory, representation theorems, Fourier analysis, distributions, Sobolev spaces, weak Poisson problems, elliptic regularity and semigroups. Follow [FOURIER_TO_PDE_LEARNING_PATH.md](FOURIER_TO_PDE_LEARNING_PATH.md) for the updated listening route and remaining prerequisites.

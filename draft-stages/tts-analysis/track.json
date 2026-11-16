@@ -1,7 +1,7 @@
 {
   "id": "analysis",
   "title": "Analysis from First Principles",
-  "summary": "Real and complex analysis from limits and completeness through rigorous calculus, metric spaces, holomorphic functions and conformal mapping; measure and Lebesgue integration, L-p and Hilbert spaces, followed by L-p duality, bounded operators, Hahn–Banach, weak convergence and Banach–Steinhaus. A further twelve-lecture foundational bridge now develops adjoints, spectra, continuous and Borel functional calculi, unbounded domains, holomorphic calculus, and evolution equations.",
+  "summary": "Real and complex analysis from limits and completeness through rigorous calculus, metric spaces, holomorphic functions and conformal mapping; measure and Lebesgue integration, L-p and Hilbert spaces, followed by L-p duality, bounded operators, Hahn–Banach, weak convergence and Banach–Steinhaus. A further twelve-lecture foundational bridge now develops adjoints, spectra, continuous and Borel functional calculi, unbounded domains, holomorphic calculus, and evolution equations. A twelve-lecture bridge now develops Fourier transforms, distributions, Sobolev spaces, weak elliptic equations, and C-zero semigroups, with preceding functional-analytic representation theorems.",
   "assumed_background": [
     "Elementary algebra, inequalities, and familiarity with fractions"
   ],
@@ -51,7 +51,19 @@
     "unbounded-operator-domains",
     "unbounded-functional-calculus",
     "holomorphic-functional-calculus",
-    "spectral-evolution-applications"
+    "spectral-evolution-applications",
+    "open-mapping-and-inverses",
+    "fredholm-compact-integral",
+    "radon-nikodym-and-riesz",
+    "fourier-series-and-convolution",
+    "fourier-transforms-and-plancherel",
+    "frequency-localization",
+    "distributions",
+    "weak-derivatives-and-mollifiers",
+    "sobolev-spaces",
+    "weak-elliptic-problems",
+    "elliptic-regularity",
+    "c0-semigroups-and-generators"
   ],
   "lectures": [
     {
@@ -521,6 +533,114 @@
       "spoken_words": 1236,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 8.5
+    },
+    {
+      "id": "053000",
+      "title": "Why a Bijective Operator Has a Bounded Inverse",
+      "section": "open-mapping-and-inverses",
+      "file": "053000-why-bijective-operators-have-bounded-inverses.md",
+      "spoken_words": 980,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.8
+    },
+    {
+      "id": "054000",
+      "title": "Compact Operators, Fredholm Alternatives, and Integral Equations",
+      "section": "fredholm-compact-integral",
+      "file": "054000-compactness-fredholm-and-integral-equations.md",
+      "spoken_words": 942,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.5
+    },
+    {
+      "id": "055000",
+      "title": "Radon–Nikodym and Riesz: When Measurements Have Densities",
+      "section": "radon-nikodym-and-riesz",
+      "file": "055000-measures-as-densities-and-linear-measurements.md",
+      "spoken_words": 1000,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.9
+    },
+    {
+      "id": "056000",
+      "title": "Fourier Series, Convolution, and the Shape of Approximation",
+      "section": "fourier-series-and-convolution",
+      "file": "056000-fourier-series-convolution-and-approximate-identities.md",
+      "spoken_words": 882,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.1
+    },
+    {
+      "id": "057000",
+      "title": "The Fourier Transform: Plancherel, Derivatives, and the Heat Equation",
+      "section": "fourier-transforms-and-plancherel",
+      "file": "057000-fourier-transform-plancherel-and-derivatives.md",
+      "spoken_words": 848,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.8
+    },
+    {
+      "id": "058000",
+      "title": "Frequency Localization: Why Derivatives Measure High Frequencies",
+      "section": "frequency-localization",
+      "file": "058000-frequency-localization-and-fourier-multipliers.md",
+      "spoken_words": 867,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.0
+    },
+    {
+      "id": "059000",
+      "title": "Distributions: Making Sense of Delta Functions and Rough Derivatives",
+      "section": "distributions",
+      "file": "059000-distributions-delta-functions-and-weak-derivatives.md",
+      "spoken_words": 949,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.5
+    },
+    {
+      "id": "060000",
+      "title": "Mollifiers and Weak Derivatives: Smooth Approximations to Rough Functions",
+      "section": "weak-derivatives-and-mollifiers",
+      "file": "060000-mollifiers-and-weak-derivatives.md",
+      "spoken_words": 881,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.1
+    },
+    {
+      "id": "061000",
+      "title": "Sobolev Spaces: Measuring Smoothness Without Pointwise Derivatives",
+      "section": "sobolev-spaces",
+      "file": "061000-sobolev-spaces-and-compactness.md",
+      "spoken_words": 896,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.2
+    },
+    {
+      "id": "062000",
+      "title": "A Differential Equation Without Second Derivatives: Weak Poisson Problems",
+      "section": "weak-elliptic-problems",
+      "file": "062000-weak-poisson-equations-and-lax-milgram.md",
+      "spoken_words": 869,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.0
+    },
+    {
+      "id": "063000",
+      "title": "Elliptic Regularity: Why Solutions Gain Derivatives",
+      "section": "elliptic-regularity",
+      "file": "063000-elliptic-regularity-and-fourier-parametrices.md",
+      "spoken_words": 878,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.1
+    },
+    {
+      "id": "064000",
+      "title": "Semigroups and Generators: Solving Time Evolution Beyond Self-Adjoint Operators",
+      "section": "c0-semigroups-and-generators",
+      "file": "064000-semigroups-generators-and-evolution.md",
+      "spoken_words": 945,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.5
     }
   ]
 }
