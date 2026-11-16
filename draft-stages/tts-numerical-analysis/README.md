@@ -42,3 +42,9 @@ Narration lengths in the manifest are descriptive measurements only. Mathematica
 - 012000 — [Adaptive Quadrature: Spend Computation Where the Integral Is Difficult](012000-adaptive-quadrature-and-error-estimators.md)
 
 Word counts and narration durations in the manifest are descriptive measurements, not length targets. Exact equations and references remain in non-spoken companions.
+
+## Completed continuation — derived algebra and verified analysis
+
+- 013000 — [Interval Arithmetic: From Plausible Answers to Verified Enclosures](013000-interval-arithmetic-and-verified-enclosures.md)
+
+The manifest's narration measurements are descriptive only; exact mathematics and source records are in the non-spoken companions.

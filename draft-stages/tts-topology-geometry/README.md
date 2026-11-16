@@ -38,3 +38,10 @@ Narration lengths in the manifest are descriptive measurements only. Mathematica
 - 010000 — [Generalized Stokes' Theorem: The Interior Speaks Through Its Boundary](010000-orientation-and-generalized-stokes-theorem.md)
 
 Word counts and narration durations in the manifest are descriptive measurements, not length targets. Exact equations and references remain in non-spoken companions.
+
+## Completed continuation — derived algebra and verified analysis
+
+- 011000 — [Homology: Cycles, Boundaries, and Holes](011000-simplicial-chains-cycles-and-homology.md)
+- 012000 — [Cohomology, Cup Products, and de Rham Classes](012000-cohomology-cup-products-and-de-rham-classes.md)
+
+The manifest's narration measurements are descriptive only; exact mathematics and source records are in the non-spoken companions.

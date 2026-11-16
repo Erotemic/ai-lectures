@@ -1,12 +1,12 @@
-# Topology and Geometry — after ten completed lectures
+# Topology and Geometry — after 12 completed lectures
 
-001000–010000 cover general and algebraic topology, covering spaces, smooth manifolds, differential forms, and the generalized Stokes theorem.
+Topology now runs from spaces and coverings through smooth manifolds, differential forms and Stokes, to simplicial homology, singular homology, cohomology and the cup product.
 
 ## Unindexed continuation proposals
 
-- 011000 — Simplicial and Singular Homology
-- 012000 — Cohomology, Cup Products, and de Rham Classes
 - 013000 — Fiber Bundles, Connections, and Curvature
 - 014000 — Riemannian Metrics, Geodesics, and Curvature
+- 015000 — Mayer–Vietoris and Exact Sequences in Topology
+- 016000 — Poincare Duality and Intersection Pairings
 
-Explicitly mark smoothness and compactness hypotheses in geometric integration results.
+Mark orientability, smoothness, compactness and coefficient-ring hypotheses when they matter. Proposals are not registered lectures.

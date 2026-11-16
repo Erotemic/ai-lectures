@@ -48,3 +48,12 @@ Narration lengths in the manifest are descriptive measurements only. Mathematica
 - 020000 — [Modular Representations: When Symmetry No Longer Splits](020000-modular-representations-and-extensions.md)
 
 Word counts and narration durations in the manifest are descriptive measurements, not length targets. Exact equations and references remain in non-spoken companions.
+
+## Completed continuation — derived algebra and verified analysis
+
+- 021000 — [Ext, Long Exact Sequences, and the Algebra of Extensions](021000-ext-long-exact-sequences-and-yoneda-extensions.md)
+- 022000 — [Primary Decomposition, Associated Primes, and Support](022000-primary-decomposition-associated-primes-and-support.md)
+- 023000 — [Completion, Discrete Valuations, and Hensel's Lemma](023000-completion-valuations-and-hensels-lemma.md)
+- 024000 — [Finitely Generated Modules over a PID: A Classification Theorem](024000-structure-theorem-for-modules-over-a-pid.md)
+
+The manifest's narration measurements are descriptive only; exact mathematics and source records are in the non-spoken companions.

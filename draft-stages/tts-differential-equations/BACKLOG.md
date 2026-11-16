@@ -1,12 +1,12 @@
-# Differential Equations and Dynamical Systems — after ten completed lectures
+# Differential Equations and Dynamical Systems — after 12 completed lectures
 
-001000–010000 cover ODEs and phase portraits, linear systems and resonance, nonlinear dynamics, stiffness, and first-order transport and second-order diffusion PDEs.
+The sequence covers ODEs and PDEs, linear and nonlinear phase portraits, bifurcations, stiffness, weak boundary-value solutions, and Floquet multipliers of periodic orbits.
 
 ## Unindexed continuation proposals
 
-- 011000 — Boundary Value Problems, Weak Solutions, and Energy Estimates
-- 012000 — Poincaré Maps, Stability of Periodic Orbits, and Floquet Theory
 - 013000 — Waves, Characteristics, and Finite Propagation Speed
 - 014000 — Reaction–Diffusion Equations and Pattern Formation
+- 015000 — Spectral Methods for PDE Boundary-Value Problems
+- 016000 — Stable and Unstable Manifolds in Nonlinear Dynamics
 
-Numerical Analysis separately treats step-size restrictions, error estimators and convergence. These proposals are not registered lectures.
+Maintain the separation between analytic PDE well-posedness and numerical discretization guarantees. Proposals are not registered lectures.

@@ -91,6 +91,20 @@
       "url": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.integrate.quad.html",
       "access": "free_no_login",
       "notes": "QUADPACK adaptive integration, absolute and relative error estimates."
+    },
+    "na-rump": {
+      "title": "Siegfried M. Rump, Verification Methods: Rigorous Results Using Floating-Point Arithmetic (Acta Numerica 19, 2010)",
+      "kind": "scholarly_primary",
+      "url": "https://www.tuhh.de/ti3/rump/intlab/ActaNumerica2010.pdf",
+      "access": "free_author_manuscript",
+      "notes": "Directed rounding, interval Newton, verified computations and enclosures."
+    },
+    "na-ieee-1788": {
+      "title": "IEEE 1788-2015 Standard for Interval Arithmetic (listed as inactive-reserved by IEEE)",
+      "kind": "historical_standard",
+      "url": "https://standards.ieee.org/ieee/1788/4431/",
+      "access": "publisher_metadata_or_institutional_access",
+      "notes": "2015 definition of interval arithmetic models; inactive-reserved listing is not an assertion of current adoption."
     }
   }
 }

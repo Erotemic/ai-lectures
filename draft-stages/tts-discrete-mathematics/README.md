@@ -38,3 +38,10 @@ Narration lengths in the manifest are descriptive measurements only. Mathematica
 - 010000 — [Extremal Graph Theory: How Many Edges Avoid a Clique?](010000-extremal-graphs-and-turan-theorem.md)
 
 Word counts and narration durations in the manifest are descriptive measurements, not length targets. Exact equations and references remain in non-spoken companions.
+
+## Completed continuation — derived algebra and verified analysis
+
+- 011000 — [The Probabilistic Method: Existence without Construction](011000-probabilistic-method-existence-without-construction.md)
+- 012000 — [Graph Coloring, Chromatic Polynomials, and Planarity](012000-graph-coloring-chromatic-polynomials-and-planarity.md)
+
+The manifest's narration measurements are descriptive only; exact mathematics and source records are in the non-spoken companions.

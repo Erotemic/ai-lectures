@@ -28,7 +28,11 @@
     "localization-prime-ideals",
     "noetherian-hilbert-basis",
     "dedekind-domains",
-    "modular-representations"
+    "modular-representations",
+    "ext-long-exact",
+    "primary-decomposition",
+    "hensel-completion",
+    "pid-structure-theorem"
   ],
   "lectures": [
     {
@@ -210,6 +214,42 @@
       "spoken_words": 1132,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 7.8
+    },
+    {
+      "id": "021000",
+      "title": "Ext, Long Exact Sequences, and the Algebra of Extensions",
+      "section": "ext-long-exact",
+      "file": "021000-ext-long-exact-sequences-and-yoneda-extensions.md",
+      "spoken_words": 1228,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 8.5
+    },
+    {
+      "id": "022000",
+      "title": "Primary Decomposition, Associated Primes, and Support",
+      "section": "primary-decomposition",
+      "file": "022000-primary-decomposition-associated-primes-and-support.md",
+      "spoken_words": 1073,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.4
+    },
+    {
+      "id": "023000",
+      "title": "Completion, Discrete Valuations, and Hensel's Lemma",
+      "section": "hensel-completion",
+      "file": "023000-completion-valuations-and-hensels-lemma.md",
+      "spoken_words": 1122,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.7
+    },
+    {
+      "id": "024000",
+      "title": "Finitely Generated Modules over a PID: A Classification Theorem",
+      "section": "pid-structure-theorem",
+      "file": "024000-structure-theorem-for-modules-over-a-pid.md",
+      "spoken_words": 1084,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.5
     }
   ]
 }

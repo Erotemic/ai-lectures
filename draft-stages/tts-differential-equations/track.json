@@ -18,7 +18,9 @@
     "nonlinear-phase-planes",
     "bifurcations-and-limit-cycles",
     "stiff-systems",
-    "transport-diffusion-pdes"
+    "transport-diffusion-pdes",
+    "weak-pde-energies",
+    "poincare-floquet"
   ],
   "lectures": [
     {
@@ -110,6 +112,24 @@
       "spoken_words": 1270,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 8.8
+    },
+    {
+      "id": "011000",
+      "title": "Boundary Value Problems, Weak Solutions, and Energy Estimates",
+      "section": "weak-pde-energies",
+      "file": "011000-boundary-value-problems-weak-solutions-and-energy.md",
+      "spoken_words": 1278,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 8.8
+    },
+    {
+      "id": "012000",
+      "title": "Poincaré Maps, Periodic Orbits, and Floquet Theory",
+      "section": "poincare-floquet",
+      "file": "012000-poincare-maps-periodic-orbits-and-floquet-theory.md",
+      "spoken_words": 1089,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.5
     }
   ]
 }

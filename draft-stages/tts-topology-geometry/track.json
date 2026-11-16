@@ -18,7 +18,9 @@
     "covering-spaces-and-lifting",
     "smooth-manifolds",
     "differential-forms",
-    "generalized-stokes"
+    "generalized-stokes",
+    "simplicial-homology",
+    "cohomology-cup-products"
   ],
   "lectures": [
     {
@@ -110,6 +112,24 @@
       "spoken_words": 1232,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 8.5
+    },
+    {
+      "id": "011000",
+      "title": "Homology: Cycles, Boundaries, and Holes",
+      "section": "simplicial-homology",
+      "file": "011000-simplicial-chains-cycles-and-homology.md",
+      "spoken_words": 1144,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.9
+    },
+    {
+      "id": "012000",
+      "title": "Cohomology, Cup Products, and de Rham Classes",
+      "section": "cohomology-cup-products",
+      "file": "012000-cohomology-cup-products-and-de-rham-classes.md",
+      "spoken_words": 1125,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.8
     }
   ]
 }

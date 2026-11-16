@@ -17,7 +17,8 @@
     "quadrature-and-error",
     "iterative-linear-algebra",
     "numerical-ode-methods",
-    "adaptive-quadrature"
+    "adaptive-quadrature",
+    "interval-verification"
   ],
   "lectures": [
     {
@@ -127,6 +128,15 @@
       "spoken_words": 1337,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 9.2
+    },
+    {
+      "id": "013000",
+      "title": "Interval Arithmetic: From Plausible Answers to Verified Enclosures",
+      "section": "interval-verification",
+      "file": "013000-interval-arithmetic-and-verified-enclosures.md",
+      "spoken_words": 1220,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 8.4
     }
   ]
 }

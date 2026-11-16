@@ -38,3 +38,10 @@ Narration lengths in the manifest are descriptive measurements only. Mathematica
 - 010000 — [Transport and Diffusion: Two Ways a Field Evolves](010000-transport-diffusion-and-pdes.md)
 
 Word counts and narration durations in the manifest are descriptive measurements, not length targets. Exact equations and references remain in non-spoken companions.
+
+## Completed continuation — derived algebra and verified analysis
+
+- 011000 — [Boundary Value Problems, Weak Solutions, and Energy Estimates](011000-boundary-value-problems-weak-solutions-and-energy.md)
+- 012000 — [Poincaré Maps, Periodic Orbits, and Floquet Theory](012000-poincare-maps-periodic-orbits-and-floquet-theory.md)
+
+The manifest's narration measurements are descriptive only; exact mathematics and source records are in the non-spoken companions.

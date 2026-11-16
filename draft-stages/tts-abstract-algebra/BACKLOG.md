@@ -1,13 +1,12 @@
-# Abstract Algebra — after twenty completed lectures
+# Abstract Algebra — after 24 completed lectures
 
-001000–020000 cover groups and number theory; rings, fields and Galois theory; representation theory, tensor products and the first derived constructions; localization, the Noetherian property, Dedekind ideals, and nonsemisimple modular representations.
+001000–024000 develop groups, fields, Galois theory, representations, commutative and homological algebra. The latest section computes Ext, associated primes, p-adic lifting, and PID module classification.
 
 ## Unindexed continuation proposals
 
-- 021000 — Ext, Long Exact Sequences, and Yoneda Extensions
-- 022000 — Primary Decomposition, Associated Primes, and Support
-- 023000 — Completion, Discrete Valuations, and Hensel's Lemma
-- 024000 — The Structure Theorem for Finitely Generated Modules over a PID
 - 025000 — Algebraic Number Fields, Discriminants, and Ramification
+- 026000 — Flat Modules, Tensor Exactness, and Localization
+- 027000 — Dimension, Chains of Prime Ideals, and the Nullstellensatz
+- 028000 — Spectral Sequences: Filtering Homological Information
 
-Continue the commutative and homological algebra arcs with explicit hypotheses and nontrivial computations. These proposals are not registered lectures. Lecture length is determined by subject depth.
+Keep the homological and commutative directions integrated through explicit calculations and hypothesis checks. These are proposals, not cataloged lectures; depth determines manuscript length.
