@@ -30,6 +30,22 @@
       "access": "free_no_login",
       "notes": "Elevation, distance, direction and terrain reading",
       "verification": "web_result_checked_2026-11-15"
+    },
+    "noaa-declination": {
+      "title": "NOAA NCEI, Magnetic Declination",
+      "kind": "agency_geomagnetic_reference",
+      "url": "https://www.ncei.noaa.gov/products/magnetic-declination",
+      "access": "public_web_page_or_excerpt",
+      "notes": "Signed east-positive declination; magnetic-to-true bearing conversion",
+      "verification": "selected_official_page_or_search_result_reviewed_2026-11-15"
+    },
+    "usgs-gps-compass": {
+      "title": "USGS, How Should I Set My GPS and Compass?",
+      "kind": "agency_navigation_education",
+      "url": "https://www.usgs.gov/educational-resources/how-should-i-set-my-gps-and-compass",
+      "access": "public_web_page_or_excerpt",
+      "notes": "Practical examples converting GPS/map references and compass settings",
+      "verification": "selected_official_page_or_search_result_reviewed_2026-11-15"
     }
   }
 }

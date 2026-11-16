@@ -1,9 +1,8 @@
 # Rotation backlog: Tools and Measurement: Accuracy, Setup, and Workmanship
 
-Status: lectures `001000` and `002000` authored. Remaining slots below are proposals, not completed manuscripts.
+Status: lectures `001000`, `002000`, and `003000` authored. Remaining slots below are proposals, not completed manuscripts.
 These are ordered topics, not duration or word-count requirements. Retain stable IDs once published.
 
-- `003000` — Precision, Repeatability, and Calibration
 - `004000` — Cutting, Kerf, and Workholding
 - `005000` — Drilling and Hole Geometry
 - `006000` — Fasteners, Torque, and Connection Design

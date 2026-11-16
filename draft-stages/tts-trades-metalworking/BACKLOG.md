@@ -1,9 +1,8 @@
 # Rotation backlog: Metalworking and Fabrication: Materials, Processes, and Joints
 
-Status: lectures `001000` and `002000` authored. Remaining slots below are proposals, not completed manuscripts.
+Status: lectures `001000`, `002000`, and `003000` authored. Remaining slots below are proposals, not completed manuscripts.
 These are ordered topics, not duration or word-count requirements. Retain stable IDs once published.
 
-- `003000` — Sawing, Drilling, Grinding, and Machining
 - `004000` — Bending, Forming, and Springback
 - `005000` — Welding Processes and Joint Geometry
 - `006000` — Mechanical Fastening and Fatigue

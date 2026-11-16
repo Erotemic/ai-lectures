@@ -1,9 +1,8 @@
 # Rotation backlog: Mechanical Systems: Force, Motion, Friction, and Repair
 
-Status: lectures `001000` and `002000` authored. Remaining slots below are proposals, not completed manuscripts.
+Status: lectures `001000`, `002000`, and `003000` authored. Remaining slots below are proposals, not completed manuscripts.
 These are ordered topics, not duration or word-count requirements. Retain stable IDs once published.
 
-- `003000` — Friction, Lubrication, and Heat
 - `004000` — Bearings, Seals, and Alignment
 - `005000` — Springs, Stored Energy, and Damping
 - `006000` — Fits, Clearances, and Thermal Expansion

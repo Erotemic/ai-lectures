@@ -1,9 +1,8 @@
 # Rotation backlog: Gardening, Soil, and Landscaping: Living Systems and Water
 
-Status: lectures `001000` and `002000` authored. Remaining slots below are proposals, not completed manuscripts.
+Status: lectures `001000`, `002000`, and `003000` authored. Remaining slots below are proposals, not completed manuscripts.
 These are ordered topics, not duration or word-count requirements. Retain stable IDs once published.
 
-- `003000` — Roots, Transpiration, and Water Use
 - `004000` — Organic Matter, Compost, and Nutrient Cycling
 - `005000` — Landscape Drainage and Erosion
 - `006000` — Pruning, Seasonality, and Plant Architecture

@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "lecture_id": "003000",
+  "transcript": "003000-compass-bearings-true-and-magnetic-north.md",
+  "related_resources": [
+    {
+      "source_id": "noaa-declination",
+      "reason": "Signed east-positive declination; magnetic-to-true bearing conversion"
+    },
+    {
+      "source_id": "usgs-gps-compass",
+      "reason": "Practical examples converting GPS/map references and compass settings"
+    },
+    {
+      "source_id": "nps-compass",
+      "reason": "Magnetic declination and north reference"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P003000-01",
+      "claim": "Magnetic declination is the local angle between true north and horizontal magnetic direction, changing with place and time.",
+      "kind": "geomagnetic_reference",
+      "supports": [
+        {
+          "source_id": "noaa-declination",
+          "location": "NOAA NCEI declination introduction and USGS example",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "usgs-gps-compass",
+          "location": "NOAA NCEI declination introduction and USGS example",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "selected_primary_or_official_reference_checked;_second_source_where_available;_technical_editorial_review_pending",
+      "limits": "Source covers the stated mechanism or practice at conceptual level; equipment, environment and applicable adopted rules may differ.",
+      "professional_review": "pending_before_consequential_site_specific_design_or_field_work"
+    },
+    {
+      "claim_id": "P003000-02",
+      "claim": "With east positive, true bearing equals magnetic bearing plus signed declination.",
+      "kind": "derived_navigation_conversion",
+      "supports": [
+        {
+          "source_id": "noaa-declination",
+          "location": "NOAA NCEI conversion formula and USGS workflow",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "usgs-gps-compass",
+          "location": "NOAA NCEI conversion formula and USGS workflow",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "selected_primary_or_official_reference_checked;_second_source_where_available;_technical_editorial_review_pending",
+      "limits": "Mathematical deduction or author synthesis; cited source supplies context, not direct wording.",
+      "professional_review": "pending_before_consequential_site_specific_design_or_field_work"
+    },
+    {
+      "claim_id": "P003000-03",
+      "claim": "Adjustable and nonadjustable compasses require different but consistent conversion workflows.",
+      "kind": "field_navigation",
+      "supports": [
+        {
+          "source_id": "usgs-gps-compass",
+          "location": "USGS GPS/compass reference with NPS general use",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nps-compass",
+          "location": "USGS GPS/compass reference with NPS general use",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "selected_primary_or_official_reference_checked;_second_source_where_available;_technical_editorial_review_pending",
+      "limits": "Source covers the stated mechanism or practice at conceptual level; equipment, environment and applicable adopted rules may differ.",
+      "professional_review": "pending_before_consequential_site_specific_design_or_field_work"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_technical_review_pending",
+  "citation_policy": "Claim-to-source records provide references and source locators. These are educational drafts, not independently certified engineering, clinical or adopted-code instructions. Where a claim is a mathematical derivation or synthesis, that status is identified explicitly."
+}

@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "lecture_id": "003000",
+  "transcript": "003000-precision-repeatability-and-calibration.md",
+  "related_resources": [
+    {
+      "source_id": "nist-repeatability",
+      "reason": "Definition and conditions for repeatability"
+    },
+    {
+      "source_id": "nist-uncertainty",
+      "reason": "Measurement values, standards and uncertainty"
+    },
+    {
+      "source_id": "nist-calibration",
+      "reason": "Calibration limitations; precision, bias, operator changes"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P003000-01",
+      "claim": "Repeatability means agreement under repeatability conditions, not independent proof of accuracy.",
+      "kind": "metrology_principle",
+      "supports": [
+        {
+          "source_id": "nist-repeatability",
+          "location": "NIST TN 1297 terminology and NIST uncertainty overview",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nist-uncertainty",
+          "location": "NIST TN 1297 terminology and NIST uncertainty overview",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "selected_primary_or_official_reference_checked;_second_source_where_available;_technical_editorial_review_pending",
+      "limits": "Source covers the stated mechanism or practice at conceptual level; equipment, environment and applicable adopted rules may differ.",
+      "professional_review": "pending_before_consequential_site_specific_design_or_field_work"
+    },
+    {
+      "claim_id": "P003000-02",
+      "claim": "Calibration cannot by itself eliminate imprecision or uncontrolled systematic effects.",
+      "kind": "metrology_principle",
+      "supports": [
+        {
+          "source_id": "nist-calibration",
+          "location": "Calibration pitfalls: precision, operators, system control",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nist-uncertainty",
+          "location": "Calibration pitfalls: precision, operators, system control",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "selected_primary_or_official_reference_checked;_second_source_where_available;_technical_editorial_review_pending",
+      "limits": "Source covers the stated mechanism or practice at conceptual level; equipment, environment and applicable adopted rules may differ.",
+      "professional_review": "pending_before_consequential_site_specific_design_or_field_work"
+    },
+    {
+      "claim_id": "P003000-03",
+      "claim": "Displayed resolution and measurement uncertainty should not be conflated in tolerance decisions.",
+      "kind": "derived_synthesis",
+      "supports": [
+        {
+          "source_id": "nist-calibration",
+          "location": "Instrument precision and uncertainty discussion",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nist-uncertainty",
+          "location": "Instrument precision and uncertainty discussion",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "selected_primary_or_official_reference_checked;_second_source_where_available;_technical_editorial_review_pending",
+      "limits": "Mathematical deduction or author synthesis; cited source supplies context, not direct wording.",
+      "professional_review": "pending_before_consequential_site_specific_design_or_field_work"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_technical_review_pending",
+  "citation_policy": "Claim-to-source records provide references and source locators. These are educational drafts, not independently certified engineering, clinical or adopted-code instructions. Where a claim is a mathematical derivation or synthesis, that status is identified explicitly."
+}

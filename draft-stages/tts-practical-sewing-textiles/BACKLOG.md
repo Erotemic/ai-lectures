@@ -1,9 +1,8 @@
 # Rotation backlog: Sewing and Textiles: Fibers, Fit, Seams, and Repair
 
-Status: lectures `001000` and `002000` authored. Remaining slots below are proposals, not completed manuscripts.
+Status: lectures `001000`, `002000`, and `003000` authored. Remaining slots below are proposals, not completed manuscripts.
 These are ordered topics, not duration or word-count requirements. Retain stable IDs once published.
 
-- `003000` — Machine Needles, Thread, Feed, and Tension
 - `004000` — Seams, Finishes, and Pressing
 - `005000` — Patterns, Ease, and Geometry
 - `006000` — Repairing Tears, Seams, and Worn Clothing
