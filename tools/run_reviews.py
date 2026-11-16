@@ -36,6 +36,12 @@ CATEGORIES = ("unverified_claim", "glossed_step", "unintroduced_term", "internal
              "missing_wiki_link")
 DEFAULT_REVIEWER_MODEL = "qwen3.8-27b-dbirks-hyperqwen-long"
 DEFAULT_CONTRACT_VERSION = "v2"
+# Completion budget for reviewer calls. The 27b-class reasoning model can spend
+# its entire completion budget on thinking and emit an empty response
+# (finish_reason=length); 65536 leaves room for the JSON answer. Bump when the
+# reviewer's reasoning verbosity grows; units that fail are re-billed via
+# `run --resume`.
+REVIEWER_MAX_TOKENS = 65536
 TRACK_ROOTS = ("content", "draft-stages")
 
 
@@ -335,7 +341,7 @@ def resolve_litellm():
 def call_reviewer(base: str, key: str, model: str, system: str, user: str,
                   timeout: int = 900, attempts: int = 3) -> dict:
     body = json.dumps({
-        "model": model, "temperature": 0, "max_tokens": 32768,
+        "model": model, "temperature": 0, "max_tokens": REVIEWER_MAX_TOKENS,
         "messages": [{"role": "system", "content": system},
                      {"role": "user", "content": user}],
     }).encode("utf-8")

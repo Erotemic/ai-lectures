@@ -229,6 +229,8 @@ The real builders of Uruk did leave works behind. Most of their names have disap
 8. **Gil J. Stein and colleagues, 'Uruk Colonies and Anatolian Communities: An Interim Report on the 1992–1993 Excavations at Hacinebi, Turkey,' *American Journal of Archaeology* 100 (1996): 205–260.** Material evidence for Uruk-related enclaves and local exchange without demonstrable conquest at Hacinebi. <https://www.journals.uchicago.edu/doi/10.2307/506903>
 9. **Amanda H. Podany, *Weavers, Scribes, and Kings: A New History of the Ancient Near East* (Oxford University Press, 2022), chapter on the Uruk period.** Social reconstruction and the competing explanations of beveled-rim bowls. <https://global.oup.com/academic/product/weavers-scribes-and-kings-9780190059040>
 10. **German Archaeological Institute, Uruk-Warka Collection.** Excavated finds spanning the history of the site, including ordinary artifacts and written records. <https://www.dainst.org/en/departments/orient-department/about-us/organisation/uruk-warka-collection>
+11. **Wikipedia, “Uruk.”** General entry point for the city, the Uruk period, and the modern site of Warka. <https://en.wikipedia.org/wiki/Uruk>
+12. **Wikipedia, “Proto-cuneiform.”** General entry point for the earliest Uruk script. <https://en.wikipedia.org/wiki/Proto-cuneiform>
 
 ### Narration and terminology
 
