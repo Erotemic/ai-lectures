@@ -1,0 +1,88 @@
+{
+  "schema": "llm-resource-tally/v4",
+  "accounting_scope": {
+    "scope_schema": 1,
+    "coverage_status": "unknown_unless_established_externally",
+    "allocation_policy": "next_commit_or_reconciled_pending",
+    "cross_repo_deduplication": "best_effort_local_user_machine",
+    "cross_repo_claim_identity": "backend_plus_transcript_source_digest_local_only",
+    "durable_observation_identity_backends": [
+      "pi"
+    ],
+    "global_observation_identity": false,
+    "durable_message_ids": false,
+    "durable_transcript_source_identity": false,
+    "session_identity": "backend_session_id",
+    "stored_state_integrity": "malformed_policy_or_ledger_fails_closed",
+    "per_model_turn_counts": false,
+    "history_rewrite_recovery": "requires_retained_transcripts",
+    "non_committing_work": "requires_reconcile",
+    "compaction_usage": "measured_signals_only_when_runtime_omits_usage"
+  },
+  "through": "2026-11-16T17:14:54.745335+00:00",
+  "ledger_rows": 105,
+  "commits_accounted": 100,
+  "turns": 739,
+  "tokens": {
+    "input": 2264056,
+    "cache_write": 0,
+    "cache_read": 129280256,
+    "output": 836126,
+    "billable_input": 131544312
+  },
+  "by_model": {
+    "gpt-6.1-sol": {
+      "input": 1575576,
+      "cache_write": 0,
+      "cache_read": 120100608,
+      "output": 654771
+    },
+    "litellm/qwen3.8-27b-dbirks-hyperqwen-long": {
+      "input": 642394,
+      "cache_write": 0,
+      "cache_read": 9047168,
+      "output": 174971
+    },
+    "litellm/qwen3.8-27b-dbirks-hyperqwen-huge": {
+      "input": 46086,
+      "cache_write": 0,
+      "cache_read": 132480,
+      "output": 6384
+    }
+  },
+  "by_activity": {
+    "unlabeled": {
+      "input": 2264056,
+      "cache_write": 0,
+      "cache_read": 129280256,
+      "output": 836126
+    }
+  },
+  "by_agent": {
+    "codex": {
+      "input": 1575576,
+      "cache_write": 0,
+      "cache_read": 120100608,
+      "output": 654771
+    },
+    "pi": {
+      "input": 688480,
+      "cache_write": 0,
+      "cache_read": 9179648,
+      "output": 181355
+    }
+  },
+  "server_tool_calls": {
+    "web_search": 0,
+    "web_fetch": 0
+  },
+  "time": {
+    "wall_clock_s": 23665.8
+  },
+  "compaction_signals": {
+    "events": 0,
+    "peak_context_tokens": 0,
+    "summary_chars": 0
+  },
+  "modeled_post_hoc": "inference_seconds, energy_kwh, carbon_gco2e, usd — derived from the measurements above by `estimate`; not stored here."
+}
