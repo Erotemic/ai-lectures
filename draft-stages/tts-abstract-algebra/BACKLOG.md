@@ -1,12 +1,12 @@
-# Abstract Algebra: Structure, Symmetry, and Arithmetic - after 80 completed lectures
+# Abstract Algebra: Structure, Symmetry, and Arithmetic — after 84 completed lectures
 
-Quadratic Chabauty adds p-adic height constraints beyond the classical rank condition; Demazure crystals recover key polynomials; quantum Lefschetz yields quintic hypergeometric periods; a two-vertex quiver exposes stability wall crossing.
+These lectures distinguish Hodge-Tate weights from crystalline filtered Frobenius, connect Hecke multiplication to Kazhdan-Lusztig singularity polynomials, and derive a quantum K-theoretic difference equation on the projective line.
 
 ## Unindexed continuation proposals
 
-- 081000 - p-adic Hodge Comparison and Galois Representations
-- 082000 - Kazhdan-Lusztig Polynomials and Representation Categories
-- 083000 - Quantum K-Theory and Difference Connections
-- 084000 - Bridgeland Stability on Derived Moduli Spaces
+- 085000 — Semistable Representations and Monodromy
+- 086000 — Soergel Bimodules and Hodge Positivity
+- 087000 — Bridgeland Moduli on K3 Surfaces
+- 088000 — Quantum K-Theory, J-Functions, and Difference Toda
 
-Proposals are not registered; manuscripts are added only when written. The material determines lecture depth and length; no duration or word-count policy applies.
+Proposals are not registered until their manuscripts exist. Material determines lecture depth and length; no duration or word-count policy applies.

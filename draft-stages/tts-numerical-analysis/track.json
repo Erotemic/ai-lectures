@@ -32,7 +32,8 @@
     "validated-bifurcation-diagrams",
     "validated-periodic-orbits",
     "hybrid-event-sensitivity",
-    "goal-oriented-dual-weighted-residual"
+    "goal-oriented-dual-weighted-residual",
+    "rotated-anisotropy-amg"
   ],
   "lectures": [
     {
@@ -277,6 +278,15 @@
       "spoken_words": 1080,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 7.4
+    },
+    {
+      "id": "028000",
+      "title": "Algebraic Multigrid for Rotated Anisotropy",
+      "section": "rotated-anisotropy-amg",
+      "file": "028000-algebraic-multigrid-for-rotated-anisotropy.md",
+      "spoken_words": 887,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.1
     }
   ]
 }

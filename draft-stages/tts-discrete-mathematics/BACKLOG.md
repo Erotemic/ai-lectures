@@ -1,12 +1,12 @@
-# Discrete Mathematics and Combinatorics - after 40 completed lectures
+# Discrete Mathematics and Combinatorics — after 42 completed lectures
 
-Reed-Muller restrictions connect polynomial evaluation codes with local tests; a six-vertex absorber shows how an almost-perfect hypergraph matching can be completed, provided the global absorbing lemma is proved.
+The Fourier formula makes three-term arithmetic progression counts exact; the four-cycle criterion identifies when dense deterministic graphs are asymptotically quasirandom.
 
 ## Unindexed continuation proposals
 
-- 041000 - Additive Combinatorics and Fourier Uniformity
-- 042000 - Pseudorandom Graphs and Quasirandom Equivalences
-- 043000 - Graph Limits and Regularity
-- 044000 - Coding-Theoretic List Recovery and Agreement Testing
+- 043000 — Graph Limits, Cut Distance, and Regularity
+- 044000 — Freiman Models and Small Doubling
+- 045000 — Dense Model Theorems and Arithmetic Regularity
+- 046000 — Agreement Testing and List Recovery
 
-Proposals are not registered; manuscripts are added only when written. The material determines lecture depth and length; no duration or word-count policy applies.
+Proposals are not registered until their manuscripts exist. Material determines lecture depth and length; no duration or word-count policy applies.

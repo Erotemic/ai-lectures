@@ -1,12 +1,12 @@
-# Optimization, Convexity, and Duality - after 24 completed lectures
+# Optimization, Convexity, and Duality — after 25 completed lectures
 
-CVaR and entropic risk describe different loss tails; a finite ambiguity interval gives explicit worst-case mean, CVaR, and entropic-risk calculations without swapping minimax operations without justification.
+An exact rational primal-dual witness proves the optimum of a two-by-two SDP; another two-by-two system is weakly infeasible despite arbitrarily small distance to the positive semidefinite cone.
 
 ## Unindexed continuation proposals
 
-- 025000 - Exact SDP Duality and Numerical Facial Reduction
-- 026000 - Variance-Reduced Stochastic Mirror-Prox
-- 027000 - Adaptive Sampling and Inexact Variational Inequality Certificates
-- 028000 - Coherent Risk and Distributionally Robust Dynamic Programs
+- 026000 — Variance-Reduced Stochastic Mirror-Prox
+- 027000 — Inexact Variational Inequality Certificates
+- 028000 — Dynamic Coherent Risk and Distributional Ambiguity
+- 029000 — Verified Polynomial Sum-of-Squares Certificates
 
-Proposals are not registered; manuscripts are added only when written. The material determines lecture depth and length; no duration or word-count policy applies.
+Proposals are not registered until their manuscripts exist. Material determines lecture depth and length; no duration or word-count policy applies.

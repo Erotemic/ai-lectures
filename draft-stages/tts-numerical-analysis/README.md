@@ -132,3 +132,9 @@ All narrations stand alone. Derivations, exact assumptions, exercises with answe
 - 027000 — [Goal-Oriented Error Estimation and Dual-Weighted Residuals](027000-goal-oriented-dual-weighted-residual.md)
 
 The spoken manuscripts stand alone. Their mathematical companions preserve exact hypotheses, derivations, exercises with answers, and references. Duration is descriptive, never a content quota.
+
+## Continuation 21: mathematical structure and checkable certificates
+
+- 028000 — [Algebraic Multigrid for Rotated Anisotropy](028000-algebraic-multigrid-for-rotated-anisotropy.md)
+
+These narrations stand alone. The mathematical companions contain exact conventions, derivations, exercises with answers, and source links. Descriptive lengths are not authoring constraints.

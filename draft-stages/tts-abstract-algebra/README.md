@@ -183,3 +183,12 @@ All narrations stand alone. Derivations, exact assumptions, exercises with answe
 - 080000 — [Stability Conditions, Quiver Mutations, and Wall Crossing](080000-stability-quivers-and-wall-crossing.md)
 
 The spoken manuscripts stand alone. Their mathematical companions preserve exact hypotheses, derivations, exercises with answers, and references. Duration is descriptive, never a content quota.
+
+## Continuation 21: mathematical structure and checkable certificates
+
+- 081000 — [p-Adic Galois Representations and Hodge-Tate Weights](081000-p-adic-galois-representations-and-hodge-tate-weights.md)
+- 082000 — [Crystalline Representations and Filtered Frobenius Modules](082000-crystalline-representations-and-filtered-frobenius.md)
+- 083000 — [Kazhdan-Lusztig Polynomials and Hecke Algebras](083000-kazhdan-lusztig-polynomials-and-hecke-algebras.md)
+- 084000 — [Quantum K-Theory and Difference Connections](084000-quantum-k-theory-and-difference-connections.md)
+
+These narrations stand alone. The mathematical companions contain exact conventions, derivations, exercises with answers, and source links. Descriptive lengths are not authoring constraints.

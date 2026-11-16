@@ -134,3 +134,9 @@ All narrations stand alone. Derivations, exact assumptions, exercises with answe
 - 024000 — [Entropic Risk, CVaR, and Distributional Ambiguity](024000-entropic-risk-cvar-and-ambiguity.md)
 
 The spoken manuscripts stand alone. Their mathematical companions preserve exact hypotheses, derivations, exercises with answers, and references. Duration is descriptive, never a content quota.
+
+## Continuation 21: mathematical structure and checkable certificates
+
+- 025000 — [Exact Semidefinite Certificates and Weak Infeasibility](025000-exact-semidefinite-certificates-and-weak-infeasibility.md)
+
+These narrations stand alone. The mathematical companions contain exact conventions, derivations, exercises with answers, and source links. Descriptive lengths are not authoring constraints.

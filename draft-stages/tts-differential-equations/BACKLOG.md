@@ -1,12 +1,12 @@
-# Differential Equations and Dynamical Systems - after 40 completed lectures
+# Differential Equations and Dynamical Systems — after 42 completed lectures
 
-Whitham modulation derives slow wave-number dynamics from phase compatibility and averaging; moving-boundary conservation identifies the relative flux needed for numerical free-stream preservation.
+Outgoing radial waves explain pointwise decay despite energy conservation; vector-field estimates and null forms connect Lorentzian geometry to global small-data results.
 
 ## Unindexed continuation proposals
 
-- 041000 - Nonlinear Waves and Long-Time Decay
-- 042000 - Slow-Manifold Models for Pattern Formation
-- 043000 - Free-Boundary Problems and Stefan Models
-- 044000 - Multiphysics Coupling and Energy Stability
+- 043000 — Slow Manifolds and Pattern Formation
+- 044000 — Stefan Free-Boundary Problems
+- 045000 — Multiphysics Energy-Stable Coupling
+- 046000 — Quasilinear Waves and Weak Null Conditions
 
-Proposals are not registered; manuscripts are added only when written. The material determines lecture depth and length; no duration or word-count policy applies.
+Proposals are not registered until their manuscripts exist. Material determines lecture depth and length; no duration or word-count policy applies.

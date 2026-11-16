@@ -143,3 +143,10 @@ All narrations stand alone. Derivations, exact assumptions, exercises with answe
 - 040000 — [Hypergraph Matchings and the Absorption Method](040000-hypergraph-matchings-and-absorption.md)
 
 The spoken manuscripts stand alone. Their mathematical companions preserve exact hypotheses, derivations, exercises with answers, and references. Duration is descriptive, never a content quota.
+
+## Continuation 21: mathematical structure and checkable certificates
+
+- 041000 — [Additive Combinatorics and Fourier Uniformity](041000-additive-combinatorics-and-fourier-uniformity.md)
+- 042000 — [Quasirandom Graphs and Four-Cycle Counts](042000-quasirandom-graphs-and-four-cycle-counts.md)
+
+These narrations stand alone. The mathematical companions contain exact conventions, derivations, exercises with answers, and source links. Descriptive lengths are not authoring constraints.

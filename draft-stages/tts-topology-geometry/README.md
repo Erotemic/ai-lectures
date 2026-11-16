@@ -143,3 +143,10 @@ All narrations stand alone. Derivations, exact assumptions, exercises with answe
 - 040000 — [Families Index Theory and Determinant Line Bundles](040000-families-index-and-determinant-lines.md)
 
 The spoken manuscripts stand alone. Their mathematical companions preserve exact hypotheses, derivations, exercises with answers, and references. Duration is descriptive, never a content quota.
+
+## Continuation 21: mathematical structure and checkable certificates
+
+- 041000 — [Seiberg-Witten Monopoles and Four-Manifolds](041000-seiberg-witten-monopoles-and-four-manifolds.md)
+- 042000 — [Adjunction Inequalities and Smooth Genus Bounds](042000-adjunction-inequalities-and-smooth-genus-bounds.md)
+
+These narrations stand alone. The mathematical companions contain exact conventions, derivations, exercises with answers, and source links. Descriptive lengths are not authoring constraints.
