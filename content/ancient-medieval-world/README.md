@@ -24,6 +24,7 @@ This is an independent, source-grounded, audio-first world-history curriculum fo
 | 012000 | The Ganges Plain: Cities, Kingdoms, and Paths to Liberation | 1,196 |
 | 013000 | Eastern Zhou: Contending States and Arguments about Rule | 1,124 |
 | 014000 | Beyond Egypt's Southern Border: Kush and the Early Sahel | 1,241 |
+| 014100 | Beyond the Pyramids: Rulers, Scribes, and the Meroitic Kingdom of Kush | 1,269 |
 | 015000 | Several American Worlds: Ceremonial Centers, Settlements, and Exchange | 1,166 |
 | 016000 | After Alexander: Conquest, Succession, and the Hellenistic Kingdoms | 1,455 |
 | 017000 | A King's Words in Stone: The Maurya World and Ashoka's Edicts | 1,354 |
@@ -65,6 +66,7 @@ This is an independent, source-grounded, audio-first world-history curriculum fo
 | 039100 | A Field under Several Names: Estates, Taxes, and Work in Medieval Japan | 1,293 |
 | 039200 | A Room behind the Screen: Women, Writing, and Power at the Heian Court | 1,357 |
 | 040000 | Reading the Ocean: Voyaging and Settlement in the Pacific | 1,359 |
+| 040100 | Country, Water, and Fire: Different Histories of Australia before Colonization | 1,189 |
 | 041000 | Many Khans, Many Empires: Conquest and Government across Eurasia | 1,341 |
 | 042000 | A Disease with Many Histories: Plague across the Fourteenth-Century World | 1,342 |
 | 043000 | More than a Pilgrimage: Mali, the Sahel, and the Work of Empire | 1,297 |
@@ -74,12 +76,14 @@ This is an independent, source-grounded, audio-first world-history curriculum fo
 | 044000 | The Walls and the Lives Beyond Them: Great Zimbabwe and Southern Africa | 1,249 |
 | 044100 | A Hill above the River: Cattle, Gold, and Power at Mapungubwe | 1,164 |
 | 044200 | Before the Brass Plaques: The Edo Kingdom and Benin City | 1,209 |
+| 044300 | Before the Portuguese Arrived: How the Kingdom of Kongo Took Shape | 1,233 |
 | 045000 | More than One Capital: Maya and Mexica Worlds before 1500 | 1,244 |
 | 045100 | A Book of Returning Days: Maya Manuscripts, Astronomy, and Lost Libraries | 1,356 |
 | 045200 | Names Cut into Stone: Rival Kings and the Classic Maya World | 1,236 |
 | 046000 | Roads before the Empire: Andean States and the Rise of the Inca | 1,237 |
 | 046100 | Counting without a Page: Khipu and Knowledge in the Andes | 1,289 |
 | 046200 | Before the Inca: Wari, Tiwanaku, and Two Andean Ways of Power | 1,221 |
+| 046300 | Kin, Fields, and Obligation: Social Worlds of the Andes before 1500 | 1,362 |
 | 047000 | Ports between Monsoons: Maritime Asia before 1500 | 1,266 |
 | 047100 | Timber Sewn to the Sea: The Boats and River Ports of Butuan | 1,146 |
 | 047200 | Ships under Imperial Orders: Zheng He and the Ming Indian Ocean | 1,280 |
@@ -95,6 +99,7 @@ This is an independent, source-grounded, audio-first world-history curriculum fo
 | 056100 | Houses of Stone on the Sahel: Farming and Community at Dhar Tichitt | 1,286 |
 | 057000 | Around the Moving Lake: Kanem, Bornu, and the Peoples of Central Africa | 1,399 |
 | 058000 | Beyond the Temple Walls: Water, Work, and Households at Angkor | 1,408 |
+| 058100 | A Field Written in Stone: Land, Law, and Obligation in the Khmer World | 1,200 |
 | 059000 | Copper, Canoes, and Seasonal Worlds: The Great Lakes before 1500 | 1,521 |
 | 060000 | Houses Big Enough for Relations: Villages and Councils in the Northeast | 1,406 |
 | 061000 | Working with the Tides: Sea Gardens and Communities of the Northwest Coast | 1,465 |
@@ -162,3 +167,9 @@ Eight lectures inserted at stable lower-order IDs `002100`, `011100`, `020100`, 
 ## Ninth regional-depth installment — courts, writing, and trade (November 2026)
 
 Eight new source-led lectures are inserted into unused lower-order IDs beside related chapters: `022200`, `030100`, `033200`, `035100`, `036200`, `043300`, `044200`, and `045200`. Topics include Zapotec writing and territory, law under the Umayyads in Egypt, contested Southern Song property rights, West African gold technology, Kilwa coins in Swahili homes, dating Timbuktu's manuscript history, the Edo kingdom before 1500, and Classic Maya rival dynasties. The total is **122 indexed lectures**; 114 earlier manuscripts and evidence records remain unchanged.
+
+## Tenth regional-depth installment — institutions, land use, and pre-contact governance (November 2026)
+
+Five new source-mapped lectures use unused lower-order IDs `014100`, `040100`, `044300`, `046300`, and `058100` beside their related surveys. Their subjects are Meroitic Kush's rulers, industrial and hydraulic landscape, and partially understood writing; differentiated Aboriginal histories at Willandra, Budj Bim and Martu Country; Kongo's earlier political formation using critically dated later testimony; the variation of Andean kinship, exchange and work arrangements; and Angkorian land grants, temple rights and local legal practices. The index now has **127 lectures**, retaining all 122 previous indexed manuscripts.
+
+Every spoken paragraph in the five additions maps to an evidence record in `metadata/NNNNNN.json`. Each lecture provides an accessible reading list and specific relevant Wikipedia article links **for orientation only**, distinct from claims grounded in heritage records, academic research or Indigenous community accounts. Sources whose accessible evidence is limited to a public abstract are labeled.

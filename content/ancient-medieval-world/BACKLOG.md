@@ -267,3 +267,15 @@ Check source claims in full primary or specialist editions wherever access is cu
 ### Further research direction
 
 Prioritize additional original-language or archaeological accounts rather than increasing case-study count mechanically. Other substantial history gaps include the reigns and institutions of Meroitic Kush, Classical Khmer law and land grants, early Islamic East African settlement, Kongo before 1500, land use in precolonial Australia, and pre-contact Andean social history beyond dynastic labor systems. Track source limitations at claim level, especially when only abstracts and institutional syntheses were available.
+
+## Tenth regional-depth installment — completed (November 2026)
+
+| ID | Completed lecture | Evidence and scope |
+| --- | --- | --- |
+| 014100 | Beyond the Pyramids: Rulers, Scribes, and the Meroitic Kingdom of Kush | UNESCO site archaeology, Natakamani and Amanitore field research, incomplete Meroitic language decipherment |
+| 040100 | Country, Water, and Fire | Willandra and Budj Bim heritage plus Gunditjmara community accounts; site-specific Martu fire research |
+| 044300 | Before the Portuguese Arrived | UNESCO capital archaeology and John Thornton's 2025 reconstruction from later historical testimony |
+| 046300 | Kin, Fields, and Obligation | Ayllu and relational kinship, Paracas economic evidence, distinguish state labor and resettlement |
+| 058100 | A Field Written in Stone | Old Khmer inscription scholarship, Sdok Kak Thom, grants, disputes, temple and private rights |
+
+The next high-priority geographical gap is **early Islamic East African settlement beyond Swahili stone towns**, especially smaller coastal and hinterland communities and how oral traditions relate to excavation. Additional fuller translations and primary archaeological studies remain priorities in the five completed themes. Wikipedia links are supplementary navigation; scholarly, institutional and community materials anchor individual evidence records.
