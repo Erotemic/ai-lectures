@@ -1,9 +1,8 @@
 # Rotation backlog: Building Science: Heat, Air, Moisture, and Durable Enclosures
 
-Status: lecture `001000` authored. The following lecture slots are *proposals*, not completed manuscripts.
+Status: lectures `001000` and `002000` authored. Remaining slots below are proposals, not completed manuscripts.
 These are ordered topics, not duration or word-count requirements. Retain stable IDs once published.
 
-- `002000` — Heat Flow, Thermal Bridges, and Whole-Assembly R-Values
 - `003000` — Air Leakage, Pressure Differences, and Stack Effect
 - `004000` — Rain Control, Flashing, and Drainage Planes
 - `005000` — Vapor Diffusion, Condensation, and Drying Paths

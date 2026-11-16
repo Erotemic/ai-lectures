@@ -12,6 +12,9 @@ An independent, audio-first lecture track for mathematical computer science. The
 | 004000 | Why No Program Can Decide Every Halting Question | Modern diagonal proof of halting undecidability, finite-bounded contrast, and Turing's original historical formulation |
 | 005000 | Recognizing an Answer Is Not the Same as Deciding It | Recognizers versus deciders, complement theorem, fair dovetailing, and computable enumeration |
 | 006000 | Reductions: How One Impossible Decision Problem Reveals Another | Mapping reductions, direction and totality, acceptance/halting equivalences, and full proof of Rice's theorem |
+| 007000 | What a Finite Machine Can Remember | DFA definition, two complete transition-table invariants, product closure, decidable equivalence, and an infinite-prefix nonregularity proof |
+| 008000 | Many Descriptions, One Regular Language | NFA subset construction, regular-expression equivalence, correct pumping-lemma quantifiers, and both directions of Myhill–Nerode |
+| 009000 | When a Stack Changes the Language | Context-free grammar derivations, PDA recognition, CYK parsing proof, ambiguity, and an explicit non-context-freeness argument |
 
 These are standalone narrated lectures. They make their assumptions explicit and avoid relying on previous episodes for necessary definitions. Lecture length follows the mathematics being taught; there are no target durations or word-count requirements.
 
@@ -33,6 +36,7 @@ python tools/lecture_inventory.py
 python draft-stages/tts-algorithms-computability-complexity/examples/lower_bound_reference.py --check
 python draft-stages/tts-algorithms-computability-complexity/citations/validate.py
 python draft-stages/tts-algorithms-computability-complexity/examples/finite_reductions_lab.py --check
+python draft-stages/tts-algorithms-computability-complexity/examples/automata_and_grammars_lab.py --check
 ```
 
 For independent citation checks, each anchored phrase should occur exactly once inside the *spoken* region, and each `source_id` should resolve in `metadata/sources.json`. No runtime pack builds, TTS, or repository-wide test suite is required for this authoring batch.
@@ -40,3 +44,15 @@ For independent citation checks, each anchored phrase should occur exactly once 
 ## Relationship with existing tracks
 
 `tts-logic-types` covers logical and type-theoretic foundations; `tts-category-theory` and `tts-numerical-analysis` explore adjacent mathematics. This track focuses on the algorithmic specification, upper and lower cost bounds, decidability, reductions, and proof-to-implementation relationships. It may use similar technical vocabulary without assuming the listener has completed those other courses.
+
+## Automata and grammar examples (007000–009000)
+
+`examples/automata_and_grammars_lab.py` implements two complete DFAs, an NFA
+with subset determinization, reachable product construction, BFS disagreement
+witnesses, a stack recognizer, balanced parentheses, a CNF CYK chart, and
+parse-tree counts for one ambiguous grammar. Its `--check` mode exhaustively
+compares *bounded* input sets against independent specifications. The lectures
+contain the universal mathematical arguments; exhaustive testing to a fixed
+input length is **not** a formal proof of regularity, nonregularity, or
+context-freeness. Existing Isabelle/HOL CYK formalization is cited separately
+with correct authorship; no Lean formal proof is claimed here.

@@ -11,7 +11,8 @@
     "problems-algorithms-and-computability",
     "computational-cost-and-lower-bounds",
     "proof-refinement-and-verification",
-    "computability-and-undecidability"
+    "computability-and-undecidability",
+    "finite-automata-and-grammars"
   ],
   "lectures": [
     {
@@ -60,6 +61,30 @@
       "section": "computability-and-undecidability",
       "file": "006000-reductions-and-rices-theorem.md",
       "spoken_words": 2307,
+      "draft_status": "substantive"
+    },
+    {
+      "id": "007000",
+      "title": "What a Finite Machine Can Remember",
+      "section": "finite-automata-and-grammars",
+      "file": "007000-what-a-finite-machine-can-remember.md",
+      "spoken_words": 1814,
+      "draft_status": "substantive"
+    },
+    {
+      "id": "008000",
+      "title": "Many Descriptions, One Regular Language",
+      "section": "finite-automata-and-grammars",
+      "file": "008000-many-descriptions-one-regular-language.md",
+      "spoken_words": 1966,
+      "draft_status": "substantive"
+    },
+    {
+      "id": "009000",
+      "title": "When a Stack Changes the Language",
+      "section": "finite-automata-and-grammars",
+      "file": "009000-when-a-stack-changes-the-language.md",
+      "spoken_words": 2195,
       "draft_status": "substantive"
     }
   ]

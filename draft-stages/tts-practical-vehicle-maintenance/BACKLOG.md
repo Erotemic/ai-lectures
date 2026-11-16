@@ -1,9 +1,8 @@
 # Rotation backlog: Vehicles and Small Engines: Forces, Systems, and Maintenance
 
-Status: lecture `001000` authored. The following lecture slots are *proposals*, not completed manuscripts.
+Status: lectures `001000` and `002000` authored. Remaining slots below are proposals, not completed manuscripts.
 These are ordered topics, not duration or word-count requirements. Retain stable IDs once published.
 
-- `002000` — Tire Pressure, Temperature, Load, and Traction
 - `003000` — Engines, Motors, Gearing, and Efficiency
 - `004000` — Hydraulic Brakes and Energy Dissipation
 - `005000` — Suspension, Steering, and Alignment

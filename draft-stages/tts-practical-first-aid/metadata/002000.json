@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "lecture_id": "002000",
+  "transcript": "002000-recognizing-urgent-conditions-and-calling-for-help.md",
+  "related_resources": [
+    {
+      "source_id": "rc-first-aid",
+      "reason": "Check, Call, Care and emergency activation"
+    },
+    {
+      "source_id": "rc-cpr",
+      "reason": "Cardiac arrest CPR and age-specific guidance"
+    },
+    {
+      "source_id": "rc-aed",
+      "reason": "AED prompts, clear before analysis and shock"
+    },
+    {
+      "source_id": "aha-warning",
+      "reason": "Heart attack symptoms and B.E.F.A.S.T. stroke recognition"
+    },
+    {
+      "source_id": "redcross-stroke",
+      "reason": "Stroke symptoms, FAST and emergency activation"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P002000-01",
+      "claim": "Unresponsiveness with absent or abnormal breathing warrants emergency call, CPR and AED access.",
+      "kind": "underlying_physics_or_field_practice",
+      "supports": [
+        {
+          "source_id": "rc-first-aid",
+          "location": "Red Cross: life threats and cardiac arrest",
+          "role": "reference"
+        },
+        {
+          "source_id": "rc-cpr",
+          "location": "Red Cross: life threats and cardiac arrest",
+          "role": "reference"
+        },
+        {
+          "source_id": "rc-aed",
+          "location": "Red Cross: life threats and cardiac arrest",
+          "role": "reference"
+        }
+      ],
+      "verification_level": "selected_source_links_checked_or_existing_round01_source;_editorial_review_pending",
+      "limits": "Mechanism-focused explanation, not a jurisdiction-specific specification or quantitative site certification.",
+      "professional_review": "pending_if_applied_to_specific_field_installation_or_safety_critical_decision"
+    },
+    {
+      "claim_id": "P002000-02",
+      "claim": "Stroke warning signs include facial, arm, speech and sudden balance/visual changes.",
+      "kind": "underlying_physics_or_field_practice",
+      "supports": [
+        {
+          "source_id": "aha-warning",
+          "location": "AHA BE FAST and Red Cross FAST",
+          "role": "reference"
+        },
+        {
+          "source_id": "redcross-stroke",
+          "location": "AHA BE FAST and Red Cross FAST",
+          "role": "reference"
+        }
+      ],
+      "verification_level": "selected_source_links_checked_or_existing_round01_source;_editorial_review_pending",
+      "limits": "Mechanism-focused explanation, not a jurisdiction-specific specification or quantitative site certification.",
+      "professional_review": "pending_if_applied_to_specific_field_installation_or_safety_critical_decision"
+    },
+    {
+      "claim_id": "P002000-03",
+      "claim": "Emergency assessment should distinguish observations from a presumed diagnosis.",
+      "kind": "underlying_physics_or_field_practice",
+      "supports": [
+        {
+          "source_id": "rc-first-aid",
+          "location": "Check-Call-Care and condition signs",
+          "role": "reference"
+        },
+        {
+          "source_id": "redcross-stroke",
+          "location": "Check-Call-Care and condition signs",
+          "role": "reference"
+        }
+      ],
+      "verification_level": "selected_source_links_checked_or_existing_round01_source;_editorial_review_pending",
+      "limits": "Mechanism-focused explanation, not a jurisdiction-specific specification or quantitative site certification.",
+      "professional_review": "pending_if_applied_to_specific_field_installation_or_safety_critical_decision"
+    },
+    {
+      "claim_id": "P002000-04",
+      "claim": "Heart attack warning signs can include chest discomfort and other associated symptoms.",
+      "kind": "underlying_physics_or_field_practice",
+      "supports": [
+        {
+          "source_id": "aha-warning",
+          "location": "AHA heart attack symptoms",
+          "role": "reference"
+        }
+      ],
+      "verification_level": "selected_source_links_checked_or_existing_round01_source;_editorial_review_pending",
+      "limits": "Mechanism-focused explanation, not a jurisdiction-specific specification or quantitative site certification.",
+      "professional_review": "pending_if_applied_to_specific_field_installation_or_safety_critical_decision"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_technical_review_pending",
+  "citation_policy": "Selected claim-source mappings, with primary standards and established institutions prioritized. Some retained Round 1 links were not revisited in this round. No field certification, independent professional or adopted-code check has been performed."
+}

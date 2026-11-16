@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "lecture_id": "002000",
+  "transcript": "002000-gear-ratios-and-transmission-layouts.md",
+  "related_resources": [
+    {
+      "source_id": "mit-gear-ratios",
+      "reason": "Tooth-count and series gearing ratio derivations"
+    },
+    {
+      "source_id": "mit-gear-trains",
+      "reason": "Gear trains, ideal power, efficiency and torque"
+    },
+    {
+      "source_id": "openstax-machines",
+      "reason": "Mechanical advantage and energy conservation"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P002000-01",
+      "claim": "For simple external gears, speed ratio depends on tooth counts and reversal of direction.",
+      "kind": "underlying_physics_or_field_practice",
+      "supports": [
+        {
+          "source_id": "mit-gear-ratios",
+          "location": "MIT gear ratio equations",
+          "role": "reference"
+        },
+        {
+          "source_id": "mit-gear-trains",
+          "location": "MIT gear ratio equations",
+          "role": "reference"
+        }
+      ],
+      "verification_level": "selected_source_links_checked_or_existing_round01_source;_editorial_review_pending",
+      "limits": "Mechanism-focused explanation, not a jurisdiction-specific specification or quantitative site certification.",
+      "professional_review": "pending_if_applied_to_specific_field_installation_or_safety_critical_decision"
+    },
+    {
+      "claim_id": "P002000-02",
+      "claim": "Torque and angular velocity trade at approximately conserved power minus losses.",
+      "kind": "underlying_physics_or_field_practice",
+      "supports": [
+        {
+          "source_id": "mit-gear-trains",
+          "location": "MIT torque ratio and mechanical advantage",
+          "role": "reference"
+        },
+        {
+          "source_id": "openstax-machines",
+          "location": "MIT torque ratio and mechanical advantage",
+          "role": "reference"
+        }
+      ],
+      "verification_level": "selected_source_links_checked_or_existing_round01_source;_editorial_review_pending",
+      "limits": "Mechanism-focused explanation, not a jurisdiction-specific specification or quantitative site certification.",
+      "professional_review": "pending_if_applied_to_specific_field_installation_or_safety_critical_decision"
+    },
+    {
+      "claim_id": "P002000-03",
+      "claim": "Compound serial gear ratios multiply across stages.",
+      "kind": "underlying_physics_or_field_practice",
+      "supports": [
+        {
+          "source_id": "mit-gear-ratios",
+          "location": "MIT serial gear train formula",
+          "role": "reference"
+        }
+      ],
+      "verification_level": "selected_source_links_checked_or_existing_round01_source;_editorial_review_pending",
+      "limits": "Mechanism-focused explanation, not a jurisdiction-specific specification or quantitative site certification.",
+      "professional_review": "pending_if_applied_to_specific_field_installation_or_safety_critical_decision"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_technical_review_pending",
+  "citation_policy": "Selected claim-source mappings, with primary standards and established institutions prioritized. Some retained Round 1 links were not revisited in this round. No field certification, independent professional or adopted-code check has been performed."
+}

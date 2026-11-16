@@ -1,9 +1,8 @@
 # Rotation backlog: Carpentry: Wood, Framing, Joinery, and Structural Judgment
 
-Status: lecture `001000` authored. The following lecture slots are *proposals*, not completed manuscripts.
+Status: lectures `001000` and `002000` authored. Remaining slots below are proposals, not completed manuscripts.
 These are ordered topics, not duration or word-count requirements. Retain stable IDs once published.
 
-- `002000` — Wood Moisture, Grain, Species, and Grades
 - `003000` — Layout, Plumb, Level, and Square
 - `004000` — Framing Walls and Openings as Load Paths
 - `005000` — Floor and Roof Systems

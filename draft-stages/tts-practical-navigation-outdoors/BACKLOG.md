@@ -1,9 +1,8 @@
 # Rotation backlog: Navigation and Outdoor Skills: Maps, Terrain, and Decisions
 
-Status: lecture `001000` authored. The following lecture slots are *proposals*, not completed manuscripts.
+Status: lectures `001000` and `002000` authored. Remaining slots below are proposals, not completed manuscripts.
 These are ordered topics, not duration or word-count requirements. Retain stable IDs once published.
 
-- `002000` — Topographic Contours, Slope, and Landforms
 - `003000` — Compass Bearings, True and Magnetic North
 - `004000` — Map Scales, Distance, and Elevation Gain
 - `005000` — Terrain Association and Catching Features

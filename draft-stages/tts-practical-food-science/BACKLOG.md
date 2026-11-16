@@ -1,9 +1,8 @@
 # Rotation backlog: Cooking and Food Science: Heat, Water, Structure, and Flavor
 
-Status: lecture `001000` authored. The following lecture slots are *proposals*, not completed manuscripts.
+Status: lectures `001000` and `002000` authored. Remaining slots below are proposals, not completed manuscripts.
 These are ordered topics, not duration or word-count requirements. Retain stable IDs once published.
 
-- `002000` — Heat Transfer, Surface Browning, and Evaporation
 - `003000` — Starches, Gelatinization, and Texture
 - `004000` — Proteins, Tenderness, and Time-Temperature
 - `005000` — Emulsions, Sauces, and Fat-Water Systems

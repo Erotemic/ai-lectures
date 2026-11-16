@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "lecture_id": "002000",
+  "transcript": "002000-water-mains-shutoffs-valves-and-regulators.md",
+  "related_resources": [
+    {
+      "source_id": "pnnl-service-pressure",
+      "reason": "Static supply pressure, PRV mechanism and closed-system expansion"
+    },
+    {
+      "source_id": "epa-maintenance",
+      "reason": "Leaks, service pressure and maintenance"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P002000-01",
+      "claim": "Static supply pressure exists when no fixture water is flowing.",
+      "kind": "underlying_physics_or_field_practice",
+      "supports": [
+        {
+          "source_id": "pnnl-service-pressure",
+          "location": "Description: static service pressure",
+          "role": "reference"
+        }
+      ],
+      "verification_level": "selected_source_links_checked_or_existing_round01_source;_editorial_review_pending",
+      "limits": "Mechanism-focused explanation, not a jurisdiction-specific specification or quantitative site certification.",
+      "professional_review": "pending_if_applied_to_specific_field_installation_or_safety_critical_decision"
+    },
+    {
+      "claim_id": "P002000-02",
+      "claim": "Direct-acting PRVs modulate an internal valve with a diaphragm/spring responding to outlet pressure.",
+      "kind": "underlying_physics_or_field_practice",
+      "supports": [
+        {
+          "source_id": "pnnl-service-pressure",
+          "location": "Description: direct-acting pressure-reducing valves",
+          "role": "reference"
+        }
+      ],
+      "verification_level": "selected_source_links_checked_or_existing_round01_source;_editorial_review_pending",
+      "limits": "Mechanism-focused explanation, not a jurisdiction-specific specification or quantitative site certification.",
+      "professional_review": "pending_if_applied_to_specific_field_installation_or_safety_critical_decision"
+    },
+    {
+      "claim_id": "P002000-03",
+      "claim": "PRVs may create a closed domestic system for thermal expansion considerations.",
+      "kind": "underlying_physics_or_field_practice",
+      "supports": [
+        {
+          "source_id": "pnnl-service-pressure",
+          "location": "Description: PRV, thermal expansion and local codes",
+          "role": "reference"
+        }
+      ],
+      "verification_level": "selected_source_links_checked_or_existing_round01_source;_editorial_review_pending",
+      "limits": "Mechanism-focused explanation, not a jurisdiction-specific specification or quantitative site certification.",
+      "professional_review": "pending_if_applied_to_specific_field_installation_or_safety_critical_decision"
+    },
+    {
+      "claim_id": "P002000-04",
+      "claim": "Pressure assessment and leak checks are distinct from simply observing faucet output.",
+      "kind": "underlying_physics_or_field_practice",
+      "supports": [
+        {
+          "source_id": "epa-maintenance",
+          "location": "Service pressure check and monitoring",
+          "role": "reference"
+        },
+        {
+          "source_id": "pnnl-service-pressure",
+          "location": "Service pressure check and monitoring",
+          "role": "reference"
+        }
+      ],
+      "verification_level": "selected_source_links_checked_or_existing_round01_source;_editorial_review_pending",
+      "limits": "Mechanism-focused explanation, not a jurisdiction-specific specification or quantitative site certification.",
+      "professional_review": "pending_if_applied_to_specific_field_installation_or_safety_critical_decision"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_technical_review_pending",
+  "citation_policy": "Selected claim-source mappings, with primary standards and established institutions prioritized. Some retained Round 1 links were not revisited in this round. No field certification, independent professional or adopted-code check has been performed."
+}

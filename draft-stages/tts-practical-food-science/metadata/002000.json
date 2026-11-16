@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "lecture_id": "002000",
+  "transcript": "002000-heat-transfer-surface-browning-and-evaporation.md",
+  "related_resources": [
+    {
+      "source_id": "ksu-maillard",
+      "reason": "Maillard chemistry contrasted with caramelization"
+    },
+    {
+      "source_id": "illinois-maillard",
+      "reason": "Moisture, heating and browning"
+    },
+    {
+      "source_id": "fsis-thermometer",
+      "reason": "Measurement in thickest relevant portion of food"
+    },
+    {
+      "source_id": "foodsafety-temps",
+      "reason": "Current food-type-specific safe minimum temperatures"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P002000-01",
+      "claim": "Maillard browning involves reducing sugars and amino compounds, distinct from caramelization.",
+      "kind": "underlying_physics_or_field_practice",
+      "supports": [
+        {
+          "source_id": "ksu-maillard",
+          "location": "University extension: chemistry comparison",
+          "role": "reference"
+        },
+        {
+          "source_id": "illinois-maillard",
+          "location": "University extension: chemistry comparison",
+          "role": "reference"
+        }
+      ],
+      "verification_level": "selected_source_links_checked_or_existing_round01_source;_editorial_review_pending",
+      "limits": "Mechanism-focused explanation, not a jurisdiction-specific specification or quantitative site certification.",
+      "professional_review": "pending_if_applied_to_specific_field_installation_or_safety_critical_decision"
+    },
+    {
+      "claim_id": "P002000-02",
+      "claim": "Moisture and heating conditions affect the development of roasted surface browning.",
+      "kind": "underlying_physics_or_field_practice",
+      "supports": [
+        {
+          "source_id": "ksu-maillard",
+          "location": "University extension: high heat and evaporation",
+          "role": "reference"
+        },
+        {
+          "source_id": "illinois-maillard",
+          "location": "University extension: high heat and evaporation",
+          "role": "reference"
+        }
+      ],
+      "verification_level": "selected_source_links_checked_or_existing_round01_source;_editorial_review_pending",
+      "limits": "Mechanism-focused explanation, not a jurisdiction-specific specification or quantitative site certification.",
+      "professional_review": "pending_if_applied_to_specific_field_installation_or_safety_critical_decision"
+    },
+    {
+      "claim_id": "P002000-03",
+      "claim": "Food safety endpoints must be measured or referenced by ingredient-specific guidance, not exterior color alone.",
+      "kind": "underlying_physics_or_field_practice",
+      "supports": [
+        {
+          "source_id": "fsis-thermometer",
+          "location": "USDA/FoodSafety.gov thermometer and endpoint charts",
+          "role": "reference"
+        },
+        {
+          "source_id": "foodsafety-temps",
+          "location": "USDA/FoodSafety.gov thermometer and endpoint charts",
+          "role": "reference"
+        }
+      ],
+      "verification_level": "selected_source_links_checked_or_existing_round01_source;_editorial_review_pending",
+      "limits": "Mechanism-focused explanation, not a jurisdiction-specific specification or quantitative site certification.",
+      "professional_review": "pending_if_applied_to_specific_field_installation_or_safety_critical_decision"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_technical_review_pending",
+  "citation_policy": "Selected claim-source mappings, with primary standards and established institutions prioritized. Some retained Round 1 links were not revisited in this round. No field certification, independent professional or adopted-code check has been performed."
+}

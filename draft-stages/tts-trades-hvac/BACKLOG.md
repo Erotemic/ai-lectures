@@ -1,9 +1,8 @@
 # Rotation backlog: HVAC and Refrigeration: Heat, Airflow, Humidity, and Controls
 
-Status: lecture `001000` authored. The following lecture slots are *proposals*, not completed manuscripts.
+Status: lectures `001000` and `002000` authored. Remaining slots below are proposals, not completed manuscripts.
 These are ordered topics, not duration or word-count requirements. Retain stable IDs once published.
 
-- `002000` — Refrigeration Cycle: Compressor, Condenser, Expansion, Evaporator
 - `003000` — Heating and Cooling Loads in Real Rooms
 - `004000` — Airflow: Fans, Ducts, Filters, and Resistance
 - `005000` — Ventilation and Pressure Management

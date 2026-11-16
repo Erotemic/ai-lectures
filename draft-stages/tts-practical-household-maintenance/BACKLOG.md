@@ -1,9 +1,8 @@
 # Rotation backlog: Household Maintenance: Diagnosis, Prevention, and Records
 
-Status: lecture `001000` authored. The following lecture slots are *proposals*, not completed manuscripts.
+Status: lectures `001000` and `002000` authored. Remaining slots below are proposals, not completed manuscripts.
 These are ordered topics, not duration or word-count requirements. Retain stable IDs once published.
 
-- `002000` — Building a Home Systems and Asset Inventory
 - `003000` — How Leaks Progress Through Materials
 - `004000` — Preventive Maintenance, Cycles, and Consumables
 - `005000` — Protective Devices and Quiet Failure Modes

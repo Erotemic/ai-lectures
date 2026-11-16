@@ -16,3 +16,13 @@ mathematical correctness proof appears in lecture 003000.
 ## Finite-trace reduction and dovetailing lab (Lectures 004000–006000)
 
 Run `python draft-stages/tts-algorithms-computability-complexity/examples/finite_reductions_lab.py --check` to demonstrate accept/reject/loop distinctions, two total source-to-source instruction transformations, and fair scheduling of complementary recognizers. The interpreter uses a toy one-counter instruction language. An `UNKNOWN` result means only that a finite simulation budget has run out; neither this interpreter nor its checks decide general halting or prove Rice's theorem. Original Python reference implementation; no binary assets.
+
+## Finite automata, stacks, and parsing lab (Lectures 007000–009000)
+
+Run `python draft-stages/tts-algorithms-computability-complexity/examples/automata_and_grammars_lab.py --check`.
+This uses only the standard library. The DFA vs NFA comparison, product
+closure, finite shortest-witness search, finite nonregularity witnesses,
+CYK table, stack recognizer, independent recursive-parentheses specification,
+and ambiguity counts are checked on bounded inputs. For a CNF grammar on a
+fixed input, the CYK procedure terminates; this lab does not generalize its
+checks to all grammars or inputs and is not a Lean/Isabelle proof.

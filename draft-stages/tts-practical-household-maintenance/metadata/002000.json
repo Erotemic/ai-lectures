@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "lecture_id": "002000",
+  "transcript": "002000-building-a-home-systems-and-asset-inventory.md",
+  "related_resources": [
+    {
+      "source_id": "epa-maintenance",
+      "reason": "Leak monitoring and water-using systems"
+    },
+    {
+      "source_id": "doe-air-vapor",
+      "reason": "Different enclosure moisture pathways"
+    },
+    {
+      "source_id": "cdc-mold",
+      "reason": "Moisture as the major cause of indoor mold growth"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P002000-01",
+      "claim": "Routine checks for leaks and monitoring devices are useful home maintenance activities.",
+      "kind": "underlying_physics_or_field_practice",
+      "supports": [
+        {
+          "source_id": "epa-maintenance",
+          "location": "EPA WaterSense home maintenance",
+          "role": "reference"
+        }
+      ],
+      "verification_level": "selected_source_links_checked_or_existing_round01_source;_editorial_review_pending",
+      "limits": "Mechanism-focused explanation, not a jurisdiction-specific specification or quantitative site certification.",
+      "professional_review": "pending_if_applied_to_specific_field_installation_or_safety_critical_decision"
+    },
+    {
+      "claim_id": "P002000-02",
+      "claim": "Building moisture problems must be traced through more than one possible pathway.",
+      "kind": "underlying_physics_or_field_practice",
+      "supports": [
+        {
+          "source_id": "doe-air-vapor",
+          "location": "DOE air/moisture distinctions and CDC mold/moisture relation",
+          "role": "reference"
+        },
+        {
+          "source_id": "cdc-mold",
+          "location": "DOE air/moisture distinctions and CDC mold/moisture relation",
+          "role": "reference"
+        }
+      ],
+      "verification_level": "selected_source_links_checked_or_existing_round01_source;_editorial_review_pending",
+      "limits": "Mechanism-focused explanation, not a jurisdiction-specific specification or quantitative site certification.",
+      "professional_review": "pending_if_applied_to_specific_field_installation_or_safety_critical_decision"
+    },
+    {
+      "claim_id": "P002000-03",
+      "claim": "A household system inventory should distinguish components and control points.",
+      "kind": "underlying_physics_or_field_practice",
+      "supports": [
+        {
+          "source_id": "epa-maintenance",
+          "location": "EPA home maintenance, conceptual synthesis (not prescriptive agency schema)",
+          "role": "reference"
+        }
+      ],
+      "verification_level": "selected_source_links_checked_or_existing_round01_source;_editorial_review_pending",
+      "limits": "Mechanism-focused explanation, not a jurisdiction-specific specification or quantitative site certification.",
+      "professional_review": "pending_if_applied_to_specific_field_installation_or_safety_critical_decision"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_technical_review_pending",
+  "citation_policy": "Selected claim-source mappings, with primary standards and established institutions prioritized. Some retained Round 1 links were not revisited in this round. No field certification, independent professional or adopted-code check has been performed."
+}

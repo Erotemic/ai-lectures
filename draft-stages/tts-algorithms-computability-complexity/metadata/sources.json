@@ -126,6 +126,83 @@
       "url": "https://doi.org/10.1090/S0002-9947-1953-0053041-6",
       "access": "publisher_bibliographic",
       "notes": "Transactions of the American Mathematical Society 74(2), 358–366; bibliography/DOI corroborated; source of named theorem, not falsely presented as fully read."
+    },
+    "acc-kleene1956": {
+      "title": "Stephen C. Kleene (1956), Representation of Events in Nerve Nets and Finite Automata, in Automata Studies, pp. 3–41",
+      "kind": "historical_primary",
+      "url": "https://www2.fiit.stuba.sk/~kvasnicka/CognitiveScience/2.prednaska/kleene56representation%5B1%5D.pdf",
+      "access": "bibliography_and_opening_text",
+      "notes": "Source accessible through university mirror; historical regular-events result, not a claim of full original-paper audit."
+    },
+    "acc-rabin-scott1959": {
+      "title": "Michael O. Rabin and Dana Scott (1959), Finite Automata and Their Decision Problems, IBM J. Research and Development 3(2):114–125",
+      "kind": "historical_primary",
+      "url": "https://doi.org/10.1147/rd.32.0114",
+      "access": "publisher_abstract_and_bibliography",
+      "notes": "Publisher abstract verifies paper and scope, not line-by-line original proof."
+    },
+    "acc-nerode1958": {
+      "title": "Anil Nerode (1958), Linear Automaton Transformations, Proceedings AMS 9(4):541–544",
+      "kind": "historical_primary",
+      "url": "https://doi.org/10.1090/S0002-9939-1958-0135681-9",
+      "access": "bibliography_and_abstract",
+      "notes": "Named theorem attribution together with Myhill; article studies a different automata setting. Do not assume its text states modern right-congruence proof verbatim."
+    },
+    "acc-stanford-history": {
+      "title": "Stanford University CS103 historical timeline of results",
+      "kind": "university_history_resource",
+      "url": "https://web.stanford.edu/class/archive/cs/cs103/cs103.1242/timeline_of_results",
+      "access": "free_webpage",
+      "notes": "Background on Myhill, Nerode, Rabin/Scott chronology; course-authored historical summary, not a primary original theorem."
+    },
+    "acc-mit2020": {
+      "title": "Michael Sipser, MIT OpenCourseWare 18.404J Theory of Computation (Fall 2020), lecture notes index, lectures 1–5, 7",
+      "kind": "university_teaching_resource",
+      "url": "https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/pages/lecture-notes/",
+      "access": "free_course_index",
+      "notes": "Lecture topics verified on official index; individual PDF lectures are not represented as fully read."
+    },
+    "acc-chomsky1956": {
+      "title": "Noam Chomsky (1956), Three Models for the Description of Language, IRE Transactions on Information Theory 2(3):113–124",
+      "kind": "historical_primary",
+      "url": "https://doi.org/10.1109/TIT.1956.1056813",
+      "access": "publisher_abstract_and_bibliography",
+      "notes": "Publisher abstract verifies historical inquiry and phrasing; no claim of original full text audit."
+    },
+    "acc-chomsky1959": {
+      "title": "Noam Chomsky (1959), On Certain Formal Properties of Grammars, Information and Control 2(2):137–167",
+      "kind": "historical_primary",
+      "url": "https://doi.org/10.1016/S0019-9958(59)90362-6",
+      "access": "publisher_abstract_and_bibliography",
+      "notes": "Publisher abstract discusses proper inclusions of generative classes; no claim of reproducing formal paper proof."
+    },
+    "acc-barhillel1961": {
+      "title": "Yehoshua Bar-Hillel, Micha Perles, and Eli Shamir (1961), On Formal Properties of Simple Phrase Structure Grammars, 14:143–172",
+      "kind": "historical_primary",
+      "url": "https://cris.huji.ac.il/en/publications/on-formal-properties-of-simple-phrase-structure-grammars/",
+      "access": "university_bibliographic_record",
+      "notes": "University original-article record confirms authors, year, journal, pages; original complete paper not inspected."
+    },
+    "acc-earley1970": {
+      "title": "Jay Earley (1970), An Efficient Context-Free Parsing Algorithm, Communications of the ACM 13(2):94–102",
+      "kind": "historical_primary",
+      "url": "https://doi.org/10.1145/362007.362035",
+      "access": "bibliographic_abstract",
+      "notes": "Published cubic worst-case and other bounds as stated in abstract, not to be conflated with CYK."
+    },
+    "acc-vt-cyk": {
+      "title": "Virginia Tech OpenDSA, Formal Languages and Automata, CYK Parsing section 11.4",
+      "kind": "university_educational_resource",
+      "url": "https://opendsa-server.cs.vt.edu/ODSA/Books/PIFLA/html/CYKParsing.html",
+      "access": "free_webpage",
+      "notes": "Gives CYK CNF precondition, cubic dynamic program, and names Cocke, Younger, Kasami."
+    },
+    "acc-afp-cyk": {
+      "title": "Maksym Bortin (2016), A Formalisation of the Cocke-Younger-Kasami Algorithm, Archive of Formal Proofs",
+      "kind": "machine_checked_formalization",
+      "url": "https://isa-afp.org/entries/CYK.html",
+      "access": "free_project_page",
+      "notes": "Existing Isabelle/HOL formal proof with executable checker, not evidence that this lecture contains a Lean theorem."
     }
   }
 }

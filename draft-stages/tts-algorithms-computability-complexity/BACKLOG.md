@@ -13,8 +13,8 @@ This is an editorial map, **not** a count or duration policy. Lecture boundaries
 - **004000 — drafted:** Why No Program Can Decide Every Halting Question; detailed diagonal argument, its exact assumptions, and restricted program classes.
 - **005000 — drafted:** Recognizing an Answer Is Not the Same as Deciding It; r.e. languages, complements, dovetailing, enumeration.
 - **006000 — drafted:** Reductions: How One Impossible Decision Problem Reveals Another; mapping reductions, two-way transfer, and Rice's theorem.
-- Finite-state computation: languages, regular expressions, automata, and real implementation limits.
-- Stacks and grammars: pushdown automata, context-free parsing, and recognition boundaries.
+- **007000 — drafted:** Finite-state computation, DFA invariants, product closure, decidability, and bounded-memory limits.
+- **008000 — drafted:** NFA/regex equivalence, pumping and minimal states. **009000 — drafted:** Stacks, context-free grammars, CYK, ambiguity, and the CFL pumping barrier.
 - Mathematical models of computation: universal machines, lambda calculus, recursive functions, and the proper scope of the Church–Turing thesis.
 
 ## Design paradigms and problem-solving techniques
@@ -55,4 +55,11 @@ This is an editorial map, **not** a count or duration policy. Lecture boundaries
 
 ## Suggested next focused batch
 
-The next independent block should distinguish **finite-state models, automata, and context-free languages** from Turing-complete computation; then return to **design paradigms** (divide-and-conquer, dynamic programming, greedy algorithms, graph search). A later focused block should tackle polynomial-time reductions and NP-completeness with explicit cost bounds. Preserve complete proofs without any lecture-duration policy.
+The new finite-state/CFG sequence 007000–009000 is drafted. Next, develop
+**algorithm design paradigms**: divide-and-conquer beyond mergesort,
+dynamic-programming recurrence proofs, and greedy exchange arguments with
+counterexamples. A later focused block should build the full complexity
+classification and polynomial-time reduction ladder to NP-completeness,
+including explicit encoding sizes. Return to mathematical models of
+Turing-complete computation and verified complexity analysis in later tracks.
+Preserve complete proofs without any lecture-duration policy.

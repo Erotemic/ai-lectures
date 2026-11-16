@@ -1,9 +1,8 @@
 # Rotation backlog: First Aid and Emergency Response: Recognition and Coordinated Action
 
-Status: lecture `001000` authored. The following lecture slots are *proposals*, not completed manuscripts.
+Status: lectures `001000` and `002000` authored. Remaining slots below are proposals, not completed manuscripts.
 These are ordered topics, not duration or word-count requirements. Retain stable IDs once published.
 
-- `002000` — Recognizing Urgent Conditions and Calling for Help
 - `003000` — CPR and AED: Adult Principles and Training Practice
 - `004000` — Severe Bleeding and Immediate Control
 - `005000` — Airway Problems and Age Differences

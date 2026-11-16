@@ -1,0 +1,263 @@
+{
+  "schema_version": 1,
+  "lecture_id": "007000",
+  "transcript": "007000-what-a-finite-machine-can-remember.md",
+  "related_resources": [
+    {
+      "source_id": "acc-kleene1956",
+      "reason": "Reference for named theorems and background; provenance in each claim distinguishes original proofs from external sources."
+    },
+    {
+      "source_id": "acc-mit2020",
+      "reason": "Reference for named theorems and background; provenance in each claim distinguishes original proofs from external sources."
+    },
+    {
+      "source_id": "acc-rabin-scott1959",
+      "reason": "Reference for named theorems and background; provenance in each claim distinguishes original proofs from external sources."
+    },
+    {
+      "source_id": "acc-sep-tm",
+      "reason": "Reference for named theorems and background; provenance in each claim distinguishes original proofs from external sources."
+    },
+    {
+      "source_id": "acc-stanford-history",
+      "reason": "Reference for named theorems and background; provenance in each claim distinguishes original proofs from external sources."
+    }
+  ],
+  "claim_evidence": [
+    {
+      "id": "acc-007-c001",
+      "anchor": "A language is a set of such words.",
+      "source_ids": [
+        "acc-mit2020"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "MIT 18.404J lecture 1, alphabets and languages",
+      "evidence_detail": "Published or established mathematical result with the specified source/teaching section; independently explained in the lecture. MIT 18.404J lecture 1, alphabets and languages"
+    },
+    {
+      "id": "acc-007-c002",
+      "anchor": "A deterministic finite automaton, often abbreviated D-F-A, consists of five pieces.",
+      "source_ids": [
+        "acc-mit2020",
+        "acc-rabin-scott1959"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "MIT lecture 1 DFA definition; Rabin–Scott paper bibliographic abstract",
+      "evidence_detail": "Published or established mathematical result with the specified source/teaching section; independently explained in the lecture. MIT lecture 1 DFA definition; Rabin–Scott paper bibliographic abstract"
+    },
+    {
+      "id": "acc-007-c003",
+      "anchor": "Deterministic means that the machine has no choice about its next state.",
+      "source_ids": [
+        "acc-mit2020"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "MIT lecture 1, deterministic transition semantics",
+      "evidence_detail": "Published or established mathematical result with the specified source/teaching section; independently explained in the lecture. MIT lecture 1, deterministic transition semantics"
+    },
+    {
+      "id": "acc-007-c004",
+      "anchor": "Start in remainder zero.",
+      "source_ids": [
+        "acc-mit2020"
+      ],
+      "provenance": "original_example",
+      "source_locator": "Original remainder-three DFA in formal companion",
+      "evidence_detail": "Original proof or example is written in this lecture and its formal companion; cited resources provide context, not authorship or a formal check. Original remainder-three DFA in formal companion"
+    },
+    {
+      "id": "acc-007-c005",
+      "anchor": "The empty word is accepted, because it contains zero ones, and zero is divisible by three.",
+      "source_ids": [
+        "acc-mit2020"
+      ],
+      "provenance": "original_calculation",
+      "source_locator": "Modulo-three example, zero-length base case",
+      "evidence_detail": "Original proof or example is written in this lecture and its formal companion; cited resources provide context, not authorship or a formal check. Modulo-three example, zero-length base case"
+    },
+    {
+      "id": "acc-007-c006",
+      "anchor": "By induction, the assertion holds for every prefix.",
+      "source_ids": [
+        "acc-mit2020"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Inductive state invariant proof in spoken text",
+      "evidence_detail": "Original proof or example is written in this lecture and its formal companion; cited resources provide context, not authorship or a formal check. Inductive state invariant proof in spoken text"
+    },
+    {
+      "id": "acc-007-c007",
+      "anchor": "We need three states.",
+      "source_ids": [
+        "acc-mit2020"
+      ],
+      "provenance": "original_example",
+      "source_locator": "Ends-in-01 DFA, formal three-state transition table",
+      "evidence_detail": "Original proof or example is written in this lecture and its formal companion; cited resources provide context, not authorship or a formal check. Ends-in-01 DFA, formal three-state transition table"
+    },
+    {
+      "id": "acc-007-c008",
+      "anchor": "The word zero-one-one is rejected, because the final one destroys the required ending.",
+      "source_ids": [
+        "acc-mit2020"
+      ],
+      "provenance": "original_calculation",
+      "source_locator": "Ends-in-01 table; run on 011",
+      "evidence_detail": "Original proof or example is written in this lecture and its formal companion; cited resources provide context, not authorship or a formal check. Ends-in-01 table; run on 011"
+    },
+    {
+      "id": "acc-007-c009",
+      "anchor": "Each transition preserves the interpretation.",
+      "source_ids": [
+        "acc-mit2020"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Ends-in-01 suffix-invariant induction",
+      "evidence_detail": "Original proof or example is written in this lecture and its formal companion; cited resources provide context, not authorship or a formal check. Ends-in-01 suffix-invariant induction"
+    },
+    {
+      "id": "acc-007-c010",
+      "anchor": "A language recognized by some finite automaton is called regular.",
+      "source_ids": [
+        "acc-mit2020",
+        "acc-kleene1956"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "MIT lecture 1; Kleene regular-events historical work",
+      "evidence_detail": "Published or established mathematical result with the specified source/teaching section; independently explained in the lecture. MIT lecture 1; Kleene regular-events historical work"
+    },
+    {
+      "id": "acc-007-c011",
+      "anchor": "Three states times three states gives at most nine paired states, although some may be unreachable.",
+      "source_ids": [
+        "acc-mit2020"
+      ],
+      "provenance": "original_calculation",
+      "source_locator": "3×3 direct product, component-state construction",
+      "evidence_detail": "Original proof or example is written in this lecture and its formal companion; cited resources provide context, not authorship or a formal check. 3×3 direct product, component-state construction"
+    },
+    {
+      "id": "acc-007-c012",
+      "anchor": "It proves that the intersection of two regular languages is regular.",
+      "source_ids": [
+        "acc-mit2020"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "MIT lecture 2, closure properties",
+      "evidence_detail": "Published or established mathematical result with the specified source/teaching section; independently explained in the lecture. MIT lecture 2, closure properties"
+    },
+    {
+      "id": "acc-007-c013",
+      "anchor": "That last qualification matters: if transitions are missing, we must first specify where an unhandled symbol leads, usually to a rejecting sink state.",
+      "source_ids": [
+        "acc-mit2020"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Complement requires total transition function",
+      "evidence_detail": "Original proof or example is written in this lecture and its formal companion; cited resources provide context, not authorship or a formal check. Complement requires total transition function"
+    },
+    {
+      "id": "acc-007-c014",
+      "anchor": "Given the entire finite transition table of a D-F-A, can we decide whether it accepts at least one word?",
+      "source_ids": [
+        "acc-mit2020"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "MIT lecture 7, automata decision problems",
+      "evidence_detail": "Published or established mathematical result with the specified source/teaching section; independently explained in the lecture. MIT lecture 7, automata decision problems"
+    },
+    {
+      "id": "acc-007-c015",
+      "anchor": "If any accepting state is reachable, follow the path labels to obtain an accepted word.",
+      "source_ids": [
+        "acc-mit2020"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "DFA nonemptiness equals reachable acceptance; BFS proof",
+      "evidence_detail": "Original proof or example is written in this lecture and its formal companion; cited resources provide context, not authorship or a formal check. DFA nonemptiness equals reachable acceptance; BFS proof"
+    },
+    {
+      "id": "acc-007-c016",
+      "anchor": "Run their product machine and mark a pair accepting when precisely one component accepts.",
+      "source_ids": [
+        "acc-mit2020"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Symmetric-difference DFA emptiness algorithm",
+      "evidence_detail": "Original proof or example is written in this lecture and its formal companion; cited resources provide context, not authorship or a formal check. Symmetric-difference DFA emptiness algorithm"
+    },
+    {
+      "id": "acc-007-c017",
+      "anchor": "Contrast that with a general program.",
+      "source_ids": [
+        "acc-mit2020",
+        "acc-sep-tm"
+      ],
+      "provenance": "supported_interpretation",
+      "source_locator": "Finite-state decision procedures vs. MIT TM undecidability; SEP Turing Machines §2.4",
+      "evidence_detail": "Interpretation supported by cited teaching source but not an assertion that the source proves the specific implementation claim. Finite-state decision procedures vs. MIT TM undecidability; SEP Turing Machines §2.4"
+    },
+    {
+      "id": "acc-007-c018",
+      "anchor": "Two of those prefixes must leave the automaton in the same state.",
+      "source_ids": [
+        "acc-mit2020"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Pigeonhole proof using k+1 prefixes on k-state machine",
+      "evidence_detail": "Original proof or example is written in this lecture and its formal companion; cited resources provide context, not authorship or a formal check. Pigeonhole proof using k+1 prefixes on k-state machine"
+    },
+    {
+      "id": "acc-007-c019",
+      "anchor": "But the shorter word, consisting of i zeros and i ones, belongs to the language, while the longer word, j zeros and i ones, does not.",
+      "source_ids": [
+        "acc-mit2020"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Nonregularity via distinguishable prefixes",
+      "evidence_detail": "Original proof or example is written in this lecture and its formal companion; cited resources provide context, not authorship or a formal check. Nonregularity via distinguishable prefixes"
+    },
+    {
+      "id": "acc-007-c020",
+      "anchor": "They can recognize equal counts within a fixed bound, because that requires only finitely many distinctions.",
+      "source_ids": [
+        "acc-mit2020"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Finite set recognition via bounded full-prefix states",
+      "evidence_detail": "Original proof or example is written in this lecture and its formal companion; cited resources provide context, not authorship or a formal check. Finite set recognition via bounded full-prefix states"
+    },
+    {
+      "id": "acc-007-c021",
+      "anchor": "Its stored state belongs to a fixed finite set, independent of input length.",
+      "source_ids": [
+        "acc-mit2020"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Finite-state space definition; abstract space model",
+      "evidence_detail": "Published or established mathematical result with the specified source/teaching section; independently explained in the lecture. Finite-state space definition; abstract space model"
+    },
+    {
+      "id": "acc-007-c022",
+      "anchor": "Historically, Stephen Kleene studied regular events in finite automata in work published in nineteen fifty-six.",
+      "source_ids": [
+        "acc-kleene1956"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Kleene 1956 Automata Studies, paper header and introduction",
+      "evidence_detail": "Published or established mathematical result with the specified source/teaching section; independently explained in the lecture. Kleene 1956 Automata Studies, paper header and introduction"
+    },
+    {
+      "id": "acc-007-c023",
+      "anchor": "Michael Rabin and Dana Scott's nineteen fifty-nine paper developed finite automata and their decision problems, including the role of nondeterminism.",
+      "source_ids": [
+        "acc-rabin-scott1959",
+        "acc-stanford-history"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Rabin and Scott 1959 publisher abstract; Stanford history timeline",
+      "evidence_detail": "Published or established mathematical result with the specified source/teaching section; independently explained in the lecture. Rabin and Scott 1959 publisher abstract; Stanford history timeline"
+    }
+  ]
+}

@@ -1,0 +1,332 @@
+{
+  "schema_version": 1,
+  "lecture_id": "009000",
+  "transcript": "009000-when-a-stack-changes-the-language.md",
+  "related_resources": [
+    {
+      "source_id": "acc-afp-cyk",
+      "reason": "Reference for named theorems and background; provenance in each claim distinguishes original proofs from external sources."
+    },
+    {
+      "source_id": "acc-barhillel1961",
+      "reason": "Reference for named theorems and background; provenance in each claim distinguishes original proofs from external sources."
+    },
+    {
+      "source_id": "acc-chomsky1956",
+      "reason": "Reference for named theorems and background; provenance in each claim distinguishes original proofs from external sources."
+    },
+    {
+      "source_id": "acc-chomsky1959",
+      "reason": "Reference for named theorems and background; provenance in each claim distinguishes original proofs from external sources."
+    },
+    {
+      "source_id": "acc-earley1970",
+      "reason": "Reference for named theorems and background; provenance in each claim distinguishes original proofs from external sources."
+    },
+    {
+      "source_id": "acc-mit2020",
+      "reason": "Reference for named theorems and background; provenance in each claim distinguishes original proofs from external sources."
+    },
+    {
+      "source_id": "acc-vt-cyk",
+      "reason": "Reference for named theorems and background; provenance in each claim distinguishes original proofs from external sources."
+    }
+  ],
+  "claim_evidence": [
+    {
+      "id": "acc-009-c001",
+      "anchor": "it cannot, in general, remember arbitrarily many unmatched opening parentheses.",
+      "source_ids": [
+        "acc-mit2020"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Finite-state limits, MIT lectures 3–4",
+      "evidence_detail": "Published or established mathematical result with the specified source/teaching section; independently explained in the lecture. Finite-state limits, MIT lectures 3–4"
+    },
+    {
+      "id": "acc-009-c002",
+      "anchor": "Give it just one new data structure: a stack.",
+      "source_ids": [
+        "acc-mit2020"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "MIT lecture 4, PDA model",
+      "evidence_detail": "Published or established mathematical result with the specified source/teaching section; independently explained in the lecture. MIT lecture 4, PDA model"
+    },
+    {
+      "id": "acc-009-c003",
+      "anchor": "A context-free grammar specifies a finite set of variables, a finite terminal alphabet, a designated start variable, and finitely many production rules.",
+      "source_ids": [
+        "acc-mit2020",
+        "acc-chomsky1959"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "MIT lectures 3–4, CFG definition",
+      "evidence_detail": "Published or established mathematical result with the specified source/teaching section; independently explained in the lecture. MIT lectures 3–4, CFG definition"
+    },
+    {
+      "id": "acc-009-c004",
+      "anchor": "The phrase 'context-free' refers to the left side of each replacement: the rule applies to a variable regardless of the symbols around it.",
+      "source_ids": [
+        "acc-mit2020"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "CFG rule syntax A→α",
+      "evidence_detail": "Published or established mathematical result with the specified source/teaching section; independently explained in the lecture. CFG rule syntax A→α"
+    },
+    {
+      "id": "acc-009-c005",
+      "anchor": "If we choose the first rule twice and then the second, we generate a-a-b-b.",
+      "source_ids": [
+        "acc-mit2020"
+      ],
+      "provenance": "original_example",
+      "source_locator": "S⇒aSb⇒aaSbb⇒aabb",
+      "evidence_detail": "Original proof or example is written in this lecture and its formal companion; cited resources provide context, not authorship or a formal check. S⇒aSb⇒aaSbb⇒aabb"
+    },
+    {
+      "id": "acc-009-c006",
+      "anchor": "We have proved both inclusions, so the generated language is exactly the equal-count block language.",
+      "source_ids": [
+        "acc-mit2020"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Induction on recursive production uses, and constructive converse",
+      "evidence_detail": "Original proof or example is written in this lecture and its formal companion; cited resources provide context, not authorship or a formal check. Induction on recursive production uses, and constructive converse"
+    },
+    {
+      "id": "acc-009-c007",
+      "anchor": "This is a deterministic pushdown recognizer for this particular language.",
+      "source_ids": [
+        "acc-mit2020"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Stack phase invariant, formal companion",
+      "evidence_detail": "Original proof or example is written in this lecture and its formal companion; cited resources provide context, not authorship or a formal check. Stack phase invariant, formal companion"
+    },
+    {
+      "id": "acc-009-c008",
+      "anchor": "It accepts at the end of the input when the stack has returned to its bottom marker.",
+      "source_ids": [
+        "acc-mit2020"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "PDA terminal configuration and invariant",
+      "evidence_detail": "Original proof or example is written in this lecture and its formal companion; cited resources provide context, not authorship or a formal check. PDA terminal configuration and invariant"
+    },
+    {
+      "id": "acc-009-c009",
+      "anchor": "Deterministic pushdown automata are weaker; not every context-free language has one.",
+      "source_ids": [
+        "acc-mit2020"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "MIT lecture 4 and standard DCFL/CFL distinction",
+      "evidence_detail": "Published or established mathematical result with the specified source/teaching section; independently explained in the lecture. MIT lecture 4 and standard DCFL/CFL distinction"
+    },
+    {
+      "id": "acc-009-c010",
+      "anchor": "The first recursive part represents what is nested inside a pair; the second represents what follows that pair.",
+      "source_ids": [
+        "acc-mit2020"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "S→(S)S structural decomposition",
+      "evidence_detail": "Original proof or example is written in this lecture and its formal companion; cited resources provide context, not authorship or a formal check. S→(S)S structural decomposition"
+    },
+    {
+      "id": "acc-009-c011",
+      "anchor": "A stack recognizes the same language: push for each opening mark, pop for each closing mark, reject if a closing mark arrives with no unmatched opening mark, and accept if the stack is empty at the end.",
+      "source_ids": [
+        "acc-mit2020"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Balanced-parentheses stack invariant",
+      "evidence_detail": "Original proof or example is written in this lecture and its formal companion; cited resources provide context, not authorship or a formal check. Balanced-parentheses stack invariant"
+    },
+    {
+      "id": "acc-009-c012",
+      "anchor": "There is a theorem that every context-free grammar can be converted into an equivalent nondeterministic pushdown automaton, and conversely.",
+      "source_ids": [
+        "acc-mit2020"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "MIT lecture 4 equivalence, detailed on official video description",
+      "evidence_detail": "Published or established mathematical result with the specified source/teaching section; independently explained in the lecture. MIT lecture 4 equivalence, detailed on official video description"
+    },
+    {
+      "id": "acc-009-c013",
+      "anchor": "Place the grammar's start variable on the stack.",
+      "source_ids": [
+        "acc-mit2020"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Forward grammar-to-PDA simulation sketch in companion",
+      "evidence_detail": "Original proof or example is written in this lecture and its formal companion; cited resources provide context, not authorship or a formal check. Forward grammar-to-PDA simulation sketch in companion"
+    },
+    {
+      "id": "acc-009-c014",
+      "anchor": "Nondeterministic acceptance is existential over paths, and a real recognizer needs a fair search or a parsing algorithm that guarantees termination on the input.",
+      "source_ids": [
+        "acc-mit2020"
+      ],
+      "provenance": "supported_interpretation",
+      "source_locator": "Formal NPDA semantics contrasted with implementation of membership decider",
+      "evidence_detail": "Interpretation supported by cited teaching source but not an assertion that the source proves the specific implementation claim. Formal NPDA semantics contrasted with implementation of membership decider"
+    },
+    {
+      "id": "acc-009-c015",
+      "anchor": "One of the most important facts is that context-free language membership is decidable.",
+      "source_ids": [
+        "acc-mit2020",
+        "acc-vt-cyk"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "MIT lecture 7, Virginia Tech CYK recurrence",
+      "evidence_detail": "Published or established mathematical result with the specified source/teaching section; independently explained in the lecture. MIT lecture 7, Virginia Tech CYK recurrence"
+    },
+    {
+      "id": "acc-009-c016",
+      "anchor": "For every interval of the input, record which grammar variables can derive exactly that substring.",
+      "source_ids": [
+        "acc-vt-cyk"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "VT OpenDSA section 11.4 CYK chart definition",
+      "evidence_detail": "Published or established mathematical result with the specified source/teaching section; independently explained in the lecture. VT OpenDSA section 11.4 CYK chart definition"
+    },
+    {
+      "id": "acc-009-c017",
+      "anchor": "Build the table in increasing order of substring length.",
+      "source_ids": [
+        "acc-vt-cyk"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "VT OpenDSA CYK dynamic program order",
+      "evidence_detail": "Published or established mathematical result with the specified source/teaching section; independently explained in the lecture. VT OpenDSA CYK dynamic program order"
+    },
+    {
+      "id": "acc-009-c018",
+      "anchor": "This algorithm is often called C-Y-K, after Cocke, Younger, and Kasami.",
+      "source_ids": [
+        "acc-vt-cyk"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "VT OpenDSA 11.4 authorship note",
+      "evidence_detail": "Published or established mathematical result with the specified source/teaching section; independently explained in the lecture. VT OpenDSA 11.4 authorship note"
+    },
+    {
+      "id": "acc-009-c019",
+      "anchor": "For a fixed grammar in the stated normal form, a straightforward implementation takes cubic time in the input length and quadratic space for the chart, up to factors depending on grammar size.",
+      "source_ids": [
+        "acc-vt-cyk"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "VT OpenDSA 11.4 cubic time; standard chart cells O(n²)",
+      "evidence_detail": "Published or established mathematical result with the specified source/teaching section; independently explained in the lecture. VT OpenDSA 11.4 cubic time; standard chart cells O(n²)"
+    },
+    {
+      "id": "acc-009-c020",
+      "anchor": "The empty word can be treated as a separate accepted case if we want the nonnegative-count language.",
+      "source_ids": [
+        "acc-mit2020"
+      ],
+      "provenance": "original_example",
+      "source_locator": "Positive CNF grammar and ε extension distinguished",
+      "evidence_detail": "Original proof or example is written in this lecture and its formal companion; cited resources provide context, not authorship or a formal check. Positive CNF grammar and ε extension distinguished"
+    },
+    {
+      "id": "acc-009-c021",
+      "anchor": "The result is justified by induction on substring length: terminal rules settle length one, and every longer normal-form parse has a root rule with a left and right subtree.",
+      "source_ids": [
+        "acc-vt-cyk",
+        "acc-afp-cyk"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Explicit CYK correctness induction in companion; AFP proof exists separately",
+      "evidence_detail": "Original proof or example is written in this lecture and its formal companion; cited resources provide context, not authorship or a formal check. Explicit CYK correctness induction in companion; AFP proof exists separately"
+    },
+    {
+      "id": "acc-009-c022",
+      "anchor": "The grammar does not determine operator precedence.",
+      "source_ids": [
+        "acc-mit2020"
+      ],
+      "provenance": "original_example",
+      "source_locator": "Ambiguous E→E+E | E*E | id parse trees",
+      "evidence_detail": "Original proof or example is written in this lecture and its formal companion; cited resources provide context, not authorship or a formal check. Ambiguous E→E+E | E*E | id parse trees"
+    },
+    {
+      "id": "acc-009-c023",
+      "anchor": "Ambiguity is a property of a grammar: some string has more than one parse tree.",
+      "source_ids": [
+        "acc-mit2020"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "MIT lectures 3–4 grammar and parse-tree ambiguity",
+      "evidence_detail": "Published or established mathematical result with the specified source/teaching section; independently explained in the lecture. MIT lectures 3–4 grammar and parse-tree ambiguity"
+    },
+    {
+      "id": "acc-009-c024",
+      "anchor": "This language is not context-free.",
+      "source_ids": [
+        "acc-mit2020",
+        "acc-barhillel1961"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "a^n b^n c^n pumping proof in companion",
+      "evidence_detail": "Original proof or example is written in this lecture and its formal companion; cited resources provide context, not authorship or a formal check. a^n b^n c^n pumping proof in companion"
+    },
+    {
+      "id": "acc-009-c025",
+      "anchor": "The bounded window cannot touch both an a and a c, because an entire block of p b's separates them.",
+      "source_ids": [
+        "acc-barhillel1961"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "CFL pumping p-window argument",
+      "evidence_detail": "Original proof or example is written in this lecture and its formal companion; cited resources provide context, not authorship or a formal check. CFL pumping p-window argument"
+    },
+    {
+      "id": "acc-009-c026",
+      "anchor": "The result also shows that context-free languages are not generally closed under intersection.",
+      "source_ids": [
+        "acc-mit2020"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Two CFGs whose intersection is a^n b^n c^n",
+      "evidence_detail": "Original proof or example is written in this lecture and its formal companion; cited resources provide context, not authorship or a formal check. Two CFGs whose intersection is a^n b^n c^n"
+    },
+    {
+      "id": "acc-009-c027",
+      "anchor": "Noam Chomsky's work in the nineteen fifties connected families of grammars with different generative powers.",
+      "source_ids": [
+        "acc-chomsky1956",
+        "acc-chomsky1959"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Chomsky 1956 and 1959 publisher abstracts",
+      "evidence_detail": "Published or established mathematical result with the specified source/teaching section; independently explained in the lecture. Chomsky 1956 and 1959 publisher abstracts"
+    },
+    {
+      "id": "acc-009-c028",
+      "anchor": "Yehoshua Bar-Hillel, Micha Perles, and Eli Shamir developed foundational properties of these grammars, including work behind the context-free pumping lemma.",
+      "source_ids": [
+        "acc-barhillel1961"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "1961 historical paper, Hebrew University bibliographic record",
+      "evidence_detail": "Published or established mathematical result with the specified source/teaching section; independently explained in the lecture. 1961 historical paper, Hebrew University bibliographic record"
+    },
+    {
+      "id": "acc-009-c029",
+      "anchor": "Jay Earley's nineteen seventy parsing work is another important historical example of how general grammar recognition became an algorithmic problem.",
+      "source_ids": [
+        "acc-earley1970"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Earley CACM 1970 title and abstract",
+      "evidence_detail": "Published or established mathematical result with the specified source/teaching section; independently explained in the lecture. Earley CACM 1970 title and abstract"
+    }
+  ]
+}

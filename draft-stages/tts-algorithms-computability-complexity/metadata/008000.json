@@ -1,0 +1,311 @@
+{
+  "schema_version": 1,
+  "lecture_id": "008000",
+  "transcript": "008000-many-descriptions-one-regular-language.md",
+  "related_resources": [
+    {
+      "source_id": "acc-kleene1956",
+      "reason": "Reference for named theorems and background; provenance in each claim distinguishes original proofs from external sources."
+    },
+    {
+      "source_id": "acc-mit2020",
+      "reason": "Reference for named theorems and background; provenance in each claim distinguishes original proofs from external sources."
+    },
+    {
+      "source_id": "acc-nerode1958",
+      "reason": "Reference for named theorems and background; provenance in each claim distinguishes original proofs from external sources."
+    },
+    {
+      "source_id": "acc-rabin-scott1959",
+      "reason": "Reference for named theorems and background; provenance in each claim distinguishes original proofs from external sources."
+    },
+    {
+      "source_id": "acc-stanford-history",
+      "reason": "Reference for named theorems and background; provenance in each claim distinguishes original proofs from external sources."
+    }
+  ],
+  "claim_evidence": [
+    {
+      "id": "acc-008-c001",
+      "anchor": "A language is a set of finite words over a specified alphabet.",
+      "source_ids": [
+        "acc-mit2020"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "MIT lecture 1, languages over Σ*",
+      "evidence_detail": "Published or established mathematical result with the specified source/teaching section; independently explained in the lecture. MIT lecture 1, languages over Σ*"
+    },
+    {
+      "id": "acc-008-c002",
+      "anchor": "a nondeterministic finite automaton, or N-F-A.",
+      "source_ids": [
+        "acc-mit2020",
+        "acc-rabin-scott1959"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "MIT lecture 2 nondeterminism; Rabin–Scott publication",
+      "evidence_detail": "Published or established mathematical result with the specified source/teaching section; independently explained in the lecture. MIT lecture 2 nondeterminism; Rabin–Scott publication"
+    },
+    {
+      "id": "acc-008-c003",
+      "anchor": "It means that at least one complete path consumes the entire input and reaches an accepting state.",
+      "source_ids": [
+        "acc-mit2020"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "MIT lecture 2, existential accepting-run semantics",
+      "evidence_detail": "Published or established mathematical result with the specified source/teaching section; independently explained in the lecture. MIT lecture 2, existential accepting-run semantics"
+    },
+    {
+      "id": "acc-008-c004",
+      "anchor": "A deterministic implementation can track the set of all currently possible states.",
+      "source_ids": [
+        "acc-mit2020",
+        "acc-rabin-scott1959"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Subset construction, MIT lecture 2",
+      "evidence_detail": "Published or established mathematical result with the specified source/teaching section; independently explained in the lecture. Subset construction, MIT lecture 2"
+    },
+    {
+      "id": "acc-008-c005",
+      "anchor": "So the whole machine rejects.",
+      "source_ids": [
+        "acc-mit2020"
+      ],
+      "provenance": "original_calculation",
+      "source_locator": "Explicit NFA trace of 011 in lecture and lab",
+      "evidence_detail": "Original proof or example is written in this lecture and its formal companion; cited resources provide context, not authorship or a formal check. Explicit NFA trace of 011 in lecture and lab"
+    },
+    {
+      "id": "acc-008-c006",
+      "anchor": "Michael Rabin and Dana Scott's foundational work established the central equivalence: nondeterminism does not enlarge the class of languages recognized by finite automata.",
+      "source_ids": [
+        "acc-rabin-scott1959",
+        "acc-stanford-history"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "1959 Rabin and Scott and Stanford chronology of subset equivalence",
+      "evidence_detail": "Published or established mathematical result with the specified source/teaching section; independently explained in the lecture. 1959 Rabin and Scott and Stanford chronology of subset equivalence"
+    },
+    {
+      "id": "acc-008-c007",
+      "anchor": "construct a D-F-A whose states are subsets of Q.",
+      "source_ids": [
+        "acc-mit2020",
+        "acc-rabin-scott1959"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "MIT lecture 2 subset construction",
+      "evidence_detail": "Published or established mathematical result with the specified source/teaching section; independently explained in the lecture. MIT lecture 2 subset construction"
+    },
+    {
+      "id": "acc-008-c008",
+      "anchor": "Initially, include the original start state and all states accessible from it by epsilon transitions.",
+      "source_ids": [
+        "acc-mit2020"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "MIT lecture 2, ε closure of NFA initial states",
+      "evidence_detail": "Published or established mathematical result with the specified source/teaching section; independently explained in the lecture. MIT lecture 2, ε closure of NFA initial states"
+    },
+    {
+      "id": "acc-008-c009",
+      "anchor": "By induction, it holds for every prefix, including the full word.",
+      "source_ids": [
+        "acc-mit2020"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Subset-state invariant induction, formal companion",
+      "evidence_detail": "Original proof or example is written in this lecture and its formal companion; cited resources provide context, not authorship or a formal check. Subset-state invariant induction, formal companion"
+    },
+    {
+      "id": "acc-008-c010",
+      "anchor": "A set of m states has two to the m possible subsets, so the constructed deterministic automaton may have exponentially many states.",
+      "source_ids": [
+        "acc-mit2020"
+      ],
+      "provenance": "original_calculation",
+      "source_locator": "Subset count of size-m state set, standard construction",
+      "evidence_detail": "Original proof or example is written in this lecture and its formal companion; cited resources provide context, not authorship or a formal check. Subset count of size-m state set, standard construction"
+    },
+    {
+      "id": "acc-008-c011",
+      "anchor": "In formal-language theory, begin with expressions for the empty language, the language containing only the empty word, and languages containing a single symbol.",
+      "source_ids": [
+        "acc-mit2020",
+        "acc-kleene1956"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "MIT lecture 1 and Kleene 1956 regular events",
+      "evidence_detail": "Published or established mathematical result with the specified source/teaching section; independently explained in the lecture. MIT lecture 1 and Kleene 1956 regular events"
+    },
+    {
+      "id": "acc-008-c012",
+      "anchor": "Union means one language or the other.",
+      "source_ids": [
+        "acc-mit2020"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Formal regex semantics in companion, MIT lecture 2",
+      "evidence_detail": "Published or established mathematical result with the specified source/teaching section; independently explained in the lecture. Formal regex semantics in companion, MIT lecture 2"
+    },
+    {
+      "id": "acc-008-c013",
+      "anchor": "Star means repeat words from the given language any finite number of times, including zero repetitions.",
+      "source_ids": [
+        "acc-mit2020",
+        "acc-kleene1956"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Kleene-star semantics, MIT lecture 2",
+      "evidence_detail": "Published or established mathematical result with the specified source/teaching section; independently explained in the lecture. Kleene-star semantics, MIT lecture 2"
+    },
+    {
+      "id": "acc-008-c014",
+      "anchor": "The star applies to the parenthesized choice, not just to the final one.",
+      "source_ids": [
+        "acc-mit2020"
+      ],
+      "provenance": "original_example",
+      "source_locator": "Original regex example (0|1)*01",
+      "evidence_detail": "Original proof or example is written in this lecture and its formal companion; cited resources provide context, not authorship or a formal check. Original regex example (0|1)*01"
+    },
+    {
+      "id": "acc-008-c015",
+      "anchor": "We can construct an epsilon N-F-A for every regular expression by structural induction.",
+      "source_ids": [
+        "acc-mit2020"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "MIT lecture 2 regex-to-NFA construction",
+      "evidence_detail": "Published or established mathematical result with the specified source/teaching section; independently explained in the lecture. MIT lecture 2 regex-to-NFA construction"
+    },
+    {
+      "id": "acc-008-c016",
+      "anchor": "The converse also holds: every finite automaton has an equivalent regular expression.",
+      "source_ids": [
+        "acc-mit2020",
+        "acc-kleene1956"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "MIT lecture 3; Kleene regular representation result",
+      "evidence_detail": "Published or established mathematical result with the specified source/teaching section; independently explained in the lecture. MIT lecture 3; Kleene regular representation result"
+    },
+    {
+      "id": "acc-008-c017",
+      "anchor": "Practical regular-expression engines often add features such as backreferences, which are not part of this formal definition and can recognize patterns beyond the regular languages.",
+      "source_ids": [
+        "acc-mit2020"
+      ],
+      "provenance": "supported_interpretation",
+      "source_locator": "Distinction between formal regex operators and software extensions; no uniform engine claim",
+      "evidence_detail": "Interpretation supported by cited teaching source but not an assertion that the source proves the specific implementation claim. Distinction between formal regex operators and software extensions; no uniform engine claim"
+    },
+    {
+      "id": "acc-008-c018",
+      "anchor": "There is a famous necessary condition for a language to be regular: the pumping lemma.",
+      "source_ids": [
+        "acc-mit2020"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "MIT lecture 3, pumping lemma",
+      "evidence_detail": "Published or established mathematical result with the specified source/teaching section; independently explained in the lecture. MIT lecture 3, pumping lemma"
+    },
+    {
+      "id": "acc-008-c019",
+      "anchor": "Among its first p plus one visited states, some state repeats.",
+      "source_ids": [
+        "acc-mit2020"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Pigeonhole cycle proof of pumping lemma",
+      "evidence_detail": "Original proof or example is written in this lecture and its formal companion; cited resources provide context, not authorship or a formal check. Pigeonhole cycle proof of pumping lemma"
+    },
+    {
+      "id": "acc-008-c020",
+      "anchor": "The order of the quantifiers matters.",
+      "source_ids": [
+        "acc-mit2020"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Companion states ∃p∀w∃xyz∀t order explicitly",
+      "evidence_detail": "Original proof or example is written in this lecture and its formal companion; cited resources provide context, not authorship or a formal check. Companion states ∃p∀w∃xyz∀t order explicitly"
+    },
+    {
+      "id": "acc-008-c021",
+      "anchor": "This contradicts the pumping condition.",
+      "source_ids": [
+        "acc-mit2020"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "p zeros followed by p ones; y consists only of zeros",
+      "evidence_detail": "Original proof or example is written in this lecture and its formal companion; cited resources provide context, not authorship or a formal check. p zeros followed by p ones; y consists only of zeros"
+    },
+    {
+      "id": "acc-008-c022",
+      "anchor": "The lemma gives a necessary condition, not a characterization.",
+      "source_ids": [
+        "acc-mit2020"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "MIT lecture 3 pumping direction, logically necessary only",
+      "evidence_detail": "Published or established mathematical result with the specified source/teaching section; independently explained in the lecture. MIT lecture 3 pumping direction, logically necessary only"
+    },
+    {
+      "id": "acc-008-c023",
+      "anchor": "Call them equivalent for a language if every possible suffix w yields the same membership answer for u followed by w as for v followed by w.",
+      "source_ids": [
+        "acc-nerode1958",
+        "acc-stanford-history"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Named Myhill–Nerode right congruence; Stanford history timeline",
+      "evidence_detail": "Published or established mathematical result with the specified source/teaching section; independently explained in the lecture. Named Myhill–Nerode right congruence; Stanford history timeline"
+    },
+    {
+      "id": "acc-008-c024",
+      "anchor": "This is well defined: if u and v are equivalent, then u followed by a and v followed by a are also equivalent, because every suffix after a is already covered by the equivalence definition.",
+      "source_ids": [
+        "acc-nerode1958",
+        "acc-mit2020"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Self-contained right congruence argument",
+      "evidence_detail": "Original proof or example is written in this lecture and its formal companion; cited resources provide context, not authorship or a formal check. Self-contained right congruence argument"
+    },
+    {
+      "id": "acc-008-c025",
+      "anchor": "This is the substance of the Myhill–Nerode characterization.",
+      "source_ids": [
+        "acc-nerode1958",
+        "acc-stanford-history"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Nerode 1958 bibliography; Stanford historical summary",
+      "evidence_detail": "Published or established mathematical result with the specified source/teaching section; independently explained in the lecture. Nerode 1958 bibliography; Stanford historical summary"
+    },
+    {
+      "id": "acc-008-c026",
+      "anchor": "the number of classes is exactly the number of states required by a smallest complete deterministic automaton, up to renaming its states.",
+      "source_ids": [
+        "acc-nerode1958",
+        "acc-mit2020"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Both directions and lower-bound argument in companion",
+      "evidence_detail": "Original proof or example is written in this lecture and its formal companion; cited resources provide context, not authorship or a formal check. Both directions and lower-bound argument in companion"
+    },
+    {
+      "id": "acc-008-c027",
+      "anchor": "Thus there are infinitely many classes, and no finite automaton can recognize the language.",
+      "source_ids": [
+        "acc-mit2020",
+        "acc-nerode1958"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Infinite 0^i distinguishable prefix classes",
+      "evidence_detail": "Original proof or example is written in this lecture and its formal companion; cited resources provide context, not authorship or a formal check. Infinite 0^i distinguishable prefix classes"
+    }
+  ]
+}
