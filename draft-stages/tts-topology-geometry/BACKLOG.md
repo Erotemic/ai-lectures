@@ -1,12 +1,12 @@
-# Topology and Geometry — after 30 completed lectures
+# Topology and Geometry — after 32 completed lectures
 
-Symplectic reduction and geometric quantization agree under stated compactness, integrality and regularity hypotheses, with the CP1 example making weight multiplicities explicit. The Maslov index connects phase-space caustics to semiclassical spectral shifts without claiming exactness for arbitrary potentials.
+Four-dimensional gauge theory gives a sharp topological curvature bound, while Floer theory creates a chain complex from periodic Hamiltonian orbits. Both moduli problems require compactness, transversality and appropriate quotient/virtual constructions.
 
 ## Unindexed continuation proposals
 
-- 031000 — Anti-Self-Dual Connections and Gauge Moduli
-- 032000 — Floer Homology and Infinite-Dimensional Morse Theory
-- 033000 — Geometric Phases and Berry Curvature
+- 033000 — Berry Curvature and Geometric Holonomy
 - 034000 — Symplectic Capacities and Nonsqueezing
+- 035000 — Uhlenbeck Compactness and Donaldson Invariants
+- 036000 — Wrapped Floer Homology and Noncompact Symplectic Geometry
 
-State conventions for prequantum weights, half-forms, and semiclassical Maslov indices. Proposals are not registered.
+Proposals are not registered; manuscripts are added only when actually written. No fixed duration or word-count policy is imposed.

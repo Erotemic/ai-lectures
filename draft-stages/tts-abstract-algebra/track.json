@@ -68,7 +68,11 @@
     "selmer-groups-arithmetic-duality",
     "roots-weights-reductive-representations",
     "stable-maps-gromov-witten",
-    "virtual-localization"
+    "virtual-localization",
+    "heights-mordell-weil-explicit-descent",
+    "borel-weil-bott-cohomology",
+    "quantum-cohomology-wdvv",
+    "stable-pairs-donaldson-thomas"
   ],
   "lectures": [
     {
@@ -610,6 +614,42 @@
       "spoken_words": 1004,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 6.9
+    },
+    {
+      "id": "061000",
+      "title": "Heights, Mordell–Weil, and Explicit Descent Algorithms",
+      "section": "heights-mordell-weil-explicit-descent",
+      "file": "061000-heights-mordell-weil-and-explicit-descent.md",
+      "spoken_words": 1105,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.6
+    },
+    {
+      "id": "062000",
+      "title": "Borel–Weil–Bott: Finding Representations in Line-Bundle Cohomology",
+      "section": "borel-weil-bott-cohomology",
+      "file": "062000-borel-weil-bott-and-line-bundle-cohomology.md",
+      "spoken_words": 1030,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.1
+    },
+    {
+      "id": "063000",
+      "title": "Quantum Cohomology: When Curves Change Multiplication",
+      "section": "quantum-cohomology-wdvv",
+      "file": "063000-quantum-cohomology-and-associativity.md",
+      "spoken_words": 1047,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.2
+    },
+    {
+      "id": "064000",
+      "title": "Stable Pairs and Donaldson–Thomas Theory: Curves as Sheaves",
+      "section": "stable-pairs-donaldson-thomas",
+      "file": "064000-stable-pairs-and-donaldson-thomas-theory.md",
+      "spoken_words": 1163,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 8.0
     }
   ]
 }

@@ -1,12 +1,12 @@
-# Abstract Algebra — after 60 completed lectures
+# Abstract Algebra: Structure, Symmetry, and Arithmetic — after 64 completed lectures
 
-Arithmetic descent and duality give local-to-global constraints, while the reductive group and enumerative geometry lectures connect symmetry and moduli. The torus fixed-point calculation shows how virtual intersection problems reduce to localized contributions.
+Arithmetic geometry, geometric representation theory, curve counting, and moduli have gained concrete computational examples. The Mordell–Weil lecture distinguishes upper bounds from Selmer conditions from lower bounds using points, and the virtual-count lectures distinguish stable sheaves and stable maps from literal embedded curves.
 
 ## Unindexed continuation proposals
 
-- 061000 — Heights, Mordell–Weil, and Explicit Descent Algorithms
-- 062000 — Borel–Weil–Bott and Geometric Representation Theory
-- 063000 — Quantum Cohomology and Associativity
-- 064000 — Stable Pairs and Donaldson–Thomas Theory
+- 065000 — Mordell–Weil Saturation and the Height-Pairing Matrix
+- 066000 — Weyl Character Formula and Flag-Variety Geometry
+- 067000 — Quantum Differential Equations and Mirror Symmetry
+- 068000 — DT/PT Wall Crossing and Curve-Counting Correspondences
 
-Keep the distinction between Selmer candidates and global points, and between stack/virtual invariants and literal counts of embedded curves. Proposals are not registered.
+Proposals are not registered; manuscripts are added only when actually written. No fixed duration or word-count policy is imposed.

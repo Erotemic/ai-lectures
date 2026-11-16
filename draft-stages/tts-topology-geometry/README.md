@@ -108,3 +108,10 @@ Each narration stands alone; exact hypotheses, derivations, exercises and source
 - 030000 — [The Maslov Index: Why a Classical Orbit Acquires a Quantum Half-Step](030000-maslov-index-and-semiclassical-phase.md)
 
 Each narration stands alone; exact hypotheses, derivations, exercises and source notes are provided in non-spoken companions. Word counts are descriptive only.
+
+## Continuation 16: Arithmetic, geometry, local algorithms and reliable computation
+
+- 031000 — [Instantons: Curvature, Topological Charge, and Gauge Moduli](031000-anti-self-dual-connections-and-instanton-moduli.md)
+- 032000 — [Floer Homology: Morse Theory for Periodic Trajectories](032000-floer-homology-and-infinite-dimensional-morse-theory.md)
+
+The spoken manuscripts are standalone. Precise statements, proof calculations, exercises with answers and references are kept outside the spoken markers. Narration lengths are descriptive measurements, not targets.

@@ -102,3 +102,9 @@ Each narration stands alone; exact hypotheses, derivations, exercises and source
 - 022000 — [Equilibrated Fluxes: A Computable Upper Bound on PDE Error](022000-equilibrated-fluxes-and-guaranteed-error-bounds.md)
 
 Each narration stands alone; exact hypotheses, derivations, exercises and source notes are provided in non-spoken companions. Word counts are descriptive only.
+
+## Continuation 16: Arithmetic, geometry, local algorithms and reliable computation
+
+- 023000 — [Anisotropic Multigrid: When the Grid Has a Preferred Direction](023000-anisotropic-multigrid-line-smoothing-and-semicoarsening.md)
+
+The spoken manuscripts are standalone. Precise statements, proof calculations, exercises with answers and references are kept outside the spoken markers. Narration lengths are descriptive measurements, not targets.

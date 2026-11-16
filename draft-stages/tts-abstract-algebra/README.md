@@ -138,3 +138,12 @@ Each narration stands alone; exact hypotheses, derivations, exercises and source
 - 060000 — [Equivariant Localization: A Global Count from Fixed Points](060000-virtual-localization-and-fixed-point-geometry.md)
 
 Each narration stands alone; exact hypotheses, derivations, exercises and source notes are provided in non-spoken companions. Word counts are descriptive only.
+
+## Continuation 16: Arithmetic, geometry, local algorithms and reliable computation
+
+- 061000 — [Heights, Mordell–Weil, and Explicit Descent Algorithms](061000-heights-mordell-weil-and-explicit-descent.md)
+- 062000 — [Borel–Weil–Bott: Finding Representations in Line-Bundle Cohomology](062000-borel-weil-bott-and-line-bundle-cohomology.md)
+- 063000 — [Quantum Cohomology: When Curves Change Multiplication](063000-quantum-cohomology-and-associativity.md)
+- 064000 — [Stable Pairs and Donaldson–Thomas Theory: Curves as Sheaves](064000-stable-pairs-and-donaldson-thomas-theory.md)
+
+The spoken manuscripts are standalone. Precise statements, proof calculations, exercises with answers and references are kept outside the spoken markers. Narration lengths are descriptive measurements, not targets.

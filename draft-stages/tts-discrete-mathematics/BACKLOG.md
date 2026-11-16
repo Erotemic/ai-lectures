@@ -1,12 +1,12 @@
-# Discrete Mathematics — after 30 completed lectures
+# Discrete Mathematics and Combinatorics — after 32 completed lectures
 
-Epsilon-nets show how bounded VC dimension makes random coverage possible, while constructive discrepancy links probabilistic bounds to conditional expectation and stronger partial-coloring algorithms. The weaker logarithmic coloring bound is not labeled Spencer's sharp-order bound.
+Linearity testing and seeded extraction connect local algebraic tests, min-entropy and computation. Query models and distance measures are explicit; the strong leftover-hash guarantee is stated together with seed independence.
 
 ## Unindexed continuation proposals
 
-- 031000 — Property Testing and Local Graph Algorithms
-- 032000 — Extractors and Pseudorandom Generators
-- 033000 — Hypergraph Containers and Sparse Extremal Results
+- 033000 — Hypergraph Containers and Sparse Extremal Combinatorics
 - 034000 — Fourier Analysis on the Boolean Cube
+- 035000 — Local Correctability and List Decoding
+- 036000 — Explicit Small-Bias Sets and Error-Correcting Codes
 
-Distinguish coverage, probability estimation, random existence, and polynomial-time construction. Proposals are not registered.
+Proposals are not registered; manuscripts are added only when actually written. No fixed duration or word-count policy is imposed.

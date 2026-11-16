@@ -1,12 +1,12 @@
-# Differential Equations — after 30 completed lectures
+# Differential Equations and Dynamical Systems — after 32 completed lectures
 
-Wave Strichartz estimates add global spacetime control with explicit admissible exponents and a failed endpoint. The cubic Klein-Gordon model gives a checked localized profile with separate neutral translation and exponentially growing linear modes.
+Geometric numerical integration now distinguishes symplecticity from exact energy preservation, and shocks are treated through separate conservation, entropy-admissibility and stability tests.
 
 ## Unindexed continuation proposals
 
-- 031000 — Structure-Preserving Numerical PDE Integrators
-- 032000 — Compressible Fluids and Shock Stability
-- 033000 — Concentration-Compactness and Nonlinear Scattering
+- 033000 — Concentration–Compactness and Nonlinear Scattering
 - 034000 — Stability of Pattern-Forming Interfaces
+- 035000 — Viscous Shock Profiles and Evans Function Tests
+- 036000 — Multisymplectic Variational Field Integrators
 
-Do not infer global nonlinear stability from the existence of an exact coherent state, or scattering from an energy bound. Proposals are not registered.
+Proposals are not registered; manuscripts are added only when actually written. No fixed duration or word-count policy is imposed.

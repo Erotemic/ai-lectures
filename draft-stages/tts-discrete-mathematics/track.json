@@ -38,7 +38,9 @@
     "vc-dimension-sauer-shelah",
     "discrepancy-partial-coloring",
     "epsilon-nets-uniform-convergence",
-    "constructive-discrepancy"
+    "constructive-discrepancy",
+    "property-testing",
+    "extractors-and-generators"
   ],
   "lectures": [
     {
@@ -310,6 +312,24 @@
       "spoken_words": 1091,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 7.5
+    },
+    {
+      "id": "031000",
+      "title": "Property Testing: Deciding Without Reading Everything",
+      "section": "property-testing",
+      "file": "031000-property-testing-and-local-graph-algorithms.md",
+      "spoken_words": 1137,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.8
+    },
+    {
+      "id": "032000",
+      "title": "Randomness Extractors: Recovering Usable Random Bits",
+      "section": "extractors-and-generators",
+      "file": "032000-extractors-and-pseudorandom-generators.md",
+      "spoken_words": 1170,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 8.1
     }
   ]
 }

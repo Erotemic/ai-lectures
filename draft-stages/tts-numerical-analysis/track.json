@@ -27,7 +27,8 @@
     "multigrid-preconditioning",
     "verified-nonlinear-systems",
     "nonsmooth-sensitivities",
-    "equilibrated-flux-certificates"
+    "equilibrated-flux-certificates",
+    "anisotropic-multigrid"
   ],
   "lectures": [
     {
@@ -227,6 +228,15 @@
       "spoken_words": 1124,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 7.8
+    },
+    {
+      "id": "023000",
+      "title": "Anisotropic Multigrid: When the Grid Has a Preferred Direction",
+      "section": "anisotropic-multigrid",
+      "file": "023000-anisotropic-multigrid-line-smoothing-and-semicoarsening.md",
+      "spoken_words": 1244,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 8.6
     }
   ]
 }

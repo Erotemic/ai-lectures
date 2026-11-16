@@ -108,3 +108,10 @@ Each narration stands alone; exact hypotheses, derivations, exercises and source
 - 030000 — [Constructive Discrepancy: From Random Signs to Partial Coloring](030000-constructive-discrepancy-and-partial-colorings.md)
 
 Each narration stands alone; exact hypotheses, derivations, exercises and source notes are provided in non-spoken companions. Word counts are descriptive only.
+
+## Continuation 16: Arithmetic, geometry, local algorithms and reliable computation
+
+- 031000 — [Property Testing: Deciding Without Reading Everything](031000-property-testing-and-local-graph-algorithms.md)
+- 032000 — [Randomness Extractors: Recovering Usable Random Bits](032000-extractors-and-pseudorandom-generators.md)
+
+The spoken manuscripts are standalone. Precise statements, proof calculations, exercises with answers and references are kept outside the spoken markers. Narration lengths are descriptive measurements, not targets.

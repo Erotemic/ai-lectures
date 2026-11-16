@@ -104,3 +104,9 @@ Each narration stands alone; exact hypotheses, derivations, exercises and source
 - 019000 — [Wasserstein Distributionally Robust Optimization: Decisions under Uncertain Laws](019000-wasserstein-distributionally-robust-optimization.md)
 
 Each narration stands alone; exact hypotheses, derivations, exercises and source notes are provided in non-spoken companions. Word counts are descriptive only.
+
+## Continuation 16: Arithmetic, geometry, local algorithms and reliable computation
+
+- 020000 — [Facial Reduction: Finding the True Interior of a Semidefinite Program](020000-facial-reduction-and-degenerate-sdp.md)
+
+The spoken manuscripts are standalone. Precise statements, proof calculations, exercises with answers and references are kept outside the spoken markers. Narration lengths are descriptive measurements, not targets.

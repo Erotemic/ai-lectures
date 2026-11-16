@@ -24,7 +24,8 @@
     "hsd-embedding",
     "nonmonotone-submodular",
     "inexact-proximal-steps",
-    "wasserstein-distributional-robustness"
+    "wasserstein-distributional-robustness",
+    "facial-reduction-sdp"
   ],
   "lectures": [
     {
@@ -197,6 +198,15 @@
       "spoken_words": 1136,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 7.8
+    },
+    {
+      "id": "020000",
+      "title": "Facial Reduction: Finding the True Interior of a Semidefinite Program",
+      "section": "facial-reduction-sdp",
+      "file": "020000-facial-reduction-and-degenerate-sdp.md",
+      "spoken_words": 1353,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 9.3
     }
   ]
 }

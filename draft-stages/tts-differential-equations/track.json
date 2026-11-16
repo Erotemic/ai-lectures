@@ -38,7 +38,9 @@
     "semilinear-waves-local-theory",
     "wave-criticality-scattering",
     "strichartz-endpoint-estimates",
-    "solitons-klein-gordon-modulation"
+    "solitons-klein-gordon-modulation",
+    "structure-preserving-pde",
+    "compressible-shocks"
   ],
   "lectures": [
     {
@@ -310,6 +312,24 @@
       "spoken_words": 1044,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 7.2
+    },
+    {
+      "id": "031000",
+      "title": "Structure-Preserving PDE Integrators: Discretizing Without Losing Geometry",
+      "section": "structure-preserving-pde",
+      "file": "031000-structure-preserving-numerical-pde-integrators.md",
+      "spoken_words": 1278,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 8.8
+    },
+    {
+      "id": "032000",
+      "title": "Compressible Fluids and Shock Stability: When Solutions Disagree on Smoothness",
+      "section": "compressible-shocks",
+      "file": "032000-compressible-fluids-shocks-and-stability.md",
+      "spoken_words": 1389,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 9.6
     }
   ]
 }

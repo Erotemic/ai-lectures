@@ -1,12 +1,12 @@
-# Numerical Analysis — after 22 completed lectures
+# Numerical Analysis and Reliable Computation — after 23 completed lectures
 
-Equilibrated fluxes produce a constant-one energy error upper bound in the conforming Poisson model, with an explicit one-dimensional equality example. Numerical certification still requires bounding flux balance, quadrature and rounding errors.
+Directionally stiff elliptic discretizations can defeat point smoothers even when the grid looks regular. The new lecture derives the precise Jacobi amplification factor and distinguishes line smoothing from strong-direction semicoarsening.
 
 ## Unindexed continuation proposals
 
-- 023000 — Robust Multigrid for Strongly Anisotropic Operators
-- 024000 — Validated Bifurcation Diagrams and Computer-Assisted Proofs
+- 024000 — Validated Bifurcation Diagrams and Computer-Assisted Proof
 - 025000 — Event-Time Sensitivities in Hybrid Solvers
-- 026000 — Goal-Oriented Dual Weighted Residual Certificates
+- 026000 — Goal-Oriented Dual-Weighted Residual Certificates
+- 027000 — Algebraic Multigrid for Rotated Anisotropy
 
-Keep reliability, local efficiency, data oscillation and floating-point verification separate. Proposals are not registered.
+Proposals are not registered; manuscripts are added only when actually written. No fixed duration or word-count policy is imposed.

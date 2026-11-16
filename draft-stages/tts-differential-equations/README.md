@@ -108,3 +108,10 @@ Each narration stands alone; exact hypotheses, derivations, exercises and source
 - 030000 — [Solitons and Modulation: A Klein–Gordon Wave that Can Become Unstable](030000-solitons-modulation-and-klein-gordon-instability.md)
 
 Each narration stands alone; exact hypotheses, derivations, exercises and source notes are provided in non-spoken companions. Word counts are descriptive only.
+
+## Continuation 16: Arithmetic, geometry, local algorithms and reliable computation
+
+- 031000 — [Structure-Preserving PDE Integrators: Discretizing Without Losing Geometry](031000-structure-preserving-numerical-pde-integrators.md)
+- 032000 — [Compressible Fluids and Shock Stability: When Solutions Disagree on Smoothness](032000-compressible-fluids-shocks-and-stability.md)
+
+The spoken manuscripts are standalone. Precise statements, proof calculations, exercises with answers and references are kept outside the spoken markers. Narration lengths are descriptive measurements, not targets.
