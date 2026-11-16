@@ -1,9 +1,9 @@
 # Rotation backlog: Masonry and Concrete: Materials, Loads, Water, and Repair
 
-Status: lectures `001000`–`018000` authored. Remaining slots are proposed, not completed manuscripts.
+Status: lectures `001000`–`019000` authored. Remaining slots are proposed, not completed manuscripts.
 These are ordered topics, not duration or word-count requirements. Retain stable IDs once published.
 
-- `019000` — Water Tests and Drainage Diagnosis Around Masonry Openings
+- `020000` — Reinforced Concrete Cover, Corrosion, and Long-Term Durability
 
 **Editorial method:** Narrate physics and practical reasoning directly; use non-spoken companions for equations, diagrams, source locators, jurisdictional rules, and outstanding reviews.
 These drafts are not professionally certified or jurisdiction-verified.

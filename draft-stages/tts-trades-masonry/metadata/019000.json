@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "lecture_id": "019000",
+  "transcript": "019000-tracing-rainwater-around-masonry-openings.md",
+  "related_resources": [
+    {
+      "source_id": "bia-water-resistance-design",
+      "reason": "Brick veneer drainage systems, flashing at openings and drainage paths"
+    },
+    {
+      "source_id": "bia-builder-notes",
+      "reason": "Drainable veneer, flashing, weeps, air space and moisture control"
+    },
+    {
+      "source_id": "bia-tech-note44b-ties",
+      "reason": "Wall tie function, connection detailing, structural performance and corrosion resistance in anchored brick veneer and masonry"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P019000-01",
+      "claim": "Drainage-wall masonry expects some water to enter veneer and relies on a route back outside.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "bia-water-resistance-design",
+          "location": "Brick veneer drainage systems, flashing at openings and drainage paths",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "bia-builder-notes",
+          "location": "Drainable veneer, flashing, weeps, air space and moisture control",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P019000-02",
+      "claim": "Flashings at openings and appropriate drainage outlets are central to moisture control.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "bia-water-resistance-design",
+          "location": "Brick veneer drainage systems, flashing at openings and drainage paths",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P019000-03",
+      "claim": "A visible stain may be displaced from the water entry point.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "bia-water-resistance-design",
+          "location": "Brick veneer drainage systems, flashing at openings and drainage paths",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P019000-04",
+      "claim": "Uncontrolled water spraying is not equivalent to a specified field performance test.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "bia-water-resistance-design",
+          "location": "Brick veneer drainage systems, flashing at openings and drainage paths",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_technical_review_pending",
+  "citation_policy": "Original authors and standards issuers attributed; synthesis distinguished from source-backed claims. Not certified for professional, clinical or jurisdiction-specific use."
+}

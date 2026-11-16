@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "lecture_id": "019000",
+  "transcript": "019000-cooking-vegetables-cell-walls-water-and-texture.md",
+  "related_resources": [
+    {
+      "source_id": "fuchigami-vegetable-maceration",
+      "reason": "Cooking pH, pectic-substance release and vegetable-tissue firmness; material-dependent"
+    },
+    {
+      "source_id": "usu-pickle-pectin",
+      "reason": "Pectin and vegetable tissue texture; practical application focused on pickling"
+    },
+    {
+      "source_id": "illinois-maillard",
+      "reason": "Moisture, heating and browning"
+    },
+    {
+      "source_id": "fsis-safety",
+      "reason": "Clean, separate, cook and chill practices"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P019000-01",
+      "claim": "Vegetable texture depends on structural cell-wall materials and plant-tissue integrity.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "fuchigami-vegetable-maceration",
+          "location": "Cooking pH, pectic-substance release and vegetable-tissue firmness; material-dependent",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "usu-pickle-pectin",
+          "location": "Pectin and vegetable tissue texture; practical application focused on pickling",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P019000-02",
+      "claim": "Acidity and cooking conditions influence pectic-substance release and vegetable softening.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "fuchigami-vegetable-maceration",
+          "location": "Cooking pH, pectic-substance release and vegetable-tissue firmness; material-dependent",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P019000-03",
+      "claim": "Browning and evaporation change dry-heat cooking outcomes.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "illinois-maillard",
+          "location": "Moisture, heating and browning",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P019000-04",
+      "claim": "Cleaning and cross-contamination control remain necessary independent of desired texture.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "fsis-safety",
+          "location": "Clean, separate, cook and chill practices",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_technical_review_pending",
+  "citation_policy": "Original authors and standards issuers attributed; synthesis distinguished from source-backed claims. Not certified for professional, clinical or jurisdiction-specific use."
+}

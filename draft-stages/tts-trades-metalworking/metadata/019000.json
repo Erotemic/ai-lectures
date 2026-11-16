@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "lecture_id": "019000",
+  "transcript": "019000-reading-a-weld-fit-up-surface-evidence-and-hidden-defects.md",
+  "related_resources": [
+    {
+      "source_id": "aws-b111-visual",
+      "reason": "Visual examination stages, weld surface discontinuities, equipment and prerequisites; full standard may require purchase"
+    },
+    {
+      "source_id": "twi-weld-defects",
+      "reason": "Weld imperfection taxonomy, hidden fusion limits, design-dependent acceptance"
+    },
+    {
+      "source_id": "osha-welding",
+      "reason": "Fumes, ultraviolet radiation, burns, electric shock and protective controls"
+    },
+    {
+      "source_id": "twi-tack-distortion",
+      "reason": "Effect of tack spacing, sequence, and root-gap control on welding shrinkage"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P019000-01",
+      "claim": "Visual weld examination depends on joint preparation, fit-up and defined acceptance criteria.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "aws-b111-visual",
+          "location": "Visual examination stages, weld surface discontinuities, equipment and prerequisites; full standard may require purchase",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P019000-02",
+      "claim": "Some weld imperfections are visible at the surface while others require further examination.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "aws-b111-visual",
+          "location": "Visual examination stages, weld surface discontinuities, equipment and prerequisites; full standard may require purchase",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "twi-weld-defects",
+          "location": "Weld imperfection taxonomy, hidden fusion limits, design-dependent acceptance",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P019000-03",
+      "claim": "Lack of fusion, cracking, undercut and porosity are distinct discontinuity mechanisms.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "twi-weld-defects",
+          "location": "Weld imperfection taxonomy, hidden fusion limits, design-dependent acceptance",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P019000-04",
+      "claim": "Welding sequence and heat input influence distortion.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "twi-tack-distortion",
+          "location": "Effect of tack spacing, sequence, and root-gap control on welding shrinkage",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_technical_review_pending",
+  "citation_policy": "Original authors and standards issuers attributed; synthesis distinguished from source-backed claims. Not certified for professional, clinical or jurisdiction-specific use."
+}

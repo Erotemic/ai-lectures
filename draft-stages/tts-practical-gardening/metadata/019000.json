@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "lecture_id": "019000",
+  "transcript": "019000-planning-vegetable-harvests-with-frost-light-and-succession.md",
+  "related_resources": [
+    {
+      "source_id": "cornell-succession",
+      "reason": "Succession strategies, temperature tolerance and autumn growth slowing"
+    },
+    {
+      "source_id": "cornell-albany-first-planting",
+      "reason": "Regional averages, spring seed/transplant planning; not nationally applicable"
+    },
+    {
+      "source_id": "cornell-rensselaer-last-planting",
+      "reason": "Regional fall frost and latest crop planting examples; not universal"
+    },
+    {
+      "source_id": "umn-seed-starting",
+      "reason": "Medium temperature, watering, seedling light and growing conditions"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P019000-01",
+      "claim": "Succession planting can stagger harvests by repeated sowing, maturity selection or crop replacement.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "cornell-succession",
+          "location": "Succession strategies, temperature tolerance and autumn growth slowing",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P019000-02",
+      "claim": "Local first and last frost dates are regional averages, not guarantees.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "cornell-albany-first-planting",
+          "location": "Regional averages, spring seed/transplant planning; not nationally applicable",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "cornell-rensselaer-last-planting",
+          "location": "Regional fall frost and latest crop planting examples; not universal",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P019000-03",
+      "claim": "Fall growing time may exceed stated variety maturation times as conditions change.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "cornell-succession",
+          "location": "Succession strategies, temperature tolerance and autumn growth slowing",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "cornell-rensselaer-last-planting",
+          "location": "Regional fall frost and latest crop planting examples; not universal",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P019000-04",
+      "claim": "Transplant timing should account for plant growth and local planting conditions.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "umn-seed-starting",
+          "location": "Medium temperature, watering, seedling light and growing conditions",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "cornell-albany-first-planting",
+          "location": "Regional averages, spring seed/transplant planning; not nationally applicable",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Application depends on actual equipment, materials, conditions and governing requirements; educational synthesis may go beyond any single cited source.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_technical_review_pending",
+  "citation_policy": "Original authors and standards issuers attributed; synthesis distinguished from source-backed claims. Not certified for professional, clinical or jurisdiction-specific use."
+}

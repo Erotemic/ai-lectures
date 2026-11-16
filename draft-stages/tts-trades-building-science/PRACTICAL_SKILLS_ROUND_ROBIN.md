@@ -1,29 +1,40 @@
-# Practical-skills round robin
+# Practical skills curriculum: Round 19 coverage review
 
-These 17 tracks are Agent C's exclusive content scope. They complement but do not alter the electrical track. The rotation is editorial organization, not a word-count or duration policy.
+Editorial review date: 2026-11-15. This document replaces the obsolete automatic-round table.
 
-**Rounds `001000` through `014000` are authored for all 17 tracks. Next pass:** write one substantive `015000` lecture in each track in the same order. Stable IDs are playback/cache identifiers; the subject determines length.
+**Decision:** A track is not assigned a new lecture merely because it has a backlog ID. Pause when the foundational course is coherent and the next topic is largely repetitive; resume for a demonstrable gap, changed evidence, or substantive advanced subseries. These are educational drafts, not professional certification or proof of exhaustive coverage.
 
-| Rotation | Track (namespace) | `001000` words | `002000` words | `003000` words | `004000` words | `005000` words | `006000` words | `007000` words | `008000` words | `009000` words | `010000` words | `011000` words | `012000` words | `013000` words | `014000` words | Proposed `015000` lecture |
-|---:|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---|
-| 1 | `trades-building-science` | 1457 | 1188 | 1050 | 1029 | 1001 | 1016 | 985 | 822 | 1071 | 1069 | 1001 | 901 | 892 | 1140 | Controlling Summer Overheating with Shading and Thermal Mass |
-| 2 | `trades-plumbing` | 1416 | 1113 | 1055 | 942 | 979 | 1003 | 979 | 877 | 1026 | 1042 | 935 | 882 | 875 | 1056 | Water Quality Testing, Filtration, and Treatment Claims |
-| 3 | `practical-tools-and-measurement` | 1352 | 1184 | 955 | 938 | 1001 | 964 | 928 | 858 | 977 | 1008 | 937 | 871 | 863 | 1122 | Diagnosing Tool Runout, Vibration, and Repeatability |
-| 4 | `trades-carpentry` | 1322 | 1112 | 1017 | 909 | 945 | 967 | 940 | 864 | 944 | 1011 | 937 | 841 | 929 | 1052 | Engineered Wood Panels and Moisture-Sensitive Connections |
-| 5 | `trades-hvac` | 1253 | 1147 | 1014 | 932 | 976 | 1009 | 973 | 880 | 969 | 1059 | 913 | 927 | 910 | 1090 | Variable-Speed Equipment, Sensors, and Control Modes |
-| 6 | `trades-masonry` | 1236 | 1020 | 1003 | 830 | 967 | 974 | 881 | 836 | 920 | 972 | 865 | 830 | 813 | 961 | Moisture, Freeze-Thaw, and Surface Protection |
-| 7 | `practical-mechanics` | 1185 | 1014 | 1008 | 831 | 910 | 987 | 899 | 879 | 892 | 991 | 892 | 870 | 886 | 997 | Shafts, Couplings, and Alignment |
-| 8 | `trades-metalworking` | 1213 | 1027 | 1005 | 830 | 976 | 940 | 922 | 769 | 868 | 960 | 900 | 847 | 776 | 1006 | Welding Distortion and Fixture Design |
-| 9 | `practical-networking-controls` | 1259 | 1099 | 1018 | 950 | 1061 | 1055 | 1003 | 835 | 1010 | 1127 | 981 | 873 | 920 | 1054 | Retries, Timekeeping, and Event Delivery in Automation |
-| 10 | `practical-vehicle-maintenance` | 1186 | 1047 | 1008 | 821 | 997 | 875 | 890 | 813 | 940 | 984 | 904 | 870 | 857 | 1022 | Starting and Charging Faults Across Hot and Cold Conditions |
-| 11 | `practical-food-science` | 1318 | 967 | 926 | 889 | 942 | 935 | 918 | 840 | 957 | 1032 | 927 | 826 | 1000 | 1014 | Dry Heat and Wet Heat: Cooking by Energy Transfer |
-| 12 | `practical-gardening` | 1192 | 949 | 994 | 813 | 905 | 962 | 898 | 763 | 954 | 1052 | 866 | 855 | 851 | 1095 | Raised Beds and Soil Mixes: Engineering the Root Zone |
-| 13 | `practical-sewing-textiles` | 1317 | 1007 | 1005 | 935 | 923 | 1019 | 864 | 891 | 936 | 1006 | 891 | 831 | 902 | 985 | Outdoor Fabrics, Weatherproof Seams, and Repairs |
-| 14 | `practical-first-aid` | 1286 | 1151 | 1081 | 894 | 1041 | 1079 | 1029 | 907 | 1038 | 1133 | 928 | 863 | 975 | 1132 | Breathing Distress: Recognition and Escalation |
-| 15 | `practical-household-maintenance` | 1288 | 1068 | 1017 | 965 | 991 | 938 | 1038 | 840 | 949 | 1118 | 938 | 907 | 972 | 1104 | Attic Dampness Case Study: Roof Leak versus Air Leakage |
-| 16 | `practical-contractors-estimates` | 1241 | 1101 | 1058 | 894 | 1014 | 993 | 998 | 876 | 982 | 1093 | 944 | 877 | 967 | 1113 | Material Procurement, Substitutions, and Lead Times |
-| 17 | `practical-navigation-outdoors` | 1302 | 1087 | 1015 | 890 | 983 | 1022 | 962 | 867 | 974 | 1140 | 961 | 894 | 970 | 1237 | Choosing an Overnight Route Around Water, Weather, and Bailout Points |
+All 17 tracks have `001000`–`018000` authored. This round adds `019000` to the 13 active tracks below, while preserving all prior IDs and texts. The four paused tracks retain their 18 lectures.
 
-**Authoring boundaries:** Only these 17 practical-skills packs are in scope; do not alter trades-electrical, history, literature, music, mathematics, shared tooling, or binary audio. Deliver one text-only repository-relative ZIP per round, imported with `python tools/content_overlay.py apply`.
+| Status | Pack | Round 19 work | Next genuine gap |
+|---|---|---|---|
+| Continue | `trades-building-science` | `019000`: Joining the Foundation Air Barrier to the Wall Above | Distinguishing Residual Moisture from New Wetting After an Enclosure Retrofit |
+| Continue | `trades-plumbing` | `019000`: Diagnosing Pressure Loss Through Filters and Fixtures | Drainage Venting Under Simultaneous Fixture Loads |
+| Continue | `trades-carpentry` | `019000`: Deck Footings, Post Bases, and the Long-Term Load Path | Roof Trusses, Load Paths, and the Limits of Field Modifications |
+| Continue | `trades-hvac` | `019000`: Commissioning Balanced Ventilation and Finding Fan-Flow Imbalance | Measuring Duct Static Pressure and Room Air Delivery |
+| Continue | `trades-masonry` | `019000`: Tracing Rainwater Around Masonry Openings | Reinforced Concrete Cover, Corrosion, and Long-Term Durability |
+| Continue | `practical-mechanics` | `019000`: Pump Selection, Efficiency, and the Cost of Moving Water | Mechanical Seals and Leaks at Rotating Shafts |
+| Continue | `trades-metalworking` | `019000`: Reading a Weld: Fit-Up, Surface Evidence, and Hidden Defects | Surface Preparation, Coatings, and Durable Metal Finishes |
+| Continue | `practical-networking-controls` | `019000`: Reliable Automations as State Machines, Not Chains of Notifications | Configuration as Code and Repeatable Device Commissioning |
+| Continue | `practical-vehicle-maintenance` | `019000`: Fuel Trims, Air Leaks, and Diagnosing Mixture Faults | Hybrid and Electric Vehicle Systems: Diagnostic Boundaries and Safe Maintenance |
+| Continue | `practical-food-science` | `019000`: Cooking Vegetables: Cell Walls, Water, and Texture | Legumes and Grains: Hydration, Structure, and Tenderness |
+| Continue | `practical-gardening` | `019000`: Planning Vegetable Harvests with Frost, Light, and Succession | Crop Rotation and Vegetable Disease Ecology |
+| Continue | `practical-sewing-textiles` | `019000`: Altering Knit Garments Without Losing Stretch | Garment Alterations on the Bias and Across Woven Grain |
+| Continue | `practical-first-aid` | `019000`: Internal Bleeding and a Change in Responsiveness | Child and Infant Illness: Recognizing Deterioration and Calling for Help |
+| Pause core sequence | `practical-tools-and-measurement` | No new transcript | Future expansion should be driven by a distinct skill gap, not another marginal process-control lecture. |
+| Pause core sequence | `practical-household-maintenance` | No new transcript | Reopen for a genuinely new, non-redundant household failure class or reader-reported gap. |
+| Pause core sequence | `practical-contractors-estimates` | No new transcript | Future advanced legal or regulatory instruction would require jurisdiction-grounded review and clear differentiation. |
+| Pause core sequence | `practical-navigation-outdoors` | No new transcript | Advanced specialist modules are possible, but another after-action-review lecture is not a new core competency. |
 
-**Evidence practice:** Attribute original authors and standards issuers; distinguish sourced claims from synthesis and adopted local requirements. Keep technical/clinical review gaps visible in non-spoken metadata and companions. Word counts are descriptive only.
+## What “comprehensive” means here
+
+- Cover physical/technical principles, operations, common failures, diagnostic experiments and verification across a meaningful range of cases; do not artificially extend the curriculum with tiny variants of prior lectures.
+- Existing early lectures provide breadth, not completion of every specialized trade, clinical condition, building-code jurisdiction or equipment type.
+- Do not alter prior lecture IDs for editorial pause status. A new advanced strand may open later, without renumbering the foundational course.
+- Give each lecture sufficient substance and its own teaching purpose. No duration or word-count target, minimum or cap.
+- Technical, food-safety, structural, legal and clinical claims need primary sources, appropriate independent review and distinctions between foundational principles and adopted local requirements.
+- Track-level companions and claim maps document evidence and review gaps; structural inventory passing is not independent accuracy certification.
+
+## Scope
+
+Agent C works only inside these practical-skills packs. Do not modify the electrical track, other curricula, shared code or binary media. Package one hash-aware text-only overlay per installment.
