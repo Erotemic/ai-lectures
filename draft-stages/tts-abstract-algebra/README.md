@@ -165,3 +165,12 @@ Narrations are self-contained. Exact hypotheses, proof calculations, exercises w
 - 072000 - [Motivic Donaldson-Thomas Invariants and Quantum Wall Crossing](072000-motivic-dt-invariants-and-quantum-wall-crossing.md)
 
 All narrations are standalone. Precise assumptions, worked derivations, exercises with answers, and references remain outside spoken markers. Recorded length is descriptive, not a policy.
+
+## Continuation 19: arithmetic finiteness, pseudorandomness, symplectic rigidity, and reliable dynamics
+
+- 073000 - [Effective Chabauty-Coleman Bounds on Rational Points](073000-effective-chabauty-coleman-rational-points.md)
+- 074000 - [Crystal Bases and Canonical Bases](074000-crystal-and-canonical-bases.md)
+- 075000 - [Gamma Classes and Integral Structures in Quantum Cohomology](075000-gamma-class-integral-structures.md)
+- 076000 - [Hall Algebras, Extensions, and Cluster Mutations](076000-hall-algebras-and-cluster-mutations.md)
+
+All narrations stand alone. Derivations, exact assumptions, exercises with answers, and references remain outside spoken markers. Length is set by the material, not a word-count or duration target.

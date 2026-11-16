@@ -1,12 +1,12 @@
-# Abstract Algebra: Structure, Symmetry, and Arithmetic - after 72 completed lectures
+# Abstract Algebra: Structure, Symmetry, and Arithmetic - after 76 completed lectures
 
-Cassels-Tate duality sharpens descent bounds without confusing Sha with rational points. Schur tableaux compute tensor multiplicities; the CP1 quantum connection has separate regular-monodromy and irregular-Stokes structures; motivic DT counts are related through noncommutative ordered wall-crossing products.
+Effective Chabauty-Coleman bounds make a rank hypothesis and residue-disk count explicit; crystal graphs recover tensor-product decomposition; Gamma classes correct K-theory-to-quantum-flat-section comparisons; Hall multiplication detects nonsplit extensions and links quivers to cluster mutation.
 
 ## Unindexed continuation proposals
 
-- 073000 - Effective Chabauty-Coleman Bounds on Rational Points
-- 074000 - Crystal Bases and Canonical Bases
-- 075000 - Quantum Cohomology and Gamma-Class Integral Structures
-- 076000 - Hall Algebras and Cluster Mutations
+- 077000 - Quadratic Chabauty and p-adic Height Pairings
+- 078000 - Demazure Crystals and Key Polynomials
+- 079000 - Quantum Lefschetz and Gamma-Class Correspondences
+- 080000 - Stability Conditions, Quiver Mutations, and Wall Crossing
 
-Proposals are not registered; manuscripts are added only when written. There is no fixed narration duration or word-count policy.
+Proposals are not registered; manuscripts are added only when written. Lecture length is determined by the subject, not a fixed duration policy.

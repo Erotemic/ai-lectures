@@ -1,12 +1,12 @@
-# Optimization, Convexity, and Duality - after 22 completed lectures
+# Optimization, Convexity, and Duality - after 23 completed lectures
 
-Mirror-Prox corrects the unstable rotation of simultaneous descent-ascent in a bilinear saddle. The Bregman two-stage method gives a telescoping O(1/T) ergodic gap for compact monotone Lipschitz variational inequalities under standard assumptions.
+Stochastic Mirror-Prox corrects bilinear rotation while paying an oracle-noise term in expected ergodic gap bounds. Two-oracle sampling, conditional unbiasedness, and prox geometry are explicit assumptions.
 
 ## Unindexed continuation proposals
 
-- 023000 - Entropic Risk and CVaR Under Distributional Ambiguity
-- 024000 - Exact SDP Duality and Numerical Facial Reduction
-- 025000 - Rounding and Contention Resolution for Matroid Intersections
-- 026000 - Stochastic Mirror-Prox and Variance Reduction
+- 024000 - Entropic Risk and CVaR Under Distributional Ambiguity
+- 025000 - Exact SDP Duality and Numerical Facial Reduction
+- 026000 - Variance-Reduced Stochastic Mirror-Prox
+- 027000 - Adaptive Sampling and Inexact Variational Inequality Certificates
 
-Proposals are not registered; manuscripts are added only when written. There is no fixed narration duration or word-count policy.
+Proposals are not registered; manuscripts are added only when written. Lecture length is determined by the subject, not a fixed duration policy.

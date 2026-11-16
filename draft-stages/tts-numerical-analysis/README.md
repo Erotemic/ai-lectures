@@ -120,3 +120,9 @@ Narrations are self-contained. Exact hypotheses, proof calculations, exercises w
 - 025000 - [Validated Periodic Orbits and Floquet Multipliers](025000-validated-periodic-orbits-and-floquet-multipliers.md)
 
 All narrations are standalone. Precise assumptions, worked derivations, exercises with answers, and references remain outside spoken markers. Recorded length is descriptive, not a policy.
+
+## Continuation 19: arithmetic finiteness, pseudorandomness, symplectic rigidity, and reliable dynamics
+
+- 026000 - [Event-Time Sensitivities and Saltation Matrices](026000-event-time-sensitivities-and-saltation.md)
+
+All narrations stand alone. Derivations, exact assumptions, exercises with answers, and references remain outside spoken markers. Length is set by the material, not a word-count or duration target.

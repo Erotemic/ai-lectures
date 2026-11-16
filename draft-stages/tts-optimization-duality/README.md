@@ -122,3 +122,9 @@ Narrations are self-contained. Exact hypotheses, proof calculations, exercises w
 - 022000 - [Mirror-Prox: Solving Monotone Games Without Rotating Forever](022000-mirror-prox-and-bregman-variational-inequalities.md)
 
 All narrations are standalone. Precise assumptions, worked derivations, exercises with answers, and references remain outside spoken markers. Recorded length is descriptive, not a policy.
+
+## Continuation 19: arithmetic finiteness, pseudorandomness, symplectic rigidity, and reliable dynamics
+
+- 023000 - [Stochastic Mirror-Prox and the Cost of Noisy Oracles](023000-stochastic-mirror-prox-and-oracle-noise.md)
+
+All narrations stand alone. Derivations, exact assumptions, exercises with answers, and references remain outside spoken markers. Length is set by the material, not a word-count or duration target.

@@ -1,12 +1,12 @@
-# Discrete Mathematics and Combinatorics - after 36 completed lectures
+# Discrete Mathematics and Combinatorics - after 38 completed lectures
 
-Hypercontractive noise smoothing gives a quantitative link from Boolean Fourier coefficients to influence bounds and sharp thresholds. Hadamard local correction recovers a selected symbol with two queries; Parseval bounds high-correlation candidate lists.
+Small-bias distributions fool parity observers with short seeds but not arbitrary observers. Russo derivatives and the balanced tribes function connect coordinate influences to threshold widths, while noting distinct absolute and relative notions of sharpness.
 
 ## Unindexed continuation proposals
 
-- 037000 - Explicit Small-Bias Spaces and Derandomization
-- 038000 - Threshold Phenomena and Friedgut Junta Theorems
-- 039000 - Polynomial Codes and Locally Testable Proofs
-- 040000 - Hypergraph Matchings and Absorption
+- 039000 - Polynomial Codes and Local Testability
+- 040000 - Hypergraph Matchings and the Absorption Method
+- 041000 - Additive Combinatorics and Fourier Uniformity
+- 042000 - Pseudorandom Graphs and Quasirandom Equivalences
 
-Proposals are not registered; manuscripts are added only when written. There is no fixed narration duration or word-count policy.
+Proposals are not registered; manuscripts are added only when written. Lecture length is determined by the subject, not a fixed duration policy.

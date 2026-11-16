@@ -44,7 +44,9 @@
     "concentration-compactness-scattering",
     "pattern-forming-interface-stability",
     "viscous-shocks-evans",
-    "multisymplectic-integrators"
+    "multisymplectic-integrators",
+    "green-kernels-shock-stability",
+    "allen-cahn-metastability"
   ],
   "lectures": [
     {
@@ -370,6 +372,24 @@
       "spoken_words": 1320,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 9.1
+    },
+    {
+      "id": "037000",
+      "title": "Pointwise Green Kernels and Nonlinear Viscous-Shock Stability",
+      "section": "green-kernels-shock-stability",
+      "file": "037000-green-kernels-and-nonlinear-shock-stability.md",
+      "spoken_words": 1203,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 8.3
+    },
+    {
+      "id": "038000",
+      "title": "Metastable Multi-Front Motion in Allen-Cahn Equations",
+      "section": "allen-cahn-metastability",
+      "file": "038000-metastable-multifront-allen-cahn-motion.md",
+      "spoken_words": 1301,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 9.0
     }
   ]
 }

@@ -129,3 +129,10 @@ Narrations are self-contained. Exact hypotheses, proof calculations, exercises w
 - 036000 - [Chern Numbers and the Integer Quantum Hall Effect](036000-chern-numbers-and-integer-quantum-hall-transport.md)
 
 All narrations are standalone. Precise assumptions, worked derivations, exercises with answers, and references remain outside spoken markers. Recorded length is descriptive, not a policy.
+
+## Continuation 19: arithmetic finiteness, pseudorandomness, symplectic rigidity, and reliable dynamics
+
+- 037000 - [Wrapped Floer Homology and Symplectic Cohomology](037000-wrapped-floer-and-symplectic-cohomology.md)
+- 038000 - [ECH Capacities and Symplectic Embedding Staircases](038000-ech-capacities-and-embedding-staircases.md)
+
+All narrations stand alone. Derivations, exact assumptions, exercises with answers, and references remain outside spoken markers. Length is set by the material, not a word-count or duration target.

@@ -129,3 +129,10 @@ Narrations are self-contained. Exact hypotheses, proof calculations, exercises w
 - 036000 - [Multisymplectic Variational Integrators for Wave Equations](036000-multisymplectic-variational-wave-integrators.md)
 
 All narrations are standalone. Precise assumptions, worked derivations, exercises with answers, and references remain outside spoken markers. Recorded length is descriptive, not a policy.
+
+## Continuation 19: arithmetic finiteness, pseudorandomness, symplectic rigidity, and reliable dynamics
+
+- 037000 - [Pointwise Green Kernels and Nonlinear Viscous-Shock Stability](037000-green-kernels-and-nonlinear-shock-stability.md)
+- 038000 - [Metastable Multi-Front Motion in Allen-Cahn Equations](038000-metastable-multifront-allen-cahn-motion.md)
+
+All narrations stand alone. Derivations, exact assumptions, exercises with answers, and references remain outside spoken markers. Length is set by the material, not a word-count or duration target.

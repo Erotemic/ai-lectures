@@ -27,7 +27,8 @@
     "wasserstein-distributional-robustness",
     "facial-reduction-sdp",
     "multiple-matroid-submodular",
-    "mirror-prox-bregman"
+    "mirror-prox-bregman",
+    "stochastic-mirror-prox"
   ],
   "lectures": [
     {
@@ -227,6 +228,15 @@
       "spoken_words": 1450,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 10.0
+    },
+    {
+      "id": "023000",
+      "title": "Stochastic Mirror-Prox and the Cost of Noisy Oracles",
+      "section": "stochastic-mirror-prox",
+      "file": "023000-stochastic-mirror-prox-and-oracle-noise.md",
+      "spoken_words": 1320,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 9.1
     }
   ]
 }

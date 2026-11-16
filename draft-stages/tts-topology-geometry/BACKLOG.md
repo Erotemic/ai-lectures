@@ -1,12 +1,12 @@
-# Topology and Geometry - after 36 completed lectures
+# Topology and Geometry - after 38 completed lectures
 
-ASD compactness accounts for curvature escaping in scale through quantized instanton bubbles. The Berry eigenbundle over a Brillouin torus yields an integral Chern number that the TKNN response formula turns into a Hall-conductance plateau.
+Wrapped Floer theory recovers based-loop topology through cotangent-fiber chords, and ECH capacities turn symplectic embedding obstructions into ordered lattice sums. Both require precise exactness/dimensional assumptions.
 
 ## Unindexed continuation proposals
 
-- 037000 - Wrapped Floer Homology and Symplectic Cohomology
-- 038000 - Symplectic Embedding Capacities and Staircases
 - 039000 - Donaldson Intersection Invariants
 - 040000 - Family Index Theory and Determinant Line Bundles
+- 041000 - Symplectic Field Theory and Reeb Orbit Counts
+- 042000 - Geometric Quantization and Index Pairings
 
-Proposals are not registered; manuscripts are added only when written. There is no fixed narration duration or word-count policy.
+Proposals are not registered; manuscripts are added only when written. Lecture length is determined by the subject, not a fixed duration policy.
