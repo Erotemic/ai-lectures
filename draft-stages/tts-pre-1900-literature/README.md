@@ -172,11 +172,30 @@ and faith, editions, translation, and close reading. The separately published
 Part Eight is **part of the novel**, not a detachable postscript. See
 `notes/anna-karenina-eight-parts-and-edition-history.md`.
 
+**Victorian provincial novel — George Eliot, *Middlemarch***: 173000–187000.
+Eight book-by-book story lectures cover all eighty-six chapters and the Finale,
+following Dorothea, Lydgate, Fred, Mary, Rosamond, Bulstrode, and the intersecting
+effects of property, marriage, medicine, gossip and reform. Seven analyses cover
+Eliot's omniscient and self-questioning narration, vocation, institutional
+compromise, practical labor, conscience and wealth, women's constrained choices,
+close reading and the **1871–1872 publication in eight separately issued books**.
+See `notes/middlemarch-books-network-and-editions.md`.
+
+**Russian psychological and philosophical fiction — Dostoevsky, *Crime and
+Punishment***: 188000–202000. Seven narrative lectures cover **all six parts
+and the epilogue**: the two murders, fever, Porfiry's inquiries, Sonya, the
+false confessions and false accusations, Svidrigailov, police confession,
+and the beginning of change in Siberia. Eight analyses examine the theory
+of exceptional individuals, narration and dreams, Lazarus and accountability,
+women's choices, legal evidence, character contrasts, poverty and Petersburg,
+and **1866 serial/1867 book** history. No claim is made that legal confession
+instantly provides repentance. See
+`notes/crime-punishment-six-parts-epilogue-versions.md`.
+
 ## Substantive next priorities
 
-High-impact omissions worth prioritizing include George Eliot's *Middlemarch*,
-Emily Brontë's *Wuthering Heights*, Charlotte Brontë's *Jane Eyre*,
-Dostoevsky's *Crime and Punishment*, Goethe's *Faust*, Milton's *Paradise Lost*,
+High-impact omissions worth prioritizing include Emily Brontë's *Wuthering Heights*,
+Charlotte Brontë's *Jane Eyre*, Goethe's *Faust*, Milton's *Paradise Lost*,
 Chaucer's *Canterbury Tales*, and Boccaccio's *Decameron*. Choose for historical
 and literary significance rather than geographic quota. All spoken lecture
 lengths are descriptive measurements, not imposed targets.

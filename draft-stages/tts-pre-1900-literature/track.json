@@ -1,7 +1,7 @@
 {
   "id": "pre-1900-literature",
   "title": "Literary Classics Before 1900",
-  "summary": "Audio-first study of influential literature before 1900, from Dante and Shakespeare through major nineteenth-century European and American fiction, including Melville and Tolstoy.",
+  "summary": "Audio-first study of influential pre-1900 literature, with complete narrative sequences and analyses from Dante and Shakespeare to Eliot, Tolstoy, and Dostoevsky.",
   "categories": [
     "Literature",
     "History & Culture"
@@ -12,7 +12,8 @@
   "assumed_background": [
     "No prior reading is needed for story lectures; critical lectures assume the narrated story or familiarity with the primary text.",
     "Selections span medieval poetry, early modern drama and prose, Regency and Victorian fiction, Romantic Gothic narrative, mathematical satire, and French realism.",
-    "The Moby-Dick and Anna Karenina sections each narrate the complete principal plot before interpretive lectures, and name the English text or edition used for orientation."
+    "The Moby-Dick and Anna Karenina sections each narrate the complete principal plot before interpretive lectures, and name the English text or edition used for orientation.",
+    "Middlemarch follows eight books and a Finale; Crime and Punishment follows six parts and its epilogue. All story lectures precede the critical studies."
   ],
   "sections": [
     "early-modern-drama",
@@ -32,7 +33,9 @@
     "russian-historical-novel-tolstoy",
     "russian-philosophical-novel-dostoevsky",
     "american-whaling-novel-melville",
-    "russian-domestic-novel-tolstoy-anna"
+    "russian-domestic-novel-tolstoy-anna",
+    "victorian-provincial-novel-george-eliot",
+    "russian-psychological-novel-dostoevsky-crime"
   ],
   "lectures": [
     {
@@ -1582,6 +1585,276 @@
       "spoken_words": 733,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 5.1
+    },
+    {
+      "id": "173000",
+      "title": "Middlemarch — Miss Brooke",
+      "section": "victorian-provincial-novel-george-eliot",
+      "file": "173000-middlemarch-story-book-one-miss-brooke.md",
+      "spoken_words": 720,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.0
+    },
+    {
+      "id": "174000",
+      "title": "Middlemarch — Old and Young",
+      "section": "victorian-provincial-novel-george-eliot",
+      "file": "174000-middlemarch-story-book-two-old-and-young.md",
+      "spoken_words": 695,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 4.8
+    },
+    {
+      "id": "175000",
+      "title": "Middlemarch — Waiting for Death",
+      "section": "victorian-provincial-novel-george-eliot",
+      "file": "175000-middlemarch-story-book-three-waiting-for-death.md",
+      "spoken_words": 671,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 4.6
+    },
+    {
+      "id": "176000",
+      "title": "Middlemarch — Three Love Problems",
+      "section": "victorian-provincial-novel-george-eliot",
+      "file": "176000-middlemarch-story-book-four-three-love-problems.md",
+      "spoken_words": 687,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 4.7
+    },
+    {
+      "id": "177000",
+      "title": "Middlemarch — The Dead Hand",
+      "section": "victorian-provincial-novel-george-eliot",
+      "file": "177000-middlemarch-story-book-five-the-dead-hand.md",
+      "spoken_words": 712,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 4.9
+    },
+    {
+      "id": "178000",
+      "title": "Middlemarch — The Widow and the Wife",
+      "section": "victorian-provincial-novel-george-eliot",
+      "file": "178000-middlemarch-story-book-six-the-widow-and-the-wife.md",
+      "spoken_words": 671,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 4.6
+    },
+    {
+      "id": "179000",
+      "title": "Middlemarch — Two Temptations",
+      "section": "victorian-provincial-novel-george-eliot",
+      "file": "179000-middlemarch-story-book-seven-two-temptations.md",
+      "spoken_words": 683,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 4.7
+    },
+    {
+      "id": "180000",
+      "title": "Middlemarch — Sunset, Sunrise, and the Finale",
+      "section": "victorian-provincial-novel-george-eliot",
+      "file": "180000-middlemarch-story-book-eight-finale.md",
+      "spoken_words": 778,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.4
+    },
+    {
+      "id": "181000",
+      "title": "Middlemarch — Networks, Narration, and Sympathy",
+      "section": "victorian-provincial-novel-george-eliot",
+      "file": "181000-middlemarch-networks-narrator-and-sympathy.md",
+      "spoken_words": 712,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 4.9
+    },
+    {
+      "id": "182000",
+      "title": "Middlemarch — Dorothea and the Problem of Vocation",
+      "section": "victorian-provincial-novel-george-eliot",
+      "file": "182000-middlemarch-dorothea-vocation-and-the-unhistoric-life.md",
+      "spoken_words": 700,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 4.8
+    },
+    {
+      "id": "183000",
+      "title": "Middlemarch — Lydgate, Medicine, and Institutions",
+      "section": "victorian-provincial-novel-george-eliot",
+      "file": "183000-middlemarch-lydgate-medicine-and-institutions.md",
+      "spoken_words": 671,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 4.6
+    },
+    {
+      "id": "184000",
+      "title": "Middlemarch — Fred, Mary, and Useful Work",
+      "section": "victorian-provincial-novel-george-eliot",
+      "file": "184000-middlemarch-fred-mary-work-and-class.md",
+      "spoken_words": 686,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 4.7
+    },
+    {
+      "id": "185000",
+      "title": "Middlemarch — Bulstrode and the Stories Money Tells",
+      "section": "victorian-provincial-novel-george-eliot",
+      "file": "185000-middlemarch-bulstrode-money-conscience-and-scandal.md",
+      "spoken_words": 669,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 4.6
+    },
+    {
+      "id": "186000",
+      "title": "Middlemarch — Women and the Economics of Marriage",
+      "section": "victorian-provincial-novel-george-eliot",
+      "file": "186000-middlemarch-women-marriage-and-constrained-agency.md",
+      "spoken_words": 688,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 4.7
+    },
+    {
+      "id": "187000",
+      "title": "Middlemarch — Reform, Publication, and Close Reading",
+      "section": "victorian-provincial-novel-george-eliot",
+      "file": "187000-middlemarch-reform-serial-publication-and-close-reading.md",
+      "spoken_words": 744,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.1
+    },
+    {
+      "id": "188000",
+      "title": "Crime and Punishment — A Theory and Two Deaths",
+      "section": "russian-psychological-novel-dostoevsky-crime",
+      "file": "188000-crime-punishment-story-part-one-the-murder.md",
+      "spoken_words": 736,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.1
+    },
+    {
+      "id": "189000",
+      "title": "Crime and Punishment — Fever and the City",
+      "section": "russian-psychological-novel-dostoevsky-crime",
+      "file": "189000-crime-punishment-story-part-two-fever-and-the-city.md",
+      "spoken_words": 696,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 4.8
+    },
+    {
+      "id": "190000",
+      "title": "Crime and Punishment — Family and Porfiry",
+      "section": "russian-psychological-novel-dostoevsky-crime",
+      "file": "190000-crime-punishment-story-part-three-porfiry-and-family.md",
+      "spoken_words": 652,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 4.5
+    },
+    {
+      "id": "191000",
+      "title": "Crime and Punishment — Lazarus and the False Confession",
+      "section": "russian-psychological-novel-dostoevsky-crime",
+      "file": "191000-crime-punishment-story-part-four-lazarus-and-false-confession.md",
+      "spoken_words": 628,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 4.3
+    },
+    {
+      "id": "192000",
+      "title": "Crime and Punishment — Confession and Loss",
+      "section": "russian-psychological-novel-dostoevsky-crime",
+      "file": "192000-crime-punishment-story-part-five-confession-and-loss.md",
+      "spoken_words": 685,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 4.7
+    },
+    {
+      "id": "193000",
+      "title": "Crime and Punishment — Porfiry, Svidrigailov, and the Last Choice",
+      "section": "russian-psychological-novel-dostoevsky-crime",
+      "file": "193000-crime-punishment-story-part-six-porfiry-svidrigailov-and-confession.md",
+      "spoken_words": 651,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 4.5
+    },
+    {
+      "id": "194000",
+      "title": "Crime and Punishment — The Epilogue",
+      "section": "russian-psychological-novel-dostoevsky-crime",
+      "file": "194000-crime-punishment-story-epilogue-siberia-and-beginning.md",
+      "spoken_words": 675,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 4.7
+    },
+    {
+      "id": "195000",
+      "title": "Crime and Punishment — The Theory of Exception",
+      "section": "russian-psychological-novel-dostoevsky-crime",
+      "file": "195000-crime-punishment-extraordinary-man-theory.md",
+      "spoken_words": 649,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 4.5
+    },
+    {
+      "id": "196000",
+      "title": "Crime and Punishment — The Mind Under Pressure",
+      "section": "russian-psychological-novel-dostoevsky-crime",
+      "file": "196000-crime-punishment-fever-psychological-time-and-narration.md",
+      "spoken_words": 677,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 4.7
+    },
+    {
+      "id": "197000",
+      "title": "Crime and Punishment — Sonya and the Meaning of Renewal",
+      "section": "russian-psychological-novel-dostoevsky-crime",
+      "file": "197000-crime-punishment-sonya-lazarus-and-accountability.md",
+      "spoken_words": 664,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 4.6
+    },
+    {
+      "id": "198000",
+      "title": "Crime and Punishment — Women, Poverty, and Coercion",
+      "section": "russian-psychological-novel-dostoevsky-crime",
+      "file": "198000-crime-punishment-dunya-women-poverty-and-coercion.md",
+      "spoken_words": 674,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 4.6
+    },
+    {
+      "id": "199000",
+      "title": "Crime and Punishment — Porfiry and the Limits of Proof",
+      "section": "russian-psychological-novel-dostoevsky-crime",
+      "file": "199000-crime-punishment-porfiry-evidence-and-confession.md",
+      "spoken_words": 645,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 4.4
+    },
+    {
+      "id": "200000",
+      "title": "Crime and Punishment — Three Counterlives",
+      "section": "russian-psychological-novel-dostoevsky-crime",
+      "file": "200000-crime-punishment-doubles-razumikhin-luzhin-svidrigailov.md",
+      "spoken_words": 643,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 4.4
+    },
+    {
+      "id": "201000",
+      "title": "Crime and Punishment — Petersburg and the Pressures of Poverty",
+      "section": "russian-psychological-novel-dostoevsky-crime",
+      "file": "201000-crime-punishment-petersburg-poverty-and-social-argument.md",
+      "spoken_words": 680,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 4.7
+    },
+    {
+      "id": "202000",
+      "title": "Crime and Punishment — Publication, Translation, and Close Reading",
+      "section": "russian-psychological-novel-dostoevsky-crime",
+      "file": "202000-crime-punishment-publication-translation-and-close-reading.md",
+      "spoken_words": 723,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.0
     }
   ]
 }

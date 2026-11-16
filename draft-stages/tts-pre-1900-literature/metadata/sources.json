@@ -735,6 +735,55 @@
       "url": "https://en.wikisource.org/wiki/Anna_Karenina_(Garnett)",
       "access": "free_no_login",
       "notes": "Secondary access path to Garnett text; warns that transcription derives from Project Gutenberg, not independent scan collation."
+    },
+    "cl-middlemarch-primary-gutenberg": {
+      "title": "George Eliot, Middlemarch, public-domain complete English reading text, Project Gutenberg ebook 145",
+      "kind": "literary_primary",
+      "url": "https://www.gutenberg.org/ebooks/145",
+      "access": "free_no_login",
+      "notes": "Complete later printing of the English original. Used as a reading text, not an exhaustive collation of first issue and lifetime variants."
+    },
+    "cl-middlemarch-nypl-books": {
+      "title": "New York Public Library, Middlemarch, original eight separate books (1871-1872)",
+      "kind": "national_library_bibliography",
+      "url": "https://old-digitalcollections.nypl.org/collections/middlemarch",
+      "access": "free_no_login",
+      "notes": "Original issued parts and book titles; the later bound and ebook texts should not be assumed to have identical typography."
+    },
+    "cl-middlemarch-cornell-publishing": {
+      "title": "Cornell University Library, George Eliot, 1819-1880: Women in the Literary Marketplace",
+      "kind": "university_library_exhibition",
+      "url": "https://exhibits-prod.library.cornell.edu/womenLit/feature/george-eliot-1819-1880",
+      "access": "free_no_login",
+      "notes": "Author pen name, eight-part book publication December 1871-December 1872 and four-volume issue."
+    },
+    "cl-middlemarch-cambridge-history": {
+      "title": "Cambridge University Press, Leslie Stephen, chapter on Middlemarch in George Eliot",
+      "kind": "historical_critical_secondary",
+      "url": "https://www.cambridge.org/core/books/abs/george-eliot/middlemarch/A4741ED27BAB530A88F6124F6B3B1211",
+      "access": "abstract_or_article",
+      "notes": "Early secondary history of Eliot composition and reception; interpretive primary-to-secondary limits apply."
+    },
+    "cl-crime-primary-garnett": {
+      "title": "Fyodor Dostoevsky, Crime and Punishment, translated by Constance Garnett, Project Gutenberg ebook 2554",
+      "kind": "public_domain_translation",
+      "url": "https://www.gutenberg.org/ebooks/2554",
+      "access": "free_no_login",
+      "notes": "Complete English reading text, six parts and epilogue. Translation is not an exhaustive collation of the 1866 Russian serial and 1867 Russian book."
+    },
+    "cl-crime-toronto-serial": {
+      "title": "University of Toronto Libraries, Crime and Punishment at 150, Case 1: Translations",
+      "kind": "university_library_exhibition",
+      "url": "https://exhibits.library.utoronto.ca/exhibits/show/cp150/translations",
+      "access": "free_no_login",
+      "notes": "1866 Russian Messenger installments, 1867 separate book, translation history."
+    },
+    "cl-crime-toronto-reception": {
+      "title": "University of Toronto Libraries, Crime and Punishment at 150: Global Contexts",
+      "kind": "university_library_exhibition",
+      "url": "https://library.utoronto.ca/exhibit/crime-and-punishment-150-global-contexts",
+      "access": "free_no_login",
+      "notes": "Literary and critical global reception in translations, visual arts, cinema and theatre."
     }
   }
 }
