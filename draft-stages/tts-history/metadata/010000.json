@@ -86,6 +86,14 @@
     {
       "source_id": "history-vonneumann-loc-klara",
       "reason": "Documented biographical detail or contemporary recollection woven into the portrait."
+    },
+    {
+      "source_id": "history-vonneumann-ias-ecp",
+      "reason": "IAS computer research project, Bigelow and other staff, Goldstine meeting, 1945 EDVAC report, laboratory organization, wartime links and meteorological work."
+    },
+    {
+      "source_id": "history-vonneumann-loc-chrono",
+      "reason": "Dates for professional appointments and marriages, government commission service; MacTutor gives a different marriage year, so spoken chronology avoids the disputed year."
     }
   ],
   "historical_claims": [
@@ -111,34 +119,66 @@
       "audit_status": "source_checked"
     },
     {
-      "id": "010000-human-03",
-      "anchor": "Games were an appropriate subject for a researcher who enjoyed company as much as formal calculation.",
-      "kind": "biographical_context",
+      "id": "010000-hist-n01",
+      "anchor": "In the last years of the Austro-Hungarian Empire, Budapest could offer",
+      "kind": "historical_biography_or_attribution",
       "source_ids": [
-        "history-vonneumann-ias-human"
+        "history-vonneumann-mactutor-human"
       ],
-      "source_locator": "See source description in sources.json",
-      "audit_status": "source_checked"
+      "source_locator": "Budapest background",
+      "audit_status": "source_cross_checked"
     },
     {
-      "id": "010000-human-04",
-      "anchor": "One person's contribution is especially easy to lose behind the phrase von Neumann computer.",
-      "kind": "biographical_context",
+      "id": "010000-hist-n02",
+      "anchor": "His father was a banker. The household was financially comfortable",
+      "kind": "historical_biography_or_attribution",
       "source_ids": [
-        "history-vonneumann-loc-klara"
+        "history-vonneumann-mactutor-human"
       ],
-      "source_locator": "See source description in sources.json",
-      "audit_status": "source_checked"
+      "source_locator": "father, schooling, Fekete, Wigner",
+      "audit_status": "source_cross_checked"
     },
     {
-      "id": "010000-human-05",
-      "anchor": "Friends and colleagues could disagree sharply with his postwar strategic judgments.",
-      "kind": "biographical_context",
+      "id": "010000-hist-n03",
+      "anchor": "The city itself was undergoing violent political change",
+      "kind": "historical_biography_or_attribution",
       "source_ids": [
-        "history-vonneumann-ias-human"
+        "history-vonneumann-mactutor-human"
       ],
-      "source_locator": "See source description in sources.json",
-      "audit_status": "source_checked"
+      "source_locator": "1919 and numerus clausus",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "010000-hist-n04",
+      "anchor": "Even the arrangement of his studies reflects family negotiation",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-vonneumann-mactutor-human"
+      ],
+      "source_locator": "engineering degree and academic education",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "010000-hist-n05",
+      "anchor": "In nineteen twenty-nine von Neumann married Mariette Kövesi",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-vonneumann-mactutor-human",
+        "history-vonneumann-ias-faculty"
+      ],
+      "source_locator": "Princeton appointment, migration",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "010000-hist-n06",
+      "anchor": "By the mid-nineteen thirties he had acquired positions and an audience",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-vonneumann-ias-faculty",
+        "history-vonneumann-murray"
+      ],
+      "source_locator": "IAS and Francis Murray collaboration",
+      "audit_status": "source_cross_checked"
     }
   ]
 }

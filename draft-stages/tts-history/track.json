@@ -1,7 +1,7 @@
 {
   "id": "history",
   "title": "History · People and ideas",
-  "summary": "Sixty-one researched historical portrait episodes covering fifty-two mathematicians, scientists, and computing pioneers. Lives, relationships, places, institutions, and political circumstances lead; mathematics is retained and explained once the historical setting is established. Newton, Leibniz, Galois, Gödel, Kepler, Fourier, Weyl, Kato, and Davis have two episodes each. No fixed duration limit applies.",
+  "summary": "Sixty-five researched historical portrait episodes covering fifty-two mathematicians, scientists, and computing pioneers. The life, social setting, institutions, and political circumstances lead; the substantial existing mathematical explanations follow the biographical narrative. Richard Courant and John von Neumann each have two installments. No fixed duration limit applies.",
   "assumed_background": [
     "Background varies by portrait; newer human-history entries are accessible without technical mathematics, while earlier manuscripts retain their own stated prerequisites."
   ],
@@ -99,14 +99,25 @@
     },
     {
       "id": "006000",
-      "title": "Richard Courant: How can a finite calculation describe an infinite problem?",
+      "title": "Richard Courant I: A precarious childhood and the making of Göttingen",
       "person": "Richard Courant",
       "section": "variational",
       "file": "006000-courant.md",
-      "spoken_words": 5307,
+      "spoken_words": 3570,
       "draft_status": "substantive",
       "source_g2": null,
-      "estimated_minutes_at_145_wpm": 36.6
+      "estimated_minutes_at_145_wpm": 24.6
+    },
+    {
+      "id": "006500",
+      "title": "Richard Courant II: Exile, New York, and the work of mathematical approximation",
+      "person": "Richard Courant",
+      "section": "variational",
+      "file": "006500-courant-new-york.md",
+      "spoken_words": 3442,
+      "draft_status": "substantive",
+      "source_g2": null,
+      "estimated_minutes_at_145_wpm": 23.7
     },
     {
       "id": "007000",
@@ -143,14 +154,25 @@
     },
     {
       "id": "010000",
-      "title": "John von Neumann: What can remain invariant when the world changes?",
+      "title": "John von Neumann I: Budapest, the German universities, and Princeton",
       "person": "John von Neumann",
       "section": "operators",
       "file": "010000-vonneumann.md",
-      "spoken_words": 5739,
+      "spoken_words": 3353,
       "draft_status": "substantive",
       "source_g2": null,
-      "estimated_minutes_at_145_wpm": 39.6
+      "estimated_minutes_at_145_wpm": 23.1
+    },
+    {
+      "id": "010500",
+      "title": "John von Neumann II: War, computing, and the obligations of influence",
+      "person": "John von Neumann",
+      "section": "operators",
+      "file": "010500-vonneumann-computing.md",
+      "spoken_words": 4141,
+      "draft_status": "substantive",
+      "source_g2": null,
+      "estimated_minutes_at_145_wpm": 28.6
     },
     {
       "id": "011000",

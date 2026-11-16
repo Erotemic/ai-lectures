@@ -1,0 +1,199 @@
+{
+  "schema_version": 1,
+  "lecture_id": "006500",
+  "transcript": "006500-courant-new-york.md",
+  "related_resources": [
+    {
+      "source_id": "history-courant-lax",
+      "reason": "Detailed biography linking the Dirichlet principle to Courant’s early career and later teaching and research."
+    },
+    {
+      "source_id": "history-courant-bio",
+      "reason": "Supplementary chronology, personal life, war service and Göttingen institutional development."
+    },
+    {
+      "source_id": "history-courant-deutsche",
+      "reason": "Chronological check of dates, professional appointments and forced departure from Germany."
+    },
+    {
+      "source_id": "history-courant-gottingen",
+      "reason": "Göttingen’s record of Courant’s institute work and emigration."
+    },
+    {
+      "source_id": "history-courant-nyu-bio",
+      "reason": "The mathematical and institutional character of Courant’s New York career."
+    },
+    {
+      "source_id": "history-courant-nyu-history",
+      "reason": "NYU institutional timeline and the development of its scientific computing research."
+    },
+    {
+      "source_id": "history-courant-primary",
+      "reason": "The complete 1943 variational-methods paper; the article’s explicit credit to Rayleigh and Ritz."
+    },
+    {
+      "source_id": "history-courant-cfl-1928",
+      "reason": "Primary 1928 Courant–Friedrichs–Lewy paper in English translation."
+    },
+    {
+      "source_id": "history-courant-cfl-demo",
+      "reason": "Domain-of-dependence explanation and stability caveat for explicit hyperbolic schemes."
+    },
+    {
+      "source_id": "history-courant-nodal-proof",
+      "reason": "A mathematical proof of Courant’s nodal-domain count using variational trial functions."
+    },
+    {
+      "source_id": "history-courant-nodal-1923",
+      "reason": "Modern related development and theorem statement, distinguishing PDE and discrete variants."
+    },
+    {
+      "source_id": "history-courant-hilbert-1924",
+      "reason": "Original first volume of Methods of Mathematical Physics and its topic coverage."
+    },
+    {
+      "source_id": "history-courant-hilbert-1937",
+      "reason": "Second volume and its publication chronology."
+    },
+    {
+      "source_id": "history-courant-fem-review",
+      "reason": "Broad finite-element history placing Courant’s triangles among independent precursors."
+    },
+    {
+      "source_id": "history-courant-fem-short-history",
+      "reason": "History of numerical PDEs and the distinct Rayleigh, Ritz, Courant, and Galerkin contributions."
+    },
+    {
+      "source_id": "history-courant-topic",
+      "reason": "Accessible introduction to the finite-dimensional min–max formula."
+    },
+    {
+      "source_id": "history-courant-lax-memoir-2003",
+      "reason": "Source for documented biographical scenes in the revised portrait."
+    },
+    {
+      "source_id": "history-courant-hans-oral",
+      "reason": "Source for documented biographical scenes in the revised portrait."
+    },
+    {
+      "source_id": "history-courant-nyu-archive",
+      "reason": "Biographical note and surviving documents on WWI earth telegraph, 1933 removal, 1934 NYU appointment, foundation negotiations, wartime work, Courant Institute and scientific computing."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "006500-human-05",
+      "anchor": "This was a personal catastrophe as well as an institutional dismissal. Courant",
+      "kind": "historical_biography_or_context",
+      "source_ids": [
+        "history-courant-hans-oral"
+      ],
+      "source_locator": "Hans Courant, family oral history",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "006500-human-06",
+      "anchor": "People who encountered Courant in New York remembered that he took the",
+      "kind": "historical_biography_or_context",
+      "source_ids": [
+        "history-courant-lax-memoir-2003"
+      ],
+      "source_locator": "Lax, mentorship and institute culture",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "006500-human-07",
+      "anchor": "Courant's legacy therefore includes a style of scientific sociability. To him, the",
+      "kind": "historical_biography_or_context",
+      "source_ids": [
+        "history-courant-lax-memoir-2003"
+      ],
+      "source_locator": "Lax, portrait of Courant’s character",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "006500-hist-c01",
+      "anchor": "In the spring of nineteen thirty-three Richard Courant was forty-five years old",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-courant-nyu-archive",
+        "history-courant-bio"
+      ],
+      "source_locator": "dismissal and context",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "006500-hist-c02",
+      "anchor": "Courant was placed on forced leave in May nineteen thirty-three",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-courant-bio",
+        "history-courant-nyu-archive"
+      ],
+      "source_locator": "dismissal, petitions, later travel",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "006500-hist-c03",
+      "anchor": "The journey was connected to friendships beyond Germany",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-courant-nyu-archive"
+      ],
+      "source_locator": "American appointment assistance",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "006500-hist-c04",
+      "anchor": "By the later nineteen thirties Courant was building a department around Kurt Friedrichs",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-courant-nyu-archive",
+        "history-courant-nyu-history"
+      ],
+      "source_locator": "NYU staff and institutions",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "006500-hist-c05",
+      "anchor": "The Second World War brought research contracts to the New York group",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-courant-nyu-archive",
+        "history-courant-lax"
+      ],
+      "source_locator": "wartime OSRD work",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "006500-hist-c06",
+      "anchor": "The work on supersonic flow became a book associated with Courant and Friedrichs",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-courant-lax"
+      ],
+      "source_locator": "role of editor Cathleen Morawetz",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "006500-hist-c07",
+      "anchor": "In nineteen forty-one Courant published What Is Mathematics? with Herbert Robbins",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-courant-lax"
+      ],
+      "source_locator": "book and 1947 German scholarly exchange",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "006500-hist-c08",
+      "anchor": "New York University approved a separate mathematics institute in nineteen fifty-one",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-courant-nyu-archive"
+      ],
+      "source_locator": "postwar institute and computing",
+      "audit_status": "source_cross_checked"
+    }
+  ]
+}

@@ -1,3 +1,9 @@
+## Richard Courant and John von Neumann: biography-first revisions (16 November 2026)
+
+The existing single portraits are now two installments each: Courant `006000` and `006500`, and von Neumann `010000` and `010500`. They follow lived chronology first, with technical mathematics retained in spoken narration and split between the display-only companions. Courant's life is traced from Breslau and Göttingen through war, the 1933 Nazi dismissal, NYU, scientific computation and the institute he built. Von Neumann's follows Budapest and interwar Germany through Princeton, collaborators, family, war, the collaborative EDVAC and IAS computer projects, and nuclear-policy responsibilities.
+
+The original mathematical treatments of the Dirichlet principle, min–max, nodal domains, CFL condition and triangular variational approximation remain for Courant. Quantum probabilities and spectral measures, density matrices, Murray–von Neumann factor theory, matrix norms, trace inequalities, ergodic theory, game theory, and the stored-program idea remain for von Neumann. Source records anchor new biographies, with Wikipedia orientation in non-spoken companions. No runtime or word-count target was imposed.
+
 ## Pearson and Hotelling: two-part historical revisions (16 November 2026)
 
 The existing statistics portraits were revised without adding new figures. Karl Pearson (`024000`, `024500`) is now approached through his Victorian education, family, Weldon, Lee, Beeton, women in the biometric laboratory, and the history and harms of the Galton eugenics program. Harold Hotelling (`025000`, `025500`) is approached through his education in journalism and mathematics, the Fisher/Rothamsted network, marriages and family, Columbia, wartime research, refugees, international students, Chapel Hill, and economic policy. The 1932/1934 discrepancy about Floy Tracy Hotelling's death is documented rather than silently reconciled.

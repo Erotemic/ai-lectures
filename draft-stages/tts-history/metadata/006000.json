@@ -74,12 +74,16 @@
     {
       "source_id": "history-courant-hans-oral",
       "reason": "Source for documented biographical scenes in the revised portrait."
+    },
+    {
+      "source_id": "history-courant-nyu-archive",
+      "reason": "Biographical note and surviving documents on WWI earth telegraph, 1933 removal, 1934 NYU appointment, foundation negotiations, wartime work, Courant Institute and scientific computing."
     }
   ],
   "historical_claims": [
     {
       "id": "006000-human-01",
-      "anchor": "His route into that world began in a household where money did",
+      "anchor": "Peter Lax, who later knew Courant well, recounted the story of the mathematics teacher Maschke",
       "kind": "historical_biography_or_context",
       "source_ids": [
         "history-courant-lax-memoir-2003"
@@ -99,7 +103,7 @@
     },
     {
       "id": "006000-human-03",
-      "anchor": "The Göttingen community Courant helped organize did not emerge untouched from the",
+      "anchor": "The First World War interrupted them. Courant served in the German army on the Western Front",
       "kind": "historical_biography_or_context",
       "source_ids": [
         "history-courant-lax-memoir-2003"
@@ -118,33 +122,77 @@
       "audit_status": "source_cross_checked"
     },
     {
-      "id": "006000-human-05",
-      "anchor": "This was a personal catastrophe as well as an institutional dismissal. Courant",
-      "kind": "historical_biography_or_context",
+      "id": "006000-hist-c02",
+      "anchor": "On the map of the German Empire in eighteen eighty-eight",
+      "kind": "historical_biography_or_attribution",
       "source_ids": [
-        "history-courant-hans-oral"
+        "history-courant-lax",
+        "history-courant-nyu-archive"
       ],
-      "source_locator": "Hans Courant, family oral history",
+      "source_locator": "birth and geography",
       "audit_status": "source_cross_checked"
     },
     {
-      "id": "006000-human-06",
-      "anchor": "People who encountered Courant in New York remembered that he took the",
-      "kind": "historical_biography_or_context",
+      "id": "006000-hist-c03",
+      "anchor": "Courant's university education began in Breslau",
+      "kind": "historical_biography_or_attribution",
       "source_ids": [
-        "history-courant-lax-memoir-2003"
+        "history-courant-lax"
       ],
-      "source_locator": "Lax, mentorship and institute culture",
+      "source_locator": "education, friends, 1907 move",
       "audit_status": "source_cross_checked"
     },
     {
-      "id": "006000-human-07",
-      "anchor": "Courant's legacy therefore includes a style of scientific sociability. To him, the",
-      "kind": "historical_biography_or_context",
+      "id": "006000-hist-c04",
+      "anchor": "The First World War interrupted them. Courant served in the German army",
+      "kind": "historical_biography_or_attribution",
       "source_ids": [
-        "history-courant-lax-memoir-2003"
+        "history-courant-nyu-archive",
+        "history-courant-lax"
       ],
-      "source_locator": "Lax, portrait of Courant’s character",
+      "source_locator": "war, wounded, earth-telegraph program",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "006000-hist-c05",
+      "anchor": "In nineteen sixteen Nelly and Richard Courant divorced",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-courant-lax",
+        "history-courant-nyu-archive"
+      ],
+      "source_locator": "marriage, Runge family, children",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "006000-hist-c06",
+      "anchor": "The political and economic setting of the early Weimar Republic made institutional work difficult",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-courant-lax"
+      ],
+      "source_locator": "postwar inflation and funding",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "006000-hist-c07",
+      "anchor": "In nineteen twenty-six, Courant helped negotiate support for a permanent Göttingen building",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-courant-lax",
+        "history-courant-gottingen"
+      ],
+      "source_locator": "Rockefeller funding and 1929 building",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "006000-hist-c08",
+      "anchor": "The visitors were international: Russian, British, German, Hungarian, and American mathematicians",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-courant-lax"
+      ],
+      "source_locator": "Göttingen visiting scholars and publications",
       "audit_status": "source_cross_checked"
     }
   ]

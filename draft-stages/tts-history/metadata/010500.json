@@ -1,0 +1,225 @@
+{
+  "schema_version": 1,
+  "lecture_id": "010500",
+  "transcript": "010500-vonneumann-computing.md",
+  "related_resources": [
+    {
+      "source_id": "history-vonneumann-bio",
+      "reason": "Comprehensive research biography and chronology of work and appointments."
+    },
+    {
+      "source_id": "history-vonneumann-ias",
+      "reason": "IAS account of life, quantum theory, war, computing and institutional transitions."
+    },
+    {
+      "source_id": "history-vonneumann-ias-faculty",
+      "reason": "Independent institutional appointments and Electronic Computer Project."
+    },
+    {
+      "source_id": "history-vonneumann-1932book",
+      "reason": "Original book context and 1932 quantum synthesis, with later continuous-geometry background."
+    },
+    {
+      "source_id": "history-vonneumann-quantum",
+      "reason": "Specialist examination of quantum interpretation, projection geometry and operator rings."
+    },
+    {
+      "source_id": "history-vonneumann-murray",
+      "reason": "Original coauthored 1936 paper founding the Murray-von Neumann operator-ring program."
+    },
+    {
+      "source_id": "history-vonneumann-murray2",
+      "reason": "Coauthored 1937 extension of the operator-ring and trace theory."
+    },
+    {
+      "source_id": "history-vonneumann-primary",
+      "reason": "Bibliography for original 1937 symmetric-gauge and matrix inequality publication."
+    },
+    {
+      "source_id": "history-vonneumann-topic",
+      "reason": "Precise statement and mathematical context of the 1937 matrix norm characterization."
+    },
+    {
+      "source_id": "history-vonneumann-trace",
+      "reason": "Explicit trace inequality and its role in singular-value comparisons."
+    },
+    {
+      "source_id": "history-vonneumann-bell",
+      "reason": "Bell 1966 direct critique of von Neumann hidden-variable assumptions, documented only in companion."
+    },
+    {
+      "source_id": "history-vonneumann-ergodic",
+      "reason": "Review of von Neumann/Birkhoff differing ergodic theorems and discovery/publication chronology."
+    },
+    {
+      "source_id": "history-vonneumann-ergodic-original",
+      "reason": "1932 primary statement acknowledging communication and distinction in convergence notions."
+    },
+    {
+      "source_id": "history-vonneumann-games",
+      "reason": "Original 1928 zero-sum game minimax theorem."
+    },
+    {
+      "source_id": "history-vonneumann-computing-history",
+      "reason": "Scholarly history of stored programming and distributed credit."
+    },
+    {
+      "source_id": "history-vonneumann-edvac-aps",
+      "reason": "Archival collection identifying the EDVAC team and von Neumann sorting example."
+    },
+    {
+      "source_id": "history-vonneumann-computing-study",
+      "reason": "Further research on priority of stored programming and the drafting dispute."
+    },
+    {
+      "source_id": "history-vonneumann-ias-computer",
+      "reason": "IAS documentary history of the Electronic Computer Project."
+    },
+    {
+      "source_id": "history-vonneumann-ias-human",
+      "reason": "Documented biographical detail or contemporary recollection woven into the portrait."
+    },
+    {
+      "source_id": "history-vonneumann-mactutor-human",
+      "reason": "Documented biographical detail or contemporary recollection woven into the portrait."
+    },
+    {
+      "source_id": "history-vonneumann-loc-klara",
+      "reason": "Documented biographical detail or contemporary recollection woven into the portrait."
+    },
+    {
+      "source_id": "history-vonneumann-ias-ecp",
+      "reason": "IAS computer research project, Bigelow and other staff, Goldstine meeting, 1945 EDVAC report, laboratory organization, wartime links and meteorological work."
+    },
+    {
+      "source_id": "history-vonneumann-loc-chrono",
+      "reason": "Dates for professional appointments and marriages, government commission service; MacTutor gives a different marriage year, so spoken chronology avoids the disputed year."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "010500-human-03",
+      "anchor": "Games were an appropriate subject for a researcher who enjoyed company as much as formal calculation.",
+      "kind": "biographical_context",
+      "source_ids": [
+        "history-vonneumann-ias-human"
+      ],
+      "source_locator": "See source description in sources.json",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "010500-human-04",
+      "anchor": "One person's contribution is especially easy to lose behind the phrase von Neumann computer.",
+      "kind": "biographical_context",
+      "source_ids": [
+        "history-vonneumann-loc-klara"
+      ],
+      "source_locator": "See source description in sources.json",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "010500-human-05",
+      "anchor": "Friends and colleagues could disagree sharply with his postwar strategic judgments.",
+      "kind": "biographical_context",
+      "source_ids": [
+        "history-vonneumann-ias-human"
+      ],
+      "source_locator": "See source description in sources.json",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "010500-hist-n01",
+      "anchor": "At Princeton in the nineteen thirties, John von Neumann was a mathematician among mathematicians",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-vonneumann-ias-faculty"
+      ],
+      "source_locator": "later career",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "010500-hist-n02",
+      "anchor": "The mathematical and political histories were not sequentially isolated",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-vonneumann-games",
+        "history-vonneumann-bio"
+      ],
+      "source_locator": "minimax and Morgenstern book",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "010500-hist-n03",
+      "anchor": "While he was becoming an American citizen and establishing a home",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-vonneumann-loc-klara",
+        "history-vonneumann-mactutor-human"
+      ],
+      "source_locator": "family and refugee relatives",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "010500-hist-n04",
+      "anchor": "Von Neumann was increasingly asked to work on practical questions of ballistics",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-vonneumann-ias-ecp"
+      ],
+      "source_locator": "war scientific consulting",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "010500-hist-n05",
+      "anchor": "The story of the computer begins inside that world of urgent calculation",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-vonneumann-ias-ecp",
+        "history-vonneumann-computing-history"
+      ],
+      "source_locator": "1944 ENIAC contact",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "010500-hist-n06",
+      "anchor": "At the Institute for Advanced Study, turning the design into a working machine",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-vonneumann-ias-ecp"
+      ],
+      "source_locator": "ECP team and institutional resistance",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "010500-hist-n07",
+      "anchor": "Klára Dán von Neumann was not simply the mathematician's spouse",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-vonneumann-loc-klara"
+      ],
+      "source_locator": "programming and correspondence",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "010500-hist-n08",
+      "anchor": "The computational ambitions were not limited to weapons",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-vonneumann-ias-ecp"
+      ],
+      "source_locator": "meteorology and digital simulation",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "010500-hist-n09",
+      "anchor": "In the mid-nineteen fifties he became a commissioner of the United States Atomic Energy Commission",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-vonneumann-loc-chrono",
+        "history-vonneumann-ias-faculty"
+      ],
+      "source_locator": "AEC chronology",
+      "audit_status": "source_cross_checked"
+    }
+  ]
+}
