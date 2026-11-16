@@ -1,0 +1,419 @@
+{
+  "schema_version": 1,
+  "lecture_id": "039500",
+  "transcript": "039500-leibniz-hanover.md",
+  "related_resources": [
+    {
+      "source_id": "history-leibniz-antognazza-habits",
+      "reason": "Leibniz’s description of late-night working habits and intellectual temperament."
+    },
+    {
+      "source_id": "history-leibniz-antognazza-later",
+      "reason": "Later years, court clothes, gout and arthritis, humor and social relationships."
+    },
+    {
+      "source_id": "history-leibniz-berlin-academy",
+      "reason": "Institutional account of the Berlin society founded in 1700."
+    },
+    {
+      "source_id": "history-leibniz-binary-history",
+      "reason": "Earlier binary scholarship and limits of sole-invention claims."
+    },
+    {
+      "source_id": "history-leibniz-binary-maa",
+      "reason": "Binary representations and Leibniz interactions with Chinese sources."
+    },
+    {
+      "source_id": "history-leibniz-binary-primary",
+      "reason": "Primary article on binary arithmetic from 1703."
+    },
+    {
+      "source_id": "history-leibniz-cambridge-chronology",
+      "reason": "Dates of the deaths of Sophie Charlotte and Sophie of Hanover and Leibniz’s final years."
+    },
+    {
+      "source_id": "history-leibniz-caroline-correspondence",
+      "reason": "Historical scholarship on Caroline’s active role in the Leibniz–Clarke exchange."
+    },
+    {
+      "source_id": "history-leibniz-first-calculus",
+      "reason": "Original October 1684 differential-calculus publication."
+    },
+    {
+      "source_id": "history-leibniz-jablonski-letter",
+      "reason": "Primary correspondence on the proposed scholarly society and useful sciences."
+    },
+    {
+      "source_id": "history-leibniz-letters-interview",
+      "reason": "Leibniz’s habits of mediation, friendship, correspondence and grief for Sophie Charlotte."
+    },
+    {
+      "source_id": "history-leibniz-mactutor",
+      "reason": "Personal chronology and early education, court appointments, mathematical career."
+    },
+    {
+      "source_id": "history-leibniz-manuscripts",
+      "reason": "1675 notation and manuscript chronology."
+    },
+    {
+      "source_id": "history-leibniz-oxford-life",
+      "reason": "Mining, court work and Hanover life."
+    },
+    {
+      "source_id": "history-leibniz-priority",
+      "reason": "Chronology and contested Newton–Leibniz calculus priority."
+    },
+    {
+      "source_id": "history-leibniz-sep",
+      "reason": "Philosophy, epistemology, logical ambitions, Paris period and correspondence."
+    },
+    {
+      "source_id": "history-leibniz-step-reckoner",
+      "reason": "Mechanical calculator and stepped drum."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "039500-h01",
+      "anchor": "His employers needed records of the House of Brunswick",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-leibniz-mactutor",
+        "history-leibniz-antognazza-later"
+      ],
+      "source_locator": "MacTutor and Antognazza, Brunswick dynastic history and archives",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "039500-h02",
+      "anchor": "The Harz mining projects show his ambitions working on a physical landscape",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-leibniz-mactutor",
+        "history-leibniz-oxford-life"
+      ],
+      "source_locator": "MacTutor and Oxford Handbook, Harz drainage engineering and project limits",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "039500-h03",
+      "anchor": "His surviving correspondence is immense",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-leibniz-letters-interview"
+      ],
+      "source_locator": "European Women in Mathematics, interview with Charlotte Wahl on editing Leibniz’s letters",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "039500-h04",
+      "anchor": "One of his most important relationships was with Sophie, Electress of Hanover",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-leibniz-antognazza-later",
+        "history-leibniz-cambridge-chronology"
+      ],
+      "source_locator": "Antognazza, Leibniz’s connections to Sophie and Sophie Charlotte",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "039500-h05",
+      "anchor": "Working with Daniel Ernst Jablonski and others",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-leibniz-jablonski-letter",
+        "history-leibniz-berlin-academy"
+      ],
+      "source_locator": "Leibniz letter to Jablonski, March 1700; Berlin Academy history",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "039500-h06",
+      "anchor": "A Berlin scientific society was founded in seventeen hundred",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-leibniz-berlin-academy"
+      ],
+      "source_locator": "Berlin-Brandenburg Academy, foundation year and first presidency",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "039500-h07",
+      "anchor": "Sophie Charlotte in particular enjoyed long conversations with Leibniz",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-leibniz-letters-interview"
+      ],
+      "source_locator": "European Women in Mathematics, interview with Charlotte Wahl on editing Leibniz’s letters",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "039500-h08",
+      "anchor": "Sophie Charlotte in particular enjoyed long conversations with Leibniz",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-leibniz-antognazza-habits",
+        "history-leibniz-cambridge-chronology"
+      ],
+      "source_locator": "Antognazza biography, intellectual and personal contact at Prussian court",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "039500-h09",
+      "anchor": "When she died in 1705",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-leibniz-letters-interview",
+        "history-leibniz-cambridge-chronology"
+      ],
+      "source_locator": "European Women in Mathematics, interview with Charlotte Wahl on editing Leibniz’s letters",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "039500-h10",
+      "anchor": "When she died in 1714",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-leibniz-cambridge-chronology"
+      ],
+      "source_locator": "Maria Rosa Antognazza, Leibniz: An Intellectual Biography, chronological table",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "039500-h11",
+      "anchor": "The brothers Jakob and Johann Bernoulli",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-leibniz-mactutor",
+        "history-leibniz-first-calculus"
+      ],
+      "source_locator": "MacTutor and original published calculus, the Bernoulli reception",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "039500-h12",
+      "anchor": "Jakob and Johann Bernoulli used the new calculus",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-leibniz-mactutor"
+      ],
+      "source_locator": "Gottfried Leibniz biography, MacTutor History of Mathematics",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "039500-h13",
+      "anchor": "The brothers Jakob and Johann Bernoulli were brilliant, competitive",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-leibniz-letters-interview"
+      ],
+      "source_locator": "European Women in Mathematics, interview with Charlotte Wahl on editing Leibniz’s letters",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "039500-h14",
+      "anchor": "who enjoyed intellectual contest but often tried to prevent a disagreement",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-leibniz-letters-interview"
+      ],
+      "source_locator": "European Women in Mathematics, interview with Charlotte Wahl on editing Leibniz’s letters",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "039500-h15",
+      "anchor": "The catenary was another famous challenge",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-leibniz-mactutor"
+      ],
+      "source_locator": "Gottfried Leibniz biography, MacTutor History of Mathematics",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "039500-h16",
+      "anchor": "Huygens, Leibniz, and Johann Bernoulli solved the problem",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-leibniz-mactutor"
+      ],
+      "source_locator": "MacTutor and calculus history, catenary challenge ca.1690",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "039500-h17",
+      "anchor": "a Royal Society inquiry sided with Newton",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-leibniz-priority"
+      ],
+      "source_locator": "Notices AMS, Newton’s role in 1712 Royal Society priority inquiry",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "039500-h18",
+      "anchor": "She passed letters between Leibniz and Samuel Clarke",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-leibniz-caroline-correspondence"
+      ],
+      "source_locator": "Cambridge University Press study of Caroline’s mediation, 1715–16",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "039500-h19",
+      "anchor": "her son George Ludwig inherited the British crown as George the First",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-leibniz-cambridge-chronology",
+        "history-leibniz-mactutor"
+      ],
+      "source_locator": "Antognazza chronology and MacTutor, Hanoverian succession 1714",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "039500-h20",
+      "anchor": "His clothes were becoming old-fashioned and flamboyant",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-leibniz-antognazza-later"
+      ],
+      "source_locator": "Maria Rosa Antognazza, Leibniz: An Intellectual Biography, Light and Shadows",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "039500-h21",
+      "anchor": "In private he wore layers intended to soothe gout and arthritis",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-leibniz-antognazza-later"
+      ],
+      "source_locator": "Maria Rosa Antognazza, Leibniz: An Intellectual Biography, Light and Shadows",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "039500-h22",
+      "anchor": "He died in Hanover in November seventeen sixteen",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-leibniz-cambridge-chronology",
+        "history-leibniz-mactutor"
+      ],
+      "source_locator": "Antognazza chronology, death 1716",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "039500-h23",
+      "anchor": "he worked on a mechanical calculator",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-leibniz-step-reckoner"
+      ],
+      "source_locator": "Computer History Museum: Leibniz stepped reckoner",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "039500-h24",
+      "anchor": "Its most distinctive feature was the stepped drum",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-leibniz-step-reckoner"
+      ],
+      "source_locator": "Computer History Museum: Leibniz stepped reckoner",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "039500-h25",
+      "anchor": "It required finely made parts, artisans who could manufacture them",
+      "kind": "historical_biography_or_attribution",
+      "source_ids": [
+        "history-leibniz-step-reckoner"
+      ],
+      "source_locator": "Computer History Museum: Leibniz stepped reckoner",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "039500-h26",
+      "anchor": "published an explanation in seventeen oh three",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-leibniz-binary-primary",
+        "history-leibniz-binary-history"
+      ],
+      "source_locator": "Leibniz, Explication de l’arithmétique binaire (1703); A brief history of positional binary numeration in Europe",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "039500-h27",
+      "anchor": "He linked binary notation to an interpretation of the sixty-four hexagrams",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-leibniz-binary-primary",
+        "history-leibniz-binary-maa"
+      ],
+      "source_locator": "Leibniz, Explication de l’arithmétique binaire (1703); MAA: Russian Multiplication, Microprocessors, and Leibniz",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "039500-h28",
+      "anchor": "binary representations had appeared in other mathematical contexts",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-leibniz-binary-history"
+      ],
+      "source_locator": "A brief history of positional binary numeration in Europe",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "039500-h29",
+      "anchor": "Leibniz imagined a characteristica universalis",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-leibniz-sep"
+      ],
+      "source_locator": "Gottfried Wilhelm Leibniz, Stanford Encyclopedia of Philosophy",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "039500-h30",
+      "anchor": "a principle of sufficient reason",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-leibniz-sep"
+      ],
+      "source_locator": "Gottfried Wilhelm Leibniz, Stanford Encyclopedia of Philosophy",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "039500-h31",
+      "anchor": "Leibniz's work on physics also reveals his independent mathematical taste",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-leibniz-mactutor"
+      ],
+      "source_locator": "Gottfried Leibniz biography, MacTutor History of Mathematics",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "039500-h32",
+      "anchor": "commonly called the Gregory–Leibniz series",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-leibniz-mactutor"
+      ],
+      "source_locator": "Gottfried Leibniz biography, MacTutor History of Mathematics",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "039500-h33",
+      "anchor": "the Gregory–Leibniz series",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-leibniz-mactutor",
+        "history-leibniz-manuscripts"
+      ],
+      "source_locator": "Leibniz/Gregory series and early mathematical manuscripts",
+      "audit_status": "source_cross_checked"
+    }
+  ]
+}

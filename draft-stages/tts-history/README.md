@@ -1,6 +1,17 @@
 # History · People and ideas
 
-The History track contains **52 researched, standalone historical portraits** of mathematicians and scientists. Historical lives, places, relationships, working conditions and institutions are the principal subject. Detailed mathematical work may be narrated after the historical story has established its context; this track is not required to omit proof or calculations. Existing entries retain their identifiers and stated prerequisites. Historical claims have linked sources in `metadata/sources.json`; non-spoken companions can retain formulas, chronology and research qualifications.
+The History track contains **54 historical-portrait episodes covering 52 historical figures** among mathematicians and scientists. Historical lives, places, relationships, working conditions and institutions are the principal subject. Detailed mathematical work may be narrated after the historical story has established its context; this track is not required to omit proof or calculations. Existing entries retain their identifiers and stated prerequisites. Historical claims have linked sources in `metadata/sources.json`; non-spoken companions can retain formulas, chronology and research qualifications.
+
+## Newton and Leibniz: expanded historical lives (16 November 2026)
+
+The earlier Newton and Leibniz manuscripts have been rewritten as **two independently narratable parts per person**, with the original IDs retained for each first part. The additional IDs fall between existing thousand-numbered lectures, avoiding renumbering other portraits.
+
+- [035000 — Isaac Newton: Woolsthorpe, Cambridge, and the making of a natural philosopher](035000-newton.md) — early family life in civil-war England, Grantham schooling, Cambridge and its friendships, plague-year work, religious research, alchemical experimentation, optics and clashes over scientific communication. Then the fluxions, series, and numerical methods developed in those environments.
+- [035500 — Isaac Newton: The *Principia*, the Mint, and the burdens of authority](035500-newton-public-life.md) — Halley, Hooke and the book's production; James II and Cambridge politics; Flamsteed's observations; the distress of 1693; the Great Recoinage and William Chaloner; Newton's Royal Society presidency, the calculus controversy, and his later household. Then a sustained explanation of the laws of motion, inverse-square gravitation, orbits, tides, and Newtonian mathematical inference.
+- [039000 — Gottfried Wilhelm Leibniz: Leipzig, Paris, and the education of a polymath](039000-leibniz.md) — childhood in a city recovering from the Thirty Years' War; family library, legal study, Mainz service, Paris and Huygens, calculator demonstration in London, Spinoza in the Netherlands, and transition to Hanover. Then the differential and integral calculus and its working methods.
+- [039500 — Gottfried Wilhelm Leibniz: Hanover, the republic of letters, and the calculus war](039500-leibniz-hanover.md) — court employment, unfinished dynastic histories, the Harz mines, Sophie and Sophie Charlotte, the Berlin Academy, the Bernoullis, the Newton priority dispute, Caroline's role in the Leibniz–Clarke exchange, and Leibniz's final years. Then mechanical and binary arithmetic, logic, vis viva, and series.
+
+The mathematical discussions are **retained and expanded rather than discarded**, but the individual and the institutions come first. Source-linked historical anchors and companion equations are in each lecture's metadata and display-only companion. These parts have **no duration limit**: their measured word counts are recorded descriptively in `track.json`.
 
 ## Agent D: historical-person refocus (16 November 2026)
 
@@ -16,7 +27,7 @@ The revisions cover **David Hilbert (008000), Henri Lebesgue (043000), Srinivasa
 
 Earlier additions include:
 
-- **Gottfried Wilhelm Leibniz (`039000`)** — Paris and Huygens, the differential and integral calculi, the Newton priority dispute, numerical notation, binary arithmetic, the stepped reckoner, symbolic logic, and broader philosophical and institutional life. **4,813 spoken words**, about **33.2 minutes** at 145 WPM.
+- **Gottfried Wilhelm Leibniz (`039000`, `039500`)** — the earlier single portrait is now expanded into two historical parts, described above; the original lectures’ mathematics is kept in the later technical sections.
 - **Pythagoras (`040000`)** — Samos and Croton, religious-philosophical community, music and proportion, the right-triangle theorem, integer triples, irrationality, numerical cultures before Pythagoras, and later Pythagorean traditions. The lecture distinguishes the historical teacher from mathematics attributed to him centuries later. **4,811 spoken words**, about **33.2 minutes** at 145 WPM.
 
 These entries follow Galois (`037000`) and Gödel (`038000`) without altering any previously indexed narration. Future expansion subjects and IDs are recorded in `docs/history-portrait-expansion-backlog-2026-11-12.md`. Audio is generated on demand; no binary media are tracked in this overlay.

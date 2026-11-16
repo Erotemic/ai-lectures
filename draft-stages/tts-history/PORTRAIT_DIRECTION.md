@@ -33,6 +33,12 @@ Six existing entries were revised without removing their mathematics. The existi
 | 048000 | Nikola Tesla | Early family, Graz and migration, commercial partnerships, industrial electrification, public demonstration and financial decline; then rotating fields, motors, networks and resonance |
 | 050000 | Pierre de Fermat | Legal career, correspondence with Descartes and Pascal, family, plague and posthumous publication; then modular arithmetic, tangents, probability and descent |
 
+## Newton and Leibniz historical expansion (current pass)
+
+The two existing person-centered histories have now been expanded into four standalone episodes. **Newton** has his existing `035000` first part and new `035500` part on the *Principia*, scientific collaborators, political life, the Mint, the priority controversy, and the consequences of institutional authority. **Leibniz** has the original `039000` first part and new `039500` part on Hanover's courts, patrons, engineering and archives, European scholarly networks, the Academy in Berlin, the controversy over calculus, and his final years.
+
+The first Newton and Leibniz parts emphasize the childhood, education and formative networks that precede their major public contributions. In both two-part lives, **sustained mathematical demonstrations follow the main historical arc**, including Newtonian series, fluxions and gravitation, and Leibnizian differential/integral calculus, mechanical and binary calculation, and mathematical physics. Dates and contested attributions are anchored in source metadata. The total length is governed by the material, not a runtime or word-count target.
+
 ## Next review queue
 
 The following are candidates for **restructuring**, not assertions that their existing biographical material is absent. Earlier batches already added valuable historical research to many of them.

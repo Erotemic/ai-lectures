@@ -4,36 +4,28 @@
   "transcript": "035000-newton.md",
   "related_resources": [
     {
-      "source_id": "history-newton-bio",
-      "reason": "Life, chronology, and broader mathematical context for Isaac Newton."
+      "source_id": "history-newton-alchemy",
+      "reason": "Surviving alchemical manuscripts and experiments."
     },
     {
-      "source_id": "history-newton-principia",
-      "reason": "Primary source record for the Principia and Newtonian mechanics."
-    },
-    {
-      "source_id": "history-newton-calculus",
-      "reason": "Background on Newton's method of fluxions and the calculus dispute."
-    },
-    {
-      "source_id": "history-newton-opticks",
-      "reason": "Primary source record for Newton's optical investigations."
-    },
-    {
-      "source_id": "history-newton-method",
-      "reason": "Accessible mathematical background on Newton's numerical method and series."
-    },
-    {
-      "source_id": "history-newton-personal-life-project",
-      "reason": "Family relationships, later household, reputation, and private struggles."
+      "source_id": "history-newton-apple-stukeley",
+      "reason": "Contemporary testimony for the apple story and limits of the legend."
     },
     {
       "source_id": "history-newton-chronology-project",
       "reason": "Detailed chronology of schooling, Cambridge friendships, intellectual and institutional life."
     },
     {
-      "source_id": "history-newton-wickins",
-      "reason": "Documentary context for Newton’s long friendship with John Wickins."
+      "source_id": "history-newton-opticks",
+      "reason": "Primary source record for Newton's optical investigations."
+    },
+    {
+      "source_id": "history-newton-religion-project",
+      "reason": "Newton’s theological manuscripts, Biblical studies, and heterodox religious thought."
+    },
+    {
+      "source_id": "history-newton-school-eyewitness",
+      "reason": "Primary recollections on Grantham schooling, interpreted cautiously as retrospective testimony."
     },
     {
       "source_id": "history-newton-schoollife",
@@ -44,29 +36,23 @@
       "reason": "Primary evidence for Newton’s personal religious self-scrutiny and the 1693 crisis."
     },
     {
-      "source_id": "history-newton-apple-stukeley",
-      "reason": "Contemporary testimony for the apple story and limits of the legend."
-    },
-    {
-      "source_id": "history-newton-1693-letter",
-      "reason": "Newton’s own correspondence during his 1693 crisis."
-    },
-    {
-      "source_id": "history-newton-alchemy",
-      "reason": "Surviving alchemical manuscripts and experiments."
-    },
-    {
-      "source_id": "history-newton-mint-chaloner",
-      "reason": "Newton’s enforcement role and the Chaloner counterfeiting prosecution."
-    },
-    {
-      "source_id": "history-newton-humphrey-remembrances",
-      "reason": "Retrospective reports about Newton’s Cambridge habits."
+      "source_id": "history-newton-wickins",
+      "reason": "Documentary context for Newton’s long friendship with John Wickins."
     }
   ],
   "historical_claims": [
     {
       "id": "035000-h01",
+      "anchor": "England was still using the Julian calendar",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-newton-chronology-project"
+      ],
+      "source_locator": "Newton Project, chronology of birth and calendars",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "035000-h02",
       "anchor": "Newton's father died before he was born",
       "kind": "historical_biography_attribution_or_context",
       "source_ids": [
@@ -76,7 +62,7 @@
       "audit_status": "source_cross_checked"
     },
     {
-      "id": "035000-h02",
+      "id": "035000-h03",
       "anchor": "his mother Hannah married a clergyman named Barnabas Smith",
       "kind": "historical_biography_attribution_or_context",
       "source_ids": [
@@ -86,7 +72,7 @@
       "audit_status": "source_cross_checked"
     },
     {
-      "id": "035000-h03",
+      "id": "035000-h04",
       "anchor": "Years later he made an extraordinary private list",
       "kind": "historical_biography_attribution_or_context",
       "source_ids": [
@@ -96,7 +82,7 @@
       "audit_status": "source_cross_checked"
     },
     {
-      "id": "035000-h04",
+      "id": "035000-h05",
       "anchor": "His path to Cambridge was nearly interrupted",
       "kind": "historical_biography_attribution_or_context",
       "source_ids": [
@@ -106,7 +92,7 @@
       "audit_status": "source_cross_checked"
     },
     {
-      "id": "035000-h05",
+      "id": "035000-h06",
       "anchor": "He built mechanical models, experimented with sundials",
       "kind": "historical_biography_attribution_or_context",
       "source_ids": [
@@ -116,7 +102,18 @@
       "audit_status": "source_cross_checked"
     },
     {
-      "id": "035000-h06",
+      "id": "035000-h07",
+      "anchor": "At King's School in Grantham, Newton lived for a time",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-newton-school-eyewitness",
+        "history-newton-chronology-project"
+      ],
+      "source_locator": "Stukeley school recollections (later testimony); Newton Project school chronology",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "035000-h08",
       "anchor": "He made one particularly enduring friendship with John Wickins",
       "kind": "historical_biography_attribution_or_context",
       "source_ids": [
@@ -126,7 +123,17 @@
       "audit_status": "source_cross_checked"
     },
     {
-      "id": "035000-h07",
+      "id": "035000-h09",
+      "anchor": "Cambridge closed during outbreaks of plague",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-newton-chronology-project"
+      ],
+      "source_locator": "Newton Project, 1665–1666 Cambridge closures",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "035000-h10",
       "anchor": "Stukeley recorded the conversation years later",
       "kind": "historical_biography_attribution_or_context",
       "source_ids": [
@@ -136,7 +143,7 @@
       "audit_status": "source_cross_checked"
     },
     {
-      "id": "035000-h08",
+      "id": "035000-h11",
       "anchor": "there is no good evidence that an apple struck Newton's head",
       "kind": "historical_biography_attribution_or_context",
       "source_ids": [
@@ -146,47 +153,27 @@
       "audit_status": "source_cross_checked"
     },
     {
-      "id": "035000-h09",
-      "anchor": "In sixteen eighty-four Edmond Halley traveled to Cambridge",
+      "id": "035000-h12",
+      "anchor": "Newton became a fellow of Trinity College",
       "kind": "historical_biography_attribution_or_context",
       "source_ids": [
         "history-newton-chronology-project"
       ],
-      "source_locator": "Newton Project chronology, Halley visit",
-      "audit_status": "source_cross_checked"
-    },
-    {
-      "id": "035000-h10",
-      "anchor": "Similar bitterness later marked his dealings with the Astronomer Royal",
-      "kind": "historical_biography_attribution_or_context",
-      "source_ids": [
-        "history-newton-personal-life-project"
-      ],
-      "source_locator": "Newton Project, Flamsteed quarrel",
-      "audit_status": "source_cross_checked"
-    },
-    {
-      "id": "035000-h11",
-      "anchor": "His first great public confrontation came not over gravity but over light",
-      "kind": "historical_biography_attribution_or_context",
-      "source_ids": [
-        "history-newton-schoollife"
-      ],
-      "source_locator": "ODNB, Hooke and optics correspondence",
-      "audit_status": "source_cross_checked"
-    },
-    {
-      "id": "035000-h12",
-      "anchor": "he studied alchemy, copied chemical recipes",
-      "kind": "historical_biography_attribution_or_context",
-      "source_ids": [
-        "history-newton-alchemy"
-      ],
-      "source_locator": "Indiana University, Chymistry of Newton",
+      "source_locator": "Newton Project, fellowship and Lucasian professorship",
       "audit_status": "source_cross_checked"
     },
     {
       "id": "035000-h13",
+      "anchor": "He studied biblical chronology, early Church history",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-newton-religion-project"
+      ],
+      "source_locator": "Newton Project, Newton’s religious writings and manuscripts",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "035000-h14",
       "anchor": "His convictions about the Trinity differed sharply",
       "kind": "historical_biography_attribution_or_context",
       "source_ids": [
@@ -196,73 +183,54 @@
       "audit_status": "source_cross_checked"
     },
     {
-      "id": "035000-h14",
-      "anchor": "His assistant Humphrey Newton described meals left untouched",
-      "kind": "historical_biography_attribution_or_context",
-      "source_ids": [
-        "history-newton-humphrey-remembrances"
-      ],
-      "source_locator": "PBS NOVA, Humphrey Newton recollections",
-      "audit_status": "source_cross_checked"
-    },
-    {
       "id": "035000-h15",
-      "anchor": "The vulnerability of that private life became plain in sixteen ninety-three",
+      "anchor": "he studied alchemy, copied chemical recipes",
       "kind": "historical_biography_attribution_or_context",
       "source_ids": [
-        "history-newton-1693-letter"
+        "history-newton-alchemy"
       ],
-      "source_locator": "Newton’s 1693 Locke and Pepys correspondence",
+      "source_locator": "Indiana University, Chymistry of Newton",
       "audit_status": "source_cross_checked"
     },
     {
       "id": "035000-h16",
-      "anchor": "Newton suffered a serious period of disturbed sleep and distress",
+      "anchor": "Newton made a reflecting telescope",
       "kind": "historical_biography_attribution_or_context",
       "source_ids": [
-        "history-newton-1693-letter"
+        "history-newton-chronology-project"
       ],
-      "source_locator": "Newton’s insomnia and letters",
+      "source_locator": "Newton Project, Royal Society telescope and optics demonstrations",
       "audit_status": "source_cross_checked"
     },
     {
       "id": "035000-h17",
-      "anchor": "The familiar story in which a dog named Diamond destroys his papers",
+      "anchor": "His first great public confrontation came not over gravity but over light",
       "kind": "historical_biography_attribution_or_context",
       "source_ids": [
-        "history-newton-sin-list"
+        "history-newton-schoollife"
       ],
-      "source_locator": "Newton Project, Newton’s Troubled Mind, Diamond legend",
+      "source_locator": "ODNB, Hooke and optics correspondence",
       "audit_status": "source_cross_checked"
     },
     {
       "id": "035000-h18",
-      "anchor": "William Chaloner, a skilled counterfeiter",
+      "anchor": "His first great public confrontation came not over gravity but over light",
       "kind": "historical_biography_attribution_or_context",
       "source_ids": [
-        "history-newton-mint-chaloner"
+        "history-newton-chronology-project",
+        "history-newton-opticks"
       ],
-      "source_locator": "Historic Royal Palaces, Chaloner case",
+      "source_locator": "Newton Project, 1672 optics dispute; Newton’s optical publications",
       "audit_status": "source_cross_checked"
     },
     {
       "id": "035000-h19",
-      "anchor": "His niece Catherine Barton lived with him in London",
+      "anchor": "Newton returned to Woolsthorpe to care for his mother",
       "kind": "historical_biography_attribution_or_context",
       "source_ids": [
-        "history-newton-personal-life-project"
+        "history-newton-chronology-project"
       ],
-      "source_locator": "Newton Project, personal life and niece Catherine",
-      "audit_status": "source_cross_checked"
-    },
-    {
-      "id": "035000-h20",
-      "anchor": "His conduct toward Leibniz in the calculus priority controversy",
-      "kind": "historical_biography_attribution_or_context",
-      "source_ids": [
-        "history-newton-personal-life-project"
-      ],
-      "source_locator": "Newton Project, calculus dispute and personal profile",
+      "source_locator": "Newton Project, 1679 death of Hannah and chronology",
       "audit_status": "source_cross_checked"
     }
   ]

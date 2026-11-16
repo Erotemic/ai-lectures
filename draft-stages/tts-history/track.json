@@ -1,7 +1,7 @@
 {
   "id": "history",
   "title": "History · People and ideas",
-  "summary": "Fifty-two researched historical portraits of mathematicians, scientists, and computing pioneers. Lives, relationships, places, institutions, and political circumstances lead the narratives. Detailed mathematical explanations may be retained in later sections, where they illuminate the discoveries made in those settings.",
+  "summary": "Fifty-four researched historical portrait episodes about fifty-two mathematicians, scientists, and computing pioneers. Lives, relationships, places, institutions, and political circumstances lead the narratives. The Newton and Leibniz lives each have two episodes, with substantial mathematical work retained after the biographical arc. Detailed explanations are allowed where they illuminate the discoveries and their historical setting.",
   "assumed_background": [
     "Background varies by portrait; newer human-history entries are accessible without technical mathematics, while earlier manuscripts retain their own stated prerequisites."
   ],
@@ -407,14 +407,25 @@
     },
     {
       "id": "035000",
-      "title": "Isaac Newton: How can the same mathematics explain the sky and the falling apple?",
+      "title": "Isaac Newton: Woolsthorpe, Cambridge, and the making of a natural philosopher",
       "person": "Isaac Newton",
       "section": "broader-history",
       "file": "035000-newton.md",
-      "spoken_words": 5006,
+      "spoken_words": 3002,
       "draft_status": "substantive",
       "source_g2": null,
-      "estimated_minutes_at_145_wpm": 34.5
+      "estimated_minutes_at_145_wpm": 20.7
+    },
+    {
+      "id": "035500",
+      "title": "Isaac Newton: The Principia, the Mint, and the burdens of authority",
+      "person": "Isaac Newton",
+      "section": "broader-history",
+      "file": "035500-newton-public-life.md",
+      "spoken_words": 3755,
+      "draft_status": "substantive",
+      "source_g2": null,
+      "estimated_minutes_at_145_wpm": 25.9
     },
     {
       "id": "036000",
@@ -451,14 +462,25 @@
     },
     {
       "id": "039000",
-      "title": "Gottfried Wilhelm Leibniz: Can reasoning itself become a calculus?",
+      "title": "Gottfried Wilhelm Leibniz: Leipzig, Paris, and the education of a polymath",
       "person": "Gottfried Wilhelm Leibniz",
       "section": "calculus",
       "file": "039000-leibniz.md",
-      "spoken_words": 5902,
+      "spoken_words": 3792,
       "draft_status": "substantive",
       "source_g2": null,
-      "estimated_minutes_at_145_wpm": 40.7
+      "estimated_minutes_at_145_wpm": 26.2
+    },
+    {
+      "id": "039500",
+      "title": "Gottfried Wilhelm Leibniz: Hanover, the republic of letters, and the calculus war",
+      "person": "Gottfried Wilhelm Leibniz",
+      "section": "calculus",
+      "file": "039500-leibniz-hanover.md",
+      "spoken_words": 4261,
+      "draft_status": "substantive",
+      "source_g2": null,
+      "estimated_minutes_at_145_wpm": 29.4
     },
     {
       "id": "040000",
