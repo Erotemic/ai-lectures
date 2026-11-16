@@ -189,6 +189,42 @@ Fanciful similes (giant spoon, cookie roller, gravel mountains) are character jo
 
 **Science and evidence:** The rain gauge has no measurement until precipitation actually falls; do not invent a reading. The children's geometry and wheel-count observations are ordinary play, not a safety or engineering test. The references in `metadata/sources.json` cover enclosed cargo bodies, liftgates, hand trucks, stackable cones, rain gauges, chicken feed and wheelbarrows only. No causal audience-outcome claim is made.
 
+## Season Six — After the Rain (031000–036000)
+
+### Weather and drainage changes, not a construction reset
+
+A single moderate overnight rain takes place before 031000. It has ended by the children's first outing. **Pine Park remains open**, the curving gravel path and Pancake Hill remain stable, the tall pine and bench stand where they always have, and the completed Little Bridge across the brook stays available for walking. There is no major flood or sudden destruction. Rain drains over the course of the following days while ordinary crews perform maintenance. No individual episode claims a new storm occurred during this period.
+
+- **Park rain gauge:** The empty clear tube Aunt Jo installed at the end of Season Five catches its **first rain**. At 031000 Jack records the water at about the **third marked line** in his blue notebook. It stays mounted upright, open to the sky, away from the tall pine. It may lose a little water during subsequent dry days; do not treat an old reading as a new storm total. In 036000 Jack and Aunt Jo inspect it again, make a second mark, **empty it**, and return it upright to its holder so it is ready for another rain.
+- **Roadside drainage:** The curb on the paved stretch of Brook Road west of the Pine Park gate gently slopes toward a **grated storm inlet** near the western junction by the garage. Some rain infiltrates grassy park soil; some runs downhill over the paved road toward stormwater drainage. The children never float, throw, or place objects into the inlet. Do not imply all runoff is filtered before entering a stream.
+- **Municipal street sweeper (033000):** One adult-operated **town street sweeper** has spinning side brushes and a debris-collection hopper. It removes grit and fallen leaves from the public road edge. This sweeper is separate from Ms. Pam's white mobile service truck, white flatbed tow truck, and Dan's blue box truck. Ms. Pam brings out her four orange nesting cones to mark the temporary work area; she puts them back in the garage shed afterward.
+- **Vacuum drain-cleaning truck (034000):** A **green-and-white municipal vacuum truck with a silver tank and large flexible hose** removes deposited dirty water, grit, and sediment from the street **catch basin beneath the inlet** near the garage. Its hose/tank job is distinct from a street sweeper's rotating brooms. The workers close and inspect the inlet before leaving. The children observe from the garage waiting-room window and do not approach an open drain.
+- **Farm road drainage (035000):** The **existing longer vehicle road to Green Gate Farm** has a short shallow ditch and **small pipe culvert beneath one low point**, first noticed this season. Fallen leaves partly slow the ditch flow. Farmer Ruth and Mr. Lee arrange an adult-led inspection/clearing and **a compact loader brings new gravel** for the softened road shoulder. The road is checked before ordinary use resumes. This route remains separate from Little Bridge, which stays pedestrian-only and does not become a road for machinery.
+- **Home observation (036000):** Jack uses a tilted shallow tray and a spoonful of water with Aunt Jo helping to observe downhill flow; it is a home-scale observation, not a literal miniature drainage system. Jack draws a compact **rain-route page** in his existing blue notebook, showing soil, curb, inlet, farm-road culvert and a loader. No separate permanent booklet or science facility is created.
+
+### New objects and vehicles after the season
+
+| Place | Stable result |
+|---|---|
+| Pine Park | Rain gauge emptied and reset in same open grassy location; rain level was recorded in Jack's notebook; park original layout unchanged |
+| Brook Road by garage | Grated storm catch basin remains, cleaned; public roadway swept; Ms. Pam's four cones returned to shed |
+| Green Gate Farm long road | Previously existing drainage culvert now canonically documented; leaves cleared and soft shoulder regraveled; farm machinery and supplies unchanged |
+| Jack's notebook | Rain-gauge before/after drawing, soil-versus-road arrows, street-sweeper/vacuum-truck comparison, culvert drawing and rain-route page |
+| Rex's house | Wooden dump truck with four working wheels and folded clean carton from Dan's delivery season remain at home |
+
+### Episode-state ledger
+
+| Episode | Lasting change | Still pending within season |
+|---|---|---|
+| 031000 | Overnight rain; gauge first reading at third marked line, drawn by Jack; small roadside puddle | Rainwater's path and road maintenance unexamined |
+| 032000 | Park-side curb, gentle slope, and roadside storm inlet observed; soil infiltration compared with road runoff | Road debris and basin cleaning |
+| 033000 | Town street sweeper introduced, road grit and leaves removed into hopper; Pam's four cones returned to shed | Catch basin below road remains to be cleaned |
+| 034000 | Municipal vacuum truck cleans town catch basin; hose, tank and brush jobs distinguished | Farm roadside water and soft shoulder remain |
+| 035000 | Existing farm-road culvert identified and cleared by adults; compact loader helps regravel road shoulder | Final notebook synthesis and rain-gauge reset |
+| 036000 | Tilted-tray observation, Jack's completed rain-route drawing, park gauge emptied/reset, all work finished | No open damage or vehicle problem |
+
+**Physics/provenance:** These are fictional sites. Runoff on slopes, infiltration into soil, street sweeping, drain-basin vacuum cleaning and culvert function are grounded only as general facts in the source catalog. Caregiver notes are not read aloud. Avoid implying that a child can safely explore drains or drive maintenance machinery.
+
 ## Authoring guardrails
 
 - Persistent geography, name spellings and object state survive across episodes and seasons. Never erase a completed project without a depicted reason.

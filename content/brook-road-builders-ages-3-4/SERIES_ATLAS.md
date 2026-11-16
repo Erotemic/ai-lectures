@@ -1,6 +1,6 @@
 # Brook Road Builders — series atlas and expansion plan (not spoken)
 
-This is a planning companion, **not** a second continuity authority. `WORLD_BIBLE.md` holds canonical facts through episode 030000. Ideas tagged *future* must not be treated as already present in a spoken episode.
+This is a planning companion, **not** a second continuity authority. `WORLD_BIBLE.md` holds canonical facts through episode 036000. Ideas tagged *future* must not be treated as already present in a spoken episode.
 
 ## What makes this a world, not a truck catalogue
 
@@ -103,6 +103,19 @@ The **small parcel shed** by the west junction adds Dan, an adult donkey with a 
 
 Jack's blue notebook keeps new diagrams of box versus flatbed, nested cones, empty gauge, different animal feeds, hand truck versus wheelbarrow, and the roads/footpaths linking all three stops. The farm's stored hay, all earlier machinery, two puppies' tail wave, and Rex's repaired wooden toy truck remain intact. **After 030000 the delivery run is complete**; no boxes remain mysteriously in transit.
 
+## Season Six — after the first measured rain
+
+Pine Park's rain gauge, delivered empty in Season Five, catches a moderate overnight rainfall and is **read at the third marked line**; Jack's notebook records the first result. By the last episode the same gauge is emptied and reset, without changing its location near the park gate away from the tall pine. The existing gravel loop, Pancake Hill, bench and Little Bridge all remain intact.
+
+A paved roadside curb slopes toward the **grated storm inlet near the Red Door Garage's western road junction**. Some rain soaks into the park's grass; other water moves along the road to this inlet. The town employs two *different* adult-driven municipal machines:
+
+- **Street sweeper:** spinning brushes and a debris hopper collect grit and leaves from curb edges; it is not a vacuum truck for cleaning deep drainage basins.
+- **Green-and-white vacuum drain-cleaning truck:** a large hose and silver tank collect dirty water and deposited sediment from the catch basin beneath the street grate; this is not Pam's white mobile repair truck or Dan's blue delivery truck.
+
+The **long farm road** also has a modest pre-existing **ditch/pipe culvert at a low point**, observed for the first time in 035000. Adult workers clear leaves at its entrance and use a **compact front-bucket loader** to regravel a soft shoulder. No truck travels across Little Bridge. The farm's red tractor, hay, hen feed, wheelbarrow, barn and all animals continue in place. After the maintenance the road is usable.
+
+Jack adds a **rain-route sketch** to his established blue notebook. The season ends with all work complete and ordinary calm restored; no perpetual storm, stranded vehicle, new book collection or danger storyline persists.
+
 ## Eleven-season horizon (ideas, not canon)
 
 1. **Pine Park** — established and complete (earthmoving, paving, park opening).
@@ -110,7 +123,7 @@ Jack's blue notebook keeps new diagrams of box versus flatbed, nested cones, emp
 3. **Farm Workdays** — **complete**: red tractor, mower, tedder, rake, baler, hay wagon and Molly's first park visit.
 4. **Red-Door Garage** — **complete**: Ms. Pam, white flatbed and service trucks, tire gauge, lift, work van and toy-truck repairs.
 5. **Delivery Route** — **complete**: Dan the donkey, blue box truck and parcel shed, four garage cones, park rain gauge, farm hen feed and wheelbarrow.
-6. **After the Rain** — drainage, road upkeep and why water follows low places.
+6. **After the Rain** — **complete**: rain gauge measured and reset, curb runoff, street sweeper, drain-cleaning vacuum truck, and a farm-road culvert and gravel-shoulder repair.
 7. **Firehouse Open Day** — engines, ladders, hoses, equipment maintenance; no serial jeopardy.
 8. **Snow Trucks** — plowing and sanding after a believable season change.
 9. **Gravel Yard** — source of loose material and different large haulers.

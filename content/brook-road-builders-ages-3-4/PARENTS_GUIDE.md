@@ -81,6 +81,23 @@ Dan the adult donkey drives a blue enclosed box truck to the neighborhood's exis
 
 **Scientific and editorial limits:** Truck bodies, liftgates and wheeled cargo helpers have specific functions. The rain gauge requires adequate open exposure, and a reading is only possible after rain. Chickens are fed a suitable balanced diet distinct from the farm hay used for sheep and goats. All deliveries and powered-equipment operation are done by adults; the animal characters and dialogue remain fiction. Manufacturer, government and extension references establish only these physical claims, not any measured benefit from this story series.
 
+## Season Six: After the Rain
+
+A moderate overnight rainfall supplies the first real reading in Pine Park's gauge. This is one rain event across six sequential observations and maintenance episodes; it is not six storms. The friends compare water on grass and paved road, watch a street sweeper collect curb debris, see a vacuum truck clean a catch basin, and visit Molly after adults clear and repair a small farm-road culvert. Jack makes one small supervised tilted-tray observation, records the rain's route and resets the rain gauge with Aunt Jo.
+
+| Episode | Optional prompt for a child |
+|---|---|
+| 031 | What did Jack find inside the clear rain tube? |
+| 032 | Which way did the little water stream go beside the road? |
+| 033 | What did the street sweeper do with its turning brooms? |
+| 034 | Was the big hose on the truck for washing windows or cleaning the drain? |
+| 035 | What traveled under the farm road in the little pipe? |
+| 036 | Where did the drops go when Jack tilted the tray? |
+
+**Factual limits:** Surface runoff follows slope; soil can absorb some rain; road pavements tend to shed more water. The particular curb, drainage inlet and culvert are invented features of this original setting. Municipal maintenance crew methods and truck functions are supported by cited public hydrology, environmental and road-maintenance sources. The story's truck antics, talking animals, listening and sleep effects are not scientific claims. No adult instruction checklist or risky drain investigation is part of the spoken narration.
+
+**Continuity note:** The gauge begins the season filled by one overnight rain and ends empty after Jack and Aunt Jo check/record it. The rebuilt farm-road shoulder is for the normal longer road, not a new motor-vehicle crossing at Little Bridge. The park itself remains open; the year and exact interval since the hay harvest are not specified.
+
 ## Why there are sources
 
 - **Machine functions:** Caterpillar's equipment descriptions were consulted to avoid confusing bulldozers, diggers, loaders, trucks and compactors. These are general equipment facts; the fictional site is not an engineering case study and the passages are not operation instructions.
