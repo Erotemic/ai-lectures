@@ -1,6 +1,6 @@
 # Brook Road Builders — series atlas and expansion plan (not spoken)
 
-This is a planning companion, **not** a second continuity authority. `WORLD_BIBLE.md` holds canonical facts through episode 048000. Ideas tagged *future* must not be treated as already present in a spoken episode.
+This is a planning companion, **not** a second continuity authority. `WORLD_BIBLE.md` holds canonical facts through episode 054000. Ideas tagged *future* must not be treated as already present in a spoken episode.
 
 ## What makes this a world, not a truck catalogue
 
@@ -132,6 +132,14 @@ The **same red tractor** from Green Gate Farm's hay season gains an adult-operat
 
 Jack's **same blue notebook** gains winter sketches of blade, spreader, tractor, snowblower and road-vs-footpath routes. Jack informally observes open-ground snow depth and a taller drift by the fence; the existing rain gauge is not misused for snowfall depth measurement. Rex's toy truck, Gus's green cap, Molly's rope toy, original houses, bench, storm inlet and culvert persist. The plow and spreader finish this event's work and return to municipal storage. Winter remains the ambient season at episode 048000.
 
+## Season Nine — gravel yard and the park gate repair
+
+After the snow of Season Eight melts naturally, a worn **small maintenance-access strip by the Pine Park gate** needs fresh material. The park's original loop and Pancake Hill remain sound. A stone processing yard lies **north of Pine Park beyond the north service lane**, which is the heavy-vehicle route; its crusher, vibrating screen, guarded conveyor system, sorted stockpiles and truck scale are new permanent settings. The supplying quarry is upstream and has not been directly visited.
+
+**Mr. Fred**, an adult badger in a yellow vest, manages the yard and hosts adult-accompanied friends in an **enclosed viewing office**. The site has an industrial haul truck for quarry rock, a large **yellow wheel loader**, and a **green road dump truck** used for deliveries. The weighbridge records the loaded truck's gross weight; the payload can be determined by subtracting its empty weight. This is not Little Bridge.
+
+Aunt Jo's crew repairs only the gate-side strip using a compact loader and a small roller. The restored surface and Jack's new drawing connect directly to the original Pine Park gravel and dump truck season. Rex, Gus, Jack, Molly, their fixed belongings and the whole town's older infrastructure remain unchanged. The gravel yard can recur as a source of material, not as a new playground.
+
 ## Eleven-season horizon (ideas, not canon)
 
 1. **Pine Park** — established and complete (earthmoving, paving, park opening).
@@ -142,7 +150,7 @@ Jack's **same blue notebook** gains winter sketches of blade, spreader, tractor,
 6. **After the Rain** — **complete**: rain gauge measured and reset, curb runoff, street sweeper, drain-cleaning vacuum truck, and a farm-road culvert and gravel-shoulder repair.
 7. **Firehouse Open Day** — **complete**: Station Lane, Captain Ann, two red vehicle bays, distinct engine and ladder truck, turnout gear and hose demonstration; no incident.
 8. **Snow Trucks** — **complete**: one winter snowfall, orange road plow, red salt spreader, Farmer Ruth’s red tractor with snow blade, park snowblower, hand-cleared pedestrian bridge and Jack’s winter-route page.
-9. **Gravel Yard** — source of loose material and different large haulers.
+9. **Gravel Yard** — **complete**: upstream quarry stone, crusher, vibrating screen, conveyors and piles, yellow wheel loader, scale, green road dump truck and compacted park gate repair.
 10. **Barn Repair** — adult builders return with new equipment; working farm carries on.
 11. **One Long Road** — an atlas of connected places and machines through the children's remembered experiences.
 

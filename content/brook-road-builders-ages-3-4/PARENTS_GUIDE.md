@@ -132,6 +132,23 @@ One overnight snowfall covers the already-established town. Across six gentle ch
 
 **Continuity:** Months have passed since the firehouse open day; the same people and locations remain. Little Bridge remains a hand-cleared footbridge, never a road for the plow or tractor. The original park rain gauge is not treated as a snow-depth ruler. The farm hay is still stored indoors, the orange cones return to Ms. Pam's shed, and the road work ends without an unresolved problem. No new named characters are introduced, and there is no implied developmental or sleep benefit established by the technical sources.
 
+## Season Nine: Where the Gravel Comes From
+
+A small worn strip beside the Pine Park gate needs an adult-led repair after winter thaws. Each of six stories follows the same crushed-stone order through a nearby working aggregate yard and back to the familiar park. The cast sees the crusher, screen, conveyors, loader, truck scale and dump truck in different episodes. In 054000 a compact loader and a small roller restore the strip while **the original park and pedestrian bridge remain intact**.
+
+| Episode | Optional question |
+|---|---|
+| 049 | Did Rex find a new lake or a little soft patch beside the gate? |
+| 050 | What came out of the crusher after the big rock went in? |
+| 051 | Did the screen sort the rocks by size or by color? |
+| 052 | What carried the stones up to the growing pile? |
+| 053 | What did the giant scale measure? |
+| 054 | How did the little stones become part of a firm walking strip? |
+
+**Source scope:** The NY Construction Materials Association and South Carolina Department of Environmental Services describe real quarrying, hauling, crushing, screening, conveyors and stockpiling. The Minerals Education Coalition explains aggregate equipment. The U.S. Access Board gives context for properly graded compacted crushed-rock trail surfaces. Pit & Quarry explains truck loadout and scale measurements. These facts inform the technical vocabulary, but do not validate the fictional scenario or claim any specific educational or sleep outcome. Children remain in the visitor room or established public spaces, not among powered quarry machines.
+
+**Continuity:** The crusher is not the screening deck; the conveyor carries finished material to storage; the loader transfers it to the road dump truck; the weighbridge is a scale, not the Little Bridge. Jack's original blue notebook remains, and the gate-side patch is fixed without rebuilding the rest of Pine Park. Molly still has her blue rope toy and one-wag greeting with Rex.
+
 ## Why there are sources
 
 - **Machine functions:** Caterpillar's equipment descriptions were consulted to avoid confusing bulldozers, diggers, loaders, trucks and compactors. These are general equipment facts; the fictional site is not an engineering case study and the passages are not operation instructions.

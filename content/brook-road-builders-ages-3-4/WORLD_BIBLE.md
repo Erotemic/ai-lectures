@@ -282,6 +282,40 @@ Several months have passed since the firehouse open day. Brook Road, Pine Park a
 
 **Factual limits:** Snowplow preparation, blade movement, deicing, seasonal tractor snow blades, snow-depth observations and snowblower chutes are supported as general mechanisms in `metadata/sources.json`. Specific colors, locations, weather event, characters and road crew jobs are fictional. The spoken stories avoid machine-operation instructions and all child characters remain pedestrians or observers.
 
+## Season Nine — Where the Gravel Comes From (049000–054000)
+
+### Season chronology, places and material route
+
+A **gradual winter thaw** occurs after Season Eight; it is now early spring. No winter machinery is instantly replaced mid-storm. The park's original **firm, curving gravel path, bench, tree, Pancake Hill, original gate and signs** remain intact. Only a **small worn strip beside the park gate where maintenance carts enter** requires regrading with crushed stone; pedestrians can use the rest of the original path. Do not describe the entire park or bridge as ruined, re-built or closed.
+
+- **Stone source:** a working aggregate processing **yard north of Pine Park**, reached from the **northern service lane**, not via the existing park walking loop, Little Bridge or farm's pedestrian route. Large rock arrives at the plant **from an upstream quarry** by industrial haul truck. The quarry is not on the children's walking route. This plant processes some quarried rock into **crushed stone**, which is angular compared with naturally rounded gravel. It has a primary crusher, screening equipment, guarded conveyors, finished-stone stockpiles separated by size, a yellow wheel loader, and a truck weighbridge. These are distinct pieces of equipment, not magical stages.
+- **Mr. Fred:** new recurring **adult badger** and yard manager, wearing a yellow vest; welcomes adult-accompanied children to an **enclosed visitor office with viewing windows**. Children **never play or wander among the conveyors, stockpiles, active crushers, truck scale or loading bays**. No precise quarry location, blast scene, or heavy-equipment operation instructions are added.
+- **Material order:** quarry rock -> haul truck -> primary crusher -> conveyor -> vibrating screen (oversized rock may be crushed again) -> sorted-stone belt -> finished stockpile -> yellow wheel loader -> **green road dump truck** -> weighbridge -> service lane -> patch at Pine Park gate -> adult spreading and small roller compaction. Different grades have different uses; the park gets an angular mixture with fine material. This is a **single repair order** through all six episodes, not six unrelated deliveries.
+- **Scale:** the weighbridge measures total truck weight; Mr. Fred compares the loaded and empty weights to determine the stone's weight. The weighbridge is a **yard weighing platform**, not a bridge to the farm. The **green road dump truck** is distinct from the yard-only industrial haul truck, Dan's blue box truck, Ms. Pam's white service and flatbed trucks, Captain Ann's fire engines, and the Season Eight orange winter plow.
+- **Repair:** only the marked strip near Pine Park's gate is repaired by Aunt Jo's adult crew with a compact loader, spreading work and a **small roller**, echoing the original roller that built the path in Season One. After inspection, signs are removed. Trucks use the north service lane and never drive over the wooden footbridge or the finished pedestrian loop.
+
+### Character and object continuity
+
+- **Rex:** still has one dark and one light ear, red collar, and his same **four-wheeled repaired wooden dump truck**. His nose connects the fresh stone at the gate with the yard. No new vehicle ownership.
+- **Gus:** continues wearing the **same green cap**, and remembers trying to imagine a cap big enough for the gravel piles in Season One. His silly comparison between the crusher and a bear's breakfast is imaginative, not fact.
+- **Jack:** keeps the **same blue notebook**, turns an incorrect guess about screen sorting by color into a correct observation about size, and makes pages recording the chain from quarry stone through crusher, screen, belt, loader, weight scale, truck, and compacted path. He compares these with the **original Season One gravel delivery drawing**; no existing pages are erased. His existing park rain gauge remains reset and installed in its original spot.
+- **Molly:** visits the yard viewing room with Farmer Ruth and watches a stockpile grow below the belt. She returns to Green Gate Farm where her blue rope toy remains. Her **one-wag greeting** with Rex repeats when they meet at Pancake Hill in 054000.
+- **Aunt Jo** continues to operate the town work crew and yellow van; **Farmer Ruth** accompanies Molly, while Mr. Fred and his industrial operators run the yard. Mr. Lee, Captain Ann, Ms. Pam and Dan keep their original roles; they are not repurposed as quarry operators.
+- Hay storage, original footbridge, parked winter attachments, garage cones, firehouse, farm culvert, storm inlet, and other season artifacts all remain where previous episodes put them.
+
+### Episode-state ledger
+
+| ID | Lasting change | Remaining in this season |
+|---|---|---|
+| 049000 | Early spring thaw; small worn gate-side maintenance strip identified; Jack draws a new origin question | Source of replacement stone, repair |
+| 050000 | Mr. Fred and the safe visitor room introduced; quarry rock and primary crusher observed | Sorting and storage; delivery and repair |
+| 051000 | Size-screening and recirculation observed; Jack updates wrong color guess, records size pathways | Stockpiling, loading and repair |
+| 052000 | Molly joins yard visit; conveyor grows a stockpile; pups compare its height against fixed post | Loading, weighing, delivery and repair |
+| 053000 | Yellow wheel loader loads green dump truck; weighbridge verifies material quantity; truck waits for delivery | Delivery and gate-side repair |
+| 054000 | Green truck tips stone by north service lane; adults spread and compact small strip; park entrance fully usable; Jack closes his material-flow drawing | None; repair complete and yard stays available in town |
+
+**Factual limit:** Aggregate-extraction, sorting, loadout, weighing and stable trail-surface references in `metadata/sources.json` justify the broad machinery descriptions, not the specific invented road, measurements, weather, worksite or any measured listening benefit.
+
 ## Authoring guardrails
 
 - Persistent geography, name spellings and object state survive across episodes and seasons. Never erase a completed project without a depicted reason.
