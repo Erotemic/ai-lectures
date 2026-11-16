@@ -1,5 +1,5 @@
 import assert from 'node:assert/strict';
-import {narratorInventory, resumeTarget} from '../ailectures/static/lecture-audio.mjs';
+import {narratorInventory, resumeTarget, voiceGroups, lectureGenerations, LectureAudio} from '../ailectures/static/lecture-audio.mjs';
 import {Player} from '../ailectures/static/player.mjs';
 
 const installed = {id:'other-recording',variant:'other',complete:true,pages:['One.','Two.'],segments:[{index:0,duration:2},{index:1,duration:3}]};
@@ -48,3 +48,39 @@ player.play(1,0.5);
 assert.deepEqual(requested,{index:1,seconds:0.5});
 assert.equal(audio.paused,true);
 console.log('Voice-specific readiness, explicit selection, and missing-block requests passed');
+
+
+// A discovered catalog should not flood the primary selector.
+const catalogChoices = [
+  {...choice,key:'kokoro-default',profile_default:true},
+  {key:'prepared',label:'Prepared voice',recording_id:installed.id},
+  ...Array.from({length:50},(_,index)=>({key:'extra-'+index,profile:'kokoro',variant:'extra-'+index})),
+];
+const shortlist = voiceGroups(catalogChoices,row,[],['One.','Two.'],'kokoro-default');
+assert.deepEqual(shortlist.flatMap(group=>group.choices.map(choice=>choice.key)),['prepared','kokoro-default']);
+assert.ok(voiceGroups(catalogChoices,row,[],['One.','Two.'],'extra-20').some(group=>group.choices.some(choice=>choice.key==='extra-20')));
+const unrelated = {...pending,id:'unrelated',lecture_id:'another:001000',state:'running'};
+const anotherVoice = {...pending,id:'another-voice',variant:'different',revision:'previous',state:'running'};
+const stopped = {...pending,id:'stopped',state:'cancelled'};
+assert.deepEqual(lectureGenerations([unrelated,anotherVoice,stopped],row.id).map(job=>job.id),['another-voice']);
+assert.deepEqual(lectureGenerations([stopped],row.id,new Set(['stopped'])).map(job=>job.id),['stopped']);
+
+// Stopping another voice must target its job without changing playback or pending play.
+const controller = Object.create(LectureAudio.prototype);
+Object.assign(controller,{row,choices:[{...choice,key:'selected'}],select:{value:'selected'},
+  jobs:[anotherVoice],stopping:new Set(),recentlyStopped:new Set(),epoch:7,pending:{index:1},
+  player:{audio:{pause(){throw new Error('Cancelling another voice paused playback');}}},
+  render(){},generationList(){},async poll(){},message(){}});
+let cancelledURL;
+globalThis.fetch = async (url,options)=>{
+  cancelledURL=url;
+  assert.equal(options.method,'DELETE');
+  return {ok:true,json:async()=>({id:anotherVoice.id,state:'cancelled'})};
+};
+await controller.cancel(anotherVoice);
+assert.ok(cancelledURL.endsWith('/another-voice'));
+assert.equal(controller.jobs[0].state,'cancelled');
+assert.deepEqual(controller.pending,{index:1});
+assert.equal(controller.epoch,7);
+assert.ok(controller.recentlyStopped.has(anotherVoice.id));
+console.log('Voice shortlist and cancellation independent of the selected voice passed');

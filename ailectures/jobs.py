@@ -145,7 +145,9 @@ class JobStore:
                 state = (
                     "queued"
                     if retry and row["attempts"] < max_attempts
-                    else "failed" if retry else "settings_changed"
+                    else "failed"
+                    if retry
+                    else "settings_changed"
                 )
                 db.execute(
                     "UPDATE jobs SET state=?,error=?,retry_at=?,owner=NULL,lease_until=NULL,updated_at=? WHERE id=?",
@@ -185,6 +187,14 @@ class JobStore:
             db.execute(
                 "UPDATE jobs SET state='cancelled',owner=NULL,lease_until=NULL,updated_at=? WHERE id=? AND state!='ready'",
                 (time.time(), job_id),
+            )
+
+    def retain_cancelled_inventory(self, job_id, inventory):
+        """Refresh stopped-block counts without changing a retried job's state."""
+        with self.connect() as db:
+            db.execute(
+                "UPDATE jobs SET inventory=? WHERE id=? AND state='cancelled'",
+                (canonical(inventory).decode(), job_id),
             )
 
     def release(self, owner):

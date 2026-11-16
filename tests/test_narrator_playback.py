@@ -35,6 +35,7 @@ def test_voice_options_match_recordings_and_do_not_start_generation(
             assert first["voice"] == "af_alloy" and other["voice"] == "am_echo"
             assert first["variant"] == completed["variant"]
             assert first["recording_id"] and other["recording_id"] is None
+            assert first["profile_default"] and not other["profile_default"]
             faster = client.get(
                 "/api/library/production/narrators?lecture_id=music:001000&speed=1.25"
             ).json()

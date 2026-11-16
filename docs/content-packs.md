@@ -305,8 +305,11 @@ their chosen revision and immutable media URLs while the library refreshes.
 
 ## Prepare audio
 
-Lecture pages have one **Voice for playback and generation** selector containing
-configured profiles and their known/registered voices, plus installed recordings.
+Lecture pages have one **Voice for playback and generation** selector. Voices
+with audio appear first; the shortlist also includes active preparations, one
+default per configured TTS profile, and the current selection. **More voices**
+opens the searchable full catalog, including other Kokoro voices. **Use this voice**
+changes the same playback/generation selection without starting synthesis.
 Each choice shows its generated-block count. **Play** uses that selection; when
 audio is missing it requests generation and starts as soon as the required block
 is ready, while preparation continues. It never substitutes a different narrator.
@@ -328,6 +331,15 @@ Each preparation shows ready/missing/queued/rendering blocks, its narrator,
 queue position, passage progress and available ETA. Cancel controls stop unfinished
 work for that lecture preparation and retain completed blocks. Lecture pages also
 show block coverage for the selected voice before any audio has been generated.
+**Generation for this lecture** lists active work for every voice, even after
+switching playback to another narrator, with a stop control for each preparation.
+Production job titles link to their content pages. Each preparation has one
+cancellation button, which shows **Stopping…**
+while the request is pending. Cancellation is recorded before worker cleanup;
+slow media probing and copying happen outside the final activation transaction.
+A cancelled preparation cannot subsequently publish its staged recording. Speech
+already running on a backend without cancellation support may finish remotely;
+its cancelled output is discarded locally.
 Completed blocks can play from the local build cache during preparation; exact
 recording snapshots keep listening positions and feedback attached to those bytes.
 Fully prepared recordings publish as portable media packs. These controls do not

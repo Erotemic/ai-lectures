@@ -1,4 +1,4 @@
-import { api, post, el, store } from "./api.mjs";
+import { api, post, el, store, lectureURL } from "./api.mjs";
 import { NarrationControls } from "./narration.mjs";
 import { blockGrid, generationStatus } from "./audio-blocks.mjs";
 const $ = (id) => document.getElementById(id);
@@ -8,6 +8,8 @@ const description = (text) => el("p", { class: "intro", text });
 export class ProductionPanel {
   constructor(options) {
     Object.assign(this, options);
+    this.cancelling = new Set();
+    this.cancelErrors = new Map();
   }
   byId(id) {
     return this.catalog().lectures.find((row) => row.id === id);
@@ -207,10 +209,15 @@ export class ProductionPanel {
         cards.push(
           el(
             "article",
-            { class: "card" },
-            el("h3", {
-              text: this.byId(job.lecture_id)?.title || job.lecture_id,
-            }),
+            { class: "card", "data-job": id },
+            el(
+              "h3",
+              {},
+              this.link(
+                this.byId(job.lecture_id)?.title || job.title || job.lecture_id,
+                lectureURL(job.lecture_id),
+              ),
+            ),
             el("p", {
               text: `${job.profile} · ${job.voice || "configured voice"} · ${job.speed || 1}× speech`,
             }),
@@ -225,19 +232,23 @@ export class ProductionPanel {
               "aria-label": "Prepared passages",
             }),
             job.error ? el("p", { class: "notice", text: job.error }) : null,
+            this.cancelErrors.has(id)
+              ? el("p", {
+                  class: "notice",
+                  role: "status",
+                  text: this.cancelErrors.get(id),
+                })
+              : null,
             blockGrid(inv.states || []),
-            ...(inv.queue || []).map((item) =>
+            ...(["queued", "running"].includes(job.state)
+              ? inv.queue || []
+              : []
+            ).map((item) =>
               el(
                 "div",
                 { class: "generation-item" },
                 el("p", {
                   text: `Block ${item.page + 1} · ${item.kind} · ${generationStatus(item)}`,
-                }),
-                this.button("Cancel this lecture's generation", async () => {
-                  await api("/api/library/production/jobs/" + id, {
-                    method: "DELETE",
-                  });
-                  await this.showJobs();
                 }),
               ),
             ),
@@ -257,11 +268,14 @@ export class ProductionPanel {
                 : null,
             !job.published &&
               !["failed", "cancelled", "settings_changed"].includes(job.state)
-              ? this.button("Cancel generation", async () => {
-                  await api("/api/library/production/jobs/" + id, {
-                    method: "DELETE",
-                  });
-                  await this.showJobs();
+              ? el("button", {
+                  type: "button",
+                  "data-cancel-job": id,
+                  disabled: this.cancelling.has(id),
+                  text: this.cancelling.has(id)
+                    ? "Stopping…"
+                    : "Cancel this lecture's generation",
+                  onclick: () => this.cancelJob(id),
                 })
               : null,
             el(
@@ -286,5 +300,26 @@ export class ProductionPanel {
       el("h2", { text: "Preparation jobs" }),
       el("div", { class: "grid" }, ...cards),
     );
+  }
+  async cancelJob(id) {
+    if (this.cancelling.has(id)) return;
+    this.cancelling.add(id);
+    this.cancelErrors.delete(id);
+    for (const button of this.root?.querySelectorAll("[data-cancel-job]") ||
+      []) {
+      if (button.dataset.cancelJob === id) {
+        button.disabled = true;
+        button.textContent = "Stopping…";
+      }
+    }
+    try {
+      await api("/api/library/production/jobs/" + id, { method: "DELETE" });
+    } catch (error) {
+      this.cancelErrors.set(id, "Could not stop generation: " + error.message);
+      this.message(error.message);
+    } finally {
+      this.cancelling.delete(id);
+      await this.showJobs();
+    }
   }
 }

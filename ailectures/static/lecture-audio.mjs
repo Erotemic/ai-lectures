@@ -25,6 +25,38 @@ export function narratorInventory(choice, row, jobs, pages) {
   return { states, job, recording };
 }
 
+export function voiceGroups(choices, row, jobs, pages, selected) {
+  const groups = [
+    { label: "Audio available", choices: [] },
+    { label: "Generating", choices: [] },
+    { label: "Generate another voice", choices: [] },
+  ];
+  for (const choice of choices) {
+    const { states, job } = narratorInventory(choice, row, jobs, pages);
+    if (states.includes("ready")) groups[0].choices.push(choice);
+    else if (["queued", "running"].includes(job?.state))
+      groups[1].choices.push(choice);
+    else if (choice.profile_default || choice.key === selected)
+      groups[2].choices.push(choice);
+  }
+  return groups.filter((group) => group.choices.length);
+}
+
+export function lectureGenerations(
+  jobs,
+  lectureId,
+  recentlyStopped = new Set(),
+) {
+  return jobs.filter(
+    (job) =>
+      job.lecture_id === lectureId &&
+      (["queued", "running", "failed", "settings_changed"].includes(
+        job.state,
+      ) ||
+        recentlyStopped.has(job.id)),
+  );
+}
+
 export function resumeTarget(row, progress, pages) {
   if (
     progress?.spoken_sha256 !== row.spoken_sha256 ||
@@ -57,6 +89,8 @@ export class LectureAudio {
     Object.assign(this, { row, player, progress, onChange, message, active });
     this.jobs = [];
     this.views = new Map();
+    this.recentlyStopped = new Set();
+    this.stopping = new Set();
     this.epoch = 0;
     this.root = el("section", { class: "preparation-panel section" });
     this.select = el("select", { "aria-label": "Voice" });
@@ -66,6 +100,41 @@ export class LectureAudio {
       "aria-live": "polite",
     });
     this.blocks = el("div");
+    this.generations = el("section", {
+      "aria-label": "Generation for this lecture",
+    });
+    this.moreSearch = el("input", {
+      type: "search",
+      placeholder: "Search voice or profile",
+      "aria-label": "Find a voice",
+    });
+    this.moreSelect = el("select", { size: "6", "aria-label": "All voices" });
+    this.more = el(
+      "details",
+      {},
+      el("summary", { text: "More voices" }),
+      el("p", {
+        class: "muted",
+        text: "Browse the full voice catalog. Use a voice to select it for both playback and generation.",
+      }),
+      this.moreSearch,
+      this.moreSelect,
+      el("button", {
+        type: "button",
+        text: "Use this voice",
+        onclick: () => {
+          if (!this.moreSelect.value) return;
+          this.voiceOptions(this.moreSelect.value);
+          this.select.value = this.moreSelect.value;
+          this.choose();
+          this.more.open = false;
+        },
+      }),
+    );
+    this.moreSearch.oninput = () => this.catalogOptions();
+    this.more.ontoggle = () => {
+      if (this.more.open) this.catalogOptions();
+    };
     this.playButton = el("button", {
       type: "button",
       class: "primary",
@@ -93,6 +162,7 @@ export class LectureAudio {
     this.speed.value = String(getStored("speech-speed", 1));
     this.root.append(
       el("label", {}, "Voice for playback and generation", this.select),
+      this.more,
       el(
         "div",
         { class: "actions" },
@@ -106,6 +176,7 @@ export class LectureAudio {
         }),
       ),
       this.status,
+      this.generations,
       this.blocks,
       el(
         "details",
@@ -145,6 +216,7 @@ export class LectureAudio {
     );
     this.choices = this.data.choices;
     this.pages = this.data.pages;
+    this.voiceSignature = null;
     this.select.replaceChildren(
       ...this.choices.map((choice) => el("option", { value: choice.key })),
     );
@@ -240,6 +312,7 @@ export class LectureAudio {
     this.render();
   }
   render() {
+    this.voiceOptions();
     for (const option of this.select.options) {
       const choice = this.choices.find((c) => c.key === option.value);
       const { states, job, recording } = narratorInventory(
@@ -257,7 +330,8 @@ export class LectureAudio {
       !this.data.tools_available ||
       this.submitting ||
       ["queued", "running"].includes(job?.state);
-    this.stop.disabled = !["queued", "running"].includes(job?.state);
+    this.stop.disabled =
+      !["queued", "running"].includes(job?.state) || this.stopping.has(job?.id);
     this.select.disabled = !this.choices.length;
     this.status.textContent = this.pending
       ? `Waiting for block ${this.pending.index + 1} in ${this.choice.label}. Playback will start when it is ready.${job?.error ? " · " + job.error : ""}`
@@ -281,9 +355,128 @@ export class LectureAudio {
         }),
       ),
     );
+    this.generationList();
     if (this.pending)
       document.getElementById("playing-note").textContent =
         this.status.textContent;
+  }
+  voiceOptions(selected = this.select.value) {
+    const groups = voiceGroups(
+      this.choices,
+      this.row,
+      this.jobs,
+      this.pages,
+      selected,
+    );
+    const signature = JSON.stringify(
+      groups.map((group) => [
+        group.label,
+        group.choices.map((choice) => choice.key),
+      ]),
+    );
+    if (signature !== this.voiceSignature) {
+      this.select.replaceChildren(
+        ...groups.map((group) =>
+          el(
+            "optgroup",
+            { label: group.label },
+            ...group.choices.map((choice) =>
+              el("option", { value: choice.key }),
+            ),
+          ),
+        ),
+      );
+      this.voiceSignature = signature;
+    }
+    this.select.value = selected;
+  }
+  catalogOptions() {
+    const selected = this.moreSelect.value;
+    const query = this.moreSearch.value.trim().toLocaleLowerCase();
+    const groups = new Map();
+    for (const choice of this.choices) {
+      if (
+        !`${choice.label} ${choice.profile || ""} ${choice.voice || ""}`
+          .toLocaleLowerCase()
+          .includes(query)
+      )
+        continue;
+      const label =
+        this.data.profiles?.find((profile) => profile.id === choice.profile)
+          ?.label || "Installed recordings";
+      if (!groups.has(label)) groups.set(label, []);
+      const { states } = narratorInventory(
+        choice,
+        this.row,
+        this.jobs,
+        this.pages,
+      );
+      groups.get(label).push(
+        el("option", {
+          value: choice.key,
+          text: `${choice.label} · ${states.filter((state) => state === "ready").length}/${states.length} generated`,
+        }),
+      );
+    }
+    this.moreSelect.replaceChildren(
+      ...[...groups].map(([label, options]) =>
+        el("optgroup", { label }, ...options),
+      ),
+    );
+    if (
+      [...this.moreSelect.options].some((option) => option.value === selected)
+    )
+      this.moreSelect.value = selected;
+  }
+  generationList() {
+    const jobs = lectureGenerations(
+      this.jobs,
+      this.row.id,
+      this.recentlyStopped,
+    );
+    this.generations.replaceChildren(
+      el("h3", { text: "Generation for this lecture" }),
+      ...jobs.map((job) => {
+        const label =
+          this.choices.find((choice) => choice.variant === job.variant)
+            ?.label || `${job.profile} · ${job.voice}`;
+        const active = ["queued", "running"].includes(job.state);
+        return el(
+          "div",
+          { class: "generation-item", "data-job": job.id },
+          el("strong", { text: label }),
+          el("p", {
+            class: "muted",
+            text: `${job.speed || 1}× speech · ${job.state} · ${job.inventory.ready}/${job.inventory.total || "?"} blocks ready${job.revision !== this.row.revision ? " · earlier transcript revision" : ""}`,
+          }),
+          job.error ? el("p", { class: "notice", text: job.error }) : null,
+          ...(active ? job.inventory.queue || [] : [])
+            .slice(0, 1)
+            .map((item) =>
+              el("p", { class: "muted", text: generationStatus(item) }),
+            ),
+          active
+            ? el("button", {
+                type: "button",
+                text: this.stopping.has(job.id)
+                  ? "Stopping…"
+                  : "Stop generation",
+                "aria-label": `Stop generation for ${label} at ${job.speed || 1}×`,
+                disabled: this.stopping.has(job.id),
+                onclick: () => this.cancel(job),
+              })
+            : null,
+        );
+      }),
+      ...(jobs.length
+        ? []
+        : [
+            el("p", {
+              class: "muted",
+              text: "No active generation for this lecture.",
+            }),
+          ]),
+    );
   }
   play(index = this.player.index, seconds = null) {
     this.player.play(index, seconds);
@@ -345,8 +538,9 @@ export class LectureAudio {
     this.polling = true;
     const epoch = this.epoch;
     try {
-      this.jobs = (await api("/api/library/production/jobs")).jobs;
+      const jobs = (await api("/api/library/production/jobs")).jobs;
       if (epoch !== this.epoch || this.disposed) return;
+      this.jobs = jobs;
       this.render();
       const { job } = this.inventory;
       const pending = this.pending;
@@ -403,17 +597,33 @@ export class LectureAudio {
       this.polling = false;
     }
   }
-  async cancel() {
-    this.pending = null;
-    this.epoch++;
-    this.player.audio.pause();
-    const job = this.inventory.job;
-    if (!job) return;
+  async cancel(job = this.inventory.job) {
+    if (!job || this.stopping.has(job.id)) return;
+    if (
+      job.variant === this.choice?.variant &&
+      job.revision === this.row.revision
+    ) {
+      this.pending = null;
+      this.epoch++;
+      this.player.audio.pause();
+    }
+    this.stopping.add(job.id);
+    this.render();
     try {
-      await api("/api/library/production/jobs/" + job.id, { method: "DELETE" });
+      const result = await api("/api/library/production/jobs/" + job.id, {
+        method: "DELETE",
+      });
+      this.recentlyStopped.add(job.id);
+      this.jobs = this.jobs.map((item) =>
+        item.id === job.id ? { ...item, ...result } : item,
+      );
+      this.render();
       await this.poll();
     } catch (error) {
       this.showError(error);
+    } finally {
+      this.stopping.delete(job.id);
+      this.generationList();
     }
   }
   showError(error) {

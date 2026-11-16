@@ -436,13 +436,21 @@ class PackStore:
             temporary.unlink(missing_ok=True)
 
     def install(self, source, *, expected=None):
+        with self.stage_install(source) as release:
+            return self.activate_install(release, expected=expected)
+
+    @contextmanager
+    def stage_install(self, source):
+        """Prepare complete bytes in a hidden directory, without activating them."""
         source = Path(source).resolve()
         if source.is_file():
             with tempfile.TemporaryDirectory(
                 prefix=".import-", dir=self.root
             ) as temporary:
                 unpack_archive(source, Path(temporary) / "release")
-                return self.install(Path(temporary) / "release", expected=expected)
+                with self.stage_install(Path(temporary) / "release") as release:
+                    yield release
+                return
         release = load_release(source)
         manifest = release["manifest"]
         pack_id, revision = manifest["id"], manifest["release"]
@@ -454,15 +462,25 @@ class PackStore:
             ) as temporary:
                 staged = Path(temporary) / "release"
                 shutil.copytree(source, staged, symlinks=True)
-                load_release(staged)  # Detect edits while copying.
-                try:
-                    staged.rename(destination)
-                except OSError:
-                    if (
-                        not destination.is_dir()
-                        or load_release(destination)["manifest"]["release"] != revision
-                    ):
-                        raise
+                yield load_release(staged)  # Detect edits while copying.
+        else:
+            yield release
+
+    def activate_install(self, release, *, expected=None):
+        """Publish already staged bytes and commit the selected release."""
+        manifest = release["manifest"]
+        pack_id, revision = manifest["id"], manifest["release"]
+        destination = self.packs / pack_id / revision
+        staged = Path(release["directory"])
+        if staged != destination:
+            try:
+                staged.rename(destination)
+            except OSError:
+                if (
+                    not destination.is_dir()
+                    or load_release(destination)["manifest"]["release"] != revision
+                ):
+                    raise
         with self.connect() as db:
             db.execute("BEGIN IMMEDIATE")
             previous = db.execute(

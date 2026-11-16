@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 from copy import deepcopy
+from contextlib import contextmanager
 from functools import lru_cache
 import json
 import os
@@ -357,6 +358,7 @@ class GenerationManager:
                             key=f"tts:{profile['id']}:{voice}",
                             label=f"{profile['label']} · {labels.get(voice, voice)}",
                             profile=profile["id"],
+                            profile_default=voice == profile["voice"],
                             voice=voice,
                             speed=speed,
                             variant=variant,
@@ -625,16 +627,25 @@ class GenerationManager:
             for job_id, job in list(self._jobs.items()):
                 record = self.jobs.get(job_id)
                 if record["state"] != "running" or record["owner"] != self.owner:
+                    if record["state"] == "cancelled":
+                        job["engine"].cancel("000000", job["settings"])
+                        self.jobs.retain_cancelled_inventory(
+                            job_id, job["engine"].inventory("000000", job["settings"])
+                        )
                     job["engine"].close()
                     del self._jobs[job_id]
                     continue
                 try:
                     inventory = job["engine"].inventory("000000", job["settings"])
-                    self.jobs.save(job_id, self.owner, inventory=inventory)
+                    if not self.jobs.save(job_id, self.owner, inventory=inventory):
+                        self.jobs.retain_cancelled_inventory(job_id, inventory)
+                        job["engine"].close()
+                        del self._jobs[job_id]
+                        continue
                     if inventory["ready"] == inventory["total"]:
-                        self.jobs.publish(
-                            job_id, self.owner, inventory, lambda: self.publish(job)
-                        )
+                        # File probing/copying must not lock out cancellation.
+                        with self._publication(job) as activate:
+                            self.jobs.publish(job_id, self.owner, inventory, activate)
                         job["engine"].close()
                         del self._jobs[job_id]
                     elif (inventory.get("preparation") or {}).get(
@@ -697,6 +708,11 @@ class GenerationManager:
         return self.status(job_id)
 
     def publish(self, job):
+        with self._publication(job) as activate:
+            return activate()
+
+    @contextmanager
+    def _publication(self, job):
         row = job["row"]
         engine, settings = job["engine"], job["settings"]
         rec, files = recording_from_engine(
@@ -717,7 +733,8 @@ class GenerationManager:
             old = json.loads(previous["catalog"])["lectures"].get(row["id"])
             if old and old["spoken_sha256"] == row["spoken_sha256"]:
                 if any(existing["id"] == rec["id"] for existing in old["recordings"]):
-                    return previous["release"]
+                    yield lambda: previous["release"]
+                    return
                 for existing in old["recordings"]:
                     if existing["variant"] != rec["variant"]:
                         recordings.append(
@@ -738,31 +755,26 @@ class GenerationManager:
             relationships=[],
         )
         directory = self.library.store.root / "exports" / (pack_id + "-" + uuid4().hex)
-        manifest = export_release(
+        export_release(
             pack,
             directory,
             parent=previous["release"] if previous else None,
             media=recordings,
             kind="media",
         )
-        self.library.store.install(directory)
-        return manifest["release"]
+        with self.library.store.stage_install(directory) as staged:
+            yield lambda: self.library.store.activate_install(staged)["release"]
 
     def cancel(self, job_id):
-        with self._lock:
-            job = self._jobs.get(job_id)
-            if job:
-                self.jobs.save(
-                    job_id,
-                    self.owner,
-                    inventory=job["engine"].inventory("000000", job["settings"]),
-                )
-            self.jobs.cancel(job_id)
-            job = self._jobs.pop(job_id, None)
-            if job:
-                job["engine"].cancel("000000", job["settings"])
-                job["engine"].close()
-            return {"id": job_id, "state": self.jobs.get(job_id)["state"]}
+        # Persist first. The coordinator may be probing/copying many audio files
+        # under _lock; it observes this state before it can activate a recording.
+        self.jobs.cancel(job_id)
+        state = self.jobs.get(job_id)["state"]
+        job = self._jobs.get(job_id)
+        if job and state == "cancelled":
+            job["engine"].cancel("000000", job["settings"])
+        # tick owns cleanup and refreshes final cached-block counts.
+        return {"id": job_id, "state": state}
 
     def close(self):
         with self._lock:
