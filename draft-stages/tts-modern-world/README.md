@@ -127,3 +127,13 @@ All historical paragraphs have an external display-only source ledger and struct
 - **054000 — [The Price of a Barrel: Oil, Money, and Environmental Politics in the 1970s](054000-the-price-of-a-barrel.md)** (3,030 narrated words). OPEC, OAPEC, 1971 monetary changes, 1973 oil shock, inflation, New International Economic Order and environmental activism.
 
 Each narrative paragraph has external evidence mappings in the display-only ledger and structured sidecar. The content is written for standalone TTS narration. Manuscript word counts are descriptive, not goals or constraints.
+
+
+## Regional wars, social settlements, democracy and health (055000–058000)
+
+- **055000 — [Three Wars and Their Aftermath: Vietnam, Laos, and Cambodia](055000-three-wars-and-their-aftermath.md)** (2,659 narrated words). War and decolonization across Indochina, contested states, civilian survival, 1975 transitions, Khmer Rouge rule and refugees.
+- **056000 — [What Did Europe Build? Markets, Welfare, and the Postwar Settlement](056000-what-did-europe-build.md)** (2,268 narrated words). National welfare systems, European treaties, workers, migration, agriculture and growth under pressure.
+- **057000 — [When Uniforms Rule: Coups, Repression, and Democratic Openings](057000-when-uniforms-rule.md)** (2,424 narrated words). Military seizures of power in Chile, Argentina, Uruguay and Philippines; Portugal and Greece transitions; rights and memory.
+- **058000 — [The Harvest and the Clinic: Food, Health, and Population, 1960–1980](058000-the-harvest-and-the-clinic.md)** (2,727 narrated words). Green Revolution, 1970s famine and food claims, oral rehydration, smallpox, primary care and reproductive coercion.
+
+Each narrated paragraph is supported by a linked evidence record in the display-only ledger and the metadata sidecar. Source access and interpretive limits are explicit. Word counts are descriptive, not targets.

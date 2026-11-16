@@ -149,3 +149,20 @@ Citation quality takes priority over bibliography size: a reliable passage that 
 - **056000:** European integration, social democracy and the strains of postwar welfare settlements.
 - **057000:** Authoritarianism, coups and democracy across the 1970s, including Chile and other regional comparisons; give local political agency and repression their due.
 - **058000:** World food, public health and changing population debates, 1960–1980, distinguishing coercive policy, agricultural technology, and changing health outcomes.
+
+
+## Completed: 055000–058000 — war aftermaths, European settlements, repression and health
+
+- **055000:** Three Wars and Their Aftermath: Vietnam, Laos, and Cambodia. War and decolonization across Indochina, contested states, civilian survival, 1975 transitions, Khmer Rouge rule and refugees.
+- **056000:** What Did Europe Build? Markets, Welfare, and the Postwar Settlement. National welfare systems, European treaties, workers, migration, agriculture and growth under pressure.
+- **057000:** When Uniforms Rule: Coups, Repression, and Democratic Openings. Military seizures of power in Chile, Argentina, Uruguay and Philippines; Portugal and Greece transitions; rights and memory.
+- **058000:** The Harvest and the Clinic: Food, Health, and Population, 1960–1980. Green Revolution, 1970s famine and food claims, oral rehydration, smallpox, primary care and reproductive coercion.
+
+**Evidence work to deepen:** For 055000, acquire Vietnamese-, Lao-, Khmer- and Hmong-language oral histories, local press, and full national archival work; U.S. diplomatic accounts have institutional limits and Cambodian tribunal testimony is case-specific. For 056000, consult working-class, migrant, agricultural and female-worker archives and independent empirical studies of European social spending and CAP consequences; institutional timelines identify policies, not their distributional outcomes. For 057000, read full Chilean/Argentine/Uruguayan truth-commission findings and participant testimony alongside intelligence records; do not equate various dictatorships or inferred U.S. influence with identical chains of command. For 058000, analyze field-level agronomic records, alternative famine datasets, patient-led health accounts and national birth-control archives to distinguish technical possibility, actual access and coercive policy. No mandatory lecture length applies.
+
+## Next research candidates (unindexed)
+
+- **059000:** Late Cold War arms control, dissent and the Soviet–Afghan war, with Soviet, Afghan and neighboring perspectives.
+- **060000:** China after Mao: reform, rural change, student movements, and contested political futures.
+- **061000:** African societies in the 1980s: debt, adjustment, regional conflicts and popular organizing.
+- **062000:** The public technologies of the late twentieth century: computing, broadcasting, biotechnology and their unequal access.
