@@ -184,10 +184,13 @@ post-compaction — reconstructs its position from the ledgers alone:
 
 1. Read `reviews/registry/coverage-<track>.jsonl` and
    `reviews/registry/findings-<track>.jsonl`.
-2. A unit is **audit-complete** iff its coverage row has contract `v2`
-   (full, not a `v2w` bulk row) at the unit's current revision *and* it has
-   no open/confirmed/deferred findings. (A `v2w` row or a stale revision
-   means the unit still needs a full pass.)
+2. A unit is **audit-complete** (for ordering purposes) iff its coverage row
+   has contract `v2` (full, not a `v2w` bulk row) at the unit's current
+   revision *and* every finding on it has been adjudicated (no finding left
+   in `open` status). `confirmed`/`deferred` findings are an audited **fix
+   backlog** — they do not block the audit order; they surface in the
+   per-track report until a content pass resolves them. (A `v2w` row or a
+   stale revision means the unit still needs a full pass.)
 3. The **next unit** is the first lecture ID in track order that is not
    audit-complete. Process it:
 

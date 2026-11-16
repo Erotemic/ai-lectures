@@ -219,6 +219,9 @@ Mary Leakey's name belongs to that moment of recovery. She helped make the dista
 9. **Mary D. Leakey, *Olduvai Gorge*, vol. 3, *Excavations in Beds I and II, 1960–1963* (Cambridge University Press, 1971); *Disclosing the Past* (1984); *Laetoli: A Pliocene Site in Northern Tanzania* (1987).** Scientific and autobiographical primary works; cited bibliographic details are independently indexed at <https://olduvai-paleo.org/bibliography/> and <https://obnb.uk/a00078904-mary-d-leakey>.
 10. **British Museum, “Tanzania,” African Rock Art research project.** Mary and Louis Leakey's documentation of Kondoa-area rock painting and subsequent research. <https://africanrockart.britishmuseum.org/country/tanzania/>
 11. **CARTA, “Oldupai Gorge (Olduvai).”** The indigenous place-name and its relationship to the long-standing archaeological spelling. <https://carta.anthropogeny.org/glossary/oldupai-gorge-olduvai>
+12. **Wikipedia, “Mary Leakey.”** General entry point for the lecture's central figure. <https://en.wikipedia.org/wiki/Mary_Leakey>
+13. **Wikipedia, “Laetoli footprints.”** General entry point for the trackways, the lecture's central object. <https://en.wikipedia.org/wiki/Laetoli_footprints>
+14. **Wikipedia, “Olduvai Gorge.”** General entry point for the gorge and its excavation history. <https://en.wikipedia.org/wiki/Olduvai_Gorge>
 
 ### Interpretive boundaries and narration conventions
 
