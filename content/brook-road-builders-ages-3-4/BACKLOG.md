@@ -1,13 +1,15 @@
-# Future seasons / continuity backlog — Brook Road Builders (not spoken)
+# Brook Road Builders — future seasons and story backlog (not spoken)
 
-Season One builds a permanent park. A future season should introduce a new but logically connected job, **not** undo Pine Park and repeat the same five machines in the same order. The series may comfortably extend to many seasons; each should have a genuine change of place or relationships and several standalone bedtime moments.
+The completed canon is Season One (Pine Park, 001000–006000) and Season Two (The Little Bridge, 007000–012000). Everything below is an optional direction, not a completed episode, immutable title, or permission to retcon what is already built. See `WORLD_BIBLE.md` for what is actually established and `SERIES_ATLAS.md` for route/character/vehicle expansion notes.
 
-Potential directions (not commitments):
+- Season Three candidate: **Farm Workdays** — Rex, Gus, Jack and Molly visit Green Gate Farm; a tractor pulls a wagon, the hay trailer arrives, a feed truck makes a delivery. The animals have recognizable habits and routines, not just an animal roll call. No construction site repeated merely to add a tractor.
+- Season Four candidate: **The Garage with the Red Door** — a tow truck brings a tired vehicle to a grown-up mechanic; tire repair, a lift, and a service truck appear. The small science questions concern wheels and air pressure. No children underneath supported vehicles.
+- Season Five candidate: **The Delivery Route** — box truck, flatbed and staffed loading yard, a driver making neighborhood stops. A package can pass through multiple established addresses; the logic of loading and unloading is consistent.
+- Season Six candidate: **After the Rain** — drain cleaning, street sweeper and a culvert inspection change a muddy roadside, without pretending that every puddle is an emergency.
+- Season Seven candidate: **At the Firehouse** — fire engine, ladder, equipment checks and an open-house visit, not repeated peril or franchise-style rescue commands.
+- Season Eight candidate: **Snow Trucks** — after substantial seasonal time has passed, plows and sanding trucks work the public roads. The Little Bridge remains pedestrian-only.
+- Season Nine candidate: **Where the Gravel Comes From** — adult-guided visit to an aggregate yard, with conveyors, big dumpers and loaders clearly distinguished.
+- Season Ten candidate: **The Big Barn Fix** — telehandler and lumber delivery help Farmer Ruth with an adult-led farm repair; the original park and bridge are not erased.
+- Season Eleven candidate: **One Long Road** — ordinary travel between established places and people; revisit machine roles and Jack's evolving notebook as a lived-in history, not a graduation lesson.
 
-- **Season Two — The Bridge Near the Farm:** a little bridge for walking over a shallow stream near Brook Road, with adult carpenters, a concrete mixer truck and a crane truck doing appropriate jobs. Jack experiments with paper bridges in a tabletop scene; Rex and Gus observe.
-- **Season Three — The Trucks in Winter:** snowplow, tow truck, road-gritter/sander, and the difference between snow on a path and snow on a roof. Ordinary seasonal time must pass if winter arrives.
-- **Season Four — The Garage With the Red Door:** tire repair, air pump, vehicle wash, and an old truck with a stubborn squeak. A puppy friend may join later if their presence helps the story.
-- **Season Five — The Big Delivery:** flatbed truck, forklift at an appropriate staffed yard, tractor trailer, and warehouse doors. Young characters stay clear of loading areas.
-- **Season Six — Animal Visitors to Pine Park:** new dogs, rabbits, ducks, and bear neighbors use the park; a small problem can call for a grown-up maintenance crew, without making the completed first season meaningless.
-
-Maintain **Rex / Gus / Jack / Aunt Jo** as the stable auditory core. Names are plain and distinct, with long-running traits defined in the world bible. Do not borrow distinctive trademarks, designs, rescue catchphrases or protected characters from existing children's franchises.
+Future authors should introduce only a few new names at a time, confirm vehicle functions before writing, prefer scenes with a concrete surprise or joke to machine-catalogue monologues, and let at least some chapters center on Rex's dog experience, Gus's comic point of view, or Jack's genuine uncertainty. Keep the spoken word count appropriate to each story rather than a fixed target.

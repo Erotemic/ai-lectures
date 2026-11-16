@@ -6,6 +6,10 @@ A **separate original episodic children's bedtime-story pack** for ages three to
 
 **Season One: Pine Park** — episodes 001000–006000. A vacant field by a lone pine is gradually transformed into a neighborhood park. The park remains part of the world when the machines leave.
 
+**Season Two: The Little Bridge** — episodes 007000–012000. A small pedestrian bridge connects the far side of Pine Park to Green Gate Farm. Rex discovers another puppy, Molly; the friends watch a mixer truck and crane, test a paper bridge at home, and finally walk across. The new path, bridge and farm become permanent locations; trucks take the longer vehicle roads.
+
+**World expansion:** `SERIES_ATLAS.md` describes the established route between places and a nonbinding multi-season plan with more trucks, working animals and town locations. The canonical state of objects and characters is in `WORLD_BIBLE.md`.
+
 **Use:** Listen in order for callbacks, or start any episode with its self-contained introduction. Spoken text is strictly between `BEGIN SPOKEN LECTURE` and `END SPOKEN LECTURE`. Everything after the end marker is caregiver/editorial material only. A single TTS narrator reads the spoken story; no character voice switching, music, or sound effects are necessary. Written onomatopoeia is narrator-readable; it does not request actual machine audio.
 
 **Voice & editorial aims:** Give the child truck and machine detail, an affectionate dog, a funny bear, and a boy who observes and sketches instead of magically knowing every answer. Keep natural names (Rex, Gus, Jack, Aunt Jo), distinct roles, real mechanical verbs, humor, and a gentle bedtime close. No fixed spoken-word duration or lesson quota. Do not reproduce protected children's franchise characters, vehicles, insignia, or dialogue.
