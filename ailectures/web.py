@@ -20,13 +20,13 @@ from starlette.responses import (
     RedirectResponse,
 )
 from starlette.routing import Mount, Route
-from starlette.staticfiles import StaticFiles
 
 from .core import Conflict, checksum, finite, qualified
 from .library import Library
 from .state import ListenerState, utcnow
 from .organization import collection_metadata, item_organization
 from .companions import available_companions
+from .assets import LibraryAssets
 
 STATIC = Path(__file__).with_name("static")
 
@@ -80,6 +80,7 @@ def create_app(
     listeners = ListenerState(library.store.state)
     legacy = LazyLegacy(legacy_factory) if legacy_factory else None
     producer = generation_manager
+    assets = LibraryAssets(directory=STATIC)
 
     def production():
         nonlocal producer
@@ -98,9 +99,7 @@ def create_app(
     async def document(request):
         if request.url.path == "/" and "deck" in request.query_params and legacy:
             return RedirectResponse("/presentations?" + request.url.query)
-        return FileResponse(
-            STATIC / "index.html", headers={"Cache-Control": "no-cache"}
-        )
+        return assets.document()
 
     def annotate(row):
         row = deepcopy(row)
@@ -642,7 +641,7 @@ def create_app(
             "/api/library/production/jobs/{job_id}/retry", retry_job, methods=["POST"]
         ),
         Route("/api/library/production/jobs/{job_id}", job, methods=["GET", "DELETE"]),
-        Mount("/library-assets", StaticFiles(directory=STATIC)),
+        Mount("/library-assets", assets),
     ]
     if legacy:
         routes.append(Mount("/", legacy))

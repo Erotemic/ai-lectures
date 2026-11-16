@@ -52,7 +52,10 @@
       ><button id="use-local" type="button">Use this device’s position</button
       ><button id="keep-shared" type="button">Keep shared position</button>
     </div>
-    <main id="main" tabindex="-1"></main>
+    <main id="main" tabindex="-1">
+      <p id="library-loading" role="status">Loading library…</p>
+      <noscript>Enable JavaScript to browse and play this library.</noscript>
+    </main>
     <footer id="player" hidden aria-label="Persistent lecture player">
       <div class="player-heading">
         <a id="playing-title" href="/" data-nav></a
@@ -88,6 +91,30 @@
         the collection or queue</label
       >
     </footer>
+    <script>
+      (function () {
+        function failed(message) {
+          var loading = document.getElementById("library-loading");
+          if (loading)
+            loading.textContent =
+              "The library could not start. " +
+              message +
+              " Reload this page to retry.";
+        }
+        window.addEventListener(
+          "error",
+          function (event) {
+            failed(event.message || "A required script could not be loaded.");
+          },
+          true,
+        );
+        window.addEventListener("unhandledrejection", function (event) {
+          failed(
+            (event.reason && event.reason.message) || String(event.reason),
+          );
+        });
+      })();
+    </script>
     <script type="module" src="/library-assets/app.mjs"></script>
   </body>
 </html>
