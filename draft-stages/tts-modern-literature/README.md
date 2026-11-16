@@ -1,6 +1,6 @@
 # 20th-Century Literature: Story, Then Analysis
 
-The track currently covers **thirty-eight literary works** (two receive extended multi-lecture treatment). For each work, complete plot narration precedes criticism: usually one continuous story lecture, with extended multi-volume treatment where the work itself warrants it. The story account introduces the people, setting, main events, and ending; it does not require that the listener has read the book. The analysis can then explore form, historical context, and competing critical readings without explaining the plot again.
+The track currently covers **thirty-nine literary works** (two receive extended multi-lecture treatment). For each work, complete plot narration precedes criticism: usually one continuous story lecture, with extended multi-volume treatment where the work itself warrants it. The story account introduces the people, setting, main events, and ending; it does not require that the listener has read the book. The analysis can then explore form, historical context, and competing critical readings without explaining the plot again.
 
 ## Scope and the latest expansion
 
@@ -133,3 +133,21 @@ Source, editorial, and lesson-level distinctions: `notes/ulysses-special-section
 A **fourteen-lecture section** explores one continuous seven-volume novel. Seven original spoken story narrations first cover each volume in order, without assuming familiarity with the text; seven sustained critical lectures then analyze involuntary memory and habit, jealous desire and evidence, class and the Dreyfus Affair, sexuality and secrecy, fictional artists, narrative architecture, and the history of composition, publication, and translation. The section adds one work to the canon: **38 works, 107 lectures**.
 
 The final three volumes were published **posthumously**, and the sixth volume has substantial variants among posthumous printings and a subsequently recovered author-corrected typescript. The editorial note discusses this evidence, keeps the narrator distinct from Proust, distinguishes fictional speculation about Albertine from established actions, and avoids confusing the deceased narrator's grandmother with his still-living mother. The 14 source sidecars identify individually grounded claims; `notes/proust-special-section-038100-039400.md` records the source trail and interpretive limitations. This addition prioritizes demonstrated literary significance rather than representation quotas. No fixed spoken length or duration was imposed.
+
+## The Sound and the Fury: Faulkner landmark section (`040100`–`041200`)
+
+William Faulkner's *The Sound and the Fury* (1929) is a central work of American literary modernism. This twelve-lecture treatment is selected for its historical influence, formal experimentation, and sustained critical importance. It does not convert the four sections into one authoritative family testimony. The first four lectures follow Faulkner's published section order; a fifth assembles the family chronology. The seven studies then treat competing experiences of time, Caddy's absent narrative voice, Quentin's crisis and masculinity, Dilsey and racial labor, Southern political economy, close reading, and textual history.
+
+| Lecture IDs | Coverage |
+|---|---|
+| `040100`–`040400` | Full plot, one lecture for each of the four dated sections, including the ending |
+| `040500` | Chronological retelling and names: Quentin the brother versus Miss Quentin the daughter |
+| `040600` | Time, sensory memory, psychological obsession, accounting and Easter time |
+| `040700` | Caddy's absent first-person viewpoint and the limits of the brothers' accounts |
+| `040800` | Quentin's shame, honor ideology, false confession and psychological crisis |
+| `040900` | Dilsey Gibson, Black communal life and labor, and interpretive limits |
+| `041000` | Property, the white Southern order, economic transformation, race and class |
+| `041100` | Six practical close-readings without reducing the book to a chronology puzzle |
+| `041200` | 1929 book history, colored-ink proposals, the later Appendix, reception and impact |
+
+The main textual witness is the original 1929 four-section novel; the 1945 Compson Appendix is a distinct later composition, not part of the original ending. The author's proposals for colored type were not fully realized in 1929; a modern fourteen-color editorial version is not a recovered author-produced color edition. Claim-level source records and candid access notes are in `metadata/sources.json` and `metadata/040100.json` through `metadata/041200.json`. The full editorial dossier is `notes/faulkner-sound-and-fury-040100-041200.md`. No fixed lecture length is required, and no audio is included.
