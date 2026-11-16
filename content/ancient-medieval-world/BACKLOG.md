@@ -1,6 +1,6 @@
 # Backlog — Ancient and Medieval Histories
 
-**Status:** Ninety lectures (001000–090000) are written, indexed, and source-mapped. Unit 6 (041000–050000), on the period around 1200–1500 CE, completes the initial chronological bridge from early urban worlds to the modern-world track. This is introductory coverage, not a declaration that every region, society, or source tradition has been addressed in sufficient depth.
+**Status:** The initial ninety lectures (001000–090000) are written, indexed, and source-mapped; sixteen additional inserted companion lectures now bring the track to 106. Unit 6 (041000–050000), on the period around 1200–1500 CE, completes the initial chronological bridge from early urban worlds to the modern-world track. This is introductory coverage, not a declaration that every region, society, or source tradition has been addressed in sufficient depth.
 
 The chronology is a scaffold, not a sequence in which one region necessarily learns from another. Each unit should integrate changes to governance with work, family, belief, material culture, economic organization, and what the historical evidence actually allows us to know.
 
@@ -211,3 +211,22 @@ This campaign uses spare sub-thousand ID positions; it does not start at 091000 
 ### Further depth priorities
 
 Extend first-language and material evidence for Philippine communities beyond these two examples, household and gender sources from Indian Ocean islands and Japan, excavated Yoruba and southern African settlement contexts, and community-led North American historical work. Continue filling the lower-order ID positions beside their closest existing subject; do not assume the unused numbers represent missing sequential epochs.
+
+## Seventh regional-depth installment — inserted IDs (written and indexed)
+
+The seventh regional-depth installment is not a new numbered age. Its IDs keep related topics beside their surveys. The focus shifts to high-impact institutions and intellectual traditions that the existing chronology introduced without a dedicated study.
+
+| ID | Completed lecture and evidence anchor | Further research question |
+| --- | --- | --- |
+| 008100 | Phoenician cities and alphabetic transmission; Levantine inscriptions and archaeological synthesis | Add more edition-level bilingual inscriptions and North African local-language evidence |
+| 009100 | Israel and Judah under Assyria and Babylonia; Tel Dan, Mesha, Lachish and Babylonian Chronicle | Compare additional household archaeology, texts in their successive editorial layers, and Persian-period community documents |
+| 034200 | Srivijaya; seventh-century Old Malay royal inscriptions, Yijing, Chola claims | Recheck critical editions, stratified Palembang excavations and competing interpretations of river-port political geography |
+| 039200 | Heian women's literary production; Genji, Pillow Book and Kagero Diary through specialist studies | Examine original manuscript witnesses, textual variants and women's non-elite documentary lives |
+| 043200 | Igbo-Ukwu metalwork and discovery history; 2022 chronometric reappraisal and local testimony | Resolve manufacture/deposition sequences with further excavated contexts and local collaborative research |
+| 045100 | Maya manuscript traditions; Dresden, Madrid, Paris and the authenticated Mexican codex | Add paired specialist glyph readings and contemporary Maya-language perspectives on historical transmission |
+| 046100 | Inca and pre-Inca khipu; Puruchuco accounting and pre-Inca cord chronology | Compare numerical datasets and investigate nonnumeric patterns without claiming a universal decipherment |
+| 047200 | Zheng He; 1431 memorial inscriptions and contrasting Ming maritime scholarship | Deepen Ma Huan original-language excerpts and port-specific African/Asian perspectives on voyages |
+
+### Editorial priorities after this installment
+
+Check source claims in full primary or specialist editions wherever access is currently limited to abstracts or extracts. Continue building deep studies where a named site, a specific body of documents, or descendant/community sources change the existing narrative. Maintain stable lecture IDs and insert within free lower-order space; do not renumber established content.

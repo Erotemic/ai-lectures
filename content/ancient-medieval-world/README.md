@@ -14,7 +14,9 @@ This is an independent, source-grounded, audio-first world-history curriculum fo
 | 006000 | The Sea Between Palaces: Trade, Diplomacy, and the End of the Bronze Age | 1,367 |
 | 007000 | Cities on Different Terms: Caral, the Gulf Coast, and Early American Worlds | 1,225 |
 | 008000 | After the Palaces: Rebuilding Worlds around 1200 BCE | 1,300 |
+| 008100 | Letters across the Water: Phoenician Cities and the Making of a Mediterranean | 1,322 |
 | 009000 | The Assyrian Imperial System and the People It Ruled | 1,265 |
+| 009100 | Between the Story and the Stone: Israel, Judah, and the Empires Around Them | 1,331 |
 | 010000 | Persia: How an Empire Governs Many Peoples | 1,213 |
 | 011000 | Greek Worlds before Alexander: Citizenship, Conflict, and the Polis | 1,239 |
 | 012000 | The Ganges Plain: Cities, Kingdoms, and Paths to Liberation | 1,196 |
@@ -41,6 +43,7 @@ This is an independent, source-grounded, audio-first world-history curriculum fo
 | 033000 | From Chang'an to the Southern Ports: Tang and Song China | 1,336 |
 | 034000 | Monsoons, Temples, and Ports: South and Southeast Asian Worlds | 1,394 |
 | 034100 | A Debt Cleared in Copper: Law and Language in Tenth-Century Luzon | 1,258 |
+| 034200 | A Kingdom in the River Mouths: Srivijaya, Oaths, and the Straits | 1,297 |
 | 035000 | Across the Sahel: Ghana, Cities, and Trans-Saharan Worlds | 1,367 |
 | 036000 | Shorelines of Exchange: East Africa and the Indian Ocean | 1,365 |
 | 036100 | Rice across an Ocean: Madagascar, the Comoros, and Early Island Settlement | 1,288 |
@@ -48,17 +51,22 @@ This is an independent, source-grounded, audio-first world-history curriculum fo
 | 038000 | Rivers to the Sea: Scandinavians, Rus, and the North Atlantic | 1,307 |
 | 039000 | Courts across the Water: Korea and Japan in Medieval East Asia | 1,337 |
 | 039100 | A Field under Several Names: Estates, Taxes, and Work in Medieval Japan | 1,293 |
+| 039200 | A Room behind the Screen: Women, Writing, and Power at the Heian Court | 1,357 |
 | 040000 | Reading the Ocean: Voyaging and Settlement in the Pacific | 1,359 |
 | 041000 | Many Khans, Many Empires: Conquest and Government across Eurasia | 1,341 |
 | 042000 | A Disease with Many Histories: Plague across the Fourteenth-Century World | 1,342 |
 | 043000 | More than a Pilgrimage: Mali, the Sahel, and the Work of Empire | 1,297 |
 | 043100 | Faces from a City: Pavements, Craft, and Authority at Ilé-Ifẹ̀ | 1,265 |
+| 043200 | The Metalwork beneath the Courtyard: Igbo-Ukwu and the Limits of an Excavation | 1,333 |
 | 044000 | The Walls and the Lives Beyond Them: Great Zimbabwe and Southern Africa | 1,249 |
 | 044100 | A Hill above the River: Cattle, Gold, and Power at Mapungubwe | 1,164 |
 | 045000 | More than One Capital: Maya and Mexica Worlds before 1500 | 1,244 |
+| 045100 | A Book of Returning Days: Maya Manuscripts, Astronomy, and Lost Libraries | 1,356 |
 | 046000 | Roads before the Empire: Andean States and the Rise of the Inca | 1,237 |
+| 046100 | Counting without a Page: Khipu and Knowledge in the Andes | 1,289 |
 | 047000 | Ports between Monsoons: Maritime Asia before 1500 | 1,266 |
 | 047100 | Timber Sewn to the Sea: The Boats and River Ports of Butuan | 1,146 |
+| 047200 | Ships under Imperial Orders: Zheng He and the Ming Indian Ocean | 1,280 |
 | 048000 | A City through Several Empires: Byzantines and Ottomans before 1500 | 1,252 |
 | 049000 | After the Plague: Work, War, and Learning in Late Medieval Europe | 1,297 |
 | 050000 | The World around 1500: Connections, Boundaries, and New Encounters | 1,354 |
@@ -105,13 +113,13 @@ This is an independent, source-grounded, audio-first world-history curriculum fo
 | 089000 | Letters on a Mountain: Marriage and Power in Sogdiana | 1,296 |
 | 090000 | Seven Silver Coins in Bamiyan: A Jewish Family and the Afghan Genizah | 1,342 |
 
-Lectures 001000–007000 cover early urban and Bronze Age worlds; 008000–015000 cover Iron Age and early classical transformations; 016000–023000 cover classical empires and social history; 024000–031000 cover late antiquity; 032000–040000 examine medieval societies and networks from roughly 750 to 1200 CE; and 041000–050000 follow regional developments through roughly 1500 CE. **The introductory chronological bridge to the modern-world track is written and indexed. Lectures 051000–090000 add focused regional and evidence-based depth without changing the original chronology.** Additional work is needed on omitted regional histories, original sources and specialist scholarship; see `COVERAGE_AUDIT.md` and `BACKLOG.md`.
+Lectures 001000–007000 cover early urban and Bronze Age worlds; 008000–015000 cover Iron Age and early classical transformations; 016000–023000 cover classical empires and social history; 024000–031000 cover late antiquity; 032000–040000 examine medieval societies and networks from roughly 750 to 1200 CE; and 041000–050000 follow regional developments through roughly 1500 CE. **The introductory chronological bridge to the modern-world track is written and indexed. Lectures 051000–090000 and sixteen inserted lower-order companions add focused regional and evidence-based depth without changing the original chronology.** Additional work is needed on omitted regional histories, original sources and specialist scholarship; see `COVERAGE_AUDIT.md` and `BACKLOG.md`.
 
 Lectures 051000–058000 examine Central Asian mobility and Sogdian sources; Cahokia and Chaco in Indigenous North America; Caribbean communities before 1492; the Inland Niger Delta and Lake Chad basin; and the dispersed urban and agricultural landscape at Angkor. Lectures 059000–066000 extend the deeper studies to the Great Lakes, northeastern longhouse and council systems, Northwest Coast food engineering, women and property in medieval Nubia, domestic life on the Swahili coast, Bagan, Java, and documentary Turfan. Lectures 067000–074000 examine the southeastern Woodlands, Plains village societies, ancestral Inuit Arctic communities, medieval Ethiopian land and labor, households in the Cairo Geniza, Dvaravati Buddhist centers, Cham coastal polities, and documentary Dunhuang. Lectures 075000–082000 examine Deccan cave donors, Chola village institutions, Pala-era monastic grants, Great Basin wetlands, Sonoran irrigation, Pueblo migrations, Silla village documents, and rural Bactrian contracts. Lectures 083000–090000 explore Sangam Tamil poetry, Tamil merchant guilds, California oak and maritime practices, Columbia Plateau fisheries and root grounds, Balhae epitaphs, Goryeo printing, the Mount Mugh marriage contract, and the Afghan Genizah. These IDs reflect addition order, not chronological succession.
 
 ## How to read and maintain this pack
 
-- `track.json` is the local index. Lecture IDs are stable once published; new work receives new IDs. All ninety entries are self-contained, without a prerequisite chain.
+- `track.json` is the local index. Lecture IDs are stable once published; new work receives new IDs. All 106 entries are self-contained, without a prerequisite chain.
 - `NNNNNN-*.md` files contain narration between `BEGIN SPOKEN LECTURE` and `END SPOKEN LECTURE` markers. Everything outside those markers is non-spoken editorial or evidence context.
 - `metadata/NNNNNN.json` maps every spoken paragraph to named source records, with explicit source limitations and interpretive cautions.
 - `metadata/sources.json` contains source identities, links, and caveats. Add original-language evidence and specialized excavation reports when a claim needs more precision; do not misrepresent a general survey as an archival or archaeological primary source.
@@ -125,4 +133,8 @@ The materials determine lecture length. Do not impose a fixed narrated duration 
 
 ## Insertion-ID depth lectures — November 2026
 
-Eight new evidence-led lectures use spare lower-order ID positions (for example, `034100` and `085100`) to place companion studies beside their parent topics, without renumbering the existing 90 lectures. The track now has **98 indexed lectures**: 50 introductory chronological entries and 48 regional or documentary deep dives. Manuscript word counts are descriptive, not length targets.
+Eight new evidence-led lectures use spare lower-order ID positions (for example, `034100` and `085100`) to place companion studies beside their parent topics, without renumbering the existing 90 lectures. At that point the track had **98 indexed lectures**: 50 introductory chronological entries and 48 regional or documentary deep dives. Manuscript word counts are descriptive, not length targets.
+
+## Seventh regional-depth installment — historically consequential inserted companions (November 2026)
+
+Eight additions use spare sub-thousand IDs near related chronology and regional case studies, with no changes to the existing 98 manuscripts or evidence files. New lectures cover the eastern Mediterranean alphabetic and imperial worlds, Srivijaya, Heian women's writing, Igbo-Ukwu, Maya codices, Andean khipu, and early Ming maritime expeditions. The track has **106 indexed lectures**, including 50 chronological lectures and 56 regional or source-led deep dives. Spoken word counts describe the work and are not requirements.
