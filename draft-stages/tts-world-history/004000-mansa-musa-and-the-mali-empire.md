@@ -247,6 +247,10 @@ The king on the Catalan Atlas holds gold. The gold is real enough, and so was th
 10. **Metropolitan Museum of Art, 'Visualizing a Sahelian Past' (2020).** Critical reflection on foreign images of Musa and the limits of applying generic empire models to Sahelian societies. <https://www.metmuseum.org/perspectives/visualizing-a-sahelian-past>
 11. **University of Hamburg, Centre for the Study of Manuscript Cultures, 'Manuscripts' (Timbuktu project).** Manuscript collecting, scholarship, and social institutions of the city. <https://www.csmc.uni-hamburg.de/timbuktu/manuscripts.html>
 12. **Metropolitan Museum of Art, 'Western and Central Sudan, 1000–1400 A.D.'** Regional political and cultural chronology for Ghana, Mali, and Songhay. <https://www.metmuseum.org/toah/ht/07/afu.html>
+13. **Wikipedia, “Mansa Musa.”** General entry point for the lecture's main person. <https://en.wikipedia.org/wiki/Mansa_Musa>
+14. **Wikipedia, “Mali Empire.”** General entry point for the medieval empire as a political formation. <https://en.wikipedia.org/wiki/Mali_Empire>
+15. **Wikipedia, “Timbuktu.”** General entry point for the city and its built and scholarly heritage. <https://en.wikipedia.org/wiki/Timbuktu>
+16. **Wikipedia, “Sundiata Keita.”** General entry point for the founder figure of the empire. <https://en.wikipedia.org/wiki/Sundiata_Keita>
 
 ### Editorial notes
 
