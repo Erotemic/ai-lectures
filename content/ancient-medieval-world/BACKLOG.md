@@ -1,6 +1,6 @@
 # Backlog — Ancient and Medieval Histories
 
-**Status:** Seventy-four lectures (001000–074000) are written, indexed, and source-mapped. Unit 6 (041000–050000), on the period around 1200–1500 CE, completes the initial chronological bridge from early urban worlds to the modern-world track. This is introductory coverage, not a declaration that every region, society, or source tradition has been addressed in sufficient depth.
+**Status:** Eighty-two lectures (001000–082000) are written, indexed, and source-mapped. Unit 6 (041000–050000), on the period around 1200–1500 CE, completes the initial chronological bridge from early urban worlds to the modern-world track. This is introductory coverage, not a declaration that every region, society, or source tradition has been addressed in sufficient depth.
 
 The chronology is a scaffold, not a sequence in which one region necessarily learns from another. Each unit should integrate changes to governance with work, family, belief, material culture, economic organization, and what the historical evidence actually allows us to know.
 
@@ -117,9 +117,24 @@ These case studies add source-level depth; they are neither a complete enumerati
 
 These are case studies, not a claim of exhaustive coverage. Their source records distinguish inspected documentary descriptions and full public scholarship from specialist works whose public access is limited to abstracts or excerpts.
 
+## Regional and documentary depth - fourth installment (written and indexed)
+
+| ID | Lecture | Evidence focus |
+| --- | --- | --- |
+| 075000 | Names on the Rock: Donors, Monks, and Political Power in the Western Deccan | Karla and Nasik inscriptions, Yavana donors, rival dynasties and cave endowments; the claims of donors versus laborers' missing voices |
+| 076000 | A Name Drawn from a Pot: Village Government under the Cholas | Uttaramerur rules of 919 and 921, land qualifications, committee rotation, temples, irrigation and exclusion from local office |
+| 077000 | Five Villages for a Monastery: Bengal, Bihar, and the Pala World | Devapala's Nalanda copper plate, Balaputradeva, land-grant revenue, monastic labor and Somapura archaeology |
+| 078000 | Where the Rivers Disappear: Wetlands, Farming, and the Great Basin | Lovelock wetland artifacts, Fremont archaeology, contrasting subsistence histories, Native communities and unsettled continuity questions |
+| 079000 | Water before the City: Canals and Communities of the Sonoran Desert | Salt and Gila canal construction, Casa Grande, ball courts, community account of Huhugam and archaeological nomenclature |
+| 080000 | Leaving One Home, Making Another: Pueblo Migrations after Chaco | Mesa Verde, Sand Canyon, drought proxies, local violence, social networks and living Pueblo descendant histories |
+| 081000 | Counting Trees and Households: The Silla Village Registers | Four village documents preserved in Japan, age and household categories, resource recording and competing dates 695/755/815 |
+| 082000 | A Vineyard in Bactria: Contracts, Households, and Changing Empires | Bactrian document U, dated leases, debt, slavery, changing political rule and insecure documentary provenience |
+
+All eight are source-mapped case studies. Records distinguish primary inscriptions and edited contracts from secondary archaeology, and abstracts/excerpts from inspected full public webpages. A lecture's existence should not be mistaken for complete treatment of its region.
+
 ## Next research campaigns (not yet indexed)
 
-The initial bridge and twenty-four regional/documents-based depth lectures are written. The priorities below remain **research proposals**, not existing lectures or assigned identifiers.
+The initial bridge and thirty-two regional/documents-based depth lectures are written. The priorities below remain **research proposals**, not existing lectures or assigned identifiers.
 
 - **Original-language and archaeological evidence.** Review Persian, Arabic, Chinese, and Indigenous textual traditions with specialist translations and edition references; expand archaeological field reports rather than relying on heritage summaries alone.
 - **Regions still thinly treated.** Expand beyond the new case studies to Indigenous southeast North America, the Plains and Arctic; inland and eastern African polities, family and kinship histories, Southeast Asian villages beyond Angkor, and further Central Asian communities and languages.
@@ -147,3 +162,10 @@ The initial bridge and twenty-four regional/documents-based depth lectures are w
 - **Africa and the Middle East:** Ethiopian and Nubian lay archives where available, non-elite life beyond the Geniza's Jewish documentary sample, western African ironworking and ecological history, and Red Sea communities.
 - **Asian networks:** Korean local documents, South Asian regional courts beyond Maurya and Gupta, western Central Asian rural communities, early Philippines and maritime Indonesia beyond Java, and non-elite Southeast Asian settlements.
 - **Method:** review contemporary original-language texts with edition-level citations, explain source-transmission history, test local archaeological chronologies, and distinguish material facts from community traditions and scholarly inferences.
+
+### After the fourth depth installment
+
+- **South Asia:** fuller pre-1500 Tamil literary and social history, the Deccan beyond stone donations, regional religious debate, coastal trade in the Bay of Bengal, and evidence of non-elite agriculture beyond royal grants.
+- **Indigenous North America:** additional Great Basin, California, Southwest and Plateau histories developed with community-led and contemporary archaeological evidence; distinguish ecological history from narratives of disappearance.
+- **Northeast and Central Asia:** Balhae regional societies, Silla and Goryeo local documents, oasis and agricultural communities beyond Bactrian parchment records, and better original-language editions.
+- **Sources and method:** update exact original inscription locations, publication and translations; compare accessible full archaeological research with abstract-level findings; check descendant-community explanations before applying archaeological culture names to peoples.

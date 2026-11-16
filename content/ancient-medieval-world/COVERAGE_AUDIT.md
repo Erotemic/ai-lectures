@@ -56,6 +56,15 @@ The new content does not claim equal research depth across periods: some evidenc
 
 **Status does not equal verified exhaustive coverage.** Some source records are based on scholarly abstracts rather than full papers; individual dated primary documents and accessible institutional manuscript catalogs receive priority where available. None of the eight lectures changes the dates of the chronological bridge ending around 1500 CE.
 
+## Fourth group of regional and documentary histories (075000-082000)
+
+- **South Asia beyond the survey dynasties:** 075000 reads actual western Deccan cave donation inscriptions alongside scholarly comparisons of rulers and local patrons. 076000 uses the 919/921 Uttaramerur rules to analyze restricted committee membership and the limits of labels such as democracy. 077000 reads a named Nalanda copper plate and the archaeology of Nalanda and Somapura to connect patronage to village revenue and monastic labor.
+- **Great Basin and Southwest:** 078000 treats wetland artifacts and Fremont material patterns as histories of flexible subsistence rather than a failed path to cities. 079000 connects ancient irrigation systems to the continuing Oodham historical account and separates archaeological category from community identity. 080000 follows thirteenth-century Mesa Verde movement to Pueblo communities, distinguishing local Sand Canyon violence from region-wide causation.
+- **Korean provincial records:** 081000 uses the Silla village registers to examine age, households, fields, animals, and trees. Scholarly disagreements between proposed dates including 695, 755 and 815 CE are represented explicitly.
+- **Rural western Central Asian documents:** 082000 uses the Oxford inventory of Bactrian parchments, Nicholas Sims-Williams's editorial work and scholarship on slavery in contracts. The location of collection and the relationship of an edited document to an excavated archive are kept separate.
+
+Sources include accessible primary-source descriptions, scholar-edited inventories, community-authored histories and peer-reviewed abstract-only specialist work. Evidence metadata records which access level applies. Existing 001000-074000 manuscripts and paragraph metadata are not revised by this installment. The new IDs do not extend the chronological end date of roughly 1500 CE.
+
 ## Cross-cutting deficits to investigate
 
 **History of ordinary people.** Household organization, farmers' and craftspeople's work, bondage and unfreedom, gender and family, migration and displaced populations should be part of political history rather than appended after rulers and battles.
@@ -70,4 +79,4 @@ The new content does not claim equal research depth across periods: some evidenc
 
 ## Status and next action
 
-Seventy-four lectures are indexed and contain paragraph-level evidence mapping: the original fifty-lecture chronological bridge plus twenty-four focused regional and documentary deep dives. The planned **introductory chronological bridge** from approximately 3500 BCE to 1500 CE is written, but it is not comprehensive world history. Prioritize the remaining regional and social-history gaps, original-language evidence, specialist archaeology, and explicit links to existing specialist tracks. A future coverage audit should distinguish manuscript existence, evidentiary quality, and depth of teaching instead of treating the presence of a topic as proof that it has been mastered.
+Eighty-two lectures are indexed and contain paragraph-level evidence mapping: the original fifty-lecture chronological bridge plus thirty-two focused regional and documentary deep dives. The planned **introductory chronological bridge** from approximately 3500 BCE to 1500 CE is written, but it is not comprehensive world history. Prioritize the remaining regional and social-history gaps, original-language evidence, specialist archaeology, and explicit links to existing specialist tracks. A future coverage audit should distinguish manuscript existence, evidentiary quality, and depth of teaching instead of treating the presence of a topic as proof that it has been mastered.
