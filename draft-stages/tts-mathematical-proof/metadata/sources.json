@@ -1,0 +1,166 @@
+{
+  "schema_version": 1,
+  "sources": {
+    "proof-hammack": {
+      "title": "Richard Hammack, Book of Proof, third edition (current online edition)",
+      "kind": "open_textbook",
+      "url": "https://richardhammack.github.io/BookOfProof/",
+      "access": "free_no_login",
+      "notes": "Sets, logic, proof techniques, relations, functions, and cardinality. Consult for worked exercises; no source text reproduced."
+    },
+    "proof-mit-6042": {
+      "title": "Eric Lehman, F. Thomson Leighton and Albert R. Meyer, Mathematics for Computer Science, MIT OCW 6.042J",
+      "kind": "university_course",
+      "url": "https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/",
+      "access": "free_no_login",
+      "notes": "Logic, induction, recursive definitions, number theory, infinite sets, and proof-writing methods."
+    },
+    "proof-forallx": {
+      "title": "forall x: Calgary, A Free and Open Introduction to Formal Logic (Open Logic Project)",
+      "kind": "open_textbook",
+      "url": "https://forallx.openlogicproject.org/",
+      "access": "free_no_login",
+      "notes": "Propositional connectives, quantifier semantics, validity, and natural deduction."
+    },
+    "proof-lean": {
+      "title": "Mathematics in Lean, Lean community documentation",
+      "kind": "open_textbook",
+      "url": "https://leanprover-community.github.io/mathematics_in_lean/index.html",
+      "access": "free_no_login",
+      "notes": "Optional follow-on for connecting informal mathematical proofs to checked formal proofs; not assumed background."
+    },
+    "proof-openstax-calculus": {
+      "title": "OpenStax, Calculus Volume 1, Rice University",
+      "kind": "open_textbook",
+      "url": "https://openstax.org/books/calculus-volume-1/pages/preface",
+      "access": "free_no_login",
+      "notes": "Elementary sequences, limits, continuity, and function examples."
+    },
+    "proof-wiki-001000": {
+      "title": "Wikipedia: Mathematical proof",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Mathematical_proof",
+      "access": "free_no_login",
+      "notes": "Terminology and navigation only; substantive hypotheses and proof arguments are given in the lecture and primary textbooks."
+    },
+    "proof-wiki-002000": {
+      "title": "Wikipedia: Logical connective",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Logical_connective",
+      "access": "free_no_login",
+      "notes": "Terminology and navigation only; substantive hypotheses and proof arguments are given in the lecture and primary textbooks."
+    },
+    "proof-wiki-003000": {
+      "title": "Wikipedia: Quantifier (logic)",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Quantifier_(logic)",
+      "access": "free_no_login",
+      "notes": "Terminology and navigation only; substantive hypotheses and proof arguments are given in the lecture and primary textbooks."
+    },
+    "proof-wiki-004000": {
+      "title": "Wikipedia: Necessity and sufficiency",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Necessity_and_sufficiency",
+      "access": "free_no_login",
+      "notes": "Terminology and navigation only; substantive hypotheses and proof arguments are given in the lecture and primary textbooks."
+    },
+    "proof-wiki-005000": {
+      "title": "Wikipedia: Direct proof",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Direct_proof",
+      "access": "free_no_login",
+      "notes": "Terminology and navigation only; substantive hypotheses and proof arguments are given in the lecture and primary textbooks."
+    },
+    "proof-wiki-006000": {
+      "title": "Wikipedia: Proof by contrapositive",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Proof_by_contrapositive",
+      "access": "free_no_login",
+      "notes": "Terminology and navigation only; substantive hypotheses and proof arguments are given in the lecture and primary textbooks."
+    },
+    "proof-wiki-007000": {
+      "title": "Wikipedia: Proof by contradiction",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Proof_by_contradiction",
+      "access": "free_no_login",
+      "notes": "Terminology and navigation only; substantive hypotheses and proof arguments are given in the lecture and primary textbooks."
+    },
+    "proof-wiki-008000": {
+      "title": "Wikipedia: Counterexample",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Counterexample",
+      "access": "free_no_login",
+      "notes": "Terminology and navigation only; substantive hypotheses and proof arguments are given in the lecture and primary textbooks."
+    },
+    "proof-wiki-009000": {
+      "title": "Wikipedia: Set (mathematics)",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Set_(mathematics)",
+      "access": "free_no_login",
+      "notes": "Terminology and navigation only; substantive hypotheses and proof arguments are given in the lecture and primary textbooks."
+    },
+    "proof-wiki-010000": {
+      "title": "Wikipedia: Function (mathematics)",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Function_(mathematics)",
+      "access": "free_no_login",
+      "notes": "Terminology and navigation only; substantive hypotheses and proof arguments are given in the lecture and primary textbooks."
+    },
+    "proof-wiki-011000": {
+      "title": "Wikipedia: Equivalence relation",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Equivalence_relation",
+      "access": "free_no_login",
+      "notes": "Terminology and navigation only; substantive hypotheses and proof arguments are given in the lecture and primary textbooks."
+    },
+    "proof-wiki-012000": {
+      "title": "Wikipedia: Mathematical induction",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Mathematical_induction",
+      "access": "free_no_login",
+      "notes": "Terminology and navigation only; substantive hypotheses and proof arguments are given in the lecture and primary textbooks."
+    },
+    "proof-wiki-013000": {
+      "title": "Wikipedia: Well-ordering principle",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Well-ordering_principle",
+      "access": "free_no_login",
+      "notes": "Terminology and navigation only; substantive hypotheses and proof arguments are given in the lecture and primary textbooks."
+    },
+    "proof-wiki-014000": {
+      "title": "Wikipedia: Cantor's diagonal argument",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Cantor%27s_diagonal_argument",
+      "access": "free_no_login",
+      "notes": "Terminology and navigation only; substantive hypotheses and proof arguments are given in the lecture and primary textbooks."
+    },
+    "proof-wiki-015000": {
+      "title": "Wikipedia: Uniqueness theorem",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Uniqueness_theorem",
+      "access": "free_no_login",
+      "notes": "Terminology and navigation only; substantive hypotheses and proof arguments are given in the lecture and primary textbooks."
+    },
+    "proof-wiki-016000": {
+      "title": "Wikipedia: Limit of a sequence",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Limit_of_a_sequence",
+      "access": "free_no_login",
+      "notes": "Terminology and navigation only; substantive hypotheses and proof arguments are given in the lecture and primary textbooks."
+    },
+    "proof-wiki-017000": {
+      "title": "Wikipedia: Limit of a function",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Limit_of_a_function",
+      "access": "free_no_login",
+      "notes": "Terminology and navigation only; substantive hypotheses and proof arguments are given in the lecture and primary textbooks."
+    },
+    "proof-wiki-018000": {
+      "title": "Wikipedia: Heine%E2%80%93Borel theorem",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Heine%E2%80%93Borel_theorem",
+      "access": "free_no_login",
+      "notes": "Terminology and navigation only; substantive hypotheses and proof arguments are given in the lecture and primary textbooks."
+    }
+  }
+}

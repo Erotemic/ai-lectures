@@ -1,0 +1,197 @@
+{
+  "id": "mathematical-proof",
+  "title": "Mathematical Reasoning and Proof from First Principles",
+  "summary": "An introductory course in writing and reading rigorous mathematical arguments. Builds from statements, quantifiers, definitions, and proof methods to sets, functions, equivalence relations, induction, infinity, existence/uniqueness, epsilon proofs, and compactness. Designed as a bridge to Analysis, Abstract Algebra, Topology, Discrete Mathematics, and Logic/Type Theory.",
+  "assumed_background": [
+    "basic arithmetic and algebra; familiarity with variables and equations",
+    "no prior proof-writing or symbolic logic experience required",
+    "lectures 016000-018000 also draw on the real number line and elementary function notation"
+  ],
+  "categories": [
+    "Mathematics"
+  ],
+  "sections": [
+    "001000-statements-evidence-and-proof",
+    "002000-connectives-implication-truth",
+    "003000-quantifiers-domains-and-negation",
+    "004000-definitions-equivalence-and-scope",
+    "005000-direct-proof-and-witnesses",
+    "006000-contraposition-and-proof-by-cases",
+    "007000-contradiction-and-irrationality",
+    "008000-counterexamples-and-failed-proofs",
+    "009000-set-membership-and-identities",
+    "010000-functions-and-inverse-images",
+    "011000-equivalence-relations-and-quotients",
+    "012000-mathematical-induction",
+    "013000-well-ordering-recursion-invariants",
+    "014000-countability-and-diagonal-arguments",
+    "015000-existence-uniqueness-and-well-definedness",
+    "016000-epsilon-n-sequence-proofs",
+    "017000-epsilon-delta-continuity",
+    "018000-compactness-subsequences-and-structure"
+  ],
+  "lectures": [
+    {
+      "id": "001000",
+      "title": "What Counts as a Mathematical Proof?",
+      "section": "001000-statements-evidence-and-proof",
+      "file": "001000-statements-evidence-and-proof.md",
+      "spoken_words": 843,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.8
+    },
+    {
+      "id": "002000",
+      "title": "And, Or, Not, and If: Reading Mathematical Logic",
+      "section": "002000-connectives-implication-truth",
+      "file": "002000-connectives-implication-truth.md",
+      "spoken_words": 841,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.8
+    },
+    {
+      "id": "003000",
+      "title": "For Every and There Exists: Quantifiers and Their Scope",
+      "section": "003000-quantifiers-domains-and-negation",
+      "file": "003000-quantifiers-domains-and-negation.md",
+      "spoken_words": 870,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.0
+    },
+    {
+      "id": "004000",
+      "title": "Definitions and If-and-Only-If: Keeping Both Directions",
+      "section": "004000-definitions-equivalence-and-scope",
+      "file": "004000-definitions-equivalence-and-scope.md",
+      "spoken_words": 807,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.6
+    },
+    {
+      "id": "005000",
+      "title": "Direct Proof: Turning a Hypothesis into a Conclusion",
+      "section": "005000-direct-proof-and-witnesses",
+      "file": "005000-direct-proof-and-witnesses.md",
+      "spoken_words": 855,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.9
+    },
+    {
+      "id": "006000",
+      "title": "Contraposition and Cases: Changing the Route, Not the Claim",
+      "section": "006000-contraposition-and-proof-by-cases",
+      "file": "006000-contraposition-and-proof-by-cases.md",
+      "spoken_words": 791,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.5
+    },
+    {
+      "id": "007000",
+      "title": "Contradiction: Proving Something Cannot Happen",
+      "section": "007000-contradiction-and-irrationality",
+      "file": "007000-contradiction-and-irrationality.md",
+      "spoken_words": 739,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.1
+    },
+    {
+      "id": "008000",
+      "title": "Counterexamples: How One Example Defeats a General Claim",
+      "section": "008000-counterexamples-and-failed-proofs",
+      "file": "008000-counterexamples-and-failed-proofs.md",
+      "spoken_words": 767,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.3
+    },
+    {
+      "id": "009000",
+      "title": "Sets and Subsets: Proving Two Collections Are Equal",
+      "section": "009000-set-membership-and-identities",
+      "file": "009000-set-membership-and-identities.md",
+      "spoken_words": 810,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.6
+    },
+    {
+      "id": "010000",
+      "title": "Functions: Images, Preimages, Injections, and Inverses",
+      "section": "010000-functions-and-inverse-images",
+      "file": "010000-functions-and-inverse-images.md",
+      "spoken_words": 792,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.5
+    },
+    {
+      "id": "011000",
+      "title": "Equivalence Relations: Building New Objects by Identifying Old Ones",
+      "section": "011000-equivalence-relations-and-quotients",
+      "file": "011000-equivalence-relations-and-quotients.md",
+      "spoken_words": 760,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.2
+    },
+    {
+      "id": "012000",
+      "title": "Induction: Why Proving One Step Can Prove Infinitely Many",
+      "section": "012000-mathematical-induction",
+      "file": "012000-mathematical-induction.md",
+      "spoken_words": 838,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.8
+    },
+    {
+      "id": "013000",
+      "title": "Strong Induction, Recursion, and Well-Ordering",
+      "section": "013000-well-ordering-recursion-invariants",
+      "file": "013000-well-ordering-recursion-invariants.md",
+      "spoken_words": 766,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.3
+    },
+    {
+      "id": "014000",
+      "title": "Countable and Uncountable: Comparing Infinite Sets",
+      "section": "014000-countability-and-diagonal-arguments",
+      "file": "014000-countability-and-diagonal-arguments.md",
+      "spoken_words": 766,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.3
+    },
+    {
+      "id": "015000",
+      "title": "Existence, Uniqueness, and Constructive Descriptions",
+      "section": "015000-existence-uniqueness-and-well-definedness",
+      "file": "015000-existence-uniqueness-and-well-definedness.md",
+      "spoken_words": 795,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.5
+    },
+    {
+      "id": "016000",
+      "title": "Epsilon Proofs for Sequences: Making Eventually Precise",
+      "section": "016000-epsilon-n-sequence-proofs",
+      "file": "016000-epsilon-n-sequence-proofs.md",
+      "spoken_words": 804,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.5
+    },
+    {
+      "id": "017000",
+      "title": "Epsilon-Delta Proofs: Controlling a Function Near a Point",
+      "section": "017000-epsilon-delta-continuity",
+      "file": "017000-epsilon-delta-continuity.md",
+      "spoken_words": 840,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.8
+    },
+    {
+      "id": "018000",
+      "title": "Compactness and Subsequence Proofs: From Infinity to Finite Control",
+      "section": "018000-compactness-subsequences-and-structure",
+      "file": "018000-compactness-subsequences-and-structure.md",
+      "spoken_words": 804,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.5
+    }
+  ]
+}
