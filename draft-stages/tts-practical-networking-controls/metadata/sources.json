@@ -61,6 +61,22 @@
       "access": "public_web_page_or_excerpt",
       "notes": "IPv4 addressing and IP layer; updated by later RFCs",
       "verification": "selected_official_page_or_search_result_reviewed_2026-11-15"
+    },
+    "fluke-4pair-poe": {
+      "title": "Fluke Networks, 4-Pair PoE Standards and Cabling Guide",
+      "kind": "test_equipment_manufacturer_technical_guide",
+      "url": "https://www.flukenetworks.com/expertise/learn-about/four-pair-power-over-ethernet-poe-and-your-cabling-plant",
+      "access": "public_web_or_public_abstract",
+      "notes": "PSE, PD, class power limits, cabling current, four-pair PoE",
+      "verification": "publisher_page_or_search_result_checked_2026-11-15; technical_editorial_review_pending"
+    },
+    "cisco-poe-brief": {
+      "title": "Cisco, PoE for Industrial Automation: Power, Data and Control over a Single Cable",
+      "kind": "network_equipment_manufacturer_technical_guide",
+      "url": "https://www.cisco.com/c/en/us/products/collateral/networking/industrial-switches/poe-ind-data-control-single-cable-so.html",
+      "access": "public_web_or_public_abstract",
+      "notes": "IEEE 802.3af/at/bt source and receiver limits and power over pairs",
+      "verification": "publisher_page_or_search_result_checked_2026-11-15; technical_editorial_review_pending"
     }
   }
 }

@@ -1,9 +1,8 @@
 # Rotation backlog: Navigation and Outdoor Skills: Maps, Terrain, and Decisions
 
-Status: lectures `001000`, `002000`, and `003000` authored. Remaining slots below are proposals, not completed manuscripts.
+Status: lectures `001000`–`004000` authored. Remaining slots below are proposed topics, not completed manuscripts.
 These are ordered topics, not duration or word-count requirements. Retain stable IDs once published.
 
-- `004000` — Map Scales, Distance, and Elevation Gain
 - `005000` — Terrain Association and Catching Features
 - `006000` — Route Planning, Weather, and Turnaround Decisions
 - `007000` — GNSS, Offline Maps, and Uncertainty

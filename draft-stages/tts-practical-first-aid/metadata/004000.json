@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "lecture_id": "004000",
+  "transcript": "004000-severe-bleeding-and-immediate-control.md",
+  "related_resources": [
+    {
+      "source_id": "aha-redcross-2024-firstaid",
+      "reason": "Life-threatening bleeding: direct pressure; tourniquets for severe limb bleeding; wound packing by appropriate responders"
+    },
+    {
+      "source_id": "redcross-severe-bleed",
+      "reason": "Recognize severe bleeding, apply direct pressure and trained methods, activate emergency help"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P004000-01",
+      "claim": "Life-threatening external bleeding requires prompt recognition, emergency activation and direct manual pressure.",
+      "kind": "clinical_consensus",
+      "supports": [
+        {
+          "source_id": "aha-redcross-2024-firstaid",
+          "location": "2024 AHA/Red Cross top take-home and First Aid for Severe External Bleeding",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "redcross-severe-bleed",
+          "location": "2024 AHA/Red Cross top take-home and First Aid for Severe External Bleeding",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "publisher_page_or_search_result_reviewed_2026-11-15; technical_editorial_review_pending",
+      "limits": "Sources substantiate mechanism or practice at stated scope; equipment-specific procedures and local code/conditions may differ.",
+      "professional_review": "clinical_review_required_before_authoritative_first_aid_publication"
+    },
+    {
+      "claim_id": "P004000-02",
+      "claim": "A manufactured tourniquet is an appropriate intervention for severe extremity bleeding under current first-aid guidance.",
+      "kind": "clinical_consensus",
+      "supports": [
+        {
+          "source_id": "aha-redcross-2024-firstaid",
+          "location": "AHA/Red Cross severe extremity bleeding table, Red Cross trained response",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "redcross-severe-bleed",
+          "location": "AHA/Red Cross severe extremity bleeding table, Red Cross trained response",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "publisher_page_or_search_result_reviewed_2026-11-15; technical_editorial_review_pending",
+      "limits": "Sources substantiate mechanism or practice at stated scope; equipment-specific procedures and local code/conditions may differ.",
+      "professional_review": "clinical_review_required_before_authoritative_first_aid_publication"
+    },
+    {
+      "claim_id": "P004000-03",
+      "claim": "Wound packing and tourniquet use require attention to injury location and training, not a universal one-method response.",
+      "kind": "clinical_consensus",
+      "supports": [
+        {
+          "source_id": "aha-redcross-2024-firstaid",
+          "location": "Severe external bleeding guideline; Red Cross trained wound packing",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "redcross-severe-bleed",
+          "location": "Severe external bleeding guideline; Red Cross trained wound packing",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "publisher_page_or_search_result_reviewed_2026-11-15; technical_editorial_review_pending",
+      "limits": "Sources substantiate mechanism or practice at stated scope; equipment-specific procedures and local code/conditions may differ.",
+      "professional_review": "clinical_review_required_before_authoritative_first_aid_publication"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_technical_review_pending",
+  "citation_policy": "Claim-level references include locators and source-type limits. Sources are reviewed publisher pages, public abstracts, and selected primary references; this educational draft is not independently certified or a local code design."
+}

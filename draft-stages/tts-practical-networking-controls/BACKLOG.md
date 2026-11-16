@@ -1,9 +1,8 @@
 # Rotation backlog: Networking, Sensors, and Local Automation
 
-Status: lectures `001000`, `002000`, and `003000` authored. Remaining slots below are proposals, not completed manuscripts.
+Status: lectures `001000`–`004000` authored. Remaining slots below are proposed topics, not completed manuscripts.
 These are ordered topics, not duration or word-count requirements. Retain stable IDs once published.
 
-- `004000` — PoE Budgets, Voltage Drop, and Cable Runs
 - `005000` — Sensors, Actuators, State, and Hysteresis
 - `006000` — Local-First Reliability and Dependency Mapping
 - `007000` — Monitoring, Security, and Fault Isolation

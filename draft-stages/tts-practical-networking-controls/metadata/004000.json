@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "lecture_id": "004000",
+  "transcript": "004000-poe-budgets-voltage-drop-and-cable-runs.md",
+  "related_resources": [
+    {
+      "source_id": "fluke-4pair-poe",
+      "reason": "PSE, PD, class power limits, cabling current, four-pair PoE"
+    },
+    {
+      "source_id": "cisco-poe-brief",
+      "reason": "IEEE 802.3af/at/bt source and receiver limits and power over pairs"
+    },
+    {
+      "source_id": "cisco-poe",
+      "reason": "PoE standards family and source/device power relationships"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P004000-01",
+      "claim": "IEEE standards define distinct PSE and PD power maxima for af/at/bt PoE families.",
+      "kind": "technical_standard_summary",
+      "supports": [
+        {
+          "source_id": "fluke-4pair-poe",
+          "location": "Four-pair PoE standard and maximum-power tables",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "cisco-poe-brief",
+          "location": "Four-pair PoE standard and maximum-power tables",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "publisher_page_or_search_result_reviewed_2026-11-15; technical_editorial_review_pending",
+      "limits": "Sources substantiate mechanism or practice at stated scope; equipment-specific procedures and local code/conditions may differ.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P004000-02",
+      "claim": "Power lost in resistive cabling and contact imbalance reduces power available at remote devices.",
+      "kind": "physical_mechanism",
+      "supports": [
+        {
+          "source_id": "fluke-4pair-poe",
+          "location": "Cabling requirements and DC resistance unbalance discussion",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "publisher_page_or_search_result_reviewed_2026-11-15; technical_editorial_review_pending",
+      "limits": "Sources substantiate mechanism or practice at stated scope; equipment-specific procedures and local code/conditions may differ.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P004000-03",
+      "claim": "A port power rating does not imply unlimited shared switch power; engineering must account for the switch budget and device peaks.",
+      "kind": "derived_system_design",
+      "supports": [
+        {
+          "source_id": "cisco-poe",
+          "location": "Switch/PSE design concepts; fleet budget synthesis by author",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "fluke-4pair-poe",
+          "location": "Switch/PSE design concepts; fleet budget synthesis by author",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "publisher_page_or_search_result_reviewed_2026-11-15; technical_editorial_review_pending",
+      "limits": "Author-derived formula, arithmetic or system synthesis; cited source supplies context rather than an identical theorem or numerical guarantee.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_technical_review_pending",
+  "citation_policy": "Claim-level references include locators and source-type limits. Sources are reviewed publisher pages, public abstracts, and selected primary references; this educational draft is not independently certified or a local code design."
+}

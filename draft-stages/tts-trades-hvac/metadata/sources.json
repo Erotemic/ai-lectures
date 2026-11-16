@@ -37,6 +37,22 @@
       "access": "public_web_page_or_excerpt",
       "notes": "Room and whole-building heating/cooling design load factors",
       "verification": "selected_official_page_or_search_result_reviewed_2026-11-15"
+    },
+    "ca-hvac-pressure": {
+      "title": "California Energy Commission, Residential Compliance Manual: Chapter 4 HVAC, Air Distribution",
+      "kind": "state_energy_code_technical_manual_not_nationwide",
+      "url": "https://www.energy.ca.gov/filebrowser/download/5126",
+      "access": "public_web_or_public_abstract",
+      "notes": "Fan pressure budget, filter pressure drop, coil, ducts and registers",
+      "verification": "publisher_page_or_search_result_checked_2026-11-15; technical_editorial_review_pending"
+    },
+    "energystar-ducts": {
+      "title": "ENERGY STAR, Duct Sealing",
+      "kind": "us_epa_program_guidance",
+      "url": "https://www.energystar.gov/saveathome/heating-cooling/duct-sealing",
+      "access": "public_web_or_public_abstract",
+      "notes": "Duct leakage as an energy and air delivery problem",
+      "verification": "publisher_page_or_search_result_checked_2026-11-15; technical_editorial_review_pending"
     }
   }
 }

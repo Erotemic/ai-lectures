@@ -46,6 +46,22 @@
       "access": "public_web_page_or_excerpt",
       "notes": "Practical examples converting GPS/map references and compass settings",
       "verification": "selected_official_page_or_search_result_reviewed_2026-11-15"
+    },
+    "usgs-maps-booklet": {
+      "title": "U.S. Geological Survey, USGS Maps Booklet",
+      "kind": "us_geological_survey_map_reference",
+      "url": "https://pubs.usgs.gov/gip/usgsmaps/usgsmaps.html",
+      "access": "public_web_or_public_abstract",
+      "notes": "Map scale and contour basics, examples at 1:24,000",
+      "verification": "publisher_page_or_search_result_checked_2026-11-15; technical_editorial_review_pending"
+    },
+    "usgs-topo-symbols": {
+      "title": "U.S. Geological Survey, US Topo Map Symbol Guide",
+      "kind": "us_geological_survey_map_reference",
+      "url": "https://www.usgs.gov/ngp-standards-and-specifications/us-topo-map-symbol-guide",
+      "access": "public_web_or_public_abstract",
+      "notes": "Index contours, contour interval, elevation and relative steepness",
+      "verification": "publisher_page_or_search_result_checked_2026-11-15; technical_editorial_review_pending"
     }
   }
 }

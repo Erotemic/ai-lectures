@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "lecture_id": "004000",
+  "transcript": "004000-preventive-maintenance-cycles-and-consumables.md",
+  "related_resources": [
+    {
+      "source_id": "usfa-smoke-alarms",
+      "reason": "Regular testing, unit age and battery/model-specific maintenance"
+    },
+    {
+      "source_id": "epa-maintenance",
+      "reason": "Leak monitoring and water-using systems"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P004000-01",
+      "claim": "Smoke alarms should be tested and replaced according to manufacturer information and authoritative safety guidance.",
+      "kind": "fire_safety_guidance",
+      "supports": [
+        {
+          "source_id": "usfa-smoke-alarms",
+          "location": "USFA Smoke Alarms: Taking care of alarms and general maintenance",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "publisher_page_or_search_result_reviewed_2026-11-15; technical_editorial_review_pending",
+      "limits": "Sources substantiate mechanism or practice at stated scope; equipment-specific procedures and local code/conditions may differ.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P004000-02",
+      "claim": "Maintenance planning should reflect mechanisms of failure and consequences, not simply uniform dates.",
+      "kind": "derived_maintenance_planning",
+      "supports": [
+        {
+          "source_id": "usfa-smoke-alarms",
+          "location": "Author synthesis using scheduled safety-device and water-system maintenance examples",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "epa-maintenance",
+          "location": "Author synthesis using scheduled safety-device and water-system maintenance examples",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "publisher_page_or_search_result_reviewed_2026-11-15; technical_editorial_review_pending",
+      "limits": "Author-derived formula, arithmetic or system synthesis; cited source supplies context rather than an identical theorem or numerical guarantee.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P004000-03",
+      "claim": "A component's presence does not establish operational readiness, especially for protective devices.",
+      "kind": "field_practice",
+      "supports": [
+        {
+          "source_id": "usfa-smoke-alarms",
+          "location": "USFA need for periodic operational testing",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "publisher_page_or_search_result_reviewed_2026-11-15; technical_editorial_review_pending",
+      "limits": "Sources substantiate mechanism or practice at stated scope; equipment-specific procedures and local code/conditions may differ.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_technical_review_pending",
+  "citation_policy": "Claim-level references include locators and source-type limits. Sources are reviewed publisher pages, public abstracts, and selected primary references; this educational draft is not independently certified or a local code design."
+}
