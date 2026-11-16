@@ -1,0 +1,131 @@
+{
+  "schema_version": 1,
+  "lecture_id": "020000",
+  "transcript": "020000-garment-alterations-on-the-bias-and-across-woven-grain.md",
+  "related_resources": [
+    {
+      "source_id": "sewingalliance-grain-bias",
+      "reason": "Woven grain, true bias at approximately forty-five degrees and drape; source link located, full PDF review pending"
+    },
+    {
+      "source_id": "usu-grain",
+      "reason": "Lengthwise, crosswise and bias grain"
+    },
+    {
+      "source_id": "usu-knits",
+      "reason": "Stretch and recovery testing"
+    },
+    {
+      "source_id": "wsu-fabrics",
+      "reason": "Woven, knit, nonwoven and fabric grain"
+    },
+    {
+      "source_id": "threads-ease-fitting",
+      "reason": "Finished measurements versus body measurements; wearing and design ease"
+    },
+    {
+      "source_id": "osu-seams",
+      "reason": "Plain seams, allowances, pressing, finish decisions"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P020000-01",
+      "claim": "True bias is approximately forty-five degrees to lengthwise and crosswise woven grain.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "sewingalliance-grain-bias",
+          "location": "Woven grain, true bias at approximately forty-five degrees and drape; source link located, full PDF review pending",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "usu-grain",
+          "location": "Lengthwise, crosswise and bias grain",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P020000-02",
+      "claim": "Woven bias can deform through yarn rotation and drape even without elastic fibers.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "sewingalliance-grain-bias",
+          "location": "Woven grain, true bias at approximately forty-five degrees and drape; source link located, full PDF review pending",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P020000-03",
+      "claim": "A garment measured flat can fit differently when hung and worn.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "threads-ease-fitting",
+          "location": "Finished measurements versus body measurements; wearing and design ease",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "usu-grain",
+          "location": "Lengthwise, crosswise and bias grain",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P020000-04",
+      "claim": "Seam construction and sewing-machine feed can affect fabric distortion.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "osu-seams",
+          "location": "Plain seams, allowances, pressing, finish decisions",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "wsu-fabrics",
+          "location": "Woven, knit, nonwoven and fabric grain",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P020000-05",
+      "claim": "Directional properties and movement ease matter when altering woven garments.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "threads-ease-fitting",
+          "location": "Finished measurements versus body measurements; wearing and design ease",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "usu-grain",
+          "location": "Lengthwise, crosswise and bias grain",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_independent_technical_review_pending",
+  "citation_policy": "Original authors and standards issuers attributed. Educational synthesis is not professional, clinical or jurisdiction-specific certification."
+}

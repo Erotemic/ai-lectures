@@ -1,9 +1,9 @@
 # Rotation backlog: Vehicles and Small Engines: Forces, Systems, and Maintenance
 
-Status: lectures `001000`–`019000` authored. Remaining slots are proposed, not completed manuscripts.
+Status: lectures `001000`–`020000` authored. Remaining slots are proposed, not completed manuscripts.
 These are ordered topics, not duration or word-count requirements. Retain stable IDs once published.
 
-- `020000` — Hybrid and Electric Vehicle Systems: Diagnostic Boundaries and Safe Maintenance
+- `021000` — Cooling Loops and Thermal Derating in Electric Drivetrains
 
 **Editorial method:** Narrate physics and practical reasoning directly; use non-spoken companions for equations, diagrams, source locators, jurisdictional rules, and outstanding reviews.
 These drafts are not professionally certified or jurisdiction-verified.

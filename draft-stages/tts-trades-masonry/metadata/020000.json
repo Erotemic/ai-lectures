@@ -1,0 +1,122 @@
+{
+  "schema_version": 1,
+  "lecture_id": "020000",
+  "transcript": "020000-reinforced-concrete-cover-corrosion-and-long-term-durability.md",
+  "related_resources": [
+    {
+      "source_id": "aci-corrosion-repair-2025",
+      "reason": "Corroded reinforcement, evaluation of extent and repair planning"
+    },
+    {
+      "source_id": "aci-spall-repair-practice",
+      "reason": "Repair procedure boundaries and causes including reinforcement corrosion and freezing"
+    },
+    {
+      "source_id": "aci-crack-technical-qa",
+      "reason": "Crack significance depends on structure, exposure, durability and mechanism"
+    },
+    {
+      "source_id": "aci-302r",
+      "reason": "Construction, isolation and contraction joints; reinforcement does not prevent cracking"
+    },
+    {
+      "source_id": "nps-brick-masonry-problems",
+      "reason": "Hard mortar damage and compatible repointing of historic masonry"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P020000-01",
+      "claim": "Reinforcement carries tension and depends on bond and concrete member design.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "aci-302r",
+          "location": "Construction, isolation and contraction joints; reinforcement does not prevent cracking",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "aci-crack-technical-qa",
+          "location": "Crack significance depends on structure, exposure, durability and mechanism",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P020000-02",
+      "claim": "Concrete cover contributes to steel durability under environmental exposure.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "aci-corrosion-repair-2025",
+          "location": "Corroded reinforcement, evaluation of extent and repair planning",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P020000-03",
+      "claim": "Carbonation and chloride contamination are distinct corrosion mechanisms.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "aci-corrosion-repair-2025",
+          "location": "Corroded reinforcement, evaluation of extent and repair planning",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P020000-04",
+      "claim": "Steel corrosion can produce expansive products that crack and spall concrete cover.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "aci-corrosion-repair-2025",
+          "location": "Corroded reinforcement, evaluation of extent and repair planning",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "aci-spall-repair-practice",
+          "location": "Repair procedure boundaries and causes including reinforcement corrosion and freezing",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P020000-05",
+      "claim": "Patch repairs should address failure mechanisms and material compatibility, not simply cover symptoms.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "aci-spall-repair-practice",
+          "location": "Repair procedure boundaries and causes including reinforcement corrosion and freezing",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "aci-corrosion-repair-2025",
+          "location": "Corroded reinforcement, evaluation of extent and repair planning",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_independent_technical_review_pending",
+  "citation_policy": "Original authors and standards issuers attributed. Educational synthesis is not professional, clinical or jurisdiction-specific certification."
+}

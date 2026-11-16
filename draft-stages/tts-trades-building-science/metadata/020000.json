@@ -1,0 +1,151 @@
+{
+  "schema_version": 1,
+  "lecture_id": "020000",
+  "transcript": "020000-distinguishing-residual-moisture-from-new-wetting-after-an-enclosure-retrofit.md",
+  "related_resources": [
+    {
+      "source_id": "pnnl-air-sealed-basements",
+      "reason": "Foundation-to-above-grade transitions, control-layer continuity and basement enclosure design"
+    },
+    {
+      "source_id": "pnnl-basement-drain",
+      "reason": "Footing drainage, sump pit, below-floor water management and discharge"
+    },
+    {
+      "source_id": "doe-air-vapor",
+      "reason": "Separate air leakage, vapor diffusion and water-management functions"
+    },
+    {
+      "source_id": "pnnl-cold-condensation",
+      "reason": "Air leakage versus vapor diffusion; exterior insulation and assembly drying pathways"
+    },
+    {
+      "source_id": "pnnl-air-flow",
+      "reason": "Stack effect, neutral pressure plane, wind and duct leakage"
+    },
+    {
+      "source_id": "cdc-mold",
+      "reason": "Moisture as a prerequisite for indoor mold growth"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P020000-01",
+      "claim": "An enclosure can change both moisture inputs and drying routes.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "pnnl-air-sealed-basements",
+          "location": "Foundation-to-above-grade transitions, control-layer continuity and basement enclosure design",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "doe-air-vapor",
+          "location": "Separate air leakage, vapor diffusion and water-management functions",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P020000-02",
+      "claim": "Rain and ground water pathways require consideration before an interior insulation repair.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "pnnl-basement-drain",
+          "location": "Footing drainage, sump pit, below-floor water management and discharge",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "pnnl-air-sealed-basements",
+          "location": "Foundation-to-above-grade transitions, control-layer continuity and basement enclosure design",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P020000-03",
+      "claim": "Air leakage, vapor diffusion and bulk liquid transport are different mechanisms.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "doe-air-vapor",
+          "location": "Separate air leakage, vapor diffusion and water-management functions",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "pnnl-air-flow",
+          "location": "Stack effect, neutral pressure plane, wind and duct leakage",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P020000-04",
+      "claim": "Cold surface temperature and indoor water vapor can influence condensation.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "pnnl-cold-condensation",
+          "location": "Air leakage versus vapor diffusion; exterior insulation and assembly drying pathways",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P020000-05",
+      "claim": "Trends at comparable fixed points are more informative than a single ambiguous instrument reading.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "cdc-mold",
+          "location": "Moisture as a prerequisite for indoor mold growth",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "pnnl-basement-drain",
+          "location": "Footing drainage, sump pit, below-floor water management and discharge",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P020000-06",
+      "claim": "Visible or concealed dampness calls for source correction rather than merely covering a stain.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "cdc-mold",
+          "location": "Moisture as a prerequisite for indoor mold growth",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "pnnl-basement-drain",
+          "location": "Footing drainage, sump pit, below-floor water management and discharge",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_independent_technical_review_pending",
+  "citation_policy": "Original authors and standards issuers attributed. Educational synthesis is not professional, clinical or jurisdiction-specific certification."
+}

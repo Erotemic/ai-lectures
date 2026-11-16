@@ -1,0 +1,122 @@
+{
+  "schema_version": 1,
+  "lecture_id": "020000",
+  "transcript": "020000-child-and-infant-illness-recognizing-deterioration-and-calling-for-help.md",
+  "related_resources": [
+    {
+      "source_id": "aap-pediatric-ems-2026",
+      "reason": "Signs warranting emergency response in infants and children: behavior, breathing and circulation"
+    },
+    {
+      "source_id": "aap-newborn-illness-warning",
+      "reason": "Poor feeding, new weakness, abnormal breathing, color and urgent fever assessment in young infants"
+    },
+    {
+      "source_id": "redcross-child-baby-firstaid",
+      "reason": "Child/infant initial assessment, emergency call, age-specific first-aid steps"
+    },
+    {
+      "source_id": "aha-redcross-2024-firstaid",
+      "reason": "Life-threatening bleeding: direct pressure; tourniquets for severe limb bleeding; wound packing by appropriate responders"
+    },
+    {
+      "source_id": "aha-pediatric-bls-2025",
+      "reason": "Infant 5 back blows and 5 chest thrusts, child abdominal thrusts, recognition of unresponsiveness and airway obstruction"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P020000-01",
+      "claim": "Altered responsiveness and abnormal breathing in children warrant prompt emergency evaluation.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "aap-pediatric-ems-2026",
+          "location": "Signs warranting emergency response in infants and children: behavior, breathing and circulation",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "aha-redcross-2024-firstaid",
+          "location": "Life-threatening bleeding: direct pressure; tourniquets for severe limb bleeding; wound packing by appropriate responders",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P020000-02",
+      "claim": "New poor feeding, weakness or color change can be important illness indicators in newborns.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "aap-newborn-illness-warning",
+          "location": "Poor feeding, new weakness, abnormal breathing, color and urgent fever assessment in young infants",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P020000-03",
+      "claim": "Fever in a very young infant requires prompt medical evaluation rather than routine home treatment.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "aap-newborn-illness-warning",
+          "location": "Poor feeding, new weakness, abnormal breathing, color and urgent fever assessment in young infants",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P020000-04",
+      "claim": "Child and infant first aid require age-specific assessment and care.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "redcross-child-baby-firstaid",
+          "location": "Child/infant initial assessment, emergency call, age-specific first-aid steps",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "aha-pediatric-bls-2025",
+          "location": "Infant 5 back blows and 5 chest thrusts, child abdominal thrusts, recognition of unresponsiveness and airway obstruction",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P020000-05",
+      "claim": "Clinical emergency communication should include the time course and observed physiological change.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "aap-pediatric-ems-2026",
+          "location": "Signs warranting emergency response in infants and children: behavior, breathing and circulation",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "aha-redcross-2024-firstaid",
+          "location": "Life-threatening bleeding: direct pressure; tourniquets for severe limb bleeding; wound packing by appropriate responders",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_independent_technical_review_pending",
+  "citation_policy": "Original authors and standards issuers attributed. Educational synthesis is not professional, clinical or jurisdiction-specific certification."
+}

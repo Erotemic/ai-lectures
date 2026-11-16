@@ -1,0 +1,127 @@
+{
+  "schema_version": 1,
+  "lecture_id": "020000",
+  "transcript": "020000-roof-trusses-load-paths-and-the-limits-of-field-modifications.md",
+  "related_resources": [
+    {
+      "source_id": "awc-wfcm",
+      "reason": "Committee-developed ANSI standard covers connections, floors, walls, and roofs in limited one- and two-family dwelling designs; scope and local adoption must be checked"
+    },
+    {
+      "source_id": "pnnl-loadpath",
+      "reason": "Gravity and lateral loads, openings, headers and connectors; cites FEMA P-804"
+    },
+    {
+      "source_id": "usda-wood",
+      "reason": "Chapters 4–9, 13, 17: moisture, strength, fastening, beam equations and framing"
+    },
+    {
+      "source_id": "jlc-roof-truss-2023",
+      "reason": "Truss bracing, installation and need for engineered concurrence on load or field modifications"
+    },
+    {
+      "source_id": "icc-truss-alterations-historical",
+      "reason": "Example code edition illustrating written design approval for truss modifications; adopted edition must be independently checked"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P020000-01",
+      "claim": "Engineered trusses transfer loads through members and joints in a specific geometry.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "awc-wfcm",
+          "location": "Committee-developed ANSI standard covers connections, floors, walls, and roofs in limited one- and two-family dwelling designs; scope and local adoption must be checked",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "jlc-roof-truss-2023",
+          "location": "Truss bracing, installation and need for engineered concurrence on load or field modifications",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P020000-02",
+      "claim": "Temporary and permanent bracing provide distinct stability functions.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "jlc-roof-truss-2023",
+          "location": "Truss bracing, installation and need for engineered concurrence on load or field modifications",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P020000-03",
+      "claim": "Field cuts or new concentrated loads require approval by an appropriate design professional.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "jlc-roof-truss-2023",
+          "location": "Truss bracing, installation and need for engineered concurrence on load or field modifications",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "icc-truss-alterations-historical",
+          "location": "Example code edition illustrating written design approval for truss modifications; adopted edition must be independently checked",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P020000-04",
+      "claim": "Apparent lack of sagging does not establish unused structural capacity.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "awc-wfcm",
+          "location": "Committee-developed ANSI standard covers connections, floors, walls, and roofs in limited one- and two-family dwelling designs; scope and local adoption must be checked",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "pnnl-loadpath",
+          "location": "Gravity and lateral loads, openings, headers and connectors; cites FEMA P-804",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P020000-05",
+      "claim": "Excess moisture and connection condition affect structural lumber and installed joints.",
+      "kind": "publisher_source_grounded_claim",
+      "supports": [
+        {
+          "source_id": "usda-wood",
+          "location": "Chapters 4–9, 13, 17: moisture, strength, fastening, beam equations and framing",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "jlc-roof-truss-2023",
+          "location": "Truss bracing, installation and need for engineered concurrence on load or field modifications",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Applicability depends on material, model, equipment, clinical context or adopted local requirements; educational synthesis may extend beyond any one source.",
+      "professional_review": "independent_subject_matter_review_required_for_consequential_application"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_independent_technical_review_pending",
+  "citation_policy": "Original authors and standards issuers attributed. Educational synthesis is not professional, clinical or jurisdiction-specific certification."
+}

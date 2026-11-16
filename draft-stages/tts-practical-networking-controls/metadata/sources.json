@@ -181,6 +181,14 @@
       "access": "public_publisher_page_or_public_document",
       "notes": "Idempotent request semantics and when a client may safely retry after a lost response",
       "verification": "official_issuer_page_or_web_search_result_reviewed_2026-11-15; independent_subject_matter_review_pending"
+    },
+    "nist-iot-device-configuration": {
+      "title": "NIST, IoT Device Cybersecurity Requirement Catalogs — Device Configuration",
+      "kind": "original_us_nist_technical_guidance",
+      "url": "https://pages.nist.gov/IoT-Device-Cybersecurity-Requirement-Catalogs/technical/configuration/",
+      "access": "public_publisher_page_or_public_reference",
+      "notes": "Logical access configuration, authorized software changes and secure state restoration",
+      "verification": "publisher_page_or_search_text_checked_2026-11-15; independent_technical_review_pending"
     }
   }
 }
