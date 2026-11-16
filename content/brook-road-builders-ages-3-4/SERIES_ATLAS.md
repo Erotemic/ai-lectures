@@ -1,6 +1,6 @@
 # Brook Road Builders — series atlas and expansion plan (not spoken)
 
-This is a planning companion, **not** a second continuity authority. `WORLD_BIBLE.md` holds canonical facts through episode 036000. Ideas tagged *future* must not be treated as already present in a spoken episode.
+This is a planning companion, **not** a second continuity authority. `WORLD_BIBLE.md` holds canonical facts through episode 042000. Ideas tagged *future* must not be treated as already present in a spoken episode.
 
 ## What makes this a world, not a truck catalogue
 
@@ -116,6 +116,14 @@ The **long farm road** also has a modest pre-existing **ditch/pipe culvert at a 
 
 Jack adds a **rain-route sketch** to his established blue notebook. The season ends with all work complete and ordinary calm restored; no perpetual storm, stranded vehicle, new book collection or danger storyline persists.
 
+## Season Seven — the two red doors on Station Lane
+
+The **Brook Road firehouse** has two red vehicle-bay doors and a marked visitor path. It lies at the end of **Station Lane, a short northward branch off Brook Road between Rex's blue-step house and Pine Park**. This is separate from **Ms. Pam's Red Door Garage west of Rex's house**. The station's vehicles can use Brook Road and the longer farm-road network; there is no fire truck route across Little Bridge or through Pine Park's pedestrian area.
+
+**Captain Ann** is an adult fox firefighter and a newly recurring neighbor. The station's **red pumper fire engine** carries hose, water, pump and tools. Its separate **long red aerial ladder truck** can deploy stabilizers and extend a nested ladder under adult crew control. The ladder demonstration ended with the apparatus safely folded and stowed; gear and hose were returned to the station. The season has no emergency response, rescue, incident or continuing damage.
+
+**Jack's blue notebook** now includes Station Lane with two red bays and a sketch of the controlled water route from engine tank through pump, hose and nozzle to a practice board. **Rex and Molly** visited the station together, then returned to their own homes; Molly's rope toy remains at the farm. The park rain gauge still awaits the next rainfall following the Season Six reset.
+
 ## Eleven-season horizon (ideas, not canon)
 
 1. **Pine Park** — established and complete (earthmoving, paving, park opening).
@@ -124,7 +132,7 @@ Jack adds a **rain-route sketch** to his established blue notebook. The season e
 4. **Red-Door Garage** — **complete**: Ms. Pam, white flatbed and service trucks, tire gauge, lift, work van and toy-truck repairs.
 5. **Delivery Route** — **complete**: Dan the donkey, blue box truck and parcel shed, four garage cones, park rain gauge, farm hen feed and wheelbarrow.
 6. **After the Rain** — **complete**: rain gauge measured and reset, curb runoff, street sweeper, drain-cleaning vacuum truck, and a farm-road culvert and gravel-shoulder repair.
-7. **Firehouse Open Day** — engines, ladders, hoses, equipment maintenance; no serial jeopardy.
+7. **Firehouse Open Day** — **complete**: Station Lane, Captain Ann, two red vehicle bays, distinct engine and ladder truck, turnout gear and hose demonstration; no incident.
 8. **Snow Trucks** — plowing and sanding after a believable season change.
 9. **Gravel Yard** — source of loose material and different large haulers.
 10. **Barn Repair** — adult builders return with new equipment; working farm carries on.

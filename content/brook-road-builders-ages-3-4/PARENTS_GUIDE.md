@@ -98,6 +98,23 @@ A moderate overnight rainfall supplies the first real reading in Pine Park's gau
 
 **Continuity note:** The gauge begins the season filled by one overnight rain and ends empty after Jack and Aunt Jo check/record it. The rebuilt farm-road shoulder is for the normal longer road, not a new motor-vehicle crossing at Little Bridge. The park itself remains open; the year and exact interval since the hay harvest are not specified.
 
+## Season Seven: Firehouse Open Day
+
+The children discover a permanent firehouse on Station Lane and visit it during a quiet, scheduled community open day. The two apparatus are different: an **engine/pumper** carries water, pump and hoses; a **ladder truck** carries the extending aerial ladder and deploys stabilizers during its demonstration. The children watch an adult firefighter dress in protective clothing and a separate crew deliver a controlled stream of water to a practice target. There is no fire, frightened bystander, siren drama or unresolved emergency.
+
+| Episode | Optional prompt for a child |
+|---|---|
+| 037 | What was behind the firehouse's two red doors? |
+| 038 | Which compartment on the fire engine did you like best? |
+| 039 | Why did the ladder truck put its legs onto pads first? |
+| 040 | How did Molly know the firefighter was still Captain Ann? |
+| 041 | Which parts did the water travel through? |
+| 042 | Where did Jack draw the new firehouse on the town map? |
+
+**Factual limits:** Municipal fire-department resources explain engine and ladder-truck jobs, manufacturer and historical safety guidance explain stabilizers, and FDNY public-education resources describe turnout gear. The fictional station location, characters and practice target are story inventions. Adult crew demonstrate equipment; children don't climb aerial ladders or handle pressurized hose. Caregiver prompts are optional, and none of these references establishes improved sleep or cognitive outcomes for this story series.
+
+**Continuity:** The firehouse is **north of Brook Road between Rex's home and Pine Park**, not at Ms. Pam's garage. Captain Ann and both red trucks remain at the station after the open day. The park, farm, Little Bridge, rain gauge, gravel-road repairs, delivery truck and earlier notebook drawings remain unchanged.
+
 ## Why there are sources
 
 - **Machine functions:** Caterpillar's equipment descriptions were consulted to avoid confusing bulldozers, diggers, loaders, trucks and compactors. These are general equipment facts; the fictional site is not an engineering case study and the passages are not operation instructions.

@@ -225,6 +225,31 @@ A single moderate overnight rain takes place before 031000. It has ended by the 
 
 **Physics/provenance:** These are fictional sites. Runoff on slopes, infiltration into soil, street sweeping, drain-basin vacuum cleaning and culvert function are grounded only as general facts in the source catalog. Caregiver notes are not read aloud. Avoid implying that a child can safely explore drains or drive maintenance machinery.
 
+## Season Seven — Firehouse Open Day (037000–042000)
+
+### The firehouse is now a real, permanent neighbor
+
+- **Place:** A short paved side road named **Station Lane** branches **north from Brook Road between Rex's blue-step house and Pine Park**. At its end is a brick firehouse with **two enormous red bay doors**, a clear vehicle apron, a separate designated visitor path and bench, and a small marked demonstration yard. This is **not** the Red Door Garage, which remains **west** of Rex's home near the farm-road junction. The firehouse is a new location in the storytelling, not evidence that previous landmarks have moved.
+- **Recurring adult:** **Captain Ann**, an adult **fox firefighter** with a navy station shirt and yellow helmet, introduces the vehicles and later demonstrates protective gear. Other adult crew members are unnamed. Captain Ann is a neighbor the children can recognize on future visits, not a pretend rescue-hero character.
+- **Apparatus:** The **shorter red pumper engine** has a water tank, pump, hose compartments, and tool holders. The **longer red aerial ladder truck** stores a retractable extending ladder above its cab/body and deploys stabilizers on ground pads when the trained crew operates the ladder. These are **distinct trucks**, with different primary roles. They remain at the station at the end of the season.
+- **Visitor routine:** The visit is a scheduled, calm open day, not an emergency call. Children remain with adult caregivers along designated viewing paths. The engine compartments are shown by firefighters, the aerial ladder is raised only in a clear marked practice area by trained crew, and the water demo sprays a **painted practice target**, not a real fire. The visitors do not operate trucks, ladders, pumps, hoses, or personal protective gear.
+- **Protective gear:** Captain Ann demonstrates turnout boots, trousers, coat with reflective stripes, gloves and helmet on herself and briefly displays a facepiece. She returns the items to her gear rack. Molly recognizes her voice despite the unfamiliar outfit. No gear is lost or borrowed by children.
+- **Water path:** Jack's new notebook sketch shows **engine tank -> pump -> curved hose -> nozzle -> painted target**. Water runs to a drain in the training yard after the demonstration, distinct from the seasonal rain-route drawing and storm inlet previously established near the garage.
+- **Continuity:** Molly comes from Green Gate Farm with Farmer Ruth, walking to Pine Park over **Little Bridge**, which remains pedestrian-only. Rex, Gus and Jack come from Brook Road with Aunt Jo. After the open day Molly returns to the farm and Rex returns to the blue-step house. **Pine Park rain gauge remains empty and ready** following Season Six; it is not measured again here. All other roads and vehicles retain their locations.
+
+### Episode state ledger
+
+| Episode | Permanent new knowledge / state | Unfinished element |
+|---|---|---|
+| 037000 | Station Lane, two red doors, Captain Ann, distinct engine and aerial ladder truck established; invitation to open day | Open day forthcoming |
+| 038000 | Molly and Rex visit the firehouse together; shorter engine tank, pump, tools and hose compartments introduced; equipment checked and stowed | Other demonstrations |
+| 039000 | Longer ladder truck stabilizers and nested ladder sections demonstrated by trained crew; ladder fully stowed afterward | Gear and water demo |
+| 040000 | Molly recognizes Captain Ann beneath turnout gear; boots, coat, helmet and gloves returned to rack | Water demo |
+| 041000 | Controlled adult hose demonstration to painted target; Jack adds separate tank/pump/hose/nozzle water-route drawing | Farewell and final map |
+| 042000 | Jack records Station Lane and both apparatus on his neighborhood map, crew returns gear to readiness, everyone travels home | Open day complete; no emergency or unresolved job |
+
+**Research scope:** Fire apparatus differences, ladder stabilizers and firefighter protective clothing are supported by sources linked in `metadata/sources.json`. Exact locations, dialogue, equipment color, the practice target and the characters are invented. No teaching-outcome or sleep claim is made.
+
 ## Authoring guardrails
 
 - Persistent geography, name spellings and object state survive across episodes and seasons. Never erase a completed project without a depicted reason.
