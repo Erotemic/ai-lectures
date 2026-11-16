@@ -285,6 +285,18 @@ Day Five examines lovers surviving misfortune, without treating force or fear
 as automatically justified by a subsequent wedding. Elissa's Day Six examines
 witty speech, including the kitchen dispute between Licisca and Tindaro, the
 short verbal tales, Fra Cipolla's longer improvisation, and the Valley of the
-Ladies. **Days Seven through Ten** and work-level historical/literary critical
+Ladies. **Days Seven–Eight** are now in the next overlay; Days Nine–Ten and work-level historical/literary critical
 lectures remain. See `notes/decameron-days-five-six-reading-guide.md` for
 narrators, tale-by-tale map, evidence qualifications, and sources.
+
+**Giovanni Boccaccio, *The Decameron*, Days Seven and Eight**: 378000–399000
+(**fourth installment**). Dioneo's Day Seven takes place in the Valley of the
+Ladies and examines wives' tricks against husbands; Lauretta's Day Eight
+expands to tricks across marriages, genders and social roles. Twenty tales
+have their own narrative lectures, including recurring Calandrino, Bruno and
+Buffalmacco episodes and Rinieri's long revenge tale. Two framing lectures
+include the transition to Emilia's open-theme Day Nine. **80 of 100 tales**
+are now covered; Days Nine–Ten and the retrospective critical lectures remain.
+See `notes/decameron-days-seven-eight-reading-guide.md` for per-tale direct
+primary-text links, narrator mapping, relevant Wikipedia references, and
+historical and interpretive qualifications.

@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "lecture_id": "388000",
+  "transcript": "388000-decameron-day-seven-tale-ten-tingoccio-meuccio-purgatory.md",
+  "related_resources": [
+    {
+      "source_id": "cl-dc-brown-english",
+      "reason": "Textual context for the English translation"
+    },
+    {
+      "source_id": "cl-dc-gutenberg-rigg2",
+      "reason": "Textual context for the English translation"
+    },
+    {
+      "source_id": "cl-dc-rigg-day7-tale10",
+      "reason": "Direct day-and-tale primary translation"
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "388000-c01",
+      "anchor": "Two men in Siena, Tingoccio Mini and Meuccio di Tura, are close friends with a shared curiosity about wha",
+      "kind": "literary_primary_narrative_retelling",
+      "source_ids": [
+        "cl-dc-brown-english",
+        "cl-dc-gutenberg-rigg2",
+        "cl-dc-rigg-day7-tale10"
+      ],
+      "source_locator": "Day 7, Tale 10 (Dioneo)",
+      "audit_status": "day_tale_and_plot_checked_against_primary_translation_not_full_italian_collation"
+    },
+    {
+      "id": "388000-c02",
+      "anchor": "The story should not be mistaken for a report of what medieval Christian theology established about spiri",
+      "kind": "literary_interpretation",
+      "source_ids": [
+        "cl-dc-brown-english",
+        "cl-dc-gutenberg-rigg2",
+        "cl-dc-rigg-day7-tale10"
+      ],
+      "source_locator": "Day 7, Tale 10 (Dioneo)",
+      "audit_status": "interpretive_synthesis_grounded_in_primary_tale"
+    }
+  ]
+}
