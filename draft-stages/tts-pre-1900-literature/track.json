@@ -1,7 +1,7 @@
 {
   "id": "pre-1900-literature",
   "title": "Literary Classics Before 1900",
-  "summary": "Narrative-first studies of literature from the medieval period through the nineteenth century, beginning with Shakespeare and Cervantes and building toward later poetic, dramatic, and novelistic landmarks. Ancient epics already covered by World History are not duplicated.",
+  "summary": "Audio-first studies of major literary landmarks before 1900, including Dante, Shakespeare, and Cervantes; the complete narratives precede critical treatments, without fixed lecture lengths.",
   "categories": [
     "Literature",
     "History & Culture"
@@ -15,7 +15,11 @@
   ],
   "sections": [
     "early-modern-drama",
-    "early-modern-prose"
+    "early-modern-prose",
+    "medieval-poetry-inferno",
+    "medieval-poetry-purgatorio",
+    "medieval-poetry-paradiso",
+    "medieval-poetry-criticism"
   ],
   "lectures": [
     {
@@ -152,6 +156,204 @@
       "spoken_words": 874,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 6.0
+    },
+    {
+      "id": "016000",
+      "title": "Dante — Inferno: The Lost Wood and First Voices",
+      "section": "medieval-poetry-inferno",
+      "file": "016000-dante-inferno-story-the-wood-and-the-voices.md",
+      "spoken_words": 970,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.7
+    },
+    {
+      "id": "017000",
+      "title": "Dante — Inferno: Hunger, Politics, and Dis",
+      "section": "medieval-poetry-inferno",
+      "file": "017000-dante-inferno-story-the-city-of-dis.md",
+      "spoken_words": 946,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.5
+    },
+    {
+      "id": "018000",
+      "title": "Dante — Inferno: Ten Trenches of Fraud",
+      "section": "medieval-poetry-inferno",
+      "file": "018000-dante-inferno-story-ten-trenches-of-fraud.md",
+      "spoken_words": 938,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.5
+    },
+    {
+      "id": "019000",
+      "title": "Dante — Inferno: Betrayal and the Frozen Bottom",
+      "section": "medieval-poetry-inferno",
+      "file": "019000-dante-inferno-story-the-frozen-bottom.md",
+      "spoken_words": 937,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.5
+    },
+    {
+      "id": "020000",
+      "title": "Dante — Purgatorio: The Shore and Gate",
+      "section": "medieval-poetry-purgatorio",
+      "file": "020000-dante-purgatorio-story-shore-and-gate.md",
+      "spoken_words": 870,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.0
+    },
+    {
+      "id": "021000",
+      "title": "Dante — Purgatorio: First Terraces of Love",
+      "section": "medieval-poetry-purgatorio",
+      "file": "021000-dante-purgatorio-story-pride-envy-wrath.md",
+      "spoken_words": 904,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.2
+    },
+    {
+      "id": "022000",
+      "title": "Dante — Purgatorio: Statius and the Fire",
+      "section": "medieval-poetry-purgatorio",
+      "file": "022000-dante-purgatorio-story-statius-and-the-fire.md",
+      "spoken_words": 884,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.1
+    },
+    {
+      "id": "023000",
+      "title": "Dante — Purgatorio: Beatrice and the Garden",
+      "section": "medieval-poetry-purgatorio",
+      "file": "023000-dante-purgatorio-story-garden-and-beatrice.md",
+      "spoken_words": 889,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.1
+    },
+    {
+      "id": "024000",
+      "title": "Dante — Paradiso: Moon, Mercury, and Venus",
+      "section": "medieval-poetry-paradiso",
+      "file": "024000-dante-paradiso-story-moon-mercury-venus.md",
+      "spoken_words": 893,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.2
+    },
+    {
+      "id": "025000",
+      "title": "Dante — Paradiso: Wisdom and Cacciaguida",
+      "section": "medieval-poetry-paradiso",
+      "file": "025000-dante-paradiso-story-sun-mars-cacciaguida.md",
+      "spoken_words": 866,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.0
+    },
+    {
+      "id": "026000",
+      "title": "Dante — Paradiso: Justice, Contemplation, and Faith",
+      "section": "medieval-poetry-paradiso",
+      "file": "026000-dante-paradiso-story-justice-contemplation-exams.md",
+      "spoken_words": 871,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.0
+    },
+    {
+      "id": "027000",
+      "title": "Dante — Paradiso: The Rose and Final Vision",
+      "section": "medieval-poetry-paradiso",
+      "file": "027000-dante-paradiso-story-the-rose-and-last-vision.md",
+      "spoken_words": 978,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.7
+    },
+    {
+      "id": "028000",
+      "title": "Dante — Narrative Architecture and Time",
+      "section": "medieval-poetry-criticism",
+      "file": "028000-dante-architecture-pilgrim-poet-and-time.md",
+      "spoken_words": 919,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.3
+    },
+    {
+      "id": "029000",
+      "title": "Dante — Justice, Contrapasso, and Sympathy",
+      "section": "medieval-poetry-criticism",
+      "file": "029000-dante-justice-contrapasso-and-uneasy-pity.md",
+      "spoken_words": 929,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.4
+    },
+    {
+      "id": "030000",
+      "title": "Dante — Purgatory and Moral Change",
+      "section": "medieval-poetry-criticism",
+      "file": "030000-dante-purgatory-free-will-memory-and-repair.md",
+      "spoken_words": 850,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.9
+    },
+    {
+      "id": "031000",
+      "title": "Dante — Paradise and the Limits of Knowledge",
+      "section": "medieval-poetry-criticism",
+      "file": "031000-dante-paradise-intelligence-love-and-limits.md",
+      "spoken_words": 881,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.1
+    },
+    {
+      "id": "032000",
+      "title": "Dante — Florence, Exile, and Empire",
+      "section": "medieval-poetry-criticism",
+      "file": "032000-dante-florence-exile-pope-empire.md",
+      "spoken_words": 899,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.2
+    },
+    {
+      "id": "033000",
+      "title": "Dante — The Guides and Women's Voices",
+      "section": "medieval-poetry-criticism",
+      "file": "033000-dante-guides-beatrice-virgil-and-womens-voices.md",
+      "spoken_words": 848,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.8
+    },
+    {
+      "id": "034000",
+      "title": "Dante — Terza Rima and Translation",
+      "section": "medieval-poetry-criticism",
+      "file": "034000-dante-language-terza-rima-translation.md",
+      "spoken_words": 959,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.6
+    },
+    {
+      "id": "035000",
+      "title": "Dante — Cosmology and Medieval Philosophy",
+      "section": "medieval-poetry-criticism",
+      "file": "035000-dante-medieval-thought-cosmology-and-ethics.md",
+      "spoken_words": 886,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.1
+    },
+    {
+      "id": "036000",
+      "title": "Dante — Cross-Realm Close-Reading Workshop",
+      "section": "medieval-poetry-criticism",
+      "file": "036000-dante-close-reading-workshop-four-encounters.md",
+      "spoken_words": 961,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.6
+    },
+    {
+      "id": "037000",
+      "title": "Dante — Textual History and Influence",
+      "section": "medieval-poetry-criticism",
+      "file": "037000-dante-text-manuscripts-commentary-and-influence.md",
+      "spoken_words": 951,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.6
     }
   ]
 }

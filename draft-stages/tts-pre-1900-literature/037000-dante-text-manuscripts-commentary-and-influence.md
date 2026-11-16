@@ -1,0 +1,35 @@
+# Dante: Manuscripts, Commentary, and the Long Life of the Comedy
+
+**Work:** Dante Alighieri, *Commedia*. **Form:** Critical lecture on textual history and literary influence.
+
+<!-- BEGIN SPOKEN LECTURE -->
+# Dante: Manuscripts, Commentary, and the Long Life of the Comedy
+
+The poem we call the Divine Comedy did not arrive in the world as a bound modern volume printed from a manuscript in the author's hand. Dante composed it in the early fourteenth century, and no autograph manuscript of the Comedy has survived. The surviving text comes through copies made by other people. That matters for students who meet the poem in a cleanly typeset book and imagine that the object has always existed in precisely its present form.
+
+The three cantiche appear to have circulated in the years around the poet's death, and the manuscript tradition grew rapidly. Copyists introduced ordinary errors, alterations, and readings that later editors would have to evaluate. The sheer number of surviving witnesses is a measure of the poem's early reach, but it also makes the reconstruction of the text a scholarly problem. A reader comparing editions may encounter differences in wording or punctuation without discovering a hidden authorial revision in each case. Sometimes the difference reflects the materials available to a particular editor.
+
+Dante himself used the title Commedia, or its medieval spelling, for the poem. The adjective Divine became attached through later reception; it was used in early praise and appeared in the title of a printed edition in 1555. That history is not an embarrassment to be corrected away. It shows how a work acquires the name by which later generations know it. When we use the familiar modern title, we are participating in the poem's centuries-long reception, not necessarily repeating its author's exact book cover.
+
+The first printed edition appeared at Foligno in 1472. By then the poem had already lived for generations in manuscripts and commentary. Early printed editions continued to frame it for readers through explanatory notes and pictures. Renaissance scholars, including figures associated with major printed editions, approached Dante as a writer whose local references and demanding theology needed interpretation. Their work shaped the text that later readers encountered; each edition was also a decision about what kind of object the Comedy was supposed to be.
+
+Commentary began remarkably early. The poem's list of people, battles, philosophical arguments, and scriptural allusions encouraged readers to explain it almost as soon as it circulated. Boccaccio became a crucial admirer and interpreter, and the history of formal lectures on Dante belongs to the poem's public life. Later humanists, theologians, philologists, artists, and political thinkers supplied new frames. Modern scholarly resources such as the Dartmouth Dante Project preserve and compare commentaries written across many centuries. They make disagreement visible rather than pretending that one current note has replaced all previous reading.
+
+Illustration is another part of transmission. Artists have imagined the circles of Hell, the mountain, and the rose through very different visual languages. Botticelli's drawings, William Blake's unfinished designs, and Gustave Doré's nineteenth-century engravings show that the poem did not acquire a single definitive appearance. An image of a vast funnel populated by neatly arranged circles can be an effective teaching aid, but it is also an interpretation. Dante's narrative sometimes withholds measurements or changes the scale of objects as the traveler approaches them.
+
+English-language reception has its own history. Henry Wadsworth Longfellow's translation in the nineteenth century brought many readers an English poem with close attention to Dante's line-by-line movement. Later versions differ in how much they seek to preserve terza rima, contemporary speech, medieval strangeness, or exact lexical detail. Translations and accompanying introductions also affect which Dante a reader meets: a Catholic theologian, a political exile, an inventor of vernacular poetry, a modern psychological dramatist, or a visionary whose imagination enters unexpected conversations with later art.
+
+The poem's influence is enormous, but the phrase 'influenced by Dante' can be imprecise. Later writers have borrowed an afterlife journey, the encounter with exemplary dead, numerical architecture, the authority of a first-person traveler, or the mixture of public judgment with intimate confession. These are different kinds of influence. A responsible literary history should identify the particular formal or thematic inheritance and, when claiming direct transmission, establish that the later writer knew the work. A resemblance alone is not always enough.
+
+Dante's impact extends beyond writers who share his theology. A secular poem can imitate a descent through successive conditions; a political novelist can place recognizable public figures under a narrative verdict; a modern poet can borrow the tension between a limited speaking self and an enormous cultural inheritance. The Comedy's most durable innovations may therefore be formal as well as doctrinal. Its hundred-canto design shows how a poet could make moral argument, memory, history, dream, and voices from many social levels coexist within one continuous poem.
+
+Textual scholarship does not mean we must postpone reading until every variant is resolved. It means we should know what we are using. A student may read the Italian text established by Giorgio Petrocchi with a modern commentary, or a public-domain English translation, or another carefully edited bilingual edition. Each choice should be identified. The poem's complexity survives those differences, while some local interpretations depend on the exact wording. A companion note can record uncertainty without loading every spoken paragraph with textual apparatus.
+
+There is a final paradox in this history. Dante's poem ends by admitting that the highest vision outruns language and recollection. Yet the words he managed to write have circulated for seven centuries, generating copies, translations, pictures, and arguments that have never been brought to a final stop. The work's afterlife is not proof of every judgment Dante made. It is evidence of an artistic form capable of sustaining new encounters with different readers and their questions. That is why the history of the book belongs beside the history of its fictional journey.
+<!-- END SPOKEN LECTURE -->
+
+## Evidence and reading notes
+- Cornell University Library, Visions of Dante: no autograph survives, many medieval manuscripts, first edition Foligno 1472.
+- Princeton Dante Project / Dartmouth Dante Lab: Petrocchi critical text and commentary traditions; distinct copyrighted scholarly editions must not be redistributed.
+- Princeton Dante Project historical title record: 1555 Venetian printed title with 'Divina'; Boccaccio applied the term earlier.
+- Influence claims should be specified case by case; images and translations are interpretations of the poem.

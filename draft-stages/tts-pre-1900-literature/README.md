@@ -24,6 +24,17 @@ Quixote friendship, power and moral cost, and print/translation history. The
 lectures treat *Don Quixote* as a great innovation in an existing field of
 prose fiction, not as the literal invention of all novels.
 
+**Medieval poetry — Dante, *Commedia* (*The Divine Comedy*)**: 016000–037000.
+Twelve consecutive story lectures follow all 100 cantos: four *Inferno*, four
+*Purgatorio*, and four *Paradiso*. Ten critical lectures then examine narrative
+architecture and retrospective time, contrapasso and sympathy, free choice,
+knowledge and love, Florentine politics and exile, Virgil and Beatrice, terza
+rima and translation, medieval cosmology, close reading, and textual history.
+See `notes/dante-listening-guide.md` and
+`notes/dante-textual-history-and-interpretation.md` for canto coverage and
+source/evidence boundaries. Modern moral assumptions and present-day physical
+science are not attributed to Dante; allegorical controversies remain noted.
+
 These are original lectures, not extracts or dramatic recordings of the primary
 texts. Source citations, critical questions, and edition notes are outside the
 spoken regions; bibliographic records and anchored claims appear in `metadata/`.
@@ -47,21 +58,19 @@ or binary assets are part of this pack.
 
 ## Substantive next priorities
 
-1. **Dante, *The Divine Comedy***: sustained journey through all three cantiche,
-   then poetic form, scholastic theology, politics, and textual traditions.
-2. **Shakespeare, *King Lear*, *Macbeth*, *Othello***: additional major tragedies;
+1. **Shakespeare, *King Lear*, *Macbeth*, *Othello***: additional major tragedies;
    complete theatrical accounts before analysis, not copies of the *Hamlet* outline.
-3. **Jane Austen, *Pride and Prejudice***: complete courtship and economic plot,
+2. **Jane Austen, *Pride and Prejudice***: complete courtship and economic plot,
    followed by free indirect discourse, irony and the marriage market.
-4. **Mary Shelley, *Frankenstein***: framed narration and scientific ambition,
+3. **Mary Shelley, *Frankenstein***: framed narration and scientific ambition,
    linking Romanticism, Gothic literature and later science fiction.
-5. **Charles Dickens, *Great Expectations* or *Bleak House***: serial form,
+4. **Charles Dickens, *Great Expectations* or *Bleak House***: serial form,
    institutions, social narration and the Victorian novel.
-6. **Gustave Flaubert, *Madame Bovary***: free indirect style, desire,
+5. **Gustave Flaubert, *Madame Bovary***: free indirect style, desire,
    consumer culture and the history of realism.
-7. **Leo Tolstoy, *War and Peace***: a full-scale narrative and analysis of
+6. **Leo Tolstoy, *War and Peace***: a full-scale narrative and analysis of
    history, family, war, freedom and novel form.
-8. **Fyodor Dostoevsky, *The Brothers Karamazov***: family conflict, theology,
+7. **Fyodor Dostoevsky, *The Brothers Karamazov***: family conflict, theology,
    ethics and polyphonic narration.
 
 Other bridge landmarks worth assessing against these include Chaucer's
