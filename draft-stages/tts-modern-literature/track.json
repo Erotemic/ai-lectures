@@ -1,15 +1,17 @@
 {
   "id": "modern-literature",
   "title": "20th-Century Literature · Novels, voices, and the human condition",
-  "summary": "Original-prose story orientations followed by literary analysis of thirty-seven major twentieth-century works; Ulysses receives a twelve-lecture treatment of its complete narrative, formal innovations, politics, and publication history.",
+  "summary": "Story-first literary history and criticism of thirty-eight major twentieth-century works. Ulysses has a twelve-lecture section; Proust’s In Search of Lost Time has fourteen lectures covering seven volumes and seven close critical studies.",
   "assumed_background": [
     "No prior reading is required for the story-first lectures, including the Lord of the Rings orientation and complete three-volume narrative.",
     "Analysis lectures assume the preceding complete story orientation or knowledge of the work; specialized Tolkien essays follow the full retelling.",
-    "The five Ulysses narrative lectures tell a continuous, spoiler-containing story in order; analytical lectures assume this orientation or prior familiarity with the novel."
+    "The five Ulysses narrative lectures tell a continuous, spoiler-containing story in order; analytical lectures assume this orientation or prior familiarity with the novel.",
+    "The seven Proust story lectures cover the continuous novel volume by volume, with full spoilers; the seven analyses presuppose this orientation or the original work."
   ],
   "sections": [
     "novels-and-their-worlds",
-    "ulysses-a-day-in-dublin"
+    "ulysses-a-day-in-dublin",
+    "proust-in-search-of-lost-time"
   ],
   "lectures": [
     {
@@ -848,6 +850,132 @@
       "spoken_words": 1621,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 11.2
+    },
+    {
+      "id": "038100",
+      "title": "In Search of Lost Time — The Story, Part One: Swann’s Way",
+      "section": "proust-in-search-of-lost-time",
+      "file": "038100-proust-story-swanns-way.md",
+      "spoken_words": 1373,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 9.5
+    },
+    {
+      "id": "038200",
+      "title": "In Search of Lost Time — The Story, Part Two: In the Shadow of Young Girls in Flower",
+      "section": "proust-in-search-of-lost-time",
+      "file": "038200-proust-story-young-girls-in-flower.md",
+      "spoken_words": 1231,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 8.5
+    },
+    {
+      "id": "038300",
+      "title": "In Search of Lost Time — The Story, Part Three: The Guermantes Way",
+      "section": "proust-in-search-of-lost-time",
+      "file": "038300-proust-story-guermantes-way.md",
+      "spoken_words": 1159,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 8.0
+    },
+    {
+      "id": "038400",
+      "title": "In Search of Lost Time — The Story, Part Four: Sodom and Gomorrah",
+      "section": "proust-in-search-of-lost-time",
+      "file": "038400-proust-story-sodom-and-gomorrah.md",
+      "spoken_words": 1162,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 8.0
+    },
+    {
+      "id": "038500",
+      "title": "In Search of Lost Time — The Story, Part Five: The Prisoner",
+      "section": "proust-in-search-of-lost-time",
+      "file": "038500-proust-story-the-prisoner.md",
+      "spoken_words": 1210,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 8.3
+    },
+    {
+      "id": "038600",
+      "title": "In Search of Lost Time — The Story, Part Six: The Fugitive",
+      "section": "proust-in-search-of-lost-time",
+      "file": "038600-proust-story-the-fugitive.md",
+      "spoken_words": 1326,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 9.1
+    },
+    {
+      "id": "038700",
+      "title": "In Search of Lost Time — The Story, Part Seven: Time Regained",
+      "section": "proust-in-search-of-lost-time",
+      "file": "038700-proust-story-time-regained.md",
+      "spoken_words": 1337,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 9.2
+    },
+    {
+      "id": "038800",
+      "title": "Proust: Memory Is Not a Filing Cabinet",
+      "section": "proust-in-search-of-lost-time",
+      "file": "038800-proust-analysis-memory-habit-and-time.md",
+      "spoken_words": 1292,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 8.9
+    },
+    {
+      "id": "038900",
+      "title": "Proust: Love, Jealousy, and the Limits of Knowing Another Person",
+      "section": "proust-in-search-of-lost-time",
+      "file": "038900-proust-analysis-love-jealousy-knowledge.md",
+      "spoken_words": 1321,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 9.1
+    },
+    {
+      "id": "039000",
+      "title": "Proust: A Social World That Cannot Remain Still",
+      "section": "proust-in-search-of-lost-time",
+      "file": "039000-proust-analysis-class-dreyfus-war.md",
+      "spoken_words": 1296,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 8.9
+    },
+    {
+      "id": "039100",
+      "title": "Proust: Desire, Secrecy, and the Stories Society Permits",
+      "section": "proust-in-search-of-lost-time",
+      "file": "039100-proust-analysis-sexuality-secrecy.md",
+      "spoken_words": 1227,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 8.5
+    },
+    {
+      "id": "039200",
+      "title": "Proust: Three Artists and the Education of Perception",
+      "section": "proust-in-search-of-lost-time",
+      "file": "039200-proust-analysis-art-vinteuil-elstir-bergotte.md",
+      "spoken_words": 1308,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 9.0
+    },
+    {
+      "id": "039300",
+      "title": "How to Read Proust: A Novel Built Across Time",
+      "section": "proust-in-search-of-lost-time",
+      "file": "039300-proust-analysis-form-architecture-reading.md",
+      "spoken_words": 1324,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 9.1
+    },
+    {
+      "id": "039400",
+      "title": "Proust: Writing, Publishing, and the Text That Survived",
+      "section": "proust-in-search-of-lost-time",
+      "file": "039400-proust-analysis-history-text-and-influence.md",
+      "spoken_words": 1375,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 9.5
     }
   ]
 }

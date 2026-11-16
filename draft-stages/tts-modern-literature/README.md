@@ -1,6 +1,6 @@
 # 20th-Century Literature: Story, Then Analysis
 
-The track currently covers **thirty-seven literary works** (one receives extended multi-lecture treatment). For each work, complete plot narration precedes criticism: usually one continuous story lecture, with extended multi-volume treatment where the work itself warrants it. The story account introduces the people, setting, main events, and ending; it does not require that the listener has read the book. The analysis can then explore form, historical context, and competing critical readings without explaining the plot again.
+The track currently covers **thirty-eight literary works** (two receive extended multi-lecture treatment). For each work, complete plot narration precedes criticism: usually one continuous story lecture, with extended multi-volume treatment where the work itself warrants it. The story account introduces the people, setting, main events, and ending; it does not require that the listener has read the book. The analysis can then explore form, historical context, and competing critical readings without explaining the plot again.
 
 ## Scope and the latest expansion
 
@@ -67,7 +67,7 @@ These pairs add more widely read twentieth-century fiction, alongside rather tha
 
 ## Further blind spots and familiar classics
 
-Representation is not a tally to complete mechanically. Important omissions remain in Indigenous, South and Southeast Asian, African-language, Middle Eastern, and Eastern European traditions, as well as other kinds of genre fiction and experimental prose. The next works should be chosen for what they can teach about form, institutions and lived experience, with a complete story orientation preceding the analysis. Candidates include Yasunari Kawabata's *Snow Country*, Naguib Mahfouz's *Palace Walk*, and Toni Cade Bambara's *The Salt Eaters*; each requires its own plot and source review before drafting. There is no runtime or word-count requirement.
+Representation is not a tally to complete mechanically. Important omissions remain in Indigenous, South and Southeast Asian, African-language, Middle Eastern, and Eastern European traditions, as well as other kinds of genre fiction and experimental prose. The next selections should prioritize documented literary influence, major formal achievement, cultural significance and lasting critical study. Geographic or demographic range is valuable but is not a selection quota. Landmark gaps should be evaluated against those criteria before adding further exploratory works; every work needs its own plot and source review. There is no runtime or word-count requirement.
 
 ## Special treatment: Tolkien's *The Lord of the Rings*
 
@@ -127,3 +127,9 @@ A dedicated **twelve-lecture section** adds *Ulysses* (1922), bringing the total
 The catalog section `ulysses-a-day-in-dublin` preserves the narrative-before-analysis sequence. Episode names are commonly used critical labels, not a claim about printed chapter headings in the first edition. Molly's monologue is Joyce's composed fiction, not Nora Barnacle's transcribed voice. The first book was published by Sylvia Beach in Paris on 2 February 1922; the U.S. prosecution of *The Little Review* editors was a distinct 1921 event and the Woolsey importation decision was in 1933. The 1984 Gabler text is a significant edited edition, not the only uncontested text.
 
 Source, editorial, and lesson-level distinctions: `notes/ulysses-special-section-036200-037300.md` and `metadata/036200.json`–`metadata/037300.json`.
+
+## Major-modernist landmark: Marcel Proust, *In Search of Lost Time* (038100–039400)
+
+A **fourteen-lecture section** explores one continuous seven-volume novel. Seven original spoken story narrations first cover each volume in order, without assuming familiarity with the text; seven sustained critical lectures then analyze involuntary memory and habit, jealous desire and evidence, class and the Dreyfus Affair, sexuality and secrecy, fictional artists, narrative architecture, and the history of composition, publication, and translation. The section adds one work to the canon: **38 works, 107 lectures**.
+
+The final three volumes were published **posthumously**, and the sixth volume has substantial variants among posthumous printings and a subsequently recovered author-corrected typescript. The editorial note discusses this evidence, keeps the narrator distinct from Proust, distinguishes fictional speculation about Albertine from established actions, and avoids confusing the deceased narrator's grandmother with his still-living mother. The 14 source sidecars identify individually grounded claims; `notes/proust-special-section-038100-039400.md` records the source trail and interpretive limitations. This addition prioritizes demonstrated literary significance rather than representation quotas. No fixed spoken length or duration was imposed.
