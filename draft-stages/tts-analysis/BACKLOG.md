@@ -1,18 +1,20 @@
-# Analysis from First Principles — foundational continuation backlog
+# Analysis from First Principles — prerequisites still to backfill
 
-The Fourier/PDE bridge is now registered through 064000, following the functional calculus lectures 041000–052000. Keep prioritizing comprehensible foundational routes and choose new subjects by studying the precise assumptions of selected advanced lectures rather than expanding indexes automatically.
+The track reaches lecture 076000. It now covers operator and spectral foundations (041000–052000), Fourier, distribution and Sobolev foundations (053000–064000), and nonlinear, compactness and variational methods (065000–076000). The aim is comprehensible prerequisites, not an arbitrarily expanding advanced index.
 
-## Proposed prerequisites not yet registered
+## Next audit candidates (not registered)
 
-- 065000 — Banach and C-star algebras, Gelfand transforms and the three functional calculi
-- 066000 — Weak and weak-star compactness; reflexivity and Banach–Alaoglu
-- 067000 — Spectral theory of closed sectorial operators and analytic semigroups
-- 068000 — Trace theorems, boundary Sobolev spaces and elliptic boundary regularity
-- 069000 — Littlewood–Paley decompositions and fractional Sobolev/Besov spaces
-- 070000 — Nonlinear function-space estimates and fixed-point arguments
-- 071000 — Differential manifolds, tangent spaces and exterior calculus (could merit its own prerequisites track)
-- 072000 — Algebraic geometry basics (commutative algebra, schemes, sheaves) in a separate foundation pack
+- 077000 — Differential manifolds, tangent spaces, smooth maps, and charts
+- 078000 — Differential forms and exterior derivatives with concrete curves and surfaces
+- 079000 — Stokes' theorem on manifolds and de Rham cohomology
+- 080000 — Connections, curvature, and vector bundles from parallel transport
+- 081000 — Elementary commutative algebra: ideals, localization, and spectra (probably a different pack)
+- 082000 — Schemes and sheaves in examples (probably a different pack)
+- 083000 — Galerkin discretization, Céa's lemma, and dual-weighted residuals from the ground up
+- 084000 — Fractional and nonlinear wave estimates beyond first fixed-point applications
 
-Follow-up checks: (1) nonlinear wave lecture 027000 assumes Sobolev product estimates and Banach fixed points; (2) goal-oriented numerical error estimates 027000 assume Galerkin orthogonality, duality and weak PDE problems; (3) p-adic Hodge theory requires separate algebra/number theory prerequisites. Do not equate the present Analysis bridge with full preparation for those topics.
+## Known remaining gaps
 
-No duration or word-count requirement applies.
+The new sequence supplies local nonlinear estimates for selected Sobolev exponents. It does *not* prove large-data global scattering or critical-regularity nonlinear estimates. PDE regularity at nonsmooth boundaries, weak versus strong solution uniqueness for rough nonlinearities, and compactness in unbounded domains still require their own careful treatments. Algebraic geometry, p-adic Hodge theory, and gauge theory need separate algebraic and geometric foundations.
+
+No minimum, maximum or target word count or narration duration applies.

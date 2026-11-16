@@ -231,3 +231,24 @@ Start with [FOURIER_TO_PDE_LEARNING_PATH.md](FOURIER_TO_PDE_LEARNING_PATH.md) fo
 - 064000 — [Semigroups and Generators: Solving Time Evolution Beyond Self-Adjoint Operators](064000-semigroups-generators-and-evolution.md)
 
 The narration is standalone; exact formulas, exercises and source references are outside the spoken extraction markers. Word counts and durations in track metadata are descriptive, not content goals.
+
+## Banach algebras, nonlinear analysis, and PDE existence (065000–076000)
+
+A foundational sequence that joins functional calculus and weak convergence to fractional Sobolev regularity, local nonlinear well-posedness, energy methods, compactness and variational existence. It builds explicit examples and states the domain and dimension assumptions of each theorem.
+
+Use [NONLINEAR_PDE_LEARNING_PATH.md](NONLINEAR_PDE_LEARNING_PATH.md) for entry points, checkpoints, and remaining gaps.
+
+- 065000 — [Banach and C-Star Algebras: Where Functional Calculus Lives](065000-banach-and-cstar-algebras.md)
+- 066000 — [Weak and Weak-Star Convergence: Compactness Without Norm Convergence](066000-weak-and-weakstar-compactness.md)
+- 067000 — [Sectorial Operators: Why Diffusion Smooths Immediately](067000-sectorial-operators-and-analytic-semigroups.md)
+- 068000 — [Sobolev Traces: How a Rough Function Reaches the Boundary](068000-sobolev-traces-and-boundary-data.md)
+- 069000 — [Fractional Smoothness and Littlewood–Paley Frequency Blocks](069000-fractional-sobolev-and-frequency-blocks.md)
+- 070000 — [Interpolation: Estimates Between the Norms We Already Know](070000-interpolation-and-estimates-between-spaces.md)
+- 071000 — [Nonlinear Products in Sobolev Spaces: When Multiplication Is Safe](071000-nonlinear-products-and-compositions.md)
+- 072000 — [Banach Fixed Points and Picard Iteration: Constructing a Solution](072000-contractions-and-picard-iteration.md)
+- 073000 — [Duhamel’s Formula: Solving a Nonlinear Equation with a Linear Flow](073000-duhamel-and-semilinear-evolution.md)
+- 074000 — [Energy Estimates and Gronwall: Turning Local Calculations into Global Bounds](074000-energy-estimates-and-gronwall.md)
+- 075000 — [Compactness in Space and Time: Passing to a Nonlinear Limit](075000-time-compactness-and-aubin-lions.md)
+- 076000 — [The Direct Method and Monotone Operators: Nonlinear Existence Without a Contraction](076000-direct-method-and-monotone-operators.md)
+
+These are standalone spoken lectures with exact mathematics, hypotheses, references and exercises in the non-spoken companions. Catalog words and estimated minutes are descriptive metadata; there is no target duration.

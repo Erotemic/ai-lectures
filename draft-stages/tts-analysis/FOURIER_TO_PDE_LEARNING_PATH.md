@@ -44,3 +44,8 @@ Checkpoint: Formulate `-u''=1` with Dirichlet data in an H-one test space; expla
 The advanced algebraic geometry, gauge theory and p-adic courses require additional foundations in homological algebra, manifolds, differential forms, cohomology, commutative algebra and number theory. Do not confuse an increase in lecture count with closure of those prerequisites.
 
 Lecture lengths are determined by the teaching, not a runtime target.
+
+
+## Next available foundations
+
+The continuation 065000–076000 develops Banach/C-star algebras, weak-star compactness, analytic semigroups, Sobolev traces, fractional function spaces, nonlinear products, contraction principles, Duhamel formulas, energy estimates, spacetime compactness and nonlinear variational methods. Continue with [NONLINEAR_PDE_LEARNING_PATH.md](NONLINEAR_PDE_LEARNING_PATH.md). The earlier gap in introductory nonlinear product and fixed-point arguments has been addressed; critical nonlinear PDE theory remains separate.

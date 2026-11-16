@@ -86,3 +86,8 @@ The next mathematics continuation should be chosen by a **listener-readiness aud
 ## Follow-up foundation bridge
 
 The analysis course now continues at `053000`–`064000` with open mapping, Fredholm theory, representation theorems, Fourier analysis, distributions, Sobolev spaces, weak Poisson problems, elliptic regularity and semigroups. Follow [FOURIER_TO_PDE_LEARNING_PATH.md](FOURIER_TO_PDE_LEARNING_PATH.md) for the updated listening route and remaining prerequisites.
+
+
+## Algebraic and nonlinear continuation
+
+Lecture 065000 now introduces the Banach and C-star algebra setting behind the operator calculi, including normal-operator hypotheses and their limitations. Lectures 066000–076000 connect those tools to weak compactness and PDE evolution. See [NONLINEAR_PDE_LEARNING_PATH.md](NONLINEAR_PDE_LEARNING_PATH.md).

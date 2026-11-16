@@ -1,7 +1,7 @@
 {
   "id": "analysis",
   "title": "Analysis from First Principles",
-  "summary": "Real and complex analysis from limits and completeness through rigorous calculus, metric spaces, holomorphic functions and conformal mapping; measure and Lebesgue integration, L-p and Hilbert spaces, followed by L-p duality, bounded operators, Hahn–Banach, weak convergence and Banach–Steinhaus. A further twelve-lecture foundational bridge now develops adjoints, spectra, continuous and Borel functional calculi, unbounded domains, holomorphic calculus, and evolution equations. A twelve-lecture bridge now develops Fourier transforms, distributions, Sobolev spaces, weak elliptic equations, and C-zero semigroups, with preceding functional-analytic representation theorems.",
+  "summary": "Real and complex analysis from limits and completeness through rigorous calculus, metric spaces, holomorphic functions and conformal mapping; measure and Lebesgue integration, L-p and Hilbert spaces, followed by L-p duality, bounded operators, Hahn–Banach, weak convergence and Banach–Steinhaus. A further twelve-lecture foundational bridge now develops adjoints, spectra, continuous and Borel functional calculi, unbounded domains, holomorphic calculus, and evolution equations. A twelve-lecture bridge now develops Fourier transforms, distributions, Sobolev spaces, weak elliptic equations, and C-zero semigroups, with preceding functional-analytic representation theorems. A further foundational sequence covers Banach/C-star algebras, weak-star compactness, analytic semigroups, boundary traces, fractional and nonlinear Sobolev estimates, fixed-point methods, energy and compactness arguments, and monotone variational existence.",
   "assumed_background": [
     "Elementary algebra, inequalities, and familiarity with fractions"
   ],
@@ -63,7 +63,19 @@
     "sobolev-spaces",
     "weak-elliptic-problems",
     "elliptic-regularity",
-    "c0-semigroups-and-generators"
+    "c0-semigroups-and-generators",
+    "banach-algebras-and-gelfand",
+    "weak-star-compactness",
+    "sectorial-analytic-semigroups",
+    "sobolev-traces-boundaries",
+    "fractional-sobolev-littlewood-paley",
+    "interpolation-methods",
+    "nonlinear-product-estimates",
+    "fixed-point-local-existence",
+    "mild-solutions-and-duhamel",
+    "energy-gronwall-stability",
+    "aubin-lions-time-compactness",
+    "nonlinear-variational-methods"
   ],
   "lectures": [
     {
@@ -641,6 +653,114 @@
       "spoken_words": 945,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 6.5
+    },
+    {
+      "id": "065000",
+      "title": "Banach and C-Star Algebras: Where Functional Calculus Lives",
+      "section": "banach-algebras-and-gelfand",
+      "file": "065000-banach-and-cstar-algebras.md",
+      "spoken_words": 716,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 4.9
+    },
+    {
+      "id": "066000",
+      "title": "Weak and Weak-Star Convergence: Compactness Without Norm Convergence",
+      "section": "weak-star-compactness",
+      "file": "066000-weak-and-weakstar-compactness.md",
+      "spoken_words": 660,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 4.6
+    },
+    {
+      "id": "067000",
+      "title": "Sectorial Operators: Why Diffusion Smooths Immediately",
+      "section": "sectorial-analytic-semigroups",
+      "file": "067000-sectorial-operators-and-analytic-semigroups.md",
+      "spoken_words": 675,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 4.7
+    },
+    {
+      "id": "068000",
+      "title": "Sobolev Traces: How a Rough Function Reaches the Boundary",
+      "section": "sobolev-traces-boundaries",
+      "file": "068000-sobolev-traces-and-boundary-data.md",
+      "spoken_words": 715,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 4.9
+    },
+    {
+      "id": "069000",
+      "title": "Fractional Smoothness and Littlewood–Paley Frequency Blocks",
+      "section": "fractional-sobolev-littlewood-paley",
+      "file": "069000-fractional-sobolev-and-frequency-blocks.md",
+      "spoken_words": 782,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.4
+    },
+    {
+      "id": "070000",
+      "title": "Interpolation: Estimates Between the Norms We Already Know",
+      "section": "interpolation-methods",
+      "file": "070000-interpolation-and-estimates-between-spaces.md",
+      "spoken_words": 726,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.0
+    },
+    {
+      "id": "071000",
+      "title": "Nonlinear Products in Sobolev Spaces: When Multiplication Is Safe",
+      "section": "nonlinear-product-estimates",
+      "file": "071000-nonlinear-products-and-compositions.md",
+      "spoken_words": 781,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.4
+    },
+    {
+      "id": "072000",
+      "title": "Banach Fixed Points and Picard Iteration: Constructing a Solution",
+      "section": "fixed-point-local-existence",
+      "file": "072000-contractions-and-picard-iteration.md",
+      "spoken_words": 743,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.1
+    },
+    {
+      "id": "073000",
+      "title": "Duhamel’s Formula: Solving a Nonlinear Equation with a Linear Flow",
+      "section": "mild-solutions-and-duhamel",
+      "file": "073000-duhamel-and-semilinear-evolution.md",
+      "spoken_words": 755,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.2
+    },
+    {
+      "id": "074000",
+      "title": "Energy Estimates and Gronwall: Turning Local Calculations into Global Bounds",
+      "section": "energy-gronwall-stability",
+      "file": "074000-energy-estimates-and-gronwall.md",
+      "spoken_words": 764,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.3
+    },
+    {
+      "id": "075000",
+      "title": "Compactness in Space and Time: Passing to a Nonlinear Limit",
+      "section": "aubin-lions-time-compactness",
+      "file": "075000-time-compactness-and-aubin-lions.md",
+      "spoken_words": 739,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.1
+    },
+    {
+      "id": "076000",
+      "title": "The Direct Method and Monotone Operators: Nonlinear Existence Without a Contraction",
+      "section": "nonlinear-variational-methods",
+      "file": "076000-direct-method-and-monotone-operators.md",
+      "spoken_words": 717,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 4.9
     }
   ]
 }
