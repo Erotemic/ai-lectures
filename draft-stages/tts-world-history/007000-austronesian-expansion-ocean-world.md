@@ -272,6 +272,9 @@ The history of the Austronesian expansion is thus a history of how distances wer
 11. **Genomic landscape of human diversity across Madagascar** (2017). Evidence for multiple ancestry streams and regionally variable patterns. https://pubmed.ncbi.nlm.nih.gov/28716916/
 12. Alexander Ioannidis and colleagues, **Native American gene flow into Polynesia predating Easter Island settlement** (2020), *Nature*. Pre-European contact, its timing, and remaining direction-of-voyage questions. https://doi.org/10.1038/s41586-020-2487-2
 13. Mara Mulrooney, **An island-wide assessment of the chronology of settlement and land use on Rapa Nui** (2013), *Journal of Archaeological Science*. Examines long-running claims about settlement and societal collapse. https://doi.org/10.1016/j.jas.2013.06.020
+14. Wikipedia, **Austronesian expansion**. General entry point for the lecture's main subject. https://en.wikipedia.org/wiki/Austronesian_expansion
+15. Wikipedia, **Lapita**. General entry point for the archaeological complex. https://en.wikipedia.org/wiki/Lapita
+16. Wikipedia, **Hōkūleʻa**. General entry point for the voyaging canoe and its modern voyages. https://en.wikipedia.org/wiki/H%C5%8Dk%C5%ABle%CA%B5a
 
 ### Pronunciation notes for narration
 
