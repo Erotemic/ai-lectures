@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "lecture_id": "083000",
+  "transcript": "083000-the-little-house-for-a-robot.md",
+  "genre": "children_bedtime_stories",
+  "category": "Children's Bedtime Stories — Vehicles & Animals (Episodic)",
+  "age_range": {
+    "minimum_years": 3,
+    "maximum_years": 4
+  },
+  "age_range_label": "Ages 3–4",
+  "primary_listener_age_years": 3,
+  "audience": "children",
+  "title": "The Little House for a Robot",
+  "synopsis": "The friends help adult operators establish a small rover science station; a rover pauses before a rock and then takes a clear route.",
+  "series_id": "brook-road-builders",
+  "season_number": 14,
+  "episode_number": 5,
+  "episode_order": 83,
+  "arc_id": "the-path-to-space",
+  "arc_title": "The Path to Space",
+  "arc_episode_number": 17,
+  "arc_episode_total": 18,
+  "story_form": "connected_space_adventure_with_familiar_animals_and_machinery",
+  "fiction_status": "original_speculative_fiction",
+  "narrator": {
+    "mode": "single_voice",
+    "character_voice_changes_required": false
+  },
+  "themes": [
+    "lunar rover",
+    "solar power",
+    "radio science"
+  ],
+  "editorial_tone": "wonder_and_concrete_playfulness_to_quiet",
+  "assigned_moral": false,
+  "parent_guide": "PARENTS_GUIDE.md",
+  "world_bible": "WORLD_BIBLE.md",
+  "space_arc_bible": "SPACE_ARC_BIBLE.md",
+  "continuity_state": "Before: Scout is already landed and the six have completed one short lunar walk; rover and small instruments still need commissioning. After: Rover, antenna, solar panels, surface marker and temperature/light station work; six travelers have returned to the lander. The station can continue after their departure.",
+  "related_resources": [
+    {
+      "source_id": "nasa-surface-tech",
+      "reason": "Explains limited underlying technical mechanisms, not fictional mission eligibility or results."
+    },
+    {
+      "source_id": "nasa-moonbase-systems",
+      "reason": "Explains limited underlying technical mechanisms, not fictional mission eligibility or results."
+    },
+    {
+      "source_id": "nasa-radio",
+      "reason": "Explains limited underlying technical mechanisms, not fictional mission eligibility or results."
+    }
+  ],
+  "rationale_citations": [
+    {
+      "story_anchor": "When sunlight reaches its panels, it can make electricity.",
+      "editorial_rationale": "Lunar solar arrays can generate power during sunlit periods.",
+      "source_ids": [
+        "nasa-surface-tech",
+        "nasa-moonbase-systems"
+      ],
+      "evidence_scope": "Reference supports limited general science, transport, or engineering principles. The town, space center, animal and child passengers, mission timeline, hardware and results are fictional.",
+      "provenance": "technical_background_for_original_science_fiction_not_causal_evidence"
+    },
+    {
+      "story_anchor": "It can take pictures, study the ground, and send information by radio",
+      "editorial_rationale": "Robot instruments and radios support remote lunar science.",
+      "source_ids": [
+        "nasa-surface-tech",
+        "nasa-radio"
+      ],
+      "evidence_scope": "Reference supports limited general science, transport, or engineering principles. The town, space center, animal and child passengers, mission timeline, hardware and results are fictional.",
+      "provenance": "technical_background_for_original_science_fiction_not_causal_evidence"
+    }
+  ],
+  "historical_claims": [],
+  "source_note": "Original speculative fiction. Young protagonists make a fictional crewed Moon flight with trained adults; actual NASA references ground only general science and infrastructure descriptions."
+}

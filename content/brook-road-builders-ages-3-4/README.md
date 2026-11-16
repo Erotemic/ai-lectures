@@ -33,3 +33,9 @@ A **separate original episodic children's bedtime-story pack** for ages three to
 **Voice & editorial aims:** Give the child truck and machine detail, an affectionate dog, a funny bear, and a boy who observes and sketches instead of magically knowing every answer. Keep natural names (Rex, Gus, Jack, Aunt Jo), distinct roles, real mechanical verbs, humor, and a gentle bedtime close. No fixed spoken-word duration or lesson quota. Do not reproduce protected children's franchise characters, vehicles, insignia, or dialogue.
 
 `WORLD_BIBLE.md` is the continuity authority; `PARENTS_GUIDE.md` holds optional prompts. The references in `metadata/sources.json` support factual machinery descriptions and general reading context, **not** measured educational or sleep outcomes.
+
+## Three-season extension — The Path to Space (Seasons 12–14)
+
+**067000–084000**, 18 new single-narrator stories (three six-episode seasons) form one continuous science-fiction adventure. The friends meet engineer Dr. Ada and pilot Max, visit Star Harbor by road, watch giant machines build the launch infrastructure, assemble and test Star One, and follow an uncrewed rover mission that lands on the Moon ahead of them. They travel with a trained adult crew, land on the Moon, leave a small robotic research station, and return home. The original neighborhood and its map remain intact. Read `SPACE_ARC_BIBLE.md` for exact astronaut roles, locations, spacecraft state, episode ledger and science-fiction boundaries; `WORLD_BIBLE.md` remains canonical.
+
+**Format:** content-only overlay, no audio/images; stories are delimited by standard spoken markers and caregiver/evidence material stays outside. Technical metadata uses two exact passage-linked NASA/equipment references per new episode. This completed fiction includes a special ship for child and animal travelers; no claim is made that such flights are available or appropriate in actual spaceflight.

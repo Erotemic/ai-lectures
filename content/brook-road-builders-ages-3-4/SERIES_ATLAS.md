@@ -1,6 +1,6 @@
 # Brook Road Builders — series atlas and expansion plan (not spoken)
 
-This is a planning companion, **not** a second continuity authority. `WORLD_BIBLE.md` holds canonical facts through episode 066000. Ideas tagged *future* must not be treated as already present in a spoken episode.
+This is a planning companion, **not** a second continuity authority. `WORLD_BIBLE.md` holds canonical facts through episode 084000. Ideas tagged *future* must not be treated as already present in a spoken episode.
 
 ## What makes this a world, not a truck catalogue
 
@@ -181,3 +181,32 @@ Further seasons are possible but not scheduled; continue from what is already ca
 - Technical facts are source checked and limited to what is explained in child language; avoid pretending a toy bridge is structurally equivalent to a real one.
 - TTS narration stands alone without pictures, character voices, music or sound effects. Nonspoken caregiver prompts and evidence records remain outside it.
 - Source citations ground factual or editorial claims; never say evidence proves these stories improve sleep or cognition.
+
+## Seasons Twelve to Fourteen — Star Harbor and the Moon (complete)
+
+These eighteen episodes are one adventure in three seasons: **The Road to Star Harbor**, **The Rocket and the Rover**, and **The Moon and the Way Home**. They expand the setting but do not change the neighborhood road/footpath topology established in Seasons One through Eleven.
+
+```
+[BROOK ROAD] -- road past Red Door Garage -- [COUNTY HIGHWAY]
+      |                                      |
+[Pine Park / board]                    [SPECIAL HEAVY ROAD]
+      |                                      |
+[Little Bridge (feet only)]              [STAR HARBOR, COAST]
+      |                                  /        |        [Green Gate Farm]             [assembly building] [pad] [mission control]
+                                         |           |
+                                      [crawler]  [STAR ONE]
+                                                     |
+                                           launch -> Earth orbit
+                                                     |
+                                               flight to Moon
+                                                     |
+                     [return cabin in lunar orbit] - [Moon lander]
+                                                     |
+                                      [SCOUT + rover + station on Moon]
+```
+
+The sketch is conceptual, not a navigational map. The spaceport is **not** in or beside Pine Park, on the farm footpath or inside the gravel yard. Large equipment reaches it by a county highway and the new, prepared heavy-vehicle access road. The support tower stays on Earth, and the crawler does not travel on the rocket. Scout's uncrewed cargo mission launches before Star One's crew. Dr. Ada stays at ground mission control; Max and Aunt Jo are the two adult members of the **six-person** fictional crew, accompanied by Rex, Gus, Jack and Molly. Scout, the rover and small science station remain on a sunny near-side Moon site after the crew's return.
+
+**New characters:** Dr. Ada (owl aerospace engineer, round glasses, many-pocket coat), Max (golden-furred adult dog pilot in a blue flight jacket). Do not rename or quietly expand the flight crew. Keep Rex's one dark ear, Gus's green cap, Jack's single notebook, Molly's white front paws and their distinct motivations. Existing town adults remain in their established professions. The animal/young-child crew is explicit *speculative fiction*, not a statement about actual human spaceflight capabilities.
+
+**Future potential:** The rover can send a new photograph or data to Star Harbor as a premise for future stories. A return visit requires fresh adult planning and equipment; the Moon does not secretly have a paved road or breathable outdoor air. The first fourteen seasons now form completed canon. Consult `SPACE_ARC_BIBLE.md` for the full cross-season narrative sequence.

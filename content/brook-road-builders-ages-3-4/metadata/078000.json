@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "lecture_id": "078000",
+  "transcript": "078000-the-little-ship-that-went-ahead.md",
+  "genre": "children_bedtime_stories",
+  "category": "Children's Bedtime Stories — Vehicles & Animals (Episodic)",
+  "age_range": {
+    "minimum_years": 3,
+    "maximum_years": 4
+  },
+  "age_range_label": "Ages 3–4",
+  "primary_listener_age_years": 3,
+  "audience": "children",
+  "title": "The Little Ship That Went Ahead",
+  "synopsis": "An uncrewed delivery rocket sends Scout ahead. The robotic lander reaches a sunny near-side Moon site with a folded rover and antenna.",
+  "series_id": "brook-road-builders",
+  "season_number": 13,
+  "episode_number": 6,
+  "episode_order": 78,
+  "arc_id": "the-path-to-space",
+  "arc_title": "The Path to Space",
+  "arc_episode_number": 12,
+  "arc_episode_total": 18,
+  "story_form": "connected_space_adventure_with_familiar_animals_and_machinery",
+  "fiction_status": "original_speculative_fiction",
+  "narrator": {
+    "mode": "single_voice",
+    "character_voice_changes_required": false
+  },
+  "themes": [
+    "robot cargo delivery",
+    "lunar landing",
+    "solar-powered rover"
+  ],
+  "editorial_tone": "wonder_and_concrete_playfulness_to_quiet",
+  "assigned_moral": false,
+  "parent_guide": "PARENTS_GUIDE.md",
+  "world_bible": "WORLD_BIBLE.md",
+  "space_arc_bible": "SPACE_ARC_BIBLE.md",
+  "continuity_state": "Before: The trained crew and assembled Star One are preparing for their own launch; Scout has not yet flown. After: Scout has landed on the Moon and sent a working radio signal; folded rover and payload wait for checks and crew visit. No person or animal is on the Moon yet.",
+  "related_resources": [
+    {
+      "source_id": "nasa-surface-tech",
+      "reason": "Explains limited underlying technical mechanisms, not fictional mission eligibility or results."
+    },
+    {
+      "source_id": "nasa-moon-atmosphere",
+      "reason": "Explains limited underlying technical mechanisms, not fictional mission eligibility or results."
+    },
+    {
+      "source_id": "nasa-human-landers",
+      "reason": "Explains limited underlying technical mechanisms, not fictional mission eligibility or results."
+    }
+  ],
+  "rationale_citations": [
+    {
+      "story_anchor": "Sunlight can help make electrical power.",
+      "editorial_rationale": "Solar generation can power lunar surface hardware in daylight.",
+      "source_ids": [
+        "nasa-surface-tech"
+      ],
+      "evidence_scope": "Reference supports limited general science, transport, or engineering principles. The town, space center, animal and child passengers, mission timeline, hardware and results are fictional.",
+      "provenance": "technical_background_for_original_science_fiction_not_causal_evidence"
+    },
+    {
+      "story_anchor": "On the Moon there was almost no atmosphere to help slow a spacecraft, so Scout used its own engine to descend.",
+      "editorial_rationale": "Lunar landing uses powered descent rather than parachute atmospheric braking.",
+      "source_ids": [
+        "nasa-moon-atmosphere",
+        "nasa-human-landers"
+      ],
+      "evidence_scope": "Reference supports limited general science, transport, or engineering principles. The town, space center, animal and child passengers, mission timeline, hardware and results are fictional.",
+      "provenance": "technical_background_for_original_science_fiction_not_causal_evidence"
+    }
+  ],
+  "historical_claims": [],
+  "source_note": "Original speculative fiction. Young protagonists make a fictional crewed Moon flight with trained adults; actual NASA references ground only general science and infrastructure descriptions."
+}

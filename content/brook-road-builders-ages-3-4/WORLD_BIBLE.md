@@ -390,6 +390,55 @@ The one **new permanent object** is a **small clear-covered framed wooden neighb
 
 USGS mapping education and National Park Service cartographic symbols illustrate the principle of maps, recognizable features, legends and line styles. Existing manufacturers and technical guidance describe box trucks, hand trucks, dump trucks, compact loaders, liftgates and fire apparatus. Those sources do not verify the fictional layout, site work, load weights, signs or child outcomes. The town's solid-line/dotted-line convention is **the board's own explicit key**, not a universal sign standard.
 
+## Seasons Twelve through Fourteen — The Path to Space (067000–084000)
+
+### Larger fictional premise, without retconning the town
+
+A **single continuous 18-episode space-adventure arc** follows the Season Eleven picture-map picnic. The story expands to Star Harbor, a large coastal space center **far beyond Brook Road**, reached from the existing county highway that connects to the western side of town past the Red Door Garage. This is not a new road through Pine Park, the service lane, Little Bridge, the farm footpath or the gravel yard. The familiar town remains in the same place and the public picture map remains a **local map only**.
+
+The very advanced spacecraft and a future professional program capable of transporting **young animals and a young human child** are deliberate *speculative fiction*. The story is about a grand idea made possible by a large professional team, not about the historical qualifications, launch suitability, or actual safety of three-year-old lunar travelers. Rex, Gus, Jack and Molly observe work, train as special guests and explore in the adult crew's care; they do **not** operate heavy equipment, design real flight hardware, steer the rocket, or bypass safety checks. Rocket and spaceport work spans a long preparatory period, not one day or a single summer weekend.
+
+**Two new recurring adults:** **Dr. Ada**, owl engineer with round glasses, organizes the space project and remains at **mission control on Earth** throughout the flight; **Max**, an adult golden-furred dog and experienced professional pilot in a blue flight jacket, travels on the spacecraft with **Aunt Jo**, Rex, Gus, Jack and Molly. There are always **exactly six flight travelers**, four young friends and two adults. The broad, specially fitted future spacecraft and animal suits exist only in this series' fictional setting. Do not change the trained-adult crew requirement.
+
+### Earth geography and ground infrastructure
+
+- **Brook Road and vicinity:** the completed Pine Park picture-map board, original entrance sign, rain gauge, path, Pancake Hill, tall pine and bench; Little Bridge remains only for feet/paws; the red barn, dry shelter, stored hay, tractor, green wheelbarrow and Molly's blue rope remain at Green Gate Farm. Red Door Garage, Station Lane firehouse, Dan's parcel shed, Mr. Fred's gravel yard, existing roads and culvert remain. Rex's repaired wooden dump truck and blue front step, Gus's green cap, Jack's single blue notebook and both puppies' one-wag greeting persist.
+- **Distant Star Harbor:** the vehicle route follows a **county highway beyond the western garage junction** to the coast and branches onto a newly built heavy-access road. No working truck crosses Little Bridge. The spaceport has a protected launch area and flame trench, large rocket assembly building, launch tower, crawler road and crawler, service water/storage and suppression system, electrical/cooling/communication connections, ground test area, mission-control room and remote antennas, and distinct large-rocket and smaller cargo-launch facilities. Its construction and tests are done by specialists; the four young friends observe from visitor facilities or travel inside an approved crew vehicle with adults.
+- **Materials/roles:** Mr. Fred supplies some aggregate with a green dump truck; a grader and roller prepare the spaceport route; excavators and haul trucks move earth; mixers place foundation concrete; a tall construction crane hoists steel; adult pipe crews build suppression channels. Dan's existing blue box truck carries ordinary supplies; Ms. Pam, Mr. Lee and Captain Ann remain their preexisting professionals and are not retconned as flight engineers. There are large specialist delivery trucks and a slow **tracked crawler-transporter** for the rocket. The crawler **does not launch** and the truck roads stop on Earth.
+
+### Spacecraft, sequence and endpoint
+
+**Star One** is the fictional large white crew rocket/spacecraft. It consists of a staged launch vehicle, a pressurized, six-seat **return cabin** (for the trip from Earth and home again), and a separate roomy six-person **Moon lander**. Max pilots. At the Moon the return cabin stays in lunar orbit while **all six travelers descend together** in the lander; after the surface visit the lander **ascends and docks again**, and the crew returns to Earth in the return cabin. On Earth the capsule enters with heat protection, parachutes and an ocean recovery crew. These are simplified educational story beats, not schematics, fuel plans or specific real-world vehicles.
+
+**Scout** is a **separate, earlier uncrewed cargo lander**, carried by a smaller rocket from Star Harbor's smaller cargo-launch pad in 078000, to a **sunlit near-side landing area**. Scout holds a small four-wheeled rover, antenna, solar panels and simple instruments. It lands before any travelers do. Scout's lander stays on the lunar surface; its rover is commissioned in 083000, pauses safely before a small rock and follows a clearer route. The science site is a **small robotic station**, not a crewed house, grown-up settlement or breathable outdoor Moon environment. It can make electricity from sunlight while illuminated, stores some energy, works according to planned periods, and cannot be assumed to survive every full, cold lunar night without additional thermal provisions. A near-side site supports direct radio sight lines for the fictional project. The work station continues operating when the six travelers depart.
+
+**Lunar environment:** no breathable outdoor air, negligible atmospheric drag, no ordinary wind/rain, black sky in daylight, strong shadows, regolith/dust and weaker surface gravity. All six wear mission-specific pressure suits during the two short planned surface outings; no one takes off a helmet. Radio carries their speech. The pups cannot smell Moon rocks through the suit helmets. Do not conflate Earth's satellite with a world having trees, smells, weather or roads. The map drawn in Jack's notebook at the end shows a **route through space**, not an actual paved road from Pine Park to the Moon.
+
+### Episode-by-episode persistent state ledger
+
+| Episode | Canonical progress at end |
+|---|---|
+| 067000 | Jack looks beyond the public map; Dr. Ada introduces Star Harbor, the professional Moon project and the possible six-person expedition. |
+| 068000 | Aggregate, grader and roller begin the distant special heavy road; the road is fully ready after the subsequent work period. |
+| 069000 | Earthwork begins for the pad foundations and flame trench; excavators, haul trucks and concrete crew are working. |
+| 070000 | Tall crane erects assembly-building and tower sections; the wind pause is resolved without rushed lifting. |
+| 071000 | Star Harbor's large suppression-water test passes; support pipes, electricity, cooling and radio lines checked further. |
+| 072000 | Tower, assembly building, pad and mission control ready for rocket integration; Max introduced as adult pilot, Dr. Ada stays on Earth. |
+| 073000 | Large factory-built parts of Star One arrive on specialist transporters; staged rocket and return cabin/lander identified. |
+| 074000 | Remote engine test has a measurement discrepancy; measuring connection repaired, repeat readings pass, no pending fault. |
+| 075000 | Tracked crawler slowly carries assembled Star One to pad, then withdraws; rocket remains upright on launch structure. |
+| 076000 | Six seats and custom protective equipment practiced in cabin trainer; food, radios and adult crew duties identified. |
+| 077000 | Simulator with deliberate door-indicator condition is paused and resolved; future crew continues readiness checks. |
+| 078000 | Small uncrewed cargo rocket launches Scout; after days of travel Scout lands sunlit on Moon near side, rover folded awaiting use. |
+| 079000 | Star One crew launch pauses for sensor recheck then proceeds, reaches planned Earth orbit with all six travelers. |
+| 080000 | Star One departs Earth orbit toward the Moon; travelers sleep, communicate by radio and witness Earth getting smaller. |
+| 081000 | Star One reaches lunar orbit; all six transfer to and land in separate Moon lander near Scout; return cabin waits in orbit. |
+| 082000 | All six take short suited Moon walk, leave prints, see Earth; reenter lander and rest; scientific rover still awaiting deployment. |
+| 083000 | Rover opens and rolls; antenna, solar panels and temperature/light station checked; equipment left working beside Scout. |
+| 084000 | Lander ascends, redocks with return cabin; crew return to Earth via shielded reentry, parachute and ocean splashdown. All six arrive safely back in Brook Road. Rover and lunar station remain on the Moon. |
+
+**Technology source boundary:** NASA educational and facility descriptions support general launcher staging, ground systems, suppression water, lunar environment, radio, suit life support, surface power and return mechanisms. No citation establishes the fiction's Star Harbor or animal/child crew, six-person future spacecraft, schedules or mission results as real. Maintain narrative accuracy within the fictional premises without making it a construction or rocketry how-to.
+
 ## Authoring guardrails
 
 - Persistent geography, name spellings and object state survive across episodes and seasons. Never erase a completed project without a depicted reason.

@@ -185,6 +185,20 @@ Six chapters follow one connected idea: a young scientist and his animal friends
 
 **Technical-source scope:** USGS and the National Park Service support general maps and map-symbol ideas. Existing vehicle and equipment sources explain the box truck's rolling door, hand truck, tilt-bed toy action, compact loader bucket, liftgate and basic fire-engine/ladder distinctions. None of them verifies this imaginary town's roads or the child listener's development or sleep. New map symbols are a simple fictional choice, not a universal traffic or accessibility standard.
 
+## Seasons Twelve through Fourteen: The Path to Space (18-episode arc)
+
+These seasons should be heard in sequence. They are an intentionally grand **original science-fiction** adventure: after eleven seasons of building and learning about a neighborhood, Rex, Gus, Jack, Molly and Aunt Jo visit a large coastal spaceport with Dr. Ada and pilot Max. Through many construction and testing steps, Star Harbor becomes ready for launch. The four young friends then fly with two grown-ups in a specially designed future spacecraft, visit the Moon in suits, help establish a tiny robotic science station and return home. **Children or talking animal crew participating in actual lunar flight is not a real-world NASA practice or capability described by the references.** This is a fictional premise, not operational advice.
+
+- **Season 12 — The Road to Star Harbor:** six stories about a Moon question, heavy transport road, excavators and foundations, a huge crane and assembly building, the rocket-pad water system, radio and mission control. The work occurs away from familiar Pine Park and its pedestrian bridge.
+- **Season 13 — The Rocket and the Rover:** six stories about specialist component transport, an engine test and its recheck, the crawling launcher truck, six fitted seats and equipment, simulator checks, and a smaller **uncrewed** rover-delivery lander that reaches the Moon ahead of the travelers.
+- **Season 14 — The Moon and the Way Home:** six stories about crew launch, Earth seen from space, descent in the lunar lander, suits and low gravity on the Moon, a rover and science station that will continue working, and the return via lunar docking and ocean splashdown.
+
+The narration provides concrete sounds, wheels, movements, and animal perspectives rather than diagrams or a lecture on astrophysics. Some technical terms appear because the story needs them: **rocket, engine, crawler, pad, antenna, radio, lander, orbit, Moon gravity and rover**. They are explained in nearby context without requiring the listener to know orbital mechanics. Gus's biscuit comparisons remain jokes; Rex's inability to smell through a suit becomes part of his experience; Jack's notebook brings the old projects into the new adventure.
+
+**Optional conversation ideas:** What makes a crawler different from a rocket? Why does the Moon rover need power? Why do the friends wear helmets outside the lander? What places do they still have on Earth? It is also fine to skip questions entirely.
+
+**Reference boundaries:** NASA pages support underlying physics and system categories, not the fictional animal astronaut eligibility, timeline, invented Star Harbor infrastructure specifications, the safety of a custom six-person crew ship, or empirical claims about childhood learning or bedtime quality. The story does not describe home rocket construction. Adults lead real machine, flight, suit and mission work inside the fiction. The complete state ledger is in `SPACE_ARC_BIBLE.md` and `WORLD_BIBLE.md`.
+
 ## Why there are sources
 
 - **Machine functions:** Caterpillar's equipment descriptions were consulted to avoid confusing bulldozers, diggers, loaders, trucks and compactors. These are general equipment facts; the fictional site is not an engineering case study and the passages are not operation instructions.

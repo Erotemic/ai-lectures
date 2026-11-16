@@ -1,3 +1,11 @@
+# Brook Road Builders — completed 14-season canon and future directions (not spoken)
+
+**The Path to Space is complete as one eighteen-episode arc, 067000–084000, spanning three seasons.** It follows eleven prior seasons, which remain canon unchanged. Season Twelve builds distant coastal Star Harbor; Season Thirteen prepares the crew rocket and sends the Scout robotic delivery mission; Season Fourteen puts the four young friends and two trained adults on the Moon, establishes a small rover research station and returns everyone safely to Brook Road. The spaceflight of young animals and a young child is speculative fiction. See `WORLD_BIBLE.md` and `SPACE_ARC_BIBLE.md` for all continuing facts.
+
+**Potential continuation (none committed):** The lunar rover may send a new discovery or photograph back to Dr. Ada's mission control; Rex and Molly can follow that news while maintaining their farm-and-park routines. The existing town can also continue with smaller-scale construction jobs and genuine vehicle variety. A further crewed flight would require a distinct adult-led project and additional hardware, not a magically reused launch vehicle. Story arcs should have consequences, not reset the world.
+
+---
+
 # Brook Road Builders — future seasons and story backlog (not spoken)
 
 The completed canon comprises Season One (Pine Park, 001000–006000), Season Two (The Little Bridge, 007000–012000), and Season Three (Farm Workdays, 013000–018000), Season Four (The Garage with the Red Door, 019000–024000), and Season Five (The Delivery Route, 025000–030000), Season Six (After the Rain, 031000–036000), Season Seven (Firehouse Open Day, 037000–042000), Season Eight (Snow Trucks, 043000–048000), Season Nine (Where the Gravel Comes From, 049000–054000), Season Ten (The Big Barn Fix, 055000–060000), and Season Eleven (One Long Road, 061000–066000). All eleven seasons listed here are completed canon; later directions are optional and cannot overwrite earlier places, objects or character relationships. See `WORLD_BIBLE.md` for what is actually established and `SERIES_ATLAS.md` for route/character/vehicle expansion notes.
