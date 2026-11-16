@@ -96,6 +96,12 @@ This is an independent, source-grounded, audio-first world-history curriculum fo
 | 039200 | A Room behind the Screen: Women, Writing, and Power at the Heian Court | 1,357 |
 | 040000 | Reading the Ocean: Voyaging and Settlement in the Pacific | 1,359 |
 | 040100 | Country, Water, and Fire: Different Histories of Australia before Colonization | 1,189 |
+| 040200 | Before the Distant Islands: Lapita Households and the First Remote Ocean Voyages | 1,187 |
+| 040210 | Stone from Faraway Shores: Tonga, Samoa, and Maritime Power | 1,101 |
+| 040220 | Islands Made by Hand: Nan Madol and the Histories of Pohnpei | 1,055 |
+| 040230 | Gardens among the Stones: Rapa Nui before European Arrival | 1,107 |
+| 040240 | A New Land with Old Skills: The First Māori Centuries in Aotearoa | 1,030 |
+| 040250 | Fields between Rain and Sea: Farming and Authority in Early Hawaiʻi | 1,032 |
 | 041000 | Many Khans, Many Empires: Conquest and Government across Eurasia | 1,341 |
 | 042000 | A Disease with Many Histories: Plague across the Fourteenth-Century World | 1,342 |
 | 043000 | More than a Pilgrimage: Mali, the Sahel, and the Work of Empire | 1,297 |
@@ -222,3 +228,7 @@ Six further lectures (`036920`–`036970`) examine Kalambo's temporally distinct
 ## Fifteenth regional-depth installment - southern Congo archaeology and later Luba histories (November 2026)
 
 Six standalone lectures (`036980`, `036982`, `036984`, `036986`, `036988`, `036990`) bridge medieval Upemba archaeology to the documentary and oral-historical study of later Luba and Lunda political institutions. Two focus on the separate Kwilu-Kasai evidence, not a demonstrated continuous link to Upemba. **156 indexed lectures** total. The 60 new spoken paragraphs each map to non-Wikipedia sources with paragraph-specific evidence limits; Wikipedia articles are supplemental. No previous manuscript or per-lecture evidence JSON was modified.
+
+## Sixteenth regional-depth installment — Pacific histories beyond the survey (November 2026)
+
+Six new standalone Pacific lectures use `040200`–`040250`: Lapita families and migration; Tongan political exchange; Nan Madol and new monument dates; Rapa Nui agriculture and demography; early Māori settlement and Rangitāne repatriation; and pre-1500 Kohala farming. The indexed pack now contains **162 lectures**. Every new spoken paragraph has non-Wikipedia evidence mapping, and supplementary Wikipedia links are supplied separately. All preceding transcripts and individual metadata remain unchanged.

@@ -353,3 +353,18 @@ The pack now holds **150 indexed lectures**, including 144 unchanged predecessor
 **Editorial boundaries:** The 2025 Kwilu-Kasai chapter reports 152 new sites, a Luani Late Stone Age funerary pot, dated Idiofa early iron, and a later local decline in dated activity. Its sites do not identify speech communities, dynastic founders or a direct route to the Upemba wetlands. Upemba's Kabambian A/B graves overlap the medieval/early modern boundary, but surviving records of Luba royal government and memory boards chiefly concern later centuries. David Gordon's study documents nineteenth-century retellings, not an established sixteenth-century marriage date.
 
 **Further candidates:** Domestic archaeology between the Lualaba and Lomami; dated workshop contexts to test continuity with Luba metalworking; material and linguistic histories of communities around the Sankuru; pre-1500 Congo basin river transport without projecting later political borders. Reassess accessible primary research before adding more lectures.
+
+## Sixteenth regional-depth installment — Pacific history and geographic rebalancing (November 2026)
+
+After five nearly continuous African regional-depth campaigns, the next phase deliberately broadens the curriculum geographically. The Pacific previously had a general settlement survey and one Australia-specific treatment, leaving considerable chronological and regional detail uncovered.
+
+| ID | New lecture | Main source-based problem |
+| --- | --- | --- |
+| 040200 | Before the Distant Islands: Lapita Households and the First Remote Ocean Voyages | Lapita pottery, Teouma chronology and genetic turnover; archaeological culture does not equal an unchanged population. |
+| 040210 | Stone from Faraway Shores: Tonga, Samoa, and Maritime Power | Heketa and Lapaha Tongan stone-center chronology; imported adze fragments document routes, not total island sovereignty. |
+| 040220 | Islands Made by Hand: Nan Madol and the Histories of Pohnpei | Nan Madol, 2016 coral dates and 2024 phased rebuilding; environmental causation remains proposed. |
+| 040230 | Gardens among the Stones: Rapa Nui before European Arrival | Rapa Nui rock gardens and ancient-genomic tests of collapse, with the limits of modeled demographic inference. |
+| 040240 | A New Land with Old Skills: The First Māori Centuries in Aotearoa | Aotearoa settlement dating, Wairau Bar village archaeology, and Rangitāne o Wairau repatriation histories. |
+| 040250 | Fields between Rain and Sea: Farming and Authority in Early Hawaiʻi | Windward and leeward Hawaiʻi, Kohala fields, houses, and the much later peak of agricultural intensification. |
+
+**Next geographic rotations:** Mesoamerica (Oaxaca and Purépecha social histories), South Asia (regional institutions and everyday work), then East/Central Asia or medieval Europe and the Middle East, returning to Africa after these gaps receive attention. Select the next region by coverage and significance, rather than aiming for uniform continental quotas. Preserve pre-1500 chronology and explicit source records.
