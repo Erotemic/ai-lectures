@@ -232,6 +232,9 @@ Hatshepsut's story begins with a succession problem and ends with a problem of h
 6. UCLA Digital Karnak, "Obelisks of Wadjet Hall" and "Red Chapel." https://digitalkarnak.ucsc.edu/obelisks-of-wadjet-hall/ and https://digitalkarnak.ucsc.edu/red-chapel/
 7. Metropolitan Museum of Art, "The Female Pharaoh Hatshepsut," object 29.3.3. https://www.metmuseum.org/art/collection/search/544849
 8. National Museum of Egyptian Civilization, "Hatshepsut." https://nmec.gov.eg/mummies-hall/hatshepsut/
+9. Wikipedia, "Hatshepsut." General entry point for the lecture's main subject. https://en.wikipedia.org/wiki/Hatshepsut
+10. Wikipedia, "Punt." General entry point for the land of the Punt expeditions. https://en.wikipedia.org/wiki/Punt
+11. Wikipedia, "Deir el-Bahri." General entry point for the temple site at Thebes. https://en.wikipedia.org/wiki/Deir_el-Bahri
 
 ### Pronunciation guidance (editorial)
 
