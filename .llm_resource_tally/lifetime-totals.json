@@ -19,29 +19,29 @@
     "non_committing_work": "requires_reconcile",
     "compaction_usage": "measured_signals_only_when_runtime_omits_usage"
   },
-  "through": "2026-11-16T21:12:01.993934+00:00",
-  "ledger_rows": 117,
-  "commits_accounted": 112,
-  "turns": 1000,
+  "through": "2026-11-16T21:21:45.630640+00:00",
+  "ledger_rows": 121,
+  "commits_accounted": 114,
+  "turns": 1025,
   "tokens": {
-    "input": 3532147,
+    "input": 3808679,
     "cache_write": 0,
-    "cache_read": 148853056,
-    "output": 1098879,
-    "billable_input": 152385203
+    "cache_read": 150421760,
+    "output": 1114559,
+    "billable_input": 154230439
   },
   "by_model": {
     "gpt-6.1-sol": {
-      "input": 1575576,
+      "input": 1645705,
       "cache_write": 0,
-      "cache_read": 120100608,
-      "output": 654771
+      "cache_read": 121012864,
+      "output": 663333
     },
     "litellm/qwen3.8-27b-dbirks-hyperqwen-long": {
-      "input": 1910485,
+      "input": 2116888,
       "cache_write": 0,
-      "cache_read": 28619968,
-      "output": 437724
+      "cache_read": 29276416,
+      "output": 444842
     },
     "litellm/qwen3.8-27b-dbirks-hyperqwen-huge": {
       "input": 46086,
@@ -52,24 +52,24 @@
   },
   "by_activity": {
     "unlabeled": {
-      "input": 3532147,
+      "input": 3808679,
       "cache_write": 0,
-      "cache_read": 148853056,
-      "output": 1098879
+      "cache_read": 150421760,
+      "output": 1114559
     }
   },
   "by_agent": {
     "codex": {
-      "input": 1575576,
+      "input": 1645705,
       "cache_write": 0,
-      "cache_read": 120100608,
-      "output": 654771
+      "cache_read": 121012864,
+      "output": 663333
     },
     "pi": {
-      "input": 1956571,
+      "input": 2162974,
       "cache_write": 0,
-      "cache_read": 28752448,
-      "output": 444108
+      "cache_read": 29408896,
+      "output": 451226
     }
   },
   "server_tool_calls": {
@@ -77,7 +77,7 @@
     "web_fetch": 0
   },
   "time": {
-    "wall_clock_s": 37612.8
+    "wall_clock_s": 38409.5
   },
   "compaction_signals": {
     "events": 0,
