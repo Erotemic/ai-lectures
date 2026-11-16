@@ -1,0 +1,35 @@
+{
+  "id": "differential-equations",
+  "title": "Differential Equations and Dynamical Systems",
+  "summary": "Ordinary differential equations and dynamical systems: initial-value problems, existence and uniqueness, phase portraits, oscillations, stability, nonlinear dynamics and numerical integration, later partial differential equations.",
+  "assumed_background": [
+    "derivatives, elementary algebra, and basic functions; exponentials are reviewed"
+  ],
+  "categories": [
+    "Mathematics"
+  ],
+  "sections": [
+    "initial-value-problems",
+    "phase-line-stability"
+  ],
+  "lectures": [
+    {
+      "id": "001000",
+      "title": "Differential Equations: Rates, Initial Conditions, and Uniqueness",
+      "section": "initial-value-problems",
+      "file": "001000-state-rates-and-initial-data.md",
+      "spoken_words": 1547,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 10.7
+    },
+    {
+      "id": "002000",
+      "title": "Phase Lines and Stability: Predicting Motion Without Solving an Equation",
+      "section": "phase-line-stability",
+      "file": "002000-phase-lines-and-stability.md",
+      "spoken_words": 1494,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 10.3
+    }
+  ]
+}

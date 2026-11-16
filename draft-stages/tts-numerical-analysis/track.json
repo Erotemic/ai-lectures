@@ -12,7 +12,8 @@
     "backward-stability",
     "root-finding",
     "linear-algebra",
-    "error-certificates"
+    "error-certificates",
+    "interpolation-and-approximation"
   ],
   "lectures": [
     {
@@ -77,6 +78,15 @@
       "spoken_words": 1844,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 12.7
+    },
+    {
+      "id": "008000",
+      "title": "Interpolation: Why More Data Points Can Make an Approximation Worse",
+      "section": "interpolation-and-approximation",
+      "file": "008000-interpolation-nodes-and-conditioning.md",
+      "spoken_words": 1625,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 11.2
     }
   ]
 }

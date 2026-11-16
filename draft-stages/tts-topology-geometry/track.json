@@ -1,0 +1,35 @@
+{
+  "id": "topology-geometry",
+  "title": "Topology and Geometry",
+  "summary": "Open-set topology, compactness, connectedness, quotient spaces, fundamental groups and manifolds, leading toward algebraic topology and differential geometry.",
+  "assumed_background": [
+    "familiarity with real-number intervals, functions and a few proofs; core definitions are reintroduced"
+  ],
+  "categories": [
+    "Mathematics"
+  ],
+  "sections": [
+    "open-sets-continuity",
+    "compactness-connectedness"
+  ],
+  "lectures": [
+    {
+      "id": "001000",
+      "title": "Open Sets and Continuity: Geometry Without a Ruler",
+      "section": "open-sets-continuity",
+      "file": "001000-open-sets-and-continuity.md",
+      "spoken_words": 1465,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 10.1
+    },
+    {
+      "id": "002000",
+      "title": "Compactness and Connectedness: Two Global Consequences of Open Sets",
+      "section": "compactness-connectedness",
+      "file": "002000-compactness-and-connectedness.md",
+      "spoken_words": 1483,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 10.2
+    }
+  ]
+}

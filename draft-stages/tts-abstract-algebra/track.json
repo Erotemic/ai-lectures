@@ -1,0 +1,55 @@
+{
+  "id": "abstract-algebra",
+  "title": "Abstract Algebra: Structure, Symmetry, and Arithmetic",
+  "summary": "Groups, homomorphisms, quotients, actions, modular arithmetic, rings and fields, growing toward Galois theory, representation theory, commutative algebra and homological algebra.",
+  "assumed_background": [
+    "integer arithmetic, elementary algebra, and some practice following proofs"
+  ],
+  "categories": [
+    "Mathematics"
+  ],
+  "sections": [
+    "groups-and-symmetry",
+    "homomorphisms-and-quotients",
+    "group-actions",
+    "modular-arithmetic"
+  ],
+  "lectures": [
+    {
+      "id": "001000",
+      "title": "Symmetry and Groups: Why Composition Creates Structure",
+      "section": "groups-and-symmetry",
+      "file": "001000-symmetry-and-groups.md",
+      "spoken_words": 1457,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 10.0
+    },
+    {
+      "id": "002000",
+      "title": "Homomorphisms, Kernels, and Quotients: The Structure a Map Preserves",
+      "section": "homomorphisms-and-quotients",
+      "file": "002000-homomorphisms-and-quotients.md",
+      "spoken_words": 1454,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 10.0
+    },
+    {
+      "id": "003000",
+      "title": "Group Actions, Orbits, and Counting Symmetry",
+      "section": "group-actions",
+      "file": "003000-group-actions-and-orbits.md",
+      "spoken_words": 1289,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 8.9
+    },
+    {
+      "id": "004000",
+      "title": "Divisibility, the Euclidean Algorithm, and Arithmetic Modulo n",
+      "section": "modular-arithmetic",
+      "file": "004000-euclidean-algorithm-and-modular-arithmetic.md",
+      "spoken_words": 1450,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 10.0
+    }
+  ]
+}

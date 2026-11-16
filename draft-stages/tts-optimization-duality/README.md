@@ -11,10 +11,10 @@
 - 003000: [Linear Programming and Duality: Two Answers That Certify Each Other](003000-linear-programming-duality.md) (3,156 spoken words; ~22 minutes).
 
 - 004000: [Lagrange Multipliers and KKT Conditions: When Local Equations Certify an Optimum](004000-kkt-conditions-and-constraint-qualifications.md) (3,001 spoken words; ~21 minutes).
+- 005000: [Gradient Descent, Smoothness, and the Price of Poor Conditioning](005000-gradient-descent-and-conditioning.md) (1,603 spoken words; measured ~11 minutes at 145 words per minute).
 
 ## Planned continuation
 
-- 005000: Gradient Methods, Conditioning, and Convergence
 - 006000: Proximal Algorithms and Nonsmooth Convexity
 - 007000: Spectral and Semidefinite Optimization
 - 008000: Discrete Optimization, Relaxations, and Approximation

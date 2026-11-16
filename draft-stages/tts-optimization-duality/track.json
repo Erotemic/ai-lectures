@@ -9,7 +9,8 @@
     "optimization-certificates",
     "convex-geometry",
     "linear-duality",
-    "kkt-conditions"
+    "kkt-conditions",
+    "first-order-methods"
   ],
   "lectures": [
     {
@@ -47,6 +48,15 @@
       "spoken_words": 3001,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 20.7
+    },
+    {
+      "id": "005000",
+      "title": "Gradient Descent, Smoothness, and the Price of Poor Conditioning",
+      "section": "first-order-methods",
+      "file": "005000-gradient-descent-and-conditioning.md",
+      "spoken_words": 1603,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 11.1
     }
   ]
 }

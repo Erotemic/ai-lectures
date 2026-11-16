@@ -1,0 +1,35 @@
+{
+  "id": "discrete-mathematics",
+  "title": "Discrete Mathematics and Combinatorics",
+  "summary": "Finite structures and counting arguments, progressing from bijections and double counting through graph theory, generating functions, recurrences, matching, matroids and extremal combinatorics. Distinct from the Algorithms course: mathematical structure and proof first.",
+  "assumed_background": [
+    "finite sets, algebra, and willingness to follow an elementary proof"
+  ],
+  "categories": [
+    "Mathematics"
+  ],
+  "sections": [
+    "bijections-and-counting",
+    "inclusion-exclusion"
+  ],
+  "lectures": [
+    {
+      "id": "001000",
+      "title": "Bijections and Double Counting: Proving Equations by Counting Objects",
+      "section": "bijections-and-counting",
+      "file": "001000-bijections-and-double-counting.md",
+      "spoken_words": 1430,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 9.9
+    },
+    {
+      "id": "002000",
+      "title": "Inclusion–Exclusion: Counting When Cases Overlap",
+      "section": "inclusion-exclusion",
+      "file": "002000-inclusion-exclusion-and-derangements.md",
+      "spoken_words": 1466,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 10.1
+    }
+  ]
+}
