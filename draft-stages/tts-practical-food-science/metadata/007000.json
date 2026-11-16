@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "lecture_id": "007000",
+  "transcript": "007000-food-storage-thermometers-and-cross-contamination.md",
+  "related_resources": [
+    {
+      "source_id": "foodsafety-four-steps",
+      "reason": "Clean, separate, cook, chill; 40°F refrigeration, 0°F freezer and 2-hour/1-hour rules"
+    },
+    {
+      "source_id": "fsis-thermometer",
+      "reason": "Measurement in thickest relevant portion of food"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P007000-01",
+      "claim": "Home food-safety prevention is organized around cleaning, separating, cooking and chilling.",
+      "kind": "food_safety_guidance",
+      "supports": [
+        {
+          "source_id": "foodsafety-four-steps",
+          "location": "Clean, Separate, Cook, Chill sections",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "claim_mapped_to_original_issuer_or_authoritative_publisher; subject_matter_review_pending",
+      "limits": "Within the cited source scope; jurisdictional, equipment-specific, and professional application must be verified separately.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P007000-02",
+      "claim": "General US household guidance sets refrigeration at 40°F or below and food refrigeration deadlines of 2 hours, or 1 hour above 90°F ambient.",
+      "kind": "food_safety_guidance",
+      "supports": [
+        {
+          "source_id": "foodsafety-four-steps",
+          "location": "Chill: temperatures and time limits",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "claim_mapped_to_original_issuer_or_authoritative_publisher; subject_matter_review_pending",
+      "limits": "Within the cited source scope; jurisdictional, equipment-specific, and professional application must be verified separately.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P007000-03",
+      "claim": "A suitable food thermometer is necessary to evaluate the internal cooking temperature rather than relying on appearance.",
+      "kind": "food_safety_guidance",
+      "supports": [
+        {
+          "source_id": "fsis-thermometer",
+          "location": "USDA FSIS: thermometer use to measure internal temperature",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "foodsafety-four-steps",
+          "location": "Cook: temperature checks",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "claim_mapped_to_original_issuer_or_authoritative_publisher; subject_matter_review_pending",
+      "limits": "Within the cited source scope; jurisdictional, equipment-specific, and professional application must be verified separately.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_technical_review_pending",
+  "citation_policy": "Original researchers and issuers credited; source-backed claim versus author synthesis distinguished; local adopted requirements and professional certification not implied."
+}

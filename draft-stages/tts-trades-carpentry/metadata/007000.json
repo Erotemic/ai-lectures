@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "lecture_id": "007000",
+  "transcript": "007000-windows-doors-trim-and-movement.md",
+  "related_resources": [
+    {
+      "source_id": "pnnl-window-full-flashing",
+      "reason": "Sill pan, jamb and head flashing integrated with drainage layer"
+    },
+    {
+      "source_id": "pnnl-loadpath",
+      "reason": "Gravity and lateral loads, openings, headers and connectors; cites FEMA P-804"
+    },
+    {
+      "source_id": "usda-drying",
+      "reason": "Moisture content, equilibrium, shrinkage and storage"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P007000-01",
+      "claim": "Window and door flashing needs shingle-style integration of sill, jamb and head with the wall drainage layer.",
+      "kind": "construction_detail",
+      "supports": [
+        {
+          "source_id": "pnnl-window-full-flashing",
+          "location": "Scope and Description: sill pan, jamb/head flashing, drainage plane integration",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "claim_mapped_to_original_issuer_or_authoritative_publisher; subject_matter_review_pending",
+      "limits": "Within the cited source scope; jurisdictional, equipment-specific, and professional application must be verified separately.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P007000-02",
+      "claim": "Opening modifications must preserve structural support and load transfer around the product.",
+      "kind": "structural_load_path",
+      "supports": [
+        {
+          "source_id": "pnnl-loadpath",
+          "location": "Continuous load path through wall framing and connections",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "claim_mapped_to_original_issuer_or_authoritative_publisher; subject_matter_review_pending",
+      "limits": "Within the cited source scope; jurisdictional, equipment-specific, and professional application must be verified separately.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P007000-03",
+      "claim": "Wood moisture changes can alter dimensions and alignment of frames and trim.",
+      "kind": "wood_material_behavior",
+      "supports": [
+        {
+          "source_id": "usda-drying",
+          "location": "Moisture and dimensional change of wood material",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "claim_mapped_to_original_issuer_or_authoritative_publisher; subject_matter_review_pending",
+      "limits": "Within the cited source scope; jurisdictional, equipment-specific, and professional application must be verified separately.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_technical_review_pending",
+  "citation_policy": "Original researchers and issuers credited; source-backed claim versus author synthesis distinguished; local adopted requirements and professional certification not implied."
+}

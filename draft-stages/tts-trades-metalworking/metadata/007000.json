@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "lecture_id": "007000",
+  "transcript": "007000-corrosion-and-outdoor-fabrication.md",
+  "related_resources": [
+    {
+      "source_id": "ampp-galvanic-corrosion",
+      "reason": "Galvanic anode/cathode/electrolyte mechanisms and dissimilar-metal contact"
+    },
+    {
+      "source_id": "nasa-crews-fatigue",
+      "reason": "Fatigue cracking under cyclic loading and geometric stress concentration"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P007000-01",
+      "claim": "Galvanic attack can be driven by dissimilar conductive materials coupled in an electrolyte.",
+      "kind": "corrosion_mechanism",
+      "supports": [
+        {
+          "source_id": "ampp-galvanic-corrosion",
+          "location": "Galvanic corrosion: anode/cathode, electrical connection and electrolyte",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "claim_mapped_to_original_issuer_or_authoritative_publisher; subject_matter_review_pending",
+      "limits": "Within the cited source scope; jurisdictional, equipment-specific, and professional application must be verified separately.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P007000-02",
+      "claim": "Outdoor dissimilar-metal contact and water retention should be considered together when designing and coating a joint.",
+      "kind": "derived_corrosion_design",
+      "supports": [
+        {
+          "source_id": "ampp-galvanic-corrosion",
+          "location": "Galvanic couple in corrosive electrolyte; assembly design synthesis",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "claim_mapped_to_original_issuer_or_authoritative_publisher; subject_matter_review_pending",
+      "limits": "The author’s explanation is synthesized from source-backed premises, not a quotation or independent certification.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P007000-03",
+      "claim": "Stress concentrations and cyclic loads can create fatigue cracking in fabricated components.",
+      "kind": "fatigue_mechanics",
+      "supports": [
+        {
+          "source_id": "nasa-crews-fatigue",
+          "location": "NASA TM: cyclic loading and stress concentrations",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "claim_mapped_to_original_issuer_or_authoritative_publisher; subject_matter_review_pending",
+      "limits": "Within the cited source scope; jurisdictional, equipment-specific, and professional application must be verified separately.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_technical_review_pending",
+  "citation_policy": "Original researchers and issuers credited; source-backed claim versus author synthesis distinguished; local adopted requirements and professional certification not implied."
+}

@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "lecture_id": "007000",
+  "transcript": "007000-acceptance-criteria-and-documentation.md",
+  "related_resources": [
+    {
+      "source_id": "ftc-improvement",
+      "reason": "Written estimates, contracts, licenses and payment caution"
+    },
+    {
+      "source_id": "ftc-disaster",
+      "reason": "Licensing/insurance verification and comparable written bids"
+    },
+    {
+      "source_id": "nysenate-gbl771",
+      "reason": "Writing and signatures for home-improvement contract amendments under specific state law"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P007000-01",
+      "claim": "Consumer home-improvement contracts should describe work scope, timeline, payments and relevant promises.",
+      "kind": "consumer_contractor_guidance",
+      "supports": [
+        {
+          "source_id": "ftc-improvement",
+          "location": "FTC contract checklist and estimate comparison",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "claim_mapped_to_original_issuer_or_authoritative_publisher; subject_matter_review_pending",
+      "limits": "Within the cited source scope; jurisdictional, equipment-specific, and professional application must be verified separately.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P007000-02",
+      "claim": "The FTC advises against final payment before work is completed to the customer’s satisfaction and preserving invoices/receipts.",
+      "kind": "consumer_contractor_guidance",
+      "supports": [
+        {
+          "source_id": "ftc-disaster",
+          "location": "FTC: How To Pay for Repairs / final payment advice",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "claim_mapped_to_original_issuer_or_authoritative_publisher; subject_matter_review_pending",
+      "limits": "Within the cited source scope; jurisdictional, equipment-specific, and professional application must be verified separately.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P007000-03",
+      "claim": "Jurisdiction-specific contract provisions and change orders need written scope and compliance review.",
+      "kind": "legal_consumer_guidance",
+      "supports": [
+        {
+          "source_id": "nysenate-gbl771",
+          "location": "NY General Business Law §771, New York-specific contract provisions",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "ftc-improvement",
+          "location": "FTC reminder that contract requirements vary by state",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "claim_mapped_to_original_issuer_or_authoritative_publisher; subject_matter_review_pending",
+      "limits": "Within the cited source scope; jurisdictional, equipment-specific, and professional application must be verified separately.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_technical_review_pending",
+  "citation_policy": "Original researchers and issuers credited; source-backed claim versus author synthesis distinguished; local adopted requirements and professional certification not implied."
+}

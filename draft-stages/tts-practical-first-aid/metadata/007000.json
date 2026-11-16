@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "lecture_id": "007000",
+  "transcript": "007000-preparation-kits-and-emergency-communication.md",
+  "related_resources": [
+    {
+      "source_id": "redcross-emergency-plan",
+      "reason": "Household communication, meeting places, roles, and practice"
+    },
+    {
+      "source_id": "redcross-emergency-kit",
+      "reason": "Emergency kit essentials, medications, communications and household adaptation"
+    },
+    {
+      "source_id": "rc-first-aid",
+      "reason": "Check, Call, Care and emergency activation"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P007000-01",
+      "claim": "A household plan should name responsibilities, contacts, meeting places and a rehearsed response for likely emergencies.",
+      "kind": "first_aid_preparedness_guidance",
+      "supports": [
+        {
+          "source_id": "redcross-emergency-plan",
+          "location": "Create emergency plan steps, household roles and two meeting places",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "claim_mapped_to_original_issuer_or_authoritative_publisher; subject_matter_review_pending",
+      "limits": "Within the cited source scope; jurisdictional, equipment-specific, and professional application must be verified separately.",
+      "professional_review": "clinical_editorial_review_required_before_authoritative_use"
+    },
+    {
+      "claim_id": "P007000-02",
+      "claim": "Emergency supply kits should be accessible and tailored to medications, communication needs and household members.",
+      "kind": "first_aid_preparedness_guidance",
+      "supports": [
+        {
+          "source_id": "redcross-emergency-kit",
+          "location": "Survival kit supplies and household-specific additions",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "claim_mapped_to_original_issuer_or_authoritative_publisher; subject_matter_review_pending",
+      "limits": "Within the cited source scope; jurisdictional, equipment-specific, and professional application must be verified separately.",
+      "professional_review": "clinical_editorial_review_required_before_authoritative_use"
+    },
+    {
+      "claim_id": "P007000-03",
+      "claim": "First-aid preparation includes prompt emergency activation and care within training while responders are on the way.",
+      "kind": "clinical_first_aid_guidance",
+      "supports": [
+        {
+          "source_id": "rc-first-aid",
+          "location": "American Red Cross first aid steps; call help and provide care",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "redcross-emergency-plan",
+          "location": "Planning, roles and practice",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "claim_mapped_to_original_issuer_or_authoritative_publisher; subject_matter_review_pending",
+      "limits": "Within the cited source scope; jurisdictional, equipment-specific, and professional application must be verified separately.",
+      "professional_review": "clinical_editorial_review_required_before_authoritative_use"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_technical_review_pending",
+  "citation_policy": "Original researchers and issuers credited; source-backed claim versus author synthesis distinguished; local adopted requirements and professional certification not implied."
+}

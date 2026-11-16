@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "lecture_id": "007000",
+  "transcript": "007000-basements-foundations-and-groundwater.md",
+  "related_resources": [
+    {
+      "source_id": "pnnl-basement-drain",
+      "reason": "Footing drainage, sump pit, below-floor water management and discharge"
+    },
+    {
+      "source_id": "doe-air-vapor",
+      "reason": "Separate air leakage, vapor diffusion and water-management functions"
+    },
+    {
+      "source_id": "cdc-mold",
+      "reason": "Moisture as a prerequisite for indoor mold growth"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P007000-01",
+      "claim": "Subgrade footing drains and covered sump systems can remove collected water near or below the interior basement floor.",
+      "kind": "building_water_control",
+      "supports": [
+        {
+          "source_id": "pnnl-basement-drain",
+          "location": "Scope and Description: footing drain and sump as bulk-water collection and removal",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "claim_mapped_to_original_issuer_or_authoritative_publisher; subject_matter_review_pending",
+      "limits": "Within the cited source scope; jurisdictional, equipment-specific, and professional application must be verified separately.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P007000-02",
+      "claim": "Air and vapor pathways require different analysis from liquid rainwater and groundwater pathways.",
+      "kind": "derived_building_physics",
+      "supports": [
+        {
+          "source_id": "doe-air-vapor",
+          "location": "Air barriers vs vapor barriers: distinction; applied to basement moisture in the author’s synthesis",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "claim_mapped_to_original_issuer_or_authoritative_publisher; subject_matter_review_pending",
+      "limits": "The author’s explanation is synthesized from source-backed premises, not a quotation or independent certification.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P007000-03",
+      "claim": "The correct moisture strategy depends on active water sources and the assembly, not only the visible wet finish.",
+      "kind": "derived_building_diagnosis",
+      "supports": [
+        {
+          "source_id": "pnnl-basement-drain",
+          "location": "Description: water collection and site conditions",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "cdc-mold",
+          "location": "Moisture control and indoor mold context",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "claim_mapped_to_original_issuer_or_authoritative_publisher; subject_matter_review_pending",
+      "limits": "The author’s explanation is synthesized from source-backed premises, not a quotation or independent certification.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_technical_review_pending",
+  "citation_policy": "Original researchers and issuers credited; source-backed claim versus author synthesis distinguished; local adopted requirements and professional certification not implied."
+}

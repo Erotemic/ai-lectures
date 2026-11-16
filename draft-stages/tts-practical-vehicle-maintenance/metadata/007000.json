@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "lecture_id": "007000",
+  "transcript": "007000-sensor-codes-measurements-and-diagnosing-faults.md",
+  "related_resources": [
+    {
+      "source_id": "sae-dtc-j2012-2025",
+      "reason": "Standardized DTC definitions; standards page abstract, full text may require purchase"
+    },
+    {
+      "source_id": "epa-obd-procedures",
+      "reason": "Malfunction indicator, trouble code and freeze-frame evidence; jurisdiction-specific inspection criteria"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P007000-01",
+      "claim": "SAE J2012 standardizes DTC definitions for monitored faults, not a universal part-replacement procedure.",
+      "kind": "automotive_standard_context",
+      "supports": [
+        {
+          "source_id": "sae-dtc-j2012-2025",
+          "location": "SAE J2012 scope: definitions of DTCs when malfunctions are detected",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "claim_mapped_to_original_issuer_or_authoritative_publisher; subject_matter_review_pending",
+      "limits": "Within the cited source scope; jurisdictional, equipment-specific, and professional application must be verified separately.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P007000-02",
+      "claim": "OBD systems may store a DTC with operating conditions when an emissions-related malfunction is detected.",
+      "kind": "obd_diagnostic_guidance",
+      "supports": [
+        {
+          "source_id": "epa-obd-procedures",
+          "location": "OBDII test procedure introduction: MIL, DTC, engine operating conditions",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "claim_mapped_to_original_issuer_or_authoritative_publisher; subject_matter_review_pending",
+      "limits": "Within the cited source scope; jurisdictional, equipment-specific, and professional application must be verified separately.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P007000-03",
+      "claim": "A code must be interpreted against measurements and symptoms because multiple physical mechanisms can yield similar sensed outcomes.",
+      "kind": "derived_vehicle_diagnosis",
+      "supports": [
+        {
+          "source_id": "sae-dtc-j2012-2025",
+          "location": "Defines fault descriptions rather than root-cause proof; author synthesis",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "claim_mapped_to_original_issuer_or_authoritative_publisher; subject_matter_review_pending",
+      "limits": "The author’s explanation is synthesized from source-backed premises, not a quotation or independent certification.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_technical_review_pending",
+  "citation_policy": "Original researchers and issuers credited; source-backed claim versus author synthesis distinguished; local adopted requirements and professional certification not implied."
+}

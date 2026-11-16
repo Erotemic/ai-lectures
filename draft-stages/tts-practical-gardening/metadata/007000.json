@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "lecture_id": "007000",
+  "transcript": "007000-observing-pests-disease-and-nutrient-stress.md",
+  "related_resources": [
+    {
+      "source_id": "psu-plant-diagnosis",
+      "reason": "Pattern, timing, host and cultural conditions to separate biotic from abiotic causes"
+    },
+    {
+      "source_id": "nrcs-compaction",
+      "reason": "Soil pores, reduced infiltration and root restrictions"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P007000-01",
+      "claim": "Plant symptoms may be caused by living agents or by light, soil, water, weather and cultural conditions.",
+      "kind": "horticultural_diagnosis",
+      "supports": [
+        {
+          "source_id": "psu-plant-diagnosis",
+          "location": "Introduction and Investigate Symptom Progression",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "claim_mapped_to_original_issuer_or_authoritative_publisher; subject_matter_review_pending",
+      "limits": "Within the cited source scope; jurisdictional, equipment-specific, and professional application must be verified separately.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P007000-02",
+      "claim": "Plant symptom distribution, time course and affected hosts help distinguish competing causes.",
+      "kind": "horticultural_diagnosis",
+      "supports": [
+        {
+          "source_id": "psu-plant-diagnosis",
+          "location": "Observe Patterns and Ask Questions",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "claim_mapped_to_original_issuer_or_authoritative_publisher; subject_matter_review_pending",
+      "limits": "Within the cited source scope; jurisdictional, equipment-specific, and professional application must be verified separately.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P007000-03",
+      "claim": "Soil compaction and moisture conditions affect root-zone function and complicate interpretation of nutrient symptoms.",
+      "kind": "derived_horticulture",
+      "supports": [
+        {
+          "source_id": "nrcs-compaction",
+          "location": "USDA NRCS: soil structure and compaction",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "psu-plant-diagnosis",
+          "location": "Review cultural practices and environmental causes",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "claim_mapped_to_original_issuer_or_authoritative_publisher; subject_matter_review_pending",
+      "limits": "The author’s explanation is synthesized from source-backed premises, not a quotation or independent certification.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_technical_review_pending",
+  "citation_policy": "Original researchers and issuers credited; source-backed claim versus author synthesis distinguished; local adopted requirements and professional certification not implied."
+}

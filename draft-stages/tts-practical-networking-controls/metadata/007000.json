@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "lecture_id": "007000",
+  "transcript": "007000-monitoring-security-and-fault-isolation.md",
+  "related_resources": [
+    {
+      "source_id": "nist-smart-home-auditing",
+      "reason": "Device audit challenges, readings, logs, configurations, and actionable policies"
+    },
+    {
+      "source_id": "nist-router-security",
+      "reason": "Router integrity, availability, and security as system dependencies"
+    },
+    {
+      "source_id": "rfc791",
+      "reason": "IPv4 addressing and IP layer; updated by later RFCs"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P007000-01",
+      "claim": "Security audits of smart-home IoT require actionable policies and observation of low-level device data such as logs, settings and sensor readings.",
+      "kind": "iot_security_research",
+      "supports": [
+        {
+          "source_id": "nist-smart-home-auditing",
+          "location": "Abstract: actionable policies, sensor readings, logs and configurations",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "claim_mapped_to_original_issuer_or_authoritative_publisher; subject_matter_review_pending",
+      "limits": "Within the cited source scope; jurisdictional, equipment-specific, and professional application must be verified separately.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P007000-02",
+      "claim": "Router cybersecurity affects confidentiality as well as integrity and availability of home-network functions.",
+      "kind": "network_security_guidance",
+      "supports": [
+        {
+          "source_id": "nist-router-security",
+          "location": "NIST IR 8425A: consumer router integrity and network availability",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "claim_mapped_to_original_issuer_or_authoritative_publisher; subject_matter_review_pending",
+      "limits": "Within the cited source scope; jurisdictional, equipment-specific, and professional application must be verified separately.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    },
+    {
+      "claim_id": "P007000-03",
+      "claim": "Troubleshooting should separate power and local link, IP addressing, and application response rather than equating a link light with a working service.",
+      "kind": "derived_network_diagnosis",
+      "supports": [
+        {
+          "source_id": "rfc791",
+          "location": "IP architecture; author’s layered-diagnostic synthesis",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nist-smart-home-auditing",
+          "location": "Auditing observable device behavior and logs",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "claim_mapped_to_original_issuer_or_authoritative_publisher; subject_matter_review_pending",
+      "limits": "The author’s explanation is synthesized from source-backed premises, not a quotation or independent certification.",
+      "professional_review": "site_and_equipment_specific_review_required_for_consequential_field_application"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_technical_review_pending",
+  "citation_policy": "Original researchers and issuers credited; source-backed claim versus author synthesis distinguished; local adopted requirements and professional certification not implied."
+}
