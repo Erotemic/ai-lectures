@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "lecture_id": "002000",
+  "transcript": "002000-hamlet-story-the-play-and-the-closet.md",
+  "related_resources": [
+    {
+      "source_id": "cl-hamlet-primary",
+      "reason": "Modern edited, sometimes conflated reading text. Folger flags the textual witnesses and variants."
+    },
+    {
+      "source_id": "cl-hamlet-rsc-plot",
+      "reason": "Independent outline of major plot beats and staging decisions."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "002000-c01",
+      "anchor": "Together they arrange an encounter between Hamlet and Ophelia",
+      "kind": "plot_evidence_or_editorial_interpretation",
+      "source_ids": [
+        "cl-hamlet-primary",
+        "cl-hamlet-rsc-plot"
+      ],
+      "source_locator": "Folger text: acts and scenes cited in the accompanying manuscript",
+      "audit_status": "primary_excerpt_and_secondary_reference_checked_not_full_collation"
+    },
+    {
+      "id": "002000-c02",
+      "anchor": "Claudius breaks off the performance and leaves.",
+      "kind": "plot_evidence_or_editorial_interpretation",
+      "source_ids": [
+        "cl-hamlet-primary",
+        "cl-hamlet-rsc-plot"
+      ],
+      "source_locator": "Folger text: acts and scenes cited in the accompanying manuscript",
+      "audit_status": "primary_excerpt_and_secondary_reference_checked_not_full_collation"
+    },
+    {
+      "id": "002000-c03",
+      "anchor": "The king recognizes his crime and tries to pray.",
+      "kind": "plot_evidence_or_editorial_interpretation",
+      "source_ids": [
+        "cl-hamlet-primary",
+        "cl-hamlet-rsc-plot"
+      ],
+      "source_locator": "Folger text: acts and scenes cited in the accompanying manuscript",
+      "audit_status": "primary_excerpt_and_secondary_reference_checked_not_full_collation"
+    },
+    {
+      "id": "002000-c04",
+      "anchor": "The victim is Polonius, not Claudius.",
+      "kind": "plot_evidence_or_editorial_interpretation",
+      "source_ids": [
+        "cl-hamlet-primary",
+        "cl-hamlet-rsc-plot"
+      ],
+      "source_locator": "Folger text: acts and scenes cited in the accompanying manuscript",
+      "audit_status": "primary_excerpt_and_secondary_reference_checked_not_full_collation"
+    }
+  ]
+}

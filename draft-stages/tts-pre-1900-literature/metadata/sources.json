@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "sources": {
+    "cl-hamlet-primary": {
+      "title": "William Shakespeare, Hamlet, Folger Shakespeare Library reading edition",
+      "kind": "literary_primary_edited",
+      "url": "https://www.folger.edu/explore/shakespeares-works/hamlet/read/",
+      "access": "free_no_login",
+      "notes": "Modern edited, sometimes conflated reading text. Folger flags the textual witnesses and variants."
+    },
+    "cl-hamlet-folger-texts": {
+      "title": "Folger Shakespeare Library, Hamlet textual history and early print witnesses",
+      "kind": "scholarly_edition_introduction",
+      "url": "https://www.folger.edu/explore/shakespeares-works/hamlet/an-introduction-to-this-text/",
+      "access": "free_no_login",
+      "notes": "First Quarto 1603; Second Quarto 1604/1605; First Folio 1623. Competing readings."
+    },
+    "cl-hamlet-folger-critical": {
+      "title": "Folger Shakespeare Library, Hamlet: A Modern Perspective",
+      "kind": "scholarly_interpretation",
+      "url": "https://www.folger.edu/explore/shakespeares-works/hamlet/hamlet-a-modern-perspective/",
+      "access": "free_no_login",
+      "notes": "Revenge plot, doubts, performance and sources; interpretive perspective, not direct authorial intent."
+    },
+    "cl-hamlet-rsc-plot": {
+      "title": "Royal Shakespeare Company, Hamlet plot and key moments",
+      "kind": "theatre_education",
+      "url": "https://www.rsc.org.uk/hamlet/about-the-play/key-moments",
+      "access": "free_no_login",
+      "notes": "Independent outline of major plot beats and staging decisions."
+    },
+    "cl-hamlet-rsc-sources": {
+      "title": "Royal Shakespeare Company, Hamlet: dates and sources",
+      "kind": "theatre_history",
+      "url": "https://www.rsc.org.uk/hamlet/about-the-play/dates-and-sources",
+      "access": "free_no_login",
+      "notes": "Composition circa 1600–1601 and earlier Amleth, Saxo, Belleforest and lost play."
+    },
+    "cl-hamlet-ophelia": {
+      "title": "Two Shakespearean Suicides, Essays in Criticism, 2022",
+      "kind": "scholarly_interpretation",
+      "url": "https://academic.oup.com/eic/article/72/2/125/6647487",
+      "access": "abstract_or_article",
+      "notes": "Interpretive discussion of the ambiguity of Ophelia’s drowning and burial; consulted source description."
+    },
+    "cl-quixote-primary-es": {
+      "title": "Miguel de Cervantes, Don Quijote de la Mancha, Biblioteca Virtual Miguel de Cervantes",
+      "kind": "literary_primary",
+      "url": "https://www.cervantesvirtual.com/obra/el-ingenioso-hidalgo-don-quijote-de-la-mancha-6/",
+      "access": "free_no_login",
+      "notes": "Spanish primary text in a later scholarly edition; includes both parts. Not exhaustive line-by-line collation."
+    },
+    "cl-quixote-primary-en": {
+      "title": "Don Quixote (1605, 1615), John Ormsby public-domain English translation, Biblioteca Virtual Miguel de Cervantes",
+      "kind": "public_domain_translation",
+      "url": "https://www.cervantesvirtual.com/obra-visor/don-quixote-1605-1615--0/html/",
+      "access": "free_no_login",
+      "notes": "Chapter-level English text; translation is a particular witness, not the source of an English original."
+    },
+    "cl-quixote-bne": {
+      "title": "Biblioteca Nacional de España, Quijotes collections and original editions",
+      "kind": "national_library_bibliography",
+      "url": "https://www.bne.es/es/quijote/",
+      "access": "free_no_login",
+      "notes": "First printings 1605 and 1615, later editions and translations."
+    },
+    "cl-quixote-bvc-first": {
+      "title": "Biblioteca Virtual Miguel de Cervantes, digital facsimile of 1605 first printing",
+      "kind": "primary_print_facsimile_catalog",
+      "url": "https://www.cervantesvirtual.com/obra/el-ingenioso-hidalgo-don-quixote-de-la-mancha--9/",
+      "access": "free_no_login",
+      "notes": "Catalog and images of Spanish first edition printed by Juan de la Cuesta."
+    },
+    "cl-quixote-bvc-second": {
+      "title": "Biblioteca Virtual Miguel de Cervantes, digital facsimile of 1615 second part",
+      "kind": "primary_print_facsimile_catalog",
+      "url": "https://www.cervantesvirtual.com/obra/segunda-parte-del-ingenioso-cauallero-don-quixote-de-la-mancha--1/",
+      "access": "free_no_login",
+      "notes": "Catalog and images of Part II printed by Juan de la Cuesta."
+    },
+    "cl-quixote-glasgow": {
+      "title": "University of Glasgow Library Special Collections, Hispanica: Literary Works",
+      "kind": "library_bibliography",
+      "url": "https://www.gla.ac.uk/myglasgow/library/files/special/exhibns/hispanica/literature.html",
+      "access": "free_no_login",
+      "notes": "1605/1615 copies, reprints, misplaced Sancho donkey material, 1612 Shelton English translation and 1614 Avellaneda sequel."
+    },
+    "cl-quixote-close": {
+      "title": "Anthony J. Close, The legacy of Don Quijote and the picaresque novel, Cambridge Companion to the Spanish Novel",
+      "kind": "scholarly_book_chapter",
+      "url": "https://www.cambridge.org/core/books/abs/cambridge-companion-to-the-spanish-novel/legacy-of-don-quijote-and-the-picaresque-novel/A70FF1A685F8E48A3D1B38E98D248787",
+      "access": "publisher_abstract",
+      "notes": "Contexts Cervantes in older romance and picaresque; only abstract/preview directly available."
+    }
+  }
+}

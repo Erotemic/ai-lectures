@@ -1,0 +1,33 @@
+# Don Quixote — The Story: Making a Knight
+
+**Work:** Miguel de Cervantes, *Don Quixote*, Part I, chapters 1–22. **Form:** Continuous story lecture with spoilers.
+
+<!-- BEGIN SPOKEN LECTURE -->
+# Don Quixote: How a Man Makes Himself a Knight
+
+In a village in La Mancha, a country gentleman has read more romances of knights than his ordinary life can contain. The books are filled with wandering champions, enchanted castles, rescued women and famous battles. He spends his nights reading and his days arguing over which fictional knight was greater. Eventually he decides not merely to admire the stories but to enter one. He cleans a set of ancestral weapons, names his exhausted horse Rocinante, gives himself the title Don Quixote, and appoints a woman from a nearby village, Aldonza Lorenzo, the imagined lady Dulcinea del Toboso. She has not agreed to take a role in this enterprise. His new identity is assembled from books, objects, names and determination.
+
+The first journey begins without even a squire. Don Quixote reaches an ordinary inn and interprets it as a castle. The innkeeper recognizes the possibilities of the situation and performs a makeshift knighting. Don Quixote's intention is to inhabit a world of honor, but the world around him is not obliged to cooperate with the disguise. Some people are amused, some irritated, some afraid of the trouble that follows him.
+
+Soon afterward he encounters a boy named Andrés being beaten by his employer. Don Quixote intervenes and demands that the man promise to pay the boy the wages he is owed. Satisfied by the promise, he rides away. The employer resumes his cruelty. This first apparent rescue is a warning against judging an action only by how noble it looks from the actor's point of view. Don Quixote has issued a command and felt righteous, but he has not created the conditions that could protect Andrés once he leaves.
+
+He then attacks merchants who refuse to affirm Dulcinea's unsurpassed beauty. The encounter ends with Don Quixote beaten and brought home. His friends, including a priest and a barber, worry about the books that have helped produce his new convictions. They inspect his library and condemn many volumes to the fire. The scene is comical, but also unsettling: people who believe they are protecting a neighbor begin deciding which stories he is permitted to possess. They cannot burn away the desires that made the stories powerful to him.
+
+Don Quixote sets out again, this time recruiting a practical village neighbor, Sancho Panza, as his squire. Sancho is promised the governorship of an island. He is not a fool merely because he believes a promise that the reader knows is improbable. He has a family and wants the sort of advancement otherwise closed to people of his station. His imagination is economic as well as adventurous. They leave together, one mounted on a tired horse and one on a donkey, and form a partnership in which each sees different possibilities in the same road.
+
+The episode that became the novel's most familiar image soon follows. Don Quixote sees windmills and declares them giants. Sancho points out their sails and machinery. The knight charges anyway, his lance catches, and he is thrown to the ground. When he rises, he explains that an enemy magician has transformed the giants into windmills in order to deny him glory. The explanation saves his preferred interpretation from any contradiction. The scene is funny because Sancho's account is plainly more plausible. It is also a small demonstration of what happens when belief becomes immune to experience.
+
+Not every error is so cleanly separable from moral purpose. Don Quixote and Sancho meet goatherds and hear the story of Grisóstomo, a student turned shepherd who has died after his devotion to Marcela was not returned. At his funeral, people blame Marcela for failing to love him. She appears and argues her case: another person's desire gives him no right to her affection. Don Quixote defends her freedom. A man who invented Dulcinea as an object of veneration here recognizes a woman's right to refuse a role others have written for her. Cervantes lets the contradiction coexist rather than resolving it by announcing that the knight is either wholly noble or wholly absurd.
+
+Their travels continue through inns, forests and roads where physical comedy often hurts. They are beaten after a quarrel over horses. Don Quixote tries a miraculous medicinal mixture from the romances and becomes sick. At an inn he imagines an erotic or enchanted adventure while other occupants experience a very different commotion. Sancho suffers the humiliation of being tossed in a blanket when he cannot pay the bill. His master has a heroic vocabulary for mishaps; Sancho has bruises and bills. Their conversations make the discrepancy audible.
+
+When they encounter dust clouds raised by two flocks of sheep, Don Quixote sees opposing armies and charges. He is struck by stones and loses teeth. When he sees a barber carrying a basin over his head for protection from rain, he decides it is the legendary helmet of Mambrino. A commonplace object becomes a prized artifact through naming and desire. Sancho can see the basin and still understand why the fantasy matters to his master, especially when he hopes to benefit from the journey.
+
+Near the end of this first stretch, they find men being taken in chains to row as galley slaves. Don Quixote hears their stories and decides that no man should be forced along a road against his will. He attacks the guards and releases the prisoners. One of them, Ginés de Pasamonte, is hardly a grateful beneficiary of heroic justice. The freed men refuse to go pay homage to Dulcinea and end by pelting their liberator with stones. The failure does not make captivity benevolent or violence justified. It shows the inadequacy of a knight's abstract pronouncement to the complicated reality of crime, punishment, power and self-interest.
+
+Two figures have taken shape. Don Quixote is capable of generosity and of grave misrecognition. Sancho is skeptical and credulous, devoted and opportunistic. The world is full of people who exploit both. What might have been a single joke about a man confusing windmills with giants becomes a long experiment in how imagination reorganizes reality, sometimes to the benefit of conscience and sometimes at the expense of other people's bodies.
+<!-- END SPOKEN LECTURE -->
+
+## Reading basis
+- Cervantes, *Don Quixote*, Part I, chapters 1–22, via Biblioteca Virtual Miguel de Cervantes (English Ormsby translation and Spanish editions).
+- The Andrés, Marcela, windmill, and galley-slave episodes are kept distinct rather than merged into one generic knightly adventure.

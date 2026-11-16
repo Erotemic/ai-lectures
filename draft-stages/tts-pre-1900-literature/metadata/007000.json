@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "lecture_id": "007000",
+  "transcript": "007000-hamlet-sources-texts-and-stage-life.md",
+  "related_resources": [
+    {
+      "source_id": "cl-hamlet-folger-texts",
+      "reason": "First Quarto 1603; Second Quarto 1604/1605; First Folio 1623. Competing readings."
+    },
+    {
+      "source_id": "cl-hamlet-rsc-sources",
+      "reason": "Composition circa 1600–1601 and earlier Amleth, Saxo, Belleforest and lost play."
+    },
+    {
+      "source_id": "cl-hamlet-folger-critical",
+      "reason": "Revenge plot, doubts, performance and sources; interpretive perspective, not direct authorial intent."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "007000-c01",
+      "anchor": "A short quarto appeared in 1603.",
+      "kind": "literary_history_or_textual_claim",
+      "source_ids": [
+        "cl-hamlet-folger-texts",
+        "cl-hamlet-rsc-sources",
+        "cl-hamlet-folger-critical"
+      ],
+      "source_locator": "Folger text: acts and scenes cited in the accompanying manuscript",
+      "audit_status": "primary_excerpt_and_secondary_reference_checked_not_full_collation"
+    },
+    {
+      "id": "007000-c02",
+      "anchor": "The First Folio printed another version in 1623.",
+      "kind": "literary_history_or_textual_claim",
+      "source_ids": [
+        "cl-hamlet-folger-texts",
+        "cl-hamlet-rsc-sources",
+        "cl-hamlet-folger-critical"
+      ],
+      "source_locator": "Folger text: acts and scenes cited in the accompanying manuscript",
+      "audit_status": "primary_excerpt_and_secondary_reference_checked_not_full_collation"
+    },
+    {
+      "id": "007000-c03",
+      "anchor": "Shakespeare did not invent the bare revenge story.",
+      "kind": "literary_history_or_textual_claim",
+      "source_ids": [
+        "cl-hamlet-folger-texts",
+        "cl-hamlet-rsc-sources",
+        "cl-hamlet-folger-critical"
+      ],
+      "source_locator": "Folger text: acts and scenes cited in the accompanying manuscript",
+      "audit_status": "primary_excerpt_and_secondary_reference_checked_not_full_collation"
+    },
+    {
+      "id": "007000-c04",
+      "anchor": "An earlier English stage play, conventionally called the Ur-Hamlet, is documented but does not survive in a text that we can consult.",
+      "kind": "literary_history_or_textual_claim",
+      "source_ids": [
+        "cl-hamlet-folger-texts",
+        "cl-hamlet-rsc-sources",
+        "cl-hamlet-folger-critical"
+      ],
+      "source_locator": "Folger text: acts and scenes cited in the accompanying manuscript",
+      "audit_status": "primary_excerpt_and_secondary_reference_checked_not_full_collation"
+    }
+  ]
+}

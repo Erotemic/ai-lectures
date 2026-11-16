@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "lecture_id": "001000",
+  "transcript": "001000-hamlet-story-the-ghost-and-the-court.md",
+  "related_resources": [
+    {
+      "source_id": "cl-hamlet-primary",
+      "reason": "Modern edited, sometimes conflated reading text. Folger flags the textual witnesses and variants."
+    },
+    {
+      "source_id": "cl-hamlet-rsc-plot",
+      "reason": "Independent outline of major plot beats and staging decisions."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "001000-c01",
+      "anchor": "The castle is Elsinore.",
+      "kind": "plot_evidence_or_editorial_interpretation",
+      "source_ids": [
+        "cl-hamlet-primary",
+        "cl-hamlet-rsc-plot"
+      ],
+      "source_locator": "Folger text: acts and scenes cited in the accompanying manuscript",
+      "audit_status": "primary_excerpt_and_secondary_reference_checked_not_full_collation"
+    },
+    {
+      "id": "001000-c02",
+      "anchor": "The ghost orders Hamlet to remember and avenge him",
+      "kind": "plot_evidence_or_editorial_interpretation",
+      "source_ids": [
+        "cl-hamlet-primary",
+        "cl-hamlet-rsc-plot"
+      ],
+      "source_locator": "Folger text: acts and scenes cited in the accompanying manuscript",
+      "audit_status": "primary_excerpt_and_secondary_reference_checked_not_full_collation"
+    },
+    {
+      "id": "001000-c03",
+      "anchor": "The apparent gesture of friendship comes with a political assignment.",
+      "kind": "plot_evidence_or_editorial_interpretation",
+      "source_ids": [
+        "cl-hamlet-primary",
+        "cl-hamlet-rsc-plot"
+      ],
+      "source_locator": "Folger text: acts and scenes cited in the accompanying manuscript",
+      "audit_status": "primary_excerpt_and_secondary_reference_checked_not_full_collation"
+    },
+    {
+      "id": "001000-c04",
+      "anchor": "Hamlet asks the players to stage a murder resembling the ghost's story",
+      "kind": "plot_evidence_or_editorial_interpretation",
+      "source_ids": [
+        "cl-hamlet-primary",
+        "cl-hamlet-rsc-plot"
+      ],
+      "source_locator": "Folger text: acts and scenes cited in the accompanying manuscript",
+      "audit_status": "primary_excerpt_and_secondary_reference_checked_not_full_collation"
+    }
+  ]
+}

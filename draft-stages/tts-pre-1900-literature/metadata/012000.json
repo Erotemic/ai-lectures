@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "lecture_id": "012000",
+  "transcript": "012000-don-quixote-the-book-inside-the-book.md",
+  "related_resources": [
+    {
+      "source_id": "cl-quixote-primary-es",
+      "reason": "Spanish primary text in a later scholarly edition; includes both parts. Not exhaustive line-by-line collation."
+    },
+    {
+      "source_id": "cl-quixote-primary-en",
+      "reason": "Chapter-level English text; translation is a particular witness, not the source of an English original."
+    },
+    {
+      "source_id": "cl-quixote-glasgow",
+      "reason": "1605/1615 copies, reprints, misplaced Sancho donkey material, 1612 Shelton English translation and 1614 Avellaneda sequel."
+    },
+    {
+      "source_id": "cl-quixote-close",
+      "reason": "Contexts Cervantes in older romance and picaresque; only abstract/preview directly available."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "012000-c01",
+      "anchor": "The narrator claims to depend on another author, a fictional historian called Cide Hamete Benengeli.",
+      "kind": "plot_evidence_or_editorial_interpretation",
+      "source_ids": [
+        "cl-quixote-primary-es",
+        "cl-quixote-primary-en",
+        "cl-quixote-glasgow",
+        "cl-quixote-close"
+      ],
+      "source_locator": "Don Quixote: part and relevant chapters cited in the accompanying manuscript",
+      "audit_status": "primary_excerpt_and_secondary_reference_checked_not_full_collation"
+    },
+    {
+      "id": "012000-c02",
+      "anchor": "The second part transforms this artistic method.",
+      "kind": "plot_evidence_or_editorial_interpretation",
+      "source_ids": [
+        "cl-quixote-primary-es",
+        "cl-quixote-primary-en",
+        "cl-quixote-glasgow",
+        "cl-quixote-close"
+      ],
+      "source_locator": "Don Quixote: part and relevant chapters cited in the accompanying manuscript",
+      "audit_status": "primary_excerpt_and_secondary_reference_checked_not_full_collation"
+    },
+    {
+      "id": "012000-c03",
+      "anchor": "A real anonymous or pseudonymous writer issued an unauthorized second part of the adventures in 1614",
+      "kind": "plot_evidence_or_editorial_interpretation",
+      "source_ids": [
+        "cl-quixote-primary-es",
+        "cl-quixote-primary-en",
+        "cl-quixote-glasgow",
+        "cl-quixote-close"
+      ],
+      "source_locator": "Don Quixote: part and relevant chapters cited in the accompanying manuscript",
+      "audit_status": "primary_excerpt_and_secondary_reference_checked_not_full_collation"
+    },
+    {
+      "id": "012000-c04",
+      "anchor": "Cervantes also drew on earlier conventions of chivalric romance",
+      "kind": "plot_evidence_or_editorial_interpretation",
+      "source_ids": [
+        "cl-quixote-primary-es",
+        "cl-quixote-primary-en",
+        "cl-quixote-glasgow",
+        "cl-quixote-close"
+      ],
+      "source_locator": "Don Quixote: part and relevant chapters cited in the accompanying manuscript",
+      "audit_status": "primary_excerpt_and_secondary_reference_checked_not_full_collation"
+    }
+  ]
+}
