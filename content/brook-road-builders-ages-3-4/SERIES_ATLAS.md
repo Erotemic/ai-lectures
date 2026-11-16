@@ -1,6 +1,6 @@
 # Brook Road Builders — series atlas and expansion plan (not spoken)
 
-This is a planning companion, **not** a second continuity authority. `WORLD_BIBLE.md` holds canonical facts through episode 042000. Ideas tagged *future* must not be treated as already present in a spoken episode.
+This is a planning companion, **not** a second continuity authority. `WORLD_BIBLE.md` holds canonical facts through episode 048000. Ideas tagged *future* must not be treated as already present in a spoken episode.
 
 ## What makes this a world, not a truck catalogue
 
@@ -124,6 +124,14 @@ The **Brook Road firehouse** has two red vehicle-bay doors and a marked visitor 
 
 **Jack's blue notebook** now includes Station Lane with two red bays and a sketch of the controlled water route from engine tank through pump, hose and nozzle to a practice board. **Rex and Molly** visited the station together, then returned to their own homes; Molly's rope toy remains at the farm. The park rain gauge still awaits the next rainfall following the Season Six reset.
 
+## Season Eight — Snow Trucks and winter walking routes
+
+Several months after the firehouse open day, Brook Road receives a substantial overnight snowfall. A town **orange snowplow** with angled front blade clears roadway lanes; a **separate small red hopper/spinner spreader** treats a slick bend beside Ms. Pam's Red Door Garage. These are **municipal machines**, not the garage's tow/service trucks or the firehouse vehicles. Station Lane and the firehouse apron stay accessible. Ms. Pam’s four nesting cones are returned to her yard shed after work.
+
+The **same red tractor** from Green Gate Farm's hay season gains an adult-operated **removable snow blade** for the long vehicle lane. The stored hay stays in the existing barn. Mr. Lee later uses a **walk-behind snowblower** on the Pine Park walking path, with snow discharged toward an empty grassy area. The Little Bridge walkway receives **hand clearing and adult inspection**, never traffic from plows, tractors or other vehicles. Rex and Molly's one-wag greeting resumes at Pancake Hill in the snow.
+
+Jack's **same blue notebook** gains winter sketches of blade, spreader, tractor, snowblower and road-vs-footpath routes. Jack informally observes open-ground snow depth and a taller drift by the fence; the existing rain gauge is not misused for snowfall depth measurement. Rex's toy truck, Gus's green cap, Molly's rope toy, original houses, bench, storm inlet and culvert persist. The plow and spreader finish this event's work and return to municipal storage. Winter remains the ambient season at episode 048000.
+
 ## Eleven-season horizon (ideas, not canon)
 
 1. **Pine Park** — established and complete (earthmoving, paving, park opening).
@@ -133,7 +141,7 @@ The **Brook Road firehouse** has two red vehicle-bay doors and a marked visitor 
 5. **Delivery Route** — **complete**: Dan the donkey, blue box truck and parcel shed, four garage cones, park rain gauge, farm hen feed and wheelbarrow.
 6. **After the Rain** — **complete**: rain gauge measured and reset, curb runoff, street sweeper, drain-cleaning vacuum truck, and a farm-road culvert and gravel-shoulder repair.
 7. **Firehouse Open Day** — **complete**: Station Lane, Captain Ann, two red vehicle bays, distinct engine and ladder truck, turnout gear and hose demonstration; no incident.
-8. **Snow Trucks** — plowing and sanding after a believable season change.
+8. **Snow Trucks** — **complete**: one winter snowfall, orange road plow, red salt spreader, Farmer Ruth’s red tractor with snow blade, park snowblower, hand-cleared pedestrian bridge and Jack’s winter-route page.
 9. **Gravel Yard** — source of loose material and different large haulers.
 10. **Barn Repair** — adult builders return with new equipment; working farm carries on.
 11. **One Long Road** — an atlas of connected places and machines through the children's remembered experiences.

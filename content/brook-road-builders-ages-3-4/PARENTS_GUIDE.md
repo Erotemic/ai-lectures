@@ -115,6 +115,23 @@ The children discover a permanent firehouse on Station Lane and visit it during 
 
 **Continuity:** The firehouse is **north of Brook Road between Rex's home and Pine Park**, not at Ms. Pam's garage. Captain Ann and both red trucks remain at the station after the open day. The park, farm, Little Bridge, rain gauge, gravel-road repairs, delivery truck and earlier notebook drawings remain unchanged.
 
+## Season Eight: Snow Trucks
+
+One overnight snowfall covers the already-established town. Across six gentle chapters the friends observe a municipal orange plow, a separate red salt-spreading truck, Farmer Ruth’s red tractor with a winter snow blade, and Mr. Lee’s walk-behind park snowblower. The final episode brings Rex and Molly together again after adults clear and check the pedestrian Little Bridge. The road maintenance, farm-lane clearing, park footpath and hand-cleared bridge have **different jobs and different routes**. This is not a sequence of six storms or a model lesson about driving heavy equipment.
+
+| Episode | Optional conversation prompt |
+|---|---|
+| 043 | What was hiding underneath the white snow on Brook Road? |
+| 044 | Why did the snow slide sideways along the plow blade? |
+| 045 | Did the small red truck scrape away snowbanks or spread tiny grains? |
+| 046 | What did Farmer Ruth put on the front of her red tractor? |
+| 047 | Was the snow deeper in the drift or in the open grass? |
+| 048 | Which path did Rex and Molly use, and which road was for vehicles? |
+
+**Factual scope:** MnDOT describes winter maintenance, pre-storm crew preparation, plows and the limited use of roadway salt. John Deere describes a snow-clearing front blade attachment to a tractor; NWS describes representative snowfall/depth measurements away from drifts; Toro describes snowblower discharge through a chute. Names, equipment colors, vehicle routes and weather are fictional. The purpose of roadside treatment is described accurately without giving dosage advice or implying road salt is harmless to streams, plants or animal paws. Jack's home experiment and informal ruler measurement are observations, not professional winter-maintenance instructions.
+
+**Continuity:** Months have passed since the firehouse open day; the same people and locations remain. Little Bridge remains a hand-cleared footbridge, never a road for the plow or tractor. The original park rain gauge is not treated as a snow-depth ruler. The farm hay is still stored indoors, the orange cones return to Ms. Pam's shed, and the road work ends without an unresolved problem. No new named characters are introduced, and there is no implied developmental or sleep benefit established by the technical sources.
+
 ## Why there are sources
 
 - **Machine functions:** Caterpillar's equipment descriptions were consulted to avoid confusing bulldozers, diggers, loaders, trucks and compactors. These are general equipment facts; the fictional site is not an engineering case study and the passages are not operation instructions.

@@ -250,6 +250,38 @@ A single moderate overnight rain takes place before 031000. It has ended by the 
 
 **Research scope:** Fire apparatus differences, ladder stabilizers and firefighter protective clothing are supported by sources linked in `metadata/sources.json`. Exact locations, dialogue, equipment color, the practice target and the characters are invented. No teaching-outcome or sleep claim is made.
 
+## Season Eight — Snow Trucks (043000–048000)
+
+### Winter chronology and equipment
+
+Several months have passed since the firehouse open day. Brook Road, Pine Park and the farm are covered by **one substantial overnight snowfall**. This is a seasonal change, not a snowstorm continuing through all six episodes. The same familiar buildings and places lie beneath the snow; no location moves, and no closed park is magically rebuilt.
+
+- **Town snowplow (043000, 044000):** an adult-operated **orange municipal maintenance truck** with an angled wide front blade and amber work lights makes an initial morning pass and later widening passes on Brook Road. The blade pushes snow toward the roadside; it does not scoop snow into a high bucket or make it disappear. The truck is **not** Ms. Pam's white flatbed, her mobile service truck, Dan's blue box truck, or Captain Ann's fire engine. Town workers also clear Station Lane and its firehouse apron; the apparatus remain in their bays, ready for use.
+- **Spreader (045000):** a separate **small red town maintenance truck with a square hopper and rear spinner** applies **a modest quantity of road salt** at the slippery shaded bend near the Red Door Garage's western junction after plowing. The spreader is not a sand-hauler, and the salt is not presented as food or as an instant ice-removal magic substance. Ms. Pam's **same four orange nesting cones** mark the temporary work area and are then stored. Her existing garage trucks and Aunt Jo's repaired yellow van remain at the garage or in ordinary use.
+- **Red tractor winter attachment (046000):** Farmer Ruth's **same red tractor from hay season** has a detachable front snow blade for the farmyard and **long vehicle lane**. Its warm-season haymaking tools are put away; the **dry rectangular bales remain stacked inside the existing barn**. The adult helper remains on the farmhouse porch with Molly while Farmer Ruth drives. The hens, sheep, green wheelbarrow, red barn, porch and Molly's blue rope toy all persist. Rex and Aunt Jo visit by a cleared pedestrian route, never riding the tractor or driving it over Little Bridge.
+- **Snowblower (047000):** Mr. Lee operates a **small walk-behind snowblower** on the pedestrian approach at **Pine Park**, blowing snow through a curved chute toward an empty verge. It is a different tool from the plow for roads and the tractor blade for the farm. The original park path reappears; the bench can remain snow-covered. The park's **rain gauge still stands near the gate**; Jack measures snow separately with a ruler, not by pretending an open rain-gauge tube measures snowfall depth.
+- **Little Bridge and closing walk (048000):** Mr. Lee and other adults shovel/brush and inspect the **wooden pedestrian footbridge** and footpaths, then Rex and Molly meet beside it and enjoy Pancake Hill in its winter coat. The bridge remains **for paws, hooves and feet only**, not town plows, tractors, delivery trucks, fire engines or other vehicles. All maintenance work ends for this event, with road trucks back at the town depot and the path open to pedestrians.
+
+### Persistent winter artifacts
+
+- Jack's **existing blue notebook** gains an angled-plow sketch, paper-scrap tray comparison, spreader drawing, farm tractor with winter blade, one informal ruler observation of open snow versus a wind drift, a snowblower chute, and the **winter-route page** distinguishing paved roads from footpaths. It does not become a new book or an official weather record.
+- Rex's blue step is cleared and the **same repaired wooden dump truck** sits on the home windowsill. His one-dark/one-light ears, collar and basket remain. Molly's greeting of one matching tail wag continues, and her blue rope toy remains at Green Gate Farm.
+- Gus's **green cap** briefly holds a paper snowflake from Jack's home demonstration, but Gus takes his cap home. No new permanently named friend or building is introduced.
+- The **Pine Park rain gauge**, storm drain near the garage, farm-road culvert and other drainage remain where they were. Do not confuse a drift next to the park fence with representative snowfall depth or claim the road salt has no environmental effects.
+
+### Episode-state ledger
+
+| ID | New knowledge / lasting state | Remaining within this season |
+|---|---|---|
+| 043000 | One overnight snowfall; adult orange plow begins clearing Brook Road; friends observe from Rex's house | More plow passes, bend treatment, farm lane and walking routes |
+| 044000 | Widening pass and Station Lane access; Jack’s paper-scrap experiment illustrates angled blade | Shaded bend, farm lane, park/bridge paths |
+| 045000 | Separate red spreader treats shaded bend in limited amount; garage cones returned | Farm lane and park/bridge walking routes |
+| 046000 | Farmer Ruth clears farm lane with red tractor and front snow blade; hay remains indoors | Park walking paths and bridge |
+| 047000 | Mr. Lee clears park footpath with snowblower; Jack contrasts open-snow depth and fence drift | Little Bridge footpath hand clearance and final gathering |
+| 048000 | Adults clear and inspect Little Bridge; puppies reunite; Jack finishes winter-route notebook page; all trucks return to work bases | No unfinished snow-removal issue for this snowfall |
+
+**Factual limits:** Snowplow preparation, blade movement, deicing, seasonal tractor snow blades, snow-depth observations and snowblower chutes are supported as general mechanisms in `metadata/sources.json`. Specific colors, locations, weather event, characters and road crew jobs are fictional. The spoken stories avoid machine-operation instructions and all child characters remain pedestrians or observers.
+
 ## Authoring guardrails
 
 - Persistent geography, name spellings and object state survive across episodes and seasons. Never erase a completed project without a depicted reason.
