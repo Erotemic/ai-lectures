@@ -1,6 +1,6 @@
 # Backlog — Ancient and Medieval Histories
 
-**Status:** The initial ninety lectures (001000–090000) are written, indexed, and source-mapped; sixteen additional inserted companion lectures now bring the track to 106. Unit 6 (041000–050000), on the period around 1200–1500 CE, completes the initial chronological bridge from early urban worlds to the modern-world track. This is introductory coverage, not a declaration that every region, society, or source tradition has been addressed in sufficient depth.
+**Status:** The initial ninety lectures (001000–090000) are written, indexed, and source-mapped; twenty-four additional inserted companion lectures now bring the track to 114. Unit 6 (041000–050000), on the period around 1200–1500 CE, completes the initial chronological bridge from early urban worlds to the modern-world track. This is introductory coverage, not a declaration that every region, society, or source tradition has been addressed in sufficient depth.
 
 The chronology is a scaffold, not a sequence in which one region necessarily learns from another. Each unit should integrate changes to governance with work, family, belief, material culture, economic organization, and what the historical evidence actually allows us to know.
 
@@ -230,3 +230,23 @@ The seventh regional-depth installment is not a new numbered age. Its IDs keep r
 ### Editorial priorities after this installment
 
 Check source claims in full primary or specialist editions wherever access is currently limited to abstracts or extracts. Continue building deep studies where a named site, a specific body of documents, or descendant/community sources change the existing narrative. Maintain stable lecture IDs and insert within free lower-order space; do not renumber established content.
+
+## Eighth regional-depth installment — inserted companion lectures (written and indexed)
+
+| ID | Completed lecture | Focus and evidence |
+| --- | --- | --- |
+| 002100 | When a Tablet Counts Workers | CDLI Ur III accounts from Umma: rations, women workers, administrative silences and insecure provenance |
+| 011100 | Who Counted as the People? | Aristotle and Xenophon texts: Athenian institutions and the exclusion of women, metics and enslaved residents |
+| 020100 | Water before Incense | Ma'rib irrigation, Sabaean temples and inscriptions; religion, agriculture and trade without conflating the Queen of Sheba tradition with an excavated ruler |
+| 022100 | A City of Many Neighbors | Teotihuacan compound archaeology, diverse residents, civic labor, and disputed trajectories of abandonment |
+| 032100 | The Work between Languages | Hunayn ibn Ishaq's account and a later bibliography; patrons, Syriac-Arabic scholarship and the limits of the House-of-Wisdom legend |
+| 033100 | Exams, Paper, and Families | Song state recruitment, commercial book production, rich regional disparities and women's household contributions |
+| 037100 | A Charter under Pressure | 1215 original and later reissues, original enforcement problem, forest law and the limits of medieval free-man provisions |
+| 046200 | Before the Inca | Wari and Tiwanaku architecture, local agricultural systems, religious imagery, and contested imperial reach |
+
+### Research leads for the next installment
+
+- Teotihuacan's relationship to Classic Maya dynastic politics and the archaeology of Monte Albán and Oaxaca deserve separate treatments, avoiding a single pan-Mesoamerican imperial map.
+- Ancient South Arabian inscriptions and Ur III administrative tablets merit further specialist full-edition review, especially where only cataloguing or scholarly abstracts were accessible.
+- Develop the transmission of law and governing institutions beyond England, including documentary Middle Eastern, South Asian and African legal evidence.
+- Bring other major West African, Mesoamerican, and Andean political and intellectual developments into dedicated lectures, retaining meaningful depth rather than broad lists.

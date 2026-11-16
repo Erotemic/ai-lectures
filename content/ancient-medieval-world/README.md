@@ -8,6 +8,7 @@ This is an independent, source-grounded, audio-first world-history curriculum fo
 | --- | --- | ---: |
 | 001000 | What Makes a City? Households, Fields, and the First Urban Worlds | 1,526 |
 | 002000 | Kingdoms of Clay: Mesopotamia from Sumer to Babylon | 1,369 |
+| 002100 | When a Tablet Counts Workers: Women and Labor in Ur III | 1,320 |
 | 003000 | Beyond the Pyramid: The Nile, the State, and the People Who Built Egypt | 1,436 |
 | 004000 | The Cities That Do Not Name Their Kings: Life in the Indus World | 1,406 |
 | 005000 | Bronze and Bone: Early Chinese States and the Problem of Dynastic Memory | 1,396 |
@@ -19,6 +20,7 @@ This is an independent, source-grounded, audio-first world-history curriculum fo
 | 009100 | Between the Story and the Stone: Israel, Judah, and the Empires Around Them | 1,331 |
 | 010000 | Persia: How an Empire Governs Many Peoples | 1,213 |
 | 011000 | Greek Worlds before Alexander: Citizenship, Conflict, and the Polis | 1,239 |
+| 011100 | Who Counted as the People? Democracy, Law, and Labor in Athens | 1,299 |
 | 012000 | The Ganges Plain: Cities, Kingdoms, and Paths to Liberation | 1,196 |
 | 013000 | Eastern Zhou: Contending States and Arguments about Rule | 1,124 |
 | 014000 | Beyond Egypt's Southern Border: Kush and the Early Sahel | 1,241 |
@@ -28,8 +30,10 @@ This is an independent, source-grounded, audio-first world-history curriculum fo
 | 018000 | Counting Households, Governing Distances: Qin and Han China | 1,287 |
 | 019000 | Who Owned the Republic? Rome's Road to Imperial Rule | 1,350 |
 | 020000 | Kingdoms between the Empires: Kush, Aksum, Arabia, and Iran | 1,426 |
+| 020100 | Water before Incense: Engineering and Power in Ancient Saba | 1,286 |
 | 021000 | Routes without a Single Silk Road: Merchants, Oceans, and Intermediaries | 1,287 |
 | 022000 | Cities without the Roman Calendar: American Worlds across the Classical Centuries | 1,392 |
+| 022100 | A City of Many Neighbors: Migration and Work at Teotihuacan | 1,254 |
 | 023000 | An Empire at the Door: Homes, Labor, and Inequality in the Classical World | 1,411 |
 | 024000 | When Rome Changed Shape: Emperors, Cities, and the Eastern Empire | 1,447 |
 | 025000 | A King of Kings beside Other Worlds: Sasanian Iran and Its Neighbors | 1,366 |
@@ -40,7 +44,9 @@ This is an independent, source-grounded, audio-first world-history curriculum fo
 | 030000 | After the Conquests: Caliphs, Taxpayers, and the Making of an Empire | 1,500 |
 | 031000 | Across the Red Sea: Aksum, Adulis, and a Connected African World | 1,419 |
 | 032000 | A City of Paper and Rivers: Baghdad and the Abbasid Worlds | 1,378 |
+| 032100 | The Work between Languages: Translation and Knowledge in Abbasid Baghdad | 1,332 |
 | 033000 | From Chang'an to the Southern Ports: Tang and Song China | 1,336 |
+| 033100 | Exams, Paper, and Families: The Song State’s Printed World | 1,298 |
 | 034000 | Monsoons, Temples, and Ports: South and Southeast Asian Worlds | 1,394 |
 | 034100 | A Debt Cleared in Copper: Law and Language in Tenth-Century Luzon | 1,258 |
 | 034200 | A Kingdom in the River Mouths: Srivijaya, Oaths, and the Straits | 1,297 |
@@ -48,6 +54,7 @@ This is an independent, source-grounded, audio-first world-history curriculum fo
 | 036000 | Shorelines of Exchange: East Africa and the Indian Ocean | 1,365 |
 | 036100 | Rice across an Ocean: Madagascar, the Comoros, and Early Island Settlement | 1,288 |
 | 037000 | Fields, Lords, and Market Streets: Medieval European Societies | 1,344 |
+| 037100 | A Charter under Pressure: Magna Carta and the Claims of Law | 1,300 |
 | 038000 | Rivers to the Sea: Scandinavians, Rus, and the North Atlantic | 1,307 |
 | 039000 | Courts across the Water: Korea and Japan in Medieval East Asia | 1,337 |
 | 039100 | A Field under Several Names: Estates, Taxes, and Work in Medieval Japan | 1,293 |
@@ -64,6 +71,7 @@ This is an independent, source-grounded, audio-first world-history curriculum fo
 | 045100 | A Book of Returning Days: Maya Manuscripts, Astronomy, and Lost Libraries | 1,356 |
 | 046000 | Roads before the Empire: Andean States and the Rise of the Inca | 1,237 |
 | 046100 | Counting without a Page: Khipu and Knowledge in the Andes | 1,289 |
+| 046200 | Before the Inca: Wari, Tiwanaku, and Two Andean Ways of Power | 1,221 |
 | 047000 | Ports between Monsoons: Maritime Asia before 1500 | 1,266 |
 | 047100 | Timber Sewn to the Sea: The Boats and River Ports of Butuan | 1,146 |
 | 047200 | Ships under Imperial Orders: Zheng He and the Ming Indian Ocean | 1,280 |
@@ -138,3 +146,7 @@ Eight new evidence-led lectures use spare lower-order ID positions (for example,
 ## Seventh regional-depth installment — historically consequential inserted companions (November 2026)
 
 Eight additions use spare sub-thousand IDs near related chronology and regional case studies, with no changes to the existing 98 manuscripts or evidence files. New lectures cover the eastern Mediterranean alphabetic and imperial worlds, Srivijaya, Heian women's writing, Igbo-Ukwu, Maya codices, Andean khipu, and early Ming maritime expeditions. The track has **106 indexed lectures**, including 50 chronological lectures and 56 regional or source-led deep dives. Spoken word counts describe the work and are not requirements.
+
+## Eighth regional-depth installment — institutions and their boundaries (November 2026)
+
+Eight lectures inserted at stable lower-order IDs `002100`, `011100`, `020100`, `022100`, `032100`, `033100`, `037100`, and `046200` examine Ur III labor accounting, Athenian citizenship, Sabaean irrigation, Teotihuacan neighborhoods, Abbasid translation practice, Song print/exams, Magna Carta reissues, and Wari–Tiwanaku state formations. They extend 106 indexed lectures to **114**, without renumbering or modifying earlier manuscripts and paragraph evidence files. Each spoken paragraph has a source record with stated limits; descriptive word counts are not targets.
