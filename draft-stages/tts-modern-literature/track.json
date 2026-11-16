@@ -1,7 +1,7 @@
 {
   "id": "modern-literature",
   "title": "20th-Century Literature · Novels, voices, and the human condition",
-  "summary": "Story-first literary history and criticism of forty-two major twentieth-century works, including extended landmark sections on Joyce, Proust, Faulkner, Woolf, Borges, and Beckett’s Waiting for Godot.",
+  "summary": "Story-first and form-sensitive literary history and criticism of forty-three major twentieth-century works, including extended landmarks in Joyce, Proust, Faulkner, Woolf, Borges, Beckett, and Eliot’s The Waste Land.",
   "assumed_background": [
     "No prior reading is required for the story-first lectures, including the Lord of the Rings orientation and complete three-volume narrative.",
     "Analysis lectures assume the preceding complete story orientation or knowledge of the work; specialized Tolkien essays follow the full retelling.",
@@ -10,7 +10,8 @@
     "The Sound and the Fury has five spoiler-complete narrative orientation lectures followed by seven formal, social, and textual studies; the latter assume the story orientation or knowledge of the novel.",
     "The four To the Lighthouse story lectures cover all three parts and the ending with spoilers; the following eight analyses assume this orientation or independent familiarity with the novel.",
     "The Ficciones section provides complete spoiler-containing story orientations for all seventeen pieces in the expanded edition; seven analyses follow, requiring the story lectures or prior familiarity with the works.",
-    "The two Waiting for Godot story lectures contain both acts with spoilers; the following nine analyses assume this orientation or a reading/performance of the play. The play is treated as theatre, not as a novel with a hidden plot resolution."
+    "The two Waiting for Godot story lectures contain both acts with spoilers; the following nine analyses assume this orientation or a reading/performance of the play. The play is treated as theatre, not as a novel with a hidden plot resolution.",
+    "The Waste Land is a five-part poem, not a single plot: its first six lectures orient listeners to the entire work without assuming prior reading, followed by nine analyses that assume the orientation or access to the poem."
   ],
   "sections": [
     "novels-and-their-worlds",
@@ -19,7 +20,8 @@
     "faulkner-the-sound-and-the-fury",
     "woolf-to-the-lighthouse",
     "borges-ficciones-and-the-invention-of-metafiction",
-    "beckett-waiting-for-godot-drama-and-absence"
+    "beckett-waiting-for-godot-drama-and-absence",
+    "eliot-the-waste-land-modernist-poetry"
   ],
   "lectures": [
     {
@@ -1470,6 +1472,141 @@
       "spoken_words": 1021,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 7.0
+    },
+    {
+      "id": "046200",
+      "title": "The Waste Land: An Ear for a Broken World",
+      "section": "eliot-the-waste-land-modernist-poetry",
+      "file": "046200-eliot-opening-how-to-listen.md",
+      "spoken_words": 1181,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 8.1
+    },
+    {
+      "id": "046300",
+      "title": "The Waste Land, Part One: Spring, Memory, and the Unreal City",
+      "section": "eliot-the-waste-land-modernist-poetry",
+      "file": "046300-eliot-burial-of-the-dead.md",
+      "spoken_words": 1150,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.9
+    },
+    {
+      "id": "046400",
+      "title": "The Waste Land, Part Two: Two Rooms and Two Kinds of Conversation",
+      "section": "eliot-the-waste-land-modernist-poetry",
+      "file": "046400-eliot-game-of-chess.md",
+      "spoken_words": 1226,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 8.5
+    },
+    {
+      "id": "046500",
+      "title": "The Waste Land, Part Three: The Thames and the Fire Sermon",
+      "section": "eliot-the-waste-land-modernist-poetry",
+      "file": "046500-eliot-fire-sermon.md",
+      "spoken_words": 1275,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 8.8
+    },
+    {
+      "id": "046600",
+      "title": "The Waste Land, Part Four: The Brief Life of Phlebas",
+      "section": "eliot-the-waste-land-modernist-poetry",
+      "file": "046600-eliot-death-by-water.md",
+      "spoken_words": 847,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.8
+    },
+    {
+      "id": "046700",
+      "title": "The Waste Land, Part Five: Thirst, Thunder, and an Unsettled Ending",
+      "section": "eliot-the-waste-land-modernist-poetry",
+      "file": "046700-eliot-what-the-thunder-said.md",
+      "spoken_words": 1149,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.9
+    },
+    {
+      "id": "046800",
+      "title": "The Waste Land: Voices, Montage, and the Problem of Who Speaks",
+      "section": "eliot-the-waste-land-modernist-poetry",
+      "file": "046800-eliot-analysis-voices-and-montage.md",
+      "spoken_words": 1083,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.5
+    },
+    {
+      "id": "046900",
+      "title": "The Waste Land: Rhythm, Music, Interruption, and the City in the Ear",
+      "section": "eliot-the-waste-land-modernist-poetry",
+      "file": "046900-eliot-analysis-sound-rhythm-and-silence.md",
+      "spoken_words": 1102,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.6
+    },
+    {
+      "id": "047000",
+      "title": "The Waste Land: Myth, Ritual, and the Temptation of a Master Key",
+      "section": "eliot-the-waste-land-modernist-poetry",
+      "file": "047000-eliot-analysis-myth-ritual-and-pattern.md",
+      "spoken_words": 1053,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.3
+    },
+    {
+      "id": "047100",
+      "title": "The Waste Land: Women, Desire, Coercion, and the Limits of Witness",
+      "section": "eliot-the-waste-land-modernist-poetry",
+      "file": "047100-eliot-analysis-women-desire-power.md",
+      "spoken_words": 1104,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.6
+    },
+    {
+      "id": "047200",
+      "title": "The Waste Land: London, Commerce, Empire, and the Uncomfortable Cosmopolis",
+      "section": "eliot-the-waste-land-modernist-poetry",
+      "file": "047200-eliot-analysis-london-commerce-empire.md",
+      "spoken_words": 1053,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.3
+    },
+    {
+      "id": "047300",
+      "title": "The Waste Land: Buddhist Fire, Christian Echoes, and the Three Words of Thunder",
+      "section": "eliot-the-waste-land-modernist-poetry",
+      "file": "047300-eliot-analysis-religious-traditions.md",
+      "spoken_words": 1069,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.4
+    },
+    {
+      "id": "047400",
+      "title": "The Waste Land: How a Long Draft Became the 1922 Poem",
+      "section": "eliot-the-waste-land-modernist-poetry",
+      "file": "047400-eliot-analysis-drafts-notes-publication.md",
+      "spoken_words": 1084,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.5
+    },
+    {
+      "id": "047500",
+      "title": "The Waste Land: Five Close-Reading Experiments",
+      "section": "eliot-the-waste-land-modernist-poetry",
+      "file": "047500-eliot-analysis-close-reading-workshop.md",
+      "spoken_words": 1082,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.5
+    },
+    {
+      "id": "047600",
+      "title": "The Waste Land: Its Influence, Its Critics, and the Problem of a Literary Landmark",
+      "section": "eliot-the-waste-land-modernist-poetry",
+      "file": "047600-eliot-analysis-reception-and-afterlife.md",
+      "spoken_words": 991,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.8
     }
   ]
 }
