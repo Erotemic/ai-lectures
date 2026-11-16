@@ -111,3 +111,12 @@ Narrations are standalone. Exact calculations, proofs, exercises and sources are
 - 048000 — [Deformation-Obstruction Complexes in Moduli Problems](048000-deformation-obstruction-complexes-in-moduli.md)
 
 Each narration is standalone; exact hypotheses, proofs, calculations, exercises and sources are in the non-spoken companions. Word counts are descriptive only.
+
+## Continuation 13: Deformation, structure and rigorous computation
+
+- 049000 — [Derived Deformation Theory: Obstructions Beyond the Tangent Space](049000-derived-deformation-theory-and-obstruction-triangles.md)
+- 050000 — [Arithmetic Intersection Theory: Heights and the Size of Rational Points](050000-arithmetic-intersection-theory-and-heights.md)
+- 051000 — [Tannakian Reconstruction: Recovering Symmetry from Representations](051000-tannakian-reconstruction-and-tensor-categories.md)
+- 052000 — [Quotient Stacks: Spaces That Remember Symmetry](052000-quotient-stacks-stabilizers-and-inertia.md)
+
+Each narration is standalone; exact hypotheses, proofs, calculations, exercises and sources are in the non-spoken companions. Word counts are descriptive only.

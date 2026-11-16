@@ -86,3 +86,9 @@ Narrations are standalone. Exact calculations, proofs, exercises and sources are
 - 016000 — [Homogeneous Self-Dual Embeddings and Infeasibility Certificates](016000-homogeneous-self-dual-embedding-and-certificates.md)
 
 Each narration is standalone; exact hypotheses, proofs, calculations, exercises and sources are in the non-spoken companions. Word counts are descriptive only.
+
+## Continuation 13: Deformation, structure and rigorous computation
+
+- 017000 — [Nonmonotone Submodular Optimization: When More Can Be Worse](017000-nonmonotone-submodular-maximization-and-matroids.md)
+
+Each narration is standalone; exact hypotheses, proofs, calculations, exercises and sources are in the non-spoken companions. Word counts are descriptive only.

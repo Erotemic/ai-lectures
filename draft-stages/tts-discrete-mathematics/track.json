@@ -32,7 +32,9 @@
     "parameterized-algorithms",
     "concentration-martingales",
     "expander-constructions",
-    "coding-bounds"
+    "coding-bounds",
+    "extremal-sets-sunflowers",
+    "randomized-rounding"
   ],
   "lectures": [
     {
@@ -250,6 +252,24 @@
       "spoken_words": 936,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 6.5
+    },
+    {
+      "id": "025000",
+      "title": "Extremal Set Systems: Intersections, Sunflowers, and Forced Structure",
+      "section": "extremal-sets-sunflowers",
+      "file": "025000-extremal-set-systems-and-sunflower-lemma.md",
+      "spoken_words": 885,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.1
+    },
+    {
+      "id": "026000",
+      "title": "Randomized Rounding: From Fractional Answers to Reliable Discrete Choices",
+      "section": "randomized-rounding",
+      "file": "026000-randomized-rounding-and-conditional-expectation.md",
+      "spoken_words": 967,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.7
     }
   ]
 }

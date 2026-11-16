@@ -1,12 +1,12 @@
-# Differential Equations — after 24 completed lectures
+# Differential Equations — after 26 completed lectures
 
-The course progresses from classical and weak PDEs, Hamiltonian systems and kinetic transport to dispersive estimates, scattering questions, variational actions and Noether currents.
+The track now links kinetic dissipation to transport through hypocoercivity and explains propagating and pinned bistable fronts in heterogeneous media.
 
 ## Unindexed continuation proposals
 
-- 025000 — Hypocoercivity and Return to Equilibrium
-- 026000 — Front Pinning in Heterogeneous Media
 - 027000 — Semilinear Wave Equations and Critical Exponents
 - 028000 — Structure-Preserving Numerical PDE Integrators
+- 029000 — Compressible Fluid Equations and Shock Stability
+- 030000 — Nonlinear Stability of Periodic Traveling Waves
 
-Separate formal identities from rigorous statements for weak solutions; scattering and global existence require equation-specific assumptions. Proposals are not registered.
+Hypocoercive rates need domain, collision, and spectral-gap assumptions; a collective-coordinate pinning model is not an exact PDE reduction. Proposals are not registered.

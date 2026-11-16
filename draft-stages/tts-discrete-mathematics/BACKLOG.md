@@ -1,12 +1,12 @@
-# Discrete Mathematics — after 24 completed lectures
+# Discrete Mathematics — after 26 completed lectures
 
-The track adds explicit expander constructions and coding bounds to its earlier combinatorics, network flows, random graphs, graph minors, entropy, parameterized algorithms and concentration.
+Extremal set systems and sunflower lemmas now connect to parameterized kernels. Randomized rounding and conditional expectation lead from expectation bounds to feasible discrete solutions.
 
 ## Unindexed continuation proposals
 
-- 025000 — Extremal Set Systems and Sunflower Lemmas
-- 026000 — Randomized Rounding and Conditional Expectation
 - 027000 — Property Testing and Local Graph Algorithms
 - 028000 — Pseudorandom Generators and Extractors
+- 029000 — VC Dimension and Sauer–Shelah Bounds
+- 030000 — Discrepancy Theory and Partial Coloring
 
-Distinguish probabilistic existence from explicit constructions and precise decoding guarantees from mere distance bounds. Proposals are not registered.
+Distinguish expectations from almost-sure feasibility and exact kernel equivalence. Proposals are not registered.

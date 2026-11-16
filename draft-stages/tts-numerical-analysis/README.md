@@ -84,3 +84,9 @@ Narrations are standalone. Exact calculations, proofs, exercises and sources are
 - 019000 — [Multigrid and Matrix-Free Preconditioning](019000-multigrid-and-matrix-free-preconditioning.md)
 
 Each narration is standalone; exact hypotheses, proofs, calculations, exercises and sources are in the non-spoken companions. Word counts are descriptive only.
+
+## Continuation 13: Deformation, structure and rigorous computation
+
+- 020000 — [Verified Nonlinear Systems: Interval Newton and Krawczyk Operators](020000-verified-nonlinear-systems-krawczyk-and-interval-newton.md)
+
+Each narration is standalone; exact hypotheses, proofs, calculations, exercises and sources are in the non-spoken companions. Word counts are descriptive only.

@@ -32,7 +32,9 @@
     "kinetic-transport-boltzmann",
     "comparison-front-stability",
     "dispersive-scattering",
-    "variational-noether"
+    "variational-noether",
+    "hypocoercivity-equilibrium",
+    "front-pinning"
   ],
   "lectures": [
     {
@@ -250,6 +252,24 @@
       "spoken_words": 934,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 6.4
+    },
+    {
+      "id": "025000",
+      "title": "Hypocoercivity: How Transport Creates Dissipation",
+      "section": "hypocoercivity-equilibrium",
+      "file": "025000-hypocoercivity-and-return-to-equilibrium.md",
+      "spoken_words": 1006,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.9
+    },
+    {
+      "id": "026000",
+      "title": "Front Pinning: When a Traveling Wave Stops",
+      "section": "front-pinning",
+      "file": "026000-front-pinning-and-depinning-in-heterogeneous-media.md",
+      "spoken_words": 1031,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.1
     }
   ]
 }

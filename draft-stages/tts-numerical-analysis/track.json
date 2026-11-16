@@ -24,7 +24,8 @@
     "automatic-differentiation-adjoints",
     "validated-ode",
     "posteriori-fem-errors",
-    "multigrid-preconditioning"
+    "multigrid-preconditioning",
+    "verified-nonlinear-systems"
   ],
   "lectures": [
     {
@@ -197,6 +198,15 @@
       "spoken_words": 947,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 6.5
+    },
+    {
+      "id": "020000",
+      "title": "Verified Nonlinear Systems: Interval Newton and Krawczyk Operators",
+      "section": "verified-nonlinear-systems",
+      "file": "020000-verified-nonlinear-systems-krawczyk-and-interval-newton.md",
+      "spoken_words": 968,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.7
     }
   ]
 }

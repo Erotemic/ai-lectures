@@ -87,3 +87,10 @@ Narrations are standalone. Exact calculations, proofs, exercises and sources are
 - 024000 — [Elliptic Index and the Atiyah-Singer Perspective](024000-elliptic-index-and-atiyah-singer.md)
 
 Each narration is standalone; exact hypotheses, proofs, calculations, exercises and sources are in the non-spoken companions. Word counts are descriptive only.
+
+## Continuation 13: Deformation, structure and rigorous computation
+
+- 025000 — [Morse–Bott Theory and Equivariant Localization](025000-morse-bott-theory-and-equivariant-localization.md)
+- 026000 — [Holonomy and Gauge Moduli: Transport Around a Loop](026000-holonomy-parallel-transport-and-gauge-moduli.md)
+
+Each narration is standalone; exact hypotheses, proofs, calculations, exercises and sources are in the non-spoken companions. Word counts are descriptive only.

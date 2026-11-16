@@ -87,3 +87,10 @@ Narrations are standalone. Exact calculations, proofs, exercises and sources are
 - 024000 — [Coding Bounds, Duality, and Probabilistic Codes](024000-coding-bounds-duality-and-probabilistic-codes.md)
 
 Each narration is standalone; exact hypotheses, proofs, calculations, exercises and sources are in the non-spoken companions. Word counts are descriptive only.
+
+## Continuation 13: Deformation, structure and rigorous computation
+
+- 025000 — [Extremal Set Systems: Intersections, Sunflowers, and Forced Structure](025000-extremal-set-systems-and-sunflower-lemma.md)
+- 026000 — [Randomized Rounding: From Fractional Answers to Reliable Discrete Choices](026000-randomized-rounding-and-conditional-expectation.md)
+
+Each narration is standalone; exact hypotheses, proofs, calculations, exercises and sources are in the non-spoken companions. Word counts are descriptive only.

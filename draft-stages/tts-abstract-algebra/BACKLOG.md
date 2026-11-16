@@ -1,12 +1,12 @@
-# Abstract Algebra — after 48 completed lectures
+# Abstract Algebra — after 52 completed lectures
 
-The track now reaches perfect complexes, Grothendieck-Riemann-Roch, algebraic group schemes and deformation-obstruction complexes in moduli theory, building on Galois theory, arithmetic geometry, sheaves and descent.
+This continuation develops derived obstructions, arithmetic intersections and heights, Tannakian symmetry reconstruction, and quotient stacks with stabilizers and inertia.
 
 ## Unindexed continuation proposals
 
-- 049000 — Derived Deformation Theory and Obstruction Triangles
-- 050000 — Arithmetic Intersection Theory and Heights
-- 051000 — Tannakian Reconstruction and Tensor Categories
-- 052000 — Quotient Stacks, Stabilizers and Inertia
+- 053000 — Derived Algebraic Geometry and the Cotangent Complex
+- 054000 — Selmer Groups and Arithmetic Duality
+- 055000 — Representation Theory of Reductive Groups
+- 056000 — Enumerative Geometry and Virtual Fundamental Classes
 
-Distinguish K-theory classes from individual cohomology dimensions, scheme-valued points from field-valued points, and infinitesimal obstruction spaces from actual nonzero obstructions. Proposals are not registered.
+Do not collapse infinitesimal and global automorphism data, or treat potential obstructions as actual obstructions. Proposals are not registered.

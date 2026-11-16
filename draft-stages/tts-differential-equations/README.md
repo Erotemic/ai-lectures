@@ -87,3 +87,10 @@ Narrations are standalone. Exact calculations, proofs, exercises and sources are
 - 024000 — [Variational PDEs and Noether-Type Conservation Identities](024000-variational-pdes-and-noether-identities.md)
 
 Each narration is standalone; exact hypotheses, proofs, calculations, exercises and sources are in the non-spoken companions. Word counts are descriptive only.
+
+## Continuation 13: Deformation, structure and rigorous computation
+
+- 025000 — [Hypocoercivity: How Transport Creates Dissipation](025000-hypocoercivity-and-return-to-equilibrium.md)
+- 026000 — [Front Pinning: When a Traveling Wave Stops](026000-front-pinning-and-depinning-in-heterogeneous-media.md)
+
+Each narration is standalone; exact hypotheses, proofs, calculations, exercises and sources are in the non-spoken companions. Word counts are descriptive only.
