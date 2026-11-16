@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "sources": {
+    "acc-euclid": {
+      "title": "Euclid, Elements, Book VII, Proposition 2: Greatest Common Measure",
+      "kind": "historical_primary",
+      "url": "https://www.claymath.org/euclid_index/fundamentals-of-number-theory/?chapter=2",
+      "access": "free_no_login",
+      "notes": "Clay Mathematics Institute translation and Greek; subtraction-style ancient construction; modern remainder loop is not quoted verbatim."
+    },
+    "acc-mit-intro": {
+      "title": "Erik Demaine, Jason Ku, Justin Solomon, MIT 6.006 Spring 2020, Lecture 1: Introduction",
+      "kind": "open_course_notes",
+      "url": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/477c78e0af2df61fa205bcc6cb613ceb_MIT6_006S20_lec1.pdf",
+      "access": "free_no_login",
+      "notes": "Explicit problem as input-output relation, algorithm, correctness by induction, efficiency, asymptotic cost models."
+    },
+    "acc-mit-notes": {
+      "title": "MIT 6.006 Introduction to Algorithms, Spring 2020, lecture notes index",
+      "kind": "open_course_notes",
+      "url": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/pages/lecture-notes/",
+      "access": "free_no_login",
+      "notes": "Lectures 3, 5, 18, 19 include sorting, linear sorting, pseudopolynomial algorithms, and complexity."
+    },
+    "acc-mit-complexity": {
+      "title": "Erik Demaine, MIT 6.006, Lecture 19: Complexity",
+      "kind": "open_course_notes",
+      "url": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/resources/lecture-19-complexity/",
+      "access": "free_no_login",
+      "notes": "P, NP, reductions, complexity categories; lecture summary and educational resource."
+    },
+    "acc-turing": {
+      "title": "Alan M. Turing, On Computable Numbers, with an Application to the Entscheidungsproblem (written 1936, published 1937)",
+      "kind": "historical_primary",
+      "url": "https://doi.org/10.1112/plms/s2-42.1.230",
+      "access": "publisher_free_or_landing",
+      "notes": "Proceedings of the London Mathematical Society s2-42, 230-265; original paper provenance and date; full reasoning on SEP."
+    },
+    "acc-sep-ct": {
+      "title": "The Church–Turing Thesis, Stanford Encyclopedia of Philosophy (2023 revision)",
+      "kind": "peer_reviewed_encyclopedia",
+      "url": "https://plato.stanford.edu/entries/church-turing/",
+      "access": "free_no_login",
+      "notes": "Sections 1 and 4-6 distinguish formal equivalence from informal thesis and distinguish physical/complexity variants."
+    },
+    "acc-sep-comp": {
+      "title": "Computability and Complexity, Stanford Encyclopedia of Philosophy (2021 revision)",
+      "kind": "peer_reviewed_encyclopedia",
+      "url": "https://plato.stanford.edu/entries/computability/",
+      "access": "free_no_login",
+      "notes": "Sections 1 and 2 describe historical calculi, universality, halting undecidability, complexity."
+    },
+    "acc-stanford-alg": {
+      "title": "Stanford CS161 Design and Analysis of Algorithms, lecture resources",
+      "kind": "open_course_notes",
+      "url": "https://cs161-stanford.github.io/lectures/",
+      "access": "free_no_login",
+      "notes": "Lecture 2: Asymptotics, Worst-Case Analysis, MergeSort; lecture 3: recurrences."
+    },
+    "acc-jhu-lower": {
+      "title": "Michael Dinitz and Jessica Sorrell, JHU 601.433/633 Lecture 6 (2025), Sorting Lower Bound and Linear-Time Sorting",
+      "kind": "open_course_notes",
+      "url": "https://introalgorithmsfall25.cs.jhu.edu/schedule/Lectures/Lecture6/lecture6.pdf",
+      "access": "free_no_login",
+      "notes": "Theorem 6.2.1 p.1 and proof pp. 1-3: worst-case comparisons Ω(log(n!)); distinction from integer-key sorts."
+    },
+    "acc-floyd": {
+      "title": "Robert W. Floyd, Assigning Meanings to Programs (1967)",
+      "kind": "historical_primary",
+      "url": "https://doi.org/10.1090/psapm/019/0235771",
+      "access": "bibliographic_landing",
+      "notes": "Proceedings of Symposia in Applied Mathematics 19, pp. 19-32. Attribution of control-flow assertions and termination arguments; bibliographic record rather than claim of reading publisher full text."
+    },
+    "acc-hoare": {
+      "title": "C. A. R. Hoare, An Axiomatic Basis for Computer Programming (1969)",
+      "kind": "historical_primary",
+      "url": "https://doi.org/10.1145/363235.363259",
+      "access": "abstract_and_bibliographic",
+      "notes": "Communications of the ACM 12(10), 576-580, 583. Formal rules for proving program properties; primary abstract accessible."
+    },
+    "acc-bloch": {
+      "title": "Joshua Bloch, Extra, Extra — Read All About It: Nearly All Binary Searches and Mergesorts Are Broken (2006)",
+      "kind": "author_primary_blog",
+      "url": "https://research.google/blog/extra-extra-read-all-about-it-nearly-all-binary-searches-and-mergesorts-are-broken/",
+      "access": "free_no_login",
+      "notes": "First-person account of integer overflow in binary search in Bentley and JDK; describes input size required to trigger."
+    },
+    "acc-lean": {
+      "title": "Jeremy Avigad, Leonardo de Moura, Soonho Kong, Sebastian Ullrich, Theorem Proving in Lean 4, Chapter 8",
+      "kind": "official_documentation",
+      "url": "https://lean-lang.org/theorem_proving_in_lean4/Induction-and-Recursion/",
+      "access": "free_no_login",
+      "notes": "Recursion, induction, well-founded recursion; not evidence that this pack includes a checked Lean theorem."
+    }
+  }
+}

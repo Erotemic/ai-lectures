@@ -1,0 +1,199 @@
+{
+  "schema_version": 1,
+  "lecture_id": "002000",
+  "transcript": "002000-why-some-problems-are-harder.md",
+  "related_resources": [
+    {
+      "source_id": "acc-jhu-lower",
+      "reason": "Theorem 6.2.1 p.1 and proof pp. 1-3: worst-case comparisons Ω(log(n!)); distinction from integer-key sorts."
+    },
+    {
+      "source_id": "acc-mit-complexity",
+      "reason": "P, NP, reductions, complexity categories; lecture summary and educational resource."
+    },
+    {
+      "source_id": "acc-mit-intro",
+      "reason": "Explicit problem as input-output relation, algorithm, correctness by induction, efficiency, asymptotic cost models."
+    },
+    {
+      "source_id": "acc-mit-notes",
+      "reason": "Lectures 3, 5, 18, 19 include sorting, linear sorting, pseudopolynomial algorithms, and complexity."
+    },
+    {
+      "source_id": "acc-stanford-alg",
+      "reason": "Lecture 2: Asymptotics, Worst-Case Analysis, MergeSort; lecture 3: recurrences."
+    }
+  ],
+  "claim_evidence": [
+    {
+      "id": "acc-002-c001",
+      "anchor": "one comes with a structural promise and the other does not.",
+      "source_ids": [
+        "acc-mit-intro"
+      ],
+      "provenance": "editorial_inference",
+      "source_locator": "Original sorted vs unsorted example from general algorithm analysis.",
+      "evidence_detail": "Original sorted vs unsorted example from general algorithm analysis."
+    },
+    {
+      "id": "acc-002-c002",
+      "anchor": "The number of comparisons grows logarithmically with the number of entries.",
+      "source_ids": [
+        "acc-mit-intro"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Repeated halving, base-two logarithm; MIT 6.006 efficiency context.",
+      "evidence_detail": "Repeated halving, base-two logarithm; MIT 6.006 efficiency context."
+    },
+    {
+      "id": "acc-002-c003",
+      "anchor": "A singly linked list, by contrast, may require a linear walk to reach a chosen middle node.",
+      "source_ids": [
+        "acc-mit-notes"
+      ],
+      "provenance": "supported_interpretation",
+      "source_locator": "Random access differs from sequential access; cost model interpretation.",
+      "evidence_detail": "Random access differs from sequential access; cost model interpretation."
+    },
+    {
+      "id": "acc-002-c004",
+      "anchor": "Big O notation expresses an asymptotic upper bound.",
+      "source_ids": [
+        "acc-mit-intro"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "MIT 6.006 Lecture 1, asymptotic notation section.",
+      "evidence_detail": "MIT 6.006 Lecture 1, asymptotic notation section."
+    },
+    {
+      "id": "acc-002-c005",
+      "anchor": "A *worst-case* bound covers every input of the stated size.",
+      "source_ids": [
+        "acc-stanford-alg"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Stanford CS161 Lecture 2, Worst-Case Analysis and asymptotics.",
+      "evidence_detail": "Stanford CS161 Lecture 2, Worst-Case Analysis and asymptotics."
+    },
+    {
+      "id": "acc-002-c006",
+      "anchor": "An *average-case* bound needs a probability distribution over inputs.",
+      "source_ids": [
+        "acc-stanford-alg"
+      ],
+      "provenance": "supported_interpretation",
+      "source_locator": "Algorithmic probability definition in lecture; different from internal randomness.",
+      "evidence_detail": "Algorithmic probability definition in lecture; different from internal randomness."
+    },
+    {
+      "id": "acc-002-c007",
+      "anchor": "An amortized bound is different again: it distributes expensive operations across a sequence of updates without necessarily invoking probability at all.",
+      "source_ids": [
+        "acc-mit-notes"
+      ],
+      "provenance": "supported_interpretation",
+      "source_locator": "Standard amortized analysis distinction; follow-up material in Stanford CS161 schedule.",
+      "evidence_detail": "Standard amortized analysis distinction; follow-up material in Stanford CS161 schedule."
+    },
+    {
+      "id": "acc-002-c008",
+      "anchor": "the total work grows on the order of n times logarithm of n",
+      "source_ids": [
+        "acc-stanford-alg"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Stanford CS161 Lecture 2, asymptotics and mergesort.",
+      "evidence_detail": "Stanford CS161 Lecture 2, asymptotics and mergesort."
+    },
+    {
+      "id": "acc-002-c009",
+      "anchor": "There are logarithmically many levels.",
+      "source_ids": [
+        "acc-stanford-alg"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Original recursion-tree unpacking for mergesort, supported by CS161 recurrences.",
+      "evidence_detail": "Original recursion-tree unpacking for mergesort, supported by CS161 recurrences."
+    },
+    {
+      "id": "acc-002-c010",
+      "anchor": "Every comparison has two relevant outcomes: one item is smaller, or the other is smaller.",
+      "source_ids": [
+        "acc-jhu-lower"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "JHU 601.433 Lecture 6, §6.2, comparison-decision tree; distinct keys.",
+      "evidence_detail": "JHU 601.433 Lecture 6, §6.2, comparison-decision tree; distinct keys."
+    },
+    {
+      "id": "acc-002-c011",
+      "anchor": "There are n factorial possible input permutations.",
+      "source_ids": [
+        "acc-jhu-lower"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "JHU 601.433 Lecture 6, §6.2, permutation argument.",
+      "evidence_detail": "JHU 601.433 Lecture 6, §6.2, permutation argument."
+    },
+    {
+      "id": "acc-002-c012",
+      "anchor": "at least sixteen comparisons are needed in the worst case.",
+      "source_ids": [
+        "acc-jhu-lower"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "n=8; 8!=40320>32768=2^15; rounding up log₂(8!) gives 16.",
+      "evidence_detail": "n=8; 8!=40320>32768=2^15; rounding up log₂(8!) gives 16."
+    },
+    {
+      "id": "acc-002-c013",
+      "anchor": "This is a lower bound for the whole comparison model, not a complaint about the implementation of merge sort.",
+      "source_ids": [
+        "acc-jhu-lower"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "JHU 601.433 Lecture 6, Theorem 6.2.1.",
+      "evidence_detail": "JHU 601.433 Lecture 6, Theorem 6.2.1."
+    },
+    {
+      "id": "acc-002-c014",
+      "anchor": "That does not contradict the comparison lower bound.",
+      "source_ids": [
+        "acc-jhu-lower"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "JHU 601.433 Lecture 6, §6.1 and linear-time sorting subsection; extra key structure.",
+      "evidence_detail": "JHU 601.433 Lecture 6, §6.1 and linear-time sorting subsection; extra key structure."
+    },
+    {
+      "id": "acc-002-c015",
+      "anchor": "Input length is the length of an encoding, not necessarily the numerical magnitude of the value represented.",
+      "source_ids": [
+        "acc-mit-notes"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "MIT 6.006 Lecture 18, pseudopolynomial running times; bit-length distinction.",
+      "evidence_detail": "MIT 6.006 Lecture 18, pseudopolynomial running times; bit-length distinction."
+    },
+    {
+      "id": "acc-002-c016",
+      "anchor": "The most famous open question asks whether the classes P and NP are equal.",
+      "source_ids": [
+        "acc-mit-complexity"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "MIT 6.006 Lecture 19, complexity classes and reductions; open status standard in computational complexity.",
+      "evidence_detail": "MIT 6.006 Lecture 19, complexity classes and reductions; open status standard in computational complexity."
+    },
+    {
+      "id": "acc-002-c017",
+      "anchor": "It would be false to claim that NP-complete problems have already been proved to require exponential time.",
+      "source_ids": [
+        "acc-mit-complexity"
+      ],
+      "provenance": "supported_interpretation",
+      "source_locator": "Distinguishes known NP-completeness from unresolved P vs NP; no universal exponential lower bound known.",
+      "evidence_detail": "Distinguishes known NP-completeness from unresolved P vs NP; no universal exponential lower bound known."
+    }
+  ]
+}

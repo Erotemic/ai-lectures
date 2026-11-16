@@ -1,0 +1,41 @@
+{
+  "id": "algorithms-computability-complexity",
+  "title": "Algorithms, Computability, and Complexity",
+  "summary": "An audio-first mathematical treatment of algorithmic specifications, proofs of correctness, computability limits, asymptotic resources, reductions, and verified implementations. Begins with executable and fully reasoned worked examples.",
+  "assumed_background": [
+    "whole numbers and elementary algebra",
+    "basic functions, sequences, and logarithms",
+    "familiarity with the idea of a program; no proof assistant experience required"
+  ],
+  "sections": [
+    "problems-algorithms-and-computability",
+    "computational-cost-and-lower-bounds",
+    "proof-refinement-and-verification"
+  ],
+  "lectures": [
+    {
+      "id": "001000",
+      "title": "What Is an Algorithm, Really?",
+      "section": "problems-algorithms-and-computability",
+      "file": "001000-what-is-an-algorithm.md",
+      "spoken_words": 1821,
+      "draft_status": "substantive"
+    },
+    {
+      "id": "002000",
+      "title": "Why Some Problems Are Harder Than Others",
+      "section": "computational-cost-and-lower-bounds",
+      "file": "002000-why-some-problems-are-harder.md",
+      "spoken_words": 2051,
+      "draft_status": "substantive"
+    },
+    {
+      "id": "003000",
+      "title": "From Mathematical Proof to Executable Algorithm",
+      "section": "proof-refinement-and-verification",
+      "file": "003000-from-proof-to-executable-algorithm.md",
+      "spoken_words": 2165,
+      "draft_status": "substantive"
+    }
+  ]
+}

@@ -1,0 +1,205 @@
+{
+  "schema_version": 1,
+  "lecture_id": "001000",
+  "transcript": "001000-what-is-an-algorithm.md",
+  "related_resources": [
+    {
+      "source_id": "acc-euclid",
+      "reason": "Clay Mathematics Institute translation and Greek; subtraction-style ancient construction; modern remainder loop is not quoted verbatim."
+    },
+    {
+      "source_id": "acc-floyd",
+      "reason": "Proceedings of Symposia in Applied Mathematics 19, pp. 19-32. Attribution of control-flow assertions and termination arguments; bibliographic record rather than claim of reading publisher full text."
+    },
+    {
+      "source_id": "acc-hoare",
+      "reason": "Communications of the ACM 12(10), 576-580, 583. Formal rules for proving program properties; primary abstract accessible."
+    },
+    {
+      "source_id": "acc-lean",
+      "reason": "Recursion, induction, well-founded recursion; not evidence that this pack includes a checked Lean theorem."
+    },
+    {
+      "source_id": "acc-mit-intro",
+      "reason": "Explicit problem as input-output relation, algorithm, correctness by induction, efficiency, asymptotic cost models."
+    },
+    {
+      "source_id": "acc-sep-comp",
+      "reason": "Sections 1 and 2 describe historical calculi, universality, halting undecidability, complexity."
+    },
+    {
+      "source_id": "acc-sep-ct",
+      "reason": "Sections 1 and 4-6 distinguish formal equivalence from informal thesis and distinguish physical/complexity variants."
+    },
+    {
+      "source_id": "acc-turing",
+      "reason": "Proceedings of the London Mathematical Society s2-42, 230-265; original paper provenance and date; full reasoning on SEP."
+    }
+  ],
+  "claim_evidence": [
+    {
+      "id": "acc-001-c001",
+      "anchor": "A program is an implementation of a method in a particular language and execution environment.",
+      "source_ids": [
+        "acc-mit-intro"
+      ],
+      "provenance": "supported_interpretation",
+      "source_locator": "MIT 6.006 Lecture 1, Problem and Algorithm headings; lecture distinguishes algorithm/program for teaching.",
+      "evidence_detail": "MIT 6.006 Lecture 1, Problem and Algorithm headings; lecture distinguishes algorithm/program for teaching."
+    },
+    {
+      "id": "acc-001-c002",
+      "anchor": "This is a specification. Many procedures can meet it.",
+      "source_ids": [
+        "acc-mit-intro"
+      ],
+      "provenance": "supported_interpretation",
+      "source_locator": "MIT 6.006 Lecture 1, Problem as relation; different methods can satisfy it.",
+      "evidence_detail": "MIT 6.006 Lecture 1, Problem as relation; different methods can satisfy it."
+    },
+    {
+      "id": "acc-001-c003",
+      "anchor": "The procedure returns twenty-one.",
+      "source_ids": [
+        "acc-euclid"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Original computed trace (252,105), (105,42), (42,21), (21,0); Euclid VII.2 historical context.",
+      "evidence_detail": "Original computed trace (252,105), (105,42), (42,21), (21,0); Euclid VII.2 historical context."
+    },
+    {
+      "id": "acc-001-c004",
+      "anchor": "The set of common divisors is unchanged at each replacement.",
+      "source_ids": [
+        "acc-euclid"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Divisibility proof given in this lecture; modern remainder formulation; Euclid VII.2 historical context.",
+      "evidence_detail": "Divisibility proof given in this lecture; modern remainder formulation; Euclid VII.2 historical context."
+    },
+    {
+      "id": "acc-001-c005",
+      "anchor": "This fact is the invariant of the algorithm.",
+      "source_ids": [
+        "acc-mit-intro"
+      ],
+      "provenance": "supported_interpretation",
+      "source_locator": "MIT 6.006 Lecture 1, correctness by induction; explicit invariant original to this example.",
+      "evidence_detail": "MIT 6.006 Lecture 1, correctness by induction; explicit invariant original to this example."
+    },
+    {
+      "id": "acc-001-c006",
+      "anchor": "We have shown that *if* the procedure stops, its answer is right.",
+      "source_ids": [
+        "acc-floyd",
+        "acc-hoare"
+      ],
+      "provenance": "supported_interpretation",
+      "source_locator": "Floyd 1967 and Hoare 1969 distinguish conditional assertions from termination; not a claim of source-specific Euclid example.",
+      "evidence_detail": "Floyd 1967 and Hoare 1969 distinguish conditional assertions from termination; not a claim of source-specific Euclid example."
+    },
+    {
+      "id": "acc-001-c007",
+      "anchor": "Therefore the procedure eventually reaches zero and returns.",
+      "source_ids": [
+        "acc-euclid"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Positive remainder strictly decreases in nonnegative integers, self-contained proof.",
+      "evidence_detail": "Positive remainder strictly decreases in nonnegative integers, self-contained proof."
+    },
+    {
+      "id": "acc-001-c008",
+      "anchor": "Book Seven, Proposition Two of Euclid's *Elements* addresses the greatest common measure of two numbers.",
+      "source_ids": [
+        "acc-euclid"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Euclid Elements VII.2, Clay Mathematics Institute translation.",
+      "evidence_detail": "Euclid Elements VII.2, Clay Mathematics Institute translation."
+    },
+    {
+      "id": "acc-001-c009",
+      "anchor": "A specification can be a relation rather than a single predetermined result.",
+      "source_ids": [
+        "acc-mit-intro"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "MIT 6.006 Lecture 1, Problem: binary relation from problem inputs to correct outputs.",
+      "evidence_detail": "MIT 6.006 Lecture 1, Problem: binary relation from problem inputs to correct outputs."
+    },
+    {
+      "id": "acc-001-c010",
+      "anchor": "In the nineteen thirties, several definitions appeared: Church's lambda calculus, recursive function systems developed by Gödel, Kleene, and others, and the machine models of Turing and Post.",
+      "source_ids": [
+        "acc-sep-comp",
+        "acc-sep-ct"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "SEP Computability and Complexity §1; SEP Church–Turing Thesis §§1,3.",
+      "evidence_detail": "SEP Computability and Complexity §1; SEP Church–Turing Thesis §§1,3."
+    },
+    {
+      "id": "acc-001-c011",
+      "anchor": "their general-purpose versions characterize the same class of computable functions under the standard encodings.",
+      "source_ids": [
+        "acc-sep-comp"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "SEP Computability and Complexity §1, equivalence of models.",
+      "evidence_detail": "SEP Computability and Complexity §1, equivalence of models."
+    },
+    {
+      "id": "acc-001-c012",
+      "anchor": "Alan Turing's paper, written in nineteen thirty-six and published in nineteen thirty-seven",
+      "source_ids": [
+        "acc-turing"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Original journal listing published 1937, received May 1936.",
+      "evidence_detail": "Original journal listing published 1937, received May 1936."
+    },
+    {
+      "id": "acc-001-c013",
+      "anchor": "It is important not to call this an ordinary theorem.",
+      "source_ids": [
+        "acc-sep-ct"
+      ],
+      "provenance": "supported_interpretation",
+      "source_locator": "SEP Church–Turing Thesis §§1,4, discussion of informal effectiveness and scope.",
+      "evidence_detail": "SEP Church–Turing Thesis §§1,4, discussion of informal effectiveness and scope."
+    },
+    {
+      "id": "acc-001-c014",
+      "anchor": "Turing's work establishes the impossibility of a universal decision procedure of this kind.",
+      "source_ids": [
+        "acc-turing",
+        "acc-sep-comp"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "SEP Computability and Complexity §§2.2-2.4; original 1936/1937 paper attribution.",
+      "evidence_detail": "SEP Computability and Complexity §§2.2-2.4; original 1936/1937 paper attribution."
+    },
+    {
+      "id": "acc-001-c015",
+      "anchor": "The mathematical description uses arithmetic on arbitrary integers.",
+      "source_ids": [
+        "acc-mit-intro"
+      ],
+      "provenance": "editorial_inference",
+      "source_locator": "Original discussion of abstract cost/semantics versus concrete machine integer models.",
+      "evidence_detail": "Original discussion of abstract cost/semantics versus concrete machine integer models."
+    },
+    {
+      "id": "acc-001-c016",
+      "anchor": "A proof about a mathematical sequence does not certify a piece of source code unless the relationship between the two is established.",
+      "source_ids": [
+        "acc-hoare",
+        "acc-lean"
+      ],
+      "provenance": "supported_interpretation",
+      "source_locator": "Hoare 1969 program properties; Lean documentation formalized definitions and proofs; bridge is original synthesis.",
+      "evidence_detail": "Hoare 1969 program properties; Lean documentation formalized definitions and proofs; bridge is original synthesis."
+    }
+  ]
+}

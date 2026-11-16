@@ -98,3 +98,20 @@ Citation quality takes priority over bibliography size: a reliable passage that 
 - **046000:** The Middle East after 1945, including the end of the Palestine Mandate, the 1948 war, Palestinian displacement and Jewish state formation, and the history of decolonization and oil politics; avoid making one refugee community a proxy for another.
 
 **Evidence work remaining:** For 039000, compare the full Asada article with Hasegawa’s claims before presenting detailed differences in evidence or a stronger causal verdict. For 040000, consult full Japanese and Korean repatriation monographs and local records; the Bull and Park material is abstract-only. For 041000, seek Indonesian-language memoirs, Partition oral histories from across communities, and Vietnamese participant archives beyond state commemorations. For 042000, extend treaty-language analysis with enforcement histories and developing-state perspectives. Source passage locators and scope cautions are attached to each paragraph.
+
+
+## Completed: 043000-046000, the early postwar settlement in practice
+
+- **043000:** A Country Divided, a War Without Peace: Korea, 1945-1953. Liberation, rival governments, Jeju, the Korean War, civilian violence, refugees, and an armistice without a peace settlement.
+- **044000:** Who Should Rebuild the World? Welfare, Land, and Economic Plans After 1945. British health care, European recovery, Japanese and Chinese land policies, Indian planning, and Latin American development theories.
+- **045000:** When Independence Had Many Voices: African Liberation After 1945. Ghanaian political organization and women activists, Guinea, Kenya, and Algerian paths to independence.
+- **046000:** Who Governs the Land and Its Wealth? The Middle East, 1947-1956. Mandate Palestine and Israeli statehood, the Palestinian Nakba, Jewish displacement, Iranian oil nationalization, and Suez.
+
+## Next research candidates (not indexed)
+
+- **047000:** Bandung, 1955, and nonalignment as self-directed diplomacy. Recover African and Asian delegates' actual proposals rather than treating nonalignment as lack of policy.
+- **048000:** Revolution, reconstruction and economic choices in East Asia, including the People's Republic of China, Japan and Taiwan, emphasizing distinct forms of land redistribution, state power and social consequences.
+- **049000:** Civil rights and anti-apartheid organizing after 1945, including Black-led movements in the United States and southern Africa, with primary voices and local political differences.
+- **050000:** Latin American sovereignty and the Cold War, including Guatemala, Cuba and alternative arguments about development. Verify local archives rather than defaulting to U.S. diplomatic reports.
+
+**Evidence still needed:** For **043000**, add direct testimony from Korean families and scholarship based on northern archives; Chapter 10 of the Korean-authored history and South Korean truth-finding materials have specific institutional vantage points. For **044000**, assess economic outcomes with full comparative and village-level research rather than concluding from planning laws or institution histories. For **045000**, read surviving Ghanaian and Guinean political newspapers and organizers' letters, Kenyan detention testimony, and detailed Algerian historians' works beyond abstracts. For **046000**, expand first-person Palestinian and Jewish refugee sources through inspected individual interviews and cross-check Iranian accounts from Iranian archives. Historiographic disagreements, legal decisions and survivor experiences should remain distinct; no fixed target length applies.

@@ -97,3 +97,13 @@ Each spoken paragraph has a separate evidence record and direct source links, wi
 - **042000 — [Rules for a Broken World: The United Nations, Rights, and Postwar Economic Order](042000-rules-for-a-broken-world.md).** 1945 United Nations Charter and veto, Nuremberg, genocide and human-rights law, refugee protection, and the Bretton Woods and GATT economic settlements.
 
 Each lecture is complete, spoken narration followed by a paragraph-mapped evidence ledger (display only) and a JSON metadata sidecar. Primary materials, archival overviews, historian articles, abstract-only sources, and uncertain estimates are distinguished. The track is exclusively maintained by Agent B; no runtime or global-registry change is part of this delivery.
+
+
+## Divided states, contested development and decolonization (043000-046000)
+
+- **043000 - [A Country Divided, a War Without Peace: Korea, 1945-1953](043000-a-country-divided.md)** (2,384 spoken words). Liberation and division in Korea, Jeju, 1950-53 fighting, civilians and the military armistice.
+- **044000 - [Who Should Rebuild the World? Welfare, Land, and Economic Plans After 1945](044000-who-should-rebuild-the-world.md)** (2,467 spoken words). National health care, recovery aid, land redistribution, planning and competing development theories.
+- **045000 - [When Independence Had Many Voices: African Liberation After 1945](045000-when-independence-had-many-voices.md)** (2,343 spoken words). Gold Coast and Ghanaian organizers, Guinea, the Kenya Emergency and the Algerian independence war.
+- **046000 - [Who Governs the Land and Its Wealth? The Middle East, 1947-1956](046000-who-governs-the-land-and-its-wealth.md)** (2,773 spoken words). The 1947 UN partition proposal, Israeli statehood, Palestinian displacement, Jewish refugees, Iranian oil sovereignty and the Suez Crisis.
+
+Every narrated paragraph maps to an independently linked, display-only evidence entry with source locators, access scope and limitations. Source descriptions and historical debates are kept separate from the spoken lecture. Completed manuscript word counts are descriptive, not a length target.

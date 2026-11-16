@@ -1,0 +1,225 @@
+{
+  "schema_version": 1,
+  "lecture_id": "003000",
+  "transcript": "003000-from-proof-to-executable-algorithm.md",
+  "related_resources": [
+    {
+      "source_id": "acc-bloch",
+      "reason": "First-person account of integer overflow in binary search in Bentley and JDK; describes input size required to trigger."
+    },
+    {
+      "source_id": "acc-floyd",
+      "reason": "Proceedings of Symposia in Applied Mathematics 19, pp. 19-32. Attribution of control-flow assertions and termination arguments; bibliographic record rather than claim of reading publisher full text."
+    },
+    {
+      "source_id": "acc-hoare",
+      "reason": "Communications of the ACM 12(10), 576-580, 583. Formal rules for proving program properties; primary abstract accessible."
+    },
+    {
+      "source_id": "acc-lean",
+      "reason": "Recursion, induction, well-founded recursion; not evidence that this pack includes a checked Lean theorem."
+    },
+    {
+      "source_id": "acc-mit-intro",
+      "reason": "Explicit problem as input-output relation, algorithm, correctness by induction, efficiency, asymptotic cost models."
+    },
+    {
+      "source_id": "acc-mit-notes",
+      "reason": "Lectures 3, 5, 18, 19 include sorting, linear sorting, pseudopolynomial algorithms, and complexity."
+    }
+  ],
+  "claim_evidence": [
+    {
+      "id": "acc-003-c001",
+      "anchor": "It is to return the earliest position at which the array element is greater than or equal to the target.",
+      "source_ids": [
+        "acc-mit-intro"
+      ],
+      "provenance": "original_example",
+      "source_locator": "Original precise lower-bound specification; MIT 6.006 source for specification methodology.",
+      "evidence_detail": "Original precise lower-bound specification; MIT 6.006 source for specification methodology."
+    },
+    {
+      "id": "acc-003-c002",
+      "anchor": "If the target is two, the answer is position one, counting from zero, not position two.",
+      "source_ids": [
+        "acc-mit-intro"
+      ],
+      "provenance": "original_example",
+      "source_locator": "Array [1,2,2,5], x=2; exact result independently checked by included script.",
+      "evidence_detail": "Array [1,2,2,5], x=2; exact result independently checked by included script."
+    },
+    {
+      "id": "acc-003-c003",
+      "anchor": "Sortedness makes this predicate monotone",
+      "source_ids": [
+        "acc-mit-intro"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Consequence of nondecreasing finite sequence and total-order comparison; companion formalization.",
+      "evidence_detail": "Consequence of nondecreasing finite sequence and total-order comparison; companion formalization."
+    },
+    {
+      "id": "acc-003-c004",
+      "anchor": "At all times, every position strictly before low contains an element less than the target.",
+      "source_ids": [
+        "acc-hoare",
+        "acc-floyd"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Original lower-bound invariant; Floyd/Hoare are foundational program assertion sources, not claimed origin for example.",
+      "evidence_detail": "Original lower-bound invariant; Floyd/Hoare are foundational program assertion sources, not claimed origin for example."
+    },
+    {
+      "id": "acc-003-c005",
+      "anchor": "Before the first iteration, low is zero and high is the array length.",
+      "source_ids": [
+        "acc-hoare"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Invariant initialization: empty quantified regions.",
+      "evidence_detail": "Invariant initialization: empty quantified regions."
+    },
+    {
+      "id": "acc-003-c006",
+      "anchor": "In the other branch, the middle entry is at least the target.",
+      "source_ids": [
+        "acc-hoare"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Invariant preservation on ≥ branch using sortedness.",
+      "evidence_detail": "Invariant preservation on ≥ branch using sortedness."
+    },
+    {
+      "id": "acc-003-c007",
+      "anchor": "The interval becomes strictly shorter.",
+      "source_ids": [
+        "acc-floyd"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Variant hi-lo decreases in both update branches; Floyd original discusses termination measures.",
+      "evidence_detail": "Variant hi-lo decreases in both update branches; Floyd original discusses termination measures."
+    },
+    {
+      "id": "acc-003-c008",
+      "anchor": "The algorithm therefore returns the required lower bound, including in the cases involving duplicates, missing values, and empty inputs.",
+      "source_ids": [
+        "acc-hoare"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Human-level proof and included bounded exhaustive checks; theorem does not depend on checks.",
+      "evidence_detail": "Human-level proof and included bounded exhaustive checks; theorem does not depend on checks."
+    },
+    {
+      "id": "acc-003-c009",
+      "anchor": "Robert Floyd's nineteen sixty-seven paper, 'Assigning Meanings to Programs,' develops assertions associated with program control flow and discusses proving termination by a decreasing quantity.",
+      "source_ids": [
+        "acc-floyd"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Floyd 1967, pp.19–32, introduction; metadata and historical explanation.",
+      "evidence_detail": "Floyd 1967, pp.19–32, introduction; metadata and historical explanation."
+    },
+    {
+      "id": "acc-003-c010",
+      "anchor": "C. A. R. Hoare's nineteen sixty-nine paper, 'An Axiomatic Basis for Computer Programming,' develops axiomatic reasoning about programs.",
+      "source_ids": [
+        "acc-hoare"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Hoare 1969, abstract and §§1–2.",
+      "evidence_detail": "Hoare 1969, abstract and §§1–2."
+    },
+    {
+      "id": "acc-003-c011",
+      "anchor": "That is a strong regression test for these instances, and it can catch accidental edits.",
+      "source_ids": [
+        "acc-mit-intro"
+      ],
+      "provenance": "editorial_inference",
+      "source_locator": "Original explanation of bounded testing versus proof; executable companion is evidence of tested cases.",
+      "evidence_detail": "Original explanation of bounded testing versus proof; executable companion is evidence of tested cases."
+    },
+    {
+      "id": "acc-003-c012",
+      "anchor": "In Python, integer values grow as needed",
+      "source_ids": [
+        "acc-bloch"
+      ],
+      "provenance": "supported_interpretation",
+      "source_locator": "Original contrast with bounded integer overflow failure; Bloch 2006 establishes failure mode in Java.",
+      "evidence_detail": "Original contrast with bounded integer overflow failure; Bloch 2006 establishes failure mode in Java."
+    },
+    {
+      "id": "acc-003-c013",
+      "anchor": "Joshua Bloch reported in two thousand six that a long-standing Java binary search implementation and a version discussed in Jon Bentley's work shared an overflow problem.",
+      "source_ids": [
+        "acc-bloch"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Joshua Bloch author blog June 2 2006, first-person bug report.",
+      "evidence_detail": "Joshua Bloch author blog June 2 2006, first-person bug report."
+    },
+    {
+      "id": "acc-003-c014",
+      "anchor": "A floating-point value such as NaN can defeat the ordinary picture of a total numeric order",
+      "source_ids": [
+        "acc-mit-intro"
+      ],
+      "provenance": "original_example",
+      "source_locator": "Original boundary-case illustration; standard NaN comparison semantics, not attributed to MIT as a specific claim.",
+      "evidence_detail": "Original boundary-case illustration; standard NaN comparison semantics, not attributed to MIT as a specific claim."
+    },
+    {
+      "id": "acc-003-c015",
+      "anchor": "The precondition here is not merely 'give me an array.'",
+      "source_ids": [
+        "acc-hoare"
+      ],
+      "provenance": "supported_interpretation",
+      "source_locator": "Hoare-style pre/postconditions; original lower-bound contract.",
+      "evidence_detail": "Hoare-style pre/postconditions; original lower-bound contract."
+    },
+    {
+      "id": "acc-003-c016",
+      "anchor": "In Lean, for example, inductive definitions, recursive functions, and well-founded recursion provide ways to express computations whose termination obligations are explicit.",
+      "source_ids": [
+        "acc-lean"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Theorem Proving in Lean 4, Chapter 8 §§8.1–8.3, well-founded recursion.",
+      "evidence_detail": "Theorem Proving in Lean 4, Chapter 8 §§8.1–8.3, well-founded recursion."
+    },
+    {
+      "id": "acc-003-c017",
+      "anchor": "A verified bridge requires a correspondence theorem, a trusted or verified translation, or a clearly justified relationship between the models.",
+      "source_ids": [
+        "acc-lean",
+        "acc-hoare"
+      ],
+      "provenance": "editorial_inference",
+      "source_locator": "Conceptual boundary between theorem checked in assistant and code outside model.",
+      "evidence_detail": "Conceptual boundary between theorem checked in assistant and code outside model."
+    },
+    {
+      "id": "acc-003-c018",
+      "anchor": "Every iteration reduces the candidate interval by approximately half.",
+      "source_ids": [
+        "acc-mit-intro"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Invariant/variant analysis; at most ceil(log₂(n+1)) comparisons under stated cost model.",
+      "evidence_detail": "Invariant/variant analysis; at most ceil(log₂(n+1)) comparisons under stated cost model."
+    },
+    {
+      "id": "acc-003-c019",
+      "anchor": "The same methodology scales to dynamic programming, graph algorithms, balanced trees, numerical algorithms, and proof-driven code generation.",
+      "source_ids": [
+        "acc-mit-notes"
+      ],
+      "provenance": "editorial_inference",
+      "source_locator": "Generalizes proof obligations; no formal theorem that all implementations have been verified.",
+      "evidence_detail": "Generalizes proof obligations; no formal theorem that all implementations have been verified."
+    }
+  ]
+}
