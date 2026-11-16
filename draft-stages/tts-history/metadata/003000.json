@@ -74,6 +74,30 @@
     {
       "source_id": "history-rayleigh-nora-cambridge",
       "reason": "Biographical evidence for 003000 historical-portrait revisions."
+    },
+    {
+      "source_id": "history-rayleigh-royalsociety-archive",
+      "reason": "Additional documented biographical or scientific-historical context for this episode."
+    },
+    {
+      "source_id": "history-rayleigh-mactutor",
+      "reason": "Additional documented biographical or scientific-historical context for this episode."
+    },
+    {
+      "source_id": "history-rayleigh-aps-terling",
+      "reason": "Additional documented biographical or scientific-historical context for this episode."
+    },
+    {
+      "source_id": "history-rayleigh-aps-argon",
+      "reason": "Additional documented biographical or scientific-historical context for this episode."
+    },
+    {
+      "source_id": "history-rayleigh-ramsay-nobel",
+      "reason": "Additional documented biographical or scientific-historical context for this episode."
+    },
+    {
+      "source_id": "history-rayleigh-leissa-critical",
+      "reason": "Additional documented biographical or scientific-historical context for this episode."
     }
   ],
   "historical_claims": [
@@ -119,22 +143,52 @@
     },
     {
       "id": "003000-h05",
-      "anchor": "Rayleigh's 1904 Nobel Prize recognized the discovery of argon",
+      "anchor": "Edward Routh coached Strutt for the Cambridge Mathematical Tripos",
       "kind": "historical_biography_or_context",
       "source_ids": [
-        "history-rayleigh-nobel"
+        "history-rayleigh-mactutor"
       ],
-      "source_locator": "Nobel prize record, 1904",
+      "source_locator": "MacTutor, early Cambridge education",
       "audit_status": "source_cross_checked"
     },
     {
       "id": "003000-h06",
-      "anchor": "including as an adviser to Trinity House",
+      "anchor": "He traveled to the United States rather than making only the customary European tour",
       "kind": "historical_biography_or_context",
       "source_ids": [
-        "history-rayleigh-ri"
+        "history-rayleigh-mactutor"
       ],
-      "source_locator": "Royal Institution, Lord Rayleigh biography",
+      "source_locator": "MacTutor, travel and early experiments",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "003000-h07",
+      "anchor": "which were affected by the agricultural depression",
+      "kind": "historical_biography_or_context",
+      "source_ids": [
+        "history-rayleigh-mactutor"
+      ],
+      "source_locator": "MacTutor, Terling and agricultural depression",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "003000-h08",
+      "anchor": "Rayleigh opened experimental physics teaching to women in the early eighteen eighties",
+      "kind": "historical_biography_or_context",
+      "source_ids": [
+        "history-rayleigh-nora-cambridge"
+      ],
+      "source_locator": "University of Cambridge, Nora Sidgwick at Cavendish",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "003000-h09",
+      "anchor": "Nora Sidgwick took part in the Cavendish program",
+      "kind": "historical_biography_or_context",
+      "source_ids": [
+        "history-rayleigh-nora-cambridge"
+      ],
+      "source_locator": "Cambridge, Nora Sidgwick and electrical standards",
       "audit_status": "source_cross_checked"
     }
   ]

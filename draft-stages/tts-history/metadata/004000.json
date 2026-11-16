@@ -74,6 +74,10 @@
     {
       "source_id": "history-ritz-carlen-letters",
       "reason": "Biographical evidence for 004000 historical-portrait revisions."
+    },
+    {
+      "source_id": "history-ritz-martinez",
+      "reason": "Additional documented biographical or scientific-historical context for this episode."
     }
   ],
   "historical_claims": [
@@ -131,12 +135,34 @@
     },
     {
       "id": "004000-h06",
-      "anchor": "Runge later spoke at his funeral",
+      "anchor": "Ritz became close to Paul Ehrenfest at Göttingen",
+      "kind": "historical_biography_or_context",
+      "source_ids": [
+        "history-ritz-dsb",
+        "history-ritz-martinez"
+      ],
+      "source_locator": "Forman (DSB), Ritz/Ehrenfest Leiden trip",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "004000-h07",
+      "anchor": "Ritz moved to Göttingen after illness had interrupted his studies in Zürich",
+      "kind": "historical_biography_or_context",
+      "source_ids": [
+        "history-ritz-dsb",
+        "history-ritz-hls"
+      ],
+      "source_locator": "Forman (DSB), 1901 move",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "004000-h08",
+      "anchor": "The mountaineering accident he witnessed in eighteen ninety-seven",
       "kind": "historical_biography_or_context",
       "source_ids": [
         "history-ritz-dsb"
       ],
-      "source_locator": "Dictionary of Scientific Biography, Walter Ritz",
+      "source_locator": "Forman, reported accident; explicitly not medical proof",
       "audit_status": "source_cross_checked"
     }
   ]
