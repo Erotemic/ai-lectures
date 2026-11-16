@@ -8,14 +8,16 @@
  ],
  "stages": {
   "003000": {
-   "stage": "review_failed",
-   "at": "2026-11-16T20:28:14Z",
+   "stage": "verified",
+   "at": "2026-11-16T20:55:14Z",
    "revision": "3ffc3836acbb60fa",
-   "error": "bracket span is not JSON: Extra data: line 1 column 19 (char 18)"
+   "findings": 6,
+   "dropped": 0,
+   "active": 3
   }
  },
  "in_progress": {
   "unit": "003000",
-  "stage": "review_failed"
+  "stage": "verified"
  }
 }
