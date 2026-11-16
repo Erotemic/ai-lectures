@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "lecture_id": "013000",
+  "transcript": "013000-thermal-imaging-blower-doors-and-diagnosing-envelope-leaks.md",
+  "related_resources": [
+    {
+      "source_id": "doe-airsealing-audit-2010",
+      "reason": "Blower-door reference pressure and calibrated airflow; infrared thermography under controlled conditions"
+    },
+    {
+      "source_id": "pnnl-air-flow",
+      "reason": "Stack effect, neutral pressure plane, wind and duct leakage"
+    },
+    {
+      "source_id": "pnnl-cold-condensation",
+      "reason": "Air leakage versus vapor diffusion; exterior insulation and assembly drying pathways"
+    },
+    {
+      "source_id": "doe-air-vapor",
+      "reason": "Separate air leakage, vapor diffusion and water-management functions"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P013000-01",
+      "claim": "Calibrated blower-door airflow at imposed pressure quantifies enclosure leakage but is not directly the natural ventilation rate.",
+      "kind": "original_us_building_diagnostic_principle",
+      "supports": [
+        {
+          "source_id": "doe-airsealing-audit-2010",
+          "location": "Blower-door reference pressure and calibrated airflow; infrared thermography under controlled conditions",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "pnnl-air-flow",
+          "location": "Stack effect, neutral pressure plane, wind and duct leakage",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim is bounded by original source scope and applicable jurisdiction or context.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P013000-02",
+      "claim": "Infrared images report apparent surface thermal differences; thermal patterns do not uniquely identify moisture or air leakage.",
+      "kind": "derived_building_physics_synthesis",
+      "supports": [
+        {
+          "source_id": "doe-airsealing-audit-2010",
+          "location": "Blower-door reference pressure and calibrated airflow; infrared thermography under controlled conditions",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "pnnl-cold-condensation",
+          "location": "Air leakage versus vapor diffusion; exterior insulation and assembly drying pathways",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Explanatory synthesis; claims are not independently certified.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P013000-03",
+      "claim": "Controlled pressure changes can help distinguish air leaks from conductive bridges but need comparable environmental conditions.",
+      "kind": "derived_diagnostic_method",
+      "supports": [
+        {
+          "source_id": "doe-airsealing-audit-2010",
+          "location": "Blower-door reference pressure and calibrated airflow; infrared thermography under controlled conditions",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "pnnl-air-flow",
+          "location": "Stack effect, neutral pressure plane, wind and duct leakage",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Explanatory synthesis; claims are not independently certified.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P013000-04",
+      "claim": "Improved airtightness requires coordinating intentional ventilation and combustion safety.",
+      "kind": "original_building_guidance",
+      "supports": [
+        {
+          "source_id": "doe-airsealing-audit-2010",
+          "location": "Blower-door reference pressure and calibrated airflow; infrared thermography under controlled conditions",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "doe-air-vapor",
+          "location": "Separate air leakage, vapor diffusion and water-management functions",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim is bounded by original source scope and applicable jurisdiction or context.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_technical_review_pending",
+  "citation_policy": "Original issuers and named authors attributed; original claims and synthesis distinguished. No professional, clinical or jurisdictional certification is implied."
+}

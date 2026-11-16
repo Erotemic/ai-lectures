@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "lecture_id": "013000",
+  "transcript": "013000-batch-cooking-storage-and-reheating-quality.md",
+  "related_resources": [
+    {
+      "source_id": "foodsafety-leftovers-risk",
+      "reason": "Cool cooked food promptly in shallow containers, use refrigerated leftovers within four days and reheat to 165 degrees Fahrenheit"
+    },
+    {
+      "source_id": "foodsafety-cold-storage-chart",
+      "reason": "Safe minimum temperatures, including 165 degrees Fahrenheit for leftovers"
+    },
+    {
+      "source_id": "asb-starch",
+      "reason": "Granule swelling, gelatinization and paste viscosity"
+    },
+    {
+      "source_id": "msu-food-emulsions",
+      "reason": "Oil-in-water mayonnaise emulsion and yolk/mustard interface stabilization"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P013000-01",
+      "claim": "Consumer guidance recommends shallow-container cooling and timely refrigeration of perishable cooked food.",
+      "kind": "original_us_food_safety_guidance",
+      "supports": [
+        {
+          "source_id": "foodsafety-leftovers-risk",
+          "location": "Cool cooked food promptly in shallow containers, use refrigerated leftovers within four days and reheat to 165 degrees Fahrenheit",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim is bounded by original source scope and applicable jurisdiction or context.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P013000-02",
+      "claim": "US consumer guidance recommends refrigerated leftovers be used within three to four days and reheated to 165 degrees Fahrenheit.",
+      "kind": "original_us_food_safety_guidance",
+      "supports": [
+        {
+          "source_id": "foodsafety-leftovers-risk",
+          "location": "Cool cooked food promptly in shallow containers, use refrigerated leftovers within four days and reheat to 165 degrees Fahrenheit",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "foodsafety-cold-storage-chart",
+          "location": "Safe minimum temperatures, including 165 degrees Fahrenheit for leftovers",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim is bounded by original source scope and applicable jurisdiction or context.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P013000-03",
+      "claim": "Reheating quality depends on food structure, moisture and method and is a separate test from food safety.",
+      "kind": "derived_cooking_science_synthesis",
+      "supports": [
+        {
+          "source_id": "asb-starch",
+          "location": "Granule swelling, gelatinization and paste viscosity",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "msu-food-emulsions",
+          "location": "Oil-in-water mayonnaise emulsion and yolk/mustard interface stabilization",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "foodsafety-leftovers-risk",
+          "location": "Cool cooked food promptly in shallow containers, use refrigerated leftovers within four days and reheat to 165 degrees Fahrenheit",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Explanatory synthesis; claims are not independently certified.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_technical_review_pending",
+  "citation_policy": "Original issuers and named authors attributed; original claims and synthesis distinguished. No professional, clinical or jurisdictional certification is implied."
+}

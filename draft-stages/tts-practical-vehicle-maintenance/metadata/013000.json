@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "lecture_id": "013000",
+  "transcript": "013000-diagnosing-intermittent-electrical-faults.md",
+  "related_resources": [
+    {
+      "source_id": "openstax-ohms-law",
+      "reason": "Voltage drop I × R, resistive heating and limitations of linear Ohm model"
+    },
+    {
+      "source_id": "sae-dtc-j2012-2025",
+      "reason": "Standardized DTC definitions; standards page abstract, full text may require purchase"
+    },
+    {
+      "source_id": "nhtsa-maintain-vehicle",
+      "reason": "Vehicle service records, tire/fluids/light checks and owner manual priority"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P013000-01",
+      "claim": "Voltage measured without loading does not prove that a circuit can sustain its operating current.",
+      "kind": "derived_electrical_diagnostics",
+      "supports": [
+        {
+          "source_id": "openstax-ohms-law",
+          "location": "Voltage drop I × R, resistive heating and limitations of linear Ohm model",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Explanatory synthesis; claims are not independently certified.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P013000-02",
+      "claim": "Automotive diagnostic trouble codes represent monitor-detected conditions rather than proof that a specific part is faulty.",
+      "kind": "original_vehicle_diagnostic_standard_scope",
+      "supports": [
+        {
+          "source_id": "sae-dtc-j2012-2025",
+          "location": "Standardized DTC definitions; standards page abstract, full text may require purchase",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim is bounded by original source scope and applicable jurisdiction or context.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P013000-03",
+      "claim": "Intermittent symptom timing, shared dependencies, and loaded voltage-drop testing help isolate faults.",
+      "kind": "derived_diagnostic_method",
+      "supports": [
+        {
+          "source_id": "openstax-ohms-law",
+          "location": "Voltage drop I × R, resistive heating and limitations of linear Ohm model",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nhtsa-maintain-vehicle",
+          "location": "Vehicle service records, tire/fluids/light checks and owner manual priority",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Explanatory synthesis; claims are not independently certified.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_technical_review_pending",
+  "citation_policy": "Original issuers and named authors attributed; original claims and synthesis distinguished. No professional, clinical or jurisdictional certification is implied."
+}

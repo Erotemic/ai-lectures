@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "lecture_id": "013000",
+  "transcript": "013000-power-failures-ups-design-and-recovery-testing.md",
+  "related_resources": [
+    {
+      "source_id": "nist-sp80034r1-contingency",
+      "reason": "Dependency analysis, service recovery strategies and validating recovery plans; federal-system context"
+    },
+    {
+      "source_id": "cisco-poe",
+      "reason": "PoE standards family and source/device power relationships"
+    },
+    {
+      "source_id": "nist-sp80092-logs",
+      "reason": "Log collection, retention, analysis, and operational processes"
+    }
+  ],
+  "historical_claims": [],
+  "evidence_claims": [
+    {
+      "claim_id": "P013000-01",
+      "claim": "Critical service availability depends on all required powered and logical components, not solely the router or UPS.",
+      "kind": "derived_network_resilience_synthesis",
+      "supports": [
+        {
+          "source_id": "nist-sp80034r1-contingency",
+          "location": "Dependency analysis, service recovery strategies and validating recovery plans; federal-system context",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "cisco-poe",
+          "location": "PoE standards family and source/device power relationships",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Explanatory synthesis; claims are not independently certified.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P013000-02",
+      "claim": "UPS energy capacity and instantaneous VA/watt limits are distinct dimensions of backup-power selection.",
+      "kind": "derived_power_engineering_principle",
+      "supports": [
+        {
+          "source_id": "cisco-poe",
+          "location": "PoE standards family and source/device power relationships",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nist-sp80034r1-contingency",
+          "location": "Dependency analysis, service recovery strategies and validating recovery plans; federal-system context",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Explanatory synthesis; claims are not independently certified.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    },
+    {
+      "claim_id": "P013000-03",
+      "claim": "Recovery planning must include actual service testing and dependencies such as address, time and storage readiness.",
+      "kind": "original_nist_contingency_guidance",
+      "supports": [
+        {
+          "source_id": "nist-sp80034r1-contingency",
+          "location": "Dependency analysis, service recovery strategies and validating recovery plans; federal-system context",
+          "role": "source_reference"
+        },
+        {
+          "source_id": "nist-sp80092-logs",
+          "location": "Log collection, retention, analysis, and operational processes",
+          "role": "source_reference"
+        }
+      ],
+      "verification_level": "source_to_claim_mapping_prepared; independent_subject_matter_review_pending",
+      "limits": "Claim is bounded by original source scope and applicable jurisdiction or context.",
+      "professional_review": "subject_matter_review_required_for_consequential_application"
+    }
+  ],
+  "editorial_status": "substantive_educational_draft_technical_review_pending",
+  "citation_policy": "Original issuers and named authors attributed; original claims and synthesis distinguished. No professional, clinical or jurisdictional certification is implied."
+}
