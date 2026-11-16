@@ -1,0 +1,268 @@
+{
+  "schema_version": 1,
+  "lecture_id": "072000",
+  "transcript": "072000-who-connected-the-world.md",
+  "related_resources": [
+    {
+      "source_id": "web-gao",
+      "reason": "U.S. public investment, commercial backbones, NSFNET end in 1995",
+      "access_scope": "direct_html_legal_history"
+    },
+    {
+      "source_id": "web-gs",
+      "reason": "Peak of March 2000, web investment and business failure",
+      "access_scope": "direct_html_financial_institution_history"
+    },
+    {
+      "source_id": "web-icann",
+      "reason": "1998 creation of ICANN for domain-name coordination and contested global participation",
+      "access_scope": "direct_html_institutional_history"
+    },
+    {
+      "source_id": "web-itu",
+      "reason": "11 million mobile subscriptions in 1990, 300 million by 1998, infrastructure differences",
+      "access_scope": "direct_html_institutional_report"
+    },
+    {
+      "source_id": "web-itu02",
+      "reason": "Rapid divergence of mobile, fixed and internet service trajectories, digital divide",
+      "access_scope": "search_indexed_pdf_and_visual_summary"
+    },
+    {
+      "source_id": "web-loc",
+      "reason": "1990s venture capital, 2000 NASDAQ reversal and commercial investment",
+      "access_scope": "direct_html_bibliographic_overview"
+    },
+    {
+      "source_id": "web-mosaic",
+      "reason": "NCSA Mosaic, browsers, early commercial services, websites and online advertising",
+      "access_scope": "direct_html_museum_timeline"
+    },
+    {
+      "source_id": "web-origin",
+      "reason": "30 April 1993 public release and later open license of Web components",
+      "access_scope": "direct_html_institutional_primary_history"
+    },
+    {
+      "source_id": "web-society",
+      "reason": "Packet-switching, NSFNET commercialization, 1995 backbone retirement and protocol governance",
+      "access_scope": "direct_html_technologist_account"
+    },
+    {
+      "source_id": "web-w3c",
+      "reason": "Hypertext, early browser, first server, 1994 W3C standards",
+      "access_scope": "direct_html_institutional_history"
+    },
+    {
+      "source_id": "web-w3cchrono",
+      "reason": "1993 Mosaic, 1994 W3C and growing web servers",
+      "access_scope": "direct_html_primary_technologist_chronology"
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "072000-p01",
+      "anchor": "In the early nineteen nineties, imagine a scientist sitting at a workstation a",
+      "kind": "historical_research",
+      "source_ids": [
+        "web-origin",
+        "web-w3c"
+      ],
+      "source_locator": "web-origin: 30 April 1993 public release and later open license of Web components; web-w3c: Hypertext, early browser, first server, 1994 W3C standards",
+      "audit_status": "web_sources_reviewed_with_access_scope",
+      "source_limitations": "CERN explains its code, not the complete history of the internet W3C institutional timeline privileges web technologies over other internet services"
+    },
+    {
+      "id": "072000-p02",
+      "anchor": "On April thirtieth, nineteen ninety-three, CERN announced that core Web softwa",
+      "kind": "historical_research",
+      "source_ids": [
+        "web-origin",
+        "web-w3cchrono"
+      ],
+      "source_locator": "web-origin: 30 April 1993 public release and later open license of Web components; web-w3cchrono: 1993 Mosaic, 1994 W3C and growing web servers",
+      "audit_status": "web_sources_reviewed_with_access_scope",
+      "source_limitations": "CERN explains its code, not the complete history of the internet W3C has institutional point of view and is about web not all internet activity"
+    },
+    {
+      "id": "072000-p03",
+      "anchor": "The browser known as Mosaic, developed at the National Center for Supercomputi",
+      "kind": "historical_research",
+      "source_ids": [
+        "web-mosaic",
+        "web-w3cchrono"
+      ],
+      "source_locator": "web-mosaic: NCSA Mosaic, browsers, early commercial services, websites and online advertising; web-w3cchrono: 1993 Mosaic, 1994 W3C and growing web servers",
+      "audit_status": "web_sources_reviewed_with_access_scope",
+      "source_limitations": "Retrospective selective exhibits; specific anecdotes should not be treated as universal adoption patterns W3C has institutional point of view and is about web not all internet activity"
+    },
+    {
+      "id": "072000-p04",
+      "anchor": "Much of the internet's earlier infrastructure had been financed by governments",
+      "kind": "historical_research",
+      "source_ids": [
+        "web-society",
+        "web-gao"
+      ],
+      "source_locator": "web-society: Packet-switching, NSFNET commercialization, 1995 backbone retirement and protocol governance; web-gao: U.S. public investment, commercial backbones, NSFNET end in 1995",
+      "audit_status": "web_sources_reviewed_with_access_scope",
+      "source_limitations": "Authors helped build the network; perspective emphasizes technical governance U.S. framing, not global history of telecommunications"
+    },
+    {
+      "id": "072000-p05",
+      "anchor": "Networks require expensive things that disappear from the screen: cables, swit",
+      "kind": "historical_research",
+      "source_ids": [
+        "web-society",
+        "web-gao"
+      ],
+      "source_locator": "web-society: Packet-switching, NSFNET commercialization, 1995 backbone retirement and protocol governance; web-gao: U.S. public investment, commercial backbones, NSFNET end in 1995",
+      "audit_status": "web_sources_reviewed_with_access_scope",
+      "source_limitations": "Authors helped build the network; perspective emphasizes technical governance U.S. framing, not global history of telecommunications"
+    },
+    {
+      "id": "072000-p06",
+      "anchor": "The new infrastructure supported businesses that differed from earlier online ",
+      "kind": "historical_research",
+      "source_ids": [
+        "web-mosaic",
+        "web-loc"
+      ],
+      "source_locator": "web-mosaic: NCSA Mosaic, browsers, early commercial services, websites and online advertising; web-loc: 1990s venture capital, 2000 NASDAQ reversal and commercial investment",
+      "audit_status": "web_sources_reviewed_with_access_scope",
+      "source_limitations": "Retrospective selective exhibits; specific anecdotes should not be treated as universal adoption patterns Guide not primary stock-price series or claim that all tech innovation was speculative"
+    },
+    {
+      "id": "072000-p07",
+      "anchor": "An open network can still become fragmented if software companies change the r",
+      "kind": "historical_research",
+      "source_ids": [
+        "web-w3c",
+        "web-mosaic"
+      ],
+      "source_locator": "web-w3c: Hypertext, early browser, first server, 1994 W3C standards; web-mosaic: NCSA Mosaic, browsers, early commercial services, websites and online advertising",
+      "audit_status": "web_sources_reviewed_with_access_scope",
+      "source_limitations": "W3C institutional timeline privileges web technologies over other internet services Retrospective selective exhibits; specific anecdotes should not be treated as universal adoption patterns"
+    },
+    {
+      "id": "072000-p08",
+      "anchor": "Domain names offered another example. Human beings remember names more readily",
+      "kind": "historical_research",
+      "source_ids": [
+        "web-icann",
+        "web-society"
+      ],
+      "source_locator": "web-icann: 1998 creation of ICANN for domain-name coordination and contested global participation; web-society: Packet-switching, NSFNET commercialization, 1995 backbone retirement and protocol governance",
+      "audit_status": "web_sources_reviewed_with_access_scope",
+      "source_limitations": "ICANN account of its own origins, not independent legitimacy assessment Authors helped build the network; perspective emphasizes technical governance"
+    },
+    {
+      "id": "072000-p09",
+      "anchor": "This separation of layers is central to the history. The internet is a network",
+      "kind": "historical_research",
+      "source_ids": [
+        "web-w3c",
+        "web-icann"
+      ],
+      "source_locator": "web-w3c: Hypertext, early browser, first server, 1994 W3C standards; web-icann: 1998 creation of ICANN for domain-name coordination and contested global participation",
+      "audit_status": "web_sources_reviewed_with_access_scope",
+      "source_limitations": "W3C institutional timeline privileges web technologies over other internet services ICANN account of its own origins, not independent legitimacy assessment"
+    },
+    {
+      "id": "072000-p10",
+      "anchor": "At the same time, a different communications transformation was unfolding thro",
+      "kind": "historical_research",
+      "source_ids": [
+        "web-itu"
+      ],
+      "source_locator": "web-itu: 11 million mobile subscriptions in 1990, 300 million by 1998, infrastructure differences",
+      "audit_status": "web_sources_reviewed_with_access_scope",
+      "source_limitations": "Subscriptions are not unique people or measures of equal access"
+    },
+    {
+      "id": "072000-p11",
+      "anchor": "Consider a market trader who needs to learn whether a shipment has arrived, or",
+      "kind": "historical_research",
+      "source_ids": [
+        "web-itu",
+        "web-itu02"
+      ],
+      "source_locator": "web-itu: 11 million mobile subscriptions in 1990, 300 million by 1998, infrastructure differences; web-itu02: Rapid divergence of mobile, fixed and internet service trajectories, digital divide",
+      "audit_status": "web_sources_reviewed_with_access_scope",
+      "source_limitations": "Subscriptions are not unique people or measures of equal access Chart-derived estimates are approximate; no exact penetration comparisons without tables"
+    },
+    {
+      "id": "072000-p12",
+      "anchor": "Mobile service and internet access are often folded into the same story, but i",
+      "kind": "historical_research",
+      "source_ids": [
+        "web-itu",
+        "web-itu02"
+      ],
+      "source_locator": "web-itu: 11 million mobile subscriptions in 1990, 300 million by 1998, infrastructure differences; web-itu02: Rapid divergence of mobile, fixed and internet service trajectories, digital divide",
+      "audit_status": "web_sources_reviewed_with_access_scope",
+      "source_limitations": "Subscriptions are not unique people or measures of equal access Chart-derived estimates are approximate; no exact penetration comparisons without tables"
+    },
+    {
+      "id": "072000-p13",
+      "anchor": "New businesses attracted investment on a scale that became difficult to distin",
+      "kind": "historical_research",
+      "source_ids": [
+        "web-loc",
+        "web-gs"
+      ],
+      "source_locator": "web-loc: 1990s venture capital, 2000 NASDAQ reversal and commercial investment; web-gs: Peak of March 2000, web investment and business failure",
+      "audit_status": "web_sources_reviewed_with_access_scope",
+      "source_limitations": "Guide not primary stock-price series or claim that all tech innovation was speculative Investment-bank retrospective, not a neutral causal model"
+    },
+    {
+      "id": "072000-p14",
+      "anchor": "The crash is sometimes presented as a lesson that the internet was only hype. ",
+      "kind": "historical_research",
+      "source_ids": [
+        "web-gs",
+        "web-loc"
+      ],
+      "source_locator": "web-gs: Peak of March 2000, web investment and business failure; web-loc: 1990s venture capital, 2000 NASDAQ reversal and commercial investment",
+      "audit_status": "web_sources_reviewed_with_access_scope",
+      "source_limitations": "Investment-bank retrospective, not a neutral causal model Guide not primary stock-price series or claim that all tech innovation was speculative"
+    },
+    {
+      "id": "072000-p15",
+      "anchor": "The phrase digital divide became common because connection was becoming econom",
+      "kind": "historical_research",
+      "source_ids": [
+        "web-itu02",
+        "web-gao"
+      ],
+      "source_locator": "web-itu02: Rapid divergence of mobile, fixed and internet service trajectories, digital divide; web-gao: U.S. public investment, commercial backbones, NSFNET end in 1995",
+      "audit_status": "web_sources_reviewed_with_access_scope",
+      "source_limitations": "Chart-derived estimates are approximate; no exact penetration comparisons without tables U.S. framing, not global history of telecommunications"
+    },
+    {
+      "id": "072000-p16",
+      "anchor": "The Web also changed whose information could travel. A small scientific group,",
+      "kind": "historical_research",
+      "source_ids": [
+        "web-w3c",
+        "web-itu"
+      ],
+      "source_locator": "web-w3c: Hypertext, early browser, first server, 1994 W3C standards; web-itu: 11 million mobile subscriptions in 1990, 300 million by 1998, infrastructure differences",
+      "audit_status": "web_sources_reviewed_with_access_scope",
+      "source_limitations": "W3C institutional timeline privileges web technologies over other internet services Subscriptions are not unique people or measures of equal access"
+    },
+    {
+      "id": "072000-p17",
+      "anchor": "By the turn of the millennium, questions that looked technical had become endu",
+      "kind": "historical_research",
+      "source_ids": [
+        "web-icann",
+        "web-w3c"
+      ],
+      "source_locator": "web-icann: 1998 creation of ICANN for domain-name coordination and contested global participation; web-w3c: Hypertext, early browser, first server, 1994 W3C standards",
+      "audit_status": "web_sources_reviewed_with_access_scope",
+      "source_limitations": "ICANN account of its own origins, not independent legitimacy assessment W3C institutional timeline privileges web technologies over other internet services"
+    }
+  ],
+  "notes": "17 narration paragraphs with nonspoken source ledgers and access limits; estimated minutes in track manifest are descriptive only."
+}

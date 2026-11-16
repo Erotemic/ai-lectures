@@ -217,3 +217,20 @@ Citation quality takes priority over bibliography size: a reliable passage that 
 - **072000:** The transformation of communications at the turn of the millennium: internet commercialization, mobile phones, media ownership and the digital divide.
 - **073000:** East and South Asia at the millennium: reform, crisis recovery, labor, social movements and regional tensions.
 - **074000:** The new millennium's contested international order, from Kosovo and East Timor through debates over sovereignty and humanitarian intervention, with distinct local histories.
+
+
+## Completed 071000–074000 — Russia, networks, Asia and contested intervention
+
+- **071000:** The Price of a New State: Russia in the 1990s. Privatization, constitutional power, wages, Chechnya and the 1998 ruble crisis.
+- **072000:** Who Connected the World? The Internet and Mobile Revolution, 1991–2001. Open web standards, commercial networks, mobile telephony, business and unequal access.
+- **073000:** Many Asian Futures: Work, Reform and Politics Around 2000. India, Bangladesh, China, Japan, Taiwan, Indonesia and regional security.
+- **074000:** The Ballot and the Bomb: Kosovo and East Timor, 1999–2002. Two sovereignty crises, civilian protection and different international legal routes.
+
+**Evidence deepening:** 071000 needs Russian and Chechen first-person sources and fuller institutional archives; 072000 needs cross-regional communications and network-user records; 073000 needs worker, migrant and organizer voices from each national case; 074000 needs local oral archives, the full CAVR findings and direct legal case records. Institutional retrospectives and indexed excerpts do not stand in for those missing materials.
+
+## Next research candidates (unindexed)
+
+- **075000:** September 11 and the war in Afghanistan: perpetrators, victims, state response, civilians and the limits of intervention.
+- **076000:** The Iraq War, weapons claims, international law and the reshaping of the Middle East after 2003.
+- **077000:** European enlargement, mobility, inequality and the contested meanings of a common European space around 2004.
+- **078000:** SARS, global public-health cooperation and contested preparedness before the next pandemic era.

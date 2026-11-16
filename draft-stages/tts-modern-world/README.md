@@ -167,3 +167,13 @@ Source links, specific evidence-review scope and interpretation limits are in no
 - **070000 — [Who Owns the Atmosphere? Climate Science and Diplomacy, 1988–2000](070000-who-owns-the-atmosphere.md)** (2,487 spoken words; 20 paragraph-level evidence records). Climate measurements, IPCC assessments, environmental justice and climate treaties.
 
 Supporting references and source-review limitations are displayed after the narration and in per-lecture metadata. Length is descriptive, not a policy.
+
+
+## Political economy, communication, Asia and intervention (071000–074000)
+
+- **071000 — [The Price of a New State: Russia in the 1990s](071000-the-price-of-a-new-state.md)** (2,221 spoken words; 19 paragraph-level evidence records). Privatization, constitutional power, wages, Chechnya and the 1998 ruble crisis.
+- **072000 — [Who Connected the World? The Internet and Mobile Revolution, 1991–2001](072000-who-connected-the-world.md)** (2,013 spoken words; 17 paragraph-level evidence records). Open web standards, commercial networks, mobile telephony, business and unequal access.
+- **073000 — [Many Asian Futures: Work, Reform and Politics Around 2000](073000-many-asian-futures.md)** (1,855 spoken words; 16 paragraph-level evidence records). India, Bangladesh, China, Japan, Taiwan, Indonesia and regional security.
+- **074000 — [The Ballot and the Bomb: Kosovo and East Timor, 1999–2002](074000-the-ballot-and-the-bomb.md)** (2,331 spoken words; 20 paragraph-level evidence records). Two sovereignty crises, civilian protection and different international legal routes.
+
+Each narration paragraph has a display-only ledger and metadata reference, with review scope and limitations. No duration policy is applied.
