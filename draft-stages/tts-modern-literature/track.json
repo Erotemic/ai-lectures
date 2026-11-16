@@ -1,7 +1,7 @@
 {
   "id": "modern-literature",
   "title": "20th-Century Literature · Novels, voices, and the human condition",
-  "summary": "Story-first and form-sensitive literary history and criticism of forty-three major twentieth-century works, including extended landmarks in Joyce, Proust, Faulkner, Woolf, Borges, Beckett, and Eliot’s The Waste Land.",
+  "summary": "Story-first and form-sensitive literary history of forty-five major twentieth-century works, including extended landmark sections on Joyce, Proust, Faulkner, Woolf, Borges, Beckett, Eliot, Rushdie and Camus.",
   "assumed_background": [
     "No prior reading is required for the story-first lectures, including the Lord of the Rings orientation and complete three-volume narrative.",
     "Analysis lectures assume the preceding complete story orientation or knowledge of the work; specialized Tolkien essays follow the full retelling.",
@@ -11,7 +11,9 @@
     "The four To the Lighthouse story lectures cover all three parts and the ending with spoilers; the following eight analyses assume this orientation or independent familiarity with the novel.",
     "The Ficciones section provides complete spoiler-containing story orientations for all seventeen pieces in the expanded edition; seven analyses follow, requiring the story lectures or prior familiarity with the works.",
     "The two Waiting for Godot story lectures contain both acts with spoilers; the following nine analyses assume this orientation or a reading/performance of the play. The play is treated as theatre, not as a novel with a hidden plot resolution.",
-    "The Waste Land is a five-part poem, not a single plot: its first six lectures orient listeners to the entire work without assuming prior reading, followed by nine analyses that assume the orientation or access to the poem."
+    "The Waste Land is a five-part poem, not a single plot: its first six lectures orient listeners to the entire work without assuming prior reading, followed by nine analyses that assume the orientation or access to the poem.",
+    "Midnight’s Children has four consecutive, spoiler-complete story lectures from its family prehistory through the 1977 ending. Eight analytic lectures require those or independent knowledge of the novel; historical dates are separated from Saleem’s unreliable claims.",
+    "The Stranger has two spoiler-complete narrative lectures covering both parts, followed by seven analyses on form, justice, colonial context, the absurd, translation, reception and close-reading. No prior knowledge of Camus is required for story orientation."
   ],
   "sections": [
     "novels-and-their-worlds",
@@ -21,7 +23,9 @@
     "woolf-to-the-lighthouse",
     "borges-ficciones-and-the-invention-of-metafiction",
     "beckett-waiting-for-godot-drama-and-absence",
-    "eliot-the-waste-land-modernist-poetry"
+    "eliot-the-waste-land-modernist-poetry",
+    "rushdie-midnights-children-nation-and-narration",
+    "camus-the-stranger-absurd-and-colonial-justice"
   ],
   "lectures": [
     {
@@ -1607,6 +1611,195 @@
       "spoken_words": 991,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 6.8
+    },
+    {
+      "id": "047800",
+      "title": "Midnight’s Children: Kashmir, the Perforated Sheet, and the Two Infants",
+      "section": "rushdie-midnights-children-nation-and-narration",
+      "file": "047800-rushdie-story-ancestors-to-midnight.md",
+      "spoken_words": 1200,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 8.3
+    },
+    {
+      "id": "047900",
+      "title": "Midnight’s Children: Childhood, the Switch, and the Conference",
+      "section": "rushdie-midnights-children-nation-and-narration",
+      "file": "047900-rushdie-story-bombay-and-conference.md",
+      "spoken_words": 1177,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 8.1
+    },
+    {
+      "id": "048000",
+      "title": "Midnight’s Children: War, Memory, and Bangladesh",
+      "section": "rushdie-midnights-children-nation-and-narration",
+      "file": "048000-rushdie-story-pakistan-and-bangladesh.md",
+      "spoken_words": 1049,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.2
+    },
+    {
+      "id": "048100",
+      "title": "Midnight’s Children: Parvati, the Emergency, and the Ending",
+      "section": "rushdie-midnights-children-nation-and-narration",
+      "file": "048100-rushdie-story-emergency-and-pickles.md",
+      "spoken_words": 1150,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.9
+    },
+    {
+      "id": "048200",
+      "title": "Midnight’s Children: Saleem, Padma, and Unreliable Memory",
+      "section": "rushdie-midnights-children-nation-and-narration",
+      "file": "048200-rushdie-analysis-saleem-padma-memory.md",
+      "spoken_words": 937,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.5
+    },
+    {
+      "id": "048300",
+      "title": "Midnight’s Children: What the Conference Can Represent",
+      "section": "rushdie-midnights-children-nation-and-narration",
+      "file": "048300-rushdie-analysis-midnight-conference.md",
+      "spoken_words": 867,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.0
+    },
+    {
+      "id": "048400",
+      "title": "Midnight’s Children: Partition, 1965, and 1971",
+      "section": "rushdie-midnights-children-nation-and-narration",
+      "file": "048400-rushdie-analysis-partition-and-wars.md",
+      "spoken_words": 950,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.6
+    },
+    {
+      "id": "048500",
+      "title": "Midnight’s Children: Gender, Care, and Kinship",
+      "section": "rushdie-midnights-children-nation-and-narration",
+      "file": "048500-rushdie-analysis-mothers-and-kinship.md",
+      "spoken_words": 926,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.4
+    },
+    {
+      "id": "048600",
+      "title": "Midnight’s Children: English, Magic, and Narrative Form",
+      "section": "rushdie-midnights-children-nation-and-narration",
+      "file": "048600-rushdie-analysis-language-and-magical-form.md",
+      "spoken_words": 861,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.9
+    },
+    {
+      "id": "048700",
+      "title": "Midnight’s Children: The Emergency and the Political Body",
+      "section": "rushdie-midnights-children-nation-and-narration",
+      "file": "048700-rushdie-analysis-emergency-and-bodies.md",
+      "spoken_words": 944,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.5
+    },
+    {
+      "id": "048800",
+      "title": "Midnight’s Children: A Close-Reading Workshop",
+      "section": "rushdie-midnights-children-nation-and-narration",
+      "file": "048800-rushdie-analysis-close-reading-workshop.md",
+      "spoken_words": 894,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.2
+    },
+    {
+      "id": "048900",
+      "title": "Midnight’s Children: Publication, Influence, and Reception",
+      "section": "rushdie-midnights-children-nation-and-narration",
+      "file": "048900-rushdie-analysis-reception-influence.md",
+      "spoken_words": 869,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.0
+    },
+    {
+      "id": "049100",
+      "title": "The Stranger: Part One — The Funeral and the Beach",
+      "section": "camus-the-stranger-absurd-and-colonial-justice",
+      "file": "049100-camus-story-part-one.md",
+      "spoken_words": 1104,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.6
+    },
+    {
+      "id": "049200",
+      "title": "The Stranger: Part Two — The Trial and the End",
+      "section": "camus-the-stranger-absurd-and-colonial-justice",
+      "file": "049200-camus-story-part-two.md",
+      "spoken_words": 1004,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.9
+    },
+    {
+      "id": "049300",
+      "title": "The Stranger: Narration, Feeling, and Omission",
+      "section": "camus-the-stranger-absurd-and-colonial-justice",
+      "file": "049300-camus-analysis-narration-and-silence.md",
+      "spoken_words": 824,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.7
+    },
+    {
+      "id": "049400",
+      "title": "The Stranger: Character Evidence and the Court",
+      "section": "camus-the-stranger-absurd-and-colonial-justice",
+      "file": "049400-camus-analysis-trial-judgment.md",
+      "spoken_words": 802,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.5
+    },
+    {
+      "id": "049500",
+      "title": "The Stranger: Colonial Algeria and the Unnamed Victim",
+      "section": "camus-the-stranger-absurd-and-colonial-justice",
+      "file": "049500-camus-analysis-colonial-algeria.md",
+      "spoken_words": 862,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.9
+    },
+    {
+      "id": "049600",
+      "title": "The Stranger: The Absurd and Its Ethical Limits",
+      "section": "camus-the-stranger-absurd-and-colonial-justice",
+      "file": "049600-camus-analysis-absurd-philosophy.md",
+      "spoken_words": 837,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.8
+    },
+    {
+      "id": "049700",
+      "title": "The Stranger: Grief, Relationships, and Responsibility",
+      "section": "camus-the-stranger-absurd-and-colonial-justice",
+      "file": "049700-camus-analysis-grief-care-responsibility.md",
+      "spoken_words": 843,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.8
+    },
+    {
+      "id": "049800",
+      "title": "The Stranger: Translation, Publication, and Influence",
+      "section": "camus-the-stranger-absurd-and-colonial-justice",
+      "file": "049800-camus-analysis-translation-reception.md",
+      "spoken_words": 815,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.6
+    },
+    {
+      "id": "049900",
+      "title": "The Stranger: Close-Reading Workshop",
+      "section": "camus-the-stranger-absurd-and-colonial-justice",
+      "file": "049900-camus-analysis-reading-workshop.md",
+      "spoken_words": 877,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.0
     }
   ]
 }
