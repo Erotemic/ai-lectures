@@ -35,6 +35,22 @@ See `notes/dante-listening-guide.md` and
 source/evidence boundaries. Modern moral assumptions and present-day physical
 science are not attributed to Dante; allegorical controversies remain noted.
 
+**Early modern tragedy — Shakespeare, *King Lear***: 038000–047000.
+Four continuous story lectures (division, storm, Dover, final battle) precede
+six analyses of sovereignty and need, the Gloucester subplot and documentary
+deception, the three daughters, the Fool and performed madness, stagecraft,
+and the Quarto/Folio texts and reception history. The retelling does not
+pretend that the 1608 Quarto and 1623 Folio are interchangeable. See
+`notes/king-lear-versions-and-stage-history.md` for scene coverage, contested
+readings, and the history of Tate's adaptation.
+
+**Victorian mathematical fiction — Edwin Abbott Abbott, *Flatland***:
+048000–049000. A shorter two-lecture unit: first the complete A Square
+story, then geometry, satire, and the limits of analogy. The second lecture
+distinguishes geometric higher dimensions from claims about physical space
+and the narrator's rigid social attitudes from Abbott's historical advocacy
+of educational reform. See `notes/flatland-geometry-and-satire.md`.
+
 These are original lectures, not extracts or dramatic recordings of the primary
 texts. Source citations, critical questions, and edition notes are outside the
 spoken regions; bibliographic records and anchored claims appear in `metadata/`.
@@ -58,26 +74,17 @@ or binary assets are part of this pack.
 
 ## Substantive next priorities
 
-1. **Shakespeare, *King Lear*, *Macbeth*, *Othello***: additional major tragedies;
-   complete theatrical accounts before analysis, not copies of the *Hamlet* outline.
-2. **Jane Austen, *Pride and Prejudice***: complete courtship and economic plot,
-   followed by free indirect discourse, irony and the marriage market.
-3. **Mary Shelley, *Frankenstein***: framed narration and scientific ambition,
-   linking Romanticism, Gothic literature and later science fiction.
-4. **Charles Dickens, *Great Expectations* or *Bleak House***: serial form,
-   institutions, social narration and the Victorian novel.
-5. **Gustave Flaubert, *Madame Bovary***: free indirect style, desire,
-   consumer culture and the history of realism.
-6. **Leo Tolstoy, *War and Peace***: a full-scale narrative and analysis of
-   history, family, war, freedom and novel form.
-7. **Fyodor Dostoevsky, *The Brothers Karamazov***: family conflict, theology,
-   ethics and polyphonic narration.
+1. **Shakespeare, *Macbeth* and *Othello***: two further defining tragedies, with complete theatrical stories before analysis.
+2. **Jane Austen, *Pride and Prejudice***: courtship, property, family pressure, free indirect discourse and irony.
+3. **Mary Shelley, *Frankenstein***: framed narratives, responsibility, Romanticism and later science fiction.
+4. **Charles Dickens, *Great Expectations* or *Bleak House***: Victorian serial form, class mobility and institutions.
+5. **Gustave Flaubert, *Madame Bovary***: the history of realism and the narrator's proximity to characters' minds.
+6. **Leo Tolstoy, *War and Peace***: war, families, the philosophy of history and the novel's capacious form.
+7. **Fyodor Dostoevsky, *The Brothers Karamazov***: conflicting voices, family ethics and religious argument.
 
-Other bridge landmarks worth assessing against these include Chaucer's
-*Canterbury Tales*, Boccaccio's *Decameron*, Milton's *Paradise Lost*, Goethe's
-*Faust*, Emily Brontë's *Wuthering Heights*, George Eliot's *Middlemarch*, and
-Melville's *Moby-Dick*. Priorities are based on literary impact, formal
-importance, critical longevity and educational usefulness; the list is not a
-quota system and does not exhaust world literature. Do not duplicate Chinese,
-Persian, or ancient epic sequences already owned by concurrent World History
-contributors merely to inflate coverage.
+Other major candidates include Chaucer's *Canterbury Tales*, Boccaccio's
+*Decameron*, Milton's *Paradise Lost*, Goethe's *Faust*, Emily Brontë's
+*Wuthering Heights*, George Eliot's *Middlemarch*, and Melville's *Moby-Dick*.
+Selections should be made for impact and explanatory value, not numerical
+coverage. Avoid duplicating the ancient-epic and world-history tracks without
+an explicit pedagogical reason.

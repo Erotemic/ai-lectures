@@ -1,0 +1,30 @@
+# King Lear — Story: Storm, Poor Tom, and Gloucester
+
+**Work:** William Shakespeare, *King Lear*  
+**Form:** Story lecture, complete dramatic sequence
+
+<!-- BEGIN SPOKEN LECTURE -->
+# King Lear — Story: Storm, Poor Tom, and Gloucester
+
+King Lear's storm is among the best-known scenes in English drama, but it is not a report of the weather alone. Lear has gone into the open with his Fool and the disguised Kent. He shouts against the wind and rain as if the elements were another set of subjects who might obey him. The thunder does not answer. There is something terrible and comic in a former ruler trying to issue commands to a cloud. He has spent a lifetime speaking from a position of command; the storm gives him no ceremonial audience.
+
+Kent urges him toward shelter. The Fool tries to keep pace with jokes about the danger of depending on unkind children. Lear turns from denunciation to a more troubled attention. He realizes that poor people have long endured exposure while he lived protected. The recognition is genuine, but it does not magically repair his past conduct. Shakespeare gives him insight while his behavior remains unstable. A useful way to hear these scenes is to notice each time Lear shifts from talking about what others owe him to wondering what he has failed to notice.
+
+Another man is making his way across the same landscape. Edgar, fleeing Gloucester's false accusations, has disguised himself as Poor Tom, a homeless figure who speaks in the broken fragments associated with a beggar feigning madness. His disguise is designed to keep him alive. Yet he must also inhabit a condition that the powerful ordinarily ignore. When Lear encounters him, the king imagines that this nearly naked stranger must have been betrayed by daughters as he has. He cannot yet see another person's suffering without translating it into his own story. Nevertheless, the sight changes what he thinks a human being needs. Stripped of clothing, title, and ceremony, Poor Tom offers Lear a frightening image of life without social protection.
+
+The Fool's wit, Edgar's performance, and Lear's increasingly disordered speech create three different kinds of apparent madness. None should be casually reduced to a diagnosis. Edgar knows that he is acting. The Fool knows that jokes can speak against power. Lear begins to lose the distinctions that used to organize his world. They shelter together, and Lear stages a mock trial of the daughters who are absent. He wants a court in which his grievances will be recognized, although he no longer controls any court at all. The theatrical episode echoes the first public scene, where he demanded verbal evidence of love. Here he attempts to summon evidence of guilt from empty places.
+
+Gloucester has been trying to help Lear. He learns that the political situation is growing more dangerous, with French forces preparing to intervene and powerful figures treating sympathy for the displaced king as treason. He brings food and shelter and arranges for Lear to be conducted toward Dover. His aid is morally decisive because it exposes him to those now controlling his house. Edmund, who knows of Gloucester's efforts and has already advanced by betraying Edgar, reports his father to Cornwall. The son has made loyalty to the new rulers more valuable than loyalty to his father.
+
+The play now moves indoors for violence more deliberate than anything the storm can do. Cornwall and Regan seize Gloucester, accuse him of helping Lear, and bind him to a chair. They demand information about the journey to Dover. When Gloucester answers defiantly, Cornwall puts out one of his eyes. A servant intervenes, refusing to watch the cruelty continue. Cornwall fights and fatally wounds the servant; the servant wounds Cornwall. Regan kills the servant and Cornwall destroys Gloucester's remaining eye. This is not a noble judicial punishment. It is bodily torture, committed by people with the means to order others around them. Gloucester is expelled into the world he can no longer see.
+
+In the course of the torture, Regan reveals that Edmund betrayed him. Gloucester understands that he has trusted the wrong son. The realization does not restore his sight or tell him where Edgar is. It makes the mistake unmistakable only when he can do almost nothing to correct it. This is the second paternal catastrophe after Lear's. Both fathers misread the children closest to them; both discover the truth after losing the worldly means of acting on it.
+
+One of Gloucester's old servants helps him, and the disguised Edgar eventually meets his blind father. Gloucester does not recognize the voice and figure of the son he believes lost. Edgar hears his father's despair and elects to guide him while continuing the disguise. This choice is painful: he can offer assistance, but he withholds the comfort of immediate disclosure. His own reasons must be interpreted rather than assumed. He fears what sudden recognition could do to a man in such distress, yet the concealment also gives him control over what Gloucester is permitted to know.
+
+The scenes have generated centuries of arguments about suffering. Is there an order behind the violence, and can suffering make someone better? Shakespeare supplies no dependable rule that everyone who suffers receives compensation. Lear's emerging pity is accompanied by worsening danger. Gloucester's insight arrives in blindness. A servant does the right thing and dies. The storm, which might look like the play's central act of punishment, becomes almost secondary to the choices made in rooms where people have the authority to stop. To follow the story is to keep two facts in view: Lear's cruelty toward Cordelia helped begin this disaster, and the brutality now directed at Lear and Gloucester is not thereby justified.
+<!-- END SPOKEN LECTURE -->
+
+## Evidence and reading notes
+A modern reading text of King Lear follows edited early witnesses; quotation and scene numbering may differ by Q1/Folio edition.
+See `metadata/039000.json` and `notes/king-lear-versions-and-stage-history.md` for claim-level anchors and primary-source references.

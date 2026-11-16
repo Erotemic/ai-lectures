@@ -1,0 +1,30 @@
+# King Lear — Story: The Defeat and the Last Recognition
+
+**Work:** William Shakespeare, *King Lear*  
+**Form:** Story lecture, complete dramatic sequence
+
+<!-- BEGIN SPOKEN LECTURE -->
+# King Lear — Story: The Defeat and the Last Recognition
+
+The last act of King Lear moves with the speed of an approaching catastrophe. Cordelia and Lear have been reunited, but the forces led by Edmund and Albany confront the French army in Britain. Edmund's calculations include his intimacy with both Goneril and Regan, a rivalry he knows may prove useful to him. Albany, now appalled by much of what has happened, does not yet control the course of events. Edgar, still able to move behind disguises, has provided evidence of a plot against Albany and is prepared to accuse Edmund. The play is poised between a public battle and private betrayals.
+
+The battle is brief onstage. Cordelia's forces lose. Lear and Cordelia are taken prisoner. For a moment Lear imagines that captivity with his daughter might be enough. He speaks of talking, praying, laughing at courtly pretensions, and living together in a world reduced to their own companionship. It is a moving fantasy because it no longer demands a kingdom. But Lear has underestimated the danger again. Edmund orders the captives removed and secretly instructs a subordinate to kill Cordelia and make her death look like suicide. Mercy has become a choice that must be made by those who have the keys, and Edmund refuses to make it.
+
+Albany demands answers about the prisoners and challenges Edmund's political ambitions. Regan and Goneril quarrel openly over Edmund. Albany produces the incriminating letter and calls for a champion to prove the charge of treason. Edgar appears armed and disguised. He and Edmund fight; Edgar defeats and wounds his brother. Only after the duel does he identify himself and tell the story of guiding Gloucester. Gloucester, he explains, died after Edgar revealed himself, overwhelmed by the violent mixture of grief and joy. The news is reported, not shown. An audience must construct the father's final encounter from the surviving son's words, another reminder that knowledge in this play depends on people who choose how to tell a story.
+
+The reversals now arrive too quickly for anyone to manage. Regan has been poisoned by Goneril. Goneril kills herself. Edmund, dying, is moved to attempt one act of good. He reveals the order to hang Cordelia and sends a warning to the prison. The attempt at repentance is real enough to register, but it has been delayed until the machinery of murder is already moving. The crucial question is no longer whether Edmund has changed. It is whether someone can reach the prisoner before the command is carried out.
+
+The warning comes too late. Lear enters carrying Cordelia's body. She has been hanged. He appeals to those around him as if they could still reverse the fact. He searches for a sign of breath. The audience may hear him desperately claim that she lives, and then discover the absence of the life he seeks. His grief is not a purified moral lesson. It is the grief of a man who finally understands one daughter's love and cannot keep her alive. Lear dies soon afterward. Different textual versions and performances give different inflections to his final words and attention, but the dramatic fact remains that no political settlement can return Cordelia.
+
+Kent reveals that he had served Lear in disguise. The loyal man who was banished for telling the truth has remained nearby through humiliation, exposure, and loss. Albany and Edgar confront the shattered realm. The responsibility for final words and future rule is not identical across the earliest surviving texts; modern productions also make their own choices. It would be misleading to offer one neat constitutional outcome as the play's uncontested ending. What is certain is the devastation: Gloucester, Edmund, Goneril, Regan, Cordelia, and Lear are dead. The living inherit responsibilities that the dead cannot discharge.
+
+A few details of this ending are often blurred in memory. The Fool disappears from the action before the final scenes; the play does not unambiguously narrate his death. Lear's reference to a poor fool may invite an association between the Fool and Cordelia, but should not be turned into a securely reported offstage hanging of the Fool. Gloucester's death is reported by Edgar, not witnessed by the audience. Edmund tries to stop Cordelia's execution only after he has authorized it. These distinctions preserve the play's pressure on the difference between what happens, what is reported, and what an audience wishes might have happened.
+
+The final image is not simply an illustration that cruel children get what they deserve. Cordelia has been neither cruel nor manipulative, and she dies. The servant who intervened to defend Gloucester also died. Kent's loyalty cannot secure a happy outcome. Lear's growth is too late to save the person to whom it most matters. We can recognize acts of compassion without turning tragedy into a system that rewards the good and punishes the wicked on schedule.
+
+What survives is a different kind of knowledge. Lear's first scene contained people performing love before a ruler who could allocate a country. His last contains a father holding the daughter whose quiet love he punished. Between those scenes Shakespeare asks how a society decides whose voice to trust, which harms can be stopped, and whether a ruler can learn humanity after power has left him. The play ends without comforting certainty. Its terrible clarity lies in showing that some truths, once learned, cannot undo what was done while they were ignored.
+<!-- END SPOKEN LECTURE -->
+
+## Evidence and reading notes
+A modern reading text of King Lear follows edited early witnesses; quotation and scene numbering may differ by Q1/Folio edition.
+See `metadata/041000.json` and `notes/king-lear-versions-and-stage-history.md` for claim-level anchors and primary-source references.

@@ -1,7 +1,7 @@
 {
   "id": "pre-1900-literature",
   "title": "Literary Classics Before 1900",
-  "summary": "Audio-first studies of major literary landmarks before 1900, including Dante, Shakespeare, and Cervantes; the complete narratives precede critical treatments, without fixed lecture lengths.",
+  "summary": "Audio-first study of influential literary classics before 1900: Dante, Shakespeare, Cervantes, and Abbott, with complete stories before critical inquiry, and scope proportional to each work.",
   "categories": [
     "Literature",
     "History & Culture"
@@ -11,7 +11,7 @@
   ],
   "assumed_background": [
     "No prior reading is needed for story lectures; critical lectures assume the narrated story or familiarity with the primary text.",
-    "This track begins with early modern landmarks; earlier medieval literature and nineteenth-century sections are planned."
+    "Current selections span medieval poetry, early modern drama and prose, and Victorian mathematical fantasy; the track will continue through the nineteenth century."
   ],
   "sections": [
     "early-modern-drama",
@@ -19,7 +19,9 @@
     "medieval-poetry-inferno",
     "medieval-poetry-purgatorio",
     "medieval-poetry-paradiso",
-    "medieval-poetry-criticism"
+    "medieval-poetry-criticism",
+    "early-modern-drama-lear",
+    "victorian-geometry-fiction"
   ],
   "lectures": [
     {
@@ -354,6 +356,114 @@
       "spoken_words": 951,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 6.6
+    },
+    {
+      "id": "038000",
+      "title": "King Lear — Story: The Love Test and the Divided Kingdom",
+      "section": "early-modern-drama-lear",
+      "file": "038000-king-lear-story-love-test-and-division.md",
+      "spoken_words": 923,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.4
+    },
+    {
+      "id": "039000",
+      "title": "King Lear — Story: Storm, Poor Tom, and Gloucester",
+      "section": "early-modern-drama-lear",
+      "file": "039000-king-lear-story-storm-and-gloucester.md",
+      "spoken_words": 928,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.4
+    },
+    {
+      "id": "040000",
+      "title": "King Lear — Story: The Road to Dover and Reconciliation",
+      "section": "early-modern-drama-lear",
+      "file": "040000-king-lear-story-dover-and-reconciliation.md",
+      "spoken_words": 878,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.1
+    },
+    {
+      "id": "041000",
+      "title": "King Lear — Story: The Defeat and the Last Recognition",
+      "section": "early-modern-drama-lear",
+      "file": "041000-king-lear-story-battle-and-deaths.md",
+      "spoken_words": 905,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.2
+    },
+    {
+      "id": "042000",
+      "title": "King Lear — Sovereignty, Need, and Succession",
+      "section": "early-modern-drama-lear",
+      "file": "042000-king-lear-sovereignty-need-and-succession.md",
+      "spoken_words": 793,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.5
+    },
+    {
+      "id": "043000",
+      "title": "King Lear — Gloucester, Edmund, Edgar, and the Problem of Evidence",
+      "section": "early-modern-drama-lear",
+      "file": "043000-king-lear-gloucester-edmund-and-edgar.md",
+      "spoken_words": 770,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.3
+    },
+    {
+      "id": "044000",
+      "title": "King Lear — Daughters, Gender, and Political Authority",
+      "section": "early-modern-drama-lear",
+      "file": "044000-king-lear-daughters-gender-and-power.md",
+      "spoken_words": 742,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.1
+    },
+    {
+      "id": "045000",
+      "title": "King Lear — The Fool, Poor Tom, and the Language of Madness",
+      "section": "early-modern-drama-lear",
+      "file": "045000-king-lear-fool-poor-tom-and-language.md",
+      "spoken_words": 774,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.3
+    },
+    {
+      "id": "046000",
+      "title": "King Lear — Sight, Violence, and the Work of Performance",
+      "section": "early-modern-drama-lear",
+      "file": "046000-king-lear-sight-violence-and-performance.md",
+      "spoken_words": 770,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.3
+    },
+    {
+      "id": "047000",
+      "title": "King Lear — Quarto, Folio, Sources, and Stage History",
+      "section": "early-modern-drama-lear",
+      "file": "047000-king-lear-quarto-folio-and-history.md",
+      "spoken_words": 777,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 5.4
+    },
+    {
+      "id": "048000",
+      "title": "Flatland — Story: A Square Meets the Third Dimension",
+      "section": "victorian-geometry-fiction",
+      "file": "048000-flatland-story-square-meets-sphere.md",
+      "spoken_words": 974,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.7
+    },
+    {
+      "id": "049000",
+      "title": "Flatland — Dimensions, Satire, and Intellectual Freedom",
+      "section": "victorian-geometry-fiction",
+      "file": "049000-flatland-dimensions-satire-and-inquiry.md",
+      "spoken_words": 990,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 6.8
     }
   ]
 }
