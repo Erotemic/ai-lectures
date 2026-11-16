@@ -1,7 +1,7 @@
 {
   "id": "childrens-bedtime-stories-episodic-ages-3-4",
   "title": "Children's Bedtime Stories — Episodic (Ages 3–4)",
-  "summary": "Original sequential, single-narrator bedtime adventures for ages 3–4, primarily age three. Season one explores Willow Bend and completes the Little-Light Walk; season two travels west to Far Meadow, meets Lila, and completes a ribbon picnic. Season three travels east past Round Pond into Reed Meadow, meets Rill and Aunt Cress, and finishes Bo’s Book of Little Sounds. Places, relationships and objects persist between episodes; every night closes gently. Non-spoken caregiver explanations and citations do not assert developmental or sleep effects. Season four revisits the southern orchard, corrects one bend on Tess’s real map, and grows an explicitly imaginary Button Town game around the two-trunk Doorway Tree; its pretend map ends safely at the Story House.",
+  "summary": "Original sequential, single-narrator bedtime adventures for ages 3–4, primarily age three. Season one explores Willow Bend and completes the Little-Light Walk; season two travels west to Far Meadow, meets Lila, and completes a ribbon picnic. Season three travels east past Round Pond into Reed Meadow, meets Rill and Aunt Cress, and finishes Bo’s Book of Little Sounds. Places, relationships and objects persist between episodes; every night closes gently. Non-spoken caregiver explanations and citations do not assert developmental or sleep effects. Season four revisits the southern orchard, corrects one bend on Tess’s real map, and grows an explicitly imaginary Button Town game around the two-trunk Doorway Tree; its pretend map ends safely at the Story House. Season five stays near Story House, where a small garden is permitted, seeded, observed over several visits and celebrated as a little patch of seedlings; it does not grow instant flowers or reset other objects.",
   "assumed_background": [
     "Age 3–4; prior episodes enrich continuity but each episode includes enough context to enjoy on its own."
   ],
@@ -22,7 +22,8 @@
     "season-1-the-little-light-walk",
     "season-2-beyond-bell-hill",
     "season-3-the-book-of-little-sounds",
-    "season-4-the-doorway-tree"
+    "season-4-the-doorway-tree",
+    "season-5-the-little-growing-garden"
   ],
   "lectures": [
     {
@@ -360,9 +361,93 @@
       "series_id": "willow-bend-little-lights",
       "season_number": 4,
       "episode_number": 6
+    },
+    {
+      "id": "025000",
+      "title": "The Small Patch Behind the Story House",
+      "section": "season-5-the-little-growing-garden",
+      "file": "025000-the-small-patch-behind-the-story-house.md",
+      "spoken_words": 721,
+      "draft_status": "substantive",
+      "description": "Tess discovers a small sunny patch behind Story House; Grandma Fern asks permission to use it as a garden, and Tess adds its location to her real map.",
+      "genre": "children_bedtime_stories",
+      "age_range_label": "Ages 3–4",
+      "series_id": "willow-bend-little-lights",
+      "season_number": 5,
+      "episode_number": 1
+    },
+    {
+      "id": "026000",
+      "title": "Bo's Sign for the Seeds",
+      "section": "season-5-the-little-growing-garden",
+      "file": "026000-bos-sign-for-the-seeds.md",
+      "spoken_words": 729,
+      "draft_status": "substantive",
+      "description": "Bo creates a sign far too large for their small garden, while Grandma Fern helps the children plant radish and sunflower seeds with sensible row labels.",
+      "genre": "children_bedtime_stories",
+      "age_range_label": "Ages 3–4",
+      "series_id": "willow-bend-little-lights",
+      "season_number": 5,
+      "episode_number": 2
+    },
+    {
+      "id": "027000",
+      "title": "Nori and the Day Nothing Happened",
+      "section": "season-5-the-little-growing-garden",
+      "file": "027000-nori-and-the-day-nothing-happened.md",
+      "spoken_words": 731,
+      "draft_status": "substantive",
+      "description": "Nori checks the garden on several successive days without seeing sprouts, but notices rain, an insect, differences in soil moisture and a place to stand.",
+      "genre": "children_bedtime_stories",
+      "age_range_label": "Ages 3–4",
+      "series_id": "willow-bend-little-lights",
+      "season_number": 5,
+      "episode_number": 3
+    },
+    {
+      "id": "028000",
+      "title": "Rill and the Little Green Hook",
+      "section": "season-5-the-little-growing-garden",
+      "file": "028000-rill-and-the-little-green-hook.md",
+      "spoken_words": 671,
+      "draft_status": "substantive",
+      "description": "Rill visits from Reed Meadow, sees the first three tiny radish seedlings, and draws them as green hooks and hats.",
+      "genre": "children_bedtime_stories",
+      "age_range_label": "Ages 3–4",
+      "series_id": "willow-bend-little-lights",
+      "season_number": 5,
+      "episode_number": 4
+    },
+    {
+      "id": "029000",
+      "title": "Lila and the Hat for a Sunflower",
+      "section": "season-5-the-little-growing-garden",
+      "file": "029000-lila-and-the-hat-for-a-sunflower.md",
+      "spoken_words": 762,
+      "draft_status": "substantive",
+      "description": "Lila visits the garden after the radish sprouts open their first leaves and a sunflower shoot appears; the children make pretend hats for the sign rather than placing paper on the plant.",
+      "genre": "children_bedtime_stories",
+      "age_range_label": "Ages 3–4",
+      "series_id": "willow-bend-little-lights",
+      "season_number": 5,
+      "episode_number": 5
+    },
+    {
+      "id": "030000",
+      "title": "The Little Growing Garden",
+      "section": "season-5-the-little-growing-garden",
+      "file": "030000-the-little-growing-garden.md",
+      "spoken_words": 943,
+      "draft_status": "substantive",
+      "description": "All five friends revisit the garden, notice two sunflower shoots and a still-bare space, draw a picture of the little garden as it exists now, and store it at Story House.",
+      "genre": "children_bedtime_stories",
+      "age_range_label": "Ages 3–4",
+      "series_id": "willow-bend-little-lights",
+      "season_number": 5,
+      "episode_number": 6
     }
   ],
-  "season_count": 4,
+  "season_count": 5,
   "seasons": [
     {
       "number": 1,
@@ -414,6 +499,19 @@
         "022000",
         "023000",
         "024000"
+      ]
+    },
+    {
+      "number": 5,
+      "title": "The Little Growing Garden",
+      "section": "season-5-the-little-growing-garden",
+      "episode_ids": [
+        "025000",
+        "026000",
+        "027000",
+        "028000",
+        "029000",
+        "030000"
       ]
     }
   ]

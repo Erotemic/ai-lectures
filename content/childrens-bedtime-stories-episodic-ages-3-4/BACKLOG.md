@@ -1,21 +1,23 @@
-# Agent E episodic bedtime backlog — not spoken
+# Agent E episodic bedtime backlog - not spoken
 
-## Completed
+## Completed seasons
 
-- **Season 1, 001000–006000 — The Little-Light Walk.** Willow Bend mapped; Nori joins the core friends; Bo's tilted electric paper lantern hangs at the Story House.
-- **Season 2, 007000–012000 — Beyond Bell Hill.** Far Meadow mapped west of Bell Hill; Lila and Aunt Mallow join; ribbon picnic complete; banner remains at Lila's cottage window.
-- **Season 3, 013000–018000 — The Book of Little Sounds.** Reed Meadow mapped east of Round Pond; Rill and Aunt Cress join; Bo's completed blue six-page book is on the Story House low shelf.
-- **Season 4, 019000–024000 — The Doorway Tree.** Tess corrects the real southern orchard path; all five friends invent Button Town as a clearly **imaginary game**; a separate completed pretend map and paper props rest in a brown envelope beside the sound book.
+- **Season 1, 001000-006000 - The Little-Light Walk.** Willow Bend mapped, Nori joins the friendship, Bo's tilted electric lantern remains at Story House.
+- **Season 2, 007000-012000 - Beyond Bell Hill.** Far Meadow introduced; Lila and Aunt Mallow join; ribbon picnic and banner completed.
+- **Season 3, 013000-018000 - The Book of Little Sounds.** Reed Meadow mapped; Rill and Aunt Cress join; Bo's completed six-page blue sound book lives on Story House's low shelf.
+- **Season 4, 019000-024000 - The Doorway Tree.** Real orchard route corrected; children invent fictional Button Town; its completed pretend map rests in a brown envelope beside the sound book.
+- **Season 5, 025000-030000 - The Little Growing Garden.** With permission and grown-up help, a small stone-edged seed patch grows behind the Story House. The children sow radish and sunflower seeds, notice the first seedlings, and draw the garden as it looks now. A third folder, LITTLE GROWING GARDEN, joins the blue sound book and brown envelope on the low shelf. No harvest or instant flowers.
 
-Read `WORLD_BIBLE.md` for definitive geography, object custody and each episode's state. The original yellow map is **not** replaced or overwritten by Button Town's make-believe map. Do not invent another creek crossing or a magical real Button Town.
+## Continuity priorities
 
-## Possible next arc — not obligations
+`WORLD_BIBLE.md` is authoritative for geography, all friendships, maps and object custody. The garden is a real physical place on Tess's yellow map and should not be confused with imaginary Button Town. The Book of Little Sounds stays complete, the orange lantern stays tilted, Nori keeps three pouch pebbles, Lila's blue ribbon stays on her hat and her picnic banner inside her cottage window, Rill keeps his yellow boots and sketch.
 
-- **Borrowing an old idea:** A character takes the Button Town paper envelope from the Story House shelf *with permission* and brings one familiar pretend rule into a new ordinary place.
-- **A surprise visitor from the east:** Rill can visit Far Meadow again, this time with a silly errand; he already knows Lila.
-- **A quieter solo outing:** Tess and Grandma Fern revisit a known route without all five friends, and Tess notices something that changed because of the season.
-- **The original lantern's next use:** Bo's tilted silver-spotted orange lantern could be revisited without straightening or replacing it.
-- **The little bell on Bell Hill:** No physical bell has appeared. It must be introduced intentionally if used.
-- **A season of everyday home life:** One story might explore disappointment, but others should be just fun, without a manufactured arc or compulsory moral.
+## Possible future arcs, not commitments
 
-Continue to write full, satisfying single-narrator stories for ages 3–4, with separate parent references, continuity changes earned in the narration and calm local endings. No fixed story word count or duration.
+- Return to the garden after sufficient time has passed and observe real successes *or* real setbacks, with no obligation to make every plant bloom.
+- Give one of the adults a quieter focus episode, letting one child ask questions about an ordinary household task without announcing a moral.
+- Bring a small piece of Button Town's imaginary rules into a new game, with the paper envelope borrowed from Story House only with permission.
+- Try a different narrative device: a lost *sound*, a shared object lent for a day, or a funny misunderstanding between two established friends, with a complete local ending each night.
+- Build a little rainy-day story centered on the old tilted lantern, without repeating the previous festival or turning it into a flame.
+
+Maintain full single-narrator standalone bedtime episodes for ages 3-4, persistent causality, gentle endings, and separate caregiver citations. Never impose a word-count or runtime target; story quality determines length.

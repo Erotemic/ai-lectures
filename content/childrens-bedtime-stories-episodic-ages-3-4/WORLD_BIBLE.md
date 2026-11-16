@@ -1,6 +1,6 @@
 # Willow Bend world bible — continuity authority
 
-For editors and later agents. **Not part of TTS narration.** This is the canonical record for what happens across episodes 001000–018000. Before adding an episode, reconcile its opening state with the final state below.
+For editors and later agents. **Not part of TTS narration.** This is the canonical record for what happens across episodes 001000–030000. Before adding an episode, reconcile its opening state with the final state below.
 
 ## The world
 
@@ -178,3 +178,40 @@ Future episodes may borrow or revisit the book, visit Rill in Reed Meadow, have 
 ### Next-season contract
 
 Future stories may borrow the **brown envelope** from the Story House, follow the accurate real map back to the orchard, or visit friends in either meadow. No new creek crossing has been introduced. Button Town stays an explicitly agreed imaginary game unless a later episode *shows* a real-world change to a real place. The children can change its make-believe rules, but the physical map stays separate. Preserve the completed stories and the quiet bedtime return home.
+
+## Season five - The Little Growing Garden (025000-030000)
+
+**Continuity update, not spoken.** This is a real garden, not another Button Town building, and the six episodes take place across several late-spring days and into the following week. No specific calendar date or duration requirement. Plants grow incrementally, without magical or instantaneous blooming. The garden is cared for by adults in a shared place.
+
+### Where the garden is
+
+- On the **southern, sunny side of the existing Story House**, immediately behind it off the usual Village Green path, lies a **small stone-edged patch of bare earth**. A broad dry approach permits viewing without stepping on the plants. In 025000 Grandma Fern obtains permission from other Story House caretakers to make it a garden, keeping paths clear. No new creek crossing, house or distant territory is introduced.
+- A small old clay pot is found upside down nearby in 025000; it is not claimed to have magically sprouted anything. A fallen leaf is placed on the stone border by Bo. No significant real construction occurs.
+- Grandma Fern supervises soil preparation, seed spacing and gentle watering. The garden has **radishes in the front row and sunflowers in the back**, planted together during mild late-spring weather in 026000. The physical row labels show a red radish and a surprised-looking sunflower. A small sign reads **LITTLE GROWING GARDEN** and is placed on a path-side peg. Bo's gigantic first carrot sign **goes home with Bo** that same day and does not appear outside afterward.
+- After Nori's sequence of visits in 027000, **two flat stepping stones lie on the dry viewing path**, not in seeded soil. On Monday-Friday no sprouts are visible. A grown-up checks the unevenly damp soil after light rain; nobody digs seeds up to look.
+- **028000:** a few additional mornings after Nori's visits, three radish seedlings are visible as tiny green hooks. Sunflower row remains not visibly emerged. Rill visits with Aunt Cress, makes a drawing of the sprouts and his boot, and **takes the paper home**. This is Rill's first visit to the garden but not his first to the Story House. He and Lila already know each other.
+- **029000:** after more days, the initial radish leaves have opened and **one sunflower shoot** is visible in back. Lila visits with Aunt Mallow. Paper hats are made as a game and **go indoors**, never attached to the plant; Lila keeps the **blue ribbon on her straw hat**. A separate ribbon used to wrap the biscuit parcel is taken indoors. The outdoor garden sign remains bare.
+- **030000:** radishes have several leaves; **two sunflower shoots** are now visible. There is at least **one bare spot** where a seed has not visibly germinated. No flowers, harvest, or edible radish roots appear in this season. All five friends and established trusted adults are present. They draw a card of the garden *as it is now*, with jokes on the drawing. Grandma Fern places it in a new plain folder marked **LITTLE GROWING GARDEN**, on the **same low Story House shelf** as the blue Book of Little Sounds and brown Button Town envelope. Tess adds two little green marks inside the small garden square she added to her **real** yellow map in 025000. Friends return home with grown-ups; no pending public event.
+
+### Existing continuity not changed
+
+- **Tess:** same yellow real-route map, including Bell Hill, west Far Meadow, east Reed Meadow, southern orchard's corrected bend and two-trunk Doorway Tree. It now has the Story House garden square and two small green marks at season end. The map returns to her bedside at Blue Door Cottage.
+- **Bo:** red scarf; his tilted **silver-spotted orange electric paper lantern** still hangs by the **Story House window**. The oversize carrot garden sign is a funny drawing stored at Bo's home, not an actual giant carrot. The blue six-page Book of Little Sounds is still on the low shelf.
+- **Nori:** violet pouch still holds exactly **three pebbles**, including the round gray one with a white stripe. Nori's two garden viewing stones are **ordinary additional flat stones**, not removed from her pouch.
+- **Lila:** straw hat with its existing **blue ribbon** remains hers; her cream cottage in Far Meadow still has the **orange, blue, violet picnic banner at an inside window**.
+- **Rill:** two yellow boots, one with blue patch; still lives near Reed Meadow with Aunt Cress. His paper sketch returns home with them.
+- **Button Town:** remains explicitly **imaginary**, with the separate pretend map and paper props in the brown envelope on the Story House shelf. The new real garden is not magically connected to Button Town.
+- No new permanent named characters join the cast. The occasional beetle is not identified as the same individual between episodes. Adults oversee the path, gardening tools, soil, water and food.
+
+### Season-five state ledger
+
+| Episode | Persisting change | Continuity to protect |
+|---|---|---|
+| 025000 | Garden site approved behind Story House; small square added to real yellow map; no seeds | Do not place plants before sowing; caretakers gave permission, dry path clear |
+| 026000 | Radish/front and sunflower/back seeds planted; picture row labels, small garden sign; Bo's large sign goes home | No shoots visible yet; one real sign outdoors; water gently |
+| 027000 | Five daily visits, rain and soil observations; two stepping stones placed on dry approach | Still no shoots by Friday; Nori keeps all three pouch pebbles |
+| 028000 | Three radish shoots emerge; Rill first garden visit, draws a picture that goes home | Sunflower row still not visible; Rill's boots unchanged |
+| 029000 | First sunflower shoot visible; radish leaves opening; Lila plays with paper hats | Paper hats and spare parcel ribbon are indoors; no hats on plants |
+| 030000 | Two sunflower shoots and more radish leaves; new garden picture folder at Story House; two green map marks | **Season complete:** patch is growing but not blooming, one bare spot remains, no crops harvested, friends go home |
+
+**Next-season contract:** The plants may continue growing, change, or fail with time and ordinary conditions; any such change must be shown if a new episode revisits them. Do not treat the garden as abandoned, already flowered or magically fully grown. No event depends on instant growth. Keep the other two shelf collections and the original geography intact.
