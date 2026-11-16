@@ -70,6 +70,12 @@ This is an independent, source-grounded, audio-first world-history curriculum fo
 | 036830 | A Seed in the Hearth: Kakapel and the Crops of Eastern Africa | 1,165 |
 | 036840 | Iron behind the Ports: Kasigau, Tsavo, and the Work of Trade | 1,198 |
 | 036850 | Building Fields from Rivers: Engaruka and the Engineering of Water | 1,237 |
+| 036860 | What a Pot Cannot Say: Urewe across the Great Lakes | 1,105 |
+| 036870 | What the Slag Remembers: Early Iron Furnaces in Rwanda and Burundi | 1,071 |
+| 036880 | Fuel and Iron in Buhaya: Technology, Forests, and Change beside Lake Victoria | 1,061 |
+| 036890 | Neighbors by the Lake: Kansyore, Urewe, and the Problems of a Farming Frontier | 1,094 |
+| 036900 | Words, Genes, and Moving Families: What the Bantu Expansion Explains | 1,276 |
+| 036910 | Mounds, Cattle, and Enclosures: Ntusi, Bigo, and Political Change in Uganda | 1,296 |
 | 037000 | Fields, Lords, and Market Streets: Medieval European Societies | 1,344 |
 | 037100 | A Charter under Pressure: Magna Carta and the Claims of Law | 1,300 |
 | 038000 | Rivers to the Sea: Scandinavians, Rus, and the North Atlantic | 1,307 |

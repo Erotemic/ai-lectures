@@ -308,3 +308,18 @@ The **132-lecture** index retains the 127 earlier entries. Every new spoken para
 The pack now has **138 indexed lectures**. Academic sources are cited in manuscript reading lists and referenced per paragraph by `metadata/NNNNNN.json`; the citation registry notes public-full-text versus public-abstract access. Wikipedia links are explicitly supplementary. The six lectures form a coherent inland extension without asserting one trajectory from hunter-gathering to farming to hierarchical stone-town commerce.
 
 **Next research candidates:** Direct early iron-smelting and agricultural evidence around Rwanda/Burundi outside canonical ceramic typologies; deeper histories of the Ethiopian and Eritrean highlands beyond Aksum royal sources; northern Mozambique and Malawi farming/settlement sequences; and pre-1500 institutions in the Central African forest. Avoid equating archaeological assemblages, languages and modern national populations.
+
+## Thirteenth regional-depth installment — Great Lakes archaeology and political formations (November 2026)
+
+| ID | New lecture | Evidence emphasis |
+| --- | --- | --- |
+| 036860 | What a Pot Cannot Say | Early and transitional Urewe ceramic categories, Kakapel, 2026 Mara excavations, no language-by-pot inference |
+| 036870 | What the Slag Remembers | Rwanda/Burundi slag pits, mineral evidence, metallurgical questions, uncertainties of early dating |
+| 036880 | Fuel and Iron in Buhaya | Haya iron research, authors' preheating claims, charcoal/forest history and discontinuous settlement |
+| 036890 | Neighbors by the Lake | Kansyore-Urewe co-occurrence, western Kenya farming transitions, contact rather than automatic replacement |
+| 036900 | Words, Genes, and Moving Families | Linguistics, 2024 Nature genetic survey, historical migration and local admixture, methodological debates |
+| 036910 | Mounds, Cattle, and Enclosures | Ntusi households, Bigo/Munsa earthworks, Cwezi traditions and changing settlement authority |
+
+The index now holds **144 lectures**, including 138 unchanged predecessors. All **68 new spoken paragraphs** have one or more non-Wikipedia scholarly or institutional evidence mappings and specific scope limitations. Every manuscript includes academic bibliography entries plus explicitly supplementary Wikipedia articles. Abstract-only sources remain marked as such; interpretations about migration routes, early iron invention and earthworks' purpose are not presented as settled facts.
+
+**Further gaps:** Ancient farming and ironworking south and west of Lake Tanganyika (with Malawi and northern Zambia stratigraphy); pre-1500 highland African rural social history beyond Aksum and royal inscriptions; more detailed history of Indian Ocean networks' inland western Great Lakes ramifications; Congo Basin settlement and ecological change; direct botanical and faunal evidence across more Rwanda/Burundi sites.
