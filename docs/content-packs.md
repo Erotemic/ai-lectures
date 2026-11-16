@@ -286,9 +286,10 @@ activation, and old media remains available to active players and feedback.
 discovery for listed packs. These are optional local policies; ordinary additions
 need no configuration edits. Selection-policy changes in the config file are
 read at startup; pack additions and revisions under its configured roots are live.
-`remove PACK_ID` or the Packs screen disables a pack immediately and retains
+The operator CLI command `remove PACK_ID` disables a pack immediately and retains
 its data; explicit installation re-enables it. Automatic discovery respects
-that removal. Garbage collection is intentionally absent in this first release.
+that removal. The web interface has no pack removal control. Garbage collection
+is intentionally absent in this first release.
 
 SQLite is the activation authority. `library.lock.json` is a generated diagnostic
 snapshot, never an authored registry or an input supplied by a content producer.

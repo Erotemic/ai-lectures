@@ -856,16 +856,6 @@ function packsPage() {
             el("summary", { text: "Release details" }),
             el("pre", { text: JSON.stringify(pack, null, 2) }),
           ),
-          !pack.source
-            ? button("Remove from library", async () => {
-                await post("/api/library/packs", {
-                  action: "remove",
-                  pack_id: pack.id,
-                });
-                await refresh(true);
-                render();
-              })
-            : null,
         ),
       ),
     ),

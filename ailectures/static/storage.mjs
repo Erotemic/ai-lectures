@@ -54,7 +54,7 @@ export async function showStorage(panel, cards, catalog) {
           text: `Build cache ${bytes(data.build_cache_bytes)} · exported copies ${bytes(data.exports_bytes)} · unregistered pack files ${bytes(data.unregistered_bytes)}`,
         }),
         el("p", {
-          text: "Removing a pack retains its files for active players and historical feedback. Automatic media deletion is disabled.",
+          text: "Earlier releases are retained for active players and historical feedback. Automatic media deletion is disabled.",
         }),
         el(
           "details",
