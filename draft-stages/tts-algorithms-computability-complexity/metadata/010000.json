@@ -1,0 +1,252 @@
+{
+  "schema_version": 1,
+  "lecture_id": "010000",
+  "transcript": "010000-divide-and-conquer-and-selection.md",
+  "related_resources": [
+    {
+      "source_id": "acc-bfprt1973",
+      "reason": "Primary historical reference or established mathematics and pedagogy; see per-claim provenance for precise use."
+    },
+    {
+      "source_id": "acc-kt-dc",
+      "reason": "Primary historical reference or established mathematics and pedagogy; see per-claim provenance for precise use."
+    },
+    {
+      "source_id": "acc-mit-intro",
+      "reason": "Primary historical reference or established mathematics and pedagogy; see per-claim provenance for precise use."
+    }
+  ],
+  "claim_evidence": [
+    {
+      "id": "acc-010-c001",
+      "anchor": "An order statistic is the element at a specified position in sorted order.",
+      "source_ids": [
+        "acc-kt-dc"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Kleinberg-Tardos chapter 5, sorting and selection",
+      "evidence_detail": "Support is attributed to the named source and scoped locator. The lecture explains it in original prose. Locator: Kleinberg-Tardos chapter 5, sorting and selection."
+    },
+    {
+      "id": "acc-010-c002",
+      "anchor": "our specification counts occurrences.",
+      "source_ids": [
+        "acc-kt-dc"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Rank specification with duplicates, manuscript",
+      "evidence_detail": "Original mathematical work in the narrated example and non-spoken companion. Cited sources provide contextual theory, not authorship. Locator: Rank specification with duplicates, manuscript."
+    },
+    {
+      "id": "acc-010-c003",
+      "anchor": "those smaller than p, those equal to p, and those greater than p.",
+      "source_ids": [
+        "acc-bfprt1973"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Three-way partition invariant, companion; BFPRT gives selection context",
+      "evidence_detail": "Original mathematical work in the narrated example and non-spoken companion. Cited sources provide contextual theory, not authorship. Locator: Three-way partition invariant, companion; BFPRT gives selection context."
+    },
+    {
+      "id": "acc-010-c004",
+      "anchor": "Its termination argument uses the decreasing sequence length.",
+      "source_ids": [
+        "acc-mit-intro"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Strong induction on input size, companion",
+      "evidence_detail": "Original mathematical work in the narrated example and non-spoken companion. Cited sources provide contextual theory, not authorship. Locator: Strong induction on input size, companion."
+    },
+    {
+      "id": "acc-010-c005",
+      "anchor": "If every pivot leaves only one fewer element in the continuing subproblem, the total work resembles n plus n minus one plus n minus two, all the way down to one.",
+      "source_ids": [
+        "acc-kt-dc"
+      ],
+      "provenance": "original_calculation",
+      "source_locator": "First-pivot worst-case sum and lab",
+      "evidence_detail": "Original mathematical work in the narrated example and non-spoken companion. Cited sources provide contextual theory, not authorship. Locator: First-pivot worst-case sum and lab."
+    },
+    {
+      "id": "acc-010-c006",
+      "anchor": "Randomizing the pivot can make this behavior unlikely and yields expected linear time under a suitable uniform-random pivot model.",
+      "source_ids": [
+        "acc-kt-dc"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Kleinberg-Tardos divide and conquer, selection discussion; informal expectation",
+      "evidence_detail": "Support is attributed to the named source and scoped locator. The lecture explains it in original prose. Locator: Kleinberg-Tardos divide and conquer, selection discussion; informal expectation."
+    },
+    {
+      "id": "acc-010-c007",
+      "anchor": "In nineteen seventy-three, Manuel Blum, Robert Floyd, Vaughan Pratt, Ronald Rivest, and Robert Tarjan published a worst-case linear-time selection result.",
+      "source_ids": [
+        "acc-bfprt1973"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "BFPRT 1973, title, abstract, theorem 1",
+      "evidence_detail": "Support is attributed to the named source and scoped locator. The lecture explains it in original prose. Locator: BFPRT 1973, title, abstract, theorem 1."
+    },
+    {
+      "id": "acc-010-c008",
+      "anchor": "Their original algorithm is called PICK.",
+      "source_ids": [
+        "acc-bfprt1973"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "BFPRT section 2 explicitly names PICK",
+      "evidence_detail": "Support is attributed to the named source and scoped locator. The lecture explains it in original prose. Locator: BFPRT section 2 explicitly names PICK."
+    },
+    {
+      "id": "acc-010-c009",
+      "anchor": "We should distinguish the historical paper's detailed construction and comparison constants from the simplified groups-of-five version",
+      "source_ids": [
+        "acc-bfprt1973"
+      ],
+      "provenance": "supported_interpretation",
+      "source_locator": "Historical scope boundary: paper section 2 and classroom group-five algorithm",
+      "evidence_detail": "Support is attributed to the named source and scoped locator. The lecture explains it in original prose. Locator: Historical scope boundary: paper section 2 and classroom group-five algorithm."
+    },
+    {
+      "id": "acc-010-c010",
+      "anchor": "Take the sequence and form groups of at most five values.",
+      "source_ids": [
+        "acc-bfprt1973",
+        "acc-kt-dc"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "BFPRT grouping scheme; simplified educational specialization",
+      "evidence_detail": "Support is attributed to the named source and scoped locator. The lecture explains it in original prose. Locator: BFPRT grouping scheme; simplified educational specialization."
+    },
+    {
+      "id": "acc-010-c011",
+      "anchor": "The group structure supplies a certificate that many elements can be discarded, regardless of how the original sequence was arranged.",
+      "source_ids": [
+        "acc-bfprt1973"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Counting argument in companion, connected to BFPRT theorem 1",
+      "evidence_detail": "Original mathematical work in the narrated example and non-spoken companion. Cited sources provide contextual theory, not authorship. Locator: Counting argument in companion, connected to BFPRT theorem 1."
+    },
+    {
+      "id": "acc-010-c012",
+      "anchor": "Every row's middle element has at least three entries at or above its value, counting itself, and at least three at or below its value.",
+      "source_ids": [
+        "acc-bfprt1973"
+      ],
+      "provenance": "original_calculation",
+      "source_locator": "Median of a five-element sorted group, companion",
+      "evidence_detail": "Original mathematical work in the narrated example and non-spoken companion. Cited sources provide contextual theory, not authorship. Locator: Median of a five-element sorted group, companion."
+    },
+    {
+      "id": "acc-010-c013",
+      "anchor": "at least about three tenths of the input is known to lie on each inclusive side of the pivot.",
+      "source_ids": [
+        "acc-bfprt1973"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "3 floor(g/2)-3 bound, companion",
+      "evidence_detail": "Original mathematical work in the narrated example and non-spoken companion. Cited sources provide contextual theory, not authorship. Locator: 3 floor(g/2)-3 bound, companion."
+    },
+    {
+      "id": "acc-010-c014",
+      "anchor": "The three-way treatment also makes the argument safe when equal values appear many times:",
+      "source_ids": [
+        "acc-bfprt1973"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Partition invariant and duplicates case, companion",
+      "evidence_detail": "Original mathematical work in the narrated example and non-spoken companion. Cited sources provide contextual theory, not authorship. Locator: Partition invariant and duplicates case, companion."
+    },
+    {
+      "id": "acc-010-c015",
+      "anchor": "Their median is nine.",
+      "source_ids": [
+        "acc-kt-dc"
+      ],
+      "provenance": "original_example",
+      "source_locator": "Explicit original fifteen-number grouped dataset",
+      "evidence_detail": "Original mathematical work in the narrated example and non-spoken companion. Cited sources provide contextual theory, not authorship. Locator: Explicit original fifteen-number grouped dataset."
+    },
+    {
+      "id": "acc-010-c016",
+      "anchor": "If we had requested rank ten instead, it would lie in the greater-than-nine group with local rank two.",
+      "source_ids": [
+        "acc-kt-dc"
+      ],
+      "provenance": "original_calculation",
+      "source_locator": "Sorted original sample and rank-shift lab",
+      "evidence_detail": "Original mathematical work in the narrated example and non-spoken companion. Cited sources provide contextual theory, not authorship. Locator: Sorted original sample and rank-shift lab."
+    },
+    {
+      "id": "acc-010-c017",
+      "anchor": "One recursive call finds the median among about n divided by five representatives.",
+      "source_ids": [
+        "acc-bfprt1973"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Recurrence T(n) <= T(n/5)+T(7n/10)+cn, companion",
+      "evidence_detail": "Original mathematical work in the narrated example and non-spoken companion. Cited sources provide contextual theory, not authorship. Locator: Recurrence T(n) <= T(n/5)+T(7n/10)+cn, companion."
+    },
+    {
+      "id": "acc-010-c018",
+      "anchor": "One fifth plus seven tenths equals nine tenths, which is strictly below one.",
+      "source_ids": [
+        "acc-bfprt1973"
+      ],
+      "provenance": "original_calculation",
+      "source_locator": "Linear induction slack from median-of-five bound",
+      "evidence_detail": "Original mathematical work in the narrated example and non-spoken companion. Cited sources provide contextual theory, not authorship. Locator: Linear induction slack from median-of-five bound."
+    },
+    {
+      "id": "acc-010-c019",
+      "anchor": "This does not prove that every conceivable groups-of-three algorithm is slow",
+      "source_ids": [
+        "acc-kt-dc"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Distinguishing failure of a proof from lower bound on algorithms",
+      "evidence_detail": "Original mathematical work in the narrated example and non-spoken companion. Cited sources provide contextual theory, not authorship. Locator: Distinguishing failure of a proof from lower bound on algorithms."
+    },
+    {
+      "id": "acc-010-c020",
+      "anchor": "a correct general algorithm cannot ignore arbitrarily many unseen elements.",
+      "source_ids": [
+        "acc-bfprt1973"
+      ],
+      "provenance": "supported_interpretation",
+      "source_locator": "Selection model and asymptotic input-reading lower bound",
+      "evidence_detail": "Support is attributed to the named source and scoped locator. The lecture explains it in original prose. Locator: Selection model and asymptotic input-reading lower bound."
+    },
+    {
+      "id": "acc-010-c021",
+      "anchor": "a comparison does not necessarily cost one machine step.",
+      "source_ids": [
+        "acc-mit-intro"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Computational model and representation assumptions, MIT lecture 1",
+      "evidence_detail": "Support is attributed to the named source and scoped locator. The lecture explains it in original prose. Locator: Computational model and representation assumptions, MIT lecture 1."
+    },
+    {
+      "id": "acc-010-c022",
+      "anchor": "In mergesort, both recursive halves must be solved and then merged;",
+      "source_ids": [
+        "acc-kt-dc"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Kleinberg-Tardos chapter 5, contrast of recurrences",
+      "evidence_detail": "Support is attributed to the named source and scoped locator. The lecture explains it in original prose. Locator: Kleinberg-Tardos chapter 5, contrast of recurrences."
+    },
+    {
+      "id": "acc-010-c023",
+      "anchor": "The tests demonstrate behavior and catch mistakes, including mistakes with duplicates.",
+      "source_ids": [
+        "acc-bfprt1973"
+      ],
+      "provenance": "editorial_inference",
+      "source_locator": "Limitations of the original companion executable lab",
+      "evidence_detail": "Interpretive or methodological observation, not a directly quoted external theorem. Context and limitation: Limitations of the original companion executable lab."
+    }
+  ]
+}

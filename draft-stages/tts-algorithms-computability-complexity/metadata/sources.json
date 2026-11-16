@@ -203,6 +203,48 @@
       "url": "https://isa-afp.org/entries/CYK.html",
       "access": "free_project_page",
       "notes": "Existing Isabelle/HOL formal proof with executable checker, not evidence that this lecture contains a Lean theorem."
+    },
+    "acc-bfprt1973": {
+      "title": "Manuel Blum, Robert W. Floyd, Vaughan Pratt, Ronald L. Rivest, Robert E. Tarjan (1973), Time Bounds for Selection, Journal of Computer and System Sciences 7(4):448-461",
+      "kind": "historical_primary",
+      "url": "https://people.csail.mit.edu/rivest/pubs/BFPRT73.pdf",
+      "access": "author-hosted_original_full_paper",
+      "notes": "Original PICK algorithm and worst-case linear comparison upper bound; sections 1-2, Theorem 1. The popular simplified groups-of-five teaching version and its Python implementation are not claimed verbatim from the paper."
+    },
+    "acc-kt-dc": {
+      "title": "Jon Kleinberg and Eva Tardos, Algorithm Design (2005), chapter 5; Kevin Wayne revised official lecture slides, Divide and Conquer I",
+      "kind": "established_teaching_source",
+      "url": "https://www.cs.princeton.edu/~wayne/kleinberg-tardos/",
+      "access": "official_index_search_visible",
+      "notes": "Course index shows sorting and selection and divide-and-conquer recurrence analysis; full PDF lecture slides not claimed line-by-line inspected."
+    },
+    "acc-bellman1954": {
+      "title": "Richard Bellman (1954), The Theory of Dynamic Programming, Bulletin of the American Mathematical Society 60:503-515",
+      "kind": "historical_primary",
+      "url": "https://doi.org/10.1090/S0002-9904-1954-09848-8",
+      "access": "ams_original_pdf_indexed_text",
+      "notes": "pp. 503-506 discuss multistage decisions, state and the principle of optimality; no claim that modern weighted interval pseudocode appeared in this paper."
+    },
+    "acc-kt-dp": {
+      "title": "Jon Kleinberg and Eva Tardos, Algorithm Design (2005), chapter 6 sections 6.1-6.2; Kevin Wayne revised weighted-interval scheduling slides",
+      "kind": "established_teaching_source",
+      "url": "https://www.cs.princeton.edu/~wayne/kleinberg-tardos/pdf/06DynamicProgrammingI-2x2.pdf",
+      "access": "indexed_presentation_text",
+      "notes": "Specifies finish ordering, p(j), D(j), memoization/tabulation and O(n log n). PDF text indexed through web; visual screenshot unavailable. Independent lecture examples not attributed to these slides."
+    },
+    "acc-kt-greedy": {
+      "title": "Jon Kleinberg and Eva Tardos, Algorithm Design (2005), chapter 4 section 4.1; Kevin Wayne revised Greedy Algorithms I slides",
+      "kind": "established_teaching_source",
+      "url": "https://www.cs.princeton.edu/~wayne/kleinberg-tardos/pdf/04GreedyAlgorithmsI.pdf",
+      "access": "indexed_presentation_text",
+      "notes": "Interval scheduling statement and earliest-finish exchange proof, heuristic counterexamples and complexity, indexed text; PDF screenshot unavailable."
+    },
+    "acc-edmonds1971": {
+      "title": "Jack Edmonds (1971), Matroids and the Greedy Algorithm, Mathematical Programming 1:127-136",
+      "kind": "historical_primary",
+      "url": "https://deltadbu.github.io/UCAS_algorithm_course/Lectures/Edmonds1971.pdf",
+      "access": "full_primary_paper_university_course_mirror",
+      "notes": "Original historical connection between matroid constraints and weighted greedy optimization; see pp. 127-130. Lecture formulation simplifies the paper and states explicit hypotheses."
     }
   }
 }

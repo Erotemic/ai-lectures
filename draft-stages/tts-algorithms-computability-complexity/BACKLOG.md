@@ -19,9 +19,9 @@ This is an editorial map, **not** a count or duration policy. Lecture boundaries
 
 ## Design paradigms and problem-solving techniques
 
-- Divide-and-conquer beyond merge sort: selection, recurrence proof methods, data movement costs.
-- Dynamic programming as a state-space argument: optimal substructure, overlapping subproblems, correct state invariants.
-- Greedy algorithms: exchange arguments, counterexamples, matroids, and selection criteria.
+- **010000 — drafted:** Divide-and-conquer selection, deterministic pivot guarantees, rank invariants, and explicit recurrence proof.
+- **011000 — drafted:** Dynamic programming via weighted interval scheduling, optimal-substructure proofs, witness recovery, and resource assumptions.
+- **012000 — drafted:** Greedy interval scheduling with two proofs, weighted counterexamples, and matroid comparison.
 - Graph traversal: BFS, DFS, reachability, connected components, and complexity under adjacency representations.
 - Shortest paths: Dijkstra, Bellman–Ford, negative edges, potentials, and invariant-driven correctness.
 - Flows, cuts, and matchings: residual networks, augmentation, maximality, minimum cut, and reductions.
@@ -55,11 +55,11 @@ This is an editorial map, **not** a count or duration policy. Lecture boundaries
 
 ## Suggested next focused batch
 
-The new finite-state/CFG sequence 007000–009000 is drafted. Next, develop
-**algorithm design paradigms**: divide-and-conquer beyond mergesort,
-dynamic-programming recurrence proofs, and greedy exchange arguments with
-counterexamples. A later focused block should build the full complexity
-classification and polynomial-time reduction ladder to NP-completeness,
-including explicit encoding sizes. Return to mathematical models of
-Turing-complete computation and verified complexity analysis in later tracks.
-Preserve complete proofs without any lecture-duration policy.
+Lectures 010000–012000 now establish three algorithm-design proof patterns.
+Next, graph traversal and shortest paths (BFS, DFS, Dijkstra, Bellman–Ford)
+would apply invariants to structured data and test how representation changes
+cost. The following focused block should develop a full complexity-classification
+and polynomial-reduction ladder through NP-completeness, with explicit input
+encodings and careful attribution to Cook and Levin. Return to universal
+computational models and machine-checked complexity analysis later. No lecture
+length or count target applies.

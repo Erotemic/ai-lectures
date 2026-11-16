@@ -12,7 +12,8 @@
     "computational-cost-and-lower-bounds",
     "proof-refinement-and-verification",
     "computability-and-undecidability",
-    "finite-automata-and-grammars"
+    "finite-automata-and-grammars",
+    "algorithm-design-paradigms"
   ],
   "lectures": [
     {
@@ -85,6 +86,30 @@
       "section": "finite-automata-and-grammars",
       "file": "009000-when-a-stack-changes-the-language.md",
       "spoken_words": 2195,
+      "draft_status": "substantive"
+    },
+    {
+      "id": "010000",
+      "title": "Divide and Conquer: Choosing a Pivot That Earns Its Cost",
+      "section": "algorithm-design-paradigms",
+      "file": "010000-divide-and-conquer-and-selection.md",
+      "spoken_words": 2039,
+      "draft_status": "substantive"
+    },
+    {
+      "id": "011000",
+      "title": "Dynamic Programming: A Proof Hidden in the Table",
+      "section": "algorithm-design-paradigms",
+      "file": "011000-dynamic-programming-as-a-proof.md",
+      "spoken_words": 2199,
+      "draft_status": "substantive"
+    },
+    {
+      "id": "012000",
+      "title": "Greedy Algorithms: When the Next Choice Can Be Trusted",
+      "section": "algorithm-design-paradigms",
+      "file": "012000-greedy-algorithms-and-exchange.md",
+      "spoken_words": 2176,
       "draft_status": "substantive"
     }
   ]

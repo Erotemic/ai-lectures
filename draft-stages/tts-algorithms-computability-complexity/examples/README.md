@@ -26,3 +26,15 @@ CYK table, stack recognizer, independent recursive-parentheses specification,
 and ambiguity counts are checked on bounded inputs. For a CNF grammar on a
 fixed input, the CYK procedure terminates; this lab does not generalize its
 checks to all grammars or inputs and is not a Lean/Isabelle proof.
+
+
+## Selection, dynamic programming, and greedy scheduling (010000–012000)
+
+Run `python draft-stages/tts-algorithms-computability-complexity/examples/algorithm_design_lab.py --check`.
+The code checks rank selection against sorting on small sequences, weighted
+interval DP against exhaustive compatible-subset enumeration, and earliest-finish
+greedy against the same independently evaluated maximum cardinality.
+Counterexamples distinguish the wrong heuristic, wrong objective, and correct
+algorithm. Results are finite implementation checks, not proof of linear-time
+selection or all-input optimality; the mathematical proofs are in the lecture
+manuscripts. No package dependencies or binary inputs.

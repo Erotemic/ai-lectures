@@ -1,0 +1,271 @@
+{
+  "schema_version": 1,
+  "lecture_id": "011000",
+  "transcript": "011000-dynamic-programming-as-a-proof.md",
+  "related_resources": [
+    {
+      "source_id": "acc-bellman1954",
+      "reason": "Primary historical reference or established mathematics and pedagogy; see per-claim provenance for precise use."
+    },
+    {
+      "source_id": "acc-kt-dp",
+      "reason": "Primary historical reference or established mathematics and pedagogy; see per-claim provenance for precise use."
+    },
+    {
+      "source_id": "acc-mit-notes",
+      "reason": "Primary historical reference or established mathematics and pedagogy; see per-claim provenance for precise use."
+    }
+  ],
+  "claim_evidence": [
+    {
+      "id": "acc-011-c001",
+      "anchor": "Two experiments can be scheduled together only if their time intervals do not overlap.",
+      "source_ids": [
+        "acc-kt-dp"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "KT chapter 6 section 6.1, weighted interval problem",
+      "evidence_detail": "Support is attributed to the named source and scoped locator. The lecture explains it in original prose. Locator: KT chapter 6 section 6.1, weighted interval problem."
+    },
+    {
+      "id": "acc-011-c002",
+      "anchor": "A feasible schedule is any set of pairwise compatible jobs, and the objective is to maximize the sum of its weights.",
+      "source_ids": [
+        "acc-kt-dp"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "KT chapter 6 section 6.1, weighted objective",
+      "evidence_detail": "Support is attributed to the named source and scoped locator. The lecture explains it in original prose. Locator: KT chapter 6 section 6.1, weighted objective."
+    },
+    {
+      "id": "acc-011-c003",
+      "anchor": "Selecting it instead earns twelve.",
+      "source_ids": [
+        "acc-kt-dp"
+      ],
+      "provenance": "original_example",
+      "source_locator": "Original 3-job weighted contrast",
+      "evidence_detail": "Original mathematical work in the narrated example and non-spoken companion. Cited sources provide contextual theory, not authorship. Locator: Original 3-job weighted contrast."
+    },
+    {
+      "id": "acc-011-c004",
+      "anchor": "Let D of j mean the maximum total value obtainable from the first j jobs.",
+      "source_ids": [
+        "acc-kt-dp"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "KT weighted interval state OPT(j)",
+      "evidence_detail": "Support is attributed to the named source and scoped locator. The lecture explains it in original prose. Locator: KT weighted interval state OPT(j)."
+    },
+    {
+      "id": "acc-011-c005",
+      "anchor": "define p of j as the number of earlier jobs whose finish times are at most the start time of job j.",
+      "source_ids": [
+        "acc-kt-dp"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "KT p(j) compatible predecessor boundary",
+      "evidence_detail": "Support is attributed to the named source and scoped locator. The lecture explains it in original prose. Locator: KT p(j) compatible predecessor boundary."
+    },
+    {
+      "id": "acc-011-c006",
+      "anchor": "If it omits job j, its best possible value is D of j minus one.",
+      "source_ids": [
+        "acc-kt-dp"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "KT weighted interval include/exclude recurrence",
+      "evidence_detail": "Support is attributed to the named source and scoped locator. The lecture explains it in original prose. Locator: KT weighted interval include/exclude recurrence."
+    },
+    {
+      "id": "acc-011-c007",
+      "anchor": "Therefore the best possible value for a schedule that includes j is the weight of j plus D of p of j.",
+      "source_ids": [
+        "acc-kt-dp"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "KT recurrence include case",
+      "evidence_detail": "Support is attributed to the named source and scoped locator. The lecture explains it in original prose. Locator: KT recurrence include case."
+    },
+    {
+      "id": "acc-011-c008",
+      "anchor": "Because the only way the earlier schedule interacts with j is through compatibility.",
+      "source_ids": [
+        "acc-kt-dp"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Optimal-substructure proof, companion",
+      "evidence_detail": "Original mathematical work in the narrated example and non-spoken companion. Cited sources provide contextual theory, not authorship. Locator: Optimal-substructure proof, companion."
+    },
+    {
+      "id": "acc-011-c009",
+      "anchor": "An upper bound that is attainable is the exact optimum.",
+      "source_ids": [
+        "acc-kt-dp"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Both inequalities in exact recurrence proof",
+      "evidence_detail": "Original mathematical work in the narrated example and non-spoken companion. Cited sources provide contextual theory, not authorship. Locator: Both inequalities in exact recurrence proof."
+    },
+    {
+      "id": "acc-011-c010",
+      "anchor": "D of two becomes twelve.",
+      "source_ids": [
+        "acc-kt-dp"
+      ],
+      "provenance": "original_calculation",
+      "source_locator": "Companion table row 2, original C job",
+      "evidence_detail": "Original mathematical work in the narrated example and non-spoken companion. Cited sources provide contextual theory, not authorship. Locator: Companion table row 2, original C job."
+    },
+    {
+      "id": "acc-011-c011",
+      "anchor": "D of three stays twelve.",
+      "source_ids": [
+        "acc-kt-dp"
+      ],
+      "provenance": "original_calculation",
+      "source_locator": "Companion table row 3, original B job",
+      "evidence_detail": "Original mathematical work in the narrated example and non-spoken companion. Cited sources provide contextual theory, not authorship. Locator: Companion table row 3, original B job."
+    },
+    {
+      "id": "acc-011-c012",
+      "anchor": "The optimal total value is seventeen, achieved by C followed by D.",
+      "source_ids": [
+        "acc-kt-dp"
+      ],
+      "provenance": "original_calculation",
+      "source_locator": "Companion table and independent brute-force checker",
+      "evidence_detail": "Original mathematical work in the narrated example and non-spoken companion. Cited sources provide contextual theory, not authorship. Locator: Companion table and independent brute-force checker."
+    },
+    {
+      "id": "acc-011-c013",
+      "anchor": "The three-job schedule A, B, D is feasible, but its weight is thirteen.",
+      "source_ids": [
+        "acc-kt-dp"
+      ],
+      "provenance": "original_calculation",
+      "source_locator": "Companion schedule instance",
+      "evidence_detail": "Original mathematical work in the narrated example and non-spoken companion. Cited sources provide contextual theory, not authorship. Locator: Companion schedule instance."
+    },
+    {
+      "id": "acc-011-c014",
+      "anchor": "To compute it efficiently, sort all finish times alongside the jobs, and use binary search to find how many earlier finish times are no later than the current start time.",
+      "source_ids": [
+        "acc-kt-dp"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "KT slides weighted interval predecessor via binary search",
+      "evidence_detail": "Support is attributed to the named source and scoped locator. The lecture explains it in original prose. Locator: KT slides weighted interval predecessor via binary search."
+    },
+    {
+      "id": "acc-011-c015",
+      "anchor": "Computing each D entry takes constant time once its predecessor and earlier values are known, for n entries in total.",
+      "source_ids": [
+        "acc-kt-dp"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "KT weighted-interval tabulation, O(n) table phase",
+      "evidence_detail": "Support is attributed to the named source and scoped locator. The lecture explains it in original prose. Locator: KT weighted-interval tabulation, O(n) table phase."
+    },
+    {
+      "id": "acc-011-c016",
+      "anchor": "In this example both are valid; the table makes the dependency order and reconstruction steps particularly visible.",
+      "source_ids": [
+        "acc-kt-dp"
+      ],
+      "provenance": "supported_interpretation",
+      "source_locator": "KT slides tabulation vs memoization",
+      "evidence_detail": "Support is attributed to the named source and scoped locator. The lecture explains it in original prose. Locator: KT slides tabulation vs memoization."
+    },
+    {
+      "id": "acc-011-c017",
+      "anchor": "If taking j is strictly better, record j and jump to state p of j.",
+      "source_ids": [
+        "acc-kt-dp"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Witness reconstruction invariant, companion",
+      "evidence_detail": "Original mathematical work in the narrated example and non-spoken companion. Cited sources provide contextual theory, not authorship. Locator: Witness reconstruction invariant, companion."
+    },
+    {
+      "id": "acc-011-c018",
+      "anchor": "Equal branches may yield different optimal schedules, so our implementation has to choose a deterministic tie policy if repeatable output is important.",
+      "source_ids": [
+        "acc-kt-dp"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Lab tie selection rule and traceback",
+      "evidence_detail": "Original mathematical work in the narrated example and non-spoken companion. Cited sources provide contextual theory, not authorship. Locator: Lab tie selection rule and traceback."
+    },
+    {
+      "id": "acc-011-c019",
+      "anchor": "Richard Bellman's work in the nineteen-fifties gave a general mathematical language to optimizing multistage decisions.",
+      "source_ids": [
+        "acc-bellman1954"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Bellman 1954 pp. 503-506, first and second sections",
+      "evidence_detail": "Support is attributed to the named source and scoped locator. The lecture explains it in original prose. Locator: Bellman 1954 pp. 503-506, first and second sections."
+    },
+    {
+      "id": "acc-011-c020",
+      "anchor": "His principle of optimality says, in substance, that after the first decisions of an optimal policy, the remaining policy must be optimal for the resulting state.",
+      "source_ids": [
+        "acc-bellman1954"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Bellman 1954 p. 504 principle of optimality",
+      "evidence_detail": "Support is attributed to the named source and scoped locator. The lecture explains it in original prose. Locator: Bellman 1954 p. 504 principle of optimality."
+    },
+    {
+      "id": "acc-011-c021",
+      "anchor": "the state consisting only of a prefix index may be insufficient.",
+      "source_ids": [
+        "acc-bellman1954"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "State insufficiency under added setup dependencies, novel analysis",
+      "evidence_detail": "Original mathematical work in the narrated example and non-spoken companion. Cited sources provide contextual theory, not authorship. Locator: State insufficiency under added setup dependencies, novel analysis."
+    },
+    {
+      "id": "acc-011-c022",
+      "anchor": "For two sequences of symbols, the longest common subsequence is the longest sequence obtainable by deleting some positions from each without changing the order of what remains.",
+      "source_ids": [
+        "acc-mit-notes"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "MIT 6.006 lecture 16 LCS topic",
+      "evidence_detail": "Support is attributed to the named source and scoped locator. The lecture explains it in original prose. Locator: MIT 6.006 lecture 16 LCS topic."
+    },
+    {
+      "id": "acc-011-c023",
+      "anchor": "This produces a two-dimensional dynamic program rather than the one-dimensional interval table.",
+      "source_ids": [
+        "acc-mit-notes"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "LCS recurrence, companion",
+      "evidence_detail": "Original mathematical work in the narrated example and non-spoken companion. Cited sources provide contextual theory, not authorship. Locator: LCS recurrence, companion."
+    },
+    {
+      "id": "acc-011-c024",
+      "anchor": "A table indexed by every possible total weight can take time polynomial in the numerical magnitude of a weight while being exponential in the number of bits needed to write that weight.",
+      "source_ids": [
+        "acc-mit-notes"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "MIT 6.006 lecture 18 pseudopolynomial, bit encoding",
+      "evidence_detail": "Support is attributed to the named source and scoped locator. The lecture explains it in original prose. Locator: MIT 6.006 lecture 18 pseudopolynomial, bit encoding."
+    },
+    {
+      "id": "acc-011-c025",
+      "anchor": "The executable lab accompanying this lecture checks weighted interval schedules against a separate brute-force specification for small inputs.",
+      "source_ids": [
+        "acc-kt-dp"
+      ],
+      "provenance": "original_example",
+      "source_locator": "Implementation validation scope, companion lab",
+      "evidence_detail": "Original mathematical work in the narrated example and non-spoken companion. Cited sources provide contextual theory, not authorship. Locator: Implementation validation scope, companion lab."
+    }
+  ]
+}

@@ -15,6 +15,9 @@ An independent, audio-first lecture track for mathematical computer science. The
 | 007000 | What a Finite Machine Can Remember | DFA definition, two complete transition-table invariants, product closure, decidable equivalence, and an infinite-prefix nonregularity proof |
 | 008000 | Many Descriptions, One Regular Language | NFA subset construction, regular-expression equivalence, correct pumping-lemma quantifiers, and both directions of Myhill–Nerode |
 | 009000 | When a Stack Changes the Language | Context-free grammar derivations, PDA recognition, CYK parsing proof, ambiguity, and an explicit non-context-freeness argument |
+| 010000 | Divide and Conquer: Choosing a Pivot That Earns Its Cost | Deterministic order statistics, three-way partition invariants, median-of-medians selection, and worst-case linear recurrence proof |
+| 011000 | Dynamic Programming: A Proof Hidden in the Table | Weighted interval scheduling: state definitions, include/exclude proof, O(n log n) table and witness recovery |
+| 012000 | Greedy Algorithms: When the Next Choice Can Be Trusted | Earliest-finish exchange and staying-ahead proofs; weighted counterexamples, matroid augmentation and its limits |
 
 These are standalone narrated lectures. They make their assumptions explicit and avoid relying on previous episodes for necessary definitions. Lecture length follows the mathematics being taught; there are no target durations or word-count requirements.
 
@@ -24,7 +27,7 @@ These are standalone narrated lectures. They make their assumptions explicit and
 - Each manuscript contains one spoken-text region. Exact definitions, proofs, code, bibliographic notes, and exercises live below the ending marker.
 - `metadata/sources.json` records bibliographic sources, including primary papers and credited instructors/authors.
 - `metadata/<id>.json` links source records to **exact spoken anchors**. An original worked calculation is labeled as such rather than presented as an external author's result.
-- `examples/lower_bound_reference.py` and `examples/finite_reductions_lab.py` are independent, executable **checking and teaching code**, not machine-checked proofs. The second script never treats a timeout as proof of divergence. No claim of formal Lean verification is made.
+- `examples/` contains independent, executable **checking and teaching code**, not machine-checked proofs. `finite_reductions_lab.py` never treats a timeout as proof of divergence; the selection and scheduling checks compare against independent finite specifications. No claim of formal Lean verification is made.
 - `BACKLOG.md` records optional future topics and source-research needs; it is not a promise to reach a particular lecture count.
 
 ## Focused verification
@@ -37,6 +40,7 @@ python draft-stages/tts-algorithms-computability-complexity/examples/lower_bound
 python draft-stages/tts-algorithms-computability-complexity/citations/validate.py
 python draft-stages/tts-algorithms-computability-complexity/examples/finite_reductions_lab.py --check
 python draft-stages/tts-algorithms-computability-complexity/examples/automata_and_grammars_lab.py --check
+python draft-stages/tts-algorithms-computability-complexity/examples/algorithm_design_lab.py --check
 ```
 
 For independent citation checks, each anchored phrase should occur exactly once inside the *spoken* region, and each `source_id` should resolve in `metadata/sources.json`. No runtime pack builds, TTS, or repository-wide test suite is required for this authoring batch.
@@ -56,3 +60,15 @@ contain the universal mathematical arguments; exhaustive testing to a fixed
 input length is **not** a formal proof of regularity, nonregularity, or
 context-freeness. Existing Isabelle/HOL CYK formalization is cited separately
 with correct authorship; no Lean formal proof is claimed here.
+
+
+## Algorithm-design lab (010000–012000)
+
+`examples/algorithm_design_lab.py` implements three-way median-of-medians
+selection, a deliberately weak first-pivot selection routine, weighted interval
+scheduling by dynamic programming (including a witness), and unweighted
+interval scheduling by earliest finish. Run `python draft-stages/tts-algorithms-computability-complexity/examples/algorithm_design_lab.py --check`. Its independent oracles are sorted order
+statistics and enumerated compatible job subsets. Bounded input checks do not
+constitute universal correctness, linear-time, or greedy-optimality proofs;
+those appear as mathematical arguments in the manuscripts. No runtime library,
+additional Python package, or binary asset is needed.

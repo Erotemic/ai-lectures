@@ -1,0 +1,271 @@
+{
+  "schema_version": 1,
+  "lecture_id": "012000",
+  "transcript": "012000-greedy-algorithms-and-exchange.md",
+  "related_resources": [
+    {
+      "source_id": "acc-edmonds1971",
+      "reason": "Primary historical reference or established mathematics and pedagogy; see per-claim provenance for precise use."
+    },
+    {
+      "source_id": "acc-kt-dp",
+      "reason": "Primary historical reference or established mathematics and pedagogy; see per-claim provenance for precise use."
+    },
+    {
+      "source_id": "acc-kt-greedy",
+      "reason": "Primary historical reference or established mathematics and pedagogy; see per-claim provenance for precise use."
+    }
+  ],
+  "claim_evidence": [
+    {
+      "id": "acc-012-c001",
+      "anchor": "The objective is the largest number of pairwise compatible meetings, not their total duration, total importance, or profit.",
+      "source_ids": [
+        "acc-kt-greedy"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "KT chapter 4 section 4.1 max-cardinality interval scheduling",
+      "evidence_detail": "Support is attributed to the named source and scoped locator. The lecture explains it in original prose. Locator: KT chapter 4 section 4.1 max-cardinality interval scheduling."
+    },
+    {
+      "id": "acc-012-c002",
+      "anchor": "The earliest-start rule takes the long meeting and cannot take any of the other three.",
+      "source_ids": [
+        "acc-kt-greedy"
+      ],
+      "provenance": "original_example",
+      "source_locator": "Original four-interval earliest-start counterexample",
+      "evidence_detail": "Original mathematical work in the narrated example and non-spoken companion. Cited sources provide contextual theory, not authorship. Locator: Original four-interval earliest-start counterexample."
+    },
+    {
+      "id": "acc-012-c003",
+      "anchor": "Choosing it permits only one meeting overall, whereas choosing the first and third permits two.",
+      "source_ids": [
+        "acc-kt-greedy"
+      ],
+      "provenance": "original_example",
+      "source_locator": "Original shortest-duration counterexample",
+      "evidence_detail": "Original mathematical work in the narrated example and non-spoken companion. Cited sources provide contextual theory, not authorship. Locator: Original shortest-duration counterexample."
+    },
+    {
+      "id": "acc-012-c004",
+      "anchor": "Now choose the meeting that finishes earliest.",
+      "source_ids": [
+        "acc-kt-greedy"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "KT earliest-finish scheduling algorithm",
+      "evidence_detail": "Support is attributed to the named source and scoped locator. The lecture explains it in original prose. Locator: KT earliest-finish scheduling algorithm."
+    },
+    {
+      "id": "acc-012-c005",
+      "anchor": "Let g be a meeting with the earliest finish time among all meetings under consideration.",
+      "source_ids": [
+        "acc-kt-greedy"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Exchange proof setup, companion",
+      "evidence_detail": "Original mathematical work in the narrated example and non-spoken companion. Cited sources provide contextual theory, not authorship. Locator: Exchange proof setup, companion."
+    },
+    {
+      "id": "acc-012-c006",
+      "anchor": "Because g finishes no later than o, every later meeting in the optimal schedule starts after g finishes as well.",
+      "source_ids": [
+        "acc-kt-greedy"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Feasibility of first-interval replacement",
+      "evidence_detail": "Original mathematical work in the narrated example and non-spoken companion. Cited sources provide contextual theory, not authorship. Locator: Feasibility of first-interval replacement."
+    },
+    {
+      "id": "acc-012-c007",
+      "anchor": "there exists an optimal schedule that contains g.",
+      "source_ids": [
+        "acc-kt-greedy"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Exchange argument, companion",
+      "evidence_detail": "Original mathematical work in the narrated example and non-spoken companion. Cited sources provide contextual theory, not authorship. Locator: Exchange argument, companion."
+    },
+    {
+      "id": "acc-012-c008",
+      "anchor": "There is a second proof, often called staying ahead.",
+      "source_ids": [
+        "acc-kt-greedy"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "KT chapter 4, greedy stays ahead",
+      "evidence_detail": "Support is attributed to the named source and scoped locator. The lecture explains it in original prose. Locator: KT chapter 4, greedy stays ahead."
+    },
+    {
+      "id": "acc-012-c009",
+      "anchor": "If some feasible schedule contained more meetings than greedy, its next meeting after greedy stopped would still be available after greedy's last finish time.",
+      "source_ids": [
+        "acc-kt-greedy"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Staying-ahead termination contradiction",
+      "evidence_detail": "Original mathematical work in the narrated example and non-spoken companion. Cited sources provide contextual theory, not authorship. Locator: Staying-ahead termination contradiction."
+    },
+    {
+      "id": "acc-012-c010",
+      "anchor": "Sorting requires O of n log n comparisons in the usual comparison model; the scan is linear.",
+      "source_ids": [
+        "acc-kt-greedy"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "KT scheduling analysis, sort+scan",
+      "evidence_detail": "Support is attributed to the named source and scoped locator. The lecture explains it in original prose. Locator: KT scheduling analysis, sort+scan."
+    },
+    {
+      "id": "acc-012-c011",
+      "anchor": "The earliest-finish algorithm picks the two short meetings for total reward eight.",
+      "source_ids": [
+        "acc-kt-dp"
+      ],
+      "provenance": "original_example",
+      "source_locator": "Original weighted counterexample 4+4 vs 12",
+      "evidence_detail": "Original mathematical work in the narrated example and non-spoken companion. Cited sources provide contextual theory, not authorship. Locator: Original weighted counterexample 4+4 vs 12."
+    },
+    {
+      "id": "acc-012-c012",
+      "anchor": "A highest-weight-first rule takes the long meeting for eleven; the two compatible short meetings total twelve.",
+      "source_ids": [
+        "acc-kt-dp"
+      ],
+      "provenance": "original_example",
+      "source_locator": "Original heaviest-first counterexample 11 vs 6+6",
+      "evidence_detail": "Original mathematical work in the narrated example and non-spoken companion. Cited sources provide contextual theory, not authorship. Locator: Original heaviest-first counterexample 11 vs 6+6."
+    },
+    {
+      "id": "acc-012-c013",
+      "anchor": "Greedy correctness belongs to a problem specification together with a particular choice rule.",
+      "source_ids": [
+        "acc-kt-greedy"
+      ],
+      "provenance": "supported_interpretation",
+      "source_locator": "KT greedy proof prerequisites and objective distinction",
+      "evidence_detail": "Support is attributed to the named source and scoped locator. The lecture explains it in original prose. Locator: KT greedy proof prerequisites and objective distinction."
+    },
+    {
+      "id": "acc-012-c014",
+      "anchor": "The family includes the empty set, and whenever a set is independent, all its subsets are independent.",
+      "source_ids": [
+        "acc-edmonds1971"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Edmonds 1971 p.129 independent-set hereditary properties",
+      "evidence_detail": "Support is attributed to the named source and scoped locator. The lecture explains it in original prose. Locator: Edmonds 1971 p.129 independent-set hereditary properties."
+    },
+    {
+      "id": "acc-012-c015",
+      "anchor": "whenever one independent set has fewer elements than another, we can add at least one element from the larger set to the smaller and remain independent.",
+      "source_ids": [
+        "acc-edmonds1971"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Matroid augmentation axiom; independent-set definition",
+      "evidence_detail": "Support is attributed to the named source and scoped locator. The lecture explains it in original prose. Locator: Matroid augmentation axiom; independent-set definition."
+    },
+    {
+      "id": "acc-012-c016",
+      "anchor": "Another example is choosing edges of a graph without forming a cycle:",
+      "source_ids": [
+        "acc-edmonds1971"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Edmonds 1971 p.129 spanning tree/graphic matroid example",
+      "evidence_detail": "Support is attributed to the named source and scoped locator. The lecture explains it in original prose. Locator: Edmonds 1971 p.129 spanning tree/graphic matroid example."
+    },
+    {
+      "id": "acc-012-c017",
+      "anchor": "On a matroid, if every element has a nonnegative weight, sorting elements from highest to lowest weight and accepting each when it preserves independence yields a maximum-weight independent set.",
+      "source_ids": [
+        "acc-edmonds1971"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Edmonds 1971 pp.128-130; simplified weighted greedy theorem",
+      "evidence_detail": "Support is attributed to the named source and scoped locator. The lecture explains it in original prose. Locator: Edmonds 1971 pp.128-130; simplified weighted greedy theorem."
+    },
+    {
+      "id": "acc-012-c018",
+      "anchor": "Because the greedy element was the highest-weight feasible choice at that stage, the replacement does not decrease weight.",
+      "source_ids": [
+        "acc-edmonds1971"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Basis exchange argument, companion",
+      "evidence_detail": "Original mathematical work in the narrated example and non-spoken companion. Cited sources provide contextual theory, not authorship. Locator: Basis exchange argument, companion."
+    },
+    {
+      "id": "acc-012-c019",
+      "anchor": "The augmentation property would require that we can add one of the short intervals to the long one and remain feasible.",
+      "source_ids": [
+        "acc-edmonds1971"
+      ],
+      "provenance": "original_calculation",
+      "source_locator": "Original long/short interval matroid counterexample",
+      "evidence_detail": "Original mathematical work in the narrated example and non-spoken companion. Cited sources provide contextual theory, not authorship. Locator: Original long/short interval matroid counterexample."
+    },
+    {
+      "id": "acc-012-c020",
+      "anchor": "The independent-set family is hereditary but fails augmentation.",
+      "source_ids": [
+        "acc-edmonds1971"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Explicit failure of matroid axiom, companion",
+      "evidence_detail": "Original mathematical work in the narrated example and non-spoken companion. Cited sources provide contextual theory, not authorship. Locator: Explicit failure of matroid axiom, companion."
+    },
+    {
+      "id": "acc-012-c021",
+      "anchor": "Jack Edmonds's nineteen seventy-one paper, *Matroids and the Greedy Algorithm*, made a central connection between matroid structure, weighted optimization, and efficient greedy selection.",
+      "source_ids": [
+        "acc-edmonds1971"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Edmonds 1971 full text, title, introduction and sections 6-7",
+      "evidence_detail": "Support is attributed to the named source and scoped locator. The lecture explains it in original prose. Locator: Edmonds 1971 full text, title, introduction and sections 6-7."
+    },
+    {
+      "id": "acc-012-c022",
+      "anchor": "The theorem does not imply that every greedy algorithm is matroidal",
+      "source_ids": [
+        "acc-edmonds1971"
+      ],
+      "provenance": "supported_interpretation",
+      "source_locator": "Scope of theorem vs interval-specific greedy rule",
+      "evidence_detail": "Support is attributed to the named source and scoped locator. The lecture explains it in original prose. Locator: Scope of theorem vs interval-specific greedy rule."
+    },
+    {
+      "id": "acc-012-c023",
+      "anchor": "A robust proof gives an explicit transformation, checks feasibility after the transformation, and compares objective values.",
+      "source_ids": [
+        "acc-kt-greedy"
+      ],
+      "provenance": "editorial_inference",
+      "source_locator": "Proof methodology inferred from scheduling exchange theorem",
+      "evidence_detail": "Interpretive or methodological observation, not a directly quoted external theorem. Context and limitation: Proof methodology inferred from scheduling exchange theorem."
+    },
+    {
+      "id": "acc-012-c024",
+      "anchor": "For interval scheduling, checking compatibility with the last selected finish time is constant work after sorting.",
+      "source_ids": [
+        "acc-kt-greedy"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "KT earliest-finish implementation O(1) per step",
+      "evidence_detail": "Support is attributed to the named source and scoped locator. The lecture explains it in original prose. Locator: KT earliest-finish implementation O(1) per step."
+    },
+    {
+      "id": "acc-012-c025",
+      "anchor": "These tests are designed to catch errors in the code and in the worked examples.",
+      "source_ids": [
+        "acc-kt-greedy"
+      ],
+      "provenance": "editorial_inference",
+      "source_locator": "Finite-check scope of lab; not universal proof",
+      "evidence_detail": "Interpretive or methodological observation, not a directly quoted external theorem. Context and limitation: Finite-check scope of lab; not universal proof."
+    }
+  ]
+}
