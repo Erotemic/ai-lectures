@@ -1056,6 +1056,174 @@
       "url": "https://en.wikipedia.org/wiki/Isotropic_quadratic_form",
       "access": "free_no_login",
       "notes": "Vocabulary and examples for isotropic quadratic forms."
+    },
+    "nt-stoll-legendre": {
+      "title": "Michael Stoll, Introductory Number Theory, Sections 16–20 (2006)",
+      "kind": "university_course_material",
+      "url": "https://www.mathe2.uni-bayreuth.de/stoll/lecture-notes/IntroductoryNumberTheory.pdf",
+      "access": "free_no_login",
+      "notes": "Sections 16–18 provide the convex-body theorem, the 3D lattice construction at odd primes and 2, and the ellipsoidal-cylinder proof of Legendre ternary local-global solvability. PDF page images 33–34 inspected."
+    },
+    "nt-voight-hasse": {
+      "title": "John Voight, Quaternion Algebras, Chapter 14.3: Hasse–Minkowski theorem over the rationals (2021)",
+      "kind": "open_access_scholarly_textbook",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-030-56694-4_14",
+      "access": "free_no_login",
+      "notes": "The complete all-dimension proof via Legendre, an auxiliary prime from Dirichlet, and induction; section 14.3 was inspected in its open-access HTML text. Our presentation separates the local-value and prime-support steps."
+    },
+    "nt-conrad-selmer": {
+      "title": "Keith Conrad, Selmer’s Example",
+      "kind": "author_scholarly_notes",
+      "url": "https://kconrad.math.uconn.edu/blurbs/gradnumthy/selmerexample.pdf",
+      "access": "free_no_login",
+      "notes": "Proof that 3x^3+4y^3+5z^3=0 is locally solvable at every completion but has no nonzero rational solution. Used only as a cited contrasting counterexample, not presented as proved."
+    },
+    "nt-wiki-witt": {
+      "title": "Wikipedia, Witt’s theorem",
+      "kind": "encyclopedia_background",
+      "url": "https://en.wikipedia.org/wiki/Witt%27s_theorem",
+      "access": "free_no_login",
+      "notes": "Includes Witt cancellation; manuscript gives an explicit reflection proof for one-dimensional cancellation."
+    },
+    "nt-wiki-genus": {
+      "title": "Wikipedia, Genus of a quadratic form",
+      "kind": "encyclopedia_background",
+      "url": "https://en.wikipedia.org/wiki/Genus_of_a_quadratic_form",
+      "access": "free_no_login",
+      "notes": "Integral local equivalence versus global Z-equivalence and form genera."
+    },
+    "nt-wiki-dirichlet-ap-hm": {
+      "title": "Wikipedia, Dirichlet’s theorem on arithmetic progressions",
+      "kind": "encyclopedia_background",
+      "url": "https://en.wikipedia.org/wiki/Dirichlet%27s_theorem_on_arithmetic_progressions",
+      "access": "free_no_login",
+      "notes": "Background for using an auxiliary prime satisfying finitely many local residue constraints; the course proves Dirichlet previously in 022000."
+    },
+    "nt-mit-different-2021": {
+      "title": "Andrew V. Sutherland, MIT 18.785 Number Theory I, Lecture 12: The Different and the Discriminant (2021)",
+      "kind": "university_course_material",
+      "url": "https://ocw.mit.edu/courses/18-785-number-theory-i-fall-2021/mit18_785f21_lec12.pdf",
+      "access": "free_no_login",
+      "notes": "Author-instructor lecture text, pages 1, 2, 5, 7 and 10 inspected; defines codifferent, norm equality, discriminant and ramification tests; theorem statements for tame different and towers. New manuscripts supply their own derivations and proofs."
+    },
+    "nt-wiki-different": {
+      "title": "Wikipedia, Different ideal",
+      "kind": "encyclopedia_background",
+      "url": "https://en.wikipedia.org/wiki/Different_ideal",
+      "access": "free_no_login",
+      "notes": "Background definition and historical naming, not the primary proof source."
+    },
+    "nt-wiki-cyclotomic-field": {
+      "title": "Wikipedia, Cyclotomic field",
+      "kind": "encyclopedia_background",
+      "url": "https://en.wikipedia.org/wiki/Cyclotomic_field",
+      "access": "free_no_login",
+      "notes": "Prime-power cyclotomic fields, roots of unity and discriminants."
+    },
+    "nt-wiki-cyclotomic-polynomial": {
+      "title": "Wikipedia, Cyclotomic polynomial",
+      "kind": "encyclopedia_background",
+      "url": "https://en.wikipedia.org/wiki/Cyclotomic_polynomial",
+      "access": "free_no_login",
+      "notes": "Prime-power formula for cyclotomic polynomials and Eisenstein shifts."
+    },
+    "nt-stanford-cyclotomic": {
+      "title": "Stanford Pairing-Based Cryptography Notes: Cyclotomic Fields",
+      "kind": "scholarly_expository_notes",
+      "url": "https://crypto.stanford.edu/pbc/notes/numberfield/cyclo.html",
+      "access": "free_no_login",
+      "notes": "Independent explanatory notes on cyclotomic fields, conjugates, irreducibility, and rings of integers."
+    },
+    "nt-kedlaya-ramification": {
+      "title": "Kiran S. Kedlaya, Math 201A: Local Fields, sections on ramification filtrations and upper numbering",
+      "kind": "university_course_material",
+      "url": "https://kskedlaya.org/math201a-win10/math201a.pdf",
+      "access": "free_no_login",
+      "notes": "Author-maintained lecture notes on local ramification groups and Herbrand functions; used for theorem-level cross-checks."
+    },
+    "nt-berkeley-local-fields": {
+      "title": "Leonard Tomczak, Local Fields lecture notes, based on Rong Zhou's University of Michigan course (2022)",
+      "kind": "university_course_material",
+      "url": "https://math.berkeley.edu/~ltomczak/notes/Mich2022/LF_Notes.pdf",
+      "access": "free_no_login",
+      "notes": "Higher ramification, Herbrand upper numbering, and explicit cyclotomic filtration; see chapter 9 for quotient theorem and p-power examples."
+    },
+    "nt-sharifi-ramification": {
+      "title": "Romyar Sharifi, Algebraic Number Theory, Chapter 6: Ramification theory",
+      "kind": "author_university_lecture_notes",
+      "url": "https://www.math.ucla.edu/~sharifi/notes/algnum-ch06.html",
+      "access": "free_no_login",
+      "notes": "Independent source for lower ramification groups, different, and ramification breaks."
+    },
+    "nt-sharifi-cft": {
+      "title": "Romyar Sharifi, Algebraic Number Theory, Chapter 9: Local class field theory, Section 9.6",
+      "kind": "author_university_lecture_notes",
+      "url": "https://www.math.ucla.edu/~sharifi/notes/algnum-ch09.html",
+      "access": "free_no_login",
+      "notes": "Upper numbering, local reciprocity and unit filtration; general quotient and conductor identifications cited, not proved in this continuation."
+    },
+    "nt-lmfdb-artin-conductor": {
+      "title": "Andrew Sutherland, John Jones, and Andrew Booker, LMFDB reviewed knowl: Conductor of an Artin representation",
+      "kind": "reviewed_mathematical_reference",
+      "url": "https://www.lmfdb.org/knowledge/show/artin.conductor",
+      "access": "free_no_login",
+      "notes": "Gives Artin conductor exponent with lower ramification groups and invariant subspaces; reviewed entry last edited 2023."
+    },
+    "nt-wiki-ramification-group": {
+      "title": "Wikipedia, Ramification group",
+      "kind": "encyclopedia_background",
+      "url": "https://en.wikipedia.org/wiki/Ramification_group",
+      "access": "free_no_login",
+      "notes": "Background definitions of higher ramification groups and filtrations."
+    },
+    "nt-wiki-inertia-group": {
+      "title": "Wikipedia, Inertia group",
+      "kind": "encyclopedia_background",
+      "url": "https://en.wikipedia.org/wiki/Inertia_group",
+      "access": "free_no_login",
+      "notes": "Residue action and inertia group background."
+    },
+    "nt-wiki-hasse-arf": {
+      "title": "Wikipedia, Hasse–Arf theorem",
+      "kind": "encyclopedia_background",
+      "url": "https://en.wikipedia.org/wiki/Hasse%E2%80%93Arf_theorem",
+      "access": "free_no_login",
+      "notes": "Abelian upper-break integrality; mentioned as an external theorem, not proved."
+    },
+    "nt-wiki-artin-conductor": {
+      "title": "Wikipedia, Artin conductor",
+      "kind": "encyclopedia_background",
+      "url": "https://en.wikipedia.org/wiki/Artin_conductor",
+      "access": "free_no_login",
+      "notes": "Artin and Swan conductor terminology background."
+    },
+    "nt-wiki-swan-conductor": {
+      "title": "Wikipedia, Swan conductor",
+      "kind": "encyclopedia_background",
+      "url": "https://en.wikipedia.org/wiki/Swan_conductor",
+      "access": "free_no_login",
+      "notes": "Wild part of Artin conductor and representation-theoretic context."
+    },
+    "nt-wiki-conductor-discriminant": {
+      "title": "Wikipedia, Conductor–discriminant formula",
+      "kind": "encyclopedia_background",
+      "url": "https://en.wikipedia.org/wiki/Conductor%E2%80%93discriminant_formula",
+      "access": "free_no_login",
+      "notes": "General global statement and prime-power cyclotomic examples; preferred proof route is the regular representation and local Hilbert formula."
+    },
+    "nt-wiki-dirichlet-character": {
+      "title": "Wikipedia, Dirichlet character",
+      "kind": "encyclopedia_background",
+      "url": "https://en.wikipedia.org/wiki/Dirichlet_character",
+      "access": "free_no_login",
+      "notes": "Primitive conductor and character count background."
+    },
+    "nt-wiki-kronecker-weber": {
+      "title": "Wikipedia, Kronecker–Weber theorem",
+      "kind": "encyclopedia_background",
+      "url": "https://en.wikipedia.org/wiki/Kronecker%E2%80%93Weber_theorem",
+      "access": "free_no_login",
+      "notes": "Cited global abelian field embedding theorem; no proof claimed in this course continuation."
     }
   }
 }

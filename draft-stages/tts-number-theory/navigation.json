@@ -366,6 +366,126 @@
       "related_collections": [
         "analysis:survey"
       ]
+    },
+    {
+      "id": "quadratic-local-global",
+      "title": "Number Theory · Quadratic Forms and the Rational Local–Global Theorem",
+      "role": "deep_dive",
+      "parent": "survey",
+      "summary": "Finish the rational Hasse–Minkowski argument, starting with the two-adic case and Legendre’s ternary theorem. Distinguish rational representation and isometry from integral local–global failures.",
+      "chapters": [
+        {
+          "title": "Two-adic isotropy, a lattice argument, and the missing place",
+          "lectures": [
+            "033250",
+            "033500",
+            "033750"
+          ]
+        },
+        {
+          "title": "Auxiliary primes, the global induction, and its limits",
+          "lectures": [
+            "034000",
+            "034250",
+            "034500"
+          ]
+        }
+      ],
+      "assumed_background": [
+        "Local square classes, Hilbert symbols, and rational Hilbert reciprocity from the local-fields branch. The lattice argument uses 027500; the auxiliary-prime step uses the Chinese remainder theorem (002000) and Dirichlet’s theorem (022000), without requiring the later prime-number-theorem material."
+      ],
+      "tags": [
+        "Quadratic forms",
+        "Local-to-global principles",
+        "Hilbert symbols",
+        "Rational points"
+      ],
+      "related_collections": [
+        "number-theory:local-fields",
+        "number-theory:analytic-primes",
+        "number-theory:quadratic-forms",
+        "number-theory:algebraic-integers"
+      ]
+    },
+    {
+      "id": "different-discriminants",
+      "title": "Number Theory · Trace Duality, the Different, and Discriminants",
+      "role": "deep_dive",
+      "parent": "survey",
+      "summary": "Connect trace lattices to different ideals and exact ramification exponents, then work through quadratic and prime-power cyclotomic fields.",
+      "chapters": [
+        {
+          "title": "Trace duality, derivative formulas, and tame versus wild ramification",
+          "lectures": [
+            "034750",
+            "035000",
+            "035250"
+          ]
+        },
+        {
+          "title": "Towers, quadratic discriminants, and roots of unity",
+          "lectures": [
+            "035500",
+            "035750",
+            "036000"
+          ]
+        }
+      ],
+      "assumed_background": [
+        "Integral bases, trace and norm, fractional ideals, and Dedekind factorization from the algebraic-integers branch; finite p-adic extensions, residue degree, ramification, and Eisenstein generators from 031750–032000. Hilbert-symbol and Hasse–Minkowski proofs are separate subjects, not required steps for this branch."
+      ],
+      "tags": [
+        "Algebraic number theory",
+        "Trace pairings",
+        "Different and codifferent",
+        "Discriminants",
+        "Ramification"
+      ],
+      "related_collections": [
+        "number-theory:algebraic-integers",
+        "number-theory:local-fields",
+        "number-theory:higher-ramification"
+      ]
+    },
+    {
+      "id": "higher-ramification",
+      "title": "Number Theory · Higher Ramification and Character Conductors",
+      "role": "deep_dive",
+      "parent": "survey",
+      "summary": "Read ramification depth through automorphisms, cyclotomic examples, and characters. Preserve the manuscripts’ distinction between proved examples and cited general Herbrand, Kronecker–Weber, and conductor-integrality theorems.",
+      "chapters": [
+        {
+          "title": "Lower groups, Hilbert’s different formula, and cyclotomic jumps",
+          "lectures": [
+            "036250",
+            "036500",
+            "036750"
+          ]
+        },
+        {
+          "title": "Upper numbering, Artin and Swan conductors, and discriminants",
+          "lectures": [
+            "037000",
+            "037250",
+            "037500"
+          ]
+        }
+      ],
+      "assumed_background": [
+        "Finite Galois extensions of p-adic fields, their rings of integers and ramification; the different and prime-power cyclotomic discriminant calculations in 035000–036000. The final two lectures use finite-group characters and character orthogonality as developed in 016000. General Herbrand quotient compatibility and Kronecker–Weber remain cited boundaries where the manuscripts say so."
+      ],
+      "tags": [
+        "Algebraic number theory",
+        "Galois theory",
+        "Ramification groups",
+        "Artin and Swan conductors",
+        "Representation theory"
+      ],
+      "related_collections": [
+        "number-theory:different-discriminants",
+        "number-theory:local-fields",
+        "number-theory:analytic-primes"
+      ]
     }
   ]
 }

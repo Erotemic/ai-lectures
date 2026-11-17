@@ -152,3 +152,37 @@ This seven-lecture batch rotates across five areas rather than staying with one 
 - `060000`: **Setne: The Book from the Tomb** (1,959 spoken words; `metadata/060000.json`). Ancient Egyptian fiction written in Ptolemaic era about a much older royal prince; missing papyrus introduction is reconstructed, not recovered.
 
 Primary-text boundaries: Euripides lines 1–1419; *Buddhacarita* Sanskrit cantos I–XIV plus a **separately identified Chinese** continuation XV–XXVIII; full received Chinese *Li Sao* with the caution against equating narrator and documented Qu Yuan biography; Avestan *Yasht* 19 in episodic order; Demotic *Setne I* with the opening two pages lost. Source and orientation links are in each manuscript companion and source catalog. No audio or binary images are included.
+
+## Ancient narratives eighth expansion — geographic rotation (2026-11-16)
+
+Nine source-linked, independently understandable lectures from five areas, ordered as a geographic rotation in `navigation.json`. The Hebrew books and Greek play have complete surviving narrative arcs; the Hittite texts preserve damage and two distinct Illuyanka variants; the Chinese and Vedic selections are independent poems, not forced into a single invented story.
+
+- `061000` **Ruth: The Road Back to Bethlehem** — 1,644 spoken words; `061000-ruth-the-road-back-to-bethlehem.md`; companion `metadata/061000.json`. Four-chapter Hebrew literary witness. Levirate redemption/land law is interpreted, not presented as an unambiguous code; threshing floor sexual action not invented.
+- `062000` **Jonah: The City and the Shade** — 1,401 spoken words; `062000-jonah-the-city-and-the-shade.md`; companion `metadata/062000.json`. Great fish is not specifically named a whale; chapter 4 plant species disputed; the final theological question is intentionally unanswered.
+- `063000` **Bacchae: The God at the Gate** — 1,639 spoken words; `063000-bacchae-the-god-at-the-gate.md`; companion `metadata/063000.json`. Dionysus and Pentheus are mythic characters; second messenger account and Agave recognition distinct; lacunose exodos not treated as continuous unbroken original.
+- `064000` **Kumarbi: The Throne of Heaven** — 1,193 spoken words; `064000-kumarbi-the-throne-of-heaven.md`; companion `metadata/064000.json`. CTH 344 damaged after well-attested succession opening; Storm-god birth reconstruction, stone substitution and later succession are marked with their uncertainties.
+- `065000` **Illuyanka: Two Ways to Defeat a Serpent** — 1,362 spoken words; `065000-illuyanka-two-ways-to-defeat-a-serpent.md`; companion `metadata/065000.json`. First version Inara, Hupasiya, banquet, house and damaged personal ending; second version heart, eyes, marriage, son killed. No merging.
+- `066000` **Shijing: The Fields and the Voices** — 1,430 spoken words; `066000-shijing-the-fields-and-the-voices.md`; companion `metadata/066000.json`. Five individually numbered poems and distinct voices; received anthology and later Confucian commentary distinguished from first-performance claims.
+- `067000` **Shijing: Ancestors and the Land** — 1,416 spoken words; `067000-shijing-ancestors-and-the-land.md`; companion `metadata/067000.json`. Four ritual praise poems, distinct from historical eyewitness evidence; narrative units are not fused into a fabricated continuous epic.
+- `068000` **Rigveda: Urvashi and Pururavas at the Parting** — 1,167 spoken words; `068000-rigveda-urvashi-and-pururavas.md`; companion `metadata/068000.json`. Only the Vedic hymn is narrated as primary; later Brahmana and classical Sanskrit additions are identified as later, with verse-voice ambiguities acknowledged.
+- `069000` **Rigveda: The Messenger and the Forbidden Proposal** — 1,268 spoken words; `069000-rigveda-sarama-yama-and-yami.md`; companion `metadata/069000.json`. No combination into one ancient myth; the first ends with the release of the cattle as invoked, and the second ends with refusal rather than an invented subsequent event.
+
+Claim-level anchors match the extracted spoken text. Source locators identify canonical chapters, Greek lines, Hittite text catalogues and manuscript loci, numbered Shijing odes, and Rigveda hymns/verses. No generated audio or images are included.
+
+## Major world literary gaps — first importance-first installment (2026-11-16)
+
+The earlier queue is superseded for priority purposes by [WORLD_CLASSICS_GAP_AUDIT.md](WORLD_CLASSICS_GAP_AUDIT.md). Nine additional lecture manuscripts cover four consequential world classics, preserving explicitly named historical textual witnesses and marking early-medieval works as such. No generated audio or binary images are included.
+
+- `070000` **Bhagavad Gita I: The Warrior Who Lowered His Bow** — 1,729 spoken words; `070000-bhagavad-gita-the-warrior-who-lowered-his-bow.md`; claim sources `metadata/070000.json`.
+- `071000` **Bhagavad Gita II: The Form and the Choice** — 1,527 spoken words; `071000-bhagavad-gita-the-form-and-the-choice.md`; claim sources `metadata/071000.json`.
+- `072000` **Beowulf I: The Hall and the Dark Water** — 1,635 spoken words; `072000-beowulf-the-hall-and-the-dark-water.md`; claim sources `metadata/072000.json`.
+- `073000` **Beowulf II: The Dragon and the Last Fire** — 1,572 spoken words; `073000-beowulf-the-dragon-and-the-last-fire.md`; claim sources `metadata/073000.json`.
+- `074000` **Thousand and One Nights I: The Woman Who Told Stories** — 1,385 spoken words; `074000-thousand-and-one-nights-the-woman-who-told-stories.md`; claim sources `metadata/074000.json`.
+- `075000` **Thousand and One Nights II: The Fisherman and the Sealed Jar** — 1,476 spoken words; `075000-thousand-and-one-nights-the-fisherman-and-the-sealed-jar.md`; claim sources `metadata/075000.json`.
+- `076000` **Kojiki I: The Islands and the Hidden Sun** — 1,233 spoken words; `076000-kojiki-the-islands-and-the-hidden-sun.md`; claim sources `metadata/076000.json`.
+- `077000` **Kojiki II: The Hare and the Heavenly Descent** — 1,311 spoken words; `077000-kojiki-the-hare-and-the-heavenly-descent.md`; claim sources `metadata/077000.json`.
+- `078000` **Kojiki III: The Road to Yamato and the White Bird** — 1,292 spoken words; `078000-kojiki-the-road-to-yamato-and-the-white-bird.md`; claim sources `metadata/078000.json`.
+
+**Coverage labels:** Gita 1–18 and the complete received Beowulf poem; initial *Nights* selections only; selected narrative arcs from all three *Kojiki* books, not an exhaustive retelling. Medieval composition and modern translation dates never become claims about prehistoric antiquity.
+
+Integration checkpoint (17 November 2026):76 indexed manuscripts. The 18 additions 061000–078000 preserve their source boundaries. Beowulf, the Nights selections, and Kojiki are reachable from the medieval route; the earlier received texts join the ancient-narratives route. No audio is included.

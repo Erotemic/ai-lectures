@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "lecture_id": "037250",
+  "transcript": "037250-artin-and-swan-conductors.md",
+  "related_resources": [
+    {
+      "source_id": "nt-lmfdb-artin-conductor",
+      "reason": "Gives Artin conductor exponent with lower ramification groups and invariant subspaces; reviewed entry last edited 2023."
+    },
+    {
+      "source_id": "nt-sharifi-cft",
+      "reason": "Upper numbering, local reciprocity and unit filtration; general quotient and conductor identifications cited, not proved in this continuation."
+    },
+    {
+      "source_id": "nt-kedlaya-ramification",
+      "reason": "Author-maintained lecture notes on local ramification groups and Herbrand functions; used for theorem-level cross-checks."
+    },
+    {
+      "source_id": "nt-wiki-artin-conductor",
+      "reason": "Artin and Swan conductor terminology background."
+    },
+    {
+      "source_id": "nt-wiki-swan-conductor",
+      "reason": "Wild part of Artin conductor and representation-theoretic context."
+    }
+  ],
+  "mathematical_claims": [
+    {
+      "id": "037250-definition",
+      "anchor": "The local Artin conductor exponent is the sum, over i from zero onward, of the codimension of the vectors fixed by G sub i, multiplied by the size of G sub i divided by the size of G zero.",
+      "source_ids": [
+        "nt-lmfdb-artin-conductor",
+        "nt-wiki-artin-conductor"
+      ],
+      "source_locator": "Local conductor formula.",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "037250-swan",
+      "anchor": "Thus the Artin conductor is the tame contribution plus the Swan conductor.",
+      "source_ids": [
+        "nt-lmfdb-artin-conductor",
+        "nt-wiki-swan-conductor"
+      ],
+      "source_locator": "Wild terms i>=1.",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "037250-directsum",
+      "anchor": "the conductor of the direct sum is the sum of the two conductors.",
+      "source_ids": [
+        "nt-lmfdb-artin-conductor"
+      ],
+      "source_locator": "Additivity of fixed-space codimensions.",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "037250-upperbreak",
+      "anchor": "for a ramified one-dimensional character, the conductor exponent is one plus its final upper ramification break.",
+      "source_ids": [
+        "nt-sharifi-cft",
+        "nt-lmfdb-artin-conductor"
+      ],
+      "source_locator": "Character values 0/1 for fixed space; Herbrand function.",
+      "audit_status": "reading_reference_recorded"
+    }
+  ],
+  "historical_claims": []
+}

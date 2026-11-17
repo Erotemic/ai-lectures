@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "lecture_id": "033750",
+  "transcript": "033750-hilbert-reciprocity-and-one-missing-place.md",
+  "related_resources": [
+    {
+      "source_id": "nt-voight-hasse",
+      "reason": "The complete all-dimension proof via Legendre, an auxiliary prime from Dirichlet, and induction; section 14.3 was inspected in its open-access HTML text. Our presentation separates the local-value and prime-support steps."
+    },
+    {
+      "source_id": "nt-ntu-hilbert",
+      "reason": "Definitions, explicit formulas at odd primes and p=2, and rational Hilbert reciprocity. Pages 1–2 inspected; manuscript derives signs through norm groups."
+    },
+    {
+      "source_id": "nt-conrad-hilbert-history",
+      "reason": "Historical context on Hilbert’s product-form reinterpretation of quadratic reciprocity; source note without relying on speculative history."
+    },
+    {
+      "source_id": "nt-wiki-hasse-minkowski",
+      "reason": "Statement of the local-global principle for quadratic forms."
+    },
+    {
+      "source_id": "nt-wiki-quadratic-form",
+      "reason": "Diagonalization, isotropy, and quadratic forms background."
+    }
+  ],
+  "mathematical_claims": [
+    {
+      "id": "033750-m01",
+      "anchor": "the Hilbert symbol with entries negative a b and negative a c equals plus one.",
+      "source_ids": [
+        "nt-ntu-hilbert",
+        "nt-voight-hasse"
+      ],
+      "source_locator": "Local ternary isotropy via Hilbert symbols",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "033750-m02",
+      "anchor": "the product of their Hilbert symbols over every prime and the real place is plus one.",
+      "source_ids": [
+        "nt-ntu-hilbert",
+        "nt-conrad-hilbert-history"
+      ],
+      "source_locator": "Hilbert rational reciprocity",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "033750-m03",
+      "anchor": "Combining the two results gives the all-but-one-place theorem",
+      "source_ids": [
+        "nt-voight-hasse"
+      ],
+      "source_locator": "All-but-one-place ternary consequence",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "033750-m04",
+      "anchor": "an isotropic nondegenerate quadratic form is universal as a value-representing form.",
+      "source_ids": [
+        "nt-voight-hasse"
+      ],
+      "source_locator": "Hyperbolic plane value representation lemma",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "033750-m05",
+      "anchor": "then A and B represent a common nonzero value.",
+      "source_ids": [
+        "nt-voight-hasse"
+      ],
+      "source_locator": "Local common value lemma",
+      "audit_status": "reading_reference_recorded"
+    }
+  ],
+  "historical_claims": []
+}

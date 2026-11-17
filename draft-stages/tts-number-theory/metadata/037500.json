@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "lecture_id": "037500",
+  "transcript": "037500-conductor-discriminant-formula.md",
+  "related_resources": [
+    {
+      "source_id": "nt-lmfdb-artin-conductor",
+      "reason": "Gives Artin conductor exponent with lower ramification groups and invariant subspaces; reviewed entry last edited 2023."
+    },
+    {
+      "source_id": "nt-sharifi-cft",
+      "reason": "Upper numbering, local reciprocity and unit filtration; general quotient and conductor identifications cited, not proved in this continuation."
+    },
+    {
+      "source_id": "nt-wiki-conductor-discriminant",
+      "reason": "General global statement and prime-power cyclotomic examples; preferred proof route is the regular representation and local Hilbert formula."
+    },
+    {
+      "source_id": "nt-wiki-dirichlet-character",
+      "reason": "Primitive conductor and character count background."
+    },
+    {
+      "source_id": "nt-wiki-kronecker-weber",
+      "reason": "Cited global abelian field embedding theorem; no proof claimed in this course continuation."
+    },
+    {
+      "source_id": "nt-wiki-cyclotomic-field",
+      "reason": "Prime-power cyclotomic fields, roots of unity and discriminants."
+    }
+  ],
+  "mathematical_claims": [
+    {
+      "id": "037500-reg",
+      "anchor": "the regular representation's Artin conductor exponent equals the discriminant exponent.",
+      "source_ids": [
+        "nt-lmfdb-artin-conductor",
+        "nt-sharifi-ramification"
+      ],
+      "source_locator": "Regular invariant dimensions and Hilbert different formula.",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "037500-local",
+      "anchor": "the local conductor–discriminant formula",
+      "source_ids": [
+        "nt-lmfdb-artin-conductor",
+        "nt-wiki-conductor-discriminant"
+      ],
+      "source_locator": "Decompose complex regular representation of abelian G.",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "037500-global",
+      "anchor": "The global conductor–discriminant formula says that the absolute value of the discriminant of F is the product of those positive conductors.",
+      "source_ids": [
+        "nt-wiki-conductor-discriminant",
+        "nt-sharifi-cft"
+      ],
+      "source_locator": "General abelian global formula: uses Kronecker-Weber and local character conductor identification.",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "037500-sign",
+      "anchor": "The sign of the discriminant is negative one to the number of conjugate pairs of complex embeddings.",
+      "source_ids": [
+        "nt-wiki-conductor-discriminant"
+      ],
+      "source_locator": "Archimedean signature factor.",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "037500-count",
+      "anchor": "The answer is twenty-four.",
+      "source_ids": [
+        "nt-wiki-cyclotomic-field",
+        "nt-wiki-conductor-discriminant"
+      ],
+      "source_locator": "Character conductor count at 16.",
+      "audit_status": "reading_reference_recorded"
+    }
+  ],
+  "historical_claims": []
+}

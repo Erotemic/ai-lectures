@@ -61,7 +61,25 @@
     "hilbert-symbol-odd-primes",
     "hilbert-symbol-at-two",
     "local-quadratic-forms",
-    "hilbert-reciprocity"
+    "hilbert-reciprocity",
+    "two-adic-five-variable-isotropy",
+    "legendre-ternary-proof",
+    "all-but-one-ternary-reciprocity",
+    "auxiliary-prime-square-class-interpolation",
+    "hasse-minkowski-global-proof",
+    "quadratic-form-global-consequences",
+    "trace-pairing-and-discriminant",
+    "different-and-monogenic-derivatives",
+    "tame-wild-ramification-different",
+    "different-discriminant-towers",
+    "quadratic-discriminants-at-two",
+    "prime-power-cyclotomic-discriminants",
+    "higher-ramification-lower-filtration",
+    "hilberts-different-formula",
+    "cyclotomic-higher-ramification-examples",
+    "upper-numbering-herbrand",
+    "artin-swan-conductors",
+    "conductor-discriminant-identity"
   ],
   "lectures": [
     {
@@ -849,6 +867,275 @@
         "Hilbert symbols",
         "Reciprocity",
         "Local-to-global principles"
+      ]
+    },
+    {
+      "id": "033250",
+      "title": "Five Variables at the Prime Two",
+      "section": "two-adic-five-variable-isotropy",
+      "file": "033250-five-variables-over-the-two-adics.md",
+      "spoken_words": 1538,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 10.6,
+      "tags": [
+        "p-Adic analysis",
+        "Quadratic forms",
+        "Local solvability",
+        "Hensel lifting"
+      ]
+    },
+    {
+      "id": "033500",
+      "title": "Legendre's Ternary Theorem: A Lattice Inside a Cylinder",
+      "section": "legendre-ternary-proof",
+      "file": "033500-legendre-and-a-lattice-in-a-cylinder.md",
+      "spoken_words": 1711,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 11.8,
+      "tags": [
+        "Quadratic forms",
+        "Geometry of numbers",
+        "Local-to-global principles",
+        "Lattice points"
+      ]
+    },
+    {
+      "id": "033750",
+      "title": "A Local Condition You Can Leave Unchecked",
+      "section": "all-but-one-ternary-reciprocity",
+      "file": "033750-hilbert-reciprocity-and-one-missing-place.md",
+      "spoken_words": 1592,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 11.0,
+      "tags": [
+        "Quadratic forms",
+        "Hilbert symbols",
+        "Reciprocity",
+        "Local-to-global principles"
+      ]
+    },
+    {
+      "id": "034000",
+      "title": "The Auxiliary Prime: Matching Local Values with One Rational Number",
+      "section": "auxiliary-prime-square-class-interpolation",
+      "file": "034000-choosing-one-auxiliary-prime.md",
+      "spoken_words": 1613,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 11.1,
+      "tags": [
+        "Congruences",
+        "Prime distribution",
+        "Quadratic forms",
+        "Local-to-global principles"
+      ]
+    },
+    {
+      "id": "034250",
+      "title": "Hasse–Minkowski: From Every Completion to One Rational Zero",
+      "section": "hasse-minkowski-global-proof",
+      "file": "034250-the-complete-hasse-minkowski-theorem.md",
+      "spoken_words": 1931,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 13.3,
+      "tags": [
+        "Quadratic forms",
+        "Local-to-global principles",
+        "Local solvability"
+      ]
+    },
+    {
+      "id": "034500",
+      "title": "What Hasse–Minkowski Gives Us, and What It Does Not",
+      "section": "quadratic-form-global-consequences",
+      "file": "034500-quadratic-values-isometry-and-integral-limits.md",
+      "spoken_words": 1694,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 11.7,
+      "tags": [
+        "Quadratic forms",
+        "Rational points",
+        "Local-to-global principles",
+        "Counterexamples"
+      ]
+    },
+    {
+      "id": "034750",
+      "title": "Trace Pairings, Dual Lattices, and Discriminants",
+      "section": "trace-pairing-and-discriminant",
+      "file": "034750-trace-pairings-and-discriminants.md",
+      "spoken_words": 1587,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 10.9,
+      "tags": [
+        "Algebraic number theory",
+        "Linear algebra",
+        "Trace pairings",
+        "Discriminants"
+      ]
+    },
+    {
+      "id": "035000",
+      "title": "The Codifferent and Why a Polynomial Derivative Appears",
+      "section": "different-and-monogenic-derivatives",
+      "file": "035000-the-codifferent-and-polynomial-derivatives.md",
+      "spoken_words": 1745,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 12.0,
+      "tags": [
+        "Algebraic number theory",
+        "Trace pairings",
+        "Different and codifferent",
+        "Discriminants"
+      ]
+    },
+    {
+      "id": "035250",
+      "title": "Ramification Exponents: Tame Primes, Wild Primes, and the Different",
+      "section": "tame-wild-ramification-different",
+      "file": "035250-tame-and-wild-local-different.md",
+      "spoken_words": 1658,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 11.4,
+      "tags": [
+        "Algebraic number theory",
+        "p-Adic analysis",
+        "Ramification",
+        "Discriminants"
+      ]
+    },
+    {
+      "id": "035500",
+      "title": "Discriminants in Towers: Local Exponents and Global Norms",
+      "section": "different-discriminant-towers",
+      "file": "035500-discriminants-in-towers-and-at-primes.md",
+      "spoken_words": 1715,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 11.8,
+      "tags": [
+        "Algebraic number theory",
+        "Field extensions",
+        "Ramification",
+        "Discriminants"
+      ]
+    },
+    {
+      "id": "035750",
+      "title": "Quadratic Discriminants and the Prime Two",
+      "section": "quadratic-discriminants-at-two",
+      "file": "035750-quadratic-discriminants-and-the-prime-two.md",
+      "spoken_words": 1732,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 11.9,
+      "tags": [
+        "Quadratic number fields",
+        "Ramification",
+        "Discriminants",
+        "p-Adic analysis"
+      ]
+    },
+    {
+      "id": "036000",
+      "title": "Roots of Unity, Ramification, and Cyclotomic Discriminants",
+      "section": "prime-power-cyclotomic-discriminants",
+      "file": "036000-cyclotomic-ramification-and-discriminants.md",
+      "spoken_words": 1720,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 11.9,
+      "tags": [
+        "Algebraic number theory",
+        "Cyclotomic fields",
+        "Ramification",
+        "Discriminants"
+      ]
+    },
+    {
+      "id": "036250",
+      "title": "Higher Ramification Groups: How Closely an Automorphism Fixes an Integer",
+      "section": "higher-ramification-lower-filtration",
+      "file": "036250-higher-ramification-groups-from-congruences.md",
+      "spoken_words": 1677,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 11.6,
+      "tags": [
+        "Algebraic number theory",
+        "p-Adic analysis",
+        "Galois theory",
+        "Ramification groups"
+      ]
+    },
+    {
+      "id": "036500",
+      "title": "Hilbert's Different Formula: Counting the Depth of Wild Ramification",
+      "section": "hilberts-different-formula",
+      "file": "036500-hilberts-different-formula.md",
+      "spoken_words": 1661,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 11.5,
+      "tags": [
+        "Algebraic number theory",
+        "Ramification groups",
+        "Different and codifferent",
+        "Discriminants"
+      ]
+    },
+    {
+      "id": "036750",
+      "title": "Wild Ramification in Cyclotomic Towers: Ninth and Sixteenth Roots",
+      "section": "cyclotomic-higher-ramification-examples",
+      "file": "036750-cyclotomic-ramification-jumps.md",
+      "spoken_words": 1744,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 12.0,
+      "tags": [
+        "Cyclotomic fields",
+        "p-Adic analysis",
+        "Ramification groups",
+        "Discriminants"
+      ]
+    },
+    {
+      "id": "037000",
+      "title": "Upper Ramification Numbering: A Clock That Respects Quotients",
+      "section": "upper-numbering-herbrand",
+      "file": "037000-upper-numbering-and-herbrand.md",
+      "spoken_words": 1677,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 11.6,
+      "tags": [
+        "Galois theory",
+        "Ramification groups",
+        "Field extensions",
+        "Herbrand functions"
+      ]
+    },
+    {
+      "id": "037250",
+      "title": "Artin and Swan Conductors: Ramification Seen by a Representation",
+      "section": "artin-swan-conductors",
+      "file": "037250-artin-and-swan-conductors.md",
+      "spoken_words": 1654,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 11.4,
+      "tags": [
+        "Representation theory",
+        "Galois theory",
+        "Ramification groups",
+        "Artin and Swan conductors"
+      ]
+    },
+    {
+      "id": "037500",
+      "title": "The Conductor-Discriminant Formula: One Field, Many Characters",
+      "section": "conductor-discriminant-identity",
+      "file": "037500-conductor-discriminant-formula.md",
+      "spoken_words": 1960,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 13.5,
+      "tags": [
+        "Representation theory",
+        "Cyclotomic fields",
+        "Discriminants",
+        "Artin and Swan conductors"
       ]
     }
   ],

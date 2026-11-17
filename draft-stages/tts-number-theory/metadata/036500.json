@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "lecture_id": "036500",
+  "transcript": "036500-hilberts-different-formula.md",
+  "related_resources": [
+    {
+      "source_id": "nt-kedlaya-ramification",
+      "reason": "Author-maintained lecture notes on local ramification groups and Herbrand functions; used for theorem-level cross-checks."
+    },
+    {
+      "source_id": "nt-berkeley-local-fields",
+      "reason": "Higher ramification, Herbrand upper numbering, and explicit cyclotomic filtration; see chapter 9 for quotient theorem and p-power examples."
+    },
+    {
+      "source_id": "nt-sharifi-ramification",
+      "reason": "Independent source for lower ramification groups, different, and ramification breaks."
+    },
+    {
+      "source_id": "nt-mit-different-2021",
+      "reason": "Author-instructor lecture text, pages 1, 2, 5, 7 and 10 inspected; defines codifferent, norm equality, discriminant and ramification tests; theorem statements for tame different and towers. New manuscripts supply their own derivations and proofs."
+    },
+    {
+      "source_id": "nt-wiki-different",
+      "reason": "Background definition and historical naming, not the primary proof source."
+    }
+  ],
+  "mathematical_claims": [
+    {
+      "id": "036500-diffproduct",
+      "anchor": "the valuation of pi minus sigma of pi.",
+      "source_ids": [
+        "nt-mit-different-2021",
+        "nt-berkeley-local-fields"
+      ],
+      "source_locator": "Monogenic different and product over inertia.",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "036500-hilbert",
+      "anchor": "d is the sum, from i equals zero onward, of the size of G sub i minus one.",
+      "source_ids": [
+        "nt-kedlaya-ramification",
+        "nt-berkeley-local-fields"
+      ],
+      "source_locator": "Hilbert different formula via finite double counting.",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "036500-tame",
+      "anchor": "The entire sum is just e minus one.",
+      "source_ids": [
+        "nt-sharifi-ramification",
+        "nt-mit-different-2021"
+      ],
+      "source_locator": "Trivial wild groups iff tame.",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "036500-wild",
+      "anchor": "a wildly ramified Galois extension has different exponent at least e plus p minus two.",
+      "source_ids": [
+        "nt-kedlaya-ramification",
+        "nt-sharifi-ramification"
+      ],
+      "source_locator": "G1 is a nontrivial finite p-group.",
+      "audit_status": "reading_reference_recorded"
+    }
+  ],
+  "historical_claims": []
+}

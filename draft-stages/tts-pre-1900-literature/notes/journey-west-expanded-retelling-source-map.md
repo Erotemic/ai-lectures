@@ -4,19 +4,19 @@ This is a separate literary retelling of the conventional 100-chapter Ming novel
 
 ## Current playback index after consolidation
 
-The expanded retelling is complete through selected-witness chapter 87 and remains in progress. There are now 72 playable manuscripts: 13 consolidated manuscripts through chapter 21 (retaining the former 61 writing components), and fifty-nine continuous-arc manuscripts for chapters 22–87. Continue with chapter 88 using [the current writer handoff](journey-west-continuation-handoff.md). Subsequent IDs have not been reserved.
+The expanded retelling now covers all 100 selected-witness chapters in 85 playable manuscripts: 13 consolidated manuscripts through chapter 21 (retaining the former 61 writing components), and seventy-two continuous-arc manuscripts for chapters 22–100. The [final continuity audit](journey-west-final-continuity-audit.md) records chapter and metadata coverage, boundaries, and edition caveats.
 
 | Current playback ID | Selected-witness chapters | Current manuscript | Minutes at 145 wpm |
 | --- | --- | --- | ---: |
 | 441000 | 1 | [Journey to the West — The Stone Monkey, the Waterfall, and the Fear of Death](../441000-journey-west-expanded-the-stone-king.md) | 13.7 |
-| 442000 | 2 | [Journey to the West — The Midnight Lesson and the Demon King of Havoc](../442000-journey-west-expanded-subodhi-and-the-demon-king.md) | 12.6 |
+| 442000 | 2 | [Journey to the West — The Midnight Lesson and the Demon King of Havoc](../442000-journey-west-expanded-subodhi-and-the-demon-king.md) | 12.7 |
 | 443000 | 3 | [Journey to the West — The Dragon King’s Treasure and the Registers of Death](../443000-journey-west-expanded-dragons-and-death-ledgers.md) | 15.0 |
 | 444000 | 4–5 | [Journey to the West expanded II: heavenly office, the peaches, and the banquet](../444000-journey-to-the-west-expanded-ii-heavenly-office-the-peaches-and-the-banquet.md) | 41.7 |
 | 448000 | 6–7 | [Journey to the West expanded III: Erlang, the furnace, and the Buddha’s palm](../448000-journey-to-the-west-expanded-iii-erlang-the-furnace-and-the-buddhas-palm.md) | 38.2 |
 | 452000 | 8–9, with the edition-sensitive River Child insertion | [Journey to the West expanded IV: the scripture mission and the River Child](../452000-journey-to-the-west-expanded-iv-the-scripture-mission-and-the-river-child.md) | 41.2 |
 | 458000 | 10–12 | [Journey to the West expanded V: the dragon wager, the underworld, and the pilgrim’s oath](../458000-journey-to-the-west-expanded-v-the-dragon-wager-the-underworld-and-the-pilgrims-oath.md) | 54.6 |
-| 466000 | 13–14 | [Journey to the West: beyond the frontier, the freed disciple, and the binding fillet](../466000-journey-to-the-west-beyond-the-frontier-the-freed-disciple-and-the-binding-fillet.md) | 46.3 |
-| 473000 | 15–16 | [Journey to the West: the dragon horse and the burning monastery](../473000-journey-to-the-west-the-dragon-horse-and-the-burning-monastery.md) | 49.2 |
+| 466000 | 13–14 | [Journey to the West: beyond the frontier, the freed disciple, and the binding fillet](../466000-journey-to-the-west-beyond-the-frontier-the-freed-disciple-and-the-binding-fillet.md) | 46.4 |
+| 473000 | 15–16 | [Journey to the West: the dragon horse and the burning monastery](../473000-journey-to-the-west-the-dragon-horse-and-the-burning-monastery.md) | 49.3 |
 | 480000 | 17 | [Journey to the West: Black Wind Mountain and the recovery of the robe](../480000-journey-to-the-west-black-wind-mountain-and-the-recovery-of-the-robe.md) | 27.2 |
 | 484000 | 18 | [Journey to the West: the captive daughter and the unwanted husband of Gao Village](../484000-journey-to-the-west-the-captive-daughter-and-the-unwanted-husband-of-gao-village.md) | 28.1 |
 | 488000 | 19 | [Journey to the West: Zhu Bajie joins the pilgrimage and the Heart Sutra warning](../488000-journey-to-the-west-zhu-bajie-joins-the-pilgrimage-and-the-heart-sutra-warning.md) | 38.3 |
@@ -80,8 +80,21 @@ The expanded retelling is complete through selected-witness chapter 87 and remai
 | 558000 | 85 | [Journey to the West: The shaved court and the hidden mist](../558000-journey-to-the-west-the-shaved-court-and-the-hidden-mist.md) | 14.8 |
 | 559000 | 86 | [Journey to the West: The false head and the woodcutter's mother](../559000-journey-to-the-west-the-false-head-and-the-woodcutters-mother.md) | 15.5 |
 | 560000 | 87 | [Journey to the West: The rain over Fengxian](../560000-journey-to-the-west-the-rain-over-fengxian.md) | 16.8 |
+| 561000 | 88 | [Journey to the West: The three princes of Jade Flower](../561000-journey-to-the-west-the-three-princes-of-jade-flower.md) | 12.2 |
+| 562000 | 89 | [Journey to the West: The Yellow Lion's rake banquet](../562000-journey-to-the-west-the-yellow-lions-rake-banquet.md) | 12.5 |
+| 563000 | 90 | [Journey to the West: The nine-headed lion](../563000-journey-to-the-west-the-nine-headed-lion.md) | 13.2 |
+| 564000 | 91 | [Journey to the West: The false Buddhas of the Lantern Festival](../564000-journey-to-the-west-the-false-buddhas-of-the-lantern-festival.md) | 11.7 |
+| 565000 | 92 | [Journey to the West: The four wood stars and the rhinoceros kings](../565000-journey-to-the-west-the-four-wood-stars-and-the-rhinoceros-kings.md) | 12.3 |
+| 566000 | 93 | [Journey to the West: The princess behind the wall](../566000-journey-to-the-west-the-princess-behind-the-wall.md) | 14.0 |
+| 567000 | 94 | [Journey to the West: The wedding in Tianzhu](../567000-journey-to-the-west-the-wedding-in-tianzhu.md) | 14.2 |
+| 568000 | 95 | [Journey to the West: The jade rabbit and the true princess](../568000-journey-to-the-west-the-jade-rabbit-and-the-true-princess.md) | 13.2 |
+| 569000 | 96 | [Journey to the West: The house that fed ten thousand monks](../569000-journey-to-the-west-the-house-that-fed-ten-thousand-monks.md) | 13.4 |
+| 570000 | 97 | [Journey to the West: The robbery, the trial, and the returned host](../570000-journey-to-the-west-the-robbery-the-trial-and-the-returned-host.md) | 14.8 |
+| 571000 | 98 | [Journey to the West: The bottomless boat and the wordless scriptures](../571000-journey-to-the-west-the-bottomless-boat-and-the-wordless-scriptures.md) | 17.8 |
+| 572000 | 99 | [Journey to the West: The turtle's question and the wet scriptures](../572000-journey-to-the-west-the-turtles-question-and-the-wet-scriptures.md) | 13.6 |
+| 573000 | 100 | [Journey to the West: The return, the appointments, and the vanished fillet](../573000-journey-to-the-west-the-return-the-appointments-and-the-vanished-fillet.md) | 17.1 |
 
-The ledger below preserves the original pre-consolidation component IDs, scene boundaries, and original measurements through chapter 21 for evidence traceability. Chapters 22–69 are new continuous-arc manuscripts and have no absorbed component history. Those rows are no longer separate playable files.
+The ledger below preserves the original pre-consolidation component IDs, scene boundaries, and original measurements through chapter 21 for evidence traceability. Chapters 22–100 are independent continuous-arc manuscripts and have no absorbed component history. Those rows are no longer separate playable files.
 
 ## Original writing-component ledger (not the current playback index)
 
@@ -198,12 +211,17 @@ Lectures 455000–457000 retell the *River Child* episode because it forms a sub
 
 The novella-like origin episode is literary, not a historical biography of the real pilgrim Xuanzang. Its final statement about Wenjiao's suicide must not be softened into an uncomplicated family reunion. The threatening coercion that shapes her actions is part of the tale. The underworld and reincarnation passages in chapters 10–12 are also fictional, though they draw on religious and social traditions.
 
-## Progress and next chapter group
+## Completion and final chapter group
 
-The expanded retelling covers **selected-witness chapters 1–87** in **72 playable manuscripts**. The first 13 consolidated manuscripts through chapter 21 retain their component provenance; fifty-nine subsequent manuscripts narrate chapters 22–87. Reading guides cover [22–27](journey-west-chapters-22-27-reading-guide.md), [28–33](journey-west-chapters-28-33-reading-guide.md), [34–39](journey-west-chapters-34-39-reading-guide.md), [40–45](journey-west-chapters-40-45-reading-guide.md), [46–51](journey-west-chapters-46-51-reading-guide.md), [52–57](journey-west-chapters-52-57-reading-guide.md), [58–63](journey-west-chapters-58-63-reading-guide.md), [64–69](journey-west-chapters-64-69-reading-guide.md), [70–75](journey-west-chapters-70-75-reading-guide.md), [76–81](journey-west-chapters-76-81-reading-guide.md), and [82–87](journey-west-chapters-82-87-reading-guide.md).
+The expanded retelling now narrates **all 100 chapters in 85 playable manuscripts**. The original 13 consolidated manuscripts through chapter 21 retain their prior 61-component ledger, and 72 later manuscripts narrate chapters 22–100. Chapter-group guides exist for every group since chapter 22; the last is the [94–100 reading guide](journey-west-chapters-94-100-reading-guide.md). The [continuity audit](journey-west-final-continuity-audit.md) records chapter coverage and qualified limitations.
 
-Chapters 82 and 83 close the Bottomless Cave ordeal. Bajie's reconnaissance reveals the enormous inverted dwelling, Wukong infiltrates in disguise, and the forced marriage feast turns into a contest of magical substitutions. Wukong's second peach trick takes him into the captor's body, but she avoids punishment by substituting an embroidered shoe once again. Tablets in the cave honor Li Jing and Nezha. Wukong's accusation brings Nezha and the Pagoda-Bearing Heavenly King into the rescue, revealing the demon as the golden-nosed white rat whom they spared and recognized as an adopted daughter. **Xuanzang is recovered by the close of chapter 83.** Chapter 84 introduces Dharma-Destroying Kingdom, whose ruler has vowed to kill ten thousand monks. The four fugitives conceal themselves among merchants and in an inn's luggage chest. At the chapter's end Wukong has shaved the sleeping royal court, but the king has **not yet renounced** the persecution. Chapter 85 opens with that renunciation and the renamed Dharma-Honoring Kingdom, then has Xuanzang seized by the leopard of Hidden Mist Mountain. Chapter 86 works through false severed heads, a woodcutter's captivity, a mother's fear, and Wukong's recovery of the living captives. Chapter 87 is the self-contained drought of Fengxian Prefecture: the governor's offense, Heavenly conditions that appear impossible, sincere public repentance, the ordered rain, and a dedication before the pilgrims resume the journey.
+Chapters 94–95 resolve the royal-marriage plot in Tianzhu and return the true princess after Taiyin recovers the Jade Rabbit. Chapters 96–97 concern Kou Hong's vow to feed ten thousand monks, his killing during a robbery, the false arrest of the pilgrims, and his return from the underworld. Chapter 98 reaches Spirit Mountain, the bottomless crossing, the wordless scriptures, and the replacement with 5,048 written volumes. Chapter 99 completes the numbered eighty-first ordeal when the old turtle's unanswered request leads to a river fall and damaged scripture pages. Chapter 100 brings the scripture copies to Chang'an and returns the party to Spirit Mountain for the five distinct religious appointments and the discovery that Wukong's tightening fillet is gone.
 
-**Next:** selected-witness **chapters 88–93**, beginning in Jade Flower Kingdom and continuing west. Check each original Chinese chapter before drafting: the current manuscripts stop after Fengxian's rain, temple dedication, and departure. Continue independently composed, scene-first storytelling with exact chapter-linked evidence and no fixed lecture length.
+The chapter 9 River Child insertion remains **edition-sensitive** and is not evidence that all early printings share the same chapter numbering. The original-language text cited is a later transmitted witness, not a direct collation of the 1592 printing; the episodes are fictional narrative, not historical records of the actual Tang monk Xuanzang. New dialogue is independent prose adaptation, not copied translation. No further *source chapters* remain to be narrated in this track, though scholarly editorial review may remain useful.
 
-**Chapters 88–100 remain unwritten in this expanded strand.** The separate World History complete-plot survey covers the full narrative in outline; the chapter-9 River Child insertion remains edition-sensitive.
+
+## Completed-novel analytical companion (added 17 November 2026)
+
+The **retelling count remains 85 manuscripts covering chapters 1–100**. It is followed by seven newly indexed critical lectures, `574000`–`580000`, in section `late-ming-chinese-novel-journey-to-the-west-critical-study`. They interpret the completed novel without changing or duplicating any narrative chapter assignment. The `journey-west-expanded` listening route retains the 85 narrative manuscripts and links onward to `journey-west-criticism`, which plays the seven analytical lectures separately after the story.
+
+These lectures analyze the history and transmitted forms of the book; Wukong and Xuanzang's difficult alliance; the collective work of Bajie, Sha and the dragon horse; the Three Teachings; satire of religious and political authority; body, disguise and gender; and eighty-one ordeals with the scripture endings. The primary source is the same selected Chinese Wikisource witness used throughout the retelling. See [the critical reading guide](journey-west-critical-study-reading-guide.md) and sidecars `metadata/574000.json`–`metadata/580000.json`. The guide distinguishes original interpretations from scholarly statements and records abstract-only access where applicable.

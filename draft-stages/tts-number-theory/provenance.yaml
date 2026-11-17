@@ -1,177 +1,231 @@
 transcript:
   revisions:
-    - date: '2026-11-16'
-      models:
-        - GPT-6
-      scope: >-
-        Authored six original source manuscripts and their mathematical companions
-        for a new number-theory foundations track. Standard statements and
-        external reading are separately attributed in per-lecture metadata.
-      sources:
-        - metadata/001000.json
-        - metadata/002000.json
-        - metadata/003000.json
-        - metadata/004000.json
-        - metadata/005000.json
-        - metadata/006000.json
-    - date: '2026-11-16'
-      models:
-        - GPT-6
-      scope: >-
-        Added lectures 007000–010000, completing quadratic reciprocity,
-        establishing Möbius inversion and elementary prime distribution,
-        and proving simple-root Hensel lifting. Revised the course catalog
-        and reading metadata, without changing earlier manuscripts.
-      sources:
-        - metadata/007000.json
-        - metadata/008000.json
-        - metadata/009000.json
-        - metadata/010000.json
-    - date: '2026-11-16'
-      models:
-        - GPT-6
-      scope: >-
-        Added lectures 011000–014000: full positive Pell theorem via periodic
-        continued fractions, Gaussian unique factorization and the two-squares
-        criterion, primality witnesses and certificates, and cyclic finite
-        multiplicative groups with odd-prime-power generators. Extended pack-only
-        catalogs and reading records, without rewriting earlier manuscripts.
-      sources:
-        - metadata/011000.json
-        - metadata/012000.json
-        - metadata/013000.json
-        - metadata/014000.json
-    - date: '2026-11-16'
-      models:
-        - GPT-6
-      scope: >-
-        Added lectures 015000–018000 on analytic tools, Dirichlet characters,
-        Euler products and zeta, and Dirichlet L-series, including unconditional
-        small-modulus progression cases and an explicit gap at general
-        nonvanishing. Updated only number-theory track catalogs, mathematical
-        companions, claims metadata, reading sources and backlog.
-      sources:
-        - metadata/015000.json
-        - metadata/016000.json
-        - metadata/017000.json
-        - metadata/018000.json
-    - date: '2026-11-16'
-      models:
-        - GPT-6
-      scope: >-
-        Added lectures 019000–023000, crossing the analytic continuation boundary,
-        proving nonvanishing for nonreal and real characters, completing an
-        unconditional proof of Dirichlet's theorem for all coprime progressions,
-        and deriving elementary Chebyshev prime-counting bounds. Added complete
-        proof companions, source records, exercises, and updated pack-local
-        course metadata and backlog without changing earlier manuscripts.
-      sources:
-        - metadata/019000.json
-        - metadata/020000.json
-        - metadata/021000.json
-        - metadata/022000.json
-        - metadata/023000.json
-    - date: '2026-11-16'
-      models:
-        - GPT-6
-      scope: >-
-        Added 024000, 024500, 025000 and 025500 on exact two-square representation
-        counts, Gauss circle elementary geometry, finite-field existence and
-        uniqueness, Frobenius, subfields, irreducible-polynomial counts and
-        algorithms. Preserved all earlier manuscripts and edited only the
-        number-theory content pack. Added companion proofs, source records,
-        exercises, and catalog/backlog updates.
-      sources:
-        - metadata/024000.json
-        - metadata/024500.json
-        - metadata/025000.json
-        - metadata/025500.json
-    - date: '2026-11-16'
-      models:
-        - GPT-6
-      scope: >-
-        Added 026000, 026500, 027000, 027250 and 027500. Developed the complex
-        analysis toolkit and zeta zero-free boundary, then classified quadratic
-        integer rings and repaired the Z[sqrt(-5)] factorization using explicit
-        prime ideals and a Minkowski ideal-class calculation. Kept the
-        Wiener-Ikehara and universal Dedekind ideal theorems visible as cited
-        but not yet fully proved dependencies. Added mathematical companions,
-        exercises, claim anchors, references and Wikipedia readings; no shared
-        code or prior manuscripts were modified.
-      sources:
-        - metadata/026000.json
-        - metadata/026500.json
-        - metadata/027000.json
-        - metadata/027250.json
-        - metadata/027500.json
-    - date: '2026-11-16'
-      models:
-        - GPT-6
-      scope: >-
-        Continuation 8 adds 026750, 027625, 027750, 027875 and 028000.
-        Completed Newman's bounded-function Tauberian contour theorem, the
-        prime number theorem, Dedekind prime-ideal invertibility and unique
-        factorization, and local DVR-based ideal norm multiplicativity.
-        Added a proof of the general number-field ring-of-integers axioms,
-        mathematical companions, exercises, source records, and Wikipedia links.
-        Only the number-theory content pack changed; earlier manuscripts retained.
-      sources:
-        - metadata/026750.json
-        - metadata/027625.json
-        - metadata/027750.json
-        - metadata/027875.json
-        - metadata/028000.json
-    - date: '2026-11-16'
-      models:
-        - GPT-6
-      scope: >-
-        Continuation 9 adds 029000, 029250, 029500, 029750 and 030000.
-        Developed quadratic splitting including p=2, Dedekind-Kummer with the
-        index condition, ideal norm forms and proper equivalence, a terminating
-        reduction algorithm and examples for class numbers two and three, and
-        classification of prime representations of discriminant negative twenty.
-        Each manuscript includes nonspoken mathematics, exercises and references.
-        Only this content pack is changed; earlier lectures are preserved.
-      sources:
-        - metadata/029000.json
-        - metadata/029250.json
-        - metadata/029500.json
-        - metadata/029750.json
-        - metadata/030000.json
-    - date: '2026-11-16'
-      models:
-        - GPT-6
-      scope: >-
-        Continuation 10 adds 030250–031500, six p-adic foundations manuscripts.
-        Constructed the metric, field completion and inverse-limit ring, proved
-        compactness and Hensel lifting, classified local squares including p=2,
-        and computed two quadratic local-field extensions with e/f examples.
-        Hasse–Minkowski and the general local finite-extension theorem are cited
-        but not claimed as proved. Added companions, exercises, source records
-        and Wikipedia readings; edited only the number-theory content pack.
-      sources:
-        - metadata/030250.json
-        - metadata/030500.json
-        - metadata/030750.json
-        - metadata/031000.json
-        - metadata/031250.json
-        - metadata/031500.json
-    - date: '2026-11-16'
-      models:
-        - GPT-6
-      scope: >-
-        Continuation 11 adds 031750–033000, six number-theory manuscripts.
-        Proved general finite p-adic extension structure, unramified/ramified
-        decomposition, complete odd and 2-adic Hilbert-symbol formulas with
-        index-two norm arguments, local quadratic-form criteria and rational
-        Hilbert reciprocity. Explicitly reserved Hasse–Minkowski global existence,
-        full p=2 local classification and different/discriminant for future work.
-        Included companions, exercises, source metadata and Wikipedia readings.
-        Changed only number-theory content-pack text.
-      sources:
-        - metadata/031750.json
-        - metadata/032000.json
-        - metadata/032250.json
-        - metadata/032500.json
-        - metadata/032750.json
-        - metadata/033000.json
+  - date: '2026-11-16'
+    models:
+    - GPT-6
+    scope: Authored six original source manuscripts and their mathematical companions
+      for a new number-theory foundations track. Standard statements and external
+      reading are separately attributed in per-lecture metadata.
+    sources:
+    - metadata/001000.json
+    - metadata/002000.json
+    - metadata/003000.json
+    - metadata/004000.json
+    - metadata/005000.json
+    - metadata/006000.json
+  - date: '2026-11-16'
+    models:
+    - GPT-6
+    scope: Added lectures 007000–010000, completing quadratic reciprocity, establishing
+      Möbius inversion and elementary prime distribution, and proving simple-root
+      Hensel lifting. Revised the course catalog and reading metadata, without changing
+      earlier manuscripts.
+    sources:
+    - metadata/007000.json
+    - metadata/008000.json
+    - metadata/009000.json
+    - metadata/010000.json
+  - date: '2026-11-16'
+    models:
+    - GPT-6
+    scope: 'Added lectures 011000–014000: full positive Pell theorem via periodic
+      continued fractions, Gaussian unique factorization and the two-squares criterion,
+      primality witnesses and certificates, and cyclic finite multiplicative groups
+      with odd-prime-power generators. Extended pack-only catalogs and reading records,
+      without rewriting earlier manuscripts.'
+    sources:
+    - metadata/011000.json
+    - metadata/012000.json
+    - metadata/013000.json
+    - metadata/014000.json
+  - date: '2026-11-16'
+    models:
+    - GPT-6
+    scope: Added lectures 015000–018000 on analytic tools, Dirichlet characters, Euler
+      products and zeta, and Dirichlet L-series, including unconditional small-modulus
+      progression cases and an explicit gap at general nonvanishing. Updated only
+      number-theory track catalogs, mathematical companions, claims metadata, reading
+      sources and backlog.
+    sources:
+    - metadata/015000.json
+    - metadata/016000.json
+    - metadata/017000.json
+    - metadata/018000.json
+  - date: '2026-11-16'
+    models:
+    - GPT-6
+    scope: Added lectures 019000–023000, crossing the analytic continuation boundary,
+      proving nonvanishing for nonreal and real characters, completing an unconditional
+      proof of Dirichlet's theorem for all coprime progressions, and deriving elementary
+      Chebyshev prime-counting bounds. Added complete proof companions, source records,
+      exercises, and updated pack-local course metadata and backlog without changing
+      earlier manuscripts.
+    sources:
+    - metadata/019000.json
+    - metadata/020000.json
+    - metadata/021000.json
+    - metadata/022000.json
+    - metadata/023000.json
+  - date: '2026-11-16'
+    models:
+    - GPT-6
+    scope: Added 024000, 024500, 025000 and 025500 on exact two-square representation
+      counts, Gauss circle elementary geometry, finite-field existence and uniqueness,
+      Frobenius, subfields, irreducible-polynomial counts and algorithms. Preserved
+      all earlier manuscripts and edited only the number-theory content pack. Added
+      companion proofs, source records, exercises, and catalog/backlog updates.
+    sources:
+    - metadata/024000.json
+    - metadata/024500.json
+    - metadata/025000.json
+    - metadata/025500.json
+  - date: '2026-11-16'
+    models:
+    - GPT-6
+    scope: Added 026000, 026500, 027000, 027250 and 027500. Developed the complex
+      analysis toolkit and zeta zero-free boundary, then classified quadratic integer
+      rings and repaired the Z[sqrt(-5)] factorization using explicit prime ideals
+      and a Minkowski ideal-class calculation. Kept the Wiener-Ikehara and universal
+      Dedekind ideal theorems visible as cited but not yet fully proved dependencies.
+      Added mathematical companions, exercises, claim anchors, references and Wikipedia
+      readings; no shared code or prior manuscripts were modified.
+    sources:
+    - metadata/026000.json
+    - metadata/026500.json
+    - metadata/027000.json
+    - metadata/027250.json
+    - metadata/027500.json
+  - date: '2026-11-16'
+    models:
+    - GPT-6
+    scope: Continuation 8 adds 026750, 027625, 027750, 027875 and 028000. Completed
+      Newman's bounded-function Tauberian contour theorem, the prime number theorem,
+      Dedekind prime-ideal invertibility and unique factorization, and local DVR-based
+      ideal norm multiplicativity. Added a proof of the general number-field ring-of-integers
+      axioms, mathematical companions, exercises, source records, and Wikipedia links.
+      Only the number-theory content pack changed; earlier manuscripts retained.
+    sources:
+    - metadata/026750.json
+    - metadata/027625.json
+    - metadata/027750.json
+    - metadata/027875.json
+    - metadata/028000.json
+  - date: '2026-11-16'
+    models:
+    - GPT-6
+    scope: Continuation 9 adds 029000, 029250, 029500, 029750 and 030000. Developed
+      quadratic splitting including p=2, Dedekind-Kummer with the index condition,
+      ideal norm forms and proper equivalence, a terminating reduction algorithm and
+      examples for class numbers two and three, and classification of prime representations
+      of discriminant negative twenty. Each manuscript includes nonspoken mathematics,
+      exercises and references. Only this content pack is changed; earlier lectures
+      are preserved.
+    sources:
+    - metadata/029000.json
+    - metadata/029250.json
+    - metadata/029500.json
+    - metadata/029750.json
+    - metadata/030000.json
+  - date: '2026-11-16'
+    models:
+    - GPT-6
+    scope: Continuation 10 adds 030250–031500, six p-adic foundations manuscripts.
+      Constructed the metric, field completion and inverse-limit ring, proved compactness
+      and Hensel lifting, classified local squares including p=2, and computed two
+      quadratic local-field extensions with e/f examples. Hasse–Minkowski and the
+      general local finite-extension theorem are cited but not claimed as proved.
+      Added companions, exercises, source records and Wikipedia readings; edited only
+      the number-theory content pack.
+    sources:
+    - metadata/030250.json
+    - metadata/030500.json
+    - metadata/030750.json
+    - metadata/031000.json
+    - metadata/031250.json
+    - metadata/031500.json
+  - date: '2026-11-16'
+    models:
+    - GPT-6
+    scope: Continuation 11 adds 031750–033000, six number-theory manuscripts. Proved
+      general finite p-adic extension structure, unramified/ramified decomposition,
+      complete odd and 2-adic Hilbert-symbol formulas with index-two norm arguments,
+      local quadratic-form criteria and rational Hilbert reciprocity. Explicitly reserved
+      Hasse–Minkowski global existence, full p=2 local classification and different/discriminant
+      for future work. Included companions, exercises, source metadata and Wikipedia
+      readings. Changed only number-theory content-pack text.
+    sources:
+    - metadata/031750.json
+    - metadata/032000.json
+    - metadata/032250.json
+    - metadata/032500.json
+    - metadata/032750.json
+    - metadata/033000.json
+  - date: '2026-11-16'
+    models:
+    - GPT-6
+    scope: 'Continuation 12 adds 033250–034500, six manuscripts closing the rational
+      Hasse–Minkowski proof: 2-adic five-variable isotropy, Legendre''s ternary lattice-cylinder
+      theorem, the all-but-one-place Hilbert reciprocity corollary, prime-support
+      interpolation by CRT and Dirichlet, the global induction, and value/isometry
+      consequences. The integral binary-form counterexample is proved directly; Selmer''s
+      cubic is cited as an external nonquadratic boundary. Pack-local metadata and
+      Wikipedia references updated; earlier manuscripts unchanged.'
+    sources:
+    - metadata/033250.json
+    - metadata/033500.json
+    - metadata/033750.json
+    - metadata/034000.json
+    - metadata/034250.json
+    - metadata/034500.json
+  - date: '2026-11-16'
+    models:
+    - GPT-6
+    scope: Continuation 13 adds 034750–036000, six manuscripts developing trace duality
+      and discriminants, the different and derivative formula, tame/wild exponents,
+      global and local tower laws, quadratic discriminants including two-adic wild
+      behavior, and prime-power cyclotomic integer bases and discriminants. Includes
+      mathematical companions, worked proofs, exercises and pack-local source records.
+      General ramification groups, Artin conductors and composite-order cyclotomic
+      discriminants are reserved for future lectures. Changes are restricted to the
+      number-theory pack.
+    sources:
+    - metadata/034750.json
+    - metadata/035000.json
+    - metadata/035250.json
+    - metadata/035500.json
+    - metadata/035750.json
+    - metadata/036000.json
+  - date: '2026-11-17'
+    models:
+    - GPT-6
+    scope: Continuation 14 adds 036250–037500, six substantive manuscripts developing
+      lower and upper ramification groups, Hilbert's different formula, cyclotomic
+      wild breaks, Artin and Swan conductors, and the local abelian conductor-discriminant
+      identity with exact character counts. General Herbrand quotient compatibility,
+      Kronecker-Weber, Hasse-Arf, and general Artin conductor integrality are cited
+      boundaries, not incorrectly claimed as fully proved. Spoken manuscripts, display
+      companions, exercises, source records and Wikipedia links accompany each lecture.
+      Only the number-theory content pack was edited.
+    sources:
+    - metadata/036250.json
+    - metadata/036500.json
+    - metadata/036750.json
+    - metadata/037000.json
+    - metadata/037250.json
+    - metadata/037500.json
+organization:
+  revisions:
+  - date: '2026-11-17'
+    models:
+    - GPT-6 (exact runtime variant unavailable)
+    sources:
+    - math-foundations-number-theory-continuation-12-2026-11-16.zip
+    - math-foundations-number-theory-continuation-13-2026-11-16.zip
+    - math-foundations-number-theory-continuation-14-2026-11-17.zip
+    scope: Prepare a filtered additive handoff for 18 genuinely new number-theory
+      lectures. Preserve all existing manuscripts, sidecars, topic tags and curated
+      routes; add concept tags only to new entries and three specialist routes. Retain
+      incoming transcript authorship revisions and source records. No original narration,
+      proof revision or machine verification is claimed. Correct ten incoming metadata
+      anchors differing only in initial capitalization so they match the unchanged
+      spoken prose exactly.

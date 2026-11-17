@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "lecture_id": "034000",
+  "transcript": "034000-choosing-one-auxiliary-prime.md",
+  "related_resources": [
+    {
+      "source_id": "nt-voight-hasse",
+      "reason": "The complete all-dimension proof via Legendre, an auxiliary prime from Dirichlet, and induction; section 14.3 was inspected in its open-access HTML text. Our presentation separates the local-value and prime-support steps."
+    },
+    {
+      "source_id": "nt-dirichlet-ap",
+      "reason": "Background reference"
+    },
+    {
+      "source_id": "nt-crt",
+      "reason": "Background reference"
+    },
+    {
+      "source_id": "nt-wiki-dirichlet-ap-hm",
+      "reason": "Background for using an auxiliary prime satisfying finitely many local residue constraints; the course proves Dirichlet previously in 022000."
+    },
+    {
+      "source_id": "nt-wiki-hasse-minkowski",
+      "reason": "Statement of the local-global principle for quadratic forms."
+    }
+  ],
+  "mathematical_claims": [
+    {
+      "id": "034000-m01",
+      "anchor": "At the prime two, it is decided modulo eight.",
+      "source_ids": [
+        "nt-conrad-padic-expansion",
+        "nt-ntu-hilbert"
+      ],
+      "source_locator": "Square class unit criterion p=2",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "034000-m02",
+      "anchor": "its prime factors outside S consist of just q.",
+      "source_ids": [
+        "nt-voight-hasse",
+        "nt-dirichlet-ap"
+      ],
+      "source_locator": "Dirichlet auxiliary prime with controlled support",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "034000-m03",
+      "anchor": "The Chinese remainder theorem supplies a unique class modulo M",
+      "source_ids": [
+        "nt-crt"
+      ],
+      "source_locator": "CRT for unit residues modulo 8 and odd p",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "034000-m04",
+      "anchor": "Dirichlet's theorem says that infinitely many positive primes lie in any residue class coprime to the modulus.",
+      "source_ids": [
+        "nt-dirichlet-ap",
+        "nt-voight-hasse"
+      ],
+      "source_locator": "Dirichlet theorem proved in 022000",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "034000-m05",
+      "anchor": "we can take q equal to twenty-three and t equal to sixty-nine.",
+      "source_ids": [
+        "nt-voight-hasse"
+      ],
+      "source_locator": "Original worked square-class interpolation example",
+      "audit_status": "reading_reference_recorded"
+    }
+  ],
+  "historical_claims": []
+}

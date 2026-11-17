@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "lecture_id": "034500",
+  "transcript": "034500-quadratic-values-isometry-and-integral-limits.md",
+  "related_resources": [
+    {
+      "source_id": "nt-voight-hasse",
+      "reason": "The complete all-dimension proof via Legendre, an auxiliary prime from Dirichlet, and induction; section 14.3 was inspected in its open-access HTML text. Our presentation separates the local-value and prime-support steps."
+    },
+    {
+      "source_id": "nt-conrad-selmer",
+      "reason": "Proof that 3x^3+4y^3+5z^3=0 is locally solvable at every completion but has no nonzero rational solution. Used only as a cited contrasting counterexample, not presented as proved."
+    },
+    {
+      "source_id": "nt-wiki-witt",
+      "reason": "Includes Witt cancellation; manuscript gives an explicit reflection proof for one-dimensional cancellation."
+    },
+    {
+      "source_id": "nt-wiki-genus",
+      "reason": "Integral local equivalence versus global Z-equivalence and form genera."
+    },
+    {
+      "source_id": "nt-wiki-hasse-minkowski",
+      "reason": "Statement of the local-global principle for quadratic forms."
+    }
+  ],
+  "mathematical_claims": [
+    {
+      "id": "034500-m01",
+      "anchor": "The Hasse–Minkowski theorem therefore gives a nonzero rational zero of the enlarged form.",
+      "source_ids": [
+        "nt-voight-hasse"
+      ],
+      "source_locator": "Rational value representation corollary",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "034500-m02",
+      "anchor": "Local isometry at every completion implies rational isometry.",
+      "source_ids": [
+        "nt-voight-hasse"
+      ],
+      "source_locator": "Weak Hasse-Minkowski isometry corollary",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "034500-m03",
+      "anchor": "This is one-dimensional Witt cancellation.",
+      "source_ids": [
+        "nt-voight-hasse",
+        "nt-wiki-witt"
+      ],
+      "source_locator": "Reflection proof of cancellation",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "034500-m04",
+      "anchor": "there is no integer solution.",
+      "source_ids": [
+        "nt-wiki-genus"
+      ],
+      "source_locator": "Explicit integral counterexample verified arithmetically",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "034500-m05",
+      "anchor": "This is Selmer's example.",
+      "source_ids": [
+        "nt-conrad-selmer",
+        "nt-wiki-hasse"
+      ],
+      "source_locator": "Cubic nonzero locally everywhere but globally absent",
+      "audit_status": "reading_reference_recorded"
+    }
+  ],
+  "historical_claims": []
+}

@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "lecture_id": "036250",
+  "transcript": "036250-higher-ramification-groups-from-congruences.md",
+  "related_resources": [
+    {
+      "source_id": "nt-kedlaya-ramification",
+      "reason": "Author-maintained lecture notes on local ramification groups and Herbrand functions; used for theorem-level cross-checks."
+    },
+    {
+      "source_id": "nt-berkeley-local-fields",
+      "reason": "Higher ramification, Herbrand upper numbering, and explicit cyclotomic filtration; see chapter 9 for quotient theorem and p-power examples."
+    },
+    {
+      "source_id": "nt-sharifi-ramification",
+      "reason": "Independent source for lower ramification groups, different, and ramification breaks."
+    },
+    {
+      "source_id": "nt-wiki-ramification-group",
+      "reason": "Background definitions of higher ramification groups and filtrations."
+    },
+    {
+      "source_id": "nt-wiki-inertia-group",
+      "reason": "Residue action and inertia group background."
+    }
+  ],
+  "mathematical_claims": [
+    {
+      "id": "036250-normality",
+      "anchor": "Consequently every G sub i is a normal subgroup of the entire Galois group.",
+      "source_ids": [
+        "nt-kedlaya-ramification",
+        "nt-sharifi-ramification"
+      ],
+      "source_locator": "Lower-group congruence and conjugation argument.",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "036250-uniformizer",
+      "anchor": "i of sigma is precisely the valuation of sigma of pi minus pi.",
+      "source_ids": [
+        "nt-berkeley-local-fields",
+        "nt-sharifi-ramification"
+      ],
+      "source_locator": "Maximal unramified subfield and integral generator.",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "036250-tamequotient",
+      "anchor": "G zero modulo G one embeds into the multiplicative group of the finite residue field.",
+      "source_ids": [
+        "nt-kedlaya-ramification",
+        "nt-wiki-ramification-group"
+      ],
+      "source_locator": "Tame inertia character on uniformizer.",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "036250-wildgroup",
+      "anchor": "Every deeper quotient is therefore an elementary abelian p-group.",
+      "source_ids": [
+        "nt-kedlaya-ramification",
+        "nt-sharifi-ramification"
+      ],
+      "source_locator": "Additive graded quotient and finite p-group wild inertia.",
+      "audit_status": "reading_reference_recorded"
+    }
+  ],
+  "historical_claims": []
+}

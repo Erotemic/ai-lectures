@@ -478,6 +478,118 @@ transcript:
     scope: Recoverably integrate only new uploaded manuscripts, metadata, source records
       and continuation notes. Retain the supplied authorship records and all current
       existing manuscripts/catalog organization; no inherited source variant is substituted.
+  - date: '2026-11-16'
+    models:
+    - GPT-6 (exact runtime variant unavailable)
+    sources:
+    - lecture: '561000'
+      composition_record: metadata/561000.json
+    - lecture: '562000'
+      composition_record: metadata/562000.json
+    - lecture: '563000'
+      composition_record: metadata/563000.json
+    - lecture: '564000'
+      composition_record: metadata/564000.json
+    - lecture: '565000'
+      composition_record: metadata/565000.json
+    - lecture: '566000'
+      composition_record: metadata/566000.json
+    scope: Original English scene-first narrative retelling of selected-witness Journey
+      to the West chapters 88-93, with six primary Chinese chapter records, exact
+      scene anchors, reading guide, and continuation handoff. Inherited manuscripts
+      unchanged.
+  - date: '2026-11-16'
+    models:
+    - GPT-6 (exact runtime variant unavailable)
+    sources:
+    - lecture: '567000'
+      composition_record: metadata/567000.json
+    - lecture: '568000'
+      composition_record: metadata/568000.json
+    - lecture: '569000'
+      composition_record: metadata/569000.json
+    - lecture: '570000'
+      composition_record: metadata/570000.json
+    - lecture: '571000'
+      composition_record: metadata/571000.json
+    - lecture: '572000'
+      composition_record: metadata/572000.json
+    - lecture: '573000'
+      composition_record: metadata/573000.json
+    scope: Independent scene-first English narrative retelling of selected-witness
+      Journey to the West chapters 94-100, closing the complete 100-chapter plot,
+      with seven primary Chinese records, anchored companion evidence, updated navigation,
+      reading guide, and final continuity audit. Earlier manuscripts unchanged.
+  - date: '2026-11-17'
+    models:
+    - GPT-6 (exact runtime variant unavailable)
+    sources:
+    - lecture: '574000'
+      composition_record: metadata/574000.json
+    - lecture: '575000'
+      composition_record: metadata/575000.json
+    - lecture: '576000'
+      composition_record: metadata/576000.json
+    - lecture: '577000'
+      composition_record: metadata/577000.json
+    - lecture: '578000'
+      composition_record: metadata/578000.json
+    - lecture: '579000'
+      composition_record: metadata/579000.json
+    - lecture: '580000'
+      composition_record: metadata/580000.json
+    scope: Seven independent Journey to the West critical lectures following the complete
+      100-chapter narrative, with primary-chapter episode anchors, publicly verified
+      secondary bibliographic/abstract records, a reading and evidence guide, and
+      a separately navigable critical study route. No inherited narrative text changed.
+  - date: '2026-11-17'
+    models:
+    - GPT-6 (exact runtime variant unavailable)
+    sources:
+    - lecture: '561000'
+      composition_record: metadata/561000.json
+    - lecture: '562000'
+      composition_record: metadata/562000.json
+    - lecture: '563000'
+      composition_record: metadata/563000.json
+    - lecture: '564000'
+      composition_record: metadata/564000.json
+    - lecture: '565000'
+      composition_record: metadata/565000.json
+    - lecture: '566000'
+      composition_record: metadata/566000.json
+    - lecture: '567000'
+      composition_record: metadata/567000.json
+    - lecture: '568000'
+      composition_record: metadata/568000.json
+    - lecture: '569000'
+      composition_record: metadata/569000.json
+    - lecture: '570000'
+      composition_record: metadata/570000.json
+    - lecture: '571000'
+      composition_record: metadata/571000.json
+    - lecture: '572000'
+      composition_record: metadata/572000.json
+    - lecture: '573000'
+      composition_record: metadata/573000.json
+    - lecture: '574000'
+      composition_record: metadata/574000.json
+    - lecture: '575000'
+      composition_record: metadata/575000.json
+    - lecture: '576000'
+      composition_record: metadata/576000.json
+    - lecture: '577000'
+      composition_record: metadata/577000.json
+    - lecture: '578000'
+      composition_record: metadata/578000.json
+    - lecture: '579000'
+      composition_record: metadata/579000.json
+    - lecture: '580000'
+      composition_record: metadata/580000.json
+    scope: Integrate only new uploaded Journey source manuscripts and supporting evidence.
+      Retain the original author records, current chronology/tagging, and every existing
+      manuscript. The completed retelling and following criticism retain separate
+      listening routes; the curated survey is unchanged.
 chronology:
   revisions:
   - date: '2026-11-16'

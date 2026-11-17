@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "lecture_id": "035500",
+  "transcript": "035500-discriminants-in-towers-and-at-primes.md",
+  "related_resources": [
+    {
+      "source_id": "nt-mit-different-2021",
+      "reason": "Author-instructor lecture text, pages 1, 2, 5, 7 and 10 inspected; defines codifferent, norm equality, discriminant and ramification tests; theorem statements for tame different and towers. New manuscripts supply their own derivations and proofs."
+    },
+    {
+      "source_id": "nt-wiki-field-discriminant",
+      "reason": "Quadratic discriminants and lattice covolumes."
+    },
+    {
+      "source_id": "nt-wiki-different",
+      "reason": "Background definition and historical naming, not the primary proof source."
+    },
+    {
+      "source_id": "nt-wiki-cyclotomic-field",
+      "reason": "Prime-power cyclotomic fields, roots of unity and discriminants."
+    }
+  ],
+  "mathematical_claims": [
+    {
+      "id": "035500-m01",
+      "anchor": "the different of M over K equals the different of M over L times the different of L over K extended to the integer ring of M.",
+      "source_ids": [
+        "nt-mit-different-2021",
+        "nt-wiki-field-discriminant"
+      ],
+      "source_locator": "Lecture 12 Proposition 12.28; relative codifferent proof in manuscript.",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "035500-m02",
+      "anchor": "the different exponent of M over K is d-two plus e times d-one.",
+      "source_ids": [
+        "nt-mit-different-2021"
+      ],
+      "source_locator": "Normalized valuation of extended ideals in a tower.",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "035500-m03",
+      "anchor": "The discriminant ideal of M over K equals the discriminant ideal of L over K, raised to the degree of M over L, multiplied by the norm from L to K of the discriminant ideal of M over L.",
+      "source_ids": [
+        "nt-mit-different-2021",
+        "nt-wiki-field-discriminant"
+      ],
+      "source_locator": "Discriminant tower law via norm of the different.",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "035500-m04",
+      "anchor": "the exponent of p in the absolute value of the field discriminant is the sum over the primes above p of f-i times d-i.",
+      "source_ids": [
+        "nt-mit-different-2021",
+        "nt-wiki-field-discriminant"
+      ],
+      "source_locator": "Norm N(P)=p^f and local different prime powers.",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "035500-m05",
+      "anchor": "The absolute discriminant of M is two hundred fifty-six.",
+      "source_ids": [
+        "nt-wiki-cyclotomic-field",
+        "nt-mit-different-2021"
+      ],
+      "source_locator": "Q(zeta8) tower example checked against independent cyclotomic formula.",
+      "audit_status": "reading_reference_recorded"
+    }
+  ],
+  "historical_claims": []
+}

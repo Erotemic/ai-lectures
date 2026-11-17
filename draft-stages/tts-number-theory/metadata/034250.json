@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "lecture_id": "034250",
+  "transcript": "034250-the-complete-hasse-minkowski-theorem.md",
+  "related_resources": [
+    {
+      "source_id": "nt-voight-hasse",
+      "reason": "The complete all-dimension proof via Legendre, an auxiliary prime from Dirichlet, and induction; section 14.3 was inspected in its open-access HTML text. Our presentation separates the local-value and prime-support steps."
+    },
+    {
+      "source_id": "nt-stoll-legendre",
+      "reason": "Sections 16–18 provide the convex-body theorem, the 3D lattice construction at odd primes and 2, and the ellipsoidal-cylinder proof of Legendre ternary local-global solvability. PDF page images 33–34 inspected."
+    },
+    {
+      "source_id": "nt-ntu-hilbert",
+      "reason": "Definitions, explicit formulas at odd primes and p=2, and rational Hilbert reciprocity. Pages 1–2 inspected; manuscript derives signs through norm groups."
+    },
+    {
+      "source_id": "nt-dirichlet-ap",
+      "reason": "Background reference"
+    },
+    {
+      "source_id": "nt-wiki-hasse-minkowski",
+      "reason": "Statement of the local-global principle for quadratic forms."
+    }
+  ],
+  "mathematical_claims": [
+    {
+      "id": "034250-m01",
+      "anchor": "then it has a nonzero rational solution.",
+      "source_ids": [
+        "nt-voight-hasse",
+        "nt-wiki-hasse-minkowski"
+      ],
+      "source_locator": "Hasse–Minkowski theorem over Q",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "034250-m02",
+      "anchor": "This all-but-one form of the ternary theorem is the hinge of the induction.",
+      "source_ids": [
+        "nt-stoll-legendre",
+        "nt-voight-hasse"
+      ],
+      "source_locator": "Ternary base and one-missing-local-factor",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "034250-m03",
+      "anchor": "choose a nonzero local value t-sub-p represented by both A and B.",
+      "source_ids": [
+        "nt-voight-hasse"
+      ],
+      "source_locator": "Split representation and common-value lemma",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "034250-m04",
+      "anchor": "The prime q is the only place where the extra factor t might spoil a simple unit-coefficient argument.",
+      "source_ids": [
+        "nt-voight-hasse"
+      ],
+      "source_locator": "Auxiliary-prime support",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "034250-m05",
+      "anchor": "We have proved the theorem for one and two variables, for three variables by Legendre's theorem, and for every higher dimension by induction.",
+      "source_ids": [
+        "nt-voight-hasse"
+      ],
+      "source_locator": "Complete global induction proof",
+      "audit_status": "reading_reference_recorded"
+    }
+  ],
+  "historical_claims": []
+}

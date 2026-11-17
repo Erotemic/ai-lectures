@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "lecture_id": "036750",
+  "transcript": "036750-cyclotomic-ramification-jumps.md",
+  "related_resources": [
+    {
+      "source_id": "nt-berkeley-local-fields",
+      "reason": "Higher ramification, Herbrand upper numbering, and explicit cyclotomic filtration; see chapter 9 for quotient theorem and p-power examples."
+    },
+    {
+      "source_id": "nt-sharifi-ramification",
+      "reason": "Independent source for lower ramification groups, different, and ramification breaks."
+    },
+    {
+      "source_id": "nt-mit-different-2021",
+      "reason": "Author-instructor lecture text, pages 1, 2, 5, 7 and 10 inspected; defines codifferent, norm equality, discriminant and ramification tests; theorem statements for tame different and towers. New manuscripts supply their own derivations and proofs."
+    },
+    {
+      "source_id": "nt-wiki-cyclotomic-field",
+      "reason": "Prime-power cyclotomic fields, roots of unity and discriminants."
+    },
+    {
+      "source_id": "nt-wiki-ramification-group",
+      "reason": "Background definitions of higher ramification groups and filtrations."
+    }
+  ],
+  "mathematical_claims": [
+    {
+      "id": "036750-depth",
+      "anchor": "the valuation, measured in the larger field, is p to the k.",
+      "source_ids": [
+        "nt-berkeley-local-fields",
+        "nt-sharifi-ramification"
+      ],
+      "source_locator": "Cyclotomic uniformizer in subfield and ramification-index scaling.",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "036750-ninegroups",
+      "anchor": "G one and G two each have the three members one, four, and seven.",
+      "source_ids": [
+        "nt-berkeley-local-fields",
+        "nt-wiki-ramification-group"
+      ],
+      "source_locator": "Explicit Galois units mod 9.",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "036750-sixteen",
+      "anchor": "The total is twenty-four.",
+      "source_ids": [
+        "nt-berkeley-local-fields",
+        "nt-wiki-cyclotomic-field"
+      ],
+      "source_locator": "Lower-group sum for Q_2(zeta_16).",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "036750-general",
+      "anchor": "We have recovered the familiar prime-power cyclotomic different exponent.",
+      "source_ids": [
+        "nt-berkeley-local-fields",
+        "nt-wiki-cyclotomic-field"
+      ],
+      "source_locator": "Prime-power group counts and telescoping Hilbert formula.",
+      "audit_status": "reading_reference_recorded"
+    }
+  ],
+  "historical_claims": []
+}

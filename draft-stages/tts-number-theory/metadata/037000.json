@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "lecture_id": "037000",
+  "transcript": "037000-upper-numbering-and-herbrand.md",
+  "related_resources": [
+    {
+      "source_id": "nt-berkeley-local-fields",
+      "reason": "Higher ramification, Herbrand upper numbering, and explicit cyclotomic filtration; see chapter 9 for quotient theorem and p-power examples."
+    },
+    {
+      "source_id": "nt-kedlaya-ramification",
+      "reason": "Author-maintained lecture notes on local ramification groups and Herbrand functions; used for theorem-level cross-checks."
+    },
+    {
+      "source_id": "nt-sharifi-cft",
+      "reason": "Upper numbering, local reciprocity and unit filtration; general quotient and conductor identifications cited, not proved in this continuation."
+    },
+    {
+      "source_id": "nt-wiki-ramification-group",
+      "reason": "Background definitions of higher ramification groups and filtrations."
+    },
+    {
+      "source_id": "nt-wiki-hasse-arf",
+      "reason": "Abelian upper-break integrality; mentioned as an external theorem, not proved."
+    }
+  ],
+  "mathematical_claims": [
+    {
+      "id": "037000-subgroup",
+      "anchor": "the intersections of H with the lower ramification groups of L over K.",
+      "source_ids": [
+        "nt-kedlaya-ramification",
+        "nt-sharifi-ramification"
+      ],
+      "source_locator": "Lower numbering subgroup compatibility.",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "037000-change",
+      "anchor": "the speed of this new clock is the fraction of inertia still present at the current lower level.",
+      "source_ids": [
+        "nt-berkeley-local-fields",
+        "nt-sharifi-cft"
+      ],
+      "source_locator": "Herbrand function definition.",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "037000-quotient",
+      "anchor": "the image of G superscript u under the quotient map to G modulo H is exactly the upper ramification group of M over K at that same u.",
+      "source_ids": [
+        "nt-berkeley-local-fields",
+        "nt-sharifi-cft"
+      ],
+      "source_locator": "Herbrand quotient theorem; explicitly cited not generally proved.",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "037000-hassearf",
+      "anchor": "the Hasse–Arf theorem says all upper ramification breaks are integers.",
+      "source_ids": [
+        "nt-sharifi-cft",
+        "nt-wiki-hasse-arf"
+      ],
+      "source_locator": "Abelian upper-break integrality; cited not proved.",
+      "audit_status": "reading_reference_recorded"
+    }
+  ],
+  "historical_claims": []
+}

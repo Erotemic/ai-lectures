@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "lecture_id": "033250",
+  "transcript": "033250-five-variables-over-the-two-adics.md",
+  "related_resources": [
+    {
+      "source_id": "nt-voight-hasse",
+      "reason": "The complete all-dimension proof via Legendre, an auxiliary prime from Dirichlet, and induction; section 14.3 was inspected in its open-access HTML text. Our presentation separates the local-value and prime-support steps."
+    },
+    {
+      "source_id": "nt-stoll-legendre",
+      "reason": "Sections 16–18 provide the convex-body theorem, the 3D lattice construction at odd primes and 2, and the ellipsoidal-cylinder proof of Legendre ternary local-global solvability. PDF page images 33–34 inspected."
+    },
+    {
+      "source_id": "nt-conrad-hensel",
+      "reason": "Detailed simple-root, strengthened-valuation and Newton methods; first page and extracted mathematical proof inspected."
+    },
+    {
+      "source_id": "nt-wiki-quadratic-form",
+      "reason": "Diagonalization, isotropy, and quadratic forms background."
+    },
+    {
+      "source_id": "nt-wiki-hasse-minkowski",
+      "reason": "Statement of the local-global principle for quadratic forms."
+    }
+  ],
+  "mathematical_claims": [
+    {
+      "id": "033250-m01",
+      "anchor": "every quadratic form in five or more variables over Q-two has a nontrivial zero.",
+      "source_ids": [
+        "nt-stoll-legendre",
+        "nt-voight-hasse"
+      ],
+      "source_locator": "Local u-invariant of Q2, explicit elementary proof here",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "033250-m02",
+      "anchor": "Three is strictly greater than twice one.",
+      "source_ids": [
+        "nt-conrad-hensel"
+      ],
+      "source_locator": "Strong Hensel threshold v(f)>2v(f prime) at 2",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "033250-m03",
+      "anchor": "Those subset sums attain every even residue modulo eight.",
+      "source_ids": [
+        "nt-voight-hasse"
+      ],
+      "source_locator": "Explicit finite residue argument checked exhaustively",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "033250-m04",
+      "anchor": "We have now proved that every nondegenerate five-variable quadratic form over Q-two is isotropic.",
+      "source_ids": [
+        "nt-voight-hasse",
+        "nt-wiki-quadratic-form"
+      ],
+      "source_locator": "Complete mod-8/Hensel proof",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "033250-m05",
+      "anchor": "This is an anisotropic four-variable form over Q-two.",
+      "source_ids": [
+        "nt-mit-local-10",
+        "nt-voight-hasse"
+      ],
+      "source_locator": "Unramified quadratic norm valuation parity",
+      "audit_status": "reading_reference_recorded"
+    }
+  ],
+  "historical_claims": []
+}

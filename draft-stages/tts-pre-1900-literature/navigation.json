@@ -305,12 +305,13 @@
     },
     {
       "id": "journey-west-expanded",
-      "title": "Journey to the West · Expanded Retelling (Chapters 1–87; In Progress)",
+      "title": "Journey to the West · Complete Expanded Retelling (Chapters 1–100)",
       "role": "deep_dive",
       "parent": "survey",
-      "summary": "Detailed story-first retelling through selected-witness chapter 87, in 72 playable manuscripts. Chapters 88–100 remain to be written. Use the linked overview for the complete story.",
+      "summary": "Original scene-first English retelling of all 100 selected-witness chapters in 85 playable manuscripts, with chapter-level Chinese primary sources, evidence records and reading guides. Chapter 9 follows an edition-sensitive inserted account.",
       "related_collections": [
-        "world-history:journey-west"
+        "world-history:journey-west",
+        "journey-west-criticism"
       ],
       "include_sections": [
         "late-ming-chinese-novel-journey-to-the-west-expanded-retelling"
@@ -492,6 +493,20 @@
       ],
       "summary": "Full existing narrative and critical sequence. The guided survey links a shorter selection.",
       "related_collections": []
+    },
+    {
+      "id": "journey-west-criticism",
+      "title": "Journey to the West · Seven Critical Lectures",
+      "role": "deep_dive",
+      "parent": "survey",
+      "summary": "Analysis only, in seven spoken essays after the completed 100-chapter retelling; source notes distinguish selected Chinese text from scholarly descriptions and abstracts.",
+      "related_collections": [],
+      "include_sections": [
+        "late-ming-chinese-novel-journey-to-the-west-critical-study"
+      ],
+      "preparation_collections": [
+        "journey-west-expanded"
+      ]
     }
   ]
 }

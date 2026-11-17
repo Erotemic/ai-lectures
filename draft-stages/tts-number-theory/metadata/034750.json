@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "lecture_id": "034750",
+  "transcript": "034750-trace-pairings-and-discriminants.md",
+  "related_resources": [
+    {
+      "source_id": "nt-mit-different-2021",
+      "reason": "Author-instructor lecture text, pages 1, 2, 5, 7 and 10 inspected; defines codifferent, norm equality, discriminant and ramification tests; theorem statements for tame different and towers. New manuscripts supply their own derivations and proofs."
+    },
+    {
+      "source_id": "nt-wiki-field-discriminant",
+      "reason": "Quadratic discriminants and lattice covolumes."
+    },
+    {
+      "source_id": "nt-wiki-different",
+      "reason": "Background definition and historical naming, not the primary proof source."
+    },
+    {
+      "source_id": "nt-wiki-quadratic-field",
+      "reason": "Basic terminology and ring-of-integers classification."
+    }
+  ],
+  "mathematical_claims": [
+    {
+      "id": "034750-m01",
+      "anchor": "The matrix of the trace pairing in our basis is the transpose of that embedding matrix times the embedding matrix itself.",
+      "source_ids": [
+        "nt-mit-different-2021",
+        "nt-wiki-field-discriminant"
+      ],
+      "source_locator": "Lecture 12, Proposition 12.6 (trace as embedding matrix); manuscript derives it.",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "034750-m02",
+      "anchor": "the discriminant of a finite-index sublattice is the discriminant of the full lattice times the square of the index.",
+      "source_ids": [
+        "nt-mit-different-2021",
+        "nt-wiki-field-discriminant"
+      ],
+      "source_locator": "Lecture 12, Gram matrix and change-of-basis; proof given here.",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "034750-m03",
+      "anchor": "Its determinant is six minus one, or five.",
+      "source_ids": [
+        "nt-wiki-quadratic-field",
+        "nt-wiki-field-discriminant"
+      ],
+      "source_locator": "Q(sqrt5) integral basis and trace matrix calculation.",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "034750-m04",
+      "anchor": "the finite quotient of the dual lattice by the original ring has exactly the absolute value of the field discriminant many elements.",
+      "source_ids": [
+        "nt-mit-different-2021",
+        "nt-wiki-different"
+      ],
+      "source_locator": "Lecture 12, trace-dual index identity.",
+      "audit_status": "reading_reference_recorded"
+    }
+  ],
+  "historical_claims": []
+}

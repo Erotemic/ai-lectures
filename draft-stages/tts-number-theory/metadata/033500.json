@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "lecture_id": "033500",
+  "transcript": "033500-legendre-and-a-lattice-in-a-cylinder.md",
+  "related_resources": [
+    {
+      "source_id": "nt-stoll-legendre",
+      "reason": "Sections 16–18 provide the convex-body theorem, the 3D lattice construction at odd primes and 2, and the ellipsoidal-cylinder proof of Legendre ternary local-global solvability. PDF page images 33–34 inspected."
+    },
+    {
+      "source_id": "nt-voight-hasse",
+      "reason": "The complete all-dimension proof via Legendre, an auxiliary prime from Dirichlet, and induction; section 14.3 was inspected in its open-access HTML text. Our presentation separates the local-value and prime-support steps."
+    },
+    {
+      "source_id": "nt-wiki-minkowski",
+      "reason": "Geometry-of-numbers convex-body theorem."
+    },
+    {
+      "source_id": "nt-wiki-hasse-minkowski",
+      "reason": "Statement of the local-global principle for quadratic forms."
+    },
+    {
+      "source_id": "nt-reciprocity",
+      "reason": "Background reference"
+    }
+  ],
+  "mathematical_claims": [
+    {
+      "id": "033500-m01",
+      "anchor": "We can reduce further until a, b, and c are squarefree and pairwise coprime.",
+      "source_ids": [
+        "nt-stoll-legendre"
+      ],
+      "source_locator": "Rational substitutions and squarefree-pairwise-coprime coefficient reduction",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "033500-m02",
+      "anchor": "This is an index-p sublattice of the full integer lattice.",
+      "source_ids": [
+        "nt-stoll-legendre"
+      ],
+      "source_locator": "Index of modular linear condition",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "033500-m03",
+      "anchor": "the resulting lattice has index exactly two D",
+      "source_ids": [
+        "nt-stoll-legendre"
+      ],
+      "source_locator": "CRT independent local lattices",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "033500-m04",
+      "anchor": "four times the square root of two, times pi, times D.",
+      "source_ids": [
+        "nt-stoll-legendre"
+      ],
+      "source_locator": "Elliptic cylinder volume, page 34",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "033500-m05",
+      "anchor": "We have proved a rational solution exists",
+      "source_ids": [
+        "nt-stoll-legendre",
+        "nt-voight-hasse"
+      ],
+      "source_locator": "Minkowski convex-body proof of Legendre theorem",
+      "audit_status": "reading_reference_recorded"
+    }
+  ],
+  "historical_claims": []
+}

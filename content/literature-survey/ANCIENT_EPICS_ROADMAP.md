@@ -1,7 +1,7 @@
 # Ancient Epics and Narrative Traditions — editorial roadmap
 
 **Prepared:** 2026-11-16
-**Updated:** 2026-11-16 — four written-work installments completed; living oral-tradition strand preserved
+**Updated:** 2026-11-17 — eighth geographic rotation and major world classics additions through `078000` integrated
 **Status:** active editorial queue; published lecture IDs are maintained in `track.json`
 **Owning pack for new standalone readings:** `content/literature-survey/`
 **Listening route:** `literature-survey:ancient-narratives`
@@ -390,8 +390,4 @@ possible; no historical or manuscript claims without suitable corroboration.
 6. **Publish only complete manuscripts.** Update pack-local track/route metadata, provenance, and source records when there is a usable lecture. A roadmap entry alone never enters the runtime catalog. Run focused checks and listening-route audit; avoid unrelated repo-wide builds.
 7. **Deliver one content-only ZIP overlay per iteration.** Apply it with `python tools/content_overlay.py apply ZIP`; do not overwrite shared World History files without an explicit coordination step. Each delivery should include verification and Git add/commit commands.
 
-**Working checkpoint:** The first four written-work commissions have been
-authored above. Resume at *Zhuangzi*, *The Golden Ass*, *Exodus*, and
-*Śakuntalā* unless new source work changes the order. Gunditjmara and
-Klamath educational encounters are indexed separately as living traditions;
-continue to honor their source limitations and attribution boundaries.
+**Working checkpoint:** Imported additions through `078000` are now indexed in a 76-manuscript pack. Continue from `WORLD_CLASSICS_GAP_AUDIT.md`, checking the live inventory before reserving IDs. The Nights and Kojiki coverage is selected, not exhaustive; Gita chapters 1–18 and the complete received Beowulf poem have dedicated treatments. Earlier commission lists above are dated planning history. Gunditjmara and Klamath encounters remain distinct living traditions with their source and attribution limits.

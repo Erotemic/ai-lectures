@@ -1,6 +1,6 @@
 # Number Theory from First Principles
 
-A proof-driven course connecting integer arithmetic with algorithms, algebraic structure, and analytic number theory. It starts with gcds, congruences, integer equations, reciprocity, and finite fields, and develops the analytic machinery for complete proofs of **Dirichlet's theorem**, the **prime number theorem**, and **Dedekind prime-ideal factorization**, with ideal norms, and now connects splitting of primes to quadratic forms and ideal classes. The course currently contains **54 substantive lectures**.
+A proof-driven course connecting integer arithmetic with algorithms, algebraic structure, and analytic number theory. It starts with gcds, congruences, integer equations, reciprocity, and finite fields, and develops the analytic machinery for complete proofs of **Dirichlet's theorem**, the **prime number theorem**, and **Dedekind prime-ideal factorization**, with ideal norms, and now connects splitting of primes to quadratic forms and ideal classes. The course currently contains **72 substantive lectures**.
 
 The opening lectures assume only integer arithmetic, fractions, elementary algebra, and a willingness to follow proofs. Later lectures build their own analysis and character foundations rather than presupposing advanced number theory. Each manuscript has one extractable spoken lecture and a display-only mathematical companion with worked equations, exercises, claim-level reading records, and Wikipedia references. Length and word counts describe the manuscripts; they are not duration targets.
 
@@ -62,8 +62,26 @@ The opening lectures assume only integer arithmetic, fractions, elementary algeb
 | `032500` | [The Prime Two: Eight Square Classes and the Hilbert Symbol](032500-the-prime-two-and-the-hilbert-symbol.md) | 1,813 |
 | `032750` | [Quadratic Forms over Local Fields: From Diagonalization to Isotropy](032750-local-quadratic-forms-and-isotropy.md) | 1,667 |
 | `033000` | [Hilbert Reciprocity: One Identity Across Every Prime and Infinity](033000-hilbert-reciprocity-from-quadratic-reciprocity.md) | 1,384 |
+| `033250` | [Five Variables at the Prime Two](033250-five-variables-over-the-two-adics.md) | 1,538 |
+| `033500` | [Legendre's Ternary Theorem: A Lattice Inside a Cylinder](033500-legendre-and-a-lattice-in-a-cylinder.md) | 1,711 |
+| `033750` | [A Local Condition You Can Leave Unchecked](033750-hilbert-reciprocity-and-one-missing-place.md) | 1,592 |
+| `034000` | [The Auxiliary Prime: Matching Local Values with One Rational Number](034000-choosing-one-auxiliary-prime.md) | 1,613 |
+| `034250` | [Hasse–Minkowski: From Every Completion to One Rational Zero](034250-the-complete-hasse-minkowski-theorem.md) | 1,931 |
+| `034500` | [What Hasse–Minkowski Gives Us, and What It Does Not](034500-quadratic-values-isometry-and-integral-limits.md) | 1,694 |
+| `034750` | [Trace Pairings, Dual Lattices, and Discriminants](034750-trace-pairings-and-discriminants.md) | 1,587 |
+| `035000` | [The Codifferent and Why a Polynomial Derivative Appears](035000-the-codifferent-and-polynomial-derivatives.md) | 1,745 |
+| `035250` | [Ramification Exponents: Tame Primes, Wild Primes, and the Different](035250-tame-and-wild-local-different.md) | 1,658 |
+| `035500` | [Discriminants in Towers: Local Exponents and Global Norms](035500-discriminants-in-towers-and-at-primes.md) | 1,715 |
+| `035750` | [Quadratic Discriminants and the Prime Two](035750-quadratic-discriminants-and-the-prime-two.md) | 1,732 |
+| `036000` | [Roots of Unity, Ramification, and Cyclotomic Discriminants](036000-cyclotomic-ramification-and-discriminants.md) | 1,720 |
+| `036250` | [Higher Ramification Groups: How Closely an Automorphism Fixes an Integer](036250-higher-ramification-groups-from-congruences.md) | 1,677 |
+| `036500` | [Hilbert's Different Formula: Counting the Depth of Wild Ramification](036500-hilberts-different-formula.md) | 1,661 |
+| `036750` | [Wild Ramification in Cyclotomic Towers: Ninth and Sixteenth Roots](036750-cyclotomic-ramification-jumps.md) | 1,744 |
+| `037000` | [Upper Ramification Numbering: A Clock That Respects Quotients](037000-upper-numbering-and-herbrand.md) | 1,677 |
+| `037250` | [Artin and Swan Conductors: Ramification Seen by a Representation](037250-artin-and-swan-conductors.md) | 1,654 |
+| `037500` | [The Conductor-Discriminant Formula: One Field, Many Characters](037500-conductor-discriminant-formula.md) | 1,960 |
 
-**Total:** 54 indexed lectures, **103,972 spoken words**. 
+**Total:** 72 indexed lectures, **134,581 spoken words**.
 
 ## Proven theorems and open boundaries
 
@@ -116,8 +134,44 @@ The opening lectures assume only integer arithmetic, fractions, elementary algeb
 - **032750:** exact local ternary isotropy criterion via Hilbert symbols, anisotropic quaternary norm forms, and a proof that every quadratic form of dimension at least five over Q_p is isotropic for odd p. General local isometry classification and the p=2 five-variable theorem are cited, not proved.
 - **033000:** proves rational Hilbert reciprocity by an exhaustive generator reduction to quadratic reciprocity and its supplementary laws, accounting for both p=2 and the real place.
 
-**Remaining boundaries:** the full Hasse–Minkowski local-to-global existence proof, the p=2 five-variable isotropy theorem and complete local classification, the local different/discriminant and higher ramification groups, nonmaximal quadratic orders, narrow classes, and advanced analytic number theory.
+**Boundaries after Continuation 11 (now partly closed in Continuation 12):** the full Hasse–Minkowski local-to-global proof and the p=2 five-variable bound are completed below. Complete local classification, local different/discriminant, higher ramification, nonmaximal orders, narrow classes, and advanced analytic number theory remain open.
 
 ## Related tracks and attribution
 
 The course now supplies prerequisites for abstract algebra, functional analysis, computational number theory, and further analytic number theory. Only files under this content pack are changed. Scholarly references, formal proof developments, and Wikipedia background are recorded in the pack-local `metadata/` directory, with authorship history in `provenance.yaml`. Source records distinguish citation and independent exposition from any claim of copying a proof.
+
+
+**Completed in Continuation 12 (Hasse–Minkowski, fully developed):**
+
+- **033250:** proves the five-variable isotropy theorem over Q_2 using a uniform modulo-8 case construction and strong Hensel lifting; supplies a four-variable anisotropic norm example.
+- **033500:** proves Legendre's local–global theorem for all rational ternary forms by squarefree reduction, odd-prime and prime-2 congruence sublattices, a 3D Minkowski convex-body argument, and the exact determinant/volume inequality.
+- **033750:** derives the all-but-one-place ternary principle using the previously proved Hilbert product formula, and proves the finite-field unit-ternary and nonzero common-value lemmas.
+- **034000:** proves square-class interpolation at finitely many primes with one auxiliary prime outside the set, using CRT and the previously proved Dirichlet theorem; verifies a worked example with t=69.
+- **034250:** gives the complete dimension induction for Hasse–Minkowski over Q, treating n=1,2,3,4 separately and handling the auxiliary prime for n>=5.
+- **034500:** derives rational value representation and rational isometry, proves one-dimensional Witt cancellation by reflections, and contrasts rational solvability with integral local–global failure using x²+xy+6y²=2. Selmer's cubic is a cited boundary example, not a proved theorem.
+
+**Still outside current proof scope:** full Hasse–Minkowski over arbitrary number fields; algorithms and effective size bounds for rational solutions; complete classification of p-adic forms by Hasse invariants; local different/discriminant, higher ramification, and the arithmetic of integral quadratic-form genera.
+
+
+**Completed in Continuation 13 (different, discriminant, and ramification):**
+
+- **034750:** constructs the trace Gram determinant and integral dual, proves basis-change and index-square laws, and computes the Q(sqrt5) index trap.
+- **035000:** defines the codifferent/different as fractional ideals, proves the monogenic derivative formula by interpolation, and derives discriminant = ideal norm of different.
+- **035250:** proves the tame different exponent d=e−1 and the strict wild inequality d>e−1 from Eisenstein derivatives; explains the discriminant ramification criterion with local trace algebras.
+- **035500:** proves the different/discriminant tower formulas and the local-to-global exponent sum; checks Q ⊂ Q(i) ⊂ Q(zeta_8).
+- **035750:** derives quadratic fundamental discriminants and p=2 exponents 0,2,3, with concrete tame and wild local calculations.
+- **036000:** proves prime-power cyclotomic maximality and the complete discriminant formula by the Eisenstein shift and derivative norms.
+
+**Still beyond proof scope:** general composite-conductor cyclotomic discriminants, higher ramification groups and conductor formulas, general Artin conductors, integral quadratic-form genera and local isometry classification.
+
+
+**Completed in Continuation 14 (higher ramification and conductors):**
+
+- **036250:** lower ramification filtration from congruence depth; proves subgroup normality, inertia and wild inertia, tame multiplicative quotient and additive graded quotients.
+- **036500:** proves Hilbert's different formula from the monogenic local different and double counting; extracts tame/wild bounds and the residue-degree norm weight.
+- **036750:** computes the complete lower filtration for ninth and sixteenth roots of unity and the full prime-power cyclotomic family, recovering discriminant exponents independently.
+- **037000:** constructs upper numbering, computes cyclotomic upper breaks, verifies quotient compatibility in prime-power cyclotomic towers; **general Herbrand quotient theorem is cited, not proved**.
+- **037250:** defines Artin and Swan conductors, proves elementary fixed-space and direct-sum properties and the one-dimensional break formula, with explicit 3-adic and 2-adic characters. **General nonabelian integrality is cited, not proved**.
+- **037500:** proves local conductor-discriminant identity by the regular representation, counts exact cyclotomic character conductors, and derives the abelian global formula **using the cited general Herbrand and Kronecker-Weber theorems**.
+
+**Still outside proof scope:** general Herbrand quotient proof, Hasse-Arf, local class field theory and reciprocity, Kronecker-Weber, nonabelian Artin conductor integrality, composite-conductor cyclotomic discriminants, and the deeper general theory of ramification groups beyond cyclotomic towers. No claim of machine-verified mathematics is made.

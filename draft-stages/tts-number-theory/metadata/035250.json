@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "lecture_id": "035250",
+  "transcript": "035250-tame-and-wild-local-different.md",
+  "related_resources": [
+    {
+      "source_id": "nt-mit-different-2021",
+      "reason": "Author-instructor lecture text, pages 1, 2, 5, 7 and 10 inspected; defines codifferent, norm equality, discriminant and ramification tests; theorem statements for tame different and towers. New manuscripts supply their own derivations and proofs."
+    },
+    {
+      "source_id": "nt-mit-local-11",
+      "reason": "Unramified and totally ramified towers; uniformizer generates a totally ramified extension with Eisenstein minimal polynomial."
+    },
+    {
+      "source_id": "nt-wiki-ramification",
+      "reason": "Background on ramified primes."
+    },
+    {
+      "source_id": "nt-wiki-different",
+      "reason": "Background definition and historical naming, not the primary proof source."
+    }
+  ],
+  "mathematical_claims": [
+    {
+      "id": "035250-m01",
+      "anchor": "the exponent of the different, measured in the normalized valuation of L, is e minus one.",
+      "source_ids": [
+        "nt-mit-different-2021",
+        "nt-mit-local-11"
+      ],
+      "source_locator": "Tame different exponent equality; explicit Eisenstein-derivative argument in manuscript.",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "035250-m02",
+      "anchor": "wild ramification forces the different exponent strictly above e minus one.",
+      "source_ids": [
+        "nt-mit-different-2021",
+        "nt-mit-local-11"
+      ],
+      "source_locator": "Wild strict inequality for finite characteristic-zero local fields; coefficient valuation proof.",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "035250-m03",
+      "anchor": "Their product has valuation three.",
+      "source_ids": [
+        "nt-wiki-ramification",
+        "nt-mit-different-2021"
+      ],
+      "source_locator": "Q2(sqrt2), normalized local valuation v(sqrt2)=1,v(2)=2.",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "035250-m04",
+      "anchor": "So the different exponent is two.",
+      "source_ids": [
+        "nt-wiki-field-discriminant",
+        "nt-mit-different-2021"
+      ],
+      "source_locator": "Q2(i) derivative 2i, local exponent 2.",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "035250-m05",
+      "anchor": "a prime divides the discriminant precisely when the extension ramifies there.",
+      "source_ids": [
+        "nt-mit-different-2021",
+        "nt-wiki-field-discriminant"
+      ],
+      "source_locator": "Lecture 12 Theorem 12.19. Finite algebra trace pairing criterion proved in manuscript.",
+      "audit_status": "reading_reference_recorded"
+    }
+  ],
+  "historical_claims": []
+}

@@ -1700,6 +1700,265 @@
       "url": "https://en.wikipedia.org/wiki/Zamyad_Yasht",
       "access": "free_no_login",
       "notes": "Orientation; controlling paragraph locators from public-domain text."
+    },
+    "anc-ruth-sefaria": {
+      "title": "Sefaria, Book of Ruth 1:1–4:22, Hebrew Masoretic text and English translation",
+      "kind": "primary_hebrew_text_with_translation",
+      "url": "https://www.sefaria.org/Ruth.1.1-4.22",
+      "access": "free_no_login",
+      "notes": "Locators Ruth chapter and verse; quoted translation is not used verbatim."
+    },
+    "anc-ruth-critical": {
+      "title": "Sefaria, About the Book of Ruth",
+      "kind": "textual_context",
+      "url": "https://www.sefaria.org/Ruth.1?with=About",
+      "access": "free_no_login",
+      "notes": "Basic textual status, canonical placement and Shavuot reading. Composition date debated."
+    },
+    "anc-ruth-wiki": {
+      "title": "Wikipedia, Book of Ruth",
+      "kind": "orientation_wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Book_of_Ruth",
+      "access": "free_no_login",
+      "notes": "Orientation; not a controlling textual witness."
+    },
+    "anc-jonah-sefaria": {
+      "title": "Sefaria, Book of Jonah, Hebrew Tanakh",
+      "kind": "primary_hebrew_text",
+      "url": "https://www.sefaria.org/Jonah.1",
+      "access": "free_no_login",
+      "notes": "Biblical book chapters 1–4; no independent historical proof for supernatural events."
+    },
+    "anc-jonah-usccb": {
+      "title": "US Conference of Catholic Bishops, Book of Jonah, 1–4",
+      "kind": "primary_hebrew_bible_translation_with_notes",
+      "url": "https://bible.usccb.org/bible/jonah/1",
+      "access": "free_no_login",
+      "notes": "Chapter paths /1 through /4; narratives and textual interpretation kept distinct."
+    },
+    "anc-jonah-wiki": {
+      "title": "Wikipedia, Book of Jonah",
+      "kind": "orientation_wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Book_of_Jonah",
+      "access": "free_no_login",
+      "notes": "Orientation only; whale identification not asserted."
+    },
+    "anc-bacchae-wiki": {
+      "title": "Wikipedia, The Bacchae",
+      "kind": "orientation_wikipedia",
+      "url": "https://en.wikipedia.org/wiki/The_Bacchae",
+      "access": "free_no_login",
+      "notes": "Orientation; no biographical history inferred from the mythic plot."
+    },
+    "anc-bacchae-greek": {
+      "title": "Euripides, Bacchae 1–1392, Greek and public-domain Buckley English, Perseus-derived line view",
+      "kind": "primary_greek_play_with_public_domain_translation",
+      "url": "https://new.greekmythology.com/sources/euripides/bacchae",
+      "access": "free_no_login",
+      "notes": "Line divisions 1–1392. Damaged concluding passages must be flagged."
+    },
+    "anc-bacchae-johnston": {
+      "title": "Ian Johnston, Euripides Bacchae, annotated line-numbered translation",
+      "kind": "independent_translation_and_commentary",
+      "url": "https://web.viu.ca/johnstoi/euripides/euripides.htm",
+      "access": "free_no_login",
+      "notes": "Used for interpretive cross-check, not reproduced; numbered brackets correspond to Greek lines."
+    },
+    "anc-kumarbi-scholar": {
+      "title": "Harry A. Hoffner Jr., Hittite Myths, Second Edition, SBL Press (1998)",
+      "kind": "scholarly_edition_context",
+      "url": "https://cart.sbl-site.org/books/061502P",
+      "access": "verified_publisher_catalog_page_full_book_not_inspected",
+      "notes": "Authoritative edition/translation identified through publisher; full book not collated in this installment. CTH 344 direct TITUS edition controls narrated claims."
+    },
+    "anc-kumarbi-wiki": {
+      "title": "Wikipedia, Kumarbi",
+      "kind": "orientation_wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Kumarbi",
+      "access": "free_no_login",
+      "notes": "Orientation, not primary attestation of every reconstructed passage."
+    },
+    "anc-kumarbi-titus": {
+      "title": "TITUS Frankfurt, Corpus of Hittite Mythological Texts, Song of Kumarbi / CTH 344 German translation",
+      "kind": "primary_hittite_fragmentary_edition_translation",
+      "url": "https://titus.uni-frankfurt.de/texte/etcs/anatol/hittite/cthtr/cthtr122.htm",
+      "access": "free_no_login",
+      "notes": "CTH 344/KUB 33.120+. Opening 9-year reigns lines 9–50 well-attested; birth and conclusion fragmentary."
+    },
+    "anc-illuyanka-titus": {
+      "title": "TITUS Frankfurt, Illuyanka CTH 321 primary Hittite witnesses and German translation",
+      "kind": "primary_hittite_edition_translation",
+      "url": "https://titus.uni-frankfurt.de/texte/etcs/anatol/hittite/cthtr/cthtr001.htm",
+      "access": "free_no_login",
+      "notes": "CTH 321, mainly KBo 3.7; two variants must be held apart."
+    },
+    "anc-illuyanka-wiki": {
+      "title": "Wikipedia, Illuyanka",
+      "kind": "orientation_wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Illuyanka",
+      "access": "free_no_login",
+      "notes": "Orientation; do not harmonize variant stories."
+    },
+    "anc-illuyanka-goede": {
+      "title": "Petra Goedegebuure, The Illuyanka Myth: A Hittite Saturnalia?, ECIEC 43",
+      "kind": "philological_scholarship_with_paragraph_translation",
+      "url": "https://linguistics.uga.edu/sites/default/files/2024-07/The%20Illuyanka%20Myth%20Hittite%20Saturnalia.pdf",
+      "access": "free_no_login",
+      "notes": "CTH 321 sections with philological discussion. Hupasiya fate damaged; ritual context."
+    },
+    "anc-shijing-wiki": {
+      "title": "Wikipedia, Classic of Poetry",
+      "kind": "orientation_wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Classic_of_Poetry",
+      "access": "free_no_login",
+      "notes": "Useful orientation only, not basis for historical biographical claims."
+    },
+    "anc-shijing-legge": {
+      "title": "Shi Jing, received Chinese 305-poem text with James Legge English (1871)",
+      "kind": "primary_chinese_text_with_public_domain_translation",
+      "url": "https://xinxingren.gen.nz/classics/%E8%A9%A9%E7%B6%93_Book_of_Odes.html",
+      "access": "free_no_login",
+      "notes": "Standard sequence numbers; translations have dated interpretive assumptions. Primary Chinese controls selections."
+    },
+    "anc-shijing-cup": {
+      "title": "Columbia University Press, The Classic of Poetry, modern scholarly translation catalog",
+      "kind": "modern_editorial_context",
+      "url": "https://cup.columbia.edu/book/the-classic-of-poetry/9789882374263/",
+      "access": "free_catalog_page",
+      "notes": "Reception and textual scholarship. Specific modern translated poems not reproduced."
+    },
+    "anc-rigveda-jamison": {
+      "title": "Stephanie W. Jamison and Joel P. Brereton, The Rigveda: The Earliest Religious Poetry of India (2014)",
+      "kind": "scholarly_translation_and_interpretation",
+      "url": "https://doi.org/10.1093/oso/9780190633363.001.0001",
+      "access": "book_metadata",
+      "notes": "Research reference for dialogue-hymn interpretation, not quoted in narration."
+    },
+    "anc-rigveda-utexas": {
+      "title": "University of Texas Linguistics Research Center, Rigveda Metrically Restored Text Book 10, Thomson and Slocum",
+      "kind": "primary_vedic_sanskrit_text_scholarly_edition",
+      "url": "https://lrc.la.utexas.edu/books/rigveda/RV10",
+      "access": "free_no_login",
+      "notes": "Sanskrit verses 10.10, 10.95 and 10.108. Read alongside translation."
+    },
+    "anc-rigveda-wiki": {
+      "title": "Wikipedia, Rigveda",
+      "kind": "orientation_wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Rigveda",
+      "access": "free_no_login",
+      "notes": "Orientation; composition and dating require specialist context."
+    },
+    "anc-rigveda-10-95": {
+      "title": "Rigveda 10.95 Urvashi/Pururavas Sanskrit and Griffith 1896 English",
+      "kind": "primary_vedic_text_and_public_domain_translation",
+      "url": "https://vmlt.in/rigveda/10/095",
+      "access": "free_no_login",
+      "notes": "18 verses; avoid importing later narrative sheep/lamb and nakedness episodes."
+    },
+    "anc-rigveda-10-108": {
+      "title": "Rigveda 10.108 Sarama and Panis Sanskrit and Griffith public-domain English",
+      "kind": "primary_vedic_text_and_public_domain_translation",
+      "url": "https://rigveda.live/rigveda/mandala-10/hymn-108",
+      "access": "free_no_login",
+      "notes": "11 verses; dialogue and ritual ending."
+    },
+    "anc-rigveda-10-10": {
+      "title": "Rigveda 10.10 Yama and Yami Sanskrit and Griffith public-domain English",
+      "kind": "primary_vedic_text_and_public_domain_translation",
+      "url": "https://www.vedicsamhita.in/vedas/rigveda/10/10",
+      "access": "free_no_login",
+      "notes": "14 verses; no narrated reconciliation."
+    },
+    "global-gita-wiki": {
+      "title": "Wikipedia: Bhagavad Gita",
+      "kind": "orientation_wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bhagavad_Gita",
+      "access": "free_no_login",
+      "notes": "Orientation only; not independent evidence for doctrine or manuscript history."
+    },
+    "global-gita-ochs": {
+      "title": "Oxford Centre for Hindu Studies, Mahabharata course: text, critical edition and narrative context",
+      "kind": "secondary_scholarly_context",
+      "url": "https://ochs-ced.s3.eu-west-1.amazonaws.com/132/Mahabharata-Session-1-31867.pdf",
+      "access": "free_no_login",
+      "notes": "Distinguishes Mahabharata Critical Edition from other manuscript traditions."
+    },
+    "global-gita-iitk": {
+      "title": "Heritage IIT Kanpur, Gita Supersite: Bhagavad Gita Sanskrit and multi-commentary corpus",
+      "kind": "primary_sanskrit_critical_access",
+      "url": "https://heritage.iitk.ac.in/SBG",
+      "access": "free_no_login",
+      "notes": "Use received Bhagavad Gita chapter:verse; chapter 13 verse number may vary by edition."
+    },
+    "global-beowulf-bl": {
+      "title": "British Library, Beowulf manuscript online overview",
+      "kind": "institutional_manuscript_context",
+      "url": "https://www.bl.uk/stories/blogs/posts/beowulf-online",
+      "access": "free_no_login",
+      "notes": "Cotton Vitellius A.xv, Nowell Codex, fire damage."
+    },
+    "global-beowulf-wiki": {
+      "title": "Wikipedia: Beowulf",
+      "kind": "orientation_wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Beowulf",
+      "access": "free_no_login",
+      "notes": "Orientation only."
+    },
+    "global-beowulf-electronic": {
+      "title": "Kevin Kiernan (ed.), Electronic Beowulf, fifth edition, British Library/University of Kentucky (2026)",
+      "kind": "old_english_primary_manuscript_edition",
+      "url": "https://ebeowulf.uky.edu/",
+      "access": "free_no_login",
+      "notes": "Single unique Old English manuscript; cite poem lines and distinguish manuscript date from composition."
+    },
+    "global-beowulf-gummere": {
+      "title": "Francis B. Gummere, Beowulf, public-domain English poetic translation",
+      "kind": "public_domain_primary_translation",
+      "url": "https://www.gutenberg.org/ebooks/981",
+      "access": "free_no_login",
+      "notes": "Historical translation helps cross-check plot; present narration is new prose, not a copied translation."
+    },
+    "global-nights-burton": {
+      "title": "R. F. Burton, The Book of the Thousand Nights and a Night, volume I (1885), public-domain English translation",
+      "kind": "named_english_translation_witness",
+      "url": "https://www.gutenberg.org/files/3435/3435-h/3435-h.htm",
+      "access": "free_no_login",
+      "notes": "Controlling version for the selected frame, merchant/jinni, fisherman/jinni and nested tales; later printed witness, not an oldest Arabic original."
+    },
+    "global-nights-wiki": {
+      "title": "Wikipedia: One Thousand and One Nights",
+      "kind": "orientation_wikipedia",
+      "url": "https://en.wikipedia.org/wiki/One_Thousand_and_One_Nights",
+      "access": "free_no_login",
+      "notes": "Orientation only, tales not assumed present in all recensions."
+    },
+    "global-nights-reynolds": {
+      "title": "Dwight F. Reynolds, A Thousand and One Nights: a history of the text and its reception, Cambridge",
+      "kind": "scholarly_text_history",
+      "url": "https://www.cambridge.org/core/books/abs/arabic-literature-in-the-post-classical-period/a-thousand-and-one-nights-a-history-of-the-text-and-its-reception/04195D921D03585DBFE3E4E2EDD80E7E",
+      "access": "abstract_public_full_text_may_require_access",
+      "notes": "For earliest witness, layered transmission, additions, and editorial interpretation."
+    },
+    "global-kojiki-chamberlain": {
+      "title": "Basil Hall Chamberlain (translator), Kojiki or Records of Ancient Matters (1882), full section index",
+      "kind": "primary_early_medieval_japanese_in_historical_translation",
+      "url": "https://en.wikisource.org/wiki/Kojiki_%28Chamberlain%2C_1882%29",
+      "access": "free_no_login",
+      "notes": "Historic English translation of a 712 CE compilation, sections and book numbers; older translation choices not linguistically authoritative."
+    },
+    "global-kojiki-wiki": {
+      "title": "Wikipedia: Kojiki",
+      "kind": "orientation_wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Kojiki",
+      "access": "free_no_login",
+      "notes": "Orientation only; mythical genealogies are not automatically documentary history."
+    },
+    "global-kojiki-columbia": {
+      "title": "David Lurie, Columbia University graduate seminar syllabus on Kojiki: named episodes, text history and scholarly readings",
+      "kind": "scholarly_reading_guide",
+      "url": "https://www.columbia.edu/~dbl11/Lurie-Kojiki-seminar-2017-syll.pdf",
+      "access": "free_no_login",
+      "notes": "Teaching guide supplies episode-based reading and chronology distinctions; not a substitute for the primary text."
     }
   }
 }
