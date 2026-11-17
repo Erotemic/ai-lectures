@@ -18,7 +18,7 @@
       "title": "Ancient Epics and Narrative Traditions",
       "role": "main",
       "parent": "periods",
-      "summary": "Mesopotamian, Egyptian, Greek, and South Asian narratives. These are transmitted traditions with complex textual histories, rather than a list of single publication dates.",
+      "summary": "Mesopotamian, Egyptian, Greek, Roman, and South Asian narratives. These are transmitted traditions with complex textual histories, not single verified events. New standalone readings of the Argonautica, Aeneid, Metamorphoses, and Nala and Damayanti complement the existing deep dives.",
       "chapters": [
         {
           "title": "Gilgamesh",
@@ -54,6 +54,24 @@
           "collection": "world-history:homer"
         },
         {
+          "title": "The Argonautica: Jason, Medea, and the Golden Fleece",
+          "lectures": [
+            "literature-survey:007000"
+          ]
+        },
+        {
+          "title": "Roman epic: The Aeneid",
+          "lectures": [
+            "literature-survey:006000"
+          ]
+        },
+        {
+          "title": "Roman transformations: Ovid’s Metamorphoses",
+          "lectures": [
+            "literature-survey:008000"
+          ]
+        },
+        {
           "title": "The Ramayana and the Mahabharata",
           "lectures": [
             "world-history:018000",
@@ -64,6 +82,12 @@
             "world-history:026000"
           ],
           "collection": "world-history:south-asian-epics"
+        },
+        {
+          "title": "A story within the Mahabharata: Nala and Damayanti",
+          "lectures": [
+            "literature-survey:009000"
+          ]
         }
       ]
     },
@@ -806,7 +830,7 @@
       "id": "introductions",
       "title": "Literature · Compact Introductions",
       "role": "main",
-      "summary": "Standalone introductions pair the narrative with a reading of its form and choices. Endings are discussed. Each work links to its existing extended study.",
+      "summary": "Standalone introductions and narrative readings, with endings discussed. Some link to longer existing studies in other packs; the ancient additions are substantive self-contained readings rather than aliases to an unfinished deep dive.",
       "chapters": [
         {
           "title": "The Decameron",
@@ -828,6 +852,30 @@
             "003000"
           ],
           "collection": "world-history:shahnameh"
+        },
+        {
+          "title": "The Aeneid: The Cost of a Promised Future",
+          "lectures": [
+            "006000"
+          ]
+        },
+        {
+          "title": "The Argonautica: Medea and the Voyage of the Argo",
+          "lectures": [
+            "007000"
+          ]
+        },
+        {
+          "title": "Metamorphoses: A World That Will Not Stay Still",
+          "lectures": [
+            "008000"
+          ]
+        },
+        {
+          "title": "Nala and Damayanti: The King Who Lost at Dice",
+          "lectures": [
+            "009000"
+          ]
         }
       ],
       "related_collections": [

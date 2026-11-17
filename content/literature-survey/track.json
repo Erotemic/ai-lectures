@@ -1,7 +1,7 @@
 {
   "id": "literature-survey",
   "title": "Literature · Surveys and Introductions",
-  "summary": "Standalone introductions to works whose extended studies are available elsewhere in the library. Each introduction develops the story, literary form, and interpretive problems before linking to deeper study.",
+  "summary": "Standalone source-grounded introductions and selected complete narrative treatments of consequential literary works. Period routes also organize extended studies from other packs.",
   "categories": [
     "Literature and arts"
   ],
@@ -14,7 +14,10 @@
   "sections": [
     "medieval-storytelling",
     "chinese-narrative-traditions",
-    "persian-epic"
+    "persian-epic",
+    "ancient-epic-roman",
+    "ancient-epic-hellenistic",
+    "ancient-epic-south-asian"
   ],
   "lectures": [
     {
@@ -42,6 +45,42 @@
       "section": "persian-epic",
       "spoken_words": 4313,
       "estimated_minutes_at_145_wpm": 29.7,
+      "draft_status": "substantive"
+    },
+    {
+      "id": "006000",
+      "title": "The Aeneid: The Cost of a Promised Future",
+      "file": "006000-aeneid-the-cost-of-a-promised-future.md",
+      "section": "ancient-epic-roman",
+      "spoken_words": 3361,
+      "estimated_minutes_at_145_wpm": 23.2,
+      "draft_status": "substantive"
+    },
+    {
+      "id": "007000",
+      "title": "The Argonautica: Medea and the Voyage of the Argo",
+      "file": "007000-argonautica-medea-and-the-voyage-of-the-argo.md",
+      "section": "ancient-epic-hellenistic",
+      "spoken_words": 3113,
+      "estimated_minutes_at_145_wpm": 21.5,
+      "draft_status": "substantive"
+    },
+    {
+      "id": "008000",
+      "title": "Metamorphoses: A World That Will Not Stay Still",
+      "file": "008000-metamorphoses-a-world-that-will-not-stay-still.md",
+      "section": "ancient-epic-roman",
+      "spoken_words": 3330,
+      "estimated_minutes_at_145_wpm": 23.0,
+      "draft_status": "substantive"
+    },
+    {
+      "id": "009000",
+      "title": "Nala and Damayanti: The King Who Lost at Dice",
+      "file": "009000-nala-and-damayanti-the-king-who-lost-at-dice.md",
+      "section": "ancient-epic-south-asian",
+      "spoken_words": 3431,
+      "estimated_minutes_at_145_wpm": 23.7,
       "draft_status": "substantive"
     }
   ]

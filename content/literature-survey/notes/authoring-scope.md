@@ -1,4 +1,4 @@
-# Compact literary introductions: exclusive authoring scope
+# Literary introductions and narrative readings: exclusive authoring scope
 
 This pack owns new survey introductions; it does not own or replace the longer
 studies in other packs. Namespace `literature-survey` was checked against the
@@ -9,6 +9,19 @@ Indexed introductions:
 - `001000`: Boccaccio's Decameron: the frame, representative tales, and the book's form.
 - `002000`: Romance of the Three Kingdoms: the whole narrative arc and competing loyalties.
 - `003000`: Shahnameh: legendary kings, heroic families, and the end of a royal world.
+
+Ancient-epics expansion indexed 2026-11-16:
+
+- `006000`: Virgil's Aeneid, twelve-book story and interpretive ending.
+- `007000`: Apollonius's Argonautica, four-book story focused on Jason and Medea.
+- `008000`: Ovid's Metamorphoses, selective linked treatment of fifteen books.
+- `009000`: Nala and Damayanti, complete episode inside the Mahabharata.
+
+These are newly authored, standalone lectures and **not** modifications to the
+World History source track. The Egyptian Tale of Two Brothers and other existing
+works in the ancient route are reused, not duplicated. The new lectures are
+listed in both the Ancient Epics route and Compact Introductions route; source
+records and authored claim locators remain local to this pack.
 
 Optional future ideas, not required organization work:
 

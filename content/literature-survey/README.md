@@ -1,7 +1,8 @@
-# Literature: compact introductions
+# Literature: standalone introductions and narrative readings
 
-This independently owned pack supplies complete introductory readings of works
-whose longer studies live elsewhere in the library. The introductions establish
+This independently owned pack supplies standalone readings of literary works.
+Some have longer studies elsewhere in the library; the new ancient narratives
+are complete, source-supported readings in their own right. The introductions establish
 their own characters, settings, narrative arcs, and interpretive questions.
 They discuss endings. Exact episode durations are descriptive estimates, not
 conditions for acceptance.
@@ -19,9 +20,22 @@ Currently indexed:
   whole arc through selected episodes, with legendary and historical modes
   distinguished. Extended study: `world-history:shahnameh`.
 
+- `006000`: **The Aeneid: The Cost of a Promised Future**. All twelve books,
+  including the fall of Troy, Dido, the underworld, the Italian war, and the last
+  killing. Standalone addition to the ancient route.
+- `007000`: **The Argonautica: Medea and the Voyage of the Argo**. The full
+  outward voyage, quest, and return in Apollonius's four-book poem, with Medea's
+  agency and the Apsyrtus episode retained.
+- `008000`: **Metamorphoses: A World That Will Not Stay Still**. A connected
+  traversal of all fifteen books through representative scenes, *not* every tale
+  in the collection.
+- `009000`: **Nala and Damayanti: The King Who Lost at Dice**. The entire embedded
+  Mahabharata episode, including the second wager's ethically difficult terms.
+  Companion to `world-history:024000`, which introduces the tale briefly.
+
 The reader also exposes five period routes assembled from existing recordings
 across packs. Those routes link to extended studies and explicitly identify
-unfinished openings. New introductory prose is optional future authoring;
+unfinished openings. Further introductory prose is optional future authoring;
 organization does not depend on completing every expansion or synopsis.
 
 The authoring boundaries and optional IDs are recorded in
