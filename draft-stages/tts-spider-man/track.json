@@ -1,7 +1,7 @@
 {
   "id": "spider-man",
   "title": "Spider-Man: The Comics, the Character, and the Culture",
-  "summary": "Twelve accessible, fan-focused Spider-Man audio essays: the original origin, the early comics and creators, the contradictions that drive Peter Parker, his villains and continuity debates, plus deep studies of comics art, three live-action film traditions, Spider-Verse filmmaking, and Kraven’s Last Hunt. Story context is explained without becoming scene-by-scene retelling.",
+  "summary": "Seventeen entertaining, source-grounded Spider-Man audio essays: four accessible foundations and thirteen deeper studies of comics creators, villains, continuity, supporting characters, Miles Morales, Venom, art, film, and videogame design. Major story context is explained without becoming issue-by-issue retelling.",
   "categories": [
     "Literature and arts"
   ],
@@ -15,7 +15,9 @@
     "Cultural history",
     "Visual storytelling",
     "Film criticism",
-    "Animation"
+    "Animation",
+    "Videogames",
+    "Character studies"
   ],
   "assumed_background": [
     "No specialist comic-book background required: every essay explains the particular story, creator, or continuity needed to follow its argument.",
@@ -52,7 +54,7 @@
       "title": "Peter Parker's First Decade: School, Work, Love, and the Green Goblin",
       "section": "early-continuity",
       "file": "002000-peter-parkers-first-decade.md",
-      "spoken_words": 2408,
+      "spoken_words": 2411,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 16.6,
       "tags": [
@@ -67,7 +69,7 @@
       "title": "The Spider-Man Story Engine: Responsibility, Secrecy, Money, and the City",
       "section": "themes-and-form",
       "file": "003000-the-spider-man-story-engine.md",
-      "spoken_words": 2156,
+      "spoken_words": 2160,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 14.9,
       "tags": [
@@ -82,7 +84,7 @@
       "title": "The Mask Beyond Peter Parker: Symbiotes, Miles Morales, and the Spider-Verse",
       "section": "reinventions-and-adaptations",
       "file": "004000-the-mask-beyond-peter-parker.md",
-      "spoken_words": 2437,
+      "spoken_words": 2441,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 16.8,
       "tags": [
@@ -202,6 +204,87 @@
       ]
     },
     {
+      "id": "012000",
+      "title": "Why Spider-Man Is a Videogame Hero: The City Is the Controller",
+      "section": "reinventions-and-adaptations",
+      "file": "012000-why-spider-man-is-a-videogame-hero.md",
+      "spoken_words": 2081,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 14.4,
+      "tags": [
+        "Spider-Man",
+        "Videogames",
+        "Treyarch",
+        "Insomniac",
+        "Movement design"
+      ]
+    },
+    {
+      "id": "013000",
+      "title": "Venom: From Nightmare to Antihero to Cosmic Monster",
+      "section": "characters-and-conflicts",
+      "file": "013000-venom-from-nightmare-to-antihero.md",
+      "spoken_words": 2021,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 13.9,
+      "tags": [
+        "Spider-Man",
+        "Venom",
+        "Eddie Brock",
+        "Flash Thompson",
+        "Symbiote"
+      ]
+    },
+    {
+      "id": "014000",
+      "title": "Miles Morales Was Not Built to Be Peter Parker Two",
+      "section": "reinventions-and-adaptations",
+      "file": "014000-miles-was-not-built-to-be-peter-two.md",
+      "spoken_words": 2033,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 14.0,
+      "tags": [
+        "Spider-Man",
+        "Miles Morales",
+        "Brian Michael Bendis",
+        "Sara Pichelli",
+        "Ultimate Marvel"
+      ]
+    },
+    {
+      "id": "015000",
+      "title": "When Spider-Man Met the Goblin and the Comics Got Dangerous",
+      "section": "characters-and-conflicts",
+      "file": "015000-when-spider-man-met-the-goblin.md",
+      "spoken_words": 2128,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 14.7,
+      "tags": [
+        "Spider-Man",
+        "Green Goblin",
+        "Norman Osborn",
+        "Gerry Conway",
+        "Gwen Stacy"
+      ]
+    },
+    {
+      "id": "016000",
+      "title": "The Supporting Cast Has a Life of Its Own",
+      "section": "characters-and-conflicts",
+      "file": "016000-the-supporting-cast-has-a-life.md",
+      "spoken_words": 2230,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 15.4,
+      "tags": [
+        "Spider-Man",
+        "Mary Jane Watson",
+        "Aunt May",
+        "Harry Osborn",
+        "Flash Thompson",
+        "Black Cat"
+      ]
+    },
+    {
       "id": "017000",
       "title": "Kraven's Last Hunt: The Villain Who Thought the Costume Was the Man",
       "section": "characters-and-conflicts",
@@ -217,5 +300,6 @@
         "Comics criticism"
       ]
     }
-  ]
+  ],
+  "editorial_notes": []
 }

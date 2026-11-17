@@ -4,7 +4,7 @@ An **entertaining, source-grounded collection of Spider-Man audio essays** for f
 
 ## Default listening route: Fan Essays and Deep Dives
 
-The eight deeper essays stand alone, with concepts and continuities explained when first introduced. Their order is a useful path but not a prerequisite chain.
+The thirteen deeper essays stand alone, with concepts and continuities explained when first introduced. Their order is a useful path but not a prerequisite chain.
 
 | ID | Essay | The interesting question |
 | --- | --- | --- |
@@ -15,13 +15,18 @@ The eight deeper essays stand alone, with concepts and continuities explained wh
 | 009000 | Three Movie Spider-Men, Three Different Problems | How do Raimi, Webb, and Watts pose different questions for the same hero? |
 | 010000 | Why the Spider-Verse Films Look and Sound Like Thoughts | How can frames, compositing, collage, and music enact Miles's story? |
 | 011000 | How to Draw a Web-Swing: Spider-Man's Artists and the City Beneath Him | How do Ditko, Romita, Andru, McFarlane, Bagley and Pichelli make a body travel through panels? |
+| 012000 | Why Spider-Man Is a Videogame Hero | How do web physics and a playable New York turn movement into character? |
+| 013000 | Venom: From Nightmare to Antihero to Cosmic Monster | How did a rejected costume become a villain, protector, and mythology? |
+| 014000 | Miles Morales Was Not Built to Be Peter Parker Two | What did early Ultimate comics give Miles that was fully his? |
+| 015000 | When Spider-Man Met the Goblin | How did a theatrical enemy become a threat to the hero's entire private life? |
+| 016000 | The Supporting Cast Has a Life of Its Own | Which Spider-Man characters make choices that are not merely reactions to Peter? |
 | 017000 | Kraven's Last Hunt: The Villain Who Thought the Costume Was the Man | Why can Kraven win his self-invented contest and fail the ethical one? |
 
 **Spoilers:** These essays discuss major outcomes in comics and films. Every manuscript includes a non-spoken spoiler notice, including the dark ending of *Kraven's Last Hunt*. Visual criticism is narrated so that it makes sense without accompanying images. Production claims are sourced to credited artists, production staff, studios, original comics records, or creators' own retrospective testimony, with those source types distinguished in metadata.
 
 ## The Essentials in Four Essays
 
-Lectures 001000–004000 are a separate newcomer-friendly collection, already revised before this installment. They remain **byte-for-byte unchanged** in this update.
+Lectures 001000–004000 are a separate newcomer-friendly collection, already revised before this installment. They remain **byte-for-byte unchanged** in this update, as do all of lectures 005000–011000 and 017000.
 
 | ID | Essay | Context provided |
 | --- | --- | --- |
@@ -30,16 +35,16 @@ Lectures 001000–004000 are a separate newcomer-friendly collection, already re
 | 003000 | The Spider-Man Story Engine | Responsibility, secrecy, money, the city, and time |
 | 004000 | The Mask Beyond Peter Parker | Black suit, symbiotes, Miles Morales, and the Spider-Verse |
 
-`navigation.json` keeps `fan-essays` as the default collection, `survey` as the four-essay introduction, and `complete` as a twelve-essay route. A further `comics-and-screen-craft` route connects the new visual-media discussions. IDs 012000–016000 remain open for future essays; Kraven is ID 017000 to avoid reserving one of those IDs.
+`navigation.json` keeps `fan-essays` as the default collection, `survey` as the four-essay introduction, and `complete` as a seventeen-essay route. A further `comics-and-screen-craft` route connects the new visual-media discussions. IDs 012000–016000 are now filled; Kraven remains ID 017000 after them.
 
 ## Text-only pack and provenance
 
-All content is in `draft-stages/tts-spider-man/`, including the twelve complete manuscripts, `track.json`, `navigation.json`, twelve `metadata/NNNNNN.json` claim maps, `metadata/sources.json`, `BACKLOG.md`, and this README. Spoken narration appears exclusively inside `BEGIN SPOKEN LECTURE` and `END SPOKEN LECTURE` markers. Non-spoken source companions include relevant Wikipedia articles for reference and official/primary production records, catalogs, interviews and archives for factual grounding. Interpretation is distinguished from production history. No comic pages, movie footage, binary art or music is embedded.
+All content is in `draft-stages/tts-spider-man/`, including the seventeen complete manuscripts, `track.json`, `navigation.json`, seventeen `metadata/NNNNNN.json` claim maps, `metadata/sources.json`, `BACKLOG.md`, and this README. Spoken narration appears exclusively inside `BEGIN SPOKEN LECTURE` and `END SPOKEN LECTURE` markers. Non-spoken source companions include relevant Wikipedia articles for reference and official/primary production records, catalogs, interviews and archives for factual grounding. Interpretation is distinguished from production history. No comic pages, movie footage, binary art or music is embedded.
 
 To import the ZIP from the repository root (fresh installs and replacements supported):
 
 ```bash
-python tools/content_overlay.py apply ~/Downloads/spider-man-fan-essays-04.zip --replace-owned
+python tools/content_overlay.py apply ~/Downloads/spider-man-fan-essays-05.zip --replace-owned
 ```
 
 The importer safeguards conflicting pack-owned files with recovery backups when replacement is selected. It does not overwrite unrelated content or require shared publishing-code edits.

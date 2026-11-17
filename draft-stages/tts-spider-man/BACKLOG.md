@@ -15,15 +15,15 @@ The target is **entertaining, source-backed listening for Spider-Man fans, with 
 
 **Do not duplicate completed subjects with broad surveys.** Specific additional analyses may reference them.
 
-## Next essays — reserved IDs
+## Complete in Part 5 (new)
 
-| Proposed ID | Subject and hook | Research and creative anchors |
-| --- | --- | --- |
-| 012000 | **Why Spider-Man is a videogame hero** | Web physics, traversal agency, game spaces, design of movement and challenge; Insomniac and earlier games, with developer interviews and sources for technical claims |
-| 013000 | **Venom, from nightmare to antihero** | Secret Wars vs printed suit chronology, original creators, Eddie Brock, relationship to Peter, and later changes; keep fictional continuities separate |
-| 014000 | **Miles Morales was not built to be Peter Parker 2** | *Ultimate Fallout* #4, Bendis / Sara Pichelli, Ganke and Aaron, autonomous responsibility; comics-first with explicit film comparisons |
-| 015000 | **When Spider-Man met the Goblin and the comics got dangerous** | Ditko/Romita reveals, Conway/Kane/Romita Gwen story, aftermath and creative decisions, dated interviews, avoid flattening Gwen into a plot device |
-| 016000 | **The supporting cast has a life of its own** | Mary Jane, Gwen, May, Harry, Flash, Robbie, Felicia; tensions, growth, individual stories; avoid presenting them as mere ways to punish Peter |
+- **012000:** Why Spider-Man Is a Videogame Hero — from Treyarch's difficult physics prototypes through Insomniac's fluent web-swinging and Miles's different physical vocabulary; developer-interview sources.
+- **013000:** Venom: From Nightmare to Antihero to Cosmic Monster — the black-costume publication chronology, Eddie Brock, Lethal Protector, Agent Venom, and Knull; separate comics eras and hosts.
+- **014000:** Miles Morales Was Not Built to Be Peter Parker Two — Ultimate universe beginnings and distinct relationships, Sara Pichelli's character design, and careful film comparisons.
+- **015000:** When Spider-Man Met the Goblin — 1964 debut and 1966 unmasking, 1973 Gwen story, conflicting creator memories, and the Harry Osborn inheritance.
+- **016000:** The Supporting Cast Has a Life of Its Own — Mary Jane's choice after Gwen's death, Aunt May's The Conversation, Harry, Flash, Robbie and Felicia, with agency beyond Peter.
+
+**The default fan-essay route now includes thirteen essays; the four-lecture introduction remains available.**
 
 ## Further fan essays and deep dives
 
