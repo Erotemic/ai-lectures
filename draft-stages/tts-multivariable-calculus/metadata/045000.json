@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "lecture_id": "045000",
+  "transcript": "045000-elliptic-regularity-difference-quotients-and-h2.md",
+  "related_resources": [
+    {
+      "source_id": "mv-iyer-elliptic-2026",
+      "reason": "Interior H-two regularity theorem and difference quotient proof."
+    },
+    {
+      "source_id": "mv-chen-sobolev-trace",
+      "reason": "Sobolev norms and weak derivatives."
+    },
+    {
+      "source_id": "mv-wiki-elliptic-operator",
+      "reason": "Interior versus boundary regularity theorems."
+    },
+    {
+      "source_id": "mv-wiki-elliptic-pde",
+      "reason": "Uniform ellipticity terminology."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-17",
+    "scope": "New original narration and mathematical companions explaining elliptic boundary traces, Neumann/Robin conditions, difference quotient regularity, and corner singularity effects on finite-element error; earlier manuscripts unchanged."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "multivariable-calculus:033000",
+        "reason": "Existence of an H-one weak solution and the meaning of weak derivative."
+      },
+      {
+        "lecture_id": "multivariable-calculus:043000",
+        "reason": "Which boundary hypotheses do and do not follow from trace theory."
+      },
+      {
+        "lecture_id": "multivariable-calculus:034000",
+        "reason": "Why H-two smoothness matters for finite-element interpolation error."
+      }
+    ],
+    "recommended": [
+      {
+        "lecture_id": "multivariable-calculus:046000",
+        "reason": "Examine a reentrant corner where global H-two regularity fails."
+      },
+      {
+        "lecture_id": "analysis:056000",
+        "reason": "Connect Fourier multipliers with rough derivatives."
+      }
+    ],
+    "background": [
+      "Distributional derivatives in an elementary sense, Cauchy–Schwarz and Young inequalities, introductory Fourier modes, and the weak Poisson problem."
+    ],
+    "readiness_checks": [
+      "Verify the piecewise Poisson solution with a discontinuous load belongs to H-two but not C-two.",
+      "State the coefficient and interior-domain assumptions in the H-two difference quotient estimate."
+    ]
+  }
+}

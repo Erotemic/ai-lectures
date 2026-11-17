@@ -72,6 +72,14 @@ transcript:
       source_records: metadata/sources.json
       per_lecture_metadata: metadata/039000.json through metadata/042000.json
     scope: Add standalone mathematics lectures, spoken explanations and exact companions on mixed PDEs, inf-sup stability, compatible finite-element pairs and Stokes block solvers; preserve existing manuscripts.
+  - date: '2026-11-17'
+    models:
+    - GPT-6
+    sources:
+    - manuscripts: '043000–046000'
+      source_records: metadata/sources.json
+      per_lecture_metadata: metadata/043000.json through metadata/046000.json
+    scope: Author new spoken and mathematical companion treatments of boundary trace and lifting, Neumann and Robin compatibility, interior elliptic regularity, and reentrant corner singularities; retain existing manuscripts.
 learning_map:
   revisions:
   - date: '2026-11-16'
@@ -157,3 +165,14 @@ learning_map:
     - metadata/041000.json
     - metadata/042000.json
     scope: Register the new mixed finite-element and inf-sup listening route, descriptive narration counts, prerequisites, bibliography and readiness checks.
+  - date: '2026-11-17'
+    models:
+    - GPT-6
+    sources:
+    - track.json
+    - navigation.json
+    - metadata/043000.json
+    - metadata/044000.json
+    - metadata/045000.json
+    - metadata/046000.json
+    scope: Register a separate elliptic boundary and regularity learning route with verified descriptive narration counts, prerequisites, source records, and readiness checks.

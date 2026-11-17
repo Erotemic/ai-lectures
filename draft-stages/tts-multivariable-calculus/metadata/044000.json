@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "lecture_id": "044000",
+  "transcript": "044000-neumann-robin-compatibility-and-boundary-forms.md",
+  "related_resources": [
+    {
+      "source_id": "mv-ntnu-weak-pdes",
+      "reason": "Neumann and Robin weak formulations, boundary data, and elliptic coercivity."
+    },
+    {
+      "source_id": "mv-chen-numerical-neumann",
+      "reason": "Neumann compatibility, mean-zero space, and numerical weak problems."
+    },
+    {
+      "source_id": "mv-wiki-neumann",
+      "reason": "Standard Neumann terminology and normal derivative."
+    },
+    {
+      "source_id": "mv-wiki-robin",
+      "reason": "Standard Robin boundary condition terminology."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-17",
+    "scope": "New original narration and mathematical companions explaining elliptic boundary traces, Neumann/Robin conditions, difference quotient regularity, and corner singularity effects on finite-element error; earlier manuscripts unchanged."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "multivariable-calculus:043000",
+        "reason": "Boundary trace operators and variational formulation."
+      },
+      {
+        "lecture_id": "multivariable-calculus:039000",
+        "reason": "Source balances and flux sign conventions in mixed Poisson problems."
+      }
+    ],
+    "recommended": [
+      {
+        "lecture_id": "multivariable-calculus:045000",
+        "reason": "Learn when solutions to boundary-value problems gain derivatives."
+      },
+      {
+        "lecture_id": "multivariable-calculus:040000",
+        "reason": "Relate constant-gauge constraints to saddle-point systems."
+      }
+    ],
+    "background": [
+      "Ordinary derivatives, weak integration by parts, outward normals, energy bilinear forms, and mean-zero functions."
+    ],
+    "readiness_checks": [
+      "Check the sign-correct compatibility condition and mean-zero solution for an interval Neumann problem.",
+      "Derive the Robin bilinear form and verify exactly which term removes the constant nullspace."
+    ]
+  }
+}

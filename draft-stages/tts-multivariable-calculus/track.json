@@ -1,7 +1,7 @@
 {
   "id": "multivariable-calculus",
   "title": "Multivariable Calculus from First Principles",
-  "summary": "A calculation-first and proof-aware bridge from single-variable calculus and linear algebra to geometry, optimization, and variational PDEs. Depth routes develop Taylor and Newton theory, nonlinear least squares, KKT sensitivity, weak formulations, nonlinear existence and stable mixed finite elements.",
+  "summary": "A calculation-first and proof-aware bridge from single-variable calculus and linear algebra to geometry, optimization, and variational PDEs. Depth routes develop local and constrained Newton theory, inverse problems, weak formulations, nonlinear existence, compatible mixed elements, and elliptic boundary regularity.",
   "assumed_background": [
     "single-variable limits, differentiation and integration (Analysis 001000–008000)",
     "elementary vectors, matrices, determinants and dot products (Linear Algebra 001000–006000, 008000)"
@@ -18,7 +18,8 @@
     "constrained-newton-sensitivity-bridge",
     "variational-weak-formulations-bridge",
     "variational-compactness-direct-method-bridge",
-    "mixed-inf-sup-stability-bridge"
+    "mixed-inf-sup-stability-bridge",
+    "boundary-traces-elliptic-regularity-bridge"
   ],
   "lectures": [
     {
@@ -458,6 +459,73 @@
         "Block preconditioning",
         "Pressure robustness",
         "Mixed error estimates"
+      ]
+    },
+    {
+      "id": "043000",
+      "title": "Traces and Boundary Data: How an Energy Solution Meets the Edge",
+      "section": "boundary-traces-elliptic-regularity-bridge",
+      "file": "043000-traces-boundary-data-and-dirichlet-lifting.md",
+      "spoken_words": 1885,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 13.0,
+      "tags": [
+        "Trace theorem",
+        "Dirichlet boundary values",
+        "Sobolev spaces",
+        "Lifting theorem",
+        "Weak solutions"
+      ]
+    },
+    {
+      "id": "044000",
+      "title": "Neumann and Robin Problems: Boundary Flux, Compatibility, and Uniqueness",
+      "section": "boundary-traces-elliptic-regularity-bridge",
+      "file": "044000-neumann-robin-compatibility-and-boundary-forms.md",
+      "spoken_words": 1914,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 13.2,
+      "tags": [
+        "Neumann boundary conditions",
+        "Robin boundary conditions",
+        "Compatibility",
+        "Poincaré inequality",
+        "Flux conservation",
+        "Gauge"
+      ]
+    },
+    {
+      "id": "045000",
+      "title": "Elliptic Regularity: Why a Weak Solution Can Have More Derivatives",
+      "section": "boundary-traces-elliptic-regularity-bridge",
+      "file": "045000-elliptic-regularity-difference-quotients-and-h2.md",
+      "spoken_words": 2078,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 14.3,
+      "tags": [
+        "Elliptic regularity",
+        "H2",
+        "Weak derivatives",
+        "Difference quotients",
+        "Fourier multipliers",
+        "Interpolation error"
+      ]
+    },
+    {
+      "id": "046000",
+      "title": "Corners and Singularities: When a Valid Solution Defeats a High-Order Error Bound",
+      "section": "boundary-traces-elliptic-regularity-bridge",
+      "file": "046000-corner-singularities-regularity-and-mesh-error.md",
+      "spoken_words": 2059,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 14.2,
+      "tags": [
+        "Corner singularity",
+        "Elliptic regularity",
+        "Finite element convergence",
+        "Adaptive mesh refinement",
+        "Poisson equation",
+        "L-shaped domains"
       ]
     }
   ],

@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "lecture_id": "046000",
+  "transcript": "046000-corner-singularities-regularity-and-mesh-error.md",
+  "related_resources": [
+    {
+      "source_id": "mv-chen-adaptive-fem",
+      "reason": "L-shaped domain singularity and adaptive finite-element reasoning."
+    },
+    {
+      "source_id": "mv-iyer-elliptic-2026",
+      "reason": "Scope and hypotheses of interior regularity."
+    },
+    {
+      "source_id": "mv-choi-corner-2019",
+      "reason": "Singular decomposition and H-two failure at reentrant polygonal corners."
+    },
+    {
+      "source_id": "mv-wiki-fem",
+      "reason": "Finite-element convergence and mesh concepts."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-17",
+    "scope": "New original narration and mathematical companions explaining elliptic boundary traces, Neumann/Robin conditions, difference quotient regularity, and corner singularity effects on finite-element error; earlier manuscripts unchanged."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "multivariable-calculus:045000",
+        "reason": "Understand the hypothesis that yields H-two estimates."
+      },
+      {
+        "lecture_id": "multivariable-calculus:034000",
+        "reason": "Finite-element energy error and interpolation."
+      },
+      {
+        "lecture_id": "multivariable-calculus:036000",
+        "reason": "Dimension-dependent weak regularity and Sobolev norms."
+      }
+    ],
+    "recommended": [
+      {
+        "lecture_id": "numerical-analysis:018000",
+        "reason": "See how equilibrated fluxes provide energy error certificates without H-two smoothness."
+      },
+      {
+        "lecture_id": "multivariable-calculus:042000",
+        "reason": "Connect boundary geometry and mixed discretization stability."
+      }
+    ],
+    "background": [
+      "Polar coordinates, gradient and Laplacian of a separated function, integrability of powers, and piecewise-linear finite elements."
+    ],
+    "readiness_checks": [
+      "Derive the exponent 2/3 for a 270-degree reentrant corner and test H-one versus H-two integrability.",
+      "Construct the cutoff forcing and explain why the standard H-two-based first-order FEM energy estimate is unavailable."
+    ]
+  }
+}

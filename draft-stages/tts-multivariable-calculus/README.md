@@ -1,6 +1,6 @@
 # Multivariable Calculus from First Principles
 
-A calculation-first and proof-aware bridge from single-variable calculus and basic linear algebra to smooth manifolds, PDEs, optimization and vector calculus. The three existing consolidated manuscripts give the guided survey. Six depth routes, each with four lectures, develop Taylor/Newton theory, nonlinear least squares/inverse problems, constrained Newton/KKT sensitivity, variational weak formulations, nonlinear existence via weak compactness, and mixed finite elements with inf–sup stability, with worked proofs and examples.
+A calculation-first and proof-aware bridge from single-variable calculus and basic linear algebra to smooth manifolds, PDEs, optimization and vector calculus. The three existing consolidated manuscripts give the guided survey. Seven depth routes, each with four lectures, develop Taylor/Newton theory, nonlinear least squares/inverse problems, constrained Newton/KKT sensitivity, variational weak formulations, nonlinear existence via weak compactness, mixed finite elements with inf–sup stability, and elliptic boundary-value theory with regularity and corner singularities, with worked proofs and examples.
 
 ## Listening routes
 
@@ -11,6 +11,7 @@ A calculation-first and proof-aware bridge from single-variable calculus and bas
 - **Variational Methods and Weak PDEs** (`multivariable-calculus:variational-weak-formulations-bridge`): `031000`, `032000`, `033000`, `034000`; first and second variations, boundary terms, energy-space existence, and finite-element assembly with a checked error proof.
 - **Weak Compactness and Nonlinear Existence** (`multivariable-calculus:variational-compactness-direct-method-bridge`): `035000`–`038000`; weak limits, Sobolev compactness, nonlinear direct-method existence and a solved obstacle free boundary.
 - **Mixed Finite Elements and Inf–Sup Stability** (`multivariable-calculus:mixed-inf-sup-stability-bridge`): `039000`–`042000`; mixed flux/temperature variables, saddle-point stability, compatible discrete spaces and Stokes block solvers.
+- **Traces and Elliptic Regularity** (`multivariable-calculus:boundary-traces-elliptic-regularity-bridge`): `043000`–`046000`; Dirichlet lifting, Neumann/Robin boundary conditions, interior H-two smoothing, and reentrant-corner FEM error limits.
 - **Full source sequence** (`multivariable-calculus:main`): all indexed manuscripts in `track.json` order.
 
 The optional `navigation.json` separates introductory listening from depth; it does not replace the full source inventory or imply any proof prerequisites by itself. These are declared separately in each new lecture's `metadata/` sidecar.
@@ -51,8 +52,13 @@ Durations below are descriptive measurements of spoken text at 145 words per min
 | `041000` | [Discrete Inf–Sup: A Two-Cell Failure and a Compatible Repair](041000-discrete-inf-sup-and-compatible-elements.md) | 13.0 | Mixed FEM and inf–sup stability bridge |
 | `042000` | [Stokes Flow and Mixed Solvers: Pressure, Blocks, and Reliable Refinement](042000-stokes-block-solvers-and-pressure-stability.md) | 14.4 | Mixed FEM and inf–sup stability bridge |
 
+| `043000` | [Traces and Boundary Data: How an Energy Solution Meets the Edge](043000-traces-boundary-data-and-dirichlet-lifting.md) | 13.0 | Elliptic traces and regularity bridge |
+| `044000` | [Neumann and Robin Problems: Boundary Flux, Compatibility, and Uniqueness](044000-neumann-robin-compatibility-and-boundary-forms.md) | 13.2 | Elliptic traces and regularity bridge |
+| `045000` | [Elliptic Regularity: Why a Weak Solution Can Have More Derivatives](045000-elliptic-regularity-difference-quotients-and-h2.md) | 14.3 | Elliptic traces and regularity bridge |
+| `046000` | [Corners and Singularities: When a Valid Solution Defeats a High-Order Error Bound](046000-corner-singularities-regularity-and-mesh-error.md) | 14.2 | Elliptic traces and regularity bridge |
+
 ## Editorial boundaries and evidence
 
-The old combined `001000`, `008000`, and `015000` manuscripts remain unchanged, including their inherited mathematical companions and consolidation provenance. The extensions add quantitative material beyond the original Hessian survey: integral remainder estimates, strong-convexity bounds, Newton convergence, least-squares model geometry, damping safeguards, singular-value sensitivity, structured inverse-problem assumptions, equality and inequality constrained geometry, saddle-point Newton solves, implicit/adjoint sensitivity, weak PDE/finite-element methods, weak compactness, nonlinear variational existence, obstacle variational inequalities, mixed flux methods, discrete inf–sup stability, and Stokes block solvers. Worked examples, derivations and exercises appear in each non-spoken mathematical companion.
+The old combined `001000`, `008000`, and `015000` manuscripts remain unchanged, including their inherited mathematical companions and consolidation provenance. The extensions add quantitative material beyond the original Hessian survey: integral remainder estimates, strong-convexity bounds, Newton convergence, least-squares model geometry, damping safeguards, singular-value sensitivity, structured inverse-problem assumptions, equality and inequality constrained geometry, saddle-point Newton solves, implicit/adjoint sensitivity, weak PDE/finite-element methods, weak compactness, nonlinear variational existence, obstacle variational inequalities, mixed flux methods, discrete inf–sup stability, Stokes block solvers, trace lifting, Neumann/Robin compatibility, H-two regularity, and corner-dependent FEM error. Worked examples, derivations and exercises appear in each non-spoken mathematical companion.
 
 `track.json` is the authoritative inventory. Source records live in `metadata/sources.json`; per-lecture citation links, original authorship and teaching prerequisites live in `metadata/*.json`; authorship lineage and editorial changes live in `provenance.yaml`. Consult [`LECTURE_STYLE_RULES.md`](../../LECTURE_STYLE_RULES.md) before further authoring. No runtime pack build or audio synthesis is required for content handoff.

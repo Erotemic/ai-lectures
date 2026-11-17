@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "lecture_id": "043000",
+  "transcript": "043000-traces-boundary-data-and-dirichlet-lifting.md",
+  "related_resources": [
+    {
+      "source_id": "mv-chen-sobolev-trace",
+      "reason": "H-one traces, extension, trace kernel and fractional boundary spaces."
+    },
+    {
+      "source_id": "mv-ntnu-weak-pdes",
+      "reason": "Boundary conditions and weak variational formulations."
+    },
+    {
+      "source_id": "mv-wiki-trace",
+      "reason": "Definitions, weak Dirichlet boundary values and trace estimates."
+    },
+    {
+      "source_id": "mv-wiki-sobolev",
+      "reason": "Sobolev spaces and weak derivatives."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-17",
+    "scope": "New original narration and mathematical companions explaining elliptic boundary traces, Neumann/Robin conditions, difference quotient regularity, and corner singularity effects on finite-element error; earlier manuscripts unchanged."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "multivariable-calculus:033000",
+        "reason": "Review H-one and H-naught-one weak solutions and the Poisson energy."
+      },
+      {
+        "lecture_id": "multivariable-calculus:036000",
+        "reason": "Review one-dimensional Sobolev embedding and Cauchy-Schwarz estimates."
+      }
+    ],
+    "recommended": [
+      {
+        "lecture_id": "multivariable-calculus:044000",
+        "reason": "Apply trace spaces to flux, Neumann and Robin data."
+      },
+      {
+        "lecture_id": "analysis:068000",
+        "reason": "Follow up on fractional boundary norms and advanced trace theory."
+      }
+    ],
+    "background": [
+      "Integration by parts, the fundamental theorem of calculus, H-one Sobolev functions, Cauchy–Schwarz, and weak Poisson equations."
+    ],
+    "readiness_checks": [
+      "Prove the exact endpoint trace inequality and explain why L-two control alone cannot give endpoint values.",
+      "Construct a Dirichlet lift and solve the inhomogeneous interval Poisson example."
+    ]
+  }
+}

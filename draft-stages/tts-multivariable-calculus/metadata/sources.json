@@ -581,6 +581,76 @@
       "url": "https://en.wikipedia.org/wiki/Uzawa_iteration",
       "access": "free_no_login",
       "notes": "Schur complement reductions and multiplier iteration."
+    },
+    "mv-chen-sobolev-trace": {
+      "title": "Long Chen, A Short Introduction to Sobolev Spaces, chapter on traces",
+      "kind": "university_lecture_notes",
+      "url": "https://www.math.uci.edu/~chenlong/226/Ch1Spaceshort.pdf",
+      "access": "free_no_login",
+      "notes": "Trace of H1 on bounded Lipschitz domains, bounded extension/right inverse and H0^1 as trace kernel."
+    },
+    "mv-ntnu-weak-pdes": {
+      "title": "NTNU, Weak formulation of partial differential equations",
+      "kind": "university_course_notes",
+      "url": "https://www.math.ntnu.no/emner/MA8502/2024h/lectures/html/chapter_01/weak_form_pdes.html",
+      "access": "free_no_login",
+      "notes": "Dirichlet, Neumann, Robin weak forms and ellipticity hypotheses."
+    },
+    "mv-chen-numerical-neumann": {
+      "title": "Ziheng Chen, Numerical Analysis: Differential Equations, Neumann boundary conditions",
+      "kind": "university_lecture_notes",
+      "url": "https://web.ma.utexas.edu/users/zihengchen/blob/numerical_II_notes.pdf",
+      "access": "free_no_login",
+      "notes": "Mean-zero Poincare inequality, natural boundary data, and Neumann nullspace."
+    },
+    "mv-iyer-elliptic-2026": {
+      "title": "Gautam Iyer, Elliptic equations (2026 course notes)",
+      "kind": "university_course_notes",
+      "url": "https://www.math.cmu.edu/~gautam/c/2026-632/notes/elliptic-equations.html",
+      "access": "free_no_login",
+      "notes": "Uniform ellipticity, local H2 estimates, and finite-difference-quotient proof mechanism."
+    },
+    "mv-chen-adaptive-fem": {
+      "title": "Long Chen, Adaptive Finite Element Methods",
+      "kind": "university_course_notes",
+      "url": "https://www.math.uci.edu/~chenlong/ifemdoc/afemdoc.html",
+      "access": "free_no_login",
+      "notes": "L-shaped domain, exact r^(2/3) corner mode and adaptive mesh refinement."
+    },
+    "mv-choi-corner-2019": {
+      "title": "Hyung Jun Choi, A numerical solution for the inhomogeneous Dirichlet boundary value problem on a non-convex polygon (2019)",
+      "kind": "scholarly_article",
+      "url": "https://doi.org/10.1016/j.amc.2018.08.011",
+      "access": "abstract_free",
+      "notes": "Reentrant polygonal corners, singular-plus-regular decomposition, H2 regularity failure."
+    },
+    "mv-wiki-trace": {
+      "title": "Wikipedia: Trace operator",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Trace_operator",
+      "access": "free_no_login",
+      "notes": "Trace of Sobolev functions and its use in Dirichlet conditions."
+    },
+    "mv-wiki-robin": {
+      "title": "Wikipedia: Robin boundary condition",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Robin_boundary_condition",
+      "access": "free_no_login",
+      "notes": "Robin condition as linear combination of value and normal derivative."
+    },
+    "mv-wiki-elliptic-operator": {
+      "title": "Wikipedia: Elliptic operator",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Elliptic_operator",
+      "access": "free_no_login",
+      "notes": "Regularity theorems for elliptic operators."
+    },
+    "mv-wiki-elliptic-pde": {
+      "title": "Wikipedia: Elliptic partial differential equation",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Elliptic_partial_differential_equation",
+      "access": "free_no_login",
+      "notes": "Ellipticity and weak PDE context."
     }
   }
 }
