@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "lecture_id": "001000",
+  "transcript": "001000-spider-man-is-born.md",
+  "related_resources": [
+    {
+      "source_id": "sm-af15-primary",
+      "reason": "Foundational comic story. The Library of Congress catalog summarizes original story art; catalog access is not a license to reproduce full pages. First story's publication date has conflicting cover/indicia/on-sale conventions."
+    },
+    {
+      "source_id": "sm-gcd-af15",
+      "reason": "Issue, creator, and precise bibliographic credits; distinguishes publication date conventions."
+    },
+    {
+      "source_id": "sm-loc-exhibition",
+      "reason": "Archival original artwork, creator credits, built web-shooters, and the originally narrator-delivered moral."
+    },
+    {
+      "source_id": "sm-loc-origin-talk",
+      "reason": "Institutional overview of Lee-Ditko collaboration, marginal editorial notes, and visual development."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "001000-c01",
+      "anchor": "In the summer of 1962, a boy who looked like an unlikely superhero appeared in an American comic book.",
+      "kind": "publication_context",
+      "source_ids": [
+        "sm-af15-primary",
+        "sm-gcd-af15"
+      ],
+      "source_locator": "Amazing Fantasy #15",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "001000-c02",
+      "anchor": "The story appeared in a publication that was not yet a Spider-Man magazine.",
+      "kind": "publication_context",
+      "source_ids": [
+        "sm-gcd-af15"
+      ],
+      "source_locator": "Amazing Fantasy anthology",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "001000-c03",
+      "anchor": "The original drawings now preserved by the Library of Congress let us see a part of this process unusually close to the page itself.",
+      "kind": "archival_evidence",
+      "source_ids": [
+        "sm-loc-exhibition",
+        "sm-loc-origin-talk"
+      ],
+      "source_locator": "original art collection",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "001000-c04",
+      "anchor": "It is customary to name Stan Lee and Steve Ditko as Spider-Man's co-creators,",
+      "kind": "creator_attribution",
+      "source_ids": [
+        "sm-loc-origin-talk",
+        "sm-gcd-af15"
+      ],
+      "source_locator": "Lee and Ditko credited",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "001000-c05",
+      "anchor": "Jack Kirby contributed earlier design work and the published first-appearance cover also bears his involvement;",
+      "kind": "creator_attribution",
+      "source_ids": [
+        "sm-gcd-af15"
+      ],
+      "source_locator": "cover credit; earlier designs discussed in history",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "001000-c06",
+      "anchor": "He experiments with his altered strength and movement, and he invents devices for shooting webs.",
+      "kind": "plot_reference",
+      "source_ids": [
+        "sm-af15-primary",
+        "sm-loc-exhibition"
+      ],
+      "source_locator": "web-shooters in origin",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "001000-c07",
+      "anchor": "At a critical moment a fleeing criminal passes near the newly successful performer.",
+      "kind": "plot_reference",
+      "source_ids": [
+        "sm-af15-primary"
+      ],
+      "source_locator": "refusal to intervene",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "001000-c08",
+      "anchor": "In the 1962 comic, the famous formulation about great power and great responsibility appears in the story's concluding narration, not as a speech Ben gives Peter.",
+      "kind": "textual_distinction",
+      "source_ids": [
+        "sm-loc-exhibition",
+        "sm-af15-primary"
+      ],
+      "source_locator": "closing moral caption",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "schema_version": 1,
+  "lecture_id": "004000",
+  "transcript": "004000-the-mask-beyond-peter-parker.md",
+  "related_resources": [
+    {
+      "source_id": "sm-marvel-secret-wars",
+      "reason": "1984 crossover and black costume history."
+    },
+    {
+      "source_id": "sm-marvel-mustreads",
+      "reason": "Official issue-selection guide to early and later Spider-Man, including #1, #33, #121, and #252."
+    },
+    {
+      "source_id": "sm-marvel-venom",
+      "reason": "Symbiote bonds with Eddie Brock; The Amazing Spider-Man #300 as first full appearance of Venom."
+    },
+    {
+      "source_id": "sm-marvel-ultimate",
+      "reason": "Highlights Ultimate Spider-Man #1 by Bendis and Bagley as a reinterpretation."
+    },
+    {
+      "source_id": "sm-marvel-fallout4",
+      "reason": "First appearance of Miles Morales following Ultimate Peter Parker's death; full issue has multiple contributors."
+    },
+    {
+      "source_id": "sm-marvel-miles",
+      "reason": "Miles's origin, early Bendis-Pichelli solo comic, transition to main continuity, and major crossovers."
+    },
+    {
+      "source_id": "sm-marvel-sara",
+      "reason": "Credits Pichelli as the first artist to draw Miles Morales."
+    },
+    {
+      "source_id": "sm-marvel-ghost",
+      "reason": "Earth-65 alternate Gwen, first appearance and subsequent comic runs."
+    },
+    {
+      "source_id": "sm-marvel-ghost-creators",
+      "reason": "Confirms 2014 creators Jason Latour and Robbi Rodriguez; later series distinctions."
+    },
+    {
+      "source_id": "sm-marvel-spiderverse",
+      "reason": "2014 Spider-Verse crossover structure, creative teams, and multiverse premise."
+    },
+    {
+      "source_id": "sm-academy-film",
+      "reason": "Best animated feature award for Spider-Man: Into the Spider-Verse."
+    },
+    {
+      "source_id": "sm-sony-across",
+      "reason": "2023 animated sequel premise and film credits."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "004000-c01",
+      "anchor": "In the mid-1980s, Peter acquired a black costume during the Secret Wars crossover.",
+      "kind": "comic_history",
+      "source_ids": [
+        "sm-marvel-secret-wars",
+        "sm-marvel-mustreads"
+      ],
+      "source_locator": "Secret Wars and ASM #252",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "004000-c02",
+      "anchor": "The rejected entity later bonded with Eddie Brock, becoming the villain Venom.",
+      "kind": "comic_history",
+      "source_ids": [
+        "sm-marvel-venom"
+      ],
+      "source_locator": "Eddie Brock and symbiote",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "004000-c03",
+      "anchor": "Venom made his full debut in The Amazing Spider-Man number three hundred, published in 1988.",
+      "kind": "first_appearance",
+      "source_ids": [
+        "sm-marvel-venom"
+      ],
+      "source_locator": "ASM #300",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "004000-c04",
+      "anchor": "Ultimate Spider-Man began in 2000, written by Brian Michael Bendis and drawn by Mark Bagley.",
+      "kind": "comic_history",
+      "source_ids": [
+        "sm-marvel-ultimate"
+      ],
+      "source_locator": "Ultimate Spider-Man #1",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "004000-c05",
+      "anchor": "Miles Morales first appeared in Ultimate Fallout number four in 2011, after the death of the Ultimate universe's Peter Parker.",
+      "kind": "first_appearance",
+      "source_ids": [
+        "sm-marvel-fallout4",
+        "sm-marvel-miles"
+      ],
+      "source_locator": "Ultimate Fallout #4",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "004000-c06",
+      "anchor": "His subsequent solo series, Ultimate Comics Spider-Man, was written by Brian Michael Bendis with art by Sara Pichelli.",
+      "kind": "creative_team_attribution",
+      "source_ids": [
+        "sm-marvel-miles",
+        "sm-marvel-sara"
+      ],
+      "source_locator": "Ultimate Comics Spider-Man #1",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "004000-c07",
+      "anchor": "It allowed Peter and Miles to coexist as Spider-Man characters in a shared setting rather than requiring one to erase the other.",
+      "kind": "continuity_change",
+      "source_ids": [
+        "sm-marvel-miles"
+      ],
+      "source_locator": "post-2015 Secret Wars",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "004000-c08",
+      "anchor": "Her first appearance was in Edge of Spider-Verse number two in 2014, created by writer Jason Latour and artist Robbi Rodriguez,",
+      "kind": "first_appearance",
+      "source_ids": [
+        "sm-marvel-ghost",
+        "sm-marvel-ghost-creators"
+      ],
+      "source_locator": "Earth-65 Gwen",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "004000-c09",
+      "anchor": "The major 2014 Spider-Verse event, including The Amazing Spider-Man number nine, brought different Spider-people together against a multiversal threat.",
+      "kind": "comic_event",
+      "source_ids": [
+        "sm-marvel-spiderverse"
+      ],
+      "source_locator": "2014 Spider-Verse",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "004000-c10",
+      "anchor": "The film won the Academy Award for animated feature at the 2019 ceremony.",
+      "kind": "film_award",
+      "source_ids": [
+        "sm-academy-film"
+      ],
+      "source_locator": "91st Academy Awards",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "004000-c11",
+      "anchor": "The 2023 sequel, Spider-Man: Across the Spider-Verse, pushes the problem of inheritance in another direction.",
+      "kind": "film_premise",
+      "source_ids": [
+        "sm-sony-across"
+      ],
+      "source_locator": "2023 film",
+      "audit_status": "source_checked"
+    }
+  ]
+}

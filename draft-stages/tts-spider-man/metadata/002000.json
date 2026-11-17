@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "lecture_id": "002000",
+  "transcript": "002000-peter-parkers-first-decade.md",
+  "related_resources": [
+    {
+      "source_id": "sm-marvel-mustreads",
+      "reason": "Official issue-selection guide to early and later Spider-Man, including #1, #33, #121, and #252."
+    },
+    {
+      "source_id": "sm-marvel-peter",
+      "reason": "High-level fictional chronology; may combine events across long serial eras, so do not use as precise individual issue dating."
+    },
+    {
+      "source_id": "sm-gcd-asm33",
+      "reason": "Stan Lee and Steve Ditko credits and issue record, cover dated February 1966."
+    },
+    {
+      "source_id": "sm-marvel-asm39",
+      "reason": "Official record of John Romita Sr. and Stan Lee on issue #39."
+    },
+    {
+      "source_id": "sm-marvel-green-goblin",
+      "reason": "Lists Green Goblin's first appearance (#14), Norman Osborn era, and Gwen Stacy story."
+    },
+    {
+      "source_id": "sm-cbldf-comics-code",
+      "reason": "Institutional account of 1971 Comics Code revision and Spider-Man issues 96–98."
+    },
+    {
+      "source_id": "sm-loc-code-education",
+      "reason": "References October 1970 Department of Health, Education & Welfare letter to Stan Lee; archival teaching presentation."
+    },
+    {
+      "source_id": "sm-marvel-asm121",
+      "reason": "Gwen Stacy's death and specific issue staff credits."
+    },
+    {
+      "source_id": "sm-gcd-asm122",
+      "reason": "Publication and production credits for immediate aftermath."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "002000-c01",
+      "anchor": "In The Amazing Spider-Man number one, the character finally has a magazine built around him.",
+      "kind": "comic_bibliography",
+      "source_ids": [
+        "sm-marvel-mustreads"
+      ],
+      "source_locator": "ASM #1",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "002000-c02",
+      "anchor": "A second figure gives this problem a public voice.",
+      "kind": "character_reference",
+      "source_ids": [
+        "sm-marvel-peter"
+      ],
+      "source_locator": "Jameson and Daily Bugle",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "002000-c03",
+      "anchor": "In The Amazing Spider-Man number thirty-one, he begins studying at Empire State University.",
+      "kind": "issue_and_character_reference",
+      "source_ids": [
+        "sm-marvel-peter",
+        "sm-marvel-mustreads"
+      ],
+      "source_locator": "ASM #31 college",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "002000-c04",
+      "anchor": "The issue introduces Gwen Stacy and Harry Osborn.",
+      "kind": "issue_and_character_reference",
+      "source_ids": [
+        "sm-marvel-mustreads"
+      ],
+      "source_locator": "ASM #31",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "002000-c05",
+      "anchor": "culminating in The Amazing Spider-Man number thirty-three.",
+      "kind": "issue_reference",
+      "source_ids": [
+        "sm-gcd-asm33",
+        "sm-marvel-mustreads"
+      ],
+      "source_locator": "ASM #33",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "002000-c06",
+      "anchor": "Steve Ditko left the series after issue thirty-eight.",
+      "kind": "creative_team_transition",
+      "source_ids": [
+        "sm-marvel-asm39",
+        "sm-gcd-asm33"
+      ],
+      "source_locator": "Romita takes pencilling with ASM #39",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "002000-c07",
+      "anchor": "Eventually the antagonist is revealed to be Norman Osborn, an influential businessman and father of Peter's friend Harry.",
+      "kind": "character_reveal",
+      "source_ids": [
+        "sm-marvel-green-goblin",
+        "sm-marvel-peter"
+      ],
+      "source_locator": "Goblin reveal ASM #39–40",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "002000-c08",
+      "anchor": "In 1971, the series published a story about drug use in The Amazing Spider-Man issues ninety-six through ninety-eight.",
+      "kind": "publication_history",
+      "source_ids": [
+        "sm-cbldf-comics-code",
+        "sm-loc-code-education"
+      ],
+      "source_locator": "1971 storyline",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "002000-c09",
+      "anchor": "The Comics Code Authority, an industry approval system governing many mainstream American comic books, declined to approve the issues.",
+      "kind": "publication_history",
+      "source_ids": [
+        "sm-cbldf-comics-code"
+      ],
+      "source_locator": "code refusal and publication",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "002000-c10",
+      "anchor": "Then The Amazing Spider-Man number one hundred twenty-one changes the terms.",
+      "kind": "issue_reference",
+      "source_ids": [
+        "sm-marvel-asm121"
+      ],
+      "source_locator": "Gwen Stacy death",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "002000-c11",
+      "anchor": "The subsequent issue brings a confrontation with Norman, himself apparently killed.",
+      "kind": "plot_reference",
+      "source_ids": [
+        "sm-gcd-asm122"
+      ],
+      "source_locator": "ASM #122 aftermath",
+      "audit_status": "source_checked"
+    }
+  ]
+}
