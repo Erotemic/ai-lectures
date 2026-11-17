@@ -1,7 +1,9 @@
 {
   "id": "algorithms-computability-complexity",
   "title": "Algorithms, Computability, and Complexity",
-  "categories": ["Mathematics"],
+  "categories": [
+    "Mathematics"
+  ],
   "summary": "An audio-first mathematical treatment of algorithmic specifications, proofs of correctness, computability limits, asymptotic resources, reductions, and verified implementations. Begins with executable and fully reasoned worked examples.",
   "assumed_background": [
     "whole numbers and elementary algebra",
@@ -23,7 +25,12 @@
       "section": "problems-algorithms-and-computability",
       "file": "001000-what-is-an-algorithm.md",
       "spoken_words": 1821,
-      "draft_status": "substantive"
+      "draft_status": "substantive",
+      "tags": [
+        "Computability",
+        "Formal models of computation",
+        "Algorithm correctness"
+      ]
     },
     {
       "id": "002000",
@@ -31,7 +38,12 @@
       "section": "computational-cost-and-lower-bounds",
       "file": "002000-why-some-problems-are-harder.md",
       "spoken_words": 2051,
-      "draft_status": "substantive"
+      "draft_status": "substantive",
+      "tags": [
+        "Computational complexity",
+        "Asymptotic estimates",
+        "Lower bounds"
+      ]
     },
     {
       "id": "003000",
@@ -39,7 +51,12 @@
       "section": "proof-refinement-and-verification",
       "file": "003000-from-proof-to-executable-algorithm.md",
       "spoken_words": 2165,
-      "draft_status": "substantive"
+      "draft_status": "substantive",
+      "tags": [
+        "Mathematical proof",
+        "Program verification",
+        "Constructive mathematics"
+      ]
     },
     {
       "id": "004000",
@@ -47,7 +64,13 @@
       "section": "computability-and-undecidability",
       "file": "004000-why-no-program-can-decide-all-halting.md",
       "spoken_words": 1921,
-      "draft_status": "substantive"
+      "draft_status": "substantive",
+      "tags": [
+        "Computability",
+        "Undecidability",
+        "Halting problem",
+        "Diagonalization"
+      ]
     },
     {
       "id": "005000",
@@ -55,7 +78,12 @@
       "section": "computability-and-undecidability",
       "file": "005000-recognizing-is-not-deciding.md",
       "spoken_words": 1983,
-      "draft_status": "substantive"
+      "draft_status": "substantive",
+      "tags": [
+        "Computability",
+        "Decidability",
+        "Recognizability"
+      ]
     },
     {
       "id": "006000",
@@ -63,7 +91,12 @@
       "section": "computability-and-undecidability",
       "file": "006000-reductions-and-rices-theorem.md",
       "spoken_words": 2307,
-      "draft_status": "substantive"
+      "draft_status": "substantive",
+      "tags": [
+        "Computability",
+        "Reductions",
+        "Undecidability"
+      ]
     },
     {
       "id": "007000",
@@ -71,7 +104,12 @@
       "section": "finite-automata-and-grammars",
       "file": "007000-what-a-finite-machine-can-remember.md",
       "spoken_words": 1814,
-      "draft_status": "substantive"
+      "draft_status": "substantive",
+      "tags": [
+        "Automata theory",
+        "Regular languages",
+        "Finite-state computation"
+      ]
     },
     {
       "id": "008000",
@@ -79,7 +117,12 @@
       "section": "finite-automata-and-grammars",
       "file": "008000-many-descriptions-one-regular-language.md",
       "spoken_words": 1966,
-      "draft_status": "substantive"
+      "draft_status": "substantive",
+      "tags": [
+        "Automata theory",
+        "Regular languages",
+        "Regular expressions"
+      ]
     },
     {
       "id": "009000",
@@ -87,7 +130,12 @@
       "section": "finite-automata-and-grammars",
       "file": "009000-when-a-stack-changes-the-language.md",
       "spoken_words": 2195,
-      "draft_status": "substantive"
+      "draft_status": "substantive",
+      "tags": [
+        "Automata theory",
+        "Context-free languages",
+        "Pushdown automata"
+      ]
     },
     {
       "id": "010000",
@@ -95,7 +143,13 @@
       "section": "algorithm-design-paradigms",
       "file": "010000-divide-and-conquer-and-selection.md",
       "spoken_words": 2039,
-      "draft_status": "substantive"
+      "draft_status": "substantive",
+      "tags": [
+        "Algorithm design",
+        "Divide and conquer",
+        "Selection algorithms",
+        "Computational complexity"
+      ]
     },
     {
       "id": "011000",
@@ -103,7 +157,13 @@
       "section": "algorithm-design-paradigms",
       "file": "011000-dynamic-programming-as-a-proof.md",
       "spoken_words": 2199,
-      "draft_status": "substantive"
+      "draft_status": "substantive",
+      "tags": [
+        "Algorithm design",
+        "Dynamic programming",
+        "Optimal substructure",
+        "Algorithm correctness"
+      ]
     },
     {
       "id": "012000",
@@ -111,7 +171,17 @@
       "section": "algorithm-design-paradigms",
       "file": "012000-greedy-algorithms-and-exchange.md",
       "spoken_words": 2176,
-      "draft_status": "substantive"
+      "draft_status": "substantive",
+      "tags": [
+        "Algorithm design",
+        "Greedy algorithms",
+        "Exchange arguments",
+        "Algorithm correctness"
+      ]
     }
+  ],
+  "tags": [
+    "Algorithms",
+    "Theoretical computer science"
   ]
 }

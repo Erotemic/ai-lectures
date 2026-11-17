@@ -276,6 +276,22 @@ main {
 .chronological-contents .topic-link { padding: 0.5rem 0 0; border: 0; }
 .lecture-dates { margin: 0.9rem 0; font-size: 0.85rem; }
 .lecture-dates p { margin: 0.2rem 0 0.6rem; }
+.topic-tags { display: flex; flex-wrap: wrap; gap: 0.35rem; margin: 0.6rem 0; }
+.topic-tag { display: inline-block; font-size: 0.75rem; border: 1px solid var(--line); border-radius: 1rem; padding: 0.2rem 0.6rem; text-decoration: none; overflow-wrap: anywhere; }
+.topic-tag:hover, .topic-tag:focus-visible { background: var(--soft); border-color: var(--accent); }
+.subject-directory { display: grid; gap: 2rem; margin: 1.5rem 0 2rem; }
+.subject-directory > select { width: 100%; min-width: 0; }
+.subject-family > summary { cursor: pointer; color: var(--accent); padding: 0.6rem 0; }
+.subject-family > summary h2 { display: inline; margin: 0; font-size: 1.3rem; }
+.subject-family > summary small { display: block; margin-left: 1.2rem; }
+.subject-family > p { margin: 0 0 1rem; }
+.subject-links { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 18rem), 1fr)); gap: 0.75rem; }
+.subject-link { min-width: 0; padding: 1rem; border: 1px solid var(--line); border-radius: 8px; background: var(--panel); }
+.subject-link h3 { margin: 0; font-size: 1.05rem; }
+.subject-link p { font-size: 0.85rem; margin: 0.5rem 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+.subject-plan { margin-top: 0.6rem; font-size: 0.8rem; }
+.category-guide > .intro { max-width: 65ch; }
+.browsing-options input[type="search"] { width: 100%; min-width: 0; max-width: 100%; }
 .card .eyebrow { font-size: 0.66rem; margin-bottom: 0.45rem; }
 .browse-status { display: flex; justify-content: space-between; align-items: center; gap: 1rem; margin-top: 1rem; }
 .browse-status button { padding: 0.3rem 0.6rem; font-size: 0.85rem; }
@@ -715,6 +731,8 @@ progress {
     padding: 0.8rem;
     align-items: flex-start;
   }
+  .list li.catalog-item { flex-wrap: wrap; gap: 0.35rem; }
+  .list li.catalog-item > .copy { flex-basis: 100%; }
   #listening-history li {
     flex-wrap: wrap;
   }

@@ -25,6 +25,7 @@ import { listeningCourse, followingLecture } from "./playback-route.mjs";
 import { renderLearningPlan } from "./learning-plan.mjs";
 import { migrateLearningState } from "./learning-state.mjs";
 import { dateAxes, chronologyLine } from "./chronology.mjs";
+import { topicLinks } from "./topics.mjs";
 import {
   legacyPositions,
   approximateLegacyPosition,
@@ -437,6 +438,7 @@ async function lecturePage(id, autoplay = false, historical = null) {
     {},
     course ? link("← " + course.title, returnTo) : link("Library", "/"),
     title(row.title),
+    topicLinks(row.tags, link),
     el(
       "div",
       { class: "actions" },

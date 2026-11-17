@@ -26,7 +26,7 @@ from starlette.routing import Mount, Route
 from .core import Conflict, checksum, finite, qualified, digest
 from .library import Library
 from .state import ListenerState, utcnow
-from .organization import collection_metadata, item_organization
+from .organization import collection_metadata, item_organization, topic_tags
 from .companions import available_companions
 from .assets import LibraryAssets
 from .slide_companions import SlideCompanionsUnavailable
@@ -128,6 +128,7 @@ def create_app(
     def annotate(row, *, summary=False):
         words = len(row["transcript"].split())
         chronology = chronology_for(row)
+        tags = topic_tags(topic_tags(row.get("tags")) + topic_tags(row.get("metadata", {}).get("tags")))
         # Catalog cards do not need a copy of every source record and claim.
         row = deepcopy(
             {
@@ -139,6 +140,7 @@ def create_app(
             else row
         )
         origin = row["origin"]
+        row["tags"] = tags
         row.pop("chronology", None)
         if chronology:
             row["chronology"] = chronology
@@ -191,10 +193,14 @@ def create_app(
             return catalog_cache["response"]
 
     def catalog_response(snapshot, etag):
-        collections = [
-            dict(course, **collection_metadata(course, course["id"].split(":")[0]))
-            for course in snapshot["courses"].values()
-        ]
+        collections = []
+        for course in snapshot["courses"].values():
+            organization = collection_metadata(course, course["id"].split(":")[0])
+            collection = dict(course, **organization)
+            for field in ("browse_sections", "guide_for"):
+                if field not in organization:
+                    collection.pop(field, None)
+            collections.append(collection)
         for collection in collections:
             chronology = collection_chronology(collection, snapshot["lectures"])
             collection.pop("chronology", None)

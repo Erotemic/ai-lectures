@@ -6,7 +6,12 @@
       "title": "Operator Theory · Choose a Topic",
       "role": "hub",
       "lectures": [],
-      "summary": "Topic routes organize the current 109 lecture manuscripts. The complete sequence includes the motivating overview, developed topic lectures, and the final proof capstone."
+      "summary": "Topic routes organize the current 109 lecture manuscripts. The complete sequence includes the motivating overview, developed topic lectures, and the final proof capstone.",
+      "tags": [
+        "Operator theory",
+        "Functional analysis",
+        "Spectral theory"
+      ]
     },
     {
       "id": "orientation",
@@ -19,7 +24,11 @@
       "assumed_background": [
         "Use the full learner sequence or the relevant foundational courses when a topic requires unfamiliar mathematical objects. Topic adjacency is not a formal proof dependency."
       ],
-      "summary": "An accessible motivating overview of eigenvalue motion, eigenspace motion, residuals, and the route through the subject."
+      "summary": "An accessible motivating overview of eigenvalue motion, eigenspace motion, residuals, and the route through the subject.",
+      "tags": [
+        "Operator theory",
+        "Perturbation theory"
+      ]
     },
     {
       "id": "foundations",
@@ -53,6 +62,11 @@
       "parent": "topics",
       "assumed_background": [
         "Use the full learner sequence or the relevant foundational courses when a topic requires unfamiliar mathematical objects. Topic adjacency is not a formal proof dependency."
+      ],
+      "tags": [
+        "Linear algebra",
+        "Functional analysis",
+        "Hilbert spaces"
       ]
     },
     {
@@ -73,6 +87,11 @@
       "parent": "topics",
       "assumed_background": [
         "Use the full learner sequence or the relevant foundational courses when a topic requires unfamiliar mathematical objects. Topic adjacency is not a formal proof dependency."
+      ],
+      "tags": [
+        "Linear algebra",
+        "Spectral theory",
+        "Functional calculus"
       ]
     },
     {
@@ -94,6 +113,11 @@
       "parent": "topics",
       "assumed_background": [
         "Use the full learner sequence or the relevant foundational courses when a topic requires unfamiliar mathematical objects. Topic adjacency is not a formal proof dependency."
+      ],
+      "tags": [
+        "Subspace geometry",
+        "Principal angles",
+        "Orthogonal projections"
       ]
     },
     {
@@ -115,6 +139,11 @@
       "parent": "topics",
       "assumed_background": [
         "Use the full learner sequence or the relevant foundational courses when a topic requires unfamiliar mathematical objects. Topic adjacency is not a formal proof dependency."
+      ],
+      "tags": [
+        "Singular values",
+        "Unitarily invariant norms",
+        "Majorization"
       ]
     },
     {
@@ -132,6 +161,10 @@
       "parent": "topics",
       "assumed_background": [
         "Use the full learner sequence or the relevant foundational courses when a topic requires unfamiliar mathematical objects. Topic adjacency is not a formal proof dependency."
+      ],
+      "tags": [
+        "Sylvester equations",
+        "Spectral separation"
       ]
     },
     {
@@ -149,6 +182,11 @@
       "parent": "topics",
       "assumed_background": [
         "Use the full learner sequence or the relevant foundational courses when a topic requires unfamiliar mathematical objects. Topic adjacency is not a formal proof dependency."
+      ],
+      "tags": [
+        "Measure theory",
+        "Spectral theory",
+        "Functional calculus"
       ]
     },
     {
@@ -172,6 +210,11 @@
       "parent": "topics",
       "assumed_background": [
         "Use the full learner sequence or the relevant foundational courses when a topic requires unfamiliar mathematical objects. Topic adjacency is not a formal proof dependency."
+      ],
+      "tags": [
+        "Functional analysis",
+        "Unbounded operators",
+        "Semigroups"
       ]
     },
     {
@@ -188,6 +231,11 @@
       "parent": "topics",
       "assumed_background": [
         "Use the full learner sequence or the relevant foundational courses when a topic requires unfamiliar mathematical objects. Topic adjacency is not a formal proof dependency."
+      ],
+      "tags": [
+        "Functional analysis",
+        "Operator ideals",
+        "Schatten norms"
       ]
     },
     {
@@ -215,7 +263,12 @@
       "assumed_background": [
         "Use the full learner sequence or the relevant foundational courses when a topic requires unfamiliar mathematical objects. Topic adjacency is not a formal proof dependency."
       ],
-      "summary": "Residual, sine, tangent, and double-angle estimates, ending with an advanced proof reconstruction. The capstone also draws on the matching and beam application routes."
+      "summary": "Residual, sine, tangent, and double-angle estimates, ending with an advanced proof reconstruction. The capstone also draws on the matching and beam application routes.",
+      "tags": [
+        "Perturbation theory",
+        "Davis–Kahan theorems",
+        "Residuals"
+      ]
     },
     {
       "id": "matching",
@@ -230,6 +283,11 @@
       "parent": "topics",
       "assumed_background": [
         "Use the full learner sequence or the relevant foundational courses when a topic requires unfamiliar mathematical objects. Topic adjacency is not a formal proof dependency."
+      ],
+      "tags": [
+        "Optimization",
+        "Combinatorics",
+        "Frame alignment"
       ]
     },
     {
@@ -246,6 +304,11 @@
       "parent": "topics",
       "assumed_background": [
         "Use the full learner sequence or the relevant foundational courses when a topic requires unfamiliar mathematical objects. Topic adjacency is not a formal proof dependency."
+      ],
+      "tags": [
+        "Numerical analysis",
+        "PDEs",
+        "Perturbation theory"
       ]
     },
     {
@@ -260,6 +323,11 @@
       "parent": "topics",
       "assumed_background": [
         "Use the full learner sequence or the relevant foundational courses when a topic requires unfamiliar mathematical objects. Topic adjacency is not a formal proof dependency."
+      ],
+      "tags": [
+        "Probability",
+        "Statistics",
+        "Spectral embeddings"
       ]
     }
   ]

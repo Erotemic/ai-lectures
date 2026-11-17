@@ -26,6 +26,7 @@ RELATION_TYPES = {
     "related_to": ("Related material", "related", "Related material without an asserted prerequisite, proof dependency, or historical influence."),
     "contains": ("Contains lecture", "organization", "Collection membership only."),
     "collection_parent": ("Part of collection", "organization", "Collection hierarchy only; it does not assert prerequisites."),
+    "directory_link": ("Listed in subject guide", "organization", "A discovery link between collections, without a prerequisite or listening-order claim."),
 }
 
 
@@ -248,6 +249,9 @@ def build_learning_map(snapshot):
             if not isinstance(target, str):
                 continue
             add(source, "related_to", "collection:" + target, origin="navigation", collection_id=course_id)
+        for section in collection_metadata(course, course_id.split(":")[0]).get("browse_sections", []):
+            for target in section["collections"]:
+                add(source, "directory_link", "collection:" + target, section["title"], origin="navigation", collection_id=course_id)
         for chapter in _list(course.get("chapters")):
             if isinstance(chapter, dict) and isinstance(chapter.get("collection"), str) and chapter["collection"]:
                 add("collection:" + chapter["collection"], "expands_on", source, "Expanded treatment of " + chapter.get("title", "this topic") + ".", origin="navigation", collection_id=course_id)

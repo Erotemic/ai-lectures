@@ -1,7 +1,8 @@
 import { el, getStored, store, randomId } from "./api.mjs";
 import { preparationPanel } from "./narration.mjs";
-import { collectionRows, collectionAncestors, collectionSections, formatMinutes, matchesLecture } from "./browse-model.mjs";
+import { collectionRows, collectionAncestors, collectionSections, formatMinutes, matchesLecture, matchesTag } from "./browse-model.mjs";
 import { dateOrder, chronologyLine, chronologyOptions, sortChronologically } from "./chronology.mjs";
+import { topicLinks } from "./topics.mjs";
 
 const roleLabel = (collection) => ({ main: "Guided route", deep_dive: "Deep dive", hub: "Route guide", archive: "Complete sequence" })[collection.role] || "Collection";
 
@@ -40,11 +41,12 @@ export class CatalogBrowser {
     const saved = this.progress()[row.id];
     return el(
       "li",
-      {},
+      { class: "catalog-item" },
       el(
         "div",
         { class: "copy" },
         this.link(row.title, this.itemURL(row.id, collection)),
+        topicLinks(row.tags, this.link, 4),
         chronologyLine(row, dateAxis),
         el("small", {
           text: `${formatMinutes(row.estimated_minutes || (row.words || 0) / 145)}${saved?.legacy ? " · Old reader: passage " + (saved.legacy.page_index + 1) : saved?.completed ? " · Completed" : saved ? " · In progress" : ""}`,
@@ -67,6 +69,7 @@ export class CatalogBrowser {
       el("div", { class: "eyebrow", text: roleLabel(collection) }),
       el("h3", {}, this.link(collection.series_title || collection.title, this.routeURL(collection, origin))),
       chronologyLine(collection, dateAxis),
+      topicLinks(collection.tags, this.link, 3),
       collection.age_range_label
         ? el("span", { class: "badge", text: collection.age_range_label })
         : null,
@@ -80,6 +83,46 @@ export class CatalogBrowser {
           : `${this.catalog().courses.filter(c => c.parent_id === collection.id && c.role !== "archive").length} routes · ${rows.length} unique items`,
       }),
     );
+  }
+  directorySections(collection, origin = null) {
+    const courses = new Map(this.catalog().courses.map(row => [row.id, row]));
+    const storageKey = `subject-directory:${this.listener()}:${collection.id}`;
+    const opened = getStored(storageKey, {});
+    const sections = (collection.browse_sections || []).map((section, index) =>
+      el("details", { class: "subject-family", open: opened[section.title] ?? index === 0 },
+        el("summary", {}, el("h2", { text: section.title }), el("small", { class: "muted", text: `${section.collections.length} routes` })),
+        section.summary ? el("p", { class: "muted", text: section.summary }) : null,
+        el("div", { class: "subject-links" }, ...section.collections.map(key => {
+          const row = courses.get(key);
+          if (!row) return el("article", { class: "subject-link unavailable" },
+            el("h3", { text: key }), el("p", { class: "muted", text: "Not installed" }));
+          const members = collectionRows(row, this.catalog().courses, this.byId);
+          const minutes = members.reduce((sum, item) => sum + (item.estimated_minutes || 0), 0);
+          return el("article", { class: "subject-link" },
+            el("h3", {}, this.link(row.title, this.routeURL(row, origin))),
+            row.summary ? el("p", { class: "collection-summary", text: row.summary }) : null,
+            el("small", { class: "muted", text: `${members.length} available items${minutes ? " · " + formatMinutes(minutes) : ""}` }),
+            topicLinks(row.tags, this.link, 3),
+            row.lectures.length ? el("div", { class: "subject-plan" }, this.link("Adapt this route to what I know →", "/learning-plan?" + new URLSearchParams({ collection: row.id }))) : null,
+          );
+        })),
+      ));
+    for (let index = 0; index < sections.length; index++) sections[index].addEventListener("toggle", () => {
+      opened[collection.browse_sections[index].title] = sections[index].open;
+      store(storageKey, opened);
+    });
+    const jump = el("select", { "aria-label": "Jump to a subject" },
+      el("option", { value: "", text: "Jump to a subject or learning path…" }),
+      ...(collection.browse_sections || []).map((section, index) => el("option", { value: String(index), text: section.title })));
+    jump.addEventListener("change", () => {
+      if (jump.value === "") return;
+      const selected = sections[Number(jump.value)];
+      selected.open = true;
+      selected.querySelector("summary").focus({ preventScroll: true });
+      selected.scrollIntoView({ block: "start" });
+      jump.value = "";
+    });
+    return el("div", { class: "subject-directory" }, jump, ...sections);
   }
   continuation(allowed = null) {
     const rows = Object.values(this.progress())
@@ -111,7 +154,7 @@ export class CatalogBrowser {
       this.previousListener !== this.listener();
     this.previousListener = this.listener();
     const query = new URLSearchParams(listenerChanged ? "" : location.search);
-    const explicit = ["category", "audience", "q", "audio", "all", "view", "sort"].some(
+    const explicit = ["category", "audience", "q", "tag", "audio", "all", "view", "sort"].some(
       (field) => query.has(field),
     );
     const saved = explicit ? {} : getStored(key, {});
@@ -132,6 +175,8 @@ export class CatalogBrowser {
       ),
     );
     categories.value = initial("category");
+    const topic = el("input", { type: "search", list: "browse-topic-tags", "aria-label": "Topic tag", placeholder: "Choose a topic", value: initial("tag") });
+    const topicOptions = el("datalist", { id: "browse-topic-tags" }, ...[...new Set(data.lectures.flatMap(row => row.tags || []))].sort().map(tag => el("option", { value: tag })));
     const audiences = el(
       "select",
       { "aria-label": "Audience" },
@@ -180,13 +225,14 @@ export class CatalogBrowser {
         "div",
         { class: "filters" },
         el("label", {}, "Category", categories),
+        el("label", {}, "Topic tag", topic, topicOptions),
         el("label", {}, "Audience", audiences),
         el("label", {}, "Audio", audio),
         el("label", {}, "Collections", view),
         el("label", {}, "Order", sort),
       ),
     );
-    filters.open = Boolean(categories.value || audiences.value || audio.value || view.value || sort.value);
+    filters.open = Boolean(topic.value || audiences.value || audio.value || view.value || sort.value);
     search.className = "library-search";
     main.replaceChildren(
       heading,
@@ -209,6 +255,7 @@ export class CatalogBrowser {
         category: categories.value,
         audience: audiences.value,
         q: search.value,
+        tag: topic.value.trim(),
         audio: audio.value,
         view: view.value,
         sort: sort.value,
@@ -233,6 +280,7 @@ export class CatalogBrowser {
         (c) =>
           (!state.category || c.categories?.includes(state.category)) &&
           (!state.audience || c.audiences?.includes(state.audience)) &&
+          (!state.tag || matchesTag(c, state.tag) || collectionRows(c, data.courses, this.byId).some(row => matchesTag(row, state.tag))) &&
           (!state.audio || collectionRows(c, data.courses, this.byId).some(available)),
       );
       const allowed = new Set(
@@ -241,13 +289,14 @@ export class CatalogBrowser {
             (row) =>
               (!state.category || row.categories?.includes(state.category)) &&
               (!state.audience || row.audiences?.includes(state.audience)) &&
+              matchesTag(row, state.tag) &&
               available(row),
           )
           .map((row) => row.id),
       );
       const q = state.q.trim().toLocaleLowerCase();
       const collections = (q || state.view === "all" ? filtered : rootCollections(filtered)).filter(
-        (c) => !q || `${c.title} ${c.series_title || ""} ${c.id} ${c.summary}`.toLocaleLowerCase().includes(q),
+        (c) => !q || `${c.title} ${c.series_title || ""} ${c.id} ${c.summary} ${(c.tags || []).join(" ")}`.toLocaleLowerCase().includes(q),
       );
       const rows = data.lectures.filter(
         (row) =>
@@ -267,16 +316,28 @@ export class CatalogBrowser {
       }
       results.replaceChildren();
       if (dateOrder(state.sort)) results.append(el("p", { class: "muted chronology-hint", text: "Ranges sort by their starting year. Approximate or overlapping ranges do not imply a precise sequence. Undated items stay last; authored playback orders remain available." }));
-      if (state.category || state.audience || state.audio || q || state.view || state.sort)
+      if (state.category || state.audience || state.audio || q || state.tag || state.view || state.sort)
         results.append(el("div", { class: "browse-status" },
-          el("small", { text: [state.category, state.audience, state.audio && audio.selectedOptions[0].text, q && `Search: “${state.q}”`, state.view && "All collections", state.sort && sort.selectedOptions[0].text].filter(Boolean).join(" · ") }),
+          el("small", { text: [state.category, state.tag && `Topic: ${state.tag}`, state.audience, state.audio && audio.selectedOptions[0].text, q && `Search: “${state.q}”`, state.view && "All collections", state.sort && sort.selectedOptions[0].text].filter(Boolean).join(" · ") }),
           this.button("Clear filters", () => {
-            for (const input of [search, categories, audiences, audio, view, sort]) input.value = "";
+            for (const input of [search, topic, categories, audiences, audio, view, sort]) input.value = "";
             limit = 24;
             update();
           }),
         ));
-      if (!q && !state.category && !state.view && !state.sort) {
+      const guide = !q && !state.tag && !state.view && !state.sort && !state.audience && !state.audio && state.category
+        ? collections.find(row => row.guide_for?.includes(state.category) && row.browse_sections?.length) : null;
+      if (guide) {
+        results.append(el("section", { class: "category-guide" },
+          el("p", { class: "intro", text: guide.summary || "" }),
+          el("p", { class: "muted", text: "Follow topic tags to explore ideas across courses. Study plan uses recorded prerequisites and your background to construct a learning order." }),
+          el("div", { class: "actions" },
+            this.link("Open subject guide", this.courseLink(guide)),
+            this.link("Build a personal study plan", "/learning-plan"),
+            this.link("Browse every collection and lecture", base + "?" + new URLSearchParams({ category: state.category, view: "all" }))),
+          this.directorySections(guide, guide.id),
+        ));
+      } else if (!q && !state.tag && !state.category && !state.view && !state.sort) {
         const groups = collectionGroups(rootCollections(filtered));
         const categoryLink = (group) => {
           const node = this.link(
@@ -314,18 +375,17 @@ export class CatalogBrowser {
           ),
         );
       } else {
-        results.append(
-          el(
-            "section",
+        const collectionResults = el(
+            state.tag ? "details" : "section",
             { class: "section" },
-            el("h2", { text: `${collections.length} collections` }),
+            el(state.tag ? "summary" : "h2", { text: `${collections.length} collections` }),
             el(
               "div",
               { class: "grid" },
               ...collections.map((c) => this.card(c, null, dateOrder(state.sort)?.axis)),
             ),
-          ),
-        );
+          );
+        results.append(collectionResults);
         if (!collectionsOnly || q) {
           const section = el(
             "section",
@@ -362,8 +422,8 @@ export class CatalogBrowser {
           }),
         );
     };
-    for (const input of [search, categories, audiences, audio, view, sort])
-      input.addEventListener(input === search ? "input" : "change", () => {
+    for (const input of [search, topic, categories, audiences, audio, view, sort])
+      input.addEventListener(input === search || input === topic ? "input" : "change", () => {
         limit = 24;
         update();
       });
@@ -406,6 +466,7 @@ export class CatalogBrowser {
       el("div", { class: "eyebrow", text: roleLabel(collection) }),
       el("h1", { text: collection.series_title || collection.title }),
       chronologyLine(collection),
+      topicLinks(collection.tags, this.link),
       collection.age_range_label ? el("span", { class: "badge", text: collection.age_range_label }) : null,
       summary, summaryToggle,
       el("div", { class: "collection-stats" },
@@ -426,7 +487,7 @@ export class CatalogBrowser {
       this.link("References and reading", "/references?" + new URLSearchParams({ course_id: id })),
       this.link("All collections", "/collections?all=1"),
       this.link("Explore the learning map", "/learning-map?" + new URLSearchParams({ collection: id })),
-      this.link("Plan a learning order", "/learning-plan?" + new URLSearchParams({ collection: id })),
+      collection.lectures.length ? this.link("Plan a learning order", "/learning-plan?" + new URLSearchParams({ collection: id })) : this.link("Build a personal study plan", "/learning-plan"),
     );
     if (collection.background)
       resources.append(el("details", {}, el("summary", { text: "Background and prerequisites" }),
@@ -458,13 +519,16 @@ export class CatalogBrowser {
       resources.append(preparation);
     }
     const contents = el("div", { class: "collection-contents" });
+    if (collection.browse_sections?.length) contents.append(this.directorySections(collection, id));
     if (branches.length) {
-      const branchCards = el("div", { class: "grid" }, ...branches.map(c => this.card(c, id)));
+      const listed = new Set((collection.browse_sections || []).flatMap(section => section.collections));
+      const unlisted = branches.filter(row => !listed.has(row.id));
+      const branchCards = el("div", { class: "grid" }, ...unlisted.map(c => this.card(c, id)));
       if (collection.lectures.length) {
         contents.append(el("details", { class: "deep-dive-routes" },
           el("summary", { text: `Explore further · ${branches.length} routes` }), branchCards,
         ));
-      } else contents.append(el("h2", { text: "Choose a route" }), branchCards);
+      } else if (unlisted.length) contents.append(el("h2", { text: "Choose a route" }), branchCards);
     }
     if (collection.lectures.length) this.collectionContents(contents, collection, refreshStart);
     main.append(el("div", { class: "collection-layout" }, contents, resources));

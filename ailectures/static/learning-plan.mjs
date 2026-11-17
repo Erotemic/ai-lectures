@@ -4,6 +4,7 @@ import { LearningState, planRequest, familiarityStatus } from "./learning-state.
 const choices = [["unknown", "Need to learn"], ["uncertain", "Think I know · review"], ["known", "Confident I know"]];
 const option = (value, text) => el("option", { value, text });
 const strings = value => Array.isArray(value) ? value.filter(item => typeof item === "string") : typeof value === "string" ? [value] : [];
+const hasLectures = collection => Array.isArray(collection?.lectures) && collection.lectures.length > 0;
 
 export async function renderLearningPlan(main, context = {}) {
   const root = el("section", { class: "learning-planner" });
@@ -18,6 +19,7 @@ export async function renderLearningPlan(main, context = {}) {
   try { [data] = await Promise.all([api("/api/library/learning-map"), knowledge.load()]); }
   catch (error) { status.textContent = error.message; return; }
   if (!root.isConnected) return;
+  const planCollections = data.collections.filter(hasLectures);
   const link = context.link || ((text, href) => el("a", { href, "data-nav": "", text }));
   const preferenceKey = "learning-plan:" + (context.profile || "device");
   const params = new URLSearchParams(location.search);
@@ -63,14 +65,14 @@ export async function renderLearningPlan(main, context = {}) {
     el("p", { class: "muted", text: context.profile ? "These choices are shared with this named listener’s other devices and travel with listener history. Heard or completed lectures are not automatically marked known." : "These choices stay on this device. Choose a named listener from the menu to share future choices across devices. Heard or completed lectures are not automatically marked known." }));
   const backgroundSearch = el("input", { type: "search", placeholder: "For example: linear maps, completeness, or a lecture ID", "aria-label": "Find background material" });
   const bulkCourse = el("select", { "aria-label": "Background collection" }, option("", "Choose a collection to assess"),
-    ...data.collections.map(row => option(row.id, row.title)));
+    ...planCollections.map(row => option(row.id, row.title)));
   const bulkStatus = el("select", { "aria-label": "Collection familiarity" }, ...choices.map(([id, text]) => option(id, text)));
   bulkStatus.value = "uncertain";
   const knowledgeList = el("div", { class: "plan-knowledge-list" });
   const savedStatus = el("p", { class: "muted", role: "status" });
   const assessCollection = action("Apply to this collection", async () => {
     const selected = data.collections.find(row => row.id === bulkCourse.value);
-    if (!selected) { savedStatus.textContent = "Choose a background collection first."; return; }
+    if (!hasLectures(selected)) { savedStatus.textContent = "Choose a background lecture route first."; return; }
     assessCollection.disabled = true;
     savedStatus.textContent = `Saving ${selected.lectures.length} familiarity choices…`;
     try { await updateKnowledge(selected.lectures, bulkStatus.value); }
@@ -94,23 +96,29 @@ export async function renderLearningPlan(main, context = {}) {
   const collectionTitles = new Map(data.collections.map(row => [row.id, row.title]));
   const normalize = value => String(value).toLocaleLowerCase().replace(/[-_]/g, " ").replace(/\s+/g, " ").trim();
   const searchText = node => normalize([node.title, node.id, node.section,
-    ...strings(node.background), ...strings(node.readiness_checks),
+    ...strings(node.tags), ...strings(node.background), ...strings(node.readiness_checks),
     ...(node.collections || []).map(id => collectionTitles.get(id) || id)].join(" "));
   function invalidate() {
     computation++;
     build.disabled = false;
     for (const button of result.querySelectorAll("[data-plan-action]")) button.disabled = true;
   }
-  function courseRows() { return data.collections.filter(row => !category.value || row.categories?.includes(category.value)); }
+  function courseRows() { return planCollections.filter(row => !category.value || row.categories?.includes(category.value)); }
   function nodeRows() {
-    const selected = data.collections.find(row => row.id === collection.value);
+    const selected = planCollections.find(row => row.id === collection.value);
     const ids = selected ? new Set(selected.lectures) : null;
     return Object.values(data.nodes).filter(node => node.kind === "lecture" && (ids ? ids.has(node.id) : !category.value || node.categories?.includes(category.value)));
   }
   function populate() {
     const current = settings.collection;
     collection.replaceChildren(option("", "All collections in this subject"), ...courseRows().map(row => option(row.id, row.title)));
-    if (current && !courseRows().some(row => row.id === current)) collection.append(option(current, current + " · not in this subject"));
+    if (current && !courseRows().some(row => row.id === current)) {
+      const selected = data.collections.find(row => row.id === current);
+      const retained = option(current, selected && !hasLectures(selected)
+        ? selected.title + " · choose a route" : current + " · not in this subject");
+      retained.disabled = Boolean(selected && !hasLectures(selected));
+      collection.append(retained);
+    }
     collection.value = current;
     const query = normalize(search.value);
     const rows = nodeRows().filter(node => searchText(node).includes(query));
@@ -194,6 +202,17 @@ export async function renderLearningPlan(main, context = {}) {
       drawKnowledge();
     }
     const request = planRequest(data, settings, knowledge.records);
+    const selectedCollection = data.collections.find(row => row.id === settings.collection);
+    if (settings.collection && !hasLectures(selectedCollection)) {
+      result.replaceChildren();
+      if (selectedCollection) {
+        status.textContent = "Choose a lecture route within this guide before building a study plan.";
+        result.append(el("p", { class: "notice", text: "This guide links to several routes. Choose one of those routes or another collection to plan its lectures." }),
+          link("Choose a route in " + selectedCollection.title,
+            selectedCollection.url || "/collections/" + encodeURIComponent(selectedCollection.id)));
+      } else status.textContent = "This collection is unavailable. Choose an installed lecture route.";
+      return;
+    }
     if (settings.mode === "goal" && !settings.goal) { result.replaceChildren(); status.textContent = "Choose a lecture to reach."; return; }
     if (settings.mode === "collection" && !settings.collection) { result.replaceChildren(); status.textContent = "Choose a collection to follow."; return; }
     hasPlan = true; build.disabled = true; status.textContent = "Checking recorded prerequisites…";

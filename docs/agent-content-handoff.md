@@ -33,6 +33,14 @@ deep dives. Append source manuscripts and metadata where they already live.
 No shared server code, global registration, runtime pack build, or TTS run is
 needed to continue writing.
 
+Mathematics now has a [subject guide](../content/mathematics-guide/) and
+[topic tags](content-packs.md#subjects-topic-tags-and-learning-paths). Keep broad
+subject tags on the track and relevant concept tags on new lecture entries,
+reusing existing labels. Place additions in their focused subject routes; a new
+specialist lecture need not lengthen a starter path. Tags and route adjacency do
+not supply missing prerequisite edges. State real preparation separately in the
+lecture's learning metadata.
+
 An `include_sections` route automatically includes newly indexed entries with
 the specified section, in `track.json` order. Preserve that section when
 continuing its strand. Explicitly curated surveys remain separate from the

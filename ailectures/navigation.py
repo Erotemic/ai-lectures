@@ -76,7 +76,7 @@ def route_collections(
                 summary=entry.get("summary", ""),
                 background=entry.get("assumed_background", main.get("background", "")),
                 role=role,
-                **collection_metadata({**main, **entry}, namespace),
+                **collection_metadata({**main, **entry, "browse_sections": entry.get("browse_sections"), "guide_for": entry.get("guide_for")}, namespace),
             )
             if "chapters" in entry:
                 if "lectures" in entry or not isinstance(entry["chapters"], list):
@@ -158,6 +158,7 @@ def route_collections(
                     for part in course.get("chapters", [])
                     if part.get("collection")
                 ]
+                + [target for section in course.get("browse_sections", []) for target in section["collections"]]
             )
             for target in links:
                 if target.startswith(namespace + ":") and target not in courses:

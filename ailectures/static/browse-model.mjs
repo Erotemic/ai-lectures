@@ -139,10 +139,16 @@ export function matchesLecture(key, byId, query) {
   const term = String(query ?? "").trim().toLocaleLowerCase();
   if (!term) return true;
   const stable = String(key ?? "");
-  const title = byId(key)?.title || "";
-  return `${title} ${stable} ${stable.split(":").at(-1)}`
+  const row = byId(key);
+  const title = row?.title || "";
+  return `${title} ${stable} ${stable.split(":").at(-1)} ${(row?.tags || []).join(" ")}`
     .toLocaleLowerCase()
     .includes(term);
+}
+
+export function matchesTag(row, tag) {
+  const requested = String(tag || "").trim().toLocaleLowerCase();
+  return !requested || (row?.tags || []).some(value => value.toLocaleLowerCase() === requested);
 }
 
 /** Return hints can only link back to the lecture's installed collection. */

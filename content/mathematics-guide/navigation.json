@@ -1,0 +1,310 @@
+{
+  "default_collection": "start",
+  "archive_title": "Mathematics guide · Source index",
+  "collections": [
+    {
+      "id": "start",
+      "title": "Mathematics · Find a Path",
+      "role": "hub",
+      "summary": "Choose a learning path or a subject. Foundation lectures and specialist studies sit alongside one another; you can start from what you know and return for background when you need it.",
+      "guide_for": [
+        "Mathematics"
+      ],
+      "browse_sections": [
+        {
+          "title": "Suggested learning paths",
+          "summary": "Begin with a goal. Each path has stages and links to a fuller subject course; skip material you already understand.",
+          "collections": [
+            "foundations",
+            "calculus-and-change",
+            "proofs-programs-structure",
+            "reliable-computation"
+          ]
+        },
+        {
+          "title": "Proof and linear foundations",
+          "summary": "Read arguments, work with sets and functions, and move between equations, vectors, linear maps, and spectral directions.",
+          "collections": [
+            "mathematical-proof:main",
+            "linear-algebra:main"
+          ]
+        },
+        {
+          "title": "Analysis, geometry, and continuous change",
+          "summary": "From limits and calculus to spaces, manifolds, integration, and the analytic tools used in geometry and differential equations.",
+          "collections": [
+            "analysis:survey",
+            "multivariable-calculus:main",
+            "topology-geometry:survey",
+            "analysis:complex",
+            "analysis:measure-functional"
+          ]
+        },
+        {
+          "title": "Logic, algorithms, and algebraic structure",
+          "summary": "Proof objects and programs; groups, rings, modules, and fields; universal constructions and categorical language.",
+          "collections": [
+            "logic-types:main",
+            "algorithms-computability-complexity:main",
+            "abstract-algebra:survey",
+            "category-theory:survey"
+          ]
+        },
+        {
+          "title": "Number theory, combinatorics, and probability",
+          "summary": "Arithmetic, finite structures, random events, and statistical reasoning. These are separate subjects with useful connections, not one required sequence.",
+          "collections": [
+            "number-theory:survey",
+            "discrete-mathematics:survey",
+            "probability-measure:main"
+          ]
+        },
+        {
+          "title": "Numerical methods, optimization, and equations",
+          "summary": "Conditioning, error certificates, optimization, ODEs, and specialist numerical and PDE methods. Advanced branches state their additional analysis background.",
+          "collections": [
+            "numerical-analysis:survey",
+            "optimization-duality:survey",
+            "differential-equations:survey"
+          ]
+        },
+        {
+          "title": "Operator theory and Davis–Kahan",
+          "summary": "Choose a topic in the detailed operator course, read the paper-focused course, or use the visual presentation lectures. The theorem families, matching correction, and statistical applications remain distinct destinations.",
+          "collections": [
+            "g2:topics",
+            "g2:davis-kahan",
+            "g2:matching",
+            "g2:statistics",
+            "g3:main",
+            "g1:main"
+          ]
+        }
+      ],
+      "lectures": []
+    },
+    {
+      "id": "foundations",
+      "title": "Start Here · Proof and Linear Algebra",
+      "role": "main",
+      "parent": "start",
+      "summary": "Learn how mathematical claims are proved, then develop linear equations into coordinate-free maps, eigenvectors, singular values, and dual measurements. Two proof lectures and three linear-algebra lectures form the core; epsilon arguments remain available in the full proof course.",
+      "assumed_background": [
+        "Arithmetic, school algebra, variables, and elementary equations. No prior proof writing or linear algebra is assumed."
+      ],
+      "chapters": [
+        {
+          "title": "Claims, proofs, sets, and functions",
+          "lectures": [
+            "mathematical-proof:001000",
+            "mathematical-proof:009000"
+          ],
+          "collection": "mathematical-proof:main"
+        },
+        {
+          "title": "Equations, spectral directions, and linear measurements",
+          "lectures": [
+            "linear-algebra:001000",
+            "linear-algebra:006000",
+            "linear-algebra:012000"
+          ],
+          "collection": "linear-algebra:main"
+        }
+      ],
+      "related_collections": [
+        "analysis:survey",
+        "abstract-algebra:survey",
+        "logic-types:main",
+        "g2:foundations"
+      ],
+      "tags": [
+        "Mathematical proof",
+        "Linear algebra"
+      ]
+    },
+    {
+      "id": "calculus-and-change",
+      "title": "Limits to Motion · Calculus and Differential Equations",
+      "role": "main",
+      "parent": "start",
+      "summary": "Build single-variable calculus from convergence and completeness, move to derivatives and integration in several variables, then study initial-value problems, linear systems, and nonlinear phase portraits. The four stages stop before measure theory and PDE analysis.",
+      "assumed_background": [
+        "School algebra, functions, inequalities, and elementary trigonometry. Vectors, matrices, determinants, and dot products are needed before the several-variable stage; the linear-algebra foundation supplies them."
+      ],
+      "preparation_collections": [
+        "linear-algebra:main"
+      ],
+      "chapters": [
+        {
+          "title": "Limits, completeness, and continuity",
+          "lectures": [
+            "analysis:001000",
+            "analysis:002000",
+            "analysis:003000",
+            "analysis:004000"
+          ],
+          "collection": "analysis:survey"
+        },
+        {
+          "title": "Differentiation and integration",
+          "lectures": [
+            "analysis:005000",
+            "analysis:006000",
+            "analysis:007000",
+            "analysis:008000"
+          ],
+          "collection": "analysis:survey"
+        },
+        {
+          "title": "Local geometry, volume, and boundaries",
+          "lectures": [
+            "multivariable-calculus:001000",
+            "multivariable-calculus:008000",
+            "multivariable-calculus:015000"
+          ],
+          "collection": "multivariable-calculus:main"
+        },
+        {
+          "title": "Initial values, linear systems, and nonlinear motion",
+          "lectures": [
+            "differential-equations:001000",
+            "differential-equations:004000",
+            "differential-equations:007000"
+          ],
+          "collection": "differential-equations:survey"
+        }
+      ],
+      "related_collections": [
+        "analysis:measure-functional",
+        "analysis:pde",
+        "topology-geometry:manifolds",
+        "differential-equations:dynamics"
+      ],
+      "tags": [
+        "Analysis",
+        "Calculus",
+        "Differential equations"
+      ]
+    },
+    {
+      "id": "proofs-programs-structure",
+      "title": "Proofs, Programs, and Mathematical Structure",
+      "role": "deep_dive",
+      "parent": "start",
+      "summary": "Follow proofs into types and computation, work through equality and trusted checking, then compare verified algorithmic reasoning with categories, functors, natural transformations, and universal properties. The final stage opens two further subjects; it does not claim to complete computability or category theory.",
+      "assumed_background": [
+        "Sets, functions, elementary propositional logic, and experience reading short proofs. Familiar examples of vector spaces or groups help in the categorical stage; definitions are introduced in the source lectures."
+      ],
+      "preparation_collections": [
+        "mathematical-proof:main"
+      ],
+      "chapters": [
+        {
+          "title": "Proof objects, quantifiers, and inductive constructions",
+          "lectures": [
+            "logic-types:001000",
+            "logic-types:002000",
+            "logic-types:003000",
+            "logic-types:004000"
+          ],
+          "collection": "logic-types:main"
+        },
+        {
+          "title": "Equality, transport, and what a proof assistant checks",
+          "lectures": [
+            "logic-types:005000",
+            "logic-types:006000",
+            "logic-types:007000",
+            "logic-types:008000"
+          ],
+          "collection": "logic-types:main"
+        },
+        {
+          "title": "From a mathematical proof to an algorithm",
+          "lectures": [
+            "algorithms-computability-complexity:003000"
+          ],
+          "collection": "algorithms-computability-complexity:main"
+        },
+        {
+          "title": "Compositional structure and universal properties",
+          "lectures": [
+            "category-theory:001000",
+            "category-theory:002000",
+            "category-theory:003000",
+            "category-theory:004000"
+          ],
+          "collection": "category-theory:survey"
+        }
+      ],
+      "related_collections": [
+        "abstract-algebra:survey",
+        "category-theory:tools",
+        "category-theory:logic-semantics",
+        "category-theory:geometry-higher"
+      ],
+      "tags": [
+        "Logic",
+        "Type theory",
+        "Algorithms",
+        "Category theory"
+      ]
+    },
+    {
+      "id": "reliable-computation",
+      "title": "Reliable Answers · Numerical Error and Optimality Certificates",
+      "role": "deep_dive",
+      "parent": "start",
+      "summary": "Separate data sensitivity from algorithmic error, test linear-system residuals and stopping rules, then learn how primal and dual witnesses certify optimality. Numerical accuracy and mathematical optimality are different guarantees. Operator and Davis–Kahan studies are linked destinations with additional background.",
+      "assumed_background": [
+        "Elementary linear algebra, norms, and single-variable differentiation and integration. The KKT stage uses derivatives and gradients; the source lectures establish their examples and hypotheses. This path is not a replacement for spectral theory, measure theory, or a complete PDE course."
+      ],
+      "preparation_collections": [
+        "linear-algebra:main",
+        "analysis:survey"
+      ],
+      "chapters": [
+        {
+          "title": "Models, rounding, conditioning, and backward error",
+          "lectures": [
+            "numerical-analysis:001000",
+            "numerical-analysis:002000",
+            "numerical-analysis:003000",
+            "numerical-analysis:004000"
+          ],
+          "collection": "numerical-analysis:survey"
+        },
+        {
+          "title": "Linear solves and stopping certificates",
+          "lectures": [
+            "numerical-analysis:006000",
+            "numerical-analysis:007000"
+          ],
+          "collection": "numerical-analysis:linear-solvers"
+        },
+        {
+          "title": "Convex geometry, primal-dual bounds, and KKT",
+          "lectures": [
+            "optimization-duality:001000",
+            "optimization-duality:002000",
+            "optimization-duality:003000",
+            "optimization-duality:004000"
+          ],
+          "collection": "optimization-duality:survey"
+        }
+      ],
+      "related_collections": [
+        "numerical-analysis:validated-dynamics",
+        "numerical-analysis:pde-certificates",
+        "optimization-duality:conic-certificates",
+        "g2:finite-spectrum",
+        "g2:davis-kahan",
+        "g3:main"
+      ],
+      "tags": [
+        "Numerical analysis",
+        "Optimization"
+      ]
+    }
+  ]
+}

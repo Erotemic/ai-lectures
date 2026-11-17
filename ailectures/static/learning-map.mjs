@@ -1,4 +1,5 @@
 import { api, el } from "./api.mjs";
+import { topicLinks } from "./topics.mjs";
 
 const CATEGORY_LABELS = {
   preparation: "Teaching preparation", proof: "Proof dependencies",
@@ -39,6 +40,7 @@ export function selectLearningMap(data, state = {}) {
     }
     if (!query) return true;
     return [nodes[edge.from]?.title, nodes[edge.to]?.title, edge.from, edge.to,
+      ...(nodes[edge.from]?.tags || []), ...(nodes[edge.to]?.tags || []),
       edge.label, edge.description, ...(edge.reasons || []),
       ...(edge.evidence || []).flatMap(claim => [claim.from, claim.to, claim.why]),
     ].filter(Boolean).join(" ").toLocaleLowerCase().includes(query);
@@ -48,7 +50,7 @@ export function selectLearningMap(data, state = {}) {
   // A title/ID search can find a lecture with no relationships of this kind.
   if (query && !focus)
     for (const node of Object.values(nodes))
-      if ((!collection || scope.has(node.id)) && `${node.title} ${node.id}`.toLocaleLowerCase().includes(query)) visible.add(node.id);
+      if ((!collection || scope.has(node.id)) && `${node.title} ${node.id} ${(node.tags || []).join(" ")}`.toLocaleLowerCase().includes(query)) visible.add(node.id);
   return {
     focus, relations, internal: relations.filter(edge => edge.internal),
     external: relations.filter(edge => !edge.internal),
@@ -225,6 +227,7 @@ export async function renderLearningMap(main, context = {}) {
     if (selected.focusNode) {
       const node = selected.focusNode;
       inspector.append(el("h2", { tabindex: "-1", text: node.title }), nodeLink(node), el("p", { class: "muted", text: node.id + (node.available ? "" : " · Not installed in this library") }),
+        topicLinks(node.tags, link),
         button("Clear selected entry", () => { state.lecture = state.node = ""; update(); }));
     } else if (selected.focus) inspector.append(el("p", { class: "notice", text: "This entry is not available in the current map: " + selected.focus }), button("Clear selected entry", () => { state.lecture = state.node = ""; update(); }));
     drawDiagram();

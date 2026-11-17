@@ -66,12 +66,62 @@ def labels(value):
     )
 
 
+def topic_tags(value):
+    """Portable descriptive topics, not prerequisite claims or access rules."""
+    result, seen = [], set()
+    for tag in labels(value):
+        if len(tag) > 80 or any(ord(char) < 32 or ord(char) == 127 for char in tag):
+            continue
+        if tag.casefold() not in seen:
+            seen.add(tag.casefold())
+            result.append(tag)
+        if len(result) == 64:
+            break
+    return result
+
+
+def browse_sections(value, namespace):
+    """A source-owned subject directory may refer to optional installed packs."""
+    from .core import qualified
+
+    if not isinstance(value, list):
+        return []
+    result = []
+    for section in value[:32]:
+        if not isinstance(section, dict) or not isinstance(section.get("title"), str):
+            continue
+        title = section["title"].strip()
+        if not title or len(title) > 256 or not isinstance(section.get("collections"), list):
+            continue
+        references = []
+        for reference in section["collections"][:128]:
+            if not isinstance(reference, str):
+                continue
+            try:
+                key = qualified(reference if ":" in reference else f"{namespace}:{reference}")
+            except ValueError:
+                continue
+            if key not in references:
+                references.append(key)
+        if references:
+            row = dict(title=title, collections=references)
+            if isinstance(section.get("summary"), str):
+                row["summary"] = section["summary"][:2000]
+            result.append(row)
+    return result
+
+
 def collection_metadata(plan, namespace):
     grouping = categories(plan.get("categories", plan.get("category")))
     result = dict(
         categories=grouping or [LEGACY_CATEGORIES.get(namespace, "Other collections")],
         audiences=labels(plan.get("audiences", plan.get("audience"))),
+        tags=topic_tags(plan.get("tags")),
     )
+    if directory := browse_sections(plan.get("browse_sections"), namespace):
+        result["browse_sections"] = directory
+    if guides := categories(plan.get("guide_for")):
+        result["guide_for"] = guides
     if "chronology" in plan:
         from .chronology import normalize_chronology
         if dates := normalize_chronology(plan["chronology"]):
@@ -112,6 +162,7 @@ def item_organization(row, collections):
     if not isinstance(metadata, dict):
         metadata = {}
     return {
+        "tags": topic_tags(topic_tags(row.get("tags")) + topic_tags(metadata.get("tags"))),
         "categories": categories(metadata.get("categories", metadata.get("category")))
         or list(
             dict.fromkeys(

@@ -20,7 +20,7 @@ from .core import (
     text_digest,
 )
 from .source_updates import atomic_bytes, source_lock
-from .organization import collection_metadata
+from .organization import collection_metadata, topic_tags
 from .navigation import route_collections
 from .companions import discover_companions, companion_file
 
@@ -218,6 +218,8 @@ def repository_track(directory, *, previous=None, strict=False):
             kind="audio",
             recordings=[],
         )
+        if tags := topic_tags(topic_tags(plan.get("tags")) + topic_tags(entry.get("tags")) + topic_tags(metadata.get("tags"))):
+            row["tags"] = tags
         companions, files, paths = discover_companions(directory, metadata, issue)
         companion_paths.extend(paths)
         if companions:

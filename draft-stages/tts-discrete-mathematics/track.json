@@ -38,6 +38,11 @@
         "003000",
         "004000",
         "008000"
+      ],
+      "tags": [
+        "Counting methods",
+        "Generating functions",
+        "Group actions"
       ]
     },
     {
@@ -52,6 +57,12 @@
         "005000",
         "006000",
         "007000"
+      ],
+      "tags": [
+        "Graph theory",
+        "Matchings",
+        "Network flows",
+        "Certificates"
       ]
     },
     {
@@ -66,6 +77,13 @@
         "009000",
         "010000",
         "012000"
+      ],
+      "tags": [
+        "Graph theory",
+        "Matroids",
+        "Greedy algorithms",
+        "Extremal combinatorics",
+        "Coloring"
       ]
     },
     {
@@ -81,6 +99,12 @@
         "016000",
         "019000",
         "022000"
+      ],
+      "tags": [
+        "Probability",
+        "Probabilistic method",
+        "Random graphs",
+        "Concentration inequalities"
       ]
     },
     {
@@ -94,6 +118,12 @@
       "consolidated_from": [
         "013000",
         "026000"
+      ],
+      "tags": [
+        "Optimization",
+        "Matroids",
+        "Submodularity",
+        "Randomized rounding"
       ]
     },
     {
@@ -108,6 +138,13 @@
         "014000",
         "015000",
         "017000"
+      ],
+      "tags": [
+        "Graph theory",
+        "Ramsey theory",
+        "Spectral graph theory",
+        "Expanders",
+        "Graph separators"
       ]
     },
     {
@@ -125,6 +162,13 @@
         "028000",
         "029000",
         "030000"
+      ],
+      "tags": [
+        "Probability",
+        "Set systems",
+        "VC dimension",
+        "Discrepancy",
+        "Sampling"
       ]
     },
     {
@@ -141,6 +185,12 @@
         "032000",
         "034000",
         "035000"
+      ],
+      "tags": [
+        "Coding theory",
+        "Harmonic analysis",
+        "Randomness extractors",
+        "Boolean functions"
       ]
     },
     {
@@ -154,6 +204,12 @@
       "consolidated_from": [
         "021000",
         "023000"
+      ],
+      "tags": [
+        "Algorithms",
+        "Parameterized complexity",
+        "Graph theory",
+        "Expanders"
       ]
     },
     {
@@ -167,6 +223,12 @@
       "consolidated_from": [
         "031000",
         "033000"
+      ],
+      "tags": [
+        "Algorithms",
+        "Property testing",
+        "Hypergraph containers",
+        "Counting methods"
       ]
     },
     {
@@ -183,6 +245,13 @@
         "038000",
         "039000",
         "041000"
+      ],
+      "tags": [
+        "Coding theory",
+        "Harmonic analysis",
+        "Local decoding",
+        "Derandomization",
+        "Boolean functions"
       ]
     },
     {
@@ -194,7 +263,12 @@
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 7.1,
       "editorial_role": "compact_advanced_introduction",
-      "organization_note": "An overview of hypergraph absorption with no same-method deep sequel yet. Do not merge it with the distinct quasirandom four-cycle argument merely to increase length."
+      "organization_note": "An overview of hypergraph absorption with no same-method deep sequel yet. Do not merge it with the distinct quasirandom four-cycle argument merely to increase length.",
+      "tags": [
+        "Hypergraphs",
+        "Matchings",
+        "Absorption method"
+      ]
     },
     {
       "id": "042000",
@@ -205,7 +279,16 @@
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 5.9,
       "editorial_role": "focused_reference",
-      "organization_note": "A compact self-contained four-cycle/quasirandomness argument, distinct from hypergraph absorption. Its short duration is intentional."
+      "organization_note": "A compact self-contained four-cycle/quasirandomness argument, distinct from hypergraph absorption. Its short duration is intentional.",
+      "tags": [
+        "Graph theory",
+        "Quasirandomness",
+        "Counting methods",
+        "Spectral graph theory"
+      ]
     }
+  ],
+  "tags": [
+    "Combinatorics"
   ]
 }

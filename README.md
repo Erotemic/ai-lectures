@@ -68,6 +68,13 @@ navigation can offer a survey and deeper branches using the same lecture IDs
 and recordings. Reorganizing a route does not require copying transcripts or
 regenerating speech.
 
+Mathematics opens a [subject guide](content/mathematics-guide/) with four suggested
+learning paths and six subject families. Click topic tags to follow concepts
+across courses, or adapt a path in Study plan using your known and uncertain
+background. [Subject organization and tags](docs/content-packs.md#subjects-topic-tags-and-learning-paths)
+are source-owned metadata; advanced courses and individual lectures remain
+directly accessible.
+
 Collections can also display oldest or newest first using work dates, periods
 covered, story settings, lifespans, or textual witnesses. Date ranges and
 uncertainty stay visible; undated items come last. **Listen in displayed order**

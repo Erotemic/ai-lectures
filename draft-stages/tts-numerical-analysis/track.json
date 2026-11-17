@@ -30,7 +30,13 @@
       "file": "001000-when-to-trust-a-computed-answer.md",
       "spoken_words": 2006,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 13.8
+      "estimated_minutes_at_145_wpm": 13.8,
+      "tags": [
+        "Mathematical modeling",
+        "Approximation",
+        "Error bounds",
+        "Validation"
+      ]
     },
     {
       "id": "002000",
@@ -39,7 +45,12 @@
       "file": "002000-rounding-and-error-propagation.md",
       "spoken_words": 3039,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 21.0
+      "estimated_minutes_at_145_wpm": 21.0,
+      "tags": [
+        "Floating-point arithmetic",
+        "Error propagation",
+        "Stability"
+      ]
     },
     {
       "id": "003000",
@@ -48,7 +59,12 @@
       "file": "003000-conditioning-and-sensitivity.md",
       "spoken_words": 1728,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 11.9
+      "estimated_minutes_at_145_wpm": 11.9,
+      "tags": [
+        "Conditioning",
+        "Sensitivity analysis",
+        "Error bounds"
+      ]
     },
     {
       "id": "004000",
@@ -57,7 +73,12 @@
       "file": "004000-backward-error-and-stability.md",
       "spoken_words": 1662,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 11.5
+      "estimated_minutes_at_145_wpm": 11.5,
+      "tags": [
+        "Backward error",
+        "Stability",
+        "Certificates"
+      ]
     },
     {
       "id": "005000",
@@ -66,7 +87,13 @@
       "file": "005000-roots-brackets-and-newton.md",
       "spoken_words": 1741,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 12.0
+      "estimated_minutes_at_145_wpm": 12.0,
+      "tags": [
+        "Nonlinear equations",
+        "Root finding",
+        "Newton methods",
+        "Error bounds"
+      ]
     },
     {
       "id": "006000",
@@ -75,7 +102,14 @@
       "file": "006000-linear-algebra-pivoting-and-residuals.md",
       "spoken_words": 1571,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 10.8
+      "estimated_minutes_at_145_wpm": 10.8,
+      "tags": [
+        "Linear algebra",
+        "Linear systems",
+        "Floating-point arithmetic",
+        "Conditioning",
+        "Residuals"
+      ]
     },
     {
       "id": "007000",
@@ -84,7 +118,12 @@
       "file": "007000-error-budgets-convergence-certificates.md",
       "spoken_words": 1844,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 12.7
+      "estimated_minutes_at_145_wpm": 12.7,
+      "tags": [
+        "Convergence rates",
+        "A posteriori estimates",
+        "Error bounds"
+      ]
     },
     {
       "id": "008000",
@@ -93,7 +132,12 @@
       "file": "008000-interpolation-nodes-and-conditioning.md",
       "spoken_words": 1625,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 11.2
+      "estimated_minutes_at_145_wpm": 11.2,
+      "tags": [
+        "Approximation theory",
+        "Polynomial interpolation",
+        "Conditioning"
+      ]
     },
     {
       "id": "009000",
@@ -106,6 +150,12 @@
       "consolidated_from": [
         "009000",
         "012000"
+      ],
+      "tags": [
+        "Real analysis",
+        "Numerical integration",
+        "Adaptive methods",
+        "Error bounds"
       ]
     },
     {
@@ -115,7 +165,13 @@
       "file": "010000-iterative-linear-solvers-and-residuals.md",
       "spoken_words": 1492,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 10.3
+      "estimated_minutes_at_145_wpm": 10.3,
+      "tags": [
+        "Linear algebra",
+        "Iterative methods",
+        "Spectral theory",
+        "Conjugate gradients"
+      ]
     },
     {
       "id": "011000",
@@ -132,6 +188,13 @@
         "017000",
         "024000",
         "025000"
+      ],
+      "tags": [
+        "ODEs",
+        "Dynamical systems",
+        "Time integration",
+        "Interval methods",
+        "Validation"
       ]
     },
     {
@@ -145,6 +208,13 @@
       "consolidated_from": [
         "014000",
         "015000"
+      ],
+      "tags": [
+        "Linear algebra",
+        "Spectral theory",
+        "Krylov methods",
+        "Time integration",
+        "Preconditioning"
       ]
     },
     {
@@ -159,6 +229,13 @@
         "016000",
         "021000",
         "026000"
+      ],
+      "tags": [
+        "Optimization",
+        "Automatic differentiation",
+        "Adjoint methods",
+        "Nonsmooth analysis",
+        "Event sensitivity"
       ]
     },
     {
@@ -173,6 +250,13 @@
         "018000",
         "022000",
         "027000"
+      ],
+      "tags": [
+        "PDEs",
+        "Finite elements",
+        "A posteriori estimates",
+        "Adjoint methods",
+        "Error bounds"
       ]
     },
     {
@@ -187,7 +271,17 @@
         "019000",
         "023000",
         "028000"
+      ],
+      "tags": [
+        "Linear algebra",
+        "PDEs",
+        "Multigrid",
+        "Preconditioning",
+        "Anisotropy"
       ]
     }
+  ],
+  "tags": [
+    "Numerical analysis"
   ]
 }

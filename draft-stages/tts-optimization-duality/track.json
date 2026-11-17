@@ -25,7 +25,12 @@
       "file": "001000-optimality-and-certificates.md",
       "spoken_words": 3148,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 21.7
+      "estimated_minutes_at_145_wpm": 21.7,
+      "tags": [
+        "Optimality conditions",
+        "Duality",
+        "Certificates"
+      ]
     },
     {
       "id": "002000",
@@ -34,7 +39,12 @@
       "file": "002000-convexity-and-supporting-hyperplanes.md",
       "spoken_words": 3308,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 22.8
+      "estimated_minutes_at_145_wpm": 22.8,
+      "tags": [
+        "Convex geometry",
+        "Separation theorems",
+        "Duality"
+      ]
     },
     {
       "id": "003000",
@@ -43,7 +53,12 @@
       "file": "003000-linear-programming-duality.md",
       "spoken_words": 3156,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 21.8
+      "estimated_minutes_at_145_wpm": 21.8,
+      "tags": [
+        "Linear programming",
+        "Duality",
+        "Certificates"
+      ]
     },
     {
       "id": "004000",
@@ -52,7 +67,12 @@
       "file": "004000-kkt-conditions-and-constraint-qualifications.md",
       "spoken_words": 3001,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 20.7
+      "estimated_minutes_at_145_wpm": 20.7,
+      "tags": [
+        "Multivariable differentiation",
+        "Constrained optimization",
+        "KKT conditions"
+      ]
     },
     {
       "id": "005000",
@@ -65,6 +85,12 @@
       "consolidated_from": [
         "005000",
         "006000"
+      ],
+      "tags": [
+        "Algorithms",
+        "Convex optimization",
+        "Gradient methods",
+        "Proximal methods"
       ]
     },
     {
@@ -80,6 +106,13 @@
         "012000",
         "010000",
         "009000"
+      ],
+      "tags": [
+        "Linear algebra",
+        "Conic optimization",
+        "Semidefinite programming",
+        "Interior-point methods",
+        "Certificates"
       ]
     },
     {
@@ -95,6 +128,12 @@
         "013000",
         "017000",
         "021000"
+      ],
+      "tags": [
+        "Combinatorics",
+        "Submodularity",
+        "Approximation algorithms",
+        "Convex relaxation"
       ]
     },
     {
@@ -110,6 +149,12 @@
         "015000",
         "019000",
         "024000"
+      ],
+      "tags": [
+        "Probability",
+        "Sensitivity analysis",
+        "Robust optimization",
+        "Distributional risk"
       ]
     },
     {
@@ -125,6 +170,13 @@
         "018000",
         "022000",
         "023000"
+      ],
+      "tags": [
+        "Functional analysis",
+        "Monotone operators",
+        "Proximal methods",
+        "Stochastic optimization",
+        "Game theory"
       ]
     },
     {
@@ -139,7 +191,16 @@
         "016000",
         "020000",
         "025000"
+      ],
+      "tags": [
+        "Conic optimization",
+        "Infeasibility certificates",
+        "Facial reduction",
+        "Exact arithmetic"
       ]
     }
+  ],
+  "tags": [
+    "Optimization"
   ]
 }

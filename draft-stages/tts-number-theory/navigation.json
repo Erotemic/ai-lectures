@@ -1,0 +1,371 @@
+{
+  "default_collection": "survey",
+  "archive_title": "Number Theory · Complete Original Sequence",
+  "collections": [
+    {
+      "id": "survey",
+      "title": "Number Theory · Arithmetic, Congruences, and First Prime Questions",
+      "role": "main",
+      "summary": "Start with integer arithmetic and modular reasoning, then meet three questions about solutions, squares, and primes. Continue into one of the focused branches rather than treating all advanced arithmetic as one required sequence.",
+      "chapters": [
+        {
+          "title": "Divisibility, reconstruction, and multiplicative order",
+          "lectures": [
+            "001000",
+            "002000",
+            "003000"
+          ]
+        },
+        {
+          "title": "Integer solutions, quadratic residues, and prime distribution",
+          "lectures": [
+            "004000",
+            "006000",
+            "009000"
+          ]
+        }
+      ],
+      "assumed_background": [
+        "Integer arithmetic, fractions, equations, and school algebra. Proof habits help; no prior group theory or analytic number theory is assumed."
+      ],
+      "tags": [
+        "Number theory",
+        "Divisibility",
+        "Congruences",
+        "Prime distribution"
+      ],
+      "preparation_collections": [
+        "mathematical-proof:main"
+      ],
+      "related_collections": []
+    },
+    {
+      "id": "approximation",
+      "title": "Number Theory · Rational Approximation and Pell Equations",
+      "role": "deep_dive",
+      "parent": "survey",
+      "summary": "",
+      "chapters": [
+        {
+          "title": "Integer parametrization and approximation",
+          "lectures": [
+            "004000",
+            "005000"
+          ]
+        },
+        {
+          "title": "Periodic continued fractions and the complete Pell theorem",
+          "lectures": [
+            "011000"
+          ]
+        }
+      ],
+      "assumed_background": [
+        "Euclidean algorithm, fractions, elementary algebra, and inequalities. The first survey lecture supplies gcd and divisibility."
+      ],
+      "tags": [
+        "Diophantine approximation",
+        "Continued fractions",
+        "Pell equations"
+      ],
+      "preparation_collections": [
+        "number-theory:survey"
+      ],
+      "related_collections": [
+        "number-theory:quadratic-forms"
+      ]
+    },
+    {
+      "id": "reciprocity",
+      "title": "Number Theory · Reciprocity, Sums of Squares, and Counting",
+      "role": "deep_dive",
+      "parent": "survey",
+      "summary": "",
+      "chapters": [
+        {
+          "title": "Quadratic residues and a proof of reciprocity",
+          "lectures": [
+            "003000",
+            "006000",
+            "007000"
+          ]
+        },
+        {
+          "title": "From multiplicative functions to two-square counts",
+          "lectures": [
+            "008000",
+            "012000",
+            "024000"
+          ]
+        },
+        {
+          "title": "A geometric comparison: lattice points in a circle",
+          "lectures": [
+            "024500"
+          ]
+        }
+      ],
+      "assumed_background": [
+        "Congruences, multiplicative order, and elementary proof methods. Gaussian integers and arithmetic functions are developed in the selected lectures; the lattice-point comparison uses areas and elementary estimates."
+      ],
+      "tags": [
+        "Quadratic residues",
+        "Reciprocity",
+        "Sums of squares",
+        "Arithmetic functions"
+      ],
+      "preparation_collections": [
+        "number-theory:survey"
+      ],
+      "related_collections": [
+        "number-theory:algebraic-integers",
+        "number-theory:quadratic-forms"
+      ]
+    },
+    {
+      "id": "finite-fields",
+      "title": "Number Theory · Finite Fields and Primality Certificates",
+      "role": "deep_dive",
+      "parent": "survey",
+      "summary": "",
+      "chapters": [
+        {
+          "title": "Orders, witnesses, and finite-field examples",
+          "lectures": [
+            "003000",
+            "013000",
+            "014000"
+          ]
+        },
+        {
+          "title": "Construction, uniqueness, Frobenius, and irreducibility",
+          "lectures": [
+            "025000",
+            "025500"
+          ]
+        }
+      ],
+      "assumed_background": [
+        "Divisibility, congruences, modular inverses, and elementary polynomial algebra. The survey supplies the integer arithmetic; the selected lectures develop field construction."
+      ],
+      "tags": [
+        "Finite fields",
+        "Primality testing",
+        "Certificates",
+        "Frobenius"
+      ],
+      "preparation_collections": [
+        "number-theory:survey"
+      ],
+      "related_collections": [
+        "abstract-algebra:survey"
+      ]
+    },
+    {
+      "id": "analytic-primes",
+      "title": "Number Theory · Dirichlet and the Prime Number Theorem",
+      "role": "deep_dive",
+      "parent": "survey",
+      "summary": "",
+      "chapters": [
+        {
+          "title": "Counting functions, characters, and Euler products",
+          "lectures": [
+            "008000",
+            "009000",
+            "015000",
+            "016000",
+            "017000",
+            "018000"
+          ]
+        },
+        {
+          "title": "Complex tools, continuation, and nonvanishing",
+          "lectures": [
+            "026000",
+            "019000",
+            "020000",
+            "021000"
+          ]
+        },
+        {
+          "title": "Primes in progressions and the size of prime counts",
+          "lectures": [
+            "022000",
+            "023000"
+          ]
+        },
+        {
+          "title": "The zero-free line, a Tauberian argument, and the prime number theorem",
+          "lectures": [
+            "026500",
+            "026750",
+            "028000"
+          ]
+        }
+      ],
+      "assumed_background": [
+        "Congruences, elementary proof methods, single-variable calculus, convergent series, and basic complex numbers. Lecture 015000 develops series and partial summation; 026000 supplies contours and Cauchy theory before their later use. The full complex-analysis course offers more patient background."
+      ],
+      "tags": [
+        "Analytic number theory",
+        "Prime distribution",
+        "L-functions",
+        "Zeta functions"
+      ],
+      "preparation_collections": [
+        "number-theory:survey",
+        "analysis:survey"
+      ],
+      "related_collections": [
+        "analysis:complex"
+      ]
+    },
+    {
+      "id": "algebraic-integers",
+      "title": "Number Theory · Integers, Ideals, and Class Groups",
+      "role": "deep_dive",
+      "parent": "survey",
+      "summary": "Ideal-factorization and norm foundations precede the class-group calculation that uses them. This is a proof-led route; the original source order remains available.",
+      "chapters": [
+        {
+          "title": "Factorization works, then fails",
+          "lectures": [
+            "012000",
+            "027000",
+            "027250"
+          ]
+        },
+        {
+          "title": "Dedekind foundations, ideal factorization, and multiplicative norms",
+          "lectures": [
+            "027625",
+            "027750",
+            "027875"
+          ]
+        },
+        {
+          "title": "A class-group calculation and prime splitting",
+          "lectures": [
+            "027500",
+            "029000",
+            "029250"
+          ]
+        }
+      ],
+      "assumed_background": [
+        "Rings, ideals, modules, finite field extensions, and elementary linear algebra. The selected lectures build the number-field arguments. Minkowski’s lattice calculation uses geometric volume estimates; finite fields help with residue degrees."
+      ],
+      "tags": [
+        "Algebraic number theory",
+        "Ideal factorization",
+        "Class groups"
+      ],
+      "preparation_collections": [
+        "abstract-algebra:survey",
+        "number-theory:finite-fields"
+      ],
+      "related_collections": [
+        "number-theory:quadratic-forms",
+        "number-theory:local-fields"
+      ]
+    },
+    {
+      "id": "quadratic-forms",
+      "title": "Number Theory · Quadratic Forms and Prime Representation",
+      "role": "deep_dive",
+      "parent": "survey",
+      "summary": "",
+      "chapters": [
+        {
+          "title": "From ideal lattices to reduced forms and class numbers",
+          "lectures": [
+            "029500",
+            "029750"
+          ]
+        },
+        {
+          "title": "Which primes can the form represent?",
+          "lectures": [
+            "030000"
+          ]
+        }
+      ],
+      "assumed_background": [
+        "Quadratic fields, ideal classes, multiplicative ideal norms, prime splitting, and quadratic reciprocity. These are supplied by the algebraic-integers and reciprocity branches."
+      ],
+      "tags": [
+        "Quadratic forms",
+        "Class groups",
+        "Prime representation"
+      ],
+      "preparation_collections": [
+        "number-theory:algebraic-integers",
+        "number-theory:reciprocity"
+      ],
+      "related_collections": [
+        "number-theory:local-fields"
+      ]
+    },
+    {
+      "id": "local-fields",
+      "title": "Number Theory · p-Adic Fields, Norms, and Hilbert Symbols",
+      "role": "deep_dive",
+      "parent": "survey",
+      "summary": "Begin with lifting, distance, completion, and exact roots. Later stages build general extensions and Hilbert symbols using ideal theory and reciprocity; the chapters make those background changes visible.",
+      "chapters": [
+        {
+          "title": "Finite lifting, p-adic distance, completion, and compatible residues",
+          "lectures": [
+            "010000",
+            "030250",
+            "030500",
+            "030750"
+          ]
+        },
+        {
+          "title": "Exact roots, local squares, and quadratic extensions",
+          "lectures": [
+            "031000",
+            "031250",
+            "031500"
+          ]
+        },
+        {
+          "title": "General extensions, residue fields, and ramification",
+          "lectures": [
+            "031750",
+            "032000"
+          ]
+        },
+        {
+          "title": "Hilbert symbols, local forms, and rational reciprocity",
+          "lectures": [
+            "032250",
+            "032500",
+            "032750",
+            "033000"
+          ]
+        }
+      ],
+      "assumed_background": [
+        "Congruences and finite fields; Cauchy sequences and completeness; polynomial field extensions. The general-extension stage also uses Dedekind ideal structure. Quadratic reciprocity is used for the final rational Hilbert-reciprocity theorem. Hasse–Minkowski is not proved by this route."
+      ],
+      "tags": [
+        "p-Adic analysis",
+        "Local solvability",
+        "Hilbert symbols",
+        "Ramification"
+      ],
+      "preparation_collections": [
+        "number-theory:survey",
+        "number-theory:finite-fields",
+        "number-theory:algebraic-integers",
+        "number-theory:reciprocity"
+      ],
+      "related_collections": [
+        "analysis:survey"
+      ]
+    }
+  ]
+}

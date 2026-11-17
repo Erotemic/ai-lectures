@@ -52,6 +52,68 @@ page under About this collection.
 This is a browsing structure that can evolve while independent authoring
 continues. It does not require moving manuscripts or changing pack ownership.
 
+### Subjects, topic tags, and learning paths
+
+**Mathematics** opens a subject guide with suggested cross-subject paths and
+families of related courses. The guide lives in
+[`content/mathematics-guide/`](../content/mathematics-guide/), alongside the
+author-owned packs it references. Paths reuse existing lecture IDs and audio.
+They describe a useful teaching sequence; they do not create prerequisite edges.
+Each path states its assumed background and offers **Adapt this route to what I
+know** to open Study plan. An empty subject hub asks you to choose a route rather
+than presenting an empty plan as mastered material.
+
+Subject families can expand independently, and **Jump to a subject** opens the
+chosen family directly. Expansion choices are remembered for the selected
+listener on the device. Number theory also offers a short survey and focused
+arithmetic branches; its complete original sequence remains an archive.
+
+Topic tags describe subject matter independently of order. Click a tag on a
+lecture or collection to find related material across subjects. **Topic tag** in
+Browsing options selects a whole topic; the ordinary keyword search also
+searches tags. Tag filters are bookmarkable with `?tag=Spectral+theory` and can
+combine with category, audience, and audio filters. Lecture pages show all their
+tags. Topic searches in Study plan and Learning map can find these concepts
+without treating a shared tag as a prerequisite or mathematical claim.
+
+Tags can be authored on `track.json`, its individual lecture entries, and
+per-lecture metadata. The lecture inherits the track's broad tags plus its own
+entry and metadata tags. Use a small, consistent vocabulary of human-readable
+subjects and concepts, for example `Linear algebra`, `Spectral theory`, or
+`Conditional expectation`. A broad pack spanning several subjects should use a
+broad inherited label and put narrower concepts on the relevant entries.
+Optional navigation collections may also have tags. Tags travel in runtime
+exports; they change descriptive revisions but preserve speech identity.
+
+A source-owned directory can declare `guide_for` on a hub to offer its directory
+on the corresponding category page. Its optional `browse_sections` groups
+collection links without changing their parents or lecture membership:
+
+```json
+{
+  "id": "start",
+  "title": "Choose a subject",
+  "role": "hub",
+  "lectures": [],
+  "guide_for": ["Mathematics"],
+  "browse_sections": [
+    {
+      "title": "Foundations",
+      "summary": "Choose the background you need.",
+      "collections": ["my-route", "linear-algebra:main"]
+    }
+  ]
+}
+```
+
+Unqualified references are local to the owning pack. Cross-pack references may
+be installed later and appear as **Not installed** until available. Directory
+links are shown separately as organization links in Learning map; they never
+become teaching dependencies. The category's **Browse every collection and
+lecture**, search, and direct URLs retain access to the full inventory. Directory
+sections and category-guide declarations belong to the declaring collection and
+are not inherited by its children.
+
 ### Dates and chronological browsing
 
 Library and Collections offer oldest/newest sorting under **Sort results**.

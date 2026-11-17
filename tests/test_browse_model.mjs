@@ -5,6 +5,7 @@ import {
   collectionAncestors,
   collectionSections,
   matchesLecture,
+  matchesTag,
   collectionReturnPath,
 } from "../ailectures/static/browse-model.mjs";
 
@@ -31,6 +32,11 @@ const archive = { id: "sample:archive", parent_id: hub.id, role: "archive", lect
 const archiveChild = { id: "sample:archive-child", parent_id: archive.id, lectures: ["sample:four"] };
 const courses = [hub, nested, first, second, archive, archiveChild];
 const before = JSON.stringify(courses);
+const tagged = { id: "cross:one", title: "A distant subject", tags: ["Spectral theory", "Probability"] };
+assert(matchesTag(tagged, " spectral THEORY "));
+assert(!matchesTag(tagged, "Spectral"), "Tags match whole topics; keyword search remains separate");
+assert(matchesLecture(tagged.id, () => tagged, "spectral"), "Keyword search includes topic tags");
+assert(matchesTag(tagged, ""));
 assert.deepEqual(collectionRows(hub, courses, byId).map((row) => row.id), ["sample:two", "sample:one", "sample:three"]);
 assert.equal(JSON.stringify(courses), before);
 assert.deepEqual(collectionRows(first, courses, byId).map((row) => row.id), ["sample:two", "sample:one"]);

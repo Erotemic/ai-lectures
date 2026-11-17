@@ -16,6 +16,10 @@
       "preparation_collections": [
         "analysis:survey",
         "linear-algebra:main"
+      ],
+      "tags": [
+        "Differential equations",
+        "ODEs"
       ]
     },
     {
@@ -34,6 +38,10 @@
       ],
       "related_collections": [
         "geometric-numerics"
+      ],
+      "tags": [
+        "Dynamical systems",
+        "Hamiltonian systems"
       ]
     },
     {
@@ -53,6 +61,11 @@
         "differential-equations:survey",
         "analysis:pde",
         "multivariable-calculus:main"
+      ],
+      "tags": [
+        "PDEs",
+        "Reaction–diffusion",
+        "Traveling waves"
       ]
     },
     {
@@ -71,6 +84,11 @@
         "differential-equations:survey",
         "analysis:pde",
         "multivariable-calculus:main"
+      ],
+      "tags": [
+        "PDEs",
+        "Conservation laws",
+        "Viscous shocks"
       ]
     },
     {
@@ -94,6 +112,11 @@
       ],
       "related_collections": [
         "parabolic-fronts"
+      ],
+      "tags": [
+        "PDEs",
+        "Dispersive equations",
+        "Wave equations"
       ]
     },
     {
@@ -112,6 +135,11 @@
         "differential-equations:survey",
         "analysis:pde",
         "multivariable-calculus:main"
+      ],
+      "tags": [
+        "PDEs",
+        "Kinetic theory",
+        "Hypocoercivity"
       ]
     },
     {
@@ -127,6 +155,11 @@
       ],
       "preparation_collections": [
         "differential-equations:survey"
+      ],
+      "tags": [
+        "Numerical analysis",
+        "Symplectic geometry",
+        "Variational integrators"
       ]
     }
   ]

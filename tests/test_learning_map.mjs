@@ -32,4 +32,7 @@ assert.equal(selectLearningMap(data, { lecture: "missing:1" }).focusNode, null);
 assert.equal(selectLearningMap(data, { lecture: "a:old" }).internal.length, 1);
 assert.equal(learningMapURL({ lecture: "a:1", type: "connections", q: "two words", direction: "both", full: "1" }), "/learning-map?lecture=a%3A1&q=two+words&full=1");
 assert.deepEqual(data, before);
+const tagged = { nodes: { "math:isolated": { id: "math:isolated", title: "An isolated lecture", tags: ["Spectral theory"] } }, relationships: [] };
+assert.deepEqual(selectLearningMap(tagged, { q: "spectral" }).nodes.map(row => row.id), ["math:isolated"]);
+assert.equal(selectLearningMap(tagged, { q: "spectral" }).relations.length, 0, "Shared topics do not invent dependency edges");
 console.log("Learning-map selection preserves evidence, scope, direction, missing nodes, and direct-link state");
