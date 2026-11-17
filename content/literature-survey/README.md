@@ -245,3 +245,15 @@ Actual speech durations, source records and claim-level anchors are saved in the
 track and sidecars. All narration is original English prose; no text of a
 modern copyrighted translation has been reproduced, and no audio or image
 assets are bundled. The active catalog now contains **106** indexed lectures.
+
+## Mande West Africa and early Japanese prose — importance-first overviews (17 November 2026)
+
+| IDs | Work | Scope and source basis |
+|---|---|---|
+| `109000`–`110000` | *Sundiata* / *Sunjata* | One complete narrative from the **Mamadou Kouyaté / D. T. Niane** published line, followed by separate performance/history/literary analysis. Distinct jeliw performances are named and **not** assembled into a fictional urtext. The 1960 book and its English translation are copyrighted; these are original explanatory scripts, not a quotation, translated substitute, or authorized public performance. Full copyrighted edition was not collated in this pass; available attributed excerpts and source studies support the event-level overview. |
+| `111000`–`112000` | *The Tale of the Bamboo Cutter* | Full prose story with **all five suitors** and outcomes, emperor, lunar envoys and Fuji ending, then a separate analysis. Japanese base witness follows named *Kokubun taikan* edition via Koten Library; modern website chapter headings are not original chapters. |
+
+Each manuscript has a non-spoken edition/rights companion and scene-specific
+claim references in `metadata/`. The two pairs are indexed and reachable from
+`navigation.json` in both the medieval route and the compact overview route.
+Word counts and durations are measurements, not acceptance thresholds.

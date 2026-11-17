@@ -111,3 +111,10 @@ registered manuscript, sources and a listening route.
 The earlier Tier 1 and Tier 2 planning tables remain as an audit of the
 initial gaps; some entries have now been completed or selected. The coverage
 ledger above is the current status, rather than the stale queue wording.
+
+## Source-bounded next overview batch (17 November 2026)
+
+- **Completed:** *Sundiata*, `109000` story / `110000` analysis, limited to the **Kouyaté/Niane** identified account (not a generic fixed Mande original). The published 1960 French redaction and 1965 English translation were **not** fully text-collated in this pass; the overview uses attributed educational excerpts, publication catalogs, and modern scholarly context. It is not an authorized jeli performance or a close translation. Future enhancement: review a full recorded/performed version with clear access and reproduction rights.
+- **Completed:** *The Tale of the Bamboo Cutter*, `111000` story / `112000` analysis, on the Japanese text as printed in the *Kokubun taikan* edition, modern source presentation at Koten Library, and independent Japan Search manuscript records. Coverage includes the five separate tasks, emperor, lunar departure, and elixir.
+- **Next high-value rotation:** *Dream of the Red Chamber* (major Chinese full novel; compare 80/120 chapter textual strata), *Njáls saga* (Icelandic legal and familial tragedy), *Pedro Páramo* (20th-century Mexican fiction), and *Book of Dede Korkut* (several complete tales from an identified manuscript witness); choose by importance and source readiness, not quotas. Huarochirí and I La Galigo require more source and rights work before narration.
+- The two new overview pairs are **not** chapter-level deep dives. Distinct historical and bibliographic questions are handled in the analysis lectures and companions.
