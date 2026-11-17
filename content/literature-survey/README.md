@@ -185,4 +185,16 @@ The earlier queue is superseded for priority purposes by [WORLD_CLASSICS_GAP_AUD
 
 **Coverage labels:** Gita 1–18 and the complete received Beowulf poem; initial *Nights* selections only; selected narrative arcs from all three *Kojiki* books, not an exhaustive retelling. Medieval composition and modern translation dates never become claims about prehistoric antiquity.
 
-Integration checkpoint (17 November 2026):76 indexed manuscripts. The 18 additions 061000–078000 preserve their source boundaries. Beowulf, the Nights selections, and Kojiki are reachable from the medieval route; the earlier received texts join the ancient-narratives route. No audio is included.
+Earlier integration checkpoint (17 November 2026): 76 indexed manuscripts at that stage. The 18 additions 061000–078000 preserve their source boundaries. Beowulf, the Nights selections, and Kojiki are reachable from the medieval route; the earlier received texts join the ancient-narratives route. No audio is included.
+
+## Major world literary gaps — China, Tamil South India, Arabia (2026-11-17)
+
+This importance-first geographic rotation adds eleven independent narrations, `079000`–`089000`, with source-linked metadata and identified textual witnesses. The navigation chapters rotate across three traditions while the two connected Xiang Yu lectures remain adjacent.
+
+- `079000`–`082000`: **Sima Qian's *Shiji*** — four **selected** chapter-centered readings: Jing Ke (86), Xiang Yu and Liu Bang (7–8; two parts), and Lin Xiangru with Lian Po (81). This is **not** complete coverage of the *Shiji*'s 130 chapters; attributed speeches and competing reports remain literary-historical witnesses.
+- `083000`–`085000`: **Tamil *Silappatikaram*** — the central story across all three books (which contain thirty episodes), from Puhar and Madhavi through Madurai and the burning of the city to Vanji and Pattini's enshrinement. This is a narrative treatment of the three-book arc, not a canto-by-canto rendering of every song and performance; literary scenes are not taken as independent proof of historical royal campaigns.
+- `086000`–`089000`: **The classical seven *Mu'allaqat*** — all seven received odes, grouped for audio listening but kept textually separate: Imru al-Qays; Tarafa and Zuhayr; Labid and Antarah; Amr ibn Kulthum and al-Harith ibn Hillizah. These are independent poems, **not** a single unified epic; no performance, transcription of a contemporary translation, or factual claim that gold copies hung at the Kaaba.
+
+The companions link relevant Wikipedia orientation and primary or named translated sources, with granular passage locators and boundaries. No fixed duration target and no generated audio or binary art are included.
+
+Current integration checkpoint (17 November 2026): 87 indexed manuscripts; new IDs 079000–089000 add Shiji selections, the three-book Silappatikaram narrative arc, and the classical seven Muallaqat odes. Existing medieval route placement, source records and chronology are preserved.

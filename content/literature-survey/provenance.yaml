@@ -656,6 +656,105 @@ transcript:
       source history. Selective episodes, not a full reading of all genealogies. Political
       foundation legends, legendary regnal dates and social ideals are not independent
       ancient chronology.
+  - models:
+    - GPT-6 (variant unknown)
+    date: '2026-11-17'
+    sources:
+    - 079000-shiji-jing-ke-the-dagger-in-the-map.md
+    - metadata/079000.json
+    basis: Original audio-first narration, source-linked paragraph anchors, and bibliography.
+      Selected received Shiji narrative, with historical interpretation distinct from
+      literary dialogue.
+  - models:
+    - GPT-6 (variant unknown)
+    date: '2026-11-17'
+    sources:
+    - 080000-shiji-xiang-yu-the-feast-and-the-crossroads.md
+    - metadata/080000.json
+    basis: Original audio-first narration, source-linked paragraph anchors, and bibliography.
+      Selected received Shiji narrative, with historical interpretation distinct from
+      literary dialogue.
+  - models:
+    - GPT-6 (variant unknown)
+    date: '2026-11-17'
+    sources:
+    - 081000-shiji-xiang-yu-the-songs-at-gaixia.md
+    - metadata/081000.json
+    basis: Original audio-first narration, source-linked paragraph anchors, and bibliography.
+      Selected received Shiji narrative, with historical interpretation distinct from
+      literary dialogue.
+  - models:
+    - GPT-6 (variant unknown)
+    date: '2026-11-17'
+    sources:
+    - 082000-shiji-lin-xiangru-the-jade-and-two-tigers.md
+    - metadata/082000.json
+    basis: Original audio-first narration, source-linked paragraph anchors, and bibliography.
+      Selected received Shiji narrative, with historical interpretation distinct from
+      literary dialogue.
+  - models:
+    - GPT-6 (variant unknown)
+    date: '2026-11-17'
+    sources:
+    - 083000-silappatikaram-puhar-the-dancer-and-the-anklets.md
+    - metadata/083000.json
+    basis: Original audio-first narration, source-linked paragraph anchors, and bibliography.
+      Three-book Tamil epic; traditional authorship, contested dating and literary supernatural
+      elements separated from historical evidence.
+  - models:
+    - GPT-6 (variant unknown)
+    date: '2026-11-17'
+    sources:
+    - 084000-silappatikaram-madurai-rubies-and-fire.md
+    - metadata/084000.json
+    basis: Original audio-first narration, source-linked paragraph anchors, and bibliography.
+      Three-book Tamil epic; traditional authorship, contested dating and literary supernatural
+      elements separated from historical evidence.
+  - models:
+    - GPT-6 (variant unknown)
+    date: '2026-11-17'
+    sources:
+    - 085000-silappatikaram-vanji-the-making-of-pattini.md
+    - metadata/085000.json
+    basis: Original audio-first narration, source-linked paragraph anchors, and bibliography.
+      Three-book Tamil epic; traditional authorship, contested dating and literary supernatural
+      elements separated from historical evidence.
+  - models:
+    - GPT-6 (variant unknown)
+    date: '2026-11-17'
+    sources:
+    - 086000-muallaqat-imru-al-qays-the-ruins-and-the-storm.md
+    - metadata/086000.json
+    basis: Original audio-first narration, source-linked paragraph anchors, and bibliography.
+      Classical pre-Islamic Arabic poetry, specific transmitted verse arrangement identified;
+      independent explanatory prose not a copied translation.
+  - models:
+    - GPT-6 (variant unknown)
+    date: '2026-11-17'
+    sources:
+    - 087000-muallaqat-tarafa-and-zuhayr-youth-and-peace.md
+    - metadata/087000.json
+    basis: Original audio-first narration, source-linked paragraph anchors, and bibliography.
+      Classical pre-Islamic Arabic poetry, specific transmitted verse arrangement identified;
+      independent explanatory prose not a copied translation.
+  - models:
+    - GPT-6 (variant unknown)
+    date: '2026-11-17'
+    sources:
+    - 088000-muallaqat-labid-and-antarah-survival-and-valor.md
+    - metadata/088000.json
+    basis: Original audio-first narration, source-linked paragraph anchors, and bibliography.
+      Classical pre-Islamic Arabic poetry, specific transmitted verse arrangement identified;
+      independent explanatory prose not a copied translation.
+  - models:
+    - GPT-6 (variant unknown)
+    date: '2026-11-17'
+    sources:
+    - 089000-muallaqat-amr-and-harith-two-voices-at-court.md
+    - metadata/089000.json
+    basis: Original audio-first narration, source-linked paragraph anchors, and bibliography.
+      Classical pre-Islamic Arabic poetry, specific transmitted verse arrangement identified;
+      independent explanatory prose not a copied translation.
   revisions:
   - date: '2026-11-16'
     models:
@@ -717,3 +816,14 @@ integration:
       Current inventory entries, source variants, chronology, tags, and existing route
       content remain unchanged. New medieval written works join the medieval route
       rather than being mislabeled as ancient manuscripts.
+  - date: '2026-11-17'
+    models:
+    - GPT-6 (exact runtime variant unavailable)
+    sources:
+    - archive: major-world-classics-shiji-silappatikaram-muallaqat-2026-11-17-overlay.zip
+      sha256: f0941d671cfb8b339510b58f439abf3665953e1388d5c782839b7746c7ee8b7e
+    scope: Integrate only new manuscripts 079000–089000 and their metadata, source records
+      and scoped coverage notes. Preserve all existing lecture bytes, source records,
+      chronology, provenance and listening routes. The incoming manuscript and sidecar
+      bytes are retained; current medieval route membership is not replaced by the older
+      navigation snapshot.

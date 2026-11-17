@@ -63,10 +63,20 @@
 | [*Analects*](https://en.wikipedia.org/wiki/Analects) and [*Mencius*](https://en.wikipedia.org/wiki/Mencius_(book)) | Ancient Chinese dialogues | Dialogic literary form and historical reception; distinguish early textual witnesses, collected sayings and the later canon. |
 | [*Māui* traditions](https://en.wikipedia.org/wiki/M%C4%81ui_(mythology)) and the [*Kumulipo*](https://en.wikipedia.org/wiki/Kumulipo) | Multiple Pacific cultures; Hawaiian chiefly genealogical chant | Treat distinct custodians and records separately; seek permissions before performative retelling of living or culturally restricted material. |
 
+## Coverage update: three foundational traditions (2026-11-17)
+
+| Work | New source-linked lectures | Coverage boundary |
+|---|---|---|
+| [*Shiji*](https://en.wikipedia.org/wiki/Records_of_the_Grand_Historian) | `literature-survey:079000`–`082000` | **Selected 4 chapter loci (7, 8, 81, 86)** with two-lecture Xiang Yu arc. Many of the 130 chapters remain unwritten. |
+| [*Silappatikaram*](https://en.wikipedia.org/wiki/Cilappatikaram) | `literature-survey:083000`–`085000` | **Central arc across all three books (30 episodes in the received poem)**, including Vanji and Pattini, not a detailed retelling of every episode; date/royal history qualified. |
+| [*Muʿallaqāt*](https://en.wikipedia.org/wiki/Mu%27allaqat) | `literature-survey:086000`–`089000` | **All seven canonical Arabic odes**, paired in some audio lectures but never fused into a single fictional narrative. Later anthology and Kaaba legend distinguished. |
+
+**Queue after this rotation:** *The Tale of Genji* (complete serialized arc), *Poetic Edda* (individually identified poems), *One Thousand and One Nights* (more selected cycles), *Heike Monogatari*, *Tirukkural*, further *Shiji* thematic chapters, and provenance-first work on *Sundiata*, *I La Galigo*, and *Manas*. Do not advance works that are already covered just to satisfy a regional quota.
+
 ## Recommended work order and stopping rule
 
-1. **Immediate next installment:** a *Shiji* narrative sequence, Tamil *Silappatikaram*, and early Arabic *Muʿallaqāt*. They expose three large omissions from ancient/classical textual traditions, with identifiable editions available for research.
-2. **Then medieval world monuments:** start a paced *Tale of Genji* treatment, further *Nights* stories, and the *Poetic Edda*, interleaved by major importance rather than batching one region to completion.
+1. **Completed 2026-11-17:** first *Shiji* sequence (`079000`–`082000`), the three-book *Silappatikaram* narrative arc (`083000`–`085000`), and all seven classical *Muʿallaqāt* (`086000`–`089000`). The *Shiji* remains selected coverage of chapters 7, 8, 81, 86, not a full 130-chapter treatment.
+2. **Next medieval world monuments:** start a paced *Tale of Genji* treatment, further *Nights* stories, and the *Poetic Edda*, interleaved by major importance rather than batching one region to completion.
 3. **Parallel oral-literature research:** prepare source dossiers for *Sundiata*, *I La Galigo*, *Manas*, Andean and Pacific traditions, and begin authoring only where narrated public versions and cultural permissions can support the treatment.
 4. **Parallel scriptural and philosophical reading:** the Gospel of Mark, Qurʾanic narrative sūras, and select ethical dialogues, each addressed as the source's actual form, not converted into a generic hero's journey.
 

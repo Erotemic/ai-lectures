@@ -51,3 +51,27 @@ of this import.
 
 Integration and audit by GPT-6 (exact runtime variant unavailable). Original
 content authorship remains recorded in per-lecture metadata and provenance.
+
+## Follow-on: Shiji, Silappatikaram, and Muallaqat
+
+The separately supplied
+`major-world-classics-shiji-silappatikaram-muallaqat-2026-11-17-overlay.zip`
+adds eleven lectures, `079000`–`089000`: four selected *Shiji* readings, three
+covering the central three-book *Silappatikaram* narrative, and four treating
+the classical seven *Muallaqat* odes as distinct poems. Coverage limitations
+remain explicit in the source companions.
+
+Import a filtered current-base overlay with eleven manuscripts, eleven
+sidecars, 21 additional source records, and merged coverage notes and
+provenance. The incoming track matched the current base, but shared documents,
+sources, provenance, and navigation needed merging. Append only the new
+navigation chapters; retain the current medieval placement of Beowulf, the
+Nights selections, and Kojiki rather than restoring the older route snapshot.
+
+The literature-survey pack now contains 87 indexed manuscripts. All 152
+pre-existing manuscripts and per-lecture sidecars are byte-identical, as are the
+new manuscripts and sidecars relative to the archive. Existing source records,
+chronology, provenance, and route membership are preserved. The 114 new citation
+anchors and 47 reading links pass focused checks; the installed source pack
+loads without diagnostics and all eleven additions join its ancient-narratives
+route. No audio generation or narration rewrite was performed.

@@ -1,7 +1,7 @@
 # Ancient Epics and Narrative Traditions — editorial roadmap
 
 **Prepared:** 2026-11-16
-**Updated:** 2026-11-17 — eighth geographic rotation and major world classics additions through `078000` integrated
+**Updated:** 2026-11-17 — Shiji, Silappatikaram and Muallaqat additions through `089000` integrated
 **Status:** active editorial queue; published lecture IDs are maintained in `track.json`
 **Owning pack for new standalone readings:** `content/literature-survey/`
 **Listening route:** `literature-survey:ancient-narratives`
@@ -391,3 +391,13 @@ possible; no historical or manuscript claims without suitable corroboration.
 7. **Deliver one content-only ZIP overlay per iteration.** Apply it with `python tools/content_overlay.py apply ZIP`; do not overwrite shared World History files without an explicit coordination step. Each delivery should include verification and Git add/commit commands.
 
 **Working checkpoint:** Imported additions through `078000` are now indexed in a 76-manuscript pack. Continue from `WORLD_CLASSICS_GAP_AUDIT.md`, checking the live inventory before reserving IDs. The Nights and Kojiki coverage is selected, not exhaustive; Gita chapters 1–18 and the complete received Beowulf poem have dedicated treatments. Earlier commission lists above are dated planning history. Gunditjmara and Klamath encounters remain distinct living traditions with their source and attribution limits.
+
+## Major importance-first rotation completed (2026-11-17)
+
+- `079000`–`082000`: *Shiji* selected major narrative histories: assassination and Qin; Xiang Yu and the founding of Han; diplomacy and public shame in Lin Xiangru and Lian Po. **Selected chapters 7, 8, 81, 86**, not full 130-chapter work. The Chinese Text Project's original Chinese is the controlling received text; automatically generated English interface text is not treated as scholarly verification of individual speeches.
+- `083000`–`085000`: Tamil *Silappatikaram* books I–III, focusing on the major narrative arc across the 30 received episodes rather than exhaustively reproducing each episode. Its attributed author, compositional date, historical royal claims, and Pattini reception are kept appropriately qualified.
+- `086000`–`089000`: all **seven classic** *Muʿallaqāt* poems, organized in four lectures; their independent identities and named textual recensions preserved, with verse ranges as per the selected modern electronic Arabic reader. The hanging-at-the-Kaaba story is explicitly presented as later legend, not proven original publication history.
+
+**Remaining major omissions:** *Tale of Genji* (begin multi-part chapter sequence), *Poetic Edda* as separate poems, *Heike Monogatari*, further source-specific *Nights* stories and *Shiji* chapters, *Tirukkural*, *Sundiata* and *I La Galigo* after documented performance/witness research. Rotate by literary significance and source readiness; don't add quota-driven fillers.
+
+Current inventory: 87 indexed manuscripts. Earlier checkpoint and queue descriptions above are dated planning history; consult WORLD_CLASSICS_GAP_AUDIT.md and the live track before reserving more IDs. Existing medieval route assignments remain intact.
