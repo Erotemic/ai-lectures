@@ -1,0 +1,68 @@
+# Journey to the West: chapters 58–63, narrative and evidence guide
+
+## Scope, source, and reading order
+
+This companion describes the **six new playable English narrative manuscripts** `531000`–`536000`. Together they continue the expanded retelling through selected-witness chapter **63 of 100**, beginning immediately after the appearance of a Wukong double in chapter 57. There is **one manuscript per Chinese source chapter** in this group. The English narration is an original scene-first retelling; it is **not** a verbatim English translation, and invented connective wording is not represented as language spoken in a historical record.
+
+The primary textual basis is the public-domain Chinese *Journey to the West* as published on Wikisource, read at the chapter level: [chapter 58](https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC058%E5%9B%9E), [59](https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC059%E5%9B%9E), [60](https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC060%E5%9B%9E), [61](https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC061%E5%9B%9E), [62](https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC062%E5%9B%9E), and [63](https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC063%E5%9B%9E). This is a transmitted online Chinese witness, **not** a direct facsimile of the 1592 edition. Chapter numbering and interpolated matter can differ between editions. For broad literary context, see [Journey to the West on Wikipedia](https://en.wikipedia.org/wiki/Journey_to_the_West), [Wu Cheng'en on Wikipedia](https://en.wikipedia.org/wiki/Wu_Cheng%27en) (the traditional attribution requires qualification), and the [Wikisource novel index](https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98).
+
+| Lecture | Chinese chapter | Manuscript | Major movement |
+|---|---:|---|---|
+| 531000 | 58 | [Two monkeys before the Buddha](../531000-journey-to-the-west-two-monkeys-before-the-buddha.md) | The doubles are judged, the Six-Eared Macaque is revealed, and Wukong rejoins Xuanzang |
+| 532000 | 59 | [The first fan and the road of fire](../532000-journey-to-the-west-the-first-fan-and-the-road-of-fire.md) | The Flaming Mountains, Red Boy's mother, the first wind-blast, and the false fan |
+| 533000 | 60 | [The Bull King and the stolen face](../533000-journey-to-the-west-the-bull-king-and-the-stolen-face.md) | The furnace's fallen fire, Princess Jade-Face, the dragon banquet, and Wukong's imposture |
+| 534000 | 61 | [The third fan and the end of the fire](../534000-journey-to-the-west-the-third-fan-and-the-end-of-the-fire.md) | The Bull's counter-disguise, the heavenly siege, and the real fan's full use |
+| 535000 | 62 | [The tower without light](../535000-journey-to-the-west-the-tower-without-light.md) | Persecuted monks, the thirteen-story tower, and testimony against the dragon household |
+| 536000 | 63 | [The dragon treasure and the hunting brothers](../536000-journey-to-the-west-the-dragon-treasure-and-the-hunting-brothers.md) | Nine-Headed Son-in-Law, Erlang's hunting party, and restoration of the relic |
+
+## Chapter 58 — one face, two monkeys
+
+- The real Wukong has been **with Guanyin for four days** after his dismissal. Sha Wujing encountered a false pilgrimage at Flower-Fruit Mountain and returned to find Guanyin observing Wukong. Chapter 58 begins with their effort to confront the impersonator, **not** with a free-standing monster whose name is already known to everyone.
+- Real and false Monkey Kings fight before **Guanyin**, where the *fillet-tightening spell* fails as a distinguishing test: **both monkeys react**. They proceed to **Heaven**, where even the demon-revealing mirror does not resolve their identity, and then to **Xuanzang**, whose own spell does not provide a verdict. The witnesses should not be collapsed into one generic judgment scene.
+- In the **underworld**, **Diting**, the listening creature of **Kshitigarbha**, detects the truth but is unwilling to announce it before the powerful impostor. The dispute is referred to the **Buddha**.
+- The Buddha describes the remarkable groupings of the spiritual simians and identifies the apparent Wukong as the **Six-Eared Macaque**. The false monkey attempts to escape but is caught beneath an alms bowl; when revealed, **the genuine Wukong kills him**. Do not substitute a merciful release or a killing by Buddha.
+- Wukong, still distressed by Xuanzang's earlier dismissal, asks to leave the pilgrim's service. Buddha counsels his return; **Guanyin escorts him back**, and **Bajie recovers the stolen traveling bundles** from the false pilgrim group. The chapter ends with the company traveling west together. Its reconciliation is substantive, not a seamless erasure of chapter 56's moral dispute.
+
+## Chapter 59 — the fan that intensifies the flames
+
+- The company approaches a country scorching under the **Flaming Mountains**. Local residents require **Princess Iron Fan's plantain fan** for seasonal rain and crops. Show both the climate and the agricultural stakes; it is not merely a mountain-fire obstacle detached from the villages.
+- Princess Iron Fan is also called the **Rakshasi**, the estranged wife of the **Bull Demon King** and mother of **Red Boy** from chapters 40–42. Wukong invokes his sworn brotherhood with her husband; she remembers that her son was taken to Guanyin's service and refuses to accept Wukong's claim that this is simply a happy fate.
+- She blows Wukong an immense distance across the sky. **Lingji** supplies a **wind-settling pill** that lets the monkey face the fan without being blown away again. Wukong infiltrates her household **as an insect inside her tea**, and her internal suffering forces her to surrender a fan.
+- **It is a counterfeit fan.** At the Flaming Mountains Wukong sweeps it and the fires **grow higher**, nearly trapping the pilgrims. Do not call this a partial success. The local **Earth God** then introduces the problem of the genuine fan and the Bull Demon King. Chapter 59 ends before Wukong gains the real fan.
+
+## Chapter 60 — the true fan won by impersonation
+
+- Earth God says the mountains' fire arose from **embers that fell from Laozi's furnace during Wukong's youthful revolt against Heaven**. The god had been the furnace's keeper and was exiled into local service. The crisis is connected to the monkey's own old deeds.
+- The **Bull Demon King** now lives at **Cloud-Rubbing Cave** on **Mount Accumulated Thunder** with **Princess Jade-Face**, whose household is distinct from **Princess Iron Fan's Plantain Cave**. Wukong's requests stir layered quarrels about Red Boy and the Bull's estranged family.
+- After a failed confrontation the Bull goes to a banquet beneath the **Emerald Waves Pool**, in the dragon palace that will matter again in chapters 62–63. Wukong enters the water **in crab form**, identifies the Bull's **golden-eyed mount**, and rides it to Plantain Cave.
+- Disguised **as the Bull**, Wukong learns that the fan he was given was false and induces the Rakshasi to reveal the **genuine fan** and the formula by which it expands from a tiny object. His apparent victory depends on deceiving a woman who believes her absent husband has returned. **The real Bull discovers the theft** by the end of the chapter.
+
+## Chapter 61 — the third attempt, the heavenly siege, and the forty-nine sweeps
+
+- The Bull Demon King repays Wukong's deception by changing into **Bajie** on the road. The monkey unsuspectingly tells him the story and **hands over the genuine fan**. The Bull changes back and takes it. Thus the chapter begins with a real reversal: the true fan is no longer in Wukong's possession.
+- The conflict grows through prolonged fighting, including **animal transformations** and the Bull's enormous **white ox** form. Bajie assaults **Cloud-Rubbing Cave** and **kills Princess Jade-Face**. The other household is not merely abandoned intact. Divine guardians join the struggle around Plantain Cave.
+- **Nezha** and **Li Jing** help subdue the Bull. Nezha's attacks, the flaming wheels, and a demon-revealing mirror prevent the Bull's escape. **Princess Iron Fan** gives up the real fan; the Bull is taken into divine custody. Keep the family cost visible without recasting the Bull as a simple misunderstood father, since he also attacked the pilgrims.
+- The true fan first stops the flames and brings clouds and rain when **Wukong sweeps it three times**. The Earth God questions whether this temporary cooling will end the mountain's underlying fire. **Princess Iron Fan instructs forty-nine additional sweeps** to eradicate its root. Wukong complies, **returns the fan**, and the pilgrims can cross. Neither the three initial sweeps nor forty-nine later sweeps may be silently omitted or exchanged.
+
+## Chapter 62 — the monastery accused of its own theft
+
+- Jisai's **Golden Light Monastery** has lost its luminous pagoda relic. The kingdom's tribute and prestige had been attached to that radiance. **A rain like blood** fell before the relic disappeared three years earlier. The king blamed the monks without proof, with **two groups already dead under questioning** and survivors forced into collars and chains.
+- Xuanzang insists on worshiping and **sweeping the tower**, a vow he had made earlier. The pagoda has **thirteen levels**. Xuanzang tires and rests near the **tenth level**, and Wukong completes the remaining work. On the **thirteenth** he finds **two drunken fish-spirit watchers**.
+- Wukong brings the creatures down alive and gets a confession: the **Dragon King of All Saints** and his **Nine-Headed Son-in-Law** stole the relic, while the **Princess All Saints** stole a **nine-leaf spirit fungus** from Heaven to preserve its light under water.
+- The underwater palace is at **Emerald Waves Pool**, familiar to Wukong from the Bull's banquet in chapter 60. **Bajie wants to kill the witnesses**, but Wukong prevents it: the fish are needed to prove the monks' innocence and show where the relic went.
+- The court hears the confession, **releases the monks**, and asks for help recovering the stolen treasure. **Wukong and Bajie leave for the pool**, taking the witnesses; Xuanzang and Sha Wujing remain with the king. The restoration does **not** occur in chapter 62.
+
+## Chapter 63 — an escape, a recovery, and a difficult punishment
+
+- Wukong and Bajie carry the two fish to **Emerald Waves Pool**. Wukong **wounds one fish's ear and the other's lip** and releases them as messengers to the dragon palace. The old dragon is frightened by his name, but his son-in-law chooses to fight rather than return the relic.
+- The **Nine-Headed Son-in-Law** fights Wukong with a **crescent-bladed spade**. In a monstrous bird form with nine heads and wide wings he captures **Bajie**, dragging him under water. Wukong enters **as a crab**, finds the bound Bajie, breaks his bonds, and recovers **Bajie's rake**.
+- Bajie attacks the palace and leads the family above the water, where **Wukong kills the old Dragon King**. An approaching hunt led by **Erlang Shen** and his **six companions** joins Wukong and Bajie. They share a meal in the open air at night and launch the next assault the following morning. Erlang and Wukong meet as former rivals now at peace.
+- Erlang's hound **bites off a head** from the Nine-Headed Son-in-Law, who **escapes alive toward the northern sea**. The pilgrim's party does **not** slay him or imprison him as a captured demon. Wukong takes **the son-in-law's form** to fool **Princess All Saints** into producing **a golden box with the relic** and **a white-jade box with the spirit fungus**. Bajie kills the princess.
+- Wukong stops Bajie from killing **the old dragon woman**. She is returned to Jisai, where she describes the dragon household's thefts. Her fate is **not an unrestricted pardon**: she is **pierced and chained to the tower's central pillar for lifelong guard duty** and receives food **once every three days**. This punishment should be plainly reported, not erased to soften the ending.
+- Xuanzang insists on restoring the relic **before** celebrating. Wukong replaces it atop the **thirteenth floor** and sweeps each floor with the fungus. The tower shines again. The monastery is renamed **Dragon-Taming Monastery (Fulong Si)**. The pilgrims decline royal treasure and depart. This completes the Jisai story at chapter 63; do not move the thorny ridge of chapter 64 backward into this episode.
+
+## Claim anchors and continuing work
+
+The pack's `metadata/sources.json` includes source records `cl-jtw-ch58` through `cl-jtw-ch63`; `metadata/531000.json` through `metadata/536000.json` carry **short unique excerpts of the spoken manuscripts**, corresponding plot locators and source IDs. The schema field `historical_claims` is used by the library's evidence infrastructure, but **every entry here is marked `fictional_narrative_event`**. These records are not assertions that Monkey Kings, dragons or miraculous events existed in history.
+
+The expanded playback strand has **48 manuscripts through chapter 63**. **Next batch: chapters 64–69.** Chapter 64 contains the thorny ridge and a gathering of tree spirits who speak in poetry; chapters 65–66 concern the counterfeit Thunderclap scene and the Yellow-Brow Demon. The subsequent chapters lead toward the Zhuzi Kingdom and a medical episode that continues beyond chapter 69. See the [writer handoff](journey-west-continuation-handoff.md) for the precise state and lecture IDs. The novel's source chapter endings determine where a manuscript stops; there is no minimum or maximum duration target.

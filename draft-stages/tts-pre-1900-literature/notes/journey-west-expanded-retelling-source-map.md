@@ -4,7 +4,7 @@ This is a separate literary retelling of the conventional 100-chapter Ming novel
 
 ## Current playback index after consolidation
 
-The expanded retelling is complete through selected-witness chapter 57 and remains in progress. There are now 42 playable manuscripts: 13 consolidated manuscripts through chapter 21 (retaining the former 61 writing components), and twenty-nine continuous-arc manuscripts for chapters 22–57. Continue with chapter 58 using [the current writer handoff](journey-west-continuation-handoff.md). Subsequent IDs have not been reserved.
+The expanded retelling is complete through selected-witness chapter 63 and remains in progress. There are now 48 playable manuscripts: 13 consolidated manuscripts through chapter 21 (retaining the former 61 writing components), and thirty-five continuous-arc manuscripts for chapters 22–63. Continue with chapter 64 using [the current writer handoff](journey-west-continuation-handoff.md). Subsequent IDs have not been reserved.
 
 | Current playback ID | Selected-witness chapters | Current manuscript | Minutes at 145 wpm |
 | --- | --- | --- | ---: |
@@ -50,8 +50,14 @@ The expanded retelling is complete through selected-witness chapter 57 and remai
 | 528000 | 55 | [Journey to the West: The scorpion at Pipa Cave](../528000-journey-to-the-west-the-scorpion-at-pipa-cave.md) | 13.4 |
 | 529000 | 56 | [Journey to the West: Blood on the road and Wukong's dismissal](../529000-journey-to-the-west-blood-on-the-road-and-wukongs-dismissal.md) | 14.4 |
 | 530000 | 57 | [Journey to the West: The monkey at Guanyin's feet and the monkey in the cave](../530000-journey-to-the-west-the-monkey-at-guanyins-feet-and-the-monkey-in-the-cave.md) | 15.4 |
+| 531000 | 58 | [Journey to the West: Two monkeys before the Buddha](../531000-journey-to-the-west-two-monkeys-before-the-buddha.md) | 13.4 |
+| 532000 | 59 | [Journey to the West: The first fan and the road of fire](../532000-journey-to-the-west-the-first-fan-and-the-road-of-fire.md) | 12.8 |
+| 533000 | 60 | [Journey to the West: The Bull King and the stolen face](../533000-journey-to-the-west-the-bull-king-and-the-stolen-face.md) | 13.8 |
+| 534000 | 61 | [Journey to the West: The third fan and the end of the fire](../534000-journey-to-the-west-the-third-fan-and-the-end-of-the-fire.md) | 14.2 |
+| 535000 | 62 | [Journey to the West: The tower without light](../535000-journey-to-the-west-the-tower-without-light.md) | 13.4 |
+| 536000 | 63 | [Journey to the West: The dragon treasure and the hunting brothers](../536000-journey-to-the-west-the-dragon-treasure-and-the-hunting-brothers.md) | 19.4 |
 
-The ledger below preserves the original pre-consolidation component IDs, scene boundaries, and original measurements through chapter 21 for evidence traceability. Chapters 22–57 are new continuous-arc manuscripts and have no absorbed component history. Those rows are no longer separate playable files.
+The ledger below preserves the original pre-consolidation component IDs, scene boundaries, and original measurements through chapter 21 for evidence traceability. Chapters 22–63 are new continuous-arc manuscripts and have no absorbed component history. Those rows are no longer separate playable files.
 
 ## Original writing-component ledger (not the current playback index)
 
@@ -170,10 +176,10 @@ The novella-like origin episode is literary, not a historical biography of the r
 
 ## Progress and next chapter group
 
-The expanded retelling covers **selected-witness chapters 1–57** in **42 playable manuscripts**. The original 13 consolidated manuscripts through chapter 21 retain their component history; twenty-nine later manuscripts narrate chapters 22–57. Evidence companions: [chapters 22–27](journey-west-chapters-22-27-reading-guide.md), [chapters 28–33](journey-west-chapters-28-33-reading-guide.md), [chapters 34–39](journey-west-chapters-34-39-reading-guide.md), [chapters 40–45](journey-west-chapters-40-45-reading-guide.md), [chapters 46–51](journey-west-chapters-46-51-reading-guide.md), and [chapters 52–57](journey-west-chapters-52-57-reading-guide.md).
+The expanded retelling covers **selected-witness chapters 1–63** in **48 playable manuscripts**. The first 13 consolidated manuscripts through chapter 21 preserve their component history, with thirty-five subsequent manuscripts narrating chapters 22–63. The guides cover [chapters 22–27](journey-west-chapters-22-27-reading-guide.md), [28–33](journey-west-chapters-28-33-reading-guide.md), [34–39](journey-west-chapters-34-39-reading-guide.md), [40–45](journey-west-chapters-40-45-reading-guide.md), [46–51](journey-west-chapters-46-51-reading-guide.md), [52–57](journey-west-chapters-52-57-reading-guide.md), and [58–63](journey-west-chapters-58-63-reading-guide.md).
 
-Chapter 52 completes the Golden Cave episode, with the white diamond snare identified as Laozi's lost treasure and the One-Horned King returned to blue-ox form. Chapter 53 recounts the Mother-and-Child River and the Water of Release. Chapters 54–55 keep the human queen's proposed marriage distinct from the scorpion demon's abduction and the Pleiades Sun Officer's rescue. Chapter 56 describes violence against human robbers and Wukong's expulsion. Chapter 57 records an apparent Wukong attacking Xuanzang, the stolen travel documents, a rival pilgrim group at Flower-Fruit Mountain, and Sha's discovery that the true Wukong has been under Guanyin's observation.
+Chapter 58 resolves the rival-Monkey dispute as the Six-Eared Macaque and reconciles the genuine Wukong to Xuanzang. Chapters 59–61 tell the complete Flaming Mountains and Bull Demon King episode: Rakshasi's first fan is false, the genuine fan is stolen by impersonating the Bull, the Bull recovers it by impersonating Bajie, and heavenly support secures the true fan. Wukong cools the fire with three sweeps and removes its root with forty-nine more. Chapters 62–63 cover the falsely accused monks of Jisai, the theft from the thirteen-story pagoda, Bajie's capture, Erlang Shen's assistance, the escaped nine-headed bird, and the restoration of the relic. The recovered pagoda is renamed Dragon-Taming Monastery; the old dragon woman is condemned to guard it.
 
-**Next:** chapter 58, which resolves the identity of the second Monkey King. Do not reveal that outcome in chapter 57, and do not assume the real Wukong left Guanyin while she was watching him. The next six-source-chapter installment is **chapters 58–63**, with natural story-arc boundaries and no fixed lecture-length cap. The separate World History survey and the chapter-9 River Child edition caveat remain unchanged.
+**Next:** selected-witness **chapters 64–69**. Chapter 64 concerns a forest of thorns and the immortal tree poets who gather around Xuanzang. Chapters 65–66 are the false Thunderclap monastery and the yellow-browed monster. Chapters 67–69 move into the snake demon and the opening of the Zhuzi Kingdom healing episode; do not prematurely narrate events belonging to later chapters. Retain original-language chapter references and no length constraint on individual manuscripts.
 
-**Chapters 58–100 remain unwritten in this expanded strand.**
+**Chapters 64–100 remain unwritten in this expanded strand.** The separate World History survey is not a substitute for this narration, and the chapter-9 River Child edition caveat remains unchanged.
