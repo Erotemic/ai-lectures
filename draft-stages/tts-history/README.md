@@ -173,3 +173,13 @@ All four new episode IDs and the two revised original IDs have updated claim-lev
 - **063000 Henri Poincaré:** Nancy during the Franco-Prussian War, mining and Parisian scientific institutions, family and journal networks, the Oscar II three-body prize and documented 1889 error / 1890 correction, topology and mathematical physics, the Dreyfus affair and philosophical writing. The archive credits editor Phragmén's questions.
 
 These five manuscripts are biography-first, substantial spoken lectures without a fixed duration target. Each includes a separate historical companion with pertinent Wikipedia and specialist source links, plus pack-local claim-level metadata. The batch is **source text only**, indexed through `track.json` and `navigation.json`; no runtime pack or audio generation is required. It follows the two earlier November 17 portrait overlays.
+
+## Abel through Grothendieck: five historically grounded biographies (17 November 2026, continuation 4)
+
+- **064000 Niels Henrik Abel:** Norwegian union politics and material hardship, Holmboe's teaching, quintic impossibility after Ruffini, Crelle's journal, the Paris manuscript, elliptic functions, Jacobi, Kemp, illness and late institutional recognition.
+- **065000 Karl Weierstrass:** legal studies and long school-teaching career, private mathematics in Deutsch-Krone and Braunsberg, Berlin lectures and rethinking rigor, his sisters and scholarly household, Kovalevskaya and Lermontova, and disputes within German mathematics.
+- **066000 Richard Dedekind:** Brunswick and Goettingen upbringing, Gauss and Dirichlet, Riemann, teaching Zurich and Brunswick, Dedekind cuts, ideals and number theory, Cantor's correspondence, natural numbers, family and musical life.
+- **067000 Alan Turing:** schooling and Christopher Morcom, Cambridge and Princeton computability, Bletchley Park and Polish antecedents, Welchman's contribution and the 1941 Churchill appeal, computing after the war, mathematical biology, legal persecution and inquest with documented uncertainty about death.
+- **068000 Alexander Grothendieck:** wartime displacement, parents and refugee life, Montpellier, Nancy mentors, international research, IHES with Dieudonne and SGA collaborators, the Fields Medal, Vietnam and ecological activism, later memoirs and manuscript archives.
+
+Each standalone, biography-first manuscript has a non-spoken historical and mathematical companion and source links including Wikipedia. Claim-level references are recorded under `metadata/`; the catalog and listening routes have been updated. Content is entirely source text, not audio or a runtime pack. Apply this ZIP after Continuations 1-3 using `python tools/content_overlay.py apply`.

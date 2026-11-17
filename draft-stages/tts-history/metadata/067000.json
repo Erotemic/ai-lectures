@@ -1,0 +1,251 @@
+{
+  "schema_version": 1,
+  "lecture_id": "067000",
+  "transcript": "067000-turing.md",
+  "related_resources": [
+    {
+      "source_id": "history-turing-archives-letter",
+      "reason": "1941 codebreaker letter to Churchill and personnel/resources context."
+    },
+    {
+      "source_id": "history-turing-gchq",
+      "reason": "Bletchley Park and wartime codebreaking; not relied upon for its erroneous maternal occupation detail."
+    },
+    {
+      "source_id": "history-turing-kings",
+      "reason": "Cambridge academic history, personal archive, trial, inquest and the uncertainty around death."
+    },
+    {
+      "source_id": "history-turing-mactutor",
+      "reason": "Education, Turing machines, Princeton, wartime and postwar mathematical research."
+    },
+    {
+      "source_id": "history-turing-org-sources",
+      "reason": "Original papers, biographies and documentary sources for Turing’s life."
+    },
+    {
+      "source_id": "history-turing-pardon",
+      "reason": "Legal treatment, pardon and chronology."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "067000-h01",
+      "anchor": "born in London in June nineteen twelve",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-turing-kings",
+        "history-turing-mactutor"
+      ],
+      "source_locator": "Birth and upbringing",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "067000-h02",
+      "anchor": "Christopher Morcom",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-turing-kings",
+        "history-turing-mactutor"
+      ],
+      "source_locator": "School friendship and loss",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "067000-h03",
+      "anchor": "King's College",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-turing-kings"
+      ],
+      "source_locator": "Cambridge education and fellowship",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "067000-h04",
+      "anchor": "Alonzo Church",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-turing-mactutor"
+      ],
+      "source_locator": "Independent computability approaches",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "067000-h05",
+      "anchor": "*On Computable Numbers",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-turing-mactutor",
+        "history-turing-org-sources"
+      ],
+      "source_locator": "1936 paper",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "067000-h06",
+      "anchor": "A universal machine can read a description",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-turing-mactutor"
+      ],
+      "source_locator": "Universal Turing-machine construction",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "067000-h07",
+      "anchor": "spent time at Princeton, working with Church",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-turing-mactutor"
+      ],
+      "source_locator": "Doctorate and transatlantic research",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "067000-h08",
+      "anchor": "Bletchley Park",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-turing-gchq",
+        "history-turing-mactutor"
+      ],
+      "source_locator": "Wartime cryptanalytic setting",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "067000-h09",
+      "anchor": "Marian Rejewski",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-turing-gchq"
+      ],
+      "source_locator": "Polish prior work on Enigma",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "067000-h10",
+      "anchor": "Hut Eight",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-turing-gchq",
+        "history-turing-mactutor"
+      ],
+      "source_locator": "Naval Enigma group",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "067000-h11",
+      "anchor": "Gordon Welchman's improvements",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-turing-gchq",
+        "history-turing-mactutor"
+      ],
+      "source_locator": "Bombe and collaborative wartime credit",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "067000-h12",
+      "anchor": "Banburismus",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-turing-mactutor"
+      ],
+      "source_locator": "Statistical cryptanalytic methodology",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "067000-h13",
+      "anchor": "In October nineteen forty-one he joined Gordon Welchman",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-turing-archives-letter"
+      ],
+      "source_locator": "Churchill appeal for resources",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "067000-h14",
+      "anchor": "Delilah",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-turing-mactutor"
+      ],
+      "source_locator": "Secure voice experimental work",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "067000-h15",
+      "anchor": "Automatic Computing Engine",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-turing-mactutor"
+      ],
+      "source_locator": "National Physical Laboratory computing proposals",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "067000-h16",
+      "anchor": "University of Manchester",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-turing-mactutor"
+      ],
+      "source_locator": "Computer research after 1948",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "067000-h17",
+      "anchor": "*Computing Machinery and Intelligence*",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-turing-mactutor",
+        "history-turing-org-sources"
+      ],
+      "source_locator": "1950 mind and computation paper",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "067000-h18",
+      "anchor": "*The Chemical Basis of Morphogenesis*",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-turing-mactutor"
+      ],
+      "source_locator": "1952 mathematical biology",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "067000-h19",
+      "anchor": "In nineteen fifty-two he was prosecuted",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-turing-kings",
+        "history-turing-pardon"
+      ],
+      "source_locator": "Criminal prosecution for homosexuality",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "067000-h20",
+      "anchor": "cyanide poisoning",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-turing-kings"
+      ],
+      "source_locator": "Inquest and evidence caution",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "067000-h21",
+      "anchor": "two thousand thirteen",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-turing-pardon"
+      ],
+      "source_locator": "Posthumous royal pardon",
+      "audit_status": "source_checked"
+    }
+  ]
+}

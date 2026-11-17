@@ -1,0 +1,275 @@
+{
+  "schema_version": 1,
+  "lecture_id": "068000",
+  "transcript": "068000-grothendieck.md",
+  "related_resources": [
+    {
+      "source_id": "history-grothendieck-archives",
+      "reason": "Location and access to writings and scientific manuscripts."
+    },
+    {
+      "source_id": "history-grothendieck-atiyah",
+      "reason": "Collaborative connections with Atiyah and Hirzebruch; K-theory context."
+    },
+    {
+      "source_id": "history-grothendieck-csg-personal",
+      "reason": "Family and war chronology, political commitments, later writings and seclusion."
+    },
+    {
+      "source_id": "history-grothendieck-csg-science",
+      "reason": "Education, research collaborators, institutions and achievements."
+    },
+    {
+      "source_id": "history-grothendieck-ihes",
+      "reason": "IHES appointment, research career, collaboration and Fields Medal."
+    },
+    {
+      "source_id": "history-grothendieck-ihes-exhibit",
+      "reason": "Childhood displacement, wartime context, institutional career, mathematics and activism."
+    },
+    {
+      "source_id": "history-grothendieck-montpellier",
+      "reason": "University studies and employment, family and documentary afterlife."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "068000-h01",
+      "anchor": "born in Berlin in March nineteen twenty-eight",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-grothendieck-ihes-exhibit",
+        "history-grothendieck-csg-personal"
+      ],
+      "source_locator": "Birth and parents",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "068000-h02",
+      "anchor": "Hanka Grothendieck",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-grothendieck-csg-personal"
+      ],
+      "source_locator": "Mother and wartime family",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "068000-h03",
+      "anchor": "Sacha Schapiro",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-grothendieck-csg-personal"
+      ],
+      "source_locator": "Father and political movements",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "068000-h04",
+      "anchor": "Heydorn family",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-grothendieck-csg-personal"
+      ],
+      "source_locator": "Hamburg childhood arrangements",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "068000-h05",
+      "anchor": "Rieucros",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-grothendieck-csg-personal",
+        "history-grothendieck-ihes-exhibit"
+      ],
+      "source_locator": "Internment with mother",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "068000-h06",
+      "anchor": "Auschwitz",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-grothendieck-csg-personal"
+      ],
+      "source_locator": "Father deportation and murder",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "068000-h07",
+      "anchor": "Le Chambon-sur-Lignon",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-grothendieck-ihes-exhibit",
+        "history-grothendieck-csg-personal"
+      ],
+      "source_locator": "Wartime schooling and rescue network",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "068000-h08",
+      "anchor": "studied in Montpellier",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-grothendieck-montpellier",
+        "history-grothendieck-csg-science"
+      ],
+      "source_locator": "Early French university studies",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "068000-h09",
+      "anchor": "He went to Nancy to work with Laurent Schwartz and Jean Dieudonne",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-grothendieck-csg-science"
+      ],
+      "source_locator": "Nancy mentorship in analysis",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "068000-h10",
+      "anchor": "Brazil",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-grothendieck-csg-science"
+      ],
+      "source_locator": "International postdoc and research travel",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "068000-h11",
+      "anchor": "The central word is *scheme*",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-grothendieck-ihes",
+        "history-grothendieck-csg-science"
+      ],
+      "source_locator": "Scheme-theoretic approach and arithmetic geometry",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "068000-h12",
+      "anchor": "Institut des Hautes Etudes Scientifiques",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-grothendieck-ihes"
+      ],
+      "source_locator": "IHES mathematics center",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "068000-h13",
+      "anchor": "EGA",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-grothendieck-ihes"
+      ],
+      "source_locator": "Foundational work with Jean Dieudonne",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "068000-h14",
+      "anchor": "SGA",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-grothendieck-ihes"
+      ],
+      "source_locator": "Seminar with students and multiple collaborators",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "068000-h15",
+      "anchor": "Michael Atiyah",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-grothendieck-atiyah"
+      ],
+      "source_locator": "K theory and Riemann-Roch collaboration",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "068000-h16",
+      "anchor": "Pierre Deligne",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-grothendieck-csg-science"
+      ],
+      "source_locator": "Attribution of later Weil conjecture proofs",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "068000-h17",
+      "anchor": "Fields Medal",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-grothendieck-ihes"
+      ],
+      "source_locator": "1966 prize and nonattendance",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "068000-h18",
+      "anchor": "nineteen sixty-seven",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-grothendieck-csg-personal"
+      ],
+      "source_locator": "Vietnam lectures during the war",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "068000-h19",
+      "anchor": "French defense-ministry support for the IHES",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-grothendieck-ihes-exhibit",
+        "history-grothendieck-csg-personal"
+      ],
+      "source_locator": "Political break with institution",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "068000-h20",
+      "anchor": "He helped found the movement *Survivre*",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-grothendieck-csg-personal"
+      ],
+      "source_locator": "Ecological, antinuclear activism",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "068000-h21",
+      "anchor": "*Recoltes et Semailles*",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-grothendieck-csg-personal",
+        "history-grothendieck-montpellier"
+      ],
+      "source_locator": "Memoir and historical-documentary limitations",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "068000-h22",
+      "anchor": "University of Montpellier",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-grothendieck-archives",
+        "history-grothendieck-montpellier"
+      ],
+      "source_locator": "Archive and manuscripts",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "068000-h23",
+      "anchor": "November two thousand fourteen",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-grothendieck-csg-personal"
+      ],
+      "source_locator": "Death and commemoration",
+      "audit_status": "source_checked"
+    }
+  ]
+}
