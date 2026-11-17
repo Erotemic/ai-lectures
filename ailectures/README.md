@@ -28,6 +28,14 @@ Browsing options include category, audience, audio availability, every nested
 collection, and sorting by title or duration. Exact lecture IDs work in both
 searches. Browser asset changes require a server restart, just like server code.
 
+Stats (`/stats`) summarizes the live catalog: unique lectures, collections,
+packs, transcript words, estimated listening time, complete and partial audio,
+and current companion files. Subject, audience, collection, and pack tables
+show coverage; collection search links directly to the listening routes.
+Library totals count each lecture once across overlapping routes. Listening
+estimates use 145 words per minute. The former Presentations navigation tab
+has been removed; existing presentation bookmarks still work.
+
 On phones, Menu opens all navigation and listener controls. The compact fixed
 player keeps the lecture, playing track, timeline, 15-second skips, Next and
 upcoming lecture visible. More retains native audio controls, playback speed,

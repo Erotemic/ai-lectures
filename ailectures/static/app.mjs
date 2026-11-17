@@ -1,3 +1,4 @@
+import { renderStats } from "./stats.mjs";
 import { ProductionPanel } from "./production.mjs";
 import {
   randomId,
@@ -1172,6 +1173,10 @@ async function render(autoplay = false) {
       );
     else if (path === "/listening") listeningPage();
     else if (path === "/packs") packsPage();
+    else if (path === "/stats") renderStats($("main"), catalog, { link, refresh: async () => {
+      try { await refresh(true); if (location.pathname === "/stats") await render(); }
+      catch (error) { message(error.message); }
+    } });
     else if (path === "/feedback")
       await reviewFeedback($("main"), catalog.lectures);
     else if (path === "/references") await referencesPage($("main"), catalog);
@@ -1205,7 +1210,6 @@ async function refresh(force = false) {
   const changed = next.generation !== catalog.generation;
   catalog = next;
   lectureIndex = new Map(next.lectures.map((row) => [row.id, row]));
-  $("presentations").hidden = !catalog.legacy;
   updatePlaybackRoute();
   return changed;
 }
