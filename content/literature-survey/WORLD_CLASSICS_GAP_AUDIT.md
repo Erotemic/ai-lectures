@@ -165,3 +165,28 @@ ledger above is the current status, rather than the stale queue wording.
   ready); *Sir Gawain and the Green Knight* and a short American work from
   another period if not already covered elsewhere. Prioritize importance,
   literary form and source readiness over quotas.
+
+
+## Rotation update — Oghuz and Portugal (17 November 2026)
+
+- **Completed:** *The Book of Dede Korkut* (`134000`–`136000`). The Dresden
+  collection's twelve tales are covered across two narrated story overviews and
+  an analysis of naming, kinship, heroic status, gender, religious language,
+  manuscript variation, and the fatal Inner–Outer Oghuz conflict. Full primary
+  collation remains an option for later in-depth episodes; do not mislabel these
+  narrations as an authorized performance of living tradition.
+- **Completed:** Luís de Camões, *The Lusiads* (`137000`–`139000`). Two story
+  overviews traverse all ten cantos, then an analysis treats classical epic
+  machinery, the poem's imperial claims and moments of dissent. Named original
+  Portuguese and public-domain English witnesses are linked.
+- **Next priority:** The *Huarochirí Manuscript*. Prepare a carefully
+  source-bounded overview of several coherent sacred-narrative cycles with an
+  accompanying account of Quechua recording, place-specific religious life,
+  colonial coercion, and translation choices. Do not present it as a single
+  coherent novel, an authorized current Indigenous performance, or a freely
+  reconstructed precolonial tradition. The Frank Salomon / George L. Urioste
+  English translation and notes (1991) are copyrighted, and source access
+  requires a separate research pass.
+- Following geographic rotations: *Sir Gawain and the Green Knight*; an
+  influential Russian, Arabic, Indian or North American text not already
+  represented, based on audited coverage rather than a geographic quota.

@@ -324,3 +324,22 @@ Both works are now available through the medieval/20th-century routes and the
 Compact Introductions route. The pack contains 131 indexed lectures. These
 manuscripts are original English summaries and analysis rather than verbatim
 translations or copies of copyrighted texts. No audio or images are bundled.
+
+
+## Oghuz heroic cycle and Portuguese Renaissance epic (17 November 2026)
+
+Six new narrated manuscripts (`134000`–`139000`) continue the **impact-first
+geographic and chronological rotation** beyond the *Nights*: Oghuz Turkic
+heroic storytelling, then a sixteenth-century Portuguese maritime epic.
+
+| Work | Story | Analysis | Textual scope |
+|---|---|---|---|
+| *Book of Dede Korkut* | `134000`–`135000` | `136000` | Dresden manuscript **all twelve** tales, grouped into two listener-friendly narrative sweeps without inventing a single protagonist or continuous plot. Ending includes Beyrek's death in the Inner–Outer Oghuz feud. Narratives follow the Dresden manuscript custodian's plot synopses, *not* full independent collation of the original-language witness or 1972 copyrighted English translation. |
+| Camões, *The Lusiads* (*Os Lusíadas*, 1572) | `137000`–`138000` | `139000` | All ten cantos, starting on the East African coast and including the narrative flashbacks, Inês de Castro, Restelo, Adamastor, Calicut, the Island of Love, the cosmological vision and homecoming. Direct public-domain primary Portuguese text and Burton's 1880 English translation are identified. |
+
+Claim anchors in `metadata/<id>.json` point to the corresponding numbered
+Dresden tale or Camões canto. Each manuscript has a separate non-spoken text
+and evidence companion with Wikipedia orientation links and explicit source
+boundaries. Recorded word counts are descriptive, not length targets. Both
+works are discoverable via period routes and Compact Introductions.
+**The pack now contains 137 indexed lectures.** No audio or binary image assets.
