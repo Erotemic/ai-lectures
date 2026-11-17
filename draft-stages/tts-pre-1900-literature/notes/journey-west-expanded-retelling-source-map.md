@@ -4,7 +4,7 @@ This is a separate literary retelling of the conventional 100-chapter Ming novel
 
 ## Current playback index after consolidation
 
-The expanded retelling is complete through selected-witness chapter 63 and remains in progress. There are now 48 playable manuscripts: 13 consolidated manuscripts through chapter 21 (retaining the former 61 writing components), and thirty-five continuous-arc manuscripts for chapters 22–63. Continue with chapter 64 using [the current writer handoff](journey-west-continuation-handoff.md). Subsequent IDs have not been reserved.
+The expanded retelling is complete through selected-witness chapter 69 and remains in progress. There are now 54 playable manuscripts: 13 consolidated manuscripts through chapter 21 (retaining the former 61 writing components), and forty-one continuous-arc manuscripts for chapters 22–69. Continue with chapter 70 using [the current writer handoff](journey-west-continuation-handoff.md). Subsequent IDs have not been reserved.
 
 | Current playback ID | Selected-witness chapters | Current manuscript | Minutes at 145 wpm |
 | --- | --- | --- | ---: |
@@ -56,8 +56,14 @@ The expanded retelling is complete through selected-witness chapter 63 and remai
 | 534000 | 61 | [Journey to the West: The third fan and the end of the fire](../534000-journey-to-the-west-the-third-fan-and-the-end-of-the-fire.md) | 14.2 |
 | 535000 | 62 | [Journey to the West: The tower without light](../535000-journey-to-the-west-the-tower-without-light.md) | 13.4 |
 | 536000 | 63 | [Journey to the West: The dragon treasure and the hunting brothers](../536000-journey-to-the-west-the-dragon-treasure-and-the-hunting-brothers.md) | 19.4 |
+| 537000 | 64 | [Journey to the West: The poets of the thorn ridge](../537000-journey-to-the-west-the-poets-of-the-thorn-ridge.md) | 15.2 |
+| 538000 | 65 | [Journey to the West: The false Thunderclap temple](../538000-journey-to-the-west-the-false-thunderclap-temple.md) | 13.4 |
+| 539000 | 66 | [Journey to the West: Maitreya's melon trick](../539000-journey-to-the-west-maitreyas-melon-trick.md) | 13.7 |
+| 540000 | 67 | [Journey to the West: The red python and the foul road](../540000-journey-to-the-west-the-red-python-and-the-foul-road.md) | 14.4 |
+| 541000 | 68 | [Journey to the West: The doctor of Zhuzi](../541000-journey-to-the-west-the-doctor-of-zhuzi.md) | 13.3 |
+| 542000 | 69 | [Journey to the West: The black-gold pills and the missing queen](../542000-journey-to-the-west-the-black-gold-pills-and-the-missing-queen.md) | 15.8 |
 
-The ledger below preserves the original pre-consolidation component IDs, scene boundaries, and original measurements through chapter 21 for evidence traceability. Chapters 22–63 are new continuous-arc manuscripts and have no absorbed component history. Those rows are no longer separate playable files.
+The ledger below preserves the original pre-consolidation component IDs, scene boundaries, and original measurements through chapter 21 for evidence traceability. Chapters 22–69 are new continuous-arc manuscripts and have no absorbed component history. Those rows are no longer separate playable files.
 
 ## Original writing-component ledger (not the current playback index)
 
@@ -176,10 +182,10 @@ The novella-like origin episode is literary, not a historical biography of the r
 
 ## Progress and next chapter group
 
-The expanded retelling covers **selected-witness chapters 1–63** in **48 playable manuscripts**. The first 13 consolidated manuscripts through chapter 21 preserve their component history, with thirty-five subsequent manuscripts narrating chapters 22–63. The guides cover [chapters 22–27](journey-west-chapters-22-27-reading-guide.md), [28–33](journey-west-chapters-28-33-reading-guide.md), [34–39](journey-west-chapters-34-39-reading-guide.md), [40–45](journey-west-chapters-40-45-reading-guide.md), [46–51](journey-west-chapters-46-51-reading-guide.md), [52–57](journey-west-chapters-52-57-reading-guide.md), and [58–63](journey-west-chapters-58-63-reading-guide.md).
+The expanded retelling covers **selected-witness chapters 1–69** in **54 playable manuscripts**. The first 13 consolidated manuscripts through chapter 21 preserve their component history; forty-one subsequent manuscripts narrate chapters 22–69. Reading guides cover [chapters 22–27](journey-west-chapters-22-27-reading-guide.md), [28–33](journey-west-chapters-28-33-reading-guide.md), [34–39](journey-west-chapters-34-39-reading-guide.md), [40–45](journey-west-chapters-40-45-reading-guide.md), [46–51](journey-west-chapters-46-51-reading-guide.md), [52–57](journey-west-chapters-52-57-reading-guide.md), [58–63](journey-west-chapters-58-63-reading-guide.md), and [64–69](journey-west-chapters-64-69-reading-guide.md).
 
-Chapter 58 resolves the rival-Monkey dispute as the Six-Eared Macaque and reconciles the genuine Wukong to Xuanzang. Chapters 59–61 tell the complete Flaming Mountains and Bull Demon King episode: Rakshasi's first fan is false, the genuine fan is stolen by impersonating the Bull, the Bull recovers it by impersonating Bajie, and heavenly support secures the true fan. Wukong cools the fire with three sweeps and removes its root with forty-nine more. Chapters 62–63 cover the falsely accused monks of Jisai, the theft from the thirteen-story pagoda, Bajie's capture, Erlang Shen's assistance, the escaped nine-headed bird, and the restoration of the relic. The recovered pagoda is renamed Dragon-Taming Monastery; the old dragon woman is condemned to guard it.
+Chapter 64 follows Bajie's passage through thorny wilderness and Xuanzang's encounter with poetically learned tree spirits who press Apricot Immortal on him. Chapters 65–66 contain Yellow Brows' counterfeit Little Thunderclap, the repeatedly defeating bag, failed heavenly rescues, and Maitreya's melon deception. Chapter 67 is Tuoluo Village, the giant red python, and Bajie's work clearing a foul persimmon-choked road. Chapters 68–69 take the pilgrims to the sick king of Zhuzi; Wukong tricks Bajie with a physician notice, employs a magically suspended pulse, and administers three Black-Gold Pills with a dragon's droplets. The king's suffering stems from the captivity of Golden Sage. The scene ends with Wukong flying to intercept an arriving figure **whose identity is not announced before chapter 70**.
 
-**Next:** selected-witness **chapters 64–69**. Chapter 64 concerns a forest of thorns and the immortal tree poets who gather around Xuanzang. Chapters 65–66 are the false Thunderclap monastery and the yellow-browed monster. Chapters 67–69 move into the snake demon and the opening of the Zhuzi Kingdom healing episode; do not prematurely narrate events belonging to later chapters. Retain original-language chapter references and no length constraint on individual manuscripts.
+**Next:** selected-witness **chapters 70–75**, opening with the threatening **envoy** of Sai Taisui, the search for the stolen queen at Qilin Mountain, and the consequences in later adventures. Read the individual Chinese chapters before assigning later events to any chapter. Preserve the king's cure and Golden Sage's still-unresolved captivity, and keep the retelling independently composed, source-referenced, and free of arbitrary duration targets.
 
-**Chapters 64–100 remain unwritten in this expanded strand.** The separate World History survey is not a substitute for this narration, and the chapter-9 River Child edition caveat remains unchanged.
+**Chapters 70–100 remain unwritten in this expanded strand.** The World History complete-plot survey is separate; the chapter-9 River Child edition caveat still applies.
