@@ -50,6 +50,34 @@
       ]
     },
     {
+      "id": "fourier-periodic-forcing-foundations",
+      "title": "Differential Equations · Fourier Series and Periodic Forcing from Scratch",
+      "role": "deep_dive",
+      "parent": "survey",
+      "lectures": [
+        "051000",
+        "052000",
+        "053000",
+        "054000"
+      ],
+      "assumed_background": [
+        "Elementary calculus, trigonometry, first-order linear ODEs and a forced spring model; no functional analysis, Fourier transform or PDE prerequisites."
+      ],
+      "preparation_collections": [
+        "differential-equations:worked-ode-foundations"
+      ],
+      "related_collections": [
+        "survey",
+        "worked-ode-foundations"
+      ],
+      "tags": [
+        "Differential equations",
+        "Fourier series",
+        "Periodic forcing",
+        "Resonance"
+      ]
+    },
+    {
       "id": "dynamics",
       "title": "Differential Equations · Periodic Orbits and Hamiltonian Dynamics",
       "role": "deep_dive",

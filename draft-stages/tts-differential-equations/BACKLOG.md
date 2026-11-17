@@ -1,28 +1,33 @@
 # Differential Equations and Dynamical Systems — Foundation-First Backlog
 
-The pack now has 17 substantive, consolidated lecture manuscripts: 13 inherited manuscripts and the four worked foundation additions `047000`–`050000` (2026-11-17). The existing ODE survey and advanced routes have not been changed. The original backlog described source lectures before consolidation, so old manuscript counts should not be interpreted as current catalog counts.
+The pack now has **21 lecture manuscripts**: 13 inherited consolidated manuscripts, four worked ODE foundations `047000`–`050000`, and four Fourier/periodic-forcing foundations `051000`–`054000` (2026-11-17). The original survey and advanced lecture texts remain unchanged. Historic manuscript counts that predate consolidation should not be treated as current inventory.
 
-## Highest-priority foundational gaps
+## Foundation-first additions completed
 
-1. **Fourier series and response to periodic inputs.** Build a concrete bridge from the forced oscillator to harmonics, Fourier coefficients, the role of superposition, and convergence cautions; avoid treating Fourier series as an unexplained formula. Build an accessible first lecture before PDE separation.
-2. **Laplace transforms for initial-value problems.** Step functions, impulse/forcing conventions, initial data and transforms of derivatives. Start with classical functions before generalized impulses.
-3. **Two-dimensional linear ODE systems from scratch.** Convert equations to first-order systems, derive the matrix exponential in simple diagonalizable cases, interpret eigenvectors and complex eigenpairs in phase portraits.
-4. **Numerical ODEs beyond one Euler step.** Local versus global truncation error, Runge–Kutta, convergence with assumptions, and a stiffness example visible without advanced functional analysis.
-5. **Elementary boundary-value problems and Fourier modes.** Clarify the distinction between prescribed initial states and boundary conditions; solve a one-dimensional eigenfunction problem before the full PDE course.
+- `047000`–`050000`: rate laws, first-order solution methods, existence/uniqueness, and oscillators.
+- `051000`–`054000`: Fourier coefficient derivation, energy and convergence, first-order harmonic filtering, and damped versus undamped periodic resonance.
 
-## Topics already covered but compressed
+## Highest-priority remaining foundational gaps
 
-- `001000`: local existence, uniqueness, phase lines, separable/integrating-factor equations.
-- `004000`: second-order oscillation, linear systems, sinusoidal forcing, resonance.
-- `007000`: nonlinear phase portraits, bifurcation, stiffness.
+1. **Laplace transforms for initial-value problems.** Start from the integral definition, elementary transform pairs, and derivatives; handle step functions and piecewise forcing carefully before idealized impulses and convolution.
+2. **Two-dimensional linear ODE systems.** Construct first-order state-space forms, eigenvector modes, real and complex eigenvalues, and simple matrix exponentials from scratch.
+3. **Numerical time stepping.** Build from Euler to midpoint and Runge–Kutta, local versus global truncation error, and a concrete stiff decay test with step-size stability.
+4. **Elementary boundary-value problems and Fourier modes.** Distinguish boundary from initial conditions and show eigenfunctions of the one-dimensional Laplacian before advanced heat and wave equations.
+5. **Fourier transforms versus Fourier series.** Explain what changes when signals do not repeat, how a continuum of frequencies appears, and when transform methods are useful.
 
-These should be preserved. New lectures should offer concrete derivations and accessible entry points, not merely alternate summaries.
+## Already covered but compressed
 
-## Previously proposed advanced continuations (deprioritized)
+- `001000`: first-order models, uniqueness and solution methods.
+- `004000`: oscillators, linear systems and sinusoidal response.
+- `007000`: nonlinear phase portraits, bifurcation and stiffness.
 
-- 043000 — Slow Manifolds and Pattern Formation
-- 044000 — Stefan Free-Boundary Problems
-- 045000 — Multiphysics Energy-Stable Coupling
-- 046000 — Quasilinear Waves and Weak Null Conditions
+The new lectures are constructive alternatives, not replacements. Continue with accessible foundations before returning to advanced PDE extensions.
 
-IDs are proposals, not reserved or published manuscripts. The lecture's subject determines its length, and TTS is not generated during content authoring.
+## Deprioritized advanced proposals
+
+- `043000` — Slow Manifolds and Pattern Formation
+- `044000` — Stefan Free-Boundary Problems
+- `045000` — Multiphysics Energy-Stable Coupling
+- `046000` — Quasilinear Waves and Weak Null Conditions
+
+These are proposed IDs, not published manuscripts. Lecture length remains determined by the mathematical teaching needs, not any fixed target. No audio was produced by this source-only batch.

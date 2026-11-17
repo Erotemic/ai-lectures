@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "lecture_id": "054000",
+  "transcript": "054000-periodic-forcing-resonance-and-damping.md",
+  "related_resources": [
+    {
+      "source_id": "de-mit-periodic-input",
+      "reason": "Sinusoidal response, superposition, harmonic forcing and resonance."
+    },
+    {
+      "source_id": "de-mit1803",
+      "reason": "Direction fields, existence and uniqueness, Euler integration, phase lines and stability."
+    },
+    {
+      "source_id": "de-mit-fourier-convergence",
+      "reason": "Parity, shifting, convergence, Gibbs phenomenon and Fourier operations."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-17",
+    "scope": "Original foundation-first Fourier and periodic-forcing lecture with non-spoken mathematical companion; earlier manuscripts retained."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "differential-equations:050000",
+        "reason": "Solve a forced damped and undamped oscillator using a harmonic trial function."
+      },
+      {
+        "lecture_id": "differential-equations:051000",
+        "reason": "Recognize higher harmonics of an otherwise low-frequency periodic signal."
+      },
+      {
+        "lecture_id": "differential-equations:053000",
+        "reason": "Separate a periodic steady response from an initial-data transient."
+      }
+    ],
+    "recommended": [
+      {
+        "lecture_id": "analysis:survey",
+        "reason": "Optional review of trigonometry, integration and infinite series."
+      }
+    ],
+    "background": [
+      "Elementary calculus, sine and cosine, first-order initial-value problems, and basic forced oscillators; no functional analysis or PDE background."
+    ],
+    "readiness_checks": [
+      "Solve the exact two-harmonic damped oscillator example.",
+      "Verify the linearly growing resonant response in the absence of damping.",
+      "State what the harmonic gain can and cannot imply about initial-value trajectories."
+    ]
+  }
+}

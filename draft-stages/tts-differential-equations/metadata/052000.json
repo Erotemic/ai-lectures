@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "lecture_id": "052000",
+  "transcript": "052000-what-fourier-series-converge-to.md",
+  "related_resources": [
+    {
+      "source_id": "de-mit-fourier-basics",
+      "reason": "Fourier coefficients, orthogonality, period and harmonic decomposition."
+    },
+    {
+      "source_id": "de-mit-fourier-convergence",
+      "reason": "Parity, shifting, convergence, Gibbs phenomenon and Fourier operations."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-17",
+    "scope": "Original foundation-first Fourier and periodic-forcing lecture with non-spoken mathematical companion; earlier manuscripts retained."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "differential-equations:051000",
+        "reason": "Compute Fourier coefficients and understand what a partial harmonic sum means."
+      }
+    ],
+    "recommended": [
+      {
+        "lecture_id": "analysis:survey",
+        "reason": "Optional review of trigonometry, integration and infinite series."
+      }
+    ],
+    "background": [
+      "Elementary calculus, sine and cosine, first-order initial-value problems, and basic forced oscillators; no functional analysis or PDE background."
+    ],
+    "readiness_checks": [
+      "Use orthogonality to derive best mean-square approximation.",
+      "Calculate the first harmonic energy of a square wave.",
+      "Explain why mean-square convergence and a visible Gibbs overshoot can coexist."
+    ]
+  }
+}

@@ -2,7 +2,7 @@
 
 Ordinary differential equations and dynamical systems: initial-value problems, existence and uniqueness, phase portraits, oscillations, stability, nonlinear dynamics and numerical integration, later partial differential equations.
 
-The current pack contains **17 lecture manuscripts**. Short concept chapters have been consolidated where they develop one subject. Each numbered manuscript has one spoken region; its mathematical statements, exercises, sources, and inherited component notes remain in the non-spoken companion.
+The current pack contains **21 lecture manuscripts**. Short concept chapters have been consolidated where they develop one subject. Each numbered manuscript has one spoken region; its mathematical statements, exercises, sources, and inherited component notes remain in the non-spoken companion.
 
 ## Listening routes
 
@@ -10,6 +10,7 @@ The current pack contains **17 lecture manuscripts**. Short concept chapters hav
 
 - **Differential Equations · ODE Foundations** (Guided route): `001000`, `004000`, `007000`.
 - **Differential Equations · Worked First-Order Problems and Oscillators** (Foundation bridge): `047000`, `048000`, `049000`, `050000`.
+- **Differential Equations · Fourier Series and Periodic Forcing from Scratch** (Foundation bridge): `051000`, `052000`, `053000`, `054000`.
 - **Differential Equations · Periodic Orbits and Hamiltonian Dynamics** (Deep dive): `012000`.
 - **Differential Equations · Diffusion, Fronts, and Pattern Formation** (Deep dive): `010000`, `014000`, `022000`.
 - **Differential Equations · Conservation Laws and Viscous Shocks** (Deep dive): `010000`, `018000`.
@@ -36,15 +37,22 @@ Durations are measured from the current spoken text at 145 words per minute, bef
 | `023000` | [Dispersion, semilinear waves, and Strichartz estimates](023000-propagation-energy-dispersion-and-nonlinear-wave-tools-shared-core.md) | 20.1 |
 | `028000` | [Critical scales, solitons, concentration, and modulation](028000-critical-scales-solitons-concentration-and-modulation.md) | 29.8 |
 | `041000` | [Wave decay and null-form cancellation](041000-wave-decay-and-null-form-cancellation.md) | 12.7 |
-
 | `047000` | [From Rate Laws to Initial-Value Problems](047000-from-rate-laws-to-initial-value-problems.md) | 12.2 |
 | `048000` | [Solving First-Order Equations with Care](048000-solving-first-order-equations-with-care.md) | 11.8 |
 | `049000` | [When Does an Initial Value Determine a Trajectory?](049000-when-an-initial-value-determines-a-trajectory.md) | 12.6 |
 | `050000` | [Oscillators from Springs to Resonance](050000-oscillators-from-springs-to-resonance.md) | 13.3 |
+| `051000` | [Hearing a Periodic Signal in Harmonics](051000-hearing-a-periodic-signal-in-harmonics.md) | 12.2 |
+| `052000` | [What Fourier Series Converge To](052000-what-fourier-series-converge-to.md) | 12.2 |
+| `053000` | [First-Order Systems as Frequency Filters](053000-first-order-systems-as-frequency-filters.md) | 11.6 |
+| `054000` | [Periodic Forcing, Resonance, and Damping](054000-periodic-forcing-resonance-and-damping.md) | 12.5 |
 
 ## Foundation-first continuation
 
 The new route is a worked alternative to the short-topic consolidation in `001000` and `004000`. These originals remain unchanged. A listener needs only basic single-variable calculus for the first three new lectures; the fourth adds familiar trigonometry and introduces second-order initial data. The new route builds explicit solution checks and counterexamples before higher-dimensional dynamics and PDE theory.
+
+## Fourier and periodic-forcing foundation bridge
+
+The `051000`–`054000` route starts from Fourier coefficients and orthogonality, explains projection and convergence, then solves first- and second-order linear ODEs under periodic forcing. It supplies worked calculations, initial-data adjustments and failure cases before introducing higher PDE modes or transfer-function formalisms. The earlier manuscripts and survey remain unchanged.
 
 ## Sources and authoring
 

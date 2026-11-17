@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "lecture_id": "053000",
+  "transcript": "053000-first-order-systems-as-frequency-filters.md",
+  "related_resources": [
+    {
+      "source_id": "de-mit-periodic-input",
+      "reason": "Sinusoidal response, superposition, harmonic forcing and resonance."
+    },
+    {
+      "source_id": "de-mit-fourier-basics",
+      "reason": "Fourier coefficients, orthogonality, period and harmonic decomposition."
+    },
+    {
+      "source_id": "de-openstax-linear",
+      "reason": "Integrating factors, forcing terms, and examples."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-17",
+    "scope": "Original foundation-first Fourier and periodic-forcing lecture with non-spoken mathematical companion; earlier manuscripts retained."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "differential-equations:048000",
+        "reason": "Solve first-order linear initial-value problems using integrating factors."
+      },
+      {
+        "lecture_id": "differential-equations:051000",
+        "reason": "Resolve the switching input into its odd sine harmonics."
+      },
+      {
+        "lecture_id": "differential-equations:052000",
+        "reason": "Distinguish Fourier convergence from justified termwise differentiation."
+      }
+    ],
+    "recommended": [
+      {
+        "lecture_id": "analysis:survey",
+        "reason": "Optional review of trigonometry, integration and infinite series."
+      }
+    ],
+    "background": [
+      "Elementary calculus, sine and cosine, first-order initial-value problems, and basic forced oscillators; no functional analysis or PDE background."
+    ],
+    "readiness_checks": [
+      "Derive the response to sine forcing for y prime plus a times y equals f.",
+      "Match two exact solution pieces to find a unique periodic output.",
+      "Distinguish initial transients from periodic particular responses."
+    ]
+  }
+}
