@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "lecture_id": "009000",
+  "transcript": "009000-light-from-mirrors-to-stars.md",
+  "related_resources": [
+    {
+      "source_id": "ph-optic-intro",
+      "reason": "Ray optics, refraction, dispersion, polarization."
+    },
+    {
+      "source_id": "ph-optic-interf",
+      "reason": "Wave interference and thin-film colors."
+    },
+    {
+      "source_id": "ph-optic-diff",
+      "reason": "Rayleigh criterion and aperture diffraction."
+    },
+    {
+      "source_id": "ph-optic-young",
+      "reason": "Early 1801 interference presentations and card arrangements."
+    },
+    {
+      "source_id": "ph-optic-royal",
+      "reason": "Royal Society 1801 Bakerian lecture archival record."
+    },
+    {
+      "source_id": "ph-optic-rainbow",
+      "reason": "Refraction, internal reflection and secondary bows."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "009000-e01",
+      "anchor": "In 1801 he presented an argument for the wave theory of light to the Royal Society, and later experiments made interference patterns central to the case.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ph-optic-royal",
+        "ph-optic-young"
+      ],
+      "source_locator": "Young 1801 Bakerian lecture and interference history",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "009000-e02",
+      "anchor": "His early arrangements involved narrow beams and an obstacle such as a card, with later descriptions employing slits.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ph-optic-young"
+      ],
+      "source_locator": "Distinguish early apparatus from standard two-slit illustration",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "009000-e03",
+      "anchor": "The result is swirling bands of color that change as the film drains and thins.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ph-optic-interf"
+      ],
+      "source_locator": "Thin-film interference",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "009000-e04",
+      "anchor": "A secondary bow involves an additional internal reflection and has the color order reversed.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ph-optic-rainbow"
+      ],
+      "source_locator": "Rainbow secondary reflection",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "009000-e05",
+      "anchor": "A standard estimate for the angular scale of this diffraction limit is about one point two two times the wavelength divided by the aperture diameter, in radians.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ph-optic-diff"
+      ],
+      "source_locator": "Rayleigh aperture limit",
+      "audit_status": "source_checked"
+    }
+  ]
+}

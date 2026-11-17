@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "lecture_id": "007000",
+  "transcript": "007000-from-a-pipe-to-a-storm.md",
+  "related_resources": [
+    {
+      "source_id": "ph-fluid-cont",
+      "reason": "Continuity and steady incompressible flow."
+    },
+    {
+      "source_id": "ph-fluid-bern",
+      "reason": "Pressure, kinetic and gravitational energy along ideal streamlines; Bernoulli and limits."
+    },
+    {
+      "source_id": "ph-fluid-visc",
+      "reason": "Laminar versus turbulent flow, Reynolds number and friction."
+    },
+    {
+      "source_id": "ph-fluid-reyn",
+      "reason": "1883 dye-flow experiments and the Reynolds number."
+    },
+    {
+      "source_id": "ph-fluid-wind",
+      "reason": "Pressure gradients and rotation of Earth."
+    },
+    {
+      "source_id": "ph-fluid-storm",
+      "reason": "Moisture, lift, instability and shear."
+    },
+    {
+      "source_id": "ph-fluid-ensemble",
+      "reason": "Spread in forecasts caused by perturbed initial conditions and models."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "007000-e01",
+      "anchor": "Daniel Bernoulli's name is attached to the statement that their sum stays constant along that streamline under the assumptions.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ph-fluid-bern"
+      ],
+      "source_locator": "Bernoulli equation and appropriate conditions",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "007000-e02",
+      "anchor": "In experiments published in 1883, Osborne Reynolds investigated transitions of this kind.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ph-fluid-reyn"
+      ],
+      "source_locator": "Experimental date and dyed-water pipe flow",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "007000-e03",
+      "anchor": "For long, round pipes, flows often change behavior in a range near a Reynolds number of a few thousand, but the disturbances, entrance conditions and geometry matter.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ph-fluid-visc"
+      ],
+      "source_locator": "Geometry-specific transition and sensitivity",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "007000-e04",
+      "anchor": "A horizontal pressure gradient exerts a force on air.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ph-fluid-wind"
+      ],
+      "source_locator": "Pressure gradient forces",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "007000-e05",
+      "anchor": "Thunderstorm development depends on moisture, lift and atmospheric instability, and the organization of severe storms also depends on wind shear and other structure.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ph-fluid-storm"
+      ],
+      "source_locator": "Thunderstorm requirements and shear",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "007000-e06",
+      "anchor": "Meteorological centers now run ensembles: many forecasts with varied initial states and model assumptions, looking at what stays robust and what spreads apart.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ph-fluid-ensemble"
+      ],
+      "source_locator": "Ensemble methodology",
+      "audit_status": "source_checked"
+    }
+  ]
+}

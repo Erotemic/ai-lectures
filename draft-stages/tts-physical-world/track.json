@@ -1,7 +1,7 @@
 {
   "id": "physical-world",
   "title": "The Physical World: Motion, Energy, Fields, and Matter",
-  "summary": "Core physics developed through measurable problems, mathematical models, human discoveries, and limits of approximation.",
+  "summary": "A growing, audio-first physics course: six original conceptual foundations plus deeper essays on fluid mechanics and weather, electrical circuits and batteries, light and optics, and chemical bonding and materials. Each lecture states the approximations and observations needed for its claims.",
   "assumed_background": [
     "Arithmetic, elementary algebra, and coordinate graphs; no calculus required initially"
   ],
@@ -10,7 +10,10 @@
     "thermodynamics",
     "fields",
     "waves",
-    "matter"
+    "matter",
+    "fluids",
+    "electricity",
+    "optics"
   ],
   "lectures": [
     {
@@ -18,34 +21,34 @@
       "title": "How Can Motion Become a Law? Measurement, Models, and Forces",
       "section": "mechanics",
       "file": "001000-measuring-motion-and-force.md",
-      "spoken_words": 1722,
+      "spoken_words": 1736,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 11.9
+      "estimated_minutes_at_145_wpm": 12.0
     },
     {
       "id": "002000",
       "title": "Where Does the Energy Go? Conservation, Work, and Heat",
       "section": "mechanics",
       "file": "002000-conservation-of-energy.md",
-      "spoken_words": 3012,
+      "spoken_words": 3024,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 20.8
+      "estimated_minutes_at_145_wpm": 20.9
     },
     {
       "id": "003000",
       "title": "Why Does Heat Flow One Way? Entropy and Irreversible Change",
       "section": "thermodynamics",
       "file": "003000-entropy-and-irreversible-change.md",
-      "spoken_words": 1657,
+      "spoken_words": 1669,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 11.4
+      "estimated_minutes_at_145_wpm": 11.5
     },
     {
       "id": "004000",
       "title": "A Force at Every Point: Fields, Charges, and Interactions",
       "section": "fields",
       "file": "004000-fields-and-interactions.md",
-      "spoken_words": 1578,
+      "spoken_words": 1587,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 10.9
     },
@@ -54,7 +57,7 @@
       "title": "How Does a Disturbance Travel? Waves, Sound, and Resonance",
       "section": "waves",
       "file": "005000-waves-sound-and-propagation.md",
-      "spoken_words": 1618,
+      "spoken_words": 1630,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 11.2
     },
@@ -63,9 +66,86 @@
       "title": "What Changes Across Scales? Atoms, Radiation, and Mass–Energy",
       "section": "matter",
       "file": "006000-matter-energy-and-scales.md",
-      "spoken_words": 1607,
+      "spoken_words": 1621,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 11.1
+      "estimated_minutes_at_145_wpm": 11.2
+    },
+    {
+      "id": "007000",
+      "title": "From a Pipe to a Storm: Why Fluids Move",
+      "section": "fluids",
+      "file": "007000-from-a-pipe-to-a-storm.md",
+      "spoken_words": 2196,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 15.1,
+      "tags": [
+        "Fluid mechanics",
+        "Pressure",
+        "Turbulence",
+        "Weather"
+      ]
+    },
+    {
+      "id": "008000",
+      "title": "What a Battery Actually Does: Voltage, Current, and the Circuit",
+      "section": "electricity",
+      "file": "008000-what-a-battery-actually-does.md",
+      "spoken_words": 2249,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 15.5,
+      "tags": [
+        "Electricity",
+        "Circuits",
+        "Batteries",
+        "Electromagnetic induction"
+      ]
+    },
+    {
+      "id": "009000",
+      "title": "Light from Mirrors to Stars: How Optics Makes Images and Evidence",
+      "section": "optics",
+      "file": "009000-light-from-mirrors-to-stars.md",
+      "spoken_words": 2376,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 16.4,
+      "tags": [
+        "Optics",
+        "Interference",
+        "Diffraction",
+        "Spectroscopy"
+      ]
+    },
+    {
+      "id": "010000",
+      "title": "Why Atoms Bind: Electrons, Molecules, and the Properties of Matter",
+      "section": "matter",
+      "file": "010000-why-atoms-bind.md",
+      "spoken_words": 2513,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 17.3,
+      "tags": [
+        "Chemical bonding",
+        "Atoms",
+        "Quantum mechanics",
+        "Materials"
+      ]
     }
-  ]
+  ],
+  "categories": [
+    "Science and nature"
+  ],
+  "audiences": [
+    "general",
+    "science enthusiasts"
+  ],
+  "tags": [
+    "Physics",
+    "Physical science",
+    "Energy",
+    "Matter",
+    "Waves",
+    "Electricity",
+    "Scientific models"
+  ],
+  "editorial_status": "in_progress"
 }

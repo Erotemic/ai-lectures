@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "lecture_id": "010000",
+  "transcript": "010000-why-atoms-bind.md",
+  "related_resources": [
+    {
+      "source_id": "ph-chem-bond",
+      "reason": "Ionic, covalent and polar bonds."
+    },
+    {
+      "source_id": "ph-chem-valence",
+      "reason": "Electronic configurations, bond length as energy minimum, orbital model."
+    },
+    {
+      "source_id": "ph-chem-molecular",
+      "reason": "Bonding and antibonding orbitals; oxygen paramagnetism; band connections."
+    },
+    {
+      "source_id": "ph-chem-energy",
+      "reason": "Reaction enthalpy via bond energies and lattice energetics."
+    },
+    {
+      "source_id": "ph-chem-period",
+      "reason": "Periodic valence electron structure."
+    },
+    {
+      "source_id": "ph-chem-solid",
+      "reason": "Diamond, graphite, metals and solid structures."
+    },
+    {
+      "source_id": "ph-chem-xray",
+      "reason": "X-ray diffraction and crystal structure determination."
+    },
+    {
+      "source_id": "ph-chem-sucrose",
+      "reason": "Sucrose nonelectrolyte contrasted with ionic solute NaCl."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "010000-e01",
+      "anchor": "Elements in the same main-group column often have related chemical behavior because of similarities in their valence configurations.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ph-chem-period"
+      ],
+      "source_locator": "Valence configurations and periodic trends",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "010000-e02",
+      "anchor": "In ordinary table salt, sodium is present as positively charged sodium ions and chlorine as negatively charged chloride ions within an extended crystal.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ph-chem-bond",
+        "ph-chem-solid"
+      ],
+      "source_locator": "Ionic lattice",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "010000-e03",
+      "anchor": "A sugar solution therefore conducts electricity much less effectively than a comparable salt solution, unless other dissolved ions are present.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ph-chem-sucrose"
+      ],
+      "source_locator": "Sucrose nonelectrolyte and NaCl electrolyte",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "010000-e04",
+      "anchor": "Add the costs, subtract the energy released, and the estimate is negative by about one hundred eighty-five kilojoules for the reaction as written.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ph-chem-energy"
+      ],
+      "source_locator": "H2 + Cl2 bond-energy estimate",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "010000-e05",
+      "anchor": "Graphite consists of carbon atoms strongly connected within sheets, with weaker interactions between sheets.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ph-chem-solid"
+      ],
+      "source_locator": "Graphite layered structure",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "010000-e06",
+      "anchor": "Molecular orbital theory predicts two unpaired electrons in the relevant antibonding orbitals of the oxygen molecule in its ground state.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ph-chem-molecular"
+      ],
+      "source_locator": "O2 paramagnetism and MO occupation",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "010000-e07",
+      "anchor": "X-ray diffraction from ordered crystals provides constraints on the spatial arrangement of electron density, from which atomic structures are inferred using models and refinement.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ph-chem-xray"
+      ],
+      "source_locator": "X-ray crystal structure",
+      "audit_status": "source_checked"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "default_collection": "physical-world-guided",
+  "collections": [
+    {
+      "id": "physical-world-guided",
+      "title": "The Physical World - Guided Listening",
+      "role": "main",
+      "categories": [
+        "Science and nature"
+      ],
+      "audiences": [
+        "general",
+        "science enthusiasts"
+      ],
+      "summary": "Ten standalone lectures moving from measured motion and conservation to fluid flow, practical electricity, optics and chemical bonding.",
+      "chapters": [
+        {
+          "title": "How Can Motion Become a Law? Measurement, Models, and Forces",
+          "lectures": [
+            "001000"
+          ]
+        },
+        {
+          "title": "Where Does the Energy Go? Conservation, Work, and Heat",
+          "lectures": [
+            "002000"
+          ]
+        },
+        {
+          "title": "Why Does Heat Flow One Way? Entropy and Irreversible Change",
+          "lectures": [
+            "003000"
+          ]
+        },
+        {
+          "title": "A Force at Every Point: Fields, Charges, and Interactions",
+          "lectures": [
+            "004000"
+          ]
+        },
+        {
+          "title": "How Does a Disturbance Travel? Waves, Sound, and Resonance",
+          "lectures": [
+            "005000"
+          ]
+        },
+        {
+          "title": "What Changes Across Scales? Atoms, Radiation, and Mass–Energy",
+          "lectures": [
+            "006000"
+          ]
+        },
+        {
+          "title": "From a Pipe to a Storm: Why Fluids Move",
+          "lectures": [
+            "007000"
+          ]
+        },
+        {
+          "title": "What a Battery Actually Does: Voltage, Current, and the Circuit",
+          "lectures": [
+            "008000"
+          ]
+        },
+        {
+          "title": "Light from Mirrors to Stars: How Optics Makes Images and Evidence",
+          "lectures": [
+            "009000"
+          ]
+        },
+        {
+          "title": "Why Atoms Bind: Electrons, Molecules, and the Properties of Matter",
+          "lectures": [
+            "010000"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "physical-world-in-practice",
+      "title": "The Physical World - Four Deeper Studies",
+      "role": "deep_dive",
+      "parent": "physical-world-guided",
+      "summary": "Four mechanism-centered essays extending the six original introductions into the behavior of air, water, circuits, light and matter.",
+      "lectures": [
+        "007000",
+        "008000",
+        "009000",
+        "010000"
+      ]
+    }
+  ]
+}

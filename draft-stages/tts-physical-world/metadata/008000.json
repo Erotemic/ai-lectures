@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "lecture_id": "008000",
+  "transcript": "008000-what-a-battery-actually-does.md",
+  "related_resources": [
+    {
+      "source_id": "ph-circ-emf",
+      "reason": "Source emf and internal resistance, work per charge."
+    },
+    {
+      "source_id": "ph-circ-kirch",
+      "reason": "Series/parallel, junction and loop laws."
+    },
+    {
+      "source_id": "ph-circ-rc",
+      "reason": "Capacitor charging and RC relaxation."
+    },
+    {
+      "source_id": "ph-circ-galv",
+      "reason": "Redox, external electron paths, and ionic bridge."
+    },
+    {
+      "source_id": "ph-circ-batt",
+      "reason": "Battery chemistry, rechargeable cells and fuel cells."
+    },
+    {
+      "source_id": "ph-circ-faraday",
+      "reason": "29 August 1831 apparatus and induced current."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "008000-e01",
+      "anchor": "For a classic Daniell cell, zinc metal can be oxidized to zinc ions at one electrode, while copper ions can gain electrons and become copper metal at the other.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ph-circ-batt"
+      ],
+      "source_locator": "Daniell cell redox system",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "008000-e02",
+      "anchor": "With a current, actual terminal voltage usually differs because of internal resistance and electrochemical losses.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ph-circ-emf"
+      ],
+      "source_locator": "Terminal voltage and internal resistance",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "008000-e03",
+      "anchor": "The two bookkeeping rules behind many circuit problems are called Kirchhoff's laws.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ph-circ-kirch"
+      ],
+      "source_locator": "Kirchhoff junction and loop rules",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "008000-e04",
+      "anchor": "After one such time constant, the capacitor has reached about sixty-three percent of its final charge.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ph-circ-rc"
+      ],
+      "source_locator": "RC charging exponential",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "008000-e05",
+      "anchor": "In August 1831 he used coils around an iron ring and demonstrated that changing current in one circuit could induce a brief current in another.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ph-circ-faraday"
+      ],
+      "source_locator": "1831 ring-coil apparatus and observation",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "008000-e06",
+      "anchor": "A rechargeable battery reverses the useful net electrochemical transformation by consuming electrical work supplied from outside.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ph-circ-batt"
+      ],
+      "source_locator": "Rechargeable battery principle",
+      "audit_status": "source_checked"
+    }
+  ]
+}
