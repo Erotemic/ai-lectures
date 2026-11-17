@@ -33,6 +33,13 @@ Currently indexed:
   Mahabharata episode, including the second wager's ethically difficult terms.
   Companion to `world-history:024000`, which introduces the tale briefly.
 
+- `010000`: **Gunditjmara: Budj Bim and the Living Country**. An attributed
+  educational encounter with a **living** Gunditjmara creation account and the
+  linked Stone Country/Sea Country landscape; includes kooyang aquaculture,
+  colonisation, and water restoration. This is **not** a reproduction or an
+  authorized Gunditjmara songline performance. Its claim records and cultural-IP
+  boundaries are in `metadata/010000.json` and the manuscript companion.
+
 The reader also exposes five period routes assembled from existing recordings
 across packs. Those routes link to extended studies and explicitly identify
 unfinished openings. Further introductory prose is optional future authoring;

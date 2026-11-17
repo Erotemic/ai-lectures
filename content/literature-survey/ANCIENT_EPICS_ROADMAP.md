@@ -1,9 +1,9 @@
 # Ancient Epics and Narrative Traditions — editorial roadmap
 
-**Prepared:** 2026-11-16  
-**Updated:** 2026-11-16 — Gunditjmara and Klamath oral-tradition commissions  
-**Status:** proposed manuscripts; not a published lecture manifest  
-**Owning pack for new standalone readings:** `content/literature-survey/`  
+**Prepared:** 2026-11-16
+**Updated:** 2026-11-16 — Gunditjmara and Klamath oral-tradition commissions
+**Status:** proposed manuscripts; not a published lecture manifest
+**Owning pack for new standalone readings:** `content/literature-survey/`
 **Listening route:** `literature-survey:ancient-narratives`
 
 ## Purpose and scope
@@ -92,7 +92,7 @@ repeating the existing Homer/India surveys.
 
 ## Parallel high priority: Indigenous oral narratives and deep-time Country
 
-**Commissioned for the roadmap, not yet written or playable.** These two
+**Gunditjmara: one attributed public-source lecture drafted and indexed on 2026-11-16. Klamath: planned, not yet written or playable.** These two
 projects are high-priority additions alongside, rather than replacements for,
 the eight ancient-text commissions above. Treat them as ongoing traditions
 with identifiable narrators and custodians, not as anonymous, fixed books
@@ -102,23 +102,25 @@ narrative if no sufficiently complete public telling can be responsibly adapted.
 
 | Project | Narration to commission | Attribution, evidence, and adaptation boundary | Status |
 |---|---|---|---|
-| **Gunditjmara songlines, creation narratives, and Budj Bim** ([Gunditjmara](https://en.wikipedia.org/wiki/Gunditjmara); [Budj Bim](https://en.wikipedia.org/wiki/Budj_Bim)) | Introduce Gunditjmara Country as a living landscape, then follow **specific publicly shared** accounts of Ancestral Beings, Budj Bim's revelation in the landscape, water and stone, kooyang (short-finned eel) aquaculture, and cultural continuities. Connect the publicly narrated story to its locations and present custodianship. | There is no identified single work entitled *Gunditjmara Songlines*. Do not invent a composite songline, route, words, dialogue, or ceremony. Credit the named Gunditjmara Knowledge Holders/Traditional Owners for each account; verify what is actually published for wider retelling or TTS reuse. Do not use stories from neighboring language groups as a substitute. Distinguish volcanic chronology, at least 6,600 years of documented aquaculture, and the ages of particular recorded stories. | **Research and source-permission review first** |
+| **Gunditjmara songlines, creation narratives, and Budj Bim** ([Gunditjmara](https://en.wikipedia.org/wiki/Gunditjmara); [Budj Bim](https://en.wikipedia.org/wiki/Budj_Bim)) | Introduce Gunditjmara Country as a living landscape, then follow **specific publicly shared** accounts of Ancestral Beings, Budj Bim's revelation in the landscape, water and stone, kooyang (short-finned eel) aquaculture, and cultural continuities. Connect the publicly narrated story to its locations and present custodianship. | There is no identified single work entitled *Gunditjmara Songlines*. Do not invent a composite songline, route, words, dialogue, or ceremony. Credit the named Gunditjmara Knowledge Holders/Traditional Owners for each account; verify what is actually published for wider retelling or TTS reuse. Do not use stories from neighboring language groups as a substitute. Distinguish volcanic chronology, at least 6,600 years of documented aquaculture, and the ages of particular recorded stories. | **010000 drafted and indexed; no songline performance or original account reproduction authorized** |
 | **The Klamath Battle of Llao and Skell** ([Crater Lake](https://en.wikipedia.org/wiki/Crater_Lake); [Klamath Tribes](https://en.wikipedia.org/wiki/Klamath_Tribes)) | In a **named version**, tell the encounter of Llao and Skell at the sacred Crater Lake landscape: the struggle, the taking of Skell's heart, its use in a ball game, its rescue by allies, Skell's restoration, and Llao's defeat, with the account linking his head to Wizard Island where that variant says so. A distinct, clearly attributed version can then follow volcanic fire and the mountain's collapse. | Start with Klamath-language/English versions, especially the Robert David account published by Barker (1963, pp. 71–75), and compare Applegate's 1907 English record and modern Klamath voices. Verify the scenes against the *selected* witness before drafting: not every account contains the same events or gives Skell/Gmo'Kam'c the same role. Label older non-Native collectors' mediation, spelling variants, and changes across tellings. Geological dating of Mount Mazama does not establish an unchanged text of the tale. | **Version and source-access review first** |
+
+The first Gunditjmara treatment is [`literature-survey:010000`](010000-gunditjmara-budj-bim-and-the-living-country.md): an original audio-first lecture grounded in the publicly shared Budj Bim account, Gunditjmara materials, archaeological findings and named contemporary testimony. Its evidence sidecar is [`metadata/010000.json`](metadata/010000.json). It is not a performed songline, a verbatim reproduction of ABC material, or a substitute for Gunditjmara-led telling.
 
 ### Treatment and source decisions before narration
 
-**Gunditjmara:** Begin with the [Gunditjmara-facing Budj Bim cultural site](https://www.budjbim.com.au/about-us/our-culture/)
-and the [ABC *Deep Time* story credited to Gunditj Mirring Traditional Owners](https://www.abc.net.au/news/deeptime/topic/creation/naarm-fills/),
+**Gunditjmara (source review completed for first original lecture):** Begin with the [Gunditjmara-facing Budj Bim cultural site](https://www.budjbim.com.au/about-us/our-culture/)
+and the [ABC *Deep Time* story credited to Gunditj Mirring Traditional Owners](https://newsapp.abc.net.au/news/deeptime/about/gunditj-mirring-traditional-owners-aboriginal-corporation/budj-bim-volcano-erupts/),
 which expressly identifies its Indigenous Cultural and Intellectual Property
 holder and conditions of public sharing. UNESCO's [Budj Bim Cultural Landscape](https://whc.unesco.org/en/list/1577)
 documents the landscape, ongoing cultural practice, and archaeological context,
 but UNESCO should not be treated as the author of Gunditjmara oral tradition.
-Before writing a full narrative, record precisely which publicly authorized
-account can be followed, who tells it, its publication date, available scope,
-and whether adaptation or public synthesized narration is appropriate. If the
-available materials describe associations of Country rather than a continuous
-plot, build a carefully structured oral-history-and-landscape lecture instead
-of making one up. Public accessibility alone is not permission to reproduce
+The first lecture records the named custodians, the limits of the public
+creation outline, and the difference between original educational commentary
+and any authorized performance. Its narrative follows connected Country
+without inventing unrecorded scenes or treating the published outline as an
+open-ended license. Further versions would require a new source and rights
+review. Public accessibility alone is not permission to reproduce
 songs, restricted cultural knowledge, or a published recording wholesale.
 
 **Klamath:** Start with the [source survey discussing Robert David's account](https://www.craterlakeinstitute.com/index-of-general-cultural-history-books/index-of-books-and-articles-about-native-americans/1-02/indians-09/)
@@ -293,7 +295,7 @@ never as the sole evidence for a consequential claim.
 8. **Vedic and Iranian ancient hymns:** Oxford University Press, [Jamison and Brereton on the *Ṛgveda*](https://doi.org/10.1093/oso/9780190633363.001.0001); *Encyclopaedia Iranica*, [*Yašts*](https://www.iranicaonline.org/articles/yashts/) and [Iranian oral literature](https://www.iranicaonline.org/articles/oral-literature-in-iran/). Distinguish hymns from late, synthetic epic retellings.
 9. **Ahiqar transmission:** University of Göttingen, [*The Story of Ahiqar the Wise*](https://ahiqar.uni-goettingen.de/); identify the Elephantine witness separately from the project's medieval Syriac and Arabic base texts.
 10. **Japanese chronology:** Cambridge, [*Myth and history in the Kojiki, Nihon shoki, and related works*](https://www.cambridge.org/core/books/abs/cambridge-history-of-japanese-literature/myth-and-history-in-thekojiki-nihon-shoki-and-related-works/D0B7B8B46D8CC4A8AB879E1185E6BD37).
-11. **Gunditjmara publicly shared narratives:** [Budj Bim Traditional Owner cultural account](https://www.budjbim.com.au/about-us/our-culture/), [ABC *Deep Time* with Gunditj Mirring Knowledge Holders](https://www.abc.net.au/news/deeptime/topic/creation/naarm-fills/), [Australian Government World Heritage dossier](https://www.dcceew.gov.au/parks-heritage/heritage/places/world/budj-bim), and [UNESCO](https://whc.unesco.org/en/list/1577). Prioritize community authorship; record publication permissions and the exact publicly narrated account before composing scenes.
+11. **Gunditjmara publicly shared narratives:** [Budj Bim Traditional Owner cultural account](https://www.budjbim.com.au/about-us/our-culture/), [ABC *Deep Time* with Gunditj Mirring Knowledge Holders](https://newsapp.abc.net.au/news/deeptime/about/gunditj-mirring-traditional-owners-aboriginal-corporation/budj-bim-volcano-erupts/), [Australian Government World Heritage dossier](https://www.dcceew.gov.au/parks-heritage/heritage/places/world/budj-bim), and [UNESCO](https://whc.unesco.org/en/list/1577). Prioritize community authorship; record publication permissions and the exact publicly narrated account before composing scenes.
 12. **Klamath Llao/Skell witnesses and living context:** M. A. R. Barker, *Klamath Texts* (1963), pp. 71–75 (Robert David; access and translation check needed), as identified by the [Crater Lake ethnography source summary](https://www.craterlakeinstitute.com/index-of-general-cultural-history-books/index-of-books-and-articles-about-native-americans/1-02/indians-09/); [University of Rostock on conflicting versions](https://www.iaa.uni-rostock.de/en/forschung/laufende-forschungsprojekte/american-antiquities-prof-mackenthun/landmark-stories/giiwascrater-lake-1/); [Perry Chocktoot's Klamath account reported by Travel Oregon](https://traveloregon.com/things-to-do/destinations/lakes-reservoirs/creation-crater-lake/); [Oregon Historical Society on the continuing sacred landscape](https://www.oregonhistoryproject.org/articles/historical-records/crater-lake-and-the-klamath/). Name which witness is being retold; verify rather than harmonize variants.
 
 For dramatic or religious texts, record what the primary text says before

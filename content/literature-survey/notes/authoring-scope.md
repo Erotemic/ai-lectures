@@ -23,6 +23,13 @@ works in the ancient route are reused, not duplicated. The new lectures are
 listed in both the Ancient Epics route and Compact Introductions route; source
 records and authored claim locators remain local to this pack.
 
+Living oral-traditions expansion indexed 2026-11-16:
+
+- `010000`: Gunditjmara: Budj Bim and the Living Country, a sourced
+  commentary on publicly shared Indigenous knowledge. This is a living
+  oral tradition and landscape history, not a surviving ancient text,
+  a complete song cycle, or a community-authorized performance.
+
 Optional future ideas, not required organization work:
 
 - `004000`: a Water Margin synopsis, if commissioned; the current route uses
