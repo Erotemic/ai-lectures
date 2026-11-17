@@ -5,7 +5,7 @@
       "id": "survey",
       "title": "Multivariable Calculus · Foundations Survey",
       "role": "main",
-      "summary": "Total derivatives, Hessians, constrained optimization, multiple integrals, curves and surfaces; separate deep dives develop Newton methods and nonlinear inverse problems.",
+      "summary": "Total derivatives, Hessians, constrained optimization, multiple integrals, curves and surfaces; optional deep dives construct Newton methods, nonlinear fits, and constrained sensitivity.",
       "lectures": [
         "001000",
         "008000",
@@ -13,7 +13,8 @@
       ],
       "related_collections": [
         "taylor-newton-bridge",
-        "nonlinear-least-squares-bridge"
+        "nonlinear-least-squares-bridge",
+        "constrained-newton-sensitivity-bridge"
       ],
       "tags": [
         "Calculus",
@@ -40,7 +41,8 @@
       "related_collections": [
         "optimization-duality:survey",
         "numerical-analysis:survey",
-        "nonlinear-least-squares-bridge"
+        "nonlinear-least-squares-bridge",
+        "constrained-newton-sensitivity-bridge"
       ],
       "tags": [
         "Taylor theorem",
@@ -72,7 +74,8 @@
       ],
       "related_collections": [
         "optimization-duality:survey",
-        "numerical-analysis:survey"
+        "numerical-analysis:survey",
+        "constrained-newton-sensitivity-bridge"
       ],
       "tags": [
         "Nonlinear least squares",
@@ -84,6 +87,39 @@
       ],
       "assumed_background": [
         "The multivariable chain rule and Jacobians, Taylor models and Newton corrections, linear least squares and singular values. Statistical assumptions are introduced explicitly."
+      ]
+    },
+    {
+      "id": "constrained-newton-sensitivity-bridge",
+      "title": "Constrained Newton and Sensitivity · From Feasible Geometry to Implicit Derivatives",
+      "role": "deep_dive",
+      "parent": "survey",
+      "summary": "Four constructive studies: second variation along equality constraints; active inequality cones and regularity; block Newton/KKT solves; implicit parameter derivatives, envelopes, and adjoints.",
+      "lectures": [
+        "027000",
+        "028000",
+        "029000",
+        "030000"
+      ],
+      "preparation_collections": [
+        "multivariable-calculus:taylor-newton-bridge",
+        "linear-algebra:numerical-matrix-bridge"
+      ],
+      "related_collections": [
+        "optimization-duality:survey",
+        "multivariable-calculus:nonlinear-least-squares-bridge",
+        "numerical-analysis:survey"
+      ],
+      "tags": [
+        "Constrained optimization",
+        "KKT conditions",
+        "Lagrange multipliers",
+        "Newton method",
+        "Sensitivity analysis",
+        "Implicit differentiation"
+      ],
+      "assumed_background": [
+        "Jacobian and Hessian matrices; linear algebra of null spaces; Newton corrections; an introduction to Lagrange multipliers is helpful but not essential."
       ]
     }
   ]

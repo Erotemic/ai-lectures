@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "lecture_id": "028000",
+  "transcript": "028000-active-inequalities-critical-cones-and-regularity.md",
+  "related_resources": [
+    {
+      "source_id": "mv-stanford-second-order",
+      "reason": "Second-order tests for constrained optimization with active inequalities."
+    },
+    {
+      "source_id": "mv-nd-constraint-qualification",
+      "reason": "Distinguishes LICQ and MFCQ and consequences for multiplier existence."
+    },
+    {
+      "source_id": "mv-boyd-convex",
+      "reason": "KKT sufficiency in convex programs."
+    },
+    {
+      "source_id": "mv-wiki-kkt",
+      "reason": "Complementary slackness and KKT conventions."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-17",
+    "scope": "Original standalone narrated mathematics, derivations, worked constrained optimization examples, and non-spoken companions; earlier manuscripts unchanged."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "multivariable-calculus:027000",
+        "reason": "Feasible tangent geometry and Lagrangian curvature."
+      }
+    ],
+    "recommended": [
+      {
+        "lecture_id": "optimization-duality:004000",
+        "reason": "Convex KKT certificates and Slater conditions."
+      },
+      {
+        "lecture_id": "multivariable-calculus:025000",
+        "reason": "Sensitivity versus identifiability."
+      }
+    ],
+    "background": [
+      "Scalar inequalities, two-dimensional feasible regions, first and second derivatives, local minima."
+    ],
+    "readiness_checks": [
+      "Can you distinguish an active constraint from a positive multiplier?",
+      "Can you find a feasible direction that changes when an active set switches?"
+    ]
+  }
+}

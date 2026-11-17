@@ -287,6 +287,69 @@
       "url": "https://en.wikipedia.org/wiki/Huber_loss",
       "access": "free_no_login",
       "notes": "Definition and interpretation of Huber robust loss."
+    },
+    "mv-stanford-second-order": {
+      "title": "Stanford CME307/MS&E311 Optimization, Lecture Note 07: Second-Order Necessary Conditions for Constrained Optimization",
+      "kind": "university_course",
+      "url": "https://web.stanford.edu/class/msande314/lecture07.pdf",
+      "access": "free_no_login",
+      "notes": "Lagrangian Hessians, tangent subspaces and second-order constrained optimality under regularity hypotheses."
+    },
+    "mv-nd-constraint-qualification": {
+      "title": "Optimization for Decision Science: Constraint Qualifications",
+      "kind": "university_course",
+      "url": "https://ndcbe.github.io/optimization/notebooks/7/constraint-qualifications/",
+      "access": "free_no_login",
+      "notes": "Exposition of LICQ, MFCQ, tangent cones, linearization, and multiplier existence; use theorem assumptions carefully."
+    },
+    "mv-wiki-kkt": {
+      "title": "Wikipedia: Karush–Kuhn–Tucker conditions",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Karush%E2%80%93Kuhn%E2%80%93Tucker_conditions",
+      "access": "free_no_login",
+      "notes": "Introductory KKT and complementary slackness definitions; formal arguments drawn from lecture notes."
+    },
+    "mv-boyd-ch10": {
+      "title": "Stephen Boyd and Lieven Vandenberghe, Convex Optimization (2004), Chapter 10: Equality Constrained Minimization",
+      "kind": "textbook",
+      "url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf",
+      "access": "free_no_login",
+      "notes": "Chapter 10 develops feasible/infeasible Newton KKT matrices, Schur complement and reduced-space computations."
+    },
+    "mv-boyd-slides": {
+      "title": "Stephen Boyd and Lieven Vandenberghe, Convex Optimization lecture slides",
+      "kind": "university_course",
+      "url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxslides.pdf",
+      "access": "free_no_login",
+      "notes": "Equality-constrained Newton algorithm and conditioning considerations."
+    },
+    "mv-wiki-sqp": {
+      "title": "Wikipedia: Sequential quadratic programming",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Sequential_quadratic_programming",
+      "access": "free_no_login",
+      "notes": "Overview of SQP quadratic subproblems and inequality active sets."
+    },
+    "mv-wiki-schur": {
+      "title": "Wikipedia: Schur complement",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Schur_complement",
+      "access": "free_no_login",
+      "notes": "Block matrix factorization and Schur-complement identity."
+    },
+    "mv-cvxpylayers": {
+      "title": "Akshay Agrawal et al., Differentiable Convex Optimization Layers (2019), authors’ exposition",
+      "kind": "research_article",
+      "url": "https://locuslab.github.io/2019-10-28-cvxpylayers/",
+      "access": "free_no_login",
+      "notes": "Implicit derivative of optimization residual maps and differentiable optimization layers."
+    },
+    "mv-wiki-envelope": {
+      "title": "Wikipedia: Envelope theorem",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Envelope_theorem",
+      "access": "free_no_login",
+      "notes": "Value-function sensitivity formula; lectures establish their own equality-constraint sign convention."
     }
   }
 }

@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "lecture_id": "027000",
+  "transcript": "027000-tangent-spaces-lagrange-hessians-and-second-order-tests.md",
+  "related_resources": [
+    {
+      "source_id": "mv-boyd-convex",
+      "reason": "Derivations of constrained stationarity and equality-constrained Newton geometry."
+    },
+    {
+      "source_id": "mv-stanford-second-order",
+      "reason": "Second-order necessary conditions and Lagrangian curvature restricted to the tangent space."
+    },
+    {
+      "source_id": "mv-wiki-010000",
+      "reason": "Orientation on Lagrange multipliers."
+    },
+    {
+      "source_id": "mv-wiki-007000",
+      "reason": "Smooth equality constraints and the implicit function theorem."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-17",
+    "scope": "Original standalone narrated mathematics, derivations, worked constrained optimization examples, and non-spoken companions; earlier manuscripts unchanged."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "multivariable-calculus:001000",
+        "reason": "Total derivatives, Jacobians and their null spaces."
+      },
+      {
+        "lecture_id": "multivariable-calculus:020000",
+        "reason": "Hessians and quadratic forms."
+      }
+    ],
+    "recommended": [
+      {
+        "lecture_id": "optimization-duality:004000",
+        "reason": "Multipliers as convex certificates in a complementary track."
+      },
+      {
+        "lecture_id": "multivariable-calculus:021000",
+        "reason": "Hessians in Newton corrections."
+      }
+    ],
+    "background": [
+      "The chain rule, matrix kernels and row spaces, Hessian quadratic forms and simple parametric curves."
+    ],
+    "readiness_checks": [
+      "Can you obtain Jd=0 by differentiating a feasible curve?",
+      "Can you explain why a curved constraint contributes to the second variation?"
+    ]
+  }
+}

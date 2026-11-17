@@ -1,7 +1,7 @@
 {
   "id": "multivariable-calculus",
   "title": "Multivariable Calculus from First Principles",
-  "summary": "A calculation-first and proof-aware bridge from single-variable calculus and basic linear algebra to smooth manifolds, PDEs, optimization, and vector calculus. Extended studies derive Taylor bounds and Newton convergence, then develop nonlinear least squares, Gauss–Newton, damping, identifiability, regularization and robust inference.",
+  "summary": "A calculation-first and proof-aware bridge from single-variable calculus and basic linear algebra to geometry and optimization. Depth routes develop quantitative Taylor/Newton analysis, nonlinear least squares, and constrained Newton/KKT sensitivity with exact examples.",
   "assumed_background": [
     "single-variable limits, differentiation and integration (Analysis 001000–008000)",
     "elementary vectors, matrices, determinants and dot products (Linear Algebra 001000–006000, 008000)"
@@ -14,7 +14,8 @@
     "008000-hessians-and-taylor-s-formula-the-shape-beyond-the-tangent-plane",
     "015000-curves-and-line-integrals-measuring-along-a-path",
     "taylor-newton-bridge",
-    "nonlinear-least-squares-bridge"
+    "nonlinear-least-squares-bridge",
+    "constrained-newton-sensitivity-bridge"
   ],
   "lectures": [
     {
@@ -205,6 +206,66 @@
         "Robust fitting",
         "Inverse problems",
         "Weighted least squares"
+      ]
+    },
+    {
+      "id": "027000",
+      "title": "Constraints as Geometry: Tangent Spaces and the Hessian of the Lagrangian",
+      "section": "constrained-newton-sensitivity-bridge",
+      "file": "027000-tangent-spaces-lagrange-hessians-and-second-order-tests.md",
+      "spoken_words": 1855,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 12.8,
+      "tags": [
+        "Constrained optimization",
+        "Lagrange multipliers",
+        "Hessians",
+        "Tangent spaces"
+      ]
+    },
+    {
+      "id": "028000",
+      "title": "Active Inequalities: Feasible Directions, Complementarity, and Critical Cones",
+      "section": "constrained-newton-sensitivity-bridge",
+      "file": "028000-active-inequalities-critical-cones-and-regularity.md",
+      "spoken_words": 1814,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 12.5,
+      "tags": [
+        "KKT conditions",
+        "Constrained optimization",
+        "Critical cones",
+        "Constraint qualifications"
+      ]
+    },
+    {
+      "id": "029000",
+      "title": "Constrained Newton Methods: Building and Solving the KKT System",
+      "section": "constrained-newton-sensitivity-bridge",
+      "file": "029000-constrained-newton-and-kkt-saddle-systems.md",
+      "spoken_words": 1943,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 13.4,
+      "tags": [
+        "Constrained Newton",
+        "KKT systems",
+        "Schur complement",
+        "Sequential quadratic programming"
+      ]
+    },
+    {
+      "id": "030000",
+      "title": "Differentiating an Optimizer: Implicit Functions, Envelope Theorems, and Adjoints",
+      "section": "constrained-newton-sensitivity-bridge",
+      "file": "030000-implicit-differentiation-envelope-and-adjoint-sensitivity.md",
+      "spoken_words": 2337,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 16.1,
+      "tags": [
+        "Implicit differentiation",
+        "Envelope theorem",
+        "Sensitivity analysis",
+        "Adjoint methods"
       ]
     }
   ],

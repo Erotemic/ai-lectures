@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "lecture_id": "029000",
+  "transcript": "029000-constrained-newton-and-kkt-saddle-systems.md",
+  "related_resources": [
+    {
+      "source_id": "mv-boyd-ch10",
+      "reason": "Equality-constrained Newton steps, KKT systems, infeasible starts, numerical solution."
+    },
+    {
+      "source_id": "mv-boyd-slides",
+      "reason": "Condensed constrained Newton algorithm and reduced-space derivations."
+    },
+    {
+      "source_id": "mv-wiki-sqp",
+      "reason": "SQP connection to constrained quadratic subproblems."
+    },
+    {
+      "source_id": "mv-wiki-schur",
+      "reason": "Schur complements and block elimination."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-17",
+    "scope": "Original standalone narrated mathematics, derivations, worked constrained optimization examples, and non-spoken companions; earlier manuscripts unchanged."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "multivariable-calculus:027000",
+        "reason": "Derive the exact Hessian of the Lagrangian and tangent reduced Hessian."
+      },
+      {
+        "lecture_id": "multivariable-calculus:021000",
+        "reason": "Understand Newton linearization and correction steps."
+      }
+    ],
+    "recommended": [
+      {
+        "lecture_id": "multivariable-calculus:028000",
+        "reason": "Active-set distinctions needed for nonlinear inequalities."
+      },
+      {
+        "lecture_id": "linear-algebra:020000",
+        "reason": "Pivoted matrix factorizations and linear system solves."
+      }
+    ],
+    "background": [
+      "Quadratic Taylor models, gradients and Hessians, block matrices, small linear-system solving."
+    ],
+    "readiness_checks": [
+      "Can you distinguish primal and dual residuals in KKT equations?",
+      "Can you derive the zero bottom-right block and solve a small saddle system?"
+    ]
+  }
+}

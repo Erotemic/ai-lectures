@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "lecture_id": "030000",
+  "transcript": "030000-implicit-differentiation-envelope-and-adjoint-sensitivity.md",
+  "related_resources": [
+    {
+      "source_id": "mv-boyd-ch10",
+      "reason": "KKT Jacobian structure and regularity used by implicit differentiation."
+    },
+    {
+      "source_id": "mv-cvxpylayers",
+      "reason": "Differentiating optimization solutions through optimality equations."
+    },
+    {
+      "source_id": "mv-nd-constraint-qualification",
+      "reason": "Regularity distinctions for active constraints."
+    },
+    {
+      "source_id": "mv-wiki-007000",
+      "reason": "Implicit-function theorem prerequisites."
+    },
+    {
+      "source_id": "mv-wiki-envelope",
+      "reason": "Envelope theorem orientation and sign conventions."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-17",
+    "scope": "Original standalone narrated mathematics, derivations, worked constrained optimization examples, and non-spoken companions; earlier manuscripts unchanged."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "multivariable-calculus:029000",
+        "reason": "The KKT Jacobian as a concrete block linear system."
+      },
+      {
+        "lecture_id": "multivariable-calculus:028000",
+        "reason": "Active-set transitions and constraint qualifications."
+      }
+    ],
+    "recommended": [
+      {
+        "lecture_id": "optimization-duality:011000",
+        "reason": "Further sensitivity and robust-optimization applications."
+      },
+      {
+        "lecture_id": "multivariable-calculus:025000",
+        "reason": "Inverse-problem sensitivity and singular directions."
+      }
+    ],
+    "background": [
+      "Multivariable chain rule and mixed partial derivatives; KKT equations; linear-system conditioning."
+    ],
+    "readiness_checks": [
+      "Can you derive Du/Dp=-K^{-1}F_p from F(u,p)=0?",
+      "Can you distinguish envelope differentiation from a general adjoint output derivative?"
+    ]
+  }
+}
