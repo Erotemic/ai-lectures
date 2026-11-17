@@ -12,7 +12,7 @@
         "general",
         "science enthusiasts"
       ],
-      "summary": "Twelve complete standalone lectures from forest, sensory and microbial systems through lakes, oceans, survival and migration. Four planned topics remain unindexed.",
+      "summary": "Sixteen self-contained natural-history essays. The final lecture brings together energy, inheritance, interactions and ecological change.",
       "chapters": [
         {
           "title": "Energy and matter in an ecosystem",
@@ -85,6 +85,30 @@
           "lectures": [
             "012000"
           ]
+        },
+        {
+          "title": "Living bargains: partners and parasites",
+          "lectures": [
+            "013000"
+          ]
+        },
+        {
+          "title": "Reproduction and parental investment",
+          "lectures": [
+            "014000"
+          ]
+        },
+        {
+          "title": "Disturbance, recovery, and transitions",
+          "lectures": [
+            "015000"
+          ]
+        },
+        {
+          "title": "Capstone: how a living world endures",
+          "lectures": [
+            "016000"
+          ]
         }
       ]
     },
@@ -101,7 +125,10 @@
         "007000",
         "008000",
         "009000",
-        "010000"
+        "010000",
+        "013000",
+        "015000",
+        "016000"
       ]
     },
     {
@@ -115,7 +142,9 @@
         "005000",
         "006000",
         "007000",
-        "008000"
+        "008000",
+        "013000",
+        "014000"
       ]
     },
     {
@@ -128,7 +157,21 @@
         "009000",
         "010000",
         "011000",
-        "012000"
+        "012000",
+        "015000"
+      ]
+    },
+    {
+      "id": "relationships-and-renewal",
+      "title": "The Living World - Relationships and Renewal",
+      "role": "deep_dive",
+      "parent": "the-living-world",
+      "summary": "Species interactions, reproduction, and recovery, closing with the synthesis of energy and inheritance.",
+      "lectures": [
+        "013000",
+        "014000",
+        "015000",
+        "016000"
       ]
     }
   ]

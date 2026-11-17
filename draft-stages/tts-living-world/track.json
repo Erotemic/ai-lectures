@@ -1,7 +1,7 @@
 {
   "id": "living-world",
   "title": "The Living World: How Nature Works",
-  "summary": "Audio-first natural history: twelve complete, self-contained and sourced essays on forests, senses, soil, evolution, social insects, plants, fungi, microbes, freshwater, oceans, extreme adaptations and migration. In-progress finite series with four further subjects planned.",
+  "summary": "Complete natural-history audio series: sixteen sourced, standalone essays on forests, animal senses, soil, evolution, insect societies, plants, fungi, microbes, freshwater, oceans, survival limits, migration, species relationships, reproduction, disturbance and biological persistence, ending in an extended synthesis. It focuses on how organisms and ecosystems work today, not an exhaustive cell-biology or genetics curriculum.",
   "categories": [
     "Science and nature"
   ],
@@ -22,7 +22,7 @@
     "No formal biology prerequisite. Important concepts and research methods are introduced when needed.",
     "Every lecture stands alone; suggested order moves from larger ecological systems to cellular and collective mechanisms."
   ],
-  "editorial_status": "in_progress",
+  "editorial_status": "complete",
   "sections": [
     "forest-ecology",
     "animal-senses",
@@ -212,6 +212,70 @@
       "spoken_words": 2338,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 16.1
+    },
+    {
+      "id": "013000",
+      "title": "Parasites and Partners: The Bargains That Build Living Communities",
+      "section": "evolutionary-processes",
+      "file": "013000-parasites-and-partners.md",
+      "tags": [
+        "Parasitism",
+        "Mutualism",
+        "Coevolution",
+        "Behavioral ecology",
+        "Symbiosis"
+      ],
+      "spoken_words": 2279,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 15.7
+    },
+    {
+      "id": "014000",
+      "title": "The Cost of Another Generation: Reproduction, Sex, and Parenting",
+      "section": "animal-behavior",
+      "file": "014000-the-cost-of-another-generation.md",
+      "tags": [
+        "Reproduction",
+        "Parenting",
+        "Life history",
+        "Sexual selection",
+        "Animal development"
+      ],
+      "spoken_words": 2468,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 17.0
+    },
+    {
+      "id": "015000",
+      "title": "After the Disturbance: Destruction, Recovery, and Ecological Change",
+      "section": "life-and-environments",
+      "file": "015000-after-the-disturbance.md",
+      "tags": [
+        "Disturbance ecology",
+        "Succession",
+        "Resilience",
+        "Restoration ecology",
+        "Ecological thresholds"
+      ],
+      "spoken_words": 2597,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 17.9
+    },
+    {
+      "id": "016000",
+      "title": "How a Living World Endures: Energy, Inheritance, and Change",
+      "section": "life-and-environments",
+      "file": "016000-how-a-living-world-endures.md",
+      "tags": [
+        "Biology synthesis",
+        "Ecological systems",
+        "Evolution",
+        "Energy flow",
+        "Resilience"
+      ],
+      "spoken_words": 3259,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 22.5
     }
   ]
 }

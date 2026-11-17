@@ -1,6 +1,6 @@
 # The Living World - finite expansion plan
 
-**Status (November 2026):** first twelve complete. This is an editorial map, not a duration or numerical quota. The series may end once the essential biology is taught well; topics can be combined, expanded, or removed based on the material.
+**Status (November 2026): COMPLETE (16 of 16).** This was a finite natural-history series, not a numerical quota or comprehensive biology degree. The planned arc concludes at 016000. Any future biology course should have a new teaching purpose rather than extending the sequence solely to add more items.
 
 The existing **Deep Time** course covers origins and history; this track concentrates on mechanisms operating in the living world today. We will later expand **The Physical World** independently; do not alter that pack from this overlay.
 
@@ -18,17 +18,15 @@ The existing **Deep Time** course covers origins and history; this track concent
 | 10 | The ocean food web: plankton, currents, deep water, and food limitation | **Complete**: 010000 |
 | 11 | Surviving extremes: heat, cold, pressure, and drought | **Complete**: 011000 |
 | 12 | Migration and navigation: movement across impossible distances | **Complete**: 012000 |
-| 13 | Parasitism and mutualism: reciprocal pressure and evolutionary bargains | Planned |
-| 14 | Reproduction and parenting: alternative ways to make descendants | Planned |
-| 15 | Disturbance, extinction, and recovery: ecology across time | Planned |
-| 16 | Capstone: what makes living systems persist and change? | Planned; should synthesize, not repeat |
+| 13 | Parasitism and mutualism: reciprocal pressure and evolutionary bargains | **Complete**: 013000 |
+| 14 | Reproduction and parenting: alternative ways to make descendants | **Complete**: 014000 |
+| 15 | Disturbance, extinction, and recovery: ecology across time | **Complete**: 015000 |
+| 16 | Capstone: what makes living systems persist and change? | **Complete**: 016000 |
 
-## Editorial priorities
+## Conclusion and boundaries
 
-1. Next priority: parasitism and mutualism; reproduction and parenting; disturbance and ecological recovery. Then decide whether a capstone is warranted. Do not repeat earlier symbiosis or evolution examples without a new mechanism.
-2. Alternate scales and habitats; terrestrial ecosystems alone are not sufficient.
-3. Favor specific experimental demonstrations and source-backed discoveries, with methodological limits made clear.
-4. Finish with a deliberate synthesis once coverage warrants one. Do not keep adding material only to reach a round lecture count.
-5. Re-evaluate missing basic concepts (cell physiology, genetics, development, energy flow) as later essays are written; introduce them where they genuinely improve comprehension.
+The 16-lecture series has a deliberate ending. The capstone is **016000**, which integrates physical constraints, cellular organization, inheritance, evolutionary contingency, ecological interactions, biodiversity, and resilience. The preceding three lectures introduce new mechanisms rather than merely repeating earlier symbiosis, movement, and succession material.
 
-**Open research questions:** Which animals/habitats have disproportionately thin coverage? What concepts most need separate foundational treatment? Which well-supported case studies are entertaining in audio without requiring visual illustrations? What ecosystem-level claims remain disputed or dependent on local conditions?
+The series covers natural history and the mechanisms of living systems in the world today. It is **not** a comprehensive course in molecular and cellular biology, classical or molecular genetics, embryology, anatomy and physiology, taxonomy, or population mathematical models. Those subjects have appeared where needed for comprehension, but deserve separate foundational courses if the library is to cover biology systematically.
+
+There is no unfinished commission in this pack. Possible future work, if desired, belongs in distinct tracks such as *Cells, Genes, and Development* and *Biology of the Human Body*, not as an infinite extension of The Living World.
