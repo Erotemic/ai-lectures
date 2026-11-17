@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "lecture_id": "024000",
+  "transcript": "024000-counting-sums-of-two-squares.md",
+  "related_resources": [
+    {
+      "source_id": "nt-mathworld-r2",
+      "reason": "Definition of signed ordered representations, prime-factor formula, Jacobi divisor formula, theta generating function and summatory counts."
+    },
+    {
+      "source_id": "nt-wiki-sum-of-two-squares",
+      "reason": "background and terminology"
+    }
+  ],
+  "mathematical_claims": [
+    {
+      "id": "024000-m01",
+      "anchor": "The existence theorem answers a different question.",
+      "source_ids": [
+        "nt-wiki-sum-of-two-squares"
+      ],
+      "source_locator": "composite sum-of-two-squares criterion",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "024000-m02",
+      "anchor": "There are four units: one, negative one, i, and negative i.",
+      "source_ids": [
+        "nt-mathworld-r2"
+      ],
+      "source_locator": "Gaussian unit multiplier and representation convention",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "024000-m03",
+      "anchor": "r two of n equals four times the product of e plus one",
+      "source_ids": [
+        "nt-mathworld-r2"
+      ],
+      "source_locator": "prime-power representation-count formula",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "024000-m04",
+      "anchor": "r two of n is four times the sum of chi four of d over the divisors d of n",
+      "source_ids": [
+        "nt-mathworld-r2"
+      ],
+      "source_locator": "Jacobi divisor-sum identity",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "024000-m05",
+      "anchor": "the Dirichlet series whose coefficients are r two of n divided by four factors as the Riemann zeta function times the Dirichlet L-function for chi four.",
+      "source_ids": [
+        "nt-mathworld-r2"
+      ],
+      "source_locator": "divisor identity plus Dirichlet-series multiplication",
+      "audit_status": "reading_reference_recorded"
+    }
+  ],
+  "historical_claims": []
+}

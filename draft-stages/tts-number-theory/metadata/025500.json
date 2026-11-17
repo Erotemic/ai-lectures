@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "lecture_id": "025500",
+  "transcript": "025500-frobenius-subfields-and-irreducibility.md",
+  "related_resources": [
+    {
+      "source_id": "nt-conrad-finite-fields",
+      "reason": "Construction, classification, Frobenius, subfield lattice, polynomial factorization and irreducible counting; compared to proof developed in the manuscript."
+    },
+    {
+      "source_id": "nt-flint-rabin",
+      "reason": "Rabin irreducibility criterion and implementation via modular polynomial powering and gcd."
+    },
+    {
+      "source_id": "nt-dfg-irreducible",
+      "reason": "Degree-divisibility factorization and Mobius counting formula."
+    },
+    {
+      "source_id": "nt-wiki-frobenius",
+      "reason": "background and terminology"
+    },
+    {
+      "source_id": "nt-wiki-field-trace",
+      "reason": "background and terminology"
+    },
+    {
+      "source_id": "nt-wiki-field-norm",
+      "reason": "background and terminology"
+    }
+  ],
+  "mathematical_claims": [
+    {
+      "id": "025500-m01",
+      "anchor": "an element has minimal-polynomial degree d exactly when its Frobenius orbit has length d.",
+      "source_ids": [
+        "nt-conrad-finite-fields"
+      ],
+      "source_locator": "Frobenius orbits and minimal polynomials",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "025500-m02",
+      "anchor": "For every positive divisor d of n, there is a unique subfield with q to the d elements.",
+      "source_ids": [
+        "nt-conrad-finite-fields"
+      ],
+      "source_locator": "unique subfields and divisor degrees",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "025500-m03",
+      "anchor": "x to the q to the n minus x is the product, each occurring once",
+      "source_ids": [
+        "nt-dfg-irreducible"
+      ],
+      "source_locator": "irreducible factorization by degree divisors",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "025500-m04",
+      "anchor": "n times N sub q of n equals the sum over divisors d of n of the Möbius function",
+      "source_ids": [
+        "nt-dfg-irreducible"
+      ],
+      "source_locator": "Mobius inversion count",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "025500-m05",
+      "anchor": "For each distinct prime divisor r of n, compute the polynomial gcd of f with x to the q to the n divided by r minus x.",
+      "source_ids": [
+        "nt-flint-rabin"
+      ],
+      "source_locator": "Rabin irreducibility criterion",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "025500-m06",
+      "anchor": "The trace preserves addition, while the norm preserves multiplication.",
+      "source_ids": [
+        "nt-conrad-finite-fields"
+      ],
+      "source_locator": "relative trace and norm",
+      "audit_status": "reading_reference_recorded"
+    }
+  ],
+  "historical_claims": []
+}

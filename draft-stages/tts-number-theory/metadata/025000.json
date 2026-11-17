@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "lecture_id": "025000",
+  "transcript": "025000-constructing-and-classifying-finite-fields.md",
+  "related_resources": [
+    {
+      "source_id": "nt-conrad-finite-fields",
+      "reason": "Construction, classification, Frobenius, subfield lattice, polynomial factorization and irreducible counting; compared to proof developed in the manuscript."
+    },
+    {
+      "source_id": "nt-bconrad-finite",
+      "reason": "Elementary field uniqueness and Frobenius behavior, without assuming advanced Galois theory."
+    },
+    {
+      "source_id": "nt-wiki-finite-field",
+      "reason": "background and terminology"
+    }
+  ],
+  "mathematical_claims": [
+    {
+      "id": "025000-m01",
+      "anchor": "the number of elements in F is exactly p to the n.",
+      "source_ids": [
+        "nt-conrad-finite-fields"
+      ],
+      "source_locator": "Theorem 1.5 prime-power cardinality",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "025000-m02",
+      "anchor": "Will these operations make a field? Exactly when f is irreducible over F p.",
+      "source_ids": [
+        "nt-conrad-finite-fields"
+      ],
+      "source_locator": "Theorem 1.1 polynomial quotient field",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "025000-m03",
+      "anchor": "The root set is therefore a field with exactly p to the n elements.",
+      "source_ids": [
+        "nt-conrad-finite-fields"
+      ],
+      "source_locator": "Theorem 2.2 existence via roots",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "025000-m04",
+      "anchor": "We have constructed a field isomorphism from F onto E.",
+      "source_ids": [
+        "nt-bconrad-finite"
+      ],
+      "source_locator": "uniqueness via common polynomial roots",
+      "audit_status": "reading_reference_recorded"
+    }
+  ],
+  "historical_claims": []
+}

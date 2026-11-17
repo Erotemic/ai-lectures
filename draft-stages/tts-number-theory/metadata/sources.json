@@ -461,6 +461,83 @@
       "title": "Wikipedia, Binomial coefficient",
       "kind": "encyclopedia_background",
       "url": "https://en.wikipedia.org/wiki/Binomial_coefficient"
+    },
+    "nt-mathworld-r2": {
+      "title": "Eric W. Weisstein, Sum of Squares Function (MathWorld)",
+      "kind": "reference_article",
+      "url": "https://mathworld.wolfram.com/SumofSquaresFunction.html",
+      "access": "free_no_login",
+      "notes": "Definition of signed ordered representations, prime-factor formula, Jacobi divisor formula, theta generating function and summatory counts."
+    },
+    "nt-mathworld-circle": {
+      "title": "Eric W. Weisstein, Gauss's Circle Problem (MathWorld)",
+      "kind": "reference_article",
+      "url": "https://mathworld.wolfram.com/GausssCircleProblem.html",
+      "access": "free_no_login",
+      "notes": "Lattice-point interpretation and the elementary O(R) discrepancy boundary; stronger bounds are outside this installment."
+    },
+    "nt-conrad-finite-fields": {
+      "title": "Keith Conrad, Finite Fields (University of Connecticut)",
+      "kind": "university_course_material",
+      "url": "https://kconrad.math.uconn.edu/blurbs/galoistheory/finitefields.pdf",
+      "access": "free_no_login",
+      "notes": "Construction, classification, Frobenius, subfield lattice, polynomial factorization and irreducible counting; compared to proof developed in the manuscript."
+    },
+    "nt-bconrad-finite": {
+      "title": "Brian Conrad, Elementary Explanation of Finite Field Mysteries (Stanford)",
+      "kind": "university_course_material",
+      "url": "https://math.stanford.edu/~conrad/210BPage/handouts/math210b-elementary-finite-fields.pdf",
+      "access": "free_no_login",
+      "notes": "Elementary field uniqueness and Frobenius behavior, without assuming advanced Galois theory."
+    },
+    "nt-flint-rabin": {
+      "title": "FLINT Project, Irreducibility testing over finite fields",
+      "kind": "technical_documentation",
+      "url": "https://flintlib.org/doc/algorithms/polynomials/irreducibility.html",
+      "access": "free_no_login",
+      "notes": "Rabin irreducibility criterion and implementation via modular polynomial powering and gcd."
+    },
+    "nt-dfg-irreducible": {
+      "title": "Daniel Flores Galiote, Irreducible polynomials over finite fields",
+      "kind": "mathematics_lecture_notes",
+      "url": "https://danielfloresmath.github.io/notes/irreducible-polynomials.html",
+      "access": "free_no_login",
+      "notes": "Degree-divisibility factorization and Mobius counting formula."
+    },
+    "nt-wiki-sum-of-two-squares": {
+      "title": "Wikipedia, Sum of two squares theorem",
+      "kind": "encyclopedia_background",
+      "url": "https://en.wikipedia.org/wiki/Sum_of_two_squares_theorem"
+    },
+    "nt-wiki-circle": {
+      "title": "Wikipedia, Gauss circle problem",
+      "kind": "encyclopedia_background",
+      "url": "https://en.wikipedia.org/wiki/Gauss_circle_problem"
+    },
+    "nt-wiki-theta": {
+      "title": "Wikipedia, Theta function",
+      "kind": "encyclopedia_background",
+      "url": "https://en.wikipedia.org/wiki/Theta_function"
+    },
+    "nt-wiki-finite-field": {
+      "title": "Wikipedia, Finite field",
+      "kind": "encyclopedia_background",
+      "url": "https://en.wikipedia.org/wiki/Finite_field"
+    },
+    "nt-wiki-frobenius": {
+      "title": "Wikipedia, Frobenius endomorphism",
+      "kind": "encyclopedia_background",
+      "url": "https://en.wikipedia.org/wiki/Frobenius_endomorphism"
+    },
+    "nt-wiki-field-norm": {
+      "title": "Wikipedia, Field norm",
+      "kind": "encyclopedia_background",
+      "url": "https://en.wikipedia.org/wiki/Field_norm"
+    },
+    "nt-wiki-field-trace": {
+      "title": "Wikipedia, Field trace",
+      "kind": "encyclopedia_background",
+      "url": "https://en.wikipedia.org/wiki/Field_trace"
     }
   }
 }

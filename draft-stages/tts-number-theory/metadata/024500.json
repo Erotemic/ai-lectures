@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "lecture_id": "024500",
+  "transcript": "024500-lattice-points-and-the-gauss-circle-problem.md",
+  "related_resources": [
+    {
+      "source_id": "nt-mathworld-circle",
+      "reason": "Lattice-point interpretation and the elementary O(R) discrepancy boundary; stronger bounds are outside this installment."
+    },
+    {
+      "source_id": "nt-mathworld-r2",
+      "reason": "Definition of signed ordered representations, prime-factor formula, Jacobi divisor formula, theta generating function and summatory counts."
+    },
+    {
+      "source_id": "nt-wiki-theta",
+      "reason": "background and terminology"
+    }
+  ],
+  "mathematical_claims": [
+    {
+      "id": "024500-m01",
+      "anchor": "N of R differs from pi R squared by at most a constant times R",
+      "source_ids": [
+        "nt-mathworld-circle"
+      ],
+      "source_locator": "Gauss circle elementary O(R) bound",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "024500-m02",
+      "anchor": "the sum of r two of n for n from one through X equals pi X plus an error bounded by a constant times the square root of X.",
+      "source_ids": [
+        "nt-mathworld-r2"
+      ],
+      "source_locator": "mean order via elementary lattice-point bound",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "024500-m03",
+      "anchor": "The coefficient of q to the n is precisely r two of n.",
+      "source_ids": [
+        "nt-wiki-theta"
+      ],
+      "source_locator": "theta-series square and coefficient counting",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "024500-m04",
+      "anchor": "That question is called Gauss's circle problem.",
+      "source_ids": [
+        "nt-mathworld-circle"
+      ],
+      "source_locator": "error exponent and open questions",
+      "audit_status": "reading_reference_recorded"
+    }
+  ],
+  "historical_claims": []
+}

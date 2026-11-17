@@ -1,6 +1,6 @@
 # Number Theory from First Principles
 
-A proof-driven course connecting integer arithmetic with algorithms, algebraic structure, and analytic number theory. It starts with gcds, congruences, integer equations, reciprocity, and finite fields, and develops the analytic machinery required for a **complete proof of Dirichlet's theorem** and elementary **Chebyshev prime-counting bounds**. The course currently contains **23 substantive lectures**.
+A proof-driven course connecting integer arithmetic with algorithms, algebraic structure, and analytic number theory. It starts with gcds, congruences, integer equations, reciprocity, and finite fields, and develops the analytic machinery required for a **complete proof of Dirichlet's theorem** and elementary **Chebyshev prime-counting bounds**. The course currently contains **27 substantive lectures**.
 
 The opening lectures assume only integer arithmetic, fractions, elementary algebra, and a willingness to follow proofs. Later lectures build their own analysis and character foundations rather than presupposing advanced number theory. Each manuscript has one extractable spoken lecture and a display-only mathematical companion with worked equations, exercises, claim-level reading records, and Wikipedia references. Length and word counts describe the manuscripts; they are not duration targets.
 
@@ -31,8 +31,12 @@ The opening lectures assume only integer arithmetic, fractions, elementary algeb
 | `021000` | [Landau's Positivity Principle and the Real-Character Case](021000-landau-positivity-and-real-characters.md) | 1,658 |
 | `022000` | [A Complete Proof of Dirichlet's Theorem on Primes in Progressions](022000-proof-of-dirichlets-theorem.md) | 1,877 |
 | `023000` | [Chebyshev Functions and the First Serious Bounds on Prime Counts](023000-chebyshev-functions-and-prime-counting.md) | 2,284 |
+| `024000` | [How Many Ways Can an Integer Be Two Squares?](024000-counting-sums-of-two-squares.md) | 1,928 |
+| `024500` | [Counting Lattice Points in a Growing Circle](024500-lattice-points-and-the-gauss-circle-problem.md) | 1,887 |
+| `025000` | [Constructing Finite Fields, and Proving They Are Unique](025000-constructing-and-classifying-finite-fields.md) | 2,503 |
+| `025500` | [Frobenius, Subfields, and Testing Irreducibility](025500-frobenius-subfields-and-irreducibility.md) | 2,607 |
 
-**Total:** 23 indexed lectures, **45,866 spoken words**. 
+**Total:** 27 indexed lectures, **54,791 spoken words**. 
 
 ## Proven theorems and open boundaries
 
@@ -42,7 +46,9 @@ The opening lectures assume only integer arithmetic, fractions, elementary algeb
 - **015000–018000:** series and summation by parts, character construction and orthogonality, Euler products and von Mangoldt weights, and the character projection argument for primes in progressions. Lecture 018000 deliberately identifies the then-unproved general nonvanishing theorem; the gap is filled by the new sequence below.
 - **019000–023000, Continuation 5:** partial-summation continuation of zeta and nonprincipal L-series to the right half-plane; full nonvanishing for nonreal characters via a trigonometric square; full nonvanishing and positivity for real characters via an explicitly proved Landau disk lemma; **unconditional proof of Dirichlet's theorem for every coprime residue and modulus**, including divergent prime reciprocals and equal Dirichlet densities; and elementary \(\psi(x)=\Theta(x)\), \(\pi(x)=\Theta(x/\log x)\) estimates using binomial coefficients.
 
-**Not claimed as proved:** the prime number theorem \(\pi(x)\sim x/\log x\), the prime number theorem in arithmetic progressions, zero-free vertical-line estimates for zeta and L-functions, and the deferred topics listed in `BACKLOG.md`. A standalone complex analysis course can deepen the power-series framework used in lectures 019000–021000; their companion supplies a direct integral-expansion justification sufficient for the Landau application.
+- **024000–025500, Continuation 6:** exact signed, ordered representation count for sums of two squares and its \(r_2/4=\mathbf1*\chi_4\) formula; elementary Gauss circle lattice-point estimate \(N(R)=\pi R^2+O(R)\); existence and uniqueness of finite fields of every prime-power order; Frobenius orbits, subfield structure, exact irreducible counts, Rabin irreducibility test, and trace/norm. The refined Gauss circle error problem and the prime number theorem remain outside this proof sequence.
+
+**Not claimed as proved:** the prime number theorem \(\pi(x)\sim x/\log x\), the prime number theorem in arithmetic progressions, zero-free vertical-line estimates for zeta and L-functions, the refined Gauss circle error problem, and the deferred topics listed in `BACKLOG.md`. A standalone complex analysis course can deepen the power-series framework used in lectures 019000–021000; their companion supplies a direct integral-expansion justification sufficient for the Landau application.
 
 ## Related tracks and attribution
 

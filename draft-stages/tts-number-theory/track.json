@@ -1,7 +1,7 @@
 {
   "id": "number-theory",
   "title": "Number Theory from First Principles",
-  "summary": "A proof-driven introduction to number theory, from Euclid, congruences, quadratic reciprocity, Pell equations, arithmetic functions, Gaussian integers, and finite fields, through analytic tools and a complete proof of Dirichlet’s theorem, then elementary Chebyshev prime-counting bounds.",
+  "summary": "A proof-driven introduction to number theory, from Euclid, congruences, quadratic reciprocity, Pell equations, Gaussian integers, and finite fields through analytic tools, Dirichlet’s theorem and Chebyshev bounds, with exact two-square representation counts, lattice points, and finite-field extension theory.",
   "assumed_background": [
     "integer arithmetic, fractions, equations and basic algebra",
     "comfortable reading simple proofs helps; the Mathematical Reasoning and Proof course is optional preparation",
@@ -30,7 +30,11 @@
     "analytic-continuation",
     "nonvanishing",
     "dirichlet-theorem",
-    "chebyshev-prime-counts"
+    "chebyshev-prime-counts",
+    "two-square-representation-counts",
+    "gauss-circle-elementary",
+    "finite-field-construction",
+    "frobenius-polynomials"
   ],
   "lectures": [
     {
@@ -239,6 +243,42 @@
       "spoken_words": 2284,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 15.8
+    },
+    {
+      "id": "024000",
+      "title": "How Many Ways Can an Integer Be Two Squares?",
+      "section": "two-square-representation-counts",
+      "file": "024000-counting-sums-of-two-squares.md",
+      "spoken_words": 1928,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 13.3
+    },
+    {
+      "id": "024500",
+      "title": "Counting Lattice Points in a Growing Circle",
+      "section": "gauss-circle-elementary",
+      "file": "024500-lattice-points-and-the-gauss-circle-problem.md",
+      "spoken_words": 1887,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 13.0
+    },
+    {
+      "id": "025000",
+      "title": "Constructing Finite Fields, and Proving They Are Unique",
+      "section": "finite-field-construction",
+      "file": "025000-constructing-and-classifying-finite-fields.md",
+      "spoken_words": 2503,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 17.3
+    },
+    {
+      "id": "025500",
+      "title": "Frobenius, Subfields, and Testing Irreducibility",
+      "section": "frobenius-polynomials",
+      "file": "025500-frobenius-subfields-and-irreducibility.md",
+      "spoken_words": 2607,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 18.0
     }
   ]
 }
