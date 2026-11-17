@@ -1,0 +1,262 @@
+{
+  "schema_version": 1,
+  "lecture_id": "078000",
+  "transcript": "078000-kolmogorov.md",
+  "related_resources": [
+    {
+      "source_id": "history-kolmogorov-encyclopedia",
+      "reason": "Modern definition and independent attribution to Solomonoff and Chaitin."
+    },
+    {
+      "source_id": "history-kolmogorov-luzin",
+      "reason": "1936 press accusations and commission transcripts, Soviet academic politics and contested roles."
+    },
+    {
+      "source_id": "history-kolmogorov-mactutor",
+      "reason": "Family, Moscow, Luzin school, probability, Aleksandrov, physics, educational commitments."
+    },
+    {
+      "source_id": "history-kolmogorov-school",
+      "reason": "1963 specialized school, co-founders, access for distant regions, Kolmogorov pedagogy."
+    },
+    {
+      "source_id": "history-kolmogorov-vovk-shafer",
+      "reason": "Measure-theoretic formulation, 1933 and later frequentist/algorithmic foundations; original manuscript is dated 2003."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "078000-h01",
+      "anchor": "born in April nineteen oh three in Tambov",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-kolmogorov-mactutor"
+      ],
+      "source_locator": "Birth",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "078000-h02",
+      "anchor": "He was brought up by his maternal aunt Vera",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-kolmogorov-mactutor"
+      ],
+      "source_locator": "Family",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "078000-h03",
+      "anchor": "In nineteen twenty he enrolled at Moscow State University",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-kolmogorov-mactutor"
+      ],
+      "source_locator": "Early education",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "078000-h04",
+      "anchor": "worked seriously on the historical ownership of property",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-kolmogorov-mactutor"
+      ],
+      "source_locator": "History research",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "078000-h05",
+      "anchor": "Dmitri Egorov and Nikolai Luzin",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-kolmogorov-mactutor",
+        "history-kolmogorov-luzin"
+      ],
+      "source_locator": "Moscow school",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "078000-h06",
+      "anchor": "Vyacheslav Stepanov on trigonometric series",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-kolmogorov-mactutor"
+      ],
+      "source_locator": "Mathematical teachers",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "078000-h07",
+      "anchor": "In nineteen twenty-two he constructed a summable function",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-kolmogorov-mactutor"
+      ],
+      "source_locator": "Fourier series counterexample",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "078000-h08",
+      "anchor": "He graduated in nineteen twenty-five",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-kolmogorov-mactutor"
+      ],
+      "source_locator": "Early publications",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "078000-h09",
+      "anchor": "Aleksandr Khinchin",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-kolmogorov-mactutor"
+      ],
+      "source_locator": "Probability collaboration",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "078000-h10",
+      "anchor": "By nineteen twenty-nine Kolmogorov had completed a doctorate",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-kolmogorov-mactutor"
+      ],
+      "source_locator": "Doctorate and Aleksandrov friendship",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "078000-h11",
+      "anchor": "In nineteen thirty-one Kolmogorov became a professor",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-kolmogorov-mactutor"
+      ],
+      "source_locator": "Moscow appointment",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "078000-h12",
+      "anchor": "His nineteen thirty-three book",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-kolmogorov-mactutor",
+        "history-kolmogorov-vovk-shafer"
+      ],
+      "source_locator": "Probability axioms",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "078000-h13",
+      "anchor": "The probability of the whole outcome space is one",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-kolmogorov-vovk-shafer"
+      ],
+      "source_locator": "Mathematical probability synthesis",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "078000-h14",
+      "anchor": "Kolmogorov's later writings returned to these questions",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-kolmogorov-vovk-shafer"
+      ],
+      "source_locator": "Later foundations of randomness",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "078000-h15",
+      "anchor": "In nineteen thirty-six Nikolai Luzin",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-kolmogorov-luzin"
+      ],
+      "source_locator": "Political history of Luzin affair",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "078000-h16",
+      "anchor": "Kolmogorov's participation cannot be responsibly erased",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-kolmogorov-luzin"
+      ],
+      "source_locator": "Attribution and source uncertainty",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "078000-h17",
+      "anchor": "Kolmogorov helped develop research at the Steklov Mathematical Institute",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-kolmogorov-mactutor"
+      ],
+      "source_locator": "Institutional career",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "078000-h18",
+      "anchor": "nineteen forty-one papers on turbulence",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-kolmogorov-mactutor"
+      ],
+      "source_locator": "Fluid mechanics",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "078000-h19",
+      "anchor": "Vladimir Arnold and Jürgen Moser",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-kolmogorov-mactutor"
+      ],
+      "source_locator": "KAM theory",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "078000-h20",
+      "anchor": "In the late nineteen fifties he showed",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-kolmogorov-mactutor"
+      ],
+      "source_locator": "Hilbert 13th problem",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "078000-h21",
+      "anchor": "Ray Solomonoff and Gregory Chaitin",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-kolmogorov-encyclopedia"
+      ],
+      "source_locator": "Algorithmic information independent work",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "078000-h22",
+      "anchor": "In nineteen sixty-three a specialized mathematics and physics boarding school",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-kolmogorov-school",
+        "history-kolmogorov-mactutor"
+      ],
+      "source_locator": "Pedagogical institution and cofounders",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "078000-h23",
+      "anchor": "Kolmogorov died in Moscow in October nineteen eighty-seven",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-kolmogorov-mactutor"
+      ],
+      "source_locator": "Death",
+      "audit_status": "source_checked"
+    }
+  ]
+}
