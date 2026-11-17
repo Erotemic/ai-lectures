@@ -303,3 +303,24 @@ word counts and descriptive durations are recorded in `track.json`; no
 fixed narration length is required. One content pack, text and metadata only,
 with no audio or binary imagery. Total literature-survey catalog: **126 indexed
 lectures**.
+
+
+## Icelandic and Mexican fiction — a temporal and geographic rotation (17 November 2026)
+
+Five original manuscripts are registered as whole-work overviews outside the
+*One Thousand and One Nights* cycle. They follow the existing **story first,
+analysis second** listening format, with source companions and paragraph-level
+evidence anchors. The first two narrations of *Njáls saga* preserve Gunnar's
+life and death, the foster-son's killing, the burning, law-court conflicts and
+the final Flosi–Kári reconciliation; the third treats law, honor, class, gender,
+Christian memory and late-medieval manuscript transmission.
+
+| IDs | Work | Story / analysis boundary |
+|---|---|---|
+| `129000`–`131000` | Anonymous *Njáls saga* / *Brennu-Njáls saga* | Two story parts and one original analysis, using George Webbe Dasent's 1861 public-domain translation; no claim that late-13th-century written saga is eyewitness history of 10th–11th-century Iceland |
+| `132000`–`133000` | Juan Rulfo, *Pedro Páramo* (1955) | One selective whole-work story, one analysis; preserve an unnumbered-fragment structure and the grave narrator; source evidence from Mexican literary encyclopedia and named critics, **not a full collation of the copyrighted novel** |
+
+Both works are now available through the medieval/20th-century routes and the
+Compact Introductions route. The pack contains 131 indexed lectures. These
+manuscripts are original English summaries and analysis rather than verbatim
+translations or copies of copyrighted texts. No audio or images are bundled.

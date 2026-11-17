@@ -145,3 +145,23 @@ ledger above is the current status, rather than the stale queue wording.
   Indigenous-context review), *Pedro Páramo* (copyright-sensitive summary),
   and *The Lusiads*. Prioritize substantive influence and available evidence
   rather than region as a quota.
+
+
+## Rotation update — Iceland and Mexico (17 November 2026)
+
+- **Completed:** *Njáls saga*, two narrative manuscripts (`129000`–`130000`)
+  through the final reconciliations, followed by literary-historical analysis
+  (`131000`), using the named Dasent translation and current manuscript studies.
+- **Completed:** *Pedro Páramo* (`132000` story and `133000` analysis), a
+  selective plot interpretation of the full novel, including Comala's
+  fragmentary voices and the final Abundio encounter. Because the novel is
+  copyrighted and the original edition was not exhaustively inspected in
+  this pass, the companion records the available critical witnesses and an
+  explicit limit on detailed primary-text claims.
+- **Next impact-first rotation candidates:** *The Book of Dede Korkut*
+  (use a named source and give at least several tales complete narrative arcs);
+  *The Lusiads* (Camões and the voyage-imperial epic);
+  *The Huarochirí Manuscript* (when manuscript/translation/cultural context is
+  ready); *Sir Gawain and the Green Knight* and a short American work from
+  another period if not already covered elsewhere. Prioritize importance,
+  literary form and source readiness over quotas.
