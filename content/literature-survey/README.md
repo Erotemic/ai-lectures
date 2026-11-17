@@ -40,6 +40,14 @@ Currently indexed:
   authorized Gunditjmara songline performance. Its claim records and cultural-IP
   boundaries are in `metadata/010000.json` and the manuscript companion.
 
+- `011000`: **Klamath: Llao, Skell, and the Heart at Crater Lake**. A
+  narrative reading of the stolen heart, its recovery, the battle with
+  Llao and the Wizard Island ending, with a distinct creation account
+  attributed to Perry Chocktoot and geological context. The main story
+  relies on scholarly **synopses** of Robert David's Klamath-language
+  record; Barker (1963) pp. 71–75 remain to be checked directly. Not an
+  authorized Klamath performance. See `metadata/011000.json`.
+
 The reader also exposes five period routes assembled from existing recordings
 across packs. Those routes link to extended studies and explicitly identify
 unfinished openings. Further introductory prose is optional future authoring;

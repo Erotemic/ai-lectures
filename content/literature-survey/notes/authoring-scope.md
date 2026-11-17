@@ -30,6 +30,13 @@ Living oral-traditions expansion indexed 2026-11-16:
   oral tradition and landscape history, not a surviving ancient text,
   a complete song cycle, or a community-authorized performance.
 
+- `011000`: Klamath: Llao, Skell, and the Heart at Crater Lake. Original
+  commentary on a living oral tradition, based on identifiable and carefully
+  separated publicly documented versions. Direct review of Robert David's
+  Klamath-language publication (Barker 1963 pp. 71–75) remains a follow-up
+  before a definitive source-led adaptation could be asserted. No traditional
+  performance authorization claimed.
+
 Optional future ideas, not required organization work:
 
 - `004000`: a Water Margin synopsis, if commissioned; the current route uses
