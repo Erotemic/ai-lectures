@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "lecture_id": "010000",
+  "transcript": "010000-ocean-runs-on-plankton.md",
+  "related_resources": [
+    {
+      "source_id": "lw-ocean-nasa-phyto",
+      "reason": "Phytoplankton distribution and satellite observations."
+    },
+    {
+      "source_id": "lw-ocean-noaa-upwelling",
+      "reason": "Wind and nutrient supply to productive surface waters."
+    },
+    {
+      "source_id": "lw-ocean-azam1983",
+      "reason": "Microbial-loop food web synthesis."
+    },
+    {
+      "source_id": "lw-ocean-steinberg2017",
+      "reason": "Zooplankton carbon transport and flux."
+    },
+    {
+      "source_id": "lw-ocean-whoi1977",
+      "reason": "Vents and the history of deep ocean exploration."
+    },
+    {
+      "source_id": "lw-ocean-noaa-hypoxia",
+      "reason": "Oxygen stress and coastal nutrient loading."
+    },
+    {
+      "source_id": "lw-ocean-nasa-color",
+      "reason": "Ocean-color limitations and interpretation."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "010000-e01",
+      "anchor": "Phytoplankton include many kinds of microscopic algae and cyanobacteria.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "lw-ocean-nasa-phyto"
+      ],
+      "source_locator": "Marine primary producers",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "010000-e02",
+      "anchor": "Along some coasts, winds push surface water away and deeper water rises to replace it.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "lw-ocean-noaa-upwelling"
+      ],
+      "source_locator": "Wind-driven coastal upwelling",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "010000-e03",
+      "anchor": "Satellites can measure ocean color over huge regions and estimate aspects of surface chlorophyll.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "lw-ocean-nasa-phyto",
+        "lw-ocean-nasa-color"
+      ],
+      "source_locator": "Ocean color remote sensing",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "010000-e04",
+      "anchor": "In 1983, Farooq Azam and collaborators helped put this system into an influential framework called the microbial loop.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "lw-ocean-azam1983"
+      ],
+      "source_locator": "Microbial-loop framework",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "010000-e05",
+      "anchor": "Deborah Steinberg and Michael Landry's review of zooplankton and the carbon cycle shows why treating all plankton as stationary particles misses important biological transport.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "lw-ocean-steinberg2017"
+      ],
+      "source_locator": "Active flux and zooplankton",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "010000-e06",
+      "anchor": "In 1977, researchers working near the Galápagos Rift encountered a different route into the food web.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "lw-ocean-whoi1977"
+      ],
+      "source_locator": "Vent discovery",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "010000-e07",
+      "anchor": "In certain regions, oxygen is naturally low; in some coastal waters, excessive nutrient delivery increases organic production and subsequent oxygen consumption.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "lw-ocean-noaa-hypoxia"
+      ],
+      "source_locator": "Hypoxia processes",
+      "audit_status": "source_checked"
+    }
+  ]
+}

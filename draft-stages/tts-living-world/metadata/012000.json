@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "lecture_id": "012000",
+  "transcript": "012000-migration-finding-the-way.md",
+  "related_resources": [
+    {
+      "source_id": "lw-migrate-egevang2010",
+      "reason": "Arctic tern routes and tracking limitations."
+    },
+    {
+      "source_id": "lw-migrate-gill2009",
+      "reason": "Bar-tailed godwit telemetry and wind conditions."
+    },
+    {
+      "source_id": "lw-migrate-usfws-monarch",
+      "reason": "Monarch multigenerational life history."
+    },
+    {
+      "source_id": "lw-migrate-merlin2009",
+      "reason": "Antenna clocks in monarch orientation."
+    },
+    {
+      "source_id": "lw-migrate-putman2013",
+      "reason": "Salmon route-choice evidence for geomagnetic imprinting."
+    },
+    {
+      "source_id": "lw-migrate-brothers2015",
+      "reason": "Loggerhead turtle nesting evidence for geomagnetic imprinting."
+    },
+    {
+      "source_id": "lw-migrate-magnet2026",
+      "reason": "Open questions in bird magnetoreceptor biophysics."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "012000-e01",
+      "anchor": "In a study published in 2010, Carsten Egevang and colleagues deployed miniature light-level geolocators on eleven Arctic terns and reconstructed their movements.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "lw-migrate-egevang2010"
+      ],
+      "source_locator": "Arctic tern geolocators",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "012000-e02",
+      "anchor": "In a 2009 study, Robert Gill and collaborators used satellite telemetry to track godwits departing Alaska across the Pacific.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "lw-migrate-gill2009"
+      ],
+      "source_locator": "Godwit satellite tracking",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "012000-e03",
+      "anchor": "In eastern North America, a late-summer generation enters a state of reproductive delay, or diapause, and migrates south toward overwintering forests in central Mexico.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "lw-migrate-usfws-monarch"
+      ],
+      "source_locator": "Monarch seasonal migration",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "012000-e04",
+      "anchor": "In a 2009 experiment, Christine Merlin and colleagues showed that monarch antennae were important for proper orientation and contained circadian clocks involved in time compensation.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "lw-migrate-merlin2009"
+      ],
+      "source_locator": "Monarch antenna clock experiment",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "012000-e05",
+      "anchor": "The idea has gained substantial experimental attention, but the exact sensory machinery in birds remains unresolved.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "lw-migrate-magnet2026"
+      ],
+      "source_locator": "Magnetoreception molecular uncertainty",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "012000-e06",
+      "anchor": "In a 2013 study, they analyzed decades of data on salmon returning to British Columbia's Fraser River, where Vancouver Island offers alternative northern and southern approaches.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "lw-migrate-putman2013"
+      ],
+      "source_locator": "Sockeye salmon historical data",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "012000-e07",
+      "anchor": "In a 2015 study, J. Roger Brothers and Kenneth Lohmann analyzed the distribution of loggerhead nests as the magnetic field shifted over time and found patterns consistent with predictions from geomagnetic imprinting.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "lw-migrate-brothers2015"
+      ],
+      "source_locator": "Loggerhead field study",
+      "audit_status": "source_checked"
+    }
+  ]
+}

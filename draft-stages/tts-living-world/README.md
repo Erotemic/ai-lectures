@@ -13,7 +13,12 @@ This is a new, **in-progress** natural-history audio track. It is meant to compl
 - **007000 - The Many Lives of Fungi: Builders, Recyclers, Partners, and Parasites** (2,161 spoken words; ~14.9 minutes at 145 wpm)
 - **008000 - Invisible Worlds: Microbes as Ecosystems, Partners, and Engineers** (2,339 spoken words; ~16.1 minutes at 145 wpm)
 
-**Total:** 17,638 spoken words. Duration is descriptive, not a production target.
+- **009000 - Freshwater Is Not Still: Rivers, Lakes, and Floodplains** (2,357 spoken words; ~16.3 minutes at 145 wpm)
+- **010000 - The Ocean Runs on Plankton, Currents, and Falling Snow** (2,266 spoken words; ~15.6 minutes at 145 wpm)
+- **011000 - Living at the Limits: Heat, Ice, Pressure, and Drought** (2,183 spoken words; ~15.1 minutes at 145 wpm)
+- **012000 - Migration: Finding the Way Across a Moving World** (2,338 spoken words; ~16.1 minutes at 145 wpm)
+
+**Total:** 26,782 spoken words. Duration is descriptive, not a production target.
 
 ## Listening and editorial design
 
@@ -28,6 +33,8 @@ This is a new, **in-progress** natural-history audio track. It is meant to compl
 
 The forest lecture discusses fungal networks with a source-critical qualification, rather than treating popular 'mother tree' narratives as established general biology. The sensory lecture distinguishes receptor anatomy from behavior and subjective experience. The soil lecture distinguishes nutrient forms, microbial processes, and carbon stocks. The evolution lecture distinguishes selection from drift, analogy from homology, and historical contingency from a predetermined direction. The insect lecture keeps quorum experiments separate from claims about queen leadership. Plant electrical signaling is presented without anthropomorphic consciousness claims. The fungi lecture distinguishes symbiotic exchange from universal mutual aid. The microbial lecture distinguishes genetic capacity from measured metabolism and biofilm tolerance from genetic resistance.
 
-The new hidden-interactions listening route connects the insect, plant, fungal, and microbial essays.
+The hidden-interactions route connects the insect, plant, fungal, and microbial essays. A new habitats-and-journeys route links freshwater, marine systems, extreme survival, and migration. The main route now indexes twelve complete lectures; four further subjects remain planned.
+
+The new freshwater lecture emphasizes hydrology, the nutrient experiments and floodplain connections rather than duplicating the forest. The ocean lecture distinguishes surface color from measured productivity and export from long-term carbon storage. The adaptation lecture separates survival from growth and the hypothesized fish depth threshold from a confirmed hard limit. The migration lecture distinguishes tracking methods and demonstrated orientation from unresolved sensory mechanisms.
 
 The planned finite series is recorded in `BACKLOG.md`. Subjects marked planned there are not present in `track.json` and are not represented as completed audio.

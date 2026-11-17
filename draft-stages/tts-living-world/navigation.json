@@ -12,7 +12,7 @@
         "general",
         "science enthusiasts"
       ],
-      "summary": "Eight complete, standalone natural-history investigations moving from forest and evolutionary systems to insects, plants, fungi, and microbes. Further habitats are planned, not yet indexed.",
+      "summary": "Twelve complete standalone lectures from forest, sensory and microbial systems through lakes, oceans, survival and migration. Four planned topics remain unindexed.",
       "chapters": [
         {
           "title": "Energy and matter in an ecosystem",
@@ -61,6 +61,30 @@
           "lectures": [
             "008000"
           ]
+        },
+        {
+          "title": "Living waters: lakes, streams and floodplains",
+          "lectures": [
+            "009000"
+          ]
+        },
+        {
+          "title": "Ocean production, recycling and depth",
+          "lectures": [
+            "010000"
+          ]
+        },
+        {
+          "title": "How life withstands environmental limits",
+          "lectures": [
+            "011000"
+          ]
+        },
+        {
+          "title": "Movement across seasonal worlds",
+          "lectures": [
+            "012000"
+          ]
         }
       ]
     },
@@ -75,7 +99,9 @@
         "003000",
         "004000",
         "007000",
-        "008000"
+        "008000",
+        "009000",
+        "010000"
       ]
     },
     {
@@ -90,6 +116,19 @@
         "006000",
         "007000",
         "008000"
+      ]
+    },
+    {
+      "id": "habitats-and-journeys",
+      "title": "The Living World - Habitats, Limits, and Journeys",
+      "role": "deep_dive",
+      "parent": "the-living-world",
+      "summary": "A focused route into freshwater, marine productivity, physical extremes and long-distance movement.",
+      "lectures": [
+        "009000",
+        "010000",
+        "011000",
+        "012000"
       ]
     }
   ]

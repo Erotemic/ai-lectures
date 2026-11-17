@@ -1,0 +1,127 @@
+{
+  "schema_version": 1,
+  "lecture_id": "009000",
+  "transcript": "009000-freshwater-is-not-still.md",
+  "related_resources": [
+    {
+      "source_id": "lw-fresh-vannote1980",
+      "reason": "The river continuum as an explanatory model."
+    },
+    {
+      "source_id": "lw-fresh-junk1989",
+      "reason": "Flood pulses and floodplain access."
+    },
+    {
+      "source_id": "lw-fresh-usgs-stratification",
+      "reason": "Temperature, density and turnover."
+    },
+    {
+      "source_id": "lw-fresh-nalms",
+      "reason": "Vertical lake structure and oxygen."
+    },
+    {
+      "source_id": "lw-fresh-schindler1974",
+      "reason": "Divided-lake nutrient experiment."
+    },
+    {
+      "source_id": "lw-fresh-schindler2008",
+      "reason": "Long-term whole-lake nutrient results."
+    },
+    {
+      "source_id": "lw-fresh-epa-wetlands",
+      "reason": "Wetland ecology, filtering and flow."
+    },
+    {
+      "source_id": "lw-fresh-datry2016",
+      "reason": "Ecology of intermittent rivers."
+    },
+    {
+      "source_id": "lw-fresh-usda-carbon",
+      "reason": "Anaerobic decomposition and methane from wetlands."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "009000-e01",
+      "anchor": "In 1980, Robin Vannote and colleagues proposed that as a stream becomes a wider river, physical conditions tend to change in ways that reorganize food supply and the animals exploiting it.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "lw-fresh-vannote1980"
+      ],
+      "source_locator": "River Continuum Concept",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "009000-e02",
+      "anchor": "Wolfgang Junk, Peter Bayley, and Richard Sparks formalized the importance of these events in their 1989 Flood Pulse Concept.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "lw-fresh-junk1989"
+      ],
+      "source_locator": "Flood Pulse Concept",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "009000-e03",
+      "anchor": "In many temperate lakes, this produces a warm upper layer, a transition region, and a deeper cold layer.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "lw-fresh-usgs-stratification",
+        "lw-fresh-nalms"
+      ],
+      "source_locator": "Lake thermal strata",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "009000-e04",
+      "anchor": "If the deep layer is isolated from surface mixing for long enough, its oxygen supply can run low.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "lw-fresh-nalms"
+      ],
+      "source_locator": "Dissolved oxygen during stratification",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "009000-e05",
+      "anchor": "In one experiment, a lake was divided by a barrier, with different nutrient additions on the two sides.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "lw-fresh-schindler1974"
+      ],
+      "source_locator": "Experimental Lakes Area Lake 226",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "009000-e06",
+      "anchor": "In a 2008 paper based on a long-running experiment, Schindler and colleagues reported that reducing nitrogen additions without reducing phosphorus had not controlled eutrophication in the studied lake.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "lw-fresh-schindler2008"
+      ],
+      "source_locator": "Experimental Lakes Area Lake 227",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "009000-e07",
+      "anchor": "Wetlands can capture sediments and process nutrients, but they can also release methane from oxygen-poor environments.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "lw-fresh-epa-wetlands",
+        "lw-fresh-usda-carbon"
+      ],
+      "source_locator": "Wetland functions and anaerobic biogeochemistry",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "009000-e08",
+      "anchor": "Ecologists studying intermittent rivers have therefore developed ways to describe rivers as networks that repeatedly fragment and reconnect.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "lw-fresh-datry2016"
+      ],
+      "source_locator": "Intermittent river ecology",
+      "audit_status": "source_checked"
+    }
+  ]
+}

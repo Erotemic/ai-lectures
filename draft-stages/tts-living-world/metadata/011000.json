@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "lecture_id": "011000",
+  "transcript": "011000-living-at-the-limits.md",
+  "related_resources": [
+    {
+      "source_id": "lw-extreme-nps-history",
+      "reason": "Brock and Thermus aquaticus history."
+    },
+    {
+      "source_id": "lw-extreme-nps-pcr",
+      "reason": "Thermal stability and PCR history."
+    },
+    {
+      "source_id": "lw-extreme-devries1971",
+      "reason": "Fish antifreeze glycoprotein biochemistry."
+    },
+    {
+      "source_id": "lw-extreme-chen1997",
+      "reason": "Molecular origin of antifreeze proteins."
+    },
+    {
+      "source_id": "lw-extreme-nps-rats",
+      "reason": "Desert mammal water budgets."
+    },
+    {
+      "source_id": "lw-extreme-yancey2014",
+      "reason": "Deep fish, TMAO, and pressure hypotheses."
+    },
+    {
+      "source_id": "lw-extreme-boothby2017",
+      "reason": "Tardigrade desiccation mechanisms."
+    },
+    {
+      "source_id": "lw-extreme-cahs2024",
+      "reason": "CAHS protein assembly and biostasis."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "011000-e01",
+      "anchor": "With Hudson Freeze, he characterized a heat-tolerant bacterium named Thermus aquaticus.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "lw-extreme-nps-history"
+      ],
+      "source_locator": "Thermus aquaticus discovery",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "011000-e02",
+      "anchor": "A thermostable polymerase derived from Thermus aquaticus, commonly called Taq polymerase, made repeated cycles practical without replacing the enzyme each time.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "lw-extreme-nps-pcr"
+      ],
+      "source_locator": "Taq polymerase PCR",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "011000-e03",
+      "anchor": "In 1971, Arthur DeVries reported that glycoproteins in the blood of Antarctic fish produced a separation between the temperature at which a fluid would begin to freeze and the temperature at which ice would melt.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "lw-extreme-devries1971"
+      ],
+      "source_locator": "Antifreeze glycoprotein discovery",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "011000-e04",
+      "anchor": "Researchers later traced the origin of the Antarctic notothenioid antifreeze glycoprotein system to a rearrangement and modification involving an ancestral trypsinogen gene.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "lw-extreme-chen1997"
+      ],
+      "source_locator": "Antifreeze gene evolution",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "011000-e05",
+      "anchor": "Concentrated urine and relatively dry feces reduce losses through excretion.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "lw-extreme-nps-rats"
+      ],
+      "source_locator": "Kangaroo rat water conservation",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "011000-e06",
+      "anchor": "In 2014, Paul Yancey and colleagues measured high TMAO concentrations in hadal snailfish from around seven thousand meters deep, extending measurements of a trend in which TMAO increases with depth in some marine fishes.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "lw-extreme-yancey2014"
+      ],
+      "source_locator": "TMAO measurement",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "011000-e07",
+      "anchor": "Experiments reported in 2017 indicated that tardigrade-specific intrinsically disordered proteins contribute to desiccation tolerance, and some protected other cells when expressed there.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "lw-extreme-boothby2017"
+      ],
+      "source_locator": "Tardigrade desiccation",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "011000-e08",
+      "anchor": "Later work has investigated how protective protein assemblies can restrict molecular motion during water loss.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "lw-extreme-cahs2024"
+      ],
+      "source_locator": "CAHS assemblies and biostasis",
+      "audit_status": "source_checked"
+    }
+  ]
+}
