@@ -1,7 +1,7 @@
 {
   "id": "multivariable-calculus",
   "title": "Multivariable Calculus from First Principles",
-  "summary": "A calculation-first and proof-aware bridge from basic calculus and linear algebra through optimization, weak PDEs, mixed finite elements, elliptic regularity and potential theory, now including boundary Harnack, capacity, removability and Wiener boundary regularity.",
+  "summary": "A calculation-first and proof-aware bridge from calculus and linear algebra through optimization, variational methods, weak PDEs, numerical elliptic theory, boundary potential theory and semilinear elliptic existence, iteration and bifurcation.",
   "assumed_background": [
     "single-variable limits, differentiation and integration (Analysis 001000–008000)",
     "elementary vectors, matrices, determinants and dot products (Linear Algebra 001000–006000, 008000)"
@@ -22,7 +22,8 @@
     "boundary-traces-elliptic-regularity-bridge",
     "elliptic-maximum-green-harnack-bridge",
     "elliptic-boundary-harmonic-regularity-bridge",
-    "elliptic-boundary-capacity-wiener-bridge"
+    "elliptic-boundary-capacity-wiener-bridge",
+    "semilinear-existence-bifurcation-bridge"
   ],
   "lectures": [
     {
@@ -721,6 +722,73 @@
         "Capacity",
         "Dirichlet problem",
         "Barriers"
+      ]
+    },
+    {
+      "id": "059000",
+      "title": "Semilinear Elliptic Equations: When the Source Depends on the Solution",
+      "section": "semilinear-existence-bifurcation-bridge",
+      "file": "059000-semilinear-elliptic-equations-and-energy.md",
+      "spoken_words": 1726,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 11.9,
+      "tags": [
+        "Semilinear elliptic equations",
+        "Dirichlet spectrum",
+        "Variational methods",
+        "Weak solutions",
+        "Reaction-diffusion"
+      ]
+    },
+    {
+      "id": "060000",
+      "title": "Subsolutions and Supersolutions: Constructing a Nonlinear Solution Between Barriers",
+      "section": "semilinear-existence-bifurcation-bridge",
+      "file": "060000-subsolutions-supersolutions-and-monotone-iteration.md",
+      "spoken_words": 1774,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 12.2,
+      "tags": [
+        "Subsolutions",
+        "Supersolutions",
+        "Monotone iteration",
+        "Maximum principle",
+        "Nonlinear Dirichlet problem"
+      ]
+    },
+    {
+      "id": "061000",
+      "title": "Positive Solutions and Principal Eigenvalues: When a Nonlinear State Can Exist",
+      "section": "semilinear-existence-bifurcation-bridge",
+      "file": "061000-positive-solutions-and-principal-eigenvalue-thresholds.md",
+      "spoken_words": 1795,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 12.4,
+      "tags": [
+        "Principal eigenvalue",
+        "Positive solutions",
+        "Logistic elliptic equations",
+        "Maximum principle",
+        "Uniqueness",
+        "Local branch expansion"
+      ]
+    },
+    {
+      "id": "062000",
+      "title": "Bifurcation and Continuation: Following Nonlinear Solutions Through Singular Jacobians",
+      "section": "semilinear-existence-bifurcation-bridge",
+      "file": "062000-bifurcation-linearization-and-continuation.md",
+      "spoken_words": 1809,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 12.5,
+      "tags": [
+        "Bifurcation",
+        "Lyapunov-Schmidt reduction",
+        "Crandall-Rabinowitz theorem",
+        "Pitchfork",
+        "Fold",
+        "Pseudo-arclength continuation",
+        "Stability"
       ]
     }
   ],

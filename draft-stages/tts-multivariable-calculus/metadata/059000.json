@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "lecture_id": "059000",
+  "transcript": "059000-semilinear-elliptic-equations-and-energy.md",
+  "related_resources": [
+    {
+      "source_id": "mv-puel-semilinear",
+      "reason": "Monotone and variational elliptic methods, existence and multiplicity; rigorous source for general framework."
+    },
+    {
+      "source_id": "mv-ambrosetti-malchiodi",
+      "reason": "Publisher book contents and bibliography for semilinear variational and bifurcation theory; front matter is not a proof reference."
+    },
+    {
+      "source_id": "mv-wiki-pde",
+      "reason": "Semilinear versus quasilinear and fully nonlinear classifications."
+    },
+    {
+      "source_id": "mv-wiki-dirichlet-eigen",
+      "reason": "First Dirichlet eigenvalue and its Rayleigh quotient; elementary context only."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-17",
+    "scope": "Original standalone narration and non-spoken mathematical companion on semilinear elliptic equations, monotone methods, spectral thresholds or bifurcation; all earlier manuscripts preserved unchanged."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "multivariable-calculus:037000",
+        "reason": "Use the direct method and compactness to obtain a minimizer."
+      },
+      {
+        "lecture_id": "multivariable-calculus:047000",
+        "reason": "Use weak comparison and the maximum principle with the correct sign."
+      },
+      {
+        "lecture_id": "multivariable-calculus:048000",
+        "reason": "Relate the linear inverse and eigenfunction expansion to nonlinear problems."
+      }
+    ],
+    "recommended": [
+      {
+        "lecture_id": "differential-equations:survey",
+        "reason": "Connect stationary equilibria to reaction-diffusion evolution."
+      },
+      {
+        "lecture_id": "analysis:survey",
+        "reason": "Review compactness and functional-analytic weak existence."
+      }
+    ],
+    "background": [
+      "Weak Poisson equations, Dirichlet boundaries, the first sine eigenmode and elementary multivariable derivatives; the nonlinear tools are derived in the manuscript."
+    ],
+    "readiness_checks": [
+      "Identify the principal eigenvalue threshold of the cubic Dirichlet problem on (0, pi).",
+      "Distinguish a one-mode Galerkin equation from a true nonlinear solution."
+    ]
+  }
+}

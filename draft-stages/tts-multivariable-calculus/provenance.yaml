@@ -233,3 +233,11 @@ learning_map:
     - metadata/057000.json
     - metadata/058000.json
     scope: Add the boundary-capacity-Wiener deep-dive route, descriptive spoken counts, checked prerequisites and citations while retaining all prior routes.
+  - date: '2026-11-17'
+    models:
+    - GPT-6
+    sources:
+    - manuscripts: '059000–062000'
+      source_records: metadata/sources.json
+      per_lecture_metadata: metadata/059000.json through metadata/062000.json
+    scope: Add original semilinear elliptic energy, sub-/supersolution, positive principal-eigenvalue threshold and pitchfork/continuation lectures with narrated exposition and exact companions; preserve all 43 prior manuscripts.

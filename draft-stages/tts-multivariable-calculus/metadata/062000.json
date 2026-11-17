@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "lecture_id": "062000",
+  "transcript": "062000-bifurcation-linearization-and-continuation.md",
+  "related_resources": [
+    {
+      "source_id": "mv-crandall-rabinowitz-1971",
+      "reason": "Original simple-eigenvalue bifurcation result and transversality condition."
+    },
+    {
+      "source_id": "mv-uecker-continuation",
+      "reason": "Numerical continuation, simple eigenvalue branch points, pseudo-arclength correction and stability context."
+    },
+    {
+      "source_id": "mv-kuehn-dynamics",
+      "reason": "Introduction to Crandall-Rabinowitz local PDE bifurcations and linearized stability."
+    },
+    {
+      "source_id": "mv-wiki-lyapunov-schmidt",
+      "reason": "Finite-dimensional reduction for a Fredholm derivative at a bifurcation."
+    },
+    {
+      "source_id": "mv-wiki-bifurcation",
+      "reason": "Pitchfork and saddle-node terminology."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-17",
+    "scope": "Original standalone narration and non-spoken mathematical companion on semilinear elliptic equations, monotone methods, spectral thresholds or bifurcation; all earlier manuscripts preserved unchanged."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "multivariable-calculus:061000",
+        "reason": "Know the exact positive-solution threshold and leading amplitude."
+      },
+      {
+        "lecture_id": "multivariable-calculus:021000",
+        "reason": "Use Newton linearization and Jacobian systems."
+      },
+      {
+        "lecture_id": "multivariable-calculus:030000",
+        "reason": "Distinguish regular implicit differentiation from singular sensitivity."
+      }
+    ],
+    "recommended": [
+      {
+        "lecture_id": "differential-equations:survey",
+        "reason": "Connect stationary equilibria to reaction-diffusion evolution."
+      },
+      {
+        "lecture_id": "analysis:survey",
+        "reason": "Review compactness and functional-analytic weak existence."
+      }
+    ],
+    "background": [
+      "Weak Poisson equations, Dirichlet boundaries, the first sine eigenmode and elementary multivariable derivatives; the nonlinear tools are derived in the manuscript."
+    ],
+    "readiness_checks": [
+      "Verify the codimension-one transversality condition at lambda equals one.",
+      "Compute the leading third-harmonic correction, identify the fold singularity, and explain the bordered corrector."
+    ]
+  }
+}

@@ -369,6 +369,43 @@
       "assumed_background": [
         "Harmonic functions and their maximum principle, positive solution comparison, Dirichlet energy, weak solutions, Sobolev capacity, and Green/Poisson kernels; energy capacities and the point-removal barrier proof are developed here."
       ]
+    },
+    {
+      "id": "semilinear-existence-bifurcation-bridge",
+      "title": "Semilinear Elliptic Equations · Existence, Ordered Barriers and Bifurcation",
+      "role": "deep_dive",
+      "parent": "survey",
+      "summary": "Four constructive lectures: weak semilinear energy and exact existence threshold; sub-/supersolutions and an exact shifted iteration; positive-solution uniqueness and the first-eigenvalue barrier; Lyapunov-Schmidt pitchfork, stability and continuation through simple folds.",
+      "lectures": [
+        "059000",
+        "060000",
+        "061000",
+        "062000"
+      ],
+      "preparation_collections": [
+        "multivariable-calculus:variational-compactness-direct-method-bridge",
+        "multivariable-calculus:elliptic-maximum-green-harnack-bridge",
+        "multivariable-calculus:elliptic-boundary-harmonic-regularity-bridge"
+      ],
+      "related_collections": [
+        "multivariable-calculus:taylor-newton-bridge",
+        "multivariable-calculus:constrained-newton-sensitivity-bridge",
+        "differential-equations:survey",
+        "analysis:survey"
+      ],
+      "tags": [
+        "Semilinear elliptic equations",
+        "Subsolutions",
+        "Supersolutions",
+        "Monotone iteration",
+        "Principal eigenvalue",
+        "Bifurcation",
+        "Lyapunov-Schmidt",
+        "Pseudo-arclength continuation"
+      ],
+      "assumed_background": [
+        "Weak formulation, energy minimization and first Dirichlet eigenvalues; classical maximum principle and basic Newton derivatives; all new nonlinear calculations use an explicitly defined cubic model."
+      ]
     }
   ]
 }

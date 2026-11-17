@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "lecture_id": "060000",
+  "transcript": "060000-subsolutions-supersolutions-and-monotone-iteration.md",
+  "related_resources": [
+    {
+      "source_id": "mv-montenegro-ponce-subsuper",
+      "reason": "Classical sub-/supersolution and monotone method, weak extensions, and hypotheses."
+    },
+    {
+      "source_id": "mv-holst-meier-subsuper",
+      "reason": "Section 4: shifted operator and proof of monotone iterative construction."
+    },
+    {
+      "source_id": "mv-semilinear-solution-set",
+      "reason": "Monotone methods, sub-/supersolutions, local bifurcation and simple-eigenvalue theorem."
+    },
+    {
+      "source_id": "mv-puel-semilinear",
+      "reason": "Monotone and variational elliptic methods, existence and multiplicity; rigorous source for general framework."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-17",
+    "scope": "Original standalone narration and non-spoken mathematical companion on semilinear elliptic equations, monotone methods, spectral thresholds or bifurcation; all earlier manuscripts preserved unchanged."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "multivariable-calculus:059000",
+        "reason": "Use the same cubic reaction and understand its weak form."
+      },
+      {
+        "lecture_id": "multivariable-calculus:047000",
+        "reason": "Apply the maximum principle to a shifted positive elliptic inverse."
+      },
+      {
+        "lecture_id": "multivariable-calculus:055000",
+        "reason": "Understand positive boundary behavior used by comparison arguments."
+      }
+    ],
+    "recommended": [
+      {
+        "lecture_id": "differential-equations:survey",
+        "reason": "Connect stationary equilibria to reaction-diffusion evolution."
+      },
+      {
+        "lecture_id": "analysis:survey",
+        "reason": "Review compactness and functional-analytic weak existence."
+      }
+    ],
+    "background": [
+      "Weak Poisson equations, Dirichlet boundaries, the first sine eigenmode and elementary multivariable derivatives; the nonlinear tools are derived in the manuscript."
+    ],
+    "readiness_checks": [
+      "Check the inequalities for half sine and square-root-of-two constant barriers.",
+      "Derive the first shifted iterate and show why the naive unshifted map is not monotone."
+    ]
+  }
+}

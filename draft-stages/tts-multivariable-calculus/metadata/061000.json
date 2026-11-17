@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "lecture_id": "061000",
+  "transcript": "061000-positive-solutions-and-principal-eigenvalue-thresholds.md",
+  "related_resources": [
+    {
+      "source_id": "mv-delgado-suarez-logistic",
+      "reason": "Eigenvalue threshold and positive solution uniqueness in logistic and related elliptic systems."
+    },
+    {
+      "source_id": "mv-puel-semilinear",
+      "reason": "Monotone and variational elliptic methods, existence and multiplicity; rigorous source for general framework."
+    },
+    {
+      "source_id": "mv-crandall-rabinowitz-1971",
+      "reason": "Original simple-eigenvalue bifurcation result and transversality condition."
+    },
+    {
+      "source_id": "mv-wiki-dirichlet-eigen",
+      "reason": "First Dirichlet eigenvalue and its Rayleigh quotient; elementary context only."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-17",
+    "scope": "Original standalone narration and non-spoken mathematical companion on semilinear elliptic equations, monotone methods, spectral thresholds or bifurcation; all earlier manuscripts preserved unchanged."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "multivariable-calculus:059000",
+        "reason": "Use the cubic semilinear energy and its first eigenmode."
+      },
+      {
+        "lecture_id": "multivariable-calculus:060000",
+        "reason": "Apply the subsolution-supersolution construction."
+      },
+      {
+        "lecture_id": "multivariable-calculus:051000",
+        "reason": "Use strict positive boundary slopes in the scaling comparison."
+      }
+    ],
+    "recommended": [
+      {
+        "lecture_id": "differential-equations:survey",
+        "reason": "Connect stationary equilibria to reaction-diffusion evolution."
+      },
+      {
+        "lecture_id": "analysis:survey",
+        "reason": "Review compactness and functional-analytic weak existence."
+      }
+    ],
+    "background": [
+      "Weak Poisson equations, Dirichlet boundaries, the first sine eigenmode and elementary multivariable derivatives; the nonlinear tools are derived in the manuscript."
+    ],
+    "readiness_checks": [
+      "Prove lambda must exceed the first eigenvalue by testing with the positive eigenfunction.",
+      "Explain why the third-harmonic correction does not turn the one-mode Galerkin prediction into an exact solution."
+    ]
+  }
+}
