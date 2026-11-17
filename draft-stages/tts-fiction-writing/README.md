@@ -4,7 +4,7 @@
 
 ## Completed lectures
 
-- 001000: [Character, Subtext, and the Art of Making an Audience Care](001000-character-subtext-and-audience-investment.md) (3,046 spoken words; approximately 21.0 minutes at 145 words per minute).
+- 001000: [Character, Subtext, and the Art of Making an Audience Care](001000-character-subtext-and-audience-investment.md) (3,220 spoken words; approximately 22.2 minutes at 145 words per minute).
 - 002000: [Scenes That Change Something: Causality, Conflict, and Consequence](002000-scene-causality-and-consequences.md) (3,039 spoken words; approximately 21.0 minutes at 145 words per minute).
 - 003000: [Worldbuilding Is Causality: Places, Institutions, and Lived Consequences](003000-worldbuilding-constraints-and-living-societies.md) (3,031 spoken words; approximately 20.9 minutes at 145 words per minute).
 - 004000: [Narrative Perspective: Who Knows What?](004000-narrative-perspective-and-knowledge.md) (2,846 spoken words; approximately 19.6 minutes at 145 words per minute).
