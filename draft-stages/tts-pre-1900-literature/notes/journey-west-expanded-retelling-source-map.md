@@ -4,7 +4,7 @@ This is a separate literary retelling of the conventional 100-chapter Ming novel
 
 ## Current playback index after consolidation
 
-The expanded retelling is complete through selected-witness chapter 45 and remains in progress. There are now 30 playable manuscripts: 13 consolidated manuscripts through chapter 21 (retaining the former 61 writing components), and seventeen continuous-arc manuscripts for chapters 22–45. Continue with chapter 46 using [the current writer handoff](journey-west-continuation-handoff.md). Subsequent IDs have not been reserved.
+The expanded retelling is complete through selected-witness chapter 51 and remains in progress. There are now 36 playable manuscripts: 13 consolidated manuscripts through chapter 21 (retaining the former 61 writing components), and twenty-three continuous-arc manuscripts for chapters 22–51. Continue with chapter 52 using [the current writer handoff](journey-west-continuation-handoff.md). Subsequent IDs have not been reserved.
 
 | Current playback ID | Selected-witness chapters | Current manuscript | Minutes at 145 wpm |
 | --- | --- | --- | ---: |
@@ -38,8 +38,14 @@ The expanded retelling is complete through selected-witness chapter 45 and remai
 | 516000 | 42 | [Journey to the West: The lotus of knives](../516000-journey-to-the-west-the-lotus-of-knives.md) | 16.2 |
 | 517000 | 43 | [Journey to the West: The Black Water River](../517000-journey-to-the-west-the-black-water-river.md) | 16.2 |
 | 518000 | 44–45 | [Journey to the West: The monks and the rainmakers](../518000-journey-to-the-west-the-monks-and-the-rainmakers.md) | 25.3 |
+| 519000 | 46 | [Journey to the West: The three royal masters](../519000-journey-to-the-west-the-three-royal-masters.md) | 18.1 |
+| 520000 | 47 | [Journey to the West: The river that demanded children](../520000-journey-to-the-west-the-river-that-demanded-children.md) | 13.6 |
+| 521000 | 48 | [Journey to the West: The ice above the dark water](../521000-journey-to-the-west-the-ice-above-the-dark-water.md) | 13.4 |
+| 522000 | 49 | [Journey to the West: The fish basket and the old turtle](../522000-journey-to-the-west-the-fish-basket-and-the-old-turtle.md) | 14.7 |
+| 523000 | 50 | [Journey to the West: The house outside the circle](../523000-journey-to-the-west-the-house-outside-the-circle.md) | 13.4 |
+| 524000 | 51 | [Journey to the West: The ring that stole Heaven's weapons](../524000-journey-to-the-west-the-ring-that-stole-the-heavens-weapons.md) | 14.4 |
 
-The ledger below preserves the original pre-consolidation component IDs, scene boundaries, and original measurements through chapter 21 for evidence traceability. Chapters 22–45 are new continuous-arc manuscripts and have no absorbed component history. Those rows are no longer separate playable files.
+The ledger below preserves the original pre-consolidation component IDs, scene boundaries, and original measurements through chapter 21 for evidence traceability. Chapters 22–51 are new continuous-arc manuscripts and have no absorbed component history. Those rows are no longer separate playable files.
 
 ## Original writing-component ledger (not the current playback index)
 
@@ -158,10 +164,10 @@ The novella-like origin episode is literary, not a historical biography of the r
 
 ## Progress and next chapter group
 
-The expanded retelling covers **selected-witness chapters 1–45** in **30 playable manuscripts**. The original 13 consolidated manuscripts through chapter 21 retain their component history; seventeen later arc-length manuscripts narrate chapters 22–45. Evidence companions: [chapters 22–27](journey-west-chapters-22-27-reading-guide.md), [chapters 28–33](journey-west-chapters-28-33-reading-guide.md), [chapters 34–39](journey-west-chapters-34-39-reading-guide.md), and [chapters 40–45](journey-west-chapters-40-45-reading-guide.md).
+The expanded retelling covers **selected-witness chapters 1–51** in **36 playable manuscripts**. The original 13 consolidated manuscripts through chapter 21 retain their component history; twenty-three later manuscripts narrate chapters 22–51. Evidence companions: [chapters 22–27](journey-west-chapters-22-27-reading-guide.md), [chapters 28–33](journey-west-chapters-28-33-reading-guide.md), [chapters 34–39](journey-west-chapters-34-39-reading-guide.md), [chapters 40–45](journey-west-chapters-40-45-reading-guide.md), and [chapters 46–51](journey-west-chapters-46-51-reading-guide.md).
 
-Chapters 40–42 introduce Red Boy, whose Samadhi True Fire and deceptions defeat the disciples before Guanyin's intervention. Chapter 43 resolves that capture and follows the Black Water River and dragon family. Chapters 44–45 begin the Chechi Kingdom crisis of five hundred oppressed monks, the temple deception, and the contested rain ritual.
+Chapter 46 concludes the Chechi Kingdom contests and chapter 47 opens with the king's religious settlement. Chapters 47–49 contain the Heaven-Reaching River sacrifice, frozen crossing, goldfish captured by Guanyin, and turtle ferry. Chapters 50–51 introduce the One-Horned King, the entrapment at Golden Cave, and the white ring that robs even Heaven's weapons. Wukong recovers his staff in chapter 51 **but his companions remain captives, and the ring is not recovered**.
 
-**Next:** chapter 46, which continues the court's challenges; the source chapter 45 ends as the four Dragon Kings visibly appear. Continue with **chapters 46–51** in the next six-source-chapter batch. Do not retroactively narrate the later contests in chapter 45. The independently curated World History survey is unchanged, and the chapter-9 River Child insertion caveat remains relevant to edition comparisons.
+**Next:** chapter 52, which continues the unresolved confrontation at Golden Cave. Follow the Chinese source's chapter boundary rather than revealing the ring's origin in chapter 51. The next six-source-chapter installment is **chapters 52–57**, with manuscript boundaries chosen by narrative arc. The independently curated World History survey is unchanged, and the chapter-9 River Child insertion caveat remains relevant to edition comparisons.
 
-**Chapters 46–100 remain unwritten in this expanded strand.**
+**Chapters 52–100 remain unwritten in this expanded strand.**
