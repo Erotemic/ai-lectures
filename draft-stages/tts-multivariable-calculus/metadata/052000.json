@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "lecture_id": "052000",
+  "transcript": "052000-harmonic-measure-boundary-data-and-brownian-exit.md",
+  "related_resources": [
+    {
+      "source_id": "mv-lawler-harmonic-measure",
+      "reason": "Brownian exit representation and harmonic measure for planar domains."
+    },
+    {
+      "source_id": "mv-uw-brownian-dirichlet",
+      "reason": "Disk Poisson kernel and stochastic Dirichlet representation."
+    },
+    {
+      "source_id": "mv-wiki-harmonic-measure",
+      "reason": "Terminology for boundary probabilities and irregular domains."
+    },
+    {
+      "source_id": "mv-speck-mit-green-2011",
+      "reason": "Green functions and boundary normal derivatives."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-17",
+    "scope": "Original lecture and non-spoken mathematical companion for elliptic boundary and regularity bridge; all previous manuscripts preserved."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "multivariable-calculus:048000",
+        "reason": "Dirichlet Green kernel and distributional point sources."
+      },
+      {
+        "lecture_id": "multivariable-calculus:050000",
+        "reason": "Poisson kernel and mean-value property."
+      },
+      {
+        "lecture_id": "multivariable-calculus:051000",
+        "reason": "Strict outward normal derivative and positive boundary kernels."
+      }
+    ],
+    "recommended": [
+      {
+        "lecture_id": "multivariable-calculus:053000",
+        "reason": "Distinguish boundary representation from classical derivative bounds."
+      }
+    ],
+    "background": [
+      "Probability and expectations, harmonic Dirichlet boundary problems, the disk Poisson kernel and elementary trigonometry."
+    ],
+    "readiness_checks": [
+      "Derive the symmetric disk arc harmonic measure using the tangent half-angle substitution.",
+      "Recover interval exit weights by normal differentiation of Green's function."
+    ]
+  }
+}

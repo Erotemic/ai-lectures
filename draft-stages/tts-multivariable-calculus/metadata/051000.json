@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "lecture_id": "051000",
+  "transcript": "051000-hopf-boundary-lemma-and-nonflat-contact.md",
+  "related_resources": [
+    {
+      "source_id": "mv-iyer-elliptic-2026",
+      "reason": "Annular exponential barrier proof and strict boundary derivative."
+    },
+    {
+      "source_id": "mv-mit-ocw-pde-2005",
+      "reason": "Classical Hopf principle, strong maximum principle and boundary behavior."
+    },
+    {
+      "source_id": "mv-safonov-hopf-boundary",
+      "reason": "Geometric sharpness and rough-boundary extensions."
+    },
+    {
+      "source_id": "mv-wiki-hopf",
+      "reason": "Boundary-point terminology and historical context."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-17",
+    "scope": "Original lecture and non-spoken mathematical companion for elliptic boundary and regularity bridge; all previous manuscripts preserved."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "multivariable-calculus:047000",
+        "reason": "Weak and strong comparison and the quadratic barrier method."
+      },
+      {
+        "lecture_id": "multivariable-calculus:043000",
+        "reason": "Boundary normals and trace values."
+      },
+      {
+        "lecture_id": "multivariable-calculus:050000",
+        "reason": "Positive harmonic functions and Harnack context."
+      }
+    ],
+    "recommended": [
+      {
+        "lecture_id": "multivariable-calculus:052000",
+        "reason": "Connect strict boundary derivative with Poisson kernel positivity."
+      }
+    ],
+    "background": [
+      "Scalar Laplace equation, C2 differentiation, inner tangent ball and weak minimum principle."
+    ],
+    "readiness_checks": [
+      "Compute the Laplacian of the exponential annular barrier and choose a valid alpha.",
+      "Derive the strict inward linear growth and explain the wedge counterexample."
+    ]
+  }
+}

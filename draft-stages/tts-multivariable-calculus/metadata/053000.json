@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "lecture_id": "053000",
+  "transcript": "053000-schauder-estimates-and-holder-regularity.md",
+  "related_resources": [
+    {
+      "source_id": "mv-haslhofer-schauder",
+      "reason": "Precise nondivergence-form interior Schauder hypotheses."
+    },
+    {
+      "source_id": "mv-mit-156-harmonic-analysis",
+      "reason": "Schauder arguments and PDE/harmonic analysis viewpoint."
+    },
+    {
+      "source_id": "mv-uw-elliptic-course",
+      "reason": "Interior/boundary regularity distinctions."
+    },
+    {
+      "source_id": "mv-wiki-schauder",
+      "reason": "Ck-alpha notation and global versus interior bounds."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-17",
+    "scope": "Original lecture and non-spoken mathematical companion for elliptic boundary and regularity bridge; all previous manuscripts preserved."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "multivariable-calculus:045000",
+        "reason": "Weak versus classical elliptic regularity."
+      },
+      {
+        "lecture_id": "multivariable-calculus:046000",
+        "reason": "Boundary corners as regularity obstructions."
+      },
+      {
+        "lecture_id": "multivariable-calculus:049000",
+        "reason": "Local energy methods and ellipticity assumptions."
+      }
+    ],
+    "recommended": [
+      {
+        "lecture_id": "multivariable-calculus:054000",
+        "reason": "See the complementary Lp regularity theory for nonsmooth data."
+      }
+    ],
+    "background": [
+      "Hölder continuity, norms of second derivatives, elliptic operators and a one-dimensional divergence-form ODE."
+    ],
+    "readiness_checks": [
+      "Differentiate the sharp one-dimensional Poisson example twice.",
+      "Check the divergence-form counterexample with Hölder coefficient and singular second derivative."
+    ]
+  }
+}

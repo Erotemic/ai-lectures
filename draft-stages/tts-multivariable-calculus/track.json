@@ -1,7 +1,7 @@
 {
   "id": "multivariable-calculus",
   "title": "Multivariable Calculus from First Principles",
-  "summary": "A calculation-first and proof-aware bridge from single-variable calculus and linear algebra to geometry, optimization, and variational PDEs. Depth routes develop local and constrained Newton theory, inverse problems, weak formulations, nonlinear existence, compatible mixed elements, boundary regularity, maximum principles, Green kernels, and elliptic pointwise estimates.",
+  "summary": "A calculation-first and proof-aware bridge from single-variable calculus and linear algebra to geometry, optimization, variational PDEs, mixed elements, elliptic comparison and boundary behavior. Depth routes culminate in harmonic measure and Schauder versus Sobolev L-p regularity.",
   "assumed_background": [
     "single-variable limits, differentiation and integration (Analysis 001000–008000)",
     "elementary vectors, matrices, determinants and dot products (Linear Algebra 001000–006000, 008000)"
@@ -20,7 +20,8 @@
     "variational-compactness-direct-method-bridge",
     "mixed-inf-sup-stability-bridge",
     "boundary-traces-elliptic-regularity-bridge",
-    "elliptic-maximum-green-harnack-bridge"
+    "elliptic-maximum-green-harnack-bridge",
+    "elliptic-boundary-harmonic-regularity-bridge"
   ],
   "lectures": [
     {
@@ -591,6 +592,70 @@
         "Poisson kernel",
         "Harnack inequality",
         "Interior estimates"
+      ]
+    },
+    {
+      "id": "051000",
+      "title": "Hopf's Boundary Lemma: Why a Positive Solution Cannot Touch Flatly",
+      "section": "elliptic-boundary-harmonic-regularity-bridge",
+      "file": "051000-hopf-boundary-lemma-and-nonflat-contact.md",
+      "spoken_words": 1812,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 12.5,
+      "tags": [
+        "Hopf boundary lemma",
+        "Interior sphere condition",
+        "Normal derivatives",
+        "Elliptic comparison",
+        "Barriers"
+      ]
+    },
+    {
+      "id": "052000",
+      "title": "Harmonic Measure: Which Part of the Boundary Matters?",
+      "section": "elliptic-boundary-harmonic-regularity-bridge",
+      "file": "052000-harmonic-measure-boundary-data-and-brownian-exit.md",
+      "spoken_words": 1852,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 12.8,
+      "tags": [
+        "Harmonic measure",
+        "Brownian exit",
+        "Poisson kernel",
+        "Boundary data",
+        "Green functions"
+      ]
+    },
+    {
+      "id": "053000",
+      "title": "Schauder Estimates: How Smooth Data Become Smooth Derivatives",
+      "section": "elliptic-boundary-harmonic-regularity-bridge",
+      "file": "053000-schauder-estimates-and-holder-regularity.md",
+      "spoken_words": 1814,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 12.5,
+      "tags": [
+        "Schauder estimates",
+        "Hölder spaces",
+        "Nondivergence form",
+        "Interior regularity",
+        "Divergence form"
+      ]
+    },
+    {
+      "id": "054000",
+      "title": "Calderón–Zygmund: Second Derivatives When the Source Is Only Integrable",
+      "section": "elliptic-boundary-harmonic-regularity-bridge",
+      "file": "054000-calderon-zygmund-w2p-and-endpoint-failures.md",
+      "spoken_words": 2085,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 14.4,
+      "tags": [
+        "Calderón–Zygmund",
+        "W2p regularity",
+        "Singular integrals",
+        "Fourier multipliers",
+        "Endpoint failures"
       ]
     }
   ],

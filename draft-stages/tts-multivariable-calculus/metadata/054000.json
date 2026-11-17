@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "lecture_id": "054000",
+  "transcript": "054000-calderon-zygmund-w2p-and-endpoint-failures.md",
+  "related_resources": [
+    {
+      "source_id": "mv-mit-156-harmonic-analysis",
+      "reason": "Calderón-Zygmund inequalities and Fourier analysis."
+    },
+    {
+      "source_id": "mv-jyu-pde2-lp",
+      "reason": "Local W2p estimate for the Poisson equation."
+    },
+    {
+      "source_id": "mv-uk-singular-integral",
+      "reason": "Lp bounds, weak endpoints and singular-integral kernels."
+    },
+    {
+      "source_id": "mv-wiki-singular-integral",
+      "reason": "Operator terminology and Lp range."
+    },
+    {
+      "source_id": "mv-wiki-sobolev-inequality",
+      "reason": "Morrey embedding used to recover Hölder gradients."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-17",
+    "scope": "Original lecture and non-spoken mathematical companion for elliptic boundary and regularity bridge; all previous manuscripts preserved."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "multivariable-calculus:053000",
+        "reason": "Hölder regularity estimates as a comparison class."
+      },
+      {
+        "lecture_id": "multivariable-calculus:045000",
+        "reason": "Weak derivative Hessian control and local regularity."
+      },
+      {
+        "lecture_id": "multivariable-calculus:036000",
+        "reason": "Sobolev embeddings and dimension-dependent exponents."
+      }
+    ],
+    "recommended": [
+      {
+        "lecture_id": "numerical-analysis:survey",
+        "reason": "Interpret PDE approximation when only integral regularity is known."
+      },
+      {
+        "lecture_id": "differential-equations:survey",
+        "reason": "Continue from elliptic estimates into other PDE classes."
+      }
+    ],
+    "background": [
+      "L-p and Sobolev norms, Plancherel theorem, Hessian and Newtonian potential; the singular-integral proof is outlined."
+    ],
+    "readiness_checks": [
+      "Prove the whole-space p=2 Hessian identity by Fourier multipliers.",
+      "Differentiate xy log r and verify bounded Laplacian but unbounded mixed Hessian."
+    ]
+  }
+}
