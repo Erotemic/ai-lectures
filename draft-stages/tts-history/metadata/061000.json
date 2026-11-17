@@ -1,0 +1,199 @@
+{
+  "schema_version": 1,
+  "lecture_id": "061000",
+  "transcript": "061000-cauchy.md",
+  "related_resources": [
+    {
+      "source_id": "history-cauchy-bnf",
+      "reason": "Authority record for identity, publications and chronology."
+    },
+    {
+      "source_id": "history-cauchy-galois-scholarship",
+      "reason": "Historical scholarship on submissions and institutional handling of Galois papers; avoids unverified lost-manuscript narrative."
+    },
+    {
+      "source_id": "history-cauchy-history-analysis",
+      "reason": "Context for early nineteenth-century definitions and later standards for rigor."
+    },
+    {
+      "source_id": "history-cauchy-mactutor",
+      "reason": "Family and Revolution, teaching, analysis texts, political exile, religion and Academy controversies."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "061000-h01",
+      "anchor": "born in Paris in August seventeen eighty-nine",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-cauchy-mactutor",
+        "history-cauchy-bnf"
+      ],
+      "source_locator": "Birth at beginning of the French Revolution",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "061000-h02",
+      "anchor": "moved for a time to Arcueil",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-cauchy-mactutor"
+      ],
+      "source_locator": "Revolutionary hardship and family relocation",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "061000-h03",
+      "anchor": "Lagrange and Pierre-Simon Laplace",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-cauchy-mactutor"
+      ],
+      "source_locator": "Father’s political and scientific networks",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "061000-h04",
+      "anchor": "Cauchy entered the École Polytechnique",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-cauchy-mactutor"
+      ],
+      "source_locator": "Engineering training and later classroom career",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "061000-h05",
+      "anchor": "Cherbourg",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-cauchy-mactutor"
+      ],
+      "source_locator": "Napoleonic harbor engineering assignment",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "061000-h06",
+      "anchor": "Academy of Sciences",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-cauchy-mactutor"
+      ],
+      "source_locator": "Academy entry and political/institutional environment",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "061000-h07",
+      "anchor": "*Cours d'analyse*",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-cauchy-mactutor",
+        "history-cauchy-history-analysis"
+      ],
+      "source_locator": "1821 textbook and rigor of limits and convergence",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "061000-h08",
+      "anchor": "complex functions",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-cauchy-mactutor"
+      ],
+      "source_locator": "Broad work in real and complex analysis",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "061000-h09",
+      "anchor": "married Aloïse de Bure",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-cauchy-mactutor"
+      ],
+      "source_locator": "Marriage and household",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "061000-h10",
+      "anchor": "Jean-Victor Poncelet",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-cauchy-mactutor"
+      ],
+      "source_locator": "Review practices and mathematical disputes",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "061000-h11",
+      "anchor": "Évariste Galois",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-cauchy-galois-scholarship",
+        "history-cauchy-mactutor"
+      ],
+      "source_locator": "Source-critical treatment of academy submissions, no unsupported lost manuscript claim",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "061000-h12",
+      "anchor": "Revolution of July eighteen thirty",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-cauchy-mactutor"
+      ],
+      "source_locator": "Refusal to swear an oath and political exile",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "061000-h13",
+      "anchor": "exiled royal household in Prague",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-cauchy-mactutor"
+      ],
+      "source_locator": "1833 tutoring appointment",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "061000-h14",
+      "anchor": "returned to Paris in eighteen thirty-eight",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-cauchy-mactutor"
+      ],
+      "source_locator": "Academy membership and oath obstacles",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "061000-h15",
+      "anchor": "Revolution of eighteen forty-eight",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-cauchy-mactutor"
+      ],
+      "source_locator": "Appointment under republican government",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "061000-h16",
+      "anchor": "Sceaux, near Paris",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-cauchy-mactutor",
+        "history-cauchy-bnf"
+      ],
+      "source_locator": "Death and legacy",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "061000-h17",
+      "anchor": "infinite sums of functions",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-cauchy-history-analysis"
+      ],
+      "source_locator": "Foundations of uniform convergence and later correction of conditions",
+      "audit_status": "source_checked"
+    }
+  ]
+}

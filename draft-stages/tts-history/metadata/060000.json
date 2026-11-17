@@ -1,0 +1,202 @@
+{
+  "schema_version": 1,
+  "lecture_id": "060000",
+  "transcript": "060000-pascal.md",
+  "related_resources": [
+    {
+      "source_id": "history-pascal-mactutor",
+      "reason": "Chronology of Pascaline, Rouen, barometer experiments, Pascal–Fermat correspondence and cycloid."
+    },
+    {
+      "source_id": "history-pascal-sep",
+      "reason": "Biographical and philosophical context, mathematical and physical experiments, Port-Royal and posthumous Pensées."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "060000-h01",
+      "anchor": "born in Clermont, in Auvergne",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-pascal-mactutor",
+        "history-pascal-sep"
+      ],
+      "source_locator": "Birth and family",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "060000-h02",
+      "anchor": "father Étienne",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-pascal-sep",
+        "history-pascal-mactutor"
+      ],
+      "source_locator": "Father, household education and official position",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "060000-h03",
+      "anchor": "Girard Desargues",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-pascal-mactutor"
+      ],
+      "source_locator": "Early projective geometry and conics",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "060000-h04",
+      "anchor": "moved to Rouen",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-pascal-mactutor"
+      ],
+      "source_locator": "Father’s tax-administration work in Normandy",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "060000-h05",
+      "anchor": "Pascaline",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-pascal-mactutor",
+        "history-pascal-sep"
+      ],
+      "source_locator": "Development and limits of mechanical calculators",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "060000-h06",
+      "anchor": "Torricelli",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-pascal-mactutor"
+      ],
+      "source_locator": "Vacuum and atmospheric pressure experiment context",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "060000-h07",
+      "anchor": "Puy de Dôme",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-pascal-mactutor"
+      ],
+      "source_locator": "Périer and 1648 barometric test",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "060000-h08",
+      "anchor": "Florin Périer",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-pascal-mactutor"
+      ],
+      "source_locator": "Field experiment collaboration and credit",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "060000-h09",
+      "anchor": "Descartes visited Pascal",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-pascal-mactutor"
+      ],
+      "source_locator": "1647 visit and interpretation disputes",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "060000-h10",
+      "anchor": "His sister Gilberte",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-pascal-sep",
+        "history-pascal-mactutor"
+      ],
+      "source_locator": "Family biography and medical interpretive limits",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "060000-h11",
+      "anchor": "The Port-Royal community",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-pascal-sep"
+      ],
+      "source_locator": "Jansenist religious and institutional context",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "060000-h12",
+      "anchor": "Pierre de Fermat",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-pascal-mactutor"
+      ],
+      "source_locator": "1654 probability correspondence",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "060000-h13",
+      "anchor": "November sixteen fifty-four",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-pascal-sep"
+      ],
+      "source_locator": "Memorial and religious experience",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "060000-h14",
+      "anchor": "he published the *Provincial Letters*",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-pascal-sep"
+      ],
+      "source_locator": "Anonymous polemical works and theological debate",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "060000-h15",
+      "anchor": "papers later published as *Pensées*",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-pascal-sep"
+      ],
+      "source_locator": "Unfinished notes and later editorial arrangements",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "060000-h16",
+      "anchor": "sixteen fifty-eight he investigated the cycloid",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-pascal-mactutor"
+      ],
+      "source_locator": "Cycloid mathematics after religious turn",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "060000-h17",
+      "anchor": "charitable giving",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-pascal-mactutor"
+      ],
+      "source_locator": "Social service and final years",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "060000-h18",
+      "anchor": "died in August sixteen sixty-two",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-pascal-sep",
+        "history-pascal-mactutor"
+      ],
+      "source_locator": "Death in Paris and later household accounts",
+      "audit_status": "source_cross_checked"
+    }
+  ]
+}

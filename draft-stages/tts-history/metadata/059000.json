@@ -1,0 +1,220 @@
+{
+  "schema_version": 1,
+  "lecture_id": "059000",
+  "transcript": "059000-descartes.md",
+  "related_resources": [
+    {
+      "source_id": "history-descartes-fermat-study",
+      "reason": "History and method of the tangent dispute; attribution must reflect multiple contributors."
+    },
+    {
+      "source_id": "history-descartes-mactutor",
+      "reason": "Biographical sequence, Mersenne network, daughter, Netherlands and Sweden."
+    },
+    {
+      "source_id": "history-descartes-sep",
+      "reason": "Education, residence, intellectual disputes, personal correspondence, work and publication history."
+    },
+    {
+      "source_id": "history-descartes-sep-mathematics",
+      "reason": "Specialist history of La Géométrie and what it did and did not introduce."
+    },
+    {
+      "source_id": "history-descartes-works",
+      "reason": "Primary works chronology, publication decisions, Utrecht disputes and philosophical correspondence."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "059000-h01",
+      "anchor": "born in March fifteen ninety-six",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-descartes-sep",
+        "history-descartes-mactutor"
+      ],
+      "source_locator": "Birth and French family origins",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "059000-h02",
+      "anchor": "Jesuit college of La Flèche",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-descartes-mactutor",
+        "history-descartes-sep"
+      ],
+      "source_locator": "Early religious and classical schooling",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "059000-h03",
+      "anchor": "studied law at Poitiers",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-descartes-sep"
+      ],
+      "source_locator": "Law degree and expected family career",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "059000-h04",
+      "anchor": "Isaac Beeckman",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-descartes-sep",
+        "history-descartes-mactutor"
+      ],
+      "source_locator": "Breda contact and mechanico-mathematical discussions",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "059000-h05",
+      "anchor": "Marin Mersenne",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-descartes-sep"
+      ],
+      "source_locator": "Correspondence network connecting early modern scientific work",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "059000-h06",
+      "anchor": "sixteen twenty-nine Descartes moved to the Dutch Republic",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-descartes-mactutor",
+        "history-descartes-works"
+      ],
+      "source_locator": "Dutch relocation and scholarly life",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "059000-h07",
+      "anchor": "in sixteen thirty-three, news arrived that Galileo had been condemned",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-descartes-works",
+        "history-descartes-sep"
+      ],
+      "source_locator": "Withholding The World after Inquisition action",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "059000-h08",
+      "anchor": "daughter, Francine, born in sixteen thirty-five",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-descartes-sep",
+        "history-descartes-works"
+      ],
+      "source_locator": "Family, daughter and death",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "059000-h09",
+      "anchor": "*Discourse* appeared in sixteen thirty-seven",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-descartes-sep-mathematics",
+        "history-descartes-works"
+      ],
+      "source_locator": "Discourse and accompanying scientific essays",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "059000-h10",
+      "anchor": "*La Géométrie*",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-descartes-sep-mathematics"
+      ],
+      "source_locator": "Algebraic treatment of geometrical problems, construction, curve classification",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "059000-h11",
+      "anchor": "mathematical conflict with Pierre de Fermat",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-descartes-fermat-study",
+        "history-descartes-sep-mathematics"
+      ],
+      "source_locator": "Mathematical exchanges over tangents and extrema",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "059000-h12",
+      "anchor": "*Meditations on First Philosophy* in sixteen forty-one",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-descartes-sep",
+        "history-descartes-works"
+      ],
+      "source_locator": "Publication and objections",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "059000-h13",
+      "anchor": "Gisbertus Voetius",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-descartes-works"
+      ],
+      "source_locator": "Utrecht controversy",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "059000-h14",
+      "anchor": "Princess Elisabeth of Bohemia",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-descartes-sep",
+        "history-descartes-works"
+      ],
+      "source_locator": "Philosophical correspondence and mind-body problem",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "059000-h15",
+      "anchor": "*The Passions of the Soul*",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-descartes-sep"
+      ],
+      "source_locator": "Book shaped partly by correspondence",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "059000-h16",
+      "anchor": "queen of Sweden",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-descartes-mactutor",
+        "history-descartes-sep"
+      ],
+      "source_locator": "Christina’s court, Stockholm and death",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "059000-h17",
+      "anchor": "Cartesian coordinates",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-descartes-sep-mathematics"
+      ],
+      "source_locator": "Distinguishing modern axes from Descartes’ geometric procedures",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "059000-h18",
+      "anchor": "His rule of signs",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-descartes-sep-mathematics"
+      ],
+      "source_locator": "Polynomial methods and later formulations",
+      "audit_status": "source_checked"
+    }
+  ]
+}
