@@ -42,6 +42,24 @@ transcript:
       metadata: metadata/019000.json
     scope: Author four original finite-dimensional bridge manuscripts with spoken narration,
       explicit proof companions, exercises, source anchors, and careful numerical/analytic scope.
+  - date: '2026-11-17'
+    models:
+    - GPT-6
+    sources:
+    - lecture: '020000'
+      manuscript: 020000-pivoted-elimination-lu-and-rank-factorization.md
+      metadata: metadata/020000.json
+    - lecture: '021000'
+      manuscript: 021000-qr-householder-and-least-squares.md
+      metadata: metadata/021000.json
+    - lecture: '022000'
+      manuscript: 022000-conditioning-residuals-and-backward-error.md
+      metadata: metadata/022000.json
+    - lecture: '023000'
+      manuscript: 023000-numerical-rank-svd-and-pseudoinverse.md
+      metadata: metadata/023000.json
+    scope: Add four original numerical-linear-algebra bridge lectures, proof companions,
+      worked examples and source records, without changing the existing manuscripts.
 learning_map:
   revisions:
   - date: '2026-11-16'
@@ -73,3 +91,15 @@ learning_map:
     - metadata/019000.json
     scope: Assign explicit teaching prerequisites, keep the original full-source route,
       and introduce separate foundation and operator-bridge listening routes.
+  - date: '2026-11-17'
+    models:
+    - GPT-6
+    sources:
+    - track.json
+    - navigation.json
+    - metadata/020000.json
+    - metadata/021000.json
+    - metadata/022000.json
+    - metadata/023000.json
+    scope: Add explicit teaching prerequisites and a specialist numerical matrix route,
+      preserving the foundations survey, operator route and original main sequence.

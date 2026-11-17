@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "lecture_id": "021000",
+  "transcript": "021000-qr-householder-and-least-squares.md",
+  "related_resources": [
+    {
+      "source_id": "la-mit-1806sc",
+      "reason": "Orthogonality, projections, Gram–Schmidt and QR."
+    },
+    {
+      "source_id": "la-trefethen-bau",
+      "reason": "Householder QR construction, accuracy and least squares."
+    },
+    {
+      "source_id": "la-hefferon",
+      "reason": "Inner products and geometric least squares."
+    },
+    {
+      "source_id": "la-demmel-applied",
+      "reason": "Stable numerical least-squares algorithms."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-17",
+    "scope": "New original instructional manuscript for the numerical matrix algorithms bridge; no inherited narration rewritten."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "linear-algebra:006000",
+        "reason": "Provides inner products, orthogonality, projections and singular values."
+      },
+      {
+        "lecture_id": "linear-algebra:020000",
+        "reason": "Provides triangular solves and the factorization viewpoint."
+      }
+    ],
+    "recommended": [
+      {
+        "lecture_id": "numerical-analysis:006000",
+        "reason": "Summarizes why orthogonal methods avoid normal-equation instability."
+      }
+    ],
+    "background": [
+      "Dot products, vector lengths, basic matrix multiplication, and triangular equations."
+    ],
+    "readiness_checks": [
+      "Can you compute a vector projection from a dot product?",
+      "Do you see why two perpendicular error components have additive squared lengths?"
+    ]
+  }
+}

@@ -1,7 +1,7 @@
 {
   "id": "linear-algebra",
   "title": "Linear Algebra from First Principles",
-  "summary": "A calculation-first and proof-driven course from linear systems, bases, linear maps, eigenvectors, determinants, singular values and duals to matrix polynomial identities, Jordan chains, algebraic spectral projectors, and the matrix exponential. Prepares learners for differential equations, numerical stability, and operator functional calculus.",
+  "summary": "A calculation-first and proof-driven course from linear systems and vector spaces through exact spectral algebra, matrix exponentials and reliable matrix algorithms. Bridge routes treat pivoted LU, QR, conditioning, numerical rank and the pseudoinverse as preparation for scientific computation and advanced operator theory.",
   "assumed_background": [
     "arithmetic and solving elementary algebraic equations; no prior linear algebra is assumed"
   ],
@@ -14,7 +14,10 @@
     "012000-dual-spaces-and-covectors-the-objects-that-measure-vectors",
     "matrix-polynomials",
     "generalized-eigenvectors",
-    "matrix-evolution"
+    "matrix-evolution",
+    "numerical-factorization",
+    "numerical-conditioning",
+    "numerical-rank"
   ],
   "lectures": [
     {
@@ -144,6 +147,71 @@
         "Jordan chains",
         "Semigroups",
         "Stability"
+      ]
+    },
+    {
+      "id": "020000",
+      "title": "Elimination That Remembers Its Work: Pivoted LU and Rank Factorization",
+      "section": "numerical-factorization",
+      "file": "020000-pivoted-elimination-lu-and-rank-factorization.md",
+      "spoken_words": 1720,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 11.9,
+      "tags": [
+        "Gaussian elimination",
+        "Pivoted LU",
+        "Rank factorization",
+        "Linear systems",
+        "Numerical linear algebra"
+      ]
+    },
+    {
+      "id": "021000",
+      "title": "Orthogonalize Without Losing the Geometry: QR, Householder Reflections, and Least Squares",
+      "section": "numerical-factorization",
+      "file": "021000-qr-householder-and-least-squares.md",
+      "spoken_words": 1697,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 11.7,
+      "tags": [
+        "QR decomposition",
+        "Householder reflections",
+        "Gram–Schmidt",
+        "Least squares",
+        "Orthogonal projections"
+      ]
+    },
+    {
+      "id": "022000",
+      "title": "What Does a Small Residual Prove? Conditioning, Backward Error, and Reliable Solves",
+      "section": "numerical-conditioning",
+      "file": "022000-conditioning-residuals-and-backward-error.md",
+      "spoken_words": 1729,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 11.9,
+      "tags": [
+        "Conditioning",
+        "Backward error",
+        "Residuals",
+        "Numerical stability",
+        "Error bounds"
+      ]
+    },
+    {
+      "id": "023000",
+      "title": "When Rank Is Not a Yes-or-No Measurement: Singular Values and the Pseudoinverse",
+      "section": "numerical-rank",
+      "file": "023000-numerical-rank-svd-and-pseudoinverse.md",
+      "spoken_words": 1749,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 12.1,
+      "tags": [
+        "Singular values",
+        "Numerical rank",
+        "Pseudoinverse",
+        "Least squares",
+        "Regularization",
+        "Inverse problems"
       ]
     }
   ],

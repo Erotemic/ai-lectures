@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "lecture_id": "023000",
+  "transcript": "023000-numerical-rank-svd-and-pseudoinverse.md",
+  "related_resources": [
+    {
+      "source_id": "la-axler-fourth",
+      "reason": "Structural SVD and orthogonal decomposition."
+    },
+    {
+      "source_id": "la-trefethen-bau",
+      "reason": "Numerical SVD, rank determination and conditioning."
+    },
+    {
+      "source_id": "la-demmel-applied",
+      "reason": "Rank-revealing and least-squares algorithms."
+    },
+    {
+      "source_id": "la-higham-accuracy",
+      "reason": "Sensitivity of computed matrix data."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-17",
+    "scope": "New original instructional manuscript for the numerical matrix algorithms bridge; no inherited narration rewritten."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "linear-algebra:006000",
+        "reason": "Introduces singular values and orthogonality."
+      },
+      {
+        "lecture_id": "linear-algebra:021000",
+        "reason": "Develops orthogonal least-squares projection."
+      },
+      {
+        "lecture_id": "linear-algebra:022000",
+        "reason": "Provides sensitivity and numerical error distinctions."
+      }
+    ],
+    "recommended": [
+      {
+        "lecture_id": "numerical-analysis:006000",
+        "reason": "Numerical treatment of ill-conditioned least squares."
+      },
+      {
+        "lecture_id": "numerical-analysis:014000",
+        "reason": "Applications to large sparse spectral computation."
+      }
+    ],
+    "background": [
+      "Singular value decomposition, least-squares geometry and basic perturbation reasoning."
+    ],
+    "readiness_checks": [
+      "Can you interpret a zero singular value as a lost direction?",
+      "Can you explain why solving the exact least-squares problem may amplify measurement error?"
+    ]
+  }
+}

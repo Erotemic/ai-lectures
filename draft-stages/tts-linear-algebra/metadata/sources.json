@@ -42,6 +42,27 @@
       "url": "https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/resources/lecture-23-differential-equations-and-exp-at/",
       "access": "free_no_login",
       "notes": "Matrix exponential power series and constant-coefficient linear differential equations."
+    },
+    "la-trefethen-bau": {
+      "title": "Lloyd N. Trefethen and David Bau III, Numerical Linear Algebra, SIAM (1997; 25th Anniversary Edition 2022)",
+      "kind": "scholarly_textbook",
+      "url": "https://people.maths.ox.ac.uk/trefethen/text.html",
+      "access": "author_description_and_publisher_access",
+      "notes": "QR, Householder reflections, conditioning, stability, LU, SVD, and rank-aware linear algebra."
+    },
+    "la-higham-accuracy": {
+      "title": "Nicholas J. Higham, Accuracy and Stability of Numerical Algorithms, second edition, SIAM (2002)",
+      "kind": "scholarly_textbook",
+      "url": "https://nhigham.com/accuracy-and-stability-of-numerical-algorithms/",
+      "access": "author_description_and_publisher_access",
+      "notes": "Rounding-error models, stability, pivoting, backward error and iterative refinement."
+    },
+    "la-demmel-applied": {
+      "title": "James W. Demmel, Applied Numerical Linear Algebra, SIAM (1997)",
+      "kind": "scholarly_textbook",
+      "url": "https://doi.org/10.1137/1.9781611971446",
+      "access": "publisher_or_institutional_access",
+      "notes": "Numerical matrix factorization, least squares, conditioning, SVD and rank-revealing algorithms."
     }
   }
 }

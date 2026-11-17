@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "lecture_id": "020000",
+  "transcript": "020000-pivoted-elimination-lu-and-rank-factorization.md",
+  "related_resources": [
+    {
+      "source_id": "la-mit-1806sc",
+      "reason": "Column pivot operations, LU, rank and the four fundamental subspaces."
+    },
+    {
+      "source_id": "la-hefferon",
+      "reason": "Proof-oriented elimination, independence and kernel/image calculations."
+    },
+    {
+      "source_id": "la-trefethen-bau",
+      "reason": "Pivoted factorization, algorithmic costs and numerical stability."
+    },
+    {
+      "source_id": "la-higham-accuracy",
+      "reason": "Pivot growth and the limits of stability guarantees."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-17",
+    "scope": "New original instructional manuscript for the numerical matrix algorithms bridge; no inherited narration rewritten."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "linear-algebra:001000",
+        "reason": "Introduces elimination, matrix multiplication, linear independence and triangular solves."
+      }
+    ],
+    "recommended": [
+      {
+        "lecture_id": "numerical-analysis:006000",
+        "reason": "Overview of partial pivoting, residuals and floating-point effects."
+      },
+      {
+        "lecture_id": "linear-algebra:021000",
+        "reason": "Orthogonal factorization as a complementary approach."
+      }
+    ],
+    "background": [
+      "Linear systems, elementary row operations, matrix multiplication, rank and independence."
+    ],
+    "readiness_checks": [
+      "Can you eliminate one variable by subtracting a multiple of an equation?",
+      "Can you solve an upper-triangular three-by-three system by backward substitution?"
+    ]
+  }
+}

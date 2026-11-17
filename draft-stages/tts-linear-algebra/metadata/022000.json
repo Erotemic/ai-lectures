@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "lecture_id": "022000",
+  "transcript": "022000-conditioning-residuals-and-backward-error.md",
+  "related_resources": [
+    {
+      "source_id": "la-higham-accuracy",
+      "reason": "Backward error, finite-precision behavior and iterative refinement."
+    },
+    {
+      "source_id": "la-trefethen-bau",
+      "reason": "Condition numbers and stable algorithms."
+    },
+    {
+      "source_id": "la-demmel-applied",
+      "reason": "Quantitative conditioning and forward-error analysis."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-17",
+    "scope": "New original instructional manuscript for the numerical matrix algorithms bridge; no inherited narration rewritten."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "linear-algebra:020000",
+        "reason": "Provides solves, inverses, and numerical pivoting examples."
+      },
+      {
+        "lecture_id": "linear-algebra:006000",
+        "reason": "Provides norms, invertibility, and singular values."
+      }
+    ],
+    "recommended": [
+      {
+        "lecture_id": "numerical-analysis:002000",
+        "reason": "Review of floating-point rounding and error propagation."
+      },
+      {
+        "lecture_id": "numerical-analysis:003000",
+        "reason": "Independent numerical conditioning overview."
+      },
+      {
+        "lecture_id": "numerical-analysis:004000",
+        "reason": "Independent backward-error overview."
+      }
+    ],
+    "background": [
+      "Solving Ax=b, inverse matrices, matrix norms and relative error."
+    ],
+    "readiness_checks": [
+      "Can you distinguish the residual b minus A times x-hat from the unknown error x-star minus x-hat?",
+      "Can you explain why a nearly singular matrix makes inverse recovery sensitive?"
+    ]
+  }
+}
