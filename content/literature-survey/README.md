@@ -228,3 +228,20 @@ no translation is reproduced, no generated audio or images are supplied, and
 not all source witnesses have been collated exhaustively. The active lecture
 index now contains **101** entries; their authoring scope is specific to
 `content/literature-survey/`.
+
+## Importance-first overview rotation: Vietnam and Iceland (17 November 2026)
+
+Five authored lectures, `104000`–`108000`, continue the independent
+**story/analysis** format without imposing chapter-level divisions on works.
+
+| Work | Story narration | Separate analysis | Boundary |
+|---|---|---|---|
+| Nguyễn Du, *The Tale of Kiều* | `104000` (whole received 3,254-line narrative) | `105000` | Adaptation in Vietnamese lục bát, specific Nôm witness, no invented original chapters; reunion includes Kiều's choice of non-conjugal companionship |
+| *Poetic Edda* | `106000` (three separate mythological poems); `107000` (selected Sigurðr and Guðrún heroic lays) | `108000` | **Selected** poetry coverage, not all Eddic poems; *Völuspá*, *Þrymskviða* and *Hávamál* kept distinct; damaged codex and divergent heroic versions identified |
+
+The introduction route and appropriate nineteenth-century/medieval routes
+register each complete lecture and maintain story-before-analysis order.
+Actual speech durations, source records and claim-level anchors are saved in the
+track and sidecars. All narration is original English prose; no text of a
+modern copyrighted translation has been reproduced, and no audio or image
+assets are bundled. The active catalog now contains **106** indexed lectures.

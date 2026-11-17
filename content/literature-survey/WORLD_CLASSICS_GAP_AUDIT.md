@@ -100,3 +100,14 @@ and living tradition clearly distinguished; and *Sir Gawain and the Green
 Knight*. Some projects are not a single continuous plot and should retain
 their actual forms. No future work is counted as finished until it has a
 registered manuscript, sources and a listening route.
+
+## New overview coverage and importance-first rotation (17 November 2026)
+
+- **Completed:** Nguyễn Du's *Tale of Kiều*, `104000` story and `105000` analysis, based on a named Vietnamese textual witness and manuscript scholarship. This gives full major-arc coverage, not a line-by-line translation.
+- **Selected:** the *Poetic Edda*, `106000`–`108000`. Three mythological poems and a connected but textually bounded Sigurðr–Brynhildr–Guðrún cycle with standalone analysis; **many other poems remain** for later deep dives.
+- **Next priorities, impact first:** *Dream of the Red Chamber* (requires two substantial story lectures; source-edition audit first); *The Tale of the Bamboo Cutter* (short standalone, early Japanese prose); *Njáls saga* (Icelandic family and law epic); and *Book of Dede Korkut* (selected complete tales from a named manuscript/translation), interleaved with works from other times and regions rather than following a geographic quota.
+- **Research before authoring:** *Sundiata* (choose an identified performer and permissible telling), *Huarochirí Manuscript* (Quechua witness, translation and cultural context), and *I La Galigo* (identified Bugis source). Do not imply that a selected oral version is an ancient fixed original.
+
+The earlier Tier 1 and Tier 2 planning tables remain as an audit of the
+initial gaps; some entries have now been completed or selected. The coverage
+ledger above is the current status, rather than the stale queue wording.
