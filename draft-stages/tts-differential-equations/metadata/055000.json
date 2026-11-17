@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "lecture_id": "055000",
+  "transcript": "055000-laplace-transforms-from-the-integral.md",
+  "related_resources": [
+    {
+      "source_id": "de-mit-laplace-basics",
+      "reason": "Defining integral, convergence half-plane, exponential and trigonometric transform pairs."
+    },
+    {
+      "source_id": "de-mit-laplace-overview",
+      "reason": "One-sided transforms, transient forcing, convolution, and impulses."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-17",
+    "scope": "Original foundation-first Laplace transform lecture with non-spoken mathematical companion; existing lecture manuscripts retained."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "differential-equations:048000",
+        "reason": "First-order solution methods and initial-value checks."
+      }
+    ],
+    "recommended": [
+      {
+        "lecture_id": "differential-equations:051000",
+        "reason": "Optional connection to the previous Fourier and frequency-response sequence."
+      }
+    ],
+    "background": [
+      "Elementary algebra, calculus, integration by parts, exponentials, and sine/cosine; no functional analysis or PDE theory."
+    ],
+    "readiness_checks": [
+      "Compute the transforms of exponentials, ramps, sines and cosines from the definition.",
+      "Explain the region of convergence for an exponentially growing input.",
+      "Check the large-s limit against a signal's right-hand initial value."
+    ]
+  }
+}

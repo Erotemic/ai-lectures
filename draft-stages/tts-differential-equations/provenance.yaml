@@ -86,3 +86,18 @@ transcript:
     scope: Add four original foundation-first Fourier and periodic-forcing lectures with
       worked harmonic calculations, convergence hypotheses and source records.
       Preserve the previous 17 manuscripts and existing routes.
+  - date: '2026-11-17'
+    models:
+    - GPT-6
+    sources:
+    - lecture: '055000'
+      composition_record: metadata/055000.json
+    - lecture: '056000'
+      composition_record: metadata/056000.json
+    - lecture: '057000'
+      composition_record: metadata/057000.json
+    - lecture: '058000'
+      composition_record: metadata/058000.json
+    scope: Add four original foundation-first Laplace transform lectures with integral
+      derivations, worked IVPs, stepped and impulse forcing, convolution, source records
+      and a standalone listening route. Preserve the earlier 21 manuscript texts.

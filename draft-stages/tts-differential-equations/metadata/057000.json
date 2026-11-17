@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "lecture_id": "057000",
+  "transcript": "057000-step-inputs-delays-and-impulses.md",
+  "related_resources": [
+    {
+      "source_id": "de-mit-laplace-steps",
+      "reason": "Piecewise signals, step functions, delta distributions, and generalized derivatives."
+    },
+    {
+      "source_id": "de-mit-laplace-impulse",
+      "reason": "State response to jumps and impulses in first- and second-order ODEs."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-17",
+    "scope": "Original foundation-first Laplace transform lecture with non-spoken mathematical companion; existing lecture manuscripts retained."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "differential-equations:056000",
+        "reason": "Derivative transforms and inverse partial fractions."
+      }
+    ],
+    "recommended": [],
+    "background": [
+      "Elementary algebra, calculus, integration by parts, exponentials, and sine/cosine; no functional analysis or PDE theory."
+    ],
+    "readiness_checks": [
+      "Use u(t-a) correctly for delayed ramps and rectangular pulses.",
+      "Compute the exact on-off response of a first-order ODE.",
+      "Distinguish a state jump from a velocity jump under a delta impulse."
+    ]
+  }
+}

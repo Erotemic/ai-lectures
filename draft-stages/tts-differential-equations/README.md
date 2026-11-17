@@ -2,7 +2,7 @@
 
 Ordinary differential equations and dynamical systems: initial-value problems, existence and uniqueness, phase portraits, oscillations, stability, nonlinear dynamics and numerical integration, later partial differential equations.
 
-The current pack contains **21 lecture manuscripts**. Short concept chapters have been consolidated where they develop one subject. Each numbered manuscript has one spoken region; its mathematical statements, exercises, sources, and inherited component notes remain in the non-spoken companion.
+The current pack contains **25 lecture manuscripts**. Short concept chapters have been consolidated where they develop one subject. Each numbered manuscript has one spoken region; its mathematical statements, exercises, sources, and inherited component notes remain in the non-spoken companion.
 
 ## Listening routes
 
@@ -11,6 +11,7 @@ The current pack contains **21 lecture manuscripts**. Short concept chapters hav
 - **Differential Equations · ODE Foundations** (Guided route): `001000`, `004000`, `007000`.
 - **Differential Equations · Worked First-Order Problems and Oscillators** (Foundation bridge): `047000`, `048000`, `049000`, `050000`.
 - **Differential Equations · Fourier Series and Periodic Forcing from Scratch** (Foundation bridge): `051000`, `052000`, `053000`, `054000`.
+- **Differential Equations · Laplace Transforms and Switched Forcing from Scratch** (Foundation bridge): `055000`, `056000`, `057000`, `058000`.
 - **Differential Equations · Periodic Orbits and Hamiltonian Dynamics** (Deep dive): `012000`.
 - **Differential Equations · Diffusion, Fronts, and Pattern Formation** (Deep dive): `010000`, `014000`, `022000`.
 - **Differential Equations · Conservation Laws and Viscous Shocks** (Deep dive): `010000`, `018000`.
@@ -45,6 +46,10 @@ Durations are measured from the current spoken text at 145 words per minute, bef
 | `052000` | [What Fourier Series Converge To](052000-what-fourier-series-converge-to.md) | 12.2 |
 | `053000` | [First-Order Systems as Frequency Filters](053000-first-order-systems-as-frequency-filters.md) | 11.6 |
 | `054000` | [Periodic Forcing, Resonance, and Damping](054000-periodic-forcing-resonance-and-damping.md) | 12.5 |
+| `055000` | [Laplace Transforms from the Integral](055000-laplace-transforms-from-the-integral.md) | 11.8 |
+| `056000` | [Initial Values Become Algebra](056000-initial-values-and-inverse-transforms.md) | 12.2 |
+| `057000` | [Step Inputs, Delays, and Impulses](057000-step-inputs-delays-and-impulses.md) | 11.9 |
+| `058000` | [Convolution and Transfer Functions](058000-convolution-and-transfer-functions.md) | 13.8 |
 
 ## Foundation-first continuation
 
@@ -53,6 +58,11 @@ The new route is a worked alternative to the short-topic consolidation in `00100
 ## Fourier and periodic-forcing foundation bridge
 
 The `051000`–`054000` route starts from Fourier coefficients and orthogonality, explains projection and convergence, then solves first- and second-order linear ODEs under periodic forcing. It supplies worked calculations, initial-data adjustments and failure cases before introducing higher PDE modes or transfer-function formalisms. The earlier manuscripts and survey remain unchanged.
+
+
+## Laplace transform foundation bridge
+
+The `055000`–`058000` route derives the one-sided transform directly from its integral, then shows how initial values appear as boundary terms, how switches and impulses affect solutions, and why the causal convolution integral becomes multiplication in the transform domain. Each derivation is checked against the original time-domain ODE. The route builds on first-order ODEs and can be followed independently of the Fourier route, although the two connect through harmonic transfer functions. There is no PDE prerequisite.
 
 ## Sources and authoring
 

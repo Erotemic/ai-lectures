@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "lecture_id": "056000",
+  "transcript": "056000-initial-values-and-inverse-transforms.md",
+  "related_resources": [
+    {
+      "source_id": "de-mit-laplace-ivp",
+      "reason": "Derivative rules, boundary terms, and constant-coefficient IVP solutions."
+    },
+    {
+      "source_id": "de-mit-laplace-inverse",
+      "reason": "Rational inverse transforms, partial fractions, and repeated poles."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-17",
+    "scope": "Original foundation-first Laplace transform lecture with non-spoken mathematical companion; existing lecture manuscripts retained."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "differential-equations:055000",
+        "reason": "Defining integral and elementary transform pairs."
+      },
+      {
+        "lecture_id": "differential-equations:048000",
+        "reason": "First-order solution methods and initial-value checks."
+      }
+    ],
+    "recommended": [],
+    "background": [
+      "Elementary algebra, calculus, integration by parts, exponentials, and sine/cosine; no functional analysis or PDE theory."
+    ],
+    "readiness_checks": [
+      "Derive the transform of the first and second derivatives including initial terms.",
+      "Solve both a first-order and a second-order IVP by partial fractions.",
+      "Explain what a repeated pole means in the time solution."
+    ]
+  }
+}

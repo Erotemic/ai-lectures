@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "lecture_id": "058000",
+  "transcript": "058000-convolution-and-transfer-functions.md",
+  "related_resources": [
+    {
+      "source_id": "de-mit-laplace-convolution",
+      "reason": "Definition, Green formula, convolution as accumulated impulse response."
+    },
+    {
+      "source_id": "de-mit-laplace-transfer",
+      "reason": "Impulse-response and transfer-function correspondence, system composition."
+    },
+    {
+      "source_id": "de-mit-laplace-poles",
+      "reason": "Poles, decay rates, and frequency response."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-17",
+    "scope": "Original foundation-first Laplace transform lecture with non-spoken mathematical companion; existing lecture manuscripts retained."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "differential-equations:056000",
+        "reason": "Derivative transforms and inverse partial fractions."
+      },
+      {
+        "lecture_id": "differential-equations:057000",
+        "reason": "Delayed inputs and impulse response jump conditions."
+      }
+    ],
+    "recommended": [
+      {
+        "lecture_id": "differential-equations:053000",
+        "reason": "Optional connection to the previous Fourier and frequency-response sequence."
+      }
+    ],
+    "background": [
+      "Elementary algebra, calculus, integration by parts, exponentials, and sine/cosine; no functional analysis or PDE theory."
+    ],
+    "readiness_checks": [
+      "Derive a convolution integral by variation of constants.",
+      "Recover the response to a ramp from both convolution and partial fractions.",
+      "Compute a two-stage cascade and separate zero-state from free response."
+    ]
+  }
+}

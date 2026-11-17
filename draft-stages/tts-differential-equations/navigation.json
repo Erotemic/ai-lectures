@@ -78,6 +78,36 @@
       ]
     },
     {
+      "id": "laplace-initial-value-foundations",
+      "title": "Differential Equations · Laplace Transforms and Switched Forcing from Scratch",
+      "role": "deep_dive",
+      "parent": "survey",
+      "lectures": [
+        "055000",
+        "056000",
+        "057000",
+        "058000"
+      ],
+      "assumed_background": [
+        "Single-variable integration and integration by parts, exponentials and trigonometry, and elementary first-order initial-value problems; no complex analysis or Fourier transform prerequisites."
+      ],
+      "preparation_collections": [
+        "differential-equations:worked-ode-foundations"
+      ],
+      "related_collections": [
+        "survey",
+        "worked-ode-foundations",
+        "fourier-periodic-forcing-foundations"
+      ],
+      "tags": [
+        "Differential equations",
+        "Laplace transforms",
+        "Initial-value problems",
+        "Step and impulse inputs",
+        "Convolution"
+      ]
+    },
+    {
       "id": "dynamics",
       "title": "Differential Equations · Periodic Orbits and Hamiltonian Dynamics",
       "role": "deep_dive",
