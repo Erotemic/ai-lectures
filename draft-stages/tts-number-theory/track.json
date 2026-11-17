@@ -1,7 +1,7 @@
 {
   "id": "number-theory",
   "title": "Number Theory from First Principles",
-  "summary": "A proof-driven introduction to number theory: divisibility, modular arithmetic, integer equations, continued fractions and the complete Pell theorem, quadratic reciprocity, Möbius inversion, elementary prime distribution, Hensel lifting, Gaussian integer factorization and two squares, primality certification, and finite fields with primitive roots.",
+  "summary": "A proof-driven introduction to number theory from divisibility and Pell equations through reciprocity, Möbius inversion, Gaussian integers, finite fields, and analytic foundations: series and logarithms, summation by parts, character orthogonality, Euler products, zeta, and Dirichlet L-series.",
   "assumed_background": [
     "integer arithmetic, fractions, equations and basic algebra",
     "comfortable reading simple proofs helps; the Mathematical Reasoning and Proof course is optional preparation",
@@ -22,7 +22,11 @@
     "prime-powers-and-lifting",
     "gaussian-integers",
     "primality-and-certification",
-    "finite-fields-and-primitive-roots"
+    "finite-fields-and-primitive-roots",
+    "analytic-tools",
+    "characters-and-orthogonality",
+    "euler-products-and-zeta",
+    "dirichlet-l-series"
   ],
   "lectures": [
     {
@@ -150,6 +154,42 @@
       "spoken_words": 2398,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 16.5
+    },
+    {
+      "id": "015000",
+      "title": "Series, Logarithms, and Summation by Parts",
+      "section": "analytic-tools",
+      "file": "015000-series-logarithms-and-summation-by-parts.md",
+      "spoken_words": 2340,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 16.1
+    },
+    {
+      "id": "016000",
+      "title": "Dirichlet Characters and Arithmetic Fourier Filters",
+      "section": "characters-and-orthogonality",
+      "file": "016000-dirichlet-characters-and-orthogonality.md",
+      "spoken_words": 2103,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 14.5
+    },
+    {
+      "id": "017000",
+      "title": "Euler Products, the Zeta Function, and Prime Weights",
+      "section": "euler-products-and-zeta",
+      "file": "017000-euler-products-zeta-and-prime-weights.md",
+      "spoken_words": 2085,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 14.4
+    },
+    {
+      "id": "018000",
+      "title": "Dirichlet L-Series and the Boundary of the Progression Theorem",
+      "section": "dirichlet-l-series",
+      "file": "018000-dirichlet-l-series-and-primes-in-progressions.md",
+      "spoken_words": 2202,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 15.2
     }
   ]
 }

@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "lecture_id": "016000",
+  "transcript": "016000-dirichlet-characters-and-orthogonality.md",
+  "related_resources": [
+    {
+      "source_id": "nt-dlmf-characters",
+      "reason": "Definition and orthogonality"
+    },
+    {
+      "source_id": "nt-wiki-characters",
+      "reason": "Worked character table conventions"
+    },
+    {
+      "source_id": "nt-primitive-root",
+      "reason": "Prime-power unit-group classification"
+    },
+    {
+      "source_id": "nt-tao-elementary",
+      "reason": "Characters as filters for primes"
+    }
+  ],
+  "mathematical_claims": [
+    {
+      "id": "016000-m01",
+      "anchor": "A character on the unit group assigns to each unit a complex number of absolute value one.",
+      "source_ids": [
+        "nt-dlmf-characters",
+        "nt-wiki-characters"
+      ],
+      "source_locator": "Character definition as finite-group homomorphism",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "016000-m02",
+      "anchor": "The sum is zero.",
+      "source_ids": [
+        "nt-dlmf-characters",
+        "nt-wiki-characters"
+      ],
+      "source_locator": "First orthogonality over unit residues",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "016000-m03",
+      "anchor": "If u is not one, the sum is zero.",
+      "source_ids": [
+        "nt-dlmf-characters",
+        "nt-wiki-characters"
+      ],
+      "source_locator": "Second orthogonality over characters",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "016000-m04",
+      "anchor": "the number of characters is phi of q:",
+      "source_ids": [
+        "nt-dlmf-characters",
+        "nt-primitive-root"
+      ],
+      "source_locator": "CRT plus odd-prime-power and two-power unit-group decomposition",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "016000-m05",
+      "anchor": "the average over all characters of chi of n times the complex conjugate of chi of a equals one",
+      "source_ids": [
+        "nt-dlmf-characters",
+        "nt-wiki-characters"
+      ],
+      "source_locator": "Character projection formula for reduced residue classes",
+      "audit_status": "reading_reference_recorded"
+    }
+  ],
+  "historical_claims": []
+}

@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "lecture_id": "018000",
+  "transcript": "018000-dirichlet-l-series-and-primes-in-progressions.md",
+  "related_resources": [
+    {
+      "source_id": "nt-dlmf-l",
+      "reason": "L-series identities and nonvanishing theorem"
+    },
+    {
+      "source_id": "nt-dlmf-characters",
+      "reason": "Character projection"
+    },
+    {
+      "source_id": "nt-tao-elementary",
+      "reason": "General Dirichlet theorem proof as follow-up reading"
+    },
+    {
+      "source_id": "nt-tao-ap",
+      "reason": "Stronger distribution theorem"
+    },
+    {
+      "source_id": "nt-wiki-dirichlet-ap",
+      "reason": "Accessible context"
+    }
+  ],
+  "mathematical_claims": [
+    {
+      "id": "018000-m01",
+      "anchor": "Capital L of s comma chi is the product over all primes p of one divided by one minus chi of p over p to the s.",
+      "source_ids": [
+        "nt-dlmf-l"
+      ],
+      "source_locator": "Euler product for L(s,chi), s>1",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "018000-m02",
+      "anchor": "the principal L-series also diverges on that scale.",
+      "source_ids": [
+        "nt-dlmf-l",
+        "nt-dlmf-zeta"
+      ],
+      "source_locator": "Principal L-series near s=1",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "018000-m03",
+      "anchor": "is well defined for every nonprincipal character.",
+      "source_ids": [
+        "nt-dlmf-l",
+        "nt-tao-elementary"
+      ],
+      "source_locator": "Conditional convergence by bounded period sums",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "018000-m04",
+      "anchor": "The sum over primes p congruent to a modulo q equals one over phi of q times a sum over characters.",
+      "source_ids": [
+        "nt-dlmf-characters",
+        "nt-tao-elementary"
+      ],
+      "source_locator": "Orthogonality applied to prime sums",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "018000-m05",
+      "anchor": "The hard fact, which we state here but have not proved, is that L of one comma chi is nonzero for every nonprincipal Dirichlet character.",
+      "source_ids": [
+        "nt-dlmf-l",
+        "nt-tao-elementary"
+      ],
+      "source_locator": "Nonvanishing theorem, explicitly unproved",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "018000-m06",
+      "anchor": "the reciprocal series of the primes in either class diverges.",
+      "source_ids": [
+        "nt-tao-elementary",
+        "nt-wiki-dirichlet-ap"
+      ],
+      "source_locator": "Unconditional modulus-three calculation and character averaging",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "018000-m07",
+      "anchor": "The prime number theorem in arithmetic progressions makes a substantially sharper claim:",
+      "source_ids": [
+        "nt-tao-ap"
+      ],
+      "source_locator": "Distinction from Dirichlet infinitude",
+      "audit_status": "reading_reference_recorded"
+    }
+  ],
+  "historical_claims": []
+}

@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "lecture_id": "017000",
+  "transcript": "017000-euler-products-zeta-and-prime-weights.md",
+  "related_resources": [
+    {
+      "source_id": "nt-dlmf-euler",
+      "reason": "Rigorous Euler-product and convolution identities"
+    },
+    {
+      "source_id": "nt-dlmf-zeta",
+      "reason": "Domain of zeta series"
+    },
+    {
+      "source_id": "nt-tao-elementary",
+      "reason": "Logarithmic prime sums and von Mangoldt weights"
+    },
+    {
+      "source_id": "nt-wiki-euler-product",
+      "reason": "Background terminology"
+    }
+  ],
+  "mathematical_claims": [
+    {
+      "id": "017000-m01",
+      "anchor": "We have proved Euler's product formula:",
+      "source_ids": [
+        "nt-dlmf-euler"
+      ],
+      "source_locator": "Monotone finite-prime product limit for s>1",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "017000-m02",
+      "anchor": "the difference between zeta of s and that finite product is no more than the tail",
+      "source_ids": [
+        "nt-dlmf-euler",
+        "nt-wiki-integral"
+      ],
+      "source_locator": "Finite-prime truncation bound via missing integers",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "017000-m03",
+      "anchor": "the sum over primes of one over p to the s grows like log of one over s minus one",
+      "source_ids": [
+        "nt-dlmf-euler",
+        "nt-tao-elementary"
+      ],
+      "source_locator": "Logarithmic Euler-product remainder uniform near one",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "017000-m04",
+      "anchor": "the generating series for Möbius is the reciprocal of zeta",
+      "source_ids": [
+        "nt-dlmf-euler"
+      ],
+      "source_locator": "Dirichlet convolution corresponds to multiplication of absolutely convergent series",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "017000-m05",
+      "anchor": "negative zeta prime of s divided by zeta of s equals the sum over all n of Lambda",
+      "source_ids": [
+        "nt-tao-elementary",
+        "nt-wiki-von-mangoldt"
+      ],
+      "source_locator": "Logarithmic derivative and prime-power coefficients",
+      "audit_status": "reading_reference_recorded"
+    }
+  ],
+  "historical_claims": []
+}

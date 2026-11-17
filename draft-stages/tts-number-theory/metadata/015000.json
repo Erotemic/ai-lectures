@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "lecture_id": "015000",
+  "transcript": "015000-series-logarithms-and-summation-by-parts.md",
+  "related_resources": [
+    {
+      "source_id": "nt-wiki-summation",
+      "reason": "Finite and integral summation-by-parts formulas"
+    },
+    {
+      "source_id": "nt-wiki-integral",
+      "reason": "Convergence and logarithmic comparison"
+    },
+    {
+      "source_id": "nt-wiki-dirichlet-test",
+      "reason": "Series convergence from cancellation"
+    },
+    {
+      "source_id": "nt-tao-elementary",
+      "reason": "Applications to counting functions and number theory"
+    }
+  ],
+  "mathematical_claims": [
+    {
+      "id": "015000-m01",
+      "anchor": "So the positive-term series converges precisely when s is greater than one.",
+      "source_ids": [
+        "nt-dlmf-zeta",
+        "nt-wiki-integral"
+      ],
+      "source_locator": "Power-series comparison via the integral test",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "015000-m02",
+      "anchor": "the harmonic sum grows on the scale of the logarithm, with an error no larger than one.",
+      "source_ids": [
+        "nt-tao-elementary",
+        "nt-wiki-integral"
+      ],
+      "source_locator": "Integral sandwich for H_N",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "015000-m03",
+      "anchor": "The result is a discrete integration-by-parts formula:",
+      "source_ids": [
+        "nt-wiki-summation",
+        "nt-tao-elementary"
+      ],
+      "source_locator": "Exact Abel summation via finite telescoping",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "015000-m04",
+      "anchor": "This is Dirichlet's test for series.",
+      "source_ids": [
+        "nt-wiki-dirichlet-test"
+      ],
+      "source_locator": "Proof using bounded partial sums and a monotone weight",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "015000-m05",
+      "anchor": "the sum of one over n across the selected integers up to x equals delta times log x plus a bounded error.",
+      "source_ids": [
+        "nt-tao-elementary",
+        "nt-wiki-summation"
+      ],
+      "source_locator": "Weighted count from A(x)=delta x + O(1)",
+      "audit_status": "reading_reference_recorded"
+    }
+  ],
+  "historical_claims": []
+}

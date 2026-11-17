@@ -1,8 +1,8 @@
 # Number Theory from First Principles
 
-A proof-driven course joining integer arithmetic to algebraic structure and effective algorithms. The course begins with gcds and congruences, then develops equations in integers, reciprocity and analytic bridges, and culminates in complete Pell classification, Gaussian integers, primality tests, and finite multiplicative groups. It now contains **14 substantive lectures**.
+A proof-driven course connecting integer arithmetic with algorithms, algebraic structure and analytic number theory. It starts with gcds and congruences, then develops integer equations, reciprocity, arithmetic functions, primality, finite fields, and the series and character methods used to study primes in progressions. The course contains **18 substantive lectures**.
 
-No advanced algebra or analytic number theory is assumed at the beginning; later lectures build the prerequisites they use. Each manuscript has one extractable spoken region, plus display-only mathematical arguments, reasoning problems and reading references. Word counts are measurements, not duration targets.
+No advanced algebra or analytic number theory is assumed at the beginning; the later lectures establish the prerequisites used in their arguments. Each manuscript has one extractable spoken region plus a display-only companion, exercises, source metadata and Wikipedia links. Word counts are descriptive measurements, never editorial targets.
 
 ## Main listening sequence
 
@@ -22,15 +22,21 @@ No advanced algebra or analytic number theory is assumed at the beginning; later
 | `012000` | [Gaussian Integers and the Two-Squares Theorem](012000-gaussian-integers-and-two-squares.md) | 2,170 |
 | `013000` | [Primality Tests, Compositeness Witnesses, and Certificates](013000-primality-witnesses-and-certificates.md) | 2,291 |
 | `014000` | [Finite Fields, Primitive Roots, and Unit Groups](014000-finite-fields-and-primitive-roots.md) | 2,398 |
+| `015000` | [Series, Logarithms, and Summation by Parts](015000-series-logarithms-and-summation-by-parts.md) | 2,340 |
+| `016000` | [Dirichlet Characters and Arithmetic Fourier Filters](016000-dirichlet-characters-and-orthogonality.md) | 2,103 |
+| `017000` | [Euler Products, the Zeta Function, and Prime Weights](017000-euler-products-zeta-and-prime-weights.md) | 2,085 |
+| `018000` | [Dirichlet L-Series and the Boundary of the Progression Theorem](018000-dirichlet-l-series-and-primes-in-progressions.md) | 2,202 |
 
-Total: **14 lectures**, **28,124 spoken words** (descriptive measurement, not an editorial limit).
+Total: **18 lectures**, **36,854 spoken words** (descriptive measurement, not an editorial limit).
 
 ## Proven results and deliberate boundaries
 
-Lectures 001000–006000 give the elementary prerequisites. Lecture 007000 proves quadratic reciprocity; 008000 proves Möbius inversion; 009000 proves elementary prime-distribution results without claiming the full prime number theorem or Dirichlet theorem; and 010000 proves simple-root Hensel lifting.
+Lectures 001000–006000 develop classical arithmetic, modular computation, Diophantine equations, elementary Pell examples and quadratic residues. Lecture 007000 proves quadratic reciprocity; 008000 proves Möbius inversion; 009000 establishes elementary prime-distribution results without asserting either the full prime number theorem or Dirichlet's theorem; and 010000 proves simple-root Hensel lifting.
 
-**Continuation 3 (011000–014000)** proves periodicity for continued fractions of square roots, constructs a Pell solution for every nonsquare positive D, and classifies every positive norm-one solution as a power of the fundamental unit. It proves Euclidean division and unique factorization in the Gaussian integers, then the prime and general two-squares criteria. It proves Miller–Rabin prime soundness and existence of strong witnesses for every odd composite, and supplies a worked Lucas-type certificate for 29; the quantitative Monier–Rabin one-quarter bound is cited as a separate, **unproved** theorem. It proves finite multiplicative subgroups of fields are cyclic and lifts primitive roots to every odd prime power; it constructs the four-element field but does not assert a proof of the general finite-field existence and uniqueness theorem. The converse criterion for the negative Pell equation is likewise left as a reading result.
+Continuation 3, lectures 011000–014000, proves periodicity for square-root continued fractions, existence and positive-solution classification for Pell's equation, Gaussian unique factorization and the complete two-squares criterion, primality soundness and certificates, and cyclicity of finite multiplicative subgroups with generators at odd prime powers. The negative-Pell converse criterion, quantitative Monier–Rabin error bound, and finite-field classification require additional arguments and are not presented as fully proved.
+
+**Continuation 4, lectures 015000–018000**, adds convergence and integral comparison, logarithmic estimates, discrete and integral summation by parts, Dirichlet's test, general character construction and orthogonality, rigorous Euler products and zeta identities, arithmetic-function Dirichlet series, the von Mangoldt generating identity, and Dirichlet L-series. The final lecture proves the progression argument for moduli 3 and 4, where the necessary nonprincipal L-values are explicitly shown nonzero. It derives the argument for arbitrary moduli **conditionally on** the separate theorem that every nonprincipal L(1,chi) is nonzero; it does not claim to prove that theorem or the prime number theorem in arithmetic progressions.
 
 ## Related library courses and attribution
 
-The concrete constructions prepare for abstract algebra, algorithms and complexity, algebraic number theory, and the future analytic number theory strand. No other content pack was changed. Claim-level reading references and related Wikipedia articles are recorded per lecture under `metadata/`; recording a source is not a claim that every external proof has been audited line by line. Original manuscripts and their mathematical companions are authored as separate text. See `BACKLOG.md` for follow-up foundations and `provenance.yaml` for attribution.
+These concrete constructions prepare for abstract algebra, analysis, algorithms, and deeper analytic and algebraic number theory. No other content pack is changed by this continuation. Claim-level references are recorded under `metadata/`, with primary mathematical reference sources and Wikipedia background. A reading reference is not a claim that its proofs were copied or independently line-audited. See `BACKLOG.md` for next foundations and `provenance.yaml` for authorship history.
