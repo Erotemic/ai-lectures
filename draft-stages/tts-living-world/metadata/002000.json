@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "lecture_id": "002000",
+  "transcript": "002000-animal-sensory-worlds.md",
+  "related_resources": [
+    {
+      "source_id": "lw-senses-umwelt",
+      "reason": "Historical background on von Uexkull, Umwelt, Griffin and inferences about subjective perception."
+    },
+    {
+      "source_id": "lw-senses-bats",
+      "reason": "Bat echolocation, Griffin, acoustic orientation and limitations."
+    },
+    {
+      "source_id": "lw-senses-frisch1973",
+      "reason": "Bee color experiments, polarized skylight orientation and dance communication."
+    },
+    {
+      "source_id": "lw-senses-thoen2014",
+      "reason": "Behavioral wavelength discrimination vs receptor count; narrower than popular super-color claims."
+    },
+    {
+      "source_id": "lw-senses-cronin2022",
+      "reason": "Technical uncertainties and functional models of stomatopod color vision."
+    },
+    {
+      "source_id": "lw-senses-sharks",
+      "reason": "Lateral line and electroreception in sharks."
+    },
+    {
+      "source_id": "lw-senses-sharks-hawaii",
+      "reason": "Ampullae of Lorenzini; near-field prey detection and sense complementarity."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "002000-e01",
+      "anchor": "The biologist Jakob von Uexkull developed the idea of an animal's Umwelt",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "lw-senses-umwelt"
+      ],
+      "source_locator": "Historical and conceptual origin of Umwelt",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "002000-e02",
+      "anchor": "Many insect-eating bats navigate and hunt using echolocation.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "lw-senses-bats"
+      ],
+      "source_locator": "Bats and acoustical orientation",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "002000-e03",
+      "anchor": "Donald Griffin and colleagues investigated bat orientation and ultrasonic vocalizations in the twentieth century",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "lw-senses-bats",
+        "lw-senses-umwelt"
+      ],
+      "source_locator": "Experimental and historical bat echolocation research",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "002000-e04",
+      "anchor": "Karl von Frisch trained bees with food rewards and tested their responses among cards of different grays and colors.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "lw-senses-frisch1973"
+      ],
+      "source_locator": "Bee color vision controls",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "002000-e05",
+      "anchor": "In a classic style of experiment described by von Frisch, changing the orientation of a polarizing filter altered the direction indicated by dancing honeybees.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "lw-senses-frisch1973"
+      ],
+      "source_locator": "Polarized light and orientation experiment",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "002000-e06",
+      "anchor": "In a 2014 study, Hanne Thoen and collaborators found that the animals did not show the fine wavelength discrimination",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "lw-senses-thoen2014"
+      ],
+      "source_locator": "Behavioral color discrimination findings",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "002000-e07",
+      "anchor": "Subsequent reviews emphasize that the complete mechanism and ecological uses remain incompletely understood.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "lw-senses-cronin2022"
+      ],
+      "source_locator": "Uncertainty in stomatopod color vision models",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "002000-e08",
+      "anchor": "A shark or ray can detect very weak electric fields through sensory structures called ampullae of Lorenzini",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "lw-senses-sharks",
+        "lw-senses-sharks-hawaii"
+      ],
+      "source_locator": "Shark electroreception anatomy and function",
+      "audit_status": "source_checked"
+    }
+  ]
+}

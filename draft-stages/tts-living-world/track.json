@@ -1,0 +1,94 @@
+{
+  "id": "living-world",
+  "title": "The Living World: How Nature Works",
+  "summary": "Audio-first natural history for curious adults: evidence-rich investigations of ecological processes, sensory worlds, soil life, and evolutionary mechanisms. Standalone essays combining field experiments, organism details, explanatory mechanisms, and the boundaries of present knowledge. First installment of a planned finite series.",
+  "categories": [
+    "Science and nature"
+  ],
+  "audiences": [
+    "general",
+    "science enthusiasts"
+  ],
+  "tags": [
+    "Biology",
+    "Natural history",
+    "Ecology",
+    "Evolution",
+    "Animal behavior",
+    "Scientific evidence",
+    "Life sciences"
+  ],
+  "assumed_background": [
+    "No formal biology prerequisite. Scientific terms and research methods are explained in context.",
+    "Each essay works independently; the suggested order builds from ecological flows to sensory experience, soil processes, and evolution."
+  ],
+  "editorial_status": "in_progress",
+  "sections": [
+    "forest-ecology",
+    "animal-senses",
+    "soil-and-microbes",
+    "evolutionary-processes",
+    "plant-biology",
+    "animal-behavior",
+    "freshwater-and-marine",
+    "life-and-environments"
+  ],
+  "lectures": [
+    {
+      "id": "001000",
+      "title": "What Actually Happens in a Forest?",
+      "section": "forest-ecology",
+      "file": "001000-what-a-forest-does.md",
+      "spoken_words": 2468,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 17.0,
+      "tags": [
+        "Forest ecology",
+        "Photosynthesis",
+        "Nutrient cycling"
+      ]
+    },
+    {
+      "id": "002000",
+      "title": "The Worlds Animals Can Sense",
+      "section": "animal-senses",
+      "file": "002000-animal-sensory-worlds.md",
+      "spoken_words": 2050,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 14.1,
+      "tags": [
+        "Sensory biology",
+        "Animal behavior",
+        "Echolocation"
+      ]
+    },
+    {
+      "id": "003000",
+      "title": "The Hidden Life of Soil",
+      "section": "soil-and-microbes",
+      "file": "003000-hidden-life-of-soil.md",
+      "spoken_words": 2314,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 16.0,
+      "tags": [
+        "Soil ecology",
+        "Microbiology",
+        "Biogeochemistry"
+      ]
+    },
+    {
+      "id": "004000",
+      "title": "Why Evolution Keeps Finding Strange Solutions",
+      "section": "evolutionary-processes",
+      "file": "004000-evolution-strange-solutions.md",
+      "spoken_words": 2198,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 15.2,
+      "tags": [
+        "Evolution",
+        "Natural selection",
+        "Convergence"
+      ]
+    }
+  ]
+}

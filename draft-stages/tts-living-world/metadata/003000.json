@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "lecture_id": "003000",
+  "transcript": "003000-hidden-life-of-soil.md",
+  "related_resources": [
+    {
+      "source_id": "lw-soil-assessment",
+      "reason": "Physical, chemical and biological indicators and what each measures."
+    },
+    {
+      "source_id": "lw-soil-primer",
+      "reason": "Decomposition, organisms, food web, nutrient cycling, habitat and soil structure."
+    },
+    {
+      "source_id": "lw-soil-biota",
+      "reason": "Microbial immobilization and mineralization, root symbiosis, oxygen and moisture."
+    },
+    {
+      "source_id": "lw-soil-lehmann2015",
+      "reason": "Challenges fixed humic-substances model and argues for continuum of soil organic compounds."
+    },
+    {
+      "source_id": "lw-soil-necromass",
+      "reason": "Production, recycling, stabilization and destabilization of microbial necromass."
+    },
+    {
+      "source_id": "lw-soil-litter2022",
+      "reason": "Field and experimental tests caution against simplistic microbial-necromass assumptions."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "003000-e01",
+      "anchor": "The arrangement of grains and aggregates creates pores.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "lw-soil-assessment"
+      ],
+      "source_locator": "Soil structure and physical indicators",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "003000-e02",
+      "anchor": "Fungi and bacteria release enzymes that attack particular compounds.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "lw-soil-primer"
+      ],
+      "source_locator": "Decomposition and organisms in soil food web",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "003000-e03",
+      "anchor": "Certain plants, notably legumes, form specialized partnerships with nitrogen-fixing bacteria, often in root nodules.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "lw-soil-biota"
+      ],
+      "source_locator": "Nitrogen fixation in rhizobial legume systems",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "003000-e04",
+      "anchor": "Under suitable oxygen-rich conditions, specialized microorganisms can oxidize ammonium through nitrite to nitrate",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "lw-soil-primer",
+        "lw-soil-biota"
+      ],
+      "source_locator": "Nitrification and soil nitrogen transformations",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "003000-e05",
+      "anchor": "Under low-oxygen conditions, other microorganisms can use nitrate in reactions that ultimately return nitrogen gases",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "lw-soil-biota"
+      ],
+      "source_locator": "Anaerobic nitrogen cycle",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "003000-e06",
+      "anchor": "Johannes Lehmann and Markus Kleber argued in 2015 that soil organic matter is better understood as a continuum",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "lw-soil-lehmann2015"
+      ],
+      "source_locator": "Critical review of humic substances and organic matter model",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "003000-e07",
+      "anchor": "The remains of microbes themselves can contribute substantially to soil carbon.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "lw-soil-necromass"
+      ],
+      "source_locator": "Microbial necromass research",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "003000-e08",
+      "anchor": "Field and laboratory studies show relationships can be more complicated: stimulating decomposition may increase carbon loss",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "lw-soil-litter2022"
+      ],
+      "source_locator": "Empirical caution about microbial productivity and stabilization",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "003000-e09",
+      "anchor": "The USDA's soil biology and soil assessment resources reflect this multipronged view.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "lw-soil-assessment",
+        "lw-soil-primer"
+      ],
+      "source_locator": "Physical, chemical, biological indicator frameworks",
+      "audit_status": "source_checked"
+    }
+  ]
+}

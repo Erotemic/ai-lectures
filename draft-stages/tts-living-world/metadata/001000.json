@@ -1,0 +1,115 @@
+{
+  "schema_version": 1,
+  "lecture_id": "001000",
+  "transcript": "001000-what-a-forest-does.md",
+  "related_resources": [
+    {
+      "source_id": "lw-forest-transpiration",
+      "reason": "Transpiration as water leaving leaves and returning to atmosphere."
+    },
+    {
+      "source_id": "lw-soil-primer",
+      "reason": "Decomposition, organisms, food web, nutrient cycling, habitat and soil structure."
+    },
+    {
+      "source_id": "lw-forest-simard1997",
+      "reason": "Specific isotope-labeling field experiment; conclusions about net transfer and mechanisms require contextual interpretation."
+    },
+    {
+      "source_id": "lw-forest-karst2023",
+      "reason": "Documents evidence gaps and citation bias around common mycorrhizal networks; article has a bibliographic correction."
+    },
+    {
+      "source_id": "lw-forest-hubbard",
+      "reason": "Small watershed technique, hydrology, nutrient cycles, acid deposition, study scope."
+    },
+    {
+      "source_id": "lw-forest-likens1970",
+      "reason": "Treatments in 1965, stream flows and nitrate concentration relative to control watershed. Not typical logging."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "001000-e01",
+      "anchor": "A tree does not build its trunk mainly from material sucked out of the soil.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "lw-forest-transpiration",
+        "lw-soil-primer"
+      ],
+      "source_locator": "Forest carbon originates in photosynthetic fixation of atmospheric carbon; background physical ecology",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "001000-e02",
+      "anchor": "When water evaporates from leaves, it helps pull water up through the conducting tissue called xylem.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "lw-forest-transpiration"
+      ],
+      "source_locator": "Transpiration mechanism",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "001000-e03",
+      "anchor": "Many trees form associations with fungi that grow around or within roots.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "lw-soil-primer"
+      ],
+      "source_locator": "Mycorrhizal biology",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "001000-e04",
+      "anchor": "Isotopic labeling experiments have shown that carbon can move between some plants under some conditions",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "lw-forest-simard1997",
+        "lw-forest-karst2023"
+      ],
+      "source_locator": "Experimental tracer result and qualified interpretation",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "001000-e05",
+      "anchor": "In a 2023 review, Justine Karst, Melanie Jones, and Jason Hoeksema argued",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "lw-forest-karst2023"
+      ],
+      "source_locator": "Review assessing strong common-mycorrhizal-network claims",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "001000-e06",
+      "anchor": "An especially revealing natural laboratory is Hubbard Brook, an experimental forest in New Hampshire.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "lw-forest-hubbard"
+      ],
+      "source_locator": "Location and watershed methods",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "001000-e07",
+      "anchor": "In a famous experiment, researchers cut the vegetation in one watershed in late 1965 and prevented regrowth for two years with herbicides.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "lw-forest-likens1970"
+      ],
+      "source_locator": "Treatment history and duration",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "001000-e08",
+      "anchor": "Reported nitrate concentrations in stream water rose to roughly forty-one times the undisturbed comparison in the first year and fifty-six times in the second.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "lw-forest-likens1970"
+      ],
+      "source_locator": "Nitrate streamwater concentration relative to undisturbed watershed",
+      "audit_status": "source_checked"
+    }
+  ]
+}

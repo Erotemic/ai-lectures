@@ -1,0 +1,173 @@
+{
+  "schema_version": 1,
+  "sources": {
+    "lw-forest-hubbard": {
+      "title": "US Forest Service: Hubbard Brook Experimental Forest",
+      "kind": "research_station",
+      "url": "https://research.fs.usda.gov/nrs/forestsandranges/locations/hubbardbrook",
+      "access": "free_no_login",
+      "notes": "Small watershed technique, hydrology, nutrient cycles, acid deposition, study scope."
+    },
+    "lw-forest-likens1970": {
+      "title": "Likens, Bormann et al., Effects of Forest Cutting and Herbicide Treatment on Nutrient Budgets (1970)",
+      "kind": "primary_ecology",
+      "url": "https://doi.org/10.2307/1942440",
+      "access": "free_no_login",
+      "notes": "Treatments in 1965, stream flows and nitrate concentration relative to control watershed. Not typical logging."
+    },
+    "lw-forest-transpiration": {
+      "title": "US Geological Survey: Transpiration from plant leaves",
+      "kind": "government_education",
+      "url": "https://water.usgs.gov/edu/gallery/watercyclekids/transpiration-bag.html",
+      "access": "free_no_login",
+      "notes": "Transpiration as water leaving leaves and returning to atmosphere."
+    },
+    "lw-forest-simard1997": {
+      "title": "Simard et al., Net transfer of carbon between ectomycorrhizal tree species in the field (1997)",
+      "kind": "primary_ecology",
+      "url": "https://doi.org/10.1038/41557",
+      "access": "free_no_login",
+      "notes": "Specific isotope-labeling field experiment; conclusions about net transfer and mechanisms require contextual interpretation."
+    },
+    "lw-forest-karst2023": {
+      "title": "Karst, Jones, Hoeksema, Positive citation bias and overinterpreted results lead to misinformation on common mycorrhizal networks (2023)",
+      "kind": "critical_review",
+      "url": "https://doi.org/10.1038/s41559-023-01986-1",
+      "access": "free_no_login",
+      "notes": "Documents evidence gaps and citation bias around common mycorrhizal networks; article has a bibliographic correction."
+    },
+    "lw-soil-primer": {
+      "title": "USDA NRCS: Soil Biology Primer",
+      "kind": "government_reference",
+      "url": "https://www.nrcs.usda.gov/resources/education-and-teaching-materials/soil-biology-primer",
+      "access": "free_no_login",
+      "notes": "Decomposition, organisms, food web, nutrient cycling, habitat and soil structure."
+    },
+    "lw-senses-umwelt": {
+      "title": "Stanford Encyclopedia of Philosophy: Animal Consciousness",
+      "kind": "scholarly_review",
+      "url": "https://plato.stanford.edu/entries/consciousness-animal/",
+      "access": "free_no_login",
+      "notes": "Historical background on von Uexkull, Umwelt, Griffin and inferences about subjective perception."
+    },
+    "lw-senses-bats": {
+      "title": "Smithsonian Institution: Bat Facts",
+      "kind": "museum_reference",
+      "url": "https://www.si.edu/spotlight/bats/batfacts",
+      "access": "free_no_login",
+      "notes": "Bat echolocation, Griffin, acoustic orientation and limitations."
+    },
+    "lw-senses-frisch1973": {
+      "title": "Karl von Frisch, Decoding the Language of the Bee, Nobel Lecture 1973",
+      "kind": "researcher_primary_account",
+      "url": "https://www.nobelprize.org/uploads/2018/06/frisch-lecture.pdf",
+      "access": "free_no_login",
+      "notes": "Bee color experiments, polarized skylight orientation and dance communication."
+    },
+    "lw-senses-thoen2014": {
+      "title": "Thoen et al., A different form of color vision in mantis shrimp (Science 2014)",
+      "kind": "primary_behavioral_study",
+      "url": "https://doi.org/10.1126/science.1245824",
+      "access": "free_no_login",
+      "notes": "Behavioral wavelength discrimination vs receptor count; narrower than popular super-color claims."
+    },
+    "lw-senses-cronin2022": {
+      "title": "Colour vision in stomatopod crustaceans (2022 review)",
+      "kind": "scientific_review",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9441230/",
+      "access": "free_no_login",
+      "notes": "Technical uncertainties and functional models of stomatopod color vision."
+    },
+    "lw-senses-sharks": {
+      "title": "Smithsonian Ocean: Sharks",
+      "kind": "museum_reference",
+      "url": "https://ocean.si.edu/ocean-life/sharks-rays/sharks",
+      "access": "free_no_login",
+      "notes": "Lateral line and electroreception in sharks."
+    },
+    "lw-senses-sharks-hawaii": {
+      "title": "Hawaii Department of Land and Natural Resources: Shark Senses",
+      "kind": "government_reference",
+      "url": "https://dlnr.hawaii.gov/sharks/about-sharks/senses/",
+      "access": "free_no_login",
+      "notes": "Ampullae of Lorenzini; near-field prey detection and sense complementarity."
+    },
+    "lw-soil-assessment": {
+      "title": "USDA NRCS: Soil Health Assessment",
+      "kind": "government_reference",
+      "url": "https://www.nrcs.usda.gov/conservation-basics/soil/soil-health/soil-health-assessment",
+      "access": "free_no_login",
+      "notes": "Physical, chemical and biological indicators and what each measures."
+    },
+    "lw-soil-biota": {
+      "title": "USDA NRCS: Rangeland Soil Health, Soil Biota (2024)",
+      "kind": "government_reference",
+      "url": "https://www.nrcs.usda.gov/sites/default/files/2024-05/Rangeland%20Soil%20Health%20Soil%20Biota%20SD-FS-85b%205-9-24.pdf",
+      "access": "free_no_login",
+      "notes": "Microbial immobilization and mineralization, root symbiosis, oxygen and moisture."
+    },
+    "lw-soil-lehmann2015": {
+      "title": "Lehmann and Kleber, The contentious nature of soil organic matter (Nature 2015)",
+      "kind": "scientific_review",
+      "url": "https://doi.org/10.1038/nature16069",
+      "access": "free_no_login",
+      "notes": "Challenges fixed humic-substances model and argues for continuum of soil organic compounds."
+    },
+    "lw-soil-necromass": {
+      "title": "USGS: Deconstructing the microbial necromass continuum to inform soil carbon sequestration (2022)",
+      "kind": "scientific_review",
+      "url": "https://www.usgs.gov/publications/deconstructing-microbial-necromass-continuum-inform-soil-carbon-sequestration",
+      "access": "free_no_login",
+      "notes": "Production, recycling, stabilization and destabilization of microbial necromass."
+    },
+    "lw-soil-litter2022": {
+      "title": "Fast-decaying plant litter enhances soil carbon in temperate forests but not through microbial physiological traits (Nature Communications 2022)",
+      "kind": "primary_ecology",
+      "url": "https://doi.org/10.1038/s41467-022-28715-9",
+      "access": "free_no_login",
+      "notes": "Field and experimental tests caution against simplistic microbial-necromass assumptions."
+    },
+    "lw-evolution-kew": {
+      "title": "Royal Botanic Gardens Kew: CITES and Cacti, characteristics",
+      "kind": "botanical_reference",
+      "url": "https://www.kew.org/sites/default/files/2019-09/CITESandCacti_full.pdf",
+      "access": "free_no_login",
+      "notes": "Cactus areoles, modified leaf spines and comparison with spiny Euphorbia."
+    },
+    "lw-evolution-grants1995": {
+      "title": "Grant and Grant, Predicting Microevolutionary Responses to Directional Selection on Heritable Variation (1995)",
+      "kind": "primary_field_ecology",
+      "url": "https://doi.org/10.2307/2410334",
+      "access": "free_no_login",
+      "notes": "Field measurements on Daphne Major, 1977 drought and direction changes."
+    },
+    "lw-evolution-grant-interview": {
+      "title": "Quanta Magazine: Watching Evolution Happen in Two Lifetimes (2016)",
+      "kind": "researcher_interview",
+      "url": "https://www.quantamagazine.org/watching-evolution-happen-in-two-lifetimes-20160922/",
+      "access": "free_no_login",
+      "notes": "Grant researchers describing motivation, field practice and selection during drought."
+    },
+    "lw-evolution-octopus": {
+      "title": "Hanke and Kelber, The Eye of the Common Octopus (2020)",
+      "kind": "scientific_review",
+      "url": "https://doi.org/10.3389/fphys.2019.01637",
+      "access": "free_no_login",
+      "notes": "Compare cephalopod everted retina and vertebrate inverted retina; qualifications about generalized cephalopods."
+    },
+    "lw-evolution-heyduk2019": {
+      "title": "Heyduk et al., The genetics of convergent evolution: insights from plant photosynthesis (2019)",
+      "kind": "scientific_review",
+      "url": "https://doi.org/10.1038/s41576-019-0107-5",
+      "access": "free_no_login",
+      "notes": "Repeated evolution and contingent intermediate architecture of C4 and CAM carbon concentrating strategies."
+    },
+    "lw-evolution-blount2008": {
+      "title": "Blount, Borland and Lenski, Historical contingency and the evolution of a key innovation in experimental E. coli (2008)",
+      "kind": "primary_experiment",
+      "url": "https://doi.org/10.1073/pnas.0803151105",
+      "access": "free_no_login",
+      "notes": "Twelve lineages, aerobic citrate-use innovation, replay and potentiating history."
+    }
+  }
+}

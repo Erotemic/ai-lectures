@@ -1,0 +1,56 @@
+{
+  "default_collection": "the-living-world",
+  "collections": [
+    {
+      "id": "the-living-world",
+      "title": "The Living World - Guided Listening",
+      "role": "main",
+      "categories": [
+        "Science and nature"
+      ],
+      "audiences": [
+        "general",
+        "science enthusiasts"
+      ],
+      "summary": "Four complete introductory investigations of how living systems work; later expansions are optional listening additions. Each lecture is self-contained.",
+      "chapters": [
+        {
+          "title": "Energy and matter in an ecosystem",
+          "lectures": [
+            "001000"
+          ]
+        },
+        {
+          "title": "The worlds animals inhabit",
+          "lectures": [
+            "002000"
+          ]
+        },
+        {
+          "title": "The living ground",
+          "lectures": [
+            "003000"
+          ]
+        },
+        {
+          "title": "Evolution: repeatability and chance",
+          "lectures": [
+            "004000"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ecology-and-evolution",
+      "title": "The Living World - Ecology and Evolution",
+      "role": "deep_dive",
+      "parent": "the-living-world",
+      "summary": "A focused short listening route through forest processes, soil ecology, and evolutionary explanations.",
+      "lectures": [
+        "001000",
+        "003000",
+        "004000"
+      ]
+    }
+  ]
+}
