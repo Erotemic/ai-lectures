@@ -1,15 +1,14 @@
-# Core mathematics foundations — remaining gaps after Continuation 31
+# Multivariable calculus — bridge coverage and next gaps
 
-**Delivered:** 18 lectures of Multivariable Calculus from First Principles, 001000–018000.
+**Existing survey retained:** three consolidated manuscripts (`001000`, `008000`, `015000`) representing the original core material; their recorded `consolidated_from` IDs are not separate current manuscripts.
 
-The next priority should be a *new introductory track on mathematical reasoning and proof*: propositions and quantifiers; definitions and counterexamples; direct proof, contrapositive, and contradiction; induction and recursive definitions; sets, functions, images and inverse images; equivalence relations; countability; epsilon–delta proofs; constructing and reading rigorous arguments; simple compactness and completeness arguments. Coordinate these with the existing Discrete Mathematics and Logic/Types tracks to avoid duplication of advanced content, but do not assume prior proof fluency.
+**New depth path (2026-11-17):** `019000`–`022000` expand Taylor bounds, strong convexity and conditioning, exact Newton steps, and local quadratic-convergence proofs. The material is intentionally more detailed than the short introduction in `008000` and the optimization/numerical-analysis surveys.
 
-Further foundational gaps to assess by dependency audit:
+## Further bridge candidates, subject to a fresh cross-pack coverage audit
 
-- Sequences and series of functions before advanced functional analysis; identify existing coverage before adding duplicates.
-- Matrix computation and numerical conditioning beyond symbolic examples, with error estimates and concrete algorithms.
-- Probability at elementary level, prior to measure-theoretic probability, including conditional probability and Bayes reasoning; check the Probability/Measure syllabus before authoring.
-- Multivariable integration for irregular measurable sets, outer measures, and boundary convergence, building on the existing Analysis course instead of re-teaching its measure theory.
-- Multivariable Taylor error bounds and Newton methods with convergence criteria, beyond the local calculations in 008000–010000.
+- Nonlinear least squares: residual Jacobians, Gauss–Newton, Levenberg–Marquardt, rank deficiency and conditioning; coordinate with the numerical-analysis and optimization packs.
+- Constrained Newton and implicit-function sensitivity: block Jacobians, KKT systems, constraint qualifications, and regularization; coordinate with Optimization and Differential Geometry before writing.
+- Calculus of variations: directional derivatives of functionals, Euler–Lagrange, weak formulations and finite-dimensional discretization; inspect Differential Equations and Topology/Geometry first.
+- Multivariable integration over less regular domains: approximation and boundary convergence, only where Analysis and Measure Theory have gaps.
 
-Avoid imposing any fixed lecture duration or word-count limit; teach according to prerequisite needs.
+Do not treat lecture count, duration, or the presence of a topic label as evidence that a prerequisite has been taught adequately. Check actual manuscripts, proofs, and examples before adding material.

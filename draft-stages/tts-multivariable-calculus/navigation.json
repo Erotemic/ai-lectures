@@ -1,0 +1,56 @@
+{
+  "default_collection": "survey",
+  "collections": [
+    {
+      "id": "survey",
+      "title": "Multivariable Calculus · Foundations Survey",
+      "role": "main",
+      "summary": "Total derivatives, Hessians, constrained optimization, multiple integrals, curves and surfaces, with a separate quantitative calculus-and-Newton extension.",
+      "lectures": [
+        "001000",
+        "008000",
+        "015000"
+      ],
+      "related_collections": [
+        "taylor-newton-bridge"
+      ],
+      "tags": [
+        "Calculus",
+        "Multivariable differentiation",
+        "Foundations"
+      ]
+    },
+    {
+      "id": "taylor-newton-bridge",
+      "title": "Local Models and Newton Methods · From Taylor Bounds to Convergence",
+      "role": "deep_dive",
+      "parent": "survey",
+      "summary": "Four worked studies: Taylor integral remainders and cubic error estimates; Hessian eigenvalue bounds and strong convexity; Newton corrections for systems and objectives; a proof of local quadratic convergence and safeguards.",
+      "lectures": [
+        "019000",
+        "020000",
+        "021000",
+        "022000"
+      ],
+      "preparation_collections": [
+        "analysis:survey",
+        "linear-algebra:survey"
+      ],
+      "related_collections": [
+        "optimization-duality:survey",
+        "numerical-analysis:survey"
+      ],
+      "tags": [
+        "Taylor theorem",
+        "Hessians",
+        "Convexity",
+        "Newton method",
+        "Error estimates",
+        "Convergence theory"
+      ],
+      "assumed_background": [
+        "Calculus of one variable, the multivariable chain rule and Hessian, eigenvalues of small symmetric matrices, and solving small linear systems."
+      ]
+    }
+  ]
+}

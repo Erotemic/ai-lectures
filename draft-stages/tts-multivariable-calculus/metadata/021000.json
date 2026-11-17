@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "lecture_id": "021000",
+  "transcript": "021000-newton-method-for-systems-and-optimization.md",
+  "related_resources": [
+    {
+      "source_id": "mv-boyd-convex",
+      "reason": "Quantitative smoothness, curvature, Newton and line-search analysis."
+    },
+    {
+      "source_id": "mv-mit-newton-6854",
+      "reason": "Optimization Newton directions, computational work and local behavior."
+    },
+    {
+      "source_id": "mv-wiki-newton",
+      "reason": "Root-finding Newton iteration and iteration basins."
+    },
+    {
+      "source_id": "mv-wiki-newton-opt",
+      "reason": "Newton as stationarity method and quadratic optimization."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-17",
+    "scope": "New original instructional deep dive in multivariable Taylor bounds, curvature, and Newton methods; existing consolidated manuscripts unchanged."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "multivariable-calculus:001000",
+        "reason": "Jacobian and gradient as total derivatives."
+      },
+      {
+        "lecture_id": "multivariable-calculus:019000",
+        "reason": "Difference between a local Taylor model and the true change."
+      },
+      {
+        "lecture_id": "multivariable-calculus:020000",
+        "reason": "Positive-definite Hessians and minimization of quadratic models."
+      }
+    ],
+    "recommended": [
+      {
+        "lecture_id": "linear-algebra:020000",
+        "reason": "Pivoted elimination as a way to solve a Newton system."
+      },
+      {
+        "lecture_id": "numerical-analysis:005000",
+        "reason": "Scalar root methods, safeguarded methods and failure cases."
+      }
+    ],
+    "background": [
+      "Single-variable Taylor theorem and integration, gradients and Jacobians, matrix multiplication and solving small linear systems. All more specialized concepts are introduced in the manuscripts."
+    ],
+    "readiness_checks": [
+      "Can you linearize a two-equation system and solve a two-by-two linear system?",
+      "Can you distinguish a stationary point from a local minimum?"
+    ]
+  }
+}

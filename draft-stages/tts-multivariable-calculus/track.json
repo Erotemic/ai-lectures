@@ -1,7 +1,7 @@
 {
   "id": "multivariable-calculus",
   "title": "Multivariable Calculus from First Principles",
-  "summary": "A calculation-first and proof-aware bridge from single-variable calculus and basic linear algebra to smooth manifolds, PDEs, optimization, and vector calculus. Develops limits in several variables, total differentiation, Jacobians, Hessians, constrained extrema, multiple integrals, change of variables, curves, surfaces and boundary theorems.",
+  "summary": "A calculation-first and proof-aware bridge from single-variable calculus and basic linear algebra to smooth manifolds, PDEs, optimization, and vector calculus. Develops limits in several variables, total differentiation, Jacobians, Hessians, constrained extrema, multiple integrals, change of variables, curves, surfaces and boundary theorems. New extended studies derive Taylor remainder bounds, strong-convexity estimates and Newton convergence proofs.",
   "assumed_background": [
     "single-variable limits, differentiation and integration (Analysis 001000–008000)",
     "elementary vectors, matrices, determinants and dot products (Linear Algebra 001000–006000, 008000)"
@@ -12,7 +12,8 @@
   "sections": [
     "001000-points-vectors-and-nearness-in-several-dimensions",
     "008000-hessians-and-taylor-s-formula-the-shape-beyond-the-tangent-plane",
-    "015000-curves-and-line-integrals-measuring-along-a-path"
+    "015000-curves-and-line-integrals-measuring-along-a-path",
+    "taylor-newton-bridge"
   ],
   "lectures": [
     {
@@ -20,9 +21,9 @@
       "title": "Local geometry and the total derivative",
       "section": "001000-points-vectors-and-nearness-in-several-dimensions",
       "file": "001000-local-geometry-and-the-total-derivative.md",
-      "spoken_words": 6468,
+      "spoken_words": 6509,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 44.6,
+      "estimated_minutes_at_145_wpm": 44.9,
       "consolidated_from": [
         "001000",
         "002000",
@@ -44,9 +45,9 @@
       "title": "Curvature, constrained extrema, and volume integration",
       "section": "008000-hessians-and-taylor-s-formula-the-shape-beyond-the-tangent-plane",
       "file": "008000-curvature-constrained-extrema-and-volume-integration.md",
-      "spoken_words": 6180,
+      "spoken_words": 6248,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 42.6,
+      "estimated_minutes_at_145_wpm": 43.1,
       "consolidated_from": [
         "008000",
         "009000",
@@ -69,9 +70,9 @@
       "title": "Integrating over curves, surfaces, and boundaries",
       "section": "015000-curves-and-line-integrals-measuring-along-a-path",
       "file": "015000-integrating-over-curves-surfaces-and-boundaries.md",
-      "spoken_words": 3940,
+      "spoken_words": 3974,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 27.2,
+      "estimated_minutes_at_145_wpm": 27.4,
       "consolidated_from": [
         "015000",
         "016000",
@@ -83,6 +84,66 @@
         "Differential forms",
         "Vector calculus",
         "Stokes theorem"
+      ]
+    },
+    {
+      "id": "019000",
+      "title": "Multivariable Taylor Remainders: From a Line to a Reliable Bound",
+      "section": "taylor-newton-bridge",
+      "file": "019000-taylor-remainders-from-lines-to-bounds.md",
+      "spoken_words": 1842,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 12.7,
+      "tags": [
+        "Multivariable differentiation",
+        "Taylor theorem",
+        "Error estimates",
+        "Hessians"
+      ]
+    },
+    {
+      "id": "020000",
+      "title": "Hessian Geometry: Curvature, Convexity, and Conditioning",
+      "section": "taylor-newton-bridge",
+      "file": "020000-hessian-geometry-convexity-and-conditioning.md",
+      "spoken_words": 1932,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 13.3,
+      "tags": [
+        "Convexity",
+        "Hessians",
+        "Conditioning",
+        "Optimization"
+      ]
+    },
+    {
+      "id": "021000",
+      "title": "Newton's Method for Systems and Optimization: Building the Step",
+      "section": "taylor-newton-bridge",
+      "file": "021000-newton-method-for-systems-and-optimization.md",
+      "spoken_words": 2027,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 14.0,
+      "tags": [
+        "Newton method",
+        "Nonlinear equations",
+        "Optimization",
+        "Jacobian"
+      ]
+    },
+    {
+      "id": "022000",
+      "title": "Why Newton Converges: Remainders, Basins, and Safeguards",
+      "section": "taylor-newton-bridge",
+      "file": "022000-newton-convergence-bounds-and-globalization.md",
+      "spoken_words": 2397,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 16.5,
+      "tags": [
+        "Newton method",
+        "Convergence theory",
+        "Line search",
+        "Inexact Newton"
       ]
     }
   ],

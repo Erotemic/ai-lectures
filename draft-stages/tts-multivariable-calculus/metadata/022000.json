@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "lecture_id": "022000",
+  "transcript": "022000-newton-convergence-bounds-and-globalization.md",
+  "related_resources": [
+    {
+      "source_id": "mv-stanford-newton",
+      "reason": "Lipschitz-derivative bounds for local quadratic convergence."
+    },
+    {
+      "source_id": "mv-boyd-convex",
+      "reason": "Quantitative smoothness, curvature, Newton and line-search analysis."
+    },
+    {
+      "source_id": "mv-mit-newton-6854",
+      "reason": "Optimization Newton directions, computational work and local behavior."
+    },
+    {
+      "source_id": "mv-mit-farina",
+      "reason": "Worked exact squared-error Newton example and limits of local theory."
+    },
+    {
+      "source_id": "mv-wiki-newton",
+      "reason": "Root-finding Newton iteration and iteration basins."
+    },
+    {
+      "source_id": "mv-wiki-backtracking",
+      "reason": "Armijo backtracking terminology and line-search safeguards."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-17",
+    "scope": "New original instructional deep dive in multivariable Taylor bounds, curvature, and Newton methods; existing consolidated manuscripts unchanged."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "multivariable-calculus:019000",
+        "reason": "Lipschitz derivative and integral remainder bounds."
+      },
+      {
+        "lecture_id": "multivariable-calculus:020000",
+        "reason": "Positive Hessians and invertibility near a minimizer."
+      },
+      {
+        "lecture_id": "multivariable-calculus:021000",
+        "reason": "Newton corrections for roots and optimization."
+      }
+    ],
+    "recommended": [
+      {
+        "lecture_id": "optimization-duality:005000",
+        "reason": "General descent-method analysis in convex settings."
+      },
+      {
+        "lecture_id": "numerical-analysis:004000",
+        "reason": "How backward error and approximate linear solves enter numerical claims."
+      }
+    ],
+    "background": [
+      "Single-variable Taylor theorem and integration, gradients and Jacobians, matrix multiplication and solving small linear systems. All more specialized concepts are introduced in the manuscripts."
+    ],
+    "readiness_checks": [
+      "Can you prove a norm bound for an integral of matrix-vector products?",
+      "Can you explain why invertible Jacobians and a Lipschitz Jacobian play different roles?"
+    ]
+  }
+}

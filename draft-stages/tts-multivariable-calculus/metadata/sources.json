@@ -147,6 +147,76 @@
       "url": "https://en.wikipedia.org/wiki/Stokes%27_theorem",
       "access": "free_no_login",
       "notes": "Terminology and general overview; use original textbooks for theorem conditions."
+    },
+    "mv-boyd-convex": {
+      "title": "Stephen Boyd and Lieven Vandenberghe, Convex Optimization (Cambridge University Press, 2004)",
+      "kind": "textbook",
+      "url": "https://web.stanford.edu/~boyd/cvxbook/",
+      "access": "free_no_login",
+      "notes": "Chapters 3 and 9: convexity, Hessian curvature, unconstrained minimization, Newton methods and line searches."
+    },
+    "mv-mit-newton-6854": {
+      "title": "MIT 6.854 lecture notes: Newton method",
+      "kind": "university_course",
+      "url": "https://courses.csail.mit.edu/6.854/18/Notes/n19-newton_method.html",
+      "access": "free_no_login",
+      "notes": "Quadratic local models, Newton directions and local behavior."
+    },
+    "mv-stanford-newton": {
+      "title": "Stanford CME307/MS&E311 Optimization, Lecture Note 12: Local Convergence Theorem of Newton’s Method",
+      "kind": "university_course",
+      "url": "https://web.stanford.edu/class/msande311/lecture12.pdf",
+      "access": "free_no_login",
+      "notes": "Derivative Lipschitz bounds and local Newton convergence."
+    },
+    "mv-mit-farina": {
+      "title": "Gabriele Farina, MIT 6.7220/15.084 Nonlinear Optimization: Self-concordant functions (Lecture 19, 2025 course)",
+      "kind": "university_course",
+      "url": "https://www.mit.edu/~gfarina/2025/67220s25_L19_self_concordance/L19.pdf",
+      "access": "free_no_login",
+      "notes": "Exact squared-error Newton example for x minus log x; limitations of uniform Lipschitz Hessian assumptions."
+    },
+    "mv-wiki-taylor": {
+      "title": "Wikipedia: Taylor's theorem",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Taylor%27s_theorem",
+      "access": "free_no_login",
+      "notes": "General orientation; main theorem support from calculus derivations and course texts."
+    },
+    "mv-wiki-strong-convex": {
+      "title": "Wikipedia: Convex function (strong convexity section)",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Convex_function#Strongly_convex_functions",
+      "access": "free_no_login",
+      "notes": "Terminology and basic definitions."
+    },
+    "mv-wiki-condition": {
+      "title": "Wikipedia: Condition number",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Condition_number",
+      "access": "free_no_login",
+      "notes": "Numerical conditioning and norm dependence."
+    },
+    "mv-wiki-newton": {
+      "title": "Wikipedia: Newton's method",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Newton%27s_method",
+      "access": "free_no_login",
+      "notes": "Scalar and multivariate root iterations; global failure examples."
+    },
+    "mv-wiki-newton-opt": {
+      "title": "Wikipedia: Newton's method in optimization",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Newton%27s_method_in_optimization",
+      "access": "free_no_login",
+      "notes": "Hessian Newton steps for stationary points."
+    },
+    "mv-wiki-backtracking": {
+      "title": "Wikipedia: Backtracking line search",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Backtracking_line_search",
+      "access": "free_no_login",
+      "notes": "Armijo conditions and step-size safeguards."
     }
   }
 }

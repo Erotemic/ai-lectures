@@ -24,6 +24,14 @@ transcript:
       and overbroad composite titles, add targeted conceptual bridges, and refresh
       the current manuscript/route inventory. Preserve mathematical arguments and
       hypotheses; no original authorship is claimed for inherited prose.
+  - date: '2026-11-17'
+    models:
+    - GPT-6
+    sources:
+    - manuscripts: '019000–022000'
+      source_records: metadata/sources.json
+      per_lecture_metadata: metadata/019000.json through metadata/022000.json
+    scope: Add four original audio-first mathematical deep dives and exact companions on Taylor remainders, curvature, Newton construction and local convergence. Retain existing consolidated narration and attribution untouched.
 learning_map:
   revisions:
   - date: '2026-11-16'
@@ -43,3 +51,14 @@ learning_map:
       background, and readiness prompts after reviewing current narration and mathematical
       companions. These are teaching judgments, not formal proof imports or historical
       influence. No inherited narration, slides, or their authorship was revised.
+  - date: '2026-11-17'
+    models:
+    - GPT-6
+    sources:
+    - track.json
+    - navigation.json
+    - metadata/019000.json
+    - metadata/020000.json
+    - metadata/021000.json
+    - metadata/022000.json
+    scope: Extend the pack inventory, reading records and a curated learning route, retaining the survey entry route and the full source sequence.

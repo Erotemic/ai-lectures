@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "lecture_id": "019000",
+  "transcript": "019000-taylor-remainders-from-lines-to-bounds.md",
+  "related_resources": [
+    {
+      "source_id": "mv-openstax-v3",
+      "reason": "Multivariable differential calculus and second-order Taylor geometry."
+    },
+    {
+      "source_id": "mv-mit-18022",
+      "reason": "Underlying calculus hypotheses and the chain rule on line segments."
+    },
+    {
+      "source_id": "mv-wiki-taylor",
+      "reason": "Taylor theorem terminology and integral remainders."
+    },
+    {
+      "source_id": "mv-boyd-convex",
+      "reason": "Quantitative smoothness, curvature, Newton and line-search analysis."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-17",
+    "scope": "New original instructional deep dive in multivariable Taylor bounds, curvature, and Newton methods; existing consolidated manuscripts unchanged."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "multivariable-calculus:001000",
+        "reason": "Total derivatives and the chain rule for vector displacements."
+      },
+      {
+        "lecture_id": "multivariable-calculus:008000",
+        "reason": "Quadratic Taylor formula and the Hessian as curvature."
+      }
+    ],
+    "recommended": [
+      {
+        "lecture_id": "analysis:005000",
+        "reason": "Single-variable differentiation as local linear approximation before quantitative Taylor bounds."
+      },
+      {
+        "lecture_id": "linear-algebra:006000",
+        "reason": "Symmetric-matrix eigenvectors, orthogonality and quadratic forms."
+      }
+    ],
+    "background": [
+      "Single-variable Taylor theorem and integration, gradients and Jacobians, matrix multiplication and solving small linear systems. All more specialized concepts are introduced in the manuscripts."
+    ],
+    "readiness_checks": [
+      "What is the difference between total differentiability and partial differentiability?",
+      "Can you evaluate a one-variable definite integral and compute a Hessian?"
+    ]
+  }
+}

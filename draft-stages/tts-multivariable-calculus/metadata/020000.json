@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "lecture_id": "020000",
+  "transcript": "020000-hessian-geometry-convexity-and-conditioning.md",
+  "related_resources": [
+    {
+      "source_id": "mv-boyd-convex",
+      "reason": "Quantitative smoothness, curvature, Newton and line-search analysis."
+    },
+    {
+      "source_id": "mv-mit-newton-6854",
+      "reason": "Optimization Newton directions, computational work and local behavior."
+    },
+    {
+      "source_id": "mv-wiki-strong-convex",
+      "reason": "Definitions and elementary forms of the strong convexity inequality."
+    },
+    {
+      "source_id": "mv-wiki-condition",
+      "reason": "Norm-dependent conditioning and sensitivity."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-17",
+    "scope": "New original instructional deep dive in multivariable Taylor bounds, curvature, and Newton methods; existing consolidated manuscripts unchanged."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "multivariable-calculus:008000",
+        "reason": "Stationary points, Hessian classification and Taylor geometry."
+      },
+      {
+        "lecture_id": "multivariable-calculus:019000",
+        "reason": "Local Taylor remainder control and second-order models."
+      }
+    ],
+    "recommended": [
+      {
+        "lecture_id": "linear-algebra:024000",
+        "reason": "Positive-definite matrices, quadratic energies and spectral criteria."
+      },
+      {
+        "lecture_id": "optimization-duality:002000",
+        "reason": "Global convexity and supporting hyperplanes."
+      }
+    ],
+    "background": [
+      "Single-variable Taylor theorem and integration, gradients and Jacobians, matrix multiplication and solving small linear systems. All more specialized concepts are introduced in the manuscripts."
+    ],
+    "readiness_checks": [
+      "Can you compute the eigenvalues of a symmetric two-by-two matrix?",
+      "Can you distinguish positive definiteness at one point from a lower Hessian bound on a domain?"
+    ]
+  }
+}
