@@ -1,0 +1,247 @@
+# Ancient Epics and Narrative Traditions — editorial roadmap
+
+**Prepared:** 2026-11-16  
+**Status:** proposed manuscripts; not a published lecture manifest  
+**Owning pack for new standalone readings:** `content/literature-survey/`  
+**Listening route:** `literature-survey:ancient-narratives`
+
+## Purpose and scope
+
+Build a library of compelling, substantial encounters with the ancient world's
+major **surviving narratives**: epics, myth cycles, tales, plays, literary novels,
+framed collections, parables, and selected scriptural narratives. The listener
+should come away knowing what happens, to whom, why a decision mattered, and
+what the text actually says. Historical and literary analysis serves the story,
+not the reverse. A collection of poems or parables must not be presented as one
+continuous epic merely to fit the route's name.
+
+Priority is based on literary and historical importance, narrative substance,
+what is missing from the existing library, and the availability of a defensible
+primary-text basis. Geographic variety is useful where it reveals a genuine
+coverage gap, not an end in itself. Do **not** impose a fixed word count,
+duration, number of episodes, or quota of works per region. The source and the
+scenes determine how much narration is needed.
+
+For this route, *ancient* primarily means a work or a separately identifiable
+version **composed or recorded in antiquity** (roughly through late antiquity),
+not simply a story set in ancient times. Record composition, surviving witness,
+redaction, translation, and oral history as different dates and kinds of
+evidence. Boundary cases go into the adjacent-traditions queue with explicit
+labels instead of being quietly backdated.
+
+## What we already have: avoid duplicate commissions
+
+The supplied repository's `world-history` pack includes:
+
+| Tradition | Existing treatment | Lecture IDs |
+|---|---|---|
+| Sumerian / Akkadian | Gilgamesh and distinct Sumerian episodes; Inanna; Atrahasis; Enuma Elish | `world-history:001000`, `008000`–`009000`, `011000`–`012000` |
+| Egyptian | Sinuhe; the Shipwrecked Sailor; the Tale of Two Brothers | `world-history:010000`, `022000`, `088000` |
+| Ugaritic and Hebrew | Baal Cycle; Book of Job | `world-history:027000`–`028000` |
+| Greek | Iliad, books 1–24; Odyssey, books 1–24 | `world-history:013000`–`017000` |
+| Sanskrit | Ramayana; Mahabharata, including an introduction to the Bhagavad Gita and to Nala | `world-history:018000`–`019000`, `023000`–`026000` |
+
+The **2026-11-16 ancient-epics overlay** separately adds `literature-survey:006000`–`009000`: the *Aeneid*, Apollonius's *Argonautica*, a **selective** traversal of Ovid's *Metamorphoses*, and the full *Nala and Damayanti* episode. Their presence in a user's checkout depends on whether that previous overlay has been applied. Do not silently reauthor or renumber them.
+
+The *Popol Wuj* already has `world-history:020000`–`021000`, but the surviving
+K'iche' text was written down in the colonial era; the period-based literature
+route correctly places it under early modern written witnesses. Ferdowsi's
+*Shahnameh* and the Chinese novels likewise have their own, later-period routes.
+We can compare earlier traditions with them without declaring those received
+books to be ancient.
+
+For the original World History ancient strand, see
+[`ANCIENT_LITERATURE_ROADMAP.md`](../../draft-stages/tts-world-history/ANCIENT_LITERATURE_ROADMAP.md).
+For the existing period navigation, see [`navigation.json`](navigation.json).
+The plan below supplements, rather than supplants, either file.
+
+## First priority: the next eight commissions
+
+This is **an order of editorial attention**, not preallocated lecture IDs or a
+requirement to fit each row in one recording. Begin with entries 1–4, then
+continue through the remainder as sources and manuscript quality permit. New
+lectures are playable only after their full text, citations, metadata, and
+source checks are complete.
+
+| Rank | Work and primary boundary | What the narration must actually do | Distinction / evidence risk |
+|---|---|---|---|
+| **1** | [Hesiod's *Theogony*](https://en.wikipedia.org/wiki/Theogony) (Greek hexameter) | Follow the births and struggles of divine generations, Cronus and Zeus, the Titans, Prometheus, and the establishment of order. Give the listener a coherent account of the poem's movement. | Keep Hesiod's version separate from Ovid's and later mythographic harmonizations; *Works and Days* is another poem, with a different argument. |
+| **2** | [*Genesis*](https://en.wikipedia.org/wiki/Book_of_Genesis), chapters 1–50 (Hebrew Bible) | Tell the creation and primeval cycles, Abraham and Sarah, the family of Isaac and Jacob, and Joseph's rise and reunion in Egypt. Use natural narrative divisions, likely several substantial recordings. | Distinguish the received narrative, compositional analysis, and religious interpretations; do not present one modern reconstruction of authorship or chronology as undisputed. |
+| **3** | Aeschylus's [*Oresteia*](https://en.wikipedia.org/wiki/Oresteia): *Agamemnon*, *Libation Bearers*, *Eumenides* | Follow the return from Troy, Clytemnestra and Cassandra, Orestes' retaliation, the Furies, and the transition to adjudication. Preserve the dramatic voices and dilemmas. | The surviving trilogy is not the whole four-play festival production: the satyr play *Proteus* is lost. Do not fuse it with different versions of the House of Atreus. |
+| **4** | [*Pañcatantra*](https://en.wikipedia.org/wiki/Panchatantra), an identified Sanskrit recension | Introduce the teacher and princes, then tell the five books' frame stories and important nested fables as fables, including political calculation and disagreement over trust. | The imagined 'original' is not extant; establish the chosen recension before drafting. A later *Kalila wa-Dimna* branch is transmission history, not the Sanskrit original. |
+| **5** | [*Zhuangzi*](https://en.wikipedia.org/wiki/Zhuangzi_(book)), especially the Inner Chapters and selected transmitted parables | Narrate the great bird, the butterfly dream, Cook Ding, and encounters that test confident judgments. Interpret each encounter without flattening its ambiguity. | An anthology with multiple textual layers, not one authored novel. Label the source chapter and the received 33-chapter text edited in late antiquity. |
+| **6** | Apuleius's [*The Golden Ass*](https://en.wikipedia.org/wiki/The_Golden_Ass), all eleven books | Tell Lucius's transformation, his changing masters, Cupid and Psyche as a framed tale, and the final restoration through Isis. Include the novel's comedy, cruelty, and religious ending. | Also titled *Metamorphoses* in Latin; not Ovid's already-covered *Metamorphoses*. Apuleius writes from the Roman North African world. |
+| **7** | [*Exodus*](https://en.wikipedia.org/wiki/Book_of_Exodus), chapters 1–40 | Follow Moses, the encounter with Pharaoh, departure, the journey, Sinai, the covenant, the calf, and the building of the tabernacle. Explain why the later material matters to the narrative's resolution. | Do not collapse the text into the Hollywood plagues-and-sea sequence or assert that literary episodes establish archaeological events. |
+| **8** | Kālidāsa's [*Abhijñānaśākuntalam* (*Śakuntalā*)](https://en.wikipedia.org/wiki/Shakuntala_(play)) | Tell the meeting, promise, lost recognition, curse, separation, and reunion; attend to how the play stages absence and memory. | Contrast with the shorter Śakuntalā material in the *Mahabharata* as a distinct literary realization, not the same exact script. Settle edition and dating conservatively. |
+
+**Recommended first delivery:** *Theogony*, *Genesis* (in as many natural
+narrative parts as necessary), *Oresteia*, and *Pañcatantra*. If source work for
+one takes longer than expected, deliver a smaller, finished installment rather
+than four abbreviated summaries. This first group adds mythic genealogy,
+scriptural narrative, dramatic tragedy, and a frame-tale tradition without
+repeating the existing Homer/India surveys.
+
+## Second priority: named ancient works with strong narrative value
+
+Each row is a **future project**, not an entry already in the playable catalog.
+The labels describe the proposed treatment: **full** = follow the complete
+surviving work; **selected** = name and teach discrete pieces in a corpus;
+**fragment-critical** = tell only what the preserved evidence permits.
+
+### Mesopotamia, Egypt, Anatolia, and the Levant
+
+| Work (starting point) | Proposed treatment | Nonnegotiable source boundary |
+|---|---|---|
+| [*Lugalbanda* narratives](https://en.wikipedia.org/wiki/Lugalbanda), *Lugalbanda in the Mountain Cave* and *Lugalbanda and the Anzud Bird* | **Full surviving episodes**, distinct stories of illness, endurance, and the giant bird | Use the two compositions in Oxford ETCSL separately; do not smuggle Gilgamesh's deeds into them. |
+| [*Enmerkar and the Lord of Aratta*](https://en.wikipedia.org/wiki/Enmerkar_and_the_Lord_of_Aratta) | **Full surviving poem** about a demand for submission, an envoy, political rivalry, and language | Keep the counterpart composition *Enmerkar and En-suhgir-ana* separate unless its witness is examined. |
+| [The Westcar Papyrus](https://en.wikipedia.org/wiki/Westcar_Papyrus) / Tales of King Khufu's Court | **Full surviving framed tales**, including the succession prophecy | The papyrus is incomplete; no invented wrap-up or claim that the tale is a literal Old Kingdom report. |
+| [The Contendings of Horus and Seth](https://en.wikipedia.org/wiki/The_Contendings_of_Horus_and_Seth) | **Full extant narrative** of contests, reversals, and disputed kingship | Use the Ramesside literary witness and explain its satirical and ritual elements; do not substitute Plutarch's later Isis-and-Osiris narrative. |
+| [The Report of Wenamun](https://en.wikipedia.org/wiki/Story_of_Wenamun) | **Full surviving journey narrative** of an Egyptian emissary seeking timber abroad | Mark the difference between a fictionalized tale, a literary report, and a reliable personal travel diary; its status has been debated. |
+| [The *Keret* / *Kirta* epic](https://en.wikipedia.org/wiki/Keret) | **Fragment-critical**, a king, loss, marriage, a vow, and illness | Ugaritic tablets are damaged; acknowledge uncertain transitions and final state. |
+| [The Story of Aqhat](https://en.wikipedia.org/wiki/Aqhat) | **Fragment-critical**, Dan'el, his son Aqhat, the bow, Anat, and the consequences | Do not create an undocumented ending; keep Dan'el distinct from the biblical Daniel. |
+| [Kumarbi Cycle](https://en.wikipedia.org/wiki/Kumarbi), especially *Song of Ullikummi* | **Fragment-critical** study of divine kingship and the stone giant | Hurrian/Hittite transmission and disconnected tablet fragments must be described rather than repaired into a fixed whole. |
+| [The Epic of Erra](https://en.wikipedia.org/wiki/Erra_(god)) | **Full surviving witness** where possible; Erra, Ishum, and devastation | Date and textual version need checking before manuscript work. |
+| [The Eloquent Peasant](https://en.wikipedia.org/wiki/The_Eloquent_Peasant) | **Full tale plus speeches** about dispossession, eloquence, and judgment | Much of its force is rhetorical; preserve speeches rather than treating them as delay between plot points. |
+| [The Story and Proverbs of Ahiqar](https://en.wikipedia.org/wiki/Ahiqar) | **Fragment-critical ancient witness** for the court betrayal, with a later complete adaptation optionally treated separately | The fifth-century BCE Elephantine Aramaic witness does not preserve the later resolution; distinguish it from medieval Syriac/Arabic recensions and their ending. |
+
+**Suggested order within this set:** *Lugalbanda* → *Westcar* → *Keret* →
+*Aqhat* → *Enmerkar* → *Contendings* → *Kumarbi*. Source lacunae may
+move the order; neither a gap nor a reconstructed scene should be hidden.
+
+### Greek and Roman narrative: beyond Homer, Apollonius, Virgil, and Ovid
+
+| Work (starting point) | Proposed treatment | Distinction / boundary |
+|---|---|---|
+| [*Homeric Hymn to Demeter*](https://en.wikipedia.org/wiki/Homeric_Hymns) | **Full individual hymn**, loss of Persephone, Demeter's search, Demophon, Eleusis, negotiated return | Use the hymn as the first witness; contrast later retellings only afterwards. |
+| *Homeric Hymn to Hermes* and *Homeric Hymn to Aphrodite* | **Two separate full hymns**: stolen cattle and lyre; Aphrodite and Anchises | Not surviving chapters of a single authorial epic; authorship and dating vary among hymns. |
+| Sophocles's [*Oedipus Tyrannus*](https://en.wikipedia.org/wiki/Oedipus_Rex) | **Full drama**, investigation and discovery | Do not treat *Oedipus Rex*, *Oedipus at Colonus*, and *Antigone* as one originally performed trilogy. |
+| Sophocles's [*Antigone*](https://en.wikipedia.org/wiki/Antigone_(Sophocles_play)) | **Full drama**, burial law, kinship, and political command | Tell the specific play, not a compressed generic Theban myth. |
+| Euripides's [*Medea*](https://en.wikipedia.org/wiki/Medea_(play)) | **Full drama**, exile, persuasion, revenge, and loss | Pair with the existing *Argonautica* but respect their different literary chronologies and characterizations. |
+| Euripides's [*Bacchae*](https://en.wikipedia.org/wiki/The_Bacchae) | **Full drama**, Dionysus's return and Pentheus's disaster | Preserve the audience's dramatic knowledge and the central ambiguity about divine violence. |
+| Lucian's [*A True Story*](https://en.wikipedia.org/wiki/A_True_Story) | **Full satire**, fantastical sea and space voyages | Ancient parody of travel writing and claims to truth; not a sincere early scientific forecast. |
+| [*Callirhoe*](https://en.wikipedia.org/wiki/Callirhoe_(novel)) and [*Daphnis and Chloe*](https://en.wikipedia.org/wiki/Daphnis_and_Chloe) | **Separate full novels** | Greek prose fiction is a different tradition from heroic hexameter; choose reliable editions. |
+| [*Satyricon*](https://en.wikipedia.org/wiki/Satyricon) | **Fragment-critical**, especially the extant Trimalchio feast and journeys | Only parts survive; don't invent a complete Petronian novel from the fragments. |
+| Ovid's [*Fasti*](https://en.wikipedia.org/wiki/Fasti_(poem)) | **Selected connected episodes**, Roman calendar myths and festival stories | Only six books survive for January–June; unlike the already-covered *Metamorphoses*. |
+
+**Lost epic rule:** the [Greek Epic Cycle](https://en.wikipedia.org/wiki/Epic_Cycle)
+(*Cypria*, *Aethiopis*, *Little Iliad*, *Iliou Persis*, *Nostoi*,
+*Telegony*) deserves a **source-history recording**, not a purported full
+retelling of books that no longer exist. Name the testimonia, later summaries,
+fragments, and post-Homeric reconstructions separately.
+
+### South Asia, ancient Iran, and East Asia: longer stories and shorter narrative forms
+
+| Work (starting point) | Proposed treatment | Distinction / boundary |
+|---|---|---|
+| [*Ṛgveda*](https://en.wikipedia.org/wiki/Rigveda), selected mythic and dialogic hymns | **Curated hymn readings** (for example, cosmic origins and gods' deeds) | An orally transmitted Vedic anthology, not one continuous epic; cite hymn numbers and use a specialist translation. |
+| [Avestan Yašts](https://en.wikipedia.org/wiki/Yasht), selected legendary hymns | **Curated narrative passages** about Iranian divinities and heroes | Avestan oral/liturgical transmission and surviving manuscripts differ in date; do not back-project the complete medieval *Shahnameh* into the ancient hymns. |
+| [Jātaka tales](https://en.wikipedia.org/wiki/Jataka_tales), especially [Vessantara](https://en.wikipedia.org/wiki/Vessantara_Jataka) | **Curated tales** plus one substantial account of the Vessantara cycle | Specify Pāli text and commentary or a named alternative; canonical verses and later prose narratives have different transmission histories. Do not imply the whole corpus shares one composition date. |
+| Aśvaghoṣa's [*Buddhacarita*](https://en.wikipedia.org/wiki/Buddhacarita) | **Narrative of the Buddha's life**, by version and canto | Surviving Sanskrit is incomplete; distinguish additional material preserved in Chinese/Tibetan versions. |
+| [*Classic of Poetry* (*Shijing*)](https://en.wikipedia.org/wiki/Classic_of_Poetry) | **Curated poems** with clear settings, speakers, court and everyday social life | This is an anthology of 305 poems, not a continuous plot; identify the received arrangement and later interpretation. |
+| [*Li Sao*](https://en.wikipedia.org/wiki/Li_Sao) within [*Chu Ci*](https://en.wikipedia.org/wiki/Chu_Ci) | **Full poetic journey** followed by selected companion poems | Identify the poetic speaker and editorial/textual layer; do not narrate mythic imagery as documented biography of Qu Yuan. |
+| [*Classic of Mountains and Seas* (*Shanhaijing*)](https://en.wikipedia.org/wiki/Classic_of_Mountains_and_Seas) | **Selected places and beings**, a guide to its mythic geography | Composite descriptive corpus, not a quest novel; avoid constructing a made-up traveler connecting every entry. |
+| [Savitri and Satyavan](https://en.wikipedia.org/wiki/Savitri_and_Satyavan) from the *Mahabharata* | **Full embedded episode** | As with Nala and Damayanti, make clear what the frame story is and where this episode occurs; do not rewrite the four existing survey lectures. |
+| [*Mṛcchakaṭika* (*The Little Clay Cart*)](https://en.wikipedia.org/wiki/M%E1%B9%9Bcchakatika) | **Full play**, romance, city life, political danger | Attribution and date are contested; verify the chosen edition and discuss those uncertainties. |
+
+**Editorial distinction:** Strong narrative merit does not justify pretending
+that *Shijing* or *Shanhaijing* is an epic. Their eventual recordings should be
+prose-friendly listening explorations that let individual poems or entries
+remain individual.
+
+### Additional ancient scriptural narratives
+
+These belong on the roadmap because their stories have had immense literary
+influence. Literary treatment should be respectful of ongoing religious use,
+precise about the received text, and independent of any requirement that the
+listener share a belief. These are **individual works or passage-defined
+commissions**, not a plan to collapse an entire canon into a single story.
+
+| Work / passages | Proposed narrative | Caveat |
+|---|---|---|
+| [*Ruth*](https://en.wikipedia.org/wiki/Book_of_Ruth) | Naomi, Ruth, Boaz, migration, hospitality, and kinship | Full short book; note its historical setting and the uncertainty of composition date. |
+| [*Esther*](https://en.wikipedia.org/wiki/Book_of_Esther) | Court politics, danger, and survival | Name the textual tradition: Hebrew and Greek versions diverge materially. |
+| [*Jonah*](https://en.wikipedia.org/wiki/Book_of_Jonah) | The prophet's flight, the city, and the unresolved ending | Do not stop at the fish or convert irony into a simple fable. |
+| [*1–2 Samuel*](https://en.wikipedia.org/wiki/Books_of_Samuel) | Saul, David, Jonathan, Bathsheba, Absalom, and succession | Several natural arcs; distinguish narrative voice from claims of direct court reportage. |
+| [*Daniel*](https://en.wikipedia.org/wiki/Book_of_Daniel) | Court tales and visionary passages with their different genres | Hebrew/Aramaic and Greek additions need named boundaries. |
+| [*Tobit*](https://en.wikipedia.org/wiki/Book_of_Tobit) and [*Judith*](https://en.wikipedia.org/wiki/Book_of_Judith) | Two **separate** ancient narrative books | Explain differing religious canons, textual witnesses, and literary/historical readings. |
+| [*Gospel of Mark*](https://en.wikipedia.org/wiki/Gospel_of_Mark) | Full received narrative of ministry, conflict, death, and resurrection traditions | Name the edition and handle the manuscript evidence for the longer ending carefully. |
+| [*Gospel of Luke*](https://en.wikipedia.org/wiki/Gospel_of_Luke) and [*Acts of the Apostles*](https://en.wikipedia.org/wiki/Acts_of_the_Apostles) | Two connected but separately bounded ancient narratives | Historiography, theological narrative, and competing accounts must not be flattened into a single verified chronicle. |
+
+Other narratives in the Hebrew Bible, New Testament, early Buddhist canons,
+and other religious literatures can enter through a later evidence-based review.
+Do not treat scriptures as irrelevant merely because they have living readers;
+conversely do not place a work in this route without a literary narrative to
+tell.
+
+## After the new works: targeted expansions rather than repetition
+
+- **Ovid's *Metamorphoses*:** the existing `literature-survey:008000`
+  deliberately selects stories across fifteen books. A fuller set of story
+  arcs (for instance, the Theban cycle, Perseus, Orpheus, and the Trojan/Roman
+  sequence) can follow. Do not relabel the existing survey as an exhaustive
+  version, and do not simply rewrite it without added scenes and sources.
+- **The *Mahabharata* and *Ramayana*:** deep episodes should supplement, not
+  restart, existing full-arc surveys. Good candidates are Savitri (above),
+  specific forest conversations, and carefully chosen alternate Ramayana
+  traditions. Distinguish medieval versions (e.g. Kamban) from the chosen
+  early Sanskrit witness.
+- **Greek tragedy after Homer:** Aeschylus, Sophocles, and Euripides depict
+  different versions of characters familiar from the epics. Their plays
+  are independent artworks; reuse the listener's background, not an invented
+  one-to-one chronology.
+- **Comparative research recordings:** flood traditions; journeys to the
+  underworld; creation, succession, and legitimate rule; family loyalty and
+  vengeance; the fate of the hero. Make comparisons only after individual
+  stories are available. Shared motifs alone do not establish literary
+  borrowing.
+
+## Adjacent traditions: important, but label their dates correctly
+
+| Work/tradition | Treatment | Why not silently classify as an ancient written work |
+|---|---|---|
+| [*Kojiki*](https://en.wikipedia.org/wiki/Kojiki) and *Nihon shoki* | High-priority **early-medieval Japanese myth/history** sequence in the broader world classics curriculum | Written in 712 and 720 CE, respectively; neither is a manuscript from the age it narrates. |
+| [*Popol Wuj*](https://en.wikipedia.org/wiki/Popol_Vuh) | Already covered; later revisit Maya history and K'iche' textual survival in its appropriate period | Surviving written witness is colonial, though it transmits precolonial traditions. |
+| [*Shahnameh*](https://en.wikipedia.org/wiki/Shahnameh) | Already covered in depth | Ferdowsi's work is medieval, regardless of its ancient Iranian legendary subject. |
+| [*Beowulf*](https://en.wikipedia.org/wiki/Beowulf), [Norse Eddas](https://en.wikipedia.org/wiki/Poetic_Edda), [Sundiata](https://en.wikipedia.org/wiki/Epic_of_Sundiata) | Important future medieval/oral-tradition strands | Surviving witnesses and documented performances are much later than many events or legendary eras they depict. |
+| [*Pyramid Texts*](https://en.wikipedia.org/wiki/Pyramid_Texts) and [*Book of the Dead*](https://en.wikipedia.org/wiki/Book_of_the_Dead) | Source-critical companion readings | Ancient religious corpora, not intact single-plot narratives; only chosen spells or mythic episodes should be presented as stories. |
+
+## Source starting points and research obligations
+
+These are **research entrances**, not blanket authority for every subsequent
+sentence. For each commission, identify the edition or translation actually
+followed and add claim-level references, including source locators for
+significant textual-history assertions. Add Wikipedia links for orientation,
+never as the sole evidence for a consequential claim.
+
+1. **Sumerian narratives:** Oxford, [Electronic Text Corpus of Sumerian Literature](https://www.orinst.ox.ac.uk/electronic-text-corpus-sumerian-literature-etcsl) and its [composition catalog](https://etcsl.orinst.ox.ac.uk/catlist.htm). Check the composite-text status, tablet gaps, and the specific ETCSL composition number.
+2. **Egyptian literary tales:** Egypt Exploration Society, [*Once Upon a Papyrus: The Stories of Ancient Egypt*](https://www.ees.ac.uk/resource/once-upon-a-papyrus-the-stories-of-ancient-egypt.html); use individual papyrus editions and specialist translations for text decisions.
+3. **Ugaritic:** Johns Hopkins listing for [*Ugaritic Narrative Poetry*](https://neareast.jhu.edu/faculty-books/ugaritic-narrative-poetry/), the edition covering *Kirta*, *Aqhat*, and *Baal*; cross-check tablet numbers and lacunae.
+4. **Greek texts:** [Perseus/Tufts, *Hymn to Demeter*](https://atlas.perseus.tufts.edu/library/urn%3Acts%3AgreekLit%3Atlg0013.tlg002/); Oxford Bibliographies, [*Oresteia*](https://academic.oup.com/reference/62365/reference-article-abstract/554639257). Confirm book, hymn, or play boundaries and named translation.
+5. **Biblical literary narratives:** Yale Divinity Library, [Hebrew Bible: Narrative Criticism](https://guides.library.yale.edu/hebrew_bible_I/narrative). Use appropriate critical editions and distinguish canon, text, and historical inference.
+6. **Indian fable and Buddhist traditions:** Oxford University Press, [*The Wisdom of Animals: Kingship and the Pañcatantra*](https://doi.org/10.1093/oso/9780197791998.003.0007) and Naomi Appleton's [*Jātaka*](https://doi.org/10.1093/acrefore/9780199340378.013.182). Distinguish canonical Jātaka verses from later prose commentaries.
+7. **Chinese narrative and poetry:** Stanford Encyclopedia of Philosophy, [*Zhuangzi*](https://plato.stanford.edu/entries/zhuangzi/); Columbia University Press, [*Classic of Poetry*](https://cup.columbia.edu/book/the-classic-of-poetry/9789882374263/). Confirm the textual layer and avoid using a single philosophical parable as biographical evidence.
+8. **Vedic and Iranian ancient hymns:** Oxford University Press, [Jamison and Brereton on the *Ṛgveda*](https://doi.org/10.1093/oso/9780190633363.001.0001); *Encyclopaedia Iranica*, [*Yašts*](https://www.iranicaonline.org/articles/yashts/) and [Iranian oral literature](https://www.iranicaonline.org/articles/oral-literature-in-iran/). Distinguish hymns from late, synthetic epic retellings.
+9. **Ahiqar transmission:** University of Göttingen, [*The Story of Ahiqar the Wise*](https://ahiqar.uni-goettingen.de/); identify the Elephantine witness separately from the project's medieval Syriac and Arabic base texts.
+10. **Japanese chronology:** Cambridge, [*Myth and history in the Kojiki, Nihon shoki, and related works*](https://www.cambridge.org/core/books/abs/cambridge-history-of-japanese-literature/myth-and-history-in-thekojiki-nihon-shoki-and-related-works/D0B7B8B46D8CC4A8AB879E1185E6BD37).
+
+For dramatic or religious texts, record what the primary text says before
+writing commentary or a cross-text comparison. If a modern translation is
+copyrighted, paraphrase independently and use brief, attributed quotations
+only where needed. Track exact work, book, scene, verse, or tablet where
+possible; no historical or manuscript claims without suitable corroboration.
+
+## Commission and completion procedure
+
+1. **Audit the current catalog first.** Check `content/literature-survey/track.json`, `navigation.json`, and `draft-stages/tts-world-history/track.json` before assigning an ID. Planned rows here do not reserve an ID and are not listening-ready.
+2. **Choose a named base text.** Specify original language, recension/edition, translator (if used), preserved extent, manuscript gaps, probable composition versus surviving witness, and whether the material is religious scripture, literary fiction, or a genre mixture.
+3. **Outline the actual scenes or distinct pieces before drafting.** Cover the central characters' actions and changes, including the ending of the chosen witness. If the work is fragmentary, narrate only what survives, describing gaps without filling them. If it is an anthology, identify each chosen selection.
+4. **Write for ears, not as a catalog.** Establish place, characters, consequences, and relevant historical setting within standalone narration. Use no spoken dependency on an earlier recording. Let the text determine length and natural divisions.
+5. **Supply checked evidence.** Add primary locators, source records, appropriate scholarly references, Wikipedia orientation links, and claim-level historical citation metadata. Keep editorial discussion and production notes outside spoken text.
+6. **Publish only complete manuscripts.** Update pack-local track/route metadata, provenance, and source records when there is a usable lecture. A roadmap entry alone never enters the runtime catalog. Run focused checks and listening-route audit; avoid unrelated repo-wide builds.
+7. **Deliver one content-only ZIP overlay per iteration.** Apply it with `python tools/content_overlay.py apply ZIP`; do not overwrite shared World History files without an explicit coordination step. Each delivery should include verification and Git add/commit commands.
+
+**Working checkpoint:** The next writing installment should start with
+**Hesiod's *Theogony*, *Genesis*, the *Oresteia*, and the *Pañcatantra***,
+with the exact number of lectures determined by the complete story treatment.
+After those, resume at *Zhuangzi*, *The Golden Ass*, *Exodus*, and
+*Śakuntalā* unless new research changes the order.
