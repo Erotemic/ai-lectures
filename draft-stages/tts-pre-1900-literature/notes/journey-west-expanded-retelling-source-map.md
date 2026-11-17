@@ -4,7 +4,7 @@ This is a separate literary retelling of the conventional 100-chapter Ming novel
 
 ## Current playback index after consolidation
 
-The expanded retelling is complete through selected-witness chapter 39 and remains in progress. There are now 25 playable manuscripts: 13 consolidated manuscripts through chapter 21 (retaining the former 61 writing components), and twelve continuous-arc manuscripts for chapters 22–39. Continue with chapter 40 using [the current writer handoff](journey-west-continuation-handoff.md). Subsequent IDs have not been reserved.
+The expanded retelling is complete through selected-witness chapter 45 and remains in progress. There are now 30 playable manuscripts: 13 consolidated manuscripts through chapter 21 (retaining the former 61 writing components), and seventeen continuous-arc manuscripts for chapters 22–45. Continue with chapter 46 using [the current writer handoff](journey-west-continuation-handoff.md). Subsequent IDs have not been reserved.
 
 | Current playback ID | Selected-witness chapters | Current manuscript | Minutes at 145 wpm |
 | --- | --- | --- | ---: |
@@ -33,8 +33,13 @@ The expanded retelling is complete through selected-witness chapter 39 and remai
 | 511000 | 36 | [Journey to the West: Moonlight at Baolin Temple](../511000-journey-to-the-west-moonlight-at-baolin-temple.md) | 13.7 |
 | 512000 | 37–38 | [Journey to the West: The king in the well](../512000-journey-to-the-west-the-king-in-the-well.md) | 27.6 |
 | 513000 | 39 | [Journey to the West: The king who returned](../513000-journey-to-the-west-the-king-who-returned.md) | 25.4 |
+| 514000 | 40 | [Journey to the West: The child in the pine tree](../514000-journey-to-the-west-the-child-in-the-pine-tree.md) | 16.3 |
+| 515000 | 41 | [Journey to the West: The fire that rain could not quench](../515000-journey-to-the-west-the-fire-that-rain-could-not-quench.md) | 16.7 |
+| 516000 | 42 | [Journey to the West: The lotus of knives](../516000-journey-to-the-west-the-lotus-of-knives.md) | 16.2 |
+| 517000 | 43 | [Journey to the West: The Black Water River](../517000-journey-to-the-west-the-black-water-river.md) | 16.2 |
+| 518000 | 44–45 | [Journey to the West: The monks and the rainmakers](../518000-journey-to-the-west-the-monks-and-the-rainmakers.md) | 25.3 |
 
-The ledger below preserves the original pre-consolidation component IDs, scene boundaries, and original measurements through chapter 21 for evidence traceability. Chapters 22–39 are new continuous-arc manuscripts and have no absorbed component history. Those rows are no longer separate playable files.
+The ledger below preserves the original pre-consolidation component IDs, scene boundaries, and original measurements through chapter 21 for evidence traceability. Chapters 22–45 are new continuous-arc manuscripts and have no absorbed component history. Those rows are no longer separate playable files.
 
 ## Original writing-component ledger (not the current playback index)
 
@@ -153,10 +158,10 @@ The novella-like origin episode is literary, not a historical biography of the r
 
 ## Progress and next chapter group
 
-The expanded retelling covers **selected-witness chapters 1–39** in **25 playable manuscripts**. The first 13 manuscripts preserve the earlier 61 components through chapter 21; twelve newer arc-length manuscripts narrate chapters 22–39. Reading/evidence companions include [chapters 22–27](journey-west-chapters-22-27-reading-guide.md), [chapters 28–33](journey-west-chapters-28-33-reading-guide.md), and [chapters 34–39](journey-west-chapters-34-39-reading-guide.md).
+The expanded retelling covers **selected-witness chapters 1–45** in **30 playable manuscripts**. The original 13 consolidated manuscripts through chapter 21 retain their component history; seventeen later arc-length manuscripts narrate chapters 22–45. Evidence companions: [chapters 22–27](journey-west-chapters-22-27-reading-guide.md), [chapters 28–33](journey-west-chapters-28-33-reading-guide.md), [chapters 34–39](journey-west-chapters-34-39-reading-guide.md), and [chapters 40–45](journey-west-chapters-40-45-reading-guide.md).
 
-Chapters 34–35 resolve the Gold and Silver Horn episode at Lotus Cave and reveal Laozi's ownership of the five treasures. Chapter 36 rests at Baolin Temple but ends with Xuanzang still awake. In chapters 37–39 a drowned Wuji king seeks help, the prince discovers an impostor, the king's body is raised from a well and restored by a celestial pill, and Manjushri reclaims his lion from the throne.
+Chapters 40–42 introduce Red Boy, whose Samadhi True Fire and deceptions defeat the disciples before Guanyin's intervention. Chapter 43 resolves that capture and follows the Black Water River and dragon family. Chapters 44–45 begin the Chechi Kingdom crisis of five hundred oppressed monks, the temple deception, and the contested rain ritual.
 
-**Next:** chapter 40. The narrative has not yet described the pilgrims leaving Wuji Kingdom after the lion's capture. Continue from the chapter-39 ending, rather than treating the kingdom's post-rescue ceremonies as already narrated. The chapter-9 River Child insertion caveat remains relevant to edition comparisons. The independently curated World History survey is unchanged.
+**Next:** chapter 46, which continues the court's challenges; the source chapter 45 ends as the four Dragon Kings visibly appear. Continue with **chapters 46–51** in the next six-source-chapter batch. Do not retroactively narrate the later contests in chapter 45. The independently curated World History survey is unchanged, and the chapter-9 River Child insertion caveat remains relevant to edition comparisons.
 
-**Chapters 40–100 remain unwritten in this expanded strand.**
+**Chapters 46–100 remain unwritten in this expanded strand.**
