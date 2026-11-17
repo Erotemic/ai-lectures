@@ -257,3 +257,22 @@ Each manuscript has a non-spoken edition/rights companion and scene-specific
 claim references in `metadata/`. The two pairs are indexed and reachable from
 `navigation.json` in both the medieval route and the compact overview route.
 Word counts and durations are measurements, not acceptance thresholds.
+
+## Qing China and Arabic/Persian framed narratives — next importance-first overviews (17 November 2026)
+
+| IDs | Work | Recorded scope |
+|---|---|---|
+| `113000`–`115000` | Cao Xueqin / received *Dream of the Red Chamber* | Two story lectures cover the *received 120-chapter plot* (not chapter by chapter) and a separate analysis of feeling, gender, household economy, poetry, and the stone frame. The source distinction is essential: early manuscripts transmit roughly the first 80 chapters; the 1791 Cheng/ Gao print supplies the familiar final 40; its authorship is disputed. The story tells the received ending without attributing every scene to Cao. |
+| `116000`–`118000` | *One Thousand and One Nights* continuing selected cycles | The Porter and the Three Ladies of Baghdad, the Three Apples through its pardon, and analysis of Shahrazad's framed narrative, source layers, Galland, Hannā Diyāb, and English translators. New story narrations use **John Payne Volume I**; the previous `074000`–`075000` retain **Burton Volume I**. *This is not complete collection coverage*. |
+
+These six manuscripts have unique claim/scene anchors and non-spoken source
+companions in `metadata/`, plus `track.json`, `navigation.json`, and
+`provenance.yaml` registration. The recordings do not require listeners to
+follow source chapters and they include the endings. Text only: no audio or
+image media. Counts and durations are descriptive, never acceptance gates.
+
+**Nights remaining priority cycles:** the Hunchback's Tale (including framed
+barber stories), the family story of Nur al-Din Ali and Badr al-Din Hasan,
+the voyages of Sindbad from an identified textual tradition, and the
+Galland–Hannā Diyāb Aladdin and Ali Baba repertoires. They must be cataloged
+as selected tales, not treated as a lost unified original manuscript.
