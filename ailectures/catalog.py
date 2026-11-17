@@ -12,6 +12,7 @@ from .core import (
     contained,
     digest,
     extract_text,
+    file_digest,
     lecture_revision,
     name,
     qualified,
@@ -264,6 +265,23 @@ class RepositoryCatalog:
         self._lock = threading.RLock()
         self._cache = self.root / ".content-state"
         self._directories = {}
+        self._fingerprints = {}
+        self._warnings = {}
+        self._extras_pending = set()
+        # Parsed snapshots are valid only for the code that interpreted them.
+        self._implementation = digest(
+            [
+                file_digest(Path(__file__).with_name(filename))
+                for filename in (
+                    "catalog.py",
+                    "core.py",
+                    "companions.py",
+                    "navigation.py",
+                    "organization.py",
+                    "presentations.py",
+                )
+            ]
+        )
         for path in self._cache.glob("*.json"):
             try:
                 saved = read_json(path)
@@ -271,8 +289,64 @@ class RepositoryCatalog:
                     saved["pack"]["extra_files"] = {}
                     self._packs[saved["pack"]["id"]] = saved["pack"]
                     self._directories[saved["directory"]] = saved["pack"]["id"]
+                    self._extras_pending.add(saved["directory"])
+                    if saved.get("implementation") == self._implementation:
+                        self._fingerprints[saved["directory"]] = saved.get(
+                            "fingerprint"
+                        )
+                        self._warnings[saved["directory"]] = saved.get("warnings", [])
             except (OSError, ValueError, KeyError, TypeError):
                 continue
+
+    def _fingerprint(self, rel, entries, pack):
+        entries = list(entries)
+        for relative in (pack or {}).get("companion_paths", []):
+            path = contained(self.root / rel, relative)
+            try:
+                stat = path.stat()
+                values = (stat.st_mtime_ns, stat.st_size, stat.st_ctime_ns)
+            except FileNotFoundError:
+                values = (None, None, None)
+            entries.append((relative, *values))
+        return digest(entries)
+
+    def _extras(self, directory, pack):
+        """Restore export inputs without reparsing cached lecture manuscripts."""
+        warnings = []
+        for extra in (
+            directory / "README.md",
+            directory / "provenance.yaml",
+            *sorted((directory / "examples").glob("*.json")),
+        ):
+            if extra.is_file():
+                try:
+                    pack["extra_files"][
+                        extra.relative_to(directory).as_posix()
+                    ] = extra.read_bytes()
+                except OSError as exc:
+                    warnings.append(f"{directory.name}/{extra.name}: {exc}")
+        for row in pack["lectures"].values():
+            for companion in row.get("companions", []):
+                pack["extra_files"][companion["path"]] = contained(
+                    directory, companion["path"]
+                )
+        return warnings
+
+    def _retain(self, rel, pack, fingerprint, warnings):
+        saved = {
+            "directory": rel,
+            "pack": {k: v for k, v in pack.items() if k != "extra_files"},
+            "fingerprint": fingerprint,
+            "implementation": self._implementation,
+            "warnings": warnings,
+        }
+        atomic_bytes(
+            self._cache / (digest(rel) + ".json"),
+            json.dumps(saved, ensure_ascii=False).encode(),
+        )
+        self._fingerprints[rel] = fingerprint
+        self._warnings[rel] = warnings
+        self._extras_pending.discard(rel)
 
     @property
     def change_token(self):
@@ -319,6 +393,8 @@ class RepositoryCatalog:
             )
             paths += sorted(drafts.glob("tts-*/metadata/*.json"))
             paths += sorted(drafts.glob("tts-*/examples/*.json"))
+            paths += sorted(drafts.glob("tts-*/README.md"))
+            paths += sorted(drafts.glob("tts-*/provenance.yaml"))
             content = self.root / "content"
             directories = sorted(drafts.glob("tts-*")) + sorted(
                 p
@@ -334,6 +410,7 @@ class RepositoryCatalog:
                 for p in content.rglob("*")
                 if p.is_file() and p.suffix in {".json", ".md"}
             )
+            paths += sorted(content.glob("*/provenance.yaml"))
             paths += sorted(
                 p
                 for p in (self.root / "lectures").rglob("*")
@@ -357,14 +434,35 @@ class RepositoryCatalog:
                         try:
                             stat = path.stat()
                             companion_stamps.append(
-                                (str(path), stat.st_mtime_ns, stat.st_size)
+                                (
+                                    str(path),
+                                    stat.st_mtime_ns,
+                                    stat.st_size,
+                                    stat.st_ctime_ns,
+                                )
                             )
                         except FileNotFoundError:
                             companion_stamps.append((str(path), None, None))
-            stamp = tuple(
-                (str(p), p.stat().st_mtime_ns, p.stat().st_size) for p in paths
-            ) + tuple(companion_stamps)
+            file_stamps = []
+            for path in paths:
+                stat = path.stat()
+                file_stamps.append(
+                    (str(path), stat.st_mtime_ns, stat.st_size, stat.st_ctime_ns)
+                )
+            stamp = tuple(file_stamps) + tuple(companion_stamps)
             if stamp != self._stamp:
+                grouped = {}
+                for entry in file_stamps:
+                    relative = Path(entry[0]).relative_to(self.root)
+                    parts = relative.parts
+                    rel = (
+                        "/".join(parts[:2])
+                        if parts[0] in {"draft-stages", "content"}
+                        else parts[0]
+                    )
+                    grouped.setdefault(rel, []).append(
+                        (relative.as_posix(), *entry[1:])
+                    )
                 packs = dict(self._packs)
                 errors = []
                 existing = set()
@@ -376,46 +474,38 @@ class RepositoryCatalog:
                     try:
                         rel = directory.relative_to(self.root).as_posix()
                         previous_id = self._directories.get(rel)
+                        fingerprint = self._fingerprint(
+                            rel, grouped.get(rel, []), packs.get(previous_id)
+                        )
+                        if (
+                            previous_id in packs
+                            and self._fingerprints.get(rel) == fingerprint
+                        ):
+                            pack = packs[previous_id]
+                            if pack["id"] in existing:
+                                raise ValueError(
+                                    f"Duplicate track namespace: {pack['id']}"
+                                )
+                            existing.add(pack["id"])
+                            errors.extend(self._warnings.get(rel, []))
+                            if rel in self._extras_pending:
+                                errors.extend(self._extras(directory, pack))
+                                self._extras_pending.discard(rel)
+                            continue
                         pack = repository_track(
                             directory, previous=packs.get(previous_id)
                         )
-                        errors.extend(pack.pop("warnings", []))
+                        warnings = pack.pop("warnings", [])
                         if pack["id"] in existing:
                             raise ValueError(f"Duplicate track namespace: {pack['id']}")
                         existing.add(pack["id"])
-                        extras = [
-                            directory / "README.md",
-                            directory / "provenance.yaml",
-                            *sorted((directory / "examples").glob("*.json")),
-                        ]
-                        for extra in extras:
-                            if extra.is_file():
-                                try:
-                                    pack["extra_files"][
-                                        extra.relative_to(directory).as_posix()
-                                    ] = extra.read_bytes()
-                                except OSError as exc:
-                                    errors.append(
-                                        f"{directory.name}/{extra.name}: {exc}"
-                                    )
+                        warnings.extend(self._extras(directory, pack))
+                        errors.extend(warnings)
+                        fingerprint = self._fingerprint(rel, grouped.get(rel, []), pack)
                         packs[pack["id"]] = pack
                         self._directories[rel] = pack["id"]
-                        saved = {
-                            "directory": rel,
-                            "pack": {
-                                k: v for k, v in pack.items() if k != "extra_files"
-                            },
-                        }
-                        cache_path = self._cache / (digest(rel) + ".json")
                         try:
-                            if (
-                                not cache_path.exists()
-                                or read_json(cache_path) != saved
-                            ):
-                                atomic_bytes(
-                                    cache_path,
-                                    json.dumps(saved, ensure_ascii=False).encode(),
-                                )
+                            self._retain(rel, pack, fingerprint, warnings)
                         except (OSError, ValueError) as exc:
                             errors.append(
                                 f"{directory.name}: could not retain its published snapshot: {exc}"
@@ -434,9 +524,7 @@ class RepositoryCatalog:
                                     (
                                         "tts-lectures"
                                         if k == "g2"
-                                        else "tts-paper"
-                                        if k == "g3"
-                                        else ""
+                                        else "tts-paper" if k == "g3" else ""
                                     ),
                                 }
                             ),
@@ -446,9 +534,16 @@ class RepositoryCatalog:
                             existing.add(previous)
                 if (self.root / "lectures" / "index.yaml").exists():
                     try:
-                        from .presentations import presentation_pack
+                        fingerprint = digest(grouped.get("lectures", []))
+                        if (
+                            "g1" not in packs
+                            or self._fingerprints.get("lectures") != fingerprint
+                        ):
+                            from .presentations import presentation_pack
 
-                        packs["g1"] = presentation_pack(self.root)
+                            packs["g1"] = presentation_pack(self.root)
+                            self._directories["lectures"] = "g1"
+                            self._retain("lectures", packs["g1"], fingerprint, [])
                         existing.add("g1")
                     except (ImportError, OSError, ValueError, KeyError) as exc:
                         errors.append(f"g1: {exc}")

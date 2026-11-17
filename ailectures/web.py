@@ -108,8 +108,18 @@ def create_app(
     async def favicon(request):
         return RedirectResponse("/library-assets/favicon.svg")
 
-    def annotate(row):
-        row = deepcopy(row)
+    def annotate(row, *, summary=False):
+        words = len(row["transcript"].split())
+        # Catalog cards do not need a copy of every source record and claim.
+        row = deepcopy(
+            {
+                k: v
+                for k, v in row.items()
+                if k not in {"source", "transcript", "metadata", "sources"}
+            }
+            if summary
+            else row
+        )
         origin = row["origin"]
         if "companions" in row:
             row["companions"] = list(available_companions(row))
@@ -133,11 +143,13 @@ def create_app(
                 segment["url"] = (
                     f"/api/library/media/{segment.pop('_release')}/{segment.pop('_recording')}/{segment['index']}"
                     if segment.get("_release")
-                    else f"/api/library/production/jobs/{rec['_job']}/media/{segment['index']}/{segment['sha256']}"
-                    if rec.get("_job")
-                    else f"/api/library/media/{release}/{rec['id']}/{segment['index']}"
+                    else (
+                        f"/api/library/production/jobs/{rec['_job']}/media/{segment['index']}/{segment['sha256']}"
+                        if rec.get("_job")
+                        else f"/api/library/media/{release}/{rec['id']}/{segment['index']}"
+                    )
                 )
-        row["words"] = len(row["transcript"].split())
+        row["words"] = words
         row["estimated_minutes"] = round(row["words"] / 145, 1)
         return row
 
@@ -164,12 +176,10 @@ def create_app(
         ]
         items = []
         for row in snapshot["lectures"].values():
-            summary = annotate(row)
+            summary = annotate(row, summary=True)
             summary.update(item_organization(row, collections))
             if row.get("metadata", {}).get("short_format_reason"):
                 summary["short_format_reason"] = row["metadata"]["short_format_reason"]
-            for key in ("source", "transcript", "metadata", "sources"):
-                summary.pop(key, None)
             for rec in summary.get("recordings", []):
                 rec["page_count"] = len(rec.pop("pages"))
                 rec.pop("segments", None)

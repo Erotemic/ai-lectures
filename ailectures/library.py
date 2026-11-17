@@ -30,13 +30,15 @@ class Library:
             excluded=excluded,
         )
         self.repository = RepositoryCatalog(repository) if repository else None
-        self._saved_snapshots = set()
         self._lock = threading.RLock()
         self._snapshot_key = None
         with self.store.connect() as db:
             db.execute(
                 "CREATE TABLE IF NOT EXISTS source_snapshots (release TEXT PRIMARY KEY, catalog TEXT NOT NULL)"
             )
+            self._saved_snapshots = {
+                row[0] for row in db.execute("SELECT release FROM source_snapshots")
+            }
 
     def snapshot(self, *, refresh=False, copy=True):
         """Reuse unchanged compositions; copy=False is for read-only callers."""
@@ -59,7 +61,9 @@ class Library:
     def _compose(self, installed, sources):
         result = deepcopy(installed)
         for pack_id, pack in sources.items():
-            source_rows = deepcopy(pack["lectures"])
+            # Composition replaces recordings/origin; authored fields stay
+            # read-only, like the courses already shared with this snapshot.
+            source_rows = {key: dict(row) for key, row in pack["lectures"].items()}
             for key, row in source_rows.items():
                 old = result["lectures"].get(key)
                 candidates = ([old] if old else []) + installed.get(

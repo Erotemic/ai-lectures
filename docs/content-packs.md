@@ -334,6 +334,12 @@ explicit Refresh action. Requests reconcile against the same committed catalog;
 multiple server processes share SQLite activation state. No content change
 requires restarting the server. Changing server or renderer code still does.
 
+Repository discovery checks file signatures and reuses parsed pack snapshots in
+ignored `.content-state/` storage, including after a restart. Editing a pack
+rebuilds that pack's snapshot; changes to the parsing code invalidate cached
+parses. A new installation or parser update needs one initial scan. Companions,
+reading records, and navigation updates remain discoverable without a restart.
+
 For unattended discovery, copy `library.example.toml` to a machine-local file:
 
 ```toml
