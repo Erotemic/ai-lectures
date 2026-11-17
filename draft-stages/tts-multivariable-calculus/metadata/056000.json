@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "lecture_id": "056000",
+  "transcript": "056000-capacity-energy-and-the-size-of-a-set.md",
+  "related_resources": [
+    {
+      "source_id": "mv-kondratiev-shubin-capacity",
+      "reason": "Explicit energy calculation for concentric balls and logarithmic planar annuli."
+    },
+    {
+      "source_id": "mv-wiki-capacity-of-set",
+      "reason": "Definition and electrostatic interpretation of condenser capacity."
+    },
+    {
+      "source_id": "mv-wiki-potential-theory",
+      "reason": "Potential theory context and probabilistic link."
+    },
+    {
+      "source_id": "mv-uw-brownian-dirichlet",
+      "reason": "Probabilistic representation for harmonic hitting probabilities."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-17",
+    "scope": "Original spoken lecture and non-spoken mathematical companion for the boundary-capacity-Wiener bridge; 39 existing manuscripts retained unchanged."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "multivariable-calculus:033000",
+        "reason": "Weak harmonicity from a Dirichlet energy minimum."
+      },
+      {
+        "lecture_id": "multivariable-calculus:048000",
+        "reason": "Fundamental solutions and radial Green potentials."
+      },
+      {
+        "lecture_id": "multivariable-calculus:052000",
+        "reason": "Probabilistic meaning of harmonic boundary values."
+      }
+    ],
+    "recommended": [
+      {
+        "lecture_id": "multivariable-calculus:057000",
+        "reason": "Apply capacity-zero conditions to removable harmonic singularities."
+      }
+    ],
+    "background": [
+      "Dirichlet integral, integration by parts, radial Laplacian, polar/spherical shell integration and elementary Brownian hitting interpretation."
+    ],
+    "readiness_checks": [
+      "Derive n-dimensional radial condenser potentials and their Dirichlet energies.",
+      "Compare two- and three-dimensional point limits and check the one-dimensional point lower bound."
+    ]
+  }
+}

@@ -96,6 +96,14 @@ transcript:
       source_records: metadata/sources.json
       per_lecture_metadata: metadata/051000.json through metadata/054000.json
     scope: Add original spoken lectures and mathematical companions on Hopf's boundary lemma, harmonic measure, Schauder estimates and Calderón–Zygmund regularity, preserving the earlier manuscripts unchanged.
+  - date: '2026-11-17'
+    models:
+    - GPT-6
+    sources:
+    - manuscripts: '055000–058000'
+      source_records: metadata/sources.json
+      per_lecture_metadata: metadata/055000.json through metadata/058000.json
+    scope: Add four original spoken lectures and mathematical companions on boundary Harnack, energy capacity, removable singularities, and Wiener regularity; preserve 39 earlier manuscripts unchanged.
 learning_map:
   revisions:
   - date: '2026-11-16'
@@ -214,3 +222,14 @@ learning_map:
     - metadata/053000.json
     - metadata/054000.json
     scope: Register a separate boundary-harmonic-regularity listening route with source records, descriptive narration counts, prerequisites and focused readiness checks; retain survey and all prior routes.
+  - date: '2026-11-17'
+    models:
+    - GPT-6
+    sources:
+    - track.json
+    - navigation.json
+    - metadata/055000.json
+    - metadata/056000.json
+    - metadata/057000.json
+    - metadata/058000.json
+    scope: Add the boundary-capacity-Wiener deep-dive route, descriptive spoken counts, checked prerequisites and citations while retaining all prior routes.

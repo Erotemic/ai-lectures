@@ -335,6 +335,40 @@
       "assumed_background": [
         "The weak and strong maximum principles, basic Dirichlet problems, Poisson and Green kernels, weak derivatives, H2 estimates, Lp norms and elementary Fourier analysis; key new estimates and counterexamples are derived."
       ]
+    },
+    {
+      "id": "elliptic-boundary-capacity-wiener-bridge",
+      "title": "Boundary Harnack, Capacity and Wiener Regularity · How Much of the Boundary Counts?",
+      "role": "deep_dive",
+      "parent": "survey",
+      "summary": "Four constructive lectures: boundary Harnack ratios on flat and wedge boundaries; energy capacity of balls and planar annuli; removable harmonic singularities and polar sets; Wiener’s dyadic capacity test including a concrete thin-obstacle irregular boundary.",
+      "lectures": [
+        "055000",
+        "056000",
+        "057000",
+        "058000"
+      ],
+      "preparation_collections": [
+        "multivariable-calculus:elliptic-maximum-green-harnack-bridge",
+        "multivariable-calculus:elliptic-boundary-harmonic-regularity-bridge"
+      ],
+      "related_collections": [
+        "multivariable-calculus:variational-weak-formulations-bridge",
+        "multivariable-calculus:variational-compactness-direct-method-bridge",
+        "analysis:survey",
+        "differential-equations:survey"
+      ],
+      "tags": [
+        "Boundary Harnack",
+        "Capacity",
+        "Removable singularities",
+        "Polar sets",
+        "Wiener criterion",
+        "Boundary regularity"
+      ],
+      "assumed_background": [
+        "Harmonic functions and their maximum principle, positive solution comparison, Dirichlet energy, weak solutions, Sobolev capacity, and Green/Poisson kernels; energy capacities and the point-removal barrier proof are developed here."
+      ]
     }
   ]
 }

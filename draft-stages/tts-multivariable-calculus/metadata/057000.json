@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "lecture_id": "057000",
+  "transcript": "057000-removable-singularities-and-polar-sets.md",
+  "related_resources": [
+    {
+      "source_id": "mv-taylor-harmonic-removability",
+      "reason": "Exact isolated-point barrier proof."
+    },
+    {
+      "source_id": "mv-tolsa-potential-polar",
+      "reason": "General bounded-harmonic removability criterion for polar compact sets."
+    },
+    {
+      "source_id": "mv-wiki-polar-potential",
+      "reason": "Polar set examples and terminology."
+    },
+    {
+      "source_id": "mv-wiki-capacity-of-set",
+      "reason": "Energy cutoffs and capacity as a negligible-set criterion."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-17",
+    "scope": "Original spoken lecture and non-spoken mathematical companion for the boundary-capacity-Wiener bridge; 39 existing manuscripts retained unchanged."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "multivariable-calculus:056000",
+        "reason": "Capacity and zero-energy cutoff functions."
+      },
+      {
+        "lecture_id": "multivariable-calculus:047000",
+        "reason": "Maximum/minimum principle for harmonic functions."
+      },
+      {
+        "lecture_id": "multivariable-calculus:049000",
+        "reason": "Caccioppoli and weak energy estimates."
+      }
+    ],
+    "recommended": [
+      {
+        "lecture_id": "multivariable-calculus:058000",
+        "reason": "Use capacity to study boundary points that do not enforce Dirichlet data."
+      }
+    ],
+    "background": [
+      "Maximum principle, harmonic Dirichlet problem, fundamental solutions and zero-capacity energy cutoffs; a point removal proof is complete."
+    ],
+    "readiness_checks": [
+      "Complete the epsilon-H maximum-principle proof of bounded isolated point removability.",
+      "Verify the internal-sphere example is harmonic away from the sphere but nonremovable."
+    ]
+  }
+}

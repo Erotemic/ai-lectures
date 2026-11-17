@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "lecture_id": "058000",
+  "transcript": "058000-wiener-criterion-and-irregular-boundaries.md",
+  "related_resources": [
+    {
+      "source_id": "mv-wiener-higher-dimensions",
+      "reason": "Dyadic exterior-capacity Wiener series and geometric hypotheses."
+    },
+    {
+      "source_id": "mv-wiener-fully-nonlinear",
+      "reason": "Barrier characterization and exterior cone sufficient condition."
+    },
+    {
+      "source_id": "mv-taylor-harmonic-removability",
+      "reason": "Punctured-ball proof establishing the irregular boundary example."
+    },
+    {
+      "source_id": "mv-wiki-capacity-of-set",
+      "reason": "Newtonian capacity scaling and fixed energy normalization."
+    },
+    {
+      "source_id": "mv-wiki-harmonic-measure",
+      "reason": "Exit-measure interpretation of pointwise Dirichlet boundary data."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-17",
+    "scope": "Original spoken lecture and non-spoken mathematical companion for the boundary-capacity-Wiener bridge; 39 existing manuscripts retained unchanged."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "multivariable-calculus:056000",
+        "reason": "Exact Newtonian capacity scaling in dimensions three and above."
+      },
+      {
+        "lecture_id": "multivariable-calculus:057000",
+        "reason": "Removability of a point for bounded harmonic functions."
+      },
+      {
+        "lecture_id": "multivariable-calculus:052000",
+        "reason": "Harmonic measure and Brownian exit data."
+      }
+    ],
+    "recommended": [
+      {
+        "lecture_id": "differential-equations:survey",
+        "reason": "Connect elliptic boundary regularity to broader PDE classes."
+      },
+      {
+        "lecture_id": "analysis:survey",
+        "reason": "Compare capacity-based negligible sets with measure-theoretic negligible sets."
+      }
+    ],
+    "background": [
+      "Exterior domain, harmonic boundary value, three-dimensional Newtonian capacity and geometric series; the Wiener theorem is stated with proof mechanism and exact examples."
+    ],
+    "readiness_checks": [
+      "Explain continuity of prescribed data on a punctured ball boundary and show the irregularity contradiction.",
+      "Compute the Wiener series for an exterior cone and the superthin-ball example."
+    ]
+  }
+}

@@ -20,11 +20,13 @@
 
 **New Hopf, harmonic measure and advanced elliptic regularity bridge (2026-11-17):** `051000`–`054000` prove strict boundary growth by an annular barrier, derive Brownian exit/harmonic measure and a disk arc probability, explain C2-alpha Schauder estimates with divergence-form counterexample, and derive local W2p Calderón–Zygmund theory with bounded-source/unbounded-Hessian counterexample. Prior 47–50 manuscripts remain unchanged.
 
+**New boundary Harnack, capacity and Wiener regularity bridge (2026-11-17):** `055000`–`058000` compare positive harmonic functions near a shared zero boundary, calculate relative and absolute ball capacity with the planar logarithmic case, prove bounded isolated-point removability and explain polar compact sets, then derive concrete regular/irregular boundary tests from the Wiener exterior-capacity series. The previous 39 manuscripts are unchanged.
+
 ## Further bridge candidates, subject to a fresh cross-pack coverage audit
 
 - Further nonlinear inverse-problem theory: parameter constraints and projected steps, adjoint-state sensitivity for expensive forward models, optimal experimental design, and uncertainty beyond a local Gaussian approximation; coordinate with Numerical Analysis and Optimization.
 - Advanced constrained numerics: SQP globalization, primal-dual interior-point methods and sparse KKT preconditioning; avoid duplicating Optimization/Duality and Numerical Analysis.
-- Further elliptic and potential-theoretic extensions: boundary Harnack beyond the disk, capacity and removable sets, semilinear comparison and monotone iteration; check Analysis and Differential Equations first.
+- Further elliptic and potential-theoretic extensions: semilinear comparison and monotone iteration, nonlinear capacities and Wiener refinements beyond the Laplacian; check Analysis and Differential Equations first.
 - Further variational extensions: higher-dimensional quasiconvexity and polyconvexity, loss of compactness at critical exponents, boundary regularity for mixed Dirichlet–Neumann junctions, higher-order variable-coefficient and boundary regularity refinements, higher-dimensional compatible de Rham complexes, robustness under coefficient jumps, numerical convergence of obstacle active sets; coordinate with Differential Equations and Numerical Analysis.
 - Multivariable integration over less regular domains: approximation and boundary convergence, only where Analysis and Measure Theory have gaps.
 

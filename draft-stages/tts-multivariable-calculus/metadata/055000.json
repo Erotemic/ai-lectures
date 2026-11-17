@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "lecture_id": "055000",
+  "transcript": "055000-boundary-harnack-and-relative-boundary-growth.md",
+  "related_resources": [
+    {
+      "source_id": "mv-fernandez-rosoton-bhp",
+      "reason": "A complete Lipschitz-graph boundary Harnack proof and Hölder quotient statement."
+    },
+    {
+      "source_id": "mv-boundary-harnack-rhs",
+      "reason": "The homogeneous theorem and its limitations for forced elliptic equations."
+    },
+    {
+      "source_id": "mv-wiki-harnack-inequality",
+      "reason": "Difference between interior and boundary Harnack estimates."
+    },
+    {
+      "source_id": "mv-wiki-harmonic-measure",
+      "reason": "Connection to positive Green functions and boundary influence."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-17",
+    "scope": "Original spoken lecture and non-spoken mathematical companion for the boundary-capacity-Wiener bridge; 39 existing manuscripts retained unchanged."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "multivariable-calculus:050000",
+        "reason": "Interior Harnack inequality and harmonic positivity."
+      },
+      {
+        "lecture_id": "multivariable-calculus:051000",
+        "reason": "Hopf boundary growth and geometric restrictions."
+      },
+      {
+        "lecture_id": "multivariable-calculus:052000",
+        "reason": "Harmonic measure and Dirichlet Green function."
+      }
+    ],
+    "recommended": [
+      {
+        "lecture_id": "multivariable-calculus:056000",
+        "reason": "Understand how the geometric size of a boundary set can be measured variationally."
+      }
+    ],
+    "background": [
+      "Positive harmonic functions, ordinary Harnack estimates, planar polar coordinates and Lipschitz graphs; the flat example and wedge calculation are worked out."
+    ],
+    "readiness_checks": [
+      "Differentiate y(1+x/4) to prove harmonicity and check its quotient with y.",
+      "Compute the wedge exponent pi/omega, then explain why the derivative may blow up at a reentrant corner."
+    ]
+  }
+}

@@ -1,7 +1,7 @@
 {
   "id": "multivariable-calculus",
   "title": "Multivariable Calculus from First Principles",
-  "summary": "A calculation-first and proof-aware bridge from single-variable calculus and linear algebra to geometry, optimization, variational PDEs, mixed elements, elliptic comparison and boundary behavior. Depth routes culminate in harmonic measure and Schauder versus Sobolev L-p regularity.",
+  "summary": "A calculation-first and proof-aware bridge from basic calculus and linear algebra through optimization, weak PDEs, mixed finite elements, elliptic regularity and potential theory, now including boundary Harnack, capacity, removability and Wiener boundary regularity.",
   "assumed_background": [
     "single-variable limits, differentiation and integration (Analysis 001000–008000)",
     "elementary vectors, matrices, determinants and dot products (Linear Algebra 001000–006000, 008000)"
@@ -21,7 +21,8 @@
     "mixed-inf-sup-stability-bridge",
     "boundary-traces-elliptic-regularity-bridge",
     "elliptic-maximum-green-harnack-bridge",
-    "elliptic-boundary-harmonic-regularity-bridge"
+    "elliptic-boundary-harmonic-regularity-bridge",
+    "elliptic-boundary-capacity-wiener-bridge"
   ],
   "lectures": [
     {
@@ -656,6 +657,70 @@
         "Singular integrals",
         "Fourier multipliers",
         "Endpoint failures"
+      ]
+    },
+    {
+      "id": "055000",
+      "title": "Boundary Harnack: Comparing Two Functions That Both Vanish at a Wall",
+      "section": "elliptic-boundary-capacity-wiener-bridge",
+      "file": "055000-boundary-harnack-and-relative-boundary-growth.md",
+      "spoken_words": 1730,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 11.9,
+      "tags": [
+        "Boundary Harnack",
+        "Harmonic functions",
+        "Lipschitz boundaries",
+        "Corner singularities",
+        "Boundary ratios"
+      ]
+    },
+    {
+      "id": "056000",
+      "title": "Capacity: When a Small Set Still Has a Large Effect",
+      "section": "elliptic-boundary-capacity-wiener-bridge",
+      "file": "056000-capacity-energy-and-the-size-of-a-set.md",
+      "spoken_words": 1868,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 12.9,
+      "tags": [
+        "Capacity",
+        "Dirichlet energy",
+        "Condenser potentials",
+        "Sobolev spaces",
+        "Brownian motion"
+      ]
+    },
+    {
+      "id": "057000",
+      "title": "Removable Singularities: When a Missing Set Can Be Filled In",
+      "section": "elliptic-boundary-capacity-wiener-bridge",
+      "file": "057000-removable-singularities-and-polar-sets.md",
+      "spoken_words": 1777,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 12.3,
+      "tags": [
+        "Removable singularities",
+        "Polar sets",
+        "Potential theory",
+        "Point sources",
+        "Maximum principle"
+      ]
+    },
+    {
+      "id": "058000",
+      "title": "The Wiener Criterion: When a Boundary Point Cannot Enforce Its Value",
+      "section": "elliptic-boundary-capacity-wiener-bridge",
+      "file": "058000-wiener-criterion-and-irregular-boundaries.md",
+      "spoken_words": 1967,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 13.6,
+      "tags": [
+        "Wiener criterion",
+        "Boundary regularity",
+        "Capacity",
+        "Dirichlet problem",
+        "Barriers"
       ]
     }
   ],
