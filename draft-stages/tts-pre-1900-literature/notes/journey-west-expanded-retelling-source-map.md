@@ -4,7 +4,7 @@ This is a separate literary retelling of the conventional 100-chapter Ming novel
 
 ## Current playback index after consolidation
 
-The expanded retelling is complete through selected-witness chapter 27 and remains in progress. There are now 17 playable manuscripts: the 13 consolidated manuscripts through chapter 21 (retaining the former 61 writing components) followed by four new continuous-arc manuscripts covering chapters 22–27. Continue with chapter 28 using [the current writer handoff](journey-west-continuation-handoff.md). The subsequent IDs have not been reserved.
+The expanded retelling is complete through selected-witness chapter 33 and remains in progress. There are now 21 playable manuscripts: 13 consolidated manuscripts through chapter 21 (retaining the former 61 writing components), four continuous-arc manuscripts for chapters 22–27, and four more for chapters 28–33. Continue with chapter 34 using [the current writer handoff](journey-west-continuation-handoff.md). Subsequent IDs have not been reserved.
 
 | Current playback ID | Selected-witness chapters | Current manuscript | Minutes at 145 wpm |
 | --- | --- | --- | ---: |
@@ -25,8 +25,12 @@ The expanded retelling is complete through selected-witness chapter 27 and remai
 | 503000 | 23 | [Journey to the West: The house of four offers](../503000-journey-to-the-west-the-house-of-four-offers.md) | 18.6 |
 | 504000 | 24–26 | [Journey to the West: The ginseng fruit tree](../504000-journey-to-the-west-the-ginseng-fruit-tree.md) | 43.4 |
 | 505000 | 27 | [Journey to the West: Three faces of the White Bone Demon](../505000-journey-to-the-west-three-faces-of-the-white-bone-demon.md) | 25.7 |
+| 506000 | 28 | [Journey to the West: The ruined mountain and the golden tower](../506000-journey-to-the-west-the-ruined-mountain-and-the-golden-tower.md) | 18.4 |
+| 507000 | 29–30 | [Journey to the West: The princess's letter, the tiger, and the white horse](../507000-journey-to-the-west-the-letter-the-tiger-and-the-white-horse.md) | 30.1 |
+| 508000 | 31 | [Journey to the West: The return of Sun Wukong](../508000-journey-to-the-west-the-return-of-sun-wukong.md) | 21.0 |
+| 509000 | 32–33 | [Journey to the West: Lotus Cave and the sky in a gourd](../509000-journey-to-the-west-lotus-cave-and-the-sky-in-a-gourd.md) | 28.5 |
 
-The ledger below preserves the original pre-consolidation component IDs, scene boundaries, and original measurements through chapter 21 for evidence traceability. Chapters 22–27 are new continuous-arc manuscripts and have no absorbed component history. Those rows are no longer separate playable files.
+The ledger below preserves the original pre-consolidation component IDs, scene boundaries, and original measurements through chapter 21 for evidence traceability. Chapters 22–33 are new continuous-arc manuscripts and have no absorbed component history. Those rows are no longer separate playable files.
 
 ## Original writing-component ledger (not the current playback index)
 
@@ -145,10 +149,10 @@ The novella-like origin episode is literary, not a historical biography of the r
 
 ## Progress and next chapter group
 
-The expanded retelling covers **chapters 1–21** in **61** original English narrative lectures. The new lectures **493000–501000** narrate the Yellow Wind Ridge household, Tiger Vanguard's abduction of Xuanzang, Bajie's capture of the tiger demon, Wukong's eye injury, the guardians' disguised farmhouse, Wukong's mosquito reconnaissance, Taibai Jinxing's help, Lingji's intervention and the rescue. See `notes/journey-west-chapters-20-21-reading-guide.md` for primary-text links and continuity notes.
+The expanded retelling covers **selected-witness chapters 1–33** in **21 playable manuscripts**. The first 13 manuscripts preserve the older 61 authored components through chapter 21; four new manuscripts narrate chapters 22–27 and four narrate chapters 28–33. See [chapters 22–27](journey-west-chapters-22-27-reading-guide.md) and [chapters 28–33](journey-west-chapters-28-33-reading-guide.md) for source checks and scene order.
 
-**Next:** chapter 22, the Flowing-Sand River and the encounter with the water monster who becomes Sha Wujing. Chapter 21 ends with Xuanzang rescued from Yellow Wind Cave and the three travelers setting off west; the Flowing-Sand River belongs to chapter 22.
+In chapters 28–31 Wukong returns to Flower-Fruit Mountain, the companions lose Xuanzang to the Yellow-Robed Lord, Baihuaxiu's letter reaches Baoxiang, and Wukong returns to restore his master after the star officer Kuimu Lang is recalled. Chapters 32–33 begin the Gold and Silver Horn episode at Lotus Cave; the current last scene is Wukong's false-gourd exchange, **not the cave's defeat**.
 
-The River Child chapter-9 insertion caveat remains relevant to edition comparison; this retelling continues to use the same selected Chinese witness.
+**Next:** selected-witness chapter 34, the continuing Lotus Cave conflict and Wukong's attempts to use the demons' treasures. The chapter-9 River Child insertion caveat remains relevant to edition comparisons. The independently curated World History full-plot survey is unchanged.
 
-**Chapters 22–100 remain unwritten in this expanded strand.** The World History complete-plot survey remains separately available and unchanged.
+**Chapters 34–100 remain unwritten in this expanded strand.**
