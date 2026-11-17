@@ -1,7 +1,7 @@
 {
   "id": "multivariable-calculus",
   "title": "Multivariable Calculus from First Principles",
-  "summary": "A calculation-first and proof-aware bridge from single-variable calculus and basic linear algebra to geometry and optimization. Depth routes develop Taylor and Newton theory, nonlinear least squares, constrained KKT sensitivity, and variational/weak PDE methods through complete examples.",
+  "summary": "A calculation-first and proof-aware bridge from single-variable calculus and linear algebra to geometry, optimization, and variational PDEs. Depth routes develop Taylor and Newton theory, nonlinear least squares, KKT sensitivity, weak formulations, Sobolev compactness and nonlinear existence.",
   "assumed_background": [
     "single-variable limits, differentiation and integration (Analysis 001000–008000)",
     "elementary vectors, matrices, determinants and dot products (Linear Algebra 001000–006000, 008000)"
@@ -16,7 +16,8 @@
     "taylor-newton-bridge",
     "nonlinear-least-squares-bridge",
     "constrained-newton-sensitivity-bridge",
-    "variational-weak-formulations-bridge"
+    "variational-weak-formulations-bridge",
+    "variational-compactness-direct-method-bridge"
   ],
   "lectures": [
     {
@@ -329,6 +330,69 @@
         "Céa lemma",
         "Stiffness matrices",
         "Energy error"
+      ]
+    },
+    {
+      "id": "035000",
+      "title": "Weak Convergence: What Survives When Energy Is Bounded",
+      "section": "variational-compactness-direct-method-bridge",
+      "file": "035000-weak-convergence-and-energy-limits.md",
+      "spoken_words": 2187,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 15.1,
+      "tags": [
+        "Weak convergence",
+        "Hilbert spaces",
+        "Lower semicontinuity",
+        "Variational methods"
+      ]
+    },
+    {
+      "id": "036000",
+      "title": "Sobolev Embeddings and Compactness: How Slopes Control Shapes",
+      "section": "variational-compactness-direct-method-bridge",
+      "file": "036000-sobolev-embeddings-and-compactness.md",
+      "spoken_words": 2313,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 16.0,
+      "tags": [
+        "Sobolev spaces",
+        "Sobolev embeddings",
+        "Rellich compactness",
+        "Critical exponents",
+        "Concentration"
+      ]
+    },
+    {
+      "id": "037000",
+      "title": "The Direct Method: Proving a Nonlinear Minimizer Exists",
+      "section": "variational-compactness-direct-method-bridge",
+      "file": "037000-direct-method-nonlinear-minimizers.md",
+      "spoken_words": 2364,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 16.3,
+      "tags": [
+        "Direct method",
+        "Coercivity",
+        "Nonlinear energy",
+        "Existence",
+        "Convexity"
+      ]
+    },
+    {
+      "id": "038000",
+      "title": "Obstacle Problems: From Energy Minima to Variational Inequalities",
+      "section": "variational-compactness-direct-method-bridge",
+      "file": "038000-obstacle-problems-variational-inequalities.md",
+      "spoken_words": 2301,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 15.9,
+      "tags": [
+        "Obstacle problem",
+        "Variational inequalities",
+        "Contact mechanics",
+        "Free boundaries",
+        "Convex constraints"
       ]
     }
   ],

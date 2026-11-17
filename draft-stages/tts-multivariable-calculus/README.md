@@ -1,6 +1,6 @@
 # Multivariable Calculus from First Principles
 
-A calculation-first and proof-aware bridge from single-variable calculus and basic linear algebra to smooth manifolds, PDEs, optimization and vector calculus. The three existing consolidated manuscripts give the guided survey. Four depth routes, each with four lectures, develop Taylor/Newton theory, nonlinear least squares/inverse problems, constrained Newton/KKT sensitivity, and variational weak-formulation methods with worked proofs, examples and qualified inference.
+A calculation-first and proof-aware bridge from single-variable calculus and basic linear algebra to smooth manifolds, PDEs, optimization and vector calculus. The three existing consolidated manuscripts give the guided survey. Five depth routes, each with four lectures, develop Taylor/Newton theory, nonlinear least squares/inverse problems, constrained Newton/KKT sensitivity, variational weak formulations, and nonlinear existence via weak compactness, with worked proofs and examples.
 
 ## Listening routes
 
@@ -9,6 +9,7 @@ A calculation-first and proof-aware bridge from single-variable calculus and bas
 - **Nonlinear Least Squares and Inverse Problems** (`multivariable-calculus:nonlinear-least-squares-bridge`): `023000`, `024000`, `025000`, `026000`; connects Gauss–Newton and trust regions to identifiability, uncertainty, regularization and robust fitting.
 - **Constrained Newton and Implicit Sensitivity** (`multivariable-calculus:constrained-newton-sensitivity-bridge`): `027000`, `028000`, `029000`, `030000`; derives tangent and critical-cone geometry, KKT Newton block systems, and differentiated optimality conditions.
 - **Variational Methods and Weak PDEs** (`multivariable-calculus:variational-weak-formulations-bridge`): `031000`, `032000`, `033000`, `034000`; first and second variations, boundary terms, energy-space existence, and finite-element assembly with a checked error proof.
+- **Weak Compactness and Nonlinear Existence** (`multivariable-calculus:variational-compactness-direct-method-bridge`): `035000`–`038000`; weak limits, Sobolev compactness, nonlinear direct-method existence and a solved obstacle free boundary.
 - **Full source sequence** (`multivariable-calculus:main`): all indexed manuscripts in `track.json` order.
 
 The optional `navigation.json` separates introductory listening from depth; it does not replace the full source inventory or imply any proof prerequisites by itself. These are declared separately in each new lecture's `metadata/` sidecar.
@@ -39,8 +40,13 @@ Durations below are descriptive measurements of spoken text at 145 words per min
 | `033000` | [Weak Solutions: When the Integral Equation Is the Right Equation](033000-weak-solutions-and-energy-spaces.md) | 14.6 | Variational and weak-formulation bridge |
 | `034000` | [Finite Elements: From a Weak Equation to a Matrix and an Error Bound](034000-finite-elements-from-weak-form-to-error.md) | 16.8 | Variational and weak-formulation bridge |
 
+| `035000` | [Weak Convergence: What Survives When Energy Is Bounded](035000-weak-convergence-and-energy-limits.md) | 15.1 | Variational compactness and nonlinear existence bridge |
+| `036000` | [Sobolev Embeddings and Compactness: How Slopes Control Shapes](036000-sobolev-embeddings-and-compactness.md) | 16.0 | Variational compactness and nonlinear existence bridge |
+| `037000` | [The Direct Method: Proving a Nonlinear Minimizer Exists](037000-direct-method-nonlinear-minimizers.md) | 16.3 | Variational compactness and nonlinear existence bridge |
+| `038000` | [Obstacle Problems: From Energy Minima to Variational Inequalities](038000-obstacle-problems-variational-inequalities.md) | 15.9 | Variational compactness and nonlinear existence bridge |
+
 ## Editorial boundaries and evidence
 
-The old combined `001000`, `008000`, and `015000` manuscripts remain unchanged, including their inherited mathematical companions and consolidation provenance. The extensions add quantitative material beyond the original Hessian survey: integral remainder estimates, strong-convexity bounds, Newton convergence, least-squares model geometry, damping safeguards, singular-value sensitivity, structured inverse-problem assumptions, equality and inequality constrained geometry, saddle-point Newton solves, implicit/adjoint sensitivity, and weak PDE/finite-element methods. Worked examples, derivations and exercises appear in each non-spoken mathematical companion.
+The old combined `001000`, `008000`, and `015000` manuscripts remain unchanged, including their inherited mathematical companions and consolidation provenance. The extensions add quantitative material beyond the original Hessian survey: integral remainder estimates, strong-convexity bounds, Newton convergence, least-squares model geometry, damping safeguards, singular-value sensitivity, structured inverse-problem assumptions, equality and inequality constrained geometry, saddle-point Newton solves, implicit/adjoint sensitivity, weak PDE/finite-element methods, weak compactness, nonlinear variational existence, and obstacle variational inequalities. Worked examples, derivations and exercises appear in each non-spoken mathematical companion.
 
 `track.json` is the authoritative inventory. Source records live in `metadata/sources.json`; per-lecture citation links, original authorship and teaching prerequisites live in `metadata/*.json`; authorship lineage and editorial changes live in `provenance.yaml`. Consult [`LECTURE_STYLE_RULES.md`](../../LECTURE_STYLE_RULES.md) before further authoring. No runtime pack build or audio synthesis is required for content handoff.

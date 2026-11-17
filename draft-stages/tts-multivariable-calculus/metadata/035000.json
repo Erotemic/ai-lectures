@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "lecture_id": "035000",
+  "transcript": "035000-weak-convergence-and-energy-limits.md",
+  "related_resources": [
+    {
+      "source_id": "mv-ubc-wei-direct",
+      "reason": "Weak sequential compactness and direct-method existence theorem."
+    },
+    {
+      "source_id": "mv-hamburg-schmidt-cv",
+      "reason": "Norm lower semicontinuity and coercivity in variational problems."
+    },
+    {
+      "source_id": "mv-wiki-weak-hilbert",
+      "reason": "Hilbert-space weak convergence terminology."
+    },
+    {
+      "source_id": "mv-wiki-direct-method",
+      "reason": "Infimizing sequence and existence-proof architecture."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-17",
+    "scope": "Original narrated mathematics, independently checked variational and obstacle calculations, and non-spoken proof companions; all inherited manuscripts retained."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "multivariable-calculus:033000",
+        "reason": "Weak derivatives and the H-naught-one energy space."
+      },
+      {
+        "lecture_id": "multivariable-calculus:031000",
+        "reason": "Energy functionals and first variations."
+      }
+    ],
+    "recommended": [
+      {
+        "lecture_id": "multivariable-calculus:036000",
+        "reason": "Compact embeddings upgrade weak convergence of some components."
+      },
+      {
+        "lecture_id": "multivariable-calculus:037000",
+        "reason": "A nonlinear direct-method proof."
+      }
+    ],
+    "background": [
+      "Comfort with dot products, inner products and L-two integrals; weak derivatives and Poincaré inequality are reviewed in the narration."
+    ],
+    "readiness_checks": [
+      "Can you show the coordinate vectors converge weakly but not strongly in ell-two?",
+      "Why can an H-one-weak limit have strictly smaller derivative energy?"
+    ]
+  }
+}

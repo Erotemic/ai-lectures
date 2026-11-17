@@ -56,6 +56,14 @@ transcript:
       source_records: metadata/sources.json
       per_lecture_metadata: metadata/031000.json through metadata/034000.json
     scope: Add original calculus-of-variations, Euler–Lagrange boundary, weak-solution and finite-element lectures, with full mathematical companions; leave all earlier manuscripts intact.
+  - date: '2026-11-17'
+    models:
+    - GPT-6
+    sources:
+    - manuscripts: '035000–038000'
+      source_records: metadata/sources.json
+      per_lecture_metadata: metadata/035000.json through metadata/038000.json
+    scope: Add original mathematics manuscripts and companions for weak convergence, Sobolev/Rellich compactness, nonlinear direct-method existence and obstacle variational inequalities; retain earlier lectures.
 learning_map:
   revisions:
   - date: '2026-11-16'
@@ -119,3 +127,14 @@ learning_map:
     - metadata/033000.json
     - metadata/034000.json
     scope: Register a variational weak-formulation route and its prerequisites, reference records and checkpoints; preserve existing routes.
+  - date: '2026-11-17'
+    models:
+    - GPT-6
+    sources:
+    - track.json
+    - navigation.json
+    - metadata/035000.json
+    - metadata/036000.json
+    - metadata/037000.json
+    - metadata/038000.json
+    scope: Register the variational compactness and nonlinear-existence listening route, prerequisites, bibliography and measured narration counts.

@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "lecture_id": "038000",
+  "transcript": "038000-obstacle-problems-variational-inequalities.md",
+  "related_resources": [
+    {
+      "source_id": "mv-hamburg-schmidt-cv",
+      "reason": "Obstacle problems and first variations along constrained directions."
+    },
+    {
+      "source_id": "mv-minne-obstacle",
+      "reason": "Exposition of one-dimensional obstacle models and free boundaries."
+    },
+    {
+      "source_id": "mv-ubc-wei-direct",
+      "reason": "Existence via coercivity and weakly closed feasible sets."
+    },
+    {
+      "source_id": "mv-wiki-obstacle",
+      "reason": "Obstacle model and contact/free regions."
+    },
+    {
+      "source_id": "mv-wiki-variational-inequality",
+      "reason": "Variational inequality terminology and convex optimality."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-17",
+    "scope": "Original narrated mathematics, independently checked variational and obstacle calculations, and non-spoken proof companions; all inherited manuscripts retained."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "multivariable-calculus:037000",
+        "reason": "Weak compactness and lower semicontinuity in direct-method minimization."
+      },
+      {
+        "lecture_id": "multivariable-calculus:028000",
+        "reason": "Finite-dimensional active inequality and complementarity geometry."
+      },
+      {
+        "lecture_id": "multivariable-calculus:032000",
+        "reason": "Variation and integration by parts with boundary data."
+      }
+    ],
+    "recommended": [
+      {
+        "lecture_id": "multivariable-calculus:034000",
+        "reason": "Finite-element discretization for elliptic weak equations."
+      },
+      {
+        "lecture_id": "optimization-duality:survey",
+        "reason": "General convex optimization and dual certificates."
+      }
+    ],
+    "background": [
+      "Convex feasible sets, quadratic energy and integration by parts; the explicit example starts from elementary parabolas and tangent lines."
+    ],
+    "readiness_checks": [
+      "Derive the variational inequality by moving toward a feasible competitor.",
+      "Verify the exact contact point and complementary reaction for the parabolic barrier."
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "lecture_id": "036000",
+  "transcript": "036000-sobolev-embeddings-and-compactness.md",
+  "related_resources": [
+    {
+      "source_id": "mv-uab-sobolev-seminar",
+      "reason": "Detailed compact embeddings in Sobolev spaces."
+    },
+    {
+      "source_id": "mv-apde-rellich-notes",
+      "reason": "Hypotheses and distinctions between continuous and compact embeddings."
+    },
+    {
+      "source_id": "mv-hamburg-schmidt-cv",
+      "reason": "Role of compactness in direct-method arguments."
+    },
+    {
+      "source_id": "mv-wiki-rellich",
+      "reason": "Standard Rellich–Kondrachov theorem and notation."
+    },
+    {
+      "source_id": "mv-wiki-sobolev-inequality",
+      "reason": "Dimension-dependent Sobolev exponents."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-17",
+    "scope": "Original narrated mathematics, independently checked variational and obstacle calculations, and non-spoken proof companions; all inherited manuscripts retained."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "multivariable-calculus:035000",
+        "reason": "Weak convergence and the failure of strong energy convergence."
+      },
+      {
+        "lecture_id": "multivariable-calculus:033000",
+        "reason": "Weak derivatives and energy spaces."
+      }
+    ],
+    "recommended": [
+      {
+        "lecture_id": "multivariable-calculus:037000",
+        "reason": "Use compact embedding to pass a fourth-power term through a minimizing sequence."
+      },
+      {
+        "lecture_id": "differential-equations:028000",
+        "reason": "Concentration, scale and nonlinear PDEs."
+      }
+    ],
+    "background": [
+      "One-variable integration and Cauchy–Schwarz; the statement of Arzelà–Ascoli is explained before use."
+    ],
+    "readiness_checks": [
+      "Prove the one-half Hölder bound for H-one functions on an interval.",
+      "Why does the three-dimensional concentrated bump defeat compactness in L-six but not in L-two?"
+    ]
+  }
+}

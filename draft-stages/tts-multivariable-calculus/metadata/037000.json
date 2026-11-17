@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "lecture_id": "037000",
+  "transcript": "037000-direct-method-nonlinear-minimizers.md",
+  "related_resources": [
+    {
+      "source_id": "mv-hamburg-schmidt-cv",
+      "reason": "General direct-method framework, weak lower semicontinuity and uniqueness."
+    },
+    {
+      "source_id": "mv-ubc-wei-direct",
+      "reason": "Existence theorem in reflexive spaces and weakly closed feasible sets."
+    },
+    {
+      "source_id": "mv-pisa-gobbino-cv",
+      "reason": "Worked variational examples distinguishing compactness and lower semicontinuity."
+    },
+    {
+      "source_id": "mv-wiki-direct-method",
+      "reason": "Method structure and terminology."
+    },
+    {
+      "source_id": "mv-wiki-sobolev",
+      "reason": "Energy spaces and weak derivatives."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-17",
+    "scope": "Original narrated mathematics, independently checked variational and obstacle calculations, and non-spoken proof companions; all inherited manuscripts retained."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "multivariable-calculus:035000",
+        "reason": "Weak compactness and lower semicontinuity of squared gradients."
+      },
+      {
+        "lecture_id": "multivariable-calculus:036000",
+        "reason": "Compact convergence for lower-order nonlinear terms."
+      },
+      {
+        "lecture_id": "multivariable-calculus:031000",
+        "reason": "First variations and stationarity."
+      }
+    ],
+    "recommended": [
+      {
+        "lecture_id": "multivariable-calculus:038000",
+        "reason": "Apply the direct method to an inequality-constrained function problem."
+      },
+      {
+        "lecture_id": "differential-equations:010000",
+        "reason": "Variational and weak PDE methods."
+      }
+    ],
+    "background": [
+      "Zero-boundary H-one functions, Poincaré inequality and simple integral calculations; all proof assumptions are given explicitly."
+    ],
+    "readiness_checks": [
+      "Prove coercivity of the quartic energy and identify which terms converge strongly or weakly.",
+      "Explain how a nonconvex double well can have a minimizer but fail uniqueness."
+    ]
+  }
+}
