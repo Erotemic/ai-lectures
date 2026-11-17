@@ -4,36 +4,45 @@
   "transcript": "054000-gauss.md",
   "related_resources": [
     {
+      "source_id": "history-gauss-ceres-brosche",
+      "reason": "Distinct first sight (7 December 1801), certain recognition (31 December), Olbers confirmations."
+    },
+    {
+      "source_id": "history-gauss-disquisitiones",
+      "reason": "1801 publication and editorial context of number-theory treatise."
+    },
+    {
       "source_id": "history-gauss-germain-correspondence",
       "reason": "Edited letters and mathematics in Germain correspondence; journal article in Archive for History of Exact Sciences 66 (2012), 585–700, some full text may be restricted."
     },
     {
-      "source_id": "history-gauss-goettingen",
-      "reason": "Göttingen study and observatory appointment; documented geomagnetic collaboration and 1833 experimental telegraph."
+      "source_id": "history-gauss-least-squares",
+      "reason": "Legendre first published least-squares criterion in 1805; Gauss published an account in 1809."
     },
     {
       "source_id": "history-gauss-mactutor",
       "reason": "Patronage, education, doctoral research, Ceres, family, observatory, surveying, non-Euclidean correspondence, Weber and late teaching."
     },
     {
-      "source_id": "history-gauss-weber-goettingen",
-      "reason": "1831 appointment, Gauss collaboration and 1837 Göttingen Seven dismissals; avoid confusing Weber with Gauss as a signatory."
+      "source_id": "history-gauss-wittmann",
+      "reason": "Göttingen observatory, diary, Ceres, geodesy and historical career."
     },
     {
-      "source_id": "history-gauss-wikipedia",
-      "reason": "General orientation; not used to settle schoolroom anecdotes or priority issues."
+      "source_id": "history-gauss-wurzburg",
+      "reason": "Dated career, geodesy, telegraph and Göttingen students."
     }
   ],
   "historical_claims": [
     {
       "id": "054000-h01",
-      "anchor": "born in Brunswick on April thirtieth",
+      "anchor": "born in Brunswick",
       "kind": "historical_biography_attribution_or_context",
       "source_ids": [
-        "history-gauss-mactutor"
+        "history-gauss-mactutor",
+        "history-gauss-wittmann"
       ],
-      "source_locator": "Birth and family",
-      "audit_status": "source_checked"
+      "source_locator": "1777 birth and social context",
+      "audit_status": "source_cross_checked"
     },
     {
       "id": "054000-h02",
@@ -42,193 +51,153 @@
       "source_ids": [
         "history-gauss-mactutor"
       ],
-      "source_locator": "Early schooling, advocates and patronage",
+      "source_locator": "Early teacher and advocate",
       "audit_status": "source_checked"
     },
     {
       "id": "054000-h03",
-      "anchor": "come from later retellings",
+      "anchor": "schoolroom story",
       "kind": "historical_biography_attribution_or_context",
       "source_ids": [
         "history-gauss-mactutor"
       ],
-      "source_locator": "Childhood arithmetic anecdote, source caution",
+      "source_locator": "Later anecdotal retellings",
       "audit_status": "source_checked"
     },
     {
       "id": "054000-h04",
-      "anchor": "with Farkas Bolyai",
-      "kind": "historical_biography_attribution_or_context",
-      "source_ids": [
-        "history-gauss-mactutor"
-      ],
-      "source_locator": "Friendship and correspondence",
-      "audit_status": "source_checked"
-    },
-    {
-      "id": "054000-h05",
-      "anchor": "discovery that a regular polygon with seventeen equal sides",
+      "anchor": "Collegium Carolinum",
       "kind": "historical_biography_attribution_or_context",
       "source_ids": [
         "history-gauss-mactutor",
-        "history-gauss-goettingen"
+        "history-gauss-wittmann"
       ],
-      "source_locator": "1796 seventeen-gon construction",
+      "source_locator": "Education in Brunswick and Göttingen",
       "audit_status": "source_cross_checked"
     },
     {
-      "id": "054000-h06",
-      "anchor": "doctorate from the University of Helmstedt",
+      "id": "054000-h05",
+      "anchor": "Farkas Bolyai",
       "kind": "historical_biography_attribution_or_context",
       "source_ids": [
         "history-gauss-mactutor"
       ],
-      "source_locator": "1799 dissertation and Pfaff",
+      "source_locator": "University friendship and correspondence",
       "audit_status": "source_checked"
+    },
+    {
+      "id": "054000-h06",
+      "anchor": "In March seventeen ninety-six",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-gauss-mactutor",
+        "history-gauss-wurzburg"
+      ],
+      "source_locator": "Construction of regular seventeen-gon",
+      "audit_status": "source_cross_checked"
     },
     {
       "id": "054000-h07",
-      "anchor": "published the Disquisitiones Arithmeticae",
+      "anchor": "Helmstedt",
       "kind": "historical_biography_attribution_or_context",
       "source_ids": [
-        "history-gauss-mactutor"
+        "history-gauss-mactutor",
+        "history-gauss-wittmann"
       ],
-      "source_locator": "1801 number theory work",
-      "audit_status": "source_checked"
+      "source_locator": "1799 doctoral degree",
+      "audit_status": "source_cross_checked"
     },
     {
       "id": "054000-h08",
-      "anchor": "Giuseppe Piazzi",
+      "anchor": "Disquisitiones Arithmeticae",
       "kind": "historical_biography_attribution_or_context",
       "source_ids": [
+        "history-gauss-disquisitiones",
         "history-gauss-mactutor"
       ],
-      "source_locator": "Ceres discovery and orbit reconstruction",
-      "audit_status": "source_checked"
+      "source_locator": "1801 arithmetic treatise",
+      "audit_status": "source_cross_checked"
     },
     {
       "id": "054000-h09",
-      "anchor": "Adrien-Marie Legendre published a description",
+      "anchor": "Giuseppe Piazzi",
       "kind": "historical_biography_attribution_or_context",
       "source_ids": [
-        "history-gauss-mactutor"
+        "history-gauss-mactutor",
+        "history-gauss-ceres-brosche"
       ],
-      "source_locator": "Least-squares priority, Legendre 1805/Gauss 1809",
-      "audit_status": "source_checked"
+      "source_locator": "Ceres discovery and orbital observations",
+      "audit_status": "source_cross_checked"
     },
     {
       "id": "054000-h10",
-      "anchor": "duke who had supported his early career was mortally wounded",
+      "anchor": "Franz Xaver von Zach",
       "kind": "historical_biography_attribution_or_context",
       "source_ids": [
-        "history-gauss-mactutor"
+        "history-gauss-ceres-brosche"
       ],
-      "source_locator": "Brunswick patron and Napoleonic war",
+      "source_locator": "Observational recovery Dec 7 and Dec 31, 1801",
       "audit_status": "source_checked"
     },
     {
       "id": "054000-h11",
-      "anchor": "In eighteen oh seven he accepted the position",
+      "anchor": "Adrien-Marie Legendre",
       "kind": "historical_biography_attribution_or_context",
       "source_ids": [
-        "history-gauss-mactutor",
-        "history-gauss-goettingen"
+        "history-gauss-least-squares"
       ],
-      "source_locator": "Göttingen observatory appointment",
-      "audit_status": "source_cross_checked"
+      "source_locator": "1805 published least-squares priority",
+      "audit_status": "source_checked"
     },
     {
       "id": "054000-h12",
-      "anchor": "In eighteen oh nine she died after giving birth",
+      "anchor": "Duke Charles William Ferdinand",
       "kind": "historical_biography_attribution_or_context",
       "source_ids": [
         "history-gauss-mactutor"
       ],
-      "source_locator": "Johanna and infant son deaths; family grief and remarriage",
+      "source_locator": "Patronage disrupted by war",
       "audit_status": "source_checked"
     },
     {
       "id": "054000-h13",
-      "anchor": "Sophie Germain in Paris",
-      "kind": "historical_biography_attribution_or_context",
-      "source_ids": [
-        "history-gauss-mactutor",
-        "history-gauss-germain-correspondence"
-      ],
-      "source_locator": "Germain correspondence and historical research",
-      "audit_status": "source_cross_checked"
-    },
-    {
-      "id": "054000-h14",
-      "anchor": "surveying and triangulating the Kingdom of Hanover",
+      "anchor": "Johanna Osthoff",
       "kind": "historical_biography_attribution_or_context",
       "source_ids": [
         "history-gauss-mactutor"
       ],
-      "source_locator": "Hanoverian geodesy and heliotrope",
+      "source_locator": "1805 marriage and 1809 death",
       "audit_status": "source_checked"
     },
     {
+      "id": "054000-h14",
+      "anchor": "Sophie Germain",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-gauss-germain-correspondence",
+        "history-gauss-mactutor"
+      ],
+      "source_locator": "Substantive mathematical correspondence",
+      "audit_status": "source_cross_checked"
+    },
+    {
       "id": "054000-h15",
-      "anchor": "called the theorema egregium",
+      "anchor": "Minna",
       "kind": "historical_biography_attribution_or_context",
       "source_ids": [
         "history-gauss-mactutor"
       ],
-      "source_locator": "1828 Disquisitiones generales and intrinsic curvature",
+      "source_locator": "Second marriage in 1810",
       "audit_status": "source_checked"
     },
     {
       "id": "054000-h16",
-      "anchor": "János Bolyai and Nikolai Lobachevsky produced public mathematical work",
+      "anchor": "eighteen oh nine treatise",
       "kind": "historical_biography_attribution_or_context",
       "source_ids": [
         "history-gauss-mactutor"
       ],
-      "source_locator": "Non-Euclidean history, private ideas and published discoveries",
-      "audit_status": "source_checked"
-    },
-    {
-      "id": "054000-h17",
-      "anchor": "Wilhelm Weber arrived in Göttingen",
-      "kind": "historical_biography_attribution_or_context",
-      "source_ids": [
-        "history-gauss-mactutor",
-        "history-gauss-weber-goettingen"
-      ],
-      "source_locator": "Weber 1831 appointment and collaboration",
-      "audit_status": "source_cross_checked"
-    },
-    {
-      "id": "054000-h18",
-      "anchor": "electromagnetic telegraph connection",
-      "kind": "historical_biography_attribution_or_context",
-      "source_ids": [
-        "history-gauss-goettingen",
-        "history-gauss-weber-goettingen"
-      ],
-      "source_locator": "1833 joint experimental telegraph",
-      "audit_status": "source_cross_checked"
-    },
-    {
-      "id": "054000-h19",
-      "anchor": "Seven Göttingen professors protested and were dismissed",
-      "kind": "historical_biography_attribution_or_context",
-      "source_ids": [
-        "history-gauss-weber-goettingen",
-        "history-gauss-mactutor"
-      ],
-      "source_locator": "1837 protest, Weber dismissal and Gauss distinction",
-      "audit_status": "source_cross_checked"
-    },
-    {
-      "id": "054000-h20",
-      "anchor": "Richard Dedekind later remembered",
-      "kind": "historical_biography_attribution_or_context",
-      "source_ids": [
-        "history-gauss-mactutor"
-      ],
-      "source_locator": "Dedekind recollection of late Gauss teaching",
+      "source_locator": "Theoria motus on orbit determination",
       "audit_status": "source_checked"
     }
   ]
