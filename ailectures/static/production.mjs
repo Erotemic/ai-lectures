@@ -51,7 +51,10 @@ export class ProductionPanel {
       ),
     );
     if (this.catalog().legacy)
-      main.append(this.link("Open original audio tools", "/audio"));
+      main.append(el("details", { class: "compatibility-tools" },
+        el("summary", { text: "Compatibility tools" }),
+        this.link("Open original audio tools", "/audio"),
+      ));
     const profiles = await api("/api/library/production");
     if (!main.isConnected) return;
     if (!profiles.profiles.length) {

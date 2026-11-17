@@ -29,6 +29,7 @@ from .state import ListenerState, utcnow
 from .organization import collection_metadata, item_organization
 from .companions import available_companions
 from .assets import LibraryAssets
+from .slide_companions import SlideCompanionsUnavailable
 
 STATIC = Path(__file__).with_name("static")
 
@@ -68,6 +69,7 @@ def create_app(
     tts_endpoint=None,
     legacy_factory=None,
     generation_manager=None,
+    slide_companion_service=None,
     pins=None,
     excluded=(),
 ):
@@ -82,6 +84,7 @@ def create_app(
     listeners = ListenerState(library.store.state)
     legacy = LazyLegacy(legacy_factory) if legacy_factory else None
     producer = generation_manager
+    slide_service = slide_companion_service
     assets = LibraryAssets(directory=STATIC)
     catalog_cache = {}
     catalog_lock = threading.Lock()
@@ -99,6 +102,19 @@ def create_app(
                 endpoint=tts_endpoint,
             )
         return producer
+
+    def slides():
+        nonlocal slide_service
+        if slide_service is None:
+            from .slide_companions import SlideCompanions
+
+            slide_service = SlideCompanions(library.repository)
+        return slide_service
+
+    def require_local_action(request):
+        origin = request.headers.get("origin")
+        if origin and origin.rstrip("/") != str(request.base_url).rstrip("/"):
+            raise HTTPException(403, "Use this library's own page for this action")
 
     async def document(request):
         if request.url.path == "/" and "deck" in request.query_params and legacy:
@@ -192,6 +208,8 @@ def create_app(
                 "packs": snapshot["packs"],
                 "errors": snapshot["errors"],
                 "legacy": bool(legacy),
+                "capabilities": {"learning_map": True, "pack_export": True,
+                                 "slide_companions": library.repository is not None or slide_companion_service is not None},
             },
             headers={"Cache-Control": "no-cache", "ETag": etag},
         )
@@ -202,6 +220,50 @@ def create_app(
         return JSONResponse(
             storage_summary(library.store), headers={"Cache-Control": "no-store"}
         )
+
+    def learning_map(request):
+        from .graph import learning_map as build_map
+
+        return JSONResponse(build_map(library.snapshot(copy=False)), headers={"Cache-Control": "no-cache"})
+
+    def slide_decks(request):
+        key = qualified(request.query_params["lecture_id"])
+        if key not in library.snapshot(copy=False)["lectures"]:
+            raise KeyError("This lecture is not installed")
+        try:
+            result = slides().list_for_lecture(key)
+        except KeyError:
+            result = {"available": False, "items": [], "reason": "No repository slide decks are linked to this installed lecture."}
+        return JSONResponse(result, headers={"Cache-Control": "no-store"})
+
+    def slide_status(request):
+        return JSONResponse(slides().status(request.path_params["deck_id"]), headers={"Cache-Control": "no-store"})
+
+    async def slide_build(request):
+        require_local_action(request)
+        await body(request)
+        result = await run_in_threadpool(slides().build, request.path_params["deck_id"])
+        return JSONResponse(result, headers={"Cache-Control": "no-store"})
+
+    def slide_html(request):
+        path = slides().html_file(request.path_params["deck_id"])
+        return FileResponse(path, media_type="text/html",
+                            filename=path.name if request.query_params.get("download") == "1" else None,
+                            headers={"Cache-Control": "no-store"})
+
+    async def pack_export(request):
+        from .exports import export_pack
+
+        require_local_action(request)
+        payload = await body(request)
+        result = await run_in_threadpool(export_pack, library, payload["pack_id"], source_only=payload.get("source_only", False))
+        return JSONResponse(dict(result, url="/api/library/exports/" + result["id"]), status_code=201)
+
+    def exported_pack(request):
+        from .exports import export_file
+
+        path, filename = export_file(library, request.path_params["export_id"])
+        return FileResponse(path, media_type="application/zip", filename=filename)
 
     def references(request):
         from .references import reference_index
@@ -292,11 +354,15 @@ def create_app(
                 params["identifier"],
                 params["sha256"],
             )
+        inline = request.query_params.get("view") == "1" and item["media_type"] == "text/html"
+        headers = {"Cache-Control": "no-store", "X-Content-Type-Options": "nosniff"}
+        if inline:
+            headers["Content-Security-Policy"] = "sandbox allow-scripts allow-modals allow-popups"
         return FileResponse(
             path,
             media_type=item["media_type"],
-            filename=path.name,
-            headers={"Cache-Control": "no-store", "X-Content-Type-Options": "nosniff"},
+            filename=None if inline else path.name,
+            headers=headers,
         )
 
     async def profiles(request):
@@ -585,6 +651,9 @@ def create_app(
 
     async def error(request, exc):
         code = (
+            503
+            if isinstance(exc, SlideCompanionsUnavailable)
+            else
             409
             if isinstance(exc, Conflict)
             else (
@@ -643,6 +712,7 @@ def create_app(
             "/packs",
             "/feedback",
             "/references",
+            "/learning-map",
             "/production",
         ]
     ]
@@ -650,6 +720,13 @@ def create_app(
         Route("/favicon.ico", favicon),
         Route("/api/library/catalog", catalog),
         Route("/api/library/storage", storage),
+        Route("/api/library/learning-map", learning_map),
+        Route("/api/library/slide-decks", slide_decks),
+        Route("/api/library/slide-decks/{deck_id}/build", slide_build, methods=["POST"]),
+        Route("/api/library/slide-decks/{deck_id}/html", slide_html),
+        Route("/api/library/slide-decks/{deck_id}", slide_status),
+        Route("/api/library/exports", pack_export, methods=["POST"]),
+        Route("/api/library/exports/{export_id}", exported_pack),
         Route("/api/library/references", references),
         Route("/api/library/references.txt", references),
         Route("/api/library/lectures/{lecture_id}/transcript.txt", transcript),
@@ -703,6 +780,7 @@ def create_app(
             KeyError: error,
             FileNotFoundError: error,
             StopIteration: error,
+            SlideCompanionsUnavailable: error,
         },
     )
     app.state.library = library

@@ -70,6 +70,17 @@ process publication and killed-activation recovery are covered. See the
 folders stay in place while authors continue; physical migration and synchronized
 companion playback remain later work.
 
+The browser closeout adds a native typed learning map with retained component
+evidence, inline prepared slide companions, explicit optional repository-deck
+build/view controls, and pack ZIP downloads with optional published audio.
+Individual-block generation, opt-in continuation/lookahead and whole-lecture
+caching already live in the native lecture controls. Chromium decoded, sought
+and briefly played all 35 real exported segments in the isolated installation,
+kept playback through navigation and resumed a shared listener in a second
+browser context. Six configured host speech endpoints were unreachable, so the
+conditional live-synthesis check remains unexercised; controlled Kokoro/Breeze
+protocol tests passed. Writers can continue without waiting for that service.
+
 ## Current repository evidence
 
 Baseline: commit `1ad9dbe`, inspected 15 November 2026. Counts describe this checkout

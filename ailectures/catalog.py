@@ -565,17 +565,28 @@ class RepositoryCatalog:
                     try:
                         for edge in read_json(relations).get("edges", []):
                             source, relation, target, *reason = edge
+                            evidence = {"from": source, "to": target}
+                            if reason:
+                                evidence["why"] = reason[0]
                             source, target = (
                                 aliases.get(source, source),
                                 aliases.get(target, target),
                             )
                             namespace = source.split(":")[0]
-                            if namespace in packs:
+                            if namespace not in existing:
+                                # Planned/uninstalled sources still carry real authored
+                                # evidence. Transfer it with an installed endpoint, or
+                                # a deterministic source pack if both ends are optional.
+                                target_namespace = target.split(":")[0]
+                                namespace = target_namespace if target_namespace in existing else next(iter(sorted(existing)), None)
+                            if namespace in existing:
                                 record = {
                                     "from": source,
                                     "type": relation,
                                     "to": target,
                                     "_curriculum": True,
+                                    "component_relations": [evidence],
+                                    "evidence_source": relations.relative_to(self.root).as_posix(),
                                 }
                                 if reason:
                                     record["why"] = reason[0]

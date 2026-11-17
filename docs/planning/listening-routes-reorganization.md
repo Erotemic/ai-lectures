@@ -6,6 +6,15 @@ The purpose is to make the existing library coherent and let content agents
 resume writing. Finishing every retelling or commissioning more introductions
 is not a prerequisite for this handoff.
 
+**Current handoff:** the route-only counts and preservation assumptions below
+are historical. The [adult consolidation](adult-lecture-consolidation.md) replaced
+related fragments with combined manuscripts. Subsequent contributions now put
+the route inventory at 51 audio packs and 1,354 manuscripts (16 November 2026).
+Journey's pack-local handoff now covers chapters 1–27 and resumes at chapter 28.
+Use current pack indexes and continuation notes; this document reserves no IDs.
+The [refactor completion audit](refactor-completion-audit.md) records the finished
+native browser, learning-map, companion-viewing and transfer infrastructure.
+
 ## Source ownership and listening order
 
 Manuscripts remain in their existing packs with stable namespace-qualified IDs.
@@ -97,9 +106,12 @@ examples and are not guesses about author identity from a story's setting.
 
 The original expanded Journey writer should open
 [the pack-local continuation handoff](../../draft-stages/tts-pre-1900-literature/notes/journey-west-continuation-handoff.md)
-and the existing chapter source map. The next source chapter is 13; existing
-IDs 441000–465000 remain unchanged. Candidate IDs beginning 466000 were free at
-the handoff check and must be rechecked before assignment. The selected witness's
+and the existing chapter source map. As of the latest checked contribution,
+17 expanded manuscripts cover selected-witness chapters 1–27; the next source
+chapter is 28. Read the live handoff before writing, since another batch can
+advance this boundary. Consolidated component IDs are historical evidence,
+not additional playback entries. Recheck current IDs and writer ownership
+before assignment; no future IDs are reserved here. The selected witness's
 inserted chapter 9 and its numbering consequences remain explicitly documented.
 
 The expanded route uses `include_sections`, selecting its existing section from

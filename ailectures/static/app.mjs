@@ -17,6 +17,8 @@ import { speechSegments } from "./transcript.mjs";
 import { showStorage } from "./storage.mjs";
 import { referencesPage } from "./references.mjs";
 import { CatalogBrowser, revealAnchor } from "./browse.mjs";
+import { renderLearningMap } from "./learning-map.mjs";
+import { showSlideCompanions } from "./slide-companions.mjs";
 import { collectionReturnPath } from "./browse-model.mjs";
 import { LectureAudio } from "./lecture-audio.mjs";
 import {
@@ -465,6 +467,8 @@ async function lecturePage(id, autoplay = false, historical = null) {
         ),
       ),
     );
+  if (catalog.capabilities?.slide_companions || row.companions?.some(item => item.role === "prepared" && item.media_type === "text/html"))
+    showSlideCompanions(top, row, { message });
   const text = el("section", {
     class: "transcript",
     "aria-label": "Lecture transcript",
@@ -565,24 +569,7 @@ async function lecturePage(id, autoplay = false, historical = null) {
       ),
     ),
   );
-  if (catalog.legacy)
-    side.append(
-      el(
-        "p",
-        {},
-        el("a", {
-          href:
-            "/audio?" +
-            new URLSearchParams({
-              track: row.namespace,
-              lecture: row.id.split(":")[1],
-            }),
-          target: "_blank",
-          rel: "noopener noreferrer",
-          text: "Companion slides and original audio tools",
-        }),
-      ),
-    );
+  side.append(el("p", {}, link("Explore related lectures", "/learning-map?" + new URLSearchParams({ lecture: id }))));
   const resources = (
     Array.isArray(row.metadata?.related_resources)
       ? row.metadata.related_resources
@@ -878,6 +865,7 @@ function packsPage() {
             class: "badge",
             text: pack.source ? "Live authored sources" : "Installed release",
           }),
+          packExportControls(pack),
           el(
             "details",
             {},
@@ -969,6 +957,28 @@ function packsPage() {
     ),
   );
 }
+function packExportControls(pack) {
+  const includeAudio = el("input", { type: "checkbox", checked: true });
+  const status = el("p", { class: "muted", role: "status", "aria-live": "polite" });
+  const download = button("Create downloadable ZIP", async () => {
+    download.disabled = true;
+    status.textContent = "Preparing pack download…";
+    try {
+      const result = await post("/api/library/exports", { pack_id: pack.id, source_only: !includeAudio.checked });
+      const file = el("a", { href: result.url, download: result.filename, text: "Download " + result.filename });
+      status.replaceChildren(file, el("small", { text: `${result.lectures} lectures · ${result.recordings} recordings` }));
+      file.click();
+    } catch (error) {
+      status.textContent = error.message;
+    } finally {
+      download.disabled = false;
+    }
+  });
+  return el("details", { class: "pack-export" }, el("summary", { text: "Transfer this pack" }),
+    el("p", { class: "muted", text: "Download transcripts, notes, companions, and optionally all published audio. Listening history travels separately." }),
+    el("label", { class: "check" }, includeAudio, "Include prepared audio"), download, status,
+  );
+}
 async function navigate(path, autoplay = false) {
   const token = ++navigationToken;
   history.replaceState({ ...history.state, scroll: window.scrollY }, "");
@@ -1057,6 +1067,7 @@ async function render(autoplay = false) {
     else if (path === "/feedback")
       await reviewFeedback($("main"), catalog.lectures);
     else if (path === "/references") await referencesPage($("main"), catalog);
+    else if (path === "/learning-map") await renderLearningMap($("main"), { link, navigate });
     else if (path === "/production") await production.render($("main"));
     else browse();
     document.title = ($("main").querySelector("h1")?.textContent || "Library") + " · AI Lectures";

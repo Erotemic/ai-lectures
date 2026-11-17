@@ -28,6 +28,25 @@ Browsing options include category, audience, audio availability, every nested
 collection, and sorting by title or duration. Exact lecture IDs work in both
 searches. Browser asset changes require a server restart, just like server code.
 
+The native Learning map separates teaching preparation, proof dependencies,
+source relationships and listening order. Open it from the header or from a
+collection or lecture, filter its connections, and select an entry to follow
+incoming or outgoing links. The complete view and original component evidence
+remain available alongside the diagram preview. It works with installed packs
+without the presentation tools.
+
+Lecture pages open prepared HTML slide companions directly, with attribution
+and downloads. A repository checkout also exposes its existing slide decks and
+an explicit Build action when the optional renderer is installed. Opening the
+panel never builds a deck or starts audio generation. Missing slide tools do
+not prevent reading or listening.
+
+Packs → Transfer this pack creates a downloadable ZIP of the selected pack's
+transcripts, notes, companions and optionally its published recordings. This
+does not generate missing audio or include listening history. These are playback
+releases; independent authors still exchange ordinary source-directory ZIPs
+using the source-overlay handoff guide.
+
 For an independent playback installation, build and transfer the reader wheel:
 
 ```bash
