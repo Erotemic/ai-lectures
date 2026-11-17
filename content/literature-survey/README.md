@@ -276,3 +276,30 @@ barber stories), the family story of Nur al-Din Ali and Badr al-Din Hasan,
 the voyages of Sindbad from an identified textual tradition, and the
 Galland–Hannā Diyāb Aladdin and Ali Baba repertoires. They must be cataloged
 as selected tales, not treated as a lost unified original manuscript.
+
+## One Thousand and One Nights — Aladdin, Ali Baba, Hunchback and Sindbad (17 November 2026)
+
+Ten authored lectures (`119000`–`128000`) add four substantial, complete-arc
+Nights cycles as **story-first overviews followed by separate analysis**.
+
+| Story | Story lectures | Analysis | Controlling narrative witness |
+|---|---|---|---|
+| *Aladdin* | `119000` including the false Fatima and roc egg | `120000` | Longman 1898 Galland-derived English text; Galland–Hannā Diyāb history named |
+| *Ali Baba and the Forty Thieves* | `121000` including Morgiana's final rescue | `122000` | Galland-derived 1909 English witness; enslaved status and moral costs retained |
+| Hunchback cycle | `123000`–`124000`, four confessors, three embedded histories, tailor and barber plus **all six brothers**, then fishbone resolution | `125000` | John Payne 1882 vol. I, with sub-stories cited individually; barber's stories originally told at tailor's dinner |
+| *Sindbad the Sailor* | `126000`–`127000`, the landsman's frame and **all seven voyages** | `128000` | Laurence Housman's named 1907 retelling, with seventh-voyage alternatives signposted |
+
+*Aladdin* and *Ali Baba* are **Galland-era additions associated with Hannā
+Diyāb**, not falsely presented as recoverable medieval Arabic tales. The
+Hunchback and Sindbad narratives likewise have different manuscript and print
+transmission histories. Selected variants and evidence links live in
+non-spoken companions and `metadata/*.json`. The earlier Nights episodes
+`074000`–`075000` and `116000`–`118000` remain unchanged. This is an expanding
+selection, **not the entirety of One Thousand and One Nights**.
+
+The manuscripts are original English narration, not chapter-by-chapter
+commentary and not reproductions of modern copyrighted translations. Actual
+word counts and descriptive durations are recorded in `track.json`; no
+fixed narration length is required. One content pack, text and metadata only,
+with no audio or binary imagery. Total literature-survey catalog: **126 indexed
+lectures**.

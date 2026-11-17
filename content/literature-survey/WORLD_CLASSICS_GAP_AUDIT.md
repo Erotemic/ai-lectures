@@ -125,3 +125,23 @@ ledger above is the current status, rather than the stale queue wording.
 - **Completed, selected cycles only:** `116000`–`118000`, *One Thousand and One Nights*: Porter/Three Ladies, Three Apples, and collection analysis. Together with the prior `074000`–`075000` episodes, the *Nights* now have four selected-story lectures and an overarching analysis; **the collection is not fully retold**. The new stories follow named Payne volume I, distinct from the existing Burton witness.
 - **Next consequential additions:** the Hunchback's Tale, Nur al-Din Ali/Badr al-Din Hasan, Sindbad, Galland–Diyāb Aladdin and Ali Baba; *Njáls saga* (Iceland), *Book of Dede Korkut* (Oghuz stories), and *Pedro Páramo* (Mexico). Rotate time/geography with an importance-first bias.
 - **Deferred textual/cultural research:** Huarochirí Manuscript, I La Galigo; require careful source witness before writing definitive retellings.
+
+## Nights rotation completed: Aladdin, Ali Baba, Hunchback and Sindbad (17 November 2026)
+
+- Added `119000`–`128000`: four new **complete-arc** tales/cycles in ten
+  manuscripts, preserving story-before-analysis and descriptive rather than
+  target durations. The Nights now include existing frame and selected stories,
+  Porter/Three Apples, these four new cycles, and separate analyses. This is
+  selected collection coverage, not a claim of a complete Nights retelling.
+- Textual boundaries: Galland–Diyāb *Aladdin* and *Ali Baba* are later additions
+  to the European *Nights*. Hunchback follows Payne vol. I, including his
+  precise nested narration order and six brother-stories. Sindbad follows a
+  named Housman 1907 witness, with distinct seventh-voyage variants noted.
+- **Next Nights gap:** Nur al-Din Ali and Badr al-Din Hasan, the City of Brass,
+  the Ebony Horse and the Fisherman cycle beyond the existing opening; review
+  existing coverage and named textual witnesses before authoring.
+- **Next importance-first geographic/time rotation:** *Njáls Saga*, *Book of
+  Dede Korkut*, *The Huarochirí Manuscript* (requires source/witness and
+  Indigenous-context review), *Pedro Páramo* (copyright-sensitive summary),
+  and *The Lusiads*. Prioritize substantive influence and available evidence
+  rather than region as a quota.
