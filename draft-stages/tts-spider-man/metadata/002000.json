@@ -38,12 +38,16 @@
     {
       "source_id": "sm-gcd-asm122",
       "reason": "Publication and production credits for immediate aftermath."
+    },
+    {
+      "source_id": "sm-gcd-asm42",
+      "reason": "John Romita Sr. credits and the first full appearance of Mary Jane Watson; her face is revealed in this issue."
     }
   ],
   "historical_claims": [
     {
       "id": "002000-c01",
-      "anchor": "In The Amazing Spider-Man number one, the character finally has a magazine built around him.",
+      "anchor": "In *The Amazing Spider-Man* number one, the character finally has a magazine built around him.",
       "kind": "comic_bibliography",
       "source_ids": [
         "sm-marvel-mustreads"
@@ -53,7 +57,7 @@
     },
     {
       "id": "002000-c02",
-      "anchor": "A second figure gives this problem a public voice.",
+      "anchor": "J. Jonah Jameson, the man running the *Daily Bugle*, will buy the photographs while devoting considerable energy to denouncing the masked subject.",
       "kind": "character_reference",
       "source_ids": [
         "sm-marvel-peter"
@@ -63,7 +67,7 @@
     },
     {
       "id": "002000-c03",
-      "anchor": "In The Amazing Spider-Man number thirty-one, he begins studying at Empire State University.",
+      "anchor": "A major hinge arrives in *The Amazing Spider-Man* number thirty-one, when Peter begins studying at Empire State University.",
       "kind": "issue_and_character_reference",
       "source_ids": [
         "sm-marvel-peter",
@@ -84,7 +88,7 @@
     },
     {
       "id": "002000-c05",
-      "anchor": "culminating in The Amazing Spider-Man number thirty-three.",
+      "anchor": "The Master Planner storyline culminates in *The Amazing Spider-Man* number thirty-three.",
       "kind": "issue_reference",
       "source_ids": [
         "sm-gcd-asm33",
@@ -106,7 +110,7 @@
     },
     {
       "id": "002000-c07",
-      "anchor": "Eventually the antagonist is revealed to be Norman Osborn, an influential businessman and father of Peter's friend Harry.",
+      "anchor": "Issue thirty-nine also begins the revelation that the Green Goblin is Norman Osborn, Harry's father.",
       "kind": "character_reveal",
       "source_ids": [
         "sm-marvel-green-goblin",
@@ -117,7 +121,7 @@
     },
     {
       "id": "002000-c08",
-      "anchor": "In 1971, the series published a story about drug use in The Amazing Spider-Man issues ninety-six through ninety-eight.",
+      "anchor": "Lee wrote the subject into *The Amazing Spider-Man* issues ninety-six through ninety-eight.",
       "kind": "publication_history",
       "source_ids": [
         "sm-cbldf-comics-code",
@@ -128,7 +132,7 @@
     },
     {
       "id": "002000-c09",
-      "anchor": "The Comics Code Authority, an industry approval system governing many mainstream American comic books, declined to approve the issues.",
+      "anchor": "The Comics Code Authority, the industry's self-regulatory review body, refused its seal because the comics depicted drug use even though the intention was cautionary.",
       "kind": "publication_history",
       "source_ids": [
         "sm-cbldf-comics-code"
@@ -138,7 +142,7 @@
     },
     {
       "id": "002000-c10",
-      "anchor": "Then The Amazing Spider-Man number one hundred twenty-one changes the terms.",
+      "anchor": "Then *The Amazing Spider-Man* number one hundred twenty-one changes the terms.",
       "kind": "issue_reference",
       "source_ids": [
         "sm-marvel-asm121"
@@ -148,12 +152,22 @@
     },
     {
       "id": "002000-c11",
-      "anchor": "The subsequent issue brings a confrontation with Norman, himself apparently killed.",
+      "anchor": "The next issue brings the confrontation with Norman, himself apparently killed.",
       "kind": "plot_reference",
       "source_ids": [
         "sm-gcd-asm122"
       ],
       "source_locator": "ASM #122 aftermath",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "002000-c12",
+      "anchor": "Mary Jane Watson, whose existence the comic teases before giving the reader a full view of her in issue forty-two.",
+      "kind": "character_debut",
+      "source_ids": [
+        "sm-gcd-asm42"
+      ],
+      "source_locator": "ASM #42 (1966): MJ first full appearance",
       "audit_status": "source_checked"
     }
   ]

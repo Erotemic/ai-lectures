@@ -38,3 +38,7 @@ The editorial goal is **entertaining listening for Spider-Man fans**, rich with 
 - Attribute the specific craft being praised: writer, penciller, inker, colorist, letterer, editor, designer, animator, director, performer as applicable.
 - Keep one argument per lecture and let its complexity determine duration. Listening should feel like spending time with a curious and knowledgeable fan, not hearing a list of plot summaries.
 - Mark major spoilers, preserve existing IDs, and update local source records and claim maps. Content-pack ZIPs only; no shared publishing-code changes or binary image files.
+
+## Editorial handoff after the original four rewrites (November 2026)
+
+Lectures 001000–004000 have been revised into accessible fan essays, retaining necessary summaries at first use. The early-history lecture is selective, not a complete plot retelling. Keep that balance for future entries: enough detail to follow the argument, and original fan-oriented insight, creator history, character analysis, humor and precise examples to reward experienced fans. The fan-essays collection remains the default; the four-essay essentials route supports newcomers.

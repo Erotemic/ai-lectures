@@ -50,12 +50,20 @@
     {
       "source_id": "sm-sony-across",
       "reason": "2023 animated sequel premise and film credits."
+    },
+    {
+      "source_id": "sm-gcd-asm252",
+      "reason": "The first published black-suit Spider-Man story precedes the publication of the Secret Wars #8 in-story explanation."
+    },
+    {
+      "source_id": "sm-schueler-black-costume",
+      "reason": "Marvel solicitation acknowledges fan Randy Schueller submitted the black suit idea before Secret Wars, and that the original concept was not published at the time. Complementary account: Tom DeFalco interview at theshift.store."
     }
   ],
   "historical_claims": [
     {
       "id": "004000-c01",
-      "anchor": "In the mid-1980s, Peter acquired a black costume during the Secret Wars crossover.",
+      "anchor": "In the mid-1980s, Peter acquired a black costume during the *Secret Wars* crossover.",
       "kind": "comic_history",
       "source_ids": [
         "sm-marvel-secret-wars",
@@ -66,7 +74,7 @@
     },
     {
       "id": "004000-c02",
-      "anchor": "The rejected entity later bonded with Eddie Brock, becoming the villain Venom.",
+      "anchor": "The rejected entity later bonds with Eddie Brock, becoming the villain Venom.",
       "kind": "comic_history",
       "source_ids": [
         "sm-marvel-venom"
@@ -76,7 +84,7 @@
     },
     {
       "id": "004000-c03",
-      "anchor": "Venom made his full debut in The Amazing Spider-Man number three hundred, published in 1988.",
+      "anchor": "Venom made his full debut in *The Amazing Spider-Man* number three hundred, published in 1988.",
       "kind": "first_appearance",
       "source_ids": [
         "sm-marvel-venom"
@@ -86,7 +94,7 @@
     },
     {
       "id": "004000-c04",
-      "anchor": "Ultimate Spider-Man began in 2000, written by Brian Michael Bendis and drawn by Mark Bagley.",
+      "anchor": "*Ultimate Spider-Man* began in 2000, written by Brian Michael Bendis and drawn by Mark Bagley.",
       "kind": "comic_history",
       "source_ids": [
         "sm-marvel-ultimate"
@@ -96,7 +104,7 @@
     },
     {
       "id": "004000-c05",
-      "anchor": "Miles Morales first appeared in Ultimate Fallout number four in 2011, after the death of the Ultimate universe's Peter Parker.",
+      "anchor": "Miles Morales first appeared in *Ultimate Fallout* number four in 2011, after the death of the Ultimate universe's Peter Parker.",
       "kind": "first_appearance",
       "source_ids": [
         "sm-marvel-fallout4",
@@ -107,7 +115,7 @@
     },
     {
       "id": "004000-c06",
-      "anchor": "His subsequent solo series, Ultimate Comics Spider-Man, was written by Brian Michael Bendis with art by Sara Pichelli.",
+      "anchor": "His subsequent solo series, *Ultimate Comics Spider-Man*, was written by Brian Michael Bendis with art by Sara Pichelli.",
       "kind": "creative_team_attribution",
       "source_ids": [
         "sm-marvel-miles",
@@ -128,7 +136,7 @@
     },
     {
       "id": "004000-c08",
-      "anchor": "Her first appearance was in Edge of Spider-Verse number two in 2014, created by writer Jason Latour and artist Robbi Rodriguez,",
+      "anchor": "Her first appearance was in *Edge of Spider-Verse* number two in 2014, created by writer Jason Latour and artist Robbi Rodriguez, with Rico Renzi's coloring a major part of the comic's visual identity.",
       "kind": "first_appearance",
       "source_ids": [
         "sm-marvel-ghost",
@@ -139,7 +147,7 @@
     },
     {
       "id": "004000-c09",
-      "anchor": "The major 2014 Spider-Verse event, including The Amazing Spider-Man number nine, brought different Spider-people together against a multiversal threat.",
+      "anchor": "The major 2014 *Spider-Verse* event, including *The Amazing Spider-Man* number nine, brought different Spider-people together against a multiversal threat.",
       "kind": "comic_event",
       "source_ids": [
         "sm-marvel-spiderverse"
@@ -159,12 +167,32 @@
     },
     {
       "id": "004000-c11",
-      "anchor": "The 2023 sequel, Spider-Man: Across the Spider-Verse, pushes the problem of inheritance in another direction.",
+      "anchor": "The 2023 sequel, *Spider-Man: Across the Spider-Verse*, pushes the problem of inheritance in another direction.",
       "kind": "film_premise",
       "source_ids": [
         "sm-sony-across"
       ],
       "source_locator": "2023 film",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "004000-c12",
+      "anchor": "Readers of *The Amazing Spider-Man* number two hundred fifty-two saw Peter return in the black suit before the crossover had published the issue showing him acquire it.",
+      "kind": "publication_sequence",
+      "source_ids": [
+        "sm-gcd-asm252"
+      ],
+      "source_locator": "ASM #252 before Secret Wars #8 publication",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "004000-c13",
+      "anchor": "Randy Schueller, a Marvel reader, had submitted an idea for a black suit in the early 1980s.",
+      "kind": "creator_history",
+      "source_ids": [
+        "sm-schueler-black-costume"
+      ],
+      "source_locator": "Marvel 2019 Self-Improvement solicitation acknowledges prior fan concept",
       "audit_status": "source_checked"
     }
   ]

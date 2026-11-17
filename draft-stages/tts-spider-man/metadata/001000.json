@@ -18,12 +18,20 @@
     {
       "source_id": "sm-loc-origin-talk",
       "reason": "Institutional overview of Lee-Ditko collaboration, marginal editorial notes, and visual development."
+    },
+    {
+      "source_id": "sm-loc-sara2024",
+      "reason": "Examines original page alterations including the covered-sedan correction; specific marginal language is a key anchor."
+    },
+    {
+      "source_id": "sm-comic-historians-ditko",
+      "reason": "Compares published recollections and claims; not an authority that resolves disputed private conversations."
     }
   ],
   "historical_claims": [
     {
       "id": "001000-c01",
-      "anchor": "In the summer of 1962, a boy who looked like an unlikely superhero appeared in an American comic book.",
+      "anchor": "This is *Amazing Fantasy* number fifteen, the comic that introduced Peter Parker in 1962.",
       "kind": "publication_context",
       "source_ids": [
         "sm-af15-primary",
@@ -34,7 +42,7 @@
     },
     {
       "id": "001000-c02",
-      "anchor": "The story appeared in a publication that was not yet a Spider-Man magazine.",
+      "anchor": "*Amazing Fantasy* was an anthology of short speculative tales, not an established Spider-Man series.",
       "kind": "publication_context",
       "source_ids": [
         "sm-gcd-af15"
@@ -44,7 +52,7 @@
     },
     {
       "id": "001000-c03",
-      "anchor": "The original drawings now preserved by the Library of Congress let us see a part of this process unusually close to the page itself.",
+      "anchor": "The Library of Congress now preserves the original *Amazing Fantasy* pages.",
       "kind": "archival_evidence",
       "source_ids": [
         "sm-loc-exhibition",
@@ -55,7 +63,7 @@
     },
     {
       "id": "001000-c04",
-      "anchor": "It is customary to name Stan Lee and Steve Ditko as Spider-Man's co-creators,",
+      "anchor": "Spider-Man is credited to Lee and Ditko, whose contributions were substantial but not identical.",
       "kind": "creator_attribution",
       "source_ids": [
         "sm-loc-origin-talk",
@@ -66,17 +74,18 @@
     },
     {
       "id": "001000-c05",
-      "anchor": "Jack Kirby contributed earlier design work and the published first-appearance cover also bears his involvement;",
+      "anchor": "Accounts of early development also involve Jack Kirby, who drew the published cover; Ditko drew the origin story inside.",
       "kind": "creator_attribution",
       "source_ids": [
-        "sm-gcd-af15"
+        "sm-gcd-af15",
+        "sm-comic-historians-ditko"
       ],
       "source_locator": "cover credit; earlier designs discussed in history",
       "audit_status": "source_checked"
     },
     {
       "id": "001000-c06",
-      "anchor": "He experiments with his altered strength and movement, and he invents devices for shooting webs.",
+      "anchor": "He makes his own web-shooters.",
       "kind": "plot_reference",
       "source_ids": [
         "sm-af15-primary",
@@ -87,7 +96,7 @@
     },
     {
       "id": "001000-c07",
-      "anchor": "At a critical moment a fleeing criminal passes near the newly successful performer.",
+      "anchor": "A criminal runs past Peter. Peter can stop him. Peter doesn't.",
       "kind": "plot_reference",
       "source_ids": [
         "sm-af15-primary"
@@ -97,7 +106,7 @@
     },
     {
       "id": "001000-c08",
-      "anchor": "In the 1962 comic, the famous formulation about great power and great responsibility appears in the story's concluding narration, not as a speech Ben gives Peter.",
+      "anchor": "In the 1962 story, the lesson about great power and great responsibility is given in a concluding narrator's caption.",
       "kind": "textual_distinction",
       "source_ids": [
         "sm-loc-exhibition",
@@ -105,6 +114,16 @@
       ],
       "source_locator": "closing moral caption",
       "audit_status": "reference_recorded"
+    },
+    {
+      "id": "001000-c09",
+      "anchor": "On one page, Lee asks Ditko to alter the appearance of a car and its passengers, an instruction visible in the original art but not in the published panel.",
+      "kind": "archival_annotation",
+      "source_ids": [
+        "sm-loc-sara2024"
+      ],
+      "source_locator": "Library of Congress analysis of original Amazing Fantasy #15 page 3",
+      "audit_status": "source_checked"
     }
   ]
 }
