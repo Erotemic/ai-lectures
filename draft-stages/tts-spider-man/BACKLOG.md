@@ -4,7 +4,7 @@
 
 The goal is entertaining, substantive audio essays for fans, with enough explanation for someone who knows Spider-Man primarily through movies or games. A retelling is appropriate only when story beats explain a memorable scene, an artistic decision, a compelling argument, or a publishing controversy. Develop a specific thesis, use concrete evidence and anecdotes, distinguish creator testimony from documented history, and mark consequential spoilers. No fixed duration or word-count target. Keep source links and citation detail in non-spoken companions.
 
-## Complete (22 essays)
+## Complete (23 essays)
 
 - **001000–004000 — The Essentials:** Original moral mistake; early comics and cast; story engine; symbiotes and Spider-people. Revised for fan-focused accessibility in Part 3.
 - **005000–008000 — Creators and character engines:** Ditko and Lee; Jameson; villains; Clone Saga, marriage and continuity.
@@ -15,8 +15,9 @@ The goal is entertaining, substantive audio essays for fans, with enough explana
 - **020000 — Spider-Man: Life Story:** the 2019 aging-in-real-time miniseries, Zdarsky and Bagley's choices, and continuity when decades accumulate.
 - **021000 — Spider-Man and money:** the 1963 check scene, photography, work, obligation, research jobs and Parker Industries.
 - **022000 — Spider-Man and New York:** Forest Hills, boroughs, rooftop movement, the 2001 response comic, and the 2023 game's expanded city.
+- **023000 — Spider-Man Through the Decades:** A single decade-spanning critical and publication history, from Lee/Ditko through the 2024–2026 alternate adult-Peter series; treats chronology as a map, not a full retelling.
 
-These are **completed** topics; do not reissue a broad survey on the same subject without a narrower, genuinely new angle. The essay IDs are intentionally not always chronological by source-material date.
+These are **completed** topics. Lecture 023000 is the dedicated historical overview; narrower future essays should add issue-level, artistic, or industrial depth rather than reciting the same chronological framework. The essay IDs are intentionally not always chronological by source-material date.
 
 ## High-value next essays
 
