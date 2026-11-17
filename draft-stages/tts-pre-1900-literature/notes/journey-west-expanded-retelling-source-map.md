@@ -4,7 +4,7 @@ This is a separate literary retelling of the conventional 100-chapter Ming novel
 
 ## Current playback index after consolidation
 
-The expanded retelling is complete through selected-witness chapter 51 and remains in progress. There are now 36 playable manuscripts: 13 consolidated manuscripts through chapter 21 (retaining the former 61 writing components), and twenty-three continuous-arc manuscripts for chapters 22–51. Continue with chapter 52 using [the current writer handoff](journey-west-continuation-handoff.md). Subsequent IDs have not been reserved.
+The expanded retelling is complete through selected-witness chapter 57 and remains in progress. There are now 42 playable manuscripts: 13 consolidated manuscripts through chapter 21 (retaining the former 61 writing components), and twenty-nine continuous-arc manuscripts for chapters 22–57. Continue with chapter 58 using [the current writer handoff](journey-west-continuation-handoff.md). Subsequent IDs have not been reserved.
 
 | Current playback ID | Selected-witness chapters | Current manuscript | Minutes at 145 wpm |
 | --- | --- | --- | ---: |
@@ -44,8 +44,14 @@ The expanded retelling is complete through selected-witness chapter 51 and remai
 | 522000 | 49 | [Journey to the West: The fish basket and the old turtle](../522000-journey-to-the-west-the-fish-basket-and-the-old-turtle.md) | 14.7 |
 | 523000 | 50 | [Journey to the West: The house outside the circle](../523000-journey-to-the-west-the-house-outside-the-circle.md) | 13.4 |
 | 524000 | 51 | [Journey to the West: The ring that stole Heaven's weapons](../524000-journey-to-the-west-the-ring-that-stole-the-heavens-weapons.md) | 14.4 |
+| 525000 | 52 | [Journey to the West: The blue ox and the diamond snare](../525000-journey-to-the-west-the-blue-ox-and-the-diamond-snare.md) | 15.3 |
+| 526000 | 53 | [Journey to the West: The river of mothers and the water of release](../526000-journey-to-the-west-the-river-of-mothers-and-the-water-of-release.md) | 13.4 |
+| 527000 | 54 | [Journey to the West: The queen of Western Liang](../527000-journey-to-the-west-the-queen-of-western-liang.md) | 14.1 |
+| 528000 | 55 | [Journey to the West: The scorpion at Pipa Cave](../528000-journey-to-the-west-the-scorpion-at-pipa-cave.md) | 13.4 |
+| 529000 | 56 | [Journey to the West: Blood on the road and Wukong's dismissal](../529000-journey-to-the-west-blood-on-the-road-and-wukongs-dismissal.md) | 14.4 |
+| 530000 | 57 | [Journey to the West: The monkey at Guanyin's feet and the monkey in the cave](../530000-journey-to-the-west-the-monkey-at-guanyins-feet-and-the-monkey-in-the-cave.md) | 15.4 |
 
-The ledger below preserves the original pre-consolidation component IDs, scene boundaries, and original measurements through chapter 21 for evidence traceability. Chapters 22–51 are new continuous-arc manuscripts and have no absorbed component history. Those rows are no longer separate playable files.
+The ledger below preserves the original pre-consolidation component IDs, scene boundaries, and original measurements through chapter 21 for evidence traceability. Chapters 22–57 are new continuous-arc manuscripts and have no absorbed component history. Those rows are no longer separate playable files.
 
 ## Original writing-component ledger (not the current playback index)
 
@@ -164,10 +170,10 @@ The novella-like origin episode is literary, not a historical biography of the r
 
 ## Progress and next chapter group
 
-The expanded retelling covers **selected-witness chapters 1–51** in **36 playable manuscripts**. The original 13 consolidated manuscripts through chapter 21 retain their component history; twenty-three later manuscripts narrate chapters 22–51. Evidence companions: [chapters 22–27](journey-west-chapters-22-27-reading-guide.md), [chapters 28–33](journey-west-chapters-28-33-reading-guide.md), [chapters 34–39](journey-west-chapters-34-39-reading-guide.md), [chapters 40–45](journey-west-chapters-40-45-reading-guide.md), and [chapters 46–51](journey-west-chapters-46-51-reading-guide.md).
+The expanded retelling covers **selected-witness chapters 1–57** in **42 playable manuscripts**. The original 13 consolidated manuscripts through chapter 21 retain their component history; twenty-nine later manuscripts narrate chapters 22–57. Evidence companions: [chapters 22–27](journey-west-chapters-22-27-reading-guide.md), [chapters 28–33](journey-west-chapters-28-33-reading-guide.md), [chapters 34–39](journey-west-chapters-34-39-reading-guide.md), [chapters 40–45](journey-west-chapters-40-45-reading-guide.md), [chapters 46–51](journey-west-chapters-46-51-reading-guide.md), and [chapters 52–57](journey-west-chapters-52-57-reading-guide.md).
 
-Chapter 46 concludes the Chechi Kingdom contests and chapter 47 opens with the king's religious settlement. Chapters 47–49 contain the Heaven-Reaching River sacrifice, frozen crossing, goldfish captured by Guanyin, and turtle ferry. Chapters 50–51 introduce the One-Horned King, the entrapment at Golden Cave, and the white ring that robs even Heaven's weapons. Wukong recovers his staff in chapter 51 **but his companions remain captives, and the ring is not recovered**.
+Chapter 52 completes the Golden Cave episode, with the white diamond snare identified as Laozi's lost treasure and the One-Horned King returned to blue-ox form. Chapter 53 recounts the Mother-and-Child River and the Water of Release. Chapters 54–55 keep the human queen's proposed marriage distinct from the scorpion demon's abduction and the Pleiades Sun Officer's rescue. Chapter 56 describes violence against human robbers and Wukong's expulsion. Chapter 57 records an apparent Wukong attacking Xuanzang, the stolen travel documents, a rival pilgrim group at Flower-Fruit Mountain, and Sha's discovery that the true Wukong has been under Guanyin's observation.
 
-**Next:** chapter 52, which continues the unresolved confrontation at Golden Cave. Follow the Chinese source's chapter boundary rather than revealing the ring's origin in chapter 51. The next six-source-chapter installment is **chapters 52–57**, with manuscript boundaries chosen by narrative arc. The independently curated World History survey is unchanged, and the chapter-9 River Child insertion caveat remains relevant to edition comparisons.
+**Next:** chapter 58, which resolves the identity of the second Monkey King. Do not reveal that outcome in chapter 57, and do not assume the real Wukong left Guanyin while she was watching him. The next six-source-chapter installment is **chapters 58–63**, with natural story-arc boundaries and no fixed lecture-length cap. The separate World History survey and the chapter-9 River Child edition caveat remain unchanged.
 
-**Chapters 52–100 remain unwritten in this expanded strand.**
+**Chapters 58–100 remain unwritten in this expanded strand.**
