@@ -7,7 +7,7 @@ invariant norm.  The repository refutes it with an explicit ``R^4`` witness
 (both principal angles ``pi/4``) and proves the repair for ``Q``-norms.
 
 Every number comes from :class:`dkvis.prop44.Prop44Model`, the same checked
-model the VTK and Manim Proposition 4.4 scenes use.
+model covered by the numerical regression tests.
 """
 
 from __future__ import annotations
@@ -19,19 +19,15 @@ import numpy as np
 from manim import (
     DOWN,
     LEFT,
-    RIGHT,
     UP,
     Arc,
     Arrow,
-    Axes,
     Circle,
     Create,
     DashedLine,
-    Dot,
     FadeIn,
     Line,
     Rectangle,
-    Text,
     Transform,
     ValueTracker,
     VGroup,
@@ -39,14 +35,12 @@ from manim import (
     rate_functions,
 )
 
-from dkvis.notation import concept_color
 from dkvis.prop44 import Prop44Model
 from dkvis.slide_style import (
     WANTED,
     FAINT,
     FG,
     MUTED,
-    MONO_FONT,
     PANEL,
     REFUTED,
     SINE,
@@ -54,17 +48,11 @@ from dkvis.slide_style import (
     DeckSlide,
     boxed,
     math,
-    mono,
     para,
     tex,
 )
 
 MODEL = Prop44Model()
-
-
-def chord(alpha: float) -> float:
-    """Either singular value of ``I - Rot(alpha)`` on a real 2-plane."""
-    return MODEL.rotation_plane_singular_value(alpha)
 
 
 def norms(singular_values: np.ndarray) -> dict[str, float]:
@@ -397,87 +385,9 @@ class P02Counterexample(P4Slide):
         self.play(FadeIn(table_rows[2]), Create(failure_outline))
 
 
-
-
 # ----------------------------------------------------------------------------
 # Why, and details
 # ----------------------------------------------------------------------------
-
-
-class P03Why(P4Slide):
-    title = "Why the trace norm prefers the competitor"
-    kicker = r"Chord length is concave in the angle; squared chord length is not"
-    depth = "*"
-
-    def body(self) -> None:
-        axes = Axes(
-            x_range=[0, 180, 45],
-            y_range=[0, 2.1, 0.5],
-            x_length=6.2,
-            y_length=4.2,
-            tips=False,
-            axis_config={"color": MUTED, "stroke_width": 2},
-        ).move_to([-3.4, -0.55, 0])
-        xt = VGroup(*[tex(rf"${v}^\circ$", size=20, color=MUTED).next_to(axes.c2p(v, 0), DOWN, buff=0.1) for v in (45, 90, 135, 180)])
-        yt = VGroup(*[tex(rf"${v:g}$", size=20, color=MUTED).next_to(axes.c2p(0, v), LEFT, buff=0.1) for v in (0.5, 1.0, 1.5, 2.0)])
-        f = axes.plot(lambda a: chord(np.radians(a)), x_range=[0, 180], color=SINE, stroke_width=4)
-        f_lbl = math(r"2\sin(\alpha/2)", size=26, color=concept_color("theta")).next_to(axes.c2p(150, chord(np.radians(150))), UP, buff=0.1)
-        x_lbl = math(r"\alpha", size=26, color=MUTED).next_to(axes.x_axis, RIGHT, buff=0.1)
-
-        c45, c90 = chord(np.pi / 4), chord(np.pi / 2)
-        pts = VGroup(
-            Dot(axes.c2p(0, 0), color=MUTED),
-            Dot(axes.c2p(90, c90), color=MUTED),
-            Dot(axes.c2p(45, c45), color=FG),
-        )
-        secant = DashedLine(axes.c2p(0, 0), axes.c2p(90, c90), color=MUTED, stroke_width=3)
-        mid = Dot(axes.c2p(45, c90 / 2), color=MUTED, radius=0.06)
-        gap_line = Line(axes.c2p(45, c90 / 2), axes.c2p(45, c45), color=FG, stroke_width=3)
-
-        x0, w = 0.35, 6.4
-        t1 = para(
-            rf"At the level of invariant planes, the direct rotation spreads the turn as $45^\circ+45^\circ$; "
-            rf"the competitor concentrates it as $90^\circ+0^\circ$. Each plane contributes its chord twice, "
-            rf"so drop that common factor and compare $2\times{c45:.3f}={2 * c45:.3f}$ with ${c90:.3f}+0$.",
-            width=w,
-            size=26,
-        )
-        t2 = para(
-            r"Because the chord is \emph{concave} in the angle (it lies above the dashed secant), splitting "
-            r"a turn evenly costs more than concentrating it. A norm that \emph{adds} chords, like the "
-            r"trace norm, rewards the competitor.",
-            width=w,
-            size=26,
-        )
-        t3 = para(
-            rf"Squared chords $4\sin^2(\alpha/2)=2(1-\cos\alpha)$ are convex here: "
-            rf"$2\times{c45**2:.3f}<{c90**2:.3f}+0$. For a $Q$-norm, squaring the norm turns the comparison "
-            r"into a unitarily invariant norm of the squared displacement $(I-W)^{*}(I-W)$, which rewards "
-            r"spreading; that is why the repair holds. Its Lean proof goes through the paper's "
-            r"squared-displacement result (Proposition 4.3).",
-            width=w,
-            size=24,
-            color=MUTED,
-        )
-        col = VGroup(t1, t2, t3).arrange(DOWN, aligned_edge=LEFT, buff=0.35)
-        col.move_to([x0, self.content_top - 0.2, 0], aligned_edge=UP + LEFT)
-
-        self.say(
-            "Why does this happen? Each rotated plane contributes chord lengths 2 sin of half the angle. "
-            "Each plane contributes its chord twice, so compare plane by plane: the direct rotation turns "
-            "45 and 45 degrees, the competitor 90 and 0."
-        )
-        self.play(Create(axes), FadeIn(xt, yt, x_lbl), Create(f), FadeIn(f_lbl), FadeIn(pts), FadeIn(t1))
-        self.say(
-            "The chord is concave: the secant from 0 to 90 degrees lies below the curve, so its midpoint is "
-            "below the 45-degree chord. Splitting evenly costs more. Adding chords rewards concentration."
-        )
-        self.play(Create(secant), FadeIn(mid), Create(gap_line), FadeIn(t2))
-        self.say(
-            "Squared chords behave the other way. For a Q-norm, squaring the norm turns the comparison into one "
-            "about the squared displacement, so the direct rotation wins. That is the repair we proved."
-        )
-        self.play(FadeIn(t3))
 
 
 # Pull the displayed theorem *verbatim* from Lean, rather than retyping it in
@@ -487,230 +397,3 @@ COUNTEREXAMPLE_SOURCE = (
     LEAN_ROOT / "DavisKahan/FiniteDimensional/DirectRotation/ShortRotationCounterexample.lean"
 )
 QNORM_SOURCE = LEAN_ROOT / "DavisKahan/FiniteDimensional/DirectRotation/QNorm.lean"
-
-
-def _lean_statement(path: Path, name: str, *, include_witness: bool = False) -> list[str]:
-    """Literal source lines of a Lean theorem through its `:=` declaration.
-
-    The shortRotation witness has a one-line proof that is worth showing as
-    well; for other theorems only show the declaration header.
-    """
-    lines = path.read_text().splitlines()
-    start = next(i for i, line in enumerate(lines) if line.startswith(f"theorem {name}") and (len(line) == len(name) + 8 or line[len(name) + 8] in " :"))
-    end = next(
-        i for i in range(start, len(lines))
-        if lines[i].rstrip().endswith(":=") or lines[i].rstrip().endswith(":= by")
-    )
-    if include_witness:
-        assert lines[end].rstrip().endswith(":=")
-        end += 1
-    return lines[start : end + 1]
-
-
-def _lean_text_block(lines: list[str], *, size: float, step: float) -> VGroup:
-    """Use the same source-preserving monospaced layout as S12Lean."""
-    probe = Text("M" * 20, font=MONO_FONT, font_size=size)
-    char_w = probe.width / 20
-    code = VGroup()
-    for i, line in enumerate(lines):
-        indentation = len(line) - len(line.lstrip(" "))
-        glyph = Text(line.strip(), font=MONO_FONT, font_size=size, color=FG)
-        glyph.move_to([indentation * char_w, -i * step, 0], aligned_edge=LEFT)
-        code.add(glyph)
-    return code
-
-
-class P04LeanRefutation(P4Slide):
-    """Friday: literal Lean witness, explanation, and the Q-norm repair."""
-
-    title = "Lean checked the refutation and its repair"
-    kicker = r"Literal Lean witness from ShortRotationCounterexample.lean; Q-norm repair in QNorm.lean"
-
-    def body(self) -> None:
-        witness_lines = _lean_statement(
-            COUNTEREXAMPLE_SOURCE, "shortRotation_fullDisplacement_refuted",
-            include_witness=True,
-        )
-        # This is a literal Lean statement, including its one-line witness term.
-        witness = _lean_text_block(witness_lines, size=17, step=0.32)
-        left, top = -6.55, self.content_top - 0.12
-        left_w, right_x, right_w = 8.45, 2.08, 4.42
-        upper_h, lower_h = 3.22, 2.03
-
-        head = tex(r"\textbf{THE WITNESS (LITERAL LEAN SOURCE)}", size=20)
-        witness.move_to([left + 0.18, top - 0.63, 0], aligned_edge=UP + LEFT)
-        if witness.width > left_w - 0.38:
-            witness.scale_to_fit_width(left_w - 0.38)
-        if witness.height > upper_h - 0.98:
-            witness.scale_to_fit_height(upper_h - 0.98)
-        witness.move_to([left + 0.18, top - 0.63, 0], aligned_edge=UP + LEFT)
-        head.move_to([left + 0.18, top - 0.18, 0], aligned_edge=UP + LEFT)
-        upper_bg = Rectangle(
-            width=left_w, height=upper_h, stroke_width=0,
-            fill_color=PANEL, fill_opacity=1,
-        ).move_to([left + left_w / 2, top - upper_h / 2, 0])
-
-        # Highlight the two critical assumptions/conclusions in the source text.
-        angles = VGroup(*witness[5:6])
-        comparison = VGroup(*witness[6:8])
-        angle_box = Rectangle(
-            width=angles.width + 0.13, height=angles.height + 0.1,
-            stroke_color=MUTED, stroke_width=1.6,
-        ).move_to(angles)
-        comparison_box = Rectangle(
-            width=comparison.width + 0.13, height=comparison.height + 0.12,
-            stroke_color=REFUTED, stroke_width=1.8,
-        ).move_to(comparison)
-
-        right_bg = Rectangle(
-            width=right_w, height=upper_h, stroke_width=0,
-            fill_color=PANEL, fill_opacity=1,
-        ).move_to([right_x + right_w / 2, top - upper_h / 2, 0])
-        explain_head = tex(r"\textbf{HOW TO READ IT}", size=20)
-        explain1 = para(
-            r"An acute pair of subspaces in $\mathbb{R}^4$; "
-            r"a competitor $W$ with $W(U)=V$.",
-            width=right_w - 0.4, size=21,
-        )
-        explain2 = para(
-            r"Principal angles $\leq 60^\circ$; the actual witness has two $45^\circ$ angles.",
-            width=right_w - 0.4, size=21,
-        )
-        explain3 = para(
-            r"\textbf{Trace norm:} the competitor has strictly smaller "
-            r"$\norm{I-W}$ than the direct rotation.",
-            width=right_w - 0.4, size=21,
-        )
-        # Show the actual two-line source declaration that negates the printed
-        # proposition, not just its identifier.
-        negation = _lean_text_block(
-            _lean_statement(COUNTEREXAMPLE_SOURCE, "not_davisKahanProposition4_4_Finite"),
-            size=15, step=0.28,
-        )
-        if negation.width > right_w - 0.4:
-            negation.scale_to_fit_width(right_w - 0.4)
-        explanation = VGroup(explain_head, explain1, explain2, explain3, negation).arrange(
-            DOWN, aligned_edge=LEFT, buff=0.16,
-        )
-        if explanation.height > upper_h - 0.34:
-            explanation.scale_to_fit_height(upper_h - 0.34)
-        explanation.move_to([right_x + 0.20, top - 0.17, 0], aligned_edge=UP + LEFT)
-
-        repair_top = top - upper_h - 0.16
-        repair_bg = Rectangle(
-            width=13.05, height=lower_h, stroke_width=0,
-            fill_color=PANEL, fill_opacity=1,
-        ).move_to([0, repair_top - lower_h / 2, 0])
-        repair_head = tex(r"\textbf{THE REPAIR (ALSO PROVED IN LEAN)}", size=22)
-        repair_head.move_to([left + 0.18, repair_top - 0.14, 0], aligned_edge=UP + LEFT)
-        # The changed hypothesis is an exact source line, not paraphrased code.
-        # The block deliberately excerpts the binder rather than pretending
-        # that two lines reproduce the entire theorem statement.
-        repair_lines = _lean_statement(QNORM_SOURCE, "directRotation_fullDisplacement_qnorm")
-        restriction = next(line for line in repair_lines if "(hN : IsQNorm N)" in line)
-        repair_code = _lean_text_block(
-            ["theorem directRotation_fullDisplacement_qnorm", restriction],
-            size=19, step=0.31,
-        )
-        repair_code.move_to([left + 0.20, repair_top - 0.59, 0], aligned_edge=UP + LEFT)
-        repair_formula = math(
-            r"N(I-\mathcal R)\ \le\ N(I-W)", size=33,
-        )
-        repair_formula.move_to([right_x + 1.90, repair_top - 0.90, 0])
-        repair_note = para(
-            r"Restricted to $Q$-norms (e.g. operator and Frobenius), "
-            r"the direct rotation minimizes full displacement: "
-            r"real or complex, with no $60^\circ$ cutoff.",
-            width=12.55, size=19, color=MUTED,
-        )
-        repair_note.move_to([left + 0.22, repair_top - 1.31, 0], aligned_edge=UP + LEFT)
-        # Keep the repair above the footer even if a font fallback changes widths.
-        repair_items = VGroup(repair_head, repair_code, repair_formula, repair_note)
-        if repair_items.get_bottom()[1] < repair_bg.get_bottom()[1] + 0.12:
-            repair_items.scale(
-                (repair_items.get_top()[1] - repair_bg.get_bottom()[1] - 0.12)
-                / repair_items.height,
-                about_edge=UP + LEFT,
-            )
-
-        self.say(
-            "This is the literal theorem and witness term from ShortRotationCounterexample dot Lean, "
-            "typeset in the same monospace style as the earlier sine-theta Lean slide. "
-            "It constructs two acute subspaces in R four and an orthogonal competitor W carrying "
-            "U to V. Both principal angles are 45 degrees, within the source's 60-degree limit."
-        )
-        self.play(FadeIn(upper_bg), FadeIn(witness), FadeIn(head), FadeIn(right_bg), FadeIn(explanation))
-        self.say(
-            "The decisive line is the inequality: the Ky Fan four norm, which in R four is "
-            "the trace norm, is smaller for the competitor than the direct rotation. "
-            "Therefore the printed all-norm claim is false. Lean also proves the explicit "
-            "negation in not davis Kahan Proposition four four finite."
-        )
-        self.play(Create(angle_box), Create(comparison_box))
-        self.say(
-            "We also proved a repair. Notice the extra Lean hypothesis IsQNorm N, which "
-            "limits the norm class. For this class the direct rotation minimizes the full "
-            "displacement, without the source's 60-degree cutoff, and over real or complex "
-            "Hilbert spaces. This is the theorem directRotation fullDisplacement qnorm."
-        )
-        self.play(FadeIn(repair_bg), FadeIn(repair_items))
-
-
-class P04Details(P4Slide):
-    title = r"The $\mathbb{R}^4$ witness, explicitly"
-    kicker = r"$U=\langle e_0,e_1\rangle$, $\ V=W(U)$; both principal angles $\pi/4$"
-    depth = "**"
-
-    def body(self) -> None:
-        W = math(
-            r"W=\tfrac12\begin{pmatrix}1&-1&-1&-1\\1&1&1&-1\\-1&-1&1&-1\\1&-1&1&1\end{pmatrix}",
-            size=34,
-        )
-        R = math(
-            r"\mathcal R=\tfrac1{\sqrt2}\begin{pmatrix}1&0&0&-1\\0&1&1&0\\0&-1&1&0\\1&0&0&1\end{pmatrix}",
-            size=34,
-        )
-        mats = VGroup(R, W).arrange(RIGHT, buff=0.9).move_to([-2.3, self.content_top - 1.35, 0])
-        pa = MODEL.principal_angles_degrees
-        facts = VGroup(
-            math(
-                rf"\text{{principal angles}}(U,V)=({pa[0]:.0f}^\circ,{pa[1]:.0f}^\circ)\le60^\circ,\qquad W(U)=\mathcal R(U)=V",
-                size=28,
-            ),
-            math(
-                rf"\sigma(I-\mathcal R)=({chord(np.pi / 4):.3f})^{{\times4}},\qquad \sigma(I-W)=({chord(np.pi / 2):.3f},{chord(np.pi / 2):.3f},0,0)",
-                size=28,
-            ),
-            math(
-                rf"\norm{{I-W}}_{{*}}=2\sqrt2={W_NORMS['trace']:.4f}\ <\ 4\sqrt{{2-\sqrt2}}={R_NORMS['trace']:.4f}=\norm{{I-\mathcal R}}_{{*}}",
-                size=30,
-                color=FG,
-            ),
-        ).arrange(DOWN, aligned_edge=LEFT, buff=0.25)
-        facts.next_to(mats, DOWN, buff=0.4).align_to(mats, LEFT)
-        lean = VGroup(
-            mono("TauCeti.DavisKahan1970.proposition4_4_printedStatement   -- the claim, as a Prop", size=13),
-            mono("TauCeti.DavisKahan1970.proposition4_4_refuted            -- ¬ printed statement", size=13),
-            mono("TauCeti.DavisKahan1970.proposition4_4_refutingPair       -- this witness", size=13),
-            mono("TauCeti.DavisKahan.FiniteDimensional.directRotation_fullDisplacement_qnorm  -- the repair", size=13),
-            mono("TauCeti.DavisKahan.FiniteDimensional.kyFan_not_isQNorm  -- the trace norm on R^4 is not a Q-norm", size=13),
-        ).arrange(DOWN, aligned_edge=LEFT, buff=0.1)
-        lean.next_to(facts, DOWN, buff=0.35).align_to(mats, LEFT)
-        if lean.get_right()[0] > 6.8:
-            lean.scale((6.8 - lean.get_left()[0]) / lean.width, about_edge=LEFT)
-        page = VGroup(mats, facts, lean).arrange(DOWN, aligned_edge=LEFT, buff=0.35)
-        page.move_to([-6.45, self.content_top - 0.25, 0], aligned_edge=UP + LEFT)
-        floor = -3.35
-        if page.get_bottom()[1] < floor:
-            page.scale((page.get_top()[1] - floor) / page.height, about_edge=UP + LEFT)
-        bg = Rectangle(width=lean.width + 0.3, height=lean.height + 0.25, fill_color=PANEL, fill_opacity=1, stroke_width=0).move_to(lean)
-
-        self.say(
-            "For the record: the explicit matrices, the angles, the singular values, and the Lean "
-            "declarations. The same model drives the VTK four-plane explorer."
-        )
-        self.play(FadeIn(mats), FadeIn(facts))
-        self.play(FadeIn(bg), FadeIn(lean))
-
-
-SCENES = [P01Claim, P02Counterexample, P03Why, P04Details, P04LeanRefutation]

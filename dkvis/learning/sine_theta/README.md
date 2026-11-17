@@ -1,12 +1,12 @@
 # Davis–Kahan sine theta: narrated course edition
 
 Deck **`sine-theta-lecture`**, lecture **003750**, reuses the eighteen core
-scenes of the preserved `sine-theta-short` reference composition and appends
+scenes inherited from the former `sine-theta-short` reference composition and appends
 Qwen's two study questions. Its expanded narration takes roughly 25 minutes
 before animation and thinking pauses; the original live talk was paced for
 fifteen minutes.
 
-From `visualizations/`:
+From the repository root:
 
 ```bash
 make slides DECK=sine-theta-lecture
@@ -31,7 +31,8 @@ check; it does not silently rewrite stale slide metadata.
 
 `provenance.yaml` distinguishes Qwen's transcript/quiz authorship, inherited
 visual implementations, and GPT-6.1-Sol's integration and limited corrections.
-The original reference composition remains an eighteen-scene slide deck.
+The unnarrated reference deck is maintained in the `dk` repository; this
+checkout retains the inherited visual implementations needed by this lecture.
 
 The [transcript review](../../../lectures/003750_sine_theta/transcript-review.md)
 records the norm-notation clarification and subsequent mathematical wording

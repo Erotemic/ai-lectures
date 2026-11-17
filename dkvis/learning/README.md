@@ -31,7 +31,7 @@ finished narrated lessons.
 | Min-max and eigenvalue stability | Prove the variational characterization and derive Weyl stability. | Projections; operator norms | [Accepted operator foundations](operators/README.md) |
 | Operator modulus and polar decomposition | Construct the canonical factor and distinguish its kernel convention. | Projections; singular values | [Accepted operator foundations](operators/README.md) |
 | Residuals and spectral separation | Explain why residual size divided by certified separation bounds the subspace error. | Principal angles; spectra | `slides_sine_theta.py`, `sine_theta_story.py` |
-| Sylvester equations and angle bounds | Follow the residual-to-Sylvester reduction and distinguish the four angle theorems. | Residuals and separation; operator norms | [Accepted operator foundations](operators/README.md); `slides_family.py`, `S09Sylvester` |
+| Sylvester equations and angle bounds | Follow the residual-to-Sylvester reduction and distinguish the four angle theorems. | Residuals and separation; operator norms | [Accepted operator foundations](operators/README.md); the narrated Sylvester lecture |
 | Feasible variations and stationarity | Construct legal variations and derive the gradient compression equations. | Projections, norms, exponential, differentiation and trace | [Variations](variations/README.md): complete narrated module |
 | Invariant subspaces and justified blocks | Distinguish triangular from diagonal blocks and derive the projection criterion. | Projections | [Standalone lecture](invariant_blocks/README.md) |
 | Trace pairings and matrix gradients | Read scalar responses, cyclicity, and restricted derivative tests. | Matrices; dot products; derivatives | [Standalone lecture](trace_gradients/README.md) |
@@ -40,7 +40,7 @@ finished narrated lessons.
 | The two-angle minimum | Reduce an unrestricted four-dimensional fiber to an attainable phase edge. | Principal coordinates; orthogonal spectra | Matching study `M20PairCoordinates`–`M23Determinants` |
 | Real trace-norm matching | Recover both matching inequalities, the trace endpoint, and an attaining map. | The preceding three proof modules; singular-value norms | [Matching study and proof talk](matching/README.md): complete transcripts and Manim scenes |
 | A printed claim and its repair | Verify the Proposition 4.4 counterexample and explain the norm-class repair. | Principal angles; singular-value norms | `slides_prop44.py`, `prop44.py` |
-| Reading formal evidence | Distinguish a checked proposition, source correspondence, and a numerical illustration. | Familiarity with a theorem and its proof | `slides_process.py`, `slides_glossary.py` |
+| Reading formal evidence | Distinguish a checked proposition, source correspondence, and a numerical illustration. | Familiarity with a theorem and its proof | Lean companions beside the narrated lectures |
 
 The catalog is a guide for authoring, not a new census or completion gate.
 Start with the prerequisite series; it supplies much of the vocabulary needed

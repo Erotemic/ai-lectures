@@ -1,29 +1,10 @@
-"""Render a manim-slides deck and convert it for presenting or sharing.
+"""Render a narrated lecture and convert it for presenting or sharing.
 
-Run from ``visualizations/`` (or use the Makefile)::
+Run from the repository root (or use the Makefile)::
 
-    uv run --extra vtk --extra slides python -m dkvis.presentation slides part3-family -q l    # one part, fast draft
-    uv run --extra vtk --extra slides python -m dkvis.presentation slides sine-theta-full      # all parts, 1080p60 + HTML
-    uv run --extra vtk --extra slides python -m dkvis.presentation slides sine-theta-full --pdf --handout
-    uv run --extra vtk --extra slides python -m dkvis.presentation slides part1-sine-theta --list
-    uv run --extra vtk --extra slides python -m dkvis.presentation slides comprehensive --one-file --html renders/comprehensive.standalone.html
-
-Decks:
-
-* ``sine-theta-short`` -- the 15-minute core talk (intuition, theorem, what was
-  formalized, and the Proposition 4.4 counterexample), rendered on its own;
-* ``part1-sine-theta`` ... ``part7-glossary`` -- the parts of the full talk.  Each
-  renders on its own into ``slides-<part>/`` and gets its own HTML, so a part can
-  be rebuilt and shared without touching the others.  Slides are numbered within
-  their part ("3 / 7"), and the footer names the part;
-* ``sine-theta-full`` -- the parts in order.  It is assembled from the parts'
-  renders without rendering anything itself, so its slides carry their parts'
-  numbers and footers.  Optional slides are badged ``*`` (technical depth) or
-  ``**`` (backup).
-* ``kitware-talk`` -- the completed, unchanged 21-scene presentation;
-* ``comprehensive`` -- an ordered collection of all distinct mathematical
-  scenes, including six chapter transitions and a single VTK finale;
-* ``study`` -- the previous long-form learning composition using reusable scenes.
+    uv run --extra slides python -m dkvis.presentation slides operators-sylvester -q l
+    uv run --extra slides python -m dkvis.presentation slides matching-proof --pdf --handout
+    uv run --extra vtk --extra slides python -m dkvis.presentation slides sine-theta-lecture --one-file
 
 Deck composition lives in :mod:`dkvis.decks`; this module only renders and
 converts those specifications.  Optional/backup depth is presentation-specific.

@@ -209,10 +209,10 @@ establishes learning benefits for this library.
 | `docs/related-work.md` | Related software, learning research, and publishing standards |
 | `lectures/`, `dkvis/`, `curriculum/`, `companion-slides/` | Original presentation curriculum, shared media tools, and visual companions |
 
-## Legacy presentations
+## Narrated presentations
 
 The project began with Davis–Kahan mathematics and its formalization. The
-Manim/VTK scenes, Lean companions, and slide/video pipeline remain available;
+Narrated Manim/VTK lectures, Lean companions, and the slide/video pipeline remain available;
 they are one part of a broader library. Original presentations are at
 `/presentations`, the compatibility audio reader is at `/audio`, and the older
 curriculum graph is at `/learning-paths`.
@@ -221,10 +221,13 @@ curriculum graph is at `/learning-paths`.
 
 Use [the presentation production guide](dkvis/presentation/README.md) for
 rendering, narrated video, audio processing, and the original media server;
-[the scene reference](SCENE_REFERENCE.md) catalogs the older visualizations.
+the indexed lectures retain their existing scene sequences and narration.
+Unnarrated Davis–Kahan decks and standalone demos are maintained in the `dk`
+repository. This checkout keeps the scene implementations and VTK asset renderer
+needed by the narrated sine-theta lecture, the narrated matching lectures, and
+shared media production. Checked mathematical models and their tests remain here.
 The [original vision and history plan](docs/planning/lecture-project-vision-and-history.md)
-records the mathematical project's goals. `kitware-talk` is the completed,
-frozen presentation; `comprehensive` is the editable long deck.
+records the mathematical project's goals.
 
 ### Updating one scene
 

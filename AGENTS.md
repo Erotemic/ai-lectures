@@ -22,20 +22,13 @@ scene-name prefixes, or transcript paths to the shared production tools.
 Keep legacy scene files where they are until a conceptual migration is useful.
 Preserve presentation content and ordering during organization-only work.
 
-The completed presentation is now named `kitware-talk`; **do not change its
-scene order or change a scene just to improve the new `comprehensive` deck**.
-The `comprehensive` deck is the editable long presentation and should include
-every distinct source-grounded mathematical visualization in a coherent order.
-The older reference decks and `study` continue as regression/learning surfaces.
-
-For substantial slide work, also read `briefs/slide-authoring.md` and
-`dkvis/components/README.md`. Read the relevant deck brief when editing that
-deck; the frozen Kitware, comprehensive, and deep-study briefs have distinct
-scopes.
-
-The old `sine-theta-short`, part decks and `sine-theta-full` are reference
-compositions. Preserve their behavior. Use `dkvis/decks/comprehensive.py` to
-reorganize the long presentation, rather than modifying the frozen Kitware talk.
+This checkout keeps narrated lectures and their scene/model dependencies.
+Unnarrated Davis–Kahan reference decks, including `kitware-talk`, `comprehensive`,
+`study`, and `novelty-tour`, and standalone demos are maintained in the `dk`
+repository. Do not restore them here as regression surfaces. Preserve the
+narrated lecture sequences and shared slide/transcript/TTS/video production.
+For substantial slide work, read `briefs/slide-authoring.md`,
+`dkvis/components/README.md`, and the relevant retained lecture brief.
 
 Render and inspect slides before claiming a visual improvement. Use draft
 quality while iterating. Every scene's final build must contain the complete
@@ -54,19 +47,13 @@ For future visual work, use short incremental passes:
 
 1. list and render the affected scenes at draft quality;
 2. inspect them for clipping, unreadable math, duplicated material and color drift;
-3. improve reusable scenes outside `kitware-talk` (or create alternatives);
+3. improve the affected narrated scenes or reusable components;
 4. render again before claiming a visual improvement;
-5. rebuild `comprehensive` and its standalone HTML when the sequence is ready.
+5. rebuild the affected lecture and its standalone HTML when ready.
 
 Do not write brittle tests asserting text labels, slide captions, or paragraphs.
 Tests should cover numerical model behavior, deck integrity, and actual helper
 behavior. Inspect rendered outputs for visual correctness.
-
-## Novelty tour
-
-Before editing `novelty-tour`, read [its brief](briefs/novelty-tour.md) for the
-source/target color crosswalk and exact verified scope. Preserve the distinction
-between this deck's transport notation and the older sine-theta notation.
 
 ## Canonical sine-theta notation
 

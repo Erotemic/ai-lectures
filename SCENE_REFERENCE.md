@@ -1,4 +1,9 @@
-# Detailed scene reference
+# Historical scene reference
+
+This catalog describes the original Davis–Kahan visualizations, including
+unnarrated decks and demos now maintained in the `dk` repository. Its legacy
+commands do not describe the supported build targets in this checkout. Use
+`python -m dkvis.presentation list` for the current narrated lecture inventory.
 
 Scene-specific mathematical explanations, VTK walkthroughs, and earlier render
 examples moved here from the main README. Commands are run from the repository

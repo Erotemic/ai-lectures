@@ -56,8 +56,7 @@ Manim also needs the host's Cairo, Pango, FFmpeg, and LaTeX packages. Deck
 manifests live in `dkvis/decks/`; authored presentation transcripts and model
 attribution live in numbered `lectures/` folders. See the
 [learning-module contract](../learning/README.md),
-[slide-authoring notes](../../briefs/slide-authoring.md), and
-[scene reference](../../SCENE_REFERENCE.md).
+[slide-authoring notes](../../briefs/slide-authoring.md).
 
 ```bash
 make slides DECK=operators-sylvester QUALITY=l
@@ -68,8 +67,7 @@ make lectures-video TTS_PROFILE=kokoro
 `QUALITY=l` selects draft slides. Video generation needs the selected TTS service.
 `SKIP_RENDER=1` reuses existing slide renders; `REFRESH_AUDIO=1` forces fresh
 speech. Normal reruns reuse matching speech and encoded segments. Narrator
-profiles retain separate outputs. `kitware-talk` is frozen; use `comprehensive`
-for changes to the long presentation's composition.
+profiles retain separate outputs. Unnarrated reference presentations are maintained in the `dk` repository.
 
 Use `tts.toml` and ignored `tts.local.toml` for speech profiles. An explicit
 `TTS_CONFIG` selects a complete config file rather than that automatic overlay.
