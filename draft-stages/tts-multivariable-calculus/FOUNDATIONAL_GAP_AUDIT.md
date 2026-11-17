@@ -71,3 +71,7 @@ The existing specialist manuscripts remain useful to advanced listeners. They ca
 3. Write enough derivation and examples to make that transition understandable from declared prerequisites; no duration rule.
 4. Put exact equations in non-spoken companions and keep audible narration self-contained.
 5. Maintain source attribution, Wikipedia links where relevant, stable IDs, pack-local metadata and ordinary text-only ZIP handoffs.
+
+## Follow-through: worked foundations added, 2026-11-17
+
+The immediate multivariable-calculus recommendation was implemented as `067000`–`070000` and the `worked-multivariable-foundations-bridge` route. This is a **status update**, not a revision to the original dated source coverage observations above. The original three survey manuscripts were preserved. The four new manuscripts deliberately use simple examples and explicit calculation checks; no advanced PDE prerequisites are assumed. Further work should now shift toward the audited introductory differential-equations and concrete function-space gaps rather than resume critical-point PDE expansion.

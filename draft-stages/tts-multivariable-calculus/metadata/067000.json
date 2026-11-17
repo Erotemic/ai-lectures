@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "lecture_id": "067000",
+  "transcript": "067000-derivative-as-a-linear-map-and-chain-rule.md",
+  "related_resources": [
+    {
+      "source_id": "mv-openstax-chain",
+      "reason": "Elementary multivariable chain rule and implicit differentiation."
+    },
+    {
+      "source_id": "mv-mit-1802sc",
+      "reason": "Independent practice on multivariable derivatives and coordinate maps."
+    },
+    {
+      "source_id": "mv-wiki-frechet",
+      "reason": "Coordinate-independent differentiability and error definition."
+    },
+    {
+      "source_id": "mv-wiki-jacobian",
+      "reason": "Jacobian matrix dimensions and transformations."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-17",
+    "scope": "Original foundations-first spoken lecture and non-spoken mathematical companion, with worked examples and explanations; prior manuscripts retained unchanged."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "recommended": [
+      {
+        "lecture_id": "analysis:survey",
+        "reason": "Optional refresher on single-variable differentiation and integration."
+      },
+      {
+        "lecture_id": "linear-algebra:survey",
+        "reason": "Optional refresher on elementary matrices and determinants."
+      }
+    ],
+    "background": [
+      "Single-variable differentiation and integration; vectors, dot products, and two-by-two matrices. No PDE or functional-analysis prerequisites."
+    ],
+    "readiness_checks": [
+      "Compute the Jacobian of a two-output map and use it on a specified displacement.",
+      "Explain why the directional derivatives of x cubed divided by x squared plus y squared are not a linear function of direction."
+    ]
+  }
+}

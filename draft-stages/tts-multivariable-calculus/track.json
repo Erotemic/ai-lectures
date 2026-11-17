@@ -1,7 +1,7 @@
 {
   "id": "multivariable-calculus",
   "title": "Multivariable Calculus from First Principles",
-  "summary": "A calculation-first and proof-aware bridge from multivariable calculus and optimization to variational methods, weak PDEs, numerical elliptic theory, nonlinear bifurcation, and critical-point existence; the introductory survey and specialized deep-dive routes remain separate.",
+  "summary": "A foundations-first and proof-aware route from multivariable derivatives, coordinate changes, and oriented integrals to optimization, variational methods, weak PDEs, numerical elliptic theory, nonlinear bifurcation, and critical-point existence. The long introductory survey and worked foundation route remain independently navigable.",
   "assumed_background": [
     "single-variable limits, differentiation and integration (Analysis 001000–008000)",
     "elementary vectors, matrices, determinants and dot products (Linear Algebra 001000–006000, 008000)"
@@ -13,6 +13,7 @@
     "001000-points-vectors-and-nearness-in-several-dimensions",
     "008000-hessians-and-taylor-s-formula-the-shape-beyond-the-tangent-plane",
     "015000-curves-and-line-integrals-measuring-along-a-path",
+    "worked-multivariable-foundations-bridge",
     "taylor-newton-bridge",
     "nonlinear-least-squares-bridge",
     "constrained-newton-sensitivity-bridge",
@@ -854,6 +855,74 @@
         "Concentration",
         "Aubin–Talenti bubbles",
         "Noncompactness"
+      ]
+    },
+    {
+      "id": "067000",
+      "title": "The Derivative Is a Linear Map: Jacobians You Can Actually Use",
+      "section": "worked-multivariable-foundations-bridge",
+      "file": "067000-derivative-as-a-linear-map-and-chain-rule.md",
+      "spoken_words": 1679,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 11.6,
+      "tags": [
+        "Total derivative",
+        "Jacobian",
+        "Linearization",
+        "Chain rule",
+        "Directional derivatives",
+        "Differentiability"
+      ]
+    },
+    {
+      "id": "068000",
+      "title": "Solving Equations Locally: Inverse and Implicit Functions",
+      "section": "worked-multivariable-foundations-bridge",
+      "file": "068000-solving-equations-locally-implicit-inverse-functions.md",
+      "spoken_words": 1607,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 11.1,
+      "tags": [
+        "Implicit function theorem",
+        "Inverse function theorem",
+        "Local versus global",
+        "Parameter sensitivity",
+        "Jacobian determinant"
+      ]
+    },
+    {
+      "id": "069000",
+      "title": "Changing Integration Order and Coordinates: Where the Jacobian Comes From",
+      "section": "worked-multivariable-foundations-bridge",
+      "file": "069000-changing-integration-order-and-coordinates.md",
+      "spoken_words": 1759,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 12.1,
+      "tags": [
+        "Double integrals",
+        "Integration order",
+        "Jacobian determinant",
+        "Polar coordinates",
+        "Spherical coordinates",
+        "Change of variables"
+      ]
+    },
+    {
+      "id": "070000",
+      "title": "Vector Fields and Oriented Boundaries: From Tangents to Conservation",
+      "section": "worked-multivariable-foundations-bridge",
+      "file": "070000-vector-fields-flux-and-oriented-boundaries.md",
+      "spoken_words": 1873,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 12.9,
+      "tags": [
+        "Line integrals",
+        "Flux",
+        "Orientation",
+        "Green theorem",
+        "Stokes theorem",
+        "Divergence theorem",
+        "Conservation"
       ]
     }
   ],

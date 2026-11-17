@@ -5,13 +5,14 @@
       "id": "survey",
       "title": "Multivariable Calculus · Foundations Survey",
       "role": "main",
-      "summary": "Multivariable differentiation, integration and geometry, with deeper routes through optimization, variational methods, compatible mixed elements, and elliptic boundary regularity.",
+      "summary": "The original three-lecture survey remains available; begin with the worked foundations route for step-by-step Jacobian calculations, local solvability, coordinate integrals and oriented boundaries.",
       "lectures": [
         "001000",
         "008000",
         "015000"
       ],
       "related_collections": [
+        "worked-multivariable-foundations-bridge",
         "taylor-newton-bridge",
         "nonlinear-least-squares-bridge",
         "constrained-newton-sensitivity-bridge",
@@ -24,6 +25,40 @@
         "Calculus",
         "Multivariable differentiation",
         "Foundations"
+      ]
+    },
+    {
+      "id": "worked-multivariable-foundations-bridge",
+      "title": "Multivariable Calculus · Worked Foundations Before Advanced Analysis",
+      "role": "deep_dive",
+      "parent": "survey",
+      "summary": "An accessible four-lecture bridge that constructs the derivative as a linear prediction, solves implicit systems, checks multiple integrals in different coordinates, and works through circulation and flux with explicit orientation signs.",
+      "lectures": [
+        "067000",
+        "068000",
+        "069000",
+        "070000"
+      ],
+      "preparation_collections": [],
+      "related_collections": [
+        "multivariable-calculus:survey",
+        "multivariable-calculus:taylor-newton-bridge",
+        "multivariable-calculus:variational-weak-formulations-bridge",
+        "analysis:survey",
+        "linear-algebra:survey"
+      ],
+      "tags": [
+        "Foundations",
+        "Jacobian",
+        "Chain rule",
+        "Implicit function",
+        "Change of variables",
+        "Green theorem",
+        "Stokes theorem",
+        "Divergence theorem"
+      ],
+      "assumed_background": [
+        "Single-variable derivatives and integrals, Cartesian coordinates, vectors, dot products, two-by-two matrices and basic determinants. The examples do not assume prior nonlinear PDE or functional analysis."
       ]
     },
     {

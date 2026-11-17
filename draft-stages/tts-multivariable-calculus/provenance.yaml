@@ -112,6 +112,14 @@ transcript:
       source_records: metadata/sources.json
       per_lecture_metadata: metadata/063000.json through metadata/066000.json
     scope: Add four original standalone lectures and companions from finite-dimensional mountain-pass geometry through a complete subcritical Palais–Smale proof and critical Sobolev scaling; preserve all 47 inherited manuscripts.
+  - date: '2026-11-17'
+    models:
+    - GPT-6
+    sources:
+    - manuscripts: '067000–070000'
+      source_records: metadata/sources.json
+      per_lecture_metadata: metadata/067000.json through metadata/070000.json
+    scope: Add four original accessible single-subject lecture manuscripts and mathematical companions on total derivatives, local implicit solutions, change of variables, and oriented vector integrals. Retain the existing 51 manuscripts unchanged.
 learning_map:
   revisions:
   - date: '2026-11-16'
@@ -259,3 +267,13 @@ learning_map:
     - BACKLOG.md
     - metadata/063000.json through metadata/066000.json
     scope: Register mountain-pass and critical-exponent route, source and prerequisite records, and a curriculum audit prioritizing introductory bridges rather than further advanced PDE expansion.
+  - date: '2026-11-17'
+    models:
+    - GPT-6
+    sources:
+    - track.json
+    - navigation.json
+    - metadata/067000.json through metadata/070000.json
+    - FOUNDATIONAL_GAP_AUDIT.md
+    - BACKLOG.md
+    scope: Register a worked-foundations route immediately after the retained introductory survey and record the foundation-first curriculum direction; add measured word counts and references.

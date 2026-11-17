@@ -89,6 +89,17 @@ Durations below are descriptive measurements of spoken text at 145 words per min
 | `065000` | [Palais–Smale Compactness: A Complete Nonlinear Boundary-Value Example](065000-palais-smale-compactness-a-complete-example.md) | 11.8 | Mountain-pass and critical-scaling bridge |
 | `066000` | [Critical Sobolev Exponents: How Concentration Defeats Compactness](066000-critical-exponents-and-vanishing-compactness.md) | 11.7 | Mountain-pass and critical-scaling bridge |
 
+## Worked foundations route (`067000`–`070000`)
+
+The four new single-subject manuscripts are intended as a gentler, computation-rich route from elementary single-variable calculus and small matrices into the existing advanced branches. The original long `001000`, `008000`, and `015000` survey manuscripts are unchanged. These additions come **after** the specialist IDs chronologically but the route is displayed immediately after the survey in `navigation.json`.
+
+| ID | Lecture | Approximate minutes | Route |
+|---|---|---:|---|
+| `067000` | [The Derivative Is a Linear Map: Jacobians You Can Actually Use](067000-derivative-as-a-linear-map-and-chain-rule.md) | 11.6 | Worked multivariable foundations |
+| `068000` | [Solving Equations Locally: Inverse and Implicit Functions](068000-solving-equations-locally-implicit-inverse-functions.md) | 11.1 | Worked multivariable foundations |
+| `069000` | [Changing Integration Order and Coordinates: Where the Jacobian Comes From](069000-changing-integration-order-and-coordinates.md) | 12.1 | Worked multivariable foundations |
+| `070000` | [Vector Fields and Oriented Boundaries: From Tangents to Conservation](070000-vector-fields-flux-and-oriented-boundaries.md) | 12.9 | Worked multivariable foundations |
+
 ## Curriculum direction
 
 See [FOUNDATIONAL_GAP_AUDIT.md](FOUNDATIONAL_GAP_AUDIT.md) for the cross-track coverage review. The audit recommends stopping advanced elliptic additions after `066000` and building accessible single-topic prerequisites, especially in multivariable calculus and introductory differential equations. Topics already appear in the existing long surveys; the deficit is worked depth at entry level, not a claim that the repository lacks any treatment.

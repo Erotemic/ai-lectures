@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "lecture_id": "069000",
+  "transcript": "069000-changing-integration-order-and-coordinates.md",
+  "related_resources": [
+    {
+      "source_id": "mv-openstax-change",
+      "reason": "Jacobian determinants and coordinate changes."
+    },
+    {
+      "source_id": "mv-mit-1802sc",
+      "reason": "Open-course independent calculus practice."
+    },
+    {
+      "source_id": "mv-wiki-change-variable",
+      "reason": "Multivariable coordinate change and Jacobian factor."
+    },
+    {
+      "source_id": "mv-wiki-spherical",
+      "reason": "Volume element and angular coordinate conventions."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-17",
+    "scope": "Original foundations-first spoken lecture and non-spoken mathematical companion, with worked examples and explanations; prior manuscripts retained unchanged."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "multivariable-calculus:067000",
+        "reason": "Interpret a derivative matrix and its determinant as a local map."
+      }
+    ],
+    "recommended": [
+      {
+        "lecture_id": "analysis:survey",
+        "reason": "Optional refresher on single-variable differentiation and integration."
+      },
+      {
+        "lecture_id": "linear-algebra:survey",
+        "reason": "Optional refresher on elementary matrices and determinants."
+      }
+    ],
+    "background": [
+      "Single-variable differentiation and integration; vectors, dot products, and two-by-two matrices. No PDE or functional-analysis prerequisites."
+    ],
+    "readiness_checks": [
+      "Write the triangle x plus twice y at most two in both slicing orders and compute its integral of x.",
+      "Derive the r factor in polar coordinates and identify the one-to-one chart restriction."
+    ]
+  }
+}

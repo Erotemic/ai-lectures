@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "lecture_id": "070000",
+  "transcript": "070000-vector-fields-flux-and-oriented-boundaries.md",
+  "related_resources": [
+    {
+      "source_id": "mv-openstax-lines",
+      "reason": "Work, scalar line integration and planar normal flux."
+    },
+    {
+      "source_id": "mv-openstax-surfaces",
+      "reason": "Orientation and flux through parameterized surfaces."
+    },
+    {
+      "source_id": "mv-openstax-divergence",
+      "reason": "Outward flux and local divergence."
+    },
+    {
+      "source_id": "mv-wiki-green",
+      "reason": "Planar circulation, positive boundary orientation and holes."
+    },
+    {
+      "source_id": "mv-wiki-stokes",
+      "reason": "Curl flux and induced boundary orientation."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-17",
+    "scope": "Original foundations-first spoken lecture and non-spoken mathematical companion, with worked examples and explanations; prior manuscripts retained unchanged."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "multivariable-calculus:067000",
+        "reason": "Interpret partial derivatives and the gradient of a scalar field."
+      },
+      {
+        "lecture_id": "multivariable-calculus:069000",
+        "reason": "Set up multiple integrals and understand area and volume elements."
+      }
+    ],
+    "recommended": [
+      {
+        "lecture_id": "analysis:survey",
+        "reason": "Optional refresher on single-variable differentiation and integration."
+      },
+      {
+        "lecture_id": "linear-algebra:survey",
+        "reason": "Optional refresher on elementary matrices and determinants."
+      }
+    ],
+    "background": [
+      "Single-variable differentiation and integration; vectors, dot products, and two-by-two matrices. No PDE or functional-analysis prerequisites."
+    ],
+    "readiness_checks": [
+      "Compute counterclockwise circulation along all four edges of the unit square.",
+      "Explain why the inner boundary of an annulus is oriented clockwise and how it changes the curl calculation."
+    ]
+  }
+}

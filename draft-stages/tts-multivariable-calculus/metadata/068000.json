@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "lecture_id": "068000",
+  "transcript": "068000-solving-equations-locally-implicit-inverse-functions.md",
+  "related_resources": [
+    {
+      "source_id": "mv-openstax-chain",
+      "reason": "Elementary multivariable chain rule and implicit differentiation."
+    },
+    {
+      "source_id": "mv-mit-1802sc",
+      "reason": "Open-course independent calculus practice."
+    },
+    {
+      "source_id": "mv-wiki-implicit",
+      "reason": "Local implicit solution and derivative condition."
+    },
+    {
+      "source_id": "mv-wiki-inverse",
+      "reason": "Local versus global invertibility and differentiable inverses."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-17",
+    "scope": "Original foundations-first spoken lecture and non-spoken mathematical companion, with worked examples and explanations; prior manuscripts retained unchanged."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "multivariable-calculus:067000",
+        "reason": "Use a Jacobian as the linear response map and multiply or invert a two-by-two matrix."
+      }
+    ],
+    "recommended": [
+      {
+        "lecture_id": "analysis:survey",
+        "reason": "Optional refresher on single-variable differentiation and integration."
+      },
+      {
+        "lecture_id": "linear-algebra:survey",
+        "reason": "Optional refresher on elementary matrices and determinants."
+      }
+    ],
+    "background": [
+      "Single-variable differentiation and integration; vectors, dot products, and two-by-two matrices. No PDE or functional-analysis prerequisites."
+    ],
+    "readiness_checks": [
+      "Differentiate the coupled y plus xz and z plus xy equations to get y prime and z prime at zero.",
+      "Explain why a nonzero Jacobian determinant guarantees only a local inverse."
+    ]
+  }
+}

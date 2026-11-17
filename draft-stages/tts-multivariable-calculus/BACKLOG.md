@@ -42,3 +42,9 @@ The audit in `FOUNDATIONAL_GAP_AUDIT.md` finds an imbalance in **listening acces
 - Multivariable integration over less regular domains: approximation and boundary convergence, only where Analysis and Measure Theory have gaps.
 
 Do not treat lecture count, duration, or the presence of a topic label as evidence that a prerequisite has been taught adequately. Check actual manuscripts, proofs, and examples before adding material.
+
+## Worked multivariable foundations delivered (`067000`–`070000`)
+
+Implemented the four entry bridges recommended by `FOUNDATIONAL_GAP_AUDIT.md` without modifying any original surveys or advanced manuscripts. The route covers total derivatives and Jacobian remainders; small implicit systems and local inverses; change of integration order, Jacobian area/volume factors; and fully oriented Green/Stokes/divergence examples. Indexed separately at the front of `navigation.json`, with only elementary single-variable calculus and basic matrix prerequisites.
+
+**Next strongest gap:** first-course differential equations. Before adding more specialized nonlinear PDE, inspect the current `tts-differential-equations` pack and build individual, worked separable/linear ODE lessons, then forced oscillators, eigenmode solutions, and heat/wave Fourier examples. Keep the pack-owner boundaries intact. In analysis, separately audit the need for concrete weak-derivative and function-space practice exercises rather than adding abstract definitions for their own sake.
