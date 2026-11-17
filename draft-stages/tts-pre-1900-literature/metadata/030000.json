@@ -1698,5 +1698,28 @@
         }
       }
     ]
+  },
+  "chronology": {
+    "work": {
+      "start": 1301,
+      "basis": "composition",
+      "approximate": true,
+      "note": "030000 places composition in the early fourteenth century and its historical-context note dates Dante’s life 1265–1321. These conservative outer bounds are not an exact composition interval; the journey’s fictional year 1300 is separate.",
+      "source_ids": [
+        "cl-dante-stanford-encyclopedia",
+        "cl-dante-cambridge-transmission"
+      ],
+      "end": 1321,
+      "label": "Early 14th century, by 1321"
+    },
+    "setting": {
+      "start": 1300,
+      "basis": "fictional_setting",
+      "approximate": false,
+      "note": "030000 and the existing chronology source distinguish the poem’s journey set in 1300 from later composition.",
+      "source_ids": [
+        "cl-dante-cambridge-chronology"
+      ]
+    }
   }
 }

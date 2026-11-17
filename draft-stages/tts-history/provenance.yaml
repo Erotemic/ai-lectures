@@ -1,0 +1,37 @@
+chronology:
+  revisions:
+  - date: '2026-11-16'
+    models:
+    - GPT-6 (exact runtime variant unavailable)
+    sources:
+    - lecture: 029000
+      metadata: metadata/029000.json
+      axis: life
+      source_ids:
+      - history-germain-mactutor
+    - lecture: '030000'
+      metadata: metadata/030000.json
+      axis: life
+      source_ids:
+      - history-mirzakhani-mactutor
+      - history-mirzakhani-clay-obit
+    - lecture: '034000'
+      metadata: metadata/034000.json
+      axis: life
+      source_ids:
+      - history-lovelace-mactutor
+    - lecture: '046000'
+      metadata: metadata/046000.json
+      axis: life
+      source_ids:
+      - history-ramanujan-mactutor
+    - lecture: '040000'
+      metadata: metadata/040000.json
+      axis: life
+      source_ids:
+      - history-pythagoras-sep
+    scope: Add source-backed chronology sorting metadata only, using declared coverage,
+      central event dates, explicitly documented lifespans, or clearly labeled rounded
+      geological ages. Existing narration, inherited authorship, research claims,
+      source catalogs and listening order are unchanged. Unknown and ambiguous spans
+      remain absent.

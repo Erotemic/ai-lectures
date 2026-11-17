@@ -317,5 +317,20 @@
       "source_limitations": "Death/missing counts may differ across organizations and revisions. Summary is not the full field study; avoid assigning a uniform outcome to all countries. Contemporary membership figures must not be projected back to 2005."
     }
   ],
-  "notes": "20 evidence-linked narration paragraphs; no word count or duration policy. The evidence ledger is display-only."
+  "notes": "20 evidence-linked narration paragraphs; no word count or duration policy. The evidence ledger is display-only.",
+  "chronology": {
+    "period": {
+      "start": 2004,
+      "end": 2013,
+      "label": "2004–2013 CE",
+      "basis": "declared_coverage",
+      "approximate": false,
+      "note": "The coverage frame declared in the lecture title. Earlier background, later consequences, and the dates of modern source publications are not boundaries of this frame.",
+      "source_ids": [
+        "ts-noaa",
+        "ts-unesco",
+        "ts-unesco-iot"
+      ]
+    }
+  }
 }

@@ -1,0 +1,24 @@
+chronology:
+  revisions:
+  - date: '2026-11-16'
+    models:
+    - GPT-6 (exact runtime variant unavailable)
+    sources:
+    - lecture: '034000'
+      metadata: metadata/034000.json
+      axis: period
+      source_ids:
+      - dt-case-snowball-cap
+      - dt-case-snowball-model
+      - dt-case-snowball-review
+    - lecture: '035000'
+      metadata: metadata/035000.json
+      axis: period
+      source_ids:
+      - dt-case-permian-timeline
+      - dt-case-permian-traps
+    scope: Add source-backed chronology sorting metadata only, using declared coverage,
+      central event dates, explicitly documented lifespans, or clearly labeled rounded
+      geological ages. Existing narration, inherited authorship, research claims,
+      source catalogs and listening order are unchanged. Unknown and ambiguous spans
+      remain absent.

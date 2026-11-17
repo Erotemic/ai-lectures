@@ -47,5 +47,19 @@
       "source_locator": "Redox-phosphorus feedback model",
       "audit_status": "reference_recorded"
     }
-  ]
+  ],
+  "chronology": {
+    "period": {
+      "start": -252000000,
+      "end": -252000000,
+      "label": "End-Permian extinction, c. 252 million years ago",
+      "basis": "rounded_geological_age",
+      "approximate": true,
+      "note": "The central event is explicitly placed about 252 million years ago. This coarse sorting value does not replace the separately discussed high-precision Meishan age model, uncertainty, longer volcanic chronology, or Early Triassic aftermath. It is not the publication year of that research.",
+      "source_ids": [
+        "dt-case-permian-timeline",
+        "dt-case-permian-traps"
+      ]
+    }
+  }
 }

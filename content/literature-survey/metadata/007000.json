@@ -127,5 +127,19 @@
       "source_locator": "Argonautica 4, Talos",
       "audit_status": "checked_against_named_primary_text_or_scholarly_source; literary_interpretations_are_lecturer_readings"
     }
-  ]
+  ],
+  "chronology": {
+    "work": {
+      "start": -300,
+      "basis": "composition",
+      "approximate": true,
+      "note": "007000 opening places Apollonius’s Greek composition in the third century BCE, probably Ptolemaic Alexandria; the Argonauts’ legendary voyage is not dated by this field.",
+      "source_ids": [
+        "anc-argo-dickinson",
+        "anc-argo-oxford"
+      ],
+      "end": -201,
+      "label": "3rd century BCE"
+    }
+  }
 }

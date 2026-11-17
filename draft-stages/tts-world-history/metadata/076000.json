@@ -19,5 +19,27 @@
       "source_id": "shah-loc",
       "reason": "Composition date, literary reception and transmission."
     }
-  ]
+  ],
+  "chronology": {
+    "work": {
+      "start": 1010,
+      "basis": "completion",
+      "approximate": true,
+      "note": "087000 identifies completion of Ferdowsi’s poem around 1010, distinct from its legendary chronology, earlier prose sources and later surviving manuscripts.",
+      "source_ids": [
+        "shah-loc",
+        "shah-iranica-overview"
+      ],
+      "label": "c. 1010"
+    },
+    "witness": {
+      "start": 1217,
+      "basis": "earliest_securely_dated_surviving_partial_manuscript",
+      "approximate": false,
+      "note": "087000 explicitly distinguishes the partial Florence witness dated 1217 from a complete 1276 manuscript. This is not an autograph or complete 1217 copy.",
+      "source_ids": [
+        "shah-early-ms"
+      ]
+    }
+  }
 }

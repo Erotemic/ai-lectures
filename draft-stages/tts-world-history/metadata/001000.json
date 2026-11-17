@@ -35,5 +35,29 @@
       "source_id": "lit-atrahasis-epic",
       "reason": "The Atrahasis flood narrative and its comparative relation to Genesis."
     }
-  ]
+  ],
+  "chronology": {
+    "work": {
+      "start": -2000,
+      "basis": "recension_formation",
+      "approximate": true,
+      "note": "001000 textual-history companion places formation of the Standard Babylonian recension in the late second millennium BCE and denies an exact composition date. Bounds retain the whole millennium; separate Sumerian tales in 008000 are not dated by this entry.",
+      "source_ids": [
+        "gilgamesh-george"
+      ],
+      "end": -1001,
+      "label": "Late 2nd millennium BCE · Standard Babylonian form"
+    },
+    "witness": {
+      "start": -700,
+      "basis": "manuscript_copies",
+      "approximate": true,
+      "note": "001000 identifies many surviving tablets from Ashurbanipal’s seventh-century BCE library, centuries after formation of the epic.",
+      "source_ids": [
+        "gilgamesh-flood"
+      ],
+      "end": -601,
+      "label": "7th century BCE · Nineveh copies"
+    }
+  }
 }

@@ -30,6 +30,7 @@ from .organization import collection_metadata, item_organization
 from .companions import available_companions
 from .assets import LibraryAssets
 from .slide_companions import SlideCompanionsUnavailable
+from .chronology import chronology_for, collection_chronology
 
 STATIC = Path(__file__).with_name("static")
 
@@ -126,6 +127,7 @@ def create_app(
 
     def annotate(row, *, summary=False):
         words = len(row["transcript"].split())
+        chronology = chronology_for(row)
         # Catalog cards do not need a copy of every source record and claim.
         row = deepcopy(
             {
@@ -137,6 +139,9 @@ def create_app(
             else row
         )
         origin = row["origin"]
+        row.pop("chronology", None)
+        if chronology:
+            row["chronology"] = chronology
         if "companions" in row:
             row["companions"] = list(available_companions(row))
         for item in row.get("companions", []):
@@ -190,6 +195,11 @@ def create_app(
             dict(course, **collection_metadata(course, course["id"].split(":")[0]))
             for course in snapshot["courses"].values()
         ]
+        for collection in collections:
+            chronology = collection_chronology(collection, snapshot["lectures"])
+            collection.pop("chronology", None)
+            if chronology:
+                collection["chronology"] = chronology
         items = []
         for row in snapshot["lectures"].values():
             summary = annotate(row, summary=True)

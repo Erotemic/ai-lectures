@@ -1,6 +1,7 @@
-import { el, getStored, store } from "./api.mjs";
+import { el, getStored, store, randomId } from "./api.mjs";
 import { preparationPanel } from "./narration.mjs";
 import { collectionRows, collectionAncestors, collectionSections, formatMinutes, matchesLecture } from "./browse-model.mjs";
+import { dateOrder, chronologyLine, chronologyOptions, sortChronologically } from "./chronology.mjs";
 
 const roleLabel = (collection) => ({ main: "Guided route", deep_dive: "Deep dive", hub: "Route guide", archive: "Complete sequence" })[collection.role] || "Collection";
 
@@ -35,7 +36,7 @@ export class CatalogBrowser {
   constructor(context) {
     Object.assign(this, context);
   }
-  item(row, collection = null) {
+  item(row, collection = null, dateAxis = null) {
     const saved = this.progress()[row.id];
     return el(
       "li",
@@ -44,6 +45,7 @@ export class CatalogBrowser {
         "div",
         { class: "copy" },
         this.link(row.title, this.itemURL(row.id, collection)),
+        chronologyLine(row, dateAxis),
         el("small", {
           text: `${formatMinutes(row.estimated_minutes || (row.words || 0) / 145)}${saved?.legacy ? " · Old reader: passage " + (saved.legacy.page_index + 1) : saved?.completed ? " · Completed" : saved ? " · In progress" : ""}`,
         }),
@@ -54,7 +56,7 @@ export class CatalogBrowser {
       this.badge(row),
     );
   }
-  card(collection, origin = null) {
+  card(collection, origin = null, dateAxis = null) {
     const rows = collectionRows(collection, this.catalog().courses, this.byId);
     const completed = rows.filter(
       (row) => this.progress()[row.id]?.completed,
@@ -64,6 +66,7 @@ export class CatalogBrowser {
       { class: "card" },
       el("div", { class: "eyebrow", text: roleLabel(collection) }),
       el("h3", {}, this.link(collection.series_title || collection.title, this.routeURL(collection, origin))),
+      chronologyLine(collection, dateAxis),
       collection.age_range_label
         ? el("span", { class: "badge", text: collection.age_range_label })
         : null,
@@ -163,6 +166,7 @@ export class CatalogBrowser {
       el("option", { value: "title", text: "Title A–Z" }),
       el("option", { value: "short", text: "Shortest first" }),
       el("option", { value: "long", text: "Longest first" }),
+      ...chronologyOptions(),
     );
     sort.value = initial("sort");
     let limit = Number.isInteger(history.state?.browseLimit) ? Math.max(24, history.state.browseLimit) : 24;
@@ -251,11 +255,18 @@ export class CatalogBrowser {
           matchesLecture(row.id, this.byId, q),
       );
       if (state.sort) {
+        const chronological = dateOrder(state.sort);
         const duration = (c) => collectionRows(c, data.courses, this.byId).reduce((sum, row) => sum + (row.estimated_minutes || (row.words || 0) / 145), 0);
-        collections.sort((a, b) => state.sort === "title" ? a.title.localeCompare(b.title) : (duration(a) - duration(b)) * (state.sort === "long" ? -1 : 1));
-        rows.sort((a, b) => state.sort === "title" ? a.title.localeCompare(b.title) : ((a.estimated_minutes || 0) - (b.estimated_minutes || 0)) * (state.sort === "long" ? -1 : 1));
+        if (chronological) {
+          collections.splice(0, collections.length, ...sortChronologically(collections, state.sort));
+          rows.splice(0, rows.length, ...sortChronologically(rows, state.sort));
+        } else {
+          collections.sort((a, b) => state.sort === "title" ? a.title.localeCompare(b.title) : (duration(a) - duration(b)) * (state.sort === "long" ? -1 : 1));
+          rows.sort((a, b) => state.sort === "title" ? a.title.localeCompare(b.title) : ((a.estimated_minutes || 0) - (b.estimated_minutes || 0)) * (state.sort === "long" ? -1 : 1));
+        }
       }
       results.replaceChildren();
+      if (dateOrder(state.sort)) results.append(el("p", { class: "muted chronology-hint", text: "Ranges sort by their starting year. Approximate or overlapping ranges do not imply a precise sequence. Undated items stay last; authored playback orders remain available." }));
       if (state.category || state.audience || state.audio || q || state.view || state.sort)
         results.append(el("div", { class: "browse-status" },
           el("small", { text: [state.category, state.audience, state.audio && audio.selectedOptions[0].text, q && `Search: “${state.q}”`, state.view && "All collections", state.sort && sort.selectedOptions[0].text].filter(Boolean).join(" · ") }),
@@ -311,7 +322,7 @@ export class CatalogBrowser {
             el(
               "div",
               { class: "grid" },
-              ...collections.map((c) => this.card(c)),
+              ...collections.map((c) => this.card(c, null, dateOrder(state.sort)?.axis)),
             ),
           ),
         );
@@ -323,7 +334,7 @@ export class CatalogBrowser {
             el(
               "ul",
               { class: "list" },
-              ...rows.slice(0, limit).map((row) => this.item(row)),
+              ...rows.slice(0, limit).map((row) => this.item(row, null, dateOrder(state.sort)?.axis)),
             ),
           );
           if (rows.length > limit)
@@ -394,6 +405,7 @@ export class CatalogBrowser {
     const hero = el("section", { class: "collection-hero" },
       el("div", { class: "eyebrow", text: roleLabel(collection) }),
       el("h1", { text: collection.series_title || collection.title }),
+      chronologyLine(collection),
       collection.age_range_label ? el("span", { class: "badge", text: collection.age_range_label }) : null,
       summary, summaryToggle,
       el("div", { class: "collection-stats" },
@@ -464,6 +476,8 @@ export class CatalogBrowser {
       !section.sessions?.length && !section.collection && (sections.length === 1 || section.lectures.length === 1));
     const params = new URLSearchParams(location.search);
     const search = el("input", { id: "collection-search", type: "search", placeholder: "Search titles, topics, or IDs", "aria-label": "Search this collection", value: params.get("find") || "" });
+    const order = el("select", { "aria-label": "Order this collection" }, el("option", { value: "", text: "Authored collection order" }), ...chronologyOptions());
+    order.value = params.get("order") || "";
     const jump = el("select", { "aria-label": "Jump to section" },
       el("option", { value: "", text: "Jump to a section…" }),
       ...sections.flatMap(section => [
@@ -475,12 +489,21 @@ export class CatalogBrowser {
     const results = el("div", { class: "collection-sections" });
     const openedKey = `contents:${this.listener()}:${id}`;
     const openState = getStored(openedKey, {});
+    let displayed = [], queueSignature = "", queueEntries = [], enqueuing = false;
+    const listen = this.button("Listen in displayed order", async () => {
+      enqueuing = true; listen.disabled = true;
+      try { await this.enqueue(queueEntries, { play: true }); }
+      finally { enqueuing = false; listen.disabled = false; }
+    });
+    const chronologicalActions = el("div", { class: "actions chronology-actions", hidden: true }, listen);
+    const chronologicalHint = el("p", { class: "muted chronology-hint", hidden: true, text: "Use Listen in displayed order to follow this view, including any search filter. Ranges sort by starting year, undated items stay last, and equal dates keep authored order. Authored collection playback remains available." });
+    const expand = !flat ? this.button("Expand all", () => results.querySelectorAll("details").forEach(d => { d.open = true; })) : null;
+    const collapse = !flat ? this.button("Collapse all", () => results.querySelectorAll("details").forEach(d => { d.open = false; })) : null;
     const controls = el("div", { class: "contents-controls" }, search,
-      el("div", { class: "actions" }, sections.length > 1 || sections.some(s => s.sessions?.length) ? jump : null,
-        !flat ? this.button("Expand all", () => results.querySelectorAll("details").forEach(d => { d.open = true; })) : null,
-        !flat ? this.button("Collapse all", () => results.querySelectorAll("details").forEach(d => { d.open = false; })) : null,
+      el("div", { class: "actions" }, order, sections.length > 1 || sections.some(s => s.sessions?.length) ? jump : null,
+        expand, collapse,
         this.button("Clear search", () => { search.value = ""; update(); search.focus(); }),
-      ), count,
+      ), count, chronologicalActions, chronologicalHint,
     );
     contents.append(el("h2", { class: "contents-heading", text: collection.audiences?.includes("children") && /stor/i.test(collection.genre || "") ? "Stories" : "Contents" }), controls, results);
     const update = () => {
@@ -488,9 +511,48 @@ export class CatalogBrowser {
       const url = new URL(location.href);
       if (q) url.searchParams.set("find", search.value);
       else url.searchParams.delete("find");
+      if (dateOrder(order.value)) url.searchParams.set("order", order.value);
+      else url.searchParams.delete("order");
       history.replaceState(history.state, "", url);
       refreshStart();
       results.replaceChildren();
+      const chronological = dateOrder(order.value);
+      if (expand) expand.hidden = Boolean(chronological);
+      if (collapse) collapse.hidden = Boolean(chronological);
+      chronologicalActions.hidden = !chronological || !this.enqueue;
+      chronologicalHint.hidden = !chronological;
+      if (chronological) {
+        const included = new Set();
+        for (const section of sections) {
+          const sectionMatch = Boolean(q && section.title.toLocaleLowerCase().includes(q));
+          for (const group of section.sessions?.length ? section.sessions : [{ lectures: section.lectures }])
+            for (const key of group.lectures)
+              if (!q || sectionMatch || group.title?.toLocaleLowerCase().includes(q) || matchesLecture(key, this.byId, q)) included.add(key);
+        }
+        displayed = sortChronologically(collection.lectures.filter(key => included.has(key)).map(key => this.byId(key) || { id: key, title: key }), order.value).map(row => row.id);
+        const signature = JSON.stringify(displayed);
+        if (signature !== queueSignature) {
+          queueSignature = signature;
+          queueEntries = displayed.map(lecture_id => ({ id: randomId(), lecture_id, course_id: null }));
+        }
+        listen.disabled = enqueuing || !displayed.length || displayed.some(key => !this.byId(key));
+        const list = el("ol", { class: "list chronological-contents" });
+        const anchors = sections.flatMap(section => [section, ...(section.sessions || [])]);
+        const located = new Set();
+        for (const key of displayed) {
+          this.appendItem(list, key, id, chronological.axis);
+          const item = list.lastElementChild;
+          for (const anchor of anchors) if (!located.has(anchor.id) && anchor.lectures.includes(key)) {
+            located.add(anchor.id);
+            item.prepend(el("span", { id: anchor.id, tabindex: "-1", class: "chronology-anchor" }));
+            if (anchor.collection) item.querySelector(".copy")?.append(el("div", { class: "topic-link" }, this.routeLink(anchor.collection, "Explore the full topic →", id)));
+          }
+        }
+        results.append(list);
+        count.textContent = `${displayed.length}${q ? " of " + collection.lectures.length : ""} items · ${order.selectedOptions[0].text}`;
+        if (!displayed.length) results.append(el("p", { class: "notice", text: "No matching items. Clear the search to see the full collection." }));
+        return;
+      }
       let shown = 0;
       for (const section of sections) {
         const wholeSection = Boolean(q && section.title.toLocaleLowerCase().includes(q));
@@ -530,6 +592,7 @@ export class CatalogBrowser {
       if (!shown) results.append(el("p", { class: "notice", text: "No matching items. Try another title or ID, or clear the search." }));
     };
     search.addEventListener("input", update);
+    order.addEventListener("change", update);
     jump.addEventListener("change", () => {
       if (!jump.value) return;
       // A contents jump deliberately restores the full sequence before locating it.
@@ -549,9 +612,9 @@ export class CatalogBrowser {
     if (!current || decodeURIComponent(current[2]) !== collection || !href.startsWith("/lectures/")) return href;
     return href + "&" + new URLSearchParams({ return: location.pathname + location.search + location.hash });
   }
-  appendItem(list, key, collection) {
+  appendItem(list, key, collection, dateAxis = null) {
     const row = this.byId(key);
-    list.append(row ? this.item(row, collection) : el("li", { text: key + " · Not installed" }));
+    list.append(row ? this.item(row, collection, dateAxis) : el("li", { text: key + " · Not installed" }));
   }
   routeLink(key, label = null, origin = null) {
     const route = this.catalog().courses.find((course) => course.id === key);

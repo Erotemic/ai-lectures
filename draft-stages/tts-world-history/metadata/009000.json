@@ -23,5 +23,18 @@
       "source_id": "lit-inanna-met",
       "reason": "A later scribal copy illustrates the lasting Inanna tradition and parallels with descent myths."
     }
-  ]
+  ],
+  "chronology": {
+    "witness": {
+      "start": -2000,
+      "basis": "manuscript_copies",
+      "approximate": true,
+      "note": "009000 dates the main surviving Sumerian copies to the early second millennium BCE, leaving the earlier story’s origin unknown. Numeric bounds retain whole-millennium precision.",
+      "source_ids": [
+        "lit-inanna-primary"
+      ],
+      "end": -1001,
+      "label": "Early 2nd millennium BCE · surviving Sumerian copies"
+    }
+  }
 }

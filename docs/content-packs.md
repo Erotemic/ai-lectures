@@ -52,6 +52,68 @@ page under About this collection.
 This is a browsing structure that can evolve while independent authoring
 continues. It does not require moving manuscripts or changing pack ownership.
 
+### Dates and chronological browsing
+
+Library and Collections offer oldest/newest sorting under **Sort results**.
+Each collection's contents also have **Order this collection**, with the authored
+order as the default. A chronological view can be bookmarked with, for example,
+`?order=date-work` or `?order=date-period-desc`. Dates sort by starting year,
+then ending year. Equal ranges retain the original order, including story and
+analysis parts of the same work. Undated items stay last in either direction.
+Overlapping or approximate ranges do not establish an exact sequence.
+
+**Listen in displayed order** adds the visible chronological sequence to the
+selected listener's queue and starts it. Search filters apply to that sequence.
+Automatic continuation follows the queue when enabled. The collection's ordinary
+playback controls continue to use its authored order. Date browsing does not
+rewrite tracks, lecture IDs, manuscripts, or recordings.
+
+Optional lecture metadata can carry separate date axes:
+
+```json
+{
+  "chronology": {
+    "work": {
+      "start": -500,
+      "end": -300,
+      "approximate": true,
+      "label": "c. 500–300 BCE",
+      "basis": "composition",
+      "note": "Illustrative schema example; an authored range needs source support.",
+      "source_ids": ["local-reading-record"]
+    }
+  }
+}
+```
+
+| Axis | What its dates describe |
+| --- | --- |
+| `work` | Composition or publication of the work; specify which in `basis` |
+| `period` | Historical or geological period covered by the lecture |
+| `setting` | Time in which a story is set |
+| `life` | Lifespan of the subject |
+| `witness` | A surviving manuscript, edition, or other textual witness |
+
+Use signed integer years: negative for BCE, positive for CE, with no year zero.
+`end` defaults to `start`; `start` must not exceed `end`. `approximate` defaults
+to false. `label`, `basis`, `note`, and pack-local `source_ids` are optional.
+Labels and notes can explain uncertain composition, serialization, multiple
+publication dates, or rounded geological ages without implying calendar
+precision. A date for a surviving edition does not establish when the original
+work was composed. Do not substitute editorial timestamps, modern translations,
+or an arbitrary date mentioned in the lecture for a subject date. Leave an axis
+absent when evidence does not support it. Invalid optional records are omitted
+without disabling the lecture.
+
+A collection in `track.json` or `navigation.json` may declare the same
+`chronology` object. Otherwise, the reader derives an axis only when every member
+has a valid date on that axis. Identical work dates and bases preserve that work
+date; other complete groups show **Range of dated contents**. Partially dated
+collections remain undated on that axis, rather than presenting a partial range
+as complete coverage. Pack-local metadata travels in runtime exports and works
+on a standalone server. These descriptive dates are separate from teaching
+prerequisites, proof dependencies, and historical influence.
+
 ### Main routes and deep dives
 
 An optional `navigation.json` beside `track.json` defines additional listening

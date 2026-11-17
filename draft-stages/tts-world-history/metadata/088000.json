@@ -31,5 +31,18 @@
       "source_id": "egypt-papyrus-ucl-text",
       "reason": "Ancient copyists, colophons, variants, and examples of literary attribution."
     }
-  ]
+  ],
+  "chronology": {
+    "witness": {
+      "start": -1300,
+      "basis": "manuscript_copy",
+      "approximate": true,
+      "note": "088000 opening dates the surviving Inena copy around the end of the thirteenth century BCE and leaves first invention of the tale unknown. Numeric bounds retain century precision.",
+      "source_ids": [
+        "egypt-two-brothers-bm"
+      ],
+      "end": -1201,
+      "label": "Late 13th century BCE · Papyrus D’Orbiney"
+    }
+  }
 }

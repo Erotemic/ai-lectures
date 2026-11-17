@@ -57,5 +57,20 @@
       "source_locator": "Current status of snowball hypothesis",
       "audit_status": "reference_recorded"
     }
-  ]
+  ],
+  "chronology": {
+    "period": {
+      "start": -720000000,
+      "end": -635000000,
+      "label": "Cryogenian glaciations, c. 720–635 million years ago",
+      "basis": "rounded_geological_age",
+      "approximate": true,
+      "note": "The narration explicitly gives roughly 720–635 million years ago for the Cryogenian glaciations. Signed calendar values are rounded at million-year precision for sorting; they are not exact BCE conversions, a continuous global ice cover claim, or dates of the cited research publications.",
+      "source_ids": [
+        "dt-case-snowball-cap",
+        "dt-case-snowball-model",
+        "dt-case-snowball-review"
+      ]
+    }
+  }
 }

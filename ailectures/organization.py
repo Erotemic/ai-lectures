@@ -72,6 +72,10 @@ def collection_metadata(plan, namespace):
         categories=grouping or [LEGACY_CATEGORIES.get(namespace, "Other collections")],
         audiences=labels(plan.get("audiences", plan.get("audience"))),
     )
+    if "chronology" in plan:
+        from .chronology import normalize_chronology
+        if dates := normalize_chronology(plan["chronology"]):
+            result["chronology"] = dates
     for field in (
         "age_range",
         "age_range_label",

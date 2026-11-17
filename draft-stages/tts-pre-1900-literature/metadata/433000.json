@@ -1409,5 +1409,38 @@
         }
       }
     ]
+  },
+  "chronology": {
+    "work": {
+      "start": 1349,
+      "basis": "composition",
+      "approximate": true,
+      "note": "433000 dates composition to the years after the plague of 1348 and distinguishes early-1350s readers from the later Hamilton 90 autograph. The coarse interval reflects that existing dating language, not a claim of a precisely known decade-long composition.",
+      "source_ids": [
+        "cl-dc-crit-brown-life",
+        "cl-dc-crit-cambridge-making"
+      ],
+      "end": 1359,
+      "label": "After 1348; circulating in the early 1350s"
+    },
+    "setting": {
+      "start": 1348,
+      "basis": "fictional_frame_setting",
+      "approximate": false,
+      "note": "The Florence plague of 1348 is the narrative frame; it is not the date of composition of every embedded tale.",
+      "source_ids": [
+        "cl-dc-rigg-day1-intro"
+      ]
+    },
+    "witness": {
+      "start": 1370,
+      "basis": "autograph_manuscript",
+      "approximate": true,
+      "note": "433000 dates Boccaccio’s surviving Hamilton 90 autograph approximately to 1370; this is a late authorial witness, not first composition.",
+      "source_ids": [
+        "cl-dc-crit-hamilton-autograph"
+      ],
+      "label": "c. 1370 · Hamilton 90"
+    }
   }
 }

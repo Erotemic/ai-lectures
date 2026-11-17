@@ -35,7 +35,8 @@ restart after changing server code and reload after changing browser code.
 
 | Page | What it does |
 | --- | --- |
-| Library and Collections | Browse subjects, search lectures, and choose guided routes or extended studies |
+| Library and Collections | Browse subjects, search lectures, sort by subject dates, and choose guided routes or extended studies |
+| Study plan | Build a prerequisite order for a goal or starting point, with known and uncertain background |
 | Lecture | Read the transcript, play or prepare audio, follow the text, and open references or companions |
 | Listening | Resume saved positions and manage a listening queue |
 | Production | Prepare recordings and inspect, cancel, or retry generation jobs |
@@ -66,6 +67,14 @@ A **pack** owns its manuscripts, metadata, sources, and examples. A
 navigation can offer a survey and deeper branches using the same lecture IDs
 and recordings. Reorganizing a route does not require copying transcripts or
 regenerating speech.
+
+Collections can also display oldest or newest first using work dates, periods
+covered, story settings, lifespans, or textual witnesses. Date ranges and
+uncertainty stay visible; undated items come last. **Listen in displayed order**
+adds a chronological view to your queue, including any search filter. The
+authored collection order remains available. See the
+[date metadata guide](docs/content-packs.md#dates-and-chronological-browsing)
+when extending a pack's coverage.
 
 ## Write and revise content
 

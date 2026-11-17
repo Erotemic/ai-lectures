@@ -24,6 +24,7 @@ import { LectureAudio } from "./lecture-audio.mjs";
 import { listeningCourse, followingLecture } from "./playback-route.mjs";
 import { renderLearningPlan } from "./learning-plan.mjs";
 import { migrateLearningState } from "./learning-state.mjs";
+import { dateAxes, chronologyLine } from "./chronology.mjs";
 import {
   legacyPositions,
   approximateLegacyPosition,
@@ -215,6 +216,13 @@ const listeningQueue = new ListeningQueue({
     return navigate(lectureLink(entry.lecture_id, entry.course_id), automatic ? "prepared" : true);
   },
 });
+async function enqueueEntries(entries, { play = false } = {}) {
+  const selectedProfile = profile;
+  for (const entry of entries) await listeningQueue.edit({ action: "add", entry }, selectedProfile);
+  if (profile !== selectedProfile) return;
+  message(`Added ${entries.length} steps to your listening queue.`);
+  if (play && entries.length) await listeningQueue.play(entries[0], true);
+}
 const continuation = $("continue-course");
 continuation.checked = getStored("continue-course", true);
 continuation.onchange = () => store("continue-course", continuation.checked);
@@ -373,6 +381,7 @@ const browser = new CatalogBrowser({
   badge,
   courseLink,
   lectureLink,
+  enqueue: enqueueEntries,
 });
 const lectureItem = (row, collection = null) => browser.item(row, collection);
 const browse = (collectionsOnly = false) =>
@@ -440,6 +449,14 @@ async function lecturePage(id, autoplay = false, historical = null) {
       }),
     ),
   );
+  if (row.chronology) {
+    const dates = el("div", { class: "lecture-dates" });
+    for (const axis of Object.keys(dateAxes)) if (row.chronology[axis]) {
+      dates.append(chronologyLine(row, axis));
+      if (row.chronology[axis].note) dates.append(el("p", { class: "muted", text: row.chronology[axis].note }));
+    }
+    top.append(dates);
+  }
   const otherRoutes = catalog.courses.filter(
     (candidate) =>
       candidate.role &&
@@ -1159,13 +1176,7 @@ async function render(autoplay = false) {
     else if (path === "/learning-map") await renderLearningMap($("main"), { link, navigate });
     else if (path === "/learning-plan") await renderLearningPlan($("main"), {
       link, profile, message,
-      enqueue: async (entries, { play = false } = {}) => {
-        const selectedProfile = profile;
-        for (const entry of entries) await listeningQueue.edit({ action: "add", entry }, selectedProfile);
-        if (profile !== selectedProfile) return;
-        message(`Added ${entries.length} steps to your listening queue.`);
-        if (play && entries.length) await listeningQueue.play(entries[0], true);
-      },
+      enqueue: enqueueEntries,
     });
     else if (path === "/production") await production.render($("main"));
     else browse();
