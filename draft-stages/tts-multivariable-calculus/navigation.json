@@ -406,6 +406,40 @@
       "assumed_background": [
         "Weak formulation, energy minimization and first Dirichlet eigenvalues; classical maximum principle and basic Newton derivatives; all new nonlinear calculations use an explicitly defined cubic model."
       ]
+    },
+    {
+      "id": "nonlinear-critical-point-methods-bridge",
+      "title": "Critical Points Beyond Minimization · Mountain Passes, Palais–Smale and Critical Scaling",
+      "role": "deep_dive",
+      "parent": "survey",
+      "summary": "An accessible finite-dimensional minimax example followed by an exact mountain-pass statement, a complete subcritical nonlinear Dirichlet compactness proof, and a scaling demonstration of critical-exponent noncompactness.",
+      "lectures": [
+        "063000",
+        "064000",
+        "065000",
+        "066000"
+      ],
+      "preparation_collections": [
+        "multivariable-calculus:variational-weak-formulations-bridge",
+        "multivariable-calculus:variational-compactness-direct-method-bridge",
+        "multivariable-calculus:semilinear-existence-bifurcation-bridge"
+      ],
+      "related_collections": [
+        "analysis:survey",
+        "differential-equations:survey",
+        "multivariable-calculus:elliptic-maximum-green-harnack-bridge"
+      ],
+      "tags": [
+        "Mountain pass",
+        "Minimax",
+        "Palais–Smale",
+        "Nonlinear PDE",
+        "Critical Sobolev exponent",
+        "Concentration"
+      ],
+      "assumed_background": [
+        "Ordinary stationary points and saddle points, first variations, Hilbert-space norms, weak solutions and weak versus strong convergence. The first lecture revisits these ideas from scalar examples before the general theorem."
+      ]
     }
   ]
 }

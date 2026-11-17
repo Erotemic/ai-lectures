@@ -22,6 +22,17 @@
 
 **New boundary Harnack, capacity and Wiener regularity bridge (2026-11-17):** `055000`–`058000` compare positive harmonic functions near a shared zero boundary, calculate relative and absolute ball capacity with the planar logarithmic case, prove bounded isolated-point removability and explain polar compact sets, then derive concrete regular/irregular boundary tests from the Wiener exterior-capacity series. The previous 39 manuscripts are unchanged.
 
+## Foundation-first priority after the critical-point route (2026-11-17)
+
+The audit in `FOUNDATIONAL_GAP_AUDIT.md` finds an imbalance in **listening accessibility**, not merely missing subject headings. Prioritize separate worked foundations before more elliptic, critical, concentration–compactness or geometric PDE topics. This is a proposed teaching priority, not an ID reservation in other packs.
+
+1. **Multivariable calculus (same pack):** separate worked chapters for total derivatives, Jacobians and chain rules; implicit and inverse maps; coordinate changes and multi-integral Jacobians; and line/surface flux, orientation, Green/Stokes. The existing three comprehensive survey manuscripts remain intact.
+2. **Differential equations (coordinate with that pack):** self-contained forced linear ODEs, second-order oscillators, Fourier series and separation of variables, and introductory heat/wave boundary problems. The corresponding ideas occur in consolidated surveys, but need less compressed worked development.
+3. **Analysis / function-space handoff:** concrete examples that connect norms, Hilbert projections, integration by parts, weak derivatives, weak convergence and compactness before nonlinear PDEs. Reuse Analysis `035000`–`039000` and Multivariable `033000`–`036000`; avoid duplicate abstract introductions.
+4. **Linear algebra entry path:** retain existing numerics/positive-definite operator bridges, but consider a slower worked route from coordinates, bases and elimination to eigenvectors, orthogonality and projection. Consult the current separately maintained linear-algebra pack before assigning IDs.
+
+**Deferred:** further critical-point multiplicity theory, concentration–compactness theorems, profile decompositions, critical nonlinear elliptic existence, and advanced geometric PDE.
+
 ## Further bridge candidates, subject to a fresh cross-pack coverage audit
 
 - Further nonlinear inverse-problem theory: parameter constraints and projected steps, adjoint-state sensitivity for expensive forward models, optimal experimental design, and uncertainty beyond a local Gaussian approximation; coordinate with Numerical Analysis and Optimization.

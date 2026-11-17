@@ -1,7 +1,7 @@
 {
   "id": "multivariable-calculus",
   "title": "Multivariable Calculus from First Principles",
-  "summary": "A calculation-first and proof-aware bridge from calculus and linear algebra through optimization, variational methods, weak PDEs, numerical elliptic theory, boundary potential theory and semilinear elliptic existence, iteration and bifurcation.",
+  "summary": "A calculation-first and proof-aware bridge from multivariable calculus and optimization to variational methods, weak PDEs, numerical elliptic theory, nonlinear bifurcation, and critical-point existence; the introductory survey and specialized deep-dive routes remain separate.",
   "assumed_background": [
     "single-variable limits, differentiation and integration (Analysis 001000–008000)",
     "elementary vectors, matrices, determinants and dot products (Linear Algebra 001000–006000, 008000)"
@@ -23,7 +23,8 @@
     "elliptic-maximum-green-harnack-bridge",
     "elliptic-boundary-harmonic-regularity-bridge",
     "elliptic-boundary-capacity-wiener-bridge",
-    "semilinear-existence-bifurcation-bridge"
+    "semilinear-existence-bifurcation-bridge",
+    "nonlinear-critical-point-methods-bridge"
   ],
   "lectures": [
     {
@@ -789,6 +790,70 @@
         "Fold",
         "Pseudo-arclength continuation",
         "Stability"
+      ]
+    },
+    {
+      "id": "063000",
+      "title": "When Minimization Misses a Solution: From Critical Points to Mountain Passes",
+      "section": "nonlinear-critical-point-methods-bridge",
+      "file": "063000-when-minimization-misses-a-solution.md",
+      "spoken_words": 1656,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 11.4,
+      "tags": [
+        "Critical points",
+        "Variational methods",
+        "Minimax",
+        "Energy landscapes",
+        "Mountain pass"
+      ]
+    },
+    {
+      "id": "064000",
+      "title": "The Mountain-Pass Theorem: From a Forced Barrier to a Critical Point",
+      "section": "nonlinear-critical-point-methods-bridge",
+      "file": "064000-the-mountain-pass-theorem-and-minimax.md",
+      "spoken_words": 1616,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 11.1,
+      "tags": [
+        "Mountain pass theorem",
+        "Palais–Smale",
+        "Minimax",
+        "Critical point theory",
+        "Deformation lemma"
+      ]
+    },
+    {
+      "id": "065000",
+      "title": "Palais–Smale Compactness: A Complete Nonlinear Boundary-Value Example",
+      "section": "nonlinear-critical-point-methods-bridge",
+      "file": "065000-palais-smale-compactness-a-complete-example.md",
+      "spoken_words": 1705,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 11.8,
+      "tags": [
+        "Palais–Smale",
+        "Sobolev compactness",
+        "Weak convergence",
+        "Boundary-value problems",
+        "Nonlinear existence"
+      ]
+    },
+    {
+      "id": "066000",
+      "title": "Critical Sobolev Exponents: How Concentration Defeats Compactness",
+      "section": "nonlinear-critical-point-methods-bridge",
+      "file": "066000-critical-exponents-and-vanishing-compactness.md",
+      "spoken_words": 1695,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 11.7,
+      "tags": [
+        "Sobolev inequality",
+        "Critical exponent",
+        "Concentration",
+        "Aubin–Talenti bubbles",
+        "Noncompactness"
       ]
     }
   ],

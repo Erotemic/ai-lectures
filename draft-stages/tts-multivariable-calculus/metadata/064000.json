@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "lecture_id": "064000",
+  "transcript": "064000-the-mountain-pass-theorem-and-minimax.md",
+  "related_resources": [
+    {
+      "source_id": "mv-ambrosetti-rabinowitz-1973",
+      "reason": "Original critical-point theorem and applications."
+    },
+    {
+      "source_id": "mv-pisa-variational-notes",
+      "reason": "A precise theorem and deformation argument."
+    },
+    {
+      "source_id": "mv-nonlinear-ps-lecture-notes",
+      "reason": "Precise definitions of a Palais–Smale sequence and level compactness."
+    }
+  ],
+  "historical_claims": [
+    {
+      "claim": "Ambrosetti and Rabinowitz developed the mountain-pass critical-point framework in their 1973 paper.",
+      "source_ids": [
+        "mv-ambrosetti-rabinowitz-1973"
+      ]
+    }
+  ],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-17",
+    "scope": "Original audio-first lecture and mathematical companion on nonlinear minimax, Palais–Smale compactness, explicit semilinear existence, or critical exponent scaling; inherited manuscripts are unchanged."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "multivariable-calculus:063000",
+        "reason": "Know the exact polynomial mountain-pass example and path minimax idea."
+      },
+      {
+        "lecture_id": "multivariable-calculus:035000",
+        "reason": "Understand weak and strong convergence of functions."
+      }
+    ],
+    "recommended": [
+      {
+        "lecture_id": "analysis:survey",
+        "reason": "Review function norms, basic Hilbert-space ideas and weak limits."
+      },
+      {
+        "lecture_id": "differential-equations:survey",
+        "reason": "Connect stationary nonlinear boundary problems to introductory differential equations."
+      }
+    ],
+    "background": [
+      "Single-variable critical points, basic multivariable derivatives, integration by parts, function norms and weak solutions; the new path-minimax arguments are developed from examples."
+    ],
+    "readiness_checks": [
+      "State the radius barrier, outside low point, path minimax value and Palais–Smale hypothesis separately.",
+      "Explain why minimizing the maximum of paths does not by itself prove existence of a critical function."
+    ]
+  }
+}

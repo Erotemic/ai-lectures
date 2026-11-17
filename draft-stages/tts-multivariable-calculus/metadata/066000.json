@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "lecture_id": "066000",
+  "transcript": "066000-critical-exponents-and-vanishing-compactness.md",
+  "related_resources": [
+    {
+      "source_id": "mv-talenti-best-constant-1976",
+      "reason": "Extremal profiles for the sharp Sobolev inequality."
+    },
+    {
+      "source_id": "mv-wiki-sobolev-inequality",
+      "reason": "Derivation and interpretation of the critical exponent."
+    },
+    {
+      "source_id": "mv-turin-compact-semilinear",
+      "reason": "Contrast between subcritical compactness and endpoint failure."
+    },
+    {
+      "source_id": "mv-lions-concentration-compactness-1984",
+      "reason": "Original concentration–compactness treatment of nonconvergent variational sequences."
+    },
+    {
+      "source_id": "mv-wiki-pierre-louis-lions",
+      "reason": "Biographical and bibliographic context for the original concentration–compactness articles."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-17",
+    "scope": "Original audio-first lecture and mathematical companion on nonlinear minimax, Palais–Smale compactness, explicit semilinear existence, or critical exponent scaling; inherited manuscripts are unchanged."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "multivariable-calculus:065000",
+        "reason": "Understand the strong convergence step of the subcritical example."
+      },
+      {
+        "lecture_id": "multivariable-calculus:036000",
+        "reason": "Know the meaning of a Sobolev embedding and a critical exponent."
+      }
+    ],
+    "recommended": [
+      {
+        "lecture_id": "analysis:survey",
+        "reason": "Review function norms, basic Hilbert-space ideas and weak limits."
+      },
+      {
+        "lecture_id": "differential-equations:survey",
+        "reason": "Connect stationary nonlinear boundary problems to introductory differential equations."
+      }
+    ],
+    "background": [
+      "Single-variable critical points, basic multivariable derivatives, integration by parts, function norms and weak solutions; the new path-minimax arguments are developed from examples."
+    ],
+    "readiness_checks": [
+      "Derive 2n/(n-2) from the scaling of the Lq norm for a fixed-gradient-energy bump.",
+      "Distinguish failure of compact Sobolev embedding from failure of Palais–Smale for a particular energy."
+    ]
+  }
+}

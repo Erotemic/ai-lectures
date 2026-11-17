@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "lecture_id": "063000",
+  "transcript": "063000-when-minimization-misses-a-solution.md",
+  "related_resources": [
+    {
+      "source_id": "mv-ambrosetti-rabinowitz-1973",
+      "reason": "Historical origination of the mountain-pass approach to non-minimizing variational critical points."
+    },
+    {
+      "source_id": "mv-pisa-variational-notes",
+      "reason": "Minimax path geometry and deformation mechanism."
+    },
+    {
+      "source_id": "mv-wiki-mountain-pass",
+      "reason": "Vocabulary for the path minimax idea."
+    }
+  ],
+  "historical_claims": [
+    {
+      "claim": "Ambrosetti and Rabinowitz developed the mountain-pass critical-point framework in their 1973 paper.",
+      "source_ids": [
+        "mv-ambrosetti-rabinowitz-1973"
+      ]
+    }
+  ],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-17",
+    "scope": "Original audio-first lecture and mathematical companion on nonlinear minimax, Palais–Smale compactness, explicit semilinear existence, or critical exponent scaling; inherited manuscripts are unchanged."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "multivariable-calculus:031000",
+        "reason": "Know how an energy assigns a number to a function and how to compute a first variation."
+      },
+      {
+        "lecture_id": "multivariable-calculus:037000",
+        "reason": "Contrast the direct method for minimizers with non-minimizing critical points."
+      }
+    ],
+    "recommended": [
+      {
+        "lecture_id": "analysis:survey",
+        "reason": "Review function norms, basic Hilbert-space ideas and weak limits."
+      },
+      {
+        "lecture_id": "differential-equations:survey",
+        "reason": "Connect stationary nonlinear boundary problems to introductory differential equations."
+      }
+    ],
+    "background": [
+      "Single-variable critical points, basic multivariable derivatives, integration by parts, function norms and weak solutions; the new path-minimax arguments are developed from examples."
+    ],
+    "readiness_checks": [
+      "Locate all critical points of one-half x squared minus one-quarter x to the fourth and classify them.",
+      "Explain why every path in the plane from (0,0) to (2,0) must reach energy at least one quarter."
+    ]
+  }
+}
