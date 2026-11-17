@@ -1,8 +1,8 @@
 # Ancient Epics and Narrative Traditions — editorial roadmap
 
 **Prepared:** 2026-11-16
-**Updated:** 2026-11-16 — Gunditjmara and Klamath oral-tradition commissions
-**Status:** proposed manuscripts; not a published lecture manifest
+**Updated:** 2026-11-16 — first four written-work commissions completed; Gunditjmara and Klamath oral-tradition commissions
+**Status:** active editorial queue; published lecture IDs are maintained in `track.json`
 **Owning pack for new standalone readings:** `content/literature-survey/`
 **Listening route:** `literature-survey:ancient-narratives`
 
@@ -64,11 +64,28 @@ For the original World History ancient strand, see
 For the existing period navigation, see [`navigation.json`](navigation.json).
 The plan below supplements, rather than supplants, either file.
 
+## Completed in the next ancient-written-works installment (2026-11-16)
+
+The first four priority commissions are now **authored and indexed** in the
+`literature-survey` pack (assuming the companion overlay is applied):
+
+| Commission | Indexed recordings | Coverage |
+|---|---|---|
+| Hesiod, *Theogony* | `literature-survey:012000` | One complete sweep of the surviving poem, in order, distinguishing the separate *Works and Days* Pandora episode |
+| *Genesis* | `literature-survey:013000`–`015000` | Three coherent arcs covering all 50 chapters; no assertion that literary narrative is independently verified archaeological history |
+| Aeschylus, *Oresteia* | `literature-survey:016000` | All three extant tragedies; the lost satyr drama is not fabricated |
+| *Pañcatantra* | `literature-survey:017000`–`018000` | Five major book frames and selected embedded fables, from the identified 1199 Pūrṇabhadra recension via Ryder 1925; not every nested story |
+
+**Next written-work queue:** *Zhuangzi* (individual received parables),
+Apuleius's *The Golden Ass* (eleven-book novel), *Exodus* (all forty chapters),
+and Kālidāsa's *Śakuntalā* (seven-act play). Follow these with the other
+Mesopotamian, Egyptian, Greek dramatic, and short scriptural narratives below.
+
 ## First priority: the next eight commissions
 
 This is **an order of editorial attention**, not preallocated lecture IDs or a
-requirement to fit each row in one recording. Begin with entries 1–4, then
-continue through the remainder as sources and manuscript quality permit. New
+requirement to fit each row in one recording. Entries 1–4 were authored in
+the first written-work installment; continue with entries 5–8. New
 lectures are playable only after their full text, citations, metadata, and
 source checks are complete.
 
@@ -83,10 +100,8 @@ source checks are complete.
 | **7** | [*Exodus*](https://en.wikipedia.org/wiki/Book_of_Exodus), chapters 1–40 | Follow Moses, the encounter with Pharaoh, departure, the journey, Sinai, the covenant, the calf, and the building of the tabernacle. Explain why the later material matters to the narrative's resolution. | Do not collapse the text into the Hollywood plagues-and-sea sequence or assert that literary episodes establish archaeological events. |
 | **8** | Kālidāsa's [*Abhijñānaśākuntalam* (*Śakuntalā*)](https://en.wikipedia.org/wiki/Shakuntala_(play)) | Tell the meeting, promise, lost recognition, curse, separation, and reunion; attend to how the play stages absence and memory. | Contrast with the shorter Śakuntalā material in the *Mahabharata* as a distinct literary realization, not the same exact script. Settle edition and dating conservatively. |
 
-**Recommended first delivery:** *Theogony*, *Genesis* (in as many natural
-narrative parts as necessary), *Oresteia*, and *Pañcatantra*. If source work for
-one takes longer than expected, deliver a smaller, finished installment rather
-than four abbreviated summaries. This first group adds mythic genealogy,
+**First four commissions (delivered 2026-11-16):** *Theogony*, *Genesis* (in as many natural
+narrative parts as necessary), *Oresteia*, and *Pañcatantra*. The first group adds mythic genealogy,
 scriptural narrative, dramatic tragedy, and a frame-tale tradition without
 repeating the existing Homer/India surveys.
 
@@ -316,11 +331,8 @@ possible; no historical or manuscript claims without suitable corroboration.
 6. **Publish only complete manuscripts.** Update pack-local track/route metadata, provenance, and source records when there is a usable lecture. A roadmap entry alone never enters the runtime catalog. Run focused checks and listening-route audit; avoid unrelated repo-wide builds.
 7. **Deliver one content-only ZIP overlay per iteration.** Apply it with `python tools/content_overlay.py apply ZIP`; do not overwrite shared World History files without an explicit coordination step. Each delivery should include verification and Git add/commit commands.
 
-**Working checkpoint:** The next writing installment should start with
-**Hesiod's *Theogony*, *Genesis*, the *Oresteia*, and the *Pañcatantra***,
-with the exact number of lectures determined by the complete story treatment.
-In parallel, research the newly commissioned Gunditjmara songlines/Budj Bim
-and Klamath Llao/Skell oral-tradition projects; source/access and community
-attribution checks must precede published narration. After the written-work
-batch, resume at *Zhuangzi*, *The Golden Ass*, *Exodus*, and *Śakuntalā*
-unless new research changes the order.
+**Working checkpoint:** The first four written-work commissions have been
+authored above. Resume at *Zhuangzi*, *The Golden Ass*, *Exodus*, and
+*Śakuntalā* unless new source work changes the order. Gunditjmara and
+Klamath educational encounters are indexed separately as living traditions;
+continue to honor their source limitations and attribution boundaries.

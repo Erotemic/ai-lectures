@@ -63,3 +63,12 @@ authorship of the earlier deep dives or the primary literary works.
 The reader discovers this pack without a registry edit. No synthesis or runtime
 pack build is necessary to review a source addition. Run focused source checks
 with `python -m pytest -q tests/test_literature_survey_pack.py`.
+
+## Ancient epics, narrative literature, and the next written-work expansion
+
+- `012000`: **Theogony: The Violent Birth of Order**. Hesiod's entire surviving poem traversed in narrative order, including the opening Muses, divine births, Cronus, Prometheus, the Titan war, Typhoeus and Zeus's settlement. Does not merge Pandora's jar from *Works and Days*.
+- `013000`–`015000`: **Genesis, three narrative parts**. Received chapters 1–11 (creation through Babel); 12–36 (Abraham, Sarah, Hagar, Isaac, Rebekah, Esau, Jacob, Leah, Rachel, Dinah); 37–50 (Joseph, Judah and Tamar, famine, reconciliation and Joseph's coffin). Literary history and theological interpretation are distinguished from independently verified history.
+- `016000`: **Oresteia: The House That Could Not Stop Killing**. All three surviving plays: *Agamemnon*, *Libation Bearers* and *Eumenides*, ending with the contested tied acquittal and Athena's accommodation of the Furies. Not an invented reconstruction of the lost *Proteus*.
+- `017000`–`018000`: **The Panchatantra**, a two-part retelling of the five principal book frames and selected nested stories. The identified text is Purnabhadra's 1199 Sanskrit recension, read through Arthur Ryder's 1925 translation; this is not the lost ancient urtext.
+
+The sixteenth-century or modern history of a work's translations is not treated as its original date. Each new lecture has independently checkable plot anchors, source locators, public-domain orientation links, and measured speech counts. The written-work queue remains open for further full narratives.
