@@ -1,0 +1,317 @@
+{
+  "schema_version": 1,
+  "lecture_id": "088000",
+  "transcript": "088000-hamilton.md",
+  "related_resources": [
+    {
+      "source_id": "history-hamilton-dib",
+      "reason": "Irish family and politics, education, optics, Lloyd, dynamics, algebra, marriage and later life."
+    },
+    {
+      "source_id": "history-hamilton-letter",
+      "reason": "First-person retrospective recollection of 16 October 1843 bridge event; not a same-day record."
+    },
+    {
+      "source_id": "history-hamilton-mactutor",
+      "reason": "Family education, Trinity appointment, Dunsink, optics, Lloyd, poetry and friends, dynamics, family and quaternions."
+    },
+    {
+      "source_id": "history-hamilton-papers",
+      "reason": "Primary record of optical, dynamical, and quaternion publications."
+    },
+    {
+      "source_id": "history-hamilton-tcd",
+      "reason": "Hamilton 1832 theoretical prediction and Humphrey Lloyd successful experiment."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "088000-h01",
+      "anchor": "sixteenth of October eighteen forty-three",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-hamilton-dib",
+        "history-hamilton-letter"
+      ],
+      "source_locator": "Quaternion discovery date",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "088000-h02",
+      "anchor": "born in Dublin in August eighteen oh five",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-hamilton-dib",
+        "history-hamilton-mactutor"
+      ],
+      "source_locator": "Birth",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "088000-h03",
+      "anchor": "father, Archibald Hamilton",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-hamilton-dib"
+      ],
+      "source_locator": "Family and political background",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "088000-h04",
+      "anchor": "middle name, Rowan",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-hamilton-dib"
+      ],
+      "source_locator": "Family and United Irishmen",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "088000-h05",
+      "anchor": "uncle James Hamilton at Trim",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-hamilton-dib",
+        "history-hamilton-mactutor"
+      ],
+      "source_locator": "Education",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "088000-h06",
+      "anchor": "His parents died while he was still young",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-hamilton-dib"
+      ],
+      "source_locator": "Family losses",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "088000-h07",
+      "anchor": "John Brinkley",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-hamilton-dib",
+        "history-hamilton-mactutor"
+      ],
+      "source_locator": "Astronomer mentor",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "088000-h08",
+      "anchor": "entered Trinity College Dublin",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-hamilton-mactutor"
+      ],
+      "source_locator": "University",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "088000-h09",
+      "anchor": "William Wordsworth",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-hamilton-mactutor"
+      ],
+      "source_locator": "Literary friendships",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "088000-h10",
+      "anchor": "a function that could summarize a whole system of rays",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-hamilton-dib",
+        "history-hamilton-papers"
+      ],
+      "source_locator": "Characteristic function work",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "088000-h11",
+      "anchor": "In eighteen twenty-seven, before he had completed his undergraduate degree",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-hamilton-dib",
+        "history-hamilton-mactutor"
+      ],
+      "source_locator": "Astronomy appointment",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "088000-h12",
+      "anchor": "Dunsink Observatory",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-hamilton-dib",
+        "history-hamilton-mactutor"
+      ],
+      "source_locator": "Professional home",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "088000-h13",
+      "anchor": "circulated through the Royal Irish Academy",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-hamilton-dib",
+        "history-hamilton-papers"
+      ],
+      "source_locator": "Scholarly society",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "088000-h14",
+      "anchor": "Thomas Young and Augustin-Jean Fresnel",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-hamilton-dib"
+      ],
+      "source_locator": "Optical theory precedents",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "088000-h15",
+      "anchor": "In eighteen thirty-two he obtained a striking prediction",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-hamilton-dib",
+        "history-hamilton-tcd"
+      ],
+      "source_locator": "Conical refraction prediction",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "088000-h16",
+      "anchor": "turned to Humphrey Lloyd",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-hamilton-dib",
+        "history-hamilton-tcd"
+      ],
+      "source_locator": "Experimental collaboration",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "088000-h17",
+      "anchor": "Lloyd performed difficult experiments",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-hamilton-dib",
+        "history-hamilton-tcd"
+      ],
+      "source_locator": "Experimental verification",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "088000-h18",
+      "anchor": "knighted in the middle of the eighteen thirties",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-hamilton-dib"
+      ],
+      "source_locator": "1835 knighthood",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "088000-h19",
+      "anchor": "Catherine Disney",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-hamilton-dib",
+        "history-hamilton-mactutor"
+      ],
+      "source_locator": "Personal relationship",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "088000-h20",
+      "anchor": "married Helen Maria Bayly",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-hamilton-dib",
+        "history-hamilton-mactutor"
+      ],
+      "source_locator": "Marriage",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "088000-h21",
+      "anchor": "His correspondence records friendships",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-hamilton-dib"
+      ],
+      "source_locator": "Personal strain and letters",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "088000-h22",
+      "anchor": "papers on a general method in dynamics",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-hamilton-dib",
+        "history-hamilton-papers"
+      ],
+      "source_locator": "Dynamical formulation",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "088000-h23",
+      "anchor": "Joseph-Louis Lagrange",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-hamilton-dib"
+      ],
+      "source_locator": "Predecessor in variational mechanics",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "088000-h24",
+      "anchor": "His discovery was shared with the Royal Irish Academy in November eighteen forty-three",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-hamilton-dib",
+        "history-hamilton-letter"
+      ],
+      "source_locator": "Quaternion work",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "088000-h25",
+      "anchor": "three imaginary directions",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-hamilton-dib",
+        "history-hamilton-papers"
+      ],
+      "source_locator": "Quaternion algebra",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "088000-h26",
+      "anchor": "elaborated through long publications, lectures, and correspondence",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-hamilton-papers",
+        "history-hamilton-letter"
+      ],
+      "source_locator": "1843 communication",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "088000-h27",
+      "anchor": "died in September eighteen sixty-five",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-hamilton-dib",
+        "history-hamilton-mactutor"
+      ],
+      "source_locator": "Death",
+      "audit_status": "source_cross_checked"
+    }
+  ]
+}
