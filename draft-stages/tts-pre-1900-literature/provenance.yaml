@@ -239,3 +239,18 @@ transcript:
       to ancient comparative lectures, refresh current inventories and regional routes.
       Inherited narrative, arguments, source anchors, and companions are retained;
       original authorship remains in component metadata.
+  - date: '2026-11-16'
+    models:
+    - GPT-6 (exact runtime variant unavailable)
+    sources:
+    - lecture: '502000'
+      composition_record: metadata/502000.json
+    - lecture: '503000'
+      composition_record: metadata/503000.json
+    - lecture: '504000'
+      composition_record: metadata/504000.json
+    - lecture: '505000'
+      composition_record: metadata/505000.json
+    scope: Original English narrative retelling of selected-witness Journey to the West
+      chapters 22-27, with chapter-specific primary Chinese source records and reading
+      companion. This revision does not claim original authorship of inherited prose.

@@ -4,7 +4,7 @@ This is a separate literary retelling of the conventional 100-chapter Ming novel
 
 ## Current playback index after consolidation
 
-The expanded retelling is complete through selected-witness chapter 21 and remains in progress. These 13 manuscripts retain the earlier 61 writing components. Continue with chapter 22 using [the current writer handoff](journey-west-continuation-handoff.md); no future ID is reserved here.
+The expanded retelling is complete through selected-witness chapter 27 and remains in progress. There are now 17 playable manuscripts: the 13 consolidated manuscripts through chapter 21 (retaining the former 61 writing components) followed by four new continuous-arc manuscripts covering chapters 22–27. Continue with chapter 28 using [the current writer handoff](journey-west-continuation-handoff.md). The subsequent IDs have not been reserved.
 
 | Current playback ID | Selected-witness chapters | Current manuscript | Minutes at 145 wpm |
 | --- | --- | --- | ---: |
@@ -21,8 +21,12 @@ The expanded retelling is complete through selected-witness chapter 21 and remai
 | 484000 | 18 | [Journey to the West: the captive daughter and the unwanted husband of Gao Village](../484000-journey-to-the-west-the-captive-daughter-and-the-unwanted-husband-of-gao-village.md) | 28.1 |
 | 488000 | 19 | [Journey to the West: Zhu Bajie joins the pilgrimage and the Heart Sutra warning](../488000-journey-to-the-west-zhu-bajie-joins-the-pilgrimage-and-the-heart-sutra-warning.md) | 38.3 |
 | 493000 | 20–21 | [Journey to the West: Yellow Wind Ridge, the injured disciple, and Lingji’s rescue](../493000-journey-to-the-west-yellow-wind-ridge-the-injured-disciple-and-lingjis-rescue.md) | 57.2 |
+| 502000 | 22 | [Journey to the West: The river that would not carry a feather](../502000-journey-to-the-west-the-river-that-would-not-carry-a-feather.md) | 18.0 |
+| 503000 | 23 | [Journey to the West: The house of four offers](../503000-journey-to-the-west-the-house-of-four-offers.md) | 18.6 |
+| 504000 | 24–26 | [Journey to the West: The ginseng fruit tree](../504000-journey-to-the-west-the-ginseng-fruit-tree.md) | 43.4 |
+| 505000 | 27 | [Journey to the West: Three faces of the White Bone Demon](../505000-journey-to-the-west-three-faces-of-the-white-bone-demon.md) | 25.7 |
 
-The ledger below preserves original component IDs, scene boundaries, and original measurements for evidence traceability. Those rows are no longer separate playable files.
+The ledger below preserves the original pre-consolidation component IDs, scene boundaries, and original measurements through chapter 21 for evidence traceability. Chapters 22–27 are new continuous-arc manuscripts and have no absorbed component history. Those rows are no longer separate playable files.
 
 ## Original writing-component ledger (not the current playback index)
 
