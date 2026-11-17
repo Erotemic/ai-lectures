@@ -124,3 +124,16 @@ The two Lugalbanda poems are distinct Sumerian compositions accessed through Oxf
 | `047000` | The Little Clay Cart: The Carts, the Trial, and the Rescue | 1,896; claim-linked source companion at `metadata/047000.json` |
 
 Narration follows named received English translations, with the Westcar and Enmerkar textual gaps visible; Pāli commentarial tales carry their precise tale numbers and the ten-act Sanskrit drama is not treated as a dated historical record. Source links, version boundaries, Wikipedia orientation and claim anchors are in the non-spoken companions. No fixed duration target or generated media.
+
+## Egyptian, Hurrian–Hittite, Akkadian and Aramaic narratives (2026-11-16)
+
+Six new source-bounded original narrations cover four commissioned works. Their claim-level records are in `metadata/<id>.json`; none of the ancient texts is replaced by imagined gap-fill.
+
+- `048000`: **Eloquent Peasant: The Case That Would Not End** (2,039 spoken words; 14.1 min at 145 wpm; 24 source-linked anchors).
+- `049000`: **Song of Ullikummi: The Stone Raised Against the Storm** (1,808 spoken words; 12.5 min at 145 wpm; 21 source-linked anchors).
+- `050000`: **Erra and Ishum: The Seven and the Empty Sanctuary** (1,535 spoken words; 10.6 min at 145 wpm; 19 source-linked anchors).
+- `051000`: **Erra and Ishum: The Burning Cities and the Quieting of Wrath** (1,673 spoken words; 11.5 min at 145 wpm; 19 source-linked anchors).
+- `052000`: **Ahiqar: The Nephew and the Hidden Sage** (1,765 spoken words; 12.2 min at 145 wpm; 21 source-linked anchors).
+- `053000`: **Ahiqar in Later Retellings: The Sage and the Impossible Tasks** (1,851 spoken words; 12.8 min at 145 wpm; 22 source-linked anchors).
+
+The *Ahiqar* Elephantine papyrus ends before the later Egyptian riddle contest; that later transmitted form has its own separate recording. The *Ullikummi* text is damaged, and the *Erra* tablet sequence contains interpretive ambiguities. Bibliographic records link relevant Wikipedia articles only as orientation. No generated media or binary illustrations are included.

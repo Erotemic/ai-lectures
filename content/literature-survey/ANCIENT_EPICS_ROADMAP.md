@@ -84,7 +84,10 @@ The first four priority commissions are now **authored and indexed** in the
 
 **Fifth ancient-work installment completed (2026-11-16):** *Westcar Papyrus* (`040000`), *Enmerkar and the Lord of Aratta* (`041000`), Sāvitrī (`042000`), three explicitly numbered Jātaka tales (`043000`), *Vessantara* (`044000`–`045000`), and the ten-act *Mṛcchakaṭika* (`046000`–`047000`). See the completion table below. The surrounding tables are retained as a record of commissioning priorities, not a claim that these works are still missing.
 
-**Next queue to commission:** *The Eloquent Peasant* and its speeches; the Hittite *Song of Ullikummi* with its surviving witness limits; the Akkadian *Epic of Erra*; and the ancient Aramaic *Ahiqar* witness, distinguished from later complete recensions. Additional candidates include Euripides’s *Medea* and *Bacchae*, the *Buddhacarita*, and separate short books such as *Ruth* or *Jonah*. Select by narrative value and verified source access; do not force a fixed manuscript length.
+
+**Sixth ancient-work installment completed (2026-11-16):** *The Eloquent Peasant* (`048000`); *The Song of Ullikummi* (`049000`, with fragmentary text boundaries); *Erra and Ishum* (`050000`–`051000`, tablets I–V, some tablet II–V claims based on scholarly synthesis rather than direct collation); the ancient Elephantine *Ahiqar* narrative and proverbs (`052000`); and a deliberately **separate later Syriac-style expanded narrative** (`053000`) with Egyptian riddles. The Elephantine manuscript does not preserve the latter scenes. The source bases and original narration are in the manuscript companions and claim sidecars.
+
+**Next queue to commission:** Euripides’s *Medea* and *Bacchae*, the *Buddhacarita*, the *Song of Kumarbi*, the Hittite *Illuyanka* tales and *Telepinu*, and short ancient narrative books such as *Ruth* and *Jonah*. Also consider *Enmerkar and En-suhgir-ana*, *The Shipwrecked Sailor* if the existing World History coverage is only survey-level, and the Greek *Epic Cycle* fragments. Verify current cross-pack coverage before assigning any IDs; the priority list is not an unfilled-playback claim.
 
 ## Fifth installment: Westcar, Enmerkar, Sāvitrī, Jātakas and The Little Clay Cart
 
@@ -201,6 +204,10 @@ Each row is a **future project**, not an entry already in the playable catalog.
 The labels describe the proposed treatment: **full** = follow the complete
 surviving work; **selected** = name and teach discrete pieces in a corpus;
 **fragment-critical** = tell only what the preserved evidence permits.
+
+### Completed Egyptian, Hurrian–Hittite, Akkadian, and Aramaic commission
+
+**Authored and indexed, 2026-11-16:** the four formerly pending works are represented by six lectures: the nine-speech Egyptian *Eloquent Peasant* (`048000`), fragmentary *Ullikummi* (`049000`), the five-tablet dialogic *Erra and Ishum* (`050000`–`051000`), and *Ahiqar* as two deliberately independent strata (`052000` Elephantine Aramaic, `053000` later Syriac-style story). The original source limitations of each remain open for further critical-edition review; see the non-spoken source records. The table below remains as a historical planning record, not as a claim these works are uncommissioned.
 
 ### Completed Sumerian, Egyptian, and Ugaritic narrative commission
 
