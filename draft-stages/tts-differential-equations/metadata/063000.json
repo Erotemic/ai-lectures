@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "lecture_id": "063000",
+  "transcript": "063000-from-a-tangent-line-to-a-time-step.md",
+  "related_resources": [
+    {
+      "source_id": "de-brorson-ode-book",
+      "reason": "Open textbook on Euler, Runge–Kutta, error, stability, stiffness, and adaptive methods."
+    },
+    {
+      "source_id": "de-brorson-midpoint",
+      "reason": "Explicit midpoint construction via a half-step Euler prediction and middle slope."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-17",
+    "scope": "Original foundation-first numerical time-stepping lecture and mathematical companion; previous 29 manuscripts retained."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "differential-equations:047000",
+        "reason": "Rate laws, initial values, and the meaning of a derivative."
+      },
+      {
+        "lecture_id": "differential-equations:048000",
+        "reason": "Exact solutions of scalar ODEs for checking numerical approximations."
+      }
+    ],
+    "recommended": [],
+    "background": [
+      "Single-variable calculus, elementary exponential and polynomial algebra, and basic initial-value problems. Matrix eigenvalues and nonlinear PDE theory are not prerequisites."
+    ],
+    "readiness_checks": [
+      "Compute an Euler step and two distinct second-order steps.",
+      "Check each approximate value against an exact IVP solution.",
+      "Explain why a vector system uses the same update formulas."
+    ]
+  }
+}

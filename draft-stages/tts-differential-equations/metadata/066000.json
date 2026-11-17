@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "lecture_id": "066000",
+  "transcript": "066000-when-a-decaying-solution-explodes-numerically.md",
+  "related_resources": [
+    {
+      "source_id": "de-brorson-euler-stability",
+      "reason": "Forward Euler stability disk and real-axis decay thresholds."
+    },
+    {
+      "source_id": "de-brorson-stiff-odes",
+      "reason": "Stiffness and fast/slow time scales in numerical initial-value problems."
+    },
+    {
+      "source_id": "de-scipy-solve-ivp",
+      "reason": "Adaptive explicit Runge–Kutta and stiff Radau, BDF methods with solver tolerance controls."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-17",
+    "scope": "Original foundation-first numerical time-stepping lecture and mathematical companion; previous 29 manuscripts retained."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "differential-equations:063000",
+        "reason": "Forward Euler and rate laws."
+      },
+      {
+        "lecture_id": "differential-equations:065000",
+        "reason": "Error propagation and convergence."
+      },
+      {
+        "lecture_id": "differential-equations:060000",
+        "reason": "Optional phase-plane intuition for decaying linear modes."
+      }
+    ],
+    "recommended": [],
+    "background": [
+      "Single-variable calculus, elementary exponential and polynomial algebra, and basic initial-value problems. Matrix eigenvalues and nonlinear PDE theory are not prerequisites."
+    ],
+    "readiness_checks": [
+      "Derive the explicit Euler stability restriction for scalar decay.",
+      "Solve the backward Euler update and compare stability with accuracy.",
+      "Explain how a fast-decaying mode constrains explicit step sizes."
+    ]
+  }
+}

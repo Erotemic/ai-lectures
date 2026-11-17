@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "lecture_id": "065000",
+  "transcript": "065000-from-one-step-errors-to-global-accuracy.md",
+  "related_resources": [
+    {
+      "source_id": "de-brorson-ode-book",
+      "reason": "Open textbook on Euler, Runge–Kutta, error, stability, stiffness, and adaptive methods."
+    },
+    {
+      "source_id": "de-brorson-local-global",
+      "reason": "Distinguishing errors generated in one step from errors accumulated along a trajectory; normalizations of local error must be stated."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-17",
+    "scope": "Original foundation-first numerical time-stepping lecture and mathematical companion; previous 29 manuscripts retained."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "differential-equations:049000",
+        "reason": "Local uniqueness and continuous dependence for ODE solutions."
+      },
+      {
+        "lecture_id": "differential-equations:063000",
+        "reason": "Numerical one-step update rules."
+      },
+      {
+        "lecture_id": "differential-equations:064000",
+        "reason": "Higher-order Runge–Kutta methods."
+      }
+    ],
+    "recommended": [],
+    "background": [
+      "Single-variable calculus, elementary exponential and polynomial algebra, and basic initial-value problems. Matrix eigenvalues and nonlinear PDE theory are not prerequisites."
+    ],
+    "readiness_checks": [
+      "Distinguish local unscaled defects from fixed-time global error.",
+      "Derive a first-order Euler global bound under explicit hypotheses.",
+      "Estimate an observed convergence rate from grid refinements."
+    ]
+  }
+}

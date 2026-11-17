@@ -116,3 +116,18 @@ transcript:
     scope: Add four original two-dimensional linear ODE system lectures,
       with eigenvector, phase-portrait, complex-mode, and matrix-exponential
       examples and mathematical companions. Preserve all earlier manuscripts.
+  - date: '2026-11-17'
+    models:
+    - GPT-6
+    sources:
+    - lecture: '063000'
+      composition_record: metadata/063000.json
+    - lecture: '064000'
+      composition_record: metadata/064000.json
+    - lecture: '065000'
+      composition_record: metadata/065000.json
+    - lecture: '066000'
+      composition_record: metadata/066000.json
+    scope: Add four original numerical time-stepping foundation manuscripts, mathematical
+      companions, bibliographic records, and a listening route. Preserve the prior
+      29 lecture manuscripts and pre-existing listening collections.

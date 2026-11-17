@@ -50,6 +50,36 @@
       ]
     },
     {
+      "id": "numerical-time-stepping-foundations",
+      "title": "Differential Equations · Numerical Time Stepping from Scratch",
+      "role": "deep_dive",
+      "parent": "survey",
+      "lectures": [
+        "063000",
+        "064000",
+        "065000",
+        "066000"
+      ],
+      "assumed_background": [
+        "Single-variable derivatives and Taylor approximation, exponential functions, and first-order initial-value problems; no PDE or advanced numerical analysis required."
+      ],
+      "preparation_collections": [
+        "differential-equations:worked-ode-foundations"
+      ],
+      "related_collections": [
+        "survey",
+        "worked-ode-foundations",
+        "linear-systems-foundations"
+      ],
+      "tags": [
+        "Differential equations",
+        "Numerical integration",
+        "Euler and Runge–Kutta",
+        "Error estimates",
+        "Stiffness"
+      ]
+    },
+    {
       "id": "linear-systems-foundations",
       "title": "Differential Equations · Linear Systems and Phase Portraits from Scratch",
       "role": "deep_dive",

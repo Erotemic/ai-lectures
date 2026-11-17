@@ -672,6 +672,55 @@
       "url": "https://ocw.mit.edu/courses/18-03sc-differential-equations-fall-2011/pages/unit-iv-first-order-systems/matrix-exponentials/",
       "access": "free_no_login",
       "notes": "Fundamental matrices, matrix exponential computations, defective systems, and evolution rules."
+    },
+    "de-brorson-ode-book": {
+      "title": "Stuart Brorson, Numerically Solving Ordinary Differential Equations (2026)",
+      "kind": "open_course_notes",
+      "url": "https://math.libretexts.org/Bookshelves/Differential_Equations/Numerically_Solving_Ordinary_Differential_Equations_%28Brorson%29",
+      "access": "free_no_login",
+      "notes": "Open textbook on Euler, Runge–Kutta, error, stability, stiffness, and adaptive methods."
+    },
+    "de-brorson-midpoint": {
+      "title": "Stuart Brorson, Midpoint Method, Numerical ODEs, Section 4.4",
+      "kind": "open_course_notes",
+      "url": "https://math.libretexts.org/Bookshelves/Differential_Equations/Numerically_Solving_Ordinary_Differential_Equations_%28Brorson%29/04%3A_Predictor-corrector_methods_and_Runge-Kutta/4.04%3A_Midpoint_method",
+      "access": "free_no_login",
+      "notes": "Explicit midpoint construction via a half-step Euler prediction and middle slope."
+    },
+    "de-brorson-rk4": {
+      "title": "Stuart Brorson, Runge-Kutta Methods, Numerical ODEs, Section 4.6",
+      "kind": "open_course_notes",
+      "url": "https://math.libretexts.org/Bookshelves/Differential_Equations/Numerically_Solving_Ordinary_Differential_Equations_%28Brorson%29/04%3A_Predictor-corrector_methods_and_Runge-Kutta/4.06%3A_Runge-Kutta_methods",
+      "access": "free_no_login",
+      "notes": "Classical RK4 stages, coefficients, and higher-order numerical integration."
+    },
+    "de-brorson-local-global": {
+      "title": "Stuart Brorson, Local Truncation Error versus Global Solution Error, Numerical ODEs, Section 2.3",
+      "kind": "open_course_notes",
+      "url": "https://math.libretexts.org/Bookshelves/Differential_Equations/Numerically_Solving_Ordinary_Differential_Equations_%28Brorson%29/02%3A_Forward_Euler_method/2.03%3A_Local_truncation_error_vs._global_solution_error",
+      "access": "free_no_login",
+      "notes": "Distinguishing errors generated in one step from errors accumulated along a trajectory; normalizations of local error must be stated."
+    },
+    "de-brorson-euler-stability": {
+      "title": "Stuart Brorson, Forward Euler Stability, Numerical ODEs, Section 2.9",
+      "kind": "open_course_notes",
+      "url": "https://math.libretexts.org/Bookshelves/Differential_Equations/Numerically_Solving_Ordinary_Differential_Equations_%28Brorson%29/02%3A_Forward_Euler_method/2.09%3A_Stability",
+      "access": "free_no_login",
+      "notes": "Forward Euler stability disk and real-axis decay thresholds."
+    },
+    "de-brorson-stiff-odes": {
+      "title": "Stuart Brorson, Stiff ODEs, Numerical ODEs, Section 5.3",
+      "kind": "open_course_notes",
+      "url": "https://math.libretexts.org/Bookshelves/Differential_Equations/Numerically_Solving_Ordinary_Differential_Equations_%28Brorson%29/05%3A_Adaptive_stepping/5.03%3A_Stiff_ODEs",
+      "access": "free_no_login",
+      "notes": "Stiffness and fast/slow time scales in numerical initial-value problems."
+    },
+    "de-scipy-solve-ivp": {
+      "title": "SciPy Reference Guide, scipy.integrate.solve_ivp",
+      "kind": "software_documentation",
+      "url": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.integrate.solve_ivp.html",
+      "access": "free_no_login",
+      "notes": "Adaptive explicit Runge–Kutta and stiff Radau, BDF methods with solver tolerance controls."
     }
   }
 }

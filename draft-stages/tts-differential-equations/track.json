@@ -548,6 +548,68 @@
         "Transient growth",
         "Variation of constants"
       ]
+    },
+    {
+      "id": "063000",
+      "title": "From a Tangent Line to a Time Step: Euler, Midpoint, and Numerical Trajectories",
+      "section": "initial-value-problems",
+      "file": "063000-from-a-tangent-line-to-a-time-step.md",
+      "spoken_words": 1826,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 12.6,
+      "tags": [
+        "Euler method",
+        "Explicit midpoint",
+        "Heun method",
+        "Initial-value problems"
+      ]
+    },
+    {
+      "id": "064000",
+      "title": "Four Slopes and a Better Prediction: Runge–Kutta Methods from Scratch",
+      "section": "initial-value-problems",
+      "file": "064000-four-slopes-and-runge-kutta.md",
+      "spoken_words": 1895,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 13.1,
+      "tags": [
+        "Runge-Kutta",
+        "RK4",
+        "Adaptive stepping",
+        "Slope sampling"
+      ]
+    },
+    {
+      "id": "065000",
+      "title": "From One-Step Errors to Global Accuracy: Consistency, Convergence, and Step-Size Tests",
+      "section": "initial-value-problems",
+      "file": "065000-from-one-step-errors-to-global-accuracy.md",
+      "spoken_words": 1828,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 12.6,
+      "tags": [
+        "Local truncation error",
+        "Global error",
+        "Convergence",
+        "Refinement",
+        "Lipschitz stability"
+      ]
+    },
+    {
+      "id": "066000",
+      "title": "When a Decaying Solution Explodes Numerically: Stability, Stiffness, and Implicit Steps",
+      "section": "initial-value-problems",
+      "file": "066000-when-a-decaying-solution-explodes-numerically.md",
+      "spoken_words": 1929,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 13.3,
+      "tags": [
+        "Stiff ODEs",
+        "Absolute stability",
+        "Explicit Euler",
+        "Backward Euler",
+        "Time scales"
+      ]
     }
   ],
   "tags": [
