@@ -1,7 +1,7 @@
 {
   "id": "history",
   "title": "History · People and ideas",
-  "summary": "89 researched historical portrait episodes covering 68 mathematicians, scientists, and computing pioneers. Biography and historical setting lead each portrait, with mathematics explained in its historical context. No fixed duration or word-count target applies.",
+  "summary": "94 researched historical portrait episodes covering 73 mathematicians, scientists, and computing pioneers. Biography and historical setting lead each portrait, with mathematics explained in its historical context. No fixed duration or word-count target applies.",
   "assumed_background": [
     "Background varies by portrait; newer human-history entries are accessible without technical mathematics, while earlier manuscripts retain their own stated prerequisites."
   ],
@@ -1009,6 +1009,61 @@
       "draft_status": "substantive",
       "source_g2": null,
       "estimated_minutes_at_145_wpm": 18.7
+    },
+    {
+      "id": "069000",
+      "title": "Carl Gustav Jacob Jacobi: Elliptic functions and the Prussian university",
+      "person": "Carl Gustav Jacob Jacobi",
+      "section": "number-theory",
+      "file": "069000-jacobi.md",
+      "spoken_words": 2669,
+      "draft_status": "substantive",
+      "source_g2": null,
+      "estimated_minutes_at_145_wpm": 18.4
+    },
+    {
+      "id": "070000",
+      "title": "Joseph Liouville: A life of analysis, journals, and revolution",
+      "person": "Joseph Liouville",
+      "section": "analysis-and-heat",
+      "file": "070000-liouville.md",
+      "spoken_words": 2715,
+      "draft_status": "substantive",
+      "source_g2": null,
+      "estimated_minutes_at_145_wpm": 18.7
+    },
+    {
+      "id": "071000",
+      "title": "Adrien-Marie Legendre: Geometry and uncertainty through revolution",
+      "person": "Adrien-Marie Legendre",
+      "section": "celestial-mechanics",
+      "file": "071000-legendre.md",
+      "spoken_words": 2561,
+      "draft_status": "substantive",
+      "source_g2": null,
+      "estimated_minutes_at_145_wpm": 17.7
+    },
+    {
+      "id": "072000",
+      "title": "Felix Hausdorff: A writer and mathematician under persecution",
+      "person": "Felix Hausdorff",
+      "section": "logic",
+      "file": "072000-hausdorff.md",
+      "spoken_words": 2731,
+      "draft_status": "substantive",
+      "source_g2": null,
+      "estimated_minutes_at_145_wpm": 18.8
+    },
+    {
+      "id": "073000",
+      "title": "Élie Cartan: From village education to modern geometry",
+      "person": "Élie Cartan",
+      "section": "surface-geometry",
+      "file": "073000-cartan.md",
+      "spoken_words": 2731,
+      "draft_status": "substantive",
+      "source_g2": null,
+      "estimated_minutes_at_145_wpm": 18.8
     }
   ],
   "editorial_policy": "Lead with the historical person: family, education, places, work, institutions, relationships, political conditions and the sources that survive. Substantial mathematics and scientific reasoning are welcome in the spoken portrait, especially after the historical context is established; retain accurate worked examples instead of deleting them merely to satisfy a genre distinction. The main mathematical curriculum can carry the most systematic technical instruction. Evidence and material, not a fixed time, word count, chapter pattern, or biography-to-mathematics ratio, determine length and form. Keep historical claims source-grounded, distinguish memory and legend from contemporary evidence, and keep incomplete sketches in stubs/."

@@ -1,0 +1,258 @@
+{
+  "schema_version": 1,
+  "lecture_id": "069000",
+  "transcript": "069000-jacobi.md",
+  "related_resources": [
+    {
+      "source_id": "history-jacobi-bbaw",
+      "reason": "Documented birth, death, Königsberg professorship and manuscript collection."
+    },
+    {
+      "source_id": "history-jacobi-deutsche",
+      "reason": "Religion, family and marriage, academic careers, Prussian political circumstances."
+    },
+    {
+      "source_id": "history-jacobi-mactutor",
+      "reason": "Birth and education, Königsberg faculty, Legendre and Abel, teaching, research, illness, 1848 politics."
+    },
+    {
+      "source_id": "history-jacobi-memorial",
+      "reason": "Later commemorative account of Abel–Jacobi elliptic theory; source perspective is retrospective."
+    },
+    {
+      "source_id": "history-jacobi-pulte",
+      "reason": "Berlin lectures of 1847–48 and mathematical versus empirical foundations of mechanics."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "069000-h01",
+      "anchor": "born in Potsdam",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-jacobi-mactutor",
+        "history-jacobi-bbaw",
+        "history-jacobi-deutsche"
+      ],
+      "source_locator": "Birth and Prussian family",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "069000-h02",
+      "anchor": "father Simon was a prosperous banker",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-jacobi-mactutor",
+        "history-jacobi-deutsche"
+      ],
+      "source_locator": "Family and religious community",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "069000-h03",
+      "anchor": "An uncle helped educate the child",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-jacobi-mactutor"
+      ],
+      "source_locator": "Early teaching and Gymnasium",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "069000-h04",
+      "anchor": "University of Berlin in eighteen twenty-one",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-jacobi-mactutor",
+        "history-jacobi-deutsche"
+      ],
+      "source_locator": "Early university study",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "069000-h05",
+      "anchor": "he converted from Judaism to Christianity",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-jacobi-mactutor",
+        "history-jacobi-deutsche"
+      ],
+      "source_locator": "Conversion and structural career limits",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "069000-h06",
+      "anchor": "arrived at Königsberg in eighteen twenty-six",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-jacobi-mactutor"
+      ],
+      "source_locator": "Move and Königsberg scholars",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "069000-h07",
+      "anchor": "Friedrich Wilhelm Bessel",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-jacobi-mactutor"
+      ],
+      "source_locator": "Astronomical colleague",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "069000-h08",
+      "anchor": "wrote to Gauss about number theory",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-jacobi-mactutor"
+      ],
+      "source_locator": "Cubic-residue correspondence",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "069000-h09",
+      "anchor": "In August eighteen twenty-seven Jacobi wrote to Legendre",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-jacobi-mactutor",
+        "history-jacobi-memorial"
+      ],
+      "source_locator": "Legendre letters",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "069000-h10",
+      "anchor": "Abel, meanwhile, had been producing his own results",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-jacobi-mactutor",
+        "history-jacobi-memorial"
+      ],
+      "source_locator": "Independent overlap and priority",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "069000-h11",
+      "anchor": "In eighteen twenty-nine Jacobi traveled to Göttingen",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-jacobi-mactutor"
+      ],
+      "source_locator": "Travel to Gauss and France",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "069000-h12",
+      "anchor": "In September eighteen thirty-one he married Marie Schwinck",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-jacobi-mactutor",
+        "history-jacobi-deutsche"
+      ],
+      "source_locator": "Marriage and household",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "069000-h13",
+      "anchor": "In eighteen thirty-two Jacobi became a full professor",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-jacobi-mactutor"
+      ],
+      "source_locator": "University promotion",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "069000-h14",
+      "anchor": "Charles Borchardt, Eduard Heine",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-jacobi-mactutor"
+      ],
+      "source_locator": "Königsberg students",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "069000-h15",
+      "anchor": "His writings on determinants studied",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-jacobi-mactutor"
+      ],
+      "source_locator": "1841 functional determinant and Cauchy priority",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "069000-h16",
+      "anchor": "The name is now on nearly every multivariable calculus syllabus",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-jacobi-mactutor"
+      ],
+      "source_locator": "Modern later reception, concept and attribution",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "069000-h17",
+      "anchor": "His attitude toward mechanics also changed over the years",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-jacobi-pulte"
+      ],
+      "source_locator": "Later critical mechanics lectures",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "069000-h18",
+      "anchor": "diabetes was diagnosed",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-jacobi-mactutor"
+      ],
+      "source_locator": "Health and Italy",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "069000-h19",
+      "anchor": "Dirichlet approached Alexander von Humboldt",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-jacobi-mactutor"
+      ],
+      "source_locator": "Prussian patronage and medical journey",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "069000-h20",
+      "anchor": "Jacobi spoke at a Constitutional Club meeting",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-jacobi-mactutor"
+      ],
+      "source_locator": "1848 political controversy",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "069000-h21",
+      "anchor": "He moved his family to Gotha",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-jacobi-mactutor"
+      ],
+      "source_locator": "1849 salary / residence consequences",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "069000-h22",
+      "anchor": "then smallpox before he had fully recovered",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-jacobi-mactutor",
+        "history-jacobi-bbaw"
+      ],
+      "source_locator": "Final illness and death",
+      "audit_status": "source_cross_checked"
+    }
+  ]
+}

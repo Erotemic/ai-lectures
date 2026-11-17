@@ -1,0 +1,253 @@
+{
+  "schema_version": 1,
+  "lecture_id": "071000",
+  "transcript": "071000-legendre.md",
+  "related_resources": [
+    {
+      "source_id": "history-legendre-image",
+      "reason": "Identification of Boilly caricature and incorrect older portraits."
+    },
+    {
+      "source_id": "history-legendre-jacobi",
+      "reason": "Correspondence with Jacobi and relationship to Abel."
+    },
+    {
+      "source_id": "history-legendre-mactutor",
+      "reason": "Early biography and uncertain birthplace, Academy, tables, least squares, textbook, pension and correspondence."
+    },
+    {
+      "source_id": "history-legendre-regression",
+      "reason": "Legendre 1805 first publication of least squares and Gauss 1809; technical distinction."
+    },
+    {
+      "source_id": "history-legendre-royalsociety",
+      "reason": "Identifies long-misattributed portrait as politician Louis Legendre."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "071000-h01",
+      "anchor": "portrait of Louis Legendre",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-legendre-royalsociety",
+        "history-legendre-image"
+      ],
+      "source_locator": "Repeated wrong visual identification",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "071000-h02",
+      "anchor": "caricature by the artist Boilly",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-legendre-image"
+      ],
+      "source_locator": "Known authentic image",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "071000-h03",
+      "anchor": "born in September seventeen fifty-two",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-legendre-mactutor"
+      ],
+      "source_locator": "Birthplace uncertainty",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "071000-h04",
+      "anchor": "studied at the Collège Mazarin",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-legendre-mactutor"
+      ],
+      "source_locator": "Education",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "071000-h05",
+      "anchor": "He taught at the École Militaire",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-legendre-mactutor"
+      ],
+      "source_locator": "Early academic and military schooling",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "071000-h06",
+      "anchor": "In seventeen eighty-two he entered a Berlin Academy prize",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-legendre-mactutor"
+      ],
+      "source_locator": "Projectile prize",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "071000-h07",
+      "anchor": "Academy of Sciences in Paris elected him",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-legendre-mactutor"
+      ],
+      "source_locator": "1783 Academy entry",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "071000-h08",
+      "anchor": "now called Legendre polynomials",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-legendre-mactutor"
+      ],
+      "source_locator": "Planetary potential results",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "071000-h09",
+      "anchor": "In seventeen eighty-seven Legendre joined geodetic work",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-legendre-mactutor"
+      ],
+      "source_locator": "Paris Greenwich survey",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "071000-h10",
+      "anchor": "In seventeen ninety-one Legendre served on a committee",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-legendre-mactutor"
+      ],
+      "source_locator": "Metric reform",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "071000-h11",
+      "anchor": "Gaspard de Prony",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-legendre-mactutor"
+      ],
+      "source_locator": "Mathematical table project",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "071000-h12",
+      "anchor": "Legendre suffered financial losses",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-legendre-mactutor"
+      ],
+      "source_locator": "Revolution and household",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "071000-h13",
+      "anchor": "In seventeen ninety-four he published",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-legendre-mactutor"
+      ],
+      "source_locator": "Geometry textbook",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "071000-h14",
+      "anchor": "repeatedly to Euclid's parallel postulate",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-legendre-mactutor"
+      ],
+      "source_locator": "Long unsuccessful research program",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "071000-h15",
+      "anchor": "In seventeen eighty-five he examined quadratic residues",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-legendre-mactutor"
+      ],
+      "source_locator": "Early reciprocity results",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "071000-h16",
+      "anchor": "later supplied by Dirichlet",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-legendre-mactutor"
+      ],
+      "source_locator": "Arithmetic-progression theorem credit",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "071000-h17",
+      "anchor": "eighteen oh five *Nouvelles méthodes",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-legendre-mactutor",
+        "history-legendre-regression"
+      ],
+      "source_locator": "First publication least squares",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "071000-h18",
+      "anchor": "Gauss later claimed to have used the method earlier",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-legendre-mactutor",
+        "history-legendre-regression"
+      ],
+      "source_locator": "First publication vs private priority",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "071000-h19",
+      "anchor": "His multivolume treatises in the eighteen tens",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-legendre-mactutor"
+      ],
+      "source_locator": "Elliptic integral work",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "071000-h20",
+      "anchor": "corresponded with Jacobi",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-legendre-jacobi",
+        "history-legendre-mactutor"
+      ],
+      "source_locator": "Generous late career scholarly support",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "071000-h21",
+      "anchor": "In eighteen twenty-four he refused",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-legendre-mactutor"
+      ],
+      "source_locator": "Vote and pension issue",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "071000-h22",
+      "anchor": "died in Paris in January eighteen thirty-three",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-legendre-mactutor"
+      ],
+      "source_locator": "Death",
+      "audit_status": "source_checked"
+    }
+  ]
+}

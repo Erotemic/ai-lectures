@@ -1,0 +1,249 @@
+{
+  "schema_version": 1,
+  "lecture_id": "070000",
+  "transcript": "070000-liouville.md",
+  "related_resources": [
+    {
+      "source_id": "history-liouville-ams",
+      "reason": "Early 1836–37 joint mathematical publications and later development."
+    },
+    {
+      "source_id": "history-liouville-ehrhardt",
+      "reason": "Context of the Liouville–Libri Academy dispute and 1846 edition of Galois."
+    },
+    {
+      "source_id": "history-liouville-mactutor",
+      "reason": "Birth and career, Galois publication, Sturm, 1848 elections, transcendental numbers, later work."
+    },
+    {
+      "source_id": "history-liouville-sturm",
+      "reason": "Research collaboration and oscillation / boundary value problems."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "070000-h01",
+      "anchor": "born in Saint-Omer",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-liouville-mactutor"
+      ],
+      "source_locator": "Birth and Napoleonic military family",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "070000-h02",
+      "anchor": "Liouvilles settled in Toul",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-liouville-mactutor"
+      ],
+      "source_locator": "Education and household",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "070000-h03",
+      "anchor": "Collège Saint-Louis in Paris",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-liouville-mactutor"
+      ],
+      "source_locator": "Secondary studies",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "070000-h04",
+      "anchor": "École Polytechnique in eighteen twenty-five",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-liouville-mactutor"
+      ],
+      "source_locator": "Technical education",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "070000-h05",
+      "anchor": "In eighteen thirty he resigned from the engineering school",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-liouville-mactutor"
+      ],
+      "source_locator": "Decision to teach and research",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "070000-h06",
+      "anchor": "thirty-five or forty teaching hours",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-liouville-mactutor"
+      ],
+      "source_locator": "Professional schedule",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "070000-h07",
+      "anchor": "In eighteen thirty-six he founded",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-liouville-mactutor"
+      ],
+      "source_locator": "Journal founding",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "070000-h08",
+      "anchor": "In summer he worked at Toul",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-liouville-mactutor"
+      ],
+      "source_locator": "Research and teaching rhythm",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "070000-h09",
+      "anchor": "Jacques Charles François Sturm",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-liouville-sturm",
+        "history-liouville-mactutor"
+      ],
+      "source_locator": "Collaborator",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "070000-h10",
+      "anchor": "publications of eighteen thirty-six and eighteen thirty-seven",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-liouville-sturm",
+        "history-liouville-ams"
+      ],
+      "source_locator": "Sturm-Liouville publications",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "070000-h11",
+      "anchor": "Academy of Sciences in eighteen thirty-nine",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-liouville-mactutor"
+      ],
+      "source_locator": "Academic elections",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "070000-h12",
+      "anchor": "Guillaume Libri",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-liouville-mactutor",
+        "history-liouville-ehrhardt"
+      ],
+      "source_locator": "Academy professional rival",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "070000-h13",
+      "anchor": "The papers appeared in his journal in eighteen forty-six",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-liouville-mactutor",
+        "history-liouville-ehrhardt"
+      ],
+      "source_locator": "Galois posthumous publication",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "070000-h14",
+      "anchor": "In eighteen forty-four Liouville announced a proof",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-liouville-mactutor"
+      ],
+      "source_locator": "First transcendental existence proof",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "070000-h15",
+      "anchor": "In eighteen fifty-one he gave an explicit decimal example",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-liouville-mactutor"
+      ],
+      "source_locator": "Liouville numbers",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "070000-h16",
+      "anchor": "fractional calculus",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-liouville-mactutor"
+      ],
+      "source_locator": "General differentiation order",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "070000-h17",
+      "anchor": "In complex analysis, Liouville's theorem",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-liouville-mactutor"
+      ],
+      "source_locator": "Bounded entire theorem, later standard presentation",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "070000-h18",
+      "anchor": "In April he was elected to the Constituent Assembly",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-liouville-mactutor"
+      ],
+      "source_locator": "1848 politics",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "070000-h19",
+      "anchor": "He stood again in eighteen forty-nine and lost",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-liouville-mactutor"
+      ],
+      "source_locator": "Political defeat",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "070000-h20",
+      "anchor": "Liouville won a Collège de France chair",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-liouville-mactutor"
+      ],
+      "source_locator": "Institutional resolution",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "070000-h21",
+      "anchor": "Dirichlet in eighteen fifty-nine",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-liouville-mactutor"
+      ],
+      "source_locator": "Friendship and correspondence",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "070000-h22",
+      "anchor": "Liouville died in Paris",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-liouville-mactutor"
+      ],
+      "source_locator": "Death and later legacy",
+      "audit_status": "source_checked"
+    }
+  ]
+}
