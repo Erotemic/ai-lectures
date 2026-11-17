@@ -416,3 +416,21 @@ The literature-survey pack now contains **155 indexed recordings**. Each manuscr
 - `161000`–`163000`: Hawaiian *Kumulipo*, two guided readings of the chant's creation/night/day and genealogical movement and an analysis of poetics, ʻāina, translation and sovereignty. Queen Liliʻuokalani's 1897 English translation is the named primary witness, separate from the 1889 Hawaiian publication and later English editions. These are **original English listening guides**, not performances or reproductions of a living Hawaiian chant.
 
 All six entries have claim-linked evidence notes, named source and edition boundaries, orientation Wikipedia links and audio routes. Word counts and durations are descriptive measurements from the spoken regions. The literature survey now has **161 indexed lectures**. This content-only archive includes no generated audio or binary imagery.
+
+
+## Ming Chinese outlaw fiction and Italian Renaissance romance (17 November 2026)
+
+A more continuous overview format adds **four manuscripts across two works**; adjacent short story sections have not been split into separate recordings. The material sets its own duration, and longer uninterrupted listening is supported by the current authoring policy.
+
+| ID | Lecture | Measured narration |
+|---|---|---|
+| `164000` | Water Margin — Complete Story: The Outlaws and the Throne | 3,064 words; 21.1 min at 145 wpm |
+| `165000` | Water Margin — Analysis: Brotherhood, Violence, and the State | 2,031 words; 14.0 min at 145 wpm |
+| `166000` | Orlando Furioso — Complete Story: The Moon and the Mad Knight | 3,141 words; 21.7 min at 145 wpm |
+| `167000` | Orlando Furioso — Analysis: The Labyrinth of Desire | 2,028 words; 14.0 min at 145 wpm |
+
+- **Water Margin** uses an identified **120-chapter Chinese text** and follows the entire trajectory from the released spirits through Liangshan, imperial amnesty, the campaigns, and Song Jiang’s death. It distinguishes the 100-chapter variant and Jin Shengtan’s 70/71-chapter edition rather than treating multiple endings as one source. Attribution to Shi Nai’an and Luo Guanzhong is qualified.
+- **Orlando Furioso** uses Ariosto’s last authorially revised **1532, 46-canto edition**, identified through Rose’s public-domain English translation and textual-edition scholarship. Angelica, Medoro, Orlando, Astolfo, Bradamante, and Ruggiero receive connected story treatment. Both the 1516 and 1521 predecessors and Rose’s omissions are disclosed.
+- Each has a **single uninterrupted story** and a **separate analysis**, with source records, claim locators and an early-modern listening route. These are original English overviews, not translations, chapter-by-chapter readings or exhaustive plot catalogs.
+
+The literature-survey index now contains **165 entries**. No generated audio or images are included.

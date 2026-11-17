@@ -253,3 +253,14 @@ ledger above is the current status, rather than the stale queue wording.
 - *Kumulipo* (`161000`–`163000`): two guided readings and an analysis of Liliʻuokalani's identified 1897 English witness. All sixteen period divisions are in scope at overview level; the 1897 printed genealogy is distinguished from the sung body. The chant is not reduced to Western evolutionary theory or claimed as an authorized contemporary ritual performance.
 
 The source audit for these two has advanced from 'research before authoring' to **selected textual coverage**. Earlier dated queues above are historical snapshots of planning decisions, not current lists of absent works. Future selection should return to the most influential missing works across changing centuries and regions, checking for duplication first.
+
+
+## Ming China and Italian Renaissance literature — completed (17 November 2026)
+
+- **Water Margin** (`164000`–`165000`) is newly covered by one continuous whole-arc narrative following the received 120-chapter version and one analysis. The presence or absence of amnesty and post-amnesty campaigns in alternate versions is a central part of the analysis, not a glossed-over bibliographic distinction. A 120-chapter primary Chinese online text, and Altenburger and Lem’s research on Jin Shengtan, are named. A full print-critical collation was not performed.
+- **Orlando Furioso** (`166000`–`167000`) is newly covered by one complete major-arc telling and one analysis, following the 1532 46-canto final revision. Rose's identified public-domain translation is a narrative witness, with Bowdoin's documentation of omission and redaction. More expansive canto-level studies belong in a different collection.
+- These address major omissions; `Romance of the Three Kingdoms` and `Beowulf` were already covered and were deliberately not duplicated.
+- The editorial model now favors continuous narrations when story segments naturally belong together. Short lectures are not split merely to increase the index count; ~40-minute lectures are acceptable, with no compulsory target or cap.
+- **Next gap review:** prioritize a different century/region while checking existing coverage, potentially eighteenth-century British experimental fiction such as *Tristram Shandy*, or a significant African or American work not already represented. This is an investigative queue, not a fixed commission.
+
+**Current literature-survey index: 165 entries.**
