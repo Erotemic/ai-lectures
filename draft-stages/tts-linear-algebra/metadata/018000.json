@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "lecture_id": "018000",
+  "transcript": "018000-polynomial-projectors-and-primary-decomposition.md",
+  "related_resources": [
+    {
+      "source_id": "la-axler-fourth",
+      "reason": "Finite-dimensional operator and polynomial algebra, eigenspace structure, and proof of structural theorems."
+    },
+    {
+      "source_id": "la-hefferon",
+      "reason": "Calculation-first matrices, eigenspaces, polynomials, and worked proofs."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-17",
+    "scope": "New original instructional manuscript, not a revision of the previously consolidated lectures."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "linear-algebra:017000",
+        "reason": "Supplies the linear-algebra concepts required for bézout and polynomial crt construction of generalized spectral projectors."
+      }
+    ],
+    "recommended": [
+      {
+        "lecture_id": "analysis:046000",
+        "reason": "Optional related application or deeper treatment; not required for the finite-dimensional construction."
+      }
+    ],
+    "background": [
+      "Generalized eigenspaces, polynomial divisibility, and the idea of coprime factors."
+    ],
+    "readiness_checks": [
+      "If N squared is zero, can you compute (2I+N) squared?",
+      "Can you explain how polynomials in A commute with A?"
+    ]
+  }
+}

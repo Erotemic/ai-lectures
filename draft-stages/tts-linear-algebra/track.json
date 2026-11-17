@@ -1,7 +1,7 @@
 {
   "id": "linear-algebra",
   "title": "Linear Algebra from First Principles",
-  "summary": "A calculation-first and proof-driven course from linear equations, spans and bases through linear maps, determinants, eigenmodes, orthogonality, singular values, duals, multilinear forms and exact sequences. Supplies the missing algebraic foundations for advanced analysis, topology, geometry, differential equations, optimization and numerical methods.",
+  "summary": "A calculation-first and proof-driven course from linear systems, bases, linear maps, eigenvectors, determinants, singular values and duals to matrix polynomial identities, Jordan chains, algebraic spectral projectors, and the matrix exponential. Prepares learners for differential equations, numerical stability, and operator functional calculus.",
   "assumed_background": [
     "arithmetic and solving elementary algebraic equations; no prior linear algebra is assumed"
   ],
@@ -11,7 +11,10 @@
   "sections": [
     "001000-solving-linear-systems-from-equations-to-elimination",
     "006000-determinants-area-volume-and-orientation",
-    "012000-dual-spaces-and-covectors-the-objects-that-measure-vectors"
+    "012000-dual-spaces-and-covectors-the-objects-that-measure-vectors",
+    "matrix-polynomials",
+    "generalized-eigenvectors",
+    "matrix-evolution"
   ],
   "lectures": [
     {
@@ -80,6 +83,67 @@
         "Tensor products",
         "Exterior algebra",
         "Exact sequences"
+      ]
+    },
+    {
+      "id": "016000",
+      "title": "When a Matrix Satisfies Its Own Polynomial: Cayley–Hamilton and the Minimal Polynomial",
+      "section": "matrix-polynomials",
+      "file": "016000-when-matrices-satisfy-polynomials.md",
+      "spoken_words": 1797,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 12.4,
+      "tags": [
+        "Minimal polynomial",
+        "Cayley–Hamilton theorem",
+        "Matrix powers",
+        "Spectral theory"
+      ]
+    },
+    {
+      "id": "017000",
+      "title": "Beyond Ordinary Eigenvectors: Jordan Chains and Generalized Eigenspaces",
+      "section": "generalized-eigenvectors",
+      "file": "017000-generalized-eigenvectors-and-jordan-chains.md",
+      "spoken_words": 1874,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 12.9,
+      "tags": [
+        "Jordan form",
+        "Generalized eigenvectors",
+        "Nilpotent operators",
+        "Invariant subspaces"
+      ]
+    },
+    {
+      "id": "018000",
+      "title": "Separating Mixed Modes: Polynomial Spectral Projectors and Primary Decomposition",
+      "section": "matrix-polynomials",
+      "file": "018000-polynomial-projectors-and-primary-decomposition.md",
+      "spoken_words": 1792,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 12.4,
+      "tags": [
+        "Primary decomposition",
+        "Polynomial functional calculus",
+        "Spectral projections",
+        "Hermite interpolation"
+      ]
+    },
+    {
+      "id": "019000",
+      "title": "From Repeated Steps to Continuous Motion: The Matrix Exponential",
+      "section": "matrix-evolution",
+      "file": "019000-matrix-exponential-and-linear-flows.md",
+      "spoken_words": 2022,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 13.9,
+      "tags": [
+        "Matrix exponential",
+        "Linear differential equations",
+        "Jordan chains",
+        "Semigroups",
+        "Stability"
       ]
     }
   ],

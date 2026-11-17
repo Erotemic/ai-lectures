@@ -1,27 +1,38 @@
 # Linear Algebra from First Principles
 
-A calculation-first and proof-driven course from linear equations, spans and bases through linear maps, determinants, eigenmodes, orthogonality, singular values, duals, multilinear forms and exact sequences. Supplies the missing algebraic foundations for advanced analysis, topology, geometry, differential equations, optimization and numerical methods.
+A calculation-first and proof-driven course from linear equations and bases through spectral geometry, duals, and finite-dimensional operator theory. The new matrix-operator route connects basic eigenvectors to generalized eigenspaces, functional calculus, and constant-coefficient differential equations. It distinguishes exact algebra from stable numerical computation and the separate hypotheses required for infinite-dimensional operators.
 
-The current pack contains **3 lecture manuscripts**. Short concept chapters have been consolidated where they develop one subject. Each numbered manuscript has one spoken region; its mathematical statements, exercises, sources, and inherited component notes remain in the non-spoken companion.
+The pack contains **7 authored lecture manuscripts**. The original three composite foundation lectures retain their texts and IDs. The four added bridge lectures have independent manuscripts with one spoken region each, followed by exact mathematical companions, worked examples, exercises, and sources.
 
 ## Listening routes
 
-`track.json` owns the current manuscripts and complete sequence. The main route follows the manuscript order below.
-
-- **Linear Algebra from First Principles** (Main sequence): `001000`, `006000`, `012000`.
+- **Foundations** (`linear-algebra:survey`, the default): `001000` → `006000` → `012000`. This preserves a clear introductory route without adding specialist work automatically.
+- **Matrix Operators** (`linear-algebra:operator-bridge`): `016000` → `017000` → `018000` → `019000`. Preparation: matrix multiplication, determinants, ordinary eigenvectors and matrix powers; derivatives and the scalar exponential for the final lecture.
+- **Complete sequence** (`linear-algebra:main`): all seven manuscripts, preserving the original full-source route and its bookmark identity.
 
 ## Current manuscripts
 
-Durations are measured from the current spoken text at 145 words per minute, before synthesis; they are descriptions, not writing targets.
+Durations below are measured from extracted spoken text at 145 words per minute; they are descriptions, not writing targets.
 
-| ID | Lecture | Approximate minutes |
-|---|---|---:|
-| `001000` | [From elimination to coordinate-free linear maps](001000-from-elimination-to-coordinate-free-linear-maps.md) | 34.3 |
-| `006000` | [Volume, spectral directions, and best approximation](006000-volume-spectral-directions-and-best-approximation.md) | 38.6 |
-| `012000` | [Linear measurements and constructions beyond vectors](012000-linear-measurements-and-constructions-beyond-vectors.md) | 27.9 |
+| ID | Lecture | Approximate minutes | Route |
+| --- | --- | ---: | --- |
+| `001000` | [From elimination to coordinate-free linear maps](001000-from-elimination-to-coordinate-free-linear-maps.md) | 34.3 | Foundation |
+| `006000` | [Volume, spectral directions, and best approximation](006000-volume-spectral-directions-and-best-approximation.md) | 38.6 | Foundation |
+| `012000` | [Linear measurements and constructions beyond vectors](012000-linear-measurements-and-constructions-beyond-vectors.md) | 27.9 | Foundation |
+| `016000` | [When a Matrix Satisfies Its Own Polynomial: Cayley–Hamilton and the Minimal Polynomial](016000-when-matrices-satisfy-polynomials.md) | 12.4 | Matrix operators |
+| `017000` | [Beyond Ordinary Eigenvectors: Jordan Chains and Generalized Eigenspaces](017000-generalized-eigenvectors-and-jordan-chains.md) | 12.9 | Matrix operators |
+| `018000` | [Separating Mixed Modes: Polynomial Spectral Projectors and Primary Decomposition](018000-polynomial-projectors-and-primary-decomposition.md) | 12.4 | Matrix operators |
+| `019000` | [From Repeated Steps to Continuous Motion: The Matrix Exponential](019000-matrix-exponential-and-linear-flows.md) | 13.9 | Matrix operators |
 
-## Sources and authoring
+## Scope and applications
 
-Per-lecture source records live in `metadata/`; the bibliography is in `metadata/sources.json` when present. Composition lineage and editorial revisions are recorded in per-lecture metadata and `provenance.yaml`. Original arguments and exact companions remain with their consolidated manuscript.
+- `016000` establishes the Cayley–Hamilton identity and minimal polynomial, including a proof by adjugate-coefficient comparison and exact matrix-power reduction.
+- `017000` uses explicit shear/Jordan examples and the dimensions of kernels of powers to explain generalized eigenspaces and block sizes. Jordan form is not presented as a numerically stable algorithm.
+- `018000` constructs spectral projectors using polynomial Chinese remainders, illustrates Hermite interpolation for a defective matrix, and distinguishes algebraic and orthogonal projections.
+- `019000` constructs the matrix exponential from its series, proves the linear evolution formula, computes Jordan and rotation examples, and treats transient growth, forcing, and noncommutativity.
 
-Read [the lecture style rules](../../LECTURE_STYLE_RULES.md) before changing narration. Use the spoken-region markers for extraction; keep raw mathematics, code, and source records in the non-spoken companion. Teaching preparation, proof dependencies, and historical influence are distinct.
+These lectures are finite-dimensional. Infinite-dimensional spectral theorems, operator domains, and strongly continuous semigroups remain subjects of the Analysis and advanced operator tracks. See the pack-local `BACKLOG.md` for additional missing core material.
+
+## Sources and authorship
+
+Per-lecture source records and teaching-preparation links are in `metadata/`; bibliographic entries are in `metadata/sources.json`. Previously consolidated manuscripts retain their inherited provenance. The new manuscripts are attributed separately in `provenance.yaml`. Spoken-region markers select only narration for TTS; exact notation, equations and further reading remain in display-only companions. No media is generated by this content pack.
