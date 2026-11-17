@@ -1,7 +1,7 @@
 # Ancient Epics and Narrative Traditions — editorial roadmap
 
 **Prepared:** 2026-11-16
-**Updated:** 2026-11-16 — first four written-work commissions completed; Gunditjmara and Klamath oral-tradition commissions
+**Updated:** 2026-11-16 — all eight initial written-work commissions completed; Indigenous oral-tradition strand preserved
 **Status:** active editorial queue; published lecture IDs are maintained in `track.json`
 **Owning pack for new standalone readings:** `content/literature-survey/`
 **Listening route:** `literature-survey:ancient-narratives`
@@ -76,16 +76,16 @@ The first four priority commissions are now **authored and indexed** in the
 | Aeschylus, *Oresteia* | `literature-survey:016000` | All three extant tragedies; the lost satyr drama is not fabricated |
 | *Pañcatantra* | `literature-survey:017000`–`018000` | Five major book frames and selected embedded fables, from the identified 1199 Pūrṇabhadra recension via Ryder 1925; not every nested story |
 
-**Next written-work queue:** *Zhuangzi* (individual received parables),
-Apuleius's *The Golden Ass* (eleven-book novel), *Exodus* (all forty chapters),
-and Kālidāsa's *Śakuntalā* (seven-act play). Follow these with the other
-Mesopotamian, Egyptian, Greek dramatic, and short scriptural narratives below.
+**Completed second installment (2026-11-16):** *Zhuangzi* (Inner Chapters 1–7 and separately marked Outer 13, 17, 18) is now `019000`–`020000`; Apuleius's eleven-book *The Golden Ass* is `021000`–`023000`; *Exodus* chapters 1–40 are `024000`–`026000`; Kālidāsa's seven-act *Śakuntalā* is `027000`. The written-work and listening-route catalogs have been updated, subject to importing this overlay.
+
+**Next queue to commission:** full *Homeric Hymn to Demeter*; Sophocles's *Oedipus Tyrannus* and *Antigone* as **separate plays**; *Lugalbanda* (fragment-critical); Egyptian *Contendings of Horus and Seth* and *Wenamun*; the Ugaritic *Keret* and *Aqhat* with visible lacunae; then Savitrī, individual Jātaka narratives and *Mṛcchakaṭika*. The rest of the roadmap below remains open.
 
 ## First priority: the next eight commissions
 
 This is **an order of editorial attention**, not preallocated lecture IDs or a
 requirement to fit each row in one recording. Entries 1–4 were authored in
-the first written-work installment; continue with entries 5–8. New
+the first written-work installment, and entries 5–8 in the second; all eight
+are indexed in the pack. New
 lectures are playable only after their full text, citations, metadata, and
 source checks are complete.
 
@@ -99,6 +99,15 @@ source checks are complete.
 | **6** | Apuleius's [*The Golden Ass*](https://en.wikipedia.org/wiki/The_Golden_Ass), all eleven books | Tell Lucius's transformation, his changing masters, Cupid and Psyche as a framed tale, and the final restoration through Isis. Include the novel's comedy, cruelty, and religious ending. | Also titled *Metamorphoses* in Latin; not Ovid's already-covered *Metamorphoses*. Apuleius writes from the Roman North African world. |
 | **7** | [*Exodus*](https://en.wikipedia.org/wiki/Book_of_Exodus), chapters 1–40 | Follow Moses, the encounter with Pharaoh, departure, the journey, Sinai, the covenant, the calf, and the building of the tabernacle. Explain why the later material matters to the narrative's resolution. | Do not collapse the text into the Hollywood plagues-and-sea sequence or assert that literary episodes establish archaeological events. |
 | **8** | Kālidāsa's [*Abhijñānaśākuntalam* (*Śakuntalā*)](https://en.wikipedia.org/wiki/Shakuntala_(play)) | Tell the meeting, promise, lost recognition, curse, separation, and reunion; attend to how the play stages absence and memory. | Contrast with the shorter Śakuntalā material in the *Mahabharata* as a distinct literary realization, not the same exact script. Settle edition and dating conservatively. |
+
+**Second four commissions (delivered 2026-11-16):**
+
+| Work | IDs | Textual extent |
+|---|---|---|
+| *Zhuangzi* | `literature-survey:019000`–`020000` | Inner Chapters 1–7, with Outer 13/17/18 distinguished, curated rather than exhaustively translated |
+| Apuleius, *The Golden Ass* | `literature-survey:021000`–`023000` | All 11 books, with Cupid and Psyche as an explicit framed narrative |
+| *Exodus* | `literature-survey:024000`–`026000` | Chapters 1–40 including law, tabernacle and restoration, not just plagues |
+| Kālidāsa, *Śakuntalā* | `literature-survey:027000` | All seven acts, compared only explicitly with the distinct epic version |
 
 **First four commissions (delivered 2026-11-16):** *Theogony*, *Genesis* (in as many natural
 narrative parts as necessary), *Oresteia*, and *Pañcatantra*. The first group adds mythic genealogy,

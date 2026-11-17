@@ -72,3 +72,16 @@ with `python -m pytest -q tests/test_literature_survey_pack.py`.
 - `017000`–`018000`: **The Panchatantra**, a two-part retelling of the five principal book frames and selected nested stories. The identified text is Purnabhadra's 1199 Sanskrit recension, read through Arthur Ryder's 1925 translation; this is not the lost ancient urtext.
 
 The sixteenth-century or modern history of a work's translations is not treated as its original date. Each new lecture has independently checkable plot anchors, source locators, public-domain orientation links, and measured speech counts. The written-work queue remains open for further full narratives.
+
+## Ancient narrative works — next full-story batch (2026-11-16)
+
+The next four roadmap commissions are now **authored and indexed** as nine recordings, using the previous IDs and source names unchanged. Their speaking durations are measurements, not editing targets.
+
+| IDs | Received work | Scope |
+|---|---|---|
+| `019000`–`020000` | *Zhuangzi* | Inner Chapters 1–7 and explicitly separate selected Outer Chapter parables; no fiction of a continuous original novel or uniformly identifiable single author. |
+| `021000`–`023000` | Apuleius, *The Golden Ass* | Books I–XI; Lucius, the framed Cupid-and-Psyche tale, changing masters, and Isis/Osiris ending. Not Ovid. |
+| `024000`–`026000` | *Exodus* | Received chapters 1–40; oppression and escape, wilderness and law, tabernacle plan, golden calf and renewal, completion and cloud. |
+| `027000` | Kālidāsa, *Śakuntalā* | Seven-act recognition drama; kept distinct from the epic *Mahābhārata* version. |
+
+Individual manuscripts list their primary-text/translation boundaries, public sources and Wikipedia orientation links. Claim anchors in `metadata/0xxxxx.json` point to specific received chapters, books or acts; interpretation is original narration, not a quotation of a translation. No generated audio or images are included.
