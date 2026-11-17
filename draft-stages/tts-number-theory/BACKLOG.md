@@ -1,25 +1,25 @@
 # Number Theory Foundations — next work
 
-**Status, 2026-11-16:** 48 indexed substantive lectures. No fixed narration duration or word count policy applies.
+**Status, 2026-11-16:** 54 indexed substantive lectures. No fixed lecture-length target applies.
 
-## Closed in Continuation 10 — p-adic and local arithmetic
+## Closed in Continuation 11 — local extension structure and Hilbert symbols
 
-1. **030250:** constructed |·|_p on Q, proved the ultrametric and its topology, and explained convergence of geometric series.
-2. **030500:** constructed Q_p as Cauchy equivalence classes, proved its field operations and completeness, and derived digit expansions.
-3. **030750:** proved Z_p ≅ lim Z/p^nZ, described its ideal structure and compactness, and separated the composite-base case.
-4. **031000:** proved simple-root Hensel and the stronger Newton threshold v(f(a))>2v(f'(a)), distinguishing singular roots.
-5. **031250:** classified squares in Q_p for odd p and p=2, used valuations for local obstructions, and proved an elementary local-global result for rational squares. Hasse–Minkowski and Selmer remain cited, not proved.
-6. **031500:** computed two explicit local quadratic field extensions, illustrating e=1,f=2 and e=2,f=1; included a split local product. The general finite-extension theorem remains cited, not proved.
+1. **031750:** finite extensions of p-adic fields — complete integral closure, unique valuation, completeness, and degree identity n=ef. Proved using trace lattices, Dedekind ideal structure and idempotent lifting.
+2. **032000:** maximal unramified subextension, finite-field Frobenius, Teichmüller lifts, and totally ramified Eisenstein generators.
+3. **032250:** odd-prime Hilbert-symbol formula, deriving unit and ramified norm groups and checking index-two before bilinearity.
+4. **032500:** full 2-adic Hilbert-symbol formula, eight square classes and norm-index-two proof for each nonsquare extension type.
+5. **032750:** exact ternary isotropy, anisotropic four-variable norm forms, and five-variable isotropy for odd primes. General local isometry classification and the Q_2 five-variable bound are cited.
+6. **033000:** rational Hilbert reciprocity proved by generator cases from quadratic reciprocity and both supplementary laws; clear distinction from Hasse–Minkowski.
 
 ## Suggested next foundations
 
-1. **General finite extensions of Q_p.** Prove uniqueness of valuation extension, completeness, rings of integers and e·f=[L:Q_p]; extend residue-field calculations to arbitrary finite extensions. Build from the explicit quadratic examples rather than treating general theorems as slogans.
-2. **Local quadratic forms and Hilbert symbols.** Complete elementary Hilbert symbol identities and a proof of Hasse–Minkowski, with explicit 2-adic attention. Distinguish the theorem from Selmer-type failures in higher degree.
-3. **Different and discriminant.** Give a complete proof of ramification-discriminant relationship using trace duality and local different ideals, including the prime-2 subtleties.
-4. **Gauss composition and nonmaximal quadratic orders.** Compute form composition by ideal multiplication, handle conductors and ring class groups.
-5. **Real quadratic and narrow classes.** Unit signs, norm-negative units, indefinite forms and reduction cycles.
+1. **The Hasse–Minkowski theorem.** Prove the local–global existence direction for rational quadratic forms; first complete the two-adic five-variable bound and provide an explicit local classification or state exactly which deep theorem is being used. Build a proper global patching proof rather than asserting the converse from Hilbert reciprocity.
+2. **Local different and discriminant.** Derive inverse different by trace duality and prove the discriminant-ramification relationship, with wild behavior at p=2 and concrete quadratic examples.
+3. **Quaternion algebras.** Connect Hilbert symbols to split/division quaternion algebras, Brauer classes and local invariants; distinguish elementary identities from Brauer-group theorems.
+4. **Gauss composition and nonmaximal orders.** Ideal multiplication as proper-form composition, conductor and ring class groups.
+5. **Real quadratic and narrow class groups.** Norm-negative units, indefinite forms, and reduction cycles.
 6. **Analytic depth.** Zeta functional equation, theta functions, zero-free regions and effective prime estimates.
 
 ## Editorial boundaries
 
-Only `draft-stages/tts-number-theory/` is owned. Preserve six-digit lecture IDs, extractable spoken region, display mathematical companion, exercises, source anchors, author-hosted/university references and relevant Wikipedia links. Avoid fixed duration targets. Keep source-backed theorems clearly distinguished from proved theorems, and send only one text-only ZIP per continuation.
+Only `draft-stages/tts-number-theory/` is owned. Preserve six-digit lecture IDs, one extractable spoken region, non-spoken mathematical companion, exercises, claim-level source anchors, authorship records, and relevant Wikipedia links. Keep source-backed results explicitly distinguished from proved theorems. Deliver one text-only ZIP per continuation; do not run TTS or repository-wide builds.

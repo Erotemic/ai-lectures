@@ -1,6 +1,6 @@
 # Number Theory from First Principles
 
-A proof-driven course connecting integer arithmetic with algorithms, algebraic structure, and analytic number theory. It starts with gcds, congruences, integer equations, reciprocity, and finite fields, and develops the analytic machinery for complete proofs of **Dirichlet's theorem**, the **prime number theorem**, and **Dedekind prime-ideal factorization**, with ideal norms, and now connects splitting of primes to quadratic forms and ideal classes. The course currently contains **48 substantive lectures**.
+A proof-driven course connecting integer arithmetic with algorithms, algebraic structure, and analytic number theory. It starts with gcds, congruences, integer equations, reciprocity, and finite fields, and develops the analytic machinery for complete proofs of **Dirichlet's theorem**, the **prime number theorem**, and **Dedekind prime-ideal factorization**, with ideal norms, and now connects splitting of primes to quadratic forms and ideal classes. The course currently contains **54 substantive lectures**.
 
 The opening lectures assume only integer arithmetic, fractions, elementary algebra, and a willingness to follow proofs. Later lectures build their own analysis and character foundations rather than presupposing advanced number theory. Each manuscript has one extractable spoken lecture and a display-only mathematical companion with worked equations, exercises, claim-level reading records, and Wikipedia references. Length and word counts describe the manuscripts; they are not duration targets.
 
@@ -56,8 +56,14 @@ The opening lectures assume only integer arithmetic, fractions, elementary algeb
 | `031000` | [Hensel's Lemma: From Approximate Roots to Exact Roots](031000-hensel-lifting-from-congruences-to-exact-roots.md) | 1,758 |
 | `031250` | [Local Squares and the Limits of Local Solvability](031250-local-squares-and-local-global-obstructions.md) | 1,729 |
 | `031500` | [Two Quadratic Extensions of Q_3: Ramification in a Complete Field](031500-ramified-and-unramified-extensions-of-q3.md) | 1,963 |
+| `031750` | [Finite Extensions of p-adic Fields: Why There Is Only One Valuation](031750-finite-extensions-of-p-adic-fields.md) | 1,707 |
+| `032000` | [The Two Layers of a Local Field: Frobenius and Eisenstein Polynomials](032000-unramified-towers-and-eisenstein-generators.md) | 1,668 |
+| `032250` | [Norms and Hilbert Symbols at Odd Primes](032250-norms-and-hilbert-symbols-at-odd-primes.md) | 1,711 |
+| `032500` | [The Prime Two: Eight Square Classes and the Hilbert Symbol](032500-the-prime-two-and-the-hilbert-symbol.md) | 1,813 |
+| `032750` | [Quadratic Forms over Local Fields: From Diagonalization to Isotropy](032750-local-quadratic-forms-and-isotropy.md) | 1,667 |
+| `033000` | [Hilbert Reciprocity: One Identity Across Every Prime and Infinity](033000-hilbert-reciprocity-from-quadratic-reciprocity.md) | 1,384 |
 
-**Total:** 48 indexed lectures, **94,022 spoken words**. 
+**Total:** 54 indexed lectures, **103,972 spoken words**. 
 
 ## Proven theorems and open boundaries
 
@@ -100,9 +106,17 @@ The opening lectures assume only integer arithmetic, fractions, elementary algeb
 - **030750:** Z_p as the inverse limit of residue rings, its units and ideals, compactness, and the composite-base CRT distinction.
 - **031000:** complete simple-root Hensel proof and strengthened Newton lifting, with p=2 and singular-root examples.
 - **031250:** full local square criteria for odd p and p=2, the local obstruction to x²+y²=3, and a direct local-global result for rational squares. Hasse–Minkowski and Selmer's counterexample are cited, not proved.
-- **031500:** explicit complete quadratic extensions Q_3(√2) and Q_3(√3), with their valuations, residue fields, ramification indexes, and a split Q_3×Q_3 example. The general finite-extension theorem is cited, not proved.
+- **031500:** explicit complete quadratic extensions Q_3(√2) and Q_3(√3), with their valuations, residue fields, ramification indexes, and a split Q_3×Q_3 example. The general finite-extension theorem is cited here, and is proved in 031750.
 
-**Remaining boundaries:** full generality of finite extensions of complete DVRs; the Hasse–Minkowski proof; local Hilbert symbols; different/discriminant and ramification; nonmaximal quadratic orders, narrow classes, and advanced analytic number theory.
+**Completed in Continuation 11 (local fields, Hilbert symbols, reciprocity):**
+
+- **031750:** proves uniqueness and completeness of valuation on any finite extension of a p-adic field, its finite free ring of integers, the unique maximal ideal, the degree identity \([L:K]=ef\), and the norm-valuation relation. The proof includes the trace lattice and Hensel lifting of idempotents.
+- **032000:** constructs unique unramified extensions of each finite degree, lifts Frobenius and Teichmüller residues, extracts the maximal unramified subfield of a finite local extension, and proves the totally ramified remainder is generated by an Eisenstein uniformizer.
+- **032250–032500:** derives the norm interpretation and index-two argument underlying Hilbert-symbol bilinearity; proves explicit formulas at every odd prime and at the prime two, including its eight square classes.
+- **032750:** exact local ternary isotropy criterion via Hilbert symbols, anisotropic quaternary norm forms, and a proof that every quadratic form of dimension at least five over Q_p is isotropic for odd p. General local isometry classification and the p=2 five-variable theorem are cited, not proved.
+- **033000:** proves rational Hilbert reciprocity by an exhaustive generator reduction to quadratic reciprocity and its supplementary laws, accounting for both p=2 and the real place.
+
+**Remaining boundaries:** the full Hasse–Minkowski local-to-global existence proof, the p=2 five-variable isotropy theorem and complete local classification, the local different/discriminant and higher ramification groups, nonmaximal quadratic orders, narrow classes, and advanced analytic number theory.
 
 ## Related tracks and attribution
 

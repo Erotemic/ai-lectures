@@ -1,7 +1,7 @@
 {
   "id": "number-theory",
   "title": "Number Theory from First Principles",
-  "summary": "Proof-driven foundations for integer arithmetic, prime distribution, finite fields, Dedekind ideals, quadratic forms, and local arithmetic including p-adic fields, Hensel lifting and ramification. Includes complete proofs of Dirichlet’s theorem and the prime number theorem.",
+  "summary": "Proof-driven foundations from integer arithmetic, prime distribution and Dedekind ideals through quadratic forms and local fields. Includes complete proofs of Dirichlet’s theorem, the prime number theorem, finite p-adic extension structure, and rational Hilbert reciprocity.",
   "assumed_background": [
     "integer arithmetic, fractions, equations and basic algebra",
     "comfortable reading simple proofs helps; the Mathematical Reasoning and Proof course is optional preparation",
@@ -55,7 +55,13 @@
     "p-adic-integers",
     "hensel-complete-roots",
     "local-square-classes",
-    "local-ramification-examples"
+    "local-ramification-examples",
+    "general-local-extensions",
+    "unramified-and-eisenstein-towers",
+    "hilbert-symbol-odd-primes",
+    "hilbert-symbol-at-two",
+    "local-quadratic-forms",
+    "hilbert-reciprocity"
   ],
   "lectures": [
     {
@@ -489,6 +495,60 @@
       "spoken_words": 1963,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 13.5
+    },
+    {
+      "id": "031750",
+      "title": "Finite Extensions of p-adic Fields: Why There Is Only One Valuation",
+      "section": "general-local-extensions",
+      "file": "031750-finite-extensions-of-p-adic-fields.md",
+      "spoken_words": 1707,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 11.8
+    },
+    {
+      "id": "032000",
+      "title": "The Two Layers of a Local Field: Frobenius and Eisenstein Polynomials",
+      "section": "unramified-and-eisenstein-towers",
+      "file": "032000-unramified-towers-and-eisenstein-generators.md",
+      "spoken_words": 1668,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 11.5
+    },
+    {
+      "id": "032250",
+      "title": "Norms and Hilbert Symbols at Odd Primes",
+      "section": "hilbert-symbol-odd-primes",
+      "file": "032250-norms-and-hilbert-symbols-at-odd-primes.md",
+      "spoken_words": 1711,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 11.8
+    },
+    {
+      "id": "032500",
+      "title": "The Prime Two: Eight Square Classes and the Hilbert Symbol",
+      "section": "hilbert-symbol-at-two",
+      "file": "032500-the-prime-two-and-the-hilbert-symbol.md",
+      "spoken_words": 1813,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 12.5
+    },
+    {
+      "id": "032750",
+      "title": "Quadratic Forms over Local Fields: From Diagonalization to Isotropy",
+      "section": "local-quadratic-forms",
+      "file": "032750-local-quadratic-forms-and-isotropy.md",
+      "spoken_words": 1667,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 11.5
+    },
+    {
+      "id": "033000",
+      "title": "Hilbert Reciprocity: One Identity Across Every Prime and Infinity",
+      "section": "hilbert-reciprocity",
+      "file": "033000-hilbert-reciprocity-from-quadratic-reciprocity.md",
+      "spoken_words": 1384,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 9.5
     }
   ]
 }

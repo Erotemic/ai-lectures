@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "lecture_id": "032000",
+  "transcript": "032000-unramified-towers-and-eisenstein-generators.md",
+  "related_resources": [
+    {
+      "source_id": "nt-mit-local-10",
+      "reason": "Finite extensions of complete DVRs; opening page inspected; general extension theorem is cited as unproved in this installment."
+    },
+    {
+      "source_id": "nt-mit-local-11",
+      "reason": "Unramified and totally ramified towers; uniformizer generates a totally ramified extension with Eisenstein minimal polynomial."
+    },
+    {
+      "source_id": "nt-conrad-finite-fields",
+      "reason": "Construction, classification, Frobenius, subfield lattice, polynomial factorization and irreducible counting; compared to proof developed in the manuscript."
+    },
+    {
+      "source_id": "nt-wiki-unramified",
+      "reason": "Unramified terminology."
+    },
+    {
+      "source_id": "nt-wiki-eisenstein",
+      "reason": "Terminology for Eisenstein irreducibility and totally ramified extensions."
+    },
+    {
+      "source_id": "nt-wiki-teichmueller",
+      "reason": "Teichmüller representatives, multiplicative lifts of residue fields."
+    }
+  ],
+  "mathematical_claims": [
+    {
+      "id": "032000-m01",
+      "anchor": "The unramified extension is unique up to a K-isomorphism.",
+      "source_ids": [
+        "nt-mit-local-10"
+      ],
+      "source_locator": "Unramified classification via residue fields and Hensel",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "032000-m02",
+      "anchor": "These are called Teichmuller representatives.",
+      "source_ids": [
+        "nt-mit-local-10",
+        "nt-wiki-teichmueller"
+      ],
+      "source_locator": "Unique roots of T^(q^f)-T lifting residue classes",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "032000-m03",
+      "anchor": "This is the maximal unramified subfield.",
+      "source_ids": [
+        "nt-mit-local-10"
+      ],
+      "source_locator": "Maximal unramified subfield of arbitrary finite local extension",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "032000-m04",
+      "anchor": "So the polynomial is Eisenstein.",
+      "source_ids": [
+        "nt-mit-local-11",
+        "nt-wiki-eisenstein"
+      ],
+      "source_locator": "Uniformizer minimal polynomial in totally ramified extension",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "032000-m05",
+      "anchor": "the resulting field L has degree four over Q-three.",
+      "source_ids": [
+        "nt-mit-local-10"
+      ],
+      "source_locator": "Example Q3(sqrt2,sqrt3), e=f=2",
+      "audit_status": "reading_reference_recorded"
+    }
+  ],
+  "historical_claims": []
+}

@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "lecture_id": "032500",
+  "transcript": "032500-the-prime-two-and-the-hilbert-symbol.md",
+  "related_resources": [
+    {
+      "source_id": "nt-ntu-hilbert",
+      "reason": "Definitions, explicit formulas at odd primes and p=2, and rational Hilbert reciprocity. Pages 1–2 inspected; manuscript derives signs through norm groups."
+    },
+    {
+      "source_id": "nt-wiki-hilbert-symbol",
+      "reason": "Definitions, local symbol and global product formula background."
+    },
+    {
+      "source_id": "nt-padic",
+      "reason": "Background reference"
+    },
+    {
+      "source_id": "nt-mit-local-10",
+      "reason": "Finite extensions of complete DVRs; opening page inspected; general extension theorem is cited as unproved in this installment."
+    }
+  ],
+  "mathematical_claims": [
+    {
+      "id": "032500-m01",
+      "anchor": "There are eight square classes in total",
+      "source_ids": [
+        "nt-ntu-hilbert",
+        "nt-padic"
+      ],
+      "source_locator": "Q2 square classes",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "032500-m02",
+      "anchor": "the symbol of two odd units is negative exactly when both are three modulo four.",
+      "source_ids": [
+        "nt-ntu-hilbert"
+      ],
+      "source_locator": "Unit-unit Hilbert sign at two",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "032500-m03",
+      "anchor": "positive for v congruent to one or seven modulo eight",
+      "source_ids": [
+        "nt-ntu-hilbert"
+      ],
+      "source_locator": "Norm from Q2(sqrt2) unit criterion",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "032500-m04",
+      "anchor": "the norm subgroup always has index two.",
+      "source_ids": [
+        "nt-ntu-hilbert"
+      ],
+      "source_locator": "Explicit norm subgroup classification for all seven Q2 nonsquare classes",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "032500-m05",
+      "anchor": "That is the complete two-adic Hilbert symbol formula.",
+      "source_ids": [
+        "nt-ntu-hilbert"
+      ],
+      "source_locator": "p=2 formula and exponent parity",
+      "audit_status": "reading_reference_recorded"
+    }
+  ],
+  "historical_claims": []
+}

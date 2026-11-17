@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "lecture_id": "032250",
+  "transcript": "032250-norms-and-hilbert-symbols-at-odd-primes.md",
+  "related_resources": [
+    {
+      "source_id": "nt-ntu-hilbert",
+      "reason": "Definitions, explicit formulas at odd primes and p=2, and rational Hilbert reciprocity. Pages 1–2 inspected; manuscript derives signs through norm groups."
+    },
+    {
+      "source_id": "nt-kedlaya-local-norms",
+      "reason": "Proof of surjectivity of norms on units in unramified extensions via residue norm and trace lifting; HTML proof inspected."
+    },
+    {
+      "source_id": "nt-wiki-hilbert-symbol",
+      "reason": "Definitions, local symbol and global product formula background."
+    },
+    {
+      "source_id": "nt-wiki-field-norm",
+      "reason": "Background reference"
+    },
+    {
+      "source_id": "nt-reciprocity",
+      "reason": "Background reference"
+    }
+  ],
+  "mathematical_claims": [
+    {
+      "id": "032250-m01",
+      "anchor": "b is a norm from Q-p with the square root of a.",
+      "source_ids": [
+        "nt-ntu-hilbert"
+      ],
+      "source_locator": "Norm-conic equivalence",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "032250-m02",
+      "anchor": "the mere existence of a subgroup does not imply that the sign for membership is multiplicative",
+      "source_ids": [
+        "nt-ntu-hilbert"
+      ],
+      "source_locator": "Need norm-subgroup index-two argument",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "032250-m03",
+      "anchor": "every p-adic unit is a norm from an unramified quadratic extension.",
+      "source_ids": [
+        "nt-kedlaya-local-norms"
+      ],
+      "source_locator": "Principal-unit norm surjectivity by trace",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "032250-m04",
+      "anchor": "its residue is a square.",
+      "source_ids": [
+        "nt-ntu-hilbert"
+      ],
+      "source_locator": "Ramified norm-unit residue criterion",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "032250-m05",
+      "anchor": "we have now proved the complete explicit formula.",
+      "source_ids": [
+        "nt-ntu-hilbert"
+      ],
+      "source_locator": "Odd p Hilbert formula from base cases",
+      "audit_status": "reading_reference_recorded"
+    }
+  ],
+  "historical_claims": []
+}

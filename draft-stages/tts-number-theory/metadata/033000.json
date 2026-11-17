@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "lecture_id": "033000",
+  "transcript": "033000-hilbert-reciprocity-from-quadratic-reciprocity.md",
+  "related_resources": [
+    {
+      "source_id": "nt-ntu-hilbert",
+      "reason": "Definitions, explicit formulas at odd primes and p=2, and rational Hilbert reciprocity. Pages 1–2 inspected; manuscript derives signs through norm groups."
+    },
+    {
+      "source_id": "nt-reciprocity",
+      "reason": "Background reference"
+    },
+    {
+      "source_id": "nt-conrad-hilbert-history",
+      "reason": "Historical context on Hilbert’s product-form reinterpretation of quadratic reciprocity; source note without relying on speculative history."
+    },
+    {
+      "source_id": "nt-wiki-hilbert-symbol",
+      "reason": "Definitions, local symbol and global product formula background."
+    },
+    {
+      "source_id": "nt-wiki-hasse-minkowski",
+      "reason": "Statement of the local-global principle for quadratic forms."
+    }
+  ],
+  "mathematical_claims": [
+    {
+      "id": "033000-m01",
+      "anchor": "the product is always positive one.",
+      "source_ids": [
+        "nt-ntu-hilbert",
+        "nt-conrad-hilbert-history"
+      ],
+      "source_locator": "Hilbert reciprocity over Q",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "033000-m02",
+      "anchor": "it is enough to prove the product formula on generators",
+      "source_ids": [
+        "nt-ntu-hilbert"
+      ],
+      "source_locator": "Bimultiplicative generator reduction",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "033000-m03",
+      "anchor": "The supplementary law of quadratic reciprocity asserts",
+      "source_ids": [
+        "nt-reciprocity"
+      ],
+      "source_locator": "Two versus odd prime case",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "033000-m04",
+      "anchor": "We have reached the classical quadratic reciprocity law itself.",
+      "source_ids": [
+        "nt-reciprocity",
+        "nt-ntu-hilbert"
+      ],
+      "source_locator": "Distinct odd prime case",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "033000-m05",
+      "anchor": "not a method for making them disappear.",
+      "source_ids": [
+        "nt-wiki-hasse-minkowski"
+      ],
+      "source_locator": "Product law distinguished from local-global existence",
+      "audit_status": "reading_reference_recorded"
+    }
+  ],
+  "historical_claims": []
+}

@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "lecture_id": "032750",
+  "transcript": "032750-local-quadratic-forms-and-isotropy.md",
+  "related_resources": [
+    {
+      "source_id": "nt-uchicago-zhang-quadratic",
+      "reason": "Finite-field ternary isotropy via intersecting square-value sets, and local quadratic-form theory. Finite-field proof page inspected."
+    },
+    {
+      "source_id": "nt-ntu-hilbert",
+      "reason": "Definitions, explicit formulas at odd primes and p=2, and rational Hilbert reciprocity. Pages 1–2 inspected; manuscript derives signs through norm groups."
+    },
+    {
+      "source_id": "nt-wiki-quadratic-form",
+      "reason": "Diagonalization, isotropy, and quadratic forms background."
+    },
+    {
+      "source_id": "nt-wiki-hasse-invariant",
+      "reason": "Hasse invariant and local classification, cited but not proved."
+    },
+    {
+      "source_id": "nt-wiki-hasse-minkowski",
+      "reason": "Statement of the local-global principle for quadratic forms."
+    }
+  ],
+  "mathematical_claims": [
+    {
+      "id": "032750-m01",
+      "anchor": "a two-variable form a x squared plus b y squared is isotropic precisely when negative a b is a square.",
+      "source_ids": [
+        "nt-wiki-quadratic-form"
+      ],
+      "source_locator": "Binary local isotropy",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "032750-m02",
+      "anchor": "the ternary form is isotropic if and only if the Hilbert symbol of negative a b and negative a c is plus one.",
+      "source_ids": [
+        "nt-ntu-hilbert"
+      ],
+      "source_locator": "Exact ternary norm criterion",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "032750-m03",
+      "anchor": "Thus this four-variable form is anisotropic.",
+      "source_ids": [
+        "nt-uchicago-zhang-quadratic"
+      ],
+      "source_locator": "Anisotropic norm form from unramified quadratic extension",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "032750-m04",
+      "anchor": "we can prove that it must be isotropic over Q-p.",
+      "source_ids": [
+        "nt-uchicago-zhang-quadratic"
+      ],
+      "source_locator": "Odd-prime dimension five via finite-field pigeonhole and Hensel",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "032750-m05",
+      "anchor": "the dimension, the determinant modulo squares, and a product of Hilbert symbols called the Hasse invariant.",
+      "source_ids": [
+        "nt-wiki-hasse-invariant"
+      ],
+      "source_locator": "Local classification theorem stated without full proof",
+      "audit_status": "reading_reference_recorded"
+    }
+  ],
+  "historical_claims": []
+}

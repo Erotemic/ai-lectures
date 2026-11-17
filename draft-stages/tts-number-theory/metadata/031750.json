@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "lecture_id": "031750",
+  "transcript": "031750-finite-extensions-of-p-adic-fields.md",
+  "related_resources": [
+    {
+      "source_id": "nt-mit-local-9",
+      "reason": "Local compactness, p-adic fields and Hensel lifting; opening page and relevant extracted proof paragraphs inspected."
+    },
+    {
+      "source_id": "nt-mit-local-10",
+      "reason": "Finite extensions of complete DVRs; opening page inspected; general extension theorem is cited as unproved in this installment."
+    },
+    {
+      "source_id": "nt-milne-ant",
+      "reason": "Rings of integers, Dedekind domains, ideal norms, class groups and Minkowski bounds."
+    },
+    {
+      "source_id": "nt-wiki-local-field",
+      "reason": "Residue fields, completions and local compactness background."
+    },
+    {
+      "source_id": "nt-wiki-ramification",
+      "reason": "Background on ramified primes."
+    }
+  ],
+  "mathematical_claims": [
+    {
+      "id": "031750-m01",
+      "anchor": "There is exactly one extension of the absolute value of K to L.",
+      "source_ids": [
+        "nt-mit-local-10"
+      ],
+      "source_locator": "General complete-DVR finite extension and valuation uniqueness",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "031750-m02",
+      "anchor": "B is even a free A-module of rank n.",
+      "source_ids": [
+        "nt-mit-local-10",
+        "nt-milne-ant"
+      ],
+      "source_locator": "Trace-dual finite integral closure argument",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "031750-m03",
+      "anchor": "Thus B has exactly one maximal ideal",
+      "source_ids": [
+        "nt-mit-local-10"
+      ],
+      "source_locator": "Nontrivial-idempotent contradiction in a complete domain",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "031750-m04",
+      "anchor": "So n equals e times f.",
+      "source_ids": [
+        "nt-mit-local-10"
+      ],
+      "source_locator": "Length count for B/piB",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "031750-m05",
+      "anchor": "norm of x is f times the integer valuation w of x.",
+      "source_ids": [
+        "nt-mit-local-10"
+      ],
+      "source_locator": "Norm valuation via determinant and residue cardinality",
+      "audit_status": "reading_reference_recorded"
+    }
+  ],
+  "historical_claims": []
+}
