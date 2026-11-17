@@ -109,3 +109,18 @@ The four long hymns are anonymous poems collected under a conventional Homeric l
 - `039000`: **Aqhat: The Bow and the Unfinished Revenge** (1,693 spoken words; 11.7 min at 145 wpm; 20 source checkpoints). `metadata/039000.json`.
 
 The two Lugalbanda poems are distinct Sumerian compositions accessed through Oxford ETCSL. Horus/Seth follows the Ramesside Papyrus Chester Beatty I, and Wenamun is limited to the surviving Papyrus Moscow 120 ending at Alashiya. Kirta (KTU 1.14–1.16) and Aqhat (KTU 1.17–1.19) are transmitted in damaged tablets: their narrative endpoints are not invented; the Ugaritic manuscripts also cite a directly viewed online column-divided English KTU rendering, supported by scholarship, while a complete modern print critical edition was not separately inspected. Primary records, source access and interpretive boundaries appear in metadata and each manuscript companion. No binary images or generated audio are included.
+
+## Ancient works — Westcar, Enmerkar, Sāvitrī, Jātaka and Little Clay Cart (2026-11-16)
+
+| IDs | Narrative | Spoken words / scope |
+|---|---|---|
+| `040000` | Westcar Papyrus: Stories at Khufu’s Court | 1,816; claim-linked source companion at `metadata/040000.json` |
+| `041000` | Enmerkar and the Lord of Aratta: Seven Mountains and a Clay Message | 1,586; claim-linked source companion at `metadata/041000.json` |
+| `042000` | Sāvitrī and Satyavān: The Woman Who Followed Death | 1,507; claim-linked source companion at `metadata/042000.json` |
+| `043000` | Three Jātaka Tales: The Deer, the Hare, and the Promise | 1,489; claim-linked source companion at `metadata/043000.json` |
+| `044000` | Vessantara: The Elephant and the Road to Exile | 1,344; claim-linked source companion at `metadata/044000.json` |
+| `045000` | Vessantara: The Children and the Return | 1,519; claim-linked source companion at `metadata/045000.json` |
+| `046000` | The Little Clay Cart: The Gems and the Storm | 1,673; claim-linked source companion at `metadata/046000.json` |
+| `047000` | The Little Clay Cart: The Carts, the Trial, and the Rescue | 1,896; claim-linked source companion at `metadata/047000.json` |
+
+Narration follows named received English translations, with the Westcar and Enmerkar textual gaps visible; Pāli commentarial tales carry their precise tale numbers and the ten-act Sanskrit drama is not treated as a dated historical record. Source links, version boundaries, Wikipedia orientation and claim anchors are in the non-spoken companions. No fixed duration target or generated media.

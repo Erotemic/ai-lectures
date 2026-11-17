@@ -82,7 +82,24 @@ The first four priority commissions are now **authored and indexed** in the
 
 **Fourth written-work installment completed (2026-11-16):** two separate Lugalbanda compositions (`034000`–`035000`), Egyptian *The Contendings of Horus and Seth* and *The Report of Wenamun* (`036000`–`037000`), and the damaged Ugaritic *Kirta/Keret* and *Aqhat* texts (`038000`–`039000`). Their extant endings and material lacunae are explicitly identified; modern full print critical Ugaritic editions still merit separate review; the accessible online KTU column translation has been cross-checked.
 
-**Next queue to commission:** Egyptian *Westcar Papyrus*, Sumerian *Enmerkar and the Lord of Aratta*, *Savitrī and Satyavān* from the *Mahābhārata*, individually identified *Jātaka* stories, and Śūdraka's *Mṛcchakaṭika*. Consider further Hittite *Kumarbi* cycles only with precise tablet witnesses. The rest of the roadmap below remains open.
+**Fifth ancient-work installment completed (2026-11-16):** *Westcar Papyrus* (`040000`), *Enmerkar and the Lord of Aratta* (`041000`), Sāvitrī (`042000`), three explicitly numbered Jātaka tales (`043000`), *Vessantara* (`044000`–`045000`), and the ten-act *Mṛcchakaṭika* (`046000`–`047000`). See the completion table below. The surrounding tables are retained as a record of commissioning priorities, not a claim that these works are still missing.
+
+**Next queue to commission:** *The Eloquent Peasant* and its speeches; the Hittite *Song of Ullikummi* with its surviving witness limits; the Akkadian *Epic of Erra*; and the ancient Aramaic *Ahiqar* witness, distinguished from later complete recensions. Additional candidates include Euripides’s *Medea* and *Bacchae*, the *Buddhacarita*, and separate short books such as *Ruth* or *Jonah*. Select by narrative value and verified source access; do not force a fixed manuscript length.
+
+## Fifth installment: Westcar, Enmerkar, Sāvitrī, Jātakas and The Little Clay Cart
+
+**Authored and indexed on 2026-11-16:**
+
+| IDs | Received work | Boundaries |
+|---|---|---|
+| `040000` | [Westcar Papyrus](https://en.wikipedia.org/wiki/Westcar_Papyrus) | Extant Khufu court tales and Reddjedet succession prophecy; papyrus P. 3033 has a lost opening and abrupt surviving end; no invented final scene. |
+| `041000` | [Enmerkar and the Lord of Aratta](https://en.wikipedia.org/wiki/Enmerkar_and_the_Lord_of_Aratta) | Oxford ETCSL c.1.8.2.3, text 1–636, ending damaged; distinct from the other Enmerkar composition; writing's appearance is part of a story, not an externally established invention event. |
+| `042000` | [Sāvitrī and Satyavān](https://en.wikipedia.org/wiki/Savitri_and_Satyavan) | Complete embedded tale in *Mahābhārata* Vana Parva, Ganguli CCLXLI–CCLXLVII, with epic frame, warning, vows, Yama's boons and restoration. |
+| `043000` | [Three Jātaka tales](https://en.wikipedia.org/wiki/Jataka_tales) | Individually identified received prose tales no. 12 Nigrodhamiga, no. 482 Rurumigarāja, no. 316 Sasa; Pāli verse and commentarial prose transmission distinguished. |
+| `044000`–`045000` | [Vessantara Jātaka](https://en.wikipedia.org/wiki/Vessantara_Jataka) | Received no. 547, full narrative from gift of white elephant, exile and children to Maddī, royal ransom and return; the ethical burden of child-giving is neither erased nor euphemized. |
+| `046000`–`047000` | [Mṛcchakaṭika](https://en.wikipedia.org/wiki/M%E1%B9%9Bcchakatika) | All ten surviving acts of the traditionally Śūdraka-attributed play, including courtesan Vasantasenā, Chārudatta, city intrigues, swapped carts, trial and rescue. Attribution and dating remain debated. |
+
+All new lectures have standalone manuscript text, a source companion, individual metadata with locators, a track entry and a listening-route chapter. No reconstructed ancient quotations, generated audio, or binary illustrations are bundled.
 
 ## First priority: the next eight commissions
 
