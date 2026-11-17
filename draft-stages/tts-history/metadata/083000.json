@@ -1,0 +1,282 @@
+{
+  "schema_version": 1,
+  "lecture_id": "083000",
+  "transcript": "083000-chebyshev.md",
+  "related_resources": [
+    {
+      "source_id": "history-chebyshev-bertrand",
+      "reason": "Historical distinction between Bertrand’s conjecture, Chebyshev’s 1852 proof, and Erdős’s later proof."
+    },
+    {
+      "source_id": "history-chebyshev-mactutor",
+      "reason": "Parents, childhood, education, 1852 travel, St Petersburg research, number theory, machinery, school and succession."
+    },
+    {
+      "source_id": "history-chebyshev-petersburg",
+      "reason": "Petersburg teaching, academy, university and retirement dates."
+    },
+    {
+      "source_id": "history-chebyshev-primes",
+      "reason": "Context for Chebyshev prime bounds, later prime number theorem, and 1852 visit to European research centers."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "083000-h01",
+      "anchor": "born in May eighteen twenty-one at Okatovo",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-chebyshev-mactutor"
+      ],
+      "source_locator": "Birth",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "083000-h02",
+      "anchor": "His father Lev had served as a military officer",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-chebyshev-mactutor"
+      ],
+      "source_locator": "Family and Napoleonic wars",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "083000-h03",
+      "anchor": "His mother Agrafena helped him with reading and writing",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-chebyshev-mactutor"
+      ],
+      "source_locator": "Early family education",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "083000-h04",
+      "anchor": "a cousin, Avdotia Soukhareva",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-chebyshev-mactutor"
+      ],
+      "source_locator": "French tutor",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "083000-h05",
+      "anchor": "Accounts of his childhood also mention a limp",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-chebyshev-mactutor"
+      ],
+      "source_locator": "Physical background, no psychological inference",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "083000-h06",
+      "anchor": "In eighteen thirty-two the family moved to Moscow",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-chebyshev-mactutor"
+      ],
+      "source_locator": "Move",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "083000-h07",
+      "anchor": "P. N. Pogorelski, a respected mathematics teacher",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-chebyshev-mactutor"
+      ],
+      "source_locator": "Tutor",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "083000-h08",
+      "anchor": "Five years later he entered Moscow University",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-chebyshev-mactutor"
+      ],
+      "source_locator": "University admission",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "083000-h09",
+      "anchor": "One of his most influential teachers was Nikolai Brashman",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-chebyshev-mactutor"
+      ],
+      "source_locator": "Mentor",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "083000-h10",
+      "anchor": "He completed his first university degree in eighteen forty-one",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-chebyshev-mactutor"
+      ],
+      "source_locator": "Degree",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "083000-h11",
+      "anchor": "appeared in French in Joseph Liouville's journal",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-chebyshev-mactutor"
+      ],
+      "source_locator": "International publication",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "083000-h12",
+      "anchor": "In eighteen forty-seven Chebyshev obtained an appointment",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-chebyshev-mactutor",
+        "history-chebyshev-petersburg"
+      ],
+      "source_locator": "Petersburg move",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "083000-h13",
+      "anchor": "In eighteen fifty-two he traveled through France, Britain, and Germany",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-chebyshev-mactutor"
+      ],
+      "source_locator": "Official industrial visits",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "083000-h14",
+      "anchor": "he met Peter Gustav Lejeune Dirichlet",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-chebyshev-mactutor"
+      ],
+      "source_locator": "Dirichlet, Liouville, Cayley, Sylvester meetings",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "083000-h15",
+      "anchor": "the design of mechanisms presented a precise and difficult question",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-chebyshev-mactutor"
+      ],
+      "source_locator": "Mechanics and approximation",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "083000-h16",
+      "anchor": "minimize the maximum error",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-chebyshev-mactutor"
+      ],
+      "source_locator": "Minimax legacy",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "083000-h17",
+      "anchor": "mid-nineteenth century, mathematicians had long suspected",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-chebyshev-mactutor",
+        "history-chebyshev-primes"
+      ],
+      "source_locator": "Prime bounds vs full theorem",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "083000-h18",
+      "anchor": "which would be proved later by Jacques Hadamard",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-chebyshev-mactutor",
+        "history-chebyshev-primes"
+      ],
+      "source_locator": "Later PNT proof 1896",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "083000-h19",
+      "anchor": "He also proved a version of a conjecture proposed by Joseph Bertrand",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-chebyshev-mactutor",
+        "history-chebyshev-bertrand"
+      ],
+      "source_locator": "Bertrand postulate proof",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "083000-h20",
+      "anchor": "Chebyshev's eighteen fifty-two proof",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-chebyshev-bertrand",
+        "history-chebyshev-mactutor"
+      ],
+      "source_locator": "Bertrand proof date",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "083000-h21",
+      "anchor": "His studies of the law of large numbers",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-chebyshev-mactutor"
+      ],
+      "source_locator": "Probabilistic work",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "083000-h22",
+      "anchor": "the probability of a random quantity differing from its mean",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-chebyshev-mactutor"
+      ],
+      "source_locator": "Probabilistic inequality historical lineage",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "083000-h23",
+      "anchor": "Among the later figures associated with this tradition were Andrey Markov",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-chebyshev-mactutor"
+      ],
+      "source_locator": "School and pupils",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "083000-h24",
+      "anchor": "In eighteen eighty-two he retired",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-chebyshev-petersburg",
+        "history-chebyshev-mactutor"
+      ],
+      "source_locator": "Retirement",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "083000-h25",
+      "anchor": "He died in St. Petersburg in December eighteen ninety-four",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-chebyshev-petersburg",
+        "history-chebyshev-mactutor"
+      ],
+      "source_locator": "Death",
+      "audit_status": "source_cross_checked"
+    }
+  ]
+}

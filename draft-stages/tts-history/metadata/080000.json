@@ -1,0 +1,282 @@
+{
+  "schema_version": 1,
+  "lecture_id": "080000",
+  "transcript": "080000-jakob-bernoulli.md",
+  "related_resources": [
+    {
+      "source_id": "history-bernoulli-birthday",
+      "reason": "Historical birthday calendar discrepancy: 1654 old style versus 1655 new style; education and biography."
+    },
+    {
+      "source_id": "history-bernoulli-edo",
+      "reason": "Power sums and Bernoulli numbers, parallel mathematical history, detailed family editorial network."
+    },
+    {
+      "source_id": "history-bernoulli-johann",
+      "reason": "The younger brother, career and public disputes; helps avoid one-sided account of rivalry."
+    },
+    {
+      "source_id": "history-bernoulli-mactutor",
+      "reason": "Family origin, theology, tours, Basel appointment, Johann disputes, curves and Ars Conjectandi."
+    },
+    {
+      "source_id": "history-bernoulli-mattmuller",
+      "reason": "Manuscript history, Bernoulli family custody, delayed 1713 printing and editorial roles."
+    },
+    {
+      "source_id": "history-bernoulli-sylla",
+      "reason": "Bernoulli probability program, law of large numbers, Huygens and subsequent historical interpretation."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "080000-h01",
+      "anchor": "Jakob was born in Basel in the middle of the seventeenth century",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-bernoulli-mactutor",
+        "history-bernoulli-birthday"
+      ],
+      "source_locator": "Birth and historical setting",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "080000-h02",
+      "anchor": "December twenty-seventh, sixteen fifty-four",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-bernoulli-birthday",
+        "history-bernoulli-mactutor"
+      ],
+      "source_locator": "Calendar conversion",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "080000-h03",
+      "anchor": "earlier ancestors had migrated from the Low Countries",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-bernoulli-mactutor"
+      ],
+      "source_locator": "Merchant/refugee ancestry",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "080000-h04",
+      "anchor": "completed a master's degree in philosophy in sixteen seventy-one",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-bernoulli-mactutor"
+      ],
+      "source_locator": "Philosophical schooling",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "080000-h05",
+      "anchor": "theology qualification in sixteen seventy-six",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-bernoulli-mactutor"
+      ],
+      "source_locator": "Theological schooling",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "080000-h06",
+      "anchor": "worked as a tutor in Geneva",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-bernoulli-mactutor"
+      ],
+      "source_locator": "Travels and tutoring",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "080000-h07",
+      "anchor": "claims about cometary motion that did not survive",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-bernoulli-mactutor"
+      ],
+      "source_locator": "Early astronomy",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "080000-h08",
+      "anchor": "he lectured on mechanics in the early sixteen eighties",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-bernoulli-mactutor"
+      ],
+      "source_locator": "Basel lectures",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "080000-h09",
+      "anchor": "he married Judith Stupanus",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-bernoulli-mactutor"
+      ],
+      "source_locator": "Marriage and children",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "080000-h10",
+      "anchor": "professor of mathematics at the University of Basel in sixteen eighty-seven",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-bernoulli-mactutor"
+      ],
+      "source_locator": "Appointment",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "080000-h11",
+      "anchor": "Leibniz had published a short account of differential calculus in sixteen eighty-four",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-bernoulli-mactutor"
+      ],
+      "source_locator": "Leibniz original publication",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "080000-h12",
+      "anchor": "younger brother Johann",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-bernoulli-mactutor",
+        "history-bernoulli-johann"
+      ],
+      "source_locator": "Brother relationship",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "080000-h13",
+      "anchor": "They also had overlapping professional interests",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-bernoulli-johann",
+        "history-bernoulli-mactutor"
+      ],
+      "source_locator": "Public rivalry and priority disputes",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "080000-h14",
+      "anchor": "Jakob, Johann, and other contemporaries including Huygens and Leibniz",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-bernoulli-mactutor",
+        "history-bernoulli-johann"
+      ],
+      "source_locator": "Catenary challenge",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "080000-h15",
+      "anchor": "Jakob was particularly attached to the logarithmic spiral",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-bernoulli-mactutor"
+      ],
+      "source_locator": "Curve, gravestone",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "080000-h16",
+      "anchor": "Gambling problems had already attracted Pascal, Fermat, Huygens",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-bernoulli-sylla"
+      ],
+      "source_locator": "Intellectual predecessors",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "080000-h17",
+      "anchor": "developed the central result over many years",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-bernoulli-mattmuller"
+      ],
+      "source_locator": "Dates of probability research",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "080000-h18",
+      "anchor": "He did not complete a polished book before his death",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-bernoulli-mattmuller",
+        "history-bernoulli-mactutor"
+      ],
+      "source_locator": "Unfinished manuscript",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "080000-h19",
+      "anchor": "finally appeared in seventeen thirteen",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-bernoulli-mattmuller",
+        "history-bernoulli-sylla"
+      ],
+      "source_locator": "Posthumous publication",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "080000-h20",
+      "anchor": "Jakob's widow Judith and his son Nicolaus",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-bernoulli-mattmuller",
+        "history-bernoulli-edo"
+      ],
+      "source_locator": "Manuscript custody",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "080000-h21",
+      "anchor": "The nephew Nicolaus Bernoulli",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-bernoulli-mattmuller",
+        "history-bernoulli-edo"
+      ],
+      "source_locator": "Nephew editorial role and corrections",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "080000-h22",
+      "anchor": "It engaged with Christiaan Huygens's work",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-bernoulli-sylla"
+      ],
+      "source_locator": "Book content",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "080000-h23",
+      "anchor": "This is the weak law of large numbers",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-bernoulli-sylla"
+      ],
+      "source_locator": "Modern formulation of Bernoulli theorem",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "080000-h24",
+      "anchor": "The Bernoulli numbers belong to a different line of work",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-bernoulli-edo"
+      ],
+      "source_locator": "Power sums, separate contribution",
+      "audit_status": "source_checked"
+    }
+  ]
+}
