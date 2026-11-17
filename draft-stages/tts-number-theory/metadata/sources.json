@@ -699,6 +699,90 @@
       "url": "https://en.wikipedia.org/wiki/Ideal_class_group",
       "access": "free_no_login",
       "notes": "Class group definition and examples."
+    },
+    "nt-zagier-newman": {
+      "title": "Don Zagier, Newman's Short Proof of the Prime Number Theorem, American Mathematical Monthly 104 (1997), 705–708",
+      "kind": "peer_reviewed_expository_article",
+      "url": "https://people.mpim-bonn.mpg.de/zagier/files/doi/10.2307/2975232/fulltext.pdf",
+      "access": "free_no_login",
+      "notes": "Author-hosted article; original analytic proof by D. J. Newman; inspected main proof on p. 707."
+    },
+    "nt-newman-1980": {
+      "title": "D. J. Newman, Simple analytic proof of the prime number theorem, American Mathematical Monthly 87 (1980), 693–696",
+      "kind": "primary_research_article",
+      "url": "https://doi.org/10.2307/2321853",
+      "access": "publication_metadata_public_fulltext_may_require_access",
+      "notes": "Historical primary citation for the method; proof cross-checked using Zagier and the Isabelle formalization. Access to DOI article may require library access."
+    },
+    "nt-isabelle-newman": {
+      "title": "Manuel Eberl, Formalization of Newman–Ingham Tauberian theorem, Isabelle Archive of Formal Proofs",
+      "kind": "formal_proof",
+      "url": "https://isa-afp.org/browser_info/current/AFP/Prime_Number_Theorem/Newman_Ingham_Tauberian.html",
+      "access": "free_no_login",
+      "notes": "Machine-checked formal treatment of the Newman–Ingham analytic Tauberian step."
+    },
+    "nt-sharifi-dedekind": {
+      "title": "Romyar Sharifi, Algebraic Number Theory, Chapter 2: Dedekind domains",
+      "kind": "university_course_notes",
+      "url": "https://www.math.ucla.edu/~sharifi/notes/algnum-ch02.html",
+      "access": "free_no_login",
+      "notes": "University-hosted HTML lecture notes, especially §§2.1–2.3 and proofs of invertibility and unique prime-ideal factorization."
+    },
+    "nt-wiki-tauberian": {
+      "title": "Wikipedia, Tauberian theorems",
+      "kind": "encyclopedia_background",
+      "url": "https://en.wikipedia.org/wiki/Tauberian_theorems",
+      "access": "free_no_login",
+      "notes": "Background and definitions; not sole source for nontrivial proofs."
+    },
+    "nt-wiki-laplace": {
+      "title": "Wikipedia, Laplace transform",
+      "kind": "encyclopedia_background",
+      "url": "https://en.wikipedia.org/wiki/Laplace_transform",
+      "access": "free_no_login",
+      "notes": "Background and definitions; not sole source for nontrivial proofs."
+    },
+    "nt-wiki-pnt": {
+      "title": "Wikipedia, Prime number theorem",
+      "kind": "encyclopedia_background",
+      "url": "https://en.wikipedia.org/wiki/Prime_number_theorem",
+      "access": "free_no_login",
+      "notes": "Background and definitions; not sole source for nontrivial proofs."
+    },
+    "nt-wiki-ring-of-integers": {
+      "title": "Wikipedia, Ring of integers",
+      "kind": "encyclopedia_background",
+      "url": "https://en.wikipedia.org/wiki/Ring_of_integers",
+      "access": "free_no_login",
+      "notes": "Background and definitions; not sole source for nontrivial proofs."
+    },
+    "nt-wiki-discrete-valuation": {
+      "title": "Wikipedia, Discrete valuation ring",
+      "kind": "encyclopedia_background",
+      "url": "https://en.wikipedia.org/wiki/Discrete_valuation_ring",
+      "access": "free_no_login",
+      "notes": "Background and definitions; not sole source for nontrivial proofs."
+    },
+    "nt-wiki-ideal-norm": {
+      "title": "Wikipedia, Ideal norm",
+      "kind": "encyclopedia_background",
+      "url": "https://en.wikipedia.org/wiki/Ideal_norm",
+      "access": "free_no_login",
+      "notes": "Background and definitions; not sole source for nontrivial proofs."
+    },
+    "nt-wiki-localization": {
+      "title": "Wikipedia, Localization (commutative algebra)",
+      "kind": "encyclopedia_background",
+      "url": "https://en.wikipedia.org/wiki/Localization_(commutative_algebra)",
+      "access": "free_no_login",
+      "notes": "Background and definitions; not sole source for nontrivial proofs."
+    },
+    "nt-wiki-fractional-ideal": {
+      "title": "Wikipedia, Fractional ideal",
+      "kind": "encyclopedia_background",
+      "url": "https://en.wikipedia.org/wiki/Fractional_ideal",
+      "access": "free_no_login",
+      "notes": "Background and definitions; not sole source for nontrivial proofs."
     }
   }
 }

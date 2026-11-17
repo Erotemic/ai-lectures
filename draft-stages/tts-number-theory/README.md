@@ -1,6 +1,6 @@
 # Number Theory from First Principles
 
-A proof-driven course connecting integer arithmetic with algorithms, algebraic structure, and analytic number theory. It starts with gcds, congruences, integer equations, reciprocity, and finite fields, and develops the analytic machinery required for a **complete proof of Dirichlet's theorem** and elementary **Chebyshev prime-counting bounds**. The course currently contains **32 substantive lectures**.
+A proof-driven course connecting integer arithmetic with algorithms, algebraic structure, and analytic number theory. It starts with gcds, congruences, integer equations, reciprocity, and finite fields, and develops the analytic machinery for complete proofs of **Dirichlet's theorem**, the **prime number theorem**, and **Dedekind prime-ideal factorization**, including ideal norms. The course currently contains **37 substantive lectures**.
 
 The opening lectures assume only integer arithmetic, fractions, elementary algebra, and a willingness to follow proofs. Later lectures build their own analysis and character foundations rather than presupposing advanced number theory. Each manuscript has one extractable spoken lecture and a display-only mathematical companion with worked equations, exercises, claim-level reading records, and Wikipedia references. Length and word counts describe the manuscripts; they are not duration targets.
 
@@ -37,11 +37,16 @@ The opening lectures assume only integer arithmetic, fractions, elementary algeb
 | `025500` | [Frobenius, Subfields, and Testing Irreducibility](025500-frobenius-subfields-and-irreducibility.md) | 2,607 |
 | `026000` | [Contours, Cauchy's Formula, and the Geometry of Complex Analysis](026000-contours-cauchy-and-laurent-series.md) | 2,006 |
 | `026500` | [The Zeta Function, Its Zeros, and the Line One](026500-the-zeta-function-and-the-line-one.md) | 1,885 |
+| `026750` | [Newman's Tauberian Theorem: A Contour That Recovers a Limit](026750-newmans-tauberian-theorem.md) | 2,186 |
 | `027000` | [Quadratic Integers, Norms, and the Failure of Element Factorization](027000-quadratic-integers-norms-and-discriminants.md) | 1,765 |
 | `027250` | [Prime Ideals and How They Repair Factorization](027250-prime-ideals-repair-factorization.md) | 1,947 |
 | `027500` | [Minkowski's Lattice Argument and a Class Group of Order Two](027500-minkowski-and-the-class-group-of-negative-five.md) | 2,055 |
+| `027625` | [From Algebraic Integers to Dedekind Domains](027625-the-ring-of-integers-is-dedekind.md) | 1,974 |
+| `027750` | [Why Every Nonzero Ideal Factors Uniquely](027750-unique-factorization-of-prime-ideals.md) | 2,143 |
+| `027875` | [Local Valuations and Why Ideal Norms Multiply](027875-local-valuations-and-multiplicative-ideal-norms.md) | 1,985 |
+| `028000` | [The Prime Number Theorem, from Zeta to Counting Primes](028000-complete-prime-number-theorem.md) | 2,528 |
 
-**Total:** 32 indexed lectures, **64,449 spoken words**. 
+**Total:** 37 indexed lectures, **75,265 spoken words**. 
 
 ## Proven theorems and open boundaries
 
@@ -56,7 +61,15 @@ The opening lectures assume only integer arithmetic, fractions, elementary algeb
 - **026000–026500, Continuation 7 (analytic branch):** triangle-level Cauchy-Goursat proof, circle integral formula, Taylor/Laurent and residue toolkit, prime-power logarithmic derivative, and a complete zero-free proof for the zeta function on \(\Re(s)=1\). The Tauberian implication \(\psi(x)\sim x\) remains a stated theorem to be proved or carefully applied later.
 - **027000–027500, Continuation 7 (algebraic branch):** exact quadratic ring-of-integers classification and discriminants, the failure of element unique factorization in \(\mathbb Z[\sqrt{-5}]\), explicit prime-ideal products, a self-contained two-dimensional Minkowski argument, and class group \(\mathbb Z/2\mathbb Z\) for \(\mathbb Q(\sqrt{-5})\). The **general** Dedekind ideal-factorization/invertibility theorem is clearly cited but not fully proved here.
 
-**Not claimed as proved:** the prime number theorem \(\pi(x)\sim x/\log x\) (the Wiener-Ikehara/Tauberian bridge remains unproved here), the prime number theorem in arithmetic progressions, quantitative zero-free regions near the line \(\Re s=1\) for zeta and L-functions, the refined Gauss circle error problem, a full proof of the general Dedekind ideal theorem, and the deferred topics listed in `BACKLOG.md`. A standalone complex analysis course can deepen the power-series framework used in lectures 019000–021000; their companion supplies a direct integral-expansion justification sufficient for the Landau application.
+**Completed in Continuation 8:**
+
+- **026750:** Newman's bounded-function Tauberian theorem, with the two-contour residue identity, exact endpoint cancellation, and correctly ordered limits.
+- **027625:** general number-field integral lattice via the trace pairing; proof that every ring of integers is Noetherian, integrally closed and one-dimensional.
+- **027750:** the prime-product lemma, invertibility of every nonzero prime ideal, and existence and uniqueness of prime-ideal factorization for all nonzero integral and fractional ideals.
+- **027875:** local Dedekind rings are DVRs, prime-power residue layers have size \(N(\mathfrak p)\), and \(N(IJ)=N(I)N(J)\), completing the cited algebraic prerequisites of the earlier class-group calculation.
+- **028000:** a complete proof that \(\psi(x)\sim x\), \(\vartheta(x)\sim x\) and \(\pi(x)\sim x/\log x\). The Tauberian and unsmoothing steps are proved rather than cited.
+
+**Not claimed as proved:** quantitative zero-free regions or error terms for prime counting, the prime number theorem in arbitrary arithmetic progressions, the Riemann hypothesis, the refined Gauss circle error problem, or the p-adic local-global theorems. The earlier historical descriptions of missing proofs in Continuation 7 remain accurate for *those installments*; the newly supplied lectures close the two identified proof gaps.
 
 ## Related tracks and attribution
 

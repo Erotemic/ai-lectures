@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "lecture_id": "028000",
+  "transcript": "028000-complete-prime-number-theorem.md",
+  "related_resources": [
+    {
+      "source_id": "nt-zagier-newman",
+      "reason": "Author-hosted article; original analytic proof by D. J. Newman; inspected main proof on p. 707."
+    },
+    {
+      "source_id": "nt-newman-1980",
+      "reason": "Historical primary citation for the method; proof cross-checked using Zagier and the Isabelle formalization. Access to DOI article may require library access."
+    },
+    {
+      "source_id": "nt-isabelle-newman",
+      "reason": "Machine-checked formal treatment of the Newman–Ingham analytic Tauberian step."
+    },
+    {
+      "source_id": "nt-wiki-pnt",
+      "reason": "Background and definitions; not sole source for nontrivial proofs."
+    },
+    {
+      "source_id": "nt-wiki-chebyshev",
+      "reason": "Reading and terminology"
+    }
+  ],
+  "mathematical_claims": [
+    {
+      "id": "028000-m01",
+      "anchor": "the Laplace transform G of f equals negative zeta prime over zeta",
+      "source_ids": [
+        "nt-zagier-newman"
+      ],
+      "source_locator": "Prime-power Mellin–Laplace identity",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "028000-m02",
+      "anchor": "the ordinary integral of q of t minus one, from zero to T, converges to a finite limit",
+      "source_ids": [
+        "nt-zagier-newman",
+        "nt-isabelle-newman"
+      ],
+      "source_locator": "Tauberian theorem application",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "028000-m03",
+      "anchor": "So q of t approaches one.",
+      "source_ids": [
+        "nt-zagier-newman"
+      ],
+      "source_locator": "Unsmoothing via monotonicity",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "028000-m04",
+      "anchor": "theta of x is also asymptotic to x.",
+      "source_ids": [
+        "nt-zagier-newman"
+      ],
+      "source_locator": "Prime power error O(sqrt(x)log(x))",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "028000-m05",
+      "anchor": "pi of x is asymptotic to x divided by log x.",
+      "source_ids": [
+        "nt-zagier-newman"
+      ],
+      "source_locator": "Final partial summation",
+      "audit_status": "reading_reference_recorded"
+    }
+  ],
+  "historical_claims": []
+}

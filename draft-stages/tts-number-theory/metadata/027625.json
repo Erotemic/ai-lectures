@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "lecture_id": "027625",
+  "transcript": "027625-the-ring-of-integers-is-dedekind.md",
+  "related_resources": [
+    {
+      "source_id": "nt-sharifi-dedekind",
+      "reason": "University-hosted HTML lecture notes, especially §§2.1–2.3 and proofs of invertibility and unique prime-ideal factorization."
+    },
+    {
+      "source_id": "nt-milne-ant",
+      "reason": "Rings of integers, Dedekind domains, ideal norms, class groups and Minkowski bounds."
+    },
+    {
+      "source_id": "nt-wiki-ring-of-integers",
+      "reason": "Background and definitions; not sole source for nontrivial proofs."
+    },
+    {
+      "source_id": "nt-wiki-dedekind",
+      "reason": "Dedekind-domain terminology and theorem boundaries."
+    }
+  ],
+  "mathematical_claims": [
+    {
+      "id": "027625-m01",
+      "anchor": "Cramer's rule solves this system by dividing integer determinants by delta.",
+      "source_ids": [
+        "nt-milne-ant"
+      ],
+      "source_locator": "Trace dual lattice and discriminant denominator bound",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "027625-m02",
+      "anchor": "This says the ring is Noetherian.",
+      "source_ids": [
+        "nt-sharifi-dedekind"
+      ],
+      "source_locator": "Ring of integers finitely generated over Z",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "027625-m03",
+      "anchor": "We have proved that P is maximal.",
+      "source_ids": [
+        "nt-sharifi-dedekind"
+      ],
+      "source_locator": "Nonzero prime ideal has finite-field quotient",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "027625-m04",
+      "anchor": "The ring of ordinary integers has two reassuring properties.",
+      "source_ids": [
+        "nt-wiki-ring-of-integers"
+      ],
+      "source_locator": "Introduction and scope",
+      "audit_status": "reading_reference_recorded"
+    }
+  ],
+  "historical_claims": []
+}

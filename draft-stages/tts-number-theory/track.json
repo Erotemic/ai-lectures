@@ -1,7 +1,7 @@
 {
   "id": "number-theory",
   "title": "Number Theory from First Principles",
-  "summary": "A proof-driven introduction to integer arithmetic, Diophantine equations, finite fields and analytic number theory, now including a complete Dirichlet theorem, the zero-free line for the Riemann zeta function, and a quadratic ideal-class computation; the Tauberian prime number theorem step remains a separate goal.",
+  "summary": "A proof-driven introduction to integer arithmetic, Diophantine equations, finite fields and number-field ideals, with complete proofs of Dirichlet’s theorem, the prime number theorem via Newman’s Tauberian theorem, and unique Dedekind prime-ideal factorization with multiplicative norms.",
   "assumed_background": [
     "integer arithmetic, fractions, equations and basic algebra",
     "comfortable reading simple proofs helps; the Mathematical Reasoning and Proof course is optional preparation",
@@ -39,7 +39,12 @@
     "zeta-zero-free-line",
     "quadratic-integer-rings",
     "quadratic-prime-ideals",
-    "geometry-of-numbers-class-groups"
+    "geometry-of-numbers-class-groups",
+    "tauberian-contour",
+    "general-number-field-integers",
+    "dedekind-ideal-factorization",
+    "local-valuation-and-ideal-norm",
+    "prime-number-theorem"
   ],
   "lectures": [
     {
@@ -304,6 +309,15 @@
       "estimated_minutes_at_145_wpm": 13.0
     },
     {
+      "id": "026750",
+      "title": "Newman's Tauberian Theorem: A Contour That Recovers a Limit",
+      "section": "tauberian-contour",
+      "file": "026750-newmans-tauberian-theorem.md",
+      "spoken_words": 2186,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 15.1
+    },
+    {
       "id": "027000",
       "title": "Quadratic Integers, Norms, and the Failure of Element Factorization",
       "section": "quadratic-integer-rings",
@@ -329,6 +343,42 @@
       "spoken_words": 2055,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 14.2
+    },
+    {
+      "id": "027625",
+      "title": "From Algebraic Integers to Dedekind Domains",
+      "section": "general-number-field-integers",
+      "file": "027625-the-ring-of-integers-is-dedekind.md",
+      "spoken_words": 1974,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 13.6
+    },
+    {
+      "id": "027750",
+      "title": "Why Every Nonzero Ideal Factors Uniquely",
+      "section": "dedekind-ideal-factorization",
+      "file": "027750-unique-factorization-of-prime-ideals.md",
+      "spoken_words": 2143,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 14.8
+    },
+    {
+      "id": "027875",
+      "title": "Local Valuations and Why Ideal Norms Multiply",
+      "section": "local-valuation-and-ideal-norm",
+      "file": "027875-local-valuations-and-multiplicative-ideal-norms.md",
+      "spoken_words": 1985,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 13.7
+    },
+    {
+      "id": "028000",
+      "title": "The Prime Number Theorem, from Zeta to Counting Primes",
+      "section": "prime-number-theorem",
+      "file": "028000-complete-prime-number-theorem.md",
+      "spoken_words": 2528,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 17.4
     }
   ]
 }
