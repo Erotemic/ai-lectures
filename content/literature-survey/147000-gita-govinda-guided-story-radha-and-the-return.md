@@ -1,0 +1,62 @@
+# Gīta Govinda — Guided Story: The Night That Kept Changing Its Song
+
+<!-- BEGIN SPOKEN LECTURE -->
+
+It is spring on the banks of the Yamuna. The river is dark, the trees are in flower, and the air carries sounds that make solitude difficult to bear. A girl stands among the groves, thinking of a young man she loves. Somewhere nearby, that young man is dancing with other girls. Nothing is so wrong with the world that the birds have stopped singing. For Radha, that is part of the trouble. Every pleasant thing seems to remind her of Krishna, and every reminder hurts.
+
+This is the world of Jayadeva's Gita Govinda, the Song of Govinda, a Sanskrit composition from twelfth-century India. Govinda is a name for Krishna. The poet is concerned with a moment in Krishna's life in the pastoral landscape of Braj: not his birth, not his exploits as a warrior or royal counselor, but his love for Radha, who is at once a passionate human figure and, for generations of readers and performers, a figure of devotional longing. We will follow the poem's complete emotional arc rather than pretend it is a long adventure novel. The story occupies twelve cantos, but much of what happens is song, and the repeated motions of desire, resentment, and reconciliation matter as much as the events.
+
+Before the lovers' quarrel, the poem sings of Vishnu's manifestations. The god has taken many forms to uphold the world: fish, tortoise, boar, man-lion, dwarf, and others. The singer calls on the Lord again and again. It may seem a surprising introduction to such an intimate drama. Jayadeva wants the listener to recognize the same divinity in both dimensions. The being who saves the cosmos also enters the tender, dangerous confusion of a lover's promise. The music begins on a scale almost beyond human measure and then draws close enough to notice a bead of sweat on a face.
+
+A companion of Radha's appears. Sanskrit calls her a sakhi: a friend, confidante, and the person who can move between two lovers when neither can bear to speak plainly to the other. She describes Krishna among the cowherd women. His flute calls people toward him. The forest offers room for playful concealment. He embraces, jokes, and dances, apparently incapable of disappointing anyone because he delights everyone. But Radha does not want a general kindness. She wants to know that his attention belongs to her. The friend speaks about the spring breeze and the excited company around Krishna; Radha hears a description of her own exclusion.
+
+The poem gives Radha a remembered intimacy with him. She recalls a meeting away from the other girls: the shy approach, the exchange of signs, the quickening of confidence, the astonishment that two people could cross the distance separating them. Jayadeva is not embarrassed by physical love. The two lovers are not merely disembodied emblems of spiritual aspiration. Their attraction is felt in hands, mouths, ornaments, scents, and the sensitivity of a person who can read hope or injury in a glance. In this poem the divine does not cancel the body. Much of the poem's power depends on refusing to make that separation.
+
+Radha goes away. Krishna, who was so happily surrounded, discovers that the one person he wants most is absent. The movement of the poem shifts. Instead of hearing only how Radha suffers because Krishna has other companions, we hear Krishna lament the ease with which he let her go. He remembers her face and imagines her anger. He tries to understand how he might find her again. He knows that the companions who seemed to make the evening abundant have suddenly become a distraction. Radha, who feared she was one of many, is now the absence that makes everyone else irrelevant.
+
+The sakhi must carry information in both directions. When she finds Krishna, she tells him what his neglect has done. Radha is burning with longing. A bed of cool leaves feels hot; the breeze that should soothe her seems to intensify her suffering. She cannot occupy her mind with anything that is not Krishna. The friend can describe the girl's symptoms as a lover might and as a devotee might. The distance from Krishna is not simply geographical. Radha's attention has become a whole world from which relief is impossible unless the beloved returns.
+
+Krishna asks the friend to bring Radha to a meeting place. Now the poem takes on the odd suspense of an appointment that may fail. A grove has been chosen. The night seems made for lovers: the path is shaded, the sound of the river covers footsteps, and flowers could serve as a bed. The friend urges Radha to go, describing Krishna waiting for her. But getting from wounded pride to renewed trust is not the same as walking down a path. Radha needs to decide whether an invitation is enough. She wants him and resents having to answer his call. The poem lingers in that refusal; desire does not automatically erase indignation.
+
+Krishna waits. He imagines the sound of her ornaments before he sees her. A moving leaf might be a footfall; a shadow might be her figure. But the place remains empty. Radha has become the one who does not arrive, and for a moment the lovers' positions seem reversed. The sakhi moves again, telling each what the other is suffering. The evening is sustained by a problem that could sound trivial if reduced to a sentence: two people who want to meet are not meeting. Jayadeva turns it into a whole sequence of anticipations and delays. Every delay changes what reunion will mean.
+
+Radha begins imagining another reason for Krishna's absence. Perhaps he has gone to a different woman. Perhaps the garland prepared for her has been given away, and the bed she had been promised is occupied. She pictures a rival whose ornaments have been disordered by an embrace, whose body bears the signs of an encounter. The images are detailed because jealousy is detailed. It does not merely announce, 'I have been betrayed.' It makes pictures and then suffers as though it had witnessed them. The poem moves between what a character knows and what she fears, and the distinction is not always a comfortable one to hear.
+
+Then Krishna appears. It ought to settle everything. It does not. The marks of a night spent elsewhere, as Radha understands them, are visible to her. She addresses him with bitter ceremony, telling him to go back to the woman who has kept him. She names his excuses as deceit. The lover whose departure seemed the greatest calamity has returned and is now refused. This is no simple portrait of a patient woman waiting for a divine beloved who may do as he pleases. Radha accuses, judges, and makes Krishna face the injury he has caused. Jayadeva allows her anger its full sound.
+
+The friend has another task. She must persuade Radha that clinging to anger will not give her what she wants. Yet the friend's counsel is not a verdict that Radha was wrong to feel wounded. It comes from the practical knowledge that love can become a prison if every longing ends in a fresh refusal. Krishna, too, must abandon the posture of effortless charm. In one of the poem's most startling movements, he begs Radha to set her feet upon his head. A figure associated with divine supremacy asks the beloved to place herself over him. The gesture can be heard as desperate lover's language, a poetic reversal of hierarchy, and an image that devotees have understood with theological intensity.
+
+Notice the distance the poem has traveled. At the beginning Krishna is the center of a circle, attracting dancers and laughter. Radha stands outside that circle, hurt by how easily he delights in the company of others. Now Krishna is the one who asks permission. He cannot simply command love. The poem is not without unequal power or contradictions, but this reversal is one of the reasons the lovers have remained so compelling. Radha's answer matters. If she returns, it is not because she has been erased from the story.
+
+The companion prepares the reconciliation. She tells Radha that the grove is ready and Krishna waits without the triumphant confidence of a conqueror. The night that seemed full of obstacles becomes passable. Radha approaches, shy now for a different reason. Earlier she could not bear the possibility that he had given himself to someone else. Now the danger is how much she wants to be near him. The friend withdraws. The two are allowed to be together without another messenger reporting every gesture.
+
+Their union is neither a sudden change of scene nor a merely abstract blessing. Jayadeva follows it with an intimate request. Radha asks Krishna to restore the ornaments their love has displaced: arrange her hair, set her earrings right, trace adornments on her body. The lover who wandered among others has become the person attending closely to her. The poem ends not with a battle, a kingdom, or a marriage ceremony, but with the work of making a loved person beautiful again after the disarray of passion. For the story's devotional audiences, such attention can also be a vision of divine nearness.
+
+There are things this telling has deliberately not imitated. Jayadeva alternates recitative verses with twenty-four extended songs, each associated in transmitted texts with musical directions. The lyrical voice moves among Radha, Krishna, her friend, and the poet's own appeals. The same longing may be sung through repeated images before the next event arrives. In a spoken overview we can follow the changing situation; we cannot reproduce what happens when the refrain returns with the pressure of a melody. Nor should we pretend that the poem says exactly what one later dance or theological school makes it say. It can sustain several kinds of attention at once.
+
+The story is modest in outward action: a beloved sees her lover in the company of others, leaves, longs, resists, reproaches, and returns. But the poem makes the hours feel larger than a year. Weather, music, imagination, and the body all become sensitive instruments registering distance. At the end the river has not moved, and spring is still spring. The difference is that Radha can stand beside Krishna again. Jayadeva's extraordinary wager is that this small movement of two figures toward one another can carry a whole universe of feeling.
+
+<!-- END SPOKEN LECTURE -->
+
+## Text and evidence companion (not spoken)
+
+### Witness and scope
+
+Original English audio-first account of the full emotional and dramatic arc of the received twelve-sarga, twenty-four-song *Gīta Govinda*. Not a translation, staged dialogue, or replacement for hearing the songs. The source is the Sanskrit text in the Indira Gandhi National Centre for the Arts transcription and the SanskritDocuments Devanagari presentation; narrative sequence checked with the IGNCA guide. The sakhi is described as a mediating role without insisting that every occurrence must be the same historical or fictional woman. The staging of lovers' imagined encounters is marked as imagination when the poem presents it that way. Variants in musical rubrics and regional performances are not collapsed into a single original concert.
+
+### Source locators
+
+- Opening invocation and the other women: sarga 1, songs 1–4, especially the praise of Vishnu's avatars and spring scenes.
+- Radha's memories, Krishna's regret, and the messenger's report: sargas 2–4, songs 5–9.
+- The planned rendezvous and the empty bower: sargas 5–6, songs 10–12.
+- Radha's imagined rival and her accusation at Krishna's arrival: sargas 7–8, songs 13–17.
+- Advice, Krishna's entreaty, and reconciliation: sargas 9–11, songs 18–23.
+- Intimate reunion and Radha's request to be adorned: sarga 12, song 24.
+
+### Sources and further reading
+
+- [Indira Gandhi National Centre for the Arts: *Gīta Govinda*, Sanskrit text](https://ignca.gov.in/sanskrit/gita_govinda.pdf) — named primary original-language witness.
+- [SanskritDocuments: Jayadeva's *Gītagovindam*](https://sanskritdocuments.org/doc_vishhnu/giitagovindaM.html) — independent transcribed Sanskrit text.
+- [IGNCA: *Gita Govinda* presentation and descriptive guide](https://ignca.gov.in/divisionss/cultural-informatics/gita-govinda/) — narrative and music/dance context.
+- [Metropolitan Museum of Art: Radha with Her Confidant](https://www.metmuseum.org/art/collection/search/662782) — later pictorial reception of longing and mediation.
+- [Wikipedia: *Gita Govinda*](https://en.wikipedia.org/wiki/Gita_Govinda) — orientation only.

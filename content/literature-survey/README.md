@@ -395,3 +395,10 @@ and exact paragraph-level claim anchors are in the companion notes and
 The pack now contains **144 indexed lectures**. Audio times are calculated
 from the narration, not used as editing targets. No binary images or generated
 audio are present.
+
+## World literature rotation: Jayadeva and the Kalevala (2026-11-17)
+
+- `147000`–`148000`: **Gīta Govinda** — one song-aware complete dramatic telling and one analysis of the Sanskrit work’s poetic, devotional, dance, and painting histories. Anchored in a received twelve-sarga original-language text, distinguishing later performance traditions and uncertain biography.
+- `149000`–`151000`: **Kalevala (1849)** — two full-major-arc story surveys spanning all fifty runos followed by an analysis distinguishing Lönnrot’s published literary construction from the Finnish/Karelian oral-poetry sources and named singers. The two-part narrative is not a full rendering of every line of the epic.
+
+The pack now has 149 indexed recordings. All five manuscripts carry source companions, orientation Wikipedia links, named edition boundaries, and paragraph-level source locators. The four source categories (original text, named English translation, specialist scholarship, and orientation) are not conflated. Word counts and durations are measured from spoken regions, never prescribed. No audio or binary imagery is included.

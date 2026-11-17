@@ -230,3 +230,11 @@ ledger above is the current status, rather than the stale queue wording.
   twentieth-century fiction.
 
 **Current literature-survey index: 144 entries.**
+
+## Rotation update — twelfth-century South Asia and nineteenth-century Finnish/Karelian epic (17 November 2026)
+
+- **Completed, source-defined:** Jayadeva's *Gīta Govinda*, `147000` guided narrative and `148000` analysis. The first gives the received poem's complete estrangement/reunion arc without manufacturing a novel or reproducing its twenty-four musical songs; the second addresses rasa, bhakti, sacral-erotic interpretation, the sakhi, and later performance/painting. Based on an identified Sanskrit text rather than an unexamined recent translation.
+- **Completed, book-defined:** *Kalevala*, `149000`–`151000`: two cohesive story treatments of the 1849 fifty-runo edition, plus criticism and 1835/1849 textual history. The narrative gives the major cycles (Aino, Sampo, Lemminkäinen, Kullervo, kantele, Louhi, Marjatta) rather than one runo per lecture. It is the edited epic by Lönnrot, not a transcript of a unique ancient singer.
+- **Next high-value gap candidates after duplication audit:** *Kebra Nagast* (medieval Ethiopian Geʽez, with carefully identified written witness and biblical-source reception), *Tirukkural* (classical Tamil didactic poems; guided listening, no fabricated plot), *I La Galigo* (Bugis epic; needs named text/translation and source-readiness review), and *Kumulipo* (Hawaiian chant; community-custodianship and version study before retelling). Further modern work can be chosen by demonstrable impact rather than geography alone.
+
+**Current literature-survey index: 149 entries.**
