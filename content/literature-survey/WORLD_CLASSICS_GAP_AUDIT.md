@@ -246,3 +246,10 @@ ledger above is the current status, rather than the stale queue wording.
 - **Next important gaps to investigate:** *I La Galigo* (Bugis, Sulawesi, requiring a named edition and locally grounded interpretation), the *Kumulipo* (Hawaiian genealogical chant, with identified manuscripts/performances), *Popol Wuj* historical/critical companions rather than duplicate story lectures, and further globally consequential canonical works based on audited existing coverage rather than rotation as a quota. Consider modern work as well, not only ancient epics.
 
 **Current literature-survey index: 155 entries.**
+
+## Southeast Asian and Hawaiian source-bounded coverage (2026-11-17)
+
+- *La Galigo* (`158000`–`160000`): two selected narrative movements and an analysis. Named primary manuscript context is Leiden NBG-Boeg 188 (twelve-volume nineteenth-century compilation); accessible official and specialist summaries were used. **Not** a complete epic translation, a complete single original text, or an authorized Bugis-language performance. Further source-localized expansion requires the relevant Bugis/Indonesian editions and attention to living custodianship.
+- *Kumulipo* (`161000`–`163000`): two guided readings and an analysis of Liliʻuokalani's identified 1897 English witness. All sixteen period divisions are in scope at overview level; the 1897 printed genealogy is distinguished from the sung body. The chant is not reduced to Western evolutionary theory or claimed as an authorized contemporary ritual performance.
+
+The source audit for these two has advanced from 'research before authoring' to **selected textual coverage**. Earlier dated queues above are historical snapshots of planning decisions, not current lists of absent works. Future selection should return to the most influential missing works across changing centuries and regions, checking for duplication first.
