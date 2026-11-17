@@ -87,7 +87,21 @@ The first four priority commissions are now **authored and indexed** in the
 
 **Sixth ancient-work installment completed (2026-11-16):** *The Eloquent Peasant* (`048000`); *The Song of Ullikummi* (`049000`, with fragmentary text boundaries); *Erra and Ishum* (`050000`–`051000`, tablets I–V, some tablet II–V claims based on scholarly synthesis rather than direct collation); the ancient Elephantine *Ahiqar* narrative and proverbs (`052000`); and a deliberately **separate later Syriac-style expanded narrative** (`053000`) with Egyptian riddles. The Elephantine manuscript does not preserve the latter scenes. The source bases and original narration are in the manuscript companions and claim sidecars.
 
-**Next queue to commission:** Euripides’s *Medea* and *Bacchae*, the *Buddhacarita*, the *Song of Kumarbi*, the Hittite *Illuyanka* tales and *Telepinu*, and short ancient narrative books such as *Ruth* and *Jonah*. Also consider *Enmerkar and En-suhgir-ana*, *The Shipwrecked Sailor* if the existing World History coverage is only survey-level, and the Greek *Epic Cycle* fragments. Verify current cross-pack coverage before assigning any IDs; the priority list is not an unfilled-playback claim.
+**Next queue to commission (geographically rotating):** *Ruth* and *Jonah* (ancient Hebrew/Levant), Euripides’s *Bacchae* (Greek drama), the *Song of Kumarbi*, *Illuyanka* and *Telepinu* (Anatolia), selections from the *Shijing* / Classic of Poetry (China), and *Ṛgveda* dialogue hymns (South Asia). Also consider *Enmerkar and En-suhgir-ana*, *The Shipwrecked Sailor* only if the existing World History coverage is survey-level, and Greek Epic Cycle fragments with explicit gaps. **Rotate geographically between commissions** rather than consuming entire regional backlogs in succession. Indigenous oral traditions require public named custodians and authorization appropriate to the proposed use; place later written witnesses (e.g. *Popol Wuj*) in clearly labeled historical strata. Verify cross-pack coverage before issuing any IDs.
+
+## Seventh installment: Geographic rotation across five traditions (2026-11-16)
+
+Seven scene-focused narrations are now **authored and indexed**, not merely planned:
+
+| IDs | Region and work | Documented textual boundary |
+|---|---|---|
+| `054000` | Greek — Euripides, *Medea* | One surviving 431 BCE tragedy, lines 1–1419; separate from Apollonius’s later Argonaut narrative |
+| `055000`–`057000` | South Asia — Aśvaghoṣa, *Buddhacarita* | Sanskrit cantos I–XIV (breaking partway through XIV); Chinese-transmitted chapters XV–XXVIII explicitly separate and not represented as extant Sanskrit |
+| `058000` | China — *Li Sao* (received *Chu Ci*) | Complete poem’s poetic speaker and celestial travels; historical Qu Yuan identification is a later interpretive frame, not proved biography |
+| `059000` | Ancient Iran — Zamyad Yasht, Avesta Yasht 19 | An episodic hymn of mountains and khvarenah, not an invented continuous epic; later *Shahnameh* figures distinguished |
+| `060000` | Egypt — First Setne tale (P. Cairo 30646) | Extant Demotic narrative with the initial two papyrus pages absent; nested family story, book theft, Tabubu and reunion |
+
+This introduces a **geographic rotation policy for future batches**: interleave different regions and literary forms, giving each work enough room for its complete surviving narrative or identifiable selection, rather than working one continent’s backlog to exhaustion. Separate material survival, ancient composition, later manuscript versions and scholarly reconstruction. Include Wikipedia as an orientation aid but prefer primary texts and specialist scholarship for claims. No fixed duration quota or mechanical scene count applies.
 
 ## Fifth installment: Westcar, Enmerkar, Sāvitrī, Jātakas and The Little Clay Cart
 

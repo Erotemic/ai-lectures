@@ -137,3 +137,18 @@ Six new source-bounded original narrations cover four commissioned works. Their 
 - `053000`: **Ahiqar in Later Retellings: The Sage and the Impossible Tasks** (1,851 spoken words; 12.8 min at 145 wpm; 22 source-linked anchors).
 
 The *Ahiqar* Elephantine papyrus ends before the later Egyptian riddle contest; that later transmitted form has its own separate recording. The *Ullikummi* text is damaged, and the *Erra* tablet sequence contains interpretive ambiguities. Bibliographic records link relevant Wikipedia articles only as orientation. No generated media or binary illustrations are included.
+
+
+## Geographic rotation — Greek, South Asian, Chinese, Avestan and Egyptian works (2026-11-16)
+
+This seven-lecture batch rotates across five areas rather than staying with one literature for an entire installment. Titles are separate source-bound narratives, not claims about the historical truth of divine or supernatural events.
+
+- `054000`: **Euripides, Medea: A House with No Safe Door** (1,822 spoken words; `metadata/054000.json`). Specific Euripidean version of Medea. Jason’s later characterization in Apollonius’s Argonautica is a separate later witness.
+- `055000`: **Buddhacarita, Part One: The Prince Who Saw Suffering** (1,520 spoken words; `metadata/055000.json`). Literary devotional biography, not an independently attested royal itinerary; Sanskrit received-text layer only.
+- `056000`: **Buddhacarita, Part Two: The Long Night of Awakening** (1,488 spoken words; `metadata/056000.json`). Sanskrit stops partway through canto XIV; subsequent awakening phrasing identified as later transmitted tradition, not claimed verbatim surviving Sanskrit.
+- `057000`: **Buddhacarita, Part Three: The Teacher and His Last Journey** (1,618 spoken words; `metadata/057000.json`). This is a Chinese-transmitted narrative witness, not a reconstruction of missing Sanskrit verses or an independently verified biography.
+- `058000`: **Li Sao: The Road Out of Chu** (1,614 spoken words; `metadata/058000.json`). The narrator’s self-description is read as poetic voice, not established autobiography; Wang Yi’s Qu Yuan reading is later interpretation.
+- `059000`: **Zamyad Yasht: The Glory No King Can Own** (1,503 spoken words; `metadata/059000.json`). Narrates a hymn with episodic catalogues, not a fabricated continuous novel. Middle Persian/Shahnameh analogues not silently inserted as original Avestan text.
+- `060000`: **Setne: The Book from the Tomb** (1,959 spoken words; `metadata/060000.json`). Ancient Egyptian fiction written in Ptolemaic era about a much older royal prince; missing papyrus introduction is reconstructed, not recovered.
+
+Primary-text boundaries: Euripides lines 1–1419; *Buddhacarita* Sanskrit cantos I–XIV plus a **separately identified Chinese** continuation XV–XXVIII; full received Chinese *Li Sao* with the caution against equating narrator and documented Qu Yuan biography; Avestan *Yasht* 19 in episodic order; Demotic *Setne I* with the opening two pages lost. Source and orientation links are in each manuscript companion and source catalog. No audio or binary images are included.
