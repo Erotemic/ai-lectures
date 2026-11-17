@@ -98,3 +98,14 @@ Six new original narrations follow separately transmitted Greek works rather tha
 - `033000`: **Sophocles, Antigone: The Law and the Dead** (2,439 spoken words; 16.8 minutes at 145 wpm). Claim locators: `metadata/033000.json`.
 
 The four long hymns are anonymous poems collected under a conventional Homeric label. The Delian and Pythian movements of the Apollo hymn may have distinct composition histories. Sophocles's tragedies are separately composed plays, not a single Theban trilogy; their legendary sequence need not match production chronology. Companion and source records distinguish received-story claims from historical evidence. No audio, slides or other binary media are included.
+
+## Sumerian, Egyptian and Ugaritic narratives — source-bounded retellings (2026-11-16)
+
+- `034000`: **Lugalbanda in the Mountain Cave: The Soldier Left Behind** (1,673 spoken words; 11.5 min at 145 wpm; 17 source checkpoints). `metadata/034000.json`.
+- `035000`: **Lugalbanda and the Anzud Bird: The Gift of Speed** (1,768 spoken words; 12.2 min at 145 wpm; 18 source checkpoints). `metadata/035000.json`.
+- `036000`: **The Contendings of Horus and Seth: The Trial That Would Not End** (1,832 spoken words; 12.6 min at 145 wpm; 18 source checkpoints). `metadata/036000.json`.
+- `037000`: **The Report of Wenamun: The Man Who Went to Buy Timber** (1,749 spoken words; 12.1 min at 145 wpm; 19 source checkpoints). `metadata/037000.json`.
+- `038000`: **Kirta: The King Who Asked for an Heir** (1,757 spoken words; 12.1 min at 145 wpm; 21 source checkpoints). `metadata/038000.json`.
+- `039000`: **Aqhat: The Bow and the Unfinished Revenge** (1,693 spoken words; 11.7 min at 145 wpm; 20 source checkpoints). `metadata/039000.json`.
+
+The two Lugalbanda poems are distinct Sumerian compositions accessed through Oxford ETCSL. Horus/Seth follows the Ramesside Papyrus Chester Beatty I, and Wenamun is limited to the surviving Papyrus Moscow 120 ending at Alashiya. Kirta (KTU 1.14–1.16) and Aqhat (KTU 1.17–1.19) are transmitted in damaged tablets: their narrative endpoints are not invented; the Ugaritic manuscripts also cite a directly viewed online column-divided English KTU rendering, supported by scholarship, while a complete modern print critical edition was not separately inspected. Primary records, source access and interpretive boundaries appear in metadata and each manuscript companion. No binary images or generated audio are included.

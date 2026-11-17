@@ -1,7 +1,7 @@
 # Ancient Epics and Narrative Traditions — editorial roadmap
 
 **Prepared:** 2026-11-16
-**Updated:** 2026-11-16 — first three written-work installments completed; living oral-tradition strand preserved
+**Updated:** 2026-11-16 — four written-work installments completed; living oral-tradition strand preserved
 **Status:** active editorial queue; published lecture IDs are maintained in `track.json`
 **Owning pack for new standalone readings:** `content/literature-survey/`
 **Listening route:** `literature-survey:ancient-narratives`
@@ -80,7 +80,9 @@ The first four priority commissions are now **authored and indexed** in the
 
 **Third written-work installment completed (2026-11-16):** the four long anonymous *Homeric Hymns*—to Demeter, Apollo, Hermes and Aphrodite—are `literature-survey:028000`–`031000`; Sophocles's independent tragedies *Oedipus Tyrannus* and *Antigone* are `032000`–`033000`. Six source-bounded narrations and claim records follow the received texts; dates, authorship and play chronology are distinguished.
 
-**Next queue to commission:** the earlier Mesopotamian and Egyptian traditions: *Lugalbanda* (treat its two Sumerian poems separately), Egyptian *The Contendings of Horus and Seth* and *The Report of Wenamun*, with the *Westcar Papyrus* and *Enmerkar* next. Then the Ugaritic *Keret* and *Aqhat*, with fragment boundaries visible; then Savitrī, individual Jātaka narratives and *Mṛcchakaṭika*. The rest of the roadmap below remains open.
+**Fourth written-work installment completed (2026-11-16):** two separate Lugalbanda compositions (`034000`–`035000`), Egyptian *The Contendings of Horus and Seth* and *The Report of Wenamun* (`036000`–`037000`), and the damaged Ugaritic *Kirta/Keret* and *Aqhat* texts (`038000`–`039000`). Their extant endings and material lacunae are explicitly identified; modern full print critical Ugaritic editions still merit separate review; the accessible online KTU column translation has been cross-checked.
+
+**Next queue to commission:** Egyptian *Westcar Papyrus*, Sumerian *Enmerkar and the Lord of Aratta*, *Savitrī and Satyavān* from the *Mahābhārata*, individually identified *Jātaka* stories, and Śūdraka's *Mṛcchakaṭika*. Consider further Hittite *Kumarbi* cycles only with precise tablet witnesses. The rest of the roadmap below remains open.
 
 ## First priority: the next eight commissions
 
@@ -182,6 +184,10 @@ Each row is a **future project**, not an entry already in the playable catalog.
 The labels describe the proposed treatment: **full** = follow the complete
 surviving work; **selected** = name and teach discrete pieces in a corpus;
 **fragment-critical** = tell only what the preserved evidence permits.
+
+### Completed Sumerian, Egyptian, and Ugaritic narrative commission
+
+**Authored and indexed, 2026-11-16:** `034000` *Lugalbanda in the Mountain Cave* and `035000` *Lugalbanda and the Anzud Bird*, separately following Oxford ETCSL; `036000` the *Contendings of Horus and Seth* in Papyrus Chester Beatty I; `037000` *The Report of Wenamun*, surviving through the Alashiya encounter; and the damaged Ugaritic `038000` *Kirta/Keret* and `039000` *Aqhat*. The proposals for these six received texts in the table below are now **complete**. Some source work remains open: in particular, direct comparison with a current printed critical edition of KTU 1.14–1.19 and its tablet-breaks; online KTU column divisions are already cited. Do not present later scholarly conjectures as securely preserved scenes.
 
 ### Mesopotamia, Egypt, Anatolia, and the Levant
 

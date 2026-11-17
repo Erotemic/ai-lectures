@@ -1,0 +1,60 @@
+# The Report of Wenamun: The Man Who Went to Buy Timber
+
+An original complete-surviving-extent narration of the Egyptian *Report of Wenamun* / *Journey of Wenamun*, using the preserved text of Papyrus Moscow 120. The final portion is missing. Its first-person voice is not treated as independently authenticated travel testimony, and a modern narrator does not provide the lost return to Egypt.
+
+<!-- BEGIN SPOKEN LECTURE -->
+
+The man has letters of authority. He carries the name of a powerful god, the instructions of important officials, and an urgent commission. He is supposed to bring back timber for a sacred boat. He ought to be welcome wherever the great reputation of Egypt is known. Instead he finds himself on a foreign shore, arguing with a local ruler about stolen money.
+
+His name is Wenamun, and the story of his journey is one of the most human surviving narratives from ancient Egypt. It is full of practical humiliations. The hero does not defeat a monster, receive an enchanted weapon, or seize a throne. He tries to finish a job. Each official he meets has his own interests. Each delay makes the original errand harder. At several points the difference between being sent on an important mission and possessing the means to carry it out becomes painfully clear.
+
+Wenamun serves Amun, the great god whose temple at Thebes holds enormous religious authority. He is sent to obtain cedar timber for the god's ceremonial river barque, a vessel associated with Amun's movement in ritual. His instructions name people of rank. From Thebes he travels north to Tanis, where Smendes and Tentamun receive him and arrange transport. Beyond the river lies the great sea and the ports of the eastern Mediterranean.
+
+The historical setting matters. The story is associated with the time around the end of Egypt's New Kingdom and the beginning of the period that followed. Authority within Egypt was not organized in quite the same way as during the most forceful days of the empire. The power of Amun's priesthood in the south, the influence of rulers in the Delta, and the independence of cities along the coast could not be reduced to a single pharaoh giving orders. But even if the story reflects that political world with accuracy, we should not assume that every line is a literal diary written by the traveler. It is a crafted narrative, and its testimony is that of its own speaker.
+
+At first the voyage seems orderly. Wenamun arrives at Dor, a port belonging to the Tjeker. Its ruler, Beder, provides food. Then disaster strikes. A man from Wenamun's own ship runs away with gold and silver. The money was meant for the mission. Without it, Wenamun has a commission but cannot pay for the materials he has been sent to collect.
+
+He goes to Beder and demands an investigation. He says that he was robbed in this man's harbor and that the governor is responsible for restoring the money. He lists the important people, and the god, to whom the property belongs. His argument assumes that the prestige of Amun and the Egyptian authorities should compel cooperation.
+
+Beder does not accept his theory of liability. If someone from the ruler's own country had boarded the vessel and stolen the goods, he says, compensation might be warranted. But Wenamun's thief came from Wenamun's ship. The port has not agreed to insure every passenger's possessions. Beder offers to look for the missing man. Wenamun waits and waits. The money does not come back.
+
+Here the story begins to expose the difference between an imperial reputation and bargaining power. Wenamun knows what he has been told about the respect due to Egypt. He does not have enough money to make the respect useful. After days of waiting, he leaves. The narrative soon places him in another morally compromising situation: he takes silver from a ship of the Tjeker, intending to hold it until his own loss is made good. An envoy who arrived complaining of theft has made himself the subject of someone else's grievance.
+
+He continues to Byblos, the coastal city associated with the timber trade. There he seeks an audience with the local ruler, usually rendered Tjekerbaal or Zakar-Baal. The prince will not immediately receive him. Wenamun remains in the harbor while messages arrive demanding that he leave. The days stretch out. An important Egyptian messenger has become an unwanted guest whom no one will allow to perform his mission.
+
+A festival then creates an unexpected opening. A young person associated with the god's procession is seized by divine inspiration and calls for the envoy of Amun to be brought forward. Religious authority now offers the admission that official credentials have failed to obtain. Wenamun is summoned to the ruler, but the meeting is not the triumph he expects.
+
+The prince asks for his letters. Wenamun can show some documents, but the discussion reveals that he has left important letters behind in Tanis. The prince also asks where the ships and crews are that usually accompany Egyptian requests. Where is the cargo with which Wenamun expects to pay? He can tell an impressive story of the god's power, but the prince knows the value of cedars and the labor required to cut and transport them.
+
+The conflict is not that the prince has never heard of Amun. It is that recognizing divine prestige does not oblige him to hand over timber for nothing. He describes earlier dealings in which Egyptian rulers provided payment for wood. His scribes can produce records. Wenamun discovers that the past he invokes to command deference may be a past of trade and negotiation rather than unquestioned obedience.
+
+Wenamun argues that the trees are ultimately the possession of Amun, creator and ruler of what exists. Amun's power extends everywhere; even the sea and this foreign land belong within the god's order. Why should an official working for such a deity be treated as a mere customer? The prince is not persuaded by theology alone. He has ships to equip, men to pay, and a stock of valuable wood. He wants compensation.
+
+The exchange is fascinating because both men are intelligent. Wenamun's rhetorical skill is real. His sense of mission is real. The prince's economic objections are real. The story does not require the foreign ruler to be ignorant or foolish so that an Egyptian speaker can appear wise. Instead it gives the foreign ruler a memory, books of accounts, and the ability to ask whether Egypt's claims of power are matched by present resources.
+
+Eventually Wenamun sends word for supplies to be sent from Egypt. Goods arrive, and the prince makes arrangements to cut and deliver the timbers. The work is described in the scale of an operation: men, oxen, felled trees, wood carried toward the coast. For Wenamun, the sight of the timber at last gathered by the shore must be both a relief and a warning. The job that sounded simple when he left Thebes has taken an exhausting series of negotiations, and he has not yet completed the return journey.
+
+The prince makes another point about the conditions of their agreement. Wenamun should remember what has been done for him. He should also remember how precarious a sailor's life can be. The shore is where goods can be collected, but it is also where pursuers can arrive.
+
+Now ships of the Tjeker appear. They have come after Wenamun. His earlier seizure of their property has not been forgotten. An act that looked to him like a temporary remedy for a stolen purse has followed him across the sea as a political danger. Wenamun sits and weeps. The scene mirrors, in a quieter register, the lament of heroes in much older epic poems: the traveler is once again a man who cannot control the route home.
+
+The prince of Byblos arranges a compromise. He will not seize Amun's envoy in his own territory, but he will put Wenamun back to sea and permit those seeking him to pursue afterward. This is not heroic protection or an unconditional alliance. It is a calculation by a ruler who wants to avoid responsibility for what may happen beyond his harbor.
+
+The wind then drives Wenamun away from his intended route. He reaches Alashiya, usually identified with Cyprus, where people on the shore threaten him. He pushes toward a local woman of authority named Hatiba. He needs someone to translate his speech. He makes the most basic appeal a traveler can make: surely, in this place, justice must exist. If a storm has brought an envoy to a foreign coast, will the inhabitants kill him merely for being there?
+
+Hatiba has the crowd restrained and tells him to rest. It is a small, decisive act of mercy after many scenes of official obstruction. The story does not announce that his troubles are over. The preserved papyrus breaks off there, in the midst of the events at Alashiya. We do not have Wenamun returning safely to Thebes, his timber accepted, or a final accounting at the temple of Amun. Some readers imagine such an ending, but no surviving final scene gives it to us.
+
+A literary ending and a physical ending are different things. The manuscript is incomplete. That does not mean the story has failed to develop its central argument. It has shown a man whose confidence rests upon the prestige of institutions larger than himself. Those institutions send him away, but at every foreign harbor he must negotiate as an individual. Sometimes the prestige helps. Sometimes it makes his demands sound absurd. Sometimes his own fear leads him into actions that damage his claim to be treated fairly.
+
+The story is not proof that Egypt had become powerless, nor is it proof that Wenamun was an actual official who endured every incident exactly as recorded. It dramatizes a world in which Egypt's religious and political authority must encounter the agency of foreign rulers. The chief of Dor refuses to pay for another man's thief. The ruler of Byblos invokes accounts and the price of labor. Hatiba at Alashiya has the power to stop a threatened killing. None of these people waits to have reality explained to them by an Egyptian envoy.
+
+When we last see Wenamun, he is not holding the timber triumphantly at the prow of a ship. He has pleaded with another ruler to let him live. That image makes the tale important. It preserves a voice at once self-justifying, frightened, proud, and resourceful. It remembers a sea connected by trade and language, but also separated by law, rivalry, and the weather. And it asks a question still recognizable in the story of almost any troubled mission: what is the worth of an order to do something if the person receiving it has been given neither the money nor the power needed to finish the work?
+
+<!-- END SPOKEN LECTURE -->
+
+## Textual basis and source notes (not spoken)
+
+- **Primary witness:** *Report/Journey of Wenamun*, Papyrus Moscow 120 (Golenischeff), surviving two columns and incomplete ending. Follow line-structured reading and Egyptian/English presentation at https://mouseia.org/read/journey-of-wenamun/trn_journey_of_wenamun_plain ; independent older English rendering and commentary at https://www.worldhistory.org/article/1087/the-report-of-wenamun-text--commentary/ . Do not present the line-structured machine-assisted modern translation as an authoritative critical edition.
+- **Scene locators:** column 1 opening: temple assignment, Tanis, Dor theft and Beder's response; column 1 end/column 2 opening: Wenamun's counter-seizure, the harbor at Byblos, prince's demands, the inspired summons and negotiations; column 2 middle: letters, trade goods, cedar cutting and transport; 2.62–83: pursuing Tjeker ships, prince's departure plan, storm to Alashiya, appeal to Hatiba and break.
+- Literary genre is debated: the first-person travel report can be read as crafted literature reflecting contemporary politics without proving an actual journey. Missing papyrus end must not be supplied with invented return or reward.
+- Reference: UCL Digital Egypt literary context https://www.ucl.ac.uk/museums-static/digitalegypt/literature/literatureindex.html ; Wikipedia orientation https://en.wikipedia.org/wiki/Story_of_Wenamun ; https://en.wikipedia.org/wiki/Byblos .
