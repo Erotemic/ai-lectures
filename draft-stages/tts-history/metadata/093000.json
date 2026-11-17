@@ -1,0 +1,250 @@
+{
+  "schema_version": 1,
+  "lecture_id": "093000",
+  "transcript": "093000-hamming.md",
+  "related_resources": [
+    {
+      "source_id": "history-hamming-mactutor",
+      "reason": "Schooling, marriage, wartime computing, Bell Labs, coding origins and teaching."
+    },
+    {
+      "source_id": "history-hamming-paper",
+      "reason": "Foundational coding paper and technical mathematical definitions."
+    },
+    {
+      "source_id": "history-hamming-speech",
+      "reason": "Hamming lecture on research and biographical chronology; anecdote evidence is retrospective."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "093000-h01",
+      "anchor": "born in Chicago in February nineteen fifteen",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-hamming-mactutor",
+        "history-hamming-speech"
+      ],
+      "source_locator": "Birth",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "093000-h02",
+      "anchor": "parents were Richard J. Hamming and Mabel Redfield",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-hamming-mactutor"
+      ],
+      "source_locator": "Family",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "093000-h03",
+      "anchor": "University of Chicago",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-hamming-mactutor",
+        "history-hamming-speech"
+      ],
+      "source_locator": "Undergraduate education",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "093000-h04",
+      "anchor": "bachelor's degree in nineteen thirty-seven",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-hamming-mactutor",
+        "history-hamming-speech"
+      ],
+      "source_locator": "Degree",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "093000-h05",
+      "anchor": "University of Nebraska",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-hamming-mactutor",
+        "history-hamming-speech"
+      ],
+      "source_locator": "Masters degree",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "093000-h06",
+      "anchor": "Waldemar Trjitzinsky",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-hamming-mactutor"
+      ],
+      "source_locator": "Doctoral advisor",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "093000-h07",
+      "anchor": "read George Boole's work on logic",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-hamming-mactutor"
+      ],
+      "source_locator": "Early interest in logic",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "093000-h08",
+      "anchor": "In September nineteen forty-two he married Wanda Little",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-hamming-mactutor"
+      ],
+      "source_locator": "Marriage",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "093000-h09",
+      "anchor": "Manhattan Project at Los Alamos in nineteen forty-five",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-hamming-mactutor",
+        "history-hamming-speech"
+      ],
+      "source_locator": "Wartime computing",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "093000-h10",
+      "anchor": "Wanda also worked at Los Alamos",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-hamming-mactutor"
+      ],
+      "source_locator": "Wartime collaborator",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "093000-h11",
+      "anchor": "possibility that an atomic test could ignite the atmosphere",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-hamming-mactutor"
+      ],
+      "source_locator": "Retrospective anecdote",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "093000-h12",
+      "anchor": "joined Bell Telephone Laboratories in nineteen forty-six",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-hamming-mactutor",
+        "history-hamming-speech"
+      ],
+      "source_locator": "Bell Labs career",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "093000-h13",
+      "anchor": "Claude Shannon and John Tukey",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-hamming-mactutor"
+      ],
+      "source_locator": "Colleagues",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "093000-h14",
+      "anchor": "Shannon's landmark nineteen forty-eight work",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-hamming-mactutor"
+      ],
+      "source_locator": "Communications information theory",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "093000-h15",
+      "anchor": "binary Hamming code with seven positions",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-hamming-mactutor",
+        "history-hamming-paper"
+      ],
+      "source_locator": "Coding theory",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "093000-h16",
+      "anchor": "Hamming distance is two",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-hamming-paper"
+      ],
+      "source_locator": "Hamming metric worked example",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "093000-h17",
+      "anchor": "foundational paper on error-detecting and error-correcting codes appeared",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-hamming-mactutor",
+        "history-hamming-paper"
+      ],
+      "source_locator": "1950 paper",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "093000-h18",
+      "anchor": "Bell Labs gave him opportunities to work on numerical methods",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-hamming-mactutor"
+      ],
+      "source_locator": "Breadth of research",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "093000-h19",
+      "anchor": "In nineteen seventy-six he moved to the Naval Postgraduate School",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-hamming-mactutor",
+        "history-hamming-speech"
+      ],
+      "source_locator": "Monterey professorship",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "093000-h20",
+      "anchor": "talk 'You and Your Research,'",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-hamming-speech"
+      ],
+      "source_locator": "Talk",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "093000-h21",
+      "anchor": "The Art of Doing Science and Engineering: Learning to Learn",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-hamming-mactutor"
+      ],
+      "source_locator": "Book",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "093000-h22",
+      "anchor": "Hamming died in Monterey in January nineteen ninety-eight",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-hamming-mactutor"
+      ],
+      "source_locator": "Death",
+      "audit_status": "source_checked"
+    }
+  ]
+}
