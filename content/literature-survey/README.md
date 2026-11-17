@@ -343,3 +343,30 @@ and evidence companion with Wikipedia orientation links and explicit source
 boundaries. Recorded word counts are descriptive, not length targets. Both
 works are discoverable via period routes and Compact Introductions.
 **The pack now contains 137 indexed lectures.** No audio or binary image assets.
+
+## Quechua sacred geographies — the Huarochirí Manuscript (17 November 2026)
+
+Three new original manuscripts (`140000`–`142000`) introduce the early-colonial
+Quechua-language *Huarochirí Manuscript* in the **story first, analysis second**
+format. The first narrated survey follows Cuniraya and Cahuillaca, Huatiacuri's
+contests, Pariacaca's emergence and storms, Chuquisuso's canal, and the
+confrontation with Huallallo. The second surveys Chaupi Ñamca and local rituals,
+the Checa and other communities, Macahuisa at the Inca court, the dead, Yacana,
+and sacred irrigation places. The third examines sacred geography, local
+political memory, colonial production, contested Quechua authorship, translation,
+and literary reception. These **do not** manufacture a single continuous plot
+or purport to cover every chapter and supplement.
+
+Episode-level evidence anchors and named scholarly and public textual witnesses
+are in `metadata/140000.json`–`metadata/142000.json`, plus a non-spoken
+companion with each transcript. The publisher's table of contents and a public
+Spanish text were used for cross-checks; the full copyrighted scholarly
+English edition and Quechua original were not independently collated. Texts
+are newly written English overviews, not reproductions or authorized
+performances of Indigenous oral tradition. Authorship is disputed; the
+2024 Choquecasa attribution and scholarship questioning consensus are both
+identified. These appear in Early Modern and Compact Introduction routes.
+
+**The literature-survey pack now contains 140 indexed lectures.** No audio
+or binary assets are included. Narration durations in `track.json` are
+computed descriptively from manuscripts, not used as targets.

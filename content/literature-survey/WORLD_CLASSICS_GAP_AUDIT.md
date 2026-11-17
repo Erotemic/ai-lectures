@@ -190,3 +190,24 @@ ledger above is the current status, rather than the stale queue wording.
 - Following geographic rotations: *Sir Gawain and the Green Knight*; an
   influential Russian, Arabic, Indian or North American text not already
   represented, based on audited coverage rather than a geographic quota.
+
+## Andean sacred narratives — Huarochirí completed (17 November 2026)
+
+- **Completed:** the *Huarochirí Manuscript* (`140000`–`142000`): two story
+  surveys of distinct narrative/ritual groupings, followed by a sustained
+  analysis of sacred geography, historical transmission, Indigenous authorship,
+  the Inca encounter, and colonial campaigns against huacas. The text is an
+  early-colonial Quechua compilation; its thirty-one chapters plus supplements
+  are **not** arranged as one novel. The content surveys major episodes, not
+  the entire witness chapter-by-chapter. Named sources and explicit edition
+  limits appear in the companions and metadata.
+- **Further critical work:** direct specialist review of the Quechua witness
+  and relevant community scholarship; do not equate a colonial transcription
+  with a living community's singular current account.
+- **Next rotation candidates:** *Sir Gawain and the Green Knight* (Middle English),
+  the *Rubáiyát* and its textual reception (Persian verse and Victorian
+  English adaptation, with clear editorial boundaries), and an impactful work
+  from the Americas or South Asia missing from current packs. Check for
+  duplicate coverage before selecting.
+
+**Current literature-survey index: 140 entries.**
