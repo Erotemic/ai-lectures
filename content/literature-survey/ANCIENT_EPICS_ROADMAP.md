@@ -1,19 +1,22 @@
 # Ancient Epics and Narrative Traditions — editorial roadmap
 
 **Prepared:** 2026-11-16  
+**Updated:** 2026-11-16 — Gunditjmara and Klamath oral-tradition commissions  
 **Status:** proposed manuscripts; not a published lecture manifest  
 **Owning pack for new standalone readings:** `content/literature-survey/`  
 **Listening route:** `literature-survey:ancient-narratives`
 
 ## Purpose and scope
 
-Build a library of compelling, substantial encounters with the ancient world's
-major **surviving narratives**: epics, myth cycles, tales, plays, literary novels,
-framed collections, parables, and selected scriptural narratives. The listener
-should come away knowing what happens, to whom, why a decision mattered, and
-what the text actually says. Historical and literary analysis serves the story,
-not the reverse. A collection of poems or parables must not be presented as one
-continuous epic merely to fit the route's name.
+Build a library of compelling, substantial encounters with important ancient
+**surviving texts** and **living narrative traditions**: epics, myth cycles,
+tales, plays, literary novels, framed collections, parables, selected scriptural
+narratives, and carefully sourced oral histories and place-based traditions.
+The listener should understand what happens, to whom, and why it matters.
+Historical and literary analysis serves the story, not the reverse. A collection
+of poems, oral histories, or parables must not be presented as one continuous
+epic merely to fit the route's name. Narration must not invent episodes absent
+from its identified sources.
 
 Priority is based on literary and historical importance, narrative substance,
 what is missing from the existing library, and the availability of a defensible
@@ -27,7 +30,13 @@ version **composed or recorded in antiquity** (roughly through late antiquity),
 not simply a story set in ancient times. Record composition, surviving witness,
 redaction, translation, and oral history as different dates and kinds of
 evidence. Boundary cases go into the adjacent-traditions queue with explicit
-labels instead of being quietly backdated.
+labels instead of being quietly backdated. The explicitly commissioned
+**living oral-traditions strand** below is a separate, clearly labeled part of
+the same listening route. It is not subject to the written-antiquity cutoff:
+its age, recording history, named narrators, cultural custodians, and continuing
+practice must be described on their own terms. A geological event's date is not
+proof that a particular wording or variant was transmitted unchanged since
+that event.
 
 ## What we already have: avoid duplicate commissions
 
@@ -80,6 +89,62 @@ one takes longer than expected, deliver a smaller, finished installment rather
 than four abbreviated summaries. This first group adds mythic genealogy,
 scriptural narrative, dramatic tragedy, and a frame-tale tradition without
 repeating the existing Homer/India surveys.
+
+## Parallel high priority: Indigenous oral narratives and deep-time Country
+
+**Commissioned for the roadmap, not yet written or playable.** These two
+projects are high-priority additions alongside, rather than replacements for,
+the eight ancient-text commissions above. Treat them as ongoing traditions
+with identifiable narrators and custodians, not as anonymous, fixed books
+produced in an ancient century. Their final format may be a scene-first
+retelling of one authorized public account plus its history, or an evidence-led
+narrative if no sufficiently complete public telling can be responsibly adapted.
+
+| Project | Narration to commission | Attribution, evidence, and adaptation boundary | Status |
+|---|---|---|---|
+| **Gunditjmara songlines, creation narratives, and Budj Bim** ([Gunditjmara](https://en.wikipedia.org/wiki/Gunditjmara); [Budj Bim](https://en.wikipedia.org/wiki/Budj_Bim)) | Introduce Gunditjmara Country as a living landscape, then follow **specific publicly shared** accounts of Ancestral Beings, Budj Bim's revelation in the landscape, water and stone, kooyang (short-finned eel) aquaculture, and cultural continuities. Connect the publicly narrated story to its locations and present custodianship. | There is no identified single work entitled *Gunditjmara Songlines*. Do not invent a composite songline, route, words, dialogue, or ceremony. Credit the named Gunditjmara Knowledge Holders/Traditional Owners for each account; verify what is actually published for wider retelling or TTS reuse. Do not use stories from neighboring language groups as a substitute. Distinguish volcanic chronology, at least 6,600 years of documented aquaculture, and the ages of particular recorded stories. | **Research and source-permission review first** |
+| **The Klamath Battle of Llao and Skell** ([Crater Lake](https://en.wikipedia.org/wiki/Crater_Lake); [Klamath Tribes](https://en.wikipedia.org/wiki/Klamath_Tribes)) | In a **named version**, tell the encounter of Llao and Skell at the sacred Crater Lake landscape: the struggle, the taking of Skell's heart, its use in a ball game, its rescue by allies, Skell's restoration, and Llao's defeat, with the account linking his head to Wizard Island where that variant says so. A distinct, clearly attributed version can then follow volcanic fire and the mountain's collapse. | Start with Klamath-language/English versions, especially the Robert David account published by Barker (1963, pp. 71–75), and compare Applegate's 1907 English record and modern Klamath voices. Verify the scenes against the *selected* witness before drafting: not every account contains the same events or gives Skell/Gmo'Kam'c the same role. Label older non-Native collectors' mediation, spelling variants, and changes across tellings. Geological dating of Mount Mazama does not establish an unchanged text of the tale. | **Version and source-access review first** |
+
+### Treatment and source decisions before narration
+
+**Gunditjmara:** Begin with the [Gunditjmara-facing Budj Bim cultural site](https://www.budjbim.com.au/about-us/our-culture/)
+and the [ABC *Deep Time* story credited to Gunditj Mirring Traditional Owners](https://www.abc.net.au/news/deeptime/topic/creation/naarm-fills/),
+which expressly identifies its Indigenous Cultural and Intellectual Property
+holder and conditions of public sharing. UNESCO's [Budj Bim Cultural Landscape](https://whc.unesco.org/en/list/1577)
+documents the landscape, ongoing cultural practice, and archaeological context,
+but UNESCO should not be treated as the author of Gunditjmara oral tradition.
+Before writing a full narrative, record precisely which publicly authorized
+account can be followed, who tells it, its publication date, available scope,
+and whether adaptation or public synthesized narration is appropriate. If the
+available materials describe associations of Country rather than a continuous
+plot, build a carefully structured oral-history-and-landscape lecture instead
+of making one up. Public accessibility alone is not permission to reproduce
+songs, restricted cultural knowledge, or a published recording wholesale.
+
+**Klamath:** Start with the [source survey discussing Robert David's account](https://www.craterlakeinstitute.com/index-of-general-cultural-history-books/index-of-books-and-articles-about-native-americans/1-02/indians-09/)
+and obtain the relevant passage of M. A. R. Barker's *Klamath Texts* (1963)
+from a library or licensed source before treating it as the textual base.
+The [University of Rostock's comparative account](https://www.iaa.uni-rostock.de/en/forschung/laufende-forschungsprojekte/american-antiquities-prof-mackenthun/landmark-stories/giiwascrater-lake-1/)
+identifies differences between the heart-recovery/Wizard Island version and
+other fire-and-collapse tellings. The [Travel Oregon interview with Klamath
+Culture and Heritage Director Perry Chocktoot](https://traveloregon.com/things-to-do/destinations/lakes-reservoirs/creation-crater-lake/)
+provides an explicitly attributed contemporary telling and explains the
+variation around Gmo'Kam'c and Skell. Prefer narrators' own accounts to
+simplified early tourist brochures and do not turn any one retelling into
+*the* definitive Klamath belief. Distinguish Klamath, Modoc, and Yahooskin
+attributions wherever a particular version permits. Crater Lake is also a
+place of continuing religious and cultural importance, not just a mythic
+backdrop: see the [Oregon Historical Society's account](https://www.oregonhistoryproject.org/articles/historical-records/crater-lake-and-the-klamath/).
+
+For **both** projects: make source and speaker attribution visible in the
+companion notes and spoken introduction, respect any stated restrictions,
+check rights for reuse/translation/recording, and provide Wikipedia links
+only for orientation. Do not invent an original-language quotation, a
+ceremonial performance, an ancestral character's dialogue, or a chronology
+not present in an identified telling. Avoid a sensational claim that modern
+geology has *proved* a tradition's exact age; explain what archaeology,
+volcanology, and each community's account separately establish. The target is
+substantial, source-grounded storytelling, not a brief encyclopedia survey.
 
 ## Second priority: named ancient works with strong narrative value
 
@@ -205,6 +270,11 @@ tell.
 | [*Beowulf*](https://en.wikipedia.org/wiki/Beowulf), [Norse Eddas](https://en.wikipedia.org/wiki/Poetic_Edda), [Sundiata](https://en.wikipedia.org/wiki/Epic_of_Sundiata) | Important future medieval/oral-tradition strands | Surviving witnesses and documented performances are much later than many events or legendary eras they depict. |
 | [*Pyramid Texts*](https://en.wikipedia.org/wiki/Pyramid_Texts) and [*Book of the Dead*](https://en.wikipedia.org/wiki/Book_of_the_Dead) | Source-critical companion readings | Ancient religious corpora, not intact single-plot narratives; only chosen spells or mythic episodes should be presented as stories. |
 
+The two **high-priority Indigenous oral-tradition projects above** are not
+relegated to this adjacent queue. They belong in the broader *Narrative
+Traditions* route, while retaining their own living-tradition labels and
+source-ownership requirements.
+
 ## Source starting points and research obligations
 
 These are **research entrances**, not blanket authority for every subsequent
@@ -223,6 +293,8 @@ never as the sole evidence for a consequential claim.
 8. **Vedic and Iranian ancient hymns:** Oxford University Press, [Jamison and Brereton on the *Ṛgveda*](https://doi.org/10.1093/oso/9780190633363.001.0001); *Encyclopaedia Iranica*, [*Yašts*](https://www.iranicaonline.org/articles/yashts/) and [Iranian oral literature](https://www.iranicaonline.org/articles/oral-literature-in-iran/). Distinguish hymns from late, synthetic epic retellings.
 9. **Ahiqar transmission:** University of Göttingen, [*The Story of Ahiqar the Wise*](https://ahiqar.uni-goettingen.de/); identify the Elephantine witness separately from the project's medieval Syriac and Arabic base texts.
 10. **Japanese chronology:** Cambridge, [*Myth and history in the Kojiki, Nihon shoki, and related works*](https://www.cambridge.org/core/books/abs/cambridge-history-of-japanese-literature/myth-and-history-in-thekojiki-nihon-shoki-and-related-works/D0B7B8B46D8CC4A8AB879E1185E6BD37).
+11. **Gunditjmara publicly shared narratives:** [Budj Bim Traditional Owner cultural account](https://www.budjbim.com.au/about-us/our-culture/), [ABC *Deep Time* with Gunditj Mirring Knowledge Holders](https://www.abc.net.au/news/deeptime/topic/creation/naarm-fills/), [Australian Government World Heritage dossier](https://www.dcceew.gov.au/parks-heritage/heritage/places/world/budj-bim), and [UNESCO](https://whc.unesco.org/en/list/1577). Prioritize community authorship; record publication permissions and the exact publicly narrated account before composing scenes.
+12. **Klamath Llao/Skell witnesses and living context:** M. A. R. Barker, *Klamath Texts* (1963), pp. 71–75 (Robert David; access and translation check needed), as identified by the [Crater Lake ethnography source summary](https://www.craterlakeinstitute.com/index-of-general-cultural-history-books/index-of-books-and-articles-about-native-americans/1-02/indians-09/); [University of Rostock on conflicting versions](https://www.iaa.uni-rostock.de/en/forschung/laufende-forschungsprojekte/american-antiquities-prof-mackenthun/landmark-stories/giiwascrater-lake-1/); [Perry Chocktoot's Klamath account reported by Travel Oregon](https://traveloregon.com/things-to-do/destinations/lakes-reservoirs/creation-crater-lake/); [Oregon Historical Society on the continuing sacred landscape](https://www.oregonhistoryproject.org/articles/historical-records/crater-lake-and-the-klamath/). Name which witness is being retold; verify rather than harmonize variants.
 
 For dramatic or religious texts, record what the primary text says before
 writing commentary or a cross-text comparison. If a modern translation is
@@ -233,15 +305,18 @@ possible; no historical or manuscript claims without suitable corroboration.
 ## Commission and completion procedure
 
 1. **Audit the current catalog first.** Check `content/literature-survey/track.json`, `navigation.json`, and `draft-stages/tts-world-history/track.json` before assigning an ID. Planned rows here do not reserve an ID and are not listening-ready.
-2. **Choose a named base text.** Specify original language, recension/edition, translator (if used), preserved extent, manuscript gaps, probable composition versus surviving witness, and whether the material is religious scripture, literary fiction, or a genre mixture.
-3. **Outline the actual scenes or distinct pieces before drafting.** Cover the central characters' actions and changes, including the ending of the chosen witness. If the work is fragmentary, narrate only what survives, describing gaps without filling them. If it is an anthology, identify each chosen selection.
+2. **Choose an identifiable base text or authorized recorded/public oral account.** For a written work specify language, recension/edition, translator (if used), preserved extent, manuscript gaps, and date distinctions. For an oral account record the people, named narrator or Knowledge Holders, publication/recording, language and translation if known, who may authorize reuse, and any restrictions. Never substitute a composite summary for an actual telling without labeling it.
+3. **Outline the actual scenes or distinct pieces before drafting.** Cover the central characters' actions and changes, including the ending of the chosen witness. If the work is fragmentary, narrate only what survives, describing gaps without filling them. If it is an anthology, identify each chosen selection. If an oral account describes a living place or a sequence of associations rather than a dramatic plot, respect that form and do not invent a plot.
 4. **Write for ears, not as a catalog.** Establish place, characters, consequences, and relevant historical setting within standalone narration. Use no spoken dependency on an earlier recording. Let the text determine length and natural divisions.
-5. **Supply checked evidence.** Add primary locators, source records, appropriate scholarly references, Wikipedia orientation links, and claim-level historical citation metadata. Keep editorial discussion and production notes outside spoken text.
+5. **Supply checked evidence.** Add primary locators, source records, appropriate scholarly references, Wikipedia orientation links, and claim-level historical citation metadata. For oral-tradition projects, include narrator/custodian attribution, the exact public record used, restrictions and adaptation/recording permissions as applicable. Keep editorial discussion and production notes outside spoken text.
 6. **Publish only complete manuscripts.** Update pack-local track/route metadata, provenance, and source records when there is a usable lecture. A roadmap entry alone never enters the runtime catalog. Run focused checks and listening-route audit; avoid unrelated repo-wide builds.
 7. **Deliver one content-only ZIP overlay per iteration.** Apply it with `python tools/content_overlay.py apply ZIP`; do not overwrite shared World History files without an explicit coordination step. Each delivery should include verification and Git add/commit commands.
 
 **Working checkpoint:** The next writing installment should start with
 **Hesiod's *Theogony*, *Genesis*, the *Oresteia*, and the *Pañcatantra***,
 with the exact number of lectures determined by the complete story treatment.
-After those, resume at *Zhuangzi*, *The Golden Ass*, *Exodus*, and
-*Śakuntalā* unless new research changes the order.
+In parallel, research the newly commissioned Gunditjmara songlines/Budj Bim
+and Klamath Llao/Skell oral-tradition projects; source/access and community
+attribution checks must precede published narration. After the written-work
+batch, resume at *Zhuangzi*, *The Golden Ass*, *Exodus*, and *Śakuntalā*
+unless new research changes the order.
