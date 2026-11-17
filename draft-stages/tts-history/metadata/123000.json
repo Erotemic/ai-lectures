@@ -1,0 +1,245 @@
+{
+  "schema_version": 1,
+  "lecture_id": "123000",
+  "transcript": "123000-dantzig.md",
+  "related_resources": [
+    {
+      "source_id": "history-dantzig-informs",
+      "reason": "Military planning, simplex, RAND, Berkeley, Stanford, decomposition and optimization"
+    },
+    {
+      "source_id": "history-dantzig-mactutor",
+      "reason": "Family, education, Neyman, recollections, RAND and Stanford career"
+    },
+    {
+      "source_id": "history-dantzig-stanford",
+      "reason": "Stanford career and uses of mathematical programming"
+    },
+    {
+      "source_id": "history-dantzig-tsppaper",
+      "reason": "Joint 49-city traveling-salesman solution"
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "123000-h01",
+      "anchor": "George Bernard Dantzig was born in Portland",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-dantzig-mactutor"
+      ],
+      "source_locator": "George Bernard Dantzig was born in Portland",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "123000-h02",
+      "anchor": "His father, Tobias Dantzig",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-dantzig-mactutor"
+      ],
+      "source_locator": "His father, Tobias Dantzig",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "123000-h03",
+      "anchor": "Dantzig later recalled doing poorly in mathematics",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-dantzig-mactutor"
+      ],
+      "source_locator": "Dantzig later recalled doing poorly in mathematics",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "123000-h04",
+      "anchor": "Tobias Dantzig wrote *Number: The Language of Science*",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-dantzig-mactutor"
+      ],
+      "source_locator": "Tobias Dantzig wrote *Number: The Language of Science*",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "123000-h05",
+      "anchor": "He studied mathematics and physics at the University of Maryland",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-dantzig-mactutor"
+      ],
+      "source_locator": "He studied mathematics and physics at the University of Maryland",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "123000-h06",
+      "anchor": "he married Anne Shmuner",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-dantzig-mactutor"
+      ],
+      "source_locator": "he married Anne Shmuner",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "123000-h07",
+      "anchor": "He worked for the federal Bureau of Labor Statistics",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-dantzig-informs"
+      ],
+      "source_locator": "He worked for the federal Bureau of Labor Statistics",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "123000-h08",
+      "anchor": "study statistics with Jerzy Neyman",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-dantzig-mactutor"
+      ],
+      "source_locator": "study statistics with Jerzy Neyman",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "123000-h09",
+      "anchor": "One story from Berkeley became famous",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-dantzig-mactutor"
+      ],
+      "source_locator": "One story from Berkeley became famous",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "123000-h10",
+      "anchor": "Dantzig served in the statistical control operations",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-dantzig-informs"
+      ],
+      "source_locator": "Dantzig served in the statistical control operations",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "123000-h11",
+      "anchor": "After the war, Dantzig returned to doctoral work",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-dantzig-informs"
+      ],
+      "source_locator": "After the war, Dantzig returned to doctoral work",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "123000-h12",
+      "anchor": "He developed the simplex method in 1947",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-dantzig-informs"
+      ],
+      "source_locator": "He developed the simplex method in 1947",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "123000-h13",
+      "anchor": "including mathematical economics and earlier work by Leonid Kantorovich",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-dantzig-informs"
+      ],
+      "source_locator": "including mathematical economics and earlier work by Leonid Kantorovich",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "123000-h14",
+      "anchor": "John von Neumann understood related convexity and duality ideas",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-dantzig-mactutor"
+      ],
+      "source_locator": "John von Neumann understood related convexity and duality ideas",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "123000-h15",
+      "anchor": "In 1954 Dantzig, Ray Fulkerson and Selmer Johnson",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-dantzig-tsppaper"
+      ],
+      "source_locator": "In 1954 Dantzig, Ray Fulkerson and Selmer Johnson",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "123000-h16",
+      "anchor": "The earliest computers had very limited memory",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-dantzig-informs"
+      ],
+      "source_locator": "The earliest computers had very limited memory",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "123000-h17",
+      "anchor": "The rise of electronic computers changed the stakes",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-dantzig-stanford"
+      ],
+      "source_locator": "The rise of electronic computers changed the stakes",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "123000-h18",
+      "anchor": "In 1960 Dantzig became a professor",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-dantzig-informs"
+      ],
+      "source_locator": "In 1960 Dantzig became a professor",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "123000-h19",
+      "anchor": "He moved to Stanford in 1966",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-dantzig-stanford"
+      ],
+      "source_locator": "He moved to Stanford in 1966",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "123000-h20",
+      "anchor": "With Philip Wolfe, he developed the Dantzig–Wolfe decomposition",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-dantzig-informs"
+      ],
+      "source_locator": "With Philip Wolfe, he developed the Dantzig–Wolfe decomposition",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "123000-h21",
+      "anchor": "He published *Linear Programming and Extensions* in 1963",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-dantzig-informs"
+      ],
+      "source_locator": "He published *Linear Programming and Extensions* in 1963",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "123000-h22",
+      "anchor": "Later interests included optimization under uncertainty",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-dantzig-informs"
+      ],
+      "source_locator": "Later interests included optimization under uncertainty",
+      "audit_status": "source_checked"
+    }
+  ]
+}
