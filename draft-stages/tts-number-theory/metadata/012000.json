@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "lecture_id": "012000",
+  "transcript": "012000-gaussian-integers-and-two-squares.md",
+  "related_resources": [
+    {
+      "source_id": "nt-stanford-squares",
+      "reason": "Proof of splitting via Euclidean division"
+    },
+    {
+      "source_id": "nt-grinberg-gaussian",
+      "reason": "Gaussian norm and Fermat theorem"
+    },
+    {
+      "source_id": "nt-utk-squares",
+      "reason": "Integer classification"
+    },
+    {
+      "source_id": "nt-gaussian",
+      "reason": "Orientation"
+    }
+  ],
+  "mathematical_claims": [
+    {
+      "id": "012000-m01",
+      "anchor": "We have proved a Euclidean division algorithm for Gaussian integers.",
+      "source_ids": [
+        "nt-stanford-squares",
+        "nt-grinberg-gaussian"
+      ],
+      "source_locator": "Rounding proof in the Gaussian lattice",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "012000-m02",
+      "anchor": "Gaussian integers have unique factorization",
+      "source_ids": [
+        "nt-stanford-squares",
+        "nt-gaussian"
+      ],
+      "source_locator": "Euclidean gcd and Euclid lemma imply UFD",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "012000-m03",
+      "anchor": "two-squares theorem for primes",
+      "source_ids": [
+        "nt-stanford-squares",
+        "nt-grinberg-gaussian"
+      ],
+      "source_locator": "Fermat two-square theorem for primes",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "012000-m04",
+      "anchor": "if and only if every prime leaving remainder three modulo four occurs with an even exponent",
+      "source_ids": [
+        "nt-utk-squares",
+        "nt-grinberg-gaussian"
+      ],
+      "source_locator": "Criterion for general positive integer sums of two squares",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "012000-m05",
+      "anchor": "six now has two visibly different factorizations:",
+      "source_ids": [
+        "nt-gaussian",
+        "nt-stein"
+      ],
+      "source_locator": "Example Z[sqrt(-5)] nonunique factorization; original independent norm argument",
+      "audit_status": "reading_reference_recorded"
+    }
+  ],
+  "historical_claims": []
+}

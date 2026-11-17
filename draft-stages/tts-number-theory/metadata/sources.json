@@ -193,6 +193,99 @@
       "title": "Wikipedia, p-adic number",
       "kind": "encyclopedia_background",
       "url": "https://en.wikipedia.org/wiki/P-adic_number"
+    },
+    "nt-stanford-pell": {
+      "title": "Stanford open lecture notes, The Pell Equation",
+      "kind": "university_course_material",
+      "url": "https://crypto.stanford.edu/pbc/notes/contfrac/pell.html",
+      "access": "free_no_login",
+      "notes": "Period-to-Pell connection and classification by powers of a least positive norm-one unit; independent exposition, not a line-by-line audit."
+    },
+    "nt-lagrange-cf": {
+      "title": "Wikipedia, Periodic continued fraction and Lagrange theorem",
+      "kind": "encyclopedia_background",
+      "url": "https://en.wikipedia.org/wiki/Periodic_continued_fraction"
+    },
+    "nt-stanford-squares": {
+      "title": "Stanford open notes, Sum of Two Squares",
+      "kind": "university_course_material",
+      "url": "https://crypto.stanford.edu/pbc/notes/numberfield/sumsquares.html",
+      "access": "free_no_login",
+      "notes": "Euclidean division in Gaussian integers and splitting primes."
+    },
+    "nt-grinberg-gaussian": {
+      "title": "Darij Grinberg, Number Theory, Lecture 17 (2025)",
+      "kind": "university_course_material",
+      "url": "https://www.cip.ifi.lmu.de/~grinberg/t/23wa/lec17.pdf",
+      "access": "free_no_login",
+      "notes": "Norms, factorization and Fermat two-squares theorem; independent exposition."
+    },
+    "nt-utk-squares": {
+      "title": "University of Tennessee, Fermat two-square theorem",
+      "kind": "open_university_textbook",
+      "url": "https://web.math.utk.edu/~dcartwr1/iaawa/domains-5.html",
+      "access": "free_no_login",
+      "notes": "Complete criterion for positive integers to be Gaussian norms."
+    },
+    "nt-gaussian": {
+      "title": "Wikipedia, Gaussian integer",
+      "kind": "encyclopedia_background",
+      "url": "https://en.wikipedia.org/wiki/Gaussian_integer"
+    },
+    "nt-hac": {
+      "title": "Menezes, van Oorschot and Vanstone, Handbook of Applied Cryptography, Chapter 4",
+      "kind": "scholarly_textbook",
+      "url": "https://cacr.uwaterloo.ca/hac/about/chap4.pdf",
+      "access": "free_no_login",
+      "notes": "Section 4.2, Fact 4.23 quantitative strong-liar bound and Algorithm 4.24 Miller-Rabin."
+    },
+    "nt-cornell-mr": {
+      "title": "Cornell CS 4820, Miller-Rabin primality testing notes",
+      "kind": "university_course_material",
+      "url": "https://www.cs.cornell.edu/courses/cs4820/2019sp/handouts/MillerRabin.pdf",
+      "access": "free_no_login",
+      "notes": "Strong witnesses, Carmichael numbers, counting argument."
+    },
+    "nt-pratt": {
+      "title": "Wikipedia, Pratt certificate",
+      "kind": "encyclopedia_background",
+      "url": "https://en.wikipedia.org/wiki/Pratt_certificate"
+    },
+    "nt-miller-rabin": {
+      "title": "Wikipedia, Miller-Rabin primality test",
+      "kind": "encyclopedia_background",
+      "url": "https://en.wikipedia.org/wiki/Miller%E2%80%93Rabin_primality_test"
+    },
+    "nt-nptel-primitive": {
+      "title": "NPTEL Number Theory, Module 4 Lecture 3, Primitive Roots for Powers of Odd Primes",
+      "kind": "university_course_material",
+      "url": "https://archive.nptel.ac.in/content/storage2/courses/111103020/module4_lec3.pdf",
+      "access": "free_no_login",
+      "notes": "Binomial lifting proof for primitive roots to odd prime powers."
+    },
+    "nt-ucsd-field": {
+      "title": "UCSD Algebra Course Notes (2021), finite multiplicative subgroups",
+      "kind": "university_course_material",
+      "url": "https://mathweb.ucsd.edu/~drogalsk/200-coursenotes-2021-03-12.pdf",
+      "access": "free_no_login",
+      "notes": "Root-count approach to cyclicity of multiplicative subgroups of fields."
+    },
+    "nt-unb-field": {
+      "title": "University of New Brunswick, Applications to Field Theory: finite multiplicative subgroups",
+      "kind": "university_course_material",
+      "url": "https://ntouikan.ext.unb.ca/MATH4043/groups-section-applications.html",
+      "access": "free_no_login",
+      "notes": "Finite subgroup cyclicity using group exponent and polynomial root bound."
+    },
+    "nt-finite-field": {
+      "title": "Wikipedia, Finite field",
+      "kind": "encyclopedia_background",
+      "url": "https://en.wikipedia.org/wiki/Finite_field"
+    },
+    "nt-primitive-root": {
+      "title": "Wikipedia, Primitive root modulo n",
+      "kind": "encyclopedia_background",
+      "url": "https://en.wikipedia.org/wiki/Primitive_root_modulo_n"
     }
   }
 }

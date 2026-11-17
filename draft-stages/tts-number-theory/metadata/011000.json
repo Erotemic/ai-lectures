@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "lecture_id": "011000",
+  "transcript": "011000-periodic-continued-fractions-and-the-pell-theorem.md",
+  "related_resources": [
+    {
+      "source_id": "nt-mit",
+      "reason": "Foundational continued-fraction and Pell context"
+    },
+    {
+      "source_id": "nt-stanford-pell",
+      "reason": "Period and classification proofs"
+    },
+    {
+      "source_id": "nt-lagrange-cf",
+      "reason": "Terminology and scope of the periodicity theorem"
+    },
+    {
+      "source_id": "nt-pell",
+      "reason": "Orientation reference"
+    }
+  ],
+  "mathematical_claims": [
+    {
+      "id": "011000-m01",
+      "anchor": "We have proved a special case of Lagrange's continued-fraction theorem:",
+      "source_ids": [
+        "nt-stanford-pell",
+        "nt-lagrange-cf"
+      ],
+      "source_locator": "Finite-state complete quotient proof of periodicity",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "011000-m02",
+      "anchor": "A calculation with the determinant of neighboring convergents shows that P squared minus D Q squared equals negative one raised to the power L.",
+      "source_ids": [
+        "nt-stanford-pell",
+        "nt-stein"
+      ],
+      "source_locator": "Pell norm identity for periodic convergents",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "011000-m03",
+      "anchor": "a nontrivial positive solution of Pell's equation exists for every positive nonsquare D",
+      "source_ids": [
+        "nt-stanford-pell",
+        "nt-pell"
+      ],
+      "source_locator": "Existence of solutions of x^2-Dy^2=1",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "011000-m04",
+      "anchor": "every positive integer solution of x squared minus D y squared equals one comes from a unique positive power",
+      "source_ids": [
+        "nt-stanford-pell",
+        "nt-pell"
+      ],
+      "source_locator": "Classification by fundamental unit",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "011000-m05",
+      "anchor": "that converse requires an additional result about how exceptionally close rational approximations appear as convergents.",
+      "source_ids": [
+        "nt-stanford-pell",
+        "nt-continued"
+      ],
+      "source_locator": "Negative Pell solvability period-parity criterion deliberately not proved",
+      "audit_status": "reading_reference_recorded"
+    }
+  ],
+  "historical_claims": []
+}

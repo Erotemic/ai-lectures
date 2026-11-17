@@ -1,7 +1,7 @@
 {
   "id": "number-theory",
   "title": "Number Theory from First Principles",
-  "summary": "A proof-driven introduction to integer arithmetic: Euclid and prime factorization, congruences, finite multiplicative groups, Diophantine equations, continued fractions and Pell equations, quadratic reciprocity, arithmetic functions and Möbius inversion, elementary prime distribution, and lifting solutions modulo prime powers.",
+  "summary": "A proof-driven introduction to number theory: divisibility, modular arithmetic, integer equations, continued fractions and the complete Pell theorem, quadratic reciprocity, Möbius inversion, elementary prime distribution, Hensel lifting, Gaussian integer factorization and two squares, primality certification, and finite fields with primitive roots.",
   "assumed_background": [
     "integer arithmetic, fractions, equations and basic algebra",
     "comfortable reading simple proofs helps; the Mathematical Reasoning and Proof course is optional preparation",
@@ -19,7 +19,10 @@
     "residues-and-reciprocity",
     "arithmetic-functions-and-inversion",
     "prime-distribution",
-    "prime-powers-and-lifting"
+    "prime-powers-and-lifting",
+    "gaussian-integers",
+    "primality-and-certification",
+    "finite-fields-and-primitive-roots"
   ],
   "lectures": [
     {
@@ -111,6 +114,42 @@
       "spoken_words": 2127,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 14.7
+    },
+    {
+      "id": "011000",
+      "title": "Periodic Continued Fractions and the Complete Pell Theorem",
+      "section": "approximation-and-pell",
+      "file": "011000-periodic-continued-fractions-and-the-pell-theorem.md",
+      "spoken_words": 2150,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 14.8
+    },
+    {
+      "id": "012000",
+      "title": "Gaussian Integers and the Two-Squares Theorem",
+      "section": "gaussian-integers",
+      "file": "012000-gaussian-integers-and-two-squares.md",
+      "spoken_words": 2170,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 15.0
+    },
+    {
+      "id": "013000",
+      "title": "Primality Tests, Compositeness Witnesses, and Certificates",
+      "section": "primality-and-certification",
+      "file": "013000-primality-witnesses-and-certificates.md",
+      "spoken_words": 2291,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 15.8
+    },
+    {
+      "id": "014000",
+      "title": "Finite Fields, Primitive Roots, and Unit Groups",
+      "section": "finite-fields-and-primitive-roots",
+      "file": "014000-finite-fields-and-primitive-roots.md",
+      "spoken_words": 2398,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 16.5
     }
   ]
 }

@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "lecture_id": "014000",
+  "transcript": "014000-finite-fields-and-primitive-roots.md",
+  "related_resources": [
+    {
+      "source_id": "nt-ucsd-field",
+      "reason": "Finite field subgroup cyclicity"
+    },
+    {
+      "source_id": "nt-unb-field",
+      "reason": "Root-count/exponent method"
+    },
+    {
+      "source_id": "nt-nptel-primitive",
+      "reason": "Odd prime-power lifting proof"
+    },
+    {
+      "source_id": "nt-finite-field",
+      "reason": "Finite fields and F4"
+    }
+  ],
+  "mathematical_claims": [
+    {
+      "id": "014000-m01",
+      "anchor": "a nonzero polynomial of degree d has at most d distinct roots",
+      "source_ids": [
+        "nt-ucsd-field",
+        "nt-unb-field"
+      ],
+      "source_locator": "Root bound in a field by degree induction",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "014000-m02",
+      "anchor": "Every finite multiplicative subgroup of a field is cyclic.",
+      "source_ids": [
+        "nt-ucsd-field",
+        "nt-unb-field"
+      ],
+      "source_locator": "Group exponent plus root-count proof",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "014000-m03",
+      "anchor": "the group of units modulo every odd prime power is cyclic",
+      "source_ids": [
+        "nt-nptel-primitive",
+        "nt-primitive-root"
+      ],
+      "source_locator": "Binomial lifting primitive roots to p^k",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "014000-m04",
+      "anchor": "No element can have order equal to the size of that group.",
+      "source_ids": [
+        "nt-primitive-root",
+        "nt-finite-field"
+      ],
+      "source_locator": "Noncyclic unit groups modulo 2^k for k>=3",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "014000-m05",
+      "anchor": "no element of order eight",
+      "source_ids": [
+        "nt-primitive-root"
+      ],
+      "source_locator": "CRT product of units mod 3 and mod 5, no order 8",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "014000-m06",
+      "anchor": "We have exhibited a four-element field and a generator",
+      "source_ids": [
+        "nt-finite-field",
+        "nt-ucsd-field"
+      ],
+      "source_locator": "F4 example from irreducible polynomial",
+      "audit_status": "reading_reference_recorded"
+    }
+  ],
+  "historical_claims": []
+}

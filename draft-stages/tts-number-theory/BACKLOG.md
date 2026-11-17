@@ -1,31 +1,29 @@
-# Number theory foundations: coverage and next steps
+# Number Theory Foundations: coverage and next steps
 
-**Status, 2026-11-16:** ten indexed and substantive spoken lectures. The first six establish elementary number theory; this continuation adds the four proofs and bridges below. The purpose is to supply tangible prerequisites for abstract algebra, algorithms, analytic methods and further integer equations, not to expand the course by repetition.
+**Status, 2026-11-16:** fourteen indexed, substantive spoken lectures. The goal is a comprehensible foundation for abstract algebra, algorithms, and analytic number theory, not a fixed target count or duration.
 
-## Delivered foundation, lectures 001000–006000
+## Delivered in lectures 001000–010000
 
-1. Divisibility, Euclidean algorithm, Bézout identity, prime factorization.
-2. Congruences, inverses, Chinese remainder theorem with noncoprime compatibility.
-3. Unit groups, Euler's theorem, multiplicative order, pseudoprimes.
-4. Diophantine equations, GCD solvability, modular obstructions, primitive Pythagorean triples.
-5. Continued fractions, convergents, Pell examples, multiplicative norms.
-6. Quadratic residues, Legendre symbol, Euler's criterion, negative-one law; reciprocity *stated* as motivation.
+- Euclidean algorithm, Bézout identity, unique prime factorization; congruences and generalized CRT; Euler's theorem, multiplicative order; integer equations and Pythagorean triples; continued fractions and initial Pell examples.
+- Quadratic residues, Gauss lemma, a full lattice-count proof of quadratic reciprocity; Dirichlet convolution and Möbius inversion; elementary prime-distribution arguments; simple-root Hensel lifting and precise limits.
 
-## Delivered in this continuation, lectures 007000–010000
+## Delivered in Continuation 3: 011000–014000
 
-7. **Complete quadratic reciprocity proof:** Gauss's lemma, odd-multiplier floor formula, lattice rectangle; supplementary law for two is also proved. The theorem for composite denominators is not asserted without qualification.
-8. **Arithmetic functions and Möbius inversion:** finite convolution algebra, inversion proof, totient formula, visible lattice-point count; the density limit 6/pi-squared is labeled a later analytic result.
-9. **Elementary prime distribution:** infinitely many primes in both odd classes modulo four; finite Euler products and divergence of prime reciprocals; binomial upper estimate; density zero. The prime number theorem and general Dirichlet theorem are carefully labeled *unproved*.
-10. **Prime powers and Hensel lifting:** proof of the unique simple-root lift, worked 7-adic square-root corrections, unit-square-root classification for odd primes, derivative-zero counterexamples, CRT reduction.
+- **011000 — Periodic continued fractions and complete Pell theorem:** proves periodicity for square roots using finite reversible complete-quotient states; derives the exact convergent norm identity and existence of positive solutions; proves all positive solutions are powers of the least norm-one unit. Does *not* prove the converse negative-Pell period criterion.
+- **012000 — Gaussian integers and sums of two squares:** proves norm Euclidean division, Bézout/Euclid lemma, and unique factorization; proves every prime 1 modulo 4 is a sum of squares and the full integer criterion that 3-mod-4 prime exponents must be even; contrasts Z[sqrt(-5)]. Representation counts are not derived.
+- **013000 — Primality witnesses versus factoring:** differentiates trial division, sieve, modular exponentiation and strong pseudoprime testing; proves Miller–Rabin soundness for primes and constructs strong witnesses for all odd composites; proves a fully factored n-1 certificate and checks 29. Monier–Rabin's quantitative 1/4 bound is carefully cited, *not* proved.
+- **014000 — Finite fields and primitive roots:** proves polynomial root bound over a field, cyclicity of all finite multiplicative subgroups, the primitive-root order criterion, and lifting generators to all powers of odd primes; explains 2-power and CRT exceptions; constructs F4 explicitly. General finite-field classification is deferred.
 
-## Priorities for the next continuation
+## High-value subsequent foundations
 
-- **011000 — The full Pell theorem and quadratic irrationality.** Prove periodicity of continued fractions for square roots and relate primitive solutions to fundamental units; distinguish constructing some solutions (005000) from classifying all positive solutions. This may be split if a complete proof needs it.
-- **012000 — Sum of two squares and Gaussian integers.** Complete the converse of the negative-one test: odd prime p is a sum of two squares iff p is one modulo four; state and prove the role of Euclidean division in Z[i], then explain precisely where element factorization could fail in other quadratic rings.
-- **013000 — Testing primality versus factoring.** Sieve, modular exponentiation, Miller–Rabin with correct witness guarantees, deterministic verification by certificates, computational complexity limits. The course needs proof of the algorithmic claim rather than a tool catalog.
-- **014000 — Finite fields and primitive roots.** Develop polynomial root bounds, finite multiplicative groups, order, cyclicity for prime fields, and CRT for prime-power units, bridging to abstract algebra.
-- **015000 — Estimation, series, and analytic number theory primer.** Develop logarithms, convergence, summation by parts, comparison estimates, and sufficient prerequisites for Dirichlet characters and deeper prime-distribution theorems.
+1. **015000 — Analytic tools for number theory:** sequences, convergence, logarithms, comparison, summation by parts and Euler products, with worked estimates. Develop needed analysis rather than assuming it.
+2. **016000 — Dirichlet characters from scratch:** characters of unit groups, orthogonality, roots of unity and character sums; distinguish the proof of Dirichlet's theorem from the preparation it requires.
+3. **017000 — Euler products and zeta methods:** rigorously derive product identities in the region of absolute convergence; elementary consequences, possible extension toward primes in progressions.
+4. **018000 — Counting representations:** Gaussian integers and the exact number of sum-of-two-squares representations, then generating functions and partitions.
+5. **019000 — Polynomial arithmetic and finite field extensions:** irreducibility, quotients, construction of F_(p^k) and a complete finite-field existence/uniqueness proof.
+6. **020000 — Quadratic fields and factorization:** full rings of integers, ideals and the repair of nonunique element factorization; supply ideal theory before class groups.
+7. **Proof extensions:** negative Pell period criterion, fully proved Monier–Rabin liar count, p-adic completion and local-global obstructions. These are genuine additional proofs; none is assumed complete in the current pack.
 
-## Integration notes and boundaries
+## Integration notes
 
-Keep all content in `draft-stages/tts-number-theory/` and use unused stable six-digit IDs. Preserve one spoken region per source manuscript, display-only exact mathematical notation, claim-level references where consequential, relevant Wikipedia orientation links, and track-local metadata. Length is governed by mathematics and comprehension; descriptive word counts are not goals. No repository-wide refactor or testing is necessary for a source-only continuation. This pack owns its `track.json` and `metadata/sources.json` but does not change any other track.
+Only edit `draft-stages/tts-number-theory/`; retain stable IDs and track-local source records. Preserve exactly one spoken manuscript region and display-only exact mathematics. Keep relevant source and Wikipedia links, and make the source vs original argument distinction clear. No content outside this pack or generated audio is required for a continuation. Word counts are descriptive, never quota gates.

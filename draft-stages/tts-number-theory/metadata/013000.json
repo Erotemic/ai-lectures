@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "lecture_id": "013000",
+  "transcript": "013000-primality-witnesses-and-certificates.md",
+  "related_resources": [
+    {
+      "source_id": "nt-hac",
+      "reason": "Precise randomized error bound and algorithm"
+    },
+    {
+      "source_id": "nt-cornell-mr",
+      "reason": "Strong witnesses and related proofs"
+    },
+    {
+      "source_id": "nt-pratt",
+      "reason": "Primality certificates"
+    },
+    {
+      "source_id": "nt-miller-rabin",
+      "reason": "Orientation"
+    }
+  ],
+  "mathematical_claims": [
+    {
+      "id": "013000-m01",
+      "anchor": "a reported witness means composite, never prime",
+      "source_ids": [
+        "nt-hac",
+        "nt-miller-rabin"
+      ],
+      "source_locator": "Miller-Rabin one-sided soundness",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "013000-m02",
+      "anchor": "three hundred forty-one",
+      "source_ids": [
+        "nt-hac",
+        "nt-miller-rabin"
+      ],
+      "source_locator": "Fermat pseudoprime and strong witness calculation; independently checked",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "013000-m03",
+      "anchor": "every odd composite has at least one Miller–Rabin witness.",
+      "source_ids": [
+        "nt-hac",
+        "nt-cornell-mr"
+      ],
+      "source_locator": "CRT and prime-power witness construction",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "013000-m04",
+      "anchor": "at most one quarter of the bases from one through n minus one are strong liars",
+      "source_ids": [
+        "nt-hac",
+        "nt-cornell-mr"
+      ],
+      "source_locator": "Monier-Rabin bound; external theorem expressly not proved here",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "013000-m05",
+      "anchor": "These conditions force n to be prime.",
+      "source_ids": [
+        "nt-pratt",
+        "nt-hac"
+      ],
+      "source_locator": "Fully factored n-1 Lucas-type certificate, order proof",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "013000-m06",
+      "anchor": "We have a complete primality certificate for twenty-nine",
+      "source_ids": [
+        "nt-pratt"
+      ],
+      "source_locator": "29: n-1 factors 2^2*7, modular power checks",
+      "audit_status": "reading_reference_recorded"
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "013000-h01",
+      "anchor": "A deeper counting result due to Louis Monier and Michael Rabin",
+      "source_ids": [
+        "nt-hac",
+        "nt-miller-rabin"
+      ],
+      "source_locator": "Attribution of strong-liar count to Monier and Rabin",
+      "audit_status": "reading_reference_recorded"
+    }
+  ]
+}
