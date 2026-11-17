@@ -90,6 +90,7 @@ export async function renderLearningMap(main, context = {}) {
   main.replaceChildren(root);
   const heading = el("h1", { text: "Learning map" });
   root.append(heading, el("p", { class: "intro", text: "Explore the connections between lectures. Teaching preparation, proof use, historical influence, and listening order are separate kinds of relationship." }));
+  root.append(el("p", {}, (context.link || ((text, href) => el("a", { href, "data-nav": "", text })))("Build a personalized learning order", "/learning-plan" + (new URLSearchParams(location.search).get("lecture") ? "?" + new URLSearchParams({ goal: new URLSearchParams(location.search).get("lecture") }) : ""))));
   let data;
   try { data = context.data || await (context.load || api)("/api/library/learning-map"); }
   catch (error) { root.append(el("p", { class: "notice", text: error.message })); return; }

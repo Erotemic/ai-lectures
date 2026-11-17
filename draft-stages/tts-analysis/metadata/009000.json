@@ -20,5 +20,32 @@
       "reason": "MIT 18.S190, lectures 1, 2 and 5: metrics and completeness."
     }
   ],
-  "historical_claims": []
+  "historical_claims": [],
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "analysis:002000",
+        "reason": "The lecture generalizes Cauchy sequences and real completeness, contrasts the rational gap, and constructs function-space limits point by point using completeness of the real numbers."
+      },
+      {
+        "lecture_id": "analysis:003000",
+        "reason": "Metric continuity and its sequential criterion generalize the real-valued epsilon-delta and input-sequence arguments."
+      }
+    ],
+    "recommended": [
+      {
+        "lecture_id": "mathematical-proof:009000",
+        "reason": "Sets, domains and codomains, arbitrary functions, and quantified constructions clarify how metrics can live on objects other than coordinate vectors."
+      }
+    ],
+    "background": [
+      "The triangle inequality and elementary coordinate distances; elementary trigonometric knowledge that arctangent approaches a finite endpoint without reaching it. No prior abstract topology is assumed."
+    ],
+    "readiness_checks": [
+      "Can you distinguish convergence to a specified point from the requirement that all sufficiently late pairs of terms become close?",
+      "Can you give a rational Cauchy approximation whose desired limit is not rational, and explain why the ambient space matters?",
+      "Can you state the sequential criterion for continuity with “every converging input sequence” rather than a finite collection of tests?"
+    ]
+  }
 }

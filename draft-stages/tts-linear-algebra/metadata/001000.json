@@ -135,5 +135,23 @@
         }
       }
     ]
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "recommended": [
+      {
+        "lecture_id": "mathematical-proof:001000",
+        "reason": "The arguments about independence, bases, and rank-nullity are easier to follow with practice reading arbitrary inputs, implications, and direct proofs; the linear-algebra objects themselves are introduced here."
+      }
+    ],
+    "background": [
+      "Arithmetic with signed numbers and fractions, solving elementary algebraic equations, and reading Cartesian coordinate pairs and triples. No previous matrix or vector-space course is assumed."
+    ],
+    "readiness_checks": [
+      "Can you solve 2x + y = 7 and x + 3y = 11, then check both equations?",
+      "Can you expand and simplify expressions such as a(x + y) and keep track of the sign when multiplying an equation by a negative number?",
+      "Can you locate (1, 2) and (2, 4) on coordinate axes and recognize that they lie on the same line through the origin?"
+    ]
   }
 }

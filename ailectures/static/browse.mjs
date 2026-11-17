@@ -414,6 +414,7 @@ export class CatalogBrowser {
       this.link("References and reading", "/references?" + new URLSearchParams({ course_id: id })),
       this.link("All collections", "/collections?all=1"),
       this.link("Explore the learning map", "/learning-map?" + new URLSearchParams({ collection: id })),
+      this.link("Plan a learning order", "/learning-plan?" + new URLSearchParams({ collection: id })),
     );
     if (collection.background)
       resources.append(el("details", {}, el("summary", { text: "Background and prerequisites" }),

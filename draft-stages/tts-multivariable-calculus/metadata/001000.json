@@ -225,5 +225,36 @@
         }
       }
     ]
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "linear-algebra:001000",
+        "reason": "The total derivative is a linear map, its Jacobian represents that map in coordinates, the chain rule composes matrices, and local inversion uses an invertible linearization."
+      },
+      {
+        "lecture_id": "analysis:005000",
+        "reason": "The lecture generalizes the scalar derivative as a local linear approximation with a remainder negligible relative to the step, and uses scalar product and chain rules along coordinate lines and curves."
+      }
+    ],
+    "recommended": [
+      {
+        "lecture_id": "linear-algebra:006000",
+        "reason": "Review dot products, orthogonality, and the determinant criterion for invertibility when interpreting gradients, normals, and local coordinate maps; the needed Euclidean examples are recalled here."
+      },
+      {
+        "lecture_id": "analysis:006000",
+        "reason": "The explanation that continuous partial derivatives yield a total derivative applies the one-variable Mean Value Theorem along successive coordinate steps."
+      }
+    ],
+    "background": [
+      "Algebraic factoring and inequalities; elementary sine, cosine, exponential functions and their derivatives; Cartesian coordinates. The lecture introduces multivariable balls, domains, and partial derivatives rather than assuming an earlier multivariable course."
+    ],
+    "readiness_checks": [
+      "Can you compute the derivative and linearization of x squared at x = 3, and explain why its remainder divided by the step tends to zero?",
+      "If F maps n coordinates to m coordinates and G maps m to p, can you give the matrix sizes and multiplication order for their composite?",
+      "Can you apply the scalar chain rule to (x squared + 1) cubed, including evaluating the outer derivative at the inner output?"
+    ]
   }
 }

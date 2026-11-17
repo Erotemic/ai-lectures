@@ -30,3 +30,49 @@ transcript:
       and overbroad composite titles, add targeted conceptual bridges, and refresh
       the current manuscript/route inventory. Preserve mathematical arguments and
       hypotheses; no original authorship is claimed for inherited prose.
+learning_map:
+  revisions:
+  - date: '2026-11-16'
+    models:
+    - GPT-6 (exact variant unavailable)
+    sources:
+    - lecture: analysis:001000
+      manuscript: 001000-what-convergence-means.md
+      metadata: metadata/001000.json
+    - lecture: analysis:002000
+      manuscript: 002000-completeness-and-real-numbers.md
+      metadata: metadata/002000.json
+    - lecture: analysis:003000
+      manuscript: 003000-limits-and-continuity.md
+      metadata: metadata/003000.json
+    - lecture: analysis:004000
+      manuscript: 004000-what-continuity-guarantees.md
+      metadata: metadata/004000.json
+    - lecture: analysis:005000
+      manuscript: 005000-derivatives-and-linear-approximation.md
+      metadata: metadata/005000.json
+    - lecture: analysis:006000
+      manuscript: 006000-mean-value-theorem-and-error-bounds.md
+      metadata: metadata/006000.json
+    - lecture: analysis:007000
+      manuscript: 007000-riemann-integration-from-sums.md
+      metadata: metadata/007000.json
+    - lecture: analysis:008000
+      manuscript: 008000-fundamental-theorem-of-calculus.md
+      metadata: metadata/008000.json
+    - lecture: analysis:009000
+      manuscript: 009000-metric-spaces-and-completeness.md
+      metadata: metadata/009000.json
+    - lecture: analysis:010000
+      manuscript: 010000-compactness-and-continuity.md
+      metadata: metadata/010000.json
+    - lecture: analysis:011000
+      manuscript: 011000-uniform-convergence-and-limit-exchange.md
+      metadata: metadata/011000.json
+    - lecture: analysis:012000
+      manuscript: 012000-series-of-functions-and-power-series.md
+      metadata: metadata/012000.json
+    scope: Authored pack-local teaching prerequisites, optional review links, assumed
+      background, and readiness prompts after reviewing current narration and mathematical
+      companions. These are teaching judgments, not formal proof imports or historical
+      influence. No inherited narration, slides, or their authorship was revised.

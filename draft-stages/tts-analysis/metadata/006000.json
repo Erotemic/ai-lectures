@@ -24,5 +24,27 @@
       "reason": "MIT 18.100B, lectures 16–17: Rolle, MVT and Taylor estimates."
     }
   ],
-  "historical_claims": []
+  "historical_claims": [],
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "analysis:004000",
+        "reason": "Rolle's theorem obtains an attained interior extremum from the Extreme Value Theorem; continuity at the endpoints is essential to that argument."
+      },
+      {
+        "lecture_id": "analysis:005000",
+        "reason": "The proof uses two-sided difference quotients at an interior extremum, subtracts a linear function, and interprets derivative bounds as control of finite changes."
+      }
+    ],
+    "recommended": [],
+    "background": [
+      "Elementary inequalities, secant-slope arithmetic, and basic trigonometric derivatives for the sine example. Second derivatives and the Taylor remainder are explained as a further error estimate."
+    ],
+    "readiness_checks": [
+      "Can you state the difference between continuity and differentiability and explain what goes wrong for absolute value at zero?",
+      "Can you state the closed-interval hypotheses ensuring a continuous real function attains a maximum?",
+      "Can you compute both the secant slope of x squared from 1 to 3 and its derivative at a general interior input?"
+    ]
+  }
 }

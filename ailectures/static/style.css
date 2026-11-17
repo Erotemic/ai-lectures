@@ -321,6 +321,30 @@ main {
 .pack-export small { display: block; }
 .pack-export a { overflow-wrap: anywhere; }
 .map-filters { align-items: end; }
+.learning-planner { min-width: 0; }
+.plan-controls { max-width: 58rem; margin-top: 1.5rem; }
+.plan-controls label { min-width: 0; margin-bottom: 0.8rem; }
+.plan-controls input[type="search"], .plan-controls select, .plan-background select, .plan-background input[type="search"] { width: 100%; min-width: 0; max-width: 100%; }
+.plan-controls .filters { margin-top: 0; }
+.plan-controls details { margin-bottom: 1rem; }
+.plan-controls details p { font-size: 0.85rem; }
+.plan-goal-fields { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 18rem), 1fr)); gap: 1rem; }
+.plan-knowledge-list { display: grid; gap: 0.8rem; margin: 1rem 0; }
+.plan-background > label { margin: 1.2rem 0 0.7rem; }
+.plan-background > summary { cursor: pointer; color: var(--accent); font-weight: 600; padding: 0.6rem 0; }
+.plan-background > p { margin-top: 0.7rem; }
+.plan-background .filters label { min-width: min(100%, 16rem); }
+.plan-step-heading { display: flex; justify-content: space-between; align-items: start; gap: 1.2rem; }
+.plan-step-heading > div { min-width: 0; flex: 1; }
+.plan-step-heading h3, .plan-step-heading small { overflow-wrap: anywhere; }
+.plan-step-heading > label { flex: 0 1 15rem; min-width: 0; font-size: 0.8rem; }
+.plan-step-heading select { max-width: 100%; }
+.plan-step details { font-size: 0.9rem; }
+.plan-step details > summary { cursor: pointer; color: var(--accent); }
+.plan-step details p { margin-top: 0.8rem; }
+.plan-steps { display: grid; gap: 1rem; padding-left: 1.6rem; }
+.plan-steps > li::marker { font-weight: 600; color: var(--accent); }
+.plan-assumptions .plan-step { margin-top: 0.7rem; }
 .map-filters > input[type="search"] { flex: 2 1 20rem; min-width: 0; align-self: end; }
 .map-filters label { min-width: min(100%, 12rem); }
 .map-filters select { max-width: 100%; }
@@ -642,6 +666,11 @@ progress {
   #find-library kbd { display: none; }
   .collection-layout { grid-template-columns: 1fr; gap: 1.5rem; }
   .map-entry { flex-wrap: wrap; }
+  .plan-step-heading { flex-direction: column; gap: 0.8rem; }
+  .plan-step-heading > label { flex: auto; width: 100%; }
+  .plan-step-heading select { width: 100%; }
+  .plan-steps { padding-left: 1.1rem; }
+  .plan-step { padding: 0.9rem; }
   .map-filters > input[type="search"] { flex-basis: 100%; width: 100%; }
   .map-entry > a, .map-entry > span { flex-basis: 100%; }
   .map-diagram { max-height: 28rem; }

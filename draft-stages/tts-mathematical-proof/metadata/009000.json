@@ -233,5 +233,23 @@
         }
       }
     ]
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "mathematical-proof:001000",
+        "reason": "Membership arguments, injectivity proofs, induction steps, and diagonal counterexamples use quantified statements, implication, witnesses, and proof by contradiction."
+      }
+    ],
+    "recommended": [],
+    "background": [
+      "Integer arithmetic, divisibility, simple equations, and finite sums. The differential-equation and coordinate examples illustrate existence and uniqueness; prior calculus or linear algebra is not required for the core constructions."
+    ],
+    "readiness_checks": [
+      "Can you negate “every integer has property P” and state what a counterexample must establish?",
+      "Using “even means twice an integer,” can you prove directly that the sum of two even integers is even?",
+      "Can you distinguish proving P implies Q from proving its converse, and explain what extra argument an if-and-only-if claim needs?"
+    ]
   }
 }

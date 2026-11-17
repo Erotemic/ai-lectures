@@ -142,5 +142,28 @@
         }
       }
     ]
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "multivariable-calculus:008000",
+        "reason": "Line and surface formulas are computed by ordinary and multiple integration; Green, Stokes, and divergence combine partial derivatives, Jacobian area scaling, and interior volume integrals with oriented boundaries."
+      }
+    ],
+    "recommended": [
+      {
+        "lecture_id": "linear-algebra:012000",
+        "reason": "Covectors, alternating multilinear forms, and wedge products explain the closing generalized-Stokes interpretation. The concrete vector-calculus examples introduce their own line, surface, and flux formulas."
+      }
+    ],
+    "background": [
+      "Elementary three-dimensional coordinate geometry and the cross product as an oriented parallelogram-area vector; a working component calculation may need separate review. Trigonometric curve parametrizations and basic one-variable substitution are assumed."
+    ],
+    "readiness_checks": [
+      "Can you differentiate the circular path (cos t, sin t), calculate its speed, and distinguish a position from its velocity?",
+      "Can you set up an integral over a disk in polar coordinates with the radial area factor, and explain why an unsigned area formula uses the absolute Jacobian determinant?",
+      "Can you use the chain rule to express the derivative of f along a path as gradient f dotted with the path velocity, then integrate a scalar rate by endpoint subtraction?"
+    ]
   }
 }

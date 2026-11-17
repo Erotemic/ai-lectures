@@ -24,3 +24,22 @@ transcript:
       and overbroad composite titles, add targeted conceptual bridges, and refresh
       the current manuscript/route inventory. Preserve mathematical arguments and
       hypotheses; no original authorship is claimed for inherited prose.
+learning_map:
+  revisions:
+  - date: '2026-11-16'
+    models:
+    - GPT-6 (exact variant unavailable)
+    sources:
+    - lecture: multivariable-calculus:001000
+      manuscript: 001000-local-geometry-and-the-total-derivative.md
+      metadata: metadata/001000.json
+    - lecture: multivariable-calculus:008000
+      manuscript: 008000-curvature-constrained-extrema-and-volume-integration.md
+      metadata: metadata/008000.json
+    - lecture: multivariable-calculus:015000
+      manuscript: 015000-integrating-over-curves-surfaces-and-boundaries.md
+      metadata: metadata/015000.json
+    scope: Authored pack-local teaching prerequisites, optional review links, assumed
+      background, and readiness prompts after reviewing current narration and mathematical
+      companions. These are teaching judgments, not formal proof imports or historical
+      influence. No inherited narration, slides, or their authorship was revised.

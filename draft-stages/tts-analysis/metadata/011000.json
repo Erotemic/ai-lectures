@@ -16,5 +16,32 @@
       "reason": "MIT 18.100B, lectures 20–21: pointwise/uniform convergence and interchange theorems."
     }
   ],
-  "historical_claims": []
+  "historical_claims": [],
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "analysis:009000",
+        "reason": "The uniform error is a supremum distance between functions, and completeness of continuous-function spaces uses metric Cauchy estimates plus pointwise real limits."
+      },
+      {
+        "lecture_id": "analysis:008000",
+        "reason": "The full lecture includes integration and differentiation interchange: its derivative-limit theorem reconstructs each function from one anchor value and an integral of its derivative using the Fundamental Theorem of Calculus."
+      }
+    ],
+    "recommended": [
+      {
+        "lecture_id": "analysis:010000",
+        "reason": "Compactness explains why continuous functions on a closed interval are bounded and often helps establish uniform estimates. The uniform-limit continuity theorem itself does not require a compact domain."
+      }
+    ],
+    "background": [
+      "Elementary powers, square roots, absolute-value inequalities, and areas of triangles for the counterexamples."
+    ],
+    "readiness_checks": [
+      "Can you compare “for each input there exists a late enough index” with “there exists one index that works for all inputs”?",
+      "Can you explain how a supremum distance measures the worst difference between two functions rather than their difference at one chosen input?",
+      "Can you reconstruct a continuously differentiable function from its value at one point and the integral of its derivative, and state the hypotheses used?"
+    ]
+  }
 }

@@ -125,5 +125,27 @@
         }
       }
     ]
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "mathematical-proof:009000",
+        "reason": "The compactness argument uses sets, indexed collections, functions, inverse images, and constructions with arbitrary sequences; the proof patterns also require the earlier quantified reasoning."
+      },
+      {
+        "lecture_id": "analysis:002000",
+        "reason": "The interval-compactness and subsequence proofs invoke the least-upper-bound property and nested closed intervals. These completeness facts are used here rather than developed from the real-number foundations."
+      }
+    ],
+    "recommended": [],
+    "background": [
+      "Elementary inequalities, absolute values, factoring a difference of squares, and the triangle inequality. Epsilon-N and epsilon-delta definitions are introduced in this lecture."
+    ],
+    "readiness_checks": [
+      "In “for every positive epsilon there exists N such that every n at least N works,” which choices may depend on earlier choices, and what would its negation say?",
+      "Can you explain the difference between an inverse image of a set and an inverse function, and verify that inverse images preserve intersections?",
+      "Can you explain why a bounded nondecreasing real sequence converges by using the supremum of its values?"
+    ]
   }
 }

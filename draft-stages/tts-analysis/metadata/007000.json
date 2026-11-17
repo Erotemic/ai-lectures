@@ -24,5 +24,28 @@
       "reason": "MIT 18.100B, lectures 17–18: Riemann integral and integrability."
     }
   ],
-  "historical_claims": []
+  "historical_claims": [],
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "analysis:004000",
+        "reason": "The construction uses completeness to take upper and lower bounds, boundedness of continuous functions on closed intervals, and convergent-subsequence reasoning to obtain uniform continuity. It does not require differentiation."
+      }
+    ],
+    "recommended": [
+      {
+        "lecture_id": "analysis:010000",
+        "reason": "The general compactness and Heine-Cantor statements extend the interval-specific uniform-continuity proof used to make Darboux gaps small."
+      }
+    ],
+    "background": [
+      "Finite sums, rectangle area, elementary polynomial algebra, and the formula for the sum of the first n integers. No antiderivative or differentiation rule is assumed."
+    ],
+    "readiness_checks": [
+      "Can you explain why a bounded nonempty collection of real values has a supremum, even if no value attains it?",
+      "Can you distinguish pointwise continuity at an input from one input-distance tolerance that works across an entire interval?",
+      "Can you use 1 + ... + n = n(n + 1)/2 to simplify (1 + ... + n)/n^2 and identify its limit?"
+    ]
+  }
 }

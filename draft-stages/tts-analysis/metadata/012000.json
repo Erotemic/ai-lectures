@@ -24,5 +24,23 @@
       "reason": "MIT 18.100B, lecture 22: differentiating and integrating power series."
     }
   ],
-  "historical_claims": []
+  "historical_claims": [],
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "analysis:011000",
+        "reason": "A function series is treated as its sequence of partial sums; uniform Cauchy control and the continuity, integration, and derivative-limit theorems license the termwise operations."
+      }
+    ],
+    "recommended": [],
+    "background": [
+      "Convergent numerical series and their tails, the finite geometric-sum identity, the alternating-series remainder estimate, and basic complex arithmetic and modulus. These numerical-series tests and complex-number foundations are not fully developed by the mapped prerequisite lectures."
+    ],
+    "readiness_checks": [
+      "Can you state uniform convergence of a sequence of functions with one threshold valid across the whole chosen domain?",
+      "Can you compute the tail of a geometric series with ratio r between 0 and 1 and explain why it tends to zero?",
+      "Can you explain why uniform convergence of function values permits passing through a definite integral on a compact interval but does not by itself permit differentiating the limit?"
+    ]
+  }
 }

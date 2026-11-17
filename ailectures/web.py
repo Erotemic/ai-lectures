@@ -208,7 +208,7 @@ def create_app(
                 "packs": snapshot["packs"],
                 "errors": snapshot["errors"],
                 "legacy": bool(legacy),
-                "capabilities": {"learning_map": True, "pack_export": True,
+                "capabilities": {"learning_map": True, "learning_plan": True, "pack_export": True,
                                  "slide_companions": library.repository is not None or slide_companion_service is not None},
             },
             headers={"Cache-Control": "no-cache", "ETag": etag},
@@ -225,6 +225,28 @@ def create_app(
         from .graph import learning_map as build_map
 
         return JSONResponse(build_map(library.snapshot(copy=False)), headers={"Cache-Control": "no-cache"})
+
+    async def learning_plan(request):
+        from .graph import build_learning_map
+        from .learning_plan import build_learning_plan
+
+        payload = await body(request)
+        expected_generation = payload.pop("generation", None)
+        if expected_generation is not None and not isinstance(expected_generation, str):
+            raise ValueError("generation must identify a learning-map snapshot")
+        def compute():
+            graph = build_learning_map(library.snapshot(copy=False))
+            if expected_generation is not None and expected_generation != graph["generation"]:
+                raise Conflict("The lecture library changed. Refresh the learning map and rebuild the plan.")
+            return build_learning_plan(graph, payload)
+        return JSONResponse(await run_in_threadpool(compute), headers={"Cache-Control": "no-store"})
+
+    async def learning_state(request):
+        selected = request.path_params["profile"]
+        if request.method == "GET":
+            return JSONResponse(listeners.learning(selected), headers={"Cache-Control": "no-store"})
+        require_local_action(request)
+        return JSONResponse(listeners.set_learning(selected, await body(request)), headers={"Cache-Control": "no-store"})
 
     def slide_decks(request):
         key = qualified(request.query_params["lecture_id"])
@@ -713,6 +735,7 @@ def create_app(
             "/feedback",
             "/references",
             "/learning-map",
+            "/learning-plan",
             "/production",
         ]
     ]
@@ -721,6 +744,8 @@ def create_app(
         Route("/api/library/catalog", catalog),
         Route("/api/library/storage", storage),
         Route("/api/library/learning-map", learning_map),
+        Route("/api/library/learning-plan", learning_plan, methods=["POST"]),
+        Route("/api/listeners/{profile}/learning", learning_state, methods=["GET", "POST"]),
         Route("/api/library/slide-decks", slide_decks),
         Route("/api/library/slide-decks/{deck_id}/build", slide_build, methods=["POST"]),
         Route("/api/library/slide-decks/{deck_id}/html", slide_html),

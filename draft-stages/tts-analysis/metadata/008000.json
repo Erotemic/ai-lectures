@@ -24,5 +24,27 @@
       "reason": "MIT 18.100B, lecture 19: both forms of the Fundamental Theorem of Calculus."
     }
   ],
-  "historical_claims": []
+  "historical_claims": [],
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "analysis:006000",
+        "reason": "The endpoint evaluation proof uses the Mean Value Theorem to make equal derivatives imply a constant difference, or to turn increments of an antiderivative into a telescoping Riemann sum."
+      },
+      {
+        "lecture_id": "analysis:007000",
+        "reason": "Accumulation is defined independently by Riemann integration; additivity, signed orientation, and estimates on integrals justify the small-strip difference quotient."
+      }
+    ],
+    "recommended": [],
+    "background": [
+      "Elementary polynomial manipulation and the usual sine and cosine derivative formulas for the trigonometric exercises."
+    ],
+    "readiness_checks": [
+      "Can you explain what makes all sufficiently fine tagged Riemann sums represent one integral rather than a selected sequence of convenient sums?",
+      "Can you state how the Mean Value Theorem forces a function with derivative zero on an interval to be constant?",
+      "Can you apply a scalar chain rule while keeping the outer derivative evaluated at the moving inner value?"
+    ]
+  }
 }

@@ -229,5 +229,36 @@
         }
       }
     ]
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "multivariable-calculus:001000",
+        "reason": "Hessians differentiate the total derivative, the Taylor argument restricts a smooth function to a line using the chain rule, and multiplier conditions use gradients and regular level-set tangent directions."
+      },
+      {
+        "lecture_id": "linear-algebra:006000",
+        "reason": "The second-derivative test interprets eigenvalue signs of a symmetric Hessian, and change of variables uses the determinant as local signed volume scaling."
+      },
+      {
+        "lecture_id": "analysis:008000",
+        "reason": "Multiple and iterated integrals are calculated with one-variable antiderivatives and endpoint differences; the accumulation viewpoint and its regularity assumptions carry into the Riemann-sum construction."
+      }
+    ],
+    "recommended": [
+      {
+        "lecture_id": "analysis:010000",
+        "reason": "Compactness of a closed bounded Euclidean feasible region explains why continuous objectives attain global extrema before critical and boundary candidates are compared."
+      }
+    ],
+    "background": [
+      "Elementary trigonometry, polar and spherical coordinate geometry, and algebraic descriptions of planar regions. Measurability and Lebesgue integrability are mentioned to delimit Fubini and Tonelli, not developed as prerequisites for the continuous Riemann examples."
+    ],
+    "readiness_checks": [
+      "Can you calculate a gradient, apply the chain rule along a curve, and identify tangent directions to a regular level set?",
+      "Can you distinguish positive definite, semidefinite, and indefinite symmetric matrices by their quadratic forms or eigenvalue signs?",
+      "Can you evaluate the integral of 2t from 1 to 3 by an antiderivative and explain why the answer describes accumulated change?"
+    ]
   }
 }

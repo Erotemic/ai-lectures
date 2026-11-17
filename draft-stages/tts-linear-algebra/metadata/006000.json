@@ -160,5 +160,28 @@
         }
       }
     ]
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "linear-algebra:001000",
+        "reason": "Determinants, eigenvectors, projections, least squares, and singular values act on linear maps represented in bases; the calculations use elimination, kernels, independence, rank, and matrix composition."
+      }
+    ],
+    "recommended": [
+      {
+        "lecture_id": "analysis:010000",
+        "reason": "The outline proving existence of a self-adjoint eigenbasis maximizes a continuous quadratic form on a compact unit sphere. This supplies the general compactness justification without making an analysis course necessary for the concrete matrix calculations."
+      }
+    ],
+    "background": [
+      "Elementary polynomial algebra and completing the square; Euclidean lengths and angles. Complex conjugation is useful for the complex versions, but the real examples can be studied first. The function-space and differential-equation remarks are applications, not assumed completed courses."
+    ],
+    "readiness_checks": [
+      "Can you find a basis for the kernel of the matrix with rows (1, 1) and (0, 0), and explain what that kernel means for recoverable information?",
+      "Can you explain why an invertible change of basis changes the displayed matrix to P inverse times A times P without changing the underlying map?",
+      "Can you complete the square in 2t squared minus 4t plus 4 and identify its minimizing value without differentiating?"
+    ]
   }
 }

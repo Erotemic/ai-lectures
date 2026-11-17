@@ -55,5 +55,28 @@
       "source_locator": "Cauchy-sequence construction",
       "audit_status": "reference_recorded"
     }
-  ]
+  ],
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "analysis:001000",
+        "reason": "The rational-gap example and completeness discussion distinguish convergence to a point from internal Cauchy agreement; monotone and subsequence arguments use limits of real sequences."
+      }
+    ],
+    "recommended": [
+      {
+        "lecture_id": "mathematical-proof:001000",
+        "reason": "The irrationality argument uses a reduced-fraction assumption, parity, and contradiction; familiarity with those proof patterns helps separate an exact impossibility from numerical evidence."
+      }
+    ],
+    "background": [
+      "Rational arithmetic, squares, parity, reduced fractions, and order inequalities. Cauchy sequences, suprema, and real completeness are introduced here; the bisection illustration previews continuity rather than assuming a completed continuity course."
+    ],
+    "readiness_checks": [
+      "Can you state what it means for a real sequence to converge, including the order of the epsilon and N choices?",
+      "Can you explain why the bounded sequence alternating between 1 and minus 1 need not converge?",
+      "Can you explain why a fraction can be put in lowest terms and why the square of an odd integer is odd?"
+    ]
+  }
 }

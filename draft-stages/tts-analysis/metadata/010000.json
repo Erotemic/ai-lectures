@@ -28,5 +28,28 @@
       "reason": "MIT 18.S190, lectures 3–4: metric compactness, sequential compactness and total boundedness."
     }
   ],
-  "historical_claims": []
+  "historical_claims": [],
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "analysis:009000",
+        "reason": "Compactness is formulated using metric balls, Cauchy sequences, completeness, and metric continuity; the discrete-metric counterexample depends on that geometry."
+      }
+    ],
+    "recommended": [
+      {
+        "lecture_id": "analysis:004000",
+        "reason": "The familiar real-interval roots, extrema, and subsequence arguments give concrete cases to compare with their abstract compactness generalizations."
+      }
+    ],
+    "background": [
+      "Elementary set unions, inverse images, and finite versus infinite collections. The lecture introduces open covers and total boundedness and states the Euclidean Heine-Borel characterization."
+    ],
+    "readiness_checks": [
+      "Can you describe open balls of radius 1/2 in a discrete metric and determine whether a sequence of distinct points can converge there?",
+      "Can you distinguish a complete space from a claim that every sequence in the space converges?",
+      "Can you explain why continuity sends a convergent input subsequence to a convergent output subsequence with the corresponding function value?"
+    ]
+  }
 }

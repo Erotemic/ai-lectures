@@ -24,5 +24,32 @@
       "reason": "MIT 18.100B, lectures 11 and 14: IVT, EVT and compactness."
     }
   ],
-  "historical_claims": []
+  "historical_claims": [],
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "analysis:002000",
+        "reason": "Bisection, convergent-subsequence selection, and extremum attainment use monotone convergence, nested closed intervals, and the least-upper-bound property."
+      },
+      {
+        "lecture_id": "analysis:003000",
+        "reason": "Continuity transfers endpoint-sign and near-extremum information through convergent input sequences to the limiting function value."
+      }
+    ],
+    "recommended": [
+      {
+        "lecture_id": "mathematical-proof:016000",
+        "reason": "The epsilon and compactness proof workshop offers additional practice constructing subsequences and pulling back covers; the real-interval arguments are developed here."
+      }
+    ],
+    "background": [
+      "Algebraic manipulation of real polynomials, interval order, and comparing upper bounds with values attained by a function. Derivatives are not needed for the existence proofs."
+    ],
+    "readiness_checks": [
+      "Can you distinguish a supremum from a maximum using the set of numbers from 0 up to but excluding 1?",
+      "Can you explain why a bounded nondecreasing sequence converges in the real numbers?",
+      "If x_n converges to c and f is continuous at c, can you justify that f(x_n) converges to f(c)?"
+    ]
+  }
 }

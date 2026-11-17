@@ -9,6 +9,8 @@ from collections import defaultdict
 from hashlib import sha256
 import json
 from urllib.parse import quote
+from .core import qualified, text_digest
+from .organization import collection_metadata, item_organization
 
 
 RELATION_TYPES = {
@@ -95,13 +97,26 @@ def build_learning_map(snapshot):
             if course_id not in memberships[current]:
                 memberships[current].append(course_id)
     nodes = {}
+    organized_courses = [dict(course, **collection_metadata(course, key.split(":", 1)[0])) for key, course in courses.items()]
     for key, row in lectures.items():
         node = {
             "id": key, "kind": "lecture", "title": row.get("title", key),
             "available": True, "namespace": row.get("namespace", key.split(":", 1)[0]),
             "collections": memberships.get(key, []), "section": row.get("section", ""),
             "url": _lecture_url(key),
+            "revision": row.get("revision"),
+            "knowledge_revision": text_digest(row.get("source") or row.get("transcript", "")),
+            "estimated_minutes": round(len(row.get("transcript", "").split()) / 145, 1),
+            **item_organization(row, organized_courses),
         }
+        metadata = row.get("metadata", {})
+        learning = metadata.get("learning", {}) if isinstance(metadata, dict) else {}
+        if not isinstance(learning, dict):
+            learning = {}
+            diagnostics.append(f"Ignored malformed learning notes for {key}.")
+        node["prerequisites_reviewed"] = learning.get("reviewed") is True
+        for field in ("background", "readiness_checks"):
+            node[field] = [value for value in _list(learning.get(field)) if isinstance(value, str) and value.strip()]
         if row.get("kind") == "presentation":
             node["format"] = "presentation"
             node["url"] = "/presentations?deck=" + quote(row.get("deck", key.split(":", 1)[-1]), safe="")
@@ -115,6 +130,8 @@ def build_learning_map(snapshot):
             "role": course.get("role", "main"), "parent_id": course.get("parent_id"),
             "lectures": list(course.get("lectures", [])), "summary": course.get("summary", ""),
             "url": "/collections/" + quote(key, safe=""),
+            "background": course.get("background", []),
+            **collection_metadata(course, key.split(":", 1)[0]),
         }
         collections.append(record)
         nodes[record["node_id"]] = {
@@ -143,6 +160,9 @@ def build_learning_map(snapshot):
             return
         original_source, original_target = source, target
         source, target = resolve(source), resolve(target)
+        claim_source = evidence.get("from", original_source) if isinstance(evidence, dict) else original_source
+        claim_target = evidence.get("to", original_target) if isinstance(evidence, dict) else original_target
+        internal = source == target and (original_source != original_target or claim_source != claim_target)
         optional(source)
         optional(target)
         identity = source, kind, target
@@ -153,9 +173,10 @@ def build_learning_map(snapshot):
                 "id": "relation-" + sha256(stable.encode()).hexdigest()[:20],
                 "from": source, "to": target, "type": kind, "label": label,
                 "category": category, "description": description,
-                "internal": source == target, "reasons": [], "collections": [], "evidence": [],
+                "internal": internal, "reasons": [], "collections": [], "evidence": [],
             }
         record = relations[identity]
+        record["internal"] = record["internal"] and internal
         if isinstance(why, str) and why.strip() and why not in record["reasons"]:
             record["reasons"].append(why)
         if collection_id and collection_id not in record["collections"]:
@@ -181,6 +202,34 @@ def build_learning_map(snapshot):
                     add(edge.get("from"), edge.get("type"), edge.get("to"), claim.get("why", edge.get("why")), evidence=claim)
         else:
             add(edge.get("from"), edge.get("type"), edge.get("to"), edge.get("why"))
+    for key, row in lectures.items():
+        metadata = row.get("metadata", {})
+        learning = metadata.get("learning", {}) if isinstance(metadata, dict) else {}
+        if not isinstance(learning, dict):
+            continue
+        for field, kind in (("prerequisites", "hard_depends_on"), ("recommended", "soft_depends_on")):
+            entries = learning.get(field, [])
+            if not isinstance(entries, list):
+                nodes[key]["prerequisites_reviewed"] = False
+                diagnostics.append(f"Ignored malformed {field} for {key}.")
+                continue
+            for entry in entries:
+                try:
+                    if not isinstance(entry, dict):
+                        raise ValueError("expected a preparation record")
+                    target = entry["lecture_id"]
+                    if not isinstance(target, str):
+                        raise ValueError("expected a lecture ID")
+                    if ":" not in target:
+                        target = key.split(":", 1)[0] + ":" + target
+                    qualified(target)
+                    reason = entry["reason"]
+                    if not isinstance(reason, str) or not reason.strip():
+                        raise ValueError("expected a teaching explanation")
+                    add(key, kind, target, reason, origin="lecture_learning_notes")
+                except (KeyError, ValueError, TypeError):
+                    nodes[key]["prerequisites_reviewed"] = False
+                    diagnostics.append(f"Ignored a malformed {field} entry for {key}.")
     for course_id, course in courses.items():
         source = "collection:" + course_id
         members = course.get("lectures", [])

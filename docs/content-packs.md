@@ -490,6 +490,88 @@ speech under the old recipe. Start a new preparation to use the revised settings
 No TTS request runs during ordinary catalog loading or prepared playback; only
 previously requested preparations are resumed in the background.
 
+## Personal learning plans
+
+**Study plan** at `/learning-plan` supports three choices: reach a lecture,
+follow a collection from a selected starting lecture, or find material whose
+recorded prerequisites are satisfied by your background. Links from collections,
+lectures and the learning map preselect the relevant destination. Starting later
+does not imply knowing everything earlier: prerequisite closure adds back any
+required preparation that has not been marked familiar.
+
+Only required teaching links constrain the default order. A selected collection
+supplies tie-breaking preferences; its adjacency is not turned into a mathematical
+prerequisite. Proof dependencies and suggested links have separate opt-in controls.
+Historical influence, adaptations, relatedness and collection membership never
+become prerequisite claims. The plan lists missing required material and actual
+dependency cycles, with blocked dependants, instead of dropping constraints.
+It can display usable preparation without claiming a complete valid plan.
+
+Familiarity choices are **Need to learn**, **Think I know / review**, and
+**Confident I know**. Uncertain material remains in the plan by default. An
+explicit option to assume it records that assumption visibly. A confident choice
+cuts the prerequisite search at that lecture: it represents background supplied
+by the learner, not evidence that the library taught or assessed it. Playback
+completion never changes familiarity. Optional readiness prompts help users
+reconsider their confidence without pretending to administer a graded assessment.
+
+Familiarity binds to the complete authored manuscript, including its written
+companion. A content change makes a confident choice uncertain until reconfirmed;
+metadata-only changes do not. Old component IDs never imply mastery of a whole
+combined lecture, even when the former part's ID survives consolidation.
+Unmapped or obsolete choices remain visible for review and clearing.
+
+Anonymous background choices persist locally. Named-listener choices live in the
+listener database and travel with history exports and backups. Individual updates
+merge independently, stable update IDs make retries idempotent, and explicit
+Unknown choices are retained. New choices use server arrival order; transfer
+merges timestamps and stable IDs. This is deliberate user state, not formal proof
+certification or automatic cross-server synchronization. A named listener can
+explicitly copy device background where it has no existing choices.
+
+**Listen in this order** appends the constructed sequence to the existing queue
+and starts its first step. **Add this order to my listening queue** appends without
+starting. Retries on the same displayed result reuse queue entry IDs. Presentations
+remain explicit steps to open; missing audio is not implicitly generated.
+
+### Pack-local teaching notes
+
+Optional per-lecture metadata can supply a `learning` record:
+
+```json
+{
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "linear-algebra:001000",
+        "reason": "Uses bases, kernels and composition of linear maps."
+      }
+    ],
+    "recommended": [],
+    "background": ["Elementary algebra and solving linear equations."],
+    "readiness_checks": [
+      "Can you find a basis of a matrix kernel and explain what its dimension means?"
+    ]
+  }
+}
+```
+
+Use current qualified lecture IDs and explain the actual mathematical use. Mark
+reviewed preparation only after inspecting the lesson; an empty required list
+can be correct for a self-contained introduction. Distinguish required knowledge
+from optional review and from a requirement to watch a particular recording.
+Record unmapped assumed skills as prose rather than inventing prerequisite
+lectures. These are teaching judgments, not Lean dependency exports.
+
+The initial notes cover 21 proof, linear-algebra, multivariable-calculus and
+introductory-analysis lectures, alongside the existing operator-course links.
+Other lessons can still be planned, but absent review metadata is shown as a
+coverage gap, never proof that no background is needed. Optional malformed notes
+do not hide a usable lecture. Notes already travel as ordinary metadata; authors
+need no runtime-pack edits, shared registry change or mandatory import check.
+Keep learning-map provenance separate from narration and slide authorship.
+
 ## Listeners and feedback
 
 The persistent player shows the playing track and upcoming lecture. **Next**

@@ -22,6 +22,8 @@ import { showSlideCompanions } from "./slide-companions.mjs";
 import { collectionReturnPath } from "./browse-model.mjs";
 import { LectureAudio } from "./lecture-audio.mjs";
 import { listeningCourse, followingLecture } from "./playback-route.mjs";
+import { renderLearningPlan } from "./learning-plan.mjs";
+import { migrateLearningState } from "./learning-state.mjs";
 import {
   legacyPositions,
   approximateLegacyPosition,
@@ -256,6 +258,9 @@ async function updatePlaybackRoute() {
     const queueIndex = entries.findIndex((entry) => entry.id === playingQueueEntry?.id);
     nextId = queueIndex >= 0 ? entries[queueIndex + 1]?.lecture_id : null;
     queued = true;
+    track.hidden = false;
+    track.textContent = "Listening queue";
+    track.href = "/listening";
   }
   const nextRow = byId(nextId);
   $("next-lecture").disabled = !nextRow;
@@ -290,6 +295,7 @@ async function loadListeners() {
   if (data.aliases?.[profile]) {
     const old = profile;
     profile = data.aliases[profile];
+    migrateLearningState(old, profile);
     store("listener", profile);
     const pending = getStored("pending:" + profile, []);
     const known = new Set(pending.map((event) => event.update_id));
@@ -647,6 +653,7 @@ async function lecturePage(id, autoplay = false, historical = null) {
     ),
   );
   side.append(el("p", {}, link("Explore related lectures", "/learning-map?" + new URLSearchParams({ lecture: id }))));
+  side.append(el("p", {}, link("Plan prerequisites & learning order", "/learning-plan?" + new URLSearchParams({ goal: id, ...(currentCourse ? { collection: currentCourse } : {}) }))));
   const resources = (
     Array.isArray(row.metadata?.related_resources)
       ? row.metadata.related_resources
@@ -1150,6 +1157,16 @@ async function render(autoplay = false) {
       await reviewFeedback($("main"), catalog.lectures);
     else if (path === "/references") await referencesPage($("main"), catalog);
     else if (path === "/learning-map") await renderLearningMap($("main"), { link, navigate });
+    else if (path === "/learning-plan") await renderLearningPlan($("main"), {
+      link, profile, message,
+      enqueue: async (entries, { play = false } = {}) => {
+        const selectedProfile = profile;
+        for (const entry of entries) await listeningQueue.edit({ action: "add", entry }, selectedProfile);
+        if (profile !== selectedProfile) return;
+        message(`Added ${entries.length} steps to your listening queue.`);
+        if (play && entries.length) await listeningQueue.play(entries[0], true);
+      },
+    });
     else if (path === "/production") await production.render($("main"));
     else browse();
     document.title = ($("main").querySelector("h1")?.textContent || "Library") + " · AI Lectures";

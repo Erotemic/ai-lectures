@@ -114,5 +114,32 @@
         }
       }
     ]
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "linear-algebra:001000",
+        "reason": "Dual bases, tensor-product bases, quotients, and exact sequences are built from linear maps, basis coordinates, kernels, images, rank, and dimension."
+      }
+    ],
+    "recommended": [
+      {
+        "lecture_id": "linear-algebra:006000",
+        "reason": "Inner products, eigenvalues, and determinant geometry help interpret gradients, the signs of quadratic forms, and oriented volume; the main dual and quotient constructions do not require the spectral sequence as a separate hard prerequisite."
+      },
+      {
+        "lecture_id": "mathematical-proof:009000",
+        "reason": "Equivalence classes and independence of representatives clarify the quotient-space construction and its well-defined operations; this lecture recalls the required vector-space version."
+      }
+    ],
+    "background": [
+      "Elementary coordinate algebra and finite arrays. Derivatives, manifolds, and homology are explanatory applications of the linear constructions; a completed calculus, geometry, or topology course is not assumed."
+    ],
+    "readiness_checks": [
+      "Can you verify directly that the map (x, y) to 2x minus y preserves addition and scalar multiplication?",
+      "Can you explain how a vector gets different coordinate lists in two bases while the vector itself stays fixed?",
+      "For T(x, y) = x + y, can you determine the kernel, image, and their dimensions?"
+    ]
   }
 }

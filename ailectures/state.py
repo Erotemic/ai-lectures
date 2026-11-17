@@ -3,7 +3,7 @@
 from __future__ import annotations
 
 from contextlib import contextmanager
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 import json
 from pathlib import Path
 import sqlite3
@@ -87,6 +87,11 @@ class ListenerState:
                     PRIMARY KEY(profile, lecture, device));
                 CREATE TABLE IF NOT EXISTS feedback_events (id TEXT PRIMARY KEY, record TEXT NOT NULL);
                 CREATE TABLE IF NOT EXISTS listening_queues (profile TEXT PRIMARY KEY, entries TEXT NOT NULL);
+                CREATE TABLE IF NOT EXISTS learning_knowledge (
+                    profile TEXT, lecture TEXT, record TEXT NOT NULL,
+                    PRIMARY KEY(profile, lecture));
+                CREATE TABLE IF NOT EXISTS learning_events (
+                    id TEXT PRIMARY KEY, profile TEXT NOT NULL, record TEXT NOT NULL);
             """)
 
     @contextmanager
@@ -241,7 +246,19 @@ class ListenerState:
                 "INSERT OR REPLACE INTO listening_queues VALUES (?,?)",
                 (target, canonical(entries).decode()),
             )
-            for table in ("progress", "device_sequences", "listening_queues"):
+            for row in db.execute(
+                "SELECT record FROM learning_knowledge WHERE profile=?", (source,)
+            ).fetchall():
+                self._merge_learning(db, target, json.loads(row["record"]))
+            db.execute(
+                "UPDATE learning_events SET profile=? WHERE profile=?", (target, source)
+            )
+            for table in (
+                "progress",
+                "device_sequences",
+                "listening_queues",
+                "learning_knowledge",
+            ):
                 db.execute(f"DELETE FROM {table} WHERE profile=?", (source,))
             db.execute("DELETE FROM profiles WHERE id=?", (source,))
             db.execute(
@@ -251,6 +268,138 @@ class ListenerState:
                 "INSERT OR REPLACE INTO profile_aliases VALUES (?,?)", (source, target)
             )
             return people[target]
+
+    @staticmethod
+    def _learning_input(payload):
+        if not isinstance(payload, dict):
+            raise ValueError("Invalid knowledge update")
+        try:
+            event_id = identifier(payload["id"])
+            lecture_id = qualified(payload["lecture_id"])
+            status = payload["status"]
+            revision = payload["revision"]
+        except KeyError as error:
+            raise ValueError(
+                "Knowledge updates need id, lecture_id, status and revision"
+            ) from error
+        if not isinstance(status, str) or status not in {
+            "known",
+            "uncertain",
+            "unknown",
+        }:
+            raise ValueError("Invalid knowledge status")
+        if revision is not None:
+            checksum(revision)
+        return dict(
+            id=event_id, lecture_id=lecture_id, status=status, revision=revision
+        )
+
+    @classmethod
+    def _learning_record(cls, record):
+        if not isinstance(record, dict):
+            raise ValueError("Invalid knowledge record")
+        payload = cls._learning_input(dict(record, id=record.get("update_id")))
+        try:
+            timestamp = record["updated_at"]
+            if not isinstance(timestamp, str):
+                raise ValueError("Invalid knowledge timestamp")
+            parsed = datetime.fromisoformat(timestamp)
+            if parsed.tzinfo is None or parsed.utcoffset() is None:
+                raise ValueError("Knowledge timestamps must include a timezone")
+        except (KeyError, TypeError, ValueError) as error:
+            raise ValueError("Invalid knowledge timestamp") from error
+        return dict(
+            lecture_id=payload["lecture_id"],
+            status=payload["status"],
+            revision=payload["revision"],
+            update_id=payload["id"],
+            updated_at=parsed.astimezone(timezone.utc).isoformat(),
+        )
+
+    @staticmethod
+    def _merge_learning(db, profile, record):
+        """Last explicit choice wins, including Unknown; ties are deterministic."""
+        current = db.execute(
+            "SELECT record FROM learning_knowledge WHERE profile=? AND lecture=?",
+            (profile, record["lecture_id"]),
+        ).fetchone()
+        previous = json.loads(current["record"]) if current else None
+        if previous is None or (record["updated_at"], record["update_id"]) > (
+            previous["updated_at"],
+            previous["update_id"],
+        ):
+            db.execute(
+                "INSERT OR REPLACE INTO learning_knowledge VALUES (?,?,?)",
+                (profile, record["lecture_id"], canonical(record).decode()),
+            )
+
+    def learning(self, profile):
+        profile = self.resolve_profile(profile)
+        with self.connect() as db:
+            if not db.execute(
+                "SELECT 1 FROM profiles WHERE id=?", (profile,)
+            ).fetchone():
+                raise KeyError("Unknown listener")
+            return {
+                "knowledge": {
+                    row["lecture"]: json.loads(row["record"])
+                    for row in db.execute(
+                        "SELECT lecture,record FROM learning_knowledge WHERE profile=?",
+                        (profile,),
+                    )
+                }
+            }
+
+    def set_learning(self, profile, payload):
+        """Apply one explicit choice; a retried event returns its original receipt."""
+        profile = self.resolve_profile(profile)
+        payload = self._learning_input(payload)
+        with self.connect() as db:
+            db.execute("BEGIN IMMEDIATE")
+            if not db.execute(
+                "SELECT 1 FROM profiles WHERE id=?", (profile,)
+            ).fetchone():
+                raise KeyError("Unknown listener")
+            prior = db.execute(
+                "SELECT profile,record FROM learning_events WHERE id=?",
+                (payload["id"],),
+            ).fetchone()
+            if prior:
+                record = json.loads(prior["record"])
+                old_payload = dict(record, id=record["update_id"])
+                if (
+                    prior["profile"] != profile
+                    or self._learning_input(old_payload) != payload
+                ):
+                    raise Conflict("Knowledge update ID has conflicting contents")
+                return record
+            timestamp = datetime.fromisoformat(utcnow())
+            current = db.execute(
+                "SELECT record FROM learning_knowledge WHERE profile=? AND lecture=?",
+                (profile, payload["lecture_id"]),
+            ).fetchone()
+            if current:
+                previous_time = datetime.fromisoformat(
+                    json.loads(current["record"])["updated_at"]
+                )
+                # Keep a later explicit choice later after transfer or a clock adjustment.
+                timestamp = max(timestamp, previous_time + timedelta(microseconds=1))
+            record = dict(
+                lecture_id=payload["lecture_id"],
+                status=payload["status"],
+                revision=payload["revision"],
+                update_id=payload["id"],
+                updated_at=timestamp.isoformat(),
+            )
+            db.execute(
+                "INSERT INTO learning_events VALUES (?,?,?)",
+                (payload["id"], profile, canonical(record).decode()),
+            )
+            db.execute(
+                "INSERT OR REPLACE INTO learning_knowledge VALUES (?,?,?)",
+                (profile, payload["lecture_id"], canonical(record).decode()),
+            )
+            return record
 
     def progress(self, profile):
         profile = self.resolve_profile(profile)
@@ -436,11 +585,37 @@ class ListenerState:
         profile = self.resolve_profile(profile)
         progress = self.progress(profile)
         person = next(p for p in self.profiles() if p["id"] == profile)
+        with self.connect() as db:
+            db.execute("BEGIN")
+            knowledge = {
+                row["lecture"]: json.loads(row["record"])
+                for row in db.execute(
+                    "SELECT lecture,record FROM learning_knowledge WHERE profile=?",
+                    (profile,),
+                )
+            }
+            events = [
+                json.loads(row["record"])
+                for row in db.execute(
+                    "SELECT record FROM learning_events WHERE profile=? ORDER BY id",
+                    (profile,),
+                )
+            ]
+            aliases = [
+                row["id"]
+                for row in db.execute(
+                    "SELECT id FROM profile_aliases WHERE profile=? ORDER BY id",
+                    (profile,),
+                )
+            ]
         return {
             "schema_version": 1,
             "profile": person,
             "progress": progress,
             "queue": self.queue(profile),
+            "knowledge": knowledge,
+            "knowledge_events": events,
+            "profile_aliases": aliases,
         }
 
     def queue(self, profile):
@@ -521,6 +696,28 @@ class ListenerState:
         if document.get("schema_version") != 1:
             raise ValueError("Unsupported listener export")
         person, progress = document["profile"], document["progress"]
+        knowledge, events = document.get("knowledge", {}), document.get(
+            "knowledge_events", []
+        )
+        if not isinstance(knowledge, dict) or not isinstance(events, list):
+            raise ValueError("Invalid knowledge export")
+        incoming_events = {}
+        records = []
+        for key, value in knowledge.items():
+            qualified(key)
+            record = self._learning_record(value)
+            if record["lecture_id"] != key:
+                raise ValueError("Knowledge key does not match its lecture")
+            records.append(record)
+        for record in [*map(self._learning_record, events), *records]:
+            event_id = record["update_id"]
+            if event_id in incoming_events and incoming_events[event_id] != record:
+                raise Conflict("Knowledge update ID has conflicting contents")
+            incoming_events[event_id] = record
+        aliases = document.get("profile_aliases", [])
+        if not isinstance(aliases, list):
+            raise ValueError("Invalid listener aliases")
+        aliases = [identifier(alias) for alias in aliases]
         queue = document.get("queue")
         if queue is not None:
             if not isinstance(queue, list):
@@ -533,11 +730,33 @@ class ListenerState:
             raise ValueError("Invalid listener name")
         with self.connect() as db:
             db.execute("BEGIN IMMEDIATE")
+            # An old device export may use the ID of an explicitly merged listener.
+            original_id = person["id"]
+            profile = original_id
+            alias_map = dict(db.execute("SELECT id,profile FROM profile_aliases"))
+            seen = set()
+            while profile in alias_map:
+                if profile in seen:
+                    raise Conflict("Listener alias cycle")
+                seen.add(profile)
+                profile = alias_map[profile]
             existing = db.execute(
-                "SELECT name FROM profiles WHERE id=?", (person["id"],)
+                "SELECT name FROM profiles WHERE id=?", (profile,)
             ).fetchone()
-            if existing and existing["name"] != person["name"]:
+            if (
+                existing
+                and existing["name"] != person["name"]
+                and not (
+                    profile != original_id
+                    and self.listener_name(existing["name"])
+                    == self.listener_name(person["name"])
+                )
+            ):
                 raise Conflict("Listener ID already has another name")
+            person = {
+                "id": profile,
+                "name": existing["name"] if existing else person["name"],
+            }
             db.execute(
                 "INSERT OR IGNORE INTO profiles VALUES (?,?)",
                 (person["id"], person["name"]),
@@ -570,4 +789,30 @@ class ListenerState:
                     "INSERT OR IGNORE INTO progress VALUES (?,?,?,?)",
                     (person["id"], key, row["version"], canonical(row).decode()),
                 )
+            for alias in aliases:
+                if alias == profile:
+                    continue
+                occupied = db.execute(
+                    "SELECT 1 FROM profiles WHERE id=?", (alias,)
+                ).fetchone()
+                if occupied or (alias in alias_map and alias_map[alias] != profile):
+                    raise Conflict("Listener alias belongs to another listener")
+                db.execute(
+                    "INSERT OR IGNORE INTO profile_aliases VALUES (?,?)",
+                    (alias, profile),
+                )
+            for event_id, record in incoming_events.items():
+                previous = db.execute(
+                    "SELECT profile,record FROM learning_events WHERE id=?", (event_id,)
+                ).fetchone()
+                if previous and (
+                    previous["profile"] != profile
+                    or json.loads(previous["record"]) != record
+                ):
+                    raise Conflict("Knowledge update conflicts with local history")
+                db.execute(
+                    "INSERT OR IGNORE INTO learning_events VALUES (?,?,?)",
+                    (event_id, profile, canonical(record).decode()),
+                )
+                self._merge_learning(db, profile, record)
         return person

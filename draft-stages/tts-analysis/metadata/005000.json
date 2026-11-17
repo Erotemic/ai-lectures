@@ -24,5 +24,23 @@
       "reason": "MIT 18.100B, lecture 15: derivative and differentiation rules."
     }
   ],
-  "historical_claims": []
+  "historical_claims": [],
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "analysis:003000",
+        "reason": "Difference quotients are limits of functions on punctured neighborhoods; differentiability is compared with continuity and justified using local limit laws."
+      }
+    ],
+    "recommended": [],
+    "background": [
+      "Factoring and expanding polynomials, manipulating fractions with nonzero denominators, and basic function composition. Sine and cosine occur in a later counterexample; their ordinary formulas may be reviewed separately."
+    ],
+    "readiness_checks": [
+      "Can you compute and simplify ((a + h) squared minus a squared)/h for nonzero h before taking h toward zero?",
+      "Can you distinguish the limit of a function near a point from the value assigned at that point?",
+      "Can you explain how the left and right approaches might disagree even if each gives a simple formula?"
+    ]
+  }
 }

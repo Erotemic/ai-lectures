@@ -52,6 +52,23 @@ incoming or outgoing links. The complete view and original component evidence
 remain available alongside the diagram preview. It works with installed packs
 without the presentation tools.
 
+Study plan constructs an order from your chosen destination or collection and
+your stated background. Required teaching links constrain the order; authored
+listening order breaks ties. Starting partway through a collection still adds
+unmet prerequisites. Confident familiarity removes material, while uncertain
+familiarity stays as review unless explicitly assumed. Readiness questions,
+explanations, missing material, cycles and incomplete coverage remain visible.
+Listen in this order adds the result to your queue and starts its first step.
+
+Familiarity is independent of listening completion. Anonymous choices stay on
+the device; named listeners share them and retain them in history exports and
+library backups. Content changes require reconfirming familiarity, including
+when a short part's ID survives as a larger combined lecture. Metadata-only
+changes retain the manuscript identity used for familiarity. The map has its
+existing detailed operator-course relationships plus reviewed learning notes
+for 21 foundational proof, linear-algebra, multivariable and introductory-analysis
+lectures; other coverage is explicitly incomplete.
+
 Lecture pages open prepared HTML slide companions directly, with attribution
 and downloads. A repository checkout also exposes its existing slide decks and
 an explicit Build action when the optional renderer is installed. Opening the

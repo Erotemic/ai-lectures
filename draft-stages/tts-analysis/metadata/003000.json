@@ -24,5 +24,28 @@
       "reason": "MIT 18.100B, lectures 9–11: limits and continuity."
     }
   ],
-  "historical_claims": []
+  "historical_claims": [],
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "analysis:001000",
+        "reason": "The sequential characterization of continuity uses arbitrary convergent input sequences and the meaning of an eventual error bound. Real-number completeness is not needed to establish the local limit definitions."
+      }
+    ],
+    "recommended": [
+      {
+        "lecture_id": "mathematical-proof:001000",
+        "reason": "Reading quantified implications and their negations supports the epsilon-delta witness construction and the counterexample sequence used when continuity fails."
+      }
+    ],
+    "background": [
+      "Elementary real functions, their domains, factoring differences of squares, absolute values, and inequalities. A separate completeness course is not assumed for these local continuity arguments."
+    ],
+    "readiness_checks": [
+      "Can you explain why changing finitely many terms of a convergent sequence leaves its limit unchanged?",
+      "Can you factor x squared minus 1 and explain why cancelling x minus 1 is valid only away from x = 1?",
+      "Can you use |u + v| <= |u| + |v| and choose one threshold large enough for two eventual estimates?"
+    ]
+  }
 }

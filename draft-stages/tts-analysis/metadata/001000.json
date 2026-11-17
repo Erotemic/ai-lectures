@@ -20,5 +20,23 @@
       "reason": "MIT 18.100B, lectures 4–7: epsilon–N convergence, Cauchy sequences and monotone convergence."
     }
   ],
-  "historical_claims": []
+  "historical_claims": [],
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "recommended": [
+      {
+        "lecture_id": "mathematical-proof:001000",
+        "reason": "Practice with universal statements, dependent witnesses, and counterexamples helps unpack the epsilon-N promise; this introductory sequence lecture explains its own quantifiers and proofs."
+      }
+    ],
+    "background": [
+      "Fractions, elementary algebra, absolute value as distance, and inequalities with positive numbers. No prior calculus, completeness theorem, or epsilon proof is assumed."
+    ],
+    "readiness_checks": [
+      "Can you simplify (3n + 2)/(n + 1) minus 3 for positive integers n?",
+      "Can you solve the inequality 1/n < 0.01 for positive n and explain why it stays true when n increases?",
+      "Can you distinguish a rule defining an infinite list from a finite table of its first few values?"
+    ]
+  }
 }
