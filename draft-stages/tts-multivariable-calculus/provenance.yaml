@@ -48,6 +48,14 @@ transcript:
       source_records: metadata/sources.json
       per_lecture_metadata: metadata/027000.json through metadata/030000.json
     scope: Add original mathematical lectures and companions on tangent-space second variation, critical cones, KKT Newton systems, and implicit/adjoint sensitivity, without revising inherited manuscripts.
+  - date: '2026-11-17'
+    models:
+    - GPT-6
+    sources:
+    - manuscripts: '031000–034000'
+      source_records: metadata/sources.json
+      per_lecture_metadata: metadata/031000.json through metadata/034000.json
+    scope: Add original calculus-of-variations, Euler–Lagrange boundary, weak-solution and finite-element lectures, with full mathematical companions; leave all earlier manuscripts intact.
 learning_map:
   revisions:
   - date: '2026-11-16'
@@ -100,3 +108,14 @@ learning_map:
     - metadata/029000.json
     - metadata/030000.json
     scope: Register constrained Newton and sensitivity as a separate four-lecture depth route, with local prerequisites and named source records; preserve survey and earlier deep-dive routes.
+  - date: '2026-11-17'
+    models:
+    - GPT-6
+    sources:
+    - track.json
+    - navigation.json
+    - metadata/031000.json
+    - metadata/032000.json
+    - metadata/033000.json
+    - metadata/034000.json
+    scope: Register a variational weak-formulation route and its prerequisites, reference records and checkpoints; preserve existing routes.

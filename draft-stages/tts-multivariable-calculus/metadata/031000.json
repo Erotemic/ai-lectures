@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "lecture_id": "031000",
+  "transcript": "031000-first-variation-and-energy-minimization.md",
+  "related_resources": [
+    {
+      "source_id": "mv-evans-dynamicopt",
+      "reason": "First variation, Euler–Lagrange, and variational-optimality assumptions."
+    },
+    {
+      "source_id": "mv-heltai-galerkin",
+      "reason": "Energy variational characterization and Ritz approximation."
+    },
+    {
+      "source_id": "mv-wiki-first-variation",
+      "reason": "Terminology for directional derivatives of functionals."
+    },
+    {
+      "source_id": "mv-wiki-calculus-variations",
+      "reason": "Broad context for variational problems."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-17",
+    "scope": "Original, independently authored spoken mathematics, exact worked variational and finite-element calculations, and non-spoken companions. Previously authored manuscripts retained."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "multivariable-calculus:020000",
+        "reason": "Positive quadratic forms and Hessians in finite dimensions."
+      },
+      {
+        "lecture_id": "multivariable-calculus:027000",
+        "reason": "Constrained directional derivatives and second-order tests."
+      }
+    ],
+    "recommended": [
+      {
+        "lecture_id": "differential-equations:010000",
+        "reason": "Introductory weak equations in a PDE survey."
+      },
+      {
+        "lecture_id": "multivariable-calculus:032000",
+        "reason": "Euler–Lagrange and boundary terms."
+      }
+    ],
+    "background": [
+      "Single-variable differentiation and integration by parts, multivariable quadratic forms, functions with fixed endpoint values."
+    ],
+    "readiness_checks": [
+      "Can you compute the first variation of a squared-derivative energy directly from u+t v?",
+      "Can you explain why a stationary curve can fail to minimize an energy?"
+    ]
+  }
+}

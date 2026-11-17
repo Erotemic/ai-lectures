@@ -1,7 +1,7 @@
 {
   "id": "multivariable-calculus",
   "title": "Multivariable Calculus from First Principles",
-  "summary": "A calculation-first and proof-aware bridge from single-variable calculus and basic linear algebra to geometry and optimization. Depth routes develop quantitative Taylor/Newton analysis, nonlinear least squares, and constrained Newton/KKT sensitivity with exact examples.",
+  "summary": "A calculation-first and proof-aware bridge from single-variable calculus and basic linear algebra to geometry and optimization. Depth routes develop Taylor and Newton theory, nonlinear least squares, constrained KKT sensitivity, and variational/weak PDE methods through complete examples.",
   "assumed_background": [
     "single-variable limits, differentiation and integration (Analysis 001000–008000)",
     "elementary vectors, matrices, determinants and dot products (Linear Algebra 001000–006000, 008000)"
@@ -15,7 +15,8 @@
     "015000-curves-and-line-integrals-measuring-along-a-path",
     "taylor-newton-bridge",
     "nonlinear-least-squares-bridge",
-    "constrained-newton-sensitivity-bridge"
+    "constrained-newton-sensitivity-bridge",
+    "variational-weak-formulations-bridge"
   ],
   "lectures": [
     {
@@ -266,6 +267,68 @@
         "Envelope theorem",
         "Sensitivity analysis",
         "Adjoint methods"
+      ]
+    },
+    {
+      "id": "031000",
+      "title": "First Variation: Optimizing a Function Instead of a Vector",
+      "section": "variational-weak-formulations-bridge",
+      "file": "031000-first-variation-and-energy-minimization.md",
+      "spoken_words": 1945,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 13.4,
+      "tags": [
+        "Calculus of variations",
+        "First variation",
+        "Second variation",
+        "Energy minimization"
+      ]
+    },
+    {
+      "id": "032000",
+      "title": "Euler–Lagrange Equations: The Differential Equation and the Boundary Terms",
+      "section": "variational-weak-formulations-bridge",
+      "file": "032000-euler-lagrange-equations-and-boundaries.md",
+      "spoken_words": 1910,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 13.2,
+      "tags": [
+        "Euler–Lagrange equation",
+        "Natural boundary conditions",
+        "Robin conditions",
+        "Isoperimetric constraints"
+      ]
+    },
+    {
+      "id": "033000",
+      "title": "Weak Solutions: When the Integral Equation Is the Right Equation",
+      "section": "variational-weak-formulations-bridge",
+      "file": "033000-weak-solutions-and-energy-spaces.md",
+      "spoken_words": 2110,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 14.6,
+      "tags": [
+        "Weak solutions",
+        "Sobolev spaces",
+        "Lax–Milgram theorem",
+        "Coercivity",
+        "Interface flux"
+      ]
+    },
+    {
+      "id": "034000",
+      "title": "Finite Elements: From a Weak Equation to a Matrix and an Error Bound",
+      "section": "variational-weak-formulations-bridge",
+      "file": "034000-finite-elements-from-weak-form-to-error.md",
+      "spoken_words": 2429,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 16.8,
+      "tags": [
+        "Finite elements",
+        "Galerkin orthogonality",
+        "Céa lemma",
+        "Stiffness matrices",
+        "Energy error"
       ]
     }
   ],

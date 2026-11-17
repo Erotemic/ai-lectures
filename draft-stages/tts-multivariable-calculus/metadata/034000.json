@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "lecture_id": "034000",
+  "transcript": "034000-finite-elements-from-weak-form-to-error.md",
+  "related_resources": [
+    {
+      "source_id": "mv-mude-fem",
+      "reason": "Stepwise finite-element implementation and assembly from the weak Poisson form."
+    },
+    {
+      "source_id": "mv-ntnu-galerkin",
+      "reason": "Orthogonality, best approximation, and Céa stability."
+    },
+    {
+      "source_id": "mv-heltai-galerkin",
+      "reason": "Abstract Ritz–Galerkin estimates."
+    },
+    {
+      "source_id": "mv-wiki-fem",
+      "reason": "Finite-element terminology."
+    },
+    {
+      "source_id": "mv-wiki-galerkin",
+      "reason": "Weighted-residual and Galerkin methods."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-17",
+    "scope": "Original, independently authored spoken mathematics, exact worked variational and finite-element calculations, and non-spoken companions. Previously authored manuscripts retained."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "multivariable-calculus:033000",
+        "reason": "Weak problem, coercivity, and admissible energy spaces."
+      },
+      {
+        "lecture_id": "linear-algebra:020000",
+        "reason": "Concrete matrix systems and triangular solves."
+      }
+    ],
+    "recommended": [
+      {
+        "lecture_id": "linear-algebra:024000",
+        "reason": "Cholesky for symmetric positive definite stiffness systems."
+      },
+      {
+        "lecture_id": "linear-algebra:025000",
+        "reason": "Conjugate gradients for large sparse positive-definite systems."
+      },
+      {
+        "lecture_id": "numerical-analysis:018000",
+        "reason": "Advanced finite-element error estimation."
+      }
+    ],
+    "background": [
+      "Piecewise linear interpolation, small symmetric linear systems, definite quadratic forms, and integrals of polynomials."
+    ],
+    "readiness_checks": [
+      "Can you assemble a 2-by-2 stiffness matrix and its load vector for a three-element mesh?",
+      "Can you distinguish the Galerkin energy error from the residual of a linear solver?"
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "lecture_id": "033000",
+  "transcript": "033000-weak-solutions-and-energy-spaces.md",
+  "related_resources": [
+    {
+      "source_id": "mv-heltai-galerkin",
+      "reason": "Hilbert space weak Poisson problem and Lax–Milgram assumptions."
+    },
+    {
+      "source_id": "mv-ntnu-galerkin",
+      "reason": "Boundedness/coercivity and the route to finite elements."
+    },
+    {
+      "source_id": "mv-wiki-weak",
+      "reason": "Weak derivatives and weak solution notion."
+    },
+    {
+      "source_id": "mv-wiki-sobolev",
+      "reason": "Sobolev space background."
+    },
+    {
+      "source_id": "mv-wiki-lax-milgram",
+      "reason": "Well-posedness terminology."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-17",
+    "scope": "Original, independently authored spoken mathematics, exact worked variational and finite-element calculations, and non-spoken companions. Previously authored manuscripts retained."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "multivariable-calculus:031000",
+        "reason": "Energy and variational stationarity."
+      },
+      {
+        "lecture_id": "multivariable-calculus:032000",
+        "reason": "Integration by parts and boundary contributions."
+      }
+    ],
+    "recommended": [
+      {
+        "lecture_id": "differential-equations:010000",
+        "reason": "Broader PDE context and weak evolution equations."
+      },
+      {
+        "lecture_id": "multivariable-calculus:034000",
+        "reason": "Restrict the weak problem to a finite-element test space."
+      }
+    ],
+    "background": [
+      "L2 norms and Cauchy–Schwarz, integration by parts, continuity of piecewise-smooth functions; Hilbert and Sobolev terminology introduced locally."
+    ],
+    "readiness_checks": [
+      "Can you explain how continuity of a u-prime replaces continuity of u-prime at an interface?",
+      "Which properties of the bilinear form let Lax–Milgram give uniqueness and stability?"
+    ]
+  }
+}

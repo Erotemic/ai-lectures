@@ -5,7 +5,7 @@
       "id": "survey",
       "title": "Multivariable Calculus · Foundations Survey",
       "role": "main",
-      "summary": "Total derivatives, Hessians, constrained optimization, multiple integrals, curves and surfaces; optional deep dives construct Newton methods, nonlinear fits, and constrained sensitivity.",
+      "summary": "Total derivatives, Hessians, constrained optimization, multiple integrals, curves and surfaces; depth routes lead through Newton methods, nonlinear fitting, KKT sensitivity, and variational weak equations.",
       "lectures": [
         "001000",
         "008000",
@@ -14,7 +14,8 @@
       "related_collections": [
         "taylor-newton-bridge",
         "nonlinear-least-squares-bridge",
-        "constrained-newton-sensitivity-bridge"
+        "constrained-newton-sensitivity-bridge",
+        "variational-weak-formulations-bridge"
       ],
       "tags": [
         "Calculus",
@@ -108,7 +109,8 @@
       "related_collections": [
         "optimization-duality:survey",
         "multivariable-calculus:nonlinear-least-squares-bridge",
-        "numerical-analysis:survey"
+        "numerical-analysis:survey",
+        "variational-weak-formulations-bridge"
       ],
       "tags": [
         "Constrained optimization",
@@ -120,6 +122,39 @@
       ],
       "assumed_background": [
         "Jacobian and Hessian matrices; linear algebra of null spaces; Newton corrections; an introduction to Lagrange multipliers is helpful but not essential."
+      ]
+    },
+    {
+      "id": "variational-weak-formulations-bridge",
+      "title": "Variational Methods and Weak PDEs · From First Variation to Finite Elements",
+      "role": "deep_dive",
+      "parent": "survey",
+      "summary": "Four construction-level studies: functional derivatives and exact energy minima; Euler–Lagrange and natural boundary terms; Sobolev weak solutions with an interface example; finite-element assembly, Galerkin orthogonality and exact error.",
+      "lectures": [
+        "031000",
+        "032000",
+        "033000",
+        "034000"
+      ],
+      "preparation_collections": [
+        "multivariable-calculus:survey",
+        "multivariable-calculus:constrained-newton-sensitivity-bridge"
+      ],
+      "related_collections": [
+        "differential-equations:survey",
+        "numerical-analysis:survey",
+        "linear-algebra:numerical-matrix-bridge"
+      ],
+      "tags": [
+        "Calculus of variations",
+        "Euler–Lagrange equation",
+        "Weak solutions",
+        "Sobolev spaces",
+        "Finite elements",
+        "Galerkin method"
+      ],
+      "assumed_background": [
+        "Single-variable integration by parts, elementary multivariable quadratic forms, matrix systems, and a willingness to learn the basics of weak derivatives and Hilbert spaces."
       ]
     }
   ]

@@ -350,6 +350,97 @@
       "url": "https://en.wikipedia.org/wiki/Envelope_theorem",
       "access": "free_no_login",
       "notes": "Value-function sensitivity formula; lectures establish their own equality-constraint sign convention."
+    },
+    "mv-evans-dynamicopt": {
+      "title": "Lawrence C. Evans, Mathematical Methods for Optimization: Dynamic Optimization (2021), lecture notes",
+      "kind": "university_course",
+      "url": "https://math.berkeley.edu/~evans/math%20195%20notes.pdf",
+      "access": "free_no_login",
+      "notes": "First variations, Euler–Lagrange, transversality and variational problems. Detailed hypotheses are handled explicitly in the manuscripts."
+    },
+    "mv-heltai-galerkin": {
+      "title": "Luca Heltai, Lecture 1 — Model Problems and the Ritz–Galerkin Method",
+      "kind": "university_course",
+      "url": "https://luca-heltai.github.io/nmpde/lectures/lecture-01/",
+      "access": "free_no_login",
+      "notes": "Variational Poisson problem, Lax–Milgram well-posedness, discrete Galerkin solution, and Céa estimate."
+    },
+    "mv-ntnu-galerkin": {
+      "title": "NTNU MA8502, A primer on finite element methods: Galerkin methods",
+      "kind": "university_course",
+      "url": "https://www.math.ntnu.no/emner/MA8502/2024h/lectures/html/chapter_02/galerkin_methods.html",
+      "access": "free_no_login",
+      "notes": "Weak formulations, Galerkin orthogonality, and quasi-best-approximation theorem."
+    },
+    "mv-mude-fem": {
+      "title": "Frans van der Meer, Finite Element Method, MUDE textbook (2025)",
+      "kind": "university_course",
+      "url": "https://mude.citg.tudelft.nl/book/2025/fem/intro.html",
+      "access": "free_no_login",
+      "notes": "One- and two-dimensional Poisson finite-element construction, shape functions, weak and discrete forms."
+    },
+    "mv-wiki-calculus-variations": {
+      "title": "Wikipedia: Calculus of variations",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Calculus_of_variations",
+      "access": "free_no_login",
+      "notes": "Terminology and survey; use detailed notes and derivations for hypotheses."
+    },
+    "mv-wiki-first-variation": {
+      "title": "Wikipedia: First variation",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/First_variation",
+      "access": "free_no_login",
+      "notes": "Directional derivative terminology for functionals."
+    },
+    "mv-wiki-euler-lagrange": {
+      "title": "Wikipedia: Euler–Lagrange equation",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Euler%E2%80%93Lagrange_equation",
+      "access": "free_no_login",
+      "notes": "Classical equation and common terminology."
+    },
+    "mv-wiki-neumann": {
+      "title": "Wikipedia: Neumann boundary condition",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Neumann_boundary_condition",
+      "access": "free_no_login",
+      "notes": "Boundary normal-derivative terminology."
+    },
+    "mv-wiki-weak": {
+      "title": "Wikipedia: Weak solution",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Weak_solution",
+      "access": "free_no_login",
+      "notes": "General weak-solution terminology; exact functional setting is developed in the manuscript."
+    },
+    "mv-wiki-sobolev": {
+      "title": "Wikipedia: Sobolev space",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Sobolev_space",
+      "access": "free_no_login",
+      "notes": "Weak derivatives, energy-space and trace terminology."
+    },
+    "mv-wiki-lax-milgram": {
+      "title": "Wikipedia: Lax–Milgram theorem",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Lax%E2%80%93Milgram_theorem",
+      "access": "free_no_login",
+      "notes": "Bounded/coercive bilinear form and well-posedness conditions."
+    },
+    "mv-wiki-fem": {
+      "title": "Wikipedia: Finite element method",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Finite_element_method",
+      "access": "free_no_login",
+      "notes": "Mesh, basis, and assembly overview."
+    },
+    "mv-wiki-galerkin": {
+      "title": "Wikipedia: Galerkin method",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Galerkin_method",
+      "access": "free_no_login",
+      "notes": "Discrete test-space construction."
     }
   }
 }

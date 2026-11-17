@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "lecture_id": "032000",
+  "transcript": "032000-euler-lagrange-equations-and-boundaries.md",
+  "related_resources": [
+    {
+      "source_id": "mv-evans-dynamicopt",
+      "reason": "Classical Euler–Lagrange and free-endpoint transversality derivations."
+    },
+    {
+      "source_id": "mv-heltai-galerkin",
+      "reason": "Variational Poisson example and boundary assumptions."
+    },
+    {
+      "source_id": "mv-wiki-euler-lagrange",
+      "reason": "General Euler–Lagrange terminology."
+    },
+    {
+      "source_id": "mv-wiki-neumann",
+      "reason": "Normal derivative and boundary-flux conventions."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-17",
+    "scope": "Original, independently authored spoken mathematics, exact worked variational and finite-element calculations, and non-spoken companions. Previously authored manuscripts retained."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "multivariable-calculus:031000",
+        "reason": "Directional derivative of energy and admissible perturbations."
+      },
+      {
+        "lecture_id": "multivariable-calculus:027000",
+        "reason": "Equality-constrained multiplier method."
+      }
+    ],
+    "recommended": [
+      {
+        "lecture_id": "topology-geometry:009000",
+        "reason": "Boundary orientation and integration formulas."
+      },
+      {
+        "lecture_id": "multivariable-calculus:033000",
+        "reason": "Weak formulations without second classical derivatives."
+      }
+    ],
+    "background": [
+      "Chain rule, integration by parts, boundary conditions for ordinary differential equations, equality constraints."
+    ],
+    "readiness_checks": [
+      "Can you derive the Robin condition from a boundary spring energy?",
+      "Can you solve the fixed-area minimizing curve using one scalar Lagrange multiplier?"
+    ]
+  }
+}
