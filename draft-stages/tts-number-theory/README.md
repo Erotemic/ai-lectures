@@ -1,6 +1,6 @@
 # Number Theory from First Principles
 
-A proof-driven course connecting integer arithmetic with algorithms, algebraic structure, and analytic number theory. It starts with gcds, congruences, integer equations, reciprocity, and finite fields, and develops the analytic machinery for complete proofs of **Dirichlet's theorem**, the **prime number theorem**, and **Dedekind prime-ideal factorization**, with ideal norms, and now connects splitting of primes to quadratic forms and ideal classes. The course currently contains **42 substantive lectures**.
+A proof-driven course connecting integer arithmetic with algorithms, algebraic structure, and analytic number theory. It starts with gcds, congruences, integer equations, reciprocity, and finite fields, and develops the analytic machinery for complete proofs of **Dirichlet's theorem**, the **prime number theorem**, and **Dedekind prime-ideal factorization**, with ideal norms, and now connects splitting of primes to quadratic forms and ideal classes. The course currently contains **48 substantive lectures**.
 
 The opening lectures assume only integer arithmetic, fractions, elementary algebra, and a willingness to follow proofs. Later lectures build their own analysis and character foundations rather than presupposing advanced number theory. Each manuscript has one extractable spoken lecture and a display-only mathematical companion with worked equations, exercises, claim-level reading records, and Wikipedia references. Length and word counts describe the manuscripts; they are not duration targets.
 
@@ -50,8 +50,14 @@ The opening lectures assume only integer arithmetic, fractions, elementary algeb
 | `029500` | [Quadratic Forms Hidden in Ideal Lattices](029500-quadratic-forms-from-ideal-lattices.md) | 1,624 |
 | `029750` | [Reducing Quadratic Forms and Computing Class Numbers](029750-reduction-of-quadratic-forms-and-class-numbers.md) | 1,696 |
 | `030000` | [Which Primes Can a Quadratic Form Represent?](030000-which-primes-are-represented-by-quadratic-forms.md) | 1,696 |
+| `030250` | [The p-adic Distance: When Divisibility Means Closeness](030250-the-p-adic-distance-and-ultrametric-geometry.md) | 1,637 |
+| `030500` | [Completing the Rationals: Constructing the Field Q_p](030500-completing-the-rationals-to-q-p.md) | 1,723 |
+| `030750` | [The p-adic Integers as Compatible Residues](030750-the-p-adic-integers-as-compatible-residues.md) | 1,782 |
+| `031000` | [Hensel's Lemma: From Approximate Roots to Exact Roots](031000-hensel-lifting-from-congruences-to-exact-roots.md) | 1,758 |
+| `031250` | [Local Squares and the Limits of Local Solvability](031250-local-squares-and-local-global-obstructions.md) | 1,729 |
+| `031500` | [Two Quadratic Extensions of Q_3: Ramification in a Complete Field](031500-ramified-and-unramified-extensions-of-q3.md) | 1,963 |
 
-**Total:** 42 indexed lectures, **83,430 spoken words**. 
+**Total:** 48 indexed lectures, **94,022 spoken words**. 
 
 ## Proven theorems and open boundaries
 
@@ -85,7 +91,18 @@ The opening lectures assume only integer arithmetic, fractions, elementary algeb
 - **029750:** a terminating reduction algorithm, bound on reduced leading coefficients, and explicit class groups at discriminants \(-20\) and \(-23\).
 - **030000:** prime representation by ideal norm forms, and a proof of the exact mod-20 classifications for the two forms of discriminant \(-20\).
 
-**Beyond this installment:** the general ramification-discriminant theorem via the different, nonmaximal quadratic orders and ring class groups, indefinite form reduction and narrow class groups, higher-degree splitting algorithms, and local fields.
+**At the end of Continuation 9:** the general ramification-discriminant theorem via the different, nonmaximal quadratic orders and ring class groups, indefinite form reduction and narrow class groups, higher-degree splitting algorithms, and local fields remained to be developed.
+
+**Completed in Continuation 10 (local foundations):**
+
+- **030250:** p-adic valuations, the ultrametric triangle inequality, clopen balls, and rational geometric-series convergence.
+- **030500:** Cauchy-sequence construction of Q_p, nonzero inverses, completeness, and unique p-adic digits.
+- **030750:** Z_p as the inverse limit of residue rings, its units and ideals, compactness, and the composite-base CRT distinction.
+- **031000:** complete simple-root Hensel proof and strengthened Newton lifting, with p=2 and singular-root examples.
+- **031250:** full local square criteria for odd p and p=2, the local obstruction to x²+y²=3, and a direct local-global result for rational squares. Hasse–Minkowski and Selmer's counterexample are cited, not proved.
+- **031500:** explicit complete quadratic extensions Q_3(√2) and Q_3(√3), with their valuations, residue fields, ramification indexes, and a split Q_3×Q_3 example. The general finite-extension theorem is cited, not proved.
+
+**Remaining boundaries:** full generality of finite extensions of complete DVRs; the Hasse–Minkowski proof; local Hilbert symbols; different/discriminant and ramification; nonmaximal quadratic orders, narrow classes, and advanced analytic number theory.
 
 ## Related tracks and attribution
 

@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "lecture_id": "030500",
+  "transcript": "030500-completing-the-rationals-to-q-p.md",
+  "related_resources": [
+    {
+      "source_id": "nt-mit-local-8",
+      "reason": "Completions, ultrametrics, inverse limits and complete discrete valuation rings; opening page inspected and lecture identified on MIT OCW."
+    },
+    {
+      "source_id": "nt-conrad-padic-expansion",
+      "reason": "Author-hosted reading for low-order-first base-p expansions of rationals; not a verbatim source."
+    },
+    {
+      "source_id": "nt-padic",
+      "reason": "Background reference"
+    },
+    {
+      "source_id": "nt-wiki-completion",
+      "reason": "Metric completion terminology."
+    }
+  ],
+  "mathematical_claims": [
+    {
+      "id": "030500-m01",
+      "anchor": "Define a p-adic number to be an equivalence class of rational Cauchy sequences.",
+      "source_ids": [
+        "nt-mit-local-8"
+      ],
+      "source_locator": "Completion construction",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "030500-m02",
+      "anchor": "This proves that the completion is a field, not merely a ring.",
+      "source_ids": [
+        "nt-mit-local-8"
+      ],
+      "source_locator": "Inverse of a nonzero Cauchy class",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "030500-m03",
+      "anchor": "So the new field is complete.",
+      "source_ids": [
+        "nt-mit-local-8"
+      ],
+      "source_locator": "Diagonal rational approximation argument",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "030500-m04",
+      "anchor": "The digits are unique",
+      "source_ids": [
+        "nt-conrad-padic-expansion",
+        "nt-padic"
+      ],
+      "source_locator": "Digit expansions and uniqueness",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "030500-m05",
+      "anchor": "the completion is uncountable.",
+      "source_ids": [
+        "nt-mit-local-8"
+      ],
+      "source_locator": "Binary-digit injection and cardinality",
+      "audit_status": "reading_reference_recorded"
+    }
+  ],
+  "historical_claims": []
+}

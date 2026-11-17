@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "lecture_id": "030250",
+  "transcript": "030250-the-p-adic-distance-and-ultrametric-geometry.md",
+  "related_resources": [
+    {
+      "source_id": "nt-mit-local-8",
+      "reason": "Completions, ultrametrics, inverse limits and complete discrete valuation rings; opening page inspected and lecture identified on MIT OCW."
+    },
+    {
+      "source_id": "nt-conrad-padic-course",
+      "reason": "Course page and list of handouts for p-adic expansions, Hensel lemma and series; verified HTML listing."
+    },
+    {
+      "source_id": "nt-padic",
+      "reason": "Background reference"
+    },
+    {
+      "source_id": "nt-wiki-ultrametric",
+      "reason": "Terminology and ultrametric balls."
+    },
+    {
+      "source_id": "nt-wiki-padic-valuation",
+      "reason": "Valuation and induced metric."
+    }
+  ],
+  "mathematical_claims": [
+    {
+      "id": "030250-m01",
+      "anchor": "Define the p-adic absolute value of a nonzero rational x",
+      "source_ids": [
+        "nt-mit-local-8",
+        "nt-wiki-padic-valuation"
+      ],
+      "source_locator": "Valuation normalization and absolute value",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "030250-m02",
+      "anchor": "This is called the ultrametric inequality.",
+      "source_ids": [
+        "nt-mit-local-8",
+        "nt-wiki-ultrametric"
+      ],
+      "source_locator": "Strong triangle inequality and balls",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "030250-m03",
+      "anchor": "converges to negative one half,",
+      "source_ids": [
+        "nt-conrad-padic-course",
+        "nt-padic"
+      ],
+      "source_locator": "Three-adic geometric series and convergence",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "030250-m04",
+      "anchor": "we have not proved that those rationals are complete.",
+      "source_ids": [
+        "nt-mit-local-8"
+      ],
+      "source_locator": "Completeness warning in an ultrametric field",
+      "audit_status": "reading_reference_recorded"
+    }
+  ],
+  "historical_claims": []
+}

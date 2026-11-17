@@ -1,24 +1,25 @@
-# Number Theory Foundations - next work
+# Number Theory Foundations — next work
 
-**Status, 2026-11-16:** 42 indexed substantive lectures. Length is determined by what needs to be taught, not by an imposed duration target.
+**Status, 2026-11-16:** 48 indexed substantive lectures. No fixed narration duration or word count policy applies.
 
-## Closed in Continuation 9
+## Closed in Continuation 10 — p-adic and local arithmetic
 
-1. **029000, quadratic splitting and ramification:** proved all three polynomial cases for the full quadratic integer ring, including the prime 2, and explicitly factored primes in Q(sqrt(-5)) and Q(sqrt(5)).
-2. **029250, general polynomial factorization:** derived the Dedekind-Kummer criterion away from the power-basis index, proved the e-f degree identity, and demonstrated the false conclusion from reducing x^2-5 modulo 2.
-3. **029500, form–ideal bridge:** constructed the norm form from an oriented ideal basis, established discriminant, primitivity and proper equivalence, and inverted the construction for fundamental negative D.
-4. **029750, finite reduction:** proved termination of the shift-and-swap algorithm, bounded reduced coefficients, enumerated D=-20 and D=-23, and exhibited order-three ideal classes via an element of norm eight.
-5. **030000, representing primes:** proved a norm-p ideal criterion for representation by some class and classified p=x^2+5y^2 and p=2x^2+2xy+3y^2 by p modulo 20, with the ramified exceptions handled explicitly.
+1. **030250:** constructed |·|_p on Q, proved the ultrametric and its topology, and explained convergence of geometric series.
+2. **030500:** constructed Q_p as Cauchy equivalence classes, proved its field operations and completeness, and derived digit expansions.
+3. **030750:** proved Z_p ≅ lim Z/p^nZ, described its ideal structure and compactness, and separated the composite-base case.
+4. **031000:** proved simple-root Hensel and the stronger Newton threshold v(f(a))>2v(f'(a)), distinguishing singular roots.
+5. **031250:** classified squares in Q_p for odd p and p=2, used valuations for local obstructions, and proved an elementary local-global result for rational squares. Hasse–Minkowski and Selmer remain cited, not proved.
+6. **031500:** computed two explicit local quadratic field extensions, illustrating e=1,f=2 and e=2,f=1; included a split local product. The general finite-extension theorem remains cited, not proved.
 
 ## Suggested next foundations
 
-1. **Local arithmetic and completions (030250+).** Build the p-adic metric carefully from the elementary valuation, prove completion, construct Z_p and Q_p, and then Hensel lifting with multiple-root examples. This is the principal local prerequisite for higher algebraic number theory.
-2. **Different and discriminant.** Give a complete proof that rational primes ramify precisely when dividing the field discriminant, including the trace-dual lattice and local different.
-3. **Gauss composition algorithms and nonmaximal orders.** Derive computational form composition via ideal multiplication and handle quadratic orders with nonfundamental discriminants; distinguish proper invertible classes and conductor primes.
-4. **Real quadratic fields and narrow class groups.** Units, indefinite forms, reduction cycles, narrow vs ordinary classes, and the effect of norm-negative units.
-5. **Extensions beyond quadratics.** Primitive element choices and index computations, cubic splitting examples, Frobenius elements, and elementary Chebotarev examples (the general theorem is not yet proved).
-6. **Analytic depth.** Functional equation of zeta and theta machinery, nontrivial zeros, error terms, zero-free regions, and prime number theorem in progressions.
+1. **General finite extensions of Q_p.** Prove uniqueness of valuation extension, completeness, rings of integers and e·f=[L:Q_p]; extend residue-field calculations to arbitrary finite extensions. Build from the explicit quadratic examples rather than treating general theorems as slogans.
+2. **Local quadratic forms and Hilbert symbols.** Complete elementary Hilbert symbol identities and a proof of Hasse–Minkowski, with explicit 2-adic attention. Distinguish the theorem from Selmer-type failures in higher degree.
+3. **Different and discriminant.** Give a complete proof of ramification-discriminant relationship using trace duality and local different ideals, including the prime-2 subtleties.
+4. **Gauss composition and nonmaximal quadratic orders.** Compute form composition by ideal multiplication, handle conductors and ring class groups.
+5. **Real quadratic and narrow classes.** Unit signs, norm-negative units, indefinite forms and reduction cycles.
+6. **Analytic depth.** Zeta functional equation, theta functions, zero-free regions and effective prime estimates.
 
-## Editorial and integration constraints
+## Editorial boundaries
 
-Only `draft-stages/tts-number-theory/` is owned. Preserve six-digit IDs, one extractable spoken region per lecture, mathematical companions, worked examples, citation anchors, Wikipedia links, and text-only ZIP overlays. Do not apply a length policy; do not claim an unproved theorem to be proved.
+Only `draft-stages/tts-number-theory/` is owned. Preserve six-digit lecture IDs, extractable spoken region, display mathematical companion, exercises, source anchors, author-hosted/university references and relevant Wikipedia links. Avoid fixed duration targets. Keep source-backed theorems clearly distinguished from proved theorems, and send only one text-only ZIP per continuation.

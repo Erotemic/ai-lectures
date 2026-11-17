@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "lecture_id": "031500",
+  "transcript": "031500-ramified-and-unramified-extensions-of-q3.md",
+  "related_resources": [
+    {
+      "source_id": "nt-mit-local-9",
+      "reason": "Local compactness, p-adic fields and Hensel lifting; opening page and relevant extracted proof paragraphs inspected."
+    },
+    {
+      "source_id": "nt-mit-local-10",
+      "reason": "Finite extensions of complete DVRs; opening page inspected; general extension theorem is cited as unproved in this installment."
+    },
+    {
+      "source_id": "nt-milne-ant",
+      "reason": "Rings of integers, Dedekind domains, ideal norms, class groups and Minkowski bounds."
+    },
+    {
+      "source_id": "nt-wiki-local-field",
+      "reason": "Residue fields, completions and local compactness background."
+    },
+    {
+      "source_id": "nt-wiki-unramified",
+      "reason": "Unramified terminology."
+    },
+    {
+      "source_id": "nt-wiki-ramification",
+      "reason": "Background on ramified primes."
+    }
+  ],
+  "mathematical_claims": [
+    {
+      "id": "031500-m01",
+      "anchor": "the residue ring is a field with nine elements.",
+      "source_ids": [
+        "nt-mit-local-10",
+        "nt-wiki-local-field"
+      ],
+      "source_locator": "Unramified degree-two example F9",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "031500-m02",
+      "anchor": "This is the unramified quadratic extension pattern",
+      "source_ids": [
+        "nt-mit-local-10",
+        "nt-wiki-unramified"
+      ],
+      "source_locator": "e=1 and f=2",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "031500-m03",
+      "anchor": "This is the totally ramified quadratic pattern.",
+      "source_ids": [
+        "nt-mit-local-10"
+      ],
+      "source_locator": "e=2 and f=1",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "031500-m04",
+      "anchor": "The same coordinatewise completeness argument applies.",
+      "source_ids": [
+        "nt-mit-local-10"
+      ],
+      "source_locator": "Finite extension completeness in explicit basis",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "031500-m05",
+      "anchor": "the polynomial quotient over Q-three splits as a product of two copies of Q-three",
+      "source_ids": [
+        "nt-mit-local-10",
+        "nt-milne-ant"
+      ],
+      "source_locator": "Split case and local tensor product",
+      "audit_status": "reading_reference_recorded"
+    }
+  ],
+  "historical_claims": []
+}

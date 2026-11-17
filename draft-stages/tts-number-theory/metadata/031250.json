@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "lecture_id": "031250",
+  "transcript": "031250-local-squares-and-local-global-obstructions.md",
+  "related_resources": [
+    {
+      "source_id": "nt-conrad-hensel",
+      "reason": "Detailed simple-root, strengthened-valuation and Newton methods; first page and extracted mathematical proof inspected."
+    },
+    {
+      "source_id": "nt-conrad-local-global",
+      "reason": "Local-to-global results for quadratic forms, powers and Selmer counterexample; first page inspected."
+    },
+    {
+      "source_id": "nt-wiki-hasse",
+      "reason": "Global versus local solvability terminology."
+    },
+    {
+      "source_id": "nt-wiki-hasse-minkowski",
+      "reason": "Statement of the local-global principle for quadratic forms."
+    },
+    {
+      "source_id": "nt-padic",
+      "reason": "Background reference"
+    }
+  ],
+  "mathematical_claims": [
+    {
+      "id": "031250-m01",
+      "anchor": "a nonzero p-adic number is a square precisely when its valuation is even",
+      "source_ids": [
+        "nt-conrad-hensel",
+        "nt-padic"
+      ],
+      "source_locator": "Odd prime square criterion",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "031250-m02",
+      "anchor": "an odd two-adic unit is a square if and only if it is congruent to one modulo eight.",
+      "source_ids": [
+        "nt-conrad-hensel"
+      ],
+      "source_locator": "Two-adic unit square criterion",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "031250-m03",
+      "anchor": "There is no solution even in Q-three",
+      "source_ids": [
+        "nt-conrad-local-global"
+      ],
+      "source_locator": "Q3 obstruction to x²+y²=3",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "031250-m04",
+      "anchor": "We have proved this local-to-global statement directly",
+      "source_ids": [
+        "nt-conrad-local-global"
+      ],
+      "source_locator": "Local-global for rational squares",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "031250-m05",
+      "anchor": "Selmer established that the homogeneous cubic equation",
+      "source_ids": [
+        "nt-conrad-local-global"
+      ],
+      "source_locator": "Selmer counterexample - result cited, not proved",
+      "audit_status": "reading_reference_recorded"
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "031250-h01",
+      "anchor": "Selmer established that the homogeneous cubic equation",
+      "source_ids": [
+        "nt-conrad-local-global"
+      ],
+      "source_locator": "Selmer, 1951, local-global cubic counterexample",
+      "audit_status": "reading_reference_recorded"
+    }
+  ]
+}

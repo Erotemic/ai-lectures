@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "lecture_id": "031000",
+  "transcript": "031000-hensel-lifting-from-congruences-to-exact-roots.md",
+  "related_resources": [
+    {
+      "source_id": "nt-conrad-hensel",
+      "reason": "Detailed simple-root, strengthened-valuation and Newton methods; first page and extracted mathematical proof inspected."
+    },
+    {
+      "source_id": "nt-mit-local-9",
+      "reason": "Local compactness, p-adic fields and Hensel lifting; opening page and relevant extracted proof paragraphs inspected."
+    },
+    {
+      "source_id": "nt-hensel",
+      "reason": "Background reference"
+    },
+    {
+      "source_id": "nt-padic",
+      "reason": "Background reference"
+    }
+  ],
+  "mathematical_claims": [
+    {
+      "id": "031000-m01",
+      "anchor": "there is exactly one choice of the next digit t.",
+      "source_ids": [
+        "nt-conrad-hensel",
+        "nt-mit-local-9"
+      ],
+      "source_locator": "Simple-root Hensel iterative construction",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "031000-m02",
+      "anchor": "The successive approximate roots agree modulo higher and higher powers of p",
+      "source_ids": [
+        "nt-conrad-hensel"
+      ],
+      "source_locator": "Cauchy limit proves exact root",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "031000-m03",
+      "anchor": "The new root is one hundred eight",
+      "source_ids": [
+        "nt-conrad-hensel"
+      ],
+      "source_locator": "Seven-adic square root of two example",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "031000-m04",
+      "anchor": "The equality x squared equals three is impossible.",
+      "source_ids": [
+        "nt-conrad-hensel"
+      ],
+      "source_locator": "Singular root obstruction by valuation parity",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "031000-m05",
+      "anchor": "There is a root in Z-p near a.",
+      "source_ids": [
+        "nt-conrad-hensel"
+      ],
+      "source_locator": "Strong Newton criterion s>2t",
+      "audit_status": "reading_reference_recorded"
+    }
+  ],
+  "historical_claims": []
+}

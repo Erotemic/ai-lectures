@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "lecture_id": "030750",
+  "transcript": "030750-the-p-adic-integers-as-compatible-residues.md",
+  "related_resources": [
+    {
+      "source_id": "nt-mit-local-8",
+      "reason": "Completions, ultrametrics, inverse limits and complete discrete valuation rings; opening page inspected and lecture identified on MIT OCW."
+    },
+    {
+      "source_id": "nt-mit-local-9",
+      "reason": "Local compactness, p-adic fields and Hensel lifting; opening page and relevant extracted proof paragraphs inspected."
+    },
+    {
+      "source_id": "nt-wiki-inverse-limit",
+      "reason": "Compatible residue system terminology."
+    },
+    {
+      "source_id": "nt-wiki-profinite",
+      "reason": "Inverse limits of finite structures and compactness."
+    },
+    {
+      "source_id": "nt-wiki-local-field",
+      "reason": "Residue fields, completions and local compactness background."
+    }
+  ],
+  "mathematical_claims": [
+    {
+      "id": "030750-m01",
+      "anchor": "Z-p is exactly the ring of all compatible residues.",
+      "source_ids": [
+        "nt-mit-local-8",
+        "nt-wiki-inverse-limit"
+      ],
+      "source_locator": "Inverse limit of prime-power residue rings",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "030750-m02",
+      "anchor": "Every nonzero ideal is a power of the maximal ideal.",
+      "source_ids": [
+        "nt-mit-local-8"
+      ],
+      "source_locator": "Complete DVR ideals",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "030750-m03",
+      "anchor": "Thus Z-p is compact.",
+      "source_ids": [
+        "nt-mit-local-9",
+        "nt-wiki-profinite"
+      ],
+      "source_locator": "Diagonal residue extraction",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "030750-m04",
+      "anchor": "taking compatible systems produces a product ring, Z-two times Z-five.",
+      "source_ids": [
+        "nt-wiki-inverse-limit"
+      ],
+      "source_locator": "10-adic CRT counterexample",
+      "audit_status": "reading_reference_recorded"
+    }
+  ],
+  "historical_claims": []
+}
