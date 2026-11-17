@@ -141,3 +141,42 @@ assert.equal(preferredNarrator([readyOther,primary],{preferred_profile:'preferre
 assert.equal(preferredNarrator([readyOther,primary],{preferred_profile:'preferred'},{remembered:'recording:old-import'}).key,'preferred');
 assert.equal(preferredNarrator([primary,readyOther],{}).key,'other');
 console.log('Configured audio defaults and remembered legacy voices retain generation controls');
+
+// Fully prepared lectures continue without granting permission to synthesize.
+const preferences=new Map();
+globalThis.localStorage={getItem:key=>preferences.get(key)??null,setItem:(key,value)=>preferences.set(key,value)};
+const prepared=Object.create(LectureAudio.prototype);
+const preparedChoice={...choice,key:'prepared',recording_id:installed.id};
+const played=[];const notices=[];
+Object.assign(prepared,{row,choices:[preparedChoice],select:{value:'prepared'},jobs:[],views:new Map(),epoch:0,
+  pages:installed.pages,data:{tools_available:true},continueBlocks:{checked:false},ahead:{value:1},
+  player:{row:null,index:0,recording:null,position(){return null;},open(value,progress,id){this.row=value;this.recording=value.recordings.find(r=>r.id===id);},play(...args){played.push(args);}},
+  render(){},message:text=>notices.push(text),prepare(){throw Error('Prepared continuation requested generation');}});
+prepared.choose(false);
+assert.equal(prepared.continueBlocks.checked,true);
+prepared.queueAhead(0);
+prepared.playPrepared(0,0);assert.deepEqual(played,[[0,0]]);
+preferences.set('ailectures:continue-blocks','false');
+prepared.choose(false);assert.equal(prepared.continueBlocks.checked,false);
+prepared.player.recording=null;
+prepared.playPrepared();assert.equal(played.length,1);assert.equal(notices.length,1);
+console.log('Prepared-lecture defaults respect single-block preferences and never request missing speech');
+
+// Browsing a lecture whose options never take ownership leaves the playing
+// lecture's continuation/polling controller alive.
+let abandonedOptions;
+globalThis.fetch=async()=>({ok:true,json:async()=>({jobs:[]})});
+const owner=prepared.player.lectureController;
+owner.dispose=()=>{owner.disposed=true;};
+const abandoned=Object.create(LectureAudio.prototype);
+Object.assign(abandoned,{player:prepared.player,active:()=>false,jobsURL:()=>'/jobs',
+  loadOptions:()=>new Promise(resolve=>{abandonedOptions=resolve;})});
+const initializing=abandoned.initialize();
+assert.equal(prepared.player.lectureController,owner);assert.equal(owner.disposed,undefined);
+abandonedOptions();await initializing;
+assert.equal(prepared.player.lectureController,owner);assert.equal(owner.disposed,undefined);
+const replacement=Object.create(LectureAudio.prototype);
+Object.assign(replacement,{...prepared,player:prepared.player,continueBlocks:{checked:false}});
+replacement.choose(false);
+assert.equal(owner.disposed,true);assert.equal(prepared.player.lectureController,replacement);
+console.log('Pending or abandoned lecture browsing preserves the playing controller until ownership transfers');

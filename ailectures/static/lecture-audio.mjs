@@ -144,8 +144,9 @@ export class LectureAudio {
     onChange,
     message,
     active = () => true,
+    course = null,
   }) {
-    Object.assign(this, { row, player, progress, onChange, message, active });
+    Object.assign(this, { row, player, progress, onChange, message, active, course });
     this.jobs = [];
     this.views = new Map();
     this.recentlyStopped = new Set();
@@ -248,6 +249,19 @@ export class LectureAudio {
       store("blocks-ahead", Number(this.ahead.value));
       if (!this.player.audio.paused) this.queueAhead(this.player.index);
     };
+    this.advanced = el("details", { class: "audio-tools" },
+      el("summary", { text: "Audio blocks & generation" }),
+      this.cache, this.stop,
+      el("a", { href: "/production#jobs", "data-nav": "", text: "View generation queue" }),
+      el("div", { class: "filters" },
+        el("label", { class: "check" }, this.continueBlocks, "Continue to next blocks"),
+        el("label", {}, "Blocks ahead", this.ahead)),
+      el("p", { class: "muted", text: "Complete prepared recordings play through by default. Turn off block continuation to study one passage. For missing audio, continuation and lookahead generate additional blocks only when you enable them." }),
+      this.generations, this.blocks,
+      el("details", {}, el("summary", { text: "Speech settings" }),
+        el("label", {}, "Generation speed", this.speed),
+        el("p", { class: "muted", text: "Changing generation speed selects a separate recording. Playback speed is available in the player below." })),
+    );
     this.root.append(
       el("label", {}, "Voice for playback and generation", this.select),
       this.more,
@@ -255,42 +269,9 @@ export class LectureAudio {
         "div",
         { class: "actions" },
         this.playButton,
-        this.cache,
-        this.stop,
-        el("a", {
-          href: "/production#jobs",
-          "data-nav": "",
-          text: "View generation queue",
-        }),
       ),
       this.status,
-      el(
-        "div",
-        { class: "filters" },
-        el(
-          "label",
-          { class: "check" },
-          this.continueBlocks,
-          "Continue to next blocks",
-        ),
-        el("label", {}, "Blocks ahead", this.ahead),
-      ),
-      el("p", {
-        class: "muted",
-        text: "Play generates and plays only the selected block unless continuation is checked. Set blocks ahead to 0 to generate each next block when playback reaches it.",
-      }),
-      this.generations,
-      this.blocks,
-      el(
-        "details",
-        {},
-        el("summary", { text: "Speech settings" }),
-        el("label", {}, "Generation speed", this.speed),
-        el("p", {
-          class: "muted",
-          text: "Changing generation speed selects a separate recording. Playback speed is available in the player below.",
-        }),
-      ),
+      this.advanced,
     );
     this.select.onchange = () => this.choose();
     this.speed.onchange = async () => {
@@ -408,11 +389,20 @@ export class LectureAudio {
     const position =
       this.player.row?.id === this.row.id ? this.player.position() : null;
     this.resume = position || this.resume || this.progress;
+    if (this.player.lectureController !== this) {
+      this.player.lectureController?.dispose();
+      this.player.lectureController = this;
+    }
     this.player.open(
       this.views.get(choice?.recording_id) || this.row,
       remember ? null : this.resume,
       choice?.recording_id || false,
+      this.course,
     );
+    if (this.continueBlocks) {
+      this.continueBlocks.checked = getStored("continue-blocks", Boolean(this.player.recording?.complete));
+      if (this.ahead) this.ahead.disabled = !this.continueBlocks.checked;
+    }
     this.target = !this.player.recording
       ? resumeTarget(this.row, this.resume, this.pages)
       : null;
@@ -623,6 +613,13 @@ export class LectureAudio {
   play(index = this.player.index, seconds = null) {
     this.player.play(index, seconds);
   }
+  playPrepared(index = this.player.index, seconds = null) {
+    if (!this.player.recording?.segments.some((segment) => segment.index === index)) {
+      this.message("The next lecture has no prepared audio for the selected voice. Choose an available voice or press Play to generate it.");
+      return;
+    }
+    this.play(index, seconds);
+  }
   async require(index, seconds) {
     if (!this.choice?.profile || !this.data.tools_available) {
       this.showError(
@@ -655,7 +652,7 @@ export class LectureAudio {
       return;
     const blocks = blockWindow(index, this.pages.length, this.ahead.value);
     const { job } = this.inventory;
-    if (!blocks.length || coversBlocks(job, blocks)) return;
+    if (!blocks.length || blocks.every((index) => this.inventory.states[index] === "ready") || coversBlocks(job, blocks)) return;
     this.prepare(false, blocks);
   }
   async prepare(forPlayback, blocks = null) {

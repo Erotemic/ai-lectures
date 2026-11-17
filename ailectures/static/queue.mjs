@@ -27,8 +27,8 @@ export function editDeviceQueue(entries, operation) {
 }
 
 export class ListeningQueue {
-  constructor({ profile, lectures, play, message }) {
-    Object.assign(this, { profile, lectures, play, message });
+  constructor({ profile, lectures, play, message, onChange }) {
+    Object.assign(this, { profile, lectures, play, message, onChange });
   }
   async read(selected = this.profile()) {
     const key = "queue:" + (selected || "device");
@@ -39,9 +39,8 @@ export class ListeningQueue {
     store(key, entries);
     return entries;
   }
-  async edit(operation) {
-    const selected = this.profile(),
-      key = "queue:" + (selected || "device");
+  async edit(operation, selected = this.profile()) {
+    const key = "queue:" + (selected || "device");
     const entries = selected
       ? (
           await post(
@@ -53,6 +52,7 @@ export class ListeningQueue {
     store(key, entries);
     if (selected === this.profile() && this.container?.isConnected)
       await this.render(this.container);
+    if (selected === this.profile()) await this.onChange?.();
     return entries;
   }
   async add(lecture_id, course_id = null) {
@@ -62,7 +62,9 @@ export class ListeningQueue {
     });
     this.message("Added to your listening queue.");
   }
-  async advance(id) {
+  async advance(id, automatic = false) {
+    if (this.advancing) return;
+    this.advancing = true;
     try {
       const selected = this.profile();
       const entries = await this.read(),
@@ -73,10 +75,15 @@ export class ListeningQueue {
           "The playing lecture was removed from the queue. Choose the next lecture in Listening.",
         );
       const next = entries[index + 1];
-      await this.edit({ action: "remove", id });
+      if (automatic && this.lectures().find((row) => row.id === next?.lecture_id)?.kind === "presentation")
+        return this.message("The next queued item is a presentation. Choose Next to open it.");
+      const remaining = await this.edit({ action: "remove", id }, selected);
+      if (selected !== this.profile()) return;
       if (next) {
+        if (!remaining.some((entry) => entry.id === next.id))
+          return this.message("The next queued lecture was removed. Choose the next lecture in Listening.");
         if (this.lectures().some((row) => row.id === next.lecture_id))
-          this.play(next);
+          await this.play(next, automatic);
         else
           this.message(
             "The next queued lecture is not installed. Your queue is retained in Listening.",
@@ -84,6 +91,8 @@ export class ListeningQueue {
       }
     } catch (error) {
       this.message(error.message);
+    } finally {
+      this.advancing = false;
     }
   }
   async render(container) {

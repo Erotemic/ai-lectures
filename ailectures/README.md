@@ -28,6 +28,23 @@ Browsing options include category, audience, audio availability, every nested
 collection, and sorting by title or duration. Exact lecture IDs work in both
 searches. Browser asset changes require a server restart, just like server code.
 
+On phones, Menu opens all navigation and listener controls. The compact fixed
+player keeps the lecture, playing track, timeline, 15-second skips, Next and
+upcoming lecture visible. More retains native audio controls, playback speed,
+track selection and automatic continuation. Page spacing follows the player's
+actual height, including expanded controls and device safe areas.
+
+Automatic next-lecture playback follows the selected track's complete order,
+independently of browsing or search filters. More → Playing track can change that
+route; starting a listening queue follows the queue instead. The continuation
+preference is remembered on the device. Complete prepared recordings continue
+through their blocks by default, respecting an explicitly saved single-block
+preference. Audio blocks & generation retains all preparation, block-selection,
+lookahead, cancellation and speech-speed controls. Automatic lecture changes
+use prepared audio and stop when the selected voice has none; they do not start
+missing-audio generation. Queued occurrences restart from the beginning, and
+track/queue endings stop without wrapping.
+
 The native Learning map separates teaching preparation, proof dependencies,
 source relationships and listening order. Open it from the header or from a
 collection or lecture, filter its connections, and select an entry to follow

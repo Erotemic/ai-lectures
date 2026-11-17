@@ -21,6 +21,7 @@ import { renderLearningMap } from "./learning-map.mjs";
 import { showSlideCompanions } from "./slide-companions.mjs";
 import { collectionReturnPath } from "./browse-model.mjs";
 import { LectureAudio } from "./lecture-audio.mjs";
+import { listeningCourse, followingLecture } from "./playback-route.mjs";
 import {
   legacyPositions,
   approximateLegacyPosition,
@@ -96,7 +97,7 @@ function saveCheckpoint(position) {
     old = state[position.lecture_id];
   const payload = {
     ...position,
-    course_id: position.course_id || currentCourse,
+    course_id: position.course_id ?? null,
     completed: position.explicit_completion
       ? position.completed
       : position.completed || old?.completed || false,
@@ -178,30 +179,112 @@ $("keep-shared").onclick = async () => {
 const player = new Player({
   checkpoint: saveCheckpoint,
   message,
-  next: () => {
+  next: ({ automatic = false } = {}) => {
     if (playingQueueEntry) {
       const id = playingQueueEntry.id;
-      playingQueueEntry = null;
-      return listeningQueue.advance(id);
+      return listeningQueue.advance(id, automatic).then(updatePlaybackRoute);
     }
-    const course = catalog.courses.find((c) => c.id === currentCourse);
-    if (!course || !player.row) return;
-    const next = course.lectures[course.lectures.indexOf(player.row.id) + 1];
+    if (!player.row) return;
+    const { course, next } = followingLecture(catalog.courses, player.course, player.row.id);
+    if (!course) return message("Choose a playing track in the player’s More controls.");
     if (next && byId(next)) {
-      navigate(lectureLink(next, course.id), true);
+      if (byId(next).kind === "presentation") {
+        if (automatic) return message("The next step is a presentation. Choose Next to open it.");
+        location.assign(lectureLink(next, course.id));
+        return;
+      }
+      return navigate(lectureLink(next, course.id), automatic ? "prepared" : true);
     } else if (next)
-      message("The next course step is not installed on this server.");
+      message("The next lecture in this track is not installed on this server.");
+    else message("You’ve reached the end of this track.");
   },
 });
 const listeningQueue = new ListeningQueue({
   profile: () => profile,
   lectures: () => catalog.lectures,
   message,
-  play: (entry) => {
+  onChange: () => updatePlaybackRoute(),
+  play: (entry, automatic = false) => {
+    if (byId(entry.lecture_id)?.kind === "presentation") {
+      location.assign(lectureLink(entry.lecture_id, entry.course_id));
+      return;
+    }
     playingQueueEntry = entry;
-    navigate(lectureLink(entry.lecture_id, entry.course_id), true);
+    return navigate(lectureLink(entry.lecture_id, entry.course_id), automatic ? "prepared" : true);
   },
 });
+const continuation = $("continue-course");
+continuation.checked = getStored("continue-course", true);
+continuation.onchange = () => store("continue-course", continuation.checked);
+$("next-lecture").onclick = () => Promise.resolve(player.next()).catch((error) => message(error.message));
+$("skip-back").onclick = () => player.seekBy(-15);
+$("skip-forward").onclick = () => player.seekBy(15);
+$("playing-course").onchange = () => {
+  player.save();
+  player.course = $("playing-course").value || null;
+  if (lectureAudio?.row.id === player.row?.id) lectureAudio.course = player.course;
+  playingQueueEntry = null;
+  player.save();
+  updatePlaybackRoute();
+};
+let playbackRouteToken = 0;
+async function updatePlaybackRoute() {
+  const token = ++playbackRouteToken;
+  const row = player.row;
+  if (!row) return;
+  const { course, index, next } = followingLecture(catalog.courses, player.course, row.id);
+  const selector = $("playing-course");
+  const routes = catalog.courses.filter((candidate) => candidate.lectures.includes(row.id));
+  const signature = JSON.stringify([course?.id, routes.map((candidate) => [candidate.id, candidate.title])]);
+  if (selector.dataset.routes !== signature) {
+    selector.replaceChildren(el("option", { value: "", text: "Choose a track" }),
+      ...routes.map((candidate) => el("option", { value: candidate.id, text: candidate.title })));
+    selector.value = course?.id || "";
+    selector.dataset.routes = signature;
+  }
+  $("playing-title").href = lectureLink(row.id, player.course);
+  $("playing-title").title = row.title;
+  const track = $("playing-track");
+  track.hidden = !course;
+  track.textContent = course ? `${course.title} · ${index + 1} / ${course.lectures.length}` : "";
+  track.href = course ? courseLink(course) : "/collections";
+  let nextId = next;
+  let queued = false;
+  if (playingQueueEntry) {
+    const entries = await listeningQueue.read().catch(() => []);
+    if (token !== playbackRouteToken) return;
+    const queueIndex = entries.findIndex((entry) => entry.id === playingQueueEntry?.id);
+    nextId = queueIndex >= 0 ? entries[queueIndex + 1]?.lecture_id : null;
+    queued = true;
+  }
+  const nextRow = byId(nextId);
+  $("next-lecture").disabled = !nextRow;
+  $("next-lecture").title = nextRow ? "Next lecture: " + nextRow.title : "No next installed lecture";
+  $("up-next").textContent = nextId ? `Next${queued ? " in queue" : ""}: ${nextRow?.title || "Lecture not installed"}`
+    : queued ? "End of listening queue" : course ? "Last lecture in this track" : "Choose a playing track in More";
+  $("up-next").title = $("up-next").textContent;
+}
+const optionsToggle = $("toggle-player-options");
+function showPlayerOptions(open) {
+  $("player-options").hidden = !open;
+  optionsToggle.setAttribute("aria-expanded", String(open));
+  optionsToggle.textContent = open ? "Less" : "More";
+}
+optionsToggle.onclick = () => showPlayerOptions($("player-options").hidden);
+const menuToggle = $("toggle-library-menu");
+function showLibraryMenu(open) {
+  menuToggle.setAttribute("aria-expanded", String(open));
+  document.querySelector("header").classList.toggle("menu-open", open);
+}
+menuToggle.onclick = () => showLibraryMenu(menuToggle.getAttribute("aria-expanded") !== "true");
+document.addEventListener("keydown", (event) => {
+  if (event.key !== "Escape") return;
+  if (!$("player-options").hidden) { showPlayerOptions(false); optionsToggle.focus(); }
+  else if (menuToggle.getAttribute("aria-expanded") === "true") { showLibraryMenu(false); menuToggle.focus(); }
+});
+new ResizeObserver(() => {
+  document.documentElement.style.setProperty("--player-height", $("player").getBoundingClientRect().height + "px");
+}).observe($("player"));
 async function loadListeners() {
   const data = await api("/api/listeners");
   if (data.aliases?.[profile]) {
@@ -248,6 +331,7 @@ async function selectListener(id) {
   store("listener", profile);
   await loadListeners();
   await render();
+  updatePlaybackRoute();
 }
 $("listener").onchange = () =>
   selectListener($("listener").value).catch((error) => message(error.message));
@@ -307,23 +391,17 @@ async function lecturePage(id, autoplay = false, historical = null) {
     location.href = "/presentations?deck=" + encodeURIComponent(row.deck);
     return;
   }
-  const selectedCourse =
-    new URLSearchParams(location.search).get("course") ||
-    progress[id]?.course_id ||
-    currentCourse;
-  currentCourse = catalog.courses.some(
-    (course) => course.id === selectedCourse && course.lectures.includes(id),
-  )
-    ? selectedCourse
-    : null;
+  currentCourse = listeningCourse(catalog.courses, id,
+    new URLSearchParams(location.search).get("course"), progress[id]?.course_id, currentCourse)?.id || null;
   const position = player.row?.id === id ? player.position() : null;
-  lectureAudio?.dispose();
+  if (lectureAudio && lectureAudio !== player.lectureController) lectureAudio.dispose();
   let refreshTranscript = () => {};
   const audio = new LectureAudio({
     row,
     player,
     progress: position || progress[id],
     message,
+    course: currentCourse,
     active: () => token === renderToken,
     onChange: () => refreshTranscript(),
   });
@@ -331,10 +409,9 @@ async function lecturePage(id, autoplay = false, historical = null) {
   audio.ready.catch((error) => {
     if (token === renderToken) message(error.message);
   });
-  const pageCourse = currentCourse;
   audio.ready
     .then(() => {
-      if (token === renderToken) player.course = pageCourse;
+      if (token === renderToken) updatePlaybackRoute();
     })
     .catch(() => {});
   const course = catalog.courses.find((c) => c.id === currentCourse);
@@ -630,7 +707,11 @@ async function lecturePage(id, autoplay = false, historical = null) {
   player.update();
   if (autoplay) {
     await audio.ready;
-    if (token === renderToken) audio.play();
+    if (token === renderToken) {
+      const restart = Boolean(playingQueueEntry || autoplay === "prepared" || progress[id]?.completed);
+      if (autoplay === "prepared") audio.playPrepared(restart ? 0 : player.index, restart ? 0 : null);
+      else audio.play(restart ? 0 : player.index, restart ? 0 : null);
+    }
   }
 }
 function feedbackForm(row) {
@@ -980,6 +1061,7 @@ function packExportControls(pack) {
   );
 }
 async function navigate(path, autoplay = false) {
+  showLibraryMenu(false);
   const token = ++navigationToken;
   history.replaceState({ ...history.state, scroll: window.scrollY }, "");
   history.pushState({}, "", path);
@@ -1094,6 +1176,7 @@ async function refresh(force = false) {
   catalog = next;
   lectureIndex = new Map(next.lectures.map((row) => [row.id, row]));
   $("presentations").hidden = !catalog.legacy;
+  updatePlaybackRoute();
   return changed;
 }
 async function init() {
@@ -1142,6 +1225,7 @@ async function init() {
       await production.refreshHealth();
       if ($("listening-queue"))
         await listeningQueue.render($("listening-queue"));
+      if (playingQueueEntry) await updatePlaybackRoute();
       if (profile) {
         await flushProgress();
         if (!getStored("pending:" + profile, []).length) {

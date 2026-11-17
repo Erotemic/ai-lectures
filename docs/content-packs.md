@@ -492,6 +492,26 @@ previously requested preparations are resumed in the background.
 
 ## Listeners and feedback
 
+The persistent player shows the playing track and upcoming lecture. **Next**
+and **Automatically play the next lecture** follow that track's declared order,
+including a selected deep dive rather than a parent survey. Browsing another
+collection or filtering a list does not change the playing order. **More →
+Playing track** selects another containing route and leaves queue playback.
+The automatic-continuation choice is remembered per device. Direct lecture
+links use saved valid context or a containing curated route before the archive.
+Track endings and unavailable next entries stop without wrapping or skipping.
+Automatic transitions use prepared audio; missing speech requires a deliberate
+play/generation action. A completed or repeated queue occurrence starts again
+from the beginning rather than resuming its final block.
+
+Phones use a compact Menu and player with touch-sized controls, safe-area
+padding and height-aware page spacing. The player's **More** controls retain
+native audio/volume controls, speed and route selection. **Audio blocks &
+generation** on a lecture retains voice preparation, passage selection,
+continuation/lookahead, cancellation and speech speed. Complete prepared
+recordings play through their passages by default; an explicit single-block
+preference is preserved. Unprepared speech keeps generation continuation opt-in.
+
 Access is immediate. Use **This device** for browser-local progress, or add/select
 a named listener to share progress through this server. A device remembers the
 choice. Another device selects the same listener without a password or login.

@@ -66,10 +66,10 @@ export class Player {
       );
     this.audio.onended = () => {
       this.save(this.index === this.recording.pages.length - 1);
-      if (this.continueBlocks && !this.continueBlocks()) return;
-      if (this.index < this.recording.pages.length - 1)
+      if (this.index < this.recording.pages.length - 1) {
+        if (this.continueBlocks && !this.continueBlocks()) return;
         this.play(this.index + 1, 0);
-      else if (document.getElementById("continue-course").checked) this.next();
+      } else if (document.getElementById("continue-course").checked) this.next({ automatic: true });
     };
     document.getElementById("timeline").onchange = (event) => {
       if (!this.recording) return;
@@ -82,15 +82,20 @@ export class Player {
     };
     window.addEventListener("pagehide", () => this.save());
   }
-  open(row, progress = null, preferred = null) {
+  open(row, progress = null, preferred = null, course = this.course ?? null) {
     if (
       this.row?.id === row.id &&
       this.row.revision === row.revision &&
       JSON.stringify(this.row.recordings.map((r) => r.id)) ===
         JSON.stringify(row.recordings.map((r) => r.id)) &&
       (preferred === null || preferred === this.recording?.id)
-    )
+    ) {
+      if (this.course !== course) {
+        this.save();
+        this.course = course;
+      }
       return;
+    }
     this.save();
     this.ready = false;
     this.started = false;
@@ -100,6 +105,7 @@ export class Player {
     this.audio.removeAttribute("src");
     this.audio.load();
     this.row = row;
+    this.course = course;
     this.recording =
       preferred === false
         ? null
@@ -152,6 +158,14 @@ export class Player {
   load(index, seconds = 0, autoplay = false) {
     const segment = this.recording?.segments.find((s) => s.index === index);
     if (!segment) {
+      this.save();
+      this.ready = false;
+      this.audio.pause();
+      this.index = index;
+      this.loadToken++;
+      this.audio.onloadedmetadata = null;
+      this.audio.removeAttribute("src");
+      this.audio.load();
       this.index = index;
       document.getElementById("playing-note").textContent =
         "This passage has not been generated for the selected voice";
@@ -188,6 +202,15 @@ export class Player {
       .reduce((sum, part) => sum + words(part), 0);
     const segment = this.recording.segments.find((s) => s.index === index);
     this.play(index, timeAtWord(text, segment, before));
+  }
+  seekBy(seconds) {
+    if (!this.recording) return;
+    const durations = pageDurations(this.recording);
+    const elapsed = durations.slice(0, this.index).reduce((a, b) => a + b, 0) +
+      (this.audio.currentTime || 0);
+    const target = locateTime(durations, Math.max(0, elapsed + seconds));
+    if (this.audio.paused) this.load(target.index, target.seconds, false);
+    else this.play(target.index, target.seconds);
   }
   play(index = this.index, seconds = null) {
     if (
@@ -251,7 +274,8 @@ export class Player {
   }
   playbackError(error) {
     // Pausing or changing sources can cancel an outstanding play request.
-    if (error.name !== "AbortError") this.message(error.message);
+    if (error.name === "NotAllowedError") this.message("Tap Play in the player to continue listening.");
+    else if (error.name !== "AbortError") this.message(error.message);
   }
   position(completed = false) {
     if (!this.row || !this.recording) return null;
