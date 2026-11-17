@@ -1,7 +1,7 @@
 {
   "id": "number-theory",
   "title": "Number Theory from First Principles",
-  "summary": "A self-contained proof-driven introduction to integer arithmetic: Euclid and primes, congruences and reconstruction, finite multiplicative arithmetic, Diophantine equations, continued fractions, Pell equations and the first ideas of quadratic reciprocity. Connects elementary proofs to abstract algebra, algorithms and arithmetic geometry.",
+  "summary": "A proof-driven introduction to integer arithmetic: Euclid and prime factorization, congruences, finite multiplicative groups, Diophantine equations, continued fractions and Pell equations, quadratic reciprocity, arithmetic functions and Möbius inversion, elementary prime distribution, and lifting solutions modulo prime powers.",
   "assumed_background": [
     "integer arithmetic, fractions, equations and basic algebra",
     "comfortable reading simple proofs helps; the Mathematical Reasoning and Proof course is optional preparation",
@@ -16,7 +16,10 @@
     "units-and-exponentiation",
     "integer-equations",
     "approximation-and-pell",
-    "residues-and-reciprocity"
+    "residues-and-reciprocity",
+    "arithmetic-functions-and-inversion",
+    "prime-distribution",
+    "prime-powers-and-lifting"
   ],
   "lectures": [
     {
@@ -72,6 +75,42 @@
       "spoken_words": 1885,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 13.0
+    },
+    {
+      "id": "007000",
+      "title": "Gauss's Lemma and a Complete Proof of Quadratic Reciprocity",
+      "section": "residues-and-reciprocity",
+      "file": "007000-gauss-lemma-and-proof-of-quadratic-reciprocity.md",
+      "spoken_words": 1975,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 13.6
+    },
+    {
+      "id": "008000",
+      "title": "Arithmetic Functions, Dirichlet Convolution, and Möbius Inversion",
+      "section": "arithmetic-functions-and-inversion",
+      "file": "008000-arithmetic-functions-and-mobius-inversion.md",
+      "spoken_words": 2049,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 14.1
+    },
+    {
+      "id": "009000",
+      "title": "Where the Primes Live: Elementary Distribution Arguments",
+      "section": "prime-distribution",
+      "file": "009000-where-primes-live-elementary-distribution.md",
+      "spoken_words": 2102,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 14.5
+    },
+    {
+      "id": "010000",
+      "title": "Prime Powers, Simple Roots, and Hensel Lifting",
+      "section": "prime-powers-and-lifting",
+      "file": "010000-prime-powers-and-hensel-lifting.md",
+      "spoken_words": 2127,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 14.7
     }
   ]
 }

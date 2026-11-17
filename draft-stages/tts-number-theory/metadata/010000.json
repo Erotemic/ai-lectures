@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "lecture_id": "010000",
+  "transcript": "010000-prime-powers-and-hensel-lifting.md",
+  "related_resources": [
+    {
+      "source_id": "nt-mit",
+      "reason": "Hensel lemma lecture 6"
+    },
+    {
+      "source_id": "nt-mit782",
+      "reason": "Simple-root Hensel lemma"
+    },
+    {
+      "source_id": "nt-hensel",
+      "reason": "Elementary finite lifting"
+    },
+    {
+      "source_id": "nt-padic",
+      "reason": "Compatible sequences and p-adic interpretation"
+    }
+  ],
+  "mathematical_claims": [
+    {
+      "id": "010000-m01",
+      "anchor": "This is the formula for Euler's totient of a prime power.",
+      "source_ids": [
+        "nt-totient",
+        "nt-mit"
+      ],
+      "source_locator": "Counting residues not divisible by p",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "010000-m02",
+      "anchor": "That is the heart of the simple-root form of Hensel's lemma.",
+      "source_ids": [
+        "nt-hensel",
+        "nt-mit782",
+        "nt-mit"
+      ],
+      "source_locator": "Linear correction modulo p",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "010000-m03",
+      "anchor": "Then for every positive integer k there is exactly one solution modulo p to the power k that reduces to a modulo p.",
+      "source_ids": [
+        "nt-hensel",
+        "nt-mit782"
+      ],
+      "source_locator": "Simple-root lift existence and uniqueness",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "010000-m04",
+      "anchor": "We have proved a complete statement:",
+      "source_ids": [
+        "nt-hensel",
+        "nt-residue"
+      ],
+      "source_locator": "Nonzero quadratic residues and two simple lifts at odd p",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "010000-m05",
+      "anchor": "The equation x squared congruent to five modulo twenty-five has no solution.",
+      "source_ids": [
+        "nt-hensel"
+      ],
+      "source_locator": "Counterexample to automatic singular lifting",
+      "audit_status": "reading_reference_recorded"
+    }
+  ],
+  "historical_claims": []
+}

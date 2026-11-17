@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "lecture_id": "007000",
+  "transcript": "007000-gauss-lemma-and-proof-of-quadratic-reciprocity.md",
+  "related_resources": [
+    {
+      "source_id": "nt-mit",
+      "reason": "Quadratic reciprocity and Gauss lemma"
+    },
+    {
+      "source_id": "nt-stanford-recip",
+      "reason": "Complete Gauss criterion and rectangle proof"
+    },
+    {
+      "source_id": "nt-gauss",
+      "reason": "Gauss lemma reference"
+    },
+    {
+      "source_id": "nt-reciprocity",
+      "reason": "Statement and supplementary laws"
+    }
+  ],
+  "mathematical_claims": [
+    {
+      "id": "007000-m01",
+      "anchor": "Thus we have proved Gauss's lemma:",
+      "source_ids": [
+        "nt-mit",
+        "nt-stanford-recip",
+        "nt-gauss"
+      ],
+      "source_locator": "Gauss lemma signed-residue proof",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "007000-m02",
+      "anchor": "This is the supplementary law for two.",
+      "source_ids": [
+        "nt-mit",
+        "nt-reciprocity"
+      ],
+      "source_locator": "Quadratic character of 2 modulo odd primes",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "007000-m03",
+      "anchor": "The hypothesis that a is odd matters to this particular floor-sum formula.",
+      "source_ids": [
+        "nt-stanford-recip"
+      ],
+      "source_locator": "Parity version of Gauss criterion assumes odd multiplier",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "007000-m04",
+      "anchor": "We have arrived at the quadratic reciprocity formula.",
+      "source_ids": [
+        "nt-stanford-recip",
+        "nt-mit",
+        "nt-reciprocity"
+      ],
+      "source_locator": "Reciprocity via counting points above and below a line",
+      "audit_status": "reading_reference_recorded"
+    }
+  ],
+  "historical_claims": []
+}

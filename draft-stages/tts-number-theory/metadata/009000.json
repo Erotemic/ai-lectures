@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "lecture_id": "009000",
+  "transcript": "009000-where-primes-live-elementary-distribution.md",
+  "related_resources": [
+    {
+      "source_id": "nt-mit",
+      "reason": "Prime arithmetic and special progressions"
+    },
+    {
+      "source_id": "nt-prime-reciprocal",
+      "reason": "Finite Euler product and prime harmonic series"
+    },
+    {
+      "source_id": "nt-hmc-prime-reciprocal",
+      "reason": "Prime reciprocal divergence"
+    },
+    {
+      "source_id": "nt-prime-theorem",
+      "reason": "Stronger unproved asymptotic"
+    },
+    {
+      "source_id": "nt-dirichlet-ap",
+      "reason": "Unproved general progression theorem"
+    }
+  ],
+  "mathematical_claims": [
+    {
+      "id": "009000-m01",
+      "anchor": "There are infinitely many primes congruent to three modulo four.",
+      "source_ids": [
+        "nt-mit",
+        "nt-residue"
+      ],
+      "source_locator": "Euclid-type proof for 4n+3 primes",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "009000-m02",
+      "anchor": "So there are infinitely many primes congruent to one modulo four as well.",
+      "source_ids": [
+        "nt-residue",
+        "nt-mit"
+      ],
+      "source_locator": "Proof using the negative-one Legendre criterion",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "009000-m03",
+      "anchor": "the series of reciprocal primes diverges",
+      "source_ids": [
+        "nt-prime-reciprocal",
+        "nt-hmc-prime-reciprocal"
+      ],
+      "source_locator": "Euler-product harmonic comparison",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "009000-m04",
+      "anchor": "the primes have natural density zero.",
+      "source_ids": [
+        "nt-prime-reciprocal",
+        "nt-prime-count"
+      ],
+      "source_locator": "Density zero from CRT sieve and divergent prime reciprocals",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "009000-m05",
+      "anchor": "The third claim is the prime number theorem.",
+      "source_ids": [
+        "nt-prime-theorem"
+      ],
+      "source_locator": "Precise asymptotic, stated explicitly without proof",
+      "audit_status": "reading_reference_recorded"
+    }
+  ],
+  "historical_claims": []
+}

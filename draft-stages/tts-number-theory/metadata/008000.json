@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "lecture_id": "008000",
+  "transcript": "008000-arithmetic-functions-and-mobius-inversion.md",
+  "related_resources": [
+    {
+      "source_id": "nt-mit",
+      "reason": "Arithmetic functions and Möbius inversion"
+    },
+    {
+      "source_id": "nt-grinberg",
+      "reason": "Detailed elementary proofs"
+    },
+    {
+      "source_id": "nt-mobius",
+      "reason": "Definition and cancellation identity"
+    },
+    {
+      "source_id": "nt-dirichlet-convolution",
+      "reason": "Convolution operation"
+    }
+  ],
+  "mathematical_claims": [
+    {
+      "id": "008000-m01",
+      "anchor": "This is inclusion-exclusion hiding inside prime factorization.",
+      "source_ids": [
+        "nt-grinberg",
+        "nt-mobius"
+      ],
+      "source_locator": "Squarefree divisor cancellation",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "008000-m02",
+      "anchor": "the constant-one function convolved with the Möbius function equals epsilon",
+      "source_ids": [
+        "nt-grinberg",
+        "nt-dirichlet-convolution"
+      ],
+      "source_locator": "Convolution inverse",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "008000-m03",
+      "anchor": "This is Möbius inversion.",
+      "source_ids": [
+        "nt-grinberg",
+        "nt-mobius-inversion",
+        "nt-mit"
+      ],
+      "source_locator": "Finite inversion theorem",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "008000-m04",
+      "anchor": "For every n, the sum of the totients of all positive divisors of n equals n.",
+      "source_ids": [
+        "nt-mit",
+        "nt-totient"
+      ],
+      "source_locator": "Totient divisor sum",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "008000-m05",
+      "anchor": "the fraction of coprime pairs tends to six divided by pi squared",
+      "source_ids": [
+        "nt-mit",
+        "nt-mobius"
+      ],
+      "source_locator": "Coprime lattice-point limit, explicitly not proved in manuscript",
+      "audit_status": "reading_reference_recorded"
+    }
+  ],
+  "historical_claims": []
+}
