@@ -81,3 +81,22 @@
 4. **Parallel scriptural and philosophical reading:** the Gospel of Mark, Qurʾanic narrative sūras, and select ethical dialogues, each addressed as the source's actual form, not converted into a generic hero's journey.
 
 A work becomes **covered** only when a usable, source-linked manuscript is in `track.json` and reachable from navigation. *Selected* coverage must not be described as *complete*. The priority queue should be refreshed against later repository snapshots; no fixed quota or lecture duration is required.
+
+## Story-first medieval overview update (17 November 2026)
+
+The **whole-work overview** route is distinct from detailed source-chapter
+retellings. *Genji*, *Roland*, the Four Branches of the *Mabinogi*, *Heike*,
+*Nibelungenlied*, and Attar's *Conference of the Birds* are now covered with
+one or two story narrations and an independent analysis each, indexed as
+`090000`–`103000`. Selection is by major literary importance and coverage gap;
+this sequence is not intended as a geographic quota.
+
+Remaining high-value candidates to investigate next (check for prior long
+studies before commissioning): the identified poems of the *Poetic Edda*;
+*Njáls saga* or *Egils saga*; the *Book of Dede Korkut*; *The Kebra Nagast*;
+*The Epic of Sundiata* only with a named public telling and rights/provenance
+suitable for adaptation; the *Huarochirí Manuscript* with colonial testimony
+and living tradition clearly distinguished; and *Sir Gawain and the Green
+Knight*. Some projects are not a single continuous plot and should retain
+their actual forms. No future work is counted as finished until it has a
+registered manuscript, sources and a listening route.

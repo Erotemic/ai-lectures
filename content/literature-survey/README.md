@@ -198,3 +198,33 @@ This importance-first geographic rotation adds eleven independent narrations, `0
 The companions link relevant Wikipedia orientation and primary or named translated sources, with granular passage locators and boundaries. No fixed duration target and no generated audio or binary art are included.
 
 Current integration checkpoint (17 November 2026): 87 indexed manuscripts; new IDs 079000–089000 add Shiji selections, the three-book Silappatikaram narrative arc, and the classical seven Muallaqat odes. Existing medieval route placement, source records and chronology are preserved.
+
+## Medieval and mid-history literature: whole-work overviews (17 November 2026)
+
+The new overview format distinguishes **story** (one or two complete, continuous
+narrations) from **analysis** (one or two separate treatments as needed). There
+is no requirement to proceed chapter by chapter; full original source chapters,
+fragmented witness histories and close readings can be covered in separate deep
+studies. Durations are measured descriptions, not quotas or editing targets.
+
+Fourteen original manuscripts, `090000`–`103000`, are registered as six grouped
+works and available in both the Medieval Literature route and the Compact
+Introductions route:
+
+| Work | Story ID(s) | Analysis ID | Specific boundary |
+|---|---|---|---|
+| *The Tale of Genji* | `090000`, `091000` | `092000` | The received 54-chapter arc including Uji and Ukifune's unresolved refusal; no invented Genji death scene. |
+| *The Song of Roland* | `093000` | `094000` | The complete Oxford-text epic through Baligant, Ganelon's trial and the final summons; literary depiction of Muslims distinguished from actual Islam. |
+| Four Branches of the *Mabinogi* | `095000` | `096000` | Pwyll, Branwen, Manawydan, Math as connected tales, not the full later *Mabinogion* collection. |
+| *The Tale of the Heike* | `097000`, `098000` | `099000` | From Kiyomori to the Initiates' Book, including Kenreimon-in; the Kakuichi tradition is a later medieval recension of the twelfth-century events. |
+| *Nibelungenlied* | `100000` | `101000` | Kriemhild's complete two-movement plot through Hagen's death and her own; medieval manuscripts differ. |
+| Attar's *Conference of the Birds* | `102000` | `103000` | The complete allegorical frame, selected defining exempla, seven valleys, and the thirty-birds resolution, not all embedded anecdotes. |
+
+Each manuscript has a non-spoken companion identifying sources, distinct
+textual traditions, plot loci, interpretive boundaries and relevant Wikipedia
+orientation. `metadata/<id>.json` contains recorded source identifiers and
+exact spoken-text anchors. These are original paraphrases and interpretations;
+no translation is reproduced, no generated audio or images are supplied, and
+not all source witnesses have been collated exhaustively. The active lecture
+index now contains **101** entries; their authoring scope is specific to
+`content/literature-survey/`.
