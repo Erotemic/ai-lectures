@@ -1,0 +1,342 @@
+{
+  "schema_version": 1,
+  "lecture_id": "103000",
+  "transcript": "103000-erdos.md",
+  "related_resources": [
+    {
+      "source_id": "history-erdos-mactutor",
+      "reason": "Family, student mathematical culture, travel, primes, visa and late career."
+    },
+    {
+      "source_id": "history-erdos-autobiography",
+      "reason": "Late autobiographical recollection, family and education, contextualized as retrospective."
+    },
+    {
+      "source_id": "history-erdos-babai-spencer",
+      "reason": "Collaborators’ reflections, problem culture, intellectual network, published mathematical work."
+    },
+    {
+      "source_id": "history-erdos-ams-math",
+      "reason": "Combinatorics, arithmetic sequences, problems, coauthorship, method."
+    },
+    {
+      "source_id": "history-erdos-goldfeld",
+      "reason": "Different mathematical and documentary perspectives on the Selberg-Erdős priority dispute."
+    },
+    {
+      "source_id": "history-erdos-times",
+      "reason": "1954 US visa restrictions, mother Anna’s travels and death, problem prizes, final years."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "103000-h01",
+      "anchor": "born Pál Erdős in Budapest on March twenty-sixth, nineteen thirteen",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-erdos-mactutor",
+        "history-erdos-autobiography"
+      ],
+      "source_locator": "born Pál Erdős in Budapest on March twenty-sixth, nineteen thirteen",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "103000-h02",
+      "anchor": "His parents, Anna and Lajos, were both mathematics teachers",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-erdos-autobiography",
+        "history-erdos-mactutor"
+      ],
+      "source_locator": "His parents, Anna and Lajos, were both mathematics teachers",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "103000-h03",
+      "anchor": "his two older sisters died of scarlet fever",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-erdos-autobiography",
+        "history-erdos-mactutor"
+      ],
+      "source_locator": "his two older sisters died of scarlet fever",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "103000-h04",
+      "anchor": "Lajos was called into the army, taken prisoner by Russian forces",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-erdos-autobiography",
+        "history-erdos-mactutor"
+      ],
+      "source_locator": "Lajos was called into the army, taken prisoner by Russian forces",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "103000-h05",
+      "anchor": "A remarkable Hungarian journal for secondary-school students",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-erdos-mactutor",
+        "history-erdos-babai-spencer"
+      ],
+      "source_locator": "A remarkable Hungarian journal for secondary-school students",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "103000-h06",
+      "anchor": "The young circle included Paul Turán and Tibor Gallai",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-erdos-babai-spencer",
+        "history-erdos-mactutor"
+      ],
+      "source_locator": "The young circle included Paul Turán and Tibor Gallai",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "103000-h07",
+      "anchor": "Chebyshev had proved the result decades earlier",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-erdos-mactutor"
+      ],
+      "source_locator": "Chebyshev had proved the result decades earlier",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "103000-h08",
+      "anchor": "under Fejér's formal supervision",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-erdos-mactutor"
+      ],
+      "source_locator": "under Fejér's formal supervision",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "103000-h09",
+      "anchor": "He completed his degree in nineteen thirty-four",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-erdos-mactutor"
+      ],
+      "source_locator": "He completed his degree in nineteen thirty-four",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "103000-h10",
+      "anchor": "In Britain he worked with Richard Rado",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-erdos-mactutor",
+        "history-erdos-babai-spencer"
+      ],
+      "source_locator": "In Britain he worked with Richard Rado",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "103000-h11",
+      "anchor": "Esther Klein posed the question",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-erdos-babai-spencer",
+        "history-erdos-mactutor"
+      ],
+      "source_locator": "Esther Klein posed the question",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "103000-h12",
+      "anchor": "In nineteen thirty-eight, as Europe approached war",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-erdos-mactutor"
+      ],
+      "source_locator": "In nineteen thirty-eight, as Europe approached war",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "103000-h13",
+      "anchor": "held a fellowship at the Institute for Advanced Study",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-erdos-mactutor"
+      ],
+      "source_locator": "held a fellowship at the Institute for Advanced Study",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "103000-h14",
+      "anchor": "With Mark Kac, Erdős developed a theorem",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-erdos-mactutor",
+        "history-erdos-ams-math"
+      ],
+      "source_locator": "With Mark Kac, Erdős developed a theorem",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "103000-h15",
+      "anchor": "Selberg had developed a crucial identity",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-erdos-goldfeld",
+        "history-erdos-mactutor"
+      ],
+      "source_locator": "Selberg had developed a crucial identity",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "103000-h16",
+      "anchor": "An elementary proof, in this context, did not mean easy",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-erdos-goldfeld"
+      ],
+      "source_locator": "An elementary proof, in this context, did not mean easy",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "103000-h17",
+      "anchor": "In nineteen forty-seven Erdős used this idea",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-erdos-ams-math",
+        "history-erdos-babai-spencer"
+      ],
+      "source_locator": "In nineteen forty-seven Erdős used this idea",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "103000-h18",
+      "anchor": "By the nineteen fifties Erdős was known across number theory",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-erdos-mactutor",
+        "history-erdos-times"
+      ],
+      "source_locator": "By the nineteen fifties Erdős was known across number theory",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "103000-h19",
+      "anchor": "Cold War restrictions",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-erdos-times",
+        "history-erdos-mactutor"
+      ],
+      "source_locator": "Cold War restrictions",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "103000-h20",
+      "anchor": "Ronald Graham became especially important",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-erdos-babai-spencer",
+        "history-erdos-times"
+      ],
+      "source_locator": "Ronald Graham became especially important",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "103000-h21",
+      "anchor": "Erdős's mother, Anna, survived the Holocaust",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-erdos-times",
+        "history-erdos-mactutor"
+      ],
+      "source_locator": "Erdős's mother, Anna, survived the Holocaust",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "103000-h22",
+      "anchor": "When she died in nineteen seventy-one",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-erdos-times"
+      ],
+      "source_locator": "When she died in nineteen seventy-one",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "103000-h23",
+      "anchor": "With Alfred Rényi, Erdős also helped make random graphs",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-erdos-babai-spencer",
+        "history-erdos-ams-math"
+      ],
+      "source_locator": "With Alfred Rényi, Erdős also helped make random graphs",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "103000-h24",
+      "anchor": "The theorem illustrates another feature",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-erdos-ams-math"
+      ],
+      "source_locator": "The theorem illustrates another feature",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "103000-h25",
+      "anchor": "monetary prizes to open questions",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-erdos-times",
+        "history-erdos-babai-spencer"
+      ],
+      "source_locator": "monetary prizes to open questions",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "103000-h26",
+      "anchor": "A mathematician's Erdős number",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-erdos-babai-spencer"
+      ],
+      "source_locator": "A mathematician's Erdős number",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "103000-h27",
+      "anchor": "The image of the Book",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-erdos-babai-spencer"
+      ],
+      "source_locator": "The image of the Book",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "103000-h28",
+      "anchor": "the Wolf Prize in nineteen eighty-three",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-erdos-times",
+        "history-erdos-mactutor"
+      ],
+      "source_locator": "the Wolf Prize in nineteen eighty-three",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "103000-h29",
+      "anchor": "He died in September nineteen ninety-six during a mathematical gathering in Warsaw",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-erdos-mactutor",
+        "history-erdos-times"
+      ],
+      "source_locator": "He died in September nineteen ninety-six during a mathematical gathering in Warsaw",
+      "audit_status": "source_cross_checked"
+    }
+  ]
+}
