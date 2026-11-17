@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "lecture_id": "047000",
+  "transcript": "047000-maximum-principles-comparison-and-barriers.md",
+  "related_resources": [
+    {
+      "source_id": "mv-mit-ocw-pde-2005",
+      "reason": "Classical maximum principles, comparison, barriers and the strong principle."
+    },
+    {
+      "source_id": "mv-iyer-elliptic-2026",
+      "reason": "Weak elliptic equations and energy method context."
+    },
+    {
+      "source_id": "mv-wiki-maximum-principle",
+      "reason": "Basic terminology and boundary hypotheses."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-17",
+    "scope": "New original lecture and non-spoken mathematical companion on elliptic maximum and comparison principles, Green functions, energy estimates, and Harnack/Poisson inequalities; all existing manuscripts retained."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "multivariable-calculus:033000",
+        "reason": "Weak scalar Poisson equations and admissible test functions."
+      },
+      {
+        "lecture_id": "multivariable-calculus:043000",
+        "reason": "Boundary traces and Dirichlet data."
+      },
+      {
+        "lecture_id": "multivariable-calculus:044000",
+        "reason": "Understand what fails to determine an absolute level for Neumann data."
+      }
+    ],
+    "recommended": [
+      {
+        "lecture_id": "multivariable-calculus:048000",
+        "reason": "See comparison positivity inside the Dirichlet Green kernel."
+      },
+      {
+        "lecture_id": "multivariable-calculus:049000",
+        "reason": "Compare pointwise order with norm stability."
+      }
+    ],
+    "background": [
+      "Weak negative-Laplacian sign convention, zero-trace H-one functions and integration by parts."
+    ],
+    "readiness_checks": [
+      "Prove weak scalar comparison by testing with the negative part of a difference.",
+      "Derive the containing-ball quadratic barrier and check the sign of the source."
+    ]
+  }
+}

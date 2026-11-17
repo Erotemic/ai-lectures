@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "lecture_id": "048000",
+  "transcript": "048000-green-functions-and-inverse-operators.md",
+  "related_resources": [
+    {
+      "source_id": "mv-speck-mit-green-2011",
+      "reason": "Boundary-corrected Green functions and representation formula, with sign convention noted."
+    },
+    {
+      "source_id": "mv-wiki-green-function",
+      "reason": "Integral response and inverse-operator interpretation."
+    },
+    {
+      "source_id": "mv-wiki-fundamental-solution",
+      "reason": "Distributional point-source kernels for the Laplacian."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-17",
+    "scope": "New original lecture and non-spoken mathematical companion on elliptic maximum and comparison principles, Green functions, energy estimates, and Harnack/Poisson inequalities; all existing manuscripts retained."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "multivariable-calculus:047000",
+        "reason": "Kernel positivity and comparison sign convention."
+      },
+      {
+        "lecture_id": "multivariable-calculus:033000",
+        "reason": "Weak operator equation and load functionals."
+      },
+      {
+        "lecture_id": "multivariable-calculus:045000",
+        "reason": "Distinguish regular distributed loads from singular point sources."
+      }
+    ],
+    "recommended": [
+      {
+        "lecture_id": "multivariable-calculus:050000",
+        "reason": "Derive the disk Poisson kernel and Harnack bounds."
+      },
+      {
+        "lecture_id": "linear-algebra:026000",
+        "reason": "Connect operator inversion and spectral structure."
+      }
+    ],
+    "background": [
+      "Elementary ODE solution on an interval, point distributions, basic eigenfunctions and one-dimensional boundary conditions."
+    ],
+    "readiness_checks": [
+      "Derive the interval Green kernel and verify its derivative jump of negative one.",
+      "Integrate it against constant source two and recover x times one minus x."
+    ]
+  }
+}

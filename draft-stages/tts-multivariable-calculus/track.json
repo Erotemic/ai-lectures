@@ -1,7 +1,7 @@
 {
   "id": "multivariable-calculus",
   "title": "Multivariable Calculus from First Principles",
-  "summary": "A calculation-first and proof-aware bridge from single-variable calculus and linear algebra to geometry, optimization, and variational PDEs. Depth routes develop local and constrained Newton theory, inverse problems, weak formulations, nonlinear existence, compatible mixed elements, and elliptic boundary regularity.",
+  "summary": "A calculation-first and proof-aware bridge from single-variable calculus and linear algebra to geometry, optimization, and variational PDEs. Depth routes develop local and constrained Newton theory, inverse problems, weak formulations, nonlinear existence, compatible mixed elements, boundary regularity, maximum principles, Green kernels, and elliptic pointwise estimates.",
   "assumed_background": [
     "single-variable limits, differentiation and integration (Analysis 001000–008000)",
     "elementary vectors, matrices, determinants and dot products (Linear Algebra 001000–006000, 008000)"
@@ -19,7 +19,8 @@
     "variational-weak-formulations-bridge",
     "variational-compactness-direct-method-bridge",
     "mixed-inf-sup-stability-bridge",
-    "boundary-traces-elliptic-regularity-bridge"
+    "boundary-traces-elliptic-regularity-bridge",
+    "elliptic-maximum-green-harnack-bridge"
   ],
   "lectures": [
     {
@@ -526,6 +527,70 @@
         "Adaptive mesh refinement",
         "Poisson equation",
         "L-shaped domains"
+      ]
+    },
+    {
+      "id": "047000",
+      "title": "Maximum Principles: Comparison, Positivity, and Barriers",
+      "section": "elliptic-maximum-green-harnack-bridge",
+      "file": "047000-maximum-principles-comparison-and-barriers.md",
+      "spoken_words": 1900,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 13.1,
+      "tags": [
+        "Maximum principle",
+        "Comparison principle",
+        "Barriers",
+        "Scalar elliptic PDE",
+        "Positivity"
+      ]
+    },
+    {
+      "id": "048000",
+      "title": "Green's Functions: An Elliptic Equation as an Integral Operator",
+      "section": "elliptic-maximum-green-harnack-bridge",
+      "file": "048000-green-functions-and-inverse-operators.md",
+      "spoken_words": 1897,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 13.1,
+      "tags": [
+        "Green functions",
+        "Poisson equation",
+        "Fundamental solution",
+        "Integral operators",
+        "Spectral inverse"
+      ]
+    },
+    {
+      "id": "049000",
+      "title": "Elliptic Energy Estimates: From Global Stability to Caccioppoli",
+      "section": "elliptic-maximum-green-harnack-bridge",
+      "file": "049000-energy-estimates-and-caccioppoli.md",
+      "spoken_words": 2223,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 15.3,
+      "tags": [
+        "Energy method",
+        "Poincare inequality",
+        "Caccioppoli inequality",
+        "Uniform ellipticity",
+        "Local PDE estimates"
+      ]
+    },
+    {
+      "id": "050000",
+      "title": "Mean Values and Harnack: From Averages to Pointwise Bounds",
+      "section": "elliptic-maximum-green-harnack-bridge",
+      "file": "050000-mean-value-harnack-and-interior-bounds.md",
+      "spoken_words": 2469,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 17.0,
+      "tags": [
+        "Harmonic functions",
+        "Mean-value property",
+        "Poisson kernel",
+        "Harnack inequality",
+        "Interior estimates"
       ]
     }
   ],

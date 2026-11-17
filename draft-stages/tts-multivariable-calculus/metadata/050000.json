@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "lecture_id": "050000",
+  "transcript": "050000-mean-value-harnack-and-interior-bounds.md",
+  "related_resources": [
+    {
+      "source_id": "mv-qmul-potential-theory",
+      "reason": "Disk Poisson integral and explicit Harnack bound."
+    },
+    {
+      "source_id": "mv-mit-ocw-pde-2005",
+      "reason": "Mean value, Harnack and gradient estimate."
+    },
+    {
+      "source_id": "mv-mooney-elliptic-notes",
+      "reason": "Harnack and Hölder continuity for measurable coefficients."
+    },
+    {
+      "source_id": "mv-wiki-harnack",
+      "reason": "General terminology and comparison with other elliptic operators."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-17",
+    "scope": "New original lecture and non-spoken mathematical companion on elliptic maximum and comparison principles, Green functions, energy estimates, and Harnack/Poisson inequalities; all existing manuscripts retained."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "multivariable-calculus:047000",
+        "reason": "Scalar maximum principle and positivity."
+      },
+      {
+        "lecture_id": "multivariable-calculus:048000",
+        "reason": "Integral kernel as a weighted boundary or source response."
+      },
+      {
+        "lecture_id": "multivariable-calculus:049000",
+        "reason": "Local Caccioppoli energy estimate and ellipticity hypotheses."
+      }
+    ],
+    "recommended": [
+      {
+        "lecture_id": "differential-equations:survey",
+        "reason": "Continue into qualitative properties of elliptic and evolution PDEs."
+      },
+      {
+        "lecture_id": "multivariable-calculus:046000",
+        "reason": "Contrast interior regularity with corner-induced boundary singularity."
+      }
+    ],
+    "background": [
+      "Planar divergence theorem, polar coordinates, harmonic functions and basic positive integral kernels."
+    ],
+    "readiness_checks": [
+      "Derive the circle mean-value property from zero Laplacian and the divergence theorem.",
+      "Bound the Poisson kernel and recover sharp planar Harnack factors."
+    ]
+  }
+}

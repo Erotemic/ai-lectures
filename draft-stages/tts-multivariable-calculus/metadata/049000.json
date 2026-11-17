@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "lecture_id": "049000",
+  "transcript": "049000-energy-estimates-and-caccioppoli.md",
+  "related_resources": [
+    {
+      "source_id": "mv-iyer-elliptic-2026",
+      "reason": "Interior energy estimates and a Caccioppoli lemma."
+    },
+    {
+      "source_id": "mv-mooney-elliptic-notes",
+      "reason": "Local boundedness and De Giorgi theory after energy estimates."
+    },
+    {
+      "source_id": "mv-mit-ocw-pde-2005",
+      "reason": "Poincare and Caccioppoli inequalities in introductory PDE notes."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-17",
+    "scope": "New original lecture and non-spoken mathematical companion on elliptic maximum and comparison principles, Green functions, energy estimates, and Harnack/Poisson inequalities; all existing manuscripts retained."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "multivariable-calculus:033000",
+        "reason": "Coercivity, weak testing and Poincare inequalities."
+      },
+      {
+        "lecture_id": "multivariable-calculus:043000",
+        "reason": "Why nonzero boundary data need lifting."
+      },
+      {
+        "lecture_id": "multivariable-calculus:045000",
+        "reason": "Cutoff and difference quotient logic for interior estimates."
+      }
+    ],
+    "recommended": [
+      {
+        "lecture_id": "multivariable-calculus:050000",
+        "reason": "See how energy estimates enter rough-coefficient pointwise regularity."
+      },
+      {
+        "lecture_id": "numerical-analysis:018000",
+        "reason": "Relate coercive energy bounds to error estimation."
+      }
+    ],
+    "background": [
+      "Quadratic forms, Cauchy-Schwarz and Young inequalities, H-one weak solutions and radial cutoffs."
+    ],
+    "readiness_checks": [
+      "Derive the global energy bound with explicit Poincare and ellipticity constants.",
+      "Use eta-squared times u minus c to derive a local Caccioppoli estimate."
+    ]
+  }
+}
