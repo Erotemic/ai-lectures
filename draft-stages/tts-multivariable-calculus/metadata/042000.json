@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "lecture_id": "042000",
+  "transcript": "042000-stokes-block-solvers-and-pressure-stability.md",
+  "related_resources": [
+    {
+      "source_id": "mv-boffi-brezzi-fortin-2013",
+      "reason": "Stokes mixed formulations, discrete stability, and numerical approximations."
+    },
+    {
+      "source_id": "mv-dolfinx-stokes",
+      "reason": "Current computational demonstration of Taylor–Hood, MINRES, and pressure nullspaces."
+    },
+    {
+      "source_id": "mv-dolfinx-mixed-poisson",
+      "reason": "Contrast with mixed Poisson flux/potential spaces and solvers."
+    },
+    {
+      "source_id": "mv-arnold-falk-winther-2010",
+      "reason": "Geometric perspective on compatible numerical complexes."
+    },
+    {
+      "source_id": "mv-wiki-uzawa",
+      "reason": "Schur complement solver formulation."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-17",
+    "scope": "New standalone narration and exact mathematical companions on mixed variational systems, inf–sup stability, compatible finite elements, and Stokes preconditioning; previous manuscripts unchanged."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "multivariable-calculus:040000",
+        "reason": "Schur complement, inf–sup, and kernel coercivity."
+      },
+      {
+        "lecture_id": "multivariable-calculus:041000",
+        "reason": "Discrete pressure modes and uniform stability."
+      }
+    ],
+    "recommended": [
+      {
+        "lecture_id": "numerical-analysis:survey",
+        "reason": "Review iterative linear solves and error control."
+      },
+      {
+        "lecture_id": "differential-equations:010000",
+        "reason": "Compare weak elliptic PDEs with coupled incompressible systems."
+      }
+    ],
+    "background": [
+      "The vector Laplacian, weak integration by parts, an elementary saddle block, and the meaning of divergence-free velocity."
+    ],
+    "readiness_checks": [
+      "Check the manufactured Stokes solution with u=0 and p=x-1/2 under constant gradient forcing.",
+      "Distinguish pressure gauge, discrete inf–sup failure, and an ineffective block preconditioner."
+    ]
+  }
+}

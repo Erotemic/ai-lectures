@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "lecture_id": "040000",
+  "transcript": "040000-saddle-point-stability-and-inf-sup.md",
+  "related_resources": [
+    {
+      "source_id": "mv-brezzi-fortin-1991",
+      "reason": "Inf–sup and constrained saddle-point solvability."
+    },
+    {
+      "source_id": "mv-boffi-brezzi-fortin-2013",
+      "reason": "Hilbert-space and algebraic mixed stability."
+    },
+    {
+      "source_id": "mv-wiki-lbb",
+      "reason": "Terminology and standard condition."
+    },
+    {
+      "source_id": "mv-wiki-uzawa",
+      "reason": "Schur complement and multiplier elimination."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-17",
+    "scope": "New standalone narration and exact mathematical companions on mixed variational systems, inf–sup stability, compatible finite elements, and Stokes preconditioning; previous manuscripts unchanged."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "multivariable-calculus:029000",
+        "reason": "Finite-dimensional KKT Newton block structure."
+      },
+      {
+        "lecture_id": "multivariable-calculus:039000",
+        "reason": "The mixed Poisson equations to which stability applies."
+      }
+    ],
+    "recommended": [
+      {
+        "lecture_id": "multivariable-calculus:041000",
+        "reason": "Construct a discrete counterexample and its compatible repair."
+      },
+      {
+        "lecture_id": "multivariable-calculus:042000",
+        "reason": "Apply the theorem to Stokes pressure."
+      }
+    ],
+    "background": [
+      "Small matrix inverses, quadratic energy, a constraint multiplier, and weak-function notation."
+    ],
+    "readiness_checks": [
+      "Derive and solve the stated three-by-three KKT system, then compute its Schur complement.",
+      "State separate roles of kernel coercivity and the inf–sup lower bound."
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "lecture_id": "041000",
+  "transcript": "041000-discrete-inf-sup-and-compatible-elements.md",
+  "related_resources": [
+    {
+      "source_id": "mv-brezzi-fortin-1991",
+      "reason": "Stable finite-element pairs and the mesh-uniform inf–sup requirement."
+    },
+    {
+      "source_id": "mv-boffi-brezzi-fortin-2013",
+      "reason": "Raviart–Thomas spaces, discrete divergence and Fortin operators."
+    },
+    {
+      "source_id": "mv-arnold-falk-winther-2010",
+      "reason": "Commuting operators and structure-preserving finite elements."
+    },
+    {
+      "source_id": "mv-wiki-lbb",
+      "reason": "Terminology for the discrete inf–sup constant."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-17",
+    "scope": "New standalone narration and exact mathematical companions on mixed variational systems, inf–sup stability, compatible finite elements, and Stokes preconditioning; previous manuscripts unchanged."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "multivariable-calculus:039000",
+        "reason": "Mixed flux/scalar spaces and local conservation."
+      },
+      {
+        "lecture_id": "multivariable-calculus:040000",
+        "reason": "Inf–sup criterion and operator coupling."
+      }
+    ],
+    "recommended": [
+      {
+        "lecture_id": "multivariable-calculus:042000",
+        "reason": "Transfer the discrete stability principle to Stokes flow."
+      }
+    ],
+    "background": [
+      "Piecewise linear hat functions, L2 norms, a derivative, and basic linear algebra; the worked interval pair is self-contained."
+    ],
+    "readiness_checks": [
+      "Exhibit the mean-zero pressure mode with nodal values (1,-1,1) and verify zero coupling.",
+      "Prove the replacement P1-zero-boundary/P0-mean-zero pair has beta_h=1 on any interval partition."
+    ]
+  }
+}

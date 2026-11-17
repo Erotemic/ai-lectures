@@ -1,6 +1,6 @@
 # Multivariable Calculus from First Principles
 
-A calculation-first and proof-aware bridge from single-variable calculus and basic linear algebra to smooth manifolds, PDEs, optimization and vector calculus. The three existing consolidated manuscripts give the guided survey. Five depth routes, each with four lectures, develop Taylor/Newton theory, nonlinear least squares/inverse problems, constrained Newton/KKT sensitivity, variational weak formulations, and nonlinear existence via weak compactness, with worked proofs and examples.
+A calculation-first and proof-aware bridge from single-variable calculus and basic linear algebra to smooth manifolds, PDEs, optimization and vector calculus. The three existing consolidated manuscripts give the guided survey. Six depth routes, each with four lectures, develop Taylor/Newton theory, nonlinear least squares/inverse problems, constrained Newton/KKT sensitivity, variational weak formulations, nonlinear existence via weak compactness, and mixed finite elements with inf–sup stability, with worked proofs and examples.
 
 ## Listening routes
 
@@ -10,6 +10,7 @@ A calculation-first and proof-aware bridge from single-variable calculus and bas
 - **Constrained Newton and Implicit Sensitivity** (`multivariable-calculus:constrained-newton-sensitivity-bridge`): `027000`, `028000`, `029000`, `030000`; derives tangent and critical-cone geometry, KKT Newton block systems, and differentiated optimality conditions.
 - **Variational Methods and Weak PDEs** (`multivariable-calculus:variational-weak-formulations-bridge`): `031000`, `032000`, `033000`, `034000`; first and second variations, boundary terms, energy-space existence, and finite-element assembly with a checked error proof.
 - **Weak Compactness and Nonlinear Existence** (`multivariable-calculus:variational-compactness-direct-method-bridge`): `035000`–`038000`; weak limits, Sobolev compactness, nonlinear direct-method existence and a solved obstacle free boundary.
+- **Mixed Finite Elements and Inf–Sup Stability** (`multivariable-calculus:mixed-inf-sup-stability-bridge`): `039000`–`042000`; mixed flux/temperature variables, saddle-point stability, compatible discrete spaces and Stokes block solvers.
 - **Full source sequence** (`multivariable-calculus:main`): all indexed manuscripts in `track.json` order.
 
 The optional `navigation.json` separates introductory listening from depth; it does not replace the full source inventory or imply any proof prerequisites by itself. These are declared separately in each new lecture's `metadata/` sidecar.
@@ -45,8 +46,13 @@ Durations below are descriptive measurements of spoken text at 145 words per min
 | `037000` | [The Direct Method: Proving a Nonlinear Minimizer Exists](037000-direct-method-nonlinear-minimizers.md) | 16.3 | Variational compactness and nonlinear existence bridge |
 | `038000` | [Obstacle Problems: From Energy Minima to Variational Inequalities](038000-obstacle-problems-variational-inequalities.md) | 15.9 | Variational compactness and nonlinear existence bridge |
 
+| `039000` | [Mixed Variational Formulations: When One Unknown Is Not Enough](039000-mixed-formulations-fluxes-and-constraints.md) | 12.4 | Mixed FEM and inf–sup stability bridge |
+| `040000` | [Saddle-Point Stability: What the Inf–Sup Condition Measures](040000-saddle-point-stability-and-inf-sup.md) | 12.6 | Mixed FEM and inf–sup stability bridge |
+| `041000` | [Discrete Inf–Sup: A Two-Cell Failure and a Compatible Repair](041000-discrete-inf-sup-and-compatible-elements.md) | 13.0 | Mixed FEM and inf–sup stability bridge |
+| `042000` | [Stokes Flow and Mixed Solvers: Pressure, Blocks, and Reliable Refinement](042000-stokes-block-solvers-and-pressure-stability.md) | 14.4 | Mixed FEM and inf–sup stability bridge |
+
 ## Editorial boundaries and evidence
 
-The old combined `001000`, `008000`, and `015000` manuscripts remain unchanged, including their inherited mathematical companions and consolidation provenance. The extensions add quantitative material beyond the original Hessian survey: integral remainder estimates, strong-convexity bounds, Newton convergence, least-squares model geometry, damping safeguards, singular-value sensitivity, structured inverse-problem assumptions, equality and inequality constrained geometry, saddle-point Newton solves, implicit/adjoint sensitivity, weak PDE/finite-element methods, weak compactness, nonlinear variational existence, and obstacle variational inequalities. Worked examples, derivations and exercises appear in each non-spoken mathematical companion.
+The old combined `001000`, `008000`, and `015000` manuscripts remain unchanged, including their inherited mathematical companions and consolidation provenance. The extensions add quantitative material beyond the original Hessian survey: integral remainder estimates, strong-convexity bounds, Newton convergence, least-squares model geometry, damping safeguards, singular-value sensitivity, structured inverse-problem assumptions, equality and inequality constrained geometry, saddle-point Newton solves, implicit/adjoint sensitivity, weak PDE/finite-element methods, weak compactness, nonlinear variational existence, obstacle variational inequalities, mixed flux methods, discrete inf–sup stability, and Stokes block solvers. Worked examples, derivations and exercises appear in each non-spoken mathematical companion.
 
 `track.json` is the authoritative inventory. Source records live in `metadata/sources.json`; per-lecture citation links, original authorship and teaching prerequisites live in `metadata/*.json`; authorship lineage and editorial changes live in `provenance.yaml`. Consult [`LECTURE_STYLE_RULES.md`](../../LECTURE_STYLE_RULES.md) before further authoring. No runtime pack build or audio synthesis is required for content handoff.

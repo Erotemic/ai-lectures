@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "lecture_id": "039000",
+  "transcript": "039000-mixed-formulations-fluxes-and-constraints.md",
+  "related_resources": [
+    {
+      "source_id": "mv-boffi-brezzi-fortin-2013",
+      "reason": "Mixed Poisson variational formulation and H(div) flux spaces."
+    },
+    {
+      "source_id": "mv-dolfinx-mixed-poisson",
+      "reason": "Computational example of two-field Poisson with mixed/discontinuous elements."
+    },
+    {
+      "source_id": "mv-arnold-falk-winther-2010",
+      "reason": "Compatible differential spaces and flux conservation."
+    },
+    {
+      "source_id": "mv-wiki-mixed-fem",
+      "reason": "Introduction to mixed finite-element terminology."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-17",
+    "scope": "New standalone narration and exact mathematical companions on mixed variational systems, inf–sup stability, compatible finite elements, and Stokes preconditioning; previous manuscripts unchanged."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "multivariable-calculus:033000",
+        "reason": "Weak Poisson formulation and integration by parts."
+      },
+      {
+        "lecture_id": "multivariable-calculus:034000",
+        "reason": "Primal finite-element approximation and Galerkin testing."
+      }
+    ],
+    "recommended": [
+      {
+        "lecture_id": "multivariable-calculus:040000",
+        "reason": "Understand algebraic stability of the newly introduced block system."
+      },
+      {
+        "lecture_id": "differential-equations:010000",
+        "reason": "Review the differential-equations presentation of weak PDEs."
+      }
+    ],
+    "background": [
+      "Integration by parts, the Poisson equation, elementary finite elements, and vector divergence; H(div) is introduced in the narration."
+    ],
+    "readiness_checks": [
+      "Explain why the mixed scalar potential can be in L2 even when the primal potential belongs to H1.",
+      "Compute the exact two-cell flux and cell-average temperatures and check both weak equations."
+    ]
+  }
+}

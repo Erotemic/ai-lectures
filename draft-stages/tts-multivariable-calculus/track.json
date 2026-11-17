@@ -1,7 +1,7 @@
 {
   "id": "multivariable-calculus",
   "title": "Multivariable Calculus from First Principles",
-  "summary": "A calculation-first and proof-aware bridge from single-variable calculus and linear algebra to geometry, optimization, and variational PDEs. Depth routes develop Taylor and Newton theory, nonlinear least squares, KKT sensitivity, weak formulations, Sobolev compactness and nonlinear existence.",
+  "summary": "A calculation-first and proof-aware bridge from single-variable calculus and linear algebra to geometry, optimization, and variational PDEs. Depth routes develop Taylor and Newton theory, nonlinear least squares, KKT sensitivity, weak formulations, nonlinear existence and stable mixed finite elements.",
   "assumed_background": [
     "single-variable limits, differentiation and integration (Analysis 001000–008000)",
     "elementary vectors, matrices, determinants and dot products (Linear Algebra 001000–006000, 008000)"
@@ -17,7 +17,8 @@
     "nonlinear-least-squares-bridge",
     "constrained-newton-sensitivity-bridge",
     "variational-weak-formulations-bridge",
-    "variational-compactness-direct-method-bridge"
+    "variational-compactness-direct-method-bridge",
+    "mixed-inf-sup-stability-bridge"
   ],
   "lectures": [
     {
@@ -393,6 +394,70 @@
         "Contact mechanics",
         "Free boundaries",
         "Convex constraints"
+      ]
+    },
+    {
+      "id": "039000",
+      "title": "Mixed Variational Formulations: When One Unknown Is Not Enough",
+      "section": "mixed-inf-sup-stability-bridge",
+      "file": "039000-mixed-formulations-fluxes-and-constraints.md",
+      "spoken_words": 1798,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 12.4,
+      "tags": [
+        "Mixed variational formulations",
+        "Flux conservation",
+        "H(div)",
+        "Poisson equation",
+        "Boundary conditions"
+      ]
+    },
+    {
+      "id": "040000",
+      "title": "Saddle-Point Stability: What the Inf–Sup Condition Measures",
+      "section": "mixed-inf-sup-stability-bridge",
+      "file": "040000-saddle-point-stability-and-inf-sup.md",
+      "spoken_words": 1825,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 12.6,
+      "tags": [
+        "Inf-sup condition",
+        "Saddle-point system",
+        "Babuška–Brezzi theorem",
+        "Schur complement",
+        "Kernel coercivity"
+      ]
+    },
+    {
+      "id": "041000",
+      "title": "Discrete Inf–Sup: A Two-Cell Failure and a Compatible Repair",
+      "section": "mixed-inf-sup-stability-bridge",
+      "file": "041000-discrete-inf-sup-and-compatible-elements.md",
+      "spoken_words": 1887,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 13.0,
+      "tags": [
+        "Discrete inf-sup",
+        "Spurious pressure modes",
+        "Raviart–Thomas elements",
+        "Fortin operator",
+        "Compatible spaces"
+      ]
+    },
+    {
+      "id": "042000",
+      "title": "Stokes Flow and Mixed Solvers: Pressure, Blocks, and Reliable Refinement",
+      "section": "mixed-inf-sup-stability-bridge",
+      "file": "042000-stokes-block-solvers-and-pressure-stability.md",
+      "spoken_words": 2084,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 14.4,
+      "tags": [
+        "Stokes equations",
+        "Taylor–Hood",
+        "Block preconditioning",
+        "Pressure robustness",
+        "Mixed error estimates"
       ]
     }
   ],

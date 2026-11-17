@@ -525,6 +525,62 @@
       "url": "https://en.wikipedia.org/wiki/Variational_inequality",
       "access": "free_no_login",
       "notes": "Abstract first-order inequality on a convex feasible set."
+    },
+    "mv-brezzi-fortin-1991": {
+      "title": "Franco Brezzi and Michel Fortin, Mixed and Hybrid Finite Element Methods (1991)",
+      "kind": "research_monograph",
+      "url": "https://link.springer.com/book/10.1007/978-1-4612-3172-1",
+      "access": "book_preview",
+      "notes": "Saddle-point problems, inf–sup conditions, compatible finite elements and mixed PDEs."
+    },
+    "mv-boffi-brezzi-fortin-2013": {
+      "title": "Daniele Boffi, Franco Brezzi and Michel Fortin, Mixed Finite Element Methods and Applications (2013)",
+      "kind": "research_monograph",
+      "url": "https://link.springer.com/book/10.1007/978-3-642-36519-5",
+      "access": "book_preview",
+      "notes": "H(div) mixed formulations, stability theorems, Stokes and Darcy problems."
+    },
+    "mv-arnold-falk-winther-2010": {
+      "title": "Douglas Arnold, Richard Falk and Ragnar Winther, Finite element exterior calculus: From Hodge theory to numerical stability (2010)",
+      "kind": "scholarly_article",
+      "url": "https://doi.org/10.1090/S0273-0979-10-01278-4",
+      "access": "free_no_login",
+      "notes": "Compatible finite element complexes and commuting mappings."
+    },
+    "mv-dolfinx-mixed-poisson": {
+      "title": "FEniCS/DOLFINx documentation: Mixed formulation of the Poisson equation with a block preconditioner",
+      "kind": "software_documentation",
+      "url": "https://docs.fenicsproject.org/dolfinx/main/python/demos/demo_mixed-poisson.html",
+      "access": "free_no_login",
+      "notes": "Working mixed Poisson flux/potential finite elements, normal flux boundary data and block solvers; uses an opposite sign convention for flux from this lecture."
+    },
+    "mv-dolfinx-stokes": {
+      "title": "FEniCS/DOLFINx documentation: Stokes equations using Taylor–Hood elements",
+      "kind": "software_documentation",
+      "url": "https://docs.fenicsproject.org/dolfinx/main/python/demos/demo_stokes.html",
+      "access": "free_no_login",
+      "notes": "Worked Stokes assembly, block preconditioning, MINRES and pressure nullspace handling."
+    },
+    "mv-wiki-mixed-fem": {
+      "title": "Wikipedia: Mixed finite element method",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Mixed_finite_element_method",
+      "access": "free_no_login",
+      "notes": "General mixed finite-element definitions and examples."
+    },
+    "mv-wiki-lbb": {
+      "title": "Wikipedia: Ladyzhenskaya–Babuška–Brezzi condition",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Ladyzhenskaya%E2%80%93Babu%C5%A1ka%E2%80%93Brezzi_condition",
+      "access": "free_no_login",
+      "notes": "Inf–sup terminology, formulation and well-posed saddle-point problems."
+    },
+    "mv-wiki-uzawa": {
+      "title": "Wikipedia: Uzawa iteration",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Uzawa_iteration",
+      "access": "free_no_login",
+      "notes": "Schur complement reductions and multiplier iteration."
     }
   }
 }
