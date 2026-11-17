@@ -370,3 +370,28 @@ identified. These appear in Early Modern and Compact Introduction routes.
 **The literature-survey pack now contains 140 indexed lectures.** No audio
 or binary assets are included. Narration durations in `track.json` are
 computed descriptively from manuscripts, not used as targets.
+
+## Middle English and Persian/English poetry rotation (17 November 2026)
+
+**Four original standalone manuscripts (`143000`–`146000`):** one complete story
+and one interpretive lecture on *Sir Gawain and the Green Knight*, followed by
+a guided reading and literary-historical analysis of the *Rubáiyát*. Gawain's
+story moves through all four fitts, including the three hunts, bedroom visits,
+exchange game, Green Chapel reveal and Arthur's final response. Its analysis
+addresses the single manuscript, form, fivefold virtues, courtesy, religion,
+gender, and shame-versus-fellowship ending.
+
+Because independent Persian quatrains are **not a conventional narrative**,
+the *Rubáiyát* recording guides listeners through FitzGerald's **specific
+1859 English first-edition sequence**, from the summons at dawn through the
+potter's shop to the empty glass. The separate analysis distinguishes the
+historical mathematician Omar Khayyam, the disputed attributed Persian verses,
+and the much later Victorian English artistic adaptation and reception. This
+is not a silently merged translation, a fixed Persian original ordering, or
+a fictional chapter-by-chapter plot. Source boundaries, Wikipedia orientation,
+and exact paragraph-level claim anchors are in the companion notes and
+`metadata/143000.json`–`metadata/146000.json`.
+
+The pack now contains **144 indexed lectures**. Audio times are calculated
+from the narration, not used as editing targets. No binary images or generated
+audio are present.

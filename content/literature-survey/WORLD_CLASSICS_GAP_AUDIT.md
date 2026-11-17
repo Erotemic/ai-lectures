@@ -211,3 +211,22 @@ ledger above is the current status, rather than the stale queue wording.
   duplicate coverage before selecting.
 
 **Current literature-survey index: 140 entries.**
+
+## Late medieval England and Persian poetry in English — completed (17 November 2026)
+
+- **Completed:** *Sir Gawain and the Green Knight*, `143000` story and `144000`
+  analysis, from a named public-domain prose rendering and scholarly records of
+  the unique Cotton Nero A X/2 poem. Full four-fitt narrative, including the
+  unspoken bargain of the girdle and competing readings of the ending.
+- **Completed:** *Rubáiyát*, `145000` guided reading and `146000` analysis.
+  Both are explicitly anchored to FitzGerald's **1859 first English edition**
+  of 75 quatrains and do not reconstruct a fictional fixed Persian source.
+  Attribution of quatrains to historical Khayyam remains contested; source
+  tradition and the Victorian transformation are both taught.
+- **Further high-value rotation, audit for duplicates first:** South Asian
+  narrative or dramatic works not already represented (e.g. *Gita Govinda*),
+  and a consequential American literary work from another century. Check the
+  broader library before commissioning more direct translations of copyrighted
+  twentieth-century fiction.
+
+**Current literature-survey index: 144 entries.**
