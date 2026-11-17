@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "lecture_id": "027000",
+  "transcript": "027000-nonnormal-matrices-resolvents-and-pseudospectra.md",
+  "related_resources": [
+    {
+      "source_id": "la-trefethen-embree-pseudo",
+      "reason": "Pseudospectra, resolvent amplification and transient nonnormal dynamics."
+    },
+    {
+      "source_id": "la-trefethen-bau",
+      "reason": "Backward error and eigenvalue perturbation."
+    },
+    {
+      "source_id": "la-higham-accuracy",
+      "reason": "Precision, residuals and data sensitivity."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-17",
+    "scope": "New original instructional manuscript for the structured-solvers and numerical-spectral bridge; inherited narration unchanged."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "linear-algebra:026000",
+        "reason": "Schur form and invariant-subspace distinction."
+      },
+      {
+        "lecture_id": "linear-algebra:023000",
+        "reason": "Singular values and numerical sensitivity."
+      },
+      {
+        "lecture_id": "linear-algebra:019000",
+        "reason": "Matrix exponentials and nilpotent evolution."
+      }
+    ],
+    "recommended": [
+      {
+        "lecture_id": "linear-algebra:018000",
+        "reason": "Contrast normal/oblique spectral projectors."
+      },
+      {
+        "lecture_id": "numerical-analysis:014000",
+        "reason": "Large-scale spectral computations and residual diagnostics."
+      }
+    ],
+    "background": [
+      "Complex matrix inverses, eigenvalues, the smallest singular value and norm estimates."
+    ],
+    "readiness_checks": [
+      "Can you compute the eigenvalues of a two-by-two triangular matrix?",
+      "Can you explain why a small eigenpair residual is not necessarily a small forward eigenvalue error?"
+    ]
+  }
+}

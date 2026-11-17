@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "lecture_id": "025000",
+  "transcript": "025000-conjugate-gradients-from-energy-to-algorithm.md",
+  "related_resources": [
+    {
+      "source_id": "la-saad-iterative",
+      "reason": "Krylov iteration, preconditioning and stopping criteria."
+    },
+    {
+      "source_id": "la-trefethen-bau",
+      "reason": "Conjugate-gradient variational and polynomial views."
+    },
+    {
+      "source_id": "la-demmel-applied",
+      "reason": "Conditioning and convergence context."
+    },
+    {
+      "source_id": "la-higham-accuracy",
+      "reason": "Floating-point caveats and stability."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-17",
+    "scope": "New original instructional manuscript for the structured-solvers and numerical-spectral bridge; inherited narration unchanged."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "linear-algebra:024000",
+        "reason": "Positive definite energy, direct Cholesky solve, sparse fill."
+      },
+      {
+        "lecture_id": "linear-algebra:022000",
+        "reason": "Residuals, forward error, backward error and conditioning."
+      }
+    ],
+    "recommended": [
+      {
+        "lecture_id": "numerical-analysis:010000",
+        "reason": "Independent overview of Jacobi, Gauss-Seidel and CG."
+      },
+      {
+        "lecture_id": "linear-algebra:021000",
+        "reason": "Orthogonalization ideas that motivate conjugate directions."
+      }
+    ],
+    "background": [
+      "Quadratic functions and derivatives, matrix-vector products, dot products and positive-definite matrices."
+    ],
+    "readiness_checks": [
+      "Can you explain why a positive-definite quadratic has a unique minimizer?",
+      "Can you compute an exact dot product and a matrix-vector product?"
+    ]
+  }
+}

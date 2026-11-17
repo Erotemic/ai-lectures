@@ -63,6 +63,34 @@
       "url": "https://doi.org/10.1137/1.9781611971446",
       "access": "publisher_or_institutional_access",
       "notes": "Numerical matrix factorization, least squares, conditioning, SVD and rank-revealing algorithms."
+    },
+    "la-higham-cholesky-blog": {
+      "title": "Nicholas J. Higham, What Is a Cholesky Factorization? (2020)",
+      "kind": "researcher_exposition",
+      "url": "https://nhigham.com/2020/08/11/what-is-a-cholesky-factorization/",
+      "access": "free_no_login",
+      "notes": "Proof by Schur complement, uniqueness, SPD construction, and solves."
+    },
+    "la-higham-cholesky-article": {
+      "title": "Nicholas J. Higham, Cholesky Factorization, MIMS preprint 2008 / WIREs Computational Statistics 1 (2009), 251-254",
+      "kind": "research_article",
+      "url": "https://eprints.maths.manchester.ac.uk/1199/",
+      "access": "free_no_login",
+      "notes": "Factorization algorithms, numerical stability, positive-semidefinite and pivoted variants."
+    },
+    "la-saad-iterative": {
+      "title": "Yousef Saad, Iterative Methods for Sparse Linear Systems, second edition, SIAM (2003)",
+      "kind": "scholarly_textbook",
+      "url": "https://www-users.cse.umn.edu/~saad/books.html",
+      "access": "author_hosted_book_and_publisher_access",
+      "notes": "Conjugate gradients, Krylov subspaces, preconditioning and sparse matrix solving."
+    },
+    "la-trefethen-embree-pseudo": {
+      "title": "Lloyd N. Trefethen and Mark Embree, Spectra and Pseudospectra: The Behavior of Nonnormal Matrices and Operators, Princeton University Press (2005)",
+      "kind": "scholarly_textbook",
+      "url": "https://press.princeton.edu/books/hardcover/9780691119465/spectra-and-pseudospectra",
+      "access": "publisher_preview_and_institutional_access",
+      "notes": "Resolvents, pseudospectral contours, sensitivity of nonnormal eigenvalues and transient dynamics."
     }
   }
 }

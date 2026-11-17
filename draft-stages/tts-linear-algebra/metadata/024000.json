@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "lecture_id": "024000",
+  "transcript": "024000-positive-definite-matrices-and-cholesky.md",
+  "related_resources": [
+    {
+      "source_id": "la-higham-cholesky-blog",
+      "reason": "Construction and positive-definite hypothesis."
+    },
+    {
+      "source_id": "la-higham-cholesky-article",
+      "reason": "Stability, breakdown and semidefinite variants."
+    },
+    {
+      "source_id": "la-trefethen-bau",
+      "reason": "Factorization complexity and numerical problem selection."
+    },
+    {
+      "source_id": "la-higham-accuracy",
+      "reason": "Finite-precision interpretation of positive pivots."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-17",
+    "scope": "New original instructional manuscript for the structured-solvers and numerical-spectral bridge; inherited narration unchanged."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "linear-algebra:001000",
+        "reason": "Matrix multiplication, elimination and triangular solves."
+      },
+      {
+        "lecture_id": "linear-algebra:006000",
+        "reason": "Symmetric matrices, inner products and eigenvalues."
+      },
+      {
+        "lecture_id": "linear-algebra:020000",
+        "reason": "Elimination and factors LU for comparison."
+      }
+    ],
+    "recommended": [
+      {
+        "lecture_id": "numerical-analysis:010000",
+        "reason": "Overview of iterative positive-definite solvers."
+      },
+      {
+        "lecture_id": "linear-algebra:025000",
+        "reason": "Constructs CG from the same quadratic energy."
+      }
+    ],
+    "background": [
+      "Symmetry, basic eigenvalues, matrix products, solving triangular systems, and squared Euclidean length."
+    ],
+    "readiness_checks": [
+      "Can you compute x transpose A x for a two-by-two symmetric matrix?",
+      "Can you perform forward and backward substitution?"
+    ]
+  }
+}

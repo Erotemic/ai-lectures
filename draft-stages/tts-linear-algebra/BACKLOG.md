@@ -1,6 +1,6 @@
 # Linear Algebra from First Principles — core gaps after the operator bridge
 
-**Current indexed inventory:** eleven manuscripts: three original consolidated foundations (`001000`, `006000`, `012000`), four exact operator bridges (`016000`–`019000`), and four numerical matrix bridges (`020000`–`023000`). The original 15 short chapters were consolidated into the first three manuscripts on 16 November 2026; the older 15-entry manifest is not a separate playable inventory.
+**Current indexed inventory:** fifteen manuscripts: three original consolidated foundations (`001000`, `006000`, `012000`), four exact operator bridges (`016000`–`019000`), six numerical matrix bridges (`020000`–`025000`), and two numerical spectral bridges (`026000`–`027000`). The original 15 short chapters were consolidated into the first three manuscripts on 16 November 2026; the older 15-entry manifest is not a separate playable inventory.
 
 ## Newly completed (17 November 2026)
 
@@ -21,13 +21,22 @@ These close the previously recorded gap between elementary eigenvector calculati
 The original `linear-algebra:survey` and `linear-algebra:operator-bridge` remain unchanged. New listening route: `linear-algebra:numerical-matrix-bridge`. The numerical-analysis pack keeps its own introductory material; the new work develops constructions and proofs rather than duplicating the overview.
 
 
+## Newly completed structure and spectral bridge (17 November 2026)
+
+- **024000** — Positive-definite quadratic forms, constructive Cholesky, Sylvester's criterion, explicit solve, breakdown and sparse fill.
+- **025000** — Conjugate-gradient recurrence, an exact two-step solve, Krylov minimization, polynomial convergence and preconditioning.
+- **026000** — Unitary Schur form, invariant Schur subspaces, orthogonal versus commuting spectral projections, and exact QR iteration.
+- **027000** — Nonnormal eigenvalue sensitivity, rank-one perturbations, resolvents, pseudospectra and transient amplification.
+
+The existing numerical-analysis iteration overview is preserved; the new solver sequence derives the underlying algebra and carries out concrete iterations. The independent `linear-algebra:spectral-computation-bridge` route preserves the foundation and exact-operator listening routes.
+
 ## Highest-priority gaps for further basic-to-advanced bridges
 
-1. **Cholesky and structure-aware solvers:** positive definite matrices, Cholesky construction and breakdown criteria, sparse fill, and the link to conjugate gradients; distinguish exact positivity from floating-point checks.
-2. **Invariant subspaces and numerical spectral computation:** Schur decomposition, orthogonal projections versus oblique spectral projectors, pseudospectra and nonnormality; do not present computed Jordan normal forms as numerically stable.
-3. **Exterior powers and Jacobians:** orientation, signed volume, differential determinants, and geometric applications, aligned with multivariable calculus and topology.
-4. **Real canonical structures:** irreducible quadratic factors, real invariant planes, quadratic form signatures, symplectic matrices, and characteristic-sensitive caveats over finite fields.
-5. **Infinite-dimensional boundaries:** compact versus bounded operators, continuous spectrum, unbounded domains, and Borel calculus. These require coordination with `analysis:046000`, `analysis:065000` and the G2 foundations, not silent extension of finite-dimensional arguments.
+1. **Large sparse eigenvalue solvers:** Arnoldi/Lanczos constructions, Ritz pairs, residual bounds, restarted Krylov methods and what numerical orthogonality loss changes. Coordinate with `numerical-analysis:014000` without duplicating its overview.
+2. **Exterior powers and Jacobians:** orientation, signed volume, differential determinants, and geometric applications, aligned with multivariable calculus and topology.
+3. **Real canonical structures:** irreducible quadratic factors, real invariant planes, quadratic form signatures, symplectic matrices, and characteristic-sensitive caveats over finite fields.
+4. **Infinite-dimensional boundaries:** compact versus bounded operators, continuous spectrum, unbounded domains, and Borel calculus. Coordinate with advanced Analysis/operator tracks; do not silently extend finite-dimensional formulas.
+5. **Structure-aware optimization and inverse problems:** SPD versus semidefinite Hessians, Gauss–Newton and Levenberg–Marquardt, matrix-free derivatives and trustworthy stopping criteria. Audit optimization tracks first.
 
 Further curriculum-wide bridge priorities (in other independent packs) include proof repair exercises, detailed multivariable Taylor/Newton error estimates, and probability/statistical decision theory from finite examples. Audit existing consolidated manuscripts before proposing a duplicate.
 

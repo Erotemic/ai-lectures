@@ -1,7 +1,7 @@
 {
   "id": "linear-algebra",
   "title": "Linear Algebra from First Principles",
-  "summary": "A calculation-first and proof-driven course from linear systems and vector spaces through exact spectral algebra, matrix exponentials and reliable matrix algorithms. Bridge routes treat pivoted LU, QR, conditioning, numerical rank and the pseudoinverse as preparation for scientific computation and advanced operator theory.",
+  "summary": "A calculation-first and proof-driven course from linear systems through exact operator structure, stable numerical factorization, positive-definite iterative methods, Schur decomposition and nonnormal spectral sensitivity. Deep-dive routes connect elementary matrix calculations to scientific computing and advanced spectral theory.",
   "assumed_background": [
     "arithmetic and solving elementary algebraic equations; no prior linear algebra is assumed"
   ],
@@ -17,7 +17,9 @@
     "matrix-evolution",
     "numerical-factorization",
     "numerical-conditioning",
-    "numerical-rank"
+    "numerical-rank",
+    "positive-definite-solvers",
+    "numerical-spectral-theory"
   ],
   "lectures": [
     {
@@ -212,6 +214,70 @@
         "Least squares",
         "Regularization",
         "Inverse problems"
+      ]
+    },
+    {
+      "id": "024000",
+      "title": "Positive-Definite Matrices: Why Cholesky Works and When It Fails",
+      "section": "positive-definite-solvers",
+      "file": "024000-positive-definite-matrices-and-cholesky.md",
+      "spoken_words": 1811,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 12.5,
+      "tags": [
+        "Positive-definite matrices",
+        "Cholesky decomposition",
+        "Quadratic forms",
+        "Schur complement",
+        "Sparse matrix methods"
+      ]
+    },
+    {
+      "id": "025000",
+      "title": "Conjugate Gradients: From a Quadratic Energy to a Working Algorithm",
+      "section": "positive-definite-solvers",
+      "file": "025000-conjugate-gradients-from-energy-to-algorithm.md",
+      "spoken_words": 1987,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 13.7,
+      "tags": [
+        "Conjugate gradient method",
+        "Krylov subspaces",
+        "Quadratic optimization",
+        "Preconditioning",
+        "Sparse linear systems"
+      ]
+    },
+    {
+      "id": "026000",
+      "title": "From Eigenvectors to Schur Form: Orthogonal Similarity and the QR Algorithm",
+      "section": "numerical-spectral-theory",
+      "file": "026000-schur-form-and-qr-eigenvalue-iteration.md",
+      "spoken_words": 1963,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 13.5,
+      "tags": [
+        "Schur decomposition",
+        "QR algorithm",
+        "Invariant subspaces",
+        "Eigenvalue computation",
+        "Orthogonal similarity"
+      ]
+    },
+    {
+      "id": "027000",
+      "title": "Beyond Eigenvalue Lists: Nonnormality, Resolvents, and Pseudospectra",
+      "section": "numerical-spectral-theory",
+      "file": "027000-nonnormal-matrices-resolvents-and-pseudospectra.md",
+      "spoken_words": 2128,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 14.7,
+      "tags": [
+        "Pseudospectra",
+        "Nonnormal matrices",
+        "Resolvent",
+        "Eigenvalue sensitivity",
+        "Transient growth"
       ]
     }
   ],

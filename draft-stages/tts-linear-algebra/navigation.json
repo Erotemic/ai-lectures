@@ -5,7 +5,7 @@
       "id": "survey",
       "title": "Linear Algebra · Foundations",
       "role": "main",
-      "summary": "Elimination and bases; determinants, orthogonality and eigenvectors; dual spaces. Choose the finite-dimensional operator or numerical matrix bridge as a next step.",
+      "summary": "Elimination and bases; determinants, orthogonality and eigenvectors; dual spaces. Continue with exact operators, numerical matrix algorithms, or spectral computation.",
       "lectures": [
         "001000",
         "006000",
@@ -13,7 +13,8 @@
       ],
       "related_collections": [
         "operator-bridge",
-        "numerical-matrix-bridge"
+        "numerical-matrix-bridge",
+        "spectral-computation-bridge"
       ],
       "tags": [
         "Linear algebra",
@@ -51,28 +52,62 @@
       "title": "Numerical Matrix Algorithms · From Elimination to Reliable Recovery",
       "role": "deep_dive",
       "parent": "survey",
-      "summary": "A constructive route through pivoted LU and rank, stable orthogonal QR and least squares, residual/conditioning bounds, and rank-aware pseudoinverse methods.",
+      "summary": "Construct pivoted LU, Householder QR, condition/error bounds and numerical rank, then exploit positive definiteness for Cholesky and conjugate gradients.",
       "lectures": [
         "020000",
         "021000",
         "022000",
-        "023000"
+        "023000",
+        "024000",
+        "025000"
       ],
       "preparation_collections": [
         "linear-algebra:survey"
       ],
       "related_collections": [
-        "operator-bridge"
+        "operator-bridge",
+        "spectral-computation-bridge"
       ],
       "tags": [
         "Numerical linear algebra",
         "Matrix factorization",
         "Conditioning",
         "Least squares",
-        "Inverse problems"
+        "Inverse problems",
+        "Positive-definite matrices",
+        "Conjugate gradient method"
       ],
       "assumed_background": [
-        "Basic elimination, matrix multiplication, vector length, inner products and the idea of least squares. Ordinary eigenvectors and singular values help with the final lecture."
+        "Basic elimination, matrix multiplication, vector length, inner products and least squares. Eigenvalues, singular values and quadratic derivatives support the later lectures."
+      ]
+    },
+    {
+      "id": "spectral-computation-bridge",
+      "title": "Numerical Spectral Theory · From Schur Form to Pseudospectra",
+      "role": "deep_dive",
+      "parent": "survey",
+      "summary": "Unitary Schur triangularization, the QR eigenvalue iteration, invariant-subspace projectors, and sensitivity of nonnormal eigenvalues via resolvents and pseudospectra.",
+      "lectures": [
+        "026000",
+        "027000"
+      ],
+      "preparation_collections": [
+        "linear-algebra:operator-bridge",
+        "linear-algebra:numerical-matrix-bridge"
+      ],
+      "related_collections": [
+        "operator-bridge",
+        "numerical-matrix-bridge"
+      ],
+      "tags": [
+        "Schur decomposition",
+        "Eigenvalue computation",
+        "Invariant subspaces",
+        "Pseudospectra",
+        "Nonnormal matrices"
+      ],
+      "assumed_background": [
+        "Eigenvalues, matrix similarity, orthonormal bases, QR, singular values and matrix exponentials."
       ]
     }
   ]

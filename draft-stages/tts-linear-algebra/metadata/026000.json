@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "lecture_id": "026000",
+  "transcript": "026000-schur-form-and-qr-eigenvalue-iteration.md",
+  "related_resources": [
+    {
+      "source_id": "la-trefethen-bau",
+      "reason": "Schur triangularization, Hessenberg form and QR eigenvalue iteration."
+    },
+    {
+      "source_id": "la-demmel-applied",
+      "reason": "Numerical spectral decomposition and sensitivity."
+    },
+    {
+      "source_id": "la-axler-fourth",
+      "reason": "Normal operators, invariant subspaces and inner-product arguments."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-17",
+    "scope": "New original instructional manuscript for the structured-solvers and numerical-spectral bridge; inherited narration unchanged."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "linear-algebra:006000",
+        "reason": "Eigenvalues, orthogonality and eigenvectors."
+      },
+      {
+        "lecture_id": "linear-algebra:021000",
+        "reason": "QR factorization and orthogonal transformations."
+      },
+      {
+        "lecture_id": "linear-algebra:018000",
+        "reason": "Spectral projectors and invariant subspaces for comparison."
+      }
+    ],
+    "recommended": [
+      {
+        "lecture_id": "linear-algebra:017000",
+        "reason": "Why exact Jordan blocks are unstable to determine."
+      },
+      {
+        "lecture_id": "linear-algebra:027000",
+        "reason": "Sensitivity and nonnormality beyond Schur form."
+      }
+    ],
+    "background": [
+      "Finite-dimensional complex eigenvalues, orthonormal bases, QR factorization and matrix similarity."
+    ],
+    "readiness_checks": [
+      "Can you distinguish an eigenvector from an invariant subspace?",
+      "Can you verify a two-by-two orthogonal matrix preserves dot products?"
+    ]
+  }
+}
