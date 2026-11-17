@@ -32,6 +32,14 @@ transcript:
       source_records: metadata/sources.json
       per_lecture_metadata: metadata/019000.json through metadata/022000.json
     scope: Add four original audio-first mathematical deep dives and exact companions on Taylor remainders, curvature, Newton construction and local convergence. Retain existing consolidated narration and attribution untouched.
+  - date: '2026-11-17'
+    models:
+    - GPT-6
+    sources:
+    - manuscripts: '023000–026000'
+      source_records: metadata/sources.json
+      per_lecture_metadata: metadata/023000.json through metadata/026000.json
+    scope: Add original standalone narration and mathematical companions on nonlinear least squares, Gauss–Newton, trust-region damping, identifiability, regularization, and robust inverse problems. Retain all inherited manuscripts unchanged.
 learning_map:
   revisions:
   - date: '2026-11-16'
@@ -62,3 +70,14 @@ learning_map:
     - metadata/021000.json
     - metadata/022000.json
     scope: Extend the pack inventory, reading records and a curated learning route, retaining the survey entry route and the full source sequence.
+  - date: '2026-11-17'
+    models:
+    - GPT-6
+    sources:
+    - track.json
+    - navigation.json
+    - metadata/023000.json
+    - metadata/024000.json
+    - metadata/025000.json
+    - metadata/026000.json
+    scope: Register the nonlinear-least-squares deep-dive route with scoped prerequisites, bibliography and reading diagnostics; keep existing survey and Newton routes stable.

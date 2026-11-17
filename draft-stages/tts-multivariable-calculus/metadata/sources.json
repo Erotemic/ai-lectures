@@ -217,6 +217,76 @@
       "url": "https://en.wikipedia.org/wiki/Backtracking_line_search",
       "access": "free_no_login",
       "notes": "Armijo conditions and step-size safeguards."
+    },
+    "mv-madsen-nonlinear": {
+      "title": "K. Madsen, H. B. Nielsen, and O. Tingleff, Methods for Non-Linear Least Squares Problems, 2nd edition (DTU, 2004)",
+      "kind": "university_course",
+      "url": "https://www2.imm.dtu.dk/pubdb/edoc/imm3215.pdf",
+      "access": "free_no_login",
+      "notes": "Sections 3.1–3.2: Gauss–Newton, Levenberg–Marquardt, and relevant trust-region principles."
+    },
+    "mv-scipy-lsq": {
+      "title": "SciPy Documentation: scipy.optimize.least_squares",
+      "kind": "technical_documentation",
+      "url": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.least_squares.html",
+      "access": "free_no_login",
+      "notes": "Current solver assumptions, robust losses, bounds, scaling, residual Jacobians and termination criteria; conceptual exposition not tied to a particular SciPy version."
+    },
+    "mv-scipy-curve": {
+      "title": "SciPy Documentation: scipy.optimize.curve_fit",
+      "kind": "technical_documentation",
+      "url": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.curve_fit.html",
+      "access": "free_no_login",
+      "notes": "Covariance approximations, parameter scaling, and identifiable nonlinear regression."
+    },
+    "mv-wiki-gauss-newton": {
+      "title": "Wikipedia: Gauss–Newton algorithm",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Gauss%E2%80%93Newton_algorithm",
+      "access": "free_no_login",
+      "notes": "Orientation on local linearized least squares and normal equations."
+    },
+    "mv-wiki-lm": {
+      "title": "Wikipedia: Levenberg–Marquardt algorithm",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Levenberg%E2%80%93Marquardt_algorithm",
+      "access": "free_no_login",
+      "notes": "Terminology for damped Gauss–Newton equations."
+    },
+    "mv-wiki-identifiability": {
+      "title": "Wikipedia: Identifiability",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Identifiability",
+      "access": "free_no_login",
+      "notes": "Definitions of identifiability; consult the lecture for important local and global distinctions."
+    },
+    "mv-wiki-svd": {
+      "title": "Wikipedia: Singular value decomposition",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Singular_value_decomposition",
+      "access": "free_no_login",
+      "notes": "Singular directions, Moore–Penrose pseudoinverse and numerical rank."
+    },
+    "mv-nist-regularization": {
+      "title": "B. W. Rust and D. P. O’Leary, Residual periodograms for choosing regularization parameters for ill-posed problems, Inverse Problems 24 (2008) 034005",
+      "kind": "research_article",
+      "url": "https://math.nist.gov/~BRust/pubs/Unfolding/InvProbs2008.pdf",
+      "access": "free_no_login",
+      "notes": "Singular-value filtering, Tikhonov families and regularization choices for inverse problems."
+    },
+    "mv-wiki-tikhonov": {
+      "title": "Wikipedia: Tikhonov regularization",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Tikhonov_regularization",
+      "access": "free_no_login",
+      "notes": "Introductory reference for quadratic inverse-problem stabilization."
+    },
+    "mv-wiki-huber": {
+      "title": "Wikipedia: Huber loss",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Huber_loss",
+      "access": "free_no_login",
+      "notes": "Definition and interpretation of Huber robust loss."
     }
   }
 }

@@ -4,9 +4,11 @@
 
 **New depth path (2026-11-17):** `019000`–`022000` expand Taylor bounds, strong convexity and conditioning, exact Newton steps, and local quadratic-convergence proofs. The material is intentionally more detailed than the short introduction in `008000` and the optimization/numerical-analysis surveys.
 
+**New nonlinear least-squares bridge (2026-11-17):** `023000`–`026000` derive Gauss–Newton, Levenberg–Marquardt and trust-region step acceptance, distinguish structural from numerical identifiability, and develop Gaussian weighting, regularization and robust losses.
+
 ## Further bridge candidates, subject to a fresh cross-pack coverage audit
 
-- Nonlinear least squares: residual Jacobians, Gauss–Newton, Levenberg–Marquardt, rank deficiency and conditioning; coordinate with the numerical-analysis and optimization packs.
+- Further nonlinear inverse-problem theory: parameter constraints and projected steps, adjoint-state sensitivity for expensive forward models, optimal experimental design, and uncertainty beyond a local Gaussian approximation; coordinate with Numerical Analysis and Optimization.
 - Constrained Newton and implicit-function sensitivity: block Jacobians, KKT systems, constraint qualifications, and regularization; coordinate with Optimization and Differential Geometry before writing.
 - Calculus of variations: directional derivatives of functionals, Euler–Lagrange, weak formulations and finite-dimensional discretization; inspect Differential Equations and Topology/Geometry first.
 - Multivariable integration over less regular domains: approximation and boundary convergence, only where Analysis and Measure Theory have gaps.

@@ -1,7 +1,7 @@
 {
   "id": "multivariable-calculus",
   "title": "Multivariable Calculus from First Principles",
-  "summary": "A calculation-first and proof-aware bridge from single-variable calculus and basic linear algebra to smooth manifolds, PDEs, optimization, and vector calculus. Develops limits in several variables, total differentiation, Jacobians, Hessians, constrained extrema, multiple integrals, change of variables, curves, surfaces and boundary theorems. New extended studies derive Taylor remainder bounds, strong-convexity estimates and Newton convergence proofs.",
+  "summary": "A calculation-first and proof-aware bridge from single-variable calculus and basic linear algebra to smooth manifolds, PDEs, optimization, and vector calculus. Extended studies derive Taylor bounds and Newton convergence, then develop nonlinear least squares, Gauss–Newton, damping, identifiability, regularization and robust inference.",
   "assumed_background": [
     "single-variable limits, differentiation and integration (Analysis 001000–008000)",
     "elementary vectors, matrices, determinants and dot products (Linear Algebra 001000–006000, 008000)"
@@ -13,7 +13,8 @@
     "001000-points-vectors-and-nearness-in-several-dimensions",
     "008000-hessians-and-taylor-s-formula-the-shape-beyond-the-tangent-plane",
     "015000-curves-and-line-integrals-measuring-along-a-path",
-    "taylor-newton-bridge"
+    "taylor-newton-bridge",
+    "nonlinear-least-squares-bridge"
   ],
   "lectures": [
     {
@@ -144,6 +145,66 @@
         "Convergence theory",
         "Line search",
         "Inexact Newton"
+      ]
+    },
+    {
+      "id": "023000",
+      "title": "Nonlinear Least Squares: Residual Geometry and Gauss–Newton",
+      "section": "nonlinear-least-squares-bridge",
+      "file": "023000-nonlinear-least-squares-and-gauss-newton.md",
+      "spoken_words": 2049,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 14.1,
+      "tags": [
+        "Nonlinear least squares",
+        "Gauss–Newton",
+        "Jacobian",
+        "Optimization"
+      ]
+    },
+    {
+      "id": "024000",
+      "title": "How Far Should We Trust a Fit? Damping and Levenberg–Marquardt",
+      "section": "nonlinear-least-squares-bridge",
+      "file": "024000-levenberg-marquardt-and-trust-regions.md",
+      "spoken_words": 2106,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 14.5,
+      "tags": [
+        "Levenberg–Marquardt",
+        "Trust regions",
+        "Nonlinear least squares",
+        "Damping"
+      ]
+    },
+    {
+      "id": "025000",
+      "title": "Can the Data Determine the Parameters? Identifiability and Singular Values",
+      "section": "nonlinear-least-squares-bridge",
+      "file": "025000-identifiability-singular-values-and-uncertainty.md",
+      "spoken_words": 2057,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 14.2,
+      "tags": [
+        "Identifiability",
+        "Singular values",
+        "Inverse problems",
+        "Parameter uncertainty"
+      ]
+    },
+    {
+      "id": "026000",
+      "title": "Inverse Problems: Regularization, Robust Fits, and Responsible Conclusions",
+      "section": "nonlinear-least-squares-bridge",
+      "file": "026000-regularization-robust-fitting-and-inverse-problems.md",
+      "spoken_words": 2400,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 16.6,
+      "tags": [
+        "Regularization",
+        "Robust fitting",
+        "Inverse problems",
+        "Weighted least squares"
       ]
     }
   ],

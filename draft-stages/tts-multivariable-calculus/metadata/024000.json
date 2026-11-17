@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "lecture_id": "024000",
+  "transcript": "024000-levenberg-marquardt-and-trust-regions.md",
+  "related_resources": [
+    {
+      "source_id": "mv-madsen-nonlinear",
+      "reason": "Trust-region and Levenberg–Marquardt derivation."
+    },
+    {
+      "source_id": "mv-scipy-lsq",
+      "reason": "Trust-region variants and step scaling."
+    },
+    {
+      "source_id": "mv-wiki-lm",
+      "reason": "Damped normal equations and historical orientation."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-17",
+    "scope": "Original standalone mathematical exposition, exact equations, worked examples and exercises for the nonlinear least-squares and inverse-problem bridge; inherited manuscripts preserved."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "multivariable-calculus:023000",
+        "reason": "Gauss–Newton linearized residual model."
+      },
+      {
+        "lecture_id": "multivariable-calculus:022000",
+        "reason": "Local convergence and why globalization matters."
+      }
+    ],
+    "recommended": [
+      {
+        "lecture_id": "linear-algebra:021000",
+        "reason": "QR and numerically stable augmented least squares."
+      },
+      {
+        "lecture_id": "optimization-duality:005000",
+        "reason": "Gradient and safeguarded optimization methods."
+      }
+    ],
+    "background": [
+      "Least squares and Jacobians, positive-definite matrices and elementary Lagrange multipliers."
+    ],
+    "readiness_checks": [
+      "Can you explain why a local descent direction need not produce descent with a full step?",
+      "Can you derive a stationarity equation after adding a quadratic penalty to a step?"
+    ]
+  }
+}

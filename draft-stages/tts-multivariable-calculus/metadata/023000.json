@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "lecture_id": "023000",
+  "transcript": "023000-nonlinear-least-squares-and-gauss-newton.md",
+  "related_resources": [
+    {
+      "source_id": "mv-madsen-nonlinear",
+      "reason": "Derivation of Gauss–Newton and nonlinear residual models."
+    },
+    {
+      "source_id": "mv-scipy-lsq",
+      "reason": "Practical nonlinear least-squares solvers and Jacobian interfaces."
+    },
+    {
+      "source_id": "mv-wiki-gauss-newton",
+      "reason": "Introductory terminology and geometry."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-17",
+    "scope": "Original standalone mathematical exposition, exact equations, worked examples and exercises for the nonlinear least-squares and inverse-problem bridge; inherited manuscripts preserved."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "multivariable-calculus:001000",
+        "reason": "Total derivative and Jacobian construction."
+      },
+      {
+        "lecture_id": "multivariable-calculus:021000",
+        "reason": "Newton step for nonlinear systems and objectives."
+      }
+    ],
+    "recommended": [
+      {
+        "lecture_id": "linear-algebra:021000",
+        "reason": "QR solution of linearized least-squares problems."
+      },
+      {
+        "lecture_id": "multivariable-calculus:022000",
+        "reason": "Local Newton convergence for comparison."
+      }
+    ],
+    "background": [
+      "Gradients and Jacobians, a local Taylor model, dot products, and solving small linear systems."
+    ],
+    "readiness_checks": [
+      "Can you distinguish an m-component residual vector from an n-component parameter vector?",
+      "Can you differentiate half of a squared residual norm?"
+    ]
+  }
+}

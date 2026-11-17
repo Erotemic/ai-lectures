@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "lecture_id": "026000",
+  "transcript": "026000-regularization-robust-fitting-and-inverse-problems.md",
+  "related_resources": [
+    {
+      "source_id": "mv-nist-regularization",
+      "reason": "Historical and mathematical background for inverse-problem regularization."
+    },
+    {
+      "source_id": "mv-scipy-lsq",
+      "reason": "Robust loss definitions, bounds, scaling and optimization interfaces."
+    },
+    {
+      "source_id": "mv-madsen-nonlinear",
+      "reason": "Numerical treatment of nonlinear residual least squares."
+    },
+    {
+      "source_id": "mv-wiki-tikhonov",
+      "reason": "Tikhonov regularization and its relation to SVD filtering."
+    },
+    {
+      "source_id": "mv-wiki-huber",
+      "reason": "Definition and influence of Huber loss."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-17",
+    "scope": "Original standalone mathematical exposition, exact equations, worked examples and exercises for the nonlinear least-squares and inverse-problem bridge; inherited manuscripts preserved."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "multivariable-calculus:024000",
+        "reason": "Distinguish damping of a local correction from a lasting parameter penalty."
+      },
+      {
+        "lecture_id": "multivariable-calculus:025000",
+        "reason": "Identify weak singular directions before filtering them."
+      }
+    ],
+    "recommended": [
+      {
+        "lecture_id": "optimization-duality:004000",
+        "reason": "Lagrange multipliers and constrained optimality."
+      },
+      {
+        "lecture_id": "numerical-analysis:003000",
+        "reason": "Noise propagation and conditioning."
+      }
+    ],
+    "background": [
+      "Derivatives of quadratic forms, SVD filtering, basic Gaussian covariance, model residuals."
+    ],
+    "readiness_checks": [
+      "Can you state which objective is changed by adding a Tikhonov penalty?",
+      "Can you distinguish a robust data loss from a prior preference for particular parameters?"
+    ]
+  }
+}

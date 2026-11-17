@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "lecture_id": "025000",
+  "transcript": "025000-identifiability-singular-values-and-uncertainty.md",
+  "related_resources": [
+    {
+      "source_id": "mv-scipy-curve",
+      "reason": "Covariance warnings, rank deficiency, and parameter scaling."
+    },
+    {
+      "source_id": "mv-scipy-lsq",
+      "reason": "Rank and residual diagnostics."
+    },
+    {
+      "source_id": "mv-wiki-identifiability",
+      "reason": "Structural and statistical identifiability terminology."
+    },
+    {
+      "source_id": "mv-wiki-svd",
+      "reason": "Singular value geometry and pseudoinverse."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-17",
+    "scope": "Original standalone mathematical exposition, exact equations, worked examples and exercises for the nonlinear least-squares and inverse-problem bridge; inherited manuscripts preserved."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "multivariable-calculus:023000",
+        "reason": "Residual Jacobians and linearized inference."
+      },
+      {
+        "lecture_id": "linear-algebra:023000",
+        "reason": "Singular value decomposition and pseudoinverse."
+      }
+    ],
+    "recommended": [
+      {
+        "lecture_id": "numerical-analysis:003000",
+        "reason": "Conditioning as sensitivity to data perturbations."
+      },
+      {
+        "lecture_id": "multivariable-calculus:024000",
+        "reason": "Damping as a numerical response to ill-conditioning."
+      }
+    ],
+    "background": [
+      "Two-parameter linear systems, SVD basics, independent random-error variance and covariance."
+    ],
+    "readiness_checks": [
+      "Can you identify a null direction of a matrix with two identical columns?",
+      "Can you distinguish a good data fit from an accurate parameter estimate?"
+    ]
+  }
+}

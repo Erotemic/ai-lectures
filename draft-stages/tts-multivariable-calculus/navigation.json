@@ -5,14 +5,15 @@
       "id": "survey",
       "title": "Multivariable Calculus · Foundations Survey",
       "role": "main",
-      "summary": "Total derivatives, Hessians, constrained optimization, multiple integrals, curves and surfaces, with a separate quantitative calculus-and-Newton extension.",
+      "summary": "Total derivatives, Hessians, constrained optimization, multiple integrals, curves and surfaces; separate deep dives develop Newton methods and nonlinear inverse problems.",
       "lectures": [
         "001000",
         "008000",
         "015000"
       ],
       "related_collections": [
-        "taylor-newton-bridge"
+        "taylor-newton-bridge",
+        "nonlinear-least-squares-bridge"
       ],
       "tags": [
         "Calculus",
@@ -38,7 +39,8 @@
       ],
       "related_collections": [
         "optimization-duality:survey",
-        "numerical-analysis:survey"
+        "numerical-analysis:survey",
+        "nonlinear-least-squares-bridge"
       ],
       "tags": [
         "Taylor theorem",
@@ -50,6 +52,38 @@
       ],
       "assumed_background": [
         "Calculus of one variable, the multivariable chain rule and Hessian, eigenvalues of small symmetric matrices, and solving small linear systems."
+      ]
+    },
+    {
+      "id": "nonlinear-least-squares-bridge",
+      "title": "Nonlinear Least Squares · From Gauss–Newton to Inverse Problems",
+      "role": "deep_dive",
+      "parent": "survey",
+      "summary": "A four-lecture construction route: residual Jacobians and Gauss–Newton; damped steps and trust-region acceptance; singular-value identifiability and covariance; structured regularization, robust losses and statistical assumptions.",
+      "lectures": [
+        "023000",
+        "024000",
+        "025000",
+        "026000"
+      ],
+      "preparation_collections": [
+        "multivariable-calculus:taylor-newton-bridge",
+        "linear-algebra:numerical-matrix-bridge"
+      ],
+      "related_collections": [
+        "optimization-duality:survey",
+        "numerical-analysis:survey"
+      ],
+      "tags": [
+        "Nonlinear least squares",
+        "Gauss–Newton",
+        "Levenberg–Marquardt",
+        "Identifiability",
+        "Regularization",
+        "Inverse problems"
+      ],
+      "assumed_background": [
+        "The multivariable chain rule and Jacobians, Taylor models and Newton corrections, linear least squares and singular values. Statistical assumptions are introduced explicitly."
       ]
     }
   ]
