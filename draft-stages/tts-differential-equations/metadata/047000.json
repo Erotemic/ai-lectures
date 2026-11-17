@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "lecture_id": "047000",
+  "transcript": "047000-from-rate-laws-to-initial-value-problems.md",
+  "related_resources": [
+    {
+      "source_id": "de-mit1803",
+      "reason": "Direction fields, existence and uniqueness, Euler integration, phase lines and stability."
+    },
+    {
+      "source_id": "de-openstax-ode",
+      "reason": "Rates, direction fields, elementary differential equation models and numerical approximations."
+    },
+    {
+      "source_id": "de-mattuck",
+      "reason": "Graphical, numerical and stability analyses of first-order differential equations."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-17",
+    "scope": "New standalone foundation-first lecture and mathematical companion; earlier manuscripts retained."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "recommended": [
+      {
+        "lecture_id": "analysis:survey",
+        "reason": "Optional review of derivatives, antiderivatives, and elementary functions."
+      }
+    ],
+    "background": [
+      "Single-variable derivatives, functions and graphs, exponentials, and elementary algebra; lecture 050000 also uses sine and cosine. No PDE prerequisites."
+    ],
+    "readiness_checks": [
+      "Explain what a rate law and initial condition each contribute to a prediction.",
+      "Compute Euler steps for a cooling model and check the units of the rate constant.",
+      "Distinguish local solutions from global existence."
+    ]
+  }
+}

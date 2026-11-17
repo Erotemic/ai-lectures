@@ -23,6 +23,33 @@
       ]
     },
     {
+      "id": "worked-ode-foundations",
+      "title": "Differential Equations · Worked First-Order Problems and Oscillators",
+      "role": "deep_dive",
+      "parent": "survey",
+      "lectures": [
+        "047000",
+        "048000",
+        "049000",
+        "050000"
+      ],
+      "assumed_background": [
+        "Elementary derivatives and antiderivatives, exponentials, graphs; sine and cosine for the oscillator lecture. No prior dynamical systems or PDE theory."
+      ],
+      "preparation_collections": [
+        "analysis:survey"
+      ],
+      "related_collections": [
+        "survey"
+      ],
+      "tags": [
+        "Differential equations",
+        "ODEs",
+        "First-order equations",
+        "Oscillations"
+      ]
+    },
+    {
       "id": "dynamics",
       "title": "Differential Equations · Periodic Orbits and Hamiltonian Dynamics",
       "role": "deep_dive",

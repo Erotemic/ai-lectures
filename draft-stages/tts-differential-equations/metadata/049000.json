@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "lecture_id": "049000",
+  "transcript": "049000-when-an-initial-value-determines-a-trajectory.md",
+  "related_resources": [
+    {
+      "source_id": "de-mit-orloff-uniqueness",
+      "reason": "Local Picard–Lindelöf theorem and contraction via Picard iteration."
+    },
+    {
+      "source_id": "de-mit1803",
+      "reason": "Direction fields, existence and uniqueness, Euler integration, phase lines and stability."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-17",
+    "scope": "New standalone foundation-first lecture and mathematical companion; earlier manuscripts retained."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "differential-equations:047000",
+        "reason": "Interpret a first-order initial-value problem and a solution interval."
+      },
+      {
+        "lecture_id": "differential-equations:048000",
+        "reason": "Recognize that a candidate solution requires verification and a domain."
+      }
+    ],
+    "recommended": [
+      {
+        "lecture_id": "analysis:survey",
+        "reason": "Optional review of derivatives, antiderivatives, and elementary functions."
+      }
+    ],
+    "background": [
+      "Single-variable derivatives, functions and graphs, exponentials, and elementary algebra; lecture 050000 also uses sine and cosine. No PDE prerequisites."
+    ],
+    "readiness_checks": [
+      "Exhibit two distinct solutions of a continuous, non-Lipschitz ODE with the same initial state.",
+      "Carry out two Picard iterates for a scalar IVP.",
+      "State the hypotheses and limitations of a finite-time Gronwall bound."
+    ]
+  }
+}

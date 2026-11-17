@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "lecture_id": "048000",
+  "transcript": "048000-solving-first-order-equations-with-care.md",
+  "related_resources": [
+    {
+      "source_id": "de-openstax-separable",
+      "reason": "Separable first-order ODEs and initial data."
+    },
+    {
+      "source_id": "de-openstax-linear",
+      "reason": "Integrating factors, forcing terms, and examples."
+    },
+    {
+      "source_id": "de-mit1803",
+      "reason": "Direction fields, existence and uniqueness, Euler integration, phase lines and stability."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-17",
+    "scope": "New standalone foundation-first lecture and mathematical companion; earlier manuscripts retained."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "differential-equations:047000",
+        "reason": "Interpret an ODE as a rate law with initial data, and identify an equilibrium before dividing."
+      }
+    ],
+    "recommended": [
+      {
+        "lecture_id": "analysis:survey",
+        "reason": "Optional review of derivatives, antiderivatives, and elementary functions."
+      }
+    ],
+    "background": [
+      "Single-variable derivatives, functions and graphs, exponentials, and elementary algebra; lecture 050000 also uses sine and cosine. No PDE prerequisites."
+    ],
+    "readiness_checks": [
+      "Solve a separable initial-value problem without losing its equilibria.",
+      "Construct an integrating factor using the product rule.",
+      "Verify a solution and give its interval of validity."
+    ]
+  }
+}

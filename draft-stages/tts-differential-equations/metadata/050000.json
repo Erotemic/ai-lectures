@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "lecture_id": "050000",
+  "transcript": "050000-oscillators-from-springs-to-resonance.md",
+  "related_resources": [
+    {
+      "source_id": "de-mit1803",
+      "reason": "Direction fields, existence and uniqueness, Euler integration, phase lines and stability."
+    },
+    {
+      "source_id": "de-pauls-ode",
+      "reason": "Second-order constant-coefficient equations, vibrations, and forcing."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-17",
+    "scope": "New standalone foundation-first lecture and mathematical companion; earlier manuscripts retained."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "differential-equations:047000",
+        "reason": "Understand state, initial conditions, derivative, and dimensional consistency."
+      },
+      {
+        "lecture_id": "differential-equations:048000",
+        "reason": "Use exponentials and verify initial values in exact formulas."
+      }
+    ],
+    "recommended": [
+      {
+        "lecture_id": "analysis:survey",
+        "reason": "Optional review of derivatives, antiderivatives, and elementary functions."
+      }
+    ],
+    "background": [
+      "Single-variable derivatives, functions and graphs, exponentials, and elementary algebra; lecture 050000 also uses sine and cosine. No PDE prerequisites."
+    ],
+    "readiness_checks": [
+      "Solve an ideal oscillator from initial position and velocity and find its period.",
+      "Distinguish underdamping, critical damping, and overdamping.",
+      "Derive and verify a forced resonant response and explain what makes the ideal model limited."
+    ]
+  }
+}
