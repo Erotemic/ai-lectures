@@ -2,45 +2,37 @@
 
 ## Editorial contract
 
-The target is **entertaining, source-backed listening for Spider-Man fans, with enough summary for newcomers**. Use specific panels, performances, artist choices, production history, jokes, and defensible critical arguments. A story's plot is supporting context, not a requirement to recite every event. Distinguish creator testimony from independently documented chronology. Attribute individual creative roles accurately. No length quotas. Keep notes and source links non-spoken. Mark significant spoilers.
+The goal is entertaining, substantive audio essays for fans, with enough explanation for someone who knows Spider-Man primarily through movies or games. A retelling is appropriate only when story beats explain a memorable scene, an artistic decision, a compelling argument, or a publishing controversy. Develop a specific thesis, use concrete evidence and anecdotes, distinguish creator testimony from documented history, and mark consequential spoilers. No fixed duration or word-count target. Keep source links and citation detail in non-spoken companions.
 
-## Complete in the existing pack
+## Complete (22 essays)
 
-- **001000–004000:** The accessible foundations: origin, first decade, the story engine, and alternate Spider-people (revised in Part 3).
-- **005000–008000:** Steve Ditko and Stan Lee; J. Jonah Jameson; villains; the Clone Saga, marriage, and status quo.
-- **009000:** Three Movie Spider-Men, Three Different Problems — Raimi / Webb / Watts, each as a different character question.
-- **010000:** Why the Spider-Verse Films Look and Sound Like Thoughts — timing, rendering, music, Gwen, Hobie, and Miles's self-definition.
-- **011000:** How to Draw a Web-Swing — Ditko, Romita, Andru, McFarlane, Bagley, and Pichelli, including the city as movement apparatus.
-- **017000:** Kraven's Last Hunt — DeMatteis, Zeck, McLeod, Salicrup, and an argument about moral victory, not a retelling of all six issues.
+- **001000–004000 — The Essentials:** Original moral mistake; early comics and cast; story engine; symbiotes and Spider-people. Revised for fan-focused accessibility in Part 3.
+- **005000–008000 — Creators and character engines:** Ditko and Lee; Jameson; villains; Clone Saga, marriage and continuity.
+- **009000–011000, 017000 — Film and comics craft:** Raimi/Webb/Watts; animation and sound in *Spider-Verse*; drawing a web swing; *Kraven's Last Hunt*.
+- **012000–016000 — Fans' other media and characters:** videogames and traversal; Venom; early comics Miles; the Green Goblin; Peter's independent supporting cast.
+- **018000 — Doctor Octopus / Superior Spider-Man:** early Ditko, the 2004 film, and Otto's attempt to outdo Peter after stealing his identity.
+- **019000 — Animation before Spider-Verse:** 1967, the distinct solo and team cartoons of 1981, the 1994 series, *Spectacular Spider-Man*, and the 2012 *Ultimate Spider-Man* cartoon.
+- **020000 — Spider-Man: Life Story:** the 2019 aging-in-real-time miniseries, Zdarsky and Bagley's choices, and continuity when decades accumulate.
+- **021000 — Spider-Man and money:** the 1963 check scene, photography, work, obligation, research jobs and Parker Industries.
+- **022000 — Spider-Man and New York:** Forest Hills, boroughs, rooftop movement, the 2001 response comic, and the 2023 game's expanded city.
 
-**Do not duplicate completed subjects with broad surveys.** Specific additional analyses may reference them.
+These are **completed** topics; do not reissue a broad survey on the same subject without a narrower, genuinely new angle. The essay IDs are intentionally not always chronological by source-material date.
 
-## Complete in Part 5 (new)
+## High-value next essays
 
-- **012000:** Why Spider-Man Is a Videogame Hero — from Treyarch's difficult physics prototypes through Insomniac's fluent web-swinging and Miles's different physical vocabulary; developer-interview sources.
-- **013000:** Venom: From Nightmare to Antihero to Cosmic Monster — the black-costume publication chronology, Eddie Brock, Lethal Protector, Agent Venom, and Knull; separate comics eras and hosts.
-- **014000:** Miles Morales Was Not Built to Be Peter Parker Two — Ultimate universe beginnings and distinct relationships, Sara Pichelli's character design, and careful film comparisons.
-- **015000:** When Spider-Man Met the Goblin — 1964 debut and 1966 unmasking, 1973 Gwen story, conflicting creator memories, and the Harry Osborn inheritance.
-- **016000:** The Supporting Cast Has a Life of Its Own — Mary Jane's choice after Gwen's death, Aunt May's The Conversation, Harry, Flash, Robbie and Felicia, with agency beyond Peter.
+- **John Romita Sr. and Peter Parker's romantic comedy:** the post-Ditko tonal shift, Mary Jane and Gwen's distinct entrances, portraiture, composition, and the construction of a supporting ensemble. This should be about social drama and editorial form rather than repeating the web-swing art survey.
+- **The black suit's creation and publication chronology:** fan-submitted costume design, *Amazing Spider-Man* #252 and *Secret Wars* #8, why on-sale and fictional story chronology diverge, and the long symbiote afterlife. Separate documentation from folklore about ownership and payments.
+- **The Human Torch and Spider-Man as frenemies:** cross-title teasing, competition, supporting friendship, and the difference between a solo hero and a team member.
+- **How comic-book Spider-Man became funny:** timing, caption boxes, quips as fear management, and the artists' role in visual comedy. Compare selected scenes from comics, live action, animation and games without becoming a quote reel.
+- **Felicia Hardy and a different idea of love:** the Black Cat, secret identities, criminality, and why romance in Spider-Man often means wanting incompatible versions of a person.
+- **The Daily Bugle as a machine for public opinion:** Jameson, Robbie Robertson, Betty Brant, journalism as work, and how reporting shapes whether strangers trust a masked hero. Take a newsroom-history angle instead of repeating the Jameson character profile.
+- **The Clone Saga as an actual production history:** issue-by-issue editorial claims only insofar as needed to reconstruct the decisions and missed exits. Distinguish dated contemporary materials from later, contradictory testimony.
+- **One More Day and fan expectations:** contracts with readers about character growth, editorial rationale, and differing audience responses; explain the story without converting the lecture into a one-sided rant.
+- **Spider-Man and Daredevil:** two New York vigilantes, different ethics of violence, street crime vs spectacle, reciprocal rescues, and proximity to the law.
+- **The limits of responsibility:** guilt, obligation, martyrdom and emotional manipulation in Spider-Man stories. Are there things Peter ought to let other people solve?
+- **What a Spider-Man crossover costs:** editorial coordination, tie-ins, continuity entry points, and when a big event genuinely changes the hero.
+- **The best Spider-Man cover artists and cover promises:** what covers sell, what a splash page delivers, and how composition creates a story before page one.
 
-**The default fan-essay route now includes thirteen essays; the four-lecture introduction remains available.**
+## Evidence and workflow
 
-## Further fan essays and deep dives
-
-- **Doctor Octopus in three versions:** the original comics, Raimi's *Spider-Man 2*, and *Superior Spider-Man*: intelligence, care, and identity theft.
-- **Black costume chronology:** first on-sale appearance vs fictional introduction, crossover structure, reader misconceptions, and creative ownership.
-- **The forgotten oddities of early Spider-Man:** Peter on television, Human Torch rivalries, dated supervillain jobs, and how a serial learned what worked.
-- **The Clone Saga behind the scenes:** dated editorial statements and changing plans, with clearly bounded inferences.
-- **John Romita and the shift toward romance:** social and visual development; do not duplicate lecture 011000's web-swing emphasis.
-- **Spider-Man animation before 2018:** 1967 series, 1994 animated series, 2008 *Spectacular Spider-Man*, and later interpretations; art, broadcast context, and storytelling.
-- **Spider-Man: Life Story as a thought experiment:** what aging in real time reveals about legacy and elastic continuity.
-- **Peter Parker and money:** work, debts, equipment, and who has access to time and support; grounded historical context without treating fictional values as data.
-- **Spider-Man and real New York:** boroughs, neighborhoods, geography, rooftop topology, and why the city becomes an action partner.
-- **Can a hero be too responsible?** Moral debts, self-denial, manipulation of guilt, and what the films and comics sometimes dispute.
-
-## Future research and production constraints
-
-- Verify issue-level creators and dates. A cover date is not an on-sale date. A film's theme is a critic's interpretation, not automatically the director's public intention.
-- Start with comic records, archival drawings, production interviews, official film data, and other strong sources. Add useful Wikipedia references in non-spoken notes, not in place of primary grounding.
-- Explain characters and stakes at first use; do not assume everyone has read the comics. Avoid dry encyclopedic sequences.
-- Keep source-claim anchors exact, accurate word counts, stable IDs, and valid navigation. Content-only ZIP, no bundled copyrighted images or shared application changes.
+Verify issue-level writers, artists, inkers, and dates (cover dates are not on-sale dates). Treat artistic conclusions as interpretations, not as documented creator intent. Prefer original issue records, publisher bibliographies, production-team interviews and archives. Include reference Wikipedia links when helpful in notes. Maintain exact spoken-text claim anchors, valid navigation, correct measured word counts, and a **single content-pack ZIP**. Do not bundle binary art, proprietary scans or shared publishing-code changes.

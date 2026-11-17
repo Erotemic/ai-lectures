@@ -1,50 +1,57 @@
 # Spider-Man: The Comics, the Character, and the Culture
 
-An **entertaining, source-grounded collection of Spider-Man audio essays** for fans and curious newcomers. These are not prose adaptations of the comics or encyclopedic issue recaps. Plots are summarized when needed to make an argument about artists, film technique, characters, history, or editorial choices intelligible to listeners who know Peter and Miles mainly from screen adaptations.
+A **source-grounded audio-essay track for Spider-Man fans and curious newcomers**. Its purpose is an enjoyable listen, not a comic-by-comic recap or a narrated adaptation. Stories are explained whenever an example needs context, but the central attractions are creative personalities, memorable scenes, arguments about character, artwork and sound, production decisions, and the history of the character across media. Spoilers are flagged before the spoken narration in each manuscript. There is no required word count or running time.
 
-## Default listening route: Fan Essays and Deep Dives
+## Start here
 
-The thirteen deeper essays stand alone, with concepts and continuities explained when first introduced. Their order is a useful path but not a prerequisite chain.
-
-| ID | Essay | The interesting question |
-| --- | --- | --- |
-| 005000 | Steve Ditko, Stan Lee, and the Spider-Man You Can Feel in a Drawing | Who made Spider-Man's earliest visual personality, and why is credit hard to assign? |
-| 006000 | J. Jonah Jameson: A Man Who Keeps Hiring His Own Worst Enemy | What makes Jameson more than a recurring joke? |
-| 007000 | How Spider-Man's Villains Hurt Him Without Winning the Fight | Why do different villains threaten different parts of Peter's life? |
-| 008000 | Clones, Marriage, and the Problem of Letting Peter Parker Grow Up | Why does long-running continuity resist personal change? |
-| 009000 | Three Movie Spider-Men, Three Different Problems | How do Raimi, Webb, and Watts pose different questions for the same hero? |
-| 010000 | Why the Spider-Verse Films Look and Sound Like Thoughts | How can frames, compositing, collage, and music enact Miles's story? |
-| 011000 | How to Draw a Web-Swing: Spider-Man's Artists and the City Beneath Him | How do Ditko, Romita, Andru, McFarlane, Bagley and Pichelli make a body travel through panels? |
-| 012000 | Why Spider-Man Is a Videogame Hero | How do web physics and a playable New York turn movement into character? |
-| 013000 | Venom: From Nightmare to Antihero to Cosmic Monster | How did a rejected costume become a villain, protector, and mythology? |
-| 014000 | Miles Morales Was Not Built to Be Peter Parker Two | What did early Ultimate comics give Miles that was fully his? |
-| 015000 | When Spider-Man Met the Goblin | How did a theatrical enemy become a threat to the hero's entire private life? |
-| 016000 | The Supporting Cast Has a Life of Its Own | Which Spider-Man characters make choices that are not merely reactions to Peter? |
-| 017000 | Kraven's Last Hunt: The Villain Who Thought the Costume Was the Man | Why can Kraven win his self-invented contest and fail the ethical one? |
-
-**Spoilers:** These essays discuss major outcomes in comics and films. Every manuscript includes a non-spoken spoiler notice, including the dark ending of *Kraven's Last Hunt*. Visual criticism is narrated so that it makes sense without accompanying images. Production claims are sourced to credited artists, production staff, studios, original comics records, or creators' own retrospective testimony, with those source types distinguished in metadata.
+`navigation.json` defines five listening collections. **Fan Essays and Deep Dives** (`fan-essays`) is the default. The essays generally stand alone; the four introductory essays offer a route for listeners wanting more history and context before beginning. Other collections are **The Essentials in Four Essays** (`survey`), **Every Lecture** (`complete`), **Drawing and Filming the Hero** (`comics-and-screen-craft`), and **Responsibility, Work, and Time** (`peter-and-his-world`).
 
 ## The Essentials in Four Essays
 
-Lectures 001000–004000 are a separate newcomer-friendly collection, already revised before this installment. They remain **byte-for-byte unchanged** in this update, as do all of lectures 005000–011000 and 017000.
-
-| ID | Essay | Context provided |
+| ID | Lecture | Background given |
 | --- | --- | --- |
-| 001000 | Spider-Man Is Born | *Amazing Fantasy* #15, Lee and Ditko, Peter's original moral mistake |
-| 002000 | Peter Parker's First Decade | High school and college, the supporting cast, the Goblin, Gwen Stacy |
-| 003000 | The Spider-Man Story Engine | Responsibility, secrecy, money, the city, and time |
-| 004000 | The Mask Beyond Peter Parker | Black suit, symbiotes, Miles Morales, and the Spider-Verse |
+| 001000 | Spider-Man Is Born | The 1962 *Amazing Fantasy* #15 origin, Lee and Ditko, Peter's early mistake. |
+| 002000 | Peter Parker's First Decade | School, work, supporting cast, Norman Osborn and Gwen Stacy. |
+| 003000 | The Spider-Man Story Engine | Responsibility, secrecy, time, money, relationships and New York. |
+| 004000 | The Mask Beyond Peter Parker | Costume and symbiote history, Miles Morales, and the Spider-Verse. |
 
-`navigation.json` keeps `fan-essays` as the default collection, `survey` as the four-essay introduction, and `complete` as a seventeen-essay route. A further `comics-and-screen-craft` route connects the new visual-media discussions. IDs 012000–016000 are now filled; Kraven remains ID 017000 after them.
+## Fan Essays and Deep Dives
 
-## Text-only pack and provenance
+| ID | Essay | Central question |
+| --- | --- | --- |
+| 005000 | Steve Ditko, Stan Lee, and the Spider-Man You Can Feel in a Drawing | Where did the character's first visual personality come from? |
+| 006000 | J. Jonah Jameson: A Man Who Keeps Hiring His Own Worst Enemy | Why is Jonah more than a recurring joke? |
+| 007000 | How Spider-Man's Villains Hurt Him Without Winning the Fight | What do the best villains threaten other than his survival? |
+| 008000 | Clones, Marriage, and the Problem of Letting Peter Parker Grow Up | Why does a long serial resist its hero's adulthood? |
+| 009000 | Three Movie Spider-Men, Three Different Problems | What questions do Raimi, Webb and Watts ask of Peter? |
+| 010000 | Why the Spider-Verse Films Look and Sound Like Thoughts | How do art direction, timing and music enact Miles's story? |
+| 011000 | How to Draw a Web-Swing | How do great comics artists convey motion in still drawings? |
+| 012000 | Why Spider-Man Is a Videogame Hero | How can the act of moving through a city reveal the character? |
+| 013000 | Venom: From Nightmare to Antihero to Cosmic Monster | How did an antagonist become several kinds of protagonist? |
+| 014000 | Miles Morales Was Not Built to Be Peter Parker Two | What makes comic-book Miles's beginning distinct? |
+| 015000 | When Spider-Man Met the Goblin and the Comics Got Dangerous | What did Norman's rivalry change about the series? |
+| 016000 | The Supporting Cast Has a Life of Its Own | Who makes decisions that are not just reactions to Peter? |
+| 017000 | Kraven's Last Hunt | Why is a villain's apparent victory a moral defeat? |
+| 018000 | Doctor Octopus: The Doctor Who Stole Spider-Man and Tried to Improve Him | Is efficient crime-fighting the same thing as being a good hero? |
+| 019000 | Before the Spider-Verse: The Cartoon Spider-Men Who Had to Invent Their Own Rules | How did different television productions define Spider-Man? |
+| 020000 | What If Peter Parker Had Actually Aged? | What does *Spider-Man: Life Story* reveal when time becomes real? |
+| 021000 | Peter Parker Cannot Cash His Check | Why does money keep creating Spider-Man stories? |
+| 022000 | The City Beneath the Mask | Why do the boroughs, crowds and infrastructure matter? |
 
-All content is in `draft-stages/tts-spider-man/`, including the seventeen complete manuscripts, `track.json`, `navigation.json`, seventeen `metadata/NNNNNN.json` claim maps, `metadata/sources.json`, `BACKLOG.md`, and this README. Spoken narration appears exclusively inside `BEGIN SPOKEN LECTURE` and `END SPOKEN LECTURE` markers. Non-spoken source companions include relevant Wikipedia articles for reference and official/primary production records, catalogs, interviews and archives for factual grounding. Interpretation is distinguished from production history. No comic pages, movie footage, binary art or music is embedded.
+## Editorial and provenance rules
 
-To import the ZIP from the repository root (fresh installs and replacements supported):
+Each lecture contains exactly one `<!-- BEGIN SPOKEN LECTURE -->` / `<!-- END SPOKEN LECTURE -->` pair. Non-spoken companions include spoiler descriptions and relevant primary records, publisher material, archives, production interviews, and occasional Wikipedia links for navigation. Per-lecture metadata in `metadata/NNNNNN.json` maps specific spoken claims to the `metadata/sources.json` bibliography. Creator interviews and retrospective accounts are treated as testimony, not automatic proof of every disputed editorial motive. Critical interpretation is not presented as a quotation from a creator.
+
+No copyrighted comics panels, film clips, music, fonts, or binary art are bundled. The pack is a text-only content overlay under `draft-stages/tts-spider-man/` and requires no change to shared publishing scripts.
+
+## Import
+
+From the project repository root, after downloading the ZIP to `~/Downloads`:
 
 ```bash
-python tools/content_overlay.py apply ~/Downloads/spider-man-fan-essays-05.zip --replace-owned
+unzip -t ~/Downloads/spider-man-fan-essays-06.zip
+python tools/content_overlay.py apply ~/Downloads/spider-man-fan-essays-06.zip --replace-owned
+python draft-stages/tts-lectures/extract_narration.py --check draft-stages/tts-spider-man/0{18,19,20,21,22}000-*.md
 ```
 
-The importer safeguards conflicting pack-owned files with recovery backups when replacement is selected. It does not overwrite unrelated content or require shared publishing-code edits.
+The overlay includes all **22 complete manuscripts**, index/navigation data, metadata, source records, and the backlog. Lectures 001000–017000 and their individual claim maps are unchanged from the previous pack. This overlay adds lectures 018000–022000 and updates shared track-level navigation/source files. The reading-time estimates in `track.json` are descriptive only; the lecture text is not shortened to reach a target.
