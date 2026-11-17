@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "lecture_id": "006000",
+  "transcript": "006000-quadratic-residues-and-reciprocity.md",
+  "related_resources": [
+    {
+      "source_id": "nt-mit",
+      "reason": "Quadratic residues and reciprocity"
+    },
+    {
+      "source_id": "nt-stein",
+      "reason": "Legendre symbol and reciprocity"
+    },
+    {
+      "source_id": "nt-euler-criterion",
+      "reason": "Euler criterion"
+    },
+    {
+      "source_id": "nt-reciprocity",
+      "reason": "Quadratic reciprocity theorem"
+    },
+    {
+      "source_id": "nt-jacobi",
+      "reason": "Composite modulus warning"
+    }
+  ],
+  "mathematical_claims": [
+    {
+      "id": "006000-m01",
+      "anchor": "So exactly half the nonzero residue classes are squares.",
+      "source_ids": [
+        "nt-residue"
+      ],
+      "source_locator": "Counting quadratic residues modulo prime",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "006000-m02",
+      "anchor": "Euler's criterion says that for a nonzero residue a modulo an odd prime p, raising a to the power p minus one divided by two gives one if a is a square, and negative one if it is a nonsquare.",
+      "source_ids": [
+        "nt-euler-criterion",
+        "nt-mit"
+      ],
+      "source_locator": "Euler criterion proof and hypotheses",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "006000-m03",
+      "anchor": "Now let p and q be distinct odd primes.",
+      "source_ids": [
+        "nt-reciprocity",
+        "nt-mit"
+      ],
+      "source_locator": "MIT lecture 9: quadratic reciprocity",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "006000-m04",
+      "anchor": "a Jacobi symbol equal to one does not ensure that it is a square.",
+      "source_ids": [
+        "nt-jacobi"
+      ],
+      "source_locator": "Jacobi symbol for composite denominator",
+      "audit_status": "reading_reference_recorded"
+    }
+  ],
+  "historical_claims": []
+}

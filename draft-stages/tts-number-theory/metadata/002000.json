@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "lecture_id": "002000",
+  "transcript": "002000-congruences-inverses-and-the-chinese-remainder-theorem.md",
+  "related_resources": [
+    {
+      "source_id": "nt-mit",
+      "reason": "Congruences and Chinese remainder theorem"
+    },
+    {
+      "source_id": "nt-stein",
+      "reason": "Computational modular arithmetic"
+    },
+    {
+      "source_id": "nt-modular",
+      "reason": "Inverse arithmetic"
+    },
+    {
+      "source_id": "nt-crt",
+      "reason": "General and coprime CRT"
+    }
+  ],
+  "mathematical_claims": [
+    {
+      "id": "002000-m01",
+      "anchor": "A residue class a has a multiplicative inverse modulo n precisely when a and n are coprime.",
+      "source_ids": [
+        "nt-modular",
+        "nt-mit"
+      ],
+      "source_locator": "MIT lectures 3-4: inverses",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "002000-m02",
+      "anchor": "For pairwise coprime positive moduli, any selected remainders occur together in exactly one residue class modulo the product of the moduli.",
+      "source_ids": [
+        "nt-crt",
+        "nt-mit"
+      ],
+      "source_locator": "MIT lecture 5: Chinese remainder theorem",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "002000-m03",
+      "anchor": "The exact compatibility condition for two arbitrary moduli m and n is that the requested remainders differ by a multiple of their G C D.",
+      "source_ids": [
+        "nt-crt"
+      ],
+      "source_locator": "CRT generalized to non-coprime moduli",
+      "audit_status": "reading_reference_recorded"
+    }
+  ],
+  "historical_claims": []
+}

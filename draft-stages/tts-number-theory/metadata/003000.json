@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "lecture_id": "003000",
+  "transcript": "003000-units-eulers-theorem-and-multiplicative-order.md",
+  "related_resources": [
+    {
+      "source_id": "nt-mit",
+      "reason": "Fermat, Euler and order"
+    },
+    {
+      "source_id": "nt-stein",
+      "reason": "Modular arithmetic and cryptography"
+    },
+    {
+      "source_id": "nt-euler",
+      "reason": "Euler theorem"
+    },
+    {
+      "source_id": "nt-psprime",
+      "reason": "Fermat pseudoprimes"
+    }
+  ],
+  "mathematical_claims": [
+    {
+      "id": "003000-m01",
+      "anchor": "Euler's totient function, pronounced phi, counts these units.",
+      "source_ids": [
+        "nt-totient",
+        "nt-mit"
+      ],
+      "source_locator": "MIT lecture 4: totient function",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "003000-m02",
+      "anchor": "What remains is the congruence that a raised to phi of n equals one modulo n.",
+      "source_ids": [
+        "nt-euler",
+        "nt-mit"
+      ],
+      "source_locator": "MIT lecture 4: Euler theorem",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "003000-m03",
+      "anchor": "The order always divides phi of n.",
+      "source_ids": [
+        "nt-order"
+      ],
+      "source_locator": "Order divides group size",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "003000-m04",
+      "anchor": "We call such a number a pseudoprime to the chosen base.",
+      "source_ids": [
+        "nt-psprime",
+        "nt-stein"
+      ],
+      "source_locator": "Fermat pseudoprimes and limits",
+      "audit_status": "reading_reference_recorded"
+    }
+  ],
+  "historical_claims": []
+}

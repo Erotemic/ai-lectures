@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "lecture_id": "001000",
+  "transcript": "001000-divisibility-euclid-and-unique-factorization.md",
+  "related_resources": [
+    {
+      "source_id": "nt-mit",
+      "reason": "University lecture notes on divisibility, Euclid, primes"
+    },
+    {
+      "source_id": "nt-stein",
+      "reason": "General classical number theory"
+    },
+    {
+      "source_id": "nt-bezout",
+      "reason": "Bézout proof and attribution"
+    },
+    {
+      "source_id": "nt-fta",
+      "reason": "Unique factorization"
+    }
+  ],
+  "mathematical_claims": [
+    {
+      "id": "001000-m01",
+      "anchor": "The last nonzero remainder is eighteen.",
+      "source_ids": [
+        "nt-mit",
+        "nt-euclid"
+      ],
+      "source_locator": "MIT lecture 2: Euclidean algorithm",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "001000-m02",
+      "anchor": "This is an instance of Bézout's identity.",
+      "source_ids": [
+        "nt-bezout",
+        "nt-mit"
+      ],
+      "source_locator": "Bézout identity and algorithm",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "001000-m03",
+      "anchor": "This is Euclid's lemma.",
+      "source_ids": [
+        "nt-euclid",
+        "nt-fta"
+      ],
+      "source_locator": "Unique factorization proof and prime divisibility",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "001000-m04",
+      "anchor": "This is the fundamental theorem of arithmetic",
+      "source_ids": [
+        "nt-fta",
+        "nt-stein"
+      ],
+      "source_locator": "Fundamental theorem of arithmetic",
+      "audit_status": "reading_reference_recorded"
+    }
+  ],
+  "historical_claims": []
+}

@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "lecture_id": "005000",
+  "transcript": "005000-continued-fractions-and-pell-equations.md",
+  "related_resources": [
+    {
+      "source_id": "nt-mit",
+      "reason": "Continued fractions and Pell equations"
+    },
+    {
+      "source_id": "nt-stein",
+      "reason": "Continued fractions"
+    },
+    {
+      "source_id": "nt-continued",
+      "reason": "Convergent identities"
+    },
+    {
+      "source_id": "nt-pell",
+      "reason": "Pell solution structure"
+    }
+  ],
+  "mathematical_claims": [
+    {
+      "id": "005000-m01",
+      "anchor": "We call this a finite continued fraction.",
+      "source_ids": [
+        "nt-continued",
+        "nt-mit"
+      ],
+      "source_locator": "MIT lecture 20: continued fractions",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "005000-m02",
+      "anchor": "The continued fraction for the square root of two starts with one, followed by an endless sequence of twos.",
+      "source_ids": [
+        "nt-continued"
+      ],
+      "source_locator": "Periodic continued fractions",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "005000-m03",
+      "anchor": "We have constructed infinitely many solutions",
+      "source_ids": [
+        "nt-pell",
+        "nt-mit"
+      ],
+      "source_locator": "MIT lecture 23: Pell equations",
+      "audit_status": "reading_reference_recorded"
+    }
+  ],
+  "historical_claims": []
+}

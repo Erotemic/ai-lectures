@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "lecture_id": "004000",
+  "transcript": "004000-diophantine-equations-and-pythagorean-triples.md",
+  "related_resources": [
+    {
+      "source_id": "nt-mit",
+      "reason": "Integer equations, Pythagorean triples and rational conics"
+    },
+    {
+      "source_id": "nt-diophantine",
+      "reason": "Definition and historical naming"
+    },
+    {
+      "source_id": "nt-pythagorean",
+      "reason": "Primitive parametrization"
+    },
+    {
+      "source_id": "nt-descent",
+      "reason": "Descent as a proof method"
+    }
+  ],
+  "mathematical_claims": [
+    {
+      "id": "004000-m01",
+      "anchor": "An equation in which we seek integer solutions is called a Diophantine equation.",
+      "source_ids": [
+        "nt-diophantine",
+        "nt-mit"
+      ],
+      "source_locator": "MIT lecture 1: Diophantine equations",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "004000-m02",
+      "anchor": "So a linear two-variable integer equation has a solution exactly when the G C D of its coefficients divides the right-hand side.",
+      "source_ids": [
+        "nt-mit",
+        "nt-bezout"
+      ],
+      "source_locator": "Linear Diophantine equations",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "004000-m03",
+      "anchor": "We have derived the classical parametrization of primitive Pythagorean triples.",
+      "source_ids": [
+        "nt-pythagorean",
+        "nt-mit"
+      ],
+      "source_locator": "MIT lecture 25: Pythagorean triples",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "004000-m04",
+      "anchor": "This is an infinite descent in miniature.",
+      "source_ids": [
+        "nt-descent"
+      ],
+      "source_locator": "Proof by infinite descent",
+      "audit_status": "reading_reference_recorded"
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "004000-h01",
+      "anchor": "The name comes from the ancient mathematician Diophantus",
+      "kind": "historical_attribution",
+      "source_ids": [
+        "nt-diophantine"
+      ],
+      "source_locator": "Name and historical background",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}
