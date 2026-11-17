@@ -175,3 +175,10 @@ Added `109000` Aryabhata, `110000` Liu Hui, `111000` al-Biruni, `112000` Omar Kh
 Protect these attribution boundaries in later edits: Aryabhata's Earth rotation was not heliocentrism, and his pi approximation is not a documented modern irrationality proof; Liu Hui commented on but did not author the *Nine Chapters*, and Zu Gengzhi supplied the later sphere proof; al-Biruni's presence in Ghaznavid territory followed conquest and his exact last years are disputed; a literary schoolmates' pact and much of the poetry attributed to Khayyam are not secure biographical testimony; Leonardo transmitted rather than invented Indian numerals; Madhava's series are documented substantially through later Kerala authors, with direct transmission to Gregory/Newton/Leibniz unproven.
 
 After catalog review, possible next major gaps include **Shiing-Shen Chern**, **John Horton Conway**, **Benoît Mandelbrot**, **Alonzo Church**, **John Napier**, and **Zhu Shijie**; evaluate significance and available biographical sources before assigning IDs. Continue one coherent lecture per life when it makes editorial sense, without an arbitrary duration threshold.
+
+
+## Continuation 14 (17 November 2026)
+
+Completed 115000–120000: Shiing-Shen Chern, John Horton Conway, Benoît Mandelbrot, Alonzo Church, John Napier, and Zhu Shijie. The biographies foreground places, institutions, people and historical context, then develop accessible mathematics. Zhu's personal documentation is limited; the lecture therefore concentrates on his mathematical texts and their transmission rather than inventing intimate details. Each includes a claim-level record and a non-spoken companion.
+
+Potential next high-impact missing figures for a future catalog audit: **Bhaskara II, Qin Jiushao, Yang Hui, Ptolemy, Apollonius of Perga, George Dantzig, Claude Chevalley, Israel Gelfand, Jean-Pierre Serre, and Michael Atiyah**. Do not select a figure without checking the catalog and sufficient biographical sources.

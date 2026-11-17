@@ -1,0 +1,242 @@
+{
+  "schema_version": 1,
+  "lecture_id": "118000",
+  "transcript": "118000-church.md",
+  "related_resources": [
+    {
+      "source_id": "history-church-mactutor",
+      "reason": "Family, Princeton degrees, travel, teaching, Kleene, Rosser, Turing, type theory, UCLA"
+    },
+    {
+      "source_id": "history-church-archive",
+      "reason": "Family, appointments and Journal of Symbolic Logic editorial service 1936–1979"
+    },
+    {
+      "source_id": "history-church-sep",
+      "reason": "Lambda calculus, computability, thesis, logic and reception"
+    },
+    {
+      "source_id": "history-church-decision",
+      "reason": "Church 1936 undecidability, Turing independent work, Gödel/Hilbert background, distinctions between decision procedures"
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "118000-h01",
+      "anchor": "Church was born in Washington, D.C., in 1903",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-church-mactutor",
+        "history-church-archive"
+      ],
+      "source_locator": "Church was born in Washington, D.C., in 1903",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "118000-h02",
+      "anchor": "His father, Samuel Robbins Church, was a judge",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-church-mactutor"
+      ],
+      "source_locator": "His father, Samuel Robbins Church, was a judge",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "118000-h03",
+      "anchor": "He entered Princeton and completed his undergraduate degree in 1924",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-church-mactutor",
+        "history-church-archive"
+      ],
+      "source_locator": "He entered Princeton and completed his undergraduate degree in 1924",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "118000-h04",
+      "anchor": "receiving a doctorate in 1927 under Oswald Veblen",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-church-mactutor"
+      ],
+      "source_locator": "receiving a doctorate in 1927 under Oswald Veblen",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "118000-h05",
+      "anchor": "In 1926 he married Mary Julia Kuczinski",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-church-mactutor"
+      ],
+      "source_locator": "In 1926 he married Mary Julia Kuczinski",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "118000-h06",
+      "anchor": "Church returned to Princeton in 1929 as a faculty member",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-church-mactutor"
+      ],
+      "source_locator": "Church returned to Princeton in 1929 as a faculty member",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "118000-h07",
+      "anchor": "Among his students were Stephen Kleene and J. Barkley Rosser",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-church-mactutor"
+      ],
+      "source_locator": "Among his students were Stephen Kleene and J. Barkley Rosser",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "118000-h08",
+      "anchor": "Church developed what is now called the lambda calculus",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-church-sep",
+        "history-church-mactutor"
+      ],
+      "source_locator": "Church developed what is now called the lambda calculus",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "118000-h09",
+      "anchor": "Church's early attempts to develop a broader formal foundation ran into inconsistency",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-church-mactutor",
+        "history-church-sep"
+      ],
+      "source_locator": "Church's early attempts to develop a broader formal foundation ran into inconsistency",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "118000-h10",
+      "anchor": "Church, Kleene, and others examined the relationship between lambda-definability",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-church-sep"
+      ],
+      "source_locator": "Church, Kleene, and others examined the relationship between lambda-definability",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "118000-h11",
+      "anchor": "This proposal became known as Church's thesis",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-church-sep"
+      ],
+      "source_locator": "This proposal became known as Church's thesis",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "118000-h12",
+      "anchor": "In 1936 Church published the result",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-church-decision",
+        "history-church-sep"
+      ],
+      "source_locator": "In 1936 Church published the result",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "118000-h13",
+      "anchor": "Around the same time Alan Turing",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-church-decision"
+      ],
+      "source_locator": "Around the same time Alan Turing",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "118000-h14",
+      "anchor": "Emil Post developed another related approach",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-church-sep"
+      ],
+      "source_locator": "Emil Post developed another related approach",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "118000-h15",
+      "anchor": "Turing completed his Princeton doctorate under Church in 1938",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-church-mactutor"
+      ],
+      "source_locator": "Turing completed his Princeton doctorate under Church in 1938",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "118000-h16",
+      "anchor": "In classical first-order logic, a sound and complete proof system",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-church-decision"
+      ],
+      "source_locator": "In classical first-order logic, a sound and complete proof system",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "118000-h17",
+      "anchor": "became the founding editor of the *Journal of Symbolic Logic* in 1936",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-church-archive"
+      ],
+      "source_locator": "became the founding editor of the *Journal of Symbolic Logic* in 1936",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "118000-h18",
+      "anchor": "In 1940 Church published a system of simple type theory",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-church-mactutor",
+        "history-church-sep"
+      ],
+      "source_locator": "In 1940 Church published a system of simple type theory",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "118000-h19",
+      "anchor": "His textbook *Introduction to Mathematical Logic*",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-church-mactutor"
+      ],
+      "source_locator": "His textbook *Introduction to Mathematical Logic*",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "118000-h20",
+      "anchor": "In 1967 he left Princeton for the University of California",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-church-mactutor",
+        "history-church-archive"
+      ],
+      "source_locator": "In 1967 he left Princeton for the University of California",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "118000-h21",
+      "anchor": "He retired from UCLA in 1990 and died in 1995",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-church-mactutor"
+      ],
+      "source_locator": "He retired from UCLA in 1990 and died in 1995",
+      "audit_status": "source_checked"
+    }
+  ]
+}

@@ -1,0 +1,257 @@
+{
+  "schema_version": 1,
+  "lecture_id": "116000",
+  "transcript": "116000-conway.md",
+  "related_resources": [
+    {
+      "source_id": "history-conway-princeton",
+      "reason": "Cambridge and Princeton, personal accounts, family, groups, Life, surreal numbers, mathematical collaborations"
+    },
+    {
+      "source_id": "history-conway-caius",
+      "reason": "Cambridge dates, mathematics, college life"
+    },
+    {
+      "source_id": "history-conway-bhargava",
+      "reason": "Mathematical versatility and group theory, Life, surreals, collaborative work, teaching and public role"
+    },
+    {
+      "source_id": "history-conway-princetonmath",
+      "reason": "Published mathematical achievements, Atlas, Leech lattice, Conway groups, fifteen theorem, books"
+    },
+    {
+      "source_id": "history-conway-lms",
+      "reason": "Cambridge culture, Leech lattice and simple groups, Life, surreal numbers, Winning Ways and collaboration"
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "116000-h01",
+      "anchor": "Conway was born in Liverpool in 1937",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-conway-princeton",
+        "history-conway-caius"
+      ],
+      "source_locator": "Conway was born in Liverpool in 1937",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "116000-h02",
+      "anchor": "In 1956 he entered Gonville and Caius College",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-conway-caius"
+      ],
+      "source_locator": "In 1956 he entered Gonville and Caius College",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "116000-h03",
+      "anchor": "completed a doctorate in 1964 under Harold Davenport",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-conway-bhargava"
+      ],
+      "source_locator": "completed a doctorate in 1964 under Harold Davenport",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "116000-h04",
+      "anchor": "His doctoral work and early career included number theory",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-conway-princetonmath"
+      ],
+      "source_locator": "His doctoral work and early career included number theory",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "116000-h05",
+      "anchor": "The discovery that put him at the center of a new algebraic research program involved the Leech lattice",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-conway-lms"
+      ],
+      "source_locator": "The discovery that put him at the center of a new algebraic research program involved the Leech lattice",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "116000-h06",
+      "anchor": "Conway studied the symmetries of this lattice in the late nineteen-sixties",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-conway-princetonmath",
+        "history-conway-lms"
+      ],
+      "source_locator": "Conway studied the symmetries of this lattice in the late nineteen-sixties",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "116000-h07",
+      "anchor": "led Conway to three sporadic simple groups",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-conway-princetonmath"
+      ],
+      "source_locator": "led Conway to three sporadic simple groups",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "116000-h08",
+      "anchor": "In 1970 Martin Gardner introduced Conway's Game of Life",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-conway-princeton",
+        "history-conway-bhargava"
+      ],
+      "source_locator": "In 1970 Martin Gardner introduced Conway's Game of Life",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "116000-h09",
+      "anchor": "Let us follow one small pattern",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-conway-princetonmath"
+      ],
+      "source_locator": "Let us follow one small pattern",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "116000-h10",
+      "anchor": "The Game of Life became important to computer culture",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-conway-bhargava"
+      ],
+      "source_locator": "The Game of Life became important to computer culture",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "116000-h11",
+      "anchor": "Conway had complicated feelings about this fame",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-conway-lms"
+      ],
+      "source_locator": "Conway had complicated feelings about this fame",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "116000-h12",
+      "anchor": "Another of his great inventions grew from analyzing two-player games",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-conway-lms",
+        "history-conway-bhargava"
+      ],
+      "source_locator": "Another of his great inventions grew from analyzing two-player games",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "116000-h13",
+      "anchor": "The surreal numbers were developed in the early nineteen-seventies",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-conway-princetonmath"
+      ],
+      "source_locator": "The surreal numbers were developed in the early nineteen-seventies",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "116000-h14",
+      "anchor": "With Elwyn Berlekamp and Richard Guy",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-conway-lms",
+        "history-conway-princetonmath"
+      ],
+      "source_locator": "With Elwyn Berlekamp and Richard Guy",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "116000-h15",
+      "anchor": "With Simon Norton he contributed to what became known as monstrous moonshine",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-conway-princetonmath",
+        "history-conway-princeton"
+      ],
+      "source_locator": "With Simon Norton he contributed to what became known as monstrous moonshine",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "116000-h16",
+      "anchor": "He was also one of the principal authors of the *Atlas of Finite Groups*",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-conway-lms",
+        "history-conway-princetonmath"
+      ],
+      "source_locator": "He was also one of the principal authors of the *Atlas of Finite Groups*",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "116000-h17",
+      "anchor": "During the nineteen-eighties Conway moved to Princeton",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-conway-lms",
+        "history-conway-princeton"
+      ],
+      "source_locator": "During the nineteen-eighties Conway moved to Princeton",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "116000-h18",
+      "anchor": "Conway collaborated with Neil Sloane",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-conway-princetonmath"
+      ],
+      "source_locator": "Conway collaborated with Neil Sloane",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "116000-h19",
+      "anchor": "He developed the fifteen theorem with William Schneeberger",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-conway-princetonmath"
+      ],
+      "source_locator": "He developed the fifteen theorem with William Schneeberger",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "116000-h20",
+      "anchor": "In his later years Conway worked with Simon Kochen",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-conway-princetonmath"
+      ],
+      "source_locator": "In his later years Conway worked with Simon Kochen",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "116000-h21",
+      "anchor": "In 2001 he married Diana Conway",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-conway-princeton"
+      ],
+      "source_locator": "In 2001 he married Diana Conway",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "116000-h22",
+      "anchor": "He died in April 2020",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-conway-princeton"
+      ],
+      "source_locator": "He died in April 2020",
+      "audit_status": "source_checked"
+    }
+  ]
+}
