@@ -1,9 +1,43 @@
 {
-  "default_collection": "survey",
+  "default_collection": "fan-essays",
   "collections": [
     {
+      "id": "fan-essays",
+      "title": "Spider-Man · Fan Essays and Deep Dives",
+      "role": "main",
+      "categories": [
+        "Literature and arts"
+      ],
+      "audiences": [
+        "fans",
+        "general"
+      ],
+      "summary": "Start here if you already know Spider-Man. Four engaging standalone essays about creators, Jonah Jameson, the villains, and continuity controversies; major spoilers.",
+      "chapters": [
+        {
+          "title": "The people who made Spider-Man",
+          "lectures": [
+            "005000"
+          ]
+        },
+        {
+          "title": "The people who make Peter miserable",
+          "lectures": [
+            "006000",
+            "007000"
+          ]
+        },
+        {
+          "title": "The arguments fans keep having",
+          "lectures": [
+            "008000"
+          ]
+        }
+      ]
+    },
+    {
       "id": "survey",
-      "title": "Spider-Man · Foundations, Story, and Reinventions",
+      "title": "Spider-Man · Origin and Introductory Survey",
       "role": "main",
       "categories": [
         "Literature and arts"
@@ -11,7 +45,7 @@
       "audiences": [
         "general"
       ],
-      "summary": "Four independent, substantial lectures: creation history, Peter Parker's first decade, a critical study of recurring story conflicts, and the expansion to other Spider-people.",
+      "summary": "An optional foundation route: the 1962 creation, the early continuity, story themes, and later reinventions. Plot context is provided for newcomers.",
       "chapters": [
         {
           "title": "The original character and the early comics",
@@ -25,6 +59,39 @@
           "lectures": [
             "003000",
             "004000"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "complete",
+      "title": "Spider-Man · Every Lecture",
+      "role": "deep_dive",
+      "categories": [
+        "Literature and arts"
+      ],
+      "audiences": [
+        "fans",
+        "general"
+      ],
+      "summary": "The full eight-lecture library: introductory survey followed by the fan-essay collection.",
+      "chapters": [
+        {
+          "title": "Introductory survey",
+          "lectures": [
+            "001000",
+            "002000",
+            "003000",
+            "004000"
+          ]
+        },
+        {
+          "title": "Creator and character essays",
+          "lectures": [
+            "005000",
+            "006000",
+            "007000",
+            "008000"
           ]
         }
       ]

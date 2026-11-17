@@ -1,11 +1,12 @@
 {
   "id": "spider-man",
   "title": "Spider-Man: The Comics, the Character, and the Culture",
-  "summary": "An audio-first study of Spider-Man as a landmark superhero comic: the 1962 creation, Peter Parker's early life, the story mechanics of responsibility and secrecy, and later reinventions including Miles Morales and Spider-Gwen.",
+  "summary": "Fan-focused audio essays about what makes Spider-Man worth discussing: creators and comic-book craft, characters and rivalries, strange continuity decisions, and the changing cultural life of the mask. The original four introductory lectures remain available as an optional orientation route.",
   "categories": [
     "Literature and arts"
   ],
   "audiences": [
+    "fans",
     "general"
   ],
   "tags": [
@@ -15,14 +16,18 @@
     "Visual storytelling"
   ],
   "assumed_background": [
-    "No prior comic reading is required. The first lecture introduces the original story; later lectures include spoilers for early issues and selected modern adaptations.",
-    "This introductory sequence distinguishes mainline comics, alternate comics continuities, and film versions. It is a history and criticism track, not a complete retelling of every published issue."
+    "Default route is written for Spider-Man fans; basic familiarity with Peter Parker, his mask, and the best-known supporting cast is helpful but specialized comics knowledge is explained.",
+    "Contains major spoilers for classic comics, the Clone Saga, One More Day, and selected films. Publication history, fictional continuity and criticism are distinguished.",
+    "The introductory survey remains available separately for listeners new to the characters. These are narrated essays, not issue-by-issue plot retellings."
   ],
   "sections": [
     "origins-and-creators",
     "early-continuity",
     "themes-and-form",
-    "reinventions-and-adaptations"
+    "reinventions-and-adaptations",
+    "craft-and-creators",
+    "characters-and-conflicts",
+    "continuity-and-fandom"
   ],
   "lectures": [
     {
@@ -83,6 +88,66 @@
         "Spider-Man",
         "Miles Morales",
         "Adaptation"
+      ]
+    },
+    {
+      "id": "005000",
+      "title": "Steve Ditko, Stan Lee, and the Spider-Man You Can Feel in a Drawing",
+      "section": "craft-and-creators",
+      "file": "005000-ditko-and-the-making-of-spider-man.md",
+      "spoken_words": 2271,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 15.7,
+      "tags": [
+        "Spider-Man",
+        "Comics history",
+        "Steve Ditko",
+        "Visual storytelling"
+      ]
+    },
+    {
+      "id": "006000",
+      "title": "J. Jonah Jameson: A Man Who Keeps Hiring His Own Worst Enemy",
+      "section": "characters-and-conflicts",
+      "file": "006000-why-jonah-jameson-works.md",
+      "spoken_words": 2334,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 16.1,
+      "tags": [
+        "Spider-Man",
+        "J. Jonah Jameson",
+        "Journalism",
+        "Comics criticism"
+      ]
+    },
+    {
+      "id": "007000",
+      "title": "How Spider-Man's Villains Hurt Him Without Winning the Fight",
+      "section": "characters-and-conflicts",
+      "file": "007000-villains-who-know-how-to-hurt-spider-man.md",
+      "spoken_words": 2525,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 17.4,
+      "tags": [
+        "Spider-Man",
+        "Villains",
+        "Visual storytelling",
+        "Comics criticism"
+      ]
+    },
+    {
+      "id": "008000",
+      "title": "Clones, Marriage, and the Problem of Letting Peter Parker Grow Up",
+      "section": "continuity-and-fandom",
+      "file": "008000-clones-marriage-and-the-status-quo.md",
+      "spoken_words": 2486,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 17.1,
+      "tags": [
+        "Spider-Man",
+        "Comics history",
+        "Continuity",
+        "Comics criticism"
       ]
     }
   ]

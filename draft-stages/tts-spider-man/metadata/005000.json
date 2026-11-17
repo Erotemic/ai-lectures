@@ -1,0 +1,155 @@
+{
+  "schema_version": 1,
+  "lecture_id": "005000",
+  "transcript": "005000-ditko-and-the-making-of-spider-man.md",
+  "related_resources": [
+    {
+      "source_id": "sm-loc-exhibition",
+      "reason": "Archival original artwork, creator credits, built web-shooters, and the originally narrator-delivered moral."
+    },
+    {
+      "source_id": "sm-af15-primary",
+      "reason": "Foundational comic story. The Library of Congress catalog summarizes original story art; catalog access is not a license to reproduce full pages. First story's publication date has conflicting cover/indicia/on-sale conventions."
+    },
+    {
+      "source_id": "sm-loc-sara2024",
+      "reason": "Examines original page alterations including the covered-sedan correction; specific marginal language is a key anchor."
+    },
+    {
+      "source_id": "sm-comic-historians-ditko",
+      "reason": "Compares published recollections and claims; not an authority that resolves disputed private conversations."
+    },
+    {
+      "source_id": "sm-gcd-af15",
+      "reason": "Issue, creator, and precise bibliographic credits; distinguishes publication date conventions."
+    },
+    {
+      "source_id": "sm-gcd-asm25",
+      "reason": "Professor Smythe, Spider-Slayer, Jameson rental and Ditko plot / Lee dialogue credits."
+    },
+    {
+      "source_id": "sm-gcd-asm-series",
+      "reason": "Issue-by-issue record of Ditko plot, Lee dialogue, lettering, and the Romita transition."
+    },
+    {
+      "source_id": "sm-gcd-asm33",
+      "reason": "Stan Lee and Steve Ditko credits and issue record, cover dated February 1966."
+    },
+    {
+      "source_id": "sm-marvel-mustreads",
+      "reason": "Official issue-selection guide to early and later Spider-Man, including #1, #33, #121, and #252."
+    },
+    {
+      "source_id": "sm-marvel-asm39",
+      "reason": "Official record of John Romita Sr. and Stan Lee on issue #39."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "005000-c01",
+      "anchor": "The Library of Congress holds original artwork from *Amazing Fantasy* number fifteen, published in 1962.",
+      "kind": "publication_or_story_reference",
+      "source_ids": [
+        "sm-loc-exhibition",
+        "sm-af15-primary"
+      ],
+      "source_locator": "original art gift and archive",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "005000-c02",
+      "anchor": "Lee asks Ditko to change the appearance of a car: make it a covered sedan and remove an implication of wild driving.",
+      "kind": "publication_or_story_reference",
+      "source_ids": [
+        "sm-loc-sara2024"
+      ],
+      "source_locator": "specific margin correction, page three",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "005000-c03",
+      "anchor": "The Library's records identify Ditko as artist, Lee as author, and Artie Simek as the letterer of the origin story.",
+      "kind": "publication_or_story_reference",
+      "source_ids": [
+        "sm-af15-primary",
+        "sm-loc-exhibition"
+      ],
+      "source_locator": "LOC catalog creator names",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "005000-c04",
+      "anchor": "an earlier version of the story's title lettering that spelled Spider-Man without the hyphen.",
+      "kind": "publication_or_story_reference",
+      "source_ids": [
+        "sm-af15-primary"
+      ],
+      "source_locator": "title overlay note in LOC catalog",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "005000-c05",
+      "anchor": "He worked on an earlier design approach, and he drew the published cover for Spider-Man's first appearance, while Ditko drew the origin story inside.",
+      "kind": "publication_or_story_reference",
+      "source_ids": [
+        "sm-comic-historians-ditko",
+        "sm-gcd-af15"
+      ],
+      "source_locator": "disputed recollections; original first-appearance cover and interior credits",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "005000-c06",
+      "anchor": "The Grand Comics Database credits Ditko for plot and Lee for dialogue on later issues such as *Amazing Spider-Man* number twenty-five and number thirty-eight.",
+      "kind": "publication_or_story_reference",
+      "source_ids": [
+        "sm-gcd-asm25",
+        "sm-gcd-asm-series"
+      ],
+      "source_locator": "later-story credit differentiation",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "005000-c07",
+      "anchor": "In *The Amazing Spider-Man* number thirty-three, Spider-Man is trapped beneath an immense piece of machinery, with an urgent need to escape.",
+      "kind": "publication_or_story_reference",
+      "source_ids": [
+        "sm-gcd-asm33",
+        "sm-marvel-mustreads"
+      ],
+      "source_locator": "Master Planner issue",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "005000-c08",
+      "anchor": "Ditko's last regular issue on *The Amazing Spider-Man* was number thirty-eight.",
+      "kind": "publication_or_story_reference",
+      "source_ids": [
+        "sm-gcd-asm-series"
+      ],
+      "source_locator": "1966 issue chronology",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "005000-c09",
+      "anchor": "John Romita took over with number thirty-nine in 1966.",
+      "kind": "publication_or_story_reference",
+      "source_ids": [
+        "sm-marvel-asm39",
+        "sm-gcd-asm-series"
+      ],
+      "source_locator": "August 1966 cover date, Romita credit",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "005000-c10",
+      "anchor": "Romita's early work includes the Green Goblin story in which Norman Osborn learns Spider-Man's identity.",
+      "kind": "publication_or_story_reference",
+      "source_ids": [
+        "sm-marvel-asm39"
+      ],
+      "source_locator": "Amazing Spider-Man #39, #40 Goblin arc",
+      "audit_status": "source_checked"
+    }
+  ]
+}

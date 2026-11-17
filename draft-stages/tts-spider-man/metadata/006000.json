@@ -1,0 +1,150 @@
+{
+  "schema_version": 1,
+  "lecture_id": "006000",
+  "transcript": "006000-why-jonah-jameson-works.md",
+  "related_resources": [
+    {
+      "source_id": "sm-marvel-peter",
+      "reason": "High-level fictional chronology; may combine events across long serial eras, so do not use as precise individual issue dating."
+    },
+    {
+      "source_id": "sm-marvel-jonah",
+      "reason": "Publisher bibliography for character appearances and later explorations."
+    },
+    {
+      "source_id": "sm-marvel-scorpion",
+      "reason": "Jameson pays Farley Stillwell and hires Mac Gargan; modern account includes retcons and later history."
+    },
+    {
+      "source_id": "sm-gcd-asm25",
+      "reason": "Professor Smythe, Spider-Slayer, Jameson rental and Ditko plot / Lee dialogue credits."
+    },
+    {
+      "source_id": "sm-film-2002",
+      "reason": "Film cited for Simmons casting, Bugle scene and Jameson protection of Peter; link is supplementary public film index, not a viewing copy."
+    },
+    {
+      "source_id": "sm-zdarsky-jonah",
+      "reason": "Story by Chip Zdarsky and Michael Walsh, published November 2017. Listed as original work with public bibliographic index; spoilers confirmed by contemporary report."
+    },
+    {
+      "source_id": "sm-jonah-interview2017",
+      "reason": "Contemporary report on Spectacular Spider-Man #6 reveal and its emotional stakes, not a replacement for the comic."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "006000-c01",
+      "anchor": "Jameson appears very early in the Spider-Man story, in the first issue of *The Amazing Spider-Man* in 1963.",
+      "kind": "publication_or_story_reference",
+      "source_ids": [
+        "sm-marvel-peter",
+        "sm-marvel-jonah"
+      ],
+      "source_locator": "first ongoing issue",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "006000-c02",
+      "anchor": "In *Amazing Spider-Man* number twenty, Jameson's campaign helps create the Scorpion.",
+      "kind": "publication_or_story_reference",
+      "source_ids": [
+        "sm-marvel-scorpion"
+      ],
+      "source_locator": "Scorpion origin and commission",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "006000-c03",
+      "anchor": "Mac Gargan, a private investigator, receives dangerous enhancements through scientist Farley Stillwell, with Jameson financing the scheme.",
+      "kind": "publication_or_story_reference",
+      "source_ids": [
+        "sm-marvel-scorpion"
+      ],
+      "source_locator": "Scorpion origin",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "006000-c04",
+      "anchor": "Spider-Man ends up protecting the very man who helped create the problem.",
+      "kind": "publication_or_story_reference",
+      "source_ids": [
+        "sm-marvel-scorpion"
+      ],
+      "source_locator": "Scorpion targets Jameson",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "006000-c05",
+      "anchor": "Professor Spencer Smythe builds a Spider-Slayer robot, and Jameson pays to use it against Spider-Man.",
+      "kind": "publication_or_story_reference",
+      "source_ids": [
+        "sm-gcd-asm25"
+      ],
+      "source_locator": "Amazing Spider-Man #25 synopsis",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "006000-c06",
+      "anchor": "Robbie Robertson, in particular, provides an important counterweight to the editor's anger.",
+      "kind": "publication_or_story_reference",
+      "source_ids": [
+        "sm-marvel-jonah",
+        "sm-marvel-peter"
+      ],
+      "source_locator": "supporting cast interpretation; issue-level primary reading recommended",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "006000-c07",
+      "anchor": "His son John Jameson is celebrated as an astronaut in the earliest comics,",
+      "kind": "publication_or_story_reference",
+      "source_ids": [
+        "sm-marvel-peter"
+      ],
+      "source_locator": "Amazing Spider-Man #1 John Jameson",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "006000-c08",
+      "anchor": "Many fans first encountered Jonah through J. K. Simmons in Sam Raimi's films.",
+      "kind": "publication_or_story_reference",
+      "source_ids": [
+        "sm-film-2002"
+      ],
+      "source_locator": "2002 film casting; “many fans” is nonquantitative framing",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "006000-c09",
+      "anchor": "In Raimi's first *Spider-Man*, Jonah refuses to reveal Peter Parker as the source of photographs when threatened by the Green Goblin.",
+      "kind": "publication_or_story_reference",
+      "source_ids": [
+        "sm-film-2002"
+      ],
+      "source_locator": "film Bugle/Goblin scene",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "006000-c10",
+      "anchor": "One of the most interesting late interventions comes in Chip Zdarsky and Michael Walsh's *Peter Parker: The Spectacular Spider-Man* number six, published in 2017.",
+      "kind": "publication_or_story_reference",
+      "source_ids": [
+        "sm-zdarsky-jonah",
+        "sm-jonah-interview2017"
+      ],
+      "source_locator": "2017 story and credits",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "006000-c11",
+      "anchor": "By the end, Peter reveals his identity to Jonah.",
+      "kind": "publication_or_story_reference",
+      "source_ids": [
+        "sm-jonah-interview2017"
+      ],
+      "source_locator": "2017 issue reveal",
+      "audit_status": "source_checked"
+    }
+  ]
+}

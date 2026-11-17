@@ -1,30 +1,53 @@
 # Spider-Man: The Comics, the Character, and the Culture
 
-A self-contained, audio-first, general-audience lecture track on the history, storytelling, and cultural afterlives of Spider-Man. The track treats **Spider-Man as a collaborative comics creation**, rather than collapsing him into a single film continuity or describing fictional events as publication history.
+This is an **entertaining, research-based Spider-Man audio essay collection for fans**. It is not a prose adaptation, synopsis service, encyclopedia of issues, or a retelling course. Plots matter when they enable an argument about character, comics craft, creator history, adaptation, or the decisions that made fans argue for decades.
 
-## First installment: four full manuscripts
+## Start here: Fan Essays and Deep Dives
 
-| ID | Lecture | Scope |
+This is the **default listening collection** in `navigation.json`. The lectures are standalone, but the suggested path is:
+
+| ID | Lecture | Why a Spider-Man fan might enjoy it |
 | --- | --- | --- |
-| 001000 | Spider-Man Is Born | 1962 origin, Stan Lee and Steve Ditko, the page as a visual medium, moral responsibility |
-| 002000 | Peter Parker's First Decade | *Amazing Spider-Man* #1–122, graduation into adulthood, supporting cast, Goblin, Gwen's death |
-| 003000 | The Spider-Man Story Engine | Moral limits, time conflicts, work and money, public reputation, secrecy, and urban setting |
-| 004000 | The Mask Beyond Peter Parker | Black suit/Venom, evolving Peter, *Ultimate Spider-Man*, Miles, Gwen, Spider-Verse and adaptations |
+| 005000 | Steve Ditko, Stan Lee, and the Spider-Man You Can Feel in a Drawing | An original artwork correction, co-creator disputes, the Marvel Method, the Master Planner pages, and what changes when Romita takes over |
+| 006000 | J. Jonah Jameson: A Man Who Keeps Hiring His Own Worst Enemy | The joke of Peter's employment, Jonah's reasonable question and disastrous answers, the Scorpion and Spider-Slayers, and a later identity reveal |
+| 007000 | How Spider-Man's Villains Hurt Him Without Winning the Fight | Why Otto, Norman, Mysterio, Connors, Venom, and Kraven are different kinds of threat, including the body-swap and identity-substitution stories |
+| 008000 | Clones, Marriage, and the Problem of Letting Peter Parker Grow Up | Ben Reilly, Peter and MJ's marriage, One More Day, the status quo, and an alternative in Life Story |
 
-The default listening route includes all four in this order. Manuscripts are **complete spoken lectures**, not brief outlines. They contain spoilers for major early comics and selected modern continuities, marked at the top of each file.
+**Spoiler policy:** These are criticism for existing fans and will discuss major moments. Each manuscript includes a written spoiler description. The narration is audio-first, without citations interrupting every spoken sentence.
 
-## Source discipline
+## Optional route: Origin and Introductory Survey
 
-- The 1962 issue, selected comic bibliographies, Library of Congress archival resources, publisher reading lists, creator credits, and studio/award records are identified in `metadata/sources.json`.
-- Each lecture has claim-level anchors and cited source IDs in `metadata/<lecture-id>.json`.
-- The non-spoken companions include direct links to relevant **Wikipedia** articles for further orientation; primary issue and archival records are preferred for claims about creators and publication history.
-- Interpretation is identified as criticism, not attributed to a creator unless supported by a named source. The track distinguishes *Amazing Fantasy* #15 from later adaptations of Uncle Ben's moral, and distinguishes mainstream Marvel, Ultimate, Earth-65, and film worlds.
-- No scanned art, comic panels, copyrighted dialogue, audio, or other binary media are included. This pack is original critical and historical narration, not a reproduction of the comics.
+The four original introductory lectures are intact. They provide useful context for new readers or listeners who want an organized foundation, but **are no longer the default route**:
 
-## Packaging and integration
+| ID | Lecture | Focus |
+| --- | --- | --- |
+| 001000 | Spider-Man Is Born | Amazing Fantasy #15, creation, origin and early moral premise |
+| 002000 | Peter Parker's First Decade | Early ongoing comic, school and college, Goblin, Gwen |
+| 003000 | The Spider-Man Story Engine | Responsibility, secrecy, money, time, New York and narrative consequences |
+| 004000 | The Mask Beyond Peter Parker | Black suit, Venom, Miles, Ghost-Spider, Spider-Verse |
 
-The entire source pack is under `draft-stages/tts-spider-man/`, with independent metadata and no edits to shared publishing tools. Apply via the existing `tools/content_overlay.py apply` importer. Existing TTS workflows can discover the track when the pack is imported. Audio has not been generated.
+A third route, **Every Lecture**, plays all eight in track order. All IDs are stable; the fan path only changes navigation, not previous manuscripts or audio identity.
 
-New material should append lectures under stable IDs and update the pack-owned `track.json`, `navigation.json` when needed, claim sidecars, and source records. See `BACKLOG.md` for the candidate expansion route; it is not an indexed set of draft lectures.
+## Editorial direction
 
-**Editorial principle:** Substantive lectures should be as long as the material warrants. Do not turn every comic issue into one lecture or make a list of disconnected trivia. Historical authorship, primary narrative, and critical interpretation are different subjects and should remain intelligible when heard aloud.
+- Write for someone who already likes Spider-Man, while explaining precise comic-book references and continuity changes at the moment they become relevant. Aim for the tone and substance of a thoughtful documentary or a good long-form fan essay, **not a textbook survey or issue-by-issue recap**.
+- Lead with a specific creative puzzle, incident, oddity, argument, or consequential creative decision, then develop that subject. Occasional humor and direct critical judgments are welcome when supported by examples; avoid mechanical trivia inventories, formulaic transitions, and artificial controversy.
+- Separate **what happens in a comic** from **what its creators did in publication history** and **how the essay interprets it**. Do not turn retrospective legends, possible creator motives, or fan opinions into facts. Name collaborators rather than compressing all creation into a famous public figure.
+- Length follows the topic, not a minimum or maximum. A manuscript must be satisfying to hear. Audio recordings have not been generated as part of this overlay.
+- Spoilers are appropriate for detailed criticism. Give only as much plot as the listener needs to understand the analysis. Treat supporting characters as characters, not merely instruments of Peter's development.
+
+## Sourcing and independent publishing
+
+All pack content is under `draft-stages/tts-spider-man/`. The pack includes `track.json`, `navigation.json`, its eight complete narration manuscripts, 8 per-lecture `metadata/NNNNNN.json` claim maps, `metadata/sources.json`, this README, and `BACKLOG.md`.
+
+Source notes are **outside** the `BEGIN SPOKEN LECTURE` / `END SPOKEN LECTURE` markers; they include relevant Wikipedia entries for navigation but use archival records, publisher issue catalogs, bibliographic catalogs, and contemporary reporting for meaningful factual claims. Interpretive readings are labelled as such. Comics, artwork, sound files and film footage are not included. The source metadata distinguishes archival records and secondary summaries from the copyrighted works themselves, which this pack does not reproduce.
+
+The archive is an **ordinary text-only ZIP**. To import a pack update when this directory is exclusively owned:
+
+```bash
+python tools/content_overlay.py apply ~/Downloads/spider-man-fan-essays-02.zip --replace-owned
+```
+
+This supports both a fresh install and a continuation from the first overlay. The `--replace-owned` flag is important when `track.json`, `navigation.json`, `README.md`, and `sources.json` already exist: the importer otherwise protects differing existing files. It performs recovery backups before replacement. It does not remove unrelated content or run shared publishing tools.
+
+Future fan-focused topics and optional deep dives live in `BACKLOG.md`.
