@@ -1,0 +1,227 @@
+{
+  "schema_version": 1,
+  "lecture_id": "108000",
+  "transcript": "108000-ibn-al-haytham.md",
+  "related_resources": [
+    {
+      "source_id": "history-haytham-cmu",
+      "reason": "Detailed cases and geometric complexity of Alhazen mirror problem."
+    },
+    {
+      "source_id": "history-haytham-mactutor",
+      "reason": "Optics, mirror problems, experiments, refraction and conflicting life accounts."
+    },
+    {
+      "source_id": "history-haytham-manchester",
+      "reason": "Debated interpretations of the physical and mathematical critique of Ptolemy."
+    },
+    {
+      "source_id": "history-haytham-mpi",
+      "reason": "Biography, disputed Nile account, optical and astronomical mathematical program."
+    },
+    {
+      "source_id": "history-haytham-optics",
+      "reason": "Seven-book optics structure, ruler and tube instruments, manuscript details."
+    },
+    {
+      "source_id": "history-haytham-ptolemy",
+      "reason": "Scope, textual witnesses and critiques of Ptolemy."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "108000-h01",
+      "anchor": "He was born around nine hundred sixty-five in Basra",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-haytham-mpi"
+      ],
+      "source_locator": "He was born around nine hundred sixty-five in Basra",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "108000-h02",
+      "anchor": "He later lived in Egypt and died around ten hundred forty in Cairo",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-haytham-mpi"
+      ],
+      "source_locator": "He later lived in Egypt and died around ten hundred forty in Cairo",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "108000-h03",
+      "anchor": "A famous account brings him to Egypt after he proposed a plan to regulate the annual flooding of the Nile",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-haytham-mpi",
+        "history-haytham-mactutor"
+      ],
+      "source_locator": "A famous account brings him to Egypt after he proposed a plan to regulate the annual flooding of the Nile",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "108000-h04",
+      "anchor": "Some later biographical accounts say he then feigned madness",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-haytham-mactutor"
+      ],
+      "source_locator": "Some later biographical accounts say he then feigned madness",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "108000-h05",
+      "anchor": "Later accounts place Ibn al-Haytham near the mosque of al-Azhar",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-haytham-mpi",
+        "history-haytham-mactutor"
+      ],
+      "source_locator": "Later accounts place Ibn al-Haytham near the mosque of al-Azhar",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "108000-h06",
+      "anchor": "Ibn al-Haytham's most famous work is the seven-book Kitab al-Manazir",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-haytham-optics"
+      ],
+      "source_locator": "Ibn al-Haytham's most famous work is the seven-book Kitab al-Manazir",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "108000-h07",
+      "anchor": "The date of its composition is not fixed to one precise year",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-haytham-optics"
+      ],
+      "source_locator": "The date of its composition is not fixed to one precise year",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "108000-h08",
+      "anchor": "Euclid described visual geometry; Ptolemy investigated sight and refraction",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-haytham-optics"
+      ],
+      "source_locator": "Euclid described visual geometry; Ptolemy investigated sight and refraction",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "108000-h09",
+      "anchor": "Ibn al-Haytham argued instead for a systematic account",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-haytham-optics"
+      ],
+      "source_locator": "Ibn al-Haytham argued instead for a systematic account",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "108000-h10",
+      "anchor": "tests with rulers, tubes, mirrors and controlled directions",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-haytham-optics"
+      ],
+      "source_locator": "tests with rulers, tubes, mirrors and controlled directions",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "108000-h11",
+      "anchor": "The camera obscura gives a vivid example",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-haytham-mactutor"
+      ],
+      "source_locator": "The camera obscura gives a vivid example",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "108000-h12",
+      "anchor": "This became known in later mathematical history as Alhazen's problem",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-haytham-mactutor",
+        "history-haytham-cmu"
+      ],
+      "source_locator": "This became known in later mathematical history as Alhazen's problem",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "108000-h13",
+      "anchor": "Ibn al-Haytham investigated such questions with substantial geometrical constructions",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-haytham-cmu"
+      ],
+      "source_locator": "Ibn al-Haytham investigated such questions with substantial geometrical constructions",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "108000-h14",
+      "anchor": "Ibn al-Haytham examined refraction and proposed explanations",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-haytham-mactutor"
+      ],
+      "source_locator": "Ibn al-Haytham examined refraction and proposed explanations",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "108000-h15",
+      "anchor": "He investigated areas of curved figures",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-haytham-mactutor"
+      ],
+      "source_locator": "He investigated areas of curved figures",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "108000-h16",
+      "anchor": "Doubts concerning Ptolemy",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-haytham-ptolemy",
+        "history-haytham-mpi"
+      ],
+      "source_locator": "Doubts concerning Ptolemy",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "108000-h17",
+      "anchor": "Scholars disagree over some aspects of the philosophy behind his criticisms",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-haytham-manchester"
+      ],
+      "source_locator": "Scholars disagree over some aspects of the philosophy behind his criticisms",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "108000-h18",
+      "anchor": "Translations of his optics circulated in medieval Latin",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-haytham-optics"
+      ],
+      "source_locator": "Translations of his optics circulated in medieval Latin",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "108000-h19",
+      "anchor": "The physical survival of the Book of Optics has its own history",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-haytham-optics"
+      ],
+      "source_locator": "The physical survival of the Book of Optics has its own history",
+      "audit_status": "source_checked"
+    }
+  ]
+}
