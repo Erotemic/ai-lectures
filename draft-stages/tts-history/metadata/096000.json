@@ -1,0 +1,292 @@
+{
+  "schema_version": 1,
+  "lecture_id": "096000",
+  "transcript": "096000-eisenstein.md",
+  "related_resources": [
+    {
+      "source_id": "history-eisenstein-deutsche",
+      "reason": "Appointments, Berlin 1848 arrest, letters, academy election, Humboldt, illness, mathematical research."
+    },
+    {
+      "source_id": "history-eisenstein-humboldt",
+      "reason": "Reproduced historic letters illustrating material patronage, petitions and finances."
+    },
+    {
+      "source_id": "history-eisenstein-mactutor",
+      "reason": "Family, health, schooling, Britain and Ireland, Berlin, Crelle, Gauss, 1848 arrest, reciprocity and elliptic functions."
+    },
+    {
+      "source_id": "history-eisenstein-mathworld",
+      "reason": "Concise sufficient condition and example of irreducibility, not primary priority evidence."
+    },
+    {
+      "source_id": "history-eisenstein-schoenemann",
+      "reason": "Original paper sequence, Schönemann 1846, Eisenstein 1850, and later contested priority of irreducibility criterion."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "096000-h01",
+      "anchor": "born in Berlin in April eighteen twenty-three",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-eisenstein-mactutor",
+        "history-eisenstein-deutsche"
+      ],
+      "source_locator": "Birth",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "096000-h02",
+      "anchor": "His father, Johann Konstantin Eisenstein",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-eisenstein-mactutor"
+      ],
+      "source_locator": "Family and finances",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "096000-h03",
+      "anchor": "His mother, Helene Pollack",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-eisenstein-mactutor"
+      ],
+      "source_locator": "Mother and early study",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "096000-h04",
+      "anchor": "five siblings died young",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-eisenstein-mactutor"
+      ],
+      "source_locator": "Family losses",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "096000-h05",
+      "anchor": "talent for music, especially piano playing",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-eisenstein-mactutor"
+      ],
+      "source_locator": "Music",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "096000-h06",
+      "anchor": "lectures by Peter Gustav Lejeune Dirichlet",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-eisenstein-mactutor"
+      ],
+      "source_locator": "School-age Berlin lectures",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "096000-h07",
+      "anchor": "In eighteen forty-two he bought a French translation",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-eisenstein-mactutor"
+      ],
+      "source_locator": "Reading Gauss",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "096000-h08",
+      "anchor": "family spent time in England, Wales, and Ireland",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-eisenstein-mactutor"
+      ],
+      "source_locator": "Family migration",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "096000-h09",
+      "anchor": "in eighteen forty-three, he met William Rowan Hamilton",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-eisenstein-mactutor"
+      ],
+      "source_locator": "Dublin Hamilton meeting",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "096000-h10",
+      "anchor": "enrolled at the University of Berlin",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-eisenstein-mactutor"
+      ],
+      "source_locator": "Berlin education",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "096000-h11",
+      "anchor": "August Leopold Crelle",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-eisenstein-mactutor"
+      ],
+      "source_locator": "Journal and editor",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "096000-h12",
+      "anchor": "Alexander von Humboldt",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-eisenstein-mactutor",
+        "history-eisenstein-humboldt"
+      ],
+      "source_locator": "Scientific patron",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "096000-h13",
+      "anchor": "In June eighteen forty-four Eisenstein traveled to Göttingen",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-eisenstein-mactutor",
+        "history-eisenstein-humboldt"
+      ],
+      "source_locator": "Meeting Gauss",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "096000-h14",
+      "anchor": "Moritz Stern in Göttingen",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-eisenstein-mactutor"
+      ],
+      "source_locator": "Friend and correspondence",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "096000-h15",
+      "anchor": "University of Breslau awarded him an honorary doctorate",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-eisenstein-mactutor",
+        "history-eisenstein-deutsche"
+      ],
+      "source_locator": "Honorary doctorate",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "096000-h16",
+      "anchor": "higher reciprocity laws, and elliptic functions",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-eisenstein-mactutor",
+        "history-eisenstein-deutsche"
+      ],
+      "source_locator": "Research topics",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "096000-h17",
+      "anchor": "relations with Jacobi could be strained",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-eisenstein-mactutor",
+        "history-eisenstein-deutsche"
+      ],
+      "source_locator": "Jacobi priority conflicts",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "096000-h18",
+      "anchor": "revolution of eighteen forty-eight interrupted far more",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-eisenstein-mactutor",
+        "history-eisenstein-deutsche"
+      ],
+      "source_locator": "March revolution",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "096000-h19",
+      "anchor": "released the following day after harsh treatment",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-eisenstein-mactutor",
+        "history-eisenstein-deutsche"
+      ],
+      "source_locator": "Arrest and release",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "096000-h20",
+      "anchor": "Humboldt continued to advocate for him",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-eisenstein-humboldt",
+        "history-eisenstein-deutsche"
+      ],
+      "source_locator": "Patronage",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "096000-h21",
+      "anchor": "member of the Berlin Academy",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-eisenstein-mactutor",
+        "history-eisenstein-deutsche"
+      ],
+      "source_locator": "Academy appointment",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "096000-h22",
+      "anchor": "Eisenstein criterion for the irreducibility of a polynomial",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-eisenstein-schoenemann",
+        "history-eisenstein-mathworld"
+      ],
+      "source_locator": "Criterion mathematics and credit",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "096000-h23",
+      "anchor": "Theodor Schönemann had published an earlier",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-eisenstein-schoenemann"
+      ],
+      "source_locator": "Prior Schönemann theorem",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "096000-h24",
+      "anchor": "Tuberculosis limited his work and eventually killed him",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-eisenstein-mactutor",
+        "history-eisenstein-deutsche"
+      ],
+      "source_locator": "Death and health",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "096000-h25",
+      "anchor": "elderly Humboldt following the coffin",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-eisenstein-mactutor",
+        "history-eisenstein-humboldt"
+      ],
+      "source_locator": "Funeral",
+      "audit_status": "source_cross_checked"
+    }
+  ]
+}

@@ -1,0 +1,303 @@
+{
+  "schema_version": 1,
+  "lecture_id": "094000",
+  "transcript": "094000-boole.md",
+  "related_resources": [
+    {
+      "source_id": "history-boole-dib",
+      "reason": "Family, Lincoln patrons, Cork institutions, De Morgan and Cayley letters, Mary and daughters, final illness."
+    },
+    {
+      "source_id": "history-boole-royal",
+      "reason": "Royal medal for analysis, fellowship, dates and educational chronology."
+    },
+    {
+      "source_id": "history-boole-sep2026",
+      "reason": "School teaching, early calculus, logic 1847 and 1854, close readings of Boole’s system and modern reconstructions."
+    },
+    {
+      "source_id": "history-boole-ucc",
+      "reason": "Teaching career and first mathematics chair at Queen’s College Cork; contemporary local institution."
+    },
+    {
+      "source_id": "history-shannon-relays1938",
+      "reason": "Published 1938 AIEE paper on relay switching and Boolean algebra with acknowledgments to colleagues."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "094000-h01",
+      "anchor": "born in Lincoln in November eighteen fifteen",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-boole-sep2026",
+        "history-boole-dib"
+      ],
+      "source_locator": "Birth",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "094000-h02",
+      "anchor": "His father, John, made shoes",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-boole-sep2026",
+        "history-boole-dib"
+      ],
+      "source_locator": "Father and social origins",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "094000-h03",
+      "anchor": "His mother was Mary Ann Joyce",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-boole-dib",
+        "history-boole-ucc"
+      ],
+      "source_locator": "Mother",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "094000-h04",
+      "anchor": "By sixteen, he was earning a living as a teacher",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-boole-sep2026",
+        "history-boole-dib"
+      ],
+      "source_locator": "Schoolmaster and household support",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "094000-h05",
+      "anchor": "In eighteen thirty-four, still a teenager, he opened a school",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-boole-sep2026",
+        "history-boole-dib"
+      ],
+      "source_locator": "School founding",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "094000-h06",
+      "anchor": "The Lincoln Mechanics' Institution mattered",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-boole-sep2026",
+        "history-boole-dib"
+      ],
+      "source_locator": "Local knowledge institutions",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "094000-h07",
+      "anchor": "Sir Edward Bromhead",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-boole-sep2026",
+        "history-boole-dib"
+      ],
+      "source_locator": "Bromhead patronage",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "094000-h08",
+      "anchor": "Boole's first mathematical papers appeared in eighteen forty-one",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-boole-dib",
+        "history-boole-sep2026"
+      ],
+      "source_locator": "First mathematics publications",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "094000-h09",
+      "anchor": "Duncan Gregory, editor of the Cambridge Mathematical Journal",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-boole-dib",
+        "history-boole-sep2026"
+      ],
+      "source_locator": "Editor and mentor",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "094000-h10",
+      "anchor": "Augustus De Morgan",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-boole-sep2026",
+        "history-boole-dib"
+      ],
+      "source_locator": "Correspondence and logic",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "094000-h11",
+      "anchor": "Arthur Cayley",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-boole-sep2026",
+        "history-boole-dib"
+      ],
+      "source_locator": "Mathematical correspondence",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "094000-h12",
+      "anchor": "eighteen forty-four paper on a general method in analysis won a Royal Society medal",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-boole-royal",
+        "history-boole-dib"
+      ],
+      "source_locator": "Royal Medal subject and year",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "094000-h13",
+      "anchor": "Sir William Hamilton and De Morgan disputed",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-boole-dib",
+        "history-boole-sep2026"
+      ],
+      "source_locator": "Dispute around quantified predicates",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "094000-h14",
+      "anchor": "In eighteen forty-seven he published The Mathematical Analysis of Logic",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-boole-sep2026",
+        "history-boole-dib"
+      ],
+      "source_locator": "Publication in 1847",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "094000-h15",
+      "anchor": "Queen's College in Cork",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-boole-ucc",
+        "history-boole-dib"
+      ],
+      "source_locator": "First Cork appointment",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "094000-h16",
+      "anchor": "eighteen forty-nine, becoming the college's first professor of mathematics",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-boole-ucc",
+        "history-boole-sep2026"
+      ],
+      "source_locator": "Founding chair",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "094000-h17",
+      "anchor": "In eighteen fifty-four he published An Investigation of the Laws of Thought",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-boole-sep2026",
+        "history-boole-dib"
+      ],
+      "source_locator": "Publication in 1854",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "094000-h18",
+      "anchor": "In eighteen fifty-five Boole married Mary Everest",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-boole-dib",
+        "history-boole-sep2026"
+      ],
+      "source_locator": "Marriage",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "094000-h19",
+      "anchor": "they had five daughters",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-boole-dib",
+        "history-boole-ucc"
+      ],
+      "source_locator": "Children",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "094000-h20",
+      "anchor": "Alicia Boole Stott developed independent work",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-boole-dib",
+        "history-boole-sep2026"
+      ],
+      "source_locator": "Daughter Alicia",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "094000-h21",
+      "anchor": "Lucy became a chemist and lecturer",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-boole-dib",
+        "history-boole-sep2026"
+      ],
+      "source_locator": "Daughter Lucy",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "094000-h22",
+      "anchor": "Ethel Lilian Voynich wrote the novel The Gadfly",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-boole-sep2026",
+        "history-boole-dib"
+      ],
+      "source_locator": "Daughter Ethel",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "094000-h23",
+      "anchor": "Boole died of pneumonia in Cork",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-boole-sep2026",
+        "history-boole-dib"
+      ],
+      "source_locator": "Death and cautious diagnosis",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "094000-h24",
+      "anchor": "Jevons, John Venn, Ernst Schröder",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-boole-sep2026"
+      ],
+      "source_locator": "Later algebraic logic",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "094000-h25",
+      "anchor": "Claude Shannon showed how Boolean methods could describe",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-shannon-relays1938",
+        "history-boole-sep2026"
+      ],
+      "source_locator": "Later relay-logic reception",
+      "audit_status": "source_cross_checked"
+    }
+  ]
+}

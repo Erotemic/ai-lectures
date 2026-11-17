@@ -1,0 +1,293 @@
+{
+  "schema_version": 1,
+  "lecture_id": "095000",
+  "transcript": "095000-shannon.md",
+  "related_resources": [
+    {
+      "source_id": "history-shannon-1948",
+      "reason": "Original technical definitions and results; credits Nyquist, Hartley, and John Tukey for the term bit."
+    },
+    {
+      "source_id": "history-shannon-ieee",
+      "reason": "Education, Vannevar Bush, Bell Labs, cryptography, 1948 communications theory, hobbies and experimental devices."
+    },
+    {
+      "source_id": "history-shannon-mit",
+      "reason": "MIT appointments, Bell Labs, Betty Moore, Theseus, later life, death."
+    },
+    {
+      "source_id": "history-shannon-relays1938",
+      "reason": "Published 1938 AIEE paper on relay switching and Boolean algebra with acknowledgments to colleagues."
+    },
+    {
+      "source_id": "history-shannon-thesis",
+      "reason": "Thesis formally issued in 1940; clarify distinction from publicly published 1938 paper."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "095000-h01",
+      "anchor": "born in April nineteen sixteen in Petoskey, Michigan",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-shannon-ieee",
+        "history-shannon-mit"
+      ],
+      "source_locator": "Birth and childhood",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "095000-h02",
+      "anchor": "grew up in Gaylord",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-shannon-ieee",
+        "history-shannon-mit"
+      ],
+      "source_locator": "Childhood town",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "095000-h03",
+      "anchor": "his mother, Mabel Wolf Shannon, was a teacher",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-shannon-mit",
+        "history-shannon-ieee"
+      ],
+      "source_locator": "Family background",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "095000-h04",
+      "anchor": "As a schoolboy he worked as a messenger for Western Union",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-shannon-mit"
+      ],
+      "source_locator": "Early communications work",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "095000-h05",
+      "anchor": "University of Michigan he studied both mathematics and electrical engineering",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-shannon-mit",
+        "history-shannon-ieee"
+      ],
+      "source_locator": "Two bachelor’s degrees",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "095000-h06",
+      "anchor": "Vannevar Bush's differential analyzer",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-shannon-ieee",
+        "history-shannon-mit"
+      ],
+      "source_locator": "Analog computing training",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "095000-h07",
+      "anchor": "A Symbolic Analysis of Relay and Switching Circuits, published in nineteen thirty-eight",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-shannon-relays1938",
+        "history-shannon-thesis"
+      ],
+      "source_locator": "1938 paper and thesis-date distinction",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "095000-h08",
+      "anchor": "MIT's archived master's thesis bears a formal issue date of nineteen forty",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-shannon-thesis"
+      ],
+      "source_locator": "Formal archive year",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "095000-h09",
+      "anchor": "Frank Hitchcock, and Samuel Caldwell",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-shannon-relays1938"
+      ],
+      "source_locator": "Paper acknowledgments",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "095000-h10",
+      "anchor": "doctoral dissertation on an algebraic approach to genetics",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-shannon-ieee",
+        "history-shannon-mit"
+      ],
+      "source_locator": "1940 mathematics doctorate",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "095000-h11",
+      "anchor": "Bell Telephone Laboratories became his main research home in nineteen forty-one",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-shannon-ieee",
+        "history-shannon-mit"
+      ],
+      "source_locator": "Bell Labs appointment",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "095000-h12",
+      "anchor": "classified questions involving secure speech systems",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-shannon-ieee",
+        "history-shannon-mit"
+      ],
+      "source_locator": "Wartime secrecy",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "095000-h13",
+      "anchor": "nineteen forty-nine paper Communication Theory of Secrecy Systems",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-shannon-ieee",
+        "history-shannon-mit"
+      ],
+      "source_locator": "Declassified paper",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "095000-h14",
+      "anchor": "best-known paper arrived in nineteen forty-eight",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-shannon-1948",
+        "history-shannon-ieee"
+      ],
+      "source_locator": "1948 theory",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "095000-h15",
+      "anchor": "in two installments and rested on earlier research",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-shannon-1948"
+      ],
+      "source_locator": "Two-part BSTJ paper and antecedents",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "095000-h16",
+      "anchor": "including Harry Nyquist and Ralph Hartley",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-shannon-1948"
+      ],
+      "source_locator": "Prior transmission limits",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "095000-h17",
+      "anchor": "semantic question of what the message meant",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-shannon-1948"
+      ],
+      "source_locator": "Shannon’s scope distinction",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "095000-h18",
+      "anchor": "defined channel capacity and proved",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-shannon-1948"
+      ],
+      "source_locator": "Noisy-channel theorem",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "095000-h19",
+      "anchor": "Richard Hamming, pursued a related but distinct problem",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-shannon-mit",
+        "history-shannon-ieee"
+      ],
+      "source_locator": "Lab context and error correction",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "095000-h20",
+      "anchor": "John Tukey suggested the word bit",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-shannon-1948"
+      ],
+      "source_locator": "Credit to Tukey",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "095000-h21",
+      "anchor": "His electromechanical mouse, Theseus",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-shannon-mit",
+        "history-shannon-ieee"
+      ],
+      "source_locator": "Maze demonstration",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "095000-h22",
+      "anchor": "Mary Elizabeth Moore, known as Betty",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-shannon-mit"
+      ],
+      "source_locator": "Marriage and spouse’s research work",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "095000-h23",
+      "anchor": "They married in nineteen forty-nine",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-shannon-mit"
+      ],
+      "source_locator": "Marriage year",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "095000-h24",
+      "anchor": "increasingly returned to MIT",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-shannon-ieee",
+        "history-shannon-mit"
+      ],
+      "source_locator": "MIT professorship",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "095000-h25",
+      "anchor": "died in February two thousand one",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-shannon-mit"
+      ],
+      "source_locator": "Death",
+      "audit_status": "source_checked"
+    }
+  ]
+}
