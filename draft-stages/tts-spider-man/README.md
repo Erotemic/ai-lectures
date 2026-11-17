@@ -1,10 +1,10 @@
 # Spider-Man: The Comics, the Character, and the Culture
 
-A **source-grounded audio-essay track for Spider-Man fans and curious newcomers**. Its purpose is an enjoyable listen, not a comic-by-comic recap or a narrated adaptation. Stories are explained whenever an example needs context, but the central attractions are creative personalities, memorable scenes, arguments about character, artwork and sound, production decisions, and the history of the character across media. Spoilers are flagged before the spoken narration in each manuscript. There is no required word count or running time.
+An **editorially complete, source-grounded audio-essay track for Spider-Man fans and curious newcomers**. Its purpose is an enjoyable listen, not a comic-by-comic recap or a narrated adaptation. Stories are explained whenever an example needs context, but the central attractions are creative personalities, memorable scenes, arguments about character, artwork and sound, production decisions, and the history of the character across media. Spoilers are flagged before the spoken narration in each manuscript. There is no required word count or running time.
 
 ## Start here
 
-`navigation.json` defines five listening collections. **Fan Essays and Deep Dives** (`fan-essays`) is the default. The essays generally stand alone; the four introductory essays offer a route for listeners wanting more history and context before beginning. Other collections are **The Essentials in Four Essays** (`survey`), **Every Lecture** (`complete`), **Drawing and Filming the Hero** (`comics-and-screen-craft`), and **Responsibility, Work, and Time** (`peter-and-his-world`).
+**The 23-lecture series is complete.** `navigation.json` defines five listening collections. **Fan Essays and Deep Dives** (`fan-essays`) is the default. The essays generally stand alone; the four introductory essays offer a route for listeners wanting more history and context before beginning. Other collections are **The Essentials in Four Essays** (`survey`), **Every Lecture** (`complete`), **Drawing and Filming the Hero** (`comics-and-screen-craft`), and **Responsibility, Work, and Time** (`peter-and-his-world`).
 
 ## The Essentials in Four Essays
 
@@ -17,7 +17,7 @@ A **source-grounded audio-essay track for Spider-Man fans and curious newcomers*
 
 ## Historical orientation
 
-**023000 — Spider-Man Through the Decades:** One substantial, standalone history from the 1962 origin through the 2024–2026 alternative adult-Peter series. Newcomer-friendly context with creative history, changing media, fan experiences, and the recurrent conflict between character growth and serial resets. It is included first in the default fan-essay listening route and after the foundations in the complete route; the four-essay Essentials route stays unchanged.
+**023000 — Spider-Man Through the Decades:** One substantial, standalone history from the 1962 origin through the 2024–2026 alternative adult-Peter series. Newcomer-friendly context with creative history, changing media, fan experiences, and the recurrent conflict between character growth and serial resets. It is the **final lecture** of both the default fan-essay route and the complete 23-lecture route. The four-essay Essentials collection is unchanged for listeners who want a shorter introduction. The capstone itself is a long, continuous critical history and conclusion, not a trailer for more lectures.
 
 ## Fan Essays and Deep Dives
 
@@ -41,7 +41,7 @@ A **source-grounded audio-essay track for Spider-Man fans and curious newcomers*
 | 020000 | What If Peter Parker Had Actually Aged? | What does *Spider-Man: Life Story* reveal when time becomes real? |
 | 021000 | Peter Parker Cannot Cash His Check | Why does money keep creating Spider-Man stories? |
 | 022000 | The City Beneath the Mask | Why do the boroughs, crowds and infrastructure matter? |
-| 023000 | Spider-Man Through the Decades | How did seven publishing decades reshape what Spider-Man could be? |
+| 023000 | Spider-Man Through the Decades | Concluding history: how did seven decades reshape what Spider-Man could be, and what should endure? |
 
 ## Editorial and provenance rules
 
@@ -54,9 +54,13 @@ No copyrighted comics panels, film clips, music, fonts, or binary art are bundle
 From the project repository root, after downloading the ZIP to `~/Downloads`:
 
 ```bash
-unzip -t ~/Downloads/spider-man-through-the-decades-07.zip
-python tools/content_overlay.py apply ~/Downloads/spider-man-through-the-decades-07.zip --replace-owned
+unzip -t ~/Downloads/spider-man-complete-capstone-08.zip
+python tools/content_overlay.py apply ~/Downloads/spider-man-complete-capstone-08.zip --replace-owned
 python draft-stages/tts-lectures/extract_narration.py --check draft-stages/tts-spider-man/023000-*.md
 ```
 
-The overlay includes all **23 complete manuscripts**, index/navigation data, metadata, source records, and the backlog. All prior lectures 001000–022000 and their individual claim maps are unchanged from Part 6. This overlay adds lecture 023000 and updates shared track-level navigation/source files. The reading-time estimates in `track.json` are descriptive only; the lecture text is not shortened to reach a target.
+The overlay includes all **23 complete manuscripts**, navigation, metadata, source records, and an archived optional-specials backlog. Lectures 001000–022000 are unchanged in narration. The long concluding lecture 023000 has been substantially extended, and four older metadata files received minor source-anchor repairs; both main listening routes now end with the capstone. The reading-time estimates in `track.json` are descriptive only; the lecture text is not shortened to reach a target.
+
+## Series closure
+
+The planned track is editorially complete; there is no required sequel, scheduled continuation, or open content prerequisite. The backlog documents only optional special-topic essays. The current 2020s material is explicitly as of November 2026. Audio production is a separate workflow and is not implied by this text-only source pack.

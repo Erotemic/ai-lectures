@@ -62,6 +62,22 @@
     {
       "source_id": "sm-asm2025-gcd",
       "reason": "Independent mainline 2025 series continuing concurrently."
+    },
+    {
+      "source_id": "sm-gcd-asm33",
+      "reason": "The concrete 1960s sequence in the longer capstone and its cover-date convention."
+    },
+    {
+      "source_id": "sm-gcd-asm90",
+      "reason": "1970 Captain Stacy death and the early accumulation of consequences."
+    },
+    {
+      "source_id": "sm-gcd-2099-1",
+      "reason": "The distinct 1992 future-Spider-Man experiment and its material presentation."
+    },
+    {
+      "source_id": "sm-marvel-2099-11",
+      "reason": "Publisher support for Alchemax in Miguel O'Hara's future New York."
     }
   ],
   "historical_claims": [
@@ -588,6 +604,57 @@
         "sm-asm2025-prh"
       ],
       "source_locator": "mainline title 2025 relaunch",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "023000-c51",
+      "anchor": "in *Amazing Spider-Man* number thirty-three, cover-dated February 1966",
+      "kind": "publication_or_production_reference",
+      "source_ids": [
+        "sm-gcd-asm33"
+      ],
+      "source_locator": "Issue 33, February 1966 cover date and Master Planner escape",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "023000-c52",
+      "anchor": "In *Amazing Spider-Man* number ninety, released in 1970",
+      "kind": "publication_or_production_reference",
+      "source_ids": [
+        "sm-gcd-asm90"
+      ],
+      "source_locator": "Issue 90, August 1970 on sale and George Stacy death",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "023000-c53",
+      "anchor": "His original series began in 1992, written by Peter David and drawn by Rick Leonardi",
+      "kind": "publication_or_production_reference",
+      "source_ids": [
+        "sm-gcd-2099-1"
+      ],
+      "source_locator": "Spider-Man 2099 #1 writer and artist credits",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "023000-c54",
+      "anchor": "including Alchemax",
+      "kind": "publication_or_production_reference",
+      "source_ids": [
+        "sm-gcd-2099-1",
+        "sm-marvel-2099-11"
+      ],
+      "source_locator": "Corporate setting of Spider-Man 2099",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "023000-c55",
+      "anchor": "arrived with a foil cover",
+      "kind": "publication_or_production_reference",
+      "source_ids": [
+        "sm-gcd-2099-1"
+      ],
+      "source_locator": "Foil cover for 1992 Spider-Man 2099 #1",
       "audit_status": "source_checked"
     }
   ]

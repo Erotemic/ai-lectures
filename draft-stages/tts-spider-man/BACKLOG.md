@@ -1,10 +1,10 @@
-# Spider-Man audio essay backlog
+# Spider-Man: completed track and optional specials
 
 ## Editorial contract
 
 The goal is entertaining, substantive audio essays for fans, with enough explanation for someone who knows Spider-Man primarily through movies or games. A retelling is appropriate only when story beats explain a memorable scene, an artistic decision, a compelling argument, or a publishing controversy. Develop a specific thesis, use concrete evidence and anecdotes, distinguish creator testimony from documented history, and mark consequential spoilers. No fixed duration or word-count target. Keep source links and citation detail in non-spoken companions.
 
-## Complete (23 essays)
+## Editorially complete (23 essays)
 
 - **001000–004000 — The Essentials:** Original moral mistake; early comics and cast; story engine; symbiotes and Spider-people. Revised for fan-focused accessibility in Part 3.
 - **005000–008000 — Creators and character engines:** Ditko and Lee; Jameson; villains; Clone Saga, marriage and continuity.
@@ -15,11 +15,11 @@ The goal is entertaining, substantive audio essays for fans, with enough explana
 - **020000 — Spider-Man: Life Story:** the 2019 aging-in-real-time miniseries, Zdarsky and Bagley's choices, and continuity when decades accumulate.
 - **021000 — Spider-Man and money:** the 1963 check scene, photography, work, obligation, research jobs and Parker Industries.
 - **022000 — Spider-Man and New York:** Forest Hills, boroughs, rooftop movement, the 2001 response comic, and the 2023 game's expanded city.
-- **023000 — Spider-Man Through the Decades:** A single decade-spanning critical and publication history, from Lee/Ditko through the 2024–2026 alternate adult-Peter series; treats chronology as a map, not a full retelling.
+- **023000 — Spider-Man Through the Decades:** Extended historical capstone, from Lee/Ditko through the 2024–2026 alternate adult-Peter series, ending with a synthesis of responsibility, adulthood, art, legacy, and why the stories endure.
 
-These are **completed** topics. Lecture 023000 is the dedicated historical overview; narrower future essays should add issue-level, artistic, or industrial depth rather than reciting the same chronological framework. The essay IDs are intentionally not always chronological by source-material date.
+The **series is finished**. Lecture 023000 concludes the curated main listening routes; any independently commissioned special should add issue-level, artistic, or industrial depth rather than reciting the same chronological framework. The essay IDs are intentionally not always chronological by source-material date.
 
-## High-value next essays
+## Optional specials, not outstanding work
 
 - **John Romita Sr. and Peter Parker's romantic comedy:** the post-Ditko tonal shift, Mary Jane and Gwen's distinct entrances, portraiture, composition, and the construction of a supporting ensemble. This should be about social drama and editorial form rather than repeating the web-swing art survey.
 - **The black suit's creation and publication chronology:** fan-submitted costume design, *Amazing Spider-Man* #252 and *Secret Wars* #8, why on-sale and fictional story chronology diverge, and the long symbiote afterlife. Separate documentation from folklore about ownership and payments.
