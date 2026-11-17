@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "lecture_id": "020000",
+  "transcript": "020000-complex-characters-and-nonvanishing.md",
+  "related_resources": [
+    {
+      "source_id": "nt-reed-nonvanishing",
+      "reason": "3-4-1 trigonometric positivity proof"
+    },
+    {
+      "source_id": "nt-afp-dirichlet",
+      "reason": "formal nonvanishing theorem"
+    },
+    {
+      "source_id": "nt-mathlib-nonvanishing",
+      "reason": "formal proof outline"
+    },
+    {
+      "source_id": "nt-wiki-l",
+      "reason": "general L-functions background"
+    }
+  ],
+  "mathematical_claims": [
+    {
+      "id": "020000-m01",
+      "anchor": "The square of chi, meaning the character obtained by squaring each value, is then nonprincipal.",
+      "source_ids": [
+        "nt-reed-nonvanishing",
+        "nt-mathlib-nonvanishing"
+      ],
+      "source_locator": "nonreal chi implies chi squared nonprincipal",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "020000-m02",
+      "anchor": "the combined numerator is twice the square of one plus cos of k theta.",
+      "source_ids": [
+        "nt-reed-nonvanishing",
+        "nt-mathlib-nonvanishing"
+      ],
+      "source_locator": "3+4cosθ+cos2θ =2(1+cosθ)^2",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "020000-m03",
+      "anchor": "the magnitude of F of s is at least one, for every real s greater than one.",
+      "source_ids": [
+        "nt-reed-nonvanishing",
+        "nt-kedlaya-analytic"
+      ],
+      "source_locator": "Euler-product magnitude positivity",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "020000-m04",
+      "anchor": "if chi is a nonreal Dirichlet character, then L of one comma chi is nonzero.",
+      "source_ids": [
+        "nt-reed-nonvanishing",
+        "nt-afp-dirichlet"
+      ],
+      "source_locator": "pole-zero order contradiction",
+      "audit_status": "reading_reference_recorded"
+    }
+  ],
+  "historical_claims": []
+}

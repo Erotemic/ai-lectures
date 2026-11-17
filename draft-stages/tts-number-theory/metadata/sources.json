@@ -373,6 +373,94 @@
       "title": "Wikipedia, Von Mangoldt function",
       "kind": "encyclopedia_background",
       "url": "https://en.wikipedia.org/wiki/Von_Mangoldt_function"
+    },
+    "nt-reed-nonvanishing": {
+      "title": "Reed College mathematics lecture notes, Nonvanishing of Dirichlet L-functions at s=1",
+      "kind": "university_course_material",
+      "url": "https://people.reed.edu/~jerry/361/lectures/lfnv.pdf",
+      "access": "free_no_login",
+      "notes": "Trigonometric square-completion for nonreal characters; positivity and Landau argument for real characters, independently reformulated and expanded in this course."
+    },
+    "nt-mit785-dirichlet": {
+      "title": "Andrew V. Sutherland, MIT 18.785 Number Theory I (2021), Lecture 18: Dirichlet L-functions, primes in arithmetic progressions",
+      "kind": "university_course_material",
+      "url": "https://ocw.mit.edu/courses/18-785-number-theory-i-fall-2021/mit18_785f21_lec18.pdf",
+      "access": "free_no_login",
+      "notes": "§18.4 for the character-projection proof and Dirichlet-density distinction. Referenced as proof source, not text duplicated."
+    },
+    "nt-kedlaya-analytic": {
+      "title": "Kiran Kedlaya, Dirichlet characters and L-functions (algebraic number theory notes)",
+      "kind": "university_course_material",
+      "url": "https://kskedlaya.org/ant/chap-lfunc.html",
+      "access": "free_no_login",
+      "notes": "Analytic/nonvanishing arguments and Dirichlet-series positivity."
+    },
+    "nt-kedlaya-ap": {
+      "title": "Kiran Kedlaya, Primes in arithmetic progressions",
+      "kind": "university_course_material",
+      "url": "https://kskedlaya.org/ant/chap-primes-in-ap.html",
+      "access": "free_no_login",
+      "notes": "§4.3 logarithmic Euler-product expansion and character reconstruction."
+    },
+    "nt-unm-zeta": {
+      "title": "University of New Mexico, complex analysis course notes, §9.3 Meromorphic Continuation of zeta(s) to Re(s)>0",
+      "kind": "university_course_material",
+      "url": "https://math.unm.edu/~lorenz/562/h.pdf",
+      "access": "free_no_login",
+      "notes": "Partial-summation integral featuring fractional part and pole at one."
+    },
+    "nt-ucl-landau": {
+      "title": "University College London, Introduction to Analytic Number Theory, §4 Landau lemma",
+      "kind": "university_course_material",
+      "url": "https://www.homepages.ucl.ac.uk/~ucahpet/IANTnotes2018.pdf",
+      "access": "free_no_login",
+      "notes": "Positive coefficient Dirichlet series and nonvanishing. The course proves an explicit disk version sufficient for the argument."
+    },
+    "nt-afp-dirichlet": {
+      "title": "Manuel Eberl, Dirichlet L-Functions and Dirichlet’s Theorem, Archive of Formal Proofs (2017)",
+      "kind": "formalized_mathematics",
+      "url": "https://isa-afp.org/entries/Dirichlet_L.html",
+      "access": "free_no_login",
+      "notes": "Independent formalization of nonvanishing and Dirichlet theorem."
+    },
+    "nt-mathlib-nonvanishing": {
+      "title": "Mathlib, NumberTheory.LSeries.Nonvanishing documentation",
+      "kind": "formalized_mathematics",
+      "url": "https://leanprover.github.io/hex/docs/Mathlib/NumberTheory/LSeries/Nonvanishing.html",
+      "access": "free_no_login",
+      "notes": "Outline of positive-series and trigonometric nonvanishing arguments."
+    },
+    "nt-afp-prime-bounds": {
+      "title": "Manuel Eberl, Elementary Prime Bounds, Archive of Formal Proofs",
+      "kind": "formalized_mathematics",
+      "url": "https://isa-afp.org/browser_info/current/AFP/Prime_Distribution_Elementary/Elementary_Prime_Bounds.html",
+      "access": "free_no_login",
+      "notes": "Formalized Chebyshev-type inequalities for pi(x)."
+    },
+    "nt-wiki-analytic-cont": {
+      "title": "Wikipedia, Analytic continuation",
+      "kind": "encyclopedia_background",
+      "url": "https://en.wikipedia.org/wiki/Analytic_continuation"
+    },
+    "nt-wiki-dirichlet-series": {
+      "title": "Wikipedia, Dirichlet series",
+      "kind": "encyclopedia_background",
+      "url": "https://en.wikipedia.org/wiki/Dirichlet_series"
+    },
+    "nt-wiki-density": {
+      "title": "Wikipedia, Dirichlet density",
+      "kind": "encyclopedia_background",
+      "url": "https://en.wikipedia.org/wiki/Dirichlet_density"
+    },
+    "nt-wiki-chebyshev": {
+      "title": "Wikipedia, Chebyshev function",
+      "kind": "encyclopedia_background",
+      "url": "https://en.wikipedia.org/wiki/Chebyshev_function"
+    },
+    "nt-wiki-binomial": {
+      "title": "Wikipedia, Binomial coefficient",
+      "kind": "encyclopedia_background",
+      "url": "https://en.wikipedia.org/wiki/Binomial_coefficient"
     }
   }
 }

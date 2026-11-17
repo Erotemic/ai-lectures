@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "lecture_id": "019000",
+  "transcript": "019000-analytic-continuation-at-the-line-one.md",
+  "related_resources": [
+    {
+      "source_id": "nt-unm-zeta",
+      "reason": "fractional-part integral and zeta pole"
+    },
+    {
+      "source_id": "nt-kedlaya-analytic",
+      "reason": "L-functions and analytic continuation"
+    },
+    {
+      "source_id": "nt-wiki-analytic-cont",
+      "reason": "conceptual background"
+    },
+    {
+      "source_id": "nt-wiki-dirichlet-series",
+      "reason": "Dirichlet-series context"
+    }
+  ],
+  "mathematical_claims": [
+    {
+      "id": "019000-m01",
+      "anchor": "The integral converges absolutely whenever sigma is positive.",
+      "source_ids": [
+        "nt-unm-zeta",
+        "nt-kedlaya-analytic"
+      ],
+      "source_locator": "character-series integral and Re(s)>0 continuation",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "019000-m02",
+      "anchor": "We have written zeta as one explicit rational term",
+      "source_ids": [
+        "nt-unm-zeta",
+        "nt-wiki-analytic-cont"
+      ],
+      "source_locator": "fractional-part integral and pole at one",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "019000-m03",
+      "anchor": "L of s comma chi equals s minus one times another analytic function.",
+      "source_ids": [
+        "nt-kedlaya-analytic",
+        "nt-mathlib-nonvanishing"
+      ],
+      "source_locator": "holomorphic factorization and pole cancellation",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "019000-m04",
+      "anchor": "a separate theorem that links positivity to the region of convergence.",
+      "source_ids": [
+        "nt-ucl-landau"
+      ],
+      "source_locator": "positive-coefficient Landau lemma, proved in lecture 021000",
+      "audit_status": "reading_reference_recorded"
+    }
+  ],
+  "historical_claims": []
+}

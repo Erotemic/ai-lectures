@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "lecture_id": "022000",
+  "transcript": "022000-proof-of-dirichlets-theorem.md",
+  "related_resources": [
+    {
+      "source_id": "nt-mit785-dirichlet",
+      "reason": "full progression proof and Dirichlet density"
+    },
+    {
+      "source_id": "nt-kedlaya-ap",
+      "reason": "L-series and character projection"
+    },
+    {
+      "source_id": "nt-afp-dirichlet",
+      "reason": "independently checked full theorem"
+    },
+    {
+      "source_id": "nt-wiki-dirichlet-ap",
+      "reason": "historical background"
+    },
+    {
+      "source_id": "nt-wiki-density",
+      "reason": "definition of density"
+    }
+  ],
+  "mathematical_claims": [
+    {
+      "id": "022000-m01",
+      "anchor": "The combined higher-power remainder stays bounded as s approaches one from above.",
+      "source_ids": [
+        "nt-mit785-dirichlet",
+        "nt-kedlaya-ap"
+      ],
+      "source_locator": "bounded prime-power Euler-log remainder",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "022000-m02",
+      "anchor": "The principal character supplies the divergence",
+      "source_ids": [
+        "nt-mit785-dirichlet",
+        "nt-dlmf-l"
+      ],
+      "source_locator": "simple-pole contribution",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "022000-m03",
+      "anchor": "Every other character behaves differently.",
+      "source_ids": [
+        "nt-mit785-dirichlet",
+        "nt-afp-dirichlet"
+      ],
+      "source_locator": "nonprincipal nonvanishing and bounded logs",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "022000-m04",
+      "anchor": "Thus the sum of one over p among primes in any reduced class diverges.",
+      "source_ids": [
+        "nt-mit785-dirichlet",
+        "nt-kedlaya-ap"
+      ],
+      "source_locator": "character orthogonality and limit s down to 1",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "022000-m05",
+      "anchor": "Every reduced residue class has the same Dirichlet density among the primes.",
+      "source_ids": [
+        "nt-mit785-dirichlet",
+        "nt-wiki-density"
+      ],
+      "source_locator": "ratio limit 1/phi(q) and separation from PNT in AP",
+      "audit_status": "reading_reference_recorded"
+    }
+  ],
+  "historical_claims": []
+}

@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "lecture_id": "023000",
+  "transcript": "023000-chebyshev-functions-and-prime-counting.md",
+  "related_resources": [
+    {
+      "source_id": "nt-afp-prime-bounds",
+      "reason": "formalized elementary prime-counting estimates"
+    },
+    {
+      "source_id": "nt-wiki-chebyshev",
+      "reason": "definitions and relations"
+    },
+    {
+      "source_id": "nt-prime-theorem",
+      "reason": "distinction from the PNT"
+    },
+    {
+      "source_id": "nt-wiki-binomial",
+      "reason": "central binomial inequalities"
+    }
+  ],
+  "mathematical_claims": [
+    {
+      "id": "023000-m01",
+      "anchor": "That is exactly psi of x.",
+      "source_ids": [
+        "nt-afp-prime-bounds",
+        "nt-wiki-chebyshev"
+      ],
+      "source_locator": "psi as log least common multiple",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "023000-m02",
+      "anchor": "psi of two m is at least two m times log two, minus log of two m plus one.",
+      "source_ids": [
+        "nt-afp-prime-bounds"
+      ],
+      "source_locator": "binomial coefficient valuation lower bound",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "023000-m03",
+      "anchor": "the increase in psi between m and two m is at most two m times log two.",
+      "source_ids": [
+        "nt-afp-prime-bounds"
+      ],
+      "source_locator": "binomial coefficient valuation upper bound",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "023000-m04",
+      "anchor": "pi of x is also at most a constant times x divided by log x.",
+      "source_ids": [
+        "nt-afp-prime-bounds",
+        "nt-prime-count"
+      ],
+      "source_locator": "Chebyshev upper counting bound",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "023000-m05",
+      "anchor": "the negative logarithmic derivative of zeta is the Dirichlet series whose coefficients are the von Mangoldt function.",
+      "source_ids": [
+        "nt-dlmf-zeta",
+        "nt-wiki-von-mangoldt"
+      ],
+      "source_locator": "zeta logarithmic derivative, x>1",
+      "audit_status": "reading_reference_recorded"
+    }
+  ],
+  "historical_claims": []
+}

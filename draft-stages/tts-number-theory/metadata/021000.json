@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "lecture_id": "021000",
+  "transcript": "021000-landau-positivity-and-real-characters.md",
+  "related_resources": [
+    {
+      "source_id": "nt-reed-nonvanishing",
+      "reason": "real-character positivity proof and lemma"
+    },
+    {
+      "source_id": "nt-ucl-landau",
+      "reason": "Landau positivity lemma"
+    },
+    {
+      "source_id": "nt-kedlaya-analytic",
+      "reason": "analytic continuation and nonvanishing"
+    },
+    {
+      "source_id": "nt-afp-dirichlet",
+      "reason": "independent formal proof"
+    }
+  ],
+  "mathematical_claims": [
+    {
+      "id": "021000-m01",
+      "anchor": "every coefficient a of n is nonnegative.",
+      "source_ids": [
+        "nt-reed-nonvanishing",
+        "nt-ucl-landau"
+      ],
+      "source_locator": "nonnegative convolution 1*chi for real chi",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "021000-m02",
+      "anchor": "a of m squared is at least one for every positive integer m.",
+      "source_ids": [
+        "nt-kedlaya-analytic",
+        "nt-reed-nonvanishing"
+      ],
+      "source_locator": "square-support inequality",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "021000-m03",
+      "anchor": "Every term in the resulting double sum is nonnegative.",
+      "source_ids": [
+        "nt-ucl-landau",
+        "nt-kedlaya-analytic"
+      ],
+      "source_locator": "Taylor/Tonelli proof of Landau disk lemma",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "021000-m04",
+      "anchor": "For every real, nonprincipal Dirichlet character, L of one comma chi is not zero.",
+      "source_ids": [
+        "nt-reed-nonvanishing",
+        "nt-afp-dirichlet"
+      ],
+      "source_locator": "nonvanishing by square-index harmonic divergence",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "021000-m05",
+      "anchor": "Therefore it must be strictly positive.",
+      "source_ids": [
+        "nt-mathlib-nonvanishing"
+      ],
+      "source_locator": "positivity of the real L-value by positive Euler factors and continuity",
+      "audit_status": "reading_reference_recorded"
+    }
+  ],
+  "historical_claims": []
+}

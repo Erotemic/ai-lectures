@@ -1,10 +1,10 @@
 # Number Theory from First Principles
 
-A proof-driven course connecting integer arithmetic with algorithms, algebraic structure and analytic number theory. It starts with gcds and congruences, then develops integer equations, reciprocity, arithmetic functions, primality, finite fields, and the series and character methods used to study primes in progressions. The course contains **18 substantive lectures**.
+A proof-driven course connecting integer arithmetic with algorithms, algebraic structure, and analytic number theory. It starts with gcds, congruences, integer equations, reciprocity, and finite fields, and develops the analytic machinery required for a **complete proof of Dirichlet's theorem** and elementary **Chebyshev prime-counting bounds**. The course currently contains **23 substantive lectures**.
 
-No advanced algebra or analytic number theory is assumed at the beginning; the later lectures establish the prerequisites used in their arguments. Each manuscript has one extractable spoken region plus a display-only companion, exercises, source metadata and Wikipedia links. Word counts are descriptive measurements, never editorial targets.
+The opening lectures assume only integer arithmetic, fractions, elementary algebra, and a willingness to follow proofs. Later lectures build their own analysis and character foundations rather than presupposing advanced number theory. Each manuscript has one extractable spoken lecture and a display-only mathematical companion with worked equations, exercises, claim-level reading records, and Wikipedia references. Length and word counts describe the manuscripts; they are not duration targets.
 
-## Main listening sequence
+## Listening sequence
 
 | ID | Lecture | Spoken words (measured) |
 |---|---|---:|
@@ -26,17 +26,24 @@ No advanced algebra or analytic number theory is assumed at the beginning; the l
 | `016000` | [Dirichlet Characters and Arithmetic Fourier Filters](016000-dirichlet-characters-and-orthogonality.md) | 2,103 |
 | `017000` | [Euler Products, the Zeta Function, and Prime Weights](017000-euler-products-zeta-and-prime-weights.md) | 2,085 |
 | `018000` | [Dirichlet L-Series and the Boundary of the Progression Theorem](018000-dirichlet-l-series-and-primes-in-progressions.md) | 2,202 |
+| `019000` | [Crossing the Line One: Analytic Functions, Zeta, and Character Series](019000-analytic-continuation-at-the-line-one.md) | 1,670 |
+| `020000` | [Complex Characters and the Positive Euler-Product Inequality](020000-complex-characters-and-nonvanishing.md) | 1,523 |
+| `021000` | [Landau's Positivity Principle and the Real-Character Case](021000-landau-positivity-and-real-characters.md) | 1,658 |
+| `022000` | [A Complete Proof of Dirichlet's Theorem on Primes in Progressions](022000-proof-of-dirichlets-theorem.md) | 1,877 |
+| `023000` | [Chebyshev Functions and the First Serious Bounds on Prime Counts](023000-chebyshev-functions-and-prime-counting.md) | 2,284 |
 
-Total: **18 lectures**, **36,854 spoken words** (descriptive measurement, not an editorial limit).
+**Total:** 23 indexed lectures, **45,866 spoken words**. 
 
-## Proven results and deliberate boundaries
+## Proven theorems and open boundaries
 
-Lectures 001000–006000 develop classical arithmetic, modular computation, Diophantine equations, elementary Pell examples and quadratic residues. Lecture 007000 proves quadratic reciprocity; 008000 proves Möbius inversion; 009000 establishes elementary prime-distribution results without asserting either the full prime number theorem or Dirichlet's theorem; and 010000 proves simple-root Hensel lifting.
+- **001000–006000:** Euclidean algorithm and prime factorization; CRT, order and Euler's theorem; Diophantine equations and Pythagorean triples; continued fractions; quadratic residues.
+- **007000–010000:** quadratic reciprocity proved by Gauss's lemma, Dirichlet convolution and Möbius inversion, elementary prime-distribution arguments, and simple-root Hensel lifting.
+- **011000–014000:** Pell equation existence and classification for positive norm-one solutions, Gaussian integers and the two-squares criterion, primality witnesses/certificates, and finite-field multiplicative groups including primitive roots.
+- **015000–018000:** series and summation by parts, character construction and orthogonality, Euler products and von Mangoldt weights, and the character projection argument for primes in progressions. Lecture 018000 deliberately identifies the then-unproved general nonvanishing theorem; the gap is filled by the new sequence below.
+- **019000–023000, Continuation 5:** partial-summation continuation of zeta and nonprincipal L-series to the right half-plane; full nonvanishing for nonreal characters via a trigonometric square; full nonvanishing and positivity for real characters via an explicitly proved Landau disk lemma; **unconditional proof of Dirichlet's theorem for every coprime residue and modulus**, including divergent prime reciprocals and equal Dirichlet densities; and elementary \(\psi(x)=\Theta(x)\), \(\pi(x)=\Theta(x/\log x)\) estimates using binomial coefficients.
 
-Continuation 3, lectures 011000–014000, proves periodicity for square-root continued fractions, existence and positive-solution classification for Pell's equation, Gaussian unique factorization and the complete two-squares criterion, primality soundness and certificates, and cyclicity of finite multiplicative subgroups with generators at odd prime powers. The negative-Pell converse criterion, quantitative Monier–Rabin error bound, and finite-field classification require additional arguments and are not presented as fully proved.
+**Not claimed as proved:** the prime number theorem \(\pi(x)\sim x/\log x\), the prime number theorem in arithmetic progressions, zero-free vertical-line estimates for zeta and L-functions, and the deferred topics listed in `BACKLOG.md`. A standalone complex analysis course can deepen the power-series framework used in lectures 019000–021000; their companion supplies a direct integral-expansion justification sufficient for the Landau application.
 
-**Continuation 4, lectures 015000–018000**, adds convergence and integral comparison, logarithmic estimates, discrete and integral summation by parts, Dirichlet's test, general character construction and orthogonality, rigorous Euler products and zeta identities, arithmetic-function Dirichlet series, the von Mangoldt generating identity, and Dirichlet L-series. The final lecture proves the progression argument for moduli 3 and 4, where the necessary nonprincipal L-values are explicitly shown nonzero. It derives the argument for arbitrary moduli **conditionally on** the separate theorem that every nonprincipal L(1,chi) is nonzero; it does not claim to prove that theorem or the prime number theorem in arithmetic progressions.
+## Related tracks and attribution
 
-## Related library courses and attribution
-
-These concrete constructions prepare for abstract algebra, analysis, algorithms, and deeper analytic and algebraic number theory. No other content pack is changed by this continuation. Claim-level references are recorded under `metadata/`, with primary mathematical reference sources and Wikipedia background. A reading reference is not a claim that its proofs were copied or independently line-audited. See `BACKLOG.md` for next foundations and `provenance.yaml` for authorship history.
+The course now supplies prerequisites for abstract algebra, functional analysis, computational number theory, and further analytic number theory. Only files under this content pack are changed. Scholarly references, formal proof developments, and Wikipedia background are recorded in the pack-local `metadata/` directory, with authorship history in `provenance.yaml`. Source records distinguish citation and independent exposition from any claim of copying a proof.

@@ -1,7 +1,7 @@
 {
   "id": "number-theory",
   "title": "Number Theory from First Principles",
-  "summary": "A proof-driven introduction to number theory from divisibility and Pell equations through reciprocity, Möbius inversion, Gaussian integers, finite fields, and analytic foundations: series and logarithms, summation by parts, character orthogonality, Euler products, zeta, and Dirichlet L-series.",
+  "summary": "A proof-driven introduction to number theory, from Euclid, congruences, quadratic reciprocity, Pell equations, arithmetic functions, Gaussian integers, and finite fields, through analytic tools and a complete proof of Dirichlet’s theorem, then elementary Chebyshev prime-counting bounds.",
   "assumed_background": [
     "integer arithmetic, fractions, equations and basic algebra",
     "comfortable reading simple proofs helps; the Mathematical Reasoning and Proof course is optional preparation",
@@ -26,7 +26,11 @@
     "analytic-tools",
     "characters-and-orthogonality",
     "euler-products-and-zeta",
-    "dirichlet-l-series"
+    "dirichlet-l-series",
+    "analytic-continuation",
+    "nonvanishing",
+    "dirichlet-theorem",
+    "chebyshev-prime-counts"
   ],
   "lectures": [
     {
@@ -190,6 +194,51 @@
       "spoken_words": 2202,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 15.2
+    },
+    {
+      "id": "019000",
+      "title": "Crossing the Line One: Analytic Functions, Zeta, and Character Series",
+      "section": "analytic-continuation",
+      "file": "019000-analytic-continuation-at-the-line-one.md",
+      "spoken_words": 1670,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 11.5
+    },
+    {
+      "id": "020000",
+      "title": "Complex Characters and the Positive Euler-Product Inequality",
+      "section": "nonvanishing",
+      "file": "020000-complex-characters-and-nonvanishing.md",
+      "spoken_words": 1523,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 10.5
+    },
+    {
+      "id": "021000",
+      "title": "Landau's Positivity Principle and the Real-Character Case",
+      "section": "nonvanishing",
+      "file": "021000-landau-positivity-and-real-characters.md",
+      "spoken_words": 1658,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 11.4
+    },
+    {
+      "id": "022000",
+      "title": "A Complete Proof of Dirichlet's Theorem on Primes in Progressions",
+      "section": "dirichlet-theorem",
+      "file": "022000-proof-of-dirichlets-theorem.md",
+      "spoken_words": 1877,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 12.9
+    },
+    {
+      "id": "023000",
+      "title": "Chebyshev Functions and the First Serious Bounds on Prime Counts",
+      "section": "chebyshev-prime-counts",
+      "file": "023000-chebyshev-functions-and-prime-counting.md",
+      "spoken_words": 2284,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 15.8
     }
   ]
 }
