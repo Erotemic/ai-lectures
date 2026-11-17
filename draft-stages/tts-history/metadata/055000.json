@@ -1,0 +1,229 @@
+{
+  "schema_version": 1,
+  "lecture_id": "055000",
+  "transcript": "055000-riemann.md",
+  "related_resources": [
+    {
+      "source_id": "history-riemann-clay-hypothesis",
+      "reason": "Defines conjecture and documents that it remains unsolved; do not copy any changing count of checked zeros."
+    },
+    {
+      "source_id": "history-riemann-clay-manuscript",
+      "reason": "Historical six-page paper, academy publication, prime-counting, and digitized manuscript/translations."
+    },
+    {
+      "source_id": "history-riemann-deutsche",
+      "reason": "German academic chronology, family, 1851 thesis, 1854 habilitation, 1859 chair, illness and Lake Maggiore death."
+    },
+    {
+      "source_id": "history-riemann-mactutor",
+      "reason": "Family and education, Dirichlet, Weber, Listing, 1851/1854 research, teaching, Italian contacts and late health."
+    },
+    {
+      "source_id": "history-riemann-wikipedia",
+      "reason": "General background only, not source for disputed details."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "055000-h01",
+      "anchor": "In June eighteen fifty-four",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-riemann-mactutor",
+        "history-riemann-deutsche"
+      ],
+      "source_locator": "10 June 1854 habilitation lecture and Gauss topic selection",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "055000-h02",
+      "anchor": "born on September seventeenth",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-riemann-mactutor",
+        "history-riemann-deutsche"
+      ],
+      "source_locator": "1826 birth in Hanover",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "055000-h03",
+      "anchor": "at the Johanneum school in Lüneburg",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-riemann-mactutor"
+      ],
+      "source_locator": "School, Legendre anecdote and library",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "055000-h04",
+      "anchor": "entered Göttingen, initially intending to study theology",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-riemann-mactutor",
+        "history-riemann-deutsche"
+      ],
+      "source_locator": "1846 theology to mathematics transition",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "055000-h05",
+      "anchor": "University of Berlin in eighteen forty-seven",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-riemann-mactutor",
+        "history-riemann-deutsche"
+      ],
+      "source_locator": "Berlin with Dirichlet, Jacobi, Eisenstein",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "055000-h06",
+      "anchor": "served as Weber's assistant",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-riemann-mactutor"
+      ],
+      "source_locator": "Göttingen physics and Listing context",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "055000-h07",
+      "anchor": "completed his doctoral dissertation in eighteen fifty-one",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-riemann-mactutor",
+        "history-riemann-deutsche"
+      ],
+      "source_locator": "Complex analysis dissertation",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "055000-h08",
+      "anchor": "Gauss praised the dissertation's originality",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-riemann-mactutor"
+      ],
+      "source_locator": "Gauss thesis assessment, later quotation",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "055000-h09",
+      "anchor": "worked on the representation of functions by trigonometric series",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-riemann-mactutor"
+      ],
+      "source_locator": "1854 habilitation mathematical work",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "055000-h10",
+      "anchor": "On June tenth, eighteen fifty-four",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-riemann-mactutor"
+      ],
+      "source_locator": "Geometry lecture date, later publication",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "055000-h11",
+      "anchor": "In eighteen fifty-seven Riemann obtained a professorial appointment",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-riemann-mactutor",
+        "history-riemann-deutsche"
+      ],
+      "source_locator": "Appointment and Abelian functions",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "055000-h12",
+      "anchor": "including Richard Dedekind",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-riemann-mactutor"
+      ],
+      "source_locator": "Small teaching audience and Dedekind preservation",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "055000-h13",
+      "anchor": "Enrico Betti, Felice Casorati, and Francesco Brioschi",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-riemann-mactutor"
+      ],
+      "source_locator": "1858 visitor exchanges",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "055000-h14",
+      "anchor": "In eighteen fifty-nine Dirichlet died",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-riemann-mactutor",
+        "history-riemann-deutsche"
+      ],
+      "source_locator": "1859 Göttingen chair",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "055000-h15",
+      "anchor": "short paper on the number of prime numbers",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-riemann-clay-manuscript",
+        "history-riemann-mactutor"
+      ],
+      "source_locator": "1859 Berlin Academy six-page paper",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "055000-h16",
+      "anchor": "It remains unproved today",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-riemann-clay-hypothesis"
+      ],
+      "source_locator": "Unsolved Riemann Hypothesis",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "055000-h17",
+      "anchor": "In eighteen sixty-two he married Elise Koch",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-riemann-mactutor",
+        "history-riemann-deutsche"
+      ],
+      "source_locator": "Marriage, family, illness and travel",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "055000-h18",
+      "anchor": "He died near Lake Maggiore",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-riemann-mactutor",
+        "history-riemann-deutsche"
+      ],
+      "source_locator": "20 July 1866 death in Selasca",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "055000-h19",
+      "anchor": "published only after Riemann had died",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-riemann-mactutor"
+      ],
+      "source_locator": "Posthumous geometry lecture dissemination",
+      "audit_status": "source_checked"
+    }
+  ]
+}
