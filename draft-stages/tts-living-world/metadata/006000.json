@@ -1,0 +1,134 @@
+{
+  "schema_version": 1,
+  "lecture_id": "006000",
+  "transcript": "006000-plants-that-respond.md",
+  "related_resources": [
+    {
+      "source_id": "lw-plant-root2020",
+      "reason": "Statoliths, root-cap gravisensing, auxin distribution and lateral-root set points."
+    },
+    {
+      "source_id": "lw-plant-statolith2019",
+      "reason": "PIN transport and starch granule production associated with gravity response."
+    },
+    {
+      "source_id": "lw-plant-braun2022",
+      "reason": "Source-to-sink sugar transport through phloem and molecular transporters."
+    },
+    {
+      "source_id": "lw-plant-phloem2013",
+      "reason": "Osmotic pressure-driven source/sink transport model and constraints."
+    },
+    {
+      "source_id": "lw-plant-aba2020",
+      "reason": "Guard-cell regulation, water stress and ABA signaling pathways."
+    },
+    {
+      "source_id": "lw-plant-bohm2016",
+      "reason": "Touch-counted electrical impulses, closing response, enzyme and ion-uptake regulation."
+    },
+    {
+      "source_id": "lw-plant-hedrich2023",
+      "reason": "Ion channels, calcium signals and timing of electrical excitation in the flytrap."
+    },
+    {
+      "source_id": "lw-plant-timilsena2020",
+      "reason": "Volatile exposure and induced plant defense signals in a controlled Nicotiana experiment."
+    },
+    {
+      "source_id": "lw-plant-elif2024",
+      "reason": "Continuous monitoring of volatile transfer and delayed jasmonate responses in neighboring maize."
+    },
+    {
+      "source_id": "lw-plant-song2015",
+      "reason": "CONSTANS, photoperiod and FLOWERING LOCUS T in Arabidopsis and cereal crops."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "006000-e01",
+      "anchor": "In specialized root-cap cells, relatively dense, starch-filled structures called statoliths settle in response to gravity.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "lw-plant-root2020",
+        "lw-plant-statolith2019"
+      ],
+      "source_locator": "Statolith gravity sensing",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "006000-e02",
+      "anchor": "In roots, a higher auxin signal on the lower flank can inhibit elongation there, so the other side grows faster and the root bends downward.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "lw-plant-root2020"
+      ],
+      "source_locator": "Differential root growth",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "006000-e03",
+      "anchor": "Sugars produced by photosynthesis travel through another tissue, phloem, from sources such as mature leaves toward sinks such as growing roots, developing fruits, seeds, or storage organs.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "lw-plant-braun2022",
+        "lw-plant-phloem2013"
+      ],
+      "source_locator": "Sugar transport source/sink",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "006000-e04",
+      "anchor": "Under water shortage, the hormone abscisic acid participates in a signaling network that promotes closure.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "lw-plant-aba2020"
+      ],
+      "source_locator": "ABA stomatal closure",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "006000-e05",
+      "anchor": "When two action potentials occur close enough together, the trap can close rapidly.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "lw-plant-bohm2016",
+        "lw-plant-hedrich2023"
+      ],
+      "source_locator": "Venus flytrap touch response",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "006000-e06",
+      "anchor": "The number and timing of signals matter to different stages of the response.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "lw-plant-bohm2016",
+        "lw-plant-hedrich2023"
+      ],
+      "source_locator": "Snap and digestive activation thresholds",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "006000-e07",
+      "anchor": "In controlled experiments, plants exposed to volatile chemicals from damaged neighbors can alter their own defense-related signaling and become more responsive when attacked later.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "lw-plant-timilsena2020",
+        "lw-plant-elif2024"
+      ],
+      "source_locator": "Volatile exposure and plant priming",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "006000-e08",
+      "anchor": "In the model plant Arabidopsis, the timing of activity of a regulator called CONSTANS and the stability of its protein help determine whether a leaf activates a flowering signal called FLOWERING LOCUS T.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "lw-plant-song2015"
+      ],
+      "source_locator": "Photoperiodic induction of FT",
+      "audit_status": "source_checked"
+    }
+  ]
+}

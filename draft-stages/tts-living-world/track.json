@@ -1,7 +1,7 @@
 {
   "id": "living-world",
   "title": "The Living World: How Nature Works",
-  "summary": "Audio-first natural history for curious adults: evidence-rich investigations of ecological processes, sensory worlds, soil life, and evolutionary mechanisms. Standalone essays combining field experiments, organism details, explanatory mechanisms, and the boundaries of present knowledge. First installment of a planned finite series.",
+  "summary": "Audio-first natural history for curious adults: eight self-contained, research-backed essays about ecosystem processes, animal senses, soil, evolution, collective insect behavior, plant physiology, fungi, and microbial ecology. In-progress finite series with further habitats and adaptations planned.",
   "categories": [
     "Science and nature"
   ],
@@ -19,8 +19,8 @@
     "Life sciences"
   ],
   "assumed_background": [
-    "No formal biology prerequisite. Scientific terms and research methods are explained in context.",
-    "Each essay works independently; the suggested order builds from ecological flows to sensory experience, soil processes, and evolution."
+    "No formal biology prerequisite. Important concepts and research methods are introduced when needed.",
+    "Every lecture stands alone; suggested order moves from larger ecological systems to cellular and collective mechanisms."
   ],
   "editorial_status": "in_progress",
   "sections": [
@@ -88,6 +88,65 @@
         "Evolution",
         "Natural selection",
         "Convergence"
+      ]
+    },
+    {
+      "id": "005000",
+      "title": "Social Insects: How a Colony Decides Without a Commander",
+      "section": "animal-behavior",
+      "file": "005000-social-insects-without-a-commander.md",
+      "spoken_words": 2030,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 14.0,
+      "tags": [
+        "Social insects",
+        "Collective behavior",
+        "Ants",
+        "Honeybees"
+      ]
+    },
+    {
+      "id": "006000",
+      "title": "Plants Are Not Waiting: The Biology of Growth, Sensing, and Response",
+      "section": "plant-biology",
+      "file": "006000-plants-that-respond.md",
+      "spoken_words": 2078,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 14.3,
+      "tags": [
+        "Plant physiology",
+        "Signaling",
+        "Tropisms"
+      ]
+    },
+    {
+      "id": "007000",
+      "title": "The Many Lives of Fungi: Builders, Recyclers, Partners, and Parasites",
+      "section": "soil-and-microbes",
+      "file": "007000-many-lives-of-fungi.md",
+      "spoken_words": 2161,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 14.9,
+      "tags": [
+        "Fungal ecology",
+        "Mycorrhiza",
+        "Decomposition",
+        "Symbiosis"
+      ]
+    },
+    {
+      "id": "008000",
+      "title": "Invisible Worlds: Microbes as Ecosystems, Partners, and Engineers",
+      "section": "soil-and-microbes",
+      "file": "008000-invisible-microbial-worlds.md",
+      "spoken_words": 2339,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 16.1,
+      "tags": [
+        "Microbial ecology",
+        "Biofilms",
+        "Symbiosis",
+        "Biogeochemistry"
       ]
     }
   ]

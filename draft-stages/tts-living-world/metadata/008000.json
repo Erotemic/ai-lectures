@@ -1,0 +1,136 @@
+{
+  "schema_version": 1,
+  "lecture_id": "008000",
+  "transcript": "008000-invisible-microbial-worlds.md",
+  "related_resources": [
+    {
+      "source_id": "lw-micro-winogradsky2014",
+      "reason": "Gradients of oxygen and sulfide, color layers and microbial community differences."
+    },
+    {
+      "source_id": "lw-micro-konneke2005",
+      "reason": "Cultivation demonstrating ammonia oxidation in a marine archaeon."
+    },
+    {
+      "source_id": "lw-micro-squid2009",
+      "reason": "Light-organ colonization, host development and daily symbiont expulsion."
+    },
+    {
+      "source_id": "lw-micro-squid2022",
+      "reason": "Squid daily cycle, luminous bacteria density and microbial physiology."
+    },
+    {
+      "source_id": "lw-micro-stewart2015",
+      "reason": "Separates killing tolerance from resistance, matrix diffusion and physiological factors."
+    },
+    {
+      "source_id": "lw-micro-arnold2022",
+      "reason": "Transformation, conjugation, transduction, and evolutionary interpretation."
+    },
+    {
+      "source_id": "lw-micro-correa2021",
+      "reason": "Virus–microorganism interaction spectrum and environment-dependent ecological effects."
+    },
+    {
+      "source_id": "lw-micro-sunagawa2015",
+      "reason": "Tara Oceans metagenomes and 40 million gene sequences, not species enumeration."
+    },
+    {
+      "source_id": "lw-micro-multiomics2023",
+      "reason": "DNA sequence potential compared with RNA and biochemical measures of activity."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "008000-e01",
+      "anchor": "This kind of preparation is called a Winogradsky column, after Sergei Winogradsky, a pioneering researcher of microbial ecology and metabolism.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "lw-micro-winogradsky2014"
+      ],
+      "source_locator": "Winogradsky column ecology",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "008000-e02",
+      "anchor": "In 2005, Martin Könneke and colleagues reported isolation of an ammonia-oxidizing marine archaeon.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "lw-micro-konneke2005"
+      ],
+      "source_locator": "Ammonia-oxidizing archaeon discovery",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "008000-e03",
+      "anchor": "Researchers measuring the system have described daily release of roughly ninety to ninety-five percent of the symbionts, though the exact pattern depends on developmental stage and the structures sampled.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "lw-micro-squid2009",
+        "lw-micro-squid2022"
+      ],
+      "source_locator": "Dawn venting of luminous bacterial symbionts",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "008000-e04",
+      "anchor": "Signal concentration can change with population density, but it also depends on diffusion, flow, degradation, and the dimensions of the space.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "lw-micro-squid2022"
+      ],
+      "source_locator": "Chemical signals in squid bacterial symbionts",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "008000-e05",
+      "anchor": "Philip Stewart's work emphasizes that physical penetration, chemical reactions, nutrient gradients, the age and density of the biofilm, and the physiology of individual cells can all matter.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "lw-micro-stewart2015"
+      ],
+      "source_locator": "Biofilm tolerance mechanisms",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "008000-e06",
+      "anchor": "Transformation involves uptake of DNA from the environment by competent cells.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "lw-micro-arnold2022"
+      ],
+      "source_locator": "Horizontal gene transfer transformation",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "008000-e07",
+      "anchor": "Some kill their host cells and release new particles. Others persist in association with the host genome or follow life histories that depend on conditions.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "lw-micro-correa2021"
+      ],
+      "source_locator": "Virus-host continuum",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "008000-e08",
+      "anchor": "In 2015, researchers reported an ocean microbial gene catalog containing tens of millions of nonredundant sequences, many previously uncharacterized.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "lw-micro-sunagawa2015"
+      ],
+      "source_locator": "Tara Oceans gene catalog",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "008000-e09",
+      "anchor": "Environmental DNA can reveal the presence of organisms or genes that would be difficult to cultivate.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "lw-micro-multiomics2023"
+      ],
+      "source_locator": "DNA potential vs measured activity",
+      "audit_status": "source_checked"
+    }
+  ]
+}

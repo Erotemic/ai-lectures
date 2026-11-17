@@ -12,7 +12,7 @@
         "general",
         "science enthusiasts"
       ],
-      "summary": "Four complete introductory investigations of how living systems work; later expansions are optional listening additions. Each lecture is self-contained.",
+      "summary": "Eight complete, standalone natural-history investigations moving from forest and evolutionary systems to insects, plants, fungi, and microbes. Further habitats are planned, not yet indexed.",
       "chapters": [
         {
           "title": "Energy and matter in an ecosystem",
@@ -37,6 +37,30 @@
           "lectures": [
             "004000"
           ]
+        },
+        {
+          "title": "The social colony",
+          "lectures": [
+            "005000"
+          ]
+        },
+        {
+          "title": "How plants respond",
+          "lectures": [
+            "006000"
+          ]
+        },
+        {
+          "title": "Fungi as agents of change",
+          "lectures": [
+            "007000"
+          ]
+        },
+        {
+          "title": "Invisible microbial ecosystems",
+          "lectures": [
+            "008000"
+          ]
         }
       ]
     },
@@ -45,11 +69,27 @@
       "title": "The Living World - Ecology and Evolution",
       "role": "deep_dive",
       "parent": "the-living-world",
-      "summary": "A focused short listening route through forest processes, soil ecology, and evolutionary explanations.",
+      "summary": "A focused route through forest processes, soil ecology, fungi, microbes, and evolutionary explanations.",
       "lectures": [
         "001000",
         "003000",
-        "004000"
+        "004000",
+        "007000",
+        "008000"
+      ]
+    },
+    {
+      "id": "hidden-interactions",
+      "title": "The Living World - Hidden Interactions",
+      "role": "deep_dive",
+      "parent": "the-living-world",
+      "summary": "How information, chemicals, and mutual benefits cross organism and community boundaries.",
+      "lectures": [
+        "002000",
+        "005000",
+        "006000",
+        "007000",
+        "008000"
       ]
     }
   ]
