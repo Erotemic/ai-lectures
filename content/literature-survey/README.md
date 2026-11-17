@@ -85,3 +85,16 @@ The next four roadmap commissions are now **authored and indexed** as nine recor
 | `027000` | Kālidāsa, *Śakuntalā* | Seven-act recognition drama; kept distinct from the epic *Mahābhārata* version. |
 
 Individual manuscripts list their primary-text/translation boundaries, public sources and Wikipedia orientation links. Claim anchors in `metadata/0xxxxx.json` point to specific received chapters, books or acts; interpretation is original narration, not a quotation of a translation. No generated audio or images are included.
+
+## Homeric Hymns and Sophocles — full narratives (2026-11-16)
+
+Six new original narrations follow separately transmitted Greek works rather than a fabricated single mythological novel.
+
+- `028000`: **The Homeric Hymn to Demeter: The Season of Loss** (2,099 spoken words; 14.5 minutes at 145 wpm). Claim locators: `metadata/028000.json`.
+- `029000`: **The Homeric Hymn to Apollo: The Island and the Mountain** (2,031 spoken words; 14 minutes at 145 wpm). Claim locators: `metadata/029000.json`.
+- `030000`: **The Homeric Hymn to Hermes: A Newborn Thief and a New Song** (1,954 spoken words; 13.5 minutes at 145 wpm). Claim locators: `metadata/030000.json`.
+- `031000`: **The Homeric Hymn to Aphrodite: The Goddess on the Mountain** (1,860 spoken words; 12.8 minutes at 145 wpm). Claim locators: `metadata/031000.json`.
+- `032000`: **Sophocles, Oedipus Tyrannus: The King Who Investigated Himself** (2,694 spoken words; 18.6 minutes at 145 wpm). Claim locators: `metadata/032000.json`.
+- `033000`: **Sophocles, Antigone: The Law and the Dead** (2,439 spoken words; 16.8 minutes at 145 wpm). Claim locators: `metadata/033000.json`.
+
+The four long hymns are anonymous poems collected under a conventional Homeric label. The Delian and Pythian movements of the Apollo hymn may have distinct composition histories. Sophocles's tragedies are separately composed plays, not a single Theban trilogy; their legendary sequence need not match production chronology. Companion and source records distinguish received-story claims from historical evidence. No audio, slides or other binary media are included.

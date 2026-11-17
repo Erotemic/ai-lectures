@@ -1,7 +1,7 @@
 # Ancient Epics and Narrative Traditions — editorial roadmap
 
 **Prepared:** 2026-11-16
-**Updated:** 2026-11-16 — all eight initial written-work commissions completed; Indigenous oral-tradition strand preserved
+**Updated:** 2026-11-16 — first three written-work installments completed; living oral-tradition strand preserved
 **Status:** active editorial queue; published lecture IDs are maintained in `track.json`
 **Owning pack for new standalone readings:** `content/literature-survey/`
 **Listening route:** `literature-survey:ancient-narratives`
@@ -78,7 +78,9 @@ The first four priority commissions are now **authored and indexed** in the
 
 **Completed second installment (2026-11-16):** *Zhuangzi* (Inner Chapters 1–7 and separately marked Outer 13, 17, 18) is now `019000`–`020000`; Apuleius's eleven-book *The Golden Ass* is `021000`–`023000`; *Exodus* chapters 1–40 are `024000`–`026000`; Kālidāsa's seven-act *Śakuntalā* is `027000`. The written-work and listening-route catalogs have been updated, subject to importing this overlay.
 
-**Next queue to commission:** full *Homeric Hymn to Demeter*; Sophocles's *Oedipus Tyrannus* and *Antigone* as **separate plays**; *Lugalbanda* (fragment-critical); Egyptian *Contendings of Horus and Seth* and *Wenamun*; the Ugaritic *Keret* and *Aqhat* with visible lacunae; then Savitrī, individual Jātaka narratives and *Mṛcchakaṭika*. The rest of the roadmap below remains open.
+**Third written-work installment completed (2026-11-16):** the four long anonymous *Homeric Hymns*—to Demeter, Apollo, Hermes and Aphrodite—are `literature-survey:028000`–`031000`; Sophocles's independent tragedies *Oedipus Tyrannus* and *Antigone* are `032000`–`033000`. Six source-bounded narrations and claim records follow the received texts; dates, authorship and play chronology are distinguished.
+
+**Next queue to commission:** the earlier Mesopotamian and Egyptian traditions: *Lugalbanda* (treat its two Sumerian poems separately), Egyptian *The Contendings of Horus and Seth* and *The Report of Wenamun*, with the *Westcar Papyrus* and *Enmerkar* next. Then the Ugaritic *Keret* and *Aqhat*, with fragment boundaries visible; then Savitrī, individual Jātaka narratives and *Mṛcchakaṭika*. The rest of the roadmap below remains open.
 
 ## First priority: the next eight commissions
 
@@ -200,6 +202,10 @@ surviving work; **selected** = name and teach discrete pieces in a corpus;
 **Suggested order within this set:** *Lugalbanda* → *Westcar* → *Keret* →
 *Aqhat* → *Enmerkar* → *Contendings* → *Kumarbi*. Source lacunae may
 move the order; neither a gap nor a reconstructed scene should be hidden.
+
+### Completed Greek hymn and tragedy sequence
+
+**Authored and indexed, 2026-11-16:** the complete received long hymns to Demeter (`028000`), Apollo (`029000`), Hermes (`030000`) and Aphrodite (`031000`), followed by the complete Sophocles tragedies *Oedipus Tyrannus* (`032000`) and *Antigone* (`033000`). The initial proposals in the table below are retained for editorial history, but these six commissions are **complete**. The hymn corpus is anonymous; the Apollo hymn may combine separate textual strata. The plays have their own production histories and are not parts of a single authored trilogy.
 
 ### Greek and Roman narrative: beyond Homer, Apollonius, Virgil, and Ovid
 
