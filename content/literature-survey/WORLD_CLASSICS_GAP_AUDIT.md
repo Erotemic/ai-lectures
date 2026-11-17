@@ -238,3 +238,11 @@ ledger above is the current status, rather than the stale queue wording.
 - **Next high-value gap candidates after duplication audit:** *Kebra Nagast* (medieval Ethiopian Geʽez, with carefully identified written witness and biblical-source reception), *Tirukkural* (classical Tamil didactic poems; guided listening, no fabricated plot), *I La Galigo* (Bugis epic; needs named text/translation and source-readiness review), and *Kumulipo* (Hawaiian chant; community-custodianship and version study before retelling). Further modern work can be chosen by demonstrable impact rather than geography alone.
 
 **Current literature-survey index: 149 entries.**
+
+## Rotation update - Ethiopian royal narrative and classical Tamil didactic poetry (17 November 2026)
+
+- **Completed:** *Kebra Nagast* (`152000`-`154000`), complete principal narrative in two parts plus historical/theological analysis. A named 1922 public-domain English witness is used, distinguished from both Ge'ez textual history and historical claims. Courtly coercion, inter-religious polemic, royal legitimization and differing biblical/Quranic accounts are explicit topics.
+- **Completed:** *Tirukkural* (`155000`-`157000`), two couplet-oriented audio essays and one critical analysis. The guidance respects the book's 38 / 70 / 25 chapter structure and ends with the poems of love, without inventing a conventional story. Tamil and named historical English witnesses are cited; attribution, dating, religion, and prose summaries are not treated as certain originals.
+- **Next important gaps to investigate:** *I La Galigo* (Bugis, Sulawesi, requiring a named edition and locally grounded interpretation), the *Kumulipo* (Hawaiian genealogical chant, with identified manuscripts/performances), *Popol Wuj* historical/critical companions rather than duplicate story lectures, and further globally consequential canonical works based on audited existing coverage rather than rotation as a quota. Consider modern work as well, not only ancient epics.
+
+**Current literature-survey index: 155 entries.**
