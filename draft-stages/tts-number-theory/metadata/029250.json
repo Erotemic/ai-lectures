@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "lecture_id": "029250",
+  "transcript": "029250-residue-degrees-dedekind-kummer-and-the-index-trap.md",
+  "related_resources": [
+    {
+      "source_id": "nt-stein-prime-factoring",
+      "reason": "Prime factorization via polynomial reductions; prime-to-index hypothesis and nonmonogenic examples; verified HTML chapter."
+    },
+    {
+      "source_id": "nt-wiki-dedekind-kummer",
+      "reason": "Statement with the exact index hypothesis; independently confirmed link."
+    },
+    {
+      "source_id": "nt-milne-ant",
+      "reason": "Rings of integers, Dedekind domains, ideal norms, class groups and Minkowski bounds."
+    },
+    {
+      "source_id": "nt-wiki-field-discriminant",
+      "reason": "Quadratic discriminants and lattice covolumes."
+    }
+  ],
+  "mathematical_claims": [
+    {
+      "id": "029250-m01",
+      "anchor": "we have therefore obtained an isomorphism of rings after reducing modulo p.",
+      "source_ids": [
+        "nt-stein-prime-factoring",
+        "nt-wiki-dedekind-kummer"
+      ],
+      "source_locator": "Reduction modulo p under prime-to-index hypothesis",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "029250-m02",
+      "anchor": "We have proved the Dedekind–Kummer polynomial factorization rule in the form we need",
+      "source_ids": [
+        "nt-stein-prime-factoring",
+        "nt-wiki-dedekind-kummer"
+      ],
+      "source_locator": "Dedekind-Kummer with exponent and residue-degree interpretation",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "029250-m03",
+      "anchor": "The sum of e i times f i is n.",
+      "source_ids": [
+        "nt-stein-prime-decomposition",
+        "nt-milne-ant"
+      ],
+      "source_locator": "Norm identity for e_i f_i",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "029250-m04",
+      "anchor": "The smaller ring Z of square root of five has index two in the full integer ring.",
+      "source_ids": [
+        "nt-stein-prime-factoring"
+      ],
+      "source_locator": "Counterexample at p=2",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "029250-m05",
+      "anchor": "its polynomial discriminant was twenty, whereas the field discriminant is five.",
+      "source_ids": [
+        "nt-milne-ant",
+        "nt-wiki-field-discriminant"
+      ],
+      "source_locator": "Power-basis discriminant vs field discriminant",
+      "audit_status": "reading_reference_recorded"
+    }
+  ],
+  "historical_claims": []
+}

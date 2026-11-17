@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "lecture_id": "029750",
+  "transcript": "029750-reduction-of-quadratic-forms-and-class-numbers.md",
+  "related_resources": [
+    {
+      "source_id": "nt-charlton-binary-forms",
+      "reason": "Detailed reduction theorem, composition and prime representation; PDF pages inspected visually in this authoring session."
+    },
+    {
+      "source_id": "nt-milne-ant",
+      "reason": "Rings of integers, Dedekind domains, ideal norms, class groups and Minkowski bounds."
+    },
+    {
+      "source_id": "nt-wiki-binary-forms",
+      "reason": "Definitions, equivalence and reduction; background link."
+    },
+    {
+      "source_id": "nt-wiki-class-group",
+      "reason": "Class group definition and examples."
+    }
+  ],
+  "mathematical_claims": [
+    {
+      "id": "029750-m01",
+      "anchor": "the algorithm terminates.",
+      "source_ids": [
+        "nt-charlton-binary-forms"
+      ],
+      "source_locator": "Shift/swap reduction and descending positive leading coefficients",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "029750-m02",
+      "anchor": "the positive coefficient a is bounded above by the square root of the absolute discriminant divided by three.",
+      "source_ids": [
+        "nt-charlton-binary-forms"
+      ],
+      "source_locator": "Reduced-form bound a <= sqrt(|D|/3)",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "029750-m03",
+      "anchor": "Thus the class number is two.",
+      "source_ids": [
+        "nt-charlton-binary-forms",
+        "nt-milne-ant"
+      ],
+      "source_locator": "D=-20 reduced form enumeration",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "029750-m04",
+      "anchor": "The class number of this field is three.",
+      "source_ids": [
+        "nt-charlton-binary-forms"
+      ],
+      "source_locator": "D=-23 three reduced forms",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "029750-m05",
+      "anchor": "Its order is exactly three.",
+      "source_ids": [
+        "nt-milne-ant"
+      ],
+      "source_locator": "Prime ideal above 2 cubed principal for D=-23",
+      "audit_status": "reading_reference_recorded"
+    }
+  ],
+  "historical_claims": []
+}

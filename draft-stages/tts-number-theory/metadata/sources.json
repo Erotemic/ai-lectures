@@ -783,6 +783,90 @@
       "url": "https://en.wikipedia.org/wiki/Fractional_ideal",
       "access": "free_no_login",
       "notes": "Background and definitions; not sole source for nontrivial proofs."
+    },
+    "nt-stein-prime-factoring": {
+      "title": "William A. Stein, Algebraic Number Theory: A Computational Approach, chapter 4, Factoring Primes",
+      "kind": "open_scholarly_text",
+      "url": "https://wstein.org/books/ant/ant/ch_factoring_primes.html",
+      "access": "free_no_login",
+      "notes": "Prime factorization via polynomial reductions; prime-to-index hypothesis and nonmonogenic examples; verified HTML chapter."
+    },
+    "nt-stein-prime-decomposition": {
+      "title": "William A. Stein, Algebraic Number Theory: A Computational Approach, chapter 9",
+      "kind": "open_scholarly_text",
+      "url": "https://wstein.org/books/ant/ant/Ch9.html",
+      "access": "free_no_login",
+      "notes": "Splitting/ramification/inertia, residue degree and quadratic examples; verified HTML chapter."
+    },
+    "nt-stanford-binary-forms": {
+      "title": "Ben Lynn, Stanford number theory notes: Binary Quadratic Forms",
+      "kind": "university_course_material",
+      "url": "https://crypto.stanford.edu/pbc/notes/numbertheory/form.html",
+      "access": "free_no_login",
+      "notes": "Positive definite binary forms, proper equivalence and prime representation; verified HTML note."
+    },
+    "nt-charlton-binary-forms": {
+      "title": "Steven Charlton, Primes of the Form x^2 + ny^2 (2017), chapters 4-8",
+      "kind": "university_course_material",
+      "url": "https://www.math.uni-hamburg.de/personen/charlton/teaching/primes_17/primes.pdf",
+      "access": "free_no_login",
+      "notes": "Detailed reduction theorem, composition and prime representation; PDF pages inspected visually in this authoring session."
+    },
+    "nt-magma-binary-forms": {
+      "title": "University of Sydney Magma Handbook: Binary Quadratic Forms, Introduction",
+      "kind": "software_mathematical_reference",
+      "url": "https://docs.magma-maths.org/LatticesQuadraticForms/BinaryQuadraticForms/introduction.html",
+      "access": "free_no_login",
+      "notes": "Correspondence between ideal lattices and quadratic forms and form composition; verified documentation."
+    },
+    "nt-wiki-binary-forms": {
+      "title": "Wikipedia: Binary quadratic form",
+      "kind": "encyclopedia_background",
+      "url": "https://en.wikipedia.org/wiki/Binary_quadratic_form",
+      "access": "free_no_login",
+      "notes": "Definitions, equivalence and reduction; background link."
+    },
+    "nt-wiki-dedekind-kummer": {
+      "title": "Wikipedia: Dedekind-Kummer theorem",
+      "kind": "encyclopedia_background",
+      "url": "https://en.wikipedia.org/wiki/Dedekind%E2%80%93Kummer_theorem",
+      "access": "free_no_login",
+      "notes": "Statement with the exact index hypothesis; independently confirmed link."
+    },
+    "nt-wiki-gauss-composition": {
+      "title": "Wikipedia: Gauss composition",
+      "kind": "encyclopedia_background",
+      "url": "https://en.wikipedia.org/wiki/Gauss_composition",
+      "access": "free_no_login",
+      "notes": "Terminology for the group operation of binary quadratic forms."
+    },
+    "nt-wiki-ramification": {
+      "title": "Wikipedia: Ramification (mathematics)",
+      "kind": "encyclopedia_background",
+      "url": "https://en.wikipedia.org/wiki/Ramification_(mathematics)",
+      "access": "free_no_login",
+      "notes": "Background on ramified primes."
+    },
+    "nt-wiki-legendre": {
+      "title": "Wikipedia: Legendre symbol",
+      "kind": "encyclopedia_background",
+      "url": "https://en.wikipedia.org/wiki/Legendre_symbol",
+      "access": "free_no_login",
+      "notes": "Quadratic-residue symbols."
+    },
+    "nt-wiki-quadratic-reciprocity": {
+      "title": "Wikipedia: Quadratic reciprocity",
+      "kind": "encyclopedia_background",
+      "url": "https://en.wikipedia.org/wiki/Quadratic_reciprocity",
+      "access": "free_no_login",
+      "notes": "Background on quadratic reciprocity."
+    },
+    "nt-wiki-split-ideals": {
+      "title": "Wikipedia: Splitting of prime ideals in Galois extensions",
+      "kind": "encyclopedia_background",
+      "url": "https://en.wikipedia.org/wiki/Splitting_of_prime_ideals_in_Galois_extensions",
+      "access": "free_no_login",
+      "notes": "Terminology for splitting, residue degree and ramification."
     }
   }
 }

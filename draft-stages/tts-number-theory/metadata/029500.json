@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "lecture_id": "029500",
+  "transcript": "029500-quadratic-forms-from-ideal-lattices.md",
+  "related_resources": [
+    {
+      "source_id": "nt-stanford-binary-forms",
+      "reason": "Positive definite binary forms, proper equivalence and prime representation; verified HTML note."
+    },
+    {
+      "source_id": "nt-magma-binary-forms",
+      "reason": "Correspondence between ideal lattices and quadratic forms and form composition; verified documentation."
+    },
+    {
+      "source_id": "nt-milne-ant",
+      "reason": "Rings of integers, Dedekind domains, ideal norms, class groups and Minkowski bounds."
+    },
+    {
+      "source_id": "nt-wiki-binary-forms",
+      "reason": "Definitions, equivalence and reduction; background link."
+    },
+    {
+      "source_id": "nt-wiki-class-group",
+      "reason": "Class group definition and examples."
+    },
+    {
+      "source_id": "nt-wiki-gauss-composition",
+      "reason": "Terminology for the group operation of binary quadratic forms."
+    }
+  ],
+  "mathematical_claims": [
+    {
+      "id": "029500-m01",
+      "anchor": "Its discriminant is b squared minus four a c.",
+      "source_ids": [
+        "nt-stanford-binary-forms"
+      ],
+      "source_locator": "Integral quadratic form convention",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "029500-m02",
+      "anchor": "The form is primitive.",
+      "source_ids": [
+        "nt-charlton-binary-forms",
+        "nt-milne-ant"
+      ],
+      "source_locator": "Norm form primitiveness for fundamental discriminant",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "029500-m03",
+      "anchor": "This ideal has norm a.",
+      "source_ids": [
+        "nt-milne-ant",
+        "nt-magma-binary-forms"
+      ],
+      "source_locator": "Ideal from a form of discriminant D",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "029500-m04",
+      "anchor": "We have now established a bijection between ideal classes of an imaginary quadratic field and proper equivalence classes",
+      "source_ids": [
+        "nt-magma-binary-forms",
+        "nt-milne-ant"
+      ],
+      "source_locator": "Ideal/form correspondence for fundamental negative D",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "029500-m05",
+      "anchor": "two x squared plus two x y plus three y squared.",
+      "source_ids": [
+        "nt-charlton-binary-forms"
+      ],
+      "source_locator": "Quadratic norm form of class represented by ideal above 2",
+      "audit_status": "reading_reference_recorded"
+    }
+  ],
+  "historical_claims": []
+}

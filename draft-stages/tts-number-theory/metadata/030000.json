@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "lecture_id": "030000",
+  "transcript": "030000-which-primes-are-represented-by-quadratic-forms.md",
+  "related_resources": [
+    {
+      "source_id": "nt-charlton-binary-forms",
+      "reason": "Detailed reduction theorem, composition and prime representation; PDF pages inspected visually in this authoring session."
+    },
+    {
+      "source_id": "nt-stanford-binary-forms",
+      "reason": "Positive definite binary forms, proper equivalence and prime representation; verified HTML note."
+    },
+    {
+      "source_id": "nt-stein-prime-decomposition",
+      "reason": "Splitting/ramification/inertia, residue degree and quadratic examples; verified HTML chapter."
+    },
+    {
+      "source_id": "nt-wiki-quadratic-reciprocity",
+      "reason": "Background on quadratic reciprocity."
+    },
+    {
+      "source_id": "nt-wiki-binary-forms",
+      "reason": "Definitions, equivalence and reduction; background link."
+    }
+  ],
+  "mathematical_claims": [
+    {
+      "id": "030000-m01",
+      "anchor": "an inert prime cannot be represented by any primitive positive definite form",
+      "source_ids": [
+        "nt-stanford-binary-forms",
+        "nt-milne-ant"
+      ],
+      "source_locator": "Prime norm of form gives ideal norm p",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "030000-m02",
+      "anchor": "whenever a prime ideal of norm p exists, some form class represents p.",
+      "source_ids": [
+        "nt-stanford-binary-forms",
+        "nt-magma-binary-forms"
+      ],
+      "source_locator": "Converse via norm form of ideal",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "030000-m03",
+      "anchor": "An odd prime different from five is a square plus five times a square if and only if it is one or nine modulo twenty.",
+      "source_ids": [
+        "nt-charlton-binary-forms",
+        "nt-wiki-quadratic-reciprocity"
+      ],
+      "source_locator": "D=-20 representation classification",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "030000-m04",
+      "anchor": "An odd prime different from five is twice a square plus twice the product plus three times a square if and only if it is three or seven modulo twenty.",
+      "source_ids": [
+        "nt-charlton-binary-forms"
+      ],
+      "source_locator": "Class-number-two complement classification",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "030000-m05",
+      "anchor": "The prime ideals over three are nonprincipal.",
+      "source_ids": [
+        "nt-milne-ant"
+      ],
+      "source_locator": "Splitting does not imply principality in Q(sqrt(-5))",
+      "audit_status": "reading_reference_recorded"
+    }
+  ],
+  "historical_claims": []
+}

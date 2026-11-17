@@ -1,7 +1,7 @@
 {
   "id": "number-theory",
   "title": "Number Theory from First Principles",
-  "summary": "A proof-driven introduction to integer arithmetic, Diophantine equations, finite fields and number-field ideals, with complete proofs of Dirichlet’s theorem, the prime number theorem via Newman’s Tauberian theorem, and unique Dedekind prime-ideal factorization with multiplicative norms.",
+  "summary": "Proof-driven foundations for integer arithmetic, analytic prime distribution, finite fields, Dedekind ideal factorization, quadratic prime splitting, and positive definite quadratic forms. Includes complete proofs of Dirichlet’s theorem, the prime number theorem and quadratic ideal-class calculations.",
   "assumed_background": [
     "integer arithmetic, fractions, equations and basic algebra",
     "comfortable reading simple proofs helps; the Mathematical Reasoning and Proof course is optional preparation",
@@ -44,7 +44,12 @@
     "general-number-field-integers",
     "dedekind-ideal-factorization",
     "local-valuation-and-ideal-norm",
-    "prime-number-theorem"
+    "prime-number-theorem",
+    "prime-splitting-in-quadratic-fields",
+    "dedekind-kummer-and-index",
+    "quadratic-form-ideal-correspondence",
+    "positive-definite-form-reduction",
+    "quadratic-form-prime-representation"
   ],
   "lectures": [
     {
@@ -379,6 +384,51 @@
       "spoken_words": 2528,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 17.4
+    },
+    {
+      "id": "029000",
+      "title": "Where a Rational Prime Goes in a Quadratic Field",
+      "section": "prime-splitting-in-quadratic-fields",
+      "file": "029000-splitting-ramification-and-inertia-in-quadratic-fields.md",
+      "spoken_words": 1579,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 10.9
+    },
+    {
+      "id": "029250",
+      "title": "Residue Degrees, Polynomial Factors, and the Index Trap",
+      "section": "dedekind-kummer-and-index",
+      "file": "029250-residue-degrees-dedekind-kummer-and-the-index-trap.md",
+      "spoken_words": 1570,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 10.8
+    },
+    {
+      "id": "029500",
+      "title": "Quadratic Forms Hidden in Ideal Lattices",
+      "section": "quadratic-form-ideal-correspondence",
+      "file": "029500-quadratic-forms-from-ideal-lattices.md",
+      "spoken_words": 1624,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 11.2
+    },
+    {
+      "id": "029750",
+      "title": "Reducing Quadratic Forms and Computing Class Numbers",
+      "section": "positive-definite-form-reduction",
+      "file": "029750-reduction-of-quadratic-forms-and-class-numbers.md",
+      "spoken_words": 1696,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 11.7
+    },
+    {
+      "id": "030000",
+      "title": "Which Primes Can a Quadratic Form Represent?",
+      "section": "quadratic-form-prime-representation",
+      "file": "030000-which-primes-are-represented-by-quadratic-forms.md",
+      "spoken_words": 1696,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 11.7
     }
   ]
 }

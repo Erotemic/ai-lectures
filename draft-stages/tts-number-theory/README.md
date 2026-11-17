@@ -1,6 +1,6 @@
 # Number Theory from First Principles
 
-A proof-driven course connecting integer arithmetic with algorithms, algebraic structure, and analytic number theory. It starts with gcds, congruences, integer equations, reciprocity, and finite fields, and develops the analytic machinery for complete proofs of **Dirichlet's theorem**, the **prime number theorem**, and **Dedekind prime-ideal factorization**, including ideal norms. The course currently contains **37 substantive lectures**.
+A proof-driven course connecting integer arithmetic with algorithms, algebraic structure, and analytic number theory. It starts with gcds, congruences, integer equations, reciprocity, and finite fields, and develops the analytic machinery for complete proofs of **Dirichlet's theorem**, the **prime number theorem**, and **Dedekind prime-ideal factorization**, with ideal norms, and now connects splitting of primes to quadratic forms and ideal classes. The course currently contains **42 substantive lectures**.
 
 The opening lectures assume only integer arithmetic, fractions, elementary algebra, and a willingness to follow proofs. Later lectures build their own analysis and character foundations rather than presupposing advanced number theory. Each manuscript has one extractable spoken lecture and a display-only mathematical companion with worked equations, exercises, claim-level reading records, and Wikipedia references. Length and word counts describe the manuscripts; they are not duration targets.
 
@@ -45,8 +45,13 @@ The opening lectures assume only integer arithmetic, fractions, elementary algeb
 | `027750` | [Why Every Nonzero Ideal Factors Uniquely](027750-unique-factorization-of-prime-ideals.md) | 2,143 |
 | `027875` | [Local Valuations and Why Ideal Norms Multiply](027875-local-valuations-and-multiplicative-ideal-norms.md) | 1,985 |
 | `028000` | [The Prime Number Theorem, from Zeta to Counting Primes](028000-complete-prime-number-theorem.md) | 2,528 |
+| `029000` | [Where a Rational Prime Goes in a Quadratic Field](029000-splitting-ramification-and-inertia-in-quadratic-fields.md) | 1,579 |
+| `029250` | [Residue Degrees, Polynomial Factors, and the Index Trap](029250-residue-degrees-dedekind-kummer-and-the-index-trap.md) | 1,570 |
+| `029500` | [Quadratic Forms Hidden in Ideal Lattices](029500-quadratic-forms-from-ideal-lattices.md) | 1,624 |
+| `029750` | [Reducing Quadratic Forms and Computing Class Numbers](029750-reduction-of-quadratic-forms-and-class-numbers.md) | 1,696 |
+| `030000` | [Which Primes Can a Quadratic Form Represent?](030000-which-primes-are-represented-by-quadratic-forms.md) | 1,696 |
 
-**Total:** 37 indexed lectures, **75,265 spoken words**. 
+**Total:** 42 indexed lectures, **83,430 spoken words**. 
 
 ## Proven theorems and open boundaries
 
@@ -70,6 +75,17 @@ The opening lectures assume only integer arithmetic, fractions, elementary algeb
 - **028000:** a complete proof that \(\psi(x)\sim x\), \(\vartheta(x)\sim x\) and \(\pi(x)\sim x/\log x\). The Tauberian and unsmoothing steps are proved rather than cited.
 
 **Not claimed as proved:** quantitative zero-free regions or error terms for prime counting, the prime number theorem in arbitrary arithmetic progressions, the Riemann hypothesis, the refined Gauss circle error problem, or the p-adic local-global theorems. The earlier historical descriptions of missing proofs in Continuation 7 remain accurate for *those installments*; the newly supplied lectures close the two identified proof gaps.
+
+
+**Completed in Continuation 9:**
+
+- **029000:** quadratic splitting, inertia, and ramification from the integral minimal polynomial, with a proof for each case and an independent treatment of the prime 2.
+- **029250:** Dedekind-Kummer factorization with the prime-to-index hypothesis, the residue degree identity \(\sum_i e_i f_i=[K:\mathbb Q]\), and the counterexample to using \(\sqrt5\) modulo 2.
+- **029500:** the oriented ideal-lattice construction of primitive positive definite forms of fundamental negative discriminant, including inverse construction and proper-equivalence convention.
+- **029750:** a terminating reduction algorithm, bound on reduced leading coefficients, and explicit class groups at discriminants \(-20\) and \(-23\).
+- **030000:** prime representation by ideal norm forms, and a proof of the exact mod-20 classifications for the two forms of discriminant \(-20\).
+
+**Beyond this installment:** the general ramification-discriminant theorem via the different, nonmaximal quadratic orders and ring class groups, indefinite form reduction and narrow class groups, higher-degree splitting algorithms, and local fields.
 
 ## Related tracks and attribution
 
