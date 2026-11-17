@@ -101,3 +101,18 @@ transcript:
     scope: Add four original foundation-first Laplace transform lectures with integral
       derivations, worked IVPs, stepped and impulse forcing, convolution, source records
       and a standalone listening route. Preserve the earlier 21 manuscript texts.
+  - date: '2026-11-17'
+    models:
+    - GPT-6
+    sources:
+    - lecture: '059000'
+      composition_record: metadata/059000.json
+    - lecture: '060000'
+      composition_record: metadata/060000.json
+    - lecture: '061000'
+      composition_record: metadata/061000.json
+    - lecture: '062000'
+      composition_record: metadata/062000.json
+    scope: Add four original two-dimensional linear ODE system lectures,
+      with eigenvector, phase-portrait, complex-mode, and matrix-exponential
+      examples and mathematical companions. Preserve all earlier manuscripts.

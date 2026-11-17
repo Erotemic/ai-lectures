@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "lecture_id": "062000",
+  "transcript": "062000-matrix-exponentials-when-eigenvectors-are-not-enough.md",
+  "related_resources": [
+    {
+      "source_id": "de-mit-systems-exponential",
+      "reason": "Fundamental matrices, matrix exponential computations, defective systems, and evolution rules."
+    },
+    {
+      "source_id": "de-mit-systems-matrix",
+      "reason": "Eigenvector modes, real and complex eigenvalues, and repeated-root systems."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-17",
+    "scope": "Original foundation-first linear systems lecture with non-spoken mathematical companion; 25 earlier manuscripts retained."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "differential-equations:059000",
+        "reason": "Eigenvector solutions of linear systems."
+      },
+      {
+        "lecture_id": "differential-equations:061000",
+        "reason": "Real solutions from complex eigenvalues and rotating modes."
+      }
+    ],
+    "recommended": [],
+    "background": [
+      "Single-variable differentiation, exponentials and trigonometry; basic two-by-two matrix multiplication and determinants. No PDE, functional analysis, or advanced dynamical systems background."
+    ],
+    "readiness_checks": [
+      "Derive the time-multiplied exponential of a defective two-by-two matrix.",
+      "Construct a matrix exponential using a nilpotent term.",
+      "Solve a forced linear system and explain transient amplification."
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "lecture_id": "060000",
+  "transcript": "060000-reading-a-phase-portrait.md",
+  "related_resources": [
+    {
+      "source_id": "de-mit-systems-matrix",
+      "reason": "Eigenvector modes, real and complex eigenvalues, and repeated-root systems."
+    },
+    {
+      "source_id": "de-mit-systems-phase",
+      "reason": "Nodes, saddles, spirals, trace-determinant classification, and real phase plane sketches."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-17",
+    "scope": "Original foundation-first linear systems lecture with non-spoken mathematical companion; 25 earlier manuscripts retained."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "differential-equations:059000",
+        "reason": "Eigenvalues, eigenvectors, and exponential solutions of coupled ODEs."
+      }
+    ],
+    "recommended": [],
+    "background": [
+      "Single-variable differentiation, exponentials and trigonometry; basic two-by-two matrix multiplication and determinants. No PDE, functional analysis, or advanced dynamical systems background."
+    ],
+    "readiness_checks": [
+      "Identify the invariant lines in stable node and saddle portraits.",
+      "Solve a rotated node and a sheared saddle from initial data.",
+      "Use trace, determinant and discriminant with correct edge-case qualifications."
+    ]
+  }
+}

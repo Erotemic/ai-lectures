@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "lecture_id": "059000",
+  "transcript": "059000-when-two-quantities-evolve-together.md",
+  "related_resources": [
+    {
+      "source_id": "de-mit-systems-intro",
+      "reason": "First-order coupled ODE systems, state-space equations, elimination, and companion matrices."
+    },
+    {
+      "source_id": "de-mit-systems-matrix",
+      "reason": "Eigenvector modes, real and complex eigenvalues, and repeated-root systems."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-17",
+    "scope": "Original foundation-first linear systems lecture with non-spoken mathematical companion; 25 earlier manuscripts retained."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "differential-equations:048000",
+        "reason": "First-order integrating factors and initial-value verification."
+      },
+      {
+        "lecture_id": "differential-equations:050000",
+        "reason": "Damped second-order oscillators and initial position/velocity."
+      }
+    ],
+    "recommended": [
+      {
+        "lecture_id": "linear-algebra:001000",
+        "reason": "Optional review of matrix multiplication, eigenvalues and two-dimensional bases."
+      }
+    ],
+    "background": [
+      "Single-variable differentiation, exponentials and trigonometry; basic two-by-two matrix multiplication and determinants. No PDE, functional analysis, or advanced dynamical systems background."
+    ],
+    "readiness_checks": [
+      "Interpret coupled first-order ODEs as a matrix state equation.",
+      "Derive the exponential eigenvector modes of a damped spring.",
+      "Solve the same triangular system by integrating factors and eigenvectors."
+    ]
+  }
+}

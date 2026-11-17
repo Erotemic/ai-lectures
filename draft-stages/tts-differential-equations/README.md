@@ -2,7 +2,7 @@
 
 Ordinary differential equations and dynamical systems: initial-value problems, existence and uniqueness, phase portraits, oscillations, stability, nonlinear dynamics and numerical integration, later partial differential equations.
 
-The current pack contains **25 lecture manuscripts**. Short concept chapters have been consolidated where they develop one subject. Each numbered manuscript has one spoken region; its mathematical statements, exercises, sources, and inherited component notes remain in the non-spoken companion.
+The current pack contains **29 lecture manuscripts**. Short concept chapters have been consolidated where they develop one subject. Each numbered manuscript has one spoken region; its mathematical statements, exercises, sources, and inherited component notes remain in the non-spoken companion.
 
 ## Listening routes
 
@@ -10,6 +10,7 @@ The current pack contains **25 lecture manuscripts**. Short concept chapters hav
 
 - **Differential Equations · ODE Foundations** (Guided route): `001000`, `004000`, `007000`.
 - **Differential Equations · Worked First-Order Problems and Oscillators** (Foundation bridge): `047000`, `048000`, `049000`, `050000`.
+- **Differential Equations · Linear Systems and Phase Portraits from Scratch** (Foundation bridge): `059000`, `060000`, `061000`, `062000`.
 - **Differential Equations · Fourier Series and Periodic Forcing from Scratch** (Foundation bridge): `051000`, `052000`, `053000`, `054000`.
 - **Differential Equations · Laplace Transforms and Switched Forcing from Scratch** (Foundation bridge): `055000`, `056000`, `057000`, `058000`.
 - **Differential Equations · Periodic Orbits and Hamiltonian Dynamics** (Deep dive): `012000`.
@@ -63,6 +64,10 @@ The `051000`–`054000` route starts from Fourier coefficients and orthogonality
 ## Laplace transform foundation bridge
 
 The `055000`–`058000` route derives the one-sided transform directly from its integral, then shows how initial values appear as boundary terms, how switches and impulses affect solutions, and why the causal convolution integral becomes multiplication in the transform domain. Each derivation is checked against the original time-domain ODE. The route builds on first-order ODEs and can be followed independently of the Fourier route, although the two connect through harmonic transfer functions. There is no PDE prerequisite.
+
+## Two-dimensional linear systems foundation bridge
+
+The `059000`–`062000` route derives constant-coefficient two-dimensional systems from scalar ODEs, constructs eigenvector modes and phase portraits, obtains real solutions from complex eigenvalues, and completes the method with generalized eigenvectors and matrix exponentials. The system is solved both in a homogeneous and a forced example. These are worked foundations: no nonlinear stability theorem or PDE prerequisite is assumed. The original consolidated survey and other foundation routes are not modified.
 
 ## Sources and authoring
 

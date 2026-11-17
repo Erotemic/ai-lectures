@@ -50,6 +50,37 @@
       ]
     },
     {
+      "id": "linear-systems-foundations",
+      "title": "Differential Equations · Linear Systems and Phase Portraits from Scratch",
+      "role": "deep_dive",
+      "parent": "survey",
+      "lectures": [
+        "059000",
+        "060000",
+        "061000",
+        "062000"
+      ],
+      "assumed_background": [
+        "Derivatives, exponentials, sine and cosine, two-by-two matrix arithmetic and simple eigenvalue calculations; no PDE or advanced stability theory."
+      ],
+      "preparation_collections": [
+        "differential-equations:worked-ode-foundations",
+        "linear-algebra:survey"
+      ],
+      "related_collections": [
+        "survey",
+        "worked-ode-foundations",
+        "laplace-initial-value-foundations"
+      ],
+      "tags": [
+        "Differential equations",
+        "Linear systems",
+        "Phase portraits",
+        "Matrix exponentials",
+        "Eigenvalues"
+      ]
+    },
+    {
       "id": "fourier-periodic-forcing-foundations",
       "title": "Differential Equations · Fourier Series and Periodic Forcing from Scratch",
       "role": "deep_dive",

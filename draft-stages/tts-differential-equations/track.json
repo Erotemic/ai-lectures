@@ -11,6 +11,7 @@
   "sections": [
     "initial-value-problems",
     "oscillators-and-resonance",
+    "linear-systems-and-phase-portraits",
     "nonlinear-phase-planes",
     "transport-diffusion-pdes",
     "poincare-floquet",
@@ -483,6 +484,69 @@
         "Transfer function",
         "Green formula",
         "Causal systems"
+      ]
+    },
+    {
+      "id": "059000",
+      "title": "When Two Quantities Evolve Together: Linear Systems and Eigenvector Solutions",
+      "section": "linear-systems-and-phase-portraits",
+      "file": "059000-when-two-quantities-evolve-together.md",
+      "spoken_words": 1867,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 12.9,
+      "tags": [
+        "Linear systems",
+        "State-space representation",
+        "Eigenvectors",
+        "Normal modes"
+      ]
+    },
+    {
+      "id": "060000",
+      "title": "Reading a Phase Portrait: Stable Nodes, Saddles, and the Directions of Motion",
+      "section": "linear-systems-and-phase-portraits",
+      "file": "060000-reading-a-phase-portrait.md",
+      "spoken_words": 1760,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 12.1,
+      "tags": [
+        "Phase portraits",
+        "Stable nodes",
+        "Saddles",
+        "Eigenvector modes",
+        "Trace-determinant"
+      ]
+    },
+    {
+      "id": "061000",
+      "title": "Why Complex Eigenvalues Make Spirals: Rotation, Damping, and Real Solutions",
+      "section": "linear-systems-and-phase-portraits",
+      "file": "061000-why-complex-eigenvalues-make-spirals.md",
+      "spoken_words": 1753,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 12.1,
+      "tags": [
+        "Complex eigenvalues",
+        "Spiral sinks",
+        "Phase portraits",
+        "Damped oscillators",
+        "Rotation"
+      ]
+    },
+    {
+      "id": "062000",
+      "title": "Matrix Exponentials When Eigenvectors Are Not Enough: Jordan Chains and Forcing",
+      "section": "linear-systems-and-phase-portraits",
+      "file": "062000-matrix-exponentials-when-eigenvectors-are-not-enough.md",
+      "spoken_words": 2124,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 14.6,
+      "tags": [
+        "Matrix exponential",
+        "Generalized eigenvectors",
+        "Jordan chains",
+        "Transient growth",
+        "Variation of constants"
       ]
     }
   ],
