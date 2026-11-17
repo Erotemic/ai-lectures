@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "lecture_id": "027500",
+  "transcript": "027500-minkowski-and-the-class-group-of-negative-five.md",
+  "related_resources": [
+    {
+      "source_id": "nt-conrad-kronecker",
+      "reason": "Class group calculation for Q(sqrt(-5)); that bound is weaker than the Minkowski disk bound used here."
+    },
+    {
+      "source_id": "nt-milne-ant",
+      "reason": "Rings of integers, Dedekind domains, ideal norms, class groups and Minkowski bounds."
+    },
+    {
+      "source_id": "nt-wiki-minkowski",
+      "reason": "Geometry-of-numbers convex-body theorem."
+    },
+    {
+      "source_id": "nt-wiki-minkowski-bound",
+      "reason": "Ideal class norm bound in number fields."
+    },
+    {
+      "source_id": "nt-wiki-class-group",
+      "reason": "Class group definition and examples."
+    }
+  ],
+  "mathematical_claims": [
+    {
+      "id": "027500-m01",
+      "anchor": "Minkowski's convex body theorem in two dimensions asserts that B contains a nonzero lattice point.",
+      "source_ids": [
+        "nt-wiki-minkowski"
+      ],
+      "source_locator": "symmetric convex body lattice-point condition",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "027500-m02",
+      "anchor": "The decisive observation is that two point eight four seven is less than three.",
+      "source_ids": [
+        "nt-wiki-minkowski-bound"
+      ],
+      "source_locator": "quadratic Minkowski ideal norm bound",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "027500-m03",
+      "anchor": "every ideal class in this field contains an integral ideal of norm at most two.",
+      "source_ids": [
+        "nt-milne-ant"
+      ],
+      "source_locator": "imaginary quadratic norm bound plus small ideal computation",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "027500-m04",
+      "anchor": "The class group is a cyclic group of order two.",
+      "source_ids": [
+        "nt-conrad-kronecker"
+      ],
+      "source_locator": "Cl(Q(sqrt(-5))) of order two",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "027500-m05",
+      "anchor": "each ideal class has an integral representative of norm at most two over pi times that square root.",
+      "source_ids": [
+        "nt-milne-ant"
+      ],
+      "source_locator": "specialization of Minkowski class bound",
+      "audit_status": "reading_reference_recorded"
+    }
+  ],
+  "historical_claims": []
+}

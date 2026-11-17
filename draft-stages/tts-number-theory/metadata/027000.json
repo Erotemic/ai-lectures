@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "lecture_id": "027000",
+  "transcript": "027000-quadratic-integers-norms-and-discriminants.md",
+  "related_resources": [
+    {
+      "source_id": "nt-conrad-quadratic-ideals",
+      "reason": "Theorem for integer rings of quadratic fields and examples of the ideal and element factorizations; consulted via search excerpts and index."
+    },
+    {
+      "source_id": "nt-milne-ant",
+      "reason": "Rings of integers, Dedekind domains, ideal norms, class groups and Minkowski bounds."
+    },
+    {
+      "source_id": "nt-wiki-quadratic-field",
+      "reason": "Basic terminology and ring-of-integers classification."
+    },
+    {
+      "source_id": "nt-wiki-algebraic-integer",
+      "reason": "Background on integral elements and minimal polynomials."
+    },
+    {
+      "source_id": "nt-wiki-field-discriminant",
+      "reason": "Quadratic discriminants and lattice covolumes."
+    }
+  ],
+  "mathematical_claims": [
+    {
+      "id": "027000-m01",
+      "anchor": "Thus, in a quadratic field, being an algebraic integer is exactly the condition that trace and norm are in Z.",
+      "source_ids": [
+        "nt-conrad-quadratic-ideals"
+      ],
+      "source_locator": "quadratic integrality criterion",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "027000-m02",
+      "anchor": "When d does not leave remainder one modulo four, every algebraic integer is a plus b root d with a and b integers.",
+      "source_ids": [
+        "nt-conrad-quadratic-ideals"
+      ],
+      "source_locator": "full quadratic integer ring",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "027000-m03",
+      "anchor": "If omega is root d, the difference between conjugates is two root d, so the discriminant is four d.",
+      "source_ids": [
+        "nt-milne-ant"
+      ],
+      "source_locator": "quadratic discriminants",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "027000-m04",
+      "anchor": "We have proved that six possesses two different factorizations into irreducibles.",
+      "source_ids": [
+        "nt-conrad-quadratic-ideals"
+      ],
+      "source_locator": "standard Z[sqrt(-5)] non-UFD example",
+      "audit_status": "reading_reference_recorded"
+    }
+  ],
+  "historical_claims": []
+}

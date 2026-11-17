@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "lecture_id": "026500",
+  "transcript": "026500-the-zeta-function-and-the-line-one.md",
+  "related_resources": [
+    {
+      "source_id": "nt-green-pnt",
+      "reason": "Zero-free line proof using the 3 + 4 cos(theta) + cos(2theta) identity; used to compare the mathematical argument."
+    },
+    {
+      "source_id": "nt-harvard-pnt",
+      "reason": "Integral analytic continuation of zeta and basic PNT proof ingredients."
+    },
+    {
+      "source_id": "nt-petersen-pnt",
+      "reason": "Logarithmic derivative, prime weights and zero-free boundary argument."
+    },
+    {
+      "source_id": "nt-wiki-wiener-ikehara",
+      "reason": "Statement and role of the Tauberian theorem; the theorem is not proved in this installment."
+    },
+    {
+      "source_id": "nt-wiki-von-mangoldt",
+      "reason": "Background and terminology"
+    }
+  ],
+  "mathematical_claims": [
+    {
+      "id": "026500-m01",
+      "anchor": "The integral now converges whenever sigma is positive",
+      "source_ids": [
+        "nt-harvard-pnt"
+      ],
+      "source_locator": "zeta continuation to Re(s) > 0",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "026500-m02",
+      "anchor": "negative zeta prime over zeta equals the sum of Lambda of n over n to the s",
+      "source_ids": [
+        "nt-petersen-pnt"
+      ],
+      "source_locator": "logarithmic derivative Dirichlet series",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "026500-m03",
+      "anchor": "three plus four cosine theta plus cosine twice theta.",
+      "source_ids": [
+        "nt-green-pnt"
+      ],
+      "source_locator": "3+4cos+cos2 positivity",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "026500-m04",
+      "anchor": "zeta has no zeros at any point one plus i t with t nonzero.",
+      "source_ids": [
+        "nt-green-pnt"
+      ],
+      "source_locator": "nonvanishing on line Re(s)=1",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "026500-m05",
+      "anchor": "Under the theorem's precise hypotheses, the sum of its coefficients up to x is asymptotic to A times x.",
+      "source_ids": [
+        "nt-wiki-wiener-ikehara"
+      ],
+      "source_locator": "Tauberian theorem role (stated not proved)",
+      "audit_status": "reading_reference_recorded"
+    }
+  ],
+  "historical_claims": []
+}

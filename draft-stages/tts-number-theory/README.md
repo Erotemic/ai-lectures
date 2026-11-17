@@ -1,6 +1,6 @@
 # Number Theory from First Principles
 
-A proof-driven course connecting integer arithmetic with algorithms, algebraic structure, and analytic number theory. It starts with gcds, congruences, integer equations, reciprocity, and finite fields, and develops the analytic machinery required for a **complete proof of Dirichlet's theorem** and elementary **Chebyshev prime-counting bounds**. The course currently contains **27 substantive lectures**.
+A proof-driven course connecting integer arithmetic with algorithms, algebraic structure, and analytic number theory. It starts with gcds, congruences, integer equations, reciprocity, and finite fields, and develops the analytic machinery required for a **complete proof of Dirichlet's theorem** and elementary **Chebyshev prime-counting bounds**. The course currently contains **32 substantive lectures**.
 
 The opening lectures assume only integer arithmetic, fractions, elementary algebra, and a willingness to follow proofs. Later lectures build their own analysis and character foundations rather than presupposing advanced number theory. Each manuscript has one extractable spoken lecture and a display-only mathematical companion with worked equations, exercises, claim-level reading records, and Wikipedia references. Length and word counts describe the manuscripts; they are not duration targets.
 
@@ -35,8 +35,13 @@ The opening lectures assume only integer arithmetic, fractions, elementary algeb
 | `024500` | [Counting Lattice Points in a Growing Circle](024500-lattice-points-and-the-gauss-circle-problem.md) | 1,887 |
 | `025000` | [Constructing Finite Fields, and Proving They Are Unique](025000-constructing-and-classifying-finite-fields.md) | 2,503 |
 | `025500` | [Frobenius, Subfields, and Testing Irreducibility](025500-frobenius-subfields-and-irreducibility.md) | 2,607 |
+| `026000` | [Contours, Cauchy's Formula, and the Geometry of Complex Analysis](026000-contours-cauchy-and-laurent-series.md) | 2,006 |
+| `026500` | [The Zeta Function, Its Zeros, and the Line One](026500-the-zeta-function-and-the-line-one.md) | 1,885 |
+| `027000` | [Quadratic Integers, Norms, and the Failure of Element Factorization](027000-quadratic-integers-norms-and-discriminants.md) | 1,765 |
+| `027250` | [Prime Ideals and How They Repair Factorization](027250-prime-ideals-repair-factorization.md) | 1,947 |
+| `027500` | [Minkowski's Lattice Argument and a Class Group of Order Two](027500-minkowski-and-the-class-group-of-negative-five.md) | 2,055 |
 
-**Total:** 27 indexed lectures, **54,791 spoken words**. 
+**Total:** 32 indexed lectures, **64,449 spoken words**. 
 
 ## Proven theorems and open boundaries
 
@@ -48,7 +53,10 @@ The opening lectures assume only integer arithmetic, fractions, elementary algeb
 
 - **024000–025500, Continuation 6:** exact signed, ordered representation count for sums of two squares and its \(r_2/4=\mathbf1*\chi_4\) formula; elementary Gauss circle lattice-point estimate \(N(R)=\pi R^2+O(R)\); existence and uniqueness of finite fields of every prime-power order; Frobenius orbits, subfield structure, exact irreducible counts, Rabin irreducibility test, and trace/norm. The refined Gauss circle error problem and the prime number theorem remain outside this proof sequence.
 
-**Not claimed as proved:** the prime number theorem \(\pi(x)\sim x/\log x\), the prime number theorem in arithmetic progressions, zero-free vertical-line estimates for zeta and L-functions, the refined Gauss circle error problem, and the deferred topics listed in `BACKLOG.md`. A standalone complex analysis course can deepen the power-series framework used in lectures 019000–021000; their companion supplies a direct integral-expansion justification sufficient for the Landau application.
+- **026000–026500, Continuation 7 (analytic branch):** triangle-level Cauchy-Goursat proof, circle integral formula, Taylor/Laurent and residue toolkit, prime-power logarithmic derivative, and a complete zero-free proof for the zeta function on \(\Re(s)=1\). The Tauberian implication \(\psi(x)\sim x\) remains a stated theorem to be proved or carefully applied later.
+- **027000–027500, Continuation 7 (algebraic branch):** exact quadratic ring-of-integers classification and discriminants, the failure of element unique factorization in \(\mathbb Z[\sqrt{-5}]\), explicit prime-ideal products, a self-contained two-dimensional Minkowski argument, and class group \(\mathbb Z/2\mathbb Z\) for \(\mathbb Q(\sqrt{-5})\). The **general** Dedekind ideal-factorization/invertibility theorem is clearly cited but not fully proved here.
+
+**Not claimed as proved:** the prime number theorem \(\pi(x)\sim x/\log x\) (the Wiener-Ikehara/Tauberian bridge remains unproved here), the prime number theorem in arithmetic progressions, quantitative zero-free regions near the line \(\Re s=1\) for zeta and L-functions, the refined Gauss circle error problem, a full proof of the general Dedekind ideal theorem, and the deferred topics listed in `BACKLOG.md`. A standalone complex analysis course can deepen the power-series framework used in lectures 019000–021000; their companion supplies a direct integral-expansion justification sufficient for the Landau application.
 
 ## Related tracks and attribution
 

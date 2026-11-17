@@ -1,29 +1,23 @@
-# Number Theory Foundations — next work
+# Number Theory Foundations - next work
 
-**Status, 2026-11-16:** 27 indexed substantive lectures. Lecture length is determined by what is needed for understanding and complete proofs, not a preset duration.
+**Status, 2026-11-16:** 32 indexed substantive lectures. Length follows the mathematics and the listener's prerequisites, not a duration target.
 
-## Recently established (024000–025500)
+## Established in Continuation 7 (026000-027500)
 
-- **024000:** complete formula for ordered, signed representations by two squares, from Gaussian factorization and the Dirichlet-convolution identity \(r_2(n)=4\sum_{d\mid n}\chi_4(d)\).
-- **024500:** elementary geometry-of-numbers proof \(N(R)=\pi R^2+O(R)\), hence \(\sum_{n\le X}r_2(n)=\pi X+O(\sqrt X)\), with a clear boundary before the refined Gauss circle problem. Theta-series and Dirichlet-series interpretations included.
-- **025000:** full prime-power necessity, existence and uniqueness up to isomorphism of finite fields, with a proved splitting-field/root-set construction and explicit 8- and 9-element models.
-- **025500:** Frobenius orbits and minimal polynomials, the subfield theorem, irreducible factorization of \(X^{q^n}-X\), Möbius formula for counts, Rabin's irreducibility criterion, trace and norm.
+- **026000:** contours, triangle-level Cauchy-Goursat proof, Cauchy formula, local analyticity, isolated zeros, Laurent series and residues; general contour deformation follows standard technical hypotheses.
+- **026500:** zeta continuation, \( -\zeta'/\zeta=\sum \Lambda(n)n^{-s}\) in the absolute convergence region, and the complete \(3+4\cos\theta+\cos2\theta\) proof of nonvanishing of zeta on \(\Re s=1\) (pole at 1). No prime number theorem yet.
+- **027000:** quadratic fields, algebraic integer criterion via trace/norm, full quadratic ring-of-integers classification, discriminants, and the explicit failure of element unique factorization in \(\mathbb Z[\sqrt{-5}]\).
+- **027250:** concrete prime ideals at 2 and 3, quotient field and ideal-product calculations resolving the two factorizations of six; the universal Dedekind unique factorization theorem is cited, not fully proved.
+- **027500:** elementary proof of Minkowski's two-dimensional convex body theorem, the imaginary quadratic ideal-class norm bound, and class group of \(\mathbb Q(\sqrt{-5})\) of order two, using the explicitly identified Dedekind invertibility theorem.
 
-## Earlier work
+## Next highest-priority work
 
-- **001000–014000:** elementary number theory, quadratic reciprocity, Pell theorem, Gaussian integers and existence of two-square representations, modular primality and finite-field unit groups.
-- **015000–018000:** convergence, character orthogonality, Euler products and Dirichlet L-series.
-- **019000–022000:** full unconditional Dirichlet theorem, with distinct nonvanishing proofs for real and nonreal characters.
-- **023000:** Chebyshev upper/lower prime-counting bounds; does not prove PNT.
+1. **026750 - Tauberian bridge, with a full proof:** develop either Wiener-Ikehara under hypotheses that are stated and actually verified, or Newman's shorter contour approach with every convergence step accounted for. Derive \(\psi(x)\sim x\) only once the necessary Tauberian argument is proved. This is the last major analytic foundation before the reserved 028000 prime number theorem capstone.
+2. **027750 - Prove the general Dedekind ideal theorem:** a listener-paced proof that rings of integers are Dedekind, nonzero ideals invert, ideal norms multiply, and ideal factorization exists uniquely; include exact algebraic prerequisites rather than treating unique ideal factorization as a black box.
+3. **028000 - Prime number theorem capstone:** \(\psi(x)\sim x\), then \(\vartheta(x)\sim x\) and \(\pi(x)\sim x/\log x\), with a fully justified Tauberian or contour route; retain distinctions from stronger zero-free regions and explicit error terms.
+4. **029000 and beyond - Quadratic forms and splitting:** norm forms, ideal classes, splitting of rational primes, explicit nonprincipal ideals, general class group computations, and deeper algebraic number theory. A separate course could eventually carry the number field material if this track becomes too broad.
+5. **Other bridges:** coding theory over finite fields, negative Pell period criterion, the quantitative Miller-Rabin witness bound, p-adic completion and local-global obstructions; no pressure to pursue these before the main proof foundations.
 
-## High-value next foundations
+## Editorial and integration constraints
 
-1. **026000 — Complex-analytic prerequisites for prime number theorem:** Cauchy's theorem and formula, isolated zeros, Laurent expansions, logarithmic derivatives, meromorphic continuation, and a carefully selected Tauberian or contour method. Explain what additional machinery is actually needed; no claim of PNT until proved.
-2. **027000 — Quadratic number fields, algebraic integers, ideals, and class groups:** extend \(\mathbb Z[i]\) to rings where element factorization fails. Distinguish ideal factorization from element factorization and give concrete computations.
-3. **028000 — Prime number theorem (capstone, later):** only after a complete correct proof route is available, either analytic with precise zero-free boundaries and summation machinery or a fully developed elementary proof.
-4. **Potential new bridge after 025500:** error-detecting codes and polynomial arithmetic over \(\mathbb F_{2^m}\), using Frobenius, minimal polynomials and field trace; avoid assuming a standalone coding-theory track is present.
-5. **Deferred details:** negative Pell solvability/period criterion, quantitative Miller–Rabin 1/4 witness bound, p-adic completion, and local-global obstructions. The refined Gauss circle error exponent is an additional open-boundary topic, not proved by the elementary \(O(R)\) bound.
-
-## Integration constraints
-
-Edit only `draft-stages/tts-number-theory/`. Keep stable six-digit IDs (lower-significance insertions are fine) and one extractable spoken region per manuscript. Keep exact equations, exercises, citations, and Wikipedia links in non-spoken companions. Preserve the distinction between independently proved results and attributed but unproved theorems. No fixed word-count or duration policy. Text only.
+Only the `draft-stages/tts-number-theory/` pack is owned here. Preserve six-digit lecture IDs and one extractable spoken region per manuscript. Equations, exercises, source notes and Wikipedia readings belong in non-spoken companions; relevant source IDs and claim anchors belong in per-lecture metadata. Clearly distinguish fully proved lemmas and examples from general cited theorems whose proofs are deferred. No fixed word-count or duration policy. No binary assets.

@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "lecture_id": "026000",
+  "transcript": "026000-contours-cauchy-and-laurent-series.md",
+  "related_resources": [
+    {
+      "source_id": "nt-mit-complex-18-04",
+      "reason": "Public course index with analytic functions, Cauchy-Goursat, integral formula, Laurent series and residues; used for theorem/proof comparisons."
+    },
+    {
+      "source_id": "nt-mit-complex-18-112",
+      "reason": "Indexed course lectures 8-14 treat contour integrals, Cauchy and isolated singularities; bibliographic cross-reference."
+    },
+    {
+      "source_id": "nt-wiki-holomorphic",
+      "reason": "Terminology and background."
+    },
+    {
+      "source_id": "nt-wiki-cauchy",
+      "reason": "Terminology and background."
+    },
+    {
+      "source_id": "nt-wiki-laurent",
+      "reason": "Terminology and background."
+    },
+    {
+      "source_id": "nt-wiki-residue",
+      "reason": "Terminology and background."
+    }
+  ],
+  "mathematical_claims": [
+    {
+      "id": "026000-m01",
+      "anchor": "Cauchy's theorem says that a holomorphic function has integral zero around the boundary of a filled triangle",
+      "source_ids": [
+        "nt-mit-complex-18-04"
+      ],
+      "source_locator": "Cauchy-Goursat theorem for triangles",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "026000-m02",
+      "anchor": "two pi i times f of a equals the integral around C of f of z divided by z minus a.",
+      "source_ids": [
+        "nt-mit-complex-18-04"
+      ],
+      "source_locator": "Cauchy integral formula",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "026000-m03",
+      "anchor": "Every holomorphic function therefore equals a convergent power series locally.",
+      "source_ids": [
+        "nt-mit-complex-18-112"
+      ],
+      "source_locator": "Cauchy formula and Taylor expansions",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "026000-m04",
+      "anchor": "This proves that zeros of a nonzero holomorphic function are isolated.",
+      "source_ids": [
+        "nt-mit-complex-18-112"
+      ],
+      "source_locator": "Isolated zeros and identity theorem",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "026000-m05",
+      "anchor": "The coefficient of that reciprocal term has a special name: the residue.",
+      "source_ids": [
+        "nt-mit-complex-18-04"
+      ],
+      "source_locator": "Laurent coefficients and residues",
+      "audit_status": "reading_reference_recorded"
+    },
+    {
+      "id": "026000-m06",
+      "anchor": "The remaining contour integral is two pi i times the sum of the residues inside.",
+      "source_ids": [
+        "nt-mit-complex-18-04"
+      ],
+      "source_locator": "Residue theorem",
+      "audit_status": "reading_reference_recorded"
+    }
+  ],
+  "historical_claims": []
+}

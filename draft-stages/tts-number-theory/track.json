@@ -1,7 +1,7 @@
 {
   "id": "number-theory",
   "title": "Number Theory from First Principles",
-  "summary": "A proof-driven introduction to number theory, from Euclid, congruences, quadratic reciprocity, Pell equations, Gaussian integers, and finite fields through analytic tools, Dirichlet’s theorem and Chebyshev bounds, with exact two-square representation counts, lattice points, and finite-field extension theory.",
+  "summary": "A proof-driven introduction to integer arithmetic, Diophantine equations, finite fields and analytic number theory, now including a complete Dirichlet theorem, the zero-free line for the Riemann zeta function, and a quadratic ideal-class computation; the Tauberian prime number theorem step remains a separate goal.",
   "assumed_background": [
     "integer arithmetic, fractions, equations and basic algebra",
     "comfortable reading simple proofs helps; the Mathematical Reasoning and Proof course is optional preparation",
@@ -34,7 +34,12 @@
     "two-square-representation-counts",
     "gauss-circle-elementary",
     "finite-field-construction",
-    "frobenius-polynomials"
+    "frobenius-polynomials",
+    "complex-analysis-contours",
+    "zeta-zero-free-line",
+    "quadratic-integer-rings",
+    "quadratic-prime-ideals",
+    "geometry-of-numbers-class-groups"
   ],
   "lectures": [
     {
@@ -279,6 +284,51 @@
       "spoken_words": 2607,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 18.0
+    },
+    {
+      "id": "026000",
+      "title": "Contours, Cauchy's Formula, and the Geometry of Complex Analysis",
+      "section": "complex-analysis-contours",
+      "file": "026000-contours-cauchy-and-laurent-series.md",
+      "spoken_words": 2006,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 13.8
+    },
+    {
+      "id": "026500",
+      "title": "The Zeta Function, Its Zeros, and the Line One",
+      "section": "zeta-zero-free-line",
+      "file": "026500-the-zeta-function-and-the-line-one.md",
+      "spoken_words": 1885,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 13.0
+    },
+    {
+      "id": "027000",
+      "title": "Quadratic Integers, Norms, and the Failure of Element Factorization",
+      "section": "quadratic-integer-rings",
+      "file": "027000-quadratic-integers-norms-and-discriminants.md",
+      "spoken_words": 1765,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 12.2
+    },
+    {
+      "id": "027250",
+      "title": "Prime Ideals and How They Repair Factorization",
+      "section": "quadratic-prime-ideals",
+      "file": "027250-prime-ideals-repair-factorization.md",
+      "spoken_words": 1947,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 13.4
+    },
+    {
+      "id": "027500",
+      "title": "Minkowski's Lattice Argument and a Class Group of Order Two",
+      "section": "geometry-of-numbers-class-groups",
+      "file": "027500-minkowski-and-the-class-group-of-negative-five.md",
+      "spoken_words": 2055,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 14.2
     }
   ]
 }
