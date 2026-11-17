@@ -1,0 +1,225 @@
+{
+  "schema_version": 1,
+  "lecture_id": "113000",
+  "transcript": "113000-fibonacci.md",
+  "related_resources": [
+    {
+      "source_id": "history-fibonacci-maa",
+      "reason": "1202 and 1228 texts, scope of commercial computation and rabbit problem versus historical significance."
+    },
+    {
+      "source_id": "history-fibonacci-mactutor",
+      "reason": "Bugia education, return to Pisa, the texts, Frederick II court, 1240 stipend and approximate dates."
+    },
+    {
+      "source_id": "history-fibonacci-sigler",
+      "reason": "Large Latin computational treatise in English translation, applied mathematics and Indian-Arabic sources."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "113000-h01",
+      "anchor": "Leonardo of Pisa, later called Fibonacci",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fibonacci-mactutor"
+      ],
+      "source_locator": "Leonardo of Pisa, later called Fibonacci",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "113000-h02",
+      "anchor": "He was born around 1170, probably in Pisa",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fibonacci-mactutor"
+      ],
+      "source_locator": "He was born around 1170, probably in Pisa",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "113000-h03",
+      "anchor": "Leonardo's father Guglielmo represented Pisan merchants",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fibonacci-mactutor"
+      ],
+      "source_locator": "Leonardo's father Guglielmo represented Pisan merchants",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "113000-h04",
+      "anchor": "In a preface to *Liber abaci*, Leonardo described",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fibonacci-mactutor",
+        "history-fibonacci-sigler"
+      ],
+      "source_locator": "In a preface to Liber abaci, Leonardo described",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "113000-h05",
+      "anchor": "Its symbols, today commonly called Hindu-Arabic digits",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fibonacci-sigler"
+      ],
+      "source_locator": "Its symbols, today commonly called Hindu-Arabic digits",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "113000-h06",
+      "anchor": "They had developed over many generations in South Asia",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fibonacci-maa",
+        "history-fibonacci-sigler"
+      ],
+      "source_locator": "They had developed over many generations in South Asia",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "113000-h07",
+      "anchor": "After years of travel, Leonardo returned to Pisa",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fibonacci-mactutor"
+      ],
+      "source_locator": "After years of travel, Leonardo returned to Pisa",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "113000-h08",
+      "anchor": "In 1202 he composed the *Liber abaci",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fibonacci-maa",
+        "history-fibonacci-sigler"
+      ],
+      "source_locator": "In 1202 he composed the Liber abaci",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "113000-h09",
+      "anchor": "It was revised in 1228",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fibonacci-maa"
+      ],
+      "source_locator": "It was revised in 1228",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "113000-h10",
+      "anchor": "Its subject was computational practice in a broad sense",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fibonacci-sigler"
+      ],
+      "source_locator": "Its subject was computational practice in a broad sense",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "113000-h11",
+      "anchor": "The book treats arithmetic methods, commercial transactions",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fibonacci-maa",
+        "history-fibonacci-sigler"
+      ],
+      "source_locator": "The book treats arithmetic methods, commercial transactions",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "113000-h12",
+      "anchor": "The famous rabbits appear as one problem among many",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fibonacci-maa"
+      ],
+      "source_locator": "The famous rabbits appear as one problem among many",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "113000-h13",
+      "anchor": "Related recurrences and combinatorial counts appeared in earlier Indian mathematics",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fibonacci-maa"
+      ],
+      "source_locator": "Related recurrences and combinatorial counts appeared in earlier Indian mathematics",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "113000-h14",
+      "anchor": "The *Practica geometriae*, composed around 1220",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fibonacci-mactutor"
+      ],
+      "source_locator": "The Practica geometriae, composed around 1220",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "113000-h15",
+      "anchor": "He also wrote *Liber quadratorum",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fibonacci-mactutor"
+      ],
+      "source_locator": "He also wrote Liber quadratorum",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "113000-h16",
+      "anchor": "Leonardo came to the attention of scholars associated with Frederick",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fibonacci-mactutor"
+      ],
+      "source_locator": "Leonardo came to the attention of scholars associated with Frederick",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "113000-h17",
+      "anchor": "Around 1225, when Frederick's court was in Pisa",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fibonacci-mactutor"
+      ],
+      "source_locator": "Around 1225, when Frederick's court was in Pisa",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "113000-h18",
+      "anchor": "In 1240 the city of Pisa granted Leonardo a stipend",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fibonacci-mactutor"
+      ],
+      "source_locator": "In 1240 the city of Pisa granted Leonardo a stipend",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "113000-h19",
+      "anchor": "The common death date around 1250 is approximate",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fibonacci-mactutor"
+      ],
+      "source_locator": "The common death date around 1250 is approximate",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "113000-h20",
+      "anchor": "Baldassarre Boncompagni in the nineteenth century and later translators",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fibonacci-maa"
+      ],
+      "source_locator": "Baldassarre Boncompagni in the nineteenth century and later translators",
+      "audit_status": "source_checked"
+    }
+  ]
+}

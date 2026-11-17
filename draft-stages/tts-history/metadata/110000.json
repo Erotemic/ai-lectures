@@ -1,0 +1,257 @@
+{
+  "schema_version": 1,
+  "lecture_id": "110000",
+  "transcript": "110000-liu-hui.md",
+  "related_resources": [
+    {
+      "source_id": "history-liuhui-fu",
+      "reason": "Historical reconstruction of different sphere-volume heuristics and mathematical limits."
+    },
+    {
+      "source_id": "history-liuhui-mactutor",
+      "reason": "Sparse biography, traditionally dated 263 commentary, area, volume, signed calculations and surveying."
+    },
+    {
+      "source_id": "history-liuhui-ninechapters",
+      "reason": "Nine-section organization, Han compilation, individual algorithm classes and Liu Hui commentary."
+    },
+    {
+      "source_id": "history-liuhui-oxford",
+      "reason": "Major primary-text translation and companion including Sea Island and editorial structure."
+    },
+    {
+      "source_id": "history-liuhui-wagner",
+      "reason": "Textual and geometric comparison of Liu Hui sphere difficulty and the later Zu Gengzhi solution."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "110000-h01",
+      "anchor": "He lived in China in the third century of the common era",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-liuhui-mactutor"
+      ],
+      "source_locator": "He lived in China in the third century of the common era",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "110000-h02",
+      "anchor": "A commentary is conventionally dated to 263",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-liuhui-mactutor",
+        "history-liuhui-oxford"
+      ],
+      "source_locator": "A commentary is conventionally dated to 263",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "110000-h03",
+      "anchor": "The Han dynasty had ended",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-liuhui-mactutor"
+      ],
+      "source_locator": "The Han dynasty had ended",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "110000-h04",
+      "anchor": "A book called the *Nine Chapters on the Mathematical Art",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-liuhui-ninechapters",
+        "history-liuhui-oxford"
+      ],
+      "source_locator": "A book called the Nine Chapters on the Mathematical Art",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "110000-h05",
+      "anchor": "It was a compilation with roots in earlier Han-era mathematics",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-liuhui-ninechapters"
+      ],
+      "source_locator": "It was a compilation with roots in earlier Han-era mathematics",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "110000-h06",
+      "anchor": "Its problems involve land measurement",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-liuhui-ninechapters"
+      ],
+      "source_locator": "Its problems involve land measurement",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "110000-h07",
+      "anchor": "Liu Hui's contribution was commentary",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-liuhui-oxford",
+        "history-liuhui-mactutor"
+      ],
+      "source_locator": "Liu Hui's contribution was commentary",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "110000-h08",
+      "anchor": "Why is a pyramid's volume one third",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-liuhui-mactutor",
+        "history-liuhui-oxford"
+      ],
+      "source_locator": "Why is a pyramid's volume one third",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "110000-h09",
+      "anchor": "Circle measurement provides another extraordinary case",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-liuhui-mactutor"
+      ],
+      "source_locator": "Circle measurement provides another extraordinary case",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "110000-h10",
+      "anchor": "The inherited text often relied on a rough value",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-liuhui-ninechapters"
+      ],
+      "source_locator": "The inherited text often relied on a rough value",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "110000-h11",
+      "anchor": "He also used successive polygons to improve numerical approximations to pi",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-liuhui-mactutor"
+      ],
+      "source_locator": "He also used successive polygons to improve numerical approximations to pi",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "110000-h12",
+      "anchor": "The volume of a sphere defeated the argument",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-liuhui-wagner",
+        "history-liuhui-fu"
+      ],
+      "source_locator": "The volume of a sphere defeated the argument",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "110000-h13",
+      "anchor": "Liu Hui examined a special shape formed from intersecting cylindrical regions",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-liuhui-wagner"
+      ],
+      "source_locator": "Liu Hui examined a special shape formed from intersecting cylindrical regions",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "110000-h14",
+      "anchor": "Several centuries later, Zu Gengzhi",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-liuhui-wagner",
+        "history-liuhui-fu"
+      ],
+      "source_locator": "Several centuries later, Zu Gengzhi",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "110000-h15",
+      "anchor": "Chinese calculators could express coefficients",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-liuhui-oxford"
+      ],
+      "source_locator": "Chinese calculators could express coefficients",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "110000-h16",
+      "anchor": "The computations required positive and negative quantities",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-liuhui-ninechapters",
+        "history-liuhui-oxford"
+      ],
+      "source_locator": "The computations required positive and negative quantities",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "110000-h17",
+      "anchor": "Liu Hui was also interested in measurement",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-liuhui-mactutor"
+      ],
+      "source_locator": "Liu Hui was also interested in measurement",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "110000-h18",
+      "anchor": "These problems became associated with the *Sea Island Mathematical Manual",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-liuhui-oxford",
+        "history-liuhui-mactutor"
+      ],
+      "source_locator": "These problems became associated with the Sea Island Mathematical Manual",
+      "audit_status": "source_cross_checked"
+    },
+    {
+      "id": "110000-h19",
+      "anchor": "Later editors separated the material",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-liuhui-oxford"
+      ],
+      "source_locator": "Later editors separated the material",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "110000-h20",
+      "anchor": "The *Nine Chapters* survived through copying",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-liuhui-oxford"
+      ],
+      "source_locator": "The Nine Chapters survived through copying",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "110000-h21",
+      "anchor": "Karine Chemla and Guo Shuchun have studied",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-liuhui-oxford"
+      ],
+      "source_locator": "Karine Chemla and Guo Shuchun have studied",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "110000-h22",
+      "anchor": "The man is difficult to see through the political history",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-liuhui-mactutor"
+      ],
+      "source_locator": "The man is difficult to see through the political history",
+      "audit_status": "source_checked"
+    }
+  ]
+}
