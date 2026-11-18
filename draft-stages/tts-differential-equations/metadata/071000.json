@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "lecture_id": "071000",
+  "transcript": "071000-from-fourier-series-to-continuous-frequencies.md",
+  "related_resources": [
+    {
+      "source_id": "de-mit-18-152-fourier",
+      "reason": "Fourier inversion and Plancherel as a bridge from Fourier series."
+    },
+    {
+      "source_id": "de-mit-18-085-cse",
+      "reason": "Gaussian and signal-transform calculations."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-17",
+    "scope": "Original Fourier transform and numerical spatial-discretization foundations, with mathematical companion; previous 37 manuscripts retained."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "differential-equations:051000",
+        "reason": "Fourier coefficients, harmonic frequencies and orthogonality."
+      },
+      {
+        "lecture_id": "differential-equations:052000",
+        "reason": "Different senses of Fourier series convergence."
+      }
+    ],
+    "recommended": [],
+    "background": [
+      "Single-variable integration, complex exponentials interpreted as sine and cosine, and introductory Fourier coefficients."
+    ],
+    "readiness_checks": [
+      "Derive frequency spacing and Fourier integral normalization from a long-period Fourier series.",
+      "Compute box and Gaussian transforms in the chosen convention.",
+      "State what inversion does at a jump and when distribution theory is needed."
+    ]
+  }
+}

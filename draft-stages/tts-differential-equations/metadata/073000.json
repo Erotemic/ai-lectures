@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "lecture_id": "073000",
+  "transcript": "073000-spatial-derivatives-become-matrices.md",
+  "related_resources": [
+    {
+      "source_id": "de-mit-18-086-fd",
+      "reason": "Finite-difference derivative approximations and sparse Laplacians."
+    },
+    {
+      "source_id": "de-delft-diffusion",
+      "reason": "Spatial grid, central difference and conservation context."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-17",
+    "scope": "Original Fourier transform and numerical spatial-discretization foundations, with mathematical companion; previous 37 manuscripts retained."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "differential-equations:067000",
+        "reason": "Dirichlet and Neumann boundary-value problems."
+      },
+      {
+        "lecture_id": "differential-equations:063000",
+        "reason": "Euler stepping and tangent-line approximation."
+      }
+    ],
+    "recommended": [],
+    "background": [
+      "Derivatives, Taylor expansion, basic matrix-vector multiplication and endpoint boundary data."
+    ],
+    "readiness_checks": [
+      "Derive centered first and second differences with Taylor errors.",
+      "Construct and solve the three-interior-node Dirichlet matrix example.",
+      "Prove the sign of its quadratic form and compare a discrete sine eigenvalue."
+    ]
+  }
+}

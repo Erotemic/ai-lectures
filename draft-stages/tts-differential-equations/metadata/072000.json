@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "lecture_id": "072000",
+  "transcript": "072000-heat-spreading-on-an-infinite-line.md",
+  "related_resources": [
+    {
+      "source_id": "de-mit-18-152-fourier",
+      "reason": "Heat equation and its fundamental solution on the real line."
+    },
+    {
+      "source_id": "de-mit-18-085-cse",
+      "reason": "Heat equation solved using spatial Fourier transform."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-17",
+    "scope": "Original Fourier transform and numerical spatial-discretization foundations, with mathematical companion; previous 37 manuscripts retained."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "differential-equations:071000",
+        "reason": "Fourier transform, derivative rules and inversion."
+      },
+      {
+        "lecture_id": "differential-equations:069000",
+        "reason": "Heat modes, diffusion coefficient and energy decay."
+      },
+      {
+        "lecture_id": "differential-equations:058000",
+        "reason": "Convolution and impulse-response interpretation."
+      }
+    ],
+    "recommended": [],
+    "background": [
+      "Elementary Gaussian integrals, first-order decay ODEs, spatial Fourier transforms and the heat equation."
+    ],
+    "readiness_checks": [
+      "Recover the Gaussian heat kernel and its variance.",
+      "Solve and verify diffusion from a Gaussian initial profile.",
+      "Compare transform multipliers of heat flow and constant-speed transport."
+    ]
+  }
+}

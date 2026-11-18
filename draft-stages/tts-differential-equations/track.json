@@ -14,6 +14,7 @@
     "linear-systems-and-phase-portraits",
     "nonlinear-phase-planes",
     "boundary-values-fourier-modes",
+    "fourier-transforms-and-method-of-lines",
     "transport-diffusion-pdes",
     "poincare-floquet",
     "reaction-diffusion-turing",
@@ -674,6 +675,71 @@
         "Plucked string",
         "Energy conservation",
         "Resonance"
+      ]
+    },
+    {
+      "id": "071000",
+      "title": "From Fourier Series to Continuous Frequencies: Building the Fourier Transform",
+      "section": "fourier-transforms-and-method-of-lines",
+      "file": "071000-from-fourier-series-to-continuous-frequencies.md",
+      "spoken_words": 1890,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 13.0,
+      "tags": [
+        "Fourier transform",
+        "Fourier series",
+        "Gaussian transform",
+        "Fourier inversion",
+        "Frequency domain"
+      ]
+    },
+    {
+      "id": "072000",
+      "title": "Heat Spreading on an Infinite Line: Solving a PDE with Fourier Transforms",
+      "section": "fourier-transforms-and-method-of-lines",
+      "file": "072000-heat-spreading-on-an-infinite-line.md",
+      "spoken_words": 2146,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 14.8,
+      "tags": [
+        "Fourier transform",
+        "Heat kernel",
+        "Diffusion",
+        "Convolution",
+        "Transport equation"
+      ]
+    },
+    {
+      "id": "073000",
+      "title": "Spatial Derivatives Become Matrices: Finite Differences from Taylor’s Formula",
+      "section": "fourier-transforms-and-method-of-lines",
+      "file": "073000-spatial-derivatives-become-matrices.md",
+      "spoken_words": 2032,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 14.0,
+      "tags": [
+        "Finite differences",
+        "Taylor expansions",
+        "Discrete Laplacian",
+        "Sparse matrices",
+        "Boundary-value problems"
+      ]
+    },
+    {
+      "id": "074000",
+      "title": "The Heat Equation as a System of ODEs: Method of Lines, Stability, and Error",
+      "section": "fourier-transforms-and-method-of-lines",
+      "file": "074000-the-heat-equation-as-a-system-of-odes.md",
+      "spoken_words": 2392,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 16.5,
+      "tags": [
+        "Method of lines",
+        "Heat equation",
+        "Explicit Euler",
+        "Backward Euler",
+        "Stability",
+        "Spatial and temporal error"
       ]
     }
   ],

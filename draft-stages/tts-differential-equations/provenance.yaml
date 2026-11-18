@@ -146,3 +146,19 @@ transcript:
     scope: Add four original boundary-value, Sturm-Liouville, heat, and wave
       foundation-first lecture manuscripts with derivations, exercises and
       source records. Preserve the earlier 33 manuscripts and routes.
+  - date: '2026-11-17'
+    models:
+    - GPT-6
+    sources:
+    - lecture: '071000'
+      composition_record: metadata/071000.json
+    - lecture: '072000'
+      composition_record: metadata/072000.json
+    - lecture: '073000'
+      composition_record: metadata/073000.json
+    - lecture: '074000'
+      composition_record: metadata/074000.json
+    scope: Add four original Fourier-transform and method-of-lines foundational lectures
+      with explicit transform conventions, worked Gaussian and grid computations,
+      numerical stability qualifications and mathematical companions. Preserve
+      all earlier 37 lecture manuscripts and their per-lecture metadata.

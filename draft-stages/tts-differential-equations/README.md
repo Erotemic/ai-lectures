@@ -2,7 +2,7 @@
 
 Ordinary differential equations and dynamical systems: initial-value problems, existence and uniqueness, phase portraits, oscillations, stability, nonlinear dynamics and numerical integration, later partial differential equations.
 
-The current pack contains **37 lecture manuscripts**. Short concept chapters have been consolidated where they develop one subject. Each numbered manuscript has one spoken region; its mathematical statements, exercises, sources, and inherited component notes remain in the non-spoken companion.
+The current pack contains **41 lecture manuscripts**. Short concept chapters have been consolidated where they develop one subject. Each numbered manuscript has one spoken region; its mathematical statements, exercises, sources, and inherited component notes remain in the non-spoken companion.
 
 ## Listening routes
 
@@ -11,6 +11,7 @@ The current pack contains **37 lecture manuscripts**. Short concept chapters hav
 - **Differential Equations · ODE Foundations** (Guided route): `001000`, `004000`, `007000`.
 - **Differential Equations · Worked First-Order Problems and Oscillators** (Foundation bridge): `047000`, `048000`, `049000`, `050000`.
 - **Differential Equations · Boundary-Value Problems, Heat and Wave Modes from Scratch** (Foundation bridge): `067000`, `068000`, `069000`, `070000`.
+- **Differential Equations · Fourier Transforms and Numerical Spatial Discretization** (Foundation bridge): `071000`, `072000`, `073000`, `074000`.
 - **Differential Equations · Numerical Time Stepping from Scratch** (Foundation bridge): `063000`, `064000`, `065000`, `066000`.
 - **Differential Equations · Linear Systems and Phase Portraits from Scratch** (Foundation bridge): `059000`, `060000`, `061000`, `062000`.
 - **Differential Equations · Fourier Series and Periodic Forcing from Scratch** (Foundation bridge): `051000`, `052000`, `053000`, `054000`.
@@ -65,6 +66,10 @@ Durations are measured from the current spoken text at 145 words per minute, bef
 | `068000` | [Why Boundaries Select Fourier Modes: Sturm-Liouville from Scratch](068000-why-boundaries-select-fourier-modes.md) | 14.0 |
 | `069000` | [How Heat Chooses and Erases Spatial Modes](069000-how-heat-chooses-and-erases-spatial-modes.md) | 16.5 |
 | `070000` | [Why a String Rings While a Rod Cools: Wave Equations by Fourier Modes](070000-why-a-string-rings-while-a-rod-cools.md) | 16.1 |
+| `071000` | [From Fourier Series to Continuous Frequencies: Building the Fourier Transform](071000-from-fourier-series-to-continuous-frequencies.md) | 13.0 |
+| `072000` | [Heat Spreading on an Infinite Line: Solving a PDE with Fourier Transforms](072000-heat-spreading-on-an-infinite-line.md) | 14.8 |
+| `073000` | [Spatial Derivatives Become Matrices: Finite Differences from Taylor’s Formula](073000-spatial-derivatives-become-matrices.md) | 14.0 |
+| `074000` | [The Heat Equation as a System of ODEs: Method of Lines, Stability, and Error](074000-the-heat-equation-as-a-system-of-odes.md) | 16.5 |
 
 ## Foundation-first continuation
 
@@ -97,3 +102,8 @@ Read [the lecture style rules](../../LECTURE_STYLE_RULES.md) before changing nar
 ## Elementary boundary-value and Fourier-mode foundation bridge
 
 The `067000`–`070000` route distinguishes endpoint constraints from initial data, solves compatible and incompatible Neumann examples, derives fixed/mixed/free eigenfunctions and resonant forcing, then constructs the heat and wave equations from conservation and force balance. It calculates an exact parabolic heat-profile sine series and a plucked-string triangular sine series, checks decay and energy conservation, and requires no advanced PDE or function-space background. The original overview and advanced PDE manuscripts remain unchanged.
+
+
+## Fourier transform and method-of-lines foundation bridge
+
+The `071000`–`074000` route derives the continuous-frequency transform as a long-period limit of Fourier series, solves the infinite-line heat equation through its Gaussian kernel and convolution, constructs first and second finite differences from Taylor expansions, and turns a bounded-interval heat equation into a tridiagonal ODE system. It checks explicit and implicit Euler against exact eigenmodes, showing how spatial accuracy and time stability are separate questions. The first two lectures can be heard without numerical linear algebra; the final two require only basic matrices and numerical ODE time steps. Previous 37 manuscripts are unchanged.

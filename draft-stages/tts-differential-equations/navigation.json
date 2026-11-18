@@ -83,6 +83,40 @@
       ]
     },
     {
+      "id": "fourier-transform-method-of-lines-foundations",
+      "title": "Differential Equations · Fourier Transforms and Numerical Spatial Discretization",
+      "role": "deep_dive",
+      "parent": "survey",
+      "lectures": [
+        "071000",
+        "072000",
+        "073000",
+        "074000"
+      ],
+      "assumed_background": [
+        "Elementary integration, Fourier series, Taylor expansion, matrix-vector arithmetic and Euler time stepping; no functional analysis or advanced PDE numerical method is assumed."
+      ],
+      "preparation_collections": [
+        "differential-equations:fourier-periodic-forcing-foundations",
+        "differential-equations:boundary-value-fourier-foundations",
+        "differential-equations:numerical-time-stepping-foundations"
+      ],
+      "related_collections": [
+        "survey",
+        "boundary-value-fourier-foundations",
+        "numerical-time-stepping-foundations",
+        "parabolic-fronts"
+      ],
+      "tags": [
+        "Differential equations",
+        "Fourier transform",
+        "Heat kernel",
+        "Finite differences",
+        "Method of lines",
+        "Numerical stability"
+      ]
+    },
+    {
       "id": "numerical-time-stepping-foundations",
       "title": "Differential Equations · Numerical Time Stepping from Scratch",
       "role": "deep_dive",

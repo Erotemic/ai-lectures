@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "lecture_id": "074000",
+  "transcript": "074000-the-heat-equation-as-a-system-of-odes.md",
+  "related_resources": [
+    {
+      "source_id": "de-delft-diffusion",
+      "reason": "Method of lines, FTCS scheme and time-stepping conditions."
+    },
+    {
+      "source_id": "de-mit-18-086-fd",
+      "reason": "Explicit and implicit heat-equation finite differences and mesh stability."
+    },
+    {
+      "source_id": "de-mit-18-085-cse",
+      "reason": "Finite differences and linear ODE systems in computational science."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-17",
+    "scope": "Original Fourier transform and numerical spatial-discretization foundations, with mathematical companion; previous 37 manuscripts retained."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "differential-equations:073000",
+        "reason": "Discrete second differences and tridiagonal matrices."
+      },
+      {
+        "lecture_id": "differential-equations:063000",
+        "reason": "Explicit Euler updates for ODEs."
+      },
+      {
+        "lecture_id": "differential-equations:066000",
+        "reason": "Forward/backward Euler and absolute stability."
+      },
+      {
+        "lecture_id": "differential-equations:069000",
+        "reason": "Exact sine-mode heat solutions for comparison."
+      }
+    ],
+    "recommended": [],
+    "background": [
+      "Elementary matrix operations, Euler time steps, second spatial differences and the heat equation."
+    ],
+    "readiness_checks": [
+      "Compute two forward-Euler heat steps on a three-node grid.",
+      "Derive the standard diffusion stability ratio bound and its Fourier amplification factor.",
+      "Separate spatial truncation, temporal truncation and stability in a refinement test."
+    ]
+  }
+}
