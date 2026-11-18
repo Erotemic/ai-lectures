@@ -1,0 +1,248 @@
+{
+  "schema_version": 1,
+  "lecture_id": "030000",
+  "transcript": "030000-a-second-earth-for-experiments.md",
+  "description": "How counterfactual climate experiments use control runs, step and ramp forcings, historical hindcasts and future emissions- or concentration-driven pathways; what CMIP6 and CMIP7 protocols mean.",
+  "tags": [
+    "Climate modeling experiments",
+    "Counterfactual reasoning",
+    "Preindustrial control",
+    "Abrupt 4xCO2 experiment",
+    "1pctCO2 experiment",
+    "Equilibrium climate sensitivity",
+    "Transient climate response",
+    "Historical simulation",
+    "Climate projection",
+    "Forcing scenario",
+    "Emissions-driven simulation",
+    "Concentration-driven simulation",
+    "Initial-condition ensemble",
+    "CMIP6",
+    "CMIP7"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Earth science",
+      "Earth system modeling",
+      "Counterfactual experiments"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth system modeling",
+      "Control runs"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth system modeling",
+      "Abrupt forcing perturbations"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth system modeling",
+      "Transient climate response"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth system modeling",
+      "Historical climate simulations"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth system modeling",
+      "Scenario-based projections"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth system modeling",
+      "Emissions versus concentrations"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth system modeling",
+      "CMIP coordination"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth system modeling",
+      "Initial-condition ensembles"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "es-model-ipcc4",
+      "reason": "Internal variability, model response and scenario uncertainty, initial condition ensembles and conditional projections."
+    },
+    {
+      "source_id": "es-model-ipcc7",
+      "reason": "Energy balance, heat uptake, radiative feedback, cloud uncertainty and model-based sensitivity."
+    },
+    {
+      "source_id": "es-model-cmip6",
+      "reason": "CMIP6 coordinated DECK, historical simulation, data standards and experimental-comparison purpose."
+    },
+    {
+      "source_id": "es-model-cmip7",
+      "reason": "CMIP7 rationale and evolving design, shared experimental protocol and coupled physical and biogeochemical experiments."
+    },
+    {
+      "source_id": "es-model-cmip7-guidance",
+      "reason": "Current phase-seven experiment naming, forcing and concentration/emissions-driven choices; guidance explicitly warns that some pages remain under review."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "030000-e01",
+      "anchor": "A climate model is not a substitute planet in the literal sense",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-model-ipcc4"
+      ],
+      "source_locator": "Internal variability, model response and scenario uncertainty, initial condition ensembles and conditional projections.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "030000-e02",
+      "anchor": "The control run is particularly important.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-model-cmip6"
+      ],
+      "source_locator": "CMIP6 coordinated DECK, historical simulation, data standards and experimental-comparison purpose.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "030000-e03",
+      "anchor": "A striking experiment is the abrupt increase of carbon dioxide",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-model-cmip6",
+        "es-model-cmip7-guidance"
+      ],
+      "source_locator": "CMIP6 coordinated DECK, historical simulation, data standards and experimental-comparison purpose.; Current phase-seven experiment naming, forcing and concentration/emissions-driven choices; guidance explicitly warns that some pages remain under review.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "030000-e04",
+      "anchor": "carbon dioxide concentration grows by one percent per year",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-model-cmip6"
+      ],
+      "source_locator": "CMIP6 coordinated DECK, historical simulation, data standards and experimental-comparison purpose.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "030000-e05",
+      "anchor": "Historical simulations ask a different question.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-model-cmip6"
+      ],
+      "source_locator": "CMIP6 coordinated DECK, historical simulation, data standards and experimental-comparison purpose.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "030000-e06",
+      "anchor": "The word projection is often more precise than prediction.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-model-ipcc4"
+      ],
+      "source_locator": "Internal variability, model response and scenario uncertainty, initial condition ensembles and conditional projections.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "030000-e07",
+      "anchor": "In an emissions-driven experiment, the model receives a specified emissions pathway",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-model-cmip7-guidance"
+      ],
+      "source_locator": "Current phase-seven experiment naming, forcing and concentration/emissions-driven choices; guidance explicitly warns that some pages remain under review.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "030000-e08",
+      "anchor": "A scenario is a conditional description of possible future inputs",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-model-ipcc4"
+      ],
+      "source_locator": "Internal variability, model response and scenario uncertainty, initial condition ensembles and conditional projections.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "030000-e09",
+      "anchor": "The Coupled Model Intercomparison Project, known as CMIP",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-model-cmip6"
+      ],
+      "source_locator": "CMIP6 coordinated DECK, historical simulation, data standards and experimental-comparison purpose.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "030000-e10",
+      "anchor": "The sixth phase, described in its experimental design by Veronika Eyring and colleagues in 2016",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-model-cmip6"
+      ],
+      "source_locator": "CMIP6 coordinated DECK, historical simulation, data standards and experimental-comparison purpose.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "030000-e11",
+      "anchor": "The seventh phase, set out by John Dunne and collaborators in 2025",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-model-cmip7"
+      ],
+      "source_locator": "CMIP7 rationale and evolving design, shared experimental protocol and coupled physical and biogeochemical experiments.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "030000-e12",
+      "anchor": "A related tool is the initial-condition ensemble.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-model-ipcc4"
+      ],
+      "source_locator": "Internal variability, model response and scenario uncertainty, initial condition ensembles and conditional projections.",
+      "audit_status": "source_checked"
+    }
+  ],
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Energy budgets and feedback are developed with a one-box climate example; no other lecture is required."
+    ],
+    "readiness_checks": [
+      "What causal question does an abrupt forcing run answer that a historical run cannot?",
+      "What separates conditional projections from an actual prediction of human emissions?",
+      "Why are control runs needed to interpret small forced changes?"
+    ]
+  },
+  "places": [],
+  "chronology": {
+    "period": {
+      "start": 2025,
+      "label": "Dunne et al. CMIP7 experimental design",
+      "basis": "documented peer-reviewed publication",
+      "note": "The year dates a named research publication or operational milestone, not the age of a general physical mechanism.",
+      "source_ids": [
+        "es-model-cmip7"
+      ]
+    }
+  }
+}

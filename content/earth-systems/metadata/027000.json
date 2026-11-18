@@ -1,0 +1,250 @@
+{
+  "schema_version": 1,
+  "lecture_id": "027000",
+  "transcript": "027000-weather-inside-a-grid-cell.md",
+  "description": "A mechanistic account of how global models approximate convective clouds, radiation, turbulent transport and land-surface effects below grid scale, including scientific tuning and independent validation.",
+  "tags": [
+    "Subgrid parameterization",
+    "Convective parameterization",
+    "Arakawa-Schubert scheme",
+    "Cloud microphysics",
+    "Cloud radiative effect",
+    "Boundary-layer turbulence",
+    "Model tuning",
+    "Resolution gray zone",
+    "Cloud feedback",
+    "Scale-aware parameterization",
+    "Compensating errors",
+    "Out-of-sample validation",
+    "Machine-learned parameterizations"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Earth science",
+      "Earth system modeling",
+      "Subgrid-scale closure"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth system modeling",
+      "Convection and mass flux"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth system modeling",
+      "Cloud radiative transfer"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth system modeling",
+      "Boundary-layer turbulence"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth system modeling",
+      "Parameter estimation and tuning"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth system modeling",
+      "Resolution gray zone"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth system modeling",
+      "Scale-aware closures"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth system modeling",
+      "Machine-learned physics"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth system modeling",
+      "Independent validation"
+    ],
+    [
+      "Science",
+      "Computational science",
+      "Climate modeling",
+      "Scale-aware closures"
+    ],
+    [
+      "Place: North America",
+      "Place: United States",
+      "Place: California",
+      "Place: Los Angeles"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "es-model-arakawa",
+      "reason": "Cloud-ensemble mass flux and interactions with the large-scale heat and moisture environment; UCLA authorship."
+    },
+    {
+      "source_id": "es-model-hourdin",
+      "reason": "Tuning of subgrid parameters, observational targets, compensation errors and scientific transparency."
+    },
+    {
+      "source_id": "es-model-ipcc1",
+      "reason": "Earth system model hierarchies, model numerical grids, parameterizations, conservation, tuning and evaluation."
+    },
+    {
+      "source_id": "es-model-ipcc7",
+      "reason": "Energy balance, heat uptake, radiative feedback, cloud uncertainty and model-based sensitivity."
+    },
+    {
+      "source_id": "es-model-ml-eval",
+      "reason": "Out-of-sample physical behavior and conservation constraints for machine-learned climate modeling systems; role of process validation rather than only fit on historical data."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "027000-e01",
+      "anchor": "the average of a nonlinear process is generally not",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-model-ipcc1"
+      ],
+      "source_locator": "Earth system model hierarchies, model numerical grids, parameterizations, conservation, tuning and evaluation.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "027000-e02",
+      "anchor": "An early influential attempt to describe the interaction of ensembles of cumulus clouds",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-model-arakawa"
+      ],
+      "source_locator": "Cloud-ensemble mass flux and interactions with the large-scale heat and moisture environment; UCLA authorship.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "027000-e03",
+      "anchor": "published in 1974",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-model-arakawa"
+      ],
+      "source_locator": "Cloud-ensemble mass flux and interactions with the large-scale heat and moisture environment; UCLA authorship.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "027000-e04",
+      "anchor": "A low, bright cloud can reflect incoming sunlight",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-model-ipcc7"
+      ],
+      "source_locator": "Energy balance, heat uptake, radiative feedback, cloud uncertainty and model-based sensitivity.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "027000-e05",
+      "anchor": "Different convective schemes make different assumptions",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-model-arakawa",
+        "es-model-ipcc1"
+      ],
+      "source_locator": "Cloud-ensemble mass flux and interactions with the large-scale heat and moisture environment; UCLA authorship.; Earth system model hierarchies, model numerical grids, parameterizations, conservation, tuning and evaluation.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "027000-e06",
+      "anchor": "Two compensating errors can even give an apparently excellent global energy balance",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-model-hourdin"
+      ],
+      "source_locator": "Tuning of subgrid parameters, observational targets, compensation errors and scientific transparency.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "027000-e07",
+      "anchor": "In 2017, Frédéric Hourdin and a large group of colleagues published a review",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-model-hourdin"
+      ],
+      "source_locator": "Tuning of subgrid parameters, observational targets, compensation errors and scientific transparency.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "027000-e08",
+      "anchor": "In the so-called gray zone, a traditional parameterization",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-model-ipcc1"
+      ],
+      "source_locator": "Earth system model hierarchies, model numerical grids, parameterizations, conservation, tuning and evaluation.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "027000-e09",
+      "anchor": "A large-eddy simulation resolves energetic turbulent motions",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-model-ipcc1"
+      ],
+      "source_locator": "Earth system model hierarchies, model numerical grids, parameterizations, conservation, tuning and evaluation.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "027000-e10",
+      "anchor": "A statistical or machine-learned surrogate can be trained",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-model-ml-eval"
+      ],
+      "source_locator": "Out-of-sample physical behavior and conservation constraints for machine-learned climate modeling systems; role of process validation rather than only fit on historical data.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "027000-e11",
+      "anchor": "A scheme may score well on one of these and poorly on another.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-model-hourdin"
+      ],
+      "source_locator": "Tuning of subgrid parameters, observational targets, compensation errors and scientific transparency.",
+      "audit_status": "source_checked"
+    }
+  ],
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Basic intuitive familiarity with clouds, evaporation, heat and fluid mixing is sufficient."
+    ],
+    "readiness_checks": [
+      "Why is a cell with intermittent heavy rain different from uniform drizzle with the same mean?",
+      "How can calibration and validation accidentally use the same evidence?",
+      "What changes when explicitly resolved and parameterized convection overlap?"
+    ]
+  },
+  "places": [
+    "Los Angeles, California, United States"
+  ],
+  "chronology": {
+    "period": {
+      "start": 1974,
+      "label": "Arakawa–Schubert convective-ensemble paper",
+      "basis": "documented peer-reviewed publication",
+      "note": "The year dates a named research publication or operational milestone, not the age of a general physical mechanism.",
+      "source_ids": [
+        "es-model-arakawa"
+      ]
+    }
+  }
+}

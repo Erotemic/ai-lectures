@@ -1,0 +1,248 @@
+{
+  "schema_version": 1,
+  "lecture_id": "029000",
+  "transcript": "029000-a-forecast-begins-with-a-guess.md",
+  "description": "How observations and physics-based backgrounds are combined through uncertainty-weighted analysis, observation operators, 4D-Var, ensemble assimilation and historical reanalysis, with a worked numeric example.",
+  "tags": [
+    "Data assimilation",
+    "Background forecast",
+    "Analysis increment",
+    "Inverse-variance weighting",
+    "Observation operator",
+    "Observation error",
+    "Four-dimensional variational assimilation",
+    "Ensemble Kalman filter",
+    "Background-error covariance",
+    "ERA5 reanalysis",
+    "Reanalysis uncertainty",
+    "Independent forecast verification",
+    "ENSO initialization"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Earth science",
+      "Earth system modeling",
+      "Observation versus state estimate"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth system modeling",
+      "Variance-weighted update"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth system modeling",
+      "Observation operators and radiances"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth system modeling",
+      "4D-Var"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth system modeling",
+      "Ensemble data assimilation"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth system modeling",
+      "Reanalysis ERA5"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth system modeling",
+      "Observation-system changes"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth system modeling",
+      "Independent forecast evaluation"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth system modeling",
+      "Seasonal ocean initialization"
+    ],
+    [
+      "Science",
+      "Computational science",
+      "Climate modeling",
+      "4D-Var"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "es-model-ecmwf-assim",
+      "reason": "Assimilating observations into short-range forecasts, 4D-Var, EDA and coupled assimilation; ECMWF 4D-Var operational since 1997."
+    },
+    {
+      "source_id": "es-model-ecmwf-var",
+      "reason": "4D-Var time-window optimization, observation accuracy and representativeness, background precision."
+    },
+    {
+      "source_id": "es-model-era5",
+      "reason": "Hourly global reanalysis using observations and model; ERA5 spans 1940 to present with varying observational coverage and model dependence."
+    },
+    {
+      "source_id": "es-model-copernicus",
+      "reason": "What reanalysis estimates contain, the ERA5 reanalysis and data availability."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "029000-e01",
+      "anchor": "Data assimilation is the disciplined act of combining them",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-model-ecmwf-assim"
+      ],
+      "source_locator": "Assimilating observations into short-range forecasts, 4D-Var, EDA and coupled assimilation; ECMWF 4D-Var operational since 1997.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "029000-e02",
+      "anchor": "It is eighteen point six degrees, not seventeen",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-model-ecmwf-var"
+      ],
+      "source_locator": "4D-Var time-window optimization, observation accuracy and representativeness, background precision.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "029000-e03",
+      "anchor": "A satellite radiometer records radiation at selected wavelengths",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-model-ecmwf-assim"
+      ],
+      "source_locator": "Assimilating observations into short-range forecasts, 4D-Var, EDA and coupled assimilation; ECMWF 4D-Var operational since 1997.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "029000-e04",
+      "anchor": "In four-dimensional variational assimilation, four-D var",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-model-ecmwf-var"
+      ],
+      "source_locator": "4D-Var time-window optimization, observation accuracy and representativeness, background precision.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "029000-e05",
+      "anchor": "ECMWF introduced operational four-D var in 1997",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-model-ecmwf-assim"
+      ],
+      "source_locator": "Assimilating observations into short-range forecasts, 4D-Var, EDA and coupled assimilation; ECMWF 4D-Var operational since 1997.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "029000-e06",
+      "anchor": "Another family of methods employs ensembles.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-model-ecmwf-assim"
+      ],
+      "source_locator": "Assimilating observations into short-range forecasts, 4D-Var, EDA and coupled assimilation; ECMWF 4D-Var operational since 1997.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "029000-e07",
+      "anchor": "ERA5 is one such global reanalysis",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-model-era5"
+      ],
+      "source_locator": "Hourly global reanalysis using observations and model; ERA5 spans 1940 to present with varying observational coverage and model dependence.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "029000-e08",
+      "anchor": "Reanalysis quality changes with the observing system.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-model-copernicus",
+        "es-model-era5"
+      ],
+      "source_locator": "What reanalysis estimates contain, the ERA5 reanalysis and data availability.; Hourly global reanalysis using observations and model; ERA5 spans 1940 to present with varying observational coverage and model dependence.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "029000-e09",
+      "anchor": "Some regions and periods may be well constrained by observations",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-model-era5"
+      ],
+      "source_locator": "Hourly global reanalysis using observations and model; ERA5 spans 1940 to present with varying observational coverage and model dependence.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "029000-e10",
+      "anchor": "An analysis gives the model the best available starting point.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-model-ecmwf-assim"
+      ],
+      "source_locator": "Assimilating observations into short-range forecasts, 4D-Var, EDA and coupled assimilation; ECMWF 4D-Var operational since 1997.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "029000-e11",
+      "anchor": "What counts as a successful assimilation?",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-model-ecmwf-var"
+      ],
+      "source_locator": "4D-Var time-window optimization, observation accuracy and representativeness, background precision.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "029000-e12",
+      "anchor": "Data assimilation can introduce its own budget issues.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-model-ecmwf-assim"
+      ],
+      "source_locator": "Assimilating observations into short-range forecasts, 4D-Var, EDA and coupled assimilation; ECMWF 4D-Var operational since 1997.",
+      "audit_status": "source_checked"
+    }
+  ],
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "No statistics prerequisites; the worked temperature update introduces error variance, weighted averages, and observational sampling."
+    ],
+    "readiness_checks": [
+      "Why is a reanalysis grid cell not identical to an instrument measurement?",
+      "Which uncertainty receives more weight in a variance-weighted analysis?",
+      "What independent test detects overfitting in assimilation?"
+    ]
+  },
+  "places": [],
+  "chronology": {
+    "period": {
+      "start": 1997,
+      "label": "Operational 4D-Var introduced at ECMWF",
+      "basis": "documented operational milestone",
+      "note": "The year dates a named research publication or operational milestone, not the age of a general physical mechanism.",
+      "source_ids": [
+        "es-model-ecmwf-assim"
+      ]
+    }
+  }
+}

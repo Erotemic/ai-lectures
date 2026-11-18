@@ -1,0 +1,205 @@
+{
+  "schema_version": 1,
+  "lecture_id": "028000",
+  "transcript": "028000-when-models-share-a-boundary.md",
+  "description": "How atmosphere, ocean, land, sea ice and the carbon cycle exchange heat, freshwater, salt, momentum and tracers across grids and time steps; coupling drift, conservative remapping and spin-up.",
+  "tags": [
+    "Coupled Earth system model",
+    "Coupler",
+    "Conservative remapping",
+    "Ocean mixed layer",
+    "Sea ice thermodynamics",
+    "Surface heat flux",
+    "Air-sea freshwater exchange",
+    "Ocean heat uptake",
+    "Land-atmosphere coupling",
+    "Carbon cycle feedback",
+    "Climate spin-up",
+    "Control-run drift",
+    "Emissions-driven modeling",
+    "ModelE"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Earth science",
+      "Earth system modeling",
+      "Atmosphere-ocean exchange"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth system modeling",
+      "Conservative flux remapping"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth system modeling",
+      "Thermal inertia and ocean heat uptake"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth system modeling",
+      "Sea-ice freshwater and salt"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth system modeling",
+      "Land-atmosphere moisture coupling"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth system modeling",
+      "Carbon-cycle coupling"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth system modeling",
+      "Model spin-up and drift"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth system modeling",
+      "Model component configurations"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "es-model-ipcc1",
+      "reason": "Earth system model hierarchies, model numerical grids, parameterizations, conservation, tuning and evaluation."
+    },
+    {
+      "source_id": "es-model-ipcc7",
+      "reason": "Energy balance, heat uptake, radiative feedback, cloud uncertainty and model-based sensitivity."
+    },
+    {
+      "source_id": "es-model-giss",
+      "reason": "Atmosphere-ocean coupled framework and configurations including interactive chemistry, aerosols, carbon cycle and tracers since 2004."
+    },
+    {
+      "source_id": "es-model-cmip7-guidance",
+      "reason": "Current phase-seven experiment naming, forcing and concentration/emissions-driven choices; guidance explicitly warns that some pages remain under review."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "028000-e01",
+      "anchor": "Winds push water; water temperatures affect air temperatures",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-model-ipcc1"
+      ],
+      "source_locator": "Earth system model hierarchies, model numerical grids, parameterizations, conservation, tuning and evaluation.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "028000-e02",
+      "anchor": "At the ocean surface, a model exchanges several distinct quantities.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-model-ipcc1"
+      ],
+      "source_locator": "Earth system model hierarchies, model numerical grids, parameterizations, conservation, tuning and evaluation.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "028000-e03",
+      "anchor": "A conservative exchange ensures that",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-model-ipcc1"
+      ],
+      "source_locator": "Earth system model hierarchies, model numerical grids, parameterizations, conservation, tuning and evaluation.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "028000-e04",
+      "anchor": "Ice forms when seawater loses sufficient heat.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-model-ipcc1"
+      ],
+      "source_locator": "Earth system model hierarchies, model numerical grids, parameterizations, conservation, tuning and evaluation.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "028000-e05",
+      "anchor": "As soil dries, a plant may reduce transpiration to conserve water.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-model-ipcc1"
+      ],
+      "source_locator": "Earth system model hierarchies, model numerical grids, parameterizations, conservation, tuning and evaluation.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "028000-e06",
+      "anchor": "In an emissions-driven experiment, the carbon concentration can evolve",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-model-cmip7-guidance"
+      ],
+      "source_locator": "Current phase-seven experiment naming, forcing and concentration/emissions-driven choices; guidance explicitly warns that some pages remain under review.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "028000-e07",
+      "anchor": "NASA's GISS ModelE framework",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-model-giss"
+      ],
+      "source_locator": "Atmosphere-ocean coupled framework and configurations including interactive chemistry, aerosols, carbon cycle and tracers since 2004.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "028000-e08",
+      "anchor": "Modelers often run a long spin-up before starting an experiment",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-model-ipcc1"
+      ],
+      "source_locator": "Earth system model hierarchies, model numerical grids, parameterizations, conservation, tuning and evaluation.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "028000-e09",
+      "anchor": "Coupled-model drift deserves careful language.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-model-ipcc1"
+      ],
+      "source_locator": "Earth system model hierarchies, model numerical grids, parameterizations, conservation, tuning and evaluation.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "028000-e10",
+      "anchor": "An atmosphere model driven by observed sea-surface temperatures",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-model-ipcc1"
+      ],
+      "source_locator": "Earth system model hierarchies, model numerical grids, parameterizations, conservation, tuning and evaluation.",
+      "audit_status": "source_checked"
+    }
+  ],
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "The distinction between a stored amount and a flow is introduced using surface heat and water examples."
+    ],
+    "readiness_checks": [
+      "Why is exchanging heat between two independent models a conservation problem?",
+      "What is spin-up and how does it differ from internal variability?",
+      "Why may two good uncoupled models perform poorly when joined?"
+    ]
+  },
+  "places": []
+}

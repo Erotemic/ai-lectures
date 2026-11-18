@@ -1,7 +1,7 @@
 {
   "id": "earth-systems",
   "title": "Earth as a System: Air, Water, Ocean, and Climate",
-  "summary": "Mechanistic Earth systems science connecting atmosphere, ocean, land, water, ice and living chemistry, including ENSO, hazards and biogeochemical cycling. A six-part paleoclimate sequence explains how ice, tree rings, sediments and cave deposits are dated and combined into climate reconstructions.",
+  "summary": "Mechanistic Earth systems science connecting atmosphere, ocean, land, water, ice and living chemistry, including ENSO, hazards and biogeochemical cycling. A six-part paleoclimate sequence explains how ice, tree rings, sediments and cave deposits are dated and combined into climate reconstructions. Six modeling-method lectures connect conservation, grids, parameterizations, coupled components, data assimilation, designed experiments and model evaluation.",
   "categories": [
     "Science and nature"
   ],
@@ -61,7 +61,13 @@
     "paleoclimate_sediments",
     "paleoclimate_speleothems",
     "paleoclimate_chronology",
-    "paleoclimate_integration"
+    "paleoclimate_integration",
+    "models_numerics",
+    "models_parameterization",
+    "models_coupling",
+    "models_assimilation",
+    "models_experiments",
+    "models_evaluation"
   ],
   "lectures": [
     {
@@ -455,9 +461,9 @@
       "title": "Two Ages in One Piece of Ice: What an Ice Core Actually Records",
       "section": "paleoclimate_ice_cores",
       "file": "020000-two-ages-in-one-piece-of-ice.md",
-      "spoken_words": 1710,
+      "spoken_words": 1686,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 11.8,
+      "estimated_minutes_at_145_wpm": 11.6,
       "tags": [
         "Ice core stratigraphy",
         "Firn densification",
@@ -478,9 +484,9 @@
       "title": "The Calendar Inside a Tree: Rings, Weather, and Missing Years",
       "section": "paleoclimate_tree_rings",
       "file": "021000-the-calendar-inside-a-tree.md",
-      "spoken_words": 1746,
+      "spoken_words": 1722,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 12.0,
+      "estimated_minutes_at_145_wpm": 11.9,
       "tags": [
         "Dendrochronology",
         "Crossdating",
@@ -501,9 +507,9 @@
       "title": "The Ocean Floor Keeps a Ledger: Shells, Mud, and Lost Seasons",
       "section": "paleoclimate_sediments",
       "file": "022000-the-ocean-floor-keeps-a-ledger.md",
-      "spoken_words": 1729,
+      "spoken_words": 1707,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 11.9,
+      "estimated_minutes_at_145_wpm": 11.8,
       "tags": [
         "Marine sediment core",
         "Foraminifera",
@@ -525,9 +531,9 @@
       "title": "A Cave Grows Its Own Archive: Stalagmites and Ancient Rain",
       "section": "paleoclimate_speleothems",
       "file": "023000-a-cave-grows-its-own-archive.md",
-      "spoken_words": 1645,
+      "spoken_words": 1624,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 11.3,
+      "estimated_minutes_at_145_wpm": 11.2,
       "tags": [
         "Speleothems",
         "Stalagmites",
@@ -548,9 +554,9 @@
       "title": "The Ages Between the Layers: Building a Clock for Climate History",
       "section": "paleoclimate_chronology",
       "file": "024000-the-ages-between-the-layers.md",
-      "spoken_words": 1767,
+      "spoken_words": 1753,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 12.2,
+      "estimated_minutes_at_145_wpm": 12.1,
       "tags": [
         "Paleoclimate chronology",
         "Crossdating",
@@ -572,9 +578,9 @@
       "title": "When the Archives Disagree: Reconstructing a Changing Planet",
       "section": "paleoclimate_integration",
       "file": "025000-when-archives-disagree.md",
-      "spoken_words": 2009,
+      "spoken_words": 1984,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 13.9,
+      "estimated_minutes_at_145_wpm": 13.7,
       "tags": [
         "Multi-proxy paleoclimatology",
         "Climate reconstruction",
@@ -590,6 +596,157 @@
         "Sampling bias",
         "Proxy temporal smoothing",
         "Uncertainty decomposition"
+      ]
+    },
+    {
+      "id": "026000",
+      "title": "A Planet in Finite Boxes: The Laws Behind an Earth System Model",
+      "section": "models_numerics",
+      "file": "026000-a-planet-in-finite-boxes.md",
+      "spoken_words": 1908,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 13.2,
+      "tags": [
+        "Earth system modeling",
+        "Conservation laws",
+        "Finite volume method",
+        "Dynamical core",
+        "Numerical discretization",
+        "Computational grid",
+        "Time stepping",
+        "Courant-Friedrichs-Lewy condition",
+        "Global energy budget",
+        "Hydrological budget",
+        "Numerical convergence",
+        "Effective resolution",
+        "Climate model hierarchy"
+      ]
+    },
+    {
+      "id": "027000",
+      "title": "The Weather Inside a Grid Cell: Clouds, Turbulence, and Tuning",
+      "section": "models_parameterization",
+      "file": "027000-weather-inside-a-grid-cell.md",
+      "spoken_words": 1785,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 12.3,
+      "tags": [
+        "Subgrid parameterization",
+        "Convective parameterization",
+        "Arakawa-Schubert scheme",
+        "Cloud microphysics",
+        "Cloud radiative effect",
+        "Boundary-layer turbulence",
+        "Model tuning",
+        "Resolution gray zone",
+        "Cloud feedback",
+        "Scale-aware parameterization",
+        "Compensating errors",
+        "Out-of-sample validation",
+        "Machine-learned parameterizations"
+      ]
+    },
+    {
+      "id": "028000",
+      "title": "When Models Share a Boundary: Coupling the Ocean, Air, Ice, and Living Earth",
+      "section": "models_coupling",
+      "file": "028000-when-models-share-a-boundary.md",
+      "spoken_words": 1798,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 12.4,
+      "tags": [
+        "Coupled Earth system model",
+        "Coupler",
+        "Conservative remapping",
+        "Ocean mixed layer",
+        "Sea ice thermodynamics",
+        "Surface heat flux",
+        "Air-sea freshwater exchange",
+        "Ocean heat uptake",
+        "Land-atmosphere coupling",
+        "Carbon cycle feedback",
+        "Climate spin-up",
+        "Control-run drift",
+        "Emissions-driven modeling",
+        "ModelE"
+      ]
+    },
+    {
+      "id": "029000",
+      "title": "A Forecast Begins with a Guess: Observations, Data Assimilation, and Reanalysis",
+      "section": "models_assimilation",
+      "file": "029000-a-forecast-begins-with-a-guess.md",
+      "spoken_words": 1794,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 12.4,
+      "tags": [
+        "Data assimilation",
+        "Background forecast",
+        "Analysis increment",
+        "Inverse-variance weighting",
+        "Observation operator",
+        "Observation error",
+        "Four-dimensional variational assimilation",
+        "Ensemble Kalman filter",
+        "Background-error covariance",
+        "ERA5 reanalysis",
+        "Reanalysis uncertainty",
+        "Independent forecast verification",
+        "ENSO initialization"
+      ]
+    },
+    {
+      "id": "030000",
+      "title": "A Second Earth for Experiments: Controls, Forcings, and Climate Projections",
+      "section": "models_experiments",
+      "file": "030000-a-second-earth-for-experiments.md",
+      "spoken_words": 1809,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 12.5,
+      "tags": [
+        "Climate modeling experiments",
+        "Counterfactual reasoning",
+        "Preindustrial control",
+        "Abrupt 4xCO2 experiment",
+        "1pctCO2 experiment",
+        "Equilibrium climate sensitivity",
+        "Transient climate response",
+        "Historical simulation",
+        "Climate projection",
+        "Forcing scenario",
+        "Emissions-driven simulation",
+        "Concentration-driven simulation",
+        "Initial-condition ensemble",
+        "CMIP6",
+        "CMIP7"
+      ]
+    },
+    {
+      "id": "031000",
+      "title": "When a Climate Model Is Wrong: Testing Skill, Uncertainty, and Trust",
+      "section": "models_evaluation",
+      "file": "031000-testing-a-climate-model.md",
+      "spoken_words": 2024,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 14.0,
+      "tags": [
+        "Climate model evaluation",
+        "Model skill",
+        "Forecast calibration",
+        "Model bias",
+        "Internal climate variability",
+        "Lorenz chaos",
+        "Hasselmann stochastic climate theory",
+        "Climate hindcasts",
+        "Out-of-sample validation",
+        "Energy budget consistency",
+        "Scenario uncertainty",
+        "Model structural uncertainty",
+        "Initial-condition ensembles",
+        "Model independence",
+        "Ensemble weighting",
+        "Uncertainty decomposition",
+        "Model intercomparison"
       ]
     }
   ]

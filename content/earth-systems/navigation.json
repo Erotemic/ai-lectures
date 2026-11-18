@@ -8,7 +8,7 @@
       "categories": [
         "Science and nature"
       ],
-      "summary": "Twenty-five connected lectures on Earth systems physics, living chemistry and the physical evidence behind reconstructions of past climate.",
+      "summary": "Thirty-one connected lectures on Earth-system physics, living chemistry, paleoclimate evidence and the construction and evaluation of numerical climate models.",
       "chapters": [
         {
           "title": "Earth Has an Energy Budget: Light In, Heat Out",
@@ -158,6 +158,42 @@
           "title": "When the Archives Disagree: Reconstructing a Changing Planet",
           "lectures": [
             "025000"
+          ]
+        },
+        {
+          "title": "A Planet in Finite Boxes: The Laws Behind an Earth System Model",
+          "lectures": [
+            "026000"
+          ]
+        },
+        {
+          "title": "The Weather Inside a Grid Cell: Clouds, Turbulence, and Tuning",
+          "lectures": [
+            "027000"
+          ]
+        },
+        {
+          "title": "When Models Share a Boundary: Coupling the Ocean, Air, Ice, and Living Earth",
+          "lectures": [
+            "028000"
+          ]
+        },
+        {
+          "title": "A Forecast Begins with a Guess: Observations, Data Assimilation, and Reanalysis",
+          "lectures": [
+            "029000"
+          ]
+        },
+        {
+          "title": "A Second Earth for Experiments: Controls, Forcings, and Climate Projections",
+          "lectures": [
+            "030000"
+          ]
+        },
+        {
+          "title": "When a Climate Model Is Wrong: Testing Skill, Uncertainty, and Trust",
+          "lectures": [
+            "031000"
           ]
         }
       ]
@@ -454,6 +490,70 @@
         "023000",
         "024000",
         "025000"
+      ]
+    },
+    {
+      "id": "how-earth-models-work",
+      "title": "Earth as a System · How Models Work",
+      "role": "deep_dive",
+      "parent": "earth-as-a-system",
+      "summary": "A six-part introduction to numerical modeling, unresolved physics, coupling, assimilation, experimental design and critical evaluation.",
+      "tags": [
+        "Earth system modeling",
+        "Numerical methods",
+        "Data assimilation",
+        "Climate projections",
+        "Model evaluation"
+      ],
+      "lectures": [
+        "026000",
+        "027000",
+        "028000",
+        "029000",
+        "030000",
+        "031000"
+      ]
+    },
+    {
+      "id": "models-observations-and-forecasts",
+      "title": "Earth as a System · Models, Evidence and Prediction",
+      "role": "deep_dive",
+      "parent": "earth-as-a-system",
+      "summary": "Follow observations and model reasoning from ENSO forecasting and climate archives into assimilation, numerical experiments and independent tests.",
+      "tags": [
+        "ENSO forecasting",
+        "Paleoclimate reconstruction",
+        "Data assimilation",
+        "Climate verification"
+      ],
+      "lectures": [
+        "010000",
+        "025000",
+        "029000",
+        "030000",
+        "031000"
+      ]
+    },
+    {
+      "id": "physics-to-projections",
+      "title": "Earth as a System · From Budgets to Projections",
+      "role": "deep_dive",
+      "parent": "earth-as-a-system",
+      "summary": "From radiation budgets to grid-scale conservation, subgrid physics, coupled components, projections and uncertainty.",
+      "tags": [
+        "Earth energy budget",
+        "Climate modeling",
+        "Parameterization",
+        "Coupling",
+        "Ensembles"
+      ],
+      "lectures": [
+        "001000",
+        "026000",
+        "027000",
+        "028000",
+        "030000",
+        "031000"
       ]
     }
   ]

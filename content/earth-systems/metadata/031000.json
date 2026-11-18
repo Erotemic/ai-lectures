@@ -1,0 +1,294 @@
+{
+  "schema_version": 1,
+  "lecture_id": "031000",
+  "transcript": "031000-testing-a-climate-model.md",
+  "description": "How model evaluation separates weather trajectories from climate statistics and tests budgets, independent skill, physical mechanisms, ensemble dependence, internal variability, model response and scenarios.",
+  "tags": [
+    "Climate model evaluation",
+    "Model skill",
+    "Forecast calibration",
+    "Model bias",
+    "Internal climate variability",
+    "Lorenz chaos",
+    "Hasselmann stochastic climate theory",
+    "Climate hindcasts",
+    "Out-of-sample validation",
+    "Energy budget consistency",
+    "Scenario uncertainty",
+    "Model structural uncertainty",
+    "Initial-condition ensembles",
+    "Model independence",
+    "Ensemble weighting",
+    "Uncertainty decomposition",
+    "Model intercomparison"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Earth science",
+      "Earth system modeling",
+      "Model verification metrics"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth system modeling",
+      "Forecast probability calibration"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth system modeling",
+      "Chaos and initial conditions"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth system modeling",
+      "Stochastic climate variability"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth system modeling",
+      "Conservation diagnostics"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth system modeling",
+      "Hindcasts and process tests"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth system modeling",
+      "Uncertainty decomposition"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth system modeling",
+      "Multimodel interdependence"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth system modeling",
+      "Evidence triangulation"
+    ],
+    [
+      "Science",
+      "Computational science",
+      "Climate modeling",
+      "Model verification metrics"
+    ],
+    [
+      "Place: North America",
+      "Place: United States",
+      "Place: Massachusetts",
+      "Place: Cambridge"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "es-model-lorenz",
+      "reason": "Sensitivity of a nonlinear deterministic model of convection to initial conditions; long-term weather predictability."
+    },
+    {
+      "source_id": "es-model-hasselmann",
+      "reason": "Weather fluctuations as stochastic forcing on slowly responding ocean, cryosphere and land climate reservoirs."
+    },
+    {
+      "source_id": "es-model-hawkins",
+      "reason": "Decomposition of regional projection uncertainty into internal, model response and scenario components."
+    },
+    {
+      "source_id": "es-model-knutti",
+      "reason": "Multimodel dependence and skill weighting; ensemble members are not independent probability samples of all plausible models."
+    },
+    {
+      "source_id": "es-model-ipcc4",
+      "reason": "Internal variability, model response and scenario uncertainty, initial condition ensembles and conditional projections."
+    },
+    {
+      "source_id": "es-model-ipcc1",
+      "reason": "Earth system model hierarchies, model numerical grids, parameterizations, conservation, tuning and evaluation."
+    },
+    {
+      "source_id": "es-model-ipcc7",
+      "reason": "Energy balance, heat uptake, radiative feedback, cloud uncertainty and model-based sensitivity."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "031000-e01",
+      "anchor": "Calibration tests the statistical meaning of a probability.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-model-ipcc1"
+      ],
+      "source_locator": "Earth system model hierarchies, model numerical grids, parameterizations, conservation, tuning and evaluation.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "031000-e02",
+      "anchor": "Edward Lorenz gave this issue a deeper foundation in a 1963 paper",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-model-lorenz"
+      ],
+      "source_locator": "Sensitivity of a nonlinear deterministic model of convection to initial conditions; long-term weather predictability.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "031000-e03",
+      "anchor": "very small differences in initial conditions can grow",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-model-lorenz"
+      ],
+      "source_locator": "Sensitivity of a nonlinear deterministic model of convection to initial conditions; long-term weather predictability.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "031000-e04",
+      "anchor": "Klaus Hasselmann's 1976 work on stochastic climate models",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-model-hasselmann"
+      ],
+      "source_locator": "Weather fluctuations as stochastic forcing on slowly responding ocean, cryosphere and land climate reservoirs.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "031000-e05",
+      "anchor": "A map of regional bias reveals the error.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-model-ipcc1"
+      ],
+      "source_locator": "Earth system model hierarchies, model numerical grids, parameterizations, conservation, tuning and evaluation.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "031000-e06",
+      "anchor": "an incorrect net heat input at the top of the atmosphere",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-model-ipcc7"
+      ],
+      "source_locator": "Energy balance, heat uptake, radiative feedback, cloud uncertainty and model-based sensitivity.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "031000-e07",
+      "anchor": "In a hindcast, initialize or force the model",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-model-ipcc4"
+      ],
+      "source_locator": "Internal variability, model response and scenario uncertainty, initial condition ensembles and conditional projections.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "031000-e08",
+      "anchor": "The first is internal variability",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-model-ipcc4",
+        "es-model-hawkins"
+      ],
+      "source_locator": "Internal variability, model response and scenario uncertainty, initial condition ensembles and conditional projections.; Decomposition of regional projection uncertainty into internal, model response and scenario components.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "031000-e09",
+      "anchor": "Ed Hawkins and Rowan Sutton published a widely cited analysis in 2009",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-model-hawkins"
+      ],
+      "source_locator": "Decomposition of regional projection uncertainty into internal, model response and scenario components.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "031000-e10",
+      "anchor": "A multi-model ensemble can expose structural spread",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-model-ipcc4",
+        "es-model-knutti"
+      ],
+      "source_locator": "Internal variability, model response and scenario uncertainty, initial condition ensembles and conditional projections.; Multimodel dependence and skill weighting; ensemble members are not independent probability samples of all plausible models.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "031000-e11",
+      "anchor": "In 2017, Reto Knutti and colleagues described a method",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-model-knutti"
+      ],
+      "source_locator": "Multimodel dependence and skill weighting; ensemble members are not independent probability samples of all plausible models.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "031000-e12",
+      "anchor": "a raw multi-model histogram should not automatically be read",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-model-knutti",
+        "es-model-ipcc4"
+      ],
+      "source_locator": "Multimodel dependence and skill weighting; ensemble members are not independent probability samples of all plausible models.; Internal variability, model response and scenario uncertainty, initial condition ensembles and conditional projections.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "031000-e13",
+      "anchor": "Paleoclimate archives constrain how climate systems responded",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-model-ipcc1"
+      ],
+      "source_locator": "Earth system model hierarchies, model numerical grids, parameterizations, conservation, tuning and evaluation.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "031000-e14",
+      "anchor": "A mature model-evaluation practice welcomes failures",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-model-ipcc1"
+      ],
+      "source_locator": "Earth system model hierarchies, model numerical grids, parameterizations, conservation, tuning and evaluation.",
+      "audit_status": "source_checked"
+    }
+  ],
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Introduces common evaluation metrics and types of ensemble uncertainty without requiring statistics coursework."
+    ],
+    "readiness_checks": [
+      "Why does a wrong storm path not alone invalidate a climate distribution?",
+      "What does initial-condition ensemble spread leave out?",
+      "How can agreement across related model codes exaggerate confidence?"
+    ]
+  },
+  "places": [
+    "Cambridge, Massachusetts, United States"
+  ],
+  "chronology": {
+    "period": {
+      "start": 1963,
+      "label": "Lorenz deterministic nonperiodic flow paper",
+      "basis": "documented peer-reviewed publication",
+      "note": "The year dates a named research publication or operational milestone, not the age of a general physical mechanism.",
+      "source_ids": [
+        "es-model-lorenz"
+      ]
+    }
+  }
+}

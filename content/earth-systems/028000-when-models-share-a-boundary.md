@@ -1,0 +1,72 @@
+# When Models Share a Boundary: Coupling the Ocean, Air, Ice, and Living Earth
+
+<!-- BEGIN SPOKEN LECTURE -->
+
+A weather model could calculate the atmosphere with exquisite care and still fail to describe the climate if it treated the ocean as an unchanging blue floor. Winds push water; water temperatures affect air temperatures; evaporation supplies moisture to clouds; sunlight enters the ocean, where some of its heat can remain long after a particular storm has passed. The land and ice sheets create similar entanglements. The atmosphere may respond in hours, a surface ocean layer in months, the deep ocean in centuries, and ice sheets on still longer scales. The puzzle is not merely how to model each separately. It is how to let different models exchange information without losing track of what they have exchanged.
+
+Think of two adjoining rooms, one warm and one cold, separated by a wall. If you calculate the heat leaving the warm room, that same heat must enter the cold room or be stored in the wall. If the warm-room simulation says ten units left while the cold-room simulation receives eight, the missing two have to go somewhere. The error is not just an incorrect temperature. It is a broken accounting system. Coupling Earth-system components creates a similar problem, complicated by different numerical grids, different clocks, and different definitions of the boundaries.
+
+At the ocean surface, a model exchanges several distinct quantities. Sunlight and infrared radiation affect heat storage. Sensible heat flows because of temperature differences, and latent heat is carried with evaporating water. Wind exerts stress on the water and transfers momentum. Rain adds freshwater and may add heat; evaporation removes freshwater. Sea ice changes how much sunlight reaches the water and mediates exchange with the atmosphere. These interactions are linked, but they are not identical. Calling all of them 'heat exchange' would erase the separate water, momentum, and salt balances.
+
+Imagine an ocean surface layer one meter thick. Heating it by one degree requires vastly more energy per square meter than heating one meter of air, because seawater has much greater density and volumetric heat capacity. This rough comparison helps explain why the ocean can absorb large amounts of energy while its temperature moves relatively slowly. But the ocean is not one well-stirred bucket. Currents and mixing carry heat downward and sideways, and the depth of the surface mixed layer changes. A positive energy flux at the sea surface therefore does not imply that the surface temperature must rise at the rate predicted for a fixed one-meter layer.
+
+A simple coupled calculation repeats a sequence. The atmosphere computes its winds, radiation, precipitation and turbulent exchanges over a time interval. The ocean receives surface fluxes and advances temperature, salinity, and currents. Land and sea-ice components update their own states. Then a coupler communicates new fields back to the atmosphere. Actual systems can exchange different fields at different intervals and use varying degrees of simultaneous or staggered integration. There is no one mandatory schedule. But every schedule must be evaluated for accuracy, stability, and budget consistency.
+
+The atmospheric and oceanic grids often do not line up. A coastal atmospheric cell might cover part sea, part city, and part wetland; an ocean grid has its own shape along the coast. To send a rainfall field from one to the other, the coupler must remap data. There are interpolation methods that preserve smoothness or local structure and methods specifically designed to conserve an area-integrated quantity. Ordinary interpolation can create or destroy a little total freshwater or heat during remapping. A conservative exchange ensures that, within the assumptions of the chosen fields and geometry, the integrated transfer remains consistent. This sounds like a software detail, but a small systematic error repeated for a century-long climate simulation can become physically consequential.
+
+Now place sea ice between air and ocean. Ice forms when seawater loses sufficient heat. Most of the salt does not enter the crystal lattice in the same proportion as water, so freezing can increase the salinity of nearby liquid water. Melting freshens it. These changes affect density and mixing, while the ice cover insulates the ocean and changes the amount of reflected sunlight. The coupled system needs an account of where the freshwater and salt go, how latent heat of freezing or melting is handled, and how the ice's mechanical motion responds to winds and currents. A model that gets ice extent roughly right for one decade through compensating mistakes may fail when the forcing changes.
+
+Land introduces another set of interfaces. Suppose it rains on a forest. Some water stays on leaves and evaporates. Some infiltrates soil. Some becomes streamflow. Roots take up water, and stomata regulate transpiration in response to light, moisture, and atmospheric demand. The resulting humidity modifies clouds and air temperature; those changes feed back into the forest's water use. Soil contains heat and carbon as well as water. When the model simulates the forest only as a dark, static patch, it omits mechanisms relevant to drought, rainfall, and the surface energy budget.
+
+Consider an especially revealing feedback. As soil dries, a plant may reduce transpiration to conserve water. Less energy then goes into evaporation, leaving more of the available surface energy to heat the land and nearby air, provided other conditions remain similar. Warmer air can increase evaporative demand and influence atmospheric circulation. Yet the strength and even local expression of this feedback depend on vegetation, rooting depth, groundwater access, cloud behavior, and advection. A coupled model makes it possible to investigate these interactions, but the quality of the result depends on the land physics as well as the atmosphere.
+
+Add biology and chemistry, and the coupled model becomes an Earth-system model in a richer sense. Carbon dioxide is no longer always just a prescribed atmospheric concentration. Plants take up carbon; soils return it through decomposition; oceans exchange it with the air and store it in dissolved inorganic forms. Temperature, moisture, and circulation affect many of these fluxes. In an emissions-driven experiment, the carbon concentration can evolve from prescribed emissions and simulated exchanges, rather than being imposed as an external trajectory. That distinction becomes important when asking about feedbacks between warming and the carbon cycle.
+
+A model need not include every biogeochemical detail to be scientifically useful. Some climate experiments prescribe greenhouse-gas concentrations and study the physical response. Others calculate aspects of chemistry and the carbon cycle interactively. NASA's GISS ModelE framework, for example, supports different configurations with atmosphere, ocean, sea ice, and land, as well as optional interactive chemistry, aerosols, carbon cycle and other tracers. The model hierarchy is intentional: turning on a component changes what questions the experiment can answer and what additional uncertainties it inherits.
+
+There is also a problem of initial conditions. Imagine creating an ocean model whose deep water temperatures are slightly inconsistent with its winds and surface heat fluxes. Even if you keep the external forcing constant, the simulated ocean may adjust for many decades or centuries. Sea ice, deep currents, and carbon reservoirs can continue to drift toward a statistical equilibrium or a slowly varying state. Modelers often run a long spin-up before starting an experiment, and then inspect the remaining drift in a control simulation. Some reservoirs, especially deep ocean and geological carbon stores, may equilibrate so slowly that perfect spin-up is impractical. The appropriate diagnostic is then not simply 'Is the temperature constant?' but how large the residual drift is compared with the signal the experiment aims to interpret.
+
+Coupled-model drift deserves careful language. Climate systems have natural internal variability even with unchanged external forcing. A rising or falling line in a short segment of a control run could reflect such variability rather than a systematic trend caused by poor initialization. Conversely, a weak but persistent global heat or freshwater imbalance can accumulate in the deep ocean without producing an obvious change in a few years of surface weather. Researchers examine long control runs, physical budgets, spatial patterns, and different variables to distinguish these possibilities.
+
+The ocean and atmosphere can also exchange signals that amplify or oppose each other. Consider a warm patch of tropical sea surface. Warmer water can affect evaporation and convection; the changed atmosphere alters winds; altered winds change ocean circulation and upwelling, perhaps reinforcing or damping the initial anomaly. This is the coupled logic behind phenomena such as El Niño, though a full explanation needs equatorial waves, thermocline structure, and geographic asymmetry. Crucially, a model can reproduce a warm patch and still get the feedback strength wrong. A proper test asks about the linked ocean and atmosphere responses, not just the temperature map.
+
+Why not take the best separate ocean model and the best separate atmosphere model and attach them? Because 'best' is often defined by tests performed with boundaries prescribed from observations. An atmosphere model driven by observed sea-surface temperatures does not have to generate those temperatures itself. An ocean model driven by observed winds does not have to generate atmospheric winds. Once coupled, a bias in one component can feed back into the other, creating an error that neither isolated test predicted. Coupling therefore creates an integrated scientific model, not merely a convenient software package.
+
+A common diagnostic is the exchange budget at an interface. Over a given interval, measure the latent heat removed from the sea when water evaporates and the water mass supplied to the air. Verify that each reservoir receives the same transfer with the correct sign. For sea ice, verify that freezing and melting change ice and ocean water and salt consistently. For carbon, check that atmospheric, land, and ocean changes sum to emissions and the represented sources and sinks. A model can conserve these transfers and still get feedbacks wrong; but if it does not conserve them, an apparent climate response may partly reflect the machine's accounting error.
+
+This is why coupled models are demanding and illuminating. They force scientists to confront interactions that can be hidden by prescribed boundaries. If a forest dries, clouds may change. If clouds change, the ocean may receive different radiation. If ocean heat transport changes, ice can melt, exposing water and altering the energy budget. If ice changes, winds and circulation may respond. Not all such loops are equally strong, and some proposals do not survive observations. But coupling allows them to be stated as quantitative hypotheses and tested together.
+
+Return to the two rooms. We began by demanding that heat leaving one have somewhere to arrive. On Earth, that demand extends to freshwater from rain and evaporation, salt from sea-ice formation, momentum from the wind, and carbon crossing the ocean surface. The boundaries are artificial, but the exchanges are physical. Earth-system models earn their power not by claiming the planet is a collection of independent boxes, but by making explicit what passes between them, how slowly different reservoirs respond, and what happens when all of those conversations are allowed to continue.
+
+<!-- END SPOKEN LECTURE -->
+
+## Scientific companion: coupled budgets and spin-up
+
+### Heat and salt consistency
+
+At an atmosphere-ocean interface, the ocean's surface heat flux should be equal and opposite to the flux leaving the atmosphere, with a clearly specified sign convention and any storage in intervening sea ice or surfaces accounted for. Precipitation and evaporation change freshwater content; ice formation and melt redistribute freshwater and salt. Land carbon uptake must be balanced against atmospheric and land carbon changes when reservoirs and external sources are consistently defined.
+
+### A simple ocean mixed-layer approximation
+
+$C_m\,\mathrm dT_s/\mathrm dt = Q_{net}-Q_{entrain}-\nabla\cdot\mathbf F_H$ describes a simplified mixed layer with heat capacity $C_m$, net surface heat input $Q_{net}$, entrainment and lateral convergence. A one-meter-versus-ten-meter calculation changes $C_m$ by a factor of ten, but actual mixed-layer depth and ocean heat transport evolve. Do not infer SST changes from top-of-atmosphere fluxes without a complete budget.
+
+### Common problems and diagnostics
+
+- **Exchange remapping:** conservation across unequal spatial grids, coastlines and partially covered cells.
+- **Time splitting:** dependence on atmosphere/ocean coupling frequency and staggered updates.
+- **Spin-up drift:** changes in control runs under nominally steady forcing; distinguish trends from internal fluctuations.
+- **Compensating errors:** atmospheric cloud radiation bias offset by excessive ocean heat transport.
+- **Emission versus concentration experiments:** whether carbon dioxide concentrations are prescribed or carbon-cycle response is calculated.
+
+### Sources and further reading
+
+- NASA GISS, *GISS Earth System Model: ModelE* (configurations and coupled components). https://www.giss.nasa.gov/tools/modelE/
+- IPCC AR6 WGI, Chapter 1, §1.5.3 (ESM coupling, represented processes and approximations). https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-1/
+- WCRP CMIP7, *Experiment Setup and Forcings Guidance* (concentration- and emissions-driven experiments). https://wcrp-cmip.github.io/cmip7-guidance/docs/CMIP7/Experiment_set_up_and_Forcings/
+
+### Questions
+
+1. Why does interpolating a rainfall map risk changing total water transferred between components?
+2. What new errors can arise when two individually skillful components are coupled?
+3. Why can control-run drift matter even if year-to-year surface weather looks reasonable?
+4. When is an emissions-driven carbon-cycle model necessary, and when is prescribed concentration sufficient?

@@ -1,0 +1,228 @@
+{
+  "schema_version": 1,
+  "lecture_id": "026000",
+  "transcript": "026000-a-planet-in-finite-boxes.md",
+  "description": "How conservation laws, computational grids, dynamical cores, time integration and effective resolution turn atmospheric and ocean physics into a numerical model, with a worked energy-budget example.",
+  "tags": [
+    "Earth system modeling",
+    "Conservation laws",
+    "Finite volume method",
+    "Dynamical core",
+    "Numerical discretization",
+    "Computational grid",
+    "Time stepping",
+    "Courant-Friedrichs-Lewy condition",
+    "Global energy budget",
+    "Hydrological budget",
+    "Numerical convergence",
+    "Effective resolution",
+    "Climate model hierarchy"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Earth science",
+      "Earth system modeling",
+      "Earth-system dynamical cores"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth system modeling",
+      "Finite-volume conservation"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth system modeling",
+      "Energy-budget arithmetic"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth system modeling",
+      "Water and tracer budgets"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth system modeling",
+      "Time integration and stability"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth system modeling",
+      "Computational grid geometries"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth system modeling",
+      "Effective spatial resolution"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth system modeling",
+      "Numerical convergence"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth system modeling",
+      "Model hierarchy"
+    ],
+    [
+      "Science",
+      "Computational science",
+      "Climate modeling",
+      "Finite-volume conservation"
+    ],
+    [
+      "Science",
+      "Computational science",
+      "Climate modeling",
+      "Time integration and stability"
+    ],
+    [
+      "Science",
+      "Computational science",
+      "Climate modeling",
+      "Numerical convergence"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "es-model-ipcc1",
+      "reason": "Earth system model hierarchies, model numerical grids, parameterizations, conservation, tuning and evaluation."
+    },
+    {
+      "source_id": "es-model-ipcc7",
+      "reason": "Energy balance, heat uptake, radiative feedback, cloud uncertainty and model-based sensitivity."
+    },
+    {
+      "source_id": "es-model-ecmwf-core",
+      "reason": "Dynamical-core equations, effective resolution relative to grid spacing, vertical discretization, semi-Lagrangian and finite-volume methods."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "026000-e01",
+      "anchor": "A climate model is, in part, an extraordinarily elaborate version of that accounting system.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-model-ipcc1"
+      ],
+      "source_locator": "Earth system model hierarchies, model numerical grids, parameterizations, conservation, tuning and evaluation.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "026000-e02",
+      "anchor": "If the absorbed sunlight exceeds the escaping radiation, energy accumulates",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-model-ipcc7"
+      ],
+      "source_locator": "Energy balance, heat uptake, radiative feedback, cloud uncertainty and model-based sensitivity.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "026000-e03",
+      "anchor": "The model cannot know the detailed wind or temperature at every point within a cell.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-model-ipcc1"
+      ],
+      "source_locator": "Earth system model hierarchies, model numerical grids, parameterizations, conservation, tuning and evaluation.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "026000-e04",
+      "anchor": "In a finite-volume method, the computer sums the flux",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-model-ipcc1",
+        "es-model-ecmwf-core"
+      ],
+      "source_locator": "Earth system model hierarchies, model numerical grids, parameterizations, conservation, tuning and evaluation.; Dynamical-core equations, effective resolution relative to grid spacing, vertical discretization, semi-Lagrangian and finite-volume methods.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "026000-e05",
+      "anchor": "A model's dynamical core advances the represented winds",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-model-ecmwf-core"
+      ],
+      "source_locator": "Dynamical-core equations, effective resolution relative to grid spacing, vertical discretization, semi-Lagrangian and finite-volume methods.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "026000-e06",
+      "anchor": "This is the Courant-Friedrichs-Lewy idea.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-model-ecmwf-core",
+        "es-model-ipcc1"
+      ],
+      "source_locator": "Dynamical-core equations, effective resolution relative to grid spacing, vertical discretization, semi-Lagrangian and finite-volume methods.; Earth system model hierarchies, model numerical grids, parameterizations, conservation, tuning and evaluation.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "026000-e07",
+      "anchor": "Some atmospheric models use latitude-longitude-like grids.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-model-ipcc1",
+        "es-model-ecmwf-core"
+      ],
+      "source_locator": "Earth system model hierarchies, model numerical grids, parameterizations, conservation, tuning and evaluation.; Dynamical-core equations, effective resolution relative to grid spacing, vertical discretization, semi-Lagrangian and finite-volume methods.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "026000-e08",
+      "anchor": "A grid labeled ten kilometers cannot therefore promise",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-model-ecmwf-core"
+      ],
+      "source_locator": "Dynamical-core equations, effective resolution relative to grid spacing, vertical discretization, semi-Lagrangian and finite-volume methods.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "026000-e09",
+      "anchor": "The ECMWF explanation of atmospheric dynamics makes this point directly",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-model-ecmwf-core"
+      ],
+      "source_locator": "Dynamical-core equations, effective resolution relative to grid spacing, vertical discretization, semi-Lagrangian and finite-volume methods.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "026000-e10",
+      "anchor": "An energy-balance model with one global temperature",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-model-ipcc1",
+        "es-model-ipcc7"
+      ],
+      "source_locator": "Earth system model hierarchies, model numerical grids, parameterizations, conservation, tuning and evaluation.; Energy balance, heat uptake, radiative feedback, cloud uncertainty and model-based sensitivity.",
+      "audit_status": "source_checked"
+    }
+  ],
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "No numerical-analysis prerequisite: fluxes, grids, and stability are introduced through concrete energy and water budgets."
+    ],
+    "readiness_checks": [
+      "What distinguishes energy flux from stored heat and temperature?",
+      "Why should neighboring cells agree on shared boundary fluxes?",
+      "Why is nominal grid spacing not the smallest faithfully resolved physical feature?"
+    ]
+  },
+  "places": []
+}

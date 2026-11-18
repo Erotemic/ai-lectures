@@ -1001,6 +1001,139 @@
       "kind": "observing_data_archive",
       "access": "free_no_login",
       "notes": "Stalagmite and other cave deposits, isotopes and dating possibilities."
+    },
+    "es-model-ipcc1": {
+      "title": "IPCC (2021), Climate Change 2021: The Physical Science Basis, Working Group I, Chapter 1, Framing, Context and Methods",
+      "url": "https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-1/",
+      "kind": "scientific_assessment",
+      "access": "free_no_login",
+      "notes": "Earth system model hierarchies, model numerical grids, parameterizations, conservation, tuning and evaluation."
+    },
+    "es-model-ipcc4": {
+      "title": "IPCC (2021), Climate Change 2021: The Physical Science Basis, Working Group I, Chapter 4, Future Global Climate",
+      "url": "https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-4/",
+      "kind": "scientific_assessment",
+      "access": "free_no_login",
+      "notes": "Internal variability, model response and scenario uncertainty, initial condition ensembles and conditional projections."
+    },
+    "es-model-ipcc7": {
+      "title": "IPCC (2021), Climate Change 2021: The Physical Science Basis, Working Group I, Chapter 7, Earth’s Energy Budget, Climate Feedbacks and Climate Sensitivity",
+      "url": "https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-7/",
+      "kind": "scientific_assessment",
+      "access": "free_no_login",
+      "notes": "Energy balance, heat uptake, radiative feedback, cloud uncertainty and model-based sensitivity."
+    },
+    "es-model-ecmwf-core": {
+      "title": "ECMWF, Atmospheric dynamics",
+      "url": "https://www.ecmwf.int/en/research/modelling-and-prediction/atmospheric-dynamics",
+      "kind": "government_science_reference",
+      "access": "free_no_login",
+      "notes": "Dynamical-core equations, effective resolution relative to grid spacing, vertical discretization, semi-Lagrangian and finite-volume methods."
+    },
+    "es-model-arakawa": {
+      "title": "Arakawa and Schubert (1974), Interaction of a Cumulus Cloud Ensemble with the Large-Scale Environment, Part I",
+      "url": "https://doi.org/10.1175/1520-0469(1974)031%3C0674:IOACCE%3E2.0.CO;2",
+      "kind": "peer_reviewed_research",
+      "access": "free_no_login",
+      "notes": "Cloud-ensemble mass flux and interactions with the large-scale heat and moisture environment; UCLA authorship."
+    },
+    "es-model-hourdin": {
+      "title": "Hourdin et al. (2017), The Art and Science of Climate Model Tuning, Bulletin of the American Meteorological Society",
+      "url": "https://doi.org/10.1175/BAMS-D-15-00135.1",
+      "kind": "peer_reviewed_review",
+      "access": "free_no_login",
+      "notes": "Tuning of subgrid parameters, observational targets, compensation errors and scientific transparency."
+    },
+    "es-model-giss": {
+      "title": "NASA GISS, GISS Earth System Model: ModelE",
+      "url": "https://www.giss.nasa.gov/tools/modelE/",
+      "kind": "government_science_reference",
+      "access": "free_no_login",
+      "notes": "Atmosphere-ocean coupled framework and configurations including interactive chemistry, aerosols, carbon cycle and tracers since 2004."
+    },
+    "es-model-cmip7-guidance": {
+      "title": "WCRP, CMIP7 Experiment Setup and Forcings Guidance (living documentation)",
+      "url": "https://wcrp-cmip.github.io/cmip7-guidance/docs/CMIP7/Experiment_set_up_and_Forcings/",
+      "kind": "scientific_program_guidance",
+      "access": "free_no_login",
+      "notes": "Current phase-seven experiment naming, forcing and concentration/emissions-driven choices; guidance explicitly warns that some pages remain under review."
+    },
+    "es-model-ecmwf-assim": {
+      "title": "ECMWF (2025), Fact sheet: Earth system data assimilation",
+      "url": "https://www.ecmwf.int/en/about/media-centre/focus/2025/fact-sheet-earth-system-data-assimilation",
+      "kind": "government_science_reference",
+      "access": "free_no_login",
+      "notes": "Assimilating observations into short-range forecasts, 4D-Var, EDA and coupled assimilation; ECMWF 4D-Var operational since 1997."
+    },
+    "es-model-ecmwf-var": {
+      "title": "ECMWF, Forecast User Guide, Section 2A.6, Model Data Assimilation: 4D-Var",
+      "url": "https://confluence.ecmwf.int/spaces/FUG/pages/673550616/Section+2A.6+Model+Data+Assimilation+4D-Var",
+      "kind": "operational_documentation",
+      "access": "free_no_login",
+      "notes": "4D-Var time-window optimization, observation accuracy and representativeness, background precision."
+    },
+    "es-model-era5": {
+      "title": "ECMWF, Complete ERA5 global atmospheric reanalysis",
+      "url": "https://www.ecmwf.int/en/forecasts/datasets/complete-era5-global-atmospheric-reanalysis",
+      "kind": "government_science_reference",
+      "access": "free_no_login",
+      "notes": "Hourly global reanalysis using observations and model; ERA5 spans 1940 to present with varying observational coverage and model dependence."
+    },
+    "es-model-copernicus": {
+      "title": "Copernicus Climate Change Service, Climate reanalysis",
+      "url": "https://climate.copernicus.eu/climate-reanalysis",
+      "kind": "government_science_reference",
+      "access": "free_no_login",
+      "notes": "What reanalysis estimates contain, the ERA5 reanalysis and data availability."
+    },
+    "es-model-cmip6": {
+      "title": "Eyring et al. (2016), Overview of the Coupled Model Intercomparison Project Phase 6 experimental design and organization",
+      "url": "https://doi.org/10.5194/gmd-9-1937-2016",
+      "kind": "peer_reviewed_research",
+      "access": "free_no_login",
+      "notes": "CMIP6 coordinated DECK, historical simulation, data standards and experimental-comparison purpose."
+    },
+    "es-model-cmip7": {
+      "title": "Dunne et al. (2025), An evolving Coupled Model Intercomparison Project phase 7 and Fast Track in support of future climate assessment",
+      "url": "https://doi.org/10.5194/gmd-18-6671-2025",
+      "kind": "peer_reviewed_research",
+      "access": "free_no_login",
+      "notes": "CMIP7 rationale and evolving design, shared experimental protocol and coupled physical and biogeochemical experiments."
+    },
+    "es-model-lorenz": {
+      "title": "Lorenz (1963), Deterministic Nonperiodic Flow, Journal of the Atmospheric Sciences",
+      "url": "https://doi.org/10.1175/1520-0469(1963)020%3C0130:DNF%3E2.0.CO;2",
+      "kind": "peer_reviewed_research",
+      "access": "free_no_login",
+      "notes": "Sensitivity of a nonlinear deterministic model of convection to initial conditions; long-term weather predictability."
+    },
+    "es-model-hasselmann": {
+      "title": "Hasselmann (1976), Stochastic Climate Models, Part I: Theory, Tellus",
+      "url": "https://doi.org/10.1111/j.2153-3490.1976.tb00696.x",
+      "kind": "peer_reviewed_research",
+      "access": "free_no_login",
+      "notes": "Weather fluctuations as stochastic forcing on slowly responding ocean, cryosphere and land climate reservoirs."
+    },
+    "es-model-hawkins": {
+      "title": "Hawkins and Sutton (2009), The Potential to Narrow Uncertainty in Regional Climate Predictions, Bulletin of the American Meteorological Society",
+      "url": "https://doi.org/10.1175/2009BAMS2607.1",
+      "kind": "peer_reviewed_research",
+      "access": "free_no_login",
+      "notes": "Decomposition of regional projection uncertainty into internal, model response and scenario components."
+    },
+    "es-model-knutti": {
+      "title": "Knutti et al. (2017), A Climate Model Projection Weighting Scheme Accounting for Performance and Interdependence, Geophysical Research Letters",
+      "url": "https://doi.org/10.1002/2016GL072012",
+      "kind": "peer_reviewed_research",
+      "access": "free_no_login",
+      "notes": "Multimodel dependence and skill weighting; ensemble members are not independent probability samples of all plausible models."
+    },
+    "es-model-ml-eval": {
+      "title": "Ullrich et al. (2025), Recommendations for Comprehensive and Independent Evaluation of Machine Learning-Based Earth System Models",
+      "url": "https://doi.org/10.1029/2024JH000496",
+      "kind": "peer_reviewed_review",
+      "access": "free_no_login",
+      "notes": "Out-of-sample physical behavior and conservation constraints for machine-learned climate modeling systems; role of process validation rather than only fit on historical data."
     }
   }
 }
