@@ -1,0 +1,330 @@
+{
+  "schema_version": 1,
+  "lecture_id": "017000",
+  "transcript": "017000-when-a-body-changes-its-rules.md",
+  "description": "Compares thyroid-driven tadpole metamorphosis, juvenile-hormone and ecdysteroid control of insect stages, GnRH pulse decoding, and melatonin duration as a signal of reproductive season.",
+  "tags": [
+    "Developmental endocrinology",
+    "Metamorphosis",
+    "Tadpole",
+    "Thyroid hormone",
+    "Thyroid hormone receptor",
+    "T3",
+    "T4",
+    "Deiodinase",
+    "Friedrich Gudernatsch",
+    "Gene regulation",
+    "Tissue competence",
+    "Coquí frog",
+    "Direct development",
+    "Insect metamorphosis",
+    "Molting",
+    "Ecdysteroids",
+    "20-hydroxyecdysone",
+    "Juvenile hormone",
+    "Vincent Wigglesworth",
+    "Rhodnius",
+    "Gonadotropin-releasing hormone",
+    "GnRH",
+    "LH",
+    "FSH",
+    "Pituitary",
+    "Gonads",
+    "Hormonal pulses",
+    "Rhesus monkey experiments",
+    "Ernst Knobil",
+    "Melatonin",
+    "Photoperiod",
+    "Seasonal reproduction",
+    "Sheep",
+    "Hamsters",
+    "Puerto Rico"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Endocrine signaling",
+      "Developmental regulation",
+      "Amphibian metamorphosis"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Endocrine signaling",
+      "Developmental regulation",
+      "Thyroid hormone"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Endocrine signaling",
+      "Developmental regulation",
+      "Tissue competence"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Endocrine signaling",
+      "Developmental regulation",
+      "Direct development",
+      "Coquí frog"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Endocrine signaling",
+      "Developmental regulation",
+      "Insect metamorphosis"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Endocrine signaling",
+      "Developmental regulation",
+      "Ecdysteroids"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Endocrine signaling",
+      "Developmental regulation",
+      "Juvenile hormone"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Endocrine signaling",
+      "Reproductive physiology",
+      "GnRH pulsatility"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Endocrine signaling",
+      "Reproductive physiology",
+      "LH and FSH"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Endocrine signaling",
+      "Reproductive physiology",
+      "Melatonin"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Endocrine signaling",
+      "Seasonal regulation",
+      "Photoperiod"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Endocrine signaling",
+      "Seasonal regulation",
+      "Sheep"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Endocrine signaling",
+      "Seasonal regulation",
+      "Hamsters"
+    ],
+    [
+      "Place: North America",
+      "Place: Caribbean",
+      "Place: Puerto Rico"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "ap-endo-thyroid-frog",
+      "reason": "T4, T3, deiodinases, nuclear thyroid receptors, Gudernatsch 1912 and tissue competence."
+    },
+    {
+      "source_id": "ap-endo-thyroid-knockout",
+      "reason": "Receptor roles in timing and tissue-specific metamorphic change."
+    },
+    {
+      "source_id": "ap-endo-coqui",
+      "reason": "Eleutherodactylus coqui direct development and thyroid-dependent prehatching remodeling."
+    },
+    {
+      "source_id": "ap-endo-insect-status",
+      "reason": "Juvenile-hormone status-quo effects, ecdysteroid pulses and transition through pupal stage."
+    },
+    {
+      "source_id": "ap-endo-insect-ecdysone",
+      "reason": "Hormonal production, molting, insect tissue specificity."
+    },
+    {
+      "source_id": "ap-endo-gnrh-monkey",
+      "reason": "Intermittent GnRH infusion and LH/FSH frequency effects in rhesus monkeys."
+    },
+    {
+      "source_id": "ap-endo-gnrh-review",
+      "reason": "Pituitary gonadotropins and frequency-dependent gene regulation."
+    },
+    {
+      "source_id": "ap-endo-melatonin-ewe",
+      "reason": "Pinealectomized sheep and a short-day melatonin infusion under long photoperiod."
+    },
+    {
+      "source_id": "ap-endo-melatonin-season",
+      "reason": "Duration coding of night and opposing seasonal responses in sheep and hamsters."
+    },
+    {
+      "source_id": "ap-endo-amphibian-cross",
+      "reason": "Adrenal/interrenal analogues and multiple endocrine pathways in amphibian development."
+    },
+    {
+      "source_id": "ap-endo-wigglesworth-history",
+      "reason": "Wigglesworth 1934 experiments with Rhodnius and later insect endocrine work."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "017000-e01",
+      "anchor": "In anuran frogs, thyroid hormones are central",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-endo-thyroid-frog"
+      ],
+      "source_locator": "Thyroid hormones central to frog metamorphosis",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "017000-e02",
+      "anchor": "In 1912, Friedrich Gudernatsch reported",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-endo-thyroid-frog"
+      ],
+      "source_locator": "1912 feeding experiment",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "017000-e03",
+      "anchor": "A thyroid hormone receptor can have a surprising property",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-endo-thyroid-knockout"
+      ],
+      "source_locator": "Dual transcriptional role of unliganded and liganded receptors",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "017000-e04",
+      "anchor": "Research on the Puerto Rican coquí frog shows",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-endo-coqui"
+      ],
+      "source_locator": "Direct developing frog with TH dependent remodeling",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "017000-e05",
+      "anchor": "Ecdysteroids, including the active form known as twenty-hydroxyecdysone",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-endo-insect-status"
+      ],
+      "source_locator": "Ecdysteroid molting signal",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "017000-e06",
+      "anchor": "In many well-studied insects, substantial juvenile-hormone signaling",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-endo-insect-status"
+      ],
+      "source_locator": "Stage dependence and status quo role",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "017000-e07",
+      "anchor": "Early work by Vincent Wigglesworth helped establish",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-endo-wigglesworth-history"
+      ],
+      "source_locator": "Juvenile hormone discovery and insect development",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "017000-e08",
+      "anchor": "In mammals, pulses of G n R H from hypothalamic neurons",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-endo-gnrh-review"
+      ],
+      "source_locator": "GnRH LH FSH pulses",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "017000-e09",
+      "anchor": "An especially clear experiment came from work on rhesus monkeys",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-endo-gnrh-monkey"
+      ],
+      "source_locator": "Wildt and colleagues 1981 frequency study",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "017000-e10",
+      "anchor": "In sheep, which typically breed in a short-day reproductive season",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-endo-melatonin-season"
+      ],
+      "source_locator": "Sheep hamster opposed seasonal responses",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "017000-e11",
+      "anchor": "A particularly revealing experiment published in 1985",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-endo-melatonin-ewe"
+      ],
+      "source_locator": "Melatonin pulse duration intervention in sheep",
+      "audit_status": "source_checked"
+    }
+  ],
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "The basic idea of hormone and receptor is defined again; thyroid and insect terminology is developed in place."
+    ],
+    "readiness_checks": [
+      "How can thyroid hormone coordinate different remodeling in different tadpole tissues?",
+      "Why does the absence of juvenile hormone not single-handedly produce an adult insect?",
+      "Why can a directly developing frog still depend on thyroid hormone?",
+      "How did changing GnRH pulse frequency test whether pattern matters?",
+      "How can the same melatonin night-length signal promote sheep reproduction but suppress it in some hamsters?"
+    ]
+  },
+  "places": [
+    "Puerto Rico"
+  ]
+}

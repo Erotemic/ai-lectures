@@ -8,7 +8,7 @@
       "categories": [
         "Science and nature"
       ],
-      "summary": "A guided sequence from homeostasis, transport, movement and sensory systems to the constraints of heat and energy, ending with strategies for surviving cold and food shortage.",
+      "summary": "A guided sequence from exchange and transport to movement, sensing, heat and metabolic regulation, then hormonal control across feeding, stress and developmental time.",
       "chapters": [
         {
           "title": "The Environment Inside an Animal",
@@ -86,6 +86,30 @@
           "title": "When Life Slows Down",
           "lectures": [
             "013000"
+          ]
+        },
+        {
+          "title": "Messages in the Blood",
+          "lectures": [
+            "014000"
+          ]
+        },
+        {
+          "title": "The Meal, the Fast, and the Pancreas",
+          "lectures": [
+            "015000"
+          ]
+        },
+        {
+          "title": "A Stress Response Has a History",
+          "lectures": [
+            "016000"
+          ]
+        },
+        {
+          "title": "When a Body Changes Its Rules",
+          "lectures": [
+            "017000"
           ]
         }
       ]
@@ -178,6 +202,28 @@
         "011000",
         "012000",
         "013000"
+      ]
+    },
+    {
+      "id": "endocrine-coordination",
+      "title": "How Animals Work · Hormones and Coordination",
+      "role": "deep_dive",
+      "parent": "how-animals-work",
+      "summary": "How distributed chemical messages carry information about digestion, fuel, threats, developmental stage and the season; includes feedback, timing and receptor-specific responses.",
+      "tags": [
+        "Endocrinology",
+        "Hormones",
+        "Insulin",
+        "Glucagon",
+        "HPA axis",
+        "Metamorphosis",
+        "Photoperiod"
+      ],
+      "lectures": [
+        "014000",
+        "015000",
+        "016000",
+        "017000"
       ]
     }
   ]

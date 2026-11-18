@@ -1,0 +1,339 @@
+{
+  "schema_version": 1,
+  "lecture_id": "015000",
+  "transcript": "015000-the-meal-the-fast-and-the-pancreas.md",
+  "description": "Follows nutrient traffic through feeding, fasting and exercise: beta-cell glucose sensing, insulin and glucagon, liver glycogen, incretins, leptin, and the collaborative Toronto discovery of insulin.",
+  "tags": [
+    "Metabolic endocrinology",
+    "Pancreatic islets",
+    "Insulin",
+    "Glucagon",
+    "Beta cells",
+    "Alpha cells",
+    "Glucose sensing",
+    "ATP-sensitive potassium channels",
+    "Calcium-dependent exocytosis",
+    "Blood glucose regulation",
+    "Liver",
+    "Hepatic glucose production",
+    "Glycogen",
+    "Glycogenolysis",
+    "Gluconeogenesis",
+    "GLUT4",
+    "Muscle metabolism",
+    "Incretin effect",
+    "GIP",
+    "GLP-1",
+    "Leptin",
+    "Energy balance",
+    "Diabetes",
+    "Insulin discovery",
+    "Frederick Banting",
+    "Charles Best",
+    "John Macleod",
+    "James Collip",
+    "Leonard Thompson",
+    "Toronto"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Endocrine signaling",
+      "Metabolic regulation",
+      "Pancreatic islets"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Endocrine signaling",
+      "Metabolic regulation",
+      "Insulin",
+      "Beta cells"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Endocrine signaling",
+      "Metabolic regulation",
+      "Glucagon",
+      "Alpha cells"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Endocrine signaling",
+      "Metabolic regulation",
+      "Glucose sensing",
+      "KATP channels"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Metabolism",
+      "Carbohydrate metabolism",
+      "Glycogenolysis"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Metabolism",
+      "Carbohydrate metabolism",
+      "Gluconeogenesis"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Metabolism",
+      "Fuel allocation",
+      "Liver glucose production"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Metabolism",
+      "Fuel allocation",
+      "Skeletal muscle uptake"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Endocrine signaling",
+      "Gut hormones",
+      "Incretin effect"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Endocrine signaling",
+      "Gut hormones",
+      "GLP-1"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Endocrine signaling",
+      "Energy reserves",
+      "Leptin"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Endocrine signaling",
+      "Clinical history",
+      "Insulin discovery"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Endocrine signaling",
+      "Clinical physiology",
+      "Diabetes"
+    ],
+    [
+      "Place: North America",
+      "Place: Canada",
+      "Place: Ontario",
+      "Place: Toronto"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "ap-endo-islets",
+      "reason": "Glucose metabolic sensing, KATP closure, calcium entry, secretion and amplification."
+    },
+    {
+      "source_id": "ap-endo-glucagon-acute",
+      "reason": "Acute glycogenolysis, gluconeogenesis and fasting counterregulation."
+    },
+    {
+      "source_id": "ap-endo-glucagon-chapter",
+      "reason": "Hepatic glycogen flux, chronic glucagon signaling and amino-acid handling."
+    },
+    {
+      "source_id": "ap-endo-incretins",
+      "reason": "Matched oral and intravenous glucose, GIP/GLP-1 and glucose-dependent incretin effect."
+    },
+    {
+      "source_id": "ap-endo-insulin-archive",
+      "reason": "Primary documents from 1920–1925; Banting, Best, Macleod and Collip."
+    },
+    {
+      "source_id": "ap-endo-insulin-review",
+      "reason": "Early insulin preparations, Leonard Thompson and the Toronto team."
+    },
+    {
+      "source_id": "ap-endo-insulin-roles",
+      "reason": "Shared contributions, purification and 1923 Nobel recognition."
+    },
+    {
+      "source_id": "ap-endo-leptin-gene",
+      "reason": "Mouse ob gene, leptin precursor and adipose energy signaling."
+    },
+    {
+      "source_id": "ap-endo-leptin-child",
+      "reason": "Clinical intervention in rare congenital leptin deficiency."
+    },
+    {
+      "source_id": "ap-endo-leptin-followup",
+      "reason": "Three treated children: appetite, fat mass, neuroendocrine and immune effects."
+    },
+    {
+      "source_id": "ap-endo-glut4-muscle",
+      "reason": "Distinct insulin and contraction pathways that promote muscle GLUT4 translocation."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "015000-e01",
+      "anchor": "Inside a beta cell, glucose metabolism changes its energy state",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-endo-islets"
+      ],
+      "source_locator": "KATP, depolarization and calcium secretion mechanism",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "015000-e02",
+      "anchor": "In carefully controlled experiments, secretion can show a rapid first phase",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-endo-islets"
+      ],
+      "source_locator": "Two phases of pancreatic insulin secretion",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "015000-e03",
+      "anchor": "In muscle and adipose tissue, insulin signaling promotes movement",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-endo-glut4-muscle"
+      ],
+      "source_locator": "Insulin action on tissue glucose uptake as physiological background",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "015000-e04",
+      "anchor": "A rapid physiological rise in glucagon can mobilize hepatic glycogen",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-endo-glucagon-acute"
+      ],
+      "source_locator": "Glycogenolysis dominates acute glucagon effect",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "015000-e05",
+      "anchor": "If researchers provide glucose orally and compare it",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-endo-incretins"
+      ],
+      "source_locator": "Matched glucose study and incretin effect",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "015000-e06",
+      "anchor": "Two important human incretin hormones are GIP and GLP one",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-endo-incretins"
+      ],
+      "source_locator": "GIP and GLP-1 physiology",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "015000-e07",
+      "anchor": "In 1994, Yiying Zhang, Jeffrey Friedman and colleagues",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-endo-leptin-gene"
+      ],
+      "source_locator": "1994 ob gene publication",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "015000-e08",
+      "anchor": "In published clinical studies beginning in 1999",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-endo-leptin-child"
+      ],
+      "source_locator": "1999 leptin substitution",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "015000-e09",
+      "anchor": "Follow-up work documented effects on metabolic, immune and reproductive functions",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-endo-leptin-followup"
+      ],
+      "source_locator": "2002 leptin replacement follow-up",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "015000-e10",
+      "anchor": "One of the sharpest demonstrations of how consequential this communication",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-endo-insulin-archive"
+      ],
+      "source_locator": "1921 Toronto insulin discovery",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "015000-e11",
+      "anchor": "In January 1922, thirteen-year-old Leonard Thompson received",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-endo-insulin-review"
+      ],
+      "source_locator": "Sequence of first two treatment preparations",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "015000-e12",
+      "anchor": "Banting and Macleod received the 1923 Nobel Prize",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-endo-insulin-roles"
+      ],
+      "source_locator": "Nobel prize and sharing award",
+      "audit_status": "source_checked"
+    }
+  ],
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Glucose, stored glycogen, gut hormones and experimental measures are explained. The earlier metabolism and digestion chapters provide optional depth."
+    ],
+    "readiness_checks": [
+      "How does a beta cell convert glucose metabolism into secretion?",
+      "Why is acute glucagon action not simply a switch for all gluconeogenesis?",
+      "How can muscle glucose uptake increase during exercise even as insulin falls?",
+      "What comparison reveals the incretin effect?",
+      "Why do the leptin-deficiency experiments not mean that extra leptin works equally for everyone?",
+      "How were the roles of Banting, Best, Macleod and Collip different?"
+    ]
+  },
+  "places": [
+    "Toronto"
+  ]
+}

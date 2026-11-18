@@ -1,0 +1,260 @@
+{
+  "schema_version": 1,
+  "lecture_id": "016000",
+  "transcript": "016000-a-stress-response-has-a-history.md",
+  "description": "Traces neural and endocrine responses to challenge through catecholamines and the HPA axis, explaining glucocorticoid feedback, circadian and ultradian rhythms, tissue interpretation and the limits of simple stress biomarkers.",
+  "tags": [
+    "Stress physiology",
+    "HPA axis",
+    "Hypothalamus",
+    "Pituitary gland",
+    "Adrenal cortex",
+    "Adrenal medulla",
+    "CRH",
+    "ACTH",
+    "Cortisol",
+    "Corticosterone",
+    "Glucocorticoids",
+    "Catecholamines",
+    "Sympathetic nervous system",
+    "Negative feedback",
+    "Circadian rhythm",
+    "Ultradian rhythm",
+    "Hormone pulsatility",
+    "Hormone clearance",
+    "Endocrine measurement",
+    "Biological clocks",
+    "Receptor sensitivity",
+    "Immune-endocrine interaction",
+    "Comparative stress physiology",
+    "Energy allocation"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Endocrine signaling",
+      "Stress responses",
+      "Sympathetic-adrenal system"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Endocrine signaling",
+      "Stress responses",
+      "HPA axis"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Endocrine signaling",
+      "Stress responses",
+      "Glucocorticoids"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Endocrine signaling",
+      "Stress responses",
+      "Cortisol"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Endocrine signaling",
+      "Stress responses",
+      "Corticosterone"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Endocrine signaling",
+      "Stress responses",
+      "Catecholamines"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Endocrine signaling",
+      "Temporal control",
+      "Circadian rhythms"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Endocrine signaling",
+      "Temporal control",
+      "Ultradian pulsatility"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Endocrine signaling",
+      "Regulation",
+      "Negative feedback"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Endocrine signaling",
+      "Measurement",
+      "Hormone concentration"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Endocrine signaling",
+      "Measurement",
+      "Sampling time"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Endocrine signaling",
+      "Tissue response",
+      "Receptor sensitivity"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Comparative physiology",
+      "Life history",
+      "Stress physiology"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "ap-endo-hpa-feedback",
+      "reason": "Feedback, circadian and ultradian secretion, GR and MR receptor mechanisms."
+    },
+    {
+      "source_id": "ap-endo-hpa-dynamics",
+      "reason": "HPA oscillations, physiology timescales, species differences and modeling."
+    },
+    {
+      "source_id": "ap-endo-pulsatile-general",
+      "reason": "Frequency and amplitude as information in HPA and reproductive axes."
+    },
+    {
+      "source_id": "ap-endo-amphibian-cross",
+      "reason": "Adrenal/interrenal analogues and multiple endocrine pathways in amphibian development."
+    },
+    {
+      "source_id": "ap-endo-principles",
+      "reason": "Endocrine versus local communication, hormone classes and target receptors."
+    },
+    {
+      "source_id": "ap-endo-fish-hpi",
+      "reason": "Comparative fish hypothalamic-pituitary-interrenal axis, head kidney and cortisol."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "016000-e01",
+      "anchor": "A related but distinct system is the hypothalamic-pituitary-adrenal axis",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-endo-hpa-feedback"
+      ],
+      "source_locator": "CRH ACTH glucocorticoid chain",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "016000-e02",
+      "anchor": "whereas corticosterone predominates in many rodents",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-endo-hpa-dynamics"
+      ],
+      "source_locator": "Species differences in dominant glucocorticoids",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "016000-e03",
+      "anchor": "fishes, for example, have interrenal tissue",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-endo-fish-hpi"
+      ],
+      "source_locator": "Adrenal/interrenal endocrine comparison",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "016000-e04",
+      "anchor": "Cortisol and corticosterone normally show temporal organization",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-endo-hpa-feedback"
+      ],
+      "source_locator": "Circadian and ultradian rhythms",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "016000-e05",
+      "anchor": "Researchers therefore use repeated sampling",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-endo-hpa-feedback"
+      ],
+      "source_locator": "Inference from sampling under pulsatile regulation",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "016000-e06",
+      "anchor": "Frequency and amplitude can carry information",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-endo-pulsatile-general"
+      ],
+      "source_locator": "Temporal encoding of endocrine messages",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "016000-e07",
+      "anchor": "Mathematical and experimental work on H P A dynamics",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-endo-hpa-dynamics"
+      ],
+      "source_locator": "Pituitary-adrenal feedback and mathematical models",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "016000-e08",
+      "anchor": "In many mammals, the concentration in blood rises and falls repeatedly",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-endo-hpa-dynamics"
+      ],
+      "source_locator": "Repeated rhythmic glucocorticoid secretion",
+      "audit_status": "source_checked"
+    }
+  ],
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "A neural stress response and the HPA axis are explained from first principles; hormone receptor dynamics are introduced where needed."
+    ],
+    "readiness_checks": [
+      "How does the sympathetic response differ from the HPA axis?",
+      "Why is a high glucocorticoid level not a calibrated measure of distress?",
+      "What biological and sampling rhythms complicate stress comparisons?",
+      "What can feedback delays do to hormone secretion?",
+      "Why might two animals with matching hormone concentrations respond differently?"
+    ]
+  }
+}

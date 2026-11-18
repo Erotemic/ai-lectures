@@ -1,23 +1,24 @@
 # Comparative physiology: further lectures
 
-The first thirteen manuscripts are complete and indexed, including the thermal and metabolic chapters (`011000`–`013000`). New subjects should remain coherent spoken explanations rather than a predetermined number of lectures or a duration target. Build the mechanism, measurement and comparison needed for the topic, and let it end naturally.
+The first seventeen manuscripts are complete and indexed. Chapters `014000`–`017000` develop endocrine communication and timing across organs. Continue to determine lecture boundaries from the actual mechanism and explanatory scope; there is no required word count or narration duration.
 
-## Completed this iteration
+## Completed in this iteration
 
-- **011000 — A Body in the Weather:** heat budget, geometric scaling of exposure, endothermy and ectothermy, thermoneutrality, insulation, penguin huddling, opah, and heat stress.
-- **012000 — What Metabolism Measures:** gas and direct calorimetry, respiratory exchange, basal/standard/field measurements, allometry, aerobic scope and stable isotopes.
-- **013000 — When Life Slows Down:** torpor, hibernation, slow bear metabolism, supercooled Arctic ground squirrels, freezing wood frogs and insect diapause.
+- **014000 — Messages in the Blood:** Bayliss and Starling's secretin experiments, receptor specificity, peptide/steroid/thyroid signals, downstream signaling, hormone clearance, feedback and measurement.
+- **015000 — The Meal, the Fast, and the Pancreas:** beta-cell sensing, insulin and glucagon, hepatic glucose production, exercise, incretins, leptin and Toronto insulin research.
+- **016000 — A Stress Response Has a History:** sympathetic versus HPA signals, glucocorticoid patterns and feedback, circadian and ultradian dynamics, sampling limitations and ecological costs.
+- **017000 — When a Body Changes Its Rules:** anuran and insect metamorphosis, tissue competence, GnRH pulse-frequency experiments and seasonal melatonin duration coding.
 
-## Next candidate topics
+## Remaining candidate directions
 
-1. **Hormones and long-distance coordination.** Glands and receptor specificity, endocrine feedback, stress, development, metabolic regulation, timescales, and limitations of simplistic single-hormone stories.
-2. **Defense within a living body.** Barriers, innate immunity, inflammatory communication, adaptive immunity in jawed vertebrates, and non-vertebrate defense mechanisms. Develop enough mechanism to support a subsequent dedicated immunology track.
-3. **Reproduction, growth and life-history costs.** Sex and asexual processes, gamete allocation, pregnancy and egg investment across taxa, parental care, senescence, and the physiological costs of reproduction. Coordinate with the survey's existing life-cycle lecture.
-4. **A body as an integrated system.** If the preceding chapters earn a synthesis, use an animal coping with feeding, movement and environmental change to integrate transport, energetic, neural, endocrine and excretory control. Do not publish a mandatory capstone just to close a list.
+1. **Defense within a living body.** Barriers, innate immunity, inflammatory communication, adaptive immunity in jawed vertebrates, and invertebrate defense. Give sufficient mechanistic foundation without duplicating a future specialist immunology course.
+2. **Reproduction, parental investment and life-history costs.** Gamete production and fertilization, sexual and asexual processes, egg versus pregnancy investment, parental care, and senescence. Complement rather than repeat the existing general-life-cycle survey.
+3. **Integrative whole-animal physiology.** Only if the preceding chapters earn one: trace a feeding or migrating animal through transport, neural, endocrine, metabolic and immune regulation, with quantitative constraints.
 
-## Review questions
+## Editorial and technical checks
 
-- Keep broad course tags stable while assigning narrow tags and curated `tag_paths` only when narration genuinely establishes them.
-- Add `places`, `periods` or `chronology` only for justified geographic/historical subjects. Do not use primary-paper publication years as a substitute for the content's time span.
-- Maintain pack-local citations and anchor exactly what is said in the narration, including qualifications about species and experimental conditions.
-- Reuse the independent overlay workflow; do not touch server code, other content packs, or media assets.
+- Keep hormone and receptor tags lecture-specific. Broad track tags should never pretend that every chapter discusses specialized molecules.
+- Separate source publication dates from subject dates; treat Toronto and Puerto Rico as grounded cases rather than a geographic scope for all endocrinology.
+- Maintain one spoken region per manuscript, source-linked evidence anchors and the exact extracted narration counts.
+- Update navigation for new chapters, preserving intentionally curated routes. Import using the exclusive-pack `tools/content_overlay.py apply --replace-owned` procedure.
+- No generated audio, binary assets, server code or unrelated pack edits.

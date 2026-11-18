@@ -1,0 +1,283 @@
+{
+  "schema_version": 1,
+  "lecture_id": "014000",
+  "transcript": "014000-messages-in-the-blood.md",
+  "description": "Explains long-distance hormonal messages through the secretin discovery, the chemistry of peptide and steroid signaling, receptor specificity, endocrine feedback and the pitfalls of single hormone measurements.",
+  "tags": [
+    "Endocrinology",
+    "Hormones",
+    "Endocrine signaling",
+    "Secretin",
+    "Bayliss and Starling",
+    "Hormone receptors",
+    "Receptor specificity",
+    "Peptide hormones",
+    "Steroid hormones",
+    "Thyroid hormones",
+    "Cell signaling",
+    "Second messengers",
+    "Cyclic AMP",
+    "Signal amplification",
+    "Hormone transport",
+    "Hormone clearance",
+    "Negative feedback",
+    "Vasopressin",
+    "Paracrine signaling",
+    "Autocrine signaling",
+    "Neuroendocrine signaling",
+    "Comparative endocrinology",
+    "Thyroid axis"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Endocrine signaling",
+      "History",
+      "Secretin"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Endocrine signaling",
+      "Hormone chemistry",
+      "Peptide hormones"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Endocrine signaling",
+      "Hormone chemistry",
+      "Steroid hormones"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Endocrine signaling",
+      "Hormone chemistry",
+      "Thyroid hormones"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Endocrine signaling",
+      "Receptors",
+      "Cell-surface receptors"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Endocrine signaling",
+      "Receptors",
+      "Nuclear receptors"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Endocrine signaling",
+      "Signal transduction",
+      "Second messengers"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Endocrine signaling",
+      "Signal transduction",
+      "Cyclic AMP"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Endocrine signaling",
+      "Signal transduction",
+      "Signal amplification"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Endocrine signaling",
+      "Regulation",
+      "Negative feedback"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Endocrine signaling",
+      "Regulation",
+      "Hormone clearance"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Endocrine signaling",
+      "Communication routes",
+      "Paracrine signaling"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Endocrine signaling",
+      "Communication routes",
+      "Neuroendocrine signaling"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Osmoregulation",
+      "Vasopressin"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Comparative physiology",
+      "Endocrine systems"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "ap-endo-secretin-history",
+      "reason": "Bayliss and Starling, 1902 experiment, and the later hormone concept."
+    },
+    {
+      "source_id": "ap-endo-secretin-experiment",
+      "reason": "Acid-triggered response of denervated gut and blood-borne secretin inference."
+    },
+    {
+      "source_id": "ap-endo-principles",
+      "reason": "Endocrine versus local communication, hormone classes and target receptors."
+    },
+    {
+      "source_id": "ap-endo-secretin-phys",
+      "reason": "Acid sensing, duodenal S cells and pancreatic bicarbonate secretion."
+    },
+    {
+      "source_id": "ap-endo-thyroid-frog",
+      "reason": "T4, T3, deiodinases, nuclear thyroid receptors, Gudernatsch 1912 and tissue competence."
+    },
+    {
+      "source_id": "ap-endo-vasopressin-water",
+      "reason": "V2 receptor, cAMP and aquaporin-2 trafficking in mammalian renal collecting duct."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "014000-e01",
+      "anchor": "In 1902, William Bayliss and Ernest Starling studied",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-endo-secretin-history"
+      ],
+      "source_locator": "1902 identification of chemical messenger",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "014000-e02",
+      "anchor": "They knew the nervous system might participate",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-endo-secretin-experiment"
+      ],
+      "source_locator": "Denervated intestinal preparation",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "014000-e03",
+      "anchor": "Starling later helped introduce the name hormone",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-endo-secretin-history"
+      ],
+      "source_locator": "1905 hormone naming",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "014000-e04",
+      "anchor": "A hormone is defined by its signaling role",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-endo-principles"
+      ],
+      "source_locator": "Peptide, steroid and amino-acid-derived hormonal signaling",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "014000-e05",
+      "anchor": "Some receptors activate proteins that produce second messengers",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-endo-principles"
+      ],
+      "source_locator": "Signal transduction and target receptors",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "014000-e06",
+      "anchor": "thyroid hormone T four is converted within tissues",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-endo-thyroid-frog"
+      ],
+      "source_locator": "T4 to T3, deiodinases and receptor mechanisms",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "014000-e07",
+      "anchor": "In mammals, vasopressin acts on kidney collecting ducts",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-endo-vasopressin-water"
+      ],
+      "source_locator": "Fluid and endocrine regulation as a feedback example",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "014000-e08",
+      "anchor": "Signals are not always endocrine in the strict long-distance sense",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-endo-principles"
+      ],
+      "source_locator": "Local and distant chemical signaling routes",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "014000-e09",
+      "anchor": "Insects regulate growth and molting with ecdysteroids",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-endo-principles"
+      ],
+      "source_locator": "Comparative endocrine architecture at survey level",
+      "audit_status": "source_checked"
+    }
+  ],
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Cells, circulation, feedback and hormones are introduced in the narration; the first and fourth chapters offer optional deeper context."
+    ],
+    "readiness_checks": [
+      "Why can acid in a denervated intestinal preparation cause pancreatic secretion?",
+      "What determines whether a cell responds to a circulating hormone?",
+      "Why is hormone concentration not identical to gland secretion rate or target response?",
+      "How do peptide and thyroid/steroid signals differ in typical receptor routes?",
+      "Which variable does a feedback loop protect, and why is the hormone not necessarily that variable?"
+    ]
+  }
+}
