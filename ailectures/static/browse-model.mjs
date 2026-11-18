@@ -1,3 +1,4 @@
+import { tagLabels } from "./tag-model.mjs";
 /** Pure catalog views. Filtering and grouping never change playback membership. */
 
 export function formatMinutes(minutes) {
@@ -141,14 +142,14 @@ export function matchesLecture(key, byId, query) {
   const stable = String(key ?? "");
   const row = byId(key);
   const title = row?.title || "";
-  return `${title} ${stable} ${stable.split(":").at(-1)} ${(row?.tags || []).join(" ")} ${row?.description || ""} ${(row?.outline || []).join(" ")} ${(row?.creators || []).map(credit => credit.name).join(" ")}`
+  return `${title} ${stable} ${stable.split(":").at(-1)} ${tagLabels(row).join(" ")} ${row?.description || ""} ${(row?.outline || []).join(" ")} ${(row?.creators || []).map(credit => credit.name).join(" ")}`
     .toLocaleLowerCase()
     .includes(term);
 }
 
 export function matchesTag(row, tag) {
   const requested = String(tag || "").trim().toLocaleLowerCase();
-  return !requested || (row?.tags || []).some(value => value.toLocaleLowerCase() === requested);
+  return !requested || tagLabels(row).some(value => value.toLocaleLowerCase() === requested);
 }
 
 /** Return hints stay within this library's collection or complete-inventory views. */

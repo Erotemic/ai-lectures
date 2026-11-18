@@ -1,3 +1,4 @@
+import { tagLabels } from "./tag-model.mjs";
 import { reactionControls } from "./reactions.mjs";
 import { el } from "./api.mjs";
 import { allLectureRows } from "./all-lectures-model.mjs";
@@ -28,7 +29,7 @@ export function renderAllLectures(main, catalog, { item, link, reactions }) {
   sort.append(...chronologyOptions());
   sort.value = params.get("sort") || "title";
   if (!sort.value) sort.value = "title";
-  const tags = el("datalist", { id: "all-lecture-tags" }, ...[...new Set(lectures.flatMap(row => row.tags || []))].sort().map(value => el("option", { value })));
+  const tags = el("datalist", { id: "all-lecture-tags" }, ...[...new Set(lectures.flatMap(tagLabels))].sort().map(value => el("option", { value })));
   const tag = el("input", { type: "search", list: "all-lecture-tags", "aria-label": "Tag",
     placeholder: "Topic, place, author, or period", value: params.get("tag") || "" });
   const count = el("p", { class: "muted", role: "status", "aria-live": "polite" });

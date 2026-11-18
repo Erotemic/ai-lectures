@@ -35,3 +35,17 @@ chronology:
       geological ages. Existing narration, inherited authorship, research claims,
       source catalogs and listening order are unchanged. Unknown and ambiguous spans
       remain absent.
+discovery_metadata:
+  revisions:
+  - date: '2026-11-17'
+    models:
+    - GPT-6 (Codex; weights/config variant unknown)
+    sources:
+    - metadata/127000.json
+    - metadata/128000.json
+    - metadata/129000.json
+    - metadata/130000.json
+    - metadata/131000.json
+    - metadata/132000.json
+    scope: Add the History of science and mathematics discovery tag to six new biographies; preserve narration,
+      chronology, citations and original source-model attribution.

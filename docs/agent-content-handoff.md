@@ -36,8 +36,12 @@ needed to continue writing.
 Mathematics now has a [subject guide](../content/mathematics-guide/) and
 [topic tags](content-packs.md#subjects-topic-tags-and-learning-paths). Keep broad
 subject tags on the track and relevant concept tags on new lecture entries,
-reusing existing labels. Place additions in their focused subject routes; a new
-specialist lecture need not lengthen a starter path. Tags and route adjacency do
+reusing existing labels. Use the [coarse-to-fine tag paths](content-packs.md#coarse-to-fine-tag-paths)
+for narrower topics and geography. New content should include specific lecture
+tags, a useful short description, work-author credits for literature, and
+source-supported places/dates where relevant; keep date meanings separate.
+Broader tags alone do not imply coverage of their narrower children. Place
+additions in their focused subject routes; a new specialist lecture need not lengthen a starter path. Tags and route adjacency do
 not supply missing prerequisite edges. State real preparation separately in the
 lecture's learning metadata.
 

@@ -1,3 +1,4 @@
+import { lectureTagPaths } from "./tag-browser.mjs";
 import { ReactionState, reactionControls, migrateReactions } from "./reactions.mjs";
 import { renderAllLectures } from "./all-lectures.mjs";
 import { creatorLine } from "./creators.mjs";
@@ -449,7 +450,8 @@ async function lecturePage(id, autoplay = false, historical = null) {
     title(row.title),
     creatorLine(row, link),
     row.description ? description(row.description) : null,
-    topicLinks(row.tags, link),
+    topicLinks(row.tags, link, 8),
+    lectureTagPaths(row, link),
     el(
       "div",
       { class: "actions" },

@@ -52,6 +52,16 @@ historical period, story setting, lifetime, and surviving witness. Stats include
 these coverage views and work authors, with links to the corresponding tags.
 Catalog clients can inspect these fields without downloading transcripts.
 
+Tags support explicit broader-to-narrower paths for topics, geography, and
+time. Stats → Browse tags from broad to specific expands these dimensions with
+unique lecture counts; any parent label filters all lectures carrying that
+path. Lecture pages expose their paths, and All lectures searches and filters
+ancestor labels as well as specific tags. Common existing tags acquire curated
+broader associations; authors can add pack-local `tag_paths` without registration.
+Date paths distinguish composition from publication, story setting, historical
+coverage, lifetime, and textual witnesses. Wide ranges stay broad, and uncertain
+years retain their qualifiers. See [the authoring contract](../docs/content-packs.md#coarse-to-fine-tag-paths).
+
 Lectures have 1–5-star ratings (with a clear option) and a heart favorite toggle.
 These choices belong to the selected listener and sync across devices; “This
 device” keeps them in browser storage. Offline changes are saved locally and

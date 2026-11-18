@@ -1,3 +1,4 @@
+import { tagLabels } from "./tag-model.mjs";
 import { creatorLine } from "./creators.mjs";
 import { el, getStored, store, randomId } from "./api.mjs";
 import { preparationPanel } from "./narration.mjs";
@@ -179,7 +180,7 @@ export class CatalogBrowser {
     );
     categories.value = initial("category");
     const topic = el("input", { type: "search", list: "browse-topic-tags", "aria-label": "Tag", placeholder: "Topic, place, author, or period", value: initial("tag") });
-    const topicOptions = el("datalist", { id: "browse-topic-tags" }, ...[...new Set(data.lectures.flatMap(row => row.tags || []))].sort().map(tag => el("option", { value: tag })));
+    const topicOptions = el("datalist", { id: "browse-topic-tags" }, ...[...new Set(data.lectures.flatMap(tagLabels))].sort().map(tag => el("option", { value: tag })));
     const audiences = el(
       "select",
       { "aria-label": "Audience" },

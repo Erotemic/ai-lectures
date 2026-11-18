@@ -1575,3 +1575,30 @@ integration:
     - metadata/185000.json
     basis: Original standalone narration and non-spoken text/evidence companion;
       source and edition limits disclosed, exact model configuration unavailable.
+discovery_metadata:
+  revisions:
+  - date: '2026-11-17'
+    models:
+    - GPT-6 (Codex; weights/config variant unknown)
+    sources:
+    - metadata/168000.json
+    - metadata/169000.json
+    - metadata/170000.json
+    - metadata/171000.json
+    - metadata/172000.json
+    - metadata/173000.json
+    - metadata/174000.json
+    - metadata/175000.json
+    - metadata/176000.json
+    - metadata/177000.json
+    - metadata/178000.json
+    - metadata/179000.json
+    - metadata/180000.json
+    - metadata/181000.json
+    - metadata/182000.json
+    - metadata/183000.json
+    - metadata/184000.json
+    - metadata/185000.json
+    scope: Add compact work-specific descriptions, original-work creator credits, and source-supported
+      topic/place/period associations using existing lecture scope and reading records. Preserve original
+      manuscript authorship, spoken text and source citations.

@@ -1,0 +1,166 @@
+"""Explicit broader/narrower discovery paths; never infer from lecture prose.
+
+The small compatibility vocabulary maps existing labels to subject/geographic
+associations. Authors can supply additional tag_paths without a central registry.
+Historical places stay historical; an unknown/ambiguous place remains flat.
+"""
+from .organization import topic_tags
+
+# These are browsing associations, not borders, nationality, prerequisites, or
+# a claim that a lecture covers every descendant of the broader label.
+PLACE_PATHS = [
+    ['Europe', 'France', 'Paris'], ['Europe', 'France', 'Lyon'], ['Europe', 'France', 'Auxerre'],
+    ['Europe', 'Britain', 'England', 'London'], ['Europe', 'Britain', 'England', 'Oxford'],
+    ['Europe', 'Britain', 'Scotland'], ['Europe', 'Britain', 'Wales'],
+    ['Europe', 'Ireland', 'Dublin'], ['Europe', 'Italy', 'Florence'], ['Europe', 'Italy', 'Rome'],
+    ['Europe', 'Italy', 'Venice'], ['Europe', 'Italy', 'Turin'],
+    ['Europe', 'Germany', 'Berlin'], ['Europe', 'Germany', 'Göttingen'],
+    ['Europe', 'Germany', 'Leipzig'], ['Europe', 'Germany', 'Hanover'],
+    ['Europe', 'Switzerland', 'Basel'], ['Europe', 'Switzerland', 'Zürich'], ['Europe', 'Switzerland', 'Sion'],
+    ['Europe', 'Austria', 'Vienna'], ['Europe', 'Hungary', 'Budapest'],
+    ['Europe', 'Hungary', 'Szeged'], ['Europe', 'Hungary', 'Győr'],
+    ['Europe', 'Czechia', 'Brno'], ['Europe', 'Czechia', 'Brünn'],
+    ['Europe', 'Spain'], ['Europe', 'Portugal', 'Lisbon', 'Rua dos Douradores'], ['Europe', 'Denmark'], ['Europe', 'Finland'],
+    ['Europe', 'Iceland'], ['Europe', 'Ukraine'], ['Europe', 'Eastern Europe'],
+    ['Eurasia', 'Russia'], ['Eurasia', 'Russia', 'Moscow'], ['Eurasia', 'Russia', 'Saint Petersburg'],
+    ['Asia', 'East Asia', 'China', 'Dunhuang'], ['Asia', 'East Asia', 'Japan', 'Tokyo'],
+    ['Asia', 'East Asia', 'Korea'], ['Asia', 'East Asia', 'Goryeo'],
+    ['Asia', 'South Asia', 'India'], ['Asia', 'South Asia', 'Pakistan'],
+    ['Asia', 'South Asia', 'Tamil regions'], ['Asia', 'South Asia', 'Bay of Bengal'],
+    ['Asia', 'Southeast Asia', 'Vietnam'], ['Asia', 'Southeast Asia', 'Cambodia'],
+    ['Asia', 'Southeast Asia', 'Laos'], ['Asia', 'Southeast Asia', 'Indonesia', 'Java'],
+    ['Asia', 'Southeast Asia', 'Indonesia', 'Bali'], ['Asia', 'Southeast Asia', 'Indonesia', 'Sulawesi'],
+    ['Asia', 'Southeast Asia', 'Indonesia', 'Bandung'], ['Asia', 'Southeast Asia', 'Philippines', 'Manila'],
+    ['Asia', 'West Asia', 'Iraq', 'Baghdad'], ['Asia', 'West Asia', 'Mesopotamia', 'Sumer', 'Uruk'],
+    ['Asia', 'West Asia', 'Mesopotamia', 'Babylonia'], ['Asia', 'Afghanistan'],
+    ['Africa', 'North Africa', 'Egypt', 'Alexandria'], ['Africa', 'North Africa', 'Ancient Egypt'],
+    ['Africa', 'North Africa', 'Algeria'], ['Africa', 'West Africa', 'Mali', 'Timbuktu'],
+    ['Africa', 'East Africa', 'Ethiopia'], ['Africa', 'East Africa', 'Kilwa'],
+    ['Africa', 'East Africa', 'Madagascar'], ['Africa', 'East Africa', 'Rwanda'], ['Africa', 'South Africa'],
+    ['North America', 'United States', 'New York'], ['North America', 'United States', 'New York City'],
+    ['North America', 'United States', 'Massachusetts', 'Boston'],
+    ['North America', 'United States', 'Massachusetts', 'Concord'],
+    ['North America', 'United States', 'Kentucky'], ['North America', 'United States', 'Ohio'],
+    ['North America', 'United States', 'Louisiana'], ['North America', 'United States', 'Pennsylvania'],
+    ['North America', 'United States', 'New England'],
+    ['Europe', 'France', 'Digne'], ['Europe', 'France', 'Montreuil-sur-Mer'], ['Europe', 'France', 'Montfermeil'], ['North America', 'United States', 'Princeton'],
+    ['North America', 'United States', 'Chapel Hill'], ['North America', 'United States', 'Baltimore'],
+    ['North America', 'United States', 'Berkeley'], ['North America', 'Canada', 'Toronto'],
+    ['North America', 'Mexico'], ['Americas', 'Caribbean', 'Haiti'], ['Americas', 'Latin America'],
+    ['Americas', 'Mesoamerica'], ['Americas', 'Andes'], ['Oceania', 'Australia'], ['Pacific', 'Hawaii'],
+    ['Europe', 'Ancient Greece'], ['Europe', 'Ancient Rome'],
+]
+
+TOPIC_PATHS = [
+    ['Science', 'Biology', 'Cell biology', 'Cell structure'],
+    ['Science', 'Biology', 'Cell biology', 'Cell membranes'],
+    ['Science', 'Biology', 'Genetics', 'Inheritance'], ['Science', 'Biology', 'Genetics', 'Meiosis'],
+    ['Science', 'Biology', 'Molecular biology', 'DNA'],
+    ['Science', 'Biology', 'Molecular biology', 'Gene expression'],
+    ['Science', 'Biology', 'Biochemistry', 'Metabolism'],
+    ['Science', 'Physics', 'Classical mechanics', 'Conservation laws'],
+    ['Science', 'Physics', 'Thermodynamics'], ['Science', 'Physics', 'Electromagnetism'],
+    ['Science', 'Physics', 'Quantum mechanics'], ['Science', 'Physics', 'Relativity'],
+    ['Science', 'Physics', 'Waves'], ['Science', 'Astronomy'], ['Science', 'Geology'],
+    ['Mathematics', 'Analysis', 'Calculus', 'Multivariable calculus'],
+    ['Mathematics', 'Analysis', 'Functional analysis', 'Operator theory'],
+    ['Mathematics', 'Analysis', 'Harmonic analysis', 'Fourier analysis', 'Fourier transform'],
+    ['Mathematics', 'Analysis', 'Harmonic analysis', 'Fourier analysis', 'Fourier series'],
+    ['Mathematics', 'Differential equations', 'Ordinary differential equations'],
+    ['Mathematics', 'Differential equations', 'Partial differential equations'],
+    ['Mathematics', 'Numerical analysis', 'Numerical differential equations'],
+    ['Mathematics', 'Analysis', 'Functional analysis', 'Operator theory', 'Spectral theory'],
+    ['Mathematics', 'Linear algebra', 'Eigenvalues'],
+    ['Mathematics', 'Geometry'], ['Mathematics', 'Topology'],
+    ['Mathematics', 'Probability', 'Measure theory'], ['Mathematics', 'Statistics', 'Causal inference'],
+    ['Mathematics', 'Discrete mathematics', 'Graph theory'], ['Mathematics', 'Logic', 'Type theory'],
+    ['Mathematics', 'Category theory'], ['Mathematics', 'Optimization', 'Convex optimization'],
+    ['Computing', 'Signal processing', 'Sampling', 'Aliasing'],
+    ['Computing', 'Signal processing', 'Discrete Fourier transform', 'Fast Fourier transform'],
+    ['Arts', 'Literature', 'Fiction', 'Novels'], ['Arts', 'Literature', 'Fiction', 'Short stories'],
+    ['Arts', 'Literature', 'Poetry', 'Epic'], ['Arts', 'Literature', 'Drama'],
+    ['Arts', 'Literature', 'Fiction', 'Fables'], ['Arts', 'Literature', 'Saga'],
+    ['Arts', 'Literature', 'Oral traditions'], ['Arts', 'Literature', 'Literary analysis'], ['Arts', 'Literature', 'Prose fragments'],
+    ['Arts', 'Literature', 'Creative writing', 'Fiction writing'],
+    ['Arts', 'Music', 'Music theory'], ['Arts', 'Music', 'Audio production'],
+    ['History', 'History of science and mathematics', 'History of mathematics'],
+    ['Science', 'Biology', 'Cell biology', 'Microscopy'],
+    ['Science', 'Biology', 'Cell biology', 'Organelles'],
+    ['Science', 'Biology', 'Cell biology', 'Endosymbiosis'],
+    ['Science', 'Biology', 'Cell biology', 'Membrane biology', 'Osmosis'],
+    ['Science', 'Biology', 'Cell biology', 'Membrane biology', 'Active transport'],
+    ['Science', 'Biology', 'Biochemistry', 'Chemiosmosis'],
+    ['Science', 'Biology', 'Molecular biology', 'RNA', 'RNA splicing'],
+    ['Science', 'Biology', 'Molecular biology', 'Protein synthesis'],
+    ['Science', 'Biology', 'Molecular biology', 'Gene regulation', 'Epigenetics'],
+    ['Science', 'Biology', 'Genetics', 'DNA replication'],
+    ['Science', 'Biology', 'Genetics', 'DNA repair'],
+    ['Science', 'Biology', 'Genetics', 'Chromosomes', 'Recombination'],
+    ['Science', 'Biology', 'Genetics', 'Mitosis'],
+    ['Science', 'Physics', 'Optics', 'Interference'],
+    ['Science', 'Physics', 'Optics', 'Diffraction'],
+    ['Science', 'Physics', 'Thermal physics', 'Statistical mechanics', 'Entropy'],
+    ['Science', 'Physics', 'Thermal physics', 'Phase transitions', 'Critical phenomena'],
+    ['Science', 'Physics', 'Oscillators', 'Resonance'],
+    ['Computing', 'Signal processing', 'Sampling', 'Nyquist frequency'],
+    ['Computing', 'Signal processing', 'Spectral analysis', 'Spectral leakage'],
+    ['Computing', 'Signal processing', 'Spectral analysis', 'Window functions'],
+    ['Computing', 'Signal processing', 'Spectral analysis', 'Frequency resolution'],
+    ['Mathematics', 'Numerical analysis', 'Finite differences', 'Upwind scheme'],
+    ['Mathematics', 'Numerical analysis', 'Finite-volume methods'],
+    ['Mathematics', 'Numerical analysis', 'Numerical stability', 'CFL condition'],
+    ['Mathematics', 'Numerical analysis', 'Spectral methods'],
+    ['Mathematics', 'Differential equations', 'Partial differential equations', 'Transport equation'],
+    ['History', 'Archaeology'], ['History', 'World history'],
+    ['Practical skills', 'Trades', 'Electrical work'], ['Practical skills', 'Trades', 'Masonry'],
+]
+
+
+def normalize_paths(value):
+    """Malformed optional paths are ignored rather than hiding usable content."""
+    if not isinstance(value, list):
+        return []
+    result = []
+    for path in value[:64]:
+        if not isinstance(path, list) or not 1 <= len(path) <= 8:
+            continue
+        labels = topic_tags(path)
+        if len(labels) != len(path):
+            continue  # Includes duplicate/cyclic labels and invalid labels.
+        if labels not in result:
+            result.append(labels)
+    return result
+
+
+def tag_key(label):
+    aliases = {'dft': 'discrete fourier transform', 'fft': 'fast fourier transform',
+               'pde': 'partial differential equations', 'ode': 'ordinary differential equations'}
+    value = label.casefold().replace('-', ' ').replace('_', ' ')
+    return aliases.get(value, value)
+
+
+def matching_paths(labels, vocabulary, prefix=''):
+    """A broad authored label never acquires narrower, unrecorded coverage."""
+    indexed = {}
+    for path in vocabulary:
+        for index, label in enumerate(path):
+            branch = [prefix + part for part in path[:index+1]]
+            indexed.setdefault(tag_key(label), [])
+            if branch not in indexed[tag_key(label)]:
+                indexed[tag_key(label)].append(branch)
+    result = []
+    for label in labels:
+        result.extend(indexed.get(tag_key(label), [[prefix + label]]))
+    return result
+
+
+def tag_paths(tags, places, authored=()):
+    facets = ('Place: ', 'Period: ', 'Author: ', 'Work date: ', 'Historical period: ',
+              'Story setting: ', 'Lifetime: ', 'Surviving witness: ', 'Composition date: ')
+    topics = [tag for tag in tags if not tag.startswith(facets)]
+    geography = list(dict.fromkeys([*places, *(tag[7:] for tag in tags if tag.startswith('Place: '))]))
+    paths = matching_paths(topics, TOPIC_PATHS) + matching_paths(geography, PLACE_PATHS, 'Place: ')
+    paths += normalize_paths(authored)
+    # Suppress prefixes that are already represented by a more specific path.
+    unique = list(dict.fromkeys(tuple(path) for path in paths))
+    return [list(path) for path in unique if not any(len(other) > len(path) and other[:len(path)] == path for other in unique)]

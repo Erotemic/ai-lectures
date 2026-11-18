@@ -39,7 +39,10 @@ def propose(entry, metadata, text, namespace, rules):
         evidence.append('curated lecture coverage summary')
     if namespace not in LITERATURE | HISTORICAL:
         return result, evidence
-    places = []
+    geography = metadata.get('geography')
+    places = topic_tags(geography.get('work_setting_or_source_context')) if isinstance(geography, dict) else []
+    if places:
+        evidence.append('existing authored work-setting or source-context geography')
     for place in rules['title_places']:
         if re.search(r'(?<!\w)' + re.escape(place) + r'(?!\w)', title, re.I):
             places.append(place)
@@ -71,7 +74,7 @@ def propose(entry, metadata, text, namespace, rules):
                 result.pop('places', None)
             evidence.append('curated work identity; see manuscript and reading records')
         genre_tags = [label for term, label in {'novel':'Novels', 'drama':'Drama', 'poetry':'Poetry', 'epic':'Epic', 'fable':'Fables', 'saga':'Saga', 'oral':'Oral traditions'}.items() if term in section]
-        result['tags'] = topic_tags(topic_tags(metadata.get('tags')) + ['Literature'] + genre_tags)
+        result['tags'] = topic_tags(topic_tags(metadata.get('tags')) + ['Literature'] + genre_tags + (work.get('tags', []) if work else []))
         if 'description' not in result:
             outline = lecture_outline(text)
             overview = work.get('overview', '') if work else ''

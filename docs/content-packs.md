@@ -72,8 +72,7 @@ Topic tags describe subject matter independently of order. Click a tag on a
 lecture or collection to find related material across subjects. **Tag** in
 Browsing options selects a whole topic; the ordinary keyword search also
 searches tags, descriptions, outlines, and work creator names. Tag filters are bookmarkable with `?tag=Spectral+theory` and can
-combine with category, audience, and audio filters. Lecture pages show all their
-tags. Topic searches in Study plan and Learning map can find these concepts
+combine with category, audience, and audio filters. Lecture pages show a compact tag preview and expandable broader/narrower paths. Topic searches in Study plan and Learning map can find these concepts
 without treating a shared tag as a prerequisite or mathematical claim.
 
 Tags can be authored on `track.json`, its individual lecture entries, and
@@ -84,6 +83,49 @@ subjects and concepts, for example `Linear algebra`, `Spectral theory`, or
 broad inherited label and put narrower concepts on the relevant entries.
 Optional navigation collections may also have tags. Tags travel in runtime
 exports; they change descriptive revisions but preserve speech identity.
+
+#### Coarse-to-fine tag paths
+
+Use `tag_paths` for explicit broader-to-narrower relationships, on the track,
+lecture entry, or per-lecture metadata. Each path is an array of whole labels:
+
+```json
+{
+  "tags": ["DNA"],
+  "tag_paths": [
+    ["Science", "Biology", "Molecular biology", "DNA"],
+    ["Place: Europe", "Place: France", "Place: Paris"]
+  ]
+}
+```
+
+Tag filters match a label anywhere in a lecture's paths. Thus `Biology` finds
+lectures specifically tagged `DNA`, while a broad `Biology` association never
+creates an unrecorded `DNA` association. Multiple paths can describe overlapping
+subjects or regions. Labels remain ordinary strings: `/` and `>` inside a flat
+tag do not create hidden hierarchy. No central registration is needed for an
+authored path. Keep paths short (at most eight distinct labels, at most 64 paths
+per source field); malformed optional paths are ignored. Existing flat tags
+continue to work.
+
+The reader supplies curated broader paths for common existing topic/place
+labels. Unknown or ambiguous places remain flat; ancient names are not mapped
+to modern countries. Regions describe associations rather than nationality or
+coverage of every contained place. Prefer the most specific justified authored
+label; do not scatter incidental names from the manuscript into geography.
+
+Numeric chronology yields separate paths for each date meaning: BCE/CE,
+millennium, century, and decade where the range is narrow enough. A single
+authored year remains a leaf, including its approximate qualifier. Wide ranges
+stay broad and do not generate a tag for every intervening year. Publication
+(`work`), story setting (`setting`, also accepting the older `fictional_setting`
+spelling), composition (`composition`), covered period, lifetime, and textual
+witness remain distinct. Do not manufacture dates for timeless scientific topics.
+
+**Stats → Browse tags from broad to specific** shows expandable dimensions and
+unique lecture counts. Selecting any branch opens All lectures filtered by that
+tag; the Tag field and keyword search also recognize broader path labels.
+Counts overlap across paths and should not be added as disjoint coverage.
 
 A source-owned directory can declare `guide_for` on a hub to offer its directory
 on the corresponding category page. Its optional `browse_sections` groups

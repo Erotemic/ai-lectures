@@ -5,7 +5,7 @@ Invalid optional records are omitted; they never prevent lecture playback.
 """
 
 
-AXES = ("work", "period", "setting", "life", "witness")
+AXES = ("work", "period", "setting", "life", "witness", "composition")
 MAX_YEAR = 10**12
 _TEXT_LIMITS = {"label": 512, "basis": 128, "note": 8000}
 _MAX_SOURCE_IDS = 512
@@ -81,6 +81,9 @@ def normalize_chronology(value):
     """
     if not isinstance(value, dict):
         return {}
+    value = dict(value)
+    if 'setting' not in value and 'fictional_setting' in value:
+        value['setting'] = value['fictional_setting']
     result = {}
     for axis in AXES:
         record = _record(value.get(axis))

@@ -848,3 +848,11 @@ progress {
 .reaction-save-status { flex-basis: 100%; }
 .lecture-reactions.compact { margin: 0; align-self: start; }
 .lecture-reactions.compact .rating-value { width: 100%; text-align: center; }
+
+.tag-tree { list-style: none; padding-left: 1.25rem; margin: 0.35rem 0; }
+.tag-browser > div > .tag-tree { padding-left: 0; }
+.tag-tree li { margin: 0.4rem 0; overflow-wrap: anywhere; }
+.tag-tree summary { cursor: pointer; }
+.tag-tree .tag-count { display: inline-block; margin-left: 0.65rem; font-size: 0.8rem; }
+.lecture-tag-paths { margin: 0.75rem 0; font-size: 0.9rem; }
+.lecture-tag-paths li { margin-bottom: 0.45rem; overflow-wrap: anywhere; }

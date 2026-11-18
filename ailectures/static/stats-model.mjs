@@ -1,3 +1,4 @@
+import { tagLabels } from "./tag-model.mjs";
 /** Library totals count content identities, never repeated listening-route entries. */
 import { collectionRows } from "./browse-model.mjs";
 
@@ -24,7 +25,8 @@ export function libraryStats(catalog) {
   const grouped = field => {
     const groups = new Map();
     for (const row of rows) {
-      const labels = row[field]?.length ? row[field] : ["Unspecified"];
+      const values = field === "tags" ? tagLabels(row) : row[field];
+      const labels = values?.length ? values : ["Unspecified"];
       for (const label of new Set(labels)) {
         if (!groups.has(label)) groups.set(label, []);
         groups.get(label).push(row);
@@ -41,7 +43,7 @@ export function libraryStats(catalog) {
     packGroups.get(id).push(row);
   }
   const dates = {};
-  const axisNames = ["period", "work", "setting", "life", "witness"];
+  const axisNames = ["period", "work", "setting", "life", "witness", "composition"];
   for (const axis of axisNames) {
     const buckets = new Map();
     for (const row of rows) for (const label of new Set(row.time_coverage?.[axis] || [])) {

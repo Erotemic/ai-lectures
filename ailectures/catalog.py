@@ -21,6 +21,7 @@ from .core import (
 )
 from .source_updates import atomic_bytes, source_lock
 from .descriptions import description_fields
+from .tagging import normalize_paths
 from .organization import collection_metadata, topic_tags
 from .navigation import route_collections
 from .companions import discover_companions, companion_file
@@ -221,6 +222,9 @@ def repository_track(directory, *, previous=None, strict=False):
         )
         if tags := topic_tags(topic_tags(plan.get("tags")) + topic_tags(entry.get("tags")) + topic_tags(metadata.get("tags"))):
             row["tags"] = tags
+        paths = normalize_paths(plan.get("tag_paths")) + normalize_paths(entry.get("tag_paths"))
+        if paths:
+            row["tag_paths"] = paths
         for field in ("places", "periods"):
             if values := topic_tags(entry.get(field)):
                 row[field] = values
