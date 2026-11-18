@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "lecture_id": "089000",
+  "transcript": "089000-reading-spectrograms-of-changing-signals.md",
+  "related_resources": [
+    {
+      "source_id": "de-scipy-shorttimefft",
+      "reason": "Time centers, window conventions and phase behavior."
+    },
+    {
+      "source_id": "de-scipy-spectrogram",
+      "reason": "Magnitude-square spectrogram scaling."
+    },
+    {
+      "source_id": "de-numpy-fft",
+      "reason": "Circular-shift phase theorem and global DFT magnitudes."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-17",
+    "scope": "Original foundation-first short-time Fourier, window uncertainty, spectrogram interpretation and spectral-noise-estimation lectures with mathematical companions; preserve all 53 earlier lectures and their per-lecture metadata."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "differential-equations:087000",
+        "reason": "Introduces the sampling, DFT, or time-frequency concept used by this lecture."
+      },
+      {
+        "lecture_id": "differential-equations:088000",
+        "reason": "Introduces the sampling, DFT, or time-frequency concept used by this lecture."
+      }
+    ],
+    "recommended": [],
+    "background": [
+      "Elementary calculus and trigonometry, Fourier coefficients, DFT magnitude/phase and basic probability (mean and variance for lecture 090000); no advanced PDE or measure-theoretic probability assumed."
+    ],
+    "readiness_checks": [
+      "Differentiate chirp phase to obtain instantaneous frequency.",
+      "Explain how two records can share global Fourier magnitudes but differ in temporal order.",
+      "Check the decibel relation for a factor-of-two amplitude change."
+    ]
+  }
+}

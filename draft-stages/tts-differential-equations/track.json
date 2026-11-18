@@ -17,6 +17,7 @@
     "boundary-values-fourier-modes",
     "fourier-transforms-and-method-of-lines",
     "sampling-discrete-fourier",
+    "time-frequency-spectral-estimation",
     "conservation-numerical-transport",
     "transport-diffusion-pdes",
     "poincare-floquet",
@@ -956,6 +957,73 @@
         "Energy drift",
         "Oscillators",
         "Modified energy"
+      ]
+    },
+    {
+      "id": "087000",
+      "title": "When Frequency Changes over Time: The Short-Time Fourier Transform",
+      "section": "time-frequency-spectral-estimation",
+      "file": "087000-when-frequency-changes-over-time.md",
+      "spoken_words": 1678,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 11.6,
+      "tags": [
+        "Short-time Fourier transform",
+        "STFT",
+        "Sliding windows",
+        "Spectrograms",
+        "Phase",
+        "Inverse STFT"
+      ]
+    },
+    {
+      "id": "088000",
+      "title": "Time–Frequency Resolution and the Gaussian Uncertainty Bound",
+      "section": "time-frequency-spectral-estimation",
+      "file": "088000-time-frequency-resolution-and-uncertainty.md",
+      "spoken_words": 1839,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 12.7,
+      "tags": [
+        "Time-frequency uncertainty",
+        "Gaussian window",
+        "Heisenberg-Gabor bound",
+        "Window length",
+        "Frequency resolution"
+      ]
+    },
+    {
+      "id": "089000",
+      "title": "Reading Spectrograms of Changing Signals: Chirps, Impacts, and Phase",
+      "section": "time-frequency-spectral-estimation",
+      "file": "089000-reading-spectrograms-of-changing-signals.md",
+      "spoken_words": 2017,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 13.9,
+      "tags": [
+        "Spectrogram interpretation",
+        "Chirp",
+        "Instantaneous frequency",
+        "Time ordering",
+        "Decibels",
+        "Phase"
+      ]
+    },
+    {
+      "id": "090000",
+      "title": "Noise, Power Spectral Density, and Welch Averaging",
+      "section": "time-frequency-spectral-estimation",
+      "file": "090000-noise-power-spectra-and-welch-averaging.md",
+      "spoken_words": 2133,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 14.7,
+      "tags": [
+        "Power spectral density",
+        "Welch method",
+        "Periodogram",
+        "White noise",
+        "Window normalization",
+        "Statistics"
       ]
     }
   ],

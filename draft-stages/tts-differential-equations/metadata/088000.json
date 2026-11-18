@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "lecture_id": "088000",
+  "transcript": "088000-time-frequency-resolution-and-uncertainty.md",
+  "related_resources": [
+    {
+      "source_id": "de-gabor-wiki",
+      "reason": "Statement and interpretation of the time-frequency uncertainty bound."
+    },
+    {
+      "source_id": "de-scipy-shorttimefft",
+      "reason": "Sample-rate, hop and FFT length distinctions."
+    },
+    {
+      "source_id": "de-numpy-fft",
+      "reason": "FFT bin spacing and zero-padding conventions."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-17",
+    "scope": "Original foundation-first short-time Fourier, window uncertainty, spectrogram interpretation and spectral-noise-estimation lectures with mathematical companions; preserve all 53 earlier lectures and their per-lecture metadata."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "differential-equations:081000",
+        "reason": "Introduces the sampling, DFT, or time-frequency concept used by this lecture."
+      },
+      {
+        "lecture_id": "differential-equations:087000",
+        "reason": "Introduces the sampling, DFT, or time-frequency concept used by this lecture."
+      }
+    ],
+    "recommended": [],
+    "background": [
+      "Elementary calculus and trigonometry, Fourier coefficients, DFT magnitude/phase and basic probability (mean and variance for lecture 090000); no advanced PDE or measure-theoretic probability assumed."
+    ],
+    "readiness_checks": [
+      "Convert 256 samples at 8000 Hz to seconds and native FFT spacing.",
+      "Derive the Gaussian time and frequency spreads under the cycles-per-second convention.",
+      "Distinguish time-frequency concentration from FFT grid spacing."
+    ]
+  }
+}

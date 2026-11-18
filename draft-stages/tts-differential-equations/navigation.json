@@ -154,6 +154,38 @@
       ]
     },
     {
+      "id": "time-frequency-spectral-estimation-foundations",
+      "title": "Differential Equations · Time–Frequency Analysis, Spectrograms and Noise from First Principles",
+      "role": "deep_dive",
+      "parent": "survey",
+      "lectures": [
+        "087000",
+        "088000",
+        "089000",
+        "090000"
+      ],
+      "assumed_background": [
+        "Elementary calculus and trigonometry; prior worked sampling/DFT and window/leakage lectures. The final lecture introduces variance and expected value directly."
+      ],
+      "preparation_collections": [
+        "differential-equations:sampling-dft-fft-foundations"
+      ],
+      "related_collections": [
+        "survey",
+        "sampling-dft-fft-foundations",
+        "fourier-transform-method-of-lines-foundations"
+      ],
+      "tags": [
+        "Time-frequency analysis",
+        "STFT",
+        "Spectrograms",
+        "Gaussian uncertainty",
+        "Noise",
+        "Welch PSD",
+        "Signal processing"
+      ]
+    },
+    {
       "id": "conservation-numerical-transport-foundations",
       "title": "Differential Equations · Conservation Laws and Numerical Transport from Scratch",
       "role": "deep_dive",

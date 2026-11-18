@@ -2,7 +2,7 @@
 
 Ordinary differential equations and dynamical systems: initial-value problems, existence and uniqueness, phase portraits, oscillations, stability, nonlinear dynamics and numerical integration, later partial differential equations.
 
-The current pack contains **53 lecture manuscripts**. Short concept chapters have been consolidated where they develop one subject. Each numbered manuscript has one spoken region; its mathematical statements, exercises, sources, and inherited component notes remain in the non-spoken companion.
+The current pack contains **57 lecture manuscripts**. Short concept chapters have been consolidated where they develop one subject. Each numbered manuscript has one spoken region; its mathematical statements, exercises, sources, and inherited component notes remain in the non-spoken companion.
 
 ## Listening routes
 
@@ -14,6 +14,7 @@ The current pack contains **53 lecture manuscripts**. Short concept chapters hav
 - **Differential Equations · Conservation Laws and Numerical Transport from Scratch** (Foundation bridge): `075000`, `076000`, `077000`, `078000`.
 - **Differential Equations · Fourier Transforms and Numerical Spatial Discretization** (Foundation bridge): `071000`, `072000`, `073000`, `074000`.
 - **Differential Equations · Sampling, Discrete Fourier Transform and FFT from Scratch** (Foundation bridge): `079000`, `080000`, `081000`, `082000`.
+- **Differential Equations · Time–Frequency Analysis, Spectrograms and Noise from First Principles** (Foundation bridge): `087000`, `088000`, `089000`, `090000`.
 - **Differential Equations · Numerical Time Stepping from Scratch** (Foundation bridge): `063000`, `064000`, `065000`, `066000`.
 - **Differential Equations · Adaptive Solvers, Events, and Energy-Aware Time Steps** (Foundation bridge): `083000`, `084000`, `085000`, `086000`.
 - **Differential Equations · Linear Systems and Phase Portraits from Scratch** (Foundation bridge): `059000`, `060000`, `061000`, `062000`.
@@ -85,6 +86,10 @@ Durations are measured from the current spoken text at 145 words per minute, bef
 | `084000` | [What ODE Error Tolerances Actually Mean: Scale, Units, and Accuracy](084000-what-ode-error-tolerances-actually-mean.md) | 11.9 |
 | `085000` | [Locating Events in Continuous Time: Roots, Impacts, and Hybrid Dynamics](085000-locating-events-in-continuous-time.md) | 12.7 |
 | `086000` | [Why Energy-Aware Integration Matters: Oscillators, Symplectic Steps, and Structure](086000-why-energy-aware-integration-matters.md) | 13.1 |
+| `087000` | [When Frequency Changes over Time: The Short-Time Fourier Transform](087000-when-frequency-changes-over-time.md) | 11.6 |
+| `088000` | [Time–Frequency Resolution and the Gaussian Uncertainty Bound](088000-time-frequency-resolution-and-uncertainty.md) | 12.7 |
+| `089000` | [Reading Spectrograms of Changing Signals: Chirps, Impacts, and Phase](089000-reading-spectrograms-of-changing-signals.md) | 13.9 |
+| `090000` | [Noise, Power Spectral Density, and Welch Averaging](090000-noise-power-spectra-and-welch-averaging.md) | 14.7 |
 
 ## Foundation-first continuation
 
@@ -136,3 +141,7 @@ The `079000`–`082000` route supplies a concrete sequence from an eight-samples
 ## Adaptive numerical ODE solvers foundation bridge
 
 The `083000`–`086000` route develops embedded error estimates and rejected steps, physically scaled relative/absolute tolerance checks, event-root location with dense output and impact jump maps, then a worked comparison of Euler, backward Euler, symplectic Euler and Störmer–Verlet on a spring. It separates local acceptance, accumulated trajectory accuracy, event conditioning, and physical structure. It builds directly on the earlier numerical time-stepping and oscillator lectures; all 49 prior manuscripts and per-lecture metadata remain unchanged.
+
+## Time–frequency analysis and spectral-noise foundation bridge
+
+The `087000`–`090000` route constructs an exact two-window STFT, proves the Gaussian time–frequency uncertainty bound, interprets chirps, impulses and Fourier phase using a circular-shift counterexample, and derives one-sided/two-sided white-noise PSD normalization before introducing Welch's averaged periodogram. It distinguishes true temporal resolution from frame-hop spacing, Fourier-grid interpolation from information, and random noise fluctuations from persistent spectral lines. The route follows the sampling/DFT foundations and assumes no advanced PDE theory. All 53 earlier manuscripts and their metadata are preserved.

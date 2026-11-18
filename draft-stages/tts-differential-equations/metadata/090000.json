@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "lecture_id": "090000",
+  "transcript": "090000-noise-power-spectra-and-welch-averaging.md",
+  "related_resources": [
+    {
+      "source_id": "de-welch-original",
+      "reason": "Historical original and precise short modified periodogram method."
+    },
+    {
+      "source_id": "de-scipy-welch",
+      "reason": "Segment averaging, density scaling, overlap and normalization."
+    },
+    {
+      "source_id": "de-scipy-csd",
+      "reason": "Interpretation of one-sided and two-sided PSD scaling."
+    },
+    {
+      "source_id": "de-scipy-spectrogram",
+      "reason": "Difference between time-resolved spectrogram and averaged PSD."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "090000-h01",
+      "anchor": "Peter Welch described a practical method in 1967.",
+      "kind": "historical_research",
+      "source_ids": [
+        "de-welch-original"
+      ],
+      "source_locator": "IEEE Transactions on Audio and Electroacoustics 15(2), 1967, pages 70–73, DOI 10.1109/TAU.1967.1161901.",
+      "audit_status": "reference_recorded"
+    }
+  ],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-17",
+    "scope": "Original foundation-first short-time Fourier, window uncertainty, spectrogram interpretation and spectral-noise-estimation lectures with mathematical companions; preserve all 53 earlier lectures and their per-lecture metadata."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "differential-equations:080000",
+        "reason": "Introduces the sampling, DFT, or time-frequency concept used by this lecture."
+      },
+      {
+        "lecture_id": "differential-equations:087000",
+        "reason": "Introduces the sampling, DFT, or time-frequency concept used by this lecture."
+      },
+      {
+        "lecture_id": "differential-equations:089000",
+        "reason": "Introduces the sampling, DFT, or time-frequency concept used by this lecture."
+      }
+    ],
+    "recommended": [],
+    "background": [
+      "Elementary calculus and trigonometry, Fourier coefficients, DFT magnitude/phase and basic probability (mean and variance for lecture 090000); no advanced PDE or measure-theoretic probability assumed."
+    ],
+    "readiness_checks": [
+      "Derive the white-noise PSD level from variance and sampling rate.",
+      "Explain why Welch averaging reduces variance and overlap does not create independence.",
+      "Compute the density peak of an exactly on-bin cosine and distinguish integrated power."
+    ]
+  }
+}

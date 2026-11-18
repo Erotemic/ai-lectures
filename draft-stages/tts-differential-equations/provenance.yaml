@@ -208,3 +208,19 @@ transcript:
     scope: Add foundation-first lectures on adaptive error estimates, componentwise
       tolerances, event root location and impact maps, and energy-aware oscillator
       integrators. Preserve the prior 49 manuscripts and metadata.
+  - date: '2026-11-17'
+    models:
+    - GPT-6
+    sources:
+    - lecture: '087000'
+      composition_record: metadata/087000.json
+    - lecture: '088000'
+      composition_record: metadata/088000.json
+    - lecture: '089000'
+      composition_record: metadata/089000.json
+    - lecture: '090000'
+      composition_record: metadata/090000.json
+    scope: Add four foundation-first lectures on sliding Fourier windows, Gaussian
+      time-frequency uncertainty, interpreting spectrograms of changing signals,
+      and normalized noise PSD with Welch averaging. Preserve the 53 earlier
+      manuscripts and their individual metadata.

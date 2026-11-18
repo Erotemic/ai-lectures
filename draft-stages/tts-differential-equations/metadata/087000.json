@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "lecture_id": "087000",
+  "transcript": "087000-when-frequency-changes-over-time.md",
+  "related_resources": [
+    {
+      "source_id": "de-numpy-fft",
+      "reason": "Four-point DFT calculations and Fourier phase after circular shift."
+    },
+    {
+      "source_id": "de-scipy-shorttimefft",
+      "reason": "Window hops, complex STFT coefficients and inverse reconstruction."
+    },
+    {
+      "source_id": "de-scipy-spectrogram",
+      "reason": "Spectrogram as squared magnitude and scaling caveats."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-17",
+    "scope": "Original foundation-first short-time Fourier, window uncertainty, spectrogram interpretation and spectral-noise-estimation lectures with mathematical companions; preserve all 53 earlier lectures and their per-lecture metadata."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "differential-equations:080000",
+        "reason": "Introduces the sampling, DFT, or time-frequency concept used by this lecture."
+      },
+      {
+        "lecture_id": "differential-equations:081000",
+        "reason": "Introduces the sampling, DFT, or time-frequency concept used by this lecture."
+      }
+    ],
+    "recommended": [],
+    "background": [
+      "Elementary calculus and trigonometry, Fourier coefficients, DFT magnitude/phase and basic probability (mean and variance for lecture 090000); no advanced PDE or measure-theoretic probability assumed."
+    ],
+    "readiness_checks": [
+      "Compute the exact four-sample DFT and label its physical frequency bins.",
+      "Distinguish a complex STFT from its squared-magnitude spectrogram.",
+      "Explain why overlap is not the same as independent observation."
+    ]
+  }
+}

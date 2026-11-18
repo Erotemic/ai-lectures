@@ -882,6 +882,48 @@
       "url": "https://link.springer.com/book/10.1007/3-540-30666-8",
       "access": "preview_or_purchase",
       "notes": "Structure-preserving algorithms; symplectic Euler, Störmer-Verlet, numerical energy behavior and time reversal."
+    },
+    "de-scipy-shorttimefft": {
+      "title": "SciPy Reference: `scipy.signal.ShortTimeFFT`",
+      "kind": "software_documentation",
+      "url": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.signal.ShortTimeFFT.html",
+      "access": "free_no_login",
+      "notes": "Discrete STFT conventions, hop, time/frequency bins, dual windows and inverse reconstruction."
+    },
+    "de-scipy-spectrogram": {
+      "title": "SciPy Reference: `ShortTimeFFT.spectrogram`",
+      "kind": "software_documentation",
+      "url": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.signal.ShortTimeFFT.spectrogram.html",
+      "access": "free_no_login",
+      "notes": "Spectrogram as squared STFT magnitude; distinguishes magnitude and power."
+    },
+    "de-gabor-wiki": {
+      "title": "Wikipedia: Gabor limit",
+      "kind": "reference_article",
+      "url": "https://en.wikipedia.org/wiki/Gabor_limit",
+      "access": "free_no_login",
+      "notes": "Time-frequency concentration bound; lecture supplies independent Gaussian/Cauchy-Schwarz derivation and makes its convention explicit."
+    },
+    "de-scipy-welch": {
+      "title": "SciPy Reference: `scipy.signal.welch`",
+      "kind": "software_documentation",
+      "url": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.signal.welch.html",
+      "access": "free_no_login",
+      "notes": "Windowed periodograms, PSD density scaling, one-sided spectral conventions, Welch averaging."
+    },
+    "de-scipy-csd": {
+      "title": "SciPy Reference: `scipy.signal.csd`",
+      "kind": "software_documentation",
+      "url": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.signal.csd.html",
+      "access": "free_no_login",
+      "notes": "Cross spectral density, density versus spectrum scaling and effects of overlap."
+    },
+    "de-welch-original": {
+      "title": "Peter D. Welch, The Use of Fast Fourier Transform for the Estimation of Power Spectra: A Method Based on Time Averaging over Short, Modified Periodograms (IEEE Transactions on Audio and Electroacoustics 15(2), 1967, 70–73)",
+      "kind": "scholarly_primary",
+      "url": "https://doi.org/10.1109/TAU.1967.1161901",
+      "access": "publisher_metadata_or_institutional_access",
+      "notes": "Original Welch averaging procedure and bibliographic attribution; author Peter D. Welch."
     }
   }
 }
