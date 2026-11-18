@@ -1,7 +1,7 @@
 {
   "id": "animal-physiology",
   "title": "How Animals Work: Comparative Physiology",
-  "summary": "An audio-first investigation of the physical and biological work that keeps animals functioning: regulation, breathing, transport, water and salts, digestion, and eventually movement, nerves, temperature, endocrine coordination and reproduction. The course compares different animal lineages rather than treating humans as the anatomical default.",
+  "summary": "An audio-first comparative investigation of how animals maintain their internal conditions and coordinate movement: regulation, gas exchange, circulation, water and salt balance, digestion, molecular muscle force, biomechanics, electrical nerve signaling and synapses. Further physiology chapters can cover sensing, temperature, hormones, defense and reproduction. The course compares many animal lineages instead of treating humans as an anatomical default.",
   "categories": [
     "Science and nature"
   ],
@@ -38,7 +38,9 @@
     "respiration",
     "circulation",
     "osmoregulation",
-    "digestion"
+    "digestion",
+    "locomotion",
+    "neural_signaling"
   ],
   "lectures": [
     {
@@ -148,6 +150,66 @@
         "Gut microbiome",
         "Termite symbiosis",
         "Python digestion"
+      ]
+    },
+    {
+      "id": "006000",
+      "title": "What Muscles Pull Against",
+      "section": "locomotion",
+      "file": "006000-what-muscles-pull-against.md",
+      "spoken_words": 2676,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 18.5,
+      "tags": [
+        "Muscle contraction",
+        "Actin and myosin",
+        "Sliding filament theory",
+        "ATP",
+        "Sarcomere",
+        "Excitation-contraction coupling",
+        "Biomechanics",
+        "Animal locomotion",
+        "Hydrostatic skeleton",
+        "Muscular hydrostat",
+        "Exoskeleton",
+        "Endoskeleton",
+        "Elastic energy storage",
+        "Gait mechanics",
+        "Insect flight",
+        "Stretch activation",
+        "Metabolic cost of transport",
+        "Biological scaling"
+      ]
+    },
+    {
+      "id": "007000",
+      "title": "How a Nerve Signal Travels",
+      "section": "neural_signaling",
+      "file": "007000-how-nerve-signals-travel.md",
+      "spoken_words": 2520,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 17.4,
+      "tags": [
+        "Nervous systems",
+        "Neural signaling",
+        "Membrane potential",
+        "Ion gradients",
+        "Sodium-potassium pump",
+        "Voltage-gated ion channels",
+        "Action potential",
+        "Refractory period",
+        "Squid giant axon",
+        "Hodgkin-Huxley model",
+        "Myelin",
+        "Saltatory conduction",
+        "Chemical synapse",
+        "Neurotransmitters",
+        "Calcium-dependent exocytosis",
+        "Graded potentials",
+        "Neural circuits",
+        "Reflex arcs",
+        "Octopus nervous system",
+        "Distributed motor control"
       ]
     }
   ]

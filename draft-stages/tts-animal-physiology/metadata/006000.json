@@ -1,0 +1,318 @@
+{
+  "schema_version": 1,
+  "lecture_id": "006000",
+  "transcript": "006000-what-muscles-pull-against.md",
+  "description": "Explains how ATP-powered molecular motors, calcium control, hydrostatic or rigid skeletons, tendons and elastic recovery generate animal movement, comparing worms, octopuses, insects, fish, birds and mammals.",
+  "tags": [
+    "Muscle contraction",
+    "Actin and myosin",
+    "Sliding filament theory",
+    "ATP",
+    "Sarcomere",
+    "Excitation-contraction coupling",
+    "Biomechanics",
+    "Animal locomotion",
+    "Hydrostatic skeleton",
+    "Muscular hydrostat",
+    "Exoskeleton",
+    "Endoskeleton",
+    "Elastic energy storage",
+    "Gait mechanics",
+    "Insect flight",
+    "Stretch activation",
+    "Metabolic cost of transport",
+    "Biological scaling"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Muscle physiology",
+      "Muscle contraction"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Muscle physiology",
+      "Actin and myosin"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Muscle physiology",
+      "Excitation-contraction coupling"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Biomechanics",
+      "Animal locomotion"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Biomechanics",
+      "Hydrostatic skeleton"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Biomechanics",
+      "Muscular hydrostat"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Biomechanics",
+      "Exoskeleton"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Biomechanics",
+      "Endoskeleton"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Biomechanics",
+      "Elastic energy storage"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Biomechanics",
+      "Gait mechanics"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Biomechanics",
+      "Biological scaling"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Comparative physiology",
+      "Insect flight"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Energetics",
+      "Metabolic cost of transport"
+    ],
+    [
+      "Science",
+      "Physics",
+      "Biomechanics",
+      "Animal locomotion"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Comparative physiology",
+      "Insect flight"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "ap-muscle-contraction",
+      "reason": "Sarcomeres and ATP/calcium-dependent muscle contraction."
+    },
+    {
+      "source_id": "ap-muscle-fibers",
+      "reason": "Oxidative and glycolytic muscle fiber tradeoffs."
+    },
+    {
+      "source_id": "ap-huxley-niedergerke1954",
+      "reason": "First 1954 experimental line of evidence for sliding filaments."
+    },
+    {
+      "source_id": "ap-huxley-hanson1954",
+      "reason": "Independent contemporaneous sliding-filament study and authorship."
+    },
+    {
+      "source_id": "ap-skeletons",
+      "reason": "Comparative skeletal architectures."
+    },
+    {
+      "source_id": "ap-hydrostatic-review2024",
+      "reason": "Earthworm hydrostatic locomotion."
+    },
+    {
+      "source_id": "ap-octopus-biomech2023",
+      "reason": "Muscular hydrostats and octopus biomechanics."
+    },
+    {
+      "source_id": "ap-gait-springs2011",
+      "reason": "Tendon energy storage and models of walking and running."
+    },
+    {
+      "source_id": "ap-locomotion2009",
+      "reason": "Whole-body dynamics and energetics."
+    },
+    {
+      "source_id": "ap-insect-flight2023",
+      "reason": "Stretch-activated asynchronous flight and intermediate physiological configurations."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "006000-e01",
+      "anchor": "In vertebrate skeletal muscle, thousands of repeating units called sarcomeres line up inside a fiber.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-muscle-contraction"
+      ],
+      "source_locator": "Sarcomere organization",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "006000-e02",
+      "anchor": "In 1954, Andrew Huxley and Rolf Niedergerke reported interference-microscopy observations of living muscle fibers while they changed length.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-huxley-niedergerke1954"
+      ],
+      "source_locator": "1954 muscle interference microscopy",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "006000-e03",
+      "anchor": "including contemporaneous work by Hugh Huxley and Jean Hanson.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-huxley-hanson1954"
+      ],
+      "source_locator": "Contemporaneous work and distinct authors",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "006000-e04",
+      "anchor": "A new molecule of ATP binding to the motor helps it detach from actin.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-muscle-contraction"
+      ],
+      "source_locator": "Actomyosin ATP cycle",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "006000-e05",
+      "anchor": "Calcium binds to a regulatory protein, troponin",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-muscle-contraction"
+      ],
+      "source_locator": "Excitation-contraction coupling",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "006000-e06",
+      "anchor": "Its body is a set of fluid-filled segments surrounded by muscular walls.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-hydrostatic-review2024"
+      ],
+      "source_locator": "Earthworm hydrostatic segments",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "006000-e07",
+      "anchor": "It operates as a muscular hydrostat:",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-octopus-biomech2023"
+      ],
+      "source_locator": "Cephalopod muscular hydrostat",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "006000-e08",
+      "anchor": "Muscles attached to interior surfaces pull on articulated elements.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-skeletons"
+      ],
+      "source_locator": "Arthropod exoskeletal leverage",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "006000-e09",
+      "anchor": "In some movements it stretches while muscle fibers produce force, then returns some stored elastic energy later in the cycle.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-gait-springs2011",
+        "ap-locomotion2009"
+      ],
+      "source_locator": "Elastic tendon energy return",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "006000-e10",
+      "anchor": "In an idealized walking gait, the body's center of mass moves over a relatively stiff supporting leg, resembling an inverted pendulum.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-gait-springs2011"
+      ],
+      "source_locator": "Walking and spring-mass models",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "006000-e11",
+      "anchor": "A comparative study published in 2023 examined the relationship between synchronous and asynchronous flight modes using physiology, evolution and physical models.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-insect-flight2023"
+      ],
+      "source_locator": "2023 flight mode study",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "006000-e12",
+      "anchor": "Many vertebrate muscles combine relatively slow, oxidative fibers with faster fibers that can generate high power for shorter intervals.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-muscle-fibers"
+      ],
+      "source_locator": "Fiber type energy and speed",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "006000-e13",
+      "anchor": "Ground-force plates measure external forces during walking and running.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-locomotion2009"
+      ],
+      "source_locator": "Locomotion mechanics measurement",
+      "audit_status": "source_checked"
+    }
+  ],
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "ATP, muscle cells, mechanical force, and energy are introduced in the narration. Prior respiration and digestion chapters can deepen the energetic context but are not required."
+    ],
+    "readiness_checks": [
+      "Why can a resting muscle consume ATP without producing useful shortening work?",
+      "How can a short lever arm trade muscle force for movement speed?",
+      "What must be measured to compare running economy with sprint acceleration?"
+    ]
+  }
+}

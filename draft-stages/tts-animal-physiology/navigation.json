@@ -8,7 +8,7 @@
       "categories": [
         "Science and nature"
       ],
-      "summary": "A coherent route through the first five physiological problems: stability, oxygen, circulation, water and nutrition. More chapters are planned without imposing a fixed course length.",
+      "summary": "An expanding path through regulation, oxygen exchange, circulation, water, nutrition, movement and neural signaling; each lecture stands on its own, and specialist routes remain optional.",
       "chapters": [
         {
           "title": "The Environment Inside an Animal",
@@ -38,6 +38,18 @@
           "title": "How Food Becomes an Animal",
           "lectures": [
             "005000"
+          ]
+        },
+        {
+          "title": "What Muscles Pull Against",
+          "lectures": [
+            "006000"
+          ]
+        },
+        {
+          "title": "How a Nerve Signal Travels",
+          "lectures": [
+            "007000"
           ]
         }
       ]
@@ -73,6 +85,22 @@
         "002000",
         "004000",
         "005000"
+      ]
+    },
+    {
+      "id": "movement-and-control",
+      "title": "How Animals Work · Movement and Control",
+      "role": "deep_dive",
+      "parent": "how-animals-work",
+      "summary": "How molecular force becomes locomotion, and how neuronal excitability and local circuits organize action.",
+      "tags": [
+        "Animal locomotion",
+        "Neural signaling",
+        "Comparative physiology"
+      ],
+      "lectures": [
+        "006000",
+        "007000"
       ]
     }
   ]

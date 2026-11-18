@@ -1,0 +1,312 @@
+{
+  "schema_version": 1,
+  "lecture_id": "007000",
+  "transcript": "007000-how-nerve-signals-travel.md",
+  "description": "Builds nerve impulse propagation from ion gradients and voltage-gated channels through the Hodgkin–Huxley squid experiments, then explains synapses, myelin, reflexes and distributed octopus motor control.",
+  "tags": [
+    "Nervous systems",
+    "Neural signaling",
+    "Membrane potential",
+    "Ion gradients",
+    "Sodium-potassium pump",
+    "Voltage-gated ion channels",
+    "Action potential",
+    "Refractory period",
+    "Squid giant axon",
+    "Hodgkin-Huxley model",
+    "Myelin",
+    "Saltatory conduction",
+    "Chemical synapse",
+    "Neurotransmitters",
+    "Calcium-dependent exocytosis",
+    "Graded potentials",
+    "Neural circuits",
+    "Reflex arcs",
+    "Octopus nervous system",
+    "Distributed motor control"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Nervous systems",
+      "Neural signaling"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Nervous systems",
+      "Membrane potential"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Nervous systems",
+      "Ion channels",
+      "Action potential"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Nervous systems",
+      "Ion gradients"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Nervous systems",
+      "Myelin",
+      "Saltatory conduction"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Nervous systems",
+      "Synapses",
+      "Chemical synapse"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Nervous systems",
+      "Synapses",
+      "Graded potentials"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Nervous systems",
+      "Neural circuits",
+      "Reflex arcs"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Nervous systems",
+      "Neural circuits",
+      "Distributed motor control"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Comparative physiology",
+      "Squid giant axon"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Comparative physiology",
+      "Octopus nervous system"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "History of physiology",
+      "Hodgkin-Huxley model"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Neuroscience",
+      "Cellular neurophysiology",
+      "Action potential"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Neuroscience",
+      "Synaptic transmission",
+      "Chemical synapse"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Neuroscience",
+      "Motor control",
+      "Distributed motor control"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "ap-action-potential",
+      "reason": "Electrical gradients, action potential phases, myelin and conduction."
+    },
+    {
+      "source_id": "ap-neuronal-synapses",
+      "reason": "Graded inputs, neurotransmitter release and synaptic function."
+    },
+    {
+      "source_id": "ap-hodgkin-huxley1952",
+      "reason": "Original conductance modeling and giant-axon experimental data."
+    },
+    {
+      "source_id": "ap-octopus-arm-control2023",
+      "reason": "Neural organization and evidence limits for octopus arm control."
+    },
+    {
+      "source_id": "ap-octopus-segmentation2025",
+      "reason": "Segmented cellular architecture of axial arm nerve cords."
+    },
+    {
+      "source_id": "ap-octopus-search2023",
+      "reason": "Sensory-feedback-dependent foraging experiments."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "007000-e01",
+      "anchor": "The membrane behaves in part like a capacitor",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-action-potential"
+      ],
+      "source_locator": "Membrane capacitance and charge separation",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "007000-e02",
+      "anchor": "the concentration of potassium is relatively high inside and sodium is relatively high outside.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-action-potential"
+      ],
+      "source_locator": "Resting ionic gradients",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "007000-e03",
+      "anchor": "three sodium ions out and two potassium ions in.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-action-potential"
+      ],
+      "source_locator": "Na/K ATPase transport stoichiometry",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "007000-e04",
+      "anchor": "A sufficiently strong local depolarization, however, can activate voltage-gated ion channels.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-action-potential"
+      ],
+      "source_locator": "Voltage dependent regenerative opening",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "007000-e05",
+      "anchor": "Sodium channels inactivate, reducing their contribution to inward current",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-action-potential",
+        "ap-hodgkin-huxley1952"
+      ],
+      "source_locator": "Inactivation and repolarization",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "007000-e06",
+      "anchor": "In the mid-twentieth century, Alan Hodgkin and Andrew Huxley used the giant axon of a squid",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-hodgkin-huxley1952"
+      ],
+      "source_locator": "Squid giant axon model organism",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "007000-e07",
+      "anchor": "They controlled membrane voltage and measured the currents that followed",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-hodgkin-huxley1952"
+      ],
+      "source_locator": "Voltage clamp and measured ionic currents",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "007000-e08",
+      "anchor": "Many vertebrate axons are wrapped in myelin",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-action-potential"
+      ],
+      "source_locator": "Myelinated conduction",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "007000-e09",
+      "anchor": "At many chemical synapses, the incoming electrical event opens voltage-gated calcium channels near the presynaptic terminal.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-neuronal-synapses"
+      ],
+      "source_locator": "Ca-dependent release at synapses",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "007000-e10",
+      "anchor": "Some synapses transmit current directly through gap junctions",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-neuronal-synapses"
+      ],
+      "source_locator": "Electrical versus chemical synapses",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "007000-e11",
+      "anchor": "A 2023 review of octopus arm control emphasizes that the division between central commands and peripheral control is still being investigated.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-octopus-arm-control2023"
+      ],
+      "source_locator": "2023 octopus review limits",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "007000-e12",
+      "anchor": "More recent anatomical work has described a segmental organization in the arm nerve cords",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-octopus-segmentation2025"
+      ],
+      "source_locator": "Octopus nerve cord segmentation",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "007000-e13",
+      "anchor": "Experimental tasks that restrict visual access and vary the location of food can reveal which movements depend on touch",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-octopus-search2023"
+      ],
+      "source_locator": "Visually occluded octopus arm foraging",
+      "audit_status": "source_checked"
+    }
+  ],
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Ions, cell membranes, ATP, voltage and muscle excitation are explained from first principles; movement lecture 006000 is a useful optional companion."
+    ],
+    "readiness_checks": [
+      "What maintains ionic gradients and what generates the rapid action potential?",
+      "Why does an action potential propagate without the same ions traveling the full length of an axon?",
+      "What can a study of a local octopus arm circuit establish, and what can it not establish?"
+    ]
+  }
+}
