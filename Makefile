@@ -44,6 +44,7 @@ TTS_FLAGS = $(if $(TTS_CONFIG),--tts-config $(call shell_quote,$(TTS_CONFIG))) \
             $(if $(TTS_SETTINGS),--tts-settings-json $(call shell_quote,$(TTS_SETTINGS)))
 PORT ?= 8001
 HOST ?= 0.0.0.0
+PLAYBACK_ONLY ?= 0
 AUDIO_TTS_PROFILE ?=
 AUDIO_TTS_ENDPOINT ?=
 SKIP_RENDER ?= 0
@@ -72,6 +73,7 @@ help:
 	@echo '  tts-experiment     compare original/previous/composite references with phrase-aligned visuals'
 	@echo '  list               list all presentations and transcript availability'
 	@echo '  serve              browse the indexed audio lecture library at /audio plus existing renders'
+	@echo '                     PLAYBACK_ONLY=1 serves existing audio with generation and cache clearing disabled'
 	@echo '                     AUDIO_TTS_PROFILE overrides reader default (public Breeze); AUDIO_TTS_ENDPOINT overrides its URL; TTS_CONFIG selects an ignored private profile config'
 	@echo '  operators          build the three accepted operator-foundation lectures'
 	@echo '  prerequisites      build the ordered prerequisite lectures and speech text'
@@ -214,4 +216,4 @@ distclean: clean
 
 # Seekable media library, HTML slides and PDFs; no Manim/TTS required.
 serve:
-	$(UV) run --isolated --extra serve python -m ailectures serve --repository . --host $(HOST) --port $(PORT) $(if $(AUDIO_TTS_PROFILE),--audio-tts-profile $(call shell_quote,$(AUDIO_TTS_PROFILE))) $(if $(AUDIO_TTS_ENDPOINT),--audio-tts-endpoint $(call shell_quote,$(AUDIO_TTS_ENDPOINT))) $(if $(TTS_CONFIG),--tts-config $(call shell_quote,$(TTS_CONFIG)))
+	$(UV) run --isolated --extra serve python -m ailectures serve $(if $(filter 1 true yes,$(PLAYBACK_ONLY)),--playback-only) --repository . --host $(HOST) --port $(PORT) $(if $(AUDIO_TTS_PROFILE),--audio-tts-profile $(call shell_quote,$(AUDIO_TTS_PROFILE))) $(if $(AUDIO_TTS_ENDPOINT),--audio-tts-endpoint $(call shell_quote,$(AUDIO_TTS_ENDPOINT))) $(if $(TTS_CONFIG),--tts-config $(call shell_quote,$(TTS_CONFIG)))

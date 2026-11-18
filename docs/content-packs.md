@@ -671,6 +671,23 @@ A bibliography-only revision can reuse unchanged speech. Edited speech cannot
 inherit an older recording as if it spoke the new words. Active players keep
 their chosen revision and immutable media URLs while the library refreshes.
 
+## Playback-only serving
+
+For a machine serving existing recordings without an inference service:
+
+```bash
+make serve PLAYBACK_ONLY=1
+# Or, with the standalone reader:
+python -m ailectures serve --playback-only
+```
+
+Alternatively set `playback_only = true` at the top level of `library.toml`
+and pass `--config /path/to/library.toml`. This hides generation and cache-clearing
+controls, rejects their API calls, disables the legacy production mount, and
+leaves queued generation jobs idle after a restart. Existing recordings, voice
+selection, listening progress and feedback stay available. The mode is explicit;
+a temporary TTS outage on a production server does not change its configuration.
+
 ## Prepare audio
 
 Lecture pages have one **Voice for playback and generation** selector. Voices
@@ -687,6 +704,13 @@ queue: 0 generates each next block when playback reaches it; 2 queues the curren
 block plus up to two following blocks. This preference is remembered on the device.
 **Cache whole lecture** prepares the selected voice without starting playback;
 **Stop generation** cancels unfinished work and retains completed blocks.
+**Clear this voice’s cache**, under **Audio blocks & generation**, retires the
+selected profile/voice’s recordings for this lecture at all generation speeds
+and forces fresh speech requests the next time you press Play or cache it.
+Stop active generation for that voice first. Other lectures and voices remain
+available. Old immutable recording URLs continue working for historical playback;
+the physical media and superseded scratch caches remain for offline garbage
+collection. This action does not immediately reclaim disk space.
 Play leaves an already queued whole-lecture preparation running; stop that
 preparation first if you want subsequent requests to generate individual blocks.
 Generation speed is under **Speech settings**. Collection pages

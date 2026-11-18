@@ -35,6 +35,11 @@ def main(argv=None):
     serve.add_argument("--poll-interval", type=float, default=2)
     serve.add_argument("--host", default="127.0.0.1")
     serve.add_argument("--port", type=int, default=8001)
+    serve.add_argument(
+        "--playback-only",
+        action="store_true",
+        help="Serve existing recordings; hide and disable TTS generation and cache clearing",
+    )
     serve.add_argument("--tts-config", type=Path)
     serve.add_argument("--audio-tts-profile")
     serve.add_argument("--audio-tts-endpoint")
@@ -151,6 +156,7 @@ def main(argv=None):
                 repository=repository,
                 discovery_roots=roots,
                 interval=args.poll_interval,
+                playback_only=args.playback_only or config.get("playback_only", False),
                 tts_config=tts_config,
                 tts_profile=args.audio_tts_profile,
                 tts_endpoint=args.audio_tts_endpoint,

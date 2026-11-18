@@ -208,6 +208,10 @@ export class LectureAudio {
       text: "Cache whole lecture",
       onclick: () => this.prepare(false),
     });
+    this.clearCache = el("button", {
+      type: "button", text: "Clear this voice’s cache", disabled: true,
+      onclick: () => this.clearVoiceCache(),
+    });
     this.stop = el("button", {
       type: "button",
       text: "Stop generation",
@@ -249,21 +253,25 @@ export class LectureAudio {
       store("blocks-ahead", Number(this.ahead.value));
       if (!this.player.audio.paused) this.queueAhead(this.player.index);
     };
+    this.generationQueueLink = el("a", { href: "/production#jobs", "data-nav": "", text: "View generation queue" });
+    this.speechSettings = el("details", {}, el("summary", { text: "Speech settings" }),
+        el("label", {}, "Generation speed", this.speed),
+        el("p", { class: "muted", text: "Changing generation speed selects a separate recording. Playback speed is available in the player below." }));
+    this.audioSummary = el("summary", { text: "Audio blocks & generation" });
     this.advanced = el("details", { class: "audio-tools" },
-      el("summary", { text: "Audio blocks & generation" }),
-      this.cache, this.stop,
-      el("a", { href: "/production#jobs", "data-nav": "", text: "View generation queue" }),
+      this.audioSummary,
+      this.cache, this.stop, this.clearCache,
+      this.generationQueueLink,
       el("div", { class: "filters" },
         el("label", { class: "check" }, this.continueBlocks, "Continue to next blocks"),
         el("label", {}, "Blocks ahead", this.ahead)),
       el("p", { class: "muted", text: "Complete prepared recordings play through by default. Turn off block continuation to study one passage. For missing audio, continuation and lookahead generate additional blocks only when you enable them." }),
       this.generations, this.blocks,
-      el("details", {}, el("summary", { text: "Speech settings" }),
-        el("label", {}, "Generation speed", this.speed),
-        el("p", { class: "muted", text: "Changing generation speed selects a separate recording. Playback speed is available in the player below." })),
+      this.speechSettings,
     );
+    this.voiceLabelText = document.createTextNode("Voice for playback and generation");
     this.root.append(
-      el("label", {}, "Voice for playback and generation", this.select),
+      el("label", {}, this.voiceLabelText, this.select),
       this.more,
       el(
         "div",
@@ -425,6 +433,14 @@ export class LectureAudio {
   }
   render() {
     this.voiceOptions();
+    const canGenerate = Boolean(this.data.tools_available && this.choice?.profile);
+    this.audioSummary.textContent = this.data.tools_available ? "Audio blocks & generation" : "Audio blocks";
+    this.voiceLabelText.textContent = this.data.tools_available ? "Voice for playback and generation" : "Voice for playback";
+    this.clearCache.hidden = this.cache.hidden = this.stop.hidden = !canGenerate;
+    this.clearCache.disabled = !canGenerate || this.submitting || this.clearing;
+    this.generations.hidden = !canGenerate;
+    this.generationQueueLink.hidden = !canGenerate;
+    this.speechSettings.hidden = !canGenerate;
     for (const option of this.select.options) {
       const choice = this.choices.find((c) => c.key === option.value);
       const { states, job, recording } = narratorInventory(
@@ -437,7 +453,7 @@ export class LectureAudio {
       option.textContent = `${choice.label} · ${count}/${states.length} generated${recording?.complete ? " · ready" : job && ["queued", "running"].includes(job.state) ? " · generating" : ""}`;
     }
     const { states, job } = this.inventory;
-    this.playButton.disabled = !this.choice;
+    this.playButton.disabled = !this.choice || (!canGenerate && !this.choice.recording_id);
     const wholeLectureActive =
       ["queued", "running"].includes(job?.state) &&
       job.requested_blocks === null;
@@ -450,11 +466,11 @@ export class LectureAudio {
     this.cache.disabled =
       !this.choice?.profile ||
       !this.data.tools_available ||
-      this.submitting ||
+      this.submitting || this.clearing ||
       wholeLectureActive;
     this.stop.disabled =
       !["queued", "running"].includes(job?.state) || this.stopping.has(job?.id);
-    this.select.disabled = !this.choices.length;
+    this.select.disabled = !this.choices.length || this.clearing;
     this.more.hidden = !this.choices.length;
     this.status.textContent = this.pending
       ? `Waiting for block ${this.pending.index + 1} in ${this.choice.label}. Playback will start when it is ready.${job?.error ? " · " + job.error : ""}`
@@ -655,8 +671,32 @@ export class LectureAudio {
     if (!blocks.length || blocks.every((index) => this.inventory.states[index] === "ready") || coversBlocks(job, blocks)) return;
     this.prepare(false, blocks);
   }
+  async clearVoiceCache() {
+    const choice = this.choice;
+    if (!choice?.profile || this.clearing || this.submitting) return;
+    if (!globalThis.confirm(`Clear cached audio for ${choice.voice} (${choice.profile}) in this lecture at all generation speeds? Other voices are kept. Historical media files remain available for later garbage collection. You can then generate fresh audio with the current title settings.`)) return;
+    this.clearing = true;
+    this.epoch++;
+    this.pending = null;
+    this.player.audio.pause();
+    this.render();
+    try {
+      await post("/api/library/production/clear-cache", {
+        lecture_id: this.row.id, revision: this.row.revision,
+        profile: choice.profile, voice: choice.voice,
+      });
+      this.row = await api("/api/library/lectures/" + encodeURIComponent(this.row.id));
+      this.views.clear();
+      this.jobs = (await api(this.jobsURL())).jobs;
+      await this.loadOptions();
+      if (this.disposed || !this.active()) return;
+      this.choose(false);
+      this.message("Voice cache cleared. Play or cache the lecture to generate fresh audio.");
+    } catch (error) { this.showError(error); }
+    finally { this.clearing = false; if (!this.disposed) this.render(); }
+  }
   async prepare(forPlayback, blocks = null) {
-    if (this.submitting) return;
+    if (this.submitting || this.clearing || !this.data.tools_available) return;
     const choice = this.choice;
     if (!choice?.profile) return;
     const epoch = this.epoch;
@@ -705,7 +745,7 @@ export class LectureAudio {
     }
   }
   async poll() {
-    if (this.polling) return;
+    if (this.polling || this.clearing) return;
     this.polling = true;
     const epoch = this.epoch;
     try {

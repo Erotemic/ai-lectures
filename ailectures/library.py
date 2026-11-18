@@ -36,9 +36,20 @@ class Library:
             db.execute(
                 "CREATE TABLE IF NOT EXISTS source_snapshots (release TEXT PRIMARY KEY, catalog TEXT NOT NULL)"
             )
+            db.execute(
+                "CREATE TABLE IF NOT EXISTS cleared_recordings (lecture TEXT, recording TEXT, PRIMARY KEY (lecture,recording))"
+            )
             self._saved_snapshots = {
                 row[0] for row in db.execute("SELECT release FROM source_snapshots")
             }
+
+    def clear_recordings(self, lecture_id, recordings):
+        # Immutable releases remain available to historical links and later GC.
+        with self.store.connect() as db:
+            db.executemany(
+                "INSERT OR IGNORE INTO cleared_recordings VALUES (?,?)",
+                [(lecture_id, r["id"]) for r in recordings],
+            )
 
     def snapshot(self, *, refresh=False, copy=True):
         """Reuse unchanged compositions; copy=False is for read-only callers."""
@@ -47,26 +58,46 @@ class Library:
                 self.store.reconcile(force=True)
             installed = self.store.snapshot(copy=False)
             sources = self.repository.snapshot(copy=False) if self.repository else {}
+            with self.store.connect() as db:
+                cleared = tuple(
+                    tuple(row)
+                    for row in db.execute(
+                        "SELECT lecture,recording FROM cleared_recordings ORDER BY lecture,recording"
+                    )
+                )
             key = (
+                cleared,
                 installed["generation"],
                 self.repository.change_token if self.repository else None,
                 tuple(self.store.errors),
                 tuple(self.repository.errors) if self.repository else (),
             )
             if key != self._snapshot_key:
-                self._snapshot_cache = self._compose(installed, sources)
+                self._snapshot_cache = self._compose(installed, sources, cleared)
                 self._snapshot_key = key
             return deepcopy(self._snapshot_cache) if copy else self._snapshot_cache
 
-    def _compose(self, installed, sources):
+    def _compose(self, installed, sources, cleared=()):
         result = deepcopy(installed)
+        hidden = set(cleared)
+        for row in [
+            *result["lectures"].values(),
+            *(
+                row
+                for rows in result.get("media_revisions", {}).values()
+                for row in rows
+            ),
+        ]:
+            row["recordings"] = [
+                r for r in row["recordings"] if (row["id"], r["id"]) not in hidden
+            ]
         for pack_id, pack in sources.items():
             # Composition replaces recordings/origin; authored fields stay
             # read-only, like the courses already shared with this snapshot.
             source_rows = {key: dict(row) for key, row in pack["lectures"].items()}
             for key, row in source_rows.items():
                 old = result["lectures"].get(key)
-                candidates = ([old] if old else []) + installed.get(
+                candidates = ([old] if old else []) + result.get(
                     "media_revisions", {}
                 ).get(key, [])
                 recordings = {
@@ -117,7 +148,11 @@ class Library:
             )
         result["generation"] = digest(
             {
-                "installed": installed["generation"],
+                "installed": (
+                    digest([installed["generation"], cleared])
+                    if cleared
+                    else installed["generation"]
+                ),
                 "sources": [p["release"] for p in result["packs"]],
             }
         )

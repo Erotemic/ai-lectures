@@ -496,3 +496,90 @@ def test_legacy_queued_requests_keep_mp3_while_new_requests_default_to_ogg(tmp_p
         recordings=library.snapshot()['lectures']['music:001000']['recordings']
         assert any(rec['generator']['output_format']=='ogg' and rec['generator']['title_policy'] for rec in recordings)
     finally:manager.close()
+
+
+def test_clear_voice_forces_fresh_synthesis_and_preserves_other_voices(tmp_path, monkeypatch):
+    library, pack, manifest, audio, config = setup_library(tmp_path, monkeypatch)
+    calls = []
+
+    def sender(text, settings, dest):
+        calls.append(settings.voice)
+        shutil.copyfile(audio, dest)
+
+    manager = manager_for(library, config, sender)
+    try:
+        original = finished(manager, manager.prepare('music:001000', 'test')['id'])
+        alternate = finished(manager, manager.prepare('music:001000', 'test', voice='am_echo')['id'])
+        fast = finished(manager, manager.prepare('music:001000', 'test', speed=1.1)['id'])
+        other_pack = source_pack(namespace='other')
+        export_release(other_pack, tmp_path / 'other')
+        library.store.install(tmp_path / 'other')
+        other = finished(manager, manager.prepare('other:001000', 'test')['id'])
+        row = library.snapshot()['lectures']['music:001000']
+        manager.clear_voice_cache(row['id'], 'test', 'af_alloy', revision=row['revision'])
+        recordings = Library(library.store.root).snapshot()['lectures'][row['id']]['recordings']
+        assert len(recordings) == 1 and recordings[0]['variant'] == alternate['variant']
+        with pytest.raises(ValueError, match='cleared'):
+            manager.retry(original['id'])
+        assert library.snapshot()['lectures']['other:001000']['recordings'][0]['variant'] == other['variant']
+        manager.close()
+        manager = manager_for(library, config, sender)
+        request = manager.prepare(row['id'], 'test')
+        assert request['id'] != original['id'] and request['variant'] != original['variant']
+        finished(manager, request['id'])
+        assert calls == ['af_alloy', 'am_echo', 'af_alloy', 'af_alloy', 'af_alloy']
+        recordings = library.snapshot()['lectures'][row['id']]['recordings']
+        assert len(recordings) == 2
+        # Cleared jobs cannot become the inventory for the fresh narrator choice.
+        assert {original['id'], fast['id']}.isdisjoint(job['id'] for job in manager.list())
+        assert manager.narrators(library.snapshot()['lectures'][row['id']])['choices'][0]['variant'] == request['variant']
+    finally:
+        manager.close()
+
+
+def test_clear_voice_rejects_active_generation_and_stale_lecture(tmp_path, monkeypatch):
+    library, pack, manifest, audio, config = setup_library(tmp_path, monkeypatch)
+    release = threading.Event()
+
+    def sender(text, settings, dest):
+        release.wait(3)
+        shutil.copyfile(audio, dest)
+
+    manager = manager_for(library, config, sender)
+    try:
+        manager.prepare('music:001000', 'test')
+        row = library.snapshot()['lectures']['music:001000']
+        with pytest.raises(ValueError, match='Stop generation'):
+            manager.clear_voice_cache(row['id'], 'test', 'af_alloy', revision=row['revision'])
+        with pytest.raises(ValueError, match='changed'):
+            manager.clear_voice_cache(row['id'], 'test', 'af_alloy', revision=digest('old'))
+    finally:
+        release.set()
+        manager.close()
+
+
+def test_playback_only_server_keeps_audio_and_does_not_resume_jobs(tmp_path, monkeypatch):
+    from starlette.testclient import TestClient
+    from ailectures.web import create_app
+    library, pack, manifest, audio, config = setup_library(tmp_path, monkeypatch)
+
+    def sender(text, settings, dest):
+        shutil.copyfile(audio, dest)
+
+    manager = manager_for(library, config, sender)
+    finished(manager, manager.prepare('music:001000', 'test')['id'])
+    manager.close()
+    # A queued job from a prior server must remain idle in playback-only mode.
+    old = manager.jobs.list()[0]
+    manager.jobs.enqueue([(digest('queued'), {**old['specification'], 'speed': 1.1})])
+    with TestClient(create_app(library.store.root, playback_only=True, tts_config=config)) as client:
+        profiles = client.get('/api/library/production').json()
+        assert profiles['playback_only'] and not profiles['profiles']
+        row = client.get('/api/library/lectures/music:001000').json()
+        assert client.get(row['recordings'][0]['segments'][0]['url']).status_code == 200
+        choices = client.get('/api/library/production/narrators', params={'lecture_id': row['id']}).json()
+        assert len(choices['choices']) == 1 and 'profile' not in choices['choices'][0]
+        for path in ['prepare', 'clear-cache', 'voices/register', 'jobs/'+old['id']+'/retry']:
+            assert client.post('/api/library/production/'+path, json={}).status_code == 403
+        assert client.get('/api/library/production/jobs').json() == {'jobs': []}
+    assert manager.jobs.get(digest('queued'))['state'] == 'queued'

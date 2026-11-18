@@ -335,6 +335,7 @@ class GenerationManager:
             raise ValueError("Invalid speech speed")
         profiles = self.profiles()
         choices = []
+        cache_epochs = self.jobs.cache_epochs()
         matched = set()
         pages = next((rec["pages"] for rec in row["recordings"]), [row["transcript"]])
         if profiles["profiles"]:
@@ -355,6 +356,9 @@ class GenerationManager:
                     )
                     variant = self.variant(
                         dict(
+                            cache_epoch=cache_epochs.get(
+                                digest([row["id"], profile["id"], voice])
+                            ),
                             profile=profile["id"],
                             voice=voice,
                             speed=speed,
@@ -511,8 +515,19 @@ class GenerationManager:
                 )
                 if blocks[-1] >= len(pages):
                     raise ValueError("Unknown audio block")
+            cache_epoch = self.jobs.cache_epoch(
+                self.jobs.cache_scope(
+                    dict(
+                        row=row,
+                        profile=profile,
+                        voice=voice,
+                        configuration=configuration,
+                    )
+                )
+            )
             job_id = digest(
                 {
+                    **({"cache_epoch": cache_epoch} if cache_epoch else {}),
                     "lecture": lecture_id,
                     "revision": row["revision"],
                     "configuration": configuration,
@@ -521,6 +536,7 @@ class GenerationManager:
                 }
             )
             specification = {
+                **({"cache_epoch": cache_epoch} if cache_epoch else {}),
                 "row": row,
                 "profile": profile,
                 "voice": voice,
@@ -545,6 +561,10 @@ class GenerationManager:
         from dkvis.presentation.tts import load_profiles
 
         spec = record["specification"]
+        if spec.get("cache_epoch") != self.jobs.cache_epoch(
+            self.jobs.cache_scope(spec)
+        ):
+            raise ValueError("This voice cache was cleared; start a new preparation")
         document = load_profiles(self.config)
         config, configuration = self._configuration(
             document, spec["profile"], spec["voice"], self.endpoint
@@ -574,14 +594,25 @@ class GenerationManager:
             if isinstance(authored,str):
                 try:
                     if extract_text(authored).strip() == spec['row']['transcript'].strip(): source = authored
-                except ValueError: pass
+                except ValueError:
+                    pass
         (sources / "000000-lecture.md").write_text(source)
         # Source revisions share request-addressed pages when speech inputs agree.
         cache = (
             self.library.store.root
             / "build-cache"
             / "speech"
-            / speech_cache_key(spec["row"]["id"], configuration)
+            / speech_cache_key(
+                spec["row"]["id"],
+                {
+                    **configuration,
+                    **(
+                        {"cache_epoch": spec["cache_epoch"]}
+                        if spec.get("cache_epoch")
+                        else {}
+                    ),
+                },
+            )
         )
         cache.mkdir(parents=True, exist_ok=True)
         legacy_cache = directory / "audio"
@@ -770,6 +801,11 @@ class GenerationManager:
             "narrator-"
             + digest(
                 {
+                    **(
+                        {"cache_epoch": spec["cache_epoch"]}
+                        if spec.get("cache_epoch")
+                        else {}
+                    ),
                     "profile": spec["profile"],
                     "voice": (
                         settings.voice
@@ -778,9 +814,9 @@ class GenerationManager:
                         or environment.get("DKVIS_AUDIO_TTS_VOICE")
                         or config["voice"]
                     ),
-                    "speed": settings.speed
-                    if settings
-                    else round(float(spec["speed"]), 3),
+                    "speed": (
+                        settings.speed if settings else round(float(spec["speed"]), 3)
+                    ),
                     "model": (
                         settings.model
                         if settings
@@ -826,7 +862,11 @@ class GenerationManager:
         }
 
     def list(self, lecture_id=None):
-        return [self._public(record) for record in self.jobs.list(lecture_id)]
+        return [
+            self._public(record)
+            for record in self.jobs.list(lecture_id)
+            if record["state"] != "cleared"
+        ]
 
     def tick(self):
         with self._lock:
@@ -965,7 +1005,15 @@ class GenerationManager:
         )
         recordings = [(row["id"], rec, files)]
         if previous:
-            old = json.loads(previous["catalog"])["lectures"].get(row["id"])
+            old = deepcopy(json.loads(previous["catalog"])["lectures"].get(row["id"]))
+            if old:
+                visible = {
+                    r["id"]
+                    for r in self.library.snapshot(copy=False)["lectures"]
+                    .get(row["id"], {})
+                    .get("recordings", [])
+                }
+                old["recordings"] = [r for r in old["recordings"] if r["id"] in visible]
             if old and old["spoken_sha256"] == row["spoken_sha256"]:
                 for existing in old["recordings"]:
                     if (
@@ -1023,6 +1071,53 @@ class GenerationManager:
         )
         with self.library.store.stage_install(directory) as staged:
             yield lambda: self.library.store.activate_install(staged)["release"]
+
+    def clear_voice_cache(self, lecture_id, profile, voice, *, revision):
+        from dkvis.presentation.tts import load_profiles
+
+        with self._lock:
+            row = self.library.snapshot(copy=False)["lectures"][lecture_id]
+            if row["revision"] != revision:
+                raise ValueError(
+                    "This lecture changed; reopen it before clearing audio"
+                )
+            if row.get("kind") != "audio":
+                raise ValueError("Select an audio lecture")
+            config, configuration = self._configuration(
+                load_profiles(self.config), profile, voice, self.endpoint
+            )
+            selected = (
+                voice
+                or configuration["environment"].get("DKVIS_AUDIO_TTS_VOICE")
+                or config["voice"]
+            )
+            default = next(
+                p["voice"] for p in self.profiles()["profiles"] if p["id"] == profile
+            )
+            recordings = [
+                r
+                for r in row["recordings"]
+                if (
+                    r.get("generator", {}).get("profile") == profile
+                    and r["generator"].get("voice") == selected
+                )
+                or (
+                    not r.get("generator")
+                    and r.get("label") == profile
+                    and selected == default
+                )
+            ]
+            scope = digest([lecture_id, profile, selected])
+            self.jobs.clear_voice(
+                scope,
+                uuid4().hex,
+                lambda: self.library.clear_recordings(lecture_id, recordings),
+            )
+            return {
+                "cleared_recordings": len(recordings),
+                "lecture_id": lecture_id,
+                "voice": selected,
+            }
 
     def cancel(self, job_id):
         # Persist first. The coordinator may be probing/copying many audio files

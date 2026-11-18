@@ -72,6 +72,7 @@ def create_app(
     tts_endpoint=None,
     legacy_factory=None,
     generation_manager=None,
+    playback_only=False,
     slide_companion_service=None,
     pins=None,
     excluded=(),
@@ -85,7 +86,9 @@ def create_app(
         excluded=excluded,
     )
     listeners = ListenerState(library.store.state)
-    legacy = LazyLegacy(legacy_factory) if legacy_factory else None
+    legacy = (
+        LazyLegacy(legacy_factory) if legacy_factory and not playback_only else None
+    )
     producer = generation_manager
     slide_service = slide_companion_service
     assets = LibraryAssets(directory=STATIC)
@@ -94,6 +97,11 @@ def create_app(
 
     def production():
         nonlocal producer
+        if playback_only:
+            raise HTTPException(
+                403,
+                "Audio generation and cache clearing are disabled on this playback-only server",
+            )
         if producer is None:
             from .production import GenerationManager
 
@@ -561,6 +569,15 @@ def create_app(
         return JSONResponse(result, status_code=201)
 
     def production_profiles(request):
+        if playback_only:
+            return JSONResponse(
+                {
+                    "profiles": [],
+                    "tools_available": False,
+                    "playback_only": True,
+                    "error": "Playback-only server: existing recordings are available; generation and cache clearing are disabled.",
+                }
+            )
         return JSONResponse(
             production().profiles(probe=request.query_params.get("probe", "1") != "0")
         )
@@ -573,6 +590,26 @@ def create_app(
             if release
             else library.snapshot(copy=False)["lectures"][key]
         )
+        if playback_only:
+            return JSONResponse(
+                dict(
+                    profiles=[],
+                    tools_available=False,
+                    playback_only=True,
+                    pages=next(
+                        (r["pages"] for r in row["recordings"]), [row["transcript"]]
+                    ),
+                    choices=[
+                        dict(
+                            key="recording:" + r["variant"],
+                            label=r.get("label") or r["variant"],
+                            recording_id=r["id"],
+                            recording_complete=r["complete"],
+                        )
+                        for r in row["recordings"]
+                    ],
+                )
+            )
         return JSONResponse(
             production().narrators(
                 row, speed=float(request.query_params.get("speed", 1))
@@ -629,7 +666,22 @@ def create_app(
             status_code=201,
         )
 
+    async def clear_voice_cache(request):
+        require_local_action(request)
+        manager = production()
+        payload = await body(request)
+        return JSONResponse(
+            await run_in_threadpool(
+                manager.clear_voice_cache,
+                qualified(payload["lecture_id"]),
+                payload["profile"],
+                payload.get("voice"),
+                revision=payload["revision"],
+            )
+        )
+
     async def prepare(request):
+        require_local_action(request)
         payload = await body(request)
         if payload.get("course_id") or payload.get("lecture_ids"):
             if payload.get("blocks") is not None or payload.get("base_recording_id"):
@@ -693,6 +745,8 @@ def create_app(
         )
 
     def jobs(request):
+        if playback_only:
+            return JSONResponse({"jobs": []})
         lecture_id = request.query_params.get("lecture_id")
         return JSONResponse(
             {"jobs": production().list(qualified(lecture_id) if lecture_id else None)}
@@ -735,7 +789,7 @@ def create_app(
         while True:
             try:
                 await run_in_threadpool(library.store.reconcile)
-                if producer is not None:
+                if producer is not None and not playback_only:
                     await run_in_threadpool(producer.tick)
             except (OSError, ValueError) as exc:
                 library.store.errors = [str(exc)]
@@ -746,7 +800,10 @@ def create_app(
         from .maintenance import media_lock
         with media_lock(library.store.root):
             # Inspect durable intent without importing renderers for an ordinary reader.
-            if (library.store.state / "production.sqlite3").exists():
+            if (
+                not playback_only
+                and (library.store.state / "production.sqlite3").exists()
+            ):
                 from .jobs import JobStore
 
                 if any(
@@ -830,6 +887,9 @@ def create_app(
         Route("/api/library/production/voices", production_voices),
         Route(
             "/api/library/production/voices/register", register_voice, methods=["POST"]
+        ),
+        Route(
+            "/api/library/production/clear-cache", clear_voice_cache, methods=["POST"]
         ),
         Route("/api/library/production/prepare", prepare, methods=["POST"]),
         Route("/api/library/production/jobs", jobs),

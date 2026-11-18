@@ -12,7 +12,7 @@ from pathlib import Path
 import sqlite3
 import time
 
-from .core import canonical, checksum
+from .core import canonical, checksum, digest
 
 
 class JobStore:
@@ -27,6 +27,9 @@ class JobStore:
                 retry_at REAL NOT NULL DEFAULT 0, owner TEXT, lease_until REAL,
                 published TEXT, error TEXT, inventory TEXT,
                 created_at REAL NOT NULL, updated_at REAL NOT NULL)""")
+            db.execute(
+                "CREATE TABLE IF NOT EXISTS cache_epochs (scope TEXT PRIMARY KEY, epoch TEXT NOT NULL)"
+            )
             if "requested_blocks" not in {
                 row[1] for row in db.execute("PRAGMA table_info(jobs)")
             }:
@@ -83,6 +86,14 @@ class JobStore:
             db.execute("BEGIN IMMEDIATE")
             for job_id, specification in specifications:
                 checksum(job_id)
+                epoch = db.execute(
+                    "SELECT epoch FROM cache_epochs WHERE scope=?",
+                    (self.cache_scope(specification),),
+                ).fetchone()
+                if specification.get("cache_epoch") != (epoch[0] if epoch else None):
+                    raise ValueError(
+                        "This voice cache was cleared; start a new preparation"
+                    )
                 data = canonical(specification).decode()
                 requested = canonical(blocks).decode() if blocks is not None else None
                 previous = db.execute(
@@ -131,6 +142,51 @@ class JobStore:
                                 "UPDATE jobs SET requested_blocks=?,published=NULL,updated_at=? WHERE id=?",
                                 (merged, now, job_id),
                             )
+
+    @staticmethod
+    def cache_scope(spec):
+        if "configuration" not in spec:
+            return None  # JobStore also supports non-speech work specifications.
+        config = spec["configuration"]
+        voice = (
+            spec.get("voice")
+            or config["environment"].get("DKVIS_AUDIO_TTS_VOICE")
+            or config["settings"]["voice"]
+        )
+        return digest([spec["row"]["id"], spec["profile"], voice])
+
+    def cache_epochs(self):
+        with self.connect() as db:
+            return dict(db.execute("SELECT scope,epoch FROM cache_epochs"))
+
+    def cache_epoch(self, scope):
+        with self.connect() as db:
+            row = db.execute(
+                "SELECT epoch FROM cache_epochs WHERE scope=?", (scope,)
+            ).fetchone()
+            return row[0] if row else None
+
+    def clear_voice(self, scope, epoch, callback):
+        """Fence enqueue/publication while retiring this voice's current cache."""
+        with self.connect() as db:
+            db.execute("BEGIN IMMEDIATE")
+            matching = [
+                self.decode(row)
+                for row in db.execute("SELECT * FROM jobs")
+                if self.cache_scope(self.decode(row)["specification"]) == scope
+            ]
+            if any(row["state"] in {"queued", "running"} for row in matching):
+                raise ValueError(
+                    "Stop generation for this lecture and voice before clearing its cache"
+                )
+            callback()
+            db.execute(
+                "INSERT OR REPLACE INTO cache_epochs VALUES (?,?)", (scope, epoch)
+            )
+            db.executemany(
+                "UPDATE jobs SET state='cleared',inventory=NULL,published=NULL WHERE id=?",
+                [(row["id"],) for row in matching],
+            )
 
     def claim(self, owner, *, limit=2, lease_seconds=60):
         now = time.time()
