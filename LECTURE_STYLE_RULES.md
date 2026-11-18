@@ -120,6 +120,13 @@ runtime target for historical portraits**.
 
 ## Editorial review and automated checks
 
+The user-supplied [prose review guide](docs/STYLE_GUIDE.md) is an optional second
+opinion for a specific passage. Use it selectively alongside these teaching
+priorities. AI authorship remains explicit: the purpose is clearer teaching
+and better prose, with no attempt to disguise where the content came from.
+A successful existing lecture does not need a style sweep, and the guide adds
+no word bans, scoring targets, or automatic substitutions.
+
 Read the narration as a whole. Ask whether its substance is sound, its flow
 serves its audience, its evidence is honest, and its form carries its meaning.
 If it works, leave it alone. If it fails, identify the passage and problem;

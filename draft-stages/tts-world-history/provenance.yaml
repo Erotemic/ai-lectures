@@ -59,3 +59,19 @@ chronology:
       and surviving-witness dates distinct; unknown origins remain undated. This revision
       authors only chronology metadata and does not claim authorship or revision of
       inherited narration, slides or teaching prerequisites.
+
+transcript:
+  revisions:
+  - date: '2026-11-18'
+    models:
+    - GPT-6 (Codex; weights/config variant unknown)
+    sources:
+    - 500000-shinobi-people-behind-the-ninja.md
+    - ../../docs/STYLE_GUIDE.md
+    scope: >-
+      Limited prose-review trial on lecture 500000 only. Remove one generic
+      praise sentence and replace one defensive editorial paragraph with a
+      direct account of the retelling mechanism. Preserve historical claims,
+      source criticism, narrative order, research companion and inherited
+      authorship. This records the local revision, not original authorship
+      of the lecture or the user-supplied review guide.
