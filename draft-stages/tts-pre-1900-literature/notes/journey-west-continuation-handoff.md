@@ -137,3 +137,12 @@ The retelling is complete through chapter 100; do not append an invented next ch
 Coordinate source ownership before writing shared catalogs. For a ZIP contribution, use the repository’s recoverable content-overlay workflow and conflict protection; do not overwrite a live pack with stale `track.json`, `navigation.json`, or source catalogs. No server change, TTS run, media build, or repository-wide test is needed. Focused checks should verify current IDs/files, spoken extraction, exact anchors, source resolution, measured counts, and automatic route membership.
 
 Updated by GPT-6 (exact runtime variant unavailable) for seven new independent English manuscripts 567000–573000, selected-witness chapters 94–100; manuscripts 566000 and earlier narration preserved. This handoff does not claim independent collation of the entire Chinese novel or authorship of inherited prior manuscripts.
+
+
+## Superseded scene-fragment archives
+
+The earlier `502000–527000` and `528000–559000` expanded overlays contained
+58 alternate short drafts for chapters 22–35. Their archives have been retired
+after checking the nine complete current manuscripts, `502000`–`510000`,
+against the chapter map above. The old draft numbers conflict with IDs now
+assigned to later chapters; the current 100-chapter route remains authoritative.
