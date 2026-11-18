@@ -605,7 +605,7 @@ def create_app(
             checksum(request.path_params["sha256"]),
         )
         return FileResponse(
-            path, media_type="audio/mpeg", headers={"Cache-Control": "no-store"}
+            path, media_type="audio/ogg" if path.suffix == ".ogg" else "audio/mpeg", headers={"Cache-Control": "no-store"}
         )
 
     def production_voices(request):

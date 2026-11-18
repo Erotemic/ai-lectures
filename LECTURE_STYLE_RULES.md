@@ -89,6 +89,12 @@ notation, diagrams, color, and other expressive visual devices. Do not rewrite
 visually readable mathematics into phonetic TTS spelling on a slide.
 Pronunciation adaptations belong only in synthesis input as needed.
 
+Spoken section titles should sound like titles, with measured, distinct delivery
+and a pause separating them from the surrounding prose. Preserve the distinction
+between a heading and a running sentence rather than rewriting titles as prose
+solely to accommodate TTS. Technical delivery mechanics belong in the production
+tools and authoring guide.
+
 Record bibliographic sources and source-backed historical claims in the
 track's metadata and companion notes. Attribution can also be spoken when it
 helps the listener. Anchors and IDs must match the actual text; a descriptive

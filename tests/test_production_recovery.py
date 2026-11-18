@@ -468,3 +468,31 @@ def test_feedback_revision_two_narrators_transfer_and_resume_roundtrip(
         assert (
             client.get(fresh["recordings"][0]["segments"][0]["url"]).status_code == 200
         )
+
+
+def test_legacy_queued_requests_keep_mp3_while_new_requests_default_to_ogg(tmp_path, monkeypatch):
+    from dkvis.presentation.tts import load_profiles
+    library, pack, manifest, audio, config = setup_library(tmp_path, monkeypatch)
+    _, configuration = GenerationManager._configuration(load_profiles(config),'test',None,None)
+    configuration['settings'].pop('output_format')
+    configuration['settings'].pop('reader_title_policy')
+    row=deepcopy(library.snapshot()['lectures']['music:001000']);row.pop('origin');row['recordings']=[]
+    specification=dict(row=row,configuration=configuration,profile='test',voice=None,speed=1)
+    job_id=digest('pre-reader-delivery-defaults')
+    JobStore(library.store.state).enqueue([(job_id,specification)])
+    manager=manager_for(library,config,lambda text,settings,dest:shutil.copyfile(audio,dest))
+    try:
+        manager.tick()
+        assert finished(manager,job_id)['state']=='ready'
+        old=library.snapshot()['lectures']['music:001000']['recordings'][0]
+        assert old['generator']['output_format']=='mp3'
+        assert old['generator']['title_policy'] is None
+        monkeypatch.setattr(manager, 'voices', lambda profile:dict(voices=['af_alloy'],registered=[]))
+        choice=manager.narrators(library.snapshot()['lectures']['music:001000'])['choices'][0]
+        assert choice['recording_id']==old['id']  # Existing playback does not trigger regeneration.
+        assert choice['output_format']=='ogg'  # New generation still uses the reader default.
+        request=manager.prepare('music:001000','test')
+        assert finished(manager,request['id'])['state']=='ready'
+        recordings=library.snapshot()['lectures']['music:001000']['recordings']
+        assert any(rec['generator']['output_format']=='ogg' and rec['generator']['title_policy'] for rec in recordings)
+    finally:manager.close()

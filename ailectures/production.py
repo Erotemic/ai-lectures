@@ -22,6 +22,7 @@ from uuid import uuid4
 from .core import digest, file_digest, write_json, finite
 from .packs import export_release, recording_id
 from .jobs import JobStore
+from .narration import TITLE_POLICY, speech_cache_key
 
 
 def audio_duration(path):
@@ -81,6 +82,8 @@ def recording_from_engine(
             "pagination": detail["pagination_version"],
             "page_chars": detail["page_chars"],
             "speech_speed": settings.speed,
+            "output_format": getattr(engine, "output_format", "mp3"),
+            "title_policy": TITLE_POLICY if getattr(engine, "title_handling", False) else None,
         },
     )
     files = {}
@@ -165,7 +168,7 @@ class GenerationManager:
                     {
                         "id": key,
                         "label": profile.get("display_name", key),
-                        "output_format": os.environ.get("DKVIS_AUDIO_OUTPUT_FORMAT") or profile.get("output_format", "mp3"),
+                        "output_format": os.environ.get("DKVIS_AUDIO_OUTPUT_FORMAT") or profile.get("output_format", "ogg"),
                         "voice": os.environ.get("DKVIS_AUDIO_TTS_VOICE")
                         or profile["voice"],
                         "model": os.environ.get("DKVIS_AUDIO_TTS_MODEL")
@@ -291,7 +294,10 @@ class GenerationManager:
         from dkvis.presentation.tts import resolve_profile
 
         config = resolve_profile(document, profile, {"voice": voice} if voice else None)
+        config = dict(config)
+        config['output_format'] = os.environ.get('DKVIS_AUDIO_OUTPUT_FORMAT') or config.get('output_format', 'ogg')
         relevant = {k: v for k, v in config.items() if k != "reference"}
+        relevant['reader_title_policy'] = TITLE_POLICY
         return config, {
             "settings": relevant,
             "reference": document["profiles"][profile].get("reference"),
@@ -378,14 +384,15 @@ class GenerationManager:
                     recordings.extend(legacy)
                     recording = max(
                         recordings,
-                        key=lambda r: (r["complete"], len(r["segments"])),
+                        key=lambda r: (r["complete"], len(r["segments"]), r["variant"] == variant),
                         default=None,
                     )
                     matched.update(r["id"] for r in recordings)
                     choices.append(
                         dict(
                             key=f"tts:{profile['id']}:{voice}",
-                            label=f"{profile['label']} · {labels.get(voice, voice)}",
+                            label=f"{profile['label']} · {labels.get(voice, voice)} · new audio: {'Ogg Opus' if configuration['settings']['output_format'] == 'ogg' else 'MP3'}",
+                            output_format=configuration["settings"]["output_format"],
                             profile=profile["id"],
                             profile_default=voice == profile["voice"],
                             voice=voice,
@@ -542,6 +549,15 @@ class GenerationManager:
         config, configuration = self._configuration(
             document, spec["profile"], spec["voice"], self.endpoint
         )
+        saved = spec["configuration"]["settings"]
+        title_handling = saved.get('reader_title_policy') == TITLE_POLICY
+        # Jobs queued before reader delivery defaults were explicit keep their
+        # old codec and sentence delivery, while all other settings stay guarded.
+        if 'output_format' not in saved:
+            configuration['settings'].pop('output_format', None)
+            config['output_format'] = 'mp3'
+        if 'reader_title_policy' not in saved:
+            configuration['settings'].pop('reader_title_policy', None)
         if configuration != spec["configuration"]:
             raise ValueError(
                 "Configured speech settings changed; start a new preparation with the revised settings"
@@ -551,17 +567,21 @@ class GenerationManager:
         )
         sources = directory / "source"
         sources.mkdir(parents=True, exist_ok=True)
-        (sources / "000000-lecture.md").write_text(
-            "# Lecture\n<!-- BEGIN SPOKEN LECTURE -->\n"
-            + spec["row"]["transcript"]
-            + "\n<!-- END SPOKEN LECTURE -->\n"
-        )
+        source = "# Lecture\n<!-- BEGIN SPOKEN LECTURE -->\n" + spec["row"]["transcript"] + "\n<!-- END SPOKEN LECTURE -->\n"
+        if title_handling:
+            from .core import extract_text
+            authored = spec['row'].get('source')
+            if isinstance(authored,str):
+                try:
+                    if extract_text(authored).strip() == spec['row']['transcript'].strip(): source = authored
+                except ValueError: pass
+        (sources / "000000-lecture.md").write_text(source)
         # Source revisions share request-addressed pages when speech inputs agree.
         cache = (
             self.library.store.root
             / "build-cache"
             / "speech"
-            / digest({"lecture": spec["row"]["id"], "configuration": configuration})
+            / speech_cache_key(spec["row"]["id"], configuration)
         )
         cache.mkdir(parents=True, exist_ok=True)
         legacy_cache = directory / "audio"
@@ -582,6 +602,8 @@ class GenerationManager:
             voice=spec["voice"],
             endpoint=self.endpoint,
             workers=1,
+            output_format=config["output_format"],
+            title_handling=title_handling,
         )
         settings = engine.settings(spec["voice"], spec["speed"])
         variant = self.variant(spec, settings)

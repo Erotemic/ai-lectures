@@ -23,6 +23,10 @@ preserve the route and search used to open a lecture. References, related routes
 complete original sequences, and recording preparation remain under Resources
 & connections.
 
+New web-generated recordings default to Ogg Opus. Spoken Markdown section titles
+receive isolated synthesis and pauses, with title-specific instructions on
+supported servers. Queued legacy jobs keep their original MP3 recipe.
+
 Selected-content deployment, stale-audio cleanup, Ogg Opus generation, and
 buffered playback are described in [the deployment and audio guide](../docs/deploying-selected-library.md).
 Packs can build a portable subset with its existing published audio; the CLI

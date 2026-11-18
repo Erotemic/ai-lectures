@@ -92,21 +92,53 @@ folders.
 
 # Ogg Opus for new recordings
 
-The reader can encode new audio as Ogg Opus, independently of the upstream TTS
-response format. Put this in the chosen profile in ignored `tts.local.toml`:
+New audio generated through the web UI defaults to **Ogg Opus**, with no command,
+environment variable, or extra API argument. The upstream TTS server can keep
+returning WAV; the reader encodes Opus at 64 kbit/s VBR. No TTS-server restart is
+needed. The reader server must load the updated code. Already queued jobs retain
+their original MP3 recipe and remain resumable; existing recordings are retained.
+
+Storage format participates in page cache and request identity, so Ogg and MP3
+never reuse mislabeled bytes. The narrator selector labels Ogg profiles, and
+both in-progress and published Ogg audio use `audio/ogg`. Existing MP3 files
+remain playable; pressing Play does not force regeneration. An explicit profile
+setting `output_format = "mp3"`
+can opt out; `DKVIS_AUDIO_OUTPUT_FORMAT` remains an explicit override. Direct
+Breeze API calls and the shared slide/video TTS tools retain their own transport
+and output settings.
+
+# Section-title delivery
+
+The reader preserves Markdown headings **inside the spoken region** as speech
+roles. It synthesizes those titles separately, with a quarter-second pause before
+and a half-second pause after, then joins the speech as PCM and encodes the page
+once. Body text retains its normal narration policy. This does not add spoken
+words, change pagination, or turn arbitrary short prose into a title. Headings
+outside the spoken region stay unspoken. Cached title pages have their own
+versioned delivery identity; ordinary body pages keep their normal request keys.
+
+For Breeze TTS 2, titles use its short-request instruction support. Paragraph
+narration remains on the plain-clone long-form policy, which rejects custom
+instructions. The title instruction asks for measured, self-contained heading
+delivery and is sent as a separate field, never prepended to the words being
+spoken. Servers without declared instruction support still receive isolated
+titles and pauses. Other providers can declare the supported field in their
+existing profile, for example:
 
 ```toml
 [profiles.YOUR_EXISTING_PROFILE]
-output_format = "ogg"
+title_instruction_field = "instructions"
+title_instruction = "Read this as a clearly distinguished section title. Speak only the supplied words."
+title_pause_before_seconds = 0.25
+title_pause_after_seconds = 0.5
 ```
 
-Alternatively set `DKVIS_AUDIO_OUTPUT_FORMAT=ogg` when starting the reader.
-Omitting the setting retains MP3. The server can continue returning WAV; the
-reader uses FFmpeg to encode Opus at 64 kbit/s VBR. Storage format participates
-in page cache identity, so Ogg and MP3 never reuse mislabeled bytes. Existing
-MP3 files remain playable and transferable. Changing a running job's effective
-configuration requires a new request; finish existing jobs before changing the
-setting. The narrator selector labels profiles configured for Ogg Opus.
+Supported fields are `instruction`, `instructions`, `voice_direction`, and
+`direction`. Use `title_instruction_field = "none"` to disable title prompts;
+isolation and pauses remain. The reader does not guess instruction support for
+unknown providers. Pauses are adjustable from zero to five seconds. These are
+delivery settings, independent of editorial preferences in
+`LECTURE_STYLE_RULES.md`.
 
 # Playback over slower connections
 

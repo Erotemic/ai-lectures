@@ -3,9 +3,9 @@
 profile = "crall-math-dk-v2-breeze-tts2"
 
 [defaults]
-# Reader storage encoding defaults to MP3. Set output_format = "ogg" here or
-# in a tts.local.toml profile to encode NEW reader audio as Ogg Opus.
-# This is separate from response_format (the upstream server transport).
+# New web-reader generation defaults to Ogg Opus; no extra setting is needed.
+# A profile may set output_format = "mp3" to opt out. This is separate from
+# response_format (the upstream server transport); slide production is unchanged.
 timeout_seconds = 600
 # Short, sentence-aware requests avoid the observed 60-second Breeze cutoff.
 max_chars = 420

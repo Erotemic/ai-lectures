@@ -174,6 +174,14 @@ def resolve_profile(document, selected=None, overrides=None):
     for key in ["endpoint", "model", "voice", "response_format"]:
         if not result.get(key):
             raise ValueError(f"Missing {key} in TTS profile {selected}.")
+    if result.get('title_instruction_field') not in {None, 'none', 'instruction', 'instructions', 'voice_direction', 'direction'}:
+        raise ValueError('Unknown title instruction field')
+    if 'title_instruction' in result and (not isinstance(result['title_instruction'], str) or not result['title_instruction'].strip()):
+        raise ValueError('Title instruction must be nonempty text')
+    for field in ('title_pause_before_seconds', 'title_pause_after_seconds'):
+        value = result.get(field, 0)
+        if type(value) not in (int, float) or not 0 <= value <= 5:
+            raise ValueError('Title pauses must be between zero and five seconds')
     if result.get("output_format", "mp3") not in {"mp3", "ogg"}:
         raise ValueError("TTS output_format must be mp3 or ogg (Opus)")
     if result["response_format"] not in {"wav", "mp3"}:

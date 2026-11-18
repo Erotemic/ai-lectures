@@ -158,7 +158,7 @@ def split_pages(text: str, *, max_chars: int = 600) -> list[str]:
 
 class AudioLectureLibrary:
     def __init__(self, *, sources=SOURCE_DIRECTORY, cache=None, endpoint=None,
-                 model=None, voice=None, profile=None, response_format=None, output_format=None, page_chars=None, workers=2,
+                 model=None, voice=None, profile=None, response_format=None, output_format=None, title_handling=False, page_chars=None, workers=2,
                  sender=None, config=None, document=None):
         from dkvis.presentation.tts import load_profiles, resolve_profile
 
@@ -187,6 +187,14 @@ class AudioLectureLibrary:
         self.default_voice = config['voice']
         self.response_format = config['response_format']
         self.output_format = config.get('output_format', 'mp3')
+        self.title_handling = title_handling
+        self._page_delivery = {}
+        self._target_delivery = {}
+        self.title_instruction_field = config.get('title_instruction_field', 'instruction' if self.model.lower() == 'breeze-tts2' else None)
+        if self.title_instruction_field == 'none': self.title_instruction_field = None
+        self.title_instruction = config.get('title_instruction')
+        self.title_pause_before = float(config.get('title_pause_before_seconds', 0.25))
+        self.title_pause_after = float(config.get('title_pause_after_seconds', 0.5))
         self.request_settings = config.get('request', {})
         # The Breeze server owns paragraph-oriented synthesis and joins when
         # this capability is enabled. Other speech backends retain the
@@ -311,6 +319,10 @@ class AudioLectureLibrary:
                       source_modified=path.stat().st_mtime,
                       estimated_minutes=round(len(spoken.split()) / 145, 1))
         if include_pages:
+            if self.title_handling:
+                from ailectures.narration import page_delivery
+                delivery = page_delivery(path.read_text(encoding='utf-8'), spoken, tuple(pages))
+                for index, parts in enumerate(delivery): self._page_delivery[(path.name[:6],index)] = (pages[index],parts)
             record['pages'] = pages
             record['transcript'] = spoken
             record['related_resources'] = self._related_resources(path.name[:6])
@@ -396,21 +408,33 @@ class AudioLectureLibrary:
                             max_audio_seconds=self.max_audio_seconds,
                             min_wps_limit=self.max_speech_words_per_second,
                             chunk_pause_seconds=self.chunk_pause_seconds)
+        planned_text, parts = self._page_delivery.get((lecture_id,page_index), (None, ()))
+        if self.title_handling and planned_text == text and parts:
+            from ailectures.narration import TITLE_POLICY, TITLE_INSTRUCTION
+            identity['delivery'] = dict(policy=TITLE_POLICY, parts=parts,
+                instruction_field=self.title_instruction_field,
+                instruction=self.title_instruction or TITLE_INSTRUCTION,
+                before=self.title_pause_before, after=self.title_pause_after)
+        else: parts = ()
         canonical = json.dumps(identity, sort_keys=True, ensure_ascii=False)
         digest = hashlib.sha256(canonical.encode('utf-8')).hexdigest()
-        return self.cache / lecture_id / f'{page_index:03d}-{digest}.{self.output_format}', text, digest
+        target = self.cache / lecture_id / f'{page_index:03d}-{digest}.{self.output_format}'
+        if parts: self._target_delivery[str(target)] = parts
+        return target, text, digest
 
-    def _encoding_args(self, destination):
-        if self.output_format == 'ogg':
+    def _encoding_args(self, destination, output_format=None):
+        selected = output_format or self.output_format
+        if selected == 'wav': return ['-codec:a','pcm_s16le','-f','wav',str(destination)]
+        if selected == 'ogg':
             return ['-codec:a', 'libopus', '-b:a', '64k', '-vbr', 'on', '-application', 'audio', '-f', 'ogg', str(destination)]
         return ['-codec:a', 'libmp3lame', '-q:a', '3', '-f', 'mp3', str(destination)]
 
-    def _send_speech(self, text: str, settings: SpeechSettings, destination: Path):
+    def _send_speech(self, text: str, settings: SpeechSettings, destination: Path, *, output_format=None):
         if self.server_long_form and settings.model.lower() == 'breeze-tts2':
-            self._send_server_paragraph_speech(text, settings, destination)
+            self._send_server_paragraph_speech(text, settings, destination, output_format=output_format)
             return
         if settings.model.lower() != 'kokoro':
-            self._send_bounded_speech(text, settings, destination)
+            self._send_bounded_speech(text, settings, destination, output_format=output_format)
             return
         from dkvis.presentation.pronunciation import speech_text
 
@@ -426,7 +450,7 @@ class AudioLectureLibrary:
             payload.update(speed=settings.speed, stream=False)
         request = urllib.request.Request(self.endpoint, data=json.dumps(payload).encode('utf-8'),
                                          headers={'Content-Type': 'application/json'}, method='POST')
-        needs_conversion = self.output_format != self.response_format or self.response_format == 'wav' or (not is_kokoro and settings.speed != 1.0)
+        needs_conversion = (output_format or self.output_format) != self.response_format or self.response_format == 'wav' or (not is_kokoro and settings.speed != 1.0)
         source = destination.with_name(destination.name + f'.source.{self.response_format}') if needs_conversion else destination
         try:
             try:
@@ -458,7 +482,7 @@ class AudioLectureLibrary:
                            '-vn']
                 if not is_kokoro and settings.speed != 1.0:
                     command += ['-filter:a', f'atempo={settings.speed:g}']
-                command += self._encoding_args(destination)
+                command += self._encoding_args(destination, output_format)
                 try:
                     result = subprocess.run(command, capture_output=True, text=True, timeout=90)
                 except (OSError, subprocess.TimeoutExpired) as exc:
@@ -545,11 +569,11 @@ class AudioLectureLibrary:
             raise
 
     def _send_server_paragraph_speech(self, text: str, settings: SpeechSettings,
-                                      destination: Path, task=None):
+                                      destination: Path, task=None, *, output_format=None):
         """Request complete page narration from a paragraph80-capable server.
 
         Always request PCM WAV, verify the advertised server policy and timing,
-        then produce an independently seekable MP3. A server that silently
+        then produce the selected output encoding (or PCM for assembly). A server that silently
         ignores the extension cannot be mistaken for a successful render.
         """
         from dkvis.presentation.media import duration
@@ -596,7 +620,7 @@ class AudioLectureLibrary:
             command = ['ffmpeg', '-nostdin', '-y', '-loglevel', 'error', '-i', str(source), '-vn']
             if settings.speed != 1.0:
                 command += ['-filter:a', f'atempo={settings.speed:g}']
-            command += self._encoding_args(destination)
+            command += self._encoding_args(destination, output_format)
             try:
                 result = subprocess.run(command, capture_output=True, text=True, timeout=180)
             except (OSError, subprocess.TimeoutExpired) as exc:
@@ -621,13 +645,13 @@ class AudioLectureLibrary:
         finally:
             source.unlink(missing_ok=True)
 
-    def _send_bounded_speech(self, text: str, settings: SpeechSettings, destination: Path):
+    def _send_bounded_speech(self, text: str, settings: SpeechSettings, destination: Path, *, output_format=None):
         """Assemble a whole page from verified, bounded local-TTS requests.
 
         Breeze's server may return a valid WAV that stops at its duration cap.
         A valid media file alone does not establish that the entire text was
         spoken. We reject capped/implausibly short requests and retry smaller
-        passages, then encode one browser-seekable MP3 with chunk timing marks.
+        passages, then encode one browser-seekable page with chunk timing marks.
         """
         from dkvis.presentation.audio import (
             text_chunks, check_audio_limit, check_audio_minimum,
@@ -761,7 +785,7 @@ class AudioLectureLibrary:
             filters.append(f'[joined]atempo={settings.speed:g}[out]' if settings.speed != 1.0
                            else '[joined]anull[out]')
             command = ['ffmpeg', '-nostdin', '-y', '-loglevel', 'error', *args,
-                       '-filter_complex', ';'.join(filters), '-map', '[out]'] + self._encoding_args(destination)
+                       '-filter_complex', ';'.join(filters), '-map', '[out]'] + self._encoding_args(destination, output_format)
             try:
                 result = subprocess.run(command, capture_output=True, text=True, timeout=180)
             except (OSError, subprocess.TimeoutExpired) as exc:
@@ -814,7 +838,11 @@ class AudioLectureLibrary:
         temporary = target.with_name(f'.{target.stem}-{uuid4().hex}.tmp')
         started = time.monotonic()
         try:
-            if self._native_sender and self.server_long_form:
+            parts = self._target_delivery.get(str(target))
+            if parts and self.title_handling and self._native_sender:
+                from dkvis.presentation.title_audio import render_title_page
+                render_title_page(self, parts, settings, temporary, task)
+            elif self._native_sender and self.server_long_form:
                 self._send_server_paragraph_speech(text, settings, temporary, task=task)
             else:
                 self._sender(text, settings, temporary)

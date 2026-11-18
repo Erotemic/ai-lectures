@@ -131,6 +131,17 @@ question first, then highlight and explain the correct answer. The transcript
 export includes the review scenes automatically. Keep their sections out of
 `lecture.md`; append `quiz_uses(count=4)` to the new deck's scene list.
 
+### Spoken section headings in the web reader
+
+Keep section headings as Markdown headings inside the spoken-region markers
+when they are intended to be spoken. The reader retains their role while keeping
+the same canonical words and page boundaries. New web generation defaults to Ogg
+Opus and isolates titles from body requests, with brief pauses around them.
+Breeze titles use its short-request instruction capability; body narration keeps
+its normal paragraph policy. Other providers receive title instructions only
+when their profile declares a supported field. Headings outside the spoken region
+remain display-only. See [delivery settings](../../docs/deploying-selected-library.md#section-title-delivery).
+
 ## Model attribution
 
 Each numbered lecture folder has `provenance.yaml`. Its `slides` and `transcript`
