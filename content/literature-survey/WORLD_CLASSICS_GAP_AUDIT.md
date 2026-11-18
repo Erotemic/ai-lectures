@@ -281,3 +281,12 @@ The source audit for these two has advanced from 'research before authoring' to 
 - **Next gaps:** return to importance-first rotations and audit other catalog packs before commissioning possible additional Mark Twain works or modernist fiction.
 
 **Current literature-survey index: 171 entries.**
+
+## Four major American novels: coverage completed (17 November 2026)
+
+- **Completed:** Stowe's *Uncle Tom's Cabin* (`174000` story; `175000` analysis), Hawthorne's *The Scarlet Letter* (`176000`–`177000`), Alcott's two-volume *Little Women* (`178000`–`179000`), and Salinger's *The Catcher in the Rye* (`180000`–`181000`). All pairs have one continuous original telling and an independent analytical recording.
+- **Primary/textual distinctions:** *Uncle Tom's Cabin* serialized 1851–52 and published in 1852; stage caricatures are not presented as Stowe's original text. *The Scarlet Letter* first edition 1850, Puritan Boston is a romanticized fictional setting and ambiguous signs remain unresolved. *Little Women* original Parts I and II 1868–69, both are required for whole-novel coverage. *The Catcher in the Rye* 1951 is still copyrighted; only publisher/library records and public plot synopsis were accessible in this pass. The Salinger manuscripts contain new nonimitative prose, no long copied passages, no unsupported clinical diagnosis.
+- **Critical limits:** The antislavery novel's historical force is not confused with freedom from racial stereotypes; Hester's mark is not reduced to one meaning; Alcott's fiction is not identical to her biography; Holden's testimony is not treated as transparent medical evidence.
+- **Next priorities:** Audit the pre-1900 and modern literature packs before authoring additional American classics to avoid duplicate lectures; continue importance-first geographic rotation of consequential works.
+
+**Current literature-survey index: 179 entries.**

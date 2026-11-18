@@ -452,3 +452,14 @@ The literature-survey track contains **169 indexed lectures**. Durations are des
 - The source companions include chapter-specific scene locators, edition and reception links, and claim anchors. Word counts are descriptive observations, not a length constraint; the plot fits one coherent recording.
 
 **Current literature-survey catalog: 171 indexed lectures.**
+
+## Four American novels: Stowe, Hawthorne, Alcott, Salinger (17 November 2026)
+
+- `174000`–`175000`: **Uncle Tom's Cabin**, one continuous complete story and a separate analysis of sentiment, law, Christian argument, resistance and racist later stage reception. Public-domain 1852 novel, distinct from later Tom Shows.
+- `176000`–`177000`: **The Scarlet Letter**, one continuous story and a separate analysis of public shame, hidden guilt, ambiguity and Hawthorne's historical romance. Control witness: UVA first edition, 1850.
+- `178000`–`179000`: **Little Women**, one complete story covering **both** original volumes (1868 and 1869) and a separate analysis of family, work, art, marriage and bereavement. It does not end at the first-volume homecoming.
+- `180000`–`181000`: **The Catcher in the Rye**, original-language critical story overview and analysis of grief, voice, the title fantasy, social class, gender and reception. The 1951 novel remains copyrighted; no long quotation, unauthorized text reproduction or distinctive-voice imitation. Publisher/library records and public episode summaries are identified, with full-text collation not claimed.
+
+All eight are **standalone coherent recordings**, with no duration-based splitting. The analysis pairs are a separate mode of listening. The metadata contains claim-level textual anchors, named witnesses, publication dates and geographical context; historical and interpretive limits are explicit.
+
+**Current literature-survey catalog: 179 indexed lectures.**
