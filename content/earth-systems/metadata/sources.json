@@ -315,6 +315,139 @@
       "kind": "government_science_explainer",
       "access": "free_no_login",
       "notes": "Pore pressure, slope saturation, lateral support and earthquake-triggered mass movement."
+    },
+    "es-enso-noaa-jetstream": {
+      "title": "NOAA JetStream, El Nino / Southern Oscillation (ENSO)",
+      "url": "https://www.noaa.gov/jetstream/tropical/enso",
+      "kind": "government_science_explainer",
+      "access": "free_no_login",
+      "notes": "Pacific mean state, upwelling, Tahiti-Darwin pressure, coastal naming, warm/cool ENSO phases."
+    },
+    "es-enso-bjerknes-1969": {
+      "title": "Jacob Bjerknes, Atmospheric Teleconnections from the Equatorial Pacific, Monthly Weather Review (1969)",
+      "url": "https://doi.org/10.1175/1520-0493(1969)097%3C0163:ATFTEP%3E2.3.CO;2",
+      "kind": "primary_research",
+      "access": "publisher_abstract_free",
+      "notes": "Original coupled Pacific SST/trade-wind/Southern Oscillation argument and remote winter circulation correlations."
+    },
+    "es-enso-wyrtki-1975": {
+      "title": "Klaus Wyrtki, El Nino--The Dynamic Response of the Equatorial Pacific Ocean to Atmospheric Forcing, Journal of Physical Oceanography (1975)",
+      "url": "https://doi.org/10.1175/1520-0485(1975)005%3C0572:ENTDRO%3E2.0.CO;2",
+      "kind": "primary_research",
+      "access": "publisher_abstract_free",
+      "notes": "Accumulated upper-ocean warm water, trade-wind relaxation and eastward Kelvin-wave hypothesis."
+    },
+    "es-enso-jin-1997": {
+      "title": "Fei-Fei Jin, An Equatorial Ocean Recharge Paradigm for ENSO. Part I: Conceptual Model, Journal of the Atmospheric Sciences (1997)",
+      "url": "https://doi.org/10.1175/1520-0469(1997)054%3C0811:AEORPF%3E2.0.CO;2",
+      "kind": "primary_research",
+      "access": "publisher_abstract_free",
+      "notes": "Recharge-discharge model with Bjerknes amplification and delayed oceanic heat-content response."
+    },
+    "es-enso-vialard-2025": {
+      "title": "Vialard et al., The El Nino Southern Oscillation (ENSO) Recharge Oscillator Conceptual Model: Achievements and Future Prospects, Reviews of Geophysics (2025)",
+      "url": "https://doi.org/10.1029/2024RG000843",
+      "kind": "scholarly_review",
+      "access": "free_no_login",
+      "notes": "Mean Pacific state, upwelling, equatorial waves, warm-water volume, seasonality, nonlinearities and event diversity."
+    },
+    "es-enso-noaa-overview": {
+      "title": "NOAA, Understanding El Nino and ENSO",
+      "url": "https://www.noaa.gov/understanding-el-nino",
+      "kind": "government_science_explainer",
+      "access": "free_no_login",
+      "notes": "Conditional regional rainfall and jet-stream impacts, ecological and US seasonal tendencies; not deterministic local forecasts."
+    },
+    "es-enso-noaa-indices": {
+      "title": "NOAA Physical Sciences Laboratory, ENSO index descriptions",
+      "url": "https://psl.noaa.gov/enso/",
+      "kind": "government_data_reference",
+      "access": "free_no_login",
+      "notes": "Region-specific indices: Niño 3.4, Southern Oscillation, ocean-atmosphere multivariate approaches."
+    },
+    "es-enso-ropelewski-1987": {
+      "title": "C. F. Ropelewski and M. S. Halpert, Global and Regional Scale Precipitation Patterns Associated with ENSO, Monthly Weather Review (1987)",
+      "url": "https://doi.org/10.1175/1520-0493(1987)115%3C1606:GARSPP%3E2.0.CO;2",
+      "kind": "primary_research",
+      "access": "publisher_abstract_free",
+      "notes": "Rainfall composites from more than 1,700 stations; identifies coherent yet probabilistic seasonal associations."
+    },
+    "es-enso-wallace-1981": {
+      "title": "John M. Wallace and David S. Gutzler, Teleconnections in the Geopotential Height Field during the Northern Hemisphere Winter, Monthly Weather Review (1981)",
+      "url": "https://doi.org/10.1175/1520-0493(1981)109%3C0784:TITGHF%3E2.0.CO;2",
+      "kind": "primary_research",
+      "access": "publisher_abstract_free",
+      "notes": "Empirical winter geopotential-height teleconnection patterns, including the Pacific-North American structure."
+    },
+    "es-enso-noaa-hurricanes-2026": {
+      "title": "NOAA Atlantic Oceanographic and Meteorological Laboratory, How does El Nino Impact Atlantic Hurricane Season? (2026)",
+      "url": "https://www.aoml.noaa.gov/how-does-el-nino-impact-atlantic-hurricane-season/",
+      "kind": "government_science_explainer",
+      "access": "free_no_login",
+      "notes": "Increased Atlantic tropical cyclone vertical wind shear in El Niño, with other factors affecting seasonal hurricane numbers."
+    },
+    "es-enso-noaa-soi": {
+      "title": "NOAA Climate Prediction Center, Southern Oscillation Index",
+      "url": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/ensocycle/soi.shtml",
+      "kind": "government_data_reference",
+      "access": "free_no_login",
+      "notes": "Standardized Tahiti-Darwin sea-level-pressure differences; negative SOI generally with El Niño, positive with La Niña."
+    },
+    "es-enso-noaa-roni-announcement": {
+      "title": "NOAA Climate Prediction Center, CPC adopts Relative Oceanic Nino Index (RONI) (February 2026)",
+      "url": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso/roni/announcement.php",
+      "kind": "government_method_announcement",
+      "access": "free_no_login",
+      "notes": "Date and rationale of CPC shift from traditional ONI to RONI."
+    },
+    "es-enso-noaa-roni-method": {
+      "title": "NOAA Climate Prediction Center, Relative Oceanic Nino Index information circular (May 2026)",
+      "url": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso/roni/pdf/roni-info-may-2026.pdf",
+      "kind": "government_method_reference",
+      "access": "free_no_login",
+      "notes": "RONI calculation: subtract global tropical SST anomaly and normalize variance; same + or - 0.5C thresholds and historical duration criterion."
+    },
+    "es-enso-noaa-roni-table": {
+      "title": "NOAA Climate Prediction Center, RONI historical ENSO episode table (as of November 2026)",
+      "url": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso/roni/",
+      "kind": "government_data_reference",
+      "access": "free_no_login",
+      "notes": "Current RONI data set, 5 overlapping-season historic criterion and cautions about provisional recent values."
+    },
+    "es-enso-tao-history": {
+      "title": "NOAA PMEL, McPhaden et al., The Tropical Ocean--Global Atmosphere observing system: A decade of progress, JGR (1998)",
+      "url": "https://www.pmel.noaa.gov/pubs/outstand/mcph1720/app-b.shtml",
+      "kind": "primary_research",
+      "access": "free_no_login",
+      "notes": "Historical background and moored subsurface ocean observing systems, including TAO."
+    },
+    "es-enso-tao-review": {
+      "title": "Tropical Ocean Observations for Weather and Climate: A Decadal Overview of the Global Tropical Moored Buoy Array, Oceanography (2023)",
+      "url": "https://tos.org/oceanography/article/tropical-ocean-observations-for-weather-and-climate-a-decadal-overview-of-the-global-tropical-moored-buoy-array",
+      "kind": "scholarly_review",
+      "access": "free_no_login",
+      "notes": "TAO started 1984, completed 1994, became TAO/TRITON in 2000, ocean sensor data in ENSO observations."
+    },
+    "es-enso-zhu-2021": {
+      "title": "Zhu et al., Roles of TAO/TRITON and Argo in Tropical Pacific Observing Systems: An OSSE Study for Multiple Time Scale Variability, Journal of Climate (2021)",
+      "url": "https://journals.ametsoc.org/view/journals/clim/34/16/JCLI-D-20-0951.1.xml",
+      "kind": "primary_research",
+      "access": "publisher_abstract_free",
+      "notes": "Value of subsurface observation and assimilation for tropical Pacific climate analyses."
+    },
+    "es-enso-noaa-forecast-skill-2025": {
+      "title": "NOAA Climate.gov, How good have models been at predicting ENSO in the 21st century? (2025)",
+      "url": "https://prod-01-asg-www-climate.woc.noaa.gov/news-features/blogs/enso/how-good-have-models-been-predicting-enso-21st-century",
+      "kind": "government_research_explainer",
+      "access": "free_no_login",
+      "notes": "Comparison of real-time dynamical and statistical seasonal forecasts from 2002 to 2023, spring predictability barrier and evaluation methodology."
+    },
+    "es-enso-noaa-forecast-2026": {
+      "title": "NOAA Climate Prediction Center, Official ENSO Probabilities (November 2026)",
+      "url": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso/roni/probabilities/",
+      "kind": "government_operational_reference",
+      "access": "free_no_login",
+      "notes": "Dated example of ensemble probabilistic seasonal outlook; does not provide timeless specific phase forecasts."
     }
   }
 }

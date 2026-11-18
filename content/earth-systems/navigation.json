@@ -8,7 +8,7 @@
       "categories": [
         "Science and nature"
       ],
-      "summary": "A connected seven-lecture introduction to Earth energy, atmosphere and ocean, water, carbon, ice and the moving landscape, with observation-based cases and supporting companions.",
+      "summary": "A connected ten-lecture study of energy, air, water, oceans, carbon, ice and landscapes, ending with coupled Pacific variability, its global teleconnections and seasonal forecasting.",
       "chapters": [
         {
           "title": "Earth Has an Energy Budget: Light In, Heat Out",
@@ -50,6 +50,24 @@
           "title": "The Landscape Is Moving: Weathering, Rivers, and the Making of Relief",
           "lectures": [
             "007000"
+          ]
+        },
+        {
+          "title": "The Pacific Changes Its Mind: El Niño, La Niña, and the Ocean-Atmosphere Oscillation",
+          "lectures": [
+            "008000"
+          ]
+        },
+        {
+          "title": "When Pacific Rain Moves the Jet Stream: The Distant Reach of ENSO",
+          "lectures": [
+            "009000"
+          ]
+        },
+        {
+          "title": "How to Forecast an Ocean: Measuring ENSO and Living With Uncertainty",
+          "lectures": [
+            "010000"
           ]
         }
       ]
@@ -156,6 +174,41 @@
         "003000",
         "004000",
         "006000"
+      ]
+    },
+    {
+      "id": "pacific-enso",
+      "title": "Earth as a System · Ocean, Atmosphere, ENSO",
+      "role": "deep_dive",
+      "parent": "earth-as-a-system",
+      "summary": "From the Pacific mean state and Bjerknes coupling to atmospheric teleconnections and probabilistic seasonal prediction.",
+      "tags": [
+        "El Niño-Southern Oscillation",
+        "Atmospheric teleconnections",
+        "ENSO prediction"
+      ],
+      "lectures": [
+        "004000",
+        "008000",
+        "009000",
+        "010000"
+      ]
+    },
+    {
+      "id": "enso-mechanism-and-prediction",
+      "title": "Earth as a System · The Three ENSO Lectures",
+      "role": "deep_dive",
+      "parent": "earth-as-a-system",
+      "summary": "A focused sequence on ENSO dynamics, the distant reach of tropical convection, and observation-based seasonal forecasts.",
+      "tags": [
+        "El Niño",
+        "La Niña",
+        "Forecast uncertainty"
+      ],
+      "lectures": [
+        "008000",
+        "009000",
+        "010000"
       ]
     }
   ]

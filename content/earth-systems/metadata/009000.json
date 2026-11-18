@@ -1,0 +1,404 @@
+{
+  "schema_version": 1,
+  "lecture_id": "009000",
+  "transcript": "009000-when-pacific-rain-moves-the-jet-stream.md",
+  "description": "Follows anomalous Pacific tropical convection through latent heating and atmospheric waves to seasonal rain and storm-track odds in the Americas, Australia, Indonesia, India and the Atlantic.",
+  "tags": [
+    "ENSO teleconnections",
+    "Atmospheric bridge",
+    "Tropical convective heating",
+    "Walker circulation",
+    "Atmospheric Rossby waves",
+    "Jet stream displacement",
+    "Storm tracks",
+    "Pacific-North American pattern",
+    "Seasonal rainfall",
+    "Seasonal climate anomalies",
+    "Drought risk",
+    "Flood risk",
+    "ENSO and Indian monsoon",
+    "ENSO and Australian rainfall",
+    "ENSO and Atlantic hurricanes",
+    "Vertical wind shear",
+    "Observational composites",
+    "Gilbert Walker",
+    "Ropelewski and Halpert",
+    "Conditional probability",
+    "ENSO event diversity"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Earth science",
+      "Climate dynamics",
+      "ENSO",
+      "Atmospheric teleconnections"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Climate dynamics",
+      "ENSO",
+      "ENSO event diversity"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Atmospheric science",
+      "Deep convection",
+      "Latent heating"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Atmospheric science",
+      "Large-scale circulation",
+      "Walker circulation"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Atmospheric science",
+      "Planetary waves",
+      "Rossby waves"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Atmospheric science",
+      "Jet streams",
+      "Pacific jet"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Atmospheric science",
+      "Storm tracks",
+      "ENSO storm-track anomalies"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Climate dynamics",
+      "Teleconnection patterns",
+      "Pacific-North American pattern"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Climatology",
+      "Precipitation patterns",
+      "Rainfall composites"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Climatology",
+      "Climate hazards",
+      "Drought risk"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Climatology",
+      "Climate hazards",
+      "Flood risk"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Climatology",
+      "Monsoons",
+      "Indian summer monsoon"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Climatology",
+      "Tropical cyclones",
+      "Atlantic vertical wind shear"
+    ],
+    [
+      "Science",
+      "Statistics",
+      "Climate science",
+      "Conditional associations"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "History of science",
+      "Global pressure and rainfall records"
+    ],
+    [
+      "Place: Asia",
+      "Place: Indonesia"
+    ],
+    [
+      "Place: Oceania",
+      "Place: Australia"
+    ],
+    [
+      "Place: South America",
+      "Place: Peru"
+    ],
+    [
+      "Place: South America",
+      "Place: Ecuador"
+    ],
+    [
+      "Place: Asia",
+      "Place: India"
+    ],
+    [
+      "Place: North America",
+      "Place: United States",
+      "Place: Southern United States"
+    ],
+    [
+      "Place: Pacific Ocean",
+      "Place: North Pacific Ocean"
+    ],
+    [
+      "Place: Atlantic Ocean"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "es-enso-bjerknes-1969",
+      "reason": "Original coupled Pacific SST/trade-wind/Southern Oscillation argument and remote winter circulation correlations."
+    },
+    {
+      "source_id": "es-enso-ropelewski-1987",
+      "reason": "Rainfall composites from more than 1,700 stations; identifies coherent yet probabilistic seasonal associations."
+    },
+    {
+      "source_id": "es-enso-wallace-1981",
+      "reason": "Empirical winter geopotential-height teleconnection patterns, including the Pacific-North American structure."
+    },
+    {
+      "source_id": "es-enso-noaa-overview",
+      "reason": "Conditional regional rainfall and jet-stream impacts, ecological and US seasonal tendencies; not deterministic local forecasts."
+    },
+    {
+      "source_id": "es-enso-noaa-hurricanes-2026",
+      "reason": "Increased Atlantic tropical cyclone vertical wind shear in El Niño, with other factors affecting seasonal hurricane numbers."
+    },
+    {
+      "source_id": "es-enso-noaa-indices",
+      "reason": "Region-specific indices: Niño 3.4, Southern Oscillation, ocean-atmosphere multivariate approaches."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "009000-e01",
+      "anchor": "A shift in the place where air rises can change winds, pressure and the pathways available to storms",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-enso-bjerknes-1969",
+        "es-enso-noaa-overview"
+      ],
+      "source_locator": "Distant response to changing tropical heating.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "009000-e02",
+      "anchor": "the location of deep convection",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-enso-vialard-2025"
+      ],
+      "source_locator": "Tropical convection longitude changes during ENSO.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "009000-e03",
+      "anchor": "Changes in vorticity and the latitude-dependent effect of Earth's rotation support Rossby waves",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-enso-wallace-1981"
+      ],
+      "source_locator": "Planetary wave teleconnection physical context.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "009000-e04",
+      "anchor": "The response depends on where the heating occurs and on the preexisting jets",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-enso-vialard-2025",
+        "es-enso-wallace-1981"
+      ],
+      "source_locator": "State- and longitude-dependent response.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "009000-e05",
+      "anchor": "Over the North Pacific, changes in the large-scale circulation can shift or alter the subtropical jet stream",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-enso-noaa-overview",
+        "es-enso-bjerknes-1969"
+      ],
+      "source_locator": "North Pacific jet response.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "009000-e06",
+      "anchor": "El Niño has often been associated with a more active or more southerly Pacific storm track",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-enso-noaa-overview"
+      ],
+      "source_locator": "North American winter pattern tendencies.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "009000-e07",
+      "anchor": "La Niña frequently tilts these odds in the other direction",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-enso-noaa-overview"
+      ],
+      "source_locator": "Opposite sign conditional seasonal tendency.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "009000-e08",
+      "anchor": "parts of Indonesia and Australia are more likely to experience suppressed rainfall",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-enso-ropelewski-1987",
+        "es-enso-noaa-overview"
+      ],
+      "source_locator": "Maritime Continent and Australia precipitation association.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "009000-e09",
+      "anchor": "Along the Pacific coast of tropical South America",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-enso-noaa-jetstream",
+        "es-enso-noaa-overview"
+      ],
+      "source_locator": "Peru/Ecuador rainfall and eastern tropical Pacific conditions.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "009000-e10",
+      "anchor": "ENSO can influence the monsoon",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-enso-ropelewski-1987"
+      ],
+      "source_locator": "Indian subcontinent seasonal association and limitations.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "009000-e11",
+      "anchor": "El Niño often promotes atmospheric patterns that increase vertical wind shear",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-enso-noaa-hurricanes-2026"
+      ],
+      "source_locator": "Atlantic hurricane region wind shear mechanism.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "009000-e12",
+      "anchor": "Gilbert Walker and collaborators studied large-scale fluctuations in air pressure",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-enso-ropelewski-1987"
+      ],
+      "source_locator": "Documented history of Walker and Bliss studies.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "009000-e13",
+      "anchor": "In 1969 Jacob Bjerknes studied how tropical Pacific temperature anomalies related to changes in winter atmospheric circulation",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-enso-bjerknes-1969"
+      ],
+      "source_locator": "Original paper abstract.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "009000-e14",
+      "anchor": "In 1987 Chester Ropelewski and Michael Halpert analyzed monthly rainfall records from more than seventeen hundred stations",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-enso-ropelewski-1987"
+      ],
+      "source_locator": "Station count and seasonal composite methodology.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "009000-e15",
+      "anchor": "A recurring problem is that correlations are conditional",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-enso-ropelewski-1987",
+        "es-enso-noaa-overview"
+      ],
+      "source_locator": "Regional season-dependent occurrence frequency.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "009000-e16",
+      "anchor": "two El Niño episodes with similar central-Pacific temperature indices may have distinct effects",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-enso-vialard-2025"
+      ],
+      "source_locator": "ENSO diversity and heating placement.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "009000-e17",
+      "anchor": "A season can be wetter than average because rain falls on more days",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-enso-noaa-overview"
+      ],
+      "source_locator": "Separation of seasonal mean and local storms.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "009000-e18",
+      "anchor": "A water manager may use seasonal odds to consider several possible reservoir inflows",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-enso-noaa-overview"
+      ],
+      "source_locator": "Forecast interpretation, not historical attribution of a decision.",
+      "audit_status": "source_checked"
+    }
+  ],
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Introduces latent-heat release, atmospheric Rossby waves, seasonal composites and probabilistic impact statements without assumed meteorological training."
+    ],
+    "readiness_checks": [
+      "How can relocated convection force a distant Rossby-wave pattern?",
+      "Why do two El Niño events with the same Niño 3.4 value produce different regional impacts?",
+      "Which mechanisms link ENSO and Atlantic hurricane statistics?",
+      "What does a seasonal composite tell a water manager that it cannot tell a daily forecaster?",
+      "How can exposure turn an altered rainfall probability into a disaster?"
+    ]
+  },
+  "places": [
+    "Indonesia",
+    "Australia",
+    "Peru",
+    "Ecuador",
+    "India",
+    "Southern United States",
+    "North Pacific Ocean",
+    "Atlantic Ocean"
+  ]
+}

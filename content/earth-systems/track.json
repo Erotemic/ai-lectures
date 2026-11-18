@@ -1,7 +1,7 @@
 {
   "id": "earth-systems",
   "title": "Earth as a System: Air, Water, Ocean, and Climate",
-  "summary": "Mechanistic audio-first Earth science linking radiation, air, hydrology and ocean circulation to carbon reservoirs, changing ice and landscapes. Distinguishes measured stocks and fluxes, modeled dynamics, and scientific uncertainties across timescales.",
+  "summary": "Mechanistic audio-first Earth science linking radiation, air, hydrology and ocean circulation to carbon, ice, landscapes, and the El Niño-Southern Oscillation. Explains feedbacks and observations while distinguishing forecasts of climate tendencies from certain local weather outcomes.",
   "categories": [
     "Science and nature"
   ],
@@ -43,7 +43,10 @@
     "ocean_circulation",
     "carbon_cycle",
     "cryosphere",
-    "landscape_dynamics"
+    "landscape_dynamics",
+    "enso_dynamics",
+    "enso_teleconnections",
+    "enso_observation_and_prediction"
   ],
   "lectures": [
     {
@@ -177,6 +180,66 @@
         "Sediment transport",
         "Suspended load",
         "Bedload"
+      ]
+    },
+    {
+      "id": "008000",
+      "title": "The Pacific Changes Its Mind: El Niño, La Niña, and the Ocean-Atmosphere Oscillation",
+      "section": "enso_dynamics",
+      "file": "008000-the-pacific-changes-its-mind.md",
+      "spoken_words": 2159,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 14.9,
+      "tags": [
+        "El Niño",
+        "La Niña",
+        "El Niño-Southern Oscillation",
+        "ENSO dynamics",
+        "Trade winds",
+        "Walker circulation",
+        "Bjerknes feedback",
+        "Pacific warm pool",
+        "Cold tongue"
+      ]
+    },
+    {
+      "id": "009000",
+      "title": "When Pacific Rain Moves the Jet Stream: The Distant Reach of ENSO",
+      "section": "enso_teleconnections",
+      "file": "009000-when-pacific-rain-moves-the-jet-stream.md",
+      "spoken_words": 2096,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 14.5,
+      "tags": [
+        "ENSO teleconnections",
+        "Atmospheric bridge",
+        "Tropical convective heating",
+        "Walker circulation",
+        "Atmospheric Rossby waves",
+        "Jet stream displacement",
+        "Storm tracks",
+        "Pacific-North American pattern",
+        "Seasonal rainfall"
+      ]
+    },
+    {
+      "id": "010000",
+      "title": "How to Forecast an Ocean: Measuring ENSO and Living With Uncertainty",
+      "section": "enso_observation_and_prediction",
+      "file": "010000-how-to-forecast-an-ocean.md",
+      "spoken_words": 2141,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 14.8,
+      "tags": [
+        "ENSO prediction",
+        "ENSO monitoring",
+        "Niño 3.4",
+        "Oceanic Niño Index",
+        "Relative Oceanic Niño Index",
+        "RONI",
+        "Southern Oscillation Index",
+        "Tahiti-Darwin pressure",
+        "ERSST"
       ]
     }
   ]

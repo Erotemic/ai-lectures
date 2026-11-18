@@ -1,0 +1,393 @@
+{
+  "schema_version": 1,
+  "lecture_id": "008000",
+  "transcript": "008000-the-pacific-changes-its-mind.md",
+  "description": "Explains the east-west Pacific temperature gradient, thermocline tilt, Walker circulation, Bjerknes feedback, equatorial Kelvin waves, recharge and discharge, and why ENSO phases recur irregularly.",
+  "tags": [
+    "El Niño",
+    "La Niña",
+    "El Niño-Southern Oscillation",
+    "ENSO dynamics",
+    "Trade winds",
+    "Walker circulation",
+    "Bjerknes feedback",
+    "Pacific warm pool",
+    "Cold tongue",
+    "Thermocline tilt",
+    "Equatorial upwelling",
+    "Equatorial Kelvin waves",
+    "Equatorial Rossby waves",
+    "Upper-ocean heat content",
+    "Recharge oscillator",
+    "Westerly wind bursts",
+    "Tropical convection",
+    "ENSO phase locking",
+    "Central Pacific El Niño",
+    "Coastal Peru",
+    "Klaus Wyrtki",
+    "Jacob Bjerknes",
+    "Fei-Fei Jin"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Earth science",
+      "Climate dynamics",
+      "ENSO",
+      "Bjerknes feedback"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Climate dynamics",
+      "ENSO",
+      "Recharge oscillator"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Climate dynamics",
+      "ENSO",
+      "El Niño"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Climate dynamics",
+      "ENSO",
+      "La Niña"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Atmospheric science",
+      "Tropical circulation",
+      "Walker circulation"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Atmospheric science",
+      "Tropical winds",
+      "Trade winds"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Oceanography",
+      "Tropical Pacific",
+      "Pacific warm pool"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Oceanography",
+      "Tropical Pacific",
+      "Cold tongue"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Oceanography",
+      "Vertical structure",
+      "Thermocline tilt"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Oceanography",
+      "Upwelling",
+      "Equatorial upwelling"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Oceanography",
+      "Equatorial waves",
+      "Kelvin waves"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Oceanography",
+      "Equatorial waves",
+      "Rossby waves"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Oceanography",
+      "Upper-ocean heat content"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Climate dynamics",
+      "Seasonal cycle",
+      "ENSO phase locking"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "History of science",
+      "ENSO dynamical theories"
+    ],
+    [
+      "Place: Pacific Ocean",
+      "Place: Equatorial Pacific"
+    ],
+    [
+      "Place: South America",
+      "Place: Peru",
+      "Place: Coastal Peru"
+    ],
+    [
+      "Place: South America",
+      "Place: Ecuador"
+    ],
+    [
+      "Place: Asia",
+      "Place: Indonesia"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "es-enso-noaa-jetstream",
+      "reason": "Pacific mean state, upwelling, Tahiti-Darwin pressure, coastal naming, warm/cool ENSO phases."
+    },
+    {
+      "source_id": "es-enso-bjerknes-1969",
+      "reason": "Original coupled Pacific SST/trade-wind/Southern Oscillation argument and remote winter circulation correlations."
+    },
+    {
+      "source_id": "es-enso-wyrtki-1975",
+      "reason": "Accumulated upper-ocean warm water, trade-wind relaxation and eastward Kelvin-wave hypothesis."
+    },
+    {
+      "source_id": "es-enso-jin-1997",
+      "reason": "Recharge-discharge model with Bjerknes amplification and delayed oceanic heat-content response."
+    },
+    {
+      "source_id": "es-enso-vialard-2025",
+      "reason": "Mean Pacific state, upwelling, equatorial waves, warm-water volume, seasonality, nonlinearities and event diversity."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "008000-e01",
+      "anchor": "Some episodes are strong, some are weak",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-enso-vialard-2025"
+      ],
+      "source_locator": "Observed interannual variability and event diversity.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "008000-e02",
+      "anchor": "The western Pacific, around Indonesia and New Guinea, holds a broad region of very warm surface water",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-enso-vialard-2025"
+      ],
+      "source_locator": "Mean-state Pacific warm pool.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "008000-e03",
+      "anchor": "The prevailing tropical winds are the easterly trade winds",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-enso-noaa-jetstream",
+        "es-enso-vialard-2025"
+      ],
+      "source_locator": "Mean easterlies across the equatorial Pacific.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "008000-e04",
+      "anchor": "Across the basin the boundary between the warmer upper ocean and colder deep water, the thermocline, slopes",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-enso-vialard-2025"
+      ],
+      "source_locator": "Pacific thermocline depth slope.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "008000-e05",
+      "anchor": "Where the thermocline is shallow, relatively cool water can mix into the sunlit surface layer",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-enso-vialard-2025"
+      ],
+      "source_locator": "Upwelling and entrainment temperature source.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "008000-e06",
+      "anchor": "The mechanism is now called the Bjerknes feedback",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-enso-bjerknes-1969",
+        "es-enso-vialard-2025"
+      ],
+      "source_locator": "Bjerknes feedback attribution and modern review.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "008000-e07",
+      "anchor": "The pattern of tropical convection can move farther east",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-enso-noaa-jetstream",
+        "es-enso-vialard-2025"
+      ],
+      "source_locator": "Convection shift in warm events.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "008000-e08",
+      "anchor": "That is the corresponding feedback for La Niña",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-enso-vialard-2025"
+      ],
+      "source_locator": "Cool-phase Bjerknes feedback.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "008000-e09",
+      "anchor": "The two directions are related, but their details are not perfect mirror images",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-enso-vialard-2025"
+      ],
+      "source_locator": "ENSO warm/cool phase amplitude asymmetry.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "008000-e10",
+      "anchor": "A westerly wind burst, an episode in which winds blow anomalously toward the east",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-enso-vialard-2025",
+        "es-enso-wyrtki-1975"
+      ],
+      "source_locator": "Wind bursts and wave-driven dynamical adjustment.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "008000-e11",
+      "anchor": "a downwelling equatorial Kelvin wave",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-enso-wyrtki-1975",
+        "es-enso-vialard-2025"
+      ],
+      "source_locator": "Wind-forced eastward Kelvin disturbances.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "008000-e12",
+      "anchor": "Other equatorial and off-equatorial wave motions, including Rossby waves",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-enso-vialard-2025"
+      ],
+      "source_locator": "Wave adjustment beyond eastward Kelvin waves.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "008000-e13",
+      "anchor": "El Niño can gradually discharge the equatorial region",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-enso-jin-1997"
+      ],
+      "source_locator": "Recharge-discharge phase mechanism.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "008000-e14",
+      "anchor": "Fei-Fei Jin's 1997 recharge-oscillator model",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-enso-jin-1997"
+      ],
+      "source_locator": "Primary 1997 conceptual-model paper.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "008000-e15",
+      "anchor": "oceanographers measure upper-ocean heat content",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-enso-vialard-2025"
+      ],
+      "source_locator": "Subsurface heat content and ENSO state.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "008000-e16",
+      "anchor": "There is no universal first domino",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-enso-vialard-2025"
+      ],
+      "source_locator": "Stochastic forcing and competing ENSO mechanisms.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "008000-e17",
+      "anchor": "Many El Niño and La Niña episodes reach their most recognizable amplitude toward the end of a calendar year",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-enso-vialard-2025"
+      ],
+      "source_locator": "Seasonality and ENSO phase locking.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "008000-e18",
+      "anchor": "Along the Peruvian coast, fishers used a name associated with the Christmas season",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-enso-noaa-jetstream"
+      ],
+      "source_locator": "Coastal naming and historical context.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "008000-e19",
+      "anchor": "Some events concentrate more strongly toward the eastern Pacific",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-enso-vialard-2025"
+      ],
+      "source_locator": "Eastern versus central Pacific event diversity.",
+      "audit_status": "source_checked"
+    }
+  ],
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "The lecture introduces ocean temperature, wind stress, convection and subsurface waves from first principles."
+    ],
+    "readiness_checks": [
+      "How do trade winds help maintain a cool eastern Pacific?",
+      "How can a wind anomaly create further warming through atmospheric response?",
+      "Why can a subsurface Kelvin wave change the future of the sea surface?",
+      "What physically allows a warm episode to end?",
+      "What can the term El Niño leave ambiguous about local versus basin-wide events?"
+    ]
+  },
+  "places": [
+    "Equatorial Pacific Ocean",
+    "Coastal Peru",
+    "Ecuador",
+    "Indonesia",
+    "Papua New Guinea"
+  ]
+}

@@ -1,0 +1,463 @@
+{
+  "schema_version": 1,
+  "lecture_id": "010000",
+  "transcript": "010000-how-to-forecast-an-ocean.md",
+  "description": "Explains Niño-region indices, the 2026 RONI change, Tahiti-Darwin pressure, moorings and satellites, data assimilation, multi-model ensembles, spring predictability limits, and calibrated seasonal probabilities.",
+  "tags": [
+    "ENSO prediction",
+    "ENSO monitoring",
+    "Niño 3.4",
+    "Oceanic Niño Index",
+    "Relative Oceanic Niño Index",
+    "RONI",
+    "Southern Oscillation Index",
+    "Tahiti-Darwin pressure",
+    "ERSST",
+    "TAO/TRITON",
+    "Ocean moorings",
+    "Subsurface ocean observations",
+    "Data assimilation",
+    "Coupled atmosphere-ocean model",
+    "Ensemble forecast",
+    "Multi-model ensemble",
+    "Seasonal climate prediction",
+    "Spring predictability barrier",
+    "Forecast calibration",
+    "Hindcasts",
+    "Probabilistic forecasting",
+    "Climate change and ENSO",
+    "NOAA Climate Prediction Center"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Earth science",
+      "Earth observation",
+      "ENSO monitoring",
+      "Niño 3.4"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth observation",
+      "ENSO monitoring",
+      "Oceanic Niño Index"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth observation",
+      "ENSO monitoring",
+      "Relative Oceanic Niño Index"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth observation",
+      "ENSO monitoring",
+      "Southern Oscillation Index"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Oceanography",
+      "Ocean observing systems",
+      "TAO/TRITON array"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Oceanography",
+      "Ocean observing systems",
+      "Subsurface temperature moorings"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Oceanography",
+      "Upper-ocean heat content"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Climate modeling",
+      "Coupled ocean-atmosphere models"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Climate modeling",
+      "Data assimilation"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Climate modeling",
+      "Multi-model ensemble"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Climate modeling",
+      "Hindcast verification"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Seasonal climate prediction",
+      "Spring predictability barrier"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Seasonal climate prediction",
+      "ENSO outlook"
+    ],
+    [
+      "Science",
+      "Statistics",
+      "Probabilistic forecasts",
+      "Calibration"
+    ],
+    [
+      "Science",
+      "Statistics",
+      "Probabilistic forecasts",
+      "Skill against baselines"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "History of science",
+      "1982-1983 El Niño observations"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "History of science",
+      "1997-1998 El Niño observations"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "History of science",
+      "2026 RONI index transition"
+    ],
+    [
+      "Place: Oceania",
+      "Place: French Polynesia",
+      "Place: Tahiti"
+    ],
+    [
+      "Place: Oceania",
+      "Place: Australia",
+      "Place: Darwin"
+    ],
+    [
+      "Place: Pacific Ocean",
+      "Place: Equatorial Pacific"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "es-enso-noaa-indices",
+      "reason": "Region-specific indices: Niño 3.4, Southern Oscillation, ocean-atmosphere multivariate approaches."
+    },
+    {
+      "source_id": "es-enso-noaa-soi",
+      "reason": "Standardized Tahiti-Darwin sea-level-pressure differences; negative SOI generally with El Niño, positive with La Niña."
+    },
+    {
+      "source_id": "es-enso-noaa-roni-announcement",
+      "reason": "Date and rationale of CPC shift from traditional ONI to RONI."
+    },
+    {
+      "source_id": "es-enso-noaa-roni-method",
+      "reason": "RONI calculation: subtract global tropical SST anomaly and normalize variance; same + or - 0.5C thresholds and historical duration criterion."
+    },
+    {
+      "source_id": "es-enso-noaa-roni-table",
+      "reason": "Current RONI data set, 5 overlapping-season historic criterion and cautions about provisional recent values."
+    },
+    {
+      "source_id": "es-enso-tao-history",
+      "reason": "Historical background and moored subsurface ocean observing systems, including TAO."
+    },
+    {
+      "source_id": "es-enso-tao-review",
+      "reason": "TAO started 1984, completed 1994, became TAO/TRITON in 2000, ocean sensor data in ENSO observations."
+    },
+    {
+      "source_id": "es-enso-zhu-2021",
+      "reason": "Value of subsurface observation and assimilation for tropical Pacific climate analyses."
+    },
+    {
+      "source_id": "es-enso-noaa-forecast-skill-2025",
+      "reason": "Comparison of real-time dynamical and statistical seasonal forecasts from 2002 to 2023, spring predictability barrier and evaluation methodology."
+    },
+    {
+      "source_id": "es-enso-noaa-forecast-2026",
+      "reason": "Dated example of ensemble probabilistic seasonal outlook; does not provide timeless specific phase forecasts."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "010000-e01",
+      "anchor": "The traditional Oceanic Niño Index, or ONI, uses a smoothed three-month measure",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-enso-noaa-indices",
+        "es-enso-noaa-roni-method"
+      ],
+      "source_locator": "NOAA ONI region and smoothing convention.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "010000-e02",
+      "anchor": "A diagnosis of coupled ENSO conditions also needs evidence that the atmosphere is responding consistently",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-enso-noaa-roni-table",
+        "es-enso-noaa-soi"
+      ],
+      "source_locator": "NOAA conditions require coupled atmospheric signals.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "010000-e03",
+      "anchor": "The tropical oceans are warming under human-caused climate change",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-enso-noaa-roni-method"
+      ],
+      "source_locator": "RONI rationale assumes changing tropical-mean SST climatology.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "010000-e04",
+      "anchor": "In February 2026 the United States Climate Prediction Center announced a shift",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-enso-noaa-roni-announcement"
+      ],
+      "source_locator": "Official month and year of CPC change.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "010000-e05",
+      "anchor": "subtracts the average sea-surface temperature anomaly of the global tropical belt",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-enso-noaa-roni-method"
+      ],
+      "source_locator": "RONI formula and 20S-20N tropical domain.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "010000-e06",
+      "anchor": "The threshold convention of plus or minus half a degree remains recognizable",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-enso-noaa-roni-method"
+      ],
+      "source_locator": "RONI threshold retained.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "010000-e07",
+      "anchor": "at least five consecutive overlapping three-month periods",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-enso-noaa-roni-table",
+        "es-enso-noaa-roni-method"
+      ],
+      "source_locator": "Historical episode classification duration.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "010000-e08",
+      "anchor": "The Southern Oscillation Index uses the difference in sea-level pressure anomalies between Tahiti and Darwin",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-enso-noaa-soi"
+      ],
+      "source_locator": "Tahiti minus Darwin standardized surface pressure index.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "010000-e09",
+      "anchor": "Its negative phase commonly accompanies El Niño-like conditions",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-enso-noaa-soi"
+      ],
+      "source_locator": "SOI sign convention.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "010000-e10",
+      "anchor": "The tropical moored observing array that developed in the 1980s",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-enso-tao-history",
+        "es-enso-tao-review"
+      ],
+      "source_locator": "TAO observing program development history.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "010000-e11",
+      "anchor": "It later became widely known as the TAO/TRITON array",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-enso-tao-review"
+      ],
+      "source_locator": "TAO/TRITON incorporation and agency collaboration.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "010000-e12",
+      "anchor": "an anchored mooring near the equator",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-enso-tao-review",
+        "es-enso-zhu-2021"
+      ],
+      "source_locator": "Meteorological and subsurface measurements at fixed moorings.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "010000-e13",
+      "anchor": "The first famous ENSO forecasting challenge of the modern satellite era came in 1982 and 1983",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-enso-tao-history",
+        "es-enso-tao-review"
+      ],
+      "source_locator": "Motivation for 1980s ENSO observational development.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "010000-e14",
+      "anchor": "By the 1997 and 1998 event, the tropical mooring network and satellites provided a far richer picture",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-enso-tao-review",
+        "es-enso-tao-history"
+      ],
+      "source_locator": "Observational coverage for 1997-98 event.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "010000-e15",
+      "anchor": "Scientists combine observations with the physically consistent state estimated by a model",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-enso-zhu-2021"
+      ],
+      "source_locator": "Observing system experiments with assimilation.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "010000-e16",
+      "anchor": "different estimates of the depth of the thermocline",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-enso-zhu-2021"
+      ],
+      "source_locator": "Observation uncertainty and assimilation impact.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "010000-e17",
+      "anchor": "So forecasters use ensembles",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-enso-noaa-forecast-skill-2025",
+        "es-enso-noaa-forecast-2026"
+      ],
+      "source_locator": "Multi-member and multi-model forecast ensembles.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "010000-e18",
+      "anchor": "Statistical forecasts can also learn relationships between observed indices",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-enso-noaa-forecast-skill-2025"
+      ],
+      "source_locator": "Dynamical versus statistical forecasts.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "010000-e19",
+      "anchor": "known as the spring predictability barrier",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-enso-noaa-forecast-skill-2025"
+      ],
+      "source_locator": "Season-dependent forecasting skill limitation.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "010000-e20",
+      "anchor": "forecast probability mean",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-enso-noaa-forecast-2026"
+      ],
+      "source_locator": "Official probability presentation, hypothetical illustration noted in narration.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "010000-e21",
+      "anchor": "Retrospective model simulations, often called hindcasts or reforecasts",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-enso-noaa-forecast-skill-2025"
+      ],
+      "source_locator": "Contrast hindcast and independent real-time evaluation.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "010000-e22",
+      "anchor": "A forecast of El Niño may be confident while a local precipitation outlook remains only weakly shifted",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-enso-noaa-overview",
+        "es-enso-noaa-forecast-2026"
+      ],
+      "source_locator": "Forecasting ENSO state and impact signal are distinct.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "010000-e23",
+      "anchor": "The two are not competing explanations for any warm year",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-enso-noaa-roni-method"
+      ],
+      "source_locator": "Background warming and interannual anomalies are distinct.",
+      "audit_status": "source_checked"
+    }
+  ],
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Ocean anomalies, climate references, observations and forecast probabilities are explained without advanced statistics."
+    ],
+    "readiness_checks": [
+      "Why can the ocean and atmosphere disagree briefly about ENSO phase?",
+      "How does RONI differ from ONI?",
+      "Why is ocean heat content harder to measure than sea-surface temperature?",
+      "What does a 70% chance mean when the 30% outcome occurs?",
+      "Why can a good ENSO state prediction still yield a weak local rainfall forecast?"
+    ]
+  },
+  "places": [
+    "Equatorial Pacific Ocean",
+    "Tahiti, French Polynesia",
+    "Darwin, Northern Territory, Australia"
+  ]
+}

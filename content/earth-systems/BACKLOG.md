@@ -1,23 +1,23 @@
 # Earth Systems Course Development Backlog
 
-Seven substantive chapters are complete: physical foundations (001000-004000), global carbon (005000), cryosphere (006000) and active landscapes (007000). These are possibilities for later coherent expansions, not a schedule or length requirement.
+Ten complete lectures: radiation (001000), atmosphere (002000), water cycle (003000), ocean circulation (004000), carbon (005000), cryosphere (006000), moving landscapes (007000), ENSO dynamics (008000), distant teleconnections (009000) and ENSO seasonal prediction (010000).
 
-## Next priority
+These are coherent future options rather than a plan to extend the course indefinitely.
 
-- **Ocean, Air and the Pacific Oscillation.** El Nino/La Nina as a coupled ocean-atmosphere phenomenon; Walker circulation, sea-surface temperature, trade winds, thermocline tilt, upwelling, atmospheric teleconnections, observational indices, and forecast limitations. Distinguish pattern-based probabilistic outcomes from certain local weather forecasts.
-- **Weather's Extreme Events.** Convection, thunderstorms, tropical cyclones, atmospheric rivers, floods and droughts, with observational event attribution distinguished from hazard exposure.
+## Current priorities
 
-## Additional coherent courses/chapters
+- **Weather's Extreme Events.** Convection, thunderstorms, tropical cyclones, atmospheric rivers, flooding and drought. Distinguish physical hazard, extreme-event attribution, exposure and vulnerability. Avoid repeating the ENSO teleconnection survey.
+- **Earth's Living Chemistry.** Nitrogen, phosphorus and oxygen cycles across soils, wetlands and oceans; connect to ecology without re-teaching cellular metabolism.
+- **How We Know the Climate Past.** Ice cores, tree rings, ocean and lake sediments, speleothems, chronology and uncertainty. Distinguish reconstructed climate from direct observations.
 
-- **Earth's Living Chemistry.** Nitrogen, phosphorus and oxygen cycles across soils, wetlands and oceans; connect to ecology without repeating cellular metabolism.
-- **How We Know the Climate Past.** Ice cores, tree rings, lake and ocean sediments, speleothems, chronologies and calibration. Avoid conflating reconstructed climate and directly observed climate.
-- **Where Earth System Models Come From.** Conservation laws, grid resolution, parameterizations, assimilation, ensembles and uncertainty. Separate initial-condition weather forecasts and forcing-conditional climate projections.
-- **The Changing Coast.** Sediment supply, sea-level change, tides, wave energy, estuaries, deltas and relative sea level.
+## Additional coherent possibilities
 
-## Completed from earlier plan
+- **Where Earth System Models Come From.** Conserved quantities, grid resolution, parameterization, observation assimilation, ensemble uncertainty and climate versus weather prediction; complement but do not duplicate lecture 010000.
+- **The Changing Coast.** Sediment supply, sea level, tides, wave energy, estuaries and delta dynamics.
 
-- **Carbon on Many Clocks:** 005000; fast and slow carbon reservoirs, anthropogenic perturbation, observations and chemistry.
-- **Ice That Changes the Planet:** 006000; floating versus grounded ice, albedo, water and sea-level budgets.
-- **The Landscape Is Moving:** 007000; rock weathering, erosion, sediment transport, landslides and carbon consequences.
+## Completed from earlier priorities
 
-New work should include source-linked narration claims, lecture-specific topic tags and grounded geographic tags, without fabricated chronology labels for physical mechanisms.
+- Carbon on Many Clocks (005000), Ice That Changes the Planet (006000), The Landscape Is Moving (007000).
+- Pacific ENSO unit (008000-010000): wind-temperature feedback, equatorial waves, remote circulation and NOAA's 2026 RONI monitoring change.
+
+Do not invent historical date ranges for physical mechanisms; record observation dates or method changes in claim evidence and companions. Continue using full hierarchical topic and justified place tagging.
