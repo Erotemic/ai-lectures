@@ -463,3 +463,12 @@ The literature-survey track contains **169 indexed lectures**. Durations are des
 All eight are **standalone coherent recordings**, with no duration-based splitting. The analysis pairs are a separate mode of listening. The metadata contains claim-level textual anchors, named witnesses, publication dates and geographical context; historical and interpretive limits are explicit.
 
 **Current literature-survey catalog: 179 indexed lectures.**
+
+## Nineteenth-century France and twentieth-century Portuguese modernism (17 November 2026)
+
+- `182000`–`183000`: **Les Misérables** by Victor Hugo: one complete five-part narrative arc from the bishop's candlesticks through the 1832 barricade and Valjean's death; separate sustained analysis of law, poverty, class, gender, mercy, historical narration and digression. Primary basis is Hugo's 1862 novel, with the public-domain 1887 Hapgood English witness and French original linked.
+- `184000`–`185000`: **The Book of Disquiet** by Fernando Pessoa: thematic guided reading through the early Vicente Guedes prose and late Bernardo Soares Lisbon/office fragments, then an independent analysis of the personae, fragment form, dreams, class, editing and translation. **Not** a fictional continuous plot, an authorized fragment order or a reconstruction of a current modern translation. Composition principally c. 1913–20 and 1929–34; assembled book first published in 1982.
+
+The stories and guided readings are **one uninterrupted manuscript each**, without length-imposed splits. Critical analyses are separately listenable. The source and metadata companions disclose textual scope, original vs translated witness, bibliography, chronology, geography and paragraph-level evidence anchors. No audio, pictures or binary assets are contained in the pack.
+
+**Current literature-survey catalog: 183 indexed lectures.**

@@ -290,3 +290,12 @@ The source audit for these two has advanced from 'research before authoring' to 
 - **Next priorities:** Audit the pre-1900 and modern literature packs before authoring additional American classics to avoid duplicate lectures; continue importance-first geographic rotation of consequential works.
 
 **Current literature-survey index: 179 entries.**
+
+## Major French and Portuguese literary omissions filled (17 November 2026)
+
+- **Completed:** Hugo's *Les Misérables* (`182000` whole-arc story; `183000` analysis). Named primary witness: original French five-part 1862 novel, navigated with Hapgood's public-domain 1887 complete translation. Its Waterloo, convent, argot, and sewer digressions are treated as intrinsic formal devices, though the narration does not perform all book-length excursions. The June Rebellion is **1832**, not 1789 or 1848. Hugo's plot is not substituted by musical-film adaptations.
+- **Completed:** Pessoa's *Book of Disquiet* (`184000` guided reading; `185000` analysis). Literary project c.1913–35, initial official Portuguese edition in 1982 (Coelho, Galhoz, Sobral Cunha). Early Guedes vs late Soares distinction, later competing editorial arrangements, and the University of Coimbra's digitized manuscript witnesses are documented. No definitive authorial order or plot is invented; modern translated text is not reproduced.
+- **Critical and evidentiary limits:** For Hugo, fictional scenes illustrate literary and moral arguments, not established historical causation. For Pessoa, many fragments are unattributed/undated and available scholarly editions vary in inclusion/sequence. The lecture pair is original thematic critical prose, not a complete collation of all manuscript fragments and translations.
+- **Further high-value gaps:** Examine large-language or form-defining works not present in `tts-pre-1900-literature` or `tts-modern-literature`, rather than recreating existing *Moby-Dick*, *The Master and Margarita*, *War and Peace*, or *One Hundred Years of Solitude* treatments. Prioritize influence, narrative interest and source readiness over arbitrary regional quotas.
+
+**Current literature-survey index: 183 entries.**
