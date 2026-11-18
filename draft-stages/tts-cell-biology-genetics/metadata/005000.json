@@ -1,0 +1,168 @@
+{
+  "schema_version": 1,
+  "lecture_id": "005000",
+  "transcript": "005000-what-proteins-actually-do.md",
+  "related_resources": [
+    {
+      "source_id": "cb-alberts-genetic",
+      "reason": "DNA, genes, transcription, translation, gene regulation."
+    },
+    {
+      "source_id": "cb-groel1991",
+      "reason": "Reconstituted GroEL/GroES-dependent protein folding under ATP-dependent conditions."
+    },
+    {
+      "source_id": "cb-medline-hbb",
+      "reason": "Hemoglobin S beta-globin variant and aggregation in sickle-cell disease."
+    },
+    {
+      "source_id": "cb-nobel-anfinsen",
+      "reason": "Historical ribonuclease refolding experiment and scope of thermodynamic hypothesis."
+    },
+    {
+      "source_id": "cb-nobel-ubiquitin",
+      "reason": "Ubiquitin-dependent protein degradation and contributions of Ciechanover, Hershko and Rose."
+    },
+    {
+      "source_id": "cb-openstax-enzymes",
+      "reason": "Catalysis, activation barriers, binding, cofactors and inhibition."
+    },
+    {
+      "source_id": "cb-openstax-proteins",
+      "reason": "Protein secondary, tertiary and quaternary structure and amino-acid chemistry."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "005000-e01",
+      "anchor": "A genome can specify the order of amino acids in a protein.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-alberts-genetic"
+      ],
+      "source_locator": "Gene to protein sequence",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "005000-e02",
+      "anchor": "Hydrophobic side chains often become buried away from water, but this is not a literal force pushing them inward;",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-openstax-proteins"
+      ],
+      "source_locator": "Protein structural chemistry and folding context",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "005000-e03",
+      "anchor": "One of the classic demonstrations came from Christian Anfinsen and colleagues working with ribonuclease, an enzyme that cuts RNA.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-nobel-anfinsen"
+      ],
+      "source_locator": "Anfinsen ribonuclease experiment",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "005000-e04",
+      "anchor": "for this kind of protein, the amino-acid sequence contains enough information to determine its native folded structure under appropriate environmental conditions.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-nobel-anfinsen"
+      ],
+      "source_locator": "Thermodynamic folding hypothesis and its limits",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "005000-e05",
+      "anchor": "Experiments with bacterial GroEL and GroES demonstrated that purified components can assist the folding of some proteins in an ATP-dependent cycle.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-groel1991"
+      ],
+      "source_locator": "GroEL/GroES reconstituted folding",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "005000-e06",
+      "anchor": "An enzyme offers an alternative reaction pathway with a lower activation free-energy barrier.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-openstax-enzymes"
+      ],
+      "source_locator": "Catalytic transition barrier",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "005000-e07",
+      "anchor": "It speeds the forward and reverse directions compatible with the same equilibrium.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-openstax-enzymes"
+      ],
+      "source_locator": "Catalysts do not change equilibrium",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "005000-e08",
+      "anchor": "At high concentrations it can approach a maximum because most catalytic sites are occupied much of the time.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-openstax-enzymes"
+      ],
+      "source_locator": "Initial-rate saturation",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "005000-e09",
+      "anchor": "But K M is not automatically a direct measure of binding affinity:",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-openstax-enzymes"
+      ],
+      "source_locator": "Michaelis–Menten Km and binding caution",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "005000-e10",
+      "anchor": "Human adult hemoglobin contains several subunits whose interactions permit cooperative binding.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-openstax-proteins",
+        "cb-medline-hbb"
+      ],
+      "source_locator": "Hemoglobin quaternary structure and function",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "005000-e11",
+      "anchor": "And in sickle-cell disease, a particular amino-acid substitution in a beta-globin chain promotes abnormal hemoglobin association under suitable conditions.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-medline-hbb"
+      ],
+      "source_locator": "Hemoglobin S and polymerization",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "005000-e12",
+      "anchor": "Pioneering biochemical work by Aaron Ciechanover, Avram Hershko, Irwin Rose, and colleagues traced an ATP-dependent protein-degradation system",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-nobel-ubiquitin"
+      ],
+      "source_locator": "Ubiquitin historical attribution",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "005000-e13",
+      "anchor": "Other routes, including lysosomal and autophagic degradation, handle different cargo and conditions,",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-openstax-euk"
+      ],
+      "source_locator": "Other proteostasis mechanisms contrasted with proteasome",
+      "audit_status": "source_checked"
+    }
+  ]
+}

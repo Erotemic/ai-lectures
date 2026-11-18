@@ -1,0 +1,167 @@
+{
+  "schema_version": 1,
+  "lecture_id": "008000",
+  "transcript": "008000-when-a-cell-says-no.md",
+  "related_resources": [
+    {
+      "source_id": "cb-hanahan2022",
+      "reason": "Broad framework for tumor capabilities, evolution and microenvironment."
+    },
+    {
+      "source_id": "cb-nobel-cycle2001",
+      "reason": "Hartwell, Hunt and Nurse and discoveries of cell-cycle regulator proteins."
+    },
+    {
+      "source_id": "cb-openstax-cancer",
+      "reason": "Oncogenes, tumor suppressors, and disruption of cell-cycle controls."
+    },
+    {
+      "source_id": "cb-openstax-checkpoints",
+      "reason": "Cell-cycle checkpoints and spindle mechanisms."
+    },
+    {
+      "source_id": "cb-sulston1983",
+      "reason": "Cell lineage and invariant programmed cell deaths in developing nematodes."
+    },
+    {
+      "source_id": "cb-worm-death",
+      "reason": "Genetic death pathway history and context of worm experiments."
+    },
+    {
+      "source_id": "cb-alberts-cyclecontrol",
+      "reason": "The anaphase-promoting complex, securin degradation and spindle attachment checkpoint."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "008000-e01",
+      "anchor": "A major set of regulators consists of cyclins and cyclin-dependent kinases, usually shortened to C D K s.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-openstax-checkpoints"
+      ],
+      "source_locator": "Cyclin CDK regulation",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "008000-e02",
+      "anchor": "Leland Hartwell used yeast genetics to identify genes required for particular steps of cell division and helped establish the checkpoint concept.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-nobel-cycle2001"
+      ],
+      "source_locator": "Hartwell yeast genetics",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "008000-e03",
+      "anchor": "Paul Nurse and colleagues used fission yeast to investigate a central cell-cycle regulator,",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-nobel-cycle2001"
+      ],
+      "source_locator": "Nurse genetic studies",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "008000-e04",
+      "anchor": "Tim Hunt, working with embryos, discovered proteins called cyclins whose amounts rose and then fell during division cycles.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-nobel-cycle2001"
+      ],
+      "source_locator": "Hunt cyclin discovery",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "008000-e05",
+      "anchor": "R B, which ordinarily restrains transcription factors called E two F.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-openstax-checkpoints"
+      ],
+      "source_locator": "Rb-E2F checkpoint",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "008000-e06",
+      "anchor": "It often increases expression of p twenty-one, an inhibitor of certain cyclin-dependent kinases.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-openstax-checkpoints"
+      ],
+      "source_locator": "p53/p21 arrest",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "008000-e07",
+      "anchor": "a protein complex called A P C slash C contributes to the timed destruction of regulators, permitting progression into anaphase.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-alberts-cyclecontrol"
+      ],
+      "source_locator": "Mitotic checkpoint and APC/C",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "008000-e08",
+      "anchor": "The most familiar form is apoptosis.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-worm-death"
+      ],
+      "source_locator": "Programmed cell death",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "008000-e09",
+      "anchor": "John Sulston and colleagues traced the fates of cells during the development of this small worm.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-sulston1983"
+      ],
+      "source_locator": "C. elegans lineage",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "008000-e10",
+      "anchor": "Genetic studies, especially the work of H. Robert Horvitz and collaborators, identified genes required for many of those deaths.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-worm-death"
+      ],
+      "source_locator": "Programmed death genetics",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "008000-e11",
+      "anchor": "Genes that normally promote growth or survival can become cancer-promoting when altered in the wrong way or expressed in the wrong context.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-openstax-cancer"
+      ],
+      "source_locator": "Proto-oncogenes",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "008000-e12",
+      "anchor": "A tumor can involve changes in growth-factor signaling, loss of growth restraints, evasion of cell death, altered metabolism, changes in genome stability, interactions with immune cells, and the capacity to invade surrounding tissue.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-hanahan2022"
+      ],
+      "source_locator": "Hallmarks of cancer",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "008000-e13",
+      "anchor": "Douglas Hanahan's later elaboration of the hallmarks-of-cancer framework explicitly treats them as organizing principles",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-hanahan2022"
+      ],
+      "source_locator": "Hallmarks framework intent",
+      "audit_status": "source_checked"
+    }
+  ]
+}

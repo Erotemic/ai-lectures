@@ -1,0 +1,150 @@
+{
+  "schema_version": 1,
+  "lecture_id": "007000",
+  "transcript": "007000-the-moving-interior.md",
+  "related_resources": [
+    {
+      "source_id": "cb-blobel1999",
+      "reason": "Signal sequence hypothesis and cell protein targeting attribution."
+    },
+    {
+      "source_id": "cb-ki-vesicles2013",
+      "reason": "Schekman, Rothman, and Suedhof discoveries of trafficking and fusion machinery."
+    },
+    {
+      "source_id": "cb-openstax-cytoskeleton",
+      "reason": "Actin, microtubules, intermediate filaments, motors, cilia and motility."
+    },
+    {
+      "source_id": "cb-palade-route",
+      "reason": "Pulse-chase and cellular compartment evidence for secretory protein transport."
+    },
+    {
+      "source_id": "cb-vale1985",
+      "reason": "Original kinesin purification and microtubule-based motility assays."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "007000-e01",
+      "anchor": "Actin filaments, also called microfilaments, can form networks and bundles near the cell surface,",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-openstax-cytoskeleton"
+      ],
+      "source_locator": "Actin functions",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "007000-e02",
+      "anchor": "Microtubules are hollow polymers built from tubulin subunits.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-openstax-cytoskeleton"
+      ],
+      "source_locator": "Microtubule polymer",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "007000-e03",
+      "anchor": "That switching behavior is called dynamic instability.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-openstax-cytoskeleton"
+      ],
+      "source_locator": "Dynamic instability",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "007000-e04",
+      "anchor": "Many kinesins move along microtubules, often toward the end designated plus, whereas many cytoplasmic dynein motors move toward the minus end.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-openstax-cytoskeleton",
+        "cb-vale1985"
+      ],
+      "source_locator": "Directionality of motors",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "007000-e05",
+      "anchor": "In 1985 they named the new motor kinesin.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-vale1985"
+      ],
+      "source_locator": "Kinesin discovery",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "007000-e06",
+      "anchor": "The distance reached by diffusion grows roughly with the square root of elapsed time.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-openstax-cytoskeleton"
+      ],
+      "source_locator": "Diffusion scaling; derivation in technical companion",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "007000-e07",
+      "anchor": "Many secreted proteins begin with an amino-acid sequence that is recognized by machinery targeting a translating ribosome to the endoplasmic reticulum, or E R.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-blobel1999"
+      ],
+      "source_locator": "Protein targeting signal sequence",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "007000-e08",
+      "anchor": "By briefly labeling newly synthesized proteins and tracking their location at later times, researchers inferred a sequence of compartments through which secreted material traveled.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-palade-route"
+      ],
+      "source_locator": "Palade pulse-chase",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "007000-e09",
+      "anchor": "For instance, COPII coats are important in many routes leaving the endoplasmic reticulum,",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-ki-vesicles2013"
+      ],
+      "source_locator": "Vesicle coating and sorting",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "007000-e10",
+      "anchor": "A family of proteins called SNAREs helps bring appropriate membrane surfaces together and drive the final fusion process.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-ki-vesicles2013"
+      ],
+      "source_locator": "SNARE fusion",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "007000-e11",
+      "anchor": "Researchers Randy Schekman, James Rothman, and Thomas Südhof approached different pieces of this transport problem.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-ki-vesicles2013"
+      ],
+      "source_locator": "Vesicle trafficking Nobel attribution",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "007000-e12",
+      "anchor": "an actin-myosin contractile ring helps constrict the cell surface during cytokinesis.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-openstax-cytoskeleton"
+      ],
+      "source_locator": "Actomyosin contraction",
+      "audit_status": "source_checked"
+    }
+  ]
+}

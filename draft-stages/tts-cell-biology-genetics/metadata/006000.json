@@ -1,0 +1,154 @@
+{
+  "schema_version": 1,
+  "lecture_id": "006000",
+  "transcript": "006000-how-cells-make-sense-of-signals.md",
+  "related_resources": [
+    {
+      "source_id": "cb-nih-gpcr2012",
+      "reason": "Studies of seven-transmembrane G-protein-coupled receptors."
+    },
+    {
+      "source_id": "cb-nsf-sutherland",
+      "reason": "Cyclic AMP discovery and hormonal second-messenger mechanism."
+    },
+    {
+      "source_id": "cb-openstax-signalprop",
+      "reason": "Second messengers, phosphorylation, signal amplification, and integration."
+    },
+    {
+      "source_id": "cb-openstax-signalreceptors",
+      "reason": "Hormone and local signals, GPCRs, RTKs and intracellular receptors."
+    },
+    {
+      "source_id": "cb-openstax-signalresponse",
+      "reason": "Downstream changes in gene expression and metabolism."
+    },
+    {
+      "source_id": "cb-segall1986",
+      "reason": "Temporal memory and response to changing stimuli in E. coli."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "006000-e01",
+      "anchor": "Receptor proteins supply part of that connection.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-openstax-signalreceptors"
+      ],
+      "source_locator": "Specific receptors and ligands",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "006000-e02",
+      "anchor": "A hormone travels through a circulating fluid to distant targets.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-openstax-signalreceptors"
+      ],
+      "source_locator": "Endocrine vs local signaling",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "006000-e03",
+      "anchor": "Many hormones, neurotransmitters, odors, and light-sensitive systems use members of this family.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-nih-gpcr2012"
+      ],
+      "source_locator": "GPCR repertoire",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "006000-e04",
+      "anchor": "The G protein exchanges bound G D P for G T P, and the activated subunits interact with enzymes or channels.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-openstax-signalreceptors"
+      ],
+      "source_locator": "GPCR mechanism",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "006000-e05",
+      "anchor": "it converts ATP into cyclic A M P, a small molecule that can spread through the cell and regulate other proteins, including protein kinase A.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-openstax-signalprop",
+        "cb-nsf-sutherland"
+      ],
+      "source_locator": "cAMP second messenger",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "006000-e06",
+      "anchor": "The role of cyclic A M P became clear through experiments associated with Earl Sutherland and colleagues.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-nsf-sutherland"
+      ],
+      "source_locator": "Sutherland history",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "006000-e07",
+      "anchor": "Phosphodiesterases break down cyclic A M P.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-openstax-signalprop"
+      ],
+      "source_locator": "Signal termination",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "006000-e08",
+      "anchor": "Calcium-binding proteins translate these brief changes into actions, from vesicle release to muscle contraction and changes in gene expression.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-openstax-signalprop"
+      ],
+      "source_locator": "Calcium-mediated response",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "006000-e09",
+      "anchor": "One well-studied route involves RAS, RAF, MEK, and ERK, a sequence often called a MAP kinase cascade.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-openstax-signalresponse"
+      ],
+      "source_locator": "MAPK cascade",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "006000-e10",
+      "anchor": "If turning on a downstream component restores the response despite an upstream block, that is evidence about ordering within the circuit.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-openstax-signalprop"
+      ],
+      "source_locator": "Perturbation and epistasis inference",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "006000-e11",
+      "anchor": "A bacterium swimming through a chemical gradient may adjust the frequency with which it tumbles as it changes direction.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-segall1986"
+      ],
+      "source_locator": "E. coli chemotaxis comparison",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "006000-e12",
+      "anchor": "If concentration rises steadily, it behaves differently from a cell sitting at a constant concentration.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-segall1986"
+      ],
+      "source_locator": "Temporal sensing of chemical gradients",
+      "audit_status": "source_checked"
+    }
+  ]
+}

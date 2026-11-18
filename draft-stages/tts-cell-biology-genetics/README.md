@@ -1,6 +1,6 @@
 # Cell Biology and Genetics: How Living Information Works
 
-**Status:** In progress — initial four-lecture foundation is complete; the rest of the track is planned, not written.
+**Status:** In progress — eight-lecture foundation is complete; 009000–016000 are planned, not written.
 
 This is a standalone, audio-first biology course connecting cell organization, metabolism, information flow and inheritance. It is meant to complement the completed *Living World* natural-history series and *Physical World* physics series rather than turn either of those into an indefinite catalog.
 
@@ -11,7 +11,12 @@ This is a standalone, audio-first biology course connecting cell organization, m
 3. **003000 — How a Cell Reads Its Genome Without Following a Blueprint.** DNA and RNA, transcription, translation, codons, splicing, bacterial and eukaryotic gene regulation, genotype-to-phenotype pathways.
 4. **004000 — The Problem of Making Another Cell: Copying, Division, and Inheritance.** Semiconservative replication, repair, mitosis, meiosis, recombination, Mendelian inheritance, linkage and exceptions.
 
-The main listening route is in `navigation.json`. A genetics-first shortcut is provided for listeners who already know basic cell biology. Each recorded lecture is stand-alone enough to be approached independently, but the guided order provides dependencies in sensible sequence.
+5. **005000 — What Proteins Actually Do: Shape, Catalysis, and Quality Control.** Folding and the limits of sequence, enzyme mechanism and inhibition, chaperones, protein degradation and quality control.
+6. **006000 — How Cells Make Sense of Signals.** Receptors, second messengers, GPCR and kinase cascades, feedback, bacterial chemotaxis and experiments that establish causality.
+7. **007000 — The Moving Interior.** Motor proteins, actin and microtubules, pulse-chase experiments, ER–Golgi trafficking, vesicles, cargo sorting, membrane fusion and motility.
+8. **008000 — When a Cell Says No.** Cell-cycle regulators and checkpoints, programmed cell death, cancer cell evolution, oncogenes, and tumor suppressors.
+
+The main listening route in `navigation.json` now contains eight lectures. A new **Cell Mechanisms** collection includes 005000–008000 for listeners familiar with basic cell biology; the original genetics-first shortcut remains available. Each lecture is self-contained, while the guided sequence develops useful prerequisites. Source annotations accompany the new material.
 
 ## Editorial principles
 
@@ -21,4 +26,4 @@ Every file contains exactly one spoken region. Its headings, technical companion
 
 ## Boundaries and continuation
 
-This installment provides essential prerequisites but **does not complete foundational biology**. Protein folding, cell signaling, development, complex inheritance and genome methods remain open work, inventoried in `BACKLOG.md`. The series will get a separate closing synthesis once those topics have been taught. The genome-to-function discussion deliberately distinguishes a single causal variant, a regulatory effect, and a complex trait; avoid implying all phenotypes follow simple Mendelian tables.
+This installment develops proteins, signaling, cell mechanics and cell-cycle control but **does not complete foundational biology**. Development, complex inheritance, population genetics and genome methods remain open work, inventoried in `BACKLOG.md`. The series will get a separate closing synthesis once those topics have been taught. The genome-to-function discussion deliberately distinguishes a single causal variant, a regulatory effect, and a complex trait; avoid implying all phenotypes follow simple Mendelian tables.

@@ -1,13 +1,13 @@
 # Editorial continuation — Cell Biology and Genetics
 
-This is a **finite working curriculum**, not a publication promise or a word-count plan. Revise lecture boundaries when two subjects naturally require one continuous explanation or one subject deserves a larger stand-alone treatment. Subjects 001000–004000 are complete; the following are unwritten.
+This is a **finite working curriculum**, not a publication promise or a word-count plan. Revise lecture boundaries when two subjects naturally require one continuous explanation or one subject deserves a larger stand-alone treatment. Subjects 001000–008000 are complete; 009000–016000 remain unwritten. Published lectures have independent files and source records.
 
-| Planned ID | Subject | The explanatory work that remains |
+| Planned ID | Subject | Scope / editorial intent |
 |---|---|---|
-| 005000 | Proteins, enzymes and quality control | Catalysis, conformations, specificity, folding, chaperones, proteasomes, and the evidence for mechanism |
-| 006000 | Cells sensing and communicating | Receptors, second messengers, kinase cascades, feedback, signal amplification, and experimental perturbation |
-| 007000 | Cell shape, traffic and force | Actin, microtubules, motors, vesicle trafficking, polarity, motility and mechanical constraints; build well beyond the preview in lecture 001 |
-| 008000 | Cell-cycle decisions, death and cancer | Cyclins, checkpoints, apoptosis, oncogenes, tumor suppressors and how multi-step failure of control emerges |
+| 005000 | **COMPLETED —** Proteins, enzymes and quality control | Catalysis, conformations, specificity, folding, chaperones, proteasomes, and the evidence for mechanism |
+| 006000 | **COMPLETED —** Cells sensing and communicating | Receptors, second messengers, kinase cascades, feedback, signal amplification, and experimental perturbation |
+| 007000 | **COMPLETED —** Cell shape, traffic and force | Actin, microtubules, motors, vesicle trafficking, polarity, motility and mechanical constraints; expanded beyond the preview in lecture 001 |
+| 008000 | **COMPLETED —** Cell-cycle decisions, death and cancer | Cyclins, checkpoints, apoptosis, oncogenes, tumor suppressors and how multi-step failure of control emerges |
 | 009000 | Mutations, maps and chromosome structure | Chromatin, physical versus genetic maps, recombination rates, structural variants and mobile elements |
 | 010000 | Beyond simple Mendelian inheritance | Penetrance, expressivity, polygenic traits, quantitative genetics, gene-by-environment effects and careful statistical examples |
 | 011000 | Evolution of genes and populations | Allele frequencies, drift, selection, migration, Hardy–Weinberg assumptions, coalescent intuition and real population data |

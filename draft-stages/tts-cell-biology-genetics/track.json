@@ -10,7 +10,11 @@
     "cell_structure",
     "membranes_energy",
     "gene_expression",
-    "cell_division_inheritance"
+    "cell_division_inheritance",
+    "proteins_enzymes",
+    "cell_signaling",
+    "cell_traffic_mechanics",
+    "cell_cycle_decisions"
   ],
   "categories": [
     "Science and nature"
@@ -30,7 +34,41 @@
     "Inheritance",
     "Cell membranes",
     "Gene expression",
-    "Meiosis"
+    "Meiosis",
+    "Protein folding",
+    "Enzymes",
+    "Catalysis",
+    "Chaperones",
+    "Proteostasis",
+    "Ubiquitin",
+    "Proteasome",
+    "Cell signaling",
+    "Hormones",
+    "GPCR",
+    "Second messengers",
+    "cAMP",
+    "Calcium",
+    "MAP kinase",
+    "Feedback",
+    "Bacterial chemotaxis",
+    "Cytoskeleton",
+    "Microtubules",
+    "Actin",
+    "Kinesin",
+    "Dynein",
+    "Vesicles",
+    "SNARE",
+    "Protein targeting",
+    "Cell motility",
+    "Cell cycle",
+    "Cyclins",
+    "CDK",
+    "Checkpoints",
+    "p53",
+    "Apoptosis",
+    "Cancer",
+    "Oncogenes",
+    "Tumor suppressors"
   ],
   "editorial_status": "in_progress",
   "lectures": [
@@ -106,6 +144,89 @@
         "Mendel",
         "Chromosomes",
         "Recombination"
+      ]
+    },
+    {
+      "id": "005000",
+      "title": "What Proteins Actually Do: Shape, Catalysis, and Quality Control",
+      "section": "proteins_enzymes",
+      "file": "005000-what-proteins-actually-do.md",
+      "spoken_words": 2121,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 14.6,
+      "tags": [
+        "Cell biology",
+        "Biochemistry",
+        "Protein folding",
+        "Enzymes",
+        "Catalysis",
+        "Chaperones",
+        "Proteostasis",
+        "Ubiquitin",
+        "Proteasome"
+      ]
+    },
+    {
+      "id": "006000",
+      "title": "How Cells Make Sense of Signals: Receptors, Cascades, and Feedback",
+      "section": "cell_signaling",
+      "file": "006000-how-cells-make-sense-of-signals.md",
+      "spoken_words": 1905,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 13.1,
+      "tags": [
+        "Cell biology",
+        "Cell signaling",
+        "Hormones",
+        "GPCR",
+        "Second messengers",
+        "cAMP",
+        "Calcium",
+        "MAP kinase",
+        "Feedback",
+        "Bacterial chemotaxis"
+      ]
+    },
+    {
+      "id": "007000",
+      "title": "The Moving Interior: How Cells Haul, Sort, and Shape Themselves",
+      "section": "cell_traffic_mechanics",
+      "file": "007000-the-moving-interior.md",
+      "spoken_words": 1987,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 13.7,
+      "tags": [
+        "Cell biology",
+        "Cytoskeleton",
+        "Microtubules",
+        "Actin",
+        "Kinesin",
+        "Dynein",
+        "Vesicles",
+        "SNARE",
+        "Protein targeting",
+        "Cell motility"
+      ]
+    },
+    {
+      "id": "008000",
+      "title": "When a Cell Says No: Division, Checkpoints, Death, and Cancer",
+      "section": "cell_cycle_decisions",
+      "file": "008000-when-a-cell-says-no.md",
+      "spoken_words": 2058,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 14.2,
+      "tags": [
+        "Cell biology",
+        "Cell cycle",
+        "Cyclins",
+        "CDK",
+        "Checkpoints",
+        "p53",
+        "Apoptosis",
+        "Cancer",
+        "Oncogenes",
+        "Tumor suppressors"
       ]
     }
   ]
