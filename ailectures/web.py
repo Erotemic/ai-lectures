@@ -26,11 +26,13 @@ from starlette.routing import Mount, Route
 from .core import Conflict, checksum, finite, qualified, digest
 from .library import Library
 from .state import ListenerState, utcnow
-from .organization import collection_metadata, item_organization, topic_tags
+from .organization import collection_metadata, item_organization
 from .companions import available_companions
 from .assets import LibraryAssets
 from .slide_companions import SlideCompanionsUnavailable
 from .chronology import chronology_for, collection_chronology
+from .discovery import discovery_fields
+from .descriptions import description_fields
 
 STATIC = Path(__file__).with_name("static")
 
@@ -128,7 +130,7 @@ def create_app(
     def annotate(row, *, summary=False):
         words = len(row["transcript"].split())
         chronology = chronology_for(row)
-        tags = topic_tags(topic_tags(row.get("tags")) + topic_tags(row.get("metadata", {}).get("tags")))
+        discovery = {**discovery_fields(row), **description_fields(row)}
         # Catalog cards do not need a copy of every source record and claim.
         row = deepcopy(
             {
@@ -140,7 +142,7 @@ def create_app(
             else row
         )
         origin = row["origin"]
-        row["tags"] = tags
+        row.update(discovery)
         row.pop("chronology", None)
         if chronology:
             row["chronology"] = chronology
@@ -174,6 +176,10 @@ def create_app(
                 )
         row["words"] = words
         row["estimated_minutes"] = round(row["words"] / 145, 1)
+        if summary:
+            for recording in row.get("recordings", []):
+                recording["page_count"] = len(recording.pop("pages", []))
+                recording.pop("segments", None)
         return row
 
     def catalog(request):
@@ -212,9 +218,6 @@ def create_app(
             summary.update(item_organization(row, collections))
             if row.get("metadata", {}).get("short_format_reason"):
                 summary["short_format_reason"] = row["metadata"]["short_format_reason"]
-            for rec in summary.get("recordings", []):
-                rec["page_count"] = len(rec.pop("pages"))
-                rec.pop("segments", None)
             items.append(summary)
         return JSONResponse(
             {
@@ -348,7 +351,7 @@ def create_app(
             row.setdefault("origin", {"release": request.query_params["release"]})
         else:
             row = snapshot["lectures"][key]
-        return JSONResponse(annotate(row), headers={"Cache-Control": "no-store"})
+        return JSONResponse(annotate(row, summary=request.query_params.get("summary") == "1"), headers={"Cache-Control": "no-store"})
 
     def transcript(request):
         key = qualified(request.path_params["lecture_id"])

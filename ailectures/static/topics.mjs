@@ -7,7 +7,7 @@ export function topicURL(tag) {
 export function topicLinks(tags, link, limit = Infinity) {
   if (!Array.isArray(tags) || !tags.length) return null;
   const visible = tags.slice(0, limit);
-  return el("div", { class: "topic-tags", "aria-label": "Topic tags" },
+  return el("div", { class: "topic-tags", "aria-label": "Tags" },
     ...visible.map(tag => {
       const anchor = link(tag, topicURL(tag));
       anchor.classList.add("topic-tag");

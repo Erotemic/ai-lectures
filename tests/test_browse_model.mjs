@@ -102,3 +102,8 @@ for (const hint of ["https://other.test/collections/sample:main", "//other.test/
   assert.equal(collectionReturnPath(hint, "sample:main", reader), null);
 assert.equal(collectionReturnPath(back, null, reader), null);
 console.log("Catalog helpers preserve ordered content, hierarchy, missing entries, and stable search targets");
+
+const described = { id: "book:one", title: "A novel", description: "Examines memory and political coercion.", creators: [{name: "A distinct writer", role: "author"}], outline: ["Language and testimony"] };
+assert(matchesLecture(described.id, () => described, "coercion"));
+assert(matchesLecture(described.id, () => described, "distinct writer"));
+assert(matchesLecture(described.id, () => described, "testimony"));

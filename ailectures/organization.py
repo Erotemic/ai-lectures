@@ -161,8 +161,10 @@ def item_organization(row, collections):
     metadata = row.get("metadata", {})
     if not isinstance(metadata, dict):
         metadata = {}
+    from .discovery import discovery_fields
+
     return {
-        "tags": topic_tags(topic_tags(row.get("tags")) + topic_tags(metadata.get("tags"))),
+        **discovery_fields(row),
         "categories": categories(metadata.get("categories", metadata.get("category")))
         or list(
             dict.fromkeys(

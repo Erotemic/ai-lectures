@@ -1,3 +1,4 @@
+import { creatorLine } from "./creators.mjs";
 import { renderStats } from "./stats.mjs";
 import { ProductionPanel } from "./production.mjs";
 import {
@@ -439,6 +440,8 @@ async function lecturePage(id, autoplay = false, historical = null) {
     {},
     course ? link("← " + course.title, returnTo) : link("Library", "/"),
     title(row.title),
+    creatorLine(row, link),
+    row.description ? description(row.description) : null,
     topicLinks(row.tags, link),
     el(
       "div",

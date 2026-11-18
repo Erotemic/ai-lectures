@@ -1,3 +1,4 @@
+import { creatorLine } from "./creators.mjs";
 import { el, getStored, store, randomId } from "./api.mjs";
 import { preparationPanel } from "./narration.mjs";
 import { collectionRows, collectionAncestors, collectionSections, formatMinutes, matchesLecture, matchesTag } from "./browse-model.mjs";
@@ -46,6 +47,8 @@ export class CatalogBrowser {
         "div",
         { class: "copy" },
         this.link(row.title, this.itemURL(row.id, collection)),
+        creatorLine(row, this.link),
+        row.description ? el("p", { class: "lecture-description", text: row.description }) : null,
         topicLinks(row.tags, this.link, 4),
         chronologyLine(row, dateAxis),
         el("small", {
@@ -175,7 +178,7 @@ export class CatalogBrowser {
       ),
     );
     categories.value = initial("category");
-    const topic = el("input", { type: "search", list: "browse-topic-tags", "aria-label": "Topic tag", placeholder: "Choose a topic", value: initial("tag") });
+    const topic = el("input", { type: "search", list: "browse-topic-tags", "aria-label": "Tag", placeholder: "Topic, place, author, or period", value: initial("tag") });
     const topicOptions = el("datalist", { id: "browse-topic-tags" }, ...[...new Set(data.lectures.flatMap(row => row.tags || []))].sort().map(tag => el("option", { value: tag })));
     const audiences = el(
       "select",
@@ -225,7 +228,7 @@ export class CatalogBrowser {
         "div",
         { class: "filters" },
         el("label", {}, "Category", categories),
-        el("label", {}, "Topic tag", topic, topicOptions),
+        el("label", {}, "Tag", topic, topicOptions),
         el("label", {}, "Audience", audiences),
         el("label", {}, "Audio", audio),
         el("label", {}, "Collections", view),

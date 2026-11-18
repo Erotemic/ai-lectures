@@ -69,9 +69,9 @@ listener on the device. Number theory also offers a short survey and focused
 arithmetic branches; its complete original sequence remains an archive.
 
 Topic tags describe subject matter independently of order. Click a tag on a
-lecture or collection to find related material across subjects. **Topic tag** in
+lecture or collection to find related material across subjects. **Tag** in
 Browsing options selects a whole topic; the ordinary keyword search also
-searches tags. Tag filters are bookmarkable with `?tag=Spectral+theory` and can
+searches tags, descriptions, outlines, and work creator names. Tag filters are bookmarkable with `?tag=Spectral+theory` and can
 combine with category, audience, and audio filters. Lecture pages show all their
 tags. Topic searches in Study plan and Learning map can find these concepts
 without treating a shared tag as a prerequisite or mathematical claim.
@@ -113,6 +113,72 @@ become teaching dependencies. The category's **Browse every collection and
 lecture**, search, and direct URLs retain access to the full inventory. Directory
 sections and category-guide declarations belong to the declaring collection and
 are not inherited by its children.
+
+### Descriptions, work creators, places, and periods
+
+Lecture sidecars can supply compact discovery metadata without changing speech:
+
+```json
+{
+  "description": "Follows the prince’s investigation and revenge, examining staged evidence, surveillance, political authority, and the competing textual witnesses.",
+  "creators": [{"name": "William Shakespeare", "role": "author"}],
+  "places": ["Denmark"],
+  "periods": ["Early modern"],
+  "tags": ["Drama", "Literary criticism"]
+}
+```
+
+`creators` credits the **work discussed**, separately from lecture/model
+provenance. Roles are `author`, `attributed_author`, `compiler`, `translator`,
+`storyteller`, `oral_tradition`, and `anonymous`. Add a `note` when attribution,
+collaboration, translation, or a received continuation needs qualification.
+Do not turn a traditional attribution into a certain historical author, credit
+an editor as the work’s author, or invent an individual author for oral material.
+
+`places` records named associations with the content, including relevant
+origins and settings. It does not assign a modern nationality, translate an
+ancient place into today’s borders, or assert that every episode occurs there.
+Use the manuscript’s geographical scope; avoid adding every incidental place
+mentioned. `periods` holds named associations such as `Early modern` or
+`Victorian era`, without inventing numerical bounds. Both fields can also be
+supplied on individual `track.json` entries. Neither inherits from broad tracks.
+
+The reader derives clickable `Place:`, `Period:`, and `Author:` tags. Valid
+`chronology` records also produce qualified date and century tags, keeping
+`Work date`, `Historical period`, `Story setting`, `Lifetime`, and
+`Surviving witness` separate. BCE has no year zero. Very broad ranges remain
+explicit ranges instead of generating thousands of misleading century tags.
+Reference publication years, lecture IDs, and casual date mentions do not
+supply chronology. Optional malformed metadata never blocks playback.
+
+Use a short, specific `description` to state what the lecture covers, what it
+explains or argues, and the scope of a multipart installment. A title repeated
+as a sentence is insufficient. The reader also exposes a compact `outline`
+from narrated headings, excluding production appendices. When no description
+is authored, existing stated aims, themes, or scope provide a preview; otherwise
+an outline preview is explicitly identified by `description_basis: "outline"`.
+Outline fallback previews are not represented as editorial summaries of prose.
+
+`/api/library/catalog` supplies descriptions, outlines, creators, place/period
+associations, searchable tags, and date coverage **without transcripts**. LLMs
+can inspect this catalog before deciding which full lectures to retrieve. For
+one known item, `/api/library/lectures/NAMESPACE:ID?summary=1` returns the compact
+metadata without source text, transcript, or recording page bodies.
+The same fields survive pack export/install and appear in the learning map.
+
+Stats at `/stats` shows place, named-period, date-axis, author, and tag coverage,
+including missing place metadata. Counts use unique lectures; overlapping places,
+periods, dates, and routes should not be added together. Missing metadata does
+not establish that the content lacks the corresponding subject or location.
+
+`python tools/enrich_discovery_metadata.py --report /tmp/discovery.json` previews
+the curated metadata backfill; `--apply` appends missing fields under the shared
+source lock. Existing descriptions and creator records win. The rule file at
+`tools/data/discovery-rules.json` records the work identities and source-based
+associations. Changes affect sidecars, never narration, IDs, or route order.
+Authoring new content should supply these fields directly rather than relying
+on the bounded backfill rules. Factual or attribution corrections still require
+source review; matching text is not independent verification.
 
 ### Dates and chronological browsing
 

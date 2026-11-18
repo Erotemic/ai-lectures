@@ -11,6 +11,7 @@ import json
 from urllib.parse import quote
 from .core import qualified, text_digest
 from .organization import collection_metadata, item_organization
+from .descriptions import description_fields
 
 
 RELATION_TYPES = {
@@ -109,6 +110,7 @@ def build_learning_map(snapshot):
             "knowledge_revision": text_digest(row.get("source") or row.get("transcript", "")),
             "estimated_minutes": round(len(row.get("transcript", "").split()) / 145, 1),
             **item_organization(row, organized_courses),
+            **description_fields(row),
         }
         metadata = row.get("metadata", {})
         learning = metadata.get("learning", {}) if isinstance(metadata, dict) else {}

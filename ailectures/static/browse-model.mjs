@@ -141,7 +141,7 @@ export function matchesLecture(key, byId, query) {
   const stable = String(key ?? "");
   const row = byId(key);
   const title = row?.title || "";
-  return `${title} ${stable} ${stable.split(":").at(-1)} ${(row?.tags || []).join(" ")}`
+  return `${title} ${stable} ${stable.split(":").at(-1)} ${(row?.tags || []).join(" ")} ${row?.description || ""} ${(row?.outline || []).join(" ")} ${(row?.creators || []).map(credit => credit.name).join(" ")}`
     .toLocaleLowerCase()
     .includes(term);
 }

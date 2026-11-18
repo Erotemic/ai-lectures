@@ -49,3 +49,20 @@ assert.equal(next.lectures, stats.lectures);
 assert.equal(next.words, stats.words);
 assert.equal(next.complete + next.partial + next.missing, next.lectures);
 console.log("Library statistics: identity, overlap, estimates, and readiness checks passed.");
+
+const coverage = libraryStats({ lectures: [
+  { id: "work:one", words: 145, places: ["Dublin", "Dublin"], periods: ["Modernism"],
+    time_coverage: { work: ["20th century CE"], setting: ["20th century CE"] },
+    creators: [{ name: "A writer", role: "author" }, { name: "A translator", role: "translator" }],
+    tags: ["Author: A writer", "Place: Dublin"], description: "A description" },
+  { id: "work:two", places: ["Dublin"], time_coverage: { work: ["20th century CE"] },
+    creators: [{ name: "A writer", role: "attributed_author" }] },
+] });
+assert.equal(coverage.places.find(row => row.title === "Dublin").lectures, 2);
+assert.equal(coverage.authors.length, 1);
+assert.equal(coverage.authors[0].lectures, 2);
+assert.equal(coverage.dates.work[0].lectures, 2);
+assert.equal(coverage.dates.setting[0].lectures, 1);
+assert.equal(coverage.withPlaces, 2);
+assert.equal(coverage.withDates, 2);
+assert.equal(coverage.withDescriptions, 1);

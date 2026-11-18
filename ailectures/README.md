@@ -36,6 +36,13 @@ Library totals count each lecture once across overlapping routes. Listening
 estimates use 145 words per minute. The former Presentations navigation tab
 has been removed; existing presentation bookmarks still work.
 
+Lecture items now show compact descriptions and work creator credits. Search
+includes descriptions, outlines, creator names, and tags. Place, named-period,
+and date tags help explore coverage; date tags distinguish publication/work,
+historical period, story setting, lifetime, and surviving witness. Stats includes
+these coverage views and work authors, with links to the corresponding tags.
+Catalog clients can inspect these fields without downloading transcripts.
+
 On phones, Menu opens all navigation and listener controls. The compact fixed
 player keeps the lecture, playing track, timeline, 15-second skips, Next and
 upcoming lecture visible. More retains native audio controls, playback speed,

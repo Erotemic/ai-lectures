@@ -40,7 +40,35 @@ export function libraryStats(catalog) {
     if (!packGroups.has(id)) packGroups.set(id, []);
     packGroups.get(id).push(row);
   }
+  const dates = {};
+  const axisNames = ["period", "work", "setting", "life", "witness"];
+  for (const axis of axisNames) {
+    const buckets = new Map();
+    for (const row of rows) for (const label of new Set(row.time_coverage?.[axis] || [])) {
+      if (!buckets.has(label)) buckets.set(label, []);
+      buckets.get(label).push(row);
+    }
+    dates[axis] = [...buckets].map(([title, members]) => {
+      const century = /^(\d+)(?:st|nd|rd|th) century (BCE|CE)$/.exec(title);
+      const start = century ? (century[2] === "BCE" ? -Number(century[1]) * 100 : (Number(century[1]) - 1) * 100 + 1)
+        : Math.min(...members.map(row => row.chronology?.[axis]?.start ?? Infinity));
+      return { title, start, ...contentTotals(members) };
+    }).sort((a, b) => a.start - b.start || a.title.localeCompare(b.title));
+  }
+  const authorRows = rows.map(row => ({ ...row, author_names: [...new Set((row.creators || [])
+    .filter(credit => ["author", "attributed_author"].includes(credit.role)).map(credit => credit.name))] }));
+  const authorGroups = new Map();
+  for (const row of authorRows) for (const name of row.author_names) {
+    if (!authorGroups.has(name)) authorGroups.set(name, []);
+    authorGroups.get(name).push(row);
+  }
   return {
+    places: grouped("places"), periods: grouped("periods"), topics: grouped("tags"), dates,
+    authors: [...authorGroups].map(([title, members]) => ({ title, ...contentTotals(members) }))
+      .sort((a, b) => b.lectures - a.lectures || a.title.localeCompare(b.title)),
+    withPlaces: rows.filter(row => row.places?.length).length,
+    withDates: rows.filter(row => Object.keys(row.time_coverage || {}).length).length,
+    withDescriptions: rows.filter(row => row.description).length,
     ...contentTotals(rows), collections: courses.length, packs: packNames.size,
     subjects: grouped("categories"), audiences: grouped("audiences"),
     packRows: [...packGroups].map(([id, members]) => ({ id, title: packNames.get(id) || (id === "unassigned" ? "Unassigned content" : id), ...contentTotals(members) }))
