@@ -1,3 +1,4 @@
+import { renderSettings } from "./settings.mjs";
 import { deploymentControls } from "./deployment.mjs";
 import { lectureTagPaths } from "./tag-browser.mjs";
 import { ReactionState, reactionControls, migrateReactions } from "./reactions.mjs";
@@ -27,7 +28,7 @@ import { renderLearningMap } from "./learning-map.mjs";
 import { showSlideCompanions } from "./slide-companions.mjs";
 import { collectionReturnPath } from "./browse-model.mjs";
 import { LectureAudio } from "./lecture-audio.mjs";
-import { listeningCourse, followingLecture } from "./playback-route.mjs";
+import { listeningCourse, followingLecture, precedingLecture } from "./playback-route.mjs";
 import { renderLearningPlan } from "./learning-plan.mjs";
 import { migrateLearningState } from "./learning-state.mjs";
 import { dateAxes, chronologyLine } from "./chronology.mjs";
@@ -234,6 +235,20 @@ async function enqueueEntries(entries, { play = false } = {}) {
 const continuation = $("continue-course");
 continuation.checked = getStored("continue-course", true);
 continuation.onchange = () => store("continue-course", continuation.checked);
+$("previous-lecture").onclick = async () => {
+  try {
+    if (playingQueueEntry) {
+      await listeningQueue.previous(playingQueueEntry.id);
+      await updatePlaybackRoute();
+      return;
+    }
+    if (!player.row) return;
+    const { course, previous } = precedingLecture(catalog.courses, player.course, player.row.id);
+    if (!previous || !byId(previous)) return;
+    if (byId(previous).kind === "presentation") location.assign(lectureLink(previous, course.id));
+    else await navigate(lectureLink(previous, course.id), true);
+  } catch (error) { message(error.message); }
+};
 $("next-lecture").onclick = () => Promise.resolve(player.next()).catch((error) => message(error.message));
 $("skip-back").onclick = () => player.seekBy(-15);
 $("skip-forward").onclick = () => player.seekBy(15);
@@ -262,11 +277,21 @@ async function updatePlaybackRoute() {
   }
   $("playing-title").href = lectureLink(row.id, player.course);
   $("playing-title").title = "Open lecture: " + row.title;
-  $("return-to-lecture").href = lectureLink(row.id, player.course);
+  const returnLink = $("return-to-lecture");
+  const returnHref = lectureLink(row.id, player.course);
+  const viewedRelease = new URLSearchParams(location.search).get("release");
+  const alreadyHere = location.pathname === new URL(returnHref, location.origin).pathname
+    && (!viewedRelease || viewedRelease === row.origin.release)
+    && lectureAudio?.row.revision === row.revision;
+  returnLink.setAttribute("aria-disabled", String(alreadyHere));
+  returnLink.title = alreadyHere ? "You are viewing the playing lecture" : "Open the playing lecture without interrupting playback";
+  if (alreadyHere) { returnLink.removeAttribute("href"); returnLink.tabIndex = -1; }
+  else { returnLink.href = returnHref; returnLink.removeAttribute("tabindex"); }
   const track = $("playing-track");
   track.hidden = !course;
   track.textContent = course ? `${course.title} · ${index + 1} / ${course.lectures.length}` : "";
   track.href = course ? courseLink(course) : "/collections";
+  let previousId = precedingLecture(catalog.courses, player.course, row.id).previous;
   let nextId = next;
   let nextCourse = course?.id;
   let queued = false;
@@ -276,11 +301,16 @@ async function updatePlaybackRoute() {
     const queueIndex = entries.findIndex((entry) => entry.id === playingQueueEntry?.id);
     nextId = queueIndex >= 0 ? entries[queueIndex + 1]?.lecture_id : null;
     nextCourse = entries[queueIndex + 1]?.course_id;
+    previousId = listeningQueue.previousEntry(entries, playingQueueEntry.id)?.lecture_id;
     queued = true;
     track.hidden = false;
     track.textContent = "Listening queue";
     track.href = "/listening";
   }
+  const previousRow = byId(previousId);
+  $("previous-lecture").disabled = !previousRow;
+  $("previous-lecture").title = previousRow ? "Previous lecture: " + previousRow.title : "No previous installed lecture";
+  $("previous-lecture").setAttribute("aria-label", previousRow ? "Play previous: " + previousRow.title : "No previous installed lecture");
   const nextRow = byId(nextId);
   $("next-lecture").disabled = !nextRow;
   $("next-lecture").title = nextRow ? "Next lecture: " + nextRow.title : "No next installed lecture";
@@ -1105,6 +1135,7 @@ async function navigate(path, autoplay = false) {
 }
 document.addEventListener("click", (event) => {
   const a = event.target.closest("a[data-nav]");
+  if (a?.getAttribute("aria-disabled") === "true") { event.preventDefault(); return; }
   if (
     !a ||
     event.ctrlKey ||
@@ -1156,6 +1187,7 @@ document.addEventListener("keydown", (event) => {
 });
 async function render(autoplay = false) {
   renderToken++;
+  updatePlaybackRoute();
   message("");
   for (const a of document.querySelectorAll("header nav a"))
     a.setAttribute(
@@ -1192,9 +1224,11 @@ async function render(autoplay = false) {
       link, profile, message,
       enqueue: enqueueEntries,
     });
+    else if (path === "/settings") await renderSettings($("main"), { message, player });
     else if (path === "/production") await production.render($("main"));
     else browse();
     document.title = ($("main").querySelector("h1")?.textContent || "Library") + " · AI Lectures";
+    await updatePlaybackRoute();
   } catch (e) {
     message(e.message);
   }

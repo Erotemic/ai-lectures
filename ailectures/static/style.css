@@ -583,6 +583,7 @@ footer {
 #playing-track { color: var(--muted); font-weight: 400; font-size: 0.78rem; }
 .player-controls {
   display: flex;
+  flex-wrap: wrap;
   gap: 0.8rem;
   align-items: center;
   margin: 0.5rem 0;
@@ -605,6 +606,7 @@ audio {
 #player-options label { min-width: 0; }
 #player-options select { max-width: 100%; }
 .player-hint { font-size: 0.78rem; margin: 0.5rem 0 0; }
+#return-to-lecture[aria-disabled="true"] { color: var(--muted); text-decoration: none; cursor: default; }
 .player-links { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.3rem 1rem; font-size: 0.78rem; }
 #up-next { min-width: 0; font-size: 0.78rem; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; margin: 0; }
 .timeline {
@@ -975,3 +977,5 @@ progress {
 }
 
 .tag-browser > .filters select, .tag-browser > .filters input[type="search"] { height: 2.85rem; }
+
+.voice-settings-list { display: grid; grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr)); gap: 0.35rem 1rem; max-height: 24rem; overflow: auto; margin: 0.7rem 0; }

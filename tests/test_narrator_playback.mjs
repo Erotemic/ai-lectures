@@ -104,7 +104,7 @@ assert.equal(playedNext,null);
 player.continueBlocks=()=>true;
 audio.onended();
 assert.equal(playedNext,1);
-console.log('One-block default, bounded lookahead, and opt-in continuation passed');
+console.log('Bounded lookahead and saved continuation choices passed');
 
 const sparse={...installed,id:'sparse',complete:false,segments:[installed.segments[0]]};
 assert.deepEqual(narratorInventory({...choice,recording_id:sparse.id},{...row,recordings:[sparse]},[{...pending,inventory:{states:['missing','ready']}}],['One.','Two.']).states,['ready','ready']);
@@ -199,3 +199,12 @@ preview.play();
 assert.equal(activation,true);
 assert.deepEqual(oldPlayer.played,[0,null]);
 console.log('Lecture browsing preserves the active player until explicit playback takes ownership');
+
+// Manual quick-select policies hide an unselected prepared voice, while More
+// voices uses the original unfiltered catalog and the current choice stays visible.
+const manualChoices=[{key:'hidden',recording_id:installed.id,quick_select:false},
+  {key:'pinned',profile:'kokoro',quick_select:true}];
+assert.deepEqual(voiceGroups(manualChoices,row,[],installed.pages,'pinned').flatMap(g=>g.choices.map(c=>c.key)),['pinned']);
+assert.ok(voiceGroups(manualChoices,row,[],installed.pages,'hidden').some(g=>g.choices.some(c=>c.key==='hidden')));
+assert.equal(preferredNarrator([{key:'prepared',recording_complete:true},{key:'default',server_default:true}],{}).key,'default');
+assert.equal(preferredNarrator([{key:'prepared',recording_complete:true},{key:'default',server_default:true}],{},{remembered:'prepared'}).key,'prepared');

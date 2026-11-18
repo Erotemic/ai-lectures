@@ -25,7 +25,8 @@
         ><a href="/listening" data-nav>Listening</a
         ><a href="/packs" data-nav>Packs</a
         ><a href="/production" data-nav>Production</a
-        ><a href="/stats" data-nav>Stats</a>
+        ><a href="/stats" data-nav>Stats</a
+        ><a href="/settings" data-nav>Settings</a>
       </nav>
       <div class="listener">
         <label for="listener">Listener</label
@@ -85,10 +86,11 @@
         <button id="skip-back" type="button" aria-label="Back 15 seconds">−15</button>
         <button id="toggle-play" class="primary" type="button">Play</button>
         <button id="skip-forward" type="button" aria-label="Forward 15 seconds">+15</button>
+        <button id="previous-lecture" type="button" disabled>Previous</button>
         <button id="next-lecture" type="button" disabled>Next</button>
         <button id="toggle-player-options" type="button" aria-controls="player-options" aria-expanded="false">More</button>
       </div>
-      <div class="player-links"><a id="return-to-lecture" href="/" data-nav>Return to lecture</a><p id="up-next" class="muted"></p></div>
+      <div class="player-links"><a id="return-to-lecture" role="link" href="/" data-nav>Return to lecture</a><p id="up-next" class="muted"></p></div>
       <div id="player-options" hidden>
         <p id="playing-note" class="muted"></p>
         <audio id="audio" controls preload="metadata"></audio>

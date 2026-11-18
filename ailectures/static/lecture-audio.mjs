@@ -42,10 +42,12 @@ export function voiceGroups(choices, row, jobs, pages, selected) {
   ];
   for (const choice of choices) {
     const { states, job } = narratorInventory(choice, row, jobs, pages);
+    const generating = ["queued", "running"].includes(job?.state);
+    if (choice.quick_select === false && choice.key !== selected && !generating) continue;
     if (states.includes("ready")) groups[0].choices.push(choice);
     else if (["queued", "running"].includes(job?.state))
       groups[1].choices.push(choice);
-    else if (choice.profile_default || choice.key === selected)
+    else if (choice.quick_select || choice.profile_default || choice.key === selected)
       groups[2].choices.push(choice);
   }
   return groups.filter((group) => group.choices.length);
@@ -115,6 +117,7 @@ export function preferredNarrator(
     choices.find(
       (choice) => choice.recording_id && choice.recording_id === recordingId,
     ) ||
+    choices.find((choice) => choice.server_default) ||
     choices.find(
       (choice) =>
         choice.profile === data.preferred_profile && choice.profile_default,
@@ -231,7 +234,7 @@ export class LectureAudio {
       type: "checkbox",
       "aria-label": "Continue to next blocks",
     });
-    this.continueBlocks.checked = getStored("continue-blocks", false);
+    this.continueBlocks.checked = getStored("continue-blocks", true);
     this.ahead = el("input", {
       type: "number",
       min: "0",
@@ -239,7 +242,7 @@ export class LectureAudio {
       step: "1",
       "aria-label": "Blocks ahead",
     });
-    this.ahead.value = String(getStored("blocks-ahead", 1));
+    this.ahead.value = String(getStored("blocks-ahead", 2));
     this.ahead.disabled = !this.continueBlocks.checked;
     this.status.textContent = "Loading voices…";
     this.continueBlocks.onchange = () => {
@@ -266,7 +269,7 @@ export class LectureAudio {
       el("div", { class: "filters" },
         el("label", { class: "check" }, this.continueBlocks, "Continue to next blocks"),
         el("label", {}, "Blocks ahead", this.ahead)),
-      el("p", { class: "muted", text: "Complete prepared recordings play through by default. Turn off block continuation to study one passage. For missing audio, continuation and lookahead generate additional blocks only when you enable them." }),
+      el("p", { class: "muted", text: "Continuous playback and two blocks ahead are on by default. Turn off continuation to study one passage. Lookahead generates missing upcoming blocks; prepared audio is reused." }),
       this.generations, this.blocks,
       this.speechSettings,
     );
@@ -419,7 +422,7 @@ export class LectureAudio {
       this.course,
     );
     if (this.continueBlocks) {
-      this.continueBlocks.checked = getStored("continue-blocks", Boolean(this.player.recording?.complete));
+      this.continueBlocks.checked = getStored("continue-blocks", true);
       if (this.ahead) this.ahead.disabled = !this.continueBlocks.checked;
     }
     this.target = !this.player.recording

@@ -130,6 +130,9 @@ class GenerationManager:
         retry_delay=5,
         lease_seconds=60,
     ):
+        from .settings import ServerSettings
+
+        self.preferences = ServerSettings(library.store.state)
         self.library = library
         self.config = config
         self.repository = Path(repository) if repository else None
@@ -156,6 +159,7 @@ class GenerationManager:
             from dkvis.presentation.tts import load_profiles, resolve_profile
 
             document = load_profiles(self.config)
+            preferences = self.preferences.read()
             rows = []
             errors = []
             for key in document.get("profiles", {}):
@@ -168,8 +172,10 @@ class GenerationManager:
                     {
                         "id": key,
                         "label": profile.get("display_name", key),
-                        "output_format": os.environ.get("DKVIS_AUDIO_OUTPUT_FORMAT") or profile.get("output_format", "ogg"),
+                        "output_format": os.environ.get("DKVIS_AUDIO_OUTPUT_FORMAT")
+                        or profile.get("output_format", "ogg"),
                         "voice": os.environ.get("DKVIS_AUDIO_TTS_VOICE")
+                        or preferences["profiles"].get(key, {}).get("default_voice")
                         or profile["voice"],
                         "model": os.environ.get("DKVIS_AUDIO_TTS_MODEL")
                         or profile["model"],
@@ -214,6 +220,7 @@ class GenerationManager:
                 (
                     key
                     for key in (
+                        preferences["default_profile"],
                         self.default_profile,
                         os.environ.get("DKVIS_AUDIO_TTS_PROFILE"),
                         document.get("profile"),
@@ -259,7 +266,12 @@ class GenerationManager:
 
         config = resolve_profile(load_profiles(self.config), profile)
         profile = config["profile"]
-        default_voice = os.environ.get("DKVIS_AUDIO_TTS_VOICE") or config["voice"]
+        policy = self.preferences.read()["profiles"].get(profile, {})
+        default_voice = (
+            os.environ.get("DKVIS_AUDIO_TTS_VOICE")
+            or policy.get("default_voice")
+            or config["voice"]
+        )
         store = self.voice_store()
         registered = store.registered(profile)
         available = store.catalog(profile)
@@ -273,7 +285,9 @@ class GenerationManager:
             if fetched:
                 available = store.catalog(profile, fetched)
         names = sorted(
-            set(available) | {default_voice} | {row["voice"] for row in registered}
+            set(available)
+            | {default_voice, config["voice"]}
+            | {row["voice"] for row in registered}
         )
         return dict(
             profile=profile,
@@ -334,13 +348,14 @@ class GenerationManager:
         if speed > 2:
             raise ValueError("Invalid speech speed")
         profiles = self.profiles()
+        preferences = self.preferences.read()
         choices = []
         cache_epochs = self.jobs.cache_epochs()
         matched = set()
         pages = next((rec["pages"] for rec in row["recordings"]), [row["transcript"]])
         if profiles["profiles"]:
             from dkvis.presentation.audio_library import split_pages
-            from dkvis.presentation.tts import load_profiles
+            from dkvis.presentation.tts import load_profiles, resolve_profile
 
             pages = split_pages(
                 row["transcript"],
@@ -349,6 +364,10 @@ class GenerationManager:
             document = load_profiles(self.config)
             for profile in profiles["profiles"]:
                 voices = self.voices(profile["id"])
+                original_voice = (
+                    os.environ.get("DKVIS_AUDIO_TTS_VOICE")
+                    or resolve_profile(document, profile["id"])["voice"]
+                )
                 labels = {v["voice"]: v["label"] for v in voices["registered"]}
                 for voice in dict.fromkeys([profile["voice"], *voices["voices"]]):
                     _, configuration = self._configuration(
@@ -381,7 +400,7 @@ class GenerationManager:
                         for r in row["recordings"]
                         if not r.get("generator")
                         and r.get("label") == profile["id"]
-                        and voice == profile["voice"]
+                        and voice == original_voice
                         and speed == 1
                         and r["pages"] == pages
                     ]
@@ -406,11 +425,11 @@ class GenerationManager:
                             recording_complete=bool(
                                 recording and recording["complete"]
                             ),
-                            base_recording_id=max(
-                                legacy, key=lambda r: len(r["segments"])
-                            )["id"]
-                            if legacy
-                            else None,
+                            base_recording_id=(
+                                max(legacy, key=lambda r: len(r["segments"]))["id"]
+                                if legacy
+                                else None
+                            ),
                             aliases=["recording:" + r["variant"] for r in legacy],
                         )
                     )
@@ -424,6 +443,22 @@ class GenerationManager:
                         recording_complete=recording["complete"],
                     )
                 )
+        from .settings import voice_identity
+
+        recordings_by_id = {r["id"]: r for r in row["recordings"]}
+        for choice in choices:
+            profile, voice = (
+                (choice["profile"], choice["voice"])
+                if choice.get("profile")
+                else voice_identity(recordings_by_id[choice["recording_id"]])
+            )
+            policy = preferences["profiles"].get(profile, {})
+            quick = policy.get("quick_voices")
+            choice["quick_select"] = voice in quick if quick is not None else None
+            choice["server_default"] = (
+                preferences["default_profile"] == profile
+                and policy.get("default_voice") == voice
+            )
         return dict(**profiles, choices=choices, pages=pages)
 
     def prepare_many(
@@ -460,11 +495,18 @@ class GenerationManager:
         from dkvis.presentation.tts import load_profiles
 
         document = load_profiles(self.config)
+        if voice is None:
+            voice = (
+                self.preferences.read()["profiles"]
+                .get(profile, {})
+                .get("default_voice")
+            )
         config, configuration = self._configuration(
             document, profile, voice, self.endpoint
         )
-        default_voice = next(
-            row["voice"] for row in profiles["profiles"] if row["id"] == profile
+        default_voice = (
+            os.environ.get("DKVIS_AUDIO_TTS_VOICE")
+            or self._configuration(document, profile, None, self.endpoint)[0]["voice"]
         )
         if base_recording_id is not None and len(lecture_ids) != 1:
             raise ValueError("Extend a recording within one lecture")
@@ -1091,8 +1133,11 @@ class GenerationManager:
                 or configuration["environment"].get("DKVIS_AUDIO_TTS_VOICE")
                 or config["voice"]
             )
-            default = next(
-                p["voice"] for p in self.profiles()["profiles"] if p["id"] == profile
+            default = (
+                os.environ.get("DKVIS_AUDIO_TTS_VOICE")
+                or self._configuration(
+                    load_profiles(self.config), profile, None, self.endpoint
+                )[0]["voice"]
             )
             recordings = [
                 r

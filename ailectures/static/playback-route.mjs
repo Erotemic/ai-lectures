@@ -18,3 +18,8 @@ export function followingLecture(courses, courseId, lectureId) {
   if (index < 0) return { course: null, index: -1, next: null };
   return { course, index, next: course.lectures[index + 1] || null };
 }
+
+export function precedingLecture(courses, courseId, lectureId) {
+  const { course, index } = followingLecture(courses, courseId, lectureId);
+  return { course, index, previous: index > 0 ? course.lectures[index - 1] : null };
+}

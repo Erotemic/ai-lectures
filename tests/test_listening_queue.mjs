@@ -54,3 +54,20 @@ controller.edit=async()=>{throw Error('Automatic presentation transition consume
 await controller.advance(one.id,true);
 assert.equal(played.length,1);
 console.log('Queue continuation retains listener identity and handles concurrent edits and presentations');
+
+// Previous restores a consumed occurrence, keeping Next's queue order intact.
+let entries=[one,three,two];
+const navigation=new ListeningQueue({profile:()=>null,lectures:()=>[one,two,three].map(entry=>({id:entry.lecture_id})),play:entry=>{played.push(entry);},message:text=>messages.push(text)});
+navigation.read=async()=>entries;
+navigation.edit=async operation=>(entries=editDeviceQueue(entries,operation));
+assert.equal(navigation.previousEntry(entries,one.id),null);
+await navigation.advance(one.id);
+assert.deepEqual(entries,[three,two]);
+assert.equal(navigation.previousEntry(entries,three.id).id,one.id);
+await navigation.previous(three.id);
+assert.deepEqual(entries,[one,three,two]);
+assert.equal(played.at(-1).id,one.id);
+await navigation.advance(one.id);
+assert.equal(played.at(-1).id,three.id);
+assert.equal(navigation.previousEntry(entries,three.id,'another-listener'),null);
+console.log('Previous restores consumed queue items and keeps history scoped to the listener');

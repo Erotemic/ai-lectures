@@ -40,13 +40,20 @@ STATIC = Path(__file__).with_name("static")
 class LazyLegacy:
     """Load the old presentation/reader app only when one of its URLs is opened."""
 
-    def __init__(self, factory):
+    def __init__(self, factory, disabled=lambda: False):
+        self.disabled = disabled
         self.factory = factory
         self.app = None
         self.context = None
         self.lock = asyncio.Lock()
 
     async def __call__(self, scope, receive, send):
+        if self.disabled():
+            await JSONResponse(
+                {"error": "Compatibility production is disabled in playback-only mode"},
+                status_code=403,
+            )(scope, receive, send)
+            return
         async with self.lock:
             if self.app is None:
                 self.app = await run_in_threadpool(self.factory)
@@ -85,9 +92,18 @@ def create_app(
         pins=pins,
         excluded=excluded,
     )
+    from .settings import ServerSettings, voice_identity
+
+    preferences = ServerSettings(library.store.state)
+
+    def playback_disabled():
+        return playback_only or preferences.read()["playback_only"]
+
     listeners = ListenerState(library.store.state)
     legacy = (
-        LazyLegacy(legacy_factory) if legacy_factory and not playback_only else None
+        LazyLegacy(legacy_factory, disabled=playback_disabled)
+        if legacy_factory and not playback_only
+        else None
     )
     producer = generation_manager
     slide_service = slide_companion_service
@@ -96,12 +112,15 @@ def create_app(
     catalog_lock = threading.Lock()
 
     def production():
-        nonlocal producer
-        if playback_only:
+        if playback_disabled():
             raise HTTPException(
                 403,
                 "Audio generation and cache clearing are disabled on this playback-only server",
             )
+        return configured_production()
+
+    def configured_production():
+        nonlocal producer
         if producer is None:
             from .production import GenerationManager
 
@@ -569,7 +588,7 @@ def create_app(
         return JSONResponse(result, status_code=201)
 
     def production_profiles(request):
-        if playback_only:
+        if playback_disabled():
             return JSONResponse(
                 {
                     "profiles": [],
@@ -590,9 +609,11 @@ def create_app(
             if release
             else library.snapshot(copy=False)["lectures"][key]
         )
-        if playback_only:
+        if playback_disabled():
+            policy = preferences.read()
             return JSONResponse(
                 dict(
+                    default_profile=policy["default_profile"],
                     profiles=[],
                     tools_available=False,
                     playback_only=True,
@@ -605,6 +626,7 @@ def create_app(
                             label=r.get("label") or r["variant"],
                             recording_id=r["id"],
                             recording_complete=r["complete"],
+                            **prepared_preferences(r, policy),
                         )
                         for r in row["recordings"]
                     ],
@@ -664,6 +686,135 @@ def create_app(
                 payload.get("label"),
             ),
             status_code=201,
+        )
+
+    def prepared_preferences(recording, policy):
+        profile, voice = voice_identity(recording)
+        selected = policy["profiles"].get(profile, {})
+        quick = selected.get("quick_voices")
+        return dict(
+            aliases=[f"tts:{profile}:{voice}"] if profile != "prepared" else [],
+            quick_select=voice in quick if quick is not None else None,
+            server_default=policy["default_profile"] == profile
+            and selected.get("default_voice") == voice,
+        )
+
+    def settings_document(*, probe_profile=None):
+        configuration = preferences.read()
+        manager = configured_production()
+        configured = manager.profiles(probe=False)
+        profiles = {
+            row["id"]: dict(row, configured=True) for row in configured["profiles"]
+        }
+        voices = {}
+        for key, row in profiles.items():
+            voices[key] = manager.voices(key, probe=key == probe_profile)
+        for row in library.snapshot(copy=False)["lectures"].values():
+            for recording in row["recordings"]:
+                key, voice = voice_identity(recording)
+                if key not in profiles:
+                    profiles[key] = dict(
+                        id=key,
+                        label=key if key != "prepared" else "Prepared recordings",
+                        configured=False,
+                        voice=voice,
+                        model=recording.get("generator", {}).get("model"),
+                        output_format=recording.get("generator", {}).get(
+                            "output_format"
+                        ),
+                    )
+                    voices[key] = dict(voices=[], registered=[], default_voice=voice)
+                if voice not in voices[key]["voices"]:
+                    voices[key]["voices"].append(voice)
+                if (
+                    not profiles[key]["configured"]
+                    and recording.get("label")
+                    and not any(
+                        item["voice"] == voice for item in voices[key]["registered"]
+                    )
+                ):
+                    voices[key]["registered"].append(
+                        dict(voice=voice, label=recording["label"])
+                    )
+        return dict(
+            configuration=configuration,
+            revision=digest(configuration),
+            playback_only=playback_disabled(),
+            playback_locked=bool(playback_only),
+            profiles=list(profiles.values()),
+            voices=voices,
+            tools_available=configured["tools_available"],
+        )
+
+    async def server_settings(request):
+        if request.method == "GET":
+            return JSONResponse(await run_in_threadpool(settings_document))
+        require_local_action(request)
+        payload = await body(request)
+        document = payload["configuration"]
+        # Validate before applying any runtime effects.
+        current = await run_in_threadpool(settings_document)
+        ServerSettings.validate(document)
+        if playback_only and not document.get("playback_only"):
+            raise ValueError(
+                "Playback-only mode was set at startup; restart without that flag to enable generation"
+            )
+        available = current["voices"]
+        if (
+            document.get("default_profile") is not None
+            and document["default_profile"] not in available
+        ):
+            raise ValueError("Select an available profile")
+        for profile, policy in document.get("profiles", {}).items():
+            if profile not in available:
+                if policy == current["configuration"]["profiles"].get(profile):
+                    continue
+                raise ValueError("Unknown voice profile")
+            if not isinstance(policy, dict):
+                raise ValueError("Invalid voice preferences")
+            known = available[profile]["voices"]
+            if (
+                policy.get("default_voice") is not None
+                and policy["default_voice"] not in known
+            ):
+                raise ValueError("Select an available default voice")
+            if policy.get("quick_voices") is not None and (
+                not isinstance(policy["quick_voices"], list)
+                or any(v not in known for v in policy["quick_voices"])
+            ):
+                raise ValueError("Select available quick-select voices")
+        await run_in_threadpool(
+            preferences.save, document, expected=payload["revision"]
+        )
+        if (
+            playback_disabled()
+            and not current["playback_only"]
+            and producer is not None
+        ):
+            for job in producer.list():
+                if job["state"] in {"queued", "running"}:
+                    await run_in_threadpool(producer.cancel, job["id"])
+        elif not playback_disabled():
+            # Resuming configured serving makes durable queued work eligible again.
+            await run_in_threadpool(configured_production().tick)
+        return JSONResponse(await run_in_threadpool(settings_document))
+
+    async def settings_voices(request):
+        require_local_action(request)
+        payload = await body(request)
+        profile = payload["profile"]
+        manager = configured_production()
+        if not any(row["id"] == profile for row in manager.profiles()["profiles"]):
+            raise ValueError("Select a configured TTS profile")
+        if "voice" in payload:
+            await run_in_threadpool(
+                manager.register_voice, profile, payload["voice"], payload.get("label")
+            )
+        return JSONResponse(
+            await run_in_threadpool(
+                settings_document,
+                probe_profile=profile if payload.get("refresh") else None,
+            )
         )
 
     async def clear_voice_cache(request):
@@ -745,7 +896,7 @@ def create_app(
         )
 
     def jobs(request):
-        if playback_only:
+        if playback_disabled():
             return JSONResponse({"jobs": []})
         lecture_id = request.query_params.get("lecture_id")
         return JSONResponse(
@@ -789,7 +940,7 @@ def create_app(
         while True:
             try:
                 await run_in_threadpool(library.store.reconcile)
-                if producer is not None and not playback_only:
+                if producer is not None and not playback_disabled():
                     await run_in_threadpool(producer.tick)
             except (OSError, ValueError) as exc:
                 library.store.errors = [str(exc)]
@@ -801,7 +952,7 @@ def create_app(
         with media_lock(library.store.root):
             # Inspect durable intent without importing renderers for an ordinary reader.
             if (
-                not playback_only
+                not playback_disabled()
                 and (library.store.state / "production.sqlite3").exists()
             ):
                 from .jobs import JobStore
@@ -843,6 +994,7 @@ def create_app(
             "/learning-map",
             "/learning-plan",
             "/production",
+            "/settings",
         ]
     ]
     routes += [
@@ -853,9 +1005,13 @@ def create_app(
         Route("/api/library/storage/gc", garbage_preview),
         Route("/api/library/learning-map", learning_map),
         Route("/api/library/learning-plan", learning_plan, methods=["POST"]),
-        Route("/api/listeners/{profile}/learning", learning_state, methods=["GET", "POST"]),
+        Route(
+            "/api/listeners/{profile}/learning", learning_state, methods=["GET", "POST"]
+        ),
         Route("/api/library/slide-decks", slide_decks),
-        Route("/api/library/slide-decks/{deck_id}/build", slide_build, methods=["POST"]),
+        Route(
+            "/api/library/slide-decks/{deck_id}/build", slide_build, methods=["POST"]
+        ),
         Route("/api/library/slide-decks/{deck_id}/html", slide_html),
         Route("/api/library/slide-decks/{deck_id}", slide_status),
         Route("/api/library/exports", pack_export, methods=["POST"]),
@@ -882,6 +1038,8 @@ def create_app(
         Route("/api/library/feedback/status", feedback_status, methods=["POST"]),
         Route("/api/library/feedback/import", feedback_import, methods=["POST"]),
         Route("/api/library/packs", pack_change, methods=["POST"]),
+        Route("/api/library/settings", server_settings, methods=["GET", "POST"]),
+        Route("/api/library/settings/voices", settings_voices, methods=["POST"]),
         Route("/api/library/production", production_profiles),
         Route("/api/library/production/narrators", production_narrators),
         Route("/api/library/production/voices", production_voices),

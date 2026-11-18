@@ -671,6 +671,28 @@ A bibliography-only revision can reuse unchanged speech. Edited speech cannot
 inherit an older recording as if it spoke the new words. Active players keep
 their chosen revision and immutable media URLs while the library refreshes.
 
+## Server and voice settings
+
+Open **Settings** to choose the server’s default TTS profile and each profile’s
+voice default and quick-select voices. Turn off **Automatic quick select** to
+choose the shortlist explicitly; **More voices** keeps the complete catalog.
+Active generation and the selected voice remain accessible. Voice catalogs can
+be refreshed, and voice IDs can be registered with a display name. Prepared-only
+servers can manage voices from their installed recordings without a TTS connection.
+
+These shared preferences persist in local server state and travel in library
+backups, not content-pack exports. Existing device voice choices take precedence;
+**Use server default on this device** applies the shared default to future
+lecture selections without interrupting playback. **Playback on this device**
+saves continuous playback and blocks-ahead choices immediately. Their defaults
+are on and two blocks ahead; saved choices remain in effect.
+
+Settings also exposes playback-only serving. Turning it on stops pending
+library generation and hides generation/cache-clearing controls. A playback-only
+flag supplied at startup remains authoritative and cannot be disabled through
+the page. TTS connections, models, and audio formats remain in the server’s TTS
+configuration; Settings displays the configured model and output format.
+
 ## Playback-only serving
 
 For a machine serving existing recordings without an inference service:
@@ -696,7 +718,8 @@ default per configured TTS profile, and the current selection. **More voices**
 opens the searchable full catalog, including other Kokoro voices. **Use this voice**
 changes the same playback/generation selection without starting synthesis.
 Each choice shows its generated-block count. **Play** generates only the selected
-block if needed, plays it, and stops at its end by default. Selecting another voice
+block if needed and plays it. Continuous playback defaults to on with two
+blocks ahead; saved device preferences take precedence. Selecting another voice
 keeps the same block and starts it from the beginning, making comparisons easy.
 It never substitutes a different narrator. Check **Continue to next blocks** to
 advance automatically. **Blocks ahead** sets the number of upcoming blocks to
@@ -722,7 +745,9 @@ and pending-playback cancellation state. Browsing collections or another lecture
 keeps the current recording playing; press Play on the new lecture to switch.
 **Return to lecture** opens the playing transcript at its current position.
 The footer shows a clickable next title for previewing the next lecture;
-**Next** starts it. Both follow the active listening queue or playing track,
+**Next** starts it; **Previous** plays the preceding item, including one just
+consumed from the listening queue. **Return to lecture** is disabled when the
+playing lecture is already open. These controls follow the active listening queue or playing track,
 including when you browse elsewhere.
 
 The Production page retains configured TTS profiles, remembered voice choices,

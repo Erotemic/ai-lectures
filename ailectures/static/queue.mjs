@@ -29,6 +29,7 @@ export function editDeviceQueue(entries, operation) {
 export class ListeningQueue {
   constructor({ profile, lectures, play, message, onChange }) {
     Object.assign(this, { profile, lectures, play, message, onChange });
+    this.playbackHistory = new Map();
   }
   async read(selected = this.profile()) {
     const key = "queue:" + (selected || "device");
@@ -82,9 +83,12 @@ export class ListeningQueue {
       if (next) {
         if (!remaining.some((entry) => entry.id === next.id))
           return this.message("The next queued lecture was removed. Choose the next lecture in Listening.");
-        if (this.lectures().some((row) => row.id === next.lecture_id))
+        if (this.lectures().some((row) => row.id === next.lecture_id)) {
           await this.play(next, automatic);
-        else
+          const history = this.playbackHistory.get(selected) || [];
+          history.push({ from: entries[index], to: next.id });
+          this.playbackHistory.set(selected, history);
+        } else
           this.message(
             "The next queued lecture is not installed. Your queue is retained in Listening.",
           );
@@ -94,6 +98,38 @@ export class ListeningQueue {
     } finally {
       this.advancing = false;
     }
+  }
+  previousEntry(entries, id, selected = this.profile()) {
+    const index = entries.findIndex(entry => entry.id === id);
+    if (index < 0) return null;
+    if (index > 0) return entries[index - 1];
+    const last = this.playbackHistory.get(selected)?.at(-1);
+    return last?.to === id ? last.from : null;
+  }
+  async previous(id) {
+    if (this.advancing) return;
+    this.advancing = true;
+    try {
+      const selected = this.profile();
+      const entries = await this.read(selected);
+      if (selected !== this.profile()) return;
+      const previous = this.previousEntry(entries, id, selected);
+      if (!previous) return this.message("No previous item in this listening queue.");
+      if (!this.lectures().some(row => row.id === previous.lecture_id))
+        return this.message("The previous queued lecture is not installed on this server.");
+      if (!entries.some(entry => entry.id === previous.id)) {
+        // Next consumes its current item. Restore that occurrence immediately
+        // before the current one so Next can return here after going back.
+        await this.edit({ action: "add", entry: previous }, selected);
+        if (selected !== this.profile()) return;
+        await this.edit({ action: "move", id: previous.id, before: id }, selected);
+        if (selected !== this.profile()) return;
+      }
+      await this.play(previous);
+      const history = this.playbackHistory.get(selected);
+      if (history?.at(-1)?.from.id === previous.id && history.at(-1).to === id) history.pop();
+    } catch (error) { this.message(error.message); }
+    finally { this.advancing = false; }
   }
   async render(container) {
     this.container = container;

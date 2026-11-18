@@ -19,3 +19,8 @@ assert.equal(followingLecture(courses, branch.id, c).next, null);
 assert.deepEqual(followingLecture(courses, branch.id, b), { course: null, index: -1, next: null });
 assert.deepEqual(followingLecture(courses, "removed", a), { course: null, index: -1, next: null });
 console.log("Playback follows the selected route, with honest end and missing-membership behavior");
+const {precedingLecture}=await import('../ailectures/static/playback-route.mjs');
+assert.equal(precedingLecture(courses,branch.id,c).previous,a);
+assert.equal(precedingLecture(courses,survey.id,b).previous,a);
+assert.equal(precedingLecture(courses,survey.id,a).previous,null);
+assert.equal(precedingLecture(courses,'removed',c).previous,null);
