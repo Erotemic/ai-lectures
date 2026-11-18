@@ -30,3 +30,11 @@ The `metadata/<lecture-id>.json` companion contains optional additional informat
 7. **Keep spoken narration intelligible.** Rich indexing belongs in metadata and nonspoken companions; lectures should explain chronology naturally rather than read out the tags.
 
 This change introduces three substantive biographies: `127000` Huygens (Dutch Republic, France, England; 1629–1695), `128000` Seki (Japan, c. 1640s–1708), and `129000` Blackwell (United States, 1919–2010). Each includes audited source IDs, important years, relevant geographic tags, and chronological work and place records.
+
+## Additional coverage examples (130000–132000)
+
+- `130000` records **Ulugh Beg** as born in Soltaniyeh (modern Iran), governing and working in Samarqand (modern Uzbekistan), within the Timurid Empire. His published influence at Oxford in 1665 and archaeological reception in 1908 use `Reception year:` tags rather than claims of personal travel or lifetime work. The school and observatory's exact founding dates differ across sources; the metadata uses broad, qualified intervals.
+- `131000` records **Alberto Calderón** in Mendoza, schooling near Zug, Buenos Aires, Chicago, and Cambridge, Massachusetts. Repeated institutional appointments have separate intervals; approximation flags do not mean continuous physical residence. Inverse conductivity chronology is pinned to the 1980 paper, not to later proofs by his successors.
+- `132000` records **Chike Obi** in Zaria, Onitsha, Lagos, Ibadan, both distinct Cambridges, and a documented 1958 London political visit. His University of London *external degree* alone would not justify mapping him to London. The 1985 ICTP prize and 1986 ceremony at Trieste are different event types.
+
+A `Reception year:` tag denotes the lecture's account of transmission or later rediscovery, not a lifetime event. This is an authoring convention for future indexing; it is not yet a special reader-supported query axis. Every map or query system should distinguish `chronology.life`, `chronology.work`, later reception and the richer `spacetime_coverage.places` role/interval entries rather than merging their spans.
