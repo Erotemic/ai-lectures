@@ -28,7 +28,7 @@
 
 ## Worked probability and Monte Carlo foundations (016000–019000)
 
-The 12 original manuscripts remain part of the established course. These four new calculations-first manuscripts provide an independent route from elementary random variables to practical integration; lectures 013000–015000 remain reserved for the previously proposed statistical decision, Lean, and Brownian-motion topics.
+The 12 original manuscripts remain part of the established course. These four new calculations-first manuscripts provide an independent route from elementary random variables to practical integration; lectures 013000–014000 remain reserved for the previously proposed statistical decision and Lean topics; lecture 015000 now covers Brownian motion.
 
 - 016000: [Joint Distributions and Covariance, Calculated Rather Than Memorized](016000-joint-distributions-and-covariance-worked.md) — joint probability tables, conditional probabilities, covariance and variance of sums.
 - 017000: [Sampling Error: What an Estimate Actually Means](017000-sampling-error-what-an-estimate-means.md) — standard errors, coverage, Hoeffding bounds, clustered observations and estimation bias.
@@ -67,16 +67,20 @@ A common five-point dataset is carried through fitting, diagnostics, and predict
 
 **Listening route:** `probability-measure:worked-regression-prediction`, beginning with available probability, sampling-error, and estimation material. Each new lecture includes a mathematical companion with exercises, worked answers, and attributed readings.
 
-Potential future elementary gaps: multiple regression and categorical predictors, introduction to generalized linear models, and introductory Bayesian estimation with predictive checks. Reserved 013000–015000 topics remain unchanged.
+The elementary multiple-regression and generalized-linear-model topics have foundational lectures 030000 and 032000, respectively. Future elementary gaps include categorical predictor coding and introductory Bayesian estimation with predictive checks. IDs 013000–014000 remain reserved.
 
 ## Planned continuation
 
 - 013000: Statistical Decision Theory and Risk
 - 014000: Probability in Lean and Mathlib
-- 015000: Brownian Motion and Continuous-Time Modeling
+- 015000: **Completed:** Brownian Motion and Continuous-Time Modeling
 
-The remaining titles are planning proposals; see the curriculum addenda in `docs/planning/probability-measure-expansion-005000-008000-2026-11-14.md` and `docs/planning/probability-measure-expansion-009000-012000-2026-11-14.md`.
+The remaining 013000–014000 titles are planning proposals; see the curriculum addenda in `docs/planning/probability-measure-expansion-005000-008000-2026-11-14.md` and `docs/planning/probability-measure-expansion-009000-012000-2026-11-14.md`.
 
 ## Reading and source records
 
 See `metadata/sources.json` and the per-lecture sidecars. Citation details and mathematical companions remain outside the spoken narration.
+
+## Bridges: multivariate statistics and continuous-time randomness
+
+New worked statistics sequence: 029000 covariance-matrix geometry, 030000 multiple regression and partialling-out, 031000 PCA and SVD, 032000 logistic regression and likelihood. New stochastic sequence: 015000 Brownian motion from a random-walk limit, 033000 the heat equation from the master equation, 034000 Ito SDEs and numerical simulation, 035000 graph Laplacians, mixing, and spectral cuts. Each has a non-spoken mathematical companion, answers, and evidence notes. The `multivariate-statistics` and `random-walks-diffusion` listening routes reuse existing elementary material without changing the established course. The former placeholder for 015000 is now fulfilled.

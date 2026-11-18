@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "lecture_id": "017000",
+  "transcript": "017000-amortized-costs-and-growing-arrays.md",
+  "description": "Derives aggregate and potential-method bounds for dynamic-array growth and binary counters, separating amortized from average and worst-case cost.",
+  "tags": [
+    "Algorithms",
+    "Amortized analysis",
+    "Data structures",
+    "Dynamic arrays",
+    "Potential method"
+  ],
+  "tag_paths": [
+    [
+      "Mathematics",
+      "Computer science",
+      "Algorithms",
+      "Amortized analysis"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "acc-mit-amortized",
+      "reason": "Relevant mathematical exposition, definitions, proof techniques, or historical attribution; the lecture text uses original explanations and calculations."
+    },
+    {
+      "source_id": "acc-kt-amortized",
+      "reason": "Relevant mathematical exposition, definitions, proof techniques, or historical attribution; the lecture text uses original explanations and calculations."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original narrated mathematical exposition, worked computations, companion proofs and exercises."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "algorithms-computability-complexity:002000",
+        "reason": "Relevant preparation for definitions and calculations in this lecture."
+      }
+    ],
+    "background": [
+      "Numerical and proof foundations as stated at the beginning of the manuscript."
+    ],
+    "readiness_checks": [
+      "Calculate the cumulative copying cost of doubling an array.",
+      "Use a potential to bound binary-counter increments."
+    ]
+  },
+  "claim_evidence": [
+    {
+      "id": "alg-017000-c001",
+      "anchor": "The conclusion confuses the worst cost of one operation with the cost of a whole sequence of operations.",
+      "source_ids": [
+        "acc-mit-amortized",
+        "acc-kt-amortized"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Narrated explanation and mathematical companion",
+      "evidence_detail": "The author independently derives the claim in narration and companion using the cited standard mathematical framework; numerical examples are original."
+    },
+    {
+      "id": "alg-017000-c002",
+      "anchor": "The total number of flips over n increments is bounded by n plus n over two plus n over four, continuing to a total less than two n.",
+      "source_ids": [
+        "acc-mit-amortized",
+        "acc-kt-amortized"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Narrated explanation and mathematical companion",
+      "evidence_detail": "The author independently derives the claim in narration and companion using the cited standard mathematical framework; numerical examples are original."
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "lecture_id": "015000",
+  "transcript": "015000-flows-cuts-and-optimality-certificates.md",
+  "description": "Builds residual networks and bipartite matching, and proves the max-flow/min-cut certificate from a final residual reachable set.",
+  "tags": [
+    "Graph theory",
+    "Network flow",
+    "Maximum flow minimum cut",
+    "Optimality certificates",
+    "Matching"
+  ],
+  "tag_paths": [
+    [
+      "Mathematics",
+      "Computer science",
+      "Algorithms",
+      "Graph algorithms",
+      "Network flow"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "acc-kt-flow",
+      "reason": "Relevant mathematical exposition, definitions, proof techniques, or historical attribution; the lecture text uses original explanations and calculations."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original narrated mathematical exposition, worked computations, companion proofs and exercises."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "algorithms-computability-complexity:013000",
+        "reason": "Relevant preparation for definitions and calculations in this lecture."
+      }
+    ],
+    "background": [
+      "Numerical and proof foundations as stated at the beginning of the manuscript."
+    ],
+    "readiness_checks": [
+      "Explain why reverse residual edges can improve a flow.",
+      "Prove that no augmenting path yields a cut matching flow value."
+    ]
+  },
+  "claim_evidence": [
+    {
+      "id": "alg-015000-c001",
+      "anchor": "a proposed flow of value eight and a cut of capacity eight jointly certify optimality.",
+      "source_ids": [
+        "acc-kt-flow"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Narrated explanation and mathematical companion",
+      "evidence_detail": "The author independently derives the claim in narration and companion using the cited standard mathematical framework; numerical examples are original."
+    },
+    {
+      "id": "alg-015000-c002",
+      "anchor": "This is the max-flow/min-cut theorem.",
+      "source_ids": [
+        "acc-kt-flow"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Narrated explanation and mathematical companion",
+      "evidence_detail": "The author independently derives the claim in narration and companion using the cited standard mathematical framework; numerical examples are original."
+    }
+  ]
+}

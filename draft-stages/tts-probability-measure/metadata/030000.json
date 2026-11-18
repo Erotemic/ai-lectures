@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "lecture_id": "030000",
+  "transcript": "030000-multiple-regression-partial-effects-and-collinearity.md",
+  "description": "Fits an exact two-predictor dataset and derives omitted-variable association, partialling-out, rank loss, and inference caveats.",
+  "tags": [
+    "Statistics",
+    "Multiple regression",
+    "Omitted-variable bias",
+    "Least squares",
+    "Multicollinearity"
+  ],
+  "tag_paths": [
+    [
+      "Mathematics",
+      "Statistics",
+      "Regression",
+      "Multiple regression"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "pm-stat501-mlr",
+      "reason": "Relevant mathematical exposition, definitions, proof techniques, or historical attribution; the lecture text uses original explanations and calculations."
+    },
+    {
+      "source_id": "pm-hernan-whatif",
+      "reason": "Relevant mathematical exposition, definitions, proof techniques, or historical attribution; the lecture text uses original explanations and calculations."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original narrated mathematical exposition, worked computations, companion proofs and exercises."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "probability-measure:026000",
+        "reason": "Relevant preparation for definitions and calculations in this lecture."
+      },
+      {
+        "lecture_id": "probability-measure:029000",
+        "reason": "Relevant preparation for definitions and calculations in this lecture."
+      }
+    ],
+    "background": [
+      "Numerical and proof foundations as stated at the beginning of the manuscript."
+    ],
+    "readiness_checks": [
+      "Solve the two-predictor normal equations.",
+      "Distinguish an adjusted fitted slope from a causal effect."
+    ]
+  },
+  "claim_evidence": [
+    {
+      "id": "pro-030000-c001",
+      "anchor": "The simple-regression slope becomes two plus three times one half, which is three point five.",
+      "source_ids": [
+        "pm-stat501-mlr",
+        "pm-hernan-whatif"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Narrated explanation and mathematical companion",
+      "evidence_detail": "The author independently derives the claim in narration and companion using the cited standard mathematical framework; numerical examples are original."
+    },
+    {
+      "id": "pro-030000-c002",
+      "anchor": "This is the Frisch-Waugh-Lovell partialling-out identity when the relevant rank conditions hold.",
+      "source_ids": [
+        "pm-stat501-mlr",
+        "pm-hernan-whatif"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Narrated explanation and mathematical companion",
+      "evidence_detail": "The author independently derives the claim in narration and companion using the cited standard mathematical framework; numerical examples are original."
+    }
+  ]
+}

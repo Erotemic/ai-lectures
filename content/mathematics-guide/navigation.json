@@ -18,7 +18,12 @@
             "foundations",
             "calculus-and-change",
             "proofs-programs-structure",
-            "reliable-computation"
+            "reliable-computation",
+            "graph-algorithms-and-complexity",
+            "uncertainty-and-statistical-geometry",
+            "random-walks-to-diffusion",
+            "fourier-connections",
+            "from-model-to-verified-prediction"
           ]
         },
         {
@@ -304,6 +309,250 @@
       "tags": [
         "Numerical analysis",
         "Optimization"
+      ]
+    },
+    {
+      "id": "graph-algorithms-and-complexity",
+      "title": "From Graph Search to Complexity Certificates",
+      "role": "deep_dive",
+      "parent": "start",
+      "summary": "Progress from traversal and weighted routes through flow and optimality cuts, then use polynomial certificates and reductions to understand a different kind of computational limit.",
+      "assumed_background": [
+        "Elementary algebra, finite sets, and basic proof reasoning; no programming language is assumed."
+      ],
+      "chapters": [
+        {
+          "title": "Search and shortest-path invariants",
+          "lectures": [
+            "algorithms-computability-complexity:013000",
+            "algorithms-computability-complexity:014000"
+          ],
+          "collection": "algorithms-computability-complexity:graph-algorithms"
+        },
+        {
+          "title": "Optimality from flow-cut certificates",
+          "lectures": [
+            "algorithms-computability-complexity:015000"
+          ],
+          "collection": "algorithms-computability-complexity:graph-algorithms"
+        },
+        {
+          "title": "What efficient verification does not guarantee",
+          "lectures": [
+            "algorithms-computability-complexity:002000",
+            "algorithms-computability-complexity:016000",
+            "algorithms-computability-complexity:017000"
+          ],
+          "collection": "algorithms-computability-complexity:complexity-and-resource-bounds"
+        }
+      ],
+      "related_collections": [
+        "discrete-mathematics:graphs",
+        "probability-measure:random-walks-diffusion"
+      ],
+      "tags": [
+        "Graph algorithms",
+        "Computational complexity",
+        "NP-completeness",
+        "Amortized analysis"
+      ]
+    },
+    {
+      "id": "uncertainty-and-statistical-geometry",
+      "title": "Linear Algebra, Statistical Geometry, and Prediction",
+      "role": "deep_dive",
+      "parent": "start",
+      "summary": "One chain from covariance and projections to PCA, multiple regression, and logistic likelihood; the tools of linear algebra and optimization explain where fitted numbers come from.",
+      "assumed_background": [
+        "Basic probability, means and variances; elementary vectors and derivatives."
+      ],
+      "chapters": [
+        {
+          "title": "How uncertainty becomes a matrix",
+          "lectures": [
+            "probability-measure:016000",
+            "probability-measure:029000",
+            "probability-measure:031000"
+          ],
+          "collection": "probability-measure:multivariate-statistics"
+        },
+        {
+          "title": "Fitted lines as orthogonal projections",
+          "lectures": [
+            "linear-algebra:021000",
+            "probability-measure:026000",
+            "probability-measure:030000"
+          ],
+          "collection": "probability-measure:multivariate-statistics"
+        },
+        {
+          "title": "Probability models, likelihood, and prediction checks",
+          "lectures": [
+            "probability-measure:020000",
+            "probability-measure:032000",
+            "probability-measure:027000",
+            "probability-measure:028000"
+          ],
+          "collection": "probability-measure:multivariate-statistics"
+        }
+      ],
+      "related_collections": [
+        "linear-algebra:main",
+        "probability-measure:worked-regression-prediction",
+        "numerical-analysis:survey"
+      ],
+      "tags": [
+        "Covariance matrices",
+        "Principal component analysis",
+        "Regression",
+        "Maximum likelihood"
+      ]
+    },
+    {
+      "id": "random-walks-to-diffusion",
+      "title": "Random Walks, Heat, Graph Spectra, and Stochastic Dynamics",
+      "role": "deep_dive",
+      "parent": "start",
+      "summary": "Turn simple random steps into Brownian motion, a heat equation, spectral graph decay, and Ito stochastic calculus without confusing paths with evolving distributions.",
+      "assumed_background": [
+        "Elementary probability and variance; basic derivatives and linear algebra for the later stages."
+      ],
+      "chapters": [
+        {
+          "title": "Chance accumulated through time",
+          "lectures": [
+            "probability-measure:003000",
+            "probability-measure:009000",
+            "probability-measure:015000"
+          ],
+          "collection": "probability-measure:random-walks-diffusion"
+        },
+        {
+          "title": "From microscopic steps to macroscopic diffusion",
+          "lectures": [
+            "probability-measure:033000",
+            "differential-equations:069000",
+            "probability-measure:035000"
+          ],
+          "collection": "probability-measure:random-walks-diffusion"
+        },
+        {
+          "title": "Calculus of Brownian-driven motion",
+          "lectures": [
+            "probability-measure:034000"
+          ],
+          "collection": "probability-measure:random-walks-diffusion"
+        }
+      ],
+      "related_collections": [
+        "algorithms-computability-complexity:graph-algorithms",
+        "differential-equations:survey",
+        "linear-algebra:main"
+      ],
+      "tags": [
+        "Stochastic processes",
+        "Brownian motion",
+        "Heat equation",
+        "Spectral graph theory"
+      ]
+    },
+    {
+      "id": "fourier-connections",
+      "title": "Fourier as a Common Mathematical Language",
+      "role": "deep_dive",
+      "parent": "start",
+      "summary": "A cross-course path through periodic harmonics, convolution and Fourier transforms, heat modes, discrete Fourier computation, and the distinct arithmetic setting of characters.",
+      "assumed_background": [
+        "Basic trigonometry and calculus for the signal stages, linear algebra for eigenmodes; the final number-theory stage requires groups and elementary modular arithmetic."
+      ],
+      "chapters": [
+        {
+          "title": "Harmonics and convergence",
+          "lectures": [
+            "differential-equations:051000",
+            "differential-equations:052000"
+          ],
+          "collection": "differential-equations:survey"
+        },
+        {
+          "title": "Convolution, continuous frequency and heat",
+          "lectures": [
+            "differential-equations:058000",
+            "differential-equations:071000",
+            "differential-equations:072000"
+          ],
+          "collection": "differential-equations:survey"
+        },
+        {
+          "title": "Finite frequencies and arithmetic characters",
+          "lectures": [
+            "differential-equations:080000",
+            "number-theory:016000"
+          ],
+          "collection": "number-theory:survey"
+        }
+      ],
+      "related_collections": [
+        "analysis:complex",
+        "number-theory:survey",
+        "differential-equations:survey"
+      ],
+      "tags": [
+        "Fourier analysis",
+        "Harmonic analysis",
+        "Convolution",
+        "Number theory"
+      ]
+    },
+    {
+      "id": "from-model-to-verified-prediction",
+      "title": "From a Model to a Trustworthy Computation",
+      "role": "deep_dive",
+      "parent": "start",
+      "summary": "Follow equations into numerical approximations, distinguish stability from conditioning, then separate statistical fitting, residual criticism, and prediction uncertainty.",
+      "assumed_background": [
+        "Introductory calculus and algebra; differential-equation time stepping is explained in the referenced foundations."
+      ],
+      "chapters": [
+        {
+          "title": "Modeling, equations, and local numerical steps",
+          "lectures": [
+            "differential-equations:047000",
+            "differential-equations:063000",
+            "differential-equations:065000"
+          ],
+          "collection": "differential-equations:survey"
+        },
+        {
+          "title": "Data sensitivity versus algorithmic error",
+          "lectures": [
+            "numerical-analysis:003000",
+            "numerical-analysis:004000",
+            "numerical-analysis:007000"
+          ],
+          "collection": "numerical-analysis:survey"
+        },
+        {
+          "title": "Fitting, diagnosis and new-observation uncertainty",
+          "lectures": [
+            "probability-measure:026000",
+            "probability-measure:027000",
+            "probability-measure:028000"
+          ],
+          "collection": "probability-measure:worked-regression-prediction"
+        }
+      ],
+      "related_collections": [
+        "numerical-analysis:survey",
+        "differential-equations:survey",
+        "probability-measure:multivariate-statistics"
+      ],
+      "tags": [
+        "Mathematical modeling",
+        "Numerical analysis",
+        "Conditioning",
+        "Regression",
+        "Prediction intervals"
       ]
     }
   ]

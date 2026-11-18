@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "lecture_id": "016000",
+  "transcript": "016000-polynomial-certificates-and-np-completeness.md",
+  "description": "Defines P, NP, and many-one reductions, proves three-SAT reduces to independent set, and distinguishes complexity from undecidability.",
+  "tags": [
+    "Computational complexity",
+    "P versus NP",
+    "NP-completeness",
+    "Polynomial reductions",
+    "Independent set"
+  ],
+  "tag_paths": [
+    [
+      "Mathematics",
+      "Computer science",
+      "Computational complexity",
+      "NP-completeness"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "acc-kt-hardness",
+      "reason": "Relevant mathematical exposition, definitions, proof techniques, or historical attribution; the lecture text uses original explanations and calculations."
+    },
+    {
+      "source_id": "acc-cook1971",
+      "reason": "Relevant mathematical exposition, definitions, proof techniques, or historical attribution; the lecture text uses original explanations and calculations."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original narrated mathematical exposition, worked computations, companion proofs and exercises."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "algorithms-computability-complexity:002000",
+        "reason": "Relevant preparation for definitions and calculations in this lecture."
+      },
+      {
+        "lecture_id": "algorithms-computability-complexity:013000",
+        "reason": "Relevant preparation for definitions and calculations in this lecture."
+      }
+    ],
+    "background": [
+      "Numerical and proof foundations as stated at the beginning of the manuscript."
+    ],
+    "readiness_checks": [
+      "Explain the direction of a polynomial-time reduction.",
+      "Prove both implications of the three-SAT-to-independent-set map."
+    ]
+  },
+  "claim_evidence": [
+    {
+      "id": "alg-016000-c001",
+      "anchor": "The foundational result, the Cook-Levin theorem, establishes that Boolean satisfiability is NP-complete.",
+      "source_ids": [
+        "acc-kt-hardness",
+        "acc-cook1971"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Narrated explanation and mathematical companion",
+      "evidence_detail": "The author independently derives the claim in narration and companion using the cited standard mathematical framework; numerical examples are original."
+    },
+    {
+      "id": "alg-016000-c002",
+      "anchor": "We have proved a polynomial-time reduction from three-SAT to independent set.",
+      "source_ids": [
+        "acc-kt-hardness",
+        "acc-cook1971"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Narrated explanation and mathematical companion",
+      "evidence_detail": "The author independently derives the claim in narration and companion using the cited standard mathematical framework; numerical examples are original."
+    }
+  ]
+}

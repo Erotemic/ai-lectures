@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "lecture_id": "015000",
+  "transcript": "015000-from-random-walks-to-brownian-motion.md",
+  "description": "Derives diffusive scaling, constructs the Brownian increment law, and distinguishes fixed-time normal limits from convergence of random paths.",
+  "tags": [
+    "Probability",
+    "Random walks",
+    "Brownian motion",
+    "Functional central limit theorem",
+    "Stochastic processes"
+  ],
+  "tag_paths": [
+    [
+      "Mathematics",
+      "Probability",
+      "Stochastic processes",
+      "Brownian motion"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "pm-mit-theory",
+      "reason": "Relevant mathematical exposition, definitions, proof techniques, or historical attribution; the lecture text uses original explanations and calculations."
+    },
+    {
+      "source_id": "pm-billingsley-weak",
+      "reason": "Relevant mathematical exposition, definitions, proof techniques, or historical attribution; the lecture text uses original explanations and calculations."
+    },
+    {
+      "source_id": "pm-markov-mixing2",
+      "reason": "Relevant mathematical exposition, definitions, proof techniques, or historical attribution; the lecture text uses original explanations and calculations."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original narrated mathematical exposition, worked computations, companion proofs and exercises."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "probability-measure:003000",
+        "reason": "Relevant preparation for definitions and calculations in this lecture."
+      },
+      {
+        "lecture_id": "probability-measure:006000",
+        "reason": "Relevant preparation for definitions and calculations in this lecture."
+      }
+    ],
+    "background": [
+      "Numerical and proof foundations as stated at the beginning of the manuscript."
+    ],
+    "readiness_checks": [
+      "Compute the scaling that produces nondegenerate variance.",
+      "Explain why marginal normal laws alone do not specify a process."
+    ]
+  },
+  "claim_evidence": [
+    {
+      "id": "pro-015000-c001",
+      "anchor": "This balance of distance squared against time is called diffusive scaling.",
+      "source_ids": [
+        "pm-mit-theory",
+        "pm-billingsley-weak"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Narrated explanation and mathematical companion",
+      "evidence_detail": "The author independently derives the claim in narration and companion using the cited standard mathematical framework; numerical examples are original."
+    },
+    {
+      "id": "pro-015000-c002",
+      "anchor": "The full limiting object is standard Brownian motion, also called a Wiener process.",
+      "source_ids": [
+        "pm-mit-theory",
+        "pm-billingsley-weak"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Narrated explanation and mathematical companion",
+      "evidence_detail": "The author independently derives the claim in narration and companion using the cited standard mathematical framework; numerical examples are original."
+    }
+  ]
+}

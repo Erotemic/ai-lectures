@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "lecture_id": "035000",
+  "transcript": "035000-graph-laplacians-spectral-cuts-and-random-walks.md",
+  "description": "Connects graph search and random walks to Laplacian energy, zero modes, algebraic connectivity, and relaxed graph partitions.",
+  "tags": [
+    "Graph theory",
+    "Graph Laplacian",
+    "Spectral graph theory",
+    "Markov chains",
+    "Spectral clustering"
+  ],
+  "tag_paths": [
+    [
+      "Mathematics",
+      "Graph theory",
+      "Spectral graph theory",
+      "Graph Laplacian"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "pm-markov-mixing2",
+      "reason": "Relevant mathematical exposition, definitions, proof techniques, or historical attribution; the lecture text uses original explanations and calculations."
+    },
+    {
+      "source_id": "pm-mit-theory",
+      "reason": "Relevant mathematical exposition, definitions, proof techniques, or historical attribution; the lecture text uses original explanations and calculations."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original narrated mathematical exposition, worked computations, companion proofs and exercises."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "probability-measure:033000",
+        "reason": "Relevant preparation for definitions and calculations in this lecture."
+      },
+      {
+        "lecture_id": "algorithms-computability-complexity:013000",
+        "reason": "Relevant preparation for definitions and calculations in this lecture."
+      },
+      {
+        "lecture_id": "linear-algebra:006000",
+        "reason": "Relevant preparation for definitions and calculations in this lecture."
+      }
+    ],
+    "background": [
+      "Numerical and proof foundations as stated at the beginning of the manuscript."
+    ],
+    "readiness_checks": [
+      "Prove that the Laplacian quadratic form measures edge disagreement.",
+      "Explain the spectral cut relaxation and its rounding limitation."
+    ]
+  },
+  "claim_evidence": [
+    {
+      "id": "pro-035000-c001",
+      "anchor": "the number of independent zero-eigenvalue directions of the Laplacian equals the number of connected components.",
+      "source_ids": [
+        "pm-markov-mixing2",
+        "pm-mit-theory"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Narrated explanation and mathematical companion",
+      "evidence_detail": "The author independently derives the claim in narration and companion using the cited standard mathematical framework; numerical examples are original."
+    },
+    {
+      "id": "pro-035000-c002",
+      "anchor": "A balanced cut with very few crossing edges therefore forces a small second eigenvalue.",
+      "source_ids": [
+        "pm-markov-mixing2",
+        "pm-mit-theory"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Narrated explanation and mathematical companion",
+      "evidence_detail": "The author independently derives the claim in narration and companion using the cited standard mathematical framework; numerical examples are original."
+    }
+  ]
+}

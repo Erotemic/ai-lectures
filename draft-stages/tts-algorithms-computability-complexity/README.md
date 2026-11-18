@@ -72,3 +72,7 @@ statistics and enumerated compatible job subsets. Bounded input checks do not
 constitute universal correctness, linear-time, or greedy-optimality proofs;
 those appear as mathematical arguments in the manuscripts. No runtime library,
 additional Python package, or binary asset is needed.
+
+## Graph algorithms, hardness, and amortized resources (013000-017000)
+
+Five new narrated foundations: BFS/DFS certificates (013000); weighted shortest paths with Dijkstra, Bellman-Ford, and acyclic order (014000); residual flow, cuts, and matching (015000); polynomial verification, NP, and an explicit three-SAT to independent-set reduction (016000); dynamic array and binary counter amortized analysis (017000). Each includes worked proofs, counterexamples, reading notes, and exercises with answers. The source-owned `navigation.json` offers `graph-algorithms` and `complexity-and-resource-bounds` deep dives; `overview` includes all 17 lectures; the original `:main` archive remains available.

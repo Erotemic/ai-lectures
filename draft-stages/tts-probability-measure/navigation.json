@@ -144,6 +144,65 @@
         "Model checking",
         "Prediction intervals"
       ]
+    },
+    {
+      "id": "multivariate-statistics",
+      "title": "Probability - Covariance Geometry, Multiple Regression, and PCA",
+      "role": "deep_dive",
+      "parent": "established-course",
+      "lectures": [
+        "016000",
+        "020000",
+        "026000",
+        "029000",
+        "031000",
+        "030000",
+        "032000"
+      ],
+      "assumed_background": [
+        "Covariance of two variables, elementary least squares, vectors and matrix multiplication, simple derivatives and logarithms; no advanced measure theory."
+      ],
+      "related_collections": [
+        "worked-regression-prediction",
+        "worked-statistical-inference",
+        "linear-algebra:main"
+      ],
+      "tags": [
+        "Statistics",
+        "Covariance matrices",
+        "Regression",
+        "Principal component analysis",
+        "Generalized linear models"
+      ]
+    },
+    {
+      "id": "random-walks-diffusion",
+      "title": "Probability - Random Walks, Brownian Motion, and Diffusion",
+      "role": "deep_dive",
+      "parent": "established-course",
+      "lectures": [
+        "003000",
+        "009000",
+        "015000",
+        "033000",
+        "035000",
+        "034000"
+      ],
+      "assumed_background": [
+        "Independent random variables and variance; elementary linear algebra and derivatives for the PDE and graph spectral stages."
+      ],
+      "related_collections": [
+        "established-course",
+        "differential-equations:survey",
+        "algorithms-computability-complexity:graph-algorithms"
+      ],
+      "tags": [
+        "Stochastic processes",
+        "Brownian motion",
+        "Diffusion",
+        "Graph Laplacian",
+        "Stochastic differential equations"
+      ]
     }
   ]
 }

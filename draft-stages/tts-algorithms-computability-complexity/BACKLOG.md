@@ -22,17 +22,17 @@ This is an editorial map, **not** a count or duration policy. Lecture boundaries
 - **010000 — drafted:** Divide-and-conquer selection, deterministic pivot guarantees, rank invariants, and explicit recurrence proof.
 - **011000 — drafted:** Dynamic programming via weighted interval scheduling, optimal-substructure proofs, witness recovery, and resource assumptions.
 - **012000 — drafted:** Greedy interval scheduling with two proofs, weighted counterexamples, and matroid comparison.
-- Graph traversal: BFS, DFS, reachability, connected components, and complexity under adjacency representations.
-- Shortest paths: Dijkstra, Bellman–Ford, negative edges, potentials, and invariant-driven correctness.
-- Flows, cuts, and matchings: residual networks, augmentation, maximality, minimum cut, and reductions.
-- Data structures and amortized analysis: dynamic arrays, potential method, union-find and inverse-Ackermann phenomena.
+- **013000 — drafted:** Graph traversal: BFS, DFS, reachability, connected components, and complexity under adjacency representations.
+- **014000 — drafted:** Shortest paths: Dijkstra, Bellman–Ford, negative edges and invariant-driven correctness. Johnson potentials and all-pairs shortest paths remain future extensions.
+- **015000 — drafted:** Flows, cuts, and matchings: residual networks, augmentation, max-flow/min-cut, and bipartite matching.
+- **017000 — drafted:** Amortized analysis of growing dynamic arrays and binary counters with the potential method. Union-find and inverse-Ackermann phenomena remain future extensions.
 - Randomized algorithms: algorithmic randomness versus input distributions, one- versus two-sided error, and repeatability.
 
 ## Complexity theory and limits of efficiency
 
-- Polynomial time and the importance of encoding: decision problems and formal cost models.
-- NP and polynomially checkable certificates: exact definition before hardness rhetoric.
-- Polynomial-time many-one reductions, NP-hardness, and NP-completeness: explicit proof ladders and Cook–Levin's contribution.
+- **016000 — drafted:** Polynomial time and the importance of encoding: decision problems and formal cost models.
+- **016000 — drafted:** NP and polynomially checkable certificates: exact definition before hardness rhetoric.
+- **016000 — drafted:** Polynomial-time many-one reductions, NP-hardness, and NP-completeness, with a worked three-SAT to independent-set reduction and Cook–Levin attribution. Further reductions remain a useful extension.
 - Space complexity: configuration arguments, nondeterminism, and time–space tradeoffs.
 - Beyond P and NP: exponential time, hierarchy ideas, parameterized complexity, and conditional bounds.
 - Approximation: lower bounds, approximation ratios, and when guarantees do and do not transfer.
@@ -55,11 +55,4 @@ This is an editorial map, **not** a count or duration policy. Lecture boundaries
 
 ## Suggested next focused batch
 
-Lectures 010000–012000 now establish three algorithm-design proof patterns.
-Next, graph traversal and shortest paths (BFS, DFS, Dijkstra, Bellman–Ford)
-would apply invariants to structured data and test how representation changes
-cost. The following focused block should develop a full complexity-classification
-and polynomial-reduction ladder through NP-completeness, with explicit input
-encodings and careful attribution to Cook and Levin. Return to universal
-computational models and machine-checked complexity analysis later. No lecture
-length or count target applies.
+Lectures 010000–017000 now cover algorithm-design proof patterns, graph search, shortest paths, network flow, NP-completeness, and amortized costs. Next candidate extensions are union-find, randomized algorithms, space complexity, approximation, and formal implementation refinements. No lecture length or count target applies.

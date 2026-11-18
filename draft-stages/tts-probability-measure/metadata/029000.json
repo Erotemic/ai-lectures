@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "lecture_id": "029000",
+  "transcript": "029000-covariance-matrices-geometry-of-uncertainty.md",
+  "description": "Uses a four-pair dataset to derive positive semidefiniteness, directional variance, covariance eigenstructure, and singularity.",
+  "tags": [
+    "Statistics",
+    "Covariance",
+    "Covariance matrices",
+    "Multivariate statistics",
+    "Positive semidefinite matrices"
+  ],
+  "tag_paths": [
+    [
+      "Mathematics",
+      "Statistics",
+      "Multivariate statistics",
+      "Covariance matrices"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "pm-stat501-mlr",
+      "reason": "Relevant mathematical exposition, definitions, proof techniques, or historical attribution; the lecture text uses original explanations and calculations."
+    },
+    {
+      "source_id": "pm-stat505",
+      "reason": "Relevant mathematical exposition, definitions, proof techniques, or historical attribution; the lecture text uses original explanations and calculations."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original narrated mathematical exposition, worked computations, companion proofs and exercises."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "probability-measure:016000",
+        "reason": "Relevant preparation for definitions and calculations in this lecture."
+      },
+      {
+        "lecture_id": "linear-algebra:001000",
+        "reason": "Relevant preparation for definitions and calculations in this lecture."
+      }
+    ],
+    "background": [
+      "Numerical and proof foundations as stated at the beginning of the manuscript."
+    ],
+    "readiness_checks": [
+      "Calculate the covariance eigenvectors for two correlated sensors.",
+      "Prove covariance matrices are positive semidefinite."
+    ]
+  },
+  "claim_evidence": [
+    {
+      "id": "pro-029000-c001",
+      "anchor": "A symmetric matrix with this property is called positive semidefinite.",
+      "source_ids": [
+        "pm-stat501-mlr",
+        "pm-stat505"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Narrated explanation and mathematical companion",
+      "evidence_detail": "The author independently derives the claim in narration and companion using the cited standard mathematical framework; numerical examples are original."
+    },
+    {
+      "id": "pro-029000-c002",
+      "anchor": "In this example, ninety percent of the total coordinate variance lies along the rising-together direction",
+      "source_ids": [
+        "pm-stat501-mlr",
+        "pm-stat505"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Narrated explanation and mathematical companion",
+      "evidence_detail": "The author independently derives the claim in narration and companion using the cited standard mathematical framework; numerical examples are original."
+    }
+  ]
+}

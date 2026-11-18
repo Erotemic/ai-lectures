@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "lecture_id": "031000",
+  "transcript": "031000-principal-components-from-covariance-to-low-rank.md",
+  "description": "Derives PCA as both maximum projected variance and minimum squared reconstruction error; discusses SVD, scaling, and instability.",
+  "tags": [
+    "Statistics",
+    "Principal component analysis",
+    "Covariance matrices",
+    "Singular value decomposition",
+    "Dimensionality reduction"
+  ],
+  "tag_paths": [
+    [
+      "Mathematics",
+      "Statistics",
+      "Multivariate statistics",
+      "Principal component analysis"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "pm-stat505",
+      "reason": "Relevant mathematical exposition, definitions, proof techniques, or historical attribution; the lecture text uses original explanations and calculations."
+    },
+    {
+      "source_id": "pm-esl",
+      "reason": "Relevant mathematical exposition, definitions, proof techniques, or historical attribution; the lecture text uses original explanations and calculations."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original narrated mathematical exposition, worked computations, companion proofs and exercises."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "probability-measure:029000",
+        "reason": "Relevant preparation for definitions and calculations in this lecture."
+      },
+      {
+        "lecture_id": "linear-algebra:006000",
+        "reason": "Relevant preparation for definitions and calculations in this lecture."
+      }
+    ],
+    "background": [
+      "Numerical and proof foundations as stated at the beginning of the manuscript."
+    ],
+    "readiness_checks": [
+      "Derive the Rayleigh-quotient PCA direction.",
+      "Calculate the variance lost in a rank-one approximation."
+    ]
+  },
+  "claim_evidence": [
+    {
+      "id": "pro-031000-c001",
+      "anchor": "Thus the first principal component points along a largest-variance eigenvector.",
+      "source_ids": [
+        "pm-stat505",
+        "pm-esl"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Narrated explanation and mathematical companion",
+      "evidence_detail": "The author independently derives the claim in narration and companion using the cited standard mathematical framework; numerical examples are original."
+    },
+    {
+      "id": "pro-031000-c002",
+      "anchor": "The squared reconstruction error is the squared length of the component perpendicular to the line.",
+      "source_ids": [
+        "pm-stat505",
+        "pm-esl"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Narrated explanation and mathematical companion",
+      "evidence_detail": "The author independently derives the claim in narration and companion using the cited standard mathematical framework; numerical examples are original."
+    }
+  ]
+}

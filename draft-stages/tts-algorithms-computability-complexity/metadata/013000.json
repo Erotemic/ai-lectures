@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "lecture_id": "013000",
+  "transcript": "013000-graph-search-as-a-proof.md",
+  "description": "Derives BFS reachability and shortest-edge-count certificates, then uses DFS invariants for cycles and topological order.",
+  "tags": [
+    "Graph theory",
+    "Graph algorithms",
+    "Breadth-first search",
+    "Depth-first search",
+    "Shortest paths",
+    "Proof of correctness"
+  ],
+  "tag_paths": [
+    [
+      "Mathematics",
+      "Computer science",
+      "Algorithms",
+      "Graph algorithms"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "acc-mit-graph2011",
+      "reason": "Relevant mathematical exposition, definitions, proof techniques, or historical attribution; the lecture text uses original explanations and calculations."
+    },
+    {
+      "source_id": "acc-kt-graphs",
+      "reason": "Relevant mathematical exposition, definitions, proof techniques, or historical attribution; the lecture text uses original explanations and calculations."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original narrated mathematical exposition, worked computations, companion proofs and exercises."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "algorithms-computability-complexity:002000",
+        "reason": "Relevant preparation for definitions and calculations in this lecture."
+      }
+    ],
+    "background": [
+      "Numerical and proof foundations as stated at the beginning of the manuscript."
+    ],
+    "readiness_checks": [
+      "Prove that BFS labels count shortest edge-paths.",
+      "Explain gray-ancestor back edges in DFS."
+    ]
+  },
+  "claim_evidence": [
+    {
+      "id": "alg-013000-c001",
+      "anchor": "The queue processes vertices in nondecreasing order of their recorded distances.",
+      "source_ids": [
+        "acc-mit-graph2011",
+        "acc-kt-graphs"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Narrated explanation and mathematical companion",
+      "evidence_detail": "The author independently derives the claim in narration and companion using the cited standard mathematical framework; numerical examples are original."
+    },
+    {
+      "id": "alg-013000-c002",
+      "anchor": "The absence of a path now has a finite certificate: an explored set closed under outgoing neighbors, containing the source but excluding the destination.",
+      "source_ids": [
+        "acc-mit-graph2011",
+        "acc-kt-graphs"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Narrated explanation and mathematical companion",
+      "evidence_detail": "The author independently derives the claim in narration and companion using the cited standard mathematical framework; numerical examples are original."
+    }
+  ]
+}

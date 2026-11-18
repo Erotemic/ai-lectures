@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "lecture_id": "014000",
+  "transcript": "014000-shortest-paths-when-weights-matter.md",
+  "description": "Shows how edge weights change shortest-path guarantees; derives Dijkstra finalization, Bellman-Ford relaxation, and the acyclic special case.",
+  "tags": [
+    "Graph algorithms",
+    "Shortest paths",
+    "Dijkstra algorithm",
+    "Bellman-Ford",
+    "Dynamic programming"
+  ],
+  "tag_paths": [
+    [
+      "Mathematics",
+      "Computer science",
+      "Algorithms",
+      "Graph algorithms",
+      "Shortest paths"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "acc-mit-graph2011",
+      "reason": "Relevant mathematical exposition, definitions, proof techniques, or historical attribution; the lecture text uses original explanations and calculations."
+    },
+    {
+      "source_id": "acc-kt-shortest",
+      "reason": "Relevant mathematical exposition, definitions, proof techniques, or historical attribution; the lecture text uses original explanations and calculations."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original narrated mathematical exposition, worked computations, companion proofs and exercises."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "algorithms-computability-complexity:013000",
+        "reason": "Relevant preparation for definitions and calculations in this lecture."
+      }
+    ],
+    "background": [
+      "Numerical and proof foundations as stated at the beginning of the manuscript."
+    ],
+    "readiness_checks": [
+      "State precisely why Dijkstra needs nonnegative edge weights.",
+      "Explain how Bellman-Ford detects a reachable negative cycle."
+    ]
+  },
+  "claim_evidence": [
+    {
+      "id": "alg-014000-c001",
+      "anchor": "Dijkstra's algorithm supplies that proof when all edge weights are nonnegative.",
+      "source_ids": [
+        "acc-mit-graph2011",
+        "acc-kt-shortest"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Narrated explanation and mathematical companion",
+      "evidence_detail": "The author independently derives the claim in narration and companion using the cited standard mathematical framework; numerical examples are original."
+    },
+    {
+      "id": "alg-014000-c002",
+      "anchor": "If an additional full pass can still strictly improve a reachable label, some reachable negative cycle must exist.",
+      "source_ids": [
+        "acc-mit-graph2011",
+        "acc-kt-shortest"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Narrated explanation and mathematical companion",
+      "evidence_detail": "The author independently derives the claim in narration and companion using the cited standard mathematical framework; numerical examples are original."
+    }
+  ]
+}

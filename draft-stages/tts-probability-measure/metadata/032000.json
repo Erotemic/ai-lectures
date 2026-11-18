@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "lecture_id": "032000",
+  "transcript": "032000-logistic-regression-and-likelihood-geometry.md",
+  "description": "Fits a two-setting Bernoulli dataset, derives logistic loss, score and Hessian, and explains odds ratios, separation, and calibration.",
+  "tags": [
+    "Statistics",
+    "Logistic regression",
+    "Generalized linear models",
+    "Maximum likelihood",
+    "Probabilistic calibration"
+  ],
+  "tag_paths": [
+    [
+      "Mathematics",
+      "Statistics",
+      "Regression",
+      "Generalized linear models"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "pm-esl",
+      "reason": "Relevant mathematical exposition, definitions, proof techniques, or historical attribution; the lecture text uses original explanations and calculations."
+    },
+    {
+      "source_id": "pm-bda3",
+      "reason": "Relevant mathematical exposition, definitions, proof techniques, or historical attribution; the lecture text uses original explanations and calculations."
+    },
+    {
+      "source_id": "pm-stat501-mlr",
+      "reason": "Relevant mathematical exposition, definitions, proof techniques, or historical attribution; the lecture text uses original explanations and calculations."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original narrated mathematical exposition, worked computations, companion proofs and exercises."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "probability-measure:020000",
+        "reason": "Relevant preparation for definitions and calculations in this lecture."
+      },
+      {
+        "lecture_id": "probability-measure:030000",
+        "reason": "Relevant preparation for definitions and calculations in this lecture."
+      }
+    ],
+    "background": [
+      "Numerical and proof foundations as stated at the beginning of the manuscript."
+    ],
+    "readiness_checks": [
+      "Recover logistic coefficients from two group proportions.",
+      "Describe why complete separation can prevent a finite MLE."
+    ]
+  },
+  "claim_evidence": [
+    {
+      "id": "pro-032000-c001",
+      "anchor": "The slope corresponds to an odds ratio of the exponential of beta, which is nine.",
+      "source_ids": [
+        "pm-esl",
+        "pm-bda3"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Narrated explanation and mathematical companion",
+      "evidence_detail": "The author independently derives the claim in narration and companion using the cited standard mathematical framework; numerical examples are original."
+    },
+    {
+      "id": "pro-032000-c002",
+      "anchor": "The second derivative matrix is negative X transpose W X, where W is diagonal with terms p times one minus p.",
+      "source_ids": [
+        "pm-esl",
+        "pm-bda3"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Narrated explanation and mathematical companion",
+      "evidence_detail": "The author independently derives the claim in narration and companion using the cited standard mathematical framework; numerical examples are original."
+    }
+  ]
+}

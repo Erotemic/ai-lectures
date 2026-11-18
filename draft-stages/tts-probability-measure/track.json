@@ -21,7 +21,9 @@
     "worked-probability-monte-carlo",
     "worked-statistical-inference",
     "worked-experimental-design",
-    "worked-regression-prediction"
+    "worked-regression-prediction",
+    "continuous-time-processes",
+    "worked-multivariate-statistics"
   ],
   "lectures": [
     {
@@ -195,6 +197,31 @@
         "Concentration inequalities",
         "Martingales",
         "Dependent random variables"
+      ]
+    },
+    {
+      "id": "015000",
+      "title": "From Random Walks to Brownian Motion: A Limit That Becomes a Process",
+      "section": "continuous-time-processes",
+      "file": "015000-from-random-walks-to-brownian-motion.md",
+      "spoken_words": 1476,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 10.2,
+      "description": "Derives diffusive scaling, constructs the Brownian increment law, and distinguishes fixed-time normal limits from convergence of random paths.",
+      "tags": [
+        "Probability",
+        "Random walks",
+        "Brownian motion",
+        "Functional central limit theorem",
+        "Stochastic processes"
+      ],
+      "tag_paths": [
+        [
+          "Mathematics",
+          "Probability",
+          "Stochastic processes",
+          "Brownian motion"
+        ]
       ]
     },
     {
@@ -427,6 +454,182 @@
         "Extrapolation",
         "Validation",
         "Generalization"
+      ]
+    },
+    {
+      "id": "029000",
+      "title": "Covariance Matrices: The Geometry of Uncertainty",
+      "section": "worked-multivariate-statistics",
+      "file": "029000-covariance-matrices-geometry-of-uncertainty.md",
+      "spoken_words": 1310,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 9.0,
+      "description": "Uses a four-pair dataset to derive positive semidefiniteness, directional variance, covariance eigenstructure, and singularity.",
+      "tags": [
+        "Statistics",
+        "Covariance",
+        "Covariance matrices",
+        "Multivariate statistics",
+        "Positive semidefinite matrices"
+      ],
+      "tag_paths": [
+        [
+          "Mathematics",
+          "Statistics",
+          "Multivariate statistics",
+          "Covariance matrices"
+        ]
+      ]
+    },
+    {
+      "id": "030000",
+      "title": "Multiple Regression: What Changes When You Hold Another Variable Fixed?",
+      "section": "worked-multivariate-statistics",
+      "file": "030000-multiple-regression-partial-effects-and-collinearity.md",
+      "spoken_words": 1369,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 9.4,
+      "description": "Fits an exact two-predictor dataset and derives omitted-variable association, partialling-out, rank loss, and inference caveats.",
+      "tags": [
+        "Statistics",
+        "Multiple regression",
+        "Omitted-variable bias",
+        "Least squares",
+        "Multicollinearity"
+      ],
+      "tag_paths": [
+        [
+          "Mathematics",
+          "Statistics",
+          "Regression",
+          "Multiple regression"
+        ]
+      ]
+    },
+    {
+      "id": "031000",
+      "title": "Principal Components: From Covariance to Low-Rank Approximation",
+      "section": "worked-multivariate-statistics",
+      "file": "031000-principal-components-from-covariance-to-low-rank.md",
+      "spoken_words": 1161,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 8.0,
+      "description": "Derives PCA as both maximum projected variance and minimum squared reconstruction error; discusses SVD, scaling, and instability.",
+      "tags": [
+        "Statistics",
+        "Principal component analysis",
+        "Covariance matrices",
+        "Singular value decomposition",
+        "Dimensionality reduction"
+      ],
+      "tag_paths": [
+        [
+          "Mathematics",
+          "Statistics",
+          "Multivariate statistics",
+          "Principal component analysis"
+        ]
+      ]
+    },
+    {
+      "id": "032000",
+      "title": "When the Response Is a Probability: Logistic Regression and Likelihood",
+      "section": "worked-multivariate-statistics",
+      "file": "032000-logistic-regression-and-likelihood-geometry.md",
+      "spoken_words": 1347,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 9.3,
+      "description": "Fits a two-setting Bernoulli dataset, derives logistic loss, score and Hessian, and explains odds ratios, separation, and calibration.",
+      "tags": [
+        "Statistics",
+        "Logistic regression",
+        "Generalized linear models",
+        "Maximum likelihood",
+        "Probabilistic calibration"
+      ],
+      "tag_paths": [
+        [
+          "Mathematics",
+          "Statistics",
+          "Regression",
+          "Generalized linear models"
+        ]
+      ]
+    },
+    {
+      "id": "033000",
+      "title": "How Random Walks Become the Heat Equation",
+      "section": "continuous-time-processes",
+      "file": "033000-how-random-walks-become-the-heat-equation.md",
+      "spoken_words": 1305,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 9.0,
+      "description": "Derives the lattice master equation and diffusive scaling, then connects the heat kernel to finite graph generators and boundary conditions.",
+      "tags": [
+        "Probability",
+        "Diffusion",
+        "Heat equation",
+        "Random walks",
+        "Graph Laplacian",
+        "Partial differential equations"
+      ],
+      "tag_paths": [
+        [
+          "Mathematics",
+          "Probability",
+          "Stochastic processes",
+          "Diffusion"
+        ]
+      ]
+    },
+    {
+      "id": "034000",
+      "title": "Stochastic Differential Equations: Drift, Noise, and the Ito Correction",
+      "section": "continuous-time-processes",
+      "file": "034000-ito-calculus-and-stochastic-differential-equations.md",
+      "spoken_words": 1492,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 10.3,
+      "description": "Derives the Ito second-derivative term and geometric Brownian growth, then relates path simulation to the forward density PDE.",
+      "tags": [
+        "Probability",
+        "Ito calculus",
+        "Stochastic differential equations",
+        "Fokker-Planck equation",
+        "Brownian motion"
+      ],
+      "tag_paths": [
+        [
+          "Mathematics",
+          "Probability",
+          "Stochastic processes",
+          "Stochastic differential equations"
+        ]
+      ]
+    },
+    {
+      "id": "035000",
+      "title": "From Graph Search to Spectral Cuts: What the Laplacian Measures",
+      "section": "continuous-time-processes",
+      "file": "035000-graph-laplacians-spectral-cuts-and-random-walks.md",
+      "spoken_words": 1283,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 8.8,
+      "description": "Connects graph search and random walks to Laplacian energy, zero modes, algebraic connectivity, and relaxed graph partitions.",
+      "tags": [
+        "Graph theory",
+        "Graph Laplacian",
+        "Spectral graph theory",
+        "Markov chains",
+        "Spectral clustering"
+      ],
+      "tag_paths": [
+        [
+          "Mathematics",
+          "Graph theory",
+          "Spectral graph theory",
+          "Graph Laplacian"
+        ]
       ]
     }
   ],

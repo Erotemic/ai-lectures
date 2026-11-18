@@ -1,0 +1,84 @@
+{
+  "default_collection": "overview",
+  "collections": [
+    {
+      "id": "overview",
+      "title": "Algorithms, Computability, and Complexity - Guided Full Course",
+      "role": "main",
+      "lectures": [
+        "001000",
+        "002000",
+        "003000",
+        "004000",
+        "005000",
+        "006000",
+        "007000",
+        "008000",
+        "009000",
+        "010000",
+        "011000",
+        "012000",
+        "013000",
+        "014000",
+        "015000",
+        "016000",
+        "017000"
+      ],
+      "assumed_background": [
+        "whole numbers and elementary algebra",
+        "basic functions, sequences, and logarithms",
+        "familiarity with the idea of a program; no proof assistant experience required"
+      ],
+      "tags": [
+        "Algorithms",
+        "Computational complexity",
+        "Computability"
+      ]
+    },
+    {
+      "id": "graph-algorithms",
+      "title": "Graph Algorithms - Search, Shortest Paths, and Network Flow",
+      "role": "deep_dive",
+      "parent": "overview",
+      "lectures": [
+        "013000",
+        "014000",
+        "015000"
+      ],
+      "assumed_background": [
+        "Basic induction, asymptotic running time, and finite sets; graphs and algorithms are defined from scratch in the sequence."
+      ],
+      "related_collections": [
+        "discrete-mathematics:graphs",
+        "probability-measure:random-walks-diffusion"
+      ],
+      "tags": [
+        "Algorithms",
+        "Graph algorithms",
+        "Shortest paths",
+        "Network flow"
+      ]
+    },
+    {
+      "id": "complexity-and-resource-bounds",
+      "title": "Complexity - Certificates, Reductions, and Amortized Costs",
+      "role": "deep_dive",
+      "parent": "overview",
+      "lectures": [
+        "002000",
+        "006000",
+        "016000",
+        "017000"
+      ],
+      "assumed_background": [
+        "Basic loops, polynomials, Boolean logic, and the notion of a proof."
+      ],
+      "tags": [
+        "Computational complexity",
+        "Polynomial reductions",
+        "NP-completeness",
+        "Amortized analysis"
+      ]
+    }
+  ]
+}

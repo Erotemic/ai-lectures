@@ -16,7 +16,10 @@
     "proof-refinement-and-verification",
     "computability-and-undecidability",
     "finite-automata-and-grammars",
-    "algorithm-design-paradigms"
+    "algorithm-design-paradigms",
+    "graph-algorithms",
+    "complexity-and-reductions",
+    "algorithmic-resource-bounds"
   ],
   "lectures": [
     {
@@ -177,6 +180,134 @@
         "Greedy algorithms",
         "Exchange arguments",
         "Algorithm correctness"
+      ]
+    },
+    {
+      "id": "013000",
+      "title": "Finding Your Way Through a Graph: Search as a Proof",
+      "section": "graph-algorithms",
+      "file": "013000-graph-search-as-a-proof.md",
+      "spoken_words": 1423,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 9.8,
+      "description": "Derives BFS reachability and shortest-edge-count certificates, then uses DFS invariants for cycles and topological order.",
+      "tags": [
+        "Graph theory",
+        "Graph algorithms",
+        "Breadth-first search",
+        "Depth-first search",
+        "Shortest paths",
+        "Proof of correctness"
+      ],
+      "tag_paths": [
+        [
+          "Mathematics",
+          "Computer science",
+          "Algorithms",
+          "Graph algorithms"
+        ]
+      ]
+    },
+    {
+      "id": "014000",
+      "title": "Shortest Paths When the Edges Have Weights",
+      "section": "graph-algorithms",
+      "file": "014000-shortest-paths-when-weights-matter.md",
+      "spoken_words": 1488,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 10.3,
+      "description": "Shows how edge weights change shortest-path guarantees; derives Dijkstra finalization, Bellman-Ford relaxation, and the acyclic special case.",
+      "tags": [
+        "Graph algorithms",
+        "Shortest paths",
+        "Dijkstra algorithm",
+        "Bellman-Ford",
+        "Dynamic programming"
+      ],
+      "tag_paths": [
+        [
+          "Mathematics",
+          "Computer science",
+          "Algorithms",
+          "Graph algorithms",
+          "Shortest paths"
+        ]
+      ]
+    },
+    {
+      "id": "015000",
+      "title": "Flows, Cuts, and Why a Bottleneck Can Prove Optimality",
+      "section": "graph-algorithms",
+      "file": "015000-flows-cuts-and-optimality-certificates.md",
+      "spoken_words": 1307,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 9.0,
+      "description": "Builds residual networks and bipartite matching, and proves the max-flow/min-cut certificate from a final residual reachable set.",
+      "tags": [
+        "Graph theory",
+        "Network flow",
+        "Maximum flow minimum cut",
+        "Optimality certificates",
+        "Matching"
+      ],
+      "tag_paths": [
+        [
+          "Mathematics",
+          "Computer science",
+          "Algorithms",
+          "Graph algorithms",
+          "Network flow"
+        ]
+      ]
+    },
+    {
+      "id": "016000",
+      "title": "Polynomial Certificates: Why Some Finite Problems Resist Search",
+      "section": "complexity-and-reductions",
+      "file": "016000-polynomial-certificates-and-np-completeness.md",
+      "spoken_words": 1477,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 10.2,
+      "description": "Defines P, NP, and many-one reductions, proves three-SAT reduces to independent set, and distinguishes complexity from undecidability.",
+      "tags": [
+        "Computational complexity",
+        "P versus NP",
+        "NP-completeness",
+        "Polynomial reductions",
+        "Independent set"
+      ],
+      "tag_paths": [
+        [
+          "Mathematics",
+          "Computer science",
+          "Computational complexity",
+          "NP-completeness"
+        ]
+      ]
+    },
+    {
+      "id": "017000",
+      "title": "A Slow Operation Does Not Mean a Slow Algorithm: Amortized Analysis",
+      "section": "algorithmic-resource-bounds",
+      "file": "017000-amortized-costs-and-growing-arrays.md",
+      "spoken_words": 1224,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 8.4,
+      "description": "Derives aggregate and potential-method bounds for dynamic-array growth and binary counters, separating amortized from average and worst-case cost.",
+      "tags": [
+        "Algorithms",
+        "Amortized analysis",
+        "Data structures",
+        "Dynamic arrays",
+        "Potential method"
+      ],
+      "tag_paths": [
+        [
+          "Mathematics",
+          "Computer science",
+          "Algorithms",
+          "Amortized analysis"
+        ]
       ]
     }
   ],

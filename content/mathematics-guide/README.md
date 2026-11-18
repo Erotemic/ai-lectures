@@ -39,3 +39,7 @@ The [organization audit and handoff](../../docs/planning/math-library-organizati
 records coverage, overlap, assumptions, existing gaps, and proposed further
 organization. New lectures should remain in their subject packs. Review guide
 references after a subject changes its route names or consolidates manuscripts.
+
+## Connected paths added in November 2026
+
+Five additional guided routes now connect graph algorithms with complexity, covariance with PCA and generalized linear models, random walks with heat and spectral graph theory, Fourier methods across signal/PDE/arithmetic contexts, and numerical model error with statistical prediction. These are source-owned navigation collections. They link existing and newly added lecture IDs, do not copy audio, and do not assert extra prerequisite edges. The Fourier and modeling routes organize existing source lectures; the first three accompany newly authored manuscripts.

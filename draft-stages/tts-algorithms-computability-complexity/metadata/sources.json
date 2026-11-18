@@ -245,6 +245,62 @@
       "url": "https://deltadbu.github.io/UCAS_algorithm_course/Lectures/Edmonds1971.pdf",
       "access": "full_primary_paper_university_course_mirror",
       "notes": "Original historical connection between matroid constraints and weighted greedy optimization; see pp. 127-130. Lecture formulation simplifies the paper and states explicit hypotheses."
+    },
+    "acc-mit-graph2011": {
+      "title": "MIT OpenCourseWare 6.006, Introduction to Algorithms (Fall 2011), Lectures 13-17 on BFS, DFS, topological order, and shortest paths",
+      "kind": "university_teaching_resource",
+      "url": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-fall-2011/pages/lecture-notes/",
+      "access": "free_course_index",
+      "notes": "Verified course lecture index; the original worked proofs and examples in the new lectures are separately authored."
+    },
+    "acc-kt-graphs": {
+      "title": "Jon Kleinberg and Eva Tardos, Algorithm Design (2005), Chapter 3, revised official lecture slides by Kevin Wayne",
+      "kind": "scholarly_textbook_and_teaching_resource",
+      "url": "https://www.cs.princeton.edu/~wayne/kleinberg-tardos/",
+      "access": "free_slides",
+      "notes": "University-hosted graph slides and book chapter mapping; no claim to have reproduced textbook prose."
+    },
+    "acc-kt-shortest": {
+      "title": "Jon Kleinberg and Eva Tardos, Algorithm Design (2005), Chapters 4 and 6 on shortest paths, revised slides by Kevin Wayne",
+      "kind": "scholarly_textbook_and_teaching_resource",
+      "url": "https://www.cs.princeton.edu/~wayne/kleinberg-tardos/",
+      "access": "free_slides",
+      "notes": "Greedy and Bellman-Ford coverage on university course index."
+    },
+    "acc-kt-flow": {
+      "title": "Jon Kleinberg and Eva Tardos, Algorithm Design (2005), Chapter 7, Network Flow, revised slides by Kevin Wayne",
+      "kind": "scholarly_textbook_and_teaching_resource",
+      "url": "https://www.cs.princeton.edu/~wayne/kleinberg-tardos/",
+      "access": "free_slides",
+      "notes": "Flow, cut, augmentation, and bipartite matching pedagogy; original derivation and example in manuscript."
+    },
+    "acc-kt-hardness": {
+      "title": "Jon Kleinberg and Eva Tardos, Algorithm Design (2005), Chapter 8, NP-Completeness and Polynomial Reductions, revised slides by Kevin Wayne",
+      "kind": "scholarly_textbook_and_teaching_resource",
+      "url": "https://www.cs.princeton.edu/~wayne/kleinberg-tardos/",
+      "access": "free_slides",
+      "notes": "University-hosted chapter index and lecture slides."
+    },
+    "acc-cook1971": {
+      "title": "Stephen A. Cook (1971), The Complexity of Theorem-Proving Procedures, Proceedings of STOC",
+      "kind": "historical_primary",
+      "url": "https://doi.org/10.1145/800157.805047",
+      "access": "publisher_bibliography",
+      "notes": "The lecture attributes the foundational SAT NP-completeness result without claiming a full primary-source textual audit."
+    },
+    "acc-mit-amortized": {
+      "title": "MIT OpenCourseWare 6.006, Introduction to Algorithms (Fall 2011), Lecture 9: Table doubling",
+      "kind": "university_teaching_resource",
+      "url": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-fall-2011/pages/lecture-notes/",
+      "access": "free_course_index",
+      "notes": "Table-doubling topic verified on MIT OCW index."
+    },
+    "acc-kt-amortized": {
+      "title": "Kevin Wayne, revised Algorithm Design lecture slides: Data Structures I, Amortized Analysis (with CLRS reading)",
+      "kind": "university_teaching_resource",
+      "url": "https://www.cs.princeton.edu/~wayne/kleinberg-tardos/",
+      "access": "free_slides",
+      "notes": "Course slides credit CLRS for amortized data-structure analysis."
     }
   }
 }
