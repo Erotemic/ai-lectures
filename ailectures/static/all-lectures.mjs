@@ -1,6 +1,6 @@
 import { tagLabels } from "./tag-model.mjs";
-import { reactionControls } from "./reactions.mjs";
-import { el } from "./api.mjs";
+import { inventoryItem, lectureView, initialLectureLimit } from "./all-lecture-views.mjs";
+import { el, getStored, store } from "./api.mjs";
 import { allLectureRows } from "./all-lectures-model.mjs";
 import { chronologyOptions, dateOrder } from "./chronology.mjs";
 
@@ -15,6 +15,8 @@ export function renderAllLectures(main, catalog, { item, link, reactions }) {
     control.value = initial || "";
     return control;
   }
+  const view = select("Lecture view", [["compact", "Concise list"], ["detail", "Detailed list"], ["cards", "Cards"]],
+    lectureView(params.get("view"), getStored("all-lectures-view", "compact")));
   const categories = [...new Set(lectures.flatMap(row => row.categories || []))].sort();
   const category = select("Category", [["", "All categories"], ...categories.map(name => [name, name])], params.get("category"));
   const packs = new Map((catalog.packs || []).map(pack => [pack.id, pack.title || pack.id]));
@@ -36,21 +38,21 @@ export function renderAllLectures(main, catalog, { item, link, reactions }) {
   const results = el("div");
   const clear = el("button", { type: "button", text: "Clear filters" });
   const showAll = el("button", { type: "button" });
-  let limit = params.get("show") === "all" ? Math.max(100, total)
-    : Number.isSafeInteger(history.state?.allLecturesLimit) ? Math.max(100, history.state.allLecturesLimit) : 100;
-  main.replaceChildren(el("h1", { text: "All lectures" }),
-    el("p", { class: "intro", text: "Every available lecture in one list, including deep dives and items outside curated routes. Each lecture appears once. Search or filter the list, or show everything at once." }),
-    el("p", {}, link("Browse collections", "/collections"), " · ", link("View content stats", "/stats")),
+  let limit = params.get("show") === "all" ? Math.max(initialLectureLimit(view.value), total)
+    : Number.isSafeInteger(history.state?.allLecturesLimit) ? Math.max(initialLectureLimit(view.value), history.state.allLecturesLimit) : initialLectureLimit(view.value);
+  main.replaceChildren(el("div", { class: "inventory-heading" }, el("h1", { text: "All lectures" }),
+    el("p", {}, link("Browse collections", "/collections"), " · ", link("Content stats", "/stats"))),
     query,
     el("details", { class: "browsing-options", open: Boolean(params.get("category") || params.get("pack") || params.get("tag") || params.get("audio") || params.get("personal")) },
       el("summary", { text: "Filter and sort" }),
       el("div", { class: "filters" }, el("label", {}, "Category", category), el("label", {}, "Content pack", pack),
         el("label", {}, "Tag", tag, tags), el("label", {}, "Audio", audio), el("label", {}, "Your feedback", personal), el("label", {}, "Order", sort))),
-    el("div", { class: "actions all-lectures-status" }, count, showAll, clear), results);
+    el("div", { class: "actions all-lectures-status" }, count, el("label", { class: "inventory-view" }, "View", view), showAll, clear), results);
   function update() {
     const filters = { q: query.value.trim(), category: category.value, pack: pack.value, tag: tag.value.trim(), audio: audio.value, personal: personal.value, sort: sort.value };
     const search = new URLSearchParams(Object.entries(filters).filter(([key, value]) => value && !(key === "sort" && value === "title")));
-    if (limit >= total && total > 100) search.set("show", "all");
+    search.set("view", view.value);
+    if (limit >= total && total > initialLectureLimit(view.value)) search.set("show", "all");
     const returnTo = "/lectures" + (search.size ? "?" + search : "");
     history.replaceState({ ...history.state, allLecturesLimit: limit }, "", returnTo);
     const rows = allLectureRows(lectures, filters, reactions?.records);
@@ -60,17 +62,9 @@ export function renderAllLectures(main, catalog, { item, link, reactions }) {
     showAll.hidden = rows.length <= limit;
     showAll.textContent = `Show all ${rows.length.toLocaleString()} matching lectures`;
     showAll.onclick = () => { limit = Math.max(total, rows.length); update(); };
-    const list = el("ul", { class: "list all-lectures-list" }, ...visible.map(row => {
-      const node = item(row, dateOrder(sort.value)?.axis);
-      node.dataset.lectureId = row.id;
-      const anchor = node.querySelector(".copy > a");
-      const target = new URL(anchor.href, location.origin);
-      target.searchParams.set("return", returnTo);
-      anchor.href = target.pathname + target.search;
-      node.querySelector(".copy").append(el("small", { class: "lecture-identity", text: `${row.id} · ${packs.get(row.origin?.pack || row.namespace) || row.namespace || ""}` }));
-      if (reactions) node.append(reactionControls(row, reactions, { compact: true }));
-      return node;
-    }));
+    const list = el("ul", { class: `list all-lectures-list view-${view.value}` }, ...visible.map(row => inventoryItem(row, view.value, {
+      item, link, reactions, packs, returnTo, axis: dateOrder(sort.value)?.axis,
+    })));
     results.replaceChildren(list);
     if (!rows.length) results.append(el("p", { class: "notice", text: total ? "No lectures match these filters." : "No lectures are available yet. Add a content pack to begin." }));
     if (rows.length > limit) {
@@ -80,12 +74,17 @@ export function renderAllLectures(main, catalog, { item, link, reactions }) {
     }
   }
   for (const control of [query, category, pack, tag, audio, personal, sort]) {
-    control.addEventListener(control === query || control === tag ? "input" : "change", () => { limit = 100; update(); });
+    control.addEventListener(control === query || control === tag ? "input" : "change", () => { limit = initialLectureLimit(view.value); update(); });
   }
+  view.onchange = () => {
+    store("all-lectures-view", view.value);
+    limit = Math.max(limit, initialLectureLimit(view.value));
+    update();
+  };
   clear.onclick = () => {
     for (const control of [query, category, pack, tag, audio, personal]) control.value = "";
     sort.value = "title";
-    limit = 100;
+    limit = initialLectureLimit(view.value);
     update();
   };
   update();

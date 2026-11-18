@@ -51,7 +51,7 @@ export async function referencesPage(main, catalog) {
       el(
         "p",
         { class: "reference-scope" },
-        `For: ${selected?.title || query.get("lecture_id")} · `,
+        "For: ", el("a", { href: lectureURL(query.get("lecture_id")), "data-nav": "", text: selected?.title || query.get("lecture_id") }), " · ",
         el("a", {
           href: "/references",
           "data-nav": "",
@@ -81,10 +81,18 @@ export async function referencesPage(main, catalog) {
               rel: "noopener noreferrer",
             })
           : title;
+        const names = value => (Array.isArray(value) ? value : [value]).map(person =>
+          typeof person === "string" ? person : person?.name).filter(Boolean).join(", ");
+        const author = names(source.authors || source.author);
+        const publication = [source.year || source.date, source.publisher, source.edition].filter(value => typeof value === "string" || typeof value === "number").join(" · ");
+        const notes = [source.description, source.summary, source.notes].flat().filter(value => typeof value === "string" && value.trim());
         return el(
           "article",
           { class: "card" },
           el("h2", {}, heading),
+          author ? el("p", { class: "muted", text: author }) : null,
+          publication ? el("p", { class: "muted", text: publication }) : null,
+          ...[...new Set(notes)].map(text => el("p", { text })),
           ...item.reasons.map((reason) => el("p", { text: reason })),
           el(
             "p",

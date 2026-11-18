@@ -465,7 +465,6 @@ async function lecturePage(id, autoplay = false, historical = null) {
       }),
     ),
   );
-  top.append(reactionControls(row, reactions));
   if (row.chronology) {
     const dates = el("div", { class: "lecture-dates" });
     for (const axis of Object.keys(dateAxes)) if (row.chronology[axis]) {
@@ -648,20 +647,7 @@ async function lecturePage(id, autoplay = false, historical = null) {
   };
   refreshTranscript();
   const side = el("aside", { class: "sidebar" });
-  side.append(
-    el(
-      "p",
-      {},
-      el("a", {
-        href:
-          "/references?" +
-          new URLSearchParams({ lecture_id: id, release: row.origin.release }),
-        target: "_blank",
-        rel: "noopener noreferrer",
-        text: "Open references page",
-      }),
-    ),
-  );
+  side.append(feedbackForm(row));
   const transcriptLink = el("a", {
     href:
       "/api/library/lectures/" +
@@ -676,6 +662,10 @@ async function lecturePage(id, autoplay = false, historical = null) {
       "section",
       {},
       transcriptLink,
+      el("p", {}, el("a", {
+        href: "/api/library/lectures/" + encodeURIComponent(row.id) + "?" + new URLSearchParams({ release: row.origin.release }),
+        text: "Raw lecture data (JSON)", target: "_blank", rel: "noopener noreferrer",
+      })),
       el(
         "p",
         {},
@@ -696,32 +686,14 @@ async function lecturePage(id, autoplay = false, historical = null) {
     .filter((r) => r && typeof r === "object")
     .map((r) => ({ ...r, source: row.sources?.[r.source_id] }))
     .filter((r) => r.source && /^https?:\/\//.test(r.source.url));
-  if (resources.length)
-    side.append(
-      el(
-        "section",
-        {},
-        el("h3", { text: "Reading" }),
-        el(
-          "ul",
-          {},
-          ...resources.map((r) =>
-            el(
-              "li",
-              {},
-              el("a", {
-                href: r.source.url,
-                text: r.source.title,
-                target: "_blank",
-                rel: "noopener noreferrer",
-              }),
-              r.reason ? el("p", { class: "muted", text: r.reason }) : null,
-            ),
-          ),
-        ),
-      ),
-    );
-  side.append(feedbackForm(row));
+  side.append(el("details", { class: "further-reading" },
+    el("summary", { text: "Further reading" }),
+    el("p", {}, link("Open further reading page", "/references?" + new URLSearchParams({ lecture_id: row.id, release: row.origin.release }))),
+    resources.length ? el("ul", {}, ...resources.map(resource => el("li", {},
+      el("a", { href: resource.source.url, text: resource.source.title, target: "_blank", rel: "noopener noreferrer" }),
+      resource.reason ? el("p", { class: "muted", text: resource.reason }) : null)))
+      : el("p", { class: "muted", text: "Open the reading page for the lecture’s full source records and notes." })));
+
   side.append(
     el(
       "details",
@@ -741,10 +713,17 @@ async function lecturePage(id, autoplay = false, historical = null) {
       }),
     ),
   );
-  $("main").replaceChildren(
-    top,
-    el("div", { class: "lecture-layout" }, text, side),
-  );
+  const sidebarOpen = getStored("lecture-sidebar-open", window.matchMedia("(min-width: 761px)").matches);
+  const tools = el("details", { class: "lecture-tools", open: sidebarOpen },
+    el("summary", { text: "Lecture tools & feedback" }), side);
+  const layout = el("div", { class: "lecture-layout" + (sidebarOpen ? "" : " sidebar-collapsed") }, tools, text);
+  let previousOpen = tools.open;
+  tools.addEventListener("toggle", () => {
+    layout.classList.toggle("sidebar-collapsed", !tools.open);
+    if (tools.open !== previousOpen) store("lecture-sidebar-open", tools.open);
+    previousOpen = tools.open;
+  });
+  $("main").replaceChildren(top, layout);
   player.update();
   if (autoplay) {
     await audio.ready;
@@ -792,6 +771,7 @@ function feedbackForm(row) {
     "form",
     {},
     el("h3", { text: "Lecture feedback" }),
+    reactionControls(row, reactions),
     textarea,
     el("button", { type: "submit", text: "Save feedback" }),
     status,

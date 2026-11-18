@@ -37,9 +37,12 @@ unindexed manuscripts and deep dives. Items appear once across overlapping
 collections. Search includes descriptions, creator names, topics, places, dates,
 and IDs; filters select category, pack, tag, or audio availability. Sort by title,
 ID, duration, or a selected date meaning. Show all displays the full inventory
-without grouping it into collections. Filters and the full-list view are
-bookmarkable, and lecture return links preserve them. Browsing this inventory
-does not change collection playback order.
+without grouping it into collections. Concise list is the default, showing up to
+250 single-line rows with expandable descriptions, tags, and feedback. The View
+selector also offers Detailed list and Cards; its choice is saved on this device.
+Filters, view choices, and the full-list view are bookmarkable, and lecture
+return links preserve them. Browsing this inventory does not change collection
+playback order.
 
 Press `/` to search the current collection, or Ctrl/Cmd+K to search the library.
 Browsing options include category, audience, audio availability, every nested
@@ -70,6 +73,13 @@ broader associations; authors can add pack-local `tag_paths` without registratio
 Date paths distinguish composition from publication, story setting, historical
 coverage, lifetime, and textual witnesses. Wide ranges stay broad, and uncertain
 years retain their qualifiers. See [the authoring contract](../docs/content-packs.md#coarse-to-fine-tag-paths).
+
+Lecture tools & feedback is a collapsible sidebar, initially open on desktops
+and closed on phones; the choice is saved on this device. Ratings and the heart
+favorite toggle sit beside Lecture feedback. The sidebar links to both the plain
+text transcript and full raw lecture JSON for the displayed release. Further
+reading expands independently and links to a dedicated reading page with source
+authors, publication details, notes, and full source records where available.
 
 Lectures have 1–5-star ratings (with a clear option) and a heart favorite toggle.
 These choices belong to the selected listener and sync across devices; “This
