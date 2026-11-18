@@ -115,7 +115,7 @@
     {
       "id": "cell-biology-genetics-genetics-first",
       "title": "Genetics First — Gene Expression and Inheritance",
-      "role": "topic_collection",
+      "role": "deep_dive",
       "categories": [
         "Science and nature"
       ],
@@ -154,12 +154,13 @@
             "011000"
           ]
         }
-      ]
+      ],
+      "parent": "cell-biology-genetics-guided"
     },
     {
       "id": "cell-biology-genetics-cell-mechanisms",
       "title": "Cell Mechanisms — Proteins, Signals, Movement, and Decisions",
-      "role": "topic_collection",
+      "role": "deep_dive",
       "categories": [
         "Science and nature"
       ],
@@ -194,12 +195,13 @@
             "008000"
           ]
         }
-      ]
+      ],
+      "parent": "cell-biology-genetics-guided"
     },
     {
       "id": "cell-biology-genetics-beyond-mendel",
       "title": "Beyond Mendel — Genomes, Populations, and Development",
-      "role": "topic_collection",
+      "role": "deep_dive",
       "categories": [
         "Science and nature"
       ],
@@ -234,7 +236,8 @@
             "012000"
           ]
         }
-      ]
+      ],
+      "parent": "cell-biology-genetics-guided"
     },
     {
       "id": "cell-biology-genetics-renewal-and-change",
