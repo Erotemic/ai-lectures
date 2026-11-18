@@ -1,0 +1,180 @@
+{
+  "schema_version": 1,
+  "sources": {
+    "es-nasa-energy": {
+      "title": "NASA Earth Observatory, Climate and Earth's Energy Budget",
+      "url": "https://science.nasa.gov/earth/earth-observatory/climate-and-earths-energy-budget/",
+      "kind": "government_science_explainer",
+      "access": "free_no_login",
+      "notes": "Incoming shortwave, reflected albedo, outgoing infrared, global versus surface budgets; educational overview and approximate climatological numbers."
+    },
+    "es-ipcc-energy": {
+      "title": "IPCC AR6 Working Group I, Chapter 7, The Earth's Energy Budget, Climate Feedbacks and Climate Sensitivity (2021)",
+      "url": "https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-7/",
+      "kind": "scientific_assessment",
+      "access": "free_no_login",
+      "notes": "Present-day energy flows; feedbacks including water vapor, cloud, ice and radiative forcing; uncertainty and ocean heat uptake."
+    },
+    "es-ceres-program": {
+      "title": "NASA Langley Research Center, CERES program",
+      "url": "https://ceres.larc.nasa.gov/",
+      "kind": "research_program",
+      "access": "free_no_login",
+      "notes": "Satellite observations of reflected solar and emitted thermal radiation; calibration and energy-budget interpretation."
+    },
+    "es-state-climate-2024": {
+      "title": "State of the Climate in 2024, Bulletin of the American Meteorological Society, Earth Radiation Budget section (2025)",
+      "url": "https://journals.ametsoc.org/view/journals/bams/106/8/BAMS-D-25-0102.1.xml",
+      "kind": "scientific_report",
+      "access": "free_no_login",
+      "notes": "CERES-based Earth radiation budget and documented positive recent energy imbalance; particular values are time-dependent."
+    },
+    "es-noaa-winds": {
+      "title": "NOAA JetStream, Global Atmospheric Circulations",
+      "url": "https://www.noaa.gov/jetstream/global/global-atmospheric-circulations",
+      "kind": "government_science_explainer",
+      "access": "free_no_login",
+      "notes": "Coriolis, Hadley/Ferrel/polar circulation cells and their simplified structure, shifting rain and pressure belts."
+    },
+    "es-noaa-jets": {
+      "title": "NOAA JetStream, The Jet Stream",
+      "url": "https://www.noaa.gov/jetstream/global/jet-stream",
+      "kind": "government_science_explainer",
+      "access": "free_no_login",
+      "notes": "Temperature gradients, upper-air jets, seasonal shifts, storms and variable wave structure."
+    },
+    "es-noaa-rossby": {
+      "title": "NOAA JetStream, Longwaves and Shortwaves",
+      "url": "https://www.noaa.gov/jetstream/upper-air-charts/longwaves-and-shortwaves",
+      "kind": "government_science_explainer",
+      "access": "free_no_login",
+      "notes": "Large-scale Rossby waves and their relationship to jet-stream meanders and the development of weather systems."
+    },
+    "es-noaa-radiosonde": {
+      "title": "NOAA National Weather Service, Radiosonde Observation",
+      "url": "https://www.weather.gov/upperair/factsheet",
+      "kind": "government_science_reference",
+      "access": "free_no_login",
+      "notes": "Balloon-borne radiosonde measurements of pressure, temperature, humidity, wind and vertical atmospheric structure."
+    },
+    "es-metoffice-circulation": {
+      "title": "UK Met Office, Global Circulation Patterns",
+      "url": "https://weather.metoffice.gov.uk/learn-about/weather/atmosphere/global-circulation-patterns",
+      "kind": "government_science_explainer",
+      "access": "free_no_login",
+      "notes": "ITCZ, Hadley cell, subtropical descent, midlatitude westerlies and monsoon-like seasonal geographic influences."
+    },
+    "es-ferrel-eddy": {
+      "title": "Liu and Alexander, Atmospheric Bridge, Oceanic Tunnel, and Global Climatic Teleconnections, Reviews of Geophysics (2007)",
+      "url": "https://doi.org/10.1029/2005rg000172",
+      "kind": "scholarly_review",
+      "access": "free_no_login",
+      "notes": "Section 2.1.2: Ferrel cells as eddy-driven, thermally indirect mean circulations; midlatitude storms carry poleward energy."
+    },
+    "es-thermal-wind": {
+      "title": "University of Wisconsin–Milwaukee, Synoptic Meteorology I: Thermal Wind Balance (teaching notes)",
+      "url": "https://bpb-us-w2.wpmucdn.com/sites.uwm.edu/dist/8/663/files/2023/02/Week6-ThermalWind.pdf",
+      "kind": "university_teaching_notes",
+      "access": "free_no_login",
+      "notes": "Derivation and interpretation of vertical geostrophic shear and horizontal layer-mean temperature gradients."
+    },
+    "es-ipcc-water": {
+      "title": "IPCC AR6 Working Group I, Chapter 8, Water Cycle Changes (2021)",
+      "url": "https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-8/",
+      "kind": "scientific_assessment",
+      "access": "free_no_login",
+      "notes": "Global humidity response, precipitation energy constraints, water cycle variability and global versus regional patterns."
+    },
+    "es-usgs-water": {
+      "title": "US Geological Survey Water Science School, Water Cycle",
+      "url": "https://www.usgs.gov/special-topics/water-science-school/water-cycle",
+      "kind": "government_science_reference",
+      "access": "free_no_login",
+      "notes": "Storage versus flow; evaporation, precipitation, transpiration, infiltration, runoff and human influence."
+    },
+    "es-usgs-groundwater": {
+      "title": "US Geological Survey, Ground Water and Surface Water: A Single Resource, Circular 1139",
+      "url": "https://pubs.usgs.gov/circ/circ1139/htdocs/natural_processes_of_ground.htm",
+      "kind": "government_technical_reference",
+      "access": "free_no_login",
+      "notes": "Gaining and losing streams; hydraulic gradients, shallow groundwater and flow effects of pumping."
+    },
+    "es-usgs-tracers": {
+      "title": "US Geological Survey, Circular 1139, Box G: Environmental Tracers",
+      "url": "https://pubs.usgs.gov/circ/circ1139/htdocs/boxg.htm",
+      "kind": "government_technical_reference",
+      "access": "free_no_login",
+      "notes": "Hydrogen and oxygen isotopes, tritium, radon and chemical tracers for residence, origin and flow pathways."
+    },
+    "es-nasa-grace": {
+      "title": "NASA Earth Observatory, The Gravity of Water",
+      "url": "https://science.nasa.gov/earth/earth-observatory/the-gravity-of-water/",
+      "kind": "government_science_explainer",
+      "access": "free_no_login",
+      "notes": "GRACE twin-satellite gravity measurement and its relationship to water-storage changes."
+    },
+    "es-usgs-grace-limit": {
+      "title": "Castellazzi et al., Assessing Groundwater Depletion and Dynamics using GRACE and InSAR: Potential and Limitations (2016)",
+      "url": "https://pubs.usgs.gov/publication/70176381",
+      "kind": "scholarly_review",
+      "access": "free_no_login",
+      "notes": "GRACE spatial averaging limits and separation from local aquifer behavior; complementarity with InSAR."
+    },
+    "es-noaa-currents": {
+      "title": "NOAA National Ocean Service, What Is a Current?",
+      "url": "https://oceanservice.noaa.gov/facts/current.html",
+      "kind": "government_science_explainer",
+      "access": "free_no_login",
+      "notes": "Wind, tides, and density differences as ocean-current drivers."
+    },
+    "es-noaa-boundary": {
+      "title": "NOAA National Ocean Service, Boundary Currents",
+      "url": "https://oceanservice.noaa.gov/education/tutorial_currents/04currents3.html",
+      "kind": "government_science_reference",
+      "access": "free_no_login",
+      "notes": "Western boundary intensification and the Gulf Stream as an example of western boundary circulation."
+    },
+    "es-ipcc-ocean": {
+      "title": "IPCC AR6 Working Group I, Chapter 9, Ocean, Cryosphere and Sea Level Change (2021)",
+      "url": "https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-9/",
+      "kind": "scientific_assessment",
+      "access": "free_no_login",
+      "notes": "Ocean heat uptake, Southern Ocean exchange and water-mass formation, thermal expansion and observed sea-level change."
+    },
+    "es-noaa-ocean-exploration": {
+      "title": "NOAA Ocean Exploration, What Causes Ocean Currents?",
+      "url": "https://oceanexplorer.noaa.gov/ocean-fact/currents/",
+      "kind": "government_science_explainer",
+      "access": "free_no_login",
+      "notes": "Surface wind-driven flow, Coriolis, vertical circulation, density-driven deep flow and topographic effects."
+    },
+    "es-noaa-upwelling": {
+      "title": "NOAA Fisheries, Oceanography of the Northern California Current Study Area",
+      "url": "https://www.fisheries.noaa.gov/west-coast/science-data/oceanography-northern-california-current-study-area",
+      "kind": "government_field_synthesis",
+      "access": "free_no_login",
+      "notes": "California/Oregon/Washington upwelling, seasonal wind variability, cold nutrient-rich source water and biological production."
+    },
+    "es-noaa-argo": {
+      "title": "NOAA Atlantic Oceanographic and Meteorological Laboratory, Argo Program",
+      "url": "https://www.aoml.noaa.gov/argo/",
+      "kind": "international_observation_program",
+      "access": "free_no_login",
+      "notes": "Argo history, measurement depths, global temperature/salinity profiles and Deep Argo development."
+    },
+    "es-whoi-argo": {
+      "title": "Woods Hole Oceanographic Institution, How Do the Argo Floats Work?",
+      "url": "https://www2.whoi.edu/site/argo/technology/how-do-the-floats-work/",
+      "kind": "research_institute_reference",
+      "access": "free_no_login",
+      "notes": "Park-and-profile 10-day cycle, conductivity-temperature-pressure and satellite communication."
+    },
+    "es-ucar-argo": {
+      "title": "UCAR Climate Data Guide, Argo Ocean Temperature and Salinity Profiles",
+      "url": "https://climatedataguide.ucar.edu/climate-data/argo-ocean-temperature-and-salinity-profiles",
+      "kind": "research_data_guide",
+      "access": "free_no_login",
+      "notes": "Observing-system strengths, vertical profiles and caveats about deep ocean, sea ice and coastal sampling."
+    }
+  }
+}

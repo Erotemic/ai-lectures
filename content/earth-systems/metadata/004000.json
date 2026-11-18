@@ -1,0 +1,368 @@
+{
+  "schema_version": 1,
+  "lecture_id": "004000",
+  "transcript": "004000-the-ocean-is-not-a-bathtub.md",
+  "description": "Explains stratification, wind and Ekman transport, coastal upwelling, gyres, overturning circulation, Southern Ocean exchange, heat uptake, and what Argo floats and satellites measure.",
+  "tags": [
+    "Physical oceanography",
+    "Ocean circulation",
+    "Ocean heat content",
+    "Thermocline",
+    "Halocline",
+    "Stratification",
+    "Wind stress",
+    "Ekman transport",
+    "Coastal upwelling",
+    "California Current",
+    "Ocean gyres",
+    "Gulf Stream",
+    "Western boundary intensification",
+    "Thermohaline circulation",
+    "Overturning circulation",
+    "Southern Ocean",
+    "North Atlantic",
+    "Antarctic Bottom Water",
+    "Ocean heat uptake",
+    "Argo floats",
+    "Deep Argo",
+    "Biogeochemical Argo",
+    "Sea surface temperature",
+    "El Niño Southern Oscillation",
+    "Marine heatwaves",
+    "Sea-level rise"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Earth science",
+      "Earth systems",
+      "Ocean dynamics",
+      "Density and stratification"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth systems",
+      "Ocean dynamics",
+      "Wind stress and Ekman transport"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth systems",
+      "Ocean dynamics",
+      "Coastal upwelling"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth systems",
+      "Ocean dynamics",
+      "Gyres and boundary currents"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth systems",
+      "Ocean dynamics",
+      "Overturning circulation"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth systems",
+      "Ocean dynamics",
+      "Southern Ocean upwelling"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth systems",
+      "Heat storage",
+      "Ocean heat content"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth systems",
+      "Air-sea exchange",
+      "Freshwater and salinity"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth systems",
+      "Air-sea exchange",
+      "Ocean carbon and oxygen"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth observation",
+      "Ocean profiling",
+      "Argo floats"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth observation",
+      "Ocean profiling",
+      "Deep Argo"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth systems",
+      "Sea level",
+      "Thermal expansion"
+    ],
+    [
+      "Place: North America",
+      "Place: United States",
+      "Place: California"
+    ],
+    [
+      "Place: Atlantic Ocean",
+      "Place: North Atlantic Ocean"
+    ],
+    [
+      "Place: Southern Ocean",
+      "Place: Antarctica"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "es-noaa-upwelling",
+      "reason": "California/Oregon/Washington upwelling, seasonal wind variability, cold nutrient-rich source water and biological production."
+    },
+    {
+      "source_id": "es-noaa-currents",
+      "reason": "Wind, tides, and density differences as ocean-current drivers."
+    },
+    {
+      "source_id": "es-noaa-ocean-exploration",
+      "reason": "Surface wind-driven flow, Coriolis, vertical circulation, density-driven deep flow and topographic effects."
+    },
+    {
+      "source_id": "es-noaa-boundary",
+      "reason": "Western boundary intensification and the Gulf Stream as an example of western boundary circulation."
+    },
+    {
+      "source_id": "es-ipcc-ocean",
+      "reason": "Ocean heat uptake, Southern Ocean exchange and water-mass formation, thermal expansion and observed sea-level change."
+    },
+    {
+      "source_id": "es-ucar-argo",
+      "reason": "Observing-system strengths, vertical profiles and caveats about deep ocean, sea ice and coastal sampling."
+    },
+    {
+      "source_id": "es-ipcc-energy",
+      "reason": "Present-day energy flows; feedbacks including water vapor, cloud, ice and radiative forcing; uncertainty and ocean heat uptake."
+    },
+    {
+      "source_id": "es-noaa-argo",
+      "reason": "Argo history, measurement depths, global temperature/salinity profiles and Deep Argo development."
+    },
+    {
+      "source_id": "es-whoi-argo",
+      "reason": "Park-and-profile 10-day cycle, conductivity-temperature-pressure and satellite communication."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "004000-e01",
+      "anchor": "Off the coast of California, a cold ribbon of ocean water can rise",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-noaa-upwelling"
+      ],
+      "source_locator": "Wind-driven coastal upwelling along California Current.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "004000-e02",
+      "anchor": "Water's density depends on temperature, dissolved salts, and pressure",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-noaa-currents",
+        "es-noaa-ocean-exploration"
+      ],
+      "source_locator": "Seawater stratification and density-driven currents.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "004000-e03",
+      "anchor": "In a simplified steady Ekman layer, the integrated upper-ocean transport is to the right of the wind",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-noaa-ocean-exploration",
+        "es-noaa-upwelling"
+      ],
+      "source_locator": "Northern Hemisphere wind and coastal upwelling direction; Ekman approximation.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "004000-e04",
+      "anchor": "Colder, deeper water rises near the coast, often bringing nutrients",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-noaa-upwelling"
+      ],
+      "source_locator": "Cold nutrient-rich upwelling and marine food web.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "004000-e05",
+      "anchor": "a swift western boundary current, the Gulf Stream",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-noaa-boundary"
+      ],
+      "source_locator": "Basin-scale currents and boundary circulation.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "004000-e06",
+      "anchor": "The deep ocean introduces a different set of pathways",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-noaa-currents",
+        "es-noaa-ocean-exploration"
+      ],
+      "source_locator": "Density-driven interior flow combined with other processes.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "004000-e07",
+      "anchor": "Around Antarctica, very dense bottom water can form",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-ipcc-ocean"
+      ],
+      "source_locator": "Cold dense water and abyssal circulation; general Southern Ocean context.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "004000-e08",
+      "anchor": "the real ocean is not a single closed loop",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-noaa-ocean-exploration",
+        "es-ucar-argo"
+      ],
+      "source_locator": "Schematic conveyor versus complex three-dimensional, variable circulation.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "004000-e09",
+      "anchor": "The Southern Ocean is especially important because it connects the Atlantic, Indian, and Pacific basins",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-ipcc-ocean"
+      ],
+      "source_locator": "Circumpolar basin connectivity and overturning.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "004000-e10",
+      "anchor": "A small temperature increase spread through a vast mass can represent more energy",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-ipcc-energy"
+      ],
+      "source_locator": "Global ocean heat capacity and energy accounting.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "004000-e11",
+      "anchor": "Water has a high specific heat capacity",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-ipcc-energy"
+      ],
+      "source_locator": "Ocean thermal inertia.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "004000-e12",
+      "anchor": "Evaporation takes freshwater from the ocean surface while leaving most dissolved salts behind",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-noaa-currents"
+      ],
+      "source_locator": "Salinity/density drivers of ocean circulation.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "004000-e13",
+      "anchor": "The international Argo program transformed subsurface coverage",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-noaa-argo",
+        "es-ucar-argo"
+      ],
+      "source_locator": "Program extent and global temperature/salinity profiling.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "004000-e14",
+      "anchor": "A standard core Argo float typically profiles the upper two thousand meters on an approximately ten-day cycle",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-noaa-argo",
+        "es-whoi-argo"
+      ],
+      "source_locator": "Standard float depth and cycle.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "004000-e15",
+      "anchor": "coverage of the deep ocean and seasonally ice-covered regions has been incomplete",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-ucar-argo"
+      ],
+      "source_locator": "Important limitations of standard Argo sampling.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "004000-e16",
+      "anchor": "the ocean is gaining heat overall as Earth experiences a positive energy imbalance",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-ipcc-energy",
+        "es-ucar-argo"
+      ],
+      "source_locator": "Energy gain and Argo observations of ocean warming.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "004000-e17",
+      "anchor": "Warming seawater expands, contributing to sea-level rise",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-ipcc-ocean"
+      ],
+      "source_locator": "Thermal expansion contribution to global mean sea-level rise.",
+      "audit_status": "source_checked"
+    }
+  ],
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Density and currents are introduced with verbal physical reasoning; no oceanography or fluid-dynamics prerequisite."
+    ],
+    "readiness_checks": [
+      "Why can a nearshore ocean surface be cool while the global ocean accumulates heat?",
+      "Why is the conveyor-belt diagram not a literal route for each water parcel?",
+      "How do winds, rotation and coastal boundaries make subsurface nutrients available to plankton?",
+      "What do Argo profiles reveal that satellite sea-surface temperature does not?"
+    ]
+  },
+  "places": [
+    "California, United States",
+    "North Atlantic Ocean",
+    "Southern Ocean"
+  ]
+}

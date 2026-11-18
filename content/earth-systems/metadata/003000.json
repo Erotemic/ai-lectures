@@ -1,0 +1,317 @@
+{
+  "schema_version": 1,
+  "lecture_id": "003000",
+  "transcript": "003000-one-drop-many-clocks.md",
+  "description": "Traces water through evaporation, clouds, plants, soils, streams and aquifers, explaining discharge versus water age, transit and storage timescales, isotope tracers, GRACE gravity observations and hydrological budgets.",
+  "tags": [
+    "Water cycle",
+    "Hydrology",
+    "Hydrological budget",
+    "Evaporation",
+    "Condensation",
+    "Precipitation",
+    "Evapotranspiration",
+    "Soil moisture",
+    "Infiltration",
+    "Groundwater recharge",
+    "Aquifers",
+    "Porosity",
+    "Permeability",
+    "Baseflow",
+    "Gaining and losing streams",
+    "Water residence time",
+    "Hydrograph",
+    "Stable isotopes",
+    "Environmental tracers",
+    "GRACE satellites",
+    "Groundwater depletion",
+    "Flood risk",
+    "Clausius-Clapeyron relation",
+    "Precipitation energy constraint"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Earth science",
+      "Earth systems",
+      "Water cycle",
+      "Evaporation and condensation"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth systems",
+      "Water cycle",
+      "Atmospheric moisture transport"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth systems",
+      "Water cycle",
+      "Evapotranspiration and vegetation"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth systems",
+      "Hydrology",
+      "Watershed budgets"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth systems",
+      "Hydrology",
+      "Soil moisture and infiltration"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth systems",
+      "Hydrology",
+      "Groundwater recharge and aquifers"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth systems",
+      "Hydrology",
+      "Gaining and losing streams"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth systems",
+      "Hydrology",
+      "Water age and transit time"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth systems",
+      "Hydrology",
+      "Floods and land-cover effects"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth systems",
+      "Climate and water",
+      "Humidity versus global precipitation"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth observation",
+      "Hydrologic tracers",
+      "Stable isotopes"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth observation",
+      "Gravity satellites",
+      "GRACE"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "es-usgs-water",
+      "reason": "Storage versus flow; evaporation, precipitation, transpiration, infiltration, runoff and human influence."
+    },
+    {
+      "source_id": "es-ipcc-energy",
+      "reason": "Present-day energy flows; feedbacks including water vapor, cloud, ice and radiative forcing; uncertainty and ocean heat uptake."
+    },
+    {
+      "source_id": "es-ipcc-water",
+      "reason": "Global humidity response, precipitation energy constraints, water cycle variability and global versus regional patterns."
+    },
+    {
+      "source_id": "es-usgs-groundwater",
+      "reason": "Gaining and losing streams; hydraulic gradients, shallow groundwater and flow effects of pumping."
+    },
+    {
+      "source_id": "es-usgs-tracers",
+      "reason": "Hydrogen and oxygen isotopes, tritium, radon and chemical tracers for residence, origin and flow pathways."
+    },
+    {
+      "source_id": "es-nasa-grace",
+      "reason": "GRACE twin-satellite gravity measurement and its relationship to water-storage changes."
+    },
+    {
+      "source_id": "es-usgs-grace-limit",
+      "reason": "GRACE spatial averaging limits and separation from local aquifer behavior; complementarity with InSAR."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "003000-e01",
+      "anchor": "the phrase cycle can disguise the most important feature",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-usgs-water"
+      ],
+      "source_locator": "USGS pools and fluxes, distinct pathways and storage times.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "003000-e02",
+      "anchor": "Evaporation cools the surface because the phase change consumes energy",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-ipcc-energy",
+        "es-usgs-water"
+      ],
+      "source_locator": "Latent heat surface flux and phase change.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "003000-e03",
+      "anchor": "A cloud contains tiny liquid droplets, ice particles, or both",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-usgs-water",
+        "es-ipcc-water"
+      ],
+      "source_locator": "Condensation and cloud formation; state of water in clouds.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "003000-e04",
+      "anchor": "The combined loss of water from soil and plants is called evapotranspiration",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-usgs-water"
+      ],
+      "source_locator": "Hydrologic evapotranspiration definition.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "003000-e05",
+      "anchor": "In a gaining stream, groundwater enters the channel; in a losing stream, surface water seeps outward into the aquifer",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-usgs-groundwater"
+      ],
+      "source_locator": "Circular 1139 gaining/losing-stream diagrams and conditions.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "003000-e06",
+      "anchor": "Porosity describes the space that can hold water. Permeability describes how well those spaces connect",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-usgs-groundwater"
+      ],
+      "source_locator": "Aquifer storage and transport properties.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "003000-e07",
+      "anchor": "The water we observe in a stream after a storm may be older than the storm",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-usgs-tracers",
+        "es-usgs-groundwater"
+      ],
+      "source_locator": "Catchment mixing, source discrimination with age tracers and stream-aquifer interaction.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "003000-e08",
+      "anchor": "Stable oxygen and hydrogen isotope ratios in water can vary with evaporation, condensation",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-usgs-tracers"
+      ],
+      "source_locator": "Stable isotope tracers and source differences.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "003000-e09",
+      "anchor": "A rapidly responding stream can discharge considerable older water",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-usgs-tracers"
+      ],
+      "source_locator": "Discharge/age distinction and environmental tracers.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "003000-e10",
+      "anchor": "change in water stored equals incoming precipitation minus evapotranspiration and outgoing flow",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-usgs-water"
+      ],
+      "source_locator": "Reservoir mass balance for a defined watershed and additional flux caveats.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "003000-e11",
+      "anchor": "The twin spacecraft of the Gravity Recovery and Climate Experiment, GRACE",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-nasa-grace"
+      ],
+      "source_locator": "Twin-satellite gravity method for terrestrial water storage.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "003000-e12",
+      "anchor": "It observes integrated mass changes at coarse spatial scales",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-usgs-grace-limit",
+        "es-nasa-grace"
+      ],
+      "source_locator": "Mass integration and limited resolution of GRACE groundwater signals.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "003000-e13",
+      "anchor": "often summarized as an increase of about seven percent per degree Celsius",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-ipcc-water"
+      ],
+      "source_locator": "IPCC AR6 near-surface humidity response at approximately unchanged relative humidity.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "003000-e14",
+      "anchor": "Precipitation releases latent heat into the atmosphere",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-ipcc-water"
+      ],
+      "source_locator": "Global precipitation energy constraint versus water-vapor capacity.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "003000-e15",
+      "anchor": "A floodplain may store water temporarily",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-usgs-water"
+      ],
+      "source_locator": "Water storage, runoff and hydrologic routing; not a quantitative flood-reduction claim.",
+      "audit_status": "source_checked"
+    }
+  ],
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Evaporation, watersheds and water storage are introduced without assuming hydrology or isotope expertise."
+    ],
+    "readiness_checks": [
+      "Can a stream respond in hours even when much of its water is older?",
+      "Why does porosity alone fail to predict how quickly an aquifer can provide water?",
+      "What additional data are needed to infer groundwater depletion from GRACE?",
+      "Why does global mean rainfall not scale one-for-one with the atmosphere’s vapor capacity?"
+    ]
+  }
+}

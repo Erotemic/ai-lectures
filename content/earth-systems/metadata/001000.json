@@ -1,0 +1,273 @@
+{
+  "schema_version": 1,
+  "lecture_id": "001000",
+  "transcript": "001000-earth-has-an-energy-budget.md",
+  "description": "Explains the top-of-atmosphere and surface energy budgets, albedo, greenhouse radiation, forcing and feedback, ocean thermal inertia, and how CERES and ocean observations constrain Earth’s energy imbalance.",
+  "tags": [
+    "Earth energy budget",
+    "Shortwave radiation",
+    "Outgoing longwave radiation",
+    "Planetary albedo",
+    "Greenhouse effect",
+    "Infrared emission",
+    "Water vapor feedback",
+    "Climate feedback",
+    "CERES",
+    "Ocean heat uptake",
+    "Climate forcing",
+    "Energy conservation",
+    "Thermal inertia",
+    "Cloud radiative effects"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Earth science",
+      "Earth systems",
+      "Energy balance",
+      "Top-of-atmosphere radiation"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth systems",
+      "Energy balance",
+      "Surface energy exchange"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth systems",
+      "Radiative physics",
+      "Shortwave and longwave radiation"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth systems",
+      "Radiative physics",
+      "Greenhouse effect"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth systems",
+      "Climate feedbacks",
+      "Water vapor feedback"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth systems",
+      "Climate feedbacks",
+      "Cloud radiative effects"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth systems",
+      "Climate feedbacks",
+      "Ice and albedo"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth observation",
+      "Satellite radiometry",
+      "CERES"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth observation",
+      "Heat storage",
+      "Ocean heat uptake"
+    ],
+    [
+      "Science",
+      "Physics",
+      "Thermodynamics",
+      "Energy conservation"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "es-nasa-energy",
+      "reason": "Incoming shortwave, reflected albedo, outgoing infrared, global versus surface budgets; educational overview and approximate climatological numbers."
+    },
+    {
+      "source_id": "es-ipcc-energy",
+      "reason": "Present-day energy flows; feedbacks including water vapor, cloud, ice and radiative forcing; uncertainty and ocean heat uptake."
+    },
+    {
+      "source_id": "es-ceres-program",
+      "reason": "Satellite observations of reflected solar and emitted thermal radiation; calibration and energy-budget interpretation."
+    },
+    {
+      "source_id": "es-noaa-argo",
+      "reason": "Argo history, measurement depths, global temperature/salinity profiles and Deep Argo development."
+    },
+    {
+      "source_id": "es-state-climate-2024",
+      "reason": "CERES-based Earth radiation budget and documented positive recent energy imbalance; particular values are time-dependent."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "001000-e01",
+      "anchor": "roughly three hundred and forty watts per square meter",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-nasa-energy"
+      ],
+      "source_locator": "NASA global mean shortwave geometry and radiation flux.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "001000-e02",
+      "anchor": "close to three tenths of the incoming solar energy is reflected to space",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-nasa-energy"
+      ],
+      "source_locator": "Planetary albedo and cloud/ice contributions.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "001000-e03",
+      "anchor": "A bright cloud can make the planet more reflective",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-ipcc-energy"
+      ],
+      "source_locator": "Cloud solar and longwave radiative effects in chapter 7.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "001000-e04",
+      "anchor": "emission increases with the fourth power of absolute temperature",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-ipcc-energy"
+      ],
+      "source_locator": "Thermal emission dependence and Planck feedback.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "001000-e05",
+      "anchor": "Some of that radiation travels upward; some travels downward",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-nasa-energy"
+      ],
+      "source_locator": "Surface-atmosphere longwave radiative exchanges.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "001000-e06",
+      "anchor": "Higher layers of the troposphere are generally colder than the surface",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-ipcc-energy",
+        "es-nasa-energy"
+      ],
+      "source_locator": "Greenhouse emission-level explanation and lapse-rate caveats.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "001000-e07",
+      "anchor": "Water vapor is especially responsive to temperature",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-ipcc-energy"
+      ],
+      "source_locator": "Water vapor feedback and temperature-dependent humidity.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "001000-e08",
+      "anchor": "Carbon dioxide, by contrast, can be altered substantially by fossil fuel combustion",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-ipcc-energy"
+      ],
+      "source_locator": "Distinction between imposed radiative forcing and dependent humidity response.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "001000-e09",
+      "anchor": "Evaporation takes energy from a surface to separate liquid water molecules into vapor",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-ipcc-energy"
+      ],
+      "source_locator": "Latent heat flux in surface energy budget.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "001000-e10",
+      "anchor": "The Clouds and the Earth's Radiant Energy System instruments, known as CERES",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-ceres-program"
+      ],
+      "source_locator": "Instrument family and longwave/shortwave radiative observations.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "001000-e11",
+      "anchor": "the oceans as a whole gain heat over a period",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-noaa-argo",
+        "es-ipcc-energy"
+      ],
+      "source_locator": "Ocean heat content is a storage measure complementary to TOA radiative flux.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "001000-e12",
+      "anchor": "a sustained positive Earth energy imbalance",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-state-climate-2024",
+        "es-ipcc-energy"
+      ],
+      "source_locator": "Observed positive imbalance across recent climate monitoring records.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "001000-e13",
+      "anchor": "Snow and sea ice are generally brighter than the ocean or ground they cover",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-ipcc-energy"
+      ],
+      "source_locator": "Surface albedo feedback and regional changes.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "001000-e14",
+      "anchor": "The long-run planetary budget places a constraint on the average state",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-ipcc-energy"
+      ],
+      "source_locator": "Energy conservation versus event-scale weather prediction.",
+      "audit_status": "source_checked"
+    }
+  ],
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Uses only everyday energy and temperature concepts; radiation wavelength, conservation, and feedback are explained in the lecture."
+    ],
+    "readiness_checks": [
+      "Why is a surface energy balance different from a top-of-atmosphere balance?",
+      "How does an infrared-absorbing atmosphere emit radiation rather than simply block it?",
+      "Why does ocean heat storage matter when satellite fluxes are measured at the top of the atmosphere?",
+      "Why can water vapor act as a feedback while carbon dioxide acts as a forcing?"
+    ]
+  }
+}

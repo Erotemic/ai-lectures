@@ -1,0 +1,123 @@
+{
+  "id": "earth-systems",
+  "title": "Earth as a System: Air, Water, Ocean, and Climate",
+  "summary": "Mechanistic, audio-first Earth science: energy flows, circulation, hydrological pathways, ocean heat and water exchange, and evidence from satellites, gauges, atmospheric observations and ocean floats. The course develops present-day Earth dynamics rather than repeating deep-time historical reconstruction or natural-history surveys.",
+  "categories": [
+    "Science and nature"
+  ],
+  "audiences": [
+    "general",
+    "science enthusiasts",
+    "earth science learners"
+  ],
+  "tags": [
+    "Earth science",
+    "Earth systems",
+    "Climate physics",
+    "Physical geography",
+    "Atmosphere",
+    "Hydrology",
+    "Oceanography"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Earth science",
+      "Earth systems"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Physical geography"
+    ]
+  ],
+  "assumed_background": [
+    "Everyday observations of weather, water and temperature; energy, pressure, density, radiation and feedback are introduced as they arise.",
+    "The Physical World, The Living World, and Deep Time are optional complements, not required listening."
+  ],
+  "editorial_status": "in_progress",
+  "sections": [
+    "radiation_and_climate",
+    "atmospheric_circulation",
+    "hydrology_and_water_cycle",
+    "ocean_circulation"
+  ],
+  "lectures": [
+    {
+      "id": "001000",
+      "title": "Earth Has an Energy Budget: Light In, Heat Out",
+      "section": "radiation_and_climate",
+      "file": "001000-earth-has-an-energy-budget.md",
+      "spoken_words": 1906,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 13.1,
+      "tags": [
+        "Earth energy budget",
+        "Shortwave radiation",
+        "Outgoing longwave radiation",
+        "Planetary albedo",
+        "Greenhouse effect",
+        "Infrared emission",
+        "Water vapor feedback",
+        "Climate feedback"
+      ]
+    },
+    {
+      "id": "002000",
+      "title": "Why the Atmosphere Will Not Sit Still",
+      "section": "atmospheric_circulation",
+      "file": "002000-why-the-atmosphere-will-not-sit-still.md",
+      "spoken_words": 1924,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 13.3,
+      "tags": [
+        "Atmospheric dynamics",
+        "Pressure gradient force",
+        "Coriolis effect",
+        "Geostrophic flow",
+        "Thermal-wind balance",
+        "Hadley cell",
+        "Intertropical convergence zone",
+        "Ferrel cell"
+      ]
+    },
+    {
+      "id": "003000",
+      "title": "One Drop, Many Clocks: Water Through the Planet",
+      "section": "hydrology_and_water_cycle",
+      "file": "003000-one-drop-many-clocks.md",
+      "spoken_words": 2038,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 14.1,
+      "tags": [
+        "Water cycle",
+        "Hydrology",
+        "Hydrological budget",
+        "Evaporation",
+        "Condensation",
+        "Precipitation",
+        "Evapotranspiration",
+        "Soil moisture"
+      ]
+    },
+    {
+      "id": "004000",
+      "title": "The Ocean Is Not a Bathtub: Circulation, Heat, and the Deep Sea",
+      "section": "ocean_circulation",
+      "file": "004000-the-ocean-is-not-a-bathtub.md",
+      "spoken_words": 1930,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 13.3,
+      "tags": [
+        "Physical oceanography",
+        "Ocean circulation",
+        "Ocean heat content",
+        "Thermocline",
+        "Halocline",
+        "Stratification",
+        "Wind stress",
+        "Ekman transport"
+      ]
+    }
+  ]
+}

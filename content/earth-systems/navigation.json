@@ -1,0 +1,75 @@
+{
+  "default_collection": "earth-as-a-system",
+  "collections": [
+    {
+      "id": "earth-as-a-system",
+      "title": "Earth as a System · Guided Listening",
+      "role": "main",
+      "categories": [
+        "Science and nature"
+      ],
+      "summary": "A connected introduction to Earth's radiation budget, moving atmosphere, watersheds and ocean circulation; four complete lectures with experiments and observational methods.",
+      "chapters": [
+        {
+          "title": "Earth Has an Energy Budget: Light In, Heat Out",
+          "lectures": [
+            "001000"
+          ]
+        },
+        {
+          "title": "Why the Atmosphere Will Not Sit Still",
+          "lectures": [
+            "002000"
+          ]
+        },
+        {
+          "title": "One Drop, Many Clocks: Water Through the Planet",
+          "lectures": [
+            "003000"
+          ]
+        },
+        {
+          "title": "The Ocean Is Not a Bathtub: Circulation, Heat, and the Deep Sea",
+          "lectures": [
+            "004000"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "energy-and-circulation",
+      "title": "Earth as a System · Energy and Circulation",
+      "role": "deep_dive",
+      "parent": "earth-as-a-system",
+      "summary": "Connect planetary radiative exchange to the winds and ocean currents that redistribute energy.",
+      "tags": [
+        "Energy balance",
+        "Atmosphere",
+        "Ocean heat"
+      ],
+      "lectures": [
+        "001000",
+        "002000",
+        "004000"
+      ]
+    },
+    {
+      "id": "water-connected",
+      "title": "Earth as a System · Where Water Travels",
+      "role": "deep_dive",
+      "parent": "earth-as-a-system",
+      "summary": "Follow water and its energy from winds through rainfall, groundwater and ocean circulation.",
+      "tags": [
+        "Water cycle",
+        "Atmospheric moisture",
+        "Hydrology",
+        "Ocean"
+      ],
+      "lectures": [
+        "002000",
+        "003000",
+        "004000"
+      ]
+    }
+  ]
+}

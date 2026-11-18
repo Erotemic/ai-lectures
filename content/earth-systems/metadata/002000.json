@@ -1,0 +1,283 @@
+{
+  "schema_version": 1,
+  "lecture_id": "002000",
+  "transcript": "002000-why-the-atmosphere-will-not-sit-still.md",
+  "description": "Derives the roles of pressure gradients, Coriolis deflection, geostrophic and thermal-wind balance, moist convection, Hadley circulation, storm eddies, jet streams, monsoons and weather observations.",
+  "tags": [
+    "Atmospheric dynamics",
+    "Pressure gradient force",
+    "Coriolis effect",
+    "Geostrophic flow",
+    "Thermal-wind balance",
+    "Hadley cell",
+    "Intertropical convergence zone",
+    "Ferrel cell",
+    "Baroclinic eddies",
+    "Jet streams",
+    "Rossby waves",
+    "Moist convection",
+    "Latent heat",
+    "Monsoon",
+    "South Asia",
+    "Sahara",
+    "Weather balloons",
+    "Data assimilation"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Earth science",
+      "Earth systems",
+      "Atmospheric circulation",
+      "Pressure-gradient force"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth systems",
+      "Atmospheric circulation",
+      "Coriolis effect"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth systems",
+      "Atmospheric circulation",
+      "Geostrophic balance"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth systems",
+      "Atmospheric circulation",
+      "Hadley cell and trade winds"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth systems",
+      "Atmospheric circulation",
+      "Ferrel circulation and storm eddies"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth systems",
+      "Atmospheric circulation",
+      "Jet streams and Rossby waves"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth systems",
+      "Atmospheric circulation",
+      "Thermal-wind balance"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth systems",
+      "Convection",
+      "Moist static stability"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth systems",
+      "Monsoons",
+      "South Asian monsoon"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth observation",
+      "Weather observations",
+      "Soundings and data assimilation"
+    ],
+    [
+      "Place: Africa",
+      "Place: North Africa",
+      "Place: Sahara"
+    ],
+    [
+      "Place: Asia",
+      "Place: South Asia"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "es-noaa-winds",
+      "reason": "Coriolis, Hadley/Ferrel/polar circulation cells and their simplified structure, shifting rain and pressure belts."
+    },
+    {
+      "source_id": "es-thermal-wind",
+      "reason": "Derivation and interpretation of vertical geostrophic shear and horizontal layer-mean temperature gradients."
+    },
+    {
+      "source_id": "es-metoffice-circulation",
+      "reason": "ITCZ, Hadley cell, subtropical descent, midlatitude westerlies and monsoon-like seasonal geographic influences."
+    },
+    {
+      "source_id": "es-ferrel-eddy",
+      "reason": "Section 2.1.2: Ferrel cells as eddy-driven, thermally indirect mean circulations; midlatitude storms carry poleward energy."
+    },
+    {
+      "source_id": "es-noaa-jets",
+      "reason": "Temperature gradients, upper-air jets, seasonal shifts, storms and variable wave structure."
+    },
+    {
+      "source_id": "es-noaa-rossby",
+      "reason": "Large-scale Rossby waves and their relationship to jet-stream meanders and the development of weather systems."
+    },
+    {
+      "source_id": "es-ipcc-water",
+      "reason": "Global humidity response, precipitation energy constraints, water cycle variability and global versus regional patterns."
+    },
+    {
+      "source_id": "es-noaa-radiosonde",
+      "reason": "Balloon-borne radiosonde measurements of pressure, temperature, humidity, wind and vertical atmospheric structure."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "002000-e01",
+      "anchor": "a horizontal pressure difference tends to accelerate air from higher pressure toward lower pressure",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-noaa-winds"
+      ],
+      "source_locator": "Pressure differences drive flow; educational global circulation discussion.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "002000-e02",
+      "anchor": "It points to the right of the motion in the Northern Hemisphere",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-noaa-winds"
+      ],
+      "source_locator": "Hemispheric Coriolis deflection.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "002000-e03",
+      "anchor": "Meteorologists call the resulting approximate flow geostrophic",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-thermal-wind"
+      ],
+      "source_locator": "Geostrophic balance used as a prerequisite in atmospheric thermal-wind derivation.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "002000-e04",
+      "anchor": "This overturning is called the Hadley circulation",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-noaa-winds",
+        "es-metoffice-circulation"
+      ],
+      "source_locator": "Low-latitude tropical overturning.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "002000-e05",
+      "anchor": "The Sahara is not simply a laboratory sample of latitude thirty north",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-metoffice-circulation"
+      ],
+      "source_locator": "Latitude-associated subsidence is schematic; regional land/ocean/topography also matter.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "002000-e06",
+      "anchor": "the Ferrel cell is closely tied to the net effects of midlatitude eddies",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-ferrel-eddy"
+      ],
+      "source_locator": "Review section 2.1.2 on indirect, eddy-driven Ferrel circulation.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "002000-e07",
+      "anchor": "a relationship called thermal-wind balance",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-thermal-wind"
+      ],
+      "source_locator": "Vertical geostrophic wind shear linked to horizontal temperature gradient.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "002000-e08",
+      "anchor": "The jet streams provide another view of the same dynamics",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-noaa-jets",
+        "es-thermal-wind"
+      ],
+      "source_locator": "Upper-air strong wind corridors near temperature contrasts.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "002000-e09",
+      "anchor": "commonly called Rossby waves",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-noaa-rossby"
+      ],
+      "source_locator": "Large-scale meandering jets and wave pattern; general dynamical context.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "002000-e10",
+      "anchor": "When the vapor later condenses into cloud droplets, latent heat is released",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-ipcc-water"
+      ],
+      "source_locator": "Water cycle and atmospheric latent heating.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "002000-e11",
+      "anchor": "The South Asian monsoon links the heated land mass and surrounding oceans",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-ipcc-water",
+        "es-metoffice-circulation"
+      ],
+      "source_locator": "Regional moisture and seasonal atmospheric circulation.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "002000-e12",
+      "anchor": "Weather balloons carry sensors through the troposphere",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-noaa-radiosonde"
+      ],
+      "source_locator": "Upper-air observation and vertical wind profiling; general observational context.",
+      "audit_status": "source_checked"
+    }
+  ],
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Pressure and temperature are introduced from first principles; no prior dynamical meteorology required."
+    ],
+    "readiness_checks": [
+      "Why does rotation change the direction of wind without supplying its energy?",
+      "Why are midlatitude weather systems essential to the Ferrel cell?",
+      "How does latent-heat release change the development of rising air?",
+      "Why does a jet stream map not uniquely determine the cause of a flood?"
+    ]
+  },
+  "places": [
+    "Sahara, North Africa",
+    "South Asia"
+  ]
+}
