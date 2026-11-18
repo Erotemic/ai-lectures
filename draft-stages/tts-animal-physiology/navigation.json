@@ -8,7 +8,7 @@
       "categories": [
         "Science and nature"
       ],
-      "summary": "An expanding path through internal regulation, movement and sensory physiology, from oxygen and water to mechanoreceptors, eyes, chemical sensing and electric or thermal information. Specialist routes remain optional.",
+      "summary": "A guided sequence from homeostasis, transport, movement and sensory systems to the constraints of heat and energy, ending with strategies for surviving cold and food shortage.",
       "chapters": [
         {
           "title": "The Environment Inside an Animal",
@@ -68,6 +68,24 @@
           "title": "Senses Without a Picture",
           "lectures": [
             "010000"
+          ]
+        },
+        {
+          "title": "A Body in the Weather",
+          "lectures": [
+            "011000"
+          ]
+        },
+        {
+          "title": "What Metabolism Measures",
+          "lectures": [
+            "012000"
+          ]
+        },
+        {
+          "title": "When Life Slows Down",
+          "lectures": [
+            "013000"
           ]
         }
       ]
@@ -140,6 +158,26 @@
         "008000",
         "009000",
         "010000"
+      ]
+    },
+    {
+      "id": "thermal-and-energy-strategies",
+      "title": "How Animals Work · Temperature and Energy",
+      "role": "deep_dive",
+      "parent": "how-animals-work",
+      "summary": "The physics of heat exchange; measuring chemical power; and the controlled metabolic changes that carry animals through cold or scarce seasons.",
+      "tags": [
+        "Thermoregulation",
+        "Energy budget",
+        "Metabolic scaling",
+        "Torpor",
+        "Hibernation",
+        "Freeze tolerance"
+      ],
+      "lectures": [
+        "011000",
+        "012000",
+        "013000"
       ]
     }
   ]

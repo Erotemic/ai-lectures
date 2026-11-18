@@ -1,0 +1,325 @@
+{
+  "schema_version": 1,
+  "lecture_id": "012000",
+  "transcript": "012000-what-metabolism-measures.md",
+  "description": "Shows how calorimetry, gas exchange and stable-isotope techniques quantify metabolic power; distinguishes resting, maximal and field rates and tests claims about Kleiber scaling.",
+  "tags": [
+    "Metabolism",
+    "Energy expenditure",
+    "Energy budget",
+    "ATP",
+    "Cellular respiration",
+    "Power",
+    "Direct calorimetry",
+    "Indirect calorimetry",
+    "Respirometry",
+    "Respiratory exchange ratio",
+    "Respiratory quotient",
+    "Oxygen consumption",
+    "Basal metabolic rate",
+    "Standard metabolic rate",
+    "Resting metabolic rate",
+    "Maximum metabolic rate",
+    "Aerobic scope",
+    "Thermal sensitivity",
+    "Q10",
+    "Biological allometry",
+    "Metabolic scaling",
+    "Kleiber law",
+    "Max Kleiber",
+    "Metabolic exponent",
+    "Surface area to volume ratio",
+    "Body mass",
+    "Doubly labeled water",
+    "Field metabolic rate",
+    "Specific dynamic action",
+    "Sustained energy expenditure"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Energetics",
+      "Metabolism",
+      "ATP"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Energetics",
+      "Energy expenditure",
+      "Power"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Energetics",
+      "Metabolic measurement",
+      "Direct calorimetry"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Energetics",
+      "Metabolic measurement",
+      "Indirect calorimetry"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Energetics",
+      "Metabolic measurement",
+      "Respiratory exchange ratio"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Energetics",
+      "Metabolic rates",
+      "Basal metabolic rate"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Energetics",
+      "Metabolic rates",
+      "Standard metabolic rate"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Energetics",
+      "Metabolic rates",
+      "Aerobic scope"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Energetics",
+      "Metabolic rates",
+      "Field metabolic rate"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Energetics",
+      "Metabolic rates",
+      "Specific dynamic action"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Energetics",
+      "Metabolic scaling",
+      "Kleiber law"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Energetics",
+      "Metabolic scaling",
+      "Allometric exponent"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Energetics",
+      "Field methods",
+      "Doubly labeled water"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Thermoregulation",
+      "Thermal sensitivity",
+      "Q10"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "ap-meta-calorimetry-history",
+      "reason": "Lavoisier-Laplace ice calorimeter; calorimetry principles and substrate conversions."
+    },
+    {
+      "source_id": "ap-meta-minimal2004",
+      "reason": "Definitions and physiological interpretation of minimal, basal, and standard metabolic rates."
+    },
+    {
+      "source_id": "ap-meta-calorimetry2006",
+      "reason": "Sampling delay and technical interpretation of oxygen and carbon dioxide exchange."
+    },
+    {
+      "source_id": "ap-meta-terminology2023",
+      "reason": "Basal, standard, field, and maximum metabolic rate; absolute and factorial aerobic scope."
+    },
+    {
+      "source_id": "ap-meta-kleiber2015",
+      "reason": "Historical development of 3/4 scaling; boundaries and criticisms."
+    },
+    {
+      "source_id": "ap-meta-glazier2005",
+      "reason": "Evidence against one universal scaling exponent."
+    },
+    {
+      "source_id": "ap-meta-scaling2004",
+      "reason": "Evidence and competing theories of metabolic allometry."
+    },
+    {
+      "source_id": "ap-meta-field2005",
+      "reason": "229 terrestrial vertebrate species measured using doubly labeled water."
+    },
+    {
+      "source_id": "ap-meta-water2005",
+      "reason": "Stable isotope measurement and computational assumptions."
+    },
+    {
+      "source_id": "ap-meta-energy2004",
+      "reason": "Field method principles and non-instantaneous estimation."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "012000-e01",
+      "anchor": "In the late eighteenth century, Antoine Lavoisier and Pierre-Simon Laplace",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-meta-calorimetry-history"
+      ],
+      "source_locator": "Early calorimetry and respiration experiments",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "012000-e02",
+      "anchor": "Physiologists more often use indirect calorimetry",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-meta-calorimetry2006",
+        "ap-meta-calorimetry-history"
+      ],
+      "source_locator": "Open-flow gas exchange method and its assumptions",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "012000-e03",
+      "anchor": "The ratio of carbon dioxide produced to oxygen consumed",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-meta-calorimetry2006"
+      ],
+      "source_locator": "Respiratory quotient and substrate oxidation inference",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "012000-e04",
+      "anchor": "Basal metabolic rate is a highly standardized resting measurement",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-meta-terminology2023",
+        "ap-meta-minimal2004"
+      ],
+      "source_locator": "Measurement conditions and terminology",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "012000-e05",
+      "anchor": "The difference between that rate and the standard or basal rate",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-meta-terminology2023"
+      ],
+      "source_locator": "Absolute and factorial aerobic scope",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "012000-e06",
+      "anchor": "In 1932, Max Kleiber published an influential comparison",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-meta-kleiber2015",
+        "ap-meta-scaling2004"
+      ],
+      "source_locator": "1932 metabolic size comparison",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "012000-e07",
+      "anchor": "Douglas Glazier and other researchers have assembled",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-meta-glazier2005"
+      ],
+      "source_locator": "Scaling variation and nonuniversality",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "012000-e08",
+      "anchor": "Within a species, comparisons among lean and fat individuals",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-meta-calorimetry2006"
+      ],
+      "source_locator": "Pitfalls in scaling energy expenditure by total body mass",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "012000-e09",
+      "anchor": "One important technique uses doubly labeled water",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-meta-water2005",
+        "ap-meta-energy2004"
+      ],
+      "source_locator": "Two stable isotopes; interpretation and correction terms",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "012000-e10",
+      "anchor": "In a 2005 synthesis, Kenneth Nagy compared",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-meta-field2005"
+      ],
+      "source_locator": "229-species free-living vertebrate data",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "012000-e11",
+      "anchor": "Resting metabolic rate is generally less restrictive",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-meta-terminology2023"
+      ],
+      "source_locator": "Distinguishing standard, basal and resting metabolic rates",
+      "audit_status": "source_checked"
+    }
+  ],
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Only elementary arithmetic is needed; power laws, respiration and isotopes are defined in the narration."
+    ],
+    "readiness_checks": [
+      "What is the difference between energy and power?",
+      "Why can gas exchange estimate metabolic rate, and what assumptions matter?",
+      "Why can’t basal, standard and field metabolic rate be used interchangeably?",
+      "What does an exponent of 3/4 predict for total versus mass-specific metabolic rate?",
+      "Why is one cross-species exponent not a universal physiological law?",
+      "What does doubly labeled water measure over time?"
+    ]
+  }
+}

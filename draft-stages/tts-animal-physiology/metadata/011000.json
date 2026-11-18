@@ -1,0 +1,324 @@
+{
+  "schema_version": 1,
+  "lecture_id": "011000",
+  "transcript": "011000-a-body-in-the-weather.md",
+  "description": "Explains heat production, transfer and retention through conduction, convection, radiation and evaporation, comparing Arctic birds, basking ectotherms, desert cooling and warm-bodied fish.",
+  "tags": [
+    "Thermoregulation",
+    "Heat balance",
+    "Thermal physiology",
+    "Body temperature",
+    "Conduction",
+    "Convection",
+    "Thermal radiation",
+    "Evaporation",
+    "Insulation",
+    "Surface area to volume ratio",
+    "Ectothermy",
+    "Endothermy",
+    "Homeothermy",
+    "Heterothermy",
+    "Thermoneutral zone",
+    "Critical temperature",
+    "Shivering thermogenesis",
+    "Brown adipose tissue",
+    "UCP1",
+    "Countercurrent heat exchange",
+    "Behavioral thermoregulation",
+    "Emperor penguins",
+    "Huddling",
+    "Opah",
+    "Whole-body endothermy",
+    "Desert birds",
+    "Evaporative cooling"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Thermoregulation",
+      "Heat budget"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Thermoregulation",
+      "Heat transfer",
+      "Conduction"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Thermoregulation",
+      "Heat transfer",
+      "Convection"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Thermoregulation",
+      "Heat transfer",
+      "Thermal radiation"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Thermoregulation",
+      "Heat transfer",
+      "Evaporation"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Thermoregulation",
+      "Thermogenesis",
+      "Shivering"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Thermoregulation",
+      "Thermogenesis",
+      "Brown adipose tissue",
+      "UCP1"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Thermoregulation",
+      "Insulation"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Thermoregulation",
+      "Thermoneutral zone"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Comparative physiology",
+      "Birds",
+      "Emperor penguins",
+      "Huddling"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Comparative physiology",
+      "Fishes",
+      "Opah",
+      "Whole-body endothermy"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Thermoregulation",
+      "Countercurrent heat exchange"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Thermoregulation",
+      "Behavioral thermoregulation"
+    ],
+    [
+      "Place: North America",
+      "Place: United States",
+      "Place: Alaska"
+    ],
+    [
+      "Place: Central America",
+      "Place: Panama"
+    ],
+    [
+      "Place: Antarctica"
+    ]
+  ],
+  "places": [
+    "Alaska",
+    "Panama",
+    "Antarctica"
+  ],
+  "related_resources": [
+    {
+      "source_id": "ap-heat-scholander1950-regulation",
+      "reason": "Air temperature and oxygen consumption in Arctic and tropical endotherms including Point Barrow and Panama."
+    },
+    {
+      "source_id": "ap-heat-scholander1950-adaptation",
+      "reason": "Heat production, insulation, and climatic adaptation; limits of simple body-temperature explanations."
+    },
+    {
+      "source_id": "ap-heat-brownfat2018",
+      "reason": "UCP1 and mitochondrial proton leak; tissue-specific thermogenesis."
+    },
+    {
+      "source_id": "ap-heat-gilbert2006",
+      "reason": "Back-feather temperature loggers; intermittent episodes and access to huddles."
+    },
+    {
+      "source_id": "ap-heat-zitterbart2011",
+      "reason": "Time-lapse field observations near the Neumayer Antarctic Research Station; coordinated waves."
+    },
+    {
+      "source_id": "ap-heat-opah2015",
+      "reason": "Gill heat exchangers and whole-body temperature retention in opah."
+    },
+    {
+      "source_id": "ap-heat-birds2021",
+      "reason": "Comparison across 56 arid-zone bird species of evaporative water loss and heat tolerance."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "011000-e01",
+      "anchor": "Heat produced by metabolism and absorbed from the environment",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-heat-scholander1950-adaptation"
+      ],
+      "source_locator": "Heat balance and heat production versus heat dissipation",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "011000-e02",
+      "anchor": "The physical pathways are familiar from everyday life",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-heat-scholander1950-adaptation"
+      ],
+      "source_locator": "Heat-transfer budget, physical categories",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "011000-e03",
+      "anchor": "Body size shapes that budget",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-heat-scholander1950-adaptation"
+      ],
+      "source_locator": "Exchange surfaces and whole-body mass",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "011000-e04",
+      "anchor": "A key tool for studying endotherms is the thermoneutral zone",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-heat-scholander1950-regulation"
+      ],
+      "source_locator": "Metabolic-versus-ambient temperature curve",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "011000-e05",
+      "anchor": "In 1950, Per F. Scholander, Laurence Irving, and colleagues",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-heat-scholander1950-regulation",
+        "ap-heat-scholander1950-adaptation"
+      ],
+      "source_locator": "1950 Arctic and tropical chamber experiments",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "011000-e06",
+      "anchor": "Many placental mammals also possess specialized brown adipose tissue",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-heat-brownfat2018"
+      ],
+      "source_locator": "Brown adipose tissue UCP1 proton leak mechanism",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "011000-e07",
+      "anchor": "In a 2006 field study, Caroline Gilbert and colleagues",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-heat-gilbert2006"
+      ],
+      "source_locator": "Logger field study and intermittent huddling",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "011000-e08",
+      "anchor": "In 2011, Daniel Zitterbart and colleagues",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-heat-zitterbart2011"
+      ],
+      "source_locator": "Neumayer colony time-lapse observations",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "011000-e09",
+      "anchor": "Pressing together reduces the area exposed",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-heat-gilbert2006",
+        "ap-heat-zitterbart2011"
+      ],
+      "source_locator": "Energetic interpretation of huddling",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "011000-e10",
+      "anchor": "In 2015, Nicholas Wegner and collaborators",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-heat-opah2015"
+      ],
+      "source_locator": "Whole-body thermal retention and gill exchangers",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "011000-e11",
+      "anchor": "A comparative analysis published in 2021",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-heat-birds2021"
+      ],
+      "source_locator": "56 species high-temperature comparison",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "011000-e12",
+      "anchor": "Panting can increase evaporation from respiratory surfaces",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-heat-birds2021"
+      ],
+      "source_locator": "Evaporative heat-loss modes in desert birds",
+      "audit_status": "source_checked"
+    }
+  ],
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Heat terms and physiological categories are defined in the narration; familiarity with oxygen, blood and energy is helpful but not required."
+    ],
+    "readiness_checks": [
+      "Why can the same air temperature impose different thermal costs on two animals?",
+      "What does the thermoneutral zone represent experimentally?",
+      "Why is UCP1-mediated brown-fat heating different from insulation?",
+      "How does a penguin huddle change an individual bird’s heat budget?",
+      "Why is the opah a counterexample to a simple warm- versus cold-blooded dichotomy?"
+    ]
+  }
+}
