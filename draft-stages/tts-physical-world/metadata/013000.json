@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "lecture_id": "013000",
+  "transcript": "013000-when-one-electron-interferes.md",
+  "related_resources": [
+    {
+      "source_id": "ph-quant-tonomura",
+      "reason": "Electrostatic biprism and position-sensitive detector, sequential single-electron detections."
+    },
+    {
+      "source_id": "ph-quant-uncert",
+      "reason": "Standard deviations of position and momentum and lower bound."
+    },
+    {
+      "source_id": "ph-quant-nobel",
+      "reason": "Experimental Bell inequality violations and contributions of Clauser, Aspect and Zeilinger; interpret broad popular claims cautiously."
+    },
+    {
+      "source_id": "ph-quant-aps",
+      "reason": "Development and experimental interpretation of Bell tests."
+    },
+    {
+      "source_id": "ph-quant-wavefunction",
+      "reason": "Wavefunction as complex amplitude, Born probability density and superposition."
+    },
+    {
+      "source_id": "ph-quant-polarization",
+      "reason": "Malus law and three-polarizer transmission at 45 and 90 degrees."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "013000-e01",
+      "anchor": "In 1989, Akira Tonomura and colleagues reported a demonstration of the gradual buildup of an electron interference pattern using an electron microscope, an electron biprism and a position-sensitive counting system.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ph-quant-tonomura"
+      ],
+      "source_locator": "1989 single-electron buildup experiment",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "013000-e02",
+      "anchor": "An electrostatic electron biprism provided two coherent alternatives that could interfere.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ph-quant-tonomura"
+      ],
+      "source_locator": "Electron biprism, not literally two physical slits",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "013000-e03",
+      "anchor": "In the standard theory, we represent the system with a quantum state.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ph-quant-wavefunction"
+      ],
+      "source_locator": "State formalism in quantum mechanics",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "013000-e04",
+      "anchor": "The probability that it passes both filters is one quarter.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ph-quant-polarization"
+      ],
+      "source_locator": "Ideal polarization projection calculation",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "013000-e05",
+      "anchor": "The uncertainty relation says that the product of the position standard deviation and the momentum standard deviation cannot be smaller than the reduced Planck constant divided by two.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ph-quant-uncert"
+      ],
+      "source_locator": "Position momentum uncertainty",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "013000-e06",
+      "anchor": "In the nonrelativistic approximation, that corresponds to a velocity spread of at least about sixty thousand meters per second.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ph-quant-uncert"
+      ],
+      "source_locator": "Derived uncertainty numerical calculation",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "013000-e07",
+      "anchor": "John Bell showed that broad classes of local hidden-variable accounts, subject to particular assumptions, obey bounds that quantum predictions can exceed.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ph-quant-nobel",
+        "ph-quant-aps"
+      ],
+      "source_locator": "Bell theorem scope and assumptions",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "013000-e08",
+      "anchor": "Experiments by John Clauser, Alain Aspect, Anton Zeilinger and many later groups established such violations; their work was recognized by the 2022 Nobel Prize in Physics.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ph-quant-nobel"
+      ],
+      "source_locator": "2022 Physics Nobel experimental history",
+      "audit_status": "source_checked"
+    }
+  ]
+}

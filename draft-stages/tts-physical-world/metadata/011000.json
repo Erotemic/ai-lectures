@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "lecture_id": "011000",
+  "transcript": "011000-why-engines-need-a-cold-side.md",
+  "related_resources": [
+    {
+      "source_id": "ph-therm-maxwell",
+      "reason": "Classical ideal-gas speed distribution and thermal averages."
+    },
+    {
+      "source_id": "ph-therm-stat",
+      "reason": "Microstates and entropy changes in expansion."
+    },
+    {
+      "source_id": "ph-therm-engines",
+      "reason": "Heat engines, work and rejected heat."
+    },
+    {
+      "source_id": "ph-therm-carnot",
+      "reason": "Ideal reversible two-reservoir efficiency limit."
+    },
+    {
+      "source_id": "ph-therm-heatpump",
+      "reason": "Heat pump coefficient of performance, reversed cycle."
+    },
+    {
+      "source_id": "ph-therm-gibbs",
+      "reason": "Gibbs free energy, equilibrium and constant temperature/pressure assumptions."
+    },
+    {
+      "source_id": "ph-therm-landauer",
+      "reason": "Thermodynamic cost of logically irreversible processing; full text may require access."
+    },
+    {
+      "source_id": "ph-therm-berut",
+      "reason": "Model one-bit memory erased in a double-well potential and Landauer limit."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "011000-e01",
+      "anchor": "Maxwell's distribution gives a precise prediction of the spread of speeds for a classical gas at equilibrium.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ph-therm-maxwell"
+      ],
+      "source_locator": "Maxwell–Boltzmann speed distribution",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "011000-e02",
+      "anchor": "For a classical, dilute gas made from individual atoms, each atom has three independent components of translational motion.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ph-therm-maxwell"
+      ],
+      "source_locator": "Equipartition and monatomic gas degrees of freedom",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "011000-e03",
+      "anchor": "For a mole of ideal gas at fixed temperature, a reversible expansion to twice its starting volume has an entropy change equal to the gas constant times the natural logarithm of two.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ph-therm-stat"
+      ],
+      "source_locator": "Entropy of isothermal ideal-gas expansion",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "011000-e04",
+      "anchor": "The hot reservoir loses entropy: one hundred joules divided by four hundred kelvin, or a quarter of a joule per kelvin.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ph-therm-stat",
+        "ph-therm-carnot"
+      ],
+      "source_locator": "Reservoir entropy bookkeeping",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "011000-e05",
+      "anchor": "The ideal reversible engine operating between reservoirs at a hot temperature and a cold temperature has a maximum efficiency equal to one minus the cold absolute temperature divided by the hot absolute temperature.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ph-therm-carnot"
+      ],
+      "source_locator": "Carnot efficiency",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "011000-e06",
+      "anchor": "For a reversible pump the coefficient of performance for heating, defined as heat delivered indoors divided by work supplied, is three hundred divided by thirty, or ten.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ph-therm-heatpump"
+      ],
+      "source_locator": "Reversible heat pump coefficient of performance",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "011000-e07",
+      "anchor": "At constant temperature and pressure, a useful potential is the Gibbs free energy: enthalpy minus temperature times entropy.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ph-therm-gibbs"
+      ],
+      "source_locator": "Gibbs free energy definition",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "011000-e08",
+      "anchor": "In particular, resetting a bit of memory that has equally probable logical states has a minimum heat cost of Boltzmann's constant times temperature times the natural logarithm of two in the standard ideal isothermal erasure limit.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ph-therm-landauer",
+        "ph-therm-berut"
+      ],
+      "source_locator": "Landauer limit and assumptions",
+      "audit_status": "source_checked"
+    }
+  ]
+}

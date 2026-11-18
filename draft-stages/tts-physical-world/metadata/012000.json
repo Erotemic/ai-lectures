@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "lecture_id": "012000",
+  "transcript": "012000-when-clocks-disagree.md",
+  "related_resources": [
+    {
+      "source_id": "ph-rel-text",
+      "reason": "Special relativity, reference frames, proper time, intervals and energy."
+    },
+    {
+      "source_id": "ph-rel-nistgps",
+      "reason": "Relativistic GPS satellite clock shift: -7, +45, +38 microseconds per day."
+    },
+    {
+      "source_id": "ph-rel-nistclocks",
+      "reason": "Hafele–Keating clocks, gravitational and speed-dependent time comparisons."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "012000-e01",
+      "anchor": "But in the setting of special relativity, the fixed vacuum speed of light demands a change in our ideas about space and time.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ph-rel-text"
+      ],
+      "source_locator": "Postulates of special relativity",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "012000-e02",
+      "anchor": "At sixty percent of the speed of light, the square is zero point three six, the square root is zero point eight, and gamma is one point two five.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ph-rel-text"
+      ],
+      "source_locator": "Lorentz factor at 0.6c",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "012000-e03",
+      "anchor": "For the train moving at sixty percent of light speed, a one-hundred-meter proper length corresponds to eighty meters in the platform frame.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ph-rel-text"
+      ],
+      "source_locator": "Length contraction at 0.6c",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "012000-e04",
+      "anchor": "Neglecting the finite duration of turnaround, the stay-at-home clock registers eight years between departure and reunion.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ph-rel-text"
+      ],
+      "source_locator": "Illustrative proper-time comparison (four-year legs)",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "012000-e05",
+      "anchor": "In the early 1970s, Joseph Hafele and Richard Keating transported atomic clocks aboard commercial aircraft and compared them with clocks that stayed on the ground.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ph-rel-nistclocks"
+      ],
+      "source_locator": "Hafele–Keating flight clock tests",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "012000-e06",
+      "anchor": "Their orbital speeds lead to a special-relativistic contribution of roughly seven microseconds per day slower than Earthbound clocks.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ph-rel-nistgps"
+      ],
+      "source_locator": "GPS speed contribution",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "012000-e07",
+      "anchor": "Their higher gravitational potential produces a gravitational contribution of roughly forty-five microseconds per day faster.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ph-rel-nistgps"
+      ],
+      "source_locator": "GPS gravitational contribution",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "012000-e08",
+      "anchor": "Thirty-eight millionths of a second sounds negligible.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ph-rel-nistgps"
+      ],
+      "source_locator": "Net GPS satellite time shift",
+      "audit_status": "source_checked"
+    }
+  ]
+}

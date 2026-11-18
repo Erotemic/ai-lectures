@@ -12,7 +12,7 @@
         "general",
         "science enthusiasts"
       ],
-      "summary": "Ten standalone lectures moving from measured motion and conservation to fluid flow, practical electricity, optics and chemical bonding.",
+      "summary": "Fourteen standalone lectures, from measured motion and conservation through everyday systems to thermal probability, curved spacetime, quantum states and resonance.",
       "chapters": [
         {
           "title": "How Can Motion Become a Law? Measurement, Models, and Forces",
@@ -73,6 +73,30 @@
           "lectures": [
             "010000"
           ]
+        },
+        {
+          "title": "Why Engines Need a Cold Side: Temperature, Probability, and the Price of Work",
+          "lectures": [
+            "011000"
+          ]
+        },
+        {
+          "title": "When Clocks Disagree: Space, Time, and Gravity",
+          "lectures": [
+            "012000"
+          ]
+        },
+        {
+          "title": "When One Electron Interferes: Quantum States, Probabilities, and Measurement",
+          "lectures": [
+            "013000"
+          ]
+        },
+        {
+          "title": "When Motion Amplifies Itself: Resonance, Coupled Oscillators, and Feedback",
+          "lectures": [
+            "014000"
+          ]
         }
       ]
     },
@@ -87,6 +111,19 @@
         "008000",
         "009000",
         "010000"
+      ]
+    },
+    {
+      "id": "physical-world-deeper-physics",
+      "title": "The Physical World - Probability, Spacetime, and Dynamics",
+      "role": "deep_dive",
+      "parent": "physical-world-guided",
+      "summary": "Four independent deeper studies: heat and microstates; relativity and clocks; quantum interference and measurement; oscillations and feedback.",
+      "lectures": [
+        "011000",
+        "012000",
+        "013000",
+        "014000"
       ]
     }
   ]

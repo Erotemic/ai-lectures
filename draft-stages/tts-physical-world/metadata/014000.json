@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "lecture_id": "014000",
+  "transcript": "014000-when-motion-amplifies-itself.md",
+  "related_resources": [
+    {
+      "source_id": "ph-res-simple",
+      "reason": "Mass-spring period, energy and linear approximation."
+    },
+    {
+      "source_id": "ph-res-forced",
+      "reason": "Steady-state amplitude, phase and resonance."
+    },
+    {
+      "source_id": "ph-res-mitdriven",
+      "reason": "Transient and steady-state driven oscillations."
+    },
+    {
+      "source_id": "ph-res-mitcoupled",
+      "reason": "Mode patterns and normal mode frequencies in coupled systems."
+    },
+    {
+      "source_id": "ph-res-tacoma",
+      "reason": "1940 failure and self-excited torsional flutter rather than a simple periodic-driver resonance story."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "014000-e01",
+      "anchor": "The mature engineering explanation involves an aerodynamic instability called torsional flutter: the bridge's motion changed the wind forces acting on it, and those forces supplied more energy to the motion.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ph-res-tacoma"
+      ],
+      "source_locator": "Self-excited torsional flutter rather than matched-frequency resonance",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "014000-e02",
+      "anchor": "The natural angular frequency is ten radians per second.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ph-res-simple"
+      ],
+      "source_locator": "Mass-spring angular frequency calculation",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "014000-e03",
+      "anchor": "If the damping is weak, the mass keeps crossing equilibrium but each swing is smaller.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ph-res-forced"
+      ],
+      "source_locator": "Underdamped response",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "014000-e04",
+      "anchor": "The resulting steady-state amplitude is one twentieth of a meter, or five centimeters.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ph-res-forced",
+        "ph-res-mitdriven"
+      ],
+      "source_locator": "Forced oscillator amplitude calculation",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "014000-e05",
+      "anchor": "In the ideal undamped mathematical oscillator, forcing precisely at the natural frequency can produce unbounded amplitude growth as time passes.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ph-res-forced"
+      ],
+      "source_locator": "Ideal resonance and no saturation",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "014000-e06",
+      "anchor": "In the in-phase mode, the middle spring does nothing and the angular frequency is ten radians per second.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ph-res-mitcoupled"
+      ],
+      "source_locator": "Two-mass symmetric mode worked example",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "014000-e07",
+      "anchor": "In the out-of-phase mode, the effective restoring stiffness per mass becomes one hundred plus twice fifty, or two hundred newtons per meter.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ph-res-mitcoupled"
+      ],
+      "source_locator": "Two-mass antisymmetric mode worked example",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "014000-e08",
+      "anchor": "The Washington State Department of Transportation describes the critical mechanism as self-excited torsional flutter, with earlier motion and vortex-shedding effects interacting with the deck's vulnerability.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ph-res-tacoma"
+      ],
+      "source_locator": "Official historical engineering analysis",
+      "audit_status": "source_checked"
+    }
+  ]
+}

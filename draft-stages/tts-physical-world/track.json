@@ -1,7 +1,7 @@
 {
   "id": "physical-world",
   "title": "The Physical World: Motion, Energy, Fields, and Matter",
-  "summary": "A growing, audio-first physics course: six original conceptual foundations plus deeper essays on fluid mechanics and weather, electrical circuits and batteries, light and optics, and chemical bonding and materials. Each lecture states the approximations and observations needed for its claims.",
+  "summary": "An audio-first physics track with foundational lectures on motion, energy, entropy, fields, waves and matter; applied studies of fluids, circuits, optics and bonding; and deeper treatments of thermal statistics, relativity, quantum measurement, and coupled motion. The assumptions and limits of physical models are made explicit.",
   "assumed_background": [
     "Arithmetic, elementary algebra, and coordinate graphs; no calculus required initially"
   ],
@@ -13,7 +13,10 @@
     "matter",
     "fluids",
     "electricity",
-    "optics"
+    "optics",
+    "relativity",
+    "quantum",
+    "oscillations"
   ],
   "lectures": [
     {
@@ -128,6 +131,70 @@
         "Atoms",
         "Quantum mechanics",
         "Materials"
+      ]
+    },
+    {
+      "id": "011000",
+      "title": "Why Engines Need a Cold Side: Temperature, Probability, and the Price of Work",
+      "section": "thermodynamics",
+      "file": "011000-why-engines-need-a-cold-side.md",
+      "spoken_words": 3029,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 20.9,
+      "tags": [
+        "Thermal physics",
+        "Statistical mechanics",
+        "Entropy",
+        "Heat engines",
+        "Heat pumps"
+      ]
+    },
+    {
+      "id": "012000",
+      "title": "When Clocks Disagree: Space, Time, and Gravity",
+      "section": "relativity",
+      "file": "012000-when-clocks-disagree.md",
+      "spoken_words": 2848,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 19.6,
+      "tags": [
+        "Relativity",
+        "Spacetime",
+        "Proper time",
+        "Gravitation",
+        "GPS"
+      ]
+    },
+    {
+      "id": "013000",
+      "title": "When One Electron Interferes: Quantum States, Probabilities, and Measurement",
+      "section": "quantum",
+      "file": "013000-when-one-electron-interferes.md",
+      "spoken_words": 2653,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 18.3,
+      "tags": [
+        "Quantum mechanics",
+        "Superposition",
+        "Measurement",
+        "Uncertainty",
+        "Bell tests"
+      ]
+    },
+    {
+      "id": "014000",
+      "title": "When Motion Amplifies Itself: Resonance, Coupled Oscillators, and Feedback",
+      "section": "oscillations",
+      "file": "014000-when-motion-amplifies-itself.md",
+      "spoken_words": 2808,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 19.4,
+      "tags": [
+        "Oscillators",
+        "Resonance",
+        "Normal modes",
+        "Damping",
+        "Feedback"
       ]
     }
   ],

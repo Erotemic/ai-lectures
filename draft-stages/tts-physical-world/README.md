@@ -1,8 +1,8 @@
 # The Physical World: Motion, Energy, Fields, and Matter
 
-An audio-first physics sequence that makes predictions, measurements and the limitations of each model explicit. The first six foundations are preserved; four added lectures develop practical physical systems in greater depth. Each work stands alone, although the guided listening order builds common concepts.
+An audio-first series of standalone explanations with explicit worked reasoning and non-spoken technical companions. The first ten manuscripts are preserved. Four further lectures introduce statistical thermal physics, relativity, quantum states, and coupled oscillators without assuming calculus.
 
-## Completed lectures
+## Completed inventory
 
 - **001000 — How Can Motion Become a Law? Measurement, Models, and Forces** (1,736 spoken words; 12.0 descriptive minutes at 145 wpm)
 - **002000 — Where Does the Energy Go? Conservation, Work, and Heat** (3,024 spoken words; 20.9 descriptive minutes at 145 wpm)
@@ -14,17 +14,21 @@ An audio-first physics sequence that makes predictions, measurements and the lim
 - **008000 — What a Battery Actually Does: Voltage, Current, and the Circuit** (2,249 spoken words; 15.5 descriptive minutes at 145 wpm)
 - **009000 — Light from Mirrors to Stars: How Optics Makes Images and Evidence** (2,376 spoken words; 16.4 descriptive minutes at 145 wpm)
 - **010000 — Why Atoms Bind: Electrons, Molecules, and the Properties of Matter** (2,513 spoken words; 17.3 descriptive minutes at 145 wpm)
+- **011000 — Why Engines Need a Cold Side: Temperature, Probability, and the Price of Work** (3,029 spoken words; 20.9 descriptive minutes at 145 wpm)
+- **012000 — When Clocks Disagree: Space, Time, and Gravity** (2,848 spoken words; 19.6 descriptive minutes at 145 wpm)
+- **013000 — When One Electron Interferes: Quantum States, Probabilities, and Measurement** (2,653 spoken words; 18.3 descriptive minutes at 145 wpm)
+- **014000 — When Motion Amplifies Itself: Resonance, Coupled Oscillators, and Feedback** (2,808 spoken words; 19.4 descriptive minutes at 145 wpm)
 
-**Current inventory:** 10 complete manuscripts; 20,601 spoken words (11,267 in the original six; 9,334 in the four additions). No fixed lecture-duration target is used.
+**Current inventory:** 14 manuscripts; 31,939 spoken words, including 11,338 in the four newest lectures. These numbers describe output; no duration or word-count target is imposed.
 
 ## Listening order
 
-`navigation.json` contains the complete ten-lecture main route and a four-lecture practical-physics route. Topics are independent of listening order: no one manuscript depends on hearing the previous recording. The sections in `track.json` classify coverage, not prerequisite gates.
+`navigation.json` defines one main guided route and two shorter deep-dive selections. The newest four essays can also be heard independently, each supplying its own definitions. The older in-practice selection and its lecture IDs remain unchanged.
 
-## Evidence and companions
+## Provenance and companion equations
 
-Spoken narration appears between exactly one marker pair in every lecture. Precise equations, worked questions, and source links follow in non-spoken companions. Sources are recorded in `metadata/sources.json` and per-lecture sidecars, with anchored claims checked against the manuscripts. Examples labeled hypothetical are not reported historical measurements.
+`metadata/sources.json` is a pack-local bibliography; each numbered metadata sidecar identifies specific, exact-text assertions with source IDs. Mathematics, worked examples, qualifications and the exact notation are retained in each manuscript outside the spoken region. The spoken regions contain the explanation needed for an audio listener. References and mathematical claims are checked at the level of those physical models and assumptions rather than with an arbitrary quota.
 
-## What remains
+## Remaining boundaries
 
-The series remains **in progress**, not because these ten manuscripts are fragments, but because major physics subjects are still candidates for separate substantive lectures: thermodynamics and microscopic probability, relativity and spacetime, quantum states and measurement, oscillations and coupled systems, phase transitions and condensed matter, and a concluding synthesis. See `BACKLOG.md` for finite priorities. Cell biology and genetics are intentionally separate science tracks.
+The finite remaining plan is **matter changing phase**, followed by a genuinely integrative synthesis. Major specializations such as astrophysics, advanced electromagnetism and a full quantum field theory course are outside this finite track. The separate chemistry curriculum and foundational cell biology/genetics are not implied to be complete here. See `BACKLOG.md`.

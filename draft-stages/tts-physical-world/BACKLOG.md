@@ -1,28 +1,19 @@
-# The Physical World — finite expansion plan
+# The Physical World — finite continuation plan
 
-This plan is editorial, not a promise of a fixed lecture length or a claim that the track is unfinished as a listener experience.
+Completed manuscripts, not hypothetical lessons, determine the library inventory. There is no target duration or required number of words per lecture.
 
-## Completed foundation and applied mechanisms
+## Completed
 
-- 001000–006000: measured mechanics, conservation, entropy, fields, waves and atomic scales.
-- 007000: fluid mechanics, viscosity, turbulence and weather.
-- 008000: circuits, battery chemistry, resistance, capacitance and electromagnetic induction.
-- 009000: optical imaging, interference, polarization, diffraction and spectroscopy.
-- 010000: atomic electronic states, bond energetics, reactions and materials.
+- **001000–006000:** measurement and motion, conservation, entropy, fields, waves and scales.
+- **007000–010000:** fluids and turbulence, circuits and batteries, light and optics, chemical bonding and materials.
+- **011000:** microscopic probability and statistical thermodynamics, engines, heat pumps, Gibbs free energy and memory erasure.
+- **012000:** simultaneity, proper time, invariant intervals, gravity and experimental clock comparisons.
+- **013000:** coherent amplitudes, which-path records, polarization, quantum uncertainty and Bell tests.
+- **014000:** oscillations, damping, forced resonance, coupled modes, feedback and flutter.
 
-## Priority future studies, if continued
+## Remaining finite plan
 
-1. **Thermal physics from microstates to engines.** Revisit temperature, probability, fluctuations, phase equilibrium, efficiency and the statistical explanation of entropy; do not simply reword 003000.
-2. **Space, time and gravity.** Frames of reference, special relativity, spacetime intervals, gravitational measurement, and a careful introduction to general relativity.
-3. **Quantum mechanics and measurement.** States, probabilities, superposition, interference, uncertainty and experiments that distinguish quantum behavior from classical ignorance. Make it intelligible without hiding the mathematics.
-4. **Resonance, stability and feedback.** Coupled oscillators, modes, damping, forced response, control and examples in structures and instruments.
-5. **Matter changing phase.** Crystals, liquids, magnets, phase transitions and critical behavior; distinguish equilibrium models from kinetic pathways.
-6. **Physical World synthesis.** A genuinely integrative finale on models, symmetries, scale and empirical limits rather than a chapter recap.
+1. **Matter Changing Phase.** Thermodynamic phase coexistence, phase transitions, kinetic pathways, magnetism, symmetry and the emergence of material properties. The existing discussion of ice in lecture 011000 is a doorway, not a full treatment.
+2. **A Physical World Synthesis.** Make an argument spanning models, conservation, statistical laws, symmetries, scale and experimental tests; give the track a genuine ending, not a chapter-by-chapter recap.
 
-## Related but distinct curricula
-
-- A dedicated **chemistry** course can teach stoichiometry, chemical kinetics, solutions, acid-base chemistry and electrochemistry beyond the physical introduction in 010000.
-- **Cell biology and genetics** remain a separate science priority, not appendices to this physics pack.
-- The completed **Living World** track provides natural history, not a replacement for either chemistry or molecular biology.
-
-Only lectures listed in `track.json` are completed. Each item above remains planning material until a manuscript, evidence records and listening metadata are actually authored.
+These are editorial intentions until authored, sourced, indexed and checked. Chemistry, cell biology and genetics are separate curricula, not uncompleted appendices to this one.
