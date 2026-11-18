@@ -1,0 +1,252 @@
+{
+  "schema_version": 1,
+  "lecture_id": "022000",
+  "transcript": "022000-the-price-of-a-gamete.md",
+  "description": "Introduces meiosis and the costs of sperm and egg production, explains the conditional anisogamy model, and compares seasonal spawning, hermaphroditism, sex change, and asexual reproduction without inferring adult roles from gamete type.",
+  "tags": [
+    "Gametogenesis",
+    "Meiosis",
+    "Haploid gametes",
+    "Anisogamy",
+    "Gamete size",
+    "Gamete investment",
+    "Oogenesis",
+    "Spermatogenesis",
+    "Sperm production",
+    "Egg provisioning",
+    "Sperm-egg encounters",
+    "Broadcast spawning",
+    "Seasonal reproduction",
+    "Internal fertilization",
+    "External fertilization",
+    "Sexual reproduction",
+    "Asexual reproduction",
+    "Parthenogenesis",
+    "Hermaphroditism",
+    "Sequential sex change",
+    "Anemonefish",
+    "Reproductive endocrinology"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Reproductive physiology",
+      "Gamete production",
+      "Meiosis"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Reproductive physiology",
+      "Gamete production",
+      "Gametogenesis"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Reproductive physiology",
+      "Evolution of gametes",
+      "Anisogamy"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Reproductive physiology",
+      "Evolution of gametes",
+      "Gamete size and number"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Reproductive physiology",
+      "Reproductive timing",
+      "Broadcast spawning"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Reproductive physiology",
+      "Reproductive timing",
+      "Seasonal spawning"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Reproductive physiology",
+      "Reproductive systems",
+      "Sequential hermaphroditism"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Reproductive physiology",
+      "Reproductive systems",
+      "Parthenogenesis"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Reproductive physiology",
+      "Reproductive systems",
+      "Anemonefish sex change"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "ap-repro-meiosis",
+      "reason": "Chromosome segregation, recombination and haploid gametes."
+    },
+    {
+      "source_id": "ap-repro-reproduction-methods",
+      "reason": "Alternative sexual/asexual reproductive systems and fertilization routes."
+    },
+    {
+      "source_id": "ap-repro-anisogamy-1972",
+      "reason": "Foundational model explicitly qualified by its assumptions."
+    },
+    {
+      "source_id": "ap-repro-ghiselin-1969",
+      "reason": "Evolutionary scenarios for hermaphroditism."
+    },
+    {
+      "source_id": "ap-repro-sequential-sex",
+      "reason": "Size advantage, anemonefish and wrasse sex change."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "022000-e01",
+      "anchor": "In sexual reproduction, a sperm and an egg usually contribute haploid nuclear genomes",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-repro-meiosis"
+      ],
+      "source_locator": "Meiosis and reduction of chromosome sets.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "022000-e02",
+      "anchor": "Before that union, cells in the germ line undergo meiosis",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-repro-meiosis"
+      ],
+      "source_locator": "Meiosis and reduction of chromosome sets.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "022000-e03",
+      "anchor": "Some organisms reproduce clonally, some alternate sexual and asexual generations",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-repro-reproduction-methods"
+      ],
+      "source_locator": "Sexual and asexual reproduction, hermaphroditism, sex determination and gamete roles.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "022000-e04",
+      "anchor": "A famous theoretical paper published in 1972 by Geoff Parker",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-repro-anisogamy-1972"
+      ],
+      "source_locator": "Conditional model of anisogamy from zygote survival and gamete number-size tradeoffs.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "022000-e05",
+      "anchor": "The condition in which gametes differ in size is called anisogamy",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-repro-anisogamy-1972"
+      ],
+      "source_locator": "Conditional model of anisogamy from zygote survival and gamete number-size tradeoffs.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "022000-e06",
+      "anchor": "In many vertebrates, sperm production generates large numbers",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-repro-reproduction-methods"
+      ],
+      "source_locator": "Sexual and asexual reproduction, hermaphroditism, sex determination and gamete roles.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "022000-e07",
+      "anchor": "In contrast, internal fertilization allows gamete encounter within",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-repro-reproduction-methods"
+      ],
+      "source_locator": "Sexual and asexual reproduction, hermaphroditism, sex determination and gamete roles.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "022000-e08",
+      "anchor": "One of the most instructive complications is hermaphroditism",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-repro-ghiselin-1969"
+      ],
+      "source_locator": "Size advantage, low mate encounter and hermaphroditic reproductive strategies.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "022000-e09",
+      "anchor": "Imagine an anemonefish group in a sea anemone",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-repro-sequential-sex"
+      ],
+      "source_locator": "Sequential sex change, size advantage and anemonefish reproductive structure.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "022000-e10",
+      "anchor": "The opposite form of sequential change occurs in other fish",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-repro-sequential-sex"
+      ],
+      "source_locator": "Sequential sex change, size advantage and anemonefish reproductive structure.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "022000-e11",
+      "anchor": "Some lineages use both sexual and asexual routes at different times",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-repro-reproduction-methods"
+      ],
+      "source_locator": "Sexual and asexual reproduction, hermaphroditism, sex determination and gamete roles.",
+      "audit_status": "source_checked"
+    }
+  ],
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Explains the necessary cellular and evolutionary terms; the earlier homeostasis and endocrine chapters are optional context."
+    ],
+    "readiness_checks": [
+      "Why does sexual reproduction require chromosome reduction between fusions?",
+      "What assumptions lead a resource-allocation model to favor unequal gametes?",
+      "Why does gamete size not determine which adult cares for offspring?",
+      "How does a sequentially sex-changing fish preserve the meaning of sperm and egg?",
+      "Why are mating route, embryo location and parental care independent attributes?"
+    ]
+  }
+}

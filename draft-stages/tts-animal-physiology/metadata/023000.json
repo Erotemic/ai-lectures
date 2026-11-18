@@ -1,0 +1,269 @@
+{
+  "schema_version": 1,
+  "lecture_id": "023000",
+  "transcript": "023000-one-sperm-one-egg-one-beginning.md",
+  "description": "Explains gamete encounter, cell recognition, sperm-egg fusion, calcium activation, polyspermy management and early cleavage, distinguishing mammalian IZUMO1–JUNO and sea urchin bindin experiments and the debate over electrical fast blocks.",
+  "tags": [
+    "Fertilization",
+    "Gamete recognition",
+    "Sperm-egg fusion",
+    "Capacitation",
+    "Acrosome reaction",
+    "Zona pellucida",
+    "IZUMO1",
+    "JUNO",
+    "Bindin",
+    "Sea urchin",
+    "Calcium signaling",
+    "Cortical granules",
+    "Polyspermy",
+    "Egg activation",
+    "Laurinda Jaffe",
+    "Cleavage",
+    "Zygote",
+    "Early embryogenesis",
+    "Mammalian fertilization",
+    "Sperm receptor gene knockout",
+    "Physiological polyspermy"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Reproductive physiology",
+      "Fertilization",
+      "Encounter and transport"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Reproductive physiology",
+      "Fertilization",
+      "Acrosome reaction"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Reproductive physiology",
+      "Fertilization",
+      "Gamete recognition"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Reproductive physiology",
+      "Fertilization",
+      "Mammalian IZUMO1–JUNO"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Reproductive physiology",
+      "Fertilization",
+      "Sea urchin bindin"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Reproductive physiology",
+      "Fertilization",
+      "Egg activation"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Reproductive physiology",
+      "Fertilization",
+      "Calcium and cortical reaction"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Reproductive physiology",
+      "Fertilization",
+      "Polyspermy blocks"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Reproductive physiology",
+      "Embryo development",
+      "Cleavage"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "ap-repro-fertilization-openstax",
+      "reason": "Overview of stages and development after fusion."
+    },
+    {
+      "source_id": "ap-repro-jaffe-1976",
+      "reason": "Historical experimental claim for an electrical block."
+    },
+    {
+      "source_id": "ap-repro-fast-block-critique",
+      "reason": "Source documenting debate about causal interpretation."
+    },
+    {
+      "source_id": "ap-repro-cortical-1978",
+      "reason": "Calcium and cortical granule mechanisms."
+    },
+    {
+      "source_id": "ap-repro-juno-2014",
+      "reason": "Mouse gene-loss and binding evidence."
+    },
+    {
+      "source_id": "ap-repro-bindin-2021",
+      "reason": "CRISPR bindin knockout and loss of sperm fertilizing function."
+    },
+    {
+      "source_id": "ap-repro-physiological-polyspermy",
+      "reason": "Multiple sperm can enter bird eggs while only one paternal nucleus contributes to the zygote."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "023000-e01",
+      "anchor": "Some may undergo further physiological changes, often described as capacitation in mammals",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-repro-fertilization-openstax"
+      ],
+      "source_locator": "Gamete fusion, cleavage, gastrulation, and maternal cell contributions.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "023000-e02",
+      "anchor": "A mammalian oocyte is surrounded by supporting cells",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-repro-fertilization-openstax"
+      ],
+      "source_locator": "Gamete fusion, cleavage, gastrulation, and maternal cell contributions.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "023000-e03",
+      "anchor": "In 1976 Laurinda Jaffe reported experiments supporting a rapid electrical block",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-repro-jaffe-1976"
+      ],
+      "source_locator": "Historical voltage-clamp evidence supporting the electrical-fast-block interpretation.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "023000-e04",
+      "anchor": "That interpretation became influential, but the functional role of electrical depolarization",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-repro-fast-block-critique"
+      ],
+      "source_locator": "Critique of causal electrical-block claims from voltage-clamp experiments.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "023000-e05",
+      "anchor": "A second change in many eggs involves calcium",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-repro-cortical-1978"
+      ],
+      "source_locator": "Calcium, ATP, cortical-granule exocytosis and fertilization-envelope changes.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "023000-e06",
+      "anchor": "This changes the extracellular environment and contributes to construction",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-repro-cortical-1978"
+      ],
+      "source_locator": "Calcium, ATP, cortical-granule exocytosis and fertilization-envelope changes.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "023000-e07",
+      "anchor": "There are species in which multiple sperm enter the egg",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-repro-physiological-polyspermy"
+      ],
+      "source_locator": "Physiological multiple-sperm entry with one paternal pronucleus contributing to development in birds and some other animals.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "023000-e08",
+      "anchor": "In 2014 Enrica Bianchi and colleagues identified an egg-surface protein",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-repro-juno-2014"
+      ],
+      "source_locator": "Mouse knockout and receptor binding tests supporting essential IZUMO1–JUNO interaction.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "023000-e09",
+      "anchor": "Female mice lacking functional Juno produced eggs",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-repro-juno-2014"
+      ],
+      "source_locator": "Mouse knockout and receptor binding tests supporting essential IZUMO1–JUNO interaction.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "023000-e10",
+      "anchor": "Experiments using gene inactivation offered a particularly strong test",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-repro-bindin-2021"
+      ],
+      "source_locator": "CRISPR inactivation of bindin and fertilization failure in sea urchin sperm.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "023000-e11",
+      "anchor": "Once sperm and egg have fused, the genetic material",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-repro-fertilization-openstax"
+      ],
+      "source_locator": "Gamete fusion, cleavage, gastrulation, and maternal cell contributions.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "023000-e12",
+      "anchor": "The first divisions of an embryo are called cleavage",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-repro-fertilization-openstax"
+      ],
+      "source_locator": "Gamete fusion, cleavage, gastrulation, and maternal cell contributions.",
+      "audit_status": "source_checked"
+    }
+  ],
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Explains the necessary cellular and evolutionary terms; the earlier homeostasis and endocrine chapters are optional context."
+    ],
+    "readiness_checks": [
+      "How is sperm reaching an egg different from its membrane fusing with the egg?",
+      "Which parts of the electrical fast-block interpretation are debated?",
+      "What did Juno gene deletion show beyond the observation that two proteins bind?",
+      "What did sea urchin bindin disruption establish?",
+      "Why is first cleavage not evidence that an embryo can complete development?"
+    ]
+  }
+}

@@ -8,7 +8,7 @@
       "categories": [
         "Science and nature"
       ],
-      "summary": "A guided sequence from exchange and transport to movement, sensing, heat, hormonal regulation and the physical and evolutionary logic of immune defense.",
+      "summary": "A guided sequence from exchange and transport through movement, sensing, thermal and chemical regulation, defense, reproduction, and the lifetime costs of survival.",
       "chapters": [
         {
           "title": "The Environment Inside an Animal",
@@ -134,6 +134,36 @@
           "title": "When Defense Must Stand Down",
           "lectures": [
             "021000"
+          ]
+        },
+        {
+          "title": "The Price of a Gamete",
+          "lectures": [
+            "022000"
+          ]
+        },
+        {
+          "title": "One Sperm, One Egg, One Beginning",
+          "lectures": [
+            "023000"
+          ]
+        },
+        {
+          "title": "Eggs, Pouches, and Placentas",
+          "lectures": [
+            "024000"
+          ]
+        },
+        {
+          "title": "Who Feeds the Young?",
+          "lectures": [
+            "025000"
+          ]
+        },
+        {
+          "title": "A Lifetime to Reproduce",
+          "lectures": [
+            "026000"
           ]
         }
       ]
@@ -269,6 +299,29 @@
         "019000",
         "020000",
         "021000"
+      ]
+    },
+    {
+      "id": "reproduction-and-life-histories",
+      "title": "How Animals Work · Reproduction and Life Histories",
+      "role": "deep_dive",
+      "parent": "how-animals-work",
+      "summary": "A five-part sequence from specialized gametes and the mechanics of fertilization to embryo support, parental care, reproductive scheduling and senescence.",
+      "tags": [
+        "Reproductive physiology",
+        "Gametogenesis",
+        "Fertilization",
+        "Viviparity",
+        "Parental investment",
+        "Life-history theory",
+        "Senescence"
+      ],
+      "lectures": [
+        "022000",
+        "023000",
+        "024000",
+        "025000",
+        "026000"
       ]
     }
   ]

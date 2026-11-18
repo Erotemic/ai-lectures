@@ -1,0 +1,264 @@
+{
+  "schema_version": 1,
+  "lecture_id": "025000",
+  "transcript": "025000-who-feeds-the-young.md",
+  "description": "Explains parental investment as a measurable allocation cost, comparing goby nest ventilation, poison frog egg and alkaloid provisioning, burying beetle care experiments, and size-versus-number reproductive tradeoffs.",
+  "tags": [
+    "Parental care",
+    "Parental investment",
+    "Offspring provisioning",
+    "Maternal care",
+    "Paternal care",
+    "Biparental care",
+    "Reproductive tradeoffs",
+    "Egg ventilation",
+    "Common goby",
+    "Low dissolved oxygen",
+    "Oophaga pumilio",
+    "Strawberry poison frog",
+    "Nutritive eggs",
+    "Alkaloid defense",
+    "Burying beetles",
+    "Nicrophorus vespilloides",
+    "Brood size",
+    "Clutch size",
+    "Offspring size",
+    "Future reproduction",
+    "Life-history theory",
+    "Robert Trivers",
+    "David Lack",
+    "Smith-Fretwell model"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Reproductive physiology",
+      "Parental care",
+      "Investment and costs"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Reproductive physiology",
+      "Parental care",
+      "Egg fanning"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Reproductive physiology",
+      "Parental care",
+      "Frog nutritive eggs"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Reproductive physiology",
+      "Parental care",
+      "Maternal chemical defenses"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Reproductive physiology",
+      "Parental care",
+      "Burying beetle provisioning"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Reproductive physiology",
+      "Parental care",
+      "Offspring signals and conflict"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Reproductive physiology",
+      "Parental care",
+      "Paternal care"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Reproductive physiology",
+      "Reproductive allocation",
+      "Offspring size versus number"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Reproductive physiology",
+      "Reproductive allocation",
+      "Clutch size"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Reproductive physiology",
+      "Reproductive allocation",
+      "Future breeding costs"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "ap-repro-trivers-1972",
+      "reason": "Definitions of parent-offspring benefit and future opportunity cost."
+    },
+    {
+      "source_id": "ap-repro-goby-oxygen",
+      "reason": "Oxygen manipulation and measured future male care."
+    },
+    {
+      "source_id": "ap-repro-frog-alkaloids",
+      "reason": "Controlled maternal alkaloid provisioning experiment."
+    },
+    {
+      "source_id": "ap-repro-frog-comparative",
+      "reason": "Limits on generalizing among dendrobatid species."
+    },
+    {
+      "source_id": "ap-repro-burying-beetle",
+      "reason": "Parent removal experiment with later offspring effects."
+    },
+    {
+      "source_id": "ap-repro-beetle-dependence",
+      "reason": "Contrasting necessity of care across burying beetles."
+    },
+    {
+      "source_id": "ap-repro-smithfretwell-1974",
+      "reason": "Conditional size-number model."
+    },
+    {
+      "source_id": "ap-repro-lack-1947",
+      "reason": "Historical basis of clutch-size question."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "025000-e01",
+      "anchor": "The mother deposits an unfertilized egg, which the tadpole consumes",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-repro-frog-alkaloids"
+      ],
+      "source_locator": "Feeding experimental labeled alkaloid and measuring maternal egg-to-tadpole transfer.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "025000-e02",
+      "anchor": "Robert Trivers's 1972 formulation emphasized investment",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-repro-trivers-1972"
+      ],
+      "source_locator": "Investment defined by effects on offspring and costs to further parental reproduction.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "025000-e03",
+      "anchor": "In 1999 J. C. Jones and J. D. Reynolds",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-repro-goby-oxygen"
+      ],
+      "source_locator": "Low-oxygen treatment, egg fanning, body mass and subsequent care tradeoff.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "025000-e04",
+      "anchor": "Under low oxygen, males increased the time and tempo",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-repro-goby-oxygen"
+      ],
+      "source_locator": "Low-oxygen treatment, egg fanning, body mass and subsequent care tradeoff.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "025000-e05",
+      "anchor": "In 2019 Ralph Saporito and colleagues supplied captive female frogs",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-repro-frog-alkaloids"
+      ],
+      "source_locator": "Feeding experimental labeled alkaloid and measuring maternal egg-to-tadpole transfer.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "025000-e06",
+      "anchor": "Closely related species differ in whether tadpoles require eggs",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-repro-frog-comparative"
+      ],
+      "source_locator": "Contrasts frog egg-feeding strategies and transfer of defensive molecules.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "025000-e07",
+      "anchor": "Burying beetles allow such comparisons",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-repro-beetle-dependence"
+      ],
+      "source_locator": "Different levels of dependence on posthatching care across burying beetle lineages.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "025000-e08",
+      "anchor": "In a 2015 experiment with Nicrophorus vespilloides",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-repro-burying-beetle"
+      ],
+      "source_locator": "Parent removal while holding nutrition constant; offspring adult morphology and behavior.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "025000-e09",
+      "anchor": "If researchers enlarge a bird's brood",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-repro-lack-1947"
+      ],
+      "source_locator": "Classic natural-history argument for offspring allocation and breeding constraints.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "025000-e10",
+      "anchor": "Christopher Smith and Stephen Fretwell developed a formal treatment",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-repro-smithfretwell-1974"
+      ],
+      "source_locator": "Resource-allocation model conditional on offspring survival versus investment.",
+      "audit_status": "source_checked"
+    }
+  ],
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Explains the necessary cellular and evolutionary terms; the earlier homeostasis and endocrine chapters are optional context."
+    ],
+    "readiness_checks": [
+      "How does parental investment differ from simply being near a brood?",
+      "What made the goby oxygen study a test of parental allocation cost?",
+      "How did the frog experiment distinguish transmitted defenses from coincidence?",
+      "What can and cannot be concluded from removing burying beetle parents?",
+      "How does the size-number tradeoff depend on offspring survival functions?"
+    ]
+  }
+}

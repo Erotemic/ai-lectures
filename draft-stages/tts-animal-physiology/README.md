@@ -27,13 +27,18 @@ An independent, audio-first nature-and-science content pack about the physical a
 | 019000 | How a Defense Remembers | Clonal selection, B and T cell receptors, MHC presentation, germinal centers and immune memory. |
 | 020000 | More Than One Way to Defend a Body | Insect wasp defenses and antiviral RNAi, sea urchin genes, bumblebee priming, lamprey VLRs. |
 | 021000 | When Defense Must Stand Down | Central and peripheral tolerance, FOXP3, intestinal IgA and microbiota, active resolution. |
+| 022000 | The Price of a Gamete | Meiosis, anisogamy, resource allocation, egg and sperm production, broadcast spawning and sequential sex change. |
+| 023000 | One Sperm, One Egg, One Beginning | Gamete encounter, receptor specificity, sperm–egg fusion, calcium activation, polyspermy and early cleavage. |
+| 024000 | Eggs, Pouches, and Placentas | External egg development, avian eggshell exchange, emperor penguin incubation, multiple origins of live bearing, seahorse brood pouches and placentas. |
+| 025000 | Who Feeds the Young? | Parental investment, nest oxygenation in gobies, poison-frog nutritive eggs, alkaloid defenses, burying beetle care and offspring size–number tradeoffs. |
+| 026000 | A Lifetime to Reproduce | Age at maturity, semelparity and iteroparity, seasonal African killifish, senescence and competing evolutionary explanations for aging. |
 
-The course is **in progress**, not a completed finite survey. These twenty-one chapters build a coherent sequence from physiological systems into thermal, energetic and endocrine regulation; follow-up chapters can deepen the physiology without extending the finished `tts-living-world` and `tts-physical-world` surveys or duplicating their nature-story framing. `tts-cell-biology-genetics` offers optional molecular background. No other pack needs to be changed to import this one.
+The course is **in progress**, not a completed finite survey. These twenty-six chapters build a coherent sequence from physiological systems through thermal, endocrine and immune regulation, reproduction and the allocation of resources across a lifetime; follow-up chapters can deepen the physiology without extending the finished `tts-living-world` and `tts-physical-world` surveys or duplicating their nature-story framing. `tts-cell-biology-genetics` offers optional molecular background. No other pack needs to be changed to import this one.
 
 ## Files and authoring contract
 
 - `track.json`: stable lecture order, broad course tags, lecture-specific flat tags, and explicit sections.
-- `navigation.json`: expanded main listening path plus deep dives on exchange/transport, comparative solutions, movement/control, sensory physiology, and temperature/energy, endocrine coordination and immune defense and tolerance.
+- `navigation.json`: expanded main listening path plus deep dives on exchange/transport, comparative solutions, movement/control, sensory physiology, temperature/energy, endocrine coordination, immune defense/tolerance, and reproduction/life histories.
 - `metadata/NNNNNN.json`: discovery descriptions, explicit coarse-to-fine `tag_paths`, relevant article or textbook sources, source-checked narration anchors, and lecture learning notes.
 - `metadata/sources.json`: a pack-local catalog of primary papers, scholarly reviews and open textbooks.
 - `NNNNNN-*.md`: narrated lecture between spoken markers, followed by scientific notes, equations, and reference links outside the TTS region.
@@ -45,6 +50,8 @@ The thermal and metabolic chapters include dated 1950 chamber experiments in Ala
 The endocrine unit develops chemical communication across four distinct explanatory problems: general hormone receptors and feedback; energy allocation between meals; acute and longer stress-response timing; and developmental and seasonal scheduling. The historical research in secretin, insulin and GnRH is attributed within the manuscripts and source records. **Toronto** is indexed for the documented insulin discovery; **Puerto Rico** is indexed for the native coquí case. None of the general endocrine mechanisms is assigned a synthetic historical coverage period just because a reference paper was published in a particular year.
 
 The immune unit treats several forms of defense as distinct rather than ranking animals by proximity to mammalian anatomy. The 1996 fly Toll results, 1976 antibody-gene study, 2004 lamprey receptors, 2006 bumblebee priming experiments, and tolerance studies are recorded as dated sources, not artificial historical periods for general immune mechanisms. The 1882 Metchnikoff experiment is a specifically located historical case in Messina, Italy; only that lecture receives a location path. All four chapters have claim-level evidence anchors, lecture-specific discovery tags, and an immune physiology listening route.
+
+The reproduction and life-history sequence follows physical and genetic constraints from gamete formation through fertilization, embryo provisioning, parental effort, aging and scheduling reproduction. Relevant papers on anisogamy, gamete recognition, seahorse brood pouches, maternal chemical provisioning in poison frogs, and senescence are represented as specific cited records. A study's publication year does not assign a historical era to a biological process. The emperor penguin and seasonal African turquoise killifish cases receive only geography explicitly supported by their corresponding sources; molecular mechanisms are not assigned invented spacetime coverage. The route `reproduction-and-life-histories` collects chapters 022000–026000 as a coherent optional sequence.
 
 The recorded `spoken_words` and estimated speaking times are **descriptive measurements**, never an editorial minimum, maximum or target.
 
