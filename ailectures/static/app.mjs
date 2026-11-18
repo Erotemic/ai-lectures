@@ -1,3 +1,4 @@
+import { ReactionState, reactionControls, migrateReactions } from "./reactions.mjs";
 import { renderAllLectures } from "./all-lectures.mjs";
 import { creatorLine } from "./creators.mjs";
 import { renderStats } from "./stats.mjs";
@@ -39,6 +40,7 @@ let catalog = { lectures: [], courses: [], packs: [] },
   progress = {},
   currentCourse = null,
   pendingConflict = null;
+let reactions = new ReactionState(profile);
 let playingQueueEntry = null;
 let renderToken = 0;
 let navigationToken = 0;
@@ -308,6 +310,7 @@ async function loadListeners() {
     const old = profile;
     profile = data.aliases[profile];
     migrateLearningState(old, profile);
+    migrateReactions(old, profile);
     store("listener", profile);
     const pending = getStored("pending:" + profile, []);
     const known = new Set(pending.map((event) => event.update_id));
@@ -329,6 +332,8 @@ async function loadListeners() {
   pendingConflict = null;
   $("progress-conflict").hidden = true;
   progress = getStored("progress:" + contextKey(), {});
+  reactions = new ReactionState(profile);
+  await reactions.load();
   if (profile) {
     const remote = await api("/api/listeners/" + profile + "/progress");
     const pending = getStored("pending:" + profile, []);
@@ -457,6 +462,7 @@ async function lecturePage(id, autoplay = false, historical = null) {
       }),
     ),
   );
+  top.append(reactionControls(row, reactions));
   if (row.chronology) {
     const dates = el("div", { class: "lecture-dates" });
     for (const axis of Object.keys(dateAxes)) if (row.chronology[axis]) {
@@ -1164,7 +1170,7 @@ async function render(autoplay = false) {
     );
   try {
     const path = location.pathname;
-    if (path === "/lectures") renderAllLectures($("main"), catalog, { item: (row, axis) => browser.item(row, null, axis), link });
+    if (path === "/lectures") renderAllLectures($("main"), catalog, { item: (row, axis) => browser.item(row, null, axis), link, reactions });
     else if (["/courses", "/collections"].includes(path)) browse(true);
     else if (path.startsWith("/courses/") || path.startsWith("/collections/"))
       coursePage(
@@ -1267,6 +1273,7 @@ async function init() {
         await listeningQueue.render($("listening-queue"));
       if (playingQueueEntry) await updatePlaybackRoute();
       if (profile) {
+        await reactions.load();
         await flushProgress();
         if (!getStored("pending:" + profile, []).length) {
           const selected = profile;

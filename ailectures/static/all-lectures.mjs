@@ -1,8 +1,9 @@
+import { reactionControls } from "./reactions.mjs";
 import { el } from "./api.mjs";
 import { allLectureRows } from "./all-lectures-model.mjs";
 import { chronologyOptions, dateOrder } from "./chronology.mjs";
 
-export function renderAllLectures(main, catalog, { item, link }) {
+export function renderAllLectures(main, catalog, { item, link, reactions }) {
   const params = new URLSearchParams(location.search);
   const lectures = catalog.lectures || [];
   const total = new Set(lectures.map(row => row.id)).size;
@@ -22,7 +23,8 @@ export function renderAllLectures(main, catalog, { item, link }) {
   }
   const pack = select("Content pack", [["", "All packs"], ...[...packs].sort((a, b) => a[1].localeCompare(b[1]))], params.get("pack"));
   const audio = select("Audio availability", [["", "All audio states"], ["ready", "Complete audio"], ["partial", "Partial audio only"], ["missing", "No prepared audio"]], params.get("audio"));
-  const sort = select("Sort all lectures", [["title", "Title A–Z"], ["id", "Lecture ID"], ["short", "Shortest first"], ["long", "Longest first"]], params.get("sort") || "title");
+  const personal = select("Your feedback", [["", "All lectures"], ["favorites", "♥ Favorites"], ["rated", "Rated"], ["unrated", "Not rated"], ["4", "4 stars and above"], ["5", "5 stars"]], params.get("personal"));
+  const sort = select("Sort all lectures", [["rating", "Your highest rated"], ["title", "Title A–Z"], ["id", "Lecture ID"], ["short", "Shortest first"], ["long", "Longest first"]], params.get("sort") || "title");
   sort.append(...chronologyOptions());
   sort.value = params.get("sort") || "title";
   if (!sort.value) sort.value = "title";
@@ -39,21 +41,21 @@ export function renderAllLectures(main, catalog, { item, link }) {
     el("p", { class: "intro", text: "Every available lecture in one list, including deep dives and items outside curated routes. Each lecture appears once. Search or filter the list, or show everything at once." }),
     el("p", {}, link("Browse collections", "/collections"), " · ", link("View content stats", "/stats")),
     query,
-    el("details", { class: "browsing-options", open: Boolean(params.get("category") || params.get("pack") || params.get("tag") || params.get("audio")) },
+    el("details", { class: "browsing-options", open: Boolean(params.get("category") || params.get("pack") || params.get("tag") || params.get("audio") || params.get("personal")) },
       el("summary", { text: "Filter and sort" }),
       el("div", { class: "filters" }, el("label", {}, "Category", category), el("label", {}, "Content pack", pack),
-        el("label", {}, "Tag", tag, tags), el("label", {}, "Audio", audio), el("label", {}, "Order", sort))),
+        el("label", {}, "Tag", tag, tags), el("label", {}, "Audio", audio), el("label", {}, "Your feedback", personal), el("label", {}, "Order", sort))),
     el("div", { class: "actions all-lectures-status" }, count, showAll, clear), results);
   function update() {
-    const filters = { q: query.value.trim(), category: category.value, pack: pack.value, tag: tag.value.trim(), audio: audio.value, sort: sort.value };
+    const filters = { q: query.value.trim(), category: category.value, pack: pack.value, tag: tag.value.trim(), audio: audio.value, personal: personal.value, sort: sort.value };
     const search = new URLSearchParams(Object.entries(filters).filter(([key, value]) => value && !(key === "sort" && value === "title")));
     if (limit >= total && total > 100) search.set("show", "all");
     const returnTo = "/lectures" + (search.size ? "?" + search : "");
     history.replaceState({ ...history.state, allLecturesLimit: limit }, "", returnTo);
-    const rows = allLectureRows(lectures, filters);
+    const rows = allLectureRows(lectures, filters, reactions?.records);
     const visible = rows.slice(0, limit);
     count.textContent = `${visible.length.toLocaleString()} shown · ${rows.length.toLocaleString()} matching · ${total.toLocaleString()} total lectures`;
-    clear.hidden = ![filters.q, filters.category, filters.pack, filters.tag, filters.audio].some(Boolean) && filters.sort === "title";
+    clear.hidden = ![filters.q, filters.category, filters.pack, filters.tag, filters.audio, filters.personal].some(Boolean) && filters.sort === "title";
     showAll.hidden = rows.length <= limit;
     showAll.textContent = `Show all ${rows.length.toLocaleString()} matching lectures`;
     showAll.onclick = () => { limit = Math.max(total, rows.length); update(); };
@@ -65,6 +67,7 @@ export function renderAllLectures(main, catalog, { item, link }) {
       target.searchParams.set("return", returnTo);
       anchor.href = target.pathname + target.search;
       node.querySelector(".copy").append(el("small", { class: "lecture-identity", text: `${row.id} · ${packs.get(row.origin?.pack || row.namespace) || row.namespace || ""}` }));
+      if (reactions) node.append(reactionControls(row, reactions, { compact: true }));
       return node;
     }));
     results.replaceChildren(list);
@@ -75,14 +78,17 @@ export function renderAllLectures(main, catalog, { item, link }) {
       results.append(el("div", { class: "actions" }, more, all));
     }
   }
-  for (const control of [query, category, pack, tag, audio, sort]) {
+  for (const control of [query, category, pack, tag, audio, personal, sort]) {
     control.addEventListener(control === query || control === tag ? "input" : "change", () => { limit = 100; update(); });
   }
   clear.onclick = () => {
-    for (const control of [query, category, pack, tag, audio]) control.value = "";
+    for (const control of [query, category, pack, tag, audio, personal]) control.value = "";
     sort.value = "title";
     limit = 100;
     update();
   };
   update();
+  reactions?.watch(results, () => {
+    if (personal.value || sort.value === "rating") update();
+  });
 }

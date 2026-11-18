@@ -434,6 +434,15 @@ def create_app(
         result = listeners.save_progress(profile, payload)
         return JSONResponse(result, status_code=409 if result.get("conflict") else 200)
 
+    async def reactions(request):
+        profile = request.path_params["profile"]
+        value = (listeners.reactions(profile) if request.method == "GET"
+                 else listeners.save_reaction(profile, await body(request)))
+        return JSONResponse(value, headers={"Cache-Control": "no-store"})
+
+    async def reaction_summary(request):
+        return JSONResponse(listeners.reaction_summary(), headers={"Cache-Control": "no-store"})
+
     async def listener_transfer(request):
         if request.method == "GET":
             return JSONResponse(
@@ -789,6 +798,8 @@ def create_app(
         Route(
             "/api/listeners/{profile}/queue", listening_queue, methods=["GET", "POST"]
         ),
+        Route("/api/listeners/{profile}/reactions", reactions, methods=["GET", "POST"]),
+        Route("/api/library/reactions", reaction_summary),
         Route("/api/library/feedback", feedback, methods=["GET", "POST"]),
         Route("/api/library/feedback/status", feedback_status, methods=["POST"]),
         Route("/api/library/feedback/import", feedback_import, methods=["POST"]),

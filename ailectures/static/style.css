@@ -419,7 +419,8 @@ main {
   font-size: 0.8rem;
 }
 .audio-block.ready { background: var(--soft); border-color: var(--accent); }
-.audio-block.queued, .audio-block.rendering { border-style: dashed; }
+.audio-block.queued { background: #ffdb9c; border: 2px solid #b65d08; color: #613109; }
+.audio-block.rendering { background: #f5aa49; border: 2px solid #864209; color: #482507; font-weight: 700; }
 .audio-block.error, .audio-block.cancelled { color: var(--error); }
 .generation-item { border-top: 1px solid var(--line); padding: 0.7rem 0; }
 .job-history-entry { border-top: 1px solid var(--line); padding: 0.75rem 0; }
@@ -833,3 +834,17 @@ progress {
 .all-lectures-status { align-items: center; }
 .all-lectures-status p { margin: 0; }
 .lecture-identity { font-variant-numeric: tabular-nums; overflow-wrap: anywhere; }
+
+/* Personal feedback: a heart for favorites and explicit 1–5-star choices. */
+.lecture-reactions { display: flex; align-items: center; flex-wrap: wrap; gap: 0.45rem 0.7rem; margin: 1rem 0; }
+.lecture-reactions button { min-height: 44px; min-width: 44px; }
+.favorite-toggle { font-size: 1.65rem; line-height: 1; color: #9e3152; }
+.favorite-toggle[aria-pressed="true"] { background: #fbe8ee; border-color: #9e3152; }
+.rating-stars { display: flex; gap: 0.15rem; }
+.rating-stars button { padding: 0.25rem 0.45rem; font-size: 1.45rem; color: var(--muted); }
+.rating-stars button.filled { color: #815100; background: #fff0c9; border-color: #b67a13; }
+.rating-stars button[aria-pressed="true"] { box-shadow: inset 0 -3px #815100; }
+.rating-value { font-size: 0.85rem; white-space: nowrap; }
+.reaction-save-status { flex-basis: 100%; }
+.lecture-reactions.compact { margin: 0; align-self: start; }
+.lecture-reactions.compact .rating-value { width: 100%; text-align: center; }

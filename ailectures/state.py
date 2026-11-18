@@ -11,6 +11,7 @@ import unicodedata
 from uuid import uuid4
 
 from .core import Conflict, canonical, checksum, finite, qualified, text_digest
+from .reactions import LectureReactions, merge_reaction, reaction_record
 
 
 def utcnow():
@@ -70,7 +71,7 @@ def validate_feedback(event):
         raise ValueError("Unknown feedback event type")
 
 
-class ListenerState:
+class ListenerState(LectureReactions):
     def __init__(self, directory):
         self.database = Path(directory) / "listeners.sqlite3"
         self.database.parent.mkdir(parents=True, exist_ok=True)
@@ -85,6 +86,9 @@ class ListenerState:
                 CREATE TABLE IF NOT EXISTS device_sequences (
                     profile TEXT, lecture TEXT, device TEXT, sequence INTEGER NOT NULL,
                     PRIMARY KEY(profile, lecture, device));
+                CREATE TABLE IF NOT EXISTS lecture_reactions (
+                    profile TEXT, lecture TEXT, field TEXT, record TEXT NOT NULL,
+                    PRIMARY KEY(profile, lecture, field));
                 CREATE TABLE IF NOT EXISTS feedback_events (id TEXT PRIMARY KEY, record TEXT NOT NULL);
                 CREATE TABLE IF NOT EXISTS listening_queues (profile TEXT PRIMARY KEY, entries TEXT NOT NULL);
                 CREATE TABLE IF NOT EXISTS learning_knowledge (
@@ -253,11 +257,16 @@ class ListenerState:
             db.execute(
                 "UPDATE learning_events SET profile=? WHERE profile=?", (target, source)
             )
+            for row in db.execute(
+                "SELECT record FROM lecture_reactions WHERE profile=?", (source,)
+            ).fetchall():
+                merge_reaction(db, target, json.loads(row["record"]))
             for table in (
                 "progress",
                 "device_sequences",
                 "listening_queues",
                 "learning_knowledge",
+                "lecture_reactions",
             ):
                 db.execute(f"DELETE FROM {table} WHERE profile=?", (source,))
             db.execute("DELETE FROM profiles WHERE id=?", (source,))
@@ -616,6 +625,7 @@ class ListenerState:
             "knowledge": knowledge,
             "knowledge_events": events,
             "profile_aliases": aliases,
+            "reactions": self.reactions(profile),
         }
 
     def queue(self, profile):
@@ -701,6 +711,18 @@ class ListenerState:
         )
         if not isinstance(knowledge, dict) or not isinstance(events, list):
             raise ValueError("Invalid knowledge export")
+        reactions = document.get("reactions", {})
+        if not isinstance(reactions, dict):
+            raise ValueError("Invalid lecture reactions export")
+        reaction_records = []
+        for lecture, fields in reactions.items():
+            if not isinstance(fields, dict):
+                raise ValueError("Invalid lecture reactions export")
+            for field, value in fields.items():
+                record = reaction_record(value)
+                if record["lecture_id"] != lecture or record["field"] != field:
+                    raise ValueError("Reaction key does not match its record")
+                reaction_records.append(record)
         incoming_events = {}
         records = []
         for key, value in knowledge.items():
@@ -815,4 +837,6 @@ class ListenerState:
                     (event_id, profile, canonical(record).decode()),
                 )
                 self._merge_learning(db, profile, record)
+            for record in reaction_records:
+                merge_reaction(db, profile, record)
         return person

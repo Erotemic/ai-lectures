@@ -1,13 +1,19 @@
+import { reactionValue } from "./reactions.mjs";
 /** A flat catalog view never rewrites collection membership or playback order. */
 import { matchesLecture, matchesTag } from "./browse-model.mjs";
 import { dateOrder, sortChronologically } from "./chronology.mjs";
 
-export function allLectureRows(lectures, filters = {}) {
+export function allLectureRows(lectures, filters = {}, reactions = {}) {
   const byId = new Map(lectures.map(row => [row.id, row]));
   const rows = [...byId.values()].filter(row => {
     const recordings = row.recordings || [];
     const complete = recordings.some(recording => recording.complete);
-    return (!filters.category || row.categories?.includes(filters.category))
+    const rating = reactionValue(reactions, row.id, "rating");
+    const personal = filters.personal || "";
+    return (!personal || (personal === "favorites" ? reactionValue(reactions, row.id, "favorite")
+      : personal === "rated" ? rating !== null : personal === "unrated" ? rating === null
+      : rating >= Number(personal)))
+      && (!filters.category || row.categories?.includes(filters.category))
       && (!filters.pack || (row.origin?.pack || row.namespace) === filters.pack)
       && matchesTag(row, filters.tag)
       && matchesLecture(row.id, id => byId.get(id), filters.q)
@@ -18,7 +24,8 @@ export function allLectureRows(lectures, filters = {}) {
   if (dateOrder(sort)) return sortChronologically(rows, sort);
   const minutes = row => row.estimated_minutes ?? (row.words || 0) / 145;
   return rows.sort((a, b) => {
-    const difference = sort === "id" ? a.id.localeCompare(b.id)
+    const difference = sort === "rating" ? (reactionValue(reactions, b.id, "rating") || 0) - (reactionValue(reactions, a.id, "rating") || 0)
+      : sort === "id" ? a.id.localeCompare(b.id)
       : sort === "short" || sort === "long" ? (minutes(a) - minutes(b)) * (sort === "long" ? -1 : 1)
       : a.title.localeCompare(b.title);
     return difference || a.id.localeCompare(b.id);

@@ -53,6 +53,15 @@ export async function reviewFeedback(main, lectures) {
     }),
     navLink("Back to packs", "/packs"),
   );
+  const reactions = el("details", { class: "section" },
+    el("summary", { text: "Star ratings & favorites" }),
+    el("p", { class: "muted", text: "Totals from shared listeners. Each listener contributes their current rating and favorite choice once per lecture. Device-only choices stay on that device; comments retain their separate editorial history." }));
+  const reactionList = el("ul", { class: "list" });
+  reactions.append(reactionList);
+  root.append(reactions);
+  let reactionTotals = {};
+  try { reactionTotals = await api("/api/library/reactions"); }
+  catch { reactionList.append(el("p", { text: "Rating totals are temporarily unavailable." })); }
   const filter = el(
     "select",
     { "aria-label": "Feedback status" },
@@ -72,6 +81,15 @@ export async function reviewFeedback(main, lectures) {
   );
   let events = (await api("/api/library/feedback")).events;
   function draw() {
+    const rated = Object.entries(reactionTotals).filter(([id]) =>
+      (lectures.find(row => row.id === id)?.title || id).toLowerCase().includes(search.value.toLowerCase()));
+    reactionList.replaceChildren(...rated.sort((a, b) => b[1].ratings - a[1].ratings || a[0].localeCompare(b[0])).map(([id, value]) => {
+      const row = lectures.find(row => row.id === id);
+      return el("li", {}, el("div", { class: "copy" }, navLink(row?.title || id, lectureURL(id)),
+        el("small", { text: `${value.average === null ? "Not rated" : value.average.toFixed(1) + "/5 stars · " + value.ratings + " rating" + (value.ratings === 1 ? "" : "s")} · ♥ ${value.favorites}` }),
+        value.ratings ? el("small", { text: value.distribution.map((count, index) => `${index + 1}★: ${count}`).join(" · ") }) : null));
+    }));
+    if (!rated.length) reactionList.append(el("li", { text: "No shared ratings or favorites match this selection." }));
     const threads = feedbackThreads(events).filter(({ submission, status }) => {
       const matches =
         filter.value === "all" ||

@@ -52,6 +52,24 @@ historical period, story setting, lifetime, and surviving witness. Stats include
 these coverage views and work authors, with links to the corresponding tags.
 Catalog clients can inspect these fields without downloading transcripts.
 
+Lectures have 1–5-star ratings (with a clear option) and a heart favorite toggle.
+These choices belong to the selected listener and sync across devices; “This
+device” keeps them in browser storage. Offline changes are saved locally and
+retried automatically. Ratings and hearts merge independently so changing one
+cannot erase the other. Cleared choices are retained as tombstones to prevent
+an older device or imported backup from resurrecting them. Listener exports,
+imports, profile merges, and library backups retain these choices. They follow
+stable lecture IDs across transcript revisions and record the revision at which
+each choice was made.
+
+All lectures → Filter and sort → Your feedback selects favorites, rated or
+unrated lectures, or a minimum star rating. Order → Your highest rated sorts
+by your stars. Each result has a heart toggle and your current rating. Shared
+listener rating totals and distributions are available under Packs → Review
+feedback → Star ratings & favorites; device-only choices are not included.
+Pending audio blocks use an orange fill and solid border, with a deeper orange
+for the block currently rendering. Numbers and state labels remain available.
+
 On phones, Menu opens all navigation and listener controls. The compact fixed
 player keeps the lecture, playing track, timeline, 15-second skips, Next and
 upcoming lecture visible. More retains native audio controls, playback speed,
