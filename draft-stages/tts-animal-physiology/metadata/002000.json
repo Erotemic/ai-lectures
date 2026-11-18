@@ -1,0 +1,183 @@
+{
+  "schema_version": 1,
+  "lecture_id": "002000",
+  "transcript": "002000-how-an-animal-gets-oxygen.md",
+  "description": "Traces oxygen from outside an animal to its cells, contrasting fish countercurrent gills, bird parabronchi, insect tracheae and mammalian lungs, including hemoglobin and limits of gas delivery.",
+  "tags": [
+    "Respiration",
+    "Gas exchange",
+    "Diffusion",
+    "Partial pressure",
+    "Fish gills",
+    "Countercurrent exchange",
+    "Avian respiratory system",
+    "Insect tracheal system",
+    "Hemoglobin",
+    "Bohr effect",
+    "Oxygen transport"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Respiration"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Respiration",
+      "Gas exchange",
+      "Diffusion"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Respiration",
+      "Fish gills",
+      "Countercurrent exchange"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Respiration",
+      "Avian respiratory system"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Respiration",
+      "Insect tracheal system"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Oxygen transport",
+      "Hemoglobin",
+      "Bohr effect"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "ap-respiratory-systems",
+      "reason": "Skin, gills, lungs, tracheae and diffusion constraints."
+    },
+    {
+      "source_id": "ap-respiratory-gradients",
+      "reason": "Partial-pressure differences and mammalian gas transfer."
+    },
+    {
+      "source_id": "ap-bird-crosscurrent",
+      "reason": "Bird lungs and crosscurrent exchange."
+    },
+    {
+      "source_id": "ap-bohr-effect",
+      "reason": "pH, carbon dioxide and hemoglobin oxygen affinity."
+    },
+    {
+      "source_id": "ap-blood",
+      "reason": "Respiratory pigments and oxygen capacity."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "002000-e01",
+      "anchor": "All gas exchange begins with diffusion.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-respiratory-systems",
+        "ap-respiratory-gradients"
+      ],
+      "source_locator": "Diffusion principle",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "002000-e02",
+      "anchor": "The amount of oxygen in blood is not the same as its oxygen partial pressure.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-respiratory-gradients",
+        "ap-blood"
+      ],
+      "source_locator": "Dissolved versus bound oxygen",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "002000-e03",
+      "anchor": "In many fishes, blood and water travel in opposite directions along the exchange surface.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-respiratory-systems"
+      ],
+      "source_locator": "Countercurrent gill geometry",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "002000-e04",
+      "anchor": "In the alveoli, thin epithelial layers lie next to blood capillaries.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-respiratory-systems",
+        "ap-respiratory-gradients"
+      ],
+      "source_locator": "Mammalian alveoli",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "002000-e05",
+      "anchor": "The air sacs act as ventilating bellows; they are not the main gas-exchanging tissue.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-bird-crosscurrent"
+      ],
+      "source_locator": "Bird anatomy",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "002000-e06",
+      "anchor": "Many insects do not rely on blood to carry most respiratory oxygen.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-respiratory-systems"
+      ],
+      "source_locator": "Insect tracheal physiology",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "002000-e07",
+      "anchor": "Increased carbon dioxide and acidity in actively metabolizing tissues tend to reduce hemoglobin's oxygen affinity, assisting unloading.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-bohr-effect"
+      ],
+      "source_locator": "Bohr effect",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "002000-e08",
+      "anchor": "Warm water generally holds less dissolved oxygen at equilibrium than colder water",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-respiratory-systems"
+      ],
+      "source_locator": "Environment/temperature qualitative mechanism",
+      "audit_status": "source_checked"
+    }
+  ],
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Basic molecules, diffusion, and respiration are introduced in the narration; no anatomy prerequisite."
+    ],
+    "readiness_checks": [
+      "Why can two blood samples have different oxygen content at the same oxygen partial pressure?",
+      "How does opposite-direction flow sustain gas uptake across a fish gill?"
+    ]
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "schema_version": 1,
+  "lecture_id": "003000",
+  "transcript": "003000-circulation-is-more-than-a-heart.md",
+  "description": "Develops circulation as a pressure-driven distribution network: cardiac output, vessel resistance, capillary exchange, lymphatics and the different circulatory architectures of animals.",
+  "tags": [
+    "Circulatory system",
+    "Blood flow",
+    "Cardiac output",
+    "Hemodynamics",
+    "Capillaries",
+    "Lymphatic system",
+    "Starling principle",
+    "Open circulation",
+    "Poiseuille law",
+    "William Harvey"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Circulatory system"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Circulatory system",
+      "Hemodynamics",
+      "Poiseuille law"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Circulatory system",
+      "Cardiac output"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Circulatory system",
+      "Capillaries",
+      "Starling principle"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Circulatory system",
+      "Lymphatic system"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Physiology",
+      "History of physiology",
+      "William Harvey"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "ap-harvey-history",
+      "reason": "Harvey’s quantitative reasoning and missing capillary evidence."
+    },
+    {
+      "source_id": "ap-arterial-physics",
+      "reason": "Pressure, resistance, compliant vessels."
+    },
+    {
+      "source_id": "ap-circulation",
+      "reason": "Comparative closed/open architectures."
+    },
+    {
+      "source_id": "ap-blood",
+      "reason": "Oxygen transport by blood and plasma composition."
+    },
+    {
+      "source_id": "ap-glycocalyx",
+      "reason": "Modern capillary-fluid model and lymph."
+    },
+    {
+      "source_id": "ap-cardiac",
+      "reason": "Heart rate, stroke volume and output."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "003000-e01",
+      "anchor": "William Harvey made a decisive conceptual advance in the seventeenth century by reasoning that the heart propels blood through a circulation.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-harvey-history"
+      ],
+      "source_locator": "Harvey 1628 argument",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "003000-e02",
+      "anchor": "Microscopic capillaries were not yet directly visible to Harvey; later observations filled a critical gap.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-harvey-history"
+      ],
+      "source_locator": "Malpighi 1661 capillary observation",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "003000-e03",
+      "anchor": "In a long, straight, rigid tube carrying steady laminar flow of a simple viscous liquid, the Poiseuille relationship shows that flow changes very strongly with radius",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-arterial-physics"
+      ],
+      "source_locator": "Ideal Poiseuille assumptions",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "003000-e04",
+      "anchor": "The old classroom picture of universal filtration at the arterial end of every capillary followed by equal reabsorption at the venous end is too simple.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-glycocalyx"
+      ],
+      "source_locator": "Revised Starling/lymphatic interpretation",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "003000-e05",
+      "anchor": "In a typical bony fish, blood travels from the heart to the gills and then through the systemic circulation before returning to the heart.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-circulation"
+      ],
+      "source_locator": "Fish single-circuit anatomy",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "003000-e06",
+      "anchor": "Insects and many mollusks show another possibility: open circulation.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-circulation"
+      ],
+      "source_locator": "Open circulatory systems",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "003000-e07",
+      "anchor": "Heart rate counts beats per minute; stroke volume measures blood ejected per beat.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-cardiac"
+      ],
+      "source_locator": "Cardiac output definitions",
+      "audit_status": "source_checked"
+    }
+  ],
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Diffusion, pressure and elementary multiplication help, and the lecture explains their physiological roles."
+    ],
+    "readiness_checks": [
+      "Why can capillary blood speed be low even with large total cardiac output?",
+      "Why does pressure in an artery not prove that a muscle receives adequate oxygen?"
+    ]
+  }
+}

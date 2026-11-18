@@ -1,0 +1,79 @@
+{
+  "default_collection": "how-animals-work",
+  "collections": [
+    {
+      "id": "how-animals-work",
+      "title": "How Animals Work · Guided Listening",
+      "role": "main",
+      "categories": [
+        "Science and nature"
+      ],
+      "summary": "A coherent route through the first five physiological problems: stability, oxygen, circulation, water and nutrition. More chapters are planned without imposing a fixed course length.",
+      "chapters": [
+        {
+          "title": "The Environment Inside an Animal",
+          "lectures": [
+            "001000"
+          ]
+        },
+        {
+          "title": "How an Animal Gets Oxygen",
+          "lectures": [
+            "002000"
+          ]
+        },
+        {
+          "title": "Circulation Is More Than a Heart",
+          "lectures": [
+            "003000"
+          ]
+        },
+        {
+          "title": "The Price of Keeping Water",
+          "lectures": [
+            "004000"
+          ]
+        },
+        {
+          "title": "How Food Becomes an Animal",
+          "lectures": [
+            "005000"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "exchange-and-transport",
+      "title": "How Animals Work · Exchange and Transport",
+      "role": "deep_dive",
+      "parent": "how-animals-work",
+      "summary": "How surface area, pressure gradients and tubular transport link the environment to cells.",
+      "tags": [
+        "Gas exchange",
+        "Blood flow",
+        "Osmoregulation"
+      ],
+      "lectures": [
+        "002000",
+        "003000",
+        "004000"
+      ]
+    },
+    {
+      "id": "comparative-solutions",
+      "title": "How Animals Work · Comparative Solutions",
+      "role": "deep_dive",
+      "parent": "how-animals-work",
+      "summary": "Different respiratory, water, and digestive architectures across fishes, birds, insects, mammals and microbial partnerships.",
+      "tags": [
+        "Comparative physiology",
+        "Evolution"
+      ],
+      "lectures": [
+        "002000",
+        "004000",
+        "005000"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,228 @@
+{
+  "schema_version": 1,
+  "lecture_id": "004000",
+  "transcript": "004000-the-price-of-keeping-water.md",
+  "description": "Explains how freshwater fish, marine fish, sharks, mammals, insects and desert animals balance water, ions and nitrogenous waste, including the renal countercurrent multiplier.",
+  "tags": [
+    "Osmoregulation",
+    "Osmosis",
+    "Kidneys",
+    "Nephron",
+    "Countercurrent multiplier",
+    "Vasopressin",
+    "Aquaporins",
+    "Salt glands",
+    "Malpighian tubules",
+    "Nitrogenous wastes",
+    "Kangaroo rats",
+    "Mojave Desert"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Osmoregulation"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Osmoregulation",
+      "Osmosis"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Osmoregulation",
+      "Kidneys",
+      "Nephron",
+      "Countercurrent multiplier"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Osmoregulation",
+      "Kidneys",
+      "Vasopressin"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Excretion",
+      "Malpighian tubules"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Excretion",
+      "Nitrogenous wastes"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Comparative physiology",
+      "Desert physiology",
+      "Kangaroo rats"
+    ],
+    [
+      "Place: North America",
+      "Place: United States",
+      "Place: Mojave Desert"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "ap-water-balance",
+      "reason": "Freshwater/marine fish and elasmobranch water and ion strategies."
+    },
+    {
+      "source_id": "ap-kidneys",
+      "reason": "Nephron filtration and tubular modification."
+    },
+    {
+      "source_id": "ap-nephron-countercurrent",
+      "reason": "Medullary concentration and vasopressin-controlled permeability."
+    },
+    {
+      "source_id": "ap-excretion",
+      "reason": "Malpighian excretion system."
+    },
+    {
+      "source_id": "ap-nitrogen-wastes",
+      "reason": "Nitrogen excretion strategies and water budget."
+    },
+    {
+      "source_id": "ap-kangaroo-nagy1994",
+      "reason": "Field-based Mojave kangaroo-rat water and energy measurement."
+    },
+    {
+      "source_id": "ap-kangaroo-ordii1983",
+      "reason": "Caution about generalizing water-independence across species."
+    },
+    {
+      "source_id": "ap-kangaroo-nps",
+      "reason": "Nocturnal desert behavior, North American range."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "004000-e01",
+      "anchor": "A salmon moves from river water into the sea.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-water-balance"
+      ],
+      "source_locator": "Transition between media",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "004000-e02",
+      "anchor": "A freshwater fish is a good first example because the surrounding water is often far more dilute than its body fluids.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-water-balance"
+      ],
+      "source_locator": "Osmotic water entry",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "004000-e03",
+      "anchor": "Many marine bony fish face water loss to a saltier environment.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-water-balance"
+      ],
+      "source_locator": "Marine teleost water loss",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "004000-e04",
+      "anchor": "Many marine sharks retain high concentrations of urea and related compounds, including trimethylamine N-oxide, in their body fluids.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-water-balance"
+      ],
+      "source_locator": "Elasmobranch osmoregulation",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "004000-e05",
+      "anchor": "At the start of a nephron, high-pressure capillary blood reaches a glomerulus.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-kidneys"
+      ],
+      "source_locator": "Glomerular filtration",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "004000-e06",
+      "anchor": "The thin descending limb is comparatively water-permeable; key ascending segments move sodium chloride outward while being relatively impermeable to water.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-nephron-countercurrent"
+      ],
+      "source_locator": "Nephron differential permeability",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "004000-e07",
+      "anchor": "The hormone vasopressin, also called antidiuretic hormone, increases water permeability in important parts of the mammalian collecting system",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-nephron-countercurrent"
+      ],
+      "source_locator": "Vasopressin aquaporin regulation",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "004000-e08",
+      "anchor": "In insects, Malpighian tubules provide a very different excretory mechanism.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-excretion"
+      ],
+      "source_locator": "Comparative excretion",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "004000-e09",
+      "anchor": "In work published in 1994, Kenneth Nagy and Mark Gruchacz studied free-living Merriam's kangaroo rats in the Mojave Desert across the seasons",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-kangaroo-nagy1994"
+      ],
+      "source_locator": "1994 seasonal Mojave field study",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "004000-e10",
+      "anchor": "their water supply was not explained by metabolic water from bone-dry seeds alone.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-kangaroo-nagy1994"
+      ],
+      "source_locator": "Diet and cached water complication",
+      "audit_status": "source_checked"
+    }
+  ],
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Basic osmosis, cell membranes and diffusion introduced in narration. No formal renal anatomy assumed."
+    ],
+    "readiness_checks": [
+      "What is the difference between a countercurrent multiplier and countercurrent exchanger?",
+      "How could field data contradict an overly simple explanation based solely on concentrated urine?"
+    ]
+  },
+  "places": [
+    "Mojave Desert"
+  ]
+}

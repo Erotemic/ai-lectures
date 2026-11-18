@@ -1,0 +1,154 @@
+{
+  "id": "animal-physiology",
+  "title": "How Animals Work: Comparative Physiology",
+  "summary": "An audio-first investigation of the physical and biological work that keeps animals functioning: regulation, breathing, transport, water and salts, digestion, and eventually movement, nerves, temperature, endocrine coordination and reproduction. The course compares different animal lineages rather than treating humans as the anatomical default.",
+  "categories": [
+    "Science and nature"
+  ],
+  "audiences": [
+    "general",
+    "science enthusiasts",
+    "biology learners"
+  ],
+  "tags": [
+    "Biology",
+    "Animal physiology",
+    "Comparative physiology",
+    "Life sciences"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Biology",
+      "Animal physiology"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Comparative physiology"
+    ]
+  ],
+  "assumed_background": [
+    "No formal anatomy prerequisite. Basic ideas of cells, energy, gradients, and evolution are introduced where needed.",
+    "The Living World and Cell Biology and Genetics courses are useful optional companions, not required prerequisites."
+  ],
+  "editorial_status": "in_progress",
+  "sections": [
+    "homeostasis",
+    "respiration",
+    "circulation",
+    "osmoregulation",
+    "digestion"
+  ],
+  "lectures": [
+    {
+      "id": "001000",
+      "title": "The Environment Inside an Animal",
+      "section": "homeostasis",
+      "file": "001000-the-environment-inside-an-animal.md",
+      "spoken_words": 2094,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 14.4,
+      "tags": [
+        "Homeostasis",
+        "Internal environment",
+        "Negative feedback",
+        "Physiological regulation",
+        "Feedforward control",
+        "Hormonal signaling",
+        "Baroreflex",
+        "Claude Bernard",
+        "Walter Cannon"
+      ]
+    },
+    {
+      "id": "002000",
+      "title": "How an Animal Gets Oxygen",
+      "section": "respiration",
+      "file": "002000-how-an-animal-gets-oxygen.md",
+      "spoken_words": 1999,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 13.8,
+      "tags": [
+        "Respiration",
+        "Gas exchange",
+        "Diffusion",
+        "Partial pressure",
+        "Fish gills",
+        "Countercurrent exchange",
+        "Avian respiratory system",
+        "Insect tracheal system",
+        "Hemoglobin",
+        "Bohr effect",
+        "Oxygen transport"
+      ]
+    },
+    {
+      "id": "003000",
+      "title": "Circulation Is More Than a Heart",
+      "section": "circulation",
+      "file": "003000-circulation-is-more-than-a-heart.md",
+      "spoken_words": 1960,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 13.5,
+      "tags": [
+        "Circulatory system",
+        "Blood flow",
+        "Cardiac output",
+        "Hemodynamics",
+        "Capillaries",
+        "Lymphatic system",
+        "Starling principle",
+        "Open circulation",
+        "Poiseuille law",
+        "William Harvey"
+      ]
+    },
+    {
+      "id": "004000",
+      "title": "The Price of Keeping Water",
+      "section": "osmoregulation",
+      "file": "004000-the-price-of-keeping-water.md",
+      "spoken_words": 2202,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 15.2,
+      "tags": [
+        "Osmoregulation",
+        "Osmosis",
+        "Kidneys",
+        "Nephron",
+        "Countercurrent multiplier",
+        "Vasopressin",
+        "Aquaporins",
+        "Salt glands",
+        "Malpighian tubules",
+        "Nitrogenous wastes",
+        "Kangaroo rats",
+        "Mojave Desert"
+      ]
+    },
+    {
+      "id": "005000",
+      "title": "How Food Becomes an Animal",
+      "section": "digestion",
+      "file": "005000-how-food-becomes-an-animal.md",
+      "spoken_words": 2095,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 14.4,
+      "tags": [
+        "Digestion",
+        "Nutrient absorption",
+        "Energy budget",
+        "Digestive enzymes",
+        "Bile",
+        "Intestinal epithelium",
+        "Rumen",
+        "Hindgut fermentation",
+        "Cecotrophy",
+        "Gut microbiome",
+        "Termite symbiosis",
+        "Python digestion"
+      ]
+    }
+  ]
+}

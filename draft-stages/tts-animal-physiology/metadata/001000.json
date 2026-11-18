@@ -1,0 +1,162 @@
+{
+  "schema_version": 1,
+  "lecture_id": "001000",
+  "transcript": "001000-the-environment-inside-an-animal.md",
+  "description": "Explains homeostasis as active physiological regulation, distinguishing regulated variables from effectors and connecting feedback, endocrine control, behavior and comparative animal design.",
+  "tags": [
+    "Homeostasis",
+    "Internal environment",
+    "Negative feedback",
+    "Physiological regulation",
+    "Feedforward control",
+    "Hormonal signaling",
+    "Baroreflex",
+    "Claude Bernard",
+    "Walter Cannon"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Homeostasis"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Physiological regulation",
+      "Negative feedback"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Physiological regulation",
+      "Feedforward control"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Physiology",
+      "History of physiology",
+      "Claude Bernard"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Physiology",
+      "History of physiology",
+      "Walter Cannon"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "ap-homeostasis-concepts",
+      "reason": "Original concepts of the internal environment and homeostasis."
+    },
+    {
+      "source_id": "ap-homeostasis-mechanisms",
+      "reason": "Sensor–controller–effector loops and their limitations."
+    },
+    {
+      "source_id": "ap-homeostasis-adaptive",
+      "reason": "Flexible homeostasis, history and distinction from absolute constancy."
+    },
+    {
+      "source_id": "ap-arterial-physics",
+      "reason": "Baroreflex and circulation-related compensations."
+    },
+    {
+      "source_id": "ap-water-balance",
+      "reason": "Differences in osmotic regulation among animal environments."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "001000-e01",
+      "anchor": "In nineteenth-century France, the physiologist Claude Bernard drew attention to what he called the",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-homeostasis-concepts",
+        "ap-homeostasis-adaptive"
+      ],
+      "source_locator": "Bernard concept of milieu intérieur",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "001000-e02",
+      "anchor": "Walter Cannon later developed the vocabulary of homeostasis",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-homeostasis-concepts",
+        "ap-homeostasis-adaptive"
+      ],
+      "source_locator": "Cannon 1920s homeostasis development",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "001000-e03",
+      "anchor": "This is negative feedback: a consequence of the deviation acts to oppose it.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-homeostasis-mechanisms"
+      ],
+      "source_locator": "Feedback sign and compensatory response",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "001000-e04",
+      "anchor": "The internal world is regulated dynamically, not preserved as a museum exhibit.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-homeostasis-adaptive",
+        "ap-homeostasis-mechanisms"
+      ],
+      "source_locator": "Non-static regulated states",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "001000-e05",
+      "anchor": "In mammals, stretch-sensitive nerve endings in certain arterial regions respond when vessel walls expand or relax.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-arterial-physics",
+        "ap-cardiac"
+      ],
+      "source_locator": "Baroreflex sensor mechanism",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "001000-e06",
+      "anchor": "A freshwater fish continually faces water gain and salt loss.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-water-balance"
+      ],
+      "source_locator": "Osmotic direction in freshwater teleosts",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "001000-e07",
+      "anchor": "A small animal has a different surface-to-volume problem from a large one.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-respiratory-systems"
+      ],
+      "source_locator": "Size, diffusion and exchange constraints",
+      "audit_status": "source_checked"
+    }
+  ],
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "No previous animal anatomy course required. Familiarity with cell membranes and basic gradients is helpful, and major terms are reintroduced."
+    ],
+    "readiness_checks": [
+      "Which is regulated: heart rate or the delivery requirements it helps satisfy?",
+      "What evidence would distinguish a negative-feedback response from correlation after an environmental disturbance?"
+    ]
+  }
+}

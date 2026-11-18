@@ -1,0 +1,196 @@
+{
+  "schema_version": 1,
+  "lecture_id": "005000",
+  "transcript": "005000-how-food-becomes-an-animal.md",
+  "description": "Follows food through mechanical and chemical digestion, absorption, circulation and assimilation, with comparative examples from ruminants, hindgut fermenters, termites and pythons.",
+  "tags": [
+    "Digestion",
+    "Nutrient absorption",
+    "Energy budget",
+    "Digestive enzymes",
+    "Bile",
+    "Intestinal epithelium",
+    "Rumen",
+    "Hindgut fermentation",
+    "Cecotrophy",
+    "Gut microbiome",
+    "Termite symbiosis",
+    "Python digestion"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Digestion"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Digestion",
+      "Nutrient absorption"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Digestion",
+      "Digestive enzymes"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Digestion",
+      "Gut microbiome",
+      "Hindgut fermentation"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Digestion",
+      "Gut microbiome",
+      "Rumen"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Energy budget"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Comparative physiology",
+      "Python digestion"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "ap-digestive-systems",
+      "reason": "Comparative digestive structures and fermentation."
+    },
+    {
+      "source_id": "ap-digestive-processes",
+      "reason": "Hydrolysis, lipid absorption and nutrient transport."
+    },
+    {
+      "source_id": "ap-digestive-regulation",
+      "reason": "Neural/hormonal control of digestive phases."
+    },
+    {
+      "source_id": "ap-termite-brune",
+      "reason": "Mechanisms of termite lignocellulose fermentation."
+    },
+    {
+      "source_id": "ap-termite-evolution",
+      "reason": "Differences across termite clades and symbiotic lineages."
+    },
+    {
+      "source_id": "ap-python-postprandial",
+      "reason": "Meal-driven changes in Burmese python intestinal function."
+    },
+    {
+      "source_id": "ap-python-regulation",
+      "reason": "Postfeeding hormone evidence in pythons."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "005000-e01",
+      "anchor": "Many food molecules are too large to pass through selective membranes.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-digestive-processes"
+      ],
+      "source_locator": "Digestion to absorbable units",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "005000-e02",
+      "anchor": "In vertebrates with bile systems, bile salts help disperse dietary fats into much smaller droplets",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-digestive-processes"
+      ],
+      "source_locator": "Lipid emulsification",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "005000-e03",
+      "anchor": "Some will become the animal's own proteins, membranes, and stored fuels.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-digestive-processes"
+      ],
+      "source_locator": "Nutrient assimilation",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "005000-e04",
+      "anchor": "The rumen is a large fermentation chamber where microbes act on ingested plant material",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-digestive-systems"
+      ],
+      "source_locator": "Foregut fermentation",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "005000-e05",
+      "anchor": "In hindgut fermenters, substantial microbial processing takes place after the small intestine",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-digestive-systems"
+      ],
+      "source_locator": "Hindgut anatomy",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "005000-e06",
+      "anchor": "Many depend on gut microbial communities to process wood or other plant material",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-termite-brune",
+        "ap-termite-evolution"
+      ],
+      "source_locator": "Termite symbiosis",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "005000-e07",
+      "anchor": "In some species that undergo long fasting intervals, feeding triggers marked reversible changes in gut activity, organ function, blood flow, and metabolism.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-python-postprandial",
+        "ap-python-regulation"
+      ],
+      "source_locator": "Python reversible digestive adjustments",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "005000-e08",
+      "anchor": "The gut is not sterile, and treating all microbes as threats would erase much of its function.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-termite-brune",
+        "ap-digestive-systems"
+      ],
+      "source_locator": "Gut symbiosis and interface",
+      "audit_status": "source_checked"
+    }
+  ],
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Basic cell metabolism, enzymes and diffusion explained within the lecture; earlier course chapters are useful but not required."
+    ],
+    "readiness_checks": [
+      "How is metabolizable energy different from the heat released by burning the same meal?",
+      "Why does the location of microbial fermentation matter for nutrient recovery?"
+    ]
+  }
+}
