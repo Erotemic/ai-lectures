@@ -424,7 +424,9 @@ without the checkout. Unregistered/staged candidates and duplicate `exports/`
 are not included in a library backup. Keep those separately when needed.
 
 Removing a pack disables discovery and retains media required by old playback,
-feedback, and history. Automatic media garbage collection remains deferred.
+feedback, and history. Automatic media deletion stays disabled. Explicit stale-audio previews and offline collection,
+selected-content deployment bundles, and audio format/buffering options are documented
+in [the deployment and audio guide](deploying-selected-library.md).
 `build-cache/` can be cleared with the server and preparation workers stopped;
 completed recordings in installed packs remain available. Clearing build work can
 require unfinished preparations to synthesize their missing pages again. The old

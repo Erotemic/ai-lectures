@@ -1,5 +1,7 @@
 import { api, el } from "./api.mjs";
 
+const shellQuote = value => "'" + value.replaceAll("'", "'\\''") + "'";
+
 export function bytes(value) {
   if (value < 1024) return `${value} B`;
   for (const [unit, divisor] of [
@@ -54,7 +56,7 @@ export async function showStorage(panel, cards, catalog) {
           text: `Build cache ${bytes(data.build_cache_bytes)} · exported copies ${bytes(data.exports_bytes)} · unregistered pack files ${bytes(data.unregistered_bytes)}`,
         }),
         el("p", {
-          text: "Earlier releases are retained for active players and historical feedback. Automatic media deletion is disabled.",
+          text: "Earlier releases are retained until explicit cleanup. Preview below keeps recent text and audio referenced by listening history or feedback.",
         }),
         el(
           "details",
@@ -84,6 +86,19 @@ export async function showStorage(panel, cards, catalog) {
           text: "ailectures --library LIBRARY_DIRECTORY backup BACKUP.zip\nailectures --library NEW_LIBRARY_DIRECTORY restore BACKUP.zip",
         }),
       );
+      const cleanup=el("button",{type:"button",text:"Preview stale audio cleanup"});
+      const report=el("div");
+      cleanup.onclick=async()=>{
+        cleanup.disabled=true;
+        try {
+          const plan=await api("/api/library/storage/gc");
+          report.replaceChildren(el("p",{text:`${plan.candidates.length} stale audio/cache directories · ${bytes(plan.bytes)} reclaimable. Nothing has been deleted.`}),
+            el("p",{text:"Default policy keeps the current and previous text revisions, a 30-day grace period, and historical audio referenced by progress or feedback. Finish generation and stop the reader before applying the reviewed plan from a terminal."}),
+            el("pre",{text:`python -m ailectures --library ${shellQuote(data.library_root)} gc ${data.repository_root ? "--repository " + shellQuote(data.repository_root) : "--installed-only"} --apply ${plan.plan_id}`}),
+            el("details",{},el("summary",{text:"Candidate paths"}),el("ul",{},...plan.candidates.map(item=>el("li",{text:item.path+" · "+bytes(item.bytes)})))));
+        } catch(error){report.textContent=error.message;} finally{cleanup.disabled=false;}
+      };
+      content.append(el("h3",{text:"Clean up stale audio"}),cleanup,report);
     } catch (error) {
       content.replaceChildren(
         el("p", {

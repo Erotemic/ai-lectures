@@ -11,10 +11,12 @@ import shutil
 import tempfile
 from uuid import uuid4
 
+from .maintenance import media_operation
 from .core import name
 from .packs import archive_release, export_release, load_release
 
 
+@media_operation
 def export_pack(library, pack_id, *, source_only=False):
     name(pack_id)
     if not isinstance(source_only, bool):

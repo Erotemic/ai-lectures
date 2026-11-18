@@ -174,6 +174,8 @@ def resolve_profile(document, selected=None, overrides=None):
     for key in ["endpoint", "model", "voice", "response_format"]:
         if not result.get(key):
             raise ValueError(f"Missing {key} in TTS profile {selected}.")
+    if result.get("output_format", "mp3") not in {"mp3", "ogg"}:
+        raise ValueError("TTS output_format must be mp3 or ogg (Opus)")
     if result["response_format"] not in {"wav", "mp3"}:
         raise ValueError("TTS response_format must be wav or mp3")
     if result.get("max_chars", 420) < 80 or result.get("max_words", 65) < 5:

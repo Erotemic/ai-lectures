@@ -11,6 +11,7 @@ import stat
 import tempfile
 from zipfile import ZipFile, ZIP_DEFLATED
 
+from .maintenance import media_operation
 from .core import contained, read_json, relative, write_json
 
 
@@ -77,6 +78,7 @@ def storage_summary(store):
     )
 
 
+@media_operation
 def backup_library(store, output):
     """Snapshot personal state before the append-only catalog, then immutable media.
 

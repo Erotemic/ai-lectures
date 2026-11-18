@@ -1,3 +1,4 @@
+import { deploymentControls } from "./deployment.mjs";
 import { lectureTagPaths } from "./tag-browser.mjs";
 import { ReactionState, reactionControls, migrateReactions } from "./reactions.mjs";
 import { renderAllLectures } from "./all-lectures.mjs";
@@ -997,6 +998,7 @@ function packsPage() {
       ),
     ),
   );
+  main.append(deploymentControls(catalog));
   const storage = el("section", { class: "section" });
   main.append(storage);
   showStorage(storage, main, catalog);

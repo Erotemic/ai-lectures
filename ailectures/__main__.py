@@ -75,6 +75,24 @@ def main(argv=None):
     validate.add_argument("path", type=Path)
     commands.add_parser("list")
     commands.add_parser("storage")
+    bundle = commands.add_parser("bundle", help="Export selected content and published audio for a new server")
+    bundle.add_argument("--installed-only", action="store_true")
+    bundle.add_argument("--repository", type=Path)
+    bundle.add_argument("--pack", action="append", default=[])
+    bundle.add_argument("--collection", action="append", default=[])
+    bundle.add_argument("--category", action="append", default=[])
+    bundle.add_argument("--tag", action="append", default=[])
+    bundle.add_argument("--lecture", action="append", default=[])
+    bundle.add_argument("--selection", type=Path, help="JSON selection with packs/collections/categories/tags/lectures lists")
+    bundle.add_argument("--output", type=Path)
+    bundle.add_argument("--preview", action="store_true")
+    commands.add_parser("gc-recover", help="Recover an interrupted offline audio cleanup")
+    gc = commands.add_parser("gc", help="Preview stale audio; explicit plan ID required to delete")
+    gc.add_argument("--installed-only", action="store_true")
+    gc.add_argument("--repository", type=Path)
+    gc.add_argument("--keep-days", type=float, default=30)
+    gc.add_argument("--keep-text-versions", type=int, default=2)
+    gc.add_argument("--apply", metavar="PLAN_ID")
     backup = commands.add_parser("backup")
     backup.add_argument("output", type=Path)
     restore = commands.add_parser("restore")
@@ -86,9 +104,14 @@ def main(argv=None):
     feedback_import.add_argument("path", type=Path)
     args = parser.parse_args(argv)
     repository = getattr(args, "repository", None)
-    if repository is None and (Path.cwd() / "draft-stages").is_dir():
+    if repository is None and not getattr(args,"installed_only",False) and (Path.cwd() / "draft-stages").is_dir():
         repository = Path.cwd()
+    from contextlib import ExitStack
+    from .maintenance import media_lock
+    leases = ExitStack()
     try:
+        if args.command in {"bundle","export","backup","prepare","install","remove"}:
+            leases.enter_context(media_lock(args.library))
         if args.command == "serve":
             import uvicorn
             from .web import create_app
@@ -176,6 +199,31 @@ def main(argv=None):
                     print(f'{lecture_id}: published {job["published"]}', flush=True)
             finally:
                 manager.close()
+        elif args.command == "bundle":
+            from .deployment import deployment_plan, export_deployment
+            from .library import Library
+            from .maintenance import media_lock
+            selection = read_json(args.selection) if args.selection else dict(packs=args.pack,collections=args.collection,categories=args.category,tags=args.tag,lectures=args.lecture)
+            library = Library(args.library,repository=repository)
+            with media_lock(args.library):
+                if args.preview:
+                    result = deployment_plan(library,selection)
+                else:
+                    if not args.output: raise ValueError("Specify --output BUNDLE.zip, or use --preview")
+                    result = export_deployment(library,selection,args.output)
+            print(json.dumps(result,indent=2))
+        elif args.command == "gc-recover":
+            from .garbage import recover_garbage
+            from .library import Library
+            with media_lock(args.library,exclusive=True):
+                print(json.dumps(recover_garbage(Library(args.library)),indent=2))
+        elif args.command == "gc":
+            from .garbage import garbage_plan, collect_garbage
+            from .library import Library
+            library = Library(args.library,repository=repository)
+            policy = dict(keep_days=args.keep_days,keep_text_versions=args.keep_text_versions)
+            result = collect_garbage(library,args.apply,**policy) if args.apply else garbage_plan(library,**policy)
+            print(json.dumps(result,indent=2))
         elif args.command == "backup":
             from .storage import backup_library
 
@@ -330,6 +378,8 @@ def main(argv=None):
                 print(state.import_feedback(read_json(args.path)))
     except (ValueError, OSError, KeyError, StopIteration) as exc:
         parser.exit(1, f"{exc}\n")
+    finally:
+        leases.close()
 
 
 if __name__ == "__main__":

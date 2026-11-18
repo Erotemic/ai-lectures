@@ -1,3 +1,4 @@
+import { AudioBlockCache } from "./audio-cache.mjs";
 import { getStored, store, clock, lectureURL } from "./api.mjs";
 import {
   words,
@@ -35,6 +36,7 @@ export class Player {
     this.index = 0;
     this.lastSave = 0;
     this.loadToken = 0;
+    this.blockCache = new AudioBlockCache();
     document.getElementById("toggle-play").onclick = () => {
       if (!this.row) return;
       this.audio.paused
@@ -64,6 +66,13 @@ export class Player {
       message(
         "This recording could not be loaded. Its saved position has been retained.",
       );
+    this.audio.onwaiting = () => {
+      if (this.started) document.getElementById("playing-note").textContent = "Buffering audio… your position is retained";
+    };
+    this.audio.onplaying = () => {
+      document.getElementById("playing-note").textContent = this.recording?.label || this.recording?.variant || "";
+      if (this.recording) this.blockCache.prefetch(this.recording,this.index);
+    };
     this.audio.onended = () => {
       this.save(this.index === this.recording.pages.length - 1);
       if (this.index < this.recording.pages.length - 1) {
@@ -106,6 +115,7 @@ export class Player {
     this.audio.load();
     this.row = row;
     this.course = course;
+    this.blockCache.close();
     this.recording =
       preferred === false
         ? null
@@ -187,10 +197,21 @@ export class Player {
         Math.max(0, this.audio.duration - 0.05),
       );
       if (autoplay) this.audio.play().catch((e) => this.playbackError(e));
+      this.blockCache.prefetch(this.recording,this.index);
       this.update();
     };
-    this.audio.src = segment.url;
-    this.audio.load();
+    const use = (url) => {
+      if (token !== this.loadToken) return;
+      this.audio.src = url || segment.url;
+      this.audio.load();
+    };
+    const pending = this.blockCache.pending(segment.url);
+    if (pending && !this.blockCache.cached(segment.url)) {
+      this.audio.removeAttribute("src");
+      this.audio.load();
+      document.getElementById("playing-note").textContent = "Buffering next audio block…";
+      pending.then(use);
+    } else use(this.blockCache.cached(segment.url));
     document.getElementById("playing-note").textContent =
       this.recording.label || this.recording.variant;
     this.update();

@@ -23,6 +23,11 @@ preserve the route and search used to open a lecture. References, related routes
 complete original sequences, and recording preparation remain under Resources
 & connections.
 
+Selected-content deployment, stale-audio cleanup, Ogg Opus generation, and
+buffered playback are described in [the deployment and audio guide](../docs/deploying-selected-library.md).
+Packs can build a portable subset with its existing published audio; the CLI
+includes ready-to-edit children and Spider-Man/literature/history selections.
+
 All lectures (`/lectures`) is a flat inventory of every available item, including
 unindexed manuscripts and deep dives. Items appear once across overlapping
 collections. Search includes descriptions, creator names, topics, places, dates,

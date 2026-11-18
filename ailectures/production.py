@@ -93,14 +93,14 @@ def recording_from_engine(
         stat = target.stat()
         sha, duration = audio_facts(target, stat.st_mtime_ns, stat.st_size)
         path = (
-            f"artifacts/{variant}/{row['id'].replace(':', '-')}/{index:04d}-{sha}.mp3"
+            f"artifacts/{variant}/{row['id'].replace(':', '-')}/{index:04d}-{sha}{target.suffix}"
         )
         segment = dict(
             index=index,
             path=path,
             sha256=sha,
             duration=duration,
-            media_type="audio/mpeg",
+            media_type="audio/ogg" if target.suffix == ".ogg" else "audio/mpeg",
         )
         timing = target.with_name(target.name + ".timings.json")
         if timing.exists():
@@ -165,6 +165,7 @@ class GenerationManager:
                     {
                         "id": key,
                         "label": profile.get("display_name", key),
+                        "output_format": os.environ.get("DKVIS_AUDIO_OUTPUT_FORMAT") or profile.get("output_format", "mp3"),
                         "voice": os.environ.get("DKVIS_AUDIO_TTS_VOICE")
                         or profile["voice"],
                         "model": os.environ.get("DKVIS_AUDIO_TTS_MODEL")
@@ -567,7 +568,7 @@ class GenerationManager:
         if legacy_cache.is_dir():
             for path in legacy_cache.iterdir():
                 if path.is_file() and (
-                    path.suffix == ".mp3" or path.name.endswith(".timings.json")
+                    path.suffix in {".mp3", ".ogg"} or path.name.endswith(".timings.json")
                 ):
                     target = cache / path.name
                     if not target.exists():

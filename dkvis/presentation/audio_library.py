@@ -158,7 +158,7 @@ def split_pages(text: str, *, max_chars: int = 600) -> list[str]:
 
 class AudioLectureLibrary:
     def __init__(self, *, sources=SOURCE_DIRECTORY, cache=None, endpoint=None,
-                 model=None, voice=None, profile=None, response_format=None, page_chars=None, workers=2,
+                 model=None, voice=None, profile=None, response_format=None, output_format=None, page_chars=None, workers=2,
                  sender=None, config=None, document=None):
         from dkvis.presentation.tts import load_profiles, resolve_profile
 
@@ -172,6 +172,7 @@ class AudioLectureLibrary:
             ('model', model or os.environ.get('DKVIS_AUDIO_TTS_MODEL')),
             ('voice', voice or os.environ.get('DKVIS_AUDIO_TTS_VOICE')),
             ('response_format', response_format or os.environ.get('DKVIS_AUDIO_TTS_RESPONSE_FORMAT')),
+            ('output_format', output_format or os.environ.get('DKVIS_AUDIO_OUTPUT_FORMAT')),
         ):
             if value:
                 overrides[name] = value
@@ -185,6 +186,7 @@ class AudioLectureLibrary:
         self.model = config['model']
         self.default_voice = config['voice']
         self.response_format = config['response_format']
+        self.output_format = config.get('output_format', 'mp3')
         self.request_settings = config.get('request', {})
         # The Breeze server owns paragraph-oriented synthesis and joins when
         # this capability is enabled. Other speech backends retain the
@@ -383,7 +385,7 @@ class AudioLectureLibrary:
                         speed=settings.speed, response_format=self.response_format,
                         request=self.request_settings, language=self.language,
                         pronunciation=self.pronunciation_replacements,
-                        output='mp3', input=text)
+                        output=self.output_format, input=text)
         if settings.model.lower() != 'kokoro':
             # Breeze-specific synthesis parameters also distinguish recordings
             # made before the bounded-generation safeguards.
@@ -396,7 +398,12 @@ class AudioLectureLibrary:
                             chunk_pause_seconds=self.chunk_pause_seconds)
         canonical = json.dumps(identity, sort_keys=True, ensure_ascii=False)
         digest = hashlib.sha256(canonical.encode('utf-8')).hexdigest()
-        return self.cache / lecture_id / f'{page_index:03d}-{digest}.mp3', text, digest
+        return self.cache / lecture_id / f'{page_index:03d}-{digest}.{self.output_format}', text, digest
+
+    def _encoding_args(self, destination):
+        if self.output_format == 'ogg':
+            return ['-codec:a', 'libopus', '-b:a', '64k', '-vbr', 'on', '-application', 'audio', '-f', 'ogg', str(destination)]
+        return ['-codec:a', 'libmp3lame', '-q:a', '3', '-f', 'mp3', str(destination)]
 
     def _send_speech(self, text: str, settings: SpeechSettings, destination: Path):
         if self.server_long_form and settings.model.lower() == 'breeze-tts2':
@@ -419,7 +426,7 @@ class AudioLectureLibrary:
             payload.update(speed=settings.speed, stream=False)
         request = urllib.request.Request(self.endpoint, data=json.dumps(payload).encode('utf-8'),
                                          headers={'Content-Type': 'application/json'}, method='POST')
-        needs_conversion = self.response_format == 'wav' or (not is_kokoro and settings.speed != 1.0)
+        needs_conversion = self.output_format != self.response_format or self.response_format == 'wav' or (not is_kokoro and settings.speed != 1.0)
         source = destination.with_name(destination.name + f'.source.{self.response_format}') if needs_conversion else destination
         try:
             try:
@@ -451,7 +458,7 @@ class AudioLectureLibrary:
                            '-vn']
                 if not is_kokoro and settings.speed != 1.0:
                     command += ['-filter:a', f'atempo={settings.speed:g}']
-                command += ['-codec:a', 'libmp3lame', '-q:a', '3', '-f', 'mp3', str(destination)]
+                command += self._encoding_args(destination)
                 try:
                     result = subprocess.run(command, capture_output=True, text=True, timeout=90)
                 except (OSError, subprocess.TimeoutExpired) as exc:
@@ -589,7 +596,7 @@ class AudioLectureLibrary:
             command = ['ffmpeg', '-nostdin', '-y', '-loglevel', 'error', '-i', str(source), '-vn']
             if settings.speed != 1.0:
                 command += ['-filter:a', f'atempo={settings.speed:g}']
-            command += ['-codec:a', 'libmp3lame', '-q:a', '3', '-f', 'mp3', str(destination)]
+            command += self._encoding_args(destination)
             try:
                 result = subprocess.run(command, capture_output=True, text=True, timeout=180)
             except (OSError, subprocess.TimeoutExpired) as exc:
@@ -754,8 +761,7 @@ class AudioLectureLibrary:
             filters.append(f'[joined]atempo={settings.speed:g}[out]' if settings.speed != 1.0
                            else '[joined]anull[out]')
             command = ['ffmpeg', '-nostdin', '-y', '-loglevel', 'error', *args,
-                       '-filter_complex', ';'.join(filters), '-map', '[out]',
-                       '-codec:a', 'libmp3lame', '-q:a', '3', '-f', 'mp3', str(destination)]
+                       '-filter_complex', ';'.join(filters), '-map', '[out]'] + self._encoding_args(destination)
             try:
                 result = subprocess.run(command, capture_output=True, text=True, timeout=180)
             except (OSError, subprocess.TimeoutExpired) as exc:

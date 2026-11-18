@@ -236,9 +236,9 @@ def create_app(
     def storage(request):
         from .storage import storage_summary
 
-        return JSONResponse(
-            storage_summary(library.store), headers={"Cache-Control": "no-store"}
-        )
+        result = storage_summary(library.store)
+        result["repository_root"] = str(library.repository.root) if library.repository else None
+        return JSONResponse(result, headers={"Cache-Control": "no-store"})
 
     def learning_map(request):
         from .graph import learning_map as build_map
@@ -291,6 +291,23 @@ def create_app(
         return FileResponse(path, media_type="text/html",
                             filename=path.name if request.query_params.get("download") == "1" else None,
                             headers={"Cache-Control": "no-store"})
+
+    async def deployment(request):
+        from .deployment import deployment_plan, browser_deployment
+        from .maintenance import media_lock
+        require_local_action(request)
+        payload = await body(request)
+        def perform():
+            with media_lock(library.store.root):
+                return (deployment_plan(library,payload["selection"]) if payload.get("preview",False)
+                        else browser_deployment(library,payload["selection"],title=payload.get("title","Selected lecture library")))
+        result = await run_in_threadpool(perform)
+        if result.get("id"): result["url"] = "/api/library/exports/"+result["id"]
+        return JSONResponse(result,headers={"Cache-Control":"no-store"})
+
+    async def garbage_preview(request):
+        from .garbage import garbage_plan
+        return JSONResponse(await run_in_threadpool(garbage_plan,library),headers={"Cache-Control":"no-store"})
 
     async def pack_export(request):
         from .exports import export_pack
@@ -726,28 +743,30 @@ def create_app(
 
     @asynccontextmanager
     async def lifespan(app):
-        # Inspect durable intent without importing renderers for an ordinary reader.
-        if (library.store.state / "production.sqlite3").exists():
-            from .jobs import JobStore
+        from .maintenance import media_lock
+        with media_lock(library.store.root):
+            # Inspect durable intent without importing renderers for an ordinary reader.
+            if (library.store.state / "production.sqlite3").exists():
+                from .jobs import JobStore
 
-            if any(
-                record["state"] in {"queued", "running"}
-                for record in JobStore(library.store.state).list()
-            ):
-                production()
-        task = asyncio.create_task(reconcile())
-        try:
-            yield
-        finally:
-            task.cancel()
+                if any(
+                    record["state"] in {"queued", "running"}
+                    for record in JobStore(library.store.state).list()
+                ):
+                    production()
+            task = asyncio.create_task(reconcile())
             try:
-                await task
-            except asyncio.CancelledError:
-                pass
-            if producer is not None:
-                await run_in_threadpool(producer.close)
-            if legacy:
-                await legacy.close()
+                yield
+            finally:
+                task.cancel()
+                try:
+                    await task
+                except asyncio.CancelledError:
+                    pass
+                if producer is not None:
+                    await run_in_threadpool(producer.close)
+                if legacy:
+                    await legacy.close()
 
     routes = [
         Route(path, document)
@@ -773,6 +792,8 @@ def create_app(
         Route("/favicon.ico", favicon),
         Route("/api/library/catalog", catalog),
         Route("/api/library/storage", storage),
+        Route("/api/library/deployment", deployment, methods=["POST"]),
+        Route("/api/library/storage/gc", garbage_preview),
         Route("/api/library/learning-map", learning_map),
         Route("/api/library/learning-plan", learning_plan, methods=["POST"]),
         Route("/api/listeners/{profile}/learning", learning_state, methods=["GET", "POST"]),

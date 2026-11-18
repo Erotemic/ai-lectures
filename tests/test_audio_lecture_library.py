@@ -1073,7 +1073,8 @@ cfg_scale = 2.0
         hub.close()
 
 
-def test_breeze_server_paragraph80_renders_one_page_and_retimes_chunks(tmp_path, monkeypatch):
+@pytest.mark.parametrize("output_format", ["mp3", "ogg"])
+def test_breeze_server_paragraph80_renders_one_page_and_retimes_chunks(tmp_path, monkeypatch, output_format):
     """New Breeze mode sends an intact page and requires a policy-aware server."""
     import io
     import wave
@@ -1113,12 +1114,12 @@ def test_breeze_server_paragraph80_renders_one_page_and_retimes_chunks(tmp_path,
 
     monkeypatch.setattr(urllib.request, 'urlopen', fake_open)
     library = AudioLectureLibrary(cache=tmp_path/'cache',
-                                  profile='crall-math-dk-v2-breeze-tts2')
+                                  profile='crall-math-dk-v2-breeze-tts2', output_format=output_format)
     library.request_settings = {'cfg_scale': 2.0, 'instruction': 'Use a different speaking style.',
                                 'seed': 13}
     try:
         assert library.server_long_form
-        destination = tmp_path/'page.mp3'
+        destination = tmp_path/('page.'+output_format)
         library._send_speech(text, SpeechSettings('breeze-tts2', 'foobar', 1.25), destination)
         assert len(requests) == 1
         assert requests[0]['long_form'] is True
@@ -1129,7 +1130,7 @@ def test_breeze_server_paragraph80_renders_one_page_and_retimes_chunks(tmp_path,
         assert requests[0]['response_format'] == 'wav'
         assert requests[0]['voice'] == 'foobar'
         assert 1.5 < duration(destination) < 1.7
-        timing = json.loads((tmp_path/'page.mp3.timings.json').read_text())
+        timing = json.loads((tmp_path/('page.'+output_format+'.timings.json')).read_text())
         assert timing['version'] == 1
         assert timing['chunks'][0]['words'] == words
         assert abs(timing['chunks'][0]['end'] - duration(destination)) < 0.05

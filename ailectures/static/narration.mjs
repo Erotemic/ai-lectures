@@ -24,7 +24,7 @@ export class NarrationControls {
         el("option", {
           value: profile.id,
           text:
-            profile.label +
+            profile.label + (profile.output_format === "ogg" ? " · Ogg Opus" : "") +
             (profile.reachable === false ? " · unavailable" : ""),
         }),
       ),
