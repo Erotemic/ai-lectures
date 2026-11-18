@@ -1,8 +1,10 @@
 # The Physical World: Motion, Energy, Fields, and Matter
 
-An audio-first series of standalone explanations with explicit worked reasoning and non-spoken technical companions. The first ten manuscripts are preserved. Four further lectures introduce statistical thermal physics, relativity, quantum states, and coupled oscillators without assuming calculus.
+This is a **complete, audio-first, 16-lecture introduction to the physical world**. It moves from measurement and conservation to fields and waves, fluids and electricity, optics and matter, and deeper questions in thermodynamics, relativity, quantum physics, collective phases, and emergence. The sequence is coherent but each lecture supplies the context needed to stand alone.
 
-## Completed inventory
+The series closes with **016000**, a deliberately integrative essay about how physics connects laws, models, measurements, scale, and uncertainty. Completion means that the planned sequence has an ending; it does not mean all branches of physics are covered.
+
+## Complete inventory
 
 - **001000 — How Can Motion Become a Law? Measurement, Models, and Forces** (1,736 spoken words; 12.0 descriptive minutes at 145 wpm)
 - **002000 — Where Does the Energy Go? Conservation, Work, and Heat** (3,024 spoken words; 20.9 descriptive minutes at 145 wpm)
@@ -18,17 +20,24 @@ An audio-first series of standalone explanations with explicit worked reasoning 
 - **012000 — When Clocks Disagree: Space, Time, and Gravity** (2,848 spoken words; 19.6 descriptive minutes at 145 wpm)
 - **013000 — When One Electron Interferes: Quantum States, Probabilities, and Measurement** (2,653 spoken words; 18.3 descriptive minutes at 145 wpm)
 - **014000 — When Motion Amplifies Itself: Resonance, Coupled Oscillators, and Feedback** (2,808 spoken words; 19.4 descriptive minutes at 145 wpm)
+- **015000 — When Matter Changes Its Mind: Phase Transitions, Order, and Collective Behavior** (2,849 spoken words; 19.6 descriptive minutes at 145 wpm)
+- **016000 — What It Means to Understand a Physical World: Laws, Limits, and Emergence** (4,196 spoken words; 28.9 descriptive minutes at 145 wpm)
 
-**Current inventory:** 14 manuscripts; 31,939 spoken words, including 11,338 in the four newest lectures. These numbers describe output; no duration or word-count target is imposed.
+**Inventory:** 16 manuscripts; **38,984 spoken words** (including 7,045 in the two closing essays); 87 pack-local source records. The 145-wpm estimates are descriptive measurements, not a duration policy.
+
+## Final installment
+
+- **015000, When Matter Changes Its Mind:** latent heat, Gibbs free energy, supercooling and nucleation, crystalline and amorphous solids, magnetism and spontaneous symmetry breaking, critical scaling and universality, and quantum phases. Companion notes include phase equilibrium, the Clapeyron relation, a classical nucleation model, and the Ising Hamiltonian.
+- **016000, What It Means to Understand a Physical World:** starts with a single falling object and develops the distinction between predicting motion, conserving quantities, modeling dissipation, measuring fields, adjusting spacetime clocks, using quantum probability, and explaining emergence at different scales. It ends with the nature and limits of scientific understanding rather than announcing further installments.
 
 ## Listening order
 
-`navigation.json` defines one main guided route and two shorter deep-dive selections. The newest four essays can also be heard independently, each supplying its own definitions. The older in-practice selection and its lecture IDs remain unchanged.
+`navigation.json` provides the complete sixteen-lecture guided order and the existing deep-dive collections. A shorter optional **Materials and the Big Picture** route links lectures 010000, 015000, and 016000. The last lecture in the main order is 016000; there is no unfinished placeholder.
 
-## Provenance and companion equations
+## Manuscripts, companions, and evidence
 
-`metadata/sources.json` is a pack-local bibliography; each numbered metadata sidecar identifies specific, exact-text assertions with source IDs. Mathematics, worked examples, qualifications and the exact notation are retained in each manuscript outside the spoken region. The spoken regions contain the explanation needed for an audio listener. References and mathematical claims are checked at the level of those physical models and assumptions rather than with an arbitrary quota.
+Each manuscript has exactly one marked spoken section; mathematical equations, assumptions, worked results, and reading references live outside the spoken region. `metadata/sources.json` provides a bibliography with freely accessible source links. `metadata/<lecture-id>.json` contains source-backed exact-text passages. The first fourteen manuscripts and their individual metadata were not revised in this pass.
 
-## Remaining boundaries
+## Scope and closure
 
-The finite remaining plan is **matter changing phase**, followed by a genuinely integrative synthesis. Major specializations such as astrophysics, advanced electromagnetism and a full quantum field theory course are outside this finite track. The separate chemistry curriculum and foundational cell biology/genetics are not implied to be complete here. See `BACKLOG.md`.
+This series is a substantial general-physics foundation, not a replacement for specialist courses in quantum field theory, modern astrophysics, condensed matter, chemistry, or mathematical physics. It deliberately leaves full cell biology and genetics to a separate biological foundations track. See `COVERAGE_AUDIT.md` and `BACKLOG.md` for the editorial boundary.

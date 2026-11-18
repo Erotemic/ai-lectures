@@ -1,7 +1,7 @@
 {
   "id": "physical-world",
   "title": "The Physical World: Motion, Energy, Fields, and Matter",
-  "summary": "An audio-first physics track with foundational lectures on motion, energy, entropy, fields, waves and matter; applied studies of fluids, circuits, optics and bonding; and deeper treatments of thermal statistics, relativity, quantum measurement, and coupled motion. The assumptions and limits of physical models are made explicit.",
+  "summary": "A complete audio-first physics series from motion, conservation and fields to fluids, circuits, optics, chemistry, thermodynamics, relativity, quantum theory, phase transitions and a synthesis of laws, scale, prediction and measurement. Each lecture explains the mechanisms and boundaries of its models.",
   "assumed_background": [
     "Arithmetic, elementary algebra, and coordinate graphs; no calculus required initially"
   ],
@@ -16,7 +16,9 @@
     "optics",
     "relativity",
     "quantum",
-    "oscillations"
+    "oscillations",
+    "phase_transitions",
+    "synthesis"
   ],
   "lectures": [
     {
@@ -196,6 +198,43 @@
         "Damping",
         "Feedback"
       ]
+    },
+    {
+      "id": "015000",
+      "title": "When Matter Changes Its Mind: Phase Transitions, Order, and Collective Behavior",
+      "section": "phase_transitions",
+      "file": "015000-when-matter-changes-its-mind.md",
+      "spoken_words": 2849,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 19.6,
+      "tags": [
+        "Phase transitions",
+        "Latent heat",
+        "Nucleation",
+        "Statistical mechanics",
+        "Critical phenomena",
+        "Magnetism",
+        "Emergence"
+      ]
+    },
+    {
+      "id": "016000",
+      "title": "What It Means to Understand a Physical World: Laws, Limits, and Emergence",
+      "section": "synthesis",
+      "file": "016000-what-it-means-to-understand-a-physical-world.md",
+      "spoken_words": 4196,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 28.9,
+      "tags": [
+        "Physics",
+        "Scientific models",
+        "Conservation laws",
+        "Symmetry",
+        "Measurement",
+        "Statistical mechanics",
+        "Scale",
+        "Emergence"
+      ]
     }
   ],
   "categories": [
@@ -214,5 +253,5 @@
     "Electricity",
     "Scientific models"
   ],
-  "editorial_status": "in_progress"
+  "editorial_status": "complete"
 }

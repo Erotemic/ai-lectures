@@ -1,19 +1,20 @@
-# The Physical World — finite continuation plan
+# The Physical World — Completed editorial plan
 
-Completed manuscripts, not hypothetical lessons, determine the library inventory. There is no target duration or required number of words per lecture.
+The original finite plan has been completed with sixteen indexed manuscripts. Lecture lengths were determined by the material rather than a target.
 
 ## Completed
 
-- **001000–006000:** measurement and motion, conservation, entropy, fields, waves and scales.
-- **007000–010000:** fluids and turbulence, circuits and batteries, light and optics, chemical bonding and materials.
-- **011000:** microscopic probability and statistical thermodynamics, engines, heat pumps, Gibbs free energy and memory erasure.
-- **012000:** simultaneity, proper time, invariant intervals, gravity and experimental clock comparisons.
-- **013000:** coherent amplitudes, which-path records, polarization, quantum uncertainty and Bell tests.
-- **014000:** oscillations, damping, forced resonance, coupled modes, feedback and flutter.
+- **001000–006000:** motion and measurement; conservation; entropy; fields and interactions; waves; matter and physical scales.
+- **007000–010000:** fluid mechanics and weather; circuits and batteries; light and optics; atomic bonding and material properties.
+- **011000–014000:** statistical thermodynamics and engines; relativity and clocks; quantum interference and measurements; resonance, feedback and coupled motion.
+- **015000:** phase coexistence, Gibbs free energy, nucleation kinetics, magnetism, symmetry breaking, universality, glass and quantum phases.
+- **016000:** concluding synthesis of scientific models, measurement, conservation, symmetry, uncertainty, scale, and emergence.
 
-## Remaining finite plan
+## Optional independent tracks, not unfinished work here
 
-1. **Matter Changing Phase.** Thermodynamic phase coexistence, phase transitions, kinetic pathways, magnetism, symmetry and the emergence of material properties. The existing discussion of ice in lecture 011000 is a doorway, not a full treatment.
-2. **A Physical World Synthesis.** Make an argument spanning models, conservation, statistical laws, symmetries, scale and experimental tests; give the track a genuine ending, not a chapter-by-chapter recap.
+- **Cell Biology and Genetics:** cells, membranes, enzymes, metabolism, genes, replication, expression, regulation, development and inheritance; this is the natural next foundations priority.
+- **Chemistry:** quantitative chemical equilibrium, kinetics, acid–base chemistry, electrochemistry, organic structure and reaction mechanisms.
+- **Specialist physics:** advanced electromagnetism, classical statistical mechanics, condensed matter, quantum field theory, particle physics, astrophysics and cosmology.
+- **Mathematical methods:** differential equations, variational principles, Fourier analysis, tensor methods, linear algebra and probability at proof depth.
 
-These are editorial intentions until authored, sourced, indexed and checked. Chemistry, cell biology and genetics are separate curricula, not uncompleted appendices to this one.
+The above are independent curricula that can be authored if needed. They are not missing lectures required to call this track complete.

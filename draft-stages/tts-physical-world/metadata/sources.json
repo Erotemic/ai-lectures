@@ -504,6 +504,111 @@
       "url": "https://openstax.org/books/university-physics-volume-3/pages/7-1-wave-functions",
       "access": "free_no_login",
       "notes": "Wavefunction as complex amplitude, Born probability density and superposition."
+    },
+    "ph-phase-openstax": {
+      "title": "OpenStax University Physics Volume 2, 1.5: Phase Changes",
+      "kind": "open_textbook",
+      "url": "https://openstax.org/books/university-physics-volume-2/pages/1-5-phase-changes",
+      "access": "free_no_login",
+      "notes": "Latent heat, coexistence, phase diagrams, triple and critical points."
+    },
+    "ph-phase-heat": {
+      "title": "OpenStax Physics, 11.3: Phase Change and Latent Heat",
+      "kind": "open_textbook",
+      "url": "https://openstax.org/books/physics/pages/11-3-phase-change-and-latent-heat",
+      "access": "free_no_login",
+      "notes": "Specific latent heats, water heat capacities and energy accounting."
+    },
+    "ph-phase-gibbs": {
+      "title": "OpenStax Chemistry 2e, 16.4: Free Energy",
+      "kind": "open_textbook",
+      "url": "https://openstax.org/books/chemistry-2e/pages/16-4-free-energy",
+      "access": "free_no_login",
+      "notes": "Gibbs free energy and phase equilibrium at fixed pressure and temperature."
+    },
+    "ph-phase-nist": {
+      "title": "NIST IR 8533 (2024), Traceable Comparisons of Water-Triple-Point Cells",
+      "kind": "national_metrology",
+      "url": "https://nvlpubs.nist.gov/nistpubs/ir/2024/NIST.IR.8533.pdf",
+      "access": "free_no_login",
+      "notes": "Pure water triple point temperature and pressure and measurement context."
+    },
+    "ph-phase-nucleation": {
+      "title": "Thermodynamic mechanisms governing icing: Key insights for designing passive anti-icing surfaces (iScience, 2024)",
+      "kind": "peer_reviewed_review",
+      "url": "https://doi.org/10.1016/j.isci.2024.111668",
+      "access": "free_no_login",
+      "notes": "Supercooling and idealized surface/volume nucleation barrier with explicit limitations."
+    },
+    "ph-phase-solid": {
+      "title": "OpenStax Chemistry 2e, 10.5: The Solid State of Matter",
+      "kind": "open_textbook",
+      "url": "https://openstax.org/books/chemistry-2e/pages/10-5-the-solid-state-of-matter",
+      "access": "free_no_login",
+      "notes": "Crystalline and amorphous solids, microscopic defects, and properties."
+    },
+    "ph-phase-ising": {
+      "title": "Peter Eastman (Stanford), Statistical Mechanics: Phase Transitions",
+      "kind": "university_course",
+      "url": "https://web.stanford.edu/~peastman/statmech/phasetransitions.html",
+      "access": "free_no_login",
+      "notes": "Ising model, magnetization order parameter, and critical phenomena."
+    },
+    "ph-phase-wilson": {
+      "title": "Physical Review B 50th Anniversary Milestones, Renormalization Group and Critical Phenomena",
+      "kind": "publisher_research_history",
+      "url": "https://journals.aps.org/prb/50th",
+      "access": "free_no_login",
+      "notes": "Kenneth Wilson, 1971 work, Kadanoff scaling, cross-scale critical behavior."
+    },
+    "ph-phase-topology": {
+      "title": "APS Physics, Topological Phases",
+      "kind": "scientific_society",
+      "url": "https://physics.aps.org/topological-phases",
+      "access": "free_no_login",
+      "notes": "Topological transitions and vortex physics; 2016 Nobel history."
+    },
+    "ph-syn-noether": {
+      "title": "TU Delft, Introduction to Particle and Continuum Physics: Lagrangian Mechanics",
+      "kind": "open_university_textbook",
+      "url": "https://interactivetextbooks.tudelft.nl/nb1140/content/Lagrangianmechanics.html",
+      "access": "free_no_login",
+      "notes": "Noether theorem, assumptions and conserved quantities."
+    },
+    "ph-syn-effective": {
+      "title": "Stanford Encyclopedia of Philosophy, Quantum Field Theory",
+      "kind": "peer_reviewed_reference",
+      "url": "https://plato.stanford.edu/entries/quantum-field-theory/",
+      "access": "free_no_login",
+      "notes": "Scale dependence of effective field theories and renormalization."
+    },
+    "ph-syn-ligo": {
+      "title": "LIGO Scientific Collaboration, GW150914 First Observation",
+      "kind": "primary_collaboration",
+      "url": "https://ligo.org/detections/gw150914/",
+      "access": "free_no_login",
+      "notes": "Observation and announcement dates of first directly detected gravitational wave."
+    },
+    "ph-syn-ligowave": {
+      "title": "LIGO Scientific Collaboration, How We Searched for Merging Black Holes",
+      "kind": "primary_collaboration",
+      "url": "https://ligo.org/science-summaries/GW150914CBC/",
+      "access": "free_no_login",
+      "notes": "Interferometer measurements, signal analysis and waveform comparison."
+    },
+    "ph-syn-si": {
+      "title": "NIST, Definitions of SI Base Units",
+      "kind": "national_metrology",
+      "url": "https://www.nist.gov/si-redefinition/definitions-si-base-units",
+      "access": "free_no_login",
+      "notes": "Exact SI definitions based on cesium transition, speed of light, and Planck constant."
+    },
+    "ph-syn-gps": {
+      "title": "NIST, Putting Einstein to the Test",
+      "kind": "national_metrology",
+      "url": "https://www.nist.gov/atomic-clocks/a-powerful-tool-for-science/putting-einstein-test",
+      "access": "free_no_login",
+      "notes": "Satellite navigation relativity timing corrections and experimental clock tests."
     }
   }
 }

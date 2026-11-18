@@ -1,0 +1,166 @@
+{
+  "schema_version": 1,
+  "lecture_id": "015000",
+  "transcript": "015000-when-matter-changes-its-mind.md",
+  "related_resources": [
+    {
+      "source_id": "ph-phase-openstax",
+      "reason": "Latent heat fusion of water"
+    },
+    {
+      "source_id": "ph-phase-heat",
+      "reason": "Latent heat fusion of water"
+    },
+    {
+      "source_id": "ph-phase-gibbs",
+      "reason": "Thermodynamic potential at constant T,p"
+    },
+    {
+      "source_id": "ph-phase-nucleation",
+      "reason": "Nucleation barrier surface vs bulk"
+    },
+    {
+      "source_id": "ph-phase-nist",
+      "reason": "Triple-point values in NIST measurement report"
+    },
+    {
+      "source_id": "ph-phase-ising",
+      "reason": "Basic Ising model with competing neighbor interactions and temperature"
+    },
+    {
+      "source_id": "ph-phase-wilson",
+      "reason": "Wilson and Kadanoff"
+    },
+    {
+      "source_id": "ph-phase-solid",
+      "reason": "Crystalline vs amorphous solid"
+    },
+    {
+      "source_id": "ph-phase-topology",
+      "reason": "Topological phases and defects"
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "015000-e01",
+      "anchor": "The corresponding energy per kilogram is called the latent heat of fusion. For water near ordinary pressure it is about three hundred thirty-four kilojoules per kilogram.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ph-phase-openstax",
+        "ph-phase-heat"
+      ],
+      "source_locator": "Latent heat fusion of water",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "015000-e02",
+      "anchor": "So melting one kilogram of ice at zero degrees takes nearly as much energy as warming one kilogram of liquid water by eighty degrees Celsius.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ph-phase-heat"
+      ],
+      "source_locator": "Comparison of water latent heat and specific heat",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "015000-e03",
+      "anchor": "At a specified temperature and pressure, the equilibrium phase of a simple system is the one with the lowest appropriate thermodynamic potential, its Gibbs free energy.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ph-phase-gibbs"
+      ],
+      "source_locator": "Thermodynamic potential at constant T,p",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "015000-e04",
+      "anchor": "For a very small cluster, the surface penalty can outweigh the benefit of having ice inside.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ph-phase-nucleation"
+      ],
+      "source_locator": "Nucleation barrier surface vs bulk",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "015000-e05",
+      "anchor": "A scratch, dust particle, preexisting crystal, or container wall may provide a different route, allowing heterogeneous nucleation.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ph-phase-nucleation"
+      ],
+      "source_locator": "Heterogeneous nucleation",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "015000-e06",
+      "anchor": "For pure water it lies near zero point zero one degrees Celsius and a pressure of about six hundred twelve pascals.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ph-phase-nist"
+      ],
+      "source_locator": "Triple-point values in NIST measurement report",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "015000-e07",
+      "anchor": "At another, much hotter and higher-pressure state, the liquid-vapor coexistence curve ends.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ph-phase-openstax"
+      ],
+      "source_locator": "Critical point and end of coexistence",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "015000-e08",
+      "anchor": "A simple mathematical model of this competition is the Ising model.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ph-phase-ising"
+      ],
+      "source_locator": "Basic Ising model with competing neighbor interactions and temperature",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "015000-e09",
+      "anchor": "This is called spontaneous symmetry breaking.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ph-phase-ising"
+      ],
+      "source_locator": "Equilibrium magnetic order parameter",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "015000-e10",
+      "anchor": "In the 1970s, Kenneth Wilson developed the renormalization-group approach to critical phenomena, building on earlier work including Leo Kadanoff's scaling ideas.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ph-phase-wilson"
+      ],
+      "source_locator": "Wilson and Kadanoff",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "015000-e11",
+      "anchor": "A crystalline solid has a repeating arrangement; an ordinary glass lacks that long-range crystal order.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ph-phase-solid"
+      ],
+      "source_locator": "Crystalline vs amorphous solid",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "015000-e12",
+      "anchor": "Work by David Thouless, Duncan Haldane, Michael Kosterlitz, and others showed that some phases and transitions are characterized by topological properties and defects rather than an ordinary local order parameter.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ph-phase-topology"
+      ],
+      "source_locator": "Topological phases and defects",
+      "audit_status": "source_checked"
+    }
+  ]
+}

@@ -12,7 +12,7 @@
         "general",
         "science enthusiasts"
       ],
-      "summary": "Fourteen standalone lectures, from measured motion and conservation through everyday systems to thermal probability, curved spacetime, quantum states and resonance.",
+      "summary": "Sixteen standalone physics lectures; a guided sequence from measurement, motion, energy and fields through everyday systems, spacetime and quantum theory, closing with phase transitions and a capstone on laws, models and emergence.",
       "chapters": [
         {
           "title": "How Can Motion Become a Law? Measurement, Models, and Forces",
@@ -97,6 +97,18 @@
           "lectures": [
             "014000"
           ]
+        },
+        {
+          "title": "When Matter Changes Its Mind: Phase Transitions, Order, and Collective Behavior",
+          "lectures": [
+            "015000"
+          ]
+        },
+        {
+          "title": "What It Means to Understand a Physical World: Laws, Limits, and Emergence",
+          "lectures": [
+            "016000"
+          ]
         }
       ]
     },
@@ -124,6 +136,18 @@
         "012000",
         "013000",
         "014000"
+      ]
+    },
+    {
+      "id": "physical-world-materials-and-synthesis",
+      "title": "The Physical World - Materials and the Big Picture",
+      "role": "deep_dive",
+      "parent": "physical-world-guided",
+      "summary": "Three self-contained essays linking atomic bonding, collective phase transitions, and the reach and limits of physical explanations.",
+      "lectures": [
+        "010000",
+        "015000",
+        "016000"
       ]
     }
   ]

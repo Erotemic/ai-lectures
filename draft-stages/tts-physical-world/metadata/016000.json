@@ -1,0 +1,188 @@
+{
+  "schema_version": 1,
+  "lecture_id": "016000",
+  "transcript": "016000-what-it-means-to-understand-a-physical-world.md",
+  "related_resources": [
+    {
+      "source_id": "ph-openstax",
+      "reason": "Five-meter free-fall equations and numeric result"
+    },
+    {
+      "source_id": "ph-aps-joule",
+      "reason": "Historical evidence of mechanical equivalent of heat"
+    },
+    {
+      "source_id": "ph-iop-energy",
+      "reason": "Historical evidence of mechanical equivalent of heat"
+    },
+    {
+      "source_id": "ph-therm-heatpump",
+      "reason": "Heat pump coefficient of performance"
+    },
+    {
+      "source_id": "ph-syn-noether",
+      "reason": "Noether 1918 and global continuous symmetries"
+    },
+    {
+      "source_id": "ph-openstax-faraday",
+      "reason": "Faraday induction / Maxwell fields"
+    },
+    {
+      "source_id": "ph-syn-gps",
+      "reason": "NIST GPS relativistic timing corrections"
+    },
+    {
+      "source_id": "ph-quant-wavefunction",
+      "reason": "Quantum state and amplitudes"
+    },
+    {
+      "source_id": "ph-quant-nobel",
+      "reason": "Bell experiments and conditions"
+    },
+    {
+      "source_id": "ph-phase-wilson",
+      "reason": "Scale-dependent effective theories and RG"
+    },
+    {
+      "source_id": "ph-syn-effective",
+      "reason": "Scale-dependent effective theories and RG"
+    },
+    {
+      "source_id": "ph-syn-si",
+      "reason": "Definition of SI units"
+    },
+    {
+      "source_id": "ph-syn-ligo",
+      "reason": "LIGO observation GW150914 September 2015"
+    },
+    {
+      "source_id": "ph-syn-ligowave",
+      "reason": "LIGO observation GW150914 September 2015"
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "016000-e01",
+      "anchor": "The answer is a little more than one second. Its speed just before impact is about nine point nine meters per second, a little over twenty miles per hour.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ph-openstax"
+      ],
+      "source_locator": "Five-meter free-fall equations and numeric result",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "016000-e02",
+      "anchor": "In nineteenth-century science, the realization that mechanical work and heat belonged in the same energy accounting was revolutionary.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ph-aps-joule",
+        "ph-iop-energy"
+      ],
+      "source_locator": "Historical evidence of mechanical equivalent of heat",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "016000-e03",
+      "anchor": "A heat pump seems to create heat from cold air. It uses work to move thermal energy, and the useful delivered heat can exceed the electrical work because the source supplies additional energy.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ph-therm-heatpump"
+      ],
+      "source_locator": "Heat pump coefficient of performance",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "016000-e04",
+      "anchor": "Emmy Noether showed, in 1918, a deep connection between continuous symmetries and conservation laws.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ph-syn-noether"
+      ],
+      "source_locator": "Noether 1918 and global continuous symmetries",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "016000-e05",
+      "anchor": "A changing magnetic field can induce an electric field.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ph-openstax-faraday"
+      ],
+      "source_locator": "Faraday induction / Maxwell fields",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "016000-e06",
+      "anchor": "The system must account for relativistic timing, alongside many other physical and engineering corrections, to achieve useful positioning.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ph-syn-gps"
+      ],
+      "source_locator": "NIST GPS relativistic timing corrections",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "016000-e07",
+      "anchor": "Quantum mechanics is rigorous and predictive. It tells us how to construct states, evolve them, and calculate probabilities for the outcomes of specified measurements.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ph-quant-wavefunction"
+      ],
+      "source_locator": "Quantum state and amplitudes",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "016000-e08",
+      "anchor": "Experiments testing Bell inequalities have ruled out broad classes of local hidden-variable models under the assumptions of those tests.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ph-quant-nobel"
+      ],
+      "source_locator": "Bell experiments and conditions",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "016000-e09",
+      "anchor": "Kenneth Wilson's renormalization-group work gave a systematic way to understand how descriptions change as our scale of observation changes, and why different microscopic materials can share critical behavior.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ph-phase-wilson",
+        "ph-syn-effective"
+      ],
+      "source_locator": "Scale-dependent effective theories and RG",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "016000-e10",
+      "anchor": "The modern definition of the second uses the specified frequency of a transition in cesium-133. The meter is tied to the speed of light and the second. The kilogram is connected to a fixed numerical value of the Planck constant.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ph-syn-si"
+      ],
+      "source_locator": "Definition of SI units",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "016000-e11",
+      "anchor": "On September fourteenth, 2015, the two LIGO observatories in the United States recorded a signal consistent with a pair of merging black holes.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ph-syn-ligo",
+        "ph-syn-ligowave"
+      ],
+      "source_locator": "LIGO observation GW150914 September 2015",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "016000-e12",
+      "anchor": "The discovery was announced in February 2016.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ph-syn-ligo"
+      ],
+      "source_locator": "Announcement date",
+      "audit_status": "source_checked"
+    }
+  ]
+}
