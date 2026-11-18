@@ -1,0 +1,254 @@
+{
+  "schema_version": 1,
+  "lecture_id": "023000",
+  "transcript": "023000-a-cave-grows-its-own-archive.md",
+  "description": "Explains how calcite stalagmites form, uranium–thorium dating, cave oxygen and carbon isotope interpretation, growth hiatuses, and the independently dated Hulu Cave monsoon record.",
+  "tags": [
+    "Speleothems",
+    "Stalagmites",
+    "Karst hydrology",
+    "Uranium-thorium dating",
+    "Oxygen isotopes in calcite",
+    "Carbon isotopes in calcite",
+    "Monsoon isotope proxy",
+    "Dripwater chemistry",
+    "Speleothem growth hiatus",
+    "Age-depth model",
+    "Hulu Cave",
+    "Paleomonsoon"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Earth science",
+      "Paleoclimatology",
+      "Speleothem records",
+      "Cave carbonate formation"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Paleoclimatology",
+      "Speleothem records",
+      "U-series chronology"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Paleoclimatology",
+      "Speleothem records",
+      "Oxygen-isotope hydrology"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Paleoclimatology",
+      "Speleothem records",
+      "Monsoon source regions"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Paleoclimatology",
+      "Speleothem records",
+      "Cave monitoring"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Paleoclimatology",
+      "Speleothem records",
+      "Growth hiatuses"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Paleoclimatology",
+      "Speleothem records",
+      "Hulu Cave monsoon reconstruction"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Scientific methods",
+      "Paleoclimate records"
+    ],
+    [
+      "Place: Asia",
+      "Place: China",
+      "Place: Jiangsu",
+      "Place: Nanjing"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "es-paleo-hulu",
+      "reason": "U-Th dated stalagmite isotopes with relationship to Greenland climatic changes."
+    },
+    {
+      "source_id": "es-paleo-hulu-data",
+      "reason": "Hulu Cave location and archive interval from approximately 75 to 11 kyr BP."
+    },
+    {
+      "source_id": "es-paleo-caves",
+      "reason": "Stalagmite and other cave deposits, isotopes and dating possibilities."
+    },
+    {
+      "source_id": "es-paleo-ipcc",
+      "reason": "Broad paleoclimate evidence, regional versus global reconstruction, LGM and Common Era uncertainty."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "023000-e01",
+      "anchor": "the drop leaves behind a thin deposit of calcium carbonate",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-paleo-caves"
+      ],
+      "source_locator": "Stalagmite and other cave deposits, isotopes and dating possibilities.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "023000-e02",
+      "anchor": "uranium-series methods",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-paleo-caves",
+        "es-paleo-hulu"
+      ],
+      "source_locator": "Stalagmite and other cave deposits, isotopes and dating possibilities.; U-Th dated stalagmite isotopes with relationship to Greenland climatic changes.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "023000-e03",
+      "anchor": "the mineral has to behave sufficiently like a closed system",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-paleo-hulu",
+        "es-paleo-caves"
+      ],
+      "source_locator": "U-Th dated stalagmite isotopes with relationship to Greenland climatic changes.; Stalagmite and other cave deposits, isotopes and dating possibilities.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "023000-e04",
+      "anchor": "the carbonate's oxygen composition is influenced by cave temperature",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-paleo-hulu"
+      ],
+      "source_locator": "U-Th dated stalagmite isotopes with relationship to Greenland climatic changes.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "023000-e05",
+      "anchor": "This seasonal selectivity must be learned from local hydrology",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-paleo-ipcc",
+        "es-paleo-hulu"
+      ],
+      "source_locator": "Broad paleoclimate evidence, regional versus global reconstruction, LGM and Common Era uncertainty.; U-Th dated stalagmite isotopes with relationship to Greenland climatic changes.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "023000-e06",
+      "anchor": "A famous case comes from Hulu Cave near Nanjing",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-paleo-hulu",
+        "es-paleo-hulu-data"
+      ],
+      "source_locator": "U-Th dated stalagmite isotopes with relationship to Greenland climatic changes.; Hulu Cave location and archive interval from approximately 75 to 11 kyr BP.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "023000-e07",
+      "anchor": "a 2001 study led by Yanjun Wang",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-paleo-hulu"
+      ],
+      "source_locator": "U-Th dated stalagmite isotopes with relationship to Greenland climatic changes.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "023000-e08",
+      "anchor": "changes seen in Greenland ice-core records",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-paleo-hulu",
+        "es-paleo-ngrip"
+      ],
+      "source_locator": "U-Th dated stalagmite isotopes with relationship to Greenland climatic changes.; 2004 North Greenland deep ice record; regional changes and disturbed deeper stratigraphy.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "023000-e09",
+      "anchor": "This distinction matters whenever a headline calls a cave a",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-paleo-ipcc"
+      ],
+      "source_locator": "Broad paleoclimate evidence, regional versus global reconstruction, LGM and Common Era uncertainty.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "023000-e10",
+      "anchor": "Stalagmites also have a remarkable property: they can stop growing",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-paleo-caves"
+      ],
+      "source_locator": "Stalagmite and other cave deposits, isotopes and dating possibilities.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "023000-e11",
+      "anchor": "A stalagmite that looks pristine to a visitor",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-paleo-caves"
+      ],
+      "source_locator": "Stalagmite and other cave deposits, isotopes and dating possibilities.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "023000-e12",
+      "anchor": "if researchers tune the cave chronology",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-paleo-hulu"
+      ],
+      "source_locator": "U-Th dated stalagmite isotopes with relationship to Greenland climatic changes.",
+      "audit_status": "source_checked"
+    }
+  ],
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "No previous lecture is required. The narration introduces the physical mechanisms and the distinction between an archive measurement and a climate reconstruction."
+    ],
+    "readiness_checks": [
+      "Why is carbonate isotope composition not a direct rainfall amount?",
+      "What assumptions underpin uranium–thorium dating?",
+      "What did the relationship between Hulu Cave and Greenland records imply?"
+    ]
+  },
+  "places": [
+    "Hulu Cave, near Nanjing, Jiangsu, China"
+  ],
+  "chronology": {
+    "period": {
+      "start": 2001,
+      "label": "2001 Hulu Cave uranium-dated monsoon study",
+      "basis": "documented research publication",
+      "note": "This year dates a named research study, not the paleoclimatic event or physical process being reconstructed.",
+      "source_ids": [
+        "es-paleo-hulu"
+      ]
+    }
+  }
+}

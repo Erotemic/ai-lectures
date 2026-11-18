@@ -1,23 +1,12 @@
 # Earth Systems Course Development Backlog
 
-Nineteen complete lectures: radiation (001000), atmosphere (002000), water cycle (003000), ocean circulation (004000), carbon (005000), cryosphere (006000), moving landscapes (007000), ENSO dynamics and prediction (008000–010000), and extreme-weather mechanisms and impacts (011000–015000), and living chemistry (016000–019000).
+Twenty-five complete lectures. The six-lecture How We Know the Climate Past unit (020000–025000) now covers ice-core gas and ice ages, tree rings, marine/lake sediments, speleothems, dating, and multi-proxy interpretation.
 
-These are coherent future options rather than a plan to extend the course indefinitely.
+The course now has a coherent endpoint. Future optional expansions should respond to genuine gaps instead of automatically adding more independent surveys.
 
-## Current priorities
+## Potential complementary strands
 
-- **How We Know the Climate Past.** Ice cores, tree rings, ocean and lake sediments, speleothems, chronology and uncertainty. Distinguish reconstructed climate from direct observations.
+- **Where Earth System Models Come From:** conservation, numerical resolution, parameterizations, data assimilation, ensemble interpretation and evaluation; complement ENSO prediction and proxy reconstruction without repeating their introductions.
+- **The Changing Coast:** tidal and wave energy, sediment delivery, estuaries and delta dynamics; link land/river/ocean foundations.
 
-## Additional coherent possibilities
-
-- **Where Earth System Models Come From.** Conserved quantities, grid resolution, parameterization, observation assimilation, ensemble uncertainty and climate versus weather prediction; complement but do not duplicate lecture 010000.
-- **The Changing Coast.** Sediment supply, sea level, tides, wave energy, estuaries and delta dynamics.
-
-## Completed from earlier priorities
-
-- Carbon on Many Clocks (005000), Ice That Changes the Planet (006000), The Landscape Is Moving (007000).
-- Pacific ENSO unit (008000–010000): wind-temperature feedback, equatorial waves, remote circulation and NOAA's 2026 RONI monitoring change.
-- Earth's Living Chemistry (016000–019000): nitrogen, phosphorus, oxygen, wetlands, estuary redox gradients and coastal hypoxia.
-- Extreme-weather unit (011000–015000): organized thunderstorms, cyclone hazards, atmospheric rivers and floods, drought storage and demand, and persistent heat waves with event attribution.
-
-Do not invent historical date ranges for physical mechanisms; record observation dates or method changes in claim evidence and companions. Continue using full hierarchical topic and justified place tagging.
+**Tagging rule:** geological intervals are not modern publication dates. When a named research study is tagged with a calendar year, the metadata says explicitly that it refers to the publication. Geographic tags are justified by named case studies, not generic scientific processes.

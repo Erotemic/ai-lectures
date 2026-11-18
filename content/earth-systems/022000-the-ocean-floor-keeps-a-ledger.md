@@ -1,0 +1,70 @@
+# The Ocean Floor Keeps a Ledger: Shells, Mud, and Lost Seasons
+
+<!-- BEGIN SPOKEN LECTURE -->
+
+An ocean basin does not preserve a diary in the way a tree sometimes preserves annual rings. Material falls through the water and accumulates on the seafloor: mineral dust, remains of plankton, clay carried from continents, particles made by organisms, and the chemical products of processes that operated far above. Some is buried and preserved. Some dissolves. Some is eaten, reworked, or carried away by bottom currents. From this imperfect accumulation, researchers can reconstruct chapters of climate history far older than most tree-ring and ice-core records. The ocean floor is an archive, but it is not a tape recorder.
+
+Imagine lowering a hollow tube into the seabed and retrieving a long column of sediment. One part of the core looks brown, another pale, another rich in shells. The layers ordinarily tend to become older with depth, though slumps, erosion, burrowing, and changing currents can interrupt that order. The core may contain hundreds of thousands of years of deposition or a shorter interval in much greater detail. Depth alone tells us neither. The first laboratory problem is to establish sedimentary context: where the material was deposited, at what water depth, at what rate, and how often the seabed was disturbed.
+
+Tiny shelled organisms provide many of the clues. Foraminifera are single-celled eukaryotes that often build calcium carbonate shells. Some live in the upper ocean, and others live on or within the seafloor. Their shells can survive after death, accumulate, and eventually enter a sediment core. Researchers identify species, count their abundance, and analyze their chemistry. These measurements can reflect the water in which the organisms lived, provided we understand the ecological and chemical influences that also affect their shells.
+
+One of the most important measurements is the ratio of heavy oxygen to light oxygen in shell carbonate, usually expressed as delta oxygen eighteen. It is tempting to treat this as an ancient ocean thermometer. Temperature does influence the fractionation between water and calcium carbonate, but the isotopic composition of the seawater matters too. During a cold glacial interval, ice sheets preferentially store water enriched in the lighter oxygen isotope. Much of the remaining ocean water becomes relatively enriched in oxygen eighteen. A foraminifer forming its shell in that ocean can therefore show a different isotope value because of both temperature and global ice volume. Local evaporation, rainfall, and changing water masses can add further effects.
+
+Try an example. Suppose a bottom-dwelling foraminifer shows a shift toward heavier oxygen values. Perhaps deep water became colder. Perhaps large ice sheets grew on land, changing the isotopic composition of seawater. Perhaps the source of the deep water changed. A single shell measurement cannot uniquely choose between those explanations. Scientists use additional proxies and independent information to estimate how much of the signal belongs to each cause. A good reconstruction is a constrained inference with an uncertainty budget, not a lookup from one isotope number to one unambiguous global temperature.
+
+To help separate temperature from seawater isotope changes, researchers may examine the magnesium-to-calcium ratio in foraminiferal carbonate. In many calibrated settings, warmer water leads to more magnesium incorporated into the shell. But the relationship depends on species, water chemistry, dissolution, and laboratory preparation. Deep ocean samples can be altered after burial or contaminated by other mineral phases. A 2025 study of benthic foraminifera, for example, documented persistent contamination problems after standard cleaning procedures. That is a reminder that the most useful proxy is not the one that yields the cleanest single figure, but the one whose biases can be recognized and tested.
+
+Other organisms leave other signatures. Certain marine algae produce organic molecules whose relative abundances change with growth temperature; alkenone measurements have been used to infer aspects of past sea-surface temperature. Species assemblages of plankton can indicate changing habitat, nutrient supply, and water-mass conditions. Yet each proxy has a season and an ecology. A species flourishing mainly during spring blooms may tell us more about spring surface conditions than the annual ocean average. A molecule associated with a particular depth or season is not a thermometer for the entire mixed layer. Proxy agreement can be informative, but agreement between two species living in the same season may leave another season almost unobserved.
+
+How can a shell deposited a million years ago be dated? Near the top of a core, some carbon-bearing materials can be radiocarbon dated, although marine reservoir effects must be considered. A shell may have incorporated carbon that resided in seawater long enough to be depleted in radiocarbon compared with the contemporaneous atmosphere. In older deposits beyond the practical radiocarbon range, scientists turn to magnetic reversals recorded in sediments, identifiable volcanic ash, fossil assemblages, correlations to other records, and sometimes astronomical tuning. Each technique supplies a different kind of chronological constraint. An age model is built from the available constraints and their uncertainties, rather than read from the core barrel.
+
+Astronomical tuning needs a careful explanation. Earth's orbit and axial geometry change in mathematically describable ways, altering the seasonal distribution of incoming sunlight. Those variations influence ice sheets and other parts of the climate system. If a repeating pattern in a sediment record appears related to orbital cycles, researchers may adjust an age model to align it with a physically motivated astronomical chronology, subject to sedimentation-rate constraints. This can be powerful, but the relationship between the two curves is then partly built into the dating procedure. A tuned record cannot be used naively as wholly independent evidence that the same orbital alignment is true. Testing the climate mechanism requires attention to the assumptions used to assign dates in the first place.
+
+One influential global synthesis illustrates both the reach of the technique and its limits. In 2005 Lorraine Lisiecki and Maureen Raymo assembled a stack of benthic oxygen-isotope measurements from fifty-seven widely distributed marine records, covering about 5.3 million years. Their sites spanned the Atlantic and Pacific Oceans, with some records from the Indian Ocean. By aligning patterns and developing a common chronology, they made it much easier to compare the timing of glacial and interglacial changes across ocean basins. But the stacked signal is principally about the combined histories of deep-water temperature and land-ice volume. It does not directly show what the air temperature felt like in a particular valley, nor does its average represent fifty-seven independent modern thermometers.
+
+Why stack records at all? Individual cores contain noise, gaps, local circulation effects, species differences, and variable sedimentation rates. Repeating features across many sites makes a broad signal easier to detect. Researchers can estimate how consistent the records are and where they differ. Averaging may also conceal real regional differences or brief events. A smooth global stack is suited to one class of question: identifying shared long-term changes. A rapidly accumulating core at a carefully chosen site may be better for resolving a century-scale event. Resolution, spatial coverage, and age reliability often trade against one another.
+
+Burrowing organisms impose an additional resolution limit. Worms and other bottom-dwellers can move sediment particles above and below the layer in which they first settled. This biological mixing, called bioturbation, spreads material from a brief event across a thicker interval. Even a laboratory that measures samples every millimeter cannot restore the original event to a one-year pulse if animals mixed the sediment for centuries. High sampling frequency is not the same as high time resolution. A physical archive can erase a sharp signal before anyone ever collects it.
+
+Lakes offer a companion story. A lake receives sediment from its catchment and produces organic matter in its own water. It may preserve pollen from surrounding vegetation, microscopic shells of diatoms, carbonate minerals, charcoal from fires, and changing proportions of sand, silt, and clay. Such materials can reveal shifting vegetation, lake chemistry, erosion, and sometimes water level. Pollen can be evidence for plant communities, which in turn respond to climate among many other forces. A rise in grass pollen does not independently measure rainfall unless the ecology and local landscape are understood.
+
+In some lakes, the seasons produce contrasting layers that survive as annual couplets or more complex annual sequences, called varves. For example, seasonal runoff may deliver one material in spring while productivity or mineral precipitation deposits another later. If bottom waters remain inhospitable to burrowing animals, the alternating layers can be preserved. They offer much better chronological detail than mixed sediment, but an apparent light-dark pair must be demonstrated to be annual. Flood deposits, turbidites, and years with weak or missing layers can confuse simple counts. Sediment traps and modern observations help establish the mechanism before ancient stripes are assigned years.
+
+The difference between marine and lake sediments is instructive. Ocean cores can recover broadly connected signals of ice volume and deep ocean change over millions of years. Lake cores often capture a watershed's much more local history, sometimes with exquisite seasonal detail. The scientific challenge is to move between scales without confusing them. A sharp pollen shift in one mountain lake might result from local fire or slope disturbance. A similar shift appearing in many independently dated regional records is stronger evidence for a regional climate transition. A benthic oxygen-isotope stack may show a glacial cycle clearly while concealing which valley received more rain during a particular century.
+
+Sediment records also remind us that absence is evidence only after preservation is considered. No pollen from a species may mean the species was not nearby; it may also mean little pollen reached the lake or its grains were poorly preserved. A thin layer may indicate low deposition, erosion, compaction, or a pause in sedimentation. A strong laboratory signal can come from material that traveled from somewhere else. The core has a provenance problem in addition to a dating problem.
+
+A carefully interpreted sediment core is therefore a sequence of questions. Which organisms or minerals made this measurement possible? Where and when did they form? Did they survive transport and burial without alteration? What is the local environmental variable to which they respond? Which chronology places the sample in time? Can another measurement distinguish alternative causes of the same signal? These questions are the substance of paleoceanography and paleolimnology. They allow mud and shells to tell us about ancient oceans and climates without demanding that a seafloor act like an undisturbed, perfectly calibrated instrument.
+
+<!-- END SPOKEN LECTURE -->
+
+## Scientific companion: marine and lake proxy interpretation
+
+### Proxy-to-climate pathways
+
+- **Benthic foraminiferal δ18O:** responds to deep-water temperature and seawater isotopic composition; global ice volume is a major influence on the latter. It is not an unambiguous deep-sea thermometer.
+- **Foraminiferal Mg/Ca:** temperature-sensitive under appropriate calibration, but species, carbonate chemistry, cleaning and post-depositional dissolution matter.
+- **Alkenone unsaturation:** an organic biomarker approach to temperature reconstruction, with ecological and seasonal biases.
+- **Plankton and pollen assemblages:** biological responses to habitat, nutrients, temperature and moisture; interpretation needs ecological models.
+- **Lake varves:** sometimes countable annual deposits; show annual character through modern deposition process and independent chronological checks.
+
+### Chronology and temporal resolution
+
+Radiocarbon ages of marine material need reservoir corrections. Older ocean sediments may be dated with magnetic polarity changes, ash layers, biostratigraphy, orbital tuning and age-depth models. Orbital tuning introduces assumptions about the relation between climate response and astronomical forcing. Bioturbation can smooth an event even when laboratory sampling is dense.
+
+### Sources and further reading
+
+- Lisiecki & Raymo (2005), *A Pliocene-Pleistocene stack of 57 globally distributed benthic δ18O records*. https://doi.org/10.1029/2004PA001071
+- NOAA NCEI, *Lisiecki and Raymo 2005 Global Benthic Isotope Stack* dataset. https://www.ncei.noaa.gov/access/paleo-search/study/5847
+- Larsson & Jung (2025), *Persistent contamination in benthic-foraminifera-based Mg/Ca thermometry using standard cleaning methods*. https://doi.org/10.5194/cp-21-1871-2025
+- Anderson & Dean (1988), *Lacustrine varve formation through time*. https://doi.org/10.1016/0031-0182(88)90055-7
+- NOAA NCEI, *Lake paleoclimatology archive*. https://www.ncei.noaa.gov/products/paleoclimatology/lake
+- IPCC AR6 WGI, Chapter 2. https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-2/
+
+### Questions
+
+1. Why do benthic foraminifera record ice volume as well as temperature?
+2. What makes a marine isotope stack valuable, and what information does averaging remove?
+3. Why can extremely fine laboratory sampling fail to resolve a short ancient event?
+4. What would justify treating lake layers as annual varves?
+5. Why is an astronomically tuned age model not completely independent evidence of orbital pacing?

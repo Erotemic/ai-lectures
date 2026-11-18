@@ -1,0 +1,280 @@
+{
+  "schema_version": 1,
+  "lecture_id": "025000",
+  "transcript": "025000-when-archives-disagree.md",
+  "description": "Integrative proxy-reconstruction lecture using ice-age retreat, Younger Dryas regional changes and PAGES 2k temperature synthesis to distinguish measured proxies, chronology, geographic coverage, data dependence and climate-model inference.",
+  "tags": [
+    "Multi-proxy paleoclimatology",
+    "Climate reconstruction",
+    "Proxy calibration",
+    "Last Glacial Maximum",
+    "Last deglaciation",
+    "Younger Dryas",
+    "Monsoon teleconnections",
+    "Global mean surface temperature",
+    "PAGES 2k",
+    "Climate data assimilation",
+    "Cross-validation",
+    "Sampling bias",
+    "Proxy temporal smoothing",
+    "Uncertainty decomposition"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Earth science",
+      "Paleoclimatology",
+      "Multi-proxy reconstruction",
+      "Last deglaciation"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Paleoclimatology",
+      "Multi-proxy reconstruction",
+      "Younger Dryas"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Paleoclimatology",
+      "Multi-proxy reconstruction",
+      "Regional climate heterogeneity"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Paleoclimatology",
+      "Multi-proxy reconstruction",
+      "Global temperature reconstruction"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Paleoclimatology",
+      "Multi-proxy reconstruction",
+      "Data assimilation"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Paleoclimatology",
+      "Multi-proxy reconstruction",
+      "Proxy cross-validation"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Paleoclimatology",
+      "Multi-proxy reconstruction",
+      "PAGES 2k"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Paleoclimatology",
+      "Multi-proxy reconstruction",
+      "Reconstruction uncertainty"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Scientific methods",
+      "Paleoclimate records"
+    ],
+    [
+      "Place: Arctic",
+      "Place: Greenland"
+    ],
+    [
+      "Place: Atlantic Ocean",
+      "Place: North Atlantic"
+    ],
+    [
+      "Place: Asia",
+      "Place: East Asia"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "es-paleo-ipcc",
+      "reason": "Broad paleoclimate evidence, regional versus global reconstruction, LGM and Common Era uncertainty."
+    },
+    {
+      "source_id": "es-paleo-pages2k",
+      "reason": "Seven temperature-reconstruction methods on shared network of proxies; multidecadal warming."
+    },
+    {
+      "source_id": "es-paleo-ngrip",
+      "reason": "2004 North Greenland deep ice record; regional changes and disturbed deeper stratigraphy."
+    },
+    {
+      "source_id": "es-paleo-hulu",
+      "reason": "U-Th dated stalagmite isotopes with relationship to Greenland climatic changes."
+    },
+    {
+      "source_id": "es-paleo-lr04",
+      "reason": "57 benthic records, 5.3 Myr, deep temperature plus ice volume and astronomical tuning."
+    },
+    {
+      "source_id": "es-paleo-intcal",
+      "reason": "0-55 ka calibrated ages, dendrodated tree rings and independent older sources."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "025000-e01",
+      "anchor": "the retreat of the great ice sheets after the Last Glacial Maximum",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-paleo-ipcc"
+      ],
+      "source_locator": "Broad paleoclimate evidence, regional versus global reconstruction, LGM and Common Era uncertainty.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "025000-e02",
+      "anchor": "From an ice bubble we might measure carbon dioxide concentration directly",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-paleo-gas"
+      ],
+      "source_locator": "Firn gas transport, bubble close-off, age distribution and gas composition measurement caveats.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "025000-e03",
+      "anchor": "the Younger Dryas, beginning around twelve thousand nine hundred years ago",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-paleo-ipcc",
+        "es-paleo-ngrip"
+      ],
+      "source_locator": "Broad paleoclimate evidence, regional versus global reconstruction, LGM and Common Era uncertainty.; 2004 North Greenland deep ice record; regional changes and disturbed deeper stratigraphy.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "025000-e04",
+      "anchor": "cave record in East Asia shifts around the same time",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-paleo-hulu"
+      ],
+      "source_locator": "U-Th dated stalagmite isotopes with relationship to Greenland climatic changes.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "025000-e05",
+      "anchor": "high-latitude climate and tropical or subtropical circulation",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-paleo-hulu",
+        "es-paleo-ipcc"
+      ],
+      "source_locator": "U-Th dated stalagmite isotopes with relationship to Greenland climatic changes.; Broad paleoclimate evidence, regional versus global reconstruction, LGM and Common Era uncertainty.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "025000-e06",
+      "anchor": "A sediment core stirred by bottom-dwelling animals",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-paleo-lr04",
+        "es-paleo-ipcc"
+      ],
+      "source_locator": "57 benthic records, 5.3 Myr, deep temperature plus ice volume and astronomical tuning.; Broad paleoclimate evidence, regional versus global reconstruction, LGM and Common Era uncertainty.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "025000-e07",
+      "anchor": "a dense collection of high-latitude trees",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-paleo-pages2k",
+        "es-paleo-ipcc"
+      ],
+      "source_locator": "Seven temperature-reconstruction methods on shared network of proxies; multidecadal warming.; Broad paleoclimate evidence, regional versus global reconstruction, LGM and Common Era uncertainty.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "025000-e08",
+      "anchor": "One influential synthesis, published by the PAGES 2k Consortium in 2019",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-paleo-pages2k"
+      ],
+      "source_locator": "Seven temperature-reconstruction methods on shared network of proxies; multidecadal warming.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "025000-e09",
+      "anchor": "Phrases such as 'Medieval Warm Period' or 'Little Ice Age'",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-paleo-ipcc"
+      ],
+      "source_locator": "Broad paleoclimate evidence, regional versus global reconstruction, LGM and Common Era uncertainty.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "025000-e10",
+      "anchor": "many neighboring northern sites may help local precision",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-paleo-ipcc",
+        "es-paleo-pages2k"
+      ],
+      "source_locator": "Broad paleoclimate evidence, regional versus global reconstruction, LGM and Common Era uncertainty.; Seven temperature-reconstruction methods on shared network of proxies; multidecadal warming.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "025000-e11",
+      "anchor": "Independent dating strengthens the argument",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-paleo-hulu",
+        "es-paleo-ngrip"
+      ],
+      "source_locator": "U-Th dated stalagmite isotopes with relationship to Greenland climatic changes.; 2004 North Greenland deep ice record; regional changes and disturbed deeper stratigraphy.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "025000-e12",
+      "anchor": "The major contours of Earth's climate past",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-paleo-ipcc"
+      ],
+      "source_locator": "Broad paleoclimate evidence, regional versus global reconstruction, LGM and Common Era uncertainty.",
+      "audit_status": "source_checked"
+    }
+  ],
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "No previous lecture is required. The narration introduces the physical mechanisms and the distinction between an archive measurement and a climate reconstruction."
+    ],
+    "readiness_checks": [
+      "Why might two accurate proxies disagree in sign or timing?",
+      "How does smoothing in an archive affect detection of abrupt events?",
+      "What would make a global reconstruction test independent?"
+    ]
+  },
+  "places": [
+    "Greenland",
+    "North Atlantic Ocean",
+    "East Asia"
+  ],
+  "chronology": {
+    "period": {
+      "start": 2019,
+      "label": "2019 PAGES 2k multi-method synthesis",
+      "basis": "documented research publication",
+      "note": "This year dates a named research study, not the paleoclimatic event or physical process being reconstructed.",
+      "source_ids": [
+        "es-paleo-pages2k"
+      ]
+    }
+  }
+}

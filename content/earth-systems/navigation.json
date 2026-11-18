@@ -8,7 +8,7 @@
       "categories": [
         "Science and nature"
       ],
-      "summary": "Nineteen connected lectures covering planetary energy and circulation, carbon and landscapes, ENSO, extreme weather, and the nitrogen, phosphorus and oxygen cycles linking living systems with water and rock.",
+      "summary": "Twenty-five connected lectures on Earth systems physics, living chemistry and the physical evidence behind reconstructions of past climate.",
       "chapters": [
         {
           "title": "Earth Has an Energy Budget: Light In, Heat Out",
@@ -122,6 +122,42 @@
           "title": "Where the River Meets the Microbes: Wetlands, Estuaries, and Dead Zones",
           "lectures": [
             "019000"
+          ]
+        },
+        {
+          "title": "Two Ages in One Piece of Ice: What an Ice Core Actually Records",
+          "lectures": [
+            "020000"
+          ]
+        },
+        {
+          "title": "The Calendar Inside a Tree: Rings, Weather, and Missing Years",
+          "lectures": [
+            "021000"
+          ]
+        },
+        {
+          "title": "The Ocean Floor Keeps a Ledger: Shells, Mud, and Lost Seasons",
+          "lectures": [
+            "022000"
+          ]
+        },
+        {
+          "title": "A Cave Grows Its Own Archive: Stalagmites and Ancient Rain",
+          "lectures": [
+            "023000"
+          ]
+        },
+        {
+          "title": "The Ages Between the Layers: Building a Clock for Climate History",
+          "lectures": [
+            "024000"
+          ]
+        },
+        {
+          "title": "When the Archives Disagree: Reconstructing a Changing Planet",
+          "lectures": [
+            "025000"
           ]
         }
       ]
@@ -378,6 +414,46 @@
         "004000",
         "018000",
         "019000"
+      ]
+    },
+    {
+      "id": "how-we-know-the-climate-past",
+      "title": "Earth as a System · How We Know the Climate Past",
+      "role": "deep_dive",
+      "parent": "earth-as-a-system",
+      "summary": "Read the physical archives and construct their chronologies before comparing regional and global climate histories.",
+      "tags": [
+        "Paleoclimatology",
+        "Climate proxies",
+        "Geochronology",
+        "Multi-proxy reconstruction"
+      ],
+      "lectures": [
+        "020000",
+        "021000",
+        "022000",
+        "023000",
+        "024000",
+        "025000"
+      ]
+    },
+    {
+      "id": "climate-clocks-and-reconstruction",
+      "title": "Earth as a System · Dating and Reconstructing",
+      "role": "deep_dive",
+      "parent": "earth-as-a-system",
+      "summary": "Crossdating, radiocarbon and uranium-series clocks, age-model assumptions and multi-proxy reconstruction.",
+      "tags": [
+        "Radiocarbon calibration",
+        "Geochronology",
+        "Uncertainty",
+        "Data assimilation"
+      ],
+      "lectures": [
+        "021000",
+        "023000",
+        "024000",
+        "025000"
       ]
     }
   ]

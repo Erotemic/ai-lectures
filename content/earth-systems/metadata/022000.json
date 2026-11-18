@@ -1,0 +1,271 @@
+{
+  "schema_version": 1,
+  "lecture_id": "022000",
+  "transcript": "022000-the-ocean-floor-keeps-a-ledger.md",
+  "description": "Develops marine and lake sediment archives, benthic and planktonic proxies, combined temperature–ice volume signals in oxygen isotopes, orbital age models, bioturbation, and annual lake varves.",
+  "tags": [
+    "Marine sediment core",
+    "Foraminifera",
+    "Benthic oxygen isotopes",
+    "Marine isotope stages",
+    "Ice volume",
+    "Deep ocean temperature",
+    "Magnesium-calcium thermometry",
+    "Alkenones",
+    "Orbital tuning",
+    "Bioturbation",
+    "Lake sediments",
+    "Varves",
+    "Pollen reconstruction"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Earth science",
+      "Paleoclimatology",
+      "Sediment archives",
+      "Foraminiferal oxygen isotopes"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Paleoclimatology",
+      "Sediment archives",
+      "Temperature and ice volume"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Paleoclimatology",
+      "Sediment archives",
+      "Marine sediment stacks"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Paleoclimatology",
+      "Sediment archives",
+      "Ocean paleothermometry"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Paleoclimatology",
+      "Sediment archives",
+      "Bioturbation"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Paleoclimatology",
+      "Sediment archives",
+      "Lake varves"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Paleoclimatology",
+      "Sediment archives",
+      "Pollen and diatom proxies"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Paleoclimatology",
+      "Sediment archives",
+      "Orbital age tuning"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Scientific methods",
+      "Paleoclimate records"
+    ],
+    [
+      "Place: Atlantic Ocean"
+    ],
+    [
+      "Place: Pacific Ocean"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "es-paleo-lr04",
+      "reason": "57 benthic records, 5.3 Myr, deep temperature plus ice volume and astronomical tuning."
+    },
+    {
+      "source_id": "es-paleo-lr04-data",
+      "reason": "Data product, isotopes and age conversion series, distinct from single-site or modern thermometer."
+    },
+    {
+      "source_id": "es-paleo-mgca",
+      "reason": "Species, cleaning and mineral contamination uncertainties in shell thermometry."
+    },
+    {
+      "source_id": "es-paleo-varve",
+      "reason": "Seasonal lake sediment processes, annual layering and preservation."
+    },
+    {
+      "source_id": "es-paleo-lakes",
+      "reason": "Lake levels, pollen, macroscopics and lake sediment proxies."
+    },
+    {
+      "source_id": "es-paleo-ipcc",
+      "reason": "Broad paleoclimate evidence, regional versus global reconstruction, LGM and Common Era uncertainty."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "022000-e01",
+      "anchor": "Foraminifera are single-celled eukaryotes",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-paleo-lr04"
+      ],
+      "source_locator": "57 benthic records, 5.3 Myr, deep temperature plus ice volume and astronomical tuning.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "022000-e02",
+      "anchor": "Temperature does influence the fractionation",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-paleo-lr04",
+        "es-paleo-mgca"
+      ],
+      "source_locator": "57 benthic records, 5.3 Myr, deep temperature plus ice volume and astronomical tuning.; Species, cleaning and mineral contamination uncertainties in shell thermometry.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "022000-e03",
+      "anchor": "ice sheets preferentially store water enriched in the lighter oxygen isotope",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-paleo-lr04",
+        "es-paleo-ipcc"
+      ],
+      "source_locator": "57 benthic records, 5.3 Myr, deep temperature plus ice volume and astronomical tuning.; Broad paleoclimate evidence, regional versus global reconstruction, LGM and Common Era uncertainty.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "022000-e04",
+      "anchor": "the magnesium-to-calcium ratio in foraminiferal carbonate",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-paleo-mgca"
+      ],
+      "source_locator": "Species, cleaning and mineral contamination uncertainties in shell thermometry.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "022000-e05",
+      "anchor": "A 2025 study of benthic foraminifera",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-paleo-mgca"
+      ],
+      "source_locator": "Species, cleaning and mineral contamination uncertainties in shell thermometry.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "022000-e06",
+      "anchor": "In older deposits beyond the practical radiocarbon range",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-paleo-lr04",
+        "es-paleo-intcal"
+      ],
+      "source_locator": "57 benthic records, 5.3 Myr, deep temperature plus ice volume and astronomical tuning.; 0-55 ka calibrated ages, dendrodated tree rings and independent older sources.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "022000-e07",
+      "anchor": "Astronomical tuning needs a careful explanation",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-paleo-lr04"
+      ],
+      "source_locator": "57 benthic records, 5.3 Myr, deep temperature plus ice volume and astronomical tuning.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "022000-e08",
+      "anchor": "In 2005 Lorraine Lisiecki and Maureen Raymo assembled a stack",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-paleo-lr04",
+        "es-paleo-lr04-data"
+      ],
+      "source_locator": "57 benthic records, 5.3 Myr, deep temperature plus ice volume and astronomical tuning.; Data product, isotopes and age conversion series, distinct from single-site or modern thermometer.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "022000-e09",
+      "anchor": "This biological mixing, called bioturbation",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-paleo-ipcc",
+        "es-paleo-lr04"
+      ],
+      "source_locator": "Broad paleoclimate evidence, regional versus global reconstruction, LGM and Common Era uncertainty.; 57 benthic records, 5.3 Myr, deep temperature plus ice volume and astronomical tuning.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "022000-e10",
+      "anchor": "In some lakes, the seasons produce contrasting layers",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-paleo-varve"
+      ],
+      "source_locator": "Seasonal lake sediment processes, annual layering and preservation.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "022000-e11",
+      "anchor": "Lake cores often capture a watershed's much more local history",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-paleo-lakes"
+      ],
+      "source_locator": "Lake levels, pollen, macroscopics and lake sediment proxies.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "022000-e12",
+      "anchor": "A thin layer may indicate low deposition",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-paleo-varve"
+      ],
+      "source_locator": "Seasonal lake sediment processes, annual layering and preservation.",
+      "audit_status": "source_checked"
+    }
+  ],
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "No previous lecture is required. The narration introduces the physical mechanisms and the distinction between an archive measurement and a climate reconstruction."
+    ],
+    "readiness_checks": [
+      "What two major variables influence benthic δ18O?",
+      "Why can orbital tuning induce dependence in a result?",
+      "How do lake varves differ from mixed marine sediments?"
+    ]
+  },
+  "places": [
+    "Atlantic Ocean",
+    "Pacific Ocean"
+  ],
+  "chronology": {
+    "period": {
+      "start": 2005,
+      "label": "2005 Lisiecki–Raymo benthic isotope synthesis",
+      "basis": "documented research publication",
+      "note": "This year dates a named research study, not the paleoclimatic event or physical process being reconstructed.",
+      "source_ids": [
+        "es-paleo-lr04"
+      ]
+    }
+  }
+}

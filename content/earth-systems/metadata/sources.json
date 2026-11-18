@@ -861,6 +861,146 @@
       "kind": "scholarly_review",
       "access": "free_no_login",
       "notes": "Redox acceptor sequence, wetland groundwater, nitrate/iron/sulfate dynamics and methane; sequence is generalized."
+    },
+    "es-paleo-ipcc": {
+      "title": "IPCC AR6 Working Group I, Chapter 2, Changing State of the Climate System (2021)",
+      "url": "https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-2/",
+      "kind": "scientific_assessment",
+      "access": "free_no_login",
+      "notes": "Broad paleoclimate evidence, regional versus global reconstruction, LGM and Common Era uncertainty."
+    },
+    "es-paleo-nsidc": {
+      "title": "National Snow and Ice Data Center, Science of Glaciers",
+      "url": "https://nsidc.org/learn/parts-cryosphere/glaciers/science-glaciers",
+      "kind": "government_science_reference",
+      "access": "free_no_login",
+      "notes": "Ice-core formation, stratigraphy and distribution of climate archives."
+    },
+    "es-paleo-epica": {
+      "title": "EPICA community members (2004), Eight glacial cycles from an Antarctic ice core",
+      "url": "https://doi.org/10.1038/nature02599",
+      "kind": "peer_reviewed_primary",
+      "access": "free_no_login",
+      "notes": "2004 Dome C record covering 740,000 years, measured isotopes and climate cycles."
+    },
+    "es-paleo-ngrip": {
+      "title": "North Greenland Ice Core Project members (2004), High-resolution record of Northern Hemisphere climate extending into the last interglacial period",
+      "url": "https://doi.org/10.1038/nature02805",
+      "kind": "peer_reviewed_primary",
+      "access": "free_no_login",
+      "notes": "2004 North Greenland deep ice record; regional changes and disturbed deeper stratigraphy."
+    },
+    "es-paleo-gas": {
+      "title": "Bender, Sowers and Brook (1997), Gases in ice cores",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC33751/",
+      "kind": "peer_reviewed_review",
+      "access": "free_no_login",
+      "notes": "Firn gas transport, bubble close-off, age distribution and gas composition measurement caveats."
+    },
+    "es-paleo-delta-age": {
+      "title": "Loulergue et al. (2007), New constraints on the gas age-ice age difference along the EPICA ice cores",
+      "url": "https://doi.org/10.5194/cp-3-527-2007",
+      "kind": "peer_reviewed_primary",
+      "access": "free_no_login",
+      "notes": "Difference between gas and ice age, methane and volcanic synchronization and model limitations."
+    },
+    "es-paleo-ncei-tree": {
+      "title": "NOAA NCEI, International Tree-Ring Data Bank",
+      "url": "https://www.ncei.noaa.gov/products/paleoclimatology/tree-ring",
+      "kind": "observing_data_archive",
+      "access": "free_no_login",
+      "notes": "Tree ring widths, density, isotope measurements and public site coverage."
+    },
+    "es-paleo-usgs-tree": {
+      "title": "US Geological Survey, The Value of Tree Rings",
+      "url": "https://www.usgs.gov/programs/climate-research-and-development-program/news/value-tree-rings-a-natural-history-a",
+      "kind": "government_science_explainer",
+      "access": "free_no_login",
+      "notes": "Crossdating and multiple influences on tree growth; example whitebark pine."
+    },
+    "es-paleo-usgs-cross": {
+      "title": "Brice et al., Preserving Tree-Ring Datasets for Climate and Hazard Research (2024), USGS data release",
+      "url": "https://www.usgs.gov/data/preserving-tree-ring-datasets-climate-and-hazard-research-and-understanding-societal-impacts",
+      "kind": "government_data_release",
+      "access": "free_no_login",
+      "notes": "Crossdating workflow and need for statistical checking."
+    },
+    "es-paleo-intcal": {
+      "title": "Reimer et al. (2020), The IntCal20 Northern Hemisphere Radiocarbon Age Calibration Curve",
+      "url": "https://doi.org/10.1017/RDC.2020.41",
+      "kind": "peer_reviewed_primary",
+      "access": "free_no_login",
+      "notes": "0-55 ka calibrated ages, dendrodated tree rings and independent older sources."
+    },
+    "es-paleo-intcal-method": {
+      "title": "Heaton et al. (2020), The IntCal20 Approach to Radiocarbon Calibration Curve Construction",
+      "url": "https://doi.org/10.1017/RDC.2020.46",
+      "kind": "peer_reviewed_methods",
+      "access": "free_no_login",
+      "notes": "Bayesian spline methodology, sample provenance, uncertainties and 1950 BP convention."
+    },
+    "es-paleo-pages2k": {
+      "title": "PAGES 2k Consortium (2019), Consistent multidecadal variability in global temperature reconstructions and simulations",
+      "url": "https://doi.org/10.1038/s41561-019-0400-0",
+      "kind": "peer_reviewed_synthesis",
+      "access": "free_no_login",
+      "notes": "Seven temperature-reconstruction methods on shared network of proxies; multidecadal warming."
+    },
+    "es-paleo-lr04": {
+      "title": "Lisiecki and Raymo (2005), A Pliocene-Pleistocene stack of 57 globally distributed benthic oxygen-isotope records",
+      "url": "https://doi.org/10.1029/2004PA001071",
+      "kind": "peer_reviewed_primary",
+      "access": "free_no_login",
+      "notes": "57 benthic records, 5.3 Myr, deep temperature plus ice volume and astronomical tuning."
+    },
+    "es-paleo-lr04-data": {
+      "title": "NOAA NCEI, Lisiecki and Raymo 2005 Global Benthic Oxygen-Isotope Stack",
+      "url": "https://www.ncei.noaa.gov/access/paleo-search/study/5847",
+      "kind": "observing_data_archive",
+      "access": "free_no_login",
+      "notes": "Data product, isotopes and age conversion series, distinct from single-site or modern thermometer."
+    },
+    "es-paleo-mgca": {
+      "title": "Larsson and Jung (2025), Persistent contamination in benthic-foraminifera-based Mg/Ca thermometry",
+      "url": "https://doi.org/10.5194/cp-21-1871-2025",
+      "kind": "peer_reviewed_methods",
+      "access": "free_no_login",
+      "notes": "Species, cleaning and mineral contamination uncertainties in shell thermometry."
+    },
+    "es-paleo-varve": {
+      "title": "Anderson and Dean (1988), Lacustrine varve formation through time",
+      "url": "https://doi.org/10.1016/0031-0182(88)90055-7",
+      "kind": "peer_reviewed_review",
+      "access": "free_no_login",
+      "notes": "Seasonal lake sediment processes, annual layering and preservation."
+    },
+    "es-paleo-lakes": {
+      "title": "NOAA NCEI, Lake paleoclimatology archive",
+      "url": "https://www.ncei.noaa.gov/products/paleoclimatology/lake",
+      "kind": "observing_data_archive",
+      "access": "free_no_login",
+      "notes": "Lake levels, pollen, macroscopics and lake sediment proxies."
+    },
+    "es-paleo-hulu": {
+      "title": "Wang et al. (2001), A high-resolution absolute-dated late Pleistocene monsoon record from Hulu Cave, China",
+      "url": "https://doi.org/10.1126/science.1064618",
+      "kind": "peer_reviewed_primary",
+      "access": "free_no_login",
+      "notes": "U-Th dated stalagmite isotopes with relationship to Greenland climatic changes."
+    },
+    "es-paleo-hulu-data": {
+      "title": "NOAA NCEI, Wang et al. 2001 Hulu Cave Stalagmite Oxygen Isotope Data",
+      "url": "https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=noaa-cave-5426",
+      "kind": "observing_data_archive",
+      "access": "free_no_login",
+      "notes": "Hulu Cave location and archive interval from approximately 75 to 11 kyr BP."
+    },
+    "es-paleo-caves": {
+      "title": "NOAA NCEI, Speleothem paleoclimatology archive",
+      "url": "https://www.ncei.noaa.gov/products/paleoclimatology/speleothem",
+      "kind": "observing_data_archive",
+      "access": "free_no_login",
+      "notes": "Stalagmite and other cave deposits, isotopes and dating possibilities."
     }
   }
 }

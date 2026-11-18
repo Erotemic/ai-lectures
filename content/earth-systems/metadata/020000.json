@@ -1,0 +1,264 @@
+{
+  "schema_version": 1,
+  "lecture_id": "020000",
+  "transcript": "020000-two-ages-in-one-piece-of-ice.md",
+  "description": "Explains how snow becomes firn and glacier ice, why air bubbles have a younger chronology than surrounding ice, and how water isotopes, greenhouse gases, volcanic layers and accumulation models constrain different past-climate questions.",
+  "tags": [
+    "Ice core stratigraphy",
+    "Firn densification",
+    "Bubble close-off",
+    "Gas age-ice age difference",
+    "Water isotope fractionation",
+    "Ice age model",
+    "Glacial-interglacial cycle",
+    "Paleoclimate atmospheric gases",
+    "Dust transport",
+    "Volcanic sulfate layers",
+    "Age-depth uncertainty",
+    "Interhemispheric comparison"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Earth science",
+      "Paleoclimatology",
+      "Ice cores",
+      "Gas age versus ice age"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Paleoclimatology",
+      "Ice cores",
+      "Stable water isotopes"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Paleoclimatology",
+      "Ice cores",
+      "Atmospheric gas inclusions"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Paleoclimatology",
+      "Ice cores",
+      "Firn physics"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Paleoclimatology",
+      "Ice cores",
+      "Ice-core chronology"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Paleoclimatology",
+      "Ice cores",
+      "Glacial climate cycles"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Paleoclimatology",
+      "Ice cores",
+      "Volcanic marker horizons"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Scientific methods",
+      "Paleoclimate records"
+    ],
+    [
+      "Place: Antarctica",
+      "Place: Dome C"
+    ],
+    [
+      "Place: Arctic",
+      "Place: Greenland"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "es-paleo-epica",
+      "reason": "2004 Dome C record covering 740,000 years, measured isotopes and climate cycles."
+    },
+    {
+      "source_id": "es-paleo-ngrip",
+      "reason": "2004 North Greenland deep ice record; regional changes and disturbed deeper stratigraphy."
+    },
+    {
+      "source_id": "es-paleo-gas",
+      "reason": "Firn gas transport, bubble close-off, age distribution and gas composition measurement caveats."
+    },
+    {
+      "source_id": "es-paleo-delta-age",
+      "reason": "Difference between gas and ice age, methane and volcanic synchronization and model limitations."
+    },
+    {
+      "source_id": "es-paleo-nsidc",
+      "reason": "Ice-core formation, stratigraphy and distribution of climate archives."
+    },
+    {
+      "source_id": "es-paleo-ipcc",
+      "reason": "Broad paleoclimate evidence, regional versus global reconstruction, LGM and Common Era uncertainty."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "020000-e01",
+      "anchor": "Snow that survives a summer is buried by new snow",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-paleo-nsidc",
+        "es-paleo-gas"
+      ],
+      "source_locator": "Ice-core formation, stratigraphy and distribution of climate archives.; Firn gas transport, bubble close-off, age distribution and gas composition measurement caveats.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "020000-e02",
+      "anchor": "those spaces shrink and finally close",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-paleo-gas"
+      ],
+      "source_locator": "Firn gas transport, bubble close-off, age distribution and gas composition measurement caveats.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "020000-e03",
+      "anchor": "The ice also deforms under its own weight",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-paleo-ngrip"
+      ],
+      "source_locator": "2004 North Greenland deep ice record; regional changes and disturbed deeper stratigraphy.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "020000-e04",
+      "anchor": "different stable isotopes of hydrogen and oxygen",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-paleo-epica",
+        "es-paleo-ngrip"
+      ],
+      "source_locator": "2004 Dome C record covering 740,000 years, measured isotopes and climate cycles.; 2004 North Greenland deep ice record; regional changes and disturbed deeper stratigraphy.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "020000-e05",
+      "anchor": "Where the moisture evaporated, how far it traveled",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-paleo-ngrip",
+        "es-paleo-ipcc"
+      ],
+      "source_locator": "2004 North Greenland deep ice record; regional changes and disturbed deeper stratigraphy.; Broad paleoclimate evidence, regional versus global reconstruction, LGM and Common Era uncertainty.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "020000-e06",
+      "anchor": "Winds transport mineral particles",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-paleo-epica"
+      ],
+      "source_locator": "2004 Dome C record covering 740,000 years, measured isotopes and climate cycles.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "020000-e07",
+      "anchor": "The EPICA collaboration's Antarctic Dome C core",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-paleo-epica"
+      ],
+      "source_locator": "2004 Dome C record covering 740,000 years, measured isotopes and climate cycles.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "020000-e08",
+      "anchor": "The enclosed air is therefore generally younger",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-paleo-gas",
+        "es-paleo-delta-age"
+      ],
+      "source_locator": "Firn gas transport, bubble close-off, age distribution and gas composition measurement caveats.; Difference between gas and ice age, methane and volcanic synchronization and model limitations.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "020000-e09",
+      "anchor": "the gas-age–ice-age difference",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-paleo-delta-age"
+      ],
+      "source_locator": "Difference between gas and ice age, methane and volcanic synchronization and model limitations.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "020000-e10",
+      "anchor": "Gas measurement presents subtler corrections",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-paleo-gas"
+      ],
+      "source_locator": "Firn gas transport, bubble close-off, age distribution and gas composition measurement caveats.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "020000-e11",
+      "anchor": "North Greenland ice cores have revealed rapid changes",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-paleo-ngrip"
+      ],
+      "source_locator": "2004 North Greenland deep ice record; regional changes and disturbed deeper stratigraphy.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "020000-e12",
+      "anchor": "At the bottom of an ice sheet, deformation may fold layers",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-paleo-ngrip"
+      ],
+      "source_locator": "2004 North Greenland deep ice record; regional changes and disturbed deeper stratigraphy.",
+      "audit_status": "source_checked"
+    }
+  ],
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "No previous lecture is required. The narration introduces the physical mechanisms and the distinction between an archive measurement and a climate reconstruction."
+    ],
+    "readiness_checks": [
+      "Why can a gas sample be younger than its surrounding ice?",
+      "What are the distinct interpretations of ice isotopes versus gas bubbles?",
+      "How would a mistaken gas-age offset alter a lead–lag claim?"
+    ]
+  },
+  "places": [
+    "Dome C, Antarctica",
+    "Greenland"
+  ],
+  "chronology": {
+    "period": {
+      "start": 2004,
+      "label": "2004 EPICA and NGRIP published ice-core case studies",
+      "basis": "documented research publication",
+      "note": "This year dates a named research study, not the paleoclimatic event or physical process being reconstructed.",
+      "source_ids": [
+        "es-paleo-epica"
+      ]
+    }
+  }
+}

@@ -1,0 +1,250 @@
+{
+  "schema_version": 1,
+  "lecture_id": "024000",
+  "transcript": "024000-the-ages-between-the-layers.md",
+  "description": "Compares counted annual layers, volcanic tie points, radiocarbon calibration, uranium-series dating, reservoir effects, age-depth modeling, orbital tuning, and uncertainty in event leads and lags.",
+  "tags": [
+    "Paleoclimate chronology",
+    "Crossdating",
+    "Varve counting",
+    "Ice layer counting",
+    "Tephrochronology",
+    "Radiometric dating",
+    "Radiocarbon calibration",
+    "Marine reservoir effect",
+    "Age-depth models",
+    "Chronology ensembles",
+    "Orbital tuning",
+    "Lead-lag uncertainty",
+    "Before present 1950 convention"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Earth science",
+      "Paleoclimatology",
+      "Dating methods",
+      "Annual-layer counting"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Paleoclimatology",
+      "Dating methods",
+      "Uranium-series methods"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Paleoclimatology",
+      "Dating methods",
+      "Radiocarbon calibration"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Paleoclimatology",
+      "Dating methods",
+      "Reservoir offsets"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Paleoclimatology",
+      "Dating methods",
+      "Tephrochronology"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Paleoclimatology",
+      "Dating methods",
+      "Age-depth models"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Paleoclimatology",
+      "Dating methods",
+      "Chronology uncertainty"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Paleoclimatology",
+      "Dating methods",
+      "Orbital tuning"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Scientific methods",
+      "Paleoclimate records"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "es-paleo-intcal",
+      "reason": "0-55 ka calibrated ages, dendrodated tree rings and independent older sources."
+    },
+    {
+      "source_id": "es-paleo-intcal-method",
+      "reason": "Bayesian spline methodology, sample provenance, uncertainties and 1950 BP convention."
+    },
+    {
+      "source_id": "es-paleo-varve",
+      "reason": "Seasonal lake sediment processes, annual layering and preservation."
+    },
+    {
+      "source_id": "es-paleo-hulu",
+      "reason": "U-Th dated stalagmite isotopes with relationship to Greenland climatic changes."
+    },
+    {
+      "source_id": "es-paleo-lr04",
+      "reason": "57 benthic records, 5.3 Myr, deep temperature plus ice volume and astronomical tuning."
+    },
+    {
+      "source_id": "es-paleo-delta-age",
+      "reason": "Difference between gas and ice age, methane and volcanic synchronization and model limitations."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "024000-e01",
+      "anchor": "counting requires proof that the repeat is annual",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-paleo-varve",
+        "es-paleo-usgs-cross"
+      ],
+      "source_locator": "Seasonal lake sediment processes, annual layering and preservation.; Crossdating workflow and need for statistical checking.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "024000-e02",
+      "anchor": "A widespread volcanic eruption can leave identifiable fallout",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-paleo-delta-age"
+      ],
+      "source_locator": "Difference between gas and ice age, methane and volcanic synchronization and model limitations.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "024000-e03",
+      "anchor": "the ratio of parent and daughter isotopes can inform the elapsed time",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-paleo-hulu"
+      ],
+      "source_locator": "U-Th dated stalagmite isotopes with relationship to Greenland climatic changes.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "024000-e04",
+      "anchor": "the concentration of carbon fourteen in atmospheric carbon dioxide has not been fixed",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-paleo-intcal"
+      ],
+      "source_locator": "0-55 ka calibrated ages, dendrodated tree rings and independent older sources.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "024000-e05",
+      "anchor": "The IntCal20 curve, published in 2020 by Paula Reimer",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-paleo-intcal"
+      ],
+      "source_locator": "0-55 ka calibrated ages, dendrodated tree rings and independent older sources.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "024000-e06",
+      "anchor": "Marine organisms incorporate that carbon",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-paleo-intcal-method"
+      ],
+      "source_locator": "Bayesian spline methodology, sample provenance, uncertainties and 1950 BP convention.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "024000-e07",
+      "anchor": "The model must assume something about accumulation or growth",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-paleo-intcal-method",
+        "es-paleo-ipcc"
+      ],
+      "source_locator": "Bayesian spline methodology, sample provenance, uncertainties and 1950 BP convention.; Broad paleoclimate evidence, regional versus global reconstruction, LGM and Common Era uncertainty.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "024000-e08",
+      "anchor": "This is the difference between alignment and independence",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-paleo-lr04",
+        "es-paleo-delta-age"
+      ],
+      "source_locator": "57 benthic records, 5.3 Myr, deep temperature plus ice volume and astronomical tuning.; Difference between gas and ice age, methane and volcanic synchronization and model limitations.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "024000-e09",
+      "anchor": "A special form of alignment uses astronomical cycles",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-paleo-lr04"
+      ],
+      "source_locator": "57 benthic records, 5.3 Myr, deep temperature plus ice volume and astronomical tuning.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "024000-e10",
+      "anchor": "A laboratory measurement might report an uncertainty in an isotope ratio",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-paleo-intcal-method"
+      ],
+      "source_locator": "Bayesian spline methodology, sample provenance, uncertainties and 1950 BP convention.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "024000-e11",
+      "anchor": "In radiocarbon dating, conventional 'present' is fixed at 1950 CE",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-paleo-intcal-method"
+      ],
+      "source_locator": "Bayesian spline methodology, sample provenance, uncertainties and 1950 BP convention.",
+      "audit_status": "source_checked"
+    }
+  ],
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "No previous lecture is required. The narration introduces the physical mechanisms and the distinction between an archive measurement and a climate reconstruction."
+    ],
+    "readiness_checks": [
+      "What distinguishes conventional radiocarbon age from calendar age?",
+      "Why does an age-depth model add uncertainty between dated horizons?",
+      "When is a tuned record an invalid independent confirmation of its tuning target?"
+    ]
+  },
+  "places": [],
+  "chronology": {
+    "period": {
+      "start": 2020,
+      "label": "2020 IntCal20 radiocarbon curve and calibration methodology",
+      "basis": "documented research publication",
+      "note": "This year dates a named research study, not the paleoclimatic event or physical process being reconstructed.",
+      "source_ids": [
+        "es-paleo-intcal-method"
+      ]
+    }
+  }
+}

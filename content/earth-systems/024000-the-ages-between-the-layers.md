@@ -1,0 +1,71 @@
+# The Ages Between the Layers: Building a Clock for Climate History
+
+<!-- BEGIN SPOKEN LECTURE -->
+
+Suppose an ice core contains a layer of volcanic sulfate. A lake core contains a dark band of ash. A cave stalagmite has an abrupt change in oxygen isotopes. Each is a physical observation. But to tell a history rather than describe three disconnected objects, we need to know when each event happened. The question is not only how old a specimen is. It is how confidently two specimens can be said to represent the same moment, or a particular order of moments. Chronology is one of the principal measurements of paleoclimate, and its errors can change an interpretation of cause and effect.
+
+There are several kinds of clocks. One counts repeated layers. One uses radioactive decay. Another identifies a marker that many places received at approximately the same time. A fourth matches patterns to a physical history, such as known changes in Earth's orbit. These clocks do not all measure the same thing or share the same uncertainties. The craft is to learn what each can establish, then combine their constraints without hiding where assumptions enter.
+
+Start with a counting clock. In a tree that forms one ring per year and can be crossdated against a reliable sequence, the year of a ring can be known exactly. In favorable ice cores, seasonal variations in chemistry or dust can be counted. In certain lakes, annual sediment couplets can be counted as varves. But counting requires proof that the repeat is annual. A storm can deposit several layers in a single year. An exceptionally mild season might leave little visible change. Wind can disturb snow, and microbes can disturb sediment. Even if most layers are annual, a few undetected missing layers can accumulate into a substantial error over many millennia.
+
+Researchers often use independent reference horizons to check cumulative counts. A widespread volcanic eruption can leave identifiable fallout in ice, sediment, and sometimes tree rings. If the layer can be geochemically linked to the eruption, it acts as a tie point between records. The strongest tie points have a distinctive chemical fingerprint and an independently constrained eruption date. A dark ash band alone is not proof of identity: different eruptions can produce similar-looking material, and local reworking can deposit older ash after the eruption itself. Even a good tie point has to distinguish the actual fallout date from the date an altered or transported layer reached the sample site.
+
+A radiometric clock operates on a different principle. Some unstable atoms decay at a statistically well-characterized rate. In a sample where the initial conditions and subsequent exchange can be constrained, the ratio of parent and daughter isotopes can inform the elapsed time. This is why uranium–thorium dates in certain cave carbonates can be valuable. The method does not depend on counting every drip-water season back into the past. But it depends on assumptions about whether the mineral incorporated initial daughter isotopes and whether the isotopic system stayed sufficiently closed. Different chemical systems work over different age ranges and material types.
+
+Radiocarbon is useful in many contexts involving formerly living material, but its clock is easy to misread. Living plants take up carbon that exchanges with the atmosphere. After exchange stops, the carbon fourteen in the material decays. Yet the concentration of carbon fourteen in atmospheric carbon dioxide has not been fixed through time. Cosmic-ray production, geomagnetic conditions, and movement of carbon among reservoirs change it. A radiocarbon measurement is therefore a determination of isotope abundance that yields a conventional radiocarbon age; it is not immediately a calendar date. To obtain calendar-age probabilities, the measurement must be calibrated against independently dated materials.
+
+We have already encountered the calendar inside a tree. Dated rings provide especially useful calibration information because their wood formed in identifiable calendar years. The IntCal20 curve, published in 2020 by Paula Reimer and a large international team, integrates precisely dated tree rings with other independently constrained records, extending the calibration framework back to roughly fifty-five thousand calendar years before present. Beyond the long directly dendrodated section, other archives become essential and the calibration uncertainty generally grows. A calendar-age distribution can have several separated regions of higher probability where the radiocarbon curve wiggles or plateaus. A single 'best date' can conceal that structure.
+
+There is another complication if the carbon originated in the sea. Ocean surface water may contain carbon that last exchanged with the atmosphere some time ago. Marine organisms incorporate that carbon, so a newly formed shell can have an apparent radiocarbon age older than a terrestrial organism that died in the same calendar year. This reservoir offset varies geographically and through time with circulation and upwelling. Carbonate from a cave may contain dissolved carbon from old rock, and freshwater environments can have their own reservoir effects. Applying a generic atmospheric calibration curve to every sample without asking where its carbon came from invites systematic errors.
+
+Chronological reconstruction is therefore not only laboratory dating. A sediment core may have one reliable age near the top and another far below, while dozens of proxy measurements lie between them. To assign ages to those intermediate measurements, the researcher needs an age-depth model. The model must assume something about accumulation or growth. Perhaps sediment accumulated steadily. Perhaps its rate varied sharply after a flood or change in current. A careful model allows plausible variation and reports a distribution of ages rather than a line that implies certainty at every depth. Multiple dated horizons reduce the freedom, but cannot guarantee that no unrecognized hiatus or erosion occurred between them.
+
+Picture two dates a meter apart in a hypothetical core. The upper layer is dated to approximately five thousand calendar years ago and the lower to approximately eight thousand. If the sediment rate were constant, a sample halfway down might be assigned to about six and a half thousand years ago. But suppose most of the material settled during a short interval of rapid erosion near the beginning of that span. Then the halfway sample could be much closer in time to the older dated point. The laboratory dates might both be correct while the linearly interpolated midpoint is wrong. An honest chronology carries that model uncertainty into any claims about the timing of climate events.
+
+Now consider matching two archives. One contains a cooling transition with a central age estimate of twelve thousand years before present and a wide uncertainty interval. The other contains a rainfall shift centered one hundred years earlier with uncertainty of several centuries. It would be misleading to announce that the rainfall changed exactly a century before the cooling. Those uncertainties may allow the reverse order or a simultaneous response. A physical model may favor a particular sequence, but the data alone may not distinguish it. Sometimes the most scientifically important result is that the events occurred close enough in time to suggest a possible connection, while the direction of causality remains unresolved.
+
+This is the difference between alignment and independence. Scientists may use a common volcanic marker to align ice cores from opposite hemispheres. That marker can synchronize their time axes strongly, but any error in its assigned absolute date is then shared. When two curves are matched by their distinctive peaks and troughs, agreement in the locations of those features is partly a consequence of the matching process. Such matching can be entirely legitimate for building an integrated chronology. It simply cannot then be reused as an independent demonstration that those same features occurred simultaneously. Independent clocks, such as radioisotope dates in a cave compared with layer counts in ice, can provide a stronger test of synchrony.
+
+A special form of alignment uses astronomical cycles. Earth's orbital eccentricity, the tilt of its spin axis, and the precession of that axis affect the geographical and seasonal pattern of solar energy. For several million years of climate history, these changes are calculable with great precision. A researcher may associate recurring patterns in a sediment record with the astronomical cycles and adjust the chronology accordingly. The approach helped reveal glacial rhythms across the Pleistocene, but it introduces a connection between the age model and a physical hypothesis about climate response. The stronger question is which independent dating constraints support the resulting alignment, and whether alternative assumptions materially change the inferred lead and lag.
+
+What does a chronology's uncertainty look like? A laboratory measurement might report an uncertainty in an isotope ratio. A radiometric date might include uncertainty from standards, contamination, and the decay model. An age-depth model adds uncertainty between dated levels. Cross-core synchronization introduces shared and unshared errors. Climate-proxy calibration adds an entirely different class of uncertainty: the age of an event could be known perfectly while its meaning as a temperature or rainfall change remains contested. A single shaded band on a graph may represent only some of these contributions. Before comparing results, ask which uncertainty the authors actually quantified.
+
+There is a practical reason to preserve ensembles of possible age models. Imagine a thousand chronologies that each fit the available dating evidence. For each one, calculate the apparent interval between a volcanic event and a climate response. The spread of intervals then reveals whether the inferred timing is robust to age uncertainty. If the result changes sign across plausible chronologies, an apparent lead is not securely established. If it remains in the same direction across independent archives and reasonable alternative models, confidence improves. The exercise cannot repair biased dating inputs, but it avoids pretending that one optimized timeline is the only possible history.
+
+A final convention often confuses readers: 'before present' does not always mean before the day we are speaking. In radiocarbon dating, conventional 'present' is fixed at 1950 CE. Geological age notation, calendar years before present, radiocarbon years before present, and dates in the Common Era need careful distinction. Two charts may share the letters B.P. while representing different kinds of age estimates. A chronological plot is not fully specified by putting the word 'years' on its horizontal axis.
+
+The result of good dating is not a magical master clock that makes every archive agree. It is a set of explicit constraints that lets us ask a more meaningful question: given the measurements and models, what sequences of events remain possible? The geochemist works to date the cave calcite. The dendrochronologist matches trees. The ice-core researcher counts layers and studies firn. The marine geologist correlates sediment and dating horizons. Their timescales can be compared because the assumptions are visible. The history that emerges gains credibility from those different clocks, especially where they agree without being forced to agree.
+
+<!-- END SPOKEN LECTURE -->
+
+## Scientific companion: a hierarchy of chronology evidence
+
+### What is dated, and by which assumptions?
+
+- **Tree-ring crossdating:** can give exact calendar-year assignments in suitable annual-ring networks with confirmed overlaps.
+- **Varve and ice-layer counting:** potentially annual but vulnerable to missing, extra or disturbed layers.
+- **U-series age:** dates formation of suitable carbonate; detrital correction and closed-system behavior matter.
+- **Radiocarbon measurement:** estimates 14C content and conventional radiocarbon age; calendar calibration and reservoir models are separate steps.
+- **Volcanic tephra:** offers a marker only after chemical fingerprinting and attention to redeposition.
+- **Magnetostratigraphy and orbital tuning:** broad correlational or astronomical constraints; the age model's physical assumptions must be explicit.
+
+### Uncertainty at more than one level
+
+Write a simple age-depth model as `age = f(depth, dated horizons, accumulation assumptions)`. Its uncertainty is not just the laboratory error of the dated horizons. Similarly, a lead–lag inference depends on both records' age models and their covariance; shared tie points can create shared errors. The independent value of a chronology depends on which information was used to construct it.
+
+### Sources and further reading
+
+- Reimer et al. (2020), *The IntCal20 Northern Hemisphere Radiocarbon Age Calibration Curve (0–55 cal kBP)*. https://doi.org/10.1017/RDC.2020.41
+- IntCal20 collaboration (2020), *The IntCal20 Approach to Radiocarbon Calibration Curve Construction*. https://doi.org/10.1017/RDC.2020.46
+- Lisiecki & Raymo (2005), *A Pliocene-Pleistocene stack of 57 globally distributed benthic δ18O records*. https://doi.org/10.1029/2004PA001071
+- Anderson & Dean (1988), *Lacustrine varve formation through time*. https://doi.org/10.1016/0031-0182(88)90055-7
+- Wang et al. (2001), *A high-resolution absolute-dated late Pleistocene monsoon record from Hulu Cave, China*. https://doi.org/10.1126/science.1064618
+- IPCC AR6 WGI, Chapter 2. https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-2/
+
+### Questions
+
+1. How can a volcanic layer help with synchronization without providing a precisely known absolute date?
+2. Why is a radiocarbon age not automatically a calendar age?
+3. How can two correct laboratory dates still yield a wrong age for the material between them?
+4. Why is an independently dated cave record especially valuable when compared with an ice-core climate transition?
+5. What kinds of uncertainty must be combined before announcing that one event led another?

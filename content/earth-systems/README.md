@@ -43,3 +43,7 @@ The `earth-as-a-system` route includes all nineteen lectures. The shorter `earth
 ## Further development
 
 The ENSO, extreme-weather, and living-chemistry units are self-contained. See `BACKLOG.md` for future options, especially the evidence and uncertainties in paleoclimate reconstruction. Extending the course is optional, not an automatic requirement.
+
+## How We Know the Climate Past (020000–025000)
+
+A six-chapter methodological sequence: ice cores and air ages; crossdated tree rings and radiocarbon calibration; marine and lake sediments; cave calcite and U-series dates; combining chronological constraints; and a multi-proxy synthesis using deglaciation, the Younger Dryas and PAGES 2k. Each chapter is a complete standalone spoken manuscript with claim-linked evidence and hierarchical topic, method, place and historical-study tags.
