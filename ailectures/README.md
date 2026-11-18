@@ -57,6 +57,16 @@ Stats (`/stats`) summarizes the live catalog: unique lectures, collections,
 packs, transcript words, estimated listening time, complete and partial audio,
 and current companion files. Subject, audience, collection, and pack tables
 show coverage; collection search links directly to the listening routes.
+The primary coverage explorer starts with broad geographic branches and supports
+topics, authors, and each date meaning. Parent totals include descendants and
+count each lecture once. Expand branches to compare narrower tags and see the
+largest contributing sections, their lecture shares, and estimated listening.
+Sections count each authored section within a pack once, with unsectioned
+lectures counted separately; they are editorial units, not distinct works.
+Order can compare names, section counts, lecture counts, or listening time.
+Labels without a recorded broader geographic path remain available separately,
+and metadata completeness is shown for the selected dimension. Original direct
+place counts are retained under Metadata coverage and direct place labels.
 Library totals count each lecture once across overlapping routes. Listening
 estimates use 145 words per minute. The former Presentations navigation tab
 has been removed; existing presentation bookmarks still work.
@@ -69,7 +79,7 @@ these coverage views and work authors, with links to the corresponding tags.
 Catalog clients can inspect these fields without downloading transcripts.
 
 Tags support explicit broader-to-narrower paths for topics, geography, and
-time. Stats → Browse tags from broad to specific expands these dimensions with
+time. Stats → Coverage from broad to specific expands these dimensions with
 unique lecture counts; any parent label filters all lectures carrying that
 path. Lecture pages expose their paths, and All lectures searches and filters
 ancestor labels as well as specific tags. Common existing tags acquire curated

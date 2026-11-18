@@ -88,3 +88,12 @@ def test_authored_paths_survive_source_export_catalog_and_graph(tmp_path):
         assert detail['tag_paths'] == summary['tag_paths'] == graph['tag_paths']
         assert 'A custom organelle' in summary['tags']
         assert 'transcript' not in summary
+
+
+def test_qualified_city_associations_roll_up_without_guessing_ambiguous_names():
+    fields = discovery_fields({'places': ['Cambridge (Massachusetts)', 'Urbana, Illinois', 'Edo (Tokyo)']})
+    assert ['Place: North America', 'Place: United States', 'Place: Massachusetts', 'Place: Cambridge (Massachusetts)'] in fields['tag_paths']
+    assert 'Place: United States' in fields['tags']
+    assert 'Place: Japan' in fields['tags']
+    assert 'Place: United States' not in labels({'places': ['Cambridge']})
+    assert 'Place: England' not in labels({'places': ['Cambridge']})

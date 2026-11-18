@@ -910,3 +910,41 @@ progress {
   .compact-lecture > summary.with-date { grid-template-columns: 0.8rem minmax(0, 1fr) minmax(4rem, 7rem); }
   .compact-lecture > summary.with-date .compact-lecture-duration { display: none; }
 }
+
+/* Coverage compares peers and keeps long series visible as contributions. */
+.coverage-columns, .coverage-row { display: grid; grid-template-columns: minmax(9rem, 1fr) 5rem 5rem 8rem; align-items: center; gap: 0.6rem; }
+.coverage-columns { padding: 0.7rem 0.8rem 0.7rem 1.8rem; background: var(--soft); border-radius: 7px 7px 0 0; font-size: 0.8rem; font-weight: 600; }
+.coverage-columns > :not(:first-child), .coverage-row > :not(:first-child) { text-align: right; font-variant-numeric: tabular-nums; }
+.coverage-tree { border: 1px solid var(--line); border-radius: 0 0 7px 7px; background: var(--panel); }
+.coverage-tree .tag-tree { list-style: none; padding: 0; margin: 0; }
+.coverage-tree .tag-tree .tag-tree { margin-left: 1rem; border-left: 2px solid var(--line); }
+.coverage-tree li { margin: 0; }
+.coverage-tree details { margin: 0; }
+.coverage-tree summary.coverage-row { position: relative; padding: 0.65rem 0.8rem 0.65rem 1.8rem; border-bottom: 1px solid var(--line); font-size: 0.88rem; list-style: none; cursor: pointer; }
+.coverage-row::-webkit-details-marker { display: none; }
+.coverage-row::before { content: "▸"; position: absolute; left: 0.65rem; color: var(--muted); }
+.coverage-tree details[open] > summary::before { content: "▾"; }
+.coverage-label { min-width: 0; overflow-wrap: anywhere; }
+.coverage-contributions { padding: 0.5rem 1rem 1rem 1.8rem; background: var(--paper); font-size: 0.85rem; }
+.coverage-contributions p { margin: 0.4rem 0; }
+.coverage-contributions ul { list-style: none; padding: 0; }
+.coverage-contributions li { display: flex; justify-content: space-between; align-items: start; gap: 1rem; border-bottom: 1px solid var(--line); padding: 0.45rem 0; }
+.coverage-contributions li > span:first-child { min-width: 0; overflow-wrap: anywhere; }
+.coverage-contributions li > span:last-child { white-space: nowrap; font-variant-numeric: tabular-nums; }
+.coverage-contributions small { display: block; }
+.coverage-explanation { font-size: 0.85rem; }
+.stats-detail > summary { cursor: pointer; color: var(--accent); font-weight: 600; }
+@media (max-width: 600px) {
+  .coverage-columns, .coverage-row { grid-template-columns: minmax(0, 1fr) 3.8rem 3.8rem; gap: 0.3rem; }
+  .coverage-columns > :last-child, .coverage-row > :last-child { display: none; }
+  .coverage-tree .tag-tree .tag-tree { margin-left: 0.35rem; }
+}
+
+.coverage-tree > .coverage-unmapped { margin: 0.8rem; }
+.coverage-unmapped > summary { cursor: pointer; color: var(--accent); font-size: 0.9rem; }
+.coverage-unmapped > p { font-size: 0.85rem; }
+
+.coverage-section-details > summary { cursor: pointer; color: var(--accent); padding: 0.65rem 1rem 0.65rem 1.8rem; font-size: 0.85rem; background: var(--paper); }
+
+.coverage-count-help { margin: 0.75rem 0; }
+.coverage-count-help > summary { cursor: pointer; color: var(--accent); font-size: 0.85rem; }

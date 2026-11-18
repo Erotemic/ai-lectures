@@ -122,7 +122,7 @@ stay broad and do not generate a tag for every intervening year. Publication
 spelling), composition (`composition`), covered period, historical environment
 (`context`), lifetime, and textual witness remain distinct. Do not manufacture dates for timeless scientific topics.
 
-**Stats → Browse tags from broad to specific** shows expandable dimensions and
+**Stats → Coverage from broad to specific** shows expandable dimensions and
 unique lecture counts. Selecting any branch opens All lectures filtered by that
 tag; the Tag field and keyword search also recognize broader path labels.
 Counts overlap across paths and should not be added as disjoint coverage.

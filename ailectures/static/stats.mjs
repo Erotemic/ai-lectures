@@ -38,6 +38,7 @@ export function renderStats(main, catalog, { link, refresh }) {
       el("dt", { text: label }), el("dd", {}, href ? link(value, href) : value)))),
   );
   if (!data.lectures) main.append(el("p", { class: "notice" }, "No lectures are available yet. ", link("Add a content pack", "/packs"), "."));
+  main.append(tagBrowser(catalog.lectures || [], link, { packs: catalog.packs || [] }));
   const availability = el("section", { class: "section" }, el("h2", { text: "Ready to listen" }));
   for (const [label, value, style] of [["Complete audio", data.complete, "complete"], ["Partial audio", data.partial, "partial"], ["No prepared audio", data.missing, "missing"]]) {
     const percent = data.lectures ? value / data.lectures * 100 : 0;
@@ -50,11 +51,11 @@ export function renderStats(main, catalog, { link, refresh }) {
   availability.append(el("p", { class: "muted", text: `${number(data.companions)} lectures have current companion files. Audio readiness counts a lecture once if any narrator has a complete recording; partial recordings count separately.` }));
   main.append(availability,
     el("p", { class: "muted", text: "Listening time is estimated from transcript words at 145 words per minute. Actual recordings, playback speed, and pauses will differ. Subject and audience groups may overlap; their rows should not be added together." }));
-  const tagLink = (prefix, row) => row.title === "Unspecified" ? "Not recorded" : link(row.title, "/?" + new URLSearchParams({ tag: prefix + row.title }));
-  main.append(el("section", { class: "section" }, el("h2", { text: "Coverage of space and time" }),
+  const tagLink = (prefix, row) => row.title === "Unspecified" ? "Not recorded" : link(row.title, "/lectures?" + new URLSearchParams({ tag: prefix + row.title }));
+  main.append(el("details", { class: "stats-detail" }, el("summary", { text: "Metadata coverage and direct place labels" }),
     el("p", { text: `${number(data.withPlaces)} lectures have recorded place associations; ${number(data.withDates)} have recorded dates; ${number(data.withDescriptions)} have descriptions or outline previews.` }),
-    el("p", { class: "muted", text: "Place names describe associations with the material, including its origins and settings. They do not imply modern nationality or exhaustive geographic coverage. Missing metadata is not evidence of a gap in the lectures themselves." }),
-    totalsTable(data.places, "Place associations", row => tagLink("Place: ", row))));
+    el("p", { class: "muted", text: "These are the original place labels, before rolling up the hierarchy. A city, country, and region may refer to the same lecture; their rows cannot be added together. The hierarchy above includes their broader associations. Missing metadata is not evidence of a gap in the lectures themselves." }),
+    totalsTable(data.directPlaces, "Direct place labels", row => tagLink("Place: ", row))));
   const timeResults = el("div");
   const axisLabels = { period: "Historical period", work: "Work date", setting: "Story setting", life: "Lifetime", witness: "Surviving witness", composition: "Composition date", context: "Historical setting" };
   const axis = el("select", { "aria-label": "Date meaning" }, ...Object.entries(axisLabels).map(([value, text]) => el("option", { value, text })));
@@ -77,7 +78,6 @@ export function renderStats(main, catalog, { link, refresh }) {
   if (data.authors.length) main.append(el("section", { class: "section" }, el("h2", { text: "Literary authors" }),
     el("p", { class: "muted", text: "Authors and traditionally attributed authors of the works discussed. These are separate from the people or models that wrote the lectures. Compiler, translator, anonymous, and oral-tradition credits remain on the lecture items." }),
     totalsTable(data.authors, "Lectures by work author", row => tagLink("Author: ", row))));
-  main.append(tagBrowser(catalog.lectures || [], link));
   const topicSearch = el("input", { type: "search", "aria-label": "Find a coverage tag", placeholder: "Find a topic, place, author, or period" });
   const tagResults = el("div");
   const showTags = () => {

@@ -6,7 +6,7 @@ export function tagFacet(label) {
   if (label.startsWith("Place: ")) return "Places";
   if (label.startsWith("Author: ")) return "Authors";
   if (label.startsWith("Period: ")) return "Named periods";
-  for (const axis of ["Historical period", "Work date", "Story setting", "Lifetime", "Surviving witness", "Composition date"])
+  for (const axis of ["Historical period", "Work date", "Story setting", "Lifetime", "Surviving witness", "Composition date", "Historical setting"])
     if (label.startsWith(axis + ": ")) return axis;
   return "Topics";
 }

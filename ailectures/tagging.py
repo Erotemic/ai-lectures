@@ -47,6 +47,26 @@ PLACE_PATHS = [
     ['North America', 'United States', 'Kentucky'], ['North America', 'United States', 'Ohio'],
     ['North America', 'United States', 'Louisiana'], ['North America', 'United States', 'Pennsylvania'],
     ['North America', 'United States', 'New England'],
+    ['North America', 'United States', 'Alaska'],
+    ['North America', 'United States', 'California', 'Mojave Desert'],
+    ['North America', 'United States', 'California', 'Santa Monica, California'],
+    ['North America', 'United States', 'California', 'Berkeley, California'],
+    ['North America', 'United States', 'Illinois', 'Chicago'],
+    ['North America', 'United States', 'Illinois', 'Centralia, Illinois'],
+    ['North America', 'United States', 'Illinois', 'Urbana, Illinois'],
+    ['North America', 'United States', 'New Jersey', 'Princeton, New Jersey'],
+    ['North America', 'United States', 'Louisiana', 'Baton Rouge, Louisiana'],
+    ['North America', 'United States', 'Georgia', 'Atlanta, Georgia'],
+    ['North America', 'United States', 'Washington, D.C.'],
+    ['North America', 'United States', 'Massachusetts', 'Cambridge (Massachusetts)'],
+    ['Europe', 'Britain', 'England', 'Cambridge (England)'],
+    ['Europe', 'Britain', 'England', 'Terling'], ['Europe', 'Britain', 'England', 'Woolsthorpe'],
+    ['Europe', 'Netherlands', 'The Hague'], ['Europe', 'Netherlands', 'Leiden'], ['Europe', 'Netherlands', 'Breda'],
+    ['Europe', 'Italy', 'Trieste'], ['Europe', 'Switzerland', 'Zug'],
+    ['Asia', 'East Asia', 'Japan', 'Iga Province'], ['Asia', 'East Asia', 'Japan', 'Kōka'],
+    ['Asia', 'East Asia', 'Japan', 'Edo'], ['Asia', 'East Asia', 'Japan', 'Edo (Tokyo)'],
+    ['Asia', 'South Asia', 'India', 'Madras'],
+
     ['Europe', 'France', 'Digne'], ['Europe', 'France', 'Montreuil-sur-Mer'], ['Europe', 'France', 'Montfermeil'], ['North America', 'United States', 'Princeton'],
     ['North America', 'United States', 'Chapel Hill'], ['North America', 'United States', 'Baltimore'],
     ['North America', 'United States', 'Berkeley'], ['North America', 'Canada', 'Toronto'],
@@ -160,7 +180,7 @@ def matching_paths(labels, vocabulary, prefix=''):
 
 def tag_paths(tags, places, authored=()):
     facets = ('Place: ', 'Period: ', 'Author: ', 'Work date: ', 'Historical period: ',
-              'Story setting: ', 'Lifetime: ', 'Surviving witness: ', 'Composition date: ')
+              'Story setting: ', 'Lifetime: ', 'Surviving witness: ', 'Composition date: ', 'Historical setting: ')
     topics = [tag for tag in tags if not tag.startswith(facets)]
     geography = list(dict.fromkeys([*places, *(tag[7:] for tag in tags if tag.startswith('Place: '))]))
     paths = matching_paths(topics, TOPIC_PATHS) + matching_paths(geography, PLACE_PATHS, 'Place: ')

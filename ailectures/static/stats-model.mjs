@@ -23,10 +23,11 @@ export function libraryStats(catalog) {
   const rows = [...new Map((catalog.lectures || []).map(row => [row.id, row])).values()];
   const courses = catalog.courses || [];
   const byId = new Map(rows.map(row => [row.id, row]));
-  const grouped = field => {
+  const placeLabels = row => [...new Set([...(row.places || []), ...tagLabels(row).filter(tag => tag.startsWith("Place: ")).map(tag => tag.slice(7))])];
+  const grouped = (field, valuesFor = null) => {
     const groups = new Map();
     for (const row of rows) {
-      const values = field === "tags" ? tagLabels(row) : row[field];
+      const values = valuesFor ? valuesFor(row) : field === "tags" ? tagLabels(row) : row[field];
       const labels = values?.length ? values : ["Unspecified"];
       for (const label of new Set(labels)) {
         if (!groups.has(label)) groups.set(label, []);
@@ -67,10 +68,10 @@ export function libraryStats(catalog) {
   }
   return {
     dateCoverage: Object.fromEntries(axisNames.map(axis => [axis, rows.filter(row => chronologyRecord(row, axis)).length])),
-    places: grouped("places"), periods: grouped("periods"), topics: grouped("tags"), dates,
+    places: grouped("places", placeLabels), directPlaces: grouped("places"), periods: grouped("periods"), topics: grouped("tags"), dates,
     authors: [...authorGroups].map(([title, members]) => ({ title, ...contentTotals(members) }))
       .sort((a, b) => b.lectures - a.lectures || a.title.localeCompare(b.title)),
-    withPlaces: rows.filter(row => row.places?.length).length,
+    withPlaces: rows.filter(row => placeLabels(row).length).length,
     withDates: rows.filter(row => Object.keys(row.time_coverage || {}).length).length,
     withDescriptions: rows.filter(row => row.description).length,
     ...contentTotals(rows), collections: courses.length, packs: packNames.size,
