@@ -443,3 +443,12 @@ The literature-survey index now contains **165 entries**. No generated audio or 
 - Following the updated editorial preference, each work has one continuous telling/guided reading plus a separate analysis; no 10-minute serial fragments are introduced. New scripts and metadata reference identifiable narrative passages, original-language sources or documented historical context; no copyrighted modern translations have been reproduced.
 
 The literature-survey track contains **169 indexed lectures**. Durations are descriptive measurements of the narration, not editorial limits. The archive contains no binary media.
+
+## Mark Twain: Adventures of Huckleberry Finn (2026-11-17)
+
+- `172000`: **Complete Story: The River and the Choice**, a single continuous, spoiler-complete narration from Huck’s escape through Jim’s recapture, the Phelps farm and the final Territory departure, with the raft and fatherhood central to the plot. No chapter-by-chapter segmentation.
+- `173000`: **Analysis: The Conscience and the Country**, a separate treatment of vernacular narrative irony, antebellum slavery, satire, Jim’s agency, Huck’s torn letter, the Tom Sawyer rescue ending, racial representation and the book’s historical reception.
+- Main narrative witness: first American publication of 1885; a separately identified Mark Twain Project edition record documents manuscript work and variants. Publication in Britain and Canada in 1884 is distinguished from the American 1885 edition. Historical slurs in the primary text are discussed but not gratuitously performed in the new narration.
+- The source companions include chapter-specific scene locators, edition and reception links, and claim anchors. Word counts are descriptive observations, not a length constraint; the plot fits one coherent recording.
+
+**Current literature-survey catalog: 171 indexed lectures.**

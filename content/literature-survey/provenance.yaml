@@ -1463,3 +1463,19 @@ integration:
     - metadata/167000.json
     basis: Original long-form literary overview or analysis with edition-specific plot anchors; exact model configuration
       unavailable.
+  - models:
+    - GPT-6 (variant unknown)
+    date: '2026-11-17'
+    sources:
+    - 172000-huckleberry-finn-complete-story-the-river-and-the-choice.md
+    - metadata/172000.json
+    basis: Original source-grounded literary narration and non-spoken evidence companion;
+      edition and critical differences distinguished, model configuration unavailable.
+  - models:
+    - GPT-6 (variant unknown)
+    date: '2026-11-17'
+    sources:
+    - 173000-huckleberry-finn-analysis-the-conscience-and-the-country.md
+    - metadata/173000.json
+    basis: Original source-grounded literary narration and non-spoken evidence companion;
+      edition and critical differences distinguished, model configuration unavailable.

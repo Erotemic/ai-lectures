@@ -272,3 +272,12 @@ The source audit for these two has advanced from 'research before authoring' to 
 - **The Pillow Book** `170000`–`171000`: thematic selection covering several identifiable lists, nature passages and Teishi-court episodes plus independent analysis. This is **selected reading**, not exhaustive coverage; Koten Library Shunshoshō edition and the differences with Sankanbon are stated. Waley 1928 translated approximately one quarter and is not passed off as complete.
 - **Rotation principle:** Choose subsequent works by literary influence and material gaps, move among periods and geographies, merge naturally contiguous short narrations into a single substantial lecture rather than splitting at arbitrary time points.
 - **Potential next research:** *The Book of Disquiet* (Portuguese modernist fragments), *The Narrow Road to the Deep North* (Japanese haibun), *The Master and Margarita* (Russian twentieth-century prose), and *The Tale of the Bamboo Cutter* further source-level study (already has an overview). Check the complete index first; avoid pretending fragmentary works have a seamless original plot.
+
+## American nineteenth-century novel: Huckleberry Finn completed (17 November 2026)
+
+- **Completed:** Twain’s *Adventures of Huckleberry Finn* (`172000` complete story, `173000` sustained analysis) with a single continuous major-arc narration and an independent interpretation. The story includes all essential arcs through the Wilks fraud, torn letter, Phelps rescue and legal freedom, without chapter-level segmentation.
+- **Sources:** the 1885 first American printed edition is the controlling textual witness; 1884 English publication, 1876–1884 composition and the Mark Twain Project’s recovered manuscript are separately documented. Neither the unpublished authorial manuscript nor the later critical edition was fully collated. The 1885 text contains racial slurs and historically racist conventions; the new manuscripts discuss rather than replicate them gratuitously.
+- **Critical boundaries:** Huck’s loyalty does not imply a comprehensive abolitionist politics; Jim’s choices and family are retained alongside contested readings of his characterization and the finale. Historic early bans for coarseness and later challenges concerning racism are distinguished.
+- **Next gaps:** return to importance-first rotations and audit other catalog packs before commissioning possible additional Mark Twain works or modernist fiction.
+
+**Current literature-survey index: 171 entries.**
