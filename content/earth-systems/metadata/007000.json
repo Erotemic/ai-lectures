@@ -1,0 +1,309 @@
+{
+  "schema_version": 1,
+  "lecture_id": "007000",
+  "transcript": "007000-the-landscape-is-moving.md",
+  "description": "Explains mechanical and chemical weathering, hillslope erosion, river bedload and suspended sediment, landslides, tectonic uplift, sediment storage, and the carbon consequences of landscape change.",
+  "tags": [
+    "Geomorphology",
+    "Weathering",
+    "Physical weathering",
+    "Chemical weathering",
+    "Erosion",
+    "Sediment transport",
+    "Suspended load",
+    "Bedload",
+    "River discharge",
+    "River deposition",
+    "Floodplains",
+    "Soil formation",
+    "Landslides",
+    "Debris flows",
+    "Pore pressure",
+    "Tectonic uplift",
+    "Isostatic adjustment",
+    "Glacial erosion",
+    "Sediment budgets",
+    "Carbonate dissolution",
+    "Silicate weathering",
+    "Mountain carbon balance",
+    "Himalaya",
+    "Gorkha earthquake"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Earth science",
+      "Geomorphology",
+      "Weathering",
+      "Physical weathering"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Geomorphology",
+      "Weathering",
+      "Chemical weathering"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Geomorphology",
+      "Soils",
+      "Soil formation"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Geomorphology",
+      "River dynamics",
+      "Suspended sediment"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Geomorphology",
+      "River dynamics",
+      "Bedload"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Geomorphology",
+      "Rivers",
+      "Floodplain deposition"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Geomorphology",
+      "Hillslopes",
+      "Landslides"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Geomorphology",
+      "Hillslopes",
+      "Pore-water pressure"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Geophysics",
+      "Tectonic uplift"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Geomorphology",
+      "Glacial erosion"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Biogeochemistry",
+      "Weathering and carbon budget"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth observation",
+      "River sediment gauges"
+    ],
+    [
+      "Place: Asia",
+      "Place: Nepal",
+      "Place: Central Himalaya"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "es-usgs-sediment",
+      "reason": "Suspended sediment, deposition and the possibility of large storm contributions to annual sediment discharge."
+    },
+    {
+      "source_id": "es-usgs-fluvial",
+      "reason": "Suspended sediment, bedload, sediment sources, transport and measurement challenges."
+    },
+    {
+      "source_id": "es-usgs-landslides",
+      "reason": "Landslide motion classes, gravity, material strength and common hydrological/geophysical triggers."
+    },
+    {
+      "source_id": "es-nps-slopes",
+      "reason": "Pore pressure, slope saturation, lateral support and earthquake-triggered mass movement."
+    },
+    {
+      "source_id": "es-nasa-carbon",
+      "reason": "Fast biological and slow geological carbon pathways, silicate weathering, sediment transport, rock formation."
+    },
+    {
+      "source_id": "es-walker-weathering",
+      "reason": "Original 1981 hypothesis for long-term temperature-dependent silicate weathering feedback; explicitly qualified in original abstract."
+    },
+    {
+      "source_id": "es-nature-himalaya",
+      "reason": "2015 Gorkha earthquake catchment; study distinguishes organic and inorganic pathways and reports muted integrated basin budget response."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "007000-e01",
+      "anchor": "A flood can move a large fraction of the sediment that passes a measuring station in an entire year",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-usgs-sediment"
+      ],
+      "source_locator": "Storm-event dominance possible at some sites.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "007000-e02",
+      "anchor": "Weathering changes material where it sits",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-nasa-carbon",
+        "es-usgs-fluvial"
+      ],
+      "source_locator": "Definitions of weathering, erosion, sediment formation.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "007000-e03",
+      "anchor": "Some feldspars react to form clay minerals and dissolved ions",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-nasa-carbon"
+      ],
+      "source_locator": "Chemical mineral weathering.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "007000-e04",
+      "anchor": "Coarse grains may roll, slide, or hop along the bed",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-usgs-fluvial"
+      ],
+      "source_locator": "Bedload versus suspended load.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "007000-e05",
+      "anchor": "The mud we can see is not a measurement of the river's total chemical export",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-usgs-fluvial"
+      ],
+      "source_locator": "Distinct solid and dissolved transport.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "007000-e06",
+      "anchor": "One US Geological Survey explanation notes that a storm period can account for more than half",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-usgs-sediment"
+      ],
+      "source_locator": "Explicitly site-dependent storm event contribution.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "007000-e07",
+      "anchor": "A useful measurement program therefore pairs water discharge with suspended-sediment sampling",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-usgs-fluvial"
+      ],
+      "source_locator": "Sediment concentration times discharge and sampling methods.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "007000-e08",
+      "anchor": "Water entering pores may increase pore pressure and reduce the effective stress",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-nps-slopes"
+      ],
+      "source_locator": "Pore pressure and slope mechanics.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "007000-e09",
+      "anchor": "The US Geological Survey organizes landslide types by both movement and material",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-usgs-landslides"
+      ],
+      "source_locator": "USGS landslide taxonomy.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "007000-e10",
+      "anchor": "A study led by Lena Märki of a central Himalayan basin across the 2015 Gorkha earthquake",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-nature-himalaya"
+      ],
+      "source_locator": "Actual case study, four monsoons and carbon budgets.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "007000-e11",
+      "anchor": "In 1981 Walker, Hays, and Kasting described how climate-sensitive silicate weathering",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-walker-weathering"
+      ],
+      "source_locator": "Original proposed feedback and its timescale.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "007000-e12",
+      "anchor": "Weathering a carbonate rock is not equivalent to weathering a silicate",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-nasa-carbon",
+        "es-nature-himalaya"
+      ],
+      "source_locator": "Weathering chemistry and net carbon budget distinctions.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "007000-e13",
+      "anchor": "Uplift is not a dial that always produces one sign of atmospheric carbon change",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-nature-himalaya"
+      ],
+      "source_locator": "Varied carbon sources and sinks in erosive landscapes.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "007000-e14",
+      "anchor": "Some is stored in river bars, lakes, reservoirs, and floodplains",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-usgs-fluvial"
+      ],
+      "source_locator": "Sediment storage and redeposition.",
+      "audit_status": "source_checked"
+    }
+  ],
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Weathering, river flow, mineral chemistry and tectonic uplift are explained without prior geomorphology."
+    ],
+    "readiness_checks": [
+      "What does a brown river plume show and what carbon or mineral exports remain invisible?",
+      "How can short high-water events dominate long-term sediment flux?",
+      "Why do a landslide scar and river-mouth sediment pulse not have to coincide?",
+      "When would erosion remove carbon dioxide rather than releasing carbon through oxidation?"
+    ]
+  },
+  "places": [
+    "Central Himalaya, Nepal"
+  ]
+}

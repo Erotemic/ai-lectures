@@ -1,0 +1,366 @@
+{
+  "schema_version": 1,
+  "lecture_id": "006000",
+  "transcript": "006000-ice-that-changes-the-planet.md",
+  "description": "Compares snow, floating sea ice, land glaciers, ice shelves, ice sheets and permafrost, including albedo, latent heat, buoyancy, sea-level budgets, grounding-line dynamics and satellite observations.",
+  "tags": [
+    "Cryosphere",
+    "Sea ice",
+    "Ice albedo feedback",
+    "Latent heat of fusion",
+    "Snow insulation",
+    "Brine rejection",
+    "Glacier mass balance",
+    "Ablation",
+    "Glacier flow",
+    "Greenland Ice Sheet",
+    "Antarctic Ice Sheet",
+    "Ice shelves",
+    "Larsen B Ice Shelf",
+    "Ice shelf buttressing",
+    "Grounding line",
+    "Marine ice sheet instability",
+    "Ice-sheet mass loss",
+    "GRACE-FO",
+    "ICESat-2",
+    "Sea-level rise",
+    "Thermal expansion",
+    "Permafrost thaw",
+    "Permafrost carbon"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Earth science",
+      "Cryosphere",
+      "Sea ice",
+      "Freezing and brine rejection"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Cryosphere",
+      "Sea ice",
+      "Ice-albedo feedback"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Cryosphere",
+      "Snow",
+      "Insulation and energy balance"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Cryosphere",
+      "Glaciers",
+      "Mass balance"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Cryosphere",
+      "Glaciers",
+      "Ice dynamics"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Cryosphere",
+      "Ice sheets",
+      "Grounding line"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Cryosphere",
+      "Ice shelves",
+      "Buttressing"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Cryosphere",
+      "Ice sheets",
+      "Marine ice sheet instability"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Cryosphere",
+      "Permafrost",
+      "Thaw and carbon"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth systems",
+      "Sea level",
+      "Land ice mass addition"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth observation",
+      "Satellite gravimetry",
+      "GRACE-FO"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth observation",
+      "Ice surface altimetry",
+      "ICESat-2"
+    ],
+    [
+      "Place: Arctic Ocean"
+    ],
+    [
+      "Place: North America",
+      "Place: Greenland"
+    ],
+    [
+      "Place: Antarctica",
+      "Place: Antarctic Peninsula"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "es-nsidc-seaice",
+      "reason": "Sea-ice formation, albedo, melt ponds and ocean-ice energy exchanges."
+    },
+    {
+      "source_id": "es-nsidc-floating",
+      "reason": "Archimedean displacement with subtle freshwater/seawater density correction; direct effect very small."
+    },
+    {
+      "source_id": "es-nsidc-shelves",
+      "reason": "Grounding line, buttressing and documented glacier acceleration after Larsen B collapse in 2002."
+    },
+    {
+      "source_id": "es-nasa-ice-sheets",
+      "reason": "Satellite gravimetry record of mass loss from Greenland and Antarctica with period-specific updates."
+    },
+    {
+      "source_id": "es-jpl-grace",
+      "reason": "Gravity variations indicate changing mass distributions including ice, soil water and oceans."
+    },
+    {
+      "source_id": "es-nasa-ice-altimetry",
+      "reason": "What radar and laser altimetry measure about surface elevation, including snow penetration and coverage limits."
+    },
+    {
+      "source_id": "es-usgs-glacier-balance",
+      "reason": "Field stake and snow observations, water equivalent mass balance and geodetic calibration for glaciers."
+    },
+    {
+      "source_id": "es-ipcc-ocean",
+      "reason": "Ocean heat uptake, Southern Ocean exchange and water-mass formation, thermal expansion and observed sea-level change."
+    },
+    {
+      "source_id": "es-ipcc-carbon",
+      "reason": "Observed anthropogenic carbon budget partition in 2010-2019, isotopic and inventory attribution, carbon sinks and feedbacks."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "006000-e01",
+      "anchor": "The cryosphere includes snow, sea ice, lake and river ice",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-ipcc-ocean"
+      ],
+      "source_locator": "Cryosphere types and their distinctions.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "006000-e02",
+      "anchor": "Permafrost, finally, refers to ground that remains at or below freezing for at least two consecutive years",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-ipcc-ocean"
+      ],
+      "source_locator": "Permafrost definition.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "006000-e03",
+      "anchor": "The National Snow and Ice Data Center describes an approximate contrast",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-nsidc-seaice"
+      ],
+      "source_locator": "Typical snow, ice and ocean albedo comparison.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "006000-e04",
+      "anchor": "This is the ice-albedo feedback",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-nsidc-seaice"
+      ],
+      "source_locator": "Positive ice-surface reflectivity feedback.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "006000-e05",
+      "anchor": "Ice absorbs heat when it melts without necessarily warming above its melting temperature",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-nsidc-seaice"
+      ],
+      "source_locator": "Latent heat and phase change.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "006000-e06",
+      "anchor": "During freezing, salt is largely rejected into the surrounding water",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-ipcc-ocean"
+      ],
+      "source_locator": "Brine rejection, salinity and water masses.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "006000-e07",
+      "anchor": "Because freshwater and saltwater have different densities",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-nsidc-floating"
+      ],
+      "source_locator": "Small direct sea-level difference for floating freshwater ice melt.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "006000-e08",
+      "anchor": "Glaciologists measure accumulation and ablation at points with stakes and snow pits",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-usgs-glacier-balance"
+      ],
+      "source_locator": "Surface mass-balance field methods.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "006000-e09",
+      "anchor": "In Greenland, summer surface melt and runoff are important contributors to mass loss",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-ipcc-ocean"
+      ],
+      "source_locator": "Geographical differences in mechanisms of ice sheet loss.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "006000-e10",
+      "anchor": "When a shelf thins or breaks apart, that resistance can diminish",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-nsidc-shelves"
+      ],
+      "source_locator": "Ice-shelf buttressing mechanism.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "006000-e11",
+      "anchor": "Observations after the Larsen B Ice Shelf disintegrated on the Antarctic Peninsula in 2002",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-nsidc-shelves"
+      ],
+      "source_locator": "Documented acceleration of tributary glaciers.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "006000-e12",
+      "anchor": "The line at which land-based ice begins to float is the grounding line",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-nsidc-shelves"
+      ],
+      "source_locator": "Grounding line definition.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "006000-e13",
+      "anchor": "This is the proposed marine ice sheet instability mechanism",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-ipcc-ocean"
+      ],
+      "source_locator": "Model-based instability hypothesis and associated uncertainties.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "006000-e14",
+      "anchor": "The ice sheets are losing mass in the satellite era",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-nasa-ice-sheets"
+      ],
+      "source_locator": "Observed mass trends.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "006000-e15",
+      "anchor": "The NASA-German GRACE and GRACE Follow-On missions infer changes in Earth's mass distribution",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-jpl-grace"
+      ],
+      "source_locator": "Satellite gravity measurement.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "006000-e16",
+      "anchor": "including ICESat-2, measures surface elevation using the travel time of reflected light",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-nasa-ice-altimetry"
+      ],
+      "source_locator": "Altimetry methodology.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "006000-e17",
+      "anchor": "When grounded ice is transferred to the ocean, it increases ocean water mass",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-ipcc-ocean"
+      ],
+      "source_locator": "Sea level accounting.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "006000-e18",
+      "anchor": "Organic matter previously protected by cold conditions may become available to microbial decomposition",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-ipcc-carbon"
+      ],
+      "source_locator": "Permafrost carbon processes and nonuniform outcomes.",
+      "audit_status": "source_checked"
+    }
+  ],
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Assumes everyday meaning of ice and buoyancy; clarifies distinctions among floating, grounded, and seasonally frozen materials."
+    ],
+    "readiness_checks": [
+      "Why is the direct sea-level consequence of sea-ice melt small even if its climate influence is strong?",
+      "How can a floating shelf restrain the flow of grounded ice?",
+      "What would gravity and surface elevation measurements each say about an ice-sheet change?",
+      "Why are seasonal snow, glacier flow and permafrost thaw different physical problems?"
+    ]
+  },
+  "places": [
+    "Arctic Ocean",
+    "Greenland",
+    "Antarctic Peninsula, Antarctica"
+  ]
+}

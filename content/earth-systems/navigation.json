@@ -8,7 +8,7 @@
       "categories": [
         "Science and nature"
       ],
-      "summary": "A connected introduction to Earth's radiation budget, moving atmosphere, watersheds and ocean circulation; four complete lectures with experiments and observational methods.",
+      "summary": "A connected seven-lecture introduction to Earth energy, atmosphere and ocean, water, carbon, ice and the moving landscape, with observation-based cases and supporting companions.",
       "chapters": [
         {
           "title": "Earth Has an Energy Budget: Light In, Heat Out",
@@ -32,6 +32,24 @@
           "title": "The Ocean Is Not a Bathtub: Circulation, Heat, and the Deep Sea",
           "lectures": [
             "004000"
+          ]
+        },
+        {
+          "title": "Carbon on Many Clocks: The Exchange That Never Stops",
+          "lectures": [
+            "005000"
+          ]
+        },
+        {
+          "title": "Ice That Changes the Planet: Snow, Sea Ice, Glaciers, and Ice Sheets",
+          "lectures": [
+            "006000"
+          ]
+        },
+        {
+          "title": "The Landscape Is Moving: Weathering, Rivers, and the Making of Relief",
+          "lectures": [
+            "007000"
           ]
         }
       ]
@@ -69,6 +87,75 @@
         "002000",
         "003000",
         "004000"
+      ]
+    },
+    {
+      "id": "earth-foundations-four",
+      "title": "Earth as a System · Four Foundations",
+      "role": "deep_dive",
+      "parent": "earth-as-a-system",
+      "summary": "The original four-part foundation: radiation, moving atmosphere, water and ocean circulation.",
+      "tags": [
+        "Earth systems",
+        "Energy budget",
+        "Water cycle"
+      ],
+      "lectures": [
+        "001000",
+        "002000",
+        "003000",
+        "004000"
+      ]
+    },
+    {
+      "id": "carbon-ice-and-land",
+      "title": "Earth as a System · Carbon, Ice and Moving Land",
+      "role": "deep_dive",
+      "parent": "earth-as-a-system",
+      "summary": "Follow carbon exchange and geological weathering, frozen water and ice sheets, and how rivers and slopes move matter.",
+      "tags": [
+        "Carbon cycle",
+        "Cryosphere",
+        "Geomorphology"
+      ],
+      "lectures": [
+        "005000",
+        "006000",
+        "007000"
+      ]
+    },
+    {
+      "id": "carbon-and-stone",
+      "title": "Earth as a System · Carbon from Soil to Stone",
+      "role": "deep_dive",
+      "parent": "earth-as-a-system",
+      "summary": "Link fast biological/ocean carbon exchange with river sediment and geological weathering.",
+      "tags": [
+        "Carbon cycle",
+        "Silicate weathering",
+        "Sediment transport"
+      ],
+      "lectures": [
+        "003000",
+        "005000",
+        "007000"
+      ]
+    },
+    {
+      "id": "water-and-ice",
+      "title": "Earth as a System · Water Frozen and Flowing",
+      "role": "deep_dive",
+      "parent": "earth-as-a-system",
+      "summary": "Water moves through rainfall, ocean circulation, snow, glacier ice and sea ice.",
+      "tags": [
+        "Cryosphere",
+        "Water cycle",
+        "Sea ice"
+      ],
+      "lectures": [
+        "003000",
+        "004000",
+        "006000"
       ]
     }
   ]

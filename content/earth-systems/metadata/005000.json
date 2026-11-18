@@ -1,0 +1,366 @@
+{
+  "schema_version": 1,
+  "lecture_id": "005000",
+  "transcript": "005000-carbon-on-many-clocks.md",
+  "description": "Follows carbon among plants, soils, ocean chemistry and rock while distinguishing gross flux from net accumulation, fossil carbon perturbations, ocean acidification, isotopic evidence and observation methods.",
+  "tags": [
+    "Carbon cycle",
+    "Carbon reservoirs",
+    "Gross and net carbon flux",
+    "Photosynthesis and respiration",
+    "Soil carbon",
+    "FLUXNET",
+    "Eddy covariance",
+    "Keeling Curve",
+    "Mauna Loa",
+    "Fossil carbon",
+    "Anthropogenic carbon budget",
+    "Carbon isotopes",
+    "Airborne fraction",
+    "Ocean carbon sink",
+    "Ocean acidification",
+    "Carbonate chemistry",
+    "Biological carbon pump",
+    "Deep-ocean carbon",
+    "Silicate weathering",
+    "Carbonate burial",
+    "Geological carbon cycle",
+    "Carbon-climate feedback",
+    "OCO-2"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Earth science",
+      "Earth systems",
+      "Biogeochemistry",
+      "Global carbon cycle"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth systems",
+      "Carbon reservoirs",
+      "Carbon stocks and fluxes"
+    ],
+    [
+      "Science",
+      "Ecology",
+      "Ecosystem carbon dynamics",
+      "Photosynthesis and respiration"
+    ],
+    [
+      "Science",
+      "Ecology",
+      "Ecosystem carbon dynamics",
+      "Soil carbon"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Ocean biogeochemistry",
+      "Air-sea carbon exchange"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Aqueous chemistry",
+      "Carbonate system"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Ocean biogeochemistry",
+      "Ocean acidification"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Ocean biogeochemistry",
+      "Biological carbon pump"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth systems",
+      "Anthropogenic perturbations",
+      "Fossil carbon emissions"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth systems",
+      "Carbon-climate feedbacks",
+      "Silicate weathering"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth observation",
+      "CO2 concentration",
+      "Keeling Curve"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth observation",
+      "Terrestrial flux towers",
+      "Eddy covariance"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth observation",
+      "Satellite greenhouse-gas sensing",
+      "OCO-2"
+    ],
+    [
+      "Place: United States",
+      "Place: Hawaii",
+      "Place: Mauna Loa"
+    ],
+    [
+      "Place: Asia",
+      "Place: Nepal",
+      "Place: Central Himalaya"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "es-ipcc-carbon",
+      "reason": "Observed anthropogenic carbon budget partition in 2010-2019, isotopic and inventory attribution, carbon sinks and feedbacks."
+    },
+    {
+      "source_id": "es-scripps-keeling",
+      "reason": "Mauna Loa measurements began in 1958; seasonal oscillation and long-term atmospheric CO2 trend."
+    },
+    {
+      "source_id": "es-fluxnet",
+      "reason": "Eddy covariance observes carbon, water and energy fluxes at ecosystem-atmosphere interface; local footprint and gap processing matter."
+    },
+    {
+      "source_id": "es-fluxnet2015",
+      "reason": "Flux measurements, gap filling, separating ecosystem respiration from photosynthesis, and uncertainty estimates."
+    },
+    {
+      "source_id": "es-oco2",
+      "reason": "Satellite XCO2 is inferred from reflected sunlight absorption; carbon sources/sinks require inverse atmospheric transport modeling."
+    },
+    {
+      "source_id": "es-noaa-acid",
+      "reason": "Seawater carbonic acid/bicarbonate/carbonate chemistry, pH and monitoring."
+    },
+    {
+      "source_id": "es-nasa-carbon",
+      "reason": "Fast biological and slow geological carbon pathways, silicate weathering, sediment transport, rock formation."
+    },
+    {
+      "source_id": "es-walker-weathering",
+      "reason": "Original 1981 hypothesis for long-term temperature-dependent silicate weathering feedback; explicitly qualified in original abstract."
+    },
+    {
+      "source_id": "es-nature-himalaya",
+      "reason": "2015 Gorkha earthquake catchment; study distinguishes organic and inorganic pathways and reports muted integrated basin budget response."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "005000-e01",
+      "anchor": "Charles David Keeling began his sustained measurements at Mauna Loa in 1958",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-scripps-keeling"
+      ],
+      "source_locator": "Instrument record from 1958 and two timescales in its curve.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "005000-e02",
+      "anchor": "The atmosphere, leaves and wood, soils, surface ocean, deep ocean, and sedimentary rock",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-nasa-carbon"
+      ],
+      "source_locator": "Different reservoir sizes and exchange times.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "005000-e03",
+      "anchor": "Scientists operate towers with rapid sensors for vertical wind and gas concentration",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-fluxnet"
+      ],
+      "source_locator": "Eddy covariance methodology.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "005000-e04",
+      "anchor": "Partitioning that net number into photosynthetic uptake and respiration requires additional assumptions",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-fluxnet2015"
+      ],
+      "source_locator": "Partitioning algorithm versus measured net flux.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "005000-e05",
+      "anchor": "Carbon dioxide crosses the air-sea interface when the dissolved gas and the air are out of equilibrium",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-ipcc-carbon"
+      ],
+      "source_locator": "Air-sea gas exchange controls.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "005000-e06",
+      "anchor": "It is converted among dissolved carbon dioxide, bicarbonate, and carbonate ions",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-noaa-acid"
+      ],
+      "source_locator": "Carbonate chemistry.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "005000-e07",
+      "anchor": "The average ocean remains alkaline, but its pH decreases",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-noaa-acid"
+      ],
+      "source_locator": "Meaning of ocean acidification.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "005000-e08",
+      "anchor": "Marine organisms fix carbon near the illuminated surface",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-ipcc-carbon"
+      ],
+      "source_locator": "Biological carbon pump.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "005000-e09",
+      "anchor": "In the IPCC assessment of the decade from 2010 to 2019",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-ipcc-carbon"
+      ],
+      "source_locator": "46/23/31 historical partition; period-specific.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "005000-e10",
+      "anchor": "Inventories of fuel extraction and combustion establish a source",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-ipcc-carbon"
+      ],
+      "source_locator": "Attribution from inventory and geochemical evidence.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "005000-e11",
+      "anchor": "Carbon isotopes carry a chemical signature",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-ipcc-carbon"
+      ],
+      "source_locator": "Isotopic attribution of anthropogenic carbon.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "005000-e12",
+      "anchor": "Silicate weathering moves dissolved material through soils and rivers toward the sea",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-nasa-carbon"
+      ],
+      "source_locator": "Slow carbon cycle weathering and river transport.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "005000-e13",
+      "anchor": "Weathering of silicate rocks followed by appropriate carbonate formation can consume carbon dioxide",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-nasa-carbon",
+        "es-walker-weathering"
+      ],
+      "source_locator": "Long-term net silicate weathering concept, with chemistry qualifications.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "005000-e14",
+      "anchor": "In 1981 James Walker, Paul Hays, and James Kasting proposed",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-walker-weathering"
+      ],
+      "source_locator": "Historical attribution and scope of proposed climate feedback.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "005000-e15",
+      "anchor": "Lena Märki and colleagues studied a Himalayan catchment after the 2015 Gorkha earthquake",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-nature-himalaya"
+      ],
+      "source_locator": "Specific Himalayan carbon budget case.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "005000-e16",
+      "anchor": "There is no single short half-life for an added pulse of carbon dioxide",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-ipcc-carbon"
+      ],
+      "source_locator": "Multiple relaxation times and carbon-cycle persistence.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "005000-e17",
+      "anchor": "Satellites such as OCO-2 measure the absorption of sunlight by carbon dioxide",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-oco2"
+      ],
+      "source_locator": "Column CO2 measurements versus inferred fluxes.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "005000-e18",
+      "anchor": "Ice cores contain old air and extend the concentration history",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-ipcc-carbon"
+      ],
+      "source_locator": "Paleoconcentration evidence.",
+      "audit_status": "source_checked"
+    }
+  ],
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Introduces reservoir/flux budgets and ocean chemistry without assuming prior geochemistry."
+    ],
+    "readiness_checks": [
+      "How can a huge gross seasonal exchange coexist with a smaller growing atmospheric inventory?",
+      "What is measured directly by a flux tower or OCO-2 and what is modeled?",
+      "What is the difference between a molecule exchange time and the persistence of an added carbon pulse?",
+      "Why is silicate-weathering removal not the same as every river carrying dissolved carbon?"
+    ]
+  },
+  "places": [
+    "Mauna Loa, Hawaii, United States",
+    "Central Himalaya, Nepal"
+  ]
+}

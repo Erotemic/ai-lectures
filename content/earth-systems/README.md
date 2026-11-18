@@ -1,28 +1,32 @@
 # Earth as a System: Air, Water, Ocean, and Climate
 
-**Status:** in progress. Four complete narrated foundation lectures (001000–004000).
+**Status:** in progress. Seven complete narrated lectures (001000-007000). The first four form the physical foundation; the next three connect it to carbon, frozen water and the moving landscape.
 
-This course explains the coupled modern Earth system by following conserved energy and water through the atmosphere, landscape and ocean. It is designed to be understandable on its own. The companion material, below the `BEGIN SPOKEN LECTURE` / `END SPOKEN LECTURE` markers, is reference material and is **not** spoken.
+The course explains the coupled present-day Earth system by following energy, water, carbon and geological material among reservoirs. Each lecture is independently understandable. The material after the `BEGIN SPOKEN LECTURE` / `END SPOKEN LECTURE` markers is a non-spoken scientific companion.
 
 ## Course map
 
 | ID | Lecture | Explanatory goal |
 | --- | --- | --- |
-| 001000 | Earth Has an Energy Budget | Planetary and surface radiation budgets, greenhouse radiation, feedbacks, observational constraints |
-| 002000 | Why the Atmosphere Will Not Sit Still | Pressure gradients, rotating flow, Hadley circulation, storms, jets, observation |
-| 003000 | One Drop, Many Clocks | Vapor, rain, soil and aquifer storage, runoff, residence time, catchment measurement |
-| 004000 | The Ocean Is Not a Bathtub | Stratification, coastal upwelling, gyres, overturning, ocean heat and Argo observations |
+| 001000 | Earth Has an Energy Budget | Planetary and surface radiation, greenhouse effect, feedback and observations |
+| 002000 | Why the Atmosphere Will Not Sit Still | Pressure gradients, rotation, circulation cells, storms and jets |
+| 003000 | One Drop, Many Clocks | Atmospheric moisture, watersheds, groundwater, runoff and residence time |
+| 004000 | The Ocean Is Not a Bathtub | Stratification, gyres, overturning, heat uptake and Argo observations |
+| 005000 | Carbon on Many Clocks | Carbon stocks and fluxes, fossil perturbation, ocean chemistry, geological carbon |
+| 006000 | Ice That Changes the Planet | Sea ice, glaciers, ice shelves, ice sheets, albedo, sea level and frozen ground |
+| 007000 | The Landscape Is Moving | Weathering, erosion, sediment transport, hillslopes, uplift and carbon budgets |
 
-The principal guided route is `earth-as-a-system` in `navigation.json`; two topic-based routes reuse its complete chapters. Every lecture has lecture-specific hierarchical tags, scientific companion notes, reading and question sets, and source-linked narration evidence in `metadata/`.
+The `earth-as-a-system` guided route contains all seven chapters. `earth-foundations-four` preserves the shorter foundation course; focused routes connect carbon to rock and the water cycle to ice. Source-backed evidence anchors, specific hierarchical topic and place tags, and learning checks are in `metadata/`.
 
 ## Editorial conventions
 
-- Explain equations in speech and place formal versions in the scientific companion.
-- Separate observed quantities from inferred or modeled quantities. Keep the spatial and temporal scale of every measurement clear.
-- Avoid equating the 7%/K atmospheric vapor scaling with the mean global precipitation response, and avoid representing the ocean overturning as a single literal conveyor-belt path.
-- Geographic association paths identify concrete examples, not comprehensive historical coverage. Timeless physical mechanisms have no invented chronology tags.
-- The source registry supports evidence checks; it is not a claim that every paper was independently reproduced.
+- Explain budgets and feedbacks in spoken language; put exact equations and measurement details in the scientific companions.
+- Separate directly observed quantities from estimates obtained by inversion, partitioning or models, and keep the spatial and temporal scale of measurements explicit.
+- Do not conflate gross carbon exchange with net sink strength, a molecule's exchange time with perturbation persistence, or floating ice melt with grounded ice discharge.
+- Distinguish mineral weathering, solid sediment flux, and long-term atmospheric carbon removal; they are not synonyms.
+- Geography tags identify concrete documented examples, not whole-mechanism coverage. Source publication dates and incidental event dates do not establish an invented historical-period axis for a science concept.
+- No generated audio or binary imagery is included. Manuscripts and companions are source-only.
 
-## Future work
+## Next development
 
-See `BACKLOG.md` for complementary subjects. The existing `physical-world`, `living-world`, and deep-history courses are related but not prerequisites.
+See `BACKLOG.md` for proposed work on ocean-atmosphere variability, extreme weather, living chemistry, climate evidence and modeling. The course need not be extended indefinitely; lecture length and course boundaries follow conceptual coverage rather than a duration quota.

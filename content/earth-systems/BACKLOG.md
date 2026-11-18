@@ -1,19 +1,23 @@
 # Earth Systems Course Development Backlog
 
-The four foundation chapters are complete; these are possible future deepening chapters, not a fixed or exhaustive plan. Prioritize concrete cases and original observational evidence rather than repeating a generic survey.
+Seven substantive chapters are complete: physical foundations (001000-004000), global carbon (005000), cryosphere (006000) and active landscapes (007000). These are possibilities for later coherent expansions, not a schedule or length requirement.
 
-## High priority
+## Next priority
 
-- **Carbon on Many Clocks.** Ocean carbonate chemistry, weathering, soil and biomass carbon, atmospheric CO2, and the contrast between fast and slow carbon-cycle exchanges. Evidence from flux towers, ocean samples and ice cores; distinguish the natural cycle from anthropogenic perturbations.
-- **Ice That Changes the Planet.** Sea-ice thermodynamics, glaciers, ice sheets, albedo, freshwater forcing, grounding lines and land ice versus floating ice. Distinguish measured loss, modeled dynamics and sea-level contributions.
-- **The Landscape Is Moving.** Weathering, erosion, rivers, sediment transport, tectonic uplift, mountain building and mass wasting. Connect rates and timescales without reprising a full deep-time history.
-- **Ocean, Air and the Pacific Oscillation.** El Niño/La Niña as a coupled instability; Walker circulation, sea-surface temperature, trade winds, upwelling and tropical rainfall; observational indices and forecast limits.
+- **Ocean, Air and the Pacific Oscillation.** El Nino/La Nina as a coupled ocean-atmosphere phenomenon; Walker circulation, sea-surface temperature, trade winds, thermocline tilt, upwelling, atmospheric teleconnections, observational indices, and forecast limitations. Distinguish pattern-based probabilistic outcomes from certain local weather forecasts.
+- **Weather's Extreme Events.** Convection, thunderstorms, tropical cyclones, atmospheric rivers, floods and droughts, with observational event attribution distinguished from hazard exposure.
 
-## Further possibilities
+## Additional coherent courses/chapters
 
-- **Weather's Extreme Events.** Thunderstorms, hurricanes, atmospheric rivers, drought, floods and fire weather. Separate the physical mechanism of an event from attribution and changing hazard exposure.
-- **Earth's Living Chemistry.** Nitrogen and phosphorus cycling, soils, wetlands, microbial transformations and oxygen; bridge into the ecology curriculum without reprising cellular metabolism.
-- **How We Know the Climate Past.** Instrumental records, tree rings, speleothems, marine sediments, ice cores, calibration and the uncertainty of age models. Contrast reconstruction with direct observation.
-- **Where Earth System Models Come From.** Conservation-law discretization, parameterizations, data assimilation, ensembles and limits of resolution. Avoid confusing an ensemble projection with an initial-condition weather forecast.
+- **Earth's Living Chemistry.** Nitrogen, phosphorus and oxygen cycles across soils, wetlands and oceans; connect to ecology without repeating cellular metabolism.
+- **How We Know the Climate Past.** Ice cores, tree rings, lake and ocean sediments, speleothems, chronologies and calibration. Avoid conflating reconstructed climate and directly observed climate.
+- **Where Earth System Models Come From.** Conservation laws, grid resolution, parameterizations, assimilation, ensembles and uncertainty. Separate initial-condition weather forecasts and forcing-conditional climate projections.
+- **The Changing Coast.** Sediment supply, sea-level change, tides, wave energy, estuaries, deltas and relative sea level.
 
-Do not introduce a fixed narration-duration quota. Develop coherent, substantive manuscripts as long as their subjects warrant, with full topic/place tags and evidence-linked narration anchors.
+## Completed from earlier plan
+
+- **Carbon on Many Clocks:** 005000; fast and slow carbon reservoirs, anthropogenic perturbation, observations and chemistry.
+- **Ice That Changes the Planet:** 006000; floating versus grounded ice, albedo, water and sea-level budgets.
+- **The Landscape Is Moving:** 007000; rock weathering, erosion, sediment transport, landslides and carbon consequences.
+
+New work should include source-linked narration claims, lecture-specific topic tags and grounded geographic tags, without fabricated chronology labels for physical mechanisms.

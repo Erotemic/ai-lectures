@@ -175,6 +175,146 @@
       "kind": "research_data_guide",
       "access": "free_no_login",
       "notes": "Observing-system strengths, vertical profiles and caveats about deep ocean, sea ice and coastal sampling."
+    },
+    "es-ipcc-carbon": {
+      "title": "IPCC AR6 Working Group I, Chapter 5, Global Carbon and other Biogeochemical Cycles and Feedbacks (2021)",
+      "url": "https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-5/",
+      "kind": "scientific_assessment",
+      "access": "free_no_login",
+      "notes": "Observed anthropogenic carbon budget partition in 2010-2019, isotopic and inventory attribution, carbon sinks and feedbacks."
+    },
+    "es-scripps-keeling": {
+      "title": "Scripps Institution of Oceanography, The Keeling Curve",
+      "url": "https://keelingcurve.ucsd.edu/",
+      "kind": "observing_program",
+      "access": "free_no_login",
+      "notes": "Mauna Loa measurements began in 1958; seasonal oscillation and long-term atmospheric CO2 trend."
+    },
+    "es-fluxnet": {
+      "title": "FLUXNET, About the FLUXNET Network",
+      "url": "https://fluxnet.org/about/",
+      "kind": "observing_program",
+      "access": "free_no_login",
+      "notes": "Eddy covariance observes carbon, water and energy fluxes at ecosystem-atmosphere interface; local footprint and gap processing matter."
+    },
+    "es-fluxnet2015": {
+      "title": "Pastorello et al., The FLUXNET2015 dataset and the ONEFlux processing pipeline, Scientific Data (2020)",
+      "url": "https://www.nature.com/articles/s41597-020-0534-3",
+      "kind": "peer_reviewed_data_paper",
+      "access": "free_no_login",
+      "notes": "Flux measurements, gap filling, separating ecosystem respiration from photosynthesis, and uncertainty estimates."
+    },
+    "es-oco2": {
+      "title": "NASA Jet Propulsion Laboratory, OCO-2 Measurement Approach",
+      "url": "https://ocov2.jpl.nasa.gov/science/measurement-approach/",
+      "kind": "mission_methodology",
+      "access": "free_no_login",
+      "notes": "Satellite XCO2 is inferred from reflected sunlight absorption; carbon sources/sinks require inverse atmospheric transport modeling."
+    },
+    "es-noaa-acid": {
+      "title": "NOAA Ocean Acidification Program, What is Ocean Acidification?",
+      "url": "https://oceanacidification.noaa.gov/what-is-ocean-acidification/",
+      "kind": "government_science_explainer",
+      "access": "free_no_login",
+      "notes": "Seawater carbonic acid/bicarbonate/carbonate chemistry, pH and monitoring."
+    },
+    "es-nasa-carbon": {
+      "title": "NASA Earth Observatory, The Carbon Cycle",
+      "url": "https://science.nasa.gov/earth/earth-observatory/the-carbon-cycle/",
+      "kind": "government_science_explainer",
+      "access": "free_no_login",
+      "notes": "Fast biological and slow geological carbon pathways, silicate weathering, sediment transport, rock formation."
+    },
+    "es-walker-weathering": {
+      "title": "Walker, Hays, and Kasting, A negative feedback mechanism for the long-term stabilization of Earth's surface temperature, JGR (1981)",
+      "url": "https://doi.org/10.1029/JC086iC10p09776",
+      "kind": "peer_reviewed_research",
+      "access": "free_no_login",
+      "notes": "Original 1981 hypothesis for long-term temperature-dependent silicate weathering feedback; explicitly qualified in original abstract."
+    },
+    "es-nature-himalaya": {
+      "title": "Märki et al., An unshakable carbon budget for the Himalaya, Nature Geoscience (2021)",
+      "url": "https://www.nature.com/articles/s41561-021-00815-z",
+      "kind": "peer_reviewed_research",
+      "access": "free_no_login",
+      "notes": "2015 Gorkha earthquake catchment; study distinguishes organic and inorganic pathways and reports muted integrated basin budget response."
+    },
+    "es-nsidc-seaice": {
+      "title": "National Snow and Ice Data Center, Science of Sea Ice",
+      "url": "https://nsidc.org/learn/parts-cryosphere/sea-ice/science-sea-ice",
+      "kind": "scientific_institution_explainer",
+      "access": "free_no_login",
+      "notes": "Sea-ice formation, albedo, melt ponds and ocean-ice energy exchanges."
+    },
+    "es-nsidc-floating": {
+      "title": "National Snow and Ice Data Center, Does Sea Ice Melt Raise Sea Level? (2025)",
+      "url": "https://nsidc.org/learn/ask-scientist/does-sea-ice-melt-raise-sea-level",
+      "kind": "scientific_institution_explainer",
+      "access": "free_no_login",
+      "notes": "Archimedean displacement with subtle freshwater/seawater density correction; direct effect very small."
+    },
+    "es-nsidc-shelves": {
+      "title": "National Snow and Ice Data Center, The Science of Ice Shelves",
+      "url": "https://nsidc.org/learn/parts-cryosphere/ice-shelves/science-ice-shelves",
+      "kind": "scientific_institution_explainer",
+      "access": "free_no_login",
+      "notes": "Grounding line, buttressing and documented glacier acceleration after Larsen B collapse in 2002."
+    },
+    "es-nasa-ice-sheets": {
+      "title": "NASA Science, Ice Sheets, Earth Indicator",
+      "url": "https://science.nasa.gov/earth/explore/earth-indicators/ice-sheets/",
+      "kind": "observing_program",
+      "access": "free_no_login",
+      "notes": "Satellite gravimetry record of mass loss from Greenland and Antarctica with period-specific updates."
+    },
+    "es-jpl-grace": {
+      "title": "NASA JPL, GRACE Follow-On",
+      "url": "https://science.jpl.nasa.gov/projects/grace-fo/",
+      "kind": "mission_methodology",
+      "access": "free_no_login",
+      "notes": "Gravity variations indicate changing mass distributions including ice, soil water and oceans."
+    },
+    "es-nasa-ice-altimetry": {
+      "title": "NASA Earth Observatory, Taking a Measure of Sea Level Rise: Ice Height",
+      "url": "https://science.nasa.gov/earth/earth-observatory/taking-a-measure-of-sea-level-rise-ice-height-147438/",
+      "kind": "mission_methodology",
+      "access": "free_no_login",
+      "notes": "What radar and laser altimetry measure about surface elevation, including snow penetration and coverage limits."
+    },
+    "es-usgs-glacier-balance": {
+      "title": "USGS, Compiled Input Data and Glacier-Wide Mass Balances (data release, updated 2026)",
+      "url": "https://catalog.data.gov/dataset/glacier-wide-mass-balance-and-compiled-data-inputs-usgs-benchmark-glaciers",
+      "kind": "observational_dataset",
+      "access": "free_no_login",
+      "notes": "Field stake and snow observations, water equivalent mass balance and geodetic calibration for glaciers."
+    },
+    "es-usgs-sediment": {
+      "title": "USGS Water Science School, Sediment and Suspended Sediment (updated 2026)",
+      "url": "https://www.usgs.gov/water-science-school/science/sediment-and-suspended-sediment",
+      "kind": "government_science_explainer",
+      "access": "free_no_login",
+      "notes": "Suspended sediment, deposition and the possibility of large storm contributions to annual sediment discharge."
+    },
+    "es-usgs-fluvial": {
+      "title": "USGS, Fluvial Sediments: Source, Transportation, Deposition, and Measurement (1963)",
+      "url": "https://www.usgs.gov/publications/fluvial-sediments-a-summary-source-transportation-deposition-and-measurement-sediment",
+      "kind": "technical_research_report",
+      "access": "free_no_login",
+      "notes": "Suspended sediment, bedload, sediment sources, transport and measurement challenges."
+    },
+    "es-usgs-landslides": {
+      "title": "USGS, What is a Landslide and What Causes One?",
+      "url": "https://www.usgs.gov/faqs/what-a-landslide-and-what-causes-one",
+      "kind": "government_science_explainer",
+      "access": "free_no_login",
+      "notes": "Landslide motion classes, gravity, material strength and common hydrological/geophysical triggers."
+    },
+    "es-nps-slopes": {
+      "title": "National Park Service, Landslide Hazards",
+      "url": "https://www.nps.gov/subjects/geohazards/landslide-hazards.htm",
+      "kind": "government_science_explainer",
+      "access": "free_no_login",
+      "notes": "Pore pressure, slope saturation, lateral support and earthquake-triggered mass movement."
     }
   }
 }
