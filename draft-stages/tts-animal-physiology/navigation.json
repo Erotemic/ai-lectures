@@ -8,7 +8,7 @@
       "categories": [
         "Science and nature"
       ],
-      "summary": "An expanding path through regulation, oxygen exchange, circulation, water, nutrition, movement and neural signaling; each lecture stands on its own, and specialist routes remain optional.",
+      "summary": "An expanding path through internal regulation, movement and sensory physiology, from oxygen and water to mechanoreceptors, eyes, chemical sensing and electric or thermal information. Specialist routes remain optional.",
       "chapters": [
         {
           "title": "The Environment Inside an Animal",
@@ -51,6 +51,24 @@
           "lectures": [
             "007000"
           ]
+        },
+        {
+          "title": "How a Body Knows Where It Is",
+          "lectures": [
+            "008000"
+          ]
+        },
+        {
+          "title": "What Light Becomes",
+          "lectures": [
+            "009000"
+          ]
+        },
+        {
+          "title": "Senses Without a Picture",
+          "lectures": [
+            "010000"
+          ]
         }
       ]
     },
@@ -92,7 +110,7 @@
       "title": "How Animals Work · Movement and Control",
       "role": "deep_dive",
       "parent": "how-animals-work",
-      "summary": "How molecular force becomes locomotion, and how neuronal excitability and local circuits organize action.",
+      "summary": "How molecular force becomes movement, how electrical signals travel and how proprioceptors and balance organs close the control loop.",
       "tags": [
         "Animal locomotion",
         "Neural signaling",
@@ -100,7 +118,28 @@
       ],
       "lectures": [
         "006000",
-        "007000"
+        "007000",
+        "008000"
+      ]
+    },
+    {
+      "id": "sensory-physiology",
+      "title": "How Animals Work · Sensing and Perception",
+      "role": "deep_dive",
+      "parent": "how-animals-work",
+      "summary": "The physical mechanisms of touch, balance, hearing, light, chemical sensing, electroreception and infrared detection. Start with neural signals for extra cellular context.",
+      "tags": [
+        "Sensory physiology",
+        "Mechanoreception",
+        "Vision",
+        "Chemoreception",
+        "Electroreception"
+      ],
+      "lectures": [
+        "007000",
+        "008000",
+        "009000",
+        "010000"
       ]
     }
   ]

@@ -1,0 +1,298 @@
+{
+  "schema_version": 1,
+  "lecture_id": "008000",
+  "transcript": "008000-how-a-body-knows-where-it-is.md",
+  "description": "Explains how mechanoreceptors report touch and movement, then follows related physics through proprioception, insect strain sensors, fish lateral lines, vestibular organs and hearing.",
+  "tags": [
+    "Sensory physiology",
+    "Mechanoreception",
+    "Touch",
+    "Mechanotransduction",
+    "Sensory adaptation",
+    "Merkel cells",
+    "Meissner corpuscles",
+    "Pacinian corpuscles",
+    "Proprioception",
+    "Muscle spindle",
+    "Golgi tendon organ",
+    "Campaniform sensilla",
+    "Chordotonal organs",
+    "Hair cells",
+    "Stereocilia",
+    "Neuromast",
+    "Fish lateral line",
+    "Vestibular system",
+    "Semicircular canals",
+    "Otolith organs",
+    "Vestibulo-ocular reflex",
+    "Auditory transduction",
+    "Cochlea",
+    "Tonotopy",
+    "Outer hair cells"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Nervous systems",
+      "Somatosensory system",
+      "Mechanoreception"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Nervous systems",
+      "Somatosensory system",
+      "Sensory adaptation"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Nervous systems",
+      "Proprioception",
+      "Muscle spindle"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Nervous systems",
+      "Proprioception",
+      "Golgi tendon organ"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Comparative physiology",
+      "Insects",
+      "Campaniform sensilla"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Comparative physiology",
+      "Insects",
+      "Chordotonal organs"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Sensory organs",
+      "Mechanotransduction",
+      "Hair cells"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Sensory organs",
+      "Fish lateral line",
+      "Neuromast"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Sensory organs",
+      "Vestibular system",
+      "Semicircular canals"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Sensory organs",
+      "Vestibular system",
+      "Otolith organs"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Sensory organs",
+      "Hearing",
+      "Cochlea"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Sensory organs",
+      "Hearing",
+      "Tonotopy"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Sensory organs",
+      "Hearing",
+      "Outer hair cells"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "ap-sensory-touch2001",
+      "reason": "Differential coding by tactile afferents."
+    },
+    {
+      "source_id": "ap-sensory-proprio2012",
+      "reason": "Proprioceptive inputs and position estimation."
+    },
+    {
+      "source_id": "ap-sensory-insect2016",
+      "reason": "Insect cuticle-based load and motion receptors."
+    },
+    {
+      "source_id": "ap-sensory-hair2014",
+      "reason": "Biophysical transduction in hair cells."
+    },
+    {
+      "source_id": "ap-sensory-lateral2009",
+      "reason": "Fish neuromast mechanics."
+    },
+    {
+      "source_id": "ap-sensory-lateral2018",
+      "reason": "Behavioral manipulations of lateral-line sensing."
+    },
+    {
+      "source_id": "ap-sensory-vestibular2001",
+      "reason": "Otoliths, canals and eye stabilization."
+    },
+    {
+      "source_id": "ap-sensory-hearing2001",
+      "reason": "Cochlear wave, active amplification and frequency coding."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "008000-e01",
+      "anchor": "Merkel cell–nerve complexes respond particularly well",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-sensory-touch2001"
+      ],
+      "source_locator": "Tactile receptor tuning",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "008000-e02",
+      "anchor": "Some sensory neurons generate action potentials themselves",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-sensory-touch2001",
+        "ap-sensory-hair2014"
+      ],
+      "source_locator": "Receptor versus afferent transduction",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "008000-e03",
+      "anchor": "muscle spindles respond to changes in muscle length",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-sensory-proprio2012"
+      ],
+      "source_locator": "Spindle length and velocity signals",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "008000-e04",
+      "anchor": "campaniform sensilla are deformed by strain in the cuticle",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-sensory-insect2016"
+      ],
+      "source_locator": "Campaniform sensilla",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "008000-e05",
+      "anchor": "When the bundle bends in one direction, tension",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-sensory-hair2014"
+      ],
+      "source_locator": "Hair bundle polarity and channels",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "008000-e06",
+      "anchor": "clusters of hair cells called neuromasts",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-sensory-lateral2009"
+      ],
+      "source_locator": "Neuromast definition",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "008000-e07",
+      "anchor": "In experimental work with larval fish, researchers have altered lateral-line function",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-sensory-lateral2018"
+      ],
+      "source_locator": "Ablation and behavioral comparison",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "008000-e08",
+      "anchor": "the semicircular canals, movement of fluid relative to the canal",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-sensory-vestibular2001"
+      ],
+      "source_locator": "Canal mechanics",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "008000-e09",
+      "anchor": "The vestibulo-ocular reflex stabilizes the image on the retina",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-sensory-vestibular2001"
+      ],
+      "source_locator": "Vestibular eye-movement stabilization",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "008000-e10",
+      "anchor": "Different frequencies have different locations of maximal movement",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-sensory-hearing2001"
+      ],
+      "source_locator": "Frequency place map",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "008000-e11",
+      "anchor": "Outer hair cells in mammalian cochleae change length",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-sensory-hearing2001"
+      ],
+      "source_locator": "Active amplifier",
+      "audit_status": "source_checked"
+    }
+  ],
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Electrical signaling, transduction and feedback are introduced within this recording; neural chapter 007000 is useful but optional."
+    ],
+    "readiness_checks": [
+      "What is the distinction between a receptor current and the experience or behavior produced by a sense?",
+      "Why is a muscle spindle not simply a passive angle sensor?",
+      "How does the same hair-cell transduction mechanism serve both a fish lateral line and a mammalian cochlea?"
+    ]
+  }
+}

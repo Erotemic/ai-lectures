@@ -13,18 +13,23 @@ An independent, audio-first nature-and-science content pack about the physical a
 | 005000 | How Food Becomes an Animal | Digestion and absorption, energy budgets, rumen and hindgut fermentation, gut microbes and plastic digestive capacity. |
 | 006000 | What Muscles Pull Against | Sarcomeres, ATP and calcium, skeletons and muscular hydrostats, tendons, locomotion and cost of transport. |
 | 007000 | How a Nerve Signal Travels | Ionic gradients, action potentials, the squid axon, synapses, myelin and distributed arm control in octopuses. |
+| 008000 | How a Body Knows Where It Is | Touch, body position, insect strain sensors, hair cells, lateral-line flow, vestibular balance and hearing. |
+| 009000 | What Light Becomes | Photons, retinal transduction, eye optics, sensitivity, color information and mantis-shrimp behavior experiments. |
+| 010000 | Senses Without a Picture | Chemical patterns, insect odor tracking, contact taste, electroreception and infrared pit organs. |
 
-The course is **in progress**, not a completed finite survey. These seven chapters constitute a coherent first movement through physiological systems; follow-up chapters can deepen the physiology without extending the finished `tts-living-world` and `tts-physical-world` surveys or duplicating their nature-story framing. `tts-cell-biology-genetics` offers optional molecular background. No other pack needs to be changed to import this one.
+The course is **in progress**, not a completed finite survey. These ten chapters constitute a coherent first movement through physiological systems; follow-up chapters can deepen the physiology without extending the finished `tts-living-world` and `tts-physical-world` surveys or duplicating their nature-story framing. `tts-cell-biology-genetics` offers optional molecular background. No other pack needs to be changed to import this one.
 
 ## Files and authoring contract
 
 - `track.json`: stable lecture order, broad course tags, lecture-specific flat tags, and explicit sections.
-- `navigation.json`: expanded main listening path plus deep dives on exchange/transport, comparative solutions, and movement/control.
+- `navigation.json`: expanded main listening path plus deep dives on exchange/transport, comparative solutions, movement/control, and sensory physiology.
 - `metadata/NNNNNN.json`: discovery descriptions, explicit coarse-to-fine `tag_paths`, relevant article or textbook sources, source-checked narration anchors, and lecture learning notes.
 - `metadata/sources.json`: a pack-local catalog of primary papers, scholarly reviews and open textbooks.
 - `NNNNNN-*.md`: narrated lecture between spoken markers, followed by scientific notes, equations, and reference links outside the TTS region.
 
-Track tags are intentionally broad. More specific terms (for example `Bohr effect`, `Nephron`, `Revised Starling principle`, `Cecotrophy`) belong on the appropriate lectures, not across the entire course. For geography, the Mojave Desert is associated with lecture 004000 because that manuscript discusses an identified field investigation there. The new movement and nerve chapters reference historically dated experiments (sliding filaments in 1954; squid-axon conductance studies in 1952), but their subject is biological mechanism, so those publication years belong in sources and evidence anchors rather than top-level period-coverage fields. General physiological mechanisms are not assigned artificial years, historical periods, or locations. References' publication dates are bibliographic data, not chronology covering the lecture itself.
+Track tags are intentionally broad. More specific terms (for example `Bohr effect`, `Nephron`, `Revised Starling principle`, `Cecotrophy`) belong on the appropriate lectures, not across the entire course. For geography, the Mojave Desert is associated with lecture 004000 because that manuscript discusses an identified field investigation there. The movement and nerve chapters reference historically dated experiments (sliding filaments in 1954; squid-axon conductance studies in 1952), but their subject is biological mechanism, so those publication years belong in sources and evidence anchors rather than top-level period-coverage fields. General physiological mechanisms are not assigned artificial years, historical periods, or locations. References' publication dates are bibliographic data, not chronology covering the lecture itself.
+
+The sensory chapters discuss dated experimental work on rods (1979), olfactory receptors (1991), insect OR channels (2008), snake infrared receptors (2010), and mantis-shrimp color (2014). Their mechanisms are not assigned artificial place or period tags; years remain in evidence records and reading notes.
 
 The recorded `spoken_words` and estimated speaking times are **descriptive measurements**, never an editorial minimum, maximum or target.
 

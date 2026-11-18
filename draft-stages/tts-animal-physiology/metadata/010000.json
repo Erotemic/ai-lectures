@@ -1,0 +1,347 @@
+{
+  "schema_version": 1,
+  "lecture_id": "010000",
+  "transcript": "010000-senses-without-a-picture.md",
+  "description": "Compares odor coding and plume tracking, contact taste, snake chemical sampling, passive and active electroreception, and infrared pit organs while separating receptor mechanisms from demonstrated behavior.",
+  "tags": [
+    "Sensory physiology",
+    "Chemoreception",
+    "Olfaction",
+    "Odorant receptors",
+    "G protein-coupled receptors",
+    "Combinatorial odor coding",
+    "Insect odorant receptors",
+    "Orco",
+    "Odor plumes",
+    "Anemotaxis",
+    "Gustation",
+    "Contact chemoreception",
+    "Butterfly tarsal chemosensors",
+    "Snake vomeronasal system",
+    "Forked tongue",
+    "Trail following",
+    "Electroreception",
+    "Ampullae of Lorenzini",
+    "Passive electroreception",
+    "Active electrolocation",
+    "Weakly electric fish",
+    "Electric organ discharge",
+    "Infrared sensing",
+    "Pit vipers",
+    "TRPA1",
+    "Thermoreception",
+    "Sensory ecology"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Sensory organs",
+      "Chemoreception",
+      "Olfaction",
+      "Odorant receptors"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Sensory organs",
+      "Chemoreception",
+      "Olfaction",
+      "Combinatorial coding"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Sensory organs",
+      "Chemoreception",
+      "Insects",
+      "Orco"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Sensory organs",
+      "Chemoreception",
+      "Odor plumes",
+      "Anemotaxis"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Sensory organs",
+      "Chemoreception",
+      "Gustation",
+      "Contact chemoreception"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Comparative physiology",
+      "Lepidoptera",
+      "Tarsal chemoreceptors"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Comparative physiology",
+      "Snakes",
+      "Vomeronasal system"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Sensory organs",
+      "Electroreception",
+      "Ampullae of Lorenzini"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Sensory organs",
+      "Electroreception",
+      "Passive electroreception"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Sensory organs",
+      "Electroreception",
+      "Active electrolocation"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Comparative physiology",
+      "Weakly electric fish",
+      "Electric organ discharge"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Sensory organs",
+      "Thermoreception",
+      "Infrared sensing"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Comparative physiology",
+      "Pit vipers",
+      "TRPA1"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Nervous systems",
+      "Sensory ecology",
+      "Active sensing"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "ap-chem-buck1991",
+      "reason": "Discovery of mammalian odorant receptor gene family."
+    },
+    {
+      "source_id": "ap-chem-sato2008",
+      "reason": "Insect OR/Orco channel function."
+    },
+    {
+      "source_id": "ap-chem-comparison2010",
+      "reason": "Comparison of olfactory mechanisms."
+    },
+    {
+      "source_id": "ap-chem-plumes2021",
+      "reason": "Turbulent plume tracking."
+    },
+    {
+      "source_id": "ap-chem-temporal2023",
+      "reason": "Evidence for timing and intermittency of odor contacts."
+    },
+    {
+      "source_id": "ap-chem-butterfly2022",
+      "reason": "Contact chemosensation in a butterfly."
+    },
+    {
+      "source_id": "ap-chem-schwenk1994",
+      "reason": "Forked tongue edge detector hypothesis."
+    },
+    {
+      "source_id": "ap-chem-parker2008",
+      "reason": "Test that did not support simple lateral edge detection in a particular task."
+    },
+    {
+      "source_id": "ap-electric-vonderemde1999",
+      "reason": "Active electric field generation and sensing."
+    },
+    {
+      "source_id": "ap-electric-skate2017",
+      "reason": "Molecular mechanism of passive fish electroreception."
+    },
+    {
+      "source_id": "ap-thermal-gracheva2010",
+      "reason": "Snake pit-organ TRPA1 thermal detection."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "010000-e01",
+      "anchor": "In mammals, much of the main olfactory system",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-chem-buck1991",
+        "ap-chem-comparison2010"
+      ],
+      "source_locator": "Vertebrate main olfactory GPCRs",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "010000-e02",
+      "anchor": "In 1991, Linda Buck and Richard Axel reported",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-chem-buck1991"
+      ],
+      "source_locator": "1991 odorant receptor gene family",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "010000-e03",
+      "anchor": "Experiments reported in 2008 by Koji Sato",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-chem-sato2008"
+      ],
+      "source_locator": "Insect OR/Orco functional channels",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "010000-e04",
+      "anchor": "Real plumes in turbulent air are often broken into filaments and gaps",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-chem-plumes2021",
+        "ap-chem-temporal2023"
+      ],
+      "source_locator": "Intermittent plume transport",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "010000-e05",
+      "anchor": "some butterflies sample surfaces with their feet",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-chem-butterfly2022"
+      ],
+      "source_locator": "Tarsal chemoreceptors",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "010000-e06",
+      "anchor": "A snake can collect molecules on a forked tongue",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-chem-schwenk1994"
+      ],
+      "source_locator": "Vomeronasal chemical collection",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "010000-e07",
+      "anchor": "A 2008 experiment on rattlesnakes that interrupted input",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-chem-parker2008"
+      ],
+      "source_locator": "Unilateral denervation and failure to support the tested edge model",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "010000-e08",
+      "anchor": "Sharks and rays have arrays of electroreceptive structures",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-electric-skate2017"
+      ],
+      "source_locator": "Ampullary system",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "010000-e09",
+      "anchor": "Research on the little skate has identified specialized properties",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-electric-skate2017"
+      ],
+      "source_locator": "CaV1.3 and BK channel properties",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "010000-e10",
+      "anchor": "Weakly electric fishes can produce electrical discharges",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-electric-vonderemde1999"
+      ],
+      "source_locator": "Active electrolocation",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "010000-e11",
+      "anchor": "Gerhard von der Emde's work on weakly electric fishes",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-electric-vonderemde1999"
+      ],
+      "source_locator": "Object recognition and exploration",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "010000-e12",
+      "anchor": "Some pit-bearing snakes have a sensitive facial organ",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-thermal-gracheva2010"
+      ],
+      "source_locator": "Pit organ and radiant heat",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "010000-e13",
+      "anchor": "In a 2010 study, Elena Gracheva and colleagues",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-thermal-gracheva2010"
+      ],
+      "source_locator": "TRPA1 experiments",
+      "audit_status": "source_checked"
+    }
+  ],
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Requires no advanced chemistry. Receptors, electrical fields, and infrared radiation are defined in the text."
+    ],
+    "readiness_checks": [
+      "Why is an insect odor plume not generally a smooth concentration gradient?",
+      "What distinguishes passive electroreception from active electrolocation?",
+      "What did the rattlesnake denervation experiment fail to support, and what did it not disprove?",
+      "Why is pit-organ infrared sensing not the same molecular process as visual phototransduction?"
+    ]
+  }
+}

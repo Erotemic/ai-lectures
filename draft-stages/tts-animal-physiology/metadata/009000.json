@@ -1,0 +1,333 @@
+{
+  "schema_version": 1,
+  "lecture_id": "009000",
+  "transcript": "009000-what-light-becomes.md",
+  "description": "From photons and opsins to retinal currents and visual decisions: explains phototransduction, dim-light noise, optical resolution, compound eyes, color discrimination and the mantis-shrimp paradox.",
+  "tags": [
+    "Sensory physiology",
+    "Vision",
+    "Photoreception",
+    "Phototransduction",
+    "Opsins",
+    "Retinal chromophore",
+    "Photon noise",
+    "Rod photoreceptors",
+    "Cone photoreceptors",
+    "Transducin",
+    "Cyclic GMP",
+    "Retinal circuits",
+    "Bipolar cells",
+    "Ganglion cells",
+    "Visual acuity",
+    "Diffraction",
+    "Eye optics",
+    "Compound eyes",
+    "Ommatidia",
+    "Color vision",
+    "Spectral discrimination",
+    "Ultraviolet vision",
+    "Polarization vision",
+    "Mantis shrimp",
+    "Stomatopods",
+    "Baylor-Lamb-Yau experiment",
+    "Eye evolution",
+    "Active vision"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Sensory organs",
+      "Vision",
+      "Photoreception"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Sensory organs",
+      "Vision",
+      "Phototransduction",
+      "Opsins"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Sensory organs",
+      "Vision",
+      "Phototransduction",
+      "Cyclic GMP"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Sensory organs",
+      "Vision",
+      "Retina",
+      "Rod photoreceptors"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Sensory organs",
+      "Vision",
+      "Retina",
+      "Ganglion cells"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Sensory organs",
+      "Vision",
+      "Optics",
+      "Diffraction"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Sensory organs",
+      "Vision",
+      "Optics",
+      "Visual acuity"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Comparative physiology",
+      "Arthropods",
+      "Compound eyes"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Comparative physiology",
+      "Stomatopods",
+      "Color vision"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Sensory organs",
+      "Vision",
+      "Color vision",
+      "Spectral discrimination"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Sensory organs",
+      "Vision",
+      "Color vision",
+      "Ultraviolet vision"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Sensory organs",
+      "Vision",
+      "Polarization vision"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Evolution",
+      "Eye evolution",
+      "Visual tasks"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "History of physiology",
+      "Retinal electrophysiology",
+      "Single photon detection"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "ap-vision-phototransduction",
+      "reason": "Molecular and electrical stages of rod phototransduction."
+    },
+    {
+      "source_id": "ap-vision-nilsson2013",
+      "reason": "Function-based comparative eye evolution."
+    },
+    {
+      "source_id": "ap-vision-land2012",
+      "reason": "Resolution, aperture and dim-light tradeoffs."
+    },
+    {
+      "source_id": "ap-vision-baylor1979",
+      "reason": "Single-rod electrical events."
+    },
+    {
+      "source_id": "ap-vision-nilsson2021",
+      "reason": "Evolution and functional diversity of visual tasks."
+    },
+    {
+      "source_id": "ap-vision-thoen2014",
+      "reason": "Mantis-shrimp behavioral wavelength discrimination."
+    },
+    {
+      "source_id": "ap-vision-stomatopod2022",
+      "reason": "Later qualification of stomatopod color-vision interpretation."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "009000-e01",
+      "anchor": "A photoreceptor cell contains a pigment",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-vision-phototransduction"
+      ],
+      "source_locator": "Opsin and chromophore",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "009000-e02",
+      "anchor": "Add shading pigment on one side and the sensor becomes directional",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-vision-nilsson2013"
+      ],
+      "source_locator": "Functional directional photoreception",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "009000-e03",
+      "anchor": "Each receptor must gather enough photons",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-vision-land2012"
+      ],
+      "source_locator": "Resolution and sensitivity tradeoff",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "009000-e04",
+      "anchor": "A compound eye, familiar from many insects",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-vision-nilsson2013"
+      ],
+      "source_locator": "Compound eye designs",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "009000-e05",
+      "anchor": "In darkness, their outer segments have a current",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-vision-phototransduction"
+      ],
+      "source_locator": "Dark current and cGMP",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "009000-e06",
+      "anchor": "In a 1979 study, Denis Baylor, Trevor Lamb and King-Wai Yau",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-vision-baylor1979"
+      ],
+      "source_locator": "Original single photon rod recording",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "009000-e07",
+      "anchor": "Photons arrive at random times",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-vision-land2012"
+      ],
+      "source_locator": "Photon shot noise and pooling",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "009000-e08",
+      "anchor": "A retina does more than pass along a grid of receptor outputs",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-vision-phototransduction"
+      ],
+      "source_locator": "Retinal processing",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "009000-e09",
+      "anchor": "Some birds and other vertebrates have four classes of cones",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-vision-nilsson2021"
+      ],
+      "source_locator": "Comparative spectral sensitivities",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "009000-e10",
+      "anchor": "Some stomatopod crustaceans have twelve receptor classes",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-vision-thoen2014"
+      ],
+      "source_locator": "Stomatopod receptor diversity",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "009000-e11",
+      "anchor": "controlled experiments published in 2014 by Hanne Thoen",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-vision-thoen2014"
+      ],
+      "source_locator": "Behavioral wavelength discrimination",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "009000-e12",
+      "anchor": "Later research has continued to investigate how this system functions",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-vision-stomatopod2022"
+      ],
+      "source_locator": "Subsequent behavioral investigation",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "009000-e13",
+      "anchor": "Eyes have taken different routes through pigment",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-vision-nilsson2013",
+        "ap-vision-nilsson2021"
+      ],
+      "source_locator": "Multiple eye designs and evolutionary history",
+      "audit_status": "source_checked"
+    }
+  ],
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "No advanced physics; photon wavelength, receptor voltage and experimental inference are explained. Nerve signaling 007000 is an optional companion."
+    ],
+    "readiness_checks": [
+      "Why does light hyperpolarize vertebrate rods rather than depolarize them?",
+      "Why does responding to a photon not guarantee a usable image in near darkness?",
+      "What do mantis-shrimp receptor counts establish, and what must be measured behaviorally?"
+    ]
+  }
+}
