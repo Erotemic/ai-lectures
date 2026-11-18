@@ -1,0 +1,98 @@
+{
+  "id": "information-theory",
+  "title": "Information Theory: From Questions to Communication",
+  "categories": [
+    "Mathematics"
+  ],
+  "summary": "Entropy and coding, dependency and noisy channels, and information divergence as a bridge between probability, communication, and statistics. Proof ideas, explicit binary calculations and hypotheses accompany the mathematical statements.",
+  "assumed_background": [
+    "Probability of discrete events, elementary logarithms, and willingness to work with sums."
+  ],
+  "sections": [
+    "entropy-and-source-coding",
+    "mutual-information-and-channels",
+    "divergence-and-statistics"
+  ],
+  "lectures": [
+    {
+      "id": "001000",
+      "title": "From Information to Compression: Entropy, Questions, and Codes",
+      "section": "entropy-and-source-coding",
+      "file": "001000-entropy-questions-and-lossless-coding.md",
+      "spoken_words": 2400,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 16.6,
+      "description": "Motivates entropy through optimal questions, derives prefix-tree constraints and relates expected code length to Shannon limits.",
+      "tags": [
+        "Information theory",
+        "Shannon entropy",
+        "Self-information",
+        "Prefix codes",
+        "Kraft inequality",
+        "Huffman coding"
+      ],
+      "tag_paths": [
+        [
+          "Mathematics",
+          "Information theory",
+          "Entropy and compression"
+        ]
+      ]
+    },
+    {
+      "id": "002000",
+      "title": "Information Through Noise: Dependence, Data Processing, and Channel Capacity",
+      "section": "mutual-information-and-channels",
+      "file": "002000-mutual-information-and-noisy-channels.md",
+      "spoken_words": 2636,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 18.2,
+      "description": "Calculates dependency from a noisy messenger, proves data processing via chain rules, and explains binary-channel capacity and reliable coding.",
+      "tags": [
+        "Information theory",
+        "Conditional entropy",
+        "Mutual information",
+        "Data processing inequality",
+        "Channel capacity",
+        "Error-correcting codes"
+      ],
+      "tag_paths": [
+        [
+          "Mathematics",
+          "Information theory",
+          "Mutual information and channels"
+        ]
+      ]
+    },
+    {
+      "id": "003000",
+      "title": "Why a Wrong Probability Costs Logarithmic Evidence",
+      "section": "divergence-and-statistics",
+      "file": "003000-divergence-log-loss-and-statistical-learning.md",
+      "spoken_words": 1145,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.9,
+      "description": "Derives KL as excess expected log loss and ties it to likelihood estimation, calibration and limits of fitting.",
+      "tags": [
+        "Information theory",
+        "Kullback-Leibler divergence",
+        "Cross-entropy",
+        "Log loss",
+        "Maximum likelihood",
+        "Probabilistic forecasting"
+      ],
+      "tag_paths": [
+        [
+          "Mathematics",
+          "Information theory",
+          "Statistical learning"
+        ]
+      ]
+    }
+  ],
+  "tags": [
+    "Mathematics",
+    "Information theory",
+    "Mathematical connections"
+  ]
+}

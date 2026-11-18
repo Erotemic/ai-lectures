@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "sources": {
+    "fm-openstax-precalc": {
+      "title": "OpenStax, Precalculus 2e (2021), functions, algebraic models, exponentials and trigonometry",
+      "kind": "open_textbook",
+      "url": "https://openstax.org/books/precalculus-2e/pages/preface",
+      "access": "free_no_login",
+      "notes": "Chapters 1-8; domains, graphs, transformations, power laws, exponential/logarithmic functions and trigonometry."
+    },
+    "fm-feynman-time": {
+      "title": "Richard Feynman, Robert Leighton, and Matthew Sands, The Feynman Lectures on Physics, Volume I, Chapter 5, Time and Distance",
+      "kind": "open_textbook",
+      "url": "https://www.feynmanlectures.caltech.edu/I_05.html",
+      "access": "free_no_login",
+      "notes": "Measurement and the roles of units, lengths and time; dimensional checks in manuscripts are independently calculated."
+    },
+    "fm-openstax-calculus": {
+      "title": "OpenStax, Calculus Volume 2, differential equations, exponential growth and decay",
+      "kind": "open_textbook",
+      "url": "https://openstax.org/details/books/calculus-volume-2",
+      "access": "free_no_login",
+      "notes": "Exponential models and differential-equation connections."
+    },
+    "fm-mit-signals": {
+      "title": "Dennis Freeman, MIT OpenCourseWare 6.003 Signals and Systems (Fall 2011), lecture notes",
+      "kind": "university_course_notes",
+      "url": "https://ocw.mit.edu/courses/6-003-signals-and-systems-fall-2011/pages/lecture-notes/",
+      "access": "free_no_login",
+      "notes": "Periodic signals, complex exponentials, Fourier transforms, sampling and aliasing (lectures 14-22)."
+    },
+    "fm-openstax-stats": {
+      "title": "OpenStax, Introductory Statistics 2e, regression and fitted models",
+      "kind": "open_textbook",
+      "url": "https://openstax.org/details/books/introductory-statistics-2e",
+      "access": "free_no_login",
+      "notes": "Least squares, prediction, and residuals. The three-point data are a new original example."
+    },
+    "fm-nist": {
+      "title": "NIST/SEMATECH e-Handbook of Statistical Methods",
+      "kind": "government_statistics_handbook",
+      "url": "https://www.itl.nist.gov/div898/handbook/",
+      "access": "free_no_login",
+      "notes": "Regression diagnostics, model checks, uncertainty and limitations."
+    }
+  }
+}

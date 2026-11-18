@@ -99,12 +99,13 @@
       "title": "Discrete Mathematics · Codes, Fourier Methods, and Pseudorandomness",
       "role": "deep_dive",
       "lectures": [
+        "043000",
         "020000",
         "036000"
       ],
       "parent": "survey",
       "assumed_background": [
-        "Finite fields/linear algebra, probability and Fourier coefficient manipulations introduced locally."
+        "Finite groups and elementary complex numbers are introduced in 043000; 020000/036000 continue into more advanced coding and pseudorandomness."
       ],
       "preparation_collections": [
         "discrete-mathematics:survey"
@@ -113,6 +114,35 @@
         "Coding theory",
         "Harmonic analysis",
         "Derandomization"
+      ]
+    },
+    {
+      "id": "fourier-connections",
+      "title": "One Fourier Principle: Cyclic Groups to Random Walks",
+      "role": "deep_dive",
+      "parent": "survey",
+      "lectures": [
+        "043000",
+        "020000",
+        "036000"
+      ],
+      "assumed_background": [
+        "Functions, trigonometric periodicity and elementary probability; later lectures add proof and coding background."
+      ],
+      "preparation_collections": [
+        "functions-and-modeling:main",
+        "probability-measure:main"
+      ],
+      "related_collections": [
+        "differential-equations:survey",
+        "information-theory:main",
+        "number-theory:survey"
+      ],
+      "tags": [
+        "Fourier analysis",
+        "Harmonic analysis",
+        "Random walks",
+        "Probability"
       ]
     }
   ]

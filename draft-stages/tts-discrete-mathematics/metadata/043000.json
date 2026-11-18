@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "lecture_id": "043000",
+  "transcript": "043000-one-fourier-principle-many-spaces.md",
+  "description": "A finite, exact Fourier calculation links convolution, graph walk periodicity, and diffusion; broader variants clarify the roles of characters and operator eigenfunctions.",
+  "tags": [
+    "Fourier analysis",
+    "Discrete Fourier transform",
+    "Finite cyclic groups",
+    "Convolution",
+    "Probability characteristic functions",
+    "Graph Laplacians"
+  ],
+  "tag_paths": [
+    [
+      "Mathematics",
+      "Discrete mathematics",
+      "Fourier analysis",
+      "Cyclic groups"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "dm-tao-finite-fourier",
+      "reason": "Mathematical background and rigorous definitions of Fourier modes, translation, convolution or eigenvectors."
+    },
+    {
+      "source_id": "dm-mit-signals-2011",
+      "reason": "Mathematical background and rigorous definitions of Fourier modes, translation, convolution or eigenvectors."
+    },
+    {
+      "source_id": "dm-yale-spectral",
+      "reason": "Mathematical background and rigorous definitions of Fourier modes, translation, convolution or eigenvectors."
+    },
+    {
+      "source_id": "dm-mit-information-2016",
+      "reason": "Mathematical background and rigorous definitions of Fourier modes, translation, convolution or eigenvectors."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original synthesis, four-cycle calculation, narration, companion and exercises."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "functions-and-modeling:003000",
+        "reason": "Radians, periodic waves, frequency, and phase."
+      },
+      {
+        "lecture_id": "probability-measure:009000",
+        "reason": "Random walks and stationary distributions."
+      }
+    ],
+    "background": [
+      "Elementary complex numbers are introduced through rotating phases; linear algebra supports the eigenmode proof."
+    ],
+    "readiness_checks": [
+      "Prove the finite cyclic convolution identity.",
+      "Explain the non-mixing -1 eigenvalue on a four-cycle and why laziness repairs it."
+    ]
+  },
+  "claim_evidence": [
+    {
+      "id": "dm-043000-c001",
+      "anchor": "The coefficients are its discrete Fourier transform.",
+      "source_ids": [
+        "dm-tao-finite-fourier"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Narrated exposition and mathematical companion",
+      "evidence_detail": "Fourier characters of Z/NZ provide a complete eigenbasis for translations."
+    },
+    {
+      "id": "dm-043000-c002",
+      "anchor": "A finite connected random walk need not converge to the uniform distribution at each time.",
+      "source_ids": [
+        "dm-yale-spectral",
+        "dm-tao-finite-fourier"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Worked four-cycle calculation in narration and companion",
+      "evidence_detail": "The eigenvalue -1 in the four-cycle simple random walk produces period-two oscillation; adding laziness changes all nonconstant spectral magnitudes to below one."
+    }
+  ]
+}

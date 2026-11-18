@@ -21,7 +21,8 @@
     "property-testing",
     "local-correction-list-decoding",
     "hypergraph-matchings-absorption",
-    "quasirandom-four-cycles"
+    "quasirandom-four-cycles",
+    "fourier-connections-across-spaces"
   ],
   "lectures": [
     {
@@ -285,6 +286,32 @@
         "Quasirandomness",
         "Counting methods",
         "Spectral graph theory"
+      ]
+    },
+    {
+      "id": "043000",
+      "title": "One Fourier Principle in Several Different Mathematical Worlds",
+      "section": "fourier-connections-across-spaces",
+      "file": "043000-one-fourier-principle-many-spaces.md",
+      "spoken_words": 1616,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 11.1,
+      "description": "Connects finite cyclic characters and convolution to a four-cycle random walk, diffusion, characteristic functions, and arithmetic characters.",
+      "tags": [
+        "Fourier analysis",
+        "Discrete Fourier transform",
+        "Cyclic groups",
+        "Convolution",
+        "Random walks",
+        "Spectral theory"
+      ],
+      "tag_paths": [
+        [
+          "Mathematics",
+          "Discrete mathematics",
+          "Fourier analysis",
+          "Finite groups"
+        ]
       ]
     }
   ],

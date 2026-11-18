@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "lecture_id": "003000",
+  "transcript": "003000-trigonometry-rotations-and-periodic-signals.md",
+  "description": "Introduces sine and cosine through rotations, defines amplitude/frequency/phase, and demonstrates a sampling ambiguity.",
+  "tags": [
+    "Trigonometry",
+    "Radian measure",
+    "Sinusoids",
+    "Frequency",
+    "Aliasing"
+  ],
+  "tag_paths": [
+    [
+      "Mathematics",
+      "Foundations",
+      "Functions and modeling",
+      "Trigonometry"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "fm-openstax-precalc",
+      "reason": "Provides core mathematical definitions, standard theorems and relevant derivations; lecture explanation and worked examples are authored independently."
+    },
+    {
+      "source_id": "fm-mit-signals",
+      "reason": "Provides core mathematical definitions, standard theorems and relevant derivations; lecture explanation and worked examples are authored independently."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original narration, independently calculated examples, mathematical companions and exercises."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "functions-and-modeling:001000",
+        "reason": "Conceptual and mathematical preparation for this manuscript."
+      }
+    ],
+    "background": [
+      "Finite examples and elementary equations are developed from the stated course preparation."
+    ],
+    "readiness_checks": [
+      "Compute periods and frequencies using radians.",
+      "Give an explicit aliased pair of sampled sine waves."
+    ]
+  },
+  "claim_evidence": [
+    {
+      "id": "fu-003000-c001",
+      "anchor": "At a quarter-turn, cosine is zero and sine is one.",
+      "source_ids": [
+        "fm-openstax-precalc",
+        "fm-mit-signals"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Narrated argument and mathematical companion",
+      "evidence_detail": "The claim and any example are explained or computed in the manuscript, with standard definitions and theorems linked in source records."
+    },
+    {
+      "id": "fu-003000-c002",
+      "anchor": "The problem is not that the measuring device is inaccurate.",
+      "source_ids": [
+        "fm-openstax-precalc",
+        "fm-mit-signals"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Narrated argument and mathematical companion",
+      "evidence_detail": "The claim and any example are explained or computed in the manuscript, with standard definitions and theorems linked in source records."
+    }
+  ]
+}

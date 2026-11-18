@@ -5,7 +5,7 @@ introductory courses, long specialist studies, and several treatments of the
 same idea for different purposes. This guide connects them without asking a
 listener to take every course in source-directory order.
 
-The starting hub groups the subjects into six families. Four learning paths
+The starting hub groups the subjects into six families. Four original learning paths
 provide a smaller set of choices:
 
 | Path | What it develops | Background |
@@ -43,3 +43,7 @@ references after a subject changes its route names or consolidates manuscripts.
 ## Connected paths added in November 2026
 
 Five additional guided routes now connect graph algorithms with complexity, covariance with PCA and generalized linear models, random walks with heat and spectral graph theory, Fourier methods across signal/PDE/arithmetic contexts, and numerical model error with statistical prediction. These are source-owned navigation collections. They link existing and newly added lecture IDs, do not copy audio, and do not assert extra prerequisite edges. The Fourier and modeling routes organize existing source lectures; the first three accompany newly authored manuscripts.
+
+## Functions and information theory expansion (November 2026)
+
+The `functions-first` path provides a dedicated entry before calculus: functions and scales, exponential and logarithmic growth, rotations and periodic signals, and fitting functions to data. `information-coding-and-inference` develops entropy and prefix codes, mutual information and noisy channels, and KL divergence as statistical evidence. The retained `fourier-connections` route now includes the foundational trigonometry lecture and a new finite cyclic-group synthesis, `discrete-mathematics:043000`. These navigation links reuse the source-owned manuscripts and do not create additional mathematical proof obligations.

@@ -1,0 +1,124 @@
+{
+  "id": "functions-and-modeling",
+  "title": "Functions, Scales, and Mathematical Modeling",
+  "categories": [
+    "Mathematics"
+  ],
+  "summary": "A mathematically precise starting course for algebraic functions, quantities, scaling, exponential and periodic behavior, and responsible fitting from data. Designed to prepare listeners for calculus, statistics, numerical modeling and differential equations.",
+  "assumed_background": [
+    "Arithmetic, fractions, school algebra, and coordinate graphs; individual lectures introduce other tools as needed."
+  ],
+  "sections": [
+    "functions-and-scales",
+    "nonlinear-functions",
+    "periodic-functions",
+    "data-and-models"
+  ],
+  "lectures": [
+    {
+      "id": "001000",
+      "title": "Functions and Scales: Inputs, Models, and Dimensional Reasoning",
+      "section": "functions-and-scales",
+      "file": "001000-functions-and-scales-from-first-principles.md",
+      "spoken_words": 2518,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 17.4,
+      "description": "Establishes domains, units, inverses and composition, then develops power-law scaling, dimensional checks and model regimes.",
+      "tags": [
+        "Functions",
+        "Domains and ranges",
+        "Function composition",
+        "Power laws",
+        "Dimensional analysis"
+      ],
+      "tag_paths": [
+        [
+          "Mathematics",
+          "Foundations",
+          "Functions and modeling"
+        ]
+      ]
+    },
+    {
+      "id": "002000",
+      "title": "Exponential Growth, Logarithms, and the Meaning of a Rate",
+      "section": "nonlinear-functions",
+      "file": "002000-exponentials-logs-and-what-growth-means.md",
+      "spoken_words": 1282,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 8.8,
+      "description": "Compares additive and multiplicative growth, derives logarithmic inverse questions, compounding, continuous-rate decay, and saturation.",
+      "tags": [
+        "Exponential growth",
+        "Logarithms",
+        "Half-life",
+        "Compounding",
+        "Logistic growth"
+      ],
+      "tag_paths": [
+        [
+          "Mathematics",
+          "Foundations",
+          "Functions and modeling",
+          "Exponential change"
+        ]
+      ]
+    },
+    {
+      "id": "003000",
+      "title": "Trigonometry as Rotation, Motion, and Signal",
+      "section": "periodic-functions",
+      "file": "003000-trigonometry-rotations-and-periodic-signals.md",
+      "spoken_words": 1097,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 7.6,
+      "description": "Introduces sine and cosine through rotations, defines amplitude/frequency/phase, and demonstrates a sampling ambiguity.",
+      "tags": [
+        "Trigonometry",
+        "Radian measure",
+        "Sinusoids",
+        "Frequency",
+        "Aliasing"
+      ],
+      "tag_paths": [
+        [
+          "Mathematics",
+          "Foundations",
+          "Functions and modeling",
+          "Trigonometry"
+        ]
+      ]
+    },
+    {
+      "id": "004000",
+      "title": "From Data Points to a Predictive Function",
+      "section": "data-and-models",
+      "file": "004000-data-interpolation-fitting-and-prediction.md",
+      "spoken_words": 1218,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 8.4,
+      "description": "Works an exactly interpolating quadratic against a least-squares line and develops residual criticism, extrapolation and prediction testing.",
+      "tags": [
+        "Mathematical modeling",
+        "Interpolation",
+        "Least squares",
+        "Regression",
+        "Extrapolation",
+        "Model validation"
+      ],
+      "tag_paths": [
+        [
+          "Mathematics",
+          "Foundations",
+          "Functions and modeling",
+          "Model fitting"
+        ]
+      ]
+    }
+  ],
+  "tags": [
+    "Mathematics",
+    "Foundations",
+    "Mathematical connections"
+  ]
+}

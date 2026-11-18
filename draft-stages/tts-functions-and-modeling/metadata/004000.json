@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "lecture_id": "004000",
+  "transcript": "004000-data-interpolation-fitting-and-prediction.md",
+  "description": "Works an exactly interpolating quadratic against a least-squares line and develops residual criticism, extrapolation and prediction testing.",
+  "tags": [
+    "Mathematical modeling",
+    "Interpolation",
+    "Least squares",
+    "Regression",
+    "Extrapolation",
+    "Model validation"
+  ],
+  "tag_paths": [
+    [
+      "Mathematics",
+      "Foundations",
+      "Functions and modeling",
+      "Model fitting"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "fm-openstax-stats",
+      "reason": "Provides core mathematical definitions, standard theorems and relevant derivations; lecture explanation and worked examples are authored independently."
+    },
+    {
+      "source_id": "fm-nist",
+      "reason": "Provides core mathematical definitions, standard theorems and relevant derivations; lecture explanation and worked examples are authored independently."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original narration, independently calculated examples, mathematical companions and exercises."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "functions-and-modeling:001000",
+        "reason": "Conceptual and mathematical preparation for this manuscript."
+      }
+    ],
+    "background": [
+      "Finite examples and elementary equations are developed from the stated course preparation."
+    ],
+    "readiness_checks": [
+      "Calculate an interpolating polynomial and least-squares fit.",
+      "Distinguish fitting error from future prediction error."
+    ]
+  },
+  "claim_evidence": [
+    {
+      "id": "fu-004000-c001",
+      "anchor": "The answer is not one function. Infinitely many functions pass through three points.",
+      "source_ids": [
+        "fm-openstax-stats",
+        "fm-nist"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Narrated argument and mathematical companion",
+      "evidence_detail": "The claim and any example are explained or computed in the manuscript, with standard definitions and theorems linked in source records."
+    },
+    {
+      "id": "fu-004000-c002",
+      "anchor": "Another model is a straight line.",
+      "source_ids": [
+        "fm-openstax-stats",
+        "fm-nist"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Narrated argument and mathematical companion",
+      "evidence_detail": "The claim and any example are explained or computed in the manuscript, with standard definitions and theorems linked in source records."
+    }
+  ]
+}

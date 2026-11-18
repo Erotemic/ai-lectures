@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "lecture_id": "001000",
+  "transcript": "001000-entropy-questions-and-lossless-coding.md",
+  "description": "Motivates entropy through optimal questions, derives prefix-tree constraints and relates expected code length to Shannon limits.",
+  "tags": [
+    "Information theory",
+    "Shannon entropy",
+    "Self-information",
+    "Prefix codes",
+    "Kraft inequality",
+    "Huffman coding"
+  ],
+  "tag_paths": [
+    [
+      "Mathematics",
+      "Information theory",
+      "Entropy and compression"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "it-mit2010",
+      "reason": "Provides core mathematical definitions, standard theorems and relevant derivations; lecture explanation and worked examples are authored independently."
+    },
+    {
+      "source_id": "it-mit2016",
+      "reason": "Provides core mathematical definitions, standard theorems and relevant derivations; lecture explanation and worked examples are authored independently."
+    },
+    {
+      "source_id": "it-cover-thomas",
+      "reason": "Provides core mathematical definitions, standard theorems and relevant derivations; lecture explanation and worked examples are authored independently."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "info-001-h01",
+      "anchor": "One method, due to David Huffman, repeatedly joins the two least probable symbols or groups into a single branch.",
+      "kind": "historical_research",
+      "source_ids": [
+        "it-mit2010"
+      ],
+      "source_locator": "MIT OCW 6.441 2010, lectures 5 and 6",
+      "audit_status": "reference_recorded"
+    }
+  ],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original narration, independently calculated examples, mathematical companions and exercises."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "functions-and-modeling:002000",
+        "reason": "Conceptual and mathematical preparation for this manuscript."
+      },
+      {
+        "lecture_id": "probability-measure:003000",
+        "reason": "Conceptual and mathematical preparation for this manuscript."
+      }
+    ],
+    "background": [
+      "Finite examples and elementary equations are developed from the stated course preparation."
+    ],
+    "readiness_checks": [
+      "Calculate entropy and optimal code length for a small source.",
+      "Derive the Kraft constraint and the coding lower bound."
+    ]
+  },
+  "claim_evidence": [
+    {
+      "id": "in-001000-c001",
+      "anchor": "That average is called **Shannon entropy**.",
+      "source_ids": [
+        "it-mit2010",
+        "it-mit2016"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Narrated argument and mathematical companion",
+      "evidence_detail": "The claim and any example are explained or computed in the manuscript, with standard definitions and theorems linked in source records."
+    },
+    {
+      "id": "in-001000-c002",
+      "anchor": "This is the defining property of a **prefix code**.",
+      "source_ids": [
+        "it-mit2010",
+        "it-mit2016"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Narrated argument and mathematical companion",
+      "evidence_detail": "The claim and any example are explained or computed in the manuscript, with standard definitions and theorems linked in source records."
+    }
+  ]
+}

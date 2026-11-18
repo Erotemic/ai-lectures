@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "lecture_id": "002000",
+  "transcript": "002000-mutual-information-and-noisy-channels.md",
+  "description": "Calculates dependency from a noisy messenger, proves data processing via chain rules, and explains binary-channel capacity and reliable coding.",
+  "tags": [
+    "Information theory",
+    "Conditional entropy",
+    "Mutual information",
+    "Data processing inequality",
+    "Channel capacity",
+    "Error-correcting codes"
+  ],
+  "tag_paths": [
+    [
+      "Mathematics",
+      "Information theory",
+      "Mutual information and channels"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "it-mit2010",
+      "reason": "Provides core mathematical definitions, standard theorems and relevant derivations; lecture explanation and worked examples are authored independently."
+    },
+    {
+      "source_id": "it-mit2016",
+      "reason": "Provides core mathematical definitions, standard theorems and relevant derivations; lecture explanation and worked examples are authored independently."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original narration, independently calculated examples, mathematical companions and exercises."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "information-theory:001000",
+        "reason": "Conceptual and mathematical preparation for this manuscript."
+      },
+      {
+        "lecture_id": "probability-measure:002000",
+        "reason": "Conceptual and mathematical preparation for this manuscript."
+      }
+    ],
+    "background": [
+      "Finite examples and elementary equations are developed from the stated course preparation."
+    ],
+    "readiness_checks": [
+      "Calculate mutual information for a binary symmetric signal.",
+      "Explain the distinct meanings of channel capacity and finite-block error."
+    ]
+  },
+  "claim_evidence": [
+    {
+      "id": "in-002000-c001",
+      "anchor": "Mutual information can now be written in two equivalent ways: entropy of X minus entropy of X given Y, or entropy of Y minus entropy of Y given X.",
+      "source_ids": [
+        "it-mit2010",
+        "it-mit2016"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Narrated argument and mathematical companion",
+      "evidence_detail": "The claim and any example are explained or computed in the manuscript, with standard definitions and theorems linked in source records."
+    },
+    {
+      "id": "in-002000-c002",
+      "anchor": "The **rate** of the repetition code is one third information bit per channel use.",
+      "source_ids": [
+        "it-mit2010",
+        "it-mit2016"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Narrated argument and mathematical companion",
+      "evidence_detail": "The claim and any example are explained or computed in the manuscript, with standard definitions and theorems linked in source records."
+    }
+  ]
+}

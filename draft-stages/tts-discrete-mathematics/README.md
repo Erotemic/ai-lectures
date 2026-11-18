@@ -41,3 +41,7 @@ The short 040000 hypergraph-absorption introduction and 042000 four-cycle/quasir
 Per-lecture source records live in `metadata/`; the bibliography is in `metadata/sources.json` when present. Composition lineage and editorial revisions are recorded in per-lecture metadata and `provenance.yaml`. Original arguments and exact companions remain with their consolidated manuscript.
 
 Read [the lecture style rules](../../LECTURE_STYLE_RULES.md) before changing narration. Use the spoken-region markers for extraction; keep raw mathematics, code, and source records in the non-spoken companion. Teaching preparation, proof dependencies, and historical influence are distinct.
+
+## Fourier synthesis and discrete harmonic analysis (043000)
+
+New standalone connective lecture `discrete-mathematics:043000` proves finite cyclic convolution and works a four-cycle random walk with an eigenvalue -1 that prevents mixing until the walk is made lazy. The `fourier-connections` route points from this entry to advanced coding and pseudorandomness material. It links separately to the differential-equations and number-theory discussions without duplicating their manuscripts.

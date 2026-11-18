@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "lecture_id": "003000",
+  "transcript": "003000-divergence-log-loss-and-statistical-learning.md",
+  "description": "Derives KL as excess expected log loss and ties it to likelihood estimation, calibration and limits of fitting.",
+  "tags": [
+    "Information theory",
+    "Kullback-Leibler divergence",
+    "Cross-entropy",
+    "Log loss",
+    "Maximum likelihood",
+    "Probabilistic forecasting"
+  ],
+  "tag_paths": [
+    [
+      "Mathematics",
+      "Information theory",
+      "Statistical learning"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "it-mit2016",
+      "reason": "Provides core mathematical definitions, standard theorems and relevant derivations; lecture explanation and worked examples are authored independently."
+    },
+    {
+      "source_id": "it-cover-thomas",
+      "reason": "Provides core mathematical definitions, standard theorems and relevant derivations; lecture explanation and worked examples are authored independently."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original narration, independently calculated examples, mathematical companions and exercises."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "information-theory:001000",
+        "reason": "Conceptual and mathematical preparation for this manuscript."
+      },
+      {
+        "lecture_id": "probability-measure:003000",
+        "reason": "Conceptual and mathematical preparation for this manuscript."
+      }
+    ],
+    "background": [
+      "Finite examples and elementary equations are developed from the stated course preparation."
+    ],
+    "readiness_checks": [
+      "Compute a KL divergence and demonstrate asymmetry.",
+      "Connect Bernoulli likelihood optimization to empirical log loss."
+    ]
+  },
+  "claim_evidence": [
+    {
+      "id": "in-003000-c001",
+      "anchor": "Divergence is always nonnegative.",
+      "source_ids": [
+        "it-mit2016",
+        "it-cover-thomas"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Narrated argument and mathematical companion",
+      "evidence_detail": "The claim and any example are explained or computed in the manuscript, with standard definitions and theorems linked in source records."
+    },
+    {
+      "id": "in-003000-c002",
+      "anchor": "The expected log loss of a forecast q, when the true probabilities are p, is called the **cross-entropy** of p relative to q.",
+      "source_ids": [
+        "it-mit2016",
+        "it-cover-thomas"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Narrated argument and mathematical companion",
+      "evidence_detail": "The claim and any example are explained or computed in the manuscript, with standard definitions and theorems linked in source records."
+    }
+  ]
+}

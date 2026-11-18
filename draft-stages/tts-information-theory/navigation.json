@@ -1,0 +1,44 @@
+{
+  "default_collection": "established-course",
+  "collections": [
+    {
+      "id": "established-course",
+      "title": "Information Theory: From Questions to Communication · Full Course",
+      "role": "main",
+      "lectures": [
+        "001000",
+        "002000",
+        "003000"
+      ],
+      "assumed_background": [
+        "Probability of discrete events, elementary logarithms, and willingness to work with sums."
+      ],
+      "tags": [
+        "Mathematics",
+        "Information theory"
+      ]
+    },
+    {
+      "id": "information-and-statistics",
+      "title": "Entropy, Divergence, and Statistical Prediction",
+      "role": "deep_dive",
+      "parent": "established-course",
+      "lectures": [
+        "001000",
+        "003000"
+      ],
+      "assumed_background": [
+        "Probability of discrete events, elementary logarithms, and willingness to work with sums."
+      ],
+      "related_collections": [
+        "probability-measure:multivariate-statistics",
+        "algorithms-computability-complexity:main"
+      ],
+      "tags": [
+        "Information theory",
+        "KL divergence",
+        "Statistics"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "lecture_id": "002000",
+  "transcript": "002000-exponentials-logs-and-what-growth-means.md",
+  "description": "Compares additive and multiplicative growth, derives logarithmic inverse questions, compounding, continuous-rate decay, and saturation.",
+  "tags": [
+    "Exponential growth",
+    "Logarithms",
+    "Half-life",
+    "Compounding",
+    "Logistic growth"
+  ],
+  "tag_paths": [
+    [
+      "Mathematics",
+      "Foundations",
+      "Functions and modeling",
+      "Exponential change"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "fm-openstax-precalc",
+      "reason": "Provides core mathematical definitions, standard theorems and relevant derivations; lecture explanation and worked examples are authored independently."
+    },
+    {
+      "source_id": "fm-openstax-calculus",
+      "reason": "Provides core mathematical definitions, standard theorems and relevant derivations; lecture explanation and worked examples are authored independently."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original narration, independently calculated examples, mathematical companions and exercises."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "functions-and-modeling:001000",
+        "reason": "Conceptual and mathematical preparation for this manuscript."
+      }
+    ],
+    "background": [
+      "Finite examples and elementary equations are developed from the stated course preparation."
+    ],
+    "readiness_checks": [
+      "Solve a doubling-time threshold and convert nominal rates to effective rates.",
+      "Check the dimensionlessness of an exponential argument."
+    ]
+  },
+  "claim_evidence": [
+    {
+      "id": "fu-002000-c001",
+      "anchor": "Exponential decay can be fast or slow too, and a growth rate of one tenth of one percent is exponential even if it takes a long time to notice.",
+      "source_ids": [
+        "fm-openstax-precalc",
+        "fm-openstax-calculus"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Narrated argument and mathematical companion",
+      "evidence_detail": "The claim and any example are explained or computed in the manuscript, with standard definitions and theorems linked in source records."
+    },
+    {
+      "id": "fu-002000-c002",
+      "anchor": "The half-life is also independent of the starting amount, provided the proportional-decay model applies.",
+      "source_ids": [
+        "fm-openstax-precalc",
+        "fm-openstax-calculus"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Narrated argument and mathematical companion",
+      "evidence_detail": "The claim and any example are explained or computed in the manuscript, with standard definitions and theorems linked in source records."
+    }
+  ]
+}

@@ -15,7 +15,9 @@
           "title": "Suggested learning paths",
           "summary": "Begin with a goal. Each path has stages and links to a fuller subject course; skip material you already understand.",
           "collections": [
+            "functions-first",
             "foundations",
+            "information-coding-and-inference",
             "calculus-and-change",
             "proofs-programs-structure",
             "reliable-computation",
@@ -30,6 +32,7 @@
           "title": "Proof and linear foundations",
           "summary": "Read arguments, work with sets and functions, and move between equations, vectors, linear maps, and spectral directions.",
           "collections": [
+            "functions-and-modeling:main",
             "mathematical-proof:main",
             "linear-algebra:main"
           ]
@@ -61,7 +64,8 @@
           "collections": [
             "number-theory:survey",
             "discrete-mathematics:survey",
-            "probability-measure:main"
+            "probability-measure:main",
+            "information-theory:main"
           ]
         },
         {
@@ -137,6 +141,7 @@
         "School algebra, functions, inequalities, and elementary trigonometry. Vectors, matrices, determinants, and dot products are needed before the several-variable stage; the linear-algebra foundation supplies them."
       ],
       "preparation_collections": [
+        "functions-and-modeling:main",
         "linear-algebra:main"
       ],
       "chapters": [
@@ -461,7 +466,7 @@
       "title": "Fourier as a Common Mathematical Language",
       "role": "deep_dive",
       "parent": "start",
-      "summary": "A cross-course path through periodic harmonics, convolution and Fourier transforms, heat modes, discrete Fourier computation, and the distinct arithmetic setting of characters.",
+      "summary": "Connect rotations and periodic signals to Fourier series, convolution, transforms, heat modes, cyclic characters, random walks and arithmetic characters. The new finite-group bridge explains why translation becomes multiplication.",
       "assumed_background": [
         "Basic trigonometry and calculus for the signal stages, linear algebra for eigenmodes; the final number-theory stage requires groups and elementary modular arithmetic."
       ],
@@ -469,6 +474,7 @@
         {
           "title": "Harmonics and convergence",
           "lectures": [
+            "functions-and-modeling:003000",
             "differential-equations:051000",
             "differential-equations:052000"
           ],
@@ -484,9 +490,10 @@
           "collection": "differential-equations:survey"
         },
         {
-          "title": "Finite frequencies and arithmetic characters",
+          "title": "Discrete harmonics, convolution, and arithmetic characters",
           "lectures": [
             "differential-equations:080000",
+            "discrete-mathematics:043000",
             "number-theory:016000"
           ],
           "collection": "number-theory:survey"
@@ -495,7 +502,9 @@
       "related_collections": [
         "analysis:complex",
         "number-theory:survey",
-        "differential-equations:survey"
+        "differential-equations:survey",
+        "discrete-mathematics:fourier-connections",
+        "information-theory:main"
       ],
       "tags": [
         "Fourier analysis",
@@ -517,6 +526,7 @@
         {
           "title": "Modeling, equations, and local numerical steps",
           "lectures": [
+            "functions-and-modeling:004000",
             "differential-equations:047000",
             "differential-equations:063000",
             "differential-equations:065000"
@@ -545,7 +555,8 @@
       "related_collections": [
         "numerical-analysis:survey",
         "differential-equations:survey",
-        "probability-measure:multivariate-statistics"
+        "probability-measure:multivariate-statistics",
+        "functions-and-modeling:mathematical-models"
       ],
       "tags": [
         "Mathematical modeling",
@@ -553,6 +564,101 @@
         "Conditioning",
         "Regression",
         "Prediction intervals"
+      ]
+    },
+    {
+      "id": "functions-first",
+      "title": "Functions Before Calculus: Modeling, Scale, and Evidence",
+      "role": "main",
+      "parent": "start",
+      "summary": "A first route through function definitions, units and domains; scaling laws, exponentials, radians and periodicity, then interpolation and statistical fitting. Builds the assumed school-algebra background of calculus and analysis explicitly.",
+      "assumed_background": [
+        "Arithmetic, fractions, single-variable equations and basic coordinates."
+      ],
+      "chapters": [
+        {
+          "title": "Function rules and sensible dimensions",
+          "lectures": [
+            "functions-and-modeling:001000"
+          ],
+          "collection": "functions-and-modeling:main"
+        },
+        {
+          "title": "Multiplicative change and periodic change",
+          "lectures": [
+            "functions-and-modeling:002000",
+            "functions-and-modeling:003000"
+          ],
+          "collection": "functions-and-modeling:main"
+        },
+        {
+          "title": "From measurements to prediction",
+          "lectures": [
+            "functions-and-modeling:004000",
+            "probability-measure:026000"
+          ],
+          "collection": "functions-and-modeling:mathematical-models"
+        }
+      ],
+      "related_collections": [
+        "analysis:survey",
+        "differential-equations:survey",
+        "numerical-analysis:survey"
+      ],
+      "tags": [
+        "Functions",
+        "Scaling",
+        "Trigonometry",
+        "Modeling",
+        "Statistics"
+      ]
+    },
+    {
+      "id": "information-coding-and-inference",
+      "title": "Information Theory: Questions, Codes, Noise, and Statistical Evidence",
+      "role": "deep_dive",
+      "parent": "start",
+      "summary": "Connect logarithmic surprise to efficient prefix codes, mutual information and data processing to noisy-channel capacity, and KL divergence to forecasting and likelihood.",
+      "assumed_background": [
+        "Discrete probability and logarithms; review functions-and-modeling:002000 if needed."
+      ],
+      "chapters": [
+        {
+          "title": "Uncertainty and lossless compression",
+          "lectures": [
+            "probability-measure:003000",
+            "information-theory:001000"
+          ],
+          "collection": "information-theory:main"
+        },
+        {
+          "title": "Dependence and reliable communication",
+          "lectures": [
+            "information-theory:002000"
+          ],
+          "collection": "information-theory:main"
+        },
+        {
+          "title": "Comparing distributions and fitting probabilities",
+          "lectures": [
+            "information-theory:003000",
+            "probability-measure:032000"
+          ],
+          "collection": "information-theory:information-and-statistics"
+        }
+      ],
+      "related_collections": [
+        "discrete-mathematics:codes-randomness",
+        "probability-measure:multivariate-statistics",
+        "algorithms-computability-complexity:main"
+      ],
+      "tags": [
+        "Information theory",
+        "Entropy",
+        "Coding",
+        "Communication",
+        "KL divergence",
+        "Likelihood"
       ]
     }
   ]

@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "lecture_id": "001000",
+  "transcript": "001000-functions-and-scales-from-first-principles.md",
+  "description": "Establishes domains, units, inverses and composition, then develops power-law scaling, dimensional checks and model regimes.",
+  "tags": [
+    "Functions",
+    "Domains and ranges",
+    "Function composition",
+    "Power laws",
+    "Dimensional analysis"
+  ],
+  "tag_paths": [
+    [
+      "Mathematics",
+      "Foundations",
+      "Functions and modeling"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "fm-openstax-precalc",
+      "reason": "Provides core mathematical definitions, standard theorems and relevant derivations; lecture explanation and worked examples are authored independently."
+    },
+    {
+      "source_id": "fm-feynman-time",
+      "reason": "Provides core mathematical definitions, standard theorems and relevant derivations; lecture explanation and worked examples are authored independently."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original narration, independently calculated examples, mathematical companions and exercises."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Finite examples and elementary equations are developed from the stated course preparation."
+    ],
+    "readiness_checks": [
+      "Specify a model domain, codomain, units, and inversion.",
+      "Predict the effect of changing a scale with a power law."
+    ]
+  },
+  "claim_evidence": [
+    {
+      "id": "fu-001000-c001",
+      "anchor": "A function assigns exactly one output to each permitted input.",
+      "source_ids": [
+        "fm-openstax-precalc",
+        "fm-feynman-time"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Narrated argument and mathematical companion",
+      "evidence_detail": "The claim and any example are explained or computed in the manuscript, with standard definitions and theorems linked in source records."
+    },
+    {
+      "id": "fu-001000-c002",
+      "anchor": "Changing its side to six centimeters multiplies volume by eight.",
+      "source_ids": [
+        "fm-openstax-precalc",
+        "fm-feynman-time"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Narrated argument and mathematical companion",
+      "evidence_detail": "The claim and any example are explained or computed in the manuscript, with standard definitions and theorems linked in source records."
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "default_collection": "established-course",
+  "collections": [
+    {
+      "id": "established-course",
+      "title": "Functions, Scales, and Mathematical Modeling · Full Course",
+      "role": "main",
+      "lectures": [
+        "001000",
+        "002000",
+        "003000",
+        "004000"
+      ],
+      "assumed_background": [
+        "Arithmetic, fractions, school algebra, and coordinate graphs; individual lectures introduce other tools as needed."
+      ],
+      "tags": [
+        "Mathematics",
+        "Functions"
+      ]
+    },
+    {
+      "id": "mathematical-models",
+      "title": "From Input Variables to Measured Predictions",
+      "role": "deep_dive",
+      "parent": "established-course",
+      "lectures": [
+        "001000",
+        "002000",
+        "004000"
+      ],
+      "assumed_background": [
+        "Arithmetic, fractions, school algebra, and coordinate graphs; individual lectures introduce other tools as needed."
+      ],
+      "related_collections": [
+        "differential-equations:survey",
+        "probability-measure:worked-regression-prediction"
+      ],
+      "tags": [
+        "Modeling",
+        "Functions",
+        "Measurement"
+      ]
+    }
+  ]
+}
