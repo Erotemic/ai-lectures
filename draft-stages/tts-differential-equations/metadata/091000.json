@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "lecture_id": "091000",
+  "transcript": "091000-when-a-smooth-wave-breaks.md",
+  "related_resources": [
+    {
+      "source_id": "de-clawpack-burgers",
+      "reason": "Characteristic steepening, shock speed, rarefaction and entropy-selection examples."
+    },
+    {
+      "source_id": "de-stanford-conservation",
+      "reason": "Conservation laws and weak jump conditions."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-17",
+    "scope": "Original foundation-first Burgers/Riemann/entropy, Godunov flux and MUSCL-limiter lectures and companions; preserve all 57 previous manuscripts and their individual metadata."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "differential-equations:075000",
+        "reason": "Establishes characteristics, advection, and conservation for smooth transport."
+      },
+      {
+        "lecture_id": "differential-equations:078000",
+        "reason": "Builds conservative finite-volume balance laws and shared face-flux bookkeeping."
+      }
+    ],
+    "recommended": [],
+    "background": [
+      "Elementary single-variable calculus and algebra; prior characteristics, upwind CFL and finite-volume balances; no advanced nonlinear shock stability or functional analysis assumed."
+    ],
+    "readiness_checks": [
+      "Derive characteristic positions and the smooth gradient from a decreasing linear initial profile.",
+      "Compute Rankine–Hugoniot speed for a Burgers shock.",
+      "Explain why weak conservation and entropy admissibility are separate requirements."
+    ]
+  }
+}

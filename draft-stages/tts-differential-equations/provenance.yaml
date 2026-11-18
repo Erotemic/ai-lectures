@@ -224,3 +224,19 @@ transcript:
       time-frequency uncertainty, interpreting spectrograms of changing signals,
       and normalized noise PSD with Welch averaging. Preserve the 53 earlier
       manuscripts and their individual metadata.
+  - date: '2026-11-17'
+    models:
+    - GPT-6
+    sources:
+    - lecture: '091000'
+      composition_record: metadata/091000.json
+    - lecture: '092000'
+      composition_record: metadata/092000.json
+    - lecture: '093000'
+      composition_record: metadata/093000.json
+    - lecture: '094000'
+      composition_record: metadata/094000.json
+    scope: Add four original foundation-first lectures and mathematical companions on
+      Burgers steepening, shock and rarefaction entropy criteria, Godunov interface
+      fluxes, and MUSCL-limited reconstruction. Preserve the 57 earlier manuscripts
+      and their individual metadata.

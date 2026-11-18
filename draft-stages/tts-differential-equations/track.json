@@ -19,6 +19,7 @@
     "sampling-discrete-fourier",
     "time-frequency-spectral-estimation",
     "conservation-numerical-transport",
+    "nonlinear-conservation-finite-volume-reconstruction",
     "transport-diffusion-pdes",
     "poincare-floquet",
     "reaction-diffusion-turing",
@@ -1024,6 +1025,74 @@
         "White noise",
         "Window normalization",
         "Statistics"
+      ]
+    },
+    {
+      "id": "091000",
+      "title": "When a Smooth Wave Breaks: The First Nonlinear Conservation Law",
+      "section": "nonlinear-conservation-finite-volume-reconstruction",
+      "file": "091000-when-a-smooth-wave-breaks.md",
+      "spoken_words": 1719,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 11.9,
+      "tags": [
+        "Burgers equation",
+        "Characteristics",
+        "Gradient blow-up",
+        "Shocks",
+        "Weak solutions",
+        "Conservation laws"
+      ]
+    },
+    {
+      "id": "092000",
+      "title": "Shocks, Rarefactions, and the Entropy Test",
+      "section": "nonlinear-conservation-finite-volume-reconstruction",
+      "file": "092000-shocks-rarefactions-and-entropy.md",
+      "spoken_words": 1632,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 11.3,
+      "tags": [
+        "Riemann problem",
+        "Rankine-Hugoniot",
+        "Entropy inequality",
+        "Rarefaction",
+        "Vanishing viscosity",
+        "Transonic waves"
+      ]
+    },
+    {
+      "id": "093000",
+      "title": "One Face, One Riemann Problem: Building the Godunov Flux",
+      "section": "nonlinear-conservation-finite-volume-reconstruction",
+      "file": "093000-godunov-flux-from-a-riemann-problem.md",
+      "spoken_words": 1774,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 12.2,
+      "tags": [
+        "Godunov flux",
+        "Riemann solver",
+        "Burgers equation",
+        "Finite volumes",
+        "CFL",
+        "Entropy solution"
+      ]
+    },
+    {
+      "id": "094000",
+      "title": "Sharper Fronts without New Oscillations: MUSCL and Slope Limiters",
+      "section": "nonlinear-conservation-finite-volume-reconstruction",
+      "file": "094000-sharper-fronts-with-limited-slopes.md",
+      "spoken_words": 2061,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 14.2,
+      "tags": [
+        "MUSCL",
+        "Minmod limiter",
+        "Monotonized central",
+        "High-resolution finite volumes",
+        "SSP Runge-Kutta",
+        "Total variation"
       ]
     }
   ],

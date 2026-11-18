@@ -2,7 +2,7 @@
 
 Ordinary differential equations and dynamical systems: initial-value problems, existence and uniqueness, phase portraits, oscillations, stability, nonlinear dynamics and numerical integration, later partial differential equations.
 
-The current pack contains **57 lecture manuscripts**. Short concept chapters have been consolidated where they develop one subject. Each numbered manuscript has one spoken region; its mathematical statements, exercises, sources, and inherited component notes remain in the non-spoken companion.
+The current pack contains **61 lecture manuscripts**. Short concept chapters have been consolidated where they develop one subject. Each numbered manuscript has one spoken region; its mathematical statements, exercises, sources, and inherited component notes remain in the non-spoken companion.
 
 ## Listening routes
 
@@ -12,6 +12,7 @@ The current pack contains **57 lecture manuscripts**. Short concept chapters hav
 - **Differential Equations · Worked First-Order Problems and Oscillators** (Foundation bridge): `047000`, `048000`, `049000`, `050000`.
 - **Differential Equations · Boundary-Value Problems, Heat and Wave Modes from Scratch** (Foundation bridge): `067000`, `068000`, `069000`, `070000`.
 - **Differential Equations · Conservation Laws and Numerical Transport from Scratch** (Foundation bridge): `075000`, `076000`, `077000`, `078000`.
+- **Differential Equations · Nonlinear Conservation, Riemann Problems and MUSCL from Scratch** (Foundation bridge): `091000`, `092000`, `093000`, `094000`.
 - **Differential Equations · Fourier Transforms and Numerical Spatial Discretization** (Foundation bridge): `071000`, `072000`, `073000`, `074000`.
 - **Differential Equations · Sampling, Discrete Fourier Transform and FFT from Scratch** (Foundation bridge): `079000`, `080000`, `081000`, `082000`.
 - **Differential Equations · Time–Frequency Analysis, Spectrograms and Noise from First Principles** (Foundation bridge): `087000`, `088000`, `089000`, `090000`.
@@ -90,6 +91,10 @@ Durations are measured from the current spoken text at 145 words per minute, bef
 | `088000` | [Time–Frequency Resolution and the Gaussian Uncertainty Bound](088000-time-frequency-resolution-and-uncertainty.md) | 12.7 |
 | `089000` | [Reading Spectrograms of Changing Signals: Chirps, Impacts, and Phase](089000-reading-spectrograms-of-changing-signals.md) | 13.9 |
 | `090000` | [Noise, Power Spectral Density, and Welch Averaging](090000-noise-power-spectra-and-welch-averaging.md) | 14.7 |
+| `091000` | [When a Smooth Wave Breaks: The First Nonlinear Conservation Law](091000-when-a-smooth-wave-breaks.md) | 11.9 |
+| `092000` | [Shocks, Rarefactions, and the Entropy Test](092000-shocks-rarefactions-and-entropy.md) | 11.3 |
+| `093000` | [One Face, One Riemann Problem: Building the Godunov Flux](093000-godunov-flux-from-a-riemann-problem.md) | 12.2 |
+| `094000` | [Sharper Fronts without New Oscillations: MUSCL and Slope Limiters](094000-sharper-fronts-with-limited-slopes.md) | 14.2 |
 
 ## Foundation-first continuation
 
@@ -145,3 +150,7 @@ The `083000`–`086000` route develops embedded error estimates and rejected ste
 ## Time–frequency analysis and spectral-noise foundation bridge
 
 The `087000`–`090000` route constructs an exact two-window STFT, proves the Gaussian time–frequency uncertainty bound, interprets chirps, impulses and Fourier phase using a circular-shift counterexample, and derives one-sided/two-sided white-noise PSD normalization before introducing Welch's averaged periodogram. It distinguishes true temporal resolution from frame-hop spacing, Fourier-grid interpolation from information, and random noise fluctuations from persistent spectral lines. The route follows the sampling/DFT foundations and assumes no advanced PDE theory. All 53 earlier manuscripts and their metadata are preserved.
+
+## Nonlinear conservation, Riemann problems, and MUSCL foundation bridge
+
+The `091000`–`094000` route starts from characteristic steepening in Burgers' equation, derives weak shocks and rarefaction fans, checks the quadratic entropy inequality, and computes the exact Godunov interface flux. A complete periodic four-cell update demonstrates conservative flux cancellation. The closing lecture reconstructs limited piecewise-linear cell states, works a MUSCL–Hancock half-step, and distinguishes total variation, conservation, and time-integration accuracy. This route follows `075000`–`078000`; no advanced shock-stability theory is required. All 57 preceding manuscripts and their individual metadata are retained verbatim.

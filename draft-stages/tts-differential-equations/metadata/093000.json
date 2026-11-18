@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "lecture_id": "093000",
+  "transcript": "093000-godunov-flux-from-a-riemann-problem.md",
+  "related_resources": [
+    {
+      "source_id": "de-clawpack-godunov",
+      "reason": "Exact Riemann interface state used as a shared numerical flux."
+    },
+    {
+      "source_id": "de-clawpack-burgers",
+      "reason": "Correct Burgers shock/rarefaction interface states."
+    },
+    {
+      "source_id": "de-clawpack-burgers-approx",
+      "reason": "Transonic entropy correction and why naive approximate fluxes can fail."
+    },
+    {
+      "source_id": "de-cambridge-finite-volume",
+      "reason": "Conservative cell-average update and flux cancellation."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-17",
+    "scope": "Original foundation-first Burgers/Riemann/entropy, Godunov flux and MUSCL-limiter lectures and companions; preserve all 57 previous manuscripts and their individual metadata."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "differential-equations:091000",
+        "reason": "Shows nonlinear shock formation, weak conservation, and the admissibility problem."
+      },
+      {
+        "lecture_id": "differential-equations:092000",
+        "reason": "Derives shock/rarefaction Riemann solutions and the entropy test."
+      },
+      {
+        "lecture_id": "differential-equations:078000",
+        "reason": "Builds conservative finite-volume balance laws and shared face-flux bookkeeping."
+      }
+    ],
+    "recommended": [],
+    "background": [
+      "Elementary single-variable calculus and algebra; prior characteristics, upwind CFL and finite-volume balances; no advanced nonlinear shock stability or functional analysis assumed."
+    ],
+    "readiness_checks": [
+      "Calculate Godunov fluxes for shocks of either propagation direction and a transonic fan.",
+      "Update four periodic cell averages and check total mass.",
+      "Explain why conservation and flux consistency are not sufficient entropy guarantees."
+    ]
+  }
+}

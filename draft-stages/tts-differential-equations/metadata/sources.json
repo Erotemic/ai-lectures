@@ -924,6 +924,41 @@
       "url": "https://doi.org/10.1109/TAU.1967.1161901",
       "access": "publisher_metadata_or_institutional_access",
       "notes": "Original Welch averaging procedure and bibliographic attribution; author Peter D. Welch."
+    },
+    "de-clawpack-burgers": {
+      "title": "R. J. LeVeque, D. I. Ketcheson and M. J. del Razo, Riemann Problems and Jupyter Solutions: Burgers' Equation",
+      "kind": "scholarly_interactive_textbook",
+      "url": "https://www.clawpack.org/riemann_book/html/Burgers.html",
+      "access": "free_no_login",
+      "notes": "Exact Burgers Riemann shock and rarefaction solutions, characteristics, gradient steepening, entropy admissibility."
+    },
+    "de-clawpack-burgers-approx": {
+      "title": "Riemann Problems and Jupyter Solutions: An Approximate Solver for Burgers' Equation",
+      "kind": "scholarly_interactive_textbook",
+      "url": "https://www.clawpack.org/riemann_book/html/Burgers_approximate.html",
+      "access": "free_no_login",
+      "notes": "Shock-flux calculation, transonic rarefaction and entropy fix needed for a correct interface flux."
+    },
+    "de-clawpack-godunov": {
+      "title": "Riemann Problems and Jupyter Solutions: Approximate Riemann Solvers and Godunov’s Method",
+      "kind": "scholarly_interactive_textbook",
+      "url": "https://www.clawpack.org/riemann_book/html/Approximate_solvers.html",
+      "access": "free_no_login",
+      "notes": "Use the exact or approximate local Riemann solution to define a shared finite-volume interface flux."
+    },
+    "de-clawpack-limiters": {
+      "title": "Clawpack: PyClaw Limiters (development documentation)",
+      "kind": "software_documentation",
+      "url": "https://www.clawpack.org/v5.13.x/pyclaw/evolve/limiters.html",
+      "access": "free_no_login",
+      "notes": "Implemented minmod, MC, van Leer and superbee slope/flux limiter families."
+    },
+    "de-hakim-muscl": {
+      "title": "Ammar Hakim, The MUSCL–Hancock Scheme for Solution of Hyperbolic Equations",
+      "kind": "technical_exposition",
+      "url": "https://www.ammar-hakim.org/_static/files/1010-muscl-hancock.pdf",
+      "access": "free_no_login",
+      "notes": "Piecewise-linear reconstruction, half-step predictor, Riemann face flux and limiter roles."
     }
   }
 }

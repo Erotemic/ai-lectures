@@ -220,6 +220,39 @@
       ]
     },
     {
+      "id": "nonlinear-conservation-riemann-muscl-foundations",
+      "title": "Differential Equations · Nonlinear Conservation, Riemann Problems and MUSCL from Scratch",
+      "role": "deep_dive",
+      "parent": "survey",
+      "lectures": [
+        "091000",
+        "092000",
+        "093000",
+        "094000"
+      ],
+      "assumed_background": [
+        "Elementary calculus, characteristics, conservation of cell averages, the positive-speed upwind method and its CFL condition. No advanced PDE existence theory assumed."
+      ],
+      "preparation_collections": [
+        "differential-equations:conservation-numerical-transport-foundations"
+      ],
+      "related_collections": [
+        "survey",
+        "conservation-numerical-transport-foundations",
+        "shocks",
+        "numerical-time-stepping-foundations"
+      ],
+      "tags": [
+        "Nonlinear conservation laws",
+        "Burgers equation",
+        "Shock and rarefaction",
+        "Riemann problem",
+        "Godunov flux",
+        "MUSCL",
+        "Slope limiters"
+      ]
+    },
+    {
       "id": "numerical-time-stepping-foundations",
       "title": "Differential Equations · Numerical Time Stepping from Scratch",
       "role": "deep_dive",

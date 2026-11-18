@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "lecture_id": "092000",
+  "transcript": "092000-shocks-rarefactions-and-entropy.md",
+  "related_resources": [
+    {
+      "source_id": "de-clawpack-burgers",
+      "reason": "Exact shock and rarefaction Riemann solutions and entropy criteria."
+    },
+    {
+      "source_id": "de-clawpack-burgers-approx",
+      "reason": "Transonic entropy fixes and endpoint-flux failures."
+    },
+    {
+      "source_id": "de-stanford-conservation",
+      "reason": "Weak conservation and shock admissibility context."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-17",
+    "scope": "Original foundation-first Burgers/Riemann/entropy, Godunov flux and MUSCL-limiter lectures and companions; preserve all 57 previous manuscripts and their individual metadata."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "differential-equations:091000",
+        "reason": "Shows nonlinear shock formation, weak conservation, and the admissibility problem."
+      },
+      {
+        "lecture_id": "differential-equations:078000",
+        "reason": "Builds conservative finite-volume balance laws and shared face-flux bookkeeping."
+      }
+    ],
+    "recommended": [],
+    "background": [
+      "Elementary single-variable calculus and algebra; prior characteristics, upwind CFL and finite-volume balances; no advanced nonlinear shock stability or functional analysis assumed."
+    ],
+    "readiness_checks": [
+      "Compute the quadratic entropy production of both shock orientations.",
+      "Find the state at the fixed interface for a transonic rarefaction.",
+      "Explain why Rankine–Hugoniot alone fails to select the admissible solution."
+    ]
+  }
+}

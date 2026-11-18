@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "lecture_id": "094000",
+  "transcript": "094000-sharper-fronts-with-limited-slopes.md",
+  "related_resources": [
+    {
+      "source_id": "de-hakim-muscl",
+      "reason": "Piecewise-linear reconstruction, Hancock half-step predictor and conserved cell averages."
+    },
+    {
+      "source_id": "de-clawpack-limiters",
+      "reason": "Minmod, MC, van Leer and other limiter definitions."
+    },
+    {
+      "source_id": "de-cambridge-finite-volume",
+      "reason": "High-resolution finite volume methods and TVD tradeoffs."
+    },
+    {
+      "source_id": "de-clawpack-godunov",
+      "reason": "Entropy-consistent face flux from a Riemann solution."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-17",
+    "scope": "Original foundation-first Burgers/Riemann/entropy, Godunov flux and MUSCL-limiter lectures and companions; preserve all 57 previous manuscripts and their individual metadata."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "differential-equations:093000",
+        "reason": "Constructs the entropy-consistent Godunov flux from exact interface solutions."
+      },
+      {
+        "lecture_id": "differential-equations:077000",
+        "reason": "Introduces numerical diffusion, Lax–Wendroff and why sharp gradients need accuracy controls."
+      },
+      {
+        "lecture_id": "differential-equations:063000",
+        "reason": "Supplies Euler stepping and the meaning of a time-step approximation."
+      }
+    ],
+    "recommended": [],
+    "background": [
+      "Elementary single-variable calculus and algebra; prior characteristics, upwind CFL and finite-volume balances; no advanced nonlinear shock stability or functional analysis assumed."
+    ],
+    "readiness_checks": [
+      "Compute minmod reconstructed edge values on a smooth ramp and beside a large jump.",
+      "Derive a linear-advection half-step MUSCL–Hancock prediction.",
+      "Identify which conservation, CFL, TVD and error claims require separate hypotheses."
+    ]
+  }
+}
