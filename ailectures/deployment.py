@@ -127,6 +127,12 @@ def export_deployment(library, selection, output, *, title='Selected lecture lib
                         relationships=[r for r in snapshot['relationships'] if r['from'] in rows and r['to'] in selected],extra_files=extras)
             release = stage/('release-'+namespace)
             export_release(pack,release,media=media)
+            # Authored companions can change independently while copying. Check
+            # the staged bytes against the selected snapshot before publication.
+            for row in rows.values():
+                for companion in row.get('companions', []):
+                    if file_digest(contained(release,companion['path'])) != companion['sha256']:
+                        raise ValueError('Companion changed while exporting; retry the selection')
             target.install(release)
         write_json(target.root/'backup.json',dict(schema_version=1,warnings=[],deployment=dict(title=title,**plan)))
         archive = stage/'deployment.zip'
