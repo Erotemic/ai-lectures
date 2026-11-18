@@ -117,6 +117,40 @@
       ]
     },
     {
+      "id": "conservation-numerical-transport-foundations",
+      "title": "Differential Equations · Conservation Laws and Numerical Transport from Scratch",
+      "role": "deep_dive",
+      "parent": "survey",
+      "lectures": [
+        "075000",
+        "076000",
+        "077000",
+        "078000"
+      ],
+      "assumed_background": [
+        "Elementary calculus, one-sided spatial differences, and Euler updates; no advanced weak-solution or nonlinear shock theory assumed."
+      ],
+      "preparation_collections": [
+        "differential-equations:worked-ode-foundations",
+        "differential-equations:numerical-time-stepping-foundations",
+        "differential-equations:fourier-transform-method-of-lines-foundations"
+      ],
+      "related_collections": [
+        "survey",
+        "fourier-transform-method-of-lines-foundations",
+        "shocks"
+      ],
+      "tags": [
+        "Differential equations",
+        "Transport",
+        "Conservation laws",
+        "Upwind differences",
+        "CFL",
+        "Finite volumes",
+        "Numerical diffusion"
+      ]
+    },
+    {
       "id": "numerical-time-stepping-foundations",
       "title": "Differential Equations · Numerical Time Stepping from Scratch",
       "role": "deep_dive",

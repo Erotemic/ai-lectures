@@ -798,6 +798,20 @@
       "url": "https://mude.citg.tudelft.nl/book/2025/numerical_methods_for_PDEs/diffusion_equation.html",
       "access": "free_no_login",
       "notes": "Method-of-lines diffusion matrix, forward Euler, spatial and temporal error and stability."
+    },
+    "de-cambridge-finite-volume": {
+      "title": "Randall J. LeVeque, Finite Volume Methods for Hyperbolic Problems, Chapter 4, Cambridge University Press (2002)",
+      "kind": "scholarly_textbook_chapter",
+      "url": "https://www.cambridge.org/core/books/abs/finite-volume-methods-for-hyperbolic-problems/finite-volume-methods/CB7B0A27A6D37AE3B906D4AE7C60A87E",
+      "access": "publisher_chapter_overview_or_institutional_access",
+      "notes": "Cell-average finite-volume construction, conservative interface fluxes, upwind methods and numerical wave propagation."
+    },
+    "de-berkeley-advection": {
+      "title": "Per-Olof Persson, UC Berkeley Math 228B: Finite Difference Methods for PDEs",
+      "kind": "university_course_notes",
+      "url": "https://persson.berkeley.edu/math228b/html/finite_difference_methods_for_PDEs.html",
+      "access": "free_no_login",
+      "notes": "Constant-speed advection, characteristics, inflow boundary, upwind/centered/Lax-Wendroff discretization, CFL and Fourier stability."
     }
   }
 }

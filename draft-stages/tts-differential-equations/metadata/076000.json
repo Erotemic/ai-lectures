@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "lecture_id": "076000",
+  "transcript": "076000-upwind-steps-and-the-cfl-limit.md",
+  "related_resources": [
+    {
+      "source_id": "de-berkeley-advection",
+      "reason": "Upwind, FTCS and CFL analysis for linear advection."
+    },
+    {
+      "source_id": "de-cambridge-finite-volume",
+      "reason": "Donor-cell flux and first-order transport methods."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-17",
+    "scope": "New foundation-first mathematical narration and companion on conservation and numerical transport; 41 previous manuscripts and metadata retained."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "differential-equations:075000",
+        "reason": "Characteristics and the direction of information transport."
+      },
+      {
+        "lecture_id": "differential-equations:063000",
+        "reason": "Forward Euler time stepping and grid updates."
+      }
+    ],
+    "recommended": [],
+    "background": [
+      "Finite differences, first-order Euler steps, algebra with weighted averages and periodic cell indexing."
+    ],
+    "readiness_checks": [
+      "Compute one periodic donor-cell step and identify the preserved total.",
+      "Explain the CFL number and positivity for one-cell upwind.",
+      "Derive Fourier amplification for centered Euler and contrast its stability with upwind."
+    ]
+  }
+}

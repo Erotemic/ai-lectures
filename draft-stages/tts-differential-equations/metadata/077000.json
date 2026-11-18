@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "lecture_id": "077000",
+  "transcript": "077000-why-upwind-smears-a-sharp-front.md",
+  "related_resources": [
+    {
+      "source_id": "de-berkeley-advection",
+      "reason": "Upwind, Lax-Wendroff, stability and error properties."
+    },
+    {
+      "source_id": "de-cambridge-finite-volume",
+      "reason": "Conservation laws, reconstruction and higher resolution numerical fluxes."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-17",
+    "scope": "New foundation-first mathematical narration and companion on conservation and numerical transport; 41 previous manuscripts and metadata retained."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "differential-equations:076000",
+        "reason": "Upwind update, stability and discrete pulses."
+      },
+      {
+        "lecture_id": "differential-equations:073000",
+        "reason": "Taylor expansions and truncation errors for finite differences."
+      }
+    ],
+    "recommended": [],
+    "background": [
+      "Taylor expansion in space and time, constant-speed advection, and first-order numerical updates."
+    ],
+    "readiness_checks": [
+      "Derive the numerical diffusion coefficient from the modified equation.",
+      "Compute the Lax-Wendroff pulse example and identify its new extrema.",
+      "Explain why norm stability and positivity are different properties."
+    ]
+  }
+}

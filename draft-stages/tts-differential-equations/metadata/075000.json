@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "lecture_id": "075000",
+  "transcript": "075000-what-moves-with-the-flow.md",
+  "related_resources": [
+    {
+      "source_id": "de-stanford-conservation",
+      "reason": "Integral balance and weak conservation laws."
+    },
+    {
+      "source_id": "de-berkeley-advection",
+      "reason": "Characteristics, inflow boundary and advection equation."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-17",
+    "scope": "New foundation-first mathematical narration and companion on conservation and numerical transport; 41 previous manuscripts and metadata retained."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "differential-equations:047000",
+        "reason": "Rate laws, differential equations, and initial data."
+      }
+    ],
+    "recommended": [],
+    "background": [
+      "Single-variable derivatives and integrals, the chain rule, elementary motion, and rates of change."
+    ],
+    "readiness_checks": [
+      "Derive the translated exact solution of constant-speed transport.",
+      "Distinguish conservative and nonconservative variable-speed transport.",
+      "Identify which boundary supplies data from the sign of the velocity."
+    ]
+  }
+}

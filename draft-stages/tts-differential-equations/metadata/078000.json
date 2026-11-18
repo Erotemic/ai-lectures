@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "lecture_id": "078000",
+  "transcript": "078000-conservation-one-cell-at-a-time.md",
+  "related_resources": [
+    {
+      "source_id": "de-cambridge-finite-volume",
+      "reason": "Finite-volume cell balances and numerical flux formulation."
+    },
+    {
+      "source_id": "de-stanford-conservation",
+      "reason": "Conservation laws, weak solutions and jump conditions."
+    },
+    {
+      "source_id": "de-berkeley-advection",
+      "reason": "Inflow/outflow and upwind transport discretization."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-17",
+    "scope": "New foundation-first mathematical narration and companion on conservation and numerical transport; 41 previous manuscripts and metadata retained."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "differential-equations:075000",
+        "reason": "Conservation balances over intervals and characteristic transport."
+      },
+      {
+        "lecture_id": "differential-equations:076000",
+        "reason": "Upwind donor-cell updates and Courant numbers."
+      },
+      {
+        "lecture_id": "differential-equations:077000",
+        "reason": "Artificial diffusion and accuracy versus stability."
+      }
+    ],
+    "recommended": [],
+    "background": [
+      "Basic integration, cell averages, one-sided transport and algebraic telescoping sums."
+    ],
+    "readiness_checks": [
+      "Derive the finite-volume update from an interval conservation law.",
+      "Check open-boundary mass balance for a five-cell example.",
+      "Explain the role of numerical flux consistency for nonlinear transport."
+    ]
+  }
+}

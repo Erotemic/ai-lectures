@@ -162,3 +162,20 @@ transcript:
       with explicit transform conventions, worked Gaussian and grid computations,
       numerical stability qualifications and mathematical companions. Preserve
       all earlier 37 lecture manuscripts and their per-lecture metadata.
+  - date: '2026-11-17'
+    models:
+    - GPT-6
+    sources:
+    - lecture: '075000'
+      composition_record: metadata/075000.json
+    - lecture: '076000'
+      composition_record: metadata/076000.json
+    - lecture: '077000'
+      composition_record: metadata/077000.json
+    - lecture: '078000'
+      composition_record: metadata/078000.json
+    scope: Add four original conservation-law and numerical-transport foundations,
+      from characteristics and CFL to artificial diffusion and finite-volume
+      flux accounting; include exact mathematical companions, verified examples,
+      source records and new listening route. Preserve all 41 earlier lecture
+      manuscripts and their metadata.

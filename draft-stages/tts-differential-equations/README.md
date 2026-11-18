@@ -2,7 +2,7 @@
 
 Ordinary differential equations and dynamical systems: initial-value problems, existence and uniqueness, phase portraits, oscillations, stability, nonlinear dynamics and numerical integration, later partial differential equations.
 
-The current pack contains **41 lecture manuscripts**. Short concept chapters have been consolidated where they develop one subject. Each numbered manuscript has one spoken region; its mathematical statements, exercises, sources, and inherited component notes remain in the non-spoken companion.
+The current pack contains **45 lecture manuscripts**. Short concept chapters have been consolidated where they develop one subject. Each numbered manuscript has one spoken region; its mathematical statements, exercises, sources, and inherited component notes remain in the non-spoken companion.
 
 ## Listening routes
 
@@ -11,6 +11,7 @@ The current pack contains **41 lecture manuscripts**. Short concept chapters hav
 - **Differential Equations · ODE Foundations** (Guided route): `001000`, `004000`, `007000`.
 - **Differential Equations · Worked First-Order Problems and Oscillators** (Foundation bridge): `047000`, `048000`, `049000`, `050000`.
 - **Differential Equations · Boundary-Value Problems, Heat and Wave Modes from Scratch** (Foundation bridge): `067000`, `068000`, `069000`, `070000`.
+- **Differential Equations · Conservation Laws and Numerical Transport from Scratch** (Foundation bridge): `075000`, `076000`, `077000`, `078000`.
 - **Differential Equations · Fourier Transforms and Numerical Spatial Discretization** (Foundation bridge): `071000`, `072000`, `073000`, `074000`.
 - **Differential Equations · Numerical Time Stepping from Scratch** (Foundation bridge): `063000`, `064000`, `065000`, `066000`.
 - **Differential Equations · Linear Systems and Phase Portraits from Scratch** (Foundation bridge): `059000`, `060000`, `061000`, `062000`.
@@ -70,6 +71,10 @@ Durations are measured from the current spoken text at 145 words per minute, bef
 | `072000` | [Heat Spreading on an Infinite Line: Solving a PDE with Fourier Transforms](072000-heat-spreading-on-an-infinite-line.md) | 14.8 |
 | `073000` | [Spatial Derivatives Become Matrices: Finite Differences from Taylor’s Formula](073000-spatial-derivatives-become-matrices.md) | 14.0 |
 | `074000` | [The Heat Equation as a System of ODEs: Method of Lines, Stability, and Error](074000-the-heat-equation-as-a-system-of-odes.md) | 16.5 |
+| `075000` | [What Moves with the Flow: Characteristics and Conservation](075000-what-moves-with-the-flow.md) | 12.6 |
+| `076000` | [Upwind Steps and the CFL Limit: Following Information Across a Grid](076000-upwind-steps-and-the-cfl-limit.md) | 15.0 |
+| `077000` | [Why Upwind Smears a Sharp Front: Numerical Diffusion and Accuracy](077000-why-upwind-smears-a-sharp-front.md) | 14.6 |
+| `078000` | [Conservation One Cell at a Time: Finite-Volume Methods from Scratch](078000-conservation-one-cell-at-a-time.md) | 16.4 |
 
 ## Foundation-first continuation
 
@@ -107,3 +112,8 @@ The `067000`–`070000` route distinguishes endpoint constraints from initial da
 ## Fourier transform and method-of-lines foundation bridge
 
 The `071000`–`074000` route derives the continuous-frequency transform as a long-period limit of Fourier series, solves the infinite-line heat equation through its Gaussian kernel and convolution, constructs first and second finite differences from Taylor expansions, and turns a bounded-interval heat equation into a tridiagonal ODE system. It checks explicit and implicit Euler against exact eigenmodes, showing how spatial accuracy and time stability are separate questions. The first two lectures can be heard without numerical linear algebra; the final two require only basic matrices and numerical ODE time steps. Previous 37 manuscripts are unchanged.
+
+
+## Conservation laws and numerical transport foundation bridge
+
+The `075000`–`078000` route derives transport from characteristics and integral conservation, constructs the donor-cell update with a precise CFL condition, quantifies numerical diffusion by a modified equation, compares Lax–Wendroff and monotone upwind methods on a sharp pulse, and builds finite-volume flux balances with a fully worked five-cell inlet example. Smooth-wave and discontinuous-data accuracy are distinguished; shock theory remains a preview rather than a prerequisite. Earlier 41 manuscripts and their metadata are unchanged.

@@ -15,6 +15,7 @@
     "nonlinear-phase-planes",
     "boundary-values-fourier-modes",
     "fourier-transforms-and-method-of-lines",
+    "conservation-numerical-transport",
     "transport-diffusion-pdes",
     "poincare-floquet",
     "reaction-diffusion-turing",
@@ -740,6 +741,76 @@
         "Backward Euler",
         "Stability",
         "Spatial and temporal error"
+      ]
+    },
+    {
+      "id": "075000",
+      "title": "What Moves with the Flow: Characteristics and Conservation",
+      "section": "conservation-numerical-transport",
+      "file": "075000-what-moves-with-the-flow.md",
+      "spoken_words": 1822,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 12.6,
+      "tags": [
+        "Differential equations",
+        "Transport equation",
+        "Characteristics",
+        "Conservation laws",
+        "Inflow and outflow boundaries",
+        "Advection"
+      ]
+    },
+    {
+      "id": "076000",
+      "title": "Upwind Steps and the CFL Limit: Following Information Across a Grid",
+      "section": "conservation-numerical-transport",
+      "file": "076000-upwind-steps-and-the-cfl-limit.md",
+      "spoken_words": 2174,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 15.0,
+      "tags": [
+        "Differential equations",
+        "Upwind scheme",
+        "CFL condition",
+        "Numerical stability",
+        "Finite differences",
+        "Transport"
+      ]
+    },
+    {
+      "id": "077000",
+      "title": "Why Upwind Smears a Sharp Front: Numerical Diffusion and Accuracy",
+      "section": "conservation-numerical-transport",
+      "file": "077000-why-upwind-smears-a-sharp-front.md",
+      "spoken_words": 2122,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 14.6,
+      "tags": [
+        "Differential equations",
+        "Numerical diffusion",
+        "Modified equations",
+        "Lax-Wendroff",
+        "Limiters",
+        "Monotonicity",
+        "Transport"
+      ]
+    },
+    {
+      "id": "078000",
+      "title": "Conservation One Cell at a Time: Finite-Volume Methods from Scratch",
+      "section": "conservation-numerical-transport",
+      "file": "078000-conservation-one-cell-at-a-time.md",
+      "spoken_words": 2376,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 16.4,
+      "tags": [
+        "Differential equations",
+        "Finite-volume methods",
+        "Conservative flux",
+        "Cell averages",
+        "Boundary flux",
+        "Numerical transport",
+        "PDE"
       ]
     }
   ],
