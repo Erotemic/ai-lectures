@@ -1,3 +1,4 @@
+import { dateAxes, chronologyRecord } from "./chronology.mjs";
 import { tagLabels } from "./tag-model.mjs";
 /** Library totals count content identities, never repeated listening-route entries. */
 import { collectionRows } from "./browse-model.mjs";
@@ -43,7 +44,7 @@ export function libraryStats(catalog) {
     packGroups.get(id).push(row);
   }
   const dates = {};
-  const axisNames = ["period", "work", "setting", "life", "witness", "composition"];
+  const axisNames = Object.keys(dateAxes);
   for (const axis of axisNames) {
     const buckets = new Map();
     for (const row of rows) for (const label of new Set(row.time_coverage?.[axis] || [])) {
@@ -65,6 +66,7 @@ export function libraryStats(catalog) {
     authorGroups.get(name).push(row);
   }
   return {
+    dateCoverage: Object.fromEntries(axisNames.map(axis => [axis, rows.filter(row => chronologyRecord(row, axis)).length])),
     places: grouped("places"), periods: grouped("periods"), topics: grouped("tags"), dates,
     authors: [...authorGroups].map(([title, members]) => ({ title, ...contentTotals(members) }))
       .sort((a, b) => b.lectures - a.lectures || a.title.localeCompare(b.title)),

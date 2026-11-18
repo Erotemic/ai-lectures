@@ -2,11 +2,11 @@ import { el } from "./api.mjs";
 
 export const dateAxes = {
   work: "Work date", period: "Period covered", setting: "Story setting",
-  life: "Subject’s lifespan", witness: "Textual witness", composition: "Composition date",
+  life: "Subject’s lifespan", witness: "Textual witness", composition: "Composition date", context: "Historical setting",
 };
 
 export function dateOrder(value) {
-  const match = /^date-(work|period|setting|life|witness|composition)(-desc)?$/.exec(value || "");
+  const match = /^date-(work|period|setting|life|witness|composition|context)(-desc)?$/.exec(value || "");
   return match ? { axis: match[1], descending: Boolean(match[2]) } : null;
 }
 

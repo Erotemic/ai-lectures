@@ -93,7 +93,8 @@
     }
   ],
   "periods": [
-    "Medieval"
+    "Medieval",
+    "Early Middle Ages"
   ],
   "creators": [
     {
@@ -105,5 +106,20 @@
     "Literature",
     "Epic"
   ],
-  "description": "The Song of Roland — Analysis: Honor, Poetry, and Invented Enemies. Analysis of Roland epic honor, war and invented enemies."
+  "description": "The Song of Roland — Analysis: Honor, Poetry, and Invented Enemies. Analysis of Roland epic honor, war and invented enemies.",
+  "chronology": {
+    "setting": {
+      "start": 778,
+      "approximate": true,
+      "basis": "legendary_setting",
+      "label": "778 CE · legendary reworking of the campaign",
+      "note": "The 093000 and 094000 manuscripts identify the 778 campaign as a historical anchor but distinguish Basque attackers in early records from the poem’s invented religious war. This anchor does not date the poem’s composition or authenticate its battles and speeches.",
+      "source_ids": [
+        "overview-roland-history"
+      ]
+    }
+  },
+  "places": [
+    "Pyrenees"
+  ]
 }

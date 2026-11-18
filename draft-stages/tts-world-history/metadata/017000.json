@@ -17,7 +17,8 @@
     }
   ],
   "periods": [
-    "Ancient world"
+    "Ancient world",
+    "Legendary Bronze Age"
   ],
   "creators": [
     {
@@ -27,10 +28,25 @@
     }
   ],
   "places": [
-    "Ancient Greece"
+    "Ancient Greece",
+    "Aegean",
+    "Troy",
+    "Ithaca"
   ],
   "tags": [
     "Literature"
   ],
-  "description": "The Odyssey, Part II: The House of Ithaca. Covers A homeland hidden by a goddess; Eumaeus and the welcome that asks no proof; A son's journey back; What it means to come home."
+  "description": "The Odyssey, Part II: The House of Ithaca. Covers A homeland hidden by a goddess; Eumaeus and the welcome that asks no proof; A son's journey back; What it means to come home.",
+  "chronology": {
+    "setting": {
+      "start": -1200,
+      "approximate": true,
+      "basis": "legendary_setting",
+      "label": "c. 1200 BCE · conventional Trojan heroic frame",
+      "note": "Conventional Bronze Age frame for the Trojan War and its aftermath; this is a sorting anchor, not a claim that the war or marvelous voyages happened in this year. The poems mix periods. Their formation and surviving witnesses are separate. See discovery-homeric-setting and the 013000 opening; British Museum Troy exhibition notes that Homer’s war has not been established as a historical event.",
+      "source_ids": [
+        "discovery-homeric-setting"
+      ]
+    }
+  }
 }

@@ -116,7 +116,9 @@
     }
   ],
   "periods": [
-    "Medieval"
+    "Medieval",
+    "Late Heian period",
+    "Genpei War"
   ],
   "creators": [
     {
@@ -129,6 +131,20 @@
   ],
   "description": "The Tale of the Heike — Analysis: The Sound After Victory. Heike performative Buddhist temporality and literary memory.",
   "places": [
-    "Japan"
-  ]
+    "Japan",
+    "Kyoto"
+  ],
+  "chronology": {
+    "setting": {
+      "start": 1101,
+      "end": 1200,
+      "approximate": true,
+      "basis": "fictional_historical_frame",
+      "label": "12th century CE · late Heian and Genpei narrative frame",
+      "note": "The 097000 manuscript explicitly places the Taira story in late-twelfth-century Japan. This broad century identifies the main narrative frame, including the 1180–83 wars named in its scope; embedded memories and subsequent textual transmission are distinct.",
+      "source_ids": [
+        "overview-heike-columbia"
+      ]
+    }
+  }
 }

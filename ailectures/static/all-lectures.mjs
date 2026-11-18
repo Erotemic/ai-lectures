@@ -2,7 +2,7 @@ import { tagLabels } from "./tag-model.mjs";
 import { inventoryItem, lectureView, initialLectureLimit } from "./all-lecture-views.mjs";
 import { el, getStored, store } from "./api.mjs";
 import { allLectureRows } from "./all-lectures-model.mjs";
-import { chronologyOptions, dateOrder } from "./chronology.mjs";
+import { chronologyOptions, dateOrder, chronologyRecord, dateAxes } from "./chronology.mjs";
 
 export function renderAllLectures(main, catalog, { item, link, reactions }) {
   const params = new URLSearchParams(location.search);
@@ -31,6 +31,9 @@ export function renderAllLectures(main, catalog, { item, link, reactions }) {
   sort.append(...chronologyOptions());
   sort.value = params.get("sort") || "title";
   if (!sort.value) sort.value = "title";
+  const dateState = select("Date coverage", [["", "All date states"], ["dated", "Dated only"], ["undated", "Without dates"]], params.get("date"));
+  const dateFilter = el("label", {}, "Date coverage", dateState);
+  const coverage = el("p", { class: "muted date-coverage", role: "status" });
   const tags = el("datalist", { id: "all-lecture-tags" }, ...[...new Set(lectures.flatMap(tagLabels))].sort().map(value => el("option", { value })));
   const tag = el("input", { type: "search", list: "all-lecture-tags", "aria-label": "Tag",
     placeholder: "Topic, place, author, or period", value: params.get("tag") || "" });
@@ -43,22 +46,30 @@ export function renderAllLectures(main, catalog, { item, link, reactions }) {
   main.replaceChildren(el("div", { class: "inventory-heading" }, el("h1", { text: "All lectures" }),
     el("p", {}, link("Browse collections", "/collections"), " · ", link("Content stats", "/stats"))),
     query,
-    el("details", { class: "browsing-options", open: Boolean(params.get("category") || params.get("pack") || params.get("tag") || params.get("audio") || params.get("personal")) },
+    el("details", { class: "browsing-options", open: Boolean(params.get("category") || params.get("pack") || params.get("tag") || params.get("audio") || params.get("personal") || params.get("date")) },
       el("summary", { text: "Filter and sort" }),
       el("div", { class: "filters" }, el("label", {}, "Category", category), el("label", {}, "Content pack", pack),
-        el("label", {}, "Tag", tag, tags), el("label", {}, "Audio", audio), el("label", {}, "Your feedback", personal), el("label", {}, "Order", sort))),
-    el("div", { class: "actions all-lectures-status" }, count, el("label", { class: "inventory-view" }, "View", view), showAll, clear), results);
+        el("label", {}, "Tag", tag, tags), el("label", {}, "Audio", audio), el("label", {}, "Your feedback", personal), el("label", {}, "Order", sort), dateFilter)),
+    el("div", { class: "actions all-lectures-status" }, count, el("label", { class: "inventory-view" }, "View", view), showAll, clear), coverage, results);
   function update() {
-    const filters = { q: query.value.trim(), category: category.value, pack: pack.value, tag: tag.value.trim(), audio: audio.value, personal: personal.value, sort: sort.value };
+    const filters = { q: query.value.trim(), category: category.value, pack: pack.value, tag: tag.value.trim(), audio: audio.value, personal: personal.value, sort: sort.value, date: dateOrder(sort.value) ? dateState.value : "" };
     const search = new URLSearchParams(Object.entries(filters).filter(([key, value]) => value && !(key === "sort" && value === "title")));
     search.set("view", view.value);
     if (limit >= total && total > initialLectureLimit(view.value)) search.set("show", "all");
     const returnTo = "/lectures" + (search.size ? "?" + search : "");
     history.replaceState({ ...history.state, allLecturesLimit: limit }, "", returnTo);
     const rows = allLectureRows(lectures, filters, reactions?.records);
+    const axis = dateOrder(sort.value)?.axis;
+    dateFilter.hidden = !axis;
+    coverage.hidden = !axis;
+    if (axis) {
+      const candidates = allLectureRows(lectures, { ...filters, date: "" }, reactions?.records);
+      const dated = candidates.filter(row => chronologyRecord(row, axis)).length;
+      coverage.textContent = `${dateAxes[axis]} dates: ${dated.toLocaleString()} / ${candidates.length.toLocaleString()} matching lectures. Undated items follow; their order does not indicate age.`;
+    }
     const visible = rows.slice(0, limit);
     count.textContent = `${visible.length.toLocaleString()} shown · ${rows.length.toLocaleString()} matching · ${total.toLocaleString()} total lectures`;
-    clear.hidden = ![filters.q, filters.category, filters.pack, filters.tag, filters.audio, filters.personal].some(Boolean) && filters.sort === "title";
+    clear.hidden = ![filters.q, filters.category, filters.pack, filters.tag, filters.audio, filters.personal, filters.date].some(Boolean) && filters.sort === "title";
     showAll.hidden = rows.length <= limit;
     showAll.textContent = `Show all ${rows.length.toLocaleString()} matching lectures`;
     showAll.onclick = () => { limit = Math.max(total, rows.length); update(); };
@@ -73,7 +84,7 @@ export function renderAllLectures(main, catalog, { item, link, reactions }) {
       results.append(el("div", { class: "actions" }, more, all));
     }
   }
-  for (const control of [query, category, pack, tag, audio, personal, sort]) {
+  for (const control of [query, category, pack, tag, audio, personal, sort, dateState]) {
     control.addEventListener(control === query || control === tag ? "input" : "change", () => { limit = initialLectureLimit(view.value); update(); });
   }
   view.onchange = () => {
@@ -82,7 +93,7 @@ export function renderAllLectures(main, catalog, { item, link, reactions }) {
     update();
   };
   clear.onclick = () => {
-    for (const control of [query, category, pack, tag, audio, personal]) control.value = "";
+    for (const control of [query, category, pack, tag, audio, personal, dateState]) control.value = "";
     sort.value = "title";
     limit = initialLectureLimit(view.value);
     update();

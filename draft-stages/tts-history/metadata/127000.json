@@ -178,20 +178,20 @@
       ],
       "note": "1698 refers to a posthumously published treatise, not a time when Huygens was alive."
     },
-    "setting": {
-      "start": 1629,
-      "end": 1695,
-      "basis": "historical_setting",
-      "label": "Dutch Republic and seventeenth-century European scientific networks",
-      "source_ids": [
-        "history-huygens-mactutor"
-      ]
-    },
     "work": {
       "start": 1651,
       "end": 1695,
       "basis": "scientific_and_mathematical_activity",
       "label": "1651–1695 · mathematical and scientific work",
+      "source_ids": [
+        "history-huygens-mactutor"
+      ]
+    },
+    "context": {
+      "start": 1629,
+      "end": 1695,
+      "basis": "historical_setting",
+      "label": "Dutch Republic and seventeenth-century European scientific networks",
       "source_ids": [
         "history-huygens-mactutor"
       ]

@@ -17,7 +17,8 @@
     }
   ],
   "periods": [
-    "Ancient world"
+    "Ancient world",
+    "Legendary Bronze Age"
   ],
   "creators": [
     {
@@ -27,10 +28,25 @@
     }
   ],
   "places": [
-    "Ancient Greece"
+    "Ancient Greece",
+    "Aegean",
+    "Troy",
+    "Ithaca"
   ],
   "tags": [
     "Literature"
   ],
-  "description": "The Odyssey, Part I: The Long Way Home. Covers The house without its king; The goddess who offers another life; Nausicaa and the discovery of a stranger; Why the journey is told as a story."
+  "description": "The Odyssey, Part I: The Long Way Home. Covers The house without its king; The goddess who offers another life; Nausicaa and the discovery of a stranger; Why the journey is told as a story.",
+  "chronology": {
+    "setting": {
+      "start": -1200,
+      "approximate": true,
+      "basis": "legendary_setting",
+      "label": "c. 1200 BCE · conventional Trojan heroic frame",
+      "note": "Conventional Bronze Age frame for the Trojan War and its aftermath; this is a sorting anchor, not a claim that the war or marvelous voyages happened in this year. The poems mix periods. Their formation and surviving witnesses are separate. See discovery-homeric-setting and the 013000 opening; British Museum Troy exhibition notes that Homer’s war has not been established as a historical event.",
+      "source_ids": [
+        "discovery-homeric-setting"
+      ]
+    }
+  }
 }

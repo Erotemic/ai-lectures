@@ -1,4 +1,5 @@
 import { el } from "./api.mjs";
+import { chronologyRecord } from "./chronology.mjs";
 import { formatMinutes } from "./browse-model.mjs";
 import { reactionControls } from "./reactions.mjs";
 
@@ -22,7 +23,10 @@ export function inventoryItem(row, view, { item, reactions, packs, returnTo, axi
     const audio = row.kind === "presentation" ? "Slides" : complete ? "Audio" : row.recordings?.length ? "Partial" : "Text";
     anchor.classList.add("compact-lecture-title");
     anchor.title = row.title;
-    const summary = el("summary", {}, anchor,
+    const record = axis && chronologyRecord(row, axis);
+    const year = value => Math.abs(value).toLocaleString() + (value < 0 ? " BCE" : " CE");
+    const date = axis ? el("span", { class: "compact-lecture-date muted", text: record?.label || (record ? year(record.start) : "Undated"), title: record ? [record.label, record.note].filter(Boolean).join(" · ") : "No date recorded for this axis" }) : null;
+    const summary = el("summary", { class: axis ? "with-date" : "" }, anchor, date,
       el("span", { class: "compact-lecture-duration muted", text: formatMinutes(row.estimated_minutes || (row.words || 0) / 145) }),
       el("span", { class: "compact-lecture-audio muted", text: audio, title: complete ? "Complete audio available" : audio === "Partial" ? "Partially generated audio" : "Transcript available" }));
     const details = el("details", { class: "compact-lecture" }, summary,

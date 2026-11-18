@@ -5,7 +5,7 @@ Invalid optional records are omitted; they never prevent lecture playback.
 """
 
 
-AXES = ("work", "period", "setting", "life", "witness", "composition")
+AXES = ("work", "period", "setting", "life", "witness", "composition", "context")
 MAX_YEAR = 10**12
 _TEXT_LIMITS = {"label": 512, "basis": 128, "note": 8000}
 _MAX_SOURCE_IDS = 512

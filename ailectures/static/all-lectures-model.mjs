@@ -1,7 +1,7 @@
 import { reactionValue } from "./reactions.mjs";
 /** A flat catalog view never rewrites collection membership or playback order. */
 import { matchesLecture, matchesTag } from "./browse-model.mjs";
-import { dateOrder, sortChronologically } from "./chronology.mjs";
+import { dateOrder, sortChronologically, chronologyRecord } from "./chronology.mjs";
 
 export function allLectureRows(lectures, filters = {}, reactions = {}) {
   const byId = new Map(lectures.map(row => [row.id, row]));
@@ -10,6 +10,8 @@ export function allLectureRows(lectures, filters = {}, reactions = {}) {
     const complete = recordings.some(recording => recording.complete);
     const rating = reactionValue(reactions, row.id, "rating");
     const personal = filters.personal || "";
+    const axis = dateOrder(filters.sort)?.axis;
+    if (axis && filters.date && Boolean(chronologyRecord(row, axis)) !== (filters.date === "dated")) return false;
     return (!personal || (personal === "favorites" ? reactionValue(reactions, row.id, "favorite")
       : personal === "rated" ? rating !== null : personal === "unrated" ? rating === null
       : rating >= Number(personal)))

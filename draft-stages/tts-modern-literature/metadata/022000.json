@@ -90,6 +90,16 @@
       "source_ids": [
         "ml-1984-primary"
       ]
+    },
+    "setting": {
+      "start": 1984,
+      "approximate": true,
+      "basis": "fictional_uncertain_calendar",
+      "label": "1984 CE · uncertain in-world calendar",
+      "note": "021200 explicitly says Winston dates his diary to 1984 but cannot be sure the year is correct. The label preserves that unreliable fictional calendar; this is not publication in 1949 or a verified historical date.",
+      "source_ids": [
+        "ml-1984-primary"
+      ]
     }
   },
   "creators": [
@@ -102,5 +112,8 @@
     "Literature",
     "Novels"
   ],
-  "description": "Follows Winston’s private resistance and its destruction, examining surveillance, language, political truth, intimacy, and coercion. Covers A novel about evidence; Orwell's historical horizon; The two ways of resisting; The appendix and the possibility of an outside."
+  "description": "Follows Winston’s private resistance and its destruction, examining surveillance, language, political truth, intimacy, and coercion. Covers A novel about evidence; Orwell's historical horizon; The two ways of resisting; The appendix and the possibility of an outside.",
+  "places": [
+    "London"
+  ]
 }

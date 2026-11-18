@@ -66,3 +66,13 @@ assert.equal(coverage.dates.setting[0].lectures, 1);
 assert.equal(coverage.withPlaces, 2);
 assert.equal(coverage.withDates, 2);
 assert.equal(coverage.withDescriptions, 1);
+
+// Coverage counts identities with valid dates, independently for each axis.
+const datedStats=libraryStats({lectures:[
+  {id:"a",chronology:{setting:{start:-500},context:{start:100}}},
+  {id:"a",chronology:{setting:{start:-500},context:{start:100}}},
+  {id:"b",chronology:{work:{start:1900},setting:{start:0}}},
+],courses:[],packs:[]});
+assert.equal(datedStats.dateCoverage.setting,1);
+assert.equal(datedStats.dateCoverage.work,1);
+assert.equal(datedStats.dateCoverage.context,1);

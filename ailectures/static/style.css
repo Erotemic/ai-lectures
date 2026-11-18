@@ -902,3 +902,11 @@ progress {
   .compact-lecture-audio { display: none; }
   .all-lectures-status > p { flex-basis: 100%; }
 }
+
+.compact-lecture > summary.with-date { grid-template-columns: 0.8rem minmax(0, 1fr) minmax(5rem, 15rem) auto 3.5rem; }
+.compact-lecture-date { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 0.78rem; text-align: right; }
+.date-coverage { font-size: 0.85rem; }
+@media (max-width: 760px) {
+  .compact-lecture > summary.with-date { grid-template-columns: 0.8rem minmax(0, 1fr) minmax(4rem, 7rem); }
+  .compact-lecture > summary.with-date .compact-lecture-duration { display: none; }
+}

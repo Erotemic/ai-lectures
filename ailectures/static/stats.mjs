@@ -56,12 +56,17 @@ export function renderStats(main, catalog, { link, refresh }) {
     el("p", { class: "muted", text: "Place names describe associations with the material, including its origins and settings. They do not imply modern nationality or exhaustive geographic coverage. Missing metadata is not evidence of a gap in the lectures themselves." }),
     totalsTable(data.places, "Place associations", row => tagLink("Place: ", row))));
   const timeResults = el("div");
-  const axisLabels = { period: "Historical period", work: "Work date", setting: "Story setting", life: "Lifetime", witness: "Surviving witness", composition: "Composition date" };
+  const axisLabels = { period: "Historical period", work: "Work date", setting: "Story setting", life: "Lifetime", witness: "Surviving witness", composition: "Composition date", context: "Historical setting" };
   const axis = el("select", { "aria-label": "Date meaning" }, ...Object.entries(axisLabels).map(([value, text]) => el("option", { value, text })));
   axis.value = Object.keys(axisLabels).find(key => data.dates[key].length) || "period";
   const showTime = () => {
     const rows = data.dates[axis.value];
-    timeResults.replaceChildren(rows.length ? totalsTable(rows, `${axisLabels[axis.value]} coverage`, row => tagLink(axisLabels[axis.value] + ": ", row)) : el("p", { text: "No dates of this kind are recorded." }));
+    const dated = data.dateCoverage[axis.value];
+    const sort = "date-" + axis.value;
+    timeResults.replaceChildren(el("p", { class: "date-coverage" },
+      `${number(dated)} of ${number(data.lectures)} lectures have ${axisLabels[axis.value].toLowerCase()} dates. `,
+      link("Browse dated", "/lectures?" + new URLSearchParams({ sort, date: "dated" })), " · ",
+      link(`Browse ${number(data.lectures - dated)} without dates`, "/lectures?" + new URLSearchParams({ sort, date: "undated" }))), rows.length ? totalsTable(rows, `${axisLabels[axis.value]} coverage`, row => tagLink(axisLabels[axis.value] + ": ", row)) : el("p", { text: "No dates of this kind are recorded." }));
   };
   axis.onchange = showTime;
   showTime();

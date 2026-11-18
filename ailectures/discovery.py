@@ -10,7 +10,7 @@ from .tagging import tag_paths, normalize_paths
 
 AXIS_LABELS = {
     "work": "Work date", "period": "Historical period", "setting": "Story setting",
-    "life": "Lifetime", "witness": "Surviving witness", "composition": "Composition date",
+    "life": "Lifetime", "witness": "Surviving witness", "composition": "Composition date", "context": "Historical setting",
 }
 
 

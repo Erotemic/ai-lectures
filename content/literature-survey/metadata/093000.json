@@ -116,7 +116,8 @@
     }
   ],
   "periods": [
-    "Medieval"
+    "Medieval",
+    "Early Middle Ages"
   ],
   "creators": [
     {
@@ -128,5 +129,20 @@
     "Literature",
     "Epic"
   ],
-  "description": "The Song of Roland — The Story: The Horn and the Rear Guard. Received Oxford Song of Roland full epic and epilogue."
+  "description": "The Song of Roland — The Story: The Horn and the Rear Guard. Received Oxford Song of Roland full epic and epilogue.",
+  "chronology": {
+    "setting": {
+      "start": 778,
+      "approximate": true,
+      "basis": "legendary_setting",
+      "label": "778 CE · legendary reworking of the campaign",
+      "note": "The 093000 and 094000 manuscripts identify the 778 campaign as a historical anchor but distinguish Basque attackers in early records from the poem’s invented religious war. This anchor does not date the poem’s composition or authenticate its battles and speeches.",
+      "source_ids": [
+        "overview-roland-history"
+      ]
+    }
+  },
+  "places": [
+    "Pyrenees"
+  ]
 }

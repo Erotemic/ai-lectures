@@ -180,7 +180,8 @@
   ],
   "periods": [
     "Medieval",
-    "Early medieval"
+    "Early medieval",
+    "Migration Period"
   ],
   "creators": [
     {
@@ -192,5 +193,23 @@
     "Literature",
     "Epic"
   ],
-  "description": "Beowulf II: The Dragon and the Last Fire. Beowulf, Old English poem lines approximately 1888–3182, Geatland, dragon and funeral."
+  "description": "Beowulf II: The Dragon and the Last Fire. Beowulf, Old English poem lines approximately 1888–3182, Geatland, dragon and funeral.",
+  "chronology": {
+    "setting": {
+      "start": 501,
+      "end": 600,
+      "approximate": true,
+      "basis": "legendary_setting",
+      "label": "6th century CE · Scandinavian heroic frame",
+      "note": "The 072000 manuscript distinguishes its sixth-century Scandinavian legendary world from documentary history. British Library work guide: https://www.britishlibrary.cn/en/works/beowulf/. This is neither the poem’s composition date nor the manuscript’s date; monsters are not historical events.",
+      "source_ids": [
+        "global-beowulf-bl"
+      ]
+    }
+  },
+  "places": [
+    "Scandinavia",
+    "Denmark",
+    "Geatland"
+  ]
 }

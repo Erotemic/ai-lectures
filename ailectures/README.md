@@ -42,7 +42,11 @@ without grouping it into collections. Concise list is the default, showing up to
 selector also offers Detailed list and Cards; its choice is saved on this device.
 Filters, view choices, and the full-list view are bookmarkable, and lecture
 return links preserve them. Browsing this inventory does not change collection
-playback order.
+playback order. When sorting by a date, concise rows show that date, and a
+coverage count makes missing metadata visible. Date coverage filters select
+dated or undated items; undated items always follow dated items. Story-setting
+dates remain distinct from publication, composition, and nonfictional historical
+environments. Stats links to both dated and undated groups for each date meaning.
 
 Press `/` to search the current collection, or Ctrl/Cmd+K to search the library.
 Browsing options include category, audience, audio availability, every nested

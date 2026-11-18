@@ -58,6 +58,16 @@
       ],
       "end": -601,
       "label": "7th century BCE · Nineveh copies"
+    },
+    "setting": {
+      "start": -2700,
+      "approximate": true,
+      "basis": "legendary_setting",
+      "label": "c. 2700 BCE · legendary Uruk frame",
+      "note": "The 001000 manuscript and its historical-setting companion explicitly place the traditional king around 2700 BCE, while denying a securely established contemporary biography. This is a legendary narrative frame, not a date for the monsters, flood, composition, or surviving tablets. Metropolitan Museum of Art: https://www.metmuseum.org/essays/gilgamesh",
+      "source_ids": [
+        "gilgamesh-met"
+      ]
     }
   },
   "creators": [
@@ -67,10 +77,14 @@
     }
   ],
   "places": [
-    "Mesopotamia"
+    "Mesopotamia",
+    "Uruk"
   ],
   "tags": [
     "Literature"
   ],
-  "description": "The Epic of Gilgamesh: The King Who Could Not Defeat Death. Covers A king in the first age of cities; The king who has no equal; A journey to the Cedar Forest; What survives of Gilgamesh."
+  "description": "The Epic of Gilgamesh: The King Who Could Not Defeat Death. Covers A king in the first age of cities; The king who has no equal; A journey to the Cedar Forest; What survives of Gilgamesh.",
+  "periods": [
+    "Early Dynastic Mesopotamia"
+  ]
 }

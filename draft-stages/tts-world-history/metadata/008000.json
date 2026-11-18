@@ -29,7 +29,8 @@
     "Mesopotamia"
   ],
   "periods": [
-    "Ancient world"
+    "Ancient world",
+    "Early Dynastic Mesopotamia"
   ],
   "creators": [
     {
@@ -40,5 +41,17 @@
   "tags": [
     "Literature"
   ],
-  "description": "Gilgamesh Beyond the Epic: The Other Stories of Uruk's King. Covers A king who consults his city; The mountain and the guardian; A goddess's tree and a journey below; Three questions the stories leave us."
+  "description": "Gilgamesh Beyond the Epic: The Other Stories of Uruk's King. Covers A king who consults his city; The mountain and the guardian; A goddess's tree and a journey below; Three questions the stories leave us.",
+  "chronology": {
+    "setting": {
+      "start": -2700,
+      "approximate": true,
+      "basis": "legendary_setting",
+      "label": "c. 2700 BCE · legendary Uruk frame",
+      "note": "The 001000 manuscript and its historical-setting companion explicitly place the traditional king around 2700 BCE, while denying a securely established contemporary biography. This is a legendary narrative frame, not a date for the monsters, flood, composition, or surviving tablets. Metropolitan Museum of Art: https://www.metmuseum.org/essays/gilgamesh",
+      "source_ids": [
+        "gilgamesh-met"
+      ]
+    }
+  }
 }

@@ -119,8 +119,8 @@ millennium, century, and decade where the range is narrow enough. A single
 authored year remains a leaf, including its approximate qualifier. Wide ranges
 stay broad and do not generate a tag for every intervening year. Publication
 (`work`), story setting (`setting`, also accepting the older `fictional_setting`
-spelling), composition (`composition`), covered period, lifetime, and textual
-witness remain distinct. Do not manufacture dates for timeless scientific topics.
+spelling), composition (`composition`), covered period, historical environment
+(`context`), lifetime, and textual witness remain distinct. Do not manufacture dates for timeless scientific topics.
 
 **Stats → Browse tags from broad to specific** shows expandable dimensions and
 unique lecture counts. Selecting any branch opens All lectures filtered by that
@@ -261,6 +261,8 @@ Optional lecture metadata can carry separate date axes:
 | `work` | Composition or publication of the work; specify which in `basis` |
 | `period` | Historical or geological period covered by the lecture |
 | `setting` | Time in which a story is set |
+| `context` | Historical environment of a nonfictional subject, distinct from a story setting |
+| `composition` | Composition of a work, when recorded separately from its publication |
 | `life` | Lifespan of the subject |
 | `witness` | A surviving manuscript, edition, or other textual witness |
 
@@ -274,6 +276,26 @@ work was composed. Do not substitute editorial timestamps, modern translations,
 or an arbitrary date mentioned in the lecture for a subject date. Leave an axis
 absent when evidence does not support it. Invalid optional records are omitted
 without disabling the lecture.
+
+Story-setting sort uses only `setting`, never a fallback to `work`, `context`,
+or a manuscript date. A traditional heroic frame can use an approximate sorting
+anchor with `basis: "legendary_setting"` and an explicit note that it does not
+establish historicity or date every embedded episode. Do not assign invented
+years to creation myths or calendars that cannot be related to BCE/CE. Place
+and named-period tags can still describe such material without numeric dates.
+
+All lectures shows coverage for the selected date axis and offers dated/undated
+filters. Stats links to both groups. To audit the indexed authoring tracks:
+
+```bash
+python tools/audit_chronology.py --output /tmp/chronology-coverage.json
+```
+
+The JSON report lists every indexed lecture, its metadata path, available axes,
+and absent axes, grouped by pack. An absent axis can be unknown or inapplicable;
+it does not mean that the lecture's content is recent. This source audit does
+not count unindexed manuscripts or separately installed runtime packs; Stats
+reports the actual live catalog.
 
 A collection in `track.json` or `navigation.json` may declare the same
 `chronology` object. Otherwise, the reader derives an axis only when every member
