@@ -247,6 +247,7 @@ export class CatalogBrowser {
         "div",
         { class: "actions" },
         this.link("Browse all categories", base + "?all=1"),
+        this.link("All lectures", "/lectures"),
         this.link("References and reading", "/references"),
       ),
       search,

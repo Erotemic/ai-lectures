@@ -1,3 +1,4 @@
+import { renderAllLectures } from "./all-lectures.mjs";
 import { creatorLine } from "./creators.mjs";
 import { renderStats } from "./stats.mjs";
 import { ProductionPanel } from "./production.mjs";
@@ -438,7 +439,8 @@ async function lecturePage(id, autoplay = false, historical = null) {
   const top = el(
     "div",
     {},
-    course ? link("← " + course.title, returnTo) : link("Library", "/"),
+    returnTo.split("?")[0] === "/lectures" ? link("← All lectures", returnTo)
+      : course ? link("← " + course.title, returnTo) : link("Library", "/"),
     title(row.title),
     creatorLine(row, link),
     row.description ? description(row.description) : null,
@@ -1162,7 +1164,8 @@ async function render(autoplay = false) {
     );
   try {
     const path = location.pathname;
-    if (["/courses", "/collections"].includes(path)) browse(true);
+    if (path === "/lectures") renderAllLectures($("main"), catalog, { item: (row, axis) => browser.item(row, null, axis), link });
+    else if (["/courses", "/collections"].includes(path)) browse(true);
     else if (path.startsWith("/courses/") || path.startsWith("/collections/"))
       coursePage(
         decodeURIComponent(

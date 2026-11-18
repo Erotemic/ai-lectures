@@ -23,6 +23,15 @@ preserve the route and search used to open a lecture. References, related routes
 complete original sequences, and recording preparation remain under Resources
 & connections.
 
+All lectures (`/lectures`) is a flat inventory of every available item, including
+unindexed manuscripts and deep dives. Items appear once across overlapping
+collections. Search includes descriptions, creator names, topics, places, dates,
+and IDs; filters select category, pack, tag, or audio availability. Sort by title,
+ID, duration, or a selected date meaning. Show all displays the full inventory
+without grouping it into collections. Filters and the full-list view are
+bookmarkable, and lecture return links preserve them. Browsing this inventory
+does not change collection playback order.
+
 Press `/` to search the current collection, or Ctrl/Cmd+K to search the library.
 Browsing options include category, audience, audio availability, every nested
 collection, and sorting by title or duration. Exact lecture IDs work in both

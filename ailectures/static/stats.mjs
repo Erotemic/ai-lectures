@@ -24,7 +24,7 @@ export function renderStats(main, catalog, { link, refresh }) {
     try { await refresh(); } finally { reload.disabled = false; reload.textContent = "Refresh stats"; }
   } });
   const metrics = [
-    ["Unique lectures", number(data.lectures)], ["Collections", number(data.collections)],
+    ["Unique lectures", number(data.lectures), "/lectures"], ["Collections", number(data.collections)],
     ["Content packs", number(data.packs)], ["Transcript words", number(data.words)],
     ["Estimated listening", `${(data.minutes / 60).toLocaleString(undefined, { maximumFractionDigits: 1 })} h`],
     ["Complete audio", `${number(data.complete)} / ${number(data.lectures)}`],
@@ -33,8 +33,8 @@ export function renderStats(main, catalog, { link, refresh }) {
     el("div", { class: "stats-heading" }, el("div", {}, el("p", { class: "eyebrow", text: "Across the library" }),
       el("h1", { text: "Content stats" })), reload),
     el("p", { class: "intro", text: "An overview of all currently available content. Each lecture counts once in the library totals, even when it appears in several listening routes." }),
-    el("dl", { class: "stats-metrics" }, ...metrics.map(([label, value]) => el("div", {},
-      el("dt", { text: label }), el("dd", { text: value })))),
+    el("dl", { class: "stats-metrics" }, ...metrics.map(([label, value, href]) => el("div", {},
+      el("dt", { text: label }), el("dd", {}, href ? link(value, href) : value)))),
   );
   if (!data.lectures) main.append(el("p", { class: "notice" }, "No lectures are available yet. ", link("Add a content pack", "/packs"), "."));
   const availability = el("section", { class: "section" }, el("h2", { text: "Ready to listen" }));

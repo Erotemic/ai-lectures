@@ -151,11 +151,14 @@ export function matchesTag(row, tag) {
   return !requested || (row?.tags || []).some(value => value.toLocaleLowerCase() === requested);
 }
 
-/** Return hints can only link back to the lecture's installed collection. */
+/** Return hints stay within this library's collection or complete-inventory views. */
 export function collectionReturnPath(hint, courseId, origin) {
-  if (!hint || !courseId) return null;
+  if (!hint) return null;
   try {
     const candidate = new URL(hint, origin);
+    if (candidate.origin === origin && candidate.pathname === "/lectures")
+      return candidate.pathname + candidate.search;
+    if (!courseId) return null;
     const match = /^\/(collections|courses)\/(.+)$/.exec(candidate.pathname);
     if (candidate.origin === origin && match && decodeURIComponent(match[2]) === courseId)
       return candidate.pathname + candidate.search + candidate.hash;

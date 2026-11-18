@@ -748,6 +748,7 @@ def create_app(
             "/courses/{course_id}",
             "/collections",
             "/collections/{collection_id}",
+            "/lectures",
             "/lectures/{namespace}/{local_id}",
             "/listening",
             "/packs",

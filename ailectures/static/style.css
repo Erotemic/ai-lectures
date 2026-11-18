@@ -829,3 +829,7 @@ progress {
 
 .work-creators { color: var(--muted); font-size: 0.85rem; margin: 0.35rem 0; }
 .lecture-description { color: var(--muted); font-size: 0.88rem; margin: 0.4rem 0; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3; overflow: hidden; }
+
+.all-lectures-status { align-items: center; }
+.all-lectures-status p { margin: 0; }
+.lecture-identity { font-variant-numeric: tabular-nums; overflow-wrap: anywhere; }
