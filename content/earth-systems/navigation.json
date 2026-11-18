@@ -8,7 +8,7 @@
       "categories": [
         "Science and nature"
       ],
-      "summary": "A connected ten-lecture study of energy, air, water, oceans, carbon, ice and landscapes, ending with coupled Pacific variability, its global teleconnections and seasonal forecasting.",
+      "summary": "Fifteen connected lectures, from Earth energy and fluid circulation through the carbon cycle, ice and landscapes, to ENSO and five types of extreme weather.",
       "chapters": [
         {
           "title": "Earth Has an Energy Budget: Light In, Heat Out",
@@ -68,6 +68,36 @@
           "title": "How to Forecast an Ocean: Measuring ENSO and Living With Uncertainty",
           "lectures": [
             "010000"
+          ]
+        },
+        {
+          "title": "When a Thunderstorm Organizes: The Physics of Rising Air",
+          "lectures": [
+            "011000"
+          ]
+        },
+        {
+          "title": "A Hurricane Is Not One Hazard: Heat Engines, Water, and the Coast",
+          "lectures": [
+            "012000"
+          ]
+        },
+        {
+          "title": "A River in the Sky Meets a Watershed: Atmospheric Rivers and Floods",
+          "lectures": [
+            "013000"
+          ]
+        },
+        {
+          "title": "When the Rain Stops Being Enough: Drought, Soil, and Water Demand",
+          "lectures": [
+            "014000"
+          ]
+        },
+        {
+          "title": "The Night That Does Not Cool: Heat Waves, Cities, and Attribution",
+          "lectures": [
+            "015000"
           ]
         }
       ]
@@ -209,6 +239,64 @@
         "008000",
         "009000",
         "010000"
+      ]
+    },
+    {
+      "id": "extreme-weather-mechanisms",
+      "title": "Earth as a System · Weather at Its Limits",
+      "role": "deep_dive",
+      "parent": "earth-as-a-system",
+      "summary": "A five-lecture sequence on organized thunderstorms, cyclone hazards, atmospheric rivers and floods, drought, and extreme heat, with observation and attribution limits.",
+      "tags": [
+        "Extreme weather",
+        "Severe thunderstorms",
+        "Tropical cyclones",
+        "Atmospheric rivers",
+        "Drought",
+        "Heat waves"
+      ],
+      "lectures": [
+        "011000",
+        "012000",
+        "013000",
+        "014000",
+        "015000"
+      ]
+    },
+    {
+      "id": "water-extremes",
+      "title": "Earth as a System · Too Much and Too Little Water",
+      "role": "deep_dive",
+      "parent": "earth-as-a-system",
+      "summary": "A water-budget path connecting the hydrological foundation to atmospheric rivers, flood storage and drought demand.",
+      "tags": [
+        "Hydrology",
+        "Floods",
+        "Drought",
+        "Atmospheric moisture"
+      ],
+      "lectures": [
+        "003000",
+        "013000",
+        "014000"
+      ]
+    },
+    {
+      "id": "climate-attribution-and-hazards",
+      "title": "Earth as a System · Climate and Extreme Events",
+      "role": "deep_dive",
+      "parent": "earth-as-a-system",
+      "summary": "How physical mechanisms, event attribution and exposure intersect in cyclone rainfall, drought, extreme heat and intense convection.",
+      "tags": [
+        "Climate attribution",
+        "Extreme event trends",
+        "Heat wave attribution"
+      ],
+      "lectures": [
+        "011000",
+        "012000",
+        "014000",
+        "015000"
       ]
     }
   ]

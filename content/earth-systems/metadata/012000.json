@@ -1,0 +1,368 @@
+{
+  "schema_version": 1,
+  "lecture_id": "012000",
+  "transcript": "012000-a-hurricane-is-not-one-hazard.md",
+  "description": "Develops tropical cyclone heat-engine dynamics and uses Hurricane Harvey (2017) to distinguish wind category, storm surge, rainfall flooding, track uncertainty, and event attribution.",
+  "tags": [
+    "Tropical cyclones",
+    "Hurricanes",
+    "Typhoons",
+    "Hurricane heat engine",
+    "Warm-core low",
+    "Latent heat",
+    "Ocean heat content",
+    "Vertical wind shear",
+    "Cyclone eyewall",
+    "Eyewall replacement",
+    "Storm surge",
+    "Storm tide",
+    "Saffir-Simpson scale",
+    "Storm rainfall",
+    "Hurricane Harvey",
+    "Texas 2017 flood",
+    "Compound coastal flooding",
+    "Cyclone hazard forecasting",
+    "Climate change and cyclone rainfall"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Earth science",
+      "Meteorology",
+      "Tropical cyclones",
+      "Warm core and heat exchange"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Meteorology",
+      "Tropical cyclones",
+      "Cyclogenesis"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Meteorology",
+      "Tropical cyclones",
+      "Surface heat fluxes"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Meteorology",
+      "Tropical cyclones",
+      "Vertical wind shear"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Meteorology",
+      "Tropical cyclones",
+      "Eye and eyewall"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Meteorology",
+      "Tropical cyclones",
+      "Eyewall replacement"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Meteorology",
+      "Tropical cyclones",
+      "Steering circulation"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Meteorology",
+      "Extreme weather",
+      "Hurricane wind categories"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Oceanography",
+      "Coastal hazards",
+      "Storm surge"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Oceanography",
+      "Coastal hazards",
+      "Storm tide"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Hydrology",
+      "Flooding",
+      "Hurricane rainfall"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Hydrology",
+      "Flooding",
+      "Compound coastal flooding"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Climate science",
+      "Event attribution",
+      "Tropical cyclone rainfall"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth observation",
+      "Tropical cyclone monitoring",
+      "Reconnaissance aircraft"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Historical event",
+      "21st century",
+      "2010s",
+      "2017 Hurricane Harvey"
+    ],
+    [
+      "Place: North America",
+      "Place: United States",
+      "Place: Texas"
+    ],
+    [
+      "Place: North America",
+      "Place: United States",
+      "Place: Southeastern Texas"
+    ],
+    [
+      "Place: Atlantic Ocean",
+      "Place: Gulf of Mexico"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "es-extreme-cyclone-genesis",
+      "reason": "Warm-ocean depth, moisture, shear, latitude and disturbance requirements for genesis."
+    },
+    {
+      "source_id": "es-extreme-cyclone-structure",
+      "reason": "Eye and eyewall, spiral convection, changes in storm structure."
+    },
+    {
+      "source_id": "es-extreme-cyclone-movement",
+      "reason": "Large-scale steering and eyewall replacement over storm life cycles."
+    },
+    {
+      "source_id": "es-extreme-cyclone-windscale",
+      "reason": "Maximum sustained wind only; excludes rain, surge, flooding and tornado hazards."
+    },
+    {
+      "source_id": "es-extreme-cyclone-hazards",
+      "reason": "Rainfall flooding, surge versus storm tide, winds, tornadoes and surf."
+    },
+    {
+      "source_id": "es-extreme-harvey-report",
+      "reason": "Observed 2017 storm course and extreme rainfall including >60 inches at some Texas stations."
+    },
+    {
+      "source_id": "es-extreme-harvey-usgs",
+      "reason": "Inundation, streamflow, physical impact of extreme rainfall and watershed modeling."
+    },
+    {
+      "source_id": "es-extreme-ipcc11",
+      "reason": "Assesses heavy precipitation, drought, heat, convective storms, cyclones, and conditional event attribution."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "012000-e01",
+      "anchor": "In August 2017, Hurricane Harvey reached the Texas coast",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-extreme-harvey-report"
+      ],
+      "source_locator": "NHC storm timeline and landfall.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "012000-e02",
+      "anchor": "exceeded sixty inches over the event",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-extreme-harvey-report",
+        "es-extreme-harvey-usgs"
+      ],
+      "source_locator": "NHC rainfall maximum measurement.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "012000-e03",
+      "anchor": "organized, warm-core, low-pressure system",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-extreme-cyclone-genesis"
+      ],
+      "source_locator": "Technical definition and conditions.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "012000-e04",
+      "anchor": "Faster surface winds can increase the rate at which heat and moisture",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-extreme-cyclone-genesis"
+      ],
+      "source_locator": "Ocean-atmosphere flux and cyclone energy.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "012000-e05",
+      "anchor": "Near the equator the relevant planetary rotation effect is weak",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-extreme-cyclone-genesis"
+      ],
+      "source_locator": "Planetary vorticity and tropical cyclone latitude.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "012000-e06",
+      "anchor": "Warm water alone is not sufficient",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-extreme-cyclone-genesis"
+      ],
+      "source_locator": "Shear, humidity, upper-ocean warmth and pre-existing disturbance.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "012000-e07",
+      "anchor": "The common teaching threshold of about twenty-six and a half degrees Celsius",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-extreme-cyclone-genesis"
+      ],
+      "source_locator": "Approximate genesis threshold with necessary context.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "012000-e08",
+      "anchor": "an annulus of deep clouds called the eyewall",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-extreme-cyclone-structure"
+      ],
+      "source_locator": "Eye, eyewall and rainbands.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "012000-e09",
+      "anchor": "outer ring of convection that can replace the original eyewall",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-extreme-cyclone-structure",
+        "es-extreme-cyclone-movement"
+      ],
+      "source_locator": "Eyewall replacement process.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "012000-e10",
+      "anchor": "They are steered in large part by the environmental circulation",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-extreme-cyclone-movement"
+      ],
+      "source_locator": "Cyclone track and large-scale steering.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "012000-e11",
+      "anchor": "Saffir-Simpson scale runs from one to five",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-extreme-cyclone-windscale"
+      ],
+      "source_locator": "Wind-only rating.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "012000-e12",
+      "anchor": "The resulting abnormal rise of water is storm surge",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-extreme-cyclone-hazards"
+      ],
+      "source_locator": "Storm surge / storm tide distinction.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "012000-e13",
+      "anchor": "The United States Geological Survey later mapped the flood",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-extreme-harvey-usgs"
+      ],
+      "source_locator": "Observed and modeled river flood impacts.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "012000-e14",
+      "anchor": "Numerical weather models assimilate these observations",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-extreme-cyclone-hazards"
+      ],
+      "source_locator": "Operational forecasts and instruments in hurricane guidance.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "012000-e15",
+      "anchor": "For some intense cyclone rainfall events, including Harvey",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-extreme-ipcc11"
+      ],
+      "source_locator": "IPCC assessment human influence on cyclone rainfall.",
+      "audit_status": "source_checked"
+    }
+  ],
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Introduces rotation, ocean-atmosphere energy exchange, and flooding from everyday concepts; Hurricane Harvey is a case rather than a prerequisite."
+    ],
+    "readiness_checks": [
+      "Why does a warm sea not guarantee tropical cyclogenesis?",
+      "Why can maximum wind decrease during increasing flood danger?",
+      "Why is the Saffir-Simpson category insufficient for evaluating surge?",
+      "How is a storm-track forecast different from a rainfall forecast?",
+      "What is attributed when researchers find human influence on hurricane rainfall?"
+    ]
+  },
+  "places": [
+    "Texas, United States",
+    "Southeastern Texas, United States",
+    "Gulf of Mexico"
+  ],
+  "chronology": {
+    "period": {
+      "start": 2017,
+      "label": "Hurricane Harvey (2017) case study",
+      "basis": "documented central event",
+      "note": "Describes the historical case used to teach timeless cyclone mechanisms; not a date of scientific discovery.",
+      "source_ids": [
+        "es-extreme-harvey-report",
+        "es-extreme-harvey-usgs"
+      ]
+    }
+  }
+}

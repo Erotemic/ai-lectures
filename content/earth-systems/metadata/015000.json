@@ -1,0 +1,389 @@
+{
+  "schema_version": 1,
+  "lecture_id": "015000",
+  "transcript": "015000-the-night-that-does-not-cool.md",
+  "description": "Uses the 2021 Pacific Northwest heat wave to connect blocking ridges, land-surface heating, urban nighttime temperature, human heat balance, and the distinct questions answered by event attribution.",
+  "tags": [
+    "Heat waves",
+    "Extreme heat",
+    "Atmospheric blocking",
+    "Heat dome",
+    "Subsidence warming",
+    "Soil moisture feedback",
+    "Urban heat island",
+    "Nighttime temperature",
+    "Heat index",
+    "Wet-bulb globe temperature",
+    "Wet-bulb temperature",
+    "Heat stress physiology",
+    "Uncompensable heat stress",
+    "Human heat tolerance",
+    "Pacific Northwest heat wave 2021",
+    "Lytton heat record",
+    "Climate event attribution",
+    "Counterfactual climate",
+    "Compound heat and drought"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Earth science",
+      "Climatology",
+      "Temperature extremes",
+      "Heat waves"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Meteorology",
+      "Atmospheric blocking",
+      "High-pressure ridge"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Meteorology",
+      "Atmospheric dynamics",
+      "Subsidence warming"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Meteorology",
+      "Orographic flows",
+      "Downslope warming"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth systems",
+      "Land-atmosphere feedback",
+      "Soil moisture and heat"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Urban climatology",
+      "Urban heat island",
+      "Nighttime cooling"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Urban climatology",
+      "Built environment",
+      "Stored heat"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Physiology",
+      "Human thermoregulation",
+      "Evaporative cooling"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Physiology",
+      "Human thermoregulation",
+      "Heat stress"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Meteorology",
+      "Thermal indices",
+      "Heat index"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Meteorology",
+      "Thermal indices",
+      "Wet-bulb globe temperature"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Meteorology",
+      "Thermal indices",
+      "Wet-bulb temperature"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Climate science",
+      "Event attribution",
+      "Counterfactual simulations"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Climate science",
+      "Event attribution",
+      "Risk ratio versus intensity change"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Climate risk",
+      "Compound events",
+      "Heat and drought"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Historical event",
+      "21st century",
+      "2020s",
+      "2021 Pacific Northwest heat wave"
+    ],
+    [
+      "Place: North America",
+      "Place: Pacific Northwest"
+    ],
+    [
+      "Place: North America",
+      "Place: Canada",
+      "Place: British Columbia",
+      "Place: Lytton"
+    ],
+    [
+      "Place: North America",
+      "Place: United States",
+      "Place: Washington"
+    ],
+    [
+      "Place: North America",
+      "Place: United States",
+      "Place: Oregon"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "es-extreme-heat-overland",
+      "reason": "Blocking ridge and historical temperature record, Pacific Northwest 2021."
+    },
+    {
+      "source_id": "es-extreme-heat-schumacher",
+      "reason": "Subtropical blocking, vertical heating, descending flow and surface interactions."
+    },
+    {
+      "source_id": "es-extreme-heat-wwa",
+      "reason": "Rapid 2021 heat attribution assumptions, uncertainty and event definition."
+    },
+    {
+      "source_id": "es-extreme-heat-philip",
+      "reason": "Peer-reviewed analysis of counterfactual heat extremes and rarity uncertainty."
+    },
+    {
+      "source_id": "es-extreme-heat-wbgt",
+      "reason": "Different exposure variables for thermal stress measurements."
+    },
+    {
+      "source_id": "es-extreme-heat-vecellio",
+      "reason": "Experimental evidence that uncompensable heat occurs below universal 35 C wet-bulb assumption."
+    },
+    {
+      "source_id": "es-extreme-heat-vanos",
+      "reason": "Physiology-based variation in heat tolerance and survivability."
+    },
+    {
+      "source_id": "es-extreme-attribution-nasem",
+      "reason": "2026 synthesis of event/impact attribution methods and limits."
+    },
+    {
+      "source_id": "es-extreme-ipcc11",
+      "reason": "Assesses heavy precipitation, drought, heat, convective storms, cyclones, and conditional event attribution."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "015000-e01",
+      "anchor": "On the last days of June 2021, temperatures across the Pacific Northwest",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-extreme-heat-overland",
+        "es-extreme-heat-wwa"
+      ],
+      "source_locator": "2021 regional extreme.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "015000-e02",
+      "anchor": "forty-nine point six degrees Celsius",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-extreme-heat-wwa"
+      ],
+      "source_locator": "Lytton record value.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "015000-e03",
+      "anchor": "Many persistent hot spells form under strong, slow-moving high-pressure systems",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-extreme-heat-overland"
+      ],
+      "source_locator": "Blocking high and weather circulation.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "015000-e04",
+      "anchor": "soil dryness as well",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-extreme-heat-schumacher"
+      ],
+      "source_locator": "Soil moisture as one of several event contributors.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "015000-e05",
+      "anchor": "The urban heat-island effect varies with urban form",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-extreme-ipcc11"
+      ],
+      "source_locator": "Urban microclimatic variation; not uniform.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "015000-e06",
+      "anchor": "The heat index combines air temperature and humidity",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-extreme-heat-wbgt"
+      ],
+      "source_locator": "Heat index shaded assumptions.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "015000-e07",
+      "anchor": "Wet-bulb globe temperature is another measure",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-extreme-heat-wbgt"
+      ],
+      "source_locator": "WBGT distinction and wind/radiation.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "015000-e08",
+      "anchor": "wet-bulb temperature of thirty-five degrees Celsius",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-extreme-heat-vecellio",
+        "es-extreme-heat-vanos"
+      ],
+      "source_locator": "Theoretical survivability threshold and experimental limits.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "015000-e09",
+      "anchor": "Laboratory studies in healthy adults found that uncompensable heat stress can occur at lower wet-bulb temperatures",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-extreme-heat-vecellio"
+      ],
+      "source_locator": "Empirical testing below a fixed 35 C threshold.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "015000-e10",
+      "anchor": "Meteorologists reconstructed an unusual large-scale upper-atmospheric ridge",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-extreme-heat-overland",
+        "es-extreme-heat-schumacher"
+      ],
+      "source_locator": "Synoptic weather sequence.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "015000-e11",
+      "anchor": "An international team using World Weather Attribution methods",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-extreme-heat-wwa"
+      ],
+      "source_locator": "Attribution team and methodology.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "015000-e12",
+      "anchor": "A subsequent peer-reviewed analysis led by Sjoukje Philip",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-extreme-heat-philip"
+      ],
+      "source_locator": "2022 journal article correct primary author.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "015000-e13",
+      "anchor": "Other research can emphasize somewhat different numerical contributions",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-extreme-attribution-nasem"
+      ],
+      "source_locator": "Different estimands and attribution methods.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "015000-e14",
+      "anchor": "The IPCC's Sixth Assessment concluded that human influence has increased",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-extreme-ipcc11"
+      ],
+      "source_locator": "IPCC extreme heat trends and attribution.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "015000-e15",
+      "anchor": "A heat wave is therefore a meeting of several budgets",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-extreme-heat-schumacher",
+        "es-extreme-heat-vanos"
+      ],
+      "source_locator": "Synthesis of weather and physiological constraints.",
+      "audit_status": "source_checked"
+    }
+  ],
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Introduces pressure ridges, surface heat fluxes, and human thermal physiology from first principles; includes a grounded 2021 event."
+    ],
+    "readiness_checks": [
+      "What processes made the 2021 Pacific Northwest heat wave so intense?",
+      "What is the difference between heat index and wet-bulb globe temperature?",
+      "Why is 35 C wet-bulb not a universal human safety threshold?",
+      "What questions do weather mechanism and event-attribution studies answer differently?",
+      "How can exposure and building heat storage change the harm of a heat wave?"
+    ]
+  },
+  "places": [
+    "Pacific Northwest, North America",
+    "British Columbia, Canada",
+    "Lytton, British Columbia, Canada",
+    "Washington, United States",
+    "Oregon, United States"
+  ],
+  "chronology": {
+    "period": {
+      "start": 2021,
+      "label": "June 2021 Pacific Northwest heat wave case study",
+      "basis": "documented central event",
+      "note": "Case-year association only, not a date for the general physics of heat waves.",
+      "source_ids": [
+        "es-extreme-heat-overland",
+        "es-extreme-heat-wwa"
+      ]
+    }
+  }
+}

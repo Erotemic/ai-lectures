@@ -1,0 +1,364 @@
+{
+  "schema_version": 1,
+  "lecture_id": "014000",
+  "transcript": "014000-when-the-rain-stops-being-enough.md",
+  "description": "Explains drought as a water-storage and demand problem across precipitation, soils, rivers, aquifers, ecosystems, and people, using 1930s Dust Bowl and 2012–2014 California as contrasting cases.",
+  "tags": [
+    "Drought",
+    "Aridity",
+    "Meteorological drought",
+    "Agricultural drought",
+    "Hydrological drought",
+    "Ecological drought",
+    "Groundwater depletion",
+    "Soil moisture",
+    "Evaporative demand",
+    "Vapor pressure deficit",
+    "Actual evapotranspiration",
+    "Potential evapotranspiration",
+    "Flash drought",
+    "Soil moisture feedback",
+    "Standardized Precipitation Index",
+    "U.S. Drought Monitor",
+    "California drought 2012–2014",
+    "Dust Bowl",
+    "Great Plains drought",
+    "Land use and drought"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Earth science",
+      "Climatology",
+      "Drought",
+      "Meteorological drought"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Climatology",
+      "Drought",
+      "Agricultural drought"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Climatology",
+      "Drought",
+      "Hydrological drought"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Climatology",
+      "Drought",
+      "Ecological drought"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Climatology",
+      "Drought",
+      "Flash drought"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Climatology",
+      "Dryness",
+      "Aridity versus drought"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Hydrology",
+      "Soil moisture",
+      "Root-zone storage"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Hydrology",
+      "Groundwater",
+      "Pumping and recharge"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Hydrology",
+      "Water budgets",
+      "Storage deficits"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Biogeoscience",
+      "Plant water stress",
+      "Vapor pressure deficit"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Biogeoscience",
+      "Land-atmosphere feedback",
+      "Reduced evaporative cooling"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Climatology",
+      "Drought monitoring",
+      "Standardized Precipitation Index"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Climatology",
+      "Drought monitoring",
+      "U.S. Drought Monitor"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Climate science",
+      "Event attribution",
+      "California drought 2012–2014"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Historical event",
+      "20th century",
+      "1930s",
+      "Dust Bowl"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Historical event",
+      "21st century",
+      "2010s",
+      "California drought 2012–2014"
+    ],
+    [
+      "Place: North America",
+      "Place: United States",
+      "Place: California"
+    ],
+    [
+      "Place: North America",
+      "Place: United States",
+      "Place: Great Plains"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "es-extreme-drought-basics",
+      "reason": "Drought types, regional baselines and consequences."
+    },
+    {
+      "source_id": "es-extreme-drought-types",
+      "reason": "Meteorological, agricultural, hydrological and socioeconomic drought definitions."
+    },
+    {
+      "source_id": "es-extreme-drought-monitor",
+      "reason": "Convergence of evidence, expert judgment and monitoring rather than single-index model."
+    },
+    {
+      "source_id": "es-extreme-drought-spi",
+      "reason": "SPI temporal baseline and limitations of precipitation-only index."
+    },
+    {
+      "source_id": "es-extreme-drought-williams",
+      "reason": "2012-2014 drought, precipitation shortage vs warming-related evapotranspiration demand."
+    },
+    {
+      "source_id": "es-extreme-drought-diffenbaugh",
+      "reason": "How warming raises the coincidence of dry years with extreme temperature."
+    },
+    {
+      "source_id": "es-extreme-dust-loc",
+      "reason": "Historical chronology and land-use changes in the 1930s Great Plains."
+    },
+    {
+      "source_id": "es-extreme-dust-schubert",
+      "reason": "Model attribution to tropical SST patterns and land-atmosphere feedback."
+    },
+    {
+      "source_id": "es-extreme-ipcc11",
+      "reason": "Assesses heavy precipitation, drought, heat, convective storms, cyclones, and conditional event attribution."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "014000-e01",
+      "anchor": "Aridity describes a relatively persistent climatic condition",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-extreme-drought-basics"
+      ],
+      "source_locator": "Drought versus climatological aridity.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "014000-e02",
+      "anchor": "meteorological, agricultural, hydrological, and ecological drought",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-extreme-drought-basics",
+        "es-extreme-drought-types"
+      ],
+      "source_locator": "NOAA definitions.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "014000-e03",
+      "anchor": "The reverse sequence can also occur",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-extreme-drought-basics"
+      ],
+      "source_locator": "Drought timescale and hydrologic storage distinctions.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "014000-e04",
+      "anchor": "potential evapotranspiration and actual evapotranspiration are different quantities",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-extreme-ipcc11"
+      ],
+      "source_locator": "Evaporation demand and water constraint.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "014000-e05",
+      "anchor": "A useful related measure is vapor pressure deficit",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-extreme-ipcc11"
+      ],
+      "source_locator": "Atmospheric evaporative demand for drought.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "014000-e06",
+      "anchor": "Flash drought refers to the rapid onset",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-extreme-drought-basics"
+      ],
+      "source_locator": "Rapid onset drought concept in modern practice.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "014000-e07",
+      "anchor": "a standardized precipitation index",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-extreme-drought-spi"
+      ],
+      "source_locator": "SPI and selected accumulation windows.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "014000-e08",
+      "anchor": "an index based only on precipitation does not directly encode increasing evaporative demand",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-extreme-drought-spi"
+      ],
+      "source_locator": "SPI limitations.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "014000-e09",
+      "anchor": "In the United States, the Drought Monitor illustrates this multi-evidence approach",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-extreme-drought-monitor"
+      ],
+      "source_locator": "Convergence-of-evidence monitoring methodology.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "014000-e10",
+      "anchor": "Satellites add a different perspective",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-extreme-drought-monitor"
+      ],
+      "source_locator": "Remote observations among drought indicators.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "014000-e11",
+      "anchor": "the California drought from 2012 to 2014",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-extreme-drought-williams",
+        "es-extreme-drought-diffenbaugh"
+      ],
+      "source_locator": "Dry years and scientific studies.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "014000-e12",
+      "anchor": "Research by A. Park Williams and colleagues, published in 2015",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-extreme-drought-williams"
+      ],
+      "source_locator": "Correct attribution and year.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "014000-e13",
+      "anchor": "Another 2015 study led by Noah Diffenbaugh",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-extreme-drought-diffenbaugh"
+      ],
+      "source_locator": "Secondary study attribution.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "014000-e14",
+      "anchor": "In the 1930s, the Great Plains of the United States",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-extreme-dust-loc"
+      ],
+      "source_locator": "Historical timing and land changes.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "014000-e15",
+      "anchor": "Later modeling research explored both ocean-atmosphere conditions",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-extreme-dust-schubert"
+      ],
+      "source_locator": "Physical modeling of 1930s drought.",
+      "audit_status": "source_checked"
+    }
+  ],
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Self-contained hydrologic storage, evapotranspiration and monitoring concepts; two historical drought cases are comparative examples."
+    ],
+    "readiness_checks": [
+      "Why can dry climate and drought coexist but be different concepts?",
+      "Why can a groundwater drought continue after meteorological recovery?",
+      "What is the difference between atmospheric evaporative demand and actual water lost?",
+      "How does an SPI differ from a water-balance index?",
+      "How do precipitation, warming and land use each enter drought attribution?"
+    ]
+  },
+  "places": [
+    "California, United States",
+    "Great Plains, United States"
+  ]
+}

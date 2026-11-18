@@ -448,6 +448,251 @@
       "kind": "government_operational_reference",
       "access": "free_no_login",
       "notes": "Dated example of ensemble probabilistic seasonal outlook; does not provide timeless specific phase forecasts."
+    },
+    "es-extreme-storm-ingredients": {
+      "title": "NOAA National Weather Service, Weather Spotter's Field Guide: Thunderstorm Ingredients",
+      "url": "https://www.weather.gov/spotterguide/ingredients",
+      "kind": "government_science_reference",
+      "access": "free_no_login",
+      "notes": "Storm formation, moisture, lift, instability and organizing wind shear."
+    },
+    "es-extreme-storm-cape": {
+      "title": "NOAA JetStream, Severe Weather (Atmospheric Soundings)",
+      "url": "https://www.noaa.gov/jetstream/upperair/severe-weather",
+      "kind": "government_science_explainer",
+      "access": "free_no_login",
+      "notes": "Parcel buoyancy, CAPE, convective inhibition and sounding interpretation."
+    },
+    "es-extreme-storm-lightning": {
+      "title": "NOAA National Weather Service, Understanding Lightning: Thunderstorm Electrification",
+      "url": "https://www.weather.gov/safety/lightning-science-electrification",
+      "kind": "government_science_reference",
+      "access": "free_no_login",
+      "notes": "Mixed-phase ice-graupel charging and uncertainty in lightning initiation."
+    },
+    "es-extreme-storm-radar": {
+      "title": "NOAA National Severe Storms Laboratory, Dual Polarized Radar",
+      "url": "https://www.nssl.noaa.gov/tools/radar/dualpol/",
+      "kind": "government_technical_reference",
+      "access": "free_no_login",
+      "notes": "Reflectivity, radial Doppler velocity, polarization and hazard detection."
+    },
+    "es-extreme-storm-radar-limit": {
+      "title": "NOAA JetStream, Dual Polarization",
+      "url": "https://www.noaa.gov/jetstream/dual-polarization",
+      "kind": "government_science_reference",
+      "access": "free_no_login",
+      "notes": "Tornadic debris signatures and limits to early detection."
+    },
+    "es-extreme-ipcc11": {
+      "title": "IPCC AR6 Working Group I, Chapter 11: Weather and Climate Extreme Events in a Changing Climate (2021)",
+      "url": "https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-11/",
+      "kind": "scientific_assessment",
+      "access": "free_no_login",
+      "notes": "Assesses heavy precipitation, drought, heat, convective storms, cyclones, and conditional event attribution."
+    },
+    "es-extreme-cyclone-genesis": {
+      "title": "NOAA Atlantic Oceanographic and Meteorological Laboratory, How Do Tropical Cyclones Form?",
+      "url": "https://www.aoml.noaa.gov/hrd/tcfaq/A15.html",
+      "kind": "government_science_reference",
+      "access": "free_no_login",
+      "notes": "Warm-ocean depth, moisture, shear, latitude and disturbance requirements for genesis."
+    },
+    "es-extreme-cyclone-structure": {
+      "title": "NOAA JetStream, Tropical Cyclone Structure",
+      "url": "https://www.noaa.gov/jetstream/tropical/tropical-cyclone-introduction/tropical-cyclone-structure",
+      "kind": "government_science_reference",
+      "access": "free_no_login",
+      "notes": "Eye and eyewall, spiral convection, changes in storm structure."
+    },
+    "es-extreme-cyclone-movement": {
+      "title": "NOAA AOML, Hurricane FAQ: Life Cycle and Movement",
+      "url": "https://www.aoml.noaa.gov/hrd/tcfaq/G1.html",
+      "kind": "government_science_reference",
+      "access": "free_no_login",
+      "notes": "Large-scale steering and eyewall replacement over storm life cycles."
+    },
+    "es-extreme-cyclone-windscale": {
+      "title": "NOAA National Hurricane Center, Saffir-Simpson Hurricane Wind Scale",
+      "url": "https://www.nhc.noaa.gov/aboutsshws.php",
+      "kind": "government_science_reference",
+      "access": "free_no_login",
+      "notes": "Maximum sustained wind only; excludes rain, surge, flooding and tornado hazards."
+    },
+    "es-extreme-cyclone-hazards": {
+      "title": "NOAA National Hurricane Center, Hurricane Hazards",
+      "url": "https://www.nhc.noaa.gov/prepare/hazards.php",
+      "kind": "government_science_reference",
+      "access": "free_no_login",
+      "notes": "Rainfall flooding, surge versus storm tide, winds, tornadoes and surf."
+    },
+    "es-extreme-harvey-report": {
+      "title": "NOAA National Hurricane Center, Tropical Cyclone Report: Hurricane Harvey (2018)",
+      "url": "https://www.nhc.noaa.gov/data/tcr/AL092017_Harvey.pdf",
+      "kind": "government_technical_report",
+      "access": "free_no_login",
+      "notes": "Observed 2017 storm course and extreme rainfall including >60 inches at some Texas stations."
+    },
+    "es-extreme-harvey-usgs": {
+      "title": "Watson et al., Characterization of Peak Streamflows and Flood Inundation from Hurricane Harvey (USGS SIR 2018-5070)",
+      "url": "https://pubs.usgs.gov/publication/sir20185070",
+      "kind": "government_technical_report",
+      "access": "free_no_login",
+      "notes": "Inundation, streamflow, physical impact of extreme rainfall and watershed modeling."
+    },
+    "es-extreme-ar-scale": {
+      "title": "Ralph et al. (2019), A Scale to Characterize the Strength and Impacts of Atmospheric Rivers",
+      "url": "https://pubs.usgs.gov/publication/70202024",
+      "kind": "primary_research",
+      "access": "free_no_login",
+      "notes": "Atmospheric river intensity-duration scale, IVT threshold, benefits versus hazards."
+    },
+    "es-extreme-ar-cw3e": {
+      "title": "Scripps CW3E, Atmospheric River Scale",
+      "url": "https://cw3e-sio.ucsd.edu/arscale/",
+      "kind": "research_center_reference",
+      "access": "free_no_login",
+      "notes": "Practical application of IVT duration and maximum transport for forecasting."
+    },
+    "es-extreme-oroville-white": {
+      "title": "White, Moore, Gottas, and Neiman (2019), Winter Storm Conditions Leading to Excessive Runoff above California's Oroville Dam",
+      "url": "https://repository.library.noaa.gov/view/noaa/25078",
+      "kind": "primary_research",
+      "access": "free_no_login",
+      "notes": "2017 atmospheric river sequence, rain-snow level, runoff and reservoir crisis."
+    },
+    "es-extreme-oroville-henn": {
+      "title": "Henn, Musselman, Lestak, Ralph, and Molotch (2020), Extreme Runoff Generation from Atmospheric River Driven Snowmelt during the 2017 Oroville Dam Spillways Incident",
+      "url": "https://doi.org/10.1029/2020GL088189",
+      "kind": "primary_research",
+      "access": "free_no_login",
+      "notes": "Estimate of snowmelt enhancement to available runoff and event uncertainty."
+    },
+    "es-extreme-oroville-climate": {
+      "title": "Michaelis et al. (2022), Atmospheric River Precipitation Enhanced by Climate Change: The Oroville Case",
+      "url": "https://repository.library.noaa.gov/view/noaa/64720",
+      "kind": "primary_research",
+      "access": "free_no_login",
+      "notes": "Counterfactual modeling of 2017 Oroville atmospheric river precipitation; case-specific estimates."
+    },
+    "es-extreme-ca-2023": {
+      "title": "California Department of Water Resources, Water Year 2023 Hydrometeorology Story",
+      "url": "https://snow.water.ca.gov/service/plotly/data/download?dash=hydromet_summary&file=WY2023-Hydrometeorology-Story_04Nov2024.pdf",
+      "kind": "government_technical_report",
+      "access": "free_no_login",
+      "notes": "Sequences of atmospheric rivers, precipitation and snow storage in California."
+    },
+    "es-extreme-drought-basics": {
+      "title": "NOAA/NIDIS Drought.gov, Drought Basics",
+      "url": "https://www.drought.gov/what-is-drought/drought-basics",
+      "kind": "government_science_explainer",
+      "access": "free_no_login",
+      "notes": "Drought types, regional baselines and consequences."
+    },
+    "es-extreme-drought-types": {
+      "title": "NOAA National Weather Service, Drought Types",
+      "url": "https://www.weather.gov/safety/drought-types",
+      "kind": "government_science_explainer",
+      "access": "free_no_login",
+      "notes": "Meteorological, agricultural, hydrological and socioeconomic drought definitions."
+    },
+    "es-extreme-drought-monitor": {
+      "title": "National Drought Mitigation Center, What Is the US Drought Monitor?",
+      "url": "https://droughtmonitor.unl.edu/About/WhatistheUSDM.aspx",
+      "kind": "government_program_reference",
+      "access": "free_no_login",
+      "notes": "Convergence of evidence, expert judgment and monitoring rather than single-index model."
+    },
+    "es-extreme-drought-spi": {
+      "title": "NCAR Climate Data Guide, Standardized Precipitation Index (SPI)",
+      "url": "https://climatedataguide.ucar.edu/climate-data/standardized-precipitation-index-spi",
+      "kind": "research_center_reference",
+      "access": "free_no_login",
+      "notes": "SPI temporal baseline and limitations of precipitation-only index."
+    },
+    "es-extreme-drought-williams": {
+      "title": "Williams et al. (2015), Contribution of Anthropogenic Warming to California Drought during 2012-2014",
+      "url": "https://doi.org/10.1002/2015GL064924",
+      "kind": "primary_research",
+      "access": "free_no_login",
+      "notes": "2012-2014 drought, precipitation shortage vs warming-related evapotranspiration demand."
+    },
+    "es-extreme-drought-diffenbaugh": {
+      "title": "Diffenbaugh, Swain, and Touma (2015), Anthropogenic Warming Has Increased Drought Risk in California",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4386330/",
+      "kind": "primary_research",
+      "access": "free_no_login",
+      "notes": "How warming raises the coincidence of dry years with extreme temperature."
+    },
+    "es-extreme-dust-loc": {
+      "title": "US Library of Congress, The Dust Bowl",
+      "url": "https://www.loc.gov/classroom-materials/united-states-history-primary-source-timeline/great-depression-and-world-war-ii-1929-1945/dust-bowl/",
+      "kind": "historical_primary_source_guide",
+      "access": "free_no_login",
+      "notes": "Historical chronology and land-use changes in the 1930s Great Plains."
+    },
+    "es-extreme-dust-schubert": {
+      "title": "Schubert et al. (2004), On the Cause of the 1930s Dust Bowl",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15031502/",
+      "kind": "primary_research",
+      "access": "free_no_login",
+      "notes": "Model attribution to tropical SST patterns and land-atmosphere feedback."
+    },
+    "es-extreme-heat-overland": {
+      "title": "Overland (2022), Causes of the Record-Breaking Pacific Northwest Heatwave, Late June 2021",
+      "url": "https://repository.library.noaa.gov/view/noaa/40148",
+      "kind": "primary_research",
+      "access": "free_no_login",
+      "notes": "Blocking ridge and historical temperature record, Pacific Northwest 2021."
+    },
+    "es-extreme-heat-schumacher": {
+      "title": "Schumacher, Hauser, and Seneviratne (2022), Drivers and Mechanisms of the 2021 Pacific Northwest Heatwave",
+      "url": "https://doi.org/10.1029/2022EF002967",
+      "kind": "primary_research",
+      "access": "free_no_login",
+      "notes": "Subtropical blocking, vertical heating, descending flow and surface interactions."
+    },
+    "es-extreme-heat-wwa": {
+      "title": "World Weather Attribution (2021), Western North American Extreme Heat Virtually Impossible without Human-caused Climate Change",
+      "url": "https://www.worldweatherattribution.org/western-north-american-extreme-heat-virtually-impossible-without-human-caused-climate-change/",
+      "kind": "scientific_assessment",
+      "access": "free_no_login",
+      "notes": "Rapid 2021 heat attribution assumptions, uncertainty and event definition."
+    },
+    "es-extreme-heat-philip": {
+      "title": "Philip et al. (2022), Rapid Attribution Analysis of the Extraordinary Heat Wave on the Pacific Coast of the US and Canada",
+      "url": "https://doi.org/10.5194/esd-13-1689-2022",
+      "kind": "primary_research",
+      "access": "free_no_login",
+      "notes": "Peer-reviewed analysis of counterfactual heat extremes and rarity uncertainty."
+    },
+    "es-extreme-heat-wbgt": {
+      "title": "NOAA National Weather Service, Wet Bulb Globe Temperature versus Heat Index",
+      "url": "https://www.weather.gov/ict/wbgt",
+      "kind": "government_science_explainer",
+      "access": "free_no_login",
+      "notes": "Different exposure variables for thermal stress measurements."
+    },
+    "es-extreme-heat-vecellio": {
+      "title": "Vecellio et al. (2022), Evaluating the 35 C Wet-Bulb Temperature Adaptability Threshold for Young, Healthy Subjects",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34913738/",
+      "kind": "primary_research",
+      "access": "free_no_login",
+      "notes": "Experimental evidence that uncompensable heat occurs below universal 35 C wet-bulb assumption."
+    },
+    "es-extreme-heat-vanos": {
+      "title": "Vanos et al. (2023), A Physiological Approach for Assessing Human Survivability and Liveability to Heat",
+      "url": "https://doi.org/10.1038/s41467-023-43121-5",
+      "kind": "primary_research",
+      "access": "free_no_login",
+      "notes": "Physiology-based variation in heat tolerance and survivability."
+    },
+    "es-extreme-attribution-nasem": {
+      "title": "National Academies of Sciences, Engineering, and Medicine (2026), Attribution of Extreme Weather and Climate Events and Their Impacts",
+      "url": "https://doi.org/10.17226/28590",
+      "kind": "scientific_assessment",
+      "access": "free_no_login",
+      "notes": "2026 synthesis of event/impact attribution methods and limits."
     }
   }
 }

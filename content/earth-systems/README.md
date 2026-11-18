@@ -1,6 +1,6 @@
 # Earth as a System: Air, Water, Ocean, and Climate
 
-**Status:** in progress. Ten complete narrated lectures (001000-010000). The first four form the physical foundation; carbon, frozen water and landscape chapters connect the reservoirs; the last three form an ENSO unit on ocean-atmosphere variability, distant teleconnections and forecast uncertainty.
+**Status:** in progress. Fifteen complete narrated lectures (001000-015000). The first four establish the physical foundation; carbon, frozen water and landscape chapters connect reservoirs; three lectures develop ENSO; and five follow the mechanisms and impacts of extreme weather.
 
 The course explains the coupled Earth system by following energy, water, carbon, geological material and information in ocean-atmosphere feedbacks. Each manuscript has a single spoken region and a non-spoken scientific companion containing source notes, definitions and questions.
 
@@ -18,8 +18,13 @@ The course explains the coupled Earth system by following energy, water, carbon,
 | 008000 | The Pacific Changes Its Mind | ENSO warm and cool phases, coupling, waves and ocean heat-content memory |
 | 009000 | When Pacific Rain Moves the Jet Stream | Remote atmospheric teleconnections, seasonal rainfall and conditional hazards |
 | 010000 | How to Forecast an Ocean | ENSO indices, RONI, subsurface observation, model skill and probability |
+| 011000 | When a Thunderstorm Organizes | Buoyancy, convective inhibition, shear, hail, lightning and radar limits |
+| 012000 | A Hurricane Is Not One Hazard | Cyclone heat engines, storm surge, rainfall, and wind-scale limits |
+| 013000 | A River in the Sky Meets a Watershed | Moisture flux, mountains, rain on snow, runoff and flood risk |
+| 014000 | When the Rain Stops Being Enough | Drought categories, evaporative demand, storage and monitoring |
+| 015000 | The Night That Does Not Cool | Blocking ridges, urban heat, human thermal load and event attribution |
 
-The `earth-as-a-system` route includes all ten lectures; `earth-foundations-four` retains the four-lecture foundation and `enso-mechanism-and-prediction` collects the three ENSO lectures. The `pacific-enso` route adds the original ocean chapter as a preface.
+The `earth-as-a-system` route includes all fifteen lectures. The shorter `earth-foundations-four` and ENSO routes remain intact. New routes include `extreme-weather-mechanisms` (the five new lectures), `water-extremes` (water cycle, atmospheric rivers, drought), and `climate-attribution-and-hazards` (extreme event physics and attribution).
 
 ## Editorial conventions
 
@@ -27,9 +32,10 @@ The `earth-as-a-system` route includes all ten lectures; `earth-foundations-four
 - Separate observations from analysis estimates, numerical model results and inferences. Do not treat one SST index as a complete coupled ENSO diagnosis.
 - State the time window and region of climate anomalies. Teleconnections are conditional seasonal tendencies, not local daily-weather guarantees.
 - Distinguish ONI and NOAA CPC's 2026 shift to RONI; historical operational changes may be dated, whereas general physical processes must not receive invented chronological coverage.
+- Explain storm intensity, event probability, exposed populations and realized damage as distinct quantities; a wind category, moisture flux, drought index or event attribution statement is never a complete local impact forecast.
 - Keep source-specific and place-specific tags on the lectures where those sources and places actually occur. Discovery paths include geographic case tags without implying every region has the same impact.
 - All content is text-only source material; audio and images are not bundled.
 
 ## Further development
 
-The completed Pacific-ENSO sequence is self-contained. See `BACKLOG.md` for further gaps, especially high-impact weather events, biogeochemical cycles and observational climate history. Extending the course is optional, not an automatic requirement.
+The completed ENSO and extreme-weather sequences are self-contained. See `BACKLOG.md` for further options, especially Earth's living chemistry and observational climate history. Extending the course is optional, not an automatic requirement.

@@ -1,0 +1,308 @@
+{
+  "schema_version": 1,
+  "lecture_id": "011000",
+  "transcript": "011000-when-a-thunderstorm-organizes.md",
+  "description": "Explains how buoyancy, latent heat, lifting, caps and vertical wind shear produce thunderstorms, why some organize into supercells, and what radar and climate evidence can and cannot show.",
+  "tags": [
+    "Thunderstorms",
+    "Deep convection",
+    "Atmospheric instability",
+    "Lapse rate",
+    "Latent heat release",
+    "Convective available potential energy",
+    "Convective inhibition",
+    "Convective initiation",
+    "Wind shear",
+    "Supercells",
+    "Mesocyclones",
+    "Tornadoes",
+    "Hail",
+    "Lightning electrification",
+    "Cold pools",
+    "Gust fronts",
+    "Flash floods",
+    "Doppler radar",
+    "Dual-polarization radar",
+    "Severe-weather attribution"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Earth science",
+      "Meteorology",
+      "Severe convective weather",
+      "Thunderstorm initiation"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Meteorology",
+      "Thermodynamics",
+      "Dry adiabatic lapse rate"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Meteorology",
+      "Thermodynamics",
+      "Latent heating"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Meteorology",
+      "Atmospheric stability",
+      "Convective available potential energy"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Meteorology",
+      "Atmospheric stability",
+      "Convective inhibition"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Meteorology",
+      "Cloud dynamics",
+      "Updrafts"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Meteorology",
+      "Cloud dynamics",
+      "Downdrafts and cold pools"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Meteorology",
+      "Severe convective weather",
+      "Supercells"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Meteorology",
+      "Severe convective weather",
+      "Tornadogenesis"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Meteorology",
+      "Severe convective weather",
+      "Hail growth"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Meteorology",
+      "Electrification",
+      "Graupel and ice collisions"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Meteorology",
+      "Remote sensing",
+      "Doppler radar"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Meteorology",
+      "Remote sensing",
+      "Dual-polarization radar"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Climate science",
+      "Extreme event trends",
+      "Convective-storm observational limits"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Hydrology",
+      "Flash flooding",
+      "Training thunderstorms"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "es-extreme-storm-ingredients",
+      "reason": "Storm formation, moisture, lift, instability and organizing wind shear."
+    },
+    {
+      "source_id": "es-extreme-storm-cape",
+      "reason": "Parcel buoyancy, CAPE, convective inhibition and sounding interpretation."
+    },
+    {
+      "source_id": "es-extreme-storm-lightning",
+      "reason": "Mixed-phase ice-graupel charging and uncertainty in lightning initiation."
+    },
+    {
+      "source_id": "es-extreme-storm-radar",
+      "reason": "Reflectivity, radial Doppler velocity, polarization and hazard detection."
+    },
+    {
+      "source_id": "es-extreme-storm-radar-limit",
+      "reason": "Tornadic debris signatures and limits to early detection."
+    },
+    {
+      "source_id": "es-extreme-ipcc11",
+      "reason": "Assesses heavy precipitation, drought, heat, convective storms, cyclones, and conditional event attribution."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "011000-e01",
+      "anchor": "Air pressure decreases with height",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-extreme-storm-cape"
+      ],
+      "source_locator": "Adiabatic ascent, temperature profiles and atmospheric parcel assumptions.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "011000-e02",
+      "anchor": "Condensation releases latent heat",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-extreme-storm-ingredients"
+      ],
+      "source_locator": "Moist convection energy and phase changes.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "011000-e03",
+      "anchor": "three ingredients for thunderstorms: moisture, instability, and a lifting mechanism",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-extreme-storm-ingredients"
+      ],
+      "source_locator": "National Weather Service canonical thunderstorm ingredients.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "011000-e04",
+      "anchor": "convective inhibition",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-extreme-storm-cape"
+      ],
+      "source_locator": "CIN and cap barrier in soundings.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "011000-e05",
+      "anchor": "convective available potential energy",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-extreme-storm-cape"
+      ],
+      "source_locator": "CAPE and available buoyant work.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "011000-e06",
+      "anchor": "wind shear, which means a change of wind with height",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-extreme-storm-ingredients"
+      ],
+      "source_locator": "Shear and sustained storm organization.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "011000-e07",
+      "anchor": "A rotating supercell is striking, but tornadoes are not its only hazard",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-extreme-storm-ingredients",
+        "es-extreme-ipcc11"
+      ],
+      "source_locator": "Convective hazard diversity.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "011000-e08",
+      "anchor": "graupel, and supercooled droplets",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-extreme-storm-lightning"
+      ],
+      "source_locator": "Mixed-phase electrification process.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "011000-e09",
+      "anchor": "Radar supplies another view",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-extreme-storm-radar"
+      ],
+      "source_locator": "Reflectivity and velocity instrumentation.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "011000-e10",
+      "anchor": "Dual-polarization radar adds information",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-extreme-storm-radar"
+      ],
+      "source_locator": "Hydrometeor classification and dual-polarization.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "011000-e11",
+      "anchor": "a distinctive low-correlation signature",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-extreme-storm-radar-limit"
+      ],
+      "source_locator": "Tornado debris observational limits.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "011000-e12",
+      "anchor": "observed global trends of several severe convective hazards with low confidence",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-extreme-ipcc11"
+      ],
+      "source_locator": "AR6 severe convective storms assessment in Chapter 11.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "011000-e13",
+      "anchor": "increasing heavy precipitation in many well-observed land regions",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-extreme-ipcc11"
+      ],
+      "source_locator": "Global-scale heavy precipitation assessment.",
+      "audit_status": "source_checked"
+    }
+  ],
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Self-contained explanation of buoyancy, latent heat, radar, and uncertainty; no prior weather-model training."
+    ],
+    "readiness_checks": [
+      "How can an unstable atmosphere fail to initiate convection?",
+      "Why does CAPE not equal a measured wind speed?",
+      "How does shear help a storm survive its downdrafts?",
+      "Which radar observations provide evidence of rotation and which of debris?",
+      "Why are tornado trend claims harder to support than heavy-rainfall trends?"
+    ]
+  }
+}

@@ -1,7 +1,7 @@
 {
   "id": "earth-systems",
   "title": "Earth as a System: Air, Water, Ocean, and Climate",
-  "summary": "Mechanistic audio-first Earth science linking radiation, air, hydrology and ocean circulation to carbon, ice, landscapes, and the El Niño-Southern Oscillation. Explains feedbacks and observations while distinguishing forecasts of climate tendencies from certain local weather outcomes.",
+  "summary": "Mechanistic Earth systems science linking radiation, air, water, oceans, carbon, ice and landscapes to ENSO variability and extreme-weather processes. Distinguishes observations, hazard mechanisms, forecasts, climate attribution, exposure and vulnerability.",
   "categories": [
     "Science and nature"
   ],
@@ -46,7 +46,12 @@
     "landscape_dynamics",
     "enso_dynamics",
     "enso_teleconnections",
-    "enso_observation_and_prediction"
+    "enso_observation_and_prediction",
+    "extreme_convection",
+    "extreme_tropical_cyclones",
+    "extreme_atmospheric_rivers",
+    "extreme_drought",
+    "extreme_heat_waves"
   ],
   "lectures": [
     {
@@ -240,6 +245,111 @@
         "Southern Oscillation Index",
         "Tahiti-Darwin pressure",
         "ERSST"
+      ]
+    },
+    {
+      "id": "011000",
+      "title": "When a Thunderstorm Organizes: The Physics of Rising Air",
+      "section": "extreme_convection",
+      "file": "011000-when-a-thunderstorm-organizes.md",
+      "spoken_words": 2020,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 13.9,
+      "tags": [
+        "Thunderstorms",
+        "Deep convection",
+        "Atmospheric instability",
+        "Lapse rate",
+        "Latent heat release",
+        "Convective available potential energy",
+        "Convective inhibition",
+        "Convective initiation",
+        "Wind shear",
+        "Supercells"
+      ]
+    },
+    {
+      "id": "012000",
+      "title": "A Hurricane Is Not One Hazard: Heat Engines, Water, and the Coast",
+      "section": "extreme_tropical_cyclones",
+      "file": "012000-a-hurricane-is-not-one-hazard.md",
+      "spoken_words": 2009,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 13.9,
+      "tags": [
+        "Tropical cyclones",
+        "Hurricanes",
+        "Typhoons",
+        "Hurricane heat engine",
+        "Warm-core low",
+        "Latent heat",
+        "Ocean heat content",
+        "Vertical wind shear",
+        "Cyclone eyewall",
+        "Eyewall replacement"
+      ]
+    },
+    {
+      "id": "013000",
+      "title": "A River in the Sky Meets a Watershed: Atmospheric Rivers and Floods",
+      "section": "extreme_atmospheric_rivers",
+      "file": "013000-a-river-in-the-sky-meets-a-watershed.md",
+      "spoken_words": 1967,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 13.6,
+      "tags": [
+        "Atmospheric rivers",
+        "Integrated vapor transport",
+        "IVT",
+        "Orographic precipitation",
+        "Rain snow line",
+        "Snow water equivalent",
+        "Rain-on-snow flooding",
+        "Antecedent soil moisture",
+        "Runoff generation",
+        "Flood routing"
+      ]
+    },
+    {
+      "id": "014000",
+      "title": "When the Rain Stops Being Enough: Drought, Soil, and Water Demand",
+      "section": "extreme_drought",
+      "file": "014000-when-the-rain-stops-being-enough.md",
+      "spoken_words": 1985,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 13.7,
+      "tags": [
+        "Drought",
+        "Aridity",
+        "Meteorological drought",
+        "Agricultural drought",
+        "Hydrological drought",
+        "Ecological drought",
+        "Groundwater depletion",
+        "Soil moisture",
+        "Evaporative demand",
+        "Vapor pressure deficit"
+      ]
+    },
+    {
+      "id": "015000",
+      "title": "The Night That Does Not Cool: Heat Waves, Cities, and Attribution",
+      "section": "extreme_heat_waves",
+      "file": "015000-the-night-that-does-not-cool.md",
+      "spoken_words": 2080,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 14.3,
+      "tags": [
+        "Heat waves",
+        "Extreme heat",
+        "Atmospheric blocking",
+        "Heat dome",
+        "Subsidence warming",
+        "Soil moisture feedback",
+        "Urban heat island",
+        "Nighttime temperature",
+        "Heat index",
+        "Wet-bulb globe temperature"
       ]
     }
   ]

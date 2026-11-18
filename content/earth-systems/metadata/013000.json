@@ -1,0 +1,381 @@
+{
+  "schema_version": 1,
+  "lecture_id": "013000",
+  "transcript": "013000-a-river-in-the-sky-meets-a-watershed.md",
+  "description": "Follows vapor transport from the ocean through mountain rainfall, snow storage and flood routing, with the February 2017 Lake Oroville crisis as an evidence-based watershed case.",
+  "tags": [
+    "Atmospheric rivers",
+    "Integrated vapor transport",
+    "IVT",
+    "Orographic precipitation",
+    "Rain snow line",
+    "Snow water equivalent",
+    "Rain-on-snow flooding",
+    "Antecedent soil moisture",
+    "Runoff generation",
+    "Flood routing",
+    "Reservoir operation",
+    "Flood annual exceedance probability",
+    "AR Scale",
+    "Oroville Dam",
+    "Sierra Nevada",
+    "Atmospheric river forecasts",
+    "Precipitation attribution"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Earth science",
+      "Meteorology",
+      "Atmospheric rivers",
+      "Integrated water vapor transport"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Meteorology",
+      "Atmospheric rivers",
+      "Moisture corridors"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Meteorology",
+      "Mountain weather",
+      "Orographic precipitation"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Meteorology",
+      "Mountain weather",
+      "Freezing-level elevation"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Hydrology",
+      "Snow hydrology",
+      "Snow water equivalent"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Hydrology",
+      "Flooding",
+      "Rain-on-snow"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Hydrology",
+      "Flooding",
+      "Antecedent wetness"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Hydrology",
+      "Runoff generation",
+      "Infiltration excess"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Hydrology",
+      "Runoff generation",
+      "Saturation excess"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Hydrology",
+      "Catchments",
+      "River routing"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Hydrology",
+      "Water management",
+      "Reservoir flood operations"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Statistics",
+      "Hydrologic extremes",
+      "Annual exceedance probability"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Meteorology",
+      "Atmospheric rivers",
+      "AR intensity-duration scale"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Climate science",
+      "Event attribution",
+      "Atmospheric river precipitation"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Historical event",
+      "21st century",
+      "2010s",
+      "2017 Oroville crisis"
+    ],
+    [
+      "Place: North America",
+      "Place: United States",
+      "Place: California",
+      "Place: Northern California"
+    ],
+    [
+      "Place: North America",
+      "Place: United States",
+      "Place: California",
+      "Place: Sierra Nevada"
+    ],
+    [
+      "Place: North America",
+      "Place: United States",
+      "Place: California",
+      "Place: Lake Oroville"
+    ],
+    [
+      "Place: Pacific Ocean",
+      "Place: North Pacific Ocean"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "es-extreme-ar-scale",
+      "reason": "Atmospheric river intensity-duration scale, IVT threshold, benefits versus hazards."
+    },
+    {
+      "source_id": "es-extreme-ar-cw3e",
+      "reason": "Practical application of IVT duration and maximum transport for forecasting."
+    },
+    {
+      "source_id": "es-extreme-oroville-white",
+      "reason": "2017 atmospheric river sequence, rain-snow level, runoff and reservoir crisis."
+    },
+    {
+      "source_id": "es-extreme-oroville-henn",
+      "reason": "Estimate of snowmelt enhancement to available runoff and event uncertainty."
+    },
+    {
+      "source_id": "es-extreme-oroville-climate",
+      "reason": "Counterfactual modeling of 2017 Oroville atmospheric river precipitation; case-specific estimates."
+    },
+    {
+      "source_id": "es-extreme-ca-2023",
+      "reason": "Sequences of atmospheric rivers, precipitation and snow storage in California."
+    },
+    {
+      "source_id": "es-ipcc-water",
+      "reason": "Global humidity response, precipitation energy constraints, water cycle variability and global versus regional patterns."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "013000-e01",
+      "anchor": "In February 2017, storms crossed the Pacific and struck northern California",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-extreme-oroville-white"
+      ],
+      "source_locator": "February 2017 sequence and geographic setting.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "013000-e02",
+      "anchor": "Most of the transported water is invisible vapor",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-extreme-ar-scale"
+      ],
+      "source_locator": "Definition of atmospheric river water vapor transport.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "013000-e03",
+      "anchor": "vertically integrated water vapor transport, or IVT",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-extreme-ar-scale"
+      ],
+      "source_locator": "IVT and duration.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "013000-e04",
+      "anchor": "Transport does not automatically mean precipitation",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-extreme-ar-cw3e"
+      ],
+      "source_locator": "Transport versus orographic uplift.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "013000-e05",
+      "anchor": "This is orographic precipitation",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-extreme-oroville-white"
+      ],
+      "source_locator": "Moisture and mountain uplift.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "013000-e06",
+      "anchor": "Some stored water may be released as well",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-extreme-oroville-henn"
+      ],
+      "source_locator": "Rain on snow and runoff.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "013000-e07",
+      "anchor": "Studies led by Brian Henn and colleagues",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-extreme-oroville-henn"
+      ],
+      "source_locator": "Study team and snowmelt reconstruction.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "013000-e08",
+      "anchor": "about thirty-seven percent relative to rain alone",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-extreme-oroville-henn"
+      ],
+      "source_locator": "Event-specific snowmelt contribution estimate.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "013000-e09",
+      "anchor": "Reservoirs can store part of a flood",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-extreme-oroville-white"
+      ],
+      "source_locator": "Hydrology versus reservoir operations.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "013000-e10",
+      "anchor": "the land has its own memory",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-extreme-oroville-white",
+        "es-ipcc-water"
+      ],
+      "source_locator": "Antecedent wetness changes runoff response.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "013000-e11",
+      "anchor": "developed by F. Martin Ralph and colleagues and published in 2019",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-extreme-ar-scale"
+      ],
+      "source_locator": "Original AR1-5 paper and publication date.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "013000-e12",
+      "anchor": "The scale groups events into five categories",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-extreme-ar-scale",
+        "es-extreme-ar-cw3e"
+      ],
+      "source_locator": "IVT plus duration classification.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "013000-e13",
+      "anchor": "Some moisture originates through tropical or subtropical evaporation",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-extreme-ar-scale"
+      ],
+      "source_locator": "Moisture sourcing and transport; general AR reference.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "013000-e14",
+      "anchor": "A shift of several hundred meters",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-extreme-oroville-white"
+      ],
+      "source_locator": "Changing freezing levels as runoff determinant.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "013000-e15",
+      "anchor": "Research using physically constrained model experiments",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-extreme-oroville-climate"
+      ],
+      "source_locator": "Case-specific event attribution for 2017 AR.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "013000-e16",
+      "anchor": "The sky delivers a flux. The watershed produces the flood",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-extreme-oroville-henn"
+      ],
+      "source_locator": "Synthesis from watershed runoff study.",
+      "audit_status": "source_checked"
+    }
+  ],
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Builds the water-budget argument from vapor transport to snow and reservoir storage, with an explicit Sierra Nevada case."
+    ],
+    "readiness_checks": [
+      "Why is integrated vapor transport not the same as total rain?",
+      "How can the same amount of precipitation produce distinct runoff peaks?",
+      "What role did earlier snow storage play in 2017 Oroville runoff?",
+      "Why can an AR category not uniquely determine local flood depth?",
+      "How does changing freezing level change a watershed response?"
+    ]
+  },
+  "places": [
+    "Northern California, United States",
+    "Sierra Nevada, California, United States",
+    "Lake Oroville, California, United States",
+    "North Pacific Ocean"
+  ],
+  "chronology": {
+    "period": {
+      "start": 2017,
+      "label": "February 2017 Oroville case study",
+      "basis": "documented central event",
+      "note": "Case-year association only; hydrologic mechanisms are not assigned a historical date.",
+      "source_ids": [
+        "es-extreme-oroville-white",
+        "es-extreme-oroville-henn"
+      ]
+    }
+  }
+}
