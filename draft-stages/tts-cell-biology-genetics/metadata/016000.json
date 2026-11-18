@@ -1,0 +1,140 @@
+{
+  "schema_version": 1,
+  "lecture_id": "016000",
+  "transcript": "016000-how-cells-keep-life-going.md",
+  "description": "Connects energy flow, membrane organization, regulated gene expression, development, inheritance and evolution in a closing argument about biological continuity through change.",
+  "tag_paths": [
+    [
+      "Science",
+      "Biology",
+      "Systems biology",
+      "Metabolism"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Systems biology",
+      "Gene regulation"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Evolutionary biology",
+      "Inheritance"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "cb-alberts-genomes",
+      "reason": "Shared molecular machinery, major cellular lineages and genome organization."
+    },
+    {
+      "source_id": "cb-axolotl-kragl",
+      "reason": "Lineage restrictions of blastema progenitor populations."
+    },
+    {
+      "source_id": "cb-intestine-barker",
+      "reason": "Mouse intestinal crypt lineage tracing, tissue renewal, Lgr5."
+    },
+    {
+      "source_id": "cb-openstax-oxidative",
+      "reason": "Electron transfer, proton gradient and ATP synthase."
+    },
+    {
+      "source_id": "cb-openstax-pop-evol",
+      "reason": "Hardy-Weinberg as a baseline and modern synthesis."
+    },
+    {
+      "source_id": "cb-openstax-pop-gen",
+      "reason": "Selection, drift, founder effects, gene flow, mutation and nonrandom mating."
+    },
+    {
+      "source_id": "cb-planarian-wagner",
+      "reason": "Single neoblast transplantation and restoration of regeneration."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "016000-e01",
+      "anchor": "A proton gradient across a membrane can be coupled to ATP synthesis.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-openstax-oxidative"
+      ],
+      "source_locator": "OpenStax reference, chemiosmotic coupling",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "016000-e02",
+      "anchor": "A living cell remains a physical system subject to the same constraints as any other material system.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-alberts-genomes",
+        "cb-openstax-oxidative"
+      ],
+      "source_locator": "Molecular Biology of the Cell, cells and genomes",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "016000-e03",
+      "anchor": "DNA stores a relatively durable sequence that cells can copy and use to produce RNA and proteins.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-alberts-genomes"
+      ],
+      "source_locator": "Molecular Biology of the Cell, cells and genomes",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "016000-e04",
+      "anchor": "Changes in sequence can alter proteins or regulatory regions; many have no detectable effect under the conditions tested, some harm the cell, and some are advantageous only under particular conditions.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-openstax-pop-evol"
+      ],
+      "source_locator": "OpenStax reference, variation and population evolution",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "016000-e05",
+      "anchor": "The planarian's regeneration and the axolotl's limb reconstruction show different solutions.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-planarian-wagner",
+        "cb-axolotl-kragl"
+      ],
+      "source_locator": "2011 Science paper, single-neoblast transfer and tissue rescue",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "016000-e06",
+      "anchor": "In the intestine, renewing cell populations keep replacing epithelium.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-intestine-barker"
+      ],
+      "source_locator": "2007 Nature paper, Lgr5 lineage tracing",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "016000-e07",
+      "anchor": "Lineage labeling tests which descendants persist.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-intestine-barker"
+      ],
+      "source_locator": "2007 Nature paper, Lgr5 lineage tracing",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "016000-e08",
+      "anchor": "Random genetic drift also changes frequencies, especially when population size is small.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-openstax-pop-gen"
+      ],
+      "source_locator": "OpenStax reference, genetic drift and effective population size",
+      "audit_status": "source_checked"
+    }
+  ]
+}

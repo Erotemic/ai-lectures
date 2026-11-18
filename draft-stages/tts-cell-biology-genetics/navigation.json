@@ -12,7 +12,7 @@
         "general",
         "science enthusiasts"
       ],
-      "summary": "Twelve finished standalone lectures moving from cell organization and molecular machinery to chromosome structure, complex inheritance, population change and embryonic development. More foundations are planned.",
+      "summary": "Sixteen complete standalone lectures from cellular organization, energy and inheritance through development, regeneration, microbial gene exchange and genomic experiments, ending in an integrated synthesis.",
       "chapters": [
         {
           "title": "A Cell Is an Organized System, Not a Tiny Bag",
@@ -84,6 +84,30 @@
           "title": "How an Embryo Finds Its Shape: Cell Identity, Signals, and Development",
           "lectures": [
             "012000"
+          ]
+        },
+        {
+          "title": "When a Body Rebuilds Itself: Stem Cells, Regeneration, and Cellular Memory",
+          "lectures": [
+            "013000"
+          ]
+        },
+        {
+          "title": "Genes That Cross Family Lines: Microbes, Plasmids, and Viral Exchange",
+          "lectures": [
+            "014000"
+          ]
+        },
+        {
+          "title": "How to Interrogate a Genome: Sequencing, Single Cells, and Editing",
+          "lectures": [
+            "015000"
+          ]
+        },
+        {
+          "title": "How Cells Keep Life Going: Energy, Information, and the Work of Change",
+          "lectures": [
+            "016000"
           ]
         }
       ]
@@ -208,6 +232,53 @@
           "title": "How an Embryo Finds Its Shape: Cell Identity, Signals, and Development",
           "lectures": [
             "012000"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cell-biology-genetics-renewal-and-change",
+      "title": "Renewal and Change — Regeneration, Exchange, and Genomic Tools",
+      "role": "deep_dive",
+      "parent": "cell-biology-genetics-guided",
+      "categories": [
+        "Science and nature"
+      ],
+      "audiences": [
+        "general",
+        "science enthusiasts",
+        "biology learners"
+      ],
+      "tags": [
+        "Stem cells",
+        "Microbiology",
+        "Genomics",
+        "Systems biology"
+      ],
+      "summary": "The final four lectures: the ways cells and genomes change, how investigators study that change, and why biological organization persists.",
+      "chapters": [
+        {
+          "title": "When a Body Rebuilds Itself: Stem Cells, Regeneration, and Cellular Memory",
+          "lectures": [
+            "013000"
+          ]
+        },
+        {
+          "title": "Genes That Cross Family Lines: Microbes, Plasmids, and Viral Exchange",
+          "lectures": [
+            "014000"
+          ]
+        },
+        {
+          "title": "How to Interrogate a Genome: Sequencing, Single Cells, and Editing",
+          "lectures": [
+            "015000"
+          ]
+        },
+        {
+          "title": "How Cells Keep Life Going: Energy, Information, and the Work of Change",
+          "lectures": [
+            "016000"
           ]
         }
       ]

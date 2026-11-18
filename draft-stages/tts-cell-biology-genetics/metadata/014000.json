@@ -1,0 +1,168 @@
+{
+  "schema_version": 1,
+  "lecture_id": "014000",
+  "transcript": "014000-genes-that-cross-family-lines.md",
+  "description": "Explains how bacterial DNA moves by transformation, conjugation and phage-mediated transduction, and how mobile elements, defenses and selection govern whether it persists.",
+  "tag_paths": [
+    [
+      "Science",
+      "Biology",
+      "Microbiology",
+      "Horizontal gene transfer"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Microbiology",
+      "Plasmids"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Microbiology",
+      "Bacteriophages"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Microbiology",
+      "CRISPR-Cas systems"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "cb-crispr-origins",
+      "reason": "Microbial defense, programmable guide RNA, and transition to genome editing."
+    },
+    {
+      "source_id": "cb-hgt-defense",
+      "reason": "HGT-defense relationships measured across bacterial species; inference limitations."
+    },
+    {
+      "source_id": "cb-hgt-review",
+      "reason": "Transformation, conjugation, phage-mediated transfer and recombination mechanisms."
+    },
+    {
+      "source_id": "cb-microbial-history",
+      "reason": "1928 transformation, 1944 DNA material, 1946 conjugation and 1952 transduction."
+    },
+    {
+      "source_id": "cb-transformation-review",
+      "reason": "Natural competence and competition between host and mobile genetic elements."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "014000-e01",
+      "anchor": "In 1928, Frederick Griffith worked with variants of pneumococcal bacteria.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-microbial-history"
+      ],
+      "source_locator": "Lederberg history, Griffith/Avery/conjugation/transduction timeline",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "014000-e02",
+      "anchor": "In 1944, Oswald Avery, Colin MacLeod and Maclyn McCarty carried the investigation much further.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-microbial-history"
+      ],
+      "source_locator": "Lederberg history, Griffith/Avery/conjugation/transduction timeline",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "014000-e03",
+      "anchor": "Natural transformation is one route of transfer.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-hgt-review",
+        "cb-transformation-review"
+      ],
+      "source_locator": "2024 reference chapter, bacterial exchange mechanisms and recombination",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "014000-e04",
+      "anchor": "Homologous recombination, in which related DNA sequences pair and exchange material, is an important route for incorporating an incoming fragment.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-hgt-review"
+      ],
+      "source_locator": "2024 reference chapter, bacterial exchange mechanisms and recombination",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "014000-e05",
+      "anchor": "In the 1940s, Joshua Lederberg and Edward Tatum used bacteria with different nutritional mutations to show that genetic material could be exchanged between cells.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-microbial-history"
+      ],
+      "source_locator": "Lederberg history, Griffith/Avery/conjugation/transduction timeline",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "014000-e06",
+      "anchor": "In conjugation, a donor carrying the appropriate transfer machinery establishes a connection with a recipient.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-hgt-review"
+      ],
+      "source_locator": "2024 reference chapter, bacterial exchange mechanisms and recombination",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "014000-e07",
+      "anchor": "Transfer by a phage is called transduction.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-hgt-review"
+      ],
+      "source_locator": "2024 reference chapter, bacterial exchange mechanisms and recombination",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "014000-e08",
+      "anchor": "Norton Zinder and Joshua Lederberg reported phage-mediated genetic transfer in 1952.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-microbial-history"
+      ],
+      "source_locator": "Lederberg history, Griffith/Avery/conjugation/transduction timeline",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "014000-e09",
+      "anchor": "CRISPR-Cas systems are especially revealing.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-crispr-origins"
+      ],
+      "source_locator": "2020 overview, microbial origins of CRISPR-Cas",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "014000-e10",
+      "anchor": "A bacterium that blocks more incoming DNA may also reject a potentially useful gene.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-transformation-review"
+      ],
+      "source_locator": "2025 review, natural competence and mobile-element conflict",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "014000-e11",
+      "anchor": "Researchers therefore study horizontal gene transfer as a problem of ecological opportunity and conflict, not merely a catalog of three DNA-delivery routes.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-hgt-defense",
+        "cb-transformation-review"
+      ],
+      "source_locator": "2024 study, comparative defense and gene-gain measurements",
+      "audit_status": "source_checked"
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "schema_version": 1,
+  "lecture_id": "015000",
+  "transcript": "015000-how-to-interrogate-a-genome.md",
+  "description": "Distinguishes PCR, genome sequencing, RNA profiling, single-cell inference and genome editing, emphasizing experimental controls and causal interpretation.",
+  "tag_paths": [
+    [
+      "Science",
+      "Biology",
+      "Genomics",
+      "DNA sequencing"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Genomics",
+      "Single-cell RNA sequencing"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Genomics",
+      "Genome editing"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Genomics",
+      "PCR"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "cb-crispr-origins",
+      "reason": "Microbial defense, programmable guide RNA, and transition to genome editing."
+    },
+    {
+      "source_id": "cb-editing-methods-review",
+      "reason": "Off-target assays, structural changes, heterogeneity and method limitations; review published 2026."
+    },
+    {
+      "source_id": "cb-jinek2012",
+      "reason": "Mechanism and programmable in vitro cleavage by Cas9 and engineered RNA."
+    },
+    {
+      "source_id": "cb-jinek2013",
+      "reason": "Early experimental demonstration of RNA-programmed Cas9 in human cells."
+    },
+    {
+      "source_id": "cb-nhgri-gwas",
+      "reason": "Genome-wide association principles and limits."
+    },
+    {
+      "source_id": "cb-nhgri-pcr",
+      "reason": "Primers, cycles and DNA amplification for targeted sequence analysis."
+    },
+    {
+      "source_id": "cb-nhgri-sequencing",
+      "reason": "What DNA sequence data determine and what interpretations they permit."
+    },
+    {
+      "source_id": "cb-sanger1977",
+      "reason": "Original chain-terminator sequencing mechanism and historical authorship."
+    },
+    {
+      "source_id": "cb-singlecell-bestpractices",
+      "reason": "Single-cell normalization, processing and batch correction limitations."
+    },
+    {
+      "source_id": "cb-singlecell-dropout",
+      "reason": "Incomplete transcript capture and interpretation of sparse single-cell RNA measurements."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "015000-e01",
+      "anchor": "One of the most important tools is the polymerase chain reaction, or PCR.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-nhgri-pcr"
+      ],
+      "source_locator": "NHGRI fact sheet, PCR amplification steps",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "015000-e02",
+      "anchor": "Repeated cycles of separating strands, allowing primers to bind, and extending new strands can produce a large number of copies.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-nhgri-pcr"
+      ],
+      "source_locator": "NHGRI fact sheet, PCR amplification steps",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "015000-e03",
+      "anchor": "Sequencing asks a broader question: what bases occur in the nucleic acid molecules we sampled?",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-nhgri-sequencing"
+      ],
+      "source_locator": "NHGRI fact sheet, meaning and limits of DNA sequence data",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "015000-e04",
+      "anchor": "The classical chain-termination method, developed by Frederick Sanger and colleagues, uses controlled termination of DNA synthesis to determine sequence.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-sanger1977"
+      ],
+      "source_locator": "1977 PNAS paper, abstract and method",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "015000-e05",
+      "anchor": "One of the best-known editing systems comes from microbial defense.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-crispr-origins"
+      ],
+      "source_locator": "2020 overview, microbial origins of CRISPR-Cas",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "015000-e06",
+      "anchor": "In a 2012 paper, Martin Jinek, Krzysztof Chylinski, Ines Fonfara, Michael Hauer, Jennifer Doudna and Emmanuelle Charpentier demonstrated that a Cas9 nuclease could be directed to cut chosen DNA sequences with engineered RNA guides.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-jinek2012"
+      ],
+      "source_locator": "2012 Science paper, authorship and programmable cleavage results",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "015000-e07",
+      "anchor": "Work by several groups soon showed applications in living eukaryotic cells.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-jinek2013"
+      ],
+      "source_locator": "2013 eLife paper, RNA-directed editing in human cells",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "015000-e08",
+      "anchor": "In a common Cas9 editing experiment, the guide RNA helps Cas9 recognize a suitable sequence beside a required short motif.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-jinek2012"
+      ],
+      "source_locator": "2012 Science paper, programmable guide-directed DNA cutting",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "015000-e09",
+      "anchor": "Genome-wide association studies pose a related but different challenge.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-nhgri-gwas"
+      ],
+      "source_locator": "NLM reference, association-study method and limitations",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "015000-e10",
+      "anchor": "Off-target effects are one issue.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-editing-methods-review"
+      ],
+      "source_locator": "2026 review, off-target analysis and structural outcomes",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "015000-e11",
+      "anchor": "Large deletions, rearrangements, unexpected repair outcomes and selection among edited cells can also matter.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-editing-methods-review"
+      ],
+      "source_locator": "2026 review, off-target analysis and structural outcomes",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "015000-e12",
+      "anchor": "Some RNA molecules are never captured; some genes appear to have zero reads even though they are expressed.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-singlecell-dropout"
+      ],
+      "source_locator": "Technical limitations and analysis recommendations",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "015000-e13",
+      "anchor": "Two batches processed on different days can differ because of handling rather than biology.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-singlecell-bestpractices"
+      ],
+      "source_locator": "Technical limitations and analysis recommendations",
+      "audit_status": "source_checked"
+    }
+  ]
+}
