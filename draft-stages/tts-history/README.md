@@ -1,3 +1,9 @@
+## Substantial biography additions and spacetime tags (17 November 2026)
+
+Added three biography-first portraits: Christiaan Huygens (`127000`), Seki Takakazu (`128000`), and David Blackwell (`129000`). Each includes sustained explanation of significant mathematics and its historical setting, nonspoken mathematical and source companions, source-linked claim anchors, subject/topic tags, and major-year/decade/century/geographic tags.
+
+`SPACETIME_TAGGING.md` records the new pack-local tagging convention. Dates use supported `chronology` axes, while `spacetime_coverage` provides sourced, approximate location/time records for a future coverage map. That structured geographic field is not yet a live catalog feature; searchable strings in `track.json` already use the existing tag machinery. Earlier lectures are untouched, pending any broader migration of the catalog's tagging system.
+
 ## Richard Courant and John von Neumann: biography-first revisions (16 November 2026)
 
 The existing single portraits are now two installments each: Courant `006000` and `006500`, and von Neumann `010000` and `010500`. They follow lived chronology first, with technical mathematics retained in spoken narration and split between the display-only companions. Courant's life is traced from Breslau and Göttingen through war, the 1933 Nazi dismissal, NYU, scientific computation and the institute he built. Von Neumann's follows Budapest and interwar Germany through Princeton, collaborators, family, war, the collaborative EDVAC and IAS computer projects, and nuclear-policy responsibilities.

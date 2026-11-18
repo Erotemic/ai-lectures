@@ -1,0 +1,197 @@
+{
+  "schema_version": 1,
+  "lecture_id": "128000",
+  "transcript": "128000-seki-takakazu.md",
+  "related_resources": [
+    {
+      "source_id": "history-seki-ndl",
+      "reason": "National Diet Library assessment of biography, uncertainty and work"
+    },
+    {
+      "source_id": "history-seki-kitagawa",
+      "reason": "Modern scholarly interpretation of Edo mathematical methods"
+    },
+    {
+      "source_id": "history-seki-mactutor",
+      "reason": "Reference chronology and mathematical significance"
+    },
+    {
+      "source_id": "history-seki-ndl-early",
+      "reason": "Origins and circulation of mathematical texts and problems"
+    },
+    {
+      "source_id": "history-seki-ndl-culture",
+      "reason": "Successors, schools and posthumous mathematics"
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "128000-h01",
+      "anchor": "Seki's year of birth is not securely established",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-seki-ndl",
+        "history-seki-kitagawa"
+      ],
+      "source_locator": "Seki's year of birth is not securely established",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "128000-h02",
+      "anchor": "He came from a samurai family",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-seki-mactutor",
+        "history-seki-ndl"
+      ],
+      "source_locator": "He came from a samurai family",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "128000-h03",
+      "anchor": "Kōfu domain",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-seki-ndl",
+        "history-seki-mactutor"
+      ],
+      "source_locator": "Kōfu domain",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "128000-h04",
+      "anchor": "in 1661",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-seki-ndl-early"
+      ],
+      "source_locator": "in 1661",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "128000-h05",
+      "anchor": "published in 1674",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-seki-ndl",
+        "history-seki-kitagawa"
+      ],
+      "source_locator": "published in 1674",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "128000-h06",
+      "anchor": "in 1685",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-seki-ndl-culture"
+      ],
+      "source_locator": "in 1685",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "128000-h07",
+      "anchor": "Seki died in Edo in 1708",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-seki-ndl"
+      ],
+      "source_locator": "Seki died in Edo in 1708",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "128000-h08",
+      "anchor": "1712",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-seki-ndl-culture"
+      ],
+      "source_locator": "1712",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "128000-h09",
+      "anchor": "Basel",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-seki-kitagawa"
+      ],
+      "source_locator": "Basel",
+      "audit_status": "source_checked"
+    }
+  ],
+  "chronology": {
+    "life": {
+      "start": 1640,
+      "end": 1708,
+      "approximate": true,
+      "basis": "estimated_birth_year_and_documented_death",
+      "label": "born c. 1640s (uncertain); died 1708",
+      "note": "1640 is a coarse earliest plausible start for indexing; no accepted precise birth year is assumed. The birthplace is also disputed or uncertain. Do not interpret this range as evidence of activity throughout the interval.",
+      "source_ids": [
+        "history-seki-ndl",
+        "history-seki-mactutor"
+      ]
+    },
+    "period": {
+      "start": 1661,
+      "end": 1712,
+      "basis": "documented_mathematical_writing_and_posthumous_publication",
+      "label": "1661–1712 · works, manuscripts and later publication",
+      "note": "The 1712 end is posthumous publication/reception, not lifetime activity.",
+      "source_ids": [
+        "history-seki-ndl",
+        "history-seki-ndl-culture"
+      ]
+    },
+    "setting": {
+      "start": 1603,
+      "end": 1868,
+      "basis": "historical_period",
+      "label": "Edo period in Japan",
+      "source_ids": [
+        "history-seki-kitagawa",
+        "history-seki-ndl"
+      ]
+    },
+    "work": {
+      "start": 1661,
+      "end": 1708,
+      "approximate": true,
+      "basis": "documented_writing_publication_and_mathematical_activity",
+      "label": "1661–1708 · documented mathematical work and lifetime",
+      "note": "1661 text-copying claim is approximate context, not a proved residence or beginning of formal research career.",
+      "source_ids": [
+        "history-seki-kitagawa",
+        "history-seki-ndl"
+      ]
+    }
+  },
+  "spacetime_coverage": {
+    "schema_version": 1,
+    "subject": "Seki Takakazu",
+    "description": "Subject-centered attested life, education, research, and institutional locations. Not all places mentioned in the lecture.",
+    "places": [
+      {
+        "place": "Edo (Tokyo)",
+        "present_day_country": "Japan",
+        "historical_polity": "Tokugawa shogunate",
+        "start_year": 1674,
+        "end_year": 1708,
+        "role": "mathematical_work_and_administration",
+        "note": "Documented Edo mathematical milieu; inclusive span is an approximate coverage window, not a continuous residence claim",
+        "coordinates": {
+          "latitude": 35.68,
+          "longitude": 139.76,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "history-seki-ndl",
+          "history-seki-kitagawa"
+        ]
+      }
+    ],
+    "date_encoding": "Calendar years, inclusive, CE. A range may be a coarse coverage span, not an assertion of continuous residence.",
+    "coordinate_encoding": "Present-day approximate city or region centers, intended for overview maps, never precise historical building locations."
+  }
+}
