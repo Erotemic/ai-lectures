@@ -1,6 +1,6 @@
 # Editorial continuation — Cell Biology and Genetics
 
-This is a **finite working curriculum**, not a publication promise or a word-count plan. Revise lecture boundaries when two subjects naturally require one continuous explanation or one subject deserves a larger stand-alone treatment. Subjects 001000–008000 are complete; 009000–016000 remain unwritten. Published lectures have independent files and source records.
+This is a **finite working curriculum**, not a publication promise or a word-count plan. Revise lecture boundaries when two subjects naturally require one continuous explanation or one subject deserves a larger stand-alone treatment. Subjects 001000–012000 are complete; 013000–016000 remain unwritten. Published lectures have independent files and source records.
 
 | Planned ID | Subject | Scope / editorial intent |
 |---|---|---|
@@ -8,10 +8,10 @@ This is a **finite working curriculum**, not a publication promise or a word-cou
 | 006000 | **COMPLETED —** Cells sensing and communicating | Receptors, second messengers, kinase cascades, feedback, signal amplification, and experimental perturbation |
 | 007000 | **COMPLETED —** Cell shape, traffic and force | Actin, microtubules, motors, vesicle trafficking, polarity, motility and mechanical constraints; expanded beyond the preview in lecture 001 |
 | 008000 | **COMPLETED —** Cell-cycle decisions, death and cancer | Cyclins, checkpoints, apoptosis, oncogenes, tumor suppressors and how multi-step failure of control emerges |
-| 009000 | Mutations, maps and chromosome structure | Chromatin, physical versus genetic maps, recombination rates, structural variants and mobile elements |
-| 010000 | Beyond simple Mendelian inheritance | Penetrance, expressivity, polygenic traits, quantitative genetics, gene-by-environment effects and careful statistical examples |
-| 011000 | Evolution of genes and populations | Allele frequencies, drift, selection, migration, Hardy–Weinberg assumptions, coalescent intuition and real population data |
-| 012000 | Development and cell identity | Patterning, induction, morphogens, regulatory networks, differentiation and how cell lineages become tissues |
+| 009000 | **COMPLETED —** Mutations, maps and chromosome structure | Chromatin, physical versus genetic maps, recombination rates, structural variants and mobile elements |
+| 010000 | **COMPLETED —** Beyond simple Mendelian inheritance | Penetrance, expressivity, polygenic traits, quantitative genetics, gene-by-environment effects and careful statistical examples |
+| 011000 | **COMPLETED —** Evolution of genes and populations | Allele frequencies, drift, selection, migration, Hardy–Weinberg assumptions, coalescent intuition and real population data |
+| 012000 | **COMPLETED —** Development and cell identity | Patterning, induction, morphogens, regulatory networks, differentiation and how cell lineages become tissues |
 | 013000 | Stem cells and regeneration | Potency, niches, injury response, reprogramming and evidence limits of regenerative medicine |
 | 014000 | Microbial genetics and mobile DNA | Transformation, conjugation, transduction, plasmids, phages, host defenses and horizontal gene transfer |
 | 015000 | Measuring and changing genomes | PCR, sequencing, single-cell assays, knockout design, CRISPR, off-target effects and limits of causal inference |

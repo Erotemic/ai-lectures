@@ -12,7 +12,7 @@
         "general",
         "science enthusiasts"
       ],
-      "summary": "Eight finished standalone lectures tracing cells from membranes and genomes through proteins, biochemical signaling, intracellular traffic, and cell-cycle decisions. The track is still in progress.",
+      "summary": "Twelve finished standalone lectures moving from cell organization and molecular machinery to chromosome structure, complex inheritance, population change and embryonic development. More foundations are planned.",
       "chapters": [
         {
           "title": "A Cell Is an Organized System, Not a Tiny Bag",
@@ -61,6 +61,30 @@
           "lectures": [
             "008000"
           ]
+        },
+        {
+          "title": "The Chromosome Is Not a String of Beads: Maps, Mutations, and Mobile DNA",
+          "lectures": [
+            "009000"
+          ]
+        },
+        {
+          "title": "Why Traits Do Not Fit in Punnett Squares: Penetrance, Networks, and Quantitative Inheritance",
+          "lectures": [
+            "010000"
+          ]
+        },
+        {
+          "title": "Evolution in the Gene Pool: Selection, Drift, and the History Hidden in DNA",
+          "lectures": [
+            "011000"
+          ]
+        },
+        {
+          "title": "How an Embryo Finds Its Shape: Cell Identity, Signals, and Development",
+          "lectures": [
+            "012000"
+          ]
         }
       ]
     },
@@ -74,7 +98,7 @@
       "audiences": [
         "biology learners"
       ],
-      "summary": "Begin with how the genome is read, then learn how it is copied, sorted, and inherited. A shorter entry path for listeners already familiar with cells and membranes.",
+      "summary": "A five-lecture genetics path from gene expression and meiosis through chromosome maps, quantitative traits and population change. The development lecture follows in the main route.",
       "chapters": [
         {
           "title": "How a Cell Reads Its Genome Without Following a Blueprint",
@@ -86,6 +110,24 @@
           "title": "The Problem of Making Another Cell: Copying, Division, and Inheritance",
           "lectures": [
             "004000"
+          ]
+        },
+        {
+          "title": "The Chromosome Is Not a String of Beads: Maps, Mutations, and Mobile DNA",
+          "lectures": [
+            "009000"
+          ]
+        },
+        {
+          "title": "Why Traits Do Not Fit in Punnett Squares: Penetrance, Networks, and Quantitative Inheritance",
+          "lectures": [
+            "010000"
+          ]
+        },
+        {
+          "title": "Evolution in the Gene Pool: Selection, Drift, and the History Hidden in DNA",
+          "lectures": [
+            "011000"
           ]
         }
       ]
@@ -126,6 +168,46 @@
           "title": "When a Cell Says No: Division, Checkpoints, Death, and Cancer",
           "lectures": [
             "008000"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cell-biology-genetics-beyond-mendel",
+      "title": "Beyond Mendel — Genomes, Populations, and Development",
+      "role": "topic_collection",
+      "categories": [
+        "Science and nature"
+      ],
+      "audiences": [
+        "general",
+        "science enthusiasts",
+        "biology learners"
+      ],
+      "summary": "Four stand-alone essays connecting the physical chromosome to complex traits, evolution in populations and developing multicellular bodies.",
+      "chapters": [
+        {
+          "title": "The Chromosome Is Not a String of Beads: Maps, Mutations, and Mobile DNA",
+          "lectures": [
+            "009000"
+          ]
+        },
+        {
+          "title": "Why Traits Do Not Fit in Punnett Squares: Penetrance, Networks, and Quantitative Inheritance",
+          "lectures": [
+            "010000"
+          ]
+        },
+        {
+          "title": "Evolution in the Gene Pool: Selection, Drift, and the History Hidden in DNA",
+          "lectures": [
+            "011000"
+          ]
+        },
+        {
+          "title": "How an Embryo Finds Its Shape: Cell Identity, Signals, and Development",
+          "lectures": [
+            "012000"
           ]
         }
       ]

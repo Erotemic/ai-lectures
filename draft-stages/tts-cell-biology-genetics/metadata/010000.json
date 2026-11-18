@@ -1,0 +1,173 @@
+{
+  "schema_version": 1,
+  "lecture_id": "010000",
+  "transcript": "010000-why-traits-dont-fit-in-squares.md",
+  "related_resources": [
+    {
+      "source_id": "cb-aphmg-genetics",
+      "reason": "Penetrance, expressivity, polygenic risk, mosaicism, gene-environment interaction and representation in genomics."
+    },
+    {
+      "source_id": "cb-height-review",
+      "reason": "Context and limitations of height genetics and GWAS methodology."
+    },
+    {
+      "source_id": "cb-height-yengo2022",
+      "reason": "GWAS of 5.4 million individuals and 12,111 independent associations."
+    },
+    {
+      "source_id": "cb-nhgri-glossary",
+      "reason": "Gene and genomic variant terms, mosaicism, linkage, epistasis and penetrance."
+    },
+    {
+      "source_id": "cb-nhgri-polygenic",
+      "reason": "Polygenic architecture and environmental contributions."
+    },
+    {
+      "source_id": "cb-nhgri-prs",
+      "reason": "Statistical polygenic risk estimates and their limitations."
+    },
+    {
+      "source_id": "cb-twins-meta",
+      "reason": "Twin correlation analysis, variance models and assumptions."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "010000-e01",
+      "anchor": "A classical extension is epistasis, in which variation at one locus alters or masks the effect of variation at another.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-nhgri-glossary"
+      ],
+      "source_locator": "Epistasis",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "010000-e02",
+      "anchor": "One gene can influence many traits, a phenomenon called pleiotropy.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-nhgri-glossary"
+      ],
+      "source_locator": "Pleiotropy",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "010000-e03",
+      "anchor": "Geneticists call the probability that a particular genotype produces a specified phenotype its penetrance.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-nhgri-glossary",
+        "cb-aphmg-genetics"
+      ],
+      "source_locator": "Penetrance definition",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "010000-e04",
+      "anchor": "Expressivity answers a different question.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-aphmg-genetics"
+      ],
+      "source_locator": "Variable expressivity",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "010000-e05",
+      "anchor": "In mammals with more than one X chromosome, X-chromosome inactivation produces cellular mosaics in which different cells may use different X-linked alleles.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-nhgri-glossary",
+        "cb-aphmg-genetics"
+      ],
+      "source_locator": "X inactivation",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "010000-e06",
+      "anchor": "Many genes can contribute to one trait.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-nhgri-polygenic"
+      ],
+      "source_locator": "Polygenic trait fundamentals",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "010000-e07",
+      "anchor": "Heritability is a population-level statement about variation under specified circumstances.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-twins-meta",
+        "cb-height-review"
+      ],
+      "source_locator": "Heritability interpretation",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "010000-e08",
+      "anchor": "Twin and family studies provide one approach to estimating genetic contributions to variation, though they rely on assumptions about shared environments and family resemblance.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-twins-meta"
+      ],
+      "source_locator": "Twin study designs",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "010000-e09",
+      "anchor": "Such analyses are called genome-wide association studies, or G W A S.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-height-yengo2022",
+        "cb-height-review"
+      ],
+      "source_locator": "GWAS terminology and methodology",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "010000-e10",
+      "anchor": "A large study of human height published in 2022 analyzed data from about five point four million individuals and reported more than twelve thousand statistically independent association signals across thousands of genomic regions.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-height-yengo2022"
+      ],
+      "source_locator": "2022 height GWAS",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "010000-e11",
+      "anchor": "Statistical correction for ancestry and study design can reduce such confounding, but no single procedure automatically solves every problem.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-aphmg-genetics",
+        "cb-height-review"
+      ],
+      "source_locator": "Confounding and transferability",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "010000-e12",
+      "anchor": "Polygenic scores combine the estimated effects of many variants into a statistical index.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-nhgri-prs"
+      ],
+      "source_locator": "PRS definition",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "010000-e13",
+      "anchor": "A score may shift the estimated probability of an outcome without being useful as a stand-alone decision,",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-nhgri-prs",
+        "cb-aphmg-genetics"
+      ],
+      "source_locator": "PRS limitations",
+      "audit_status": "source_checked"
+    }
+  ]
+}

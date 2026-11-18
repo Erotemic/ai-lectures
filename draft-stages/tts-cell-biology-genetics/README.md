@@ -1,6 +1,6 @@
 # Cell Biology and Genetics: How Living Information Works
 
-**Status:** In progress — eight-lecture foundation is complete; 009000–016000 are planned, not written.
+**Status:** In progress — twelve-lecture foundation is complete; 013000–016000 remain planned, not written.
 
 This is a standalone, audio-first biology course connecting cell organization, metabolism, information flow and inheritance. It is meant to complement the completed *Living World* natural-history series and *Physical World* physics series rather than turn either of those into an indefinite catalog.
 
@@ -16,7 +16,14 @@ This is a standalone, audio-first biology course connecting cell organization, m
 7. **007000 — The Moving Interior.** Motor proteins, actin and microtubules, pulse-chase experiments, ER–Golgi trafficking, vesicles, cargo sorting, membrane fusion and motility.
 8. **008000 — When a Cell Says No.** Cell-cycle regulators and checkpoints, programmed cell death, cancer cell evolution, oncogenes, and tumor suppressors.
 
-The main listening route in `navigation.json` now contains eight lectures. A new **Cell Mechanisms** collection includes 005000–008000 for listeners familiar with basic cell biology; the original genetics-first shortcut remains available. Each lecture is self-contained, while the guided sequence develops useful prerequisites. Source annotations accompany the new material.
+The **Cell Mechanisms** collection includes 005000–008000 for listeners familiar with basic cell biology. Each lecture is self-contained, while the guided sequence develops useful prerequisites. Source annotations accompany the material.
+
+9. **009000 — The Chromosome Is Not a String of Beads.** Histones, chromosome structure, meiotic recombination, genetic and physical maps, mutations, mobile DNA and mosaicism.
+10. **010000 — Why Traits Do Not Fit in Punnett Squares.** Penetrance, expressivity, epistasis, pleiotropy, quantitative genetics, heritability, GWAS and gene–environment interactions.
+11. **011000 — Evolution in the Gene Pool.** Hardy–Weinberg, selection, drift, migration, effective population size, and the history inferred from coalescence.
+12. **012000 — How an Embryo Finds Its Shape.** Maternal polarity, induction, Spemann–Mangold, morphogen gradients, patterning, Hox genes, morphogenesis and cell lineages.
+
+The guided collection now includes all twelve lectures, and **Beyond Mendel** offers 009000–012000 as a self-contained deepening. **Genetics First** now continues through population genetics after the original two foundations. The four remaining planned subjects are not presented as completed manuscripts.
 
 ## Editorial principles
 
@@ -26,4 +33,4 @@ Every file contains exactly one spoken region. Its headings, technical companion
 
 ## Boundaries and continuation
 
-This installment develops proteins, signaling, cell mechanics and cell-cycle control but **does not complete foundational biology**. Development, complex inheritance, population genetics and genome methods remain open work, inventoried in `BACKLOG.md`. The series will get a separate closing synthesis once those topics have been taught. The genome-to-function discussion deliberately distinguishes a single causal variant, a regulatory effect, and a complex trait; avoid implying all phenotypes follow simple Mendelian tables.
+This installment extends the foundations into chromosome variation, complex inheritance, population genetics and development but **does not complete foundational biology**. Stem cells, microbial genetics, genomic methods and the final synthesis remain open work, inventoried in `BACKLOG.md`. The series will get a separate closing synthesis once those topics have been taught. The genome-to-function discussion deliberately distinguishes a single causal variant, a regulatory effect, and a complex trait; avoid implying all phenotypes follow simple Mendelian tables.

@@ -1,0 +1,199 @@
+{
+  "schema_version": 1,
+  "lecture_id": "012000",
+  "transcript": "012000-how-an-embryo-finds-its-shape.md",
+  "related_resources": [
+    {
+      "source_id": "cb-dev-gene-reg",
+      "reason": "Control of developmental gene expression across biological levels."
+    },
+    {
+      "source_id": "cb-dev-general",
+      "reason": "Induction, asymmetry, morphogens, cell interactions and developmental memory."
+    },
+    {
+      "source_id": "cb-dev-hox",
+      "reason": "Drosophila regulatory hierarchies and Hox/homeotic developmental identity."
+    },
+    {
+      "source_id": "cb-dev-organizer",
+      "reason": "Spemann-Mangold tissue transplantation and the organizer concept."
+    },
+    {
+      "source_id": "cb-dev-polarity",
+      "reason": "Maternal determinants, Bicoid and Drosophila segmentation pathways."
+    },
+    {
+      "source_id": "cb-mckenna2019",
+      "reason": "Mouse lineage recorder and single-cell RNA-sequencing integration."
+    },
+    {
+      "source_id": "cb-sulston1983",
+      "reason": "Cell lineage and invariant programmed cell deaths in developing nematodes."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "012000-e01",
+      "anchor": "During its formation, the parent deposits proteins, RNAs, nutrients and other components in particular places.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-dev-polarity"
+      ],
+      "source_locator": "Maternal determinants",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "012000-e02",
+      "anchor": "In the early fruit-fly embryo, many rounds of nuclear division occur before the embryo is partitioned into a conventional layer of separate cells.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-dev-polarity"
+      ],
+      "source_locator": "Early syncytial development",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "012000-e03",
+      "anchor": "An especially important experiment was published in 1924 by Hilde Mangold and Hans Spemann.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-dev-organizer"
+      ],
+      "source_locator": "1924 organizer experiment and credit",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "012000-e04",
+      "anchor": "The use of differently pigmented embryos helped distinguish donor from host contributions.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-dev-organizer"
+      ],
+      "source_locator": "Graft lineage contrast",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "012000-e05",
+      "anchor": "The result revealed what became known as the embryonic organizer:",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-dev-organizer"
+      ],
+      "source_locator": "Organizer identification",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "012000-e06",
+      "anchor": "Induction is the broader idea.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-dev-general"
+      ],
+      "source_locator": "Embryonic induction",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "012000-e07",
+      "anchor": "This is the intuitive idea of a morphogen, a molecule whose concentration can contribute to different developmental outcomes across space.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-dev-general"
+      ],
+      "source_locator": "Morphogen model",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "012000-e08",
+      "anchor": "Maternal gene products, including the protein Bicoid, help establish differences along the egg's head-to-tail axis.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-dev-polarity"
+      ],
+      "source_locator": "Bicoid polarity gradient",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "012000-e09",
+      "anchor": "Then groups of regulators called gap genes, pair-rule genes and segment-polarity genes help elaborate the pattern.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-dev-polarity",
+        "cb-dev-hox"
+      ],
+      "source_locator": "Drosophila segmentation hierarchy",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "012000-e10",
+      "anchor": "The famous Antennapedia example can cause leg-like structures to form where an antenna would normally be.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-dev-hox"
+      ],
+      "source_locator": "Homeotic identity transformation",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "012000-e11",
+      "anchor": "During gastrulation, sheets and groups of cells rearrange to establish tissue layers and axes.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-dev-general"
+      ],
+      "source_locator": "Cell movement and gastrulation",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "012000-e12",
+      "anchor": "Regulatory networks can stabilize patterns of expression.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-dev-gene-reg",
+        "cb-dev-general"
+      ],
+      "source_locator": "Cell fate and regulation",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "012000-e13",
+      "anchor": "In a small nematode such as Caenorhabditis elegans, researchers were able to observe embryonic cell divisions systematically and produce detailed lineage maps,",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-sulston1983"
+      ],
+      "source_locator": "Nematode cell lineages",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "012000-e14",
+      "anchor": "Genetic barcodes can mark descendants of earlier cells.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-mckenna2019"
+      ],
+      "source_locator": "Modern lineage recording",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "012000-e15",
+      "anchor": "With lineage recording and molecular profiles combined, researchers can ask whether different tissue types arose from shared ancestors and when their expression programs diverged.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-mckenna2019"
+      ],
+      "source_locator": "Combined lineage and RNA measurements",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "012000-e16",
+      "anchor": "A single-cell RNA profile does not literally reveal a cell's entire past or future.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-mckenna2019"
+      ],
+      "source_locator": "Measurement limits and inference",
+      "audit_status": "source_checked"
+    }
+  ]
+}

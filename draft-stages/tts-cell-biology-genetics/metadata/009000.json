@@ -1,0 +1,179 @@
+{
+  "schema_version": 1,
+  "lecture_id": "009000",
+  "transcript": "009000-the-chromosome-is-not-a-string-of-beads.md",
+  "related_resources": [
+    {
+      "source_id": "cb-chromatin-epigenetic",
+      "reason": "Histones, accessibility, chromatin modifications and 3D regulation."
+    },
+    {
+      "source_id": "cb-chromatin-packaging",
+      "reason": "Nucleosomes, centromeres, telomeres, origins, chromosome organization."
+    },
+    {
+      "source_id": "cb-genetic-v-physical",
+      "reason": "Physical versus genetic maps and variable rates of recombination."
+    },
+    {
+      "source_id": "cb-mapping-genomes",
+      "reason": "Morgan, Sturtevant, linkage maps and crossover-based inference."
+    },
+    {
+      "source_id": "cb-mcclintock-nhgri",
+      "reason": "Maize color patterns, Barbara McClintock and mobile DNA discovery."
+    },
+    {
+      "source_id": "cb-mcclintock-nobel",
+      "reason": "Prize for Barbara McClintock and mobile genetic elements."
+    },
+    {
+      "source_id": "cb-nhgri-glossary",
+      "reason": "Gene and genomic variant terms, mosaicism, linkage, epistasis and penetrance."
+    },
+    {
+      "source_id": "cb-nhgri-structural",
+      "reason": "Insertions, deletions, inversions, duplications and translocations."
+    },
+    {
+      "source_id": "cb-nhgri-variants",
+      "reason": "Small, structural, copy-number and repeat variants; genome diversity."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "009000-e01",
+      "anchor": "The first packaging level is unusually concrete.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-chromatin-packaging"
+      ],
+      "source_locator": "Nucleosome DNA packaging context",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "009000-e02",
+      "anchor": "ATP-powered chromatin remodelers can reposition nucleosomes.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-chromatin-epigenetic"
+      ],
+      "source_locator": "Chromatin remodeling mechanisms",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "009000-e03",
+      "anchor": "Replication begins at origins. Telomeres help protect the ends of linear chromosomes.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-chromatin-packaging"
+      ],
+      "source_locator": "Chromosomal elements",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "009000-e04",
+      "anchor": "During the process, DNA can be exchanged between non-sister chromatids of homologous chromosomes.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-mapping-genomes"
+      ],
+      "source_locator": "Crossing-over during meiosis",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "009000-e05",
+      "anchor": "In Thomas Hunt Morgan's research group, Arthur Sturtevant developed an early genetic map of a fruit-fly chromosome in 1913.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-mapping-genomes"
+      ],
+      "source_locator": "Sturtevant genetic mapping",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "009000-e06",
+      "anchor": "The observed recombination fraction is one tenth, or ten percent.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-mapping-genomes",
+        "cb-genetic-v-physical"
+      ],
+      "source_locator": "Worked illustrative mapping example",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "009000-e07",
+      "anchor": "Multiple crossovers can restore the original arrangement of outer markers and go undetected.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-genetic-v-physical"
+      ],
+      "source_locator": "Limits of short-distance mapping",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "009000-e08",
+      "anchor": "A physical map, by contrast, places markers by nucleotide positions or other direct physical measurements.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-genetic-v-physical"
+      ],
+      "source_locator": "Physical vs genetic maps",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "009000-e09",
+      "anchor": "A stretch may be duplicated, leaving an extra copy of one or many genes.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-nhgri-structural",
+        "cb-nhgri-variants"
+      ],
+      "source_locator": "Structural variants",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "009000-e10",
+      "anchor": "Barbara McClintock followed patterns of pigment in kernels and the behavior of chromosomes.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-mcclintock-nhgri"
+      ],
+      "source_locator": "Maize evidence for mobile genetic elements",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "009000-e11",
+      "anchor": "These elements became known as transposable elements, or transposons.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-mcclintock-nhgri",
+        "cb-mcclintock-nobel"
+      ],
+      "source_locator": "Mobile DNA discovery and prize",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "009000-e12",
+      "anchor": "Different cell lineages acquire different somatic variants as development and aging proceed.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-nhgri-glossary"
+      ],
+      "source_locator": "Mosaicism",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "009000-e13",
+      "anchor": "A statistical association can reveal a chromosomal neighborhood without identifying the molecular step responsible.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-genetic-v-physical",
+        "cb-mapping-genomes"
+      ],
+      "source_locator": "Linkage is not causal identification",
+      "audit_status": "source_checked"
+    }
+  ]
+}

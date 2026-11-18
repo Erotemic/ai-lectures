@@ -1,0 +1,199 @@
+{
+  "schema_version": 1,
+  "lecture_id": "011000",
+  "transcript": "011000-evolution-in-the-gene-pool.md",
+  "related_resources": [
+    {
+      "source_id": "cb-boag1981",
+      "reason": "1977 drought selection and beak morphology in Daphne Major finches."
+    },
+    {
+      "source_id": "cb-coalescent-guide",
+      "reason": "Effective population size inference, genealogical models and bias."
+    },
+    {
+      "source_id": "cb-coalescent-history",
+      "reason": "Historical development and assumptions of the coalescent."
+    },
+    {
+      "source_id": "cb-effective-pop",
+      "reason": "Census versus effective size, and definitions under different models."
+    },
+    {
+      "source_id": "cb-luria-history",
+      "reason": "Historical interpretation and limitations of fluctuation tests."
+    },
+    {
+      "source_id": "cb-luria1943",
+      "reason": "Fluctuation experiment distinguishing pre-existing mutation and selection."
+    },
+    {
+      "source_id": "cb-openstax-pop-evol",
+      "reason": "Hardy-Weinberg as a baseline and modern synthesis."
+    },
+    {
+      "source_id": "cb-openstax-pop-gen",
+      "reason": "Selection, drift, founder effects, gene flow, mutation and nonrandom mating."
+    },
+    {
+      "source_id": "cb-price1984",
+      "reason": "Subsequent selection episodes and multivariate trait analysis."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "011000-e01",
+      "anchor": "The three possibilities sum to one hundred percent.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-openstax-pop-evol"
+      ],
+      "source_locator": "Hardy-Weinberg illustration",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "011000-e02",
+      "anchor": "A null model is valuable because it tells us what explanation remains to be earned.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-openstax-pop-evol"
+      ],
+      "source_locator": "Model inference boundary",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "011000-e03",
+      "anchor": "If carriers leave more descendants under pesticide exposure, those variants may become more common.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-openstax-pop-gen"
+      ],
+      "source_locator": "Selection",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "011000-e04",
+      "anchor": "That distinction was tested with extraordinary elegance by Salvador Luria and Max Delbrück in 1943.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-luria1943",
+        "cb-luria-history"
+      ],
+      "source_locator": "Fluctuation test history",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "011000-e05",
+      "anchor": "The data showed the characteristic large fluctuations predicted by pre-existing mutation events.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-luria1943"
+      ],
+      "source_locator": "Fluctuation results",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "011000-e06",
+      "anchor": "Peter and Rosemary Grant and collaborators studied Darwin's finches over years,",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-boag1981",
+        "cb-price1984"
+      ],
+      "source_locator": "Finch field studies",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "011000-e07",
+      "anchor": "During the 1977 drought, birds with certain larger beaks were more likely to survive when harder seeds remained.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-boag1981"
+      ],
+      "source_locator": "1977 drought selection",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "011000-e08",
+      "anchor": "A later study found selection on related traits across other difficult years,",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-price1984"
+      ],
+      "source_locator": "1980 and 1982 selection",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "011000-e09",
+      "anchor": "This is genetic drift, the random sampling of alleles across generations.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-openstax-pop-gen"
+      ],
+      "source_locator": "Drift",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "011000-e10",
+      "anchor": "These are the bottleneck and founder effects.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-openstax-pop-gen"
+      ],
+      "source_locator": "Founder and bottleneck effects",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "011000-e11",
+      "anchor": "Geneticists use effective population size, a parameter describing how strongly drift or genealogical coalescence behaves relative to a simplified reference population.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-effective-pop"
+      ],
+      "source_locator": "Effective size definitions",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "011000-e12",
+      "anchor": "Migration adds another mechanism, often called gene flow.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-openstax-pop-gen"
+      ],
+      "source_locator": "Gene flow",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "011000-e13",
+      "anchor": "This is the central intuition of coalescent theory, developed in mathematically explicit form in the early 1980s.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-coalescent-history",
+        "cb-coalescent-guide"
+      ],
+      "source_locator": "Coalescent history",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "011000-e14",
+      "anchor": "Recombination means different parts of a chromosome can have different ancestry trees.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-coalescent-guide"
+      ],
+      "source_locator": "Recombination and genealogy",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "011000-e15",
+      "anchor": "Inferring ancient population size from genomes is an inverse problem:",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-coalescent-guide",
+        "cb-effective-pop"
+      ],
+      "source_locator": "Demographic inverse problem",
+      "audit_status": "source_checked"
+    }
+  ]
+}
