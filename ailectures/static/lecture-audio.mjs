@@ -142,11 +142,12 @@ export class LectureAudio {
     player,
     progress,
     onChange,
+    onActivate,
     message,
     active = () => true,
     course = null,
   }) {
-    Object.assign(this, { row, player, progress, onChange, message, active, course });
+    Object.assign(this, { row, player, progress, onChange, onActivate, message, active, course });
     this.jobs = [];
     this.views = new Map();
     this.recentlyStopped = new Set();
@@ -200,7 +201,7 @@ export class LectureAudio {
       class: "primary",
       disabled: true,
       text: progress ? "Resume" : "Play",
-      onclick: () => this.play(),
+      onclick: () => this.togglePlayback(),
     });
     this.cache = el("button", {
       type: "button",
@@ -285,7 +286,7 @@ export class LectureAudio {
     this.speed.onchange = async () => {
       const epoch = ++this.epoch;
       this.pending = null;
-      this.player.audio.pause();
+      if (this.player.lectureController === this) this.player.audio.pause();
       store("speech-speed", Number(this.speed.value));
       try {
         await this.loadOptions();
@@ -379,7 +380,7 @@ export class LectureAudio {
   get inventory() {
     return narratorInventory(this.choice, this.row, this.jobs, this.pages);
   }
-  choose(remember = true) {
+  choose(remember = true, activate = false) {
     const selectedBlock =
       this.pending?.index ??
       (this.player.row?.id === this.row.id ? this.player.index : null);
@@ -394,12 +395,22 @@ export class LectureAudio {
         store("production-voice:" + choice.profile, choice.voice);
       }
     }
+    // Reading or choosing a voice in another lecture is a preview. Take over
+    // the persistent player only after an explicit playback action.
+    if (this.player.row && this.player.row.id !== this.row.id && !activate) {
+      this.resume ||= this.progress;
+      this.target = resumeTarget(this.row, this.resume, this.pages);
+      this.onChange?.();
+      this.render();
+      return;
+    }
     const position =
       this.player.row?.id === this.row.id ? this.player.position() : null;
     this.resume = position || this.resume || this.progress;
     if (this.player.lectureController !== this) {
       this.player.lectureController?.dispose();
       this.player.lectureController = this;
+      this.onActivate?.();
     }
     this.player.open(
       this.views.get(choice?.recording_id) || this.row,
@@ -495,6 +506,8 @@ export class LectureAudio {
       ),
     );
     this.generationList();
+    this.syncPlayback();
+    this.player.syncControls?.();
     if (this.pending)
       document.getElementById("playing-note").textContent =
         this.status.textContent;
@@ -626,15 +639,35 @@ export class LectureAudio {
           ]),
     );
   }
-  play(index = this.player.index, seconds = null) {
-    this.player.play(index, seconds);
+  syncPlayback() {
+    const owns = this.player.lectureController === this;
+    this.playButton.textContent = owns && this.pending ? "Cancel playback"
+      : owns && !this.player.audio.paused ? "Pause"
+      : (owns ? (this.player.started || this.player.resumeAvailable) : this.progress) ? "Resume" : "Play";
   }
-  playPrepared(index = this.player.index, seconds = null) {
-    if (!this.player.recording?.segments.some((segment) => segment.index === index)) {
+  togglePlayback() {
+    if (this.player.lectureController === this) this.player.toggle();
+    else this.play();
+  }
+  cancelPlayback() {
+    this.pending = null;
+    this.epoch++;
+    this.player.audio.pause();
+    this.render();
+  }
+  play(index = null, seconds = null) {
+    if (this.player.lectureController !== this) this.choose(false, true);
+    this.player.play(index ?? this.target?.index ?? this.player.index, seconds);
+  }
+  playPrepared(index = null, seconds = null) {
+    const recording = this.player.lectureController === this ? this.player.recording
+      : this.row.recordings.find(r => r.id === this.choice?.recording_id);
+    const target = index ?? this.target?.index ?? (this.player.row?.id === this.row.id ? this.player.index : 0);
+    if (!recording?.segments.some((segment) => segment.index === target)) {
       this.message("The next lecture has no prepared audio for the selected voice. Choose an available voice or press Play to generate it.");
       return;
     }
-    this.play(index, seconds);
+    this.play(target, seconds);
   }
   async require(index, seconds) {
     if (!this.choice?.profile || !this.data.tools_available) {
@@ -678,7 +711,7 @@ export class LectureAudio {
     this.clearing = true;
     this.epoch++;
     this.pending = null;
-    this.player.audio.pause();
+    if (this.player.lectureController === this) this.player.audio.pause();
     this.render();
     try {
       await post("/api/library/production/clear-cache", {
@@ -817,7 +850,7 @@ export class LectureAudio {
     ) {
       this.pending = null;
       this.epoch++;
-      this.player.audio.pause();
+      if (this.player.lectureController === this) this.player.audio.pause();
     }
     this.stopping.add(job.id);
     this.render();

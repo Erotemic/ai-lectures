@@ -717,6 +717,14 @@ Generation speed is under **Speech settings**. Collection pages
 can queue a whole collection, and Production can explicitly queue the whole library.
 The listening queue is labelled separately from the generation queue.
 
+The lecture’s playback button and persistent footer share Play, Pause, Resume,
+and pending-playback cancellation state. Browsing collections or another lecture
+keeps the current recording playing; press Play on the new lecture to switch.
+**Return to lecture** opens the playing transcript at its current position.
+The footer shows a clickable next title for previewing the next lecture;
+**Next** starts it. Both follow the active listening queue or playing track,
+including when you browse elsewhere.
+
 The Production page retains configured TTS profiles, remembered voice choices,
 service voice discovery, voice-ID registration, and speech generation speed.
 The top-level `profile` in `tts.local.toml` selects this machine's audio default

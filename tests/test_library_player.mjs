@@ -54,3 +54,18 @@ player.recording={...recording,complete:false,segments:[recording.segments[0]]};
 player.seekBy(15);assert.equal(player.index,1);assert.equal(audio.src,undefined);
 assert.equal(player.ready,false);
 console.log('Final-block continuation, playback context and paused cross-block seeking passed');
+
+// Both controls read the actual media state; a paused resume keeps its time.
+player.lectureController = {syncPlayback(){this.label=element('toggle-play').textContent;}};
+audio.paused=false; audio.onplay();
+assert.equal(element('toggle-play').textContent,'Pause');
+assert.equal(player.lectureController.label,'Pause');
+audio.pause();audio.onpause();
+assert.equal(element('toggle-play').textContent,'Resume');
+assert.equal(player.lectureController.label,'Resume');
+let cancelled=0;
+player.lectureController.pending={index:1};
+player.lectureController.cancelPlayback=()=>{cancelled++;player.lectureController.pending=null;};
+player.syncControls();assert.equal(element('toggle-play').textContent,'Cancel playback');
+player.toggle();assert.equal(cancelled,1);
+console.log('Shared playback controls follow media events and can cancel pending playback');

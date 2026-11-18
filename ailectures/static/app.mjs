@@ -261,18 +261,21 @@ async function updatePlaybackRoute() {
     selector.dataset.routes = signature;
   }
   $("playing-title").href = lectureLink(row.id, player.course);
-  $("playing-title").title = row.title;
+  $("playing-title").title = "Open lecture: " + row.title;
+  $("return-to-lecture").href = lectureLink(row.id, player.course);
   const track = $("playing-track");
   track.hidden = !course;
   track.textContent = course ? `${course.title} · ${index + 1} / ${course.lectures.length}` : "";
   track.href = course ? courseLink(course) : "/collections";
   let nextId = next;
+  let nextCourse = course?.id;
   let queued = false;
   if (playingQueueEntry) {
     const entries = await listeningQueue.read().catch(() => []);
     if (token !== playbackRouteToken) return;
     const queueIndex = entries.findIndex((entry) => entry.id === playingQueueEntry?.id);
     nextId = queueIndex >= 0 ? entries[queueIndex + 1]?.lecture_id : null;
+    nextCourse = entries[queueIndex + 1]?.course_id;
     queued = true;
     track.hidden = false;
     track.textContent = "Listening queue";
@@ -281,9 +284,13 @@ async function updatePlaybackRoute() {
   const nextRow = byId(nextId);
   $("next-lecture").disabled = !nextRow;
   $("next-lecture").title = nextRow ? "Next lecture: " + nextRow.title : "No next installed lecture";
-  $("up-next").textContent = nextId ? `Next${queued ? " in queue" : ""}: ${nextRow?.title || "Lecture not installed"}`
-    : queued ? "End of listening queue" : course ? "Last lecture in this track" : "Choose a playing track in More";
-  $("up-next").title = $("up-next").textContent;
+  const upNext = $("up-next");
+  upNext.replaceChildren(nextRow
+    ? link(`Next${queued ? " in queue" : ""}: ${nextRow.title}`, lectureLink(nextRow.id, nextCourse))
+    : document.createTextNode(nextId ? "Next lecture is not installed on this server"
+      : queued ? "End of listening queue" : course ? "Last lecture in this track" : "Choose a playing track in More"));
+  $("next-lecture").setAttribute("aria-label", nextRow ? "Play next: " + nextRow.title : "No next installed lecture");
+  upNext.title = upNext.textContent;
 }
 const optionsToggle = $("toggle-player-options");
 function showPlayerOptions(open) {
@@ -412,7 +419,6 @@ async function lecturePage(id, autoplay = false, historical = null) {
       ? player.row
       : latest;
   if (token !== renderToken) return;
-  if (playingQueueEntry?.lecture_id !== id) playingQueueEntry = null;
   if (row.kind === "presentation") {
     location.href = "/presentations?deck=" + encodeURIComponent(row.deck);
     return;
@@ -430,6 +436,10 @@ async function lecturePage(id, autoplay = false, historical = null) {
     course: currentCourse,
     active: () => token === renderToken,
     onChange: () => refreshTranscript(),
+    onActivate: () => {
+      if (playingQueueEntry?.lecture_id !== id) playingQueueEntry = null;
+      queueMicrotask(updatePlaybackRoute);
+    },
   });
   lectureAudio = audio;
   audio.ready.catch((error) => {
@@ -730,8 +740,8 @@ async function lecturePage(id, autoplay = false, historical = null) {
     await audio.ready;
     if (token === renderToken) {
       const restart = Boolean(playingQueueEntry || autoplay === "prepared" || progress[id]?.completed);
-      if (autoplay === "prepared") audio.playPrepared(restart ? 0 : player.index, restart ? 0 : null);
-      else audio.play(restart ? 0 : player.index, restart ? 0 : null);
+      if (autoplay === "prepared") audio.playPrepared(restart ? 0 : null, restart ? 0 : null);
+      else audio.play(restart ? 0 : null, restart ? 0 : null);
     }
   }
 }

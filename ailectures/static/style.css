@@ -605,7 +605,8 @@ audio {
 #player-options label { min-width: 0; }
 #player-options select { max-width: 100%; }
 .player-hint { font-size: 0.78rem; margin: 0.5rem 0 0; }
-#up-next { font-size: 0.78rem; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; margin: 0; }
+.player-links { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.3rem 1rem; font-size: 0.78rem; }
+#up-next { min-width: 0; font-size: 0.78rem; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; margin: 0; }
 .timeline {
   display: flex;
   gap: 0.8rem;

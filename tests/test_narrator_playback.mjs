@@ -180,3 +180,22 @@ Object.assign(replacement,{...prepared,player:prepared.player,continueBlocks:{ch
 replacement.choose(false);
 assert.equal(owner.disposed,true);assert.equal(prepared.player.lectureController,replacement);
 console.log('Pending or abandoned lecture browsing preserves the playing controller until ownership transfers');
+
+// Browsing and changing the preview voice cannot replace a playing lecture.
+const preview=Object.create(LectureAudio.prototype);
+const oldOwner={dispose(){throw Error('Browsing disposed the playing controller');}};
+const oldPlayer={row:{id:'elsewhere:001000'},index:7,lectureController:oldOwner,
+  open(){throw Error('Browsing opened another recording');}};
+Object.assign(preview,{row,player:oldPlayer,choices:[preparedChoice],select:{value:'prepared'},
+  epoch:0,pages:installed.pages,render(){},progress:null});
+preview.choose(false);
+preview.choose();
+assert.equal(oldPlayer.lectureController,oldOwner);
+assert.equal(oldPlayer.index,7);
+let activation;
+preview.choose=(remember,activate)=>{activation=activate;oldPlayer.lectureController=preview;oldPlayer.index=0;};
+oldPlayer.play=(...args)=>{oldPlayer.played=args;};
+preview.play();
+assert.equal(activation,true);
+assert.deepEqual(oldPlayer.played,[0,null]);
+console.log('Lecture browsing preserves the active player until explicit playback takes ownership');

@@ -37,12 +37,7 @@ export class Player {
     this.lastSave = 0;
     this.loadToken = 0;
     this.blockCache = new AudioBlockCache();
-    document.getElementById("toggle-play").onclick = () => {
-      if (!this.row) return;
-      this.audio.paused
-        ? this.play(this.index, this.audio.currentTime)
-        : this.audio.pause();
-    };
+    document.getElementById("toggle-play").onclick = () => this.toggle();
     const speed = document.getElementById("playback-rate");
     speed.value = String(getStored("rate", 1));
     speed.onchange = () => {
@@ -51,11 +46,11 @@ export class Player {
     };
     this.audio.onplay = () => {
       this.started = true;
-      document.getElementById("toggle-play").textContent = "Pause";
+      this.syncControls();
       this.onBlockPlay?.(this.index);
     };
     this.audio.onpause = () => {
-      document.getElementById("toggle-play").textContent = "Play";
+      this.syncControls();
       this.save();
     };
     this.audio.ontimeupdate = () => {
@@ -91,6 +86,19 @@ export class Player {
     };
     window.addEventListener("pagehide", () => this.save());
   }
+  syncControls() {
+    const waiting = Boolean(this.lectureController?.pending);
+    document.getElementById("toggle-play").textContent = waiting
+      ? "Cancel playback" : this.audio.paused ? (this.started || this.resumeAvailable ? "Resume" : "Play") : "Pause";
+    this.lectureController?.syncPlayback?.();
+  }
+  toggle() {
+    if (!this.row) return;
+    if (this.lectureController?.pending) {
+      this.lectureController.cancelPlayback();
+    } else if (this.audio.paused) this.play(this.index, this.audio.currentTime);
+    else this.audio.pause();
+  }
   open(row, progress = null, preferred = null, course = this.course ?? null) {
     if (
       this.row?.id === row.id &&
@@ -108,6 +116,7 @@ export class Player {
     this.save();
     this.ready = false;
     this.started = false;
+    this.resumeAvailable = Boolean(progress && !progress.completed && progress.spoken_sha256 === row.spoken_sha256);
     this.audio.pause();
     this.loadToken++;
     this.audio.onloadedmetadata = null;
@@ -252,6 +261,7 @@ export class Player {
     } else this.load(index, seconds || 0, true);
   }
   update() {
+    this.syncControls();
     if (!this.recording) return;
     const durations = pageDurations(this.recording);
     const elapsed =
