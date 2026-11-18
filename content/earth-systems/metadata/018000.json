@@ -1,0 +1,325 @@
+{
+  "schema_version": 1,
+  "lecture_id": "018000",
+  "transcript": "018000-who-keeps-the-air-breathable.md",
+  "description": "Separates short-term photosynthesis and respiration, modern ocean oxygen ventilation and climate-driven deoxygenation, and geological atmospheric oxygenation, emphasizing what isotope proxies and ocean sensors actually measure.",
+  "tags": [
+    "Oxygen cycle",
+    "Oxygenic photosynthesis",
+    "Oxygen isotope tracing",
+    "Aerobic respiration",
+    "Great Oxidation Event",
+    "Paleoproterozoic",
+    "Sulfur isotope mass-independent fractionation",
+    "Chromium isotope proxy",
+    "Organic carbon burial",
+    "Ocean ventilation",
+    "Dissolved oxygen",
+    "Oxygen minimum zones",
+    "Ocean deoxygenation",
+    "Ocean circulation",
+    "Carbon-oxygen coupling"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Earth science",
+      "Biogeochemistry",
+      "Oxygen cycle",
+      "Oxygenic photosynthesis"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Biogeochemistry",
+      "Oxygen cycle",
+      "Respiration and carbon burial"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Historical geology",
+      "Paleoproterozoic",
+      "Great Oxidation Event",
+      "ca. 2.4 Ga"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Geochemistry",
+      "Isotope proxies",
+      "Sulfur isotope mass-independent fractionation"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Geochemistry",
+      "Isotope proxies",
+      "Chromium isotope records"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Geochemistry",
+      "Oxygen isotope tracing",
+      "Photosynthesis"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Oceanography",
+      "Dissolved oxygen",
+      "Ocean ventilation"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Oceanography",
+      "Dissolved oxygen",
+      "Oxygen-minimum zones"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Climate science",
+      "Ocean deoxygenation",
+      "Solubility and stratification"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Climate science",
+      "Ocean observations",
+      "Oxygen profiles"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Microbial ecology",
+      "Aerobic respiration"
+    ],
+    [
+      "Science",
+      "History of science",
+      "20th century",
+      "1940s",
+      "1941 heavy oxygen tracer experiments"
+    ],
+    [
+      "Science",
+      "History of science",
+      "21st century",
+      "2010s",
+      "2017 ocean oxygen inventory study"
+    ],
+    [
+      "Place: Pacific Ocean",
+      "Place: Eastern tropical Pacific"
+    ],
+    [
+      "Place: Indian Ocean",
+      "Place: Northern Indian Ocean"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "es-bio-o-history",
+      "reason": "Geological oxygenation, ocean oxygen controls, proxy evidence and deep-ocean variability."
+    },
+    {
+      "source_id": "es-bio-o-frei",
+      "reason": "Chromium isotope oxygen proxy and nonmonotonic ancient oxygenation."
+    },
+    {
+      "source_id": "es-bio-o-farquhar",
+      "reason": "Sulfur mass-independent fractionation and the change in atmospheric photochemistry during early oxygenation."
+    },
+    {
+      "source_id": "es-bio-o-ruben",
+      "reason": "Water as source of oxygen evolved by oxygenic photosynthesis, isotope tracing."
+    },
+    {
+      "source_id": "es-bio-o-schmidtko",
+      "reason": "Observed multi-decadal oxygen-inventory decline, spatial variability and uncertainties."
+    },
+    {
+      "source_id": "es-bio-o-oschlies",
+      "reason": "Warming solubility, ventilation and biological oxygen consumption; limits of models."
+    },
+    {
+      "source_id": "es-bio-o-ipcc",
+      "reason": "Assessed twentieth- and twenty-first-century ocean oxygen change by depth and region."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "018000-e01",
+      "anchor": "A fish needs dissolved molecular oxygen",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-bio-o-history"
+      ],
+      "source_locator": "Distinguishes chemically bound oxygen and dissolved O2.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "018000-e02",
+      "anchor": "oxygen gas released by oxygenic photosynthesis originates from water",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-bio-o-ruben"
+      ],
+      "source_locator": "Historical isotope experiments trace water-derived O2.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "018000-e03",
+      "anchor": "Oxygen production is a gross flux. Net long-term oxygen gain requires additional accounting",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-bio-o-history"
+      ],
+      "source_locator": "Gross production versus long-term accumulation and burial.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "018000-e04",
+      "anchor": "For much of Earth's early existence, the atmosphere contained very little free oxygen",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-bio-o-history"
+      ],
+      "source_locator": "General early Earth oxygen context.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "018000-e05",
+      "anchor": "roughly two point four billion years ago",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-bio-o-history",
+        "es-bio-o-frei"
+      ],
+      "source_locator": "Great Oxidation Event timing and qualifications.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "018000-e06",
+      "anchor": "One particularly important kind of evidence concerns sulfur isotopes",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-bio-o-farquhar"
+      ],
+      "source_locator": "Mass-independent sulfur isotope proxy.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "018000-e07",
+      "anchor": "Other proxies use iron minerals, chromium isotopes",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-bio-o-frei"
+      ],
+      "source_locator": "Independent geochemical constraints.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "018000-e08",
+      "anchor": "Oxygen also created new opportunities for metabolism",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-bio-o-history"
+      ],
+      "source_locator": "Oxygenation and microbial ecological opportunities.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "018000-e09",
+      "anchor": "Colder water can generally dissolve more oxygen",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-bio-o-oschlies"
+      ],
+      "source_locator": "Oxygen solubility dependence on temperature.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "018000-e10",
+      "anchor": "The eastern tropical Pacific and parts of the northern Indian Ocean",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-bio-o-history"
+      ],
+      "source_locator": "Modern oxygen-deficient zones and circulation.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "018000-e11",
+      "anchor": "Researchers Sunke Schmidtko, Lothar Stramma, and Martin Visbeck",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-bio-o-schmidtko"
+      ],
+      "source_locator": "2017 observational authors and global inventory.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "018000-e12",
+      "anchor": "an overall loss of more than two percent",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-bio-o-schmidtko"
+      ],
+      "source_locator": "1960 onward oxygen inventory decline in 2017 analysis.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "018000-e13",
+      "anchor": "Later assessments, including the Intergovernmental Panel on Climate Change",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-bio-o-ipcc"
+      ],
+      "source_locator": "Assessment of deoxygenation across depths.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "018000-e14",
+      "anchor": "Why would a warming climate contribute to oxygen loss?",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-bio-o-oschlies"
+      ],
+      "source_locator": "Solubility, ventilation and biological mechanisms.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "018000-e15",
+      "anchor": "Nitrate may be consumed through processes that release nitrogen gas",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-bio-o-history",
+        "es-bio-n-cycle-kuypers"
+      ],
+      "source_locator": "Link to nitrogen cycles in low oxygen conditions.",
+      "audit_status": "source_checked"
+    }
+  ],
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Basic science of matter, energy and cells is introduced in the narration; previous Earth as a System lectures are optional background."
+    ],
+    "readiness_checks": [
+      "What is the difference between producing oxygen and permanently increasing atmospheric oxygen?",
+      "How do geochemical proxies constrain early oxygenation?",
+      "Why are oxygen minimum zones located in particular water masses?",
+      "Why does warming affect ocean oxygen beyond direct solubility changes?"
+    ]
+  },
+  "places": [
+    "Eastern tropical Pacific Ocean",
+    "Northern Indian Ocean"
+  ]
+}

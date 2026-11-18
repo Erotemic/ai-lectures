@@ -1,0 +1,323 @@
+{
+  "schema_version": 1,
+  "lecture_id": "016000",
+  "transcript": "016000-the-air-you-cannot-eat.md",
+  "description": "Explains why atmospheric N₂ is not directly available to most life and traces nitrogen fixation, uptake, nitrification, denitrification and anammox through soils and waters, with Haber–Bosch history and nitrogen-budget measurement.",
+  "tags": [
+    "Nitrogen cycle",
+    "Biogeochemistry",
+    "Nitrogen fixation",
+    "Nitrogenase",
+    "Root nodules",
+    "Reactive nitrogen",
+    "Ammonium",
+    "Nitrate",
+    "Nitrification",
+    "Denitrification",
+    "Anammox",
+    "Nitrous oxide",
+    "Nitrogen isotopes",
+    "Haber–Bosch process",
+    "Fertilizer runoff",
+    "Soil microbes"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Earth science",
+      "Biogeochemistry",
+      "Nitrogen cycle",
+      "Biological nitrogen fixation"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Biogeochemistry",
+      "Nitrogen cycle",
+      "Ammonification"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Biogeochemistry",
+      "Nitrogen cycle",
+      "Nitrification"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Biogeochemistry",
+      "Nitrogen cycle",
+      "Denitrification"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Biogeochemistry",
+      "Nitrogen cycle",
+      "Anammox"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Microbiology",
+      "Microbial ecology",
+      "Redox metabolism"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Soil science",
+      "Nitrate transport"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Atmospheric chemistry",
+      "Nitrous oxide"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Biogeochemistry",
+      "Isotopic tracers",
+      "15N tracer experiments"
+    ],
+    [
+      "Science",
+      "Technology",
+      "Chemical engineering",
+      "Industrial nitrogen fixation",
+      "Haber–Bosch"
+    ],
+    [
+      "Science",
+      "History of science",
+      "20th century",
+      "1900s",
+      "1909 Haber ammonia synthesis"
+    ],
+    [
+      "Science",
+      "History of science",
+      "20th century",
+      "1910s",
+      "1913 ammonia plant"
+    ],
+    [
+      "Science",
+      "History of science",
+      "20th century",
+      "1990s",
+      "1995 anammox discovery"
+    ],
+    [
+      "Place: Europe",
+      "Place: Germany"
+    ],
+    [
+      "Place: Europe",
+      "Place: Netherlands",
+      "Place: Delft"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "es-bio-n-cycle-kuypers",
+      "reason": "Microbial nitrogen fixation, nitrification, denitrification, anammox and overlapping pathways; no rigid universal loop."
+    },
+    {
+      "source_id": "es-bio-n-anammox-van",
+      "reason": "Experimental microbial and isotope evidence for anaerobic ammonium oxidation; original experimental authorship."
+    },
+    {
+      "source_id": "es-bio-n-anammox-mulder",
+      "reason": "Earlier reactor observations published in March 1995; discovery attribution and balances."
+    },
+    {
+      "source_id": "es-bio-n-history",
+      "reason": "Haber laboratory demonstration, Bosch engineering, 1913 industrial plant, and nitrogen-cycle history."
+    },
+    {
+      "source_id": "es-bio-n-reactions",
+      "reason": "Chemistry of nitrogen transformations, nitrification and nitrous oxide production."
+    },
+    {
+      "source_id": "es-bio-n-global",
+      "reason": "Recent global nitrogen-flux synthesis with large uncertainty ranges; no specific numbers asserted in narration."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "016000-e01",
+      "anchor": "nearly four-fifths of the dry air consists of nitrogen gas",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-bio-n-cycle-kuypers"
+      ],
+      "source_locator": "Global atmospheric nitrogen pool and accessibility.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "016000-e02",
+      "anchor": "Their nitrogenase enzyme complex reduces nitrogen gas to ammonia",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-bio-n-cycle-kuypers"
+      ],
+      "source_locator": "Biological fixation and nitrogenase.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "016000-e03",
+      "anchor": "The plant provides sugars made by photosynthesis",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-bio-n-cycle-kuypers"
+      ],
+      "source_locator": "Symbiosis and nitrogen-fixation energy.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "016000-e04",
+      "anchor": "Decomposers release some of it as ammonium",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-bio-n-cycle-kuypers"
+      ],
+      "source_locator": "Mineralization versus atmospheric loss.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "016000-e05",
+      "anchor": "When oxygen is available, different microbes can gain energy by oxidizing ammonia",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-bio-n-cycle-kuypers",
+        "es-bio-n-reactions"
+      ],
+      "source_locator": "Nitrification and microbial pathways.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "016000-e06",
+      "anchor": "Some organisms carry out complete ammonia oxidation",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-bio-n-cycle-kuypers"
+      ],
+      "source_locator": "Comammox and incomplete classical cycle model.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "016000-e07",
+      "anchor": "Nitrate behaves differently from ammonium",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-bio-n-reactions"
+      ],
+      "source_locator": "Nitrate mobility and nitrogen species.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "016000-e08",
+      "anchor": "Through denitrification, nitrate or nitrite can be converted step by step",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-bio-n-cycle-kuypers",
+        "es-bio-n-reactions"
+      ],
+      "source_locator": "Denitrification products and conditions.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "016000-e09",
+      "anchor": "Nitrous oxide is a long-lived greenhouse gas",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-bio-n-reactions"
+      ],
+      "source_locator": "Nitrous oxide nitrogen cycle and climate consequences.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "016000-e10",
+      "anchor": "Experiments published in 1995, including work by Alexander Mulder",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-bio-n-anammox-mulder",
+        "es-bio-n-anammox-van"
+      ],
+      "source_locator": "1995 reactor and microbiological verification.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "016000-e11",
+      "anchor": "Ammonium was disappearing without oxygen",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-bio-n-anammox-mulder"
+      ],
+      "source_locator": "Original anomalous observation.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "016000-e12",
+      "anchor": "They do not have to follow the classic denitrification sequence",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-bio-n-cycle-kuypers"
+      ],
+      "source_locator": "Anammox distinct pathway.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "016000-e13",
+      "anchor": "Carl Bosch and a large engineering effort made this practical",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-bio-n-history"
+      ],
+      "source_locator": "Haber versus Bosch roles; 1913 industrial plant.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "016000-e14",
+      "anchor": "Some are harvested and exported as food",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-bio-n-global",
+        "es-bio-n-cycle-kuypers"
+      ],
+      "source_locator": "Reactive nitrogen flows and environmental consequences.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "016000-e15",
+      "anchor": "They also use nitrogen isotopes",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-bio-n-anammox-van"
+      ],
+      "source_locator": "15N tracer evidence for anammox.",
+      "audit_status": "source_checked"
+    }
+  ],
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Basic science of matter, energy and cells is introduced in the narration; previous Earth as a System lectures are optional background."
+    ],
+    "readiness_checks": [
+      "Why can land plants be nitrogen-limited under nitrogen-rich air?",
+      "How do ammonium and nitrate differ in their routes through soils?",
+      "What separates anammox from denitrification?",
+      "What are the implications of nitrous oxide production?"
+    ]
+  },
+  "places": [
+    "Germany",
+    "Delft, Netherlands"
+  ]
+}

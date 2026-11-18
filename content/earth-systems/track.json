@@ -1,7 +1,7 @@
 {
   "id": "earth-systems",
   "title": "Earth as a System: Air, Water, Ocean, and Climate",
-  "summary": "Mechanistic Earth systems science linking radiation, air, water, oceans, carbon, ice and landscapes to ENSO variability and extreme-weather processes. Distinguishes observations, hazard mechanisms, forecasts, climate attribution, exposure and vulnerability.",
+  "summary": "Mechanistic Earth systems science connecting energy, atmosphere, water and ocean circulation to carbon, ice, landscapes, ENSO and extreme weather, then nitrogen, phosphorus and oxygen cycling through microbial ecosystems. Separates budgets, observations, forecasts and environmental effects.",
   "categories": [
     "Science and nature"
   ],
@@ -51,7 +51,11 @@
     "extreme_tropical_cyclones",
     "extreme_atmospheric_rivers",
     "extreme_drought",
-    "extreme_heat_waves"
+    "extreme_heat_waves",
+    "living_chemistry_nitrogen",
+    "living_chemistry_phosphorus",
+    "living_chemistry_oxygen",
+    "living_chemistry_coupled"
   ],
   "lectures": [
     {
@@ -350,6 +354,94 @@
         "Nighttime temperature",
         "Heat index",
         "Wet-bulb globe temperature"
+      ]
+    },
+    {
+      "id": "016000",
+      "title": "The Air You Cannot Eat: Nitrogen's Microbial Routes",
+      "section": "living_chemistry_nitrogen",
+      "file": "016000-the-air-you-cannot-eat.md",
+      "spoken_words": 1900,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 13.1,
+      "tags": [
+        "Nitrogen cycle",
+        "Biogeochemistry",
+        "Nitrogen fixation",
+        "Nitrogenase",
+        "Root nodules",
+        "Reactive nitrogen",
+        "Ammonium",
+        "Nitrate",
+        "Nitrification",
+        "Denitrification",
+        "Anammox"
+      ]
+    },
+    {
+      "id": "017000",
+      "title": "The Rock in Every Cell: Phosphorus and the Long Way Back",
+      "section": "living_chemistry_phosphorus",
+      "file": "017000-the-rock-in-every-cell.md",
+      "spoken_words": 1730,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 11.9,
+      "tags": [
+        "Phosphorus cycle",
+        "Phosphate",
+        "Apatite weathering",
+        "Soil phosphorus",
+        "Phosphorus sorption",
+        "Mycorrhiza",
+        "Nutrient limitation",
+        "Lake 227",
+        "Experimental Lakes Area",
+        "Eutrophication",
+        "Legacy phosphorus"
+      ]
+    },
+    {
+      "id": "018000",
+      "title": "Who Keeps the Air Breathable? Oxygen on Three Timescales",
+      "section": "living_chemistry_oxygen",
+      "file": "018000-who-keeps-the-air-breathable.md",
+      "spoken_words": 1855,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 12.8,
+      "tags": [
+        "Oxygen cycle",
+        "Oxygenic photosynthesis",
+        "Oxygen isotope tracing",
+        "Aerobic respiration",
+        "Great Oxidation Event",
+        "Paleoproterozoic",
+        "Sulfur isotope mass-independent fractionation",
+        "Chromium isotope proxy",
+        "Organic carbon burial",
+        "Ocean ventilation",
+        "Dissolved oxygen"
+      ]
+    },
+    {
+      "id": "019000",
+      "title": "Where the River Meets the Microbes: Wetlands, Estuaries, and Dead Zones",
+      "section": "living_chemistry_coupled",
+      "file": "019000-where-the-river-meets-the-microbes.md",
+      "spoken_words": 1884,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 13.0,
+      "tags": [
+        "Wetland biogeochemistry",
+        "Redox gradients",
+        "Electron acceptors",
+        "Denitrification",
+        "Iron reduction",
+        "Sulfate reduction",
+        "Methanogenesis",
+        "Phosphorus internal loading",
+        "Eutrophication",
+        "Hypoxia",
+        "Coastal dead zones"
       ]
     }
   ]

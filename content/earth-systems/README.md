@@ -1,6 +1,6 @@
 # Earth as a System: Air, Water, Ocean, and Climate
 
-**Status:** in progress. Fifteen complete narrated lectures (001000-015000). The first four establish the physical foundation; carbon, frozen water and landscape chapters connect reservoirs; three lectures develop ENSO; and five follow the mechanisms and impacts of extreme weather.
+**Status:** in progress. Nineteen complete narrated lectures (001000-019000). The first four establish the physical foundation; carbon, frozen water and landscape chapters connect reservoirs; three lectures develop ENSO; five follow the mechanisms and impacts of extreme weather; and four connect the nitrogen, phosphorus and oxygen cycles through soils, waters and microbes.
 
 The course explains the coupled Earth system by following energy, water, carbon, geological material and information in ocean-atmosphere feedbacks. Each manuscript has a single spoken region and a non-spoken scientific companion containing source notes, definitions and questions.
 
@@ -23,8 +23,12 @@ The course explains the coupled Earth system by following energy, water, carbon,
 | 013000 | A River in the Sky Meets a Watershed | Moisture flux, mountains, rain on snow, runoff and flood risk |
 | 014000 | When the Rain Stops Being Enough | Drought categories, evaporative demand, storage and monitoring |
 | 015000 | The Night That Does Not Cool | Blocking ridges, urban heat, human thermal load and event attribution |
+| 016000 | The Air You Cannot Eat | Nitrogen fixation and microbial nitrogen networks |
+| 017000 | The Rock in Every Cell | Phosphorus limitation, legacy storage, and eutrophication |
+| 018000 | Who Keeps the Air Breathable? | Oxygen budgets, deep history, and ocean deoxygenation |
+| 019000 | Where the River Meets the Microbes | Wetland redox chemistry, runoff, and coastal hypoxia |
 
-The `earth-as-a-system` route includes all fifteen lectures. The shorter `earth-foundations-four` and ENSO routes remain intact. New routes include `extreme-weather-mechanisms` (the five new lectures), `water-extremes` (water cycle, atmospheric rivers, drought), and `climate-attribution-and-hazards` (extreme event physics and attribution).
+The `earth-as-a-system` route includes all nineteen lectures. The shorter `earth-foundations-four` and ENSO routes remain intact. Further routes include `living-chemistry` (four new lectures), `nutrients-through-water` and `oxygen-in-time`. Earlier routes include `extreme-weather-mechanisms` (the five new lectures), `water-extremes` (water cycle, atmospheric rivers, drought), and `climate-attribution-and-hazards` (extreme event physics and attribution).
 
 ## Editorial conventions
 
@@ -38,4 +42,4 @@ The `earth-as-a-system` route includes all fifteen lectures. The shorter `earth-
 
 ## Further development
 
-The completed ENSO and extreme-weather sequences are self-contained. See `BACKLOG.md` for further options, especially Earth's living chemistry and observational climate history. Extending the course is optional, not an automatic requirement.
+The ENSO, extreme-weather, and living-chemistry units are self-contained. See `BACKLOG.md` for future options, especially the evidence and uncertainties in paleoclimate reconstruction. Extending the course is optional, not an automatic requirement.

@@ -8,7 +8,7 @@
       "categories": [
         "Science and nature"
       ],
-      "summary": "Fifteen connected lectures, from Earth energy and fluid circulation through the carbon cycle, ice and landscapes, to ENSO and five types of extreme weather.",
+      "summary": "Nineteen connected lectures covering planetary energy and circulation, carbon and landscapes, ENSO, extreme weather, and the nitrogen, phosphorus and oxygen cycles linking living systems with water and rock.",
       "chapters": [
         {
           "title": "Earth Has an Energy Budget: Light In, Heat Out",
@@ -98,6 +98,30 @@
           "title": "The Night That Does Not Cool: Heat Waves, Cities, and Attribution",
           "lectures": [
             "015000"
+          ]
+        },
+        {
+          "title": "The Air You Cannot Eat: Nitrogen's Microbial Routes",
+          "lectures": [
+            "016000"
+          ]
+        },
+        {
+          "title": "The Rock in Every Cell: Phosphorus and the Long Way Back",
+          "lectures": [
+            "017000"
+          ]
+        },
+        {
+          "title": "Who Keeps the Air Breathable? Oxygen on Three Timescales",
+          "lectures": [
+            "018000"
+          ]
+        },
+        {
+          "title": "Where the River Meets the Microbes: Wetlands, Estuaries, and Dead Zones",
+          "lectures": [
+            "019000"
           ]
         }
       ]
@@ -297,6 +321,63 @@
         "012000",
         "014000",
         "015000"
+      ]
+    },
+    {
+      "id": "living-chemistry",
+      "title": "Earth as a System · Earth's Living Chemistry",
+      "role": "deep_dive",
+      "parent": "earth-as-a-system",
+      "summary": "Four connected lectures on reactive nitrogen, rock-derived phosphorus, oxygen across timescales, and wetland-to-coastal redox chemistry.",
+      "tags": [
+        "Biogeochemistry",
+        "Nitrogen cycle",
+        "Phosphorus cycle",
+        "Oxygen cycle",
+        "Wetlands"
+      ],
+      "lectures": [
+        "016000",
+        "017000",
+        "018000",
+        "019000"
+      ]
+    },
+    {
+      "id": "nutrients-through-water",
+      "title": "Earth as a System · Nutrients from Watersheds to Seas",
+      "role": "deep_dive",
+      "parent": "earth-as-a-system",
+      "summary": "How moving water carries nitrogen and phosphorus from rocks and soils to lakes, estuaries and low-oxygen coastal habitats.",
+      "tags": [
+        "Hydrology",
+        "Nutrient loading",
+        "Eutrophication",
+        "Biogeochemistry"
+      ],
+      "lectures": [
+        "003000",
+        "007000",
+        "016000",
+        "017000",
+        "019000"
+      ]
+    },
+    {
+      "id": "oxygen-in-time",
+      "title": "Earth as a System · Oxygen, Past and Present",
+      "role": "deep_dive",
+      "parent": "earth-as-a-system",
+      "summary": "From ocean circulation and oxygenation history to oxygen-deficient sediments and coastal shelves.",
+      "tags": [
+        "Oxygen cycle",
+        "Ocean ventilation",
+        "Redox gradients"
+      ],
+      "lectures": [
+        "004000",
+        "018000",
+        "019000"
       ]
     }
   ]

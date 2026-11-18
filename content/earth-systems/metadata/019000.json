@@ -1,0 +1,364 @@
+{
+  "schema_version": 1,
+  "lecture_id": "019000",
+  "transcript": "019000-where-the-river-meets-the-microbes.md",
+  "description": "Integrates nitrogen, phosphorus and oxygen budgets through wetland redox gradients and Mississippi–Gulf seasonal hypoxia, distinguishing eutrophication, cyanobacterial toxins, oxygen measurements and the limits of nutrient-based forecasts.",
+  "tags": [
+    "Wetland biogeochemistry",
+    "Redox gradients",
+    "Electron acceptors",
+    "Denitrification",
+    "Iron reduction",
+    "Sulfate reduction",
+    "Methanogenesis",
+    "Phosphorus internal loading",
+    "Eutrophication",
+    "Hypoxia",
+    "Coastal dead zones",
+    "Mississippi River",
+    "Atchafalaya River",
+    "Gulf of Mexico",
+    "NOAA hypoxia survey 2026",
+    "Water column stratification",
+    "Dissolved oxygen profiles",
+    "Lake Erie",
+    "Microcystin",
+    "Storm mixing",
+    "Nutrient management"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Earth science",
+      "Biogeochemistry",
+      "Wetlands",
+      "Redox gradients"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Biogeochemistry",
+      "Wetlands",
+      "Denitrification"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Biogeochemistry",
+      "Wetlands",
+      "Iron reduction and phosphorus release"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Biogeochemistry",
+      "Wetlands",
+      "Sulfate reduction"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Biogeochemistry",
+      "Wetlands",
+      "Methanogenesis"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Oceanography",
+      "Coastal zones",
+      "Estuaries",
+      "Nutrient loading"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Oceanography",
+      "Coastal zones",
+      "Hypoxia"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Oceanography",
+      "Water-column stratification"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Water quality",
+      "Harmful algal blooms",
+      "Microcystin"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth systems",
+      "Coupled nutrient cycles",
+      "Nitrogen phosphorus oxygen"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Scientific methods",
+      "Ocean observation",
+      "CTD and dissolved oxygen profiles"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Scientific methods",
+      "Seasonal prediction",
+      "Weather and forecast error"
+    ],
+    [
+      "Science",
+      "History of science",
+      "21st century",
+      "2020s",
+      "2026 Gulf hypoxia survey"
+    ],
+    [
+      "Place: North America",
+      "Place: United States",
+      "Place: Mississippi River Basin"
+    ],
+    [
+      "Place: North America",
+      "Place: Gulf of Mexico",
+      "Place: Northern continental shelf"
+    ],
+    [
+      "Place: North America",
+      "Place: Great Lakes",
+      "Place: Lake Erie"
+    ],
+    [
+      "Place: North America",
+      "Place: United States",
+      "Place: Ohio",
+      "Place: Toledo"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "es-bio-w-noaa2026",
+      "reason": "2026 Gulf survey area and storm-mixing explanation compared with June seasonal forecast."
+    },
+    {
+      "source_id": "es-bio-w-noaa-hypoxia",
+      "reason": "Mechanism of seasonal oxygen loss and CTD/oxygen measurements of coastal hypoxia."
+    },
+    {
+      "source_id": "es-bio-w-diaz",
+      "reason": "Coastal oxygen depletion, organisms affected, global coastal historical context."
+    },
+    {
+      "source_id": "es-bio-w-wetland",
+      "reason": "Redox acceptor sequence, wetland groundwater, nitrate/iron/sulfate dynamics and methane; sequence is generalized."
+    },
+    {
+      "source_id": "es-bio-p-epa-erie",
+      "reason": "1972 cleanup, changing phosphorus inputs, bloom recurrence, and August 2014 Toledo microcystin advisory."
+    },
+    {
+      "source_id": "es-bio-p-epa-monitor",
+      "reason": "Lake Erie monitoring, cyanobacterial blooms and distinction between biomass and toxin measurements."
+    },
+    {
+      "source_id": "es-bio-n-cycle-kuypers",
+      "reason": "Microbial nitrogen fixation, nitrification, denitrification, anammox and overlapping pathways; no rigid universal loop."
+    },
+    {
+      "source_id": "es-bio-p-legacy",
+      "reason": "Long storage and delayed release in soils, rivers and lake sediments after management changes."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "019000-e01",
+      "anchor": "Consider the Mississippi and Atchafalaya rivers",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-bio-w-noaa-hypoxia"
+      ],
+      "source_locator": "Location and source of nutrient delivery to northern Gulf.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "019000-e02",
+      "anchor": "a broad region of low oxygen can develop",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-bio-w-noaa-hypoxia",
+        "es-bio-w-diaz"
+      ],
+      "source_locator": "Mechanism of seasonal coastal hypoxia.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "019000-e03",
+      "anchor": "Mobile fish and shrimp may leave",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-bio-w-diaz"
+      ],
+      "source_locator": "Ecological habitat shifts from low oxygen.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "019000-e04",
+      "anchor": "Nutrients can increase primary production",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-bio-w-diaz"
+      ],
+      "source_locator": "Organic production and biological oxygen consumption.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "019000-e05",
+      "anchor": "A relatively buoyant surface layer can resist vertical mixing",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-bio-w-noaa-hypoxia"
+      ],
+      "source_locator": "Freshwater plume and stratification.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "019000-e06",
+      "anchor": "In June, NOAA forecast a relatively extensive low-oxygen region",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-bio-w-noaa2026"
+      ],
+      "source_locator": "June forecast compared to August measured survey.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "019000-e07",
+      "anchor": "A tropical storm had mixed the water column",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-bio-w-noaa2026"
+      ],
+      "source_locator": "2026 tropical-storm mixing and survey area.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "019000-e08",
+      "anchor": "They measure dissolved oxygen at different depths",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-bio-w-noaa-hypoxia"
+      ],
+      "source_locator": "Sensor profile survey methodology.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "019000-e09",
+      "anchor": "Microbes in appropriate conditions can reduce nitrate to nitrogen gases",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-bio-n-cycle-kuypers",
+        "es-bio-w-wetland"
+      ],
+      "source_locator": "Wetland nitrate removal and redox conditions.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "019000-e10",
+      "anchor": "other electron acceptors can become important",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-bio-w-wetland"
+      ],
+      "source_locator": "Generalized acceptor sequence and its heterogeneity.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "019000-e11",
+      "anchor": "Some wetland plants move oxygen internally to their roots",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-bio-w-wetland"
+      ],
+      "source_locator": "Root oxygen microniches in wetlands.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "019000-e12",
+      "anchor": "nitrous oxide may escape",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-bio-n-cycle-kuypers"
+      ],
+      "source_locator": "Incomplete denitrification and climate implications.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "019000-e13",
+      "anchor": "methane may be generated from organic matter",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-bio-w-wetland"
+      ],
+      "source_locator": "Methanogenesis and wetland carbon dynamics.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "019000-e14",
+      "anchor": "But when iron minerals are reduced under some low-oxygen conditions",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-bio-w-wetland",
+        "es-bio-p-legacy"
+      ],
+      "source_locator": "Potential phosphate release in reductive iron chemistry.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "019000-e15",
+      "anchor": "Western Lake Erie has experienced harmful cyanobacterial blooms",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-bio-p-epa-monitor",
+        "es-bio-p-epa-erie"
+      ],
+      "source_locator": "Lake Erie water quality and HAB monitoring.",
+      "audit_status": "source_checked"
+    }
+  ],
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Basic science of matter, energy and cells is introduced in the narration; previous Earth as a System lectures are optional background."
+    ],
+    "readiness_checks": [
+      "Why can nutrient enrichment lead to low oxygen far beneath a productive surface?",
+      "How does a storm alter measured hypoxia independently of nutrient load?",
+      "What is the role of redox gradients in nitrogen removal, phosphorus release and methane generation?",
+      "Why are algal blooms, toxin concentrations and bottom-water hypoxia separate indicators?"
+    ]
+  },
+  "places": [
+    "Mississippi River Basin, United States",
+    "Atchafalaya River, Louisiana, United States",
+    "Northern Gulf of Mexico",
+    "Lake Erie, North America",
+    "Toledo, Ohio, United States"
+  ],
+  "chronology": {
+    "period": {
+      "start": 2026,
+      "label": "August 2026 northern Gulf hypoxia measurement case study",
+      "basis": "documented seasonal research event",
+      "note": "A single observed seasonal case, not a date for general wetland or oxygen chemistry.",
+      "source_ids": [
+        "es-bio-w-noaa2026"
+      ]
+    }
+  }
+}
