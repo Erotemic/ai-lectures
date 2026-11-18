@@ -812,6 +812,48 @@
       "url": "https://persson.berkeley.edu/math228b/html/finite_difference_methods_for_PDEs.html",
       "access": "free_no_login",
       "notes": "Constant-speed advection, characteristics, inflow boundary, upwind/centered/Lax-Wendroff discretization, CFL and Fourier stability."
+    },
+    "de-mit-sampling": {
+      "title": "Alan V. Oppenheim, MIT OpenCourseWare Signals and Systems: Lecture 16, Sampling (2011)",
+      "kind": "university_course_lecture",
+      "url": "https://ocw.mit.edu/courses/res-6-007-signals-and-systems-spring-2011/resources/lecture-16-sampling/",
+      "access": "free_no_login",
+      "notes": "Sampling theorem, exact bandlimited reconstruction, aliasing and frequency folding."
+    },
+    "de-mit-dsp-dft": {
+      "title": "Alan V. Oppenheim, MIT OpenCourseWare Digital Signal Processing: Lecture 9, The Discrete Fourier Transform (2011)",
+      "kind": "university_course_lecture",
+      "url": "https://www.ocw.mit.edu/courses/res-6-008-digital-signal-processing-spring-2011/resources/lecture-9-the-discrete-fourier-transform/",
+      "access": "free_no_login",
+      "notes": "Sampling/aliasing of sinusoids, DFT and digital-frequency analysis."
+    },
+    "de-fftw-dft": {
+      "title": "FFTW User Manual: The 1d Discrete Fourier Transform",
+      "kind": "software_documentation",
+      "url": "https://fftw.org/fftw3_doc/The-1d-Discrete-Fourier-Transform-_0028DFT_0029.html",
+      "access": "free_no_login",
+      "notes": "Forward negative exponent, unnormalized DFT, frequency ordering."
+    },
+    "de-fftw-tutorial": {
+      "title": "FFTW User Manual: Tutorial",
+      "kind": "software_documentation",
+      "url": "https://www.fftw.org/doc/Tutorial.html",
+      "access": "free_no_login",
+      "notes": "FFT implementation conventions and real/complex transforms."
+    },
+    "de-numpy-fft": {
+      "title": "NumPy Reference: Discrete Fourier Transform",
+      "kind": "software_documentation",
+      "url": "https://numpy.org/doc/stable/reference/routines.fft.html",
+      "access": "free_no_login",
+      "notes": "Complex DFT and inverse, normalization, conjugate symmetry, real transforms, coefficient units."
+    },
+    "de-numpy-rfftfreq": {
+      "title": "NumPy Reference: numpy.fft.rfftfreq",
+      "kind": "software_documentation",
+      "url": "https://numpy.org/doc/stable/reference/generated/numpy.fft.rfftfreq.html",
+      "access": "free_no_login",
+      "notes": "Frequency grid and even-N Nyquist frequency for real FFTs."
     }
   }
 }

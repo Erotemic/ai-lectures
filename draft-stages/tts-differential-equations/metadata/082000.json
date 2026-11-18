@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "lecture_id": "082000",
+  "transcript": "082000-how-the-fft-works-and-why-pdes-use-it.md",
+  "related_resources": [
+    {
+      "source_id": "de-fftw-dft",
+      "reason": "The FFT computes the defined finite DFT and uses the same normalization conventions."
+    },
+    {
+      "source_id": "de-fftw-tutorial",
+      "reason": "FFT implementations, complex and real transforms, and practical use."
+    },
+    {
+      "source_id": "de-numpy-fft",
+      "reason": "DFT and inverse operations including complex phases."
+    },
+    {
+      "source_id": "de-mit-18-086-fd",
+      "reason": "Periodic finite differences, modes and numerical heat-equation stability."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-17",
+    "scope": "Original foundation-first sampling, discrete Fourier transform, spectral interpretation and FFT/PDE lecture, with mathematical companion; the 45 inherited manuscripts remain unchanged."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "differential-equations:080000",
+        "reason": "DFT finite transform and inverse."
+      },
+      {
+        "lecture_id": "differential-equations:081000",
+        "reason": "Spectrum interpretation and convolution."
+      }
+    ],
+    "recommended": [],
+    "background": [
+      "Simple complex rotations, small matrix arithmetic, elementary ODE exponential decay; the periodic grid is derived in the lecture."
+    ],
+    "readiness_checks": [
+      "Derive radix-two even/odd DFT identities and compute a four-point transform.",
+      "Diagonalize a periodic second difference by Fourier modes.",
+      "Solve the four-cell periodic heat problem and recover its forward-Euler stability limit."
+    ]
+  }
+}

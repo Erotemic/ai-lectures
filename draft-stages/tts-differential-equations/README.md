@@ -2,7 +2,7 @@
 
 Ordinary differential equations and dynamical systems: initial-value problems, existence and uniqueness, phase portraits, oscillations, stability, nonlinear dynamics and numerical integration, later partial differential equations.
 
-The current pack contains **45 lecture manuscripts**. Short concept chapters have been consolidated where they develop one subject. Each numbered manuscript has one spoken region; its mathematical statements, exercises, sources, and inherited component notes remain in the non-spoken companion.
+The current pack contains **49 lecture manuscripts**. Short concept chapters have been consolidated where they develop one subject. Each numbered manuscript has one spoken region; its mathematical statements, exercises, sources, and inherited component notes remain in the non-spoken companion.
 
 ## Listening routes
 
@@ -13,6 +13,7 @@ The current pack contains **45 lecture manuscripts**. Short concept chapters hav
 - **Differential Equations · Boundary-Value Problems, Heat and Wave Modes from Scratch** (Foundation bridge): `067000`, `068000`, `069000`, `070000`.
 - **Differential Equations · Conservation Laws and Numerical Transport from Scratch** (Foundation bridge): `075000`, `076000`, `077000`, `078000`.
 - **Differential Equations · Fourier Transforms and Numerical Spatial Discretization** (Foundation bridge): `071000`, `072000`, `073000`, `074000`.
+- **Differential Equations · Sampling, Discrete Fourier Transform and FFT from Scratch** (Foundation bridge): `079000`, `080000`, `081000`, `082000`.
 - **Differential Equations · Numerical Time Stepping from Scratch** (Foundation bridge): `063000`, `064000`, `065000`, `066000`.
 - **Differential Equations · Linear Systems and Phase Portraits from Scratch** (Foundation bridge): `059000`, `060000`, `061000`, `062000`.
 - **Differential Equations · Fourier Series and Periodic Forcing from Scratch** (Foundation bridge): `051000`, `052000`, `053000`, `054000`.
@@ -75,6 +76,10 @@ Durations are measured from the current spoken text at 145 words per minute, bef
 | `076000` | [Upwind Steps and the CFL Limit: Following Information Across a Grid](076000-upwind-steps-and-the-cfl-limit.md) | 15.0 |
 | `077000` | [Why Upwind Smears a Sharp Front: Numerical Diffusion and Accuracy](077000-why-upwind-smears-a-sharp-front.md) | 14.6 |
 | `078000` | [Conservation One Cell at a Time: Finite-Volume Methods from Scratch](078000-conservation-one-cell-at-a-time.md) | 16.4 |
+| `079000` | [When Samples Masquerade as Other Frequencies: Sampling and Aliasing](079000-when-samples-masquerade-as-other-frequencies.md) | 12.4 |
+| `080000` | [A Fourier Transform You Can Calculate by Hand: The Discrete Fourier Transform](080000-a-fourier-transform-you-can-calculate-by-hand.md) | 13.5 |
+| `081000` | [Reading a Spectrum without Being Fooled: Phase, Leakage, and Windows](081000-reading-a-spectrum-without-being-fooled.md) | 13.8 |
+| `082000` | [How the FFT Works and Why PDEs Use It: Fast Transforms from First Principles](082000-how-the-fft-works-and-why-pdes-use-it.md) | 16.0 |
 
 ## Foundation-first continuation
 
@@ -117,3 +122,8 @@ The `071000`–`074000` route derives the continuous-frequency transform as a lo
 ## Conservation laws and numerical transport foundation bridge
 
 The `075000`–`078000` route derives transport from characteristics and integral conservation, constructs the donor-cell update with a precise CFL condition, quantifies numerical diffusion by a modified equation, compares Lax–Wendroff and monotone upwind methods on a sharp pulse, and builds finite-volume flux balances with a fully worked five-cell inlet example. Smooth-wave and discontinuous-data accuracy are distinguished; shock theory remains a preview rather than a prerequisite. Earlier 41 manuscripts and their metadata are unchanged.
+
+
+## Sampling, DFT and FFT foundation bridge
+
+The `079000`–`082000` route supplies a concrete sequence from an eight-samples-per-second aliasing calculation, through an exact four-point DFT and its inverse, to spectrum interpretation with phase/window/leakage distinctions and a radix-two FFT derivation. The final lecture diagonalizes a four-cell periodic heat equation and recovers its stability limit. Sampling theorem hypotheses, amplitude normalization, and periodic versus nonperiodic boundary conditions are made explicit. This route connects the Fourier series, continuous Fourier transform, and numerical PDE introductions. All 45 earlier manuscripts and per-lecture metadata are preserved.

@@ -28,9 +28,9 @@ transcript:
       composition_record: metadata/021000.json
     - lecture: '024000'
       composition_record: metadata/024000.json
-    scope: Consolidate reviewed source parts into single lecture manuscripts. Original
-      text and source attribution are retained in component records and Git history;
-      this revision does not claim original authorship of inherited prose.
+    scope: Consolidate reviewed source parts into single lecture manuscripts. Original text
+      and source attribution are retained in component records and Git history; this revision
+      does not claim original authorship of inherited prose.
   - date: '2026-11-16'
     models:
     - GPT-6 (exact variant unavailable)
@@ -43,9 +43,9 @@ transcript:
       composition_record: metadata/018000.json
     - lecture: 019000
       composition_record: metadata/019000.json
-    scope: Consolidate reviewed source parts into single lecture manuscripts. Original
-      text and source attribution are retained in component records and Git history;
-      this revision does not claim original authorship of inherited prose.
+    scope: Consolidate reviewed source parts into single lecture manuscripts. Original text
+      and source attribution are retained in component records and Git history; this revision
+      does not claim original authorship of inherited prose.
   - date: '2026-11-16'
     models:
     - GPT-6 (exact variant unavailable)
@@ -53,24 +53,24 @@ transcript:
     - track.json
     - navigation.json
     - Inherited source arguments and companions retained by consolidation metadata.
-    scope: Review consolidated narration boundaries, correct stale lecture pointers
-      and overbroad composite titles, add targeted conceptual bridges, and refresh
-      the current manuscript/route inventory. Preserve mathematical arguments and
-      hypotheses; no original authorship is claimed for inherited prose.
+    scope: Review consolidated narration boundaries, correct stale lecture pointers and overbroad
+      composite titles, add targeted conceptual bridges, and refresh the current manuscript/route
+      inventory. Preserve mathematical arguments and hypotheses; no original authorship is claimed
+      for inherited prose.
   - date: '2026-11-17'
     models:
     - GPT-6
     sources:
     - lecture: '047000'
       composition_record: metadata/047000.json
-    - lecture: '048000'
+    - lecture: 048000
       composition_record: metadata/048000.json
-    - lecture: '049000'
+    - lecture: 049000
       composition_record: metadata/049000.json
     - lecture: '050000'
       composition_record: metadata/050000.json
-    scope: Add four original foundation-first ODE lectures with worked mathematics,
-      source references and readiness checks. Preserve all 13 inherited manuscripts.
+    scope: Add four original foundation-first ODE lectures with worked mathematics, source references
+      and readiness checks. Preserve all 13 inherited manuscripts.
   - date: '2026-11-17'
     models:
     - GPT-6
@@ -83,9 +83,9 @@ transcript:
       composition_record: metadata/053000.json
     - lecture: '054000'
       composition_record: metadata/054000.json
-    scope: Add four original foundation-first Fourier and periodic-forcing lectures with
-      worked harmonic calculations, convergence hypotheses and source records.
-      Preserve the previous 17 manuscripts and existing routes.
+    scope: Add four original foundation-first Fourier and periodic-forcing lectures with worked
+      harmonic calculations, convergence hypotheses and source records. Preserve the previous
+      17 manuscripts and existing routes.
   - date: '2026-11-17'
     models:
     - GPT-6
@@ -96,16 +96,16 @@ transcript:
       composition_record: metadata/056000.json
     - lecture: '057000'
       composition_record: metadata/057000.json
-    - lecture: '058000'
+    - lecture: 058000
       composition_record: metadata/058000.json
-    scope: Add four original foundation-first Laplace transform lectures with integral
-      derivations, worked IVPs, stepped and impulse forcing, convolution, source records
-      and a standalone listening route. Preserve the earlier 21 manuscript texts.
+    scope: Add four original foundation-first Laplace transform lectures with integral derivations,
+      worked IVPs, stepped and impulse forcing, convolution, source records and a standalone
+      listening route. Preserve the earlier 21 manuscript texts.
   - date: '2026-11-17'
     models:
     - GPT-6
     sources:
-    - lecture: '059000'
+    - lecture: 059000
       composition_record: metadata/059000.json
     - lecture: '060000'
       composition_record: metadata/060000.json
@@ -113,9 +113,9 @@ transcript:
       composition_record: metadata/061000.json
     - lecture: '062000'
       composition_record: metadata/062000.json
-    scope: Add four original two-dimensional linear ODE system lectures,
-      with eigenvector, phase-portrait, complex-mode, and matrix-exponential
-      examples and mathematical companions. Preserve all earlier manuscripts.
+    scope: Add four original two-dimensional linear ODE system lectures, with eigenvector, phase-portrait,
+      complex-mode, and matrix-exponential examples and mathematical companions. Preserve all
+      earlier manuscripts.
   - date: '2026-11-17'
     models:
     - GPT-6
@@ -128,24 +128,24 @@ transcript:
       composition_record: metadata/065000.json
     - lecture: '066000'
       composition_record: metadata/066000.json
-    scope: Add four original numerical time-stepping foundation manuscripts, mathematical
-      companions, bibliographic records, and a listening route. Preserve the prior
-      29 lecture manuscripts and pre-existing listening collections.
+    scope: Add four original numerical time-stepping foundation manuscripts, mathematical companions,
+      bibliographic records, and a listening route. Preserve the prior 29 lecture manuscripts
+      and pre-existing listening collections.
   - date: '2026-11-17'
     models:
     - GPT-6
     sources:
     - lecture: '067000'
       composition_record: metadata/067000.json
-    - lecture: '068000'
+    - lecture: 068000
       composition_record: metadata/068000.json
-    - lecture: '069000'
+    - lecture: 069000
       composition_record: metadata/069000.json
     - lecture: '070000'
       composition_record: metadata/070000.json
-    scope: Add four original boundary-value, Sturm-Liouville, heat, and wave
-      foundation-first lecture manuscripts with derivations, exercises and
-      source records. Preserve the earlier 33 manuscripts and routes.
+    scope: Add four original boundary-value, Sturm-Liouville, heat, and wave foundation-first
+      lecture manuscripts with derivations, exercises and source records. Preserve the earlier
+      33 manuscripts and routes.
   - date: '2026-11-17'
     models:
     - GPT-6
@@ -158,10 +158,10 @@ transcript:
       composition_record: metadata/073000.json
     - lecture: '074000'
       composition_record: metadata/074000.json
-    scope: Add four original Fourier-transform and method-of-lines foundational lectures
-      with explicit transform conventions, worked Gaussian and grid computations,
-      numerical stability qualifications and mathematical companions. Preserve
-      all earlier 37 lecture manuscripts and their per-lecture metadata.
+    scope: Add four original Fourier-transform and method-of-lines foundational lectures with
+      explicit transform conventions, worked Gaussian and grid computations, numerical stability
+      qualifications and mathematical companions. Preserve all earlier 37 lecture manuscripts
+      and their per-lecture metadata.
   - date: '2026-11-17'
     models:
     - GPT-6
@@ -172,10 +172,24 @@ transcript:
       composition_record: metadata/076000.json
     - lecture: '077000'
       composition_record: metadata/077000.json
-    - lecture: '078000'
+    - lecture: 078000
       composition_record: metadata/078000.json
-    scope: Add four original conservation-law and numerical-transport foundations,
-      from characteristics and CFL to artificial diffusion and finite-volume
-      flux accounting; include exact mathematical companions, verified examples,
-      source records and new listening route. Preserve all 41 earlier lecture
-      manuscripts and their metadata.
+    scope: Add four original conservation-law and numerical-transport foundations, from characteristics
+      and CFL to artificial diffusion and finite-volume flux accounting; include exact mathematical
+      companions, verified examples, source records and new listening route. Preserve all 41
+      earlier lecture manuscripts and their metadata.
+  - date: '2026-11-17'
+    models:
+    - GPT-6
+    sources:
+    - lecture: 079000
+      composition_record: metadata/079000.json
+    - lecture: 080000
+      composition_record: metadata/080000.json
+    - lecture: 081000
+      composition_record: metadata/081000.json
+    - lecture: 082000
+      composition_record: metadata/082000.json
+    scope: Add four foundation-first lectures on physical sampling, DFT orthogonality and inversion,
+      spectral leakage, and radix-two FFT with a periodic heat-equation example; preserve the
+      earlier 45 manuscripts and metadata.

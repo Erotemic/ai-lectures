@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "lecture_id": "079000",
+  "transcript": "079000-when-samples-masquerade-as-other-frequencies.md",
+  "related_resources": [
+    {
+      "source_id": "de-mit-sampling",
+      "reason": "Sampling theorem, bandlimit assumptions, aliasing and reconstruction."
+    },
+    {
+      "source_id": "de-mit-dsp-dft",
+      "reason": "Digital-frequency aliases and sinusoidal samples."
+    },
+    {
+      "source_id": "de-numpy-fft",
+      "reason": "Physical frequency labels and sample spacing."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-17",
+    "scope": "Original foundation-first sampling, discrete Fourier transform, spectral interpretation and FFT/PDE lecture, with mathematical companion; the 45 inherited manuscripts remain unchanged."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "differential-equations:051000",
+        "reason": "Fourier frequencies and sine/cosine harmonics."
+      }
+    ],
+    "recommended": [],
+    "background": [
+      "Elementary trigonometry, periodic signals, fractions, and basic Fourier vocabulary."
+    ],
+    "readiness_checks": [
+      "Show explicitly why 1 Hz and 9 Hz give the same samples at 8 samples per second.",
+      "Distinguish Nyquist frequency from inverse-record-length bin spacing.",
+      "Explain why anti-alias filtering must occur before inadequate sampling."
+    ]
+  }
+}

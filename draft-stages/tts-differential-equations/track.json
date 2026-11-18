@@ -15,6 +15,7 @@
     "nonlinear-phase-planes",
     "boundary-values-fourier-modes",
     "fourier-transforms-and-method-of-lines",
+    "sampling-discrete-fourier",
     "conservation-numerical-transport",
     "transport-diffusion-pdes",
     "poincare-floquet",
@@ -811,6 +812,79 @@
         "Boundary flux",
         "Numerical transport",
         "PDE"
+      ]
+    },
+    {
+      "id": "079000",
+      "title": "When Samples Masquerade as Other Frequencies: Sampling and Aliasing",
+      "section": "sampling-discrete-fourier",
+      "file": "079000-when-samples-masquerade-as-other-frequencies.md",
+      "spoken_words": 1797,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 12.4,
+      "tags": [
+        "Sampling",
+        "Aliasing",
+        "Nyquist frequency",
+        "Sample rate",
+        "Bandlimited signals",
+        "Sinc reconstruction",
+        "Antialias filtering"
+      ]
+    },
+    {
+      "id": "080000",
+      "title": "A Fourier Transform You Can Calculate by Hand: The Discrete Fourier Transform",
+      "section": "sampling-discrete-fourier",
+      "file": "080000-a-fourier-transform-you-can-calculate-by-hand.md",
+      "spoken_words": 1953,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 13.5,
+      "tags": [
+        "Discrete Fourier transform",
+        "DFT",
+        "Discrete orthogonality",
+        "Inverse transform",
+        "Complex exponentials",
+        "Parseval identity",
+        "Fourier bins"
+      ]
+    },
+    {
+      "id": "081000",
+      "title": "Reading a Spectrum without Being Fooled: Phase, Leakage, and Windows",
+      "section": "sampling-discrete-fourier",
+      "file": "081000-reading-a-spectrum-without-being-fooled.md",
+      "spoken_words": 1998,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 13.8,
+      "tags": [
+        "Spectral leakage",
+        "Window functions",
+        "Phase",
+        "Frequency resolution",
+        "Zero padding",
+        "Circular convolution",
+        "FFT amplitude scaling"
+      ]
+    },
+    {
+      "id": "082000",
+      "title": "How the FFT Works and Why PDEs Use It: Fast Transforms from First Principles",
+      "section": "sampling-discrete-fourier",
+      "file": "082000-how-the-fft-works-and-why-pdes-use-it.md",
+      "spoken_words": 2325,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 16.0,
+      "tags": [
+        "Fast Fourier transform",
+        "FFT",
+        "Cooley-Tukey",
+        "Radix-two butterfly",
+        "Computational complexity",
+        "Discrete Laplacian",
+        "Numerical heat equation",
+        "Spectral methods"
       ]
     }
   ],

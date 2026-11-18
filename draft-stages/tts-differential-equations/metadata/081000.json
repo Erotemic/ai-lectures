@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "lecture_id": "081000",
+  "transcript": "081000-reading-a-spectrum-without-being-fooled.md",
+  "related_resources": [
+    {
+      "source_id": "de-numpy-fft",
+      "reason": "Amplitudes, phase, one-sided real FFT and frequency bins."
+    },
+    {
+      "source_id": "de-numpy-rfftfreq",
+      "reason": "Real-input frequency grid and Nyquist convention."
+    },
+    {
+      "source_id": "de-fftw-dft",
+      "reason": "Convolution interpretation and unnormalized coefficient conventions."
+    },
+    {
+      "source_id": "de-mit-dsp-dft",
+      "reason": "Discrete-frequency analysis and aliasing."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-17",
+    "scope": "Original foundation-first sampling, discrete Fourier transform, spectral interpretation and FFT/PDE lecture, with mathematical companion; the 45 inherited manuscripts remain unchanged."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "differential-equations:080000",
+        "reason": "DFT and inverse, phase, conjugate symmetry."
+      },
+      {
+        "lecture_id": "differential-equations:079000",
+        "reason": "Sampling and aliasing."
+      }
+    ],
+    "recommended": [],
+    "background": [
+      "Fourier frequencies, real and complex arithmetic at the level of sine and cosine, and finite arrays."
+    ],
+    "readiness_checks": [
+      "Reconstruct the eight-point two-hertz signal from three nonzero coefficients.",
+      "Separate aliasing from leakage and explain what a Hann window changes.",
+      "Explain circular convolution and the padding needed for linear convolution."
+    ]
+  }
+}

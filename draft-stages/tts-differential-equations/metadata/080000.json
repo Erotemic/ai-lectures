@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "lecture_id": "080000",
+  "transcript": "080000-a-fourier-transform-you-can-calculate-by-hand.md",
+  "related_resources": [
+    {
+      "source_id": "de-fftw-dft",
+      "reason": "Exact DFT sign, normalization and frequency-index conventions."
+    },
+    {
+      "source_id": "de-numpy-fft",
+      "reason": "DFT coefficient ordering, inverse and real-data symmetry."
+    },
+    {
+      "source_id": "de-mit-dsp-dft",
+      "reason": "From discrete data to Fourier coefficients."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-17",
+    "scope": "Original foundation-first sampling, discrete Fourier transform, spectral interpretation and FFT/PDE lecture, with mathematical companion; the 45 inherited manuscripts remain unchanged."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "differential-equations:079000",
+        "reason": "Sample rate and frequency aliases."
+      },
+      {
+        "lecture_id": "differential-equations:051000",
+        "reason": "Fourier coefficients, orthogonality and harmonic reconstruction."
+      }
+    ],
+    "recommended": [],
+    "background": [
+      "Algebra with complex numbers understood as sine-cosine pairs; arithmetic on four-element arrays."
+    ],
+    "readiness_checks": [
+      "Compute and invert the four-point DFT of (1,0,-1,0).",
+      "Explain why an N-point real cosine has conjugate frequency bins.",
+      "Verify Parseval and identify physical bin frequencies."
+    ]
+  }
+}
