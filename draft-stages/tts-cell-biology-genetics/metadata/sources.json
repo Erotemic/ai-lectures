@@ -1,0 +1,201 @@
+{
+  "schema_version": 1,
+  "sources": {
+    "cb-openstax-study": {
+      "title": "OpenStax, Biology 2e: Studying Cells",
+      "kind": "open_textbook",
+      "url": "https://openstax.org/books/biology-2e/pages/4-1-studying-cells",
+      "access": "free_no_login",
+      "notes": "Light and electron microscopy, cell theory, Hooke and van Leeuwenhoek."
+    },
+    "cb-openstax-prok": {
+      "title": "OpenStax, Biology 2e: Prokaryotic Cells",
+      "kind": "open_textbook",
+      "url": "https://openstax.org/books/biology-2e/pages/4-2-prokaryotic-cells",
+      "access": "free_no_login",
+      "notes": "Size, surface-to-volume constraints and common cellular structures."
+    },
+    "cb-openstax-euk": {
+      "title": "OpenStax, Biology 2e: Eukaryotic Cells",
+      "kind": "open_textbook",
+      "url": "https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells",
+      "access": "free_no_login",
+      "notes": "Eukaryotic organelles and cellular compartmentalization."
+    },
+    "cb-alberts-genomes": {
+      "title": "Alberts et al., Molecular Biology of the Cell: Cells and Genomes (4th ed.)",
+      "kind": "open_reference",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK21077/",
+      "access": "free_no_login",
+      "notes": "Shared molecular machinery, major cellular lineages and genome organization."
+    },
+    "cb-alberts-membrane": {
+      "title": "Alberts et al., Molecular Biology of the Cell: Membrane Structure (4th ed.)",
+      "kind": "open_reference",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK21055/",
+      "access": "free_no_login",
+      "notes": "Membrane boundaries and internal chemical compartments."
+    },
+    "cb-alberts-endosymb": {
+      "title": "Alberts et al., Molecular Biology of the Cell: Genetic Systems of Mitochondria and Plastids (4th ed.)",
+      "kind": "open_reference",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK26924/",
+      "access": "free_no_login",
+      "notes": "Organelle ancestry, genetic systems and dependence on nuclear genes."
+    },
+    "cb-openstax-membrane": {
+      "title": "OpenStax, Biology 2e: Membrane Components and Structure",
+      "kind": "open_textbook",
+      "url": "https://openstax.org/books/biology-2e/pages/5-1-components-and-structure",
+      "access": "free_no_login",
+      "notes": "Phospholipids, membrane asymmetry and protein functions."
+    },
+    "cb-openstax-passive": {
+      "title": "OpenStax, Biology 2e: Passive Transport",
+      "kind": "open_textbook",
+      "url": "https://openstax.org/books/biology-2e/pages/5-2-passive-transport",
+      "access": "free_no_login",
+      "notes": "Diffusion, osmosis, tonicity and facilitated movement."
+    },
+    "cb-openstax-active": {
+      "title": "OpenStax, Biology 2e: Active Transport",
+      "kind": "open_textbook",
+      "url": "https://openstax.org/books/biology-2e/pages/5-3-active-transport",
+      "access": "free_no_login",
+      "notes": "Ion electrochemical gradients, sodium-potassium pump and coupling."
+    },
+    "cb-openstax-oxidative": {
+      "title": "OpenStax, Biology 2e: Oxidative Phosphorylation",
+      "kind": "open_textbook",
+      "url": "https://openstax.org/books/biology-2e/pages/7-4-oxidative-phosphorylation",
+      "access": "free_no_login",
+      "notes": "Electron transfer, proton gradient and ATP synthase."
+    },
+    "cb-mitchell-nobel": {
+      "title": "NobelPrize.org, Chemistry 1978 and Peter Mitchell chemiosmotic theory",
+      "kind": "institutional_history",
+      "url": "https://www.nobelprize.org/prizes/themes/the-nobel-prize-in-chemistry-the-development-of-modern-chemistry/",
+      "access": "free_no_login",
+      "notes": "Historical attribution of chemiosmotic theory to Peter Mitchell."
+    },
+    "cb-openstax-code": {
+      "title": "OpenStax, Biology 2e: The Genetic Code",
+      "kind": "open_textbook",
+      "url": "https://openstax.org/books/biology-2e/pages/15-1-the-genetic-code",
+      "access": "free_no_login",
+      "notes": "Codons, tRNAs, start and stop signals, frameshifts."
+    },
+    "cb-openstax-rnaprocess": {
+      "title": "OpenStax, Biology 2e: RNA Processing in Eukaryotes",
+      "kind": "open_textbook",
+      "url": "https://openstax.org/books/biology-2e/pages/15-4-rna-processing-in-eukaryotes",
+      "access": "free_no_login",
+      "notes": "RNA splicing, processing and transcript maturation."
+    },
+    "cb-openstax-regulation": {
+      "title": "OpenStax, Biology 2e: Regulation of Gene Expression",
+      "kind": "open_textbook",
+      "url": "https://openstax.org/books/biology-2e/pages/16-1-regulation-of-gene-expression",
+      "access": "free_no_login",
+      "notes": "Eukaryotic and prokaryotic regulatory layers."
+    },
+    "cb-openstax-lac": {
+      "title": "OpenStax, Biology 2e: Prokaryotic Gene Regulation",
+      "kind": "open_textbook",
+      "url": "https://openstax.org/books/biology-2e/pages/16-2-prokaryotic-gene-regulation",
+      "access": "free_no_login",
+      "notes": "lac operon, repressor, allolactose and CAP-cAMP."
+    },
+    "cb-nobel-jacobmonod": {
+      "title": "NobelPrize.org, 1965 Physiology or Medicine award to Jacob, Lwoff, and Monod",
+      "kind": "institutional_history",
+      "url": "https://www.nobelprize.org/prizes/lists/all-nobel-prizes/all/",
+      "access": "free_no_login",
+      "notes": "Attribution of discoveries about genetic control."
+    },
+    "cb-alberts-genetic": {
+      "title": "Alberts et al., Molecular Biology of the Cell: Basic Genetic Mechanisms (4th ed.)",
+      "kind": "open_reference",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK21071/",
+      "access": "free_no_login",
+      "notes": "DNA, genes, transcription, translation, gene regulation."
+    },
+    "cb-openstax-replication": {
+      "title": "OpenStax, Biology 2e: Basics of DNA Replication",
+      "kind": "open_textbook",
+      "url": "https://openstax.org/books/biology-2e/pages/14-3-basics-of-dna-replication",
+      "access": "free_no_login",
+      "notes": "Semiconservative copying and Meselson-Stahl isotope experiment."
+    },
+    "cb-openstax-eukrep": {
+      "title": "OpenStax, Biology 2e: DNA Replication in Eukaryotes",
+      "kind": "open_textbook",
+      "url": "https://openstax.org/books/biology-2e/pages/14-5-dna-replication-in-eukaryotes",
+      "access": "free_no_login",
+      "notes": "Polymerases, origins, lagging-strand synthesis and chromatin."
+    },
+    "cb-openstax-repair": {
+      "title": "OpenStax, Biology 2e: DNA Repair",
+      "kind": "open_textbook",
+      "url": "https://openstax.org/books/biology-2e/pages/14-6-dna-repair",
+      "access": "free_no_login",
+      "notes": "Proofreading, mismatch repair and damage."
+    },
+    "cb-openstax-cycle": {
+      "title": "OpenStax, Biology 2e: The Cell Cycle",
+      "kind": "open_textbook",
+      "url": "https://openstax.org/books/biology-2e/pages/10-2-the-cell-cycle",
+      "access": "free_no_login",
+      "notes": "S phase, mitosis, cytokinesis and G0."
+    },
+    "cb-openstax-checkpoints": {
+      "title": "OpenStax, Biology 2e: Control of the Cell Cycle",
+      "kind": "open_textbook",
+      "url": "https://openstax.org/books/biology-2e/pages/10-3-control-of-the-cell-cycle",
+      "access": "free_no_login",
+      "notes": "Cell-cycle checkpoints and spindle mechanisms."
+    },
+    "cb-openstax-meiosis": {
+      "title": "OpenStax, Biology 2e: The Process of Meiosis",
+      "kind": "open_textbook",
+      "url": "https://openstax.org/books/biology-2e/pages/11-1-the-process-of-meiosis",
+      "access": "free_no_login",
+      "notes": "Homolog separation, recombination and sister chromatid separation."
+    },
+    "cb-openstax-mendel": {
+      "title": "OpenStax, Biology 2e: Mendel’s Experiments and the Laws of Probability",
+      "kind": "open_textbook",
+      "url": "https://openstax.org/books/biology-2e/pages/12-1-mendels-experiments-and-the-laws-of-probability",
+      "access": "free_no_login",
+      "notes": "Pea experiments and basic allele probabilities."
+    },
+    "cb-singer1972": {
+      "title": "Singer and Nicolson, The Fluid Mosaic Model of the Structure of Cell Membranes (1972)",
+      "kind": "primary_research",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/4333397/",
+      "access": "free_no_login",
+      "notes": "Original fluid-mosaic membrane model and physical basis."
+    },
+    "cb-jacobmonod1961": {
+      "title": "Jacob and Monod, Genetic Regulatory Mechanisms in the Synthesis of Proteins (1961)",
+      "kind": "primary_research",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/13718526/",
+      "access": "free_no_login",
+      "notes": "Foundational operon and gene-regulation paper."
+    },
+    "cb-meselson1958": {
+      "title": "Meselson and Stahl, The Replication of DNA in Escherichia coli (1958)",
+      "kind": "primary_research",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC528642/",
+      "access": "free_no_login",
+      "notes": "Original nitrogen-isotope labeling experiment for semiconservative DNA replication."
+    },
+    "cb-openstax-linkage": {
+      "title": "OpenStax, Biology 2e: Laws of Inheritance",
+      "kind": "open_textbook",
+      "url": "https://openstax.org/books/biology-2e/pages/12-3-laws-of-inheritance",
+      "access": "free_no_login",
+      "notes": "Segregation, dominance, linkage, recombination and probability."
+    }
+  }
+}

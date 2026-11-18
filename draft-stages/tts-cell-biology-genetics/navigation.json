@@ -1,0 +1,70 @@
+{
+  "default_collection": "cell-biology-genetics-guided",
+  "collections": [
+    {
+      "id": "cell-biology-genetics-guided",
+      "title": "Cell Biology and Genetics — Guided Foundations",
+      "role": "main",
+      "categories": [
+        "Science and nature"
+      ],
+      "audiences": [
+        "general",
+        "science enthusiasts"
+      ],
+      "summary": "Four complete standalone foundational lectures, in a progression from cell architecture to energy, gene expression and inheritance. This is the first published installment of the series.",
+      "chapters": [
+        {
+          "title": "A Cell Is an Organized System, Not a Tiny Bag",
+          "lectures": [
+            "001000"
+          ]
+        },
+        {
+          "title": "How Membranes Make Energy Useful",
+          "lectures": [
+            "002000"
+          ]
+        },
+        {
+          "title": "How a Cell Reads Its Genome Without Following a Blueprint",
+          "lectures": [
+            "003000"
+          ]
+        },
+        {
+          "title": "The Problem of Making Another Cell: Copying, Division, and Inheritance",
+          "lectures": [
+            "004000"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cell-biology-genetics-genetics-first",
+      "title": "Genetics First — Gene Expression and Inheritance",
+      "role": "topic_collection",
+      "categories": [
+        "Science and nature"
+      ],
+      "audiences": [
+        "biology learners"
+      ],
+      "summary": "Begin with how the genome is read, then learn how it is copied, sorted, and inherited. A shorter entry path for listeners already familiar with cells and membranes.",
+      "chapters": [
+        {
+          "title": "How a Cell Reads Its Genome Without Following a Blueprint",
+          "lectures": [
+            "003000"
+          ]
+        },
+        {
+          "title": "The Problem of Making Another Cell: Copying, Division, and Inheritance",
+          "lectures": [
+            "004000"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "schema_version": 1,
+  "lecture_id": "004000",
+  "transcript": "004000-the-problem-of-making-another-cell.md",
+  "related_resources": [
+    {
+      "source_id": "cb-meselson1958",
+      "reason": "Original nitrogen-isotope labeling experiment for semiconservative DNA replication."
+    },
+    {
+      "source_id": "cb-openstax-checkpoints",
+      "reason": "Cell-cycle checkpoints and spindle mechanisms."
+    },
+    {
+      "source_id": "cb-openstax-cycle",
+      "reason": "S phase, mitosis, cytokinesis and G0."
+    },
+    {
+      "source_id": "cb-openstax-eukrep",
+      "reason": "Polymerases, origins, lagging-strand synthesis and chromatin."
+    },
+    {
+      "source_id": "cb-openstax-linkage",
+      "reason": "Segregation, dominance, linkage, recombination and probability."
+    },
+    {
+      "source_id": "cb-openstax-meiosis",
+      "reason": "Homolog separation, recombination and sister chromatid separation."
+    },
+    {
+      "source_id": "cb-openstax-mendel",
+      "reason": "Pea experiments and basic allele probabilities."
+    },
+    {
+      "source_id": "cb-openstax-repair",
+      "reason": "Proofreading, mismatch repair and damage."
+    },
+    {
+      "source_id": "cb-openstax-replication",
+      "reason": "Semiconservative copying and Meselson-Stahl isotope experiment."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "004000-e01",
+      "anchor": "DNA replication copies genetic material. Chromosome segregation moves copies into different destinations.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-openstax-replication",
+        "cb-openstax-cycle"
+      ],
+      "source_locator": "Distinct copying vs segregation processes",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "004000-e02",
+      "anchor": "This suggests a model called semiconservative replication: each resulting double helix contains one parental strand and one newly synthesized strand.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-openstax-replication"
+      ],
+      "source_locator": "DNA semiconservative replication",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "004000-e03",
+      "anchor": "In 1958, Matthew Meselson and Franklin Stahl performed an experiment that made those alternatives distinguishable.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-openstax-replication",
+        "cb-meselson1958"
+      ],
+      "source_locator": "Meselson-Stahl 1958 original paper",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "004000-e04",
+      "anchor": "After a second generation, they observed both a light band and an intermediate band.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-openstax-replication",
+        "cb-meselson1958"
+      ],
+      "source_locator": "Meselson-Stahl density prediction",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "004000-e05",
+      "anchor": "new DNA grows in the five-prime-to-three-prime direction.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-openstax-eukrep"
+      ],
+      "source_locator": "Direction of DNA synthesis",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "004000-e06",
+      "anchor": "Copying is accurate but not flawless.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-openstax-repair"
+      ],
+      "source_locator": "Proofreading and repair",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "004000-e07",
+      "anchor": "A typical human diploid somatic cell contains forty-six chromosomes, organized into twenty-three pairs of homologues, before DNA replication.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-openstax-cycle"
+      ],
+      "source_locator": "Diploid chromosome counting",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "004000-e08",
+      "anchor": "A surveillance mechanism called the spindle assembly checkpoint helps delay separation when attachment requirements are not satisfied.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-openstax-checkpoints"
+      ],
+      "source_locator": "Spindle checkpoint",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "004000-e09",
+      "anchor": "During meiosis one, homologous chromosomes pair and are separated from one another.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-openstax-meiosis"
+      ],
+      "source_locator": "Meiosis I",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "004000-e10",
+      "anchor": "Gregor Mendel could not see DNA molecules or meiotic spindles.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-openstax-mendel"
+      ],
+      "source_locator": "Mendelian historical context",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "004000-e11",
+      "anchor": "the genotypes A A, A a, and a a have expected proportions one quarter, one half, and one quarter.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-openstax-mendel"
+      ],
+      "source_locator": "Single-locus Mendelian probability",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "004000-e12",
+      "anchor": "If they lie on the same chromosome, they can be linked and inherited together more often than expected under independence.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-openstax-linkage"
+      ],
+      "source_locator": "Genetic linkage",
+      "audit_status": "source_checked"
+    }
+  ]
+}

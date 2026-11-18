@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "lecture_id": "001000",
+  "transcript": "001000-a-cell-is-an-organized-system.md",
+  "related_resources": [
+    {
+      "source_id": "cb-alberts-endosymb",
+      "reason": "Organelle ancestry, genetic systems and dependence on nuclear genes."
+    },
+    {
+      "source_id": "cb-alberts-genomes",
+      "reason": "Shared molecular machinery, major cellular lineages and genome organization."
+    },
+    {
+      "source_id": "cb-openstax-euk",
+      "reason": "Eukaryotic organelles and cellular compartmentalization."
+    },
+    {
+      "source_id": "cb-openstax-prok",
+      "reason": "Size, surface-to-volume constraints and common cellular structures."
+    },
+    {
+      "source_id": "cb-openstax-study",
+      "reason": "Light and electron microscopy, cell theory, Hooke and van Leeuwenhoek."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "001000-e01",
+      "anchor": "The compartments in cork were the walls of dead plant cells, not tiny living chambers full of machinery.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-openstax-study"
+      ],
+      "source_locator": "Hooke and cork",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "001000-e02",
+      "anchor": "Many familiar animal cells are ten or twenty micrometers across.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-openstax-prok"
+      ],
+      "source_locator": "Typical cellular size scale",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "001000-e03",
+      "anchor": "If its radius doubles, the available surface area grows fourfold, but its volume grows eightfold.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-openstax-prok"
+      ],
+      "source_locator": "Surface-area to volume scaling",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "001000-e04",
+      "anchor": "Every known cellular organism has a boundary membrane, genetic material, ribosomes, and chemical machinery that operates in an aqueous environment.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-openstax-prok",
+        "cb-alberts-genomes"
+      ],
+      "source_locator": "Shared cellular features",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "001000-e05",
+      "anchor": "Eukaryotes include animals, plants, fungi, and many single-celled organisms that never became trees or people.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-openstax-euk"
+      ],
+      "source_locator": "Eukaryotic diversity",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "001000-e06",
+      "anchor": "The endoplasmic reticulum helps make membrane proteins and lipids, while the Golgi system modifies and routes many molecules.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-openstax-euk"
+      ],
+      "source_locator": "Organelle functions",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "001000-e07",
+      "anchor": "The leading explanation is that the ancestors of mitochondria were bacteria incorporated into another cell early in eukaryotic evolution.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-alberts-endosymb"
+      ],
+      "source_locator": "Endosymbiotic ancestry",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "001000-e08",
+      "anchor": "Plastids such as chloroplasts have their own history of descent from cyanobacteria",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-alberts-endosymb"
+      ],
+      "source_locator": "Plastid origins",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "001000-e09",
+      "anchor": "Electron microscopy reveals much smaller structures, but it often examines prepared samples whose live dynamics are no longer occurring.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-openstax-study"
+      ],
+      "source_locator": "Microscopy limits",
+      "audit_status": "source_checked"
+    }
+  ]
+}

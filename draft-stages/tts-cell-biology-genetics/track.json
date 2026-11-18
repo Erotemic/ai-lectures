@@ -1,0 +1,112 @@
+{
+  "id": "cell-biology-genetics",
+  "title": "Cell Biology and Genetics: How Living Information Works",
+  "summary": "An audio-first foundational biology track following living cells from membranes, organelles and metabolism into gene expression, chromosome inheritance, regulation and developmental mechanisms. Explanations emphasize what the molecular machinery does, how experiments establish it, and where simplified analogies fail.",
+  "assumed_background": [
+    "Basic familiarity with atoms, molecules, water and energy; elementary probability introduced where needed",
+    "No prior cell biology or genetics required"
+  ],
+  "sections": [
+    "cell_structure",
+    "membranes_energy",
+    "gene_expression",
+    "cell_division_inheritance"
+  ],
+  "categories": [
+    "Science and nature"
+  ],
+  "audiences": [
+    "general",
+    "science enthusiasts",
+    "biology learners"
+  ],
+  "tags": [
+    "Biology",
+    "Cell biology",
+    "Genetics",
+    "Molecular biology",
+    "Biochemistry",
+    "DNA",
+    "Inheritance",
+    "Cell membranes",
+    "Gene expression",
+    "Meiosis"
+  ],
+  "editorial_status": "in_progress",
+  "lectures": [
+    {
+      "id": "001000",
+      "title": "A Cell Is an Organized System, Not a Tiny Bag",
+      "section": "cell_structure",
+      "file": "001000-a-cell-is-an-organized-system.md",
+      "spoken_words": 2273,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 15.7,
+      "tags": [
+        "Cell biology",
+        "Microscopy",
+        "Prokaryotes",
+        "Eukaryotes",
+        "Organelles",
+        "Endosymbiosis",
+        "Intracellular transport"
+      ]
+    },
+    {
+      "id": "002000",
+      "title": "How Membranes Make Energy Useful",
+      "section": "membranes_energy",
+      "file": "002000-how-membranes-make-energy-useful.md",
+      "spoken_words": 2159,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 14.9,
+      "tags": [
+        "Membrane biology",
+        "Osmosis",
+        "Active transport",
+        "Electrochemical gradients",
+        "ATP",
+        "Oxidative phosphorylation",
+        "Chemiosmosis"
+      ]
+    },
+    {
+      "id": "003000",
+      "title": "How a Cell Reads Its Genome Without Following a Blueprint",
+      "section": "gene_expression",
+      "file": "003000-how-a-cell-reads-its-genome.md",
+      "spoken_words": 2283,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 15.7,
+      "tags": [
+        "Genetics",
+        "DNA",
+        "RNA",
+        "Protein synthesis",
+        "Gene regulation",
+        "RNA splicing",
+        "Lac operon",
+        "Epigenetics"
+      ]
+    },
+    {
+      "id": "004000",
+      "title": "The Problem of Making Another Cell: Copying, Division, and Inheritance",
+      "section": "cell_division_inheritance",
+      "file": "004000-the-problem-of-making-another-cell.md",
+      "spoken_words": 2342,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 16.2,
+      "tags": [
+        "DNA replication",
+        "DNA repair",
+        "Mitosis",
+        "Meiosis",
+        "Genetic inheritance",
+        "Mendel",
+        "Chromosomes",
+        "Recombination"
+      ]
+    }
+  ]
+}

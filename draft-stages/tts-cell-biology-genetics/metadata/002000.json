@@ -1,0 +1,153 @@
+{
+  "schema_version": 1,
+  "lecture_id": "002000",
+  "transcript": "002000-how-membranes-make-energy-useful.md",
+  "related_resources": [
+    {
+      "source_id": "cb-mitchell-nobel",
+      "reason": "Historical attribution of chemiosmotic theory to Peter Mitchell."
+    },
+    {
+      "source_id": "cb-openstax-active",
+      "reason": "Ion electrochemical gradients, sodium-potassium pump and coupling."
+    },
+    {
+      "source_id": "cb-openstax-membrane",
+      "reason": "Phospholipids, membrane asymmetry and protein functions."
+    },
+    {
+      "source_id": "cb-openstax-oxidative",
+      "reason": "Electron transfer, proton gradient and ATP synthase."
+    },
+    {
+      "source_id": "cb-openstax-passive",
+      "reason": "Diffusion, osmosis, tonicity and facilitated movement."
+    },
+    {
+      "source_id": "cb-singer1972",
+      "reason": "Original fluid-mosaic membrane model and physical basis."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "002000-e01",
+      "anchor": "A bilayer can form, and a closed bilayer can enclose a volume.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-openstax-membrane"
+      ],
+      "source_locator": "Phospholipid bilayer assembly",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "002000-e02",
+      "anchor": "The fluid mosaic model captures the lateral movement of many components",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-singer1972"
+      ],
+      "source_locator": "Fluid mosaic original model",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "002000-e03",
+      "anchor": "The membrane is not a wall that keeps everything out.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-openstax-membrane"
+      ],
+      "source_locator": "Selective membrane permeability",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "002000-e04",
+      "anchor": "Water itself can move across membranes, but specialized aquaporin channels can greatly increase its rate.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-openstax-passive"
+      ],
+      "source_locator": "Aquaporins and water",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "002000-e05",
+      "anchor": "The language of hypo-, iso-, and hypertonicity describes water-driven volume behavior relative to a particular cell.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-openstax-passive"
+      ],
+      "source_locator": "Tonicity and osmosis",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "002000-e06",
+      "anchor": "A membrane may have more sodium outside but a more negative interior, creating two influences that both favor sodium entry.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-openstax-active"
+      ],
+      "source_locator": "Concentration and electrical driving forces",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "002000-e07",
+      "anchor": "The sodium-potassium pump in many animal cells typically moves three sodium ions outward and two potassium ions inward for each ATP hydrolyzed",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-openstax-active"
+      ],
+      "source_locator": "Sodium-potassium pump stoichiometry",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "002000-e08",
+      "anchor": "This is secondary active transport: the transporter itself might not consume ATP directly, but it draws on a gradient that must be replenished by some energy-consuming process.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-openstax-active"
+      ],
+      "source_locator": "Secondary active transport",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "002000-e09",
+      "anchor": "In mitochondria, an electron transport chain passes these electrons through a series of reactions that eventually reduce oxygen to water.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-openstax-oxidative"
+      ],
+      "source_locator": "Aerobic oxidative phosphorylation",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "002000-e10",
+      "anchor": "The proton gradient has stored a portion of the free energy released during electron transfer.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-openstax-oxidative"
+      ],
+      "source_locator": "Proton-motive force",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "002000-e11",
+      "anchor": "Peter Mitchell's chemiosmotic theory, advanced in the twentieth century, made proton gradients central to the explanation of ATP production.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-mitchell-nobel"
+      ],
+      "source_locator": "Mitchell and chemiosmotic hypothesis",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "002000-e12",
+      "anchor": "In plants and many algae, photosynthetic electron transfer in thylakoid membranes uses absorbed light to establish a proton gradient that supports ATP synthesis.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-mitchell-nobel"
+      ],
+      "source_locator": "Photosynthetic chemiosmosis",
+      "audit_status": "source_checked"
+    }
+  ]
+}

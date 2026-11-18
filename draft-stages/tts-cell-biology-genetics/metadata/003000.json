@@ -1,0 +1,149 @@
+{
+  "schema_version": 1,
+  "lecture_id": "003000",
+  "transcript": "003000-how-a-cell-reads-its-genome.md",
+  "related_resources": [
+    {
+      "source_id": "cb-alberts-genetic",
+      "reason": "DNA, genes, transcription, translation, gene regulation."
+    },
+    {
+      "source_id": "cb-jacobmonod1961",
+      "reason": "Foundational operon and gene-regulation paper."
+    },
+    {
+      "source_id": "cb-nobel-jacobmonod",
+      "reason": "Attribution of discoveries about genetic control."
+    },
+    {
+      "source_id": "cb-openstax-code",
+      "reason": "Codons, tRNAs, start and stop signals, frameshifts."
+    },
+    {
+      "source_id": "cb-openstax-lac",
+      "reason": "lac operon, repressor, allolactose and CAP-cAMP."
+    },
+    {
+      "source_id": "cb-openstax-regulation",
+      "reason": "Eukaryotic and prokaryotic regulatory layers."
+    },
+    {
+      "source_id": "cb-openstax-rnaprocess",
+      "reason": "RNA splicing, processing and transcript maturation."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "003000-e01",
+      "anchor": "Yet most nucleated cells in the same person's body possess essentially the same inherited genome sequence.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-openstax-regulation"
+      ],
+      "source_locator": "Shared genotype, different cell types",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "003000-e02",
+      "anchor": "A gene is often introduced as a segment of DNA that codes for a protein.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-alberts-genetic"
+      ],
+      "source_locator": "Gene definition and exceptions",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "003000-e03",
+      "anchor": "RNA uses uracil where DNA uses thymine.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-openstax-code"
+      ],
+      "source_locator": "Transcription and RNA bases",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "003000-e04",
+      "anchor": "In a bacterium, some messenger RNAs are translated while they are still being transcribed.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-openstax-regulation"
+      ],
+      "source_locator": "Prokaryotic transcription and translation",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "003000-e05",
+      "anchor": "The cell can often splice the same primary transcript in different ways",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-openstax-rnaprocess"
+      ],
+      "source_locator": "Alternative splicing",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "003000-e06",
+      "anchor": "Most of the standard genetic code uses sixty-one codons to specify twenty commonly encoded amino acids, with three standard stop codons.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-openstax-code"
+      ],
+      "source_locator": "Genetic code codons",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "003000-e07",
+      "anchor": "The lactose-derived molecule allolactose reduces that repression.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-openstax-lac"
+      ],
+      "source_locator": "Lac operon allolactose inducer",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "003000-e08",
+      "anchor": "Separately, low glucose conditions can favor the activity of a transcriptional activator through cyclic AMP and the CAP protein.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-openstax-lac"
+      ],
+      "source_locator": "Lac operon CAP-cAMP",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "003000-e09",
+      "anchor": "Researchers François Jacob, Jacques Monod, and collaborators helped establish gene regulation as a molecular problem",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-nobel-jacobmonod",
+        "cb-jacobmonod1961"
+      ],
+      "source_locator": "Jacob-Monod original research and attribution",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "003000-e10",
+      "anchor": "A transcript can be abundant because it is produced rapidly or because it is degraded slowly.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-openstax-regulation"
+      ],
+      "source_locator": "Regulation by RNA stability",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "003000-e11",
+      "anchor": "The genome is closer to a repertoire of molecular possibilities and regulatory instructions than a finished architectural drawing.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "cb-alberts-genetic",
+        "cb-openstax-regulation"
+      ],
+      "source_locator": "Genome and regulatory context synthesis",
+      "audit_status": "source_checked"
+    }
+  ]
+}
