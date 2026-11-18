@@ -175,6 +175,69 @@
       "url": "https://www.ocw.mit.edu/courses/15-450-analytics-of-finance-fall-2010/4fa033082ff5ee58722a67fe81f0dce7_MIT15_450F10_lec03.pdf",
       "access": "free_no_login",
       "notes": "Variance reduction by antithetic methods, control variates, stratification and importance sampling."
+    },
+    "pm-stat415-mle": {
+      "title": "Penn State STAT 415, Lesson 4: Maximum Likelihood Estimation (Part I)",
+      "kind": "course_material",
+      "url": "https://online.stat.psu.edu/stat415/Lesson04",
+      "access": "free_no_login",
+      "notes": "Bernoulli, Poisson, Gaussian and other worked maximum-likelihood estimators."
+    },
+    "pm-stat415-moments": {
+      "title": "Penn State STAT 415, Lesson 3: Estimation (Part II)",
+      "kind": "course_material",
+      "url": "https://online.stat.psu.edu/stat415/Lesson03",
+      "access": "free_no_login",
+      "notes": "Method of moments and Gaussian mean/variance estimation."
+    },
+    "pm-stat415-estimation": {
+      "title": "Penn State STAT 415, Lesson 2: Estimation (Part I)",
+      "kind": "course_material",
+      "url": "https://online.stat.psu.edu/stat415/Lesson02",
+      "access": "free_no_login",
+      "notes": "Point estimators, bias, variance, and mean squared error."
+    },
+    "pm-stat415-ci": {
+      "title": "Penn State STAT 415, Lesson 6: Confidence Intervals",
+      "kind": "course_material",
+      "url": "https://online.stat.psu.edu/stat415/Lesson06",
+      "access": "free_no_login",
+      "notes": "Interpretation, construction, and known-variance normal intervals."
+    },
+    "pm-efron-bootstrap": {
+      "title": "Bradley Efron (1979), Bootstrap Methods: Another Look at the Jackknife, Annals of Statistics 7(1), 1–26",
+      "kind": "original_research",
+      "url": "https://doi.org/10.1214/aos/1176344552",
+      "access": "publisher_open",
+      "notes": "Original bootstrap paper; resampling the empirical distribution to approximate sampling distributions."
+    },
+    "pm-stat415-bootstrap": {
+      "title": "Penn State STAT 415, Lesson 8: Asymptotic Distribution of MLE (Part II)",
+      "kind": "course_material",
+      "url": "https://online.stat.psu.edu/stat415/Lesson08",
+      "access": "free_no_login",
+      "notes": "Bootstrap replicates and percentile intervals."
+    },
+    "pm-stat415-tests": {
+      "title": "Penn State STAT 415, Lesson 9: Hypothesis Tests (Part I)",
+      "kind": "course_material",
+      "url": "https://online.stat.psu.edu/stat415/Lesson09",
+      "access": "free_no_login",
+      "notes": "Null and alternative hypotheses, test statistics, p-values and critical regions."
+    },
+    "pm-stat415-power": {
+      "title": "Penn State STAT 415, Lesson 10: Hypothesis Tests (Part II)",
+      "kind": "course_material",
+      "url": "https://online.stat.psu.edu/stat415/Lesson10",
+      "access": "free_no_login",
+      "notes": "Test construction and operating characteristics, including power."
+    },
+    "pm-asa-pvalue": {
+      "title": "American Statistical Association (2016), Statement on Statistical Significance and P-Values",
+      "kind": "professional_guidance",
+      "url": "https://www.amstat.org/asa/files/pdfs/P-ValueStatement.pdf",
+      "access": "free_no_login",
+      "notes": "Six principles clarifying what p-values do and do not imply."
     }
   }
 }

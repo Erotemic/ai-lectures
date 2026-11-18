@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "lecture_id": "021000",
+  "transcript": "021000-bias-variance-and-estimator-precision.md",
+  "related_resources": [
+    {
+      "source_id": "pm-stat415-estimation",
+      "reason": "Unbiasedness, bias, variance, and mean squared error."
+    },
+    {
+      "source_id": "pm-stat415-ci",
+      "reason": "Sampling coverage and the construction of intervals."
+    },
+    {
+      "source_id": "pm-stat415-mle",
+      "reason": "Definition and worked maximum-likelihood derivations."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original statistical-inference foundation lecture and non-spoken mathematical companion; earlier manuscripts preserved."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "probability-measure:017000",
+        "reason": "Elementary probability and estimation material from 017000."
+      },
+      {
+        "lecture_id": "probability-measure:020000",
+        "reason": "Elementary probability and estimation material from 020000."
+      }
+    ],
+    "recommended": [
+      {
+        "lecture_id": "probability-measure:016000",
+        "reason": "Optional related background from 016000."
+      },
+      {
+        "lecture_id": "probability-measure:006000",
+        "reason": "Optional related background from 006000."
+      }
+    ],
+    "background": [
+      "Elementary probability, fractions, logarithms and basic calculus. No measure theory, asymptotic statistics or Bayesian analysis required."
+    ],
+    "readiness_checks": [
+      "Derive the bias–variance decomposition of mean squared error.",
+      "Compare maximum-likelihood and unbiased variance estimators.",
+      "Give the repeated-sampling interpretation of a confidence interval under stated assumptions."
+    ]
+  }
+}

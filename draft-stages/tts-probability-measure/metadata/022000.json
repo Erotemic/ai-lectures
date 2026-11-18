@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "lecture_id": "022000",
+  "transcript": "022000-bootstrap-resampling-and-confidence.md",
+  "related_resources": [
+    {
+      "source_id": "pm-efron-bootstrap",
+      "reason": "Original 1979 introduction of the bootstrap and sampling-distribution approximation."
+    },
+    {
+      "source_id": "pm-stat415-bootstrap",
+      "reason": "Bootstrap replicate construction and percentile confidence intervals."
+    },
+    {
+      "source_id": "pm-stat415-ci",
+      "reason": "Sampling coverage and the construction of intervals."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "022000-h01",
+      "anchor": "The bootstrap was introduced by Bradley Efron in 1979 as a broadly reusable way to estimate sampling distributions through computation.",
+      "kind": "historical_research",
+      "source_ids": [
+        "pm-efron-bootstrap"
+      ],
+      "source_locator": "Efron (1979), title and abstract",
+      "audit_status": "reference_recorded"
+    }
+  ],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original statistical-inference foundation lecture and non-spoken mathematical companion; earlier manuscripts preserved."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "probability-measure:017000",
+        "reason": "Elementary probability and estimation material from 017000."
+      },
+      {
+        "lecture_id": "probability-measure:021000",
+        "reason": "Elementary probability and estimation material from 021000."
+      }
+    ],
+    "recommended": [
+      {
+        "lecture_id": "probability-measure:018000",
+        "reason": "Optional related background from 018000."
+      }
+    ],
+    "background": [
+      "Elementary probability, fractions, logarithms and basic calculus. No measure theory, asymptotic statistics or Bayesian analysis required."
+    ],
+    "readiness_checks": [
+      "Calculate a bootstrap standard error for a four-observation mean exactly.",
+      "Explain the distinction between bootstrap replicates and independent new experimental data.",
+      "Diagnose failure of naive bootstrap for all-success Bernoulli data and dependent observations."
+    ]
+  }
+}

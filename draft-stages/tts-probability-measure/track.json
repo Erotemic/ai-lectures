@@ -18,7 +18,8 @@
     "product-measures",
     "weak-convergence",
     "dependent-concentration",
-    "worked-probability-monte-carlo"
+    "worked-probability-monte-carlo",
+    "worked-statistical-inference"
   ],
   "lectures": [
     {
@@ -258,6 +259,79 @@
         "Importance sampling",
         "Stratified sampling",
         "Control variates"
+      ]
+    },
+    {
+      "id": "020000",
+      "title": "Likelihood: From Observed Data to Unknown Parameters",
+      "section": "worked-statistical-inference",
+      "file": "020000-likelihood-from-data-to-parameters.md",
+      "spoken_words": 1900,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 13.1,
+      "tags": [
+        "Probability",
+        "Statistical inference",
+        "Likelihood",
+        "Maximum likelihood",
+        "Bernoulli distribution",
+        "Poisson distribution",
+        "Least squares"
+      ]
+    },
+    {
+      "id": "021000",
+      "title": "Bias, Variance, and How Precise an Estimate Can Be",
+      "section": "worked-statistical-inference",
+      "file": "021000-bias-variance-and-estimator-precision.md",
+      "spoken_words": 1799,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 12.4,
+      "tags": [
+        "Probability",
+        "Statistical inference",
+        "Sampling distributions",
+        "Bias–variance tradeoff",
+        "Mean squared error",
+        "Fisher information",
+        "Confidence intervals"
+      ]
+    },
+    {
+      "id": "022000",
+      "title": "The Bootstrap: Learning About Sampling Error from One Sample",
+      "section": "worked-statistical-inference",
+      "file": "022000-bootstrap-resampling-and-confidence.md",
+      "spoken_words": 1983,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 13.7,
+      "tags": [
+        "Probability",
+        "Statistical inference",
+        "Bootstrap",
+        "Resampling",
+        "Empirical distribution",
+        "Standard error",
+        "Confidence intervals"
+      ]
+    },
+    {
+      "id": "023000",
+      "title": "Hypothesis Tests: Evidence, Error Rates, and Power",
+      "section": "worked-statistical-inference",
+      "file": "023000-hypothesis-tests-from-the-sampling-model.md",
+      "spoken_words": 2151,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 14.8,
+      "tags": [
+        "Probability",
+        "Statistical inference",
+        "Hypothesis testing",
+        "Binomial test",
+        "P-values",
+        "Statistical power",
+        "Randomization tests",
+        "Multiple comparisons"
       ]
     }
   ],

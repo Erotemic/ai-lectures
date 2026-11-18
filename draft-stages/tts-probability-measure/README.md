@@ -37,6 +37,19 @@ The 12 original manuscripts remain part of the established course. These four ne
 
 **Listening route:** `probability-measure:worked-probability-monte-carlo`. It reuses lecture 003000 to establish random variables before the four new lectures, without extending the established course route. Every manuscript includes a non-spoken mathematical companion, exercises with answers, and source notes.
 
+## Worked statistical inference foundations (020000–023000)
+
+The original twelve-lecture course is unchanged, and the earlier Monte Carlo extension remains intact. This new calculations-first route introduces inferential reasoning without assuming measure theory or advanced asymptotic statistics:
+
+- 020000: [Likelihood: From Observed Data to Unknown Parameters](020000-likelihood-from-data-to-parameters.md) — Bernoulli, Poisson and Gaussian likelihoods, optimization, least squares and support constraints.
+- 021000: [Bias, Variance, and How Precise an Estimate Can Be](021000-bias-variance-and-estimator-precision.md) — repeated-sampling distributions, MSE, shrinkage, variance corrections, Fisher information and normal confidence intervals.
+- 022000: [The Bootstrap: Learning About Sampling Error from One Sample](022000-bootstrap-resampling-and-confidence.md) — the empirical distribution, exact bootstrap variance, percentile intervals, dependence and failure cases.
+- 023000: [Hypothesis Tests: Evidence, Error Rates, and Power](023000-hypothesis-tests-from-the-sampling-model.md) — exact binomial p-values, significance thresholds, power, test inversion, randomization and multiplicity.
+
+**Listening route:** `probability-measure:worked-statistical-inference`, beginning with existing random-variable, covariance and sampling-error lectures. The main course playback is unaffected. Each new manuscript includes a non-spoken mathematical companion, exercises with answers and source notes.
+
+Further foundation gaps worth considering: statistical design and confounding, introductory regression with error assumptions, and model checking. Reserved 013000–015000 topics remain unchanged.
+
 ## Planned continuation
 
 - 013000: Statistical Decision Theory and Risk

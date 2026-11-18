@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "lecture_id": "023000",
+  "transcript": "023000-hypothesis-tests-from-the-sampling-model.md",
+  "related_resources": [
+    {
+      "source_id": "pm-stat415-tests",
+      "reason": "Hypothesis tests, p-values, rejection regions and their interpretations."
+    },
+    {
+      "source_id": "pm-stat415-power",
+      "reason": "Type-II error, power and hypothesis-test design."
+    },
+    {
+      "source_id": "pm-asa-pvalue",
+      "reason": "Guidance on the interpretation and limitations of p-values."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original statistical-inference foundation lecture and non-spoken mathematical companion; earlier manuscripts preserved."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "probability-measure:020000",
+        "reason": "Elementary probability and estimation material from 020000."
+      },
+      {
+        "lecture_id": "probability-measure:021000",
+        "reason": "Elementary probability and estimation material from 021000."
+      }
+    ],
+    "recommended": [
+      {
+        "lecture_id": "probability-measure:017000",
+        "reason": "Optional related background from 017000."
+      },
+      {
+        "lecture_id": "probability-measure:022000",
+        "reason": "Optional related background from 022000."
+      },
+      {
+        "lecture_id": "probability-measure:008000",
+        "reason": "Optional related background from 008000."
+      }
+    ],
+    "background": [
+      "Elementary probability, fractions, logarithms and basic calculus. No measure theory, asymptotic statistics or Bayesian analysis required."
+    ],
+    "readiness_checks": [
+      "Calculate exact one-sided and two-sided binomial p-values for eight successes in ten trials.",
+      "Distinguish type-I error, power, effect size, and the meaning of a p-value.",
+      "Enumerate a four-unit randomization test and articulate its assignment assumption."
+    ]
+  }
+}

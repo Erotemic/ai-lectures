@@ -55,6 +55,36 @@
         "Sampling error",
         "Numerical integration"
       ]
+    },
+    {
+      "id": "worked-statistical-inference",
+      "title": "Probability · Likelihood, Estimation, Bootstrap and Hypothesis Testing",
+      "role": "deep_dive",
+      "parent": "established-course",
+      "lectures": [
+        "003000",
+        "016000",
+        "017000",
+        "020000",
+        "021000",
+        "022000",
+        "023000"
+      ],
+      "assumed_background": [
+        "Elementary probability and random variables, fractions, logarithms and simple derivatives. Later lectures use sampling distributions; no measure theory required."
+      ],
+      "related_collections": [
+        "established-course",
+        "worked-probability-monte-carlo"
+      ],
+      "tags": [
+        "Probability",
+        "Statistical inference",
+        "Maximum likelihood",
+        "Bias and variance",
+        "Bootstrap",
+        "Hypothesis testing"
+      ]
     }
   ]
 }
