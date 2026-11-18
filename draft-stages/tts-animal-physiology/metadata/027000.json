@@ -1,0 +1,641 @@
+{
+  "schema_version": 1,
+  "lecture_id": "027000",
+  "transcript": "027000-a-year-in-one-body.md",
+  "description": "Integrative capstone tracing a representative female northern elephant seal over a full annual cycle, linking oxygen stores, diving, foraging energetics, buoyancy feedback, EEG-measured sleep, water conservation, molting endocrinology, delayed implantation, lactation and lifetime breeding success. Distinguishes direct sensor readings from modeled inferences.",
+  "tags": [
+    "Integrative physiology",
+    "Northern elephant seal",
+    "Mirounga angustirostris",
+    "Marine mammal",
+    "Pinnipeds",
+    "Annual life cycle",
+    "Whole-animal physiology",
+    "Bioenergetics",
+    "Energy budget",
+    "Oxygen stores",
+    "Diving response",
+    "Bradycardia",
+    "Myoglobin",
+    "Blood volume",
+    "Diving hypoxia",
+    "Flipper stroke energetics",
+    "Hydrodynamic drag",
+    "Gliding",
+    "Drift dives",
+    "Buoyancy",
+    "Body condition",
+    "Blubber",
+    "Lipid reserves",
+    "Prey capture",
+    "Foraging migration",
+    "Sleep dives",
+    "EEG",
+    "Slow-wave sleep",
+    "REM sleep",
+    "Thermoregulation",
+    "Metabolic water",
+    "Water conservation",
+    "Protein sparing",
+    "Lactation",
+    "Fasting",
+    "High-fat milk",
+    "Maternal investment",
+    "Delayed implantation",
+    "Gestation",
+    "Catastrophic molt",
+    "ACTH",
+    "Cortisol",
+    "Aldosterone",
+    "Thyroid hormones",
+    "Stress endocrinology",
+    "Immune signaling",
+    "Longitudinal field study",
+    "Biologging",
+    "Accelerometer",
+    "Time-depth recorder",
+    "Lifetime reproductive success",
+    "Año Nuevo",
+    "California",
+    "Northeastern Pacific Ocean"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Integrative physiology",
+      "Whole-animal budgets"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Energy and locomotion",
+      "Field energy expenditure"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Energy and locomotion",
+      "Drag and swimming"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Energy and locomotion",
+      "Buoyancy feedback"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Breath-hold physiology",
+      "Oxygen stores"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Breath-hold physiology",
+      "Cardiovascular diving response"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Breath-hold physiology",
+      "Tissue hypoxia"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Neurophysiology",
+      "Sleep during dives"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Neurophysiology",
+      "EEG field measurements"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Thermal and water balance",
+      "Blubber and heat transfer"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Thermal and water balance",
+      "Metabolic water"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Thermal and water balance",
+      "Protein sparing"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Endocrine coordination",
+      "ACTH challenge and stress"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Endocrine coordination",
+      "Molt and fasting"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Reproduction and parental investment",
+      "Delayed implantation"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Reproduction and parental investment",
+      "Milk production"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Reproduction and parental investment",
+      "Life-history tradeoffs"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Field methods",
+      "Biologging"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Field methods",
+      "Mark-recapture and long-term census"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Field methods",
+      "Evidence and inference"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Marine biology",
+      "Pinnipeds",
+      "Northern elephant seal"
+    ],
+    [
+      "Place: North America",
+      "Place: United States",
+      "Place: California",
+      "Place: Año Nuevo"
+    ],
+    [
+      "Place: Pacific Ocean",
+      "Place: Northeastern Pacific Ocean"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "ap-capstone-nps-life",
+      "reason": "Marked-female life tables at Año Nuevo, seasonality, delayed implantation, pup development, lifetime reproduction."
+    },
+    {
+      "source_id": "ap-capstone-lrs-2019",
+      "reason": "Long-term individual breeding and life-history study; NPS account gives accessible overview."
+    },
+    {
+      "source_id": "ap-capstone-data-2024",
+      "reason": "Time-depth and tracking records, two foraging trips, methods and measurement limitations."
+    },
+    {
+      "source_id": "ap-capstone-oxygen-2010",
+      "reason": "Blood volume, myoglobin, condition and dive duration in females; abstract publicly available."
+    },
+    {
+      "source_id": "ap-capstone-dive-lab-1998",
+      "reason": "Measurements under controlled voluntary dives and caution against direct extrapolation to field energetics."
+    },
+    {
+      "source_id": "ap-capstone-hypoxia-2019",
+      "reason": "Cardiovascular diving response, gas exchange, tissue oxygen delivery and variability across dives."
+    },
+    {
+      "source_id": "ap-capstone-maresh-2015",
+      "reason": "Field metabolic rates, flipper strokes, drag comparison, condition and reproductive allocation."
+    },
+    {
+      "source_id": "ap-capstone-buoyancy-2014",
+      "reason": "Drift-rate and stroke logger data show shifts in buoyancy and efficient locomotion as seals gain fat."
+    },
+    {
+      "source_id": "ap-capstone-foraging-2023",
+      "reason": "Prey-capture proxies and energy deficits in one female; limitations of interpreting foraging activity."
+    },
+    {
+      "source_id": "ap-capstone-sleep-2023",
+      "reason": "EEG, accelerometry and dive behavior, short sleep bouts and extrapolated at-sea sleep duration."
+    },
+    {
+      "source_id": "ap-capstone-lactation-2013",
+      "reason": "Milk lipid/energy output and maternal fasting physiology with underlying source citations."
+    },
+    {
+      "source_id": "ap-capstone-water-2006",
+      "reason": "Experiments on respiratory evaporative water loss in fasting pups, with apnea and nasal structures."
+    },
+    {
+      "source_id": "ap-capstone-water-1978",
+      "reason": "Water turnover, metabolic water production and long fasting in weaned pups."
+    },
+    {
+      "source_id": "ap-capstone-maternal-1998",
+      "reason": "Protein sparing, changing protein contribution and renal function late in maternal lactation."
+    },
+    {
+      "source_id": "ap-capstone-acth-2023",
+      "reason": "ACTH intervention with cortisol, aldosterone, thyroid and immune measurements at two molting stages."
+    },
+    {
+      "source_id": "ap-capstone-repro-impl",
+      "reason": "Species-specific overview of timing, embryonic diapause, and association with seasonal cycle."
+    },
+    {
+      "source_id": "ap-capstone-overview",
+      "reason": "Seasonal movements and routes, contrasts between male and female migration."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "027000-e01",
+      "anchor": "At Año Nuevo, on the coast of California",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-capstone-nps-life"
+      ],
+      "source_locator": "Rookery location and typical winter arrival, breeding calendar.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "027000-e02",
+      "anchor": "For the weeks that follow she will produce rich milk, and she will eat nothing",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-capstone-lactation-2013"
+      ],
+      "source_locator": "Lactation and fasting in free-ranging female seals.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "027000-e03",
+      "anchor": "Most adult females give birth during the northern winter",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-capstone-nps-life",
+        "ap-capstone-data-2024"
+      ],
+      "source_locator": "Seasonal lifecycle and variability.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "027000-e04",
+      "anchor": "Because elephant seals have delayed implantation",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-capstone-nps-life",
+        "ap-capstone-repro-impl"
+      ],
+      "source_locator": "Delayed implantation in northern elephant seals.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "027000-e05",
+      "anchor": "At Año Nuevo, Burney Le Boeuf, Richard Condit, Joanne Reiter",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-capstone-nps-life",
+        "ap-capstone-lrs-2019"
+      ],
+      "source_locator": "Named researchers, long-term mark-resight evidence.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "027000-e06",
+      "anchor": "A large open data set published in 2024",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-capstone-data-2024"
+      ],
+      "source_locator": "Instrument types, time period and three-dimensional movement dataset.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "027000-e07",
+      "anchor": "In measurements of adult female northern elephant seals, blood volume averaged around one fifth of body mass",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-capstone-oxygen-2010"
+      ],
+      "source_locator": "Measured blood stores of adult females.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "027000-e08",
+      "anchor": "During submergence, the diving response can include a decrease in heart rate",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-capstone-hypoxia-2019",
+        "ap-capstone-dive-lab-1998"
+      ],
+      "source_locator": "Dive response and laboratory measurements.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "027000-e09",
+      "anchor": "Researchers have documented that diving mammals can experience arterial oxygen levels",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-capstone-hypoxia-2019"
+      ],
+      "source_locator": "Oxygen partial-pressure physiology of diving seals.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "027000-e10",
+      "anchor": "In marine mammals, collapse of gas-exchanging regions at depth",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-capstone-hypoxia-2019"
+      ],
+      "source_locator": "Pulmonary shunt and alveolar collapse discussion.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "027000-e11",
+      "anchor": "In some monitored adult females, the estimated number of prey-capture events exceeds a thousand per day",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-capstone-foraging-2023"
+      ],
+      "source_locator": "High-resolution proxy estimates for prey-capture events, not identification of actual prey.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "027000-e12",
+      "anchor": "Fat is less dense than many of the animal's lean tissues",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-capstone-buoyancy-2014"
+      ],
+      "source_locator": "Physical basis for drift-rate method and fat-dependent buoyancy.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "027000-e13",
+      "anchor": "some individuals approach neutral buoyancy during the longer migration",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-capstone-buoyancy-2014"
+      ],
+      "source_locator": "Logger evidence for buoyancy shifts and condition.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "027000-e14",
+      "anchor": "In a 2015 study led by Jennifer Maresh and colleagues",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-capstone-maresh-2015"
+      ],
+      "source_locator": "Source attribution and energy budget modeling.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "027000-e15",
+      "anchor": "Estimated field metabolic rates during the short post-breeding trip averaged around ninety",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-capstone-maresh-2015"
+      ],
+      "source_locator": "Measured/estimated short and long trip field metabolic rates.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "027000-e16",
+      "anchor": "Three additional seals carried large, less streamlined instruments",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-capstone-maresh-2015"
+      ],
+      "source_locator": "Added-drag contrast, small sample and reduced mass gain.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "027000-e17",
+      "anchor": "A tag is not an invisible observer",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-capstone-maresh-2015"
+      ],
+      "source_locator": "Instrumentation can alter hydrodynamics and interpretation.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "027000-e18",
+      "anchor": "Studies of fasting northern elephant seals demonstrate low losses and protein-sparing metabolism",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-capstone-water-1978",
+        "ap-capstone-maternal-1998"
+      ],
+      "source_locator": "Fasting energy and water conservation, protein catabolism.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "027000-e19",
+      "anchor": "extended breathing pauses and nasal structures that recover moisture",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-capstone-water-2006"
+      ],
+      "source_locator": "Physiological mechanism; study was on pups.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "027000-e20",
+      "anchor": "A drifting seal is not necessarily asleep",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-capstone-sleep-2023"
+      ],
+      "source_locator": "Difference between behavioral inference and EEG proof.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "027000-e21",
+      "anchor": "In research published in 2023, Jessica Kendall-Bar and collaborators",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-capstone-sleep-2023"
+      ],
+      "source_locator": "EEG and time-depth behavior during short sleep bouts.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "027000-e22",
+      "anchor": "elephant seals in the open ocean averaged roughly two hours of sleep per day",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-capstone-sleep-2023"
+      ],
+      "source_locator": "Population extrapolation from measured sleep-dives to logger record.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "027000-e23",
+      "anchor": "Elephant seals replace the outer coat and epidermal layer",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-capstone-lactation-2013",
+        "ap-capstone-data-2024"
+      ],
+      "source_locator": "Catastrophic molt with fasting on land.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "027000-e24",
+      "anchor": "In a 2023 study, scientists administered the pituitary hormone ACTH",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-capstone-acth-2023"
+      ],
+      "source_locator": "ACTH challenge at molt stages and endocrine/immune changes.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "027000-e25",
+      "anchor": "The adrenal responses were associated with the animals' remaining fat reserves",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-capstone-acth-2023"
+      ],
+      "source_locator": "Body reserves modulate adrenal responsiveness.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "027000-e26",
+      "anchor": "Elephant seals exhibit delayed implantation",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-capstone-nps-life",
+        "ap-capstone-repro-impl"
+      ],
+      "source_locator": "Species reproductive timing; not conscious choice.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "027000-e27",
+      "anchor": "Northern elephant seal milk becomes exceptionally rich in lipid",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-capstone-lactation-2013"
+      ],
+      "source_locator": "Milk lipid content increases during lactation.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "027000-e28",
+      "anchor": "more than a hundred liters of milk and on the order of two thousand megajoules",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-capstone-lactation-2013"
+      ],
+      "source_locator": "Study-scale maternal milk production and energy transfer estimates.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "027000-e29",
+      "anchor": "When scientists measured protein use and kidney function during lactation",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-capstone-maternal-1998"
+      ],
+      "source_locator": "Change in protein catabolism and renal measures across lactation.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "027000-e30",
+      "anchor": "Weanlings spend weeks on land fasting while their respiratory pigments",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-capstone-nps-life",
+        "ap-capstone-water-1978"
+      ],
+      "source_locator": "Pup development and postweaning fast.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "027000-e31",
+      "anchor": "about three quarters of monitored females died before reaching breeding age",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-capstone-nps-life",
+        "ap-capstone-lrs-2019"
+      ],
+      "source_locator": "Specific Año Nuevo long-term study; not universal mortality estimate.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "027000-e32",
+      "anchor": "This distribution is not a story about some animals trying harder",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-capstone-lrs-2019"
+      ],
+      "source_locator": "Measured variability in lifetime reproduction, contextual interpretation.",
+      "audit_status": "source_checked"
+    }
+  ],
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "All relevant oxygen, energy and feedback concepts are explained within the manuscript; individual earlier chapters provide optional deeper treatment."
+    ],
+    "readiness_checks": [
+      "Why does a small cost of each flipper stroke affect future lactation rather than just the present dive?",
+      "How does fat gain change buoyancy and locomotor economy?",
+      "What can an EEG show that a depth logger cannot?",
+      "Why should a cortisol response to injected ACTH not be read as a full measure of immune fitness?",
+      "How does delayed implantation modify the timing of maternal resource expenditure?",
+      "How is the annual energy budget different from counting prey strikes?"
+    ]
+  },
+  "places": [
+    "Año Nuevo, California, United States",
+    "Northeastern Pacific Ocean"
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "id": "animal-physiology",
   "title": "How Animals Work: Comparative Physiology",
-  "summary": "An audio-first comparative study of how animals regulate internal conditions, exchange matter, move, sense, use energy, coordinate endocrine and immune defenses, and invest in reproduction across changing life histories. The current sequence ends with gametes, fertilization, embryo provisioning, parental care and senescence.",
+  "summary": "An audio-first comparative study of how animals regulate internal conditions, exchange matter, move, sense, use energy, coordinate endocrine and immune defenses, and reproduce. A final integrative case study follows one animal's complete annual physiological budget.",
   "categories": [
     "Science and nature"
   ],
@@ -32,7 +32,7 @@
     "No formal anatomy prerequisite. Basic ideas of cells, energy, gradients, and evolution are introduced where needed.",
     "The Living World and Cell Biology and Genetics courses are useful optional companions, not required prerequisites."
   ],
-  "editorial_status": "in_progress",
+  "editorial_status": "substantive_complete",
   "sections": [
     "homeostasis",
     "respiration",
@@ -59,7 +59,8 @@
     "fertilization",
     "embryo_provisioning",
     "parental_investment",
-    "life_history_and_senescence"
+    "life_history_and_senescence",
+    "integrative_capstone"
   ],
   "lectures": [
     {
@@ -942,6 +943,71 @@
         "Survival schedules",
         "Energy allocation",
         "Costs of reproduction"
+      ]
+    },
+    {
+      "id": "027000",
+      "title": "A Year in One Body: The Elephant Seal's Physiological Budget",
+      "section": "integrative_capstone",
+      "file": "027000-a-year-in-one-body.md",
+      "spoken_words": 4764,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 32.9,
+      "tags": [
+        "Integrative physiology",
+        "Northern elephant seal",
+        "Mirounga angustirostris",
+        "Marine mammal",
+        "Pinnipeds",
+        "Annual life cycle",
+        "Whole-animal physiology",
+        "Bioenergetics",
+        "Energy budget",
+        "Oxygen stores",
+        "Diving response",
+        "Bradycardia",
+        "Myoglobin",
+        "Blood volume",
+        "Diving hypoxia",
+        "Flipper stroke energetics",
+        "Hydrodynamic drag",
+        "Gliding",
+        "Drift dives",
+        "Buoyancy",
+        "Body condition",
+        "Blubber",
+        "Lipid reserves",
+        "Prey capture",
+        "Foraging migration",
+        "Sleep dives",
+        "EEG",
+        "Slow-wave sleep",
+        "REM sleep",
+        "Thermoregulation",
+        "Metabolic water",
+        "Water conservation",
+        "Protein sparing",
+        "Lactation",
+        "Fasting",
+        "High-fat milk",
+        "Maternal investment",
+        "Delayed implantation",
+        "Gestation",
+        "Catastrophic molt",
+        "ACTH",
+        "Cortisol",
+        "Aldosterone",
+        "Thyroid hormones",
+        "Stress endocrinology",
+        "Immune signaling",
+        "Longitudinal field study",
+        "Biologging",
+        "Accelerometer",
+        "Time-depth recorder",
+        "Lifetime reproductive success",
+        "Año Nuevo",
+        "California",
+        "Northeastern Pacific Ocean"
       ]
     }
   ]

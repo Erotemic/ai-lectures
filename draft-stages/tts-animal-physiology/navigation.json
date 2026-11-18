@@ -8,7 +8,7 @@
       "categories": [
         "Science and nature"
       ],
-      "summary": "A guided sequence from exchange and transport through movement, sensing, thermal and chemical regulation, defense, reproduction, and the lifetime costs of survival.",
+      "summary": "A guided sequence from exchange and transport through movement, sensing, thermal and chemical regulation, defense, reproduction, and a final integrative physiological case.",
       "chapters": [
         {
           "title": "The Environment Inside an Animal",
@@ -164,6 +164,12 @@
           "title": "A Lifetime to Reproduce",
           "lectures": [
             "026000"
+          ]
+        },
+        {
+          "title": "A Year in One Body: The Elephant Seal's Physiological Budget",
+          "lectures": [
+            "027000"
           ]
         }
       ]
@@ -322,6 +328,27 @@
         "024000",
         "025000",
         "026000"
+      ]
+    },
+    {
+      "id": "physiology-in-one-animal",
+      "title": "How Animals Work · Physiology in One Animal",
+      "role": "deep_dive",
+      "parent": "how-animals-work",
+      "summary": "The northern elephant seal as a worked case connecting diving, energy reserves, swimming, sleep, endocrine responses and reproduction across one annual cycle. Includes the most relevant conceptual preparation.",
+      "tags": [
+        "Integrative physiology",
+        "Energy budget",
+        "Diving physiology",
+        "Marine mammals"
+      ],
+      "lectures": [
+        "002000",
+        "006000",
+        "012000",
+        "016000",
+        "025000",
+        "027000"
       ]
     }
   ]

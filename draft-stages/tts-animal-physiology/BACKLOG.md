@@ -1,6 +1,6 @@
 # Comparative physiology: further lectures
 
-The first twenty-six manuscripts are complete and indexed. Chapters `014000`–`017000` develop endocrine communication; chapters `018000`–`021000` develop immune recognition, comparative defense, and immune tolerance. Continue to determine lecture boundaries from the actual mechanism and explanatory scope; there is no required word count or narration duration.
+The first twenty-seven manuscripts are complete and indexed, including a single annual-cycle capstone. Chapters `014000`–`017000` develop endocrine communication; chapters `018000`–`021000` develop immune recognition, comparative defense, and immune tolerance. Continue to determine lecture boundaries from the actual mechanism and explanatory scope; there is no required word count or narration duration.
 
 ## Earlier: endocrine physiology
 
@@ -24,10 +24,10 @@ The first twenty-six manuscripts are complete and indexed. Chapters `014000`–`
 - **025000 — Who Feeds the Young?:** parental care beyond mammals, oxygen supply in goby nests, poison-frog alkaloid provisioning, burying beetle experiments and allocation tradeoffs.
 - **026000 — A Lifetime to Reproduce:** reproductive timing, semelparity and iteroparity, seasonal pools and killifish diapause, Hamilton/Williams/Kirkwood models of senescence.
 
-## Remaining candidate directions
+## Completed integrative capstone and stopping point
 
-1. **Integrative whole-animal physiology.** Trace a single, well-supported case (for example a migrating fish or a breeding seabird) through transport, neural, endocrine, metabolic, immune and reproductive regulation, making physical constraints explicit and avoiding a rushed recital of organs.
-2. **Course synthesis or stop point.** The existing 26 chapters are a self-contained curriculum. Add a capstone only if it develops new integrative reasoning rather than repeating the table of contents.
+- **027000 — A Year in One Body: The Elephant Seal's Physiological Budget:** One continuous case following a representative female through two foraging trips, a molt, a breeding fast and lactation, linking tissue oxygen stores, dive reflex, hydrodynamics, body condition, sleep, endocrine response, renal water conservation, delayed implantation and lifetime reproductive output. The animal is a composite of field populations, never a fabricated individual record.
+- **Course stopping point:** The 27-lecture course now covers core functional systems and an integrative synthesis. Further specialized deep dives are optional and should only be added when they develop a new explanatory problem, not as routine indefinite expansion.
 
 ## Editorial and technical checks
 
