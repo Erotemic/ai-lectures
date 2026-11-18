@@ -67,6 +67,13 @@ Order can compare names, section counts, lecture counts, or listening time.
 Labels without a recorded broader geographic path remain available separately,
 and metadata completeness is shown for the selected dimension. Original direct
 place counts are retained under Metadata coverage and direct place labels.
+Every Stats section is independently collapsible and remembers its state on this
+device. Coverage opens initially; the remaining detail sections start closed.
+Geography starts at continent scale, with North and South America beneath the
+Americas and Central America beneath North America. Oceans, polar areas, and
+regions spanning continents appear separately. Historical names retain their
+identity; context-specific paths resolve ambiguous place names only in the
+lectures that supply that context.
 Library totals count each lecture once across overlapping routes. Listening
 estimates use 145 words per minute. The former Presentations navigation tab
 has been removed; existing presentation bookmarks still work.

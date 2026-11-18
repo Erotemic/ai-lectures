@@ -1,3 +1,4 @@
+import { statsSection } from "./stats-section.mjs";
 import { tagBrowser } from "./tag-browser.mjs";
 import { el } from "./api.mjs";
 import { formatMinutes } from "./browse-model.mjs";
@@ -39,7 +40,7 @@ export function renderStats(main, catalog, { link, refresh }) {
   );
   if (!data.lectures) main.append(el("p", { class: "notice" }, "No lectures are available yet. ", link("Add a content pack", "/packs"), "."));
   main.append(tagBrowser(catalog.lectures || [], link, { packs: catalog.packs || [] }));
-  const availability = el("section", { class: "section" }, el("h2", { text: "Ready to listen" }));
+  const availability = statsSection("audio", "Ready to listen");
   for (const [label, value, style] of [["Complete audio", data.complete, "complete"], ["Partial audio", data.partial, "partial"], ["No prepared audio", data.missing, "missing"]]) {
     const percent = data.lectures ? value / data.lectures * 100 : 0;
     const bar = el("span", { class: `stats-fill ${style}` });
@@ -49,10 +50,10 @@ export function renderStats(main, catalog, { link, refresh }) {
       el("div", { class: "stats-bar", "aria-hidden": "true" }, bar)));
   }
   availability.append(el("p", { class: "muted", text: `${number(data.companions)} lectures have current companion files. Audio readiness counts a lecture once if any narrator has a complete recording; partial recordings count separately.` }));
-  main.append(availability,
-    el("p", { class: "muted", text: "Listening time is estimated from transcript words at 145 words per minute. Actual recordings, playback speed, and pauses will differ. Subject and audience groups may overlap; their rows should not be added together." }));
+  availability.append(el("p", { class: "muted", text: "Listening time is estimated from transcript words at 145 words per minute. Actual recordings, playback speed, and pauses will differ. Subject and audience groups may overlap; their rows should not be added together." }));
+  main.append(availability);
   const tagLink = (prefix, row) => row.title === "Unspecified" ? "Not recorded" : link(row.title, "/lectures?" + new URLSearchParams({ tag: prefix + row.title }));
-  main.append(el("details", { class: "stats-detail" }, el("summary", { text: "Metadata coverage and direct place labels" }),
+  main.append(statsSection("metadata", "Metadata coverage and direct place labels",
     el("p", { text: `${number(data.withPlaces)} lectures have recorded place associations; ${number(data.withDates)} have recorded dates; ${number(data.withDescriptions)} have descriptions or outline previews.` }),
     el("p", { class: "muted", text: "These are the original place labels, before rolling up the hierarchy. A city, country, and region may refer to the same lecture; their rows cannot be added together. The hierarchy above includes their broader associations. Missing metadata is not evidence of a gap in the lectures themselves." }),
     totalsTable(data.directPlaces, "Direct place labels", row => tagLink("Place: ", row))));
@@ -71,11 +72,11 @@ export function renderStats(main, catalog, { link, refresh }) {
   };
   axis.onchange = showTime;
   showTime();
-  main.append(el("section", { class: "section" }, el("h2", { text: "Time coverage" }),
+  main.append(statsSection("time", "Time coverage",
     el("label", {}, "Date meaning", axis),
     el("p", { class: "muted", text: "Dates retain their meaning: a book’s publication is distinct from its setting, an author’s lifetime, or a surviving manuscript. Ranges can overlap century bins. Broad ranges stay separate; uncertainty remains in each lecture’s date notes." }), timeResults,
     totalsTable(data.periods, "Named periods", row => tagLink("Period: ", row))));
-  if (data.authors.length) main.append(el("section", { class: "section" }, el("h2", { text: "Literary authors" }),
+  if (data.authors.length) main.append(statsSection("authors", "Literary authors",
     el("p", { class: "muted", text: "Authors and traditionally attributed authors of the works discussed. These are separate from the people or models that wrote the lectures. Compiler, translator, anonymous, and oral-tradition credits remain on the lecture items." }),
     totalsTable(data.authors, "Lectures by work author", row => tagLink("Author: ", row))));
   const topicSearch = el("input", { type: "search", "aria-label": "Find a coverage tag", placeholder: "Find a topic, place, author, or period" });
@@ -88,11 +89,11 @@ export function renderStats(main, catalog, { link, refresh }) {
   };
   topicSearch.oninput = showTags;
   showTags();
-  main.append(el("section", { class: "section" }, el("h2", { text: "Explore all tags" }), topicSearch, tagResults));
-  if (data.subjects.length) main.append(el("section", { class: "section" }, el("h2", { text: "By subject" }),
+  main.append(statsSection("tags", "Explore all tags", topicSearch, tagResults));
+  if (data.subjects.length) main.append(statsSection("subjects", "By subject",
     totalsTable(data.subjects, "Content by subject", row => row.title === "Unspecified" ? row.title : link(row.title, "/collections?" + new URLSearchParams({ category: row.title })))));
   if (data.audiences.length && data.audiences.some(row => row.title !== "Unspecified")) main.append(
-    el("section", { class: "section" }, el("h2", { text: "By audience" }), totalsTable(data.audiences, "Content by audience")));
+    statsSection("audiences", "By audience", totalsTable(data.audiences, "Content by audience")));
   const search = el("input", { id: "stats-collection-search", type: "search", value: new URLSearchParams(location.search).get("q") || "", placeholder: "Find a collection", "aria-label": "Find a collection" });
   const results = el("div");
   const count = el("p", { class: "muted", role: "status" });
@@ -110,8 +111,9 @@ export function renderStats(main, catalog, { link, refresh }) {
     filter();
   };
   filter();
-  main.append(el("section", { class: "section" }, el("h2", { text: "By collection" }), search, count, results,
+  main.append(statsSection("collections", "By collection", search, count, results,
     el("p", { class: "muted", text: "Collections count unique available members, including nested listening routes. The same lecture can belong to multiple collections; archived collections are marked." })),
-    el("section", { class: "section" }, el("h2", { text: "By content pack" }), totalsTable(data.packRows, "Content by pack"),
+    statsSection("packs", "By content pack", totalsTable(data.packRows, "Content by pack"),
       el("p", {}, link("Manage content packs and storage", "/packs"))));
+  if (search.value) main.querySelector("#stats-section-collections").open = true;
 }

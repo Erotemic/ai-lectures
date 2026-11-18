@@ -933,7 +933,6 @@ progress {
 .coverage-contributions li > span:last-child { white-space: nowrap; font-variant-numeric: tabular-nums; }
 .coverage-contributions small { display: block; }
 .coverage-explanation { font-size: 0.85rem; }
-.stats-detail > summary { cursor: pointer; color: var(--accent); font-weight: 600; }
 @media (max-width: 600px) {
   .coverage-columns, .coverage-row { grid-template-columns: minmax(0, 1fr) 3.8rem 3.8rem; gap: 0.3rem; }
   .coverage-columns > :last-child, .coverage-row > :last-child { display: none; }
@@ -948,3 +947,8 @@ progress {
 
 .coverage-count-help { margin: 0.75rem 0; }
 .coverage-count-help > summary { cursor: pointer; color: var(--accent); font-size: 0.85rem; }
+
+.stats-section { margin-top: 1rem; border-top: 1px solid var(--line); padding-top: 0.65rem; }
+.stats-section > summary { cursor: pointer; color: var(--accent); padding: 0.35rem 0; }
+.stats-section > summary > h2 { display: inline; margin: 0; font-size: 1.3rem; }
+.stats-section[open] > summary { margin-bottom: 0.8rem; }

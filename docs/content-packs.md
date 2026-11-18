@@ -122,6 +122,14 @@ stay broad and do not generate a tag for every intervening year. Publication
 spelling), composition (`composition`), covered period, historical environment
 (`context`), lifetime, and textual witness remain distinct. Do not manufacture dates for timeless scientific topics.
 
+Stats shows geographic paths at continent scale first. Americas contains
+North America and South America, with Central America under North America.
+Known parent associations also extend older authored paths that begin at a
+narrower region. Broad labels never acquire unrecorded child coverage.
+Cross-continental regions and water bodies remain separate browsing branches.
+An ambiguous place such as Cambridge can have a pack-local path when the
+lecture identifies which Cambridge; the global label remains ambiguous.
+
 **Stats → Coverage from broad to specific** shows expandable dimensions and
 unique lecture counts. Selecting any branch opens All lectures filtered by that
 tag; the Tag field and keyword search also recognize broader path labels.

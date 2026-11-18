@@ -92,8 +92,22 @@ def test_authored_paths_survive_source_export_catalog_and_graph(tmp_path):
 
 def test_qualified_city_associations_roll_up_without_guessing_ambiguous_names():
     fields = discovery_fields({'places': ['Cambridge (Massachusetts)', 'Urbana, Illinois', 'Edo (Tokyo)']})
-    assert ['Place: North America', 'Place: United States', 'Place: Massachusetts', 'Place: Cambridge (Massachusetts)'] in fields['tag_paths']
+    assert ['Place: Americas', 'Place: North America', 'Place: United States', 'Place: Massachusetts', 'Place: Cambridge (Massachusetts)'] in fields['tag_paths']
     assert 'Place: United States' in fields['tags']
     assert 'Place: Japan' in fields['tags']
     assert 'Place: United States' not in labels({'places': ['Cambridge']})
     assert 'Place: England' not in labels({'places': ['Cambridge']})
+
+
+def test_geography_completes_older_authored_paths_without_inventing_specificity():
+    result = discovery_fields({'places': ['Cambridge'], 'tag_paths': [
+        ['Place: Europe', 'Place: Britain', 'Place: England', 'Place: Cambridge'],
+        ['Place: North America', 'Place: United States', 'Place: A custom town']]})
+    assert ['Place: Cambridge'] not in result['tag_paths']
+    assert ['Place: Americas', 'Place: North America', 'Place: United States', 'Place: A custom town'] in result['tag_paths']
+    assert 'Place: England' in result['tags']
+    assert ['Place: Cambridge'] in discovery_fields({'places': ['Cambridge']})['tag_paths']
+    broad = labels({'places': ['Americas']})
+    assert 'Place: North America' not in broad and 'Place: United States' not in broad
+    nested = labels({'places': ['Panama', 'Buenos Aires', 'Ugarit']})
+    assert {'Place: Americas', 'Place: North America', 'Place: Central America', 'Place: South America', 'Place: Asia', 'Place: West Asia', 'Place: Levant'} <= nested

@@ -75,6 +75,57 @@ PLACE_PATHS = [
     ['Europe', 'Ancient Greece'], ['Europe', 'Ancient Rome'],
 ]
 
+
+# Regional associations do not imply modern nationality or historical borders.
+# Historic-place checks: UNESCO Soltaniyeh (whc.unesco.org/en/list/1188),
+# Samarkand (whc.unesco.org/en/list/603), Ugarit (tentativelists/1292),
+# and Brubaker et al., Nationalist Politics and Everyday Ethnicity, chapter 3
+# (doi:10.1515/9780691187792-010), on Kolozsvár/Transylvania.
+# Context-dependent names (Cambridge, Great Lakes, Plains) belong in authored
+# pack-local paths rather than this global vocabulary.
+PLACE_PATHS += [
+    ['Asia', 'West Asia', 'Levant', 'Ugarit'],
+    ['Asia', 'South Asia', 'Indus'],
+    ['Asia', 'West Asia', 'Iran', 'Soltaniyeh'],
+    ['Asia', 'Central Asia', 'Samarqand'],
+    ['Asia', 'Southeast Asia', 'East Timor'],
+    ['Africa', 'Northeast Africa', 'Sudan'], ['Africa', 'Nile'],
+    ['Africa', 'Central Africa', 'Congo'],
+    ['Africa', 'West Africa', 'Nigeria', 'Zaria'],
+    ['Africa', 'West Africa', 'Nigeria', 'Onitsha'],
+    ['Africa', 'West Africa', 'Nigeria', 'Lagos'],
+    ['Africa', 'West Africa', 'Nigeria', 'Ibadan'],
+    ['Europe', 'Northern Europe', 'Karelia'],
+    ['Europe', 'Transylvania', 'Kolozsvár'],
+    ['Europe', 'Balkans', 'Yugoslavia'], ['Europe', 'Balkans', 'Kosovo'],
+    ['Americas', 'South America', 'Argentina', 'Mendoza'],
+    ['Americas', 'South America', 'Argentina', 'Buenos Aires'],
+    ['Americas', 'South America', 'Andes', 'Potosí'],
+    ['Americas', 'North America', 'Central America', 'Panama'],
+    ['Cross-regional', 'Middle East'], ['Cross-regional', 'Arab World'],
+    ['Cross-regional', 'Mediterranean', 'Hellenistic Mediterranean'],
+    ['Cross-regional', 'Mediterranean', 'Eastern Mediterranean', 'Cyprus'],
+    ['Water bodies', 'Oceans', 'Atlantic'],
+    ['Water bodies', 'Oceans', 'Indian Ocean'],
+    ['Water bodies', 'Seas', 'Red Sea'],
+    ['Polar regions', 'Arctic'], ['Antarctica'],
+]
+
+# Use complete paths consistently, including existing city and regional paths.
+# Matching adds ancestors only; a broad Americas tag cannot acquire countries.
+def _geographic_branch(path):
+    if path[0] == 'North America':
+        return ['Americas', *path]
+    if path[:2] == ['Americas', 'Caribbean']:
+        return ['Americas', 'North America', *path[1:]]
+    if path[:2] == ['Americas', 'Andes']:
+        return ['Americas', 'South America', *path[1:]]
+    if path[0] == 'Pacific':
+        return ['Water bodies', 'Oceans', *path]
+    return path
+
+PLACE_PATHS = [_geographic_branch(path) for path in PLACE_PATHS]
+
 TOPIC_PATHS = [
     ['Science', 'Biology', 'Cell biology', 'Cell structure'],
     ['Science', 'Biology', 'Cell biology', 'Cell membranes'],
@@ -184,7 +235,21 @@ def tag_paths(tags, places, authored=()):
     topics = [tag for tag in tags if not tag.startswith(facets)]
     geography = list(dict.fromkeys([*places, *(tag[7:] for tag in tags if tag.startswith('Place: '))]))
     paths = matching_paths(topics, TOPIC_PATHS) + matching_paths(geography, PLACE_PATHS, 'Place: ')
-    paths += normalize_paths(authored)
+    for path in normalize_paths(authored):
+        if path[0].startswith('Place: '):
+            # Older packs may start at North America or another known region.
+            # Complete the head's ancestors without changing authored children.
+            parents = matching_paths([path[0][7:]], PLACE_PATHS, 'Place: ')
+            for parent in parents:
+                complete = parent + path[1:]
+                if len(complete) <= 8 and len(set(complete)) == len(complete):
+                    paths.append(complete)
+                else:
+                    paths.append(path)
+        else:
+            paths.append(path)
     # Suppress prefixes that are already represented by a more specific path.
     unique = list(dict.fromkeys(tuple(path) for path in paths))
-    return [list(path) for path in unique if not any(len(other) > len(path) and other[:len(path)] == path for other in unique)]
+    return [list(path) for path in unique if not any(
+        len(other) > len(path) and (other[:len(path)] == path or (len(path) == 1 and path[0] in other))
+        for other in unique)]

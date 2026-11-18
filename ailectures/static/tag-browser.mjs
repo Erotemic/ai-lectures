@@ -1,3 +1,4 @@
+import { statsSection } from "./stats-section.mjs";
 import { el, lectureURL } from "./api.mjs";
 import { coverageModel } from "./coverage-model.mjs";
 import { formatMinutes } from "./browse-model.mjs";
@@ -6,8 +7,9 @@ import { formatMinutes } from "./browse-model.mjs";
 export function tagBrowser(rows, link, { packs = [] } = {}) {
   const packNames = new Map(packs.map(pack => [pack.id, pack.title || pack.id]));
   const model = coverageModel(rows), forests = model.forests;
-  const root = el("section", { class: "section tag-browser" }, el("h2", { text: "Coverage from broad to specific" }),
+  const root = statsSection("coverage", "Coverage from broad to specific",
     el("p", { text: "Expand a region, topic, or period to compare its narrower tags. Parent totals include descendants, counting each lecture once." }));
+  root.classList.add("tag-browser");
   const facet = el("select", { "aria-label": "Tag dimension" }, ...[...forests.keys()].sort().map(value => el("option", { value, text: value })));
   facet.value = forests.has("Places") ? "Places" : forests.has("Topics") ? "Topics" : facet.options[0]?.value || "";
   const search = el("input", { type: "search", "aria-label": "Search tag hierarchy", placeholder: "Find a topic, region, century, or year" });
@@ -70,18 +72,20 @@ export function tagBrowser(rows, link, { packs = [] } = {}) {
     const tagged = model.tagged(facet.value).size;
     count.textContent = `${tagged.toLocaleString()} / ${model.rows.length.toLocaleString()} lectures have ${facet.value === "Places" ? "place" : facet.value === "Topics" ? "topic" : facet.value === "Authors" ? "author" : facet.value.toLowerCase()} tags · ${(model.rows.length - tagged).toLocaleString()} without tags in this dimension`;
     const nodes = forests.get(facet.value) || new Map();
-    // Standalone places do not have a recorded comparable broader branch.
-    // Keep them discoverable without ranking cities alongside continents.
-    const mainNodes = facet.value === "Places" && !query
-      ? new Map([...nodes].filter(([, node]) => node.children.size)) : nodes;
-    const otherNodes = facet.value === "Places" && !query
-      ? new Map([...nodes].filter(([, node]) => !node.children.size)) : new Map();
+    const continents = new Set(["Africa", "Americas", "Asia", "Europe", "Oceania", "Antarctica"].map(label => "Place: " + label));
+    const geographical = facet.value === "Places" && !query;
+    const mainNodes = geographical ? new Map([...nodes].filter(([label]) => continents.has(label))) : nodes;
+    const associatedNodes = geographical ? new Map([...nodes].filter(([label, node]) => !continents.has(label) && node.children.size)) : new Map();
+    const otherNodes = geographical ? new Map([...nodes].filter(([label, node]) => !continents.has(label) && !node.children.size)) : new Map();
     const tree = level(mainNodes);
     result.replaceChildren(tree);
+    if (associatedNodes.size) result.append(el("details", { class: "coverage-unmapped" },
+      el("summary", { text: "Oceans, polar areas, and regions spanning continents" }),
+      el("p", { class: "muted", text: "These associations cross continental boundaries or describe bodies of water. Their lectures can also appear in the continental branches." }), level(associatedNodes)));
     if (otherNodes.size) result.append(el("details", { class: "coverage-unmapped" },
       el("summary", { text: `${otherNodes.size.toLocaleString()} place labels without a broader path` }),
       el("p", { class: "muted", text: "These labels have no broader geographic association recorded. They remain searchable; ambiguous names are not assigned a country automatically." }), level(otherNodes)));
-    if (!tree.children.length && !otherNodes.size) result.append(el("p", { text: "No matching tags in this dimension." }));
+    if (!tree.children.length && !otherNodes.size && !associatedNodes.size) result.append(el("p", { text: "No matching tags in this dimension." }));
   }
   facet.onchange = draw;
   search.oninput = draw;
