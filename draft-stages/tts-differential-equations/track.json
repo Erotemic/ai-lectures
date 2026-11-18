@@ -16,6 +16,7 @@
     "nonlinear-phase-planes",
     "boundary-values-fourier-modes",
     "fourier-transforms-and-method-of-lines",
+    "numerical-boundary-energy-convergence",
     "sampling-discrete-fourier",
     "time-frequency-spectral-estimation",
     "conservation-numerical-transport",
@@ -1093,6 +1094,74 @@
         "High-resolution finite volumes",
         "SSP Runge-Kutta",
         "Total variation"
+      ]
+    },
+    {
+      "id": "095000",
+      "title": "Heat on a Finite Rod: Putting Boundaries on the Grid",
+      "section": "numerical-boundary-energy-convergence",
+      "file": "095000-heat-on-a-finite-rod-boundaries-on-the-grid.md",
+      "spoken_words": 1565,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 10.8,
+      "tags": [
+        "Dirichlet boundaries",
+        "Neumann boundaries",
+        "Ghost nodes",
+        "Conservation",
+        "Heat equation",
+        "Finite differences"
+      ]
+    },
+    {
+      "id": "096000",
+      "title": "A Heat Solver Should Cool: Discrete Maximum Principles and Energy",
+      "section": "numerical-boundary-energy-convergence",
+      "file": "096000-heat-grid-stability-maximum-principles-and-energy.md",
+      "spoken_words": 1676,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 11.6,
+      "tags": [
+        "Discrete maximum principle",
+        "Energy estimate",
+        "Forward Euler",
+        "Backward Euler",
+        "Crank-Nicolson",
+        "Numerical stability"
+      ]
+    },
+    {
+      "id": "097000",
+      "title": "A Wave Grid That Keeps Its Energy: Leapfrog and the CFL Condition",
+      "section": "numerical-boundary-energy-convergence",
+      "file": "097000-a-wave-grid-that-keeps-its-energy.md",
+      "spoken_words": 1701,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 11.7,
+      "tags": [
+        "Wave equation",
+        "Leapfrog",
+        "CFL condition",
+        "Discrete energy",
+        "Numerical dispersion",
+        "Finite difference"
+      ]
+    },
+    {
+      "id": "098000",
+      "title": "From Grid Accuracy to PDE Convergence: Consistency, Stability, and Refinement",
+      "section": "numerical-boundary-energy-convergence",
+      "file": "098000-from-grid-accuracy-to-pde-convergence.md",
+      "spoken_words": 1973,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 13.6,
+      "tags": [
+        "Consistency",
+        "Stability",
+        "Convergence",
+        "Truncation error",
+        "Grid refinement",
+        "Manufactured solutions"
       ]
     }
   ],

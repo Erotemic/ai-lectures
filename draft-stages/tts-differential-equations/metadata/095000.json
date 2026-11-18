@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "lecture_id": "095000",
+  "transcript": "095000-heat-on-a-finite-rod-boundaries-on-the-grid.md",
+  "related_resources": [
+    {
+      "source_id": "de-langtangen-linge-finite-difference",
+      "reason": "Numerical construction and verification of diffusion/wave finite differences and boundary treatments."
+    },
+    {
+      "source_id": "de-mit-18-086-fd",
+      "reason": "Finite difference methods, CFL stability, leapfrog and convergence as taught in computational PDEs."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original foundation-level boundary-grid, heat stability/energy, leapfrog wave, and PDE convergence lectures with mathematical companions. Preserve the prior 61 manuscripts and their individual metadata."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "differential-equations:067000",
+        "reason": "Introduces fixed-temperature and insulated boundary conditions."
+      },
+      {
+        "lecture_id": "differential-equations:073000",
+        "reason": "Constructs centered second differences and their matrices."
+      },
+      {
+        "lecture_id": "differential-equations:074000",
+        "reason": "Derives the heat equation as a system of ODEs."
+      }
+    ],
+    "recommended": [],
+    "background": [
+      "Elementary calculus, derivatives, first-order time steps, two-by-two matrix arithmetic and elementary trigonometry; finite-difference and heat/wave modes supplied by prerequisite lectures. No advanced functional analysis required."
+    ],
+    "readiness_checks": [
+      "Reproduce the boundary forcing vector for a three-interior-node Dirichlet rod.",
+      "Check the trapezoidal total-heat balance for insulated ghost nodes.",
+      "Distinguish a prescribed endpoint temperature from a prescribed endpoint flux."
+    ]
+  }
+}

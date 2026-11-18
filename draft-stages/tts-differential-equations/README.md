@@ -2,7 +2,7 @@
 
 Ordinary differential equations and dynamical systems: initial-value problems, existence and uniqueness, phase portraits, oscillations, stability, nonlinear dynamics and numerical integration, later partial differential equations.
 
-The current pack contains **61 lecture manuscripts**. Short concept chapters have been consolidated where they develop one subject. Each numbered manuscript has one spoken region; its mathematical statements, exercises, sources, and inherited component notes remain in the non-spoken companion.
+The current pack contains **65 lecture manuscripts**. Short concept chapters have been consolidated where they develop one subject. Each numbered manuscript has one spoken region; its mathematical statements, exercises, sources, and inherited component notes remain in the non-spoken companion.
 
 ## Listening routes
 
@@ -14,6 +14,7 @@ The current pack contains **61 lecture manuscripts**. Short concept chapters hav
 - **Differential Equations · Conservation Laws and Numerical Transport from Scratch** (Foundation bridge): `075000`, `076000`, `077000`, `078000`.
 - **Differential Equations · Nonlinear Conservation, Riemann Problems and MUSCL from Scratch** (Foundation bridge): `091000`, `092000`, `093000`, `094000`.
 - **Differential Equations · Fourier Transforms and Numerical Spatial Discretization** (Foundation bridge): `071000`, `072000`, `073000`, `074000`.
+- **Differential Equations · Boundary Grids, Discrete Energy, and Convergence** (Foundation bridge): `095000`, `096000`, `097000`, `098000`.
 - **Differential Equations · Sampling, Discrete Fourier Transform and FFT from Scratch** (Foundation bridge): `079000`, `080000`, `081000`, `082000`.
 - **Differential Equations · Time–Frequency Analysis, Spectrograms and Noise from First Principles** (Foundation bridge): `087000`, `088000`, `089000`, `090000`.
 - **Differential Equations · Numerical Time Stepping from Scratch** (Foundation bridge): `063000`, `064000`, `065000`, `066000`.
@@ -95,6 +96,10 @@ Durations are measured from the current spoken text at 145 words per minute, bef
 | `092000` | [Shocks, Rarefactions, and the Entropy Test](092000-shocks-rarefactions-and-entropy.md) | 11.3 |
 | `093000` | [One Face, One Riemann Problem: Building the Godunov Flux](093000-godunov-flux-from-a-riemann-problem.md) | 12.2 |
 | `094000` | [Sharper Fronts without New Oscillations: MUSCL and Slope Limiters](094000-sharper-fronts-with-limited-slopes.md) | 14.2 |
+| `095000` | [Heat on a Finite Rod: Putting Boundaries on the Grid](095000-heat-on-a-finite-rod-boundaries-on-the-grid.md) | 10.8 |
+| `096000` | [A Heat Solver Should Cool: Discrete Maximum Principles and Energy](096000-heat-grid-stability-maximum-principles-and-energy.md) | 11.6 |
+| `097000` | [A Wave Grid That Keeps Its Energy: Leapfrog and the CFL Condition](097000-a-wave-grid-that-keeps-its-energy.md) | 11.7 |
+| `098000` | [From Grid Accuracy to PDE Convergence: Consistency, Stability, and Refinement](098000-from-grid-accuracy-to-pde-convergence.md) | 13.6 |
 
 ## Foundation-first continuation
 
@@ -154,3 +159,8 @@ The `087000`–`090000` route constructs an exact two-window STFT, proves the Ga
 ## Nonlinear conservation, Riemann problems, and MUSCL foundation bridge
 
 The `091000`–`094000` route starts from characteristic steepening in Burgers' equation, derives weak shocks and rarefaction fans, checks the quadratic entropy inequality, and computes the exact Godunov interface flux. A complete periodic four-cell update demonstrates conservative flux cancellation. The closing lecture reconstructs limited piecewise-linear cell states, works a MUSCL–Hancock half-step, and distinguishes total variation, conservation, and time-integration accuracy. This route follows `075000`–`078000`; no advanced shock-stability theory is required. All 57 preceding manuscripts and their individual metadata are retained verbatim.
+
+
+## Boundary grids, discrete energy, and convergence foundations
+
+The `095000`–`098000` route develops the numerical mathematics of fixed and insulated rod boundaries, derives a nonnegative discrete heat maximum principle and dissipative energy laws, proves a staggered discrete energy identity for the centered wave equation, and combines consistency plus stability into fixed-time convergence bounds. It includes a mass-conserving ghost-node example, a hand-calculated string step, and two measured second-order refinement tables. No functional-analysis results are assumed. All 61 prior manuscripts and their individual metadata are unchanged.

@@ -117,6 +117,40 @@
       ]
     },
     {
+      "id": "finite-difference-boundary-energy-convergence-foundations",
+      "title": "Differential Equations · Boundary Grids, Discrete Energy, and Convergence",
+      "role": "deep_dive",
+      "parent": "survey",
+      "lectures": [
+        "095000",
+        "096000",
+        "097000",
+        "098000"
+      ],
+      "assumed_background": [
+        "Elementary calculus, sine and cosine, first-order time stepping, simple matrices and the previously introduced heat and wave equations; no advanced PDE functional analysis."
+      ],
+      "preparation_collections": [
+        "differential-equations:boundary-value-fourier-foundations",
+        "differential-equations:fourier-transform-method-of-lines-foundations",
+        "differential-equations:numerical-time-stepping-foundations"
+      ],
+      "related_collections": [
+        "survey",
+        "fourier-transform-method-of-lines-foundations",
+        "boundary-value-fourier-foundations",
+        "adaptive-integration-events-foundations"
+      ],
+      "tags": [
+        "Finite differences",
+        "Boundary conditions",
+        "Heat equation",
+        "Wave equation",
+        "Energy stability",
+        "Convergence"
+      ]
+    },
+    {
       "id": "sampling-dft-fft-foundations",
       "title": "Differential Equations · Sampling, Discrete Fourier Transform and FFT from Scratch",
       "role": "deep_dive",

@@ -959,6 +959,20 @@
       "url": "https://www.ammar-hakim.org/_static/files/1010-muscl-hancock.pdf",
       "access": "free_no_login",
       "notes": "Piecewise-linear reconstruction, half-step predictor, Riemann face flux and limiter roles."
+    },
+    "de-langtangen-linge-finite-difference": {
+      "title": "Hans Petter Langtangen and Svein Linge, Finite Difference Computing with PDEs: A Modern Software Approach, Springer (2017)",
+      "kind": "open_access_textbook",
+      "url": "https://link.springer.com/book/10.1007/978-3-319-55456-3",
+      "access": "free_no_login",
+      "notes": "Open textbook chapters on wave and diffusion finite differences, boundary handling, CFL and numerical verification."
+    },
+    "de-illinois-wave-cfl": {
+      "title": "Michael T. Heath, Interactive Educational Modules in Scientific Computing: CFL Condition for the Wave Equation",
+      "kind": "academic_teaching_resource",
+      "url": "https://heath.cs.illinois.edu/iem/pde/wavecfl/",
+      "access": "free_no_login",
+      "notes": "Wave numerical/physical domains of dependence and the necessity but not automatic sufficiency of CFL restrictions."
     }
   }
 }

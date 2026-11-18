@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "lecture_id": "098000",
+  "transcript": "098000-from-grid-accuracy-to-pde-convergence.md",
+  "related_resources": [
+    {
+      "source_id": "de-langtangen-linge-finite-difference",
+      "reason": "Numerical construction and verification of diffusion/wave finite differences and boundary treatments."
+    },
+    {
+      "source_id": "de-mit-18-086-fd",
+      "reason": "Finite difference methods, CFL stability, leapfrog and convergence as taught in computational PDEs."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original foundation-level boundary-grid, heat stability/energy, leapfrog wave, and PDE convergence lectures with mathematical companions. Preserve the prior 61 manuscripts and their individual metadata."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "differential-equations:096000",
+        "reason": "Provides the discrete maximum principle and heat stability estimates."
+      },
+      {
+        "lecture_id": "differential-equations:097000",
+        "reason": "Provides wave CFL and the discrete energy estimate."
+      },
+      {
+        "lecture_id": "differential-equations:065000",
+        "reason": "Distinguishes local and global errors in time integration."
+      }
+    ],
+    "recommended": [],
+    "background": [
+      "Elementary calculus, derivatives, first-order time steps, two-by-two matrix arithmetic and elementary trigonometry; finite-difference and heat/wave modes supplied by prerequisite lectures. No advanced functional analysis required."
+    ],
+    "readiness_checks": [
+      "Compute the exact sine-mode heat error at two spatial resolutions.",
+      "Explain the error recursion that combines residual consistency and heat stability.",
+      "Distinguish numerical verification from physical model validation."
+    ]
+  }
+}

@@ -1,6 +1,6 @@
 # Differential Equations and Dynamical Systems — Foundation-First Backlog
 
-The pack now has **61 lecture manuscripts**: 13 inherited consolidated manuscripts and 48 worked foundations spanning `047000`–`094000` (2026-11-17). Existing consolidated and advanced manuscript prose remains unchanged. Lecture length is driven by teaching needs, not a fixed duration.
+The pack now has **65 lecture manuscripts**: 13 inherited consolidated manuscripts and 52 worked foundations spanning `047000`–`098000` (2026-11-18). Existing consolidated and advanced manuscript prose remains unchanged. Lecture length is driven by teaching needs, not a fixed duration.
 
 ## Foundation-first additions completed
 
@@ -16,11 +16,12 @@ The pack now has **61 lecture manuscripts**: 13 inherited consolidated manuscrip
 - `083000`–`086000`: embedded/adaptive local error tests, componentwise tolerances, event roots and impact jumps, and symplectic/energy-aware oscillator stepping.
 - `087000`–`090000`: short-time Fourier transform, time–frequency uncertainty, chirps/impacts and spectrogram interpretation, noise PSD normalization and Welch averaging.
 - `091000`–`094000`: Burgers shock formation, entropy-admissible Riemann problems, Godunov fluxes, MUSCL reconstruction, and slope limiting.
+- `095000`–`098000`: endpoint forcing and ghost nodes, heat maximum principle and discrete energy, centered wave leapfrog energy and CFL, and consistency-stability-convergence with refinement tables.
 
 ## Highest-priority remaining foundational gaps
 
-1. **Elementary boundary numerical methods.** Accuracy and stability of fixed-boundary wave/heat discretizations, using the previously constructed Fourier modes and method of lines.
-2. **Introductory probability for stochastic modeling.** Random variables, expectation, variance, covariance and Monte Carlo sampling, presented separately from the spectral-estimation applications.
+1. **Introductory probability for stochastic modeling.** Random variables, expectation, variance, covariance and Monte Carlo sampling, presented separately from the spectral-estimation applications.
+2. **Foundational statistics and uncertainty.** Sampling distributions, bias, confidence intervals and stochastic simulation error, rather than only spectral-noise applications.
 
 ## Already covered but compressed
 
@@ -47,3 +48,7 @@ The `087000`–`090000` route builds the short-time Fourier transform and exact 
 ## Nonlinear scalar conservation and limited reconstruction foundation bridge
 
 The `091000`–`094000` route shows characteristic crossing and finite-time slope blow-up, then distinguishes conserved weak shocks from entropy-admissible shocks and rarefactions. It derives the exact scalar Godunov flux, checks all face fluxes of a four-cell periodic grid, and constructs minmod/MUSCL–Hancock updates. The lessons are confined to their scalar hypotheses; they do not claim that conservation alone implies admissibility or that slope limiting alone guarantees nonlinear multidimensional TVD. All 57 earlier manuscripts and metadata remain unchanged.
+
+## Finite-difference boundary methods and PDE convergence foundation bridge
+
+The `095000`–`098000` route supplies the missing construction-level boundary treatment for heat and wave grids, with explicit Dirichlet boundary rows, mass-preserving Neumann ghost nodes, maximum principles, summation by parts, staggered leapfrog energy, and CFL-dependent stability. A discrete error recursion proves fixed-time heat convergence under smooth compatible data; exact heat and wave mode refinement tables check second-order observed accuracy. The 61 earlier manuscripts and metadata remain unchanged.

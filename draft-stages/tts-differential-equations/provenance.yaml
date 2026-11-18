@@ -240,3 +240,19 @@ transcript:
       Burgers steepening, shock and rarefaction entropy criteria, Godunov interface
       fluxes, and MUSCL-limited reconstruction. Preserve the 57 earlier manuscripts
       and their individual metadata.
+  - date: '2026-11-18'
+    models:
+    - GPT-6
+    sources:
+    - lecture: '095000'
+      composition_record: metadata/095000.json
+    - lecture: '096000'
+      composition_record: metadata/096000.json
+    - lecture: '097000'
+      composition_record: metadata/097000.json
+    - lecture: '098000'
+      composition_record: metadata/098000.json
+    scope: Add four original foundation-level numerical PDE boundary-value lectures,
+      from Dirichlet and Neumann heat boundary rows through discrete maximum
+      principles, leapfrog wave energy, and explicit convergence benchmarks.
+      Preserve all prior 61 manuscripts and per-lecture metadata unchanged.
