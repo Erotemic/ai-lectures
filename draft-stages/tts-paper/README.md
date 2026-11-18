@@ -60,3 +60,12 @@ uv run --extra serve --extra test pytest tests/test_audio_course_tracks.py tests
 
 Sidecar anchors are validated with `reference_metadata.validate_lecture` against
 the shared catalog `draft-stages/tts-lectures/metadata/sources.json`.
+
+
+## Listening-review candidates
+
+Earlier proof-pacing reviews left the graph-coordinate arguments and their
+quantitative angle bounds, especially 014000 and 020000–021000, as possible
+follow-up listening targets. Check the current complete spoken arguments and
+listener feedback before changing them; old revision receipts do not establish
+that a passage is still deficient.

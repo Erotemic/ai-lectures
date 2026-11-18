@@ -189,3 +189,16 @@ Potential next high-impact missing figures for a future catalog audit: **Bhaskar
 Six substantial, self-contained historical portraits (`121000`–`126000`) extend the track to **147 episodes covering 126 figures**. Bhāskara II explores mathematical astronomy, Sanskrit verse teaching, indeterminate equations and the later Līlāvatī legend; Qin Jiushao connects the Southern Song government and Mongol conflict with simultaneous remainders, polynomial algorithms and hostile records about his official conduct. George Dantzig traces a family of mathematicians, wartime logistics, the simplex algorithm, RAND, decomposition and the rise of operations research. Jean Leray connects analysis and fluid equations with his prisoner-of-war years, sheaves and spectral sequences. Michael Atiyah follows an Anglo-Lebanese childhood between continents to Hodge, K-theory, Singer, instantons and mathematical institutions. Israel Gelfand follows vocational exclusion, Moscow self-education, functional analysis, a demanding weekly seminar, mathematical biology, political obstacles and Rutgers.
 
 All six biographies keep their mathematics in the spoken narrative, with exact formulas and historical qualifications in non-spoken companions. Specialist and Wikipedia links, pack-local citation records and listening-route entries accompany the manuscripts. Neither the 61-equation numerical example nor the global Navier–Stokes regularity discussion should be paraphrased without the companion's mathematical cautions. Source-only handoff: no images, audio, TTS, runtime exporter files or changes outside this history pack.
+
+
+## Outstanding request from the earlier portrait list
+
+The November 12 requested subjects have current manuscripts except **Zeno of
+Elea**. The old suggested next IDs, 043000 and 044000, are already occupied by
+Lebesgue and Hinton; check the current track before allocating a new ID. The
+other people marked planned in that old list, including Tao, Ramanujan, Dirac,
+Tesla, Kepler, Fermat and Klein, have been delivered.
+
+The earlier editorial audit also left a listening-review question about the
+long mathematical digressions in the Davis and Galois portraits. This is a
+review candidate, not evidence that their arguments should be removed.

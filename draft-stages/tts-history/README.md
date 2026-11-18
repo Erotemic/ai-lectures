@@ -66,7 +66,7 @@ Earlier additions include:
 - **Gottfried Wilhelm Leibniz (`039000`, `039500`)** — the earlier single portrait is now expanded into two historical parts, described above; the original lectures’ mathematics is kept in the later technical sections.
 - **Pythagoras (`040000`)** — Samos and Croton, religious-philosophical community, music and proportion, the right-triangle theorem, integer triples, irrationality, numerical cultures before Pythagoras, and later Pythagorean traditions. The lecture distinguishes the historical teacher from mathematics attributed to him centuries later. **4,811 spoken words**, about **33.2 minutes** at 145 WPM.
 
-These entries follow Galois (`037000`) and Gödel (`038000`) without altering any previously indexed narration. Future expansion subjects and IDs are recorded in `docs/history-portrait-expansion-backlog-2026-11-12.md`. Audio is generated on demand; no binary media are tracked in this overlay.
+These entries follow Galois (`037000`) and Gödel (`038000`) without altering any previously indexed narration. Current revision priorities and the remaining Zeno request are recorded in [PORTRAIT_DIRECTION.md](PORTRAIT_DIRECTION.md). Audio is generated on demand; no binary media are tracked in this overlay.
 
 
 Portraits `041000` (Joseph Fourier) and `042000` (Hypatia of Alexandria) extend the History track with the mathematics of heat and trigonometric decomposition, and late-antique Alexandrian mathematics, source transmission, and philosophy. Both contain standalone narration and display-only mathematical companions.
@@ -103,11 +103,11 @@ In the November 2026 operator-history human-portrait revision, the lectures on J
 
 ## Human-portrait and continuity revisions, batch 6 (13 November 2026)
 
-Paul Halmos (`014000`), Jacques Dixmier (`015000`), Tosio Kato (`016000`), and Marvin Rosenblum (`017000`) now include additional documented scenes from their education, personal life, teaching, colleagues, and later years. Mathematical companions are unchanged. Sources and claim anchors are recorded in the individual metadata, and narration runtimes in `track.json` reflect the new text. See `docs/history-four-human-continuity-revisions-batch6-2026-11-13.md`.
+Paul Halmos (`014000`), Jacques Dixmier (`015000`), Tosio Kato (`016000`), and Marvin Rosenblum (`017000`) now include additional documented scenes from their education, personal life, teaching, colleagues, and later years. Mathematical companions are unchanged. Sources and claim anchors are recorded in the individual metadata, and narration runtimes in `track.json` reflect the new text.
 
 ## Human-portrait and continuity revisions, batch 7 (13 November 2026)
 
-Chandler Davis (`018000`), William Kahan (`019000`), Per-Åke Wedin (`020000`), and Åke Björck (`021000`) have further revisions that connect their mathematics to their education, friendships and family where documented, political or institutional pressures, teaching, students, and collaborators. The first-person interviews with Davis and Kahan supply substantial personal history. Wedin and Björck draw on Swedish institutional records, a student's doctoral acknowledgments, and a colleague's memorial. The display-only mathematical companions and lecture IDs remain unchanged. Sources and claim anchors are recorded in the individual metadata. See `docs/history-four-human-continuity-revisions-batch7-2026-11-13.md`.
+Chandler Davis (`018000`), William Kahan (`019000`), Per-Åke Wedin (`020000`), and Åke Björck (`021000`) have further revisions that connect their mathematics to their education, friendships and family where documented, political or institutional pressures, teaching, students, and collaborators. The first-person interviews with Davis and Kahan supply substantial personal history. Wedin and Björck draw on Swedish institutional records, a student's doctoral acknowledgments, and a colleague's memorial. The display-only mathematical companions and lecture IDs remain unchanged. Sources and claim anchors are recorded in the individual metadata.
 
 ## New portraits, November 2026: 043000–046000
 

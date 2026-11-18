@@ -149,3 +149,19 @@ Read [the lecture style rules](../../LECTURE_STYLE_RULES.md) before changing nar
 ## Earlier editorial records
 
 These reports describe the pre-consolidation component drafts and remain historical evidence: [standalone-revision-report-2026-11-08.md](standalone-revision-report-2026-11-08.md), [pedagogical-structure-revision-report-2026-11-08.md](pedagogical-structure-revision-report-2026-11-08.md), [llmism-revision-report-2026-11-08.md](llmism-revision-report-2026-11-08.md), [CURRICULUM_REVISION_STATUS.md](CURRICULUM_REVISION_STATUS.md).
+
+
+## Follow-up questions
+
+The earlier listening reviews identified operator domains, norm and gap
+hypotheses in the Sylvester route, and the transition to spectral integration
+as places to revisit when listener feedback identifies a confusing passage.
+These are review prompts for existing manuscripts, not missing lectures or
+requirements to expand every recording. The later reviews already developed
+the crossed-residual and spectral-calculus examples mentioned in older reports.
+
+Research-extension ideas to compare with current coverage include
+Trotter–Kato convergence, form-generated semigroups, approximation-number
+inequalities, trace duality and Schatten Hölder bounds, and differentiability
+of spectral functions. Check the current manuscripts and companions before
+commissioning another treatment of one of these subjects.

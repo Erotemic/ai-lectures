@@ -226,6 +226,13 @@ Unnarrated Davis–Kahan decks and standalone demos are maintained in the `dk`
 repository. This checkout keeps the scene implementations and VTK asset renderer
 needed by the narrated sine-theta lecture, the narrated matching lectures, and
 shared media production. Checked mathematical models and their tests remain here.
+
+Each source pack's `track.json`, manuscripts, `metadata/`, and README describe
+its current content. Keep ongoing research and
+continuation notes with that pack. Integrated revision receipts and cached
+inventory snapshots belong in Git history; `docs/` holds shared guides and
+planning material that still adds context or records unfinished work.
+
 The [original vision and history plan](docs/planning/lecture-project-vision-and-history.md)
 records the mathematical project's goals.
 

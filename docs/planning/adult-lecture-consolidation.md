@@ -24,9 +24,11 @@ Across the 32 affected packs, 1,637 source parts became 310 combined lecture
 manuscripts. Another 266 already suitable manuscripts in those packs remain
 individual entries: the affected inventory is now 576 rather than 1,903.
 The other adult packs already contain developed lectures and were left intact.
-The [machine-readable inventory](adult-lecture-consolidation-2026-11-16.json)
-lists every affected pack, combined manuscript, original component ID, measured
-length, and short-format exception.
+These measurements describe the November 16 handoff, not the live inventory.
+Current pack indexes own the available manuscripts. Each combined lecture's
+metadata retains its original component IDs, source hashes, attribution and
+claim records under `consolidation`; the redundant dated inventory has been
+retired. The historical snapshot remains available in Git.
 
 | Examples | Before | After |
 | --- | ---: | ---: |
