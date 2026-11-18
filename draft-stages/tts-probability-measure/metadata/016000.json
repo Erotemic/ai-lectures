@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "lecture_id": "016000",
+  "transcript": "016000-joint-distributions-and-covariance-worked.md",
+  "related_resources": [
+    {
+      "source_id": "pm-mit",
+      "reason": "Probability and random variable foundations"
+    },
+    {
+      "source_id": "pm-blitzstein",
+      "reason": "Joint distributions, conditional probability and covariance"
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original worked probability and Monte Carlo foundation lecture with mathematical companion; prior manuscripts preserved."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "probability-measure:003000",
+        "reason": "Distributions, expectation and variance of random variables."
+      },
+      {
+        "lecture_id": "probability-measure:002000",
+        "reason": "Conditional probability and independence in a finite sample space."
+      }
+    ],
+    "recommended": [],
+    "background": [
+      "Arithmetic, fractions, basic functions, and elementary probability; simple integrals for Monte Carlo lectures. No measure theory required."
+    ],
+    "readiness_checks": [
+      "Build the joint probability table from four cells and recover both marginals.",
+      "Calculate variance of a sum using covariance and check it against an exact distribution.",
+      "Give an example of dependent yet uncorrelated random variables."
+    ]
+  }
+}

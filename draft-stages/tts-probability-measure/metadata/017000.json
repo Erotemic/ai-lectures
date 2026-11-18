@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "lecture_id": "017000",
+  "transcript": "017000-sampling-error-what-an-estimate-means.md",
+  "related_resources": [
+    {
+      "source_id": "pm-owen-mc",
+      "reason": "Monte Carlo construction and variance-reduction theory"
+    },
+    {
+      "source_id": "pm-hoeffding",
+      "reason": "Bounded-sum finite-sample concentration"
+    },
+    {
+      "source_id": "pm-mit",
+      "reason": "Probability and random variable foundations"
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original worked probability and Monte Carlo foundation lecture with mathematical companion; prior manuscripts preserved."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "probability-measure:003000",
+        "reason": "Distributions, expectation and variance of random variables."
+      },
+      {
+        "lecture_id": "probability-measure:016000",
+        "reason": "Joint probabilities and how covariance affects sampling error."
+      }
+    ],
+    "recommended": [
+      {
+        "lecture_id": "probability-measure:006000",
+        "reason": "Optional deeper treatment of laws of large numbers, concentration and normal approximation."
+      }
+    ],
+    "background": [
+      "Arithmetic, fractions, basic functions, and elementary probability; simple integrals for Monte Carlo lectures. No measure theory required."
+    ],
+    "readiness_checks": [
+      "Calculate the standard error of a Bernoulli sample proportion.",
+      "Distinguish a normal-approximation interval from a finite-sample Hoeffding guarantee.",
+      "Identify the independent sampling unit in clustered data."
+    ]
+  }
+}

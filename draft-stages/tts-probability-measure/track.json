@@ -17,7 +17,8 @@
     "markov-chains",
     "product-measures",
     "weak-convergence",
-    "dependent-concentration"
+    "dependent-concentration",
+    "worked-probability-monte-carlo"
   ],
   "lectures": [
     {
@@ -25,9 +26,9 @@
       "title": "Measuring Uncertainty: Events, Evidence, and Expectation",
       "section": "event-spaces",
       "file": "001000-events-evidence-expectation.md",
-      "spoken_words": 3683,
+      "spoken_words": 3717,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 25.4,
+      "estimated_minutes_at_145_wpm": 25.6,
       "tags": [
         "Events and probability",
         "Conditional probability",
@@ -39,9 +40,9 @@
       "title": "Counting, Conditioning, and Independence: How Evidence Changes the Sample Space",
       "section": "conditioning-independence",
       "file": "002000-counting-conditioning-independence.md",
-      "spoken_words": 3118,
+      "spoken_words": 3175,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 21.5,
+      "estimated_minutes_at_145_wpm": 21.9,
       "tags": [
         "Combinatorics",
         "Conditional probability",
@@ -53,9 +54,9 @@
       "title": "Random Variables, Distributions, and Expectation: Turning Outcomes into Quantities",
       "section": "random-variables",
       "file": "003000-random-variables-and-expectation.md",
-      "spoken_words": 3314,
+      "spoken_words": 3359,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 22.9,
+      "estimated_minutes_at_145_wpm": 23.2,
       "tags": [
         "Random variables",
         "Distributions",
@@ -67,9 +68,9 @@
       "title": "Sigma Algebras and Measure: How Probability Handles Infinite Events",
       "section": "measurable-spaces",
       "file": "004000-sigma-algebras-measures-and-almost-sure.md",
-      "spoken_words": 3245,
+      "spoken_words": 3260,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 22.4,
+      "estimated_minutes_at_145_wpm": 22.5,
       "tags": [
         "Measure theory",
         "Sigma algebras",
@@ -81,9 +82,9 @@
       "title": "Conditional Expectation: Information, Averages, and Projection",
       "section": "conditional-expectation",
       "file": "005000-conditional-expectation-information-and-projection.md",
-      "spoken_words": 3049,
+      "spoken_words": 3075,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 21.0,
+      "estimated_minutes_at_145_wpm": 21.2,
       "tags": [
         "Measure theory",
         "Functional analysis",
@@ -96,9 +97,9 @@
       "title": "Large Numbers, Concentration, and Normal Approximation",
       "section": "limit-theorems",
       "file": "006000-laws-concentration-and-normal-approximation.md",
-      "spoken_words": 3002,
+      "spoken_words": 3035,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 20.7,
+      "estimated_minutes_at_145_wpm": 20.9,
       "tags": [
         "Limit theorems",
         "Concentration inequalities",
@@ -110,9 +111,9 @@
       "title": "Martingales, Filtrations, and the Limits of Stopping Rules",
       "section": "martingales",
       "file": "007000-martingales-filtrations-and-stopping.md",
-      "spoken_words": 3073,
+      "spoken_words": 3092,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 21.2,
+      "estimated_minutes_at_145_wpm": 21.3,
       "tags": [
         "Martingales",
         "Filtrations",
@@ -124,9 +125,9 @@
       "title": "Bayesian Inference, Identification, and Calibration",
       "section": "inference-calibration",
       "file": "008000-bayesian-inference-identification-and-calibration.md",
-      "spoken_words": 3071,
+      "spoken_words": 3113,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 21.2,
+      "estimated_minutes_at_145_wpm": 21.5,
       "tags": [
         "Statistics",
         "Bayesian inference",
@@ -139,9 +140,9 @@
       "title": "Markov Chains: Stationarity, Mixing, and Randomized Computation",
       "section": "markov-chains",
       "file": "009000-markov-chains-stationarity-mixing.md",
-      "spoken_words": 3119,
+      "spoken_words": 3152,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 21.5,
+      "estimated_minutes_at_145_wpm": 21.7,
       "tags": [
         "Algorithms",
         "Markov chains",
@@ -154,7 +155,7 @@
       "title": "Product Measures, Fubini, and Conditional Distributions",
       "section": "product-measures",
       "file": "010000-product-measures-fubini-conditioning.md",
-      "spoken_words": 3112,
+      "spoken_words": 3124,
       "draft_status": "substantive",
       "estimated_minutes_at_145_wpm": 21.5,
       "tags": [
@@ -169,9 +170,9 @@
       "title": "Weak Convergence: When Distributions Approach a Limit",
       "section": "weak-convergence",
       "file": "011000-weak-convergence-continuous-mapping.md",
-      "spoken_words": 3218,
+      "spoken_words": 3248,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 22.2,
+      "estimated_minutes_at_145_wpm": 22.4,
       "tags": [
         "Real analysis",
         "Weak convergence",
@@ -184,13 +185,79 @@
       "title": "Concentration Beyond IID: Bounded Differences, Martingales, and Dependence",
       "section": "dependent-concentration",
       "file": "012000-concentration-dependence-adaptation.md",
-      "spoken_words": 3285,
+      "spoken_words": 3326,
       "draft_status": "substantive",
-      "estimated_minutes_at_145_wpm": 22.7,
+      "estimated_minutes_at_145_wpm": 22.9,
       "tags": [
         "Concentration inequalities",
         "Martingales",
         "Dependent random variables"
+      ]
+    },
+    {
+      "id": "016000",
+      "title": "Joint Distributions and Covariance, Calculated Rather Than Memorized",
+      "section": "worked-probability-monte-carlo",
+      "file": "016000-joint-distributions-and-covariance-worked.md",
+      "spoken_words": 1538,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 10.6,
+      "tags": [
+        "Probability",
+        "Joint distributions",
+        "Covariance",
+        "Conditional probability",
+        "Sampling dependence"
+      ]
+    },
+    {
+      "id": "017000",
+      "title": "Sampling Error: What an Estimate Actually Means",
+      "section": "worked-probability-monte-carlo",
+      "file": "017000-sampling-error-what-an-estimate-means.md",
+      "spoken_words": 1817,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 12.5,
+      "tags": [
+        "Probability",
+        "Sampling error",
+        "Standard error",
+        "Confidence intervals",
+        "Concentration bounds"
+      ]
+    },
+    {
+      "id": "018000",
+      "title": "Monte Carlo Integration from Scratch",
+      "section": "worked-probability-monte-carlo",
+      "file": "018000-monte-carlo-integration-from-scratch.md",
+      "spoken_words": 1769,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 12.2,
+      "tags": [
+        "Probability",
+        "Monte Carlo",
+        "Monte Carlo integration",
+        "Law of large numbers",
+        "Numerical integration",
+        "Random number generation"
+      ]
+    },
+    {
+      "id": "019000",
+      "title": "More Accuracy from the Same Samples: Variance Reduction",
+      "section": "worked-probability-monte-carlo",
+      "file": "019000-monte-carlo-variance-reduction-worked.md",
+      "spoken_words": 1936,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 13.4,
+      "tags": [
+        "Probability",
+        "Monte Carlo",
+        "Variance reduction",
+        "Importance sampling",
+        "Stratified sampling",
+        "Control variates"
       ]
     }
   ],

@@ -1,0 +1,60 @@
+{
+  "default_collection": "established-course",
+  "collections": [
+    {
+      "id": "established-course",
+      "title": "Probability and Measure · Established Course",
+      "role": "main",
+      "lectures": [
+        "001000",
+        "002000",
+        "003000",
+        "004000",
+        "005000",
+        "006000",
+        "007000",
+        "008000",
+        "009000",
+        "010000",
+        "011000",
+        "012000"
+      ],
+      "assumed_background": [
+        "Fractions, functions, sets and basic algebra; later lectures supply advanced preparation."
+      ],
+      "tags": [
+        "Probability",
+        "Measure theory",
+        "Statistics"
+      ]
+    },
+    {
+      "id": "worked-probability-monte-carlo",
+      "title": "Probability · Worked Sampling and Monte Carlo Foundations",
+      "role": "deep_dive",
+      "parent": "established-course",
+      "lectures": [
+        "003000",
+        "016000",
+        "017000",
+        "018000",
+        "019000"
+      ],
+      "assumed_background": [
+        "Elementary probability, arithmetic and graph reading; derivatives and one-dimensional integrals for the Monte Carlo examples. No advanced probability or measure theory."
+      ],
+      "related_collections": [
+        "established-course",
+        "differential-equations:numerical-time-stepping-foundations"
+      ],
+      "tags": [
+        "Probability",
+        "Monte Carlo",
+        "Random variables",
+        "Covariance",
+        "Sampling error",
+        "Numerical integration"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "lecture_id": "018000",
+  "transcript": "018000-monte-carlo-integration-from-scratch.md",
+  "related_resources": [
+    {
+      "source_id": "pm-owen-mc",
+      "reason": "Monte Carlo construction and variance-reduction theory"
+    },
+    {
+      "source_id": "pm-budd-mc",
+      "reason": "Direct sampling and importance-sampling derivations"
+    },
+    {
+      "source_id": "pm-mit",
+      "reason": "Probability and random variable foundations"
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original worked probability and Monte Carlo foundation lecture with mathematical companion; prior manuscripts preserved."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "probability-measure:003000",
+        "reason": "Distributions, expectation and variance of random variables."
+      },
+      {
+        "lecture_id": "probability-measure:017000",
+        "reason": "Sampling uncertainty, bias, standard error and independent replications."
+      }
+    ],
+    "recommended": [
+      {
+        "lecture_id": "probability-measure:006000",
+        "reason": "Optional deeper treatment of laws of large numbers, concentration and normal approximation."
+      }
+    ],
+    "background": [
+      "Arithmetic, fractions, basic functions, and elementary probability; simple integrals for Monte Carlo lectures. No measure theory required."
+    ],
+    "readiness_checks": [
+      "Rewrite a definite integral as an expectation under a uniform distribution.",
+      "Derive an unbiased estimator and its variance.",
+      "Estimate the sampling standard error for the quarter-disk area estimator."
+    ]
+  }
+}
