@@ -434,3 +434,12 @@ A more continuous overview format adds **four manuscripts across two works**; ad
 - Each has a **single uninterrupted story** and a **separate analysis**, with source records, claim locators and an early-modern listening route. These are original English overviews, not translations, chapter-by-chapter readings or exhaustive plot catalogs.
 
 The literature-survey index now contains **165 entries**. No generated audio or images are included.
+
+
+## Eighteenth-century experimental novel and Heian court prose (17 November 2026)
+
+- `168000` and `169000` add **Tristram Shandy**: a single, uninterrupted, whole-work guided telling of Laurence Sterne’s nine volumes (1759–1767), followed by analysis of form, reading time, print, absurdity, sympathy and social identity. The narration is not a chapter-by-chapter inventory or a reproduction of the pages’ physical effects; black/marbled pages are explained and linked to primary examples.
+- `170000` and `171000` add **The Pillow Book**: an original guided selection from Sei Shōnagon’s court memoir, lists and occasional prose with literary analysis. The work is not assigned a fictitious plot. Episode identifiers refer to **Koten Library's 1903 Shunshoshō-line presentation**, whose divisions differ from the modern Sankanbon. Waley's 1928 English version is only a selected quarter of the book, so coverage is explicitly **selected**, not complete.
+- Following the updated editorial preference, each work has one continuous telling/guided reading plus a separate analysis; no 10-minute serial fragments are introduced. New scripts and metadata reference identifiable narrative passages, original-language sources or documented historical context; no copyrighted modern translations have been reproduced.
+
+The literature-survey track contains **169 indexed lectures**. Durations are descriptive measurements of the narration, not editorial limits. The archive contains no binary media.

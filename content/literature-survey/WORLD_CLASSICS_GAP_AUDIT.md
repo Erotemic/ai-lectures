@@ -264,3 +264,11 @@ The source audit for these two has advanced from 'research before authoring' to 
 - **Next gap review:** prioritize a different century/region while checking existing coverage, potentially eighteenth-century British experimental fiction such as *Tristram Shandy*, or a significant African or American work not already represented. This is an investigative queue, not a fixed commission.
 
 **Current literature-survey index: 165 entries.**
+
+
+## Experimental British novel and Heian court prose rotation (2026-11-17)
+
+- **Tristram Shandy** `168000`–`169000`: central nine-volume narrative and full-form analysis, one continuous guided telling; physical page experiments described, not falsely reproduced in audio. Primary text grounded in the edition-documented Gifu/Oxford Text Archive digital transcription and facsimile scholarship.
+- **The Pillow Book** `170000`–`171000`: thematic selection covering several identifiable lists, nature passages and Teishi-court episodes plus independent analysis. This is **selected reading**, not exhaustive coverage; Koten Library Shunshoshō edition and the differences with Sankanbon are stated. Waley 1928 translated approximately one quarter and is not passed off as complete.
+- **Rotation principle:** Choose subsequent works by literary influence and material gaps, move among periods and geographies, merge naturally contiguous short narrations into a single substantial lecture rather than splitting at arbitrary time points.
+- **Potential next research:** *The Book of Disquiet* (Portuguese modernist fragments), *The Narrow Road to the Deep North* (Japanese haibun), *The Master and Margarita* (Russian twentieth-century prose), and *The Tale of the Bamboo Cutter* further source-level study (already has an overview). Check the complete index first; avoid pretending fragmentary works have a seamless original plot.
