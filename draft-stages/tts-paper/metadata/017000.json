@@ -8,7 +8,9 @@
       "id": "017000-h01",
       "anchor": "In infinite dimensions Davis and Kahan assume the angle data are compact, so that this list exists.",
       "kind": "source_scope",
-      "source_ids": ["davis-kahan-1970"],
+      "source_ids": [
+        "davis-kahan-1970"
+      ],
       "source_locator": "Section 4 setup and Proposition 4.1",
       "audit_status": "pending_primary_passage_comparison"
     },
@@ -16,7 +18,9 @@
       "id": "017000-h02",
       "anchor": "That is Corollary 4.1: the direct rotation minimizes the restricted displacement in every unitarily invariant norm.",
       "kind": "source_attribution",
-      "source_ids": ["davis-kahan-1970"],
+      "source_ids": [
+        "davis-kahan-1970"
+      ],
       "source_locator": "Corollary 4.1",
       "audit_status": "pending_primary_passage_comparison"
     },
@@ -24,7 +28,9 @@
       "id": "017000-h03",
       "anchor": "Chandler Davis established extremal properties of the direct rotation in his 1958 paper on the separation of two linear subspaces, including the Hilbert–Schmidt case and finite-dimensional Schatten norms with exponent at least two.",
       "kind": "historical_attribution",
-      "source_ids": ["davis-1958-separation"],
+      "source_ids": [
+        "davis-1958-separation"
+      ],
       "source_locator": "Theorems 7.3-7.4 (as cited in the journal paper, Section 2.7)",
       "audit_status": "pending_primary_passage_comparison"
     }
@@ -42,5 +48,6 @@
       "source_id": "davis-1958-separation",
       "reason": "Davis's earlier extremal results for the direct rotation in Hilbert-Schmidt and Schatten norms."
     }
-  ]
+  ],
+  "description": "Formulates the transport problem for maps carrying one subspace to another and distinguishes displacement restricted to the source space from displacement on the whole ambient space."
 }

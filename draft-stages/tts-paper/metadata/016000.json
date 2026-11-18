@@ -8,7 +8,9 @@
       "id": "016000-h01",
       "anchor": "Section 8 of the Davis–Kahan paper resolves this for an important class of perturbations, those that only couple a subspace to its complement.",
       "kind": "source_scope",
-      "source_ids": ["davis-kahan-1970"],
+      "source_ids": [
+        "davis-kahan-1970"
+      ],
       "source_locator": "Section 8 introduction and Theorem 8.1",
       "audit_status": "pending_primary_passage_comparison"
     },
@@ -16,7 +18,9 @@
       "id": "016000-h02",
       "anchor": "Davis and Kahan call this spectral repulsion.",
       "kind": "source_attribution",
-      "source_ids": ["davis-kahan-1970"],
+      "source_ids": [
+        "davis-kahan-1970"
+      ],
       "source_locator": "Theorem 8.1, parts (ii)-(iii) and interpretation",
       "audit_status": "pending_primary_passage_comparison"
     }
@@ -34,5 +38,6 @@
       "source_id": "wiki-quadratic-form",
       "reason": "Quadratic-form inequalities such as A1 - alpha <= C1 (Lambda1 - alpha) C1."
     }
-  ]
+  ],
+  "description": "Examines off-diagonal perturbations, the need to select the intended spectral branch, and the eigenvalue-repulsion geometry behind stronger angle estimates."
 }

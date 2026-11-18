@@ -8,7 +8,9 @@
       "id": "009000-h01",
       "anchor": "Davis and Kahan's Theorem 5.2 handles this case.",
       "kind": "source_attribution",
-      "source_ids": ["davis-kahan-1970"],
+      "source_ids": [
+        "davis-kahan-1970"
+      ],
       "source_locator": "Theorem 5.2",
       "audit_status": "pending_primary_passage_comparison"
     }
@@ -30,5 +32,6 @@
       "source_id": "bhatia-1997",
       "reason": "Chapter VII: integral representations of solutions of AX - XB = Y and the resulting norm bounds."
     }
-  ]
+  ],
+  "description": "Examines the ordered-separation configuration behind Theorem 5.2 and explains how the arrangement of spectral blocks enters the Sylvester estimate."
 }

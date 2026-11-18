@@ -8,7 +8,9 @@
       "id": "013000-h01",
       "anchor": "Davis and Kahan announce a convention at the start of their paper: some of their results are vacuous when certain norms occurring in them fail to exist, and they will not mention this at each statement.",
       "kind": "source_scope",
-      "source_ids": ["davis-kahan-1970"],
+      "source_ids": [
+        "davis-kahan-1970"
+      ],
       "source_locator": "Section 1, paper-wide convention after the setting",
       "audit_status": "pending_primary_passage_comparison"
     },
@@ -16,7 +18,9 @@
       "id": "013000-h02",
       "anchor": "Davis and Kahan's Lemma 5.1 says: for each index j, the j-th approximation number of K times Omega t converges to the j-th approximation number of K.",
       "kind": "source_attribution",
-      "source_ids": ["davis-kahan-1970"],
+      "source_ids": [
+        "davis-kahan-1970"
+      ],
       "source_locator": "Lemma 5.1",
       "audit_status": "pending_primary_passage_comparison"
     },
@@ -24,7 +28,9 @@
       "id": "013000-h03",
       "anchor": "Robert Schatten developed normed operator ideals in his 1950 monograph A Theory of Cross-Spaces, and the systematic theory of symmetrically normed ideals was later developed by Gohberg and Krein.",
       "kind": "historical_attribution",
-      "source_ids": ["bhatia-1997"],
+      "source_ids": [
+        "bhatia-1997"
+      ],
       "source_locator": "Secondary account; primary: Schatten, A Theory of Cross-Spaces (Princeton, 1950); Gohberg and Krein, Translations of Mathematical Monographs 18 (AMS, 1969). Neither primary has a verified link in this catalog.",
       "audit_status": "pending_primary_passage_comparison"
     },
@@ -32,7 +38,9 @@
       "id": "013000-h04",
       "anchor": "Davis and Kahan define the singular values of a bounded operator through the same min-max formula used for matrices, and note that for noncompact operators the language of spectral multiplicity may be more appropriate.",
       "kind": "source_scope",
-      "source_ids": ["davis-kahan-1970"],
+      "source_ids": [
+        "davis-kahan-1970"
+      ],
       "source_locator": "Section 1, equation (1.10) and following remark",
       "audit_status": "pending_primary_passage_comparison"
     }
@@ -58,5 +66,6 @@
       "source_id": "eckart-young-1936",
       "reason": "The best low-rank approximation result that identifies approximation numbers with singular values for compact operators."
     }
-  ]
+  ],
+  "description": "Introduces operator ideals and finite ideal norms, explaining how infinite-dimensional norm statements differ from finite-matrix calculations."
 }

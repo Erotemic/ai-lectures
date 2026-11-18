@@ -8,7 +8,9 @@
       "id": "024000-h01",
       "anchor": "It claims that for real subspaces whose principal angles are all at most sixty degrees, the direct rotation minimizes every unitarily invariant norm of the full displacement.",
       "kind": "source_scope",
-      "source_ids": ["davis-kahan-1970"],
+      "source_ids": [
+        "davis-kahan-1970"
+      ],
       "source_locator": "Proposition 4.4",
       "audit_status": "pending_primary_passage_comparison"
     },
@@ -16,7 +18,9 @@
       "id": "024000-h02",
       "anchor": "Davis and Kahan also give two examples showing that the unsquared statement fails in general.",
       "kind": "source_attribution",
-      "source_ids": ["davis-kahan-1970"],
+      "source_ids": [
+        "davis-kahan-1970"
+      ],
       "source_locator": "Examples 4.1-4.2",
       "audit_status": "pending_primary_passage_comparison"
     },
@@ -24,7 +28,9 @@
       "id": "024000-h03",
       "anchor": "over the first nu over two principal planes, of the Ky Fan two-norm of K restricted to that plane. This is equation 4.3 of the paper.",
       "kind": "source_attribution",
-      "source_ids": ["davis-kahan-1970"],
+      "source_ids": [
+        "davis-kahan-1970"
+      ],
       "source_locator": "Equation (4.3)",
       "audit_status": "pending_primary_passage_comparison"
     },
@@ -32,7 +38,9 @@
       "id": "024000-h04",
       "anchor": "Bolotnikov, Li, and Rodman, in 2001, studied minimal distortion problems for unitary maps carrying one subspace onto another, proved Q-norm optimality, and gave counterexamples for Schatten norms with exponent between one and two.",
       "kind": "historical_attribution",
-      "source_ids": ["bolotnikov-li-rodman-2001"],
+      "source_ids": [
+        "bolotnikov-li-rodman-2001"
+      ],
       "source_locator": "Theorem 3.1 and Lemma 3.3",
       "audit_status": "pending_primary_passage_comparison"
     },
@@ -40,7 +48,10 @@
       "id": "024000-h05",
       "anchor": "Qiu, Zhang, and Li later repeated the sixty-degree assertion, and Zhang and Qiu noted in 2010 that trace-norm minimality fails in general, without addressing the particular real, small-angle restriction.",
       "kind": "historical_attribution",
-      "source_ids": ["qiu-zhang-li-2005", "zhang-qiu-2010"],
+      "source_ids": [
+        "qiu-zhang-li-2005",
+        "zhang-qiu-2010"
+      ],
       "source_locator": "Qiu-Zhang-Li Section 5; Zhang-Qiu Section 4, p. 1615",
       "audit_status": "pending_primary_passage_comparison"
     },
@@ -48,7 +59,10 @@
       "id": "024000-h06",
       "anchor": "As far as the journal paper's authors could determine, the contradiction of the printed real claim at every positive angle had not previously been made explicit.",
       "kind": "source_scope",
-      "source_ids": ["davis-kahan-1970", "bolotnikov-li-rodman-2001"],
+      "source_ids": [
+        "davis-kahan-1970",
+        "bolotnikov-li-rodman-2001"
+      ],
       "source_locator": "Journal paper, Section 5 (novelty statement)",
       "audit_status": "pending_primary_passage_comparison"
     }
@@ -66,5 +80,6 @@
       "source_id": "wiki-schatten-norm",
       "reason": "Trace and Frobenius norms as Schatten norms, ranking the two transports differently."
     }
-  ]
+  ],
+  "description": "States the printed Proposition 4.4, works through its finite-dimensional counterexample, and distinguishes the false norm-general assertion from valid repairs."
 }

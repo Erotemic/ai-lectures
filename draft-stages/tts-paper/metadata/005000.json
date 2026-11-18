@@ -8,7 +8,10 @@
       "id": "005000-h01",
       "anchor": "This was the construction of Béla Sz.-Nagy, in work published in 1947, given a streamlined algebraic form by Tosio Kato",
       "kind": "historical_attribution",
-      "source_ids": ["simon-2018-kato", "kato-1966"],
+      "source_ids": [
+        "simon-2018-kato",
+        "kato-1966"
+      ],
       "source_locator": "Simon (2018), Section 5 and Theorem 5.1; Kato (1966), Chapter I, Section 4.6",
       "audit_status": "pending_primary_passage_comparison"
     },
@@ -16,7 +19,9 @@
       "id": "005000-h02",
       "anchor": "Proposition 3.1 of the paper says more than existence.",
       "kind": "source_attribution",
-      "source_ids": ["davis-kahan-1970"],
+      "source_ids": [
+        "davis-kahan-1970"
+      ],
       "source_locator": "Definition 3.2 and Proposition 3.1",
       "audit_status": "pending_primary_passage_comparison"
     },
@@ -24,7 +29,9 @@
       "id": "005000-h03",
       "anchor": "Davis and Kahan's Proposition 3.3 states this in general",
       "kind": "source_attribution",
-      "source_ids": ["davis-kahan-1970"],
+      "source_ids": [
+        "davis-kahan-1970"
+      ],
       "source_locator": "Equations (3.6)-(3.8) and Proposition 3.3",
       "audit_status": "pending_primary_passage_comparison"
     },
@@ -32,7 +39,9 @@
       "id": "005000-h04",
       "anchor": "These are the commutation statements of Proposition 3.5.",
       "kind": "source_attribution",
-      "source_ids": ["davis-kahan-1970"],
+      "source_ids": [
+        "davis-kahan-1970"
+      ],
       "source_locator": "Proposition 3.5 and equation (1.18)",
       "audit_status": "pending_primary_passage_comparison"
     },
@@ -40,7 +49,9 @@
       "id": "005000-h05",
       "anchor": "This is Corollary 3.2 of the paper.",
       "kind": "source_attribution",
-      "source_ids": ["davis-kahan-1970"],
+      "source_ids": [
+        "davis-kahan-1970"
+      ],
       "source_locator": "Corollary 3.2",
       "audit_status": "pending_primary_passage_comparison"
     },
@@ -48,7 +59,10 @@
       "id": "005000-h06",
       "anchor": "The intertwiner T and its unitary polar factor go back to Sz.-Nagy's 1947 work on perturbations of spectral projections; Kato gave the algebraic formula in a 1955 report and in his book Perturbation Theory for Linear Operators.",
       "kind": "historical_attribution",
-      "source_ids": ["simon-2018-kato", "kato-1966"],
+      "source_ids": [
+        "simon-2018-kato",
+        "kato-1966"
+      ],
       "source_locator": "Simon (2018), Section 5; Kato (1966), Chapter I, Section 4.6, equations (4.33)-(4.42)",
       "audit_status": "pending_primary_passage_comparison"
     },
@@ -56,7 +70,9 @@
       "id": "005000-h07",
       "anchor": "Davis and Kahan named the direct rotation, characterized it by positive diagonal blocks, proved uniqueness in the acute case, and identified it as the principal square root of the product of two reflections.",
       "kind": "historical_attribution",
-      "source_ids": ["davis-kahan-1970"],
+      "source_ids": [
+        "davis-kahan-1970"
+      ],
       "source_locator": "Section 3: Definition 3.1, Propositions 3.1 and 3.3",
       "audit_status": "pending_primary_passage_comparison"
     }
@@ -78,5 +94,6 @@
       "source_id": "higham-cs-decomposition",
       "reason": "The CS decomposition shows the same cosine-sine block structure that the direct rotation has in principal-plane coordinates."
     }
-  ]
+  ],
+  "description": "Constructs the direct rotation between suitably positioned subspaces, explaining the geometric choice of transporter and its relationship to projections and principal angles."
 }

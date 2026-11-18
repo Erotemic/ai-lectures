@@ -8,7 +8,9 @@
       "id": "021000-h01",
       "anchor": "The generalized form, Theorem 6.3 of the paper, keeps the Rayleigh–Ritz trial data and the ordered gap, and allows the trial subspace to have smaller dimension than the exact subspace.",
       "kind": "source_attribution",
-      "source_ids": ["davis-kahan-1970"],
+      "source_ids": [
+        "davis-kahan-1970"
+      ],
       "source_locator": "Theorem 6.3",
       "audit_status": "pending_primary_passage_comparison"
     },
@@ -16,7 +18,9 @@
       "id": "021000-h02",
       "anchor": "Davis and Kahan label this equation 6.5.",
       "kind": "source_attribution",
-      "source_ids": ["davis-kahan-1970"],
+      "source_ids": [
+        "davis-kahan-1970"
+      ],
       "source_locator": "Section 6, equations (6.2)-(6.6)",
       "audit_status": "pending_primary_passage_comparison"
     },
@@ -24,7 +28,9 @@
       "id": "021000-h03",
       "anchor": "Davis and Kahan give an example with gap one, tangent one, and residual one over root two, in which unwanted spectrum lies on both sides.",
       "kind": "source_attribution",
-      "source_ids": ["davis-kahan-1970"],
+      "source_ids": [
+        "davis-kahan-1970"
+      ],
       "source_locator": "Example 6.1",
       "audit_status": "pending_primary_passage_comparison"
     },
@@ -32,7 +38,9 @@
       "id": "021000-h04",
       "anchor": "The paper's numerical example uses exactly this improvement.",
       "kind": "source_attribution",
-      "source_ids": ["davis-kahan-1970"],
+      "source_ids": [
+        "davis-kahan-1970"
+      ],
       "source_locator": "Section 9, equations (9.5)-(9.6)",
       "audit_status": "pending_primary_passage_comparison"
     },
@@ -40,7 +48,9 @@
       "id": "021000-h05",
       "anchor": "The tangent theorem is printed in Section 2, before Davis and Kahan introduce, in Section 3, the standing assumption that the two defect spaces have the same dimension.",
       "kind": "source_scope",
-      "source_ids": ["davis-kahan-1970"],
+      "source_ids": [
+        "davis-kahan-1970"
+      ],
       "source_locator": "Section 2 statement; Section 3 standing convention after Proposition 3.2",
       "audit_status": "pending_primary_passage_comparison"
     }
@@ -58,5 +68,6 @@
       "source_id": "bindel-ritz-eigensolvers",
       "reason": "Ritz residuals and tangent-type error bounds in eigensolver practice."
     }
-  ]
+  ],
+  "description": "Explains the tangent theorem through graph-subspace geometry, emphasizing how its hypotheses and conclusion differ from a sine bound."
 }

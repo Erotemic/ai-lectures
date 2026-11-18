@@ -8,7 +8,9 @@
       "id": "008000-h01",
       "anchor": "Davis and Kahan record this as their inequality 5.1.",
       "kind": "source_attribution",
-      "source_ids": ["davis-kahan-1970"],
+      "source_ids": [
+        "davis-kahan-1970"
+      ],
       "source_locator": "Section 5, equation (5.1)",
       "audit_status": "pending_primary_passage_comparison"
     },
@@ -16,7 +18,9 @@
       "id": "008000-h02",
       "anchor": "Davis and Kahan's first general estimate avoids diagonalization entirely.",
       "kind": "source_attribution",
-      "source_ids": ["davis-kahan-1970"],
+      "source_ids": [
+        "davis-kahan-1970"
+      ],
       "source_locator": "Theorem 5.1 and its scope remarks",
       "audit_status": "pending_primary_passage_comparison"
     },
@@ -24,7 +28,9 @@
       "id": "008000-h03",
       "anchor": "Sylvester studied the matrix equation in 1884 and showed that it has a unique solution for every right-hand side exactly when the two coefficient matrices have no common eigenvalue",
       "kind": "historical_attribution",
-      "source_ids": ["wiki-sylvester-equation"],
+      "source_ids": [
+        "wiki-sylvester-equation"
+      ],
       "source_locator": "Secondary account; primary: Sylvester, Comptes Rendus 99 (1884), 67-71, 115-116 (no verified link in this catalog)",
       "audit_status": "pending_primary_passage_comparison"
     },
@@ -32,7 +38,10 @@
       "id": "008000-h04",
       "anchor": "Marvin Rosenblum extended solvability to bounded operators with disjoint spectra in 1956, and studied the equation with self-adjoint coefficients in 1969.",
       "kind": "historical_attribution",
-      "source_ids": ["rosenblum-1956", "rosenblum-1969"],
+      "source_ids": [
+        "rosenblum-1956",
+        "rosenblum-1969"
+      ],
       "source_locator": "Duke Math. J. 23 (1956); Proc. AMS 20 (1969)",
       "audit_status": "pending_primary_passage_comparison"
     }
@@ -54,5 +63,6 @@
       "source_id": "bhatia-1997",
       "reason": "Chapter VII treats AX - XB = Y, its perturbation bounds, and the operator-norm constant for interlaced spectra."
     }
-  ]
+  ],
+  "description": "Develops the Sylvester equation as the bridge between residuals and subspace error, identifying the spectral assumptions needed to control a solution."
 }

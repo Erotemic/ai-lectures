@@ -8,7 +8,9 @@
       "id": "003900-h01",
       "anchor": "Camille Jordan, in his 1875 essay on geometry in n dimensions, made this into a general definition.",
       "kind": "historical_attribution",
-      "source_ids": ["jordan-1875-essai"],
+      "source_ids": [
+        "jordan-1875-essai"
+      ],
       "source_locator": "Bull. Soc. Math. France 3 (1875), 103-174; angles between linear subspaces",
       "audit_status": "pending_primary_passage_comparison"
     },
@@ -16,7 +18,11 @@
       "id": "003900-h02",
       "anchor": "Paige and Wei's history of the decomposition traces it from Jordan's geometry, through the principal ideas assembled by Davis and Kahan in their 1970 paper, to G. W. Stewart, who completed and explicitly formulated the matrix decomposition in 1977.",
       "kind": "historical_attribution",
-      "source_ids": ["paige-wei-1994", "davis-kahan-1970", "stewart-1977"],
+      "source_ids": [
+        "paige-wei-1994",
+        "davis-kahan-1970",
+        "stewart-1977"
+      ],
       "source_locator": "Paige and Wei (1994), historical account; cited in the journal paper, Section 2.1",
       "audit_status": "pending_primary_passage_comparison"
     },
@@ -24,7 +30,9 @@
       "id": "003900-h03",
       "anchor": "Harold Hotelling's 1936 paper on relations between two sets of variates introduced canonical correlation analysis.",
       "kind": "historical_attribution",
-      "source_ids": ["hotelling-1936"],
+      "source_ids": [
+        "hotelling-1936"
+      ],
       "source_locator": "Biometrika 28 (1936), 321-377",
       "audit_status": "pending_primary_passage_comparison"
     },
@@ -32,7 +40,9 @@
       "id": "003900-h04",
       "anchor": "Åke Björck and Gene Golub gave numerical methods in 1973 for computing principal angles and vectors from orthonormal bases and the singular value decomposition",
       "kind": "historical_attribution",
-      "source_ids": ["bjorck-golub-1973"],
+      "source_ids": [
+        "bjorck-golub-1973"
+      ],
       "source_locator": "Math. Comp. 27 (1973), 579-594",
       "audit_status": "pending_primary_passage_comparison"
     },
@@ -40,7 +50,9 @@
       "id": "003900-h05",
       "anchor": "That number reappears as the smallest possible trace-norm displacement in the counterexample to the paper's Proposition four point four.",
       "kind": "source_scope",
-      "source_ids": ["davis-kahan-1970"],
+      "source_ids": [
+        "davis-kahan-1970"
+      ],
       "source_locator": "Proposition 4.4; journal paper Section 5 (global trace-norm minimum 4 sin theta)",
       "audit_status": "pending_primary_passage_comparison"
     }
@@ -70,5 +82,6 @@
       "source_id": "zhu-knyazev-tangent-angles",
       "reason": "Research-level survey of cosine, sine, and tangent formulas for principal angles via projectors and frames; useful after the lecture."
     }
-  ]
+  ],
+  "description": "Constructs principal angles from the singular values of overlapping orthonormal frames and explains how principal coordinates describe the relative position of two subspaces."
 }

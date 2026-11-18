@@ -8,7 +8,9 @@
       "id": "010000-h01",
       "anchor": "Davis and Kahan state this as their inequality 5.1, and the same argument extends to unbounded self-adjoint coefficients",
       "kind": "source_attribution",
-      "source_ids": ["davis-kahan-1970"],
+      "source_ids": [
+        "davis-kahan-1970"
+      ],
       "source_locator": "Section 5, equation (5.1)",
       "audit_status": "pending_primary_passage_comparison"
     },
@@ -16,7 +18,9 @@
       "id": "010000-h02",
       "anchor": "This is Davis and Kahan's inequality 5.2.",
       "kind": "source_attribution",
-      "source_ids": ["davis-kahan-1970"],
+      "source_ids": [
+        "davis-kahan-1970"
+      ],
       "source_locator": "Section 5, equation (5.2)",
       "audit_status": "pending_primary_passage_comparison"
     },
@@ -24,7 +28,9 @@
       "id": "010000-h03",
       "anchor": "Davis and Kahan remark that 5.2 is not best possible unless the rank is one, and ask whether the factor root r can be replaced by a universal constant.",
       "kind": "source_scope",
-      "source_ids": ["davis-kahan-1970"],
+      "source_ids": [
+        "davis-kahan-1970"
+      ],
       "source_locator": "Section 5, after (5.2)",
       "audit_status": "pending_primary_passage_comparison"
     },
@@ -32,7 +38,9 @@
       "id": "010000-h04",
       "anchor": "Later work answered yes: for self-adjoint coefficients whose spectra are distance delta apart, the operator norm of X is at most pi over two times the operator norm of Y divided by delta, and pi over two cannot be improved.",
       "kind": "historical_attribution",
-      "source_ids": ["bhatia-1997"],
+      "source_ids": [
+        "bhatia-1997"
+      ],
       "source_locator": "Bhatia, Matrix Analysis, Section VII.2 (secondary; primary papers by Bhatia, Davis, McIntosh and by Bhatia, Davis, Koosis to be confirmed)",
       "audit_status": "pending_primary_passage_comparison"
     },
@@ -40,7 +48,9 @@
       "id": "010000-h05",
       "anchor": "That is the core of Davis and Kahan's Theorem 6.2.",
       "kind": "source_attribution",
-      "source_ids": ["davis-kahan-1970"],
+      "source_ids": [
+        "davis-kahan-1970"
+      ],
       "source_locator": "Theorem 6.2",
       "audit_status": "pending_primary_passage_comparison"
     }
@@ -58,5 +68,6 @@
       "source_id": "bhatia-1997",
       "reason": "Chapter VII: perturbation of spectral subspaces under distance-only separation and the pi/2 constant."
     }
-  ]
+  ],
+  "description": "Explains the Hilbert–Schmidt estimate under a distance gap, contrasting its norm and separation assumptions with the ordered-separation case."
 }

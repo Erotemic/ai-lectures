@@ -8,7 +8,9 @@
       "id": "018500-h01",
       "anchor": "That is Proposition 4.3, and it is correct.",
       "kind": "source_attribution",
-      "source_ids": ["davis-kahan-1970"],
+      "source_ids": [
+        "davis-kahan-1970"
+      ],
       "source_locator": "Proposition 4.3",
       "audit_status": "pending_primary_passage_comparison"
     },
@@ -16,7 +18,9 @@
       "id": "018500-h02",
       "anchor": "Davis and Kahan already note that Proposition 4.3 implies minimality in the operator norm and the Hilbert–Schmidt norm.",
       "kind": "source_scope",
-      "source_ids": ["davis-kahan-1970"],
+      "source_ids": [
+        "davis-kahan-1970"
+      ],
       "source_locator": "Section 4, after Proposition 4.3",
       "audit_status": "pending_primary_passage_comparison"
     },
@@ -24,7 +28,9 @@
       "id": "018500-h03",
       "anchor": "Bolotnikov, Li, and Rodman had earlier studied minimal distortion problems for this class of subspace-transport constraints, including Q-norm minimization and counterexamples for Schatten norms with exponent between one and two.",
       "kind": "historical_attribution",
-      "source_ids": ["bolotnikov-li-rodman-2001"],
+      "source_ids": [
+        "bolotnikov-li-rodman-2001"
+      ],
       "source_locator": "Theorem 3.1 and Lemma 3.3",
       "audit_status": "pending_primary_passage_comparison"
     },
@@ -32,7 +38,9 @@
       "id": "018500-h04",
       "anchor": "This is the source of the sixty-degree threshold in the printed Proposition 4.4",
       "kind": "source_scope",
-      "source_ids": ["davis-kahan-1970"],
+      "source_ids": [
+        "davis-kahan-1970"
+      ],
       "source_locator": "Examples 4.1-4.2 and Proposition 4.4",
       "audit_status": "pending_primary_passage_comparison"
     }
@@ -50,5 +58,6 @@
       "source_id": "wiki-schatten-norm",
       "reason": "Schatten norms; those with p >= 2 are Q-norms, the trace norm (p = 1) is not."
     }
-  ]
+  ],
+  "description": "Explains squared displacement and the special role of Q-norms, preparing the distinction between valid optimality results and the overbroad printed claim."
 }

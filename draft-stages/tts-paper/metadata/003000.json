@@ -8,7 +8,9 @@
       "id": "003000-h01",
       "anchor": "Davis and Kahan express the same fact in block form.",
       "kind": "source_attribution",
-      "source_ids": ["davis-kahan-1970"],
+      "source_ids": [
+        "davis-kahan-1970"
+      ],
       "source_locator": "Section 1, equation (1.8) and following discussion",
       "audit_status": "pending_primary_passage_comparison"
     },
@@ -16,7 +18,9 @@
       "id": "003000-h02",
       "anchor": "For a whole trial subspace, Davis and Kahan record the corresponding fact",
       "kind": "source_attribution",
-      "source_ids": ["davis-kahan-1970"],
+      "source_ids": [
+        "davis-kahan-1970"
+      ],
       "source_locator": "Section 1, residual-to-eigenvalue consequence after (1.8)",
       "audit_status": "pending_primary_passage_comparison"
     },
@@ -24,7 +28,10 @@
       "id": "003000-h03",
       "anchor": "Rayleigh estimated vibration frequencies in his Theory of Sound, published in 1877, by evaluating energy ratios on trial shapes, and Walter Ritz turned this into a systematic method of finite-dimensional trial spaces in work published in 1909.",
       "kind": "historical_attribution",
-      "source_ids": ["leissa-2005", "ritz-1909"],
+      "source_ids": [
+        "leissa-2005",
+        "ritz-1909"
+      ],
       "source_locator": "Leissa (2005); Ritz (1909)",
       "audit_status": "pending_primary_passage_comparison"
     },
@@ -32,7 +39,9 @@
       "id": "003000-h04",
       "anchor": "Hermann Weyl's 1912 paper on the asymptotic distribution of eigenvalues contains the eigenvalue comparison inequalities that bear his name.",
       "kind": "historical_attribution",
-      "source_ids": ["weyl-1912"],
+      "source_ids": [
+        "weyl-1912"
+      ],
       "source_locator": "Math. Ann. 71 (1912); exact inequality passage to be located",
       "audit_status": "pending_primary_passage_comparison"
     },
@@ -40,7 +49,12 @@
       "id": "003000-h05",
       "anchor": "Chandler Davis studied the rotation of eigenvectors under perturbation in papers of 1963 and 1965, and the 1969 announcement and 1970 paper with William Kahan treat both formulations at once",
       "kind": "historical_attribution",
-      "source_ids": ["davis-1963", "davis-1965", "davis-kahan-1969", "davis-kahan-1970"],
+      "source_ids": [
+        "davis-1963",
+        "davis-1965",
+        "davis-kahan-1969",
+        "davis-kahan-1970"
+      ],
       "source_locator": "Journal paper Section 2.5",
       "audit_status": "pending_primary_passage_comparison"
     }
@@ -66,5 +80,6 @@
       "source_id": "bindel-ritz-eigensolvers",
       "reason": "Lecture notes on Ritz values, residuals, and residual-based eigenvalue error bounds in numerical linear algebra."
     }
-  ]
+  ],
+  "description": "Defines a trial subspace and its compressed operator, constructs the residual, and explains what a small residual certifies before any spectral-separation estimate is applied."
 }

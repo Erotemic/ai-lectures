@@ -8,7 +8,9 @@
       "id": "025000-h01",
       "anchor": "It is solvable in polynomial time, by the blossom methods that descend from Jack Edmonds's 1965 work on matchings in general graphs.",
       "kind": "historical_attribution",
-      "source_ids": ["edmonds-1965"],
+      "source_ids": [
+        "edmonds-1965"
+      ],
       "source_locator": "Canad. J. Math. 17 (1965), 449-467; weighted extension in Edmonds's companion 1965 paper (to be confirmed)",
       "audit_status": "pending_primary_passage_comparison"
     },
@@ -16,7 +18,9 @@
       "id": "025000-h02",
       "anchor": "Bolotnikov, Li, and Rodman formulated the ambient minimal-distortion problem for unitary maps and proved Q-norm and Frobenius optimality results.",
       "kind": "historical_attribution",
-      "source_ids": ["bolotnikov-li-rodman-2001"],
+      "source_ids": [
+        "bolotnikov-li-rodman-2001"
+      ],
       "source_locator": "Problem 1.1, Theorems 3.1 and 4.2",
       "audit_status": "pending_primary_passage_comparison"
     },
@@ -24,7 +28,10 @@
       "id": "025000-h03",
       "anchor": "the authors of the journal paper did not locate this exact formula in the sources they compared.",
       "kind": "source_scope",
-      "source_ids": ["bolotnikov-li-rodman-2001", "davis-kahan-1970"],
+      "source_ids": [
+        "bolotnikov-li-rodman-2001",
+        "davis-kahan-1970"
+      ],
       "source_locator": "Journal paper, Section 6 (novelty statement)",
       "audit_status": "pending_primary_passage_comparison"
     }
@@ -42,5 +49,6 @@
       "source_id": "bolotnikov-li-rodman-2001",
       "reason": "The minimal distortion problem for unitary transports and its Q-norm solution."
     }
-  ]
+  ],
+  "description": "States the real trace-norm matching theorem, derives its singleton and pair costs from principal angles, and explains the reduction to a graph matching problem."
 }

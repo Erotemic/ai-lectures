@@ -8,7 +8,9 @@
       "id": "012000-h01",
       "anchor": "Davis and Kahan state the requirement explicitly for half-infinite spectral intervals",
       "kind": "source_scope",
-      "source_ids": ["davis-kahan-1970"],
+      "source_ids": [
+        "davis-kahan-1970"
+      ],
       "source_locator": "Appendix to Section 6, unbounded sine passage",
       "audit_status": "pending_primary_passage_comparison"
     },
@@ -16,7 +18,9 @@
       "id": "012000-h02",
       "anchor": "A lemma about such near-maximizing projections, Lemma 6.3, controls the error they leave behind.",
       "kind": "source_attribution",
-      "source_ids": ["davis-kahan-1970"],
+      "source_ids": [
+        "davis-kahan-1970"
+      ],
       "source_locator": "Appendix to Section 6, equations (6.7)-(6.11), and Lemma 6.3",
       "audit_status": "pending_primary_passage_comparison"
     }
@@ -38,5 +42,6 @@
       "source_id": "jordan-bell-pvm",
       "reason": "Spectral projections for bounded intervals and the resulting bounded truncations."
     }
-  ]
+  ],
+  "description": "Examines Sylvester identities for unbounded operators and the role of spectral cutoffs in making the identities and limiting arguments legitimate."
 }
