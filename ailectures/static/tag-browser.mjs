@@ -7,31 +7,71 @@ import { formatMinutes } from "./browse-model.mjs";
 export function tagBrowser(rows, link, { packs = [] } = {}) {
   const packNames = new Map(packs.map(pack => [pack.id, pack.title || pack.id]));
   const model = coverageModel(rows), forests = model.forests;
+  const params = new URLSearchParams(location.search);
   const root = statsSection("coverage", "Coverage from broad to specific",
     el("p", { text: "Expand a region, topic, or period to compare its narrower tags. Parent totals include descendants, counting each lecture once." }));
   root.classList.add("tag-browser");
   const facet = el("select", { "aria-label": "Tag dimension" }, ...[...forests.keys()].sort().map(value => el("option", { value, text: value })));
   facet.value = forests.has("Places") ? "Places" : forests.has("Topics") ? "Topics" : facet.options[0]?.value || "";
-  const search = el("input", { type: "search", "aria-label": "Search tag hierarchy", placeholder: "Find a topic, region, century, or year" });
+  if (forests.has(params.get("tag_dimension"))) facet.value = params.get("tag_dimension");
+  const search = el("input", { type: "search", "aria-label": "Search tag hierarchy", placeholder: "Find a topic, region, century, or year", value: params.get("tag_q") || "" });
   const sort = el("select", { "aria-label": "Sort coverage" },
     ...[["name", "Name"], ["sections", "Most sections"], ["lectures", "Most lectures"], ["minutes", "Most listening time"]].map(([value, text]) => el("option", { value, text })));
+  if ([...sort.options].some(option => option.value === params.get("tag_order"))) sort.value = params.get("tag_order");
+  if (search.value || params.has("tag_dimension") || params.has("tag_order")) root.open = true;
   const count = el("p", { class: "muted", role: "status" });
   const result = el("div", { class: "coverage-tree" });
-  root.append(el("div", { class: "filters" }, el("label", {}, "Dimension", facet), search, el("label", {}, "Order", sort)), count,
+  root.append(el("div", { class: "filters" }, el("label", {}, "Dimension", facet), el("label", { class: "coverage-search" }, "Find a tag", search), el("label", {}, "Order", sort)), count,
     el("details", { class: "coverage-count-help" }, el("summary", { text: "How these counts work" }), el("p", { class: "muted coverage-explanation", text: "Sections group installments by their authored section within a content pack; unsectioned lectures count separately. They are editorial groupings, not a count of distinct works. Expand any row to see which sections contribute its lectures. Place associations describe origins, settings, and context; missing tags remain unclassified. Branches can overlap, so their totals are not additive." })),
     el("div", { class: "coverage-columns", "aria-hidden": "true" }, el("span", { text: "Tag" }), el("span", { text: "Sections" }), el("span", { text: "Lectures" }), el("span", { text: "Est. listening" })), result);
   function draw() {
     const query = search.value.trim().toLocaleLowerCase();
+    const state = new URLSearchParams(location.search);
+    for (const [key, value] of [["tag_q", search.value], ["tag_dimension", facet.value === "Places" ? "" : facet.value], ["tag_order", sort.value === "name" ? "" : sort.value]])
+      if (value) state.set(key, value); else state.delete(key);
+    history.replaceState(history.state, "", location.pathname + (state.size ? "?" + state : "") + location.hash);
+    const lectureHref = row => lectureURL(row.id) + "?" + new URLSearchParams({ return: "/stats" + (state.size ? "?" + state : "") + "#stats-section-coverage" });
     const matches = node => !query || node.label.toLocaleLowerCase().includes(query) || [...node.children.values()].some(matches);
+    function lectureList(rows) {
+      const root = el("div", { class: "coverage-lecture-list" });
+      const list = el("ul");
+      const show = limit => list.replaceChildren(...rows.slice(0, limit).map(row => el("li", {},
+        link(row.title, lectureHref(row)),
+        el("small", { class: "muted", text: formatMinutes((row.words || 0) / 145) }))));
+      show(10);
+      root.append(list);
+      if (rows.length > 10) {
+        const all = el("button", { type: "button", text: `Show all ${rows.length.toLocaleString()} lectures`, onclick: () => { show(rows.length); all.remove(); } });
+        root.append(all);
+      }
+      return root;
+    }
+    function lecturesIn(node) {
+      const rows = model.totals(node).groups.flatMap(group => group.members).sort((a, b) => a.title.localeCompare(b.title) || a.id.localeCompare(b.id));
+      const list = el("details", { class: "coverage-tag-lectures", open: !node.children.size },
+        el("summary", { text: `Lectures (${rows.length.toLocaleString()})` }));
+      const fill = () => { if (list.open && list.children.length === 1) list.append(lectureList(rows)); };
+      fill();
+      list.addEventListener("toggle", fill);
+      return list;
+    }
     function contributions(node, open = false) {
       const data = model.totals(node);
       const groups = el("div", { class: "coverage-contributions" });
       const list = el("ul");
       const groupTitle = group => group.section ? group.section.replaceAll("-", " ").replace(/^./, first => first.toUpperCase()) : group.first.title;
-      const show = limit => list.replaceChildren(...data.groups.slice(0, limit).map(group => el("li", {},
-        el("span", {}, group.section ? el("span", { text: groupTitle(group) }) : link(groupTitle(group), lectureURL(group.first.id)),
-          el("small", { class: "muted", text: packNames.get(group.namespace) || group.namespace })),
-        el("span", { text: `${group.lectures.toLocaleString()} lecture${group.lectures === 1 ? "" : "s"} · ${Math.round(group.lectures / data.lectures * 100)}%` }))));
+      const show = limit => list.replaceChildren(...data.groups.slice(0, limit).map(group => {
+        const share = `${group.lectures.toLocaleString()} lecture${group.lectures === 1 ? "" : "s"} · ${Math.round(group.lectures / data.lectures * 100)}%`;
+        const pack = el("small", { class: "muted", text: packNames.get(group.namespace) || group.namespace });
+        if (group.lectures === 1) return el("li", {},
+          el("span", {}, link(group.first.title, lectureHref(group.first)), pack), el("span", { text: share }));
+        const section = el("details", { class: "coverage-group" }, el("summary", {},
+          el("span", {}, groupTitle(group), pack), el("span", { text: share })));
+        section.addEventListener("toggle", () => {
+          if (section.open && section.children.length === 1) section.append(lectureList(group.members));
+        });
+        return el("li", { class: "coverage-group-item" }, section);
+      }));
       show(5);
       groups.append(el("p", { class: "muted", text: `Estimated listening: ${formatMinutes(data.minutes)}. Section shares below refer to this branch’s lectures.` }), el("p", { class: "muted", text: node.children.size
         ? `${data.atLevel.toLocaleString()} lectures have no narrower tag within this branch. Section contributions include this tag and all descendants:`
@@ -57,12 +97,13 @@ export function tagBrowser(rows, link, { packs = [] } = {}) {
         const details = el("details", { open: Boolean(query) }, el("summary", { class: "coverage-row" },
           el("span", { class: "coverage-label" }, anchor),
           el("span", { "aria-label": `${data.sections} sections`, text: data.sections.toLocaleString() }),
-          el("span", { "aria-label": `${data.lectures} lectures`, text: data.lectures.toLocaleString() }),
+          link(data.lectures.toLocaleString(), "/lectures?" + new URLSearchParams({ tag: node.label })),
           el("span", { "aria-label": "Estimated listening time", text: formatMinutes(data.minutes) })));
         const expand = () => {
           if (details.children.length > 1) return;
+          details.append(lecturesIn(node));
           if (node.children.size) details.append(level(node.children, inheritedMatch || Boolean(query && node.label.toLocaleLowerCase().includes(query))));
-          details.append(contributions(node, !query || node.label.toLocaleLowerCase().includes(query)));
+          if (data.lectures > 1) details.append(contributions(node, Boolean(node.children.size) && (!query || node.label.toLocaleLowerCase().includes(query))));
         };
         if (query) expand();
         details.addEventListener("toggle", () => { if (details.open) expand(); });

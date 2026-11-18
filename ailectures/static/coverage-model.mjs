@@ -20,9 +20,10 @@ export function coverageModel(rows) {
       const row = byId.get(id);
       if (!row) continue;
       const key = sectionKey(row);
-      if (!groups.has(key)) groups.set(key, { key, section: sectionName(row), namespace: row.namespace || row.origin?.pack || "", lectures: 0, words: 0, first: row });
+      if (!groups.has(key)) groups.set(key, { key, section: sectionName(row), namespace: row.namespace || row.origin?.pack || "", lectures: 0, words: 0, first: row, members: [] });
       const group = groups.get(key);
       group.lectures++;
+      group.members.push(row);
       group.words += Number.isFinite(row.words) && row.words > 0 ? row.words : 0;
     }
     return [...groups.values()].sort((a, b) => b.lectures - a.lectures || a.key.localeCompare(b.key));

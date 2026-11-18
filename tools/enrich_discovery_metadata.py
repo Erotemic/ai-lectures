@@ -37,6 +37,12 @@ def propose(entry, metadata, text, namespace, rules):
     if override and 'description' not in result:
         result['description'] = override
         evidence.append('curated lecture coverage summary')
+    geography = rules.get('geography_overrides', {}).get(namespace + ':' + entry['id'])
+    if geography:
+        if not geography.get('anchor') or geography['anchor'] not in text:
+            raise ValueError(f"Geography evidence no longer matches {namespace}:{entry['id']}")
+        result['places'] = topic_tags(topic_tags(result.get('places')) + geography['places'])
+        evidence.append('curated geographic coverage verified against authored manuscript anchor')
     if namespace not in LITERATURE | HISTORICAL:
         return result, evidence
     geography = metadata.get('geography')
@@ -49,7 +55,7 @@ def propose(entry, metadata, text, namespace, rules):
     periods = [label for term, label in rules['period_terms'].items()
                if re.search(r'(?<!\w)' + re.escape(term).replace(r'\-', '[- ]') + r'(?!\w)', title + ' ' + section, re.I)]
     if places:
-        result['places'] = topic_tags(topic_tags(metadata.get('places')) + places)
+        result['places'] = topic_tags(topic_tags(result.get('places')) + places)
         evidence.append('places named in lecture title')
     if section_places := rules.get('section_places', {}).get(section):
         result['places'] = topic_tags(topic_tags(result.get('places')) + section_places)
@@ -95,17 +101,20 @@ def propose(entry, metadata, text, namespace, rules):
     return result, evidence
 
 
-def run(repository, apply=False):
+def run(repository, apply=False, only=()):
     rules = json.loads((ROOT / 'tools/data/discovery-rules.json').read_text())
+    only = set(only)
     counts = Counter()
     missing_creators = []
     changes = []
     for track in sorted(list((repository / 'content').glob('*/track.json')) + list((repository / 'draft-stages').glob('tts-*/track.json'))):
         plan = json.loads(track.read_text())
         namespace = plan['id']
-        if namespace not in LITERATURE | HISTORICAL and not any(key.startswith(namespace + ':') for key in rules.get('description_overrides', {})):
+        if namespace not in LITERATURE | HISTORICAL and not any(key.startswith(namespace + ':') for key in [*rules.get('description_overrides', {}), *rules.get('geography_overrides', {})]):
             continue
         for entry in plan.get('lectures', []):
+            if only and namespace + ':' + entry['id'] not in only:
+                continue
             path = track.parent / 'metadata' / (entry['id'] + '.json')
             if not path.is_file():
                 continue
@@ -128,9 +137,10 @@ def main():
     parser.add_argument('--repository', type=Path, default=ROOT)
     parser.add_argument('--apply', action='store_true')
     parser.add_argument('--report', type=Path)
+    parser.add_argument('--lecture', action='append', default=[], help='Limit to a qualified lecture ID; repeat to select several')
     args = parser.parse_args()
     with source_lock(args.repository):
-        result = run(args.repository, args.apply)
+        result = run(args.repository, args.apply, args.lecture)
     if args.report:
         args.report.write_text(json.dumps(result, ensure_ascii=False, indent=2) + '\n')
     print(json.dumps({k:v for k,v in result.items() if k != 'changes'}, ensure_ascii=False, indent=2))

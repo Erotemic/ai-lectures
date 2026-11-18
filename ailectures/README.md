@@ -61,6 +61,10 @@ The primary coverage explorer starts with broad geographic branches and supports
 topics, authors, and each date meaning. Parent totals include descendants and
 count each lecture once. Expand branches to compare narrower tags and see the
 largest contributing sections, their lecture shares, and estimated listening.
+Each tag has a lecture list with linked titles; multi-lecture sections also
+expand into their individual lecture links. The lecture count opens the full
+filtered inventory. Lecture pages link back to Content stats, retaining the
+coverage dimension, search, and sort in the URL.
 Sections count each authored section within a pack once, with unsectioned
 lectures counted separately; they are editorial units, not distinct works.
 Order can compare names, section counts, lecture counts, or listening time.

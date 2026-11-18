@@ -446,7 +446,8 @@ async function lecturePage(id, autoplay = false, historical = null) {
   const top = el(
     "div",
     {},
-    returnTo.split("?")[0] === "/lectures" ? link("← All lectures", returnTo)
+    returnTo.split(/[?#]/)[0] === "/stats" ? link("← Content stats", returnTo)
+      : returnTo.split("?")[0] === "/lectures" ? link("← All lectures", returnTo)
       : course ? link("← " + course.title, returnTo) : link("Library", "/"),
     title(row.title),
     creatorLine(row, link),

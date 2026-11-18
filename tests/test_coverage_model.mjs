@@ -24,6 +24,8 @@ assert.equal(stats.sections,4,'One declared section groups installments; differe
 assert.equal(stats.atLevel,2,'Broad-only coverage does not acquire city tags');
 assert.equal(stats.minutes,4,'Invalid word counts do not contaminate listening totals');
 assert.equal(stats.groups[0].lectures,2);
+assert.deepEqual(stats.groups[0].members.map(row=>row.id),['a:1','a:2']);
+assert.equal(new Set(stats.groups.flatMap(group=>group.members.map(row=>row.id))).size,stats.lectures);
 assert.equal(model.totals(america).lectures,5);
 assert.equal(model.forests.get('Places').get('Place: Canada').lectures.size,1,'Unmapped labels stay visible without invented parents');
 assert.notEqual(sectionKey(rows[0]),sectionKey(rows[2]));

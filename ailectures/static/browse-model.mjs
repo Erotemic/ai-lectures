@@ -152,13 +152,15 @@ export function matchesTag(row, tag) {
   return !requested || tagLabels(row).some(value => value.toLocaleLowerCase() === requested);
 }
 
-/** Return hints stay within this library's collection or complete-inventory views. */
+/** Return hints stay within this library's content browsing views. */
 export function collectionReturnPath(hint, courseId, origin) {
   if (!hint) return null;
   try {
     const candidate = new URL(hint, origin);
     if (candidate.origin === origin && candidate.pathname === "/lectures")
       return candidate.pathname + candidate.search;
+    if (candidate.origin === origin && candidate.pathname === "/stats")
+      return candidate.pathname + candidate.search + candidate.hash;
     if (!courseId) return null;
     const match = /^\/(collections|courses)\/(.+)$/.exec(candidate.pathname);
     if (candidate.origin === origin && match && decodeURIComponent(match[2]) === courseId)

@@ -923,7 +923,7 @@ progress {
 .coverage-tree summary.coverage-row { position: relative; padding: 0.65rem 0.8rem 0.65rem 1.8rem; border-bottom: 1px solid var(--line); font-size: 0.88rem; list-style: none; cursor: pointer; }
 .coverage-row::-webkit-details-marker { display: none; }
 .coverage-row::before { content: "▸"; position: absolute; left: 0.65rem; color: var(--muted); }
-.coverage-tree details[open] > summary::before { content: "▾"; }
+.coverage-tree details[open] > summary.coverage-row::before { content: "▾"; }
 .coverage-label { min-width: 0; overflow-wrap: anywhere; }
 .coverage-contributions { padding: 0.5rem 1rem 1rem 1.8rem; background: var(--paper); font-size: 0.85rem; }
 .coverage-contributions p { margin: 0.4rem 0; }
@@ -952,3 +952,25 @@ progress {
 .stats-section > summary { cursor: pointer; color: var(--accent); padding: 0.35rem 0; }
 .stats-section > summary > h2 { display: inline; margin: 0; font-size: 1.3rem; }
 .stats-section[open] > summary { margin-bottom: 0.8rem; }
+
+.tag-browser > .filters { align-items: end; }
+.tag-browser > .filters > .coverage-search { flex: 2; }
+.tag-browser > .filters input[type="search"] { min-width: 0; flex: none; }
+.coverage-tag-lectures > summary { cursor: pointer; color: var(--accent); padding: 0.65rem 1rem 0.65rem 1.8rem; font-size: 0.85rem; }
+.coverage-lecture-list { padding: 0.4rem 1rem 0.8rem 1.8rem; font-size: 0.88rem; }
+.coverage-lecture-list ul { list-style: none; padding: 0; margin: 0; }
+.coverage-lecture-list li { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; padding: 0.4rem 0; border-bottom: 1px solid var(--line); }
+.coverage-lecture-list li > a { min-width: 0; overflow-wrap: anywhere; }
+.coverage-lecture-list li > small { white-space: nowrap; }
+.coverage-contributions li.coverage-group-item { display: block; }
+.coverage-group { width: 100%; }
+.coverage-group > summary { display: list-item; cursor: pointer; }
+.coverage-group > summary > span:first-child { display: inline-block; max-width: 75%; vertical-align: top; }
+.coverage-group > summary > span:last-child { float: right; white-space: nowrap; }
+.coverage-group .coverage-lecture-list { padding-left: 0.8rem; }
+@media (max-width: 600px) {
+  .coverage-group > summary > span:first-child { max-width: 100%; }
+  .coverage-group > summary > span:last-child { float: none; display: block; margin-left: 1rem; }
+}
+
+.tag-browser > .filters select, .tag-browser > .filters input[type="search"] { height: 2.85rem; }

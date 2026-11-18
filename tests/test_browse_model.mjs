@@ -107,3 +107,7 @@ const described = { id: "book:one", title: "A novel", description: "Examines mem
 assert(matchesLecture(described.id, () => described, "coercion"));
 assert(matchesLecture(described.id, () => described, "distinct writer"));
 assert(matchesLecture(described.id, () => described, "testimony"));
+
+assert.equal(collectionReturnPath("/stats?tag_q=Africa#stats-section-coverage", null, reader), "/stats?tag_q=Africa#stats-section-coverage");
+assert.equal(collectionReturnPath("https://other.test/stats", null, reader), null);
+assert.equal(collectionReturnPath("/stats/other", null, reader), null);

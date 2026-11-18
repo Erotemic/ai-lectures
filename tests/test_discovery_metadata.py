@@ -110,3 +110,34 @@ def test_backfill_uses_whole_work_names_and_leaves_manuscripts_alone():
     assert evidence
     second, _ = propose(entry, result, '# Songs\n\n## Fields\n', 'literature-survey', rules)
     assert second == result
+
+
+def test_geographic_override_survives_title_enrichment_and_preserves_authored_places():
+    import pytest
+    from tools.enrich_discovery_metadata import propose
+    root = Path(__file__).resolve().parents[1]
+    rules = json.loads((root/'tools/data/discovery-rules.json').read_text())
+    rules['geography_overrides'] = {'history:001000': {'places': ['Africa', 'Kenya'], 'anchor': 'Regional evidence'}}
+    metadata = {'places': ['Paris']}
+    row = dict(id='001000', title='Egypt and a traveler')
+    after, _ = propose(row, metadata, '# Regional evidence\n', 'history', rules)
+    assert set(after['places']) == {'Paris', 'Africa', 'Kenya', 'Egypt'}
+    assert metadata == {'places': ['Paris']}
+    assert propose(row, after, '# Regional evidence\n', 'history', rules)[0] == after
+    with pytest.raises(ValueError):
+        propose(row, metadata, '# Changed source\n', 'history', rules)
+
+
+def test_enrichment_can_target_a_single_lecture_without_writing_other_sidecars(tmp_path):
+    from tools.enrich_discovery_metadata import run
+    folder = tmp_path/'draft-stages'/'tts-history'
+    (folder/'metadata').mkdir(parents=True)
+    entries = [dict(id=key, file=key+'-example.md', title='A subject') for key in ['001000', '002000']]
+    (folder/'track.json').write_text(json.dumps(dict(id='history', lectures=entries)))
+    for entry in entries:
+        (folder/entry['file']).write_text('# A subject\n')
+        (folder/'metadata'/f"{entry['id']}.json").write_text('{}')
+    result = run(tmp_path, True, only=['history:001000'])
+    assert result['changed'] == {'history': 1}
+    assert (folder/'metadata/002000.json').read_text() == '{}'
+    assert run(tmp_path, True, only=['history:001000'])['changed'] == {}

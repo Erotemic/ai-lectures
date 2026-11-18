@@ -225,7 +225,17 @@ not establish that the content lacks the corresponding subject or location.
 the curated metadata backfill; `--apply` appends missing fields under the shared
 source lock. Existing descriptions and creator records win. The rule file at
 `tools/data/discovery-rules.json` records the work identities and source-based
-associations. Changes affect sidecars, never narration, IDs, or route order.
+associations. Reviewed `geography_overrides` pair specific lecture IDs with
+places and an exact manuscript anchor; stale anchors fail the authoring proposal
+rather than silently reusing an outdated interpretation. Existing place records
+are retained. Repeated `--lecture NAMESPACE:ID` options limit preview or apply to
+selected lectures, for example:
+
+```bash
+python tools/enrich_discovery_metadata.py --lecture world-history:045000 --report /tmp/selected-geography.json
+```
+
+Changes affect sidecars, never narration, IDs, or route order.
 Authoring new content should supply these fields directly rather than relying
 on the bounded backfill rules. Factual or attribution corrections still require
 source review; matching text is not independent verification.
