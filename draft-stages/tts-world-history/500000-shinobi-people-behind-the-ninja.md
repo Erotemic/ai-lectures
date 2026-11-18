@@ -116,6 +116,18 @@ The manuscripts have histories of their own. Textual research on the *Bansenshū
 
 A manual can preserve a practice, prescribe an ideal, advertise a tradition, or invent an ancestry. It may do several of those things at once. Historical reading begins by distinguishing them.
 
+## What ninjutsu meant in practice
+
+We have been using the word *ninjutsu*. It names the arts or techniques associated with shinobi work. What belongs inside that category? If we begin with a duel between two masked fighters, we have already made combat the organizing principle. The manuals suggest a wider starting point: how can someone obtain information, act on it, and return without being discovered?
+
+Consider an imagined scouting assignment. A commander wants to know whether a road is passable and whether an opposing force controls the crossing. The scout must first reach the place. That makes travel, provisions, and an explanation for being on the road part of the problem. Next comes observation: seeing armed men at a crossing is different from learning who commands them or how regularly they are relieved. Then comes the return. An accurate observation that never reaches the commander cannot inform a decision. This example is a way of unpacking the task, not a reconstruction of a particular recorded mission.
+
+From that starting point, the variety in the books becomes easier to understand. Disguise helps someone approach. Knowledge of terrain and weather helps with movement and timing. Attention to conversation and conduct helps with access to people. Equipment can help with an obstacle or an escape. Physical endurance matters because observation, waiting, and returning all take effort. Fighting may become necessary, but the object of the assignment need not be a fight. Yamada Yūji describes ninjutsu as strategies and tactics closely connected with ordinary life, drawing on a wide range of knowledge and experience.
+
+There is also an intellectual setting to this knowledge. The *Bansenshūkai* repeatedly invokes *The Art of War*. Its compiler presents intelligence as a military necessity and gives the agent's moral discipline a place in the account. These are teachings organized for a reader, with arguments about why the work deserves respect. That helps explain why a book of ninjutsu can move between practical devices, judgment, and ideals of conduct.
+
+A modern school teaching something called ninjutsu is another historical object we might study. Its present curriculum, its account of its ancestry, and a seventeenth-century manuscript are three different sources. If a school claims an unbroken medieval lineage, the claim needs its own documentary evidence. The existence of an old manual does not, by itself, establish the transmission history of a modern organization. Conversely, a modern practice can be meaningful to its participants without every account of its antiquity being secure. We can ask what is taught today and how it developed while keeping those questions distinct from what a particular wartime shinobi did.
+
 ## The weapons and costumes we remember
 
 Now return to the black-clad figure. The disguise that makes a ninja instantly recognizable to an audience would be a very poor disguise for someone who did not want to be recognized as a spy. The National Diet Library's exhibition on ninja history makes the point by contrasting the familiar costume with the range of ordinary clothes advised in the *Shōninki*. Dark colors could be practical, but a standard head-to-toe ninja uniform is not what these seventeenth-century instructions establish.
@@ -128,7 +140,18 @@ Other objects fare differently under scrutiny. Manuals discuss climbing aids, ro
 
 Ninja hand signs form another familiar image. Some have connections with esoteric Buddhist and mountain-ascetic practices. Religious ideas were part of the broader world in which shinobi lived, and a historical practitioner might draw on them. But films and comics often turn symbolic gestures into a visible system for commanding supernatural powers. The historical manuals offer a narrower and less uniform picture.
 
-What about the *kunoichi*, the female ninja so often depicted as an elite counterpart to the male assassin? Women certainly could carry information, enter spaces closed to men, and participate in political and household networks. One manual discusses using women as part of an intelligence operation. But the image of a distinct corps of women trained in matching stealth costumes does not follow from that passage. The popular meaning of *kunoichi* as a female ninja became established in modern fiction. Here, too, historians should neither erase real women's agency nor claim evidence for a fictional organization.
+## Kunoichi: women, access, and a changing name
+
+What about the *kunoichi*, the female ninja so often depicted as an elite counterpart to the male assassin? The word itself needs a history. Before its familiar modern use, *kunoichi* could refer to a woman. A common explanation treats the written character for woman as three shapes read as ku, no, and ichi. That wordplay does not establish the existence of a military office. The National Diet Library places the spread of the female-ninja meaning after the Second World War, especially in entertainment from the 1960s onward.
+
+Women certainly could carry information, enter spaces closed to men, and participate in political and household networks. One manual discusses using women as part of an intelligence operation. More specifically, the *Bansenshūkai* includes *kunoichi-no-jutsu*: a technique involving the use of a woman. The passage concerns access to a household and the opportunities that access creates. In his account of the research, Yamada points to women gathering information while working in enemy households, including kitchens. That is a different setting from the rooftop pursuit familiar from films.
+
+A household is a place where political and military affairs leave traces in ordinary activity. For an imagined example, additional meals might suggest visitors, but they would not by themselves identify those visitors or explain their business. Someone who hears a conversation has another sort of evidence. Someone who repeats a rumor has another again. Thinking through the difference helps us see why access mattered while avoiding the assumption that every person with access was an agent. These examples illustrate an intelligence problem; they are not additional incidents recorded in the manual.
+
+The wording of the manual raises a further question: whose perspective are we hearing? A compiler can describe a woman as a means of gaining entry while telling us little about her choices, training, payment, or understanding of the operation. A technique described in a book is evidence that the compiler envisaged such a use. It is not a personnel register. We cannot turn that one passage into a roster of a permanent female corps, or assume that women performing intelligence work all followed the same career as men described as shinobi.
+
+The sparse record also leaves questions open. Which women acted deliberately as informants? How did relationships within a household shape what they could learn? What risks did they bear? Answering those questions requires evidence about particular people and situations. Neither a confident story about a secret organization nor a claim that women had no part in intelligence can substitute for it. The useful distinction is between women's possible and documented roles, the terminology of a surviving text, and the female ninja developed by modern storytellers.
+
 
 ## When the hidden worker became a hero
 
@@ -191,7 +214,8 @@ The shinobi who mattered to a commander might have returned with a description o
 3. **Iga and Kōka were places and networks:** They were not necessarily two centralized, immutable schools or all-inclusive secret societies.
 4. **Hattori Hanzō was historical; the familiar master-ninja figure is legendary:** Tokugawa service and Iga connections are secure; specific dramatic actions need their own evidence.
 5. **Shuriken existed; their standard association with shinobi is not established:** Lack of documented use is narrower than proof of impossibility.
-6. **Women could be involved in intelligence:** The modern idea of a distinctive *kunoichi* corps is not established by the cited seventeenth-century manual.
+6. **Women could be involved in intelligence:** The Bansenshūkai passage and Yamada’s discussion of household access support a narrower account than a permanent female corps. The word’s older use for women and its postwar entertainment meaning must be distinguished.
+7. **Ninjutsu is broader than combat:** Travel, observation, disguise, judgment, and return help explain the manuals’ range. The scouting and household examples above are explicitly imagined teaching examples, not historical incidents. Modern lineage claims require separate evidence.
 7. **Cultural history is also history:** The black costume, heroic ninja, and Goemon poison-thread tale have identifiable histories as representations, even where they do not describe Sengoku events.
 
 ### Pronunciation and reading notes
@@ -214,3 +238,5 @@ The primary source objects are distinct from modern accounts of them. The *Taihe
 3. Why do the two Iga campaigns have to be studied together rather than focusing only on the defenders' victory in 1579?
 4. What can a 1681 manuscript tell us about 1681 that it cannot directly establish about 1481?
 5. How does the Goemon poison-thread case change the way you assess a colorful historical story repeated in many books?
+
+Additional reading entry points: [Kunoichi](https://en.wikipedia.org/wiki/Kunoichi) and [Ninjutsu](https://en.wikipedia.org/wiki/Ninjutsu). These overview articles guide exploration; the National Diet Library exhibition and Yamada interview support the historical discussion. No claim of direct inspection of the Japanese Bansenshūkai manuscript is made for this revision.

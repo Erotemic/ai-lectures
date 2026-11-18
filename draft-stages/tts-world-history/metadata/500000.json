@@ -2,7 +2,7 @@
   "schema_version": 1,
   "lecture_id": "500000",
   "transcript": "500000-shinobi-people-behind-the-ninja.md",
-  "description": "A source-critical history of Japan’s shinobi from medieval espionage and the Iga campaigns through Tokugawa service, surviving ninjutsu manuals, theatre, cinema, and the invention of the modern ninja.",
+  "description": "A source-critical history of Japan’s shinobi: Iga and Kōka, wartime espionage, Tokugawa service, ninjutsu as intelligence practice, women and the changing meaning of kunoichi, surviving manuals, and the modern ninja in theatre and cinema. Distinguishes documentary evidence, prescriptive techniques, imagined teaching examples, and later legend.",
   "places": [
     "Japan",
     "Iga Province",
@@ -29,7 +29,10 @@
     "Sengoku period",
     "Edo period",
     "Cultural history",
-    "Historical source criticism"
+    "Historical source criticism",
+    "Kunoichi",
+    "Women in intelligence",
+    "Ninjutsu manuals"
   ],
   "tag_paths": [
     [
@@ -96,6 +99,20 @@
       "Place: Japan",
       "Place: Shiga Prefecture",
       "Place: Kōka"
+    ],
+    [
+      "History",
+      "Military history",
+      "Intelligence and espionage",
+      "Women in intelligence",
+      "Kunoichi"
+    ],
+    [
+      "History",
+      "Cultural history",
+      "Japanese popular culture",
+      "Ninja",
+      "Kunoichi"
     ]
   ],
   "chronology": {
@@ -165,6 +182,14 @@
     {
       "source_id": "shinobi-wikipedia",
       "reason": "General reading entry point; secondary and primary source context should control factual conclusions."
+    },
+    {
+      "source_id": "shinobi-kunoichi-wikipedia",
+      "reason": "User-requested overview of Kunoichi; an entry point rather than direct verification of manuscript or lineage claims."
+    },
+    {
+      "source_id": "shinobi-ninjutsu-wikipedia",
+      "reason": "User-requested overview of Ninjutsu; an entry point rather than direct verification of manuscript or lineage claims."
     }
   ],
   "historical_claims": [
@@ -495,6 +520,47 @@
       "source_locator": "Tuck 2025 p. 44 and discussion of 1962 screenplay",
       "audit_status": "reference_recorded",
       "id": "500000-h31"
+    },
+    {
+      "id": "500000-h32",
+      "anchor": "Before its familiar modern use, kunoichi could refer to a woman.",
+      "kind": "historical_research",
+      "source_ids": [
+        "shinobi-ndl-myths"
+      ],
+      "source_locator": "NDL 3rd Scroll, Kunoichi: wordplay, older meaning, postwar reception",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "500000-h33",
+      "anchor": "More specifically, the Bansenshūkai includes kunoichi-no-jutsu: a technique involving the use of a woman.",
+      "kind": "historical_research",
+      "source_ids": [
+        "shinobi-kunoichi-wikipedia",
+        "shinobi-mie-yamada-2016"
+      ],
+      "source_locator": "Wikipedia Kunoichi, History of use (citing Yoshimaru and Yamada, Ninja no tanjō, 2017, pp.168–170,184); Yamada 2016 interview. Original Japanese passage not directly inspected.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "500000-h34",
+      "anchor": "Yamada points to women gathering information while working in enemy households, including kitchens.",
+      "kind": "historical_research",
+      "source_ids": [
+        "shinobi-mie-yamada-2016"
+      ],
+      "source_locator": "Yamada interview, differences between popular perception and ninjutsusho",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "500000-h35",
+      "anchor": "Its compiler presents intelligence as a military necessity and gives the agent's moral discipline a place in the account.",
+      "kind": "historical_research",
+      "source_ids": [
+        "shinobi-ndl-manuals"
+      ],
+      "source_locator": "NDL Secret Scroll, Bansenshūkai: Sun Tzu, intelligence, seishin",
+      "audit_status": "reference_recorded"
     }
   ]
 }

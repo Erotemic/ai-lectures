@@ -67,6 +67,19 @@ transcript:
     - GPT-6 (Codex; weights/config variant unknown)
     sources:
     - 500000-shinobi-people-behind-the-ninja.md
+    - metadata/500000.json
+    - metadata/sources.json
+    scope: >-
+      Expand lecture 500000 on ninjutsu as intelligence practice and women’s
+      household access, the kunoichi terminology and modern reception. Add
+      source anchors, overview readings and explicit distinctions between
+      illustrative scenarios, manual prescriptions and documented incidents.
+      Preserve inherited authorship and the rest of the lecture.
+  - date: '2026-11-18'
+    models:
+    - GPT-6 (Codex; weights/config variant unknown)
+    sources:
+    - 500000-shinobi-people-behind-the-ninja.md
     - ../../docs/STYLE_GUIDE.md
     scope: >-
       Limited prose-review trial on lecture 500000 only. Remove one generic
