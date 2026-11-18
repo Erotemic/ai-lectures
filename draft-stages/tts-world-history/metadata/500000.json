@@ -1,0 +1,500 @@
+{
+  "schema_version": 1,
+  "lecture_id": "500000",
+  "transcript": "500000-shinobi-people-behind-the-ninja.md",
+  "description": "A source-critical history of Japan’s shinobi from medieval espionage and the Iga campaigns through Tokugawa service, surviving ninjutsu manuals, theatre, cinema, and the invention of the modern ninja.",
+  "places": [
+    "Japan",
+    "Iga Province",
+    "Kōka",
+    "Kyoto",
+    "Edo"
+  ],
+  "periods": [
+    "Nanboku-chō period",
+    "Sengoku period",
+    "Edo period",
+    "Taishō era",
+    "Twentieth century"
+  ],
+  "tags": [
+    "History",
+    "Japanese history",
+    "Military intelligence",
+    "Shinobi",
+    "Ninja",
+    "Ninjutsu",
+    "Iga",
+    "Kōka",
+    "Sengoku period",
+    "Edo period",
+    "Cultural history",
+    "Historical source criticism"
+  ],
+  "tag_paths": [
+    [
+      "History",
+      "East Asian history",
+      "Japanese history",
+      "Medieval Japan",
+      "Shinobi"
+    ],
+    [
+      "History",
+      "East Asian history",
+      "Japanese history",
+      "Sengoku period",
+      "Iga campaigns"
+    ],
+    [
+      "History",
+      "East Asian history",
+      "Japanese history",
+      "Edo period",
+      "Ninjutsu manuals"
+    ],
+    [
+      "History",
+      "Military history",
+      "Intelligence and espionage",
+      "Shinobi"
+    ],
+    [
+      "History",
+      "Military history",
+      "Irregular warfare",
+      "Iga campaigns"
+    ],
+    [
+      "History",
+      "Cultural history",
+      "Japanese performing arts",
+      "Ninja"
+    ],
+    [
+      "History",
+      "Cultural history",
+      "Popular media",
+      "Ninja mythology"
+    ],
+    [
+      "History",
+      "Historical methods",
+      "Source criticism",
+      "Fiction as historical evidence"
+    ],
+    [
+      "Place: Asia",
+      "Place: East Asia",
+      "Place: Japan",
+      "Place: Mie Prefecture",
+      "Place: Iga"
+    ],
+    [
+      "Place: Asia",
+      "Place: East Asia",
+      "Place: Japan",
+      "Place: Shiga Prefecture",
+      "Place: Kōka"
+    ]
+  ],
+  "chronology": {
+    "period": {
+      "start": 1336,
+      "end": 1962,
+      "approximate": true,
+      "basis": "documented_subject_and_cultural_reception",
+      "label": "14th–20th centuries · historical shinobi and later ninja image",
+      "note": "The subject runs from early fourteenth-century representations through Tokugawa-era service and manuals, and later early-twentieth-century fiction and 1962 cinema. It is not a date of composition of the historical sources; earliest evidence does not establish an origin date.",
+      "source_ids": [
+        "shinobi-ndl-historical",
+        "shinobi-ndl-fiction",
+        "shinobi-tuck-2025"
+      ]
+    }
+  },
+  "related_resources": [
+    {
+      "source_id": "shinobi-mie-center",
+      "reason": "Research-center overview of documented role, Edo service, manuals, and fictional reception."
+    },
+    {
+      "source_id": "shinobi-ndl-historical",
+      "reason": "Historical terminology, wartime duties, regional forces, and Tokugawa service."
+    },
+    {
+      "source_id": "shinobi-yamada-2023",
+      "reason": "Taiheiki, 1603 dictionary, geography, Hattori Hanzō evidence limitations, and manuals."
+    },
+    {
+      "source_id": "shinobi-ndl-manuals",
+      "reason": "Bibliographic and manuscript context for Bansenshūkai, Shōninki, and Ninpiden."
+    },
+    {
+      "source_id": "shinobi-fukushima-2021",
+      "reason": "Textual transmission and contested compiler attribution in the Bansenshūkai."
+    },
+    {
+      "source_id": "shinobi-jta-koka-edo",
+      "reason": "Heritage account for Shimabara and 1789 petition; claims marked as reported, not independently documented dialogue."
+    },
+    {
+      "source_id": "shinobi-ndl-myths",
+      "reason": "Stage costume, shuriken, kunoichi and religious gesture traditions."
+    },
+    {
+      "source_id": "shinobi-ndl-fiction",
+      "reason": "Edo and modern ninja fiction, Jiraiya, Sarutobi Sasuke, Goemon reception."
+    },
+    {
+      "source_id": "shinobi-tuck-2025",
+      "reason": "Peer-reviewed case study of Goemon poison-thread film fiction misread as history."
+    },
+    {
+      "source_id": "shinobi-mie-yamada-2016",
+      "reason": "Research limitations and historically grounded reading of ninja attributes."
+    },
+    {
+      "source_id": "shinobi-jta-koka-history",
+      "reason": "Kōka local organization and service in regional history."
+    },
+    {
+      "source_id": "shinobi-maltsev-2021",
+      "reason": "Alternative political-economic interpretation of self-governing Iga and Kōka."
+    },
+    {
+      "source_id": "shinobi-wikipedia",
+      "reason": "General reading entry point; secondary and primary source context should control factual conclusions."
+    }
+  ],
+  "historical_claims": [
+    {
+      "anchor": "In 1603, the Jesuit mission in Japan published a Japanese–Portuguese dictionary.",
+      "kind": "historical_research",
+      "source_ids": [
+        "shinobi-yamada-2023",
+        "shinobi-ndl-historical"
+      ],
+      "source_locator": "Yamada interview: Jesuit Vocabulario / xinobi; NDL 2nd scroll: Shinobi",
+      "audit_status": "reference_recorded",
+      "id": "500000-h01"
+    },
+    {
+      "anchor": "In much of the period we will examine, shinobi is the more useful historical term.",
+      "kind": "historical_research",
+      "source_ids": [
+        "shinobi-mie-center",
+        "shinobi-yamada-2023"
+      ],
+      "source_locator": "Mie Center opening; 2023 interview naming",
+      "audit_status": "reference_recorded",
+      "id": "500000-h02"
+    },
+    {
+      "anchor": "One early trace appears in the Taiheiki",
+      "kind": "historical_research",
+      "source_ids": [
+        "shinobi-ndl-historical",
+        "shinobi-yamada-2023"
+      ],
+      "source_locator": "NDL Origin and Naming; 2023 Birth of the Shinobi",
+      "audit_status": "reference_recorded",
+      "id": "500000-h03"
+    },
+    {
+      "anchor": "The Taiheiki is a war chronicle with a complex literary history",
+      "kind": "historical_research",
+      "source_ids": [
+        "shinobi-ndl-historical",
+        "shinobi-tuck-2025"
+      ],
+      "source_locator": "NDL presentation of Taiheiki; Tuck historiographic caution (narrative characterization is synthesis)",
+      "audit_status": "reference_recorded",
+      "id": "500000-h04"
+    },
+    {
+      "anchor": "Regional records mention terms such as suppa, rappa, kusa, and kamari.",
+      "kind": "historical_research",
+      "source_ids": [
+        "shinobi-ndl-historical"
+      ],
+      "source_locator": "Origin and Naming, Kusa/Kamari, Suppa/Rappa",
+      "audit_status": "reference_recorded",
+      "id": "500000-h05"
+    },
+    {
+      "anchor": "the age of warring states.",
+      "kind": "historical_research",
+      "source_ids": [
+        "shinobi-yamada-2023",
+        "shinobi-maltsev-2021"
+      ],
+      "source_locator": "Yamada Sengoku discussion; Maltsev section 1 historical context",
+      "audit_status": "reference_recorded",
+      "id": "500000-h06"
+    },
+    {
+      "anchor": "Shinobi work could be performed by men connected to the military class",
+      "kind": "historical_research",
+      "source_ids": [
+        "shinobi-mie-center",
+        "shinobi-tuck-2025"
+      ],
+      "source_locator": "Mie period-specific status; Tuck pp. 44–46 role/identity argument",
+      "audit_status": "reference_recorded",
+      "id": "500000-h07"
+    },
+    {
+      "anchor": "Iga was a province in the mountainous interior of what is now Mie Prefecture.",
+      "kind": "historical_research",
+      "source_ids": [
+        "shinobi-yamada-2023",
+        "shinobi-maltsev-2021"
+      ],
+      "source_locator": "Iga/Kōka geography and regional structures",
+      "audit_status": "reference_recorded",
+      "id": "500000-h08"
+    },
+    {
+      "anchor": "Families held land, managed relationships with temples and neighboring communities",
+      "kind": "historical_research",
+      "source_ids": [
+        "shinobi-maltsev-2021",
+        "shinobi-jta-koka-history"
+      ],
+      "source_locator": "Confederations and local power (interpretive synthesis)",
+      "audit_status": "reference_recorded",
+      "id": "500000-h09"
+    },
+    {
+      "anchor": "In 1579, Nobunaga's son Oda Nobukatsu launched an invasion of Iga.",
+      "kind": "historical_research",
+      "source_ids": [
+        "shinobi-mie-center",
+        "shinobi-maltsev-2021"
+      ],
+      "source_locator": "First Tenshō Iga War",
+      "audit_status": "reference_recorded",
+      "id": "500000-h10"
+    },
+    {
+      "anchor": "Two years later, in 1581, a far larger Oda campaign entered Iga.",
+      "kind": "historical_research",
+      "source_ids": [
+        "shinobi-maltsev-2021",
+        "shinobi-jta-koka-history"
+      ],
+      "source_locator": "Maltsev 4 Concluding remarks; Japan Tourism Koka overview",
+      "audit_status": "reference_recorded",
+      "id": "500000-h11"
+    },
+    {
+      "anchor": "In 1582, Nobunaga was killed at Honnōji in Kyoto",
+      "kind": "historical_research",
+      "source_ids": [
+        "shinobi-yamada-2023"
+      ],
+      "source_locator": "Yamada interview: Legend of Hattori Hanzō",
+      "audit_status": "reference_recorded",
+      "id": "500000-h12"
+    },
+    {
+      "anchor": "the exact route remains debated, and strong contemporary evidence for every dramatic act attributed to Hanzō is lacking.",
+      "kind": "historical_research",
+      "source_ids": [
+        "shinobi-yamada-2023"
+      ],
+      "source_locator": "Yamada explicitly discusses competing routes and lack of positive Hanzō proof",
+      "audit_status": "reference_recorded",
+      "id": "500000-h13"
+    },
+    {
+      "anchor": "Hattori Hanzō Masanari was a real warrior and a retainer of Ieyasu.",
+      "kind": "historical_research",
+      "source_ids": [
+        "shinobi-yamada-2023"
+      ],
+      "source_locator": "Yamada: spear commander, Iga connections, Tokugawa service",
+      "audit_status": "reference_recorded",
+      "id": "500000-h14"
+    },
+    {
+      "anchor": "The rebellion in Kyushu had several causes",
+      "kind": "historical_research",
+      "source_ids": [
+        "shinobi-jta-koka-edo",
+        "shinobi-yamada-2023"
+      ],
+      "source_locator": "Koka in Edo Period: Shimabara context; see broader modern histories for multiple causes",
+      "audit_status": "reference_recorded",
+      "id": "500000-h15"
+    },
+    {
+      "anchor": "a small party of ten Kōka men was dispatched to obtain information within the castle.",
+      "kind": "historical_research",
+      "source_ids": [
+        "shinobi-jta-koka-edo"
+      ],
+      "source_locator": "Shimabara Rebellion entry; interpretive display",
+      "audit_status": "reference_recorded",
+      "id": "500000-h16"
+    },
+    {
+      "anchor": "Records describe Iga-mono and Kōka-mono in positions",
+      "kind": "historical_research",
+      "source_ids": [
+        "shinobi-mie-center",
+        "shinobi-ndl-historical"
+      ],
+      "source_locator": "Mie pre-modern period; NDL Missions of the Ninja (Edo Period)",
+      "audit_status": "reference_recorded",
+      "id": "500000-h17"
+    },
+    {
+      "anchor": "The best-known later example is the oniwaban",
+      "kind": "historical_research",
+      "source_ids": [
+        "shinobi-ndl-historical"
+      ],
+      "source_locator": "NDL Edo intelligence institutions and Oniwaban",
+      "audit_status": "reference_recorded",
+      "id": "500000-h18"
+    },
+    {
+      "anchor": "In 1789, according to records discussed by the Japan Tourism Agency",
+      "kind": "historical_research",
+      "source_ids": [
+        "shinobi-jta-koka-edo"
+      ],
+      "source_locator": "Koka Koshi petition/display",
+      "audit_status": "reference_recorded",
+      "id": "500000-h19"
+    },
+    {
+      "anchor": "One is the Bansenshūkai, traditionally dated to 1676.",
+      "kind": "historical_research",
+      "source_ids": [
+        "shinobi-ndl-manuals",
+        "shinobi-fukushima-2021"
+      ],
+      "source_locator": "NDL Bansenshukai; Fukushima 2021 manuscript research",
+      "audit_status": "reference_recorded",
+      "id": "500000-h20"
+    },
+    {
+      "anchor": "Another is the Shōninki, written by Natori Masazumi in 1681.",
+      "kind": "historical_research",
+      "source_ids": [
+        "shinobi-ndl-manuals"
+      ],
+      "source_locator": "NDL Shōninki, transmitted copy and date",
+      "audit_status": "reference_recorded",
+      "id": "500000-h21"
+    },
+    {
+      "anchor": "One passage describes a strategy for gradually winning access to a household",
+      "kind": "historical_research",
+      "source_ids": [
+        "shinobi-ndl-manuals"
+      ],
+      "source_locator": "NDL Shōninki: Winning hearts and minds",
+      "audit_status": "reference_recorded",
+      "id": "500000-h22"
+    },
+    {
+      "anchor": "Takamasa Fukushima's study, for example, reevaluates the conventional attribution",
+      "kind": "historical_research",
+      "source_ids": [
+        "shinobi-fukushima-2021"
+      ],
+      "source_locator": "Fukushima 2021 abstract",
+      "audit_status": "reference_recorded",
+      "id": "500000-h23"
+    },
+    {
+      "anchor": "Dark colors could be practical, but a standard head-to-toe ninja uniform",
+      "kind": "historical_research",
+      "source_ids": [
+        "shinobi-ndl-myths",
+        "shinobi-mie-center"
+      ],
+      "source_locator": "NDL outfits; Mie fictional image",
+      "audit_status": "reference_recorded",
+      "id": "500000-h24"
+    },
+    {
+      "anchor": "researchers examining surviving ninjutsu manuals have not found evidence that star-shaped shuriken",
+      "kind": "historical_research",
+      "source_ids": [
+        "shinobi-ndl-myths",
+        "shinobi-mie-yamada-2016"
+      ],
+      "source_locator": "NDL Shuriken; Yamada 2016 comments",
+      "audit_status": "reference_recorded",
+      "id": "500000-h25"
+    },
+    {
+      "anchor": "Manuals discuss climbing aids, ropes, fire implements, and makibishi",
+      "kind": "historical_research",
+      "source_ids": [
+        "shinobi-ndl-myths",
+        "shinobi-yamada-2023"
+      ],
+      "source_locator": "NDL makibishi; Yamada surviving equipment descriptions",
+      "audit_status": "reference_recorded",
+      "id": "500000-h26"
+    },
+    {
+      "anchor": "One manual discusses using women as part of an intelligence operation.",
+      "kind": "historical_research",
+      "source_ids": [
+        "shinobi-ndl-myths",
+        "shinobi-mie-yamada-2016"
+      ],
+      "source_locator": "NDL Kunoichi; Yamada 2016 discussion",
+      "audit_status": "reference_recorded",
+      "id": "500000-h27"
+    },
+    {
+      "anchor": "Jiraiya, a magical hero of nineteenth-century illustrated tales",
+      "kind": "historical_research",
+      "source_ids": [
+        "shinobi-ndl-fiction"
+      ],
+      "source_locator": "NDL 1st scroll Jiraiya and Tokugawa era",
+      "audit_status": "reference_recorded",
+      "id": "500000-h28"
+    },
+    {
+      "anchor": "Sarutobi Sasuke, promoted through the popular Tatsukawa Bunko stories",
+      "kind": "historical_research",
+      "source_ids": [
+        "shinobi-mie-center",
+        "shinobi-ndl-fiction"
+      ],
+      "source_locator": "Mie fictional image; NDL Taishō ninja adventures",
+      "audit_status": "reference_recorded",
+      "id": "500000-h29"
+    },
+    {
+      "anchor": "In a study published in 2025, Robert Tuck tracked the story backward.",
+      "kind": "historical_research",
+      "source_ids": [
+        "shinobi-tuck-2025"
+      ],
+      "source_locator": "Tuck 2025 pp. 43–46; case-study analysis",
+      "audit_status": "reference_recorded",
+      "id": "500000-h30"
+    },
+    {
+      "anchor": "The memorable poison-thread device was not part of the source novel.",
+      "kind": "historical_research",
+      "source_ids": [
+        "shinobi-tuck-2025"
+      ],
+      "source_locator": "Tuck 2025 p. 44 and discussion of 1962 screenplay",
+      "audit_status": "reference_recorded",
+      "id": "500000-h31"
+    }
+  ]
+}
