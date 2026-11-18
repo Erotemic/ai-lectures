@@ -85,6 +85,65 @@
         "Bootstrap",
         "Hypothesis testing"
       ]
+    },
+    {
+      "id": "worked-experimental-design",
+      "title": "Probability · Experimental Design and Observational Comparisons",
+      "role": "deep_dive",
+      "parent": "established-course",
+      "lectures": [
+        "003000",
+        "016000",
+        "017000",
+        "024000",
+        "025000"
+      ],
+      "assumed_background": [
+        "Elementary averages, random assignment, conditional probabilities and proportions; no regression or measure theory required."
+      ],
+      "related_collections": [
+        "established-course",
+        "worked-statistical-inference"
+      ],
+      "tags": [
+        "Probability",
+        "Randomized experiments",
+        "Experimental units",
+        "Blocking",
+        "Confounding",
+        "Observational studies"
+      ]
+    },
+    {
+      "id": "worked-regression-prediction",
+      "title": "Probability · Least Squares, Diagnostics and Prediction",
+      "role": "deep_dive",
+      "parent": "established-course",
+      "lectures": [
+        "016000",
+        "017000",
+        "020000",
+        "021000",
+        "026000",
+        "027000",
+        "028000"
+      ],
+      "assumed_background": [
+        "Elementary probability and sampling error, averages and variance, and simple algebra and derivatives for least squares."
+      ],
+      "related_collections": [
+        "established-course",
+        "worked-statistical-inference",
+        "worked-experimental-design"
+      ],
+      "tags": [
+        "Probability",
+        "Statistical inference",
+        "Regression",
+        "Least squares",
+        "Model checking",
+        "Prediction intervals"
+      ]
     }
   ]
 }

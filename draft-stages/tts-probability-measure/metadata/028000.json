@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "lecture_id": "028000",
+  "transcript": "028000-prediction-intervals-and-generalization.md",
+  "related_resources": [
+    {
+      "source_id": "pm-stat501-prediction",
+      "reason": "Distinct confidence and prediction intervals under a normal linear error model."
+    },
+    {
+      "source_id": "pm-stat501-assumptions",
+      "reason": "Residual diagnostics, variance assumptions and model assessment."
+    },
+    {
+      "source_id": "pm-stat501-influence",
+      "reason": "Leverage, studentized and deleted residuals, influential observations."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original worked experiment, confounding or regression foundation lecture and non-spoken mathematical companion; earlier manuscripts preserved."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "probability-measure:026000",
+        "reason": "Prerequisite concepts developed in lecture 026000."
+      },
+      {
+        "lecture_id": "probability-measure:027000",
+        "reason": "Prerequisite concepts developed in lecture 027000."
+      },
+      {
+        "lecture_id": "probability-measure:021000",
+        "reason": "Prerequisite concepts developed in lecture 021000."
+      }
+    ],
+    "recommended": [
+      {
+        "lecture_id": "probability-measure:022000",
+        "reason": "Related optional background in lecture 022000."
+      },
+      {
+        "lecture_id": "probability-measure:017000",
+        "reason": "Related optional background in lecture 017000."
+      }
+    ],
+    "background": [
+      "Elementary probability, arithmetic and averages; basic derivatives for regression; no measure theory or advanced asymptotic statistics required."
+    ],
+    "readiness_checks": [
+      "Derive the extra error-variance term in an individual prediction interval.",
+      "Calculate the two model-based 95-percent intervals at the average predictor.",
+      "Explain extrapolation, leakage and appropriate group/time validation."
+    ]
+  }
+}

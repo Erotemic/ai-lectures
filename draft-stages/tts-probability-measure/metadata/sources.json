@@ -238,6 +238,76 @@
       "url": "https://www.amstat.org/asa/files/pdfs/P-ValueStatement.pdf",
       "access": "free_no_login",
       "notes": "Six principles clarifying what p-values do and do not imply."
+    },
+    "pm-stat503-course": {
+      "title": "Penn State STAT 503: Design of Experiments",
+      "kind": "course_material",
+      "url": "https://online.stat.psu.edu/statprogram/stat503",
+      "access": "free_no_login",
+      "notes": "Principles of randomized experiments and treatment comparisons."
+    },
+    "pm-stat503-block": {
+      "title": "Penn State STAT 503, Lesson 4: Blocking",
+      "kind": "course_material",
+      "url": "https://online.stat.psu.edu/stat503/Lesson04",
+      "access": "free_no_login",
+      "notes": "Randomized complete block designs and nuisance factors."
+    },
+    "pm-imbens-rubin": {
+      "title": "Guido W. Imbens and Donald B. Rubin, Causal Inference for Statistics, Social, and Biomedical Sciences (2015)",
+      "kind": "scholarly_textbook",
+      "url": "https://www.cambridge.org/core/books/causal-inference-for-statistics-social-and-biomedical-sciences/71126BE90C58F1A431FE9B2DD07938AB/listing",
+      "access": "publisher_or_author",
+      "notes": "Potential outcomes, finite-population randomization, and observational assignment mechanisms."
+    },
+    "pm-hernan-whatif": {
+      "title": "Miguel A. Hernán and James M. Robins, Causal Inference: What If",
+      "kind": "scholarly_textbook",
+      "url": "https://miguelhernan.org/whatifbook",
+      "access": "free_no_login",
+      "notes": "Counterfactual estimands, exchangeability, positivity, and selection biases."
+    },
+    "pm-stat501-slr": {
+      "title": "Penn State STAT 501, Lesson 1: Simple Linear Regression",
+      "kind": "course_material",
+      "url": "https://online.stat.psu.edu/stat501/Lesson01",
+      "access": "free_no_login",
+      "notes": "Least squares, fitted values and residual calculation."
+    },
+    "pm-openstax-slr": {
+      "title": "OpenStax Introductory Statistics 2e, Section 12.3: The Regression Equation",
+      "kind": "open_textbook",
+      "url": "https://openstax.org/books/introductory-statistics-2e/pages/12-3-the-regression-equation",
+      "access": "free_no_login",
+      "notes": "Geometric and algebraic derivation of a least-squares regression line."
+    },
+    "pm-stat501-assumptions": {
+      "title": "Penn State STAT 501, Lesson 4: Simple Linear Regression Model Assumptions",
+      "kind": "course_material",
+      "url": "https://online.stat.psu.edu/stat501/Lesson04",
+      "access": "free_no_login",
+      "notes": "Residual plots, nonlinearity, heteroskedasticity, independence and normality."
+    },
+    "pm-stat501-influence": {
+      "title": "Penn State STAT 501, Lesson 11: Influential Points",
+      "kind": "course_material",
+      "url": "https://online.stat.psu.edu/stat501/Lesson11",
+      "access": "free_no_login",
+      "notes": "Leverage, studentized residuals, deleted residuals and influence."
+    },
+    "pm-stat501-mlr": {
+      "title": "Penn State STAT 501, Lesson 7: Multiple Regression Estimation and Model Assumptions",
+      "kind": "course_material",
+      "url": "https://online.stat.psu.edu/stat501/Lesson07",
+      "access": "free_no_login",
+      "notes": "General regression assumptions, prediction and diagnostics."
+    },
+    "pm-stat501-prediction": {
+      "title": "Penn State STAT 501, Lesson 3: Simple Linear Regression Estimation and Prediction",
+      "kind": "course_material",
+      "url": "https://online.stat.psu.edu/stat501/Lesson03",
+      "access": "free_no_login",
+      "notes": "Distinction between confidence intervals for mean responses and prediction intervals for new responses."
     }
   }
 }

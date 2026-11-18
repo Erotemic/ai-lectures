@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "lecture_id": "025000",
+  "transcript": "025000-confounding-and-observational-comparisons.md",
+  "related_resources": [
+    {
+      "source_id": "pm-hernan-whatif",
+      "reason": "Confounding, exchangeability, positivity, selection, and the structure of causal contrasts."
+    },
+    {
+      "source_id": "pm-imbens-rubin",
+      "reason": "Potential outcomes, assignment mechanisms and finite-population randomized experiments."
+    },
+    {
+      "source_id": "pm-stat503-course",
+      "reason": "Design principles, experimental units, random assignment and comparative experiments."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original worked experiment, confounding or regression foundation lecture and non-spoken mathematical companion; earlier manuscripts preserved."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "probability-measure:024000",
+        "reason": "Prerequisite concepts developed in lecture 024000."
+      },
+      {
+        "lecture_id": "probability-measure:016000",
+        "reason": "Prerequisite concepts developed in lecture 016000."
+      }
+    ],
+    "recommended": [
+      {
+        "lecture_id": "probability-measure:020000",
+        "reason": "Related optional background in lecture 020000."
+      },
+      {
+        "lecture_id": "probability-measure:008000",
+        "reason": "Related optional background in lecture 008000."
+      }
+    ],
+    "background": [
+      "Elementary probability, arithmetic and averages; basic derivatives for regression; no measure theory or advanced asymptotic statistics required."
+    ],
+    "readiness_checks": [
+      "Reproduce the aggregate and stratum-specific recovery proportions in a Simpson reversal.",
+      "Standardize both treatment groups to a common severity distribution.",
+      "Distinguish a pre-treatment confounder, a mediator, and a collider."
+    ]
+  }
+}

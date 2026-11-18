@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "lecture_id": "024000",
+  "transcript": "024000-randomized-experiments-and-blocking.md",
+  "related_resources": [
+    {
+      "source_id": "pm-stat503-course",
+      "reason": "Design principles, experimental units, random assignment and comparative experiments."
+    },
+    {
+      "source_id": "pm-stat503-block",
+      "reason": "Blocking and randomization within pre-treatment strata."
+    },
+    {
+      "source_id": "pm-imbens-rubin",
+      "reason": "Potential outcomes, assignment mechanisms and finite-population randomized experiments."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original worked experiment, confounding or regression foundation lecture and non-spoken mathematical companion; earlier manuscripts preserved."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "probability-measure:016000",
+        "reason": "Prerequisite concepts developed in lecture 016000."
+      },
+      {
+        "lecture_id": "probability-measure:017000",
+        "reason": "Prerequisite concepts developed in lecture 017000."
+      }
+    ],
+    "recommended": [
+      {
+        "lecture_id": "probability-measure:023000",
+        "reason": "Related optional background in lecture 023000."
+      }
+    ],
+    "background": [
+      "Elementary probability, arithmetic and averages; basic derivatives for regression; no measure theory or advanced asymptotic statistics required."
+    ],
+    "readiness_checks": [
+      "Identify the experimental unit in a nested chamber experiment.",
+      "Enumerate the six balanced assignments in a four-unit potential-outcomes example.",
+      "Explain why random assignment and random sampling support different claims."
+    ]
+  }
+}

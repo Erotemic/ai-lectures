@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "lecture_id": "026000",
+  "transcript": "026000-least-squares-regression-by-hand.md",
+  "related_resources": [
+    {
+      "source_id": "pm-stat501-slr",
+      "reason": "Least-squares derivation, residuals, and simple regression models."
+    },
+    {
+      "source_id": "pm-openstax-slr",
+      "reason": "Accessible least-squares coefficient calculation and interpretation."
+    },
+    {
+      "source_id": "pm-stat501-assumptions",
+      "reason": "Residual diagnostics, variance assumptions and model assessment."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original worked experiment, confounding or regression foundation lecture and non-spoken mathematical companion; earlier manuscripts preserved."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "probability-measure:016000",
+        "reason": "Prerequisite concepts developed in lecture 016000."
+      },
+      {
+        "lecture_id": "probability-measure:020000",
+        "reason": "Prerequisite concepts developed in lecture 020000."
+      }
+    ],
+    "recommended": [
+      {
+        "lecture_id": "probability-measure:017000",
+        "reason": "Related optional background in lecture 017000."
+      }
+    ],
+    "background": [
+      "Elementary probability, arithmetic and averages; basic derivatives for regression; no measure theory or advanced asymptotic statistics required."
+    ],
+    "readiness_checks": [
+      "Derive the intercept and slope of the five-point least-squares line.",
+      "Check both normal equations and the in-sample R squared.",
+      "Separate numerical least squares from its statistical error assumptions."
+    ]
+  }
+}

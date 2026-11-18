@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "lecture_id": "027000",
+  "transcript": "027000-regression-diagnostics-and-influence.md",
+  "related_resources": [
+    {
+      "source_id": "pm-stat501-assumptions",
+      "reason": "Residual diagnostics, variance assumptions and model assessment."
+    },
+    {
+      "source_id": "pm-stat501-influence",
+      "reason": "Leverage, studentized and deleted residuals, influential observations."
+    },
+    {
+      "source_id": "pm-stat501-mlr",
+      "reason": "Model diagnostics with multiple predictors."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original worked experiment, confounding or regression foundation lecture and non-spoken mathematical companion; earlier manuscripts preserved."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "probability-measure:026000",
+        "reason": "Prerequisite concepts developed in lecture 026000."
+      }
+    ],
+    "recommended": [
+      {
+        "lecture_id": "probability-measure:021000",
+        "reason": "Related optional background in lecture 021000."
+      }
+    ],
+    "background": [
+      "Elementary probability, arithmetic and averages; basic derivatives for regression; no measure theory or advanced asymptotic statistics required."
+    ],
+    "readiness_checks": [
+      "Recognize curvature, heteroskedasticity and dependence in residual patterns.",
+      "Compute leverage and leave-one-out residuals for the five-point model.",
+      "Explain why robust errors and low training loss do not repair confounding."
+    ]
+  }
+}

@@ -48,7 +48,26 @@ The original twelve-lecture course is unchanged, and the earlier Monte Carlo ext
 
 **Listening route:** `probability-measure:worked-statistical-inference`, beginning with existing random-variable, covariance and sampling-error lectures. The main course playback is unaffected. Each new manuscript includes a non-spoken mathematical companion, exercises with answers and source notes.
 
-Further foundation gaps worth considering: statistical design and confounding, introductory regression with error assumptions, and model checking. Reserved 013000–015000 topics remain unchanged.
+## Worked experimental design and observational comparisons (024000–025000)
+
+Two standalone, calculations-first manuscripts examine which causal questions data can actually answer:
+
+- 024000: [Designing an Experiment Before Measuring Its Result](024000-randomized-experiments-and-blocking.md) — experimental units, potential outcomes, complete randomization, blocking, independence, and generalization.
+- 025000: [When Comparisons Mislead: Confounding and Observational Studies](025000-confounding-and-observational-comparisons.md) — a fully worked Simpson reversal, standardization, positivity, mediators, colliders, and causal identification assumptions.
+
+**Listening route:** `probability-measure:worked-experimental-design`, reusing existing elementary probability and sampling-error lessons. No change to the established course route.
+
+## Worked regression, model checking, and prediction (026000–028000)
+
+A common five-point dataset is carried through fitting, diagnostics, and prediction:
+
+- 026000: [A Regression Line You Can Derive and Check](026000-least-squares-regression-by-hand.md) — exact least squares, normal equations, explained variance, residuals, and assumptions.
+- 027000: [A Fitted Line Is Not a Checked Model](027000-regression-diagnostics-and-influence.md) — residual structure, unequal variance, leverage, deleted residuals, and independent validation.
+- 028000: [Predicting a New Observation Is Harder Than Estimating an Average](028000-prediction-intervals-and-generalization.md) — exact confidence and prediction intervals, extrapolation, validation leakage, and changed data distributions.
+
+**Listening route:** `probability-measure:worked-regression-prediction`, beginning with available probability, sampling-error, and estimation material. Each new lecture includes a mathematical companion with exercises, worked answers, and attributed readings.
+
+Potential future elementary gaps: multiple regression and categorical predictors, introduction to generalized linear models, and introductory Bayesian estimation with predictive checks. Reserved 013000–015000 topics remain unchanged.
 
 ## Planned continuation
 

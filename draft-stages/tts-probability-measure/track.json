@@ -19,7 +19,9 @@
     "weak-convergence",
     "dependent-concentration",
     "worked-probability-monte-carlo",
-    "worked-statistical-inference"
+    "worked-statistical-inference",
+    "worked-experimental-design",
+    "worked-regression-prediction"
   ],
   "lectures": [
     {
@@ -332,6 +334,99 @@
         "Statistical power",
         "Randomization tests",
         "Multiple comparisons"
+      ]
+    },
+    {
+      "id": "024000",
+      "title": "Designing an Experiment Before Measuring Its Result",
+      "section": "worked-experimental-design",
+      "file": "024000-randomized-experiments-and-blocking.md",
+      "spoken_words": 1703,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 11.7,
+      "tags": [
+        "Probability",
+        "Statistical inference",
+        "Experimental design",
+        "Randomization",
+        "Potential outcomes",
+        "Blocking",
+        "Cluster randomization"
+      ]
+    },
+    {
+      "id": "025000",
+      "title": "When Comparisons Mislead: Confounding and Observational Studies",
+      "section": "worked-experimental-design",
+      "file": "025000-confounding-and-observational-comparisons.md",
+      "spoken_words": 1627,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 11.2,
+      "tags": [
+        "Probability",
+        "Statistical inference",
+        "Causal inference",
+        "Observational studies",
+        "Simpson paradox",
+        "Confounding",
+        "Standardization",
+        "Collider bias"
+      ]
+    },
+    {
+      "id": "026000",
+      "title": "A Regression Line You Can Derive and Check",
+      "section": "worked-regression-prediction",
+      "file": "026000-least-squares-regression-by-hand.md",
+      "spoken_words": 1850,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 12.8,
+      "tags": [
+        "Probability",
+        "Statistical inference",
+        "Simple linear regression",
+        "Least squares",
+        "Normal equations",
+        "Residuals",
+        "Coefficient of determination"
+      ]
+    },
+    {
+      "id": "027000",
+      "title": "A Fitted Line Is Not a Checked Model",
+      "section": "worked-regression-prediction",
+      "file": "027000-regression-diagnostics-and-influence.md",
+      "spoken_words": 1699,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 11.7,
+      "tags": [
+        "Probability",
+        "Statistical inference",
+        "Regression diagnostics",
+        "Heteroskedasticity",
+        "Leverage",
+        "Influence",
+        "Leave one out",
+        "Model checking"
+      ]
+    },
+    {
+      "id": "028000",
+      "title": "Predicting a New Observation Is Harder Than Estimating an Average",
+      "section": "worked-regression-prediction",
+      "file": "028000-prediction-intervals-and-generalization.md",
+      "spoken_words": 1912,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 13.2,
+      "tags": [
+        "Probability",
+        "Statistical inference",
+        "Prediction intervals",
+        "Confidence intervals",
+        "Regression",
+        "Extrapolation",
+        "Validation",
+        "Generalization"
       ]
     }
   ],
