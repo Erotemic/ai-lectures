@@ -377,9 +377,25 @@
         "125000",
         "127000",
         "130000",
-        "131000"
+        "131000",
+        "133000",
+        "135000"
       ],
       "parent": "subjects"
+    },
+    {
+      "id": "life-sciences",
+      "title": "Lives · Evolution, Genetics, and the Life Sciences",
+      "role": "deep_dive",
+      "lectures": [
+        "134000",
+        "136000"
+      ],
+      "parent": "subjects",
+      "summary": "Biological lives from natural selection and field observation to chromosomes and mobile genetic elements. Science, people, and institutions are presented together.",
+      "assumed_background": [
+        "No technical biology prerequisites; the manuscripts develop the necessary concepts."
+      ]
     }
   ]
 }

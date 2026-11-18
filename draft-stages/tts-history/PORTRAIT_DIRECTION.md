@@ -202,3 +202,11 @@ Tesla, Kepler, Fermat and Klein, have been delivered.
 The earlier editorial audit also left a listening-review question about the
 long mathematical digressions in the Davis and Galois portraits. This is a
 review candidate, not evidence that their arguments should be removed.
+
+## Continuation 16: Faraday, Darwin, Meitner and McClintock (18 November 2026)
+
+Added four self-contained scientist lives, `133000`–`136000`, increasing the historical portrait catalog to **157 episodes covering 136 people**. Each has a standalone spoken manuscript, a nonspoken scientific and historical companion, claim-anchored citations, and chronology and approximate geographic coverage metadata. The biology entries add the `evolutionary-biology` and `genetics` catalog sections and a life-sciences listening route. The physics-engineering route now includes Faraday and Meitner.
+
+The principal historical distinctions to preserve are these: **Faraday** contributed experimental findings and a physical field picture, but the familiar mathematical law and modern generator designs were later developments; the Royal Institution's Christmas Lectures began in 1825, and Faraday's first series was 1827. **Darwin** did not infer natural selection in one Galápagos instant; the 1858 Linnean presentation included independently developed Wallace material, and decades of fieldwork, correspondence and domestic experimentation mattered. **Meitner and Frisch** supplied the physical account of nuclear fission, while Hahn and Strassmann established crucial chemical evidence and other contemporaries contributed to the chain of clues; the 1944 Hahn Nobel prize was awarded in 1945. **McClintock** provided evidence for movable genetic elements; subsequent molecular work revealed mechanisms, and acceptance of transposition among maize geneticists did not require acceptance of all her wider ideas about genome control.
+
+There is no audio-generation or media deliverable in this source update. The spoken lectures should remain approachable without specialist prerequisites and should be expanded on the basis of evidence and narrative need rather than a fixed duration.
