@@ -1,0 +1,303 @@
+{
+  "schema_version": 1,
+  "lecture_id": "020000",
+  "transcript": "020000-more-than-one-way-to-defend-a-body.md",
+  "description": "Compares insect parasitoid encapsulation, antiviral RNA interference, sea urchin recognition gene families, bumblebee immune priming, and the alternative adaptive receptor system of lampreys.",
+  "tags": [
+    "Comparative immunology",
+    "Evolution of immunity",
+    "Invertebrate immunity",
+    "Parasitoid wasps",
+    "Drosophila larvae",
+    "Hemocytes",
+    "Lamellocytes",
+    "Encapsulation",
+    "Melanization",
+    "Phenoloxidase",
+    "RNA interference",
+    "Dicer-2",
+    "Antiviral defense",
+    "Drosophila Toll",
+    "Sea urchin",
+    "Toll-like receptor repertoire",
+    "Immune gene evolution",
+    "Bumblebees",
+    "Bombus terrestris",
+    "Immune priming",
+    "Innate immune memory",
+    "Sea lamprey",
+    "Jawless vertebrates",
+    "Variable lymphocyte receptors",
+    "VLRs",
+    "Leucine-rich repeats",
+    "Somatic diversification",
+    "VLRA",
+    "VLRB"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Immune physiology",
+      "Invertebrate defense",
+      "Parasitoid encapsulation"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Immune physiology",
+      "Invertebrate defense",
+      "Hemocytes"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Immune physiology",
+      "Invertebrate defense",
+      "Melanization"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Immune physiology",
+      "Invertebrate defense",
+      "Antiviral RNA interference"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Immune physiology",
+      "Invertebrate defense",
+      "Dicer-2"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Immune physiology",
+      "Comparative genomics",
+      "Sea urchin recognition genes"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Immune physiology",
+      "Immune memory",
+      "Invertebrate immune priming"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Immune physiology",
+      "Immune memory",
+      "Bumblebee challenge experiments"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Immune physiology",
+      "Vertebrate immunity",
+      "Jawless vertebrates"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Immune physiology",
+      "Vertebrate immunity",
+      "Lamprey variable lymphocyte receptors"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Immune physiology",
+      "Vertebrate immunity",
+      "VLRA and VLRB lineages"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Immune physiology",
+      "Evolutionary mechanisms",
+      "Somatic receptor diversification"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "ap-imm-wasp-larva",
+      "reason": "Larval fly hemocytes, lamellocytes, encapsulation and melanization."
+    },
+    {
+      "source_id": "ap-imm-encapsulation-cost",
+      "reason": "Parasitoid defense, toxic intermediates and host energetic cost."
+    },
+    {
+      "source_id": "ap-imm-dicer2",
+      "reason": "Dicer-2 loss-of-function heightens susceptibility across multiple RNA-virus families."
+    },
+    {
+      "source_id": "ap-imm-fly-toll",
+      "reason": "Toll pathway mutants, drosomycin induction and survival after fungal infection."
+    },
+    {
+      "source_id": "ap-imm-urchin-genome",
+      "reason": "Purple sea urchin immune gene-family expansions; reported 222 TLR genes."
+    },
+    {
+      "source_id": "ap-imm-bumblebee-priming",
+      "reason": "Bumblebee reciprocal bacterial challenges, persistence and pathogen-specific immune priming."
+    },
+    {
+      "source_id": "ap-imm-invertebrate-priming",
+      "reason": "Distinguishes priming outcomes and proposed mechanisms; some unresolved."
+    },
+    {
+      "source_id": "ap-imm-pancer-lamprey",
+      "reason": "Leucine-rich repeat antigen receptor families in jawless vertebrates."
+    },
+    {
+      "source_id": "ap-imm-lamprey-lineages",
+      "reason": "VLRA and VLRB antigen-responsive, T-like and B-like populations."
+    },
+    {
+      "source_id": "ap-imm-lamprey-evolution",
+      "reason": "Different molecular architectures of jawless and jawed vertebrate adaptive immunity."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "020000-e01",
+      "anchor": "Blood-like cells in its body cavity can gather at the foreign surface",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-imm-wasp-larva"
+      ],
+      "source_locator": "Drosophila immune encapsulation",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "020000-e02",
+      "anchor": "Melanization involves reactions in the phenoloxidase pathway",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-imm-encapsulation-cost"
+      ],
+      "source_locator": "Melanization chemistry and immunometabolism",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "020000-e03",
+      "anchor": "In fruit flies, a protein called Dicer two can help cut",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-imm-dicer2"
+      ],
+      "source_locator": "Dicer-2 antiviral RNA interference",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "020000-e04",
+      "anchor": "In 2006, Delphine Galiana-Arnoux and colleagues tested",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-imm-dicer2"
+      ],
+      "source_locator": "Dicer-2 mutant multi-virus susceptibility",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "020000-e05",
+      "anchor": "Toll-mediated signaling contributes to responses",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-imm-fly-toll"
+      ],
+      "source_locator": "Toll-dependent antifungal signaling",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "020000-e06",
+      "anchor": "In 2006, comparative analysis of the purple sea urchin genome reported",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-imm-urchin-genome"
+      ],
+      "source_locator": "Genomic family counts and diversity",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "020000-e07",
+      "anchor": "In an experiment published in 2006, researchers studied the bumblebee",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-imm-bumblebee-priming"
+      ],
+      "source_locator": "2006 pathogen-specific priming reciprocal challenge",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "020000-e08",
+      "anchor": "Some immune priming may involve changes in immune-cell populations",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-imm-invertebrate-priming"
+      ],
+      "source_locator": "Range of proposed immune priming mechanisms",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "020000-e09",
+      "anchor": "In 2004, Zeev Pancer and colleagues reported",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-imm-pancer-lamprey"
+      ],
+      "source_locator": "Discovery of lamprey VLR receptors",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "020000-e10",
+      "anchor": "Cells expressing the receptor family called VLRB can respond",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-imm-lamprey-lineages"
+      ],
+      "source_locator": "Distinct lamprey VLR adaptive lymphocyte lineages",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "020000-e11",
+      "anchor": "Jawed vertebrates and living jawless vertebrates have different molecular solutions",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-imm-lamprey-evolution"
+      ],
+      "source_locator": "Distinct jawless/jawed adaptive architectures",
+      "audit_status": "source_checked"
+    }
+  ],
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Requires no specialist immunology; receptors, signaling, circulation and basic cell biology are explained within the lecture."
+    ],
+    "readiness_checks": [
+      "Why is encapsulation a different solution from phagocytosis?",
+      "What did Dicer-2 disruption establish about insect antiviral defense?",
+      "What can a sea-urchin gene count reveal, and what can it not reveal?",
+      "Why does immune priming in bumblebees not imply immunoglobulin-based adaptive immunity?",
+      "What is the difference between lamprey VLR assembly and jawed-vertebrate V(D)J rearrangement?"
+    ]
+  }
+}

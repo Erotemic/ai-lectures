@@ -1,0 +1,312 @@
+{
+  "schema_version": 1,
+  "lecture_id": "021000",
+  "transcript": "021000-when-defense-must-stand-down.md",
+  "description": "Explains thymic central tolerance, FOXP3 regulatory T cells, mucosal IgA and microbiota accommodation, inflammation resolution and the physiological costs of defense.",
+  "tags": [
+    "Immune tolerance",
+    "Central tolerance",
+    "Peripheral tolerance",
+    "Thymus",
+    "T-cell selection",
+    "Negative selection",
+    "AIRE",
+    "FOXP3",
+    "Regulatory T cells",
+    "Tregs",
+    "CD25",
+    "Autoimmunity",
+    "Allergy",
+    "Gut microbiota",
+    "Intestinal immunity",
+    "Mucosal immunity",
+    "Immunoglobulin A",
+    "IgA",
+    "Epithelial barrier",
+    "Commensals",
+    "Mucosal compartmentalization",
+    "Inflammatory resolution",
+    "Neutrophils",
+    "Macrophages",
+    "Efferocytosis",
+    "Apoptosis",
+    "Immunometabolism",
+    "Physiological tradeoffs",
+    "Tissue repair"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Immune physiology",
+      "Immune regulation",
+      "Central tolerance"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Immune physiology",
+      "Immune regulation",
+      "Thymic selection"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Immune physiology",
+      "Immune regulation",
+      "AIRE"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Immune physiology",
+      "Immune regulation",
+      "Peripheral tolerance"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Immune physiology",
+      "Immune regulation",
+      "Regulatory T cells"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Immune physiology",
+      "Immune regulation",
+      "FOXP3"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Immune physiology",
+      "Mucosal immunity",
+      "Gut microbiota"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Immune physiology",
+      "Mucosal immunity",
+      "Secretory IgA"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Immune physiology",
+      "Mucosal immunity",
+      "Epithelial compartmentalization"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Immune physiology",
+      "Immune pathology",
+      "Autoimmunity"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Immune physiology",
+      "Immune pathology",
+      "Allergy"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Immune physiology",
+      "Inflammatory resolution",
+      "Efferocytosis"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Immune physiology",
+      "Inflammatory resolution",
+      "Tissue repair"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Immune physiology",
+      "Physiological costs",
+      "Immunometabolism"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "ap-imm-openstax-adaptive",
+      "reason": "Vertebrate B and T cells, MHC presentation, clonal selection and memory."
+    },
+    {
+      "source_id": "ap-imm-aire",
+      "reason": "Aire-deficient mice, thymic tissue-antigen expression and autoimmunity."
+    },
+    {
+      "source_id": "ap-imm-tregs-1995",
+      "reason": "T-cell population experiments establishing active maintenance of tolerance."
+    },
+    {
+      "source_id": "ap-imm-foxp3",
+      "reason": "FOXP3 gene identity and regulatory T-cell differentiation and function."
+    },
+    {
+      "source_id": "ap-imm-foxp3-independent",
+      "reason": "Foxp3-deficient mouse experiments, regulatory population and rescue transfer."
+    },
+    {
+      "source_id": "ap-imm-mucosal-tolerance",
+      "reason": "Gut epithelial barriers, IgA, microbiota, Treg regulation and immune homeostasis."
+    },
+    {
+      "source_id": "ap-imm-inflammation-resolution",
+      "reason": "Inflammatory lipid mediators, cell clearance and active tissue recovery."
+    },
+    {
+      "source_id": "ap-imm-efferocytosis",
+      "reason": "Clearance of apoptotic cells, macrophage metabolism, repair and resolution."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "021000-e01",
+      "anchor": "Some of those receptors bind host-derived molecules.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-imm-openstax-adaptive"
+      ],
+      "source_locator": "Central and peripheral tolerance",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "021000-e02",
+      "anchor": "Developing T cells are selected in the thymus.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-imm-aire"
+      ],
+      "source_locator": "Thymic selection",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "021000-e03",
+      "anchor": "In 2002, Mark Anderson and colleagues used mice",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-imm-aire"
+      ],
+      "source_locator": "Aire gene knockout and self antigen presentation",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "021000-e04",
+      "anchor": "Some potentially self-reactive lymphocytes still leave",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-imm-openstax-adaptive"
+      ],
+      "source_locator": "Peripheral regulation beyond central tolerance",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "021000-e05",
+      "anchor": "Many express the transcription factor FOXP3",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-imm-foxp3",
+        "ap-imm-foxp3-independent"
+      ],
+      "source_locator": "FOXP3 and regulatory T-cell program",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "021000-e06",
+      "anchor": "In 1995, Shimon Sakaguchi and colleagues showed",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-imm-tregs-1995"
+      ],
+      "source_locator": "1995 regulatory T-cell depletion",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "021000-e07",
+      "anchor": "In 2003, Shohei Hori, Takashi Nomura, and Sakaguchi demonstrated",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-imm-foxp3"
+      ],
+      "source_locator": "FOXP3 molecular role",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "021000-e08",
+      "anchor": "In many mammals, a type of antibody called immunoglobulin A",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-imm-mucosal-tolerance"
+      ],
+      "source_locator": "Mucosal IgA and epithelial barrier",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "021000-e09",
+      "anchor": "Mucosal immune responses are influenced by the microbiota itself.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-imm-mucosal-tolerance"
+      ],
+      "source_locator": "Bidirectional microbiota and immune regulation",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "021000-e10",
+      "anchor": "The removal of dying cells is called efferocytosis.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-imm-efferocytosis"
+      ],
+      "source_locator": "Apoptotic cell uptake and repair",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "021000-e11",
+      "anchor": "In a review published in 2005, Charles Serhan and John Savill",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-imm-inflammation-resolution"
+      ],
+      "source_locator": "2005 review of active resolution mechanisms",
+      "audit_status": "source_checked"
+    }
+  ],
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Requires no specialist immunology; receptors, signaling, circulation and basic cell biology are explained within the lecture."
+    ],
+    "readiness_checks": [
+      "Why can the same bacterial molecule be tolerated in the gut but inflammatory in an internal tissue?",
+      "How do AIRE and FOXP3 protect tolerance by different mechanisms?",
+      "What did the experiments of Sakaguchi and colleagues show about active immune restraint?",
+      "Why is mucosal immunity not a program for sterilizing the gut?",
+      "How does efferocytosis differ from merely stopping cytokine production?"
+    ]
+  }
+}

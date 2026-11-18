@@ -8,7 +8,7 @@
       "categories": [
         "Science and nature"
       ],
-      "summary": "A guided sequence from exchange and transport to movement, sensing, heat and metabolic regulation, then hormonal control across feeding, stress and developmental time.",
+      "summary": "A guided sequence from exchange and transport to movement, sensing, heat, hormonal regulation and the physical and evolutionary logic of immune defense.",
       "chapters": [
         {
           "title": "The Environment Inside an Animal",
@@ -110,6 +110,30 @@
           "title": "When a Body Changes Its Rules",
           "lectures": [
             "017000"
+          ]
+        },
+        {
+          "title": "The Alarm Before the Army",
+          "lectures": [
+            "018000"
+          ]
+        },
+        {
+          "title": "How a Defense Remembers",
+          "lectures": [
+            "019000"
+          ]
+        },
+        {
+          "title": "More Than One Way to Defend a Body",
+          "lectures": [
+            "020000"
+          ]
+        },
+        {
+          "title": "When Defense Must Stand Down",
+          "lectures": [
+            "021000"
           ]
         }
       ]
@@ -224,6 +248,27 @@
         "015000",
         "016000",
         "017000"
+      ]
+    },
+    {
+      "id": "immune-defense-and-tolerance",
+      "title": "How Animals Work · Immune Defense and Tolerance",
+      "role": "deep_dive",
+      "parent": "how-animals-work",
+      "summary": "Four complementary chapters on early alarms and inflammatory systems, vertebrate immune memory, comparative defensive architectures, and the mechanisms that prevent self-damage.",
+      "tags": [
+        "Innate immunity",
+        "Adaptive immunity",
+        "Comparative immunology",
+        "Immune tolerance",
+        "Inflammation",
+        "Immune priming"
+      ],
+      "lectures": [
+        "018000",
+        "019000",
+        "020000",
+        "021000"
       ]
     }
   ]

@@ -1,0 +1,330 @@
+{
+  "schema_version": 1,
+  "lecture_id": "019000",
+  "transcript": "019000-how-a-defense-remembers.md",
+  "description": "Explains clonal selection, lymphocyte receptor rearrangement, MHC presentation, B-cell affinity maturation, T-cell functions and immune memory in jawed vertebrates.",
+  "tags": [
+    "Adaptive immunity",
+    "Jawed vertebrates",
+    "Clonal selection",
+    "B cells",
+    "T cells",
+    "V(D)J recombination",
+    "Antibodies",
+    "Antigen",
+    "Epitope",
+    "Somatic hypermutation",
+    "Affinity maturation",
+    "AID",
+    "Germinal centers",
+    "Class switching",
+    "MHC I",
+    "MHC II",
+    "Antigen presentation",
+    "Dendritic cells",
+    "CD4 T cells",
+    "CD8 T cells",
+    "Memory lymphocytes",
+    "Plasma cells",
+    "Vaccination",
+    "Niels Jerne",
+    "Frank Macfarlane Burnet",
+    "Nobumichi Hozumi",
+    "Susumu Tonegawa",
+    "Rolf Zinkernagel",
+    "Peter Doherty"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Immune physiology",
+      "Adaptive recognition",
+      "B-cell receptors"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Immune physiology",
+      "Adaptive recognition",
+      "T-cell receptors"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Immune physiology",
+      "Adaptive recognition",
+      "V(D)J recombination"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Immune physiology",
+      "Adaptive recognition",
+      "Clonal selection"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Immune physiology",
+      "Antigen presentation",
+      "MHC class I"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Immune physiology",
+      "Antigen presentation",
+      "MHC class II"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Immune physiology",
+      "Antigen presentation",
+      "Dendritic cells"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Immune physiology",
+      "Antibody response",
+      "Germinal centers"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Immune physiology",
+      "Antibody response",
+      "Affinity maturation"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Immune physiology",
+      "Antibody response",
+      "Class switching"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Immune physiology",
+      "Immune memory",
+      "Memory B cells"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Immune physiology",
+      "Immune memory",
+      "Memory T cells"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Immune physiology",
+      "Immune memory",
+      "Long-lived plasma cells"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "ap-imm-openstax-adaptive",
+      "reason": "Vertebrate B and T cells, MHC presentation, clonal selection and memory."
+    },
+    {
+      "source_id": "ap-imm-jerne-selection",
+      "reason": "Historical selection theory; do not confuse with later cell-based clonal selection."
+    },
+    {
+      "source_id": "ap-imm-selection-history",
+      "reason": "Jerne 1955, Burnet 1957, earlier competing antigen-template theories."
+    },
+    {
+      "source_id": "ap-imm-hozumi-tonegawa",
+      "reason": "Restriction patterns from embryonic and antibody-producing mouse cells support somatic recombination."
+    },
+    {
+      "source_id": "ap-imm-mhc-restriction",
+      "reason": "Mouse cytotoxic T-cell recognition of infected targets depends on H-2/MHC context."
+    },
+    {
+      "source_id": "ap-imm-clonal-review",
+      "reason": "B-cell selection, receptor rearrangement, affinity maturation and memory."
+    },
+    {
+      "source_id": "ap-imm-aid",
+      "reason": "Targeted AID disruption; changes in antibody class and mutation during B-cell responses."
+    },
+    {
+      "source_id": "ap-imm-innate-adaptive",
+      "reason": "Innate recognition informs and coordinates antigen-specific response."
+    },
+    {
+      "source_id": "ap-imm-lamprey-evolution",
+      "reason": "Different molecular architectures of jawless and jawed vertebrate adaptive immunity."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "019000-e01",
+      "anchor": "This is the central logic of clonal selection.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-imm-clonal-review"
+      ],
+      "source_locator": "Selection of preexisting lymphocyte specificities",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "019000-e02",
+      "anchor": "The segments are often labeled V, D, and J",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-imm-clonal-review",
+        "ap-imm-openstax-adaptive"
+      ],
+      "source_locator": "Receptor segment rearrangement",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "019000-e03",
+      "anchor": "Niels Jerne proposed an influential selection theory in 1955.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-imm-jerne-selection"
+      ],
+      "source_locator": "1955 natural selection theory",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "019000-e04",
+      "anchor": "Frank Macfarlane Burnet developed clonal selection",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-imm-selection-history"
+      ],
+      "source_locator": "1957 clonal selection and history",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "019000-e05",
+      "anchor": "In 1976, Nobumichi Hozumi and Susumu Tonegawa compared",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-imm-hozumi-tonegawa"
+      ],
+      "source_locator": "Embryonic and plasmacytoma antibody DNA patterns",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "019000-e06",
+      "anchor": "An antibody is a protein that binds a molecular feature called an antigen",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-imm-openstax-adaptive"
+      ],
+      "source_locator": "Antigen, epitope, binding and effector functions",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "019000-e07",
+      "anchor": "Specialized antigen-presenting cells, especially dendritic cells",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-imm-openstax-adaptive",
+        "ap-imm-innate-adaptive"
+      ],
+      "source_locator": "Innate context, co-stimulation and dendritic cells",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "019000-e08",
+      "anchor": "Many T-cell receptors see a short peptide",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-imm-openstax-adaptive"
+      ],
+      "source_locator": "MHC-restricted peptide presentation",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "019000-e09",
+      "anchor": "In 1974, Rolf Zinkernagel and Peter Doherty reported",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-imm-mhc-restriction"
+      ],
+      "source_locator": "H-2 type restriction of cytotoxic T cells",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "019000-e10",
+      "anchor": "An enzyme called activation-induced cytidine deaminase participates",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-imm-aid"
+      ],
+      "source_locator": "AID requirement for SHM and class switching",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "019000-e11",
+      "anchor": "Other B-cell responses enter specialized structures called germinal centers",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-imm-clonal-review"
+      ],
+      "source_locator": "Affinity-dependent selection and maturation",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "019000-e12",
+      "anchor": "Some of the expanded cells die when the immediate response subsides.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-imm-openstax-adaptive",
+        "ap-imm-clonal-review"
+      ],
+      "source_locator": "Memory B/T cells and sustained plasma cells",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "019000-e13",
+      "anchor": "We should also avoid assuming that every animal makes memory",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-imm-lamprey-evolution"
+      ],
+      "source_locator": "Separate jawed/jawless vertebrate receptor architectures",
+      "audit_status": "source_checked"
+    }
+  ],
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Requires no specialist immunology; receptors, signaling, circulation and basic cell biology are explained within the lecture."
+    ],
+    "readiness_checks": [
+      "How does somatic receptor rearrangement differ from inherited genetic adaptation?",
+      "What were the competing interpretations of antibody generation before the clonal-selection model?",
+      "What did the 1974 MHC-restriction experiment establish about T-cell targets?",
+      "How do germinal-center responses differ from the original generation of receptor diversity?",
+      "What is the difference between a memory B cell and a long-lived plasma cell?"
+    ]
+  }
+}

@@ -23,13 +23,17 @@ An independent, audio-first nature-and-science content pack about the physical a
 | 015000 | The Meal, the Fast, and the Pancreas | Insulin, glucagon, gut incretins, leptin, fuel allocation and the Toronto insulin discovery. |
 | 016000 | A Stress Response Has a History | Sympathetic control, the HPA axis, glucocorticoid pulses, sampling and recovery. |
 | 017000 | When a Body Changes Its Rules | Frog and insect metamorphosis, gonadotropin pulses and melatonin seasonal coding. |
+| 018000 | The Alarm Before the Army | Barriers, microbial and damage signals, Toll, complement, interferons and inflammatory repair. |
+| 019000 | How a Defense Remembers | Clonal selection, B and T cell receptors, MHC presentation, germinal centers and immune memory. |
+| 020000 | More Than One Way to Defend a Body | Insect wasp defenses and antiviral RNAi, sea urchin genes, bumblebee priming, lamprey VLRs. |
+| 021000 | When Defense Must Stand Down | Central and peripheral tolerance, FOXP3, intestinal IgA and microbiota, active resolution. |
 
-The course is **in progress**, not a completed finite survey. These seventeen chapters build a coherent sequence from physiological systems into thermal, energetic and endocrine regulation; follow-up chapters can deepen the physiology without extending the finished `tts-living-world` and `tts-physical-world` surveys or duplicating their nature-story framing. `tts-cell-biology-genetics` offers optional molecular background. No other pack needs to be changed to import this one.
+The course is **in progress**, not a completed finite survey. These twenty-one chapters build a coherent sequence from physiological systems into thermal, energetic and endocrine regulation; follow-up chapters can deepen the physiology without extending the finished `tts-living-world` and `tts-physical-world` surveys or duplicating their nature-story framing. `tts-cell-biology-genetics` offers optional molecular background. No other pack needs to be changed to import this one.
 
 ## Files and authoring contract
 
 - `track.json`: stable lecture order, broad course tags, lecture-specific flat tags, and explicit sections.
-- `navigation.json`: expanded main listening path plus deep dives on exchange/transport, comparative solutions, movement/control, sensory physiology, and temperature/energy, and endocrine coordination.
+- `navigation.json`: expanded main listening path plus deep dives on exchange/transport, comparative solutions, movement/control, sensory physiology, and temperature/energy, endocrine coordination and immune defense and tolerance.
 - `metadata/NNNNNN.json`: discovery descriptions, explicit coarse-to-fine `tag_paths`, relevant article or textbook sources, source-checked narration anchors, and lecture learning notes.
 - `metadata/sources.json`: a pack-local catalog of primary papers, scholarly reviews and open textbooks.
 - `NNNNNN-*.md`: narrated lecture between spoken markers, followed by scientific notes, equations, and reference links outside the TTS region.
@@ -39,6 +43,8 @@ Track tags are intentionally broad. More specific terms (for example `Bohr effec
 The thermal and metabolic chapters include dated 1950 chamber experiments in Alaska and Panama, Antarctic penguin observations, and specific work in the Andes and Alaska; their source locations are discoverable but mechanism chapters are not assigned historical periods from publication dates. The sensory chapters discuss dated experimental work on rods (1979), olfactory receptors (1991), insect OR channels (2008), snake infrared receptors (2010), and mantis-shrimp color (2014). Their mechanisms are not assigned artificial place or period tags; years remain in evidence records and reading notes.
 
 The endocrine unit develops chemical communication across four distinct explanatory problems: general hormone receptors and feedback; energy allocation between meals; acute and longer stress-response timing; and developmental and seasonal scheduling. The historical research in secretin, insulin and GnRH is attributed within the manuscripts and source records. **Toronto** is indexed for the documented insulin discovery; **Puerto Rico** is indexed for the native coquí case. None of the general endocrine mechanisms is assigned a synthetic historical coverage period just because a reference paper was published in a particular year.
+
+The immune unit treats several forms of defense as distinct rather than ranking animals by proximity to mammalian anatomy. The 1996 fly Toll results, 1976 antibody-gene study, 2004 lamprey receptors, 2006 bumblebee priming experiments, and tolerance studies are recorded as dated sources, not artificial historical periods for general immune mechanisms. The 1882 Metchnikoff experiment is a specifically located historical case in Messina, Italy; only that lecture receives a location path. All four chapters have claim-level evidence anchors, lecture-specific discovery tags, and an immune physiology listening route.
 
 The recorded `spoken_words` and estimated speaking times are **descriptive measurements**, never an editorial minimum, maximum or target.
 

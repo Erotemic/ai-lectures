@@ -1,0 +1,306 @@
+{
+  "schema_version": 1,
+  "lecture_id": "018000",
+  "transcript": "018000-the-alarm-before-the-army.md",
+  "description": "Explains barriers, microbial and damage recognition, Toll pathways, phagocytosis, complement, interferons and active inflammation resolution, using Metchnikoff and later genetic experiments.",
+  "tags": [
+    "Innate immunity",
+    "Epithelial barriers",
+    "Skin barrier",
+    "Mucosal defense",
+    "Pattern-recognition receptors",
+    "PAMPs",
+    "DAMPs",
+    "Toll-like receptors",
+    "Toll signaling",
+    "Drosophila",
+    "TLR4",
+    "Inflammasome",
+    "Inflammation",
+    "Cytokines",
+    "Chemokines",
+    "Phagocytosis",
+    "Complement",
+    "C3",
+    "Opsonization",
+    "Interferons",
+    "Natural killer cells",
+    "Neutrophils",
+    "Macrophages",
+    "Ilya Metchnikoff",
+    "Starfish larvae",
+    "Messina",
+    "Italy"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Immune physiology",
+      "Barriers",
+      "Mucosal defense"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Immune physiology",
+      "Innate recognition",
+      "Pattern-recognition receptors"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Immune physiology",
+      "Innate recognition",
+      "Toll-like receptors"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Immune physiology",
+      "Innate recognition",
+      "DAMP and PAMP signaling"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Immune physiology",
+      "Inflammation",
+      "Cytokine signaling"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Immune physiology",
+      "Inflammation",
+      "Inflammasomes"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Immune physiology",
+      "Cellular defense",
+      "Phagocytosis"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Immune physiology",
+      "Molecular defense",
+      "Complement"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Immune physiology",
+      "Molecular defense",
+      "Interferons"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Immune physiology",
+      "Cellular defense",
+      "Natural killer cells"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Animal physiology",
+      "Immune physiology",
+      "Resolution",
+      "Efferocytosis"
+    ],
+    [
+      "Place: Europe",
+      "Place: Italy",
+      "Place: Sicily",
+      "Place: Messina"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "ap-imm-openstax-innate",
+      "reason": "Barriers, cytokines, phagocytosis, complement, interferons, circulation and cells."
+    },
+    {
+      "source_id": "ap-imm-metchnikoff",
+      "reason": "Historical study of 1882 Messina starfish-larva work and the growth of phagocyte theory."
+    },
+    {
+      "source_id": "ap-imm-fly-toll",
+      "reason": "Toll pathway mutants, drosomycin induction and survival after fungal infection."
+    },
+    {
+      "source_id": "ap-imm-human-toll",
+      "reason": "Activated human Toll homologue in cultured cells, NF-kappa B and costimulatory signals."
+    },
+    {
+      "source_id": "ap-imm-tlr4-mice",
+      "reason": "Mouse-strain genetics connecting Tlr4 to lipopolysaccharide responsiveness."
+    },
+    {
+      "source_id": "ap-imm-inflammasome",
+      "reason": "Protein platform for activation of inflammatory caspases and cytokine processing."
+    },
+    {
+      "source_id": "ap-imm-complement-evolution",
+      "reason": "Conserved C3-centered recognition and evolutionary history of complement machinery."
+    },
+    {
+      "source_id": "ap-imm-inflammation-resolution",
+      "reason": "Inflammatory lipid mediators, cell clearance and active tissue recovery."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "018000-e01",
+      "anchor": "Skin is a continuous boundary.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-imm-openstax-innate"
+      ],
+      "source_locator": "Physical and chemical barriers",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "018000-e02",
+      "anchor": "Some molecules on microbes are shared across broad groups",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-imm-openstax-innate"
+      ],
+      "source_locator": "PAMP/DAMP recognition and cellular signaling",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "018000-e03",
+      "anchor": "In 1996, Bruno Lemaitre and colleagues demonstrated",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-imm-fly-toll"
+      ],
+      "source_locator": "Toll pathway mutant survival and drosomycin transcription",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "018000-e04",
+      "anchor": "The following year, Ruslan Medzhitov, Paula Preston-Hurlburt, and Charles Janeway",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-imm-human-toll"
+      ],
+      "source_locator": "1997 human Toll homologue signaling experiment",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "018000-e05",
+      "anchor": "And in 1998, Alexander Poltorak and colleagues showed",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-imm-tlr4-mice"
+      ],
+      "source_locator": "Tlr4 mouse-mutant lipopolysaccharide response",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "018000-e06",
+      "anchor": "Small vessels can change their diameter.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-imm-openstax-innate"
+      ],
+      "source_locator": "Vascular changes during inflammation",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "018000-e07",
+      "anchor": "The complement system is one source of such markings.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-imm-openstax-innate",
+        "ap-imm-complement-evolution"
+      ],
+      "source_locator": "Opsonization and complement effector functions",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "018000-e08",
+      "anchor": "Although antibodies can recruit the classical complement pathway",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-imm-complement-evolution",
+        "ap-imm-openstax-innate"
+      ],
+      "source_locator": "Complement activation without antigen-specific antibodies",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "018000-e09",
+      "anchor": "In 2002, Fabio Martinon, Kimberly Burns, and Jürg Tschopp reported",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-imm-inflammasome"
+      ],
+      "source_locator": "2002 inflammasome/caspase-1 platform discovery",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "018000-e10",
+      "anchor": "Vertebrate cells that detect viral nucleic acid can produce interferons",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-imm-openstax-innate"
+      ],
+      "source_locator": "Interferon signaling and antiviral state",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "018000-e11",
+      "anchor": "In Messina, Italy, in 1882, Ilya Metchnikoff",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-imm-metchnikoff"
+      ],
+      "source_locator": "1882 starfish larva experiments in Messina",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "018000-e12",
+      "anchor": "A body must finally resolve the response it started.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "ap-imm-inflammation-resolution"
+      ],
+      "source_locator": "Active resolution, clearance, repair",
+      "audit_status": "source_checked"
+    }
+  ],
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Requires no specialist immunology; receptors, signaling, circulation and basic cell biology are explained within the lecture."
+    ],
+    "readiness_checks": [
+      "Why do gills and intestinal surfaces require selective barriers rather than impermeable walls?",
+      "What did the 1996 fly Toll experiment establish that gene-expression correlation could not?",
+      "Why do complement activation and antibody production not occur in a strictly fixed order?",
+      "What difference separates a cytokine precursor from an activated cytokine?",
+      "Why is resolution of inflammation a positive physiological process?"
+    ]
+  },
+  "places": [
+    "Messina, Italy"
+  ]
+}
