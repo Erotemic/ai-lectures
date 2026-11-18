@@ -13,6 +13,7 @@
     "oscillators-and-resonance",
     "linear-systems-and-phase-portraits",
     "nonlinear-phase-planes",
+    "boundary-values-fourier-modes",
     "transport-diffusion-pdes",
     "poincare-floquet",
     "reaction-diffusion-turing",
@@ -609,6 +610,70 @@
         "Explicit Euler",
         "Backward Euler",
         "Time scales"
+      ]
+    },
+    {
+      "id": "067000",
+      "title": "Two Ends, One Equation: Boundary Conditions from Scratch",
+      "section": "boundary-values-fourier-modes",
+      "file": "067000-two-ends-one-equation-boundary-value-problems.md",
+      "spoken_words": 2036,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 14.0,
+      "tags": [
+        "Boundary-value problems",
+        "Dirichlet and Neumann data",
+        "Robin conditions",
+        "Compatibility",
+        "Finite differences"
+      ]
+    },
+    {
+      "id": "068000",
+      "title": "Why Boundaries Select Fourier Modes: Sturm-Liouville from Scratch",
+      "section": "boundary-values-fourier-modes",
+      "file": "068000-why-boundaries-select-fourier-modes.md",
+      "spoken_words": 2023,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 14.0,
+      "tags": [
+        "Sturm-Liouville",
+        "Eigenfunctions",
+        "Sine and cosine bases",
+        "Boundary resonance",
+        "Orthogonality"
+      ]
+    },
+    {
+      "id": "069000",
+      "title": "How Heat Chooses and Erases Spatial Modes",
+      "section": "boundary-values-fourier-modes",
+      "file": "069000-how-heat-chooses-and-erases-spatial-modes.md",
+      "spoken_words": 2390,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 16.5,
+      "tags": [
+        "Heat equation",
+        "Fourier sine series",
+        "Separation of variables",
+        "Energy estimates",
+        "Heat conservation"
+      ]
+    },
+    {
+      "id": "070000",
+      "title": "Why a String Rings While a Rod Cools: Wave Equations by Fourier Modes",
+      "section": "boundary-values-fourier-modes",
+      "file": "070000-why-a-string-rings-while-a-rod-cools.md",
+      "spoken_words": 2333,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 16.1,
+      "tags": [
+        "Wave equation",
+        "Standing waves",
+        "Plucked string",
+        "Energy conservation",
+        "Resonance"
       ]
     }
   ],

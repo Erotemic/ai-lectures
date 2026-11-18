@@ -1,6 +1,6 @@
 # Differential Equations and Dynamical Systems — Foundation-First Backlog
 
-The pack now has **33 lecture manuscripts**: 13 inherited consolidated manuscripts and 20 worked foundations spanning `047000`–`066000` (2026-11-17). Existing consolidated and advanced manuscript prose remains unchanged. Lecture length is driven by teaching needs, not a fixed duration.
+The pack now has **37 lecture manuscripts**: 13 inherited consolidated manuscripts and 24 worked foundations spanning `047000`–`070000` (2026-11-17). Existing consolidated and advanced manuscript prose remains unchanged. Lecture length is driven by teaching needs, not a fixed duration.
 
 ## Foundation-first additions completed
 
@@ -9,13 +9,13 @@ The pack now has **33 lecture manuscripts**: 13 inherited consolidated manuscrip
 - `055000`–`058000`: Laplace transform construction, IVPs, switched forcing, convolution and transfer functions.
 - `059000`–`062000`: coupled linear systems, nodes, saddles, spirals, generalized eigenvectors and matrix exponentials.
 - `063000`–`066000`: Euler, midpoint and Heun updates; classical RK4; local versus global errors; stability regions, backward Euler and stiff decay.
+- `067000`–`070000`: boundary versus initial data; Dirichlet, Neumann and Robin conditions; Sturm-Liouville eigenfunctions; heat and wave mode solutions with exact examples.
 
 ## Highest-priority remaining foundational gaps
 
-1. **Elementary boundary-value problems and separated Fourier modes.** Start with the difference between boundary and initial conditions; solve an elementary one-dimensional Dirichlet problem; derive sine eigenfunctions; and introduce heat-equation modes only after explaining the ODE coefficients.
-2. **Fourier transforms versus Fourier series.** Explain what changes for nonperiodic signals, why the frequency variable becomes continuous, and derive a simple transform and inverse before using it on PDEs.
-3. **Finite-difference derivative operators and elementary spatial discretization.** Show how first/second differences approximate spatial derivatives and turn the one-dimensional heat equation into a system of ODEs, then discuss temporal/spatial errors separately.
-4. **Optional applications:** step rejection near a discontinuous input, energy-preserving integration for a simple oscillator, and how to choose absolute/relative error scales for vector states.
+1. **Fourier transforms versus Fourier series.** Explain what changes for nonperiodic signals, why the frequency variable becomes continuous, and derive a simple transform and inverse before using it on PDEs.
+2. **Finite-difference derivative operators and elementary spatial discretization.** Show how first/second differences approximate spatial derivatives and turn the one-dimensional heat equation into a system of ODEs, then discuss temporal/spatial errors separately.
+3. **Optional applications:** step rejection near a discontinuous input, energy-preserving integration for a simple oscillator, and how to choose absolute/relative error scales for vector states.
 
 ## Already covered but compressed
 

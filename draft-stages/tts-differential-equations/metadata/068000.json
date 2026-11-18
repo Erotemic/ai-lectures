@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "lecture_id": "068000",
+  "transcript": "068000-why-boundaries-select-fourier-modes.md",
+  "related_resources": [
+    {
+      "source_id": "de-lebl-sturm-liouville",
+      "reason": "Self-adjoint boundary eigenproblems and orthogonality."
+    },
+    {
+      "source_id": "de-uvic-sturm-liouville",
+      "reason": "Dirichlet, Neumann, and mixed boundary spectra."
+    },
+    {
+      "source_id": "de-mit-18-303-outline",
+      "reason": "Role of Sturm-Liouville theory in Fourier separation."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-17",
+    "scope": "Original foundation-first boundary-value, Fourier-mode, heat and wave equation manuscript with mathematical companion; previous 33 manuscripts retained."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "differential-equations:067000",
+        "reason": "Second-order endpoint conditions and uniqueness."
+      }
+    ],
+    "recommended": [],
+    "background": [
+      "Trigonometric functions, integration by parts, and elementary second-order ODE solutions."
+    ],
+    "readiness_checks": [
+      "Derive sine, cosine, and mixed-boundary eigenvalues.",
+      "Explain how orthogonality follows by integration by parts.",
+      "Identify forcing that makes a resonant boundary problem impossible."
+    ]
+  }
+}

@@ -50,6 +50,39 @@
       ]
     },
     {
+      "id": "boundary-value-fourier-foundations",
+      "title": "Differential Equations · Boundary-Value Problems, Heat and Wave Modes from Scratch",
+      "role": "deep_dive",
+      "parent": "survey",
+      "lectures": [
+        "067000",
+        "068000",
+        "069000",
+        "070000"
+      ],
+      "assumed_background": [
+        "Elementary integration, sine and cosine, first- and second-order ODEs, and Fourier sine coefficients; no functional-analysis or advanced PDE prerequisite."
+      ],
+      "preparation_collections": [
+        "differential-equations:worked-ode-foundations",
+        "differential-equations:fourier-periodic-forcing-foundations"
+      ],
+      "related_collections": [
+        "survey",
+        "worked-ode-foundations",
+        "fourier-periodic-forcing-foundations",
+        "parabolic-fronts"
+      ],
+      "tags": [
+        "Differential equations",
+        "Boundary value problems",
+        "Sturm-Liouville",
+        "Heat equation",
+        "Wave equation",
+        "Fourier modes"
+      ]
+    },
+    {
       "id": "numerical-time-stepping-foundations",
       "title": "Differential Equations · Numerical Time Stepping from Scratch",
       "role": "deep_dive",

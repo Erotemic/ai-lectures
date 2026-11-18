@@ -131,3 +131,18 @@ transcript:
     scope: Add four original numerical time-stepping foundation manuscripts, mathematical
       companions, bibliographic records, and a listening route. Preserve the prior
       29 lecture manuscripts and pre-existing listening collections.
+  - date: '2026-11-17'
+    models:
+    - GPT-6
+    sources:
+    - lecture: '067000'
+      composition_record: metadata/067000.json
+    - lecture: '068000'
+      composition_record: metadata/068000.json
+    - lecture: '069000'
+      composition_record: metadata/069000.json
+    - lecture: '070000'
+      composition_record: metadata/070000.json
+    scope: Add four original boundary-value, Sturm-Liouville, heat, and wave
+      foundation-first lecture manuscripts with derivations, exercises and
+      source records. Preserve the earlier 33 manuscripts and routes.

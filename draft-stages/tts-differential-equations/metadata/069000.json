@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "lecture_id": "069000",
+  "transcript": "069000-how-heat-chooses-and-erases-spatial-modes.md",
+  "related_resources": [
+    {
+      "source_id": "de-trench-heat",
+      "reason": "Dirichlet heat-equation separation and decay factors."
+    },
+    {
+      "source_id": "de-lebl-heat-separation",
+      "reason": "Construction of heat solutions from spatial eigenmodes."
+    },
+    {
+      "source_id": "de-mit-es1803-topics",
+      "reason": "Elementary classroom treatment of heat and wave equations."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-17",
+    "scope": "Original foundation-first boundary-value, Fourier-mode, heat and wave equation manuscript with mathematical companion; previous 33 manuscripts retained."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "differential-equations:067000",
+        "reason": "Endpoint temperature versus insulated flux conditions."
+      },
+      {
+        "lecture_id": "differential-equations:068000",
+        "reason": "Spatial sine and cosine eigenfunctions."
+      },
+      {
+        "lecture_id": "differential-equations:051000",
+        "reason": "Fourier coefficients and orthogonality."
+      }
+    ],
+    "recommended": [],
+    "background": [
+      "Single-variable calculus, exponential decay ODEs, and basic Fourier series; advanced function spaces are not needed."
+    ],
+    "readiness_checks": [
+      "Derive the modal heat equation and decay exponent.",
+      "Compute Fourier coefficients of a parabolic initial profile.",
+      "Explain conservation of the average under insulated ends."
+    ]
+  }
+}

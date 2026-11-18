@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "lecture_id": "067000",
+  "transcript": "067000-two-ends-one-equation-boundary-value-problems.md",
+  "related_resources": [
+    {
+      "source_id": "de-lebl-sturm-liouville",
+      "reason": "Elementary endpoint conditions and boundary eigenproblems."
+    },
+    {
+      "source_id": "de-mit-es1803-topics",
+      "reason": "PDE and separation-of-variables context for boundary/initial data."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-17",
+    "scope": "Original foundation-first boundary-value, Fourier-mode, heat and wave equation manuscript with mathematical companion; previous 33 manuscripts retained."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "differential-equations:048000",
+        "reason": "Integrating scalar ODEs and checking solutions."
+      }
+    ],
+    "recommended": [],
+    "background": [
+      "Elementary derivatives and antiderivatives; no PDE or Fourier-analysis prerequisite."
+    ],
+    "readiness_checks": [
+      "Solve and verify a two-endpoint Dirichlet problem.",
+      "Derive the pure-Neumann source compatibility condition.",
+      "Translate a simple second difference into a linear system."
+    ]
+  }
+}

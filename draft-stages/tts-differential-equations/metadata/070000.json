@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "lecture_id": "070000",
+  "transcript": "070000-why-a-string-rings-while-a-rod-cools.md",
+  "related_resources": [
+    {
+      "source_id": "de-mit-es1803-topics",
+      "reason": "Elementary wave-equation separation and boundary/initial data."
+    },
+    {
+      "source_id": "de-mit-18-303-outline",
+      "reason": "Wave and heat equations as introductory linear PDE topics."
+    },
+    {
+      "source_id": "de-herman-pde",
+      "reason": "Wave equation and separation-of-variables context."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-17",
+    "scope": "Original foundation-first boundary-value, Fourier-mode, heat and wave equation manuscript with mathematical companion; previous 33 manuscripts retained."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "differential-equations:068000",
+        "reason": "Fixed-end spatial modes and eigenvalues."
+      },
+      {
+        "lecture_id": "differential-equations:050000",
+        "reason": "Harmonic oscillators, damping, and resonance."
+      },
+      {
+        "lecture_id": "differential-equations:051000",
+        "reason": "Sine-series coefficients for a spatial profile."
+      }
+    ],
+    "recommended": [],
+    "background": [
+      "Derivatives and integrals, trig functions, oscillators, and Fourier sine series; no Sobolev PDE theory."
+    ],
+    "readiness_checks": [
+      "Derive displacement and velocity modal coefficients.",
+      "Verify the plucked-string return times.",
+      "Prove the wave energy balance and compare it with heat dissipation."
+    ]
+  }
+}

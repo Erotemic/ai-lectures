@@ -2,7 +2,7 @@
 
 Ordinary differential equations and dynamical systems: initial-value problems, existence and uniqueness, phase portraits, oscillations, stability, nonlinear dynamics and numerical integration, later partial differential equations.
 
-The current pack contains **33 lecture manuscripts**. Short concept chapters have been consolidated where they develop one subject. Each numbered manuscript has one spoken region; its mathematical statements, exercises, sources, and inherited component notes remain in the non-spoken companion.
+The current pack contains **37 lecture manuscripts**. Short concept chapters have been consolidated where they develop one subject. Each numbered manuscript has one spoken region; its mathematical statements, exercises, sources, and inherited component notes remain in the non-spoken companion.
 
 ## Listening routes
 
@@ -10,6 +10,7 @@ The current pack contains **33 lecture manuscripts**. Short concept chapters hav
 
 - **Differential Equations · ODE Foundations** (Guided route): `001000`, `004000`, `007000`.
 - **Differential Equations · Worked First-Order Problems and Oscillators** (Foundation bridge): `047000`, `048000`, `049000`, `050000`.
+- **Differential Equations · Boundary-Value Problems, Heat and Wave Modes from Scratch** (Foundation bridge): `067000`, `068000`, `069000`, `070000`.
 - **Differential Equations · Numerical Time Stepping from Scratch** (Foundation bridge): `063000`, `064000`, `065000`, `066000`.
 - **Differential Equations · Linear Systems and Phase Portraits from Scratch** (Foundation bridge): `059000`, `060000`, `061000`, `062000`.
 - **Differential Equations · Fourier Series and Periodic Forcing from Scratch** (Foundation bridge): `051000`, `052000`, `053000`, `054000`.
@@ -60,6 +61,10 @@ Durations are measured from the current spoken text at 145 words per minute, bef
 | `064000` | [Four Slopes and a Better Prediction: Runge–Kutta Methods from Scratch](064000-four-slopes-and-runge-kutta.md) | 13.1 |
 | `065000` | [From One-Step Errors to Global Accuracy: Consistency, Convergence, and Step-Size Tests](065000-from-one-step-errors-to-global-accuracy.md) | 12.6 |
 | `066000` | [When a Decaying Solution Explodes Numerically: Stability, Stiffness, and Implicit Steps](066000-when-a-decaying-solution-explodes-numerically.md) | 13.3 |
+| `067000` | [Two Ends, One Equation: Boundary Conditions from Scratch](067000-two-ends-one-equation-boundary-value-problems.md) | 14.0 |
+| `068000` | [Why Boundaries Select Fourier Modes: Sturm-Liouville from Scratch](068000-why-boundaries-select-fourier-modes.md) | 14.0 |
+| `069000` | [How Heat Chooses and Erases Spatial Modes](069000-how-heat-chooses-and-erases-spatial-modes.md) | 16.5 |
+| `070000` | [Why a String Rings While a Rod Cools: Wave Equations by Fourier Modes](070000-why-a-string-rings-while-a-rod-cools.md) | 16.1 |
 
 ## Foundation-first continuation
 
@@ -88,3 +93,7 @@ Per-lecture source records live in `metadata/`; the bibliography is in `metadata
 
 Read [the lecture style rules](../../LECTURE_STYLE_RULES.md) before changing narration. Use the spoken-region markers for extraction; keep raw mathematics, code, and source records in the non-spoken companion. Teaching preparation, proof dependencies, and historical influence are distinct.
 
+
+## Elementary boundary-value and Fourier-mode foundation bridge
+
+The `067000`–`070000` route distinguishes endpoint constraints from initial data, solves compatible and incompatible Neumann examples, derives fixed/mixed/free eigenfunctions and resonant forcing, then constructs the heat and wave equations from conservation and force balance. It calculates an exact parabolic heat-profile sine series and a plucked-string triangular sine series, checks decay and energy conservation, and requires no advanced PDE or function-space background. The original overview and advanced PDE manuscripts remain unchanged.
