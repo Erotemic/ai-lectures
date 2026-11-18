@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "lecture_id": "084000",
+  "transcript": "084000-what-ode-error-tolerances-actually-mean.md",
+  "related_resources": [
+    {
+      "source_id": "de-scipy-solve-ivp",
+      "reason": "Componentwise scales, units and the limits of local error guarantees."
+    },
+    {
+      "source_id": "de-sundials-cvode",
+      "reason": "Componentwise scales, units and the limits of local error guarantees."
+    },
+    {
+      "source_id": "de-sundials-adaptive",
+      "reason": "Componentwise scales, units and the limits of local error guarantees."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-17",
+    "scope": "Original foundation-first adaptive integration, tolerance scaling, event detection and geometric time-stepping lectures with mathematical companions; preserve the 49 previous manuscripts and their individual metadata."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "differential-equations:083000",
+        "reason": "Build on the worked ODE or numerical integration prerequisites for this topic."
+      }
+    ],
+    "recommended": [],
+    "background": [
+      "Single-variable calculus, elementary differential equations and vector arithmetic; trigonometry and oscillator energy for the last lecture. No advanced PDE or functional-analysis prerequisites."
+    ],
+    "readiness_checks": [
+      "Compute a scaled RMS local-error score for two state variables.",
+      "Explain why purely relative tolerance fails around zero.",
+      "Distinguish requested output sampling from actual integration steps."
+    ]
+  }
+}

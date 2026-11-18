@@ -193,3 +193,18 @@ transcript:
     scope: Add four foundation-first lectures on physical sampling, DFT orthogonality and inversion,
       spectral leakage, and radix-two FFT with a periodic heat-equation example; preserve the
       earlier 45 manuscripts and metadata.
+  - date: '2026-11-17'
+    models:
+    - GPT-6
+    sources:
+    - lecture: '083000'
+      composition_record: metadata/083000.json
+    - lecture: '084000'
+      composition_record: metadata/084000.json
+    - lecture: '085000'
+      composition_record: metadata/085000.json
+    - lecture: '086000'
+      composition_record: metadata/086000.json
+    scope: Add foundation-first lectures on adaptive error estimates, componentwise
+      tolerances, event root location and impact maps, and energy-aware oscillator
+      integrators. Preserve the prior 49 manuscripts and metadata.

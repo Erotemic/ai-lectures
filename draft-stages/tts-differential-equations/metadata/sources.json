@@ -854,6 +854,34 @@
       "url": "https://numpy.org/doc/stable/reference/generated/numpy.fft.rfftfreq.html",
       "access": "free_no_login",
       "notes": "Frequency grid and even-N Nyquist frequency for real FFTs."
+    },
+    "de-sundials-cvode": {
+      "title": "SUNDIALS CVODE user guide: Mathematical Considerations",
+      "kind": "software_documentation",
+      "url": "https://sundials.readthedocs.io/en/develop/cvode/Mathematics_link.html",
+      "access": "free_no_login",
+      "notes": "Weighted local-error tests, step and order adaptation, assumptions and nonlinear corrector control."
+    },
+    "de-sundials-adaptive": {
+      "title": "Lawrence Livermore National Laboratory, SUNDIALS introduction (2025)",
+      "kind": "research_software_training",
+      "url": "https://computing.llnl.gov/sites/default/files/2025-10/2025-SUNDIALS-Introduction-APPFPP.pdf",
+      "access": "free_no_login",
+      "notes": "Local error estimates, componentwise relative and absolute tolerance scales, weighted RMS test and rejected steps."
+    },
+    "de-hairer-geoint": {
+      "title": "Ernst Hairer, Geometric Numerical Integration lecture notes: Hamiltonian systems (2010)",
+      "kind": "university_lecture_notes",
+      "url": "https://unige.ch/~hairer/poly_geoint/week1.pdf",
+      "access": "free_no_login",
+      "notes": "Hamiltonian flow, energy, symplectic mappings and exact geometric properties."
+    },
+    "de-hairer-book": {
+      "title": "E. Hairer, C. Lubich and G. Wanner, Geometric Numerical Integration, second edition (Springer 2006)",
+      "kind": "academic_book",
+      "url": "https://link.springer.com/book/10.1007/3-540-30666-8",
+      "access": "preview_or_purchase",
+      "notes": "Structure-preserving algorithms; symplectic Euler, Störmer-Verlet, numerical energy behavior and time reversal."
     }
   }
 }

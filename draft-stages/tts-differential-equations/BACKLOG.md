@@ -1,6 +1,6 @@
 # Differential Equations and Dynamical Systems — Foundation-First Backlog
 
-The pack now has **49 lecture manuscripts**: 13 inherited consolidated manuscripts and 36 worked foundations spanning `047000`–`078000` (2026-11-17). Existing consolidated and advanced manuscript prose remains unchanged. Lecture length is driven by teaching needs, not a fixed duration.
+The pack now has **53 lecture manuscripts**: 13 inherited consolidated manuscripts and 40 worked foundations spanning `047000`–`086000` (2026-11-17). Existing consolidated and advanced manuscript prose remains unchanged. Lecture length is driven by teaching needs, not a fixed duration.
 
 ## Foundation-first additions completed
 
@@ -13,12 +13,13 @@ The pack now has **49 lecture manuscripts**: 13 inherited consolidated manuscrip
 - `071000`–`074000`: Fourier transform as a continuum of series frequencies; Gaussian heat kernel and convolution; finite differences, spatial matrices, and diffusion method-of-lines stability.
 - `075000`–`078000`: characteristics and conservation; upwind differences and CFL; modified-equation numerical diffusion, Lax–Wendroff and monotonicity; finite-volume flux balances.
 - `079000`–`082000`: sampling, Nyquist and aliases; four-point DFT, inverse and Parseval; leakage, windows and circular convolution; radix-two FFT and periodic finite-difference heat modes.
+- `083000`–`086000`: embedded/adaptive local error tests, componentwise tolerances, event roots and impact jumps, and symplectic/energy-aware oscillator stepping.
 
 ## Highest-priority remaining foundational gaps
 
-1. **Practical ODE error controls and event integration.** Explain local error estimators, absolute/relative tolerances across differently scaled state variables, rejected steps near switched inputs, and event location. Include a simple energy-aware oscillator integrator.
-2. **Data analysis beyond a stationary spectrum.** A practical short-time Fourier transform and sampled-data noise/uncertainty treatment, only after the DFT and window foundations. Avoid jumping straight to abstract harmonic analysis.
-3. **Modest transport extensions after the above.** A worked limiter/MUSCL comparison and one nonlinear conservation-law Riemann problem may be useful. Do not return directly to advanced shock stability or specialized PDE topics.
+1. **Time-frequency analysis and uncertainty.** Short-time Fourier transforms, time/frequency resolution tradeoffs, signal windows, and the effect of noise; keep sampling and DFT prerequisites explicit.
+2. **Nonlinear transport and finite-volume reconstruction.** A worked limiter/MUSCL comparison and a single nonlinear scalar Riemann problem, without jumping to advanced shock-stability theory.
+3. **Elementary boundary numerical methods.** Accuracy and stability of fixed-boundary wave/heat discretizations, using the previously constructed Fourier modes and method of lines.
 
 ## Already covered but compressed
 

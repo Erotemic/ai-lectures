@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "lecture_id": "086000",
+  "transcript": "086000-why-energy-aware-integration-matters.md",
+  "related_resources": [
+    {
+      "source_id": "de-hairer-geoint",
+      "reason": "Contrasting numerical energy behavior of Euler, backward Euler, symplectic Euler and Verlet."
+    },
+    {
+      "source_id": "de-hairer-book",
+      "reason": "Contrasting numerical energy behavior of Euler, backward Euler, symplectic Euler and Verlet."
+    },
+    {
+      "source_id": "de-scipy-solve-ivp",
+      "reason": "Contrasting numerical energy behavior of Euler, backward Euler, symplectic Euler and Verlet."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-17",
+    "scope": "Original foundation-first adaptive integration, tolerance scaling, event detection and geometric time-stepping lectures with mathematical companions; preserve the 49 previous manuscripts and their individual metadata."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "differential-equations:050000",
+        "reason": "Build on the worked ODE or numerical integration prerequisites for this topic."
+      },
+      {
+        "lecture_id": "differential-equations:063000",
+        "reason": "Build on the worked ODE or numerical integration prerequisites for this topic."
+      },
+      {
+        "lecture_id": "differential-equations:066000",
+        "reason": "Build on the worked ODE or numerical integration prerequisites for this topic."
+      }
+    ],
+    "recommended": [],
+    "background": [
+      "Single-variable calculus, elementary differential equations and vector arithmetic; trigonometry and oscillator energy for the last lecture. No advanced PDE or functional-analysis prerequisites."
+    ],
+    "readiness_checks": [
+      "Derive the energy factors of forward/backward Euler on the oscillator.",
+      "Verify the modified invariant for kick-drift symplectic Euler.",
+      "Explain when preservation, dissipation or event handling is the appropriate numerical objective."
+    ]
+  }
+}

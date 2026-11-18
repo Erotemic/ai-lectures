@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "lecture_id": "085000",
+  "transcript": "085000-locating-events-in-continuous-time.md",
+  "related_resources": [
+    {
+      "source_id": "de-scipy-solve-ivp",
+      "reason": "A projectile ground impact, root conditioning and post-impact jump maps."
+    },
+    {
+      "source_id": "de-sundials-cvode",
+      "reason": "A projectile ground impact, root conditioning and post-impact jump maps."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-17",
+    "scope": "Original foundation-first adaptive integration, tolerance scaling, event detection and geometric time-stepping lectures with mathematical companions; preserve the 49 previous manuscripts and their individual metadata."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "differential-equations:083000",
+        "reason": "Build on the worked ODE or numerical integration prerequisites for this topic."
+      },
+      {
+        "lecture_id": "differential-equations:049000",
+        "reason": "Build on the worked ODE or numerical integration prerequisites for this topic."
+      }
+    ],
+    "recommended": [],
+    "background": [
+      "Single-variable calculus, elementary differential equations and vector arithmetic; trigonometry and oscillator energy for the last lecture. No advanced PDE or functional-analysis prerequisites."
+    ],
+    "readiness_checks": [
+      "Calculate the exact impact time and the secant interpolation error.",
+      "Explain why crossing tests miss tangencies and multiple roots in one step.",
+      "Apply a restitution jump at a located event and restart the flow."
+    ]
+  }
+}

@@ -2,7 +2,7 @@
 
 Ordinary differential equations and dynamical systems: initial-value problems, existence and uniqueness, phase portraits, oscillations, stability, nonlinear dynamics and numerical integration, later partial differential equations.
 
-The current pack contains **49 lecture manuscripts**. Short concept chapters have been consolidated where they develop one subject. Each numbered manuscript has one spoken region; its mathematical statements, exercises, sources, and inherited component notes remain in the non-spoken companion.
+The current pack contains **53 lecture manuscripts**. Short concept chapters have been consolidated where they develop one subject. Each numbered manuscript has one spoken region; its mathematical statements, exercises, sources, and inherited component notes remain in the non-spoken companion.
 
 ## Listening routes
 
@@ -15,6 +15,7 @@ The current pack contains **49 lecture manuscripts**. Short concept chapters hav
 - **Differential Equations · Fourier Transforms and Numerical Spatial Discretization** (Foundation bridge): `071000`, `072000`, `073000`, `074000`.
 - **Differential Equations · Sampling, Discrete Fourier Transform and FFT from Scratch** (Foundation bridge): `079000`, `080000`, `081000`, `082000`.
 - **Differential Equations · Numerical Time Stepping from Scratch** (Foundation bridge): `063000`, `064000`, `065000`, `066000`.
+- **Differential Equations · Adaptive Solvers, Events, and Energy-Aware Time Steps** (Foundation bridge): `083000`, `084000`, `085000`, `086000`.
 - **Differential Equations · Linear Systems and Phase Portraits from Scratch** (Foundation bridge): `059000`, `060000`, `061000`, `062000`.
 - **Differential Equations · Fourier Series and Periodic Forcing from Scratch** (Foundation bridge): `051000`, `052000`, `053000`, `054000`.
 - **Differential Equations · Laplace Transforms and Switched Forcing from Scratch** (Foundation bridge): `055000`, `056000`, `057000`, `058000`.
@@ -80,6 +81,10 @@ Durations are measured from the current spoken text at 145 words per minute, bef
 | `080000` | [A Fourier Transform You Can Calculate by Hand: The Discrete Fourier Transform](080000-a-fourier-transform-you-can-calculate-by-hand.md) | 13.5 |
 | `081000` | [Reading a Spectrum without Being Fooled: Phase, Leakage, and Windows](081000-reading-a-spectrum-without-being-fooled.md) | 13.8 |
 | `082000` | [How the FFT Works and Why PDEs Use It: Fast Transforms from First Principles](082000-how-the-fft-works-and-why-pdes-use-it.md) | 16.0 |
+| `083000` | [When a Solver Chooses Its Own Time Steps: Adaptive ODE Integration](083000-when-a-solver-chooses-its-own-time-steps.md) | 12.1 |
+| `084000` | [What ODE Error Tolerances Actually Mean: Scale, Units, and Accuracy](084000-what-ode-error-tolerances-actually-mean.md) | 11.9 |
+| `085000` | [Locating Events in Continuous Time: Roots, Impacts, and Hybrid Dynamics](085000-locating-events-in-continuous-time.md) | 12.7 |
+| `086000` | [Why Energy-Aware Integration Matters: Oscillators, Symplectic Steps, and Structure](086000-why-energy-aware-integration-matters.md) | 13.1 |
 
 ## Foundation-first continuation
 
@@ -127,3 +132,7 @@ The `075000`–`078000` route derives transport from characteristics and integra
 ## Sampling, DFT and FFT foundation bridge
 
 The `079000`–`082000` route supplies a concrete sequence from an eight-samples-per-second aliasing calculation, through an exact four-point DFT and its inverse, to spectrum interpretation with phase/window/leakage distinctions and a radix-two FFT derivation. The final lecture diagonalizes a four-cell periodic heat equation and recovers its stability limit. Sampling theorem hypotheses, amplitude normalization, and periodic versus nonperiodic boundary conditions are made explicit. This route connects the Fourier series, continuous Fourier transform, and numerical PDE introductions. All 45 earlier manuscripts and per-lecture metadata are preserved.
+
+## Adaptive numerical ODE solvers foundation bridge
+
+The `083000`–`086000` route develops embedded error estimates and rejected steps, physically scaled relative/absolute tolerance checks, event-root location with dense output and impact jump maps, then a worked comparison of Euler, backward Euler, symplectic Euler and Störmer–Verlet on a spring. It separates local acceptance, accumulated trajectory accuracy, event conditioning, and physical structure. It builds directly on the earlier numerical time-stepping and oscillator lectures; all 49 prior manuscripts and per-lecture metadata remain unchanged.

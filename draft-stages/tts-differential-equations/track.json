@@ -12,6 +12,7 @@
     "initial-value-problems",
     "oscillators-and-resonance",
     "linear-systems-and-phase-portraits",
+    "adaptive-ode-integration",
     "nonlinear-phase-planes",
     "boundary-values-fourier-modes",
     "fourier-transforms-and-method-of-lines",
@@ -885,6 +886,76 @@
         "Discrete Laplacian",
         "Numerical heat equation",
         "Spectral methods"
+      ]
+    },
+    {
+      "id": "083000",
+      "title": "When a Solver Chooses Its Own Time Steps: Adaptive ODE Integration",
+      "section": "adaptive-ode-integration",
+      "file": "083000-when-a-solver-chooses-its-own-time-steps.md",
+      "spoken_words": 1756,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 12.1,
+      "tags": [
+        "Adaptive integration",
+        "Embedded Runge-Kutta",
+        "Local error estimates",
+        "Step rejection",
+        "Error controllers",
+        "Step size"
+      ]
+    },
+    {
+      "id": "084000",
+      "title": "What ODE Error Tolerances Actually Mean: Scale, Units, and Accuracy",
+      "section": "adaptive-ode-integration",
+      "file": "084000-what-ode-error-tolerances-actually-mean.md",
+      "spoken_words": 1731,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 11.9,
+      "tags": [
+        "Absolute tolerance",
+        "Relative tolerance",
+        "Scaled errors",
+        "Nondimensionalization",
+        "Solver verification",
+        "Global error"
+      ]
+    },
+    {
+      "id": "085000",
+      "title": "Locating Events in Continuous Time: Roots, Impacts, and Hybrid Dynamics",
+      "section": "adaptive-ode-integration",
+      "file": "085000-locating-events-in-continuous-time.md",
+      "spoken_words": 1847,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 12.7,
+      "tags": [
+        "Event detection",
+        "Root finding",
+        "Dense output",
+        "Hybrid systems",
+        "Impacts",
+        "Zero crossings",
+        "Event sensitivity"
+      ]
+    },
+    {
+      "id": "086000",
+      "title": "Why Energy-Aware Integration Matters: Oscillators, Symplectic Steps, and Structure",
+      "section": "adaptive-ode-integration",
+      "file": "086000-why-energy-aware-integration-matters.md",
+      "spoken_words": 1897,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 13.1,
+      "tags": [
+        "Symplectic Euler",
+        "Störmer-Verlet",
+        "Hamiltonian systems",
+        "Geometric integration",
+        "Energy drift",
+        "Oscillators",
+        "Modified energy"
       ]
     }
   ],

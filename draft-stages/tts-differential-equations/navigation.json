@@ -218,6 +218,37 @@
       ]
     },
     {
+      "id": "adaptive-integration-events-foundations",
+      "title": "Differential Equations · Adaptive Solvers, Events, and Energy-Aware Time Steps",
+      "role": "deep_dive",
+      "parent": "survey",
+      "lectures": [
+        "083000",
+        "084000",
+        "085000",
+        "086000"
+      ],
+      "assumed_background": [
+        "Elementary ODE solution methods, Euler and Runge–Kutta steps, and oscillator energy; no PDE prerequisites."
+      ],
+      "preparation_collections": [
+        "differential-equations:worked-ode-foundations",
+        "differential-equations:numerical-time-stepping-foundations"
+      ],
+      "related_collections": [
+        "survey",
+        "numerical-time-stepping-foundations",
+        "geometric-numerics"
+      ],
+      "tags": [
+        "Numerical ODEs",
+        "Adaptive Runge-Kutta",
+        "Error tolerances",
+        "Event detection",
+        "Symplectic integration"
+      ]
+    },
+    {
       "id": "linear-systems-foundations",
       "title": "Differential Equations · Linear Systems and Phase Portraits from Scratch",
       "role": "deep_dive",

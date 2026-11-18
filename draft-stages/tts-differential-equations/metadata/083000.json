@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "lecture_id": "083000",
+  "transcript": "083000-when-a-solver-chooses-its-own-time-steps.md",
+  "related_resources": [
+    {
+      "source_id": "de-scipy-solve-ivp",
+      "reason": "Adaptive rejection, embedded order and accepted-step error estimation."
+    },
+    {
+      "source_id": "de-sundials-cvode",
+      "reason": "Adaptive rejection, embedded order and accepted-step error estimation."
+    },
+    {
+      "source_id": "de-sundials-adaptive",
+      "reason": "Adaptive rejection, embedded order and accepted-step error estimation."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-17",
+    "scope": "Original foundation-first adaptive integration, tolerance scaling, event detection and geometric time-stepping lectures with mathematical companions; preserve the 49 previous manuscripts and their individual metadata."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "differential-equations:063000",
+        "reason": "Build on the worked ODE or numerical integration prerequisites for this topic."
+      },
+      {
+        "lecture_id": "differential-equations:064000",
+        "reason": "Build on the worked ODE or numerical integration prerequisites for this topic."
+      },
+      {
+        "lecture_id": "differential-equations:065000",
+        "reason": "Build on the worked ODE or numerical integration prerequisites for this topic."
+      }
+    ],
+    "recommended": [],
+    "background": [
+      "Single-variable calculus, elementary differential equations and vector arithmetic; trigonometry and oscillator energy for the last lecture. No advanced PDE or functional-analysis prerequisites."
+    ],
+    "readiness_checks": [
+      "Compute the Euler-Heun estimates for a decay step and choose whether to reject.",
+      "Explain the exponent used in an embedded Runge-Kutta step controller.",
+      "Separate local acceptance from long-time trajectory accuracy."
+    ]
+  }
+}
