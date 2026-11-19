@@ -27,7 +27,7 @@ examines the shared agreements that enable interoperability between strangers
 and asks who can participate in setting those agreements. The fourteenth
 examines how to change shared conventions without needlessly abandoning
 people who rely on them, and when backward compatibility must be broken. The fifteenth asks what obligations we have to people not yet born, without pretending to know their preferences or ignoring the needs of those alive now.
-Each lecture stands alone;
+The sixteenth essay turns to darkness as ecological habitat, biological rhythm, and shared access to the stars, while taking human safety and accessibility requirements seriously. Each lecture stands alone;
 listeners may choose any order.
 
 - **001000 — The Counterexample Is the Main Character.** Why failure cases
@@ -78,6 +78,8 @@ listeners may choose any order.
   for future people who cannot represent themselves, from the Svalbard
   Seed Vault and WIPP hazard warnings to discounting, the non-identity
   problem, present needs, and institutions built for long-term thinking.
+
+- **016000 — The Night Is Not Empty.** Why the night sky, nocturnal habitats, and darkness itself deserve consideration alongside safety, accessibility and public life; from migrating birds and sea turtle hatchlings to street-lighting studies and Flagstaff's lighting ordinances.
 
 Spoken narration is inside the standard marker pair in each manuscript. Source
 notes, constructed-example qualifications, and reading links follow the
