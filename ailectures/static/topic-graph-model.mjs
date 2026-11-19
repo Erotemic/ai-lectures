@@ -25,10 +25,25 @@ export function topicGraph(rows, facet = "Topics") {
     }
   }
   visit(forest.get(facet) || new Map());
-  return { nodes, roots, lectures, facet, facets: [...forest.keys()] };
+  const memberships = new Map();
+  for (const node of nodes.values())
+    for (const id of node.lectures) {
+      if (node.children.some((child) => nodes.get(child).lectures.has(id)))
+        continue;
+      if (!memberships.has(id)) memberships.set(id, []);
+      memberships.get(id).push(node.id);
+    }
+  return {
+    nodes,
+    roots,
+    lectures,
+    memberships,
+    facet,
+    facets: [...forest.keys()],
+  };
 }
 
-export function graphNeighborhood(graph, selected = "", limit = 16) {
+export function graphNeighborhood(graph, selected = "") {
   const focus = graph.nodes.get(selected);
   const lectureId = selected.startsWith("lecture:") ? selected.slice(8) : null;
   const lecture = graph.lectures.get(lectureId);
@@ -39,17 +54,9 @@ export function graphNeighborhood(graph, selected = "", limit = 16) {
     );
   let topics, lectures;
   if (lecture) {
-    const memberships = [...graph.nodes.values()].filter((node) =>
-      node.lectures.has(lectureId),
-    );
-    // Show specific paths without flooding the graph with all their ancestors.
+    // Indexed specific paths keep lecture expansion proportional to its tags.
     topics = sort(
-      memberships.filter(
-        (node) =>
-          !node.children.some((id) =>
-            graph.nodes.get(id).lectures.has(lectureId),
-          ),
-      ),
+      (graph.memberships.get(lectureId) || []).map((id) => graph.nodes.get(id)),
     );
     const scores = new Map();
     for (const node of topics)
@@ -69,40 +76,191 @@ export function graphNeighborhood(graph, selected = "", limit = 16) {
           .sort((a, b) => a.title.localeCompare(b.title))
       : [];
   }
-  const center =
-    focus ||
-    (lecture
-      ? { id: selected, kind: "lecture", title: lecture.title }
-      : { id: "root", kind: "root", title: graph.facet });
-  const visibleTopics = topics.slice(0, 6);
-  const visibleLectures = lectures.slice(
-    0,
-    Math.max(0, limit - visibleTopics.length - (focus?.parent ? 1 : 0)),
-  );
-  const nodes = [
-    center,
-    ...visibleTopics,
-    ...visibleLectures.map((row) => ({
-      id: "lecture:" + row.id,
-      kind: "lecture",
-      title: row.title,
-    })),
-  ];
-  if (focus?.parent) nodes.push(graph.nodes.get(focus.parent));
-  const edges = [
-    ...visibleTopics.map((node) => ({
-      from: center.id,
-      to: node.id,
-      kind: lecture ? "association" : "hierarchy",
-    })),
-    ...visibleLectures.map((row) => ({
-      from: center.id,
-      to: "lecture:" + row.id,
-      kind: "association",
-    })),
-    ...(focus?.parent
-      ? [{ from: focus.parent, to: focus.id, kind: "hierarchy" }]
-      : []),
-  ];
-  return { center, topics, lectures, nodes, edges, focus, lecture };
+  return { topics, lectures, focus, lecture };
+}
+
+/** Incremental graph: each expansion reveals one batch, never replaces siblings. */
+export class GraphExpansion {
+  constructor(graph, batch = 6) {
+    this.graph = graph;
+    this.batch = batch;
+    this.open = new Map();
+    this.pins = new Map();
+    this.cache = new Map();
+    this.expand("root", "topics");
+  }
+  node(id) {
+    if (id === "root") return { id, kind: "root", title: this.graph.facet };
+    if (this.graph.nodes.has(id)) return this.graph.nodes.get(id);
+    const row =
+      id.startsWith("lecture:") && this.graph.lectures.get(id.slice(8));
+    return row ? { id, kind: "lecture", title: row.title } : null;
+  }
+  neighbors(id) {
+    if (this.cache.has(id)) return this.cache.get(id);
+    const node = this.node(id);
+    let topics = [],
+      lectures = [];
+    if (node?.kind === "root") topics = this.graph.roots;
+    else if (node?.kind === "topic") {
+      topics = node.children;
+      lectures = [...node.lectures]
+        .sort((a, b) =>
+          this.graph.lectures
+            .get(a)
+            .title.localeCompare(this.graph.lectures.get(b).title),
+        )
+        .map((key) => "lecture:" + key);
+    } else if (node?.kind === "lecture") {
+      topics = this.graph.memberships.get(id.slice(8)) || [];
+    }
+    const result = {
+      topics: [...topics].sort(
+        (a, b) =>
+          this.graph.nodes.get(b).lectures.size -
+            this.graph.nodes.get(a).lectures.size ||
+          this.graph.nodes
+            .get(a)
+            .title.localeCompare(this.graph.nodes.get(b).title),
+      ),
+      lectures,
+    };
+    this.cache.set(id, result);
+    return result;
+  }
+  children(id) {
+    const state = this.open.get(id) || { topics: 0, lectures: 0 };
+    const neighbors = this.neighbors(id);
+    return new Set([
+      ...neighbors.topics.slice(0, state.topics),
+      ...neighbors.lectures.slice(0, state.lectures),
+      ...(this.pins.get(id) || []),
+    ]);
+  }
+  remaining(id) {
+    const children = this.children(id),
+      neighbors = this.neighbors(id);
+    return {
+      topics: neighbors.topics.filter((key) => !children.has(key)).length,
+      lectures: neighbors.lectures.filter((key) => !children.has(key)).length,
+    };
+  }
+  expand(id, kind = null) {
+    if (!this.node(id)) return;
+    const remaining = this.remaining(id);
+    kind ||= remaining.topics ? "topics" : "lectures";
+    if (!remaining[kind]) return;
+    const state = this.open.get(id) || { topics: 0, lectures: 0 };
+    const neighbors = this.neighbors(id)[kind];
+    const children = this.children(id);
+    let added = 0;
+    while (state[kind] < neighbors.length && added < this.batch) {
+      if (!children.has(neighbors[state[kind]])) added++;
+      state[kind]++;
+    }
+    this.open.set(id, state);
+  }
+  pin(from, to) {
+    if (!this.pins.has(from)) this.pins.set(from, new Set());
+    this.pins.get(from).add(to);
+  }
+  reveal(id) {
+    if (!this.node(id) || this.view().nodes.some((node) => node.id === id))
+      return;
+    const topic = this.graph.nodes.get(id);
+    if (topic) {
+      const path = [];
+      for (let node = topic; node; node = this.graph.nodes.get(node.parent))
+        path.unshift(node);
+      let parent = "root";
+      for (const node of path) {
+        this.pin(parent, node.id);
+        parent = node.id;
+      }
+    } else if (id.startsWith("lecture:")) {
+      const parent = this.neighbors(id).topics[0];
+      if (parent) {
+        this.reveal(parent);
+        this.pin(parent, id);
+      } else this.pin("root", id);
+    }
+  }
+  view() {
+    const edges = new Map(),
+      adjacency = new Map();
+    for (const id of new Set([...this.open.keys(), ...this.pins.keys()])) {
+      for (const child of this.children(id)) {
+        if (!this.node(child)) continue;
+        const key = JSON.stringify([id, child].sort());
+        const kind =
+          (id === "root" && this.graph.nodes.has(child)) ||
+          this.graph.nodes.get(child)?.parent === id
+            ? "hierarchy"
+            : "association";
+        edges.set(key, { from: id, to: child, kind });
+        for (const [a, b] of [
+          [id, child],
+          [child, id],
+        ]) {
+          if (!adjacency.has(a)) adjacency.set(a, new Set());
+          adjacency.get(a).add(b);
+        }
+      }
+    }
+    const reached = new Set(["root"]),
+      queue = ["root"];
+    for (let i = 0; i < queue.length; i++)
+      for (const id of adjacency.get(queue[i]) || [])
+        if (!reached.has(id)) {
+          reached.add(id);
+          queue.push(id);
+        }
+    return {
+      nodes: queue.map((id) => this.node(id)),
+      edges: [...edges.values()].filter(
+        (edge) => reached.has(edge.from) && reached.has(edge.to),
+      ),
+    };
+  }
+  collapse(id) {
+    this.open.delete(id);
+    this.pins.delete(id);
+    const reached = new Set(this.view().nodes.map((node) => node.id));
+    for (const map of [this.open, this.pins])
+      for (const key of map.keys()) if (!reached.has(key)) map.delete(key);
+  }
+  snapshot() {
+    return {
+      open: [...this.open],
+      pins: [...this.pins].map(([id, keys]) => [id, [...keys]]),
+    };
+  }
+  restore(snapshot) {
+    if (
+      !snapshot ||
+      !Array.isArray(snapshot.open) ||
+      !Array.isArray(snapshot.pins)
+    )
+      return;
+    this.open.clear();
+    this.pins.clear();
+    for (const [id, state] of snapshot.open)
+      if (
+        this.node(id) &&
+        state &&
+        Number.isInteger(state.topics) &&
+        Number.isInteger(state.lectures) &&
+        state.topics >= 0 &&
+        state.lectures >= 0
+      ) {
+        const neighbors = this.neighbors(id);
+        this.open.set(id, {
+          topics: Math.min(state.topics, neighbors.topics.length),
+          lectures: Math.min(state.lectures, neighbors.lectures.length),
+        });
+      }
+    for (const [id, children] of snapshot.pins)
+      if (this.node(id) && Array.isArray(children))
+        for (const child of children) if (this.node(child)) this.pin(id, child);
+  }
 }

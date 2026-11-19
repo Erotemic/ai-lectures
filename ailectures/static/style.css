@@ -1017,3 +1017,7 @@ progress {
 .voice-profile-options p, .voice-profile-options code { overflow-wrap: anywhere; font-size: .8rem; }
 .voice-profile-device, .voice-profile-archived { margin: .8rem 0; }
 #voice-profiles > [role="status"]:empty { display: none; }
+.graph-node.selected circle { stroke: var(--ink); stroke-width: 3; }
+.graph-node text.graph-expand-badge { fill: white; stroke: none; font-size: 19px; font-weight: bold; pointer-events: none; }
+.graph-label { pointer-events: none; }
+.graph-expansion-actions { margin: .8rem 0; }

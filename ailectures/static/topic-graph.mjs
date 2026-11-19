@@ -1,5 +1,9 @@
 import { el, lectureURL } from "./api.mjs";
-import { topicGraph, graphNeighborhood } from "./topic-graph-model.mjs";
+import {
+  topicGraph,
+  graphNeighborhood,
+  GraphExpansion,
+} from "./topic-graph-model.mjs";
 
 const svgEl = (tag, attrs = {}) => {
   const node = document.createElementNS("http://www.w3.org/2000/svg", tag);
@@ -53,19 +57,41 @@ export function renderTopicGraph(main, catalog) {
   );
   body.append(canvas, results);
   let graph,
+    explorer,
+    positions = new Map(),
+    camera = null,
+    focusRequested = null,
+    resizeObserver = null,
+    lectureListOpen = null,
     selected = params.get("node") || "",
     shown = 25;
+  function stateKey() {
+    return (
+      "ailectures:topic-graph:" +
+      JSON.stringify([collection.value, facet.value])
+    );
+  }
   function save() {
+    if (explorer)
+      try {
+        sessionStorage.setItem(
+          stateKey(),
+          JSON.stringify({
+            expansion: explorer.snapshot(),
+            selected,
+            positions: [...positions],
+            camera,
+          }),
+        );
+      } catch {}
     const values = new URLSearchParams();
     if (collection.value) values.set("collection", collection.value);
     if (facet.value !== "Topics") values.set("facet", facet.value);
     if (selected) values.set("node", selected);
     if (search.value) values.set("q", search.value);
-    history.replaceState(
-      history.state,
-      "",
-      "/topic-graph" + (values.size ? "?" + values : ""),
-    );
+    const url = "/topic-graph" + (values.size ? "?" + values : "");
+    if (location.pathname + location.search !== url)
+      history.replaceState(history.state, "", url);
   }
   function lectureHref(id) {
     const params = new URLSearchParams({
@@ -74,14 +100,30 @@ export function renderTopicGraph(main, catalog) {
     if (collection.value) params.set("course", collection.value);
     return lectureURL(id) + "?" + params;
   }
-  function choose(id) {
-    selected = id;
+  function choose(id, expand = true) {
+    id = id || "root";
+    explorer.reveal(id);
+    if (expand) explorer.expand(id);
+    focusRequested = id;
+    selected = id === "root" ? "" : id;
     shown = 25;
+    lectureListOpen = null;
     search.value = "";
     save();
     draw();
   }
+  function collapse(id) {
+    id ||= "root";
+    explorer.collapse(id);
+    const visible = new Set(explorer.view().nodes.map((node) => node.id));
+    if (!visible.has(selected || "root"))
+      selected = visible.has(id) && id !== "root" ? id : "";
+    lectureListOpen = null;
+    draw();
+    save();
+  }
   function rebuild() {
+    lectureListOpen = null;
     const course = catalog.courses.find((row) => row.id === collection.value);
     const ids = course ? new Set(course.lectures) : null;
     const rows = catalog.lectures.filter((row) => !ids || ids.has(row.id));
@@ -96,6 +138,42 @@ export function renderTopicGraph(main, catalog) {
       ? current
       : graph.facets[0] || "Topics";
     if (facet.value !== current) graph = topicGraph(rows, facet.value);
+    explorer = new GraphExpansion(graph);
+    positions = new Map();
+    camera = null;
+    let restored = false;
+    try {
+      const stored = JSON.parse(sessionStorage.getItem(stateKey()));
+      if (stored) {
+        explorer.restore(stored.expansion);
+        restored = true;
+        selected ||= stored.selected || "";
+        positions = new Map(
+          (stored.positions || []).filter(
+            ([id, p]) =>
+              explorer.node(id) &&
+              Number.isFinite(p?.x) &&
+              Number.isFinite(p?.y),
+          ),
+        );
+        if (
+          stored.camera &&
+          ["x", "y", "width", "height"].every((key) =>
+            Number.isFinite(stored.camera[key]),
+          ) &&
+          stored.camera.width > 0 &&
+          stored.camera.height > 0
+        )
+          camera = stored.camera;
+      }
+    } catch {}
+    if (selected && explorer.node(selected)) {
+      explorer.reveal(selected);
+      if (!restored) {
+        explorer.expand(selected);
+        focusRequested = selected;
+      }
+    }
     save();
     draw();
   }
@@ -130,11 +208,11 @@ export function renderTopicGraph(main, catalog) {
     const heading = view.focus
       ? view.focus.path.join(" › ")
       : view.lecture?.title || facet.value;
-    graphStatus.textContent = `${graph.lectures.size} lectures in this collection scope · ${graph.nodes.size} nodes in ${facet.value.toLowerCase()}. Graph shows up to 16 neighbors; the lists expose the remaining connections.`;
+    graphStatus.textContent = `${graph.lectures.size} lectures in this collection scope · ${graph.nodes.size} nodes in ${facet.value.toLowerCase()}. Expand branches to keep exploring, in batches of ${explorer.batch} connections.`;
     const home = el("button", {
       type: "button",
       text: "All " + facet.value.toLowerCase(),
-      onclick: () => choose(""),
+      onclick: () => choose("", false),
     });
     const parent = view.focus?.parent
       ? el("button", {
@@ -145,6 +223,45 @@ export function renderTopicGraph(main, catalog) {
       : null;
     results.replaceChildren(
       ...[el("h2", { text: heading }), home, parent].filter(Boolean),
+    );
+    const current = selected || "root",
+      remaining = explorer.remaining(current);
+    results.append(
+      el(
+        "div",
+        { class: "actions graph-expansion-actions" },
+        remaining.topics
+          ? el("button", {
+              type: "button",
+              text: `Add next ${Math.min(explorer.batch, remaining.topics)} topics (${remaining.topics} remaining)`,
+              onclick: () => {
+                explorer.expand(current, "topics");
+                focusRequested = current;
+                draw();
+                save();
+              },
+            })
+          : null,
+        remaining.lectures
+          ? el("button", {
+              type: "button",
+              text: `${explorer.children(current).size ? "Add" : "Show"} ${Math.min(explorer.batch, remaining.lectures)} lectures (${remaining.lectures} remaining)`,
+              onclick: () => {
+                explorer.expand(current, "lectures");
+                focusRequested = current;
+                draw();
+                save();
+              },
+            })
+          : null,
+        explorer.children(current).size
+          ? el("button", {
+              type: "button",
+              text: "Collapse branch",
+              onclick: () => collapse(current),
+            })
+          : null,
+      ),
     );
     if (view.lecture)
       results.append(
@@ -162,16 +279,14 @@ export function renderTopicGraph(main, catalog) {
     if (matches) {
       results.append(
         el("h3", { text: `${matches.length} search matches` }),
-        ...matches
-          .slice(0, shown)
-          .map((item) =>
-            el("button", {
-              class: "graph-result",
-              type: "button",
-              text: (item.kind === "lecture" ? "Lecture: " : "") + item.title,
-              onclick: () => choose(item.id),
-            }),
-          ),
+        ...matches.slice(0, shown).map((item) =>
+          el("button", {
+            class: "graph-result",
+            type: "button",
+            text: (item.kind === "lecture" ? "Lecture: " : "") + item.title,
+            onclick: () => choose(item.id),
+          }),
+        ),
       );
       if (matches.length > shown)
         results.append(
@@ -189,50 +304,67 @@ export function renderTopicGraph(main, catalog) {
         el("h3", {
           text: `${view.topics.length} topic connection${view.topics.length === 1 ? "" : "s"}`,
         }),
-        ...view.topics
-          .slice(0, shown)
-          .map((node) =>
-            el("button", {
-              type: "button",
-              class: "graph-result",
-              text: `${node.title} · ${node.lectures.size} lecture${node.lectures.size === 1 ? "" : "s"}`,
-              onclick: () => choose(node.id),
-            }),
-          ),
-        el("h3", {
-          text: `${view.lectures.length} ${view.lecture ? "related " : ""}lecture${view.lectures.length === 1 ? "" : "s"}`,
-        }),
-        ...view.lectures
-          .slice(0, shown)
-          .map((row) =>
-            el(
-              "div",
-              { class: "graph-lecture" },
-              el("a", {
-                href: lectureHref(row.id),
-                "data-nav": "",
-                text: row.title,
-              }),
-              el("button", {
-                type: "button",
-                "aria-label": "Show connections for " + row.title,
-                text: "Connections",
-                onclick: () => choose("lecture:" + row.id),
-              }),
-            ),
-          ),
+        ...view.topics.slice(0, shown).map((node) =>
+          el("button", {
+            type: "button",
+            class: "graph-result",
+            text: `${node.title} · ${node.lectures.size} lecture${node.lectures.size === 1 ? "" : "s"}`,
+            onclick: () => choose(node.id),
+          }),
+        ),
       );
-      if (view.topics.length > shown || view.lectures.length > shown)
+      if (view.topics.length > shown)
         results.append(
           el("button", {
             type: "button",
-            text: "Show more connections",
+            text: "Show more topics",
             onclick: () => {
               shown += 25;
               draw();
             },
           }),
         );
+      const lectureList = el(
+        "details",
+        {
+          class: "graph-lecture-list",
+          open: lectureListOpen ?? Boolean(view.lecture || !view.topics.length),
+        },
+        el("summary", {
+          text: `${view.lectures.length} ${view.lecture ? "related " : ""}lecture${view.lectures.length === 1 ? "" : "s"}`,
+        }),
+        ...view.lectures.slice(0, shown).map((row) =>
+          el(
+            "div",
+            { class: "graph-lecture" },
+            el("a", {
+              href: lectureHref(row.id),
+              "data-nav": "",
+              text: row.title,
+            }),
+            el("button", {
+              type: "button",
+              "aria-label": "Show connections for " + row.title,
+              text: "Connections",
+              onclick: () => choose("lecture:" + row.id),
+            }),
+          ),
+        ),
+        view.lectures.length > shown
+          ? el("button", {
+              type: "button",
+              text: "Show more lectures",
+              onclick: () => {
+                shown += 25;
+                draw();
+              },
+            })
+          : null,
+      );
+      lectureList.ontoggle = () => {
+        if (lectureList.isConnected) lectureListOpen = lectureList.open;
+      };
+      results.append(lectureList);
     }
     if (!graph.nodes.size)
       results.append(
@@ -240,182 +372,342 @@ export function renderTopicGraph(main, catalog) {
           text: "No tags in this dimension for the selected content.",
         }),
       );
-    drawCanvas(view, heading);
+    drawCanvas(explorer.view());
   }
-  function drawCanvas(view, heading) {
-    const initialWidth = Math.max(280, canvas.clientWidth),
+  function drawCanvas(view) {
+    resizeObserver?.disconnect();
+    let initialWidth = Math.max(280, canvas.clientWidth),
       initialHeight = initialWidth < 600 ? 420 : 570;
-    const narrow = initialWidth < 600;
-    let width = initialWidth,
-      height = initialHeight,
-      x = -width / 2,
-      y = -height / 2,
-      drag = null,
-      moved = false;
-    const svg = svgEl("svg", {
-      viewBox: `${x} ${y} ${width} ${height}`,
-      role: "group",
-      "aria-label": "Content connections for " + heading,
-      tabindex: "0",
-    });
-    const positions = new Map([[view.center.id, { x: 0, y: 0 }]]);
-    for (const kind of ["topic", "lecture"]) {
-      const neighbors = view.nodes
-        .slice(1)
-        .filter((node) => node.kind === kind);
-      neighbors.forEach((node, index) =>
-        positions.set(node.id, {
-          x: (kind === "topic" ? -1 : 1) * initialWidth * 0.29,
-          y:
-            (index - (neighbors.length - 1) / 2) *
-            Math.min(
-              85,
-              (initialHeight * 0.7) / Math.max(1, neighbors.length - 1),
-            ),
+    const adjacency = new Map();
+    for (const edge of view.edges)
+      for (const [a, b] of [
+        [edge.from, edge.to],
+        [edge.to, edge.from],
+      ]) {
+        if (!adjacency.has(a)) adjacency.set(a, []);
+        adjacency.get(a).push(b);
+      }
+    const occupied = new Set(
+      view.nodes
+        .filter((node) => positions.has(node.id))
+        .map((node) => {
+          const p = positions.get(node.id);
+          return Math.round(p.x / 280) + ":" + Math.round(p.y / 105);
         }),
-      );
-    }
-    const lines = view.edges.map((edge) => {
-      const line = svgEl("line", { class: "graph-edge " + edge.kind });
-      svg.append(line);
-      return { edge, line };
-    });
-    const elements = new Map();
+    );
     for (const node of view.nodes) {
+      if (positions.has(node.id)) continue;
+      if (node.id === "root") {
+        positions.set(node.id, { x: 0, y: 0 });
+        occupied.add("0:0");
+        continue;
+      }
+      const parent =
+        (adjacency.get(node.id) || []).find((id) => positions.has(id)) ||
+        "root";
+      const point = positions.get(parent),
+        column = Math.round(point.x / 280) + 1;
+      let row = Math.round(point.y / 105),
+        offset = 0;
+      while (occupied.has(column + ":" + row)) {
+        offset++;
+        row =
+          Math.round(point.y / 105) +
+          (offset % 2 ? -Math.ceil(offset / 2) : offset / 2);
+      }
+      occupied.add(column + ":" + row);
+      positions.set(node.id, { x: column * 280, y: row * 105 });
+    }
+    function frame(ids) {
+      const points = ids.map((id) => positions.get(id)).filter(Boolean);
+      if (!points.length) return;
+      let left = Infinity,
+        right = -Infinity,
+        top = Infinity,
+        bottom = -Infinity;
+      for (const p of points) {
+        left = Math.min(left, p.x - 120);
+        right = Math.max(right, p.x + 120);
+        top = Math.min(top, p.y - 65);
+        bottom = Math.max(bottom, p.y + 80);
+      }
+      const width = Math.max(
+          400,
+          right - left,
+          ((bottom - top) * initialWidth) / initialHeight,
+        ),
+        height = (width * initialHeight) / initialWidth;
+      camera = {
+        x: (left + right - width) / 2,
+        y: (top + bottom - height) / 2,
+        width,
+        height,
+      };
+    }
+    if (!camera) frame(view.nodes.map((node) => node.id));
+    else camera.height = (camera.width * initialHeight) / initialWidth;
+    if (focusRequested && positions.has(focusRequested)) {
+      const ids = [focusRequested, ...explorer.children(focusRequested)];
+      const points = ids.map((id) => positions.get(id)).filter(Boolean);
+      if (
+        points.some(
+          (p) =>
+            p.x < camera.x + 80 ||
+            p.x > camera.x + camera.width - 80 ||
+            p.y < camera.y + 50 ||
+            p.y > camera.y + camera.height - 70,
+        )
+      ) {
+        const anchor = positions.get(focusRequested);
+        const child = points[1] || anchor;
+        camera.x = (anchor.x + child.x) / 2 - camera.width / 2;
+        camera.y = anchor.y - camera.height / 2;
+      }
+      focusRequested = null;
+    }
+    const svg = svgEl("svg", {
+      role: "group",
+      "aria-label": "Expandable content graph",
+      tabindex: 0,
+    });
+    const edgeLayer = svgEl("g"),
+      nodeLayer = svgEl("g");
+    svg.append(edgeLayer, nodeLayer);
+    const nodeElements = new Map(),
+      edgeElements = new Map();
+    const remaining = new Map(
+      view.nodes.map((node) => [node.id, explorer.remaining(node.id)]),
+    );
+    const visibleStatus = el("p", { class: "muted" });
+    let drag = null,
+      moved = false,
+      pendingFrame = false;
+    const selectedId = selected || "root";
+    function makeNode(node) {
       const group = svgEl("g", {
-        class: "graph-node " + node.kind,
+        class:
+          "graph-node " +
+          node.kind +
+          (node.id === selectedId ? " selected" : ""),
         tabindex: 0,
         role: "button",
-        "aria-label": `${node.kind}: ${node.title}${node.lectures ? "; " + node.lectures.size + " lectures" : ""}`,
+        "data-node-id": node.id,
       });
-      const title = svgEl("title");
-      title.textContent = node.title;
-      group.append(
-        title,
-        svgEl("circle", {
-          r:
-            node.id === view.center.id
-              ? narrow
-                ? 28
-                : 34
-              : node.kind === "topic"
-                ? 16
-                : 11,
-        }),
+      const count = remaining.get(node.id),
+        description = count.topics
+          ? count.topics + " more topics"
+          : count.lectures
+            ? count.lectures + " lectures to reveal"
+            : "all connections revealed";
+      group.setAttribute(
+        "aria-label",
+        `${node.kind}: ${node.title}; ${description}. Activate to expand.`,
       );
-      const center = node.id === view.center.id;
-      const labelX = center || narrow ? 0 : node.kind === "topic" ? -25 : 22;
+      const title = svgEl("title");
+      title.textContent = node.title + " — " + description;
+      const circle = svgEl("circle", {
+        r: node.id === selectedId ? 25 : node.kind === "lecture" ? 12 : 18,
+      });
+      group.append(title, circle);
+      if (count.topics || count.lectures) {
+        const badge = svgEl("text", {
+          class: "graph-expand-badge",
+          "text-anchor": "middle",
+          y: 5,
+        });
+        badge.textContent = "+";
+        group.append(badge);
+      }
       const label = svgEl("text", {
-        x: labelX,
-        y: center ? 52 : narrow ? 30 : 5,
-        "text-anchor":
-          center || narrow ? "middle" : node.kind === "topic" ? "end" : "start",
+        class: "graph-label",
+        x: 0,
+        y: node.id === selectedId ? 43 : 35,
+        "text-anchor": "middle",
       });
       const words = node.title.split(/\s+/),
-        lines = [""],
-        characterLimit = narrow ? 14 : 18;
+        lines = [""];
       for (const word of words) {
-        if (lines.at(-1).length + word.length > characterLimit && lines.at(-1))
+        if (lines.at(-1).length + word.length > 27 && lines.at(-1))
           lines.push("");
         lines[lines.length - 1] += (lines.at(-1) ? " " : "") + word;
       }
       lines.slice(0, 2).forEach((line, index) => {
-        const span = svgEl("tspan", { x: labelX, dy: index ? 17 : 0 });
+        const span = svgEl("tspan", { x: 0, dy: index ? 17 : 0 });
         span.textContent =
-          line.slice(0, characterLimit) +
-          (index === 1 && lines.length > 2 ? "…" : "");
+          line.slice(0, 30) + (index === 1 && lines.length > 2 ? "…" : "");
         label.append(span);
       });
       group.append(label);
-      group.onclick = () => {
-        if (!moved)
-          choose(
-            node.id === view.center.id && node.kind === "lecture"
-              ? selected
-              : node.id,
-          );
+      group.onclick = (event) => {
+        if (!moved) {
+          if (event.shiftKey) collapse(node.id);
+          else choose(node.id);
+        }
         moved = false;
       };
       group.onkeydown = (event) => {
         if (event.key === "Enter" || event.key === " ") {
           event.preventDefault();
-          choose(node.id);
+          if (event.shiftKey) collapse(node.id);
+          else choose(node.id);
         }
       };
       group.onpointerdown = (event) => {
         event.stopPropagation();
-        drag = { id: node.id, startX: event.clientX, startY: event.clientY };
+        drag = {
+          id: node.id,
+          x: event.clientX,
+          y: event.clientY,
+          originX: event.clientX,
+          originY: event.clientY,
+        };
         moved = false;
         group.setPointerCapture(event.pointerId);
       };
-      svg.append(group);
-      elements.set(node.id, group);
+      return group;
     }
     function update() {
-      svg.setAttribute("viewBox", `${x} ${y} ${width} ${height}`);
-      for (const [id, group] of elements) {
-        const p = positions.get(id);
+      pendingFrame = false;
+      if (!svg.isConnected) return;
+      svg.setAttribute(
+        "viewBox",
+        `${camera.x} ${camera.y} ${camera.width} ${camera.height}`,
+      );
+      const scale = initialWidth / camera.width,
+        visible = new Set();
+      for (const node of view.nodes) {
+        const p = positions.get(node.id);
+        const detailed =
+          node.id === selectedId ||
+          node.kind === "root" ||
+          ((node.kind !== "lecture" || scale >= 0.55) &&
+            (!node.path ||
+              node.path.length <=
+                (scale < 0.3 ? 1 : scale < 0.55 ? 2 : Infinity)));
+        const onScreen =
+          p.x > camera.x - 140 &&
+          p.x < camera.x + camera.width + 140 &&
+          p.y > camera.y - 80 &&
+          p.y < camera.y + camera.height + 80;
+        if (!(detailed && onScreen) && node.id !== drag?.id) continue;
+        visible.add(node.id);
+        let group = nodeElements.get(node.id);
+        if (!group) {
+          group = makeNode(node);
+          nodeElements.set(node.id, group);
+          nodeLayer.append(group);
+        }
         group.setAttribute("transform", `translate(${p.x},${p.y})`);
+        group.querySelector(".graph-label").style.display =
+          scale >= 0.7 ||
+          view.nodes.length <= 30 ||
+          (node.path?.length === 1 && scale >= 0.3) ||
+          node.id === selectedId ||
+          node.kind === "root"
+            ? ""
+            : "none";
+        group.querySelector(".graph-label").style.fontSize =
+          Math.max(14, 11 / scale) + "px";
       }
-      for (const { edge, line } of lines) {
+      for (const [id, group] of nodeElements)
+        if (!visible.has(id)) {
+          group.remove();
+          nodeElements.delete(id);
+        }
+      const lines = new Set();
+      for (const edge of view.edges) {
+        if (!visible.has(edge.from) || !visible.has(edge.to)) continue;
+        const key = JSON.stringify([edge.from, edge.to]);
+        lines.add(key);
+        let line = edgeElements.get(key);
+        if (!line) {
+          line = svgEl("line", { class: "graph-edge " + edge.kind });
+          edgeElements.set(key, line);
+          edgeLayer.append(line);
+        }
         const a = positions.get(edge.from),
           b = positions.get(edge.to);
-        if (a && b)
-          for (const [key, value] of Object.entries({
-            x1: a.x,
-            y1: a.y,
-            x2: b.x,
-            y2: b.y,
-          }))
-            line.setAttribute(key, value);
+        for (const [name, value] of Object.entries({
+          x1: a.x,
+          y1: a.y,
+          x2: b.x,
+          y2: b.y,
+        }))
+          line.setAttribute(name, value);
+      }
+      for (const [key, line] of edgeElements)
+        if (!lines.has(key)) {
+          line.remove();
+          edgeElements.delete(key);
+        }
+      visibleStatus.textContent = `${view.nodes.length} nodes explored · ${visible.size} drawn in this view${scale < 0.7 ? " · zoom in for finer topics, lectures, and labels" : ""}`;
+    }
+    function schedule() {
+      if (!pendingFrame) {
+        pendingFrame = true;
+        requestAnimationFrame(update);
       }
     }
-    function zoom(factor) {
-      const cx = x + width / 2,
-        cy = y + height / 2;
-      width = Math.max(160, Math.min(5000, width * factor));
-      height = (width * initialHeight) / initialWidth;
-      x = cx - width / 2;
-      y = cy - height / 2;
-      update();
+    function zoom(factor, point = null) {
+      const width = Math.max(160, Math.min(1e7, camera.width * factor)),
+        ratio = width / camera.width;
+      const cx = point?.x ?? camera.x + camera.width / 2,
+        cy = point?.y ?? camera.y + camera.height / 2;
+      camera = {
+        x: cx + (camera.x - cx) * ratio,
+        y: cy + (camera.y - cy) * ratio,
+        width,
+        height: (width * initialHeight) / initialWidth,
+      };
+      schedule();
+      save();
     }
     svg.onwheel = (event) => {
       event.preventDefault();
-      zoom(event.deltaY > 0 ? 1.15 : 1 / 1.15);
+      const bounds = svg.getBoundingClientRect();
+      zoom(event.deltaY > 0 ? 1.15 : 1 / 1.15, {
+        x:
+          camera.x +
+          ((event.clientX - bounds.left) * camera.width) / bounds.width,
+        y:
+          camera.y +
+          ((event.clientY - bounds.top) * camera.height) / bounds.height,
+      });
     };
     svg.onpointerdown = (event) => {
-      drag = { startX: event.clientX, startY: event.clientY };
-      svg.setPointerCapture(event.pointerId);
+      drag = {
+        x: event.clientX,
+        y: event.clientY,
+        originX: event.clientX,
+        originY: event.clientY,
+      };
       moved = false;
+      svg.setPointerCapture(event.pointerId);
     };
     svg.onpointermove = (event) => {
       if (!drag) return;
-      const bounds = svg.getBoundingClientRect();
-      const dx = ((event.clientX - drag.startX) * width) / bounds.width,
-        dy = ((event.clientY - drag.startY) * height) / bounds.height;
-      if (
-        Math.abs(event.clientX - drag.startX) +
-          Math.abs(event.clientY - drag.startY) >
-        3
-      )
-        moved = true;
+      const bounds = svg.getBoundingClientRect(),
+        dx = ((event.clientX - drag.x) * camera.width) / bounds.width,
+        dy = ((event.clientY - drag.y) * camera.height) / bounds.height;
+      moved ||=
+        Math.abs(event.clientX - drag.originX) +
+          Math.abs(event.clientY - drag.originY) >
+        3;
       if (drag.id) {
         const p = positions.get(drag.id);
         p.x += dx;
         p.y += dy;
       } else {
-        x -= dx;
-        y -= dy;
+        camera.x -= dx;
+        camera.y -= dy;
       }
-      drag.startX = event.clientX;
-      drag.startY = event.clientY;
-      update();
+      drag.x = event.clientX;
+      drag.y = event.clientY;
+      schedule();
     };
-    svg.onpointerup = () => {
+    svg.onpointerup = svg.onpointercancel = () => {
       drag = null;
-    };
-    svg.onpointercancel = () => {
-      drag = null;
+      save();
     };
     svg.onkeydown = (event) => {
       if (event.target !== svg) return;
@@ -438,23 +730,72 @@ export function renderTopicGraph(main, catalog) {
         }),
         el("button", {
           type: "button",
-          text: "Reset view",
+          text: "Fit graph",
           onclick: () => {
-            width = initialWidth;
-            height = initialHeight;
-            x = -width / 2;
-            y = -height / 2;
+            frame(view.nodes.map((node) => node.id));
             update();
+            save();
+          },
+        }),
+        el("button", {
+          type: "button",
+          text: "Focus selected",
+          onclick: () => {
+            frame([selectedId, ...(adjacency.get(selectedId) || [])]);
+            update();
+            save();
+          },
+        }),
+        el("button", {
+          type: "button",
+          text: "Reset graph",
+          onclick: () => {
+            explorer = new GraphExpansion(graph);
+            positions.clear();
+            camera = null;
+            selected = "";
+            draw();
+            save();
           },
         }),
       ),
       svg,
+      visibleStatus,
       el("p", {
         class: "muted",
-        text: "Teal: topics. Ochre: lectures. The central node is the selected item. Solid lines: hierarchy; dotted lines: content associations. Click a node to explore. Drag nodes to rearrange; drag the background to pan. Use the lists to open lectures.",
+        text: "Click a node to add its next connections. Topics expand from broad to specific; lectures appear in batches. Shift-click a node to collapse its branch. Drag nodes to arrange, or the background to pan. Zooming out hides finer detail without forgetting it.",
       }),
     );
     update();
+    save();
+    const observer = new ResizeObserver(() => {
+      if (!svg.isConnected) {
+        observer.disconnect();
+        return;
+      }
+      const nextWidth = Math.max(280, canvas.clientWidth),
+        nextHeight = nextWidth < 600 ? 420 : 570;
+      if (
+        Math.abs(nextWidth - initialWidth) < 1 &&
+        nextHeight === initialHeight
+      )
+        return;
+      const cx = camera.x + camera.width / 2,
+        cy = camera.y + camera.height / 2;
+      camera.width = Math.max(
+        nextWidth < 600 ? 560 : 160,
+        (camera.width * nextWidth) / initialWidth,
+      );
+      camera.height = (camera.width * nextHeight) / nextWidth;
+      camera.x = cx - camera.width / 2;
+      camera.y = cy - camera.height / 2;
+      initialWidth = nextWidth;
+      initialHeight = nextHeight;
+      schedule();
+      save();
+    });
+    observer.observe(canvas);
+    resizeObserver = observer;
   }
   collection.onchange = () => {
     selected = "";

@@ -93,6 +93,17 @@ historical period, story setting, lifetime, and surviving witness. Stats include
 these coverage views and work authors, with links to the corresponding tags.
 Catalog clients can inspect these fields without downloading transcripts.
 
+Topic graph (`/topic-graph`) starts with broad topics and adds connections in
+batches as you click nodes. Expanding another branch keeps earlier branches;
+there is no fixed neighborhood limit. Topics reveal finer topics before lecture
+nodes, with separate controls to add lecture batches. Search can reveal a deep
+path without loading all its siblings. Collapse branch (or Shift-click), Fit
+graph, Focus selected, and Reset graph control the explored view. Zooming out
+hides finer topics, lectures, and labels; offscreen nodes are omitted from SVG
+rendering while their exploration state is retained. Branches, positions, and
+zoom are saved per collection/dimension for the current browser tab. Lecture
+lists are collapsible and contain links back to the lecture pages.
+
 Tags support explicit broader-to-narrower paths for topics, geography, and
 time. Stats → Coverage from broad to specific expands these dimensions with
 unique lecture counts; any parent label filters all lectures carrying that
