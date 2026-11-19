@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "lecture_id": "056000",
+  "transcript": "056000-which-side-of-a-carbonyl-reacts.md",
+  "description": "Develops keto–enol tautomerism and enolate carbon/oxygen reactivity, explains kinetic versus thermodynamic regioisomers, and examines control of alkylation against aldol.",
+  "tags": [
+    "Enolates",
+    "Keto-enol tautomerism",
+    "Alpha carbon",
+    "Resonance",
+    "Kinetic enolate",
+    "Thermodynamic enolate",
+    "Regioselectivity",
+    "Lithium enolates",
+    "S N two alkylation",
+    "Aldol side reaction",
+    "Carbonyl chemistry",
+    "Silyl enol ethers"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Chemistry",
+      "Keto enol equilibria and nucleophilic alpha carbon"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Kinetic versus equilibrated enolate regioisomers"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Alpha alkylation and competing aldol reactions"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "chem-syn-enolate",
+      "reason": "Carbon and oxygen nucleophilicity of enolates."
+    },
+    {
+      "source_id": "chem-syn-alkylation",
+      "reason": "S N two constraints and carbon-carbon alpha alkylation."
+    },
+    {
+      "source_id": "chem-syn-aldolvssub",
+      "reason": "Role of enolate generation and competing carbonyl acceptors."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "chem-056000-01",
+      "anchor": "An enolate can react through its carbon end or its oxygen end",
+      "kind": "scientific_mechanism",
+      "source_ids": [
+        "chem-syn-enolate"
+      ],
+      "source_locator": "C/O ambident enolate reactivity.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-056000-02",
+      "anchor": "A *kinetic enolate* is the one formed faster under a given regime. A *thermodynamic enolate* is the one favored at equilibrium.",
+      "kind": "scientific_definition",
+      "source_ids": [
+        "chem-syn-aldolvssub"
+      ],
+      "source_locator": "Distinct non-equilibrium and equilibrium product criteria.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-056000-03",
+      "anchor": "Ordinary enolate carbon alkylation with an alkyl halide commonly follows an S N two pathway",
+      "kind": "scientific_mechanism",
+      "source_ids": [
+        "chem-syn-alkylation"
+      ],
+      "source_locator": "Backside displacement, constraints on electrophiles.",
+      "audit_status": "reference_recorded"
+    }
+  ],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original organic synthesis and selectivity lecture, scientific companion and source-linked catalog metadata."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Introductory organic molecular structure, carbonyls, bonding and reaction mechanisms. All additional specialist ideas are introduced in the narration."
+    ],
+    "readiness_checks": [
+      "When is an enolate regioisomer kinetic rather than thermodynamic?",
+      "Why do tertiary alkyl halides work poorly in ordinary enolate alkylation?"
+    ]
+  }
+}

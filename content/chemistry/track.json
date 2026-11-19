@@ -1,7 +1,7 @@
 {
   "id": "chemistry",
   "title": "Chemistry: From Atoms to Reactions",
-  "summary": "Audio-first chemistry from atomic structure, reactions, organic and analytical methods to materials, electronic solids, photochemistry, metal cofactors and metabolic networks. The bioinorganic unit develops heme, iron-sulfur centers, cobalamin, ATP, redox carriers, nitrogenase and respiration. Each lecture includes a scientific companion and source-linked claims.",
+  "summary": "Sixty-two standalone audio-first lectures connecting chemical identity, reaction mechanisms, measurement, materials, light, bioinorganic chemistry and selective organic synthesis with worked retrosynthesis.",
   "categories": [
     "Science and nature"
   ],
@@ -74,7 +74,11 @@
     "Enzyme catalysis",
     "Nitrogen fixation",
     "Oxidative phosphorylation",
-    "Cellular respiration"
+    "Cellular respiration",
+    "Organic synthesis",
+    "Retrosynthetic analysis",
+    "Reaction selectivity",
+    "Carbon-carbon bond formation"
   ],
   "tag_paths": [
     [
@@ -142,7 +146,16 @@
     "metabolic_redox_carriers",
     "enzyme_mechanism_proof",
     "nitrogenase_biochemistry",
-    "integrated_respiration"
+    "integrated_respiration",
+    "organic_synthesis_selectivity",
+    "aromatic_substitution_strategy",
+    "enolate_sites_and_control",
+    "carbon_carbon_condensations",
+    "diels_alder_ring_construction",
+    "cross_coupling_strategy",
+    "protecting_groups_and_compatibility",
+    "asymmetric_synthesis",
+    "retrosynthesis_case_studies"
   ],
   "lectures": [
     {
@@ -2993,6 +3006,407 @@
           "ATP yield, uncoupling and alternative respiration"
         ]
       ]
+    },
+    {
+      "id": "054000",
+      "title": "Three Questions Before a Reaction: Selectivity in Organic Synthesis",
+      "section": "organic_synthesis_selectivity",
+      "file": "054000-three-questions-before-a-reaction.md",
+      "spoken_words": 1491,
+      "estimated_minutes_at_145_wpm": 10.3,
+      "description": "Distinguishes chemoselectivity, regioselectivity and stereoselectivity, connects product ratios to competing activation barriers, and compares full-route outcomes and evidence.",
+      "tags": [
+        "Organic synthesis",
+        "Chemoselectivity",
+        "Regioselectivity",
+        "Stereoselectivity",
+        "Enantioselectivity",
+        "Diastereoselectivity",
+        "Stereospecificity",
+        "Transition-state energy",
+        "Reaction kinetics",
+        "Product ratios",
+        "Yield",
+        "Analytical verification",
+        "Route selection"
+      ],
+      "tag_paths": [
+        [
+          "Science",
+          "Chemistry",
+          "Functional group selectivity"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Positional and stereochemical product choices"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Kinetic selectivity and evidence"
+        ]
+      ],
+      "draft_status": "substantive"
+    },
+    {
+      "id": "055000",
+      "title": "The Ring Has an Address: Directing Aromatic Substitution",
+      "section": "aromatic_substitution_strategy",
+      "file": "055000-the-ring-has-an-address.md",
+      "spoken_words": 1338,
+      "estimated_minutes_at_145_wpm": 9.2,
+      "description": "Explains electrophilic aromatic substitution using resonance, inductive effects and product ratios; tests step order and compares directing strategies with cross-coupling.",
+      "tags": [
+        "Aromatic substitution",
+        "Electrophilic aromatic substitution",
+        "Ortho meta para",
+        "Resonance",
+        "Inductive effects",
+        "Arenium ions",
+        "Methoxybenzene",
+        "Nitrobenzene",
+        "Aniline",
+        "Halogens",
+        "Friedel-Crafts",
+        "Acylation",
+        "Regioselectivity",
+        "Route order"
+      ],
+      "tag_paths": [
+        [
+          "Science",
+          "Chemistry",
+          "Aromatic electrophilic substitution"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Ring directing effects and competing electronic contributions"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Substitution order and ring-position strategies"
+        ]
+      ],
+      "draft_status": "substantive"
+    },
+    {
+      "id": "056000",
+      "title": "Which Side of a Carbonyl Reacts? Enolates and Competing Sites",
+      "section": "enolate_sites_and_control",
+      "file": "056000-which-side-of-a-carbonyl-reacts.md",
+      "spoken_words": 1306,
+      "estimated_minutes_at_145_wpm": 9.0,
+      "description": "Develops keto–enol tautomerism and enolate carbon/oxygen reactivity, explains kinetic versus thermodynamic regioisomers, and examines control of alkylation against aldol.",
+      "tags": [
+        "Enolates",
+        "Keto-enol tautomerism",
+        "Alpha carbon",
+        "Resonance",
+        "Kinetic enolate",
+        "Thermodynamic enolate",
+        "Regioselectivity",
+        "Lithium enolates",
+        "S N two alkylation",
+        "Aldol side reaction",
+        "Carbonyl chemistry",
+        "Silyl enol ethers"
+      ],
+      "tag_paths": [
+        [
+          "Science",
+          "Chemistry",
+          "Keto enol equilibria and nucleophilic alpha carbon"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Kinetic versus equilibrated enolate regioisomers"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Alpha alkylation and competing aldol reactions"
+        ]
+      ],
+      "draft_status": "substantive"
+    },
+    {
+      "id": "057000",
+      "title": "Growing a Carbon Skeleton: Aldol, Claisen, and Michael Reactions",
+      "section": "carbon_carbon_condensations",
+      "file": "057000-growing-a-carbon-skeleton.md",
+      "spoken_words": 1273,
+      "estimated_minutes_at_145_wpm": 8.8,
+      "description": "Contrasts aldol addition, ester Claisen condensation and Michael conjugate addition, with crossed-aldol selection and Robinson-annulation logic.",
+      "tags": [
+        "Aldol reaction",
+        "Crossed aldol",
+        "Benzaldehyde",
+        "Acetone",
+        "Benzalacetone",
+        "Claisen condensation",
+        "Ethyl acetoacetate",
+        "Beta keto esters",
+        "Michael addition",
+        "Conjugate addition",
+        "Robinson annulation",
+        "Carbon-carbon bond formation",
+        "Enone"
+      ],
+      "tag_paths": [
+        [
+          "Science",
+          "Chemistry",
+          "Aldol carbon-carbon bond construction"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Ester Claisen condensation and beta keto esters"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Conjugate addition and annulation"
+        ]
+      ],
+      "draft_status": "substantive"
+    },
+    {
+      "id": "058000",
+      "title": "A Ring in One Move: Diels–Alder Chemistry and Stereochemistry",
+      "section": "diels_alder_ring_construction",
+      "file": "058000-a-ring-in-one-move.md",
+      "spoken_words": 1277,
+      "estimated_minutes_at_145_wpm": 8.8,
+      "description": "Develops the concerted [4+2] cycloaddition, conformation and orbital constraints, endo/exo preferences, stereospecificity and ring-forming retrosynthetic cuts.",
+      "tags": [
+        "Diels-Alder reaction",
+        "Cycloaddition",
+        "Dienes",
+        "Dienophiles",
+        "Pericyclic chemistry",
+        "S-cis conformation",
+        "Orbital symmetry",
+        "Endo/exo",
+        "Stereospecificity",
+        "Retro-Diels-Alder",
+        "Cyclohexene",
+        "Bicyclic chemistry",
+        "1950",
+        "Germany",
+        "Otto Diels",
+        "Kurt Alder"
+      ],
+      "tag_paths": [
+        [
+          "Science",
+          "Chemistry",
+          "Conjugated diene and dienophile ring formation"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Endo exo and stereospecific cycloaddition"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Retrosynthetic ring disconnection"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "History of diene synthesis"
+        ],
+        [
+          "Place: Europe",
+          "Place: Germany"
+        ]
+      ],
+      "draft_status": "substantive"
+    },
+    {
+      "id": "059000",
+      "title": "Joining Fragments on Palladium: Cross-Coupling and Catalyst Cycles",
+      "section": "cross_coupling_strategy",
+      "file": "059000-joining-fragments-on-palladium.md",
+      "spoken_words": 1285,
+      "estimated_minutes_at_145_wpm": 8.9,
+      "description": "Explains Suzuki coupling through oxidative addition, transmetalation and reductive elimination; works a para-biaryl aldehyde disconnection and compares limitations with substitution.",
+      "tags": [
+        "Suzuki-Miyaura coupling",
+        "Palladium catalysis",
+        "Oxidative addition",
+        "Transmetalation",
+        "Reductive elimination",
+        "Organoboron",
+        "Aryl halides",
+        "Biaryls",
+        "Catalytic cycle",
+        "Functional group tolerance",
+        "Cross coupling",
+        "Convergent synthesis",
+        "Richard Heck",
+        "Ei-ichi Negishi",
+        "Akira Suzuki",
+        "2010"
+      ],
+      "tag_paths": [
+        [
+          "Science",
+          "Chemistry",
+          "Palladium cross coupling cycle"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Biaryl synthesis and precoded positions"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Ligand effects and competing catalytic reactions"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "History of cross coupling"
+        ]
+      ],
+      "draft_status": "substantive"
+    },
+    {
+      "id": "060000",
+      "title": "The Temporary Disguise: Protecting Groups and Route Order",
+      "section": "protecting_groups_and_compatibility",
+      "file": "060000-the-temporary-disguise.md",
+      "spoken_words": 1263,
+      "estimated_minutes_at_145_wpm": 8.7,
+      "description": "Explains alcohol and carbonyl protection, reagent incompatibility, orthogonal deprotection and route-level tradeoffs, including when a protecting group is unnecessary.",
+      "tags": [
+        "Protecting groups",
+        "Silyl ethers",
+        "Alcohol protection",
+        "Acetals",
+        "Ketals",
+        "Carbonyl protection",
+        "Orthogonal deprotection",
+        "Functional group compatibility",
+        "Grignard reagents",
+        "Synthetic planning",
+        "Reaction yield",
+        "Step economy",
+        "Route order"
+      ],
+      "tag_paths": [
+        [
+          "Science",
+          "Chemistry",
+          "Alcohol protection with silyl ethers"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Carbonyl acetals and selective reexposure"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Orthogonal protection and route costs"
+        ]
+      ],
+      "draft_status": "substantive"
+    },
+    {
+      "id": "061000",
+      "title": "Choosing One Handed Product: Asymmetric Synthesis",
+      "section": "asymmetric_synthesis",
+      "file": "061000-choosing-one-handed-product.md",
+      "spoken_words": 1191,
+      "estimated_minutes_at_145_wpm": 8.2,
+      "description": "Builds asymmetric induction from competing chiral transition states, quantifies enantiomeric excess, and explains enamine/iminium and metal-catalyzed approaches with analytic limits.",
+      "tags": [
+        "Asymmetric synthesis",
+        "Enantiomers",
+        "Stereogenic centers",
+        "Enantiomeric excess",
+        "Diastereoselectivity",
+        "Chiral catalysts",
+        "Enamine catalysis",
+        "Iminium catalysis",
+        "Asymmetric hydrogenation",
+        "Chiral chromatography",
+        "Absolute configuration",
+        "Benjamin List",
+        "David MacMillan",
+        "2021"
+      ],
+      "tag_paths": [
+        [
+          "Science",
+          "Chemistry",
+          "Catalytic stereochemical control"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Enantiomeric excess and transition-state barriers"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Asymmetric organocatalysis and measurement"
+        ]
+      ],
+      "draft_status": "substantive"
+    },
+    {
+      "id": "062000",
+      "title": "Planning Backward, Testing Forward: Two Retrosynthetic Case Studies",
+      "section": "retrosynthesis_case_studies",
+      "file": "062000-planning-backward-testing-forward.md",
+      "spoken_words": 1722,
+      "estimated_minutes_at_145_wpm": 11.9,
+      "description": "Works complete retrosynthetic analyses of benzalacetone and a biaryl beta-hydroxy ester, including partner roles, Suzuki coupling, ester-enolate aldol, side reactions and chirality verification.",
+      "tags": [
+        "Retrosynthesis",
+        "Route planning",
+        "Benzalacetone",
+        "Crossed aldol",
+        "E-Z stereochemistry",
+        "Suzuki coupling",
+        "Biaryl aldehyde",
+        "Ester enolate",
+        "Beta-hydroxy ester",
+        "Asymmetric aldol",
+        "Racemic product",
+        "Chiral chromatography",
+        "Impurities",
+        "Evidence",
+        "Overall yield"
+      ],
+      "tag_paths": [
+        [
+          "Science",
+          "Chemistry",
+          "Retrosynthesis of an alpha beta unsaturated ketone"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Convergent coupling and ester-enolate aldol"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Route alternatives, stereochemical limits and measurement"
+        ]
+      ],
+      "draft_status": "substantive"
     }
   ]
 }

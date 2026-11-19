@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "lecture_id": "058000",
+  "transcript": "058000-a-ring-in-one-move.md",
+  "description": "Develops the concerted [4+2] cycloaddition, conformation and orbital constraints, endo/exo preferences, stereospecificity and ring-forming retrosynthetic cuts.",
+  "tags": [
+    "Diels-Alder reaction",
+    "Cycloaddition",
+    "Dienes",
+    "Dienophiles",
+    "Pericyclic chemistry",
+    "S-cis conformation",
+    "Orbital symmetry",
+    "Endo/exo",
+    "Stereospecificity",
+    "Retro-Diels-Alder",
+    "Cyclohexene",
+    "Bicyclic chemistry",
+    "1950",
+    "Germany",
+    "Otto Diels",
+    "Kurt Alder"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Chemistry",
+      "Conjugated diene and dienophile ring formation"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Endo exo and stereospecific cycloaddition"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Retrosynthetic ring disconnection"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "History of diene synthesis"
+    ],
+    [
+      "Place: Europe",
+      "Place: Germany"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "chem-syn-diels",
+      "reason": "Concerted ring formation through a six-electron cyclic transition state."
+    },
+    {
+      "source_id": "chem-syn-diels-properties",
+      "reason": "Conformational and electronic requirements, endo-exo and stereochemical relationships."
+    },
+    {
+      "source_id": "chem-syn-pericyclic",
+      "reason": "Orbital symmetry and stereospecificity of thermal cycloaddition."
+    },
+    {
+      "source_id": "chem-syn-nobel1950",
+      "reason": "1950 recognition for diene synthesis; work by Diels and Alder in Germany."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "chem-058000-01",
+      "anchor": "it must adopt a geometry in which its two ends can reach the dienophile simultaneously",
+      "kind": "scientific_mechanism",
+      "source_ids": [
+        "chem-syn-diels-properties"
+      ],
+      "source_locator": "Requirement for a productive s-cis diene conformation.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-058000-02",
+      "anchor": "This is one sense in which Diels–Alder chemistry is stereospecific",
+      "kind": "scientific_mechanism",
+      "source_ids": [
+        "chem-syn-pericyclic"
+      ],
+      "source_locator": "Stereochemical relationships transferred from dienophile to product.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-058000-03",
+      "anchor": "Diels and Alder developed their work in Germany and were awarded the 1950 Nobel Prize in Chemistry",
+      "kind": "historical_event",
+      "source_ids": [
+        "chem-syn-nobel1950"
+      ],
+      "source_locator": "1950 chemistry award and research affiliations in Germany.",
+      "audit_status": "reference_recorded"
+    }
+  ],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original organic synthesis and selectivity lecture, scientific companion and source-linked catalog metadata."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Introductory organic molecular structure, carbonyls, bonding and reaction mechanisms. All additional specialist ideas are introduced in the narration."
+    ],
+    "readiness_checks": [
+      "Why can a rigid s-trans diene react poorly?",
+      "How is stereospecificity different from forming one enantiomer?"
+    ]
+  }
+}

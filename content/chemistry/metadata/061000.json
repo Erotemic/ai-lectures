@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "lecture_id": "061000",
+  "transcript": "061000-choosing-one-handed-product.md",
+  "description": "Builds asymmetric induction from competing chiral transition states, quantifies enantiomeric excess, and explains enamine/iminium and metal-catalyzed approaches with analytic limits.",
+  "tags": [
+    "Asymmetric synthesis",
+    "Enantiomers",
+    "Stereogenic centers",
+    "Enantiomeric excess",
+    "Diastereoselectivity",
+    "Chiral catalysts",
+    "Enamine catalysis",
+    "Iminium catalysis",
+    "Asymmetric hydrogenation",
+    "Chiral chromatography",
+    "Absolute configuration",
+    "Benjamin List",
+    "David MacMillan",
+    "2021"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Chemistry",
+      "Catalytic stereochemical control"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Enantiomeric excess and transition-state barriers"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Asymmetric organocatalysis and measurement"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "chem-syn-stereo",
+      "reason": "Defines enantioselective and diastereoselective product formation."
+    },
+    {
+      "source_id": "chem-syn-chiral",
+      "reason": "Chiral centers, enantiomers and structural requirements for molecular chirality."
+    },
+    {
+      "source_id": "chem-syn-nobel2021",
+      "reason": "2021 recognition of List and MacMillan and development of asymmetric organocatalysis."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "chem-061000-01",
+      "anchor": "The major-to-minor ratio is nine to one, and the enantiomeric excess is eighty percent",
+      "kind": "scientific_quantitative",
+      "source_ids": [
+        "chem-syn-stereo"
+      ],
+      "source_locator": "Enantiomeric excess calculation for 90:10.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-061000-02",
+      "anchor": "A suitable secondary amine can reversibly react with a ketone or aldehyde to generate an enamine-like nucleophile.",
+      "kind": "scientific_mechanism",
+      "source_ids": [
+        "chem-syn-nobel2021"
+      ],
+      "source_locator": "Enamine-mediated activation in asymmetric organocatalysis.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-061000-03",
+      "anchor": "The 2021 Nobel Prize in Chemistry recognized Benjamin List and David MacMillan",
+      "kind": "historical_event",
+      "source_ids": [
+        "chem-syn-nobel2021"
+      ],
+      "source_locator": "2021 asymmetric organocatalysis recognition.",
+      "audit_status": "reference_recorded"
+    }
+  ],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original organic synthesis and selectivity lecture, scientific companion and source-linked catalog metadata."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Introductory organic molecular structure, carbonyls, bonding and reaction mechanisms. All additional specialist ideas are introduced in the narration."
+    ],
+    "readiness_checks": [
+      "Why is 90% major enantiomer only 80% ee?",
+      "Why is a chiral catalyst needed when two enantiomeric faces are otherwise equally accessible?"
+    ]
+  }
+}

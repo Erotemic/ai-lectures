@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "lecture_id": "057000",
+  "transcript": "057000-growing-a-carbon-skeleton.md",
+  "description": "Contrasts aldol addition, ester Claisen condensation and Michael conjugate addition, with crossed-aldol selection and Robinson-annulation logic.",
+  "tags": [
+    "Aldol reaction",
+    "Crossed aldol",
+    "Benzaldehyde",
+    "Acetone",
+    "Benzalacetone",
+    "Claisen condensation",
+    "Ethyl acetoacetate",
+    "Beta keto esters",
+    "Michael addition",
+    "Conjugate addition",
+    "Robinson annulation",
+    "Carbon-carbon bond formation",
+    "Enone"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Chemistry",
+      "Aldol carbon-carbon bond construction"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Ester Claisen condensation and beta keto esters"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Conjugate addition and annulation"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "chem-syn-aldol",
+      "reason": "Beta-hydroxy carbonyl formation and enolate nucleophile."
+    },
+    {
+      "source_id": "chem-syn-mixedaldol",
+      "reason": "Control of mixed aldol partners including benzaldehyde and acetone."
+    },
+    {
+      "source_id": "chem-syn-claisen",
+      "reason": "Ester enolate acyl substitution, beta-keto ester formation and final deprotonation."
+    },
+    {
+      "source_id": "chem-syn-michael",
+      "reason": "Conjugate enolate addition and related annulation logic."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "chem-057000-01",
+      "anchor": "The initial aldol addition product is a four-carbon beta-hydroxy aldehyde.",
+      "kind": "scientific_example",
+      "source_ids": [
+        "chem-syn-aldol"
+      ],
+      "source_locator": "Self-aldol of acetaldehyde.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-057000-02",
+      "anchor": "Benzaldehyde has an aldehyde attached directly to a benzene ring and no alpha hydrogen available for ordinary enolate formation.",
+      "kind": "scientific_mechanism",
+      "source_ids": [
+        "chem-syn-mixedaldol"
+      ],
+      "source_locator": "Control of donor/electrophile roles in mixed aldol.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-057000-03",
+      "anchor": "The net product is often a beta-keto ester",
+      "kind": "scientific_mechanism",
+      "source_ids": [
+        "chem-syn-claisen"
+      ],
+      "source_locator": "Ester enolate acyl substitution.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-057000-04",
+      "anchor": "A Michael reaction can create a product with two carbonyl groups separated by several atoms.",
+      "kind": "scientific_mechanism",
+      "source_ids": [
+        "chem-syn-michael"
+      ],
+      "source_locator": "Conjugate addition and further ring-forming possibilities.",
+      "audit_status": "reference_recorded"
+    }
+  ],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original organic synthesis and selectivity lecture, scientific companion and source-linked catalog metadata."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Introductory organic molecular structure, carbonyls, bonding and reaction mechanisms. All additional specialist ideas are introduced in the narration."
+    ],
+    "readiness_checks": [
+      "What changes from an aldol to a Claisen mechanism?",
+      "How does choosing benzaldehyde help avoid a four-way crossed-aldol mixture?"
+    ]
+  }
+}

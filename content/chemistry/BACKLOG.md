@@ -1,17 +1,17 @@
 # Chemistry: future course development
 
-The chemistry pack now has fifty-three indexed lectures, including a nine-lecture bioinorganic chemistry and metabolic-reactions unit. It covers metal-cofactor roles, heme, iron-sulfur clusters, cobalamin, ATP coupling, NAD/NADP/flavins, enzyme mechanism evidence, nitrogenase and integrated respiration.
+The Chemistry pack contains sixty-two indexed audio-first lectures, including an organic-synthesis sequence through worked retrosynthetic analysis. The next priorities are complementary rather than re-tellings of existing elementary chemistry.
 
-## Priority next: selective synthesis, biological reaction networks and molecular structure
+## Priority next: chemistry of biological networks
 
-- Organic synthesis and selectivity: aromatic substitution, enolate chemistry, carbon-carbon bond construction, protecting groups and retrosynthesis. Work through complete cases with mechanistic consequences instead of short lists.
-- Biological reaction networks: glycolysis and the citric acid cycle at the atom and electron level, carbon fixation across organisms, cofactor regeneration and metabolic flux. Avoid duplicating introductory cell-biology coverage.
-- Biochemical selectivity beyond this unit: zinc-dependent proteolysis, metallodrug mechanisms, radical SAM diversity, oxygen activation, and metal acquisition. Expand only where the mechanism provides a new idea.
+- Glycolysis and citric acid cycle at the atom-and-electron level; reaction coupling, oxidation-state ledgers and measured metabolic flux. Explain why pathways are regulated rather than merely enumerating intermediates.
+- Carbon fixation in contrasting organisms, including the Calvin cycle and alternative strategies; compare stoichiometry, energetic costs and ecological settings.
+- Cofactor regeneration, nitrogen and sulfur assimilation, metabolic bottlenecks and isotopic-flux evidence. Keep mechanisms clearly distinct from simplified pathway maps.
 
-## Further analytical, environmental and materials depth
+## Further inorganic, analytical and environmental depth
 
-- Isotope-ratio methods, environmental trace-element cycling and geochemical speciation.
-- Batteries and electrochemical interfaces beyond the introductory electrochemistry lectures.
-- Catalysis and surface chemistry, photochemical stability and environmental transformation pathways.
+- Batteries and electrochemical interfaces: ion insertion, passivation, degradation and materials measurement beyond introductory electrochemistry.
+- Isotope-ratio methods, metal speciation, chemical tracing and environmental transformations.
+- Advanced catalysis and synthesis: selectivity in multistep networks, catalytic cycle failures, scalable workup, mechanistic discrimination and green-chemistry tradeoffs.
 
-Let explanatory need determine the length of each lecture. Add chronology and geography only for documented historical events actually discussed in narration. All future content packs should preserve existing stable lecture IDs and publish with --replace-owned for the exclusively owned Chemistry pack.
+Let explanatory need determine lecture length. Maintain full narration, separate scientific companions, source-linked claims and comprehensive topical tags. Attach geographic and chronological tags only to historical events actually documented in narration. The Chemistry pack is exclusively owned for overlay imports; use `--replace-owned` rather than allowing a stale index conflict to silently block new lectures.

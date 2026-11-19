@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "lecture_id": "059000",
+  "transcript": "059000-joining-fragments-on-palladium.md",
+  "description": "Explains Suzuki coupling through oxidative addition, transmetalation and reductive elimination; works a para-biaryl aldehyde disconnection and compares limitations with substitution.",
+  "tags": [
+    "Suzuki-Miyaura coupling",
+    "Palladium catalysis",
+    "Oxidative addition",
+    "Transmetalation",
+    "Reductive elimination",
+    "Organoboron",
+    "Aryl halides",
+    "Biaryls",
+    "Catalytic cycle",
+    "Functional group tolerance",
+    "Cross coupling",
+    "Convergent synthesis",
+    "Richard Heck",
+    "Ei-ichi Negishi",
+    "Akira Suzuki",
+    "2010"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Chemistry",
+      "Palladium cross coupling cycle"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Biaryl synthesis and precoded positions"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Ligand effects and competing catalytic reactions"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "History of cross coupling"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "chem-syn-nobel2010",
+      "reason": "2010 prize for palladium-catalyzed cross-coupling methods."
+    },
+    {
+      "source_id": "chem-syn-aromatic",
+      "reason": "Ortho/para/meta substitution effects, activating and deactivating substituents."
+    },
+    {
+      "source_id": "chem-syn-synthesis",
+      "reason": "Retrosynthetic disconnection and testing candidate routes forward."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "chem-059000-01",
+      "anchor": "A simplified Suzuki cycle is often described through three main events: oxidative addition, transmetalation, and reductive elimination.",
+      "kind": "scientific_mechanism",
+      "source_ids": [
+        "chem-syn-nobel2010"
+      ],
+      "source_locator": "Three major simplified cross-coupling catalytic operations.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-059000-02",
+      "anchor": "One possible disconnection is a Suzuki coupling between four-bromobenzaldehyde and phenylboronic acid",
+      "kind": "scientific_example",
+      "source_ids": [
+        "chem-syn-synthesis"
+      ],
+      "source_locator": "Biaryl strategy with para leaving group.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-059000-03",
+      "anchor": "The 2010 Nobel Prize in Chemistry recognized Richard Heck, Ei-ichi Negishi, and Akira Suzuki",
+      "kind": "historical_event",
+      "source_ids": [
+        "chem-syn-nobel2010"
+      ],
+      "source_locator": "2010 recognition for palladium-catalyzed cross-coupling.",
+      "audit_status": "reference_recorded"
+    }
+  ],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original organic synthesis and selectivity lecture, scientific companion and source-linked catalog metadata."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Introductory organic molecular structure, carbonyls, bonding and reaction mechanisms. All additional specialist ideas are introduced in the narration."
+    ],
+    "readiness_checks": [
+      "How does a Suzuki cycle form a carbon-carbon bond without ordinary aromatic substitution?",
+      "Why would a pre-positioned halide address a meta-directing problem?"
+    ]
+  }
+}

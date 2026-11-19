@@ -8,7 +8,7 @@
       "categories": [
         "Science and nature"
       ],
-      "summary": "Fifty-three audio lectures connecting chemical foundations and mechanisms to measurement, materials, light-driven reactions, metalloproteins and metabolic electron-and-energy networks.",
+      "summary": "Sixty-two lectures on chemical foundations, analytical methods, materials, light, bioinorganic reactions and the planning of selective organic syntheses.",
       "tags": [
         "Chemistry",
         "Chemical foundations",
@@ -247,6 +247,45 @@
             "053000"
           ],
           "collection": "bio-respiratory-circuit"
+        },
+        {
+          "title": "Choosing Which Product Forms",
+          "lectures": [
+            "054000",
+            "055000"
+          ],
+          "collection": "synthesis-selectivity"
+        },
+        {
+          "title": "Making Carbon-Carbon Bonds Selectively",
+          "lectures": [
+            "056000",
+            "057000"
+          ],
+          "collection": "synthesis-carbon-bonds"
+        },
+        {
+          "title": "Cycloadditions and Coupled Fragments",
+          "lectures": [
+            "058000",
+            "059000"
+          ],
+          "collection": "synthesis-rings-and-coupling"
+        },
+        {
+          "title": "Protection and Chirality",
+          "lectures": [
+            "060000",
+            "061000"
+          ],
+          "collection": "synthesis-protection-and-chirality"
+        },
+        {
+          "title": "Retrosynthesis: Two Worked Routes",
+          "lectures": [
+            "062000"
+          ],
+          "collection": "synthesis-retrosynthesis-capstone"
         }
       ]
     },
@@ -654,6 +693,84 @@
       ],
       "lectures": [
         "053000"
+      ]
+    },
+    {
+      "id": "synthesis-selectivity",
+      "title": "Chemistry · Choosing the Product",
+      "role": "deep_dive",
+      "parent": "chemistry-foundations",
+      "summary": "Chemoselectivity, aromatic directing effects, reaction order and measurable product distributions.",
+      "tags": [
+        "Selectivity",
+        "Aromatic substitution"
+      ],
+      "lectures": [
+        "054000",
+        "055000"
+      ]
+    },
+    {
+      "id": "synthesis-carbon-bonds",
+      "title": "Chemistry · Enolates and Carbon Skeletons",
+      "role": "deep_dive",
+      "parent": "chemistry-foundations",
+      "summary": "Kinetic and thermodynamic enolates, alpha substitution, aldol, Claisen and Michael carbon-carbon bond formation.",
+      "tags": [
+        "Enolates",
+        "Condensations",
+        "Carbon-carbon bond construction"
+      ],
+      "lectures": [
+        "056000",
+        "057000"
+      ]
+    },
+    {
+      "id": "synthesis-rings-and-coupling",
+      "title": "Chemistry · Rings and Cross-Coupling",
+      "role": "deep_dive",
+      "parent": "chemistry-foundations",
+      "summary": "Pericyclic ring construction and metal-catalyzed joining of aromatic fragments.",
+      "tags": [
+        "Diels-Alder",
+        "Suzuki coupling",
+        "Cycloadditions"
+      ],
+      "lectures": [
+        "058000",
+        "059000"
+      ]
+    },
+    {
+      "id": "synthesis-protection-and-chirality",
+      "title": "Chemistry · Protecting Groups and Asymmetric Synthesis",
+      "role": "deep_dive",
+      "parent": "chemistry-foundations",
+      "summary": "Temporary reactivity changes, route economy, enantioselective catalysis and stereochemical measurement.",
+      "tags": [
+        "Protecting groups",
+        "Asymmetric synthesis",
+        "Enantioselectivity"
+      ],
+      "lectures": [
+        "060000",
+        "061000"
+      ]
+    },
+    {
+      "id": "synthesis-retrosynthesis-capstone",
+      "title": "Chemistry · Retrosynthesis Workshop",
+      "role": "deep_dive",
+      "parent": "chemistry-foundations",
+      "summary": "Two complete worked route plans with competing reactions, enone and hydroxy-ester analysis, and chirality limits.",
+      "tags": [
+        "Retrosynthesis",
+        "Aldol",
+        "Route planning"
+      ],
+      "lectures": [
+        "062000"
       ]
     }
   ]

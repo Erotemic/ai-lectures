@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "lecture_id": "062000",
+  "transcript": "062000-planning-backward-testing-forward.md",
+  "description": "Works complete retrosynthetic analyses of benzalacetone and a biaryl beta-hydroxy ester, including partner roles, Suzuki coupling, ester-enolate aldol, side reactions and chirality verification.",
+  "tags": [
+    "Retrosynthesis",
+    "Route planning",
+    "Benzalacetone",
+    "Crossed aldol",
+    "E-Z stereochemistry",
+    "Suzuki coupling",
+    "Biaryl aldehyde",
+    "Ester enolate",
+    "Beta-hydroxy ester",
+    "Asymmetric aldol",
+    "Racemic product",
+    "Chiral chromatography",
+    "Impurities",
+    "Evidence",
+    "Overall yield"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Chemistry",
+      "Retrosynthesis of an alpha beta unsaturated ketone"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Convergent coupling and ester-enolate aldol"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Route alternatives, stereochemical limits and measurement"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "chem-syn-synthesis",
+      "reason": "Retrosynthetic disconnection and testing candidate routes forward."
+    },
+    {
+      "source_id": "chem-syn-mixedaldol",
+      "reason": "Control of mixed aldol partners including benzaldehyde and acetone."
+    },
+    {
+      "source_id": "chem-syn-enolate",
+      "reason": "Carbon and oxygen nucleophilicity of enolates."
+    },
+    {
+      "source_id": "chem-syn-nobel2010",
+      "reason": "2010 prize for palladium-catalyzed cross-coupling methods."
+    },
+    {
+      "source_id": "chem-syn-stereo",
+      "reason": "Defines enantioselective and diastereoselective product formation."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "chem-062000-01",
+      "anchor": "The dehydrated enone can have different configurations about its carbon-carbon double bond.",
+      "kind": "scientific_mechanism",
+      "source_ids": [
+        "chem-syn-mixedaldol"
+      ],
+      "source_locator": "E-Z geometry of mixed aldol dehydration products.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-062000-02",
+      "anchor": "One plausible plan joins four-bromobenzaldehyde and phenylboronic acid by a palladium-catalyzed Suzuki reaction.",
+      "kind": "scientific_example",
+      "source_ids": [
+        "chem-syn-nobel2010"
+      ],
+      "source_locator": "Retrosynthetic biaryl carbon-carbon connection.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-062000-03",
+      "anchor": "With achiral starting components and no chiral influence, the two enantiomeric products are ordinarily expected in equal amounts",
+      "kind": "scientific_mechanism",
+      "source_ids": [
+        "chem-syn-stereo"
+      ],
+      "source_locator": "Racemic outcome without asymmetric induction.",
+      "audit_status": "reference_recorded"
+    }
+  ],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original organic synthesis and selectivity lecture, scientific companion and source-linked catalog metadata."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Introductory organic molecular structure, carbonyls, bonding and reaction mechanisms. All additional specialist ideas are introduced in the narration."
+    ],
+    "readiness_checks": [
+      "Why is ester-enolate addition to an aldehyde not a Claisen condensation?",
+      "Where does chirality enter the biaryl-hydroxy-ester route?"
+    ]
+  }
+}

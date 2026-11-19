@@ -1,0 +1,115 @@
+{
+  "schema_version": 1,
+  "lecture_id": "054000",
+  "transcript": "054000-three-questions-before-a-reaction.md",
+  "description": "Distinguishes chemoselectivity, regioselectivity and stereoselectivity, connects product ratios to competing activation barriers, and compares full-route outcomes and evidence.",
+  "tags": [
+    "Organic synthesis",
+    "Chemoselectivity",
+    "Regioselectivity",
+    "Stereoselectivity",
+    "Enantioselectivity",
+    "Diastereoselectivity",
+    "Stereospecificity",
+    "Transition-state energy",
+    "Reaction kinetics",
+    "Product ratios",
+    "Yield",
+    "Analytical verification",
+    "Route selection"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Chemistry",
+      "Functional group selectivity"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Positional and stereochemical product choices"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Kinetic selectivity and evidence"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "chem-syn-selectivity",
+      "reason": "Distinguishes preferential functional-group reactivity from generic claims of exclusive reaction."
+    },
+    {
+      "source_id": "chem-syn-regio",
+      "reason": "Defines preferential position and bond-formation direction."
+    },
+    {
+      "source_id": "chem-syn-stereo",
+      "reason": "Defines enantioselective and diastereoselective product formation."
+    },
+    {
+      "source_id": "chem-syn-synthesis",
+      "reason": "Retrosynthetic disconnection and testing candidate routes forward."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "chem-054000-01",
+      "anchor": "The first question is, which *kind* of group reacts?",
+      "kind": "scientific_definition",
+      "source_ids": [
+        "chem-syn-selectivity"
+      ],
+      "source_locator": "Preferential reaction at one functional-group type.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-054000-02",
+      "anchor": "The second is, *where* within the molecule does the event occur?",
+      "kind": "scientific_definition",
+      "source_ids": [
+        "chem-syn-regio"
+      ],
+      "source_locator": "Constitutional positions and reaction orientation.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-054000-03",
+      "anchor": "The third is, *which spatial arrangement* does it produce?",
+      "kind": "scientific_definition",
+      "source_ids": [
+        "chem-syn-stereo"
+      ],
+      "source_locator": "Stereoisomeric product preference.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-054000-04",
+      "anchor": "a difference in activation free energy of about five point seven kilojoules per mole corresponds, roughly, to a tenfold rate preference",
+      "kind": "scientific_quantitative",
+      "source_ids": [
+        "chem-syn-selectivity",
+        "chem-syn-stereo"
+      ],
+      "source_locator": "Boltzmann/Eyring ratio at 298 K, conditional on parallel kinetic pathways.",
+      "audit_status": "reference_recorded"
+    }
+  ],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original organic synthesis and selectivity lecture, scientific companion and source-linked catalog metadata."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Introductory organic molecular structure, carbonyls, bonding and reaction mechanisms. All additional specialist ideas are introduced in the narration."
+    ],
+    "readiness_checks": [
+      "What distinguishes regioselectivity from stereoselectivity?",
+      "Why does a 4:1 product ratio not imply 80% isolated yield?"
+    ]
+  }
+}

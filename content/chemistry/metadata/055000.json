@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "lecture_id": "055000",
+  "transcript": "055000-the-ring-has-an-address.md",
+  "description": "Explains electrophilic aromatic substitution using resonance, inductive effects and product ratios; tests step order and compares directing strategies with cross-coupling.",
+  "tags": [
+    "Aromatic substitution",
+    "Electrophilic aromatic substitution",
+    "Ortho meta para",
+    "Resonance",
+    "Inductive effects",
+    "Arenium ions",
+    "Methoxybenzene",
+    "Nitrobenzene",
+    "Aniline",
+    "Halogens",
+    "Friedel-Crafts",
+    "Acylation",
+    "Regioselectivity",
+    "Route order"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Chemistry",
+      "Aromatic electrophilic substitution"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Ring directing effects and competing electronic contributions"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Substitution order and ring-position strategies"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "chem-syn-aromatic",
+      "reason": "Ortho/para/meta substitution effects, activating and deactivating substituents."
+    },
+    {
+      "source_id": "chem-syn-friedel",
+      "reason": "Carbocation rearrangement, polyalkylation, acylation and limitations."
+    },
+    {
+      "source_id": "chem-syn-regio",
+      "reason": "Defines preferential position and bond-formation direction."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "chem-055000-01",
+      "anchor": "The two neighboring carbons are ortho. The carbon directly opposite is para. The remaining two positions are meta.",
+      "kind": "scientific_definition",
+      "source_ids": [
+        "chem-syn-aromatic"
+      ],
+      "source_locator": "Ortho/meta/para substitution conventions.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-055000-02",
+      "anchor": "Chlorobenzene is therefore generally deactivated yet ortho-para directing.",
+      "kind": "scientific_mechanism",
+      "source_ids": [
+        "chem-syn-aromatic"
+      ],
+      "source_locator": "Halogen inductive withdrawal and resonance donation.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-055000-03",
+      "anchor": "Nitrobenzene is strongly deactivated; ordinary Friedel–Crafts alkylation generally fails on such rings.",
+      "kind": "scientific_mechanism",
+      "source_ids": [
+        "chem-syn-friedel"
+      ],
+      "source_locator": "Friedel-Crafts aromatic substrate limitations.",
+      "audit_status": "reference_recorded"
+    }
+  ],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original organic synthesis and selectivity lecture, scientific companion and source-linked catalog metadata."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Introductory organic molecular structure, carbonyls, bonding and reaction mechanisms. All additional specialist ideas are introduced in the narration."
+    ],
+    "readiness_checks": [
+      "Why is chlorobenzene an ortho-para director but a deactivated substrate?",
+      "Why is reverse order of nitration and alkylation not equivalent?"
+    ]
+  }
+}

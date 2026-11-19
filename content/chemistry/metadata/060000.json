@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "lecture_id": "060000",
+  "transcript": "060000-the-temporary-disguise.md",
+  "description": "Explains alcohol and carbonyl protection, reagent incompatibility, orthogonal deprotection and route-level tradeoffs, including when a protecting group is unnecessary.",
+  "tags": [
+    "Protecting groups",
+    "Silyl ethers",
+    "Alcohol protection",
+    "Acetals",
+    "Ketals",
+    "Carbonyl protection",
+    "Orthogonal deprotection",
+    "Functional group compatibility",
+    "Grignard reagents",
+    "Synthetic planning",
+    "Reaction yield",
+    "Step economy",
+    "Route order"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Chemistry",
+      "Alcohol protection with silyl ethers"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Carbonyl acetals and selective reexposure"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Orthogonal protection and route costs"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "chem-syn-protect",
+      "reason": "Silyl ethers, nucleophile incompatibilities and protection cycles."
+    },
+    {
+      "source_id": "chem-syn-acetal",
+      "reason": "Acetal stability under many neutral/basic conditions and acid hydrolysis."
+    },
+    {
+      "source_id": "chem-syn-synthesis",
+      "reason": "Retrosynthetic disconnection and testing candidate routes forward."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "chem-060000-01",
+      "anchor": "an ordinary Grignard reagent is strongly basic and is incompatible with an unprotected alcohol that can donate a proton.",
+      "kind": "scientific_mechanism",
+      "source_ids": [
+        "chem-syn-protect"
+      ],
+      "source_locator": "Acid-base incompatibility with organomagnesium reagents.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-060000-02",
+      "anchor": "Acetals are relatively stable under many neutral and basic conditions, but they can be hydrolyzed under aqueous acidic conditions",
+      "kind": "scientific_mechanism",
+      "source_ids": [
+        "chem-syn-acetal"
+      ],
+      "source_locator": "Differential acetal stability and carbonyl regeneration.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-060000-03",
+      "anchor": "Do we necessarily need to protect the aldehyde before a Suzuki reaction? No.",
+      "kind": "scientific_example",
+      "source_ids": [
+        "chem-syn-synthesis"
+      ],
+      "source_locator": "Protection is chosen on demonstrated incompatibility, not routine assumption.",
+      "audit_status": "reference_recorded"
+    }
+  ],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original organic synthesis and selectivity lecture, scientific companion and source-linked catalog metadata."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Introductory organic molecular structure, carbonyls, bonding and reaction mechanisms. All additional specialist ideas are introduced in the narration."
+    ],
+    "readiness_checks": [
+      "Why can protection solve a functional-group competition but lower overall yield?",
+      "What would make two protecting groups orthogonal?"
+    ]
+  }
+}
