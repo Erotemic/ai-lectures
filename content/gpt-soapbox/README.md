@@ -95,6 +95,8 @@ listeners may choose any order.
 
 - **023000 — The Argument I Kept Making.** A retrospective essay that reads the first twenty lectures as one corpus, finds repeated argumentative structures, distinguishes effective contrasts from formulaic endings, and demonstrates one possible concrete rewrite without altering any earlier manuscript. The analysis is grounded in the corpus and in `docs/STYLE_GUIDE.md`.
 
+- **024000 — The Trouble with Soap.** How amphiphilic molecules move grease into water, how people learned to make soap from fats and alkali, Agnes Pockels and surface films, soapmaking in Aleppo and Nablus, synthetic detergents and hard water, hand hygiene and access, the name soap opera, and the surprising metal soaps that damage oil paintings.
+
 Spoken narration is inside the standard marker pair in each manuscript. Source
 notes, constructed-example qualifications, and reading links follow the
 spoken region. Per-lecture metadata and reading records are in `metadata/`.
