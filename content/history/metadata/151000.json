@@ -1049,6 +1049,29 @@
         "wegener-usgs-hess",
         "wegener-lamont-tharp"
       ]
+    },
+    "life": {
+      "start": 1880,
+      "end": 1930,
+      "label": "Alfred Wegener: 1880–1930 CE",
+      "basis": "biographical_lifespan",
+      "note": "Full lifespan of the historical subject; for multipart biographies, not the date range of this installment. Later historical reception is not included.",
+      "source_ids": [
+        "wegener-deutsches-archive",
+        "wegener-awi-death"
+      ]
+    },
+    "period": {
+      "start": 1905,
+      "end": 1930,
+      "label": "1905–1930 CE · Meteorology, continental-drift research and Greenland expeditions",
+      "basis": "dated_subject_activity",
+      "note": "Dates the main biographical or scientific episode, excluding separately labeled posthumous context and unrelated later developments.",
+      "source_ids": [
+        "wegener-deutsches-archive",
+        "wegener-awi-death",
+        "wegener-museum-timeline"
+      ]
     }
   },
   "spacetime_coverage": {
@@ -1522,5 +1545,11 @@
       "Scientific biography",
       "Alfred Wegener"
     ]
+  ],
+  "places": [
+    "Berlin, Germany",
+    "Marburg, Germany",
+    "Graz, Austria",
+    "Greenland"
   ]
 }

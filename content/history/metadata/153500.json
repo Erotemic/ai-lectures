@@ -976,6 +976,28 @@
       "source_ids": [
         "haber-opcw-history"
       ]
+    },
+    "life": {
+      "start": 1868,
+      "end": 1934,
+      "label": "Fritz Haber: 1868–1934 CE",
+      "basis": "biographical_lifespan",
+      "note": "Full lifespan of the historical subject; for multipart biographies, not the date range of this installment. Later historical reception is not included.",
+      "source_ids": [
+        "haber-eth-profile"
+      ]
+    },
+    "period": {
+      "start": 1914,
+      "end": 1934,
+      "label": "1914–1934 CE · War service, interwar research institutions, forced resignation and exile",
+      "basis": "dated_subject_activity",
+      "note": "Dates the main biographical or scientific episode, excluding separately labeled posthumous context and unrelated later developments.",
+      "source_ids": [
+        "haber-fhi-history",
+        "haber-mpg-weizmann",
+        "haber-eth-profile"
+      ]
     }
   },
   "spacetime_coverage": {
@@ -1269,5 +1291,12 @@
       "Scientific biography",
       "Fritz Haber"
     ]
+  ],
+  "places": [
+    "Berlin, Germany",
+    "Ypres, Belgium",
+    "Cambridge, England",
+    "Basel, Switzerland",
+    "Japan"
   ]
 }

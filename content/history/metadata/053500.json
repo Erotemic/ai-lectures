@@ -210,7 +210,9 @@
     }
   ],
   "places": [
-    "Berlin"
+    "Berlin",
+    "Berlin, Germany",
+    "Saint Petersburg, Russia"
   ],
   "tags": [
     "History of science and mathematics",
@@ -226,5 +228,21 @@
       "Scientific biography",
       "Leonhard Euler"
     ]
-  ]
+  ],
+  "chronology": {
+    "life": {
+      "start": 1707,
+      "end": 1783,
+      "label": "Leonhard Euler: 1707–1783 CE",
+      "basis": "documented_biography",
+      "note": "Biographical lifespan from the narrated life and existing historical companion; not a publication date. For multipart subjects, it spans the person’s life rather than only this installment."
+    },
+    "period": {
+      "start": 1741,
+      "end": 1783,
+      "label": "1741–1783 CE · Berlin academy and return to Saint Petersburg",
+      "basis": "narrated_episode_span",
+      "note": "This describes this installment’s historical coverage, not the subject’s lifespan or the publication year of a later edition."
+    }
+  }
 }

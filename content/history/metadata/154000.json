@@ -1108,6 +1108,27 @@
       "source_ids": [
         "semm-pioneers-hygiene"
       ]
+    },
+    "life": {
+      "start": 1818,
+      "end": 1865,
+      "label": "Ignaz Semmelweis: 1818–1865 CE",
+      "basis": "biographical_lifespan",
+      "note": "Full lifespan of the historical subject; for multipart biographies, not the date range of this installment. Later historical reception is not included.",
+      "source_ids": [
+        "semm-university"
+      ]
+    },
+    "period": {
+      "start": 1837,
+      "end": 1865,
+      "label": "1837–1865 CE · Medical training, maternity clinics, evidence on puerperal fever and final years",
+      "basis": "dated_subject_activity",
+      "note": "Dates the main biographical or scientific episode, excluding separately labeled posthumous context and unrelated later developments.",
+      "source_ids": [
+        "semm-university",
+        "semm-university-history"
+      ]
     }
   },
   "spacetime_coverage": {
@@ -1414,5 +1435,9 @@
       "Scientific biography",
       "Ignaz Semmelweis"
     ]
+  ],
+  "places": [
+    "Buda and Pest (now Budapest), Hungary",
+    "Vienna, Austria"
   ]
 }

@@ -236,7 +236,9 @@
   ],
   "places": [
     "Cambridge",
-    "Woolsthorpe"
+    "Woolsthorpe",
+    "Woolsthorpe, Lincolnshire, England",
+    "Cambridge, England"
   ],
   "tags": [
     "History of science and mathematics",
@@ -252,5 +254,21 @@
       "Isaac Newton"
     ]
   ],
-  "description": "Examines historical lives and early modern science."
+  "description": "Examines historical lives and early modern science.",
+  "chronology": {
+    "life": {
+      "start": 1643,
+      "end": 1727,
+      "label": "Isaac Newton: 1643–1727 CE",
+      "basis": "documented_biography",
+      "note": "Uses the Gregorian civil year 1643 for Newton’s birth; the source also explains Christmas 1642 in the Julian calendar. The full lifespan is shared by both biographical installments."
+    },
+    "period": {
+      "start": 1643,
+      "end": 1683,
+      "label": "1643–1683 CE · Newton’s childhood, education, early research and Cambridge period",
+      "basis": "narrated_episode_span",
+      "note": "This describes this installment’s historical coverage, not the subject’s lifespan or the publication year of a later edition."
+    }
+  }
 }

@@ -278,7 +278,9 @@
     }
   ],
   "places": [
-    "Princeton"
+    "Princeton",
+    "Vienna, Austria",
+    "Princeton, New Jersey"
   ],
   "tags": [
     "History of science and mathematics",
@@ -294,5 +296,21 @@
       "Scientific biography",
       "Kurt Gödel"
     ]
-  ]
+  ],
+  "chronology": {
+    "life": {
+      "start": 1906,
+      "end": 1978,
+      "label": "Kurt Gödel: 1906–1978 CE",
+      "basis": "documented_biography",
+      "note": "Biographical lifespan from the narrated life and existing historical companion; not a publication date. For multipart subjects, it spans the person’s life rather than only this installment."
+    },
+    "period": {
+      "start": 1940,
+      "end": 1978,
+      "label": "1940–1978 CE · Exile, Princeton, philosophical work and later life",
+      "basis": "narrated_episode_span",
+      "note": "This describes this installment’s historical coverage, not the subject’s lifespan or the publication year of a later edition."
+    }
+  }
 }

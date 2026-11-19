@@ -417,7 +417,9 @@
     }
   ],
   "places": [
-    "Hanover"
+    "Hanover",
+    "Hanover, Germany",
+    "Berlin, Germany"
   ],
   "tags": [
     "History of science and mathematics",
@@ -434,5 +436,21 @@
       "Scientific biography",
       "Gottfried Wilhelm Leibniz"
     ]
-  ]
+  ],
+  "chronology": {
+    "life": {
+      "start": 1646,
+      "end": 1716,
+      "label": "Gottfried Wilhelm Leibniz: 1646–1716 CE",
+      "basis": "documented_biography",
+      "note": "Biographical lifespan from the narrated life and existing historical companion; not a publication date. For multipart subjects, it spans the person’s life rather than only this installment."
+    },
+    "period": {
+      "start": 1676,
+      "end": 1716,
+      "label": "1676–1716 CE · Hanover service, correspondence, academies and calculus priority dispute",
+      "basis": "narrated_episode_span",
+      "note": "This describes this installment’s historical coverage, not the subject’s lifespan or the publication year of a later edition."
+    }
+  }
 }

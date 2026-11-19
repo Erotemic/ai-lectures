@@ -1071,6 +1071,30 @@
       "source_ids": [
         "tu-who-report"
       ]
+    },
+    "context": {
+      "start": 1930,
+      "end": 2015,
+      "label": "Tu Youyou: life and work covered, 1930–2015 CE (not a lifespan)",
+      "basis": "biographical_coverage",
+      "note": "This living subject is documented through 2015 in the supplied lecture; 2015 is a coverage limit, not a death year. The lecture also discusses relevant wider context.",
+      "source_ids": [
+        "tu-nobel-bio",
+        "tu-nobel-prize"
+      ]
+    },
+    "period": {
+      "start": 1951,
+      "end": 2015,
+      "label": "1951–2015 CE · Education, antimalarial discovery, clinical development and Nobel recognition",
+      "basis": "dated_subject_activity",
+      "note": "Dates the main biographical or scientific episode, excluding separately labeled posthumous context and unrelated later developments.",
+      "source_ids": [
+        "tu-science-museum",
+        "tu-jci-neill",
+        "tu-nobel-prize",
+        "tu-lasker"
+      ]
     }
   },
   "spacetime_coverage": {
@@ -1433,5 +1457,11 @@
       "Scientific biography",
       "Tu Youyou"
     ]
+  ],
+  "places": [
+    "Ningbo, China",
+    "Beijing, China",
+    "Nanjing, China",
+    "Hainan, China"
   ]
 }

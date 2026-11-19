@@ -1066,6 +1066,28 @@
       "source_ids": [
         "rub-2026"
       ]
+    },
+    "life": {
+      "start": 1928,
+      "end": 2016,
+      "label": "Vera Rubin: 1928–2016 CE",
+      "basis": "biographical_lifespan",
+      "note": "Full lifespan of the historical subject; for multipart biographies, not the date range of this installment. Later historical reception is not included.",
+      "source_ids": [
+        "rub-carnegie"
+      ]
+    },
+    "period": {
+      "start": 1944,
+      "end": 2016,
+      "label": "1944–2016 CE · Astronomical education, galaxy-rotation research and later recognition",
+      "basis": "dated_subject_activity",
+      "note": "Dates the main biographical or scientific episode, excluding separately labeled posthumous context and unrelated later developments.",
+      "source_ids": [
+        "rub-autobio",
+        "rub-aip1989",
+        "rub-carnegie"
+      ]
     }
   },
   "spacetime_coverage": {
@@ -1437,5 +1459,11 @@
       "Scientific biography",
       "Vera Rubin"
     ]
+  ],
+  "places": [
+    "Philadelphia, Pennsylvania, United States",
+    "Washington, D.C.",
+    "Poughkeepsie, New York",
+    "Palomar Observatory, California"
   ]
 }

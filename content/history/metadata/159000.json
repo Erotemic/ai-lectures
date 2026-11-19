@@ -1164,6 +1164,26 @@
       "source_ids": [
         "cajal-cultura-bio"
       ]
+    },
+    "life": {
+      "start": 1852,
+      "end": 1934,
+      "label": "Santiago Ramón y Cajal: 1852–1934 CE",
+      "basis": "biographical_lifespan",
+      "note": "Full lifespan of the historical subject; for multipart biographies, not the date range of this installment. Later historical reception is not included.",
+      "source_ids": [
+        "cajal-cultura-bio"
+      ]
+    },
+    "period": {
+      "start": 1873,
+      "end": 1934,
+      "label": "1873–1934 CE · Neuroanatomy, neuron theory, scientific institutions and later career",
+      "basis": "dated_subject_activity",
+      "note": "Dates the main biographical or scientific episode, excluding separately labeled posthumous context and unrelated later developments.",
+      "source_ids": [
+        "cajal-cultura-bio"
+      ]
     }
   },
   "spacetime_coverage": {
@@ -1496,5 +1516,12 @@
       "Santiago Ramón y Cajal"
     ]
   ],
-  "description": "Recounts Santiago Ramon y Cajal's microscopy, anatomical drawings, neuron doctrine, and scientific dispute with Camillo Golgi."
+  "description": "Recounts Santiago Ramon y Cajal's microscopy, anatomical drawings, neuron doctrine, and scientific dispute with Camillo Golgi.",
+  "places": [
+    "Spain",
+    "Barcelona, Spain",
+    "Madrid, Spain",
+    "Cuba",
+    "Berlin, Germany"
+  ]
 }

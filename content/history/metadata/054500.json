@@ -195,7 +195,9 @@
     }
   ],
   "places": [
-    "Göttingen"
+    "Göttingen",
+    "Göttingen, Germany",
+    "Hanover, Germany"
   ],
   "tags": [
     "History of science and mathematics",
@@ -211,5 +213,21 @@
       "Scientific biography",
       "Carl Friedrich Gauss"
     ]
-  ]
+  ],
+  "chronology": {
+    "life": {
+      "start": 1777,
+      "end": 1855,
+      "label": "Carl Friedrich Gauss: 1777–1855 CE",
+      "basis": "documented_biography",
+      "note": "Biographical lifespan from the narrated life and existing historical companion; not a publication date. For multipart subjects, it spans the person’s life rather than only this installment."
+    },
+    "period": {
+      "start": 1807,
+      "end": 1855,
+      "label": "1807–1855 CE · Göttingen, geodesy, geometry and magnetism",
+      "basis": "narrated_episode_span",
+      "note": "This describes this installment’s historical coverage, not the subject’s lifespan or the publication year of a later edition."
+    }
+  }
 }

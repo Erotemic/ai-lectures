@@ -185,7 +185,9 @@
     }
   ],
   "places": [
-    "Basel"
+    "Basel",
+    "Basel, Switzerland",
+    "Saint Petersburg, Russia"
   ],
   "tags": [
     "History of science and mathematics",
@@ -201,5 +203,21 @@
       "Scientific biography",
       "Leonhard Euler"
     ]
-  ]
+  ],
+  "chronology": {
+    "life": {
+      "start": 1707,
+      "end": 1783,
+      "label": "Leonhard Euler: 1707–1783 CE",
+      "basis": "documented_biography",
+      "note": "Biographical lifespan from the narrated life and existing historical companion; not a publication date. For multipart subjects, it spans the person’s life rather than only this installment."
+    },
+    "period": {
+      "start": 1707,
+      "end": 1741,
+      "label": "1707–1741 CE · Basel upbringing and early Saint Petersburg research",
+      "basis": "narrated_episode_span",
+      "note": "This describes this installment’s historical coverage, not the subject’s lifespan or the publication year of a later edition."
+    }
+  }
 }

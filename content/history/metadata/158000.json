@@ -697,6 +697,28 @@
       "source_ids": [
         "opp-doe2022"
       ]
+    },
+    "life": {
+      "start": 1904,
+      "end": 1967,
+      "label": "J. Robert Oppenheimer: 1904–1967 CE",
+      "basis": "biographical_lifespan",
+      "note": "Full lifespan of the historical subject; for multipart biographies, not the date range of this installment. Later historical reception is not included.",
+      "source_ids": [
+        "opp-ias-legacy"
+      ]
+    },
+    "period": {
+      "start": 1945,
+      "end": 1967,
+      "label": "1945–1967 CE · Postwar public science, security clearance hearing and final years",
+      "basis": "dated_subject_activity",
+      "note": "Dates the main biographical or scientific episode, excluding separately labeled posthumous context and unrelated later developments.",
+      "source_ids": [
+        "opp-acheson",
+        "opp-ias-scholars",
+        "opp-ias-legacy"
+      ]
     }
   },
   "spacetime_coverage": {
@@ -890,5 +912,10 @@
       "J. Robert Oppenheimer"
     ]
   ],
-  "description": "Examines Oppenheimer after the war, including nuclear policy disputes, his security hearing, the consequences for his reputation, and later reassessment."
+  "description": "Examines Oppenheimer after the war, including nuclear policy disputes, his security hearing, the consequences for his reputation, and later reassessment.",
+  "places": [
+    "Princeton, New Jersey",
+    "Washington, D.C.",
+    "United States"
+  ]
 }

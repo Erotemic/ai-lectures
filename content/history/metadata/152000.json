@@ -835,6 +835,30 @@
         "tharp-loc-archive",
         "tharp-whoi-bio"
       ]
+    },
+    "life": {
+      "start": 1920,
+      "end": 2006,
+      "label": "Marie Tharp: 1920–2006 CE",
+      "basis": "biographical_lifespan",
+      "note": "Full lifespan of the historical subject; for multipart biographies, not the date range of this installment. Later historical reception is not included.",
+      "source_ids": [
+        "tharp-aag-obit",
+        "tharp-whoi-bio"
+      ]
+    },
+    "period": {
+      "start": 1943,
+      "end": 2006,
+      "label": "1943–2006 CE · Ocean-floor mapping and later professional work",
+      "basis": "dated_subject_activity",
+      "note": "Dates the main biographical or scientific episode, excluding separately labeled posthumous context and unrelated later developments.",
+      "source_ids": [
+        "tharp-aag-obit",
+        "tharp-whoi-bio",
+        "tharp-primary-1999",
+        "tharp-loc-archive"
+      ]
     }
   },
   "spacetime_coverage": {
@@ -1260,5 +1284,10 @@
       "Scientific biography",
       "Marie Tharp"
     ]
+  ],
+  "places": [
+    "Ypsilanti, Michigan, United States",
+    "New York, United States",
+    "Atlantic Ocean"
   ]
 }

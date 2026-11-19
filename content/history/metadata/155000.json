@@ -1069,6 +1069,29 @@
       "source_ids": [
         "tycho-mars-study"
       ]
+    },
+    "life": {
+      "start": 1546,
+      "end": 1601,
+      "label": "Tycho Brahe: 1546–1601 CE",
+      "basis": "biographical_lifespan",
+      "note": "Full lifespan of the historical subject; for multipart biographies, not the date range of this installment. Later historical reception is not included.",
+      "source_ids": [
+        "tycho-danish-lex"
+      ]
+    },
+    "period": {
+      "start": 1559,
+      "end": 1601,
+      "label": "1559–1601 CE · Astronomical training, observatories, observations, and final imperial appointment",
+      "basis": "dated_subject_activity",
+      "note": "Dates the main biographical or scientific episode, excluding separately labeled posthumous context and unrelated later developments.",
+      "source_ids": [
+        "tycho-danish-lex",
+        "tycho-ucopenhagen",
+        "tycho-sophie-lex",
+        "tycho-mactutor"
+      ]
     }
   },
   "spacetime_coverage": {
@@ -1522,5 +1545,11 @@
       "Scientific biography",
       "Tycho Brahe"
     ]
+  ],
+  "places": [
+    "Scania (then Denmark; now Sweden)",
+    "Copenhagen, Denmark",
+    "Hven (Ven), Sweden",
+    "Prague, Czechia"
   ]
 }

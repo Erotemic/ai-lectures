@@ -1181,6 +1181,30 @@
       "source_ids": [
         "vav-genebank"
       ]
+    },
+    "life": {
+      "start": 1887,
+      "end": 1943,
+      "label": "Nikolai Vavilov: 1887–1943 CE",
+      "basis": "biographical_lifespan",
+      "note": "Full lifespan of the historical subject; for multipart biographies, not the date range of this installment. Later historical reception is not included.",
+      "source_ids": [
+        "vav-asu",
+        "vav-ukraine"
+      ]
+    },
+    "period": {
+      "start": 1913,
+      "end": 1943,
+      "label": "1913–1943 CE · Genetic and agricultural research, crop-collecting expeditions, repression and imprisonment",
+      "basis": "dated_subject_activity",
+      "note": "Dates the main biographical or scientific episode, excluding separately labeled posthumous context and unrelated later developments.",
+      "source_ids": [
+        "vav-asu",
+        "vav-jic",
+        "vav-casestudy",
+        "vav-ukraine"
+      ]
     }
   },
   "spacetime_coverage": {
@@ -1621,5 +1645,12 @@
       "Nikolai Vavilov"
     ]
   ],
-  "description": "Follows Nikolai Vavilov through plant genetics, crop diversity expeditions, Soviet agricultural policy, persecution, and the preservation of seed collections."
+  "description": "Follows Nikolai Vavilov through plant genetics, crop diversity expeditions, Soviet agricultural policy, persecution, and the preservation of seed collections.",
+  "places": [
+    "Moscow, Russia",
+    "Saratov, Russia",
+    "Saint Petersburg (Petrograd/Leningrad), Russia",
+    "Afghanistan",
+    "Central Asia"
+  ]
 }

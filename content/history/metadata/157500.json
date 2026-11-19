@@ -670,6 +670,24 @@
       "source_ids": [
         "opp-nps-war"
       ]
+    },
+    "life": {
+      "start": 1904,
+      "end": 1967,
+      "label": "J. Robert Oppenheimer: 1904–1967 CE",
+      "basis": "biographical_lifespan",
+      "note": "Full lifespan of the historical subject; for multipart biographies, not the date range of this installment. Later historical reception is not included."
+    },
+    "period": {
+      "start": 1942,
+      "end": 1945,
+      "label": "1942–1945 CE · Los Alamos leadership, Manhattan Project and the end of the Second World War",
+      "basis": "dated_subject_activity",
+      "note": "Dates the main biographical or scientific episode, excluding separately labeled posthumous context and unrelated later developments.",
+      "source_ids": [
+        "opp-nps-war",
+        "opp-science-panel"
+      ]
     }
   },
   "spacetime_coverage": {
@@ -948,5 +966,11 @@
       "J. Robert Oppenheimer"
     ]
   ],
-  "description": "Follows Oppenheimer's leadership at Los Alamos through scientific coordination, the Trinity test, and the wartime construction of the atomic bomb."
+  "description": "Follows Oppenheimer's leadership at Los Alamos through scientific coordination, the Trinity test, and the wartime construction of the atomic bomb.",
+  "places": [
+    "Los Alamos, New Mexico",
+    "Trinity Site, New Mexico",
+    "Hiroshima, Japan",
+    "Nagasaki, Japan"
+  ]
 }

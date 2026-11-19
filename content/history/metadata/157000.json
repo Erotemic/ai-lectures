@@ -679,6 +679,30 @@
       "source_ids": [
         "opp-nps-war"
       ]
+    },
+    "life": {
+      "start": 1904,
+      "end": 1967,
+      "label": "J. Robert Oppenheimer: 1904–1967 CE",
+      "basis": "biographical_lifespan",
+      "note": "Full lifespan of the historical subject; for multipart biographies, not the date range of this installment. Later historical reception is not included.",
+      "source_ids": [
+        "opp-nps-early",
+        "opp-born1927"
+      ]
+    },
+    "period": {
+      "start": 1922,
+      "end": 1942,
+      "label": "1922–1942 CE · Oppenheimer’s training and pre-Los Alamos physics career",
+      "basis": "dated_subject_activity",
+      "note": "Dates the main biographical or scientific episode, excluding separately labeled posthumous context and unrelated later developments.",
+      "source_ids": [
+        "opp-nps-early",
+        "opp-ias-legacy",
+        "opp-ias-scholars",
+        "opp-nps-war"
+      ]
     }
   },
   "spacetime_coverage": {
@@ -934,5 +958,12 @@
       "J. Robert Oppenheimer"
     ]
   ],
-  "description": "Recounts Oppenheimer's education, early physics career, intellectual influences, and the scientific and political circumstances preceding Los Alamos."
+  "description": "Recounts Oppenheimer's education, early physics career, intellectual influences, and the scientific and political circumstances preceding Los Alamos.",
+  "places": [
+    "New York City, United States",
+    "Cambridge, Massachusetts",
+    "Berkeley, California",
+    "Pasadena, California",
+    "New Mexico, United States"
+  ]
 }

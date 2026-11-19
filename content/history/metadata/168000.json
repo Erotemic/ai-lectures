@@ -425,6 +425,32 @@
       "source_ids": [
         "history-wiles-abel"
       ]
+    },
+    "context": {
+      "start": 1953,
+      "end": 2026,
+      "label": "Andrew Wiles: life and work covered, 1953–2026 CE (not a lifespan)",
+      "basis": "biographical_coverage",
+      "note": "This living subject is documented through 2026 in the supplied lecture; 2026 is a coverage limit, not a death year. The lecture also discusses relevant wider context.",
+      "source_ids": [
+        "history-wiles-princeton",
+        "history-wiles-mactutor",
+        "history-wiles-royal-society"
+      ]
+    },
+    "period": {
+      "start": 1971,
+      "end": 2026,
+      "label": "1971–2026 CE · Mathematical training, Fermat’s Last Theorem, later research and recognition through 2026",
+      "basis": "dated_subject_activity",
+      "note": "Dates the main biographical or scientific episode, excluding separately labeled posthumous context and unrelated later developments.",
+      "source_ids": [
+        "history-wiles-mactutor",
+        "history-wiles-annals",
+        "history-wiles-princeton",
+        "history-wiles-royal-society",
+        "history-wiles-abel"
+      ]
     }
   },
   "spacetime_coverage": {
@@ -713,5 +739,11 @@
       "Scientific biography",
       "Andrew Wiles"
     ]
+  ],
+  "places": [
+    "Cambridge, England",
+    "Ibadan, Nigeria",
+    "Oxford, England",
+    "Princeton, New Jersey"
   ]
 }
