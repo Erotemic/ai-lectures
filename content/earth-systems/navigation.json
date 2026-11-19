@@ -8,7 +8,7 @@
       "categories": [
         "Science and nature"
       ],
-      "summary": "Thirty-six connected lectures on the physical Earth, living chemistry, paleoclimate evidence, numerical models, and the changing coast.",
+      "summary": "Forty connected lectures on the physical Earth, living chemistry, paleoclimate evidence, numerical models, coasts, and hidden groundwater.",
       "chapters": [
         {
           "title": "Earth Has an Energy Budget: Light In, Heat Out",
@@ -224,6 +224,30 @@
           "title": "A Delta Is a Temporary Promise: Rivers, Mud, and Sinking Ground",
           "lectures": [
             "036000"
+          ]
+        },
+        {
+          "title": "An Aquifer Is Not an Underground Lake: Where Water Hides in Rock",
+          "lectures": [
+            "037000"
+          ]
+        },
+        {
+          "title": "The River After the Rain: Springs, Baseflow, and the Hidden Exchange",
+          "lectures": [
+            "038000"
+          ]
+        },
+        {
+          "title": "A Well Can Move the Ground: Pumping, Storage, and Subsidence",
+          "lectures": [
+            "039000"
+          ]
+        },
+        {
+          "title": "The Water Has a History: Groundwater Age, Chemistry, and Changing Flow",
+          "lectures": [
+            "040000"
           ]
         }
       ]
@@ -630,6 +654,53 @@
         "032000",
         "035000",
         "019000"
+      ]
+    },
+    {
+      "id": "water-beneath-the-land",
+      "title": "Earth as a System · Water Beneath the Land",
+      "role": "deep_dive",
+      "parent": "earth-as-a-system",
+      "categories": [
+        "Science and nature"
+      ],
+      "summary": "Four lectures on aquifer hydraulic physics, exchanges with rivers, pumping and subsidence, and groundwater age and quality.",
+      "tags": [
+        "Groundwater",
+        "Hydrogeology",
+        "Aquifer recharge",
+        "Groundwater storage",
+        "Groundwater quality"
+      ],
+      "lectures": [
+        "037000",
+        "038000",
+        "039000",
+        "040000"
+      ]
+    },
+    {
+      "id": "the-whole-water-cycle",
+      "title": "Earth as a System · From Rain to Rivers and Wells",
+      "role": "deep_dive",
+      "parent": "earth-as-a-system",
+      "categories": [
+        "Science and nature"
+      ],
+      "summary": "Connect atmospheric moisture and the water cycle to subsurface storage, river exchange and aquifer drawdown.",
+      "tags": [
+        "Hydrology",
+        "Groundwater",
+        "Water cycle"
+      ],
+      "lectures": [
+        "003000",
+        "013000",
+        "014000",
+        "037000",
+        "038000",
+        "039000",
+        "040000"
       ]
     }
   ]

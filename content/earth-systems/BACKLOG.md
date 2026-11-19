@@ -1,11 +1,7 @@
-# Earth Systems Course Development Backlog
+# Earth Systems Course Backlog
 
-Thirty-six complete lectures. How We Know the Climate Past (020000–025000) covers ice cores, trees, sediments, speleothems, dating, and multi-proxy reconstruction. How Earth System Models Work (026000–031000) covers numerical physics, parameterization, coupling, state estimation, counterfactual experiments and independent evaluation.
+Forty complete, indexed lectures. The existing conceptual sequences cover Earth-system foundations, ENSO, hazards, biogeochemistry, reconstruction of past climate, numerical Earth-system modeling, the changing coast, and the hidden groundwater cycle.
 
-The course now has a coherent endpoint. Future optional expansions should respond to genuine gaps instead of automatically adding more independent surveys.
+The course has coherent stopping points within each unit. No next unit is precommitted. Expand only when there is a substantial new explanatory problem not already taught by these sequences or the completed *Living World*, *Physical World*, *Deep Time*, and biology tracks.
 
-## Potential complementary strands
-
-- **The Changing Coast (completed in 032000–036000):** tidal and wave energy, sediment delivery, barrier migration, estuary mixing and delta dynamics.
-
-**Tagging rule:** geological intervals are not modern publication dates. When a named research study is tagged with a calendar year, the metadata says explicitly that it refers to the publication. Geographic tags are justified by named case studies, not generic scientific processes.
+**Metadata convention:** Date tags for a named research publication or a measured observation interval must say that explicitly; they do not date general physical processes. Place tags come from named case studies rather than invented coverage locations.

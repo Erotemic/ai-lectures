@@ -1,0 +1,284 @@
+{
+  "schema_version": 1,
+  "lecture_id": "040000",
+  "transcript": "040000-the-water-has-a-history.md",
+  "description": "How tritium, helium and carbon-14 constrain recharge ages, why wells mix different source waters, how groundwater chemistry changes, and how arsenic and seawater reach supply wells.",
+  "tags": [
+    "Groundwater age",
+    "Groundwater residence time",
+    "Travel-time distribution",
+    "Environmental tracers",
+    "Tritium",
+    "Tritium-helium dating",
+    "Carbon-14",
+    "Radiocarbon correction",
+    "Mixed groundwater",
+    "Groundwater geochemistry",
+    "Redox chemistry",
+    "Arsenic mobilization",
+    "Bengal Delta",
+    "Water quality",
+    "Nitrate",
+    "Chloride",
+    "Saltwater intrusion",
+    "Coastal aquifers",
+    "Long Island aquifer",
+    "Groundwater contamination lag",
+    "California groundwater age 2026"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Earth science",
+      "Groundwater",
+      "Groundwater age and travel-time distributions"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Groundwater",
+      "Tritium and tritium-helium dating"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Groundwater",
+      "Carbon-14 groundwater dating caveats"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Groundwater",
+      "Changing well-source mixtures"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Groundwater",
+      "Redox-driven groundwater chemistry"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Groundwater",
+      "Geogenic arsenic mobilization"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Groundwater",
+      "Contaminant transport and lag"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Groundwater",
+      "Coastal freshwater-saltwater intrusion"
+    ],
+    [
+      "Place: North America",
+      "Place: United States",
+      "Place: California",
+      "Place: Groundwater age studies"
+    ],
+    [
+      "Place: Asia",
+      "Place: Bangladesh",
+      "Place: Bengal Delta"
+    ],
+    [
+      "Place: Asia",
+      "Place: India",
+      "Place: West Bengal",
+      "Place: Bengal Delta"
+    ],
+    [
+      "Place: North America",
+      "Place: United States",
+      "Place: New York",
+      "Place: Long Island"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Historical case studies",
+      "21st century",
+      "2026 groundwater-age publication"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "es-gw-age",
+      "reason": "Groundwater residence-time concepts and environmental tracers."
+    },
+    {
+      "source_id": "es-gw-tritium",
+      "reason": "Space/time-dependent modern groundwater age categories."
+    },
+    {
+      "source_id": "es-gw-helium",
+      "reason": "Interpretive corrections for tritium-helium dates and mixed groundwater."
+    },
+    {
+      "source_id": "es-gw-jurgens2026",
+      "reason": "California paired-sample tracer evidence for changing age distributions."
+    },
+    {
+      "source_id": "es-gw-bengal",
+      "reason": "Arsenic distribution and basin hydrogeology in Bangladesh."
+    },
+    {
+      "source_id": "es-gw-nordstrom",
+      "reason": "Geogenic arsenic release mechanisms and historical case."
+    },
+    {
+      "source_id": "es-gw-saltwater",
+      "reason": "Coastal fresh-saline interface and pumping impacts."
+    },
+    {
+      "source_id": "es-gw-longisland",
+      "reason": "Long Island coastal groundwater interface mapping."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "040000-e01",
+      "anchor": "groundwater age is often best understood as a distribution of travel times",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-gw-age"
+      ],
+      "source_locator": "Groundwater age tracers, modern/old timescales, carbon-14 and tritium.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "040000-e02",
+      "anchor": "tritium, a radioactive form of hydrogen",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-gw-tritium"
+      ],
+      "source_locator": "Space/time dependent tritium thresholds and groundwater age categories.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "040000-e03",
+      "anchor": "tritium together with helium-three",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-gw-helium"
+      ],
+      "source_locator": "Interpreting young groundwater tritium/helium ages and mixed water.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "040000-e04",
+      "anchor": "Carbon-fourteen extends age dating",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-gw-age"
+      ],
+      "source_locator": "Groundwater age tracers, modern/old timescales, carbon-14 and tritium.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "040000-e05",
+      "anchor": "A research result published in 2026",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-gw-jurgens2026"
+      ],
+      "source_locator": "268 California wells; 29 percent evidence of age transience; nitrate/chloride shifts.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "040000-e06",
+      "anchor": "two hundred sixty-eight California wells",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-gw-jurgens2026"
+      ],
+      "source_locator": "268 California wells; 29 percent evidence of age transience; nitrate/chloride shifts.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "040000-e07",
+      "anchor": "about twenty-nine percent of the sites",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-gw-jurgens2026"
+      ],
+      "source_locator": "268 California wells; 29 percent evidence of age transience; nitrate/chloride shifts.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "040000-e08",
+      "anchor": "arsenic in parts of the Bengal Delta",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-gw-bengal"
+      ],
+      "source_locator": "Bengal delta geogenic arsenic and heterogeneous aquifer depths.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "040000-e09",
+      "anchor": "microbial processes that promote reduction and dissolution of iron-bearing minerals",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-gw-nordstrom"
+      ],
+      "source_locator": "Geogenic arsenic and multiple hypotheses for mobilization in Bengal delta.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "040000-e10",
+      "anchor": "This is saltwater intrusion",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-gw-saltwater"
+      ],
+      "source_locator": "Coastal freshwater-saltwater transition, pumping, sea level and saline upconing.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "040000-e11",
+      "anchor": "Long Island, New York",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-gw-longisland"
+      ],
+      "source_locator": "Fresh-saline interface, pumping reversal and mapped groundwater transition on Long Island.",
+      "audit_status": "source_checked"
+    }
+  ],
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Explains residence time and tracers from first principles; isotope nomenclature is spelled out in spoken prose."
+    ],
+    "readiness_checks": [
+      "Why does a tracer-derived apparent age not give every molecule in a well a single recharge date?",
+      "How can pumping change groundwater chemistry without adding new pollutants?",
+      "Why does geological arsenic require local testing rather than a depth rule?",
+      "How do density and groundwater pressure jointly influence saline intrusion?"
+    ]
+  },
+  "places": [
+    "California, United States",
+    "Bengal Delta, Bangladesh and India",
+    "Long Island, New York, United States"
+  ],
+  "chronology": {
+    "period": {
+      "start": 2026,
+      "label": "California repeat-tracer groundwater-age study published in 2026",
+      "basis": "documented peer-reviewed publication",
+      "note": "The year dates the named study, not the ages of the sampled groundwater.",
+      "source_ids": [
+        "es-gw-jurgens2026"
+      ]
+    }
+  }
+}

@@ -1,0 +1,245 @@
+{
+  "schema_version": 1,
+  "lecture_id": "037000",
+  "transcript": "037000-aquifer-is-not-underground-lake.md",
+  "description": "Porosity versus permeability, the water table and hydraulic head, Darcy’s law, aquifer confinement, storage, pumping tests, recharge, and karst flow paths.",
+  "tags": [
+    "Groundwater",
+    "Aquifers",
+    "Porosity",
+    "Permeability",
+    "Hydraulic conductivity",
+    "Darcy law",
+    "Henry Darcy",
+    "Hydraulic head",
+    "Hydraulic gradient",
+    "Effective porosity",
+    "Pore-water velocity",
+    "Unconfined aquifers",
+    "Confined aquifers",
+    "Artesian wells",
+    "Specific yield",
+    "Storativity",
+    "Recharge",
+    "Pumping tests",
+    "Transmissivity",
+    "Karst hydrology",
+    "Edwards Aquifer",
+    "Dijon 1856"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Earth science",
+      "Groundwater",
+      "Aquifer pore spaces"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Groundwater",
+      "Porosity versus hydraulic conductivity"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Groundwater",
+      "Hydraulic head and Darcy law"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Groundwater",
+      "Unconfined and confined groundwater"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Groundwater",
+      "Artesian pressure"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Groundwater",
+      "Aquifer recharge and storage"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Groundwater",
+      "Karst and fractured-rock flow"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Groundwater",
+      "Pumping tests and transmissivity"
+    ],
+    [
+      "Place: Europe",
+      "Place: France",
+      "Place: Burgundy",
+      "Place: Dijon"
+    ],
+    [
+      "Place: North America",
+      "Place: United States",
+      "Place: Texas",
+      "Place: Edwards Aquifer"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Historical case studies",
+      "19th century",
+      "1856 Darcy publication"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "es-gw-aquifers",
+      "reason": "Aquifer types, artesian well hydraulics and drawdown."
+    },
+    {
+      "source_id": "es-gw-darcy",
+      "reason": "Darcy relation, hydraulic conductivity, pore-media flow."
+    },
+    {
+      "source_id": "es-gw-vulnerability",
+      "reason": "Effective porosity, Darcy flux and pore-water speed."
+    },
+    {
+      "source_id": "es-gw-infiltration",
+      "reason": "Infiltration, vadose zone and groundwater recharge."
+    },
+    {
+      "source_id": "es-gw-darcy-history",
+      "reason": "Historical Dijon experiments and 1856 presentation."
+    },
+    {
+      "source_id": "es-gw-edwards",
+      "reason": "Dissolution-enhanced limestone and Texas spring responses."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "037000-e01",
+      "anchor": "most groundwater is not arranged like an open lake",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-gw-aquifers"
+      ],
+      "source_locator": "Aquifer, water table, confinement, artesian pressure, and pumping drawdown.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "037000-e02",
+      "anchor": "Clay-rich sediments can have high porosity",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-gw-vulnerability"
+      ],
+      "source_locator": "Darcy flux, effective porosity, average linear velocity and groundwater pathways.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "037000-e03",
+      "anchor": "This last portion is recharge",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-gw-infiltration"
+      ],
+      "source_locator": "Infiltration, unsaturated zone, groundwater recharge and regional contrast.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "037000-e04",
+      "anchor": "The physical reason groundwater moves is a difference in hydraulic head",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-gw-darcy"
+      ],
+      "source_locator": "Darcy law, hydraulic conductivity, hydraulic gradient, porous-media flow.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "037000-e05",
+      "anchor": "published in 1856",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-gw-darcy-history"
+      ],
+      "source_locator": "Darcy sand-filter investigations in Dijon; 1855–56 experiments and 1856 reporting.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "037000-e06",
+      "anchor": "a hydraulic conductivity of ten meters per day",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-gw-vulnerability"
+      ],
+      "source_locator": "Darcy flux, effective porosity, average linear velocity and groundwater pathways.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "037000-e07",
+      "anchor": "This is the cone of depression",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-gw-aquifers"
+      ],
+      "source_locator": "Aquifer, water table, confinement, artesian pressure, and pumping drawdown.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "037000-e08",
+      "anchor": "a flowing artesian well",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-gw-aquifers"
+      ],
+      "source_locator": "Aquifer, water table, confinement, artesian pressure, and pumping drawdown.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "037000-e09",
+      "anchor": "Its water moves through limestone affected by fractures and dissolution",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-gw-edwards"
+      ],
+      "source_locator": "Karst limestone, rapid rainfall and pumping response, major springs in central Texas.",
+      "audit_status": "source_checked"
+    }
+  ],
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Basic ratios and pressure; groundwater and Darcy law are introduced from first principles."
+    ],
+    "readiness_checks": [
+      "What is the physical difference between porosity and permeability?",
+      "What does a well water level measure in a confined aquifer?",
+      "How is Darcy flux related to pore-water travel speed?",
+      "Why can pumping change a river without drying the aquifer?"
+    ]
+  },
+  "places": [
+    "Dijon, France",
+    "Edwards Aquifer, central Texas, United States"
+  ],
+  "chronology": {
+    "period": {
+      "start": 1856,
+      "label": "Darcy’s 1856 sand-filter flow-law publication",
+      "basis": "documented historical research publication",
+      "note": "The date marks a named engineering experiment and publication in Dijon, not the age of the groundwater process.",
+      "source_ids": [
+        "es-gw-darcy-history"
+      ]
+    }
+  }
+}

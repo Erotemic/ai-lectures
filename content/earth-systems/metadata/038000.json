@@ -1,0 +1,266 @@
+{
+  "schema_version": 1,
+  "lecture_id": "038000",
+  "transcript": "038000-the-river-after-the-rain.md",
+  "description": "Why rivers retain flow between storms, how gaining and losing reaches and hyporheic exchange function, and how groundwater pumping changes springs, ecosystems and river budgets.",
+  "tags": [
+    "Groundwater-surface water interaction",
+    "Baseflow",
+    "Gaining streams",
+    "Losing streams",
+    "Bank storage",
+    "Hyporheic zone",
+    "Streambed hydraulics",
+    "Springs",
+    "Thermal tracers",
+    "Piezometers",
+    "Seepage meters",
+    "Distributed temperature sensing",
+    "Riparian evapotranspiration",
+    "Streamflow separation",
+    "Groundwater capture",
+    "San Pedro River",
+    "Quashnet River",
+    "Edwards Aquifer",
+    "Comal Springs",
+    "San Marcos Springs",
+    "Groundwater dependent ecosystems"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Earth science",
+      "Groundwater",
+      "Gaining and losing stream reaches"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Groundwater",
+      "Baseflow and hydrograph separation"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Groundwater",
+      "Hyporheic flow and streambed exchange"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Groundwater",
+      "Streambed nutrient cycling"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Groundwater",
+      "Heat and chemical tracing"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Groundwater",
+      "Spring-discharge measurements"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Groundwater",
+      "Pumping-induced stream depletion"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Groundwater",
+      "Groundwater-dependent habitats"
+    ],
+    [
+      "Place: North America",
+      "Place: United States",
+      "Place: Massachusetts",
+      "Place: Cape Cod",
+      "Place: Quashnet River"
+    ],
+    [
+      "Place: North America",
+      "Place: United States",
+      "Place: Arizona",
+      "Place: Upper San Pedro River"
+    ],
+    [
+      "Place: North America",
+      "Place: United States",
+      "Place: Texas",
+      "Place: Comal and San Marcos Springs"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Historical case studies",
+      "21st century",
+      "2016 Quashnet stream study"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "es-gw-single-resource",
+      "reason": "Hydraulic connection between surface and subsurface water."
+    },
+    {
+      "source_id": "es-gw-streamflow-box",
+      "reason": "Baseflow and hydrograph limits."
+    },
+    {
+      "source_id": "es-gw-geophysics",
+      "reason": "Exchange investigations and geophysical methods."
+    },
+    {
+      "source_id": "es-gw-quashnet",
+      "reason": "2016 Quashnet River field comparison of streambed temperature and seepage."
+    },
+    {
+      "source_id": "es-gw-sanpedro",
+      "reason": "Seasonal baseflow and evapotranspiration at Tombstone."
+    },
+    {
+      "source_id": "es-gw-sanpedro-plan",
+      "reason": "Collaborative spatial groundwater management modeling."
+    },
+    {
+      "source_id": "es-gw-comal",
+      "reason": "Texas springflow and gage measurements."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "038000-e01",
+      "anchor": "the same reach can change its relationship to groundwater",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-gw-single-resource"
+      ],
+      "source_locator": "Gaining and losing streams, connected surface and groundwater, difficult exchanges.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "038000-e02",
+      "anchor": "This is a gaining reach",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-gw-geophysics"
+      ],
+      "source_locator": "Gaining/losing reaches, springs, seepage and subsurface geophysical methods.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "038000-e03",
+      "anchor": "This is a losing reach",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-gw-single-resource"
+      ],
+      "source_locator": "Gaining and losing streams, connected surface and groundwater, difficult exchanges.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "038000-e04",
+      "anchor": "This is bank storage",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-gw-single-resource"
+      ],
+      "source_locator": "Gaining and losing streams, connected surface and groundwater, difficult exchanges.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "038000-e05",
+      "anchor": "These repeated trips through the sediment form part of the hyporheic zone",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-gw-single-resource"
+      ],
+      "source_locator": "Gaining and losing streams, connected surface and groundwater, difficult exchanges.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "038000-e06",
+      "anchor": "a paper published in 2016",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-gw-quashnet"
+      ],
+      "source_locator": "Massachusetts streambed groundwater discharge; distributed temperature sensing and seepage meter field measurements.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "038000-e07",
+      "anchor": "Near Tombstone, Arizona",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-gw-sanpedro"
+      ],
+      "source_locator": "Seasonal San Pedro baseflow, evapotranspiration and the 1968–2009 record.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "038000-e08",
+      "anchor": "A 2014 study describes collaboration",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-gw-sanpedro-plan"
+      ],
+      "source_locator": "Collaborative river/aquifer planning and modeled recharge management.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "038000-e09",
+      "anchor": "Comal and San Marcos",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-gw-comal"
+      ],
+      "source_locator": "Texas springs, river discharge and distinguishing baseflow from stormflow.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "038000-e10",
+      "anchor": "A well beside the river may be drawing on that same store",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-gw-single-resource"
+      ],
+      "source_locator": "Gaining and losing streams, connected surface and groundwater, difficult exchanges.",
+      "audit_status": "source_checked"
+    }
+  ],
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Explains groundwater heads, streamflow and exchange without requiring the preceding aquifer lecture."
+    ],
+    "readiness_checks": [
+      "How can the same stream gain groundwater in a dry season and lose water during a flood?",
+      "Why is baseflow separation not a direct groundwater tracer?",
+      "How can streambed temperature reveal discharge?",
+      "How might a new well affect spring-dependent habitat?"
+    ]
+  },
+  "places": [
+    "Quashnet River, Cape Cod, Massachusetts, United States",
+    "San Pedro River near Tombstone, Arizona, United States",
+    "Comal and San Marcos Springs, central Texas, United States"
+  ],
+  "chronology": {
+    "period": {
+      "start": 2016,
+      "label": "Quashnet River groundwater-discharge field study published in 2016",
+      "basis": "documented research publication",
+      "note": "This date marks the Quashnet investigation, not a timescale for groundwater-river exchange.",
+      "source_ids": [
+        "es-gw-quashnet"
+      ]
+    }
+  }
+}

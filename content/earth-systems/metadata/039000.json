@@ -1,0 +1,260 @@
+{
+  "schema_version": 1,
+  "lecture_id": "039000",
+  "transcript": "039000-a-well-can-move-the-ground.md",
+  "description": "Groundwater storage and capture budgets, High Plains aquifer depletion, effective stress and aquitard compaction, San Joaquin subsidence, and the lagged impacts of wells and recharge.",
+  "tags": [
+    "Groundwater pumping",
+    "Groundwater budgets",
+    "Groundwater capture",
+    "Aquifer depletion",
+    "Water-table decline",
+    "Specific yield",
+    "Confined storativity",
+    "Effective stress",
+    "Aquitard compaction",
+    "Land subsidence",
+    "Inelastic storage loss",
+    "Groundwater recharge",
+    "Conjunctive use",
+    "High Plains aquifer",
+    "Ogallala Aquifer",
+    "San Joaquin Valley",
+    "Central Valley Hydrologic Model",
+    "Land deformation",
+    "Pumping impacts"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Earth science",
+      "Groundwater",
+      "Groundwater storage and mass balance"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Groundwater",
+      "Capture versus aquifer depletion"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Groundwater",
+      "Conjunctive surface-groundwater use"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Groundwater",
+      "Specific yield and aquifer water-level change"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Groundwater",
+      "Effective stress and pore-pressure reduction"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Groundwater",
+      "Inelastic aquitard compaction"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Groundwater",
+      "Monitoring land subsidence"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Groundwater",
+      "Lagged stream and aquifer response"
+    ],
+    [
+      "Place: North America",
+      "Place: United States",
+      "Place: Great Plains",
+      "Place: High Plains Aquifer"
+    ],
+    [
+      "Place: North America",
+      "Place: United States",
+      "Place: California",
+      "Place: San Joaquin Valley"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Historical case studies",
+      "20th and 21st centuries",
+      "1950-2019 High Plains aquifer observation interval"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Historical case studies",
+      "21st century",
+      "2024 USGS High Plains report"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "es-gw-budget",
+      "reason": "Groundwater capture, basin storage, and development budgets."
+    },
+    {
+      "source_id": "es-gw-highplains",
+      "reason": "1950-2019 aquifer head and recoverable storage changes."
+    },
+    {
+      "source_id": "es-gw-subsidence",
+      "reason": "Mechanics and permanence of subsidence."
+    },
+    {
+      "source_id": "es-gw-centralvalley",
+      "reason": "San Joaquin deformation, history and pumping response."
+    },
+    {
+      "source_id": "es-gw-cvhm2",
+      "reason": "Subsidence observations and compaction in hydrologic models."
+    },
+    {
+      "source_id": "es-gw-faunt2024",
+      "reason": "California integrated aquifer and land-management modeling."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "039000-e01",
+      "anchor": "The change in stored groundwater is what remains",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-gw-budget"
+      ],
+      "source_locator": "Groundwater budget, capture, High Plains development and aquifer response.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "039000-e02",
+      "anchor": "These altered flows are called capture",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-gw-budget"
+      ],
+      "source_locator": "Groundwater budget, capture, High Plains development and aquifer response.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "039000-e03",
+      "anchor": "A U.S. Geological Survey report published in 2024",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-gw-highplains"
+      ],
+      "source_locator": "Predevelopment-to-2019 16.5-foot average decline and 286.4-million-acre-foot estimated loss; regional variation.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "039000-e04",
+      "anchor": "about sixteen and a half feet",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-gw-highplains"
+      ],
+      "source_locator": "Predevelopment-to-2019 16.5-foot average decline and 286.4-million-acre-foot estimated loss; regional variation.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "039000-e05",
+      "anchor": "about two hundred eighty-six million acre-feet",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-gw-highplains"
+      ],
+      "source_locator": "Predevelopment-to-2019 16.5-foot average decline and 286.4-million-acre-foot estimated loss; regional variation.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "039000-e06",
+      "anchor": "This is the basic idea of effective stress",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-gw-subsidence"
+      ],
+      "source_locator": "Sediment compaction from aquifer pumping, Joseph Poland pole, loss of pore volume.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "039000-e07",
+      "anchor": "twenty-eight feet by 1970",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-gw-centralvalley"
+      ],
+      "source_locator": "San Joaquin subsidence; local maximum 28 feet by 1970; variable pumping and recovery.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "039000-e08",
+      "anchor": "approaching nine meters by the early 1980s",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-gw-cvhm2"
+      ],
+      "source_locator": "Central Valley multidecadal deformation measurements and aquifer-system compaction.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "039000-e09",
+      "anchor": "Recent research combines aquifer and land-surface measurements",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-gw-faunt2024"
+      ],
+      "source_locator": "Coupled groundwater/agriculture/compaction models and water quality impacts.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "039000-e10",
+      "anchor": "A spring may flow less",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-gw-budget"
+      ],
+      "source_locator": "Groundwater budget, capture, High Plains development and aquifer response.",
+      "audit_status": "source_checked"
+    }
+  ],
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Builds mass and hydraulic budgets from first principles; a one-line multiplication example is derived in companion."
+    ],
+    "readiness_checks": [
+      "Why does pumping below annual recharge not guarantee unchanged river flow?",
+      "What makes aquifer compaction partially irreversible?",
+      "Why does a regional mean groundwater decline differ from local head changes?",
+      "What measurements separate drought, pumping and land-surface settlement?"
+    ]
+  },
+  "places": [
+    "High Plains Aquifer, United States",
+    "San Joaquin Valley, California, United States"
+  ],
+  "chronology": {
+    "period": {
+      "start": 1950,
+      "end": 2019,
+      "label": "High Plains aquifer predevelopment-to-2019 monitoring comparison",
+      "basis": "documented observation interval",
+      "note": "These dates refer to the historical water-level and storage study interval, not the origin of the aquifer.",
+      "source_ids": [
+        "es-gw-highplains"
+      ]
+    }
+  }
+}

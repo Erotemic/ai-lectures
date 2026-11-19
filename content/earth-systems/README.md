@@ -1,6 +1,6 @@
 # Earth as a System: Air, Water, Ocean, and Climate
 
-**Status:** in progress. Thirty-six complete narrated lectures (001000-036000). The first four establish the physical foundation; carbon, frozen water and landscape chapters connect reservoirs; three lectures develop ENSO; five follow the mechanisms and impacts of extreme weather; four connect the nitrogen, phosphorus and oxygen cycles through soils, waters and microbes; six reconstruct past climate, six develop how Earth-system models work, and five follow the changing coast.
+**Status:** forty complete narrated lectures (001000–040000), with targeted additions possible when a distinct subject warrants them. The first four establish the physical foundation; carbon, frozen water and landscape chapters connect reservoirs; three lectures develop ENSO; five follow the mechanisms and impacts of extreme weather; four connect the nitrogen, phosphorus and oxygen cycles through soils, waters and microbes; six reconstruct past climate, six develop how Earth-system models work, five follow the changing coast, and four explain groundwater below the visible watershed.
 
 The course explains the coupled Earth system by following energy, water, carbon, geological material and information in ocean-atmosphere feedbacks. Each manuscript has a single spoken region and a non-spoken scientific companion containing source notes, definitions and questions.
 
@@ -44,8 +44,12 @@ The course explains the coupled Earth system by following energy, water, carbon,
 | 034000 | An Island That Moves | Barrier migration, overwash, sound-side flooding and storm recovery |
 | 035000 | The River Meets Salt | Estuarine circulation, mixing, oxygen and turbidity |
 | 036000 | A Delta Is a Temporary Promise | Distributaries, avulsion, sediment delivery and subsidence |
+| 037000 | An Aquifer Is Not an Underground Lake | Porosity, hydraulic head, Darcy's law, storage and karst |
+| 038000 | The River After the Rain | Gaining and losing streams, hyporheic exchange, springs and baseflow |
+| 039000 | A Well Can Move the Ground | Groundwater depletion, capture, effective stress and subsidence |
+| 040000 | The Water Has a History | Tracer ages, well mixing, geochemistry, arsenic and saltwater intrusion |
 
-The `earth-as-a-system` route includes all thirty-six lectures. The shorter `earth-foundations-four` and ENSO routes remain intact. Further routes include `living-chemistry` (four new lectures), `nutrients-through-water` and `oxygen-in-time`. Earlier routes include `extreme-weather-mechanisms` (the five new lectures), `water-extremes` (water cycle, atmospheric rivers, drought), and `climate-attribution-and-hazards` (extreme event physics and attribution).
+The `earth-as-a-system` route includes all forty lectures. The shorter `earth-foundations-four` and ENSO routes remain intact. Further routes include `living-chemistry` (four new lectures), `nutrients-through-water` and `oxygen-in-time`. Earlier routes include `extreme-weather-mechanisms` (the five new lectures), `water-extremes` (water cycle, atmospheric rivers, drought), and `climate-attribution-and-hazards` (extreme event physics and attribution). The optional `water-beneath-the-land` route has all four groundwater lectures; `the-whole-water-cycle` connects them to rainfall, atmospheric rivers and drought.
 
 ## Editorial conventions
 
@@ -63,7 +67,7 @@ Five independent but connected lectures follow astronomical tide forcing, wave-d
 
 ## Further development
 
-The ENSO, extreme-weather, and living-chemistry units are self-contained. See `BACKLOG.md` for future options, especially the evidence and uncertainties in paleoclimate reconstruction. Extending the course is optional, not an automatic requirement.
+The ENSO, extreme-weather, and living-chemistry units are self-contained. The paleoclimate, modeling and coastal units are already developed. New additions should address a substantive gap rather than extend the lecture count by default; `BACKLOG.md` lists no automatic next unit.
 
 ## How We Know the Climate Past (020000–025000)
 
@@ -84,3 +88,12 @@ The course extends from observing climate to testing numerical physical hypothes
 | 031000 | When a Climate Model Is Wrong: Testing Skill, Uncertainty, and Trust | How model evaluation separates weather trajectories from climate statistics and tests budgets, independent skill, physical mechanisms, ensemble dependence, internal variability, model response and scenarios. |
 
 Collections: `how-earth-models-work`, `models-observations-and-forecasts`, `physics-to-projections`. Spoken lectures contain no citation bookkeeping; scientific companions and metadata give supporting sources and context. Publication dates and operational milestones are tagged only where historically germane.
+
+
+## Water Beneath the Land (037000–040000)
+
+Four standalone, connected lectures extend the Earth's visible hydrologic cycle into rock and sediment. They distinguish aquifer pore storage from permeability and water pressure; explain gaining and losing streams, springs and the hyporheic zone; develop groundwater-capture budgets and inelastic subsidence; and teach the interpretation of groundwater-age tracers, changing mixtures, natural arsenic chemistry, and coastal saltwater intrusion.
+
+The manuscripts use named, sourced case studies: Darcy's 1856 work in Dijon; the Edwards Aquifer of Texas; the Quashnet and San Pedro rivers; the High Plains and California's San Joaquin Valley; groundwater-age studies in California; the Bengal Delta; and the fresh-saline interface on Long Island. Time tags identify research publications or observation intervals rather than assigning modern dates to geological processes.
+
+New listening collections: `water-beneath-the-land` (037000–040000) and `the-whole-water-cycle` (003000, 013000–014000, 037000–040000). The existing thirty-six manuscripts are unchanged. Each new lecture has claim-linked source records, a non-spoken scientific companion with calculations or method distinctions, and geographic, concept and date tags where grounded by the material.
