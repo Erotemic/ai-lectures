@@ -1,0 +1,60 @@
+# Rivers Carry Mountains Away: Slopes, Sediment, and the Work of Water
+
+<!-- BEGIN SPOKEN LECTURE -->
+
+Stand beside a mountain river in late summer and the water may look almost still between its rapids. Visit during a major storm and it can turn opaque, loud, and powerful enough to move boulders. The river does not possess one fixed ability to carry sediment. Its work varies with the water supplied, the slope it descends, the roughness of its channel, and the grains available to be moved. Over long intervals, the same river system can cut a canyon, spread gravel across a plain, and build sediment far beyond the mountains where the grains began.
+
+Where does the river's sediment come from? Some is created by chemical and physical weathering of bedrock. Some arrives when a steep slope fails and a landslide delivers broken material to a stream. Some is eroded from a riverbank or the bed of the channel itself. The important unit to picture is not the river alone but the entire drainage basin: ridges, hillslopes, tributaries, floodplains, reservoirs, and the outlet through which water and sediment leave.
+
+One way to understand this landscape is with a budget. A watershed receives sediment from erosion and movement on hillslopes, loses some sediment through its outlet, and stores the difference in valleys, channels, fans, and floodplains. If input exceeds output, storage grows. If a river begins moving more material than it receives, it may mine an existing sediment deposit and carve deeper into its bed. A flood does not necessarily cause net erosion throughout the entire basin. It may scour one reach, deposit gravel downstream, and leave the total stored mass almost unchanged.
+
+Consider a hypothetical mountain catchment that supplies a hundred thousand tonnes of sediment in a year. If eighty thousand tonnes leave the outlet, about twenty thousand tonnes remain in storage, provided other sources and losses are negligible. That arithmetic is simple. Measuring the terms is hard. A station near the basin outlet may miss debris temporarily parked on a fan. A single water sample may miss a short flood carrying much of the annual load. Landslides can arrive in pulses rather than as smooth annual averages. The budget is a disciplined framework for uncertainty, not an excuse to treat every source as already measured.
+
+The first stage of sediment's journey often begins on a hillside. Slow soil creep and disturbances can move particles downslope gradually. Steep, saturated, or weakened rock may move in a landslide. Roots sometimes strengthen soil, but vegetation does not eliminate failure. Water pressure within fractures can reduce effective frictional resistance. A slope may remain apparently stable for decades and then fail after an intense rainfall, an earthquake, or gradual undermining. Once material reaches a channel, the river's ability to move it becomes crucial.
+
+Water moving downhill loses gravitational potential energy. In a stream, that energy is distributed through turbulence, friction, movement of sediment, and erosion of boundaries. A simplified measure of the energy available over a stream reach is proportional to the water's weight flow and the loss of elevation per unit distance: discharge times slope, multiplied by the density of water and gravity. Geomorphologists call this stream power. A steep stream with moderate discharge may have great power over a short reach. A very large river with a gentle slope may also carry an immense sediment load. Stream power does not by itself state how much bedrock will erode: rock strength, fractures, grains acting as tools, and the condition of the bed all affect the outcome.
+
+Grains travel in different ways. Dissolved ions move with the water. Very fine particles can remain suspended through turbulence. Sand may alternate between suspension and bouncing near the bed, a movement called saltation. Coarser gravel can roll or slide along the bed when the flow stress is sufficient. Transport depends not only on average flow velocity, but on turbulent events, grain size, grain density, sheltering by neighboring grains, and the sorting of the channel bed. The same flood that moves sand readily may leave the largest embedded cobbles in place.
+
+Channels do not behave as pipelines manufactured to fixed dimensions. A river's cross section, width, depth, bends and sediment supply evolve together. A stream carrying a heavy supply of gravel may braid into multiple shifting channels under certain conditions. A more cohesive floodplain may favor a single sinuous channel, though real rivers resist tidy classification. A bend often erodes on the outside and deposits on the inside. Floods can suddenly cut new paths across floodplains. The resulting sedimentary structures become clues for later geologists, but the landscape itself does not stop changing while a layer is laid down.
+
+What determines where a river cuts downward? One key idea is base level, the level toward which a stream system tends to grade. The ocean is a common ultimate base level for rivers that reach it. Lakes, resistant bedrock, tectonic structures, and local barriers can provide temporary or regional controls. If the land rises or base level falls, the river may gain the potential to incise its former floodplain. But incision can propagate upstream unevenly, sometimes as migrating steep reaches called knickpoints. A raised terrace of old river gravel above a modern channel may record an earlier level of the river, not a flood that carried gravel uphill.
+
+Uplift and erosion are often discussed as if they compete in a race with one winner. A mountain range can rise tectonically while rivers incise just as fast, leaving its mean elevation nearly stable for a time. Alternatively, rivers may gradually reduce relief after tectonic forcing weakens. In a simplified landscape model, the change in surface elevation reflects uplift minus erosion. That relation is only a bookkeeping identity until the erosion process is specified. Climate, rocks, vegetation, landslide thresholds, drainage rearrangement, and glaciation make the actual rates variable in space and time.
+
+Sediment also changes the river that carries it. A gravel cover may shield bedrock from direct abrasion when it is thick enough. A small amount of moving sediment can provide tools that scrape the bed more efficiently. Erosion may therefore increase with sediment availability at first and decrease when the bed becomes buried. This explains why a larger supply of rock fragments does not guarantee faster deepening of a canyon. Transport and erosion are coupled, not interchangeable.
+
+Now insert a dam. Water continues to move downstream, but much of its sand and gravel may become trapped in the reservoir. Downstream reaches can become comparatively sediment-starved and may erode their beds or banks, depending on flow management and local conditions. Farther downstream, deltas or beaches that once relied on river sediment may receive less. The dam need not change the volume of rock originally weathered in the hills to alter the pattern of deposition at the coast. It changes the transport network between source and sink. Restoring a river's flow regime therefore cannot always be separated from restoring its sediment budget.
+
+The Puyallup River system in Washington offers one example of why river channels and hazard management have to be considered together. Sediment sourced in a watershed that includes Mount Rainier can accumulate in levee-confined lower reaches, affecting channel shape and flood conveyance. Observations across years are needed to distinguish shifts in sediment delivery from changes caused by channel management. The case does not produce one universal recipe for flood control. It demonstrates that sediment storage and transport are part of the hazard, not merely an aesthetic feature of muddy water.
+
+Researchers monitoring a river therefore try to observe the entire changing flow rather than sampling only a convenient afternoon. Water discharge is often recorded continuously; suspended sediment is measured by samples or calibrated optical or acoustic instruments; coarse bedload is harder to measure directly and may require traps, tracers, or repeated surveys. Comparing channel cross sections before and after a flood reveals where bed elevation changed, but not necessarily the total sediment exported from the basin. A bank may erode while an unseen bar grows nearby. Remote sensing and repeat topographic surveys help close the spatial gaps, yet extreme storms can still dominate annual budgets with few observations.
+
+Think of a stream that delivers gravel to a lowland fan. A smaller flood may spread sand across the upper fan while leaving the coarsest gravel near the channel. A rarer large flood may mobilize the gravel and cut a new channel across the deposit. Over centuries the fan can alternate between accumulation and incision. Reading an ancient conglomerate therefore requires more than recognizing rounded clasts. The geometry of channels, grading and neighboring finer beds help reveal whether it was laid down by a persistent river, a short-lived debris flow, or repeated floods. The sediment budget becomes a sedimentary-history problem once the deposits harden into rock.
+
+A river can move a mountain without ever transporting a whole mountain at once. It does so through millions of small transactions: fractures that produce grains, landslides that connect hillslopes to channels, floods that mobilize sediment, and quiet periods that store it. When a basin preserves those grains, their size, composition and age can reveal where they came from. When storage is later eroded, the material may begin another journey. To understand a landscape, follow both the water and the rock, and always ask whether the material is moving, waiting, or disappearing into solution.
+
+<!-- END SPOKEN LECTURE -->
+
+## Scientific companion: drainage-basin sediment accounting
+
+**Storage balance:** \(dS/dt=I-O\), where \(I\) is sediment input rate, \(O\) sediment export rate, and \(S\) stored sediment mass. For \(I=100{,}000\) and \(O=80{,}000\) tonnes yr\(^{-1}\), annual storage increases by approximately 20,000 tonnes if neglected terms are small.
+
+**Stream power:** total reach power per channel length is often approximated \(\omega=\rho_w g Q S\), with \(Q\) discharge and \(S\) energy slope. The commonly used unit-stream-power versions differ by choice of normalization, e.g. division by channel width. Rock incision is not simply proportional to this expression in every setting.
+
+**Bedload and suspended load:** sediment transport requires entrainment, and entrainment thresholds depend on grain size, density, geometry and turbulence; a clear-water discharge rating is not a complete sediment rating.
+
+**Surface elevation accounting:** local elevation change can be expressed \(\partial z/\partial t=U-E\) under a defined vertical reference frame, but estimating \(E\) needs a constitutive geomorphic model or observations.
+
+### Evidence and further reading
+
+- USGS, *Geomorphology & Sediment Transport*: https://www.usgs.gov/centers/washington-water-science-center/science/geomorphology-sediment-transport
+- USGS, *Channel change and sediment transport in the Puyallup River watershed through 2022*: https://www.usgs.gov/publications/channel-change-and-sediment-transport-puyallup-river-watershed-through-2022
+- Reid and Dunne, *Sediment budgets as an organizing framework in fluvial geomorphology*: https://www.fs.usda.gov/psw/publications/reid/psw_2016_reid001.pdf
+
+### Questions to reason through
+
+1. Can a watershed receive more sediment from its slopes in a year while exporting less sediment from its outlet? Explain.
+2. Why does a large discharge not uniquely determine the erosion rate of a bedrock channel?
+3. What physical evidence could indicate that a river has incised since an earlier period of floodplain deposition?
+4. How could trapping sediment upstream change conditions at a river mouth without changing the source rocks?

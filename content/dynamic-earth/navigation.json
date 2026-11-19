@@ -3,12 +3,12 @@
   "collections": [
     {
       "id": "dynamic-earth-main",
-      "title": "The Dynamic Earth · Plates, Quakes, and Volcanoes",
+      "title": "The Dynamic Earth · From Plates to Landscapes",
       "role": "main",
       "categories": [
         "Science and nature"
       ],
-      "summary": "From the plate-tectonic evidence to the physics of earthquakes and contrasting volcanic hazards. Nine standalone lectures in an integrated sequence.",
+      "summary": "Eighteen complete audio lectures from plate and mantle mechanics to mountain growth, rock transformation, erosion and geological time.",
       "tags": [
         "Earth science",
         "Geophysics",
@@ -47,6 +47,39 @@
             "009000"
           ],
           "collection": "magma-and-eruptions"
+        },
+        {
+          "title": "Mountains, Roots, and Metamorphism",
+          "lectures": [
+            "010000",
+            "011000"
+          ],
+          "collection": "mountains-and-metamorphism"
+        },
+        {
+          "title": "Weathering, Rivers, and Ice",
+          "lectures": [
+            "012000",
+            "013000",
+            "014000"
+          ],
+          "collection": "landscape-transport"
+        },
+        {
+          "title": "Basins and Geological Time",
+          "lectures": [
+            "015000",
+            "016000",
+            "017000"
+          ],
+          "collection": "reading-the-rock-record"
+        },
+        {
+          "title": "A Regional Reconstruction",
+          "lectures": [
+            "018000"
+          ],
+          "collection": "appalachian-case-study"
         }
       ]
     },
@@ -130,6 +163,93 @@
         "005000",
         "006000",
         "009000"
+      ]
+    },
+    {
+      "id": "mountains-and-metamorphism",
+      "title": "Dynamic Earth · The Building and Unroofing of Mountains",
+      "role": "deep_dive",
+      "parent": "dynamic-earth-main",
+      "summary": "How collision thickens crust, how isostasy changes elevation and how metamorphic rocks record burial and return.",
+      "tags": [
+        "Orogeny",
+        "Isostasy",
+        "Metamorphism"
+      ],
+      "lectures": [
+        "010000",
+        "011000"
+      ]
+    },
+    {
+      "id": "landscape-transport",
+      "title": "Dynamic Earth · Weathering and the Movement of Sediment",
+      "role": "deep_dive",
+      "parent": "dynamic-earth-main",
+      "summary": "The chemistry, hillslopes, streams and ice that transform bedrock into transported material and new terrain.",
+      "tags": [
+        "Weathering",
+        "Fluvial geomorphology",
+        "Glacial geology"
+      ],
+      "lectures": [
+        "012000",
+        "013000",
+        "014000"
+      ]
+    },
+    {
+      "id": "reading-the-rock-record",
+      "title": "Dynamic Earth · Basins and Geological Time",
+      "role": "deep_dive",
+      "parent": "dynamic-earth-main",
+      "summary": "How material is preserved in basins, how event order is reconstructed and what different mineral clocks actually date.",
+      "tags": [
+        "Stratigraphy",
+        "Relative dating",
+        "Geochronology"
+      ],
+      "lectures": [
+        "015000",
+        "016000",
+        "017000"
+      ]
+    },
+    {
+      "id": "appalachian-case-study",
+      "title": "Dynamic Earth · Reconstructing the Appalachians",
+      "role": "deep_dive",
+      "parent": "dynamic-earth-main",
+      "summary": "An integrated, source-backed case connecting several ancient collisions, basin records, metamorphism and erosion.",
+      "tags": [
+        "Appalachians",
+        "Orogeny",
+        "Geological evidence"
+      ],
+      "lectures": [
+        "010000",
+        "011000",
+        "015000",
+        "016000",
+        "017000",
+        "018000"
+      ]
+    },
+    {
+      "id": "dynamic-earth-surface-sampler",
+      "title": "Dynamic Earth · Rocks, Rivers, and Mountains",
+      "role": "deep_dive",
+      "parent": "dynamic-earth-main",
+      "summary": "A short sampler of mountain roots, river sediment and the lost history exposed by an unconformity.",
+      "tags": [
+        "Mountains",
+        "Rivers",
+        "Geological time"
+      ],
+      "lectures": [
+        "010000",
+        "013000",
+        "016000"
       ]
     }
   ]

@@ -1,25 +1,29 @@
 # Dynamic Earth — authoring backlog
 
-## Completed (001000–009000)
+## Completed: plate motion, earthquakes and volcanoes (001000–009000)
 
-- [x] Plate tectonic evidence and ocean-floor record
-- [x] Deep Earth from seismology
-- [x] Coupled plate and mantle forces
-- [x] Mid-ocean ridges and transform faults
-- [x] Subduction, arcs and megathrusts
-- [x] Earthquake rupture mechanics
-- [x] Seismic observation, site response and tsunamis
-- [x] Magma generation, transport and evolution
-- [x] Eruption dynamics and volcanic hazards
+- [x] Evidence for plate tectonics; Earth interior and mantle rheology
+- [x] Plate forces, ridges, transforms and subduction
+- [x] Fault rupture, seismic waves, tsunamis and early warning
+- [x] Melt generation, eruption behavior and volcanic hazards
 
-## Next coherent expansion: rock, relief and landscape
+## Completed: mountains, surfaces and rock history (010000–018000)
 
-- [ ] Isostasy, crustal thickening, collision and mountain building
-- [ ] Metamorphism, pressure-temperature paths and exhumation
-- [ ] Weathering and the silicate-carbon cycle at geological scale
-- [ ] Rivers, glaciers, hillslopes and sediment budgets
-- [ ] Sedimentary basins and the signals they preserve
-- [ ] Relative time, structural interpretation, radiometric dates and uncertainty
-- [ ] Integrated geohazard cases and how geologists build defensible scenarios
+- [x] Crustal thickening, mountain building and isostasy
+- [x] Metamorphic mineral assemblages, deformation, burial and exhumation
+- [x] Rock weathering, soils and silicate–carbonate carbon accounting
+- [x] Rivers, hillslopes, sediment budgets and drainage adjustment
+- [x] Glacial flow, erosion, deposits and postglacial rebound
+- [x] Sedimentary basins, facies, compaction and provenance
+- [x] Relative geological time, faults, folds and unconformities
+- [x] Radiometric and thermochronological dating; limits of each clock
+- [x] Integrated Appalachian structural and basin reconstruction
 
-These are topics, not fixed lecture durations or an automatic one-topic-per-file specification. Preserve substantive scene-led narration and use source-specific evidence rather than repeating Deep Time's chronology.
+## Possible later developments
+
+- [ ] Rockfall, landslides, debris flows and geologic risk mapping across terrain
+- [ ] Ore deposits, hydrothermal fluids and the geology of materials
+- [ ] Geothermal systems and volcanic/tectonic heat resources
+- [ ] Field reconstruction from conflicting maps, drill records and uncertainties
+
+These are possibilities rather than a release checklist. Prioritize well-supported geological explanation and meaningful listening arcs over completing a prescribed inventory.

@@ -1,0 +1,118 @@
+{
+  "schema_version": 1,
+  "lecture_id": "016000",
+  "transcript": "016000-a-cliff-is-an-order-of-events.md",
+  "description": "Uses a worked cross-cutting puzzle and Hutton’s Siccar Point unconformity to explain superposition, structural restoration, map inference and relative chronology.",
+  "tags": [
+    "Relative dating",
+    "Superposition",
+    "Cross-cutting relationships",
+    "Angular unconformity",
+    "Siccar Point",
+    "James Hutton",
+    "Folds",
+    "Faults",
+    "Strike and dip",
+    "Geological cross section"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Earth science",
+      "Geology",
+      "Relative dating"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Geology",
+      "Superposition"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Geology",
+      "Cross-cutting relationships"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Geology",
+      "Angular unconformity"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Geology",
+      "Siccar Point"
+    ],
+    [
+      "Place: Europe",
+      "Place: United Kingdom",
+      "Place: Scotland",
+      "Place: Siccar Point"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "de-nps-crosscut",
+      "reason": "Relative-age order of dikes, faults, layers and erosion surfaces."
+    },
+    {
+      "source_id": "de-earle-structures",
+      "reason": "Strike, dip, folds, and relationships between geological maps and cross sections."
+    },
+    {
+      "source_id": "de-geolsoc-siccar",
+      "reason": "1788 Hutton visit and the relative-time meaning of the angular unconformity."
+    },
+    {
+      "source_id": "de-scot-siccar",
+      "reason": "Siccar Point bed geometry and Hutton historical interpretation."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "de-016000-01",
+      "anchor": "James Hutton and his companions in 1788",
+      "kind": "historical_event",
+      "source_ids": [
+        "de-geolsoc-siccar",
+        "de-scot-siccar"
+      ],
+      "source_locator": "1788 Siccar Point visit and recognition of angular-unconformity significance.",
+      "audit_status": "source_checked"
+    }
+  ],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original Dynamic Earth surface processes and rock record lecture, companion, and source-linked metadata."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Geological processes and any calculations are introduced within the standalone narration."
+    ],
+    "readiness_checks": [
+      "How does an undisturbed dike cutting a fault reverse the order inferred when the fault offsets the dike?",
+      "Why can an angular unconformity represent substantial missing time without a numeric age measurement?"
+    ]
+  },
+  "places": [
+    "Siccar Point, Scottish Borders, Scotland, United Kingdom"
+  ],
+  "chronology": {
+    "period": {
+      "start": 1788,
+      "label": "Hutton and companions examine the Siccar Point angular unconformity",
+      "basis": "documented historical field investigation",
+      "note": "This date identifies a historical field investigation or research episode, not the age of the rocks.",
+      "source_ids": [
+        "de-geolsoc-siccar",
+        "de-scot-siccar"
+      ]
+    }
+  }
+}

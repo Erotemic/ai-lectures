@@ -1,0 +1,62 @@
+# Clocks Hidden in Crystals: Radioactive Dates and Geological Time
+
+<!-- BEGIN SPOKEN LECTURE -->
+
+Suppose a geologist stands before a lava flow with a fossil-bearing mudstone below it. The mudstone tells a biological story; the lava may contain minerals with radioactive clocks. It is tempting to ask the simple question, 'How old is this rock?' But a careful geologist asks a more precise one first: what event would a particular mineral and isotope system actually date? Crystallization, cooling, burial, mineral growth, and exposure are different events. One sample can preserve more than one clock, and the clocks need not all have started together.
+
+Radioactive dating begins with a statistical property of unstable atomic nuclei. A parent isotope transforms into a daughter isotope at a characteristic probability per unit time. For a large population of parent atoms, the number remaining falls exponentially. The half-life is the interval over which half the parent population would be expected to remain under the assumed decay law. The process does not speed up just because a rock is in a hot desert or slow down because it is buried under a mountain.
+
+Take an entirely hypothetical isotope with a half-life of one hundred million years. A mineral started with a known amount of parent, no daughter from that decay chain, and remained a closed system. If one quarter of its original parent remains, two half-lives have elapsed, implying an age of two hundred million years. Real mineral dating is harder. We typically cannot inspect the exact initial state directly. Other isotopes or independent decay chains help account for initial daughter material, contamination, later fluid alteration, and whether the isotopic system remained closed.
+
+One widely used mineral is zircon, a resilient crystal that can incorporate uranium when it grows while generally incorporating much less common lead. Uranium isotopes decay through chains to stable lead isotopes. Two separate uranium-to-lead systems provide independent constraints within one crystal. When the inferred ages agree within appropriate uncertainties, geochronologists speak of concordance. When the results disagree, that discordance may reveal lead loss, inherited components, analytical problems, or complex growth history. A discordant analysis is not a command to choose whichever answer looks plausible.
+
+A zircon crystal in an igneous rock may date the growth of that zircon during magma crystallization. Yet not every zircon grain necessarily formed in the final magma. Some crystals can survive from older rock incorporated into the melt; they are inherited. A zircon in a sandstone almost certainly existed before the sandstone was deposited. Its crystallization age can help identify a sediment source and constrain the maximum possible depositional age, but it usually does not date deposition directly. The difference is fundamental. A mineral's clock remembers the mineral's history, not automatically the history of the rock you found it in.
+
+Another family of methods involves argon. Radioactive potassium-40 can decay to argon-40, among other products. Argon is a noble gas and can move through minerals when they are hot. Some minerals begin retaining radiogenic argon effectively as they cool through a temperature range, although the behavior depends on mineral, diffusion domain size, cooling rate, and geological history. In many settings a potassium-argon or argon-argon date records a cooling event rather than the original crystallization of the rock. Later heating may partly reset the system. Excess argon or alteration can complicate the interpretation.
+
+This brings us to closure temperature, a useful shorthand that is often misinterpreted. The phrase does not mean a rock has a perfect lock that snaps shut at one universal number. Retention of parent and daughter isotopes changes with temperature and time. An effective closure temperature depends on the diffusion properties of the mineral and the cooling history. A fine grain cooling rapidly may retain a different isotopic history from a large grain cooling slowly. Mineral growth and fluid-mediated recrystallization can impose additional effects. Geochronologists model those processes rather than assume one infallible setting on a laboratory thermometer.
+
+Imagine a granite that crystallized deep underground and cooled gradually as the crust was eroded. Zircon uranium-lead analyses might date crystallization. A mica argon date might mark later cooling. A still lower-temperature mineral system might record an even later approach toward the surface. The spread of dates is not necessarily evidence that the instruments disagree. It could be the very signal we want: the history of a rock moving through temperature as the mountain above it disappears.
+
+We can turn that sequence into a rate estimate, but only with assumptions. Suppose a mineral records cooling through an effective temperature of four hundred degrees Celsius at sixty million years ago, and another independent system records two hundred degrees at forty million years ago. The average cooling rate between those two events is ten degrees per million years. It does not follow automatically that the rock rose one centimeter a year or that the surface eroded at a particular speed. To turn cooling into depth, we need a thermal model and a geothermal gradient, which itself may have changed during the interval. Cooling is not identical to exhumation.
+
+There are also clocks for much younger events. Carbon-14 is produced in the atmosphere and incorporated into living material. After an organism stops exchanging carbon with the environment, its radiocarbon content changes in a way that can be used for dating over the recent geological past, usually with calibration and contamination controls. It cannot provide a direct date for a dinosaur fossil millions of years old. A fossil bone may have acquired minerals long after the animal lived, and radiocarbon's half-life is far too short for that age range. For deep time, scientists commonly use minerals in volcanic layers above and below fossil-bearing strata or other suitable geological materials.
+
+Some clocks start when light or heat last reset a signal in grains; others accumulate cosmogenic nuclides when a rock surface is exposed to cosmic rays. These tools can help date river terraces, glacial deposits, and landscape exposure, often over intervals for which conventional stratigraphic fossil zones are not sufficient. They have their own hazards. A boulder exposed before it was redeposited may carry inherited cosmogenic material. A grain shielded after exposure does not accrue nuclides at the expected uninterrupted rate. Without understanding burial and exposure history, a number from a mass spectrometer can describe the wrong event.
+
+Every quantitative age should arrive with a statement of uncertainty. Analytical precision concerns how well a measurement can be repeated. Accuracy also involves calibration, decay constants, blanks, standards, geological assumptions, and unwanted material in the sample. Researchers may report statistical uncertainties at a defined confidence level, then discuss systematic components separately. An age of one hundred million years plus or minus one million is not equivalent to knowing that every part of a complex mountain belt formed during that two-million-year window.
+
+Relative dating provides a powerful external test. If a lava cuts across a sedimentary unit, its crystallization should postdate the relevant deposition. If a dated ash is interbedded between fossil horizons, its age should be consistent with their order. If it is not, scientists investigate: did the mineral grow before the eruption? Was it altered? Was the contact misinterpreted? Has the sequence been overturned? Geochronology is not a replacement for geological reasoning; it is a method of confronting that reasoning with independent physical evidence.
+
+For much of geological science, the most valuable outcome is not a single number but a sequence of well-defined events. When did the magma crystallize? When did the rock become hot enough to grow garnet? When did cooling begin? How long did burial continue? When did sediment reach a basin? When did a glacier retreat and expose the surface? Each question calls for a clock matched to the event and an interpretation of the rock record that makes the clock meaningful.
+
+Suppose a volcanic ash lies below a fossil-bearing sedimentary layer and another ash lies above it. Minerals from the lower ash yield an eruption age of one hundred and five million years, and minerals from the upper ash an age of one hundred and two million years. If the sequence is upright and both dates truly represent deposition of their respective ashes, the fossil-bearing layer was deposited between those events. The layer is not automatically one hundred and three and a half million years old; sediment could have accumulated at almost any time within the interval. Now imagine discovering that the lower ash contains inherited zircon crystals much older than the eruption. Selecting those old grains would make the apparent bracket misleading. The field relationship tells us what to test, and the mineral textures and isotope analyses tell us which grains answer the question.
+
+Different numerical ages can also have different kinds of uncertainty. A result may have a small laboratory counting error yet a much larger uncertainty about geological meaning. Was the material altered? Did a fault repeat part of the section? Was the fossil reworked from an older deposit? Reporting a precise number is not the same as answering the event question with precision. This is why geological dates are often presented alongside stratigraphy, mineral images, chemical data, and a discussion of which events could have reset the isotope system.
+
+A crystal is not a tiny wristwatch buried in the Earth. It is a material whose atomic inventory changes predictably under conditions that geologists can sometimes reconstruct. The accomplishment of radiometric dating is not that every rock now wears a birthday label. It is that decay physics, mineral chemistry, field relationships, and uncertainty analysis can jointly turn the rock record into a history with testable numerical intervals. The date is strongest when we can say exactly what happened when the clock began to count.
+
+<!-- END SPOKEN LECTURE -->
+
+## Scientific companion: isotopic ages and the event being dated
+
+**Parent decay:** \(N(t)=N_0e^{-\lambda t}\); \(t_{1/2}=\ln 2/\lambda\). For a simple single-step closed system with no initial daughter, \(D^*=N_0-N\), giving \(t=(1/\lambda)\ln(1+D^*/N)\). Isotope dating in practice often requires correction for initial daughter, branching, open-system behavior, and more complex decay chains.
+
+**Worked hypothetical:** a half-life of 100 Myr and remaining parent fraction \(N/N_0=0.25\) implies \(t=2\times100=200\) Myr under a closed-system assumption. This is not a claim about any real isotope.
+
+**Cooling calculation:** \((400-200)\ ^\circ\mathrm{C}/(60-40)\ \mathrm{Myr}=10\ ^\circ\mathrm{C/Myr}\). Estimating exhumation rate from cooling requires an appropriate thermal history model, not just a fixed presumed gradient.
+
+**Different clocks:** U-Pb zircon may date crystal growth; Ar-Ar mica often constrains cooling; detrital zircon constrains source and maximum deposition age; cosmogenic exposure dating constrains exposure when inheritance and shielding are addressed.
+
+### Evidence and further reading
+
+- USGS, *USGS Geochron: a database of geochronological and thermochronological dates and data* (2026): https://pubs.usgs.gov/publication/dr1227/full
+- Earle, *Physical Geology*, physical geology textbook: https://opentextbc.ca/physicalgeology2ed/
+- U.S. National Park Service, *Fundamental Geologic Principles*: https://www.nps.gov/articles/series.htm?id=EF15217B-B716-E4DD-929BBE3C925A1D99
+
+### Questions to reason through
+
+1. Why can an inherited zircon yield an age older than the magma in which it is now found?
+2. How can two different isotope systems give different dates for one granite without either necessarily being wrong?
+3. Why does a measured cooling rate not automatically determine an exhumation rate?
+4. What would you check if an ash-bed radiometric age appeared younger than an overlying ash with well-established stratigraphic order?

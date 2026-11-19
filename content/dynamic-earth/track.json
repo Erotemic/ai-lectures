@@ -1,7 +1,7 @@
 {
   "id": "dynamic-earth",
-  "title": "The Dynamic Earth: Plates, Quakes, and Volcanoes",
-  "summary": "Nine standalone, evidence-led audio lectures on how solid Earth moves: discovery of plate tectonics, the deep interior, the driving forces, ridges, subduction, earthquake mechanics, seismic observations, magma and eruption hazards.",
+  "title": "The Dynamic Earth: Plates, Quakes, Volcanoes, and Landscapes",
+  "summary": "Eighteen standalone, evidence-led lectures following the solid Earth from plate motions, earthquakes and volcanoes through crustal thickening, metamorphism, landscape erosion and the geological record.",
   "categories": [
     "Science and nature"
   ],
@@ -20,7 +20,14 @@
     "Tectonic plates",
     "Mantle convection",
     "Earth interior",
-    "Geological hazards"
+    "Geological hazards",
+    "Isostasy",
+    "Metamorphism",
+    "Geomorphology",
+    "Glacial geology",
+    "Stratigraphy",
+    "Geochronology",
+    "Mountain building"
   ],
   "tag_paths": [
     [
@@ -47,7 +54,16 @@
     "earthquake_mechanics",
     "seismology_and_hazards",
     "magmatism_and_differentiation",
-    "eruption_dynamics_and_risks"
+    "eruption_dynamics_and_risks",
+    "mountain_building_and_isostasy",
+    "metamorphism_and_exhumation",
+    "weathering_and_rock_carbon",
+    "rivers_and_sediment_budgets",
+    "glacial_landscapes_and_rebound",
+    "sedimentary_basins_and_records",
+    "relative_time_and_structure",
+    "geochronology_and_thermochronology",
+    "appalachian_reconstruction"
   ],
   "lectures": [
     {
@@ -616,6 +632,581 @@
           "Place: Europe",
           "Place: Iceland",
           "Place: Eyjafjallajökull"
+        ]
+      ]
+    },
+    {
+      "id": "010000",
+      "title": "Why Mountains Have Roots: Collision, Crustal Thickening, and Isostasy",
+      "section": "mountain_building_and_isostasy",
+      "file": "010000-why-mountains-have-roots.md",
+      "spoken_words": 1534,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 10.6,
+      "description": "Builds Airy-style crustal compensation from densities, then explains collision thrusts, flexure, erosion rebound and independent evidence for mountain roots.",
+      "tags": [
+        "Orogeny",
+        "Isostasy",
+        "Crustal thickening",
+        "Mountain roots",
+        "Thrust faults",
+        "Foreland basins",
+        "Exhumation",
+        "Surface uplift",
+        "Lithospheric flexure",
+        "Himalaya"
+      ],
+      "tag_paths": [
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Orogeny"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Isostasy"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Crustal thickening"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Mountain roots"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Thrust faults"
+        ],
+        [
+          "Place: Asia",
+          "Place: Himalaya"
+        ],
+        [
+          "Place: Asia",
+          "Place: Tibetan Plateau"
+        ]
+      ]
+    },
+    {
+      "id": "011000",
+      "title": "The Rock Records Its Burial: Metamorphism, Pressure, and Exhumation",
+      "section": "metamorphism_and_exhumation",
+      "file": "011000-the-rock-records-its-burial.md",
+      "spoken_words": 1479,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 10.2,
+      "description": "Develops metamorphic mineral stability and fabrics as distinct evidence, then reads burial, overprinting, subduction, exhumation and mineral dates as a path.",
+      "tags": [
+        "Metamorphism",
+        "Foliation",
+        "Garnet",
+        "Metamorphic facies",
+        "Pressure-temperature paths",
+        "Exhumation",
+        "Blueschist",
+        "Eclogite",
+        "Metamorphic index minerals",
+        "Rock deformation"
+      ],
+      "tag_paths": [
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Metamorphism"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Foliation"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Garnet"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Metamorphic facies"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Pressure-temperature paths"
+        ],
+        [
+          "Place: Europe",
+          "Place: United Kingdom",
+          "Place: Scotland",
+          "Place: Scottish Highlands"
+        ]
+      ]
+    },
+    {
+      "id": "012000",
+      "title": "Rain Dissolves a Mountain: Weathering, Soils, and the Long Carbon Cycle",
+      "section": "weathering_and_rock_carbon",
+      "file": "012000-rain-dissolves-a-mountain.md",
+      "spoken_words": 1594,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 11.0,
+      "description": "Contrasts mechanical and chemical weathering, derives silicate versus carbonate carbon accounting and explains why sediment, solute and climate feedback timescales differ.",
+      "tags": [
+        "Chemical weathering",
+        "Silicate weathering",
+        "Carbonate dissolution",
+        "Carbon cycle",
+        "Soil chemistry",
+        "Feldspar alteration",
+        "Dissolved load",
+        "Mineral dissolution",
+        "Climate feedback",
+        "Chemical erosion"
+      ],
+      "tag_paths": [
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Chemical weathering"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Silicate weathering"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Carbonate dissolution"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Carbon cycle"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Soil chemistry"
+        ]
+      ]
+    },
+    {
+      "id": "013000",
+      "title": "Rivers Carry Mountains Away: Slopes, Sediment, and the Work of Water",
+      "section": "rivers_and_sediment_budgets",
+      "file": "013000-rivers-carry-mountains-away.md",
+      "spoken_words": 1541,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 10.6,
+      "description": "Tracks sediment from hillslopes through channels into basins, teaching stream power, storage budgets, bedload, incision, base level and downstream effects of trapping sediment.",
+      "tags": [
+        "Fluvial geomorphology",
+        "Sediment budget",
+        "Stream power",
+        "River incision",
+        "Bedload",
+        "Sediment transport",
+        "Base level",
+        "Hillslope processes",
+        "Landslides",
+        "Floodplain"
+      ],
+      "tag_paths": [
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Fluvial geomorphology"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Sediment budget"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Stream power"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "River incision"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Bedload"
+        ],
+        [
+          "Place: Americas",
+          "Place: North America",
+          "Place: United States",
+          "Place: Washington",
+          "Place: Puyallup River"
+        ],
+        [
+          "Place: Americas",
+          "Place: North America",
+          "Place: United States",
+          "Place: Washington",
+          "Place: Mount Rainier"
+        ]
+      ]
+    },
+    {
+      "id": "014000",
+      "title": "The Ice Was Moving: Glaciers, Valley Carving, and the Rebounding Earth",
+      "section": "glacial_landscapes_and_rebound",
+      "file": "014000-the-ice-was-moving.md",
+      "spoken_words": 1503,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 10.4,
+      "description": "Explains why moving ice can have a retreating terminus, the physical origins of glacial landforms and sediments, and the land-motion component of relative sea level.",
+      "tags": [
+        "Glaciology",
+        "Glacial erosion",
+        "Glacier mass balance",
+        "Basal sliding",
+        "Moraines",
+        "Glacial till",
+        "Outwash",
+        "Glacial isostatic adjustment",
+        "Relative sea level",
+        "Glacier valleys"
+      ],
+      "tag_paths": [
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Glaciology"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Glacial erosion"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Glacier mass balance"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Basal sliding"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Moraines"
+        ],
+        [
+          "Place: Americas",
+          "Place: North America",
+          "Place: United States",
+          "Place: Montana",
+          "Place: Glacier National Park"
+        ],
+        [
+          "Place: Americas",
+          "Place: North America",
+          "Place: United States",
+          "Place: California",
+          "Place: Yosemite"
+        ],
+        [
+          "Place: Europe",
+          "Place: Norway"
+        ],
+        [
+          "Place: Americas",
+          "Place: North America",
+          "Place: United States",
+          "Place: Alaska"
+        ]
+      ]
+    },
+    {
+      "id": "015000",
+      "title": "Where the Sediment Waits: Basins, Layers, and Buried Landscapes",
+      "section": "sedimentary_basins_and_records",
+      "file": "015000-where-sediment-waits.md",
+      "spoken_words": 1548,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 10.7,
+      "description": "Explains accommodation and subsidence, interprets depositional facies and missing time, and tests inferences from stratigraphic trends and sediment provenance.",
+      "tags": [
+        "Sedimentary basins",
+        "Accommodation space",
+        "Stratigraphy",
+        "Sediment provenance",
+        "Depositional facies",
+        "Foreland basin",
+        "Diagenesis",
+        "Deltas",
+        "Unconformity",
+        "Sedimentary structures"
+      ],
+      "tag_paths": [
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Sedimentary basins"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Accommodation space"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Stratigraphy"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Sediment provenance"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Depositional facies"
+        ]
+      ]
+    },
+    {
+      "id": "016000",
+      "title": "A Cliff Is an Order of Events: Relative Time, Faults, and Missing Chapters",
+      "section": "relative_time_and_structure",
+      "file": "016000-a-cliff-is-an-order-of-events.md",
+      "spoken_words": 1591,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 11.0,
+      "description": "Uses a worked cross-cutting puzzle and Hutton’s Siccar Point unconformity to explain superposition, structural restoration, map inference and relative chronology.",
+      "tags": [
+        "Relative dating",
+        "Superposition",
+        "Cross-cutting relationships",
+        "Angular unconformity",
+        "Siccar Point",
+        "James Hutton",
+        "Folds",
+        "Faults",
+        "Strike and dip",
+        "Geological cross section"
+      ],
+      "tag_paths": [
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Relative dating"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Superposition"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Cross-cutting relationships"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Angular unconformity"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Siccar Point"
+        ],
+        [
+          "Place: Europe",
+          "Place: United Kingdom",
+          "Place: Scotland",
+          "Place: Siccar Point"
+        ]
+      ]
+    },
+    {
+      "id": "017000",
+      "title": "Clocks Hidden in Crystals: Radioactive Dates and Geological Time",
+      "section": "geochronology_and_thermochronology",
+      "file": "017000-clocks-hidden-in-crystals.md",
+      "spoken_words": 1594,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 11.0,
+      "description": "Explains parent–daughter decay, U–Pb zircon, argon cooling, closure temperature, detrital provenance and why a dated mineral records a specific event.",
+      "tags": [
+        "Geochronology",
+        "Radiometric dating",
+        "Half-life",
+        "Uranium-lead dating",
+        "Zircon",
+        "Argon dating",
+        "Closure temperature",
+        "Thermochronology",
+        "Cosmogenic exposure dating",
+        "Detrital zircons"
+      ],
+      "tag_paths": [
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Geochronology"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Radiometric dating"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Half-life"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Uranium-lead dating"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Zircon"
+        ]
+      ]
+    },
+    {
+      "id": "018000",
+      "title": "Reconstructing the Appalachians: A Mountain Range with Several Histories",
+      "section": "appalachian_reconstruction",
+      "file": "018000-reconstructing-the-appalachians.md",
+      "spoken_words": 1689,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 11.6,
+      "description": "Integrates collision chronology, thrust mapping, metamorphic conditions, sediment provenance, rock clocks and Mesozoic rifting into an evidence-based Appalachian reconstruction.",
+      "tags": [
+        "Appalachian orogeny",
+        "Grenville orogeny",
+        "Taconic orogeny",
+        "Acadian orogeny",
+        "Alleghanian orogeny",
+        "Pangaea",
+        "Iapetus Ocean",
+        "Valley and Ridge",
+        "Piedmont",
+        "Catskill sediments",
+        "Geological reconstruction"
+      ],
+      "tag_paths": [
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Appalachian orogeny"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Grenville orogeny"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Taconic orogeny"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Acadian orogeny"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Alleghanian orogeny"
+        ],
+        [
+          "Place: Americas",
+          "Place: North America",
+          "Place: United States",
+          "Place: Appalachian Mountains"
+        ],
+        [
+          "Place: Americas",
+          "Place: North America",
+          "Place: United States",
+          "Place: New York",
+          "Place: Catskills"
+        ],
+        [
+          "Place: Americas",
+          "Place: North America",
+          "Place: United States",
+          "Place: New Jersey",
+          "Place: Palisades"
+        ],
+        [
+          "Place: Americas",
+          "Place: North America",
+          "Place: Canada",
+          "Place: Newfoundland"
+        ],
+        [
+          "Place: Europe",
+          "Place: United Kingdom"
         ]
       ]
     }

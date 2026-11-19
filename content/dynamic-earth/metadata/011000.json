@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "lecture_id": "011000",
+  "transcript": "011000-the-rock-records-its-burial.md",
+  "description": "Develops metamorphic mineral stability and fabrics as distinct evidence, then reads burial, overprinting, subduction, exhumation and mineral dates as a path.",
+  "tags": [
+    "Metamorphism",
+    "Foliation",
+    "Garnet",
+    "Metamorphic facies",
+    "Pressure-temperature paths",
+    "Exhumation",
+    "Blueschist",
+    "Eclogite",
+    "Metamorphic index minerals",
+    "Rock deformation"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Earth science",
+      "Geology",
+      "Metamorphism"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Geology",
+      "Foliation"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Geology",
+      "Garnet"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Geology",
+      "Metamorphic facies"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Geology",
+      "Pressure-temperature paths"
+    ],
+    [
+      "Place: Europe",
+      "Place: United Kingdom",
+      "Place: Scotland",
+      "Place: Scottish Highlands"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "de-usgs-metamorphic",
+      "reason": "Solid-state metamorphic change, foliation, contact metamorphism and rock classes."
+    },
+    {
+      "source_id": "de-earle-metamorphism",
+      "reason": "Bulk composition, temperature, stress, fluid and time controls on metamorphic assemblages."
+    },
+    {
+      "source_id": "de-earle-regionalmetam",
+      "reason": "Index-mineral zonation, Barrow in the 1890s and the Scottish Highlands."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "de-011000-01",
+      "anchor": "George Barrow's work in the Scottish Highlands during the late nineteenth century",
+      "kind": "historical_research",
+      "source_ids": [
+        "de-earle-regionalmetam"
+      ],
+      "source_locator": "Late-nineteenth-century Barrovian index-mineral metamorphic zone mapping.",
+      "audit_status": "source_checked"
+    }
+  ],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original Dynamic Earth surface processes and rock record lecture, companion, and source-linked metadata."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Geological processes and any calculations are introduced within the standalone narration."
+    ],
+    "readiness_checks": [
+      "Why do pressure and directed stress provide different kinds of information in metamorphic rock?",
+      "How can two dates on minerals in the same outcrop refer to different geological events?"
+    ]
+  },
+  "places": [
+    "Scottish Highlands, Scotland, United Kingdom"
+  ],
+  "chronology": {
+    "period": {
+      "start": 1890,
+      "label": "1890s metamorphic index-mineral mapping by George Barrow",
+      "basis": "documented historical research episode",
+      "note": "This date identifies a historical field investigation or research episode, not the age of the rocks.",
+      "source_ids": [
+        "de-earle-regionalmetam"
+      ]
+    }
+  }
+}
