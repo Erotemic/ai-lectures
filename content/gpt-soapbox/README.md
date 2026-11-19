@@ -27,7 +27,7 @@ examines the shared agreements that enable interoperability between strangers
 and asks who can participate in setting those agreements. The fourteenth
 examines how to change shared conventions without needlessly abandoning
 people who rely on them, and when backward compatibility must be broken. The fifteenth asks what obligations we have to people not yet born, without pretending to know their preferences or ignoring the needs of those alive now.
-The sixteenth essay turns to darkness as ecological habitat, biological rhythm, and shared access to the stars, while taking human safety and accessibility requirements seriously. The seventeenth essay defends the intellectual, emotional, and artistic value of fictional persons and worlds without treating stories as factual evidence or guaranteed empathy training. Each lecture stands alone;
+The sixteenth essay turns to darkness as ecological habitat, biological rhythm, and shared access to the stars, while taking human safety and accessibility requirements seriously. The seventeenth essay defends the intellectual, emotional, and artistic value of fictional persons and worlds without treating stories as factual evidence or guaranteed empathy training. The eighteenth essay explores the public bench as a small but consequential public promise: a place to stop without being a customer, and a design that must balance access, rest, coexistence, and conflicting uses. Each lecture stands alone;
 listeners may choose any order.
 
 - **001000 — The Counterexample Is the Main Character.** Why failure cases
@@ -82,6 +82,8 @@ listeners may choose any order.
 - **016000 — The Night Is Not Empty.** Why the night sky, nocturnal habitats, and darkness itself deserve consideration alongside safety, accessibility and public life; from migrating birds and sea turtle hatchlings to street-lighting studies and Flagstaff's lighting ordinances.
 
 - **017000 — The People Who Never Lived.** Why imaginary lives can clarify ethical possibilities, reorganize attention, and matter aesthetically without pretending that fiction is historical evidence or automatic moral instruction; from Shelley and Le Guin to narrative psychology and generated stories.
+
+- **018000 — A Bench Is a Theory of Society.** Why seating, rest stops and choices about who may stay are central to the practical meaning of public space; from William H. Whyte and accessible walking routes to divided armrests, privately owned plazas and the right to linger without buying anything.
 
 Spoken narration is inside the standard marker pair in each manuscript. Source
 notes, constructed-example qualifications, and reading links follow the
