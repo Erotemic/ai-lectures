@@ -776,16 +776,6 @@
         "payne-anb"
       ]
     },
-    "work": {
-      "start": 1923,
-      "end": 1979,
-      "basis": "dated_research_publications_and_appointments",
-      "label": "1923–1979: stellar spectra, variable-star astronomy, writing and teaching",
-      "source_ids": [
-        "payne-harvard-findingaid",
-        "payne-plate-stacks"
-      ]
-    },
     "thesis": {
       "start": 1925,
       "end": 1929,
@@ -804,6 +794,17 @@
       "source_ids": [
         "payne-shi",
         "payne-harvard-findingaid"
+      ]
+    },
+    "period": {
+      "start": 1923,
+      "end": 1979,
+      "basis": "documented_scientific_career",
+      "label": "1923–1979 · research, publications, and institutional leadership",
+      "note": "This summarizes the professional and biographical period covered by the lecture, not the publication date of a single work. The detailed dated events remain in spacetime_coverage.",
+      "source_ids": [
+        "payne-harvard-findingaid",
+        "payne-plate-stacks"
       ]
     }
   },
