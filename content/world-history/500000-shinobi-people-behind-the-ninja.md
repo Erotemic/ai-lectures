@@ -24,7 +24,7 @@ But notice the kind of evidence. The *Taiheiki* is a war chronicle with a comple
 
 Other words circulated for irregular fighters and spies. Regional records mention terms such as *suppa*, *rappa*, *kusa*, and *kamari*. Their implications varied. Some could evoke thieves or rough men; others referred to concealment and observation. The labels do not line up neatly with a modern job description. The people in question might perform intelligence work one day, participate in raids another day, and return to farming, guarding, or ordinary military service afterward.
 
-This matters because a title can create an illusion of permanence. If we imagine a recognizable caste called the ninja, we begin searching for a fixed uniform, a single code, and a central organization. If we begin instead with documented functions, we ask different questions. Who had the motive to hire an informer? What did the employer need to learn? Who knew a dangerous route through the hills? And what happened when the work was over?
+A title can turn intermittent work into the appearance of a permanent identity. Once the word ninja suggests a fixed caste, it is tempting to search for a uniform, a single code, and a central organization. The records point instead toward the particular jobs people performed and the people who employed them. Who had the motive to hire an informer? What did the employer need to learn? Who knew a dangerous route through the hills? And what happened when the work was over?
 
 ## The wars that made information valuable
 
@@ -64,7 +64,7 @@ Imagine the choices confronting a community that had defeated an invasion once. 
 
 Later ninja stories often prefer the first campaign because it produces a satisfying legend of superior cunning. The second campaign belongs in the same account. It shows both why local specialists were valuable and the limits of those advantages. Iga's history was not the history of a secret state that survived untouched. It was folded into a changing political order, and people associated with its fighting traditions found new employers and new roles.
 
-There is a larger lesson here about the relationship between secrecy and power. A state wants to control a road; the people who live beside that road know its alternatives. An army wants to seize a castle; those who maintain it know its daily routines. Local knowledge can frustrate conquest. But intelligence is not a substitute for every other resource of war. It matters within political and material limits.
+There is a larger lesson here about the relationship between secrecy and power. A state wants to control a road; the people who live beside that road know its alternatives. An army wants to seize a castle; those who maintain it know its daily routines. Local knowledge can frustrate conquest. But intelligence cannot replace every other resource of war. A commander still needs the means to act on what has been learned, and local advantage can be overwhelmed by a larger force.
 
 ## A dangerous crossing after 1582
 

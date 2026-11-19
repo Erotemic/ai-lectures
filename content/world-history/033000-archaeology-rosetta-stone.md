@@ -120,7 +120,7 @@ The priestly decree also gives us an experiment in political communication. The 
 
 But who actually stood before a stele and read it? Literacy differed by training and social position. Some viewers probably recognized the king's image or the fact of public honors without reading all three registers. Priests could refer to its authority in the temple. Administrators might know the Greek. Other people would hear its claims through proclamation, oral explanation, or ritual. The material monument displayed legitimacy beyond its literal text.
 
-This matters when comparing documents. A contract, a private letter, and a temple decree are all inscriptions in a broad sense, but they were designed for different audiences and purposes. Even a perfect translation of the Rosetta Stone cannot supply private opinions about Ptolemy. We can investigate those only through additional documents and archaeology. Learning to read the signs broadens what questions are possible; it does not dissolve all problems of historical evidence.
+A contract, a private letter, and a temple decree may all survive in writing, but they were made for different audiences and purposes. Even a perfect translation of the Rosetta Stone cannot supply private opinions about Ptolemy. We can investigate those only through additional documents and archaeology. Learning to read the signs broadens what questions are possible; it does not dissolve all problems of historical evidence.
 
 ## Returning to the inscriptions
 

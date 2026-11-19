@@ -14,7 +14,7 @@ Why hesitate? Because the country you have built a life in is also home. You wil
 
 This is the problem at the heart of the Story of Sinuhe, one of the best-known literary works from ancient Egypt. It survives in papyrus manuscripts and copied excerpts, and ancient scribes valued it enough to reproduce it repeatedly. It was composed in the Middle Kingdom, a period that began around 2050 before the common era, when Egypt was recovering from political fragmentation and royal courts were developing a sophisticated literary culture. The story is set in the early Twelfth Dynasty, near the death of King Amenemhat the First and the succession of his son Senwosret the First, also known under the Greek-derived name Sesostris.
 
-We do not have evidence that Sinuhe was a historical individual whose memoir happens to survive. The story uses the voice and format of autobiographical inscriptions, but it is generally treated as a literary composition. That matters because the author can lead us into Sinuhe's inner experience while also presenting an idealized image of Egyptian kingship.
+We do not have evidence that Sinuhe was a historical individual whose memoir happens to survive. The story uses the voice and format of autobiographical inscriptions, but it is generally treated as a literary composition. The literary form allows the writer to draw us into Sinuhe's inner experience while also shaping an idealized picture of Egyptian kingship.
 
 Our task is to follow the story in detail, pay attention to its contradictions, and see what it reveals about an Egyptian writer's understanding of political order, foreign lands, identity, and death.
 

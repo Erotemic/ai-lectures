@@ -74,7 +74,7 @@ Compare the vendor's interaction with the later political recruitment. The Broth
 
 ## An eviction and a voice that people hear
 
-The narrator witnesses the eviction of an elderly Black couple in Harlem. Their possessions, exposed to the street, make private history publicly vulnerable: objects that once organized a home become items to be moved or discarded. He is moved to speak, and a crowd responds. This moment matters because his voice seems to arise from attention to other people's circumstances rather than from an assignment issued by a superior.
+The narrator witnesses the eviction of an elderly Black couple in Harlem. Their possessions, exposed to the street, make private history publicly vulnerable: objects that once organized a home become items to be moved or discarded. He is moved to speak, and a crowd responds. His public voice grows out of what he has witnessed, not from an assignment issued by a superior.
 
 Yet the very success of his speech brings him to the notice of an organization calling itself the Brotherhood. Its representatives see in his performance a capacity they can recruit and train. They promise political purpose, a new identity, and a part in collective struggle. The narrator is drawn toward the possibility that his gifts can now serve a public cause rather than the ambitions of donors or administrators.
 

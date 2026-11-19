@@ -74,7 +74,7 @@ The novel's path to publication was itself difficult. Dangarembga has described 
 
 ## A beginning that is also an ending
 
-Return to that first statement about Nhamo's death. We have listened to the story in order to understand why Tambu could speak so coldly about something ordinarily understood as a family tragedy. At the end, we know more, but the statement has not become easy. We can understand Tambu's relief without treating the loss as a deserved solution. We can value the education she gains without ignoring what it has cost her and Nyasha.
+At the end of Tambu's account, her first admission about Nhamo's death remains unsettling. His death opened a route to schooling that had been closed to her, but the opportunity came through a family's loss. Her relief is intelligible without making the loss a just solution. Nor can the education she gains be separated from the expectations and inequalities that bear so painfully on Nyasha.
 
 The older narrator has begun to question a system she once accepted because it offered her a place. That change of understanding is the novel's central movement. It is not a final conversion to one approved ideology, and it does not present the illness of another young woman as the price necessary for Tambu's wisdom. It is the beginning of a more demanding account of her own life.
 

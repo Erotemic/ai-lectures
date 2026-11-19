@@ -66,8 +66,6 @@ Macabéa dies, and the narrator remains alive to report it. That asymmetry is th
 
 There is also a danger in celebrating the novel's self-conscious technique without remembering the person at its center. A perfectly elegant discussion of narration might make Macabéa disappear all over again. Conversely, an account that treats her only as a pitiful object misses the critical intelligence of the form. The book's accomplishment lies in holding both demands together: look at the person, and look at the means by which you are being invited to look.
 
-Reading the novel well, then, is not simply learning to distrust Rodrigo. It is practicing the difficult habit of noticing where an account reveals suffering and where it imposes an interpretation. We can care for someone we do not fully understand. We can be moved by a story while remaining alert to the person whose complexity exceeds the story. Lispector has made that alertness part of the reading experience itself.
-
 <!-- END SPOKEN LECTURE -->
 
 ## Editorial notes

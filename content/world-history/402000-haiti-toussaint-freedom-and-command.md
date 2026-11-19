@@ -96,7 +96,7 @@ The constitution also reveals how much the Atlantic world had changed in a decad
 
 The Treaty of Basel in 1795 had assigned Spain's eastern part of Hispaniola to France, though actual control and local circumstances remained complicated. In 1801, Toussaint moved into the east and extended his administration there. The action reflected both the formal treaty and his desire to secure the island against potential threats. For inhabitants of the east, however, the change was experienced through a local history different from that of Saint-Domingue's western plantation regions.
 
-This matters because the island later became home to two independent countries. The Haitian Revolution was fought in a territory with shifting political boundaries, not within the fixed modern borders of Haiti. Spanish, French, and later Haitian claims competed over people who had their own local interests. We should be wary of treating the eastern population as a passive extension of a western story.
+Hispaniola would eventually become home to two independent countries, but the Haitian Revolution unfolded before those modern borders existed. Spanish, French, and later Haitian claims competed over people with local interests of their own. The eastern population's experience cannot be treated as a passive extension of the western story.
 
 For Toussaint, control across the island increased defensive reach and executive authority. For Napoleon, it added another reason to distrust a commander who was taking decisions of imperial significance without permission. The conflict between local emancipation and French sovereignty was approaching a military showdown.
 

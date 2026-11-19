@@ -200,9 +200,7 @@ There is a similar problem with the question of women's status. Fu Hao's authori
 
 Even descriptions of Fu Hao as the first female general in Chinese history need a qualification. She is among the earliest female military commanders we can identify from surviving contemporary records. Earlier women may have exercised military authority without leaving inscriptions that we can read today. An archaeological first is often a first in the surviving evidence, which is a different kind of statement.
 
-These cautions do not make the story smaller. They make its genuine discoveries clearer. Thousands of years after her death, we can identify a woman whom a king consulted or discussed in matters of war, birth, and ceremony. We can connect her name to a deeply furnished tomb. We can examine the metals, stones, and inscriptions deposited there, and use them to explore how a Bronze Age state organized its authority.
-
-The strongest connection between the evidence and the life is not a heroic anecdote. It is the relationship among material objects, written records, and political institutions. Each source type answers questions that the others cannot fully resolve.
+Inscriptions still connect Fu Hao's name with war, birth, and ceremony more than three thousand years after her death, while objects from her richly furnished tomb disclose another part of her position at court. The evidence reveals a woman who exercised significant authority within the late Shang elite. It does not tell us what most Shang women could do, or what Fu Hao thought in private. The two kinds of record meet in the institutions of her kingdom, but neither can supply the missing details of her private life.
 
 ## Back to the excavation
 

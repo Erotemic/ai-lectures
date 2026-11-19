@@ -40,7 +40,7 @@ The painter's identical landscapes belong to the same comedy. K. goes seeking a 
 
 The cathedral scene offers a more difficult problem than the idea that institutions are corrupt. In the priest's story, a man waits at a door intended for him alone. He accepts the doorkeeper's refusal as the governing fact of his life, although the possibility of entry is never completely denied. He dies before crossing the threshold.
 
-What has happened? We can interpret the doorkeeper as an abusive authority who blocks a right. We can interpret the countryman as someone who mistakes a command to wait for an absolute law. We can ask whether the doorkeeper understands his own function or is merely another subordinate. We can even ask whether an entrance that remains unused still counts as an entrance in any meaningful sense.
+The doorkeeper may be an abusive authority who withholds a right, or another subordinate whose own grasp of the law is limited. The countryman hears that he cannot enter now, yet spends a lifetime behaving as though the refusal were final. And the entrance meant for him alone remains unused. Is it a real possibility he never dares to seize, or a promise designed to keep him waiting? The parable permits both suspicions without offering the knowledge that would have saved the man from his vigil.
 
 K. and the priest debate possibilities without reaching a judgment. That is not a puzzle whose answer a lecturer ought to reveal at the end. The inability to make the possibilities settle is part of the scene's pressure. An interpretation can be internally ingenious and practically useless. The countryman needed to know whether to cross; the commentators can discuss his conduct forever after his death.
 

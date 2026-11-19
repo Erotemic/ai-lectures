@@ -64,7 +64,7 @@ French colonial slavery was shaped by regulations often associated with the Code
 
 A plantation owner's control reached into the hour someone rose, the place they worked, and the conditions under which they ate or slept. Punishment could be inflicted for resisting or failing to meet demands. A legal system that classified a person as property enabled owners to treat disobedience as a threat to economic order. The structure made cruelty predictable without requiring every individual proprietor to behave identically.
 
-This matters to the history of resistance. Enslaved people did not have to be taught that the labor system harmed them by reading the Declaration of the Rights of Man. They knew its consequences from lived experience. French revolutionary ideas would later provide a new language and political opening, but the desire to escape enslavement had a history of its own.
+Resistance to enslavement did not begin with the language of the French Revolution. Enslaved people knew the plantation system's consequences from lived experience; they did not need to read the Declaration of the Rights of Man to recognize them. Revolutionary ideas would later provide a new political language and new openings, but the desire to escape enslavement had a history of its own.
 
 Some people fled plantations and formed communities beyond routine colonial control. The term maroon refers to people who escaped enslavement; it covers different experiences, from brief flight to long-lived communities. Some groups resisted armed patrols and maintained independent settlements in difficult terrain. Others entered shifting arrangements with colonial authorities. These communities complicated the fantasy of a colony in which owners knew and controlled everything.
 

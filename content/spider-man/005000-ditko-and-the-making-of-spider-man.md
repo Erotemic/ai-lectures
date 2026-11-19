@@ -78,7 +78,7 @@ Why do the Lee-Ditko disputes stay so alive? Because Spider-Man is a story about
 
 It is worth resisting the urge to write either man out of the work. Ditko's images are not interchangeable illustrations. Lee's dialogue and editorial collaboration are not decorative noise. Kirby's earlier work and first-appearance cover do not disappear because the interior pages were Ditko's. A reader who wants a factual account should be able to admit several kinds of contribution without pretending every disagreement has been resolved.
 
-And here is the reward for approaching the history this way. When you next read a Ditko page, you are no longer just asking whether Spider-Man will escape. You can ask why a hero looks fragile, why a panel has been made small, why a hand is attached to that particular surface, why an enemy seems to control the room, and why a piece of machinery feels heavier because the artist lets you watch a man fail to move it. You can hear Lee's words without forgetting the page underneath them.
+On a Ditko page, a small panel can make Spider-Man look suddenly fragile. The angle of a hand against a wall tells us how precariously the body is held; a piece of machinery acquires weight when the page makes us watch Peter strain against it. Lee's dialogue adds another rhythm, but the drawing has already shaped the danger and the effort. These are artistic decisions, not inevitable features of a costume, and they survive disagreements about which collaborator deserves which share of the credit.
 
 The more closely you look, the less Spider-Man feels inevitable. He becomes something better: a difficult character brilliantly constructed by real people making choices, one drawing at a time.
 

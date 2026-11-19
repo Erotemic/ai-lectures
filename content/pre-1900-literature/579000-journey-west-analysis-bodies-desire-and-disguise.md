@@ -17,7 +17,7 @@ The monkey's own body begins the problem. He is born of stone. He calls himself 
 
 Yet Wukong often acts as the novel's expert in exposing false bodies. In the White Bone Demon episode, Xuanzang sees a succession of human figures; Wukong sees the same predator behind them. In the two-Monkey-Kings episode, this privilege of perception fails. Another being has Wukong's face and powers so effectively that celestial authorities struggle to identify the original. If identity were always visible to the right eyes, the story would have no need for that terrifying double.
 
-The point is not that the book denies the existence of true and false. It repeatedly distinguishes them, sometimes with enormous moral urgency. The point is that the process of knowing which is which is fraught. A person can be wrong because the illusion is convincing, because desire makes the illusion attractive, or because a superior voice announces an answer one is expected to accept.
+The novel does not doubt that a false identity can do real harm. Its difficulty lies in how little the visible body guarantees. Xuanzang may trust the stranger in front of him; Wukong may recognize a predator yet fail to convince his master. Desire can make a disguise welcome, and authority can make an unreliable voice persuasive. Even the creature most skilled at exposing impostors can face a double that defeats his own certainty.
 
 Bodies are therefore the place where the novel's metaphysical and social questions meet. A monster's copied face can trigger hospitality. A counterfeit master can command respect. A splendid religious image can convince pilgrims they have reached their goal. And a supposedly ordinary horse may be a dragon punished into a life of service.
 

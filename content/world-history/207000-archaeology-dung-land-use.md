@@ -24,7 +24,7 @@ Another class of particles is especially informative. Under a microscope, some h
 
 The spherulites have an ordered internal structure that responds predictably to polarized light. In a thin section of sediment, a skilled analyst can see the pattern and compare it to reference material. The particles are common in the dung of some ruminants, including sheep and cattle, but their frequency varies with species, forage, and conditions. Their absence cannot establish that no livestock were present, especially where dissolution or burning has changed the deposits.
 
-You can hear why this matters if you imagine looking at a gray patch of soil. Its color may give almost no hint of its origin. Under magnification, however, it could contain spherulites, abundant grass phytoliths, compacted laminations, and the products of decomposed organic matter. Those features together may support the interpretation that animals were repeatedly penned there.
+A gray patch of soil can conceal a history of animal keeping. Its color alone may reveal almost nothing. Under magnification, however, the sediment may contain spherulites, grass phytoliths, compacted laminations, and products of decomposed organic matter. Together those features may support an interpretation of repeated penning that the surface appearance could never establish.
 
 ## What archaeology borrows from living knowledge
 

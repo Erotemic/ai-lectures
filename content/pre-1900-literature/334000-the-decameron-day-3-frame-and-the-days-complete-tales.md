@@ -6,7 +6,7 @@
 
 ## The Decameron — Story: Day Three, the New Garden and the Pursuit of Desire
 
-After two days of stories, the ten members of Boccaccio's company do not simply proceed to a third evening. Their ruler, Neifile, has set aside Friday and Saturday for religious observance, personal care, and rest. She has also arranged a move. This matters because the book's famous ten days of storytelling are not ten consecutive days, and the guests' retreat is a succession of carefully staged spaces, not a timeless room filled with speakers.
+After two days of stories, the ten members of Boccaccio's company do not simply proceed to a third evening. Their ruler, Neifile, has set aside Friday and Saturday for religious observance, personal care, and rest. She has also arranged a move. The famous ten days of storytelling are not consecutive, and the retreat itself keeps changing shape as the company moves between carefully staged spaces.
 
 On Sunday morning the company walks through countryside alive with birdsong to another residence. The new house stands on a modest rise. Its rooms are richly furnished; its courtyard holds fresh water and provisions. A garden stretches beyond it, with trellised walks, roses, jasmine, and fruit trees. At the center a fountain sends water into a marble basin; ingenious channels conduct the overflow through the grounds and eventually toward working mill wheels. Boccaccio describes beauty and practical management in the same breath. The garden is cultivated, watered, and economically productive, and the guests compare its delight to an earthly paradise.
 
