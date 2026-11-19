@@ -587,6 +587,45 @@ def create_app(
         )
         return JSONResponse(result, status_code=201)
 
+    def metadata_audit(request):
+        from .metadata_audit import AuditStore, structural_hints
+
+        rows = library.snapshot(copy=False)["lectures"]
+        report = AuditStore(library.store.state).report(rows)
+        report["structural_hints"] = [
+            dict(lecture=key, title=rows[key]["title"], hints=hints)
+            for key, hints in structural_hints(rows).items()
+            if hints
+        ]
+        if request.url.path.endswith("/export"):
+            report["findings"] = [
+                item
+                for item in report["findings"]
+                if item["decision"] == "approved" and not item["stale"]
+            ]
+            return JSONResponse(
+                report,
+                headers={
+                    "Content-Disposition": 'attachment; filename="approved-metadata-proposals.json"',
+                    "Cache-Control": "no-store",
+                },
+            )
+        return JSONResponse(report, headers={"Cache-Control": "no-store"})
+
+    async def metadata_audit_decision(request):
+        from .metadata_audit import AuditStore
+
+        require_local_action(request)
+        payload = await body(request)
+        return JSONResponse(
+            await run_in_threadpool(
+                AuditStore(library.store.state).decide,
+                checksum(request.path_params["finding_id"]),
+                payload["decision"],
+                library.snapshot(copy=False)["lectures"],
+            )
+        )
+
     def production_profiles(request):
         if playback_disabled():
             return JSONResponse(
@@ -995,6 +1034,8 @@ def create_app(
             "/learning-plan",
             "/production",
             "/settings",
+            "/topic-graph",
+            "/metadata-audit",
         ]
     ]
     routes += [
@@ -1038,6 +1079,13 @@ def create_app(
         Route("/api/library/feedback/status", feedback_status, methods=["POST"]),
         Route("/api/library/feedback/import", feedback_import, methods=["POST"]),
         Route("/api/library/packs", pack_change, methods=["POST"]),
+        Route("/api/library/metadata-audit", metadata_audit),
+        Route("/api/library/metadata-audit/export", metadata_audit),
+        Route(
+            "/api/library/metadata-audit/{finding_id}",
+            metadata_audit_decision,
+            methods=["POST"],
+        ),
         Route("/api/library/settings", server_settings, methods=["GET", "POST"]),
         Route("/api/library/settings/voices", settings_voices, methods=["POST"]),
         Route("/api/library/production", production_profiles),

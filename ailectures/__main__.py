@@ -107,6 +107,9 @@ def main(argv=None):
     feedback_export.add_argument("--lecture")
     feedback_import = commands.add_parser("feedback-import")
     feedback_import.add_argument("path", type=Path)
+    from .audit_cli import add_commands
+
+    add_commands(commands)
     args = parser.parse_args(argv)
     repository = getattr(args, "repository", None)
     if repository is None and not getattr(args,"installed_only",False) and (Path.cwd() / "draft-stages").is_dir():
@@ -115,6 +118,10 @@ def main(argv=None):
     from .maintenance import media_lock
     leases = ExitStack()
     try:
+        if args.command == "metadata-audit":
+            from .audit_cli import run
+
+            return run(args, repository)
         if args.command in {"bundle","export","backup","prepare","install","remove"}:
             leases.enter_context(media_lock(args.library))
         if args.command == "serve":
@@ -389,4 +396,4 @@ def main(argv=None):
 
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())

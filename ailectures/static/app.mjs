@@ -1,3 +1,5 @@
+import { renderTopicGraph } from "./topic-graph.mjs";
+import { renderMetadataAudit } from "./metadata-audit.mjs";
 import { renderSettings } from "./settings.mjs";
 import { deploymentControls } from "./deployment.mjs";
 import { lectureTagPaths } from "./tag-browser.mjs";
@@ -487,6 +489,8 @@ async function lecturePage(id, autoplay = false, historical = null) {
     "div",
     {},
     returnTo.split(/[?#]/)[0] === "/stats" ? link("← Content stats", returnTo)
+      : returnTo.split(/[?#]/)[0] === "/topic-graph" ? link("← Topic graph", returnTo)
+      : returnTo.split(/[?#]/)[0] === "/metadata-audit" ? link("← Metadata review", returnTo)
       : returnTo.split("?")[0] === "/lectures" ? link("← All lectures", returnTo)
       : course ? link("← " + course.title, returnTo) : link("Library", "/"),
     title(row.title),
@@ -1224,6 +1228,8 @@ async function render(autoplay = false) {
       link, profile, message,
       enqueue: enqueueEntries,
     });
+    else if (path === "/topic-graph") renderTopicGraph($("main"), catalog);
+    else if (path === "/metadata-audit") await renderMetadataAudit($("main"));
     else if (path === "/settings") await renderSettings($("main"), { message, player });
     else if (path === "/production") await production.render($("main"));
     else browse();

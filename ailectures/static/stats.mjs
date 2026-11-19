@@ -35,6 +35,7 @@ export function renderStats(main, catalog, { link, refresh }) {
     el("div", { class: "stats-heading" }, el("div", {}, el("p", { class: "eyebrow", text: "Across the library" }),
       el("h1", { text: "Content stats" })), reload),
     el("p", { class: "intro", text: "An overview of all currently available content. Each lecture counts once in the library totals, even when it appears in several listening routes." }),
+    el("p", {}, link("Explore topic graph", "/topic-graph"), " · ", link("Review metadata coverage", "/metadata-audit")),
     el("dl", { class: "stats-metrics" }, ...metrics.map(([label, value, href]) => el("div", {},
       el("dt", { text: label }), el("dd", {}, href ? link(value, href) : value)))),
   );

@@ -1022,3 +1022,43 @@ python -m pytest -q tests/test_content_packs.py
 python tools/lecture_inventory.py
 node tests/test_audio_reader_progress.js
 ```
+
+## Review metadata coverage with a smaller model
+
+**Metadata review**, also linked from Stats, shows evidence-bound proposals and
+structural review cues. Assign a pi/Qwen agent the
+[metadata review handoff](metadata-audit-agent.md). It can work through bounded
+request files without loading every lecture at once. Export and validated import
+commands are under `python -m ailectures metadata-audit`; an optional explicit
+OpenAI-compatible runner is also available. Browsing does not call a model.
+
+Review caches include the lecture's speech and descriptive metadata, prompt
+contract, reviewer job label and chunk boundaries. Partial/invalid responses
+remain incomplete; a valid empty result records a completed model pass without
+claiming exhaustive coverage. Supporting quotations are verified against their
+excerpt, incidental associations and existing metadata are suppressed, and
+stale proposals cannot be approved. Approval/dismissal are local diagnostic
+choices; approved proposals are downloadable for a separate authoring pass.
+They do not edit lectures, invalidate audio, or alter the factual-review registry.
+
+**Topic graph** is an alternative content browser. Choose a collection and a
+dimension (topics, places, authors, or a date axis), search for a lecture or label,
+and follow coarse-to-fine connections. Click a topic or lecture node to explore
+its neighborhood; use the lecture links in the connection list to open content.
+The canvas limits visible neighbors and offers pan, zoom and node dragging;
+connection lists expose additional results without hiding them behind the graph
+limit. Counts are distinct lecture counts within the selected scope. Connections
+are descriptive associations, not teaching/proof prerequisites; Learning map
+retains those separately. Internal navigation preserves current playback.
+
+To check whether archived source deliveries actually reached a checkout:
+
+```bash
+python tools/audit_content_imports.py untracked/apply-issues untracked/apply-issues2 \
+  --output /tmp/content-import-audit.json
+```
+
+This reads ZIPs without applying them and reports matching, changed or missing
+manuscripts, occupied IDs, missing catalog entries and source-record differences.
+Byte equality and subject overlap are different questions; conflicting old IDs
+must never overwrite a newer lecture just to make an archive apply cleanly.

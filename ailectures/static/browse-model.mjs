@@ -159,7 +159,7 @@ export function collectionReturnPath(hint, courseId, origin) {
     const candidate = new URL(hint, origin);
     if (candidate.origin === origin && candidate.pathname === "/lectures")
       return candidate.pathname + candidate.search;
-    if (candidate.origin === origin && candidate.pathname === "/stats")
+    if (candidate.origin === origin && ["/stats", "/topic-graph", "/metadata-audit"].includes(candidate.pathname))
       return candidate.pathname + candidate.search + candidate.hash;
     if (!courseId) return null;
     const match = /^\/(collections|courses)\/(.+)$/.exec(candidate.pathname);

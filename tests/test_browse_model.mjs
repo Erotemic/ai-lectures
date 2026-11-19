@@ -111,3 +111,7 @@ assert(matchesLecture(described.id, () => described, "testimony"));
 assert.equal(collectionReturnPath("/stats?tag_q=Africa#stats-section-coverage", null, reader), "/stats?tag_q=Africa#stats-section-coverage");
 assert.equal(collectionReturnPath("https://other.test/stats", null, reader), null);
 assert.equal(collectionReturnPath("/stats/other", null, reader), null);
+
+assert.equal(collectionReturnPath("/topic-graph?facet=Places&node=Japan", null, reader), "/topic-graph?facet=Places&node=Japan");
+assert.equal(collectionReturnPath("/metadata-audit?status=approved", null, reader), "/metadata-audit?status=approved");
+assert.equal(collectionReturnPath("https://other.test/topic-graph", null, reader), null);
