@@ -1,0 +1,510 @@
+{
+  "schema_version": 1,
+  "lecture_id": "019000",
+  "transcript": "019000-the-courage-to-begin-something-that-may-fail.md",
+  "description": "Why pursuing an uncertain project can be rational and worthwhile without romanticizing failure. Examines ex-ante decisions versus outcomes, the Wright brothers’ disappointing glider tests and wind tunnel, Hubble’s repairable optical failure, the gap in Andrew Wiles’s 1993 proof, the long first edition of the Oxford English Dictionary, publication bias, ethical risk-sharing, and the courage to stop when the evidence changes.",
+  "tags": [
+    "GPT-SoapBox",
+    "Essays",
+    "Uncertainty",
+    "Risk",
+    "Decision-making",
+    "Decision theory",
+    "Ex ante vs ex post",
+    "Hindsight bias",
+    "Outcome bias",
+    "Survivorship bias",
+    "Learning from failure",
+    "Intellectual humility",
+    "Experiment design",
+    "Scientific method",
+    "Negative results",
+    "Publication bias",
+    "Research integrity",
+    "Scientific publishing",
+    "Innovation",
+    "Design iteration",
+    "Prototype testing",
+    "Reversibility",
+    "Safety engineering",
+    "Safety margins",
+    "Risk assessment",
+    "Engineering ethics",
+    "Public accountability",
+    "Iterative design",
+    "Critical thinking",
+    "Creativity",
+    "Artistic risk",
+    "Beginner work",
+    "Persistence",
+    "Stopping rules",
+    "Sunk costs",
+    "Ethics of risk",
+    "Informed consent",
+    "Unequal risk",
+    "Social opportunity",
+    "Funding experimentation",
+    "Aviation",
+    "Aeronautics",
+    "Flight engineering",
+    "Wind tunnels",
+    "Gliders",
+    "Wright brothers",
+    "Wilbur Wright",
+    "Orville Wright",
+    "Kitty Hawk",
+    "North Carolina",
+    "Ohio",
+    "Dayton",
+    "Smithsonian Institution",
+    "Hubble Space Telescope",
+    "NASA",
+    "Spherical aberration",
+    "Optical testing",
+    "COSTAR",
+    "Hubble servicing mission",
+    "Astronomy",
+    "Space engineering",
+    "Andrew Wiles",
+    "Richard Taylor",
+    "Fermat Last Theorem",
+    "Mathematical proof",
+    "Elliptic curves",
+    "Modular forms",
+    "History of mathematics",
+    "Cambridge",
+    "United Kingdom",
+    "Oxford English Dictionary",
+    "OED",
+    "Historical lexicography",
+    "James Murray",
+    "Philological Society",
+    "Oxford University Press",
+    "Volunteer scholarship",
+    "Language history",
+    "Historical dictionaries",
+    "Scientific discovery",
+    "1899",
+    "1900",
+    "1901",
+    "1902",
+    "1903",
+    "1879",
+    "1884",
+    "1915",
+    "1928",
+    "1990",
+    "1993",
+    "1994",
+    "1995",
+    "2014",
+    "2019",
+    "2025",
+    "19th century",
+    "20th century",
+    "21st century",
+    "United States",
+    "United Kingdom",
+    "North America",
+    "Europe"
+  ],
+  "tag_paths": [
+    [
+      "Humanities",
+      "Philosophy",
+      "Risk and uncertainty"
+    ],
+    [
+      "Humanities",
+      "Philosophy",
+      "Epistemology of error"
+    ],
+    [
+      "Humanities",
+      "Ethics",
+      "Responsibility for risk"
+    ],
+    [
+      "Humanities",
+      "Ethics",
+      "Unequal capacity to fail"
+    ],
+    [
+      "Social science",
+      "Decision science",
+      "Decisions under uncertainty"
+    ],
+    [
+      "Social science",
+      "Psychology",
+      "Hindsight and survivorship bias"
+    ],
+    [
+      "Science",
+      "Scientific methods",
+      "Experiment design and negative results"
+    ],
+    [
+      "Science",
+      "Scientific publishing",
+      "Publication bias"
+    ],
+    [
+      "Engineering",
+      "Aerospace",
+      "Wright brothers and early flight"
+    ],
+    [
+      "Engineering",
+      "Systems",
+      "Testing and recoverability"
+    ],
+    [
+      "Engineering",
+      "Space technology",
+      "Hubble telescope optical repair"
+    ],
+    [
+      "Mathematics",
+      "History of mathematics",
+      "Fermat Last Theorem proof"
+    ],
+    [
+      "Humanities",
+      "History of language",
+      "Oxford English Dictionary"
+    ],
+    [
+      "Humanities",
+      "Writing",
+      "Creative risk"
+    ],
+    [
+      "Time",
+      "19th century",
+      "1870s and 1880s"
+    ],
+    [
+      "Time",
+      "20th century",
+      "1900s"
+    ],
+    [
+      "Time",
+      "20th century",
+      "1910s and 1920s"
+    ],
+    [
+      "Time",
+      "20th century",
+      "1990s"
+    ],
+    [
+      "Time",
+      "21st century",
+      "2010s"
+    ],
+    [
+      "Geography",
+      "North America",
+      "United States"
+    ],
+    [
+      "Geography",
+      "North America",
+      "North Carolina"
+    ],
+    [
+      "Geography",
+      "North America",
+      "Ohio"
+    ],
+    [
+      "Geography",
+      "Europe",
+      "United Kingdom"
+    ],
+    [
+      "Geography",
+      "Europe",
+      "Cambridge and Oxford"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "gs-begin-wright-research",
+      "reason": "Details Wright brothers glider tests in 1900 and 1901, lift discrepancy, bicycle rig and wind tunnel program; historical context and limitations."
+    },
+    {
+      "source_id": "gs-begin-wright-flyer",
+      "reason": "Describes glider testing, 1902 improvements, December 17 1903 flights, 12-second first flight and development of aeronautical engineering practices."
+    },
+    {
+      "source_id": "gs-begin-hubble-mirror",
+      "reason": "NASA chronology and investigation of optical aberration and ground testing error, announced in June 1990."
+    },
+    {
+      "source_id": "gs-begin-hubble-service",
+      "reason": "December 1993 servicing mission installed COSTAR corrective optics and new camera; Hubble serviceability built in before the defect was discovered."
+    },
+    {
+      "source_id": "gs-begin-hubble-history",
+      "reason": "Confirms April 1990 deployment, discovery of aberration, and repair in December 1993; includes explanation of corrective optics."
+    },
+    {
+      "source_id": "gs-begin-wiles",
+      "reason": "Documents 1993 Cambridge lecture announcement, proof gap, work with Richard Taylor, 1994 repair and 1995 Annals publication; does not claim every failed proof attempt succeeds."
+    },
+    {
+      "source_id": "gs-begin-oed-history",
+      "reason": "Documents phased first-edition publication 1884–1928, reliance on volunteer quotations, institutional/editorial change and limits of comprehensiveness."
+    },
+    {
+      "source_id": "gs-begin-oed-compile",
+      "reason": "Oxford University Press involvement and James Murray appointment in 1879, death 1915 and ongoing work to first-edition completion 1928."
+    },
+    {
+      "source_id": "gs-begin-science-bias",
+      "reason": "Finds large differences in publication and writeup between strong and null findings in a defined pool of TESS survey experiments; not a general rate across all scientific fields."
+    },
+    {
+      "source_id": "gs-begin-null",
+      "reason": "Editorial about the incentives to publish null and negative findings and the epistemic danger of selective reporting."
+    },
+    {
+      "source_id": "gs-begin-decision",
+      "reason": "Explains normative decision theory, expected utility, uncertainties, and limitations of purely instrumental criteria; used for conceptual framing, not a formal theorem of ex ante virtue."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "soap-019-h01",
+      "anchor": "In the summer of nineteen hundred and one, the Wright brothers went to the dunes of North Carolina with a glider they expected to perform better than their previous machine.",
+      "kind": "research_history",
+      "source_ids": [
+        "gs-begin-wright-research",
+        "gs-begin-wright-flyer"
+      ],
+      "source_locator": "Smithsonian NASM 1901 glider overview",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "soap-019-h02",
+      "anchor": "The lift it produced was approximately one third of what their calculations had predicted.",
+      "kind": "research_history",
+      "source_ids": [
+        "gs-begin-wright-research"
+      ],
+      "source_locator": "Smithsonian 1901 Glider: Back to the Drawing Board / less than forecast lift",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "soap-019-h03",
+      "anchor": "They experimented with a bicycle-based test device and then constructed a small wind tunnel.",
+      "kind": "research_history",
+      "source_ids": [
+        "gs-begin-wright-research",
+        "gs-begin-wright-flyer"
+      ],
+      "source_locator": "Smithsonian testing between 1901 and 1902",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "soap-019-h04",
+      "anchor": "The first powered flight lasted twelve seconds.",
+      "kind": "research_history",
+      "source_ids": [
+        "gs-begin-wright-flyer"
+      ],
+      "source_locator": "Smithsonian Wright 1903 Flyer object record",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "soap-019-h05",
+      "anchor": "In April nineteen ninety, the Hubble Space Telescope went into orbit.",
+      "kind": "research_history",
+      "source_ids": [
+        "gs-begin-hubble-history"
+      ],
+      "source_locator": "NASA 1990 launch history",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "soap-019-h06",
+      "anchor": "During a servicing mission in December nineteen ninety-three, astronauts installed an instrument called COSTAR and a new camera with built-in correction.",
+      "kind": "research_history",
+      "source_ids": [
+        "gs-begin-hubble-service",
+        "gs-begin-hubble-history"
+      ],
+      "source_locator": "NASA Servicing Mission 1 and historical review",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "soap-019-h07",
+      "anchor": "A different kind of risk appeared in Cambridge in June nineteen ninety-three, when Andrew Wiles presented what he believed was a proof of Fermat's Last Theorem.",
+      "kind": "research_history",
+      "source_ids": [
+        "gs-begin-wiles"
+      ],
+      "source_locator": "MacTutor 1993 Cambridge announcement",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "soap-019-h08",
+      "anchor": "Wiles worked to resolve it, with crucial help from Richard Taylor. A new argument was found in nineteen ninety-four, and the proof appeared in the Annals of Mathematics in nineteen ninety-five.",
+      "kind": "research_history",
+      "source_ids": [
+        "gs-begin-wiles"
+      ],
+      "source_locator": "MacTutor biography and publication",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "soap-019-h09",
+      "anchor": "The first printed installment appeared in eighteen eighty-four. The first edition was not completed until nineteen twenty-eight.",
+      "kind": "research_history",
+      "source_ids": [
+        "gs-begin-oed-history"
+      ],
+      "source_locator": "Examining the OED first edition chronology",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "soap-019-h10",
+      "anchor": "James Murray, appointed chief editor in eighteen seventy-nine, died in nineteen fifteen, thirteen years before completion.",
+      "kind": "research_history",
+      "source_ids": [
+        "gs-begin-oed-compile"
+      ],
+      "source_locator": "Examining the OED editor chronology and first edition completion",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "soap-019-h11",
+      "anchor": "A study of peer-reviewed survey experiments published in Science in twenty fourteen found substantial differences between the treatment of strong findings and null results.",
+      "kind": "research_history",
+      "source_ids": [
+        "gs-begin-science-bias"
+      ],
+      "source_locator": "Science 2014 TESS publication bias original study PubMed abstract",
+      "audit_status": "source_passage_checked"
+    }
+  ],
+  "claim_evidence": [
+    {
+      "id": "soap-019-c01",
+      "anchor": "The difference between the two judgments may be no more than which way an uncertain event happened to fall.",
+      "source_ids": [
+        "gs-begin-decision"
+      ],
+      "provenance": "author_synthesis",
+      "source_locator": "Stanford Encyclopedia Decision Theory",
+      "evidence_detail": "Normative thought experiment; distinction between ex ante decision and ex post outcome."
+    },
+    {
+      "id": "soap-019-c02",
+      "anchor": "The brothers had something they wanted badly to be true: that their machine could fly. But wanting it did not authorize them to ignore its actual performance.",
+      "source_ids": [
+        "gs-begin-wright-research"
+      ],
+      "provenance": "author_synthesis",
+      "source_locator": "Smithsonian research chronology",
+      "evidence_detail": "Essay interpretation of response to poor 1901 test results."
+    },
+    {
+      "id": "soap-019-c03",
+      "anchor": "They created a way for their theory to be contradicted on a smaller scale, in a form they could measure and use.",
+      "source_ids": [
+        "gs-begin-wright-research",
+        "gs-begin-wright-flyer"
+      ],
+      "provenance": "author_synthesis",
+      "source_locator": "Wright wind tunnel research and revised glider",
+      "evidence_detail": "Interpretive synthesis of lab measurements reducing design uncertainty."
+    },
+    {
+      "id": "soap-019-c04",
+      "anchor": "Projects producing strong findings were much more likely to be published, and often more likely to be written up at all.",
+      "source_ids": [
+        "gs-begin-science-bias"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Franco et al. 2014 original study abstract",
+      "evidence_detail": "The study covers TESS survey experiments; findings must not be treated as universal field prevalence."
+    },
+    {
+      "id": "soap-019-c05",
+      "anchor": "it had escaped the testing program on the ground. NASA's investigations traced the error to the equipment used to test the mirror, including the way a test component had been assembled.",
+      "source_ids": [
+        "gs-begin-hubble-mirror",
+        "gs-begin-hubble-history"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "NASA Hubble mirror flaw investigation",
+      "evidence_detail": "The defect was a manufacturing/test verification failure, not an unforeseeable cosmic hazard."
+    },
+    {
+      "id": "soap-019-c06",
+      "anchor": "Hubble had been designed to be serviced in orbit.",
+      "source_ids": [
+        "gs-begin-hubble-service"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "NASA servicing mission overview",
+      "evidence_detail": "Serviceability predated discovery of aberration."
+    },
+    {
+      "id": "soap-019-c07",
+      "anchor": "The repair did not turn the original testing error into a good decision.",
+      "source_ids": [
+        "gs-begin-hubble-mirror",
+        "gs-begin-hubble-service"
+      ],
+      "provenance": "author_synthesis",
+      "source_locator": "NASA flaw and repair chronology",
+      "evidence_detail": "Explicitly separates preventable initial error from successful later recovery."
+    },
+    {
+      "id": "soap-019-c08",
+      "anchor": "Mathematics has a particular cruelty in situations like this. A proof is not ninety-nine percent valid because it is ninety-nine percent convincing.",
+      "source_ids": [
+        "gs-begin-wiles"
+      ],
+      "provenance": "author_synthesis",
+      "source_locator": "MacTutor Wiles proof publication history",
+      "evidence_detail": "Conceptual account of validity of deductive proof rather than a measurable percentage."
+    },
+    {
+      "id": "soap-019-c09",
+      "anchor": "The project needed records, practices, contributors, and institutions capable of surviving changes in leadership.",
+      "source_ids": [
+        "gs-begin-oed-history",
+        "gs-begin-oed-compile"
+      ],
+      "provenance": "author_synthesis",
+      "source_locator": "University project histories on changing editors and contributors",
+      "evidence_detail": "Historical/institutional synthesis, not a counterfactual study."
+    },
+    {
+      "id": "soap-019-c10",
+      "anchor": "A more serious question is how to make worthwhile attempts possible without requiring personal ruin as the entrance fee.",
+      "source_ids": [
+        "gs-begin-decision"
+      ],
+      "provenance": "author_synthesis",
+      "source_locator": "Essay risk ethics, Stanford SEP choice under uncertainty",
+      "evidence_detail": "Normative argument; sources provide decision background, not proven policy effects."
+    },
+    {
+      "id": "soap-019-c11",
+      "anchor": "the cost already paid does not make the next cost worthwhile.",
+      "source_ids": [
+        "gs-begin-decision"
+      ],
+      "provenance": "author_synthesis",
+      "source_locator": "Decision-theory distinction between prospective consequences and past expenditure",
+      "evidence_detail": "Sunk-cost reasoning in normative language."
+    }
+  ]
+}
