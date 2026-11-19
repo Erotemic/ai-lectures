@@ -6,8 +6,9 @@ pronunciation replacements, native speaking rate, saved-audio tempo, processing,
 and output format. The generation dropdown selects that entry directly.
 
 Use **Add profile**, or **Duplicate profile** to start from an existing
-entry. Only creation and duplication offer a backend voice selector. The catalog
-can refresh advertised voices or register an ID already installed on that server;
+entry. Only creation and duplication offer a backend voice selector. The form checks the server for available voices automatically without blocking
+editing. Backend voice catalog offers manual refresh and registration of an ID
+already installed on that server;
 it does not upload recordings or create a reference voice. Existing profiles keep
 their backend and voice fixed. Choose a server default and mark profiles for quick
 select. The player also offers other saved profiles and existing recordings.
@@ -27,7 +28,11 @@ rate control here. **Saved-audio tempo** uses FFmpeg after synthesis and updates
 word timing offsets. The player's playback-speed control changes listening only.
 
 Breeze's stable paragraph mode uses plain cloning at CFG 1. Directed mode can
-send prose instructions with another CFG. Titles can use their own instruction,
+send prose instructions with another CFG. Normal text instructions and title
+instructions appear directly in the creation form for supported backends. Entering
+normal text instructions selects directed narration automatically; leaving them
+blank preserves stable paragraph cloning. CFG controls are in Advanced recipe
+settings. Titles can use their own instruction,
 CFG and pauses. Unsupported instruction controls are omitted. **Test title and
 prose** generates a small local preview without creating a lecture recording;
 preview synthesis is disabled in playback-only mode.

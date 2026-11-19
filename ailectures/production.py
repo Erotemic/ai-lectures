@@ -269,21 +269,39 @@ class GenerationManager:
         )
         if backend is None:
             raise ValueError("Backend unavailable")
+        from dkvis.presentation.tts import remote_voices
+
         voices = {}
+        registry = self.voice_store()
         for alias in backend["aliases"]:
             config = sources[alias]
             value = config["voice"]
             voices[value] = dict(
                 voice=value, label=value, reference=bool(config.get("reference"))
             )
-        catalog = self.voices(backend["anchor"], probe=probe)
-        labels = {v["voice"]: v["label"] for v in catalog["registered"]}
-        for value in catalog["voices"]:
-            voices.setdefault(
-                value,
-                dict(voice=value, label=labels.get(value, value), reference=False),
+            labels = {v["voice"]: v["label"] for v in registry.registered(alias)}
+            for value in set(registry.catalog(alias)) | set(labels):
+                voices.setdefault(
+                    value,
+                    dict(voice=value, label=labels.get(value, value), reference=False),
+                )
+        discovery = "cached"
+        if probe:
+            fetched = remote_voices(
+                backend["endpoint"], sources[backend["anchor"]]["voice"]
             )
-        return dict(backend_id=backend_id, voices=list(voices.values()))
+            discovery = "live" if fetched else "unavailable"
+            if fetched:
+                registry.catalog(backend["anchor"], fetched)
+                for value in fetched:
+                    voices.setdefault(
+                        value, dict(voice=value, label=value, reference=False)
+                    )
+        return dict(
+            backend_id=backend_id,
+            voices=sorted(voices.values(), key=lambda row: row["label"].casefold()),
+            discovery=discovery,
+        )
 
     @staticmethod
     def _profile_editor_settings(recipe):

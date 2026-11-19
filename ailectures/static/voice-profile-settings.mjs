@@ -205,6 +205,11 @@ export async function renderVoiceProfiles(
       "aria-label": "Fixed voice or reference",
       disabled: Boolean(existing && !duplicate),
     });
+    const voiceStatus = el("p", {
+      class: "muted",
+      role: "status",
+      "aria-live": "polite",
+    });
     const fields = el("div"),
       preview = el("div");
     const registerId = el("input", {
@@ -218,11 +223,7 @@ export async function renderVoiceProfiles(
       onclick: async () => {
         refreshVoices.disabled = true;
         try {
-          await post(
-            `/api/library/voice-profiles/backends/${backend.value}/voices`,
-            { refresh: true },
-          );
-          await loadVoiceOptions(voice.value);
+          await discoverVoices(backend.value, token);
         } catch (failure) {
           error.textContent = failure.message;
         } finally {
@@ -241,7 +242,7 @@ export async function renderVoiceProfiles(
             `/api/library/voice-profiles/backends/${backend.value}/voices`,
             { voice: registerId.value.trim() },
           );
-          await loadVoiceOptions(registerId.value.trim());
+          await loadVoiceOptions(registerId.value.trim(), false);
           registerId.value = "";
         } catch (failure) {
           error.textContent = failure.message;
@@ -278,7 +279,10 @@ export async function renderVoiceProfiles(
       }),
       el("p", {
         class: "muted",
-        text: "The generation menu selects this complete recipe. Duplicate a profile to change its backend or fixed voice. Editing delivery or processing saves a new revision under the same profile ID.",
+        text:
+          existing && !duplicate
+            ? "Adjust how this voice speaks normal text and titles. Save changes as a new revision."
+            : "Choose a backend voice, then set how it speaks normal text and titles.",
       }),
       el("label", {}, "Profile name", label),
       el(
@@ -287,6 +291,7 @@ export async function renderVoiceProfiles(
         el("label", {}, "Backend", backend),
         el("label", {}, "Voice/reference", voice),
       ),
+      existing && !duplicate ? null : voiceStatus,
       existing && !duplicate
         ? null
         : el(
@@ -334,7 +339,43 @@ export async function renderVoiceProfiles(
         voice: voice.value,
       };
     }
-    async function loadVoiceOptions(preferred = null) {
+    function voiceOptions(data, preferred) {
+      voice.replaceChildren(
+        ...data.voices.map((row) =>
+          el("option", {
+            value: row.voice,
+            text: row.label + (row.reference ? " · reference" : ""),
+          }),
+        ),
+      );
+      if (preferred && data.voices.some((row) => row.voice === preferred))
+        voice.value = preferred;
+    }
+    async function discoverVoices(backendId, generation) {
+      voiceStatus.textContent = "Checking the server for available voices…";
+      try {
+        const data = await post(
+          `/api/library/voice-profiles/backends/${backendId}/voices`,
+          { refresh: true },
+        );
+        if (
+          !dialog.isConnected ||
+          generation !== token ||
+          backend.value !== backendId
+        )
+          return;
+        voiceOptions(data, voice.value);
+        voiceStatus.textContent =
+          data.discovery === "live"
+            ? `${data.voices.length} available voices · server catalog updated`
+            : "Server discovery unavailable. Showing saved voices; you can retry under Backend voice catalog.";
+      } catch (failure) {
+        if (dialog.isConnected && generation === token)
+          voiceStatus.textContent =
+            "Could not refresh server voices. Your saved choices remain available.";
+      }
+    }
+    async function loadVoiceOptions(preferred = null, discover = true) {
       const generation = ++token;
       save.disabled = test.disabled = true;
       try {
@@ -342,16 +383,7 @@ export async function renderVoiceProfiles(
           `/api/library/voice-profiles/backends/${backend.value}/voices`,
         );
         if (!dialog.isConnected || generation !== token) return;
-        voice.replaceChildren(
-          ...data.voices.map((row) =>
-            el("option", {
-              value: row.voice,
-              text: row.label + (row.reference ? " · reference" : ""),
-            }),
-          ),
-        );
-        if (preferred && data.voices.some((row) => row.voice === preferred))
-          voice.value = preferred;
+        voiceOptions(data, preferred);
         if (existing && !duplicate) {
           const data = await api(`/api/library/voice-profiles/${existing.id}`);
           settings = data.settings;
@@ -374,6 +406,8 @@ export async function renderVoiceProfiles(
         drawFields();
         save.disabled = false;
         test.disabled = playbackOnly() || !catalog.tools_available;
+        if (discover && (!existing || duplicate))
+          void discoverVoices(backend.value, generation);
       } catch (failure) {
         error.textContent = failure.message;
       }
@@ -419,7 +453,8 @@ export async function renderVoiceProfiles(
       );
       mode.value = settings.body_mode;
       const body = el("textarea", {
-        "aria-label": "Prose instruction",
+        "aria-label": "Normal text instructions",
+        placeholder: "Optional directions for normal narration",
         maxlength: "4000",
       });
       body.value = settings.body_request[cap.instruction_field] || "";
@@ -441,7 +476,7 @@ export async function renderVoiceProfiles(
         settings.title_instruction_field !== "none",
       );
       const title = el("textarea", {
-        "aria-label": "Title instruction",
+        "aria-label": "Title instructions",
         maxlength: "4000",
       });
       title.value = settings.title_instruction;
@@ -535,8 +570,13 @@ export async function renderVoiceProfiles(
         maxlength: "4000",
       });
       processingExtra.value = JSON.stringify(settings.processing, null, 2);
+      const bodyHint = el("p", { class: "muted" });
       function available() {
-        body.disabled = !cap.instruction_field || mode.value === "paragraph";
+        body.disabled = !cap.instruction_field;
+        bodyHint.textContent =
+          mode.value === "paragraph"
+            ? "Optional. Enter instructions to switch to directed narration. Leave blank for stable paragraph cloning."
+            : "These instructions apply to normal text. Titles use their own instructions below.";
         cfg.input.disabled = mode.value === "paragraph";
         title.disabled =
           !titleOn.checked ||
@@ -559,31 +599,24 @@ export async function renderVoiceProfiles(
           cfg.input.value = "4";
         available();
       };
+      body.oninput = () => {
+        if (body.value.trim() && mode.value === "paragraph") {
+          mode.value = "directed";
+          mode.onchange();
+        }
+      };
       titleOn.onchange =
         titleDirections.onchange =
         processing.onchange =
           available;
       fields.replaceChildren(
         ...[
-          el("h3", { text: "Speech and delivery" }),
-          el("div", { class: "filters" }, native.label, tempo.label),
-          el("p", {
-            class: "muted",
-            text: cap.native_rate
-              ? "Native rate is sent to this backend. Saved-audio tempo is applied after synthesis; neither is the player’s playback speed."
-              : "This backend does not advertise native speaking-rate control. Saved-audio tempo is postprocessing, not a server synthesis instruction.",
-          }),
+          el("h3", { text: "Normal text" }),
           el("label", {}, "Prose delivery", mode),
           cap.instruction_field
-            ? el("label", {}, "Prose instruction", body)
+            ? el("label", {}, "Normal text instructions", body)
             : null,
-          cap.adapter === "breeze-tts2" ? cfg.label : null,
-          el("p", {
-            class: "muted",
-            text: cap.paragraph_delivery
-              ? "Stable paragraph narration uses plain cloning at CFG 1. Choose directed narration to apply prose instructions."
-              : "Only capabilities declared by the backend adapter are offered here.",
-          }),
+          cap.instruction_field ? bodyHint : null,
           el("h3", { text: "Section titles" }),
           el("label", { class: "check" }, titleOn, "Separate title delivery"),
           cap.instruction_field
@@ -598,10 +631,17 @@ export async function renderVoiceProfiles(
                 text: "Title instructions are unavailable on this adapter. Isolated title requests and pauses are still supported.",
               }),
           cap.instruction_field
-            ? el("label", {}, "Title instruction", title)
+            ? el("label", {}, "Title instructions", title)
             : null,
           el("div", { class: "filters" }, before.label, after.label),
-          cap.adapter === "breeze-tts2" ? titleCfg.label : null,
+          el("h3", { text: "Speaking rate" }),
+          el("div", { class: "filters" }, native.label, tempo.label),
+          el("p", {
+            class: "muted",
+            text: cap.native_rate
+              ? "Native rate is sent to this backend. Saved-audio tempo is applied after synthesis; neither is the player’s playback speed."
+              : "This backend does not advertise native speaking-rate control. Saved-audio tempo is postprocessing, not a server synthesis instruction.",
+          }),
           el("h3", { text: "Saved audio processing" }),
           el(
             "label",
@@ -627,6 +667,9 @@ export async function renderVoiceProfiles(
             "details",
             {},
             el("summary", { text: "Advanced recipe settings" }),
+            ...(cap.adapter === "breeze-tts2"
+              ? [cfg.label, titleCfg.label]
+              : []),
             el("label", {}, "Additional engine parameters (JSON)", extras),
             el("label", {}, "Pronunciation replacements (JSON)", pronunciation),
             el("label", {}, "Chunk bounds (JSON)", reader),

@@ -530,3 +530,77 @@ def test_first_import_preserves_existing_default_voice_preference(
         assert manager.profile_catalog()["profiles"][0]["voice"] == "am_echo"
     finally:
         manager.close()
+
+
+def test_backend_discovery_uses_effective_connection_merges_aliases_and_survives_outage(
+    tmp_path, monkeypatch
+):
+    from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
+    import threading
+
+    library, pack, manifest, audio, config = setup_library(tmp_path, monkeypatch)
+    config.write_text(
+        config.read_text()
+        + '\n[profiles.alternate]\nendpoint="http://127.0.0.1:1/v1/audio/speech"\nmodel="kokoro"\nvoice="af_heart"\nresponse_format="mp3"\n'
+    )
+    requested = []
+
+    class Handler(BaseHTTPRequestHandler):
+        def log_message(self, *args):
+            pass
+
+        def do_GET(self):
+            requested.append(self.path)
+            payload = json.dumps(
+                {"voices": ["fixture-v" + str(i) for i in range(3, 8)]}
+            ).encode()
+            self.send_response(200)
+            self.send_header("Content-Length", str(len(payload)))
+            self.end_headers()
+            self.wfile.write(payload)
+
+    server = ThreadingHTTPServer(("127.0.0.1", 0), Handler)
+    thread = threading.Thread(target=server.serve_forever, daemon=True)
+    thread.start()
+    manager = manager_for(
+        library,
+        config,
+        lambda text, settings, dest: shutil.copyfile(audio, dest),
+        endpoint=f"http://127.0.0.1:{server.server_port}/v1/audio/speech",
+    )
+    try:
+        catalog = manager.profile_catalog()
+        backend = catalog["backends"][0]["id"]
+        manager.register_voice("test", "registered-first")
+        manager.register_voice("alternate", "registered-second")
+        with TestClient(
+            create_app(
+                library.store.root, tts_config=config, generation_manager=manager
+            )
+        ) as client:
+            url = "/api/library/voice-profiles/backends/" + backend + "/voices"
+            cached = client.get(url).json()
+            assert not requested
+            assert {"registered-first", "registered-second"} <= {
+                v["voice"] for v in cached["voices"]
+            }
+            live = client.post(url, json={"refresh": True}).json()
+            assert live["discovery"] == "live" and requested == ["/v1/audio/voices"]
+            assert {"fixture-v" + str(i) for i in range(3, 8)} <= {
+                v["voice"] for v in live["voices"]
+            }
+            assert len(manager.profile_catalog()["profiles"]) == 2
+            server.shutdown()
+            server.server_close()
+            thread.join()
+            offline = client.post(url, json={"refresh": True}).json()
+            assert offline["discovery"] == "unavailable"
+            assert {v["voice"] for v in live["voices"]} == {
+                v["voice"] for v in offline["voices"]
+            }
+    finally:
+        if thread.is_alive():
+            server.shutdown()
+            server.server_close()
+            thread.join()
+        manager.close()
