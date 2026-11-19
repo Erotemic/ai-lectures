@@ -16,7 +16,8 @@ defends amateur curiosity, with a distinction between democratic access to
 knowledge and shortcuts around professional standards. The sixth essay asks whether a worthwhile activity must leave a durable
 artifact. The seventh challenges single-name histories of invention and discovery
 without erasing the achievements of specific people. The eighth celebrates instrument-mediated
-science as a disciplined way to extend observation beyond human senses. Each lecture stands alone;
+science as a disciplined way to extend observation beyond human senses. The ninth asks
+what a good system owes people who choose to leave it. Each lecture stands alone;
 listeners may choose any order.
 
 - **001000 — The Counterexample Is the Main Character.** Why failure cases
@@ -37,6 +38,9 @@ listeners may choose any order.
 - **008000 — The Invisible Is Not the Imaginary.** How experiments and instruments
   reveal physical phenomena that our unaided senses cannot register, and why
   calibration and independent checks matter more than a vivid picture.
+- **009000 — The Door That Opens Outward.** Why data portability, independent
+  tools, fair switching, and the ability to speak up and leave are part of
+  deserving continued trust.
 
 Spoken narration is inside the standard marker pair in each manuscript. Source
 notes, constructed-example qualifications, and reading links follow the

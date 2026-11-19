@@ -1,0 +1,317 @@
+{
+  "schema_version": 1,
+  "lecture_id": "009000",
+  "transcript": "009000-the-door-that-opens-outward.md",
+  "description": "Defends a practical right to leave digital systems without forfeiting one's work; develops Hirschman's exit/voice/loyalty distinction, phone-number portability, open protocols, the limits of GDPR data portability, network effects, and the duties of AI assistants.",
+  "tags": [
+    "Exit, voice, and loyalty",
+    "Albert O. Hirschman",
+    "Institutional loyalty",
+    "Freedom of exit",
+    "Consent",
+    "Switching costs",
+    "Vendor lock-in",
+    "Data portability",
+    "Interoperability",
+    "Open standards",
+    "Software architecture",
+    "Digital rights",
+    "Network effects",
+    "Telephone number portability",
+    "Federal Communications Commission",
+    "Email",
+    "SMTP",
+    "RFC 5321",
+    "Tim Berners-Lee",
+    "Decentralization",
+    "GDPR Article 20",
+    "European Union",
+    "User autonomy",
+    "Human-computer interaction",
+    "AI assistants",
+    "Data export",
+    "Digital archives",
+    "Migration and recovery",
+    "1970",
+    "1990s",
+    "2000s",
+    "2010s",
+    "2020s",
+    "United States",
+    "United Kingdom",
+    "European Union"
+  ],
+  "tag_paths": [
+    [
+      "Philosophy",
+      "Ethics",
+      "Autonomy and consent"
+    ],
+    [
+      "Social science",
+      "Economics",
+      "Exit, voice and loyalty"
+    ],
+    [
+      "Social science",
+      "Organizations",
+      "Commitment and institutional change"
+    ],
+    [
+      "Computing",
+      "Software engineering",
+      "Interoperability and migration"
+    ],
+    [
+      "Computing",
+      "Internet",
+      "Open standards and protocols"
+    ],
+    [
+      "Computing",
+      "Artificial intelligence",
+      "User agency and portability"
+    ],
+    [
+      "Law and policy",
+      "Privacy and data rights",
+      "Data portability"
+    ],
+    [
+      "Social science",
+      "Digital society",
+      "Network effects and switching costs"
+    ],
+    [
+      "Time",
+      "20th century",
+      "1970s"
+    ],
+    [
+      "Time",
+      "20th century",
+      "1990s"
+    ],
+    [
+      "Time",
+      "21st century",
+      "2000s–2020s"
+    ],
+    [
+      "Geography",
+      "North America",
+      "United States"
+    ],
+    [
+      "Geography",
+      "Europe",
+      "United Kingdom"
+    ],
+    [
+      "Geography",
+      "Europe",
+      "European Union"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "gs-exit-hirschman",
+      "reason": "Original explanation of exit, voice, and loyalty, including their tensions."
+    },
+    {
+      "source_id": "gs-exit-fcc-number",
+      "reason": "Regulated example of preserving a route to other people when changing providers."
+    },
+    {
+      "source_id": "gs-exit-smtp-rfc",
+      "reason": "Technical specification showing how separate providers can exchange messages."
+    },
+    {
+      "source_id": "gs-exit-govuk-open-standards",
+      "reason": "Public-sector case for interoperability and reduced vendor lock-in."
+    },
+    {
+      "source_id": "gs-exit-berners-lee-design",
+      "reason": "Early Web-design rationale for decentralization."
+    },
+    {
+      "source_id": "gs-exit-eurlex-gdpr",
+      "reason": "Primary legal text supporting the conditional portability discussion."
+    },
+    {
+      "source_id": "gs-exit-dpc-portability",
+      "reason": "Public explanation of the scope of data portability rights."
+    },
+    {
+      "source_id": "gs-exit-eucommission-data",
+      "reason": "Practical example of moving digital content from one provider to another."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "soap-009-h01",
+      "anchor": "In 1970, the economist Albert O. Hirschman published a book called *Exit, Voice, and Loyalty*.",
+      "kind": "research_history",
+      "source_ids": [
+        "gs-exit-hirschman"
+      ],
+      "source_locator": "1970 publication, Harvard University Press catalog",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "soap-009-h02",
+      "anchor": "Hirschman called that *exit*.",
+      "kind": "research_history",
+      "source_ids": [
+        "gs-exit-hirschman"
+      ],
+      "source_locator": "Book publisher summary: exit as switching/quitting",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "soap-009-h03",
+      "anchor": "He called that *voice*.",
+      "kind": "research_history",
+      "source_ids": [
+        "gs-exit-hirschman"
+      ],
+      "source_locator": "Book publisher summary: voice as influence from within",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "soap-009-h04",
+      "anchor": "The Federal Communications Commission explains that people switching providers while remaining in the same geographic area can generally keep their number, including transfers among wireline, internet-protocol, and wireless services.",
+      "kind": "research_history",
+      "source_ids": [
+        "gs-exit-fcc-number"
+      ],
+      "source_locator": "FCC consumer guide: local number porting",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "soap-009-h05",
+      "anchor": "The Simple Mail Transfer Protocol, commonly called SMTP, specifies part of how mail systems hand messages to one another.",
+      "kind": "research_history",
+      "source_ids": [
+        "gs-exit-smtp-rfc"
+      ],
+      "source_locator": "RFC 5321, abstract and transport introduction",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "soap-009-h06",
+      "anchor": "The British government's technology guidance makes a related point in its case for open standards.",
+      "kind": "research_history",
+      "source_ids": [
+        "gs-exit-govuk-open-standards"
+      ],
+      "source_locator": "GOV.UK service manual, Working with open standards",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "soap-009-h07",
+      "anchor": "Tim Berners-Lee, describing principles for the Web in the late 1990s, emphasized decentralization: designing systems so that essential operations do not depend on a single point of control.",
+      "kind": "research_history",
+      "source_ids": [
+        "gs-exit-berners-lee-design"
+      ],
+      "source_locator": "W3C Design Issues: Principles of Design (1998)",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "soap-009-h08",
+      "anchor": "Article 20 of that regulation, adopted in 2016, provides a right in specified circumstances to receive certain personal data in a structured, commonly used, machine-readable format and to transmit them to another controller without hindrance.",
+      "kind": "research_history",
+      "source_ids": [
+        "gs-exit-eurlex-gdpr",
+        "gs-exit-dpc-portability"
+      ],
+      "source_locator": "GDPR article 20(1), scope and condition",
+      "audit_status": "source_passage_checked"
+    }
+  ],
+  "claim_evidence": [
+    {
+      "id": "soap-009-c101",
+      "anchor": "Loyalty may preserve an opportunity for voice that would disappear if every dissatisfied person walked away immediately.",
+      "source_ids": [
+        "gs-exit-hirschman"
+      ],
+      "provenance": "interpretive_synthesis",
+      "source_locator": "Reading notes and identified source",
+      "evidence_detail": "Hirschman contrasts loyalty supporting voice against exit undermining it."
+    },
+    {
+      "id": "soap-009-c102",
+      "anchor": "Portability does not make every transition effortless.",
+      "source_ids": [
+        "gs-exit-fcc-number"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Reading notes and identified source",
+      "evidence_detail": "FCC identifies fees and contract obligations as potential costs."
+    },
+    {
+      "id": "soap-009-c103",
+      "anchor": "A shared protocol is an agreement that a relationship between two people should not be completely determined by a relationship between two vendors.",
+      "source_ids": [
+        "gs-exit-smtp-rfc"
+      ],
+      "provenance": "author_analysis",
+      "source_locator": "Reading notes and identified source",
+      "evidence_detail": "The normative implication is the author’s argument; interoperability as a technical mechanism comes from RFC."
+    },
+    {
+      "id": "soap-009-c104",
+      "anchor": "It explicitly identifies avoiding supplier lock-in, sharing data between services, and changing systems over time as reasons to use standards.",
+      "source_ids": [
+        "gs-exit-govuk-open-standards"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Reading notes and identified source",
+      "evidence_detail": "GOV.UK includes all these motivations in its guidance."
+    },
+    {
+      "id": "soap-009-c105",
+      "anchor": "The conditions matter.",
+      "source_ids": [
+        "gs-exit-eurlex-gdpr",
+        "gs-exit-dpc-portability"
+      ],
+      "provenance": "author_analysis",
+      "source_locator": "Reading notes and identified source",
+      "evidence_detail": "GDPR limits right to specific bases and types of processing; not all data are in scope."
+    },
+    {
+      "id": "soap-009-c106",
+      "anchor": "A data file is not a friendship.",
+      "source_ids": [
+        "gs-exit-hirschman"
+      ],
+      "provenance": "analytical_argument",
+      "source_locator": "Reading notes and identified source",
+      "evidence_detail": "Discussion of collective dependence and limits of individual exit is original synthesis, not a literal quote from Hirschman."
+    }
+  ],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original opinion essay. Historical and legal claims ground in publisher, government, and standard documentation. Constructed examples identified as such. Author does not claim private experiences or assert OpenAI positions."
+  },
+  "learning": {
+    "reviewed": true,
+    "background": [
+      "No technical or legal prerequisites; introduces exit, voice, network effects, data portability, and interoperability with examples."
+    ],
+    "readiness_checks": [
+      "Distinguish natural switching costs from restrictions designed to discourage exit.",
+      "Explain why Hirschman treats exit and voice as interacting rather than interchangeable responses.",
+      "Describe the value and the limits of telephone number portability.",
+      "Explain why SMTP interoperability does not mean every provider must guarantee delivery.",
+      "Describe why machine-readable export is not the same as a portable, editable project.",
+      "State why GDPR Article 20 is conditional, rather than a universal right to all data.",
+      "Describe how network effects can defeat individual portability without eliminating its value.",
+      "Identify the responsibilities of AI systems to leave users with usable independent artifacts."
+    ]
+  }
+}
