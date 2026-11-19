@@ -1,0 +1,277 @@
+{
+  "schema_version": 1,
+  "lecture_id": "007000",
+  "transcript": "007000-the-name-on-the-door-is-not-the-building.md",
+  "description": "Argues that achievement is misrepresented when a name substitutes for the network of work; examines the Edison laboratory, Henrietta Leavitt and the distance ladder, smallpox eradication, the Matthew and Matilda effects, and the distinction among attribution, dependence, and reward.",
+  "tags": [
+    "History of science",
+    "History of technology",
+    "Collaborative discovery",
+    "Scientific attribution",
+    "Scientific credit",
+    "Invisible labor",
+    "Research institutions",
+    "Thomas Edison",
+    "Menlo Park",
+    "Henrietta Swan Leavitt",
+    "Cepheid variables",
+    "Astronomical distance ladder",
+    "Smallpox eradication",
+    "Public health history",
+    "Matthew effect",
+    "Matilda effect",
+    "Robert K. Merton",
+    "Margaret W. Rossiter",
+    "Recognition and incentives",
+    "Intellectual inheritance",
+    "History of invention",
+    "Artificial intelligence and attribution",
+    "1870s",
+    "1900s",
+    "1910s",
+    "1960s",
+    "1970s",
+    "United States",
+    "New Jersey",
+    "Massachusetts",
+    "Global public health",
+    "Somalia"
+  ],
+  "tag_paths": [
+    [
+      "History",
+      "History of science",
+      "Collective discovery and recognition"
+    ],
+    [
+      "History",
+      "History of technology",
+      "Industrial research laboratories"
+    ],
+    [
+      "Science",
+      "Astronomy",
+      "Variable stars and the cosmic distance ladder"
+    ],
+    [
+      "Science",
+      "Public health",
+      "History of disease eradication"
+    ],
+    [
+      "Social science",
+      "Sociology of science",
+      "Attribution and recognition"
+    ],
+    [
+      "Philosophy",
+      "Ethics",
+      "Credit and reward"
+    ],
+    [
+      "Computing",
+      "Artificial intelligence",
+      "Attribution and provenance"
+    ],
+    [
+      "Time",
+      "19th century",
+      "1870s"
+    ],
+    [
+      "Time",
+      "20th century",
+      "1900s–1910s"
+    ],
+    [
+      "Time",
+      "20th century",
+      "1960s–1980s"
+    ],
+    [
+      "Geography",
+      "North America",
+      "United States",
+      "New Jersey"
+    ],
+    [
+      "Geography",
+      "North America",
+      "United States",
+      "Massachusetts"
+    ],
+    [
+      "Geography",
+      "Africa",
+      "Somalia"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "gs-credit-edison-rutgers",
+      "reason": "Institutional history of teamwork and specialized roles in Edison laboratory."
+    },
+    {
+      "source_id": "gs-credit-edison-nps",
+      "reason": "Historically documented responsibilities of Batchelor and Kruesi, with attribution to recollections."
+    },
+    {
+      "source_id": "gs-credit-leavitt-harvard",
+      "reason": "Leavitt’s role and the institutional conditions of Harvard astronomy."
+    },
+    {
+      "source_id": "gs-credit-leavitt-variables",
+      "reason": "Interpretation and subsequent calibration of Leavitt’s variable-star work."
+    },
+    {
+      "source_id": "gs-credit-smallpox-who-statue",
+      "reason": "Evidence that eradication depended on surveillance and locally adapted field operations."
+    },
+    {
+      "source_id": "gs-credit-merton",
+      "reason": "Original discussion of cumulative fame and scientific credit."
+    },
+    {
+      "source_id": "gs-credit-rossiter",
+      "reason": "Historical explanation of the Matilda effect and its name."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "soap-007-h01",
+      "anchor": "Thomas Edison established his Menlo Park laboratory in New Jersey in 1876.",
+      "kind": "research_history",
+      "source_ids": [
+        "gs-credit-edison-rutgers",
+        "gs-credit-edison-nps"
+      ],
+      "source_locator": "Edison Papers, Invention Factory; NPS handbook, Menlo Park laboratory chronology",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "soap-007-h02",
+      "anchor": "In her work published in 1908, she noticed that the brighter variables tended to have longer periods.",
+      "kind": "research_history",
+      "source_ids": [
+        "gs-credit-leavitt-harvard",
+        "gs-credit-leavitt-variables"
+      ],
+      "source_locator": "Harvard Plate Stacks, Variable Stars; Henrietta Swan Leavitt",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "soap-007-h03",
+      "anchor": "In a 1912 observatory circular, she presented periods for twenty-five variable stars in the Small Magellanic Cloud, showing a clear relationship between the period of variation and the star's brightness.",
+      "kind": "research_history",
+      "source_ids": [
+        "gs-credit-leavitt-harvard",
+        "gs-credit-leavitt-variables",
+        "gs-credit-leavitt-paper"
+      ],
+      "source_locator": "Harvard Plate Stacks, Variable Stars; bibliographic record of Harvard Circular 173",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "soap-007-h04",
+      "anchor": "The World Health Organization launched an intensified global eradication campaign in 1967.",
+      "kind": "research_history",
+      "source_ids": [
+        "gs-credit-smallpox-who-overview",
+        "gs-credit-smallpox-who-statue"
+      ],
+      "source_locator": "WHO overview and 2010 historical account",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "soap-007-h05",
+      "anchor": "A global commission certified eradication in 1979, and the World Health Assembly endorsed it in May 1980.",
+      "kind": "research_history",
+      "source_ids": [
+        "gs-credit-smallpox-who-40",
+        "gs-credit-smallpox-who-statue"
+      ],
+      "source_locator": "WHO 2020 anniversary record: 9 December 1979, 8 May 1980",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "soap-007-h06",
+      "anchor": "In 1968, the sociologist Robert K. Merton described what he called the Matthew effect in science.",
+      "kind": "research_history",
+      "source_ids": [
+        "gs-credit-merton"
+      ],
+      "source_locator": "Merton, Science 159 (1968), 56–63; abstract",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "soap-007-h07",
+      "anchor": "In 1993, the historian Margaret W. Rossiter developed the related idea of the Matilda effect, drawing attention to the systematic under-recognition of women's scientific work and naming the phenomenon for the nineteenth-century critic Matilda Joslyn Gage.",
+      "kind": "research_history",
+      "source_ids": [
+        "gs-credit-rossiter"
+      ],
+      "source_locator": "Rossiter, Social Studies of Science 23 (1993), 325–341; abstract",
+      "audit_status": "source_passage_checked"
+    }
+  ],
+  "claim_evidence": [
+    {
+      "id": "soap-007-c01",
+      "anchor": "By the time the work on electric lighting was moving toward a practical system, the laboratory was not a solitary bench in a shed.",
+      "source_ids": [
+        "gs-credit-edison-rutgers"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Edison Papers, Expanding the Laboratory: staffing expansion during lighting program",
+      "evidence_detail": "Interpretive summary of a documented staffed industrial laboratory."
+    },
+    {
+      "id": "soap-007-c02",
+      "anchor": "Charles Batchelor was a gifted experimental assistant who worked closely with Edison.",
+      "source_ids": [
+        "gs-credit-edison-nps"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "NPS, Edisons Top Assistants and recollections of Francis Upton",
+      "evidence_detail": "Batchelor and Kruesi were skilled collaborators, not merely incidental bystanders."
+    },
+    {
+      "id": "soap-007-c03",
+      "anchor": "Once that relationship is calibrated using objects whose distances can be determined independently, a variable star becomes a kind of cosmic measuring instrument.",
+      "source_ids": [
+        "gs-credit-leavitt-variables"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Harvard Plate Stacks, Variable Stars: calibration and standard candle explanation",
+      "evidence_detail": "Distinguishes relative period–luminosity law from independently calibrated absolute distance."
+    },
+    {
+      "id": "soap-007-c04",
+      "anchor": "Workers developed techniques suited to conditions they encountered, including identification cards, house-to-house searches, and ways to isolate cases.",
+      "source_ids": [
+        "gs-credit-smallpox-who-statue"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "WHO 2010 account, Success factors",
+      "evidence_detail": "Examples of adaptive program field methods; generalized hypothetical examples elsewhere are not treated as source-verified events."
+    }
+  ],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original argumentative essay and invented museum thought experiment; historical cases supported by recorded sources. Interpretive, ethical, and AI-provenance proposals are not presented as researched empirical findings."
+  },
+  "learning": {
+    "reviewed": true,
+    "background": [
+      "No technical prerequisites; astronomy and scientific credit are introduced in ordinary language."
+    ],
+    "readiness_checks": [
+      "Explain why identifying a central inventor does not fully explain an invention or its deployment.",
+      "Describe the distinction among attribution, dependence, and reward using one of the historical cases.",
+      "Explain how Henrietta Leavitt’s period–luminosity work contributed to later cosmic distance measurements.",
+      "Identify why a large eradication campaign cannot be attributed solely to its earliest scientific breakthrough.",
+      "State the risk of rewriting a heroic myth as an equally misleading correction."
+    ]
+  }
+}

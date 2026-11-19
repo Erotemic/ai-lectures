@@ -1,0 +1,115 @@
+{
+  "schema_version": 1,
+  "lecture_id": "006000",
+  "transcript": "006000-a-sandcastle-is-not-a-failed-fortress.md",
+  "description": "Argues that a temporary activity can succeed without leaving a lasting artifact; distinguishes ends from products, examines music, meals, games and play, addresses obligations and unequal leisure, and asks how tools should respect chosen difficulty.",
+  "tags": [
+    "Intrinsic value",
+    "Instrumental value",
+    "Meaning in life",
+    "Impermanence",
+    "Creative practice",
+    "Play",
+    "Philosophy of leisure",
+    "Time and experience",
+    "Ethics of technology",
+    "Human agency",
+    "Artificial intelligence"
+  ],
+  "tag_paths": [
+    [
+      "Philosophy",
+      "Value theory",
+      "Intrinsic and instrumental value"
+    ],
+    [
+      "Philosophy",
+      "Ethics",
+      "Meaning and worthwhile activities"
+    ],
+    [
+      "Humanities",
+      "Aesthetics",
+      "Art and experience"
+    ],
+    [
+      "Social science",
+      "Culture",
+      "Play and leisure"
+    ],
+    [
+      "Computing",
+      "Human-computer interaction",
+      "Automation and human agency"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "gs-sandcastle-aristotle",
+      "reason": "Early distinction between activities as ends and products as separate ends."
+    },
+    {
+      "source_id": "gs-sandcastle-sep-intrinsic",
+      "reason": "Distinguishes intrinsic, extrinsic, final and instrumental value with appropriate philosophical cautions."
+    },
+    {
+      "source_id": "gs-sandcastle-sep-meaning",
+      "reason": "Discusses meaningfulness independently of mere pleasure and moral rightness."
+    },
+    {
+      "source_id": "gs-sandcastle-gray-play",
+      "reason": "Definitions of play that attend to motives, rules and participant framing."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "soap-006-h01",
+      "anchor": "At the beginning of the Nicomachean Ethics, Aristotle distinguishes activities whose aims are in the doing from activities that produce something beyond the doing.",
+      "kind": "research_history",
+      "source_ids": [
+        "gs-sandcastle-aristotle"
+      ],
+      "source_locator": "Aristotle, Nicomachean Ethics I.1, 1094a1-18; public-domain Rackham translation",
+      "audit_status": "source_passage_checked"
+    }
+  ],
+  "claim_evidence": [
+    {
+      "id": "soap-006-c01",
+      "anchor": "A useful technical phrase is intrinsic value, though philosophers distinguish intrinsic value from other concepts such as final value, and they dispute exactly how the categories should be drawn.",
+      "source_ids": [
+        "gs-sandcastle-sep-intrinsic"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Stanford Encyclopedia of Philosophy, Intrinsic vs. Extrinsic Value, overview and conceptual distinctions",
+      "evidence_detail": "Terminology and disputes over kinds of value; the essay uses a simplified heuristic, not a canonical taxonomy."
+    },
+    {
+      "id": "soap-006-c02",
+      "anchor": "Scholars of play have long argued over how best to define it.",
+      "source_ids": [
+        "gs-sandcastle-gray-play"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Peter Gray (2013), Definitions of Play, conceptual survey",
+      "evidence_detail": "Different candidate characteristics include intrinsic motivation, freedom, structure and frame."
+    }
+  ],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original philosophical essay. Historical philosophical attribution and terminology grounded in listed sources; beach scene and other illustrations are deliberately constructed."
+  },
+  "learning": {
+    "reviewed": true,
+    "background": [
+      "No prior specialist knowledge; the distinction between a product and an activity as an end is explained."
+    ],
+    "readiness_checks": [
+      "Explain why a sandcastle need not be judged by the requirements of a fortress.",
+      "Distinguish the value of an experience from a durable record or output.",
+      "Describe a case in which removing friction improves an activity and a case in which it defeats its purpose.",
+      "State why transience does not prove worthlessness without denying that losses are real."
+    ]
+  }
+}
