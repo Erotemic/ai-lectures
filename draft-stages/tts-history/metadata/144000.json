@@ -1,0 +1,1263 @@
+{
+  "schema_version": 1,
+  "lecture_id": "144000",
+  "transcript": "144000-wu.md",
+  "related_resources": [
+    {
+      "source_id": "history-wu-nas",
+      "reason": "Principal scholarly biographical memoir, with detailed firsthand scientific and historical context."
+    },
+    {
+      "source_id": "history-wu-anb",
+      "reason": "Independent academic biographical extract on Michigan, Berkeley and early life; full entry not inspected."
+    },
+    {
+      "source_id": "history-wu-nps",
+      "reason": "U.S. government biography for Wu’s family, schooling, return to China, legal status and later recognition."
+    },
+    {
+      "source_id": "history-wu-unesco",
+      "reason": "Secondary institutional context for China schooling, wartime backdrop, and Gu mentorship."
+    },
+    {
+      "source_id": "history-wu-columbia-obit",
+      "reason": "Contemporaneous Columbia institutional record for appointments, instrument work and family."
+    },
+    {
+      "source_id": "history-wu-aip-papers",
+      "reason": "Archival collection scope and dates; does not imply every letter was read."
+    },
+    {
+      "source_id": "history-wu-berkeley",
+      "reason": "University record of Berkeley training and public honors."
+    },
+    {
+      "source_id": "history-wu-aps-2022",
+      "reason": "Scientific society account of theory and confirmation sequence."
+    },
+    {
+      "source_id": "history-wu-aps-site",
+      "reason": "Historic-site account of the NBS laboratory and 1956 parity problem."
+    },
+    {
+      "source_id": "history-wu-nist-history",
+      "reason": "Detailed NBS cryogenic experiment history and contemporaneous laboratory notebook description."
+    },
+    {
+      "source_id": "history-wu-nist-parity",
+      "reason": "Clarifies the mirror transformation and axial-vector versus polar-vector difference."
+    },
+    {
+      "source_id": "history-wu-lee-yang-1956",
+      "reason": "Original theoretical proposal and precise publication chronology."
+    },
+    {
+      "source_id": "history-wu-parity-1957",
+      "reason": "Original five-author cobalt-60 parity experiment and dates."
+    },
+    {
+      "source_id": "history-wu-garwin-1957",
+      "reason": "Independent corroborating meson and muon experiment published alongside the cobalt result."
+    },
+    {
+      "source_id": "history-wu-beta-review-1950",
+      "reason": "Wu’s primary contemporary review of spectral measurement."
+    },
+    {
+      "source_id": "history-wu-beta-pr-1950",
+      "reason": "Additional primary precision spectrum paper."
+    },
+    {
+      "source_id": "history-wu-shaknov-1950",
+      "reason": "Primary Wu and Shaknov gamma-ray correlation experiment, 1950 publication."
+    },
+    {
+      "source_id": "history-wu-shaknov-2025",
+      "reason": "Scholarship assessing entanglement significance; publisher summary only."
+    },
+    {
+      "source_id": "history-wu-pt-2024",
+      "reason": "Research-based historical exposition of angular-correlation apparatus and conclusions."
+    },
+    {
+      "source_id": "history-wu-cvc-1963",
+      "reason": "Primary experimental conserved vector current work with Y. K. Lee and L. W. Mo."
+    },
+    {
+      "source_id": "history-wu-smithsonian-cvc",
+      "reason": "Primary archival photo-description evidence for collaborators and lab."
+    },
+    {
+      "source_id": "history-wu-aps-presidents",
+      "reason": "Independent professional society list confirming 1975 presidency."
+    },
+    {
+      "source_id": "history-wu-book1966",
+      "reason": "University archival source mentioning coauthorship of Beta Decay and publication-date ambiguity."
+    },
+    {
+      "source_id": "history-wu-wikipedia",
+      "reason": "General orientation only, no disputed history based on this source."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "144000-h01",
+      "anchor": "She worked with Ernest Ambler, Raymond Hayward, Dale Hoppes, and Ralph Hudson of the National Bureau of Standards",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-wu-parity-1957",
+        "history-wu-nist-history"
+      ],
+      "source_locator": "She worked with Ernest Ambler, Raymond Hayward, Dale Hoppes, and Ralph Hudson of the National Bureau of Standards",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "144000-h02",
+      "anchor": "Chien-Shiung Wu was born on May 31, 1912, in Liuhe, in Jiangsu province",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-wu-nas",
+        "history-wu-nps"
+      ],
+      "source_locator": "Chien-Shiung Wu was born on May 31, 1912, in Liuhe, in Jiangsu province",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "144000-h03",
+      "anchor": "China had become a republic only months earlier",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-wu-nas"
+      ],
+      "source_locator": "China had become a republic only months earlier",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "144000-h04",
+      "anchor": "Her father, Wu Zhongyi, was trained as an engineer and supported the republican movement and education for girls",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-wu-nas",
+        "history-wu-nps"
+      ],
+      "source_locator": "Her father, Wu Zhongyi, was trained as an engineer and supported the republican movement and education for girls",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "144000-h05",
+      "anchor": "He founded the Mingde School in Liuhe",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-wu-nas",
+        "history-wu-unesco"
+      ],
+      "source_locator": "He founded the Mingde School in Liuhe",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "144000-h06",
+      "anchor": "Her mother, Fan Fuhua, was a teacher",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-wu-nas",
+        "history-wu-nps"
+      ],
+      "source_locator": "Her mother, Fan Fuhua, was a teacher",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "144000-h07",
+      "anchor": "In the early 1920s she left home for a boarding school in Suzhou",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-wu-nas"
+      ],
+      "source_locator": "In the early 1920s she left home for a boarding school in Suzhou",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "144000-h08",
+      "anchor": "She borrowed science books from fellow students and studied beyond the formal timetable",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-wu-nas"
+      ],
+      "source_locator": "She borrowed science books from fellow students and studied beyond the formal timetable",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "144000-h09",
+      "anchor": "After graduating in 1929, she spent a year at Shanghai Gong Xue",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-wu-nas"
+      ],
+      "source_locator": "After graduating in 1929, she spent a year at Shanghai Gong Xue",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "144000-h10",
+      "anchor": "In 1930 she entered National Central University in Nanjing",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-wu-nas"
+      ],
+      "source_locator": "In 1930 she entered National Central University in Nanjing",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "144000-h11",
+      "anchor": "At Nanjing she began in mathematics and shifted to physics",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-wu-nas",
+        "history-wu-unesco"
+      ],
+      "source_locator": "At Nanjing she began in mathematics and shifted to physics",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "144000-h12",
+      "anchor": "Japanese forces occupied Manchuria in 1931, and Chinese students organized demonstrations",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-wu-nas"
+      ],
+      "source_locator": "Japanese forces occupied Manchuria in 1931, and Chinese students organized demonstrations",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "144000-h13",
+      "anchor": "Wu participated in student leadership during her years at Nanjing",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-wu-nas"
+      ],
+      "source_locator": "Wu participated in student leadership during her years at Nanjing",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "144000-h14",
+      "anchor": "She graduated in 1934 with high honors",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-wu-nas",
+        "history-wu-anb"
+      ],
+      "source_locator": "She graduated in 1934 with high honors",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "144000-h15",
+      "anchor": "She taught for a time at National Chekiang University in Hangzhou",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-wu-nas",
+        "history-wu-unesco"
+      ],
+      "source_locator": "She taught for a time at National Chekiang University in Hangzhou",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "144000-h16",
+      "anchor": "the physicist Jing-Wei Gu mentored her in experimental work involving X-ray crystallography",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-wu-nas"
+      ],
+      "source_locator": "the physicist Jing-Wei Gu mentored her in experimental work involving X-ray crystallography",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "144000-h17",
+      "anchor": "Financial support from an uncle made the journey possible",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-wu-nps",
+        "history-wu-nas"
+      ],
+      "source_locator": "Financial support from an uncle made the journey possible",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "144000-h18",
+      "anchor": "In 1936 Wu sailed to San Francisco, intending to study at the University of Michigan",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-wu-nas",
+        "history-wu-anb"
+      ],
+      "source_locator": "In 1936 Wu sailed to San Francisco, intending to study at the University of Michigan",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "144000-h19",
+      "anchor": "At Berkeley she met Chia-Liu Yuan, often called Luke",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-wu-nas",
+        "history-wu-columbia-obit"
+      ],
+      "source_locator": "At Berkeley she met Chia-Liu Yuan, often called Luke",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "144000-h20",
+      "anchor": "She also met Ernest Lawrence, whose cyclotron was turning Berkeley into a major center of nuclear physics",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-wu-nas",
+        "history-wu-anb"
+      ],
+      "source_locator": "She also met Ernest Lawrence, whose cyclotron was turning Berkeley into a major center of nuclear physics",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "144000-h21",
+      "anchor": "Lawrence was formally her adviser, and Emilio Segre supervised much of her day-to-day research",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-wu-nas"
+      ],
+      "source_locator": "Lawrence was formally her adviser, and Emilio Segre supervised much of her day-to-day research",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "144000-h22",
+      "anchor": "Her doctorate, completed in 1940, concerned products of uranium fission",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-wu-nas",
+        "history-wu-berkeley"
+      ],
+      "source_locator": "Her doctorate, completed in 1940, concerned products of uranium fission",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "144000-h23",
+      "anchor": "In 1942 she married Luke Yuan",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-wu-nps",
+        "history-wu-columbia-obit"
+      ],
+      "source_locator": "In 1942 she married Luke Yuan",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "144000-h24",
+      "anchor": "The Pacific war prevented relatives in China from attending their wedding",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-wu-nps"
+      ],
+      "source_locator": "The Pacific war prevented relatives in China from attending their wedding",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "144000-h25",
+      "anchor": "she taught at Smith College in Massachusetts",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-wu-nps",
+        "history-wu-nas"
+      ],
+      "source_locator": "she taught at Smith College in Massachusetts",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "144000-h26",
+      "anchor": "She moved to Princeton in 1943, becoming the first woman appointed to its physics instructional faculty",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-wu-nas",
+        "history-wu-nps"
+      ],
+      "source_locator": "She moved to Princeton in 1943, becoming the first woman appointed to its physics instructional faculty",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "144000-h27",
+      "anchor": "In 1944 Wu joined the Manhattan Project at Columbia University in New York",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-wu-columbia-obit",
+        "history-wu-nps"
+      ],
+      "source_locator": "In 1944 Wu joined the Manhattan Project at Columbia University in New York",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "144000-h28",
+      "anchor": "Columbia's instrumentation specialists used ionization chambers and Geiger counters to monitor the uranium-enrichment process",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-wu-columbia-obit"
+      ],
+      "source_locator": "Columbia's instrumentation specialists used ionization chambers and Geiger counters to monitor the uranium-enrichment process",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "144000-h29",
+      "anchor": "one of her collaborators was James Rainwater",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-wu-columbia-obit"
+      ],
+      "source_locator": "one of her collaborators was James Rainwater",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "144000-h30",
+      "anchor": "Xenon one hundred and thirty-five is especially effective at absorbing neutrons",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-wu-nas"
+      ],
+      "source_locator": "Xenon one hundred and thirty-five is especially effective at absorbing neutrons",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "144000-h31",
+      "anchor": "Wu's Berkeley investigations of xenon isotopes helped connect that behavior",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-wu-nas",
+        "history-wu-nps"
+      ],
+      "source_locator": "Wu's Berkeley investigations of xenon isotopes helped connect that behavior",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "144000-h32",
+      "anchor": "She and Luke had a son, Vincent, in 1947",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-wu-nas",
+        "history-wu-nps"
+      ],
+      "source_locator": "She and Luke had a son, Vincent, in 1947",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "144000-h33",
+      "anchor": "Wu became a United States citizen in 1954",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-wu-nps"
+      ],
+      "source_locator": "Wu became a United States citizen in 1954",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "144000-h34",
+      "anchor": "She did not return to China until 1973, by which time both parents had died",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-wu-nps"
+      ],
+      "source_locator": "She did not return to China until 1973, by which time both parents had died",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "144000-h35",
+      "anchor": "Wolfgang Pauli proposed a nearly undetectable neutral particle",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-wu-nas"
+      ],
+      "source_locator": "Wolfgang Pauli proposed a nearly undetectable neutral particle",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "144000-h36",
+      "anchor": "Enrico Fermi developed a theory of beta decay in the early 1930s",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-wu-nas"
+      ],
+      "source_locator": "Enrico Fermi developed a theory of beta decay in the early 1930s",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "144000-h37",
+      "anchor": "The neutrino would not be detected directly until 1956",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-wu-nas"
+      ],
+      "source_locator": "The neutrino would not be detected directly until 1956",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "144000-h38",
+      "anchor": "She made unusually thin radioactive sources and used a carefully characterized, iron-free magnetic spectrometer",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-wu-nas"
+      ],
+      "source_locator": "She made unusually thin radioactive sources and used a carefully characterized, iron-free magnetic spectrometer",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "144000-h39",
+      "anchor": "Her 1949 and 1950 publications helped establish the reliability of the beta-decay framework",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-wu-beta-review-1950",
+        "history-wu-beta-pr-1950",
+        "history-wu-nas"
+      ],
+      "source_locator": "Her 1949 and 1950 publications helped establish the reliability of the beta-decay framework",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "144000-h40",
+      "anchor": "with her graduate student Irving Shaknov in 1949",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-wu-shaknov-1950",
+        "history-wu-pt-2024"
+      ],
+      "source_locator": "with her graduate student Irving Shaknov in 1949",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "144000-h41",
+      "anchor": "The paper appeared in January 1950",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-wu-shaknov-1950"
+      ],
+      "source_locator": "The paper appeared in January 1950",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "144000-h42",
+      "anchor": "Recent historians have emphasized it as a major early demonstration of photon entanglement",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-wu-shaknov-2025",
+        "history-wu-pt-2024"
+      ],
+      "source_locator": "Recent historians have emphasized it as a major early demonstration of photon entanglement",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "144000-h43",
+      "anchor": "two particles, called theta and tau in the notation then used",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-wu-aps-site",
+        "history-wu-nas"
+      ],
+      "source_locator": "two particles, called theta and tau in the notation then used",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "144000-h44",
+      "anchor": "Tsung-Dao Lee and Chen-Ning Yang took that second possibility seriously",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-wu-lee-yang-1956",
+        "history-wu-nas"
+      ],
+      "source_locator": "Tsung-Dao Lee and Chen-Ning Yang took that second possibility seriously",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "144000-h45",
+      "anchor": "Their 1956 paper did not experimentally prove that parity failed",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-wu-lee-yang-1956"
+      ],
+      "source_locator": "Their 1956 paper did not experimentally prove that parity failed",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "144000-h46",
+      "anchor": "Lee consulted Wu, whose beta-decay expertise made her an obvious person",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-wu-nas",
+        "history-wu-aps-2022"
+      ],
+      "source_locator": "Lee consulted Wu, whose beta-decay expertise made her an obvious person",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "144000-h47",
+      "anchor": "Wu saw why cobalt sixty was a good choice",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-wu-nas",
+        "history-wu-parity-1957"
+      ],
+      "source_locator": "Wu saw why cobalt sixty was a good choice",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "144000-h48",
+      "anchor": "At the National Bureau of Standards, the low-temperature physicists Ambler, Hayward, Hoppes, and Hudson",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-wu-nas",
+        "history-wu-nist-history"
+      ],
+      "source_locator": "At the National Bureau of Standards, the low-temperature physicists Ambler, Hayward, Hoppes, and Hudson",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "144000-h49",
+      "anchor": "The group used a scintillation detector coupled by a long light pipe to a photomultiplier",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-wu-nas"
+      ],
+      "source_locator": "The group used a scintillation detector coupled by a long light pipe to a photomultiplier",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "144000-h50",
+      "anchor": "Gamma rays from the decay helped monitor how well the nuclei remained aligned",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-wu-nas",
+        "history-wu-nist-history"
+      ],
+      "source_locator": "Gamma rays from the decay helped monitor how well the nuclei remained aligned",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "144000-h51",
+      "anchor": "including the need to redesign the cryostat",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-wu-nist-history"
+      ],
+      "source_locator": "including the need to redesign the cryostat",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "144000-h52",
+      "anchor": "Successful results came in late December 1956",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-wu-nist-history",
+        "history-wu-aps-2022"
+      ],
+      "source_locator": "Successful results came in late December 1956",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "144000-h53",
+      "anchor": "a page dated December 27 carries the emphatic declaration that parity was not conserved, written by Ralph Hudson",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-wu-nist-history"
+      ],
+      "source_locator": "a page dated December 27 carries the emphatic declaration that parity was not conserved, written by Ralph Hudson",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "144000-h54",
+      "anchor": "The electrons were emitted preferentially opposite to the nuclear spin",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-wu-nist-history",
+        "history-wu-parity-1957"
+      ],
+      "source_locator": "The electrons were emitted preferentially opposite to the nuclear spin",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "144000-h55",
+      "anchor": "published in Physical Review on February 15, 1957",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-wu-parity-1957"
+      ],
+      "source_locator": "published in Physical Review on February 15, 1957",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "144000-h56",
+      "anchor": "Richard Garwin, Leon Lederman, and Marcel Weinrich studied particle decays involving muons",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-wu-garwin-1957",
+        "history-wu-aps-2022"
+      ],
+      "source_locator": "Richard Garwin, Leon Lederman, and Marcel Weinrich studied particle decays involving muons",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "144000-h57",
+      "anchor": "Their paper appeared beside the cobalt study in the same issue of Physical Review",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-wu-garwin-1957",
+        "history-wu-parity-1957"
+      ],
+      "source_locator": "Their paper appeared beside the cobalt study in the same issue of Physical Review",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "144000-h58",
+      "anchor": "The Nobel Prize in Physics for 1957 went to Lee and Yang",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-wu-aps-2022",
+        "history-wu-columbia-obit"
+      ],
+      "source_locator": "The Nobel Prize in Physics for 1957 went to Lee and Yang",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "144000-h59",
+      "anchor": "She was not the only experimentalist excluded; Ambler, Hayward, Hoppes, Hudson",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-wu-parity-1957",
+        "history-wu-columbia-obit"
+      ],
+      "source_locator": "She was not the only experimentalist excluded; Ambler, Hayward, Hoppes, Hudson",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "144000-h60",
+      "anchor": "In 1963, Wu, Y. K. Lee, and L. W. Mo published an experimental test",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-wu-cvc-1963",
+        "history-wu-smithsonian-cvc"
+      ],
+      "source_locator": "In 1963, Wu, Y. K. Lee, and L. W. Mo published an experimental test",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "144000-h61",
+      "anchor": "Her 1966 book, Beta Decay, written with the theoretical physicist Samuel A. Moszkowski",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-wu-book1966",
+        "history-wu-nas"
+      ],
+      "source_locator": "Her 1966 book, Beta Decay, written with the theoretical physicist Samuel A. Moszkowski",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "144000-h62",
+      "anchor": "The archive of her professional papers at Columbia contains correspondence, research notes",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-wu-aip-papers"
+      ],
+      "source_locator": "The archive of her professional papers at Columbia contains correspondence, research notes",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "144000-h63",
+      "anchor": "She became a full professor in 1958",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-wu-columbia-obit",
+        "history-wu-nps"
+      ],
+      "source_locator": "She became a full professor in 1958",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "144000-h64",
+      "anchor": "In 1975 she became president of the American Physical Society, the first woman",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-wu-aps-presidents",
+        "history-wu-nps"
+      ],
+      "source_locator": "In 1975 she became president of the American Physical Society, the first woman",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "144000-h65",
+      "anchor": "She received the National Medal of Science and, in 1978, the first Wolf Prize in Physics",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-wu-berkeley",
+        "history-wu-columbia-obit"
+      ],
+      "source_locator": "She received the National Medal of Science and, in 1978, the first Wolf Prize in Physics",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "144000-h66",
+      "anchor": "her salary was brought into line with male colleagues in 1975",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-wu-nps"
+      ],
+      "source_locator": "her salary was brought into line with male colleagues in 1975",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "144000-h67",
+      "anchor": "At a 1964 symposium she asked",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-wu-nps"
+      ],
+      "source_locator": "At a 1964 symposium she asked",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "144000-h68",
+      "anchor": "She died in New York City on February 16, 1997, at the age of eighty-four",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-wu-columbia-obit",
+        "history-wu-nps"
+      ],
+      "source_locator": "She died in New York City on February 16, 1997, at the age of eighty-four",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "144000-h69",
+      "anchor": "Her ashes were interred at the Mingde School in Liuhe",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-wu-nps"
+      ],
+      "source_locator": "Her ashes were interred at the Mingde School in Liuhe",
+      "audit_status": "source_checked"
+    }
+  ],
+  "chronology": {
+    "life": {
+      "start": 1912,
+      "end": 1997,
+      "basis": "documented_biography",
+      "label": "1912–1997: Chien-Shiung Wu",
+      "source_ids": [
+        "history-wu-nas",
+        "history-wu-nps"
+      ]
+    },
+    "work": {
+      "start": 1935,
+      "end": 1981,
+      "basis": "laboratory_appointments_and_research",
+      "label": "1935–1981: crystallography, nuclear physics, beta decay, parity and later weak-interaction experiments",
+      "source_ids": [
+        "history-wu-nas",
+        "history-wu-columbia-obit"
+      ],
+      "approximate": true
+    },
+    "period": {
+      "start": 1936,
+      "end": 1997,
+      "basis": "migration_wartime_science_and_professional_life",
+      "label": "1936–1997: research in the U.S., political separation from China and scientific institutions",
+      "source_ids": [
+        "history-wu-nps",
+        "history-wu-columbia-obit"
+      ]
+    },
+    "context": {
+      "start": 1931,
+      "end": 1978,
+      "basis": "chinese_political_crises_and_particle_physics_history",
+      "label": "1931–1978: Chinese student protests, wartime scientific mobilization and the rise of weak-interaction physics",
+      "source_ids": [
+        "history-wu-nas",
+        "history-wu-aps-site"
+      ],
+      "approximate": true
+    }
+  },
+  "spacetime_coverage": {
+    "schema_version": 1,
+    "subject": "Chien-Shiung Wu",
+    "description": "Education, research workplaces, documented short visits and historical contexts; coordinates are approximate current city or town centroids, not personal addresses. Ranges do not prove uninterrupted residence or work. The 1973 China visit is noted in the chronology without assigning an unsupported specific-city visit.",
+    "places": [
+      {
+        "place": "Liuhe, Taicang, Jiangsu",
+        "present_day_country": "China",
+        "historical_polity": "Republic of China",
+        "start_year": 1912,
+        "end_year": 1923,
+        "role": "birth_and_childhood",
+        "note": "Born near Shanghai and attended Mingde School. City centroid is approximate; historical settlement boundaries may differ.",
+        "coordinates": {
+          "latitude": 31.46,
+          "longitude": 121.27,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "history-wu-nas",
+          "history-wu-nps"
+        ]
+      },
+      {
+        "place": "Suzhou, Jiangsu",
+        "present_day_country": "China",
+        "historical_polity": "Republic of China",
+        "start_year": 1923,
+        "end_year": 1929,
+        "role": "boarding_school",
+        "note": "Soochow School for Girls teacher-training course.",
+        "coordinates": {
+          "latitude": 31.3,
+          "longitude": 120.59,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "history-wu-nas"
+        ]
+      },
+      {
+        "place": "Shanghai",
+        "present_day_country": "China",
+        "historical_polity": "Republic of China",
+        "start_year": 1929,
+        "end_year": 1930,
+        "role": "intermediate_school",
+        "note": "Shanghai Gong Xue year before Nanjing university; dates based on Academy memoir.",
+        "coordinates": {
+          "latitude": 31.2304,
+          "longitude": 121.4737,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "history-wu-nas"
+        ]
+      },
+      {
+        "place": "Nanjing, Jiangsu",
+        "present_day_country": "China",
+        "historical_polity": "Republic of China",
+        "start_year": 1930,
+        "end_year": 1934,
+        "role": "university_and_student_politics",
+        "note": "National Central University, mathematics-to-physics program; student demonstrations.",
+        "coordinates": {
+          "latitude": 32.0603,
+          "longitude": 118.7969,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "history-wu-nas",
+          "history-wu-anb"
+        ]
+      },
+      {
+        "place": "Hangzhou, Zhejiang",
+        "present_day_country": "China",
+        "historical_polity": "Republic of China",
+        "start_year": 1934,
+        "end_year": 1935,
+        "role": "teaching",
+        "note": "National Chekiang University teaching; exact start/end approximate.",
+        "coordinates": {
+          "latitude": 30.2741,
+          "longitude": 120.1551,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "history-wu-nas"
+        ],
+        "approximate": true
+      },
+      {
+        "place": "Shanghai",
+        "present_day_country": "China",
+        "historical_polity": "Republic of China",
+        "start_year": 1935,
+        "end_year": 1936,
+        "role": "early_experimental_research",
+        "note": "Academia Sinica mentorship by Jing-Wei Gu and X-ray crystallography; institutional location and date approximate.",
+        "coordinates": {
+          "latitude": 31.2304,
+          "longitude": 121.4737,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "history-wu-nas",
+          "history-wu-unesco"
+        ],
+        "approximate": true
+      },
+      {
+        "place": "San Francisco, California",
+        "present_day_country": "United States",
+        "historical_polity": "United States of America",
+        "start_year": 1936,
+        "end_year": 1936,
+        "role": "arrival",
+        "note": "Entry to U.S. and decision to pursue Berkeley research; not a continuous scientific appointment.",
+        "coordinates": {
+          "latitude": 37.7749,
+          "longitude": -122.4194,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "history-wu-nas"
+        ]
+      },
+      {
+        "place": "Berkeley, California",
+        "present_day_country": "United States",
+        "historical_polity": "United States of America",
+        "start_year": 1936,
+        "end_year": 1942,
+        "role": "graduate_education_and_research",
+        "note": "Berkeley doctoral work (degree 1940), continued locally before moving east.",
+        "coordinates": {
+          "latitude": 37.8715,
+          "longitude": -122.273,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "history-wu-nas",
+          "history-wu-berkeley"
+        ],
+        "approximate": true
+      },
+      {
+        "place": "Northampton, Massachusetts",
+        "present_day_country": "United States",
+        "historical_polity": "United States of America",
+        "start_year": 1942,
+        "end_year": 1943,
+        "role": "college_teaching",
+        "note": "Smith College academic appointment.",
+        "coordinates": {
+          "latitude": 42.3251,
+          "longitude": -72.6412,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "history-wu-nas",
+          "history-wu-nps"
+        ]
+      },
+      {
+        "place": "Princeton, New Jersey",
+        "present_day_country": "United States",
+        "historical_polity": "United States of America",
+        "start_year": 1943,
+        "end_year": 1944,
+        "role": "physics_instruction",
+        "note": "Princeton Physics Department teaching; personal connection with Luke Yuan continued into the war.",
+        "coordinates": {
+          "latitude": 40.3573,
+          "longitude": -74.6672,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "history-wu-nas",
+          "history-wu-nps"
+        ]
+      },
+      {
+        "place": "New York City, New York",
+        "present_day_country": "United States",
+        "historical_polity": "United States of America",
+        "start_year": 1944,
+        "end_year": 1981,
+        "role": "columbia_laboratory_and_faculty",
+        "note": "Columbia University research and teaching, including Manhattan Project, beta decay, parity and later professional activity. Endpoint is approximate retirement period.",
+        "coordinates": {
+          "latitude": 40.7128,
+          "longitude": -74.006,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "history-wu-columbia-obit",
+          "history-wu-aip-papers"
+        ],
+        "approximate": true
+      },
+      {
+        "place": "Washington, D.C.",
+        "present_day_country": "United States",
+        "historical_polity": "United States of America",
+        "start_year": 1956,
+        "end_year": 1957,
+        "role": "temporary_parity_experiment",
+        "note": "National Bureau of Standards collaboration for cobalt-60 low-temperature experiment in late 1956 and subsequent publication; research visit, not residence.",
+        "coordinates": {
+          "latitude": 38.9072,
+          "longitude": -77.0369,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "history-wu-nas",
+          "history-wu-nist-history"
+        ],
+        "approximate": true
+      },
+      {
+        "place": "New York City, New York",
+        "present_day_country": "United States",
+        "historical_polity": "United States of America",
+        "start_year": 1997,
+        "end_year": 1997,
+        "role": "death",
+        "note": "Died in Manhattan, February 16, 1997; city centroid only.",
+        "coordinates": {
+          "latitude": 40.7128,
+          "longitude": -74.006,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "history-wu-columbia-obit"
+        ]
+      }
+    ]
+  },
+  "tags": [
+    "Biography",
+    "History of science",
+    "History of physics",
+    "History of particle physics",
+    "Experimental physics",
+    "Nuclear physics",
+    "Quantum physics",
+    "20th century",
+    "1910s",
+    "1920s",
+    "1930s",
+    "1940s",
+    "1950s",
+    "1960s",
+    "1970s",
+    "1980s",
+    "1990s",
+    "Year: 1912",
+    "Year: 1923",
+    "Year: 1929",
+    "Year: 1930",
+    "Year: 1931",
+    "Year: 1934",
+    "Year: 1935",
+    "Year: 1936",
+    "Year: 1940",
+    "Year: 1942",
+    "Year: 1943",
+    "Year: 1944",
+    "Year: 1947",
+    "Year: 1949",
+    "Year: 1950",
+    "Year: 1954",
+    "Year: 1956",
+    "Year: 1957",
+    "Year: 1958",
+    "Year: 1963",
+    "Year: 1964",
+    "Year: 1966",
+    "Year: 1973",
+    "Year: 1975",
+    "Year: 1978",
+    "Year: 1980",
+    "Year: 1997",
+    "Reception year: 2025",
+    "Region: East Asia",
+    "Region: North America",
+    "Region: Eastern United States",
+    "Region: Western United States",
+    "Country: China",
+    "Country: United States",
+    "Historical polity: Republic of China",
+    "Historical polity: United States of America",
+    "Historical polity: People’s Republic of China",
+    "State: Jiangsu",
+    "State: California",
+    "State: Massachusetts",
+    "State: New Jersey",
+    "State: New York",
+    "District: District of Columbia",
+    "Place: Liuhe",
+    "Place: Suzhou",
+    "Place: Shanghai",
+    "Place: Nanjing",
+    "Place: Hangzhou",
+    "Place: San Francisco",
+    "Place: Berkeley",
+    "Place: Northampton",
+    "Place: Princeton",
+    "Place: New York City",
+    "Place: Washington, D.C.",
+    "Chien-Shiung Wu",
+    "Wu Zhongyi",
+    "Fan Fuhua",
+    "Jing-Wei Gu",
+    "Hu Shih",
+    "Ernest Lawrence",
+    "Emilio Segrè",
+    "Luke Chia-Liu Yuan",
+    "Vincent Yuan",
+    "National Central University",
+    "Academia Sinica",
+    "University of California Berkeley",
+    "Smith College",
+    "Princeton University",
+    "Columbia University",
+    "National Bureau of Standards",
+    "Manhattan Project",
+    "Uranium isotope separation",
+    "Neutron poisoning",
+    "Xenon-135",
+    "Nuclear instrumentation",
+    "Beta decay",
+    "Fermi theory",
+    "Neutrinos",
+    "Antineutrinos",
+    "Gamma rays",
+    "Electrons",
+    "Electron spectra",
+    "Radioactive isotopes",
+    "Cobalt-60",
+    "Nickel-60",
+    "Parity violation",
+    "Parity conservation",
+    "Mirror symmetry",
+    "Weak interaction",
+    "Spin",
+    "Axial vectors",
+    "Polar vectors",
+    "Chirality",
+    "Nuclear polarization",
+    "Tsung-Dao Lee",
+    "Chen-Ning Yang",
+    "Ernest Ambler",
+    "Raymond Hayward",
+    "Dale Hoppes",
+    "Ralph Hudson",
+    "Richard Garwin",
+    "Leon Lederman",
+    "Marcel Weinrich",
+    "Low-temperature physics",
+    "Cryogenics",
+    "Scintillation detectors",
+    "Irving Shaknov",
+    "Photon polarization",
+    "Quantum entanglement",
+    "Conserved vector current",
+    "Y. K. Lee",
+    "L. W. Mo",
+    "Nobel Prize history",
+    "Wolf Prize",
+    "American Physical Society",
+    "Women in science",
+    "Migration",
+    "Scientific mentorship",
+    "Scientific credit",
+    "History of China",
+    "Chinese American science",
+    "History of scientific institutions",
+    "Scientific collaboration"
+  ]
+}
