@@ -112,7 +112,7 @@ def main(argv=None):
     add_commands(commands)
     args = parser.parse_args(argv)
     repository = getattr(args, "repository", None)
-    if repository is None and not getattr(args,"installed_only",False) and (Path.cwd() / "draft-stages").is_dir():
+    if repository is None and not getattr(args,"installed_only",False) and any((Path.cwd() / name).is_dir() for name in ("content", "draft-stages")):
         repository = Path.cwd()
     from contextlib import ExitStack
     from .maintenance import media_lock
@@ -348,15 +348,9 @@ def main(argv=None):
                 from dkvis.presentation.audio_library import AudioLectureLibrary
                 from .production import recording_from_engine
 
-                directory = (
-                    repository
-                    / "draft-stages"
-                    / (
-                        "tts-lectures"
-                        if args.pack == "g2"
-                        else "tts-paper" if args.pack == "g3" else "tts-" + args.pack
-                    )
-                )
+                from .source_paths import pack_directory
+
+                directory = pack_directory(repository, args.pack)
                 cache = repository / "audio-cache"
                 engine = AudioLectureLibrary(
                     sources=directory,

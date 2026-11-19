@@ -2,7 +2,7 @@
 
 ## Scope and standard
 
-This is a targeted editorial, mathematical, indexing, and source-reference review of **all 28 available** lectures in `draft-stages/tts-analysis/`, reconstructed from the successive Agent C overlays. It checks the syllabus and companion theorem statements for internal consistency, selected proof-critical arguments, explicit exercise answers, citation relevance, all per-lecture source IDs, and narration/catalog indexing. This is **not** a claim of external peer review or a line-by-line formal verification of every proof; the source URLs were selectively checked rather than continuously crawled.
+This is a targeted editorial, mathematical, indexing, and source-reference review of **all 28 available** lectures in `content/analysis/`, reconstructed from the successive Agent C overlays. It checks the syllabus and companion theorem statements for internal consistency, selected proof-critical arguments, explicit exercise answers, citation relevance, all per-lecture source IDs, and narration/catalog indexing. This is **not** a claim of external peer review or a line-by-line formal verification of every proof; the source URLs were selectively checked rather than continuously crawled.
 
 The track is split into an introductory real-analysis part (001000–008000), metric/function-limit part (009000–012000), and complex analysis (013000–028000). Some earlier concepts are introduced by example rather than developed in a general functional-analytic setting; the curriculum is not a substitute for a full measure-theory or Banach-space course. The next substantial missing real-analysis bridge is measurable sets/functions and Lebesgue integration. None of these are defects in the current 28-lecture manifest.
 

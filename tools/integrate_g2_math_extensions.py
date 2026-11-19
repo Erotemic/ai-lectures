@@ -12,7 +12,7 @@ from pathlib import Path
 
 VISUALIZATIONS = Path(__file__).resolve().parents[1]
 ROOT = VISUALIZATIONS.parent
-LECTURES = VISUALIZATIONS / 'draft-stages' / 'tts-lectures'
+LECTURES = VISUALIZATIONS / 'content' / 'g2'
 ASSIGNMENTS = {'091250':'unbounded', '091500':'unbounded', '092250':'unbounded', '099500':'operator-ideals'}
 SOURCES = {
  '091250':'091250-resolvents-and-yosida-regularization.md',
@@ -80,12 +80,12 @@ def math_extension_patch_legacy_counts(*, write:bool) -> dict:
     # when more mathematics lessons are inserted later.
     changes={}
     patches={
-      'draft-stages/tts-lectures/README.md':(
+      'content/g2/README.md':(
         ('These 150 transcript-first drafts follow', 'These transcript-first drafts follow'),
         ('The collection currently contains 150 numbered transcript drafts,',
          'The original collection contains 150 numbered transcript drafts, with additional mathematical lectures inserted between them,'),
       ),
-      'draft-stages/tts-lectures/reference_metadata.py': (
+      'content/g2/reference_metadata.py': (
         ('validate all 150 sidecars', 'validate the lecture sidecars'),
         ("if len(paths) != 150 or len(sidecars) != len(paths):", "if len(paths) < 150 or len(sidecars) != len(paths):"),
         ("Expected 150 transcripts and matching sidecars", "Expected at least 150 transcripts and matching sidecars"),

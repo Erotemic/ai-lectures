@@ -9,7 +9,7 @@ import json
 from pathlib import Path
 import shutil
 
-root = Path(__file__).resolve().parents[1] / 'draft-stages' / 'tts-history'
+root = Path(__file__).resolve().parents[1] / 'content' / 'history'
 archive = json.loads((root / 'stubs' / 'manifest.json').read_text(encoding='utf-8'))
 for row in archive['lectures']:
     source = root / row['file']

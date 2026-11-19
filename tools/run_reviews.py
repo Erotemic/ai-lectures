@@ -66,6 +66,11 @@ def find_repo_root(start: Path) -> Path:
 def resolve_track(root: Path, name: str) -> Path:
     cands = [root / r / name for r in TRACK_ROOTS]
     hits = [c for c in cands if (c / "track.json").is_file()]
+    if not hits and name.startswith("tts-"):
+        namespace = {"tts-lectures": "g2", "tts-paper": "g3"}.get(name, name.removeprefix("tts-"))
+        canonical = root / "content" / namespace
+        if (canonical / "track.json").is_file():
+            hits = [canonical]
     if not hits:
         sys.exit(f"error: no track '{name}' under {', '.join(TRACK_ROOTS)}")
     if len(hits) > 1:
@@ -80,6 +85,15 @@ class Track:
         self.dir = dir
         self.name = dir.name
         self.track_json = json.loads((dir / "track.json").read_text(encoding="utf-8"))
+        # Existing review IDs and run history are public editorial identifiers.
+        # A directory move must not create a second, empty registry for the pack.
+        namespace = self.track_json.get("id", dir.name)
+        legacy = {"g2": "tts-lectures", "g3": "tts-paper"}.get(namespace, "tts-" + namespace)
+        if dir.parent.name == "content" and any(
+            (root / "reviews" / "registry" / f"{kind}-{legacy}.jsonl").exists()
+            for kind in ("findings", "coverage")
+        ):
+            self.name = legacy
         self.sources_json_path = dir / "metadata" / "sources.json"
         self.sources = {}
         if self.sources_json_path.is_file():

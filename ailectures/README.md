@@ -237,3 +237,7 @@ dependencies and configuration; the standalone wheel is sufficient for playback.
 
 See [the operator and pack guide](../docs/content-packs.md) in the source
 repository for export, revisions, live discovery, progress, and feedback.
+
+Authored audio sources use `content/<namespace>/` consistently. The original 22
+scene-based narrated decks remain in `lectures/`. Reader data, recordings and
+build caches are separate from source packs; moving sources does not move them.

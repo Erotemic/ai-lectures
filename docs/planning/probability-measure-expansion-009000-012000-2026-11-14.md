@@ -64,4 +64,4 @@ A future measure-heavy expansion should also consider disintegration, Radon–Ni
 - Billingsley, *Convergence of Probability Measures*, second edition: portmanteau, mapping, and weak convergence.
 - McDiarmid, *Concentration* (1998): bounded differences and martingales; Paulin, *Concentration inequalities for Markov chains by Marton couplings and spectral methods* (2015): dependence-sensitive bounds.
 
-The per-lecture metadata in `draft-stages/tts-probability-measure/metadata/` connects literal claim anchors to the source IDs. Manuscripts are text assets; no TTS synthesis, listening review, or Lean mechanization is claimed.
+The per-lecture metadata in `content/probability-measure/metadata/` connects literal claim anchors to the source IDs. Manuscripts are text assets; no TTS synthesis, listening review, or Lean mechanization is claimed.

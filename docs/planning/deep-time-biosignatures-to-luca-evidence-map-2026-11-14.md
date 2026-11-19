@@ -40,4 +40,4 @@ Research snapshot: 14 November 2026. Companion to lectures `014000`–`017000`. 
 - `020000`: multiple mass extinctions, causal evidence, and why synchrony alone cannot select a mechanism.
 - `021000`: evolution of ecosystems, land plants, marine records, convergent forms and environmental reconstructions.
 
-For lecture-specific claim anchors and links, inspect `draft-stages/tts-deep-time/metadata/<id>.json` and the merged `metadata/sources.json`. Audit state is `reference_recorded`; passing repository tests is not expert verification of every research claim. Audio synthesis/listening review remains outstanding.
+For lecture-specific claim anchors and links, inspect `content/deep-time/metadata/<id>.json` and the merged `metadata/sources.json`. Audit state is `reference_recorded`; passing repository tests is not expert verification of every research claim. Audio synthesis/listening review remains outstanding.

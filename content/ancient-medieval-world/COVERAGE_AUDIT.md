@@ -4,9 +4,9 @@
 
 | Existing collection | Current role in chronology | Limit for a continuous history |
 | --- | --- | --- |
-| Deep Time (`draft-stages/tts-deep-time`) | Physical and biological deep history, human evolution, farming transitions and methods of prehistoric evidence; 36 indexed lectures at time of this audit | Does not sustain an account of later states, empires, belief systems, and linked trade networks |
-| World History (`draft-stages/tts-world-history`) | 110 indexed lectures on individual ancient and later people, literary works, archeological methods, and other historical episodes at time of audit | Many focused subjects, but not a sequential global course covering every period |
-| The Making of the Modern World (`draft-stages/tts-modern-world`) | 94 indexed lectures beginning around 1500 CE and continuing into early COVID-19 at time of audit | Starts after many institutions, economic systems, beliefs, and population histories already took shape |
+| Deep Time (`content/deep-time`) | Physical and biological deep history, human evolution, farming transitions and methods of prehistoric evidence; 36 indexed lectures at time of this audit | Does not sustain an account of later states, empires, belief systems, and linked trade networks |
+| World History (`content/world-history`) | 110 indexed lectures on individual ancient and later people, literary works, archeological methods, and other historical episodes at time of audit | Many focused subjects, but not a sequential global course covering every period |
+| The Making of the Modern World (`content/modern-world`) | 94 indexed lectures beginning around 1500 CE and continuing into early COVID-19 at time of audit | Starts after many institutions, economic systems, beliefs, and population histories already took shape |
 | **This pack**, `ancient-medieval-world` | Indexed 001000–090000 with sixteen inserted sub-thousand IDs. The first 50 form a chronological bridge through roughly 1500 CE. Fifty-six further lectures deepen histories in Central Asia, the Americas, Africa, and Southeast Asia | **Six introductory units and fifty-six targeted deep dives are written**; additional region-specific and source-level gaps remain |
 
 The temporal boundary between Deep Time and political history is not a universal date: agriculture, writing, urbanism, and state formation developed at different times in different parts of the world. Our approximate bridge is **3500 BCE–1500 CE**, not a claim that all regions entered the same historical stage together.

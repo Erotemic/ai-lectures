@@ -7,7 +7,7 @@ only obviously new data.
 
 | Source archive | New material | Destination |
 | --- | --- | --- |
-| `journey-to-the-west-chapters-76-81-overlay.zip` | Six lectures, IDs 549000–554000 | `draft-stages/tts-pre-1900-literature/` |
+| `journey-to-the-west-chapters-76-81-overlay.zip` | Six lectures, IDs 549000–554000 | `content/pre-1900-literature/` |
 | `journey-to-the-west-chapters-82-87-overlay.zip` | Six lectures, IDs 555000–560000 | Same pack |
 | `ancient-geographic-rotation-2026-11-16-overlay.zip` | Seven lectures, IDs 054000–060000: Medea, three Buddhacarita parts, Li Sao, Zamyad Yasht, and Setne | `content/literature-survey/` |
 

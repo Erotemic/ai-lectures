@@ -23,7 +23,7 @@ import sys
 import tempfile
 from zipfile import ZipFile
 
-WORLD_HISTORY = Path('draft-stages/tts-world-history')
+WORLD_HISTORY = Path('content/world-history')
 TRACK_PATH = WORLD_HISTORY / 'track.json'
 SOURCES_PATH = WORLD_HISTORY / 'metadata/sources.json'
 TRANSCRIPT_NAME = re.compile(r'^\d{6}-[^/]+\.md$')
@@ -157,6 +157,8 @@ def _zip_contents(archive: Path):
                     or stat.S_IFMT(member.external_attr >> 16) == stat.S_IFLNK):
                 raise MergeConflict(f'Unsafe ZIP path: {member.filename}')
             rel = Path(*name.parts)
+            if rel.parts[:2] == ('draft-stages', 'tts-world-history'):
+                rel = WORLD_HISTORY.joinpath(*rel.parts[2:])
             if (rel.parts[:len(WORLD_HISTORY.parts)] != WORLD_HISTORY.parts
                     or rel.suffix not in {'.md', '.json'}):
                 raise MergeConflict(f'ZIP contains an out-of-scope file: {rel}')

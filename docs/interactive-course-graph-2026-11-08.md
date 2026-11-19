@@ -32,7 +32,7 @@ The **Learning graph** at `/learning-paths` shows 204 lecture nodes across G1 (M
 - `curriculum/topic-relationships.json`: 277 curated G2 conceptual relationships.
 - `curriculum/proof-relationships.json`: proof-use links with explanations.
 - `curriculum/topics.json`: topic cluster assignments.
-- `draft-stages/tts-paper/track.json` and `curriculum/g4-yws.json`: course paths and original parent mappings.
+- `content/g3/track.json` and `curriculum/g4-yws.json`: course paths and original parent mappings.
 - `lectures/index.yaml`: the G1 organizer's recommended background relationships.
 - `dkvis/presentation/course_graph.py`: derives all `listening_next` edges from paths and validates the graph.
 - `dkvis/presentation/course_graph.html`: standalone SVG-based interactive explorer (no CDN or external graph library).

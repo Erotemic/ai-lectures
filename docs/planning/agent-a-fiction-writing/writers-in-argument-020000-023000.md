@@ -19,4 +19,4 @@ The sources are per-lecture sidecars and track-local `metadata/sources.json`. Hi
 
 ## Integration
 
-Owned paths: `draft-stages/tts-fiction-writing/` and `docs/planning/agent-a-fiction-writing/`. The overlay is additive to the Agent A history batch through lecture `019000`, and should be installed through `tools/apply_track_overlay.py a` with `--check` first. No shared files, tests, scripts or length policy edits are included.
+Owned paths: `content/fiction-writing/` and `docs/planning/agent-a-fiction-writing/`. The overlay is additive to the Agent A history batch through lecture `019000`, and should be installed through `tools/apply_track_overlay.py a` with `--check` first. No shared files, tests, scripts or length policy edits are included.

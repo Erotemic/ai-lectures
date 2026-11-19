@@ -30,9 +30,9 @@ def test_course_graph_inventory_and_yws_reuse():
         'listening_next', 'proof_depends_on'}
     tracks = {track['id']: track for track in graph['tracks']}
     assert len(tracks['g1']['path']) == 22
-    g2_rows = json.loads((Path(__file__).resolve().parents[1] / 'draft-stages/tts-lectures/track.json').read_text())['lectures']
+    g2_rows = json.loads((Path(__file__).resolve().parents[1] / 'content/g2/track.json').read_text())['lectures']
     assert tracks['g2']['path'] == ['g2:' + row['id'] for row in g2_rows]
-    g3_rows = json.loads((Path(__file__).resolve().parents[1] / 'draft-stages/tts-paper/track.json').read_text())['lectures']
+    g3_rows = json.loads((Path(__file__).resolve().parents[1] / 'content/g3/track.json').read_text())['lectures']
     assert tracks['g3']['path'] == ['g3:' + row['id'] for row in g3_rows]
     assert tracks['g4']['available_count'] == 7
     assert tracks['g4']['planned_count'] == 6

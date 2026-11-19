@@ -30,7 +30,7 @@ def test_first_two_g3_decks_are_readable_source_files():
     assert len(entries) >= 27
     assert [r['slide_count'] for r in entries[:2]] == [12, 13]
     assert [r['lecture_nodes'] for r in entries[:2]] == [['g3:000000'], ['g3:001000']]
-    g3_track = json.loads((SOURCE_DIR.parent / 'draft-stages/tts-paper/track.json').read_text(encoding='utf-8'))
+    g3_track = json.loads((SOURCE_DIR.parent / 'content/g3/track.json').read_text(encoding='utf-8'))
     g3_nodes = {'g3:' + row['id'] for row in g3_track['lectures']}
     assert {r['lecture_nodes'][0] for r in entries if r['lecture_nodes'][0].startswith('g3:')} <= g3_nodes
     for entry in (entry for entry in entries if entry['lecture_nodes'][0].startswith('g3:')):

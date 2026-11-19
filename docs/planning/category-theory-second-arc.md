@@ -26,7 +26,7 @@ The spoken text develops the problem before the abstract definition, with an aud
 
 ## Sources and provenance
 
-The existing bibliography remains in `draft-stages/tts-category-theory/metadata/sources.json`. New records cover equivalences (nLab), graphical monoidal calculus (Peter Selinger), and categorical logic (Steve Awodey's course and notes). Existing textbooks by Leinster, Mac Lane, Riehl, and Fong–Spivak supply background and independent perspectives. Named historical/scholarly attribution in narration is anchored in the corresponding per-lecture sidecars.
+The existing bibliography remains in `content/category-theory/metadata/sources.json`. New records cover equivalences (nLab), graphical monoidal calculus (Peter Selinger), and categorical logic (Steve Awodey's course and notes). Existing textbooks by Leinster, Mac Lane, Riehl, and Fong–Spivak supply background and independent perspectives. Named historical/scholarly attribution in narration is anchored in the corresponding per-lecture sidecars.
 
 Sources are reference material and are not fed to TTS. The teaching text is original narration, not a reproduction of source chapters. All mathematical companion notation and source URLs occur after the end-of-spoken marker.
 

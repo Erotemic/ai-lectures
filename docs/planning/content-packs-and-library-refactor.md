@@ -116,7 +116,7 @@ Relevant implementation anchors:
 - [Course graph](../../dkvis/presentation/course_graph.py)
 - [Corpus inventory](../../tools/lecture_inventory.py)
 - [Concurrent contribution merge](../../tools/merge_world_history_overlay.py)
-- [Music example contract](../../draft-stages/tts-music-theory/examples/README.md)
+- [Music example contract](../../content/music-theory/examples/README.md)
 - [External asset contract](../EXTERNAL_ASSETS.md)
 
 ## Content model

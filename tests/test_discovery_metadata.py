@@ -130,7 +130,7 @@ def test_geographic_override_survives_title_enrichment_and_preserves_authored_pl
 
 def test_enrichment_can_target_a_single_lecture_without_writing_other_sidecars(tmp_path):
     from tools.enrich_discovery_metadata import run
-    folder = tmp_path/'draft-stages'/'tts-history'
+    folder = tmp_path/'content' / 'history'
     (folder/'metadata').mkdir(parents=True)
     entries = [dict(id=key, file=key+'-example.md', title='A subject') for key in ['001000', '002000']]
     (folder/'track.json').write_text(json.dumps(dict(id='history', lectures=entries)))

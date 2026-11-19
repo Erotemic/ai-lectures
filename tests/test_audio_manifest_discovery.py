@@ -9,7 +9,7 @@ def test_reader_discovers_every_existing_track(tmp_path):
     try:
         tracks = {row['id']: row for row in hub.course_tracks() if row['kind'] == 'audio'}
         expected = {}
-        for directory in (audio_library.ROOT / 'draft-stages').glob('tts-*/track.json'):
+        for directory in (audio_library.ROOT / 'content').glob('*/track.json'):
             plan = json.loads(directory.read_text(encoding='utf-8'))
             expected[plan['id']] = len(plan['lectures'])
         expected['g2'] = len(hub.engine('kokoro', 'g2')._files())

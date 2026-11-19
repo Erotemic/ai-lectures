@@ -2,7 +2,7 @@
 
 You are **Agent B**, using the **repaired November 15 ai-lectures baseline**, not the older branch snapshot. Your previous comedy commit `047c759` accidentally indexed four missing manuscripts. The coordinator has removed those four ghost entries to restore reader functionality; do not put them back until real files exist. The valid 054000–057000 lectures remain indexed.
 
-**Writable tracks only:** `draft-stages/tts-comedy-history/`, `draft-stages/tts-modern-world/`, `draft-stages/tts-history/`, `draft-stages/tts-world-history/`. Matching `docs/planning/agent-b-<track>/` and `tests/agent-b-<track>/` only. No shared code, root style policy, other agents' tracks, global curriculum edits, or worktrees.
+**Writable tracks only:** `content/comedy-history/`, `content/modern-world/`, `content/history/`, `content/world-history/`. Matching `docs/planning/agent-b-<track>/` and `tests/agent-b-<track>/` only. No shared code, root style policy, other agents' tracks, global curriculum edits, or worktrees.
 
 **First objective — repair comedy gap:** Recreate the actual missing `050000`–`053000` manuscripts and `metadata/<id>.json` sidecars: cross-linguistic jokes, cultural knowledge/audience reception, subtitling and dubbing, and multilingual comic performance. Search prior authentic content if available. If not, **write them anew** and cite genuine scholarship. Preserve the existing 054000–057000 absurdism/surrealism sequence. Update the comedy manifest, sections, source catalog and README only once the corresponding files exist. Never copy fabricated prior word counts into the index.
 

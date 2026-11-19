@@ -15,7 +15,7 @@ The mathematical companions provide the typed algebra maps and unit/multiplicati
 
 ## Source policy
 
-All bibliographic records are located in `draft-stages/tts-category-theory/metadata/sources.json`. Per-lecture resource choices and anchored historical or mathematical-scope statements are in `metadata/023000.json` through `026000.json`. Source URLs and proof details are outside the spoken lecture.
+All bibliographic records are located in `content/category-theory/metadata/sources.json`. Per-lecture resource choices and anchored historical or mathematical-scope statements are in `metadata/023000.json` through `026000.json`. Source URLs and proof details are outside the spoken lecture.
 
 Principal references include Lawvere's *Functorial Semantics of Algebraic Theories* (1963), Eilenberg–Moore algebra treatments, Jacobs/fibration and indexed-category texts, Hofmann–Streicher's groupoid model, Awodey–Warren on path objects, the *Homotopy Type Theory* book, and Leinster's *Higher Operads, Higher Categories*.
 

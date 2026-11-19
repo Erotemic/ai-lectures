@@ -13,7 +13,7 @@ Historical claims are bounded by track-local source records. Do not construe the
 
 ## Integration
 
-**Agent A only:** `draft-stages/tts-fiction-writing/` and `docs/planning/agent-a-fiction-writing/`.
+**Agent A only:** `content/fiction-writing/` and `docs/planning/agent-a-fiction-writing/`.
 
 Requires existing Agent A lectures through `015000`, including the `007500` overview. Before applying, run the scoped installer in `--check` mode. All updates remain in Agent A directories. The library inventory must report no unindexed files, missing sidecars, invalid references, or spoken word-count discrepancies.
 

@@ -20,7 +20,7 @@ Each spoken lecture restates the definitions it needs, without referring the lis
 
 ## Source and validation policy
 
-Bibliographic records live in `draft-stages/tts-category-theory/metadata/sources.json`; per-lecture reading selections and anchored attributions in `metadata/019000.json`–`022000.json`. Validate spoken-marker extraction, manifest counts, source existence, audio reader retrieval, and the numeric examples. The mathematical companions are explanatory and do not claim to be Lean-checked formal proofs.
+Bibliographic records live in `content/category-theory/metadata/sources.json`; per-lecture reading selections and anchored attributions in `metadata/019000.json`–`022000.json`. Validate spoken-marker extraction, manifest counts, source existence, audio reader retrieval, and the numeric examples. The mathematical companions are explanatory and do not claim to be Lean-checked formal proofs.
 
 ## Further extensions
 

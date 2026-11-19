@@ -28,7 +28,7 @@ spectral theorem is developed in this batch.
 
 ## Agent ownership and integration
 
-All changes are contained within `draft-stages/tts-analysis/**` and
+All changes are contained within `content/analysis/**` and
 `docs/planning/agent-c-analysis/**`. Apply after the 033000–036000 ZIP.
 The updated `track.json` enumerates all forty existing manuscripts; no
 shared reader or global test files are changed.

@@ -32,4 +32,4 @@ If future requests call for another set, expand historically grounded schools in
 - Verify spoken extraction from all new manuscripts.
 - Run `python tools/lecture_inventory.py` and the focused audio-track tests.
 - Preflight installation with `python tools/apply_track_overlay.py a <zip> --check`; apply only with the same installer.
-- Stage `draft-stages/tts-fiction-writing/` and `docs/planning/agent-a-fiction-writing/` only for commit.
+- Stage `content/fiction-writing/` and `docs/planning/agent-a-fiction-writing/` only for commit.

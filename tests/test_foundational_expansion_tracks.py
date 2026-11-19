@@ -12,7 +12,7 @@ from starlette.testclient import TestClient
 from dkvis.presentation.audio_library import AudioLectureHub, ROOT, narration_extractor
 from dkvis.presentation.serve import create_app
 
-TRACKS = {slug: ROOT / 'draft-stages' / ('tts-' + slug) for slug in (
+TRACKS = {slug: ROOT / 'content' / slug for slug in (
     'modern-world', 'physical-world', 'analysis', 'numerical-analysis')}
 
 

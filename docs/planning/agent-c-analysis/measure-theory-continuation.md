@@ -28,7 +28,7 @@ as quality gates.
 
 ## Integration contract
 
-Agent C owns only `draft-stages/tts-analysis/`,
+Agent C owns only `content/analysis/`,
 `docs/planning/agent-c-analysis/`, and its dedicated test namespace.
 The ZIP contains no shared reader, style, test or global registry edits.
 Apply after the 001000–028000 polishing overlay. The updated manifest

@@ -24,25 +24,26 @@ import urllib.request
 from uuid import uuid4
 
 from dkvis.presentation.paths import ROOT
+from ailectures.source_paths import pack_directories
 from dkvis.presentation.audio_jobs import SpeechQueue, GenerationCancelled, PRIORITY
 from dkvis.presentation.audio_metrics import AudioMetrics
 from dkvis.presentation.audio_preparation import PreparationManager
 
-SOURCE_DIRECTORY = ROOT / 'draft-stages' / 'tts-lectures'
-PAPER_DIRECTORY = ROOT / 'draft-stages' / 'tts-paper'
-HISTORY_DIRECTORY = ROOT / 'draft-stages' / 'tts-history'
-WORLD_HISTORY_DIRECTORY = ROOT / 'draft-stages' / 'tts-world-history'
-WORLD_RECONSIDERED_DIRECTORY = ROOT / 'draft-stages' / 'tts-world-reconsidered'
-CATEGORY_THEORY_DIRECTORY = ROOT / 'draft-stages' / 'tts-category-theory'
-LOGIC_TYPES_DIRECTORY = ROOT / 'draft-stages' / 'tts-logic-types'
-OPTIMIZATION_DUALITY_DIRECTORY = ROOT / 'draft-stages' / 'tts-optimization-duality'
-PROBABILITY_MEASURE_DIRECTORY = ROOT / 'draft-stages' / 'tts-probability-measure'
-MODERN_LITERATURE_DIRECTORY = ROOT / 'draft-stages' / 'tts-modern-literature'
-DEEP_TIME_DIRECTORY = ROOT / 'draft-stages' / 'tts-deep-time'
-MODERN_WORLD_DIRECTORY = ROOT / 'draft-stages' / 'tts-modern-world'
-PHYSICAL_WORLD_DIRECTORY = ROOT / 'draft-stages' / 'tts-physical-world'
-ANALYSIS_DIRECTORY = ROOT / 'draft-stages' / 'tts-analysis'
-NUMERICAL_ANALYSIS_DIRECTORY = ROOT / 'draft-stages' / 'tts-numerical-analysis'
+SOURCE_DIRECTORY = ROOT / 'content' / 'g2'
+PAPER_DIRECTORY = ROOT / 'content' / 'g3'
+HISTORY_DIRECTORY = ROOT / 'content' / 'history'
+WORLD_HISTORY_DIRECTORY = ROOT / 'content' / 'world-history'
+WORLD_RECONSIDERED_DIRECTORY = ROOT / 'content' / 'world-reconsidered'
+CATEGORY_THEORY_DIRECTORY = ROOT / 'content' / 'category-theory'
+LOGIC_TYPES_DIRECTORY = ROOT / 'content' / 'logic-types'
+OPTIMIZATION_DUALITY_DIRECTORY = ROOT / 'content' / 'optimization-duality'
+PROBABILITY_MEASURE_DIRECTORY = ROOT / 'content' / 'probability-measure'
+MODERN_LITERATURE_DIRECTORY = ROOT / 'content' / 'modern-literature'
+DEEP_TIME_DIRECTORY = ROOT / 'content' / 'deep-time'
+MODERN_WORLD_DIRECTORY = ROOT / 'content' / 'modern-world'
+PHYSICAL_WORLD_DIRECTORY = ROOT / 'content' / 'physical-world'
+ANALYSIS_DIRECTORY = ROOT / 'content' / 'analysis'
+NUMERICAL_ANALYSIS_DIRECTORY = ROOT / 'content' / 'numerical-analysis'
 EXTRACTOR = SOURCE_DIRECTORY / 'extract_narration.py'
 AUDIO_PAGE = Path(__file__).with_name('audio_library.html')
 LECTURE_NAME = re.compile(r'^(\d{6})-.*\.md$')
@@ -1006,7 +1007,7 @@ class AudioLectureHub:
         if self.sources == SOURCE_DIRECTORY.resolve():
             # A manifest and its directory are the only registration mechanism.
             # New independently-owned tracks must not modify shared Python or HTML.
-            for directory in sorted((ROOT / 'draft-stages').glob('tts-*')):
+            for directory in pack_directories(ROOT):
                 manifest = directory / 'track.json'
                 if not manifest.is_file():
                     continue
@@ -1019,7 +1020,7 @@ class AudioLectureHub:
                     # Its explicit manuscript order must not register it twice.
                     self.track_descriptions[track_id] = plan
                     continue
-                expected_directory = 'tts-paper' if track_id == 'g3' else f'tts-{track_id}'
+                expected_directory = track_id if directory.parent.name == 'content' else ('tts-paper' if track_id == 'g3' else f'tts-{track_id}')
                 if directory.name != expected_directory or track_id in {'g1', 'g2', 'g4'}:
                     raise ValueError(f'Track ID/directory mismatch: {manifest}: {track_id}')
                 if track_id in self.tracks:

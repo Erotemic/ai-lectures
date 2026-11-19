@@ -14,11 +14,11 @@ import json
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-DRAFTS = ROOT / 'draft-stages'
+DRAFTS = ROOT / 'content'
 
 
 def extractor_module():
-    source = DRAFTS / 'tts-lectures' / 'extract_narration.py'
+    source = DRAFTS / 'g2' / 'extract_narration.py'
     spec = importlib.util.spec_from_file_location('lecture_text_extractor', source)
     if spec is None or spec.loader is None:
         raise RuntimeError(f'No narration extractor: {source}')
@@ -32,7 +32,7 @@ def run(tracks: list[str], write: bool) -> int:
     changed_rows = 0
     changed_manifests = 0
     for track in tracks:
-        directory = DRAFTS / ('tts-paper' if track == 'g3' else f'tts-{track}')
+        directory = DRAFTS / track
         manifest = directory / 'track.json'
         if not manifest.is_file():
             raise FileNotFoundError(f'No manifest for track {track}: {manifest}')
@@ -80,7 +80,7 @@ def main() -> int:
     args = parser.parse_args()
     if args.tracks is None:
         args.tracks = sorted(json.loads(p.read_text(encoding='utf-8'))['id']
-                             for p in DRAFTS.glob('tts-*/track.json'))
+                             for p in DRAFTS.glob('*/track.json'))
     return run(args.tracks, args.write)
 
 

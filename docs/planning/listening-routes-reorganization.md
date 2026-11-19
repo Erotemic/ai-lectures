@@ -105,7 +105,7 @@ examples and are not guesses about author identity from a story's setting.
 ## Resume the interrupted writing
 
 The original expanded Journey writer should open
-[the pack-local continuation handoff](../../draft-stages/tts-pre-1900-literature/notes/journey-west-continuation-handoff.md)
+[the pack-local continuation handoff](../../content/pre-1900-literature/notes/journey-west-continuation-handoff.md)
 and the existing chapter source map. As of the latest checked contribution,
 17 expanded manuscripts cover selected-witness chapters 1–27; the next source
 chapter is 28. Read the live handoff before writing, since another batch can
@@ -122,7 +122,7 @@ shorter survey remains independently curated, so it does not grow into another
 chapter-by-chapter retelling. No server edit, global registration, runtime pack
 build, synthesis, or repository-wide test is required to continue writing.
 
-A separate [Water Margin handoff](../../draft-stages/tts-world-history/water-margin-organization-handoff.md)
+A separate [Water Margin handoff](../../content/world-history/water-margin-organization-handoff.md)
 records its actual stopping point, version-specific endings, and possible
 continuation units. Its shared World History IDs still require the existing
 reservation/merge workflow. How We Know retains its reserved ID range.

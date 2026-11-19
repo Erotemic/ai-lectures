@@ -11,7 +11,7 @@
 
 The first lecture distinguishes Esslin's critical category from the work and self-understanding of playwrights grouped by it. The second is explicitly historical about Dada and the 1924 surrealist movement; it does not say that later popular sketch programs belong to those movements. The third compares but does not identify Camus' and Nagel's responses. The fourth treats contemporary reality-based comedy as a set of production strategies with associated consent and ethical questions rather than as a uniform school.
 
-The cumulative track remains under `draft-stages/tts-comedy-history`; no other agent's source or global reader code is touched. Manuscripts use numbered IDs within the track, spoken delimiters, per-lecture source sidecars and exact manifest word counts. Display-only reference sections do not enter narration.
+The cumulative track remains under `content/comedy-history`; no other agent's source or global reader code is touched. Manuscripts use numbered IDs within the track, spoken delimiters, per-lecture source sidecars and exact manifest word counts. Display-only reference sections do not enter narration.
 
 ## Editorial cautions and provenance
 

@@ -3,8 +3,7 @@
 Content agents can send an ordinary ZIP containing their pack directory. They do
 not need a snapshot receipt, a special ZIP format, or knowledge of runtime pack
 internals. Keep each agent's manuscripts, metadata, reading records, and examples
-inside its assigned `content/<namespace>/` or `draft-stages/tts-<namespace>/`
-directory. Server and UI development can continue separately.
+inside its assigned `content/<namespace>/` directory. Server and UI development can continue separately.
 
 ## Start an authoring backlog
 
@@ -54,7 +53,7 @@ as part of the pack-local metadata update. Original `:main` bookmarks continue
 to expose the complete source sequence.
 
 The interrupted Journey to the West writer should start with the
-[pack-local continuation handoff](../draft-stages/tts-pre-1900-literature/notes/journey-west-continuation-handoff.md).
+[pack-local continuation handoff](../content/pre-1900-literature/notes/journey-west-continuation-handoff.md).
 It records the exact stopping point, edition choices, and candidate IDs to
 recheck. Its expanded route now follows the section automatically. The
 [reorganization notes](planning/listening-routes-reorganization.md) and
@@ -84,6 +83,14 @@ A task you can give an agent:
 requirement. Keep revisions under their existing IDs. A new pack needs no central
 reservation file; distinct namespaces keep agents independent. Agents sharing a
 legacy pack must coordinate IDs and merge their additions, as with World History.
+
+## Source storage after migration
+
+All active audio source packs live in `content/<namespace>/`, including `content/g2/`
+and `content/g3/`. Stable pack, lecture and collection IDs are unchanged. Older
+repository-relative ZIP paths are redirected to an existing migrated pack by the
+importer, with the original hash and conflict checks intact. Continue authoring in
+the canonical directory; do not recreate `draft-stages/tts-*` folders.
 
 ## Import a download
 
@@ -140,7 +147,7 @@ packaging details:
 
 ```bash
 python tools/content_overlay.py build \
-  --pack draft-stages/tts-trades-electrical \
+  --pack content/trades-electrical \
   --output electrical-overlay.zip
 ```
 

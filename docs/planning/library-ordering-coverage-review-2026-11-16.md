@@ -180,7 +180,7 @@ infer the author’s identity. This is a coverage map, not an identity census.
 ## Journey to the West: concrete continuation handoff
 
 The authoritative existing guide is
-`draft-stages/tts-pre-1900-literature/notes/journey-west-expanded-retelling-source-map.md`.
+`content/pre-1900-literature/notes/journey-west-expanded-retelling-source-map.md`.
 The current 25 expanded entries 441000–465000 cover the selected witness’s chapters
 1–12. The last entry is Guanyin’s revelation and Xuanzang’s oath. Continue with
 chapter13(the first mountain danger, loss of the attendants, and hunter Liu

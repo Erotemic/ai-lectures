@@ -1,6 +1,6 @@
 # Cross-cultural comedy research and translation: completed batch 050000-053000
 
-All four lectures are completed, source-anchored, standalone recordings in `draft-stages/tts-comedy-history/`. The prior modern series ends with 049000; this batch extends it without writing any other agent's namespace. `007000-030000` remain reserved for uncompleted historical curriculum.
+All four lectures are completed, source-anchored, standalone recordings in `content/comedy-history/`. The prior modern series ends with 049000; this batch extends it without writing any other agent's namespace. `007000-030000` remain reserved for uncompleted historical curriculum.
 
 | ID | Main question | Scholarly focus |
 | --- | --- | --- |

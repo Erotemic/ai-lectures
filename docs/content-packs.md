@@ -7,9 +7,9 @@ The old audio reader is at `/audio`; original presentations are at
 surfaces load only when opened. Existing render commands and scene order remain
 unchanged.
 
-The implementation is in `ailectures/`. Existing manuscripts remain in their
-current directories, and new independently owned source packs can live in
-`content/<namespace>/`. Each source pack owns its `track.json`, manuscripts,
+The implementation is in `ailectures/`. All active audio source packs live in `content/<namespace>/`. The older
+`draft-stages/tts-*` directories have been migrated; incoming older ZIPs remain
+supported through path relocation. Each source pack owns its `track.json`, manuscripts,
 metadata, reading sources, and declarative examples. No shared Python registry,
 global lecture list, or navigation edit is required.
 

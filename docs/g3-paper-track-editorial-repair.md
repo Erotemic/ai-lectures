@@ -6,7 +6,7 @@ which teaches Proposition 4.3's whole-space squared displacement theorem.
 
 ## Listening order
 
-The source of the curated G3 listening order is `draft-stages/tts-paper/track.json`.
+The source of the curated G3 listening order is `content/g3/track.json`.
 The audio reader and the course graph consume that order, not sorted filenames.
 The Section 4 transport sequence appears at the end of G3:
 

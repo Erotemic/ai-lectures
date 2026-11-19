@@ -224,7 +224,7 @@ def test_pagination_algorithm_change_invalidates_cached_audio(audio_site):
 def audio_site(tmp_path):
     source = tmp_path/'src'
     source.mkdir()
-    original = ROOT/'draft-stages'/'tts-lectures'/'extract_narration.py'
+    original = ROOT/'content' / 'g2'/'extract_narration.py'
     shutil.copyfile(original, source/'extract_narration.py')
     lecture = source/'123000-mock-lecture.md'
     lecture.write_text('# Some mathematical material\n\n<!-- BEGIN SPOKEN LECTURE -->\n\n'
@@ -581,7 +581,7 @@ def test_profile_selection_voice_registration_and_cache_isolation(tmp_path, monk
     monkeypatch.setenv('KOKORO_TTS_ENDPOINT', 'http://127.0.0.1:8880/v1/audio/speech')
     monkeypatch.setenv('CRALL_TTS_ENDPOINT', '')
     source = tmp_path/'lectures';source.mkdir()
-    shutil.copyfile(ROOT/'draft-stages'/'tts-lectures'/'extract_narration.py',
+    shutil.copyfile(ROOT/'content' / 'g2'/'extract_narration.py',
                     source/'extract_narration.py')
     (source/'123000-test-lecture.md').write_text(
         '# Test lecture\n\n<!-- BEGIN SPOKEN LECTURE -->\n\n'
@@ -1226,7 +1226,7 @@ def test_priority_scheduler_queued_cancel_and_browser_api(tmp_path, monkeypatch)
     from dkvis.presentation.serve import create_app
     src = tmp_path / 'lectures'
     src.mkdir()
-    shutil.copyfile(ROOT / 'draft-stages' / 'tts-lectures' / 'extract_narration.py',
+    shutil.copyfile(ROOT / 'content' / 'g2' / 'extract_narration.py',
                     src / 'extract_narration.py')
     (src / '123000-test.md').write_text('# Test\n\n<!-- BEGIN SPOKEN LECTURE -->\n\n'
                + 'First complete sentence with ample mathematical context. ' * 42

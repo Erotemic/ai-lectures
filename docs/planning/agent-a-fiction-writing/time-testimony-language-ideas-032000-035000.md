@@ -16,7 +16,7 @@ Four complete independent audio-first manuscripts continuing the fiction school-
 - Explicit historical or bibliographic assertions have registered source IDs and in-text anchors.
 - All fictional cases are original demonstrations, not alleged episodes from the cited authors' lives or books.
 - The treatment of unreliable narration is about formal literary representation and does not purport to establish whether real testimony is truthful.
-- Agent A owns only `draft-stages/tts-fiction-writing/` and `docs/planning/agent-a-fiction-writing/`. No shared TTS reader or other agents' material was edited.
+- Agent A owns only `content/fiction-writing/` and `docs/planning/agent-a-fiction-writing/`. No shared TTS reader or other agents' material was edited.
 
 ## Follow-on topics (not written)
 

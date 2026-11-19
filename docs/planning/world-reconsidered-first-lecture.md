@@ -4,7 +4,7 @@
 synthesized or spot-listened.
 
 The first concrete lecture of *The World Reconsidered* is
-`draft-stages/tts-world-reconsidered/001000-what-causes-something.md`.
+`content/world-reconsidered/001000-what-causes-something.md`.
 It is a standalone question-centered teaching narrative, with a companion
 showing the exact assumptions and historical tables, and eight linked readings.
 

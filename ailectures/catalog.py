@@ -25,6 +25,7 @@ from .tagging import normalize_paths
 from .organization import collection_metadata, topic_tags
 from .navigation import route_collections
 from .companions import discover_companions, companion_file
+from .source_paths import pack_directory
 
 LECTURE_FILE = re.compile(r"^([0-9]{6})-.*\.md$")
 
@@ -155,8 +156,8 @@ def repository_track(directory, *, previous=None, strict=False):
                 f"{filename} is not indexed; available in the library outside the course order"
             )
     source_path = directory / "metadata" / "sources.json"
-    if not source_path.exists() and directory.name in {"tts-lectures", "tts-paper"}:
-        source_path = directory.parent / "tts-lectures" / "metadata" / "sources.json"
+    if not source_path.exists() and namespace in {"g2", "g3"}:
+        source_path = pack_directory(directory.parent.parent, "g2") / "metadata" / "sources.json"
     old_sources = {
         key: source
         for row in previous.get("lectures", {}).values()
@@ -291,6 +292,7 @@ class RepositoryCatalog:
                     "organization.py",
                     "presentations.py",
                     "manuscripts.py",
+                    "source_paths.py",
                 )
             ]
         )

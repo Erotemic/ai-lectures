@@ -6,10 +6,10 @@ This document is the shared contract for **four agents forked from the same base
 
 | Agent | Subject | Exclusive lecture directory | Exclusive planning directory | Exclusive tests directory |
 | --- | --- | --- | --- | --- |
-| A | How to write fiction | `draft-stages/tts-fiction-writing/` | `docs/planning/agent-a-fiction-writing/` | `tests/agent-a-fiction-writing/` |
-| B | How to write comedy; history/theories of comedy; satire | `draft-stages/tts-comedy-history/` | `docs/planning/agent-b-comedy-history/` | `tests/agent-b-comedy-history/` |
-| C | Real analysis and complex analysis | `draft-stages/tts-analysis/` | `docs/planning/agent-c-analysis/` | `tests/agent-c-analysis/` |
-| D | Music theory and composition | `draft-stages/tts-music-theory/` | `docs/planning/agent-d-music-theory/` | `tests/agent-d-music-theory/` |
+| A | How to write fiction | `content/fiction-writing/` | `docs/planning/agent-a-fiction-writing/` | `tests/agent-a-fiction-writing/` |
+| B | How to write comedy; history/theories of comedy; satire | `content/comedy-history/` | `docs/planning/agent-b-comedy-history/` | `tests/agent-b-comedy-history/` |
+| C | Real analysis and complex analysis | `content/analysis/` | `docs/planning/agent-c-analysis/` | `tests/agent-c-analysis/` |
+| D | Music theory and composition | `content/music-theory/` | `docs/planning/agent-d-music-theory/` | `tests/agent-d-music-theory/` |
 
 Within their respective lecture directory, agents own lecture `.md` manuscripts, `track.json`, `README.md`, `metadata/sources.json`, `metadata/<id>.json`, and other text-only per-track reference material. They do **not** share or need a global bibliography. Repeated `001000` IDs in different tracks are intentional: every audio request and cache is qualified by track ID.
 
@@ -26,9 +26,9 @@ The audio reader now discovers every `draft-stages/tts-*/track.json` at **servic
 ## Track content contract
 
 - Each lecture file is named `<six-digit-id>-<slug>.md`; IDs need only be unique **within** a track. A separate per-track `track.json` lists only present manuscripts and their IDs, filenames, titles, sections, and accurate `spoken_words`, in intended listening order. Never list proposed or missing manuscripts as delivered. Plans for future lectures belong under the agent's own planning namespace.
-- Every lecture has one `<!-- BEGIN SPOKEN LECTURE -->` and one `<!-- END SPOKEN LECTURE -->` marker. It is understandable on its own when listened to without a previous lecture. Narrative depth takes priority over hitting a rigid duration; avoid slides-only language or raw TeX in the spoken portion. The canonical extractor is `draft-stages/tts-lectures/extract_narration.py` (shared, read-only).
+- Every lecture has one `<!-- BEGIN SPOKEN LECTURE -->` and one `<!-- END SPOKEN LECTURE -->` marker. It is understandable on its own when listened to without a previous lecture. Narrative depth takes priority over hitting a rigid duration; avoid slides-only language or raw TeX in the spoken portion. The canonical extractor is `content/g2/extract_narration.py` (shared, read-only).
 - References, mathematical examples, composition examples, exercises, annotations, and further reading can live **outside** the spoken markers. References belong in that track's `metadata/sources.json` and per-lecture `metadata/<id>.json`. Reuse source IDs within the track; do not edit the global references.
-- Agent D creates `draft-stages/tts-music-theory/track.json` with `"id": "music-theory"`, readable `title` and `summary`, and at least one completed lecture before presenting the track as populated. No shared reader changes.
+- Agent D creates `content/music-theory/track.json` with `"id": "music-theory"`, readable `title` and `summary`, and at least one completed lecture before presenting the track as populated. No shared reader changes.
 - Agents may work on multiple ZIP overlays over successive turns. Each ZIP must be self-consistent when applied to the baseline plus that agent's earlier ZIPs. The manifest must contain **all** numbered manuscripts in its directory after application. Repeating a path in multiple ZIPs from the **same** agent is permitted and considered an intentional revision, but overlays from **different** agents can never share a path.
 
 ## Preflight, installation, and verification
@@ -42,8 +42,8 @@ python tools/lecture_inventory.py
 python -m pytest -q tests/test_audio_manifest_discovery.py
 
 git add dkvis/presentation/audio_library.py dkvis/presentation/audio_library.html \
-  draft-stages/tts-analysis draft-stages/tts-modern-world \
-  draft-stages/tts-physical-world draft-stages/tts-numerical-analysis \
+  content/analysis content/modern-world \
+  content/physical-world content/numerical-analysis \
   docs/planning/four-agent-lecture-baseline.md tools/apply_track_overlay.py \
   tools/lecture_inventory.py tests/test_audio_manifest_discovery.py \
   tests/test_category_theory_track.py tests/test_foundational_expansion_tracks.py \
@@ -62,7 +62,7 @@ python tools/apply_track_overlay.py a ~/Downloads/agent-a-overlay.zip
 python tools/lecture_inventory.py
 python -m pytest -q tests/test_audio_manifest_discovery.py
 
-git add draft-stages/tts-fiction-writing docs/planning/agent-a-fiction-writing tests/agent-a-fiction-writing
+git add content/fiction-writing docs/planning/agent-a-fiction-writing tests/agent-a-fiction-writing
 git commit -m "Expand fiction-writing lecture track"
 ```
 

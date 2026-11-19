@@ -32,7 +32,7 @@ NUMBERED = re.compile(r'[0-9]{6}-[^/]+\.md\Z')
 
 def apply(repo: Path, agent: str, archive: Path, check_only: bool = False) -> list[str]:
     tracks = OWNERS[agent]
-    track_roots = {track: f'draft-stages/tts-{track}/' for track in tracks}
+    track_roots = {track: f'content/{track}/' for track in tracks}
     permitted_roots = tuple(
         f'{prefix}{track}/'
         for track in tracks

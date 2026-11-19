@@ -21,6 +21,7 @@ ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 from ailectures.source_updates import apply_files, source_lock
+from ailectures.source_paths import relocated_path
 
 SNAPSHOT = "SOURCE_SNAPSHOT.json"
 OVERLAY = "content-overlay.json"
@@ -279,6 +280,19 @@ def _read_archive(repo, archive, pack=None):
             root = str(pack_path(pack or inferred or _infer_root(repo, payload)))
             payload = {root + "/" + path: data for path, data in payload.items()}
             roots = [PurePosixPath(root)]
+    # Validate the original archive first, then map legacy destinations. Mixed
+    # old/new aliases must not overwrite one another after relocation.
+    moved, moved_bases = {}, {}
+    for path, data in payload.items():
+        target = relocated_path(repo, path)
+        if target in moved:
+            raise ValueError("Duplicate destination after source-pack relocation: " + target)
+        moved[target] = data
+        moved_bases[target] = bases.get(path)
+    payload, bases = moved, moved_bases
+    roots = sorted({pack_path(relocated_path(repo, str(root))) for root in roots}, key=str)
+    if pack:
+        pack = relocated_path(repo, str(pack_path(pack)))
     if pack and {str(root) for root in roots} != {str(pack_path(pack))}:
         raise ValueError("ZIP paths do not match the selected pack")
     if not payload:

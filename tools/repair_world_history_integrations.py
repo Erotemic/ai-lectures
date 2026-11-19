@@ -10,7 +10,7 @@ import sys
 
 ROOT = Path(__file__).resolve().parents[1]
 TRACK_TESTS = ROOT / 'tests/test_audio_course_tracks.py'
-README = ROOT / 'draft-stages/tts-world-history/README.md'
+README = ROOT / 'content/world-history/README.md'
 AGENTS = ROOT / 'AGENTS.md'
 
 OLD_CHECKS = [
@@ -67,7 +67,7 @@ new IDs against the *current* repository before starting a series. The
 strand; literary series must use another free range.
 
 Do not install a stale overlay with `unzip -o` over the repository. It can
-replace `draft-stages/tts-world-history/track.json`,
+replace `content/world-history/track.json`,
 `metadata/sources.json`, shared tests, or the README and discard work by
 other agents. Instead apply lecture overlays with
 `python tools/merge_world_history_overlay.py --zip /path/to/overlay.zip`.

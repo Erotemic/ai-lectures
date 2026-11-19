@@ -60,7 +60,7 @@ We can compare earlier traditions with them without declaring those received
 books to be ancient.
 
 For the original World History ancient strand, see
-[`ANCIENT_LITERATURE_ROADMAP.md`](../../draft-stages/tts-world-history/ANCIENT_LITERATURE_ROADMAP.md).
+[`ANCIENT_LITERATURE_ROADMAP.md`](../../content/world-history/ANCIENT_LITERATURE_ROADMAP.md).
 For the existing period navigation, see [`navigation.json`](navigation.json).
 The plan below supplements, rather than supplants, either file.
 
@@ -382,7 +382,7 @@ possible; no historical or manuscript claims without suitable corroboration.
 
 ## Commission and completion procedure
 
-1. **Audit the current catalog first.** Check `content/literature-survey/track.json`, `navigation.json`, and `draft-stages/tts-world-history/track.json` before assigning an ID. Planned rows here do not reserve an ID and are not listening-ready.
+1. **Audit the current catalog first.** Check `content/literature-survey/track.json`, `navigation.json`, and `content/world-history/track.json` before assigning an ID. Planned rows here do not reserve an ID and are not listening-ready.
 2. **Choose an identifiable base text or authorized recorded/public oral account.** For a written work specify language, recension/edition, translator (if used), preserved extent, manuscript gaps, and date distinctions. For an oral account record the people, named narrator or Knowledge Holders, publication/recording, language and translation if known, who may authorize reuse, and any restrictions. Never substitute a composite summary for an actual telling without labeling it.
 3. **Outline the actual scenes or distinct pieces before drafting.** Cover the central characters' actions and changes, including the ending of the chosen witness. If the work is fragmentary, narrate only what survives, describing gaps without filling them. If it is an anthology, identify each chosen selection. If an oral account describes a living place or a sequence of associations rather than a dramatic plot, respect that form and do not invent a plot.
 4. **Write for ears, not as a catalog.** Establish place, characters, consequences, and relevant historical setting within standalone narration. Use no spoken dependency on an earlier recording. Let the text determine length and natural divisions.

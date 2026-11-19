@@ -1,7 +1,7 @@
 # Modern schools of thought about comedy — delivered sequence
 
 **Agent:** B (exclusive track owner)  
-**Scope:** `draft-stages/tts-comedy-history/**` and this agent's planning namespace  
+**Scope:** `content/comedy-history/**` and this agent's planning namespace
 **Status:** An extended `030500` orientation plus nineteen completed modern audio-first lectures, IDs `031000`–`049000`, based on the prior six-lecture comedy track.  
 **Baseline requirement:** Apply the previous Agent B overlay `003000`–`006000` first; the previous two Agent B modern-school overlays (031000–037000 and 030500) must also be applied before this overlay. The current manifest lists all 26 manuscripts.
 

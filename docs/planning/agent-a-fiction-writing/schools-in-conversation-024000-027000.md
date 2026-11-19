@@ -15,7 +15,7 @@ These lectures put recently introduced schools and individual writer positions i
 
 ## Scope and ownership
 
-Only `draft-stages/tts-fiction-writing/` and `docs/planning/agent-a-fiction-writing/`. Track manifests, sources, manuscripts and narration companions are indexed within that directory. Length follows the substance; manifest measurements do not impose an editorial length policy.
+Only `content/fiction-writing/` and `docs/planning/agent-a-fiction-writing/`. Track manifests, sources, manuscripts and narration companions are indexed within that directory. Length follows the substance; manifest measurements do not impose an editorial length policy.
 
 ## Verification
 

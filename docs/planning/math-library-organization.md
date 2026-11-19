@@ -124,7 +124,7 @@ Existing manifests and source text are unchanged.
 **Number theory now has branches.** Its original 54-entry main sequence
 interleaves elementary arithmetic, analytic prime-distribution proofs,
 algebraic number theory, and local arithmetic. The new
-`draft-stages/tts-number-theory/navigation.json` preserves that full order as
+`content/number-theory/navigation.json` preserves that full order as
 the `number-theory:main` archive. A six-lecture `:survey` is the default, with
 seven deeper branches. Every one of the 54 indexed lectures occurs in at least
 one curated route, without requiring a survey listener to take all of them:

@@ -55,11 +55,11 @@ library for the current inventory and audio availability.
 
 | Area | Examples and source locations |
 | --- | --- |
-| Mathematics and computing | [Analysis](draft-stages/tts-analysis/), [algebra](draft-stages/tts-abstract-algebra/), [topology and geometry](draft-stages/tts-topology-geometry/), [category theory](draft-stages/tts-category-theory/), [probability](draft-stages/tts-probability-measure/), and [algorithms](draft-stages/tts-algorithms-computability-complexity/) |
-| History and science | [Ancient and medieval worlds](content/ancient-medieval-world/), [world history and historical evidence](draft-stages/tts-world-history/), [modern history](draft-stages/tts-modern-world/), [deep time](draft-stages/tts-deep-time/), and [people behind mathematical ideas](draft-stages/tts-history/) |
-| Literature and writing | [Classics before 1900](draft-stages/tts-pre-1900-literature/), [twentieth-century literature](draft-stages/tts-modern-literature/), [fiction writing](draft-stages/tts-fiction-writing/), and [comedy](draft-stages/tts-comedy-history/) |
-| Music | [Music theory and composition](draft-stages/tts-music-theory/), including pack-local examples and companions |
-| Practical subjects and trades | [Household maintenance](draft-stages/tts-practical-household-maintenance/), [food science](draft-stages/tts-practical-food-science/), [tools and measurement](draft-stages/tts-practical-tools-and-measurement/), [electrical systems](draft-stages/tts-trades-electrical/), and other practical/trade packs |
+| Mathematics and computing | [Analysis](content/analysis/), [algebra](content/abstract-algebra/), [topology and geometry](content/topology-geometry/), [category theory](content/category-theory/), [probability](content/probability-measure/), and [algorithms](content/algorithms-computability-complexity/) |
+| History and science | [Ancient and medieval worlds](content/ancient-medieval-world/), [world history and historical evidence](content/world-history/), [modern history](content/modern-world/), [deep time](content/deep-time/), and [people behind mathematical ideas](content/history/) |
+| Literature and writing | [Classics before 1900](content/pre-1900-literature/), [twentieth-century literature](content/modern-literature/), [fiction writing](content/fiction-writing/), and [comedy](content/comedy-history/) |
+| Music | [Music theory and composition](content/music-theory/), including pack-local examples and companions |
+| Practical subjects and trades | [Household maintenance](content/practical-household-maintenance/), [food science](content/practical-food-science/), [tools and measurement](content/practical-tools-and-measurement/), [electrical systems](content/trades-electrical/), and other practical/trade packs |
 | Children's stories | [Standalone bedtime stories](content/bedtime-stories/), [episodic stories](content/childrens-bedtime-stories-episodic-ages-3-4/), and [Brook Road Builders](content/brook-road-builders-ages-3-4/) |
 
 A **pack** owns its manuscripts, metadata, sources, and examples. A
@@ -102,7 +102,7 @@ content/my-subject/
   examples/                  # optional examples and companions
 ```
 
-Existing packs under `draft-stages/tts-*/` remain supported; their directory
+All authored audio packs live under `content/<namespace>/`; their directory
 name does not determine their editorial readiness. Keep their established
 paths and IDs when extending them. Narration is the text between one
 `<!-- BEGIN SPOKEN LECTURE -->` / `<!-- END SPOKEN LECTURE -->` pair in each
@@ -201,7 +201,7 @@ establishes learning benefits for this library.
 | Location | Purpose |
 | --- | --- |
 | `ailectures/` | Portable reader, catalog, storage, playback UI, and production integration |
-| `content/`, `draft-stages/tts-*/` | Authored source packs and their local metadata |
+| `content/` | Authored source packs and their local metadata |
 | `reviews/` | Revision-bound editorial findings and review tooling contract |
 | `tools/` | Content handoffs, audits, review runner, and maintenance utilities |
 | `docs/content-packs.md` | Reader operation, source format, TTS, transfer, and backups |

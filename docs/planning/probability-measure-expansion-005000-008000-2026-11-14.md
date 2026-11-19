@@ -44,4 +44,4 @@ These are proposals, not yet authored manuscripts. Each should be independently 
 - Gelman et al., *Bayesian Data Analysis*: priors, likelihoods, posterior prediction and model checks.
 - Brier (1950), Gneiting and Raftery (2007): probabilistic forecast evaluation and proper scores.
 
-The source records are in `draft-stages/tts-probability-measure/metadata/sources.json`, with per-lecture claim anchors and references. No audio generation or listening audit is implied by registering text manuscripts.
+The source records are in `content/probability-measure/metadata/sources.json`, with per-lecture claim anchors and references. No audio generation or listening audit is implied by registering text manuscripts.

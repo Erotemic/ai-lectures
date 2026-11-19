@@ -17,23 +17,23 @@ The six occupied original IDs are remapped. In particular, `history:133000` rema
 
 | Current lecture | Original ID |
 | --- | --- |
-| [162000 · Grigori Perelman: The geometry of a proof, and the right to refuse](../draft-stages/tts-history/162000-perelman.md) | 133000 |
-| [163000 · Girolamo Cardano: A secret, a wager, and the price of a reputation](../draft-stages/tts-history/163000-cardano.md) | 134000 |
-| [164000 · Niccolò Tartaglia: The teacher who would not surrender his discovery](../draft-stages/tts-history/164000-tartaglia.md) | 135000 |
-| [165000 · Julia Robinson: The birthday wish and the problem no machine could solve](../draft-stages/tts-history/165000-julia-robinson.md) | 136000 |
-| [166000 · Charles Darwin: Five years at sea, twenty years of evidence](../draft-stages/tts-history/166000-darwin.md) | 137000 |
-| [167000 · Albert Einstein: A life spent questioning what seems obvious](../draft-stages/tts-history/167000-einstein.md) | 138000 |
-| [148000 · Subrahmanyan Chandrasekhar: The weight a star can bear](../draft-stages/tts-history/148000-chandrasekhar.md) | 148000 |
-| [149000 · Dorothy Crowfoot Hodgkin: Making the invisible visible](../draft-stages/tts-history/149000-hodgkin.md) | 149000 |
-| [150000 · Jocelyn Bell Burnell: The signal in the noise](../draft-stages/tts-history/150000-bell-burnell.md) | 150000 |
-| [151000 · Alfred Wegener: The continents that would not stay still](../draft-stages/tts-history/151000-wegener.md) | 151000 |
-| [152000 · Marie Tharp: The ocean floor was not blank](../draft-stages/tts-history/152000-tharp.md) | 152000 |
-| [153000 · Fritz Haber: Bread from air](../draft-stages/tts-history/153000-haber-nitrogen.md) | 153000 |
-| [153500 · Fritz Haber: War, exile, and the weight of a discovery](../draft-stages/tts-history/153500-haber-war-exile.md) | 153500 |
-| [154000 · Ignaz Semmelweis: The deadly difference between two wards](../draft-stages/tts-history/154000-semmelweis.md) | 154000 |
-| [155000 · Tycho Brahe: An Island Built to Measure the Heavens](../draft-stages/tts-history/155000-tycho-brahe.md) | 155000 |
-| [156000 · Tu Youyou: The fever, the archive, and sample 191](../draft-stages/tts-history/156000-tu-youyou.md) | 156000 |
-| [161000 · Vera Rubin: The Speed of the Invisible](../draft-stages/tts-history/161000-vera-rubin.md) | 161000 |
+| [162000 · Grigori Perelman: The geometry of a proof, and the right to refuse](../content/history/162000-perelman.md) | 133000 |
+| [163000 · Girolamo Cardano: A secret, a wager, and the price of a reputation](../content/history/163000-cardano.md) | 134000 |
+| [164000 · Niccolò Tartaglia: The teacher who would not surrender his discovery](../content/history/164000-tartaglia.md) | 135000 |
+| [165000 · Julia Robinson: The birthday wish and the problem no machine could solve](../content/history/165000-julia-robinson.md) | 136000 |
+| [166000 · Charles Darwin: Five years at sea, twenty years of evidence](../content/history/166000-darwin.md) | 137000 |
+| [167000 · Albert Einstein: A life spent questioning what seems obvious](../content/history/167000-einstein.md) | 138000 |
+| [148000 · Subrahmanyan Chandrasekhar: The weight a star can bear](../content/history/148000-chandrasekhar.md) | 148000 |
+| [149000 · Dorothy Crowfoot Hodgkin: Making the invisible visible](../content/history/149000-hodgkin.md) | 149000 |
+| [150000 · Jocelyn Bell Burnell: The signal in the noise](../content/history/150000-bell-burnell.md) | 150000 |
+| [151000 · Alfred Wegener: The continents that would not stay still](../content/history/151000-wegener.md) | 151000 |
+| [152000 · Marie Tharp: The ocean floor was not blank](../content/history/152000-tharp.md) | 152000 |
+| [153000 · Fritz Haber: Bread from air](../content/history/153000-haber-nitrogen.md) | 153000 |
+| [153500 · Fritz Haber: War, exile, and the weight of a discovery](../content/history/153500-haber-war-exile.md) | 153500 |
+| [154000 · Ignaz Semmelweis: The deadly difference between two wards](../content/history/154000-semmelweis.md) | 154000 |
+| [155000 · Tycho Brahe: An Island Built to Measure the Heavens](../content/history/155000-tycho-brahe.md) | 155000 |
+| [156000 · Tu Youyou: The fever, the archive, and sample 191](../content/history/156000-tu-youyou.md) | 156000 |
+| [161000 · Vera Rubin: The Speed of the Invisible](../content/history/161000-vera-rubin.md) | 161000 |
 
 ## Restored mathematical connections
 
@@ -41,12 +41,12 @@ The new lectures have explicit teaching-preparation metadata and focused routes.
 
 | Lecture | Subject |
 | --- | --- |
-| [One Fit, Three Mathematical Languages: Projection, Optimization, and Statistical Evidence](../draft-stages/tts-linear-algebra/028000-one-fit-three-mathematical-languages.md) | linear-algebra |
-| [What a Gradient Depends On: Differentials, Geometry, and Steepest Descent](../draft-stages/tts-multivariable-calculus/071000-what-a-gradient-depends-on.md) | multivariable-calculus |
-| [From Jacobians to Uncertainty Budgets: Errors, Correlations, and Nonlinearity](../draft-stages/tts-multivariable-calculus/072000-jacobians-and-uncertainty-budgets.md) | multivariable-calculus |
-| [The Chain Rule Run Backward: Gradients, Backpropagation, and Adjoint Sensitivity](../draft-stages/tts-multivariable-calculus/073000-the-chain-rule-run-backwards.md) | multivariable-calculus |
-| [Curvature, Conditioning, and Regularization: Why Optimization Speed Is Geometric](../draft-stages/tts-optimization-duality/017000-curvature-conditioning-and-regularization.md) | optimization-duality |
-| [Conditional Expectation as Projection: Why Regression Is Only One Kind of Prediction](../draft-stages/tts-probability-measure/036000-conditional-expectation-as-projection.md) | probability-measure |
+| [One Fit, Three Mathematical Languages: Projection, Optimization, and Statistical Evidence](../content/linear-algebra/028000-one-fit-three-mathematical-languages.md) | linear-algebra |
+| [What a Gradient Depends On: Differentials, Geometry, and Steepest Descent](../content/multivariable-calculus/071000-what-a-gradient-depends-on.md) | multivariable-calculus |
+| [From Jacobians to Uncertainty Budgets: Errors, Correlations, and Nonlinearity](../content/multivariable-calculus/072000-jacobians-and-uncertainty-budgets.md) | multivariable-calculus |
+| [The Chain Rule Run Backward: Gradients, Backpropagation, and Adjoint Sensitivity](../content/multivariable-calculus/073000-the-chain-rule-run-backwards.md) | multivariable-calculus |
+| [Curvature, Conditioning, and Regularization: Why Optimization Speed Is Geometric](../content/optimization-duality/017000-curvature-conditioning-and-regularization.md) | optimization-duality |
+| [Conditional Expectation as Projection: Why Regression Is Only One Kind of Prediction](../content/probability-measure/036000-conditional-expectation-as-projection.md) | probability-measure |
 
 ## Superseded Earth-systems alternatives
 

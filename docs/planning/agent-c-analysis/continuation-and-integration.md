@@ -1,6 +1,6 @@
 # Agent C: analysis track — opening sequence and future boundary
 
-**Ownership:** `draft-stages/tts-analysis/**`, `docs/planning/agent-c-analysis/**`, and optionally `tests/agent-c-analysis/**`. Everything else is read-only. This deliverable is a text-only ZIP overlay for the shared baseline.
+**Ownership:** `content/analysis/**`, `docs/planning/agent-c-analysis/**`, and optionally `tests/agent-c-analysis/**`. Everything else is read-only. This deliverable is a text-only ZIP overlay for the shared baseline.
 
 ## Completed opening sequence
 
@@ -50,7 +50,7 @@ The first Agent C overlay retained `002000-completeness-and-real-numbers.md` unc
 
 The twelve manuscripts and their metadata are listed in the track-local `track.json`, with no unmaterialized lecture entries. The next planned lessons begin a focused complex-analysis segment: complex numbers and geometry, complex differentiation/Cauchy–Riemann conditions, complex integration and path independence, and Cauchy's integral theorem and formula, followed by analytic consequences, singularities, residues and argument principle. These are plans only, not indexed lectures.
 
-The existing shared-test integration request remains applicable; do not edit central track-count assertions in Agent C's overlays. Likewise, do not change any shared audio-reader or library files. Every continuation ZIP must contain only `draft-stages/tts-analysis/**` and `docs/planning/agent-c-analysis/**`, and must be applied after the first two Agent C ZIPs.
+The existing shared-test integration request remains applicable; do not edit central track-count assertions in Agent C's overlays. Likewise, do not change any shared audio-reader or library files. Every continuation ZIP must contain only `content/analysis/**` and `docs/planning/agent-c-analysis/**`, and must be applied after the first two Agent C ZIPs.
 
 
 ## Completed complex-analysis opening: 013000–016000
@@ -108,7 +108,7 @@ No word-count floor, 10-minute heuristic, or arbitrary length gate is used.
 | 024000 | Normal families | Cauchy derivative estimates → Arzelà–Ascoli and diagonal extraction; locally uniform holomorphic limit; Hurwitz via Rouché; Vitali via Montel + identity |
 
 This Agent C-only overlay must be applied after lectures 017000–020000. It
-updates only `draft-stages/tts-analysis/**` and
+updates only `content/analysis/**` and
 `docs/planning/agent-c-analysis/**`; no shared test or reader code is touched.
 Spoken word counts and duration estimates are descriptive, not thresholds.
 Potential future topics: conformal maps, Möbius and Riemann surfaces, a

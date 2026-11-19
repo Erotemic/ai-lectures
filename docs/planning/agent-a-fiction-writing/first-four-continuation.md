@@ -13,8 +13,8 @@
 
 ## Editorial continuation
 
-The next planned batch is `008000`–`011000`: character over time; dialogue as action; subtext outside dialogue; and pacing at the paragraph/scene scale. These will be authored only inside `draft-stages/tts-fiction-writing/`, with any notes here. Preserve manifest IDs and existing manuscripts. Do not edit shared reader code, global planning documents, other agents' tracks, or global tests.
+The next planned batch is `008000`–`011000`: character over time; dialogue as action; subtext outside dialogue; and pacing at the paragraph/scene scale. These will be authored only inside `content/fiction-writing/`, with any notes here. Preserve manifest IDs and existing manuscripts. Do not edit shared reader code, global planning documents, other agents' tracks, or global tests.
 
 ## Validation contract
 
-Use `python tools/apply_track_overlay.py a <zip> --check` and the corresponding apply command; then run `python tools/lecture_inventory.py`. The installer's per-agent namespace check is required before applying any ZIP. The source/manifest counts were computed using `draft-stages/tts-lectures/extract_narration.py`. No audio was generated in this batch.
+Use `python tools/apply_track_overlay.py a <zip> --check` and the corresponding apply command; then run `python tools/lecture_inventory.py`. The installer's per-agent namespace check is required before applying any ZIP. The source/manifest counts were computed using `content/g2/extract_narration.py`. No audio was generated in this batch.

@@ -137,7 +137,7 @@ def create_app(directory=ROOT/'renders', *, feedback_directory=None,
         node['companion_slides'] = slides_by_node[node_id]
     COURSE_GRAPH_PAGE = Path(__file__).with_name('course_graph.html')
     speech_library = audio_library or AudioLectureHub(
-        sources=audio_source_directory or ROOT/'draft-stages'/'tts-lectures',
+        sources=audio_source_directory or ROOT/'content' / 'g2',
         cache=audio_cache_directory or ROOT/'audio-cache',
         endpoint=audio_tts_endpoint, profile=audio_tts_profile, config=audio_tts_config,
         voice_store=audio_voice_store,

@@ -132,7 +132,7 @@ projects, not unfinished requirements hidden behind completion labels.
 
 Independent writers can continue now using current pack indexes and the
 [content handoff guide](../agent-content-handoff.md). In particular, the
-[Journey continuation handoff](../../draft-stages/tts-pre-1900-literature/notes/journey-west-continuation-handoff.md)
+[Journey continuation handoff](../../content/pre-1900-literature/notes/journey-west-continuation-handoff.md)
 currently covers selected-witness chapters 1–27 and starts the next batch at
 chapter 28. Recheck it and current ID ownership before assigning work; do not
 copy reservations or fragment counts from an older plan. No new central registry,

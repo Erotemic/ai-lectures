@@ -58,7 +58,7 @@ The revised `tools/apply_track_overlay.py` accepts only each owner's assigned **
 - **C:** `analysis`, `category-theory`, `logic-types`, `numerical-analysis`, `optimization-duality`, `probability-measure`. G2/G3 review only in the first wave.
 - **D:** `music-theory`, `physical-world`, `deep-time`.
 
-No agent may modify the root planning document, shared tools, `LECTURE_STYLE_RULES.md`, `AGENTS.md`, central `tests/`, audio reader/UI, TTS configuration, shared source assets, or another agent's course. Agent C must not modify `draft-stages/tts-lectures/` or `draft-stages/tts-paper/` without a separately approved coordinator patch. No worktrees. All ZIP overlays are text only; never bundle binary media or images unless separately requested.
+No agent may modify the root planning document, shared tools, `LECTURE_STYLE_RULES.md`, `AGENTS.md`, central `tests/`, audio reader/UI, TTS configuration, shared source assets, or another agent's course. Agent C must not modify `content/g2/` or `content/g3/` without a separately approved coordinator patch. No worktrees. All ZIP overlays are text only; never bundle binary media or images unless separately requested.
 
 The materials **determine their own form and length**. Dialogue, humor, first-person voice, literary experiment, quotation (within rights), mathematics, and difficult nuance are legitimate when useful. Do not add stylistic quotas, banned words, mandatory scene structure, required bibliography counts, or automatic “literary quality” tests. Use technical verification for real invariants only.
 

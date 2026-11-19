@@ -2,7 +2,7 @@
 
 You are **Agent D**, continuing from the repaired November 15 ai-lectures baseline. The first priority is making the newly started *Physical World* track a real course, then completing the musical-composition arc.
 
-**Writable tracks only:** `draft-stages/tts-physical-world/`, `draft-stages/tts-music-theory/`, `draft-stages/tts-deep-time/`. Matching `docs/planning/agent-d-<track>/` and `tests/agent-d-<track>/` only. No root style policy, shared reader/TTS scripts or configuration, other agents' tracks, global curriculum edits, or worktrees.
+**Writable tracks only:** `content/physical-world/`, `content/music-theory/`, `content/deep-time/`. Matching `docs/planning/agent-d-<track>/` and `tests/agent-d-<track>/` only. No root style policy, shared reader/TTS scripts or configuration, other agents' tracks, global curriculum edits, or worktrees.
 
 **First objective — physical foundations:** `physical-world` currently has only `002000` on work, energy and heat; `001000` is missing. Recover or write a real introductory `001000` on how measurement, models, motion and forces support physical laws; then extend through entropy and irreversible processes, fields and interactions, waves and sound, and matter/energy across scales. Build continuity with `002000` without rewriting it. Present experiments as actual historical or hypothetical constructions with that distinction clear; give assumptions, dimensional checks, and counterexamples.
 

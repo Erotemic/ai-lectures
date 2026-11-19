@@ -2,7 +2,7 @@
 
 ## Scope and ownership
 
-This is an Agent A-only continuation. Only `draft-stages/tts-fiction-writing/` and `docs/planning/agent-a-fiction-writing/` are changed. Other agent tracks, shared tools, TTS configuration, shared length-policy files, and tests are untouched. The index remains stable through `039000`; the four added IDs are `040000`-`043000`.
+This is an Agent A-only continuation. Only `content/fiction-writing/` and `docs/planning/agent-a-fiction-writing/` are changed. Other agent tracks, shared tools, TTS configuration, shared length-policy files, and tests are untouched. The index remains stable through `039000`; the four added IDs are `040000`-`043000`.
 
 The material determines lecture length. Measured narration counts and minutes in `track.json` are descriptive for library indexing and estimated playback.
 

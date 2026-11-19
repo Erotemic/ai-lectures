@@ -39,9 +39,9 @@ The 13 November source snapshot includes:
 
 | Existing surface | Current scope in `track.json` | Opportunity / boundary |
 | --- | --- | --- |
-| `draft-stages/tts-history/` | 42 substantial portraits of mathematicians, scientists, statisticians, and associated thinkers | Connect particular lives to broader questions; retain the human-centered portrait identity. |
-| `draft-stages/tts-world-history/` | 105 lectures spanning archaeology, ancient societies, historical sources, and literary epics | Expand modern and comparative history without flattening the diverse societies already treated; do not reuse existing archaeology-series IDs. |
-| `draft-stages/tts-paper/` | 32 specialized G3 paper lectures | Maintain precise technical prerequisites and rigorous proofs; general-audience offshoots should receive their own treatment rather than diluting G3. |
+| `content/history/` | 42 substantial portraits of mathematicians, scientists, statisticians, and associated thinkers | Connect particular lives to broader questions; retain the human-centered portrait identity. |
+| `content/world-history/` | 105 lectures spanning archaeology, ancient societies, historical sources, and literary epics | Expand modern and comparative history without flattening the diverse societies already treated; do not reuse existing archaeology-series IDs. |
+| `content/g3/` | 32 specialized G3 paper lectures | Maintain precise technical prerequisites and rigorous proofs; general-audience offshoots should receive their own treatment rather than diluting G3. |
 | G2 / other lecture and presentation surfaces | Mathematics foundations, technical proofs, slides, and broader learning material | Link foundational concepts where useful; verify the current index before deciding a subject is missing. |
 
 The World History track already contains a **“How We Know” archaeology strand**.

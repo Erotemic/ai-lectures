@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Audit the playable TTS corpus against its per-track manifest indexes.
 
-Only real numbered manuscripts are counted. The original G2 series intentionally
-has no track.json; its numbered files form the reader index.
+Only real numbered manuscripts are counted. Packs are discovered under content/;
+track.json owns their public identities and manuscript order.
 """
 from __future__ import annotations
 
@@ -13,12 +13,12 @@ from pathlib import Path
 import re
 
 ROOT = Path(__file__).resolve().parents[1]
-DRAFTS = ROOT / 'draft-stages'
+DRAFTS = ROOT / 'content'
 LECTURE_FILE = re.compile(r'([0-9]{6})-[^/]+\.md\Z')
 
 
 def main() -> int:
-    extractor_path = DRAFTS / 'tts-lectures' / 'extract_narration.py'
+    extractor_path = DRAFTS / 'g2' / 'extract_narration.py'
     spec = importlib.util.spec_from_file_location('lecture_narration_extractor', extractor_path)
     if spec is None or spec.loader is None:
         raise RuntimeError(f'Cannot load {extractor_path}')
@@ -28,13 +28,13 @@ def main() -> int:
     total = 0
     discovered = 0
     ids = set()
-    for folder in sorted(DRAFTS.glob('tts-*')):
+    for folder in sorted(DRAFTS.glob('*')):
         files = {p.name for p in folder.iterdir() if p.is_file() and LECTURE_FILE.fullmatch(p.name)}
         manifest = folder / 'track.json'
         if not manifest.is_file():
-            if folder.name != 'tts-lectures' and files:
+            if folder.name != 'g2' and files:
                 problems.append(f'{folder.name}: numbered manuscripts without track.json')
-            elif folder.name == 'tts-lectures':
+            elif folder.name == 'g2':
                 for name in sorted(files):
                     try:
                         extractor.extract(folder / name)
@@ -56,7 +56,7 @@ def main() -> int:
             if track_id in ids:
                 problems.append(f'{folder.name}: duplicate track ID {track_id}')
             ids.add(track_id)
-            expected = 'tts-paper' if track_id == 'g3' else f'tts-{track_id}'
+            expected = track_id
             if folder.name != expected or not re.fullmatch(r'[a-z0-9]+(?:-[a-z0-9]+)*', track_id):
                 problems.append(f'{folder.name}: invalid track ID {track_id!r}')
             if len(set(names)) != len(names) or len(set(rowids)) != len(rowids):
@@ -70,7 +70,7 @@ def main() -> int:
                 problems.append(f'{folder.name}: unindexed manuscript {name}')
             source_path = folder / 'metadata' / 'sources.json'
             sources = json.loads((source_path if source_path.exists() else
-                                  DRAFTS/'tts-lectures'/'metadata'/'sources.json').read_text())['sources']
+                                  DRAFTS/'g2'/'metadata'/'sources.json').read_text())['sources']
             for row in rows:
                 manuscript = folder / row['file']
                 if not manuscript.is_file():

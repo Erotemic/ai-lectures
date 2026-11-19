@@ -4,7 +4,7 @@ The repository is an extensible AI-authored lecture library. The current
 mathematical material originated in a Davis--Kahan research project, but future
 curricula need not be about operator theory. Prioritize rigorous, standalone,
 listener-paced narration, supporting mathematics, and relevant reading notes
-when editing `draft-stages/tts-lectures/`. Preserve the existing working media
+when editing `content/g2/`. Preserve the existing working media
 production tools; broader reorganizations are outside a lecture-content pass.
 
 
@@ -151,7 +151,7 @@ new IDs against the *current* repository before starting a series. The
 strand; literary series must use another free range.
 
 Do not install a stale overlay with `unzip -o` over the repository. It can
-replace `draft-stages/tts-world-history/track.json`,
+replace `content/world-history/track.json`,
 `metadata/sources.json`, shared tests, or the README and discard work by
 other agents. Instead apply lecture overlays with
 `python tools/merge_world_history_overlay.py --zip /path/to/overlay.zip`.

@@ -4,7 +4,7 @@
 
 Reviewed the complete 28-manuscript Agent A fiction track (001000–027000, including 007500), the track index, README, 28 per-lecture metadata sidecars, and the track-local reference registry. Verified selected disputed bibliographic facts externally against author, library, scholarly-publisher and documentary records. Original fictional teaching examples are authorial illustrations, not historical evidence.
 
-Changes are restricted to `draft-stages/tts-fiction-writing/` and `docs/planning/agent-a-fiction-writing/`. They do not alter shared TTS settings, lesson-duration policy, or any other agent's work. Measured word counts and read-time estimates are descriptive, not editorial requirements.
+Changes are restricted to `content/fiction-writing/` and `docs/planning/agent-a-fiction-writing/`. They do not alter shared TTS settings, lesson-duration policy, or any other agent's work. Measured word counts and read-time estimates are descriptive, not editorial requirements.
 
 ## Corrections implemented
 

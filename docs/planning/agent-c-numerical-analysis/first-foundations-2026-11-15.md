@@ -2,7 +2,7 @@
 
 ## Source and recovery status
 
-November 15 synced baseline `90c123b` contains the standalone `002000-rounding-and-error-propagation.md` and its metadata. The manifest deliberately excluded `001000` because no source manuscript was present. A search of supplied Git history found no tracked `draft-stages/tts-numerical-analysis/001000-*` file; this overlay **authors new 001000 content**, not a purported restoration. The 002000 manuscript and sidecar remain unchanged.
+November 15 synced baseline `90c123b` contains the standalone `002000-rounding-and-error-propagation.md` and its metadata. The manifest deliberately excluded `001000` because no source manuscript was present. A search of supplied Git history found no tracked `content/numerical-analysis/001000-*` file; this overlay **authors new 001000 content**, not a purported restoration. The 002000 manuscript and sidecar remain unchanged.
 
 ## Completed coherent arc
 
@@ -35,4 +35,4 @@ The numerical-analysis track now has a usable first arc. The next handoff priori
 
 ## Ownership and application
 
-Only `draft-stages/tts-numerical-analysis/**` and `docs/planning/agent-c-numerical-analysis/**` are in this ZIP. Apply to the synced November 15 baseline using `tools/apply_track_overlay.py c` and run `tools/lecture_inventory.py` before a scoped commit. Do not edit G2/G3, shared code, tests, or other owners' tracks.
+Only `content/numerical-analysis/**` and `docs/planning/agent-c-numerical-analysis/**` are in this ZIP. Apply to the synced November 15 baseline using `tools/apply_track_overlay.py c` and run `tools/lecture_inventory.py` before a scoped commit. Do not edit G2/G3, shared code, tests, or other owners' tracks.

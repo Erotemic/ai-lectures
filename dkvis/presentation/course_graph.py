@@ -128,7 +128,7 @@ def build_course_graph(*, g1_directory=None, g2_directory=None, g3_directory=Non
         insert(dict(id=node_id, title=_title_from_file(path), track='g2',
                     status='available', kind='audio',
                     url=f'/audio?track=g2&lecture={ident}',
-                    source=f'visualizations/draft-stages/tts-lectures/{path.name}'))
+                    source=f'visualizations/content/g2/{path.name}'))
         g2.append(node_id)
     tracks.append(dict(id='g2', title='G2 - Comprehensive audio', status='available',
                        summary=f'Full {len(g2)}-lecture path', path=g2))
@@ -143,7 +143,7 @@ def build_course_graph(*, g1_directory=None, g2_directory=None, g3_directory=Non
         insert(dict(id=node_id, title=row['title'], track='g3',
                     status='available', kind='audio',
                     url=f'/audio?track=g3&lecture={ident}',
-                    source=f'visualizations/draft-stages/tts-paper/{row["file"]}'))
+                    source=f'visualizations/content/g3/{row["file"]}'))
         g3.append(node_id)
         parent = row.get('source_g2')
         if parent:

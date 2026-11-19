@@ -13,7 +13,7 @@ import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-SOURCES = ROOT / 'draft-stages' / 'tts-lectures'
+SOURCES = ROOT / 'content' / 'g2'
 DEST = ROOT / 'companion-slides'
 SENTENCE = re.compile(r'(?<=[.!?])\s+(?=[A-Z“"(])')
 HEADINGS = re.compile(r'(?m)^## (.+?)\s*$')
@@ -125,7 +125,7 @@ def baseline_deck(path: Path) -> dict:
     return dict(schema_version=1, id=deck_id, title=title,
                 subtitle=f'G2 lecture {ident} · baseline companion · needs expansion',
                 editorial_stage='baseline', lecture_nodes=[f'g2:{ident}'],
-                source_lecture=f'draft-stages/tts-lectures/{path.name}',
+                source_lecture=f'content/g2/{path.name}',
                 adaptation=('First-pass source-derived outline. Section excerpts and any vector equation '
                             'come from the spoken lecture and its display-only mathematics appendix. '
                             'Expand with worked mathematics, proofs and topic-specific diagrams.'),
