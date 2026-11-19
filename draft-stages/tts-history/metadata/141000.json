@@ -1,0 +1,891 @@
+{
+  "schema_version": 1,
+  "lecture_id": "141000",
+  "transcript": "141000-mendeleev.md",
+  "related_resources": [
+    {
+      "source_id": "history-mendeleev-shi",
+      "reason": "Main biography, independent work and priority with Lothar Meyer, institutions and student controversy."
+    },
+    {
+      "source_id": "history-mendeleev-aip-table",
+      "reason": "First table, textbook and refinement of the predictive system."
+    },
+    {
+      "source_id": "history-mendeleev-rsc-table",
+      "reason": "Element families, mass ordering, gaps, corrected atomic number."
+    },
+    {
+      "source_id": "history-mendeleev-rsc-life",
+      "reason": "Personal chronology, industrial and agricultural work, balloon flight and later life."
+    },
+    {
+      "source_id": "history-mendeleev-kaji",
+      "reason": "Original Russian publication and Menshutkin announcement chronology."
+    },
+    {
+      "source_id": "history-mendeleev-gordin",
+      "reason": "Imperial political and cultural background, specialism and scientific personality."
+    },
+    {
+      "source_id": "history-mendeleev-faraday",
+      "reason": "Mendeleev in his own retrospective scientific address in 1889."
+    },
+    {
+      "source_id": "history-mendeleev-osu",
+      "reason": "Teaching context, noble gases and later science."
+    },
+    {
+      "source_id": "history-mendeleev-aip-vodka",
+      "reason": "Corrects popular legends about 1865 alcohol-water dissertation and invented vodka."
+    },
+    {
+      "source_id": "history-mendeleev-acs-nobel",
+      "reason": "1906 award committee and Academy historical account."
+    },
+    {
+      "source_id": "history-mendeleev-nobel",
+      "reason": "Prize recipients and dates."
+    },
+    {
+      "source_id": "history-mendeleev-spb",
+      "reason": "Local education, posts and metrology chronology."
+    },
+    {
+      "source_id": "history-mendeleev-rsc-finding",
+      "reason": "Historical account of predecessor classifiers and the disputed reason for 1869 announcement absence."
+    },
+    {
+      "source_id": "history-mendeleev-sciam",
+      "reason": "Historical account of his 1876 U.S. petroleum study."
+    },
+    {
+      "source_id": "history-mendeleev-irs-oil",
+      "reason": "Additional regional record for Baku oil-sector visits and analysis."
+    },
+    {
+      "source_id": "history-mendeleev-wiki",
+      "reason": "Accessible general orientation only, not authority for disputed dates or credit."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "141000-h01",
+      "anchor": "In Saint Petersburg in the winter of 1869",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-mendeleev-aip-table"
+      ],
+      "source_locator": "In Saint Petersburg in the winter of 1869",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "141000-h02",
+      "anchor": "a textbook for students who needed chemistry in Russian",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-mendeleev-aip-table"
+      ],
+      "source_locator": "a textbook for students who needed chemistry in Russian",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "141000-h03",
+      "anchor": "His first table, dated February 1869",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-mendeleev-kaji",
+        "history-mendeleev-aip-table"
+      ],
+      "source_locator": "His first table, dated February 1869",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "141000-h04",
+      "anchor": "Dmitri Ivanovich Mendeleev was born in Tobolsk, Siberia, in 1834",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-mendeleev-shi",
+        "history-mendeleev-rsc-life"
+      ],
+      "source_locator": "Dmitri Ivanovich Mendeleev was born in Tobolsk, Siberia, in 1834",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "141000-h05",
+      "anchor": "His father, Ivan Pavlovich, worked in education",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-mendeleev-rsc-life"
+      ],
+      "source_locator": "His father, Ivan Pavlovich, worked in education",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "141000-h06",
+      "anchor": "Maria took responsibility for the family's glassworks",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-mendeleev-rsc-life",
+        "history-mendeleev-shi"
+      ],
+      "source_locator": "Maria took responsibility for the family's glassworks",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "141000-h07",
+      "anchor": "His father died in the 1840s",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-mendeleev-rsc-life"
+      ],
+      "source_locator": "His father died in the 1840s",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "141000-h08",
+      "anchor": "He ultimately entered the Main Pedagogical Institute in Saint Petersburg in 1850",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-mendeleev-spb",
+        "history-mendeleev-rsc-life"
+      ],
+      "source_locator": "He ultimately entered the Main Pedagogical Institute in Saint Petersburg in 1850",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "141000-h09",
+      "anchor": "When he graduated in 1855",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-mendeleev-spb"
+      ],
+      "source_locator": "When he graduated in 1855",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "141000-h10",
+      "anchor": "including a post in Odessa",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-mendeleev-rsc-life"
+      ],
+      "source_locator": "including a post in Odessa",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "141000-h11",
+      "anchor": "From 1859 to 1861 he spent substantial time in Heidelberg",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-mendeleev-shi"
+      ],
+      "source_locator": "From 1859 to 1861 he spent substantial time in Heidelberg",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "141000-h12",
+      "anchor": "In 1860 Mendeleev attended the first international congress of chemists at Karlsruhe",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-mendeleev-shi"
+      ],
+      "source_locator": "In 1860 Mendeleev attended the first international congress of chemists at Karlsruhe",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "141000-h13",
+      "anchor": "the Italian Stanislao Cannizzaro",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-mendeleev-shi"
+      ],
+      "source_locator": "the Italian Stanislao Cannizzaro",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "141000-h14",
+      "anchor": "His Russian-language textbook on organic chemistry appeared in 1861",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-mendeleev-rsc-life"
+      ],
+      "source_locator": "His Russian-language textbook on organic chemistry appeared in 1861",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "141000-h15",
+      "anchor": "In 1865 he defended his doctoral dissertation on that subject",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-mendeleev-aip-vodka"
+      ],
+      "source_locator": "In 1865 he defended his doctoral dissertation on that subject",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "141000-h16",
+      "anchor": "They did not invent vodka",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-mendeleev-aip-vodka"
+      ],
+      "source_locator": "They did not invent vodka",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "141000-h17",
+      "anchor": "In 1867 Mendeleev became professor of general chemistry",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-mendeleev-shi",
+        "history-mendeleev-aip-table"
+      ],
+      "source_locator": "In 1867 Mendeleev became professor of general chemistry",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "141000-h18",
+      "anchor": "By 1869 chemists knew roughly sixty-three",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-mendeleev-aip-table"
+      ],
+      "source_locator": "By 1869 chemists knew roughly sixty-three",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "141000-h19",
+      "anchor": "Johann Döbereiner had pointed to groups of three related elements",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-mendeleev-rsc-table"
+      ],
+      "source_locator": "Johann Döbereiner had pointed to groups of three related elements",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "141000-h20",
+      "anchor": "Alexandre-Émile Béguyer de Chancourtois arranged elements helically",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-mendeleev-rsc-table"
+      ],
+      "source_locator": "Alexandre-Émile Béguyer de Chancourtois arranged elements helically",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "141000-h21",
+      "anchor": "John Newlands proposed an order resembling musical octaves",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-mendeleev-rsc-table"
+      ],
+      "source_locator": "John Newlands proposed an order resembling musical octaves",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "141000-h22",
+      "anchor": "Lothar Meyer published a system of chemical families in 1864",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-mendeleev-shi"
+      ],
+      "source_locator": "Lothar Meyer published a system of chemical families in 1864",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "141000-h23",
+      "anchor": "His most specific published predictions came in the 1871 development of the periodic law",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-mendeleev-aip-table"
+      ],
+      "source_locator": "His most specific published predictions came in the 1871 development of the periodic law",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "141000-h24",
+      "anchor": "At the Russian Chemical Society's March 1869 meeting, the paper was read by his colleague Nikolai Menshutkin",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-mendeleev-kaji",
+        "history-mendeleev-rsc-finding"
+      ],
+      "source_locator": "At the Russian Chemical Society's March 1869 meeting, the paper was read by his colleague Nikolai Menshutkin",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "141000-h25",
+      "anchor": "One tradition says he was ill",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-mendeleev-rsc-finding",
+        "history-mendeleev-kaji"
+      ],
+      "source_locator": "One tradition says he was ill",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "141000-h26",
+      "anchor": "He named one of the missing elements eka-aluminium",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-mendeleev-rsc-table",
+        "history-mendeleev-faraday"
+      ],
+      "source_locator": "He named one of the missing elements eka-aluminium",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "141000-h27",
+      "anchor": "Its predicted atomic weight was about sixty-eight",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-mendeleev-rsc-table"
+      ],
+      "source_locator": "Its predicted atomic weight was about sixty-eight",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "141000-h28",
+      "anchor": "In 1875 a French chemist, Paul-Émile Lecoq de Boisbaudran, discovered gallium",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-mendeleev-aip-table"
+      ],
+      "source_locator": "In 1875 a French chemist, Paul-Émile Lecoq de Boisbaudran, discovered gallium",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "141000-h29",
+      "anchor": "The first reported density of gallium was appreciably lower",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-mendeleev-faraday"
+      ],
+      "source_locator": "The first reported density of gallium was appreciably lower",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "141000-h30",
+      "anchor": "In 1879 Lars Fredrik Nilson discovered scandium",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-mendeleev-aip-table"
+      ],
+      "source_locator": "In 1879 Lars Fredrik Nilson discovered scandium",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "141000-h31",
+      "anchor": "In 1886 Clemens Winkler discovered germanium",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-mendeleev-aip-table"
+      ],
+      "source_locator": "In 1886 Clemens Winkler discovered germanium",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "141000-h32",
+      "anchor": "The two men disputed priority",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-mendeleev-shi"
+      ],
+      "source_locator": "The two men disputed priority",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "141000-h33",
+      "anchor": "Tellurium and iodine are the classic pair",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-mendeleev-rsc-table"
+      ],
+      "source_locator": "Tellurium and iodine are the classic pair",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "141000-h34",
+      "anchor": "Henry Moseley's work in 1913",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-mendeleev-rsc-table"
+      ],
+      "source_locator": "Henry Moseley's work in 1913",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "141000-h35",
+      "anchor": "including fields around Baku in the Caucasus",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-mendeleev-irs-oil",
+        "history-mendeleev-sciam"
+      ],
+      "source_locator": "including fields around Baku in the Caucasus",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "141000-h36",
+      "anchor": "traveled to the United States in 1876",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-mendeleev-sciam"
+      ],
+      "source_locator": "traveled to the United States in 1876",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "141000-h37",
+      "anchor": "He married Feozva Leshcheva in 1862",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-mendeleev-rsc-life"
+      ],
+      "source_locator": "He married Feozva Leshcheva in 1862",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "141000-h38",
+      "anchor": "Later he formed a relationship with Anna Popova",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-mendeleev-rsc-life"
+      ],
+      "source_locator": "Later he formed a relationship with Anna Popova",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "141000-h39",
+      "anchor": "In 1887 he took a balloon flight to observe a solar eclipse",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-mendeleev-rsc-life",
+        "history-mendeleev-gordin"
+      ],
+      "source_locator": "In 1887 he took a balloon flight to observe a solar eclipse",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "141000-h40",
+      "anchor": "Mendeleev also took public positions against spiritualism",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-mendeleev-gordin"
+      ],
+      "source_locator": "Mendeleev also took public positions against spiritualism",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "141000-h41",
+      "anchor": "In 1880 he failed to gain election as a full member",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-mendeleev-spb"
+      ],
+      "source_locator": "In 1880 he failed to gain election as a full member",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "141000-h42",
+      "anchor": "In 1890 a confrontation over students' treatment and a petition",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-mendeleev-shi"
+      ],
+      "source_locator": "In 1890 a confrontation over students' treatment and a petition",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "141000-h43",
+      "anchor": "In 1893 he became the first director",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-mendeleev-spb"
+      ],
+      "source_locator": "In 1893 he became the first director",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "141000-h44",
+      "anchor": "In the 1890s the discovery of the noble gases",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-mendeleev-osu"
+      ],
+      "source_locator": "In the 1890s the discovery of the noble gases",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "141000-h45",
+      "anchor": "The discovery of radioactivity raised deeper problems",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-mendeleev-osu"
+      ],
+      "source_locator": "The discovery of radioactivity raised deeper problems",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "141000-h46",
+      "anchor": "In 1889 Mendeleev addressed the Chemical Society in London",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-mendeleev-faraday"
+      ],
+      "source_locator": "In 1889 Mendeleev addressed the Chemical Society in London",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "141000-h47",
+      "anchor": "Mendeleev never received a Nobel Prize",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-mendeleev-nobel"
+      ],
+      "source_locator": "Mendeleev never received a Nobel Prize",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "141000-h48",
+      "anchor": "the 1906 deliberations report that the Nobel committee favored him",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-mendeleev-acs-nobel"
+      ],
+      "source_locator": "the 1906 deliberations report that the Nobel committee favored him",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "141000-h49",
+      "anchor": "Dmitri Mendeleev died in Saint Petersburg in 1907",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-mendeleev-shi"
+      ],
+      "source_locator": "Dmitri Mendeleev died in Saint Petersburg in 1907",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "141000-h50",
+      "anchor": "Students carried a periodic table at his funeral",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-mendeleev-shi"
+      ],
+      "source_locator": "Students carried a periodic table at his funeral",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "141000-h51",
+      "anchor": "element one hundred and one was named mendelevium",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-mendeleev-rsc-life"
+      ],
+      "source_locator": "element one hundred and one was named mendelevium",
+      "audit_status": "source_checked"
+    }
+  ],
+  "chronology": {
+    "life": {
+      "start": 1834,
+      "end": 1907,
+      "basis": "documented_biography",
+      "label": "1834–1907: Dmitri Ivanovich Mendeleev",
+      "source_ids": [
+        "history-mendeleev-shi",
+        "history-mendeleev-spb"
+      ]
+    },
+    "work": {
+      "start": 1855,
+      "end": 1907,
+      "basis": "scientific_teaching_research_and_public_service",
+      "label": "1855–1907: teaching, chemical research, and standards",
+      "source_ids": [
+        "history-mendeleev-shi",
+        "history-mendeleev-spb"
+      ],
+      "approximate": true
+    },
+    "period": {
+      "start": 1859,
+      "end": 1907,
+      "basis": "documented_research_and_publications",
+      "label": "1859–1907: chemistry, industry, and metrology",
+      "source_ids": [
+        "history-mendeleev-rsc-life"
+      ],
+      "approximate": true
+    },
+    "context": {
+      "start": 1834,
+      "end": 1907,
+      "basis": "historical_setting",
+      "label": "Imperial Russia, chemistry across Europe and the emergence of atomic physics",
+      "source_ids": [
+        "history-mendeleev-gordin",
+        "history-mendeleev-shi"
+      ],
+      "approximate": true
+    }
+  },
+  "spacetime_coverage": {
+    "schema_version": 1,
+    "subject": "Dmitri Mendeleev",
+    "description": "Documented work and education sites. Modern geography and approximate regional coordinates do not imply modern political identities or continuous presence.",
+    "places": [
+      {
+        "place": "Tobolsk",
+        "present_day_country": "Russia",
+        "historical_polity": "Russian Empire",
+        "start_year": 1834,
+        "end_year": 1849,
+        "role": "birth_childhood_and_gymnasium",
+        "note": "Birth and early education; departure toward the capital approximately 1849.",
+        "coordinates": {
+          "latitude": 58.2,
+          "longitude": 68.25,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "history-mendeleev-rsc-life",
+          "history-mendeleev-shi"
+        ],
+        "date_uncertain": true
+      },
+      {
+        "place": "Saint Petersburg",
+        "present_day_country": "Russia",
+        "historical_polity": "Russian Empire",
+        "start_year": 1850,
+        "end_year": 1855,
+        "role": "teacher_training_and_family",
+        "note": "Main Pedagogical Institute and death of his mother.",
+        "coordinates": {
+          "latitude": 59.94,
+          "longitude": 30.32,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "history-mendeleev-spb",
+          "history-mendeleev-rsc-life"
+        ]
+      },
+      {
+        "place": "Odessa",
+        "present_day_country": "Ukraine",
+        "historical_polity": "Russian Empire",
+        "start_year": 1855,
+        "end_year": 1856,
+        "role": "school_teaching",
+        "note": "Early school appointment. Modern country label is geographic, not a claim that the historical city lay in an independent Ukraine.",
+        "coordinates": {
+          "latitude": 46.48,
+          "longitude": 30.72,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "history-mendeleev-rsc-life"
+        ],
+        "date_uncertain": true
+      },
+      {
+        "place": "Heidelberg",
+        "present_day_country": "Germany",
+        "historical_polity": "Grand Duchy of Baden",
+        "start_year": 1859,
+        "end_year": 1861,
+        "role": "foreign_research_study",
+        "note": "Scientific work and contact with European chemical research networks.",
+        "coordinates": {
+          "latitude": 49.41,
+          "longitude": 8.69,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "history-mendeleev-shi"
+        ]
+      },
+      {
+        "place": "Karlsruhe",
+        "present_day_country": "Germany",
+        "historical_polity": "Grand Duchy of Baden",
+        "start_year": 1860,
+        "end_year": 1860,
+        "role": "chemical_congress",
+        "note": "First international chemists congress; atomic-weight debate.",
+        "coordinates": {
+          "latitude": 49.01,
+          "longitude": 8.4,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "history-mendeleev-shi"
+        ]
+      },
+      {
+        "place": "Saint Petersburg",
+        "present_day_country": "Russia",
+        "historical_polity": "Russian Empire",
+        "start_year": 1861,
+        "end_year": 1890,
+        "role": "university_research_teaching",
+        "note": "Textbooks, 1869/1871 periodic law, university professorship and public controversy. Broad activity period, not a residence record.",
+        "coordinates": {
+          "latitude": 59.94,
+          "longitude": 30.32,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "history-mendeleev-shi",
+          "history-mendeleev-aip-table"
+        ],
+        "date_uncertain": true
+      },
+      {
+        "place": "Baku",
+        "present_day_country": "Azerbaijan",
+        "historical_polity": "Russian Empire",
+        "start_year": 1876,
+        "end_year": 1880,
+        "role": "petroleum_industry_studies",
+        "note": "Field visits and studies of the oil industry, not continuous residence.",
+        "coordinates": {
+          "latitude": 40.41,
+          "longitude": 49.87,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "history-mendeleev-irs-oil"
+        ],
+        "date_uncertain": true
+      },
+      {
+        "place": "Pennsylvania oil region",
+        "present_day_country": "United States",
+        "historical_polity": "United States of America",
+        "start_year": 1876,
+        "end_year": 1876,
+        "role": "petroleum_industry_visit",
+        "note": "Broad regional reference for US petroleum study; not a precise field location.",
+        "coordinates": {
+          "latitude": 41.5,
+          "longitude": -79.5,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "history-mendeleev-sciam"
+        ],
+        "date_uncertain": true
+      },
+      {
+        "place": "Saint Petersburg",
+        "present_day_country": "Russia",
+        "historical_polity": "Russian Empire",
+        "start_year": 1893,
+        "end_year": 1907,
+        "role": "public_metrology_and_later_work",
+        "note": "Weights-and-measures bureau and later work; broad city-level work interval.",
+        "coordinates": {
+          "latitude": 59.94,
+          "longitude": 30.32,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "history-mendeleev-spb"
+        ],
+        "date_uncertain": true
+      }
+    ]
+  },
+  "tags": [
+    "Biography",
+    "History of science",
+    "History of chemistry",
+    "Physical chemistry",
+    "Periodic law",
+    "19th century",
+    "20th century",
+    "1830s",
+    "1840s",
+    "1850s",
+    "1860s",
+    "1870s",
+    "1880s",
+    "1890s",
+    "1900s",
+    "Year: 1834",
+    "Year: 1849",
+    "Year: 1850",
+    "Year: 1855",
+    "Year: 1859",
+    "Year: 1860",
+    "Year: 1861",
+    "Year: 1862",
+    "Year: 1865",
+    "Year: 1867",
+    "Year: 1869",
+    "Year: 1871",
+    "Year: 1875",
+    "Year: 1876",
+    "Year: 1879",
+    "Year: 1880",
+    "Year: 1886",
+    "Year: 1887",
+    "Year: 1889",
+    "Year: 1890",
+    "Year: 1893",
+    "Year: 1907",
+    "Reception year: 1913",
+    "Reception year: 1955",
+    "Region: Europe",
+    "Region: Northern Asia",
+    "Region: Eastern Europe",
+    "Country: Russia",
+    "Country: Germany",
+    "Country: Ukraine",
+    "Country: Azerbaijan",
+    "Country: United States",
+    "Historical polity: Russian Empire",
+    "Historical polity: Grand Duchy of Baden",
+    "Place: Tobolsk",
+    "Place: Saint Petersburg",
+    "Place: Odessa",
+    "Place: Heidelberg",
+    "Place: Karlsruhe",
+    "Place: Baku",
+    "Place: Pennsylvania oil region",
+    "Dmitri Mendeleev",
+    "Maria Mendeleeva",
+    "Russian chemistry",
+    "Stanislao Cannizzaro",
+    "Julius Lothar Meyer",
+    "Nikolai Menshutkin",
+    "Chemical elements",
+    "Atomic weights",
+    "Atomic number",
+    "Chemical valence",
+    "Periodic table",
+    "Chemical prediction",
+    "Gallium",
+    "Scandium",
+    "Germanium",
+    "Tellurium",
+    "Iodine",
+    "Noble gases",
+    "Karlsruhe Congress",
+    "Industrial chemistry",
+    "Petroleum refining",
+    "Metrology",
+    "Measurement standards",
+    "Imperial Russia",
+    "History of scientific institutions",
+    "History of scientific discovery",
+    "Science education"
+  ]
+}
