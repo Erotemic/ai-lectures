@@ -202,8 +202,7 @@ export async function renderVoiceProfiles(
     );
     if (existing) backend.value = existing.backend_id;
     const voice = el("select", {
-      "aria-label": "Fixed voice or reference",
-      disabled: Boolean(existing && !duplicate),
+      "aria-label": "Voice or reference",
     });
     const voiceStatus = el("p", {
       class: "muted",
@@ -219,7 +218,6 @@ export async function renderVoiceProfiles(
     const refreshVoices = el("button", {
       type: "button",
       text: "Refresh backend voices",
-      disabled: Boolean(existing && !duplicate),
       onclick: async () => {
         refreshVoices.disabled = true;
         try {
@@ -227,14 +225,13 @@ export async function renderVoiceProfiles(
         } catch (failure) {
           error.textContent = failure.message;
         } finally {
-          refreshVoices.disabled = Boolean(existing && !duplicate);
+          refreshVoices.disabled = false;
         }
       },
     });
     const registerVoice = el("button", {
       type: "button",
       text: "Register voice ID",
-      disabled: Boolean(existing && !duplicate),
       onclick: async () => {
         registerVoice.disabled = true;
         try {
@@ -242,12 +239,16 @@ export async function renderVoiceProfiles(
             `/api/library/voice-profiles/backends/${backend.value}/voices`,
             { voice: registerId.value.trim() },
           );
-          await loadVoiceOptions(registerId.value.trim(), false);
+          const data = await api(
+            `/api/library/voice-profiles/backends/${backend.value}/voices`,
+          );
+          voiceOptions(data, registerId.value.trim());
+          await voice.onchange();
           registerId.value = "";
         } catch (failure) {
           error.textContent = failure.message;
         } finally {
-          registerVoice.disabled = Boolean(existing && !duplicate);
+          registerVoice.disabled = false;
         }
       },
     });
@@ -281,7 +282,7 @@ export async function renderVoiceProfiles(
         class: "muted",
         text:
           existing && !duplicate
-            ? "Adjust how this voice speaks normal text and titles. Save changes as a new revision."
+            ? "Change the voice reference or speaking settings. Saving creates a new revision; existing recordings stay available."
             : "Choose a backend voice, then set how it speaks normal text and titles.",
       }),
       el("label", {}, "Profile name", label),
@@ -291,21 +292,19 @@ export async function renderVoiceProfiles(
         el("label", {}, "Backend", backend),
         el("label", {}, "Voice/reference", voice),
       ),
-      existing && !duplicate ? null : voiceStatus,
-      existing && !duplicate
-        ? null
-        : el(
-            "details",
-            {},
-            el("summary", { text: "Backend voice catalog" }),
-            el("p", {
-              class: "muted",
-              text: "Refresh advertised voices, or register an ID already supported by this backend. Registration does not upload or create a reference voice.",
-            }),
-            refreshVoices,
-            el("label", {}, "Backend voice ID", registerId),
-            registerVoice,
-          ),
+      voiceStatus,
+      el(
+        "details",
+        {},
+        el("summary", { text: "Backend voice catalog" }),
+        el("p", {
+          class: "muted",
+          text: "Refresh advertised voices, or register an ID already supported by this backend. Registration does not upload or create a reference voice.",
+        }),
+        refreshVoices,
+        el("label", {}, "Backend voice ID", registerId),
+        registerVoice,
+      ),
       fields,
       error,
       el(
@@ -348,8 +347,16 @@ export async function renderVoiceProfiles(
           }),
         ),
       );
-      if (preferred && data.voices.some((row) => row.voice === preferred))
+      if (preferred) {
+        if (!data.voices.some((row) => row.voice === preferred))
+          voice.append(
+            el("option", {
+              value: preferred,
+              text: preferred + " · saved voice",
+            }),
+          );
         voice.value = preferred;
+      }
     }
     async function discoverVoices(backendId, generation) {
       voiceStatus.textContent = "Checking the server for available voices…";
@@ -406,8 +413,7 @@ export async function renderVoiceProfiles(
         drawFields();
         save.disabled = false;
         test.disabled = playbackOnly() || !catalog.tools_available;
-        if (discover && (!existing || duplicate))
-          void discoverVoices(backend.value, generation);
+        if (discover) void discoverVoices(backend.value, generation);
       } catch (failure) {
         error.textContent = failure.message;
       }
@@ -726,16 +732,44 @@ export async function renderVoiceProfiles(
       };
     }
     backend.onchange = () => loadVoiceOptions();
+    let voiceChange = 0;
     voice.onchange = async () => {
+      const change = ++voiceChange,
+        generation = token;
+      const selected = voice.value;
+      save.disabled = test.disabled = true;
       try {
-        const data = await post(
-          "/api/library/voice-profiles/template",
-          identity(),
-        );
+        const draft = readSettings?.();
+        const data = await post("/api/library/voice-profiles/template", {
+          ...identity(),
+          ...(draft ? { settings: draft } : {}),
+        });
+        if (
+          !dialog.isConnected ||
+          change !== voiceChange ||
+          generation !== token ||
+          voice.value !== selected
+        )
+          return;
         settings = data.settings;
         drawFields();
+        error.textContent = "";
       } catch (failure) {
-        error.textContent = failure.message;
+        if (
+          dialog.isConnected &&
+          change === voiceChange &&
+          generation === token
+        )
+          error.textContent = failure.message;
+      } finally {
+        if (
+          dialog.isConnected &&
+          change === voiceChange &&
+          generation === token
+        ) {
+          save.disabled = false;
+          test.disabled = playbackOnly() || !catalog.tools_available;
+        }
       }
     };
     form.onsubmit = async (event) => {

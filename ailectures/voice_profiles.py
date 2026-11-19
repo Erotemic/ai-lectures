@@ -493,13 +493,8 @@ class RenderProfiles:
                         (profile_id, row[0]),
                     ).fetchone()[0]
                 )
-                if (old["backend_id"], old["config"]["voice"]) != (
-                    recipe["backend_id"],
-                    recipe["config"]["voice"],
-                ):
-                    raise ValueError(
-                        "Duplicate the profile to change its backend or fixed voice"
-                    )
+                if old["backend_id"] != recipe["backend_id"]:
+                    raise ValueError("Duplicate the profile to change its backend")
                 db.execute(
                     "UPDATE profiles SET label=?,revision=?,quick=?,updated=? WHERE id=?",
                     (

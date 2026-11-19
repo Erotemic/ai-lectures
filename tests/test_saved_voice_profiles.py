@@ -50,7 +50,7 @@ def test_migration_is_local_idempotent_and_does_not_expand_server_voice_catalog(
         manager.close()
 
 
-def test_fixed_reference_rejects_voice_override_and_editor_changes(
+def test_reference_change_requires_a_saved_revision_not_a_generation_override(
     tmp_path, monkeypatch
 ):
     library, pack, manifest, audio, config = setup_library(tmp_path, monkeypatch)
@@ -67,16 +67,28 @@ def test_fixed_reference_rejects_voice_override_and_editor_changes(
         manager.register_voice("test", "another-voice")
         with pytest.raises(ValueError, match="fixed"):
             manager.prepare("music:001000", "test", voice="another-voice")
-        with pytest.raises(ValueError, match="Duplicate"):
-            manager.save_profile(
-                dict(
-                    id=profile["id"],
-                    expected_revision=profile["revision"],
-                    label="Wrong voice",
-                    backend_id=profile["backend_id"],
-                    voice="another-voice",
-                )
+        changed = manager.save_profile(
+            dict(
+                id=profile["id"],
+                expected_revision=profile["revision"],
+                label="Changed voice",
+                backend_id=profile["backend_id"],
+                voice="another-voice",
             )
+        )
+        assert (
+            changed["id"] == profile["id"]
+            and changed["revision"] != profile["revision"]
+        )
+        assert changed["voice"] == "another-voice"
+        saved = manager.saved_profile_store().get(profile["id"])
+        assert (
+            saved["recipe"]["reference"] is None
+            and not saved["recipe"]["fixed_reference"]
+        )
+        assert manager.saved_profile_store().get(profile["id"], profile["revision"])[
+            "recipe"
+        ]["reference"]
         with TestClient(
             create_app(
                 library.store.root, tts_config=config, generation_manager=manager
@@ -603,4 +615,95 @@ def test_backend_discovery_uses_effective_connection_merges_aliases_and_survives
             server.shutdown()
             server.server_close()
             thread.join()
+        manager.close()
+
+
+def test_voice_reference_edit_keeps_recipe_jobs_and_previous_recordings(
+    tmp_path, monkeypatch
+):
+    library, pack, manifest, audio, config = setup_library(tmp_path, monkeypatch)
+    config.write_text(
+        config.read_text()
+        + '\n[profiles.other]\nendpoint="http://127.0.0.1:1/v1/audio/speech"\nmodel="kokoro"\nvoice="am_echo"\nresponse_format="mp3"\n[profiles.other.reference]\nsource="test-fixture"\naudio="second.wav"\ntranscript="second.txt"\n'
+    )
+    calls = []
+
+    def sender(text, settings, dest):
+        calls.append((settings.voice, settings.speed))
+        shutil.copyfile(audio, dest)
+
+    manager = manager_for(library, config, sender, max_active_jobs=0)
+    try:
+        profile = next(
+            p for p in manager.profile_catalog()["profiles"] if p["label"] == "test"
+        )
+        profile = manager.save_profile(
+            dict(
+                id=profile["id"],
+                expected_revision=profile["revision"],
+                label="Narrator",
+                settings={
+                    "native_rate": 1.15,
+                    "title_pause_after": 0.9,
+                    "pronunciation_replacements": {"TTS": "text to speech"},
+                },
+            )
+        )
+        old = manager.saved_profile_store().get(profile["id"])
+        queued = manager.prepare_saved(["music:001000"], profile["id"])[0]
+        with TestClient(
+            create_app(
+                library.store.root, tts_config=config, generation_manager=manager
+            )
+        ) as client:
+            response = client.post(
+                "/api/library/voice-profiles/save",
+                json=dict(
+                    id=profile["id"],
+                    expected_revision=profile["revision"],
+                    label="Narrator",
+                    voice="am_echo",
+                ),
+            )
+            assert response.status_code == 201, response.text
+            changed = response.json()
+            assert (
+                changed["id"] == profile["id"]
+                and changed["revision"] != profile["revision"]
+            )
+            recipe = manager.saved_profile_store().get(profile["id"])["recipe"]
+            assert recipe["native_rate"] == 1.15 and recipe["title_pause_after"] == 0.9
+            assert (
+                recipe["config"]["pronunciation_replacements"]
+                == old["recipe"]["config"]["pronunciation_replacements"]
+            )
+            assert recipe["reference"]["audio"]["basename"] == "second.wav"
+            assert (
+                manager.saved_profile_store().get(profile["id"], profile["revision"])[
+                    "recipe"
+                ]
+                == old["recipe"]
+            )
+            stale = client.post(
+                "/api/library/voice-profiles/save",
+                json=dict(
+                    id=profile["id"],
+                    expected_revision=profile["revision"],
+                    label="Stale",
+                    voice="af_alloy",
+                ),
+            )
+            assert stale.status_code == 409
+            manager.max_active_jobs = 1
+            assert finished(manager, queued["id"])["state"] == "ready"
+            new = manager.prepare_saved(["music:001000"], profile["id"])[0]
+            assert new["id"] != queued["id"] and new["variant"] != queued["variant"]
+            assert finished(manager, new["id"])["state"] == "ready"
+            assert calls == [("af_alloy", 1.15), ("am_echo", 1.15)]
+            records = library.snapshot()["lectures"]["music:001000"]["recordings"]
+            assert len(records) == 2 and {r["generator"]["voice"] for r in records} == {
+                "af_alloy",
+                "am_echo",
+            }
+    finally:
         manager.close()

@@ -5,16 +5,17 @@ a backend connection, one fixed voice or reference, prose and title delivery,
 pronunciation replacements, native speaking rate, saved-audio tempo, processing,
 and output format. The generation dropdown selects that entry directly.
 
-Use **Add profile**, or **Duplicate profile** to start from an existing
-entry. Only creation and duplication offer a backend voice selector. The form checks the server for available voices automatically without blocking
+Use **Add profile**, or **Duplicate profile** to start from an existing entry.
+The form checks the server for available voices automatically without blocking
 editing. Backend voice catalog offers manual refresh and registration of an ID
-already installed on that server;
-it does not upload recordings or create a reference voice. Existing profiles keep
-their backend and voice fixed. Choose a server default and mark profiles for quick
-select. The player also offers other saved profiles and existing recordings.
+already installed on that server; it does not upload recordings or create a
+reference voice. Edit an existing profile to choose a different voice reference
+on its backend. Duplicate it to change backends. Choose a server default and
+mark profiles for quick select. The player also offers other saved profiles and
+existing recordings.
 
-**Edit profile** saves changed audio settings as an immutable revision under the
-same profile ID. Renaming or changing quick select leaves the audio revision alone.
+**Edit profile** saves changes to the voice reference or audio settings as an
+immutable revision under the same profile ID. Renaming or changing quick select leaves the audio revision alone.
 Queued jobs retain their complete recipe snapshot. New generation uses the chosen
 revision; previous revisions and legacy recordings remain separately playable.
 Clearing a profile's lecture cache affects that revision only. Archiving hides a

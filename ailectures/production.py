@@ -355,7 +355,27 @@ class GenerationManager:
         voice = payload.get("voice") or (
             source["recipe"]["config"]["voice"] if source else None
         )
-        if source and (
+        if existing and existing["recipe"]["backend_id"] != backend_id:
+            raise ValueError("Duplicate the profile to change its backend")
+        if (
+            source
+            and source["recipe"]["backend_id"] == backend_id
+            and source["recipe"]["config"]["voice"] != voice
+        ):
+            if voice not in {
+                v["voice"] for v in self.profile_backend_voices(backend_id)["voices"]
+            }:
+                raise ValueError("Select a voice known to this backend")
+            recipe = deepcopy(source["recipe"])
+            matching = [sources[key] for key in backend["aliases"] if sources[key]["voice"] == voice]
+            reference = next((item for item in matching if item.get("reference")), matching[0] if matching else {})
+            recipe["config"]["voice"] = voice
+            recipe["reference"] = deepcopy(reference.get("reference"))
+            recipe["fixed_reference"] = bool(recipe["reference"])
+            recipe["config"].pop("voice_revision", None)
+            if "voice_revision" in reference:
+                recipe["config"]["voice_revision"] = reference["voice_revision"]
+        elif source and (
             source["recipe"]["backend_id"],
             source["recipe"]["config"]["voice"],
         ) == (backend_id, voice):
