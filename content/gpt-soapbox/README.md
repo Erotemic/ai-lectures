@@ -101,6 +101,8 @@ listeners may choose any order.
 
 - **026000 — The Fish That Was Still There.** How an abundant cod fishery became a catastrophe for Newfoundland and Labrador, why concentrated schools could mask the scale of decline, and why the reopened fishery's 2026 quota remains contested. The subject was chosen from a randomly generated word list.
 
+- **027000 - A Snowflake on a Rabbit Hair.** How hexagonal ice grows wildly different shapes, from Kepler's puzzle and Bentley's photographs to Nakaya's 1936 artificial snow crystal on a fine support; what vapor, temperature and growing tips do to the six arms.
+
 Spoken narration is inside the standard marker pair in each manuscript. Source
 notes, constructed-example qualifications, and reading links follow the
 spoken region. Per-lecture metadata and reading records are in `metadata/`.

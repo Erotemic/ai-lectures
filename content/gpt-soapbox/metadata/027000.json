@@ -1,0 +1,332 @@
+{
+  "schema_version": 1,
+  "lecture_id": "027000",
+  "transcript": "027000-a-snowflake-on-a-rabbit-hair.md",
+  "description": "How a six-sided crystal grows branching arms, from Kepler and Wilson Bentley to Ukichiro Nakaya's 1936 laboratory snow crystal and the still-developing physics of ice growth.",
+  "tags": [
+    "GPT-SoapBox",
+    "Essays",
+    "Snow crystals",
+    "Snowflakes",
+    "Snow",
+    "Ice",
+    "Hokkaido",
+    "Japan",
+    "Vermont",
+    "United States",
+    "Prague",
+    "Czech Republic",
+    "Hokkaido University",
+    "Jericho Vermont",
+    "Wilson Bentley",
+    "Ukichiro Nakaya",
+    "Isonosuke Sato",
+    "Yataro Sekido",
+    "Johannes Kepler",
+    "William J. Humphreys",
+    "Kenneth G. Libbrecht",
+    "1611",
+    "1885",
+    "1931",
+    "1936",
+    "17th century",
+    "19th century",
+    "20th century",
+    "21st century",
+    "Physics",
+    "Crystallography",
+    "Atmospheric physics",
+    "Meteorology",
+    "Cloud microphysics",
+    "Hexagonal ice",
+    "Ice Ih",
+    "Hydrogen bonding",
+    "Water vapor",
+    "Supersaturation",
+    "Diffusion-limited growth",
+    "Dendrites",
+    "Surface attachment kinetics",
+    "Crystal morphology",
+    "Nakaya diagram",
+    "Scientific instruments",
+    "Photomicrography",
+    "Microscopy",
+    "Artificial snow",
+    "Experimental science",
+    "Condensation",
+    "Deposition",
+    "Snowfall",
+    "Crystal symmetry",
+    "Ice nucleation",
+    "Humidity",
+    "Temperature",
+    "Latent heat",
+    "Pattern formation",
+    "Scientific history",
+    "Weather",
+    "Physical chemistry",
+    "Laboratory experiments",
+    "Rabbit hair",
+    "Ice crystal growth"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Physics",
+      "Condensed matter physics",
+      "Crystallization"
+    ],
+    [
+      "Science",
+      "Earth sciences",
+      "Meteorology",
+      "Snow and clouds"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Physical chemistry",
+      "Ice and water"
+    ],
+    [
+      "History",
+      "History of science",
+      "Snow crystal research"
+    ],
+    [
+      "Geography",
+      "Asia",
+      "Japan",
+      "Hokkaido"
+    ],
+    [
+      "Geography",
+      "North America",
+      "United States",
+      "Vermont"
+    ],
+    [
+      "Geography",
+      "Europe",
+      "Czech Republic",
+      "Prague"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "gs-snow-nakaya-book",
+      "reason": "Primary account for date, temperatures and technical difficulties of the first artificial crystal"
+    },
+    {
+      "source_id": "gs-snow-nakaya-hokkaido",
+      "reason": "University history of artificial crystal growth on rabbit hair"
+    },
+    {
+      "source_id": "gs-snow-nakaya-obit",
+      "reason": "Nakaya research chronology and interpretation"
+    },
+    {
+      "source_id": "gs-snow-kepler-loc",
+      "reason": "Early-modern snowflake observations"
+    },
+    {
+      "source_id": "gs-snow-kepler-oxford",
+      "reason": "Kepler and the 1611 gift essay"
+    },
+    {
+      "source_id": "gs-snow-kepler-alaska",
+      "reason": "Kepler packing hypothesis and molecular correction"
+    },
+    {
+      "source_id": "gs-snow-bentley-sia",
+      "reason": "Bentley photographs and photographic apparatus"
+    },
+    {
+      "source_id": "gs-snow-bentley-smithsonian",
+      "reason": "Collection context for early images"
+    },
+    {
+      "source_id": "gs-snow-bentley-iowa",
+      "reason": "Image preparation and visual selection"
+    },
+    {
+      "source_id": "gs-snow-libbrecht-review",
+      "reason": "Modern growth physics and morphology diagram"
+    },
+    {
+      "source_id": "gs-snow-libbrecht-americanscientist",
+      "reason": "Mechanisms and limitations"
+    },
+    {
+      "source_id": "gs-snow-noaa",
+      "reason": "Hexagonal crystal, deposition and branching"
+    },
+    {
+      "source_id": "gs-snow-libbrecht-guide",
+      "reason": "Crystal forms and arm symmetry"
+    },
+    {
+      "source_id": "gs-snow-loc-unique",
+      "reason": "Nuance in no-two-snowflakes-alike claim"
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "snow-027-h01",
+      "anchor": "On March 12, 1936, a snow crystal grew in a laboratory in northern Japan.",
+      "kind": "history_or_statistics",
+      "source_ids": [
+        "gs-snow-nakaya-book",
+        "gs-snow-nakaya-hokkaido"
+      ],
+      "source_locator": "gs-snow-nakaya-book",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "snow-027-h02",
+      "anchor": "The filament was an unlikely piece of scientific equipment: a rabbit hair.",
+      "kind": "history_or_statistics",
+      "source_ids": [
+        "gs-snow-nakaya-hokkaido"
+      ],
+      "source_locator": "gs-snow-nakaya-hokkaido",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "snow-027-h03",
+      "anchor": "In 1611, Johannes Kepler published a short work called *The Six-Cornered Snowflake*.",
+      "kind": "history_or_statistics",
+      "source_ids": [
+        "gs-snow-kepler-loc",
+        "gs-snow-kepler-oxford"
+      ],
+      "source_locator": "gs-snow-kepler-loc",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "snow-027-h04",
+      "anchor": "One of his ideas concerned the packing of little spherical particles.",
+      "kind": "history_or_statistics",
+      "source_ids": [
+        "gs-snow-kepler-alaska"
+      ],
+      "source_locator": "gs-snow-kepler-alaska",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "snow-027-h05",
+      "anchor": "In 1885 he obtained a successful photograph of an individual snow crystal.",
+      "kind": "history_or_statistics",
+      "source_ids": [
+        "gs-snow-bentley-sia"
+      ],
+      "source_locator": "gs-snow-bentley-sia",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "snow-027-h06",
+      "anchor": "Bentley went on to make more than five thousand snow-crystal photographs.",
+      "kind": "history_or_statistics",
+      "source_ids": [
+        "gs-snow-bentley-sia"
+      ],
+      "source_locator": "gs-snow-bentley-sia",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "snow-027-h07",
+      "anchor": "Bentley sometimes prepared or retouched the photographic negatives so the crystals would stand out against a black background.",
+      "kind": "history_or_statistics",
+      "source_ids": [
+        "gs-snow-bentley-iowa"
+      ],
+      "source_locator": "gs-snow-bentley-iowa",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "snow-027-h08",
+      "anchor": "Around five degrees below zero Celsius, snow crystals grown in moist conditions tend toward slender columns and needles.",
+      "kind": "history_or_statistics",
+      "source_ids": [
+        "gs-snow-libbrecht-review"
+      ],
+      "source_locator": "gs-snow-libbrecht-review",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "snow-027-h09",
+      "anchor": "Nakaya had begun studying natural snow crystals after moving into physics work at Hokkaido University in the early 1930s.",
+      "kind": "history_or_statistics",
+      "source_ids": [
+        "gs-snow-nakaya-obit"
+      ],
+      "source_locator": "gs-snow-nakaya-obit",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "snow-027-h10",
+      "anchor": "Then, on March 12, 1936, they obtained a crystal that resembled a natural six-branched snow crystal.",
+      "kind": "history_or_statistics",
+      "source_ids": [
+        "gs-snow-nakaya-book"
+      ],
+      "source_locator": "gs-snow-nakaya-book",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "snow-027-h11",
+      "anchor": "Nakaya later used the phrase 'a snow crystal is a letter from the sky.'",
+      "kind": "history_or_statistics",
+      "source_ids": [
+        "gs-snow-nakaya-obit"
+      ],
+      "source_locator": "gs-snow-nakaya-obit",
+      "audit_status": "source_passage_checked"
+    }
+  ],
+  "claim_evidence": [
+    {
+      "id": "snow-027-c01",
+      "anchor": "This is one route to branching.",
+      "source_ids": [
+        "gs-snow-noaa",
+        "gs-snow-libbrecht-review"
+      ],
+      "provenance": "source_supported_explanation",
+      "source_locator": "NOAA branching explanation; Libbrecht physical review",
+      "evidence_detail": "Exposed projections receive more diffusing vapor and amplify growth instabilities."
+    },
+    {
+      "id": "snow-027-c02",
+      "anchor": "At much lower temperatures, the diagram changes again.",
+      "source_ids": [
+        "gs-snow-libbrecht-review",
+        "gs-snow-libbrecht-americanscientist"
+      ],
+      "provenance": "source_supported_explanation",
+      "source_locator": "Crystal morphology diagram",
+      "evidence_detail": "Plate/column habits vary non-monotonically with temperature and supersaturation."
+    },
+    {
+      "id": "snow-027-c03",
+      "anchor": "Perfect symmetry is the exception photographers hunt for.",
+      "source_ids": [
+        "gs-snow-libbrecht-review",
+        "gs-snow-bentley-iowa"
+      ],
+      "provenance": "source_supported_explanation",
+      "source_locator": "Libbrecht discussion of natural asymmetry and selected images",
+      "evidence_detail": "Natural snow crystals are often irregular; memorable photos select symmetric specimens."
+    },
+    {
+      "id": "snow-027-c04",
+      "anchor": "Simple hexagonal prisms can be visually indistinguishable at ordinary resolutions.",
+      "source_ids": [
+        "gs-snow-loc-unique"
+      ],
+      "provenance": "source_supported_explanation",
+      "source_locator": "Library of Congress discussion of identical simple crystals",
+      "evidence_detail": "Appearance is distinct from exact molecular identity."
+    }
+  ]
+}
