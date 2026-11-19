@@ -441,6 +441,153 @@
       "kind": "government_evidence_review",
       "access": "free_no_login",
       "notes": "Environment and timescale control whether a plastic is actually biodegraded or composted."
+    },
+    "chem-an-sampling-usgs": {
+      "title": "USGS, National Field Manual for the Collection of Water-Quality Data",
+      "url": "https://www.usgs.gov/mission-areas/water-resources/science/national-field-manual-collection-water-quality-data-nfm",
+      "kind": "government_science_protocol",
+      "access": "free_no_login",
+      "notes": "Sampling, preservation, filtering, field measurements and transport for water chemistry."
+    },
+    "chem-an-eurachem-sampling": {
+      "title": "Eurachem, Measurement Uncertainty Arising from Sampling (2nd ed., 2019)",
+      "url": "https://www.eurachem.org/index.php/publications/guides/musamp",
+      "kind": "metrology_guidance",
+      "access": "free_no_login",
+      "notes": "Samples and their uncertainty are part of the intended sampling-target measurement."
+    },
+    "chem-an-eurachem-2026": {
+      "title": "Eurachem/CITAC, Evaluation of Measurement Uncertainty from In-house Precision and Recovery Data (2026)",
+      "url": "https://eurachem.org/index.php/publications/guides/gd-mupr",
+      "kind": "metrology_guidance",
+      "access": "free_no_login",
+      "notes": "Precision, recovery, matrix effects, calibration and components of chemical measurement uncertainty."
+    },
+    "chem-an-nist-srm": {
+      "title": "NIST, About NIST Standard Reference Materials",
+      "url": "https://www.nist.gov/srm/about-nist-srms",
+      "kind": "government_metrology",
+      "access": "free_no_login",
+      "notes": "Reference materials, certificates, calibration and quality assurance."
+    },
+    "chem-an-nist-trace": {
+      "title": "NIST, Metrological Traceability FAQ and Policy",
+      "url": "https://www.nist.gov/metrology/metrological-traceability",
+      "kind": "government_metrology",
+      "access": "free_no_login",
+      "notes": "Traceability as a property of results, established through reference chains with uncertainty."
+    },
+    "chem-an-iupac-lod": {
+      "title": "IUPAC Gold Book, limit of detection",
+      "url": "https://goldbook.iupac.org/terms/view/L03540",
+      "kind": "scientific_terminology",
+      "access": "free_no_login",
+      "notes": "Blank response distribution and chosen threshold, not a universal single detector number."
+    },
+    "chem-an-iupac-loq": {
+      "title": "IUPAC Gold Book, limit of quantification",
+      "url": "https://goldbook.iupac.org/terms/view/08022",
+      "kind": "scientific_terminology",
+      "access": "free_no_login",
+      "notes": "Quantification limit is fitness-for-purpose with measurement quality requirements."
+    },
+    "chem-an-iupac-performance": {
+      "title": "IUPAC Gold Book, performance characteristic of measurement procedure",
+      "url": "https://goldbook.iupac.org/terms/view/08094",
+      "kind": "scientific_terminology",
+      "access": "free_no_login",
+      "notes": "Selectivity, precision, trueness, working range, LOD and LOQ distinctions."
+    },
+    "chem-an-rsc-intro": {
+      "title": "Royal Society of Chemistry Education, Analytical Chemistry Introductions",
+      "url": "https://edu.rsc.org/resources/collections/analytical-chemistry-introductions",
+      "kind": "professional_society_education",
+      "access": "free_no_login",
+      "notes": "UV/visible, infrared, Raman, NMR, chromatography and mass spectrometry educational primers."
+    },
+    "chem-an-acs-principles": {
+      "title": "American Chemical Society Institute, Principles of Analytical Chemistry",
+      "url": "https://institute.acs.org/principles-analytical-chemistry.html",
+      "kind": "professional_society_education",
+      "access": "free_no_login",
+      "notes": "Sampling, uncertainty, calibration, UV/visible, FTIR, chromatographic resolution and chromatographic methods."
+    },
+    "chem-an-nist-webbook": {
+      "title": "NIST Chemistry WebBook, Spectroscopic and Chromatographic Reference Data",
+      "url": "https://webbook.nist.gov/chemistry/guide/",
+      "kind": "government_reference_data",
+      "access": "free_no_login",
+      "notes": "Reference spectra and method metadata for IR, MS, UV/Vis and gas chromatography."
+    },
+    "chem-an-usp-raman": {
+      "title": "United States Pharmacopeia, General Chapter 858, Raman Spectroscopy",
+      "url": "https://doi.usp.org/USPNF/USPNF_M8188_02_01.html",
+      "kind": "scientific_standard",
+      "access": "free_no_login",
+      "notes": "Raman scattering, polarizability and complementarity with infrared dipole-active vibrations."
+    },
+    "chem-an-jeol-nmr": {
+      "title": "JEOL, How to Read NMR Spectra: Chemical Shift, Integration, Coupling",
+      "url": "https://www.jeol.com/column/detail005.php",
+      "kind": "instrument_science_education",
+      "access": "free_no_login",
+      "notes": "NMR inference from shift, integration and spin-spin coupling."
+    },
+    "chem-an-bloch-stanford": {
+      "title": "Stanford Physics, Nobel Prize in Physics 1952: Felix Bloch",
+      "url": "https://physics.stanford.edu/nobel-prize-physics-1952-felix-bloch",
+      "kind": "university_history",
+      "access": "free_no_login",
+      "notes": "Bloch, 1946 nuclear magnetic resonance methods, US institutional setting, 1952 prize."
+    },
+    "chem-an-purcell-harvard": {
+      "title": "Harvard University, Nobel Laureates in Physics: Edward Purcell",
+      "url": "https://www.harvard.edu/about/history/nobel-laureates/physics/",
+      "kind": "university_history",
+      "access": "free_no_login",
+      "notes": "Purcell nuclear magnetic resonance at Harvard and 1952 joint physics Nobel."
+    },
+    "chem-an-rsc-chrom": {
+      "title": "Royal Society of Chemistry, Chromatography Techniques",
+      "url": "https://edu.rsc.org/resources/chromatography-techniques/4010255.article",
+      "kind": "professional_society_education",
+      "access": "free_no_login",
+      "notes": "Gas chromatography, liquid chromatography, stationary/mobile phase, retention and detection."
+    },
+    "chem-an-chrom-history": {
+      "title": "The First Steps of Chromatography: Practice, Paradigm and Scientific Change in Early Twentieth-Century Chemistry (2026)",
+      "url": "https://link.springer.com/article/10.1007/s10698-026-09572-6",
+      "kind": "history_of_science_research",
+      "access": "free_no_login",
+      "notes": "Tswett, Warsaw 1903 lecture, 1906 publications, contested earlier histories of discovery."
+    },
+    "chem-an-chrom-acs": {
+      "title": "ACS, Celebrating the Sesquicentennial of Mikhail Tsvet",
+      "url": "https://acs.digitellinc.com/p/s/celebrating-the-sesquicentennial-of-the-birth-of-mikhail-semyonovich-tsvet-1872-1919-the-father-of-chromatography-519009",
+      "kind": "professional_society_history",
+      "access": "free_no_login",
+      "notes": "Early chromatographic pigment research and documented timeline complexities."
+    },
+    "chem-an-iupac-ms": {
+      "title": "IUPAC Recommendations, Definitions of Terms Relating to Mass Spectrometry (2013)",
+      "url": "https://www.degruyterbrill.com/document/doi/10.1351/PAC-REC-06-04-06/html",
+      "kind": "scientific_nomenclature",
+      "access": "free_no_login",
+      "notes": "Ion mass-to-charge conventions, charge states, electrospray, tandem MS terminology."
+    },
+    "chem-an-nobel-ms": {
+      "title": "Nobel Prize in Chemistry 2002: Scientific Background on Ionization Methods",
+      "url": "https://www.nobelprize.org/uploads/2018/06/advanced-chemistryprize2002.pdf",
+      "kind": "primary_award_history",
+      "access": "free_no_login",
+      "notes": "John Fenn electrospray and Koichi Tanaka soft laser desorption for large molecules."
+    },
+    "chem-an-ms-2026": {
+      "title": "Understanding Mass Spectrometry: From Ion Generation to Spectral Interpretation (2026)",
+      "url": "https://doi.org/10.1002/jms.70078",
+      "kind": "peer_reviewed_tutorial",
+      "access": "free_no_login",
+      "notes": "Ion generation, mass analysis, isotope patterns, multiply charged ions and spectrum interpretation."
     }
   }
 }

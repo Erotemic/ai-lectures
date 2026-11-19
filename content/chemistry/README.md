@@ -1,8 +1,8 @@
 # Chemistry: From Atoms to Reactions
 
-**Status:** twenty completed audio-first lectures (001000-020000). This is an independent pack in Science and Nature.
+**Status:** twenty-eight completed audio-first lectures (001000-028000). This is an independent pack in Science and Nature.
 
-The course begins with matter, bonds, solutions, reaction quantities, thermodynamics, kinetics, equilibrium and electrochemistry. The organic chemistry extension builds carbon structures, recognizes functional groups, reasons about stereochemistry, follows electron-pair mechanisms and reaches macromolecules and material behavior. Each lecture is standalone with a spoken manuscript and an unspoken scientific companion.
+The course begins with matter, bonds, solutions, reaction quantities, thermodynamics, kinetics, equilibrium and electrochemistry. The organic chemistry extension builds carbon structures, recognizes functional groups, reasons about stereochemistry, follows electron-pair mechanisms and reaches macromolecules and material behavior. The new analytical chemistry sequence then explains how sampling, calibration, spectroscopy, separations and mass measurements support defensible chemical identifications. Each lecture is standalone with a spoken manuscript and an unspoken scientific companion.
 
 ## Current lectures
 
@@ -29,12 +29,21 @@ The course begins with matter, bonds, solutions, reaction quantities, thermodyna
 | 019000 | The Two Lives of a Carbonyl | Distinguishes aldehyde/ketone addition from carboxylic-acid-derivative acyl substitution; develops reduction, esterification, hydrolysis, amide resistance, catalysis and peptide links |
 | 020000 | When Molecules Become Materials | Explains chain-growth and step-growth polymerization, molecular-size distributions, stoichiometric conversion, glass transitions, crystalline regions, elastomers, crosslinks and environmental degradation |
 
+| 021000 | The Sample Is Not the World: What Chemical Measurement Actually Represents | Develops the measurand, representative sampling, filtered versus total material, spatial and temporal variability, sample preservation, matrix effects and field blanks |
+| 022000 | Turning a Signal into a Number: Calibration, Detection, and Uncertainty | Explains calibration curves, sample dilution, matrix-matched and internal standards, blanks, detection and quantification limits, precision, bias, and measurement uncertainty |
+| 023000 | When Light Measures Matter: Absorption, Color, and Fluorescence | Builds UV/visible absorbance and Beer–Lambert reasoning from photons, transmittance and path length, then explains multicomponent spectra and fluorescence limits |
+| 024000 | The Bonds Are Moving: Infrared and Raman Fingerprints | Explains molecular normal modes, infrared dipole selection rules, Raman polarizability, FTIR, ATR surface sensitivity, spectral fingerprinting and mixture ambiguity |
+| 025000 | Listening to Atomic Nuclei: How NMR Reveals Molecular Structure | Develops spin resonance, shielding, chemical shift, integration, coupling, proton and carbon NMR, Fourier-transform acquisition and structural inference |
+| 026000 | A Mixture Enters a Column: The Logic of Chromatography | Explains differential retention, chromatography modes, TLC, GC, LC, peak resolution, coelution, detection, and the development of plant-pigment separations |
+| 027000 | Weighing Ions, Not Molecules: What a Mass Spectrum Can Tell Us | Explains m/z and charge states, electron and electrospray ionization, isotopic patterns, accurate mass, tandem MS, matrix effects and limits of spectral database matches |
+| 028000 | Building the Chemical Case: How Independent Measurements Become Evidence | Integrates sampling, blanks, chromatography, UV detection, MS identity, extraction recovery, uncertainty and evidence limits in a worked fictional water investigation |
+
 ### Listening routes
 
-`navigation.json` retains the stable `chemistry-foundations` main collection, now organized into twenty lecture chapters, and the older deep-dive routes. New focused collections cover organic structure and stereochemistry, organic mechanisms and carbonyls, and polymers and materials.
+`navigation.json` retains the stable `chemistry-foundations` main collection, now organized into twenty-eight lecture chapters, and the older deep-dive routes. New focused collections cover organic structure and stereochemistry, organic mechanisms and carbonyls, and polymers and materials, plus sampling and calibration, spectroscopic clues, chromatographic separations and mass spectra, and an analytical identification capstone.
 
 ### Evidence and discovery
 
-Each transcript has one extractable spoken section, and a separate non-spoken companion with equations, reasoning questions and further reading. Metadata sidecars retain source-linked claim anchors and searchable topic paths. The Pasteur tartrate episode has a documented 1848 chronology tag and France geography; other organic lectures make no unsupported geographical or historical claims. `metadata/sources.json` contains shared bibliographic records.
+Each transcript has one extractable spoken section, and a separate non-spoken companion with equations, reasoning questions and further reading. Metadata sidecars retain source-linked claim anchors and searchable topic paths. Chronology and geography reflect documented historical examples: Pasteur (France, 1848), Bloch and Purcell (United States, 1946–1952), Tswett chromatography (Warsaw, 1903–1906), and the 2002 mass-spectrometry Nobel recognition; lectures without such events receive no geographic or chronological assertion. `metadata/sources.json` contains shared bibliographic records.
 
 For further course expansion see `BACKLOG.md`. This content pack ships no binary images, audio, derived media or modifications outside `content/chemistry/`.

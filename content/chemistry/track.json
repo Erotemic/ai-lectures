@@ -1,7 +1,7 @@
 {
   "id": "chemistry",
   "title": "Chemistry: From Atoms to Reactions",
-  "summary": "Audio-first chemistry from atomic structure, reactions and electrochemistry through the molecular geometry of carbon, functional groups, stereochemistry, organic reaction mechanisms, carbonyl chemistry and polymer materials. Scientific companions provide equations, examples and source-backed claims.",
+  "summary": "Audio-first chemistry from atoms and reactions through organic molecules and polymers into evidence-bearing analytical chemistry: sampling, calibration, optical and nuclear spectroscopy, chromatography, mass spectrometry, and inference from combined measurements. Each lecture has scientific companions and source-linked claims.",
   "categories": [
     "Science and nature"
   ],
@@ -28,7 +28,20 @@
     "Nucleophilic substitution",
     "Carbonyl chemistry",
     "Polymers",
-    "Materials chemistry"
+    "Materials chemistry",
+    "Analytical chemistry",
+    "Chemical sampling",
+    "Calibration",
+    "Measurement uncertainty",
+    "Spectroscopy",
+    "UV-visible spectroscopy",
+    "Infrared spectroscopy",
+    "Raman spectroscopy",
+    "Nuclear magnetic resonance",
+    "Chromatography",
+    "Mass spectrometry",
+    "Chemical identification",
+    "Chemical metrology"
   ],
   "tag_paths": [
     [
@@ -63,7 +76,15 @@
     "organic_mechanisms",
     "substitution_and_elimination",
     "carbonyl_chemistry",
-    "polymers_and_materials"
+    "polymers_and_materials",
+    "sampling_design",
+    "calibration_and_uncertainty",
+    "optical_spectroscopy",
+    "vibrational_spectroscopy",
+    "nuclear_magnetic_resonance",
+    "chromatography",
+    "mass_spectrometry",
+    "evidence_integration"
   ],
   "lectures": [
     {
@@ -1225,6 +1246,491 @@
           "Science",
           "Chemistry",
           "Polymer degradation and circularity"
+        ]
+      ]
+    },
+    {
+      "id": "021000",
+      "title": "The Sample Is Not the World: What Chemical Measurement Actually Represents",
+      "section": "sampling_design",
+      "file": "021000-the-sample-is-not-the-world.md",
+      "spoken_words": 1660,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 11.4,
+      "description": "Develops the measurand, representative sampling, filtered versus total material, spatial and temporal variability, sample preservation, matrix effects and field blanks.",
+      "tags": [
+        "Analytical chemistry",
+        "Environmental sampling",
+        "Measurand",
+        "Sampling design",
+        "Representativeness",
+        "Grab samples",
+        "Composite samples",
+        "Sample preservation",
+        "Sample contamination",
+        "Field blanks",
+        "Operational definitions",
+        "Dissolved metals",
+        "Analyte recovery",
+        "Matrix effects",
+        "Sampling uncertainty",
+        "Water quality",
+        "Soil sampling"
+      ],
+      "tag_paths": [
+        [
+          "Science",
+          "Chemistry",
+          "Measurands and scope"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Representative sampling"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Environmental sampling uncertainty"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Speciation and sample preservation"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Analytical blanks and matrix effects"
+        ]
+      ]
+    },
+    {
+      "id": "022000",
+      "title": "Turning a Signal into a Number: Calibration, Detection, and Uncertainty",
+      "section": "calibration_and_uncertainty",
+      "file": "022000-turning-a-signal-into-a-number.md",
+      "spoken_words": 1539,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 10.6,
+      "description": "Explains calibration curves, sample dilution, matrix-matched and internal standards, blanks, detection and quantification limits, precision, bias, and measurement uncertainty.",
+      "tags": [
+        "Analytical chemistry",
+        "Calibration curve",
+        "Standard solution",
+        "Blank signal",
+        "Instrument response",
+        "Matrix effects",
+        "Standard addition",
+        "Internal standards",
+        "Isotope dilution",
+        "Limits of detection",
+        "Limits of quantification",
+        "Precision",
+        "Trueness",
+        "Bias",
+        "Recovery",
+        "Measurement uncertainty",
+        "Metrological traceability",
+        "Quality control"
+      ],
+      "tag_paths": [
+        [
+          "Science",
+          "Chemistry",
+          "Calibration and standards"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Signal-to-concentration inference"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Detection and quantification limits"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Precision bias and uncertainty"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Traceability and quality assurance"
+        ]
+      ]
+    },
+    {
+      "id": "023000",
+      "title": "When Light Measures Matter: Absorption, Color, and Fluorescence",
+      "section": "optical_spectroscopy",
+      "file": "023000-when-light-measures-matter.md",
+      "spoken_words": 1561,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 10.8,
+      "description": "Builds UV/visible absorbance and Beer–Lambert reasoning from photons, transmittance and path length, then explains multicomponent spectra and fluorescence limits.",
+      "tags": [
+        "Analytical chemistry",
+        "UV-visible spectroscopy",
+        "Photons",
+        "Absorption spectroscopy",
+        "Beer-Lambert law",
+        "Transmittance",
+        "Spectrophotometry",
+        "Electronic transitions",
+        "Conjugation",
+        "Color chemistry",
+        "Photochemistry",
+        "Fluorescence",
+        "Quantum yield",
+        "Quenching",
+        "Inner filter effect",
+        "Scattering",
+        "Optical calibration",
+        "Spectral deconvolution"
+      ],
+      "tag_paths": [
+        [
+          "Science",
+          "Chemistry",
+          "Electronic spectroscopy"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "UV-visible absorbance"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Beer-Lambert relationship"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Fluorescence and quenching"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Spectral mixtures and selectivity"
+        ]
+      ]
+    },
+    {
+      "id": "024000",
+      "title": "The Bonds Are Moving: Infrared and Raman Fingerprints",
+      "section": "vibrational_spectroscopy",
+      "file": "024000-the-bonds-are-moving.md",
+      "spoken_words": 1467,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 10.1,
+      "description": "Explains molecular normal modes, infrared dipole selection rules, Raman polarizability, FTIR, ATR surface sensitivity, spectral fingerprinting and mixture ambiguity.",
+      "tags": [
+        "Analytical chemistry",
+        "Infrared spectroscopy",
+        "Vibrational modes",
+        "Normal modes",
+        "Selection rules",
+        "IR absorption",
+        "Raman spectroscopy",
+        "Polarizability",
+        "Dipole moment",
+        "FTIR",
+        "ATR-IR",
+        "Attenuated total reflection",
+        "Wavenumber",
+        "Spectral fingerprint",
+        "Functional groups",
+        "Carbonyl vibration",
+        "Surface spectroscopy",
+        "Reaction monitoring"
+      ],
+      "tag_paths": [
+        [
+          "Science",
+          "Chemistry",
+          "Molecular vibrations"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Infrared selection rules"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Raman scattering"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "FTIR and ATR"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Spectral assignment and limitations"
+        ]
+      ]
+    },
+    {
+      "id": "025000",
+      "title": "Listening to Atomic Nuclei: How NMR Reveals Molecular Structure",
+      "section": "nuclear_magnetic_resonance",
+      "file": "025000-listening-to-atomic-nuclei.md",
+      "spoken_words": 1387,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 9.6,
+      "description": "Develops spin resonance, shielding, chemical shift, integration, coupling, proton and carbon NMR, Fourier-transform acquisition and structural inference.",
+      "tags": [
+        "Analytical chemistry",
+        "NMR spectroscopy",
+        "Nuclear magnetic resonance",
+        "Nuclear spin",
+        "Magnetic moment",
+        "Chemical shift",
+        "Shielding",
+        "Proton NMR",
+        "Carbon-13 NMR",
+        "Chemical structure determination",
+        "Spin-spin coupling",
+        "Signal integration",
+        "Relaxation times",
+        "Fourier transform",
+        "Two-dimensional NMR",
+        "Constitutional isomers",
+        "Ethanol",
+        "Dimethyl ether",
+        "Felix Bloch",
+        "Edward Purcell"
+      ],
+      "tag_paths": [
+        [
+          "Science",
+          "Chemistry",
+          "Nuclear resonance"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Proton NMR assignments"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Chemical shift and integration"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Spin coupling and multiplets"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Carbon NMR and spectral correlation"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "History of NMR"
+        ],
+        [
+          "Place: North America",
+          "Place: United States"
+        ]
+      ]
+    },
+    {
+      "id": "026000",
+      "title": "A Mixture Enters a Column: The Logic of Chromatography",
+      "section": "chromatography",
+      "file": "026000-a-mixture-enters-a-column.md",
+      "spoken_words": 1564,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 10.8,
+      "description": "Explains differential retention, chromatography modes, TLC, GC, LC, peak resolution, coelution, detection, and the development of plant-pigment separations.",
+      "tags": [
+        "Analytical chemistry",
+        "Chromatography",
+        "Mikhail Tswett",
+        "Plant pigments",
+        "Column chromatography",
+        "Mobile phase",
+        "Stationary phase",
+        "Thin-layer chromatography",
+        "Retention factor",
+        "Chromatographic resolution",
+        "Gas chromatography",
+        "Liquid chromatography",
+        "HPLC",
+        "Size exclusion chromatography",
+        "Ion exchange chromatography",
+        "Chiral chromatography",
+        "Coelution",
+        "Separation selectivity",
+        "Peak integration",
+        "Sample carryover"
+      ],
+      "tag_paths": [
+        [
+          "Science",
+          "Chemistry",
+          "Chromatographic separation"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Gas chromatography"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Liquid chromatography"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Thin-layer chromatography"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Retention and peak resolution"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Historical chromatography"
+        ],
+        [
+          "Place: Europe",
+          "Place: Poland",
+          "Place: Warsaw"
+        ]
+      ]
+    },
+    {
+      "id": "027000",
+      "title": "Weighing Ions, Not Molecules: What a Mass Spectrum Can Tell Us",
+      "section": "mass_spectrometry",
+      "file": "027000-weighing-ions-not-molecules.md",
+      "spoken_words": 1541,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 10.6,
+      "description": "Explains m/z and charge states, electron and electrospray ionization, isotopic patterns, accurate mass, tandem MS, matrix effects and limits of spectral database matches.",
+      "tags": [
+        "Analytical chemistry",
+        "Mass spectrometry",
+        "Mass-to-charge ratio",
+        "Ionization",
+        "Electron ionization",
+        "Electrospray ionization",
+        "Molecular ions",
+        "Adducts",
+        "Charge states",
+        "Multiple charging",
+        "Isotope patterns",
+        "Chlorine isotopes",
+        "Accurate mass",
+        "Mass resolution",
+        "Tandem mass spectrometry",
+        "MS/MS",
+        "Fragmentation",
+        "LC-MS",
+        "GC-MS",
+        "Mass spectral libraries",
+        "John Fenn",
+        "Koichi Tanaka",
+        "Proteomics"
+      ],
+      "tag_paths": [
+        [
+          "Science",
+          "Chemistry",
+          "Mass spectrometry principles"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Ionization methods"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Isotope patterns and accurate mass"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Tandem mass spectrometry"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Mass-spectrum identification and limitations"
+        ]
+      ]
+    },
+    {
+      "id": "028000",
+      "title": "Building the Chemical Case: How Independent Measurements Become Evidence",
+      "section": "evidence_integration",
+      "file": "028000-building-the-chemical-case.md",
+      "spoken_words": 1895,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 13.1,
+      "description": "Integrates sampling, blanks, chromatography, UV detection, MS identity, extraction recovery, uncertainty and evidence limits in a worked fictional water investigation.",
+      "tags": [
+        "Analytical chemistry",
+        "Chemical identification",
+        "Evidence integration",
+        "Orthogonal methods",
+        "Water monitoring",
+        "Environmental chemistry",
+        "Targeted analysis",
+        "Nontarget screening",
+        "Chemical annotation confidence",
+        "Method validation",
+        "Recovery correction",
+        "Quantification limit",
+        "Measurement uncertainty",
+        "Sample preparation",
+        "LC-MS",
+        "Ultraviolet detection",
+        "Reference standards",
+        "Matrix effects",
+        "Analytical decision rules",
+        "Data interpretation"
+      ],
+      "tag_paths": [
+        [
+          "Science",
+          "Chemistry",
+          "Analytical method validation"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Combining spectroscopic evidence"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Trace analysis calculations"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Screening versus confirmed identification"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Measurement limitations and uncertainty"
         ]
       ]
     }

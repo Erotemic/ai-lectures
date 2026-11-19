@@ -1,0 +1,154 @@
+{
+  "schema_version": 1,
+  "lecture_id": "022000",
+  "transcript": "022000-turning-a-signal-into-a-number.md",
+  "description": "Explains calibration curves, sample dilution, matrix-matched and internal standards, blanks, detection and quantification limits, precision, bias, and measurement uncertainty.",
+  "tags": [
+    "Analytical chemistry",
+    "Calibration curve",
+    "Standard solution",
+    "Blank signal",
+    "Instrument response",
+    "Matrix effects",
+    "Standard addition",
+    "Internal standards",
+    "Isotope dilution",
+    "Limits of detection",
+    "Limits of quantification",
+    "Precision",
+    "Trueness",
+    "Bias",
+    "Recovery",
+    "Measurement uncertainty",
+    "Metrological traceability",
+    "Quality control"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Chemistry",
+      "Calibration and standards"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Signal-to-concentration inference"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Detection and quantification limits"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Precision bias and uncertainty"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Traceability and quality assurance"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "chem-an-iupac-lod",
+      "reason": "Blank response distribution and chosen threshold, not a universal single detector number."
+    },
+    {
+      "source_id": "chem-an-iupac-loq",
+      "reason": "Quantification limit is fitness-for-purpose with measurement quality requirements."
+    },
+    {
+      "source_id": "chem-an-iupac-performance",
+      "reason": "Selectivity, precision, trueness, working range, LOD and LOQ distinctions."
+    },
+    {
+      "source_id": "chem-an-eurachem-2026",
+      "reason": "Precision, recovery, matrix effects, calibration and components of chemical measurement uncertainty."
+    },
+    {
+      "source_id": "chem-an-nist-trace",
+      "reason": "Traceability as a property of results, established through reference chains with uncertainty."
+    },
+    {
+      "source_id": "chem-an-nist-srm",
+      "reason": "Reference materials, certificates, calibration and quality assurance."
+    },
+    {
+      "source_id": "chem-an-acs-principles",
+      "reason": "Sampling, uncertainty, calibration, UV/visible, FTIR, chromatographic resolution and chromatographic methods."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "chem-022000-01",
+      "anchor": "The calibration is not an eternal property of the instrument",
+      "kind": "measurement_model",
+      "source_ids": [
+        "chem-an-iupac-performance"
+      ],
+      "source_locator": "Calibrated range and method conditions.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-022000-02",
+      "anchor": "An intercept matters",
+      "kind": "measurement_quality",
+      "source_ids": [
+        "chem-an-eurachem-2026"
+      ],
+      "source_locator": "Blank signal and systematic effects.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-022000-03",
+      "anchor": "Detection is not the same as reliable quantification",
+      "kind": "scientific_definition",
+      "source_ids": [
+        "chem-an-iupac-lod",
+        "chem-an-iupac-loq"
+      ],
+      "source_locator": "Detection versus defined quantification quality.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-022000-04",
+      "anchor": "Measurement uncertainty is not the same as having made a mistake",
+      "kind": "metrology_definition",
+      "source_ids": [
+        "chem-an-nist-trace",
+        "chem-an-eurachem-2026"
+      ],
+      "source_locator": "Uncertainty describes the result under a model.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-022000-05",
+      "anchor": "the original concentration was twenty milligrams per liter",
+      "kind": "scientific_calculation",
+      "source_ids": [
+        "chem-an-acs-principles"
+      ],
+      "source_locator": "Hypothetical dilution and response example, consistent with standard calibration procedures.",
+      "audit_status": "reference_recorded"
+    }
+  ],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original analytical chemistry audio narration, scientific companion, source records and discovery metadata."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Basic algebra, ratios and chemical concentrations; all calculations are spoken through."
+    ],
+    "readiness_checks": [
+      "What goes wrong if a calibration model is extrapolated beyond its validated range?",
+      "When is a spike or internal standard helpful?",
+      "Why may a detectable substance be not reliably quantifiable?"
+    ]
+  }
+}

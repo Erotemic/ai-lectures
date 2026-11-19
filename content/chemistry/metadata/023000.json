@@ -1,0 +1,127 @@
+{
+  "schema_version": 1,
+  "lecture_id": "023000",
+  "transcript": "023000-when-light-measures-matter.md",
+  "description": "Builds UV/visible absorbance and Beer–Lambert reasoning from photons, transmittance and path length, then explains multicomponent spectra and fluorescence limits.",
+  "tags": [
+    "Analytical chemistry",
+    "UV-visible spectroscopy",
+    "Photons",
+    "Absorption spectroscopy",
+    "Beer-Lambert law",
+    "Transmittance",
+    "Spectrophotometry",
+    "Electronic transitions",
+    "Conjugation",
+    "Color chemistry",
+    "Photochemistry",
+    "Fluorescence",
+    "Quantum yield",
+    "Quenching",
+    "Inner filter effect",
+    "Scattering",
+    "Optical calibration",
+    "Spectral deconvolution"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Chemistry",
+      "Electronic spectroscopy"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "UV-visible absorbance"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Beer-Lambert relationship"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Fluorescence and quenching"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Spectral mixtures and selectivity"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "chem-an-rsc-intro",
+      "reason": "UV/visible, infrared, Raman, NMR, chromatography and mass spectrometry educational primers."
+    },
+    {
+      "source_id": "chem-an-acs-principles",
+      "reason": "Sampling, uncertainty, calibration, UV/visible, FTIR, chromatographic resolution and chromatographic methods."
+    },
+    {
+      "source_id": "chem-an-nist-webbook",
+      "reason": "Reference spectra and method metadata for IR, MS, UV/Vis and gas chromatography."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "chem-023000-01",
+      "anchor": "The absorbance, defined as the negative base-ten logarithm of transmittance",
+      "kind": "scientific_definition",
+      "source_ids": [
+        "chem-an-rsc-intro"
+      ],
+      "source_locator": "Absorbance and transmission conventions.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-023000-02",
+      "anchor": "Under appropriate conditions the Beer–Lambert relation states",
+      "kind": "scientific_explanation",
+      "source_ids": [
+        "chem-an-rsc-intro",
+        "chem-an-acs-principles"
+      ],
+      "source_locator": "Linear path-length and concentration response with qualifications.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-023000-03",
+      "anchor": "Some excited molecules relax without emitting visible light",
+      "kind": "scientific_explanation",
+      "source_ids": [
+        "chem-an-rsc-intro"
+      ],
+      "source_locator": "Nonradiative decay versus molecular emission.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-023000-04",
+      "anchor": "The emitted photon often has lower energy",
+      "kind": "scientific_explanation",
+      "source_ids": [
+        "chem-an-rsc-intro"
+      ],
+      "source_locator": "Stokes-shifted fluorescence and possible exceptions.",
+      "audit_status": "reference_recorded"
+    }
+  ],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original analytical chemistry audio narration, scientific companion, source records and discovery metadata."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Electron energy states, molecules and concentration are explained from the existing foundation."
+    ],
+    "readiness_checks": [
+      "Why does absorbance use a logarithmic measure?",
+      "Why can scattering spoil an absorption measurement?",
+      "Why is fluorescent intensity not a universal concentration scale?"
+    ]
+  }
+}

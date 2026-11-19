@@ -3,12 +3,12 @@
   "collections": [
     {
       "id": "chemistry-foundations",
-      "title": "Chemistry · Atoms, Reactions, Molecules, and Materials",
+      "title": "Chemistry · Matter, Reactions, Molecules, and Measurement",
       "role": "main",
       "categories": [
         "Science and nature"
       ],
-      "summary": "Twenty coherent audio lectures from chemical identity and atomic bonding to energetic and kinetic rules, stereochemistry, organic mechanisms and the structure of polymer materials.",
+      "summary": "Twenty-eight audio lectures from atomic structure and reactions to organic chemistry, analytical measurement, spectroscopy, chromatographic separation, and chemical evidence.",
       "tags": [
         "Chemistry",
         "Chemical foundations",
@@ -106,6 +106,44 @@
             "020000"
           ],
           "collection": "polymer-materials"
+        },
+        {
+          "title": "From the World to the Detector",
+          "lectures": [
+            "021000",
+            "022000"
+          ],
+          "collection": "analytical-sampling-and-calibration"
+        },
+        {
+          "title": "Light and Molecular Motions",
+          "lectures": [
+            "023000",
+            "024000"
+          ],
+          "collection": "analytical-spectroscopy"
+        },
+        {
+          "title": "Nuclei as Structural Clues",
+          "lectures": [
+            "025000"
+          ],
+          "collection": "analytical-spectroscopy"
+        },
+        {
+          "title": "Separating and Measuring Molecular Ions",
+          "lectures": [
+            "026000",
+            "027000"
+          ],
+          "collection": "analytical-separation-and-ms"
+        },
+        {
+          "title": "Combining Evidence into a Chemical Claim",
+          "lectures": [
+            "028000"
+          ],
+          "collection": "analytical-identification-capstone"
         }
       ]
     },
@@ -239,6 +277,73 @@
       ],
       "lectures": [
         "020000"
+      ]
+    },
+    {
+      "id": "analytical-sampling-and-calibration",
+      "title": "Chemistry · Samples, Calibration, and Uncertainty",
+      "role": "deep_dive",
+      "parent": "chemistry-foundations",
+      "summary": "Define the measurand, design sampling, prepare materials, calibrate signals, and interpret results with quantified uncertainty.",
+      "tags": [
+        "Analytical chemistry",
+        "Sampling",
+        "Calibration",
+        "Uncertainty"
+      ],
+      "lectures": [
+        "021000",
+        "022000"
+      ]
+    },
+    {
+      "id": "analytical-spectroscopy",
+      "title": "Chemistry · Spectroscopic Clues",
+      "role": "deep_dive",
+      "parent": "chemistry-foundations",
+      "summary": "UV/visible absorption, fluorescence, infrared, Raman and NMR: what molecular light and magnetic signals can and cannot establish.",
+      "tags": [
+        "Spectroscopy",
+        "UV-visible",
+        "Infrared",
+        "Raman",
+        "NMR"
+      ],
+      "lectures": [
+        "023000",
+        "024000",
+        "025000"
+      ]
+    },
+    {
+      "id": "analytical-separation-and-ms",
+      "title": "Chemistry · Separations and Mass Spectra",
+      "role": "deep_dive",
+      "parent": "chemistry-foundations",
+      "summary": "Separate mixtures through retention and reason from ions, isotope patterns and fragments to molecular identity.",
+      "tags": [
+        "Chromatography",
+        "Mass spectrometry",
+        "Analytical selectivity"
+      ],
+      "lectures": [
+        "026000",
+        "027000"
+      ]
+    },
+    {
+      "id": "analytical-identification-capstone",
+      "title": "Chemistry · From Signal to Evidence",
+      "role": "deep_dive",
+      "parent": "chemistry-foundations",
+      "summary": "A worked fictional trace-analysis case integrating sampling, spectra, calibration, limits of quantification and uncertainty.",
+      "tags": [
+        "Chemical identification",
+        "Measurement evidence",
+        "Environmental chemistry"
+      ],
+      "lectures": [
+        "028000"
       ]
     }
   ]

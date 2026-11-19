@@ -1,0 +1,158 @@
+{
+  "schema_version": 1,
+  "lecture_id": "025000",
+  "transcript": "025000-listening-to-atomic-nuclei.md",
+  "description": "Develops spin resonance, shielding, chemical shift, integration, coupling, proton and carbon NMR, Fourier-transform acquisition and structural inference.",
+  "tags": [
+    "Analytical chemistry",
+    "NMR spectroscopy",
+    "Nuclear magnetic resonance",
+    "Nuclear spin",
+    "Magnetic moment",
+    "Chemical shift",
+    "Shielding",
+    "Proton NMR",
+    "Carbon-13 NMR",
+    "Chemical structure determination",
+    "Spin-spin coupling",
+    "Signal integration",
+    "Relaxation times",
+    "Fourier transform",
+    "Two-dimensional NMR",
+    "Constitutional isomers",
+    "Ethanol",
+    "Dimethyl ether",
+    "Felix Bloch",
+    "Edward Purcell"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Chemistry",
+      "Nuclear resonance"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Proton NMR assignments"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Chemical shift and integration"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Spin coupling and multiplets"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Carbon NMR and spectral correlation"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "History of NMR"
+    ],
+    [
+      "Place: North America",
+      "Place: United States"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "chem-an-rsc-intro",
+      "reason": "UV/visible, infrared, Raman, NMR, chromatography and mass spectrometry educational primers."
+    },
+    {
+      "source_id": "chem-an-jeol-nmr",
+      "reason": "NMR inference from shift, integration and spin-spin coupling."
+    },
+    {
+      "source_id": "chem-an-bloch-stanford",
+      "reason": "Bloch, 1946 nuclear magnetic resonance methods, US institutional setting, 1952 prize."
+    },
+    {
+      "source_id": "chem-an-purcell-harvard",
+      "reason": "Purcell nuclear magnetic resonance at Harvard and 1952 joint physics Nobel."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "chem-025000-01",
+      "anchor": "Some atomic nuclei carry a magnetic moment associated with their quantum spin",
+      "kind": "scientific_explanation",
+      "source_ids": [
+        "chem-an-rsc-intro"
+      ],
+      "source_locator": "Spin physics and NMR conditions.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-025000-02",
+      "anchor": "In ethanol, a spectrum might show an approximate three-to-two ratio",
+      "kind": "scientific_explanation",
+      "source_ids": [
+        "chem-an-jeol-nmr"
+      ],
+      "source_locator": "Proton integration and ethanol first-order interpretation.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-025000-03",
+      "anchor": "their intensities generally do not equal the numbers of carbons",
+      "kind": "scientific_explanation",
+      "source_ids": [
+        "chem-an-rsc-intro"
+      ],
+      "source_locator": "Relaxation and nuclear Overhauser effects in carbon spectroscopy.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-025000-04",
+      "anchor": "In 1946, research groups associated with Felix Bloch at Stanford and Edward Purcell at Harvard",
+      "kind": "history_claim",
+      "source_ids": [
+        "chem-an-bloch-stanford",
+        "chem-an-purcell-harvard"
+      ],
+      "source_locator": "Documented 1946 US NMR method development and 1952 Nobel.",
+      "audit_status": "reference_recorded"
+    }
+  ],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original analytical chemistry audio narration, scientific companion, source records and discovery metadata."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Familiarity with covalent bonding and electron environments; quantum spin is introduced intuitively."
+    ],
+    "readiness_checks": [
+      "Why do structural isomers yield different proton spectra?",
+      "What determines integration and chemical-shift information?",
+      "Why is a carbon NMR signal intensity not a direct carbon count?"
+    ]
+  },
+  "places": [
+    "United States"
+  ],
+  "chronology": {
+    "context": {
+      "start": 1946,
+      "end": 1952,
+      "label": "Bloch and Purcell nuclear magnetic resonance methods (1946) and Nobel recognition (1952)",
+      "basis": "documented US nuclear magnetic resonance research and award",
+      "note": "Chronology brackets two historical episodes, not the time extent of NMR phenomena.",
+      "source_ids": [
+        "chem-an-bloch-stanford",
+        "chem-an-purcell-harvard"
+      ]
+    }
+  }
+}

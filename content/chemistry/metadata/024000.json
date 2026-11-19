@@ -1,0 +1,130 @@
+{
+  "schema_version": 1,
+  "lecture_id": "024000",
+  "transcript": "024000-the-bonds-are-moving.md",
+  "description": "Explains molecular normal modes, infrared dipole selection rules, Raman polarizability, FTIR, ATR surface sensitivity, spectral fingerprinting and mixture ambiguity.",
+  "tags": [
+    "Analytical chemistry",
+    "Infrared spectroscopy",
+    "Vibrational modes",
+    "Normal modes",
+    "Selection rules",
+    "IR absorption",
+    "Raman spectroscopy",
+    "Polarizability",
+    "Dipole moment",
+    "FTIR",
+    "ATR-IR",
+    "Attenuated total reflection",
+    "Wavenumber",
+    "Spectral fingerprint",
+    "Functional groups",
+    "Carbonyl vibration",
+    "Surface spectroscopy",
+    "Reaction monitoring"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Chemistry",
+      "Molecular vibrations"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Infrared selection rules"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Raman scattering"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "FTIR and ATR"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Spectral assignment and limitations"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "chem-an-rsc-intro",
+      "reason": "UV/visible, infrared, Raman, NMR, chromatography and mass spectrometry educational primers."
+    },
+    {
+      "source_id": "chem-an-usp-raman",
+      "reason": "Raman scattering, polarizability and complementarity with infrared dipole-active vibrations."
+    },
+    {
+      "source_id": "chem-an-nist-webbook",
+      "reason": "Reference spectra and method metadata for IR, MS, UV/Vis and gas chromatography."
+    },
+    {
+      "source_id": "chem-an-acs-principles",
+      "reason": "Sampling, uncertainty, calibration, UV/visible, FTIR, chromatographic resolution and chromatographic methods."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "chem-024000-01",
+      "anchor": "A larger nonlinear molecule with N atoms has three N minus six vibrational normal modes",
+      "kind": "scientific_calculation",
+      "source_ids": [
+        "chem-an-rsc-intro"
+      ],
+      "source_locator": "Normal-mode counting with linear-molecule exception.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-024000-02",
+      "anchor": "A vibrational motion must change the molecule's electric dipole moment",
+      "kind": "scientific_explanation",
+      "source_ids": [
+        "chem-an-usp-raman"
+      ],
+      "source_locator": "IR selection rule in dipole approximation.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-024000-03",
+      "anchor": "Raman selection rules are different from infrared selection rules",
+      "kind": "scientific_explanation",
+      "source_ids": [
+        "chem-an-usp-raman"
+      ],
+      "source_locator": "Polarizability derivative versus dipole derivative.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-024000-04",
+      "anchor": "A surface coating might dominate an A T R measurement",
+      "kind": "measurement_scope",
+      "source_ids": [
+        "chem-an-acs-principles"
+      ],
+      "source_locator": "ATR samples near-surface region and contact geometry.",
+      "audit_status": "reference_recorded"
+    }
+  ],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original analytical chemistry audio narration, scientific companion, source records and discovery metadata."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Bond types and functional groups; quantum transitions are explained."
+    ],
+    "readiness_checks": [
+      "How can a mode be IR silent but Raman active?",
+      "Why is one carbonyl peak insufficient to prove structure?",
+      "What does ATR say about a multilayer polymer?"
+    ]
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "lecture_id": "026000",
+  "transcript": "026000-a-mixture-enters-a-column.md",
+  "description": "Explains differential retention, chromatography modes, TLC, GC, LC, peak resolution, coelution, detection, and the development of plant-pigment separations.",
+  "tags": [
+    "Analytical chemistry",
+    "Chromatography",
+    "Mikhail Tswett",
+    "Plant pigments",
+    "Column chromatography",
+    "Mobile phase",
+    "Stationary phase",
+    "Thin-layer chromatography",
+    "Retention factor",
+    "Chromatographic resolution",
+    "Gas chromatography",
+    "Liquid chromatography",
+    "HPLC",
+    "Size exclusion chromatography",
+    "Ion exchange chromatography",
+    "Chiral chromatography",
+    "Coelution",
+    "Separation selectivity",
+    "Peak integration",
+    "Sample carryover"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Chemistry",
+      "Chromatographic separation"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Gas chromatography"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Liquid chromatography"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Thin-layer chromatography"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Retention and peak resolution"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Historical chromatography"
+    ],
+    [
+      "Place: Europe",
+      "Place: Poland",
+      "Place: Warsaw"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "chem-an-rsc-chrom",
+      "reason": "Gas chromatography, liquid chromatography, stationary/mobile phase, retention and detection."
+    },
+    {
+      "source_id": "chem-an-acs-principles",
+      "reason": "Sampling, uncertainty, calibration, UV/visible, FTIR, chromatographic resolution and chromatographic methods."
+    },
+    {
+      "source_id": "chem-an-chrom-history",
+      "reason": "Tswett, Warsaw 1903 lecture, 1906 publications, contested earlier histories of discovery."
+    },
+    {
+      "source_id": "chem-an-chrom-acs",
+      "reason": "Early chromatographic pigment research and documented timeline complexities."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "chem-026000-01",
+      "anchor": "The separation is often not caused by a single instant",
+      "kind": "scientific_explanation",
+      "source_ids": [
+        "chem-an-rsc-chrom"
+      ],
+      "source_locator": "Partition and repeated mobile-stationary interaction.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-026000-02",
+      "anchor": "In a 1903 public presentation in Warsaw",
+      "kind": "history_claim",
+      "source_ids": [
+        "chem-an-chrom-history",
+        "chem-an-chrom-acs"
+      ],
+      "source_locator": "Documented 1903 lecture and 1906 published descriptions.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-026000-03",
+      "anchor": "But one peak does not necessarily mean one pure substance",
+      "kind": "scientific_limitation",
+      "source_ids": [
+        "chem-an-acs-principles"
+      ],
+      "source_locator": "Coelution and retention-identification caveat.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-026000-04",
+      "anchor": "Size-exclusion chromatography uses porous materials",
+      "kind": "scientific_explanation",
+      "source_ids": [
+        "chem-an-rsc-chrom"
+      ],
+      "source_locator": "Pore exclusion produces different transport behavior.",
+      "audit_status": "reference_recorded"
+    }
+  ],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original analytical chemistry audio narration, scientific companion, source records and discovery metadata."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Molecular polarity, solvation and analytical signals; retention is taught from first principles."
+    ],
+    "readiness_checks": [
+      "Why do compounds move at different speeds through the same column?",
+      "What physical effects determine whether peaks are resolved?",
+      "Why can matching retention times fail to establish chemical identity?"
+    ]
+  },
+  "places": [
+    "Poland",
+    "Warsaw"
+  ],
+  "chronology": {
+    "context": {
+      "start": 1903,
+      "end": 1906,
+      "label": "Tswett chromatography presentation in Warsaw (1903) and papers (1906)",
+      "basis": "documented public presentation and subsequent publications; earlier discovery timelines debated",
+      "note": "This range is for the narrated research milestones, not the history of all separation methods.",
+      "source_ids": [
+        "chem-an-chrom-history",
+        "chem-an-chrom-acs"
+      ]
+    }
+  }
+}

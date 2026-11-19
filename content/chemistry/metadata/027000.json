@@ -1,0 +1,147 @@
+{
+  "schema_version": 1,
+  "lecture_id": "027000",
+  "transcript": "027000-weighing-ions-not-molecules.md",
+  "description": "Explains m/z and charge states, electron and electrospray ionization, isotopic patterns, accurate mass, tandem MS, matrix effects and limits of spectral database matches.",
+  "tags": [
+    "Analytical chemistry",
+    "Mass spectrometry",
+    "Mass-to-charge ratio",
+    "Ionization",
+    "Electron ionization",
+    "Electrospray ionization",
+    "Molecular ions",
+    "Adducts",
+    "Charge states",
+    "Multiple charging",
+    "Isotope patterns",
+    "Chlorine isotopes",
+    "Accurate mass",
+    "Mass resolution",
+    "Tandem mass spectrometry",
+    "MS/MS",
+    "Fragmentation",
+    "LC-MS",
+    "GC-MS",
+    "Mass spectral libraries",
+    "John Fenn",
+    "Koichi Tanaka",
+    "Proteomics"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Chemistry",
+      "Mass spectrometry principles"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Ionization methods"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Isotope patterns and accurate mass"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Tandem mass spectrometry"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Mass-spectrum identification and limitations"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "chem-an-iupac-ms",
+      "reason": "Ion mass-to-charge conventions, charge states, electrospray, tandem MS terminology."
+    },
+    {
+      "source_id": "chem-an-nist-webbook",
+      "reason": "Reference spectra and method metadata for IR, MS, UV/Vis and gas chromatography."
+    },
+    {
+      "source_id": "chem-an-nobel-ms",
+      "reason": "John Fenn electrospray and Koichi Tanaka soft laser desorption for large molecules."
+    },
+    {
+      "source_id": "chem-an-ms-2026",
+      "reason": "Ion generation, mass analysis, isotope patterns, multiply charged ions and spectrum interpretation."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "chem-027000-01",
+      "anchor": "A mass spectrometer does not ordinarily place a neutral molecule on a miniature balance",
+      "kind": "scientific_explanation",
+      "source_ids": [
+        "chem-an-iupac-ms"
+      ],
+      "source_locator": "Ion observation and m/z rather than mass of intact neutrals.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-027000-02",
+      "anchor": "A signal at m over z one thousand does not necessarily mean",
+      "kind": "scientific_explanation",
+      "source_ids": [
+        "chem-an-iupac-ms",
+        "chem-an-ms-2026"
+      ],
+      "source_locator": "Multiply charged ions, fragments, adducts and interpretive ambiguity.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-027000-03",
+      "anchor": "John Fenn's work on electrospray, alongside Koichi Tanaka's work on soft laser desorption",
+      "kind": "history_claim",
+      "source_ids": [
+        "chem-an-nobel-ms"
+      ],
+      "source_locator": "2002 Chemistry Nobel and large-molecule MS techniques.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-027000-04",
+      "anchor": "In tandem mass spectrometry, often abbreviated M S M S",
+      "kind": "scientific_definition",
+      "source_ids": [
+        "chem-an-iupac-ms"
+      ],
+      "source_locator": "Selected precursor ions and subsequent product-ion analysis.",
+      "audit_status": "reference_recorded"
+    }
+  ],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original analytical chemistry audio narration, scientific companion, source records and discovery metadata."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Ions, molecular masses and basic spectroscopy; formulas are developed in the companion."
+    ],
+    "readiness_checks": [
+      "Why can one neutral analyte generate several m/z values?",
+      "How can isotope patterns constrain elemental composition?",
+      "Why is a spectral-library match not proof of structure?"
+    ]
+  },
+  "chronology": {
+    "context": {
+      "start": 2002,
+      "label": "2002 Nobel Prize recognizing mass-spectrometric ionization methods for biological macromolecules",
+      "basis": "documented Nobel Prize award and published scientific background",
+      "note": "This marks an award event, not the first invention date or duration of mass spectrometry.",
+      "source_ids": [
+        "chem-an-nobel-ms"
+      ]
+    }
+  }
+}

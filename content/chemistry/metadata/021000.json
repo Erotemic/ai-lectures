@@ -1,0 +1,129 @@
+{
+  "schema_version": 1,
+  "lecture_id": "021000",
+  "transcript": "021000-the-sample-is-not-the-world.md",
+  "description": "Develops the measurand, representative sampling, filtered versus total material, spatial and temporal variability, sample preservation, matrix effects and field blanks.",
+  "tags": [
+    "Analytical chemistry",
+    "Environmental sampling",
+    "Measurand",
+    "Sampling design",
+    "Representativeness",
+    "Grab samples",
+    "Composite samples",
+    "Sample preservation",
+    "Sample contamination",
+    "Field blanks",
+    "Operational definitions",
+    "Dissolved metals",
+    "Analyte recovery",
+    "Matrix effects",
+    "Sampling uncertainty",
+    "Water quality",
+    "Soil sampling"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Chemistry",
+      "Measurands and scope"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Representative sampling"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Environmental sampling uncertainty"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Speciation and sample preservation"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Analytical blanks and matrix effects"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "chem-an-sampling-usgs",
+      "reason": "Sampling, preservation, filtering, field measurements and transport for water chemistry."
+    },
+    {
+      "source_id": "chem-an-eurachem-sampling",
+      "reason": "Samples and their uncertainty are part of the intended sampling-target measurement."
+    },
+    {
+      "source_id": "chem-an-eurachem-2026",
+      "reason": "Precision, recovery, matrix effects, calibration and components of chemical measurement uncertainty."
+    },
+    {
+      "source_id": "chem-an-nist-srm",
+      "reason": "Reference materials, certificates, calibration and quality assurance."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "chem-021000-01",
+      "anchor": "Analytical chemists use the term measurand",
+      "kind": "scientific_definition",
+      "source_ids": [
+        "chem-an-eurachem-sampling"
+      ],
+      "source_locator": "Scope of what intended quantity is being inferred from the sample.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-021000-02",
+      "anchor": "This is why uncertainty from sampling can dominate uncertainty from the actual chemical determination",
+      "kind": "scientific_explanation",
+      "source_ids": [
+        "chem-an-eurachem-sampling"
+      ],
+      "source_locator": "Primary sampling variation versus laboratory repeatability.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-021000-03",
+      "anchor": "A field blank may be clean material that passes through the field collection and handling process",
+      "kind": "measurement_quality",
+      "source_ids": [
+        "chem-an-sampling-usgs"
+      ],
+      "source_locator": "Blank types identify possible process contamination.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-021000-04",
+      "anchor": "Sample preservation is therefore not one universal instruction",
+      "kind": "scientific_explanation",
+      "source_ids": [
+        "chem-an-sampling-usgs"
+      ],
+      "source_locator": "Preservation depends on chemical species and method.",
+      "audit_status": "reference_recorded"
+    }
+  ],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original analytical chemistry audio narration, scientific companion, source records and discovery metadata."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Basic chemical mixtures and concentrations are sufficient; no statistical training assumed."
+    ],
+    "readiness_checks": [
+      "Why does a laboratory value not automatically represent an entire lake?",
+      "Why may a filtered metal result differ from an unfiltered result?",
+      "How can blanks and independent field samples diagnose different error sources?"
+    ]
+  }
+}

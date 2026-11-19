@@ -1,0 +1,151 @@
+{
+  "schema_version": 1,
+  "lecture_id": "028000",
+  "transcript": "028000-building-the-chemical-case.md",
+  "description": "Integrates sampling, blanks, chromatography, UV detection, MS identity, extraction recovery, uncertainty and evidence limits in a worked fictional water investigation.",
+  "tags": [
+    "Analytical chemistry",
+    "Chemical identification",
+    "Evidence integration",
+    "Orthogonal methods",
+    "Water monitoring",
+    "Environmental chemistry",
+    "Targeted analysis",
+    "Nontarget screening",
+    "Chemical annotation confidence",
+    "Method validation",
+    "Recovery correction",
+    "Quantification limit",
+    "Measurement uncertainty",
+    "Sample preparation",
+    "LC-MS",
+    "Ultraviolet detection",
+    "Reference standards",
+    "Matrix effects",
+    "Analytical decision rules",
+    "Data interpretation"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Chemistry",
+      "Analytical method validation"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Combining spectroscopic evidence"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Trace analysis calculations"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Screening versus confirmed identification"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Measurement limitations and uncertainty"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "chem-an-eurachem-sampling",
+      "reason": "Samples and their uncertainty are part of the intended sampling-target measurement."
+    },
+    {
+      "source_id": "chem-an-eurachem-2026",
+      "reason": "Precision, recovery, matrix effects, calibration and components of chemical measurement uncertainty."
+    },
+    {
+      "source_id": "chem-an-iupac-loq",
+      "reason": "Quantification limit is fitness-for-purpose with measurement quality requirements."
+    },
+    {
+      "source_id": "chem-an-iupac-performance",
+      "reason": "Selectivity, precision, trueness, working range, LOD and LOQ distinctions."
+    },
+    {
+      "source_id": "chem-an-nist-trace",
+      "reason": "Traceability as a property of results, established through reference chains with uncertainty."
+    },
+    {
+      "source_id": "chem-an-nist-webbook",
+      "reason": "Reference spectra and method metadata for IR, MS, UV/Vis and gas chromatography."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "chem-028000-01",
+      "anchor": "These are three different questions",
+      "kind": "scientific_scope",
+      "source_ids": [
+        "chem-an-iupac-performance"
+      ],
+      "source_locator": "Chemical identity, concentration and environmental occurrence require distinct evidence.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-028000-02",
+      "anchor": "Identification and quantification now diverge",
+      "kind": "measurement_quality",
+      "source_ids": [
+        "chem-an-iupac-performance"
+      ],
+      "source_locator": "Identity and quantitation validation distinctions.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-028000-03",
+      "anchor": "the implied stream concentration is zero point zero eight micrograms per liter",
+      "kind": "scientific_calculation",
+      "source_ids": [
+        "chem-an-eurachem-2026"
+      ],
+      "source_locator": "Invented mass-and-volume example with explicit recovery assumptions.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-028000-04",
+      "anchor": "a tentative library annotation is not equivalent to a confirmed identification",
+      "kind": "scientific_limitation",
+      "source_ids": [
+        "chem-an-nist-webbook"
+      ],
+      "source_locator": "Library coverage and reference-standard match limits.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-028000-05",
+      "anchor": "Measurement uncertainty also affects decisions",
+      "kind": "decision_uncertainty",
+      "source_ids": [
+        "chem-an-iupac-loq",
+        "chem-an-eurachem-2026"
+      ],
+      "source_locator": "Uncertainty in interpretation of concentration differences.",
+      "audit_status": "reference_recorded"
+    }
+  ],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original analytical chemistry audio narration, scientific companion, source records and discovery metadata."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Basic science and earlier analytical lectures; the fictional case reconstructs necessary concepts."
+    ],
+    "readiness_checks": [
+      "What observations establish identity versus concentration?",
+      "What changes in a recovery-corrected estimate?",
+      "What can a positive water sample not tell us about exposure?"
+    ]
+  }
+}
