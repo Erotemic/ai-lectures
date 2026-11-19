@@ -71,18 +71,6 @@ max_words = 110
 instruction = "Speak in a warm, engaging lecture style with clear articulation. Maintain steady conversational loudness and restrained emphasis, including at the beginning of each passage."
 cfg_scale = 2.0
 
-[profiles.breeze]
-narrator_voice = "ryan"
-endpoint_env = "BREEZE_TTS_ENDPOINT"
-endpoint = "http://127.0.0.1:8812/v1/audio/speech"
-model = "breeze-tts2"
-voice = "ryan"
-response_format = "wav"
-# Match the reference-voice Breeze profiles: prefer coherent passages, while
-# the duration-cap guard retries shorter requests if the server cuts one off.
-max_chars = 750
-max_words = 110
-
 [profiles.kokoro]
 display_name = "Kokoro"
 narrator_voice = "af_alloy"
