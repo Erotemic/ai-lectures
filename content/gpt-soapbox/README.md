@@ -27,7 +27,7 @@ examines the shared agreements that enable interoperability between strangers
 and asks who can participate in setting those agreements. The fourteenth
 examines how to change shared conventions without needlessly abandoning
 people who rely on them, and when backward compatibility must be broken. The fifteenth asks what obligations we have to people not yet born, without pretending to know their preferences or ignoring the needs of those alive now.
-The sixteenth essay turns to darkness as ecological habitat, biological rhythm, and shared access to the stars, while taking human safety and accessibility requirements seriously. The seventeenth essay defends the intellectual, emotional, and artistic value of fictional persons and worlds without treating stories as factual evidence or guaranteed empathy training. The eighteenth essay explores the public bench as a small but consequential public promise: a place to stop without being a customer, and a design that must balance access, rest, coexistence, and conflicting uses. The nineteenth essay argues that a worthwhile attempt requires more than courage: it needs honest tests, an account of who bears the risk, and a willingness to revise or stop. Each lecture stands alone;
+The sixteenth essay turns to darkness as ecological habitat, biological rhythm, and shared access to the stars, while taking human safety and accessibility requirements seriously. The seventeenth essay defends the intellectual, emotional, and artistic value of fictional persons and worlds without treating stories as factual evidence or guaranteed empathy training. The eighteenth essay explores the public bench as a small but consequential public promise: a place to stop without being a customer, and a design that must balance access, rest, coexistence, and conflicting uses. The nineteenth essay argues that a worthwhile attempt requires more than courage: it needs honest tests, an account of who bears the risk, and a willingness to revise or stop. The twentieth essay asks what it takes to leave work that successors can understand and change, not merely obey. Each lecture stands alone;
 listeners may choose any order.
 
 - **001000 — The Counterexample Is the Main Character.** Why failure cases
@@ -86,6 +86,8 @@ listeners may choose any order.
 - **018000 — A Bench Is a Theory of Society.** Why seating, rest stops and choices about who may stay are central to the practical meaning of public space; from William H. Whyte and accessible walking routes to divided armrests, privately owned plazas and the right to linger without buying anything.
 
 - **019000 — The Courage to Begin Something That May Fail.** Why good decisions can lead to failed outcomes, and why experimentation should be designed for correction: the Wright brothers’ glider, the repair of Hubble, Wiles’s proof gap, the long Oxford English Dictionary project, publication bias, responsibility for risk, and the discipline of knowing when to stop.
+
+- **020000 — The Next Pair of Hands.** What makes a project inheritable without becoming a command: passing down plans at Cologne Cathedral, careful records at Rothamsted, craft in Ise’s periodic rebuilding, and a century-long act of trust in Oslo’s Future Library.
 
 Spoken narration is inside the standard marker pair in each manuscript. Source
 notes, constructed-example qualifications, and reading links follow the
