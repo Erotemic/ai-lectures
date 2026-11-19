@@ -27,6 +27,10 @@ New web-generated recordings default to Ogg Opus. Spoken Markdown section titles
 receive isolated synthesis and pauses, with title-specific instructions on
 supported servers. Queued legacy jobs keep their original MP3 recipe.
 
+Saved voice profiles fix one backend voice and its full rendering recipe. Manage
+defaults, quick select, title instructions, rate and processing in Settings. See
+[the voice profile guide](../docs/voice-profiles.md) for revisions and local state.
+
 Selected-content deployment, stale-audio cleanup, Ogg Opus generation, and
 buffered playback are described in [the deployment and audio guide](../docs/deploying-selected-library.md).
 Packs can build a portable subset with its existing published audio; the CLI

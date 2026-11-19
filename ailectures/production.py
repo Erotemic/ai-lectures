@@ -152,6 +152,605 @@ class GenerationManager:
         self._heartbeat_stop = threading.Event()
         self._heartbeat_thread = None
 
+    def saved_profile_store(self):
+        from .voice_profiles import RenderProfiles
+
+        if not hasattr(self, "_render_profiles"):
+            self._render_profiles = RenderProfiles(self.library.store.state)
+        return self._render_profiles
+
+    def sync_saved_profiles(self):
+        sources = {}
+        if self.config is not None or self.repository is not None:
+            from dkvis.presentation.tts import load_profiles, resolve_profile
+
+            document = load_profiles(self.config)
+            preferences = self.preferences.read()
+            for key in document.get("profiles", {}):
+                try:
+                    source = resolve_profile(document, key)
+                    source["endpoint"] = (
+                        self.endpoint
+                        or os.environ.get("DKVIS_AUDIO_TTS_ENDPOINT")
+                        or source["endpoint"]
+                    )
+                    source["model"] = (
+                        os.environ.get("DKVIS_AUDIO_TTS_MODEL") or source["model"]
+                    )
+                    if not source.get("reference"):
+                        source["voice"] = (
+                            os.environ.get("DKVIS_AUDIO_TTS_VOICE")
+                            or preferences["profiles"].get(key, {}).get("default_voice")
+                            or source["voice"]
+                        )
+                    source["response_format"] = (
+                        os.environ.get("DKVIS_AUDIO_TTS_RESPONSE_FORMAT")
+                        or source["response_format"]
+                    )
+                    sources[key] = source
+                except (ValueError, KeyError, OSError):
+                    continue
+            default = (
+                preferences["default_profile"]
+                or self.default_profile
+                or os.environ.get("DKVIS_AUDIO_TTS_PROFILE")
+                or document.get("profile")
+                or os.environ.get("DKVIS_TTS_PROFILE")
+            )
+        else:
+            default = None
+        self.saved_profile_store().sync(
+            sources,
+            default_source=default or next(iter(sources), None),
+            environment=dict(os.environ),
+        )
+        return sources
+
+    def profile_catalog(self, *, probe=False, include_archived=False):
+        from .voice_profiles import SCHEMA, RenderProfiles
+
+        self.sync_saved_profiles()
+        store = self.saved_profile_store()
+        profiles = []
+        backends = store.backends()
+        for item in store.list() + (
+            store.list(archived=True) if include_archived else []
+        ):
+            row = RenderProfiles.public(item)
+            backend = next((b for b in backends if b["id"] == row["backend_id"]), None)
+            row["available"] = bool(
+                backend and backend["available"] and backend["model"] == row["model"]
+            )
+            profiles.append(row)
+        default = store.default()
+        if default not in {p["id"] for p in profiles if not p["archived"]}:
+            default = next(
+                (p["id"] for p in profiles if p["available"] and not p["archived"]),
+                None,
+            )
+        return dict(
+            schema=SCHEMA,
+            profiles=profiles,
+            default_profile=default,
+            preferred_profile=default,
+            tools_available=bool(
+                shutil.which("ffmpeg")
+                and shutil.which("ffprobe")
+                and any(p["available"] for p in profiles)
+            ),
+            backends=[
+                dict(
+                    id=b["id"],
+                    model=b["model"],
+                    label=b["model"]
+                    + " · "
+                    + str(urlparse(b["endpoint"]).hostname)
+                    + ":"
+                    + str(
+                        urlparse(b["endpoint"]).port
+                        or (443 if b["endpoint"].startswith("https:") else 80)
+                    ),
+                    available=b["available"],
+                    capabilities=b["capabilities"],
+                )
+                for b in backends
+            ],
+        )
+
+    def profile_backend_voices(self, backend_id, *, probe=False):
+        sources = self.sync_saved_profiles()
+        backend = next(
+            (
+                b
+                for b in self.saved_profile_store().backends()
+                if b["id"] == backend_id and b["available"]
+            ),
+            None,
+        )
+        if backend is None:
+            raise ValueError("Backend unavailable")
+        voices = {}
+        for alias in backend["aliases"]:
+            config = sources[alias]
+            value = config["voice"]
+            voices[value] = dict(
+                voice=value, label=value, reference=bool(config.get("reference"))
+            )
+        catalog = self.voices(backend["anchor"], probe=probe)
+        labels = {v["voice"]: v["label"] for v in catalog["registered"]}
+        for value in catalog["voices"]:
+            voices.setdefault(
+                value,
+                dict(voice=value, label=labels.get(value, value), reference=False),
+            )
+        return dict(backend_id=backend_id, voices=list(voices.values()))
+
+    @staticmethod
+    def _profile_editor_settings(recipe):
+        return dict(
+            native_rate=recipe["native_rate"],
+            tempo=recipe["tempo"],
+            body_mode=recipe["body_mode"],
+            body_request=recipe["config"].get("request", {}),
+            title_enabled=recipe["title_enabled"],
+            title_instruction_field=recipe["title_instruction_field"],
+            title_instruction=recipe["title_instruction"],
+            title_pause_before=recipe["title_pause_before"],
+            title_pause_after=recipe["title_pause_after"],
+            title_cfg_scale=recipe["title_cfg_scale"],
+            processing=recipe["processing"],
+            output_format=recipe["config"]["output_format"],
+            generation_revision=recipe["generation_revision"],
+            pronunciation_replacements=recipe["config"].get(
+                "pronunciation_replacements", {}
+            ),
+            reader=recipe["reader"],
+        )
+
+    def profile_editor(self, profile_id):
+        self.sync_saved_profiles()
+        item = self.saved_profile_store().get(profile_id)
+        return dict(
+            profile=self.saved_profile_store().public(item),
+            settings=self._profile_editor_settings(item["recipe"]),
+        )
+
+    def save_profile(self, payload, *, template_only=False):
+        from .voice_profiles import recipe_from_config, INSTRUCTION_FIELDS
+
+        sources = self.sync_saved_profiles()
+        store = self.saved_profile_store()
+        existing = store.get(payload["id"]) if payload.get("id") else None
+        duplicate = (
+            store.get(payload["duplicate_of"]) if payload.get("duplicate_of") else None
+        )
+        source = existing or duplicate
+        backend_id = payload.get("backend_id") or (
+            source["recipe"]["backend_id"] if source else None
+        )
+        backend = next(
+            (b for b in store.backends() if b["id"] == backend_id and b["available"]),
+            None,
+        )
+        if backend is None:
+            raise ValueError("Choose an available backend")
+        voice = payload.get("voice") or (
+            source["recipe"]["config"]["voice"] if source else None
+        )
+        if source and (
+            source["recipe"]["backend_id"],
+            source["recipe"]["config"]["voice"],
+        ) == (backend_id, voice):
+            recipe = deepcopy(source["recipe"])
+        else:
+            if voice not in {
+                v["voice"] for v in self.profile_backend_voices(backend_id)["voices"]
+            }:
+                raise ValueError("Select a voice known to this backend")
+            template = next(
+                (
+                    sources[key]
+                    for key in backend["aliases"]
+                    if sources[key]["voice"] == voice and sources[key].get("reference")
+                ),
+                None,
+            )
+            template = deepcopy(template or sources[backend["anchor"]])
+            if template["voice"] != voice:
+                template.pop("reference", None)
+                template["voice"] = voice
+                template["request"] = {}
+            recipe = recipe_from_config(
+                template, backend_id, environment=dict(os.environ)
+            )
+            if recipe["body_mode"] == "paragraph":
+                recipe["config"]["request"] = {
+                    k: v
+                    for k, v in recipe["config"].get("request", {}).items()
+                    if k not in INSTRUCTION_FIELDS
+                }
+                recipe["config"]["request"]["cfg_scale"] = 1.0
+        patch = payload.get("settings", {})
+        direct = {
+            "native_rate",
+            "tempo",
+            "body_mode",
+            "title_enabled",
+            "title_instruction_field",
+            "title_instruction",
+            "title_pause_before",
+            "title_pause_after",
+            "title_cfg_scale",
+            "processing",
+            "generation_revision",
+            "reader",
+        }
+        if not isinstance(patch, dict) or set(patch) - direct - {
+            "body_request",
+            "output_format",
+            "pronunciation_replacements",
+        }:
+            raise ValueError("Unknown voice-profile settings")
+        for key in direct:
+            if key in patch:
+                recipe[key] = deepcopy(patch[key])
+        for key, target in [
+            ("body_request", "request"),
+            ("output_format", "output_format"),
+            ("pronunciation_replacements", "pronunciation_replacements"),
+        ]:
+            if key in patch:
+                recipe["config"][target] = deepcopy(patch[key])
+        from .voice_profiles import PIPELINE
+        from dkvis.presentation.audio_quality import VERSION
+
+        recipe.update(
+            pipeline=PIPELINE,
+            title_policy=TITLE_POLICY,
+            processing_version=VERSION,
+            capabilities=deepcopy(backend["capabilities"]),
+        )
+        if template_only:
+            from .voice_profiles import validate_recipe
+
+            validate_recipe(recipe, backend)
+            return dict(
+                recipe=recipe,
+                settings=self._profile_editor_settings(recipe),
+                fixed_reference=recipe["fixed_reference"],
+            )
+        result = store.save(
+            label=payload["label"],
+            recipe=recipe,
+            profile_id=existing["id"] if existing else None,
+            expected=payload.get("expected_revision"),
+            quick=payload.get(
+                "quick_select", bool(existing["quick"]) if existing else True
+            ),
+        )
+        if payload.get("default"):
+            store.set_default(result["id"])
+        return store.public(result)
+
+    def preview_profile(self, payload):
+        from .render_recipe import compile_recipe, page_processor
+        from .voice_profiles import revision_id
+        from dkvis.presentation.audio_library import AudioLectureLibrary
+
+        draft = self.save_profile(payload, template_only=True)
+        recipe = draft["recipe"]
+        token = uuid4().hex
+        backend = next(
+            b
+            for b in self.saved_profile_store().backends()
+            if b["id"] == recipe["backend_id"]
+        )
+        snapshot = dict(
+            id="preview-" + token, revision=revision_id(recipe), recipe=recipe
+        )
+        document, speed = compile_recipe(snapshot, backend)
+        folder = self.library.store.root / "build-cache" / "profile-previews" / token
+        sources = folder / "source"
+        sources.mkdir(parents=True)
+        (sources / "000000-preview.md").write_text(
+            "# Preview\n<!-- BEGIN SPOKEN LECTURE -->\n## A new section\n\nThis short paragraph demonstrates the profile’s normal delivery, pacing, and audio processing.\n<!-- END SPOKEN LECTURE -->\n"
+        )
+        engine = (self.engine_factory or AudioLectureLibrary)(
+            sources=sources,
+            cache=folder / "audio",
+            document=document,
+            profile=snapshot["id"],
+            voice=recipe["config"]["voice"],
+            workers=1,
+            output_format=recipe["config"]["output_format"],
+            title_handling=recipe["title_enabled"],
+            page_chars=recipe["reader"]["page_chars"],
+            page_processor=page_processor(recipe),
+        )
+        try:
+            settings = engine.settings(recipe["config"]["voice"], speed)
+            engine.prepare_lecture("000000", settings)
+            deadline = time.monotonic() + 180
+            while time.monotonic() < deadline:
+                inventory = engine.inventory("000000", settings)
+                if inventory["ready"] == inventory["total"] and inventory["total"]:
+                    target = folder / ("preview." + recipe["config"]["output_format"])
+                    # The fixed sample fits in one normal reader page.
+                    if inventory["total"] != 1:
+                        raise ValueError(
+                            "Preview sample unexpectedly spans multiple pages"
+                        )
+                    shutil.copyfile(engine.audio_file("000000", 0, settings), target)
+                    return dict(
+                        url="/api/library/voice-profiles/preview/" + token,
+                        output_format=recipe["config"]["output_format"],
+                    )
+                if any(state == "error" for state in inventory.get("states", [])):
+                    raise ValueError(
+                        "Preview generation failed; inspect the configured backend and profile settings"
+                    )
+                time.sleep(0.05)
+            raise ValueError("Preview timed out; check the speech backend")
+        finally:
+            engine.close()
+
+    def saved_narrators(self, row):
+        from dkvis.presentation.audio_library import split_pages
+
+        catalog = self.profile_catalog()
+        store = self.saved_profile_store()
+        choices = []
+        matched = set()
+        for profile in catalog["profiles"]:
+            spec = dict(
+                profile=profile["id"],
+                voice_profile=dict(id=profile["id"], revision=profile["revision"]),
+            )
+            variant = self.variant(spec)
+            recordings = [
+                r
+                for r in row["recordings"]
+                if r.get("generator", {}).get("profile") == profile["id"]
+                and r["generator"].get("profile_revision") == profile["revision"]
+            ]
+            recording = max(
+                recordings,
+                key=lambda r: (r["complete"], len(r["segments"])),
+                default=None,
+            )
+            matched.update(r["id"] for r in recordings)
+            choices.append(
+                dict(
+                    key="profile:" + profile["id"],
+                    label=profile["label"],
+                    profile=profile["id"],
+                    profile_revision=profile["revision"],
+                    voice=profile["voice"],
+                    speed=1,
+                    variant=variant,
+                    quick_select=profile["quick_select"],
+                    pages=split_pages(
+                        row["transcript"],
+                        max_chars=store.get(profile["id"])["recipe"]["reader"][
+                            "page_chars"
+                        ],
+                    ),
+                    server_default=profile["id"] == catalog["default_profile"],
+                    recording_id=recording["id"] if recording else None,
+                    recording_complete=bool(recording and recording["complete"]),
+                    available=profile["available"],
+                    fixed_recipe=True,
+                )
+            )
+        # Historical media keeps its exact IDs. Unknown legacy recipes are never
+        # silently treated as evidence that a new profile revision is prepared.
+        for recording in row["recordings"]:
+            if recording["id"] in matched:
+                continue
+            generator = recording.get("generator", {})
+            profile_id = generator.get("profile")
+            known = next(
+                (p for p in catalog["profiles"] if p["id"] == profile_id), None
+            )
+            label = (
+                (known["label"] + " · earlier revision")
+                if known
+                else (recording.get("label") or recording["variant"])
+                + " · existing recording"
+            )
+            aliases = []
+            if generator.get("profile") and generator.get("voice"):
+                aliases = ["tts:" + generator["profile"] + ":" + generator["voice"]]
+            choices.append(
+                dict(
+                    key="recording:" + recording["variant"],
+                    label=label,
+                    recording_id=recording["id"],
+                    recording_complete=recording["complete"],
+                    aliases=aliases,
+                )
+            )
+        pages = next(
+            (r["pages"] for r in row["recordings"]),
+            split_pages(row["transcript"], max_chars=600),
+        )
+        return dict(**catalog, choices=choices, pages=pages)
+
+    def prepare_saved(
+        self, lecture_ids, profile_id, *, profile_revision=None, blocks=None
+    ):
+        self.sync_saved_profiles()
+        store = self.saved_profile_store()
+        profile = store.get(profile_id, profile_revision)
+        if profile["archived"]:
+            raise ValueError("Select an active profile")
+        backend = next(
+            (b for b in store.backends() if b["id"] == profile["recipe"]["backend_id"]),
+            None,
+        )
+        from .render_recipe import compile_recipe
+
+        compile_recipe(profile, backend or {})
+        snapshot = self.library.snapshot(copy=False)
+        requests = []
+        for lecture_id in dict.fromkeys(lecture_ids):
+            row = deepcopy(snapshot["lectures"][lecture_id])
+            if row.get("kind") != "audio":
+                raise ValueError("Select an audio lecture")
+            row.pop("origin", None)
+            row["recordings"] = []
+            from dkvis.presentation.audio_library import split_pages
+
+            pages = split_pages(
+                row["transcript"], max_chars=profile["recipe"]["reader"]["page_chars"]
+            )
+            if blocks is not None and (
+                not isinstance(blocks, list)
+                or not blocks
+                or any(type(i) is not int or not 0 <= i < len(pages) for i in blocks)
+            ):
+                raise ValueError("Select valid audio blocks")
+            configuration = dict(
+                settings=deepcopy(profile["recipe"]["config"]),
+                environment={},
+                reference=None,
+                render_revision=profile["revision"],
+            )
+            spec = dict(
+                row=row,
+                profile=profile_id,
+                voice=profile["recipe"]["config"]["voice"],
+                speed=1,
+                configuration=configuration,
+                voice_profile=dict(
+                    id=profile_id,
+                    revision=profile["revision"],
+                    recipe=deepcopy(profile["recipe"]),
+                ),
+            )
+            scope = self.jobs.cache_scope(spec)
+            epoch = self.jobs.cache_epoch(scope)
+            if epoch:
+                spec["cache_epoch"] = epoch
+            job_id = digest(
+                dict(
+                    lecture=lecture_id,
+                    revision=row["revision"],
+                    profile=profile_id,
+                    render_revision=profile["revision"],
+                    cache_epoch=epoch,
+                )
+            )
+            requests.append((job_id, spec))
+        self.jobs.enqueue(
+            requests, blocks=sorted(set(blocks)) if blocks is not None else None
+        )
+        self.tick()
+        return [self._public(self.jobs.get(key)) for key, _ in requests]
+
+    def _open_saved(self, record, *, start=True):
+        from .render_recipe import compile_recipe, page_processor
+        from .voice_profiles import profile_cache_key
+        from dkvis.presentation.audio_library import AudioLectureLibrary
+
+        spec = record["specification"]
+        saved = spec["voice_profile"]
+        if spec.get("cache_epoch") != self.jobs.cache_epoch(
+            self.jobs.cache_scope(spec)
+        ):
+            raise ValueError("This profile cache was cleared; prepare it again")
+        # Resolve only the operational connection. All audio settings come from
+        # the immutable job snapshot, even after the current profile is edited.
+        self.sync_saved_profiles()
+        backend = next(
+            (
+                b
+                for b in self.saved_profile_store().backends()
+                if b["id"] == saved["recipe"]["backend_id"]
+            ),
+            None,
+        )
+        document, speed = compile_recipe(saved, backend or {})
+        directory = (
+            self.library.store.root / "build-cache" / "generation" / record["id"]
+        )
+        sources = directory / "source"
+        sources.mkdir(parents=True, exist_ok=True)
+        source = (
+            "# Lecture\n<!-- BEGIN SPOKEN LECTURE -->\n"
+            + spec["row"]["transcript"]
+            + "\n<!-- END SPOKEN LECTURE -->\n"
+        )
+        from .core import extract_text
+
+        authored = spec["row"].get("source")
+        if isinstance(authored, str):
+            try:
+                if extract_text(authored).strip() == spec["row"]["transcript"].strip():
+                    source = authored
+            except ValueError:
+                pass
+        (sources / "000000-lecture.md").write_text(source)
+        cache = (
+            self.library.store.root
+            / "build-cache"
+            / "speech"
+            / profile_cache_key(spec["row"]["id"], saved, spec.get("cache_epoch"))
+        )
+        cache.mkdir(parents=True, exist_ok=True)
+        factory = self.engine_factory or AudioLectureLibrary
+        engine = factory(
+            sources=sources,
+            cache=cache,
+            document=document,
+            profile=saved["id"],
+            voice=saved["recipe"]["config"]["voice"],
+            workers=1,
+            output_format=saved["recipe"]["config"]["output_format"],
+            title_handling=saved["recipe"]["title_enabled"],
+            page_chars=saved["recipe"]["reader"]["page_chars"],
+            page_processor=page_processor(saved["recipe"]),
+        )
+        settings = engine.settings(saved["recipe"]["config"]["voice"], speed)
+        job = dict(
+            engine=engine,
+            settings=settings,
+            row=spec["row"],
+            variant=self.variant(spec),
+            label=self.saved_profile_store().get(saved["id"])["label"],
+            published=None,
+            whole_lecture=False,
+            base_recording=None,
+            voice_profile=saved,
+        )
+        if start:
+            self._request_blocks(job, record["requested_blocks"])
+        return job
+
+    def clear_saved_cache(self, lecture_id, profile_id, *, revision, profile_revision):
+        with self._lock:
+            row = self.library.snapshot(copy=False)["lectures"][lecture_id]
+            if row["revision"] != revision:
+                raise ValueError("This lecture changed; reopen it first")
+            self.saved_profile_store().get(profile_id, profile_revision)
+            recordings = [
+                r
+                for r in row["recordings"]
+                if r.get("generator", {}).get("profile") == profile_id
+                and r["generator"].get("profile_revision") == profile_revision
+            ]
+            scope = digest([lecture_id, profile_id, profile_revision])
+            self.jobs.clear_voice(
+                scope,
+                uuid4().hex,
+                lambda: self.library.clear_recordings(lecture_id, recordings),
+            )
+            return dict(
+                cleared_recordings=len(recordings),
+                lecture_id=lecture_id,
+                profile=profile_id,
+            )
+
     def profiles(self, *, probe=False):
         try:
             if self.config is None and self.repository is None:
@@ -307,9 +906,16 @@ class GenerationManager:
     def _configuration(document, profile, voice, endpoint):
         from dkvis.presentation.tts import resolve_profile
 
+        original = resolve_profile(document, profile)
+        if original.get("reference") and voice and voice != original["voice"]:
+            raise ValueError(
+                "This reference voice is fixed; choose or create another saved profile"
+            )
         config = resolve_profile(document, profile, {"voice": voice} if voice else None)
         config = dict(config)
-        config['output_format'] = os.environ.get('DKVIS_AUDIO_OUTPUT_FORMAT') or config.get('output_format', 'ogg')
+        config["output_format"] = os.environ.get(
+            "DKVIS_AUDIO_OUTPUT_FORMAT"
+        ) or config.get("output_format", "ogg")
         relevant = {k: v for k, v in config.items() if k != "reference"}
         relevant['reader_title_policy'] = TITLE_POLICY
         return config, {
@@ -603,6 +1209,8 @@ class GenerationManager:
         from dkvis.presentation.tts import load_profiles
 
         spec = record["specification"]
+        if spec.get("voice_profile"):
+            return self._open_saved(record, start=start)
         if spec.get("cache_epoch") != self.jobs.cache_epoch(
             self.jobs.cache_scope(spec)
         ):
@@ -788,6 +1396,9 @@ class GenerationManager:
                     voice=job["settings"].voice,
                     speed=job["settings"].speed,
                 )
+                if job.get("voice_profile"):
+                    recording["generator"]["profile_revision"]=job["voice_profile"]["revision"]
+                    recording["id"]=recording_id(recording)
                 self._blend_recording(job, recording, files)
                 base = job.get("base_recording")
                 inherited = {
@@ -837,6 +1448,16 @@ class GenerationManager:
 
     @staticmethod
     def variant(spec, settings=None):
+        if spec.get("voice_profile"):
+            return (
+                "profile-"
+                + digest(
+                    dict(
+                        id=spec["voice_profile"]["id"],
+                        revision=spec["voice_profile"]["revision"],
+                    )
+                )[:20]
+            )
         config = spec["configuration"]["settings"]
         environment = spec["configuration"]["environment"]
         return (
@@ -879,6 +1500,7 @@ class GenerationManager:
             "revision": spec["row"]["revision"],
             "title": spec["row"]["title"],
             "profile": spec["profile"],
+            "profile_revision": spec.get("voice_profile", {}).get("revision"),
             "variant": GenerationManager.variant(spec),
             "voice": spec["voice"]
             or spec["configuration"]["environment"].get("DKVIS_AUDIO_TTS_VOICE")
@@ -1041,6 +1663,12 @@ class GenerationManager:
             speed=settings.speed,
         )
         self._blend_recording(job, rec, files)
+        if job.get("voice_profile"):
+            saved = job["voice_profile"]
+            rec["generator"].update(
+                profile_revision=saved["revision"], profile_schema="voice-profiles-v1"
+            )
+            rec["id"] = recording_id(rec)
         pack_id = "audio-" + digest(row["id"])[:24]
         previous = next(
             (r for r in self.library.store.active() if r["pack_id"] == pack_id), None

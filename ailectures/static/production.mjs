@@ -162,12 +162,12 @@ export class ProductionPanel {
       maxlength: "80",
     });
     const registerMessage = el("p", { role: "status" });
-    main.append(
+    main.append(...[
       form,
-      this.button("Refresh available voices", () =>
+      profiles.schema === "voice-profiles-v1" ? el("a", { href: "/settings#voice-profiles", "data-nav": "", text: "Create or edit a voice profile" }) : this.button("Refresh available voices", () =>
         narrator.loadVoices(true, narrator.settings().voice),
       ),
-      el(
+      profiles.schema === "voice-profiles-v1" ? null : el(
         "details",
         { class: "section" },
         el("summary", { text: "Register a server voice ID" }),
@@ -200,7 +200,7 @@ export class ProductionPanel {
         registerMessage,
       ),
       el("section", { id: "jobs", class: "section" }),
-    );
+    ].filter(Boolean));
     if (!profiles.tools_available)
       main.append(
         el("p", {

@@ -36,6 +36,20 @@ export class NarrationControls {
     this.profile.value = profiles.profiles.some((row) => row.id === remembered)
       ? remembered
       : profiles.default_profile || this.profile.value;
+    this.fixedProfiles = profiles.schema === "voice-profiles-v1";
+    if (this.fixedProfiles) {
+      const note = el("p", { class: "muted" });
+      const update = () => {
+        const row = this.selectedProfile();
+        note.textContent = row ? `${row.model} · ${row.output_format === "ogg" ? "Ogg Opus" : "MP3"} · saved recipe ${row.revision.slice(0, 8)}${row.available ? "" : " · backend unavailable"}` : "Choose a saved voice profile.";
+      };
+      this.profile.setAttribute("aria-label", "Voice profile");
+      this.profile.onchange = () => { store("production-profile", this.profile.value); this.rememberChoice(); update(); this.onChange?.(); };
+      this.root.append(el("label", {}, "Voice profile", this.profile), note,
+        el("a", { href: "/settings#voice-profiles", "data-nav": "", text: "Manage saved voice profiles" }));
+      update();
+      return;
+    }
     this.voice = el("select", { "aria-label": "Voice" });
     this.speed = el(
       "select",
@@ -118,10 +132,12 @@ export class NarrationControls {
     );
   }
   rememberChoice() {
+    if (this.fixedProfiles) { store("narrator-choice", "profile:" + this.profile.value); return; }
     const settings = this.settings();
     store("narrator-choice", `tts:${settings.profile}:${settings.voice}`);
   }
   settings() {
+    if (this.fixedProfiles) return { profile: this.profile.value, profile_revision: this.selectedProfile()?.revision };
     return {
       profile: this.profile.value,
       voice: this.custom.value.trim() || this.voice.value,
@@ -138,6 +154,7 @@ export class NarrationControls {
     this.voice.value = selected || names[0] || "";
   }
   async loadVoices(probe = false, preferred = null) {
+    if (this.fixedProfiles) return;
     const token = (this.token = (this.token || 0) + 1),
       selected = this.profile.value;
     store("production-profile", selected);

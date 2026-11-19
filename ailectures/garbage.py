@@ -9,6 +9,7 @@ from uuid import uuid4
 from .core import Conflict, digest, read_json, write_json
 from .maintenance import media_lock
 from .narration import speech_cache_key
+from .voice_profiles import profile_cache_key
 
 
 def readonly(path):
@@ -97,7 +98,8 @@ def garbage_plan(library, *, keep_days=30, keep_text_versions=2):
         terminal = job['state'] not in {'queued','running'}
         if old and terminal: consider(library.store.root/'build-cache/generation'/job['id'],'generation-cache')
         if row.get('id') and 'configuration' in spec:
-            key = speech_cache_key(row['id'],spec['configuration'])
+            key = (profile_cache_key(row['id'], spec['voice_profile'], spec.get('cache_epoch'))
+                   if spec.get('voice_profile') else speech_cache_key(row['id'],spec['configuration']))
             groups.setdefault(key,[]).append(old and terminal)
     for key, eligible in groups.items():
         if all(eligible): consider(library.store.root/'build-cache/speech'/key,'speech-cache')

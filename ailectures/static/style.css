@@ -998,3 +998,8 @@ progress {
 @media (max-width: 800px) { .topic-graph-layout { grid-template-columns: minmax(0,1fr); } .topic-graph-panel { position: static; } .topic-graph-panel svg { height: 420px; } }
 
 .topic-graph-layout > section { min-width: 0; overflow-wrap: anywhere; }
+.voice-profile-dialog { width: min(780px, 94vw); max-width: 94vw; max-height: 90vh; overflow-y: auto; }
+.voice-profile-dialog form { min-width: 0; }
+.voice-profile-dialog textarea { width: 100%; min-height: 6rem; }
+.voice-profile-dialog input:not([type="checkbox"]), .voice-profile-dialog select { max-width: 100%; }
+.voice-profile-card code, .voice-profile-card details p { overflow-wrap: anywhere; }

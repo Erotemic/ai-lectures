@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import asyncio
 import json
+import re
 import threading
 from contextlib import asynccontextmanager
 from copy import deepcopy
@@ -637,7 +638,7 @@ def create_app(
                 }
             )
         return JSONResponse(
-            production().profiles(probe=request.query_params.get("probe", "1") != "0")
+            production().profile_catalog(probe=request.query_params.get("probe", "1") != "0")
         )
 
     def production_narrators(request):
@@ -672,9 +673,7 @@ def create_app(
                 )
             )
         return JSONResponse(
-            production().narrators(
-                row, speed=float(request.query_params.get("speed", 1))
-            )
+            production().saved_narrators(row)
         )
 
     async def production_playback(request):
@@ -856,10 +855,128 @@ def create_app(
             )
         )
 
+    def voice_profile_catalog(request):
+        return JSONResponse(
+            configured_production().profile_catalog(
+                include_archived=request.query_params.get("archived") == "1"
+            ),
+            headers={"Cache-Control": "no-store"},
+        )
+
+    def voice_profile_editor(request):
+        return JSONResponse(
+            configured_production().profile_editor(request.path_params["profile_id"]),
+            headers={"Cache-Control": "no-store"},
+        )
+
+    async def voice_profile_template(request):
+        require_local_action(request)
+        return JSONResponse(
+            await run_in_threadpool(
+                configured_production().save_profile,
+                await body(request),
+                template_only=True,
+            )
+        )
+
+    async def voice_profile_preview(request):
+        require_local_action(request)
+        return JSONResponse(
+            await run_in_threadpool(production().preview_profile, await body(request))
+        )
+
+    def voice_profile_preview_audio(request):
+        token = request.path_params["token"]
+        if not re.fullmatch(r"[a-f0-9]{32}", token):
+            raise KeyError("Unknown preview")
+        folder = library.store.root / "build-cache" / "profile-previews" / token
+        path = next(
+            (
+                p
+                for p in [folder / "preview.ogg", folder / "preview.mp3"]
+                if p.is_file()
+            ),
+            None,
+        )
+        if path is None:
+            raise KeyError("Unknown preview")
+        return FileResponse(
+            path, media_type="audio/ogg" if path.suffix == ".ogg" else "audio/mpeg"
+        )
+
+    async def voice_profile_save(request):
+        require_local_action(request)
+        payload = await body(request)
+        return JSONResponse(
+            await run_in_threadpool(configured_production().save_profile, payload),
+            status_code=201,
+        )
+
+    async def voice_profile_action(request):
+        require_local_action(request)
+        payload = await body(request)
+        manager = configured_production()
+        manager.sync_saved_profiles()
+        store = manager.saved_profile_store()
+        key = request.path_params["profile_id"]
+        if payload.get("action") == "default":
+            store.set_default(key)
+        elif payload.get("action") == "pin":
+            store.set_presentation(key, quick=payload.get("quick"))
+        elif payload.get("action") == "rename":
+            store.set_presentation(key, label=payload.get("label"))
+        elif payload.get("action") in {"archive", "restore"}:
+            store.archive(key, payload["action"] == "archive")
+        else:
+            raise ValueError("Choose default, archive or restore")
+        return JSONResponse(manager.profile_catalog())
+
+    async def voice_profile_voices(request):
+        manager = configured_production()
+        key = request.path_params["backend_id"]
+        if request.method == "POST":
+            require_local_action(request)
+            payload = await body(request)
+            manager.sync_saved_profiles()
+            backend = next(
+                (
+                    b
+                    for b in manager.saved_profile_store().backends()
+                    if b["id"] == key and b["available"]
+                ),
+                None,
+            )
+            if backend is None:
+                raise ValueError("Backend unavailable")
+            if payload.get("voice") is not None:
+                manager.register_voice(
+                    backend["anchor"], payload["voice"], payload.get("label")
+                )
+            return JSONResponse(
+                await run_in_threadpool(
+                    manager.profile_backend_voices,
+                    key,
+                    probe=bool(payload.get("refresh")),
+                )
+            )
+        return JSONResponse(
+            await run_in_threadpool(manager.profile_backend_voices, key)
+        )
+
     async def clear_voice_cache(request):
         require_local_action(request)
         manager = production()
         payload = await body(request)
+        if payload.get("profile_revision"):
+            return JSONResponse(
+                await run_in_threadpool(
+                    manager.clear_saved_cache,
+                    qualified(payload["lecture_id"]),
+                    payload["profile"],
+                    revision=payload["revision"],
+                    profile_revision=payload["profile_revision"],
+                )
+            )
         return JSONResponse(
             await run_in_threadpool(
                 manager.clear_voice_cache,
@@ -873,6 +990,57 @@ def create_app(
     async def prepare(request):
         require_local_action(request)
         payload = await body(request)
+        if isinstance(payload.get("profile"), str) and payload["profile"].startswith(
+            "voice-"
+        ):
+            manager = production()
+            manager.sync_saved_profiles()
+            profile = manager.saved_profile_store().get(
+                payload["profile"], payload.get("profile_revision")
+            )
+            if (
+                payload.get("voice") not in (None, profile["recipe"]["config"]["voice"])
+                or payload.get("speed", 1) != 1
+            ):
+                raise ValueError(
+                    "A saved profile has a fixed voice, speaking rate and tempo; edit or duplicate the profile"
+                )
+            if payload.get("base_recording_id"):
+                raise ValueError(
+                    "Legacy recordings cannot be extended as a new recipe revision"
+                )
+            selection = payload.get("lecture_ids")
+            if payload.get("course_id"):
+                snapshot = library.snapshot(copy=False)
+                selection = [
+                    key
+                    for key in snapshot["courses"][qualified(payload["course_id"])][
+                        "lectures"
+                    ]
+                    if snapshot["lectures"][key].get("kind") == "audio"
+                ]
+            single = selection is None
+            if single:
+                selection = [qualified(payload["lecture_id"])]
+            if not isinstance(selection, list):
+                raise ValueError("Select a lecture list")
+            if not single and payload.get("blocks") is not None:
+                raise ValueError("Choose blocks within one lecture")
+            if (
+                single
+                and payload.get("revision")
+                and library.snapshot(copy=False)["lectures"][selection[0]]["revision"]
+                != payload["revision"]
+            ):
+                raise Conflict("This lecture changed; reopen it before generation")
+            jobs = await run_in_threadpool(
+                manager.prepare_saved,
+                [qualified(key) for key in selection],
+                payload["profile"],
+                profile_revision=profile["revision"],
+                blocks=payload.get("blocks"),
+            )
+            return JSONResponse(jobs[0] if single else {"jobs": jobs}, status_code=202)
         if payload.get("course_id") or payload.get("lecture_ids"):
             if payload.get("blocks") is not None or payload.get("base_recording_id"):
                 raise ValueError("Select blocks within one lecture")
@@ -1086,6 +1254,14 @@ def create_app(
             metadata_audit_decision,
             methods=["POST"],
         ),
+        Route("/api/library/voice-profiles",voice_profile_catalog),
+        Route("/api/library/voice-profiles/template",voice_profile_template,methods=["POST"]),
+        Route("/api/library/voice-profiles/preview",voice_profile_preview,methods=["POST"]),
+        Route("/api/library/voice-profiles/preview/{token}",voice_profile_preview_audio),
+        Route("/api/library/voice-profiles/save",voice_profile_save,methods=["POST"]),
+        Route("/api/library/voice-profiles/backends/{backend_id}/voices",voice_profile_voices,methods=["GET","POST"]),
+        Route("/api/library/voice-profiles/{profile_id}/action",voice_profile_action,methods=["POST"]),
+        Route("/api/library/voice-profiles/{profile_id}",voice_profile_editor),
         Route("/api/library/settings", server_settings, methods=["GET", "POST"]),
         Route("/api/library/settings/voices", settings_voices, methods=["POST"]),
         Route("/api/library/production", production_profiles),

@@ -159,20 +159,22 @@ def split_pages(text: str, *, max_chars: int = 600) -> list[str]:
 class AudioLectureLibrary:
     def __init__(self, *, sources=SOURCE_DIRECTORY, cache=None, endpoint=None,
                  model=None, voice=None, profile=None, response_format=None, output_format=None, title_handling=False, page_chars=None, workers=2,
-                 sender=None, config=None, document=None):
+                 sender=None, config=None, document=None, page_processor=None):
         from dkvis.presentation.tts import load_profiles, resolve_profile
 
         # The audio reader shares production TTS profiles and private .env.
         # Load .env before collecting audio-specific environment overrides.
         if document is None:
             document = load_profiles(config)
+        frozen = bool(document.get("profiles", {}).get(profile or document.get("profile"), {}).get("reader_frozen"))
+        self.page_processor = page_processor
         overrides = {}
         for name, value in (
-            ('endpoint', endpoint or os.environ.get('DKVIS_AUDIO_TTS_ENDPOINT')),
-            ('model', model or os.environ.get('DKVIS_AUDIO_TTS_MODEL')),
-            ('voice', voice or os.environ.get('DKVIS_AUDIO_TTS_VOICE')),
-            ('response_format', response_format or os.environ.get('DKVIS_AUDIO_TTS_RESPONSE_FORMAT')),
-            ('output_format', output_format or os.environ.get('DKVIS_AUDIO_OUTPUT_FORMAT')),
+            ('endpoint', endpoint or (None if frozen else os.environ.get('DKVIS_AUDIO_TTS_ENDPOINT'))),
+            ('model', model or (None if frozen else os.environ.get('DKVIS_AUDIO_TTS_MODEL'))),
+            ('voice', voice or (None if frozen else os.environ.get('DKVIS_AUDIO_TTS_VOICE'))),
+            ('response_format', response_format or (None if frozen else os.environ.get('DKVIS_AUDIO_TTS_RESPONSE_FORMAT'))),
+            ('output_format', output_format or (None if frozen else os.environ.get('DKVIS_AUDIO_OUTPUT_FORMAT'))),
         ):
             if value:
                 overrides[name] = value
@@ -193,6 +195,9 @@ class AudioLectureLibrary:
         self.title_instruction_field = config.get('title_instruction_field', 'instruction' if self.model.lower() == 'breeze-tts2' else None)
         if self.title_instruction_field == 'none': self.title_instruction_field = None
         self.title_instruction = config.get('title_instruction')
+        self.title_cfg_scale = config.get('title_cfg_scale', 4.0)
+        self.render_revision = config.get('reader_profile_revision')
+        self.cache_backend = config.get('reader_cache_backend')
         self.title_pause_before = float(config.get('title_pause_before_seconds', 0.25))
         self.title_pause_after = float(config.get('title_pause_after_seconds', 0.5))
         self.request_settings = config.get('request', {})
@@ -201,7 +206,7 @@ class AudioLectureLibrary:
         # existing small-request client-side fallback.
         self.server_long_form = (
             self.model.lower() == 'breeze-tts2'
-            and os.environ.get('DKVIS_AUDIO_BREEZE_LONG_FORM', '1') != '0'
+            and (config.get('reader_long_form', True) if frozen else os.environ.get('DKVIS_AUDIO_BREEZE_LONG_FORM', '1') != '0')
         )
         self.language = config.get('language')
         self.pronunciation_replacements = config.get('pronunciation_replacements', {})
@@ -212,9 +217,9 @@ class AudioLectureLibrary:
         # request short enough to limit the amount of omitted speech.
         # Override these limits if a particular voice needs shorter passages.
         self.speech_max_chars = min(int(config['max_chars']),
-                                    int(os.environ.get('DKVIS_AUDIO_SEGMENT_CHARS', '140')))
+                                    int(config.get('reader_segment_chars', 140) if frozen else os.environ.get('DKVIS_AUDIO_SEGMENT_CHARS', '140')))
         self.speech_max_words = min(int(config['max_words']),
-                                    int(os.environ.get('DKVIS_AUDIO_SEGMENT_WORDS', '12')))
+                                    int(config.get('reader_segment_words', 12) if frozen else os.environ.get('DKVIS_AUDIO_SEGMENT_WORDS', '12')))
         if not 40 <= self.speech_max_chars <= 280:
             raise ValueError('Audio speech segment characters must be 40-280')
         if not 2 <= self.speech_max_words <= 24:
@@ -223,7 +228,7 @@ class AudioLectureLibrary:
         # duration ceiling. An unexpectedly long passage is re-synthesized
         # in smaller pieces rather than trusting a potentially capped WAV.
         service_limit = float(config.get('max_audio_seconds', 0))
-        segment_limit = float(os.environ.get('DKVIS_AUDIO_SEGMENT_SECONDS', '12'))
+        segment_limit = float(config.get('reader_segment_seconds', 12) if frozen else os.environ.get('DKVIS_AUDIO_SEGMENT_SECONDS', '12'))
         if segment_limit <= 0 or not __import__('math').isfinite(segment_limit):
             raise ValueError('Audio speech segment seconds must be positive and finite')
         self.max_audio_seconds = min(service_limit, segment_limit) if service_limit > 0 else segment_limit
@@ -392,12 +397,14 @@ class AudioLectureLibrary:
         # different pages contain identical text.
         identity = dict(lecture_id=lecture_id, page_index=page_index,
                         page_chars=self.page_chars, pagination=PAGINATION_VERSION,
-                        profile=self.profile, endpoint=self.endpoint,
+                        profile=self.profile, endpoint=self.cache_backend or self.endpoint,
                         model=settings.model, voice=settings.voice,
                         speed=settings.speed, response_format=self.response_format,
                         request=self.request_settings, language=self.language,
                         pronunciation=self.pronunciation_replacements,
                         output=self.output_format, input=text)
+        if self.render_revision:
+            identity['render_profile_revision'] = self.render_revision
         if settings.model.lower() != 'kokoro':
             # Breeze-specific synthesis parameters also distinguish recordings
             # made before the bounded-generation safeguards.
@@ -847,6 +854,8 @@ class AudioLectureLibrary:
             else:
                 self._sender(text, settings, temporary)
             task.check_cancelled()
+            if self.page_processor:
+                self.page_processor(temporary, self.output_format, task)
             if not temporary.is_file() or temporary.stat().st_size < 256:
                 raise SpeechServiceError('Speech endpoint returned incomplete audio')
             temporary_timing = temporary.with_name(temporary.name + '.timings.json')

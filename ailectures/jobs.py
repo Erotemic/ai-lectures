@@ -145,6 +145,14 @@ class JobStore:
 
     @staticmethod
     def cache_scope(spec):
+        if spec.get("voice_profile"):
+            return digest(
+                [
+                    spec["row"]["id"],
+                    spec["voice_profile"]["id"],
+                    spec["voice_profile"]["revision"],
+                ]
+            )
         if "configuration" not in spec:
             return None  # JobStore also supports non-speech work specifications.
         config = spec["configuration"]

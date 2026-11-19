@@ -47,7 +47,7 @@ def _title(engine, text, settings, destination, task):
             if engine.language: payload['language'] = engine.language
             if engine.title_instruction_field:
                 payload[engine.title_instruction_field] = engine.title_instruction or TITLE_INSTRUCTION
-            if engine.model.lower() == 'breeze-tts2': payload['cfg_scale'] = 4.0 if engine.title_instruction_field else 1.0
+            if engine.model.lower() == 'breeze-tts2': payload['cfg_scale'] = getattr(engine, 'title_cfg_scale', 4.0) if engine.title_instruction_field else 1.0
             source = Path(folder)/f'{index}.source.{engine.response_format}'
             request = urllib.request.Request(engine.endpoint,data=json.dumps(payload).encode(),
                                              headers={'Content-Type':'application/json'},method='POST')

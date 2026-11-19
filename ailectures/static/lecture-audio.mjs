@@ -17,6 +17,7 @@ export function narratorInventory(choice, row, jobs, pages) {
         job.variant === choice?.variant &&
         job.speed === choice?.speed,
     );
+  pages = choice?.pages || pages;
   const states = recording
     ? recordingStates(recording)
     : pages.map(() => "missing");
@@ -384,6 +385,7 @@ export class LectureAudio {
     return narratorInventory(this.choice, this.row, this.jobs, this.pages);
   }
   choose(remember = true, activate = false) {
+    this.pages = this.choice?.pages || this.data?.pages || this.pages;
     const selectedBlock =
       this.pending?.index ??
       (this.player.row?.id === this.row.id ? this.player.index : null);
@@ -447,14 +449,19 @@ export class LectureAudio {
   }
   render() {
     this.voiceOptions();
-    const canGenerate = Boolean(this.data.tools_available && this.choice?.profile);
+    const canGenerate = Boolean(this.data.tools_available && this.choice?.profile && this.choice.available !== false);
+    const savedProfiles = this.data.schema === "voice-profiles-v1";
+    this.select.setAttribute("aria-label", savedProfiles ? "Voice profile" : "Voice");
+    this.more.querySelector("summary").textContent = savedProfiles ? "More profiles and recordings" : "More voices";
+    this.moreSelect.setAttribute("aria-label", savedProfiles ? "All profiles and recordings" : "All voices");
+    this.clearCache.textContent = savedProfiles ? "Clear this profile’s cache" : "Clear this voice’s cache";
     this.audioSummary.textContent = this.data.tools_available ? "Audio blocks & generation" : "Audio blocks";
-    this.voiceLabelText.textContent = this.data.tools_available ? "Voice for playback and generation" : "Voice for playback";
+    this.voiceLabelText.textContent = savedProfiles ? "Voice profile for playback and generation" : this.data.tools_available ? "Voice for playback and generation" : "Voice for playback";
     this.clearCache.hidden = this.cache.hidden = this.stop.hidden = !canGenerate;
     this.clearCache.disabled = !canGenerate || this.submitting || this.clearing;
     this.generations.hidden = !canGenerate;
     this.generationQueueLink.hidden = !canGenerate;
-    this.speechSettings.hidden = !canGenerate;
+    this.speechSettings.hidden = !canGenerate || savedProfiles;
     for (const option of this.select.options) {
       const choice = this.choices.find((c) => c.key === option.value);
       const { states, job, recording } = narratorInventory(
@@ -602,7 +609,7 @@ export class LectureAudio {
           el("strong", { text: label }),
           el("p", {
             class: "muted",
-            text: `${job.speed || 1}× speech · ${job.state} · ${job.requested_blocks ? (job.requested_blocks.length === 1 ? "block " + (job.requested_blocks[0] + 1) + " requested" : job.requested_blocks.length + " blocks requested") : "whole lecture"} · ${job.inventory.ready}/${job.inventory.total || "?"} blocks ready${job.revision !== this.row.revision ? " · earlier transcript revision" : ""}`,
+            text: `${job.profile_revision ? "Recipe " + job.profile_revision.slice(0, 8) : (job.speed || 1) + "× speech"} · ${job.state} · ${job.requested_blocks ? (job.requested_blocks.length === 1 ? "block " + (job.requested_blocks[0] + 1) + " requested" : job.requested_blocks.length + " blocks requested") : "whole lecture"} · ${job.inventory.ready}/${job.inventory.total || "?"} blocks ready${job.revision !== this.row.revision ? " · earlier transcript revision" : ""}`,
           }),
           job.error ? el("p", { class: "notice", text: job.error }) : null,
           ...(active ? job.inventory.queue || [] : []).slice(0, 1).map((item) =>
@@ -617,7 +624,7 @@ export class LectureAudio {
                 text: this.stopping.has(job.id)
                   ? "Stopping…"
                   : "Stop generation",
-                "aria-label": `Stop generation for ${label} at ${job.speed || 1}×`,
+                "aria-label": `Stop generation for ${label}${job.profile_revision ? "" : " at " + (job.speed || 1) + "×"}`,
                 disabled: this.stopping.has(job.id),
                 onclick: () => this.cancel(job),
               })
@@ -673,7 +680,7 @@ export class LectureAudio {
     this.play(target, seconds);
   }
   async require(index, seconds) {
-    if (!this.choice?.profile || !this.data.tools_available) {
+    if (!this.choice?.profile || !this.data.tools_available || this.choice.available === false) {
       this.showError(
         new Error(
           "Audio for this voice is not generated, and generation is unavailable on this server. Choose a prepared voice or configure TTS in Production.",
@@ -710,7 +717,8 @@ export class LectureAudio {
   async clearVoiceCache() {
     const choice = this.choice;
     if (!choice?.profile || this.clearing || this.submitting) return;
-    if (!globalThis.confirm(`Clear cached audio for ${choice.voice} (${choice.profile}) in this lecture at all generation speeds? Other voices are kept. Historical media files remain available for later garbage collection. You can then generate fresh audio with the current title settings.`)) return;
+    const prompt = choice.fixed_recipe ? `Clear cached audio for ${choice.label}, revision ${choice.profile_revision.slice(0,8)}, in this lecture? Other profiles and revisions remain available. Historical files remain for later garbage collection.` : `Clear cached audio for ${choice.voice} (${choice.profile}) in this lecture at all generation speeds? Other voices are kept. Historical media files remain available for later garbage collection. You can then generate fresh audio with the current title settings.`;
+    if (!globalThis.confirm(prompt)) return;
     this.clearing = true;
     this.epoch++;
     this.pending = null;
@@ -719,7 +727,7 @@ export class LectureAudio {
     try {
       await post("/api/library/production/clear-cache", {
         lecture_id: this.row.id, revision: this.row.revision,
-        profile: choice.profile, voice: choice.voice,
+        profile: choice.profile, ...(choice.fixed_recipe ? {profile_revision: choice.profile_revision} : {voice: choice.voice}),
       });
       this.row = await api("/api/library/lectures/" + encodeURIComponent(this.row.id));
       this.views.clear();
@@ -750,8 +758,7 @@ export class LectureAudio {
         lecture_id: this.row.id,
         revision: this.row.revision,
         profile: choice.profile,
-        voice: choice.voice,
-        speed: choice.speed,
+        ...(choice.fixed_recipe ? {profile_revision: choice.profile_revision} : {voice: choice.voice, speed: choice.speed}),
         ...(choice.base_recording_id
           ? { base_recording_id: choice.base_recording_id }
           : {}),

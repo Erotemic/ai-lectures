@@ -168,3 +168,40 @@ def test_interrupted_cleanup_restores_moves_before_commit_and_finishes_after_com
         db.execute('DELETE FROM releases WHERE release=?',(old['release'],))
     assert recover_garbage(library)==[dict(id=ticket,action='deleted')]
     assert not path.exists() and not trash.exists()
+
+
+def test_profile_speech_cleanup_keeps_caches_shared_with_current_text(tmp_path):
+    from ailectures.voice_profiles import profile_cache_key
+
+    library = Library(tmp_path / "library")
+    install(library, tmp_path, media=False)
+    current = library.snapshot()["lectures"]["music:001000"]
+    profile = dict(id="voice-fixture", revision=digest("recipe"))
+    spec = dict(
+        row={**current, "spoken_sha256": digest("old text")},
+        configuration={},
+        voice_profile=profile,
+        cache_epoch="reset-fixture",
+    )
+    jobs = JobStore(library.store.state)
+    jobs.clear_voice(jobs.cache_scope(spec), spec["cache_epoch"], lambda: None)
+    old_id = digest("old job")
+    jobs.enqueue([(old_id, spec)])
+    jobs.cancel(old_id)
+    cache = (
+        library.store.root
+        / "build-cache/speech"
+        / profile_cache_key(current["id"], profile, spec["cache_epoch"])
+    )
+    cache.mkdir(parents=True)
+    (cache / "page.ogg").write_bytes(b"fixture")
+    paths = lambda: {
+        row["path"]
+        for row in garbage_plan(library, keep_days=0, keep_text_versions=1)[
+            "candidates"
+        ]
+    }
+    relative = cache.relative_to(library.store.root).as_posix()
+    assert relative in paths()
+    jobs.enqueue([(digest("current job"), {**spec, "row": current})])
+    assert relative not in paths()
