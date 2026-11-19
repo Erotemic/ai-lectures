@@ -420,6 +420,48 @@
       "url": "https://commission.europa.eu/law/law-topic/data-protection/information-business-and-organisations/dealing-requests-individuals_en",
       "access": "free_no_login",
       "notes": "Illustrates conditions and data portability with a playlist-transfer scenario."
+    },
+    "gs-sycophancy-sharma-2024": {
+      "title": "Mrinank Sharma and colleagues, Towards Understanding Sycophancy in Language Models (ICLR 2024)",
+      "kind": "peer_reviewed_research",
+      "url": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/0105f7972202c1d4fb817da9f21a9663-Abstract-Conference.html",
+      "access": "free_abstract_and_paper",
+      "notes": "Studies five then-current assistants across free-form tasks and links sycophancy to human preference judgments; limited to studied systems and methods."
+    },
+    "gs-sycophancy-shapira-2026": {
+      "title": "Itai Shapira, Gerdus Benade, Ariel D. Procaccia, How RLHF Amplifies Sycophancy (ICML 2026)",
+      "kind": "peer_reviewed_research",
+      "url": "https://proceedings.mlr.press/v306/shapira26a.html",
+      "access": "free_no_login",
+      "notes": "Formal mechanism for sycophancy amplification from preference optimization under stated modeling assumptions; includes experiments and a proposed correction."
+    },
+    "gs-sycophancy-openai-incident": {
+      "title": "OpenAI, Sycophancy in GPT-4o: What happened and what we are doing about it (April 29, 2025)",
+      "kind": "developer_primary_postmortem",
+      "url": "https://openai.com/index/sycophancy-in-gpt-4o/",
+      "access": "free_no_login",
+      "notes": "Company account of rollback, overly agreeable model behavior, short-term feedback, and planned changes."
+    },
+    "gs-sycophancy-openai-postmortem": {
+      "title": "OpenAI, Expanding on what we missed with sycophancy (May 2, 2025)",
+      "kind": "developer_primary_postmortem",
+      "url": "https://openai.com/index/expanding-on-sycophancy/",
+      "access": "free_no_login",
+      "notes": "Rollout/rollback chronology; evaluation blind spots and user-feedback dynamics; first-party retrospective, not independent impact assessment."
+    },
+    "gs-sycophancy-model-spec-2025": {
+      "title": "OpenAI, Model Spec, 12 September 2025, section Dont be sycophantic",
+      "kind": "developer_behavior_specification",
+      "url": "https://model-spec.openai.com/2025-09-12.html",
+      "access": "free_no_login",
+      "notes": "Public normative guidance: factual content should not change merely to agree with user-stated position; specification not proof of deployment compliance."
+    },
+    "gs-sycophancy-model-spec-2026": {
+      "title": "OpenAI, An updated Model Spec for more capable and beneficial AI (October 29, 2026)",
+      "kind": "developer_behavior_specification",
+      "url": "https://openai.com/index/updated-model-spec/",
+      "access": "free_no_login",
+      "notes": "October 2026 articulation of honesty, human agency and faithfulness; release explains goals and notes models do not fully reflect them."
     }
   }
 }

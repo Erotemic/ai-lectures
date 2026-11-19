@@ -1,0 +1,221 @@
+{
+  "schema_version": 1,
+  "lecture_id": "010000",
+  "transcript": "010000-an-assistant-should-be-willing-to-disappoint-you.md",
+  "description": "Argues that a useful AI assistant must be willing to offer supported disagreement, without converting honesty into reflexive contrarianism; examines human feedback, sycophancy research, the 2025 GPT-4o rollback, evidence-aware criticism, and evaluation design.",
+  "tags": [
+    "Artificial intelligence",
+    "Language models",
+    "Sycophancy",
+    "Truthfulness",
+    "User autonomy",
+    "Human feedback",
+    "Reinforcement learning from human feedback",
+    "Preference optimization",
+    "Reward modeling",
+    "Human-computer interaction",
+    "Human-AI collaboration",
+    "AI evaluation",
+    "Disagreement and criticism",
+    "Independent judgment",
+    "OpenAI",
+    "GPT-4o",
+    "AI incident analysis",
+    "Human agency",
+    "Evidence-based reasoning",
+    "Personalization",
+    "AI ethics",
+    "Critical feedback",
+    "User trust",
+    "2023",
+    "2024",
+    "2025",
+    "2026",
+    "United States"
+  ],
+  "tag_paths": [
+    [
+      "Computing",
+      "Artificial intelligence",
+      "Model behavior and alignment"
+    ],
+    [
+      "Computing",
+      "Artificial intelligence",
+      "Preference learning and RLHF"
+    ],
+    [
+      "Computing",
+      "Artificial intelligence",
+      "Sycophancy and truthfulness"
+    ],
+    [
+      "Philosophy",
+      "Ethics",
+      "Honesty and constructive disagreement"
+    ],
+    [
+      "Philosophy",
+      "Epistemology",
+      "Evidence and trust"
+    ],
+    [
+      "Social science",
+      "Human-computer interaction",
+      "User agency"
+    ],
+    [
+      "Time",
+      "21st century",
+      "2020s"
+    ],
+    [
+      "Geography",
+      "North America",
+      "United States"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "gs-sycophancy-sharma-2024",
+      "reason": "Empirical evidence of agreement bias in studied assistants and human preference judgments."
+    },
+    {
+      "source_id": "gs-sycophancy-shapira-2026",
+      "reason": "Formal model of amplification by reward optimization and its limits."
+    },
+    {
+      "source_id": "gs-sycophancy-openai-incident",
+      "reason": "Developer primary account of the April 2025 rollback."
+    },
+    {
+      "source_id": "gs-sycophancy-openai-postmortem",
+      "reason": "More detailed chronology and review-process findings."
+    },
+    {
+      "source_id": "gs-sycophancy-model-spec-2025",
+      "reason": "Published contrast between factual stability and sycophantic agreement."
+    },
+    {
+      "source_id": "gs-sycophancy-model-spec-2026",
+      "reason": "Recent articulation of transparency and user agency as design goals."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "soap-010-h01",
+      "anchor": "In April 2025, OpenAI introduced an update to GPT-4o in ChatGPT.",
+      "kind": "research_history",
+      "source_ids": [
+        "gs-sycophancy-openai-postmortem"
+      ],
+      "source_locator": "Company chronology and postmortem (April 24–25 rollout)",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "soap-010-h02",
+      "anchor": "The company began reversing the update on April twenty-eighth, and later published accounts of what had gone wrong.",
+      "kind": "research_history",
+      "source_ids": [
+        "gs-sycophancy-openai-incident",
+        "gs-sycophancy-openai-postmortem"
+      ],
+      "source_locator": "April 28 rollback and public reports April 29 / May 2",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "soap-010-h03",
+      "anchor": "In a study presented at the International Conference on Learning Representations in 2024, Mrinank Sharma and colleagues examined sycophancy in several AI assistants trained with human feedback.",
+      "kind": "research_history",
+      "source_ids": [
+        "gs-sycophancy-sharma-2024"
+      ],
+      "source_locator": "ICLR 2024 abstract and research paper",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "soap-010-h04",
+      "anchor": "A theoretical analysis published by Itai Shapira, Gerdus Benade, and Ariel Procaccia in 2026 went further in specifying a mechanism.",
+      "kind": "research_history",
+      "source_ids": [
+        "gs-sycophancy-shapira-2026"
+      ],
+      "source_locator": "ICML 2026 paper, modeling assumptions and abstract",
+      "audit_status": "source_passage_checked"
+    }
+  ],
+  "claim_evidence": [
+    {
+      "id": "soap-010-c101",
+      "anchor": "The most revealing part of the account concerns evaluation.",
+      "source_ids": [
+        "gs-sycophancy-openai-postmortem"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Evidence notes and linked source",
+      "evidence_detail": "Review-process discussion in primary retrospective, including A/B and expert evaluation"
+    },
+    {
+      "id": "soap-010-c102",
+      "anchor": "Human preference judgments also favored answers that matched the user's position in some circumstances, even when other answers were more accurate.",
+      "source_ids": [
+        "gs-sycophancy-sharma-2024"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Evidence notes and linked source",
+      "evidence_detail": "Published paper abstract and preference-data results"
+    },
+    {
+      "id": "soap-010-c103",
+      "anchor": "Under their formal assumptions, optimizing a learned reward can amplify the tendency to agree when the reward signal favors agreement.",
+      "source_ids": [
+        "gs-sycophancy-shapira-2026"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Evidence notes and linked source",
+      "evidence_detail": "Formal conditional result; scope explicitly limited"
+    },
+    {
+      "id": "soap-010-c104",
+      "anchor": "A company might learn to perform well on a fixed collection of contradictory prompts while failing in new situations.",
+      "source_ids": [
+        "gs-sycophancy-sharma-2024"
+      ],
+      "provenance": "author_analysis",
+      "source_locator": "Evidence notes and linked source",
+      "evidence_detail": "General evaluation overfitting caution; scenario not claim of an observed incident"
+    },
+    {
+      "id": "soap-010-c105",
+      "anchor": "These are not opposing ideals.",
+      "source_ids": [
+        "gs-sycophancy-model-spec-2025",
+        "gs-sycophancy-model-spec-2026"
+      ],
+      "provenance": "author_analysis",
+      "source_locator": "Evidence notes and linked source",
+      "evidence_detail": "Normative synthesis consistent with referenced behavior goals, not a claim of universal deployment behavior"
+    }
+  ],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original opinion essay; sourced empirical and company-history claims, invented examples identified as such, and independent editorial argument. No claims about private model experience or company endorsement."
+  },
+  "learning": {
+    "reviewed": true,
+    "background": [
+      "No specialized background; explains sycophancy, preference-based training, the difference between factual and value judgments, and the limits of model claims."
+    ],
+    "readiness_checks": [
+      "Define sycophancy in terms of agreement at the cost of accuracy or judgment.",
+      "Distinguish justified agreement, care, and constructive disagreement from sycophancy.",
+      "Explain what OpenAI reported about the April 2025 GPT-4o rollback and its evaluation gaps.",
+      "Explain how preference optimization can amplify agreement bias under specific conditions.",
+      "Differentiate evidential, instrumental, and value-laden disagreements.",
+      "Name elements of an actionable and corrigible objection.",
+      "Design a paired-prompt evaluation that tests factual independence without rewarding contradiction.",
+      "Describe the risk of borrowed confidence and the difference between fluency and evidence."
+    ]
+  }
+}

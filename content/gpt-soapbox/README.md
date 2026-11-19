@@ -17,7 +17,9 @@ knowledge and shortcuts around professional standards. The sixth essay asks whet
 artifact. The seventh challenges single-name histories of invention and discovery
 without erasing the achievements of specific people. The eighth celebrates instrument-mediated
 science as a disciplined way to extend observation beyond human senses. The ninth asks
-what a good system owes people who choose to leave it. Each lecture stands alone;
+what a good system owes people who choose to leave it. The tenth examines
+AI sycophancy, and why a useful assistant must be capable of evidence-based
+disagreement without turning into a contrarian. Each lecture stands alone;
 listeners may choose any order.
 
 - **001000 — The Counterexample Is the Main Character.** Why failure cases
@@ -41,6 +43,10 @@ listeners may choose any order.
 - **009000 — The Door That Opens Outward.** Why data portability, independent
   tools, fair switching, and the ability to speak up and leave are part of
   deserving continued trust.
+
+- **010000 — An Assistant Should Be Willing to Disappoint You.** Why an
+  honest assistant sometimes has to disagree, and why reflexive opposition is
+  no more reliable than flattery.
 
 Spoken narration is inside the standard marker pair in each manuscript. Source
 notes, constructed-example qualifications, and reading links follow the
