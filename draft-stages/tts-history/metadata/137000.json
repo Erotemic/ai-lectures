@@ -1,0 +1,332 @@
+{
+  "schema_version": 1,
+  "lecture_id": "137000",
+  "transcript": "137000-lavoisier.md",
+  "related_resources": [
+    {
+      "source_id": "history-lavoisier-shi",
+      "reason": "Lavoisier scientific career, taxes, gunpowder, oxygen and execution."
+    },
+    {
+      "source_id": "history-lavoisier-paulze-duke",
+      "reason": "Marie-Anne Pierrette Paulze roles in translating, drawing, publishing and scientific collaboration."
+    },
+    {
+      "source_id": "history-lavoisier-encyclopedia",
+      "reason": "Life dates and research context; use institution/primary sources for priority."
+    },
+    {
+      "source_id": "history-lavoisier-respiration",
+      "reason": "Calorimeter and respiration with Laplace; phlogiston and oxygen details."
+    },
+    {
+      "source_id": "history-lavoisier-smithsonian",
+      "reason": "Lavoisier publication, nomenclature, textbook and illustration chronology."
+    },
+    {
+      "source_id": "history-lavoisier-britannica",
+      "reason": "Supplementary biographical chronology and attribution of oxygen work."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "137000-h01",
+      "anchor": "On the eighth of May, 1794, Antoine-Laurent Lavoisier was executed in Paris",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-lavoisier-shi",
+        "history-lavoisier-britannica"
+      ],
+      "source_locator": "On the eighth of May, 1794, Antoine-Laurent Lavoisier was executed in Paris",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "137000-h02",
+      "anchor": "Lavoisier was born in Paris in 1743",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-lavoisier-shi"
+      ],
+      "source_locator": "Lavoisier was born in Paris in 1743",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "137000-h03",
+      "anchor": "Guillaume-François Rouelle",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-lavoisier-britannica"
+      ],
+      "source_locator": "Guillaume-François Rouelle",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "137000-h04",
+      "anchor": "In 1768, when he was still in his twenties, he was elected to the Paris Academy of Sciences",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-lavoisier-shi"
+      ],
+      "source_locator": "In 1768, when he was still in his twenties, he was elected to the Paris Academy of Sciences",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "137000-h05",
+      "anchor": "The same year he bought a share in the Ferme générale",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-lavoisier-shi"
+      ],
+      "source_locator": "The same year he bought a share in the Ferme générale",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "137000-h06",
+      "anchor": "In 1771, he married Marie-Anne Pierrette Paulze",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-lavoisier-paulze-duke"
+      ],
+      "source_locator": "In 1771, he married Marie-Anne Pierrette Paulze",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "137000-h07",
+      "anchor": "She was thirteen and he was twenty-eight",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-lavoisier-paulze-duke"
+      ],
+      "source_locator": "She was thirteen and he was twenty-eight",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "137000-h08",
+      "anchor": "Marie-Anne translated the Irish chemist Richard Kirwan's defense of phlogiston theory",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-lavoisier-paulze-duke"
+      ],
+      "source_locator": "Marie-Anne translated the Irish chemist Richard Kirwan's defense of phlogiston theory",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "137000-h09",
+      "anchor": "In 1775 he was appointed to oversee royal gunpowder production",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-lavoisier-shi"
+      ],
+      "source_locator": "In 1775 he was appointed to oversee royal gunpowder production",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "137000-h10",
+      "anchor": "Joseph Priestley obtained a gas in 1774",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-lavoisier-shi",
+        "history-lavoisier-britannica"
+      ],
+      "source_locator": "Joseph Priestley obtained a gas in 1774",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "137000-h11",
+      "anchor": "Carl Wilhelm Scheele had independently prepared the gas earlier but published later",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-lavoisier-shi",
+        "history-lavoisier-britannica"
+      ],
+      "source_locator": "Carl Wilhelm Scheele had independently prepared the gas earlier but published later",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "137000-h12",
+      "anchor": "a theory of combustion and chemical combination",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-lavoisier-shi"
+      ],
+      "source_locator": "a theory of combustion and chemical combination",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "137000-h13",
+      "anchor": "Oxygen means, roughly,",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-lavoisier-shi"
+      ],
+      "source_locator": "Oxygen means, roughly,",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "137000-h14",
+      "anchor": "a table of thirty-three simple substances",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-lavoisier-smithsonian"
+      ],
+      "source_locator": "a table of thirty-three simple substances",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "137000-h15",
+      "anchor": "Experiments associated with Henry Cavendish and others",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-lavoisier-britannica"
+      ],
+      "source_locator": "Experiments associated with Henry Cavendish and others",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "137000-h16",
+      "anchor": "Lavoisier worked with Pierre-Simon Laplace",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-lavoisier-respiration"
+      ],
+      "source_locator": "Lavoisier worked with Pierre-Simon Laplace",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "137000-h17",
+      "anchor": "Claude-Louis Berthollet",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-lavoisier-smithsonian"
+      ],
+      "source_locator": "Claude-Louis Berthollet",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "137000-h18",
+      "anchor": "Lavoisier was arrested in 1793",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-lavoisier-shi"
+      ],
+      "source_locator": "Lavoisier was arrested in 1793",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "137000-h19",
+      "anchor": "Marie-Anne",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-lavoisier-paulze-duke"
+      ],
+      "source_locator": "Marie-Anne",
+      "audit_status": "source_checked"
+    }
+  ],
+  "chronology": {
+    "life": {
+      "start": 1743,
+      "end": 1794,
+      "basis": "documented_biography",
+      "label": "1743-1794 : Antoine-Laurent Lavoisier",
+      "source_ids": [
+        "history-lavoisier-shi"
+      ]
+    },
+    "period": {
+      "start": 1768,
+      "end": 1794,
+      "basis": "documented_research_and_state_service",
+      "label": "1768-1794: chemical reform and state service",
+      "source_ids": [
+        "history-lavoisier-shi"
+      ]
+    },
+    "work": {
+      "start": 1768,
+      "end": 1794,
+      "basis": "scientific_research",
+      "label": "1768-1794: air, combustion, classification and respiration",
+      "source_ids": [
+        "history-lavoisier-shi",
+        "history-lavoisier-respiration"
+      ]
+    },
+    "context": {
+      "start": 1743,
+      "end": 1794,
+      "basis": "historical_setting",
+      "label": "Enlightenment and French Revolution: royal institutions, tax farm and laboratory",
+      "source_ids": [
+        "history-lavoisier-shi"
+      ],
+      "approximate": true
+    }
+  },
+  "spacetime_coverage": {
+    "schema_version": 1,
+    "subject": "Antoine-Laurent Lavoisier",
+    "description": "Documented lifetime places and activities. Modern country labels and approximate reference points do not imply historical political identity or continuous presence.",
+    "places": [
+      {
+        "place": "Paris",
+        "present_day_country": "France",
+        "historical_polity": "Kingdom of France (Bourbon monarchy)",
+        "start_year": 1743,
+        "end_year": 1767,
+        "role": "birth_education_and_early_science",
+        "note": "Birth and education; intervals are approximate.",
+        "coordinates": {
+          "latitude": 48.86,
+          "longitude": 2.35,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "history-lavoisier-shi"
+        ],
+        "date_uncertain": true
+      },
+      {
+        "place": "Paris",
+        "present_day_country": "France",
+        "historical_polity": "Kingdom of France; First French Republic",
+        "start_year": 1768,
+        "end_year": 1794,
+        "role": "academy_research_state_service_and_death",
+        "note": "Paris Academy, experiments, tax farm, revolutionary trial and execution; not uninterrupted residence.",
+        "coordinates": {
+          "latitude": 48.86,
+          "longitude": 2.35,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "history-lavoisier-shi"
+        ],
+        "date_uncertain": true
+      },
+      {
+        "place": "Arsenal district, Paris",
+        "present_day_country": "France",
+        "historical_polity": "Kingdom of France",
+        "start_year": 1775,
+        "end_year": 1789,
+        "role": "gunpowder_administration_and_research",
+        "note": "Royal gunpowder service at the Paris Arsenal; research span is approximate.",
+        "coordinates": {
+          "latitude": 48.85,
+          "longitude": 2.37,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "history-lavoisier-shi"
+        ],
+        "date_uncertain": true
+      }
+    ],
+    "date_encoding": "Inclusive CE calendar years; broad institutional or travel spans may be approximate and do not prove uninterrupted presence.",
+    "coordinate_encoding": "Approximate modern city or region centroids, not historical addresses or exact expedition coordinates."
+  },
+  "tags": [
+    "History of science"
+  ]
+}

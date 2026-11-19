@@ -1,0 +1,538 @@
+{
+  "schema_version": 1,
+  "lecture_id": "140000",
+  "transcript": "140000-humboldt.md",
+  "related_resources": [
+    {
+      "source_id": "history-humboldt-sep",
+      "reason": "Biography, mining, American expedition, colonial context, geography, Cosmos and philosophical method."
+    },
+    {
+      "source_id": "history-humboldt-berlin",
+      "reason": "Life dates, education, mines, expeditions, publications and scientific networks."
+    },
+    {
+      "source_id": "history-humboldt-chimborazo",
+      "reason": "1802 ascent, Bonpland and Montufar, limit of ascent and later representations."
+    },
+    {
+      "source_id": "history-humboldt-loc",
+      "reason": "1817 temperature lines and the history of equal-temperature map contours."
+    },
+    {
+      "source_id": "history-humboldt-wiki",
+      "reason": "Orientation only; not used to resolve contested original attributions."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "140000-h01",
+      "anchor": "In 1802, high on the slopes of Chimborazo",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-humboldt-chimborazo"
+      ],
+      "source_locator": "In 1802, high on the slopes of Chimborazo",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "140000-h02",
+      "anchor": "Aimé Bonpland",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-humboldt-chimborazo"
+      ],
+      "source_locator": "Aimé Bonpland",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "140000-h03",
+      "anchor": "Carlos de Montúfar",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-humboldt-chimborazo"
+      ],
+      "source_locator": "Carlos de Montúfar",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "140000-h04",
+      "anchor": "He was born in Berlin on 14 September 1769",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-humboldt-berlin"
+      ],
+      "source_locator": "He was born in Berlin on 14 September 1769",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "140000-h05",
+      "anchor": "Alexander studied in Frankfurt an der Oder, then at Göttingen",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-humboldt-sep"
+      ],
+      "source_locator": "Alexander studied in Frankfurt an der Oder, then at Göttingen",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "140000-h06",
+      "anchor": "Freiberg Mining Academy under Abraham Gottlob Werner",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-humboldt-sep"
+      ],
+      "source_locator": "Freiberg Mining Academy under Abraham Gottlob Werner",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "140000-h07",
+      "anchor": "served the Prussian mining administration",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-humboldt-berlin"
+      ],
+      "source_locator": "served the Prussian mining administration",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "140000-h08",
+      "anchor": "His mother's death in 1796",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-humboldt-berlin"
+      ],
+      "source_locator": "His mother's death in 1796",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "140000-h09",
+      "anchor": "Humboldt and Bonpland sailed from La Coruña in June 1799",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-humboldt-berlin"
+      ],
+      "source_locator": "Humboldt and Bonpland sailed from La Coruña in June 1799",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "140000-h10",
+      "anchor": "They reached Cumaná",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-humboldt-sep"
+      ],
+      "source_locator": "They reached Cumaná",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "140000-h11",
+      "anchor": "the Casiquiare waterway connecting the Orinoco and Amazon drainage systems",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-humboldt-sep"
+      ],
+      "source_locator": "the Casiquiare waterway connecting the Orinoco and Amazon drainage systems",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "140000-h12",
+      "anchor": "Near Lake Valencia in 1800",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-humboldt-sep"
+      ],
+      "source_locator": "Near Lake Valencia in 1800",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "140000-h13",
+      "anchor": "At Chimborazo the measuring impulse",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-humboldt-chimborazo"
+      ],
+      "source_locator": "At Chimborazo the measuring impulse",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "140000-h14",
+      "anchor": "The resulting *Naturgemälde*",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-humboldt-sep"
+      ],
+      "source_locator": "The resulting *Naturgemälde*",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "140000-h15",
+      "anchor": "In Mexico he examined mining",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-humboldt-sep"
+      ],
+      "source_locator": "In Mexico he examined mining",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "140000-h16",
+      "anchor": "In the United States in 1804 he met Thomas Jefferson",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-humboldt-sep"
+      ],
+      "source_locator": "In the United States in 1804 he met Thomas Jefferson",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "140000-h17",
+      "anchor": "in work published in 1817",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-humboldt-loc"
+      ],
+      "source_locator": "in work published in 1817",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "140000-h18",
+      "anchor": "He returned to Berlin in 1827",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-humboldt-berlin"
+      ],
+      "source_locator": "He returned to Berlin in 1827",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "140000-h19",
+      "anchor": "In 1829, sponsored by the Russian emperor Nicholas the First",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-humboldt-berlin"
+      ],
+      "source_locator": "In 1829, sponsored by the Russian emperor Nicholas the First",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "140000-h20",
+      "anchor": "first volume was published in 1845",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-humboldt-sep"
+      ],
+      "source_locator": "first volume was published in 1845",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "140000-h21",
+      "anchor": "Humboldt died in Berlin on 6 May 1859",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-humboldt-berlin"
+      ],
+      "source_locator": "Humboldt died in Berlin on 6 May 1859",
+      "audit_status": "source_checked"
+    }
+  ],
+  "chronology": {
+    "life": {
+      "start": 1769,
+      "end": 1859,
+      "basis": "documented_biography",
+      "label": "1769-1859 : Alexander von Humboldt",
+      "source_ids": [
+        "history-humboldt-sep"
+      ]
+    },
+    "period": {
+      "start": 1789,
+      "end": 1859,
+      "basis": "documented_research_and_publications",
+      "label": "1789-1859: mining, travel, comparison, and Cosmos",
+      "source_ids": [
+        "history-humboldt-sep"
+      ],
+      "approximate": true
+    },
+    "work": {
+      "start": 1791,
+      "end": 1859,
+      "basis": "scientific_research",
+      "label": "1791-1859: comparative natural history, geography, mapped climate",
+      "source_ids": [
+        "history-humboldt-berlin"
+      ],
+      "approximate": true
+    },
+    "context": {
+      "start": 1769,
+      "end": 1859,
+      "basis": "historical_setting",
+      "label": "Prussian science, Spanish colonial Americas and imperial travel networks",
+      "source_ids": [
+        "history-humboldt-sep"
+      ],
+      "approximate": true
+    }
+  },
+  "spacetime_coverage": {
+    "schema_version": 1,
+    "subject": "Alexander von Humboldt",
+    "description": "Documented lifetime places and activities. Modern country labels and approximate reference points do not imply historical political identity or continuous presence.",
+    "places": [
+      {
+        "place": "Berlin",
+        "present_day_country": "Germany",
+        "historical_polity": "Kingdom of Prussia",
+        "start_year": 1769,
+        "end_year": 1787,
+        "role": "birth_and_childhood_education",
+        "note": "Birth and private education; dates approximate.",
+        "coordinates": {
+          "latitude": 52.52,
+          "longitude": 13.4,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "history-humboldt-berlin"
+        ],
+        "date_uncertain": true
+      },
+      {
+        "place": "Göttingen",
+        "present_day_country": "Germany",
+        "historical_polity": "Electorate of Hanover",
+        "start_year": 1789,
+        "end_year": 1790,
+        "role": "university_studies",
+        "note": "Education and contacts including Georg Forster; interval approximate.",
+        "coordinates": {
+          "latitude": 51.54,
+          "longitude": 9.93,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "history-humboldt-sep"
+        ],
+        "date_uncertain": true
+      },
+      {
+        "place": "Freiberg, Saxony",
+        "present_day_country": "Germany",
+        "historical_polity": "Electorate of Saxony",
+        "start_year": 1791,
+        "end_year": 1792,
+        "role": "mining_academy",
+        "note": "Mining study under Werner; approximate dates.",
+        "coordinates": {
+          "latitude": 50.91,
+          "longitude": 13.34,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "history-humboldt-sep"
+        ],
+        "date_uncertain": true
+      },
+      {
+        "place": "Steben, Franconia",
+        "present_day_country": "Germany",
+        "historical_polity": "Prussian administration within the Holy Roman Empire",
+        "start_year": 1792,
+        "end_year": 1797,
+        "role": "mining_administration_and_school",
+        "note": "Mining inspections and school; region and term approximate.",
+        "coordinates": {
+          "latitude": 50.37,
+          "longitude": 11.65,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "history-humboldt-berlin"
+        ],
+        "date_uncertain": true
+      },
+      {
+        "place": "La Coruña",
+        "present_day_country": "Spain",
+        "historical_polity": "Kingdom of Spain",
+        "start_year": 1799,
+        "end_year": 1799,
+        "role": "transatlantic_departure",
+        "note": "Spanish authorization and departure with Bonpland.",
+        "coordinates": {
+          "latitude": 43.36,
+          "longitude": -8.41,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "history-humboldt-berlin"
+        ]
+      },
+      {
+        "place": "Cumaná",
+        "present_day_country": "Venezuela",
+        "historical_polity": "Spanish Empire, Captaincy General of Venezuela",
+        "start_year": 1799,
+        "end_year": 1799,
+        "role": "arrival_and_field_research",
+        "note": "First major landing and tropical fieldwork; approximate.",
+        "coordinates": {
+          "latitude": 10.46,
+          "longitude": -64.17,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "history-humboldt-sep"
+        ],
+        "date_uncertain": true
+      },
+      {
+        "place": "Orinoco and Casiquiare basin",
+        "present_day_country": "Venezuela",
+        "historical_polity": "Spanish Empire, Captaincy General of Venezuela",
+        "start_year": 1800,
+        "end_year": 1800,
+        "role": "river_expedition_and_mapping",
+        "note": "Regional centroid, not a precise position.",
+        "coordinates": {
+          "latitude": 4.7,
+          "longitude": -66.1,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "history-humboldt-sep"
+        ]
+      },
+      {
+        "place": "Lake Valencia",
+        "present_day_country": "Venezuela",
+        "historical_polity": "Spanish Empire, Captaincy General of Venezuela",
+        "start_year": 1800,
+        "end_year": 1800,
+        "role": "land_use_and_environmental_observations",
+        "note": "Observations of vegetation and water level.",
+        "coordinates": {
+          "latitude": 10.16,
+          "longitude": -67.75,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "history-humboldt-sep"
+        ]
+      },
+      {
+        "place": "Chimborazo",
+        "present_day_country": "Ecuador",
+        "historical_polity": "Spanish Empire, Royal Audiencia of Quito",
+        "start_year": 1802,
+        "end_year": 1802,
+        "role": "mountain_ascent_and_plant_geography",
+        "note": "Ascent with Bonpland and Carlos de Montufar; not the summit.",
+        "coordinates": {
+          "latitude": -1.47,
+          "longitude": -78.82,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "history-humboldt-chimborazo"
+        ]
+      },
+      {
+        "place": "Mexico City",
+        "present_day_country": "Mexico",
+        "historical_polity": "Spanish Empire, Viceroyalty of New Spain",
+        "start_year": 1803,
+        "end_year": 1804,
+        "role": "research_on_new_spain_and_mining",
+        "note": "Studies of geography and economy; dates approximate.",
+        "coordinates": {
+          "latitude": 19.43,
+          "longitude": -99.13,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "history-humboldt-sep"
+        ],
+        "date_uncertain": true
+      },
+      {
+        "place": "Washington, District of Columbia",
+        "present_day_country": "United States",
+        "historical_polity": "United States",
+        "start_year": 1804,
+        "end_year": 1804,
+        "role": "meeting_with_jefferson",
+        "note": "Visit to United States and discussions with Thomas Jefferson.",
+        "coordinates": {
+          "latitude": 38.9,
+          "longitude": -77.04,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "history-humboldt-sep"
+        ]
+      },
+      {
+        "place": "Paris",
+        "present_day_country": "France",
+        "historical_polity": "First French Empire; Bourbon Restoration",
+        "start_year": 1804,
+        "end_year": 1827,
+        "role": "publication_and_scientific_collaboration",
+        "note": "Main publication base; residences, travel and visits interrupt continuity.",
+        "coordinates": {
+          "latitude": 48.86,
+          "longitude": 2.35,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "history-humboldt-berlin"
+        ],
+        "date_uncertain": true
+      },
+      {
+        "place": "Urals and western Siberia",
+        "present_day_country": "Russia",
+        "historical_polity": "Russian Empire",
+        "start_year": 1829,
+        "end_year": 1829,
+        "role": "imperial_expedition",
+        "note": "Regional centroid; observations of minerals, magnetism and environment.",
+        "coordinates": {
+          "latitude": 56.5,
+          "longitude": 63.0,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "history-humboldt-berlin"
+        ]
+      },
+      {
+        "place": "Berlin",
+        "present_day_country": "Germany",
+        "historical_polity": "Kingdom of Prussia",
+        "start_year": 1827,
+        "end_year": 1859,
+        "role": "public_lectures_cosmos_and_later_life",
+        "note": "Returned to Berlin; later travels and visits not treated as uninterrupted presence.",
+        "coordinates": {
+          "latitude": 52.52,
+          "longitude": 13.4,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "history-humboldt-berlin"
+        ],
+        "date_uncertain": true
+      }
+    ],
+    "date_encoding": "Inclusive CE calendar years; broad institutional or travel spans may be approximate and do not prove uninterrupted presence.",
+    "coordinate_encoding": "Approximate modern city or region centroids, not historical addresses or exact expedition coordinates."
+  },
+  "tags": [
+    "History of science"
+  ]
+}

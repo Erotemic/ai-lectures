@@ -53,7 +53,9 @@
         "122000",
         "127000",
         "128000",
-        "130000"
+        "130000",
+        "137000",
+        "140000"
       ],
       "parent": "subjects",
       "assumed_background": [
@@ -379,7 +381,9 @@
         "130000",
         "131000",
         "133000",
-        "135000"
+        "135000",
+        "137000",
+        "139000"
       ],
       "parent": "subjects"
     },
@@ -389,12 +393,33 @@
       "role": "deep_dive",
       "lectures": [
         "134000",
-        "136000"
+        "136000",
+        "138000",
+        "139000",
+        "140000"
       ],
       "parent": "subjects",
       "summary": "Biological lives from natural selection and field observation to chromosomes and mobile genetic elements. Science, people, and institutions are presented together.",
       "assumed_background": [
         "No technical biology prerequisites; the manuscripts develop the necessary concepts."
+      ]
+    },
+    {
+      "id": "chemistry-materials-lives",
+      "title": "Lives · Chemistry, Matter, and Molecular Structure",
+      "role": "deep_dive",
+      "lectures": [
+        "137000",
+        "133000",
+        "138000",
+        "036000",
+        "135000",
+        "139000"
+      ],
+      "parent": "subjects",
+      "summary": "From Lavoisier's quantitative chemistry and Faraday's experiments to Pasteur's microbes, Marie Curie's radioactivity, Meitner's nuclei, and Franklin's diffraction.",
+      "assumed_background": [
+        "No required specialist chemistry; the narrations explain the experimental ideas as they arise."
       ]
     }
   ]
