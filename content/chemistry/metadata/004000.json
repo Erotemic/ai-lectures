@@ -1,0 +1,133 @@
+{
+  "schema_version": 1,
+  "lecture_id": "004000",
+  "transcript": "004000-water-and-the-chemistry-of-dissolving.md",
+  "description": "Explains why salt, sugar and oil behave differently in water using solvation, molecular polarity, Gibbs energy, saturation, electrolytes and colligative effects.",
+  "tags": [
+    "Water chemistry",
+    "Solutions",
+    "Solvation",
+    "Hydration",
+    "Dissolution",
+    "Ionic dissociation",
+    "Electrolytes",
+    "Hydrogen bonding",
+    "Hydrophobic effect",
+    "Micelles",
+    "Solubility",
+    "Saturation",
+    "Osmosis",
+    "Freezing point depression",
+    "Henry law",
+    "Solution concentration"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Chemistry",
+      "Molecular interactions in liquids"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Dissolution thermodynamics"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Electrolytes"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Solubility equilibrium"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Colligative properties"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Osmosis"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "ch-openstax-solutions",
+      "reason": "Solvation and thermodynamics of solutions."
+    },
+    {
+      "source_id": "ch-openstax-solutions-summary",
+      "reason": "Electrolytes, saturation, Henry law and osmotic effects."
+    },
+    {
+      "source_id": "ch-openstax-geometry",
+      "reason": "Water polarity and three-dimensional dipole."
+    },
+    {
+      "source_id": "ch-iupac-equilibrium",
+      "reason": "Thermodynamic equilibrium criterion."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "chem-004000-01",
+      "anchor": "Water molecules can then surround the separated ions",
+      "kind": "scientific_principle",
+      "source_ids": [
+        "ch-openstax-solutions"
+      ],
+      "source_locator": "Hydration, ion dipole orientation and energy accounting.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-004000-02",
+      "anchor": "Sodium chloride dissolves readily even though its dissolution is slightly endothermic",
+      "kind": "scientific_observation",
+      "source_ids": [
+        "ch-openstax-solutions"
+      ],
+      "source_locator": "Dissolution heat, entropy and temperature-dependent solubility.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-004000-03",
+      "anchor": "A solution that appears motionless still contains molecules and ions moving",
+      "kind": "scientific_principle",
+      "source_ids": [
+        "ch-openstax-solutions-summary"
+      ],
+      "source_locator": "Dynamic solution equilibrium and molecular transport.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-004000-04",
+      "anchor": "Henry's law describes an approximate relation",
+      "kind": "scientific_principle",
+      "source_ids": [
+        "ch-openstax-solutions-summary"
+      ],
+      "source_locator": "Gas concentration proportional to partial pressure under appropriate dilute conditions.",
+      "audit_status": "reference_recorded"
+    }
+  ],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original audio-first chemical science narration, examples, scientific companion, sources and metadata."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Molecular shape, ionic and covalent bonding, and ordinary fractions; energy and entropy are described as needed."
+    ],
+    "readiness_checks": [
+      "Why can an endothermic dissolution be thermodynamically favorable?",
+      "What distinguishes an electrolyte from a dissolved neutral molecular compound?",
+      "Why does a saturated solution remain microscopically dynamic?"
+    ]
+  }
+}

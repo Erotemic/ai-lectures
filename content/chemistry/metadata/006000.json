@@ -1,0 +1,133 @@
+{
+  "schema_version": 1,
+  "lecture_id": "006000",
+  "transcript": "006000-where-the-reaction-energy-goes.md",
+  "description": "Separates bond energy from net reaction heat, explains enthalpy and calorimetry, and develops entropy, Gibbs energy, equilibrium and kinetic persistence.",
+  "tags": [
+    "Thermochemistry",
+    "Enthalpy",
+    "Calorimetry",
+    "Hess law",
+    "State functions",
+    "Entropy",
+    "Gibbs energy",
+    "Reaction thermodynamics",
+    "Equilibrium",
+    "Chemical kinetics",
+    "Activation barrier",
+    "Exothermic reactions",
+    "Endothermic reactions",
+    "Combustion",
+    "Metastability"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Chemistry",
+      "Enthalpy and reaction heat"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Calorimetry"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Hess law"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Entropy and Gibbs energy"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Equilibrium versus kinetics"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Reaction quotient"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "ch-nist-webbook",
+      "reason": "Measured heats of reaction and standard-state data."
+    },
+    {
+      "source_id": "ch-openstax-enthalpy",
+      "reason": "Enthalpy and Hess-law examples."
+    },
+    {
+      "source_id": "ch-iupac-equilibrium",
+      "reason": "Equilibrium and Gibbs-energy criterion."
+    },
+    {
+      "source_id": "ch-openstax-thermo",
+      "reason": "Entropy, Gibbs energy and direction versus reaction speed."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "chem-006000-01",
+      "anchor": "Breaking a bond normally costs energy",
+      "kind": "scientific_principle",
+      "source_ids": [
+        "ch-openstax-enthalpy"
+      ],
+      "source_locator": "Reactant/product bonding energy and exothermic net reactions.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-006000-02",
+      "anchor": "The heat gained by the surroundings is related to the heat lost by the reaction system",
+      "kind": "scientific_principle",
+      "source_ids": [
+        "ch-openstax-enthalpy"
+      ],
+      "source_locator": "Constant-pressure calorimetry sign conventions and energy conservation.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-006000-03",
+      "anchor": "A second powerful tool is Hess's law",
+      "kind": "scientific_principle",
+      "source_ids": [
+        "ch-openstax-enthalpy"
+      ],
+      "source_locator": "Hess law follows from enthalpy as a state function.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-006000-04",
+      "anchor": "At equilibrium, this change is zero",
+      "kind": "thermodynamic_principle",
+      "source_ids": [
+        "ch-iupac-equilibrium"
+      ],
+      "source_locator": "Gibbs energy stationary at equilibrium under specified constraints.",
+      "audit_status": "reference_recorded"
+    }
+  ],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original audio-first chemical science narration, examples, scientific companion, sources and metadata."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Basic chemical bonds, reaction equations and ratios; energy, entropy and equilibrium are developed without formal calculus."
+    ],
+    "readiness_checks": [
+      "Why does a reaction that releases energy still need activation?",
+      "What is the distinction between enthalpy and entropy?",
+      "Why can an endothermic process proceed under suitable conditions?",
+      "Why does a negative Gibbs-energy change not determine reaction speed?"
+    ]
+  }
+}

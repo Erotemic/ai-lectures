@@ -1,0 +1,78 @@
+{
+  "default_collection": "chemistry-foundations",
+  "collections": [
+    {
+      "id": "chemistry-foundations",
+      "title": "Chemistry · Matter, Structure, and Reaction",
+      "role": "main",
+      "categories": [
+        "Science and nature"
+      ],
+      "summary": "Six guided lectures from how chemicals are identified through the periodic table, bonding, dissolution, stoichiometry and thermodynamics.",
+      "tags": [
+        "Chemistry",
+        "Chemical foundations",
+        "Chemical reactions"
+      ],
+      "chapters": [
+        {
+          "title": "What Is the Material?",
+          "lectures": [
+            "001000",
+            "002000"
+          ],
+          "collection": "elements-and-structure"
+        },
+        {
+          "title": "How Structure Gives Matter Its Properties",
+          "lectures": [
+            "003000",
+            "004000"
+          ],
+          "collection": "elements-and-structure"
+        },
+        {
+          "title": "How Much Reacts, and Why?",
+          "lectures": [
+            "005000",
+            "006000"
+          ],
+          "collection": "quantities-and-energy"
+        }
+      ]
+    },
+    {
+      "id": "elements-and-structure",
+      "title": "Chemistry · Atoms, Bonds, and Solutions",
+      "role": "deep_dive",
+      "parent": "chemistry-foundations",
+      "summary": "Chemical identity, elemental recurrence, bonding, and molecular interactions in liquids.",
+      "tags": [
+        "Atomic structure",
+        "Chemical bonding",
+        "Solutions"
+      ],
+      "lectures": [
+        "001000",
+        "002000",
+        "003000",
+        "004000"
+      ]
+    },
+    {
+      "id": "quantities-and-energy",
+      "title": "Chemistry · Reaction Accounting and Energy",
+      "role": "deep_dive",
+      "parent": "chemistry-foundations",
+      "summary": "Quantitative reaction bookkeeping and the thermodynamic conditions that make changes favorable.",
+      "tags": [
+        "Stoichiometry",
+        "Thermochemistry"
+      ],
+      "lectures": [
+        "005000",
+        "006000"
+      ]
+    }
+  ]
+}

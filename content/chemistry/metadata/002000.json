@@ -1,0 +1,159 @@
+{
+  "schema_version": 1,
+  "lecture_id": "002000",
+  "transcript": "002000-periodic-table-of-electrons.md",
+  "description": "Explains recurring elemental properties using nuclear charge, electron states, screening and valence electrons; reconstructs how Mendeleev’s predictions and Moseley’s X-ray measurements justified the table.",
+  "tags": [
+    "Periodic table",
+    "Electron configuration",
+    "Atomic number",
+    "Quantum states",
+    "Electronic orbitals",
+    "Valence electrons",
+    "Ionization energy",
+    "Electronegativity",
+    "Electron shielding",
+    "Atomic spectra",
+    "Mendeleev",
+    "Moseley",
+    "Isotopes"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Chemistry",
+      "Atomic number"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Electron configurations"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Periodic trends"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Element families"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Atomic spectroscopy"
+    ],
+    [
+      "Place: Europe",
+      "Place: Russia",
+      "Place: Saint Petersburg"
+    ],
+    [
+      "Place: Europe",
+      "Place: United Kingdom",
+      "Place: England"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "ch-rsc-history",
+      "reason": "History of Mendeleev and earlier periodic arrangements."
+    },
+    {
+      "source_id": "ch-nist-moseley",
+      "reason": "Moseley X-ray work and nuclear charge."
+    },
+    {
+      "source_id": "ch-moseley-primary",
+      "reason": "Primary 1913 X-ray evidence."
+    },
+    {
+      "source_id": "ch-nist-spectra",
+      "reason": "Atomic spectroscopy and element-specific measurements."
+    },
+    {
+      "source_id": "ch-openstax-foundations",
+      "reason": "Structural and chemical atomic foundations."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "chem-002000-01",
+      "anchor": "Mendeleev's 1869 arrangement",
+      "kind": "intellectual_history",
+      "source_ids": [
+        "ch-rsc-history",
+        "ch-nist-moseley"
+      ],
+      "source_locator": "Periodic organization and predictive gaps in 1869.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-002000-02",
+      "anchor": "Some predictions were later vindicated, including those concerning gallium, scandium, and germanium",
+      "kind": "intellectual_history",
+      "source_ids": [
+        "ch-rsc-history"
+      ],
+      "source_locator": "Later discovery of elements expected from periodic ordering.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-002000-03",
+      "anchor": "In 1913, working in England, Henry Moseley used characteristic X-ray spectra",
+      "kind": "intellectual_history",
+      "source_ids": [
+        "ch-nist-moseley",
+        "ch-moseley-primary"
+      ],
+      "source_locator": "1913 high-frequency X-ray spectral experiments and nuclear charge.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-002000-04",
+      "anchor": "The modern table is ordered by atomic number",
+      "kind": "scientific_definition",
+      "source_ids": [
+        "ch-rsc-history",
+        "ch-nist-spectra"
+      ],
+      "source_locator": "Atomic-number order and element-indexed spectroscopy.",
+      "audit_status": "reference_recorded"
+    }
+  ],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original audio-first chemical science narration, examples, scientific companion, sources and metadata."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Atoms, nuclei and electrons are introduced directly; no prior quantum mechanics is assumed."
+    ],
+    "readiness_checks": [
+      "Why is atomic number not the same as standard atomic weight?",
+      "How do electron states help explain chemical families?",
+      "What evidence led to nuclear charge replacing atomic weight as the ordering coordinate?"
+    ]
+  },
+  "places": [
+    "Saint Petersburg, Russia",
+    "England, United Kingdom"
+  ],
+  "chronology": {
+    "context": {
+      "start": 1869,
+      "end": 1913,
+      "label": "Mendeleev 1869 and Moseley 1913",
+      "basis": "two documented episodes in the history of the periodic table",
+      "note": "The range brackets two specifically discussed research milestones; it is not the duration of the physical phenomenon.",
+      "source_ids": [
+        "ch-rsc-history",
+        "ch-nist-moseley"
+      ]
+    }
+  }
+}

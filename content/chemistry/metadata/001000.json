@@ -1,0 +1,143 @@
+{
+  "schema_version": 1,
+  "lecture_id": "001000",
+  "transcript": "001000-what-is-a-substance.md",
+  "description": "Distinguishes compounds, elements, mixtures and phase changes through separation and mass accounting, then asks how chemical identity can be inferred from measurements.",
+  "tags": [
+    "Chemical substances",
+    "Elements",
+    "Compounds",
+    "Mixtures",
+    "Chemical identity",
+    "Chemical species",
+    "Mass conservation",
+    "Phase changes",
+    "Analytical chemistry",
+    "Isotopes",
+    "Lavoisier",
+    "Chemical formulas",
+    "Mass spectrometry"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Chemistry",
+      "Chemical identity"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Elements and compounds"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Pure substances and mixtures"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Mass conservation"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Chemical analysis"
+    ],
+    [
+      "Place: Europe",
+      "Place: France"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "ch-iupac-element",
+      "reason": "Modern definition of element as atom species."
+    },
+    {
+      "source_id": "ch-openstax-foundations",
+      "reason": "Matter, compounds, mixtures and reaction formulas."
+    },
+    {
+      "source_id": "ch-rsc-history",
+      "reason": "Eighteenth-century chemical classification background."
+    },
+    {
+      "source_id": "ch-nist-webbook",
+      "reason": "Measurable spectra and reference properties used to distinguish substances."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "chem-001000-01",
+      "anchor": "Working in France in the late eighteenth century",
+      "kind": "historical_research",
+      "source_ids": [
+        "ch-rsc-history"
+      ],
+      "source_locator": "Lavoisier and the reform of chemical classification in eighteenth-century France.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-001000-02",
+      "anchor": "An element is defined chemically by its type of atom",
+      "kind": "scientific_definition",
+      "source_ids": [
+        "ch-iupac-element"
+      ],
+      "source_locator": "Elements defined by proton number.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-001000-03",
+      "anchor": "Mass spectrometry separates ions by mass-to-charge ratio",
+      "kind": "scientific_instrumentation",
+      "source_ids": [
+        "ch-nist-webbook"
+      ],
+      "source_locator": "Reference spectra and chemical identification data; mechanism of mass spectrometry is standard instrumental chemistry.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-001000-04",
+      "anchor": "If eighteen grams of water are decomposed",
+      "kind": "scientific_calculation",
+      "source_ids": [
+        "ch-openstax-foundations"
+      ],
+      "source_locator": "Illustrative mass ratios inferred from H2O and rounded atomic masses; calculated in companion.",
+      "audit_status": "reference_recorded"
+    }
+  ],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original audio-first chemical science narration, examples, scientific companion, sources and metadata."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Everyday experience with mixing, melting and filtering; atom and molecule are explained from first principles."
+    ],
+    "readiness_checks": [
+      "Why is dissolved salt not a separate visible phase?",
+      "What is the difference between changing a phase and changing the chemical species?",
+      "What evidence distinguishes two similar-looking powders?"
+    ]
+  },
+  "places": [
+    "France"
+  ],
+  "chronology": {
+    "context": {
+      "start": 1789,
+      "label": "Lavoisier’s 1789 chemical classification",
+      "basis": "documented research publication associated with the historical example",
+      "note": "This marks a historical scientific episode only, not the temporal extent of the chemistry being explained.",
+      "source_ids": [
+        "ch-rsc-history"
+      ]
+    }
+  }
+}

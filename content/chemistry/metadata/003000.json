@@ -1,0 +1,127 @@
+{
+  "schema_version": 1,
+  "lecture_id": "003000",
+  "transcript": "003000-why-atoms-stay-together.md",
+  "description": "Builds chemical bonding from energy and electron density, distinguishes molecular, ionic and metallic materials, and explains how geometry changes polarity and bulk properties.",
+  "tags": [
+    "Chemical bonding",
+    "Covalent bonds",
+    "Ionic solids",
+    "Metallic bonding",
+    "Molecular orbitals",
+    "Electron density",
+    "Molecular geometry",
+    "VSEPR",
+    "Bond polarity",
+    "Molecular dipole",
+    "Lewis structures",
+    "Carbon allotropes",
+    "Graphite",
+    "Diamond",
+    "Isomerism"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Chemistry",
+      "Bonding and chemical energy"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Covalent and ionic bonding"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Molecular geometry"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Molecular polarity"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Crystal structures"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Chemical isomerism"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "ch-iupac-bond",
+      "reason": "Broad chemical bond definition and physical stability."
+    },
+    {
+      "source_id": "ch-iupac-covalent",
+      "reason": "Electron-density contribution to covalent bonding."
+    },
+    {
+      "source_id": "ch-openstax-geometry",
+      "reason": "Geometry, polarity and VSEPR."
+    },
+    {
+      "source_id": "ch-calgary-molecular-orbitals",
+      "reason": "Oxygen paramagnetism and molecular orbital explanation."
+    },
+    {
+      "source_id": "ch-nist-webbook",
+      "reason": "Thermochemical and spectroscopic evidence for structures and energies."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "chem-003000-01",
+      "anchor": "Breaking a stable bond requires an energy input",
+      "kind": "scientific_principle",
+      "source_ids": [
+        "ch-iupac-bond",
+        "ch-nist-webbook"
+      ],
+      "source_locator": "Bond-energy reference and net-reaction enthalpy distinction.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-003000-02",
+      "anchor": "Carbon dioxide, with one carbon atom between two oxygen atoms, is approximately linear",
+      "kind": "scientific_structure",
+      "source_ids": [
+        "ch-openstax-geometry"
+      ],
+      "source_locator": "Idealized geometry and molecular dipole cancellation.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-003000-03",
+      "anchor": "oxygen gas is paramagnetic",
+      "kind": "scientific_observation",
+      "source_ids": [
+        "ch-calgary-molecular-orbitals"
+      ],
+      "source_locator": "Molecular orbital interpretation; supported by standard spectroscopy and bonding chemistry.",
+      "audit_status": "reference_recorded"
+    }
+  ],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original audio-first chemical science narration, examples, scientific companion, sources and metadata."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Atomic number, electrons and element identity; no prior spectroscopy or quantum mechanics required."
+    ],
+    "readiness_checks": [
+      "Why does bond breaking cost energy even when an overall reaction releases energy?",
+      "Why does CO2 have no permanent electric dipole while H2O does?",
+      "How do diamond and graphite differ although both consist of carbon?"
+    ]
+  }
+}

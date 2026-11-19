@@ -1,0 +1,399 @@
+{
+  "id": "chemistry",
+  "title": "Chemistry: From Atoms to Reactions",
+  "summary": "Audio-first chemistry built from experimental identity, electronic structure and bonding toward solutions, quantitative reactions and thermodynamic reasoning. The foundation leads into kinetics, equilibrium, acids, redox and organic chemistry.",
+  "categories": [
+    "Science and nature"
+  ],
+  "audiences": [
+    "general",
+    "science enthusiasts",
+    "adult learners"
+  ],
+  "tags": [
+    "Chemistry",
+    "Physical chemistry",
+    "Chemical reactions",
+    "Molecular structure",
+    "Chemical measurement"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Chemistry"
+    ],
+    [
+      "Science",
+      "Physical science",
+      "Chemistry"
+    ]
+  ],
+  "assumed_background": [
+    "Everyday familiarity with materials, temperature and mixing. Fractions, ratios and unit conversions are explained through examples. Formal quantum mechanics, calculus and prior chemistry are not assumed."
+  ],
+  "editorial_status": "in_progress",
+  "sections": [
+    "matter_and_identity",
+    "periodic_structure",
+    "bonding_and_structure",
+    "solutions_and_phases",
+    "stoichiometry",
+    "thermochemistry"
+  ],
+  "lectures": [
+    {
+      "id": "001000",
+      "title": "What Is a Substance? The Chemical Identity of Matter",
+      "section": "matter_and_identity",
+      "file": "001000-what-is-a-substance.md",
+      "spoken_words": 1769,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 12.2,
+      "description": "Distinguishes compounds, elements, mixtures and phase changes through separation and mass accounting, then asks how chemical identity can be inferred from measurements.",
+      "tags": [
+        "Chemical substances",
+        "Elements",
+        "Compounds",
+        "Mixtures",
+        "Chemical identity",
+        "Chemical species",
+        "Mass conservation",
+        "Phase changes",
+        "Analytical chemistry",
+        "Isotopes",
+        "Lavoisier",
+        "Chemical formulas",
+        "Mass spectrometry"
+      ],
+      "tag_paths": [
+        [
+          "Science",
+          "Chemistry",
+          "Chemical identity"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Elements and compounds"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Pure substances and mixtures"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Mass conservation"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Chemical analysis"
+        ],
+        [
+          "Place: Europe",
+          "Place: France"
+        ]
+      ]
+    },
+    {
+      "id": "002000",
+      "title": "The Periodic Table Is a Map of Electrons",
+      "section": "periodic_structure",
+      "file": "002000-periodic-table-of-electrons.md",
+      "spoken_words": 1726,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 11.9,
+      "description": "Explains recurring elemental properties using nuclear charge, electron states, screening and valence electrons; reconstructs how Mendeleev’s predictions and Moseley’s X-ray measurements justified the table.",
+      "tags": [
+        "Periodic table",
+        "Electron configuration",
+        "Atomic number",
+        "Quantum states",
+        "Electronic orbitals",
+        "Valence electrons",
+        "Ionization energy",
+        "Electronegativity",
+        "Electron shielding",
+        "Atomic spectra",
+        "Mendeleev",
+        "Moseley",
+        "Isotopes"
+      ],
+      "tag_paths": [
+        [
+          "Science",
+          "Chemistry",
+          "Atomic number"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Electron configurations"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Periodic trends"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Element families"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Atomic spectroscopy"
+        ],
+        [
+          "Place: Europe",
+          "Place: Russia",
+          "Place: Saint Petersburg"
+        ],
+        [
+          "Place: Europe",
+          "Place: United Kingdom",
+          "Place: England"
+        ]
+      ]
+    },
+    {
+      "id": "003000",
+      "title": "Why Atoms Stay Together: Bonds, Shapes, and Materials",
+      "section": "bonding_and_structure",
+      "file": "003000-why-atoms-stay-together.md",
+      "spoken_words": 1812,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 12.5,
+      "description": "Builds chemical bonding from energy and electron density, distinguishes molecular, ionic and metallic materials, and explains how geometry changes polarity and bulk properties.",
+      "tags": [
+        "Chemical bonding",
+        "Covalent bonds",
+        "Ionic solids",
+        "Metallic bonding",
+        "Molecular orbitals",
+        "Electron density",
+        "Molecular geometry",
+        "VSEPR",
+        "Bond polarity",
+        "Molecular dipole",
+        "Lewis structures",
+        "Carbon allotropes",
+        "Graphite",
+        "Diamond",
+        "Isomerism"
+      ],
+      "tag_paths": [
+        [
+          "Science",
+          "Chemistry",
+          "Bonding and chemical energy"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Covalent and ionic bonding"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Molecular geometry"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Molecular polarity"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Crystal structures"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Chemical isomerism"
+        ]
+      ]
+    },
+    {
+      "id": "004000",
+      "title": "Water and the Chemistry of Dissolving",
+      "section": "solutions_and_phases",
+      "file": "004000-water-and-the-chemistry-of-dissolving.md",
+      "spoken_words": 1717,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 11.8,
+      "description": "Explains why salt, sugar and oil behave differently in water using solvation, molecular polarity, Gibbs energy, saturation, electrolytes and colligative effects.",
+      "tags": [
+        "Water chemistry",
+        "Solutions",
+        "Solvation",
+        "Hydration",
+        "Dissolution",
+        "Ionic dissociation",
+        "Electrolytes",
+        "Hydrogen bonding",
+        "Hydrophobic effect",
+        "Micelles",
+        "Solubility",
+        "Saturation",
+        "Osmosis",
+        "Freezing point depression",
+        "Henry law",
+        "Solution concentration"
+      ],
+      "tag_paths": [
+        [
+          "Science",
+          "Chemistry",
+          "Molecular interactions in liquids"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Dissolution thermodynamics"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Electrolytes"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Solubility equilibrium"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Colligative properties"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Osmosis"
+        ]
+      ]
+    },
+    {
+      "id": "005000",
+      "title": "Counting the Invisible: Moles, Equations, and Limiting Reactants",
+      "section": "stoichiometry",
+      "file": "005000-counting-the-invisible.md",
+      "spoken_words": 1836,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 12.7,
+      "description": "Connects chemical formulas to measured masses through the SI mole, balanced reactions, limiting-reactant arithmetic, percent yield and concentration measurements.",
+      "tags": [
+        "Mole",
+        "Avogadro constant",
+        "Stoichiometry",
+        "Chemical equations",
+        "Balancing reactions",
+        "Conservation of atoms",
+        "Molar mass",
+        "Limiting reactant",
+        "Theoretical yield",
+        "Percent yield",
+        "Molarity",
+        "Titration",
+        "Calcium carbonate",
+        "SI redefinition"
+      ],
+      "tag_paths": [
+        [
+          "Science",
+          "Chemistry",
+          "Moles and molar mass"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Balancing chemical equations"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Limiting reactants"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Reaction yield"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Solution concentration"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Titration"
+        ]
+      ]
+    },
+    {
+      "id": "006000",
+      "title": "Where the Reaction Energy Goes: Heat, Entropy, and Chemical Direction",
+      "section": "thermochemistry",
+      "file": "006000-where-the-reaction-energy-goes.md",
+      "spoken_words": 2041,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 14.1,
+      "description": "Separates bond energy from net reaction heat, explains enthalpy and calorimetry, and develops entropy, Gibbs energy, equilibrium and kinetic persistence.",
+      "tags": [
+        "Thermochemistry",
+        "Enthalpy",
+        "Calorimetry",
+        "Hess law",
+        "State functions",
+        "Entropy",
+        "Gibbs energy",
+        "Reaction thermodynamics",
+        "Equilibrium",
+        "Chemical kinetics",
+        "Activation barrier",
+        "Exothermic reactions",
+        "Endothermic reactions",
+        "Combustion",
+        "Metastability"
+      ],
+      "tag_paths": [
+        [
+          "Science",
+          "Chemistry",
+          "Enthalpy and reaction heat"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Calorimetry"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Hess law"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Entropy and Gibbs energy"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Equilibrium versus kinetics"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Reaction quotient"
+        ]
+      ]
+    }
+  ]
+}

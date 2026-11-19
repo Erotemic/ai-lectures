@@ -1,0 +1,145 @@
+{
+  "schema_version": 1,
+  "lecture_id": "005000",
+  "transcript": "005000-counting-the-invisible.md",
+  "description": "Connects chemical formulas to measured masses through the SI mole, balanced reactions, limiting-reactant arithmetic, percent yield and concentration measurements.",
+  "tags": [
+    "Mole",
+    "Avogadro constant",
+    "Stoichiometry",
+    "Chemical equations",
+    "Balancing reactions",
+    "Conservation of atoms",
+    "Molar mass",
+    "Limiting reactant",
+    "Theoretical yield",
+    "Percent yield",
+    "Molarity",
+    "Titration",
+    "Calcium carbonate",
+    "SI redefinition"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Chemistry",
+      "Moles and molar mass"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Balancing chemical equations"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Limiting reactants"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Reaction yield"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Solution concentration"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Titration"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "ch-bipm-mole",
+      "reason": "Exact SI mole definition and entities counted."
+    },
+    {
+      "source_id": "ch-bipm-mole-history",
+      "reason": "History of 2019 redefinition."
+    },
+    {
+      "source_id": "ch-iupac-mole",
+      "reason": "Formal IUPAC mole definition."
+    },
+    {
+      "source_id": "ch-openstax-stoichiometry",
+      "reason": "Balanced reactions, limiting reagents and yield calculations."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "chem-005000-01",
+      "anchor": "The exact count is 6.02214076 times ten to the twenty-third",
+      "kind": "metrological_definition",
+      "source_ids": [
+        "ch-bipm-mole",
+        "ch-iupac-mole"
+      ],
+      "source_locator": "Exact count of specified entities in one mole.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-005000-02",
+      "anchor": "international redefinition that took effect in 2019",
+      "kind": "metrological_history",
+      "source_ids": [
+        "ch-bipm-mole-history",
+        "ch-iupac-mole"
+      ],
+      "source_locator": "2018 resolution, effective 20 May 2019.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-005000-03",
+      "anchor": "The oxygen is the limiting reactant",
+      "kind": "worked_example",
+      "source_ids": [
+        "ch-openstax-stoichiometry"
+      ],
+      "source_locator": "Constructed 4 mol H2, 1 mol O2 example; independently checked atom balances.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-005000-04",
+      "anchor": "One mole of calcium carbonate, around one hundred grams",
+      "kind": "worked_example",
+      "source_ids": [
+        "ch-openstax-stoichiometry"
+      ],
+      "source_locator": "Approximate CaCO3 -> CaO + CO2 molar mass bookkeeping.",
+      "audit_status": "reference_recorded"
+    }
+  ],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original audio-first chemical science narration, examples, scientific companion, sources and metadata."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Simple multiplication, ratios and unit conversions; formulas and particle counts are explained before the reaction examples."
+    ],
+    "readiness_checks": [
+      "Why do equal numbers of moles of different substances not have equal mass?",
+      "What limits product formation when the available reactants have the wrong ratio?",
+      "How is theoretical yield different from recovered mass?"
+    ]
+  },
+  "chronology": {
+    "context": {
+      "start": 2019,
+      "label": "SI mole definition effective 20 May 2019",
+      "basis": "metrology standard effective date",
+      "note": "This year concerns the contemporary SI unit definition, not the duration of chemical stoichiometry.",
+      "source_ids": [
+        "ch-bipm-mole",
+        "ch-bipm-mole-history"
+      ]
+    }
+  }
+}
