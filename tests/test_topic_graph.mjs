@@ -146,3 +146,29 @@ assert.deepEqual(untagged.remaining("lecture:empty:1"), {
 console.log(
   "Incremental expansion preserves branches beyond 16 nodes, pages coarse-to-fine, reveals distant paths sparsely, restores state, and prunes collapsed/shared branches correctly.",
 );
+
+const { graphDetailVisible } =
+  await import("../ailectures/static/topic-graph-model.mjs");
+const leaf = { id: "lecture:test:001000", kind: "lecture", title: "First" };
+assert.equal(graphDetailVisible(leaf, 0.2, history.id), false);
+assert.equal(
+  graphDetailVisible(leaf, 0.2, history.id, new Set([leaf.id])),
+  true,
+);
+assert.equal(graphDetailVisible(shinobi, 0.2, history.id), false);
+assert.equal(
+  graphDetailVisible(shinobi, 0.2, history.id, new Set([shinobi.id])),
+  true,
+);
+const inverse = new GraphExpansion(graph);
+inverse.reveal(shinobi.id);
+inverse.expand(shinobi.id);
+assert.deepEqual(inverse.remaining(leaf.id), { topics: 0, lectures: 0 });
+const beforeInverse = inverse.view();
+assert.deepEqual(inverse.expand(leaf.id), []);
+assert.deepEqual(inverse.view(), beforeInverse);
+inverse.collapse(shinobi.id);
+assert.ok(inverse.remaining(shinobi.id).lectures > 0);
+console.log(
+  "Explicit expansions survive zoom detail filtering, and existing reverse links are not offered as new connections.",
+);

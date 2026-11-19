@@ -3,6 +3,7 @@ import {
   topicGraph,
   graphNeighborhood,
   GraphExpansion,
+  graphDetailVisible,
 } from "./topic-graph-model.mjs";
 
 const svgEl = (tag, attrs = {}) => {
@@ -43,7 +44,7 @@ export function renderTopicGraph(main, catalog) {
     el("h1", { text: "Topic graph" }),
     el("p", {
       class: "intro",
-      text: "Explore lectures through topics, places, authors, and time. Connections describe content associations, not prerequisites.",
+      text: "Explore lectures through topics, places, authors, and time. Connections describe content associations, not prerequisites. Lecture counts include text whose audio has not been generated.",
     }),
     el(
       "div",
@@ -61,6 +62,7 @@ export function renderTopicGraph(main, catalog) {
     positions = new Map(),
     camera = null,
     focusRequested = null,
+    focusDetail = new Set(),
     resizeObserver = null,
     lectureListOpen = null,
     selected = params.get("node") || "",
@@ -81,6 +83,7 @@ export function renderTopicGraph(main, catalog) {
             selected,
             positions: [...positions],
             camera,
+            detail: [...focusDetail],
           }),
         );
       } catch {}
@@ -100,11 +103,24 @@ export function renderTopicGraph(main, catalog) {
     if (collection.value) params.set("course", collection.value);
     return lectureURL(id) + "?" + params;
   }
+  function expandNode(id, kind = null) {
+    const added = explorer.expand(id, kind);
+    focusRequested = {
+      id,
+      targets: added.length
+        ? added
+        : [...explorer.children(id)].slice(0, explorer.batch),
+    };
+  }
   function choose(id, expand = true) {
     id = id || "root";
     explorer.reveal(id);
-    if (expand) explorer.expand(id);
-    focusRequested = id;
+    if (expand) expandNode(id);
+    else
+      focusRequested = {
+        id,
+        targets: [...explorer.children(id)].slice(0, explorer.batch),
+      };
     selected = id === "root" ? "" : id;
     shown = 25;
     lectureListOpen = null;
@@ -141,11 +157,15 @@ export function renderTopicGraph(main, catalog) {
     explorer = new GraphExpansion(graph);
     positions = new Map();
     camera = null;
+    focusDetail = new Set();
     let restored = false;
     try {
       const stored = JSON.parse(sessionStorage.getItem(stateKey()));
       if (stored) {
         explorer.restore(stored.expansion);
+        focusDetail = new Set(
+          (stored.detail || []).filter((id) => explorer.node(id)),
+        );
         restored = true;
         selected ||= stored.selected || "";
         positions = new Map(
@@ -170,8 +190,7 @@ export function renderTopicGraph(main, catalog) {
     if (selected && explorer.node(selected)) {
       explorer.reveal(selected);
       if (!restored) {
-        explorer.expand(selected);
-        focusRequested = selected;
+        expandNode(selected);
       }
     }
     save();
@@ -235,8 +254,7 @@ export function renderTopicGraph(main, catalog) {
               type: "button",
               text: `Add next ${Math.min(explorer.batch, remaining.topics)} topics (${remaining.topics} remaining)`,
               onclick: () => {
-                explorer.expand(current, "topics");
-                focusRequested = current;
+                expandNode(current, "topics");
                 draw();
                 save();
               },
@@ -247,8 +265,7 @@ export function renderTopicGraph(main, catalog) {
               type: "button",
               text: `${explorer.children(current).size ? "Add" : "Show"} ${Math.min(explorer.batch, remaining.lectures)} lectures (${remaining.lectures} remaining)`,
               onclick: () => {
-                explorer.expand(current, "lectures");
-                focusRequested = current;
+                expandNode(current, "lectures");
                 draw();
                 save();
               },
@@ -341,6 +358,17 @@ export function renderTopicGraph(main, catalog) {
               href: lectureHref(row.id),
               "data-nav": "",
               text: row.title,
+            }),
+            el("small", {
+              class: "muted",
+              text:
+                row.kind && row.kind !== "audio"
+                  ? "Presentation"
+                  : row.recordings?.some((r) => r.complete)
+                    ? "Audio ready"
+                    : row.recordings?.length
+                      ? "Partial audio"
+                      : "Audio not generated",
             }),
             el("button", {
               type: "button",
@@ -446,23 +474,27 @@ export function renderTopicGraph(main, catalog) {
     }
     if (!camera) frame(view.nodes.map((node) => node.id));
     else camera.height = (camera.width * initialHeight) / initialWidth;
-    if (focusRequested && positions.has(focusRequested)) {
-      const ids = [focusRequested, ...explorer.children(focusRequested)];
+    if (focusRequested && positions.has(focusRequested.id)) {
+      const ids = [focusRequested.id, ...focusRequested.targets];
       const points = ids.map((id) => positions.get(id)).filter(Boolean);
+      const scale = initialWidth / camera.width;
+      const hidden = focusRequested.targets.some(
+        (id) =>
+          !graphDetailVisible(explorer.node(id), scale, focusRequested.id),
+      );
       if (
+        hidden ||
+        scale < 0.7 ||
         points.some(
           (p) =>
-            p.x < camera.x + 80 ||
-            p.x > camera.x + camera.width - 80 ||
+            p.x < camera.x + 100 ||
+            p.x > camera.x + camera.width - 100 ||
             p.y < camera.y + 50 ||
             p.y > camera.y + camera.height - 70,
         )
-      ) {
-        const anchor = positions.get(focusRequested);
-        const child = points[1] || anchor;
-        camera.x = (anchor.x + child.x) / 2 - camera.width / 2;
-        camera.y = anchor.y - camera.height / 2;
-      }
+      )
+        frame(ids);
+      focusDetail = new Set(ids);
       focusRequested = null;
     }
     const svg = svgEl("svg", {
@@ -501,7 +533,7 @@ export function renderTopicGraph(main, catalog) {
             : "all connections revealed";
       group.setAttribute(
         "aria-label",
-        `${node.kind}: ${node.title}; ${description}. Activate to expand.`,
+        `${node.kind}: ${node.title}; ${description}. ${count.topics || count.lectures ? "Activate to expand." : "Select to inspect."}`,
       );
       const title = svgEl("title");
       title.textContent = node.title + " — " + description;
@@ -577,13 +609,12 @@ export function renderTopicGraph(main, catalog) {
         visible = new Set();
       for (const node of view.nodes) {
         const p = positions.get(node.id);
-        const detailed =
-          node.id === selectedId ||
-          node.kind === "root" ||
-          ((node.kind !== "lecture" || scale >= 0.55) &&
-            (!node.path ||
-              node.path.length <=
-                (scale < 0.3 ? 1 : scale < 0.55 ? 2 : Infinity)));
+        const detailed = graphDetailVisible(
+          node,
+          scale,
+          selectedId,
+          focusDetail,
+        );
         const onScreen =
           p.x > camera.x - 140 &&
           p.x < camera.x + camera.width + 140 &&
@@ -603,6 +634,7 @@ export function renderTopicGraph(main, catalog) {
           view.nodes.length <= 30 ||
           (node.path?.length === 1 && scale >= 0.3) ||
           node.id === selectedId ||
+          focusDetail.has(node.id) ||
           node.kind === "root"
             ? ""
             : "none";
@@ -649,6 +681,7 @@ export function renderTopicGraph(main, catalog) {
       }
     }
     function zoom(factor, point = null) {
+      if (factor > 1) focusDetail.clear();
       const width = Math.max(160, Math.min(1e7, camera.width * factor)),
         ratio = width / camera.width;
       const cx = point?.x ?? camera.x + camera.width / 2,
@@ -732,6 +765,7 @@ export function renderTopicGraph(main, catalog) {
           type: "button",
           text: "Fit graph",
           onclick: () => {
+            focusDetail.clear();
             frame(view.nodes.map((node) => node.id));
             update();
             save();
@@ -741,7 +775,12 @@ export function renderTopicGraph(main, catalog) {
           type: "button",
           text: "Focus selected",
           onclick: () => {
-            frame([selectedId, ...(adjacency.get(selectedId) || [])]);
+            const ids = [
+              selectedId,
+              ...(adjacency.get(selectedId) || []).slice(0, explorer.batch),
+            ];
+            focusDetail = new Set(ids);
+            frame(ids);
             update();
             save();
           },
@@ -753,6 +792,7 @@ export function renderTopicGraph(main, catalog) {
             explorer = new GraphExpansion(graph);
             positions.clear();
             camera = null;
+            focusDetail.clear();
             selected = "";
             draw();
             save();

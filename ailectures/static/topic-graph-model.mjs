@@ -87,6 +87,7 @@ export class GraphExpansion {
     this.open = new Map();
     this.pins = new Map();
     this.cache = new Map();
+    this.links = null;
     this.expand("root", "topics");
   }
   node(id) {
@@ -137,32 +138,55 @@ export class GraphExpansion {
       ...(this.pins.get(id) || []),
     ]);
   }
+  connected(id) {
+    if (!this.links) {
+      this.links = new Map();
+      for (const parent of new Set([
+        ...this.open.keys(),
+        ...this.pins.keys(),
+      ])) {
+        for (const child of this.children(parent))
+          for (const [from, to] of [
+            [parent, child],
+            [child, parent],
+          ]) {
+            if (!this.links.has(from)) this.links.set(from, new Set());
+            this.links.get(from).add(to);
+          }
+      }
+    }
+    return this.links.get(id) || new Set();
+  }
   remaining(id) {
-    const children = this.children(id),
+    const connected = this.connected(id),
       neighbors = this.neighbors(id);
     return {
-      topics: neighbors.topics.filter((key) => !children.has(key)).length,
-      lectures: neighbors.lectures.filter((key) => !children.has(key)).length,
+      topics: neighbors.topics.filter((key) => !connected.has(key)).length,
+      lectures: neighbors.lectures.filter((key) => !connected.has(key)).length,
     };
   }
   expand(id, kind = null) {
-    if (!this.node(id)) return;
+    if (!this.node(id)) return [];
     const remaining = this.remaining(id);
     kind ||= remaining.topics ? "topics" : "lectures";
-    if (!remaining[kind]) return;
+    if (!remaining[kind]) return [];
     const state = this.open.get(id) || { topics: 0, lectures: 0 };
     const neighbors = this.neighbors(id)[kind];
-    const children = this.children(id);
-    let added = 0;
-    while (state[kind] < neighbors.length && added < this.batch) {
-      if (!children.has(neighbors[state[kind]])) added++;
+    const children = this.connected(id);
+    const added = [];
+    while (state[kind] < neighbors.length && added.length < this.batch) {
+      if (!children.has(neighbors[state[kind]]))
+        added.push(neighbors[state[kind]]);
       state[kind]++;
     }
     this.open.set(id, state);
+    this.links = null;
+    return added;
   }
   pin(from, to) {
     if (!this.pins.has(from)) this.pins.set(from, new Set());
     this.pins.get(from).add(to);
+    this.links = null;
   }
   reveal(id) {
     if (!this.node(id) || this.view().nodes.some((node) => node.id === id))
@@ -225,9 +249,11 @@ export class GraphExpansion {
   collapse(id) {
     this.open.delete(id);
     this.pins.delete(id);
+    this.links = null;
     const reached = new Set(this.view().nodes.map((node) => node.id));
     for (const map of [this.open, this.pins])
       for (const key of map.keys()) if (!reached.has(key)) map.delete(key);
+    this.links = null;
   }
   snapshot() {
     return {
@@ -244,6 +270,7 @@ export class GraphExpansion {
       return;
     this.open.clear();
     this.pins.clear();
+    this.links = null;
     for (const [id, state] of snapshot.open)
       if (
         this.node(id) &&
@@ -263,4 +290,21 @@ export class GraphExpansion {
       if (this.node(id) && Array.isArray(children))
         for (const child of children) if (this.node(child)) this.pin(id, child);
   }
+}
+
+/** Explicitly revealed connections remain visible until the user zooms out. */
+export function graphDetailVisible(
+  node,
+  scale,
+  selected,
+  revealed = new Set(),
+) {
+  return (
+    node.id === selected ||
+    revealed.has(node.id) ||
+    node.kind === "root" ||
+    ((node.kind !== "lecture" || scale >= 0.55) &&
+      (!node.path ||
+        node.path.length <= (scale < 0.3 ? 1 : scale < 0.55 ? 2 : Infinity)))
+  );
 }
