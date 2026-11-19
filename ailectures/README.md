@@ -37,7 +37,10 @@ or listening-route return links. Expanded inventory rows link to that track too.
 
 New web-generated recordings default to Ogg Opus. Spoken Markdown section titles
 receive isolated synthesis and pauses, with title-specific instructions on
-supported servers. Queued legacy jobs keep their original MP3 recipe.
+supported servers. The transcript preserves title and section-heading hierarchy
+in both plain and playable views, including unspoken scene captions. Display
+structure shares the player’s seek boundaries and does not invalidate audio.
+Queued legacy jobs keep their original MP3 recipe.
 
 Saved voice profiles fix one backend voice and its full rendering recipe. Manage
 defaults, quick select, title instructions, rate and processing in Settings. See

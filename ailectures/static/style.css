@@ -1021,3 +1021,10 @@ progress {
 .graph-node text.graph-expand-badge { fill: white; stroke: none; font-size: 19px; font-weight: bold; pointer-events: none; }
 .graph-label { pointer-events: none; }
 .graph-expansion-actions { margin: .8rem 0; }
+.transcript .transcript-heading { overflow-wrap: anywhere; font-family: Georgia, serif; font-weight: 700; line-height: 1.35; white-space: normal; margin: 1.4rem 0 .55rem; color: var(--ink); }
+.transcript h2.transcript-heading { font-size: 1.5em; }
+.transcript h3.transcript-heading { font-size: 1.22em; }
+.transcript h4.transcript-heading { font-size: 1.1em; }
+.transcript .transcript-title { border-bottom: 1px solid var(--line); padding-bottom: .35rem; }
+.passage .transcript-heading:first-child { margin-top: .2rem; }
+.transcript h5.transcript-heading, .transcript h6.transcript-heading { font-size: 1em; }

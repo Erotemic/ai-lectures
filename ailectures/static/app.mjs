@@ -22,7 +22,7 @@ import { Player } from "./player.mjs";
 import { ProgressSync, mergeSharedProgress } from "./progress.mjs";
 import { reviewFeedback } from "./feedback.mjs";
 import { ListeningQueue } from "./queue.mjs";
-import { speechSegments } from "./transcript.mjs";
+import { transcriptBlocks, recordingTranscriptParts } from "./transcript.mjs";
 import { showStorage } from "./storage.mjs";
 import { referencesPage } from "./references.mjs";
 import { CatalogBrowser, revealAnchor } from "./browse.mjs";
@@ -661,28 +661,53 @@ async function lecturePage(id, autoplay = false, historical = null) {
         const available = player.recording.segments.some(
           (s) => s.index === index,
         );
-        speechSegments(page).forEach((sentence, sentenceIndex) => {
+        const parts = recordingTranscriptParts(row, player.recording, index);
+        parts.forEach((part, partIndex) => {
+          const heading =
+            part.kind === "heading"
+              ? el("h" + Math.min(6, Math.max(2, (part.level || 1) + 1)), {
+                  class:
+                    "transcript-heading" +
+                    (part.level === 1 ? " transcript-title" : ""),
+                })
+              : null;
+          if (part.spoken === false) {
+            heading.textContent = part.text;
+            node.append(heading);
+            return;
+          }
+          const sentence = part.text,
+            sentenceIndex = part.sentence;
           const seek = () => player.seekSentence(index, sentenceIndex);
           const trailing = sentence.match(/\s*$/)[0];
-          node.append(
-            el("span", {
-              class: "speech-segment",
-              role: "button",
-              tabindex: "0",
-              "data-sentence": sentenceIndex,
-              "aria-label": `Listen from sentence ${sentenceIndex + 1} in passage ${index + 1}`,
-              "aria-disabled": !available && !audio.data.tools_available,
-              text: sentence.slice(0, sentence.length - trailing.length),
-              onclick: seek,
-              onkeydown: (event) => {
-                if (event.key === "Enter" || event.key === " ") {
-                  event.preventDefault();
-                  seek();
-                }
-              },
-            }),
-            trailing,
-          );
+          const content = el("span", {
+            class: "speech-segment",
+            role: "button",
+            tabindex: "0",
+            "data-sentence": sentenceIndex,
+            "aria-label":
+              part.kind === "heading"
+                ? "Listen from heading: " + sentence.trim()
+                : `Listen from sentence ${sentenceIndex + 1} in passage ${index + 1}`,
+            "aria-disabled": !available && !audio.data.tools_available,
+            text: sentence.slice(0, sentence.length - trailing.length),
+            onclick: seek,
+            onkeydown: (event) => {
+              if (event.key === "Enter" || event.key === " ") {
+                event.preventDefault();
+                seek();
+              }
+            },
+          });
+          if (heading) {
+            heading.append(content);
+            node.append(heading);
+          } else {
+            node.append(
+              content,
+              parts[partIndex + 1]?.kind === "heading" ? "" : trailing,
+            );
+          }
         });
         text.append(node);
       });
@@ -692,10 +717,27 @@ async function lecturePage(id, autoplay = false, historical = null) {
           text: "Select a sentence to seek. Highlights interpolate within recorded speech chunks when available; sentence positions are approximate.",
         }),
       );
-    } else
-      row.transcript
-        .split(/\n\s*\n/)
-        .forEach((p) => text.append(el("p", { text: p })));
+    } else {
+      for (const block of transcriptBlocks(
+        row.transcript,
+        row.transcript_headings || [],
+      )) {
+        if (block.kind === "heading") {
+          text.append(
+            el("h" + Math.min(6, Math.max(2, (block.level || 1) + 1)), {
+              class:
+                "transcript-heading" +
+                (block.level === 1 ? " transcript-title" : ""),
+              text: block.text.trimEnd(),
+            }),
+          );
+        } else {
+          for (const paragraph of block.text.split(/\n\s*\n/)) {
+            if (paragraph.trim()) text.append(el("p", { text: paragraph }));
+          }
+        }
+      }
+    }
     player.update();
   };
   refreshTranscript();

@@ -2,7 +2,7 @@ import { AudioBlockCache } from "./audio-cache.mjs";
 import { getStored, store, clock, lectureURL } from "./api.mjs";
 import {
   words,
-  speechSegments,
+  pageSpeechSegments,
   wordAtTime,
   timeAtWord,
   sentenceAtWord,
@@ -227,7 +227,7 @@ export class Player {
   }
   seekSentence(index, sentence) {
     const text = this.recording.pages[index];
-    const before = speechSegments(text)
+    const before = pageSpeechSegments(this.row, this.recording, index)
       .slice(0, sentence)
       .reduce((sum, part) => sum + words(part), 0);
     const segment = this.recording.segments.find((s) => s.index === index);
@@ -283,7 +283,7 @@ export class Player {
         (s) => s.index === this.index,
       );
       const active = sentenceAtWord(
-        speechSegments(this.recording.pages[this.index]),
+        pageSpeechSegments(this.row, this.recording, this.index),
         wordAtTime(
           this.recording.pages[this.index],
           segment,

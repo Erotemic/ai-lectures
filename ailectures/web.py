@@ -170,6 +170,12 @@ def create_app(
             else row
         )
         origin = row["origin"]
+        if not summary:
+            from .narration import transcript_headings
+
+            row["transcript_headings"] = transcript_headings(
+                row.get("source"), row["transcript"]
+            )
         row.update(discovery)
         row.pop("chronology", None)
         if chronology:

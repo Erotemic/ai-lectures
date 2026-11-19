@@ -58,3 +58,56 @@ def speech_cache_key(lecture, configuration):
     config = deepcopy(configuration)
     config.get('settings', {}).pop('reader_title_policy', None)
     return digest(dict(lecture=lecture, configuration=config))
+
+
+def transcript_headings(source, transcript):
+    """Display structure is separate from speech words and recording identity."""
+    if not isinstance(source, str) or not isinstance(transcript, str):
+        return ()
+    return _transcript_headings(source, transcript)
+
+
+@lru_cache(maxsize=128)
+def _transcript_headings(source, transcript):
+    if BEGIN in source or END in source:
+        spans = title_spans(source, transcript)
+        if not spans:
+            return ()
+        raw = source.split(BEGIN, 1)[1].split(END, 1)[0]
+        levels = [
+            len(match.group(1))
+            for line in raw.splitlines()
+            if (match := re.match(r"^(#{1,6})[ \t]+\S", line))
+        ]
+        words = transcript.split()
+        return tuple(
+            dict(start=a, end=b, level=level, text=" ".join(words[a:b]), spoken=True)
+            for (a, b), level in zip(spans, levels)
+        )
+    from .manuscripts import read_scene_narration
+
+    try:
+        sections = read_scene_narration(source)
+        texts = [
+            extract_text(BEGIN + "\n" + section.text + "\n" + END).strip()
+            for section in sections.values()
+        ]
+    except ValueError:
+        return ()
+    if " ".join(" ".join(texts).split()) != " ".join(transcript.split()):
+        return ()
+    headings, offset = [], 0
+    for index, (section, text) in enumerate(zip(sections.values(), texts)):
+        first = extract_text(BEGIN + "\n" + section.beats[0] + "\n" + END).strip()
+        spoken = " ".join(first.split()).rstrip(".!?") == section.title.rstrip(".!?")
+        headings.append(
+            dict(
+                start=offset,
+                end=offset + len(first.split()) if spoken else offset,
+                level=1 if index == 0 else 2,
+                text=first if spoken else section.title,
+                spoken=spoken,
+            )
+        )
+        offset += len(text.split())
+    return tuple(headings)
