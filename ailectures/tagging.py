@@ -130,11 +130,17 @@ def _geographic_branch(path):
         return ['Americas', 'North America', *path[1:]]
     if path[:2] == ['Americas', 'Andes']:
         return ['Americas', 'South America', *path[1:]]
+    if path == ['Pacific', 'Hawaii']:
+        return ['Oceania', 'Polynesia', 'Hawaii']
     if path[0] == 'Pacific':
         return ['Water bodies', 'Oceans', *path]
     return path
 
 PLACE_PATHS = [_geographic_branch(path) for path in PLACE_PATHS]
+
+# Exact authored place labels with vetted broader paths.
+from .place_hierarchy_extended import PLACE_PATHS_EXTENSION
+PLACE_PATHS.extend(PLACE_PATHS_EXTENSION)
 
 TOPIC_PATHS = [
     ['Science', 'Biology', 'Cell biology', 'Cell structure'],
