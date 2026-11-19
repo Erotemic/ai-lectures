@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "lecture_id": "039000",
+  "transcript": "039000-the-junction-that-chooses-a-direction.md",
+  "description": "Derives a p-n junction from diffusion and space charge; explains forward and reverse bias, diode nonideality, bipolar transistor action and field-effect gate control.",
+  "tags": [
+    "p-n junction",
+    "Depletion region",
+    "Diodes",
+    "Forward bias",
+    "Reverse bias",
+    "Charge diffusion",
+    "Drift current",
+    "Built-in electric field",
+    "Carrier injection",
+    "Recombination",
+    "Diode equation",
+    "Rectifiers",
+    "Bipolar transistor",
+    "MOSFET",
+    "Gate dielectric",
+    "Electric fields",
+    "Silicon processing",
+    "Capacitance",
+    "Breakdown"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Chemistry",
+      "Junction fields, depletion and equilibrium"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Rectification and diode bias"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Bipolar and field-effect transistor operation"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "chem-light-openstax-devices",
+      "reason": "Diffusion, built-in junction fields, bias and transistor function."
+    },
+    {
+      "source_id": "chem-light-openstax-doping",
+      "reason": "Donor and acceptor impurities, carrier statistics, holes and Hall-effect measurements."
+    },
+    {
+      "source_id": "chem-light-doe-pv-cell",
+      "reason": "Semiconductor light absorption, carrier extraction and solar-cell layers."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "chem-039000-01",
+      "anchor": "At thermal equilibrium the opposing flows balance",
+      "kind": "scientific_mechanism",
+      "source_ids": [
+        "chem-light-openstax-devices"
+      ],
+      "source_locator": "Diffusion-drift balance at a p-n junction.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-039000-02",
+      "anchor": "Depleted does not mean empty of all electrical charge",
+      "kind": "conceptual_distinction",
+      "source_ids": [
+        "chem-light-openstax-devices"
+      ],
+      "source_locator": "Fixed ions in the depletion zone.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-039000-03",
+      "anchor": "In what is called forward bias, the applied voltage lowers the effective barrier",
+      "kind": "device_operation",
+      "source_ids": [
+        "chem-light-openstax-devices"
+      ],
+      "source_locator": "Forward-bias carrier injection.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-039000-04",
+      "anchor": "A gate electrode, separated from a semiconductor by a very thin insulating layer",
+      "kind": "device_operation",
+      "source_ids": [
+        "chem-light-openstax-devices"
+      ],
+      "source_locator": "FET gate-field control distinct from bipolar junction action.",
+      "audit_status": "reference_recorded"
+    }
+  ],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original semiconductor, light and photochemistry lectures with scientific companions and source-linked discovery metadata."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Familiarity with atomic bonding, energy and chemical reactions; technical semiconductor and photochemistry concepts are introduced within the lecture."
+    ],
+    "readiness_checks": [
+      "Why does a p-n junction have a field even when no battery is attached?",
+      "What does a MOSFET gate control?"
+    ]
+  }
+}

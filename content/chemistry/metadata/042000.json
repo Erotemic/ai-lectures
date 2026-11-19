@@ -1,0 +1,122 @@
+{
+  "schema_version": 1,
+  "lecture_id": "042000",
+  "transcript": "042000-an-excited-molecule-is-a-different-reagent.md",
+  "description": "Distinguishes light absorption, fluorescence, nonradiative relaxation, intersystem crossing, photoisomerization and chemical quantum yield through molecular excited-state competition.",
+  "tags": [
+    "Photochemistry",
+    "Excited electronic states",
+    "Molecular spectroscopy",
+    "Photon absorption",
+    "Jablonski diagram",
+    "Fluorescence",
+    "Phosphorescence",
+    "Internal conversion",
+    "Intersystem crossing",
+    "Triplet states",
+    "Stokes shift",
+    "Quantum yield",
+    "Photostability",
+    "Photoisomerization",
+    "Photodecomposition",
+    "Photoprotection",
+    "Transient spectroscopy"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Chemistry",
+      "Excited molecular states and relaxation pathways"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Photoluminescence, quantum yield and quenching"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Photoisomerization and photochemical evidence"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "chem-light-iupac-quantum",
+      "reason": "Defined event counts relative to absorbed photons for photophysical and photochemical processes."
+    },
+    {
+      "source_id": "chem-light-iupac-internal",
+      "reason": "Radiationless transitions between electronic states of the same multiplicity."
+    },
+    {
+      "source_id": "chem-light-iupac-intersystem",
+      "reason": "Radiationless transitions between states of different spin multiplicity."
+    },
+    {
+      "source_id": "chem-light-iupac-kasha",
+      "reason": "Typical luminescence from lowest excited state within a multiplicity, with exceptions."
+    },
+    {
+      "source_id": "chem-light-openstax-electromagnetic",
+      "reason": "Photon energy, wavelength and electronic excitation."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "chem-042000-01",
+      "anchor": "It can relax through collisions and internal rearrangement",
+      "kind": "photophysical_mechanism",
+      "source_ids": [
+        "chem-light-iupac-internal"
+      ],
+      "source_locator": "Nonradiative energy dissipation.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-042000-02",
+      "anchor": "It can undergo a change in electronic spin character through intersystem crossing",
+      "kind": "photophysical_mechanism",
+      "source_ids": [
+        "chem-light-iupac-intersystem"
+      ],
+      "source_locator": "Interconversion of electronic spin multiplicities.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-042000-03",
+      "anchor": "Quantum yield gives this reasoning a quantitative language",
+      "kind": "quantitative_definition",
+      "source_ids": [
+        "chem-light-iupac-quantum"
+      ],
+      "source_locator": "Events per absorbed photon.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-042000-04",
+      "anchor": "A radical chain reaction can even lead to more than one net chemical transformation per initially absorbed photon",
+      "kind": "scientific_qualification",
+      "source_ids": [
+        "chem-light-iupac-quantum"
+      ],
+      "source_locator": "Reaction quantum yields can exceed one in chains.",
+      "audit_status": "reference_recorded"
+    }
+  ],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original semiconductor, light and photochemistry lectures with scientific companions and source-linked discovery metadata."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Familiarity with atomic bonding, energy and chemical reactions; technical semiconductor and photochemistry concepts are introduced within the lecture."
+    ],
+    "readiness_checks": [
+      "Why is light absorption not synonymous with a chemical reaction?",
+      "How would you distinguish fluorescence quantum yield from reaction quantum yield?"
+    ]
+  }
+}

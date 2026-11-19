@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "lecture_id": "038000",
+  "transcript": "038000-a-pinch-of-impurity-changes-everything.md",
+  "description": "Explains phosphorus donors, boron acceptors, electron and hole populations, Fermi levels, charge neutrality, processing and the meaning of Hall measurements.",
+  "tags": [
+    "Semiconductors",
+    "Doping",
+    "Donors",
+    "Acceptors",
+    "n-type semiconductor",
+    "p-type semiconductor",
+    "Electron holes",
+    "Charge neutrality",
+    "Phosphorus",
+    "Boron",
+    "Silicon",
+    "Fermi level",
+    "Carrier concentration",
+    "Carrier mobility",
+    "Hall effect",
+    "Dopant activation",
+    "Diffusion",
+    "Ion implantation",
+    "Traps",
+    "Crystalline defects"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Chemistry",
+      "Doping with donors and acceptors"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Electron and hole carrier statistics"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Dopant processing and measurement"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "chem-light-openstax-doping",
+      "reason": "Donor and acceptor impurities, carrier statistics, holes and Hall-effect measurements."
+    },
+    {
+      "source_id": "chem-light-openstax-devices",
+      "reason": "Diffusion, built-in junction fields, bias and transistor function."
+    },
+    {
+      "source_id": "chem-light-doe-pv-performance",
+      "reason": "Wavelength losses, recombination, temperature, illumination and device efficiency."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "chem-038000-01",
+      "anchor": "Call the result n-type silicon",
+      "kind": "scientific_mechanism",
+      "source_ids": [
+        "chem-light-openstax-doping"
+      ],
+      "source_locator": "Electron donors produce n-type semiconductors.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-038000-02",
+      "anchor": "The letters p and n name the majority carriers",
+      "kind": "conceptual_distinction",
+      "source_ids": [
+        "chem-light-openstax-doping"
+      ],
+      "source_locator": "Carrier types and electrical neutrality of bulk regions.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-038000-03",
+      "anchor": "Ion implantation accelerates dopant ions into a wafer",
+      "kind": "materials_processing",
+      "source_ids": [
+        "chem-light-openstax-doping"
+      ],
+      "source_locator": "Dopant concentration profiles and electrical activation.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-038000-04",
+      "anchor": "The Hall effect places a conducting sample in a magnetic field",
+      "kind": "measurement_method",
+      "source_ids": [
+        "chem-light-openstax-doping"
+      ],
+      "source_locator": "Hall measurements as estimates of dominant carrier type and concentration.",
+      "audit_status": "reference_recorded"
+    }
+  ],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original semiconductor, light and photochemistry lectures with scientific companions and source-linked discovery metadata."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Familiarity with atomic bonding, energy and chemical reactions; technical semiconductor and photochemistry concepts are introduced within the lecture."
+    ],
+    "readiness_checks": [
+      "Why does a doped semiconductor remain almost electrically neutral?",
+      "Why is chemical dopant concentration not identical to the density of mobile carriers?"
+    ]
+  }
+}

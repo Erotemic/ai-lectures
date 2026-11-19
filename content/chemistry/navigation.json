@@ -8,7 +8,7 @@
       "categories": [
         "Science and nature"
       ],
-      "summary": "Thirty-six audio lectures connecting atomic and reaction foundations to organic molecules, analytical evidence, phase equilibria, crystal growth, glasses, ceramics, interfaces, colloids and real material performance.",
+      "summary": "Forty-four audio lectures connecting chemical foundations, organic and analytical evidence, material structure and processing, semiconductors, optoelectronic devices and light-driven chemistry.",
       "tags": [
         "Chemistry",
         "Chemical foundations",
@@ -176,6 +176,38 @@
             "036000"
           ],
           "collection": "materials-corrosion-and-processing"
+        },
+        {
+          "title": "The Electronic States of Solids",
+          "lectures": [
+            "037000",
+            "038000"
+          ],
+          "collection": "semiconductors-bands-and-doping"
+        },
+        {
+          "title": "Junctions That Control Charge and Light",
+          "lectures": [
+            "039000",
+            "040000"
+          ],
+          "collection": "semiconductors-junctions-and-light"
+        },
+        {
+          "title": "What Happens When Matter Absorbs a Photon",
+          "lectures": [
+            "041000",
+            "042000"
+          ],
+          "collection": "light-to-charge-and-excitation"
+        },
+        {
+          "title": "Photons That Drive Chemical Change",
+          "lectures": [
+            "043000",
+            "044000"
+          ],
+          "collection": "photocatalysis-and-photosynthesis"
         }
       ]
     },
@@ -440,6 +472,70 @@
       "lectures": [
         "035000",
         "036000"
+      ]
+    },
+    {
+      "id": "semiconductors-bands-and-doping",
+      "title": "Chemistry · Band Structure and Doping",
+      "role": "deep_dive",
+      "parent": "chemistry-foundations",
+      "summary": "How atomic orbitals form electronic bands and how donors and acceptors control carriers and conductivity.",
+      "tags": [
+        "Energy bands",
+        "Semiconductors",
+        "Doping"
+      ],
+      "lectures": [
+        "037000",
+        "038000"
+      ]
+    },
+    {
+      "id": "semiconductors-junctions-and-light",
+      "title": "Chemistry · Junctions and Light-Emitting Devices",
+      "role": "deep_dive",
+      "parent": "chemistry-foundations",
+      "summary": "Carrier diffusion and drift at p-n junctions, diodes, field-effect gating and how compound semiconductors emit light.",
+      "tags": [
+        "p-n junction",
+        "Transistors",
+        "Light emitting diodes"
+      ],
+      "lectures": [
+        "039000",
+        "040000"
+      ]
+    },
+    {
+      "id": "light-to-charge-and-excitation",
+      "title": "Chemistry · From Light to Charge and Excitation",
+      "role": "deep_dive",
+      "parent": "chemistry-foundations",
+      "summary": "How solar cells collect photogenerated charge and how excited molecules spend absorbed light through competing pathways.",
+      "tags": [
+        "Photovoltaics",
+        "Molecular excited states",
+        "Fluorescence"
+      ],
+      "lectures": [
+        "041000",
+        "042000"
+      ]
+    },
+    {
+      "id": "photocatalysis-and-photosynthesis",
+      "title": "Chemistry · Photons That Drive Chemistry",
+      "role": "deep_dive",
+      "parent": "chemistry-foundations",
+      "summary": "Photoredox cycles, electron and energy transfer, photon counting and the coupled light reactions of photosynthesis.",
+      "tags": [
+        "Photochemistry",
+        "Photocatalysis",
+        "Photosynthesis"
+      ],
+      "lectures": [
+        "043000",
+        "044000"
       ]
     }
   ]

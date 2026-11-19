@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "lecture_id": "044000",
+  "transcript": "044000-how-a-leaf-spends-a-photon.md",
+  "description": "Traces light harvesting, PSII water oxidation, electron transport, proton-motive force, PSI photochemistry, NADPH and the separation of light reactions from carbon fixation.",
+  "tags": [
+    "Photosynthesis",
+    "Photochemistry",
+    "Chlorophyll",
+    "Photosystem II",
+    "Photosystem I",
+    "Light harvesting",
+    "Reaction center",
+    "Electron transport",
+    "Water oxidation",
+    "Oxygen evolution",
+    "Manganese calcium cluster",
+    "Plastoquinone",
+    "Plastocyanin",
+    "Proton gradient",
+    "ATP synthase",
+    "NADPH",
+    "Calvin Benson cycle",
+    "Photoprotection",
+    "Biological energy conversion",
+    "Carbon fixation"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Chemistry",
+      "Pigment energy transfer and reaction-center charge separation"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Water oxidation and electron transport"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "ATP, NADPH and carbon fixation"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "chem-light-ncbi-photo",
+      "reason": "Light harvesting, PSII and PSI electron flow, proton gradients, ATP and NADPH formation."
+    },
+    {
+      "source_id": "chem-light-openstax-bio",
+      "reason": "Photosynthetic light reactions and carbon fixation."
+    },
+    {
+      "source_id": "chem-light-iupac-quantum",
+      "reason": "Defined event counts relative to absorbed photons for photophysical and photochemical processes."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "chem-044000-01",
+      "anchor": "Much of the energy-harvesting stage is excitation-energy transfer",
+      "kind": "scientific_mechanism",
+      "source_ids": [
+        "chem-light-ncbi-photo"
+      ],
+      "source_locator": "Light harvesting versus reaction-center electron transfer.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-044000-02",
+      "anchor": "The oxygen we breathe from ordinary oxygenic photosynthesis is formed from water",
+      "kind": "scientific_mechanism",
+      "source_ids": [
+        "chem-light-ncbi-photo"
+      ],
+      "source_locator": "Water as the source of photosynthetic oxygen.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-044000-03",
+      "anchor": "That proton gradient powers ATP synthase",
+      "kind": "biochemical_mechanism",
+      "source_ids": [
+        "chem-light-ncbi-photo"
+      ],
+      "source_locator": "Chemiosmotic ATP production.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-044000-04",
+      "anchor": "A widely taught idealized minimum is therefore eight absorbed reaction-center photons",
+      "kind": "stoichiometric_model",
+      "source_ids": [
+        "chem-light-ncbi-photo"
+      ],
+      "source_locator": "Idealized photon accounting for linear flow through two photosystems.",
+      "audit_status": "reference_recorded"
+    }
+  ],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original semiconductor, light and photochemistry lectures with scientific companions and source-linked discovery metadata."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Familiarity with atomic bonding, energy and chemical reactions; technical semiconductor and photochemistry concepts are introduced within the lecture."
+    ],
+    "readiness_checks": [
+      "Where does the oxygen evolved by plants come from?",
+      "Why are PSI and PSII both required in common linear electron flow?"
+    ]
+  }
+}

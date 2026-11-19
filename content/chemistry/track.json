@@ -1,7 +1,7 @@
 {
   "id": "chemistry",
   "title": "Chemistry: From Atoms to Reactions",
-  "summary": "Audio-first chemistry from matter, reactions and organic structures through analytical evidence into phase diagrams, crystallization, glasses, ceramics, surfaces, colloids, corrosion, and microstructure-dependent material behavior. Each lecture has scientific companions and source-linked claims.",
+  "summary": "Audio-first chemistry from atomic structure, reactions and molecular mechanisms through chemical measurement, materials and electronic solids to semiconductors, solar cells, light-emitting devices, molecular excited states, photocatalysis and photosynthesis. Each lecture has a scientific companion and source-linked claims.",
   "categories": [
     "Science and nature"
   ],
@@ -51,7 +51,18 @@
     "Colloids and emulsions",
     "Corrosion and passivation",
     "Microstructure",
-    "Materials processing"
+    "Materials processing",
+    "Electronic materials",
+    "Semiconductors",
+    "Band theory",
+    "Doping",
+    "p-n junctions",
+    "Light emitting diodes",
+    "Photovoltaics",
+    "Photochemistry",
+    "Photoredox catalysis",
+    "Quantum yield",
+    "Photosynthesis"
   ],
   "tag_paths": [
     [
@@ -102,7 +113,15 @@
     "surfaces_and_wetting",
     "colloids_and_emulsions",
     "corrosion_and_passivation",
-    "processing_structure_properties"
+    "processing_structure_properties",
+    "electronic_bands",
+    "semiconductor_doping",
+    "junctions_and_transistors",
+    "semiconductor_light_emission",
+    "photovoltaic_chemistry",
+    "molecular_photophysics",
+    "photoredox_chemistry",
+    "photosynthetic_photochemistry"
   ],
   "lectures": [
     {
@@ -2161,6 +2180,387 @@
           "Science",
           "Chemistry",
           "Failure analysis and service performance"
+        ]
+      ]
+    },
+    {
+      "id": "037000",
+      "title": "Why Solids Have Forbidden Energies: From Atomic Orbitals to Energy Bands",
+      "section": "electronic_bands",
+      "file": "037000-why-solids-have-forbidden-energies.md",
+      "spoken_words": 1410,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 9.7,
+      "description": "Develops band formation from interacting atomic orbitals, distinguishes occupied states from gaps, and connects carrier transport to optical absorption and indirect-gap behavior.",
+      "tags": [
+        "Electronic materials",
+        "Band theory",
+        "Atomic orbitals",
+        "Energy bands",
+        "Band gap",
+        "Valence band",
+        "Conduction band",
+        "Semiconductors",
+        "Insulators",
+        "Metals",
+        "Electron-hole pairs",
+        "Carrier mobility",
+        "Crystal momentum",
+        "Direct band gap",
+        "Indirect band gap",
+        "Silicon",
+        "Diamond",
+        "Electrical conductivity",
+        "Optical absorption"
+      ],
+      "tag_paths": [
+        [
+          "Science",
+          "Chemistry",
+          "Electronic states and crystal band structure"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Metals, semiconductors and insulators"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Carriers, defects and optical gaps"
+        ]
+      ]
+    },
+    {
+      "id": "038000",
+      "title": "A Pinch of Impurity Changes Everything: Doping, Carriers, and the Semiconductor",
+      "section": "semiconductor_doping",
+      "file": "038000-a-pinch-of-impurity-changes-everything.md",
+      "spoken_words": 1367,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 9.4,
+      "description": "Explains phosphorus donors, boron acceptors, electron and hole populations, Fermi levels, charge neutrality, processing and the meaning of Hall measurements.",
+      "tags": [
+        "Semiconductors",
+        "Doping",
+        "Donors",
+        "Acceptors",
+        "n-type semiconductor",
+        "p-type semiconductor",
+        "Electron holes",
+        "Charge neutrality",
+        "Phosphorus",
+        "Boron",
+        "Silicon",
+        "Fermi level",
+        "Carrier concentration",
+        "Carrier mobility",
+        "Hall effect",
+        "Dopant activation",
+        "Diffusion",
+        "Ion implantation",
+        "Traps",
+        "Crystalline defects"
+      ],
+      "tag_paths": [
+        [
+          "Science",
+          "Chemistry",
+          "Doping with donors and acceptors"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Electron and hole carrier statistics"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Dopant processing and measurement"
+        ]
+      ]
+    },
+    {
+      "id": "039000",
+      "title": "The Junction That Chooses a Direction: Diodes, Barriers, and Transistors",
+      "section": "junctions_and_transistors",
+      "file": "039000-the-junction-that-chooses-a-direction.md",
+      "spoken_words": 1201,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 8.3,
+      "description": "Derives a p-n junction from diffusion and space charge; explains forward and reverse bias, diode nonideality, bipolar transistor action and field-effect gate control.",
+      "tags": [
+        "p-n junction",
+        "Depletion region",
+        "Diodes",
+        "Forward bias",
+        "Reverse bias",
+        "Charge diffusion",
+        "Drift current",
+        "Built-in electric field",
+        "Carrier injection",
+        "Recombination",
+        "Diode equation",
+        "Rectifiers",
+        "Bipolar transistor",
+        "MOSFET",
+        "Gate dielectric",
+        "Electric fields",
+        "Silicon processing",
+        "Capacitance",
+        "Breakdown"
+      ],
+      "tag_paths": [
+        [
+          "Science",
+          "Chemistry",
+          "Junction fields, depletion and equilibrium"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Rectification and diode bias"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Bipolar and field-effect transistor operation"
+        ]
+      ]
+    },
+    {
+      "id": "040000",
+      "title": "When Electrons Make Light: The Chemistry of Light-Emitting Diodes",
+      "section": "semiconductor_light_emission",
+      "file": "040000-when-electrons-make-light.md",
+      "spoken_words": 1215,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 8.4,
+      "description": "Connects injected electrons and holes to electroluminescence, direct-gap compounds, quantum wells, photon extraction, phosphors and the development of blue LEDs.",
+      "tags": [
+        "Light emitting diode",
+        "Electroluminescence",
+        "Semiconductor optics",
+        "Electron hole recombination",
+        "Direct band gap",
+        "Indirect band gap",
+        "Gallium nitride",
+        "GaN",
+        "Quantum wells",
+        "Heterostructures",
+        "External quantum efficiency",
+        "Photons",
+        "Phosphors",
+        "Blue LED",
+        "White LEDs",
+        "Spectral measurement",
+        "Nonradiative recombination",
+        "Optical extraction"
+      ],
+      "tag_paths": [
+        [
+          "Science",
+          "Chemistry",
+          "Electroluminescence and semiconductor band structure"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "LED materials and radiative recombination"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Blue LEDs and phosphor-converted white light"
+        ]
+      ]
+    },
+    {
+      "id": "041000",
+      "title": "When Light Makes Current: The Chemical Architecture of a Solar Cell",
+      "section": "photovoltaic_chemistry",
+      "file": "041000-when-light-makes-current.md",
+      "spoken_words": 1334,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 9.2,
+      "description": "Explains light-induced carrier generation and extraction, photovoltaic voltage, recombination, band-gap tradeoffs, current-voltage curves and stability of solar materials.",
+      "tags": [
+        "Solar cells",
+        "Photovoltaics",
+        "Photon absorption",
+        "Carrier separation",
+        "Electron hole pairs",
+        "p-n junctions",
+        "Selective contacts",
+        "Solar cell efficiency",
+        "Fill factor",
+        "Current voltage curve",
+        "Band-gap tradeoff",
+        "Silicon",
+        "Surface passivation",
+        "Perovskites",
+        "Multijunction solar cells",
+        "Recombination",
+        "Energy conversion",
+        "Materials degradation"
+      ],
+      "tag_paths": [
+        [
+          "Science",
+          "Chemistry",
+          "Solar-cell carrier generation and collection"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Photovoltaic efficiency, voltage and fill factor"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Absorbers, contacts and long-term stability"
+        ]
+      ]
+    },
+    {
+      "id": "042000",
+      "title": "An Excited Molecule Is a Different Reagent: What a Photon Changes",
+      "section": "molecular_photophysics",
+      "file": "042000-an-excited-molecule-is-a-different-reagent.md",
+      "spoken_words": 1218,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 8.4,
+      "description": "Distinguishes light absorption, fluorescence, nonradiative relaxation, intersystem crossing, photoisomerization and chemical quantum yield through molecular excited-state competition.",
+      "tags": [
+        "Photochemistry",
+        "Excited electronic states",
+        "Molecular spectroscopy",
+        "Photon absorption",
+        "Jablonski diagram",
+        "Fluorescence",
+        "Phosphorescence",
+        "Internal conversion",
+        "Intersystem crossing",
+        "Triplet states",
+        "Stokes shift",
+        "Quantum yield",
+        "Photostability",
+        "Photoisomerization",
+        "Photodecomposition",
+        "Photoprotection",
+        "Transient spectroscopy"
+      ],
+      "tag_paths": [
+        [
+          "Science",
+          "Chemistry",
+          "Excited molecular states and relaxation pathways"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Photoluminescence, quantum yield and quenching"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Photoisomerization and photochemical evidence"
+        ]
+      ]
+    },
+    {
+      "id": "043000",
+      "title": "A Reaction That Borrows a Photon: Photoredox Chemistry and Catalysis",
+      "section": "photoredox_chemistry",
+      "file": "043000-a-reaction-that-borrows-a-photon.md",
+      "spoken_words": 1343,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 9.3,
+      "description": "Develops photoredox and energy-transfer pathways, catalytic regeneration, radical chemistry, semiconductor photocatalysis, photon balances and mechanistic experiments.",
+      "tags": [
+        "Photoredox catalysis",
+        "Photochemistry",
+        "Photosensitization",
+        "Electron transfer",
+        "Oxidation and reduction",
+        "Radicals",
+        "Catalytic cycles",
+        "Photocatalysis",
+        "Energy transfer",
+        "Singlet oxygen",
+        "Hydrogen evolution",
+        "Water splitting",
+        "Action spectrum",
+        "Absorbed photon flux",
+        "Quantum yield",
+        "Chemical free energy",
+        "Transient absorption",
+        "Reaction mechanisms"
+      ],
+      "tag_paths": [
+        [
+          "Science",
+          "Chemistry",
+          "Photoredox catalysis and electron-transfer cycles"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Photocatalysis, radicals and energy-transfer pathways"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Photon accounting and photochemical mechanism tests"
+        ]
+      ]
+    },
+    {
+      "id": "044000",
+      "title": "How a Leaf Spends a Photon: The Chemistry of Photosynthesis",
+      "section": "photosynthetic_photochemistry",
+      "file": "044000-how-a-leaf-spends-a-photon.md",
+      "spoken_words": 1501,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 10.4,
+      "description": "Traces light harvesting, PSII water oxidation, electron transport, proton-motive force, PSI photochemistry, NADPH and the separation of light reactions from carbon fixation.",
+      "tags": [
+        "Photosynthesis",
+        "Photochemistry",
+        "Chlorophyll",
+        "Photosystem II",
+        "Photosystem I",
+        "Light harvesting",
+        "Reaction center",
+        "Electron transport",
+        "Water oxidation",
+        "Oxygen evolution",
+        "Manganese calcium cluster",
+        "Plastoquinone",
+        "Plastocyanin",
+        "Proton gradient",
+        "ATP synthase",
+        "NADPH",
+        "Calvin Benson cycle",
+        "Photoprotection",
+        "Biological energy conversion",
+        "Carbon fixation"
+      ],
+      "tag_paths": [
+        [
+          "Science",
+          "Chemistry",
+          "Pigment energy transfer and reaction-center charge separation"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Water oxidation and electron transport"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "ATP, NADPH and carbon fixation"
         ]
       ]
     }

@@ -1,21 +1,17 @@
 # Chemistry: future course development
 
-The chemistry pack now has thirty-six indexed lectures. Its materials sequence includes phase equilibrium, nucleation and grain growth, glass, ceramic sintering, interfaces, colloids, corrosion and processing-dependent mechanical behavior.
+The chemistry pack now has forty-four indexed lectures, including the eight-lecture electronic matter and light unit. It covers bands, dopants, junctions, electroluminescence, photovoltaics, molecular excited states, photoredox chemistry and oxygenic photosynthesis.
 
-## Deeper organic and biochemistry connections
+## Priority next: biochemistry and molecular chemical systems
 
-- Aromatic substitution, enolate and carbon-carbon bond construction, multistep synthesis, and chemical selectivity where they serve a coherent narrative.
-- Photochemistry, chemical ecology and biologically mediated reactions, crosslinking Cell Biology, Earth Systems and The Living World without duplicating them.
+- Biological reaction networks as coupled energy and electron-transfer systems: ATP, NADH/NADPH, enzyme mechanisms and metabolic redox (build on the existing Cell Biology and Genetics course without duplicating it).
+- Bioinorganic chemistry: metal cofactors, heme, iron–sulfur clusters, nitrogen fixation and why metal coordination enables chemistry biology cannot do with carbon alone.
+- Organic synthesis and selectivity: aromatic substitution, enolate chemistry, C–C bond construction and retrosynthetic reasoning, with extended worked cases rather than short disconnected surveys.
 
-## Analytical chemistry specializations worth considering later
+## Further analytical and materials depth
 
-- Isotope-ratio measurement and trace-element geochemistry; standards, contamination and isotope fractionation.
-- Chemical imaging with microscopy and spectroscopy; spatial resolution versus chemical selectivity.
-- Chemometrics and multivariate spectra; model leakage, uncertainty, reference sets and false confidence in library matches.
+- Isotope-ratio methods and trace-element geochemistry; chemical imaging and spatial metrology; multivariate calibration with explicit leakage and uncertainty checks.
+- Batteries and electrochemical interfaces in greater depth than the introductory galvanic/electrolysis lectures.
+- Photochemical stability and environmental chemistry, connected to Earth's atmospheric oxidation without duplicating the Earth Systems course.
 
-## Additional materials depth when warranted
-
-- Electronic properties of solids, semiconductors and dopants; band structure and junctions.
-- Batteries and advanced electrochemical interfaces beyond the introductory electrochemical-cell treatment.
-
-Let explanatory need determine lecture length and the organization of future units. Attach geography and chronology only to documented events genuinely discussed in narration.
+Let explanatory need determine lecture length and the organization of future units. Add dates and places only for documented events actually discussed in the narration.

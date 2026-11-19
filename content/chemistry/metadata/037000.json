@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "lecture_id": "037000",
+  "transcript": "037000-why-solids-have-forbidden-energies.md",
+  "description": "Develops band formation from interacting atomic orbitals, distinguishes occupied states from gaps, and connects carrier transport to optical absorption and indirect-gap behavior.",
+  "tags": [
+    "Electronic materials",
+    "Band theory",
+    "Atomic orbitals",
+    "Energy bands",
+    "Band gap",
+    "Valence band",
+    "Conduction band",
+    "Semiconductors",
+    "Insulators",
+    "Metals",
+    "Electron-hole pairs",
+    "Carrier mobility",
+    "Crystal momentum",
+    "Direct band gap",
+    "Indirect band gap",
+    "Silicon",
+    "Diamond",
+    "Electrical conductivity",
+    "Optical absorption"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Chemistry",
+      "Electronic states and crystal band structure"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Metals, semiconductors and insulators"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Carriers, defects and optical gaps"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "chem-light-openstax-bands",
+      "reason": "Band formation, filled and partially filled bands, gaps, metals and semiconductors."
+    },
+    {
+      "source_id": "chem-light-openstax-doping",
+      "reason": "Donor and acceptor impurities, carrier statistics, holes and Hall-effect measurements."
+    },
+    {
+      "source_id": "chem-light-doe-pv-performance",
+      "reason": "Wavelength losses, recombination, temperature, illumination and device efficiency."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "chem-037000-01",
+      "anchor": "What had been one atomic energy level can become a hundred closely spaced states",
+      "kind": "scientific_mechanism",
+      "source_ids": [
+        "chem-light-openstax-bands"
+      ],
+      "source_locator": "Splitting of discrete levels into bands in a many-atom solid.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-037000-02",
+      "anchor": "A band gap is not a region of empty physical space between atoms",
+      "kind": "conceptual_distinction",
+      "source_ids": [
+        "chem-light-openstax-bands"
+      ],
+      "source_locator": "Allowed energies versus spatial gaps.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-037000-03",
+      "anchor": "An electron-volt is the amount of energy an electron gains",
+      "kind": "quantitative_definition",
+      "source_ids": [
+        "chem-light-openstax-electromagnetic"
+      ],
+      "source_locator": "Energy units for electronic gaps and transitions.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-037000-04",
+      "anchor": "In an indirect-gap material such as silicon, a lattice vibration often has to participate",
+      "kind": "scientific_mechanism",
+      "source_ids": [
+        "chem-light-openstax-bands",
+        "chem-light-nobel-led-tech"
+      ],
+      "source_locator": "Indirect-gap optical emission and momentum conservation.",
+      "audit_status": "reference_recorded"
+    }
+  ],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original semiconductor, light and photochemistry lectures with scientific companions and source-linked discovery metadata."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Familiarity with atomic bonding, energy and chemical reactions; technical semiconductor and photochemistry concepts are introduced within the lecture."
+    ],
+    "readiness_checks": [
+      "Why is a partially filled energy band often conducting?",
+      "What extra information beyond a band gap controls electrical conduction?"
+    ]
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "schema_version": 1,
+  "lecture_id": "040000",
+  "transcript": "040000-when-electrons-make-light.md",
+  "description": "Connects injected electrons and holes to electroluminescence, direct-gap compounds, quantum wells, photon extraction, phosphors and the development of blue LEDs.",
+  "tags": [
+    "Light emitting diode",
+    "Electroluminescence",
+    "Semiconductor optics",
+    "Electron hole recombination",
+    "Direct band gap",
+    "Indirect band gap",
+    "Gallium nitride",
+    "GaN",
+    "Quantum wells",
+    "Heterostructures",
+    "External quantum efficiency",
+    "Photons",
+    "Phosphors",
+    "Blue LED",
+    "White LEDs",
+    "Spectral measurement",
+    "Nonradiative recombination",
+    "Optical extraction"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Chemistry",
+      "Electroluminescence and semiconductor band structure"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "LED materials and radiative recombination"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Blue LEDs and phosphor-converted white light"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "chem-light-nobel-led",
+      "reason": "Recognition of Akasaki, Amano and Nakamura for efficient blue LEDs, 2014."
+    },
+    {
+      "source_id": "chem-light-nobel-led-tech",
+      "reason": "GaN material growth, p-doping, heterostructures and technical blue-LED challenges."
+    },
+    {
+      "source_id": "chem-light-doe-led",
+      "reason": "LED band-gap selection, direct-gap compounds, device layers and light extraction."
+    },
+    {
+      "source_id": "chem-light-openstax-bands",
+      "reason": "Band formation, filled and partially filled bands, gaps, metals and semiconductors."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "chem-040000-01",
+      "anchor": "The phenomenon is electroluminescence",
+      "kind": "scientific_definition",
+      "source_ids": [
+        "chem-light-doe-led"
+      ],
+      "source_locator": "Electrically driven optical recombination.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-040000-02",
+      "anchor": "Silicon is excellent for many electronic devices, but its fundamental band gap is indirect",
+      "kind": "scientific_mechanism",
+      "source_ids": [
+        "chem-light-nobel-led-tech",
+        "chem-light-openstax-bands"
+      ],
+      "source_locator": "Direct- versus indirect-gap optical emission.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-040000-03",
+      "anchor": "Their contributions to efficient blue light-emitting diodes were recognized with the 2014 Nobel Prize in Physics",
+      "kind": "historical_event",
+      "source_ids": [
+        "chem-light-nobel-led"
+      ],
+      "source_locator": "2014 award to Akasaki, Amano and Nakamura.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-040000-04",
+      "anchor": "One common white LED uses a blue semiconductor emitter with a phosphor coating",
+      "kind": "device_example",
+      "source_ids": [
+        "chem-light-nobel-led"
+      ],
+      "source_locator": "Phosphor-converted white-light architecture.",
+      "audit_status": "reference_recorded"
+    }
+  ],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original semiconductor, light and photochemistry lectures with scientific companions and source-linked discovery metadata."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Familiarity with atomic bonding, energy and chemical reactions; technical semiconductor and photochemistry concepts are introduced within the lecture."
+    ],
+    "readiness_checks": [
+      "Why is gallium nitride useful for blue light emission?",
+      "What is the difference between internal and external quantum efficiency?"
+    ]
+  },
+  "places": [
+    "Japan"
+  ],
+  "chronology": {
+    "context": {
+      "start": 2014,
+      "end": 2014,
+      "label": "2014 Nobel Prize in Physics for efficient blue LEDs",
+      "basis": "The narration explicitly describes the 2014 award and the blue-LED work in Japan.",
+      "note": "The date refers to the award, not the decades-long development of the technology.",
+      "source_ids": [
+        "chem-light-nobel-led",
+        "chem-light-nobel-led-tech"
+      ]
+    }
+  }
+}

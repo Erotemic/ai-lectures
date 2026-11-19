@@ -1,0 +1,115 @@
+{
+  "schema_version": 1,
+  "lecture_id": "041000",
+  "transcript": "041000-when-light-makes-current.md",
+  "description": "Explains light-induced carrier generation and extraction, photovoltaic voltage, recombination, band-gap tradeoffs, current-voltage curves and stability of solar materials.",
+  "tags": [
+    "Solar cells",
+    "Photovoltaics",
+    "Photon absorption",
+    "Carrier separation",
+    "Electron hole pairs",
+    "p-n junctions",
+    "Selective contacts",
+    "Solar cell efficiency",
+    "Fill factor",
+    "Current voltage curve",
+    "Band-gap tradeoff",
+    "Silicon",
+    "Surface passivation",
+    "Perovskites",
+    "Multijunction solar cells",
+    "Recombination",
+    "Energy conversion",
+    "Materials degradation"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Chemistry",
+      "Solar-cell carrier generation and collection"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Photovoltaic efficiency, voltage and fill factor"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Absorbers, contacts and long-term stability"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "chem-light-doe-pv-cell",
+      "reason": "Semiconductor light absorption, carrier extraction and solar-cell layers."
+    },
+    {
+      "source_id": "chem-light-doe-pv-performance",
+      "reason": "Wavelength losses, recombination, temperature, illumination and device efficiency."
+    },
+    {
+      "source_id": "chem-light-doe-pv-primer",
+      "reason": "Photovoltaic junctions, silicon manufacture and carrier collection."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "chem-041000-01",
+      "anchor": "The built-in field and selective contacts are parts of the mechanism",
+      "kind": "conceptual_distinction",
+      "source_ids": [
+        "chem-light-doe-pv-cell"
+      ],
+      "source_locator": "Illumination rather than the equilibrium junction supplies free energy.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-041000-02",
+      "anchor": "One is incomplete absorption",
+      "kind": "scientific_mechanism",
+      "source_ids": [
+        "chem-light-doe-pv-performance"
+      ],
+      "source_locator": "Photon-energy, reflection and absorption losses.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-041000-03",
+      "anchor": "The fill factor tells us how square the curve is",
+      "kind": "measurement_definition",
+      "source_ids": [
+        "chem-light-doe-pv-performance"
+      ],
+      "source_locator": "Current-voltage measurement and maximum-power point.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-041000-04",
+      "anchor": "Surfaces again matter",
+      "kind": "materials_property",
+      "source_ids": [
+        "chem-light-doe-pv-performance"
+      ],
+      "source_locator": "Surface recombination and passivating layers.",
+      "audit_status": "reference_recorded"
+    }
+  ],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original semiconductor, light and photochemistry lectures with scientific companions and source-linked discovery metadata."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Familiarity with atomic bonding, energy and chemical reactions; technical semiconductor and photochemistry concepts are introduced within the lecture."
+    ],
+    "readiness_checks": [
+      "Why does the solar cell require illumination to make sustained power?",
+      "How do short-circuit current, open-circuit voltage and fill factor relate to maximum output?"
+    ]
+  }
+}

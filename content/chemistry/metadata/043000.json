@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "lecture_id": "043000",
+  "transcript": "043000-a-reaction-that-borrows-a-photon.md",
+  "description": "Develops photoredox and energy-transfer pathways, catalytic regeneration, radical chemistry, semiconductor photocatalysis, photon balances and mechanistic experiments.",
+  "tags": [
+    "Photoredox catalysis",
+    "Photochemistry",
+    "Photosensitization",
+    "Electron transfer",
+    "Oxidation and reduction",
+    "Radicals",
+    "Catalytic cycles",
+    "Photocatalysis",
+    "Energy transfer",
+    "Singlet oxygen",
+    "Hydrogen evolution",
+    "Water splitting",
+    "Action spectrum",
+    "Absorbed photon flux",
+    "Quantum yield",
+    "Chemical free energy",
+    "Transient absorption",
+    "Reaction mechanisms"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Chemistry",
+      "Photoredox catalysis and electron-transfer cycles"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Photocatalysis, radicals and energy-transfer pathways"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Photon accounting and photochemical mechanism tests"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "chem-light-iupac-electron",
+      "reason": "Light-driven electron transfer between sensitizer and substrate and catalyst regeneration."
+    },
+    {
+      "source_id": "chem-light-iupac-quantum",
+      "reason": "Defined event counts relative to absorbed photons for photophysical and photochemical processes."
+    },
+    {
+      "source_id": "chem-light-iupac-intersystem",
+      "reason": "Radiationless transitions between states of different spin multiplicity."
+    },
+    {
+      "source_id": "chem-light-openstax-redox",
+      "reason": "Oxidation, reduction, free-energy relationships and electrochemical context."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "chem-043000-01",
+      "anchor": "If later electron-transfer steps regenerate the original catalyst",
+      "kind": "catalytic_mechanism",
+      "source_ids": [
+        "chem-light-iupac-electron"
+      ],
+      "source_locator": "Regeneration in electron-transfer photosensitization.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-043000-02",
+      "anchor": "A photocatalyst cannot make matter or energy from nothing",
+      "kind": "thermodynamic_qualification",
+      "source_ids": [
+        "chem-light-openstax-redox"
+      ],
+      "source_locator": "Net free-energy accounting includes light and other reactants.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-043000-03",
+      "anchor": "A different photochemical route uses energy transfer instead of electron transfer",
+      "kind": "conceptual_distinction",
+      "source_ids": [
+        "chem-light-iupac-electron"
+      ],
+      "source_locator": "Different photosensitization mechanisms.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-043000-04",
+      "anchor": "The photochemical quantum yield and photonic efficiency address different questions",
+      "kind": "measurement_definition",
+      "source_ids": [
+        "chem-light-iupac-quantum"
+      ],
+      "source_locator": "Chemical events per absorbed photon and external optical efficiency.",
+      "audit_status": "reference_recorded"
+    }
+  ],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original semiconductor, light and photochemistry lectures with scientific companions and source-linked discovery metadata."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Familiarity with atomic bonding, energy and chemical reactions; technical semiconductor and photochemistry concepts are introduced within the lecture."
+    ],
+    "readiness_checks": [
+      "What additional reagent might be required to close a photoredox catalyst cycle?",
+      "How could experiment distinguish energy transfer from electron transfer?"
+    ]
+  }
+}
