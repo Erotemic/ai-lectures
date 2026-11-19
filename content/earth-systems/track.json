@@ -1,7 +1,7 @@
 {
   "id": "earth-systems",
   "title": "Earth as a System: Air, Water, Ocean, and Climate",
-  "summary": "Mechanistic Earth systems science connecting atmosphere, ocean, land, water, ice and living chemistry, including ENSO, hazards and biogeochemical cycling. A six-part paleoclimate sequence explains how ice, tree rings, sediments and cave deposits are dated and combined into climate reconstructions. Six modeling-method lectures connect conservation, grids, parameterizations, coupled components, data assimilation, designed experiments and model evaluation. Five coast-focused lectures connect tidal forcing, wave-driven sediment budgets, barrier migration, estuarine exchange and river delta subsidence. Four groundwater lectures connect aquifer physics and storage to river exchange, pumping effects, age tracers and water chemistry.",
+  "summary": "Mechanistic Earth systems science connecting atmosphere, ocean, land, water, ice and living chemistry. Forty-five lectures span ENSO, hazards, biogeochemical cycles, paleoclimate evidence, modeling, coasts, groundwater, seasonal monsoons, atmospheric chemistry and aerosols, deep-ocean overturning and land-atmosphere feedbacks.",
   "categories": [
     "Science and nature"
   ],
@@ -19,7 +19,12 @@
     "Hydrology",
     "Oceanography",
     "Groundwater",
-    "Hydrogeology"
+    "Hydrogeology",
+    "Monsoons",
+    "Atmospheric chemistry",
+    "Atmospheric aerosols",
+    "Ocean overturning",
+    "Land-atmosphere feedbacks"
   ],
   "tag_paths": [
     [
@@ -36,6 +41,31 @@
       "Science",
       "Earth science",
       "Hydrogeology"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Monsoon climatology"
+    ],
+    [
+      "Science",
+      "Atmospheric science",
+      "Atmospheric chemistry"
+    ],
+    [
+      "Science",
+      "Atmospheric science",
+      "Aerosol physics"
+    ],
+    [
+      "Science",
+      "Oceanography",
+      "Ocean overturning"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Land-atmosphere coupling"
     ]
   ],
   "assumed_background": [
@@ -83,7 +113,12 @@
     "groundwater_aquifer_physics",
     "groundwater_stream_exchange",
     "groundwater_pumping_subsidence",
-    "groundwater_age_and_quality"
+    "groundwater_age_and_quality",
+    "monsoons_seasonal_circulation",
+    "atmospheric_photochemistry",
+    "aerosols_cloud_interactions",
+    "deep_ocean_overturning",
+    "land_atmosphere_feedbacks"
   ],
   "lectures": [
     {
@@ -1029,6 +1064,192 @@
         "Long Island aquifer",
         "Groundwater contamination lag",
         "California groundwater age 2026"
+      ]
+    },
+    {
+      "id": "041000",
+      "title": "When the Rains Change Direction: How Monsoons Organize a Season",
+      "section": "monsoons_seasonal_circulation",
+      "file": "041000-when-the-rains-change-direction.md",
+      "spoken_words": 2125,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 14.7,
+      "tags": [
+        "Monsoon dynamics",
+        "Seasonal wind reversal",
+        "Intertropical convergence zone",
+        "ITCZ migration",
+        "Cross-equatorial flow",
+        "Coriolis effect",
+        "Thermal low",
+        "Monsoon trough",
+        "Orographic rainfall",
+        "Moisture convergence",
+        "Column moisture budget",
+        "Latent heat feedback",
+        "Active-break monsoon spells",
+        "South Asian monsoon",
+        "Western Ghats",
+        "Bay of Bengal",
+        "Tibetan Plateau",
+        "Sahel rainfall",
+        "West African monsoon",
+        "1970s–1980s Sahel drought",
+        "North American monsoon",
+        "Gulf of California",
+        "Seasonal prediction",
+        "ENSO monsoon interactions",
+        "Anthropogenic aerosols",
+        "Greenhouse forcing"
+      ]
+    },
+    {
+      "id": "042000",
+      "title": "The Chemistry Between Clouds: Sunlight, Ozone, and the Air That Cleans Itself",
+      "section": "atmospheric_photochemistry",
+      "file": "042000-the-chemistry-between-clouds.md",
+      "spoken_words": 1906,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 13.1,
+      "tags": [
+        "Atmospheric chemistry",
+        "Tropospheric ozone",
+        "Stratospheric ozone",
+        "Ozone photochemistry",
+        "Photolysis",
+        "NOx chemistry",
+        "NO2 photolysis",
+        "Nitric oxide",
+        "Volatile organic compounds",
+        "Photochemical smog",
+        "Peroxy radicals",
+        "NOx-limited ozone",
+        "VOC-sensitive ozone",
+        "Hydroxyl radical",
+        "OH oxidation",
+        "Methane lifetime",
+        "Wet deposition",
+        "Dry deposition",
+        "Atmospheric transport",
+        "Ozone-depleting substances",
+        "Antarctic ozone hole",
+        "Montreal Protocol",
+        "1987 Montreal Protocol",
+        "Stratospheric recovery",
+        "Atmospheric chemical transport models"
+      ]
+    },
+    {
+      "id": "043000",
+      "title": "A Speck of Dust Changes the Sky: Aerosols, Clouds, and Climate",
+      "section": "aerosols_cloud_interactions",
+      "file": "043000-a-speck-of-dust-changes-the-sky.md",
+      "spoken_words": 1886,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 13.0,
+      "tags": [
+        "Atmospheric aerosols",
+        "Primary aerosols",
+        "Secondary aerosols",
+        "Mineral dust",
+        "Sea salt aerosol",
+        "Black carbon",
+        "Sulfate aerosol",
+        "Nitrate aerosols",
+        "Organic aerosols",
+        "Particle size distributions",
+        "Aerosol optical depth",
+        "Atmospheric radiation",
+        "Light scattering",
+        "Light absorption",
+        "Cloud condensation nuclei",
+        "Cloud droplet activation",
+        "Aerosol-cloud interactions",
+        "Cloud albedo",
+        "Aerosol indirect effects",
+        "Aerosol radiative forcing",
+        "1991 Mount Pinatubo",
+        "Stratospheric volcanic aerosols",
+        "Volcanic cooling",
+        "Satellite aerosol retrieval",
+        "Aerosol precipitation uncertainty",
+        "Monsoon aerosol forcing"
+      ]
+    },
+    {
+      "id": "044000",
+      "title": "Where the Ocean Turns Over: Deep Water, Mixing, and the Long Ocean Memory",
+      "section": "deep_ocean_overturning",
+      "file": "044000-where-the-ocean-turns-over.md",
+      "spoken_words": 2018,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 13.9,
+      "tags": [
+        "Deep ocean circulation",
+        "Atlantic Meridional Overturning Circulation",
+        "AMOC",
+        "Southern Ocean",
+        "Antarctic Bottom Water",
+        "North Atlantic Deep Water",
+        "Ocean density",
+        "Temperature salinity pressure",
+        "Ocean stratification",
+        "Brine rejection",
+        "Deep convection",
+        "Geostrophic circulation",
+        "Wind-driven upwelling",
+        "Diapycnal mixing",
+        "Internal waves",
+        "Ocean ventilation",
+        "Dissolved oxygen",
+        "Ocean carbon uptake",
+        "Ocean tracer ages",
+        "Sverdrup transport",
+        "RAPID observing array",
+        "2004 AMOC observations",
+        "2026 RAPID data release",
+        "Ocean heat transport",
+        "Ocean climate projections",
+        "Climate tipping risk"
+      ]
+    },
+    {
+      "id": "045000",
+      "title": "The Ground Changes the Weather: Soil, Plants, Heat, and Feedback",
+      "section": "land_atmosphere_feedbacks",
+      "file": "045000-the-ground-changes-the-weather.md",
+      "spoken_words": 2242,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 15.5,
+      "tags": [
+        "Land-atmosphere coupling",
+        "Surface energy budget",
+        "Net radiation",
+        "Sensible heat flux",
+        "Latent heat flux",
+        "Evapotranspiration",
+        "Soil moisture memory",
+        "Water-limited evaporation",
+        "Energy-limited evaporation",
+        "Boundary layer",
+        "Convection triggering",
+        "Vegetation physiology",
+        "Plant stomata",
+        "Vapor pressure deficit",
+        "Rooting depth",
+        "Forest albedo",
+        "Snow masking",
+        "Aerodynamic roughness",
+        "Land use change",
+        "Irrigation cooling",
+        "Groundwater irrigation",
+        "Soil moisture heatwave feedback",
+        "Land wildfire feedback",
+        "Sahel vegetation",
+        "Amazon evapotranspiration",
+        "Eddy covariance",
+        "Satellite soil moisture",
+        "Subgrid heterogeneity"
       ]
     }
   ]

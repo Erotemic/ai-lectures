@@ -8,7 +8,7 @@
       "categories": [
         "Science and nature"
       ],
-      "summary": "Forty connected lectures on the physical Earth, living chemistry, paleoclimate evidence, numerical models, coasts, and hidden groundwater.",
+      "summary": "Forty-five connected lectures on the physical Earth, ENSO, atmospheric and ocean dynamics, living chemistry, paleoclimate evidence, models, coasts, groundwater and coupled climate feedbacks.",
       "chapters": [
         {
           "title": "Earth Has an Energy Budget: Light In, Heat Out",
@@ -248,6 +248,36 @@
           "title": "The Water Has a History: Groundwater Age, Chemistry, and Changing Flow",
           "lectures": [
             "040000"
+          ]
+        },
+        {
+          "title": "When the Rains Change Direction: How Monsoons Organize a Season",
+          "lectures": [
+            "041000"
+          ]
+        },
+        {
+          "title": "The Chemistry Between Clouds: Sunlight, Ozone, and the Air That Cleans Itself",
+          "lectures": [
+            "042000"
+          ]
+        },
+        {
+          "title": "A Speck of Dust Changes the Sky: Aerosols, Clouds, and Climate",
+          "lectures": [
+            "043000"
+          ]
+        },
+        {
+          "title": "Where the Ocean Turns Over: Deep Water, Mixing, and the Long Ocean Memory",
+          "lectures": [
+            "044000"
+          ]
+        },
+        {
+          "title": "The Ground Changes the Weather: Soil, Plants, Heat, and Feedback",
+          "lectures": [
+            "045000"
           ]
         }
       ]
@@ -701,6 +731,122 @@
         "038000",
         "039000",
         "040000"
+      ]
+    },
+    {
+      "id": "seasons-in-a-coupled-climate",
+      "title": "Earth as a System · Coupled Climate Beyond the Basics",
+      "role": "deep_dive",
+      "parent": "earth-as-a-system",
+      "categories": [
+        "Science and nature"
+      ],
+      "summary": "Five connected explanations of seasonal monsoons, atmospheric oxidation and aerosols, deep ocean overturning and land feedbacks.",
+      "tags": [
+        "Monsoons",
+        "Atmospheric chemistry",
+        "Aerosols",
+        "Deep ocean",
+        "Land atmosphere coupling"
+      ],
+      "lectures": [
+        "041000",
+        "042000",
+        "043000",
+        "044000",
+        "045000"
+      ]
+    },
+    {
+      "id": "monsoon-rainbelt-and-aerosols",
+      "title": "Earth as a System · Why Rain Belts Move",
+      "role": "deep_dive",
+      "parent": "earth-as-a-system",
+      "categories": [
+        "Science and nature"
+      ],
+      "summary": "From atmospheric circulation and ENSO to seasonal monsoon rainfall and aerosol-driven hemispheric energy contrasts.",
+      "tags": [
+        "Monsoons",
+        "ITCZ",
+        "ENSO",
+        "Aerosols",
+        "Rainfall"
+      ],
+      "lectures": [
+        "002000",
+        "008000",
+        "009000",
+        "041000",
+        "043000"
+      ]
+    },
+    {
+      "id": "chemistry-of-the-sky",
+      "title": "Earth as a System · Chemistry of the Sky",
+      "role": "deep_dive",
+      "parent": "earth-as-a-system",
+      "categories": [
+        "Science and nature"
+      ],
+      "summary": "Atmospheric nitrogen and oxygen cycling, reactive-gas ozone chemistry and aerosol cloud interactions.",
+      "tags": [
+        "Atmospheric chemistry",
+        "Ozone",
+        "Nitrogen oxides",
+        "Aerosols",
+        "Clouds"
+      ],
+      "lectures": [
+        "016000",
+        "018000",
+        "042000",
+        "043000"
+      ]
+    },
+    {
+      "id": "ocean-mixing-and-memory",
+      "title": "Earth as a System · Ocean Mixing and Memory",
+      "role": "deep_dive",
+      "parent": "earth-as-a-system",
+      "categories": [
+        "Science and nature"
+      ],
+      "summary": "Ocean stratification, carbon and oxygen budgets, circulation and tracer records of deep-water ventilation.",
+      "tags": [
+        "Ocean circulation",
+        "Ocean ventilation",
+        "AMOC",
+        "Carbon cycle"
+      ],
+      "lectures": [
+        "004000",
+        "005000",
+        "018000",
+        "044000"
+      ]
+    },
+    {
+      "id": "land-water-heat-feedback",
+      "title": "Earth as a System · Land, Water, and Extreme Heat",
+      "role": "deep_dive",
+      "parent": "earth-as-a-system",
+      "categories": [
+        "Science and nature"
+      ],
+      "summary": "Water budget and drought, humid heat, groundwater and vegetation regulation of the surface energy balance.",
+      "tags": [
+        "Soil moisture",
+        "Evapotranspiration",
+        "Heatwaves",
+        "Irrigation"
+      ],
+      "lectures": [
+        "003000",
+        "014000",
+        "015000",
+        "037000",
+        "045000"
       ]
     }
   ]

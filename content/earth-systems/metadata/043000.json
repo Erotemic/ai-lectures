@@ -1,0 +1,245 @@
+{
+  "schema_version": 1,
+  "lecture_id": "043000",
+  "transcript": "043000-a-speck-of-dust-changes-the-sky.md",
+  "description": "How primary and secondary aerosol particles scatter and absorb light, seed cloud droplets, influence rainfall and regional circulation, and why Pinatubo provides a distinct stratospheric example.",
+  "tags": [
+    "Atmospheric aerosols",
+    "Primary aerosols",
+    "Secondary aerosols",
+    "Mineral dust",
+    "Sea salt aerosol",
+    "Black carbon",
+    "Sulfate aerosol",
+    "Nitrate aerosols",
+    "Organic aerosols",
+    "Particle size distributions",
+    "Aerosol optical depth",
+    "Atmospheric radiation",
+    "Light scattering",
+    "Light absorption",
+    "Cloud condensation nuclei",
+    "Cloud droplet activation",
+    "Aerosol-cloud interactions",
+    "Cloud albedo",
+    "Aerosol indirect effects",
+    "Aerosol radiative forcing",
+    "1991 Mount Pinatubo",
+    "Stratospheric volcanic aerosols",
+    "Volcanic cooling",
+    "Satellite aerosol retrieval",
+    "Aerosol precipitation uncertainty",
+    "Monsoon aerosol forcing"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Earth science",
+      "Earth systems",
+      "Primary and secondary particle sources"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth systems",
+      "Aerosol radiation scattering and absorption"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth systems",
+      "Cloud condensation nuclei and droplet number"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth systems",
+      "Aerosol cloud albedo and rain uncertainty"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth systems",
+      "Volcanic stratospheric sulfate versus tropospheric aerosol"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth systems",
+      "Aerosol observational methods"
+    ],
+    [
+      "Place: Asia",
+      "Place: Philippines",
+      "Place: Mount Pinatubo"
+    ],
+    [
+      "Place: Africa",
+      "Place: Sahara"
+    ],
+    [
+      "Place: Atlantic Ocean",
+      "Place: Saharan dust transport"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Historical case studies",
+      "1991 Pinatubo eruption"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "es-aero-nasa",
+      "reason": "Primary and secondary particles, scattering, soot absorption, 1991 Pinatubo and climate response."
+    },
+    {
+      "source_id": "es-aero-deepblue",
+      "reason": "Aerosol cloud condensation nuclei, droplet size and aerosol-cloud interactions."
+    },
+    {
+      "source_id": "es-aero-ipcc7",
+      "reason": "Anthropogenic aerosol radiative forcing and uncertainties from aerosol-cloud interactions."
+    },
+    {
+      "source_id": "es-chem-ipcc6",
+      "reason": "Tropospheric ozone, short-lived reactive gases, aerosol chemistry and climate forcing."
+    },
+    {
+      "source_id": "es-monsoon-ipcc8",
+      "reason": "Column water budgets, rainfall intensification, aerosol influence on tropical rain belts and monsoons."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "043000-e01",
+      "anchor": "Primary aerosols enter the atmosphere",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-aero-nasa"
+      ],
+      "source_locator": "Primary marine, dust and soot particle sources.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "043000-e02",
+      "anchor": "Secondary aerosols form in the atmosphere",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-chem-ipcc6"
+      ],
+      "source_locator": "SO2-to-sulfate and reactive gas secondary aerosol formation.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "043000-e03",
+      "anchor": "A particle can scatter light",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-aero-nasa"
+      ],
+      "source_locator": "Aerosol direct scattering and absorption.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "043000-e04",
+      "anchor": "cloud condensation nuclei",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-aero-deepblue"
+      ],
+      "source_locator": "Particle activation into cloud droplets.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "043000-e05",
+      "anchor": "Its water is divided into a greater number of smaller droplets",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-aero-deepblue"
+      ],
+      "source_locator": "Fixed-water droplet-number thought experiment and cloud brightness.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "043000-e06",
+      "anchor": "net climate influence remains more uncertain",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-aero-ipcc7"
+      ],
+      "source_locator": "Assessment uncertainty aerosol-cloud interactions.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "043000-e07",
+      "anchor": "In June 1991, Mount Pinatubo erupted",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-aero-nasa"
+      ],
+      "source_locator": "1991 eruption and global sulfate aerosol formation.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "043000-e08",
+      "anchor": "cooling of roughly half a degree Celsius",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-aero-nasa"
+      ],
+      "source_locator": "Pinatubo-related global cooling magnitude and duration.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "043000-e09",
+      "anchor": "Anthropogenic aerosols have on balance exerted a cooling influence",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-aero-ipcc7"
+      ],
+      "source_locator": "Net anthropogenic aerosol radiative forcing with uncertainty.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "043000-e10",
+      "anchor": "Satellites infer aerosol optical depth",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-aero-nasa",
+        "es-aero-deepblue"
+      ],
+      "source_locator": "Optical measurements differ from surface fine particle mass.",
+      "audit_status": "source_checked"
+    }
+  ],
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Defines aerosol particles, cloud condensation and radiation before examining regional and global effects."
+    ],
+    "readiness_checks": [
+      "Why can a gas emission produce particles later and farther downwind?",
+      "Why might more cloud droplets increase cloud reflectivity without providing a rainfall prediction?",
+      "Why does high-altitude Pinatubo sulfate persist longer than many lower-atmospheric aerosols?",
+      "Which measurements separate surface fine particulate matter from total atmospheric column optical depth?"
+    ]
+  },
+  "places": [
+    "Mount Pinatubo, Luzon, Philippines",
+    "Sahara, North Africa",
+    "Atlantic Ocean"
+  ],
+  "chronology": {
+    "period": {
+      "start": 1991,
+      "label": "June 1991 eruption of Mount Pinatubo in the Philippines",
+      "basis": "documented volcanic eruption and observed atmospheric response",
+      "note": "Dates the Pinatubo case study, not general aerosol formation or present-day particle transport.",
+      "source_ids": [
+        "es-aero-nasa"
+      ]
+    }
+  }
+}

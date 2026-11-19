@@ -1,0 +1,233 @@
+{
+  "schema_version": 1,
+  "lecture_id": "042000",
+  "transcript": "042000-the-chemistry-between-clouds.md",
+  "description": "How sunlight and NOx/VOC chemistry make ground-level ozone, why radicals regulate oxidation, how deposition transports pollution, and why stratospheric ozone is a different problem.",
+  "tags": [
+    "Atmospheric chemistry",
+    "Tropospheric ozone",
+    "Stratospheric ozone",
+    "Ozone photochemistry",
+    "Photolysis",
+    "NOx chemistry",
+    "NO2 photolysis",
+    "Nitric oxide",
+    "Volatile organic compounds",
+    "Photochemical smog",
+    "Peroxy radicals",
+    "NOx-limited ozone",
+    "VOC-sensitive ozone",
+    "Hydroxyl radical",
+    "OH oxidation",
+    "Methane lifetime",
+    "Wet deposition",
+    "Dry deposition",
+    "Atmospheric transport",
+    "Ozone-depleting substances",
+    "Antarctic ozone hole",
+    "Montreal Protocol",
+    "1987 Montreal Protocol",
+    "Stratospheric recovery",
+    "Atmospheric chemical transport models"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Earth science",
+      "Earth systems",
+      "Photochemical ozone production and cycling"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth systems",
+      "Nonlinear NOx–VOC sensitivity"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth systems",
+      "OH radical chemistry and methane lifetime"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth systems",
+      "Stratospheric ozone catalytic destruction"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth systems",
+      "Wet and dry deposition"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth systems",
+      "Air-quality observation and chemical transport models"
+    ],
+    [
+      "Place: Antarctica",
+      "Place: Antarctic stratosphere"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Historical case studies",
+      "1987 Montreal Protocol"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "es-chem-epa-ozone",
+      "reason": "Ground-level ozone as secondary pollutant from NOx and VOC reactions in sunlight."
+    },
+    {
+      "source_id": "es-chem-epa-2026",
+      "reason": "Detailed NOx-VOC ozone nonlinear photochemistry, limited and VOC-sensitive regimes; dates a report, not generic chemistry."
+    },
+    {
+      "source_id": "es-chem-epa-profile",
+      "reason": "Stratospheric UV-protective ozone versus tropospheric air pollutant."
+    },
+    {
+      "source_id": "es-chem-wmo-2022",
+      "reason": "Montreal Protocol ozone-depleting substances, upper-stratospheric recovery, regional and scenario uncertainty."
+    },
+    {
+      "source_id": "es-chem-ipcc6",
+      "reason": "Tropospheric ozone, short-lived reactive gases, aerosol chemistry and climate forcing."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "042000-e01",
+      "anchor": "High in the stratosphere, a region above much of our weather",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-chem-epa-profile"
+      ],
+      "source_locator": "Stratospheric UV absorption versus lower-atmosphere ozone exposure.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "042000-e02",
+      "anchor": "How is ozone made?",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-chem-epa-profile"
+      ],
+      "source_locator": "Upper atmosphere oxygen photochemistry.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "042000-e03",
+      "anchor": "nitrogen dioxide can split into nitric oxide",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-chem-epa-2026"
+      ],
+      "source_locator": "NO2 photolysis and tropospheric O3 cycling.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "042000-e04",
+      "anchor": "peroxy radicals",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-chem-epa-2026"
+      ],
+      "source_locator": "Radical NO-to-NO2 conversion without destroying ozone.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "042000-e05",
+      "anchor": "The controlling regime can change",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-chem-epa-2026"
+      ],
+      "source_locator": "NOx-limited versus VOC-sensitive nonlinear ozone production.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "042000-e06",
+      "anchor": "hydroxyl radical",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-chem-ipcc6"
+      ],
+      "source_locator": "OH-mediated oxidation and methane chemical lifetime.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "042000-e07",
+      "anchor": "catalytic cycles involving chlorine and bromine",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-chem-wmo-2022"
+      ],
+      "source_locator": "Stratospheric ozone catalytic destruction by halogens.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "042000-e08",
+      "anchor": "Montreal Protocol in 1987",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-chem-wmo-2022"
+      ],
+      "source_locator": "1987 treaty and subsequent ozone-depleting-substance controls.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "042000-e09",
+      "anchor": "The 2022 international scientific ozone assessment",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-chem-wmo-2022"
+      ],
+      "source_locator": "Assessed observed recovery and conditional model return dates.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "042000-e10",
+      "anchor": "A monitor near a highway",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-chem-epa-ozone"
+      ],
+      "source_locator": "Ground-level monitoring versus regionally distributed precursor transport and chemistry.",
+      "audit_status": "source_checked"
+    }
+  ],
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Introduces ozone molecules, sunlight-driven reactions and radicals without assuming prior general chemistry coursework."
+    ],
+    "readiness_checks": [
+      "Why is the same ozone molecule protective high in the atmosphere but hazardous near the ground?",
+      "Why does NO2 photolysis not alone ensure net ozone buildup?",
+      "How can decreasing roadside NO emissions sometimes locally increase measured ozone?",
+      "Why is chemical removal not the same as environmental disappearance?"
+    ]
+  },
+  "places": [
+    "Antarctic stratosphere",
+    "Polluted and downwind urban-rural air masses (general examples)"
+  ],
+  "chronology": {
+    "period": {
+      "start": 1987,
+      "label": "Montreal Protocol agreed in 1987",
+      "basis": "dated international environmental agreement",
+      "note": "The date is attached to a named treaty, not to stratospheric ozone chemistry.",
+      "source_ids": [
+        "es-chem-wmo-2022"
+      ]
+    }
+  }
+}

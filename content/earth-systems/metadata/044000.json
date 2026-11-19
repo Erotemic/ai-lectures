@@ -1,0 +1,263 @@
+{
+  "schema_version": 1,
+  "lecture_id": "044000",
+  "transcript": "044000-where-the-ocean-turns-over.md",
+  "description": "The three-dimensional overturning circulation, density and freshwater effects, Southern Ocean upwelling, turbulent mixing and ventilation tracers, with RAPID observations and calibrated AMOC uncertainty.",
+  "tags": [
+    "Deep ocean circulation",
+    "Atlantic Meridional Overturning Circulation",
+    "AMOC",
+    "Southern Ocean",
+    "Antarctic Bottom Water",
+    "North Atlantic Deep Water",
+    "Ocean density",
+    "Temperature salinity pressure",
+    "Ocean stratification",
+    "Brine rejection",
+    "Deep convection",
+    "Geostrophic circulation",
+    "Wind-driven upwelling",
+    "Diapycnal mixing",
+    "Internal waves",
+    "Ocean ventilation",
+    "Dissolved oxygen",
+    "Ocean carbon uptake",
+    "Ocean tracer ages",
+    "Sverdrup transport",
+    "RAPID observing array",
+    "2004 AMOC observations",
+    "2026 RAPID data release",
+    "Ocean heat transport",
+    "Ocean climate projections",
+    "Climate tipping risk"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Earth science",
+      "Earth systems",
+      "Ocean density and water-mass formation"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth systems",
+      "Overturning versus Gulf Stream"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth systems",
+      "Southern Ocean upwelling and Antarctic Bottom Water"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth systems",
+      "Mixing and mechanical ocean energy"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth systems",
+      "Ocean ventilation and oxygen-carbon storage"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth systems",
+      "RAPID array and transport in sverdrups"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth systems",
+      "AMOC projection and trend uncertainty"
+    ],
+    [
+      "Place: Atlantic Ocean",
+      "Place: North Atlantic"
+    ],
+    [
+      "Place: Southern Ocean",
+      "Place: Antarctica"
+    ],
+    [
+      "Place: Atlantic Ocean",
+      "Place: 26.5 degrees north",
+      "Place: RAPID observing array"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Historical case studies",
+      "2004 RAPID array"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "es-ocean-ipcc9",
+      "reason": "AMOC, Southern Ocean, stratification, global overturning and scenario uncertainty."
+    },
+    {
+      "source_id": "es-ocean-ipcc2",
+      "reason": "Instrumental and paleoclimate evidence limits on long-term AMOC trends."
+    },
+    {
+      "source_id": "es-ocean-noaa",
+      "reason": "An accessible overview of Atlantic heat transport, deep-water formation and overturning."
+    },
+    {
+      "source_id": "es-ocean-rapid",
+      "reason": "Cross-basin AMOC observing program, 26.5 N from April 2004 to March 2024, 2026 dataset publication."
+    },
+    {
+      "source_id": "es-ocean-ipccspm",
+      "reason": "Very likely AMOC decline and medium confidence against abrupt collapse before 2100."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "044000-e01",
+      "anchor": "Atlantic Meridional Overturning Circulation",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-ocean-ipcc9"
+      ],
+      "source_locator": "Atlantic upper/deep opposing branches and heat transport.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "044000-e02",
+      "anchor": "it is not identical to the Gulf Stream",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-ocean-ipcc9"
+      ],
+      "source_locator": "Gulf Stream and overturning are related but different circulations.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "044000-e03",
+      "anchor": "Antarctic Bottom Water",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-ocean-ipcc9"
+      ],
+      "source_locator": "Distinct abyssal water-mass formation near Antarctica.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "044000-e04",
+      "anchor": "The Southern Ocean plays an important role",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-ocean-ipcc9"
+      ],
+      "source_locator": "Southern Ocean wind-driven upwelling, eddies and mixing.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "044000-e05",
+      "anchor": "Ocean ventilation is the process",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-ocean-ipcc9"
+      ],
+      "source_locator": "Ventilation, dissolved oxygen, carbon and mixed transport time distributions.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "044000-e06",
+      "anchor": "RAPID observing array began continuous monitoring in 2004",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-ocean-rapid"
+      ],
+      "source_locator": "Array at 26.5N since April 2004.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "044000-e07",
+      "anchor": "The published data set covering April 2004 through March 2024",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-ocean-rapid"
+      ],
+      "source_locator": "Published 2026 RAPID observational record and time window.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "044000-e08",
+      "anchor": "One sverdrup is one million cubic meters",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-ocean-rapid"
+      ],
+      "source_locator": "Transport unit used in RAPID observations.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "044000-e09",
+      "anchor": "short compared with some natural fluctuations",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-ocean-ipcc2"
+      ],
+      "source_locator": "Long-term trend identification limited by observing record and variability.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "044000-e10",
+      "anchor": "very likely to weaken during the twenty-first century",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-ocean-ipccspm"
+      ],
+      "source_locator": "IPCC AR6 projected weakening; magnitude lower confidence.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "044000-e11",
+      "anchor": "with medium confidence, that an abrupt collapse would not occur before 2100",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-ocean-ipccspm"
+      ],
+      "source_locator": "Specific assessment confidence in absence of abrupt collapse before 2100.",
+      "audit_status": "source_checked"
+    }
+  ],
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Defines density, stratification, transport units and observational inference from scratch; distinguishes measured currents from scenarios."
+    ],
+    "readiness_checks": [
+      "Why do water temperature and salinity both matter for deep mixing?",
+      "Why does a global ocean circulation require mechanical mixing and wind forcing?",
+      "How can a gas tracer reveal ventilation history without assigning one age to all molecules?",
+      "Why is the Gulf Stream not the same thing as the AMOC?",
+      "What is the difference between observing a trend and projecting response to future forcing?"
+    ]
+  },
+  "places": [
+    "North Atlantic Ocean",
+    "Atlantic Ocean near 26.5°N",
+    "Southern Ocean",
+    "Antarctic coastal waters"
+  ],
+  "chronology": {
+    "period": {
+      "start": 2004,
+      "end": 2024,
+      "label": "RAPID Atlantic overturning observations at 26.5°N, April 2004–March 2024",
+      "basis": "dated continuous ocean observation interval",
+      "note": "The 2026 source publication covers measurements from April 2004 to March 2024. These dates do not date the origin of AMOC.",
+      "source_ids": [
+        "es-ocean-rapid"
+      ]
+    }
+  }
+}

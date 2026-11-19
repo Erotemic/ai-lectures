@@ -1,6 +1,6 @@
 # Earth as a System: Air, Water, Ocean, and Climate
 
-**Status:** forty complete narrated lectures (001000–040000), with targeted additions possible when a distinct subject warrants them. The first four establish the physical foundation; carbon, frozen water and landscape chapters connect reservoirs; three lectures develop ENSO; five follow the mechanisms and impacts of extreme weather; four connect the nitrogen, phosphorus and oxygen cycles through soils, waters and microbes; six reconstruct past climate, six develop how Earth-system models work, five follow the changing coast, and four explain groundwater below the visible watershed.
+**Status:** forty-five complete narrated lectures (001000–045000), with targeted additions possible when a distinct subject warrants them. The first four establish the physical foundation; carbon, frozen water and landscape chapters connect reservoirs; three lectures develop ENSO; five follow the mechanisms and impacts of extreme weather; four connect the nitrogen, phosphorus and oxygen cycles through soils, waters and microbes; six reconstruct past climate, six develop how Earth-system models work, five follow the changing coast, four explain groundwater below the visible watershed, and five extend the picture through monsoons, atmospheric chemistry and aerosols, deep-ocean overturning, and land-atmosphere feedbacks.
 
 The course explains the coupled Earth system by following energy, water, carbon, geological material and information in ocean-atmosphere feedbacks. Each manuscript has a single spoken region and a non-spoken scientific companion containing source notes, definitions and questions.
 
@@ -48,8 +48,15 @@ The course explains the coupled Earth system by following energy, water, carbon,
 | 038000 | The River After the Rain | Gaining and losing streams, hyporheic exchange, springs and baseflow |
 | 039000 | A Well Can Move the Ground | Groundwater depletion, capture, effective stress and subsidence |
 | 040000 | The Water Has a History | Tracer ages, well mixing, geochemistry, arsenic and saltwater intrusion |
+| 041000 | When the Rains Change Direction | How seasonal circulation, cross-equatorial winds, tropical convection, moisture convergence and regional geography create monsoons, with South Asian, West African and North American case studies |
+| 042000 | The Chemistry Between Clouds | How sunlight and NOx/VOC chemistry make ground-level ozone, why radicals regulate oxidation, how deposition transports pollution, and why stratospheric ozone is a different problem |
+| 043000 | A Speck of Dust Changes the Sky | How primary and secondary aerosol particles scatter and absorb light, seed cloud droplets, influence rainfall and regional circulation, and why Pinatubo provides a distinct stratospheric example |
+| 044000 | Where the Ocean Turns Over | The three-dimensional overturning circulation, density and freshwater effects, Southern Ocean upwelling, turbulent mixing and ventilation tracers, with RAPID observations and calibrated AMOC uncertainty |
+| 045000 | The Ground Changes the Weather | Why surface energy partition, soil water, stomata, vegetation, albedo and roughness feed back on heatwaves, clouds and rainfall, with examples from the Sahel and Amazon |
 
-The `earth-as-a-system` route includes all forty lectures. The shorter `earth-foundations-four` and ENSO routes remain intact. Further routes include `living-chemistry` (four new lectures), `nutrients-through-water` and `oxygen-in-time`. Earlier routes include `extreme-weather-mechanisms` (the five new lectures), `water-extremes` (water cycle, atmospheric rivers, drought), and `climate-attribution-and-hazards` (extreme event physics and attribution). The optional `water-beneath-the-land` route has all four groundwater lectures; `the-whole-water-cycle` connects them to rainfall, atmospheric rivers and drought.
+The `earth-as-a-system` route includes all forty-five lectures. The shorter `earth-foundations-four` and ENSO routes remain intact. Further routes include `living-chemistry` (four new lectures), `nutrients-through-water` and `oxygen-in-time`. Earlier routes include `extreme-weather-mechanisms` (the five new lectures), `water-extremes` (water cycle, atmospheric rivers, drought), and `climate-attribution-and-hazards` (extreme event physics and attribution). The optional `water-beneath-the-land` route has all four groundwater lectures; `the-whole-water-cycle` connects them to rainfall, atmospheric rivers and drought.
+
+The optional `seasons-in-a-coupled-climate` route includes the five latest lectures. Cross-cutting routes `monsoon-rainbelt-and-aerosols`, `chemistry-of-the-sky`, `ocean-mixing-and-memory` and `land-water-heat-feedback` connect them to earlier foundations.
 
 ## Editorial conventions
 

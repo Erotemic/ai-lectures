@@ -1491,6 +1491,146 @@
       "kind": "government_research_program",
       "access": "free_no_login",
       "notes": "Fresh-saline interface, pumping reversal and mapped groundwater transition on Long Island."
+    },
+    "es-monsoon-nws": {
+      "title": "NOAA National Weather Service, Monsoon Information Page",
+      "url": "https://www.weather.gov/twc/MonsoonInfo",
+      "kind": "government_science_explainer",
+      "access": "free_no_login",
+      "notes": "Regional seasonal wind shift, North American moisture and topographic influences."
+    },
+    "es-monsoon-ipcc8": {
+      "title": "IPCC AR6 WGI Chapter 8, Water Cycle Changes (2021)",
+      "url": "https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-8/",
+      "kind": "international_assessment",
+      "access": "free_no_login",
+      "notes": "Column water budgets, rainfall intensification, aerosol influence on tropical rain belts and monsoons."
+    },
+    "es-monsoon-ipccts": {
+      "title": "IPCC AR6 WGI Technical Summary, Box TS.13 Monsoons (2021)",
+      "url": "https://www.ipcc.ch/report/ar6/wg1/chapter/technical-summary/",
+      "kind": "international_assessment",
+      "access": "free_no_login",
+      "notes": "Regional monsoon climate evidence, attribution and qualified future projections."
+    },
+    "es-monsoon-atlas": {
+      "title": "IPCC AR6 WGI Atlas: South Asia (2021)",
+      "url": "https://www.ipcc.ch/report/ar6/wg1/chapter/atlas/",
+      "kind": "international_assessment",
+      "access": "free_no_login",
+      "notes": "South Asian monsoon geography, mountains, precipitation seasonality and regional climate context."
+    },
+    "es-chem-epa-ozone": {
+      "title": "US EPA, Ground-level Ozone Basics",
+      "url": "https://www.epa.gov/ground-level-ozone-pollution/ground-level-ozone-basics",
+      "kind": "government_science_explainer",
+      "access": "free_no_login",
+      "notes": "Ground-level ozone as secondary pollutant from NOx and VOC reactions in sunlight."
+    },
+    "es-chem-epa-2026": {
+      "title": "US EPA, Overview of Ozone (O3) Air Quality in the United States: 2025 Measurements (report 2026)",
+      "url": "https://www.epa.gov/system/files/documents/2026-06/o3_2025.pdf",
+      "kind": "government_technical_report",
+      "access": "free_no_login",
+      "notes": "Detailed NOx-VOC ozone nonlinear photochemistry, limited and VOC-sensitive regimes; dates a report, not generic chemistry."
+    },
+    "es-chem-epa-profile": {
+      "title": "US EPA, What Is Ozone?",
+      "url": "https://www.epa.gov/ozone-pollution-and-your-patients-health/what-ozone",
+      "kind": "government_science_explainer",
+      "access": "free_no_login",
+      "notes": "Stratospheric UV-protective ozone versus tropospheric air pollutant."
+    },
+    "es-chem-wmo-2022": {
+      "title": "WMO/UNEP Scientific Assessment of Ozone Depletion 2022, Executive Summary",
+      "url": "https://csl.noaa.gov/assessments/ozone/2022/executivesummary/",
+      "kind": "international_assessment",
+      "access": "free_no_login",
+      "notes": "Montreal Protocol ozone-depleting substances, upper-stratospheric recovery, regional and scenario uncertainty."
+    },
+    "es-chem-ipcc6": {
+      "title": "IPCC AR6 WGI Chapter 6, Short-lived Climate Forcers (2021)",
+      "url": "https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-6/",
+      "kind": "international_assessment",
+      "access": "free_no_login",
+      "notes": "Tropospheric ozone, short-lived reactive gases, aerosol chemistry and climate forcing."
+    },
+    "es-aero-nasa": {
+      "title": "NASA Earth Observatory, Aerosols: Tiny Particles, Big Impact",
+      "url": "https://science.nasa.gov/earth/earth-observatory/aerosols/",
+      "kind": "government_science_explainer",
+      "access": "free_no_login",
+      "notes": "Primary and secondary particles, scattering, soot absorption, 1991 Pinatubo and climate response."
+    },
+    "es-aero-deepblue": {
+      "title": "NASA GSFC Deep Blue, Aerosols and Their Importance",
+      "url": "https://earth.gsfc.nasa.gov/climate/data/deep-blue/aerosols",
+      "kind": "government_observation_program",
+      "access": "free_no_login",
+      "notes": "Aerosol cloud condensation nuclei, droplet size and aerosol-cloud interactions."
+    },
+    "es-aero-ipcc7": {
+      "title": "IPCC AR6 WGI Chapter 7, Earth Energy Budget and Climate Feedbacks (2021)",
+      "url": "https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-7/",
+      "kind": "international_assessment",
+      "access": "free_no_login",
+      "notes": "Anthropogenic aerosol radiative forcing and uncertainties from aerosol-cloud interactions."
+    },
+    "es-ocean-ipcc9": {
+      "title": "IPCC AR6 WGI Chapter 9, Ocean, Cryosphere and Sea Level Change (2021)",
+      "url": "https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-9/",
+      "kind": "international_assessment",
+      "access": "free_no_login",
+      "notes": "AMOC, Southern Ocean, stratification, global overturning and scenario uncertainty."
+    },
+    "es-ocean-ipcc2": {
+      "title": "IPCC AR6 WGI Chapter 2, Changing State of the Climate System (2021)",
+      "url": "https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-2/",
+      "kind": "international_assessment",
+      "access": "free_no_login",
+      "notes": "Instrumental and paleoclimate evidence limits on long-term AMOC trends."
+    },
+    "es-ocean-noaa": {
+      "title": "NOAA National Ocean Service, What Is the AMOC?",
+      "url": "https://oceanservice.noaa.gov/facts/amoc.html",
+      "kind": "government_science_explainer",
+      "access": "free_no_login",
+      "notes": "An accessible overview of Atlantic heat transport, deep-water formation and overturning."
+    },
+    "es-ocean-rapid": {
+      "title": "BODC, RAPID-MOCHA-WBTS 26N 2004-2024 overturning observations (published 2026)",
+      "url": "https://doi.org/10.5285/48d0bf43-0598-ceb2-e063-7086abc062f1",
+      "kind": "government_data_release",
+      "access": "free_no_login",
+      "notes": "Cross-basin AMOC observing program, 26.5 N from April 2004 to March 2024, 2026 dataset publication."
+    },
+    "es-ocean-ipccspm": {
+      "title": "IPCC AR6 WGI Summary for Policymakers (2021)",
+      "url": "https://www.ipcc.ch/report/ar6/wg1/chapter/summary-for-policymakers/",
+      "kind": "international_assessment",
+      "access": "free_no_login",
+      "notes": "Very likely AMOC decline and medium confidence against abrupt collapse before 2100."
+    },
+    "es-land-ipcc10": {
+      "title": "IPCC AR6 WGI Chapter 10, Linking Global to Regional Climate Change (2021)",
+      "url": "https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-10/",
+      "kind": "international_assessment",
+      "access": "free_no_login",
+      "notes": "Box 10.1, land cover, soil moisture anomalies and summer heat extremes."
+    },
+    "es-land-ipccsr": {
+      "title": "IPCC Special Report on Climate Change and Land, Chapter 2 (2019)",
+      "url": "https://www.ipcc.ch/srccl/chapter/chapter-2/",
+      "kind": "international_assessment",
+      "access": "free_no_login",
+      "notes": "Surface energy, dry soil heatwave feedback, vegetation and land-climate interaction."
+    },
+    "es-land-ipccwg2": {
+      "title": "IPCC AR6 WGII Chapter 4, Water (2022)",
+      "url": "https://www.ipcc.ch/report/ar6/wg2/chapter/chapter-4/",
+      "kind": "international_assessment",
+      "access": "free_no_login",
+      "notes": "Stomatal response to CO2, leaf area, evapotranspiration and water cycling."
     }
   }
 }

@@ -1,0 +1,245 @@
+{
+  "schema_version": 1,
+  "lecture_id": "045000",
+  "transcript": "045000-the-ground-changes-the-weather.md",
+  "description": "Why surface energy partition, soil water, stomata, vegetation, albedo and roughness feed back on heatwaves, clouds and rainfall, with examples from the Sahel and Amazon.",
+  "tags": [
+    "Land-atmosphere coupling",
+    "Surface energy budget",
+    "Net radiation",
+    "Sensible heat flux",
+    "Latent heat flux",
+    "Evapotranspiration",
+    "Soil moisture memory",
+    "Water-limited evaporation",
+    "Energy-limited evaporation",
+    "Boundary layer",
+    "Convection triggering",
+    "Vegetation physiology",
+    "Plant stomata",
+    "Vapor pressure deficit",
+    "Rooting depth",
+    "Forest albedo",
+    "Snow masking",
+    "Aerodynamic roughness",
+    "Land use change",
+    "Irrigation cooling",
+    "Groundwater irrigation",
+    "Soil moisture heatwave feedback",
+    "Land wildfire feedback",
+    "Sahel vegetation",
+    "Amazon evapotranspiration",
+    "Eddy covariance",
+    "Satellite soil moisture",
+    "Subgrid heterogeneity"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Earth science",
+      "Earth systems",
+      "Surface energy partition into sensible and latent heat"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth systems",
+      "Soil-moisture feedback and heatwaves"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth systems",
+      "Vegetation transpiration and stomatal regulation"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth systems",
+      "Boundary layer humidity and convection"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth systems",
+      "Forest albedo roughness and snow masking"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth systems",
+      "Irrigation and land-use change tradeoffs"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth systems",
+      "Fire and atmosphere feedback"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth systems",
+      "Measurement and model identification"
+    ],
+    [
+      "Place: Africa",
+      "Place: West Africa",
+      "Place: Sahel"
+    ],
+    [
+      "Place: South America",
+      "Place: Amazon Basin"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Climate processes",
+      "Land atmosphere interactions"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "es-land-ipcc10",
+      "reason": "Box 10.1, land cover, soil moisture anomalies and summer heat extremes."
+    },
+    {
+      "source_id": "es-land-ipccsr",
+      "reason": "Surface energy, dry soil heatwave feedback, vegetation and land-climate interaction."
+    },
+    {
+      "source_id": "es-monsoon-ipcc8",
+      "reason": "Column water budgets, rainfall intensification, aerosol influence on tropical rain belts and monsoons."
+    },
+    {
+      "source_id": "es-aero-ipcc7",
+      "reason": "Anthropogenic aerosol radiative forcing and uncertainties from aerosol-cloud interactions."
+    },
+    {
+      "source_id": "es-land-ipccwg2",
+      "reason": "Stomatal response to CO2, leaf area, evapotranspiration and water cycling."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "045000-e01",
+      "anchor": "Some warms the air directly; this is sensible heat",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-aero-ipcc7"
+      ],
+      "source_locator": "Surface partitioning into sensible heat, latent heat and storage.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "045000-e02",
+      "anchor": "Together, evaporation and transpiration are called evapotranspiration",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-monsoon-ipcc8"
+      ],
+      "source_locator": "Land-surface vapor source terms.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "045000-e03",
+      "anchor": "Stomata provide a connection between biology and the planetary water cycle",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-land-ipccwg2"
+      ],
+      "source_locator": "Leaf physiology, CO2 response and evaporation changes.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "045000-e04",
+      "anchor": "dry soil moisture anomalies favor summer heat waves",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-land-ipcc10",
+        "es-land-ipccsr"
+      ],
+      "source_locator": "Land temperature feedback in water-limited regions.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "045000-e05",
+      "anchor": "The air immediately above the surface is called the atmospheric boundary layer",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-land-ipcc10"
+      ],
+      "source_locator": "Boundary layer coupling, sensible and latent heat exchange.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "045000-e06",
+      "anchor": "A dark forest canopy can absorb more sunlight",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-land-ipccsr"
+      ],
+      "source_locator": "Albedo, snow masking, evapotranspiration and latitude-dependent responses.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "045000-e07",
+      "anchor": "Adding water to cropland can increase evaporation and cool",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-aero-ipcc7",
+        "es-land-ipccsr"
+      ],
+      "source_locator": "Irrigation changes energy and water budgets.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "045000-e08",
+      "anchor": "The Sahel provides a case",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-monsoon-ipcc8"
+      ],
+      "source_locator": "Local surface interactions and remote monsoon forcing.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "045000-e09",
+      "anchor": "Forests contribute substantial moisture through evapotranspiration",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-land-ipccsr"
+      ],
+      "source_locator": "Forest transpiration and continental moisture recycling.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "045000-e10",
+      "anchor": "Towers equipped for eddy covariance",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-land-ipcc10"
+      ],
+      "source_locator": "Surface heat, water vapor and carbon flux measurement techniques.",
+      "audit_status": "source_checked"
+    }
+  ],
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Explains surface flux terms in plain language before adding plant biology and coupled feedbacks."
+    ],
+    "readiness_checks": [
+      "Why can equal net radiation produce different surface temperatures?",
+      "Why does a wetter soil not always mean noticeably higher evaporation?",
+      "How can deep roots and stomatal regulation change the seasonal effect of drought?",
+      "How can irrigation cool a site while imposing costs on the water cycle elsewhere?",
+      "Which measurements would separate correlation from soil-moisture-driven heat feedback?"
+    ]
+  },
+  "places": [
+    "Sahel, West Africa",
+    "Amazon Basin, South America"
+  ]
+}

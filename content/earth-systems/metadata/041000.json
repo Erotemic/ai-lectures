@@ -1,0 +1,238 @@
+{
+  "schema_version": 1,
+  "lecture_id": "041000",
+  "transcript": "041000-when-the-rains-change-direction.md",
+  "description": "How seasonal circulation, cross-equatorial winds, tropical convection, moisture convergence and regional geography create monsoons, with South Asian, West African and North American case studies.",
+  "tags": [
+    "Monsoon dynamics",
+    "Seasonal wind reversal",
+    "Intertropical convergence zone",
+    "ITCZ migration",
+    "Cross-equatorial flow",
+    "Coriolis effect",
+    "Thermal low",
+    "Monsoon trough",
+    "Orographic rainfall",
+    "Moisture convergence",
+    "Column moisture budget",
+    "Latent heat feedback",
+    "Active-break monsoon spells",
+    "South Asian monsoon",
+    "Western Ghats",
+    "Bay of Bengal",
+    "Tibetan Plateau",
+    "Sahel rainfall",
+    "West African monsoon",
+    "1970s–1980s Sahel drought",
+    "North American monsoon",
+    "Gulf of California",
+    "Seasonal prediction",
+    "ENSO monsoon interactions",
+    "Anthropogenic aerosols",
+    "Greenhouse forcing"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Earth science",
+      "Earth systems",
+      "Monsoon circulation and the moving tropical rain belt"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth systems",
+      "Column water-vapor convergence and latent heat"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth systems",
+      "Seasonal versus intraseasonal monsoon variability"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth systems",
+      "Aerosol influence on regional monsoon rainfall"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Earth systems",
+      "Probabilistic regional monsoon prediction"
+    ],
+    [
+      "Place: Asia",
+      "Place: South Asia",
+      "Place: India",
+      "Place: Monsoon"
+    ],
+    [
+      "Place: Asia",
+      "Place: South Asia",
+      "Place: Bay of Bengal"
+    ],
+    [
+      "Place: Africa",
+      "Place: West Africa",
+      "Place: Sahel"
+    ],
+    [
+      "Place: North America",
+      "Place: United States",
+      "Place: Arizona and New Mexico"
+    ],
+    [
+      "Place: North America",
+      "Place: Mexico",
+      "Place: Gulf of California"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "es-monsoon-nws",
+      "reason": "Regional seasonal wind shift, North American moisture and topographic influences."
+    },
+    {
+      "source_id": "es-monsoon-ipcc8",
+      "reason": "Column water budgets, rainfall intensification, aerosol influence on tropical rain belts and monsoons."
+    },
+    {
+      "source_id": "es-monsoon-ipccts",
+      "reason": "Regional monsoon climate evidence, attribution and qualified future projections."
+    },
+    {
+      "source_id": "es-monsoon-atlas",
+      "reason": "South Asian monsoon geography, mountains, precipitation seasonality and regional climate context."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "041000-e01",
+      "anchor": "a monsoon is not simply a very large sea breeze",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-monsoon-nws"
+      ],
+      "source_locator": "Monsoon regional and seasonal circulation compared with diurnal sea breezes.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "041000-e02",
+      "anchor": "intertropical convergence zone",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-monsoon-ipcc8"
+      ],
+      "source_locator": "Tropical convergence belt, seasonal migration, atmospheric energy balance.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "041000-e03",
+      "anchor": "A simple water budget clarifies",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-monsoon-ipcc8"
+      ],
+      "source_locator": "Atmospheric water vapor flux convergence and rainfall budget.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "041000-e04",
+      "anchor": "The South Asian monsoon gives this feedback",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-monsoon-atlas",
+        "es-monsoon-ipccts"
+      ],
+      "source_locator": "South Asian summer rainfall and topographic influences.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "041000-e05",
+      "anchor": "The West African monsoon brings",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-monsoon-ipccts"
+      ],
+      "source_locator": "West African monsoon and Sahel spatial climatology.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "041000-e06",
+      "anchor": "The dry conditions of the 1970s and 1980s",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-monsoon-ipcc8",
+        "es-monsoon-ipccts"
+      ],
+      "source_locator": "Drought period, aerosol-associated hemispheric cooling and ITCZ shift.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "041000-e07",
+      "anchor": "southwestern United States and northwestern Mexico",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-monsoon-nws"
+      ],
+      "source_locator": "Seasonal North American monsoon over the Southwest and Mexico.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "041000-e08",
+      "anchor": "Seasonal prediction is not a day-by-day forecast",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-monsoon-ipccts"
+      ],
+      "source_locator": "Regional seasonal outlooks and variable monsoon skill.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "041000-e09",
+      "anchor": "The IPCC's sixth assessment found",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-monsoon-ipccts",
+        "es-monsoon-ipcc8"
+      ],
+      "source_locator": "Aerosol offset of greenhouse-gas monsoon rainfall response and regional uncertainty.",
+      "audit_status": "source_checked"
+    }
+  ],
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Introduces pressure, moisture transport and latent heat before comparing the three distinct monsoon regions."
+    ],
+    "readiness_checks": [
+      "How do monsoons differ from diurnal sea breezes?",
+      "Why does higher humidity not guarantee higher rainfall?",
+      "Why can a region have extreme storms in an otherwise dry monsoon season?",
+      "How can aerosols outside a monsoon region influence its rainfall?"
+    ]
+  },
+  "places": [
+    "South Asia (India and Bay of Bengal)",
+    "Western Ghats, India",
+    "Sahel, West Africa",
+    "Arizona and New Mexico, United States",
+    "Northwestern Mexico and Gulf of California, Mexico"
+  ],
+  "chronology": {
+    "period": {
+      "start": 1970,
+      "end": 1989,
+      "label": "Sahel drought during the 1970s and 1980s discussed in the lecture",
+      "basis": "assessed historical climate interval",
+      "note": "Dates the documented Sahel drought interval, not the existence of monsoons or the dates of the physical mechanisms.",
+      "source_ids": [
+        "es-monsoon-ipcc8",
+        "es-monsoon-ipccts"
+      ]
+    }
+  }
+}
