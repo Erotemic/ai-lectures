@@ -213,6 +213,7 @@ export class LectureAudio {
       text: "Cache whole lecture",
       onclick: () => this.prepare(false),
     });
+    this.generationNotice = el("p", {class:"muted", role:"status", hidden:true});
     this.clearCache = el("button", {
       type: "button", text: "Clear this voice’s cache", disabled: true,
       onclick: () => this.clearVoiceCache(),
@@ -265,7 +266,7 @@ export class LectureAudio {
     this.audioSummary = el("summary", { text: "Audio blocks & generation" });
     this.advanced = el("details", { class: "audio-tools" },
       this.audioSummary,
-      this.cache, this.stop, this.clearCache,
+      this.stop, this.clearCache,
       this.generationQueueLink,
       el("div", { class: "filters" },
         el("label", { class: "check" }, this.continueBlocks, "Continue to next blocks"),
@@ -281,8 +282,9 @@ export class LectureAudio {
       el(
         "div",
         { class: "actions" },
-        this.playButton,
+        this.playButton, this.cache,
       ),
+      this.generationNotice,
       this.status,
       this.advanced,
     );
@@ -457,7 +459,20 @@ export class LectureAudio {
     this.clearCache.textContent = savedProfiles ? "Clear this profile’s cache" : "Clear this voice’s cache";
     this.audioSummary.textContent = this.data.tools_available ? "Audio blocks & generation" : "Audio blocks";
     this.voiceLabelText.textContent = savedProfiles ? "Voice profile for playback and generation" : this.data.tools_available ? "Voice for playback and generation" : "Voice for playback";
-    this.clearCache.hidden = this.cache.hidden = this.stop.hidden = !canGenerate;
+    const generationTarget = this.choices.find(c => c.profile && c.available !== false && c.server_default) || this.choices.find(c => c.profile && c.available !== false);
+    this.cache.hidden = !this.data.tools_available || !generationTarget;
+    this.clearCache.hidden = this.stop.hidden = !canGenerate;
+    const useChoice = key => {this.voiceOptions(key);this.select.value=key;this.choose();};
+    this.generationNotice.replaceChildren();
+    if (this.data.tools_available && !canGenerate && generationTarget) {
+      this.generationNotice.append("This saved recording remains playable. Select a current voice profile to cache new audio. ",
+        el("button", {type:"button", text:"Use " + generationTarget.label, onclick:()=>useChoice(generationTarget.key)}));
+    } else if (canGenerate && !this.choice?.recording_id && this.row.recordings.some(r=>r.segments.length)) {
+      const prepared=this.choices.find(c=>c.recording_complete)||this.choices.find(c=>c.recording_id);
+      this.generationNotice.append(...["No audio is cached for this profile revision yet. Other prepared recordings are available. ",
+        prepared ? el("button", {type:"button",text:"Use available recording",onclick:()=>useChoice(prepared.key)}):null].filter(Boolean));
+    }
+    this.generationNotice.hidden = !this.generationNotice.childNodes.length;
     this.clearCache.disabled = !canGenerate || this.submitting || this.clearing;
     this.generations.hidden = !canGenerate;
     this.generationQueueLink.hidden = !canGenerate;
@@ -485,7 +500,7 @@ export class LectureAudio {
       ? "This voice is already queued for whole-lecture preparation. See its progress below."
       : "Generate missing blocks for the selected voice; reuse existing audio.";
     this.cache.disabled =
-      !this.choice?.profile ||
+      !canGenerate ||
       !this.data.tools_available ||
       this.submitting || this.clearing ||
       wholeLectureActive;

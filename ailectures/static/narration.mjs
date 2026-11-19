@@ -24,8 +24,12 @@ export class NarrationControls {
         el("option", {
           value: profile.id,
           text:
-            profile.label + (profile.output_format === "ogg" ? " · Ogg Opus" : "") +
-            (profile.reachable === false ? " · unavailable" : ""),
+            profile.label +
+            (profile.output_format === "ogg" ? " · Ogg Opus" : "") +
+            (profile.reachable === false || profile.available === false
+              ? " · unavailable"
+              : ""),
+          disabled: profile.available === false,
         }),
       ),
     );
@@ -33,20 +37,39 @@ export class NarrationControls {
       "production-profile",
       oldPreference("profile"),
     );
-    this.profile.value = profiles.profiles.some((row) => row.id === remembered)
+    const selectable = profiles.profiles.filter(
+      (row) => row.available !== false,
+    );
+    this.profile.value = selectable.some((row) => row.id === remembered)
       ? remembered
-      : profiles.default_profile || this.profile.value;
+      : selectable.find((row) => row.id === profiles.default_profile)?.id ||
+        selectable[0]?.id ||
+        "";
     this.fixedProfiles = profiles.schema === "voice-profiles-v1";
     if (this.fixedProfiles) {
       const note = el("p", { class: "muted" });
       const update = () => {
         const row = this.selectedProfile();
-        note.textContent = row ? `${row.model} · ${row.output_format === "ogg" ? "Ogg Opus" : "MP3"} · saved recipe ${row.revision.slice(0, 8)}${row.available ? "" : " · backend unavailable"}` : "Choose a saved voice profile.";
+        note.textContent = row
+          ? `${row.model} · ${row.output_format === "ogg" ? "Ogg Opus" : "MP3"} · saved recipe ${row.revision.slice(0, 8)}${row.available ? "" : " · backend unavailable"}`
+          : "Choose a saved voice profile.";
       };
       this.profile.setAttribute("aria-label", "Voice profile");
-      this.profile.onchange = () => { store("production-profile", this.profile.value); this.rememberChoice(); update(); this.onChange?.(); };
-      this.root.append(el("label", {}, "Voice profile", this.profile), note,
-        el("a", { href: "/settings#voice-profiles", "data-nav": "", text: "Manage saved voice profiles" }));
+      this.profile.onchange = () => {
+        store("production-profile", this.profile.value);
+        this.rememberChoice();
+        update();
+        this.onChange?.();
+      };
+      this.root.append(
+        el("label", {}, "Voice profile", this.profile),
+        note,
+        el("a", {
+          href: "/settings#voice-profiles",
+          "data-nav": "",
+          text: "Manage saved voice profiles",
+        }),
+      );
       update();
       return;
     }
@@ -132,12 +155,19 @@ export class NarrationControls {
     );
   }
   rememberChoice() {
-    if (this.fixedProfiles) { store("narrator-choice", "profile:" + this.profile.value); return; }
+    if (this.fixedProfiles) {
+      store("narrator-choice", "profile:" + this.profile.value);
+      return;
+    }
     const settings = this.settings();
     store("narrator-choice", `tts:${settings.profile}:${settings.voice}`);
   }
   settings() {
-    if (this.fixedProfiles) return { profile: this.profile.value, profile_revision: this.selectedProfile()?.revision };
+    if (this.fixedProfiles)
+      return {
+        profile: this.profile.value,
+        profile_revision: this.selectedProfile()?.revision,
+      };
     return {
       profile: this.profile.value,
       voice: this.custom.value.trim() || this.voice.value,
@@ -190,6 +220,31 @@ export class NarrationControls {
   }
 }
 
+export function matchesPreparation(job, settings) {
+  return (
+    job.profile === settings.profile &&
+    (settings.profile_revision
+      ? job.profile_revision === settings.profile_revision
+      : job.voice === settings.voice && job.speed === settings.speed)
+  );
+}
+
+export function wholePreparationQueued(jobs, selection) {
+  const ids = selection.lecture_id
+    ? [selection.lecture_id]
+    : selection.lecture_ids;
+  const active = jobs.filter(
+    (job) =>
+      ["queued", "running"].includes(job.state) &&
+      job.requested_blocks === null,
+  );
+  if (ids) {
+    const queued = new Set(active.map((job) => job.lecture_id));
+    return ids.length > 0 && ids.every((id) => queued.has(id));
+  }
+  return active.length > 0 && active.length === jobs.length;
+}
+
 export function preparationPanel({
   lectureId = null,
   courseId = null,
@@ -215,7 +270,7 @@ export function preparationPanel({
       ? "Cache whole lecture"
       : courseId
         ? "Queue whole collection"
-        : "Queue all lectures in this library",
+        : "Queue all lectures",
   });
   const stop = el("button", {
     type: "button",
@@ -256,6 +311,7 @@ export function preparationPanel({
         status.textContent =
           "Generation requires the production tools on this server.";
       let pending = [];
+      const selectedLectures = new Set(lectureIds || []);
       const selection = lectureId
         ? { lecture_id: lectureId, ...(revision ? { revision } : {}) }
         : courseId
@@ -268,17 +324,18 @@ export function preparationPanel({
             (lectureId
               ? job.lecture_id === lectureId &&
                 (!revision || job.revision === revision)
-              : pending.some((item) => item.id === job.id)) &&
-            job.profile === settings.profile &&
-            job.voice === settings.voice &&
-            job.speed === settings.speed,
+              : lectureIds
+                ? selectedLectures.has(job.lecture_id)
+                : pending.some((item) => item.id === job.id)) &&
+            matchesPreparation(job, settings),
         );
         pending = jobs;
         const unfinished = jobs.filter((job) =>
           ["queued", "running"].includes(job.state),
         );
         stop.disabled = !unfinished.length;
-        submit.disabled = !profiles.tools_available || unfinished.length > 0;
+        submit.disabled =
+          !profiles.tools_available || wholePreparationQueued(jobs, selection);
         const completed = jobs.find((job) => job.state === "ready");
         ready.hidden = !completed || !onPlay;
         ready.onclick = () => onPlay?.(completed);
@@ -322,13 +379,13 @@ export function preparationPanel({
             ["queued", "running"].includes(job.state),
           );
           const count = result.jobs?.length || 1;
-          status.textContent = `${count === 1 ? "Lecture" : count + " lectures"} queued for ${settings.voice}. Completed matching audio blocks are reused.`;
+          status.textContent = `${count === 1 ? "Lecture" : count + " lectures"} queued for ${narrator.selectedProfile()?.label || settings.voice || settings.profile}. Completed matching audio blocks are reused.`;
         } catch (error) {
           status.textContent = error.message;
         } finally {
           submit.disabled =
             !profiles.tools_available ||
-            pending.some((job) => ["queued", "running"].includes(job.state));
+            wholePreparationQueued(pending, selection);
         }
       };
       narrator.onChange = () => {

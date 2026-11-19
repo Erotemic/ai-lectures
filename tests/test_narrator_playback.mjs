@@ -208,3 +208,17 @@ assert.deepEqual(voiceGroups(manualChoices,row,[],installed.pages,'pinned').flat
 assert.ok(voiceGroups(manualChoices,row,[],installed.pages,'hidden').some(g=>g.choices.some(c=>c.key==='hidden')));
 assert.equal(preferredNarrator([{key:'prepared',recording_complete:true},{key:'default',server_default:true}],{}).key,'default');
 assert.equal(preferredNarrator([{key:'prepared',recording_complete:true},{key:'default',server_default:true}],{},{remembered:'prepared'}).key,'prepared');
+
+const {matchesPreparation}=await import('../ailectures/static/narration.mjs');
+assert.ok(matchesPreparation({profile:'voice-one',profile_revision:'revision-a',voice:'reference-one',speed:1},{profile:'voice-one',profile_revision:'revision-a'}));
+assert.equal(matchesPreparation({profile:'voice-one',profile_revision:'revision-b'},{profile:'voice-one',profile_revision:'revision-a'}),false);
+assert.ok(matchesPreparation({profile:'legacy',voice:'af_alloy',speed:1},{profile:'legacy',voice:'af_alloy',speed:1}));
+assert.equal(matchesPreparation({profile:'legacy',voice:'am_echo',speed:1},{profile:'legacy',voice:'af_alloy',speed:1}),false);
+console.log('Collection generation tracks saved recipe revisions and legacy voice settings independently.');
+const {wholePreparationQueued}=await import('../ailectures/static/narration.mjs');
+const collectionScope={lecture_ids:['first','second']};
+const firstQueued={lecture_id:'first',state:'queued',requested_blocks:null};
+assert.equal(wholePreparationQueued([firstQueued],collectionScope),false);
+assert.equal(wholePreparationQueued([firstQueued,{...firstQueued,lecture_id:'second'}],collectionScope),true);
+assert.equal(wholePreparationQueued([{...firstQueued,requested_blocks:[0]}],{lecture_id:'first'}),false);
+console.log('Queue-all remains available when only part of a collection is queued.');

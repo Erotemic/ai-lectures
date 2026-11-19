@@ -1,6 +1,6 @@
 import { tagLabels } from "./tag-model.mjs";
 import { creatorLine } from "./creators.mjs";
-import { el, getStored, store, randomId } from "./api.mjs";
+import { api, el, getStored, store, randomId } from "./api.mjs";
 import { preparationPanel } from "./narration.mjs";
 import { collectionRows, collectionAncestors, collectionSections, formatMinutes, matchesLecture, matchesTag } from "./browse-model.mjs";
 import { dateOrder, chronologyLine, chronologyOptions, sortChronologically } from "./chronology.mjs";
@@ -512,16 +512,17 @@ export class CatalogBrowser {
       resources.append(el("details", {}, el("summary", { text: "Full collections" }),
         el("div", { class: "route-links" }, ...archives.map(c => this.routeLink(c.id, null, id))),
       ));
-    if (directRows.some(row => row.kind === "audio")) {
-      const preparation = el("details", {}, el("summary", { text: "Prepare recordings" }));
-      let loaded = false;
-      preparation.ontoggle = () => {
-        if (preparation.open && !loaded) {
-          loaded = true;
-          preparation.append(preparationPanel({ courseId: id, label: "Prepare recordings", description: "Queue every installed audio item in this collection for the selected narrator." }));
-        }
+    const audioRows = rows.filter(row => row.kind === "audio");
+    if (audioRows.length) {
+      const preparation = el("details", {class:"collection-preparation",hidden:true},el("summary",{text:"Generate all audio"}));
+      hero.append(preparation);
+      let loaded=false;
+      preparation.ontoggle=()=>{
+        if(preparation.open&&!loaded){loaded=true;preparation.append(preparationPanel({lectureIds:audioRows.map(row=>row.id),label:"Generate collection audio",description:"Queue all audio lectures in this collection using one saved voice profile. Existing matching audio is reused."}));}
       };
-      resources.append(preparation);
+      api("/api/library/production?probe=0").then(profiles=>{
+        if(preparation.isConnected)preparation.hidden = !profiles.tools_available || !profiles.profiles.some(profile=>profile.available!==false);
+      }).catch(()=>{});
     }
     const contents = el("div", { class: "collection-contents" });
     if (collection.browse_sections?.length) contents.append(this.directorySections(collection, id));
