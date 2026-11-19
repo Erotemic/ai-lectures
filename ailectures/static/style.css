@@ -1002,4 +1002,18 @@ progress {
 .voice-profile-dialog form { min-width: 0; }
 .voice-profile-dialog textarea { width: 100%; min-height: 6rem; }
 .voice-profile-dialog input:not([type="checkbox"]), .voice-profile-dialog select { max-width: 100%; }
-.voice-profile-card code, .voice-profile-card details p { overflow-wrap: anywhere; }
+
+.voice-profile-heading { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: .5rem 1rem; }
+.voice-profile-heading h2 { margin: 0; }
+.voice-profile-list { list-style: none; padding: 0; margin: .8rem 0; }
+.voice-profile-row { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: start; column-gap: .8rem; padding: .65rem 0; border-bottom: 1px solid var(--line); }
+.voice-profile-line { display: flex; align-items: center; gap: 1rem; min-width: 0; }
+.voice-profile-name { flex: 1; min-width: 0; overflow-wrap: anywhere; }
+.voice-profile-name small { display: block; font-size: .8rem; }
+.voice-profile-default { display: inline-block; margin-left: .6rem; color: var(--accent); font-size: .75rem; }
+.voice-profile-options { margin-top: .55rem; }
+.voice-profile-options[open] { grid-column: 1 / -1; }
+.voice-profile-options > .actions { margin-top: .65rem; }
+.voice-profile-options p, .voice-profile-options code { overflow-wrap: anywhere; font-size: .8rem; }
+.voice-profile-device, .voice-profile-archived { margin: .8rem 0; }
+#voice-profiles > [role="status"]:empty { display: none; }

@@ -20,23 +20,9 @@ export async function renderVoiceProfiles(
     }
   }
   function draw() {
-    const active = catalog.profiles.filter((row) => !row.archived),
-      archived = catalog.profiles.filter((row) => row.archived);
-    root.replaceChildren(
-      el("h2", { text: "Saved voice profiles" }),
-      el("p", {
-        class: "muted",
-        text: "Each entry fixes a backend, one voice or reference, delivery, pronunciation and processing. Changing audio settings creates a new revision; previous recordings remain playable.",
-      }),
-      el("button", {
-        type: "button",
-        text: "Create voice profile",
-        disabled: !catalog.backends.some((row) => row.available),
-        onclick: () => edit(),
-      }),
-      status,
-    );
-    function card(row) {
+    const active = catalog.profiles.filter((row) => !row.archived);
+    const archived = catalog.profiles.filter((row) => row.archived);
+    function profileRow(row) {
       const quick = el("input", {
         type: "checkbox",
         "aria-label": "Quick select: " + row.label,
@@ -44,16 +30,12 @@ export async function renderVoiceProfiles(
       quick.checked = row.quick_select;
       quick.onchange = () =>
         action(row.id, { action: "pin", quick: quick.checked });
-      return el(
-        "article",
-        { class: "section voice-profile-card" },
-        el("h3", { text: row.label }),
-        el("p", {
-          text: `${row.model} · ${row.fixed_reference ? "fixed reference" : "fixed voice"}: ${row.voice} · ${row.output_format === "ogg" ? "Ogg Opus" : "MP3"}${row.available ? "" : " · backend unavailable"}`,
-        }),
-        el("p", {
-          class: "muted",
-          text: `Revision ${row.revision.slice(0, 12)} · native rate ${row.native_rate}× · saved-audio tempo ${row.tempo}×`,
+      const more = el(
+        "details",
+        { class: "voice-profile-options" },
+        el("summary", {
+          text: "More",
+          "aria-label": "More options for " + row.label,
         }),
         el(
           "div",
@@ -64,23 +46,13 @@ export async function renderVoiceProfiles(
                 text: "Restore profile",
                 onclick: () => action(row.id, { action: "restore" }),
               })
-            : el("button", {
-                type: "button",
-                disabled: catalog.default_profile === row.id,
-                text:
-                  catalog.default_profile === row.id
-                    ? "Default profile"
-                    : "Make default",
-                onclick: () => action(row.id, { action: "default" }),
-              }),
-          row.archived
-            ? null
-            : el("button", {
-                type: "button",
-                text: "Edit profile",
-                disabled: !row.available,
-                onclick: () => edit(row),
-              }),
+            : catalog.default_profile === row.id
+              ? null
+              : el("button", {
+                  type: "button",
+                  text: "Make default",
+                  onclick: () => action(row.id, { action: "default" }),
+                }),
           el("button", {
             type: "button",
             text: "Duplicate profile",
@@ -96,6 +68,10 @@ export async function renderVoiceProfiles(
               }),
           el("label", { class: "check" }, quick, "Quick select"),
         ),
+        el("p", {
+          class: "muted",
+          text: `${row.output_format === "ogg" ? "Ogg Opus" : "MP3"} · native rate ${row.native_rate}× · saved-audio tempo ${row.tempo}×`,
+        }),
         el(
           "details",
           {},
@@ -104,36 +80,97 @@ export async function renderVoiceProfiles(
           el("p", { text: row.revision }),
         ),
       );
-    }
-    root.append(...active.map(card));
-    if (!active.length)
-      root.append(
-        el("p", {
-          text: "No saved profiles are configured. Backend connections come from the server’s local TTS configuration. Existing recordings remain available in the player.",
-        }),
+      return el(
+        "li",
+        { class: "voice-profile-row" },
+        el(
+          "div",
+          { class: "voice-profile-line" },
+          el(
+            "div",
+            { class: "voice-profile-name" },
+            el("strong", { text: row.label }),
+            catalog.default_profile === row.id && !row.archived
+              ? el("span", { class: "voice-profile-default", text: "Default" })
+              : null,
+            el("small", {
+              class: "muted",
+              text: `${row.model} · ${row.voice}${row.available ? "" : " · unavailable"}`,
+            }),
+          ),
+          !row.archived
+            ? el("button", {
+                type: "button",
+                text: "Edit",
+                "aria-label": "Edit " + row.label,
+                disabled: !row.available,
+                onclick: () => edit(row),
+              })
+            : null,
+        ),
+        more,
       );
-    if (archived.length)
-      root.append(
+    }
+    root.replaceChildren(
+      ...[
+        el(
+          "div",
+          { class: "voice-profile-heading" },
+          el("h2", { text: "Saved voice profiles" }),
+          el("button", {
+            type: "button",
+            text: "Add profile",
+            disabled: !catalog.backends.some((row) => row.available),
+            onclick: () => edit(),
+          }),
+        ),
+        status,
+        active.length
+          ? el(
+              "ul",
+              {
+                class: "voice-profile-list",
+                "aria-label": "Available voice profiles",
+              },
+              ...active.map(profileRow),
+            )
+          : el("p", {
+              class: "muted",
+              text: "No voice profiles yet. Add one using an available speech backend.",
+            }),
+        archived.length
+          ? el(
+              "details",
+              { class: "voice-profile-archived" },
+              el("summary", { text: `Archived profiles (${archived.length})` }),
+              el(
+                "ul",
+                {
+                  class: "voice-profile-list",
+                  "aria-label": "Archived voice profiles",
+                },
+                ...archived.map(profileRow),
+              ),
+            )
+          : null,
         el(
           "details",
-          {},
-          el("summary", { text: `Archived profiles · ${archived.length}` }),
-          ...archived.map(card),
+          { class: "voice-profile-device" },
+          el("summary", { text: "Selection on this device" }),
+          el("button", {
+            type: "button",
+            text: "Use server default on this device",
+            disabled: !catalog.default_profile,
+            onclick: () => {
+              store("narrator-choice", "profile:" + catalog.default_profile);
+              store("production-profile", catalog.default_profile);
+              message(
+                "The saved default profile will be selected when you next open a lecture. Current playback is unchanged.",
+              );
+            },
+          }),
         ),
-      );
-    root.append(
-      el("button", {
-        type: "button",
-        text: "Use server default on this device",
-        disabled: !catalog.default_profile,
-        onclick: () => {
-          store("narrator-choice", "profile:" + catalog.default_profile);
-          store("production-profile", catalog.default_profile);
-          message(
-            "The saved default profile will be selected when you next open a lecture. Current playback is unchanged.",
-          );
-        },
-      }),
+      ].filter(Boolean),
     );
   }
   async function edit(existing = null, duplicate = false) {

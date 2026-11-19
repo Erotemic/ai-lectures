@@ -5,7 +5,7 @@ a backend connection, one fixed voice or reference, prose and title delivery,
 pronunciation replacements, native speaking rate, saved-audio tempo, processing,
 and output format. The generation dropdown selects that entry directly.
 
-Use **Create voice profile**, or **Duplicate profile** to start from an existing
+Use **Add profile**, or **Duplicate profile** to start from an existing
 entry. Only creation and duplication offer a backend voice selector. The catalog
 can refresh advertised voices or register an ID already installed on that server;
 it does not upload recordings or create a reference voice. Existing profiles keep
