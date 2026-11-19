@@ -26,7 +26,7 @@ to the institutions that must make honesty and correction possible. The thirteen
 examines the shared agreements that enable interoperability between strangers
 and asks who can participate in setting those agreements. The fourteenth
 examines how to change shared conventions without needlessly abandoning
-people who rely on them, and when backward compatibility must be broken.
+people who rely on them, and when backward compatibility must be broken. The fifteenth asks what obligations we have to people not yet born, without pretending to know their preferences or ignoring the needs of those alive now.
 Each lecture stands alone;
 listeners may choose any order.
 
@@ -73,6 +73,11 @@ listeners may choose any order.
   shared rules: Sweden's coordinated 1967 traffic-side switch, decades of
   IPv4/IPv6 coexistence, and the continuous 2019 kilogram redefinition,
   with an argument about who pays for migration and who decides.
+
+- **015000 — For the People Who Aren't Here Yet.** How to take responsibility
+  for future people who cannot represent themselves, from the Svalbard
+  Seed Vault and WIPP hazard warnings to discounting, the non-identity
+  problem, present needs, and institutions built for long-term thinking.
 
 Spoken narration is inside the standard marker pair in each manuscript. Source
 notes, constructed-example qualifications, and reading links follow the
