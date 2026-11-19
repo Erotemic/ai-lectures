@@ -1,0 +1,152 @@
+{
+  "schema_version": 1,
+  "lecture_id": "013000",
+  "transcript": "013000-forcing-chemistry-with-electricity.md",
+  "description": "Develops externally driven redox chemistry, thermodynamic versus operating voltages, Faraday charge accounting, plating, water electrolysis, efficiency and charging limits.",
+  "tags": [
+    "Electrolysis",
+    "Electrolytic cells",
+    "Faraday laws of electrolysis",
+    "Faraday constant",
+    "Electroplating",
+    "Water splitting",
+    "Hydrogen production",
+    "Overpotential",
+    "Electrochemical selectivity",
+    "Faradaic efficiency",
+    "Rechargeable batteries",
+    "Lithium-ion batteries",
+    "Electrode degradation",
+    "Michael Faraday",
+    "Nicholson and Carlisle"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Chemistry",
+      "Electrolysis and electrical work"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Faraday law and charge accounting"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Electrochemical selectivity"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Electrode overpotentials"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Water electrolysis"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Rechargeable battery chemistry"
+    ],
+    [
+      "Place: Europe",
+      "Place: United Kingdom",
+      "Place: England",
+      "Place: London"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "ch-openstax-electrolysis",
+      "reason": "Electrolytic cell polarity, water electrolysis, Faraday law and competing half-reactions."
+    },
+    {
+      "source_id": "ch-openstax-batteries",
+      "reason": "Daniell cell, battery chemistries, fuel cells and rechargeability."
+    },
+    {
+      "source_id": "ch-openstax-cell-potentials",
+      "reason": "Reference electrode, galvanic half-cells, redox potentials, thermodynamic links."
+    },
+    {
+      "source_id": "ch-acs-early-electrochem",
+      "reason": "Nicholson and Carlisle water experiments in London, 1800; early electrolytic investigations."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "chem-013000-01",
+      "anchor": "The cathode is always the electrode where reduction takes place",
+      "kind": "scientific_definition",
+      "source_ids": [
+        "ch-openstax-electrolysis"
+      ],
+      "source_locator": "Cathode/anode independent of galvanic/electrolytic sign conventions.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-013000-02",
+      "anchor": "roughly one point two three volts",
+      "kind": "scientific_calculation",
+      "source_ids": [
+        "ch-openstax-electrolysis"
+      ],
+      "source_locator": "Standard reversible potential for splitting liquid water under stated conditions.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-013000-03",
+      "anchor": "around one point two grams",
+      "kind": "scientific_calculation",
+      "source_ids": [
+        "ch-openstax-electrolysis"
+      ],
+      "source_locator": "Constructed plating estimate 2 A, 30 min, 100% Faradaic efficiency.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-013000-04",
+      "anchor": "In 1800, William Nicholson and Anthony Carlisle",
+      "kind": "intellectual_history",
+      "source_ids": [
+        "ch-acs-early-electrochem"
+      ],
+      "source_locator": "Water decomposition experiments following Volta pile, London 1800.",
+      "audit_status": "reference_recorded"
+    }
+  ],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original audio-first chemistry narration, explanations, scientific companion, bibliographic evidence and topic metadata."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Knows an electron is charged and understands a basic galvanic cell; the electrode definitions are repeated."
+    ],
+    "readiness_checks": [
+      "Why does useful electrolysis require more voltage than an ideal reversible prediction?",
+      "Why can Faradaic efficiency differ from energy efficiency?",
+      "What distinguishes a rechargeable battery from an electrolyzer?"
+    ]
+  },
+  "places": [
+    "London, England, United Kingdom"
+  ],
+  "chronology": {
+    "context": {
+      "start": 1800,
+      "label": "Nicholson and Carlisle water electrolysis in 1800",
+      "basis": "documented demonstration of water decomposition using a Voltaic apparatus",
+      "note": "The date is for the specific historical episode, not the duration of electrochemistry.",
+      "source_ids": [
+        "ch-acs-early-electrochem"
+      ]
+    }
+  }
+}

@@ -1,7 +1,7 @@
 {
   "id": "chemistry",
   "title": "Chemistry: From Atoms to Reactions",
-  "summary": "Audio-first chemistry built from experimental identity, electronic structure and bonding toward solutions, quantitative reactions and thermodynamic reasoning. The foundation leads into kinetics, equilibrium, acids, redox and organic chemistry.",
+  "summary": "An audio-first chemistry course from matter and atomic structure through bonding, thermodynamics, reaction rate laws and catalytic mechanisms, chemical equilibrium, acid-base solutions, and electrochemical work. Examples lead from molecules to minerals, living systems and batteries.",
   "categories": [
     "Science and nature"
   ],
@@ -15,7 +15,12 @@
     "Physical chemistry",
     "Chemical reactions",
     "Molecular structure",
-    "Chemical measurement"
+    "Chemical measurement",
+    "Chemical kinetics",
+    "Catalysis",
+    "Chemical equilibrium",
+    "Acids and bases",
+    "Electrochemistry"
   ],
   "tag_paths": [
     [
@@ -38,7 +43,12 @@
     "bonding_and_structure",
     "solutions_and_phases",
     "stoichiometry",
-    "thermochemistry"
+    "thermochemistry",
+    "kinetics",
+    "mechanisms_and_catalysis",
+    "chemical_equilibrium",
+    "acids_and_bases",
+    "electrochemistry"
   ],
   "lectures": [
     {
@@ -392,6 +402,413 @@
           "Science",
           "Chemistry",
           "Reaction quotient"
+        ]
+      ]
+    },
+    {
+      "id": "007000",
+      "title": "The Reaction Has a Clock: Rates, Temperature, and Evidence",
+      "section": "kinetics",
+      "file": "007000-the-reaction-has-a-clock.md",
+      "spoken_words": 1866,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 12.9,
+      "description": "Reads chemical reaction rates from concentration-time observations, experimental orders and temperature dependencies while separating intrinsic kinetics from mixing and transport.",
+      "tags": [
+        "Chemical kinetics",
+        "Reaction rates",
+        "Rate laws",
+        "Reaction orders",
+        "Concentration-time data",
+        "First-order reactions",
+        "Half-life",
+        "Activation energy",
+        "Arrhenius equation",
+        "Chemical clock",
+        "Chemical measurement",
+        "Reaction mechanisms",
+        "Mass transport"
+      ],
+      "tag_paths": [
+        [
+          "Science",
+          "Chemistry",
+          "Reaction rates and measurement"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Experimental reaction orders"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Integrated rate laws"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Activation energy and temperature"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Chemical kinetics versus transport"
+        ]
+      ]
+    },
+    {
+      "id": "008000",
+      "title": "The Other Route Through a Reaction: Mechanisms and Catalysts",
+      "section": "mechanisms_and_catalysis",
+      "file": "008000-the-other-route-through-a-reaction.md",
+      "spoken_words": 1686,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 11.6,
+      "description": "Examines intermediate species, multistep reaction mechanisms, catalytic cycles, enzyme saturation, surface chemistry and evidence used to discriminate pathways.",
+      "tags": [
+        "Reaction mechanisms",
+        "Elementary reactions",
+        "Reaction intermediates",
+        "Catalysis",
+        "Catalytic cycles",
+        "Enzymes",
+        "Heterogeneous catalysis",
+        "Transition states",
+        "Activation barriers",
+        "Reaction selectivity",
+        "Surface adsorption",
+        "Catalyst poisoning",
+        "Steady-state approximation"
+      ],
+      "tag_paths": [
+        [
+          "Science",
+          "Chemistry",
+          "Elementary steps and intermediates"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Catalytic pathways"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Enzyme kinetics"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Heterogeneous catalysis"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Mechanism inference"
+        ]
+      ]
+    },
+    {
+      "id": "009000",
+      "title": "Equilibrium Is Still Moving: Reaction Quotients and Chemical Balance",
+      "section": "chemical_equilibrium",
+      "file": "009000-equilibrium-is-still-moving.md",
+      "spoken_words": 1791,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 12.4,
+      "description": "Builds equilibrium from reversible chemistry, Q and K, chemical potentials, activity corrections, gas pressure, phase changes and nonequilibrium steady states.",
+      "tags": [
+        "Chemical equilibrium",
+        "Dynamic equilibrium",
+        "Reaction quotient",
+        "Equilibrium constants",
+        "Chemical activities",
+        "Chemical potential",
+        "Gibbs energy",
+        "Le Chatelier principle",
+        "Heterogeneous equilibria",
+        "Ammonia synthesis",
+        "Solubility equilibrium",
+        "Equilibrium versus steady state"
+      ],
+      "tag_paths": [
+        [
+          "Science",
+          "Chemistry",
+          "Chemical equilibrium and reaction quotients"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Equilibrium constants and activities"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Le Chatelier principle"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Gas-phase equilibrium"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Solid-liquid equilibria"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Equilibrium versus steady state"
+        ]
+      ]
+    },
+    {
+      "id": "010000",
+      "title": "What Acidity Measures: Protons, Water, and Chemical Speciation",
+      "section": "acids_and_bases",
+      "file": "010000-what-acidity-measures.md",
+      "spoken_words": 1635,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 11.3,
+      "description": "Explains conjugate acid-base pairs, weak versus strong acids, pH activity, autoionization, carbonate speciation and why alkalinity differs from pH.",
+      "tags": [
+        "Acids and bases",
+        "Bronsted Lowry acids",
+        "Conjugate acid-base pairs",
+        "Acid strength",
+        "Weak acid dissociation",
+        "Hydronium ions",
+        "pH",
+        "Activities",
+        "Water autoionization",
+        "Carbonate chemistry",
+        "Chemical speciation",
+        "Alkalinity",
+        "Ocean acidification",
+        "Lewis acids"
+      ],
+      "tag_paths": [
+        [
+          "Science",
+          "Chemistry",
+          "Acid-base proton transfer"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Acid dissociation and pKa"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Hydronium and pH"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Water autoionization"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Chemical speciation"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Carbonate system and alkalinity"
+        ]
+      ]
+    },
+    {
+      "id": "011000",
+      "title": "Why a Buffer Resists Change: Weak Acids, Titrations, and Chemical Capacity",
+      "section": "acids_and_bases",
+      "file": "011000-why-a-buffer-resists-change.md",
+      "spoken_words": 1697,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 11.7,
+      "description": "Develops buffer action, finite capacity, Henderson–Hasselbalch calculations and the distinction among half-equivalence, equivalence and indicator endpoints.",
+      "tags": [
+        "Buffer solutions",
+        "Buffer capacity",
+        "Henderson Hasselbalch equation",
+        "Weak acids and bases",
+        "pKa",
+        "Conjugate pairs",
+        "Acid-base titration",
+        "Titration curves",
+        "Equivalence points",
+        "Indicators",
+        "Bicarbonate buffer",
+        "Blood chemistry",
+        "Alkalinity"
+      ],
+      "tag_paths": [
+        [
+          "Science",
+          "Chemistry",
+          "Acid-base buffers"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Buffer calculations"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Henderson Hasselbalch equation"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Acid-base titrations"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Equivalence versus endpoint"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Physiological buffers"
+        ]
+      ]
+    },
+    {
+      "id": "012000",
+      "title": "How Chemistry Produces Voltage: Electrons, Ions, and Galvanic Cells",
+      "section": "electrochemistry",
+      "file": "012000-how-chemistry-produces-voltage.md",
+      "spoken_words": 1629,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 11.2,
+      "description": "Connects redox reactions and ionic return paths to cell voltage, Gibbs energy, the Nernst relation, battery capacity, corrosion and historical galvanic cells.",
+      "tags": [
+        "Electrochemistry",
+        "Redox reactions",
+        "Oxidation and reduction",
+        "Electrons and ions",
+        "Galvanic cells",
+        "Voltaic cells",
+        "Electrode potentials",
+        "Standard hydrogen electrode",
+        "Nernst equation",
+        "Faraday constant",
+        "Battery voltage",
+        "Battery capacity",
+        "Galvanic corrosion",
+        "Alessandro Volta",
+        "John Frederic Daniell"
+      ],
+      "tag_paths": [
+        [
+          "Science",
+          "Chemistry",
+          "Oxidation and reduction"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Galvanic cells"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Electrode potential and Nernst equation"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Electrochemical thermodynamics"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Battery capacity and corrosion"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "History of batteries"
+        ],
+        [
+          "Place: Europe",
+          "Place: Italy"
+        ],
+        [
+          "Place: Europe",
+          "Place: United Kingdom"
+        ]
+      ]
+    },
+    {
+      "id": "013000",
+      "title": "Forcing Chemistry with Electricity: Electrolysis, Batteries, and Selectivity",
+      "section": "electrochemistry",
+      "file": "013000-forcing-chemistry-with-electricity.md",
+      "spoken_words": 1730,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 11.9,
+      "description": "Develops externally driven redox chemistry, thermodynamic versus operating voltages, Faraday charge accounting, plating, water electrolysis, efficiency and charging limits.",
+      "tags": [
+        "Electrolysis",
+        "Electrolytic cells",
+        "Faraday laws of electrolysis",
+        "Faraday constant",
+        "Electroplating",
+        "Water splitting",
+        "Hydrogen production",
+        "Overpotential",
+        "Electrochemical selectivity",
+        "Faradaic efficiency",
+        "Rechargeable batteries",
+        "Lithium-ion batteries",
+        "Electrode degradation",
+        "Michael Faraday",
+        "Nicholson and Carlisle"
+      ],
+      "tag_paths": [
+        [
+          "Science",
+          "Chemistry",
+          "Electrolysis and electrical work"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Faraday law and charge accounting"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Electrochemical selectivity"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Electrode overpotentials"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Water electrolysis"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Rechargeable battery chemistry"
+        ],
+        [
+          "Place: Europe",
+          "Place: United Kingdom",
+          "Place: England",
+          "Place: London"
         ]
       ]
     }

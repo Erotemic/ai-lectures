@@ -1,0 +1,126 @@
+{
+  "schema_version": 1,
+  "lecture_id": "011000",
+  "transcript": "011000-why-a-buffer-resists-change.md",
+  "description": "Develops buffer action, finite capacity, Henderson–Hasselbalch calculations and the distinction among half-equivalence, equivalence and indicator endpoints.",
+  "tags": [
+    "Buffer solutions",
+    "Buffer capacity",
+    "Henderson Hasselbalch equation",
+    "Weak acids and bases",
+    "pKa",
+    "Conjugate pairs",
+    "Acid-base titration",
+    "Titration curves",
+    "Equivalence points",
+    "Indicators",
+    "Bicarbonate buffer",
+    "Blood chemistry",
+    "Alkalinity"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Chemistry",
+      "Acid-base buffers"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Buffer calculations"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Henderson Hasselbalch equation"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Acid-base titrations"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Equivalence versus endpoint"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Physiological buffers"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "ch-openstax-buffers",
+      "reason": "Conjugate acid/base buffers, capacity and approximate computations."
+    },
+    {
+      "source_id": "ch-openstax-titrations",
+      "reason": "Half-equivalence, equivalence, indicator endpoints and titration curves."
+    },
+    {
+      "source_id": "ch-openstax-bronsted",
+      "reason": "Conjugate pairs, proton exchange, amphiprotic water, carbonate and phosphate."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "chem-011000-01",
+      "anchor": "A common buffer contains a weak acid and a significant amount of its conjugate base",
+      "kind": "scientific_definition",
+      "source_ids": [
+        "ch-openstax-buffers"
+      ],
+      "source_locator": "Buffer mechanism with a conjugate pair.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-011000-02",
+      "anchor": "The pH falls by only about nine hundredths of a unit",
+      "kind": "scientific_calculation",
+      "source_ids": [
+        "ch-openstax-buffers"
+      ],
+      "source_locator": "Idealized 0.10/0.10 mol buffer plus 0.01 mol strong acid.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-011000-03",
+      "anchor": "The equivalence point is different from the half-equivalence point",
+      "kind": "scientific_definition",
+      "source_ids": [
+        "ch-openstax-titrations"
+      ],
+      "source_locator": "Titration points have distinct stoichiometric roles.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-011000-04",
+      "anchor": "endpoint and equivalence point are not defined as the same thing",
+      "kind": "scientific_qualification",
+      "source_ids": [
+        "ch-openstax-titrations"
+      ],
+      "source_locator": "Indicator transition versus stoichiometric equivalence.",
+      "audit_status": "reference_recorded"
+    }
+  ],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original audio-first chemistry narration, explanations, scientific companion, bibliographic evidence and topic metadata."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Understands conjugate acid-base pairs and logarithmic pH or learns them from lecture 010000."
+    ],
+    "readiness_checks": [
+      "Why can two solutions have the same pH but different buffer capacities?",
+      "Why is the half-equivalence pH related to pKa?",
+      "Why is titration endpoint not always the equivalence point?"
+    ]
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "lecture_id": "007000",
+  "transcript": "007000-the-reaction-has-a-clock.md",
+  "description": "Reads chemical reaction rates from concentration-time observations, experimental orders and temperature dependencies while separating intrinsic kinetics from mixing and transport.",
+  "tags": [
+    "Chemical kinetics",
+    "Reaction rates",
+    "Rate laws",
+    "Reaction orders",
+    "Concentration-time data",
+    "First-order reactions",
+    "Half-life",
+    "Activation energy",
+    "Arrhenius equation",
+    "Chemical clock",
+    "Chemical measurement",
+    "Reaction mechanisms",
+    "Mass transport"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Chemistry",
+      "Reaction rates and measurement"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Experimental reaction orders"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Integrated rate laws"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Activation energy and temperature"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Chemical kinetics versus transport"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "ch-openstax-rate-laws",
+      "reason": "Experimentally determined orders, initial-rate inference, dependence on concentration."
+    },
+    {
+      "source_id": "ch-openstax-integrated-rates",
+      "reason": "First- and second-order concentration-time behavior and half-lives."
+    },
+    {
+      "source_id": "ch-openstax-kinetics",
+      "reason": "Temperature, activation energy, catalytic paths, elementary steps and mechanisms."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "chem-007000-01",
+      "anchor": "We divide by the stoichiometric coefficients to define one consistent reaction rate",
+      "kind": "scientific_definition",
+      "source_ids": [
+        "ch-openstax-kinetics"
+      ],
+      "source_locator": "Stoichiometrically normalized reaction rate.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-007000-02",
+      "anchor": "do not read the exponents in a rate law off the coefficients of an overall balanced equation",
+      "kind": "scientific_principle",
+      "source_ids": [
+        "ch-openstax-rate-laws"
+      ],
+      "source_locator": "Experimental determination of reaction orders.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-007000-03",
+      "anchor": "The half-life does not change because there is less substance left",
+      "kind": "scientific_calculation",
+      "source_ids": [
+        "ch-openstax-integrated-rates"
+      ],
+      "source_locator": "First-order half-life under fixed k.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-007000-04",
+      "anchor": "increasing the temperature from twenty-five Celsius to thirty-five Celsius nearly doubles that constant",
+      "kind": "scientific_calculation",
+      "source_ids": [
+        "ch-openstax-kinetics"
+      ],
+      "source_locator": "Constructed Ea=50 kJ/mol Arrhenius ratio; companion gives calculation.",
+      "audit_status": "reference_recorded"
+    }
+  ],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original audio-first chemistry narration, explanations, scientific companion, bibliographic evidence and topic metadata."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Concentration and ratios are introduced through examples; helpful to know reaction equations from lecture 005000."
+    ],
+    "readiness_checks": [
+      "What is a rate law, and which parts must be measured?",
+      "Why can reaction order differ from overall stoichiometric coefficients?",
+      "What else besides a chemical barrier can limit a measured rate?"
+    ]
+  }
+}

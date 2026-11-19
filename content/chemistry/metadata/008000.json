@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "lecture_id": "008000",
+  "transcript": "008000-the-other-route-through-a-reaction.md",
+  "description": "Examines intermediate species, multistep reaction mechanisms, catalytic cycles, enzyme saturation, surface chemistry and evidence used to discriminate pathways.",
+  "tags": [
+    "Reaction mechanisms",
+    "Elementary reactions",
+    "Reaction intermediates",
+    "Catalysis",
+    "Catalytic cycles",
+    "Enzymes",
+    "Heterogeneous catalysis",
+    "Transition states",
+    "Activation barriers",
+    "Reaction selectivity",
+    "Surface adsorption",
+    "Catalyst poisoning",
+    "Steady-state approximation"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Chemistry",
+      "Elementary steps and intermediates"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Catalytic pathways"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Enzyme kinetics"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Heterogeneous catalysis"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Mechanism inference"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "ch-openstax-kinetics",
+      "reason": "Temperature, activation energy, catalytic paths, elementary steps and mechanisms."
+    },
+    {
+      "source_id": "ch-openstax-rate-laws",
+      "reason": "Experimentally determined orders, initial-rate inference, dependence on concentration."
+    },
+    {
+      "source_id": "ch-openstax-eq-summary",
+      "reason": "Equilibrium shifts, Le Châtelier limitations and catalyst versus composition."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "chem-008000-01",
+      "anchor": "An overall reaction is an accounting statement",
+      "kind": "scientific_principle",
+      "source_ids": [
+        "ch-openstax-kinetics"
+      ],
+      "source_locator": "Mechanism differs from overall stoichiometry.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-008000-02",
+      "anchor": "A proposed intermediate needs evidence",
+      "kind": "scientific_method",
+      "source_ids": [
+        "ch-openstax-kinetics"
+      ],
+      "source_locator": "Kinetic and spectroscopic constraints on mechanisms.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-008000-03",
+      "anchor": "it does not by itself change the reaction's equilibrium constant",
+      "kind": "scientific_principle",
+      "source_ids": [
+        "ch-openstax-eq-summary"
+      ],
+      "source_locator": "Catalysts alter rates, not fixed-T equilibrium K.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-008000-04",
+      "anchor": "A common observation is that an enzyme-catalyzed rate increases with substrate concentration and then levels off",
+      "kind": "scientific_model",
+      "source_ids": [
+        "ch-openstax-kinetics"
+      ],
+      "source_locator": "Saturation in catalytic systems and limitations of simplified kinetics.",
+      "audit_status": "reference_recorded"
+    }
+  ],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original audio-first chemistry narration, explanations, scientific companion, bibliographic evidence and topic metadata."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Knows what a chemical reaction and an equilibrium are; rate laws are recapped without formal calculus."
+    ],
+    "readiness_checks": [
+      "Why may a detected intermediate be an off-path species?",
+      "How can a catalyst participate without being permanently consumed?",
+      "How can diffusion be confused with catalytic kinetics?"
+    ]
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "schema_version": 1,
+  "lecture_id": "009000",
+  "transcript": "009000-equilibrium-is-still-moving.md",
+  "description": "Builds equilibrium from reversible chemistry, Q and K, chemical potentials, activity corrections, gas pressure, phase changes and nonequilibrium steady states.",
+  "tags": [
+    "Chemical equilibrium",
+    "Dynamic equilibrium",
+    "Reaction quotient",
+    "Equilibrium constants",
+    "Chemical activities",
+    "Chemical potential",
+    "Gibbs energy",
+    "Le Chatelier principle",
+    "Heterogeneous equilibria",
+    "Ammonia synthesis",
+    "Solubility equilibrium",
+    "Equilibrium versus steady state"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Chemistry",
+      "Chemical equilibrium and reaction quotients"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Equilibrium constants and activities"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Le Chatelier principle"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Gas-phase equilibrium"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Solid-liquid equilibria"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Equilibrium versus steady state"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "ch-openstax-dynamic-eq",
+      "reason": "Dynamic forward/reverse reaction balance and differing equilibrium compositions."
+    },
+    {
+      "source_id": "ch-openstax-eq-constant",
+      "reason": "Reaction quotients, Q/K direction, phase equilibria, concentration versus activity approximations."
+    },
+    {
+      "source_id": "ch-openstax-eq-summary",
+      "reason": "Equilibrium shifts, Le Châtelier limitations and catalyst versus composition."
+    },
+    {
+      "source_id": "ch-iupac-standard-eq",
+      "reason": "Thermodynamic equilibrium constant and relation to standard reaction Gibbs energy."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "chem-009000-01",
+      "anchor": "A and B continue reacting, yet their average concentrations stop changing",
+      "kind": "scientific_principle",
+      "source_ids": [
+        "ch-openstax-dynamic-eq"
+      ],
+      "source_locator": "Dynamic chemical equilibrium with balanced forward/reverse rates.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-009000-02",
+      "anchor": "If Q is smaller than K",
+      "kind": "scientific_principle",
+      "source_ids": [
+        "ch-openstax-eq-constant"
+      ],
+      "source_locator": "Reaction quotient direction test.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-009000-03",
+      "anchor": "the reaction Gibbs-energy change is the gas constant times temperature times the natural logarithm of Q divided by K",
+      "kind": "thermodynamic_principle",
+      "source_ids": [
+        "ch-iupac-standard-eq"
+      ],
+      "source_locator": "Delta_r G=RT ln(Q/K).",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-009000-04",
+      "anchor": "A catalyst does not shift the equilibrium position",
+      "kind": "scientific_principle",
+      "source_ids": [
+        "ch-openstax-eq-summary"
+      ],
+      "source_locator": "K unchanged by catalyst at fixed T and relevant conditions.",
+      "audit_status": "reference_recorded"
+    }
+  ],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original audio-first chemistry narration, explanations, scientific companion, bibliographic evidence and topic metadata."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Familiar with ratios and chemical equations; Gibbs-energy terminology is explained again."
+    ],
+    "readiness_checks": [
+      "How can an equilibrium reaction be dynamically active?",
+      "How do Q and K tell which direction is favored?",
+      "Why is equilibrium not the same as a continuous-flow steady state?"
+    ]
+  }
+}

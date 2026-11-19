@@ -1,19 +1,23 @@
-# Chemistry development candidates
+# Chemistry: future course development
 
-The foundation (001000–006000) is complete. These are priorities, **not** unfinished dependencies or promises that the current lectures are incomplete. Expand when the topic merits an independent substantial lecture.
+The thirteen current lectures are authored and indexed; no unfinished work in that completed sequence needs to remain on the planning list. Candidate **next new units**:
 
-## Near term: chemical change
+## Carbon chemistry and reaction design
 
-- **Rate is not favorability:** activation energies, collision/transition-state reasoning, temperature dependence, catalysts, elementary steps, rate laws and how experiments distinguish candidate mechanisms.
-- **Equilibrium is dynamic:** reaction quotient, activities, equilibrium constant, Le Châtelier's principle with its limits, heterogeneous equilibria and coupled reactions.
-- **Acids and bases:** proton transfer, water autoionization, pH, strong vs weak, buffers, titration curves and acid-base speciation in living and natural waters.
-- **Electron transfer:** oxidation states, balancing redox equations, electrochemical potentials, galvanic cells, electrolysis, corrosion and battery limitations.
+- Carbon skeletons, functional groups and physical-property patterns; isomerism, stereochemistry and chirality.
+- Nucleophiles and electrophiles; substitution, addition, elimination and mechanistic reasoning from evidence.
+- Polymers and materials: chain structure, crosslinking, glass transitions, and degradation.
 
-## Then: structures and chemical worlds
+## How chemists determine what is present
 
-- **Organic chemistry:** carbon skeletons, stereochemistry, functional groups, substitution/addition/elimination, mechanisms, and why polymers/materials behave differently.
-- **Measurement and inference:** spectroscopy, chromatography, mass spectrometry, calibration, uncertainty and chemical identification as an inverse problem.
-- **Surfaces and materials:** crystallization, phase diagrams, interfaces, catalysis, electrochemistry, glass and ceramics.
-- **Biological and environmental chemistry:** reaction coupling, metabolism, minerals, atmospheric photochemistry, nutrient speciation; crosslink rather than duplicate established Earth Systems lectures.
+- Spectroscopy: what absorption and emission actually measure; infrared, UV/visible and nuclear magnetic resonance as structurally different probes.
+- Chromatography, mass spectrometry and separations; calibration, uncertainty, detection limits and false identification.
+- Chemical kinetics and measurements across interfaces, surfaces and phases where earlier examples do not provide sufficient treatment.
 
-Editorial priority is coherent explanations with sustained worked examples, not an arbitrary number of recordings. The chemistry course can develop in batches while other science tracks continue independently.
+## Materials and chemical environments
+
+- Phase diagrams, nucleation and crystal growth, glasses, ceramics and interface chemistry.
+- Metals, corrosion, electrochemical interfaces and advanced energy conversion where separate depth is warranted.
+- Chemical ecology and biogeochemistry, avoiding duplication of the existing Earth Systems lectures; crosslink instead.
+
+Write coherent explanations of complete questions rather than dividing topics mechanically into short recordings. Add source-backed geography and dates only where the narration covers historically or geographically bounded evidence.

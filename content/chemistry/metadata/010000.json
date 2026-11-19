@@ -1,0 +1,127 @@
+{
+  "schema_version": 1,
+  "lecture_id": "010000",
+  "transcript": "010000-what-acidity-measures.md",
+  "description": "Explains conjugate acid-base pairs, weak versus strong acids, pH activity, autoionization, carbonate speciation and why alkalinity differs from pH.",
+  "tags": [
+    "Acids and bases",
+    "Bronsted Lowry acids",
+    "Conjugate acid-base pairs",
+    "Acid strength",
+    "Weak acid dissociation",
+    "Hydronium ions",
+    "pH",
+    "Activities",
+    "Water autoionization",
+    "Carbonate chemistry",
+    "Chemical speciation",
+    "Alkalinity",
+    "Ocean acidification",
+    "Lewis acids"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Chemistry",
+      "Acid-base proton transfer"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Acid dissociation and pKa"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Hydronium and pH"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Water autoionization"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Chemical speciation"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Carbonate system and alkalinity"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "ch-openstax-bronsted",
+      "reason": "Conjugate pairs, proton exchange, amphiprotic water, carbonate and phosphate."
+    },
+    {
+      "source_id": "ch-openstax-acid-summary",
+      "reason": "Weak acids, water autoionization, pH, buffers and titration."
+    },
+    {
+      "source_id": "ch-iupac-ph",
+      "reason": "pH in terms of hydrogen-ion activity and limitations of single-ion activity measurement."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "chem-010000-01",
+      "anchor": "an acid is a proton donor and a base is a proton acceptor",
+      "kind": "scientific_definition",
+      "source_ids": [
+        "ch-openstax-bronsted"
+      ],
+      "source_locator": "Bronsted-Lowry framework.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-010000-02",
+      "anchor": "The pH scale is logarithmic",
+      "kind": "scientific_definition",
+      "source_ids": [
+        "ch-iupac-ph"
+      ],
+      "source_locator": "pH defined from relative hydrogen-ion activity.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-010000-03",
+      "anchor": "neutral water must always have pH seven",
+      "kind": "scientific_qualification",
+      "source_ids": [
+        "ch-openstax-acid-summary"
+      ],
+      "source_locator": "Negated misconception; neutral pH varies with Kw and temperature.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-010000-04",
+      "anchor": "In water chemistry, alkalinity is an acid-neutralizing capacity",
+      "kind": "scientific_definition",
+      "source_ids": [
+        "ch-openstax-acid-summary"
+      ],
+      "source_locator": "Operational concept; differs from instantaneous pH.",
+      "audit_status": "reference_recorded"
+    }
+  ],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original audio-first chemistry narration, explanations, scientific companion, bibliographic evidence and topic metadata."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Prior equilibrium concepts help, but proton transfer, logarithms and acidic strength are explained in the narration."
+    ],
+    "readiness_checks": [
+      "Why does strong acid not mean concentrated acid?",
+      "Why are hydronium activity and total acid content different?",
+      "What changes chemically when carbon dioxide dissolves in seawater?"
+    ]
+  }
+}

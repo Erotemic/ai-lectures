@@ -1,0 +1,162 @@
+{
+  "schema_version": 1,
+  "lecture_id": "012000",
+  "transcript": "012000-how-chemistry-produces-voltage.md",
+  "description": "Connects redox reactions and ionic return paths to cell voltage, Gibbs energy, the Nernst relation, battery capacity, corrosion and historical galvanic cells.",
+  "tags": [
+    "Electrochemistry",
+    "Redox reactions",
+    "Oxidation and reduction",
+    "Electrons and ions",
+    "Galvanic cells",
+    "Voltaic cells",
+    "Electrode potentials",
+    "Standard hydrogen electrode",
+    "Nernst equation",
+    "Faraday constant",
+    "Battery voltage",
+    "Battery capacity",
+    "Galvanic corrosion",
+    "Alessandro Volta",
+    "John Frederic Daniell"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Chemistry",
+      "Oxidation and reduction"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Galvanic cells"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Electrode potential and Nernst equation"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Electrochemical thermodynamics"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Battery capacity and corrosion"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "History of batteries"
+    ],
+    [
+      "Place: Europe",
+      "Place: Italy"
+    ],
+    [
+      "Place: Europe",
+      "Place: United Kingdom"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "ch-openstax-cell-potentials",
+      "reason": "Reference electrode, galvanic half-cells, redox potentials, thermodynamic links."
+    },
+    {
+      "source_id": "ch-openstax-batteries",
+      "reason": "Daniell cell, battery chemistries, fuel cells and rechargeability."
+    },
+    {
+      "source_id": "ch-openstax-corrosion",
+      "reason": "Galvanic corrosion, surface conditions and protection."
+    },
+    {
+      "source_id": "ch-acs-battery-history",
+      "reason": "Volta 1800, Daniell 1836 and changes in electrochemical cell design."
+    },
+    {
+      "source_id": "ch-acs-volta",
+      "reason": "Volta demonstrations in 1799 and publication in 1800, in Italy."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "chem-012000-01",
+      "anchor": "Oxidation means loss of electrons by a species, and reduction means gain of electrons",
+      "kind": "scientific_definition",
+      "source_ids": [
+        "ch-openstax-cell-potentials"
+      ],
+      "source_locator": "Oxidation and reduction definitions.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-012000-02",
+      "anchor": "Their difference is about one point one zero volts",
+      "kind": "scientific_calculation",
+      "source_ids": [
+        "ch-openstax-cell-potentials"
+      ],
+      "source_locator": "Standard zinc/copper reduction potentials and difference.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-012000-03",
+      "anchor": "Alessandro Volta assembled alternating metals and electrolyte-soaked separators into a pile and publicly described his electrical source in 1800",
+      "kind": "intellectual_history",
+      "source_ids": [
+        "ch-acs-battery-history",
+        "ch-acs-volta"
+      ],
+      "source_locator": "Volta 1799/1800 cell research and communication.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-012000-04",
+      "anchor": "The subsequent Daniell cell, developed by John Frederic Daniell in 1836",
+      "kind": "intellectual_history",
+      "source_ids": [
+        "ch-acs-battery-history"
+      ],
+      "source_locator": "Daniell two-electrolyte cell in 1836.",
+      "audit_status": "reference_recorded"
+    }
+  ],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original audio-first chemistry narration, explanations, scientific companion, bibliographic evidence and topic metadata."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Familiar with charge, electron transfer and energy; the half-reactions and voltage conventions are introduced directly."
+    ],
+    "readiness_checks": [
+      "Why is ion movement necessary in a battery electrolyte?",
+      "What does cell voltage measure and how does it relate to Gibbs energy?",
+      "Why can charging or discharging change the cell voltage?"
+    ]
+  },
+  "places": [
+    "Italy",
+    "United Kingdom"
+  ],
+  "chronology": {
+    "context": {
+      "start": 1800,
+      "end": 1836,
+      "label": "Volta 1800 and Daniell 1836",
+      "basis": "two documented milestones in the history of galvanic cells",
+      "note": "The range brackets two historical episodes rather than the time period of the physical chemistry.",
+      "source_ids": [
+        "ch-acs-volta",
+        "ch-acs-battery-history"
+      ]
+    }
+  }
+}

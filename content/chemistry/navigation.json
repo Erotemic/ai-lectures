@@ -3,12 +3,12 @@
   "collections": [
     {
       "id": "chemistry-foundations",
-      "title": "Chemistry · Matter, Structure, and Reaction",
+      "title": "Chemistry · Matter, Reaction, and Electricity",
       "role": "main",
       "categories": [
         "Science and nature"
       ],
-      "summary": "Six guided lectures from how chemicals are identified through the periodic table, bonding, dissolution, stoichiometry and thermodynamics.",
+      "summary": "Thirteen lectures from chemical identity and molecular structure through reaction time, equilibrium, acid-base behavior, galvanic cells and electrolysis.",
       "tags": [
         "Chemistry",
         "Chemical foundations",
@@ -38,6 +38,37 @@
             "006000"
           ],
           "collection": "quantities-and-energy"
+        },
+        {
+          "title": "Why Reactions Take Time",
+          "lectures": [
+            "007000",
+            "008000"
+          ],
+          "collection": "kinetics-and-equilibrium"
+        },
+        {
+          "title": "Where Reactions Settle",
+          "lectures": [
+            "009000"
+          ],
+          "collection": "kinetics-and-equilibrium"
+        },
+        {
+          "title": "Why Acidity Changes",
+          "lectures": [
+            "010000",
+            "011000"
+          ],
+          "collection": "acids-and-buffers"
+        },
+        {
+          "title": "Chemistry and Electrical Work",
+          "lectures": [
+            "012000",
+            "013000"
+          ],
+          "collection": "electrochemistry-in-action"
         }
       ]
     },
@@ -72,6 +103,55 @@
       "lectures": [
         "005000",
         "006000"
+      ]
+    },
+    {
+      "id": "kinetics-and-equilibrium",
+      "title": "Chemistry · Reaction Rates and Equilibrium",
+      "role": "deep_dive",
+      "parent": "chemistry-foundations",
+      "summary": "Reaction clocks, molecular mechanisms, catalysts and dynamic thermodynamic balances.",
+      "tags": [
+        "Chemical kinetics",
+        "Catalysis",
+        "Equilibrium"
+      ],
+      "lectures": [
+        "007000",
+        "008000",
+        "009000"
+      ]
+    },
+    {
+      "id": "acids-and-buffers",
+      "title": "Chemistry · Acidity and Aqueous Equilibria",
+      "role": "deep_dive",
+      "parent": "chemistry-foundations",
+      "summary": "Proton exchange, logarithmic pH, chemical speciation, buffers and titrations.",
+      "tags": [
+        "Acids and bases",
+        "Aqueous chemistry",
+        "Buffers"
+      ],
+      "lectures": [
+        "010000",
+        "011000"
+      ]
+    },
+    {
+      "id": "electrochemistry-in-action",
+      "title": "Chemistry · Batteries and Electrolysis",
+      "role": "deep_dive",
+      "parent": "chemistry-foundations",
+      "summary": "How redox reactions generate electrical work and how electrical work drives chemical change.",
+      "tags": [
+        "Electrochemistry",
+        "Batteries",
+        "Electrolysis"
+      ],
+      "lectures": [
+        "012000",
+        "013000"
       ]
     }
   ]
