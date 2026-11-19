@@ -14,7 +14,7 @@ The narrator also has an unmistakable voice. Sometimes it describes events with 
 
 Take the scandal around Lydgate. The town knows that Bulstrode lent him money and that Raffles died while receiving Lydgate's treatment. From those two facts, people construct a third: the doctor must have been paid for his silence. They turn chronological association into a theory of motive. We, as readers, have seen conversations and decisions concealed from the town. We know the inference exceeds the evidence. Eliot makes an ethical lesson possible by allowing us to notice the difference between information and interpretation.
 
-Or consider Dorothea's visit to Rosamond. Dorothea sees Will offering comfort to a distressed woman and interprets the scene through her own fear of losing him. This is a rare moment when the novel permits its most sympathetic observer to become the one who misjudges. The scene matters because moral seriousness does not produce infallibility. Dorothea becomes admirable not because she never mistakes an appearance, but because she can return, reconsider, and act without waiting for injury to feel fair.
+Or consider Dorothea's visit to Rosamond. Dorothea sees Will offering comfort to a distressed woman and interprets the scene through her own fear of losing him. This is a rare moment when the novel permits its most sympathetic observer to become the one who misjudges. The scene reminds us that moral seriousness does not make anyone infallible. Dorothea becomes admirable not because she never mistakes an appearance, but because she can return, reconsider, and act without waiting for injury to feel fair.
 
 A network novel makes time social. Fred's failed speculation reduces the savings of the Garth family. Bulstrode's concealed business history determines whether Will has access to money. Casaubon's will acts on Dorothea after his death. A public scandal alters the prospects of a hospital. These are causal chains crossing households. The characters can name their own intentions; the novel shows what follows from them elsewhere.
 
@@ -104,7 +104,7 @@ Religious language is a component of the criticism, but Eliot does not argue tha
 
 Consider how money moves through the plot. The hospital depends on donations. Lydgate depends on loans. Will could accept a tainted settlement. Dorothea can risk her inheritance. Fred loses the expectation of wealth he never earned. In every case money does more than provide purchasing power: it shapes who can speak, refuse, work, or remain silent. Bulstrode's power consists partly in making other people's aspirations dependent on his financial approval.
 
-This is why the scandal belongs to a novel of provincial life. The town's moral verdict is neither completely wrong nor reliably directed. It can expose concealed wrongdoing and still punish someone on a false allegation. Eliot asks the reader to learn the harder form of judgment: identifying what a person has actually done, why it matters, and which apparent connections do not justify conviction.
+This is why the scandal belongs to a novel of provincial life. The town's moral verdict is neither completely wrong nor reliably directed. It can expose concealed wrongdoing and still punish someone on a false allegation. Eliot asks the reader to learn the harder form of judgment: identifying what a person has actually done, the harm that resulted, and which apparent connections do not justify conviction.
 
 ## Middlemarch — Women and the Economics of Marriage
 

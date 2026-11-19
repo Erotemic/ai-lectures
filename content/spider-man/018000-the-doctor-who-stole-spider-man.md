@@ -38,9 +38,9 @@ You can argue about the film's scientific plausibility. A tiny artificial sun in
 
 A less interesting movie would make the arms evil and leave it at that. Raimi gives them a horror-movie vocabulary: invasive, animal-like, sometimes appearing to respond before their host can gather himself. But the climax requires a human decision. Peter appeals to Otto not merely as an opponent but as someone who once understood responsibility. Otto finally chooses to stop the machine at the cost of his life.
 
-That resolution matters because it distinguishes a tragic mistake from an inescapable nature. The film believes that a damaged, arrogant man can still make a costly moral choice. It also lets Peter see something genuinely admirable in an enemy. To admire Otto's intelligence is not to excuse what he has done. It is to recognize that people are often at their most dangerous when a real virtue becomes an excuse to ignore every other virtue.
+Otto's choice at the end separates a tragic mistake from an inescapable nature. Arrogance and damage have brought him to disaster, but he can still surrender the work he once prized above human lives. Peter sees something admirable in that act without excusing the harm Otto has done. The film allows a genuine virtue, intelligence, to become dangerous when it is treated as permission to neglect every other virtue; it also allows Otto to recognize that failure.
 
-The film has also planted a comparison with Peter. Both are technically gifted. Both have reasons to believe their work matters more than ordinary appointments. Both can tell themselves that a large future benefit justifies an immediate sacrifice by someone else. One of them learns to notice the people who would pay that price; the other spends much of the film looking past them.
+The film has also planted a comparison with Peter. Both are technically gifted. Both are tempted to elevate an extraordinary project above the ordinary people waiting for them. Each can tell himself that tomorrow's great benefit excuses today's sacrifice by someone else. One of them learns to notice the people who would pay that price; the other spends much of the film looking past them.
 
 ## A performance review from hell
 
@@ -78,7 +78,7 @@ The decisive change is not that Otto abruptly becomes unintelligent. He becomes 
 
 That can be read as an ending tailor-made for the existing franchise. Peter has to come back; Otto must depart. But the story has done more than construct an elaborate route to the original status quo. It has asked what heroism would look like to someone who has mistaken knowledge for moral authority, then forced that person to perform one act that cannot be optimized into a victory for himself.
 
-Compare the two modern Ottos. The film's doctor, at the end, chooses to destroy his failed work instead of being worshiped for it. The comics' superior Spider-Man chooses to surrender the heroic identity instead of owning it forever. They are different stories, but they rhyme. Intelligence matters. Love matters. Courage matters. None of them can be substituted for the willingness to stop.
+Two modern versions of Otto arrive at a similar choice. The film's doctor destroys his failed work rather than allow it to destroy more people. In the comics, the Superior Spider-Man gives up the heroic identity rather than keep it at Peter's expense. They are different stories, but they rhyme. Intelligence matters. Love matters. Courage matters. None of them can substitute for the willingness to stop.
 
 There is an appealingly obnoxious thought at the end of this comparison. Otto Octavius might be able to build a better web-shooter, coordinate a better patrol schedule, or write a more impressive dissertation than Peter Parker. He might even be right to criticize Peter's mistakes. But the person who can do the job more efficiently is not necessarily the person who can be trusted with another human being's life.
 

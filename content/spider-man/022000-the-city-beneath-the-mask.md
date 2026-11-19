@@ -12,7 +12,7 @@ One of the most wonderfully irresponsible sentences in superhero storytelling is
 
 It sounds perfectly ordinary. We have all seen it. He leaps from a building, shoots a line, curves over traffic and lands on another roof. The trouble is that a web has to attach to something. If you are standing on a low residential street, there may be no convenient skyscraper. If you are crossing a river, the next building is not politely waiting just outside the camera. A perfect Spider-Man swing is a collaboration between human imagination and urban architecture, and New York sometimes refuses to supply the architecture.
 
-That refusal helps explain why the city matters. New York is not merely the label beneath an establishing shot. It gives Spider-Man surfaces, rhythms, strangers, neighborhoods, social collisions, places to hide and places where he cannot hide. It is the environment that makes his powers legible, and it is the community that makes their use meaningful.
+New York is more than the label beneath an establishing shot, and Spider-Man cannot be separated so easily from its streets. It gives Spider-Man surfaces, rhythms, strangers, neighborhoods, social collisions, places to hide and places where he cannot hide. It is the environment that makes his powers legible, and it is the community that makes their use meaningful.
 
 The argument is easy to weaken by saying that New York is another character. That phrase has been applied to so many movies that it can mean very little. Let's be more precise. Take New York out of Spider-Man and at least three things change: how he moves, what an ordinary day looks like, and how a masked stranger relates to the people he helps.
 
@@ -50,7 +50,7 @@ This is excellent storytelling. Public opinion is not a single meter that rises 
 
 The Daily Bugle material thrives on that distinction. Peter can see the immediate good he has done, while the public receives a partial account shaped by photographs, headlines and rumor. In the street, Spider-Man is a body that can catch you before you fall. In a newspaper, he is a controversy. New York allows both versions to exist in the same afternoon.
 
-That is one reason the phrase 'friendly neighborhood Spider-Man' matters. It scales the hero back down. You do not have to decide what the entire world thinks of him in order to watch him help one person. A neighborhood is a place where an act can be specific and local: stopping a theft, helping someone cross a dangerous space, rescuing a person whose name the hero may never learn.
+'Friendly neighborhood Spider-Man' brings the hero back down to the scale of someone helping a stranger on a familiar street. You do not have to decide what the entire world thinks of him in order to watch him help one person. A neighborhood is a place where an act can be specific and local: stopping a theft, helping someone cross a dangerous space, rescuing a person whose name the hero may never learn.
 
 The city also makes anonymity possible. A masked person can disappear into a vast population in a way that would be harder in a town where everyone knows everyone else. But anonymity is not the same as isolation. New York's density means that Peter constantly encounters strangers who depend on him and are entitled to his help as human beings, not because they know him personally.
 
@@ -84,7 +84,7 @@ A player notices details that a film might pass in half a second. A street can f
 
 The expansion also offers a reminder of an old adaptation problem: New York is too large and varied to be represented fully. A game must compress, simplify, prioritize, and fictionalize. Its Manhattan is not a navigational substitute for the real borough. But when it makes the character's home and neighborhood explorable, it can teach the player to understand a superhero through the spaces he moves between.
 
-That matters particularly for Miles, whose family and school life supply a different set of urban commitments from Peter's. The map should not merely have a new colored icon for a second hero. It should allow the places that matter to that hero to affect the story.
+For Miles, family, school, and neighborhood shape a different set of urban commitments from Peter's. A game cannot express that simply by adding a new colored icon for a second hero. The places Miles knows, and the people he meets there, have to influence what he does and what he risks.
 
 ## A city worth saving is a city worth noticing
 

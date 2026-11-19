@@ -44,7 +44,7 @@ The character's design participates in the problem. The Goblin face has an enorm
 
 ## The story that changed the meaning of winning
 
-The turning point is *The Amazing Spider-Man* numbers one hundred twenty-one and one hundred twenty-two, published in 1973. Gerry Conway wrote the stories; Gil Kane penciled issue one hundred twenty-one, John Romita Senior inked it, and the issue had other credited production artists. The division of labor matters because a comic's emotion is not produced by its script alone.
+The turning point is *The Amazing Spider-Man* numbers one hundred twenty-one and one hundred twenty-two, published in 1973. Gerry Conway wrote the stories; Gil Kane penciled issue one hundred twenty-one, John Romita Senior inked it, and the issue had other credited production artists. Those credits acknowledge that the issue's emotional force emerges from visual decisions as well as dialogue and plotting.
 
 For a reader who does not know the sequence, here is the essential context. Gwen Stacy is Peter Parker's girlfriend. Norman Osborn, as the Green Goblin, takes her captive and throws her from a bridge. Spider-Man reaches her with a web line, but the rescue does not save her. Gwen dies. Peter is confronted with a catastrophe at the precise moment when he believes he has acted quickly enough to prevent one.
 

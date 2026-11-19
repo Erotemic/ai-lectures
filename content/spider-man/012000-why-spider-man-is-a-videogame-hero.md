@@ -30,7 +30,7 @@ When they revisited the idea, there were more prototypes, selected anchor points
 
 One of the finest details in that story is that physical accuracy was not the only goal. An attachment system that faithfully chose a nearby wall could still produce a miserable game if it kept pulling Spider-Man somewhere the player did not intend to go. The programmers had to make guesses about player intention. The sense of swinging is assembled from physics, anticipation, forgiveness and the deliberate arrangement of the playground.
 
-This distinction matters. When fans ask whether a swinging system is realistic, they may mean three things: whether the web visibly attaches to a building; whether the motion respects some recognizable momentum; and whether the player feels responsible for the trajectory. Those are related, but they are not identical. A realistic fall can be a boring fall. A simulated web could be technically correct and spectacularly bad at guessing what your thumb meant.
+When fans ask whether a swinging system is realistic, they may be asking three different questions: whether the web visibly attaches to a building; whether the motion respects some recognizable momentum; and whether the player feels responsible for the trajectory. Those are related, but they are not identical. A realistic fall can be a boring fall. A simulated web could be technically correct and spectacularly bad at guessing what your thumb meant.
 
 ## Insomniac's moving city
 

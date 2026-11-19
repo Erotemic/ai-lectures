@@ -18,11 +18,11 @@ Nettie's letters introduce another register. Her education, travels, and mission
 
 Mister's concealment of Nettie's letters is therefore more than private cruelty. It is control over the means by which people know their own lives. Celie has been told, by the absence of evidence, that her sister has abandoned her or died. The letters reveal that the silence had an author. The act of recovering them restores not simply information but continuity: years of love and concern have existed even when Celie was prevented from receiving them.
 
-When she begins addressing Nettie rather than only God, the new addressee matters. Celie has discovered that another human being was trying to reach her. The book does not require religion to vanish at that moment; it allows her relationship with the sacred to change as her relationship with living people becomes more reciprocal.
+When Celie begins addressing Nettie rather than only God, her letters become a conversation with someone who has been trying to reach her. Celie has discovered that another human being was trying to reach her. The book does not require religion to vanish at that moment; it allows her relationship with the sacred to change as her relationship with living people becomes more reciprocal.
 
 ## A friendship that is also desire
 
-Shug Avery enters Celie's life as a photograph and a possibility. She is a blues singer who can travel and command attention. She has a relationship with the man Celie is forced to call her husband. She is no perfect savior: she can be vain, impatient, self-interested, and unreliable. That imperfection matters. If her purpose were merely to rescue Celie, Celie's freedom would still depend on a powerful person's generosity.
+Shug Avery enters Celie's life as a photograph and a possibility. She is a blues singer who can travel and command attention. She has a relationship with the man Celie is forced to call her husband. She is no perfect savior: she can be vain, impatient, self-interested, and unreliable. Shug's imperfections keep her from becoming a convenient savior. If she merely rescued Celie, Celie's freedom would still depend on a powerful person's generosity.
 
 Instead the relationship develops through acts and discoveries. Celie cares for Shug during illness. Shug learns what Mister has done to Celie and comes to see the fear hidden beneath her compliance. Celie experiences erotic affection and pleasure that have never been allowed a place in her account of marriage. They become lovers, and their intimacy gives Celie language for a body that does not exist solely to be used by men.
 

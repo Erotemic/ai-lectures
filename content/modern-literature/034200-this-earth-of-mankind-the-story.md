@@ -24,7 +24,7 @@ The reason for her position is part of the household's history. Born Sanikem, Ny
 
 For a time her partnership with Herman held a form of domestic happiness. But Herman had an existing wife and a son in the Netherlands, facts he had concealed. When that son, Maurits, confronted him, the household began to unravel. Herman withdrew from family life. Nyai was left to hold the work and children together. She resolved that Annelies should have the freedom to choose a husband rather than be disposed of as she herself had been.
 
-This history matters because the house is not merely a romantic setting. It is a place where love, coercion, commerce, race, and law have become knotted together. Nyai has built something real. She is still not allowed to possess the dignity that should accompany it.
+The house is not simply a romantic setting. Its history has entangled love, coercion, commerce, race, and law until none can be separated from the others. Nyai has built something real. She is still not allowed to possess the dignity that should accompany it.
 
 ## Learning to love, and learning what love cannot settle
 

@@ -86,7 +86,7 @@ It is also worth asking who pays for the hero's growth. A supporting character i
 
 That is what makes the imaginary Tuesday useful. Spider-Man can win the fight and lose the afternoon. He can do the right thing without receiving the credit, tell a joke while frightened, and travel over a city whose people remain beyond his complete protection. The job is neither pure punishment nor pure freedom. Peter enjoys being Spider-Man, and at times it's clearly ruining his life. Both facts need to survive.
 
-A good Spider-Man story doesn't necessarily end with Peter in misery. It ends with the sense that what happened matters, and that tomorrow he will have to live with it. The mechanical genius of the series is not an endlessly refillable supply of trouble. It is the ability to make a heroic act change the ordinary life to which the hero must return.
+A good Spider-Man story doesn't necessarily end with Peter in misery. It ends with something Peter will still have to live with tomorrow. The mechanical genius of the series is not an endlessly refillable supply of trouble. It is the ability to make a heroic act change the ordinary life to which the hero must return.
 
 <!-- END SPOKEN LECTURE -->
 

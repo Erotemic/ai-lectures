@@ -64,7 +64,7 @@ At Lowood, Brocklehurst makes a theatrical display of austerity. He wishes to cu
 
 Helen Burns offers a more difficult challenge to Jane's anger. Helen can forgive a person who wrongs her and can distinguish the soul's worth from the world's scorn. Jane fears this is too close to surrender. She wants an unjust teacher to know that injustice has occurred. The girls' conversation is one of the novel's earliest attempts to keep moral principles in tension. Resentment can become destructive; patience can become acquiescence. Helen is not a mouthpiece for Brocklehurst's system. Her faith is personal and generous, while his is bureaucratic and punitive. Yet the novel does not require Jane to believe that all injury should be endured without protest.
 
-Miss Temple shows why good authority matters. She listens, investigates, and corrects a false charge against Jane. Her moral goodness is enacted through a public restoration of truth. Lowood improves when institutional oversight changes after an epidemic exposes the cost of its regime. The lesson is not that all suffering can be healed by individual sympathy. Miss Temple's conduct matters partly because it challenges a system in which children could be mistreated in the name of their improvement.
+Miss Temple gives Jane a model of authority exercised through patience and fairness. She listens, investigates, and corrects a false charge against Jane; moral goodness takes the form of a public restoration of truth. Lowood improves only when outside scrutiny follows an epidemic and exposes the cost of its regime. Individual sympathy is not enough to repair a system that mistreats children in the name of their improvement, but Miss Temple refuses to become another agent of that system.
 
 Jane's departure from Rochester after the interrupted wedding is another test of conscience. She could use his suffering, the apparent lovelessness of his first marriage, or her own powerful feelings as reasons to remain. Instead she decides that an action must be judged even when its consequences will hurt the person making the judgment. Her struggle is not a victory over love. It is the refusal to make love the only measure of right conduct. The decision has force because it nearly destroys her material security.
 
@@ -104,7 +104,7 @@ At Moor House, the setting changes to a remote, rough landscape. Jane's wanderin
 
 The strangest incident comes when Jane hears Rochester's voice across a great distance. No conventional explanation is confirmed. The event occurs when St. John's pressure threatens to overwhelm her sense of choice. Whether the reader hears a miracle, a vision, or a story deliberately shaped by a retrospective narrator, the experience moves Jane toward inquiry rather than automatic obedience. She travels to discover what is actually true.
 
-The Gothic in Jane Eyre does not abolish realism. It heightens an ordinary ethical problem: our lives are affected by people, institutions, and hidden histories we cannot fully see. The fear of locked rooms and strange voices matters because the woman telling the story has repeatedly been excluded from decisions about her own future. Her imagination is not an escape from the world. It is one of the powers with which she interprets it.
+The Gothic in Jane Eyre does not abolish realism. It heightens an ordinary ethical problem: our lives are affected by people, institutions, and hidden histories we cannot fully see. The locked rooms and strange voices renew a fear Jane has known since childhood: others are deciding her future while withholding the truth from her. Her imagination is not an escape from the world. It is one of the powers with which she interprets it.
 
 ## Jane Eyre — Publication, Text, and Close Reading
 
@@ -124,7 +124,7 @@ Fourth, compare Jane's flight from Thornfield with her final return. On the firs
 
 Finally, read the novel's last pages instead of stopping at the wedding. Jane reports her domestic happiness and closes on St. John's missionary devotion. The placement complicates any conclusion that the entire book exists to deliver a single romantic answer. It preserves a rival account of vocation whose pressure Jane rejected but whose earnestness she still respects.
 
-Jane Eyre matters not because its heroine always decides correctly or because its marriage ends debate. It makes us inhabit the difference between being spoken for and speaking, between financial dependence and practical choice, between being loved and being given enough truth to decide how to love. The book's form and its moral questions cannot be separated. To hear Jane's autobiography is to hear a person making a claim that her life deserves her own account.
+Jane Eyre endures not because its heroine always decides correctly or because its marriage settles every question. It makes us inhabit the difference between being spoken for and speaking, between financial dependence and practical choice, between being loved and being given enough truth to decide how to love. The book's form and its moral questions cannot be separated. To hear Jane's autobiography is to hear a person making a claim that her life deserves her own account.
 
 <!-- END SPOKEN LECTURE -->
 

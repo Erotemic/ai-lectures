@@ -34,7 +34,7 @@ Then there is the ending. Radha asks Krishna to help replace her ornaments, stra
 
 The work does not provide an ethical manual for real relationships. Its scene of estrangement should not be used to excuse deceit, pressure someone to abandon a justified grievance, or insist that every humiliation must end in reconciliation. Poetry can make reconciliation moving without making every situation safe to reconcile. What we can say is that Jayadeva refuses to let religious devotion be merely a statement of reverence. It must pass through an experience of separation, risk, desire, and the possibility that the beloved will refuse to answer.
 
-That is why the Gita Govinda still matters as literature. It transforms a short sequence of events into a composition made for the ear, the performing body, and the imagination. Its central drama is not how a powerful god wins. It is how the presence of another person can suddenly matter more than power, and how an absent figure can fill a landscape with unbearable meaning. The river continues to flow; the songs return; the lovers find one another. The divine, for once, has had to wait.
+The Gita Govinda transforms a short sequence of events into a composition made for the ear, the performing body, and the imagination. The songs make an encounter feel larger than the plot that contains it. Its central drama is not how a powerful god wins. It is how the presence of another person can suddenly matter more than power, and how an absent figure can fill a landscape with unbearable meaning. The river continues to flow; the songs return; the lovers find one another. The divine, for once, has had to wait.
 
 <!-- END SPOKEN LECTURE -->
 

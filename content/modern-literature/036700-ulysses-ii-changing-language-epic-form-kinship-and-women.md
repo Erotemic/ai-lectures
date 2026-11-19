@@ -8,7 +8,7 @@
 
 Imagine telling the story of a man who goes to work, attends a funeral, eats lunch, visits friends, and finally returns to his wife. You could describe what he does. You could explain what he thinks. You could alternate dialogue and description and hope your readers came to know him. James Joyce does all this in Ulysses, but he discovers another possibility. Instead of using a stable narrative voice to report a whole day, he allows the forms of language encountered in that day to alter the form of the novel itself.
 
-The distinction matters. Ulysses is often introduced as the great novel of stream of consciousness. That phrase names a genuine part of its technique, but it is not a sufficient description of the entire work. As Pericles Lewis observes in Yale's Modernism Lab, Joyce's initial exploration of interior monologue develops into a far wider array of styles. The novel is not one unbroken transcript from inside a skull. It is a changing experiment in how inner life, public discourse, literary tradition, and bodily experience interact.
+Ulysses is often introduced as the great novel of stream of consciousness, as though one technique could account for the whole work. That phrase names a genuine part of its technique, but it is not a sufficient description of the entire work. As Pericles Lewis observes in Yale's Modernism Lab, Joyce's initial exploration of interior monologue develops into a far wider array of styles. The novel is not one unbroken transcript from inside a skull. It is a changing experiment in how inner life, public discourse, literary tradition, and bodily experience interact.
 
 ## The mind is not a polished speech
 
@@ -70,7 +70,7 @@ Understanding the relationship requires us to ask what is gained and lost when a
 
 Joyce planned Ulysses with an elaborate system of correspondences. His surviving schemes assign episodes Homeric counterparts, particular times, organs, arts, colors, symbols, and techniques. The Morgan Library's exhibition of the author's schemes establishes that these were part of the work's development and its explanation to selected readers. But Joyce's Homeric plans became more elaborate during composition, and he later had doubts about the way public circulation of the schemes could distort reading.
 
-That history matters. The correspondence is not a pattern invented wholly by later professors, yet the chart is not a substitute for the novel. If every scene must perfectly reproduce an episode from Homer, we will be tempted to force the text into an answer sheet. Joyce is exploring what happens when a familiar cultural structure is stretched across material that resists it.
+Joyce did design these Homeric correspondences; they were not simply imposed by later professors. But the chart cannot substitute for the novel. If every scene must perfectly reproduce an episode from Homer, we will be tempted to force the text into an answer sheet. Joyce is exploring what happens when a familiar cultural structure is stretched across material that resists it.
 
 Stephen's morning forms a Telemachiad, recalling Odysseus's son Telemachus searching for news of his father. Stephen has a living father, Simon, but the relationship is difficult. He also struggles with a dead mother and the question of spiritual lineage. To call Stephen a fatherless son is therefore a useful but incomplete metaphor. We should not erase Simon or confuse symbolic deprivation with literal orphanhood.
 
@@ -132,7 +132,7 @@ Bloom's habits look less impressive. He worries about advertising space, funeral
 
 Care is not the same as moral perfection. Bloom conducts a pseudonymous flirtation with Martha Clifford. On the beach he masturbates while watching Gerty MacDowell. He can objectify women, indulge fantasy, resent Molly, and avoid open communication. Joyce's achievement is not to present a flawless humanitarian. It is to make a human being's ethical strengths visible without erasing his evasions and appetites.
 
-If Bloom's goodness matters, it is because it appears in small choices that could easily have been otherwise. He might have remained silent when the Citizen baited him. He might have left Stephen to the police. He might have treated a widow's material situation as someone else's problem. The day shows him choosing attention more than once, alongside many occasions when he withdraws or hesitates.
+Bloom's goodness appears in small choices he might easily have made otherwise. He might have remained silent when the Citizen baited him. He might have left Stephen to the police. He might have treated a widow's material situation as someone else's problem. The day shows him choosing attention more than once, alongside many occasions when he withdraws or hesitates.
 
 ## Two forms of fatherlessness
 
@@ -182,13 +182,13 @@ She has been a child in Gibraltar, a singer with professional ambitions, a partn
 
 Molly also judges Bloom. Sometimes she admires his kindness and capacities; sometimes she thinks him awkward, inadequate, or exasperating. Her judgments move with desire, irritation, bodily sensation, and memory. We need not decide that every statement is fair in order to recognize her as a substantial consciousness. Characters are not granted personhood by being reliably right.
 
-The last remembered marriage proposal matters because Molly was not merely accepted or acquired. She recalls her own choice. The novel's last yes belongs to a woman remembering a moment of mutual desire. That memory does not provide a contract guaranteeing the couple's future. It does demonstrate that the wife whose actions have troubled the hero has her own past and her own account of how the marriage began.
+In remembering the marriage proposal, Molly recalls not being acquired or simply accepted but choosing for herself. The novel's last yes belongs to a woman remembering a moment of mutual desire. That memory does not provide a contract guaranteeing the couple's future. It does demonstrate that the wife whose actions have troubled the hero has her own past and her own account of how the marriage began.
 
 ## What does the absence of punctuation mean?
 
 Penelope is famous for its extended, minimally punctuated language. It moves through eight long paragraphs or sentences, depending on editorial description, with few of the stops a reader expects. The experience can feel astonishingly intimate: one thought leads to another without the narrator announcing that we have entered a character's consciousness.
 
-There is a trap in calling this unfiltered female nature. Women do not think in one uniform style, any more than men do. Molly's voice is a literary construction by a male author who is making specific artistic choices. The Morgan Library's account of Molly's style places the episode alongside Nora Barnacle's letters, noting similarities in the movement of speech. That documentary comparison matters, but Nora is not simply Molly, and the fictional monologue is not a transcript of a real woman's private consciousness.
+There is a trap in calling this unfiltered female nature. Women do not think in one uniform style, any more than men do. Molly's voice is a literary construction by a male author who is making specific artistic choices. The Morgan Library's account of Molly's style places the episode alongside Nora Barnacle's letters, noting similarities in the movement of speech. The comparison illuminates Joyce's craft without making Nora and Molly interchangeable: the fictional monologue is not a transcript of a real woman's private consciousness.
 
 Joyce does something powerful by denying the reader a familiar narrator's explanation of Molly. He also makes a claim on the power to imagine what a woman thinks. Readers can admire the technical achievement and still ask where the imagination is perceptive, where it is stereotyped, and what the author cannot know. The two responses are not mutually exclusive.
 

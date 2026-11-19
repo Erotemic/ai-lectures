@@ -14,7 +14,7 @@ In normal life, a person becomes older. They move away, change jobs, break up, m
 
 Fans argue about the Clone Saga and *One More Day* because the arguments are not only about twists in fiction. They are about the bargain between readers and an ongoing series. When does continuity reward attention? When does it start to imprison the writers? When does a reset create new stories, and when does it tell the audience that the emotional investment of the last twenty years was negotiable?
 
-There is no sensible way to answer those questions by declaring that comics should never change. Nor is it enough to say that everything is imaginary, so no change matters. The interesting part is the conflict between those two positions.
+There is no sensible way to answer those questions by declaring that comics should never change. But dismissing every change as inconsequential because the characters are fictional ignores the relationship readers have built with a continuing story. The conflict lies between continuity as an inheritance and change as a condition of keeping that story alive.
 
 ## The clone who was not supposed to be a footnote
 
@@ -26,7 +26,7 @@ Ben was not interesting only because readers might confuse him with Peter. He ha
 
 The 1990s storyline developed the terrible possibility that Peter was the clone and Ben the original. That is the kind of premise capable of making a long-time reader sit bolt upright. It is also capable of making a long-time reader ask a question you probably do not want hanging over the entire series: then whose life have I been reading?
 
-The difference matters. A novel can reveal that a narrator is unreliable and then end. A monthly franchise has to live with the revelation, including its consequences for customers who have bought hundreds of prior issues. The clone idea attacks the most valuable form of continuity: the belief that the ongoing protagonist is the person to whom those memories and choices belong.
+A novel can reveal that a narrator is unreliable and then end. A superhero serial has no such convenient boundary. A monthly franchise has to live with the revelation, including its consequences for customers who have bought hundreds of prior issues. The clone idea attacks the most valuable form of continuity: the belief that the ongoing protagonist is the person to whom those memories and choices belong.
 
 Marvel's published character history of Ben Reilly traces how the saga eventually revealed Ben to be the clone, with Norman Osborn having manipulated the evidence and participants. Ben dies while saving Peter, his body degenerating and resolving the biological question. That settles the plot at one level. It does not settle all the readers' feelings. People had spent time caring about Ben in his own right. An explanation that says he was not the original does not mean he was not a character.
 
@@ -48,7 +48,7 @@ The long-running comic has a practical business challenge as well. Each issue is
 
 Then comes *One More Day*, the four-part 2007 storyline involving *The Amazing Spider-Man*, *Friendly Neighborhood Spider-Man*, and *The Sensational Spider-Man*. The story was written by J. Michael Straczynski, with Joe Quesada deeply involved as writer and artist. Peter's public unmasking during the Civil War era has put loved ones at risk. Aunt May is gravely wounded. A supernatural bargain offered by Mephisto promises to save her, but its cost is the marriage between Peter and Mary Jane.
 
-The fictional mechanism matters, but we do not need a page-by-page recap to understand the reaction. The event makes the continuity itself an object that can be traded. It is not simply that a couple divorces, separates, or discovers their relationship has changed. A force inside the fictional universe changes the history of that relationship. That is a much more aggressive narrative operation.
+The reaction becomes intelligible without a page-by-page account of the fictional mechanism. The event makes the continuity itself an object that can be traded. It is not simply that a couple divorces, separates, or discovers their relationship has changed. A force inside the fictional universe changes the history of that relationship. That is a much more aggressive narrative operation.
 
 Why does it bother some readers so intensely? Because a marriage is not one fact on a character sheet. It is a framework in which countless earlier scenes were understood. Alter that framework, and the reader has to decide how to remember those scenes. Their emotional meaning may survive even if the revised continuity denies the legal or historical event that once organized them.
 

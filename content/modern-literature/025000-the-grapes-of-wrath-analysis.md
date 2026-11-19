@@ -38,11 +38,11 @@ Nor is the ending a policy proposal. Feeding one person cannot compensate for a 
 
 ## Jim Casy and the change in religious language
 
-Jim Casy begins as a former preacher, a man who has doubts about the work he once did. He is not a simple mouthpiece for a new doctrine. His changing ideas unfold through watching ordinary people suffer. The question that matters to him is not merely whether each person has committed private sins, but what kind of life people can make together.
+Jim Casy begins as a former preacher, a man who has doubts about the work he once did. He is not a simple mouthpiece for a new doctrine. His changing ideas unfold through watching ordinary people suffer. His questions move from private sin toward the possibility of making a decent life together.
 
 His movement toward labor organizing is an ethical development grounded in experience. Casy hears the workers' conditions, learns how employers exploit their divided interests, and commits himself to collective action. His death under an attack by men trying to break a strike turns him into a figure with clear associations to martyrdom. Even his initials invite comparison with Jesus Christ, an association many readers have made. But such parallels should be handled as literary patterns rather than proofs that every scene has a fixed theological answer. Steinbeck mixes biblical language with populist politics, humanism, and the material details of life under industrial agriculture.
 
-Tom is influenced by Casy but is not simply converted into a flawless disciple. His killing of Casy's attacker is a violent and dangerous act. His decision to leave and work for others is hopeful but remains untested by the end of the novel. The unresolved quality matters: political commitment is not a heroic badge that instantly repairs the harm. It begins the work that no single family can accomplish alone.
+Tom is influenced by Casy but is not simply converted into a flawless disciple. His killing of Casy's attacker is a violent and dangerous act. His decision to leave and work for others is hopeful but remains untested by the end of the novel. That unresolved ending denies Tom the easy reward of a heroic badge. Political commitment cannot instantly repair the harm. It begins the work that no single family can accomplish alone.
 
 ## The people outside the novel's spotlight
 

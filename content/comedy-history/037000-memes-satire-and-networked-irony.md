@@ -14,7 +14,7 @@ What kind of comedy theory can follow an object through that process? Research o
 
 ## A meme is a family of transformations
 
-Communication scholar Limor Shifman's Memes in Digital Culture, published in 2013, examined internet memes as groups of related digital items that circulate through imitation and transformation. That definition matters. It asks us not to treat a meme as simply one image with a caption, nor as a mysterious unit that travels unchanged from brain to brain. The object of study includes relations among versions and the practices of their makers and audiences.
+Communication scholar Limor Shifman's Memes in Digital Culture, published in 2013, examined internet memes as groups of related digital items that circulate through imitation and transformation. Shifman's definition shifts the object of study from a single captioned image to a family of versions and the practices of sharing and alteration. The object of study includes relations among versions and the practices of their makers and audiences.
 
 In the pedestrian-crossing example, the first image is not the whole phenomenon. A second user adds a destination sign. A third makes a mock booking website. A fourth adapts the format to criticize a different town's public project. The group of versions shares recognizable features while allowing people to signal their own interpretations. Copying is not just repetition. It can be a public act of belonging, criticism, or playful display of ingenuity.
 

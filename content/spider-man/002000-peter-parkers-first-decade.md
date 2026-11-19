@@ -76,13 +76,13 @@ Now we arrive at the part of this decade that has followed Spider-Man into nearl
 
 Then *The Amazing Spider-Man* number one hundred twenty-one changes the terms. Norman abducts Gwen, and she falls during the confrontation. Spider-Man tries to catch her. She dies. Readers have argued about the exact physical mechanics of the failed rescue, and later stories and adaptations have approached the event differently. The central fact is harsher than any mechanical debate: Spider-Man acts, and Gwen is not saved.
 
-Gerry Conway wrote the issue; Gil Kane penciled it, with John Romita Senior inking. The creative team matters because this was not an inevitable ending embedded in a blueprint from 1962. It was a consequential choice in a series whose readers had lived with Gwen and Peter for years. The next issue brings the confrontation with Norman, himself apparently killed. But a villain's apparent defeat cannot give Peter back what he has lost.
+Gerry Conway wrote the issue; Gil Kane penciled it, with John Romita Senior inking. Naming the artists and writer keeps the ending from seeming like an inevitability laid down in a blueprint from 1962. It was a consequential choice in a series whose readers had lived with Gwen and Peter for years. The next issue brings the confrontation with Norman, himself apparently killed. But a villain's apparent defeat cannot give Peter back what he has lost.
 
 The origin taught Peter that refusing to help could haunt him. Gwen's death asks what happens when he does help, and it still is not enough. That is a different injury to the hero's confidence. It makes the web line itself—the instrument of rescue—part of an argument about the limits of rescue.
 
 Don't reduce Gwen solely to the job she performs in Peter's development. The early comics sometimes gave supporting characters narrower lives than their later reputation suggests; they also gave readers time to know them. Part of what makes the death troubling is the tension between an effective emotional story for Peter and a creative decision to end Gwen's story. Fans can admire the power of the issue and still argue about its costs.
 
-Mary Jane's response in the aftermath matters in this context. A character who has often seemed bright, sociable, and evasive shows that there is a person beneath that performance. Suddenly, Peter's evolving private life is not just about whom he dates. It is about whom he can let close when his world is damaged.
+In the aftermath, Mary Jane lets the brightness and evasion of her usual manner fall away. We glimpse the person beneath the performance. Suddenly, Peter's evolving private life is not just about whom he dates. It is about whom he can let close when his world is damaged.
 
 ## What the first decade bought the series
 

@@ -120,7 +120,7 @@ Reading Ulysses closely does not mean admiring difficulty as a badge of seriousn
 
 On February second, nineteen twenty-two, James Joyce's Ulysses appeared in book form in Paris. The publisher was Sylvia Beach, an American bookseller whose shop, Shakespeare and Company, had become part of the city's literary life. Joyce was turning forty. The novel was set nearly eighteen years earlier, on a single day in Dublin, and had occupied him for years while he lived outside Ireland. Its first publication as a complete book was an achievement of literary patronage, personal commitment, and practical risk, not the routine launch of a novel that established publishers had been eager to handle.
 
-The story of its publication matters because the book's experiments challenged more than literary taste. They challenged which parts of bodily and mental life a novel could describe, who had the authority to decide whether a description was obscene, and how the written text of an unusually complex work could survive printing and revision.
+The novel's troubled publication history shows that its experiments challenged more than literary taste. They challenged which parts of bodily and mental life a novel could describe, who had the authority to decide whether a description was obscene, and how the written text of an unusually complex work could survive printing and revision.
 
 ## The work grew during composition
 

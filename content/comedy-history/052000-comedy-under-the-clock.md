@@ -32,7 +32,7 @@ Now reverse the problem. The original dialogue contains a double meaning crucial
 
 ## Dubbing changes the speaker's body without changing the visible one
 
-Dubbing creates a different set of constraints. The translated voice should seem to belong to the visible person, and the line has to fit within the performance's time. Lip synchronization matters to different degrees depending on the project and shot. The voice actor also makes interpretive decisions about tempo, hesitation, emphasis and emotional stance. These can shift a joke's apparent target without changing the image at all.
+Dubbing creates a different set of constraints. The translated voice should seem to belong to the visible person, and the line has to fit within the performance's time. A close shot of a speaking face may demand tighter lip synchronization than an exchange heard over a wide view of the room. The voice actor also makes interpretive decisions about tempo, hesitation, emphasis and emotional stance. These can shift a joke's apparent target without changing the image at all.
 
 Suppose the manager says, "Naturally, we have anticipated every possible delay." In the original performance, the actor stresses "naturally" with a slight panic, signaling that the manager knows the system is failing. A dubbed performance delivered with triumphant certainty makes the character sound more arrogant than anxious. Both may support comedy, but not the same character. The translator and performer are jointly shaping a social action: an attempt to reassure, to deceive, to evade, or to maintain dignity. A technically synchronized line can still change the dramatic meaning.
 

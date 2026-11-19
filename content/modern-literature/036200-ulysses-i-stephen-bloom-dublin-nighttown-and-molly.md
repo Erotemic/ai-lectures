@@ -92,7 +92,7 @@ At the newspaper offices Bloom works at arranging an advertisement. He is not a 
 
 The men's eloquence is attractive, but it can also be a way of avoiding work. They speak as though the past were a storehouse of powerful sentences to be quoted or improved upon. Joyce alters the chapter's very appearance: newspaper-like headlines interrupt the action, as if the conventions of the newspaper were taking over the way the novel reports its own events. The city produces language, and language in turn produces an image of the city.
 
-Stephen tells a story involving two elderly women climbing a Dublin monument. The anecdote matters less as a solution to anything than as a demonstration of an emerging writer testing how to make significance from a city's ordinary materials. Bloom is present in the same institution, yet the two men have not met in the meaningful way toward which the day's design is moving. They share a building before they share a conversation.
+Stephen tells a story involving two elderly women climbing a Dublin monument. The anecdote shows an emerging writer trying to make art from the ordinary materials of his city, rather than solving any of his immediate problems. Bloom is present in the same institution, yet the two men have not met in the meaningful way toward which the day's design is moving. They share a building before they share a conversation.
 
 ## Lestrygonians: what appetite reveals
 
@@ -206,7 +206,7 @@ Near the end Bloom sees an apparition of Rudy, his dead son, imagined as the chi
 
 ## What has actually changed?
 
-The events of the night can be summarized plainly: Bloom sought out Stephen, found him drunk in a dangerous district, witnessed disturbances and violence, and helped him avoid further harm. But that plain account leaves out why the rescue matters. In the space of one episode Joyce has made shame, desire, nationalism, religion, parental loss, and the fear of social punishment appear in bodies on a theatrical stage.
+The events of the night can be summarized plainly: Bloom sought out Stephen, found him drunk in a dangerous district, witnessed disturbances and violence, and helped him avoid further harm. But a bare summary leaves out the emotional ordeal through which Joyce makes the rescue possible. In the space of one episode Joyce has made shame, desire, nationalism, religion, parental loss, and the fear of social punishment appear in bodies on a theatrical stage.
 
 Bloom may not be a heroic warrior, yet he acts when another person is exposed. Stephen may be brilliant, yet he has become defenseless after a mixture of drink, grief, and bravado. Their relationship is not the fulfillment of a grand destiny. It begins in a vulnerable moment when the older man chooses to follow rather than walk away.
 
@@ -230,7 +230,7 @@ Bloom eventually asks Stephen to come home with him. The invitation is practical
 
 They reach seven Eccles Street. Bloom must let them into the house after discovering that he does not have his front-door key. The journey has brought him back to the very place whose domestic crisis gave the day its private suspense. Molly is upstairs. Boylan has already visited. The house is familiar, but homecoming does not restore the morning's condition.
 
-In the kitchen Bloom and Stephen prepare cocoa and talk. They compare languages, beliefs, habits, and memories; the differences between them do not disappear. Stephen's education has equipped him with a dense culture of texts, while Bloom's knowledge is mixed with inventions, calculations, and practical experimentation. Each may recognize in the other a kind of possibility. The older man has lost an infant son. The younger one is estranged from his father and troubled by his mother's death. We can see why the encounter matters without deciding that the two have literally replaced the missing members of each other's families.
+In the kitchen Bloom and Stephen prepare cocoa and talk. They compare languages, beliefs, habits, and memories; the differences between them do not disappear. Stephen's education has equipped him with a dense culture of texts, while Bloom's knowledge is mixed with inventions, calculations, and practical experimentation. Each may recognize in the other a kind of possibility. The older man has lost an infant son. The younger one is estranged from his father and troubled by his mother's death. Their encounter opens a possibility of tenderness without literally replacing the missing members of either man's family.
 
 Joyce tells this episode almost entirely as a catechism: a sequence of questions and answers, often in the language of scientific report, mathematics, or official inventory. It is an extraordinary choice for a scene of quiet, awkward companionship. How was the water drawn? What objects were in a room? What observations could be made of the stars? The catechism can ask what a character's feelings were, but it answers through external arrangements or apparently complete classifications that may tell us less than a silence would.
 
@@ -248,7 +248,7 @@ Most of the novel has shown Molly as Bloom imagines her: singer, wife, lover, mo
 
 This is not a confession made to the reader, a courtroom statement, or a speech to her husband. It is the restless movement of a mind through its own associations. Molly can be vain, affectionate, furious, shrewd, ungenerous, sensuous, and tired within a short passage. She makes judgments, contradicts herself, enjoys memories, revises them, and attends to her body. Neither Bloom's worry nor Boylan's desire has told us all there is to know about her.
 
-The physical detail matters as much here as in Bloom's breakfast. Molly's thoughts include menstruation, urination, sexual experience, clothing, and bodily discomfort. Joyce refuses to reserve the dignity of consciousness for a character when the character is thinking lofty thoughts. But neither does he make frankness a guarantee of wisdom. A thought that arrives without a period is still shaped by prejudice, wishes, and memory. Molly's voice belongs to Molly as a fictional consciousness, while the written form is the result of deliberate literary artistry.
+As in Bloom's breakfast, physical detail is part of the mind Joyce brings onto the page. Molly's thoughts include menstruation, urination, sexual experience, clothing, and bodily discomfort. Joyce refuses to reserve the dignity of consciousness for a character when the character is thinking lofty thoughts. But neither does he make frankness a guarantee of wisdom. A thought that arrives without a period is still shaped by prejudice, wishes, and memory. Molly's voice belongs to Molly as a fictional consciousness, while the written form is the result of deliberate literary artistry.
 
 Some memories carry her far from the bed in Dublin to the landscape and sunlight of Gibraltar, where she grew up. Others return her to the history of her marriage. She recalls Bloom asking her to marry him. At the close of the novel, her memory centers on her acceptance, on the bodily closeness and affection of the moment. The word yes recurs, and the book ends with it.
 

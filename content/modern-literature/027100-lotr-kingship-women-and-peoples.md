@@ -26,7 +26,7 @@ Galadriel and Arwen create different problems for interpretation. Galadriel is a
 
 ## Whose voices reach us?
 
-The fellowship crosses several cultures and makes the overcoming of inherited distrust a moral achievement. Legolas and Gimli begin amid an old Elf–Dwarf antagonism. By the end, each can see beauty in the other's homeland. Such friendship matters because the story is full of collective labels: Elves, Men, Dwarves, Orcs, Southrons, Easterlings, Rohirrim. Collective names can help create a large map quickly, but they can also disguise the individual lives contained within them.
+The fellowship crosses several cultures and makes the overcoming of inherited distrust a moral achievement. Legolas and Gimli begin amid an old Elf–Dwarf antagonism. By the end, each can see beauty in the other's homeland. Their friendship pushes back against the collective labels that fill the story: Elves, Men, Dwarves, Orcs, Southrons, Easterlings, Rohirrim. Collective names can help create a large map quickly, but they can also disguise the individual lives contained within them.
 
 Tolkien occasionally interrupts that flattening. In Ithilien, Sam considers a fallen Southron soldier and wonders what could have brought him to war, and whether he really wanted to be there. The thought is brief but morally consequential. The soldier is no longer only a body in an enemy formation. He has become someone with a possible home, a history and a set of constraints that the protagonists do not know. On the ride to Minas Tirith, the Drúedain under Ghân-buri-Ghân provide essential guidance through routes the Rohirrim cannot find themselves. They are not simply another faction to be conquered or a picturesque obstacle. Their knowledge changes the outcome.
 

@@ -66,7 +66,7 @@ Damayanti's journey is dangerous. In the forest she is threatened by a serpent a
 
 She reaches a royal household in Chedi, where she is offered shelter and a position with conditions meant to protect her dignity. The court does not know her full identity. She has moved from princess and queen to a stranger whose survival depends on negotiation with people who might be kind or cruel.
 
-Her speech matters. She describes her fidelity to an absent husband without supplying every identifying detail. She asserts boundaries. She learns how to live among others without accepting that her former standing can automatically command their help.
+Her speech allows her to defend a bond others cannot immediately see. She describes her fidelity to an absent husband without supplying every identifying detail. She asserts boundaries. She learns how to live among others without accepting that her former standing can automatically command their help.
 
 Eventually a messenger from Vidarbha recognizes her. Her family brings her home and renews the search for Nala. She has not been wandering aimlessly; she has survived, found allies, and begun converting grief into a method. The world of the story contains men who move through it by chariots and royal commands, but Damayanti's mobility is a different achievement. She must use caution, memory, reputation, and the chance to be recognized.
 

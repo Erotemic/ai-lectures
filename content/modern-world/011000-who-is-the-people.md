@@ -26,7 +26,7 @@ Consider an imperial crisis. An overseas colony is governed by a monarch across 
 
 The historian Wim Klooster argues that the Atlantic revolutions should be understood comparatively as conflicts within societies, not tidy uprisings in which all ordinary people confronted a small ruling elite. Families and neighborhoods divided. People of similar economic standing fought for opposing causes. Some rebelled to expand rights; others rebelled to preserve local hierarchies against imperial officers. Sometimes the same person changed sides when the meaning of the revolution changed.
 
-This perspective matters because a revolution has at least three histories. There is a history of stated principles. There is a history of institutions and military power. And there is a history of those who live with the outcome. The three do not move in step.
+A revolution unfolds in more than one history: that of its leaders, its institutions, and the people who lived through it. There is a history of stated principles. There is a history of institutions and military power. And there is a history of those who live with the outcome. The three do not move in step.
 
 ## Thirteen colonies, several kinds of independence
 

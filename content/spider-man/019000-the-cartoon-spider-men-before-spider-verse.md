@@ -46,7 +46,7 @@ Now jump to the Fox Kids *Spider-Man* series that began in 1994. It starred Chri
 
 Producer and head writer John Semper Junior helped develop a show willing to use large, continuing story arcs. Characters disappear and return. Romantic complications persist. A scientific crisis is not necessarily neatly closed by the end of twenty-two minutes. The stories make room for guest appearances by other Marvel heroes, and the later episodes expand toward multiverse adventures and variations of Spider-Man himself.
 
-This matters because television can do something that a movie trilogy cannot do as easily. It can make a character's ongoing problems part of a weekly rhythm. Peter's love life is not one question posed at the end of a film and answered in the next. It becomes a sequence of misunderstandings and reversals. The audience is invited to carry narrative memory across an entire season.
+Television can fold a character's troubles into a weekly rhythm in ways a movie trilogy rarely has time to attempt. Peter's love life is not one question posed at the end of a film and answered in the next. It becomes a sequence of misunderstandings and reversals. The audience is invited to carry narrative memory across an entire season.
 
 And the series is also shaped by restrictions. Semper has discussed standards-and-practices notes that could be amusingly specific, including caution about pigeons on a rooftop and the prohibition on visible punching or the use of certain dangerous situations. In a production interview he remembered being unable to show punches and having to avoid the word 'kill'. Those are his recollections of the show's actual working conditions, not evidence that every animation rule came from a single, universal prohibition.
 

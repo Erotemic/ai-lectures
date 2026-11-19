@@ -24,7 +24,7 @@ Dada appeared later, in the conditions of the First World War. The Cabaret Volta
 
 Imagine an invented Dada-like event: a performer addresses an empty podium as though it were the minister of Common Sense. She asks why it has made such a mess of the century. The podium does not answer. Another performer translates its silence into four incompatible languages. The audience laughs partly because the translators display professional confidence while creating no information. It may also hear an accusation against official rhetoric. The formal disruption serves a political and artistic refusal, not merely a desire to be eccentric.
 
-Dada did not speak with a single political voice or maintain uniform methods. The Cabaret Voltaire provides one vivid scene in a larger network of practices. What matters for our purposes is a question about artistic authority: when the forms that promise reason and order are themselves compromised, can a performance reveal their weakness by refusing to sound reasonable?
+Dada did not speak with a single political voice or maintain uniform methods. The Cabaret Voltaire provides one vivid scene in a larger network of practices. The question for a history of comic art is one of authority: when forms that promise reason and order are themselves compromised, can a performance expose their weakness by refusing to sound reasonable?
 
 ## Breton's surrealism is not a punch-line factory
 

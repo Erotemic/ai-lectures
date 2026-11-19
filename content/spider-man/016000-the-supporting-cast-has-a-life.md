@@ -38,7 +38,7 @@ Before the Goblin's attack, Gwen had been a college student with relationships, 
 
 A later comic can use Gwen's memory to deepen Peter's grief. It can also use that memory lazily, treating her as a perfect lost innocence whose only function is to make the present seem diminished. The distinction is worth listening for. Does the story remember that Gwen had opinions Peter disliked? That people disagreed with her? That she did not exist solely to arrange his character development? When the answer is no, the memorial has quietly erased the individual.
 
-This is one reason the supporting cast matters even when a reader is primarily interested in Spider-Man's adventures. A story's ethical weight depends partly on whether the endangered people have lives rather than merely names.
+The supporting cast gives Spider-Man's adventures their ethical weight. A person in danger is not merely a name for Peter to rescue: that person has attachments, fears, work, and a life that continues after the fight. The reader may come for Spider-Man, but the people around him keep the story human.
 
 ## Aunt May opens the conversation
 
@@ -70,7 +70,7 @@ You do not have to like every later Flash story to see the appeal. A secondary c
 
 At the Daily Bugle, J. Jonah Jameson offers a comic engine so loud that he can drown out every other employee. Peter sells photographs of Spider-Man to a man who publicly attacks Spider-Man. Jonah is a performance in himself. But the newsroom also needs people who do not think exactly as Jonah does.
 
-Robbie Robertson is a crucial counterweight. He is an editor and journalist who can recognize Peter's decency without agreeing with all his excuses. More importantly, he can disagree with Jonah on professional and ethical grounds. That matters because a newsroom with only Jonah's voice is a joke about newspapers. A newsroom where Robbie can push back is a place where decisions about evidence, fairness, fear and profit actually have to be made.
+Robbie Robertson is a crucial counterweight. He is an editor and journalist who can recognize Peter's decency without agreeing with all his excuses. More importantly, he can disagree with Jonah on professional and ethical grounds. With Jonah alone, the newsroom would be a joke about newspapers. Robbie's resistance turns it into a workplace where decisions about evidence, fairness, fear, and profit can be argued over and made.
 
 There is a temptation to describe Robbie merely as 'the sensible one.' But that reduces him to another function of Jonah's personality. A stronger reading recognizes that professional judgment takes work: Robbie decides what he can defend, whom he trusts, and when to challenge a powerful colleague. Those decisions are not Spider-Man's. They are his.
 

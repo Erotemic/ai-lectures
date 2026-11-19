@@ -44,7 +44,7 @@ Maiguru has obtained an advanced degree. By the conventional markers of educatio
 
 Lucia lacks the prestige the others receive from formal education. She speaks directly, insists on participating in decisions about her life, and negotiates practical employment. Her behavior is sometimes disruptive, but the narrative does not make a university degree the only possible source of political intelligence. She can recognize injustice in a family meeting and act on it while highly educated people maintain their silence.
 
-The comparison matters because the question is not simply which woman is the most emancipated. Each has learned ways of coping with pressure; each pays different costs. No single set of virtues solves the material and political conditions that shape all four lives.
+The four women cannot be arranged on a single ladder of emancipation. Each has learned to cope with pressure, and each pays a different price. No single set of virtues solves the material and political conditions that shape all four lives.
 
 ## Babamukuru's gift and his rule
 
@@ -70,7 +70,7 @@ Dangarembga has spoken directly about the origins of *Nervous Conditions*. In a 
 
 This testimony is more informative than an invented claim that Tambu is simply Dangarembga under another name. The author drew on experience but shaped a work of fiction. She chose a young narrator whose ambition would make the contradictions of schooling, family, and empire visible. Her later account of the writing process is a primary source about her artistic decisions, not a key that unlocks every character as a disguised acquaintance.
 
-The novel's publication history also matters. Dangarembga has described struggling to find a publisher for a young Black woman's voice in the Zimbabwean literary environment of the period; the book appeared through the Women's Press in 1988. That context makes its existence part of the history of who is allowed to narrate national and personal experience. Again, this history illuminates the novel; it does not erase the need to read the art as art.
+The novel's path to publication was itself difficult. Dangarembga has described struggling to find a publisher for a young Black woman's voice in the Zimbabwean literary environment of the period; the book appeared through the Women's Press in 1988. That context makes its existence part of the history of who is allowed to narrate national and personal experience. Again, this history illuminates the novel; it does not erase the need to read the art as art.
 
 ## A beginning that is also an ending
 

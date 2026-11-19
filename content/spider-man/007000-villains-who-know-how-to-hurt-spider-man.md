@@ -88,7 +88,7 @@ The 1987 comic answers through a much darker emotional register than a normal ro
 
 ## A gallery, not a leaderboard
 
-So which is Spider-Man's best villain? There is no stable answer because best at what matters. Doctor Octopus can test a philosophy of competence. Norman can threaten the supporting cast. Mysterio can corrupt perception. The Lizard can turn a fight into an act of rescue. Venom can intrude into the body's trusted habits. Kraven can challenge the meaning of being Spider-Man at all.
+So which is Spider-Man's best villain? It depends on what kind of story is being told. Doctor Octopus can test a philosophy of competence. Norman can threaten the supporting cast. Mysterio can corrupt perception. The Lizard can turn a fight into an act of rescue. Venom can intrude into the body's trusted habits. Kraven can challenge the meaning of being Spider-Man at all.
 
 This is a gallery of different fears, not simply a table of power levels. And the range is part of what makes the franchise durable. If the hero can only be challenged by someone who punches harder, the writer eventually has to invent an opponent who can punch through the next galaxy. Spider-Man's writers have another option: give an enemy access to a place Peter cannot protect with his fists.
 

@@ -110,7 +110,7 @@ At the funeral Alyosha asks the boys to remember the good moment they have share
 
 The final scene also changes the meaning of the title. The brothers have spent the novel struggling with their father's legacy of neglect, money, and violence. Alyosha turns toward children outside the family and invites them to become a community connected not by property or blood but by a promise to remember. The word brotherhood acquires a future-facing meaning. It is not a denial of biological kinship; it is an expansion of the relations for which one can take responsibility.
 
-A strong reading holds Ivan's objection and Alyosha's answer beside each other. The suffering of Ilyusha is not redeemed by its usefulness in teaching the boys to love. Alyosha's speech would be cruel if it implied that. It matters because the boys must decide what to do in a world where an innocent child has died. The novel closes on their answer, not on a solved philosophical equation. Its last hope is fragile enough to respect the grief that made it necessary.
+A strong reading holds Ivan's objection and Alyosha's answer beside each other. The suffering of Ilyusha is not redeemed by its usefulness in teaching the boys to love. Alyosha's speech would be cruel if it implied that. The boys must decide how to live together in a world where an innocent child has died. The novel closes on their answer, not on a solved philosophical equation. Its last hope is fragile enough to respect the grief that made it necessary.
 
 ## The Brothers Karamazov — A Town Chronicler and a Novel of Competing Voices
 

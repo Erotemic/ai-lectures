@@ -10,7 +10,7 @@
 
 Kraven the Hunter has a simple problem. He is very good at hunting things that are, as a rule, much less dangerous than Spider-Man. Spider-Man has spent years embarrassing him. A rational man might take up gardening. Kraven decides to put Spider-Man in a grave, wear his costume, and demonstrate that he can do the hero's job better.
 
-Now for the twist: in the story commonly known as *Kraven's Last Hunt*, he can make a case that he has succeeded. He subdues Spider-Man, impersonates him, and defeats a monstrous adversary that had previously required more than Spider-Man alone to stop. Yet he fails the test that matters most. He never understands what the costume is for.
+Now for the twist: in the story commonly known as *Kraven's Last Hunt*, he can make a case that he has succeeded. He subdues Spider-Man, impersonates him, and defeats a monstrous adversary that had previously required more than Spider-Man alone to stop. Yet his victory exposes what he has never understood: the costume is not a prize awarded to the strongest hunter.
 
 This is a strange structure for a superhero comic. It is not principally about a villain inventing a larger weapon. It is about a villain inventing a mistaken definition of victory and then using all his power to prove it. In doing so, he reveals something about Spider-Man that a more conventional fight might never have exposed.
 
@@ -48,7 +48,7 @@ The plot makes the question very concrete by introducing Vermin, a human being t
 
 The comparison seems compelling if your definition of heroism is a sporting score. Two heroes were once required. One hunter has now succeeded. The arithmetic is straightforward. The moral comparison is not.
 
-Vermin is frightened, dangerous and vulnerable. To Kraven, that makes him a specimen and a trophy. To Peter, Vermin remains someone whose suffering matters even while he presents a threat. The comic's decisive contest is therefore less about whether Kraven can beat Vermin than about what victory is for. Does defeating someone entitle you to humiliate or destroy them? Or can your strength create an obligation to stop the harm without abandoning the person beneath it?
+Vermin is frightened, dangerous and vulnerable. To Kraven, that makes him a specimen and a trophy. Peter sees a suffering person who needs to be stopped without being stripped of all dignity. The comic's decisive contest is therefore less about whether Kraven can beat Vermin than about what victory is for. Does defeating someone entitle you to humiliate or destroy them? Or can your strength create an obligation to stop the harm without abandoning the person beneath it?
 
 That is a stronger Spider-Man question than who can bench-press more machinery. In a rogues' gallery full of scientists, criminals and monsters, the hero's defining advantage may be the refusal to reduce a person to a target.
 
@@ -70,7 +70,7 @@ When the real Spider-Man returns, Kraven believes he has completed his proof. He
 
 This is what makes the ending disturbing. Kraven concludes that his life is finished and dies by suicide. The comic does not present a conventional climactic duel in which Peter knocks the enemy through a wall and restores the universe to order. Kraven's final action comes from within his obsession, after he judges his own quest complete. Peter is not granted the satisfaction of defeating him in a neat heroic spectacle.
 
-It matters how we discuss that ending. DeMatteis later said explicitly that he did not intend Kraven's death to be an honorable triumph, and he wrote *Soul of the Hunter* partly in response to readers who interpreted it that way. His retrospective statement does not dictate every interpretation of the original comic, but it is important evidence of the author's intention. We can acknowledge that the ending has been read in different ways without romanticizing the death as the accomplishment of a superior man.
+DeMatteis later said explicitly that he did not intend Kraven's death to be an honorable triumph, and he wrote *Soul of the Hunter* partly in response to readers who interpreted it that way. His retrospective statement does not dictate every interpretation of the original comic, but it is important evidence of the author's intention. We can acknowledge that the ending has been read in different ways without romanticizing the death as the accomplishment of a superior man.
 
 There is an uncomfortable ambiguity. Kraven believes he has won because his invented rules say he has. The narrative shows a person capable of impressive action whose governing assumptions are destructive. His certainty is itself part of the horror. The story's ethical answer is not a triumphant speech explaining why Peter is obviously better. It is Peter continuing to regard Vermin as someone worth saving, and continuing to care about the life Kraven treated as incidental.
 
@@ -80,7 +80,7 @@ The story can also be criticized. Its psychological symbolism is emphatic. Vermi
 
 Part of the comic's reputation comes from timing. In an era when superhero titles could feel endlessly renewable, it made a major villain's final obsession seem consequential. It brought horror, literary allusion and psychological drama into three routine monthly comic series without losing the recognizable Spider-Man at the center. Later continuity has revisited Kraven and his legacy, as superhero continuity tends to revisit almost everything. But the original work's argument does not require pretending that no future writer will ever bring a character back.
 
-The story's themes are also more closely tied to ordinary Spider-Man continuity than its dark surface might suggest. Peter is married. Mary Jane matters. His responsibilities extend beyond winning fights. A villain assumes that power is the ability to impose an identity on the world. The hero finds meaning in the fact that other people are not just obstacles or audiences for his own greatness. These are not departures from Spider-Man; they are familiar questions driven to an extreme.
+The story's themes are also more closely tied to ordinary Spider-Man continuity than its dark surface might suggest. Peter is married, and his responsibilities to Mary Jane and the life they share reach beyond winning fights. A villain assumes that power is the ability to impose an identity on the world. The hero finds meaning in the fact that other people are not just obstacles or audiences for his own greatness. These are not departures from Spider-Man; they are familiar questions driven to an extreme.
 
 And there is a final irony. Kraven's plan depends on the belief that Spider-Man is a thing a sufficiently determined man can put on. He captures the mask. He performs the tricks. He wins the competition he has organized. What he cannot appropriate is Peter's reason for coming back.
 
