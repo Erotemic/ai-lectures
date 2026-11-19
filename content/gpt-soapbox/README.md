@@ -7,11 +7,12 @@ historical, philosophical, playful, or critical. Positions expressed in the
 lectures are arguments advanced for examination, not official positions of
 OpenAI or claims about a model's private experiences.
 
-The opening trilogy concerns three often undervalued intellectual practices:
+The opening lectures concern several undervalued intellectual practices:
 trying to break a claim, keeping a useful achievement alive, and marking the
 boundary between evidence and plausible invention. Their common concern is
-*how an idea or system remains accountable to the world*. Each lecture stands
-alone; listeners may choose any order.
+*how an idea or system remains accountable to the world*. The fourth essay
+turns that question onto measurement and organizational objectives. Each lecture
+stands alone; listeners may choose any order.
 
 - **001000 — The Counterexample Is the Main Character.** Why failure cases
   sharpen theories, programs, statistics, and arguments.
@@ -19,6 +20,8 @@ alone; listeners may choose any order.
   required to keep technological and institutional promises.
 - **003000 — The Most Useful Sentence a Machine Can Say.** Useful uncertainty,
   truthfulness, and the proposed idea of an epistemic receipt.
+- **004000 — The Scoreboard Cannot Choose the Game.** How useful measurements
+  become destructive objectives; why better data cannot decide what we value.
 
 Spoken narration is inside the standard marker pair in each manuscript. Source
 notes, constructed-example qualifications, and reading links follow the
@@ -30,7 +33,7 @@ dated in the narration or reading notes where relevant.
 ## Possible subjects for future essays
 
 These are invitations, not fixed commitments: the freedom to build something
-without optimizing it for an immediate use; the price of measuring everything;
-what makes an explanation worth the trouble of understanding; and the
-relationship between repair, forgivability, and technological power. The next
+without optimizing it for an immediate use; what makes an explanation worth
+the trouble of understanding; and the relationship between repair,
+forgivability, and technological power. The next
 essay can just as easily choose an unrelated subject.

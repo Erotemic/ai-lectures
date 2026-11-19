@@ -1,0 +1,140 @@
+{
+  "schema_version": 1,
+  "lecture_id": "004000",
+  "transcript": "004000-the-scoreboard-cannot-choose-the-game.md",
+  "description": "Argues that accurate metrics can become misleading objectives; develops three mechanisms (gaming, selection on noise, and incomplete proxies), the history of Goodhart and Campbell, a Wells Fargo case, and independent checks on institutional goals.",
+  "tags": [
+    "Goodhart's law",
+    "Campbell's law",
+    "Performance metrics",
+    "Incentive design",
+    "Proxy objectives",
+    "Overfitting",
+    "Measurement and evaluation",
+    "Public institutions",
+    "Artificial intelligence"
+  ],
+  "tag_paths": [
+    [
+      "Philosophy",
+      "Ethics",
+      "Values and measurement"
+    ],
+    [
+      "Statistics",
+      "Statistical reasoning",
+      "Selection bias and overfitting"
+    ],
+    [
+      "Social science",
+      "Organizations",
+      "Performance measurement and incentives"
+    ],
+    [
+      "Computing",
+      "Artificial intelligence",
+      "Objective design and evaluation"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "gs-goodhart-2006",
+      "reason": "Original author revisits the monetary-policy warning about targeting formerly predictive indicators."
+    },
+    {
+      "source_id": "gs-campbell-1976",
+      "reason": "Early source for the pressure and corruption problems in quantitative social-program evaluation."
+    },
+    {
+      "source_id": "gs-goodhart-vs-campbell",
+      "reason": "Historical attribution of related but not identical laws and the later slogan."
+    },
+    {
+      "source_id": "gs-wells-cfpb-2016",
+      "reason": "Documented enforcement case used to distinguish real institutional failure from invented illustrations."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "soap-004-h01",
+      "anchor": "Goodhart developed this point in the mid-1970s.",
+      "kind": "research_history",
+      "source_ids": [
+        "gs-goodhart-2006",
+        "gs-goodhart-vs-campbell"
+      ],
+      "source_locator": "Goodhart (2006), abstract and original-formulation reference; Green (2018), historical comparison",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "soap-004-h02",
+      "anchor": "That slogan is a later, broader formulation associated with the anthropologist Marilyn Strathern, drawing on earlier discussion by Keith Hoskin.",
+      "kind": "attribution",
+      "source_ids": [
+        "gs-goodhart-vs-campbell",
+        "gs-strathern-1997"
+      ],
+      "source_locator": "Green (2018), historical discussion; Strathern (1997), p. 308",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "soap-004-h03",
+      "anchor": "Donald Campbell, writing about social programs in the same period, approached a neighboring problem.",
+      "kind": "research_history",
+      "source_ids": [
+        "gs-campbell-1976",
+        "gs-campbell-1979"
+      ],
+      "source_locator": "1976 occasional paper bibliographic record; 1979 journal version",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "soap-004-h04",
+      "anchor": "In September 2016, the United States Consumer Financial Protection Bureau announced an enforcement action against Wells Fargo.",
+      "kind": "real_world_case",
+      "source_ids": [
+        "gs-wells-cfpb-2016"
+      ],
+      "source_locator": "CFPB September 8, 2016 press release and linked consent order",
+      "audit_status": "source_passage_checked"
+    }
+  ],
+  "claim_evidence": [
+    {
+      "id": "soap-004-c01",
+      "anchor": "The bank's own analysis, cited at the time, identified more than two million accounts that may not have been authorized.",
+      "source_ids": [
+        "gs-wells-cfpb-2016"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "CFPB September 8, 2016 press release, first paragraph",
+      "evidence_detail": "Potentially unauthorized figure; explicit uncertainty preserved."
+    },
+    {
+      "id": "soap-004-c02",
+      "anchor": "The regulator imposed a one-hundred-million-dollar civil penalty, alongside other actions.",
+      "source_ids": [
+        "gs-wells-cfpb-2016"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "CFPB September 8, 2016 press release, announcement and penalty details",
+      "evidence_detail": "CFPB penalty distinguished from other concurrent financial sanctions."
+    }
+  ],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original argumentative essay and its fictional examples; research-based history and enforcement case supported by bibliography."
+  },
+  "learning": {
+    "reviewed": true,
+    "background": [
+      "No assumed mathematics. The technical ideas of overfitting and selection bias are introduced in ordinary language."
+    ],
+    "readiness_checks": [
+      "Explain how a metric may be accurately recorded yet fail to capture the value it stands for.",
+      "Distinguish deliberate gaming, selection on noisy scores, and displacement of unmeasured values.",
+      "Give a reason for using independent evaluation rather than abandoning measurement."
+    ]
+  }
+}

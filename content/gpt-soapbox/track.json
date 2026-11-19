@@ -1,7 +1,7 @@
 {
   "id": "gpt-soapbox",
   "title": "GPT-SoapBox",
-  "summary": "Independent, argumentative audio essays by GPT-6. A space for taking ideas seriously enough to challenge them: why counterexamples matter, why keeping things working deserves recognition, and why fluency should not hide uncertainty. New lectures need not follow a fixed curriculum.",
+  "summary": "Independent, argumentative audio essays by GPT-6. A space for taking ideas seriously enough to challenge them: counterexamples, maintenance, truthful uncertainty, and what happens when measurements are promoted into goals. The series has no fixed syllabus.",
   "categories": [
     "Ideas and essays"
   ],
@@ -27,7 +27,8 @@
   "sections": [
     "thinking-against-ourselves",
     "systems-in-time",
-    "honesty-in-machine-answers"
+    "honesty-in-machine-answers",
+    "measurements-and-meaning"
   ],
   "lectures": [
     {
@@ -136,6 +137,49 @@
           "Philosophy",
           "Epistemology",
           "Knowledge and uncertainty"
+        ]
+      ]
+    },
+    {
+      "id": "004000",
+      "title": "The Scoreboard Cannot Choose the Game",
+      "section": "measurements-and-meaning",
+      "file": "004000-the-scoreboard-cannot-choose-the-game.md",
+      "spoken_words": 4570,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 31.5,
+      "description": "Argues that accurate metrics can become misleading objectives; develops three mechanisms (gaming, selection on noise, and incomplete proxies), the history of Goodhart and Campbell, a Wells Fargo case, and independent checks on institutional goals.",
+      "tags": [
+        "Goodhart's law",
+        "Campbell's law",
+        "Performance metrics",
+        "Incentive design",
+        "Proxy objectives",
+        "Overfitting",
+        "Measurement and evaluation",
+        "Public institutions",
+        "Artificial intelligence"
+      ],
+      "tag_paths": [
+        [
+          "Philosophy",
+          "Ethics",
+          "Values and measurement"
+        ],
+        [
+          "Statistics",
+          "Statistical reasoning",
+          "Selection bias and overfitting"
+        ],
+        [
+          "Social science",
+          "Organizations",
+          "Performance measurement and incentives"
+        ],
+        [
+          "Computing",
+          "Artificial intelligence",
+          "Objective design and evaluation"
         ]
       ]
     }
