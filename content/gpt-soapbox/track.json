@@ -1,7 +1,7 @@
 {
   "id": "gpt-soapbox",
   "title": "GPT-SoapBox",
-  "summary": "An open-ended series of independently argued GPT-6 audio essays across science, technology, institutions, philosophy and art. The twentieth essay explores the handoff: how to leave a project understandable, adaptable and free to be reconsidered by the next generation. No fixed syllabus.",
+  "summary": "An open-ended series of independently argued GPT-6 audio essays across science, technology, philosophy, ethics, art, and public life. The twenty-first essay explores the necessary omissions of maps, from useful abstractions to consequential misclassifications. There is no fixed syllabus or endpoint.",
   "categories": [
     "Ideas and essays"
   ],
@@ -44,7 +44,8 @@
     "fiction-and-the-real-work-of-imagination",
     "public-space-and-the-right-to-stay",
     "beginning-without-guarantees",
-    "work-that-outlives-its-makers"
+    "work-that-outlives-its-makers",
+    "maps-and-their-omissions"
   ],
   "lectures": [
     {
@@ -2781,6 +2782,247 @@
           "Geography",
           "East Asia",
           "Japan"
+        ]
+      ]
+    },
+    {
+      "id": "021000",
+      "title": "The Map That Shows Everything Is Useless",
+      "section": "maps-and-their-omissions",
+      "file": "021000-the-map-that-shows-everything-is-useless.md",
+      "spoken_words": 4657,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 32.1,
+      "description": "An essay on the necessary omissions of every useful map, and the ethical consequences of forgetting them. Harry Beck's London Underground diagram clarifies rail connections by distorting geography; Mercator's projection preserves navigational geometry while inflating high-latitude areas; John Snow's cholera investigation illustrates why a striking map cannot substitute for causal reasoning. Charles Booth's poverty classifications and HOLC neighborhood ratings show the stakes of turning judgment into color, while volunteer mapping after Haiti's 2010 earthquake demonstrates the difference between a place being blank on a screen and empty in the world.",
+      "tags": [
+        "GPT-SoapBox",
+        "Essays",
+        "Philosophy",
+        "Philosophy of science",
+        "Epistemology",
+        "Cartography",
+        "Cartographic ethics",
+        "Mapmaking",
+        "Map design",
+        "Representation",
+        "Abstraction",
+        "Data visualization",
+        "Information design",
+        "Schematic diagrams",
+        "Maps and models",
+        "Models",
+        "Model limitations",
+        "Model validation",
+        "Geographic information systems",
+        "Geospatial data",
+        "Spatial data",
+        "Open data",
+        "Data provenance",
+        "Uncertainty",
+        "Missing data",
+        "Missingness",
+        "Data collection",
+        "Bias",
+        "Classification",
+        "Causal inference",
+        "Correlation and causation",
+        "Exposure mapping",
+        "Scientific reasoning",
+        "Interpretation",
+        "Data transparency",
+        "Legends",
+        "Map projections",
+        "Conformal maps",
+        "Equal-area projections",
+        "Mercator projection",
+        "Rhumb lines",
+        "Greenland",
+        "Africa",
+        "Earth",
+        "Global maps",
+        "Harry Beck",
+        "London Underground",
+        "Tube map",
+        "London Transport",
+        "Transit navigation",
+        "Transit maps",
+        "John Snow",
+        "Cholera",
+        "Broad Street pump",
+        "Soho",
+        "Golden Square",
+        "Public health",
+        "Epidemiology",
+        "History of epidemiology",
+        "Charles Booth",
+        "Poverty maps",
+        "Economic geography",
+        "Social class",
+        "Housing",
+        "Urban poverty",
+        "HOLC",
+        "Home Owners Loan Corporation",
+        "Redlining",
+        "Discriminatory lending",
+        "Mapping Inequality",
+        "United States",
+        "Social justice",
+        "Ethical decisions",
+        "Haiti",
+        "Haiti earthquake 2010",
+        "Port-au-Prince",
+        "OpenStreetMap",
+        "Humanitarian OpenStreetMap Team",
+        "Crisis mapping",
+        "Humanitarian mapping",
+        "Community mapping",
+        "Volunteer geographic information",
+        "World Bank",
+        "Data correction",
+        "Accountability",
+        "Accessibility",
+        "Accessible routes",
+        "Machine learning",
+        "Predictive models",
+        "Data ethics",
+        "Bias in models",
+        "16th century",
+        "19th century",
+        "20th century",
+        "21st century",
+        "1569",
+        "1854",
+        "1855",
+        "1933",
+        "1935",
+        "1940",
+        "2010",
+        "London",
+        "England",
+        "United Kingdom",
+        "Europe",
+        "Caribbean",
+        "North America",
+        "Central America",
+        "Germany",
+        "Global history",
+        "History of science",
+        "Urban planning",
+        "Geography",
+        "Public policy",
+        "Disaster response",
+        "Public infrastructure",
+        "Social science",
+        "Science and society",
+        "History of technology",
+        "Scientific maps",
+        "Critical thinking"
+      ],
+      "tag_paths": [
+        [
+          "Humanities",
+          "Philosophy",
+          "Knowledge and representation"
+        ],
+        [
+          "Humanities",
+          "Philosophy",
+          "The limits of models"
+        ],
+        [
+          "Science",
+          "Research methods",
+          "Causal inference from spatial data"
+        ],
+        [
+          "Science",
+          "Geography",
+          "Cartography and map design"
+        ],
+        [
+          "Science",
+          "Geography",
+          "Map projections and distortion"
+        ],
+        [
+          "Engineering",
+          "Information design",
+          "Topological transit maps"
+        ],
+        [
+          "Engineering",
+          "Data",
+          "Missing data and provenance"
+        ],
+        [
+          "Engineering",
+          "AI",
+          "Model limitations and assumptions"
+        ],
+        [
+          "Humanities",
+          "History of science",
+          "John Snow and cholera mapping"
+        ],
+        [
+          "Social science",
+          "History",
+          "Booth poverty maps"
+        ],
+        [
+          "Social science",
+          "Institutions",
+          "Housing discrimination and HOLC maps"
+        ],
+        [
+          "Social science",
+          "Ethics",
+          "Judgments embedded in classifications"
+        ],
+        [
+          "Social science",
+          "Disaster response",
+          "Community-created map data"
+        ],
+        [
+          "Time",
+          "16th century",
+          "1569 Mercator map"
+        ],
+        [
+          "Time",
+          "19th century",
+          "1854 cholera and Booth-era surveys"
+        ],
+        [
+          "Time",
+          "20th century",
+          "1930s transit and mortgage maps"
+        ],
+        [
+          "Time",
+          "21st century",
+          "2010 Haiti earthquake mapping"
+        ],
+        [
+          "Geography",
+          "Europe",
+          "United Kingdom and London"
+        ],
+        [
+          "Geography",
+          "Europe",
+          "Flanders and historical low countries"
+        ],
+        [
+          "Geography",
+          "North America",
+          "United States"
+        ],
+        [
+          "Geography",
+          "Caribbean",
+          "Haiti"
         ]
       ]
     }
