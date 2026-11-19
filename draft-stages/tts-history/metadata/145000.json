@@ -1,0 +1,1376 @@
+{
+  "schema_version": 1,
+  "lecture_id": "145000",
+  "transcript": "145000-fermi.md",
+  "related_resources": [
+    {
+      "source_id": "history-fermi-nas",
+      "reason": "Scholarly contemporary account by a fellow physicist: family, Pisa/European training, Rome group, neutron work, limitations of uranium interpretation, migration, Columbia, first pile, Hanford, Los Alamos, and late research. Recollections are retrospective."
+    },
+    {
+      "source_id": "history-fermi-uchicago-papers",
+      "reason": "Overview, dates, family and career, archive scope; not a claim that individual archival letters or notebooks were all inspected."
+    },
+    {
+      "source_id": "history-fermi-uchicago-exhibit",
+      "reason": "Archival exhibit on family photographs, field visits and teaching through Rome, New York and Chicago."
+    },
+    {
+      "source_id": "history-fermi-uchicago-rome",
+      "reason": "1938 racial laws and departure after Nobel awards."
+    },
+    {
+      "source_id": "history-fermi-laura",
+      "reason": "Laura Capon Fermi as author and civic figure; Atoms in the Family (1954); papers are mainly her own writing, not direct evidence for every event in Enrico’s career."
+    },
+    {
+      "source_id": "history-fermi-uchicago-laura-book",
+      "reason": "Laura’s 1954 memoir as authored account with its own perspective."
+    },
+    {
+      "source_id": "history-fermi-mactutor",
+      "reason": "Schooling, brother Giulio, early friendship and quantum statistics; retrospective biographical material."
+    },
+    {
+      "source_id": "history-fermi-treccani",
+      "reason": "Detailed Italian-language scholarly account, including Giulio, early friendship and Roman institutions."
+    },
+    {
+      "source_id": "history-fermi-nobel-lecture",
+      "reason": "Primary account of 1934 induced radioactivity, neutron method and attribution to the Joliot-Curies. Historical interpretations in the lecture are those of 1938."
+    },
+    {
+      "source_id": "history-fermi-nobel-list",
+      "reason": "Contemporaneous prize language claims new elements and credits slow-neutron reactions; reflects pre-fission identification, not proof that transuranics were found in 1934."
+    },
+    {
+      "source_id": "history-fermi-cref-neutrons",
+      "reason": "Via Panisperna experimental sequence and purpose of neutron-induced experiments; first-person narration is museum presentation, not a historical first-person transcript."
+    },
+    {
+      "source_id": "history-fermi-cref-fermions",
+      "reason": "Fermi and Dirac’s 1926 developments and priority correspondence; simplified museum pedagogical language distinguished from literal physics."
+    },
+    {
+      "source_id": "history-fermi-springer-stats",
+      "reason": "Archival and historiographic context for the 1926 independent research and theoretical distinctions."
+    },
+    {
+      "source_id": "history-fermi-franklin-institute",
+      "reason": "General history and Fermi–Dirac explanation, beta decay, and experimental career; supplementary."
+    },
+    {
+      "source_id": "history-fermi-cowan",
+      "reason": "Contemporaneous account of beta spectrum problem and experimental evidence for antineutrino; not retrospective proof that Fermi observed one."
+    },
+    {
+      "source_id": "history-fermi-fission",
+      "reason": "1934 transuranic interpretation, subsequent work by Meitner, Hahn, Strassmann and Frisch; evaluates priority under persecution and exile."
+    },
+    {
+      "source_id": "history-fermi-doe",
+      "reason": "Career chronology, New York/Chicago/Los Alamos, citizenship, Nobel and scientific contributions. Broad summary, subordinate to precise archival dates."
+    },
+    {
+      "source_id": "history-fermi-ornl-pile",
+      "reason": "December 2 1942 setting, George Weil, others present, duration and Wigner’s Chianti."
+    },
+    {
+      "source_id": "history-fermi-uchicago-leona",
+      "reason": "Leona Woods’s neutron counting work and membership in Chicago pile team."
+    },
+    {
+      "source_id": "history-fermi-nps-leona",
+      "reason": "Independent team identification and detector work, with some contemporaneous detail of credential dates differing across short biographies."
+    },
+    {
+      "source_id": "history-fermi-hanford",
+      "reason": "Hanford reactor startup, 1944 work, Chicago/Los Alamos chronology; crosscheck NAS memoir for xenon details."
+    },
+    {
+      "source_id": "history-fermi-trinity",
+      "reason": "Direct primary document for the paper-drop and its approximately ten-kiloton estimate."
+    },
+    {
+      "source_id": "history-fermi-trinity-analysis",
+      "reason": "Modern technical reconstruction of paper experiment, limited historical account of exactly how Fermi computed the result."
+    },
+    {
+      "source_id": "history-fermi-gac",
+      "reason": "Signed Fermi–Rabi position against pursuing the thermonuclear super; not a measure of earlier atomic bomb views."
+    },
+    {
+      "source_id": "history-fermi-fput-nature",
+      "reason": "1953 nonlinear computation, title-page/footnote credit and Mary Tsingou’s coding; retrospective historical framing."
+    },
+    {
+      "source_id": "history-fermi-fput-primary",
+      "reason": "Original report deposited in digital repository, begun before Fermi death and completed after it; author credits vary by catalog versus title-page layout."
+    },
+    {
+      "source_id": "history-fermi-fput-mactutor",
+      "reason": "Direct excerpt of numerical results, nonlinear recurrence and dates; present-day authorship discussion."
+    },
+    {
+      "source_id": "history-fermi-lunch",
+      "reason": "1980s correspondence and participant recollections; exact wording and date uncertain, apparently about summer 1950."
+    },
+    {
+      "source_id": "history-fermi-uchicago-centennial",
+      "reason": "Professional life, war, 1938 flight, Chicago, and postwar career."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "145000-h01",
+      "anchor": "On December 2, 1942, beneath the stands of the University of Chicago",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fermi-ornl-pile",
+        "history-fermi-nas"
+      ],
+      "source_locator": "On December 2, 1942, beneath the stands of the University of Chicago",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "145000-h02",
+      "anchor": "Their apparatus was called Chicago Pile Number One",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fermi-ornl-pile"
+      ],
+      "source_locator": "Their apparatus was called Chicago Pile Number One",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "145000-h03",
+      "anchor": "Enrico Fermi directed the experiment",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fermi-ornl-pile",
+        "history-fermi-nas"
+      ],
+      "source_locator": "Enrico Fermi directed the experiment",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "145000-h04",
+      "anchor": "George Weil adjusted the control rod under Fermi's instructions",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fermi-ornl-pile"
+      ],
+      "source_locator": "George Weil adjusted the control rod under Fermi's instructions",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "145000-h05",
+      "anchor": "Leona Woods, a young physicist whose work on neutron detectors was vital",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fermi-nps-leona",
+        "history-fermi-uchicago-leona"
+      ],
+      "source_locator": "Leona Woods, a young physicist whose work on neutron detectors was vital",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "145000-h06",
+      "anchor": "Herbert Anderson, Walter Zinn, and others",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fermi-nas",
+        "history-fermi-uchicago-papers"
+      ],
+      "source_locator": "Herbert Anderson, Walter Zinn, and others",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "145000-h07",
+      "anchor": "a bottle of Chianti brought by Eugene Wigner",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fermi-ornl-pile"
+      ],
+      "source_locator": "a bottle of Chianti brought by Eugene Wigner",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "145000-h08",
+      "anchor": "Enrico Fermi was born on September 29, 1901",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fermi-nas"
+      ],
+      "source_locator": "Enrico Fermi was born on September 29, 1901",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "145000-h09",
+      "anchor": "His father, Alberto, worked in the administration of the Italian railways",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fermi-nas",
+        "history-fermi-uchicago-papers"
+      ],
+      "source_locator": "His father, Alberto, worked in the administration of the Italian railways",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "145000-h10",
+      "anchor": "His mother, Ida de Gattis, had been a schoolteacher",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fermi-nas"
+      ],
+      "source_locator": "His mother, Ida de Gattis, had been a schoolteacher",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "145000-h11",
+      "anchor": "His older sister was Maria; his older brother, Giulio",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fermi-mactutor",
+        "history-fermi-treccani"
+      ],
+      "source_locator": "His older sister was Maria; his older brother, Giulio",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "145000-h12",
+      "anchor": "In 1915 Giulio died after an operation",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fermi-mactutor",
+        "history-fermi-treccani"
+      ],
+      "source_locator": "In 1915 Giulio died after an operation",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "145000-h13",
+      "anchor": "a lasting friendship with Enrico Persico",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fermi-uchicago-papers",
+        "history-fermi-treccani"
+      ],
+      "source_locator": "a lasting friendship with Enrico Persico",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "145000-h14",
+      "anchor": "their attempt to determine the density of Rome's drinking water",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fermi-uchicago-papers"
+      ],
+      "source_locator": "their attempt to determine the density of Rome's drinking water",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "145000-h15",
+      "anchor": "encouragement and advanced scientific books from Adolfo Amidei",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fermi-uchicago-papers"
+      ],
+      "source_locator": "encouragement and advanced scientific books from Adolfo Amidei",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "145000-h16",
+      "anchor": "In 1918 Fermi won a scholarship to the Scuola Normale Superiore in Pisa",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fermi-nas",
+        "history-fermi-uchicago-papers"
+      ],
+      "source_locator": "In 1918 Fermi won a scholarship to the Scuola Normale Superiore in Pisa",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "145000-h17",
+      "anchor": "In 1922 he completed his physics degree at Pisa with experimental work on X-rays",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fermi-nas",
+        "history-fermi-uchicago-papers"
+      ],
+      "source_locator": "In 1922 he completed his physics degree at Pisa with experimental work on X-rays",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "145000-h18",
+      "anchor": "He spent time in Göttingen with Max Born",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fermi-nas",
+        "history-fermi-doe"
+      ],
+      "source_locator": "He spent time in Göttingen with Max Born",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "145000-h19",
+      "anchor": "in Leiden with Paul Ehrenfest",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fermi-nas",
+        "history-fermi-doe"
+      ],
+      "source_locator": "in Leiden with Paul Ehrenfest",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "145000-h20",
+      "anchor": "Fermi later remembered the Göttingen period unhappily",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fermi-nas"
+      ],
+      "source_locator": "Fermi later remembered the Göttingen period unhappily",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "145000-h21",
+      "anchor": "For a period Fermi taught in Florence",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fermi-doe",
+        "history-fermi-nas"
+      ],
+      "source_locator": "For a period Fermi taught in Florence",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "145000-h22",
+      "anchor": "his friendship with Franco Rasetti became part of a long collaboration",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fermi-nas",
+        "history-fermi-cref-neutrons"
+      ],
+      "source_locator": "his friendship with Franco Rasetti became part of a long collaboration",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "145000-h23",
+      "anchor": "In 1926, still in his twenties, he published an account",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fermi-cref-fermions",
+        "history-fermi-springer-stats"
+      ],
+      "source_locator": "In 1926, still in his twenties, he published an account",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "145000-h24",
+      "anchor": "Paul Dirac obtained an equivalent statistics in 1926",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fermi-cref-fermions",
+        "history-fermi-springer-stats"
+      ],
+      "source_locator": "Paul Dirac obtained an equivalent statistics in 1926",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "145000-h25",
+      "anchor": "Fermi wrote to Dirac concerning priority",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fermi-springer-stats"
+      ],
+      "source_locator": "Fermi wrote to Dirac concerning priority",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "145000-h26",
+      "anchor": "the University of Rome created a professorship of theoretical physics and appointed Fermi",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fermi-doe",
+        "history-fermi-nas"
+      ],
+      "source_locator": "the University of Rome created a professorship of theoretical physics and appointed Fermi",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "145000-h27",
+      "anchor": "Italy under Benito Mussolini had become a Fascist dictatorship",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fermi-uchicago-papers",
+        "history-fermi-uchicago-rome"
+      ],
+      "source_locator": "Italy under Benito Mussolini had become a Fascist dictatorship",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "145000-h28",
+      "anchor": "Orso Mario Corbino, an influential physicist and organizer",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fermi-nas",
+        "history-fermi-treccani"
+      ],
+      "source_locator": "Orso Mario Corbino, an influential physicist and organizer",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "145000-h29",
+      "anchor": "Franco Rasetti, Emilio Segrè, Edoardo Amaldi, Bruno Pontecorvo, and the chemist Oscar D'Agostino",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fermi-nas",
+        "history-fermi-cref-neutrons"
+      ],
+      "source_locator": "Franco Rasetti, Emilio Segrè, Edoardo Amaldi, Bruno Pontecorvo, and the chemist Oscar D'Agostino",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "145000-h30",
+      "anchor": "In 1928 Fermi married Laura Capon",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fermi-nas",
+        "history-fermi-laura"
+      ],
+      "source_locator": "In 1928 Fermi married Laura Capon",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "145000-h31",
+      "anchor": "They had two children, Nella and Giulio",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fermi-nas",
+        "history-fermi-uchicago-papers"
+      ],
+      "source_locator": "They had two children, Nella and Giulio",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "145000-h32",
+      "anchor": "After their migration she became a writer on scientific, political, and social subjects",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fermi-laura",
+        "history-fermi-uchicago-laura-book"
+      ],
+      "source_locator": "After their migration she became a writer on scientific, political, and social subjects",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "145000-h33",
+      "anchor": "Wolfgang Pauli proposed another: there was an unseen neutral particle",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fermi-cowan",
+        "history-fermi-nas"
+      ],
+      "source_locator": "Wolfgang Pauli proposed another: there was an unseen neutral particle",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "145000-h34",
+      "anchor": "In papers developed in 1933 and 1934, he treated beta decay as an interaction",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fermi-nas",
+        "history-fermi-cowan"
+      ],
+      "source_locator": "In papers developed in 1933 and 1934, he treated beta decay as an interaction",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "145000-h35",
+      "anchor": "Fermi used the name neutrino",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fermi-cowan"
+      ],
+      "source_locator": "Fermi used the name neutrino",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "145000-h36",
+      "anchor": "Frederick Reines and Clyde Cowan and their collaborators would provide the decisive experimental evidence",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fermi-cowan"
+      ],
+      "source_locator": "Frederick Reines and Clyde Cowan and their collaborators would provide the decisive experimental evidence",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "145000-h37",
+      "anchor": "Irène and Frédéric Joliot-Curie had shown that artificial radioactivity",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fermi-nobel-lecture",
+        "history-fermi-cref-neutrons"
+      ],
+      "source_locator": "Irène and Frédéric Joliot-Curie had shown that artificial radioactivity",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "145000-h38",
+      "anchor": "neutrons might make especially effective projectiles",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fermi-nobel-lecture"
+      ],
+      "source_locator": "neutrons might make especially effective projectiles",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "145000-h39",
+      "anchor": "Oscar D'Agostino's work was thus as much a part of the physics",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fermi-nas"
+      ],
+      "source_locator": "Oscar D'Agostino's work was thus as much a part of the physics",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "145000-h40",
+      "anchor": "In October 1934, Pontecorvo and Amaldi noticed",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fermi-nas"
+      ],
+      "source_locator": "In October 1934, Pontecorvo and Amaldi noticed",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "145000-h41",
+      "anchor": "Hydrogen-rich substances, including paraffin, increased the effectiveness",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fermi-nas",
+        "history-fermi-cref-neutrons"
+      ],
+      "source_locator": "Hydrogen-rich substances, including paraffin, increased the effectiveness",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "145000-h42",
+      "anchor": "The group bombarded uranium and found complicated new radioactive products",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fermi-nas",
+        "history-fermi-fission"
+      ],
+      "source_locator": "The group bombarded uranium and found complicated new radioactive products",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "145000-h43",
+      "anchor": "The 1938 Nobel Prize citation included a claim about new radioactive elements",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fermi-nobel-list"
+      ],
+      "source_locator": "The 1938 Nobel Prize citation included a claim about new radioactive elements",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "145000-h44",
+      "anchor": "Fermi entertained the interpretation that some came from elements beyond uranium in the periodic table",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fermi-fission",
+        "history-fermi-nas"
+      ],
+      "source_locator": "Fermi entertained the interpretation that some came from elements beyond uranium in the periodic table",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "145000-h45",
+      "anchor": "Otto Hahn and Fritz Strassmann later obtained decisive chemical evidence",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fermi-fission"
+      ],
+      "source_locator": "Otto Hahn and Fritz Strassmann later obtained decisive chemical evidence",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "145000-h46",
+      "anchor": "Lise Meitner and Otto Frisch supplied the physical interpretation",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fermi-fission"
+      ],
+      "source_locator": "Lise Meitner and Otto Frisch supplied the physical interpretation",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "145000-h47",
+      "anchor": "Fermi had gained a prestigious academic position under a dictatorship",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fermi-uchicago-papers"
+      ],
+      "source_locator": "Fermi had gained a prestigious academic position under a dictatorship",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "145000-h48",
+      "anchor": "Laura Fermi was Jewish",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fermi-laura",
+        "history-fermi-nas"
+      ],
+      "source_locator": "Laura Fermi was Jewish",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "145000-h49",
+      "anchor": "In November 1938 Fermi learned that he had won the Nobel Prize",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fermi-uchicago-rome",
+        "history-fermi-nobel-list"
+      ],
+      "source_locator": "In November 1938 Fermi learned that he had won the Nobel Prize",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "145000-h50",
+      "anchor": "The ceremony in Stockholm created an opportunity to leave Italy",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fermi-uchicago-rome",
+        "history-fermi-nas"
+      ],
+      "source_locator": "The ceremony in Stockholm created an opportunity to leave Italy",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "145000-h51",
+      "anchor": "They traveled on to the United States, where Fermi had arranged a professorship at Columbia University",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fermi-nas",
+        "history-fermi-doe"
+      ],
+      "source_locator": "They traveled on to the United States, where Fermi had arranged a professorship at Columbia University",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "145000-h52",
+      "anchor": "In early 1939 Niels Bohr brought news of the German investigations",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fermi-nas"
+      ],
+      "source_locator": "In early 1939 Niels Bohr brought news of the German investigations",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "145000-h53",
+      "anchor": "Herbert Anderson, Leo Szilard, Walter Zinn and colleagues",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fermi-nas"
+      ],
+      "source_locator": "Herbert Anderson, Leo Szilard, Walter Zinn and colleagues",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "145000-h54",
+      "anchor": "the isotope uranium two hundred and thirty-five is especially susceptible to fission by them",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fermi-nas"
+      ],
+      "source_locator": "the isotope uranium two hundred and thirty-five is especially susceptible to fission by them",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "145000-h55",
+      "anchor": "Szilard and Wigner played important roles in efforts to alert American officials",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fermi-uchicago-centennial"
+      ],
+      "source_locator": "Szilard and Wigner played important roles in efforts to alert American officials",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "145000-h56",
+      "anchor": "the Metallurgical Laboratory at the University of Chicago",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fermi-doe",
+        "history-fermi-nas"
+      ],
+      "source_locator": "the Metallurgical Laboratory at the University of Chicago",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "145000-h57",
+      "anchor": "Return now to December 2, 1942",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fermi-ornl-pile",
+        "history-fermi-nas"
+      ],
+      "source_locator": "Return now to December 2, 1942",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "145000-h58",
+      "anchor": "Arthur Compton provided project leadership",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fermi-uchicago-centennial",
+        "history-fermi-nas"
+      ],
+      "source_locator": "Arthur Compton provided project leadership",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "145000-h59",
+      "anchor": "In 1944, at the Hanford site in Washington State",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fermi-nas",
+        "history-fermi-hanford"
+      ],
+      "source_locator": "In 1944, at the Hanford site in Washington State",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "145000-h60",
+      "anchor": "Fermi and John Wheeler helped identify the cause as poisoning by xenon",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fermi-nas",
+        "history-fermi-hanford"
+      ],
+      "source_locator": "Fermi and John Wheeler helped identify the cause as poisoning by xenon",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "145000-h61",
+      "anchor": "By late 1944 Fermi was working at Los Alamos",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fermi-nas",
+        "history-fermi-doe"
+      ],
+      "source_locator": "By late 1944 Fermi was working at Los Alamos",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "145000-h62",
+      "anchor": "He had become a United States citizen that year",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fermi-nas"
+      ],
+      "source_locator": "He had become a United States citizen that year",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "145000-h63",
+      "anchor": "On July 16, 1945, Fermi observed the Trinity nuclear test",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fermi-trinity",
+        "history-fermi-nas"
+      ],
+      "source_locator": "On July 16, 1945, Fermi observed the Trinity nuclear test",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "145000-h64",
+      "anchor": "He released small scraps of paper and measured how far the moving air carried them",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fermi-trinity"
+      ],
+      "source_locator": "He released small scraps of paper and measured how far the moving air carried them",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "145000-h65",
+      "anchor": "a rough estimate of the blast's energy, which he reported as equivalent to about ten thousand tons",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fermi-trinity",
+        "history-fermi-trinity-analysis"
+      ],
+      "source_locator": "a rough estimate of the blast's energy, which he reported as equivalent to about ten thousand tons",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "145000-h66",
+      "anchor": "In 1949, he and Isidor Rabi argued in a formal advisory statement against initiating",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fermi-gac"
+      ],
+      "source_locator": "In 1949, he and Isidor Rabi argued in a formal advisory statement against initiating",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "145000-h67",
+      "anchor": "After the war Fermi returned to teaching and research at the University of Chicago",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fermi-nas",
+        "history-fermi-doe"
+      ],
+      "source_locator": "After the war Fermi returned to teaching and research at the University of Chicago",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "145000-h68",
+      "anchor": "In 1949 he proposed that repeated encounters with moving magnetic irregularities",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fermi-nas"
+      ],
+      "source_locator": "In 1949 he proposed that repeated encounters with moving magnetic irregularities",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "145000-h69",
+      "anchor": "In the early 1950s, Fermi, John Pasta, Stanisław Ulam, and the programmer and mathematician Mary Tsingou",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fermi-fput-nature",
+        "history-fermi-fput-primary"
+      ],
+      "source_locator": "In the early 1950s, Fermi, John Pasta, Stanisław Ulam, and the programmer and mathematician Mary Tsingou",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "145000-h70",
+      "anchor": "The 1955 report appeared after Fermi's death",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fermi-fput-primary",
+        "history-fermi-fput-mactutor"
+      ],
+      "source_locator": "The 1955 report appeared after Fermi's death",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "145000-h71",
+      "anchor": "a lunchtime question at Los Alamos",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fermi-lunch"
+      ],
+      "source_locator": "a lunchtime question at Los Alamos",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "145000-h72",
+      "anchor": "The discussion is commonly dated to around 1950",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fermi-lunch"
+      ],
+      "source_locator": "The discussion is commonly dated to around 1950",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "145000-h73",
+      "anchor": "participants decades afterward, and their recollections differ",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fermi-lunch"
+      ],
+      "source_locator": "participants decades afterward, and their recollections differ",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "145000-h74",
+      "anchor": "After publication of Atoms in the Family in 1954",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fermi-laura",
+        "history-fermi-uchicago-laura-book"
+      ],
+      "source_locator": "After publication of Atoms in the Family in 1954",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "145000-h75",
+      "anchor": "Fermi died in Chicago on November 28, 1954, aged fifty-three",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-fermi-nas",
+        "history-fermi-doe"
+      ],
+      "source_locator": "Fermi died in Chicago on November 28, 1954, aged fifty-three",
+      "audit_status": "source_checked"
+    }
+  ],
+  "chronology": {
+    "life": {
+      "start": 1901,
+      "end": 1954,
+      "basis": "documented_biography",
+      "label": "1901–1954: Enrico Fermi",
+      "source_ids": [
+        "history-fermi-nas",
+        "history-fermi-uchicago-papers"
+      ]
+    },
+    "work": {
+      "start": 1922,
+      "end": 1954,
+      "basis": "papers_appointments_and_research",
+      "label": "1922–1954: statistical, nuclear, particle and computational research",
+      "source_ids": [
+        "history-fermi-nas",
+        "history-fermi-doe"
+      ]
+    },
+    "period": {
+      "start": 1926,
+      "end": 1954,
+      "basis": "institutional_and_family_history",
+      "label": "1926–1954: Rome research group, forced wartime migration and U.S. research career",
+      "source_ids": [
+        "history-fermi-uchicago-papers",
+        "history-fermi-uchicago-rome"
+      ]
+    },
+    "context": {
+      "start": 1934,
+      "end": 1949,
+      "basis": "nuclear_science_war_and_arms_policy",
+      "label": "1934–1949: European nuclear physics, persecution, atomic project and weapons-policy debate",
+      "source_ids": [
+        "history-fermi-fission",
+        "history-fermi-nas",
+        "history-fermi-gac"
+      ]
+    }
+  },
+  "spacetime_coverage": {
+    "schema_version": 1,
+    "subject": "Enrico Fermi",
+    "description": "Documented family, education, research appointments and major visits. Coordinates are approximate modern place centroids, not individual addresses. Date ranges show historically attested associations, not uninterrupted residence; the 1953 nonlinear experiments and 1955 report are contextualized without unsupported precise location claims.",
+    "places": [
+      {
+        "place": "Rome",
+        "present_day_country": "Italy",
+        "historical_polity": "Kingdom of Italy",
+        "start_year": 1901,
+        "end_year": 1918,
+        "role": "birth_education_and_early_experimentation",
+        "note": "Childhood, family, Enrico Persico and Adolfo Amidei.",
+        "coordinates": {
+          "latitude": 41.9028,
+          "longitude": 12.4964,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "history-fermi-nas",
+          "history-fermi-uchicago-papers"
+        ]
+      },
+      {
+        "place": "Pisa",
+        "present_day_country": "Italy",
+        "historical_polity": "Kingdom of Italy",
+        "start_year": 1918,
+        "end_year": 1922,
+        "role": "higher_education",
+        "note": "Scuola Normale Superiore, physics degree and X-ray research.",
+        "coordinates": {
+          "latitude": 43.7228,
+          "longitude": 10.4017,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "history-fermi-nas",
+          "history-fermi-uchicago-papers"
+        ]
+      },
+      {
+        "place": "Göttingen",
+        "present_day_country": "Germany",
+        "historical_polity": "Weimar Republic",
+        "start_year": 1923,
+        "end_year": 1923,
+        "role": "international_study",
+        "note": "Research stay with Max Born; dates approximately 1923–24.",
+        "coordinates": {
+          "latitude": 51.5413,
+          "longitude": 9.9158,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "history-fermi-nas",
+          "history-fermi-doe"
+        ],
+        "approximate": true
+      },
+      {
+        "place": "Leiden",
+        "present_day_country": "Netherlands",
+        "historical_polity": "Kingdom of the Netherlands",
+        "start_year": 1924,
+        "end_year": 1924,
+        "role": "international_study",
+        "note": "Collaboration with Paul Ehrenfest and colleagues.",
+        "coordinates": {
+          "latitude": 52.1601,
+          "longitude": 4.497,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "history-fermi-nas",
+          "history-fermi-doe"
+        ]
+      },
+      {
+        "place": "Florence",
+        "present_day_country": "Italy",
+        "historical_polity": "Kingdom of Italy",
+        "start_year": 1924,
+        "end_year": 1926,
+        "role": "university_teaching",
+        "note": "Lecturer and research with Franco Rasetti; end dates approximate.",
+        "coordinates": {
+          "latitude": 43.7696,
+          "longitude": 11.2558,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "history-fermi-doe",
+          "history-fermi-nas"
+        ],
+        "approximate": true
+      },
+      {
+        "place": "Rome",
+        "present_day_country": "Italy",
+        "historical_polity": "Fascist Italy",
+        "start_year": 1926,
+        "end_year": 1938,
+        "role": "research_and_family",
+        "note": "University of Rome chair, Via Panisperna laboratory, marriage and children.",
+        "coordinates": {
+          "latitude": 41.9028,
+          "longitude": 12.4964,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "history-fermi-nas",
+          "history-fermi-uchicago-papers"
+        ]
+      },
+      {
+        "place": "Stockholm",
+        "present_day_country": "Sweden",
+        "historical_polity": "Kingdom of Sweden",
+        "start_year": 1938,
+        "end_year": 1938,
+        "role": "nobel_ceremony_and_departure",
+        "note": "Nobel ceremony in December as first stage of family departure from Fascist Italy.",
+        "coordinates": {
+          "latitude": 59.3293,
+          "longitude": 18.0686,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "history-fermi-uchicago-rome",
+          "history-fermi-nobel-lecture"
+        ]
+      },
+      {
+        "place": "New York City",
+        "present_day_country": "United States",
+        "historical_polity": "United States of America",
+        "start_year": 1939,
+        "end_year": 1942,
+        "role": "columbia_and_fission_research",
+        "note": "Columbia University and chain-reaction research; start January 1939, end approximate.",
+        "coordinates": {
+          "latitude": 40.7128,
+          "longitude": -74.006,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "history-fermi-nas",
+          "history-fermi-doe"
+        ],
+        "approximate": true
+      },
+      {
+        "place": "Chicago",
+        "present_day_country": "United States",
+        "historical_polity": "United States of America",
+        "start_year": 1942,
+        "end_year": 1944,
+        "role": "metallurgical_laboratory",
+        "note": "Chicago Pile-1 and wartime neutron research.",
+        "coordinates": {
+          "latitude": 41.8781,
+          "longitude": -87.6298,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "history-fermi-nas",
+          "history-fermi-ornl-pile"
+        ]
+      },
+      {
+        "place": "Hanford, Washington",
+        "present_day_country": "United States",
+        "historical_polity": "United States of America",
+        "start_year": 1944,
+        "end_year": 1944,
+        "role": "reactor_startup_visit",
+        "note": "Consultation on B Reactor startup; not continuous residence.",
+        "coordinates": {
+          "latitude": 46.5507,
+          "longitude": -119.488,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "history-fermi-nas",
+          "history-fermi-hanford"
+        ]
+      },
+      {
+        "place": "Los Alamos, New Mexico",
+        "present_day_country": "United States",
+        "historical_polity": "United States of America",
+        "start_year": 1944,
+        "end_year": 1945,
+        "role": "wartime_research_and_family",
+        "note": "Manhattan Project laboratory appointment and family move.",
+        "coordinates": {
+          "latitude": 35.88,
+          "longitude": -106.3031,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "history-fermi-nas",
+          "history-fermi-doe"
+        ]
+      },
+      {
+        "place": "Trinity Site, New Mexico",
+        "present_day_country": "United States",
+        "historical_polity": "United States of America",
+        "start_year": 1945,
+        "end_year": 1945,
+        "role": "historical_test_visit",
+        "note": "Observer during the July 16 Trinity test; coordinates approximate and site is not continuous residence.",
+        "coordinates": {
+          "latitude": 33.6773,
+          "longitude": -106.4754,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "history-fermi-trinity"
+        ]
+      },
+      {
+        "place": "Chicago",
+        "present_day_country": "United States",
+        "historical_polity": "United States of America",
+        "start_year": 1946,
+        "end_year": 1954,
+        "role": "postwar_research_and_teaching",
+        "note": "University of Chicago Institute for Nuclear Studies, teaching, later work and death.",
+        "coordinates": {
+          "latitude": 41.8781,
+          "longitude": -87.6298,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "history-fermi-nas",
+          "history-fermi-doe"
+        ]
+      }
+    ]
+  },
+  "tags": [
+    "Biography",
+    "History of science",
+    "History of physics",
+    "Theoretical physics",
+    "Experimental physics",
+    "Quantum mechanics",
+    "Quantum statistics",
+    "Nuclear physics",
+    "Nuclear engineering",
+    "History of particle physics",
+    "History of computing",
+    "History of nonlinear dynamics",
+    "Science and war",
+    "20th century",
+    "1900s",
+    "1910s",
+    "1920s",
+    "1930s",
+    "1940s",
+    "1950s",
+    "Year: 1901",
+    "Year: 1915",
+    "Year: 1918",
+    "Year: 1922",
+    "Year: 1923",
+    "Year: 1924",
+    "Year: 1926",
+    "Year: 1928",
+    "Year: 1932",
+    "Year: 1933",
+    "Year: 1934",
+    "Year: 1938",
+    "Year: 1939",
+    "Year: 1940",
+    "Year: 1942",
+    "Year: 1944",
+    "Year: 1945",
+    "Year: 1946",
+    "Year: 1949",
+    "Year: 1950",
+    "Year: 1953",
+    "Year: 1954",
+    "Reception year: 1955",
+    "Reception year: 1985",
+    "Reception year: 2026",
+    "Region: Europe",
+    "Region: Southern Europe",
+    "Region: Central Europe",
+    "Region: Western Europe",
+    "Region: Northern Europe",
+    "Region: North America",
+    "Region: Eastern United States",
+    "Region: Midwestern United States",
+    "Region: Western United States",
+    "Country: Italy",
+    "Country: Germany",
+    "Country: Netherlands",
+    "Country: Sweden",
+    "Country: United States",
+    "Historical polity: Kingdom of Italy",
+    "Historical polity: Fascist Italy",
+    "Historical polity: German Reich",
+    "Historical polity: Weimar Republic",
+    "Historical polity: Kingdom of the Netherlands",
+    "Historical polity: Kingdom of Sweden",
+    "Historical polity: United States of America",
+    "State: New York",
+    "State: Illinois",
+    "State: Washington",
+    "State: New Mexico",
+    "Place: Rome",
+    "Place: Pisa",
+    "Place: Göttingen",
+    "Place: Leiden",
+    "Place: Florence",
+    "Place: Stockholm",
+    "Place: New York City",
+    "Place: Chicago",
+    "Place: Hanford",
+    "Place: Los Alamos",
+    "Place: Trinity Site",
+    "Enrico Fermi",
+    "Laura Capon Fermi",
+    "Alberto Fermi",
+    "Ida de Gattis",
+    "Giulio Fermi",
+    "Nella Fermi",
+    "Enrico Persico",
+    "Adolfo Amidei",
+    "Max Born",
+    "Paul Ehrenfest",
+    "Franco Rasetti",
+    "Emilio Segrè",
+    "Edoardo Amaldi",
+    "Bruno Pontecorvo",
+    "Oscar D'Agostino",
+    "Orso Mario Corbino",
+    "Wolfgang Pauli",
+    "Paul Dirac",
+    "Irène Joliot-Curie",
+    "Frédéric Joliot-Curie",
+    "Otto Hahn",
+    "Fritz Strassmann",
+    "Lise Meitner",
+    "Otto Frisch",
+    "Niels Bohr",
+    "Herbert Anderson",
+    "Leo Szilard",
+    "Eugene Wigner",
+    "Walter Zinn",
+    "George Weil",
+    "Leona Woods Marshall",
+    "Arthur Compton",
+    "John Wheeler",
+    "Isidor Rabi",
+    "Frederick Reines",
+    "Clyde Cowan",
+    "John Pasta",
+    "Stanisław Ulam",
+    "Mary Tsingou",
+    "Scuola Normale Superiore",
+    "University of Pisa",
+    "University of Göttingen",
+    "Leiden University",
+    "University of Florence",
+    "University of Rome",
+    "Via Panisperna",
+    "Columbia University",
+    "University of Chicago",
+    "Manhattan Project",
+    "Metallurgical Laboratory",
+    "Chicago Pile-1",
+    "Hanford B Reactor",
+    "Los Alamos Laboratory",
+    "Trinity nuclear test",
+    "Fermi–Dirac statistics",
+    "Pauli exclusion principle",
+    "Fermions",
+    "Degenerate electron gas",
+    "Chemical potential",
+    "Fermi energy",
+    "Beta decay",
+    "Antineutrino",
+    "Neutrino",
+    "Weak interaction",
+    "Conservation of energy",
+    "Neutron moderation",
+    "Neutron absorption",
+    "Artificial radioactivity",
+    "Radioactive isotopes",
+    "Uranium fission",
+    "Nuclear chain reaction",
+    "Criticality",
+    "Control rods",
+    "Graphite",
+    "Xenon-135",
+    "Cosmic-ray acceleration",
+    "Fermi–Pasta–Ulam–Tsingou problem",
+    "Fermi paradox",
+    "Nobel Prize 1938",
+    "Fascism",
+    "Italian racial laws",
+    "Scientific migration",
+    "Scientific collaboration",
+    "Ethics of nuclear weapons",
+    "History of scientific institutions",
+    "Scientific credit"
+  ]
+}
