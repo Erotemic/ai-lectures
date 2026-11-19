@@ -389,7 +389,8 @@
         "144000",
         "145000",
         "146000",
-        "146500"
+        "146500",
+        "147000"
       ],
       "parent": "subjects",
       "summary": "Historical lives behind physical laws, instruments, engineering, and institutions—from electromagnetism and nuclear physics to the experimental test of parity."
@@ -431,6 +432,25 @@
       "summary": "From Lavoisier's quantitative chemistry and Faraday's experiments to Pasteur's microbes, Marie Curie's radioactivity, Meitner's nuclei, and Franklin's diffraction.",
       "assumed_background": [
         "No required specialist chemistry; the narrations explain the experimental ideas as they arise."
+      ]
+    },
+    {
+      "id": "astronomy-cosmos",
+      "title": "Lives · Reading the Heavens and the Stuff of Stars",
+      "role": "deep_dive",
+      "parent": "subjects",
+      "summary": "From observing celestial motions and measuring the sky to fields, spectral classifications and stellar composition; each history is a self-contained human portrait.",
+      "assumed_background": [
+        "Curiosity about the night sky; technical ideas are introduced within each biography."
+      ],
+      "lectures": [
+        "049000",
+        "049500",
+        "130000",
+        "127000",
+        "108000",
+        "142000",
+        "147000"
       ]
     }
   ]
