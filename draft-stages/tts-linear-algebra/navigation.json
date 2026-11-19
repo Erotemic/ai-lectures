@@ -14,7 +14,8 @@
       "related_collections": [
         "operator-bridge",
         "numerical-matrix-bridge",
-        "spectral-computation-bridge"
+        "spectral-computation-bridge",
+        "least-squares-statistical-connections"
       ],
       "tags": [
         "Linear algebra",
@@ -108,6 +109,35 @@
       ],
       "assumed_background": [
         "Eigenvalues, matrix similarity, orthonormal bases, QR, singular values and matrix exponentials."
+      ]
+    },
+    {
+      "id": "least-squares-statistical-connections",
+      "title": "Linear Algebra · Least Squares as Geometry, Optimization and Evidence",
+      "role": "deep_dive",
+      "parent": "survey",
+      "summary": "Use a three-point dataset to connect orthogonal projections, QR/conditioning and regression uncertainty under explicit noise assumptions.",
+      "lectures": [
+        "006000",
+        "021000",
+        "028000"
+      ],
+      "preparation_collections": [
+        "linear-algebra:survey"
+      ],
+      "related_collections": [
+        "probability-measure:worked-regression-prediction",
+        "probability-measure:prediction-as-projection"
+      ],
+      "tags": [
+        "Linear algebra",
+        "Least squares",
+        "Regression",
+        "Statistics",
+        "Optimization"
+      ],
+      "assumed_background": [
+        "Vector inner products, solving two-by-two systems, and elementary probability for the inference stage."
       ]
     }
   ]

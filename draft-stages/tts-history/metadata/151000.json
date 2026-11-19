@@ -1,0 +1,1518 @@
+{
+  "schema_version": 1,
+  "lecture_id": "151000",
+  "transcript": "151000-wegener.md",
+  "related_resources": [
+    {
+      "source_id": "wegener-deutsches-archive",
+      "reason": "Pages III–VII checked in text and selected page photographs; confirms 1904 studies, 1905 doctorate, 16 November 1913 wedding, two expeditions, 1919 Hamburg, 1924 Graz, 1930 Eismitte, 1931 search. Not a claim that the underlying private papers were examined."
+    },
+    {
+      "source_id": "wegener-rccee",
+      "reason": "Museum-linked history of 1906–08 and 1912–13 Greenland fieldwork, family, meteorology, four polar journeys, 1924 Graz and the later scientific reputation."
+    },
+    {
+      "source_id": "wegener-awi-life",
+      "reason": "Birth and training, 1912 talks, 1915 book, Greenland chronology, war service, Hamburg and Graz; heading under 1914 for marriage is less precise than museum archival chronology."
+    },
+    {
+      "source_id": "wegener-awi-death",
+      "reason": "1930 expedition purpose, delayed supplies and motor sleds, 21 September journey, 30 October arrival, 1 November birthday, Villumsen and unrecovered return."
+    },
+    {
+      "source_id": "wegener-usgs-bio",
+      "reason": "Wegener geological evidence and mechanical problem, wartime 1915 work, 1929 revision, death, reception, and cautious distinction from modern tectonics."
+    },
+    {
+      "source_id": "wegener-usgs-develop",
+      "reason": "Modern plate-tectonic evidence: ocean-floor mapping, magnetic reversals, seafloor spreading, earthquake and volcano distribution, age pattern."
+    },
+    {
+      "source_id": "wegener-nasa-bio",
+      "reason": "Continent-fossil-climate connections, 1906 balloon, Greenland journeys, Köppen joint paleoclimate work, how Wegener handled missing forces, later scientific legacy."
+    },
+    {
+      "source_id": "wegener-geolsoc",
+      "reason": "Five classes of evidence for continental drift: fit, fossils, geology, tectonics and glacial deposits; 1915 text and 1930 Greenland."
+    },
+    {
+      "source_id": "wegener-aps-1912",
+      "reason": "1912 presentation, predecessors, geological reception, Arthur Holmes, Alexander du Toit, later plate-tectonics synthesis and 1930 expedition."
+    },
+    {
+      "source_id": "wegener-openstax-earth",
+      "reason": "1910 conjecture, paleontological correlation, Pangaea and missing mechanism explained for nonspecialists."
+    },
+    {
+      "source_id": "wegener-geo-mag",
+      "reason": "History of 1912 papers and subsequent 1915/1920/1922/1929 revisions; cites Wegener’s own retrospective account of 1910/1911 observations."
+    },
+    {
+      "source_id": "wegener-nature-koppen",
+      "reason": "Contemporaneous confirmation of two-person authorship, 1924 publication, and paleoclimate argument. Not a review of the complete book."
+    },
+    {
+      "source_id": "wegener-nature-holmes",
+      "reason": "Documents 1926 New York debate and 1928 publication; many critics, some advocates, diverse quality of objections."
+    },
+    {
+      "source_id": "wegener-newman1995",
+      "reason": "Later historiographic interpretation contests simplistic claims about the 1926 symposium; manuscript/full text not accessed."
+    },
+    {
+      "source_id": "wegener-museum-timeline",
+      "reason": "1880, 1899–1905 education, 1906 balloon, Greenland voyages, 1913 marriage, wartime work, 1924 Graz, 1929/1930 expeditions."
+    },
+    {
+      "source_id": "wegener-dartmouth-horses",
+      "reason": "Koch 1913 expedition used horses to haul supplies and sledges; recounts severe animal losses and long westward ice crossing."
+    },
+    {
+      "source_id": "wegener-else-hamburg",
+      "reason": "Else Köppen Wegener 1892–1992, scholarly translations and editorial work, three daughters; secondary contextual support, not sole source."
+    },
+    {
+      "source_id": "wegener-nap-plates",
+      "reason": "Distinguishes Hess/Dietz spreading from earlier drifting continents; dates Vine–Matthews proposal and 1960s tests."
+    },
+    {
+      "source_id": "wegener-usgs-hess",
+      "reason": "Hess and Dietz development of seafloor spreading, publication around 1961–1963, supported by Vine–Matthews and younger sea floor."
+    },
+    {
+      "source_id": "wegener-lamont-tharp",
+      "reason": "Tharp and Heezen ocean-floor mapping from 1948, 1957 Atlantic map, contribution to plate tectonics; important separate later collaboration."
+    },
+    {
+      "source_id": "wegener-deutsche-biographie",
+      "reason": "Independent basic vital dates, family, marriage and institutions; German language."
+    },
+    {
+      "source_id": "wegener-science-mag",
+      "reason": "Historical development of magnetic stripes and plate movement, important mid-century contributors and tests."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "151000-h01",
+      "anchor": "a German expedition was trying to keep a research station alive in the middle of Greenland",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "wegener-awi-death",
+        "wegener-deutsches-archive"
+      ],
+      "source_locator": "a German expedition was trying to keep a research station alive in the middle of Greenland",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "151000-h02",
+      "anchor": "The station was called Eismitte",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "wegener-awi-death"
+      ],
+      "source_locator": "The station was called Eismitte",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "151000-h03",
+      "anchor": "This was his fourth journey to Greenland",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "wegener-rccee",
+        "wegener-awi-life"
+      ],
+      "source_locator": "This was his fourth journey to Greenland",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "151000-h04",
+      "anchor": "Fritz Loewe, was so badly affected by frostbite",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "wegener-deutsches-archive",
+        "wegener-awi-death"
+      ],
+      "source_locator": "Fritz Loewe, was so badly affected by frostbite",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "151000-h05",
+      "anchor": "Rasmus Villumsen went back with Wegener toward the coast",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "wegener-awi-death",
+        "wegener-deutsches-archive"
+      ],
+      "source_locator": "Rasmus Villumsen went back with Wegener toward the coast",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "151000-h06",
+      "anchor": "Wegener's body was found the following spring; Villumsen was never found",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "wegener-deutsches-archive",
+        "wegener-awi-life"
+      ],
+      "source_locator": "Wegener's body was found the following spring; Villumsen was never found",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "151000-h07",
+      "anchor": "no witness saw the final event, and his last diary disappeared",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "wegener-awi-life",
+        "wegener-deutsches-archive"
+      ],
+      "source_locator": "no witness saw the final event, and his last diary disappeared",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "151000-h08",
+      "anchor": "Alfred Lothar Wegener was born in Berlin on November first, 1880",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "wegener-deutsches-archive",
+        "wegener-deutsche-biographie"
+      ],
+      "source_locator": "Alfred Lothar Wegener was born in Berlin on November first, 1880",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "151000-h09",
+      "anchor": "His father was a theologian and teacher of classical languages",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "wegener-deutsches-archive",
+        "wegener-rccee"
+      ],
+      "source_locator": "His father was a theologian and teacher of classical languages",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "151000-h10",
+      "anchor": "The family also spent time in Zechlinerhütte",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "wegener-deutsches-archive"
+      ],
+      "source_locator": "The family also spent time in Zechlinerhütte",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "151000-h11",
+      "anchor": "Alfred and his older brother Kurt were drawn toward mathematics and natural science",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "wegener-rccee",
+        "wegener-deutsches-archive"
+      ],
+      "source_locator": "Alfred and his older brother Kurt were drawn toward mathematics and natural science",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "151000-h12",
+      "anchor": "Wegener studied in Berlin, Heidelberg, and Innsbruck",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "wegener-awi-life",
+        "wegener-museum-timeline"
+      ],
+      "source_locator": "Wegener studied in Berlin, Heidelberg, and Innsbruck",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "151000-h13",
+      "anchor": "finished his astronomy studies in Berlin in 1904, with a doctorate awarded there in 1905",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "wegener-deutsches-archive"
+      ],
+      "source_locator": "finished his astronomy studies in Berlin in 1904, with a doctorate awarded there in 1905",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "151000-h14",
+      "anchor": "He entered the world of atmospheric research",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "wegener-rccee",
+        "wegener-deutsches-archive"
+      ],
+      "source_locator": "He entered the world of atmospheric research",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "151000-h15",
+      "anchor": "Wegener worked at the Prussian aeronautical observatory at Lindenberg",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "wegener-deutsches-archive",
+        "wegener-rccee"
+      ],
+      "source_locator": "Wegener worked at the Prussian aeronautical observatory at Lindenberg",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "151000-h16",
+      "anchor": "In April 1906 Alfred and Kurt Wegener took a free balloon into the air and remained aloft for more than fifty-two hours",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "wegener-deutsches-archive",
+        "wegener-museum-timeline"
+      ],
+      "source_locator": "In April 1906 Alfred and Kurt Wegener took a free balloon into the air and remained aloft for more than fifty-two hours",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "151000-h17",
+      "anchor": "Later that same year Wegener joined a Danish expedition to northeastern Greenland led by Ludvig Mylius-Erichsen",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "wegener-deutsches-archive",
+        "wegener-rccee"
+      ],
+      "source_locator": "Later that same year Wegener joined a Danish expedition to northeastern Greenland led by Ludvig Mylius-Erichsen",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "151000-h18",
+      "anchor": "Wegener's assignment concerned the atmosphere",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "wegener-rccee",
+        "wegener-deutsches-archive"
+      ],
+      "source_locator": "Wegener's assignment concerned the atmosphere",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "151000-h19",
+      "anchor": "The first Greenland expedition lasted from 1906 to 1908",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "wegener-deutsches-archive",
+        "wegener-rccee"
+      ],
+      "source_locator": "The first Greenland expedition lasted from 1906 to 1908",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "151000-h20",
+      "anchor": "Several members of the larger expedition, including its leader, died",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "wegener-deutsches-archive",
+        "wegener-rccee"
+      ],
+      "source_locator": "Several members of the larger expedition, including its leader, died",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "151000-h21",
+      "anchor": "Back in Germany, he taught at the University of Marburg",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "wegener-deutsches-archive"
+      ],
+      "source_locator": "Back in Germany, he taught at the University of Marburg",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "151000-h22",
+      "anchor": "In 1911 he published a major work on the thermodynamics of the atmosphere",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "wegener-nasa-bio",
+        "wegener-museum-timeline"
+      ],
+      "source_locator": "In 1911 he published a major work on the thermodynamics of the atmosphere",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "151000-h23",
+      "anchor": "A separate influence came from Wladimir Köppen",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "wegener-rccee",
+        "wegener-nasa-bio"
+      ],
+      "source_locator": "A separate influence came from Wladimir Köppen",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "151000-h24",
+      "anchor": "He could help Wegener see that climate was not only a matter of one thermometer or one storm",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "wegener-nature-koppen",
+        "wegener-nasa-bio"
+      ],
+      "source_locator": "He could help Wegener see that climate was not only a matter of one thermometer or one storm",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "151000-h25",
+      "anchor": "Wegener married Köppen's daughter Else in November 1913",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "wegener-deutsches-archive",
+        "wegener-museum-timeline"
+      ],
+      "source_locator": "Wegener married Köppen's daughter Else in November 1913",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "151000-h26",
+      "anchor": "Else Köppen had her own intellectual abilities and linguistic skills and later worked as a translator, writer, and editor",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "wegener-else-hamburg",
+        "wegener-rccee"
+      ],
+      "source_locator": "Else Köppen had her own intellectual abilities and linguistic skills and later worked as a translator, writer, and editor",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "151000-h27",
+      "anchor": "In 1910 he noticed the apparent correspondence between the opposing margins of Africa and South America",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "wegener-openstax-earth",
+        "wegener-geo-mag"
+      ],
+      "source_locator": "In 1910 he noticed the apparent correspondence between the opposing margins of Africa and South America",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "151000-h28",
+      "anchor": "One earlier advocate, Frank Bursley Taylor, proposed a form of continental movement",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "wegener-aps-1912"
+      ],
+      "source_locator": "One earlier advocate, Frank Bursley Taylor, proposed a form of continental movement",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "151000-h29",
+      "anchor": "The edge of a continental shelf, now mostly submerged, can be a better guide",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "wegener-usgs-bio",
+        "wegener-nasa-bio"
+      ],
+      "source_locator": "The edge of a continental shelf, now mostly submerged, can be a better guide",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "151000-h30",
+      "anchor": "In 1911 he encountered reports of matching fossils",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "wegener-geo-mag",
+        "wegener-nasa-bio"
+      ],
+      "source_locator": "In 1911 he encountered reports of matching fossils",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "151000-h31",
+      "anchor": "On January sixth, 1912, Wegener spoke before a geological association in Frankfurt",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "wegener-aps-1912",
+        "wegener-awi-life"
+      ],
+      "source_locator": "On January sixth, 1912, Wegener spoke before a geological association in Frankfurt",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "151000-h32",
+      "anchor": "The proposed Earth had an earlier configuration of land",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "wegener-openstax-earth"
+      ],
+      "source_locator": "The proposed Earth had an earlier configuration of land",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "151000-h33",
+      "anchor": "The essential claim was not that the modern continents had once been nearer one another",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "wegener-openstax-earth",
+        "wegener-geolsoc"
+      ],
+      "source_locator": "The essential claim was not that the modern continents had once been nearer one another",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "151000-h34",
+      "anchor": "Mesosaurus was an extinct reptile whose remains were found in parts of South America and southern Africa",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "wegener-geolsoc",
+        "wegener-openstax-earth"
+      ],
+      "source_locator": "Mesosaurus was an extinct reptile whose remains were found in parts of South America and southern Africa",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "151000-h35",
+      "anchor": "Fossils of the seed fern Glossopteris occurred across southern continents",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "wegener-geolsoc",
+        "wegener-nasa-bio"
+      ],
+      "source_locator": "Fossils of the seed fern Glossopteris occurred across southern continents",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "151000-h36",
+      "anchor": "Rocks of similar age and structure occur along the Atlantic-facing edges",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "wegener-geolsoc",
+        "wegener-usgs-bio"
+      ],
+      "source_locator": "Rocks of similar age and structure occur along the Atlantic-facing edges",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "151000-h37",
+      "anchor": "Some regions that are warm today preserve rocks deposited by great ice sheets",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "wegener-geolsoc",
+        "wegener-nasa-bio"
+      ],
+      "source_locator": "Some regions that are warm today preserve rocks deposited by great ice sheets",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "151000-h38",
+      "anchor": "Wegener developed this argument with Köppen",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "wegener-nature-koppen",
+        "wegener-nasa-bio"
+      ],
+      "source_locator": "Wegener developed this argument with Köppen",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "151000-h39",
+      "anchor": "In 1924 they published a collaborative study of climates in the geological past",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "wegener-nature-koppen",
+        "wegener-deutsches-archive"
+      ],
+      "source_locator": "In 1924 they published a collaborative study of climates in the geological past",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "151000-h40",
+      "anchor": "In 1912 he joined a new Danish expedition led by Johann Peter Koch",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "wegener-deutsches-archive",
+        "wegener-rccee"
+      ],
+      "source_locator": "In 1912 he joined a new Danish expedition led by Johann Peter Koch",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "151000-h41",
+      "anchor": "They overwintered in eastern Greenland and in 1913 crossed the northern part of the inland ice sheet toward the west",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "wegener-deutsches-archive",
+        "wegener-rccee"
+      ],
+      "source_locator": "They overwintered in eastern Greenland and in 1913 crossed the northern part of the inland ice sheet toward the west",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "151000-h42",
+      "anchor": "Horses were used for transport",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "wegener-dartmouth-horses",
+        "wegener-deutsches-archive"
+      ],
+      "source_locator": "Horses were used for transport",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "151000-h43",
+      "anchor": "After his return in 1913, he married Else and went back to university work at Marburg",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "wegener-deutsches-archive"
+      ],
+      "source_locator": "After his return in 1913, he married Else and went back to university work at Marburg",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "151000-h44",
+      "anchor": "Their household would include three daughters",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "wegener-deutsches-archive",
+        "wegener-deutsche-biographie"
+      ],
+      "source_locator": "Their household would include three daughters",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "151000-h45",
+      "anchor": "Wegener was called into military service as a reserve officer",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "wegener-awi-life",
+        "wegener-deutsches-archive"
+      ],
+      "source_locator": "Wegener was called into military service as a reserve officer",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "151000-h46",
+      "anchor": "After further injuries he was regarded as unfit for ordinary front-line duty and worked in military meteorology",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "wegener-deutsches-archive",
+        "wegener-awi-life"
+      ],
+      "source_locator": "After further injuries he was regarded as unfit for ordinary front-line duty and worked in military meteorology",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "151000-h47",
+      "anchor": "In 1915, amid the war, Wegener published the first book edition of The Origin of Continents and Oceans",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "wegener-usgs-bio",
+        "wegener-geolsoc"
+      ],
+      "source_locator": "In 1915, amid the war, Wegener published the first book edition of The Origin of Continents and Oceans",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "151000-h48",
+      "anchor": "issuing later editions in 1920, 1922, and 1929",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "wegener-geo-mag"
+      ],
+      "source_locator": "issuing later editions in 1920, 1922, and 1929",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "151000-h49",
+      "anchor": "Continental crust is generally thicker and less dense than typical oceanic crust",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "wegener-usgs-develop",
+        "wegener-nap-plates"
+      ],
+      "source_locator": "Continental crust is generally thicker and less dense than typical oceanic crust",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "151000-h50",
+      "anchor": "He imagined the continents moving through or relative to the material beneath them",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "wegener-usgs-bio",
+        "wegener-nap-plates"
+      ],
+      "source_locator": "He imagined the continents moving through or relative to the material beneath them",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "151000-h51",
+      "anchor": "The oceanic crust posed a severe mechanical problem",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "wegener-usgs-bio",
+        "wegener-openstax-earth"
+      ],
+      "source_locator": "The oceanic crust posed a severe mechanical problem",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "151000-h52",
+      "anchor": "By the fourth edition he treated the full mechanical answer as an open problem",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "wegener-nasa-bio"
+      ],
+      "source_locator": "By the fourth edition he treated the full mechanical answer as an open problem",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "151000-h53",
+      "anchor": "Arthur Holmes, a British geologist, was interested in how slow circulation within Earth's interior might drive large-scale movement",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "wegener-aps-1912",
+        "wegener-nature-holmes"
+      ],
+      "source_locator": "Arthur Holmes, a British geologist, was interested in how slow circulation within Earth's interior might drive large-scale movement",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "151000-h54",
+      "anchor": "Alexander du Toit, working in South Africa, took continental connections seriously",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "wegener-aps-1912",
+        "wegener-usgs-bio"
+      ],
+      "source_locator": "Alexander du Toit, working in South Africa, took continental connections seriously",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "151000-h55",
+      "anchor": "A widely discussed American symposium held in 1926 included critics and advocates",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "wegener-nature-holmes",
+        "wegener-newman1995"
+      ],
+      "source_locator": "A widely discussed American symposium held in 1926 included critics and advocates",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "151000-h56",
+      "anchor": "Historians disagree about which meetings and publications mattered most in hardening opinion",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "wegener-newman1995"
+      ],
+      "source_locator": "Historians disagree about which meetings and publications mattered most in hardening opinion",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "151000-h57",
+      "anchor": "Wegener moved to Hamburg in 1919 to work at the German maritime weather service",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "wegener-deutsches-archive",
+        "wegener-awi-life"
+      ],
+      "source_locator": "Wegener moved to Hamburg in 1919 to work at the German maritime weather service",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "151000-h58",
+      "anchor": "In 1924 he accepted a chair in meteorology and geophysics at the University of Graz",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "wegener-deutsches-archive",
+        "wegener-awi-life"
+      ],
+      "source_locator": "In 1924 he accepted a chair in meteorology and geophysics at the University of Graz",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "151000-h59",
+      "anchor": "In 1929 Wegener undertook a preparatory expedition",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "wegener-deutsches-archive",
+        "wegener-rccee"
+      ],
+      "source_locator": "In 1929 Wegener undertook a preparatory expedition",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "151000-h60",
+      "anchor": "The main German Greenland Expedition began in 1930",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "wegener-deutsches-archive",
+        "wegener-awi-death"
+      ],
+      "source_locator": "The main German Greenland Expedition began in 1930",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "151000-h61",
+      "anchor": "Some equipment used new transport technologies, including motorized propeller sledges",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "wegener-deutsches-archive",
+        "wegener-awi-death"
+      ],
+      "source_locator": "Some equipment used new transport technologies, including motorized propeller sledges",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "151000-h62",
+      "anchor": "Sea ice delayed unloading equipment and supplies",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "wegener-awi-death"
+      ],
+      "source_locator": "Sea ice delayed unloading equipment and supplies",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "151000-h63",
+      "anchor": "researchers including Johannes Georgi and Ernst Sorge were preparing to remain through winter",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "wegener-deutsches-archive",
+        "wegener-awi-death"
+      ],
+      "source_locator": "researchers including Johannes Georgi and Ernst Sorge were preparing to remain through winter",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "151000-h64",
+      "anchor": "Wegener, Loewe, and Villumsen continued and reached Eismitte on October thirtieth",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "wegener-awi-death",
+        "wegener-deutsches-archive"
+      ],
+      "source_locator": "Wegener, Loewe, and Villumsen continued and reached Eismitte on October thirtieth",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "151000-h65",
+      "anchor": "Wegener's fiftieth birthday fell on November first",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "wegener-awi-death",
+        "wegener-deutsches-archive"
+      ],
+      "source_locator": "Wegener's fiftieth birthday fell on November first",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "151000-h66",
+      "anchor": "Rasmus Villumsen was a young Greenlandic expedition worker",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "wegener-deutsches-archive",
+        "wegener-rccee"
+      ],
+      "source_locator": "Rasmus Villumsen was a young Greenlandic expedition worker",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "151000-h67",
+      "anchor": "The exact date and cause of Wegener's death are not established by a contemporary witness",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "wegener-deutsches-archive",
+        "wegener-awi-life"
+      ],
+      "source_locator": "The exact date and cause of Wegener's death are not established by a contemporary witness",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "151000-h68",
+      "anchor": "When searchers located his body in May 1931, it had been buried carefully",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "wegener-deutsches-archive",
+        "wegener-awi-life"
+      ],
+      "source_locator": "When searchers located his body in May 1931, it had been buried carefully",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "151000-h69",
+      "anchor": "The last diary was not recovered",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "wegener-deutsches-archive",
+        "wegener-awi-life"
+      ],
+      "source_locator": "The last diary was not recovered",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "151000-h70",
+      "anchor": "The surviving researchers measured aspects of Greenland's weather, snow, and ice",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "wegener-rccee",
+        "wegener-awi-death"
+      ],
+      "source_locator": "The surviving researchers measured aspects of Greenland's weather, snow, and ice",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "151000-h71",
+      "anchor": "Marie Tharp, Bruce Heezen, and other researchers contributed",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "wegener-lamont-tharp"
+      ],
+      "source_locator": "Marie Tharp, Bruce Heezen, and other researchers contributed",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "151000-h72",
+      "anchor": "Harry Hess and Robert Dietz advanced ideas about the spreading of the sea floor",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "wegener-usgs-hess",
+        "wegener-nap-plates"
+      ],
+      "source_locator": "Harry Hess and Robert Dietz advanced ideas about the spreading of the sea floor",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "151000-h73",
+      "anchor": "new oceanic crust forms at a ridge and spreads outward",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "wegener-usgs-develop",
+        "wegener-nap-plates"
+      ],
+      "source_locator": "new oceanic crust forms at a ridge and spreads outward",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "151000-h74",
+      "anchor": "Frederick Vine and Drummond Matthews gave a powerful account of this mechanism in 1963",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "wegener-usgs-hess",
+        "wegener-usgs-develop"
+      ],
+      "source_locator": "Frederick Vine and Drummond Matthews gave a powerful account of this mechanism in 1963",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "151000-h75",
+      "anchor": "Later age measurements confirmed that ocean-floor rock generally becomes older",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "wegener-usgs-develop",
+        "wegener-usgs-hess"
+      ],
+      "source_locator": "Later age measurements confirmed that ocean-floor rock generally becomes older",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "151000-h76",
+      "anchor": "By the late 1960s a general theory of plate tectonics had emerged",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "wegener-usgs-develop",
+        "wegener-aps-1912"
+      ],
+      "source_locator": "By the late 1960s a general theory of plate tectonics had emerged",
+      "audit_status": "source_checked"
+    }
+  ],
+  "chronology": {
+    "birth_and_death": {
+      "start": 1880,
+      "end": 1930,
+      "basis": "museum_and_biographical_records",
+      "label": "1880–1930: birth in Berlin; death during Greenland return journey in November 1930, exact day uncertain",
+      "source_ids": [
+        "wegener-deutsches-archive",
+        "wegener-awi-death"
+      ]
+    },
+    "study_and_doctorate": {
+      "start": 1899,
+      "end": 1905,
+      "basis": "museum_archival_chronology",
+      "label": "1899–1905: Berlin/Heidelberg/Innsbruck studies, astronomy studies finished 1904 and doctorate awarded 1905",
+      "source_ids": [
+        "wegener-deutsches-archive",
+        "wegener-museum-timeline"
+      ]
+    },
+    "lindenberg_air": {
+      "start": 1905,
+      "end": 1906,
+      "basis": "museum_and_institutional_history",
+      "label": "1905–1906: Lindenberg aeronautical observatory, kite and balloon measurements, 1906 endurance flight",
+      "source_ids": [
+        "wegener-deutsches-archive",
+        "wegener-rccee"
+      ]
+    },
+    "first_greenland": {
+      "start": 1906,
+      "end": 1908,
+      "basis": "museum_expedition_history",
+      "label": "1906–1908: Danmark expedition, northeastern Greenland meteorology",
+      "source_ids": [
+        "wegener-deutsches-archive",
+        "wegener-rccee"
+      ]
+    },
+    "marburg_thermodynamics": {
+      "start": 1909,
+      "end": 1912,
+      "basis": "museum_archival_timeline",
+      "label": "1909–1912: teaching at Marburg, atmospheric thermodynamics and first drift presentations",
+      "source_ids": [
+        "wegener-deutsches-archive",
+        "wegener-awi-life"
+      ]
+    },
+    "drift_publications": {
+      "start": 1912,
+      "end": 1929,
+      "basis": "contemporary_and_historical_sources",
+      "label": "1912–1929: drift papers, 1915 monograph and revisions in 1920/1922/1929",
+      "source_ids": [
+        "wegener-geo-mag",
+        "wegener-usgs-bio"
+      ]
+    },
+    "second_greenland": {
+      "start": 1912,
+      "end": 1913,
+      "basis": "museum_archival_timeline",
+      "label": "1912–1913: Koch expedition, wintering and ice-sheet crossing",
+      "source_ids": [
+        "wegener-deutsches-archive",
+        "wegener-rccee"
+      ]
+    },
+    "marriage_family": {
+      "start": 1913,
+      "end": 1930,
+      "basis": "archival_family_record",
+      "label": "1913–1930: marriage with Else Köppen on 16 November 1913, three daughters and family life through Wegener death",
+      "source_ids": [
+        "wegener-deutsches-archive",
+        "wegener-deutsche-biographie"
+      ]
+    },
+    "wwi_service": {
+      "start": 1914,
+      "end": 1918,
+      "basis": "museum_archival_record",
+      "label": "1914–1918: wartime service, wounds, military meteorology",
+      "source_ids": [
+        "wegener-deutsches-archive",
+        "wegener-awi-life"
+      ]
+    },
+    "hamburg_meteorology": {
+      "start": 1919,
+      "end": 1924,
+      "basis": "archival_and_institutional_history",
+      "label": "1919–1924: Hamburg weather service and university, collaborative climate research",
+      "source_ids": [
+        "wegener-deutsches-archive",
+        "wegener-nature-koppen"
+      ]
+    },
+    "graz": {
+      "start": 1924,
+      "end": 1930,
+      "basis": "archival_and_institutional_history",
+      "label": "1924–1930: meteorology and geophysics professorship at Graz",
+      "source_ids": [
+        "wegener-deutsches-archive",
+        "wegener-awi-life"
+      ]
+    },
+    "greenland_final": {
+      "start": 1929,
+      "end": 1931,
+      "basis": "expedition_and_search_documents",
+      "label": "1929–1931: preparatory expedition, 1930 Eismitte, November 1930 deaths and May 1931 search",
+      "source_ids": [
+        "wegener-deutsches-archive",
+        "wegener-awi-death"
+      ]
+    },
+    "modern_confirmation": {
+      "start": 1950,
+      "end": 1969,
+      "basis": "posthumous_geoscience_history",
+      "label": "1950s–1960s: ocean-floor evidence and formulation of plate tectonics; posthumous developments",
+      "source_ids": [
+        "wegener-usgs-develop",
+        "wegener-usgs-hess",
+        "wegener-lamont-tharp"
+      ]
+    }
+  },
+  "spacetime_coverage": {
+    "schema_version": 1,
+    "subject": "Alfred Wegener",
+    "description": "Documented birth, study, employment, scientific communications, polar field sites and later evidence history. Some location entries are approximate regional centroids, NOT precise camps, routes, or personal residences; end years refer to events, not continuous physical presence.",
+    "places": [
+      {
+        "place": "Berlin, Germany",
+        "present_day_country": "Germany",
+        "historical_polity": "German Empire",
+        "start_year": 1880,
+        "end_year": 1905,
+        "role": "birth_school_and_university",
+        "note": "Born and educated; doctorate awarded at Berlin in 1905",
+        "source_ids": [
+          "wegener-deutsches-archive"
+        ],
+        "approximate": true,
+        "coordinates": {
+          "latitude": 52.52,
+          "longitude": 13.405,
+          "precision": "approximate_city_or_region_centroid"
+        }
+      },
+      {
+        "place": "Zechlinerhütte, Brandenburg, Germany",
+        "present_day_country": "Germany",
+        "historical_polity": "German Empire",
+        "start_year": 1886,
+        "end_year": 1899,
+        "role": "family_holidays_and_childhood",
+        "note": "Summer/family time; date range approximate, not year-round residence",
+        "source_ids": [
+          "wegener-deutsches-archive"
+        ],
+        "approximate": true,
+        "coordinates": {
+          "latitude": 53.137,
+          "longitude": 12.834,
+          "precision": "approximate_city_or_region_centroid"
+        }
+      },
+      {
+        "place": "Heidelberg, Baden-Württemberg, Germany",
+        "present_day_country": "Germany",
+        "historical_polity": "German Empire",
+        "start_year": 1899,
+        "end_year": 1904,
+        "role": "university_study",
+        "note": "Part of multi-university program; not continuous residence for entire range",
+        "source_ids": [
+          "wegener-awi-life"
+        ],
+        "approximate": true,
+        "coordinates": {
+          "latitude": 49.399,
+          "longitude": 8.672,
+          "precision": "approximate_city_or_region_centroid"
+        }
+      },
+      {
+        "place": "Innsbruck, Tyrol, Austria",
+        "present_day_country": "Austria",
+        "historical_polity": "Austria-Hungary",
+        "start_year": 1899,
+        "end_year": 1904,
+        "role": "university_study",
+        "note": "Part of multi-university study period; dates not individually established",
+        "source_ids": [
+          "wegener-awi-life"
+        ],
+        "approximate": true,
+        "coordinates": {
+          "latitude": 47.269,
+          "longitude": 11.404,
+          "precision": "approximate_city_or_region_centroid"
+        }
+      },
+      {
+        "place": "Lindenberg, Brandenburg, Germany",
+        "present_day_country": "Germany",
+        "historical_polity": "German Empire",
+        "start_year": 1905,
+        "end_year": 1906,
+        "role": "aerology",
+        "note": "Aeronautical observatory near Beeskow; approximate location",
+        "source_ids": [
+          "wegener-deutsches-archive"
+        ],
+        "approximate": true,
+        "coordinates": {
+          "latitude": 52.197,
+          "longitude": 14.106,
+          "precision": "approximate_city_or_region_centroid"
+        }
+      },
+      {
+        "place": "Danmarkshavn, Northeast Greenland",
+        "present_day_country": "Greenland, Kingdom of Denmark",
+        "historical_polity": "Danish colonial Greenland",
+        "start_year": 1906,
+        "end_year": 1908,
+        "role": "greenland_expedition",
+        "note": "Regional locator for first Denmark expedition, not exact camp coordinates",
+        "source_ids": [
+          "wegener-deutsches-archive"
+        ],
+        "approximate": true,
+        "coordinates": {
+          "latitude": 76.767,
+          "longitude": -18.667,
+          "precision": "approximate_city_or_region_centroid"
+        }
+      },
+      {
+        "place": "Marburg, Hesse, Germany",
+        "present_day_country": "Germany",
+        "historical_polity": "German Empire",
+        "start_year": 1909,
+        "end_year": 1918,
+        "role": "university_teaching",
+        "note": "Lectureship and early drift formulation; war service interrupted appointments",
+        "source_ids": [
+          "wegener-deutsches-archive"
+        ],
+        "approximate": true,
+        "coordinates": {
+          "latitude": 50.81,
+          "longitude": 8.771,
+          "precision": "approximate_city_or_region_centroid"
+        }
+      },
+      {
+        "place": "Frankfurt am Main, Hesse, Germany",
+        "present_day_country": "Germany",
+        "historical_polity": "German Empire",
+        "start_year": 1912,
+        "end_year": 1912,
+        "role": "scientific_presentation",
+        "note": "January 1912 lecture about continents and oceans",
+        "source_ids": [
+          "wegener-aps-1912"
+        ],
+        "approximate": true,
+        "coordinates": {
+          "latitude": 50.11,
+          "longitude": 8.682,
+          "precision": "approximate_city_or_region_centroid"
+        }
+      },
+      {
+        "place": "Northeast Greenland, Greenland",
+        "present_day_country": "Greenland, Kingdom of Denmark",
+        "historical_polity": "Danish colonial Greenland",
+        "start_year": 1912,
+        "end_year": 1913,
+        "role": "second_ice_sheet_expedition",
+        "note": "Eastern wintering and north ice-sheet crossing; region centroid only",
+        "source_ids": [
+          "wegener-deutsches-archive"
+        ],
+        "approximate": true,
+        "coordinates": {
+          "latitude": 76.0,
+          "longitude": -30.0,
+          "precision": "approximate_city_or_region_centroid"
+        }
+      },
+      {
+        "place": "West Greenland, Greenland",
+        "present_day_country": "Greenland, Kingdom of Denmark",
+        "historical_polity": "Danish colonial Greenland",
+        "start_year": 1913,
+        "end_year": 1913,
+        "role": "expedition_crossing_endpoint",
+        "note": "Koch expedition reached Greenland west coast in 1913; regional position",
+        "source_ids": [
+          "wegener-deutsches-archive"
+        ],
+        "approximate": true,
+        "coordinates": {
+          "latitude": 72.7,
+          "longitude": -55.0,
+          "precision": "approximate_city_or_region_centroid"
+        }
+      },
+      {
+        "place": "Belgium",
+        "present_day_country": "Belgium",
+        "historical_polity": "Kingdom of Belgium under German invasion",
+        "start_year": 1914,
+        "end_year": 1914,
+        "role": "wartime_service",
+        "note": "Western-front war service; no exact city represented",
+        "source_ids": [
+          "wegener-deutsches-archive"
+        ],
+        "approximate": true,
+        "coordinates": {
+          "latitude": 50.503,
+          "longitude": 4.47,
+          "precision": "approximate_city_or_region_centroid"
+        }
+      },
+      {
+        "place": "Hamburg, Germany",
+        "present_day_country": "Germany",
+        "historical_polity": "Weimar Republic",
+        "start_year": 1919,
+        "end_year": 1924,
+        "role": "meteorological_research_and_family",
+        "note": "Deutsche Seewarte work, Hamburg university and Köppen collaboration",
+        "source_ids": [
+          "wegener-deutsches-archive"
+        ],
+        "approximate": true,
+        "coordinates": {
+          "latitude": 53.551,
+          "longitude": 9.993,
+          "precision": "approximate_city_or_region_centroid"
+        }
+      },
+      {
+        "place": "Graz, Styria, Austria",
+        "present_day_country": "Austria",
+        "historical_polity": "First Austrian Republic",
+        "start_year": 1924,
+        "end_year": 1930,
+        "role": "professorship_and_family",
+        "note": "Chair of meteorology and geophysics at University of Graz",
+        "source_ids": [
+          "wegener-deutsches-archive"
+        ],
+        "approximate": true,
+        "coordinates": {
+          "latitude": 47.07,
+          "longitude": 15.44,
+          "precision": "approximate_city_or_region_centroid"
+        }
+      },
+      {
+        "place": "Kamarujuk / West Station, West Greenland",
+        "present_day_country": "Greenland, Kingdom of Denmark",
+        "historical_polity": "Danish colonial Greenland",
+        "start_year": 1930,
+        "end_year": 1930,
+        "role": "final_expedition_supply_base",
+        "note": "Approximate western Greenland staging region; coordinate omitted to avoid site-level false precision",
+        "source_ids": [
+          "wegener-deutsches-archive",
+          "wegener-awi-death"
+        ],
+        "approximate": true
+      },
+      {
+        "place": "Eismitte, Central Greenland ice sheet",
+        "present_day_country": "Greenland, Kingdom of Denmark",
+        "historical_polity": "Danish colonial Greenland",
+        "start_year": 1930,
+        "end_year": 1931,
+        "role": "overwintering_research_station",
+        "note": "Scientific inland station, reached 30 October 1930; exact field camp coordinates intentionally omitted",
+        "source_ids": [
+          "wegener-deutsches-archive",
+          "wegener-awi-death"
+        ],
+        "approximate": true
+      }
+    ]
+  },
+  "tags": [
+    "Biography",
+    "History of science",
+    "History of geology",
+    "Geology",
+    "Geophysics",
+    "History of geophysics",
+    "History of Earth sciences",
+    "Earth science",
+    "Geoscience",
+    "Historical geography",
+    "Paleogeography",
+    "Physical geography",
+    "Geomorphology",
+    "Continental drift",
+    "Theory of continental drift",
+    "Continental reconstruction",
+    "Plate tectonics",
+    "History of plate tectonics",
+    "Pangaea",
+    "Gondwana",
+    "Continental crust",
+    "Oceanic crust",
+    "Lithosphere",
+    "Mantle convection",
+    "Mantle rheology",
+    "Seafloor spreading",
+    "Mid-ocean ridges",
+    "Mid-Atlantic Ridge",
+    "Subduction",
+    "Ocean trenches",
+    "Tectonic plates",
+    "Paleomagnetism",
+    "Thermoremanent magnetization",
+    "Magnetic reversals",
+    "Magnetic stripes",
+    "Fossil biogeography",
+    "Mesosaurus",
+    "Glossopteris",
+    "Geological correlation",
+    "Structural geology",
+    "Geological time",
+    "Glacial deposits",
+    "Glacial striations",
+    "Paleoclimatology",
+    "Permo-Carboniferous glaciation",
+    "Paleoclimate reconstruction",
+    "Climate zones",
+    "History of meteorology",
+    "Meteorology",
+    "Atmospheric physics",
+    "Atmospheric thermodynamics",
+    "Upper-air meteorology",
+    "Aerology",
+    "Atmospheric balloons",
+    "Kites in meteorology",
+    "Weather stations",
+    "Climatology",
+    "Köppen climate classification",
+    "History of polar science",
+    "History of Arctic exploration",
+    "Greenland ice sheet",
+    "Arctic meteorology",
+    "Glaciology",
+    "Polar fieldwork",
+    "Danmark expedition (1906–1908)",
+    "Koch Greenland expedition (1912–1913)",
+    "German Greenland expedition (1930–1931)",
+    "Eismitte",
+    "Greenland research expeditions",
+    "Sled transport",
+    "Motorized propeller sledges",
+    "Field research logistics",
+    "Scientific collaboration",
+    "Interdisciplinary science",
+    "Historical attribution",
+    "History of scientific debate",
+    "Scientific controversy",
+    "Hypothesis testing",
+    "Scientific mechanisms",
+    "History of oceanography",
+    "History of cartography",
+    "Alfred Wegener",
+    "Alfred Lothar Wegener",
+    "Kurt Wegener",
+    "Wladimir Köppen",
+    "Else Köppen",
+    "Else Wegener",
+    "Johann Peter Koch",
+    "Ludvig Mylius-Erichsen",
+    "Rasmus Villumsen",
+    "Fritz Loewe",
+    "Johannes Georgi",
+    "Ernst Sorge",
+    "Arthur Holmes",
+    "Alexander du Toit",
+    "Émile Argand",
+    "Frank Bursley Taylor",
+    "Marie Tharp",
+    "Bruce Heezen",
+    "Harry Hess",
+    "Robert Dietz",
+    "Frederick Vine",
+    "Drummond Matthews",
+    "Deutsches Museum",
+    "Alfred Wegener Institute",
+    "University of Marburg",
+    "University of Hamburg",
+    "University of Graz",
+    "Deutsche Seewarte",
+    "The Origin of Continents and Oceans (1915)",
+    "Die Klimate der geologischen Vorzeit (1924)",
+    "1880s",
+    "1890s",
+    "1900s",
+    "1910s",
+    "1920s",
+    "1930s",
+    "1940s",
+    "1950s",
+    "1960s",
+    "1970s",
+    "Year: 1880",
+    "Year: 1886",
+    "Year: 1899",
+    "Year: 1904",
+    "Year: 1905",
+    "Year: 1906",
+    "Year: 1908",
+    "Year: 1909",
+    "Year: 1910",
+    "Year: 1911",
+    "Year: 1912",
+    "Year: 1913",
+    "Year: 1914",
+    "Year: 1915",
+    "Year: 1919",
+    "Year: 1920",
+    "Year: 1921",
+    "Year: 1922",
+    "Year: 1924",
+    "Year: 1926",
+    "Year: 1928",
+    "Year: 1929",
+    "Year: 1930",
+    "Year: 1931",
+    "Year: 1950",
+    "Year: 1957",
+    "Year: 1960",
+    "Year: 1962",
+    "Year: 1963",
+    "Year: 1965",
+    "Year: 1967",
+    "Year: 1969",
+    "Region: Europe",
+    "Region: Central Europe",
+    "Region: Northern Europe",
+    "Region: Arctic",
+    "Region: North America",
+    "Country: Germany",
+    "Country: Austria",
+    "Country: Belgium",
+    "Country: Denmark",
+    "Country: Greenland",
+    "Historical polity: German Empire",
+    "Historical polity: Austria-Hungary",
+    "Historical polity: Weimar Republic",
+    "Historical polity: First Austrian Republic",
+    "Historical polity: Danish colonial Greenland",
+    "Place: Berlin",
+    "Place: Zechlinerhütte",
+    "Place: Heidelberg",
+    "Place: Innsbruck",
+    "Place: Lindenberg, Brandenburg",
+    "Place: Danmarkshavn",
+    "Place: Northeast Greenland",
+    "Place: Marburg",
+    "Place: Frankfurt am Main",
+    "Place: Hamburg",
+    "Place: Graz",
+    "Place: Greenland ice sheet",
+    "Place: West Greenland",
+    "Place: Eismitte"
+  ],
+  "description": "Connects Wegener’s meteorology and polar expeditions to continental drift, the evidence he assembled, objections to his proposed mechanism and the later development of plate tectonics.",
+  "content_recovery": {
+    "date": "2026-11-18",
+    "archive": "scientist-biography-151000-wegener-overlay.zip",
+    "archive_sha256": "c88dbde7b1235b9a214587fe7a0ed89bb0ba7df3295a628144af69bc1d81eb6d",
+    "original_path": "draft-stages/tts-history/151000-wegener.md",
+    "original_lecture_id": "151000",
+    "original_source_sha256": "c7fede568e2c510541d86ebc48615acaa6b7a2765b8c8425c32042cda1521bae",
+    "integration_model": "GPT-6 (Codex; weights/config variant unknown)",
+    "scope": "Recover supplied source and metadata; preserve spoken prose. Remap colliding playback IDs and citation records without replacing existing lectures."
+  }
+}

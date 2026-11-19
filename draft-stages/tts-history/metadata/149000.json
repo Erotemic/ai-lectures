@@ -1,0 +1,1168 @@
+{
+  "schema_version": 1,
+  "lecture_id": "149000",
+  "transcript": "149000-hodgkin.md",
+  "related_resources": [
+    {
+      "source_id": "hodgkin-nobel-lecture",
+      "reason": "Read the Nobel lecture text and inspected a rendered first page. Primary retrospective testimony for early work, collaborators Bunn and Low, computational tools, the B12 structure and unsolved insulin in 1964."
+    },
+    {
+      "source_id": "hodgkin-royalsociety",
+      "reason": "Biographical chronology, research and arthritis, Somerville, science careers and Royal Society honours. Institutional commemoration, not a complete medical record."
+    },
+    {
+      "source_id": "hodgkin-royalsociety-archive",
+      "reason": "Official life dates, birth/death places, honours, career appointments and organizational leadership; catalogue entry only."
+    },
+    {
+      "source_id": "hodgkin-somerville",
+      "reason": "Oxford education, chemical crystallography fellowship, wartime work, Nobel, students, maternity-pay/nursery details."
+    },
+    {
+      "source_id": "hodgkin-sciencehistory",
+      "reason": "Born Cairo, North African upbringing, mineral experiments, Bragg reading, Bernal laboratory, spouse, family, penicillin/B12/insulin and humanitarian context."
+    },
+    {
+      "source_id": "hodgkin-oxford-museum",
+      "reason": "Early chemistry, Somerville, X-ray crystallography and working site in Oxford University Museum."
+    },
+    {
+      "source_id": "hodgkin-bodleian-catalogue",
+      "reason": "Detailed catalogue listing research, institutional papers, international visits and peace work; source is a FINDING AID, not read primary letters and notebooks. Collection at Bodleian, Oxford."
+    },
+    {
+      "source_id": "hodgkin-oxford-penicillin",
+      "reason": "Oxford 1942-45 penicillin structural campaign, model, Barbara Low, Bunn and Turner-Jones."
+    },
+    {
+      "source_id": "hodgkin-low-iucr",
+      "reason": "Retrospective details of 1945 beta-lactam structure, Robinson dispute and biological activity test after X-rays; distinguishes collaborators and later interpretation."
+    },
+    {
+      "source_id": "hodgkin-ww2museum",
+      "reason": "Wartime penicillin program, structural alternatives, Florey and Chain and later antibiotic chemistry; supplemental historical account."
+    },
+    {
+      "source_id": "hodgkin-oxford-nobel",
+      "reason": "Public extract checked for 12 May 1910 at Guizeh, family backgrounds and parents historical work; full biography access not verified."
+    },
+    {
+      "source_id": "hodgkin-nature-insulin-1969",
+      "reason": "Publication date and complete ten-author list, 2.8 Å electron-density map. Full article paywalled, not read."
+    },
+    {
+      "source_id": "hodgkin-blundell-iucr",
+      "reason": "Retrospective by insulin researcher about industrial collaborations, 1967 Oxford group members, insulin hexamers, research tools and biopharmaceutical context."
+    },
+    {
+      "source_id": "hodgkin-dodson-iucr",
+      "reason": "Dorothy’s Oxford laboratory, Guy and Eleanor Dodson, mentoring and the 1969 insulin solution. Retrospective perspective."
+    },
+    {
+      "source_id": "hodgkin-yale",
+      "reason": "Research timeline, B12 and penicillin publications, 1969 insulin solution, 1988 higher resolution work, Pugwash role; source is a short institutional profile."
+    },
+    {
+      "source_id": "hodgkin-rcp",
+      "reason": "Education, Bernal, insulin chronology and recognition; relevant biographical institutional source."
+    },
+    {
+      "source_id": "hodgkin-npg",
+      "reason": "Confirmed dates and biographical institutions. Not used to assert priority for initial protein diffraction because museum description simplifies chronology."
+    },
+    {
+      "source_id": "hodgkin-guy-memorial",
+      "reason": "Guy and Eleanor Dodson, Oxford and 1969 insulin discovery; retrospective recollection rather than contemporary lab records."
+    },
+    {
+      "source_id": "hodgkin-archive-vol2",
+      "reason": "Archival index of publications and organizational material; supports 1988 insulin paper entries and later international scientific work. Not the original papers."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "149000-h01",
+      "anchor": "A few milligrams of penicillin can be enough",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "hodgkin-oxford-penicillin",
+        "hodgkin-ww2museum"
+      ],
+      "source_locator": "A few milligrams of penicillin can be enough",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "149000-h02",
+      "anchor": "In 1945 it made a strong case for the four-membered beta-lactam ring",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "hodgkin-oxford-penicillin",
+        "hodgkin-low-iucr"
+      ],
+      "source_locator": "In 1945 it made a strong case for the four-membered beta-lactam ring",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "149000-h03",
+      "anchor": "Dorothy Mary Crowfoot was born on May 12, 1910",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "hodgkin-royalsociety-archive",
+        "hodgkin-oxford-nobel"
+      ],
+      "source_locator": "Dorothy Mary Crowfoot was born on May 12, 1910",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "149000-h04",
+      "anchor": "John Winter Crowfoot and Grace Mary Crowfoot",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "hodgkin-oxford-nobel",
+        "hodgkin-sciencehistory"
+      ],
+      "source_locator": "John Winter Crowfoot and Grace Mary Crowfoot",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "149000-h05",
+      "anchor": "Her father worked in colonial educational administration",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "hodgkin-oxford-nobel",
+        "hodgkin-sciencehistory"
+      ],
+      "source_locator": "Her father worked in colonial educational administration",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "149000-h06",
+      "anchor": "Her mother pursued archaeology and textile history",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "hodgkin-oxford-nobel"
+      ],
+      "source_locator": "Her mother pursued archaeology and textile history",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "149000-h07",
+      "anchor": "spent long periods in England while their parents worked abroad",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "hodgkin-sciencehistory",
+        "hodgkin-royalsociety"
+      ],
+      "source_locator": "spent long periods in England while their parents worked abroad",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "149000-h08",
+      "anchor": "At school in Beccles, Suffolk",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "hodgkin-royalsociety",
+        "hodgkin-sciencehistory"
+      ],
+      "source_locator": "At school in Beccles, Suffolk",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "149000-h09",
+      "anchor": "another girl were allowed to study it with boys",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "hodgkin-oxford-museum"
+      ],
+      "source_locator": "another girl were allowed to study it with boys",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "149000-h10",
+      "anchor": "a book by William Henry Bragg called Concerning the Nature of Things",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "hodgkin-nobel-lecture",
+        "hodgkin-sciencehistory"
+      ],
+      "source_locator": "a book by William Henry Bragg called Concerning the Nature of Things",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "149000-h11",
+      "anchor": "Their work had been recognized with the Nobel Prize in Physics in 1915",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "hodgkin-sciencehistory"
+      ],
+      "source_locator": "Their work had been recognized with the Nobel Prize in Physics in 1915",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "149000-h12",
+      "anchor": "In 1928 she entered Somerville College",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "hodgkin-somerville",
+        "hodgkin-royalsociety"
+      ],
+      "source_locator": "In 1928 she entered Somerville College",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "149000-h13",
+      "anchor": "a crystallographic research project with H. M. Powell",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "hodgkin-nobel-lecture"
+      ],
+      "source_locator": "a crystallographic research project with H. M. Powell",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "149000-h14",
+      "anchor": "In 1932 Dorothy moved to Cambridge",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "hodgkin-nobel-lecture",
+        "hodgkin-royalsociety"
+      ],
+      "source_locator": "In 1932 Dorothy moved to Cambridge",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "149000-h15",
+      "anchor": "wet crystals of pepsin",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "hodgkin-nobel-lecture",
+        "hodgkin-sciencehistory"
+      ],
+      "source_locator": "wet crystals of pepsin",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "149000-h16",
+      "anchor": "The Braggs found that the angles of strong reflection",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "hodgkin-sciencehistory",
+        "hodgkin-nobel-lecture"
+      ],
+      "source_locator": "The Braggs found that the angles of strong reflection",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "149000-h17",
+      "anchor": "a Fourier sum",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "hodgkin-nobel-lecture"
+      ],
+      "source_locator": "a Fourier sum",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "149000-h18",
+      "anchor": "This is the phase problem",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "hodgkin-nobel-lecture"
+      ],
+      "source_locator": "This is the phase problem",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "149000-h19",
+      "anchor": "called a Patterson map",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "hodgkin-nobel-lecture"
+      ],
+      "source_locator": "called a Patterson map",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "149000-h20",
+      "anchor": "Hodgkin later recalled buying a set of Beevers–Lipson strips",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "hodgkin-nobel-lecture"
+      ],
+      "source_locator": "Hodgkin later recalled buying a set of Beevers–Lipson strips",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "149000-h21",
+      "anchor": "Dorothy completed her doctorate at Cambridge",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "hodgkin-royalsociety",
+        "hodgkin-sciencehistory"
+      ],
+      "source_locator": "Dorothy completed her doctorate at Cambridge",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "149000-h22",
+      "anchor": "returned to Oxford in 1934",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "hodgkin-royalsociety",
+        "hodgkin-somerville"
+      ],
+      "source_locator": "returned to Oxford in 1934",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "149000-h23",
+      "anchor": "Much of her early work took place in cramped university accommodation",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "hodgkin-oxford-museum",
+        "hodgkin-somerville"
+      ],
+      "source_locator": "Much of her early work took place in cramped university accommodation",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "149000-h24",
+      "anchor": "Harry Carlisle worked on three-dimensional electron-density calculations",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "hodgkin-nobel-lecture"
+      ],
+      "source_locator": "Harry Carlisle worked on three-dimensional electron-density calculations",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "149000-h25",
+      "anchor": "In 1937 Dorothy married Thomas Lionel Hodgkin",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "hodgkin-sciencehistory",
+        "hodgkin-royalsociety-archive"
+      ],
+      "source_locator": "In 1937 Dorothy married Thomas Lionel Hodgkin",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "149000-h26",
+      "anchor": "They had three children",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "hodgkin-sciencehistory"
+      ],
+      "source_locator": "They had three children",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "149000-h27",
+      "anchor": "Dorothy also lived with rheumatoid arthritis",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "hodgkin-royalsociety"
+      ],
+      "source_locator": "Dorothy also lived with rheumatoid arthritis",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "149000-h28",
+      "anchor": "a severe attack followed in 1938",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "hodgkin-royalsociety"
+      ],
+      "source_locator": "a severe attack followed in 1938",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "149000-h29",
+      "anchor": "Alexander Fleming had reported the antibacterial effect",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "hodgkin-ww2museum"
+      ],
+      "source_locator": "Alexander Fleming had reported the antibacterial effect",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "149000-h30",
+      "anchor": "Howard Florey, Ernst Chain, and their colleagues",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "hodgkin-ww2museum",
+        "hodgkin-low-iucr"
+      ],
+      "source_locator": "Howard Florey, Ernst Chain, and their colleagues",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "149000-h31",
+      "anchor": "Chain and Edward Abraham urged the crystallographers",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "hodgkin-nobel-lecture"
+      ],
+      "source_locator": "Chain and Edward Abraham urged the crystallographers",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "149000-h32",
+      "anchor": "only three milligrams of material",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "hodgkin-nobel-lecture"
+      ],
+      "source_locator": "only three milligrams of material",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "149000-h33",
+      "anchor": "Kathleen Lonsdale helped with the transfer",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "hodgkin-nobel-lecture"
+      ],
+      "source_locator": "Kathleen Lonsdale helped with the transfer",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "149000-h34",
+      "anchor": "another interpretation associated with Robert Robinson",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "hodgkin-low-iucr"
+      ],
+      "source_locator": "another interpretation associated with Robert Robinson",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "149000-h35",
+      "anchor": "Barbara Low worked with her at Oxford",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "hodgkin-oxford-penicillin",
+        "hodgkin-low-iucr"
+      ],
+      "source_locator": "Barbara Low worked with her at Oxford",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "149000-h36",
+      "anchor": "Charles Bunn and A. Turner-Jones contributed",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "hodgkin-oxford-penicillin"
+      ],
+      "source_locator": "Charles Bunn and A. Turner-Jones contributed",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "149000-h37",
+      "anchor": "By 1945 the diffraction evidence established the four-membered ring",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "hodgkin-low-iucr",
+        "hodgkin-oxford-penicillin"
+      ],
+      "source_locator": "By 1945 the diffraction evidence established the four-membered ring",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "149000-h38",
+      "anchor": "tested the crystals' biological activity after exposure",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "hodgkin-low-iucr"
+      ],
+      "source_locator": "tested the crystals' biological activity after exposure",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "149000-h39",
+      "anchor": "In 1948 researchers were isolating a factor",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "hodgkin-sciencehistory",
+        "hodgkin-yale"
+      ],
+      "source_locator": "In 1948 researchers were isolating a factor",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "149000-h40",
+      "anchor": "Lester Smith brought early B12 crystals",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "hodgkin-nobel-lecture"
+      ],
+      "source_locator": "Lester Smith brought early B12 crystals",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "149000-h41",
+      "anchor": "It contained a cobalt atom",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "hodgkin-nobel-lecture"
+      ],
+      "source_locator": "It contained a cobalt atom",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "149000-h42",
+      "anchor": "Kenneth Trueblood, visiting Oxford from California",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "hodgkin-nobel-lecture"
+      ],
+      "source_locator": "Kenneth Trueblood, visiting Oxford from California",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "149000-h43",
+      "anchor": "the 1955 structural breakthrough",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "hodgkin-yale",
+        "hodgkin-royalsociety"
+      ],
+      "source_locator": "the 1955 structural breakthrough",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "149000-h44",
+      "anchor": "a bond directly connecting cobalt and carbon",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "hodgkin-nobel-lecture"
+      ],
+      "source_locator": "a bond directly connecting cobalt and carbon",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "149000-h45",
+      "anchor": "In 1964 the Royal Swedish Academy awarded Dorothy Hodgkin the Nobel Prize",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "hodgkin-royalsociety",
+        "hodgkin-sciencehistory"
+      ],
+      "source_locator": "In 1964 the Royal Swedish Academy awarded Dorothy Hodgkin the Nobel Prize",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "149000-h46",
+      "anchor": "She was the third woman to receive the chemistry prize",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "hodgkin-sciencehistory",
+        "hodgkin-yale"
+      ],
+      "source_locator": "She was the third woman to receive the chemistry prize",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "149000-h47",
+      "anchor": "Fellow of the Royal Society in 1947",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "hodgkin-royalsociety",
+        "hodgkin-somerville"
+      ],
+      "source_locator": "Fellow of the Royal Society in 1947",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "149000-h48",
+      "anchor": "received its Royal Medal in 1956",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "hodgkin-royalsociety",
+        "hodgkin-somerville"
+      ],
+      "source_locator": "received its Royal Medal in 1956",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "149000-h49",
+      "anchor": "as a story about an Oxford housewife",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "hodgkin-somerville"
+      ],
+      "source_locator": "as a story about an Oxford housewife",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "149000-h50",
+      "anchor": "been returning to one particularly difficult problem since 1934",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "hodgkin-royalsociety",
+        "hodgkin-nobel-lecture"
+      ],
+      "source_locator": "been returning to one particularly difficult problem since 1934",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "149000-h51",
+      "anchor": "Frederick Sanger and colleagues established the amino-acid sequence",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "hodgkin-nobel-lecture"
+      ],
+      "source_locator": "Frederick Sanger and colleagues established the amino-acid sequence",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "149000-h52",
+      "anchor": "Two molecules may form a dimer",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "hodgkin-nobel-lecture",
+        "hodgkin-blundell-iucr"
+      ],
+      "source_locator": "Two molecules may form a dimer",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "149000-h53",
+      "anchor": "new diffractometers made the collection of reflections more systematic",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "hodgkin-blundell-iucr"
+      ],
+      "source_locator": "new diffractometers made the collection of reflections more systematic",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "149000-h54",
+      "anchor": "Structural protein work by Max Perutz, John Kendrew",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "hodgkin-nobel-lecture"
+      ],
+      "source_locator": "Structural protein work by Max Perutz, John Kendrew",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "149000-h55",
+      "anchor": "A paper published in Nature in November 1969",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "hodgkin-nature-insulin-1969"
+      ],
+      "source_locator": "A paper published in Nature in November 1969",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "149000-h56",
+      "anchor": "a resolution of 2.8 angstroms",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "hodgkin-nature-insulin-1969"
+      ],
+      "source_locator": "a resolution of 2.8 angstroms",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "149000-h57",
+      "anchor": "Margaret Adams, Tom Blundell, Eleanor Dodson, Guy Dodson",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "hodgkin-nature-insulin-1969"
+      ],
+      "source_locator": "Margaret Adams, Tom Blundell, Eleanor Dodson, Guy Dodson",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "149000-h58",
+      "anchor": "Eleanor and Guy Dodson, colleagues from Australia and New Zealand",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "hodgkin-blundell-iucr",
+        "hodgkin-guy-memorial"
+      ],
+      "source_locator": "Eleanor and Guy Dodson, colleagues from Australia and New Zealand",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "149000-h59",
+      "anchor": "M. Vijayan, a crystallographer from India",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "hodgkin-blundell-iucr",
+        "hodgkin-guy-memorial"
+      ],
+      "source_locator": "M. Vijayan, a crystallographer from India",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "149000-h60",
+      "anchor": "including higher-resolution work published in 1988",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "hodgkin-yale",
+        "hodgkin-archive-vol2"
+      ],
+      "source_locator": "including higher-resolution work published in 1988",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "149000-h61",
+      "anchor": "One of Hodgkin's former students at Oxford was Margaret Roberts",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "hodgkin-royalsociety-archive",
+        "hodgkin-somerville"
+      ],
+      "source_locator": "One of Hodgkin's former students at Oxford was Margaret Roberts",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "149000-h62",
+      "anchor": "She supported medical assistance for Vietnam",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "hodgkin-royalsociety-archive",
+        "hodgkin-bodleian-catalogue"
+      ],
+      "source_locator": "She supported medical assistance for Vietnam",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "149000-h63",
+      "anchor": "president of the Pugwash movement from 1976 to 1988",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "hodgkin-royalsociety-archive",
+        "hodgkin-bodleian-catalogue"
+      ],
+      "source_locator": "president of the Pugwash movement from 1976 to 1988",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "149000-h64",
+      "anchor": "scientific engagements in the Soviet Union, China, and India",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "hodgkin-bodleian-catalogue",
+        "hodgkin-sciencehistory"
+      ],
+      "source_locator": "scientific engagements in the Soviet Union, China, and India",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "149000-h65",
+      "anchor": "including the Order of Merit and the Royal Society's Copley Medal",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "hodgkin-royalsociety-archive",
+        "hodgkin-somerville"
+      ],
+      "source_locator": "including the Order of Merit and the Royal Society's Copley Medal",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "149000-h66",
+      "anchor": "She died on July 29, 1994",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "hodgkin-royalsociety-archive"
+      ],
+      "source_locator": "She died on July 29, 1994",
+      "audit_status": "source_checked"
+    }
+  ],
+  "chronology": {
+    "life": {
+      "start": 1910,
+      "end": 1994,
+      "basis": "institutional_biography",
+      "label": "1910–1994: Dorothy Mary Crowfoot Hodgkin",
+      "source_ids": [
+        "hodgkin-royalsociety-archive",
+        "hodgkin-sciencehistory"
+      ]
+    },
+    "childhood": {
+      "start": 1910,
+      "end": 1928,
+      "basis": "biographical_sources",
+      "label": "1910–1928: Egyptian/Sudanese family setting, upbringing in England, mineral chemistry and school",
+      "source_ids": [
+        "hodgkin-royalsociety",
+        "hodgkin-sciencehistory",
+        "hodgkin-oxford-nobel"
+      ]
+    },
+    "education": {
+      "start": 1928,
+      "end": 1937,
+      "basis": "college_and_personal_scientific_testimony",
+      "label": "1928–1937: Somerville, Cambridge under Bernal, and doctoral qualification",
+      "source_ids": [
+        "hodgkin-somerville",
+        "hodgkin-nobel-lecture"
+      ]
+    },
+    "sterols": {
+      "start": 1932,
+      "end": 1945,
+      "basis": "historical_scientific_research",
+      "label": "1932–1945: early protein diffraction and sterol structure work",
+      "source_ids": [
+        "hodgkin-nobel-lecture",
+        "hodgkin-sciencehistory"
+      ]
+    },
+    "penicillin": {
+      "start": 1942,
+      "end": 1949,
+      "basis": "museum_and_scientific_history",
+      "label": "1942–1949: wartime penicillin diffraction, 1945 beta-lactam solution and publication",
+      "source_ids": [
+        "hodgkin-oxford-penicillin",
+        "hodgkin-low-iucr"
+      ]
+    },
+    "vitamin_b12": {
+      "start": 1948,
+      "end": 1964,
+      "basis": "primary_lecture_and_scientific_history",
+      "label": "1948–1964: vitamin B12 diffraction, structural determination, and later coenzyme studies",
+      "source_ids": [
+        "hodgkin-nobel-lecture",
+        "hodgkin-yale"
+      ]
+    },
+    "insulin": {
+      "start": 1934,
+      "end": 1988,
+      "basis": "original_scientific_paper_and_historical_record",
+      "label": "1934–1988: insulin diffraction program, 1969 structural paper and later higher-resolution refinements",
+      "source_ids": [
+        "hodgkin-nature-insulin-1969",
+        "hodgkin-blundell-iucr",
+        "hodgkin-archive-vol2"
+      ]
+    },
+    "scientific_and_peace_institutions": {
+      "start": 1947,
+      "end": 1988,
+      "basis": "institutional_records",
+      "label": "1947–1988: Royal Society, Nobel Prize, international crystallography and Pugwash engagement",
+      "source_ids": [
+        "hodgkin-royalsociety-archive",
+        "hodgkin-bodleian-catalogue"
+      ]
+    }
+  },
+  "spacetime_coverage": {
+    "schema_version": 1,
+    "subject": "Dorothy Crowfoot Hodgkin",
+    "description": "Locations represent documented birth, schooling, career, and selected family places, not all travel or residence. Intervals are approximate and may overlap. Egypt and Sudan are classified by modern country and historical jurisdiction separately. Coordinates are approximate city centroids, not locations of private homes.",
+    "places": [
+      {
+        "place": "Guizeh (Giza), Cairo region",
+        "present_day_country": "Egypt",
+        "historical_polity": "Khedivate of Egypt under British occupation",
+        "start_year": 1910,
+        "end_year": 1910,
+        "role": "birth",
+        "note": "Birth at Guizeh near Cairo; modern locality coordinates are approximate; does not imply residence there all childhood.",
+        "coordinates": {
+          "latitude": 30.0131,
+          "longitude": 31.2089,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "hodgkin-royalsociety-archive",
+          "hodgkin-oxford-nobel"
+        ],
+        "approximate": true
+      },
+      {
+        "place": "Khartoum",
+        "present_day_country": "Sudan",
+        "historical_polity": "Anglo-Egyptian Sudan",
+        "start_year": 1910,
+        "end_year": 1928,
+        "role": "periodic_family_stays",
+        "note": "Family connections and visits during childhood, not continuous residence 1910–1928; coarse interval encodes relevance, not travel history.",
+        "coordinates": {
+          "latitude": 15.5007,
+          "longitude": 32.5599,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "hodgkin-sciencehistory",
+          "hodgkin-royalsociety"
+        ],
+        "approximate": true
+      },
+      {
+        "place": "Beccles, Suffolk",
+        "present_day_country": "United Kingdom",
+        "historical_polity": "United Kingdom; constitutional title changed in 1922",
+        "start_year": 1914,
+        "end_year": 1928,
+        "role": "schooling_and_english_family_base",
+        "note": "Schooling in Beccles, with childhood years in England; exact years of living at individual addresses are not inferred.",
+        "coordinates": {
+          "latitude": 52.4531,
+          "longitude": 1.5648,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "hodgkin-royalsociety",
+          "hodgkin-sciencehistory"
+        ],
+        "approximate": true
+      },
+      {
+        "place": "Oxford, England",
+        "present_day_country": "United Kingdom",
+        "historical_polity": "United Kingdom of Great Britain and Northern Ireland",
+        "start_year": 1928,
+        "end_year": 1932,
+        "role": "undergraduate_education",
+        "note": "Somerville College undergraduate chemistry training and initial crystallographic project.",
+        "coordinates": {
+          "latitude": 51.752,
+          "longitude": -1.2577,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "hodgkin-somerville",
+          "hodgkin-royalsociety"
+        ],
+        "approximate": true
+      },
+      {
+        "place": "Cambridge, England",
+        "present_day_country": "United Kingdom",
+        "historical_polity": "United Kingdom of Great Britain and Northern Ireland",
+        "start_year": 1932,
+        "end_year": 1934,
+        "role": "doctoral_research_with_bernal",
+        "note": "Principal postgraduate work with J. D. Bernal; PhD awarded in 1937 after she had returned to Oxford.",
+        "coordinates": {
+          "latitude": 52.2053,
+          "longitude": 0.1218,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "hodgkin-nobel-lecture",
+          "hodgkin-royalsociety"
+        ],
+        "approximate": true
+      },
+      {
+        "place": "Oxford, England",
+        "present_day_country": "United Kingdom",
+        "historical_polity": "United Kingdom of Great Britain and Northern Ireland",
+        "start_year": 1934,
+        "end_year": 1988,
+        "role": "research_teaching_and_scientific_institution",
+        "note": "Long Oxford research base and group leadership; range does not imply continuous presence, residence or uninterrupted appointment in every year.",
+        "coordinates": {
+          "latitude": 51.752,
+          "longitude": -1.2577,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "hodgkin-somerville",
+          "hodgkin-oxford-museum",
+          "hodgkin-royalsociety"
+        ],
+        "approximate": true
+      },
+      {
+        "place": "Ilmington, Warwickshire",
+        "present_day_country": "United Kingdom",
+        "historical_polity": "United Kingdom of Great Britain and Northern Ireland",
+        "start_year": 1994,
+        "end_year": 1994,
+        "role": "death_and_later_family_home",
+        "note": "Documented place of death, and later family-home region; not an exact residential address.",
+        "coordinates": {
+          "latitude": 52.087,
+          "longitude": -1.635,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "hodgkin-royalsociety-archive"
+        ],
+        "approximate": true
+      }
+    ]
+  },
+  "tags": [
+    "Biography",
+    "History of science",
+    "History of chemistry",
+    "History of biochemistry",
+    "Molecular biology",
+    "Structural biology",
+    "History of medicine",
+    "Medical chemistry",
+    "Crystallography",
+    "X-ray crystallography",
+    "X-ray diffraction",
+    "Crystal lattices",
+    "Bragg diffraction",
+    "Bragg law",
+    "Electron density maps",
+    "Fourier analysis",
+    "Phase problem",
+    "Structure factors",
+    "Patterson function",
+    "Heavy atom method",
+    "Isomorphous replacement",
+    "Laboratory computation",
+    "Pre-electronic computing",
+    "Beevers–Lipson strips",
+    "Biochemical molecules",
+    "Molecular structure",
+    "Chemical bonds",
+    "Organic molecular structures",
+    "Sterols",
+    "Cholesterol",
+    "Pepsin",
+    "Penicillin",
+    "Beta-lactam antibiotics",
+    "Antibiotic chemistry",
+    "History of antibiotics",
+    "Pharmaceutical research",
+    "Vitamin B12",
+    "Cobalamin",
+    "Cobalt chemistry",
+    "Corrin ring",
+    "Organometallic biochemistry",
+    "Pernicious anaemia",
+    "Insulin",
+    "Protein structure",
+    "Protein folding",
+    "Protein crystals",
+    "Zinc insulin",
+    "Insulin hexamers",
+    "Diabetes history",
+    "Amino acid sequence",
+    "X-ray structure determination",
+    "Scientific collaboration",
+    "Laboratory mentorship",
+    "History of women in science",
+    "Scientific attribution",
+    "Scientific instrumentation",
+    "History of Nobel Prize in Chemistry",
+    "Research communities",
+    "Science and empire",
+    "History of British colonial institutions",
+    "History of archaeology and science",
+    "International scientific cooperation",
+    "Science and peace",
+    "Pugwash Conferences",
+    "Rheumatoid arthritis and research",
+    "Disability and scientific work",
+    "Oxford University",
+    "Somerville College Oxford",
+    "Cambridge University",
+    "Royal Society",
+    "International Union of Crystallography",
+    "1910s",
+    "1920s",
+    "1930s",
+    "1940s",
+    "1950s",
+    "1960s",
+    "1970s",
+    "1980s",
+    "1990s",
+    "Year: 1910",
+    "Year: 1925",
+    "Year: 1928",
+    "Year: 1932",
+    "Year: 1934",
+    "Year: 1937",
+    "Year: 1938",
+    "Year: 1942",
+    "Year: 1945",
+    "Year: 1947",
+    "Year: 1948",
+    "Year: 1955",
+    "Year: 1956",
+    "Year: 1964",
+    "Year: 1969",
+    "Year: 1976",
+    "Year: 1988",
+    "Year: 1994",
+    "Region: North Africa",
+    "Region: Northeast Africa",
+    "Region: Europe",
+    "Region: Western Europe",
+    "Country: Egypt",
+    "Country: Sudan",
+    "Country: United Kingdom",
+    "Historical polity: Khedivate of Egypt",
+    "Historical polity: Anglo-Egyptian Sudan",
+    "Historical polity: United Kingdom of Great Britain and Northern Ireland",
+    "Place: Giza (Guizeh)",
+    "Place: Khartoum",
+    "Place: Beccles",
+    "Place: Oxford",
+    "Place: Cambridge, England",
+    "Place: Ilmington",
+    "Dorothy Crowfoot Hodgkin",
+    "John Winter Crowfoot",
+    "Grace Mary Crowfoot",
+    "William Henry Bragg",
+    "William Lawrence Bragg",
+    "H. M. Powell",
+    "J. D. Bernal",
+    "Harry Carlisle",
+    "Thomas Lionel Hodgkin",
+    "Kathleen Lonsdale",
+    "Barbara Low",
+    "Charles Bunn",
+    "A. Turner-Jones",
+    "Robert Robinson",
+    "Howard Florey",
+    "Ernst Chain",
+    "Edward Abraham",
+    "Alexander Fleming",
+    "Lester Smith",
+    "Kenneth Trueblood",
+    "Max Perutz",
+    "John Kendrew",
+    "Frederick Sanger",
+    "Margaret Adams",
+    "Tom Blundell",
+    "Guy Dodson",
+    "Eleanor Dodson",
+    "M. Vijayan",
+    "E. N. Baker",
+    "Marjorie Harding",
+    "Margaret Thatcher",
+    "Concerning the Nature of Things (1925)",
+    "Penicillin structure (1945)",
+    "Vitamin B12 structure (1955)",
+    "Nobel Prize in Chemistry (1964)",
+    "Insulin crystal structure (1969)",
+    "Insulin structural refinement (1988)"
+  ],
+  "description": "Follows Hodgkin’s education, collaborations and scientific life through X-ray crystallography of penicillin, vitamin B12 and insulin, explaining how diffraction evidence reveals molecular structure.",
+  "content_recovery": {
+    "date": "2026-11-18",
+    "archive": "scientist-biography-149000-hodgkin-overlay.zip",
+    "archive_sha256": "1e34a4aa2800b82f2b2b29f9fd64422ff5c2133c0313c4f9c1acfebc030a0b42",
+    "original_path": "draft-stages/tts-history/149000-hodgkin.md",
+    "original_lecture_id": "149000",
+    "original_source_sha256": "7912c9c026b16421e620fa28676b6a876756aa92fdbbc4bfd46dc53ea983a63e",
+    "integration_model": "GPT-6 (Codex; weights/config variant unknown)",
+    "scope": "Recover supplied source and metadata; preserve spoken prose. Remap colliding playback IDs and citation records without replacing existing lectures."
+  }
+}

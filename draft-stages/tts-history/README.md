@@ -1,3 +1,12 @@
+## Recovered biographies
+
+The [content recovery record](../../docs/content-recovery-holy-moly.md) lists the
+17 restored manuscripts and their original archives. Colliding original IDs
+133000–138000 are mapped to 162000–167000, preserving the people already using
+those playback IDs. Vera Rubin uses 161000. The expanded Darwin portrait
+166000 complements the existing shorter account 134000. Subject routes include
+the recovered lectures; their sidecars retain the source and spacetime evidence.
+
 ## Substantial biography additions and spacetime tags (17 November 2026)
 
 Added three biography-first portraits: Christiaan Huygens (`127000`), Seki Takakazu (`128000`), and David Blackwell (`129000`). Each includes sustained explanation of significant mathematics and its historical setting, nonspoken mathematical and source companions, source-linked claim anchors, subject/topic tags, and major-year/decade/century/geographic tags.

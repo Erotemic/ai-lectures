@@ -1134,6 +1134,27 @@
       "url": "https://en.wikipedia.org/wiki/Stokes%27_theorem",
       "access": "free_no_login",
       "notes": "Curl flux and induced boundary orientation."
+    },
+    "mv-axler-fourth": {
+      "title": "Sheldon Axler, Linear Algebra Done Right, fourth edition (Springer, 2024)",
+      "kind": "open_textbook",
+      "url": "https://linear.axler.net/",
+      "access": "free_no_login",
+      "notes": "Inner products, dual spaces and linear-functional representation."
+    },
+    "mv-higham-accuracy": {
+      "title": "Nicholas J. Higham, Accuracy and Stability of Numerical Algorithms, second edition (SIAM, 2002)",
+      "kind": "scholarly_textbook",
+      "url": "https://nhigham.com/accuracy-and-stability-of-numerical-algorithms/",
+      "access": "author_description_and_publisher_access",
+      "notes": "Distinguishes model, conditioning and floating-point errors; used to frame deterministic versus stochastic uncertainty."
+    },
+    "mv-stat505": {
+      "title": "Penn State STAT 505, Applied Multivariate Statistical Analysis",
+      "kind": "university_course",
+      "url": "https://online.stat.psu.edu/stat505/",
+      "access": "free_no_login",
+      "notes": "Covariance and multivariate statistics; the numerical propagation example in this manuscript is independently calculated."
     }
   }
 }

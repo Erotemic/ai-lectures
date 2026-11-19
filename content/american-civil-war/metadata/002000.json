@@ -1,0 +1,158 @@
+{
+  "schema_version": 1,
+  "lecture_id": "002000",
+  "transcript": "002000-the-decade-that-broke-the-union.md",
+  "description": "Connects fugitive slave enforcement, Kansas violence, Dred Scott, John Brown, the fractured 1860 election and the secession conventions to the attack on Fort Sumter.",
+  "tags": [
+    "Fugitive Slave Act",
+    "Bleeding Kansas",
+    "Kansas-Nebraska Act",
+    "Dred Scott",
+    "John Brown",
+    "Abraham Lincoln",
+    "Secession",
+    "Fort Sumter"
+  ],
+  "tag_paths": [
+    [
+      "History",
+      "United States history",
+      "American Civil War",
+      "Secession crisis"
+    ],
+    [
+      "History",
+      "Political history",
+      "Constitutional crisis"
+    ],
+    [
+      "Place: North America",
+      "Place: United States",
+      "Place: Kansas"
+    ],
+    [
+      "Place: North America",
+      "Place: United States",
+      "Place: South Carolina"
+    ]
+  ],
+  "places": [
+    "Kansas",
+    "Missouri",
+    "Massachusetts",
+    "Illinois",
+    "South Carolina",
+    "Virginia",
+    "Washington, D.C."
+  ],
+  "periods": [
+    "Antebellum United States, Civil War and Reconstruction"
+  ],
+  "chronology": {
+    "period": {
+      "start": 1850,
+      "end": 1861,
+      "label": "1850–1861 CE (events covered)",
+      "basis": "historical period treated in narration",
+      "source_ids": [
+        "cw-nara-compromise",
+        "cw-nara-kansas"
+      ]
+    }
+  },
+  "related_resources": [
+    {
+      "source_id": "cw-nara-compromise",
+      "reason": "1850 congressional settlements, territorial slavery and fugitive law."
+    },
+    {
+      "source_id": "cw-nara-kansas",
+      "reason": "Popular sovereignty, reopening slavery in territories, territorial violence."
+    },
+    {
+      "source_id": "cw-loc-road",
+      "reason": "Fugitive Slave Act, political realignment, Bleeding Kansas, Dred Scott and secession."
+    },
+    {
+      "source_id": "cw-loc-abolition",
+      "reason": "Key developments in abolition, Kansas, Dred Scott, John Brown and election of 1860."
+    },
+    {
+      "source_id": "cw-loc-prologue",
+      "reason": "Election of 1860 and seven early secessions."
+    },
+    {
+      "source_id": "cw-nara-secession",
+      "reason": "Ordinance of secession; sectional slavery controversy and claims of sovereignty."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "american-civil-war-002000-01",
+      "anchor": "In 1854 the Kansas-Nebraska Act",
+      "kind": "historical_research",
+      "source_ids": [
+        "cw-nara-kansas"
+      ],
+      "source_locator": "cw-nara-kansas: Popular sovereignty, reopening slavery in territories, territorial violence.",
+      "audit_status": "source_recorded_and_anchor_checked"
+    },
+    {
+      "id": "american-civil-war-002000-02",
+      "anchor": "In 1857 the Supreme Court decided",
+      "kind": "historical_research",
+      "source_ids": [
+        "cw-loc-abolition",
+        "cw-loc-road"
+      ],
+      "source_locator": "cw-loc-abolition: Key developments in abolition, Kansas, Dred Scott, John Brown and election of 1860.; cw-loc-road: Fugitive Slave Act, political realignment, Bleeding Kansas, Dred Scott and secession.",
+      "audit_status": "source_recorded_and_anchor_checked"
+    },
+    {
+      "id": "american-civil-war-002000-03",
+      "anchor": "In October 1859 John Brown led",
+      "kind": "historical_research",
+      "source_ids": [
+        "cw-loc-road"
+      ],
+      "source_locator": "cw-loc-road: Fugitive Slave Act, political realignment, Bleeding Kansas, Dred Scott and secession.",
+      "audit_status": "source_recorded_and_anchor_checked"
+    },
+    {
+      "id": "american-civil-war-002000-04",
+      "anchor": "In December 1860 South Carolina seceded",
+      "kind": "historical_research",
+      "source_ids": [
+        "cw-loc-prologue"
+      ],
+      "source_locator": "cw-loc-prologue: Election of 1860 and seven early secessions.",
+      "audit_status": "source_recorded_and_anchor_checked"
+    },
+    {
+      "id": "american-civil-war-002000-05",
+      "anchor": "On April 12 Confederate batteries opened fire",
+      "kind": "historical_research",
+      "source_ids": [
+        "cw-loc-road"
+      ],
+      "source_locator": "cw-loc-road: Fugitive Slave Act, political realignment, Bleeding Kansas, Dred Scott and secession.",
+      "audit_status": "source_recorded_and_anchor_checked"
+    }
+  ],
+  "learning": {
+    "prerequisites": [],
+    "background": [
+      "General historical curiosity; key institutions and people are explained in the narration."
+    ],
+    "readiness_checks": [
+      "What did popular sovereignty actually permit in Kansas?",
+      "How did the Dred Scott ruling destabilize territorial compromise?",
+      "What reasons did states themselves give for secession?"
+    ]
+  },
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Expanded standalone historical lecture narration, structured source notes and metadata."
+  }
+}

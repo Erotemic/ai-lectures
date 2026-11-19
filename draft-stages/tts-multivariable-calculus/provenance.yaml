@@ -120,6 +120,16 @@ transcript:
       source_records: metadata/sources.json
       per_lecture_metadata: metadata/067000.json through metadata/070000.json
     scope: Add four original accessible single-subject lecture manuscripts and mathematical companions on total derivatives, local implicit solutions, change of variables, and oriented vector integrals. Retain the existing 51 manuscripts unchanged.
+  - date: '2026-11-18'
+    models:
+    - GPT-6 (Codex; weights/config variant unknown)
+    sources:
+    - metadata/071000.json
+    - metadata/072000.json
+    - metadata/073000.json
+    scope: Recover supplied manuscripts and companions without changing spoken prose;
+      merge their sources, prerequisite metadata and focused routes into the current
+      catalog. Original archive identities and hashes are in the per-lecture sidecars.
 learning_map:
   revisions:
   - date: '2026-11-16'
@@ -277,3 +287,19 @@ learning_map:
     - FOUNDATIONAL_GAP_AUDIT.md
     - BACKLOG.md
     scope: Register a worked-foundations route immediately after the retained introductory survey and record the foundation-first curriculum direction; add measured word counts and references.
+  - date: '2026-11-18'
+    models:
+    - GPT-6
+    sources:
+    - lecture: '071000'
+      manuscript: 071000-what-a-gradient-depends-on.md
+      metadata: metadata/071000.json
+    - lecture: '072000'
+      manuscript: 072000-jacobians-and-uncertainty-budgets.md
+      metadata: metadata/072000.json
+    - lecture: '073000'
+      manuscript: 073000-the-chain-rule-run-backwards.md
+      metadata: metadata/073000.json
+    scope: Original cross-field mathematical connection lectures, with new narration,
+      exact worked companions, source records and scoped navigation links; prior manuscripts
+      are unchanged.

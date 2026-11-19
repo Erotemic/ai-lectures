@@ -47,3 +47,10 @@ Five additional guided routes now connect graph algorithms with complexity, cova
 ## Functions and information theory expansion (November 2026)
 
 The `functions-first` path provides a dedicated entry before calculus: functions and scales, exponential and logarithmic growth, rotations and periodic signals, and fitting functions to data. `information-coding-and-inference` develops entropy and prefix codes, mutual information and noisy channels, and KL divergence as statistical evidence. The retained `fourier-connections` route now includes the foundational trigonometry lecture and a new finite cyclic-group synthesis, `discrete-mathematics:043000`. These navigation links reuse the source-owned manuscripts and do not create additional mathematical proof obligations.
+
+## Recovered mathematical connections
+
+The [recovery record](../../docs/content-recovery-holy-moly.md#restored-mathematical-connections)
+links the six restored lectures and their source packs. Three added guide routes
+connect derivatives and adjoints, least squares and conditional prediction, and
+measurement and uncertainty. They supplement the existing subject paths.

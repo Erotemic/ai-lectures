@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "lecture_id": "072000",
+  "transcript": "072000-jacobians-and-uncertainty-budgets.md",
+  "description": "Derives deterministic and stochastic propagation for a two-sensor area measurement and identifies nonlinear failures of first-order approximations.",
+  "tags": [
+    "Multivariable calculus",
+    "Uncertainty propagation",
+    "Delta method",
+    "Covariance",
+    "Sensitivity",
+    "Nonlinear remainder",
+    "Error budgets"
+  ],
+  "tag_paths": [
+    [
+      "Mathematics",
+      "Multivariable Calculus",
+      "Mathematical connections",
+      "Multivariable calculus"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "mv-openstax-v3",
+      "reason": "Standard reference for the stated theorem, definitions or numerical method; worked narration and examples are original."
+    },
+    {
+      "source_id": "mv-stat505",
+      "reason": "Standard reference for the stated theorem, definitions or numerical method; worked narration and examples are original."
+    },
+    {
+      "source_id": "mv-higham-accuracy",
+      "reason": "Standard reference for the stated theorem, definitions or numerical method; worked narration and examples are original."
+    },
+    {
+      "source_id": "mv-wiki-taylor",
+      "reason": "Standard reference for the stated theorem, definitions or numerical method; worked narration and examples are original."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original spoken lecture, worked mathematical companion, exercises and connections across existing tracks."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "multivariable-calculus:067000",
+        "reason": "Jacobian as local linear response."
+      },
+      {
+        "lecture_id": "probability-measure:016000",
+        "reason": "Covariance and its numerical interpretation."
+      }
+    ],
+    "recommended": [
+      {
+        "lecture_id": "probability-measure:029000",
+        "reason": "Multivariate covariance geometry."
+      },
+      {
+        "lecture_id": "numerical-analysis:003000",
+        "reason": "Deterministic sensitivity and conditioning."
+      }
+    ],
+    "background": [
+      "Elementary algebra, derivatives, vectors and probability as introduced by the stated teaching preparation."
+    ],
+    "readiness_checks": [
+      "Derive the area variance from a Jacobian and correlated input errors.",
+      "Give one nonlinear counterexample where first-order covariance propagation fails."
+    ]
+  },
+  "claim_evidence": [
+    {
+      "id": "mu-072000-c001",
+      "anchor": "For a vector-valued function, the same operation produces a covariance matrix for all output quantities.",
+      "source_ids": [
+        "mv-stat505",
+        "mv-openstax-v3"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Narration and mathematical companion",
+      "evidence_detail": "Original worked calculation or derivation where indicated; standard theorem and terminology checked against listed sources."
+    },
+    {
+      "id": "mu-072000-c002",
+      "anchor": "The exact variance is zero point eight six seven seven four four.",
+      "source_ids": [
+        "mv-stat505"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Narration and mathematical companion",
+      "evidence_detail": "Original worked calculation or derivation where indicated; standard theorem and terminology checked against listed sources."
+    }
+  ],
+  "content_recovery": {
+    "date": "2026-11-18",
+    "archive": "math-lectures-derivatives-projections-uncertainty-2026-11-18.zip",
+    "archive_sha256": "e3864885c4ccdadf34ee8ea3cd5de386cd0bf7ed1d8c5f7c9a622ccfb78bcd03",
+    "original_path": "draft-stages/tts-multivariable-calculus/072000-jacobians-and-uncertainty-budgets.md",
+    "original_lecture_id": "072000",
+    "original_source_sha256": "a0251893553b9bc83e9f51f1b725679c23219b2ebe4f64582e46d5a90813e9f8",
+    "integration_model": "GPT-6 (Codex; weights/config variant unknown)",
+    "scope": "Recover supplied source and metadata; preserve spoken prose. Remap colliding playback IDs and citation records without replacing existing lectures."
+  }
+}

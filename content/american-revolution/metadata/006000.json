@@ -1,0 +1,147 @@
+{
+  "schema_version": 1,
+  "lecture_id": "006000",
+  "transcript": "006000-the-republic-they-did-not-agree-on.md",
+  "description": "Examines the Articles of Confederation, wartime debt, Shays’s Rebellion, the 1787 constitutional compromises, Indigenous land claims, slavery and the Bill of Rights.",
+  "tags": [
+    "Articles of Confederation",
+    "Constitutional Convention",
+    "Federalism",
+    "Bill of Rights",
+    "Three-Fifths Compromise",
+    "Northwest Ordinance",
+    "Shays Rebellion",
+    "Antifederalism"
+  ],
+  "tag_paths": [
+    [
+      "History",
+      "United States history",
+      "American Revolution",
+      "Early republic"
+    ],
+    [
+      "History",
+      "Political history",
+      "Constitutional history"
+    ],
+    [
+      "Place: North America",
+      "Place: United States",
+      "Place: Pennsylvania",
+      "Place: Philadelphia"
+    ]
+  ],
+  "places": [
+    "Philadelphia",
+    "Pennsylvania",
+    "Massachusetts",
+    "Northwest Territory",
+    "United States"
+  ],
+  "periods": [
+    "American Revolution and early republic"
+  ],
+  "chronology": {
+    "period": {
+      "start": 1781,
+      "end": 1791,
+      "label": "1781–1791 CE (events covered)",
+      "basis": "historical period treated in narration",
+      "source_ids": [
+        "rev-nara-articles",
+        "rev-nara-constitution"
+      ]
+    }
+  },
+  "related_resources": [
+    {
+      "source_id": "rev-nara-articles",
+      "reason": "Adopted 1777; ratified and in force 1781; constitutional features and limitations."
+    },
+    {
+      "source_id": "rev-nara-constitution",
+      "reason": "1787 convention, representation and slavery-related compromises."
+    },
+    {
+      "source_id": "rev-nara-northwest",
+      "reason": "Territorial government, state admissions, rights and slavery prohibition in Northwest Territory."
+    },
+    {
+      "source_id": "rev-nara-bill",
+      "reason": "Ratification debate and ten amendments ratified December 1791."
+    },
+    {
+      "source_id": "rev-loc-primary",
+      "reason": "Printed arguments, maps and manuscripts; contextualizes independence and the new republic."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "american-revolution-006000-01",
+      "anchor": "The Articles of Confederation had been adopted by Congress in 1777",
+      "kind": "historical_research",
+      "source_ids": [
+        "rev-nara-articles"
+      ],
+      "source_locator": "rev-nara-articles: Adopted 1777; ratified and in force 1781; constitutional features and limitations.",
+      "audit_status": "source_recorded_and_anchor_checked"
+    },
+    {
+      "id": "american-revolution-006000-02",
+      "anchor": "In May 1787 delegates began gathering in Philadelphia",
+      "kind": "historical_research",
+      "source_ids": [
+        "rev-nara-constitution"
+      ],
+      "source_locator": "rev-nara-constitution: 1787 convention, representation and slavery-related compromises.",
+      "audit_status": "source_recorded_and_anchor_checked"
+    },
+    {
+      "id": "american-revolution-006000-03",
+      "anchor": "Enslaved people were counted at three-fifths",
+      "kind": "historical_research",
+      "source_ids": [
+        "rev-nara-constitution"
+      ],
+      "source_locator": "rev-nara-constitution: 1787 convention, representation and slavery-related compromises.",
+      "audit_status": "source_recorded_and_anchor_checked"
+    },
+    {
+      "id": "american-revolution-006000-04",
+      "anchor": "The Northwest Ordinance of 1787",
+      "kind": "historical_research",
+      "source_ids": [
+        "rev-nara-northwest"
+      ],
+      "source_locator": "rev-nara-northwest: Territorial government, state admissions, rights and slavery prohibition in Northwest Territory.",
+      "audit_status": "source_recorded_and_anchor_checked"
+    },
+    {
+      "id": "american-revolution-006000-05",
+      "anchor": "ten were ratified in 1791",
+      "kind": "historical_research",
+      "source_ids": [
+        "rev-nara-bill"
+      ],
+      "source_locator": "rev-nara-bill: Ratification debate and ten amendments ratified December 1791.",
+      "audit_status": "source_recorded_and_anchor_checked"
+    }
+  ],
+  "learning": {
+    "prerequisites": [],
+    "background": [
+      "General historical curiosity; key institutions and people are explained in the narration."
+    ],
+    "readiness_checks": [
+      "Why did the Articles deliberately restrain national authority?",
+      "What did the 1787 Constitution do about slavery?",
+      "Why was constitutional ratification itself a contested political campaign?"
+    ]
+  },
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Expanded standalone historical lecture narration, structured source notes and metadata."
+  }
+}

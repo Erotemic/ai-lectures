@@ -1,0 +1,170 @@
+{
+  "schema_version": 1,
+  "lecture_id": "003000",
+  "transcript": "003000-the-war-across-an-ocean.md",
+  "description": "Reconstructs the strategic logic of Saratoga, Valley Forge, international alliances, southern irregular warfare and the coordinated French-American victory at Yorktown.",
+  "tags": [
+    "Saratoga campaign",
+    "Valley Forge",
+    "French alliance",
+    "Southern campaign",
+    "Battle of Yorktown",
+    "Loyalists",
+    "Haudenosaunee",
+    "Military logistics",
+    "Global war"
+  ],
+  "tag_paths": [
+    [
+      "History",
+      "United States history",
+      "American Revolution",
+      "Revolutionary War"
+    ],
+    [
+      "History",
+      "Military history",
+      "Logistics and strategy"
+    ],
+    [
+      "Place: Europe",
+      "Place: France"
+    ],
+    [
+      "Place: North America",
+      "Place: United States",
+      "Place: New York"
+    ]
+  ],
+  "places": [
+    "New York",
+    "Saratoga",
+    "Pennsylvania",
+    "South Carolina",
+    "Virginia",
+    "France",
+    "Spain",
+    "Atlantic Ocean",
+    "Haudenosaunee homelands"
+  ],
+  "periods": [
+    "American Revolution and early republic"
+  ],
+  "chronology": {
+    "period": {
+      "start": 1777,
+      "end": 1783,
+      "label": "1777–1783 CE (events covered)",
+      "basis": "historical period treated in narration",
+      "source_ids": [
+        "rev-nps-timeline",
+        "rev-nps-saratoga"
+      ]
+    }
+  },
+  "related_resources": [
+    {
+      "source_id": "rev-nps-timeline",
+      "reason": "Detailed chronology 1763–1783; Stamp Act, Coercive Acts, Saratoga, French support, Treaty of Paris."
+    },
+    {
+      "source_id": "rev-nps-saratoga",
+      "reason": "British surrender 17 October 1777 and its consequences for international alliances."
+    },
+    {
+      "source_id": "rev-state-france",
+      "reason": "French alliance February 1778; Spain as French ally; global dimensions of war."
+    },
+    {
+      "source_id": "rev-loc-homefront",
+      "reason": "War as internal political conflict; loyalism, noncombatant work and wartime finance."
+    },
+    {
+      "source_id": "rev-nps-indi",
+      "reason": "Haudenosaunee homelands, campaign aims, destruction and consequences."
+    },
+    {
+      "source_id": "rev-nps-ohio",
+      "reason": "Frontier diplomacy, competing alliances and Indigenous choices."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "american-revolution-003000-01",
+      "anchor": "Burgoyne surrendered on October 17, 1777",
+      "kind": "historical_research",
+      "source_ids": [
+        "rev-nps-saratoga",
+        "rev-nps-timeline"
+      ],
+      "source_locator": "rev-nps-saratoga: British surrender 17 October 1777 and its consequences for international alliances.; rev-nps-timeline: Detailed chronology 1763–1783; Stamp Act, Coercive Acts, Saratoga, French support, Treaty of Paris.",
+      "audit_status": "source_recorded_and_anchor_checked"
+    },
+    {
+      "id": "american-revolution-003000-02",
+      "anchor": "In February 1778 France signed treaties",
+      "kind": "historical_research",
+      "source_ids": [
+        "rev-state-france"
+      ],
+      "source_locator": "rev-state-france: French alliance February 1778; Spain as French ally; global dimensions of war.",
+      "audit_status": "source_recorded_and_anchor_checked"
+    },
+    {
+      "id": "american-revolution-003000-03",
+      "anchor": "Spain entered the war against Britain in 1779",
+      "kind": "historical_research",
+      "source_ids": [
+        "rev-state-france"
+      ],
+      "source_locator": "rev-state-france: French alliance February 1778; Spain as French ally; global dimensions of war.",
+      "audit_status": "source_recorded_and_anchor_checked"
+    },
+    {
+      "id": "american-revolution-003000-04",
+      "anchor": "In 1779, a large American expedition",
+      "kind": "historical_research",
+      "source_ids": [
+        "rev-nps-indi"
+      ],
+      "source_locator": "rev-nps-indi: Haudenosaunee homelands, campaign aims, destruction and consequences.",
+      "audit_status": "source_recorded_and_anchor_checked"
+    },
+    {
+      "id": "american-revolution-003000-05",
+      "anchor": "Cornwallis surrendered on October 19, 1781",
+      "kind": "historical_research",
+      "source_ids": [
+        "rev-nps-timeline"
+      ],
+      "source_locator": "rev-nps-timeline: Detailed chronology 1763–1783; Stamp Act, Coercive Acts, Saratoga, French support, Treaty of Paris.",
+      "audit_status": "source_recorded_and_anchor_checked"
+    },
+    {
+      "id": "american-revolution-003000-06",
+      "anchor": "The Treaty of Paris of September 3, 1783",
+      "kind": "historical_research",
+      "source_ids": [
+        "rev-nps-timeline"
+      ],
+      "source_locator": "rev-nps-timeline: Detailed chronology 1763–1783; Stamp Act, Coercive Acts, Saratoga, French support, Treaty of Paris.",
+      "audit_status": "source_recorded_and_anchor_checked"
+    }
+  ],
+  "learning": {
+    "prerequisites": [],
+    "background": [
+      "General historical curiosity; key institutions and people are explained in the narration."
+    ],
+    "readiness_checks": [
+      "Why could taking a major city fail to end the Revolution?",
+      "How did French naval support make the Yorktown campaign possible?",
+      "What did independence mean differently to loyalists and Indigenous communities?"
+    ]
+  },
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Expanded standalone historical lecture narration, structured source notes and metadata."
+  }
+}

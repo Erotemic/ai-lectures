@@ -1,0 +1,1411 @@
+{
+  "schema_version": 1,
+  "lecture_id": "154000",
+  "transcript": "154000-semmelweis.md",
+  "related_resources": [
+    {
+      "source_id": "semm-university",
+      "reason": "Birth, family, law and medicine, Vienna clinic, intervention, teachers, Pest work, family and last illness; institutional biography also corrects the lonely-hero myth."
+    },
+    {
+      "source_id": "semm-austrian-lexicon",
+      "reason": "Chronology and appointments, Vienna teachers, Kolletschka, support, Pest academic role, 1865 death. Austrian institutional view."
+    },
+    {
+      "source_id": "semm-noakes-data",
+      "reason": "Historical series of maternal deaths, comparative clinic design, hypothesis, intervention, patterns after departure; cannot independently reconstruct every ward-level confounder."
+    },
+    {
+      "source_id": "semm-loudon",
+      "reason": "Detailed institutional data, clinic divisions, 1847/1848 mortality and interpretation of a natural comparison. Tables were indexed from article."
+    },
+    {
+      "source_id": "semm-who-table",
+      "reason": "Reproduces 1846 and 1848 births/deaths for both Vienna clinics. Table checked in search extraction; source is document PDF not image-inspected."
+    },
+    {
+      "source_id": "semm-nlm-strept",
+      "reason": "Clinical context and broad timing: chlorine disinfection, 1848 numbers, living-patient transfers and streptococcal disease."
+    },
+    {
+      "source_id": "semm-kadar",
+      "reason": "Treats mortality, causal explanation, medical school politics, and argues strongly for injury-based death in asylum. Final causal claims not accepted uncritically."
+    },
+    {
+      "source_id": "semm-premature-paper",
+      "reason": "Reports incomplete early 1847 improvement, carcinoma-associated infections, differing early/1848 mortality and challenge of incomplete early dissemination. An interpretation, not consensus."
+    },
+    {
+      "source_id": "semm-wellcome-holmes",
+      "reason": "Authenticates existence/date/title of Holmes 1843 argument; see history article for specifics."
+    },
+    {
+      "source_id": "semm-gordon-lowis",
+      "reason": "Scholarly correction that Gordon recognized transmission, advocated preventive measures before Holmes and Semmelweis."
+    },
+    {
+      "source_id": "semm-james-lind",
+      "reason": "Excerpts from primary comparison, staggered admissions and natural-experiment reasoning."
+    },
+    {
+      "source_id": "semm-primary-book",
+      "reason": "543-page primary treatise; retrospective and argumentative account of figures and opponents. Wording should be checked against page image for direct quotes."
+    },
+    {
+      "source_id": "semm-univ-library",
+      "reason": "Original 1861 book, library copy and institutional reception (1862 Hungarian directive)."
+    },
+    {
+      "source_id": "semm-letters",
+      "reason": "Bibliographic confirmation of open letters and identified correspondents; no quotations from an uninspected scan."
+    },
+    {
+      "source_id": "semm-museum",
+      "reason": "Wedding portrait, Maria Weidenhofer marriage and children; institutional curator account."
+    },
+    {
+      "source_id": "semm-university-history",
+      "reason": "Pest professorship 1855–1865, hospital institutional background and medical-school colleagues."
+    },
+    {
+      "source_id": "semm-university-family",
+      "reason": "1857 marriage to Maria Weidenhofer, five children, three reached adulthood. Does not support domestic dialogue."
+    },
+    {
+      "source_id": "semm-australia-review",
+      "reason": "Hebra and Skoda support; delay in full publication, 1850 presentation and senior clinic opposition."
+    },
+    {
+      "source_id": "semm-pioneers-hygiene",
+      "reason": "Predecessors including Gordon, Holmes and nineteenth-century chlorination and asepsis; wider context not a single-person first."
+    },
+    {
+      "source_id": "semm-2018-anniversary",
+      "reason": "Early notices and correspondence, contested scholarly reception and disease theory."
+    },
+    {
+      "source_id": "semm-original-letters",
+      "reason": "Records 1861 original and institutional bibliographic dates; direct textual quotations deliberately avoided."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "154000-h001",
+      "anchor": "the First Clinic recorded four hundred fifty-nine maternal deaths among four thousand and ten deliveries",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "semm-who-table"
+      ],
+      "source_locator": "Verbatim narrated claim: the First Clinic recorded four hundred fifty-nine maternal deaths among four thousand and ten deliveries",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "154000-h002",
+      "anchor": "The Second Clinic recorded one hundred and five deaths among three thousand seven hundred fifty-four deliveries",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "semm-who-table"
+      ],
+      "source_locator": "Verbatim narrated claim: The Second Clinic recorded one hundred and five deaths among three thousand seven hundred fifty-four deliveries",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "154000-h003",
+      "anchor": "The First Clinic reported forty-five deaths among three thousand five hundred fifty-six births",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "semm-who-table"
+      ],
+      "source_locator": "Verbatim narrated claim: The First Clinic reported forty-five deaths among three thousand five hundred fifty-six births",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "154000-h004",
+      "anchor": "The Second reported forty-three deaths among three thousand two hundred nineteen births",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "semm-who-table"
+      ],
+      "source_locator": "Verbatim narrated claim: The Second reported forty-three deaths among three thousand two hundred nineteen births",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "154000-h005",
+      "anchor": "four hundred fifty-nine divided by four thousand and ten is about eleven point four percent",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "semm-who-table"
+      ],
+      "source_locator": "Verbatim narrated claim: four hundred fifty-nine divided by four thousand and ten is about eleven point four percent",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "154000-h006",
+      "anchor": "forty-five divided by three thousand five hundred fifty-six is about one point three percent",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "semm-who-table"
+      ],
+      "source_locator": "Verbatim narrated claim: forty-five divided by three thousand five hundred fifty-six is about one point three percent",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "154000-h007",
+      "anchor": "Ignác Fülöp Semmelweis was born on July first, eighteen eighteen, in Buda",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "semm-university"
+      ],
+      "source_locator": "Verbatim narrated claim: Ignác Fülöp Semmelweis was born on July first, eighteen eighteen, in Buda",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "154000-h008",
+      "anchor": "His father, József Semmelweis, was a merchant",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "semm-university"
+      ],
+      "source_locator": "Verbatim narrated claim: His father, József Semmelweis, was a merchant",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "154000-h009",
+      "anchor": "his mother was Terézia Müller",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "semm-university"
+      ],
+      "source_locator": "Verbatim narrated claim: his mother was Terézia Müller",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "154000-h010",
+      "anchor": "Ignaz was the fifth of ten children",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "semm-university"
+      ],
+      "source_locator": "Verbatim narrated claim: Ignaz was the fifth of ten children",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "154000-h011",
+      "anchor": "In a household of medical students, the questions they were studying drew his attention",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "semm-university"
+      ],
+      "source_locator": "Verbatim narrated claim: In a household of medical students, the questions they were studying drew his attention",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "154000-h012",
+      "anchor": "He earned his medical doctorate at Vienna in eighteen forty-four",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "semm-university"
+      ],
+      "source_locator": "Verbatim narrated claim: He earned his medical doctorate at Vienna in eighteen forty-four",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "154000-h013",
+      "anchor": "In eighteen forty-six Semmelweis took up a clinical assistantship under Johann Klein",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "semm-university"
+      ],
+      "source_locator": "Verbatim narrated claim: In eighteen forty-six Semmelweis took up a clinical assistantship under Johann Klein",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "154000-h014",
+      "anchor": "The General Hospital's maternity service had a history of its own",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "semm-university"
+      ],
+      "source_locator": "Verbatim narrated claim: The General Hospital's maternity service had a history of its own",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "154000-h015",
+      "anchor": "From eighteen forty, the First Clinic served the male medical students and doctors",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "semm-university"
+      ],
+      "source_locator": "Verbatim narrated claim: From eighteen forty, the First Clinic served the male medical students and doctors",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "154000-h016",
+      "anchor": "Jakob Kolletschka, a pathologist and forensic physician associated with Semmelweis",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "semm-university"
+      ],
+      "source_locator": "Verbatim narrated claim: Jakob Kolletschka, a pathologist and forensic physician associated with Semmelweis",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "154000-h017",
+      "anchor": "Kolletschka died in March eighteen forty-seven",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "semm-university"
+      ],
+      "source_locator": "Verbatim narrated claim: Kolletschka died in March eighteen forty-seven",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "154000-h018",
+      "anchor": "In late May eighteen forty-seven, Semmelweis required physicians and students",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "semm-university"
+      ],
+      "source_locator": "Verbatim narrated claim: In late May eighteen forty-seven, Semmelweis required physicians and students",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "154000-h019",
+      "anchor": "The chemical wash seemed to remove what soap and water did not",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "semm-university"
+      ],
+      "source_locator": "Verbatim narrated claim: The chemical wash seemed to remove what soap and water did not",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "154000-h020",
+      "anchor": "Ferdinand von Hebra published supportive notices of his work in eighteen forty-seven",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "semm-university"
+      ],
+      "source_locator": "Verbatim narrated claim: Ferdinand von Hebra published supportive notices of his work in eighteen forty-seven",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "154000-h021",
+      "anchor": "In eighteen fifty he left the city and returned to Pest",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "semm-university"
+      ],
+      "source_locator": "Verbatim narrated claim: In eighteen fifty he left the city and returned to Pest",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "154000-h022",
+      "anchor": "In eighteen fifty-one Semmelweis took an unpaid senior medical position",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "semm-university"
+      ],
+      "source_locator": "Verbatim narrated claim: In eighteen fifty-one Semmelweis took an unpaid senior medical position",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "154000-h023",
+      "anchor": "In eighteen fifty-five he became professor and head of obstetrics",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "semm-university"
+      ],
+      "source_locator": "Verbatim narrated claim: In eighteen fifty-five he became professor and head of obstetrics",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "154000-h024",
+      "anchor": "The university department was small and its facilities difficult",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "semm-university"
+      ],
+      "source_locator": "Verbatim narrated claim: The university department was small and its facilities difficult",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "154000-h025",
+      "anchor": "In the university's clinic, he posted instructions requiring antiseptic cleaning",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "semm-university"
+      ],
+      "source_locator": "Verbatim narrated claim: In the university's clinic, he posted instructions requiring antiseptic cleaning",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "154000-h026",
+      "anchor": "In eighteen fifty-eight Semmelweis began publishing his account of childbed fever",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "semm-university",
+        "semm-2018-anniversary"
+      ],
+      "source_locator": "Verbatim narrated claim: In eighteen fifty-eight Semmelweis began publishing his account of childbed fever",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "154000-h027",
+      "anchor": "Its title can be translated as The Etiology, Concept, and Prophylaxis of Childbed Fever",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "semm-university"
+      ],
+      "source_locator": "Verbatim narrated claim: Its title can be translated as The Etiology, Concept, and Prophylaxis of Childbed Fever",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "154000-h028",
+      "anchor": "On July thirty-first he was admitted to an institution at Döbling",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "semm-university"
+      ],
+      "source_locator": "Verbatim narrated claim: On July thirty-first he was admitted to an institution at Döbling",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "154000-h029",
+      "anchor": "He died there on August thirteenth, at forty-seven years old",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "semm-university"
+      ],
+      "source_locator": "Verbatim narrated claim: He died there on August thirteenth, at forty-seven years old",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "154000-h030",
+      "anchor": "Karl Rokitansky's autopsy practice helped turn the study of diseased organs",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "semm-austrian-lexicon"
+      ],
+      "source_locator": "Verbatim narrated claim: Karl Rokitansky's autopsy practice helped turn the study of diseased organs",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "154000-h031",
+      "anchor": "The clinician Joseph Škoda was another important figure",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "semm-austrian-lexicon"
+      ],
+      "source_locator": "Verbatim narrated claim: The clinician Joseph Škoda was another important figure",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "154000-h032",
+      "anchor": "Ferdinand von Hebra was an influential physician and medical editor",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "semm-austrian-lexicon"
+      ],
+      "source_locator": "Verbatim narrated claim: Ferdinand von Hebra was an influential physician and medical editor",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "154000-h033",
+      "anchor": "Johann Klein, the head of the clinic, did not extend Semmelweis's assistantship",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "semm-austrian-lexicon",
+        "semm-australia-review"
+      ],
+      "source_locator": "Verbatim narrated claim: Johann Klein, the head of the clinic, did not extend Semmelweis's assistantship",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "154000-h034",
+      "anchor": "Semmelweis sought further teaching rights in Vienna",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "semm-austrian-lexicon"
+      ],
+      "source_locator": "Verbatim narrated claim: Semmelweis sought further teaching rights in Vienna",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "154000-h035",
+      "anchor": "he eventually obtained a more limited form of permission",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "semm-austrian-lexicon"
+      ],
+      "source_locator": "Verbatim narrated claim: he eventually obtained a more limited form of permission",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "154000-h036",
+      "anchor": "The admission schedule mattered",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "semm-noakes-data",
+        "semm-james-lind"
+      ],
+      "source_locator": "Verbatim narrated claim: The admission schedule mattered",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "154000-h037",
+      "anchor": "Women were directed to the clinics on alternating days",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "semm-noakes-data"
+      ],
+      "source_locator": "Verbatim narrated claim: Women were directed to the clinics on alternating days",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "154000-h038",
+      "anchor": "The large, persistent difference between the clinics before the intervention",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "semm-noakes-data"
+      ],
+      "source_locator": "Verbatim narrated claim: The large, persistent difference between the clinics before the intervention",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "154000-h039",
+      "anchor": "The original contrast had largely disappeared",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "semm-noakes-data",
+        "semm-loudon"
+      ],
+      "source_locator": "Verbatim narrated claim: The original contrast had largely disappeared",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "154000-h040",
+      "anchor": "The months immediately after the new procedure did not show a perfectly smooth descent",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "semm-noakes-data",
+        "semm-premature-paper"
+      ],
+      "source_locator": "Verbatim narrated claim: The months immediately after the new procedure did not show a perfectly smooth descent",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "154000-h041",
+      "anchor": "The original insight had been linked to a very specific route",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "semm-noakes-data"
+      ],
+      "source_locator": "Verbatim narrated claim: The original insight had been linked to a very specific route",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "154000-h042",
+      "anchor": "The two clinics were not randomly assigned groups of identical patients",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "semm-noakes-data"
+      ],
+      "source_locator": "Verbatim narrated claim: The two clinics were not randomly assigned groups of identical patients",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "154000-h043",
+      "anchor": "Cases involving infected living patients suggested that dangerous material did not come only from corpses",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "semm-premature-paper"
+      ],
+      "source_locator": "Verbatim narrated claim: Cases involving infected living patients suggested that dangerous material did not come only from corpses",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "154000-h044",
+      "anchor": "Disinfection therefore had to happen between patient examinations",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "semm-premature-paper"
+      ],
+      "source_locator": "Verbatim narrated claim: Disinfection therefore had to happen between patient examinations",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "154000-h045",
+      "anchor": "Group A streptococci are among the organisms historically important in outbreaks",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "semm-nlm-strept"
+      ],
+      "source_locator": "Verbatim narrated claim: Group A streptococci are among the organisms historically important in outbreaks",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "154000-h046",
+      "anchor": "Antiseptic hand disinfection interrupts that route",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "semm-nlm-strept"
+      ],
+      "source_locator": "Verbatim narrated claim: Antiseptic hand disinfection interrupts that route",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "154000-h047",
+      "anchor": "chlorine-containing solution, eventually using chlorinated lime",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "semm-nlm-strept"
+      ],
+      "source_locator": "Verbatim narrated claim: chlorine-containing solution, eventually using chlorinated lime",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "154000-h048",
+      "anchor": "the Scottish physician Alexander Gordon had argued from cases in Aberdeen",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "semm-pioneers-hygiene"
+      ],
+      "source_locator": "Verbatim narrated claim: the Scottish physician Alexander Gordon had argued from cases in Aberdeen",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "154000-h049",
+      "anchor": "Oliver Wendell Holmes published an essay in eighteen forty-three",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "semm-pioneers-hygiene"
+      ],
+      "source_locator": "Verbatim narrated claim: Oliver Wendell Holmes published an essay in eighteen forty-three",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "154000-h050",
+      "anchor": "Other practitioners had employed cleaning and disinfection measures",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "semm-pioneers-hygiene"
+      ],
+      "source_locator": "Verbatim narrated claim: Other practitioners had employed cleaning and disinfection measures",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "154000-h051",
+      "anchor": "Joseph Škoda defended the importance of the findings",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "semm-australia-review"
+      ],
+      "source_locator": "Verbatim narrated claim: Joseph Škoda defended the importance of the findings",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "154000-h052",
+      "anchor": "There were supporters in Vienna, and opponents in Vienna",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "semm-australia-review"
+      ],
+      "source_locator": "Verbatim narrated claim: There were supporters in Vienna, and opponents in Vienna",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "154000-h053",
+      "anchor": "He did not promptly produce a full, easily circulated report",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "semm-australia-review"
+      ],
+      "source_locator": "Verbatim narrated claim: He did not promptly produce a full, easily circulated report",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "154000-h054",
+      "anchor": "he became professor and head of obstetrics at the University of Pest",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "semm-university-history"
+      ],
+      "source_locator": "Verbatim narrated claim: he became professor and head of obstetrics at the University of Pest",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "154000-h055",
+      "anchor": "He participated in faculty committees",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "semm-university-history"
+      ],
+      "source_locator": "Verbatim narrated claim: He participated in faculty committees",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "154000-h056",
+      "anchor": "In eighteen fifty-seven he married Mária Weidenhofer",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "semm-university-family",
+        "semm-museum"
+      ],
+      "source_locator": "Verbatim narrated claim: In eighteen fifty-seven he married Mária Weidenhofer",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "154000-h057",
+      "anchor": "They had five children, of whom three lived to adulthood",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "semm-university-family",
+        "semm-museum"
+      ],
+      "source_locator": "Verbatim narrated claim: They had five children, of whom three lived to adulthood",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "154000-h058",
+      "anchor": "almost two thousand final examinations over a decade",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "semm-university"
+      ],
+      "source_locator": "Verbatim narrated claim: almost two thousand final examinations over a decade",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "154000-h059",
+      "anchor": "A caesarean operation he performed in eighteen fifty-seven did not save the mother",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "semm-university"
+      ],
+      "source_locator": "Verbatim narrated claim: A caesarean operation he performed in eighteen fifty-seven did not save the mother",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "154000-h060",
+      "anchor": "Among his colleagues in Pest was Lajos Markusovszky",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "semm-university"
+      ],
+      "source_locator": "Verbatim narrated claim: Among his colleagues in Pest was Lajos Markusovszky",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "154000-h061",
+      "anchor": "he posted instructions requiring antiseptic cleaning of hands before examinations",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "semm-university"
+      ],
+      "source_locator": "Verbatim narrated claim: he posted instructions requiring antiseptic cleaning of hands before examinations",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "154000-h062",
+      "anchor": "the authorities, after consultation with the Pest medical faculty, circulated an order in September eighteen sixty-two",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "semm-university"
+      ],
+      "source_locator": "Verbatim narrated claim: the authorities, after consultation with the Pest medical faculty, circulated an order in September eighteen sixty-two",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "154000-h063",
+      "anchor": "His death occurred within two weeks of admission",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "semm-university"
+      ],
+      "source_locator": "Verbatim narrated claim: His death occurred within two weeks of admission",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "154000-h064",
+      "anchor": "Historical autopsy material and later investigations support fatal sepsis",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "semm-university"
+      ],
+      "source_locator": "Verbatim narrated claim: Historical autopsy material and later investigations support fatal sepsis",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "154000-h065",
+      "anchor": "the First Clinic served the male medical students and doctors",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "semm-james-lind"
+      ],
+      "source_locator": "Verbatim narrated claim: the First Clinic served the male medical students and doctors",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "154000-h066",
+      "anchor": "His major German-language treatise appeared with an eighteen sixty-one imprint",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "semm-primary-book",
+        "semm-letters"
+      ],
+      "source_locator": "Verbatim narrated claim: His major German-language treatise appeared with an eighteen sixty-one imprint",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "154000-h067",
+      "anchor": "The book assembled hospital figures, described the circumstances of the discovery",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "semm-primary-book"
+      ],
+      "source_locator": "Verbatim narrated claim: The book assembled hospital figures, described the circumstances of the discovery",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "154000-h068",
+      "anchor": "A substantial part of his book and subsequent open letters was directed toward physicians",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "semm-primary-book",
+        "semm-letters"
+      ],
+      "source_locator": "Verbatim narrated claim: A substantial part of his book and subsequent open letters was directed toward physicians",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "154000-h069",
+      "anchor": "Accounts of his condition before admission, his treatment in the institution",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "semm-kadar"
+      ],
+      "source_locator": "Verbatim narrated claim: Accounts of his condition before admission, his treatment in the institution",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "154000-h070",
+      "anchor": "Other accounts emphasize physical injuries sustained during his confinement",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "semm-kadar"
+      ],
+      "source_locator": "Verbatim narrated claim: Other accounts emphasize physical injuries sustained during his confinement",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "154000-h071",
+      "anchor": "Some authors state that attendants beat him",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "semm-kadar"
+      ],
+      "source_locator": "Verbatim narrated claim: Some authors state that attendants beat him",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "154000-h072",
+      "anchor": "The ward in which death had been several times more likely",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "semm-loudon"
+      ],
+      "source_locator": "Verbatim narrated claim: The ward in which death had been several times more likely",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "154000-h073",
+      "anchor": "A visitor might leave convinced and be unable to persuade a distant colleague",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "semm-2018-anniversary"
+      ],
+      "source_locator": "Verbatim narrated claim: A visitor might leave convinced and be unable to persuade a distant colleague",
+      "audit_status": "source_checked"
+    }
+  ],
+  "chronology": {
+    "gordon_precursor": {
+      "start": 1795,
+      "end": 1795,
+      "basis": "university_archive_or_scholarly_history",
+      "label": "Gordon publishes on contagious puerperal fever in Aberdeen; comparative historical predecessor",
+      "source_ids": [
+        "semm-gordon-lowis"
+      ]
+    },
+    "birth": {
+      "start": 1818,
+      "end": 1818,
+      "basis": "university_archive_or_scholarly_history",
+      "label": "Born in Buda (separate from Pest until 1873) on 1 July",
+      "source_ids": [
+        "semm-university"
+      ]
+    },
+    "school": {
+      "start": 1832,
+      "end": 1835,
+      "basis": "university_archive_or_scholarly_history",
+      "label": "Secondary schooling in Székesfehérvár and Buda",
+      "source_ids": [
+        "semm-university"
+      ]
+    },
+    "pest_university": {
+      "start": 1835,
+      "end": 1837,
+      "basis": "university_archive_or_scholarly_history",
+      "label": "Humanities studies in Pest before law training",
+      "source_ids": [
+        "semm-university"
+      ]
+    },
+    "vienna_law": {
+      "start": 1837,
+      "end": 1838,
+      "basis": "university_archive_or_scholarly_history",
+      "label": "Vienna law enrollment followed by switch to medicine",
+      "source_ids": [
+        "semm-university"
+      ]
+    },
+    "medical_training": {
+      "start": 1838,
+      "end": 1844,
+      "basis": "university_archive_or_scholarly_history",
+      "label": "Medical studies in Vienna and Pest; returns to Vienna",
+      "source_ids": [
+        "semm-austrian-lexicon"
+      ]
+    },
+    "holmes_precursor": {
+      "start": 1843,
+      "end": 1843,
+      "basis": "university_archive_or_scholarly_history",
+      "label": "Holmes publishes contagion essay in Boston; independent predecessor",
+      "source_ids": [
+        "semm-wellcome-holmes"
+      ]
+    },
+    "medical_degree": {
+      "start": 1844,
+      "end": 1844,
+      "basis": "university_archive_or_scholarly_history",
+      "label": "Vienna medical doctorate and obstetric qualification",
+      "source_ids": [
+        "semm-university"
+      ]
+    },
+    "surgical_qualification": {
+      "start": 1845,
+      "end": 1845,
+      "basis": "university_archive_or_scholarly_history",
+      "label": "Obtains surgical qualification",
+      "source_ids": [
+        "semm-university"
+      ]
+    },
+    "clinic_assistant": {
+      "start": 1846,
+      "end": 1849,
+      "basis": "university_archive_or_scholarly_history",
+      "label": "Assistant at first obstetrical clinic of Vienna General Hospital under Klein, with a temporary break",
+      "source_ids": [
+        "semm-austrian-lexicon"
+      ]
+    },
+    "baseline_mortality": {
+      "start": 1846,
+      "end": 1846,
+      "basis": "university_archive_or_scholarly_history",
+      "label": "First and Second clinics exhibit sharply different recorded mortality",
+      "source_ids": [
+        "semm-who-table"
+      ]
+    },
+    "kolletschka": {
+      "start": 1847,
+      "end": 1847,
+      "basis": "university_archive_or_scholarly_history",
+      "label": "Kolletschka dies after autopsy injury; pathological findings suggest transfer",
+      "source_ids": [
+        "semm-university"
+      ]
+    },
+    "chlorine_intervention": {
+      "start": 1847,
+      "end": 1847,
+      "basis": "university_archive_or_scholarly_history",
+      "label": "Late-May requirement for chlorine-containing hand disinfection in first clinic",
+      "source_ids": [
+        "semm-noakes-data"
+      ]
+    },
+    "living_patient_transfer": {
+      "start": 1847,
+      "end": 1848,
+      "basis": "university_archive_or_scholarly_history",
+      "label": "Hand disinfection widened to patient-to-patient transfer, not only cadavers",
+      "source_ids": [
+        "semm-premature-paper"
+      ]
+    },
+    "hebra_publication": {
+      "start": 1847,
+      "end": 1848,
+      "basis": "university_archive_or_scholarly_history",
+      "label": "Hebra publicizes early clinical findings through Vienna periodical",
+      "source_ids": [
+        "semm-australia-review"
+      ]
+    },
+    "1848_mortality": {
+      "start": 1848,
+      "end": 1848,
+      "basis": "university_archive_or_scholarly_history",
+      "label": "First clinic annual mortality about 1.27 percent, comparable to second",
+      "source_ids": [
+        "semm-who-table"
+      ]
+    },
+    "university_dispute": {
+      "start": 1849,
+      "end": 1850,
+      "basis": "university_archive_or_scholarly_history",
+      "label": "End of assistantship, efforts for Vienna teaching rights",
+      "source_ids": [
+        "semm-austrian-lexicon"
+      ]
+    },
+    "return_pest": {
+      "start": 1850,
+      "end": 1850,
+      "basis": "university_archive_or_scholarly_history",
+      "label": "Returns from Vienna to Pest in autumn",
+      "source_ids": [
+        "semm-austrian-lexicon"
+      ]
+    },
+    "rochus": {
+      "start": 1851,
+      "end": 1855,
+      "basis": "university_archive_or_scholarly_history",
+      "label": "Unpaid senior obstetric role in St Rochus hospital in Pest",
+      "source_ids": [
+        "semm-austrian-lexicon"
+      ]
+    },
+    "professorship": {
+      "start": 1855,
+      "end": 1865,
+      "basis": "university_archive_or_scholarly_history",
+      "label": "University of Pest professor and head of obstetrics",
+      "source_ids": [
+        "semm-university-history"
+      ]
+    },
+    "marriage": {
+      "start": 1857,
+      "end": 1857,
+      "basis": "university_archive_or_scholarly_history",
+      "label": "Marriage to Maria Weidenhofer",
+      "source_ids": [
+        "semm-museum"
+      ]
+    },
+    "caesarean": {
+      "start": 1857,
+      "end": 1857,
+      "basis": "university_archive_or_scholarly_history",
+      "label": "Difficult caesarean undertaken; mother dies afterward",
+      "source_ids": [
+        "semm-university"
+      ]
+    },
+    "hungarian_papers": {
+      "start": 1858,
+      "end": 1858,
+      "basis": "university_archive_or_scholarly_history",
+      "label": "Semmelweis own reports begin appearing in Orvosi Hetilap",
+      "source_ids": [
+        "semm-university"
+      ]
+    },
+    "treatise": {
+      "start": 1860,
+      "end": 1861,
+      "basis": "university_archive_or_scholarly_history",
+      "label": "Comprehensive German treatise printed 1860 with 1861 imprint",
+      "source_ids": [
+        "semm-university"
+      ]
+    },
+    "pest_instructions": {
+      "start": 1861,
+      "end": 1861,
+      "basis": "university_archive_or_scholarly_history",
+      "label": "Hand-disinfection instruction posted at Pest university maternity department",
+      "source_ids": [
+        "semm-university"
+      ]
+    },
+    "open_letters": {
+      "start": 1861,
+      "end": 1862,
+      "basis": "university_archive_or_scholarly_history",
+      "label": "Open letters challenge prominent obstetric colleagues",
+      "source_ids": [
+        "semm-letters"
+      ]
+    },
+    "hungarian_order": {
+      "start": 1862,
+      "end": 1862,
+      "basis": "university_archive_or_scholarly_history",
+      "label": "Hungarian authority issues general directive to implement preventive practice",
+      "source_ids": [
+        "semm-university"
+      ]
+    },
+    "gynecologic_surgery": {
+      "start": 1863,
+      "end": 1863,
+      "basis": "university_archive_or_scholarly_history",
+      "label": "Further gynecological surgery at university hospital",
+      "source_ids": [
+        "semm-university"
+      ]
+    },
+    "admission_dobling": {
+      "start": 1865,
+      "end": 1865,
+      "basis": "university_archive_or_scholarly_history",
+      "label": "31 July admitted to psychiatric institution at Döbling",
+      "source_ids": [
+        "semm-university"
+      ]
+    },
+    "death": {
+      "start": 1865,
+      "end": 1865,
+      "basis": "university_archive_or_scholarly_history",
+      "label": "13 August death in Vienna following severe illness, associated sepsis",
+      "source_ids": [
+        "semm-university"
+      ]
+    },
+    "lister_context": {
+      "start": 1867,
+      "end": 1867,
+      "basis": "university_archive_or_scholarly_history",
+      "label": "Lister reports antiseptic surgical practice after Semmelweis death; contextual downstream development",
+      "source_ids": [
+        "semm-pioneers-hygiene"
+      ]
+    }
+  },
+  "spacetime_coverage": {
+    "schema_version": 1,
+    "subject": "Ignaz Semmelweis",
+    "description": "Buda birth, Pest/Vienna education and medical posts, Vienna clinic investigation, final Pest professorship and Döbling death. Boston and Aberdeen are contextual predecessor locations, never destinations visited by Semmelweis. Pre-1865 and later science are clearly differentiated.",
+    "places": [
+      {
+        "place": "Buda (now Budapest), Hungary",
+        "present_day_country": "Hungary",
+        "historical_polity": "Kingdom of Hungary within Austrian Empire",
+        "start_year": 1818,
+        "end_year": 1837,
+        "role": "birth_and_schooling",
+        "note": "Born in Buda, then separate from Pest; cultural and schooling context.",
+        "source_ids": [
+          "semm-university"
+        ],
+        "approximate": true
+      },
+      {
+        "place": "Székesfehérvár, Hungary",
+        "present_day_country": "Hungary",
+        "historical_polity": "Kingdom of Hungary within Austrian Empire",
+        "start_year": 1832,
+        "end_year": 1833,
+        "role": "secondary_school",
+        "note": "Recorded period of secondary school; dates approximate.",
+        "source_ids": [
+          "semm-university"
+        ],
+        "approximate": true
+      },
+      {
+        "place": "Pest (now Budapest), Hungary",
+        "present_day_country": "Hungary",
+        "historical_polity": "Kingdom of Hungary within Austrian Empire",
+        "start_year": 1835,
+        "end_year": 1841,
+        "role": "humanities_and_medical_studies",
+        "note": "Studied humanities and some medicine in Pest before Vienna career. Approximate years.",
+        "source_ids": [
+          "semm-austrian-lexicon"
+        ],
+        "approximate": true
+      },
+      {
+        "place": "Vienna, Austria",
+        "present_day_country": "Austria",
+        "historical_polity": "Austrian Empire",
+        "start_year": 1837,
+        "end_year": 1850,
+        "role": "medical_training_and_clinic",
+        "note": "Vienna University training, First Clinic appointment and study; medical faculty controversies.",
+        "source_ids": [
+          "semm-university",
+          "semm-austrian-lexicon"
+        ],
+        "approximate": true
+      },
+      {
+        "place": "Vienna General Hospital, Vienna, Austria",
+        "present_day_country": "Austria",
+        "historical_polity": "Austrian Empire",
+        "start_year": 1846,
+        "end_year": 1849,
+        "role": "clinic_investigation",
+        "note": "Historical obstetric department, first and second clinics and antiseptic practice.",
+        "source_ids": [
+          "semm-noakes-data",
+          "semm-university"
+        ],
+        "approximate": true
+      },
+      {
+        "place": "Pest (now Budapest), Hungary",
+        "present_day_country": "Hungary",
+        "historical_polity": "Kingdom of Hungary within Austrian Empire",
+        "start_year": 1850,
+        "end_year": 1865,
+        "role": "clinical_professorship_family",
+        "note": "Return to Pest, St Rochus, university obstetrics career, marriage and children.",
+        "source_ids": [
+          "semm-university",
+          "semm-museum"
+        ],
+        "approximate": true
+      },
+      {
+        "place": "St Rochus Hospital, Pest (now Budapest), Hungary",
+        "present_day_country": "Hungary",
+        "historical_polity": "Kingdom of Hungary within Austrian Empire",
+        "start_year": 1851,
+        "end_year": 1855,
+        "role": "clinical_appointment",
+        "note": "Unpaid obstetric appointment before university professorship.",
+        "source_ids": [
+          "semm-austrian-lexicon"
+        ],
+        "approximate": true
+      },
+      {
+        "place": "Döbling, Vienna, Austria",
+        "present_day_country": "Austria",
+        "historical_polity": "Austrian Empire",
+        "start_year": 1865,
+        "end_year": 1865,
+        "role": "final_hospitalization",
+        "note": "Psychiatric institutional admission and death; causes and treatment remain contested.",
+        "source_ids": [
+          "semm-university",
+          "semm-kadar"
+        ],
+        "approximate": false
+      },
+      {
+        "place": "Aberdeen, Scotland, United Kingdom",
+        "present_day_country": "United Kingdom",
+        "historical_polity": "Kingdom of Great Britain",
+        "start_year": 1795,
+        "end_year": 1795,
+        "role": "historical_predecessor_not_personal_travel",
+        "note": "Alexander Gordon earlier puerperal-fever work; not a Semmelweis journey.",
+        "source_ids": [
+          "semm-gordon-lowis"
+        ],
+        "approximate": false
+      },
+      {
+        "place": "Boston, Massachusetts, United States",
+        "present_day_country": "United States",
+        "historical_polity": "United States",
+        "start_year": 1843,
+        "end_year": 1843,
+        "role": "historical_predecessor_not_personal_travel",
+        "note": "Oliver Wendell Holmes essay; not a Semmelweis journey.",
+        "source_ids": [
+          "semm-wellcome-holmes"
+        ],
+        "approximate": false
+      }
+    ]
+  },
+  "tags": [
+    "Biography",
+    "History of science",
+    "History of medicine",
+    "History of obstetrics",
+    "History of gynecology",
+    "Medical history",
+    "Obstetrics",
+    "Gynecology",
+    "Midwifery",
+    "Maternal health",
+    "Maternal mortality",
+    "Childbirth",
+    "History of childbirth",
+    "Puerperal fever",
+    "Childbed fever",
+    "Puerperal sepsis",
+    "Infectious disease",
+    "Microbiology",
+    "Infection control",
+    "Antisepsis",
+    "Asepsis",
+    "Hand disinfection",
+    "Hand hygiene",
+    "History of handwashing",
+    "Chlorinated lime",
+    "Chlorine antiseptics",
+    "Sepsis",
+    "Bacterial infection",
+    "Streptococcal infection",
+    "Streptococcus pyogenes",
+    "Clinical epidemiology",
+    "Epidemiology",
+    "Clinical observation",
+    "Natural experiments",
+    "Hospital mortality statistics",
+    "Causal inference",
+    "Historical mortality data",
+    "Comparative statistics",
+    "Experimental medicine",
+    "Evidence-based medicine",
+    "Clinical trials history",
+    "Medical reform",
+    "History of public health",
+    "Public health",
+    "Patient safety",
+    "Healthcare-associated infections",
+    "Hospital-acquired infection",
+    "Health care institutions",
+    "Hospital wards",
+    "Hospital teaching",
+    "Medical education",
+    "Medical ethics",
+    "Medical responsibility",
+    "Scientific publication",
+    "Scientific controversy",
+    "Scientific evidence",
+    "Scientific resistance",
+    "Institutional reform",
+    "History of universities",
+    "Medical professional culture",
+    "Scientific collaboration",
+    "Medical teaching",
+    "University of Vienna",
+    "Vienna General Hospital",
+    "University of Pest",
+    "Semmelweis University",
+    "St Rochus Hospital",
+    "Ignaz Semmelweis",
+    "Ignác Fülöp Semmelweis",
+    "Johann Klein",
+    "Jakob Kolletschka",
+    "Karl Rokitansky",
+    "Joseph Škoda",
+    "Ferdinand von Hebra",
+    "Alexander Gordon",
+    "Oliver Wendell Holmes Sr.",
+    "Lajos Markusovszky",
+    "Mária Weidenhofer",
+    "Louis Pasteur",
+    "Joseph Lister",
+    "History of germ theory",
+    "Nineteenth-century medicine",
+    "History of Austria",
+    "History of Hungary",
+    "Habsburg monarchy",
+    "Austrian Empire",
+    "Scientific methods",
+    "Clinical standards",
+    "Reproducibility",
+    "Professional dissent",
+    "History of psychiatric care",
+    "Historical medical historiography",
+    "Historical uncertainty",
+    "Medical biography",
+    "European history",
+    "Region: Europe",
+    "Region: Central Europe",
+    "Country: Austria",
+    "Country: Hungary",
+    "Country: United Kingdom",
+    "Country: United States",
+    "Place: Vienna",
+    "Place: Döbling",
+    "Place: Buda",
+    "Place: Pest",
+    "Place: Budapest",
+    "Place: Székesfehérvár",
+    "Place: Aberdeen",
+    "Place: Boston",
+    "Historical polity: Austrian Empire",
+    "Historical polity: Kingdom of Hungary",
+    "Historical polity: Kingdom of Great Britain",
+    "1790s",
+    "1810s",
+    "1820s",
+    "1830s",
+    "1840s",
+    "1850s",
+    "1860s",
+    "Year: 1795",
+    "Year: 1818",
+    "Year: 1832",
+    "Year: 1835",
+    "Year: 1837",
+    "Year: 1838",
+    "Year: 1840",
+    "Year: 1843",
+    "Year: 1844",
+    "Year: 1845",
+    "Year: 1846",
+    "Year: 1847",
+    "Year: 1848",
+    "Year: 1849",
+    "Year: 1850",
+    "Year: 1851",
+    "Year: 1855",
+    "Year: 1857",
+    "Year: 1858",
+    "Year: 1860",
+    "Year: 1861",
+    "Year: 1862",
+    "Year: 1863",
+    "Year: 1865",
+    "Year: 1867"
+  ],
+  "description": "Follows Semmelweis through the maternity wards of Vienna, his evidence for hand disinfection, professional conflict and tragic later life; distinguishes the mortality findings from retrospective legends.",
+  "content_recovery": {
+    "date": "2026-11-18",
+    "archive": "scientist-biography-154000-semmelweis-overlay.zip",
+    "archive_sha256": "c8ecd15cf194a3c5003ce276d5a3efb55f00431ac4a986aa7495d097252eb2dc",
+    "original_path": "draft-stages/tts-history/154000-semmelweis.md",
+    "original_lecture_id": "154000",
+    "original_source_sha256": "c4a21530f3b107c1f57bbfa2fa4167b87a1f9910bf54a10fd890e6a440a7446d",
+    "integration_model": "GPT-6 (Codex; weights/config variant unknown)",
+    "scope": "Recover supplied source and metadata; preserve spoken prose. Remap colliding playback IDs and citation records without replacing existing lectures."
+  }
+}

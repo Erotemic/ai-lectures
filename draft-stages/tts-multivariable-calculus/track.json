@@ -25,7 +25,8 @@
     "elliptic-boundary-harmonic-regularity-bridge",
     "elliptic-boundary-capacity-wiener-bridge",
     "semilinear-existence-bifurcation-bridge",
-    "nonlinear-critical-point-methods-bridge"
+    "nonlinear-critical-point-methods-bridge",
+    "derivatives-and-inference-bridges"
   ],
   "lectures": [
     {
@@ -923,6 +924,87 @@
         "Stokes theorem",
         "Divergence theorem",
         "Conservation"
+      ]
+    },
+    {
+      "id": "071000",
+      "title": "What a Gradient Depends On: Differentials, Geometry, and Steepest Descent",
+      "section": "derivatives-and-inference-bridges",
+      "file": "071000-what-a-gradient-depends-on.md",
+      "spoken_words": 1866,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 12.9,
+      "description": "Distinguishes the coordinate-independent differential from a metric-dependent gradient and derives steepest-descent directions under rescaling.",
+      "tags": [
+        "Multivariable calculus",
+        "Differentials",
+        "Dual spaces",
+        "Gradients",
+        "Metric geometry",
+        "Steepest descent",
+        "Preconditioning"
+      ],
+      "tag_paths": [
+        [
+          "Mathematics",
+          "Multivariable Calculus",
+          "Mathematical connections",
+          "Multivariable calculus"
+        ]
+      ]
+    },
+    {
+      "id": "072000",
+      "title": "From Jacobians to Uncertainty Budgets: Errors, Correlations, and Nonlinearity",
+      "section": "derivatives-and-inference-bridges",
+      "file": "072000-jacobians-and-uncertainty-budgets.md",
+      "spoken_words": 1957,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 13.5,
+      "description": "Derives deterministic and stochastic propagation for a two-sensor area measurement and identifies nonlinear failures of first-order approximations.",
+      "tags": [
+        "Multivariable calculus",
+        "Uncertainty propagation",
+        "Delta method",
+        "Covariance",
+        "Sensitivity",
+        "Nonlinear remainder",
+        "Error budgets"
+      ],
+      "tag_paths": [
+        [
+          "Mathematics",
+          "Multivariable Calculus",
+          "Mathematical connections",
+          "Multivariable calculus"
+        ]
+      ]
+    },
+    {
+      "id": "073000",
+      "title": "The Chain Rule Run Backward: Gradients, Backpropagation, and Adjoint Sensitivity",
+      "section": "derivatives-and-inference-bridges",
+      "file": "073000-the-chain-rule-run-backwards.md",
+      "spoken_words": 1975,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 13.6,
+      "description": "Explains the reverse pullback of sensitivities with a shared-node graph and a two-by-two implicit linear system.",
+      "tags": [
+        "Chain rule",
+        "Automatic differentiation",
+        "Reverse mode",
+        "Backpropagation",
+        "Adjoints",
+        "Implicit differentiation",
+        "Sensitivity"
+      ],
+      "tag_paths": [
+        [
+          "Mathematics",
+          "Multivariable Calculus",
+          "Mathematical connections",
+          "Chain rule"
+        ]
       ]
     }
   ],

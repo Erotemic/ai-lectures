@@ -26,6 +26,9 @@
         "Optimization",
         "Convexity",
         "Duality"
+      ],
+      "related_collections": [
+        "curvature-and-conditioning"
       ]
     },
     {
@@ -108,6 +111,35 @@
         "Optimization",
         "Conic optimization",
         "Certificates"
+      ]
+    },
+    {
+      "id": "curvature-and-conditioning",
+      "title": "Optimization · Why Curvature Controls Algorithms",
+      "role": "deep_dive",
+      "parent": "survey",
+      "summary": "Start from first-order descent, then work out Hessian anisotropy, convergence certificates, preconditioning and ridge shrinkage.",
+      "lectures": [
+        "005000",
+        "017000"
+      ],
+      "preparation_collections": [
+        "linear-algebra:survey",
+        "multivariable-calculus:worked-multivariable-foundations-bridge"
+      ],
+      "related_collections": [
+        "linear-algebra:numerical-matrix-bridge",
+        "multivariable-calculus:derivatives-and-inference-bridges"
+      ],
+      "tags": [
+        "Optimization",
+        "Conditioning",
+        "Preconditioning",
+        "Strong convexity",
+        "Regularization"
+      ],
+      "assumed_background": [
+        "Two-variable derivatives and Hessians, elementary eigenvalues, and squared-error objectives."
       ]
     }
   ]

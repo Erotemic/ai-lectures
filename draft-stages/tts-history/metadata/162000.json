@@ -1,0 +1,771 @@
+{
+  "schema_version": 1,
+  "lecture_id": "162000",
+  "transcript": "162000-perelman.md",
+  "related_resources": [
+    {
+      "source_id": "history-perelman-chair2014",
+      "reason": "2010 prize funds declined and later used for a Paris early-career research chair; not travel by Perelman."
+    },
+    {
+      "source_id": "history-perelman-cmi",
+      "reason": "Poincare and geometrization statements, Hamilton program, 2002–03 proof and official research resource page."
+    },
+    {
+      "source_id": "history-perelman-entropy2002",
+      "reason": "Original first preprint posted 11 Nov 2002, monotonicity, geometric applications and no collapsing."
+    },
+    {
+      "source_id": "history-perelman-extinction2003",
+      "reason": "Third manuscript posted 17 July 2003; finite extinction argument using Hamilton and curve shortening."
+    },
+    {
+      "source_id": "history-perelman-hamilton-retro",
+      "reason": "Hamilton’s own retrospective on surgery, long-standing obstruction, and Perelman’s noncollapsing contribution."
+    },
+    {
+      "source_id": "history-perelman-hamilton1982",
+      "reason": "Hamilton’s introduction of Ricci flow method and three-dimensional positive Ricci curvature theorem."
+    },
+    {
+      "source_id": "history-perelman-imo1982",
+      "reason": "1982 Budapest competition and exactly 42 of 42 points; three joint first-place maximum scorers."
+    },
+    {
+      "source_id": "history-perelman-imu2006",
+      "reason": "2006 award citation and explicit decline, not a location or presence record for Madrid."
+    },
+    {
+      "source_id": "history-perelman-kleiner-lott",
+      "reason": "Detailed independent expansion of 2002 and March 2003 preprints; 2006 initial arXiv, 2008 journal version."
+    },
+    {
+      "source_id": "history-perelman-mactutor",
+      "reason": "Family, Soviet circle education, institutions, international appointments and awards; April 2002 return line is a demonstrable 2003 typo."
+    },
+    {
+      "source_id": "history-perelman-morgan-tian",
+      "reason": "Book-length proof; non-collapsing, canonical neighborhoods, surgery, finite extinction and its role in Poincare."
+    },
+    {
+      "source_id": "history-perelman-soul-lott",
+      "reason": "ICM survey recognizing Perelman’s earlier soul conjecture work and Aleksandrov geometry."
+    },
+    {
+      "source_id": "history-perelman-stonybrook",
+      "reason": "Stony Brook lectures April 21 to May 2, 2003 and visit April 21 to May 3. Do not infer attendance at other places."
+    },
+    {
+      "source_id": "history-perelman-stonybrook-news",
+      "reason": "Contemporaneous 23 Apr 2003 account of talks at MIT and crowded audience at Stony Brook."
+    },
+    {
+      "source_id": "history-perelman-surgery2003",
+      "reason": "Second manuscript posted 10 Mar 2003, surgery control and candid qualifications on earlier assertions."
+    },
+    {
+      "source_id": "history-perelman-tao",
+      "reason": "Exposition of analytical architecture and nonlinear PDE singularity issues."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "162000-h01",
+      "anchor": "more than a hundred mathematicians at Stony Brook",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-perelman-stonybrook-news"
+      ],
+      "source_locator": "more than a hundred mathematicians at Stony Brook",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "162000-h02",
+      "anchor": "April twenty-first",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-perelman-stonybrook"
+      ],
+      "source_locator": "April twenty-first",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "162000-h03",
+      "anchor": "born on June thirteenth, 1966, in Leningrad",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-perelman-mactutor"
+      ],
+      "source_locator": "born on June thirteenth, 1966, in Leningrad",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "162000-h04",
+      "anchor": "Sergei Rukshin",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-perelman-mactutor"
+      ],
+      "source_locator": "Sergei Rukshin",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "162000-h05",
+      "anchor": "specialized School Number 239",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-perelman-mactutor"
+      ],
+      "source_locator": "specialized School Number 239",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "162000-h06",
+      "anchor": "at the International Mathematical Olympiad in Budapest",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-perelman-imo1982"
+      ],
+      "source_locator": "at the International Mathematical Olympiad in Budapest",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "162000-h07",
+      "anchor": "forty-two points out of forty-two",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-perelman-imo1982"
+      ],
+      "source_locator": "forty-two points out of forty-two",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "162000-h08",
+      "anchor": "Leningrad State University",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-perelman-mactutor"
+      ],
+      "source_locator": "Leningrad State University",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "162000-h09",
+      "anchor": "Aleksandrov's intervention",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-perelman-mactutor"
+      ],
+      "source_locator": "Aleksandrov's intervention",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "162000-h10",
+      "anchor": "Yuri Burago played a central role",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-perelman-mactutor"
+      ],
+      "source_locator": "Yuri Burago played a central role",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "162000-h11",
+      "anchor": "defended it in 1990",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-perelman-mactutor"
+      ],
+      "source_locator": "defended it in 1990",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "162000-h12",
+      "anchor": "Burago and Mikhail Gromov",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-perelman-mactutor"
+      ],
+      "source_locator": "Burago and Mikhail Gromov",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "162000-h13",
+      "anchor": "Institut des Hautes Études Scientifiques near Paris",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-perelman-mactutor"
+      ],
+      "source_locator": "Institut des Hautes Études Scientifiques near Paris",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "162000-h14",
+      "anchor": "Duke University in 1991",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-perelman-mactutor"
+      ],
+      "source_locator": "Duke University in 1991",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "162000-h15",
+      "anchor": "Courant Institute in New York",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-perelman-mactutor"
+      ],
+      "source_locator": "Courant Institute in New York",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "162000-h16",
+      "anchor": "Miller Institute, in 1993–95",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-perelman-mactutor",
+        "history-perelman-chair2014"
+      ],
+      "source_locator": "Miller Institute, in 1993–95",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "162000-h17",
+      "anchor": "proof of the soul conjecture",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-perelman-mactutor",
+        "history-perelman-soul-lott"
+      ],
+      "source_locator": "proof of the soul conjecture",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "162000-h18",
+      "anchor": "International Congress of Mathematicians in Zürich",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-perelman-mactutor"
+      ],
+      "source_locator": "International Congress of Mathematicians in Zürich",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "162000-h19",
+      "anchor": "In 1982 he introduced a flow",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-perelman-hamilton1982"
+      ],
+      "source_locator": "In 1982 he introduced a flow",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "162000-h20",
+      "anchor": "A decisive part of Perelman's contribution was to control this possibility",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-perelman-entropy2002",
+        "history-perelman-hamilton-retro"
+      ],
+      "source_locator": "A decisive part of Perelman's contribution was to control this possibility",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "162000-h21",
+      "anchor": "One is commonly described as an entropy",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-perelman-entropy2002",
+        "history-perelman-tao"
+      ],
+      "source_locator": "One is commonly described as an entropy",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "162000-h22",
+      "anchor": "returned to Saint Petersburg in 1995",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-perelman-mactutor"
+      ],
+      "source_locator": "returned to Saint Petersburg in 1995",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "162000-h23",
+      "anchor": "November eleventh, 2002",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-perelman-entropy2002"
+      ],
+      "source_locator": "November eleventh, 2002",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "162000-h24",
+      "anchor": "In March 2003 came a second manuscript",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-perelman-surgery2003"
+      ],
+      "source_locator": "In March 2003 came a second manuscript",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "162000-h25",
+      "anchor": "Perelman's second preprint is also striking for what it openly says",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-perelman-surgery2003"
+      ],
+      "source_locator": "Perelman's second preprint is also striking for what it openly says",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "162000-h26",
+      "anchor": "By April 2003 Perelman was giving lectures",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-perelman-stonybrook",
+        "history-perelman-stonybrook-news"
+      ],
+      "source_locator": "By April 2003 Perelman was giving lectures",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "162000-h27",
+      "anchor": "July seventeenth, 2003",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-perelman-extinction2003"
+      ],
+      "source_locator": "July seventeenth, 2003",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "162000-h28",
+      "anchor": "Thurston's geometrization conjecture",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-perelman-cmi",
+        "history-perelman-morgan-tian"
+      ],
+      "source_locator": "Thurston's geometrization conjecture",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "162000-h29",
+      "anchor": "Bruce Kleiner and John Lott produced detailed notes",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-perelman-kleiner-lott"
+      ],
+      "source_locator": "Bruce Kleiner and John Lott produced detailed notes",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "162000-h30",
+      "anchor": "John Morgan and Gang Tian prepared a book-length treatment",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-perelman-morgan-tian"
+      ],
+      "source_locator": "John Morgan and Gang Tian prepared a book-length treatment",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "162000-h31",
+      "anchor": "Huai-Dong Cao and Xi-Ping Zhu",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-perelman-cmi"
+      ],
+      "source_locator": "Huai-Dong Cao and Xi-Ping Zhu",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "162000-h32",
+      "anchor": "The papers were posted on arXiv",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-perelman-entropy2002",
+        "history-perelman-surgery2003",
+        "history-perelman-extinction2003"
+      ],
+      "source_locator": "The papers were posted on arXiv",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "162000-h33",
+      "anchor": "Only in 2000 did the Clay Mathematics Institute designate",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-perelman-cmi"
+      ],
+      "source_locator": "Only in 2000 did the Clay Mathematics Institute designate",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "162000-h34",
+      "anchor": "declined an award from the European Mathematical Society",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-perelman-mactutor"
+      ],
+      "source_locator": "declined an award from the European Mathematical Society",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "162000-h35",
+      "anchor": "The International Mathematical Union selected him for a Fields Medal",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-perelman-imu2006"
+      ],
+      "source_locator": "The International Mathematical Union selected him for a Fields Medal",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "162000-h36",
+      "anchor": "left his position at the Steklov Institute by the end of 2005",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-perelman-mactutor"
+      ],
+      "source_locator": "left his position at the Steklov Institute by the end of 2005",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "162000-h37",
+      "anchor": "In March 2010 the Clay Mathematics Institute announced",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-perelman-cmi",
+        "history-perelman-chair2014"
+      ],
+      "source_locator": "In March 2010 the Clay Mathematics Institute announced",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "162000-h38",
+      "anchor": "he declined to take the prize money",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-perelman-chair2014"
+      ],
+      "source_locator": "he declined to take the prize money",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "162000-h39",
+      "anchor": "helped support the Poincaré Chair",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-perelman-chair2014"
+      ],
+      "source_locator": "helped support the Poincaré Chair",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "162000-h40",
+      "anchor": "graduating from Leningrad State University in 1987",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-perelman-mactutor"
+      ],
+      "source_locator": "graduating from Leningrad State University in 1987",
+      "audit_status": "source_checked"
+    }
+  ],
+  "chronology": {
+    "life": {
+      "start": 1966,
+      "basis": "documented_birth_year_only",
+      "label": "Born 1966 · living; birth date only, no inferred death year",
+      "note": "Only 1966 indexed here, because the current chronology axis cannot encode an open-ended life interval without fabricating an end year.",
+      "source_ids": [
+        "history-perelman-mactutor"
+      ]
+    },
+    "period": {
+      "start": 1966,
+      "end": 2010,
+      "basis": "dated_biographical_events",
+      "label": "1966–2010 · covered public biographical events",
+      "note": "Coverage period is not the full lifespan of a living subject. 2014 institutional reception is stored separately, not added to his life.",
+      "source_ids": [
+        "history-perelman-mactutor",
+        "history-perelman-chair2014"
+      ]
+    },
+    "setting": {
+      "start": 1966,
+      "end": 2010,
+      "basis": "soviet_and_post_soviet_math_institutions",
+      "label": "Soviet mathematical culture and post-Soviet international research",
+      "source_ids": [
+        "history-perelman-mactutor"
+      ]
+    },
+    "work": {
+      "start": 1985,
+      "end": 2003,
+      "basis": "research_publications",
+      "label": "1985–2003 · geometry publications and Poincare proof preprints",
+      "source_ids": [
+        "history-perelman-mactutor",
+        "history-perelman-entropy2002",
+        "history-perelman-surgery2003",
+        "history-perelman-extinction2003"
+      ]
+    }
+  },
+  "spacetime_coverage": {
+    "schema_version": 1,
+    "subject": "Grigori Perelman",
+    "subject_life_status": "living_at_time_of_catalog_2026-11-17",
+    "description": "Only attested or qualified birth, education, teaching, research and talk locations. Neither medal announcements nor prize committee sites are personal travel. For a living subject, birth is a point and public activity is a dated range, never a manufactured death date.",
+    "places": [
+      {
+        "place": "Saint Petersburg",
+        "present_day_country": "Russia",
+        "historical_polity": "Soviet Union",
+        "start_year": 1966,
+        "end_year": 1966,
+        "role": "birth",
+        "note": "Born in Leningrad, subsequently renamed Saint Petersburg.",
+        "coordinates": {
+          "latitude": 59.9343,
+          "longitude": 30.3351,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "history-perelman-mactutor"
+        ]
+      },
+      {
+        "place": "Saint Petersburg",
+        "present_day_country": "Russia",
+        "historical_polity": "Soviet Union",
+        "start_year": 1976,
+        "end_year": 1982,
+        "role": "school_and_mathematics_circle",
+        "note": "Palace of Pioneers and School No. 239; start is approximate; Leningrad was the contemporary city name.",
+        "coordinates": {
+          "latitude": 59.9343,
+          "longitude": 30.3351,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "history-perelman-mactutor"
+        ],
+        "date_uncertain": true
+      },
+      {
+        "place": "Budapest",
+        "present_day_country": "Hungary",
+        "historical_polity": "Hungarian People's Republic",
+        "start_year": 1982,
+        "end_year": 1982,
+        "role": "mathematical_competition",
+        "note": "International Mathematical Olympiad; tied first place on 42 out of 42.",
+        "coordinates": {
+          "latitude": 47.4979,
+          "longitude": 19.0402,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "history-perelman-imo1982"
+        ]
+      },
+      {
+        "place": "Saint Petersburg",
+        "present_day_country": "Russia",
+        "historical_polity": "Soviet Union",
+        "start_year": 1982,
+        "end_year": 1990,
+        "role": "education_and_research",
+        "note": "Leningrad State University, Steklov graduate research and defense in 1990; no claim of uninterrupted presence.",
+        "coordinates": {
+          "latitude": 59.9343,
+          "longitude": 30.3351,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "history-perelman-mactutor"
+        ]
+      },
+      {
+        "place": "Bures-sur-Yvette",
+        "present_day_country": "France",
+        "historical_polity": "French Republic",
+        "start_year": 1990,
+        "end_year": 1991,
+        "role": "research_visit",
+        "note": "IHÉS research visit during early 1990s; exact months not securely verified, dates approximate.",
+        "coordinates": {
+          "latitude": 48.6968,
+          "longitude": 2.1627,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "history-perelman-mactutor"
+        ],
+        "date_uncertain": true
+      },
+      {
+        "place": "Durham, North Carolina",
+        "present_day_country": "United States",
+        "historical_polity": "United States",
+        "start_year": 1991,
+        "end_year": 1991,
+        "role": "research_talk",
+        "note": "1991 Geometry Festival at Duke University.",
+        "coordinates": {
+          "latitude": 35.994,
+          "longitude": -78.899,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "history-perelman-mactutor"
+        ]
+      },
+      {
+        "place": "New York City",
+        "present_day_country": "United States",
+        "historical_polity": "United States",
+        "start_year": 1992,
+        "end_year": 1992,
+        "role": "fellowship",
+        "note": "Courant Institute, autumn 1992.",
+        "coordinates": {
+          "latitude": 40.7128,
+          "longitude": -74.006,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "history-perelman-mactutor"
+        ]
+      },
+      {
+        "place": "Stony Brook, New York",
+        "present_day_country": "United States",
+        "historical_polity": "United States",
+        "start_year": 1993,
+        "end_year": 1993,
+        "role": "fellowship",
+        "note": "Stony Brook fellowship during spring 1993.",
+        "coordinates": {
+          "latitude": 40.9257,
+          "longitude": -73.1409,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "history-perelman-mactutor"
+        ]
+      },
+      {
+        "place": "Berkeley, California",
+        "present_day_country": "United States",
+        "historical_polity": "United States",
+        "start_year": 1993,
+        "end_year": 1995,
+        "role": "research_fellowship",
+        "note": "Miller Institute fellowship 1993–95; includes research period during 1994 soul conjecture proof.",
+        "coordinates": {
+          "latitude": 37.8715,
+          "longitude": -122.273,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "history-perelman-mactutor",
+          "history-perelman-chair2014"
+        ]
+      },
+      {
+        "place": "Zürich",
+        "present_day_country": "Switzerland",
+        "historical_polity": "Swiss Confederation",
+        "start_year": 1994,
+        "end_year": 1994,
+        "role": "research_talk",
+        "note": "1994 International Congress of Mathematicians lecture.",
+        "coordinates": {
+          "latitude": 47.3769,
+          "longitude": 8.5417,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "history-perelman-mactutor"
+        ]
+      },
+      {
+        "place": "Saint Petersburg",
+        "present_day_country": "Russia",
+        "historical_polity": "Russian Federation",
+        "start_year": 1995,
+        "end_year": 2005,
+        "role": "research_institution",
+        "note": "Steklov research base through resignation by end of 2005. Institutional interval only; not continuous physical residency.",
+        "coordinates": {
+          "latitude": 59.9343,
+          "longitude": 30.3351,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "history-perelman-mactutor"
+        ]
+      },
+      {
+        "place": "Cambridge, Massachusetts",
+        "present_day_country": "United States",
+        "historical_polity": "United States",
+        "start_year": 2003,
+        "end_year": 2003,
+        "role": "research_lectures",
+        "note": "MIT research lecture visit in April 2003.",
+        "coordinates": {
+          "latitude": 42.3736,
+          "longitude": -71.1097,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "history-perelman-stonybrook-news",
+          "history-perelman-mactutor"
+        ]
+      },
+      {
+        "place": "Stony Brook, New York",
+        "present_day_country": "United States",
+        "historical_polity": "United States",
+        "start_year": 2003,
+        "end_year": 2003,
+        "role": "research_lectures",
+        "note": "Stony Brook Simons Lectures, April 21–May 2 and visit to May 3, 2003.",
+        "coordinates": {
+          "latitude": 40.9257,
+          "longitude": -73.1409,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "history-perelman-stonybrook"
+        ]
+      }
+    ],
+    "date_encoding": "Inclusive CE calendar years; approximate ranges or institutional appointments do not prove continuous residence. No real-time personal location tracking.",
+    "coordinate_encoding": "Approximate modern city centroid; no home, personal address or individual building location."
+  },
+  "description": "Traces Perelman’s mathematical upbringing, work on Alexandrov geometry and Ricci flow, the verification of geometrization, and his decisions to decline major prizes; distinguishes the proof from speculation about his private motives.",
+  "content_recovery": {
+    "date": "2026-11-18",
+    "archive": "mathematician-biography-perelman-story-first-2026-11-17.zip",
+    "archive_sha256": "daa578d60b9d6458b88d998862a744e6fdedb403dddad3926fe424350a7d4dbf",
+    "original_path": "draft-stages/tts-history/133000-perelman.md",
+    "original_lecture_id": "133000",
+    "original_source_sha256": "41be1cf267ff0c6bae111d9b0e855481835d5213db232e92ea81ea1a49e46c3d",
+    "integration_model": "GPT-6 (Codex; weights/config variant unknown)",
+    "scope": "Recover supplied source and metadata; preserve spoken prose. Remap colliding playback IDs and citation records without replacing existing lectures."
+  }
+}

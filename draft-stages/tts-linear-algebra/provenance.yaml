@@ -79,6 +79,14 @@ transcript:
     scope: Four original manuscripts connecting positive-definite direct and iterative solvers
       to stable eigenvalue computation and pseudospectral sensitivity, with proofs,
       worked examples, exercises and source records. Previous lecture narration unchanged.
+  - date: '2026-11-18'
+    models:
+    - GPT-6 (Codex; weights/config variant unknown)
+    sources:
+    - metadata/028000.json
+    scope: Recover supplied manuscripts and companions without changing spoken prose;
+      merge their sources, prerequisite metadata and focused routes into the current
+      catalog. Original archive identities and hashes are in the per-lecture sidecars.
 learning_map:
   revisions:
   - date: '2026-11-16'
@@ -134,3 +142,13 @@ learning_map:
     - metadata/027000.json
     scope: Add reviewed prerequisites and separate numerical-spectral listening route,
       retaining foundation and exact-operator routes and all prior playback IDs.
+  - date: '2026-11-18'
+    models:
+    - GPT-6
+    sources:
+    - lecture: 028000
+      manuscript: 028000-one-fit-three-mathematical-languages.md
+      metadata: metadata/028000.json
+    scope: Original cross-field mathematical connection lectures, with new narration,
+      exact worked companions, source records and scoped navigation links; prior manuscripts
+      are unchanged.

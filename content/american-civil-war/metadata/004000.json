@@ -1,0 +1,131 @@
+{
+  "schema_version": 1,
+  "lecture_id": "004000",
+  "transcript": "004000-rivers-and-railroads-the-western-war.md",
+  "description": "A campaign-level account of the western theater, showing how rivers, cities, railroads and supply lines made Grant and Sherman central to the Union victory.",
+  "tags": [
+    "American Civil War",
+    "Western theater",
+    "Fort Henry",
+    "Fort Donelson",
+    "Shiloh",
+    "Vicksburg",
+    "Mississippi River",
+    "Chattanooga",
+    "Atlanta campaign",
+    "Ulysses S Grant",
+    "William T Sherman",
+    "Military logistics"
+  ],
+  "tag_paths": [
+    [
+      "History",
+      "United States history",
+      "American Civil War",
+      "Military campaigns"
+    ],
+    [
+      "History",
+      "Military history",
+      "Logistics and geography"
+    ],
+    [
+      "Place: North America",
+      "Place: United States",
+      "Place: Mississippi"
+    ]
+  ],
+  "places": [
+    "Tennessee River",
+    "Cumberland River",
+    "Mississippi River",
+    "Fort Donelson",
+    "Shiloh",
+    "Vicksburg",
+    "Chattanooga",
+    "Atlanta",
+    "Georgia"
+  ],
+  "periods": [
+    "Antebellum United States, Civil War and Reconstruction"
+  ],
+  "chronology": {
+    "period": {
+      "start": 1862,
+      "end": 1865,
+      "label": "1862–1865 CE (events covered)",
+      "basis": "historical period treated in narration",
+      "source_ids": [
+        "cw-nps-forts",
+        "cw-nps-vicksburg",
+        "cw-nps-chattanooga"
+      ]
+    }
+  },
+  "related_resources": [
+    {
+      "source_id": "cw-nps-forts",
+      "reason": "Western river operations and February 1862 surrender."
+    },
+    {
+      "source_id": "cw-nps-vicksburg",
+      "reason": "Vicksburg campaign and opening the Mississippi River."
+    },
+    {
+      "source_id": "cw-nps-chattanooga",
+      "reason": "Chickamauga crisis, Chattanooga relief and Union attacks."
+    },
+    {
+      "source_id": "cw-nara-atlanta",
+      "reason": "Military and political significance of Atlanta in 1864."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "american-civil-war-004000-01",
+      "anchor": "Fort Henry on the Tennessee River and Fort Donelson on the Cumberland",
+      "kind": "historical_research",
+      "source_ids": [
+        "cw-nps-forts"
+      ],
+      "source_locator": "cw-nps-forts: Western river operations and February 1862 surrender.",
+      "audit_status": "source_recorded_and_anchor_checked"
+    },
+    {
+      "id": "american-civil-war-004000-02",
+      "anchor": "Confederate strongholds at Vicksburg and Port Hudson",
+      "kind": "historical_research",
+      "source_ids": [
+        "cw-nps-vicksburg"
+      ],
+      "source_locator": "cw-nps-vicksburg: Vicksburg campaign and opening the Mississippi River.",
+      "audit_status": "source_recorded_and_anchor_checked"
+    },
+    {
+      "id": "american-civil-war-004000-03",
+      "anchor": "The fighting farther east in Tennessee",
+      "kind": "historical_research",
+      "source_ids": [
+        "cw-nps-chattanooga"
+      ],
+      "source_locator": "cw-nps-chattanooga: Chickamauga crisis, Chattanooga relief and Union attacks.",
+      "audit_status": "source_recorded_and_anchor_checked"
+    }
+  ],
+  "learning": {
+    "prerequisites": [],
+    "background": [
+      "General historical curiosity; people and institutions are introduced in the narration."
+    ],
+    "readiness_checks": [
+      "Why did rivers and rail lines matter as much as battlefield victories?",
+      "What made Vicksburg a campaign rather than one encounter?",
+      "How did the capture of Atlanta shape the politics of 1864?"
+    ]
+  },
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Expanded standalone historical lecture narration, structured source notes and metadata."
+  }
+}

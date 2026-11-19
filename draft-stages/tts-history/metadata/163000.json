@@ -1,0 +1,635 @@
+{
+  "schema_version": 1,
+  "lecture_id": "163000",
+  "transcript": "163000-cardano.md",
+  "related_resources": [
+    {
+      "source_id": "history-cardano-bellhouse-probability",
+      "reason": "Treatise viewed as Renaissance discussion of knowledge and justice; warns against characterizing it as just modern probability in embryonic form."
+    },
+    {
+      "source_id": "history-cardano-mactutor",
+      "reason": "Cubic dispute, science, gambling, Italy/Scotland travel and family; differs from SEP on medical degree and day of death, and includes older narrow framing of the Inquisition; defer to SEP archival research on the trial."
+    },
+    {
+      "source_id": "history-cardano-sep",
+      "reason": "Biographical dates, early education, Milan membership, family, Scotland, 1570–71 Bologna Inquisition and posthumous autobiography; archival correction of horoscope-only trial mythology."
+    },
+    {
+      "source_id": "history-cardano-stigler-probability",
+      "reason": "Correct Cardano dice distributions, errors in other enumeration, publication in 1663 and absence of direct influence on Pascal–Fermat probability."
+    },
+    {
+      "source_id": "history-cubic-primary-quarrel",
+      "reason": "Excerpts chiefly from Tartaglia and Ferrari public dispute, letters, contest problem sets and 1539 self-reported dialogue. Strong evidence of published positions, not a neutral transcript."
+    },
+    {
+      "source_id": "history-cubic-unknown-quantity",
+      "reason": "Historical synthesis of 1535 contest, 1539 promise, del Ferro precedent, Cardano and Ferrari quartic; a narrative secondary account."
+    },
+    {
+      "source_id": "history-tartaglia-mactutor",
+      "reason": "Birth uncertainty, Brescia sack, teaching, Fior, 1539 oath report, publications, Ferrari contest and nonpayment; some dramatic language and reconstructed motives require caution."
+    },
+    {
+      "source_id": "history-tartaglia-museo",
+      "reason": "Cubic publication and pamphlets, 1543 Euclid and Archimedes, 1537 Nova scientia, late general treatise; birth year shown as 1499."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "163000-h01",
+      "anchor": "born in Pavia in 1501",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-cardano-sep"
+      ],
+      "source_locator": "born in Pavia in 1501",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "163000-h02",
+      "anchor": "His parents were not yet married",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-cardano-sep"
+      ],
+      "source_locator": "His parents were not yet married",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "163000-h03",
+      "anchor": "He began at Pavia in 1520",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-cardano-sep"
+      ],
+      "source_locator": "He began at Pavia in 1520",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "163000-h04",
+      "anchor": "moved to Padua after war",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-cardano-sep",
+        "history-cardano-mactutor"
+      ],
+      "source_locator": "moved to Padua after war",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "163000-h05",
+      "anchor": "married Lucia Bandareni in 1531",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-cardano-sep"
+      ],
+      "source_locator": "married Lucia Bandareni in 1531",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "163000-h06",
+      "anchor": "College of Physicians in Milan repeatedly refused",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-cardano-sep"
+      ],
+      "source_locator": "College of Physicians in Milan repeatedly refused",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "163000-h07",
+      "anchor": "taught mathematics at the Piatti school",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-cardano-sep"
+      ],
+      "source_locator": "taught mathematics at the Piatti school",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "163000-h08",
+      "anchor": "Cardano also gambled",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-cardano-mactutor",
+        "history-cardano-stigler-probability"
+      ],
+      "source_locator": "Cardano also gambled",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "163000-h09",
+      "anchor": "calculated distributions of dice totals",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-cardano-stigler-probability"
+      ],
+      "source_locator": "calculated distributions of dice totals",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "163000-h10",
+      "anchor": "in 1663",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-cardano-stigler-probability"
+      ],
+      "source_locator": "in 1663",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "163000-h11",
+      "anchor": "Scipione del Ferro had found a method",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-tartaglia-mactutor",
+        "history-cubic-unknown-quantity"
+      ],
+      "source_locator": "Scipione del Ferro had found a method",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "163000-h12",
+      "anchor": "in 1535",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-tartaglia-mactutor",
+        "history-cubic-primary-quarrel"
+      ],
+      "source_locator": "in 1535",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "163000-h13",
+      "anchor": "pursued Tartaglia",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-cubic-primary-quarrel"
+      ],
+      "source_locator": "pursued Tartaglia",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "163000-h14",
+      "anchor": "Alfonso d'Avalos",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-cubic-primary-quarrel"
+      ],
+      "source_locator": "Alfonso d'Avalos",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "163000-h15",
+      "anchor": "visit took place in Milan in March",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-cubic-primary-quarrel"
+      ],
+      "source_locator": "visit took place in Milan in March",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "163000-h16",
+      "anchor": "swore not to publish his discoveries",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-cubic-primary-quarrel"
+      ],
+      "source_locator": "swore not to publish his discoveries",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "163000-h17",
+      "anchor": "In August 1539, he wrote to Tartaglia",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-cardano-mactutor",
+        "history-cubic-primary-quarrel"
+      ],
+      "source_locator": "In August 1539, he wrote to Tartaglia",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "163000-h18",
+      "anchor": "Lodovico Ferrari entered Cardano's household",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-cubic-unknown-quantity"
+      ],
+      "source_locator": "Lodovico Ferrari entered Cardano's household",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "163000-h19",
+      "anchor": "In 1543, Cardano and Ferrari visited Bologna",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-cubic-unknown-quantity"
+      ],
+      "source_locator": "In 1543, Cardano and Ferrari visited Bologna",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "163000-h20",
+      "anchor": "the Ars Magna appeared in 1545",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-cardano-mactutor",
+        "history-cubic-unknown-quantity"
+      ],
+      "source_locator": "the Ars Magna appeared in 1545",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "163000-h21",
+      "anchor": "Credit was given to del Ferro and Tartaglia",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-tartaglia-mactutor",
+        "history-cardano-mactutor"
+      ],
+      "source_locator": "Credit was given to del Ferro and Tartaglia",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "163000-h22",
+      "anchor": "Tartaglia published his grievance in 1546",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-tartaglia-museo"
+      ],
+      "source_locator": "Tartaglia published his grievance in 1546",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "163000-h23",
+      "anchor": "disputation in Milan in August 1548",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-cubic-primary-quarrel",
+        "history-tartaglia-mactutor"
+      ],
+      "source_locator": "disputation in Milan in August 1548",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "163000-h24",
+      "anchor": "In 1552 he traveled to Scotland",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-cardano-sep"
+      ],
+      "source_locator": "In 1552 he traveled to Scotland",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "163000-h25",
+      "anchor": "John Hamilton",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-cardano-sep"
+      ],
+      "source_locator": "John Hamilton",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "163000-h26",
+      "anchor": "His eldest son, Giovanni Battista",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-cardano-sep"
+      ],
+      "source_locator": "His eldest son, Giovanni Battista",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "163000-h27",
+      "anchor": "was executed in 1560",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-cardano-sep"
+      ],
+      "source_locator": "was executed in 1560",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "163000-h28",
+      "anchor": "Cardano moved to Bologna",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-cardano-sep"
+      ],
+      "source_locator": "Cardano moved to Bologna",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "163000-h29",
+      "anchor": "In October 1570, the Inquisition arrested Cardano",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-cardano-sep"
+      ],
+      "source_locator": "In October 1570, the Inquisition arrested Cardano",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "163000-h30",
+      "anchor": "in 1571 to abjure",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-cardano-sep"
+      ],
+      "source_locator": "in 1571 to abjure",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "163000-h31",
+      "anchor": "Cardano went to Rome",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-cardano-sep"
+      ],
+      "source_locator": "Cardano went to Rome",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "163000-h32",
+      "anchor": "He died in 1576",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-cardano-sep",
+        "history-cardano-mactutor"
+      ],
+      "source_locator": "He died in 1576",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "163000-h33",
+      "anchor": "published in 1643",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-cardano-sep"
+      ],
+      "source_locator": "published in 1643",
+      "audit_status": "source_checked"
+    }
+  ],
+  "chronology": {
+    "life": {
+      "start": 1501,
+      "end": 1576,
+      "basis": "documented_lifespan",
+      "label": "1501–1576 · Pavia to Rome",
+      "source_ids": [
+        "history-cardano-sep",
+        "history-cardano-mactutor"
+      ]
+    },
+    "period": {
+      "start": 1501,
+      "end": 1576,
+      "basis": "documented_biographical_lifetime",
+      "label": "1501–1576 · Renaissance mathematics, medicine and Inquisition",
+      "source_ids": [
+        "history-cardano-sep"
+      ]
+    },
+    "setting": {
+      "start": 1501,
+      "end": 1576,
+      "basis": "northern_and_central_Italian_religious_political_setting",
+      "label": "Italian Wars and Counter-Reformation in sixteenth-century Europe",
+      "source_ids": [
+        "history-cardano-sep"
+      ]
+    },
+    "work": {
+      "start": 1533,
+      "end": 1570,
+      "basis": "teaching_publications_and_medicine",
+      "label": "1530s–1570 · active mathematical, medical and philosophical work",
+      "source_ids": [
+        "history-cardano-sep",
+        "history-cardano-mactutor"
+      ]
+    }
+  },
+  "spacetime_coverage": {
+    "schema_version": 1,
+    "subject": "Girolamo Cardano",
+    "subject_life_status": "deceased",
+    "description": "Sourced birth, teaching, publishing, research, travel and documented event locations; city centers are approximate coordinates, never exact premises or proof of uninterrupted residence. Publication and later reception are not inferred travel.",
+    "places": [
+      {
+        "place": "Pavia",
+        "present_day_country": "Italy",
+        "historical_polity": "Duchy of Milan",
+        "start_year": 1501,
+        "end_year": 1501,
+        "role": "birth",
+        "note": "Birth; modern country used for aggregation.",
+        "coordinates": {
+          "latitude": 45.1847,
+          "longitude": 9.1582,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "history-cardano-sep"
+        ]
+      },
+      {
+        "place": "Pavia",
+        "present_day_country": "Italy",
+        "historical_polity": "Duchy of Milan",
+        "start_year": 1520,
+        "end_year": 1522,
+        "role": "medical_education",
+        "note": "Studies medicine at Pavia beginning 1520; end approximate because wartime university closure.",
+        "coordinates": {
+          "latitude": 45.1847,
+          "longitude": 9.1582,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "history-cardano-sep"
+        ],
+        "date_uncertain": true
+      },
+      {
+        "place": "Padua",
+        "present_day_country": "Italy",
+        "historical_polity": "Republic of Venice",
+        "start_year": 1522,
+        "end_year": 1526,
+        "role": "medical_education",
+        "note": "Completes medical education after moving from Pavia; year of degree reported as 1525 or 1526.",
+        "coordinates": {
+          "latitude": 45.4064,
+          "longitude": 11.8768,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "history-cardano-sep"
+        ],
+        "date_uncertain": true
+      },
+      {
+        "place": "Saccolongo",
+        "present_day_country": "Italy",
+        "historical_polity": "Republic of Venice",
+        "start_year": 1526,
+        "end_year": 1531,
+        "role": "medical_practice_and_marriage",
+        "note": "Village medical practice and meeting Lucia; dates broad, not continuous verified presence.",
+        "coordinates": {
+          "latitude": 45.408,
+          "longitude": 11.747,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "history-cardano-sep"
+        ],
+        "date_uncertain": true
+      },
+      {
+        "place": "Gallarate",
+        "present_day_country": "Italy",
+        "historical_polity": "Duchy of Milan",
+        "start_year": 1532,
+        "end_year": 1533,
+        "role": "medical_practice",
+        "note": "Practiced near Milan during attempts to establish himself professionally; approximate interval.",
+        "coordinates": {
+          "latitude": 45.6639,
+          "longitude": 8.7918,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "history-cardano-sep"
+        ],
+        "date_uncertain": true
+      },
+      {
+        "place": "Milan",
+        "present_day_country": "Italy",
+        "historical_polity": "Duchy of Milan",
+        "start_year": 1532,
+        "end_year": 1540,
+        "role": "teaching_writing_and_medical_practice",
+        "note": "Piatti teaching, college admissions and 1539 meeting with Tartaglia; not uninterrupted physical presence.",
+        "coordinates": {
+          "latitude": 45.4642,
+          "longitude": 9.19,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "history-cardano-sep",
+          "history-cardano-mactutor"
+        ],
+        "date_uncertain": true
+      },
+      {
+        "place": "Bologna",
+        "present_day_country": "Italy",
+        "historical_polity": "Papal States",
+        "start_year": 1543,
+        "end_year": 1543,
+        "role": "research_visit",
+        "note": "Cardano and Ferrari meet Annibale della Nave to inspect earlier cubic method.",
+        "coordinates": {
+          "latitude": 44.4949,
+          "longitude": 11.3426,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "history-cubic-unknown-quantity",
+          "history-cardano-mactutor"
+        ]
+      },
+      {
+        "place": "Pavia",
+        "present_day_country": "Italy",
+        "historical_polity": "Duchy of Milan",
+        "start_year": 1543,
+        "end_year": 1562,
+        "role": "university_medicine",
+        "note": "University medical professorships, intermittent and interrupted by travels; not continuous residency.",
+        "coordinates": {
+          "latitude": 45.1847,
+          "longitude": 9.1582,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "history-cardano-sep"
+        ],
+        "date_uncertain": true
+      },
+      {
+        "place": "Edinburgh",
+        "present_day_country": "United Kingdom",
+        "historical_polity": "Kingdom of Scotland",
+        "start_year": 1552,
+        "end_year": 1552,
+        "role": "medical_travel_and_practice",
+        "note": "Treatment of John Hamilton, Archbishop of St Andrews, in Edinburgh. The subject actually visited Scotland.",
+        "coordinates": {
+          "latitude": 55.9533,
+          "longitude": -3.1883,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "history-cardano-sep",
+          "history-cardano-mactutor"
+        ]
+      },
+      {
+        "place": "Bologna",
+        "present_day_country": "Italy",
+        "historical_polity": "Papal States",
+        "start_year": 1562,
+        "end_year": 1570,
+        "role": "university_teaching_and_imprisonment",
+        "note": "Medical professorship until arrest and imprisonment in 1570.",
+        "coordinates": {
+          "latitude": 44.4949,
+          "longitude": 11.3426,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "history-cardano-sep"
+        ]
+      },
+      {
+        "place": "Rome",
+        "present_day_country": "Italy",
+        "historical_polity": "Papal States",
+        "start_year": 1571,
+        "end_year": 1576,
+        "role": "late_life_writing_and_medical_institution",
+        "note": "Late-career residence, work and death. Posthumous publications are not travel.",
+        "coordinates": {
+          "latitude": 41.9028,
+          "longitude": 12.4964,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "history-cardano-sep"
+        ]
+      }
+    ]
+  },
+  "description": "Follows Cardano through medicine, gambling, family conflict and Renaissance patronage, explaining how cubic equations and his contested bargain with Tartaglia shaped Ars Magna and his reputation.",
+  "content_recovery": {
+    "date": "2026-11-18",
+    "archive": "mathematician-biographies-cardano-tartaglia-story-first-2026-11-17.zip",
+    "archive_sha256": "ed9cb16eccac5606259c1d4b3765a2bc178fe4313b25fc0ed6940aa861adda7a",
+    "original_path": "draft-stages/tts-history/134000-cardano.md",
+    "original_lecture_id": "134000",
+    "original_source_sha256": "98ed67e14e4bc8189a81a52379e8a29db60348ce3a97702de7b385f5a67389bf",
+    "integration_model": "GPT-6 (Codex; weights/config variant unknown)",
+    "scope": "Recover supplied source and metadata; preserve spoken prose. Remap colliding playback IDs and citation records without replacing existing lectures."
+  }
+}

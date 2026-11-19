@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "lecture_id": "007000",
+  "transcript": "007000-living-through-civil-war.md",
+  "description": "Reconstructs daily wartime experience through military camps, medical work, civilian households, enslaved labor, Black soldiering, Susie King Taylor and Harriet Tubman.",
+  "tags": [
+    "American Civil War",
+    "Social history",
+    "Military medicine",
+    "Civil War hospitals",
+    "Women in the Civil War",
+    "Susie King Taylor",
+    "Harriet Tubman",
+    "United States Colored Troops",
+    "Black emancipation",
+    "Civilian life",
+    "Refugees",
+    "Wartime memory"
+  ],
+  "tag_paths": [
+    [
+      "History",
+      "United States history",
+      "American Civil War",
+      "Social history"
+    ],
+    [
+      "History",
+      "Military history",
+      "Medical and civilian history"
+    ],
+    [
+      "Place: North America",
+      "Place: United States",
+      "Place: South Carolina"
+    ]
+  ],
+  "places": [
+    "Georgia",
+    "South Carolina",
+    "Union camps",
+    "Virginia",
+    "Washington DC",
+    "Beaufort"
+  ],
+  "periods": [
+    "Antebellum United States, Civil War and Reconstruction"
+  ],
+  "chronology": {
+    "period": {
+      "start": 1861,
+      "end": 1865,
+      "label": "1861–1865 CE (events covered)",
+      "basis": "historical period treated in narration",
+      "source_ids": [
+        "cw-nps-taylor",
+        "cw-nps-tubman",
+        "cw-nlm-medicine"
+      ]
+    }
+  },
+  "related_resources": [
+    {
+      "source_id": "cw-nps-taylor",
+      "reason": "Taylor's teaching, nursing and experience with Black soldiers."
+    },
+    {
+      "source_id": "cw-nps-tubman",
+      "reason": "Tubman's wartime scouting, intelligence and freedom work."
+    },
+    {
+      "source_id": "cw-nlm-medicine",
+      "reason": "Medical caregiving and nursing in the Civil War."
+    },
+    {
+      "source_id": "cw-nps-black-soldiers",
+      "reason": "Black military service, rights claims and unequal treatment."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "american-civil-war-007000-01",
+      "anchor": "Consider a teenage girl named Susie King Taylor",
+      "kind": "historical_research",
+      "source_ids": [
+        "cw-nps-taylor"
+      ],
+      "source_locator": "cw-nps-taylor: Taylor's teaching, nursing and experience with Black soldiers.",
+      "audit_status": "source_recorded_and_anchor_checked"
+    },
+    {
+      "id": "american-civil-war-007000-02",
+      "anchor": "Harriet Tubman, already known for helping people escape slavery",
+      "kind": "historical_research",
+      "source_ids": [
+        "cw-nps-tubman"
+      ],
+      "source_locator": "cw-nps-tubman: Tubman's wartime scouting, intelligence and freedom work.",
+      "audit_status": "source_recorded_and_anchor_checked"
+    },
+    {
+      "id": "american-civil-war-007000-03",
+      "anchor": "regiment of Black soldiers in South Carolina",
+      "kind": "historical_research",
+      "source_ids": [
+        "cw-nps-black-soldiers"
+      ],
+      "source_locator": "cw-nps-black-soldiers: Black military service, rights claims and unequal treatment.",
+      "audit_status": "source_recorded_and_anchor_checked"
+    }
+  ],
+  "learning": {
+    "prerequisites": [],
+    "background": [
+      "General historical curiosity; people and institutions are introduced in the narration."
+    ],
+    "readiness_checks": [
+      "Why do civilian lives and disease belong in a military history of the war?",
+      "How did formerly enslaved people actively shape emancipation?",
+      "What did Black military service mean beyond the battlefield?"
+    ]
+  },
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Expanded standalone historical lecture narration, structured source notes and metadata."
+  }
+}

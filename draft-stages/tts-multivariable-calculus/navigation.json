@@ -19,7 +19,8 @@
         "variational-weak-formulations-bridge",
         "variational-compactness-direct-method-bridge",
         "mixed-inf-sup-stability-bridge",
-        "boundary-traces-elliptic-regularity-bridge"
+        "boundary-traces-elliptic-regularity-bridge",
+        "derivatives-and-inference-bridges"
       ],
       "tags": [
         "Calculus",
@@ -474,6 +475,37 @@
       ],
       "assumed_background": [
         "Ordinary stationary points and saddle points, first variations, Hilbert-space norms, weak solutions and weak versus strong convergence. The first lecture revisits these ideas from scalar examples before the general theorem."
+      ]
+    },
+    {
+      "id": "derivatives-and-inference-bridges",
+      "title": "Multivariable Calculus · From Differentials to Uncertainty and Adjoints",
+      "role": "deep_dive",
+      "parent": "survey",
+      "summary": "Three connected bridges after the derivative primer: metric gradients, covariance/error propagation, and reverse-mode/adjoint sensitivity.",
+      "lectures": [
+        "067000",
+        "071000",
+        "072000",
+        "073000"
+      ],
+      "preparation_collections": [
+        "linear-algebra:survey",
+        "probability-measure:worked-probability-monte-carlo"
+      ],
+      "related_collections": [
+        "multivariable-calculus:nonlinear-least-squares-bridge",
+        "optimization-duality:curvature-and-conditioning"
+      ],
+      "tags": [
+        "Jacobian",
+        "Gradient",
+        "Duality",
+        "Uncertainty",
+        "Automatic differentiation"
+      ],
+      "assumed_background": [
+        "Multivariable derivatives, matrix multiplication, and covariance; each bridge develops its additional definitions from concrete examples."
       ]
     }
   ]

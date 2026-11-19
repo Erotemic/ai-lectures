@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "lecture_id": "003000",
+  "transcript": "003000-armies-and-the-meaning-of-union.md",
+  "description": "Explains the war’s first campaigns in both theaters, military mobilization, slavery and refugees behind Union lines, congressional measures and the preliminary emancipation decision after Antietam.",
+  "tags": [
+    "First Bull Run",
+    "Fort Donelson",
+    "Battle of Shiloh",
+    "Union blockade",
+    "Contraband camps",
+    "Antietam",
+    "Preliminary Emancipation Proclamation",
+    "Army of the Potomac"
+  ],
+  "tag_paths": [
+    [
+      "History",
+      "United States history",
+      "American Civil War",
+      "Union war effort"
+    ],
+    [
+      "History",
+      "United States history",
+      "American Civil War",
+      "Emancipation"
+    ],
+    [
+      "Place: North America",
+      "Place: United States",
+      "Place: Virginia"
+    ]
+  ],
+  "places": [
+    "Virginia",
+    "Manassas",
+    "Maryland",
+    "Tennessee",
+    "Louisiana",
+    "Mississippi River",
+    "Washington, D.C."
+  ],
+  "periods": [
+    "Antebellum United States, Civil War and Reconstruction"
+  ],
+  "chronology": {
+    "period": {
+      "start": 1861,
+      "end": 1862,
+      "label": "1861–1862 CE (events covered)",
+      "basis": "historical period treated in narration",
+      "source_ids": [
+        "cw-nps-overview",
+        "cw-loc-overview"
+      ]
+    }
+  },
+  "related_resources": [
+    {
+      "source_id": "cw-nps-overview",
+      "reason": "War origins, slavery, national change and political consequences."
+    },
+    {
+      "source_id": "cw-loc-overview",
+      "reason": "Slavery and sectional crisis; Union, Confederacy, wartime change and Reconstruction."
+    },
+    {
+      "source_id": "cw-nara-eman",
+      "reason": "Preliminary and final proclamations, wartime limits, and authorization of Black enlistment."
+    },
+    {
+      "source_id": "cw-nara-milestones",
+      "reason": "US Colored Troops order; Appomattox surrender; Thirteenth and Fourteenth Amendments."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "american-civil-war-003000-01",
+      "anchor": "In July 1861 people traveled from Washington",
+      "kind": "historical_research",
+      "source_ids": [
+        "cw-nps-overview"
+      ],
+      "source_locator": "cw-nps-overview: War origins, slavery, national change and political consequences.",
+      "audit_status": "source_recorded_and_anchor_checked"
+    },
+    {
+      "id": "american-civil-war-003000-02",
+      "anchor": "In April 1862 federal forces captured New Orleans",
+      "kind": "historical_research",
+      "source_ids": [
+        "cw-loc-overview"
+      ],
+      "source_locator": "cw-loc-overview: Slavery and sectional crisis; Union, Confederacy, wartime change and Reconstruction.",
+      "audit_status": "source_recorded_and_anchor_checked"
+    },
+    {
+      "id": "american-civil-war-003000-03",
+      "anchor": "In late summer 1862 Confederate victories brought Lee",
+      "kind": "historical_research",
+      "source_ids": [
+        "cw-nara-eman"
+      ],
+      "source_locator": "cw-nara-eman: Preliminary and final proclamations, wartime limits, and authorization of Black enlistment.",
+      "audit_status": "source_recorded_and_anchor_checked"
+    },
+    {
+      "id": "american-civil-war-003000-04",
+      "anchor": "On September 22 he issued a preliminary proclamation",
+      "kind": "historical_research",
+      "source_ids": [
+        "cw-nara-eman"
+      ],
+      "source_locator": "cw-nara-eman: Preliminary and final proclamations, wartime limits, and authorization of Black enlistment.",
+      "audit_status": "source_recorded_and_anchor_checked"
+    }
+  ],
+  "learning": {
+    "prerequisites": [],
+    "background": [
+      "General historical curiosity; key institutions and people are explained in the narration."
+    ],
+    "readiness_checks": [
+      "Why was control of the Mississippi as consequential as the march on Richmond?",
+      "What was the significance of people escaping slavery into Union lines?",
+      "Why was the preliminary emancipation measure announced after Antietam?"
+    ]
+  },
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Expanded standalone historical lecture narration, structured source notes and metadata."
+  }
+}

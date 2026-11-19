@@ -23,7 +23,8 @@
     "worked-experimental-design",
     "worked-regression-prediction",
     "continuous-time-processes",
-    "worked-multivariate-statistics"
+    "worked-multivariate-statistics",
+    "prediction-as-projection"
   ],
   "lectures": [
     {
@@ -629,6 +630,33 @@
           "Graph theory",
           "Spectral graph theory",
           "Graph Laplacian"
+        ]
+      ]
+    },
+    {
+      "id": "036000",
+      "title": "Conditional Expectation as Projection: Why Regression Is Only One Kind of Prediction",
+      "section": "prediction-as-projection",
+      "file": "036000-conditional-expectation-as-projection.md",
+      "spoken_words": 2004,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 13.8,
+      "description": "Derives an exact U-shaped example where the linear slope vanishes although conditional prediction saves mean squared error.",
+      "tags": [
+        "Conditional expectation",
+        "Regression",
+        "Hilbert spaces",
+        "Orthogonal projection",
+        "Mean squared error",
+        "Nonlinear prediction",
+        "Statistical learning"
+      ],
+      "tag_paths": [
+        [
+          "Mathematics",
+          "Probability Measure",
+          "Mathematical connections",
+          "Conditional expectation"
         ]
       ]
     }

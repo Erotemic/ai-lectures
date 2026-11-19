@@ -15,7 +15,8 @@
     "discrete-optimization",
     "optimization-sensitivity",
     "monotone-splitting",
-    "hsd-embedding"
+    "hsd-embedding",
+    "curvature-and-conditioning"
   ],
   "lectures": [
     {
@@ -197,6 +198,33 @@
         "Infeasibility certificates",
         "Facial reduction",
         "Exact arithmetic"
+      ]
+    },
+    {
+      "id": "017000",
+      "title": "Curvature, Conditioning, and Regularization: Why Optimization Speed Is Geometric",
+      "section": "curvature-and-conditioning",
+      "file": "017000-curvature-conditioning-and-regularization.md",
+      "spoken_words": 1965,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 13.6,
+      "description": "Derives gradient-descent rates from Hessian eigenvalues, gives a strong-convexity error certificate and distinguishes ridge from preconditioning.",
+      "tags": [
+        "Strong convexity",
+        "Smoothness",
+        "Gradient descent",
+        "Condition number",
+        "Preconditioning",
+        "Ridge regression",
+        "Optimization certificates"
+      ],
+      "tag_paths": [
+        [
+          "Mathematics",
+          "Optimization Duality",
+          "Mathematical connections",
+          "Strong convexity"
+        ]
       ]
     }
   ],

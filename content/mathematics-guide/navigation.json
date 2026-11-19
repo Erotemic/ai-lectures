@@ -25,7 +25,10 @@
             "uncertainty-and-statistical-geometry",
             "random-walks-to-diffusion",
             "fourier-connections",
-            "from-model-to-verified-prediction"
+            "from-model-to-verified-prediction",
+            "from-derivatives-to-optimization",
+            "least-squares-to-conditional-prediction",
+            "from-measurement-to-uncertainty"
           ]
         },
         {
@@ -659,6 +662,155 @@
         "Communication",
         "KL divergence",
         "Likelihood"
+      ]
+    },
+    {
+      "id": "from-derivatives-to-optimization",
+      "title": "Derivatives, Gradients, and Adjoint Computation",
+      "role": "deep_dive",
+      "parent": "start",
+      "summary": "See how the derivative becomes a covector, how geometry chooses its gradient, and why pulling sensitivities backward makes a large model differentiable.",
+      "assumed_background": [
+        "Elementary derivatives, dot products, two-by-two matrices; the early stages introduce each mathematical object."
+      ],
+      "chapters": [
+        {
+          "title": "First-order change as a linear map",
+          "lectures": [
+            "analysis:005000",
+            "multivariable-calculus:067000",
+            "linear-algebra:012000"
+          ],
+          "collection": "multivariable-calculus:worked-multivariable-foundations-bridge"
+        },
+        {
+          "title": "From differential to metric steepest direction",
+          "lectures": [
+            "multivariable-calculus:071000",
+            "optimization-duality:017000"
+          ],
+          "collection": "multivariable-calculus:derivatives-and-inference-bridges"
+        },
+        {
+          "title": "Transpose the chain rule and solve adjoints",
+          "lectures": [
+            "multivariable-calculus:073000",
+            "numerical-analysis:016000"
+          ],
+          "collection": "multivariable-calculus:derivatives-and-inference-bridges"
+        }
+      ],
+      "related_collections": [
+        "linear-algebra:survey",
+        "optimization-duality:curvature-and-conditioning",
+        "multivariable-calculus:constrained-newton-sensitivity-bridge"
+      ],
+      "tags": [
+        "Differentials",
+        "Gradients",
+        "Duality",
+        "Optimization",
+        "Automatic differentiation"
+      ]
+    },
+    {
+      "id": "least-squares-to-conditional-prediction",
+      "title": "Least Squares, Inference, and Conditional Prediction",
+      "role": "deep_dive",
+      "parent": "start",
+      "summary": "One fit viewed as a projection, a minimizer, and a random estimator; then a counterexample that distinguishes regression lines from conditional expectations.",
+      "assumed_background": [
+        "Basic vectors and probability; regression and covariance are developed from calculations."
+      ],
+      "chapters": [
+        {
+          "title": "Projection geometry and numerical reliability",
+          "lectures": [
+            "linear-algebra:006000",
+            "linear-algebra:021000",
+            "linear-algebra:028000"
+          ],
+          "collection": "linear-algebra:least-squares-statistical-connections"
+        },
+        {
+          "title": "Regression and uncertainty assumptions",
+          "lectures": [
+            "probability-measure:026000",
+            "probability-measure:029000",
+            "probability-measure:030000"
+          ],
+          "collection": "probability-measure:multivariate-statistics"
+        },
+        {
+          "title": "The best prediction depends on information and loss",
+          "lectures": [
+            "probability-measure:005000",
+            "probability-measure:036000"
+          ],
+          "collection": "probability-measure:prediction-as-projection"
+        }
+      ],
+      "related_collections": [
+        "probability-measure:worked-regression-prediction",
+        "information-theory:information-and-statistics",
+        "optimization-duality:curvature-and-conditioning"
+      ],
+      "tags": [
+        "Least squares",
+        "Projection",
+        "Regression",
+        "Conditional expectation",
+        "Statistical inference"
+      ]
+    },
+    {
+      "id": "from-measurement-to-uncertainty",
+      "title": "From Measurements to Reliable Uncertainty Estimates",
+      "role": "deep_dive",
+      "parent": "start",
+      "summary": "Build a chain from measured quantities to nonlinear outputs, including correlated noise, Jacobian propagation, approximation error and ill-conditioned parameter recovery.",
+      "assumed_background": [
+        "Elementary differentiation, probability and matrices; stages identify when stronger assumptions enter."
+      ],
+      "chapters": [
+        {
+          "title": "Build and differentiate a measurement model",
+          "lectures": [
+            "functions-and-modeling:004000",
+            "multivariable-calculus:067000"
+          ],
+          "collection": "functions-and-modeling:mathematical-models"
+        },
+        {
+          "title": "Covariance and nonlinear propagation",
+          "lectures": [
+            "probability-measure:029000",
+            "multivariable-calculus:072000"
+          ],
+          "collection": "multivariable-calculus:derivatives-and-inference-bridges"
+        },
+        {
+          "title": "Distinguish uncertainty from numerical error",
+          "lectures": [
+            "numerical-analysis:003000",
+            "multivariable-calculus:025000",
+            "probability-measure:028000"
+          ],
+          "collection": "multivariable-calculus:nonlinear-least-squares-bridge"
+        }
+      ],
+      "related_collections": [
+        "from-model-to-verified-prediction",
+        "probability-measure:multivariate-statistics",
+        "linear-algebra:least-squares-statistical-connections"
+      ],
+      "tags": [
+        "Modeling",
+        "Uncertainty",
+        "Covariance",
+        "Sensitivity",
+        "Conditioning",
+        "Prediction"
       ]
     }
   ]

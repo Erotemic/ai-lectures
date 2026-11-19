@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "lecture_id": "017000",
+  "transcript": "017000-curvature-conditioning-and-regularization.md",
+  "description": "Derives gradient-descent rates from Hessian eigenvalues, gives a strong-convexity error certificate and distinguishes ridge from preconditioning.",
+  "tags": [
+    "Strong convexity",
+    "Smoothness",
+    "Gradient descent",
+    "Condition number",
+    "Preconditioning",
+    "Ridge regression",
+    "Optimization certificates"
+  ],
+  "tag_paths": [
+    [
+      "Mathematics",
+      "Optimization Duality",
+      "Mathematical connections",
+      "Strong convexity"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "od-boyd",
+      "reason": "Standard reference for the stated theorem, definitions or numerical method; worked narration and examples are original."
+    },
+    {
+      "source_id": "od-stanford-course",
+      "reason": "Standard reference for the stated theorem, definitions or numerical method; worked narration and examples are original."
+    },
+    {
+      "source_id": "od-parikh-boyd",
+      "reason": "Standard reference for the stated theorem, definitions or numerical method; worked narration and examples are original."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original spoken lecture, worked mathematical companion, exercises and connections across existing tracks."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "linear-algebra:006000",
+        "reason": "Eigenvalues, quadratic forms and inner products."
+      },
+      {
+        "lecture_id": "multivariable-calculus:067000",
+        "reason": "Gradients and linearizations."
+      }
+    ],
+    "recommended": [
+      {
+        "lecture_id": "optimization-duality:005000",
+        "reason": "General first-order optimization."
+      },
+      {
+        "lecture_id": "multivariable-calculus:071000",
+        "reason": "Metric gradients and coordinate scaling."
+      }
+    ],
+    "background": [
+      "Elementary algebra, derivatives, vectors and probability as introduced by the stated teaching preparation."
+    ],
+    "readiness_checks": [
+      "Determine the valid fixed step-size interval for a diagonal quadratic.",
+      "Prove the gradient-based objective gap certificate and distinguish ridge from preconditioning."
+    ]
+  },
+  "claim_evidence": [
+    {
+      "id": "op-017000-c001",
+      "anchor": "The ratio of the largest Hessian eigenvalue to the smallest is one hundred.",
+      "source_ids": [
+        "od-boyd"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Narration and mathematical companion",
+      "evidence_detail": "Original worked calculation or derivation where indicated; standard theorem and terminology checked against listed sources."
+    },
+    {
+      "id": "op-017000-c002",
+      "anchor": "Each one-over-L step reduces the objective gap by at least a mu-over-L fraction of its present size.",
+      "source_ids": [
+        "od-boyd",
+        "od-stanford-course"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Narration and mathematical companion",
+      "evidence_detail": "Original worked calculation or derivation where indicated; standard theorem and terminology checked against listed sources."
+    },
+    {
+      "id": "op-017000-c003",
+      "anchor": "Ridge is not merely a preconditioner.",
+      "source_ids": [
+        "od-boyd"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Narration and mathematical companion",
+      "evidence_detail": "Original worked calculation or derivation where indicated; standard theorem and terminology checked against listed sources."
+    }
+  ],
+  "content_recovery": {
+    "date": "2026-11-18",
+    "archive": "math-lectures-derivatives-projections-uncertainty-2026-11-18.zip",
+    "archive_sha256": "e3864885c4ccdadf34ee8ea3cd5de386cd0bf7ed1d8c5f7c9a622ccfb78bcd03",
+    "original_path": "draft-stages/tts-optimization-duality/017000-curvature-conditioning-and-regularization.md",
+    "original_lecture_id": "017000",
+    "original_source_sha256": "bccc99f206c860f8f47c000bc0cf6a0bf8446195af706d258ecdcf78527406a7",
+    "integration_model": "GPT-6 (Codex; weights/config variant unknown)",
+    "scope": "Recover supplied source and metadata; preserve spoken prose. Remap colliding playback IDs and citation records without replacing existing lectures."
+  }
+}

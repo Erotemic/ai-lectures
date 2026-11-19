@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "lecture_id": "001000",
+  "transcript": "001000-the-empire-after-victory.md",
+  "description": "Explains why Britain’s triumph in 1763 produced taxation disputes, coordinated resistance, imperial frontier conflict and the First Continental Congress instead of imperial stability.",
+  "tags": [
+    "Seven Years War",
+    "British Empire",
+    "Stamp Act",
+    "Townshend Acts",
+    "Boston Tea Party",
+    "Colonial resistance",
+    "Indigenous sovereignty",
+    "Political protest"
+  ],
+  "tag_paths": [
+    [
+      "History",
+      "United States history",
+      "American Revolution",
+      "Imperial crisis"
+    ],
+    [
+      "Place: North America",
+      "Place: United States",
+      "Place: Massachusetts",
+      "Place: Boston"
+    ]
+  ],
+  "places": [
+    "British North America",
+    "Massachusetts",
+    "Boston",
+    "Virginia",
+    "Ohio River Valley"
+  ],
+  "periods": [
+    "American Revolution and early republic"
+  ],
+  "chronology": {
+    "period": {
+      "start": 1763,
+      "end": 1774,
+      "label": "1763–1774 CE (events covered)",
+      "basis": "historical period treated in narration",
+      "source_ids": [
+        "rev-loc-overview",
+        "rev-nps-timeline"
+      ]
+    }
+  },
+  "related_resources": [
+    {
+      "source_id": "rev-loc-overview",
+      "reason": "Seven Years War aftermath, postwar British reforms and imperial relations."
+    },
+    {
+      "source_id": "rev-nps-timeline",
+      "reason": "Detailed chronology 1763–1783; Stamp Act, Coercive Acts, Saratoga, French support, Treaty of Paris."
+    },
+    {
+      "source_id": "rev-nps-women",
+      "reason": "Nonimportation and women’s public political participation before April 1775."
+    },
+    {
+      "source_id": "rev-loc-primary",
+      "reason": "Printed arguments, maps and manuscripts; contextualizes independence and the new republic."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "american-revolution-001000-01",
+      "anchor": "The Royal Proclamation of 1763 established a boundary",
+      "kind": "historical_research",
+      "source_ids": [
+        "rev-loc-overview",
+        "rev-nps-timeline"
+      ],
+      "source_locator": "rev-loc-overview: Seven Years War aftermath, postwar British reforms and imperial relations.; rev-nps-timeline: Detailed chronology 1763–1783; Stamp Act, Coercive Acts, Saratoga, French support, Treaty of Paris.",
+      "audit_status": "source_recorded_and_anchor_checked"
+    },
+    {
+      "id": "american-revolution-001000-02",
+      "anchor": "Then came the Stamp Act of 1765",
+      "kind": "historical_research",
+      "source_ids": [
+        "rev-nps-timeline"
+      ],
+      "source_locator": "rev-nps-timeline: Detailed chronology 1763–1783; Stamp Act, Coercive Acts, Saratoga, French support, Treaty of Paris.",
+      "audit_status": "source_recorded_and_anchor_checked"
+    },
+    {
+      "id": "american-revolution-001000-03",
+      "anchor": "Women organized and sustained boycotts",
+      "kind": "historical_research",
+      "source_ids": [
+        "rev-nps-women"
+      ],
+      "source_locator": "rev-nps-women: Nonimportation and women’s public political participation before April 1775.",
+      "audit_status": "source_recorded_and_anchor_checked"
+    },
+    {
+      "id": "american-revolution-001000-04",
+      "anchor": "In Boston, on the night of December 16, 1773",
+      "kind": "historical_research",
+      "source_ids": [
+        "rev-nps-timeline"
+      ],
+      "source_locator": "rev-nps-timeline: Detailed chronology 1763–1783; Stamp Act, Coercive Acts, Saratoga, French support, Treaty of Paris.",
+      "audit_status": "source_recorded_and_anchor_checked"
+    },
+    {
+      "id": "american-revolution-001000-05",
+      "anchor": "The First Continental Congress met in Philadelphia",
+      "kind": "historical_research",
+      "source_ids": [
+        "rev-nps-timeline"
+      ],
+      "source_locator": "rev-nps-timeline: Detailed chronology 1763–1783; Stamp Act, Coercive Acts, Saratoga, French support, Treaty of Paris.",
+      "audit_status": "source_recorded_and_anchor_checked"
+    }
+  ],
+  "learning": {
+    "prerequisites": [],
+    "background": [
+      "General historical curiosity; key institutions and people are explained in the narration."
+    ],
+    "readiness_checks": [
+      "Why did the imperial government and colonial assemblies differ over taxation?",
+      "Why did western land policy create a different crisis for Indigenous nations and settlers?",
+      "How did boycotts and committees become political institutions?"
+    ]
+  },
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Expanded standalone historical lecture narration, structured source notes and metadata."
+  }
+}

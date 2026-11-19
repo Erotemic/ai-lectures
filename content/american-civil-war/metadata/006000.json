@@ -1,0 +1,132 @@
+{
+  "schema_version": 1,
+  "lecture_id": "006000",
+  "transcript": "006000-abraham-lincoln-making-a-war-for-freedom.md",
+  "description": "A substantial portrait of Lincoln's rise from frontier labor and law to national antislavery politics, wartime constitutional dilemmas, emancipation and assassination.",
+  "tags": [
+    "Abraham Lincoln",
+    "Lincoln-Douglas debates",
+    "Republican Party",
+    "Presidential biography",
+    "Emancipation Proclamation",
+    "Civil liberties",
+    "Gettysburg Address",
+    "1864 election",
+    "Second Inaugural Address",
+    "Slavery",
+    "Union"
+  ],
+  "tag_paths": [
+    [
+      "History",
+      "United States history",
+      "American Civil War",
+      "Abraham Lincoln"
+    ],
+    [
+      "History",
+      "Biography",
+      "Political leaders"
+    ],
+    [
+      "Place: North America",
+      "Place: United States",
+      "Place: Illinois"
+    ]
+  ],
+  "places": [
+    "Kentucky",
+    "Indiana",
+    "Illinois",
+    "Springfield",
+    "Washington DC",
+    "Gettysburg",
+    "Richmond"
+  ],
+  "periods": [
+    "Antebellum United States, Civil War and Reconstruction"
+  ],
+  "chronology": {
+    "period": {
+      "start": 1809,
+      "end": 1865,
+      "label": "1809–1865 CE (events covered)",
+      "basis": "historical period treated in narration",
+      "source_ids": [
+        "cw-loc-lincoln-papers",
+        "cw-loc-lincoln-debates",
+        "cw-nps-lincoln"
+      ]
+    }
+  },
+  "related_resources": [
+    {
+      "source_id": "cw-loc-lincoln-papers",
+      "reason": "Lincoln's life, politics and wartime leadership."
+    },
+    {
+      "source_id": "cw-loc-lincoln-debates",
+      "reason": "Lincoln-Douglas debates, antislavery positions and presidential career."
+    },
+    {
+      "source_id": "cw-nps-lincoln",
+      "reason": "Lincoln biography and political development."
+    },
+    {
+      "source_id": "cw-nps-lincoln-inaugural",
+      "reason": "Lincoln's second inaugural, March 1865."
+    },
+    {
+      "source_id": "cw-loc-emancipation",
+      "reason": "Presidential proclamation, limits and historical context."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "american-civil-war-006000-01",
+      "anchor": "In 1858 Lincoln contested a Senate seat against Stephen Douglas",
+      "kind": "historical_research",
+      "source_ids": [
+        "cw-loc-lincoln-debates"
+      ],
+      "source_locator": "cw-loc-lincoln-debates: Lincoln-Douglas debates, antislavery positions and presidential career.",
+      "audit_status": "source_recorded_and_anchor_checked"
+    },
+    {
+      "id": "american-civil-war-006000-02",
+      "anchor": "Lincoln took office in March 1861",
+      "kind": "historical_research",
+      "source_ids": [
+        "cw-loc-lincoln-papers"
+      ],
+      "source_locator": "cw-loc-lincoln-papers: Lincoln's life, politics and wartime leadership.",
+      "audit_status": "source_recorded_and_anchor_checked"
+    },
+    {
+      "id": "american-civil-war-006000-03",
+      "anchor": "Lincoln's second inaugural address in March 1865",
+      "kind": "historical_research",
+      "source_ids": [
+        "cw-nps-lincoln-inaugural"
+      ],
+      "source_locator": "cw-nps-lincoln-inaugural: Lincoln's second inaugural, March 1865.",
+      "audit_status": "source_recorded_and_anchor_checked"
+    }
+  ],
+  "learning": {
+    "prerequisites": [],
+    "background": [
+      "General historical curiosity; people and institutions are introduced in the narration."
+    ],
+    "readiness_checks": [
+      "How did Lincoln's opposition to expansion of slavery differ from immediate abolitionism?",
+      "Why did his government move toward emancipation in stages?",
+      "How did presidential war powers and democratic accountability clash?"
+    ]
+  },
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Expanded standalone historical lecture narration, structured source notes and metadata."
+  }
+}

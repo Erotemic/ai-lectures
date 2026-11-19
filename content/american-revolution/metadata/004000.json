@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "lecture_id": "004000",
+  "transcript": "004000-george-washington-the-life-and-the-republic.md",
+  "description": "A full portrait of Washington from his early military failures and family life to the Revolution, presidency, voluntary retirement, Native policy, Ona Judge, and slavery at Mount Vernon.",
+  "tags": [
+    "George Washington",
+    "Presidential biography",
+    "Virginia",
+    "French and Indian War",
+    "Mount Vernon",
+    "Martha Washington",
+    "Continental Army",
+    "Newburgh Conspiracy",
+    "American presidency",
+    "Ona Judge",
+    "Slavery",
+    "Indigenous sovereignty",
+    "Founding era"
+  ],
+  "tag_paths": [
+    [
+      "History",
+      "United States history",
+      "American Revolution",
+      "George Washington"
+    ],
+    [
+      "History",
+      "Biography",
+      "Political and military leaders"
+    ],
+    [
+      "Place: North America",
+      "Place: United States",
+      "Place: Virginia"
+    ]
+  ],
+  "places": [
+    "Virginia",
+    "Mount Vernon",
+    "Ohio River Valley",
+    "New York",
+    "Philadelphia",
+    "Annapolis",
+    "Pennsylvania"
+  ],
+  "periods": [
+    "American Revolution and early republic"
+  ],
+  "chronology": {
+    "period": {
+      "start": 1732,
+      "end": 1799,
+      "label": "1732–1799 CE (events covered)",
+      "basis": "historical period treated in narration",
+      "source_ids": [
+        "rev-mv-bio",
+        "rev-mv-war",
+        "rev-mv-family"
+      ]
+    }
+  },
+  "related_resources": [
+    {
+      "source_id": "rev-mv-bio",
+      "reason": "Life, family, commander and president."
+    },
+    {
+      "source_id": "rev-mv-war",
+      "reason": "Ohio Country expedition, Fort Necessity and Braddock."
+    },
+    {
+      "source_id": "rev-mv-family",
+      "reason": "Washington marriage, stepchildren, Custis estate and family life."
+    },
+    {
+      "source_id": "rev-mv-newburgh",
+      "reason": "Unpaid officers and Washington's intervention in 1783."
+    },
+    {
+      "source_id": "rev-mv-ona",
+      "reason": "Judge's escape, Washington's efforts to recover her, freedom in New Hampshire."
+    },
+    {
+      "source_id": "rev-mv-slavery",
+      "reason": "Slavery and labor at Mount Vernon; enslaved population and ownership distinctions."
+    },
+    {
+      "source_id": "rev-mv-will",
+      "reason": "Specific terms, legal limits and timing of manumissions."
+    },
+    {
+      "source_id": "rev-loc-washington",
+      "reason": "Washington's early life and military career chronology."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "american-revolution-004000-01",
+      "anchor": "In May 1796, a young woman named Ona Judge escaped",
+      "kind": "historical_research",
+      "source_ids": [
+        "rev-mv-ona"
+      ],
+      "source_locator": "rev-mv-ona: Judge's escape, Washington's efforts to recover her, freedom in New Hampshire.",
+      "audit_status": "source_recorded_and_anchor_checked"
+    },
+    {
+      "id": "american-revolution-004000-02",
+      "anchor": "In January 1759 Washington married Martha Dandridge Custis",
+      "kind": "historical_research",
+      "source_ids": [
+        "rev-mv-family"
+      ],
+      "source_locator": "rev-mv-family: Washington marriage, stepchildren, Custis estate and family life.",
+      "audit_status": "source_recorded_and_anchor_checked"
+    },
+    {
+      "id": "american-revolution-004000-03",
+      "anchor": "In December 1783 Washington resigned his commission",
+      "kind": "historical_research",
+      "source_ids": [
+        "rev-mv-newburgh"
+      ],
+      "source_locator": "rev-mv-newburgh: Unpaid officers and Washington's intervention in 1783.",
+      "audit_status": "source_recorded_and_anchor_checked"
+    },
+    {
+      "id": "american-revolution-004000-04",
+      "anchor": "In 1799, 317 enslaved people lived at Mount Vernon",
+      "kind": "historical_research",
+      "source_ids": [
+        "rev-mv-slavery"
+      ],
+      "source_locator": "rev-mv-slavery: Slavery and labor at Mount Vernon; enslaved population and ownership distinctions.",
+      "audit_status": "source_recorded_and_anchor_checked"
+    }
+  ],
+  "learning": {
+    "prerequisites": [],
+    "background": [
+      "General historical curiosity; people and institutions are introduced in the narration."
+    ],
+    "readiness_checks": [
+      "How did Washington's experiences as a provincial officer shape his later command?",
+      "Why were surrendering his commission and retiring after two terms politically important?",
+      "How do Ona Judge's experience and Washington's will complicate the history of his public commitments?"
+    ]
+  },
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Expanded standalone historical lecture narration, structured source notes and metadata."
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "lecture_id": "071000",
+  "transcript": "071000-what-a-gradient-depends-on.md",
+  "description": "Distinguishes the coordinate-independent differential from a metric-dependent gradient and derives steepest-descent directions under rescaling.",
+  "tags": [
+    "Multivariable calculus",
+    "Differentials",
+    "Dual spaces",
+    "Gradients",
+    "Metric geometry",
+    "Steepest descent",
+    "Preconditioning"
+  ],
+  "tag_paths": [
+    [
+      "Mathematics",
+      "Multivariable Calculus",
+      "Mathematical connections",
+      "Multivariable calculus"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "mv-openstax-v3",
+      "reason": "Standard reference for the stated theorem, definitions or numerical method; worked narration and examples are original."
+    },
+    {
+      "source_id": "mv-mit-1802sc",
+      "reason": "Standard reference for the stated theorem, definitions or numerical method; worked narration and examples are original."
+    },
+    {
+      "source_id": "mv-boyd-convex",
+      "reason": "Standard reference for the stated theorem, definitions or numerical method; worked narration and examples are original."
+    },
+    {
+      "source_id": "mv-axler-fourth",
+      "reason": "Standard reference for the stated theorem, definitions or numerical method; worked narration and examples are original."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original spoken lecture, worked mathematical companion, exercises and connections across existing tracks."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "multivariable-calculus:067000",
+        "reason": "Total derivative as a linear map, Jacobian and chain rule."
+      },
+      {
+        "lecture_id": "linear-algebra:001000",
+        "reason": "Vectors, matrices and inner products."
+      }
+    ],
+    "recommended": [
+      {
+        "lecture_id": "linear-algebra:012000",
+        "reason": "A deeper introduction to covectors and duality."
+      },
+      {
+        "lecture_id": "optimization-duality:017000",
+        "reason": "How the metric governs optimization convergence."
+      }
+    ],
+    "background": [
+      "Elementary algebra, derivatives, vectors and probability as introduced by the stated teaching preparation."
+    ],
+    "readiness_checks": [
+      "Compute a differential and its gradient in two different positive-definite metrics.",
+      "Explain why a bare Euclidean gradient changes meaning under a unit conversion."
+    ]
+  },
+  "claim_evidence": [
+    {
+      "id": "mu-071000-c001",
+      "anchor": "The differential is an object in the dual space of the tangent vectors.",
+      "source_ids": [
+        "mv-axler-fourth",
+        "mv-mit-1802sc"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Narration and mathematical companion",
+      "evidence_detail": "Original worked calculation or derivation where indicated; standard theorem and terminology checked against listed sources."
+    },
+    {
+      "id": "mu-071000-c002",
+      "anchor": "the direction of steepest ascent is the metric gradient normalized to unit metric length.",
+      "source_ids": [
+        "mv-boyd-convex"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Narration and mathematical companion",
+      "evidence_detail": "Original worked calculation or derivation where indicated; standard theorem and terminology checked against listed sources."
+    }
+  ],
+  "content_recovery": {
+    "date": "2026-11-18",
+    "archive": "math-lectures-derivatives-projections-uncertainty-2026-11-18.zip",
+    "archive_sha256": "e3864885c4ccdadf34ee8ea3cd5de386cd0bf7ed1d8c5f7c9a622ccfb78bcd03",
+    "original_path": "draft-stages/tts-multivariable-calculus/071000-what-a-gradient-depends-on.md",
+    "original_lecture_id": "071000",
+    "original_source_sha256": "57a21d4bb49aea2fff61e42441202199343ec1d410be975192387ab4c2457b53",
+    "integration_model": "GPT-6 (Codex; weights/config variant unknown)",
+    "scope": "Recover supplied source and metadata; preserve spoken prose. Remap colliding playback IDs and citation records without replacing existing lectures."
+  }
+}

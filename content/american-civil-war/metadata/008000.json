@@ -1,0 +1,152 @@
+{
+  "schema_version": 1,
+  "lecture_id": "008000",
+  "transcript": "008000-freedom-after-the-surrender.md",
+  "description": "Explores freedpeople’s family, school and land struggles, Johnson and congressional Reconstruction, Black voting and officeholding, white supremacist terror, and federal retreat after 1876.",
+  "tags": [
+    "Reconstruction",
+    "Freedmens Bureau",
+    "Black Codes",
+    "Fourteenth Amendment",
+    "Fifteenth Amendment",
+    "Black political power",
+    "Sharecropping",
+    "Ku Klux Klan",
+    "Election of 1876"
+  ],
+  "tag_paths": [
+    [
+      "History",
+      "United States history",
+      "American Civil War",
+      "Reconstruction"
+    ],
+    [
+      "History",
+      "Political history",
+      "Civil rights and citizenship"
+    ],
+    [
+      "Place: North America",
+      "Place: United States",
+      "Place: South Carolina"
+    ]
+  ],
+  "places": [
+    "United States",
+    "South Carolina",
+    "Mississippi",
+    "Louisiana",
+    "Georgia",
+    "Washington, D.C."
+  ],
+  "periods": [
+    "Antebellum United States, Civil War and Reconstruction"
+  ],
+  "chronology": {
+    "period": {
+      "start": 1865,
+      "end": 1877,
+      "label": "1865–1877 CE (events covered)",
+      "basis": "historical period treated in narration",
+      "source_ids": [
+        "cw-loc-reconstruction",
+        "cw-loc-recon-rights"
+      ]
+    }
+  },
+  "related_resources": [
+    {
+      "source_id": "cw-loc-reconstruction",
+      "reason": "Freedmen schools, citizenship, Black political organizing, enforcement and retreat."
+    },
+    {
+      "source_id": "cw-loc-recon-rights",
+      "reason": "Freedmen’s Bureau, civil rights acts, military Reconstruction and voting."
+    },
+    {
+      "source_id": "cw-loc-recon-travails",
+      "reason": "Political resistance, Johnson and congressional Reconstruction, violence and federal retreat."
+    },
+    {
+      "source_id": "cw-loc-recon-guide",
+      "reason": "1865–1877 periodization, military districts and Reconstruction Amendments."
+    },
+    {
+      "source_id": "cw-nps-recon",
+      "reason": "Reconstruction Amendments and post-Reconstruction voting and civil rights suppression."
+    },
+    {
+      "source_id": "cw-loc-finalwar",
+      "reason": "Final campaigns, wartime Black Americans, Sherman’s Special Field Orders No. 15."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "american-civil-war-008000-01",
+      "anchor": "The Bureau of Refugees, Freedmen, and Abandoned Lands",
+      "kind": "historical_research",
+      "source_ids": [
+        "cw-loc-recon-rights"
+      ],
+      "source_locator": "cw-loc-recon-rights: Freedmen’s Bureau, civil rights acts, military Reconstruction and voting.",
+      "audit_status": "source_recorded_and_anchor_checked"
+    },
+    {
+      "id": "american-civil-war-008000-02",
+      "anchor": "The Fourteenth Amendment, ratified in 1868",
+      "kind": "historical_research",
+      "source_ids": [
+        "cw-nps-recon"
+      ],
+      "source_locator": "cw-nps-recon: Reconstruction Amendments and post-Reconstruction voting and civil rights suppression.",
+      "audit_status": "source_recorded_and_anchor_checked"
+    },
+    {
+      "id": "american-civil-war-008000-03",
+      "anchor": "The Fifteenth Amendment, ratified in 1870",
+      "kind": "historical_research",
+      "source_ids": [
+        "cw-nps-recon"
+      ],
+      "source_locator": "cw-nps-recon: Reconstruction Amendments and post-Reconstruction voting and civil rights suppression.",
+      "audit_status": "source_recorded_and_anchor_checked"
+    },
+    {
+      "id": "american-civil-war-008000-04",
+      "anchor": "organizations, including the Ku Klux Klan",
+      "kind": "historical_research",
+      "source_ids": [
+        "cw-nps-recon"
+      ],
+      "source_locator": "cw-nps-recon: Reconstruction Amendments and post-Reconstruction voting and civil rights suppression.",
+      "audit_status": "source_recorded_and_anchor_checked"
+    },
+    {
+      "id": "american-civil-war-008000-05",
+      "anchor": "The presidential election of 1876",
+      "kind": "historical_research",
+      "source_ids": [
+        "cw-loc-reconstruction"
+      ],
+      "source_locator": "cw-loc-reconstruction: Freedmen schools, citizenship, Black political organizing, enforcement and retreat.",
+      "audit_status": "source_recorded_and_anchor_checked"
+    }
+  ],
+  "learning": {
+    "prerequisites": [],
+    "background": [
+      "General historical curiosity; key institutions and people are explained in the narration."
+    ],
+    "readiness_checks": [
+      "Why did formerly enslaved families prioritize land, kinship and schools?",
+      "What did the Reconstruction Amendments promise, and what did they leave vulnerable?",
+      "Why is a single secret Compromise of 1877 an oversimplification?"
+    ]
+  },
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Expanded standalone historical lecture narration, structured source notes and metadata."
+  }
+}

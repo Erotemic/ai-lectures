@@ -49,3 +49,65 @@ discovery_metadata:
     - metadata/132000.json
     scope: Add the History of science and mathematics discovery tag to six new biographies; preserve narration,
       chronology, citations and original source-model attribution.
+transcript:
+  revisions:
+  - date: '2026-11-18'
+    models:
+    - GPT-6 (Codex; weights/config variant unknown)
+    sources:
+    - lecture: '162000'
+      manuscript: 162000-perelman.md
+      metadata: metadata/162000.json
+    - lecture: '163000'
+      manuscript: 163000-cardano.md
+      metadata: metadata/163000.json
+    - lecture: '164000'
+      manuscript: 164000-tartaglia.md
+      metadata: metadata/164000.json
+    - lecture: '165000'
+      manuscript: 165000-julia-robinson.md
+      metadata: metadata/165000.json
+    - lecture: '166000'
+      manuscript: 166000-darwin.md
+      metadata: metadata/166000.json
+    - lecture: '167000'
+      manuscript: 167000-einstein.md
+      metadata: metadata/167000.json
+    - lecture: '148000'
+      manuscript: 148000-chandrasekhar.md
+      metadata: metadata/148000.json
+    - lecture: '149000'
+      manuscript: 149000-hodgkin.md
+      metadata: metadata/149000.json
+    - lecture: '150000'
+      manuscript: 150000-bell-burnell.md
+      metadata: metadata/150000.json
+    - lecture: '151000'
+      manuscript: 151000-wegener.md
+      metadata: metadata/151000.json
+    - lecture: '152000'
+      manuscript: 152000-tharp.md
+      metadata: metadata/152000.json
+    - lecture: '153000'
+      manuscript: 153000-haber-nitrogen.md
+      metadata: metadata/153000.json
+    - lecture: '153500'
+      manuscript: 153500-haber-war-exile.md
+      metadata: metadata/153500.json
+    - lecture: '154000'
+      manuscript: 154000-semmelweis.md
+      metadata: metadata/154000.json
+    - lecture: '155000'
+      manuscript: 155000-tycho-brahe.md
+      metadata: metadata/155000.json
+    - lecture: '156000'
+      manuscript: 156000-tu-youyou.md
+      metadata: metadata/156000.json
+    - lecture: '161000'
+      manuscript: 161000-vera-rubin.md
+      metadata: metadata/161000.json
+    scope: Integrate 17 recovered source manuscripts and their supplied evidence,
+      retaining original model attribution and spoken prose. Remap six conflicting
+      IDs, restore missing indexed files, and merge subject routes and source records.
+      The expanded Darwin portrait is separate from the existing shorter account.
+      Archive identities and original source hashes are recorded in each sidecar.

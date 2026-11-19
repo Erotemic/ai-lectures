@@ -26,6 +26,9 @@
         "Probability",
         "Measure theory",
         "Statistics"
+      ],
+      "related_collections": [
+        "prediction-as-projection"
       ]
     },
     {
@@ -202,6 +205,36 @@
         "Diffusion",
         "Graph Laplacian",
         "Stochastic differential equations"
+      ]
+    },
+    {
+      "id": "prediction-as-projection",
+      "title": "Probability · From Linear Regression to Conditional Prediction",
+      "role": "deep_dive",
+      "parent": "established-course",
+      "summary": "Compare finite-dimensional least squares to conditional expectation as a Hilbert-space projection using an exact nonlinear example.",
+      "lectures": [
+        "003000",
+        "005000",
+        "026000",
+        "036000"
+      ],
+      "preparation_collections": [
+        "linear-algebra:survey"
+      ],
+      "related_collections": [
+        "linear-algebra:least-squares-statistical-connections",
+        "probability-measure:multivariate-statistics"
+      ],
+      "tags": [
+        "Probability",
+        "Conditional expectation",
+        "Statistical learning",
+        "Regression",
+        "Projection"
+      ],
+      "assumed_background": [
+        "Random variables and expectation, variance, algebraic regression and basic dot products."
       ]
     }
   ]

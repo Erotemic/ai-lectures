@@ -1,0 +1,143 @@
+{
+  "schema_version": 1,
+  "lecture_id": "005000",
+  "transcript": "005000-emancipation-and-the-end-of-the-war.md",
+  "description": "Follows emancipation and Black enlistment, Gettysburg, Vicksburg, the campaigns of 1864, Lincoln’s reelection, the Thirteenth Amendment and Confederate military defeat.",
+  "tags": [
+    "Emancipation Proclamation",
+    "United States Colored Troops",
+    "Gettysburg",
+    "Vicksburg",
+    "Sherman March",
+    "Abraham Lincoln",
+    "Robert E Lee",
+    "Ulysses S Grant",
+    "Thirteenth Amendment",
+    "Appomattox"
+  ],
+  "tag_paths": [
+    [
+      "History",
+      "United States history",
+      "American Civil War",
+      "Emancipation"
+    ],
+    [
+      "History",
+      "United States history",
+      "American Civil War",
+      "Military campaigns"
+    ],
+    [
+      "Place: North America",
+      "Place: United States",
+      "Place: Pennsylvania",
+      "Place: Gettysburg"
+    ]
+  ],
+  "places": [
+    "Gettysburg",
+    "Pennsylvania",
+    "Vicksburg",
+    "Mississippi",
+    "Virginia",
+    "Georgia",
+    "South Carolina",
+    "Washington, D.C."
+  ],
+  "periods": [
+    "Antebellum United States, Civil War and Reconstruction"
+  ],
+  "chronology": {
+    "period": {
+      "start": 1863,
+      "end": 1865,
+      "label": "1863–1865 CE (events covered)",
+      "basis": "historical period treated in narration",
+      "source_ids": [
+        "cw-nara-eman",
+        "cw-nara-milestones"
+      ]
+    }
+  },
+  "related_resources": [
+    {
+      "source_id": "cw-nara-eman",
+      "reason": "Preliminary and final proclamations, wartime limits, and authorization of Black enlistment."
+    },
+    {
+      "source_id": "cw-nara-milestones",
+      "reason": "US Colored Troops order; Appomattox surrender; Thirteenth and Fourteenth Amendments."
+    },
+    {
+      "source_id": "cw-nara-13th",
+      "reason": "Congressional proposal January 1865; ratification December 1865; nationwide abolition."
+    },
+    {
+      "source_id": "cw-loc-finalwar",
+      "reason": "Final campaigns, wartime Black Americans, Sherman’s Special Field Orders No. 15."
+    },
+    {
+      "source_id": "cw-loc-overview",
+      "reason": "Slavery and sectional crisis; Union, Confederacy, wartime change and Reconstruction."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "american-civil-war-005000-01",
+      "anchor": "On January 1, 1863, Abraham Lincoln issued",
+      "kind": "historical_research",
+      "source_ids": [
+        "cw-nara-eman"
+      ],
+      "source_locator": "cw-nara-eman: Preliminary and final proclamations, wartime limits, and authorization of Black enlistment.",
+      "audit_status": "source_recorded_and_anchor_checked"
+    },
+    {
+      "id": "american-civil-war-005000-02",
+      "anchor": "roughly 180,000 Black soldiers",
+      "kind": "historical_research",
+      "source_ids": [
+        "cw-nara-milestones"
+      ],
+      "source_locator": "cw-nara-milestones: US Colored Troops order; Appomattox surrender; Thirteenth and Fourteenth Amendments.",
+      "audit_status": "source_recorded_and_anchor_checked"
+    },
+    {
+      "id": "american-civil-war-005000-03",
+      "anchor": "Congress passed the proposed Thirteenth Amendment in January 1865",
+      "kind": "historical_research",
+      "source_ids": [
+        "cw-nara-13th"
+      ],
+      "source_locator": "cw-nara-13th: Congressional proposal January 1865; ratification December 1865; nationwide abolition.",
+      "audit_status": "source_recorded_and_anchor_checked"
+    },
+    {
+      "id": "american-civil-war-005000-04",
+      "anchor": "On April 9 Lee surrendered",
+      "kind": "historical_research",
+      "source_ids": [
+        "cw-nara-milestones"
+      ],
+      "source_locator": "cw-nara-milestones: US Colored Troops order; Appomattox surrender; Thirteenth and Fourteenth Amendments.",
+      "audit_status": "source_recorded_and_anchor_checked"
+    }
+  ],
+  "learning": {
+    "prerequisites": [],
+    "background": [
+      "General historical curiosity; key institutions and people are explained in the narration."
+    ],
+    "readiness_checks": [
+      "Why were Black soldiers both strategically crucial and subject to unequal treatment?",
+      "What separate strategic problems did Gettysburg and Vicksburg resolve?",
+      "Why did constitutional abolition require more than the 1863 proclamation?"
+    ]
+  },
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Expanded standalone historical lecture narration, structured source notes and metadata."
+  }
+}

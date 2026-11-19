@@ -1,0 +1,143 @@
+{
+  "schema_version": 1,
+  "lecture_id": "001000",
+  "transcript": "001000-the-republic-built-around-slavery.md",
+  "description": "Shows how slavery, the cotton economy, forced migration, Indigenous dispossession and territorial admission made expansion a constitutional crisis before the Compromise of 1850.",
+  "tags": [
+    "American slavery",
+    "Cotton economy",
+    "Domestic slave trade",
+    "Missouri Compromise",
+    "Indian Removal",
+    "Abolitionism",
+    "Frederick Douglass",
+    "Fugitive Slave Act"
+  ],
+  "tag_paths": [
+    [
+      "History",
+      "United States history",
+      "American Civil War",
+      "Causes of the Civil War"
+    ],
+    [
+      "History",
+      "Labor history",
+      "Slavery"
+    ],
+    [
+      "Place: North America",
+      "Place: United States",
+      "Place: Missouri"
+    ]
+  ],
+  "places": [
+    "United States",
+    "Missouri",
+    "Maine",
+    "Maryland",
+    "Virginia",
+    "Texas",
+    "Kansas",
+    "Mexico"
+  ],
+  "periods": [
+    "Antebellum United States, Civil War and Reconstruction"
+  ],
+  "chronology": {
+    "period": {
+      "start": 1820,
+      "end": 1850,
+      "label": "1820–1850 CE (events covered)",
+      "basis": "historical period treated in narration",
+      "source_ids": [
+        "cw-loc-overview",
+        "cw-nps-overview"
+      ]
+    }
+  },
+  "related_resources": [
+    {
+      "source_id": "cw-loc-overview",
+      "reason": "Slavery and sectional crisis; Union, Confederacy, wartime change and Reconstruction."
+    },
+    {
+      "source_id": "cw-nps-overview",
+      "reason": "War origins, slavery, national change and political consequences."
+    },
+    {
+      "source_id": "cw-nps-conseq",
+      "reason": "Four million emancipated; new federal authority and constitutional changes."
+    },
+    {
+      "source_id": "cw-nara-missouri",
+      "reason": "Maine/Missouri admissions; territorial restriction at 36°30′."
+    },
+    {
+      "source_id": "cw-nara-compromise",
+      "reason": "1850 congressional settlements, territorial slavery and fugitive law."
+    },
+    {
+      "source_id": "cw-loc-abolition",
+      "reason": "Key developments in abolition, Kansas, Dred Scott, John Brown and election of 1860."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "american-civil-war-001000-01",
+      "anchor": "By 1860, nearly four million people were enslaved",
+      "kind": "historical_research",
+      "source_ids": [
+        "cw-nps-conseq"
+      ],
+      "source_locator": "cw-nps-conseq: Four million emancipated; new federal authority and constitutional changes.",
+      "audit_status": "source_recorded_and_anchor_checked"
+    },
+    {
+      "id": "american-civil-war-001000-02",
+      "anchor": "In 1820 lawmakers arranged for Maine to enter as a free state",
+      "kind": "historical_research",
+      "source_ids": [
+        "cw-nara-missouri"
+      ],
+      "source_locator": "cw-nara-missouri: Maine/Missouri admissions; territorial restriction at 36°30′.",
+      "audit_status": "source_recorded_and_anchor_checked"
+    },
+    {
+      "id": "american-civil-war-001000-03",
+      "anchor": "The Fugitive Slave Act made the demand for slaveholders",
+      "kind": "historical_research",
+      "source_ids": [
+        "cw-nara-compromise"
+      ],
+      "source_locator": "cw-nara-compromise: 1850 congressional settlements, territorial slavery and fugitive law.",
+      "audit_status": "source_recorded_and_anchor_checked"
+    },
+    {
+      "id": "american-civil-war-001000-04",
+      "anchor": "Frederick Douglass escaped slavery in Maryland in 1838",
+      "kind": "historical_research",
+      "source_ids": [
+        "cw-loc-abolition"
+      ],
+      "source_locator": "cw-loc-abolition: Key developments in abolition, Kansas, Dred Scott, John Brown and election of 1860.",
+      "audit_status": "source_recorded_and_anchor_checked"
+    }
+  ],
+  "learning": {
+    "prerequisites": [],
+    "background": [
+      "General historical curiosity; key institutions and people are explained in the narration."
+    ],
+    "readiness_checks": [
+      "How did federal representation and western expansion intensify the slavery dispute?",
+      "Why is it misleading to call slavery a purely southern economic institution?",
+      "How did Black activists define freedom in actions as well as arguments?"
+    ]
+  },
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Expanded standalone historical lecture narration, structured source notes and metadata."
+  }
+}

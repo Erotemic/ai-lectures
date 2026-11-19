@@ -19,7 +19,8 @@
     "numerical-conditioning",
     "numerical-rank",
     "positive-definite-solvers",
-    "numerical-spectral-theory"
+    "numerical-spectral-theory",
+    "least-squares-statistical-connections"
   ],
   "lectures": [
     {
@@ -278,6 +279,33 @@
         "Resolvent",
         "Eigenvalue sensitivity",
         "Transient growth"
+      ]
+    },
+    {
+      "id": "028000",
+      "title": "One Fit, Three Mathematical Languages: Projection, Optimization, and Statistical Evidence",
+      "section": "least-squares-statistical-connections",
+      "file": "028000-one-fit-three-mathematical-languages.md",
+      "spoken_words": 1844,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 12.7,
+      "description": "One exact dataset links projection geometry and optimization certificates with coefficient uncertainty under explicit statistical assumptions.",
+      "tags": [
+        "Least squares",
+        "Orthogonal projection",
+        "Normal equations",
+        "QR factorization",
+        "Statistical inference",
+        "Regression",
+        "Conditioning"
+      ],
+      "tag_paths": [
+        [
+          "Mathematics",
+          "Linear Algebra",
+          "Mathematical connections",
+          "Least squares"
+        ]
       ]
     }
   ],

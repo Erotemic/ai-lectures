@@ -1,0 +1,138 @@
+{
+  "schema_version": 1,
+  "lecture_id": "005000",
+  "transcript": "005000-whose-revolution-whose-freedom.md",
+  "description": "Examines revolutionary choices and consequences through loyalists, Black freedom-seekers, Phillis Wheatley, Abigail Adams, Indigenous communities, and Massachusetts freedom suits.",
+  "tags": [
+    "American Revolution",
+    "Loyalists",
+    "Black Loyalists",
+    "Book of Negroes",
+    "Phillis Wheatley",
+    "Abigail Adams",
+    "Elizabeth Freeman",
+    "Quock Walker",
+    "Indigenous sovereignty",
+    "Black freedom",
+    "Women in the Revolution",
+    "American constitutional history"
+  ],
+  "tag_paths": [
+    [
+      "History",
+      "United States history",
+      "American Revolution",
+      "Social history"
+    ],
+    [
+      "History",
+      "Labor history",
+      "Slavery and emancipation"
+    ],
+    [
+      "Place: North America",
+      "Place: Canada",
+      "Place: Nova Scotia"
+    ],
+    [
+      "Place: North America",
+      "Place: United States",
+      "Place: Massachusetts"
+    ]
+  ],
+  "places": [
+    "New York",
+    "Nova Scotia",
+    "Boston",
+    "Massachusetts",
+    "Philadelphia",
+    "Ohio Country",
+    "Haudenosaunee homelands"
+  ],
+  "periods": [
+    "American Revolution and early republic"
+  ],
+  "chronology": {
+    "period": {
+      "start": 1763,
+      "end": 1790,
+      "label": "1763–1790 CE (events covered)",
+      "basis": "historical period treated in narration",
+      "source_ids": [
+        "rev-canada-black",
+        "rev-mass-freedom",
+        "rev-nwhm-wheatley"
+      ]
+    }
+  },
+  "related_resources": [
+    {
+      "source_id": "rev-canada-black",
+      "reason": "Black evacuation from New York to British North America in 1783."
+    },
+    {
+      "source_id": "rev-mass-freedom",
+      "reason": "Elizabeth Freeman, Quock Walker and Massachusetts constitutional litigation."
+    },
+    {
+      "source_id": "rev-nwhm-wheatley",
+      "reason": "Wheatley's poetry, enslavement, publication and political context."
+    },
+    {
+      "source_id": "rev-abigail-letter",
+      "reason": "Abigail Adams, John Adams and women's political claims in March 1776."
+    },
+    {
+      "source_id": "rev-loc-primary",
+      "reason": "Printed arguments, maps and manuscripts; contextualizes independence and the new republic."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "american-revolution-005000-01",
+      "anchor": "The register historically titled the Book of Negroes",
+      "kind": "historical_research",
+      "source_ids": [
+        "rev-canada-black"
+      ],
+      "source_locator": "rev-canada-black: Black evacuation from New York to British North America in 1783.",
+      "audit_status": "source_recorded_and_anchor_checked"
+    },
+    {
+      "id": "american-revolution-005000-02",
+      "anchor": "In March 1776 Abigail Adams wrote to her husband John",
+      "kind": "historical_research",
+      "source_ids": [
+        "rev-abigail-letter"
+      ],
+      "source_locator": "rev-abigail-letter: Abigail Adams, John Adams and women's political claims in March 1776.",
+      "audit_status": "source_recorded_and_anchor_checked"
+    },
+    {
+      "id": "american-revolution-005000-03",
+      "anchor": "Elizabeth Freeman, known earlier as Mum Bett, successfully sued",
+      "kind": "historical_research",
+      "source_ids": [
+        "rev-mass-freedom"
+      ],
+      "source_locator": "rev-mass-freedom: Elizabeth Freeman, Quock Walker and Massachusetts constitutional litigation.",
+      "audit_status": "source_recorded_and_anchor_checked"
+    }
+  ],
+  "learning": {
+    "prerequisites": [],
+    "background": [
+      "General historical curiosity; people and institutions are introduced in the narration."
+    ],
+    "readiness_checks": [
+      "Why were choices between patriot and loyalist loyalties not the same for every community?",
+      "How did the Revolution open paths to freedom while failing to abolish slavery?",
+      "How did Native sovereignty and women's political claims challenge definitions of liberty?"
+    ]
+  },
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Expanded standalone historical lecture narration, structured source notes and metadata."
+  }
+}

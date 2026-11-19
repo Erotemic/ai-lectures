@@ -1,0 +1,1519 @@
+{
+  "schema_version": 1,
+  "lecture_id": "155000",
+  "transcript": "155000-tycho-brahe.md",
+  "related_resources": [
+    {
+      "source_id": "tycho-danish-lex",
+      "reason": "Primary chronology; nobility, Scania, Copenhagen, eclipse, Leipzig, 1566 duel at Rostock, Hven instruments, fief obligations, court change and Prague. Danish scholarship preferred where popular dates conflict."
+    },
+    {
+      "source_id": "tycho-tekstnet",
+      "reason": "Biography and publication history; Danish court, Hven scientific/cultural institution, printers, paper mill, exile and Kepler."
+    },
+    {
+      "source_id": "tycho-smithsonian",
+      "reason": "Detailed source for royal patronage, instrument engineering, observer/assistant roles, Hven, Wandsbek and printing of the Mechanica in 1598."
+    },
+    {
+      "source_id": "tycho-mactutor",
+      "reason": "Family and foster household, education, conjunction tables, Kirsten and children, Sophie, observatory personnel, court conflict, technical legacy. Some traditional nose claims superseded by 2010 exhumation."
+    },
+    {
+      "source_id": "tycho-rice",
+      "reason": "Observational program, calibration, systematic planet positions, observational record, publication, Kepler and later data ownership. Reports Wittenberg for duel; prefer primary Danish/Rostock for location."
+    },
+    {
+      "source_id": "tycho-ucar",
+      "reason": "Nova and comet, diurnal parallax, Tychonic model, lunar/planetary observations, precision instruments; some conflicting dates are not used."
+    },
+    {
+      "source_id": "tycho-museogalileo",
+      "reason": "Astronomical instruments, 1572 nova, 1577 comet and beyond-lunar inference, Italian travel and technical milestones."
+    },
+    {
+      "source_id": "tycho-rostock",
+      "reason": "1566 duel location, studies and historical milestones. Its statement that mercury caused death is outdated; the exhumation report controls that claim."
+    },
+    {
+      "source_id": "tycho-ucopenhagen",
+      "reason": "University attendance, eclipse interest, learning travels and Hven. Its outdated theory of mercury death is not used."
+    },
+    {
+      "source_id": "tycho-sophie-lex",
+      "reason": "Sophie Brahe own astronomy, chemistry, horticulture and genealogy, 1573 work with brother, 1590 Hven visits, uncertain birth year and scholarly limits."
+    },
+    {
+      "source_id": "tycho-aarhus-exhumation",
+      "reason": "2010 exhumation, measured mercury concentrations incompatible with mercury-poisoning death, copper-zinc traces supporting brass nasal prosthesis. Does not identify exact medical cause."
+    },
+    {
+      "source_id": "tycho-michigan",
+      "reason": "Posthumous ownership and Kepler contract of 1604; 1627 tables, elliptic planetary theory and numerical prediction."
+    },
+    {
+      "source_id": "tycho-chandra",
+      "reason": "November 1572 first-person recollection and modern supernova framing; use only short paraphrase, no unsupported historical dialogue."
+    },
+    {
+      "source_id": "tycho-mars-study",
+      "reason": "Abstract argues that some Mars opposition table entries were revised in alignment with a model. Companion-only nuanced note; no claims about all data or individual motive."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "155000-h001",
+      "anchor": "Tycho was born on December fourteenth, fifteen forty-six, at Knutstorp in Scania",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "tycho-danish-lex"
+      ],
+      "source_locator": "Verbatim narrated claim: Tycho was born on December fourteenth, fifteen forty-six, at Knutstorp in Scania",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "155000-h002",
+      "anchor": "At the time it was part of the Danish kingdom",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "tycho-danish-lex"
+      ],
+      "source_locator": "Verbatim narrated claim: At the time it was part of the Danish kingdom",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "155000-h003",
+      "anchor": "his parents, Otte Brahe and Beate Bille, belonged to influential noble families",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "tycho-danish-lex"
+      ],
+      "source_locator": "Verbatim narrated claim: his parents, Otte Brahe and Beate Bille, belonged to influential noble families",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "155000-h004",
+      "anchor": "In April fifteen fifty-nine, when he was twelve, Tycho entered the University of Copenhagen",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "tycho-danish-lex"
+      ],
+      "source_locator": "Verbatim narrated claim: In April fifteen fifty-nine, when he was twelve, Tycho entered the University of Copenhagen",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "155000-h005",
+      "anchor": "On August twenty-first, fifteen sixty, a partial solar eclipse was visible in Copenhagen",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "tycho-danish-lex"
+      ],
+      "source_locator": "Verbatim narrated claim: On August twenty-first, fifteen sixty, a partial solar eclipse was visible in Copenhagen",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "155000-h006",
+      "anchor": "In August fifteen sixty-three, he followed a conjunction of Jupiter and Saturn",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "tycho-danish-lex"
+      ],
+      "source_locator": "Verbatim narrated claim: In August fifteen sixty-three, he followed a conjunction of Jupiter and Saturn",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "155000-h007",
+      "anchor": "he lost part of his nose",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "tycho-danish-lex"
+      ],
+      "source_locator": "Verbatim narrated claim: he lost part of his nose",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "155000-h008",
+      "anchor": "the construction of a very large quadrant",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "tycho-danish-lex"
+      ],
+      "source_locator": "Verbatim narrated claim: the construction of a very large quadrant",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "155000-h009",
+      "anchor": "Tycho published his work as De nova stella in fifteen seventy-three",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "tycho-danish-lex"
+      ],
+      "source_locator": "Verbatim narrated claim: Tycho published his work as De nova stella in fifteen seventy-three",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "155000-h010",
+      "anchor": "In fifteen seventy-six the king granted him use of the island of Hven",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "tycho-danish-lex"
+      ],
+      "source_locator": "Verbatim narrated claim: In fifteen seventy-six the king granted him use of the island of Hven",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "155000-h011",
+      "anchor": "Beginning in fifteen eighty-four, he built Stjerneborg",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "tycho-danish-lex"
+      ],
+      "source_locator": "Verbatim narrated claim: Beginning in fifteen eighty-four, he built Stjerneborg",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "155000-h012",
+      "anchor": "In fifteen ninety-seven Tycho left Hven with his household and some of his instruments",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "tycho-danish-lex"
+      ],
+      "source_locator": "Verbatim narrated claim: In fifteen ninety-seven Tycho left Hven with his household and some of his instruments",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "155000-h013",
+      "anchor": "Tycho died in Prague on October twenty-fourth, sixteen hundred and one",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "tycho-danish-lex"
+      ],
+      "source_locator": "Verbatim narrated claim: Tycho died in Prague on October twenty-fourth, sixteen hundred and one",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "155000-h014",
+      "anchor": "Tycho was the surviving member of a pair of twin boys",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "tycho-mactutor"
+      ],
+      "source_locator": "Verbatim narrated claim: Tycho was the surviving member of a pair of twin boys",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "155000-h015",
+      "anchor": "The uncle who raised him, Jørgen Brahe",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "tycho-mactutor"
+      ],
+      "source_locator": "Verbatim narrated claim: The uncle who raised him, Jørgen Brahe",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "155000-h016",
+      "anchor": "Jørgen and his wife, Inger Oxe, raised the boy as their heir",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "tycho-mactutor"
+      ],
+      "source_locator": "Verbatim narrated claim: Jørgen and his wife, Inger Oxe, raised the boy as their heir",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "155000-h017",
+      "anchor": "Anders Sørensen Vedel traveled with him as tutor and companion",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "tycho-mactutor"
+      ],
+      "source_locator": "Verbatim narrated claim: Anders Sørensen Vedel traveled with him as tutor and companion",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "155000-h018",
+      "anchor": "The printed answers did not always match the sky",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "tycho-mactutor"
+      ],
+      "source_locator": "Verbatim narrated claim: The printed answers did not always match the sky",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "155000-h019",
+      "anchor": "The older Alfonsine tables gave a date far from the observation",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "tycho-mactutor"
+      ],
+      "source_locator": "Verbatim narrated claim: The older Alfonsine tables gave a date far from the observation",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "155000-h020",
+      "anchor": "Tycho would continue to engage with astrology",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "tycho-mactutor"
+      ],
+      "source_locator": "Verbatim narrated claim: Tycho would continue to engage with astrology",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "155000-h021",
+      "anchor": "Manderup Parsberg",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "tycho-mactutor"
+      ],
+      "source_locator": "Verbatim narrated claim: Manderup Parsberg",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "155000-h022",
+      "anchor": "he worked at Herrevad Abbey with the support of his maternal uncle Steen Bille",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "tycho-mactutor"
+      ],
+      "source_locator": "Verbatim narrated claim: he worked at Herrevad Abbey with the support of his maternal uncle Steen Bille",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "155000-h023",
+      "anchor": "Kirsten Jørgensdatter, a woman outside the nobility",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "tycho-mactutor"
+      ],
+      "source_locator": "Verbatim narrated claim: Kirsten Jørgensdatter, a woman outside the nobility",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "155000-h024",
+      "anchor": "They lived together as a family and had eight children, of whom six survived childhood",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "tycho-mactutor"
+      ],
+      "source_locator": "Verbatim narrated claim: They lived together as a family and had eight children, of whom six survived childhood",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "155000-h025",
+      "anchor": "A young scholar could come to Hven to learn how serious astronomical observations were carried out",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "tycho-mactutor"
+      ],
+      "source_locator": "Verbatim narrated claim: A young scholar could come to Hven to learn how serious astronomical observations were carried out",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "155000-h026",
+      "anchor": "the political balance on which Tycho depended",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "tycho-mactutor"
+      ],
+      "source_locator": "Verbatim narrated claim: the political balance on which Tycho depended",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "155000-h027",
+      "anchor": "Tycho's younger sister Sophie became an important part of his intellectual and family world",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "tycho-sophie-lex"
+      ],
+      "source_locator": "Verbatim narrated claim: Tycho's younger sister Sophie became an important part of his intellectual and family world",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "155000-h028",
+      "anchor": "Sophie Brahe pursued astronomy, garden design, medicine-making, and later genealogical research",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "tycho-sophie-lex"
+      ],
+      "source_locator": "Verbatim narrated claim: Sophie Brahe pursued astronomy, garden design, medicine-making, and later genealogical research",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "155000-h029",
+      "anchor": "She assisted with observations, visited the island laboratory frequently",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "tycho-sophie-lex"
+      ],
+      "source_locator": "Verbatim narrated claim: She assisted with observations, visited the island laboratory frequently",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "155000-h030",
+      "anchor": "Tycho sometimes encouraged her scientific work and sometimes tried to direct its boundaries",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "tycho-sophie-lex"
+      ],
+      "source_locator": "Verbatim narrated claim: Tycho sometimes encouraged her scientific work and sometimes tried to direct its boundaries",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "155000-h031",
+      "anchor": "Tycho founded Uraniborg, his observatory and residence, on the island",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "tycho-smithsonian"
+      ],
+      "source_locator": "Verbatim narrated claim: Tycho founded Uraniborg, his observatory and residence, on the island",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "155000-h032",
+      "anchor": "Assistants, apprentices, instrument makers, printers, gardeners, servants, and local workers",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "tycho-smithsonian"
+      ],
+      "source_locator": "Verbatim narrated claim: Assistants, apprentices, instrument makers, printers, gardeners, servants, and local workers",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "155000-h033",
+      "anchor": "The work was laborious",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "tycho-smithsonian"
+      ],
+      "source_locator": "Verbatim narrated claim: The work was laborious",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "155000-h034",
+      "anchor": "The instruments were still operated by human observers, limited by their eyesight",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "tycho-smithsonian"
+      ],
+      "source_locator": "Verbatim narrated claim: The instruments were still operated by human observers, limited by their eyesight",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "155000-h035",
+      "anchor": "Tycho also founded a printing press and eventually a paper mill on Hven",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "tycho-smithsonian"
+      ],
+      "source_locator": "Verbatim narrated claim: Tycho also founded a printing press and eventually a paper mill on Hven",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "155000-h036",
+      "anchor": "His correspondence reveals a man alert to reputation, priority, and rival claims",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "tycho-smithsonian"
+      ],
+      "source_locator": "Verbatim narrated claim: His correspondence reveals a man alert to reputation, priority, and rival claims",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "155000-h037",
+      "anchor": "He spent time at Wandsbek near Hamburg under the protection of Heinrich Rantzau",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "tycho-smithsonian"
+      ],
+      "source_locator": "Verbatim narrated claim: He spent time at Wandsbek near Hamburg under the protection of Heinrich Rantzau",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "155000-h038",
+      "anchor": "Astronomiae instauratae mechanica, completed in fifteen ninety-eight",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "tycho-smithsonian"
+      ],
+      "source_locator": "Verbatim narrated claim: Astronomiae instauratae mechanica, completed in fifteen ninety-eight",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "155000-h039",
+      "anchor": "The copy dedicated to Emperor Rudolf the Second helped make his case",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "tycho-smithsonian"
+      ],
+      "source_locator": "Verbatim narrated claim: The copy dedicated to Emperor Rudolf the Second helped make his case",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "155000-h040",
+      "anchor": "How could someone without a telescope find out",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "tycho-ucar"
+      ],
+      "source_locator": "Verbatim narrated claim: How could someone without a telescope find out",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "155000-h041",
+      "anchor": "An object with no measurable shift need not be infinitely far away",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "tycho-ucar"
+      ],
+      "source_locator": "Verbatim narrated claim: An object with no measurable shift need not be infinitely far away",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "155000-h042",
+      "anchor": "A new visible light had appeared in the region of the supposedly unchanging stars",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "tycho-ucar"
+      ],
+      "source_locator": "Verbatim narrated claim: A new visible light had appeared in the region of the supposedly unchanging stars",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "155000-h043",
+      "anchor": "The comet had to be more distant than the Moon",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "tycho-ucar"
+      ],
+      "source_locator": "Verbatim narrated claim: The comet had to be more distant than the Moon",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "155000-h044",
+      "anchor": "This was not a modern measurement of its distance in light-years",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "tycho-ucar"
+      ],
+      "source_locator": "Verbatim narrated claim: This was not a modern measurement of its distance in light-years",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "155000-h045",
+      "anchor": "By the late fifteen eighties, Tycho had developed the arrangement now called the Tychonic system",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "tycho-ucar"
+      ],
+      "source_locator": "Verbatim narrated claim: By the late fifteen eighties, Tycho had developed the arrangement now called the Tychonic system",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "155000-h046",
+      "anchor": "Mercury, Venus, Mars, Jupiter, and Saturn moved around the Sun",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "tycho-ucar"
+      ],
+      "source_locator": "Verbatim narrated claim: Mercury, Venus, Mars, Jupiter, and Saturn moved around the Sun",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "155000-h047",
+      "anchor": "One such test was annual stellar parallax",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "tycho-ucar"
+      ],
+      "source_locator": "Verbatim narrated claim: One such test was annual stellar parallax",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "155000-h048",
+      "anchor": "He also had physical objections to a fast-moving Earth",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "tycho-ucar"
+      ],
+      "source_locator": "Verbatim narrated claim: He also had physical objections to a fast-moving Earth",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "155000-h049",
+      "anchor": "Direct measurement of annual stellar parallax had to wait until the nineteenth century",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "tycho-ucar"
+      ],
+      "source_locator": "Verbatim narrated claim: Direct measurement of annual stellar parallax had to wait until the nineteenth century",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "155000-h050",
+      "anchor": "The same idea works for the sky, with an important difference in scale",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "tycho-museogalileo"
+      ],
+      "source_locator": "Verbatim narrated claim: The same idea works for the sky, with an important difference in scale",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "155000-h051",
+      "anchor": "Tycho compared the new star with the established stars",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "tycho-museogalileo"
+      ],
+      "source_locator": "Verbatim narrated claim: Tycho compared the new star with the established stars",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "155000-h052",
+      "anchor": "In fifteen seventy-seven a conspicuous comet appeared",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "tycho-museogalileo"
+      ],
+      "source_locator": "Verbatim narrated claim: In fifteen seventy-seven a conspicuous comet appeared",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "155000-h053",
+      "anchor": "Tycho increasingly favored a cosmos in which space was not filled with rigid crystalline supports",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "tycho-museogalileo"
+      ],
+      "source_locator": "Verbatim narrated claim: Tycho increasingly favored a cosmos in which space was not filled with rigid crystalline supports",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "155000-h054",
+      "anchor": "A visitor might have found music and poetry alongside astronomical calculation",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "tycho-tekstnet"
+      ],
+      "source_locator": "Verbatim narrated claim: A visitor might have found music and poetry alongside astronomical calculation",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "155000-h055",
+      "anchor": "His strengths as organizer, designer, correspondent, and patron-seeker",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "tycho-tekstnet"
+      ],
+      "source_locator": "Verbatim narrated claim: His strengths as organizer, designer, correspondent, and patron-seeker",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "155000-h056",
+      "anchor": "Frederick the Second's death did not immediately close the observatory",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "tycho-tekstnet"
+      ],
+      "source_locator": "Verbatim narrated claim: Frederick the Second's death did not immediately close the observatory",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "155000-h057",
+      "anchor": "Christian the Fourth, and the regency and court officials around him",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "tycho-tekstnet"
+      ],
+      "source_locator": "Verbatim narrated claim: Christian the Fourth, and the regency and court officials around him",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "155000-h058",
+      "anchor": "By fifteen ninety-nine Tycho had moved to the lands of the Holy Roman Emperor",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "tycho-tekstnet"
+      ],
+      "source_locator": "Verbatim narrated claim: By fifteen ninety-nine Tycho had moved to the lands of the Holy Roman Emperor",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "155000-h059",
+      "anchor": "The island that had been the center of his ambitions for roughly two decades",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "tycho-tekstnet"
+      ],
+      "source_locator": "Verbatim narrated claim: The island that had been the center of his ambitions for roughly two decades",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "155000-h060",
+      "anchor": "sustained measurement a standard of serious astronomy",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "tycho-rice"
+      ],
+      "source_locator": "Verbatim narrated claim: sustained measurement a standard of serious astronomy",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "155000-h061",
+      "anchor": "calibrated instruments, systematic records, and mathematical care",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "tycho-rice"
+      ],
+      "source_locator": "Verbatim narrated claim: calibrated instruments, systematic records, and mathematical care",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "155000-h062",
+      "anchor": "The scientific revolution in astronomy required both",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "tycho-rice"
+      ],
+      "source_locator": "Verbatim narrated claim: The scientific revolution in astronomy required both",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "155000-h063",
+      "anchor": "He defended his cosmology vigorously",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "tycho-rice"
+      ],
+      "source_locator": "Verbatim narrated claim: He defended his cosmology vigorously",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "155000-h064",
+      "anchor": "A small systematic error, repeated over many nights",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "tycho-rice"
+      ],
+      "source_locator": "Verbatim narrated claim: A small systematic error, repeated over many nights",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "155000-h065",
+      "anchor": "the Rudolphine Tables in sixteen twenty-seven",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "tycho-michigan"
+      ],
+      "source_locator": "Verbatim narrated claim: the Rudolphine Tables in sixteen twenty-seven",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "155000-h066",
+      "anchor": "formal arrangements with the heirs were needed",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "tycho-michigan"
+      ],
+      "source_locator": "Verbatim narrated claim: formal arrangements with the heirs were needed",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "155000-h067",
+      "anchor": "They combined Tycho's observational legacy with Kepler's mathematical astronomy",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "tycho-michigan"
+      ],
+      "source_locator": "Verbatim narrated claim: They combined Tycho's observational legacy with Kepler's mathematical astronomy",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "155000-h068",
+      "anchor": "Chemical evidence from his remains points to a brass alloy",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "tycho-aarhus-exhumation"
+      ],
+      "source_locator": "Verbatim narrated claim: Chemical evidence from his remains points to a brass alloy",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "155000-h069",
+      "anchor": "modern studies of his remains do not support mercury poisoning",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "tycho-aarhus-exhumation"
+      ],
+      "source_locator": "Verbatim narrated claim: modern studies of his remains do not support mercury poisoning",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "155000-h070",
+      "anchor": "The exact medical cause remains uncertain",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "tycho-aarhus-exhumation"
+      ],
+      "source_locator": "Verbatim narrated claim: The exact medical cause remains uncertain",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "155000-h071",
+      "anchor": "During a stay in Rostock, Tycho fought a duel",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "tycho-rostock"
+      ],
+      "source_locator": "Verbatim narrated claim: During a stay in Rostock, Tycho fought a duel",
+      "audit_status": "source_checked"
+    }
+  ],
+  "chronology": {
+    "birth": {
+      "start": 1546,
+      "end": 1546,
+      "basis": "institutional_archive_or_scholarly_history",
+      "label": "Born 14 December at Knutstorp in Scania, then Denmark, now Sweden",
+      "source_ids": [
+        "tycho-danish-lex"
+      ]
+    },
+    "foster_household": {
+      "start": 1548,
+      "end": 1550,
+      "basis": "institutional_archive_or_scholarly_history",
+      "label": "Raised in uncle Jørgen Brahe and Inger Oxe household, approximate childhood date",
+      "source_ids": [
+        "tycho-mactutor"
+      ]
+    },
+    "copenhagen": {
+      "start": 1559,
+      "end": 1559,
+      "basis": "institutional_archive_or_scholarly_history",
+      "label": "Begins University of Copenhagen studies in April, aged twelve",
+      "source_ids": [
+        "tycho-danish-lex"
+      ]
+    },
+    "solar_eclipse": {
+      "start": 1560,
+      "end": 1560,
+      "basis": "institutional_archive_or_scholarly_history",
+      "label": "21 August partial solar eclipse prompts sustained interest in prediction",
+      "source_ids": [
+        "tycho-ucopenhagen"
+      ]
+    },
+    "leipzig": {
+      "start": 1562,
+      "end": 1565,
+      "basis": "institutional_archive_or_scholarly_history",
+      "label": "Leipzig education, with Anders Sørensen Vedel as companion and tutor",
+      "source_ids": [
+        "tycho-danish-lex"
+      ]
+    },
+    "planet_conjunction": {
+      "start": 1563,
+      "end": 1563,
+      "basis": "institutional_archive_or_scholarly_history",
+      "label": "August Jupiter–Saturn conjunction exposes tabular discrepancies",
+      "source_ids": [
+        "tycho-mactutor"
+      ]
+    },
+    "uncle_death": {
+      "start": 1565,
+      "end": 1565,
+      "basis": "institutional_archive_or_scholarly_history",
+      "label": "Death of Jørgen Brahe during early travels",
+      "source_ids": [
+        "tycho-danish-lex"
+      ]
+    },
+    "duel": {
+      "start": 1566,
+      "end": 1566,
+      "basis": "institutional_archive_or_scholarly_history",
+      "label": "29 December duel in Rostock; part of nose lost",
+      "source_ids": [
+        "tycho-danish-lex"
+      ]
+    },
+    "augsburg_instruments": {
+      "start": 1569,
+      "end": 1570,
+      "basis": "institutional_archive_or_scholarly_history",
+      "label": "Builds major quadrant and celestial globe with local instrument patrons in Augsburg",
+      "source_ids": [
+        "tycho-danish-lex"
+      ]
+    },
+    "father_death": {
+      "start": 1571,
+      "end": 1571,
+      "basis": "institutional_archive_or_scholarly_history",
+      "label": "Otte Brahe dies; Tycho based again in Scania",
+      "source_ids": [
+        "tycho-mactutor"
+      ]
+    },
+    "partnership": {
+      "start": 1572,
+      "end": 1573,
+      "basis": "institutional_archive_or_scholarly_history",
+      "label": "Long partnership with Kirsten Jørgensdatter begins, approximate start",
+      "source_ids": [
+        "tycho-mactutor"
+      ]
+    },
+    "nova": {
+      "start": 1572,
+      "end": 1572,
+      "basis": "institutional_archive_or_scholarly_history",
+      "label": "11 November observes bright new star in Cassiopeia",
+      "source_ids": [
+        "tycho-danish-lex"
+      ]
+    },
+    "nova_book": {
+      "start": 1573,
+      "end": 1573,
+      "basis": "institutional_archive_or_scholarly_history",
+      "label": "Publishes De nova stella; other observers also saw the object",
+      "source_ids": [
+        "tycho-tekstnet"
+      ]
+    },
+    "copenhagen_lecture": {
+      "start": 1574,
+      "end": 1575,
+      "basis": "institutional_archive_or_scholarly_history",
+      "label": "Offers course of astronomical lectures in Copenhagen",
+      "source_ids": [
+        "tycho-mactutor"
+      ]
+    },
+    "sophie_collaboration": {
+      "start": 1573,
+      "end": 1601,
+      "basis": "institutional_archive_or_scholarly_history",
+      "label": "Works with sister Sophie Brahe, whose scientific pursuits also independent",
+      "source_ids": [
+        "tycho-sophie-lex"
+      ]
+    },
+    "hven_grant": {
+      "start": 1576,
+      "end": 1576,
+      "basis": "institutional_archive_or_scholarly_history",
+      "label": "Frederick II grants Hven fief and major patronage for observatory",
+      "source_ids": [
+        "tycho-smithsonian"
+      ]
+    },
+    "uraniborg": {
+      "start": 1576,
+      "end": 1577,
+      "basis": "institutional_archive_or_scholarly_history",
+      "label": "Construction of Uraniborg begins; institution operates through 1597",
+      "source_ids": [
+        "tycho-danish-lex"
+      ]
+    },
+    "comet": {
+      "start": 1577,
+      "end": 1578,
+      "basis": "institutional_archive_or_scholarly_history",
+      "label": "Observes great comet and derives large distance from small parallax",
+      "source_ids": [
+        "tycho-ucar"
+      ]
+    },
+    "stjerneborg": {
+      "start": 1584,
+      "end": 1585,
+      "basis": "institutional_archive_or_scholarly_history",
+      "label": "Builds partly underground Stjerneborg to stabilize observations",
+      "source_ids": [
+        "tycho-danish-lex"
+      ]
+    },
+    "tycho_system": {
+      "start": 1583,
+      "end": 1588,
+      "basis": "institutional_archive_or_scholarly_history",
+      "label": "Develops and publishes geoheliocentric Tychonic planetary arrangement; approximate development",
+      "source_ids": [
+        "tycho-ucar"
+      ]
+    },
+    "printing": {
+      "start": 1584,
+      "end": 1590,
+      "basis": "institutional_archive_or_scholarly_history",
+      "label": "Printing press and paper-mill investments on Hven",
+      "source_ids": [
+        "tycho-danish-lex"
+      ]
+    },
+    "king_death": {
+      "start": 1588,
+      "end": 1588,
+      "basis": "institutional_archive_or_scholarly_history",
+      "label": "Frederick II dies, changing court patronage and regency context",
+      "source_ids": [
+        "tycho-smithsonian"
+      ]
+    },
+    "court_change": {
+      "start": 1596,
+      "end": 1596,
+      "basis": "institutional_archive_or_scholarly_history",
+      "label": "Christian IV crowned; earlier disputes over patronage, obligations and tenants intensify",
+      "source_ids": [
+        "tycho-danish-lex"
+      ]
+    },
+    "leave_hven": {
+      "start": 1597,
+      "end": 1597,
+      "basis": "institutional_archive_or_scholarly_history",
+      "label": "Leaves Hven with household and parts of research program",
+      "source_ids": [
+        "tycho-tekstnet"
+      ]
+    },
+    "mechanica": {
+      "start": 1598,
+      "end": 1598,
+      "basis": "institutional_archive_or_scholarly_history",
+      "label": "Completes richly illustrated Astronomiae instauratae mechanica at Wandsbek",
+      "source_ids": [
+        "tycho-smithsonian"
+      ]
+    },
+    "prague": {
+      "start": 1599,
+      "end": 1599,
+      "basis": "institutional_archive_or_scholarly_history",
+      "label": "Arrives in Prague with imperial patron Rudolf II; work also at Benátky",
+      "source_ids": [
+        "tycho-tekstnet"
+      ]
+    },
+    "kepler": {
+      "start": 1600,
+      "end": 1601,
+      "basis": "institutional_archive_or_scholarly_history",
+      "label": "Johannes Kepler joins work on Mars, alongside others including Longomontanus",
+      "source_ids": [
+        "tycho-mactutor"
+      ]
+    },
+    "death": {
+      "start": 1601,
+      "end": 1601,
+      "basis": "institutional_archive_or_scholarly_history",
+      "label": "Dies 24 October in Prague; exact illness contested",
+      "source_ids": [
+        "tycho-danish-lex"
+      ]
+    },
+    "kepler_book": {
+      "start": 1609,
+      "end": 1609,
+      "basis": "institutional_archive_or_scholarly_history",
+      "label": "Kepler publishes Astronomia nova with new laws based on Mars observations (posthumous context)",
+      "source_ids": [
+        "tycho-michigan"
+      ]
+    },
+    "rudolphine_tables": {
+      "start": 1627,
+      "end": 1627,
+      "basis": "institutional_archive_or_scholarly_history",
+      "label": "Kepler publishes Rudolphine Tables using Tycho data and elliptic astronomy (posthumous)",
+      "source_ids": [
+        "tycho-michigan"
+      ]
+    },
+    "stellar_parallax": {
+      "start": 1838,
+      "end": 1838,
+      "basis": "institutional_archive_or_scholarly_history",
+      "label": "Nineteenth-century measurement of annual stellar parallax (posthumous scientific context)",
+      "source_ids": [
+        "tycho-ucar"
+      ]
+    },
+    "exhumation": {
+      "start": 2010,
+      "end": 2012,
+      "basis": "institutional_archive_or_scholarly_history",
+      "label": "Exhumation and later analyses rule out mercury death and identify copper-zinc residue (modern research)",
+      "source_ids": [
+        "tycho-aarhus-exhumation"
+      ]
+    },
+    "mars_reassessment": {
+      "start": 2025,
+      "end": 2025,
+      "basis": "institutional_archive_or_scholarly_history",
+      "label": "Published historical reanalysis challenges neutrality of some tabulated Mars oppositions (interpretive context)",
+      "source_ids": [
+        "tycho-mars-study"
+      ]
+    }
+  },
+  "spacetime_coverage": {
+    "schema_version": 1,
+    "subject": "Tycho Brahe",
+    "description": "Scania birth and noble upbringing, Danish university and northern European study tours, Hven research institution, Holstein exile, and Prague imperial career. Posthumous book publication in Ulm is clearly marked as context, not a place Tycho visited. Present-day countries are distinguished from the sixteenth-century political geography.",
+    "places": [
+      {
+        "place": "Knutstorp, Scania, Sweden",
+        "present_day_country": "Sweden",
+        "historical_polity": "Kingdom of Denmark",
+        "start_year": 1546,
+        "end_year": 1548,
+        "role": "birth",
+        "note": "Born in Danish Scania, today Sweden.",
+        "source_ids": [
+          "tycho-danish-lex"
+        ],
+        "approximate": true
+      },
+      {
+        "place": "Tosterup, Scania, Sweden",
+        "present_day_country": "Sweden",
+        "historical_polity": "Kingdom of Denmark",
+        "start_year": 1548,
+        "end_year": 1552,
+        "role": "foster_childhood",
+        "note": "Foster household of uncle Jørgen Brahe; approximate years.",
+        "source_ids": [
+          "tycho-danish-lex",
+          "tycho-mactutor"
+        ],
+        "approximate": true
+      },
+      {
+        "place": "Vordingborg, Denmark",
+        "present_day_country": "Denmark",
+        "historical_polity": "Kingdom of Denmark",
+        "start_year": 1552,
+        "end_year": 1559,
+        "role": "childhood_schooling",
+        "note": "Family household, schooling before university; approximate years.",
+        "source_ids": [
+          "tycho-mactutor"
+        ],
+        "approximate": true
+      },
+      {
+        "place": "Copenhagen, Denmark",
+        "present_day_country": "Denmark",
+        "historical_polity": "Kingdom of Denmark",
+        "start_year": 1559,
+        "end_year": 1562,
+        "role": "university_education",
+        "note": "University studies and 1560 eclipse.",
+        "source_ids": [
+          "tycho-danish-lex"
+        ],
+        "approximate": true
+      },
+      {
+        "place": "Leipzig, Germany",
+        "present_day_country": "Germany",
+        "historical_polity": "Electorate of Saxony, Holy Roman Empire",
+        "start_year": 1562,
+        "end_year": 1565,
+        "role": "education_and_planetary_measurement",
+        "note": "Law education and systematic astronomical record including 1563 conjunction.",
+        "source_ids": [
+          "tycho-danish-lex",
+          "tycho-mactutor"
+        ],
+        "approximate": true
+      },
+      {
+        "place": "Wittenberg, Germany",
+        "present_day_country": "Germany",
+        "historical_polity": "Electorate of Saxony, Holy Roman Empire",
+        "start_year": 1566,
+        "end_year": 1566,
+        "role": "education_travel",
+        "note": "University study during second mainland journey.",
+        "source_ids": [
+          "tycho-mactutor"
+        ],
+        "approximate": false
+      },
+      {
+        "place": "Rostock, Germany",
+        "present_day_country": "Germany",
+        "historical_polity": "Duchy of Mecklenburg, Holy Roman Empire",
+        "start_year": 1566,
+        "end_year": 1567,
+        "role": "education_duel",
+        "note": "1566 duel and later astronomical and medical studies.",
+        "source_ids": [
+          "tycho-rostock",
+          "tycho-danish-lex"
+        ],
+        "approximate": true
+      },
+      {
+        "place": "Basel, Switzerland",
+        "present_day_country": "Switzerland",
+        "historical_polity": "Old Swiss Confederacy",
+        "start_year": 1568,
+        "end_year": 1568,
+        "role": "study_visit",
+        "note": "Brief Basel study visit; not continuous residence.",
+        "source_ids": [
+          "tycho-danish-lex"
+        ],
+        "approximate": false
+      },
+      {
+        "place": "Basel, Switzerland",
+        "present_day_country": "Switzerland",
+        "historical_polity": "Old Swiss Confederacy",
+        "start_year": 1575,
+        "end_year": 1575,
+        "role": "later_visit",
+        "note": "Visited again on travel when considering establishing work there.",
+        "source_ids": [
+          "tycho-mactutor"
+        ],
+        "approximate": false
+      },
+      {
+        "place": "Augsburg, Germany",
+        "present_day_country": "Germany",
+        "historical_polity": "Free Imperial City of Augsburg, Holy Roman Empire",
+        "start_year": 1569,
+        "end_year": 1570,
+        "role": "early_instrument_design",
+        "note": "Oversize quadrant and celestial globe made with support of local patrons.",
+        "source_ids": [
+          "tycho-danish-lex"
+        ],
+        "approximate": true
+      },
+      {
+        "place": "Herrevad Abbey, Scania, Sweden",
+        "present_day_country": "Sweden",
+        "historical_polity": "Kingdom of Denmark",
+        "start_year": 1571,
+        "end_year": 1575,
+        "role": "research_and_nova",
+        "note": "Astronomical and alchemical work, 1572 bright star.",
+        "source_ids": [
+          "tycho-danish-lex",
+          "tycho-mactutor"
+        ],
+        "approximate": true
+      },
+      {
+        "place": "Kassel, Germany",
+        "present_day_country": "Germany",
+        "historical_polity": "Landgraviate of Hesse-Kassel, Holy Roman Empire",
+        "start_year": 1575,
+        "end_year": 1575,
+        "role": "astronomy_visit",
+        "note": "Visit to Landgrave Wilhelm IV; later correspondence with his observatory.",
+        "source_ids": [
+          "tycho-danish-lex"
+        ],
+        "approximate": false
+      },
+      {
+        "place": "Hven (Ven), Sweden",
+        "present_day_country": "Sweden",
+        "historical_polity": "Kingdom of Denmark",
+        "start_year": 1576,
+        "end_year": 1597,
+        "role": "uraniborg_stjerneborg_household",
+        "note": "Royal fief, research group and home, supporting estate and labor on Hven.",
+        "source_ids": [
+          "tycho-smithsonian",
+          "tycho-danish-lex"
+        ],
+        "approximate": true
+      },
+      {
+        "place": "Wandsbek, Hamburg, Germany",
+        "present_day_country": "Germany",
+        "historical_polity": "Duchy of Holstein, Holy Roman Empire",
+        "start_year": 1597,
+        "end_year": 1598,
+        "role": "exile_publication",
+        "note": "Guest of Heinrich Rantzau; 1598 Mechanica completed.",
+        "source_ids": [
+          "tycho-smithsonian"
+        ],
+        "approximate": true
+      },
+      {
+        "place": "Benátky nad Jizerou, Czechia",
+        "present_day_country": "Czechia",
+        "historical_polity": "Kingdom of Bohemia, Holy Roman Empire",
+        "start_year": 1599,
+        "end_year": 1600,
+        "role": "imperial_research_site",
+        "note": "Imperial estate work including Kepler collaboration; dates approximate.",
+        "source_ids": [
+          "tycho-mactutor"
+        ],
+        "approximate": true
+      },
+      {
+        "place": "Prague, Czechia",
+        "present_day_country": "Czechia",
+        "historical_polity": "Kingdom of Bohemia, Holy Roman Empire",
+        "start_year": 1599,
+        "end_year": 1601,
+        "role": "imperial_court_death",
+        "note": "Imperial mathematician associated with Rudolf II; death and burial.",
+        "source_ids": [
+          "tycho-tekstnet",
+          "tycho-danish-lex"
+        ],
+        "approximate": true
+      },
+      {
+        "place": "Ulm, Germany",
+        "present_day_country": "Germany",
+        "historical_polity": "Free Imperial City of Ulm, Holy Roman Empire",
+        "start_year": 1627,
+        "end_year": 1627,
+        "role": "posthumous_book_location_not_personal_travel",
+        "note": "Kepler published Rudolphine Tables in Ulm decades after Tycho died; contextual only.",
+        "source_ids": [
+          "tycho-michigan"
+        ],
+        "approximate": false
+      }
+    ]
+  },
+  "tags": [
+    "Biography",
+    "History of science",
+    "History of astronomy",
+    "Astronomy",
+    "Early modern astronomy",
+    "Astronomical revolution",
+    "Scientific revolution",
+    "History of scientific instruments",
+    "Observational astronomy",
+    "Astrometry",
+    "Planetary astronomy",
+    "Stellar positions",
+    "Star catalogues",
+    "Celestial mechanics",
+    "Geocentrism",
+    "Heliocentrism",
+    "Geoheliocentrism",
+    "Tychonic system",
+    "Copernican astronomy",
+    "Tycho Brahe",
+    "Tyge Ottesen Brahe",
+    "Johannes Kepler",
+    "Sophie Brahe",
+    "Kirsten Jørgensdatter",
+    "Jørgen Brahe",
+    "Inger Oxe",
+    "Otte Brahe",
+    "Beate Bille",
+    "Steen Bille",
+    "Anders Sørensen Vedel",
+    "Manderup Parsberg",
+    "Christen Sørensen Longomontanus",
+    "Frederick II of Denmark",
+    "Christian IV of Denmark",
+    "Rudolf II",
+    "Heinrich Rantzau",
+    "Wilhelm IV of Hesse-Kassel",
+    "History of Renaissance science",
+    "Noble patronage",
+    "Scientific institutions",
+    "Scientific labor",
+    "Observatory design",
+    "Instrument engineering",
+    "Angular measurement",
+    "Quadrants",
+    "Sextants",
+    "Armillary spheres",
+    "Mural quadrant",
+    "Instrument calibration",
+    "Systematic observation",
+    "Observation logs",
+    "Systematic error",
+    "Uncertainty of measurement",
+    "Astronomical refraction",
+    "Atmospheric refraction",
+    "Diurnal parallax",
+    "Annual stellar parallax",
+    "Stellar parallax",
+    "Observational limits",
+    "Planetary tables",
+    "Jupiter and Saturn conjunction",
+    "Mars observations",
+    "Retrograde motion",
+    "Elliptical orbits",
+    "Kepler laws",
+    "Rudolphine Tables",
+    "Astronomia nova",
+    "SN 1572",
+    "Tycho supernova",
+    "History of supernovae",
+    "Cassiopeia",
+    "1577 comet",
+    "History of comets",
+    "Celestial immutability",
+    "Aristotelian natural philosophy",
+    "Celestial spheres",
+    "Renaissance printing",
+    "Scientific publishing",
+    "Scientific correspondence",
+    "Printing press",
+    "Paper mill",
+    "Uraniborg",
+    "Uranienborg",
+    "Stjerneborg",
+    "Hven",
+    "Ven",
+    "Øresund",
+    "History of Denmark",
+    "History of Sweden",
+    "History of Germany",
+    "History of Bohemia",
+    "History of the Holy Roman Empire",
+    "Renaissance court culture",
+    "Royal scientific patronage",
+    "Scientific collaboration",
+    "Scientific credit",
+    "Scientific disputes",
+    "History of data",
+    "Data ownership",
+    "Observational datasets",
+    "Science and power",
+    "History of tenancy",
+    "Social history of science",
+    "Women in Renaissance science",
+    "History of women in science",
+    "Renaissance alchemy",
+    "Astrology in scientific history",
+    "Medical alchemy",
+    "Genealogical scholarship",
+    "Renaissance mathematics",
+    "History of universities",
+    "History of exile",
+    "Scientific patronage loss",
+    "Regional history",
+    "Historical biography",
+    "Documentary uncertainty",
+    "History of historiography",
+    "Death and historical evidence",
+    "Mercury poisoning myth",
+    "Nasal prosthesis",
+    "Region: Europe",
+    "Region: Northern Europe",
+    "Region: Central Europe",
+    "Country: Denmark",
+    "Country: Sweden",
+    "Country: Germany",
+    "Country: Switzerland",
+    "Country: Czechia",
+    "Place: Knutstorp",
+    "Place: Tosterup",
+    "Place: Vordingborg",
+    "Place: Copenhagen",
+    "Place: Leipzig",
+    "Place: Rostock",
+    "Place: Wittenberg",
+    "Place: Basel",
+    "Place: Augsburg",
+    "Place: Herrevad Abbey",
+    "Place: Kassel",
+    "Place: Hven",
+    "Place: Ven",
+    "Place: Wandsbek",
+    "Place: Benátky nad Jizerou",
+    "Place: Prague",
+    "Place: Ulm",
+    "Historical polity: Kingdom of Denmark",
+    "Historical polity: Holy Roman Empire",
+    "Historical polity: Kingdom of Bohemia",
+    "Historical polity: Electorate of Saxony",
+    "Historical polity: Duchy of Holstein",
+    "Historical polity: Free Imperial City of Augsburg",
+    "1540s",
+    "1550s",
+    "1560s",
+    "1570s",
+    "1580s",
+    "1590s",
+    "1600s",
+    "1620s",
+    "1830s",
+    "2010s",
+    "2020s",
+    "Year: 1546",
+    "Year: 1548",
+    "Year: 1550",
+    "Year: 1559",
+    "Year: 1560",
+    "Year: 1562",
+    "Year: 1563",
+    "Year: 1565",
+    "Year: 1566",
+    "Year: 1569",
+    "Year: 1570",
+    "Year: 1571",
+    "Year: 1572",
+    "Year: 1573",
+    "Year: 1574",
+    "Year: 1575",
+    "Year: 1576",
+    "Year: 1577",
+    "Year: 1578",
+    "Year: 1583",
+    "Year: 1584",
+    "Year: 1585",
+    "Year: 1588",
+    "Year: 1590",
+    "Year: 1596",
+    "Year: 1597",
+    "Year: 1598",
+    "Year: 1599",
+    "Year: 1600",
+    "Year: 1601",
+    "Year: 1609",
+    "Year: 1627",
+    "Year: 1838",
+    "Year: 2010",
+    "Year: 2012",
+    "Year: 2025"
+  ],
+  "description": "Follows Tycho Brahe through Danish patronage, Uraniborg, observation and exile, explaining precise positional astronomy, the nova and comet evidence, and his relationship with Kepler.",
+  "content_recovery": {
+    "date": "2026-11-18",
+    "archive": "scientist-biography-155000-tycho-brahe-overlay.zip",
+    "archive_sha256": "12e66b996efe497bbcc2ee3a0dd154c9cb57f8c4b507497a6d949b445110c852",
+    "original_path": "draft-stages/tts-history/155000-tycho-brahe.md",
+    "original_lecture_id": "155000",
+    "original_source_sha256": "146120727b4a9a534948d5d848407951b10cdd560ceb6edb6e4051dbf822bfa3",
+    "integration_model": "GPT-6 (Codex; weights/config variant unknown)",
+    "scope": "Recover supplied source and metadata; preserve spoken prose. Remap colliding playback IDs and citation records without replacing existing lectures."
+  }
+}

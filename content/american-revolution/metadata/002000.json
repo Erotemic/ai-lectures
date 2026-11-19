@@ -1,0 +1,150 @@
+{
+  "schema_version": 1,
+  "lecture_id": "002000",
+  "transcript": "002000-when-protest-became-independence.md",
+  "description": "Follows the armed outbreak in Massachusetts, the competing claims to British loyalty, enslaved freedom-seekers, Common Sense, the Declaration and Washington’s struggle to keep an army alive.",
+  "tags": [
+    "Lexington and Concord",
+    "Continental Congress",
+    "Thomas Paine",
+    "Declaration of Independence",
+    "Black Loyalists",
+    "George Washington",
+    "Trenton"
+  ],
+  "tag_paths": [
+    [
+      "History",
+      "United States history",
+      "American Revolution",
+      "Independence"
+    ],
+    [
+      "Place: North America",
+      "Place: United States",
+      "Place: Massachusetts"
+    ],
+    [
+      "Place: North America",
+      "Place: United States",
+      "Place: Pennsylvania",
+      "Place: Philadelphia"
+    ]
+  ],
+  "places": [
+    "Massachusetts",
+    "Lexington",
+    "Concord",
+    "Boston",
+    "Philadelphia",
+    "Virginia",
+    "New York",
+    "New Jersey"
+  ],
+  "periods": [
+    "American Revolution and early republic"
+  ],
+  "chronology": {
+    "period": {
+      "start": 1775,
+      "end": 1777,
+      "label": "1775–1777 CE (events covered)",
+      "basis": "historical period treated in narration",
+      "source_ids": [
+        "rev-nps-timeline",
+        "rev-nara-declaration"
+      ]
+    }
+  },
+  "related_resources": [
+    {
+      "source_id": "rev-nps-timeline",
+      "reason": "Detailed chronology 1763–1783; Stamp Act, Coercive Acts, Saratoga, French support, Treaty of Paris."
+    },
+    {
+      "source_id": "rev-nara-declaration",
+      "reason": "Political developments 1775–1776, Paine, congressional drafting and approval."
+    },
+    {
+      "source_id": "rev-nps-black",
+      "reason": "Dunmore proclamation; conditional promises and British military protection; risks of flight."
+    },
+    {
+      "source_id": "rev-loc-primary",
+      "reason": "Printed arguments, maps and manuscripts; contextualizes independence and the new republic."
+    },
+    {
+      "source_id": "rev-loc-homefront",
+      "reason": "War as internal political conflict; loyalism, noncombatant work and wartime finance."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "american-revolution-002000-01",
+      "anchor": "At dawn on April 19, 1775",
+      "kind": "historical_research",
+      "source_ids": [
+        "rev-nps-timeline"
+      ],
+      "source_locator": "rev-nps-timeline: Detailed chronology 1763–1783; Stamp Act, Coercive Acts, Saratoga, French support, Treaty of Paris.",
+      "audit_status": "source_recorded_and_anchor_checked"
+    },
+    {
+      "id": "american-revolution-002000-02",
+      "anchor": "In November 1775, Lord Dunmore",
+      "kind": "historical_research",
+      "source_ids": [
+        "rev-nps-black"
+      ],
+      "source_locator": "rev-nps-black: Dunmore proclamation; conditional promises and British military protection; risks of flight.",
+      "audit_status": "source_recorded_and_anchor_checked"
+    },
+    {
+      "id": "american-revolution-002000-03",
+      "anchor": "In January 1776 Thomas Paine published",
+      "kind": "historical_research",
+      "source_ids": [
+        "rev-nara-declaration"
+      ],
+      "source_locator": "rev-nara-declaration: Political developments 1775–1776, Paine, congressional drafting and approval.",
+      "audit_status": "source_recorded_and_anchor_checked"
+    },
+    {
+      "id": "american-revolution-002000-04",
+      "anchor": "On July 2 Congress approved the independence resolution",
+      "kind": "historical_research",
+      "source_ids": [
+        "rev-nps-timeline",
+        "rev-nara-declaration"
+      ],
+      "source_locator": "rev-nps-timeline: Detailed chronology 1763–1783; Stamp Act, Coercive Acts, Saratoga, French support, Treaty of Paris.; rev-nara-declaration: Political developments 1775–1776, Paine, congressional drafting and approval.",
+      "audit_status": "source_recorded_and_anchor_checked"
+    },
+    {
+      "id": "american-revolution-002000-05",
+      "anchor": "On July 4 it approved the text",
+      "kind": "historical_research",
+      "source_ids": [
+        "rev-nara-declaration"
+      ],
+      "source_locator": "rev-nara-declaration: Political developments 1775–1776, Paine, congressional drafting and approval.",
+      "audit_status": "source_recorded_and_anchor_checked"
+    }
+  ],
+  "learning": {
+    "prerequisites": [],
+    "background": [
+      "General historical curiosity; key institutions and people are explained in the narration."
+    ],
+    "readiness_checks": [
+      "Why did armed resistance begin before a majority agreed on independence?",
+      "How did Black freedom-seekers use the war differently from Congress?",
+      "What is the difference between the July 2 resolution and July 4 Declaration?"
+    ]
+  },
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Expanded standalone historical lecture narration, structured source notes and metadata."
+  }
+}

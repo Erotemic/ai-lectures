@@ -1,0 +1,587 @@
+{
+  "schema_version": 1,
+  "lecture_id": "164000",
+  "transcript": "164000-tartaglia.md",
+  "related_resources": [
+    {
+      "source_id": "history-cubic-primary-quarrel",
+      "reason": "Excerpts chiefly from Tartaglia and Ferrari public dispute, letters, contest problem sets and 1539 self-reported dialogue. Strong evidence of published positions, not a neutral transcript."
+    },
+    {
+      "source_id": "history-cubic-unknown-quantity",
+      "reason": "Historical synthesis of 1535 contest, 1539 promise, del Ferro precedent, Cardano and Ferrari quartic; a narrative secondary account."
+    },
+    {
+      "source_id": "history-tartaglia-iop",
+      "reason": "Distinguishes Tartaglia’s 45-degree range conclusion from modern parabolic/vacuum projectile model."
+    },
+    {
+      "source_id": "history-tartaglia-mactutor",
+      "reason": "Birth uncertainty, Brescia sack, teaching, Fior, 1539 oath report, publications, Ferrari contest and nonpayment; some dramatic language and reconstructed motives require caution."
+    },
+    {
+      "source_id": "history-tartaglia-mpiwb",
+      "reason": "Max Planck history of science critical edition: sixteenth-century violent/natural motion, gunner instruments and rationale for deductive ballistics."
+    },
+    {
+      "source_id": "history-tartaglia-museo",
+      "reason": "Cubic publication and pamphlets, 1543 Euclid and Archimedes, 1537 Nova scientia, late general treatise; birth year shown as 1499."
+    },
+    {
+      "source_id": "history-tartaglia-smithsonian",
+      "reason": "Primary publication date/location and full original book, showing artillery propositions, instruments and diagrams."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "164000-h01",
+      "anchor": "In August 1548",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-tartaglia-mactutor",
+        "history-cubic-primary-quarrel"
+      ],
+      "source_locator": "In August 1548",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "164000-h02",
+      "anchor": "Lodovico Ferrari",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-tartaglia-mactutor"
+      ],
+      "source_locator": "Lodovico Ferrari",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "164000-h03",
+      "anchor": "after the first day's proceedings",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-tartaglia-mactutor"
+      ],
+      "source_locator": "after the first day's proceedings",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "164000-h04",
+      "anchor": "born Niccolò Fontana in Brescia",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-tartaglia-mactutor"
+      ],
+      "source_locator": "born Niccolò Fontana in Brescia",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "164000-h05",
+      "anchor": "around 1499 or 1500",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-tartaglia-mactutor",
+        "history-tartaglia-museo"
+      ],
+      "source_locator": "around 1499 or 1500",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "164000-h06",
+      "anchor": "His father, Michele",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-tartaglia-mactutor"
+      ],
+      "source_locator": "His father, Michele",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "164000-h07",
+      "anchor": "In 1512",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-tartaglia-mactutor"
+      ],
+      "source_locator": "In 1512",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "164000-h08",
+      "anchor": "severe wounds to his face and mouth",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-tartaglia-mactutor"
+      ],
+      "source_locator": "severe wounds to his face and mouth",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "164000-h09",
+      "anchor": "nickname Tartaglia",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-tartaglia-mactutor"
+      ],
+      "source_locator": "nickname Tartaglia",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "164000-h10",
+      "anchor": "teaching mathematics at Verona",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-tartaglia-mactutor"
+      ],
+      "source_locator": "teaching mathematics at Verona",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "164000-h11",
+      "anchor": "around 1534",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-tartaglia-mactutor"
+      ],
+      "source_locator": "around 1534",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "164000-h12",
+      "anchor": "contest that first made Tartaglia widely known occurred in 1535",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-tartaglia-mactutor",
+        "history-cubic-primary-quarrel"
+      ],
+      "source_locator": "contest that first made Tartaglia widely known occurred in 1535",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "164000-h13",
+      "anchor": "Antonio Maria Fior",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-tartaglia-mactutor"
+      ],
+      "source_locator": "Antonio Maria Fior",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "164000-h14",
+      "anchor": "Scipione del Ferro",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-tartaglia-mactutor"
+      ],
+      "source_locator": "Scipione del Ferro",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "164000-h15",
+      "anchor": "thirty problems each",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-cubic-primary-quarrel"
+      ],
+      "source_locator": "thirty problems each",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "164000-h16",
+      "anchor": "In 1537 he published the Nova scientia",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-tartaglia-smithsonian",
+        "history-tartaglia-mpiwb"
+      ],
+      "source_locator": "In 1537 he published the Nova scientia",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "164000-h17",
+      "anchor": "gunner's quadrant",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-tartaglia-mpiwb"
+      ],
+      "source_locator": "gunner's quadrant",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "164000-h18",
+      "anchor": "forty-five-degree conclusion",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-tartaglia-iop",
+        "history-tartaglia-mpiwb"
+      ],
+      "source_locator": "forty-five-degree conclusion",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "164000-h19",
+      "anchor": "In 1543, in Venice, he published an annotated Italian edition of Euclid's Elements",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-tartaglia-museo"
+      ],
+      "source_locator": "In 1543, in Venice, he published an annotated Italian edition of Euclid's Elements",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "164000-h20",
+      "anchor": "Archimedean materials into print",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-tartaglia-museo"
+      ],
+      "source_locator": "Archimedean materials into print",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "164000-h21",
+      "anchor": "Alfonso d'Avalos",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-cubic-primary-quarrel"
+      ],
+      "source_locator": "Alfonso d'Avalos",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "164000-h22",
+      "anchor": "March 1539",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-cubic-primary-quarrel"
+      ],
+      "source_locator": "March 1539",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "164000-h23",
+      "anchor": "promised not to publish the secret",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-cubic-primary-quarrel"
+      ],
+      "source_locator": "promised not to publish the secret",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "164000-h24",
+      "anchor": "In 1543, they encountered evidence",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-cubic-unknown-quantity"
+      ],
+      "source_locator": "In 1543, they encountered evidence",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "164000-h25",
+      "anchor": "The Ars Magna appeared in 1545",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-tartaglia-mactutor",
+        "history-cubic-unknown-quantity"
+      ],
+      "source_locator": "The Ars Magna appeared in 1545",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "164000-h26",
+      "anchor": "Tartaglia answered in 1546",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-tartaglia-museo"
+      ],
+      "source_locator": "Tartaglia answered in 1546",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "164000-h27",
+      "anchor": "in 1547 and 1548",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-tartaglia-museo"
+      ],
+      "source_locator": "in 1547 and 1548",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "164000-h28",
+      "anchor": "10 August 1548",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-cubic-primary-quarrel"
+      ],
+      "source_locator": "10 August 1548",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "164000-h29",
+      "anchor": "invited to lecture in his native Brescia",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-tartaglia-mactutor"
+      ],
+      "source_locator": "invited to lecture in his native Brescia",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "164000-h30",
+      "anchor": "payment became contested",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-tartaglia-mactutor"
+      ],
+      "source_locator": "payment became contested",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "164000-h31",
+      "anchor": "General trattato di numeri et misure",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-tartaglia-museo"
+      ],
+      "source_locator": "General trattato di numeri et misure",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "164000-h32",
+      "anchor": "He died in Venice in December 1557",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "history-tartaglia-mactutor"
+      ],
+      "source_locator": "He died in Venice in December 1557",
+      "audit_status": "source_checked"
+    }
+  ],
+  "chronology": {
+    "life": {
+      "start": 1499,
+      "end": 1557,
+      "basis": "approximate_birth_year_and_documented_death",
+      "label": "c. 1499/1500–1557 · born in Brescia, died in Venice",
+      "note": "Birth year contested between 1499 and 1500; indexing at 1499 is lower bound, not an assertion of exact date.",
+      "source_ids": [
+        "history-tartaglia-mactutor",
+        "history-tartaglia-museo"
+      ]
+    },
+    "period": {
+      "start": 1499,
+      "end": 1557,
+      "basis": "documented_biographical_coverage",
+      "label": "c. 1499–1557 · Brescia, Verona, Venice and Milan",
+      "source_ids": [
+        "history-tartaglia-mactutor"
+      ]
+    },
+    "setting": {
+      "start": 1499,
+      "end": 1557,
+      "basis": "italian_wars_and_renaissance_mathematical_printing",
+      "label": "Renaissance Venetian practical mathematics and Italian Wars",
+      "source_ids": [
+        "history-tartaglia-mactutor",
+        "history-tartaglia-mpiwb"
+      ]
+    },
+    "work": {
+      "start": 1516,
+      "end": 1557,
+      "basis": "documented_and_approximate_teaching_and_publication",
+      "label": "c. 1516–1557 · teaching, algebra, artillery and translation",
+      "note": "Opening bound is approximate; no exact start of mathematical activity is claimed.",
+      "source_ids": [
+        "history-tartaglia-mactutor",
+        "history-tartaglia-museo"
+      ]
+    }
+  },
+  "spacetime_coverage": {
+    "schema_version": 1,
+    "subject": "Niccolò Tartaglia",
+    "subject_life_status": "deceased",
+    "description": "Sourced birth, teaching, publishing, research, travel and documented event locations; city centers are approximate coordinates, never exact premises or proof of uninterrupted residence. Publication and later reception are not inferred travel.",
+    "places": [
+      {
+        "place": "Brescia",
+        "present_day_country": "Italy",
+        "historical_polity": "Republic of Venice",
+        "start_year": 1499,
+        "end_year": 1500,
+        "role": "birth_approximate",
+        "note": "Birth 1499 or 1500 according to varying summaries; not an exact birth year.",
+        "coordinates": {
+          "latitude": 45.5416,
+          "longitude": 10.2118,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "history-tartaglia-mactutor",
+          "history-tartaglia-museo"
+        ],
+        "date_uncertain": true
+      },
+      {
+        "place": "Brescia",
+        "present_day_country": "Italy",
+        "historical_polity": "Republic of Venice; contested during Italian Wars",
+        "start_year": 1512,
+        "end_year": 1512,
+        "role": "wartime_injury",
+        "note": "Severe childhood injuries during French sack of Brescia.",
+        "coordinates": {
+          "latitude": 45.5416,
+          "longitude": 10.2118,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "history-tartaglia-mactutor"
+        ]
+      },
+      {
+        "place": "Verona",
+        "present_day_country": "Italy",
+        "historical_polity": "Republic of Venice",
+        "start_year": 1516,
+        "end_year": 1533,
+        "role": "mathematics_teaching",
+        "note": "Worked as a teacher in the Verona area; approximate years and interruptions not independently established.",
+        "coordinates": {
+          "latitude": 45.4384,
+          "longitude": 10.9916,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "history-tartaglia-mactutor"
+        ],
+        "date_uncertain": true
+      },
+      {
+        "place": "Venice",
+        "present_day_country": "Italy",
+        "historical_polity": "Republic of Venice",
+        "start_year": 1534,
+        "end_year": 1538,
+        "role": "mathematical_teaching_and_research",
+        "note": "Teaching, the 1535 public contest and publication of Nova scientia in 1537; book printing here does not establish continuous residence.",
+        "coordinates": {
+          "latitude": 45.4408,
+          "longitude": 12.3155,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "history-tartaglia-mactutor",
+          "history-tartaglia-smithsonian"
+        ],
+        "date_uncertain": true
+      },
+      {
+        "place": "Milan",
+        "present_day_country": "Italy",
+        "historical_polity": "Duchy of Milan",
+        "start_year": 1539,
+        "end_year": 1539,
+        "role": "cubic_disclosure_visit",
+        "note": "Visit to Cardano, 25 March; reported secrecy pledge.",
+        "coordinates": {
+          "latitude": 45.4642,
+          "longitude": 9.19,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "history-cubic-primary-quarrel"
+        ]
+      },
+      {
+        "place": "Venice",
+        "present_day_country": "Italy",
+        "historical_polity": "Republic of Venice",
+        "start_year": 1543,
+        "end_year": 1546,
+        "role": "publishing_and_teaching",
+        "note": "1543 Euclid/Archimedes publications and 1546 Quesiti; book-imprint city plus established professional base, not proof of each day of presence.",
+        "coordinates": {
+          "latitude": 45.4408,
+          "longitude": 12.3155,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "history-tartaglia-museo"
+        ],
+        "date_uncertain": true
+      },
+      {
+        "place": "Milan",
+        "present_day_country": "Italy",
+        "historical_polity": "Duchy of Milan",
+        "start_year": 1548,
+        "end_year": 1548,
+        "role": "public_mathematical_disputation",
+        "note": "Public contest with Ferrari, 10 August 1548.",
+        "coordinates": {
+          "latitude": 45.4642,
+          "longitude": 9.19,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "history-cubic-primary-quarrel"
+        ]
+      },
+      {
+        "place": "Brescia",
+        "present_day_country": "Italy",
+        "historical_polity": "Republic of Venice",
+        "start_year": 1548,
+        "end_year": 1549,
+        "role": "teaching_appointment",
+        "note": "Reported lectureship and stipend conflict; interval approximate.",
+        "coordinates": {
+          "latitude": 45.5416,
+          "longitude": 10.2118,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "history-tartaglia-mactutor"
+        ],
+        "date_uncertain": true
+      },
+      {
+        "place": "Venice",
+        "present_day_country": "Italy",
+        "historical_polity": "Republic of Venice",
+        "start_year": 1550,
+        "end_year": 1557,
+        "role": "late_teaching_writing_and_death",
+        "note": "Later work including General trattato; death December 1557; approximate start year.",
+        "coordinates": {
+          "latitude": 45.4408,
+          "longitude": 12.3155,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "history-tartaglia-mactutor",
+          "history-tartaglia-museo"
+        ],
+        "date_uncertain": true
+      }
+    ]
+  },
+  "description": "Follows Tartaglia from war-injured childhood to teaching, mathematical contests and the cubic-equation dispute with Cardano, separating documented claims from later legends about priority.",
+  "content_recovery": {
+    "date": "2026-11-18",
+    "archive": "mathematician-biographies-cardano-tartaglia-story-first-2026-11-17.zip",
+    "archive_sha256": "ed9cb16eccac5606259c1d4b3765a2bc178fe4313b25fc0ed6940aa861adda7a",
+    "original_path": "draft-stages/tts-history/135000-tartaglia.md",
+    "original_lecture_id": "135000",
+    "original_source_sha256": "3d10ab9f4de1f0b53b202c57c11747cfda9f17795d8f752e2a4acecc84a136e7",
+    "integration_model": "GPT-6 (Codex; weights/config variant unknown)",
+    "scope": "Recover supplied source and metadata; preserve spoken prose. Remap colliding playback IDs and citation records without replacing existing lectures."
+  }
+}

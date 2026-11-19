@@ -1,0 +1,1126 @@
+{
+  "schema_version": 1,
+  "lecture_id": "153000",
+  "transcript": "153000-haber-nitrogen.md",
+  "related_resources": [
+    {
+      "source_id": "haber-basf-1913",
+      "reason": "Confirms 1913 BASF Oppau plant and Bosch-led industrial-scale implementation."
+    },
+    {
+      "source_id": "haber-basf-bosch",
+      "reason": "Bosch metallurgy/high-pressure technology, Mittasch industrial catalysts, plant opening 9 September 1913."
+    },
+    {
+      "source_id": "haber-basf-johnson",
+      "reason": "1908 BASF approach, Haber/Le Rossignol collaboration, July 1909 demonstration, laboratory conditions and industrial transfer."
+    },
+    {
+      "source_id": "haber-epa-n2o",
+      "reason": "Agricultural fertilizer and N2O emissions. No precise global percentage asserted."
+    },
+    {
+      "source_id": "haber-epa-nutrients",
+      "reason": "Nitrogen and phosphorus in crops, runoff, eutrophication, algal blooms."
+    },
+    {
+      "source_id": "haber-eth-profile",
+      "reason": "Family, Breslau upbringing, education, career stages, second marriage, brief exile and death. Library summary; not evidence for unrecorded interior motives."
+    },
+    {
+      "source_id": "haber-fhi-history",
+      "reason": "Institution founded 1911; 1914 laboratory accident; wartime military direction; interwar gold project, research group leadership and 1933 exodus."
+    },
+    {
+      "source_id": "haber-friedrich-clara",
+      "reason": "Clara doctorate 1900, married 1901, son Hermann 1902, research restrictions, later suicide; critical evidence review finds little support for a proven antiwar motive."
+    },
+    {
+      "source_id": "haber-iea-ammonia",
+      "reason": "Modern ammonia feedstock and energy dependence, fossil fuels and climate footprint. Not evidence for historical factory details."
+    },
+    {
+      "source_id": "haber-le-rossignol",
+      "reason": "Background of van Oordt, Nernst, Le Rossignol, ammonia equilibrium; public search-index excerpts, no unsupported page-by-page quotation."
+    },
+    {
+      "source_id": "haber-mpg-profile",
+      "reason": "Birth and death, institute founding, 1918 Nobel, war gas advocacy, 1920s collaborations, 1933 resignation."
+    },
+    {
+      "source_id": "haber-nobel-lecture",
+      "reason": "Primary period account of nitrogen agriculture, ammonia thermodynamics and industrial limitation; self-presentation rather than independent historiography. First page visually inspected."
+    },
+    {
+      "source_id": "haber-rsc-nitrogen",
+      "reason": "Background of competing nitrogen fixation approaches, catalysts, 1909 laboratory method and industrial development."
+    },
+    {
+      "source_id": "haber-shi-profile",
+      "reason": "Biographical overview, Karlsruhe research, direct ammonia synthesis and later wartime decisions. Its Clara causal wording is more definite than specialist scholarship; use specialist source on motives."
+    },
+    {
+      "source_id": "haber-tamaru-history",
+      "reason": "Competing nitrogen fixation routes and German–Japanese scientific collaborations."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "153000-h001",
+      "anchor": "Fritz Haber was born on December ninth, 1868, in Breslau",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "haber-eth-profile"
+      ],
+      "source_locator": "Verbatim narrated claim: Fritz Haber was born on December ninth, 1868, in Breslau",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "153000-h002",
+      "anchor": "His father, Siegfried Haber, operated a business connected with chemicals",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "haber-eth-profile"
+      ],
+      "source_locator": "Verbatim narrated claim: His father, Siegfried Haber, operated a business connected with chemicals",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "153000-h003",
+      "anchor": "His mother, Paula, died shortly after his birth",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "haber-eth-profile"
+      ],
+      "source_locator": "Verbatim narrated claim: His mother, Paula, died shortly after his birth",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "153000-h004",
+      "anchor": "The Haber family was Jewish and commercially established",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "haber-eth-profile"
+      ],
+      "source_locator": "Verbatim narrated claim: The Haber family was Jewish and commercially established",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "153000-h005",
+      "anchor": "Haber was baptized into Protestant Christianity in the early 1890s",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "haber-eth-profile"
+      ],
+      "source_locator": "Verbatim narrated claim: Haber was baptized into Protestant Christianity in the early 1890s",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "153000-h006",
+      "anchor": "When he began university studies in Berlin in 1886",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "haber-eth-profile",
+        "haber-mpg-profile"
+      ],
+      "source_locator": "Verbatim narrated claim: When he began university studies in Berlin in 1886",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "153000-h007",
+      "anchor": "He completed a doctorate in organic chemistry in 1891",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "haber-eth-profile",
+        "haber-shi-profile"
+      ],
+      "source_locator": "Verbatim narrated claim: He completed a doctorate in organic chemistry in 1891",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "153000-h008",
+      "anchor": "He spent time in Zürich and Jena",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "haber-eth-profile"
+      ],
+      "source_locator": "Verbatim narrated claim: He spent time in Zürich and Jena",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "153000-h009",
+      "anchor": "Haber eventually found a university position at the technical school in Karlsruhe",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "haber-eth-profile"
+      ],
+      "source_locator": "Verbatim narrated claim: Haber eventually found a university position at the technical school in Karlsruhe",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "153000-h010",
+      "anchor": "At Karlsruhe he moved toward physical chemistry",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "haber-shi-profile"
+      ],
+      "source_locator": "Verbatim narrated claim: At Karlsruhe he moved toward physical chemistry",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "153000-h011",
+      "anchor": "Haber pursued electrochemistry, gas reactions",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "haber-shi-profile"
+      ],
+      "source_locator": "Verbatim narrated claim: Haber pursued electrochemistry, gas reactions",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "153000-h012",
+      "anchor": "In 1911 Haber was appointed founding director of the Kaiser Wilhelm Institute",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "haber-shi-profile"
+      ],
+      "source_locator": "Verbatim narrated claim: In 1911 Haber was appointed founding director of the Kaiser Wilhelm Institute",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "153000-h013",
+      "anchor": "The new Kaiser Wilhelm Society reflected a major transformation",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "haber-shi-profile"
+      ],
+      "source_locator": "Verbatim narrated claim: The new Kaiser Wilhelm Society reflected a major transformation",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "153000-h014",
+      "anchor": "The nitrogen problem had been waiting for a solution long before Haber arrived",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "haber-nobel-lecture"
+      ],
+      "source_locator": "Verbatim narrated claim: The nitrogen problem had been waiting for a solution long before Haber arrived",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "153000-h015",
+      "anchor": "Earth is surrounded by nitrogen",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "haber-nobel-lecture"
+      ],
+      "source_locator": "Verbatim narrated claim: Earth is surrounded by nitrogen",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "153000-h016",
+      "anchor": "A plant cannot simply absorb atmospheric nitrogen through its leaves",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "haber-nobel-lecture"
+      ],
+      "source_locator": "Verbatim narrated claim: A plant cannot simply absorb atmospheric nitrogen through its leaves",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "153000-h017",
+      "anchor": "Some microorganisms perform nitrogen fixation",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "haber-nobel-lecture"
+      ],
+      "source_locator": "Verbatim narrated claim: Some microorganisms perform nitrogen fixation",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "153000-h018",
+      "anchor": "Nitrogen gas is not nitrogen fertilizer",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "haber-nobel-lecture"
+      ],
+      "source_locator": "Verbatim narrated claim: Nitrogen gas is not nitrogen fertilizer",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "153000-h019",
+      "anchor": "A molecule of nitrogen joins three molecules of hydrogen",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "haber-nobel-lecture"
+      ],
+      "source_locator": "Verbatim narrated claim: A molecule of nitrogen joins three molecules of hydrogen",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "153000-h020",
+      "anchor": "Pressure helps in a particular way",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "haber-nobel-lecture"
+      ],
+      "source_locator": "Verbatim narrated claim: Pressure helps in a particular way",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "153000-h021",
+      "anchor": "Temperature pulls the problem in two directions",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "haber-nobel-lecture"
+      ],
+      "source_locator": "Verbatim narrated claim: Temperature pulls the problem in two directions",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "153000-h022",
+      "anchor": "A catalyst makes that compromise more manageable",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "haber-nobel-lecture",
+        "haber-rsc-nitrogen"
+      ],
+      "source_locator": "Verbatim narrated claim: A catalyst makes that compromise more manageable",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "153000-h023",
+      "anchor": "The late nineteenth and early twentieth centuries were crowded with advances in chemical thermodynamics",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "haber-nobel-lecture"
+      ],
+      "source_locator": "Verbatim narrated claim: The late nineteenth and early twentieth centuries were crowded with advances in chemical thermodynamics",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "153000-h024",
+      "anchor": "A high equilibrium fraction is no use if the reactor converts the feed so slowly",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "haber-nobel-lecture"
+      ],
+      "source_locator": "Verbatim narrated claim: A high equilibrium fraction is no use if the reactor converts the feed so slowly",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "153000-h025",
+      "anchor": "a factory designer asks a different question: how much nitrogen and hydrogen are lost",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "haber-nobel-lecture"
+      ],
+      "source_locator": "Verbatim narrated claim: a factory designer asks a different question: how much nitrogen and hydrogen are lost",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "153000-h026",
+      "anchor": "In Norway, Kristian Birkeland and Sam Eyde pursued an electrical method",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "haber-rsc-nitrogen"
+      ],
+      "source_locator": "Verbatim narrated claim: In Norway, Kristian Birkeland and Sam Eyde pursued an electrical method",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "153000-h027",
+      "anchor": "The Frank–Caro process produced calcium cyanamide",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "haber-rsc-nitrogen"
+      ],
+      "source_locator": "Verbatim narrated claim: The Frank–Caro process produced calcium cyanamide",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "153000-h028",
+      "anchor": "Haber himself investigated methods that did not become the final process",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "haber-rsc-nitrogen"
+      ],
+      "source_locator": "Verbatim narrated claim: Haber himself investigated methods that did not become the final process",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "153000-h029",
+      "anchor": "He worked with Gabriel van Oordt on early measurements",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "haber-le-rossignol"
+      ],
+      "source_locator": "Verbatim narrated claim: He worked with Gabriel van Oordt on early measurements",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "153000-h030",
+      "anchor": "Walther Nernst challenged Haber's equilibrium data",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "haber-le-rossignol"
+      ],
+      "source_locator": "Verbatim narrated claim: Walther Nernst challenged Haber's equilibrium data",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "153000-h031",
+      "anchor": "At a scientific meeting in 1907, the disagreement became conspicuous",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "haber-le-rossignol"
+      ],
+      "source_locator": "Verbatim narrated claim: At a scientific meeting in 1907, the disagreement became conspicuous",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "153000-h032",
+      "anchor": "A young British-born engineer and chemist, Robert Le Rossignol",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "haber-le-rossignol"
+      ],
+      "source_locator": "Verbatim narrated claim: A young British-born engineer and chemist, Robert Le Rossignol",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "153000-h033",
+      "anchor": "Yet he designed and refined equipment",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "haber-le-rossignol"
+      ],
+      "source_locator": "Verbatim narrated claim: Yet he designed and refined equipment",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "153000-h034",
+      "anchor": "In July 1909, visitors from a German chemical company came to the laboratory",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "haber-basf-johnson"
+      ],
+      "source_locator": "Verbatim narrated claim: In July 1909, visitors from a German chemical company came to the laboratory",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "153000-h035",
+      "anchor": "The demonstration nearly failed",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "haber-basf-johnson"
+      ],
+      "source_locator": "Verbatim narrated claim: The demonstration nearly failed",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "153000-h036",
+      "anchor": "Carl Bosch, the engineer who would later make the process work",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "haber-basf-johnson"
+      ],
+      "source_locator": "Verbatim narrated claim: Carl Bosch, the engineer who would later make the process work",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "153000-h037",
+      "anchor": "Haber and his assistant Robert Le Rossignol had operated a system",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "haber-basf-johnson"
+      ],
+      "source_locator": "Verbatim narrated claim: Haber and his assistant Robert Le Rossignol had operated a system",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "153000-h038",
+      "anchor": "The team developed a way to recycle what did not react",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "haber-basf-johnson"
+      ],
+      "source_locator": "Verbatim narrated claim: The team developed a way to recycle what did not react",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "153000-h039",
+      "anchor": "The laboratory breakthrough around 1908 and 1909 attracted BASF",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "haber-basf-johnson"
+      ],
+      "source_locator": "Verbatim narrated claim: The laboratory breakthrough around 1908 and 1909 attracted BASF",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "153000-h040",
+      "anchor": "Return to the 1909 demonstration",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "haber-basf-johnson"
+      ],
+      "source_locator": "Verbatim narrated claim: Return to the 1909 demonstration",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "153000-h041",
+      "anchor": "High-pressure hydrogen attacks certain metals",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "haber-basf-bosch"
+      ],
+      "source_locator": "Verbatim narrated claim: High-pressure hydrogen attacks certain metals",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "153000-h042",
+      "anchor": "This is where the names Carl Bosch and Alwin Mittasch become inseparable",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "haber-basf-bosch"
+      ],
+      "source_locator": "Verbatim narrated claim: This is where the names Carl Bosch and Alwin Mittasch become inseparable",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "153000-h043",
+      "anchor": "Bosch led the industrial scale-up",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "haber-basf-bosch"
+      ],
+      "source_locator": "Verbatim narrated claim: Bosch led the industrial scale-up",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "153000-h044",
+      "anchor": "Mittasch and his colleagues systematically searched for catalysts",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "haber-basf-bosch"
+      ],
+      "source_locator": "Verbatim narrated claim: Mittasch and his colleagues systematically searched for catalysts",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "153000-h045",
+      "anchor": "Industrial practice settled on specially prepared iron-based catalysts",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "haber-basf-bosch"
+      ],
+      "source_locator": "Verbatim narrated claim: Industrial practice settled on specially prepared iron-based catalysts",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "153000-h046",
+      "anchor": "Bosch's high-pressure equipment and Mittasch's catalyst work",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "haber-basf-bosch"
+      ],
+      "source_locator": "Verbatim narrated claim: Bosch's high-pressure equipment and Mittasch's catalyst work",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "153000-h047",
+      "anchor": "The factory-scale problem posed a challenge to existing materials science",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "haber-basf-bosch"
+      ],
+      "source_locator": "Verbatim narrated claim: The factory-scale problem posed a challenge to existing materials science",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "153000-h048",
+      "anchor": "In September 1913, the first commercial ammonia synthesis plant",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "haber-basf-bosch",
+        "haber-basf-1913"
+      ],
+      "source_locator": "Verbatim narrated claim: In September 1913, the first commercial ammonia synthesis plant",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "153000-h049",
+      "anchor": "Clara Immerwahr, born in 1870, trained as a chemist",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "haber-friedrich-clara"
+      ],
+      "source_locator": "Verbatim narrated claim: Clara Immerwahr, born in 1870, trained as a chemist",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "153000-h050",
+      "anchor": "In 1900 she became the first woman to receive a doctorate",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "haber-friedrich-clara"
+      ],
+      "source_locator": "Verbatim narrated claim: In 1900 she became the first woman to receive a doctorate",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "153000-h051",
+      "anchor": "In 1901 she married Haber",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "haber-friedrich-clara"
+      ],
+      "source_locator": "Verbatim narrated claim: In 1901 she married Haber",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "153000-h052",
+      "anchor": "Their son Hermann was born in 1902",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "haber-friedrich-clara"
+      ],
+      "source_locator": "Verbatim narrated claim: Their son Hermann was born in 1902",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "153000-h053",
+      "anchor": "She performed work in the household and offered educational instruction",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "haber-friedrich-clara"
+      ],
+      "source_locator": "Verbatim narrated claim: She performed work in the household and offered educational instruction",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "153000-h054",
+      "anchor": "A doctoral degree did not provide her with an automatic appointment",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "haber-friedrich-clara"
+      ],
+      "source_locator": "Verbatim narrated claim: A doctoral degree did not provide her with an automatic appointment",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "153000-h055",
+      "anchor": "Surviving biographical accounts reveal a marriage under strain",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "haber-friedrich-clara"
+      ],
+      "source_locator": "Verbatim narrated claim: Surviving biographical accounts reveal a marriage under strain",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "153000-h056",
+      "anchor": "Industrial ammonia requires large amounts of energy",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "haber-iea-ammonia"
+      ],
+      "source_locator": "Verbatim narrated claim: Industrial ammonia requires large amounts of energy",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "153000-h057",
+      "anchor": "Conventional hydrogen production is often associated with fossil fuels",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "haber-iea-ammonia"
+      ],
+      "source_locator": "Verbatim narrated claim: Conventional hydrogen production is often associated with fossil fuels",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "153000-h058",
+      "anchor": "Adding excessive reactive nitrogen to landscapes can contaminate water",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "haber-epa-nutrients"
+      ],
+      "source_locator": "Verbatim narrated claim: Adding excessive reactive nitrogen to landscapes can contaminate water",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "153000-h059",
+      "anchor": "Nitrous oxide released through fertilizer use is a greenhouse gas",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "haber-epa-n2o"
+      ],
+      "source_locator": "Verbatim narrated claim: Nitrous oxide released through fertilizer use is a greenhouse gas",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "153000-h060",
+      "anchor": "It was a place for fundamental research, precision measurement",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "haber-fhi-history"
+      ],
+      "source_locator": "Verbatim narrated claim: It was a place for fundamental research, precision measurement",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "153000-h061",
+      "anchor": "In the following two decades the institute would host research on colloids",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "haber-fhi-history"
+      ],
+      "source_locator": "Verbatim narrated claim: In the following two decades the institute would host research on colloids",
+      "audit_status": "source_checked"
+    }
+  ],
+  "chronology": {
+    "birth": {
+      "start": 1868,
+      "end": 1868,
+      "basis": "institutional_primary_or_scholarly_history",
+      "label": "Breslau birth to Siegfried and Paula Haber",
+      "source_ids": [
+        "haber-eth-profile"
+      ]
+    },
+    "early_family": {
+      "start": 1868,
+      "end": 1886,
+      "basis": "institutional_primary_or_scholarly_history",
+      "label": "Breslau upbringing and education; Paula died soon after his birth",
+      "source_ids": [
+        "haber-eth-profile"
+      ]
+    },
+    "german_unification": {
+      "start": 1871,
+      "end": 1871,
+      "basis": "institutional_primary_or_scholarly_history",
+      "label": "German Empire declared during Haber childhood; political setting",
+      "source_ids": [
+        "haber-eth-profile"
+      ]
+    },
+    "university": {
+      "start": 1886,
+      "end": 1891,
+      "basis": "institutional_primary_or_scholarly_history",
+      "label": "Berlin and Heidelberg chemistry education; doctorate in 1891",
+      "source_ids": [
+        "haber-eth-profile"
+      ]
+    },
+    "training": {
+      "start": 1891,
+      "end": 1894,
+      "basis": "institutional_primary_or_scholarly_history",
+      "label": "Industrial apprenticeships, Zürich, Jena and family business",
+      "source_ids": [
+        "haber-eth-profile"
+      ]
+    },
+    "religious_conversion": {
+      "start": 1892,
+      "end": 1892,
+      "basis": "institutional_primary_or_scholarly_history",
+      "label": "Conversion to Protestantism, early 1890s; contextual approximate date",
+      "source_ids": [
+        "haber-mpg-profile"
+      ]
+    },
+    "karlsruhe": {
+      "start": 1894,
+      "end": 1911,
+      "basis": "institutional_primary_or_scholarly_history",
+      "label": "Karlsruhe technical institute employment and physical chemistry work",
+      "source_ids": [
+        "haber-shi-profile"
+      ]
+    },
+    "clara_degree": {
+      "start": 1900,
+      "end": 1900,
+      "basis": "institutional_primary_or_scholarly_history",
+      "label": "Clara Immerwahr doctorate at University of Breslau",
+      "source_ids": [
+        "haber-friedrich-clara"
+      ]
+    },
+    "marriage": {
+      "start": 1901,
+      "end": 1901,
+      "basis": "institutional_primary_or_scholarly_history",
+      "label": "Marriage to Clara Immerwahr",
+      "source_ids": [
+        "haber-friedrich-clara"
+      ]
+    },
+    "son_birth": {
+      "start": 1902,
+      "end": 1902,
+      "basis": "institutional_primary_or_scholarly_history",
+      "label": "Birth of son Hermann",
+      "source_ids": [
+        "haber-friedrich-clara"
+      ]
+    },
+    "nitrogen_equilibrium": {
+      "start": 1904,
+      "end": 1905,
+      "basis": "institutional_primary_or_scholarly_history",
+      "label": "Haber and Gabriel van Oordt early ammonia equilibrium studies",
+      "source_ids": [
+        "haber-le-rossignol"
+      ]
+    },
+    "nernst_challenge": {
+      "start": 1907,
+      "end": 1907,
+      "basis": "institutional_primary_or_scholarly_history",
+      "label": "Public disagreement with Walther Nernst over equilibrium data",
+      "source_ids": [
+        "haber-le-rossignol"
+      ]
+    },
+    "basf_collaboration": {
+      "start": 1908,
+      "end": 1908,
+      "basis": "institutional_primary_or_scholarly_history",
+      "label": "BASF contact and research collaboration formalized",
+      "source_ids": [
+        "haber-basf-johnson"
+      ]
+    },
+    "laboratory_demonstration": {
+      "start": 1909,
+      "end": 1909,
+      "basis": "institutional_primary_or_scholarly_history",
+      "label": "1909 continuous laboratory ammonia synthesis demonstrated",
+      "source_ids": [
+        "haber-basf-johnson"
+      ]
+    },
+    "institute": {
+      "start": 1911,
+      "end": 1911,
+      "basis": "institutional_primary_or_scholarly_history",
+      "label": "Founded Kaiser Wilhelm Institute for Physical Chemistry and Electrochemistry",
+      "source_ids": [
+        "haber-fhi-history"
+      ]
+    },
+    "first_factory": {
+      "start": 1913,
+      "end": 1913,
+      "basis": "institutional_primary_or_scholarly_history",
+      "label": "BASF opens first industrial ammonia plant at Oppau",
+      "source_ids": [
+        "haber-basf-1913"
+      ]
+    },
+    "world_war": {
+      "start": 1914,
+      "end": 1914,
+      "basis": "institutional_primary_or_scholarly_history",
+      "label": "War starts; industrial nitrogen now key strategic input",
+      "source_ids": [
+        "haber-fhi-history"
+      ]
+    }
+  },
+  "spacetime_coverage": {
+    "schema_version": 1,
+    "subject": "Fritz Haber",
+    "description": "First part: birth, education, laboratory work, marriage, institutional leadership and BASF industrial sites. Industrial subject entries are not claims of personal visits.",
+    "places": [
+      {
+        "place": "Breslau, Silesia (now Wrocław), Poland",
+        "present_day_country": "Poland",
+        "historical_polity": "Kingdom of Prussia / German Empire after 1871",
+        "start_year": 1868,
+        "end_year": 1886,
+        "role": "birth_and_schooling",
+        "note": "Historical Breslau is modern Wrocław; not a claim of personal travel in contemporary Poland.",
+        "source_ids": [
+          "haber-eth-profile"
+        ],
+        "approximate": true
+      },
+      {
+        "place": "Berlin, Germany",
+        "present_day_country": "Germany",
+        "historical_polity": "German Empire",
+        "start_year": 1886,
+        "end_year": 1891,
+        "role": "university_studies",
+        "note": "Periods of study in Berlin, with time at Heidelberg and elsewhere.",
+        "source_ids": [
+          "haber-eth-profile"
+        ],
+        "approximate": true
+      },
+      {
+        "place": "Heidelberg, Germany",
+        "present_day_country": "Germany",
+        "historical_polity": "German Empire",
+        "start_year": 1887,
+        "end_year": 1887,
+        "role": "university_studies",
+        "note": "Approximate Heidelberg student period; year bounded for broad timeline.",
+        "source_ids": [
+          "haber-eth-profile"
+        ],
+        "approximate": true
+      },
+      {
+        "place": "Zurich, Switzerland",
+        "present_day_country": "Switzerland",
+        "historical_polity": "Swiss Confederation",
+        "start_year": 1891,
+        "end_year": 1892,
+        "role": "professional_training",
+        "note": "Training period, approximate years.",
+        "source_ids": [
+          "haber-eth-profile"
+        ],
+        "approximate": true
+      },
+      {
+        "place": "Jena, Germany",
+        "present_day_country": "Germany",
+        "historical_polity": "German Empire",
+        "start_year": 1892,
+        "end_year": 1894,
+        "role": "university_training",
+        "note": "Approximate Jena studies.",
+        "source_ids": [
+          "haber-eth-profile"
+        ],
+        "approximate": true
+      },
+      {
+        "place": "Karlsruhe, Germany",
+        "present_day_country": "Germany",
+        "historical_polity": "German Empire",
+        "start_year": 1894,
+        "end_year": 1911,
+        "role": "research_teaching",
+        "note": "University career and ammonia laboratory breakthrough.",
+        "source_ids": [
+          "haber-shi-profile",
+          "haber-basf-johnson"
+        ],
+        "approximate": true
+      },
+      {
+        "place": "Ludwigshafen-Oppau, Germany",
+        "present_day_country": "Germany",
+        "historical_polity": "German Empire",
+        "start_year": 1913,
+        "end_year": 1913,
+        "role": "industrial_project_not_personal_travel",
+        "note": "First BASF plant subject; no inference Haber personally attended opening.",
+        "source_ids": [
+          "haber-basf-1913"
+        ],
+        "approximate": true
+      },
+      {
+        "place": "Berlin-Dahlem, Germany",
+        "present_day_country": "Germany",
+        "historical_polity": "German Empire",
+        "start_year": 1911,
+        "end_year": 1914,
+        "role": "institute_directorship",
+        "note": "1911 institute founding, leadership; first part ends at start of war.",
+        "source_ids": [
+          "haber-fhi-history"
+        ],
+        "approximate": true
+      }
+    ]
+  },
+  "tags": [
+    "Biography",
+    "History of science",
+    "History of chemistry",
+    "History of physical chemistry",
+    "History of chemical engineering",
+    "History of Germany",
+    "Chemistry",
+    "Physical chemistry",
+    "Industrial chemistry",
+    "Chemical thermodynamics",
+    "Chemical equilibria",
+    "Chemical kinetics",
+    "Reaction engineering",
+    "Chemical catalysts",
+    "Catalysis",
+    "Nitrogen cycle",
+    "Nitrogen fixation",
+    "Ammonia",
+    "Haber-Bosch process",
+    "Industrial agriculture",
+    "Agricultural fertilizers",
+    "Food production",
+    "Scientific institutions",
+    "University laboratory",
+    "Scientific collaboration",
+    "Scientific credit",
+    "History of technology",
+    "German science",
+    "Jewish scientists in Germany",
+    "Scientific national identity",
+    "History of scientific ethics",
+    "Science and society",
+    "Fritz Haber",
+    "Carl Bosch",
+    "Robert Le Rossignol",
+    "Alwin Mittasch",
+    "Clara Immerwahr",
+    "Kaiser Wilhelm Society",
+    "Fritz Haber Institute",
+    "BASF",
+    "History of Nobel Prize in Chemistry",
+    "Nobel Prize in Chemistry (1918)",
+    "Region: Europe",
+    "Region: Central Europe",
+    "Country: Germany",
+    "Country: Poland",
+    "Country: Switzerland",
+    "Historical polity: German Empire",
+    "Historical polity: Prussia",
+    "Historical polity: Weimar Republic",
+    "Place: Breslau",
+    "Place: Wrocław",
+    "Place: Karlsruhe",
+    "Place: Berlin",
+    "Place: Berlin-Dahlem",
+    "Place: Basel",
+    "History of nitrogen fixation",
+    "History of fertilizers",
+    "Nitrogen biochemistry",
+    "Biological nitrogen fixation",
+    "Rhizobia",
+    "Legumes",
+    "Plant nutrition",
+    "Proteins",
+    "Amino acids",
+    "Crop yield",
+    "Soil nutrient cycling",
+    "Nitrogen availability",
+    "Molecular nitrogen",
+    "Nitrogen triple bond",
+    "Ammonia synthesis",
+    "N2 and H2 equilibrium",
+    "Le Chatelier principle",
+    "Chemical equilibrium",
+    "Equilibrium constant",
+    "Exothermic reactions",
+    "Activation energy",
+    "Catalysts and equilibrium",
+    "Iron catalysts",
+    "Metal surfaces",
+    "Hydrogen embrittlement",
+    "High-pressure chemistry",
+    "High-pressure reactor",
+    "Industrial materials",
+    "Gas recycle",
+    "Continuous-flow reaction",
+    "Chemical separations",
+    "Heat management",
+    "Le Rossignol high-pressure apparatus",
+    "Osmium catalysts",
+    "Uranium catalysts",
+    "Wilhelm Ostwald",
+    "Walther Nernst",
+    "Gabriel van Oordt",
+    "Alwin Mittasch catalyst development",
+    "Birkeland–Eyde process",
+    "Frank–Caro process",
+    "Kristian Birkeland",
+    "Sam Eyde",
+    "Calcium cyanamide",
+    "Electrochemistry",
+    "Plant nutrients",
+    "Justus von Liebig",
+    "Guano",
+    "Chilean saltpetre",
+    "Agricultural history",
+    "Environmental chemistry",
+    "Nitrogen runoff",
+    "Eutrophication",
+    "Algal blooms",
+    "Nitrous oxide",
+    "Industrial energy demand",
+    "Hydrogen feedstocks",
+    "Fossil fuels",
+    "Greenhouse gases",
+    "Academic industrial partnerships",
+    "Industrial laboratory scaling",
+    "Karlsruhe Institute of Technology",
+    "University of Breslau",
+    "University of Berlin",
+    "University of Heidelberg",
+    "University of Jena",
+    "Zurich training",
+    "Ludwigshafen-Oppau",
+    "Oppau ammonia plant (1913)",
+    "First ammonia synthesis plant",
+    "BASF industrial nitrogen research",
+    "German Empire",
+    "Women in chemistry",
+    "History of women in science",
+    "Marriage and scientific careers",
+    "Household and laboratory labor",
+    "Country: Austria",
+    "Place: Heidelberg",
+    "Place: Zürich",
+    "Place: Jena",
+    "Place: Ludwigshafen",
+    "Place: Oppau",
+    "Science and religion",
+    "Jewish assimilation in German Empire",
+    "1860s",
+    "1870s",
+    "1880s",
+    "1890s",
+    "1900s",
+    "1910s",
+    "Year: 1868",
+    "Year: 1871",
+    "Year: 1886",
+    "Year: 1891",
+    "Year: 1892",
+    "Year: 1894",
+    "Year: 1900",
+    "Year: 1901",
+    "Year: 1902",
+    "Year: 1904",
+    "Year: 1905",
+    "Year: 1907",
+    "Year: 1908",
+    "Year: 1909",
+    "Year: 1911",
+    "Year: 1913",
+    "Year: 1914"
+  ],
+  "description": "Follows Haber’s route to catalytic ammonia synthesis, connecting chemical equilibrium, high pressure, industrial scale-up and fertilizer to his personal life and German research institutions.",
+  "content_recovery": {
+    "date": "2026-11-18",
+    "archive": "scientist-biography-153000-153500-fritz-haber-special-overlay.zip",
+    "archive_sha256": "7b64e83454a9be7634d7c78150dbaf91492313ac39dc7591c2431371638c1b20",
+    "original_path": "draft-stages/tts-history/153000-haber-nitrogen.md",
+    "original_lecture_id": "153000",
+    "original_source_sha256": "a713f73fcc96bd6be70efe55a27a2ad6a2d9ab8f4d34eb917e6397febc80b8f5",
+    "integration_model": "GPT-6 (Codex; weights/config variant unknown)",
+    "scope": "Recover supplied source and metadata; preserve spoken prose. Remap colliding playback IDs and citation records without replacing existing lectures."
+  }
+}
