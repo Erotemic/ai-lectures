@@ -97,6 +97,8 @@ listeners may choose any order.
 
 - **024000 — The Trouble with Soap.** How amphiphilic molecules move grease into water, how people learned to make soap from fats and alkali, Agnes Pockels and surface films, soapmaking in Aleppo and Nablus, synthetic detergents and hard water, hand hygiene and access, the name soap opera, and the surprising metal soaps that damage oil paintings.
 
+- **025000 — Lead Was Good at Its Job.** Why a dense, soft, easily worked metal spread through Roman plumbing, paint, automotive fuel, batteries, and bodies; from the tetraethyllead controversy and Clair Patterson’s isotope work to the fall in children’s blood lead levels, Flint’s water chemistry, and the hazards of informal battery recycling.
+
 Spoken narration is inside the standard marker pair in each manuscript. Source
 notes, constructed-example qualifications, and reading links follow the
 spoken region. Per-lecture metadata and reading records are in `metadata/`.
