@@ -1,0 +1,127 @@
+{
+  "schema_version": 1,
+  "lecture_id": "001000",
+  "transcript": "001000-the-ocean-floor-gave-earth-away.md",
+  "description": "Reconstructs plate tectonics from ocean-floor age, symmetrical magnetic reversal bands, earthquake belts and modern GNSS motion, distinguishing plates from continents.",
+  "tags": [
+    "Plate tectonics",
+    "Continental drift",
+    "Seafloor spreading",
+    "Magnetic reversals",
+    "Wegener",
+    "Paleomagnetism",
+    "Geodesy",
+    "Ocean floor ages",
+    "Wadati–Benioff zones"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Earth science",
+      "Geology",
+      "Plate tectonics"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Geology",
+      "Continental drift"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Geology",
+      "Seafloor spreading"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Geology",
+      "Magnetic reversals"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Geology",
+      "Wegener"
+    ],
+    [
+      "Place: Atlantic Ocean"
+    ],
+    [
+      "Place: Americas",
+      "Place: South America"
+    ],
+    [
+      "Place: Africa"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "de-usgs-theory",
+      "reason": "Evidence for continental drift, ocean mapping, magnetic reversals, seafloor spreading and global seismicity."
+    },
+    {
+      "source_id": "de-usgs-boundaries",
+      "reason": "Divergent, convergent and transform boundaries, the Mid-Atlantic Ridge and San Andreas motion."
+    },
+    {
+      "source_id": "de-usgs-speed",
+      "reason": "GNSS plate speed, seafloor magnetic age estimates, rates of plate motion."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "de-001000-01",
+      "anchor": "Alfred Wegener argued in the early twentieth century",
+      "kind": "historical_research",
+      "source_ids": [
+        "de-usgs-theory"
+      ],
+      "source_locator": "Evidence for continental drift, ocean mapping, magnetic reversals, seafloor spreading and global seismicity.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "de-001000-02",
+      "anchor": "Global Navigation Satellite System receivers anchored to bedrock can measure slow changes in position",
+      "kind": "scientific_measurement",
+      "source_ids": [
+        "de-usgs-speed"
+      ],
+      "source_locator": "GNSS plate speed, seafloor magnetic age estimates, rates of plate motion.",
+      "audit_status": "source_checked"
+    }
+  ],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original Dynamic Earth course lecture, scientific companion, and evidence-linked metadata."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Everyday scientific literacy; geological vocabulary and calculations are introduced in the narration."
+    ],
+    "readiness_checks": [
+      "Why is the shape of the modern shoreline weaker evidence than matching magnetic anomaly sequences?",
+      "Why does a plate not mean the same thing as a continent?"
+    ]
+  },
+  "places": [
+    "Atlantic Ocean",
+    "South America",
+    "Africa"
+  ],
+  "chronology": {
+    "period": {
+      "start": 1960,
+      "label": "1960s convergence of independent seafloor and seismic evidence",
+      "basis": "documented historical research interval",
+      "note": "This date describes a documented historical case or discovery, not the age of the geological mechanism.",
+      "source_ids": [
+        "de-usgs-theory"
+      ]
+    }
+  }
+}

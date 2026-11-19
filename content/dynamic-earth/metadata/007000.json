@@ -1,0 +1,133 @@
+{
+  "schema_version": 1,
+  "lecture_id": "007000",
+  "transcript": "007000-listening-to-the-rupture.md",
+  "description": "Reads P- and S-wave arrival times, hypocenters, focal mechanisms, magnitude versus local shaking, basin effects, tsunamis and early-warning limits.",
+  "tags": [
+    "Seismology",
+    "Hypocenter",
+    "Epicenter",
+    "Seismic travel time",
+    "Focal mechanisms",
+    "Seismic intensity",
+    "Site amplification",
+    "Tsunami physics",
+    "Earthquake early warning"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Earth science",
+      "Geology",
+      "Seismology"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Geology",
+      "Hypocenter"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Geology",
+      "Epicenter"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Geology",
+      "Seismic travel time"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Geology",
+      "Focal mechanisms"
+    ],
+    [
+      "Place: Indian Ocean"
+    ],
+    [
+      "Place: Asia",
+      "Place: East Asia",
+      "Place: Japan",
+      "Place: Tohoku"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "de-usgs-interior",
+      "reason": "Seismic phases, core shadow zones, Earth layering, Oldham 1906."
+    },
+    {
+      "source_id": "de-usgs-magnitude",
+      "reason": "Difference between magnitude, moment, radiated energy, and geographic shaking intensity."
+    },
+    {
+      "source_id": "de-usgs-early",
+      "reason": "Early warning after rupture begins, wave-speed differences, protective actions."
+    },
+    {
+      "source_id": "de-noaa-tsunami",
+      "reason": "Sea-floor displacement and tsunami source geometry."
+    },
+    {
+      "source_id": "de-usgs-prediction",
+      "reason": "Exact earthquake prediction not available; probabilistic hazard assessment possible."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "de-007000-01",
+      "anchor": "A seismogram is a trace of motion through time",
+      "kind": "scientific_measurement",
+      "source_ids": [
+        "de-usgs-interior"
+      ],
+      "source_locator": "Seismic phases, core shadow zones, Earth layering, Oldham 1906.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "de-007000-02",
+      "anchor": "Earthquake early warning is possible in some regions because P waves travel faster than the most damaging later arrivals",
+      "kind": "scientific_mechanism",
+      "source_ids": [
+        "de-usgs-early"
+      ],
+      "source_locator": "Early warning after rupture begins, wave-speed differences, protective actions.",
+      "audit_status": "source_checked"
+    }
+  ],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original Dynamic Earth course lecture, scientific companion, and evidence-linked metadata."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Everyday scientific literacy; geological vocabulary and calculations are introduced in the narration."
+    ],
+    "readiness_checks": [
+      "Why does the P–S arrival-time gap constrain distance but not uniquely determine location?",
+      "Why may two neighborhoods experience different shaking from one earthquake of a single magnitude?"
+    ]
+  },
+  "places": [
+    "Indian Ocean",
+    "Tohoku, Japan"
+  ],
+  "chronology": {
+    "period": {
+      "start": 2011,
+      "label": "2011 Tohoku and 2004 Indian Ocean tsunami case studies",
+      "basis": "documented earthquake case studies",
+      "note": "This date describes a documented historical case or discovery, not the age of the geological mechanism.",
+      "source_ids": [
+        "de-noaa-tsunami"
+      ]
+    }
+  }
+}

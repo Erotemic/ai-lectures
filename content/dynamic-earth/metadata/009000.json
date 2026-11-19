@@ -1,0 +1,146 @@
+{
+  "schema_version": 1,
+  "lecture_id": "009000",
+  "transcript": "009000-why-volcanoes-behave-differently.md",
+  "description": "Distinguishes lava, ash, pyroclastic currents and lahars through volatile exsolution, viscosity, source geometry and documented Mount St. Helens and Iceland cases.",
+  "tags": [
+    "Volcanic eruption styles",
+    "Volcanic ash",
+    "Volatile exsolution",
+    "Magma viscosity",
+    "Pyroclastic density currents",
+    "Lahars",
+    "Stratovolcano",
+    "Caldera",
+    "Volcano monitoring",
+    "Volcanic risk"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Earth science",
+      "Geology",
+      "Volcanic eruption styles"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Geology",
+      "Volcanic ash"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Geology",
+      "Volatile exsolution"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Geology",
+      "Magma viscosity"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Geology",
+      "Pyroclastic density currents"
+    ],
+    [
+      "Place: Americas",
+      "Place: North America",
+      "Place: United States",
+      "Place: Washington",
+      "Place: Mount St. Helens"
+    ],
+    [
+      "Place: Americas",
+      "Place: North America",
+      "Place: United States",
+      "Place: Wyoming",
+      "Place: Yellowstone"
+    ],
+    [
+      "Place: Europe",
+      "Place: Iceland",
+      "Place: Eyjafjallajökull"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "de-usgs-volcano",
+      "reason": "Viscosity, dissolved gas, explosive versus effusive eruptions, pyroclastic hazards."
+    },
+    {
+      "source_id": "de-usgs-msh1980",
+      "reason": "1980 debris avalanche, lateral blast, decompression and ash-producing eruption."
+    },
+    {
+      "source_id": "de-usgs-lahars",
+      "reason": "Lahar production, mobility and downstream hazards."
+    },
+    {
+      "source_id": "de-usgs-yellowstone",
+      "reason": "Caldera, historical eruptions, hydrothermal and seismic hazards."
+    },
+    {
+      "source_id": "de-eurocontrol-2010",
+      "reason": "2010 Eyjafjallajokull airspace disruption and response."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "de-009000-01",
+      "anchor": "The 1980 eruption of Mount St. Helens offers a striking example",
+      "kind": "historical_event",
+      "source_ids": [
+        "de-usgs-msh1980"
+      ],
+      "source_locator": "1980 debris avalanche, lateral blast, decompression and ash-producing eruption.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "de-009000-02",
+      "anchor": "the 2010 Eyjafjallajökull eruption in Iceland",
+      "kind": "historical_event",
+      "source_ids": [
+        "de-eurocontrol-2010"
+      ],
+      "source_locator": "2010 Eyjafjallajokull airspace disruption and response.",
+      "audit_status": "source_checked"
+    }
+  ],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original Dynamic Earth course lecture, scientific companion, and evidence-linked metadata."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Everyday scientific literacy; geological vocabulary and calculations are introduced in the narration."
+    ],
+    "readiness_checks": [
+      "Why can a low-viscosity magma erupt explosively under some circumstances?",
+      "How does a lahar differ from a pyroclastic density current, and why can its danger extend far beyond the volcanic cone?"
+    ]
+  },
+  "places": [
+    "Mount St. Helens, Washington, United States",
+    "Yellowstone, Wyoming, United States",
+    "Eyjafjallajökull, Iceland"
+  ],
+  "chronology": {
+    "period": {
+      "start": 1980,
+      "label": "1980 Mount St. Helens eruption (and 2010 Eyjafjallajökull comparison)",
+      "basis": "documented historical eruption case study",
+      "note": "This date describes a documented historical case or discovery, not the age of the geological mechanism.",
+      "source_ids": [
+        "de-usgs-msh1980",
+        "de-eurocontrol-2010"
+      ]
+    }
+  }
+}

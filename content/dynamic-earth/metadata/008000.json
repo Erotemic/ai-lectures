@@ -1,0 +1,132 @@
+{
+  "schema_version": 1,
+  "lecture_id": "008000",
+  "transcript": "008000-how-rock-becomes-magma.md",
+  "description": "Separates decompression, volatile-assisted, and thermal melting from later crystallization, contamination, gas exsolution and magma ascent.",
+  "tags": [
+    "Magma genesis",
+    "Partial melting",
+    "Peridotite",
+    "Solidus",
+    "Decompression melting",
+    "Flux melting",
+    "Fractional crystallization",
+    "Magma reservoirs",
+    "Volatiles",
+    "Hawaiian hotspot"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Earth science",
+      "Geology",
+      "Magma genesis"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Geology",
+      "Partial melting"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Geology",
+      "Peridotite"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Geology",
+      "Solidus"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Geology",
+      "Decompression melting"
+    ],
+    [
+      "Place: Americas",
+      "Place: North America",
+      "Place: United States",
+      "Place: Hawaii"
+    ],
+    [
+      "Place: Europe",
+      "Place: Iceland"
+    ],
+    [
+      "Place: Americas",
+      "Place: South America",
+      "Place: Andes"
+    ],
+    [
+      "Place: Asia",
+      "Place: East Asia",
+      "Place: Japan"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "de-usgs-volcano",
+      "reason": "Viscosity, dissolved gas, explosive versus effusive eruptions, pyroclastic hazards."
+    },
+    {
+      "source_id": "de-usgs-not-magma",
+      "reason": "Solid mantle, rheological timescales, liquid outer core and localized partial melt."
+    },
+    {
+      "source_id": "de-usgs-heat",
+      "reason": "Source regions and geochemical evolution of basaltic and rhyolitic magma."
+    },
+    {
+      "source_id": "de-usgs-boundaries",
+      "reason": "Divergent, convergent and transform boundaries, the Mid-Atlantic Ridge and San Andreas motion."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "de-008000-01",
+      "anchor": "The first major way to make magma is decompression melting",
+      "kind": "scientific_mechanism",
+      "source_ids": [
+        "de-usgs-boundaries"
+      ],
+      "source_locator": "Divergent, convergent and transform boundaries, the Mid-Atlantic Ridge and San Andreas motion.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "de-008000-02",
+      "anchor": "Water alters the melting behavior of the mantle",
+      "kind": "scientific_mechanism",
+      "source_ids": [
+        "de-usgs-not-magma"
+      ],
+      "source_locator": "Solid mantle, rheological timescales, liquid outer core and localized partial melt.",
+      "audit_status": "source_checked"
+    }
+  ],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original Dynamic Earth course lecture, scientific companion, and evidence-linked metadata."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Everyday scientific literacy; geological vocabulary and calculations are introduced in the narration."
+    ],
+    "readiness_checks": [
+      "Why can hot solid mantle partially melt when it rises without receiving additional heat?",
+      "How does water released from a subducting slab influence the mantle wedge rather than requiring the entire slab to liquefy?"
+    ]
+  },
+  "places": [
+    "Hawaii, United States",
+    "Iceland",
+    "Andes, South America",
+    "Japan"
+  ]
+}

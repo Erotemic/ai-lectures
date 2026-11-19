@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "lecture_id": "002000",
+  "transcript": "002000-the-planet-we-cannot-open.md",
+  "description": "Derives the layered solid mantle, liquid outer core and solid inner core from body-wave paths, shadow zones, mechanical rheology and complementary gravity data.",
+  "tags": [
+    "Seismic waves",
+    "P waves",
+    "S waves",
+    "Earth interior",
+    "Moho",
+    "Seismic tomography",
+    "Liquid outer core",
+    "Mantle rheology",
+    "Oldham"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Earth science",
+      "Geology",
+      "Seismic waves"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Geology",
+      "P waves"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Geology",
+      "S waves"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Geology",
+      "Earth interior"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Geology",
+      "Moho"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "de-usgs-interior",
+      "reason": "Seismic phases, core shadow zones, Earth layering, Oldham 1906."
+    },
+    {
+      "source_id": "de-usgs-not-magma",
+      "reason": "Solid mantle, rheological timescales, liquid outer core and localized partial melt."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "de-002000-01",
+      "anchor": "One of the major historical discoveries came from Richard Dixon Oldham's interpretation of earthquake records in 1906",
+      "kind": "historical_event",
+      "source_ids": [
+        "de-usgs-interior"
+      ],
+      "source_locator": "Seismic phases, core shadow zones, Earth layering, Oldham 1906.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "de-002000-02",
+      "anchor": "the outer core behaves as a liquid, while the inner core is solid under immense pressure",
+      "kind": "scientific_inference",
+      "source_ids": [
+        "de-usgs-interior"
+      ],
+      "source_locator": "Seismic phases, core shadow zones, Earth layering, Oldham 1906.",
+      "audit_status": "source_checked"
+    }
+  ],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original Dynamic Earth course lecture, scientific companion, and evidence-linked metadata."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Everyday scientific literacy; geological vocabulary and calculations are introduced in the narration."
+    ],
+    "readiness_checks": [
+      "Why can a solid mantle deform over millions of years while transmitting shear waves over seconds?",
+      "Why does a wave-speed anomaly alone fail to prove a local pocket of magma?"
+    ]
+  },
+  "chronology": {
+    "period": {
+      "start": 1906,
+      "label": "Oldham’s inference of the terrestrial core from seismic observations",
+      "basis": "documented historical research",
+      "note": "This date describes a documented historical case or discovery, not the age of the geological mechanism.",
+      "source_ids": [
+        "de-usgs-interior"
+      ]
+    }
+  }
+}

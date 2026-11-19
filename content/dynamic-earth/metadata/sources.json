@@ -1,0 +1,152 @@
+{
+  "schema_version": 1,
+  "sources": {
+    "de-usgs-theory": {
+      "title": "USGS, This Dynamic Earth: Developing the Theory",
+      "url": "https://pubs.usgs.gov/gip/dynamic/developing.html",
+      "kind": "government_science_education",
+      "access": "free_no_login",
+      "notes": "Evidence for continental drift, ocean mapping, magnetic reversals, seafloor spreading and global seismicity."
+    },
+    "de-usgs-boundaries": {
+      "title": "USGS, This Dynamic Earth: Understanding Plate Motions",
+      "url": "https://pubs.usgs.gov/gip/dynamic/understanding.html",
+      "kind": "government_science_education",
+      "access": "free_no_login",
+      "notes": "Divergent, convergent and transform boundaries, the Mid-Atlantic Ridge and San Andreas motion."
+    },
+    "de-usgs-speed": {
+      "title": "USGS, How fast do tectonic plates move?",
+      "url": "https://www.usgs.gov/faqs/how-fast-do-tectonic-plates-move",
+      "kind": "government_science_education",
+      "access": "free_no_login",
+      "notes": "GNSS plate speed, seafloor magnetic age estimates, rates of plate motion."
+    },
+    "de-usgs-interior": {
+      "title": "USGS, The Interior of the Earth",
+      "url": "https://pubs.usgs.gov/gip/interior/index.html",
+      "kind": "government_science_education",
+      "access": "free_no_login",
+      "notes": "Seismic phases, core shadow zones, Earth layering, Oldham 1906."
+    },
+    "de-usgs-not-magma": {
+      "title": "USGS, Are tectonic plates floating on magma?",
+      "url": "https://www.usgs.gov/faqs/are-tectonic-plates-floating-magma",
+      "kind": "government_science_education",
+      "access": "free_no_login",
+      "notes": "Solid mantle, rheological timescales, liquid outer core and localized partial melt."
+    },
+    "de-bgs-forces": {
+      "title": "British Geological Survey, What Causes Earthquakes?",
+      "url": "https://www.bgs.ac.uk/discovering-geology/earth-hazards/earthquakes/what-causes-earthquakes/",
+      "kind": "geological_survey_educational",
+      "access": "free_no_login",
+      "notes": "Plate motion forces and boundary/fault types."
+    },
+    "de-geolsoc-forces": {
+      "title": "Geological Society of London, Plate Movement",
+      "url": "https://www.geolsoc.org.uk/Plate-Tectonics/Chap2-What-is-a-Plate/Plate-Movement.html",
+      "kind": "professional_society_education",
+      "access": "free_no_login",
+      "notes": "Slab pull and coupled mantle-plate force balance; simplifying conveyor belt inadequacy."
+    },
+    "de-openstax-forces": {
+      "title": "Earle, Physical Geology 2nd Edition: Mechanisms for Plate Motion",
+      "url": "https://opentextbc.ca/physicalgeology2ed/chapter/10-5-mechanisms-for-plate-motion/",
+      "kind": "open_textbook",
+      "access": "free_no_login",
+      "notes": "Relationship among slab pull, ridge push, and mantle convection."
+    },
+    "de-noaa-vents": {
+      "title": "NOAA Ocean Service, What is a hydrothermal vent?",
+      "url": "https://oceanservice.noaa.gov/facts/vents.html",
+      "kind": "government_education",
+      "access": "free_no_login",
+      "notes": "Hydrothermal seawater circulation, hot-fluid chemistry and vent ecosystems."
+    },
+    "de-noaa-tsunami": {
+      "title": "NOAA, The Science Behind Tsunamis",
+      "url": "https://www.noaa.gov/explainers/science-behind-tsunamis",
+      "kind": "government_science_education",
+      "access": "free_no_login",
+      "notes": "Sea-floor displacement and tsunami source geometry."
+    },
+    "de-noaa-source": {
+      "title": "NOAA, Tsunami Generation: Earthquakes",
+      "url": "https://www.noaa.gov/jetstream/tsunamis/tsunami-generation-earthquakes",
+      "kind": "government_science_education",
+      "access": "free_no_login",
+      "notes": "Subduction megathrust and tsunami mechanisms, geomorphology and spatial impact."
+    },
+    "de-usgs-reid": {
+      "title": "USGS, Reid's Elastic Rebound Theory",
+      "url": "https://earthquake.usgs.gov/earthquakes/events/1906calif/18april/reid.php",
+      "kind": "government_science_history",
+      "access": "free_no_login",
+      "notes": "Harry Fielding Reid and the 1906 San Francisco earthquake observations."
+    },
+    "de-usgs-magnitude": {
+      "title": "USGS, Earthquake Magnitude, Energy Release, and Shaking Intensity",
+      "url": "https://www.usgs.gov/programs/earthquake-hazards/earthquake-magnitude-energy-release-and-shaking-intensity",
+      "kind": "government_science_education",
+      "access": "free_no_login",
+      "notes": "Difference between magnitude, moment, radiated energy, and geographic shaking intensity."
+    },
+    "de-usgs-prediction": {
+      "title": "USGS, Can You Predict Earthquakes?",
+      "url": "https://www.usgs.gov/faqs/can-you-predict-earthquakes",
+      "kind": "government_science_education",
+      "access": "free_no_login",
+      "notes": "Exact earthquake prediction not available; probabilistic hazard assessment possible."
+    },
+    "de-usgs-early": {
+      "title": "USGS, Earthquake Early Warning Overview",
+      "url": "https://www.usgs.gov/programs/earthquake-hazards/science/earthquake-early-warning-overview",
+      "kind": "government_science_education",
+      "access": "free_no_login",
+      "notes": "Early warning after rupture begins, wave-speed differences, protective actions."
+    },
+    "de-usgs-volcano": {
+      "title": "USGS, How Do Volcanoes Erupt?",
+      "url": "https://www.usgs.gov/faqs/how-do-volcanoes-erupt",
+      "kind": "government_science_education",
+      "access": "free_no_login",
+      "notes": "Viscosity, dissolved gas, explosive versus effusive eruptions, pyroclastic hazards."
+    },
+    "de-usgs-yellowstone": {
+      "title": "USGS, Volcanic Hazards at Yellowstone",
+      "url": "https://www.usgs.gov/volcanoes/yellowstone/science/volcanic-hazards-yellowstone",
+      "kind": "government_science_education",
+      "access": "free_no_login",
+      "notes": "Caldera, historical eruptions, hydrothermal and seismic hazards."
+    },
+    "de-usgs-heat": {
+      "title": "USGS, The Source of Yellowstone's Heat",
+      "url": "https://www.usgs.gov/observatories/yvo/news/source-yellowstones-heat",
+      "kind": "government_research_explainer",
+      "access": "free_no_login",
+      "notes": "Source regions and geochemical evolution of basaltic and rhyolitic magma."
+    },
+    "de-usgs-msh1980": {
+      "title": "USGS, 1980 Cataclysmic Eruption of Mount St. Helens",
+      "url": "https://www.usgs.gov/volcanoes/mount-st.-helens/science/1980-cataclysmic-eruption",
+      "kind": "government_volcano_case_study",
+      "access": "free_no_login",
+      "notes": "1980 debris avalanche, lateral blast, decompression and ash-producing eruption."
+    },
+    "de-usgs-lahars": {
+      "title": "USGS, Lahars: Origins, Behavior and Hazards (2024)",
+      "url": "https://www.usgs.gov/publications/lahars-origins-behavior-and-hazards",
+      "kind": "government_research_synthesis",
+      "access": "free_no_login",
+      "notes": "Lahar production, mobility and downstream hazards."
+    },
+    "de-eurocontrol-2010": {
+      "title": "EUROCONTROL, Ash-Cloud of April and May 2010: Impact on Air Traffic",
+      "url": "https://www.eurocontrol.int/publication/ash-cloud-april-and-may-2010-impact-air-traffic",
+      "kind": "primary_government_report",
+      "access": "free_no_login",
+      "notes": "2010 Eyjafjallajokull airspace disruption and response."
+    }
+  }
+}

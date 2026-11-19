@@ -1,0 +1,136 @@
+{
+  "default_collection": "dynamic-earth-main",
+  "collections": [
+    {
+      "id": "dynamic-earth-main",
+      "title": "The Dynamic Earth · Plates, Quakes, and Volcanoes",
+      "role": "main",
+      "categories": [
+        "Science and nature"
+      ],
+      "summary": "From the plate-tectonic evidence to the physics of earthquakes and contrasting volcanic hazards. Nine standalone lectures in an integrated sequence.",
+      "tags": [
+        "Earth science",
+        "Geophysics",
+        "Geology"
+      ],
+      "chapters": [
+        {
+          "title": "How the Moving Earth Was Discovered",
+          "lectures": [
+            "001000",
+            "002000"
+          ],
+          "collection": "tectonics-evidence-and-interior"
+        },
+        {
+          "title": "How Plates Move and Recycle",
+          "lectures": [
+            "003000",
+            "004000",
+            "005000"
+          ],
+          "collection": "plate-motion-and-boundaries"
+        },
+        {
+          "title": "Why Faults Break and How Waves Travel",
+          "lectures": [
+            "006000",
+            "007000"
+          ],
+          "collection": "earthquakes-and-seismology"
+        },
+        {
+          "title": "How Magma Forms and Volcanoes Erupt",
+          "lectures": [
+            "008000",
+            "009000"
+          ],
+          "collection": "magma-and-eruptions"
+        }
+      ]
+    },
+    {
+      "id": "tectonics-evidence-and-interior",
+      "title": "Dynamic Earth · Plate Evidence and the Hidden Interior",
+      "role": "deep_dive",
+      "parent": "dynamic-earth-main",
+      "summary": "Reconstructs the discovery of plate tectonics and the seismic evidence for an internally layered, mostly solid planet.",
+      "tags": [
+        "Plate tectonics",
+        "Seismic tomography"
+      ],
+      "lectures": [
+        "001000",
+        "002000"
+      ]
+    },
+    {
+      "id": "plate-motion-and-boundaries",
+      "title": "Dynamic Earth · Plates and Their Boundaries",
+      "role": "deep_dive",
+      "parent": "dynamic-earth-main",
+      "summary": "Slab pull, ridge gravity, divergent and transform boundaries, and subducting oceanic lithosphere.",
+      "tags": [
+        "Plate motion",
+        "Subduction",
+        "Ocean ridges"
+      ],
+      "lectures": [
+        "003000",
+        "004000",
+        "005000"
+      ]
+    },
+    {
+      "id": "earthquakes-and-seismology",
+      "title": "Dynamic Earth · Earthquake Mechanics and Evidence",
+      "role": "deep_dive",
+      "parent": "dynamic-earth-main",
+      "summary": "Elastic loading, friction, moment and magnitude, wave observations, intensity and tsunamis.",
+      "tags": [
+        "Earthquake physics",
+        "Seismology",
+        "Tsunamis"
+      ],
+      "lectures": [
+        "006000",
+        "007000"
+      ]
+    },
+    {
+      "id": "magma-and-eruptions",
+      "title": "Dynamic Earth · Magma and Eruptions",
+      "role": "deep_dive",
+      "parent": "dynamic-earth-main",
+      "summary": "Partial melting, differentiation, gas escape and the difference between lava, ash, pyroclastic flows and lahars.",
+      "tags": [
+        "Volcanology",
+        "Magmatism",
+        "Volcano hazards"
+      ],
+      "lectures": [
+        "008000",
+        "009000"
+      ]
+    },
+    {
+      "id": "dynamic-earth-synthesis",
+      "title": "Dynamic Earth · Evidence to Consequences",
+      "role": "deep_dive",
+      "parent": "dynamic-earth-main",
+      "summary": "A short cross-cutting route from evidence of motion through deep recycling to earthquake and volcano mechanisms.",
+      "tags": [
+        "Plate tectonics",
+        "Hazards",
+        "Evidence"
+      ],
+      "lectures": [
+        "001000",
+        "005000",
+        "006000",
+        "009000"
+      ]
+    }
+  ]
+}

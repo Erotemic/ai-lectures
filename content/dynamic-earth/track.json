@@ -1,0 +1,623 @@
+{
+  "id": "dynamic-earth",
+  "title": "The Dynamic Earth: Plates, Quakes, and Volcanoes",
+  "summary": "Nine standalone, evidence-led audio lectures on how solid Earth moves: discovery of plate tectonics, the deep interior, the driving forces, ridges, subduction, earthquake mechanics, seismic observations, magma and eruption hazards.",
+  "categories": [
+    "Science and nature"
+  ],
+  "audiences": [
+    "general",
+    "science enthusiasts",
+    "adult learners"
+  ],
+  "tags": [
+    "Earth science",
+    "Geology",
+    "Geophysics",
+    "Plate tectonics",
+    "Earthquakes",
+    "Volcanology",
+    "Tectonic plates",
+    "Mantle convection",
+    "Earth interior",
+    "Geological hazards"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Earth science",
+      "Geology"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Geophysics"
+    ]
+  ],
+  "assumed_background": [
+    "Basic familiarity with the Earth as a rocky planet. No prior course or advanced mathematics required."
+  ],
+  "editorial_status": "in_progress",
+  "sections": [
+    "evidence_for_plate_tectonics",
+    "seismic_interior",
+    "plate_forces_and_rheology",
+    "ocean_ridges_and_transforms",
+    "subduction_and_arcs",
+    "earthquake_mechanics",
+    "seismology_and_hazards",
+    "magmatism_and_differentiation",
+    "eruption_dynamics_and_risks"
+  ],
+  "lectures": [
+    {
+      "id": "001000",
+      "title": "The Ocean Floor Gave Earth Away: How Plate Tectonics Became Testable",
+      "section": "evidence_for_plate_tectonics",
+      "file": "001000-the-ocean-floor-gave-earth-away.md",
+      "spoken_words": 1399,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 9.6,
+      "description": "Reconstructs plate tectonics from ocean-floor age, symmetrical magnetic reversal bands, earthquake belts and modern GNSS motion, distinguishing plates from continents.",
+      "tags": [
+        "Plate tectonics",
+        "Continental drift",
+        "Seafloor spreading",
+        "Magnetic reversals",
+        "Wegener",
+        "Paleomagnetism",
+        "Geodesy",
+        "Ocean floor ages",
+        "Wadati–Benioff zones"
+      ],
+      "tag_paths": [
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Plate tectonics"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Continental drift"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Seafloor spreading"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Magnetic reversals"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Wegener"
+        ],
+        [
+          "Place: Atlantic Ocean"
+        ],
+        [
+          "Place: Americas",
+          "Place: South America"
+        ],
+        [
+          "Place: Africa"
+        ]
+      ]
+    },
+    {
+      "id": "002000",
+      "title": "The Planet We Cannot Open: How Seismic Waves Reveal the Interior",
+      "section": "seismic_interior",
+      "file": "002000-the-planet-we-cannot-open.md",
+      "spoken_words": 1322,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 9.1,
+      "description": "Derives the layered solid mantle, liquid outer core and solid inner core from body-wave paths, shadow zones, mechanical rheology and complementary gravity data.",
+      "tags": [
+        "Seismic waves",
+        "P waves",
+        "S waves",
+        "Earth interior",
+        "Moho",
+        "Seismic tomography",
+        "Liquid outer core",
+        "Mantle rheology",
+        "Oldham"
+      ],
+      "tag_paths": [
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Seismic waves"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "P waves"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "S waves"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Earth interior"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Moho"
+        ]
+      ]
+    },
+    {
+      "id": "003000",
+      "title": "The Engine Is Not a Conveyor Belt: Why Tectonic Plates Move",
+      "section": "plate_forces_and_rheology",
+      "file": "003000-why-the-plates-move.md",
+      "spoken_words": 1361,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 9.4,
+      "description": "Teaches slab pull, ridge gravitational potential, mantle coupling, viscous resistance and the limits of textbook convection-belt cartoons.",
+      "tags": [
+        "Mantle convection",
+        "Slab pull",
+        "Ridge push",
+        "Tectonic plate forces",
+        "Lithosphere",
+        "Asthenosphere",
+        "Rheology",
+        "Mantle heat",
+        "Geodynamics"
+      ],
+      "tag_paths": [
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Mantle convection"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Slab pull"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Ridge push"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Tectonic plate forces"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Lithosphere"
+        ]
+      ]
+    },
+    {
+      "id": "004000",
+      "title": "The Ridge Is a Factory: Building Ocean Floor and Sliding Along Its Seams",
+      "section": "ocean_ridges_and_transforms",
+      "file": "004000-the-ridge-is-a-factory.md",
+      "spoken_words": 1203,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 8.3,
+      "description": "Explains partial melting by decompression, newly formed oceanic crust, cooling and depth, active transforms versus inactive fracture zones and hydrothermal alteration.",
+      "tags": [
+        "Mid-ocean ridges",
+        "Oceanic lithosphere",
+        "Decompression melting",
+        "Ocean crust",
+        "Transform faults",
+        "Fracture zones",
+        "Hydrothermal vents",
+        "Pillow basalt",
+        "Half spreading rates"
+      ],
+      "tag_paths": [
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Mid-ocean ridges"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Oceanic lithosphere"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Decompression melting"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Ocean crust"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Transform faults"
+        ],
+        [
+          "Place: Atlantic Ocean",
+          "Place: Mid-Atlantic Ridge"
+        ]
+      ]
+    },
+    {
+      "id": "005000",
+      "title": "Where the Ocean Floor Goes: Subduction, Arcs, and Colliding Continents",
+      "section": "subduction_and_arcs",
+      "file": "005000-where-ocean-floor-goes.md",
+      "spoken_words": 1201,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 8.3,
+      "description": "Connects slab bending, Wadati–Benioff seismicity, fluid-assisted mantle-wedge melting, megathrust rupture, tsunamis and continental collisions.",
+      "tags": [
+        "Subduction",
+        "Mantle wedge",
+        "Flux melting",
+        "Volcanic arc",
+        "Megathrust",
+        "Wadati–Benioff zone",
+        "Andes",
+        "Japan trenches",
+        "Continental collision",
+        "Himalaya",
+        "Tsunami"
+      ],
+      "tag_paths": [
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Subduction"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Mantle wedge"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Flux melting"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Volcanic arc"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Megathrust"
+        ],
+        [
+          "Place: Americas",
+          "Place: South America",
+          "Place: Andes"
+        ],
+        [
+          "Place: Asia",
+          "Place: East Asia",
+          "Place: Japan"
+        ],
+        [
+          "Place: Asia",
+          "Place: Himalaya"
+        ],
+        [
+          "Place: Asia",
+          "Place: Tibetan Plateau"
+        ]
+      ]
+    },
+    {
+      "id": "006000",
+      "title": "Why a Fault Lets Go: Elastic Strain, Friction, and Earthquake Rupture",
+      "section": "earthquake_mechanics",
+      "file": "006000-why-a-fault-lets-go.md",
+      "spoken_words": 1227,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 8.5,
+      "description": "Builds the elastic rebound model, fault types, effective stress and friction, propagating rupture, seismic moment, magnitude scaling and limits of earthquake prediction.",
+      "tags": [
+        "Earthquake physics",
+        "Elastic rebound",
+        "Fault friction",
+        "Normal faults",
+        "Thrust faults",
+        "Strike-slip faults",
+        "Seismic moment",
+        "Moment magnitude",
+        "Aftershocks",
+        "Earthquake forecasting"
+      ],
+      "tag_paths": [
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Earthquake physics"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Elastic rebound"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Fault friction"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Normal faults"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Thrust faults"
+        ],
+        [
+          "Place: Americas",
+          "Place: North America",
+          "Place: United States",
+          "Place: California",
+          "Place: San Francisco"
+        ]
+      ]
+    },
+    {
+      "id": "007000",
+      "title": "Listening to the Rupture: Seismic Waves, Shaking, and Tsunamis",
+      "section": "seismology_and_hazards",
+      "file": "007000-listening-to-the-rupture.md",
+      "spoken_words": 1325,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 9.1,
+      "description": "Reads P- and S-wave arrival times, hypocenters, focal mechanisms, magnitude versus local shaking, basin effects, tsunamis and early-warning limits.",
+      "tags": [
+        "Seismology",
+        "Hypocenter",
+        "Epicenter",
+        "Seismic travel time",
+        "Focal mechanisms",
+        "Seismic intensity",
+        "Site amplification",
+        "Tsunami physics",
+        "Earthquake early warning"
+      ],
+      "tag_paths": [
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Seismology"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Hypocenter"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Epicenter"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Seismic travel time"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Focal mechanisms"
+        ],
+        [
+          "Place: Indian Ocean"
+        ],
+        [
+          "Place: Asia",
+          "Place: East Asia",
+          "Place: Japan",
+          "Place: Tohoku"
+        ]
+      ]
+    },
+    {
+      "id": "008000",
+      "title": "How Rock Becomes Magma: Melting Without an Underground Ocean",
+      "section": "magmatism_and_differentiation",
+      "file": "008000-how-rock-becomes-magma.md",
+      "spoken_words": 1218,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 8.4,
+      "description": "Separates decompression, volatile-assisted, and thermal melting from later crystallization, contamination, gas exsolution and magma ascent.",
+      "tags": [
+        "Magma genesis",
+        "Partial melting",
+        "Peridotite",
+        "Solidus",
+        "Decompression melting",
+        "Flux melting",
+        "Fractional crystallization",
+        "Magma reservoirs",
+        "Volatiles",
+        "Hawaiian hotspot"
+      ],
+      "tag_paths": [
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Magma genesis"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Partial melting"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Peridotite"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Solidus"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Decompression melting"
+        ],
+        [
+          "Place: Americas",
+          "Place: North America",
+          "Place: United States",
+          "Place: Hawaii"
+        ],
+        [
+          "Place: Europe",
+          "Place: Iceland"
+        ],
+        [
+          "Place: Americas",
+          "Place: South America",
+          "Place: Andes"
+        ],
+        [
+          "Place: Asia",
+          "Place: East Asia",
+          "Place: Japan"
+        ]
+      ]
+    },
+    {
+      "id": "009000",
+      "title": "Why Volcanoes Behave Differently: Lava, Ash, and the Anatomy of an Eruption",
+      "section": "eruption_dynamics_and_risks",
+      "file": "009000-why-volcanoes-behave-differently.md",
+      "spoken_words": 1391,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 9.6,
+      "description": "Distinguishes lava, ash, pyroclastic currents and lahars through volatile exsolution, viscosity, source geometry and documented Mount St. Helens and Iceland cases.",
+      "tags": [
+        "Volcanic eruption styles",
+        "Volcanic ash",
+        "Volatile exsolution",
+        "Magma viscosity",
+        "Pyroclastic density currents",
+        "Lahars",
+        "Stratovolcano",
+        "Caldera",
+        "Volcano monitoring",
+        "Volcanic risk"
+      ],
+      "tag_paths": [
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Volcanic eruption styles"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Volcanic ash"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Volatile exsolution"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Magma viscosity"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Pyroclastic density currents"
+        ],
+        [
+          "Place: Americas",
+          "Place: North America",
+          "Place: United States",
+          "Place: Washington",
+          "Place: Mount St. Helens"
+        ],
+        [
+          "Place: Americas",
+          "Place: North America",
+          "Place: United States",
+          "Place: Wyoming",
+          "Place: Yellowstone"
+        ],
+        [
+          "Place: Europe",
+          "Place: Iceland",
+          "Place: Eyjafjallajökull"
+        ]
+      ]
+    }
+  ]
+}

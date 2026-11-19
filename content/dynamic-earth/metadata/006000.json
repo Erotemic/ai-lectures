@@ -1,0 +1,127 @@
+{
+  "schema_version": 1,
+  "lecture_id": "006000",
+  "transcript": "006000-why-a-fault-lets-go.md",
+  "description": "Builds the elastic rebound model, fault types, effective stress and friction, propagating rupture, seismic moment, magnitude scaling and limits of earthquake prediction.",
+  "tags": [
+    "Earthquake physics",
+    "Elastic rebound",
+    "Fault friction",
+    "Normal faults",
+    "Thrust faults",
+    "Strike-slip faults",
+    "Seismic moment",
+    "Moment magnitude",
+    "Aftershocks",
+    "Earthquake forecasting"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Earth science",
+      "Geology",
+      "Earthquake physics"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Geology",
+      "Elastic rebound"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Geology",
+      "Fault friction"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Geology",
+      "Normal faults"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Geology",
+      "Thrust faults"
+    ],
+    [
+      "Place: Americas",
+      "Place: North America",
+      "Place: United States",
+      "Place: California",
+      "Place: San Francisco"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "de-usgs-reid",
+      "reason": "Harry Fielding Reid and the 1906 San Francisco earthquake observations."
+    },
+    {
+      "source_id": "de-usgs-magnitude",
+      "reason": "Difference between magnitude, moment, radiated energy, and geographic shaking intensity."
+    },
+    {
+      "source_id": "de-usgs-prediction",
+      "reason": "Exact earthquake prediction not available; probabilistic hazard assessment possible."
+    },
+    {
+      "source_id": "de-bgs-forces",
+      "reason": "Plate motion forces and boundary/fault types."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "de-006000-01",
+      "anchor": "The elastic-rebound explanation emerged after the 1906 San Francisco earthquake",
+      "kind": "historical_event",
+      "source_ids": [
+        "de-usgs-reid"
+      ],
+      "source_locator": "Harry Fielding Reid and the 1906 San Francisco earthquake observations.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "de-006000-02",
+      "anchor": "An increase of one unit in moment magnitude corresponds to about thirty-two times greater seismic moment",
+      "kind": "scientific_quantitative",
+      "source_ids": [
+        "de-usgs-magnitude"
+      ],
+      "source_locator": "Difference between magnitude, moment, radiated energy, and geographic shaking intensity.",
+      "audit_status": "source_checked"
+    }
+  ],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original Dynamic Earth course lecture, scientific companion, and evidence-linked metadata."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Everyday scientific literacy; geological vocabulary and calculations are introduced in the narration."
+    ],
+    "readiness_checks": [
+      "Why can a fault remain stationary locally while plates continue moving around it?",
+      "Why does seismic moment depend on rupture area as well as average slip?"
+    ]
+  },
+  "places": [
+    "San Francisco, California, United States"
+  ],
+  "chronology": {
+    "period": {
+      "start": 1906,
+      "label": "1906 San Francisco earthquake and Reid’s elastic rebound interpretation",
+      "basis": "documented historical earthquake",
+      "note": "This date describes a documented historical case or discovery, not the age of the geological mechanism.",
+      "source_ids": [
+        "de-usgs-reid"
+      ]
+    }
+  }
+}

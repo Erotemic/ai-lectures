@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "lecture_id": "004000",
+  "transcript": "004000-the-ridge-is-a-factory.md",
+  "description": "Explains partial melting by decompression, newly formed oceanic crust, cooling and depth, active transforms versus inactive fracture zones and hydrothermal alteration.",
+  "tags": [
+    "Mid-ocean ridges",
+    "Oceanic lithosphere",
+    "Decompression melting",
+    "Ocean crust",
+    "Transform faults",
+    "Fracture zones",
+    "Hydrothermal vents",
+    "Pillow basalt",
+    "Half spreading rates"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Earth science",
+      "Geology",
+      "Mid-ocean ridges"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Geology",
+      "Oceanic lithosphere"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Geology",
+      "Decompression melting"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Geology",
+      "Ocean crust"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Geology",
+      "Transform faults"
+    ],
+    [
+      "Place: Atlantic Ocean",
+      "Place: Mid-Atlantic Ridge"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "de-usgs-boundaries",
+      "reason": "Divergent, convergent and transform boundaries, the Mid-Atlantic Ridge and San Andreas motion."
+    },
+    {
+      "source_id": "de-usgs-theory",
+      "reason": "Evidence for continental drift, ocean mapping, magnetic reversals, seafloor spreading and global seismicity."
+    },
+    {
+      "source_id": "de-noaa-vents",
+      "reason": "Hydrothermal seawater circulation, hot-fluid chemistry and vent ecosystems."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "de-004000-01",
+      "anchor": "As it rises, its pressure falls",
+      "kind": "scientific_mechanism",
+      "source_ids": [
+        "de-usgs-not-magma",
+        "de-usgs-boundaries"
+      ],
+      "source_locator": "Solid mantle, rheological timescales, liquid outer core and localized partial melt.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "de-004000-02",
+      "anchor": "At hydrothermal vents, hot fluids may mix with cold seawater and precipitate metal sulfides",
+      "kind": "scientific_process",
+      "source_ids": [
+        "de-noaa-vents"
+      ],
+      "source_locator": "Hydrothermal seawater circulation, hot-fluid chemistry and vent ecosystems.",
+      "audit_status": "source_checked"
+    }
+  ],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original Dynamic Earth course lecture, scientific companion, and evidence-linked metadata."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Everyday scientific literacy; geological vocabulary and calculations are introduced in the narration."
+    ],
+    "readiness_checks": [
+      "Why does hot mantle decompressing below a ridge partly melt even if no additional heat is supplied?",
+      "Why can an ocean floor be deeper farther from its ridge without requiring a downward fault everywhere?"
+    ]
+  },
+  "places": [
+    "Mid-Atlantic Ridge"
+  ]
+}

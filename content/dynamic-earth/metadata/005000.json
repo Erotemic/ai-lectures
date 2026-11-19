@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "lecture_id": "005000",
+  "transcript": "005000-where-ocean-floor-goes.md",
+  "description": "Connects slab bending, Wadati–Benioff seismicity, fluid-assisted mantle-wedge melting, megathrust rupture, tsunamis and continental collisions.",
+  "tags": [
+    "Subduction",
+    "Mantle wedge",
+    "Flux melting",
+    "Volcanic arc",
+    "Megathrust",
+    "Wadati–Benioff zone",
+    "Andes",
+    "Japan trenches",
+    "Continental collision",
+    "Himalaya",
+    "Tsunami"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Earth science",
+      "Geology",
+      "Subduction"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Geology",
+      "Mantle wedge"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Geology",
+      "Flux melting"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Geology",
+      "Volcanic arc"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Geology",
+      "Megathrust"
+    ],
+    [
+      "Place: Americas",
+      "Place: South America",
+      "Place: Andes"
+    ],
+    [
+      "Place: Asia",
+      "Place: East Asia",
+      "Place: Japan"
+    ],
+    [
+      "Place: Asia",
+      "Place: Himalaya"
+    ],
+    [
+      "Place: Asia",
+      "Place: Tibetan Plateau"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "de-usgs-boundaries",
+      "reason": "Divergent, convergent and transform boundaries, the Mid-Atlantic Ridge and San Andreas motion."
+    },
+    {
+      "source_id": "de-noaa-tsunami",
+      "reason": "Sea-floor displacement and tsunami source geometry."
+    },
+    {
+      "source_id": "de-noaa-source",
+      "reason": "Subduction megathrust and tsunami mechanisms, geomorphology and spatial impact."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "de-005000-01",
+      "anchor": "The slab carries water in hydrated minerals and sediments",
+      "kind": "scientific_mechanism",
+      "source_ids": [
+        "de-usgs-boundaries"
+      ],
+      "source_locator": "Divergent, convergent and transform boundaries, the Mid-Atlantic Ridge and San Andreas motion.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "de-005000-02",
+      "anchor": "If the sea floor above the rupture rises or falls over a sufficiently large region, it can displace ocean water and launch a tsunami",
+      "kind": "scientific_mechanism",
+      "source_ids": [
+        "de-noaa-tsunami",
+        "de-noaa-source"
+      ],
+      "source_locator": "Sea-floor displacement and tsunami source geometry.",
+      "audit_status": "source_checked"
+    }
+  ],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original Dynamic Earth course lecture, scientific companion, and evidence-linked metadata."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Everyday scientific literacy; geological vocabulary and calculations are introduced in the narration."
+    ],
+    "readiness_checks": [
+      "Why can a volcanic arc form landward of the trench instead of exactly over it?",
+      "Why is a megathrust slip deficit not a countdown to an earthquake?"
+    ]
+  },
+  "places": [
+    "Andes, South America",
+    "Japan",
+    "Himalaya, Asia",
+    "Tibetan Plateau, Asia"
+  ]
+}

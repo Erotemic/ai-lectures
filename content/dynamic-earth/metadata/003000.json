@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "lecture_id": "003000",
+  "transcript": "003000-why-the-plates-move.md",
+  "description": "Teaches slab pull, ridge gravitational potential, mantle coupling, viscous resistance and the limits of textbook convection-belt cartoons.",
+  "tags": [
+    "Mantle convection",
+    "Slab pull",
+    "Ridge push",
+    "Tectonic plate forces",
+    "Lithosphere",
+    "Asthenosphere",
+    "Rheology",
+    "Mantle heat",
+    "Geodynamics"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Earth science",
+      "Geology",
+      "Mantle convection"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Geology",
+      "Slab pull"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Geology",
+      "Ridge push"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Geology",
+      "Tectonic plate forces"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Geology",
+      "Lithosphere"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "de-bgs-forces",
+      "reason": "Plate motion forces and boundary/fault types."
+    },
+    {
+      "source_id": "de-geolsoc-forces",
+      "reason": "Slab pull and coupled mantle-plate force balance; simplifying conveyor belt inadequacy."
+    },
+    {
+      "source_id": "de-openstax-forces",
+      "reason": "Relationship among slab pull, ridge push, and mantle convection."
+    },
+    {
+      "source_id": "de-usgs-not-magma",
+      "reason": "Solid mantle, rheological timescales, liquid outer core and localized partial melt."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "de-003000-01",
+      "anchor": "Cold, thick oceanic lithosphere can descend into the mantle",
+      "kind": "scientific_mechanism",
+      "source_ids": [
+        "de-bgs-forces",
+        "de-geolsoc-forces"
+      ],
+      "source_locator": "Plate motion forces and boundary/fault types.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "de-003000-02",
+      "anchor": "The asthenosphere beneath many plates is generally solid",
+      "kind": "scientific_mechanism",
+      "source_ids": [
+        "de-usgs-not-magma"
+      ],
+      "source_locator": "Solid mantle, rheological timescales, liquid outer core and localized partial melt.",
+      "audit_status": "source_checked"
+    }
+  ],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original Dynamic Earth course lecture, scientific companion, and evidence-linked metadata."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Everyday scientific literacy; geological vocabulary and calculations are introduced in the narration."
+    ],
+    "readiness_checks": [
+      "Why is slab pull compatible with mantle convection rather than a rival process that rules convection out?",
+      "Which observations would constrain a proposed model of plate-driving forces, and which remain model-dependent?"
+    ]
+  }
+}
