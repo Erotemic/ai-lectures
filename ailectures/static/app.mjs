@@ -28,7 +28,7 @@ import { referencesPage } from "./references.mjs";
 import { CatalogBrowser, revealAnchor } from "./browse.mjs";
 import { renderLearningMap } from "./learning-map.mjs";
 import { showSlideCompanions } from "./slide-companions.mjs";
-import { collectionReturnPath } from "./browse-model.mjs";
+import { collectionReturnPath, owningTrack } from "./browse-model.mjs";
 import { LectureAudio } from "./lecture-audio.mjs";
 import { listeningCourse, followingLecture, precedingLecture } from "./playback-route.mjs";
 import { renderLearningPlan } from "./learning-plan.mjs";
@@ -483,6 +483,7 @@ async function lecturePage(id, autoplay = false, historical = null) {
     })
     .catch(() => {});
   const course = catalog.courses.find((c) => c.id === currentCourse);
+  const track = owningTrack(row, catalog.courses);
   const returnTo = collectionReturnPath(new URLSearchParams(location.search).get("return"), course?.id, location.origin)
     || (course ? courseLink(course) : "/");
   const top = el(
@@ -495,6 +496,9 @@ async function lecturePage(id, autoplay = false, historical = null) {
       : course ? link("← " + course.title, returnTo) : link("Library", "/"),
     title(row.title),
     creatorLine(row, link),
+    el("p", {class:"lecture-track muted"}, track ? "Track: " : "Content pack: ",
+      link(track?.title || catalog.packs.find(pack=>pack.id===row.namespace)?.title || row.namespace,
+        track ? courseLink(track) : "/lectures?"+new URLSearchParams({pack:row.namespace}))),
     row.description ? description(row.description) : null,
     topicLinks(row.tags, link, 8),
     lectureTagPaths(row, link),
@@ -601,6 +605,10 @@ async function lecturePage(id, autoplay = false, historical = null) {
       ),
     );
   top.append(audio.root);
+  if (row.deck && catalog.legacy) top.append(el("p", {}, el("a", {
+    href: "/presentations?deck=" + encodeURIComponent(row.deck), text: "Open slides and handouts", target: "_blank", rel: "noopener",
+  })));
+
   if (row.companions?.length)
     top.append(
       el(

@@ -115,3 +115,12 @@ assert.equal(collectionReturnPath("/stats/other", null, reader), null);
 assert.equal(collectionReturnPath("/topic-graph?facet=Places&node=Japan", null, reader), "/topic-graph?facet=Places&node=Japan");
 assert.equal(collectionReturnPath("/metadata-audit?status=approved", null, reader), "/metadata-audit?status=approved");
 assert.equal(collectionReturnPath("https://other.test/topic-graph", null, reader), null);
+
+const {owningTrack}=await import('../ailectures/static/browse-model.mjs');
+const sourceTrack={id:'source:main',title:'Source track',lectures:['source:one']};
+const alternateRoute={id:'another:route',title:'Curated route',lectures:['source:one']};
+assert.equal(owningTrack({id:'source:one',namespace:'source'},[alternateRoute,sourceTrack]),sourceTrack);
+assert.equal(owningTrack({id:'source:unindexed'},[sourceTrack]),sourceTrack);
+assert.equal(owningTrack({id:'source:one'},[alternateRoute]),alternateRoute);
+assert.equal(owningTrack({id:'missing:one'},[sourceTrack]),null);
+console.log('Lecture track links prefer their source track over the current listening route.');

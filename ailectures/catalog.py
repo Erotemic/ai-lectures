@@ -290,6 +290,7 @@ class RepositoryCatalog:
                     "navigation.py",
                     "organization.py",
                     "presentations.py",
+                    "manuscripts.py",
                 )
             ]
         )

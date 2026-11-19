@@ -6,7 +6,6 @@ text and a manifest; it does not invoke a speech model or synthesize audio.
 from __future__ import annotations
 
 import argparse
-from dataclasses import dataclass
 import json
 from pathlib import Path
 import re
@@ -15,46 +14,12 @@ from dkvis.decks import DECKS, get_deck
 from dkvis.presentation.paths import ROOT
 
 
-@dataclass(frozen=True)
-class Narration:
-    title: str
-    motivation: str
-    reminder: str
-    beats: tuple[str, ...]
-    pauses: tuple[float, ...] = ()
-
-    @property
-    def text(self) -> str:
-        return "\n\n".join(self.beats)
+# The portable reader owns parsing; existing production imports remain valid.
+from ailectures.manuscripts import Narration, read_scene_narration
 
 
 def read_narration(path: Path, *, scenes) -> dict[str, Narration]:
-    source = path.read_text()
-    headings = list(re.finditer(r"^## ([A-Za-z_]\w*): (.+)$", source, re.MULTILINE))
-    result = {}
-    for i, match in enumerate(headings):
-        name, title = match.groups()
-        end = headings[i+1].start() if i+1 < len(headings) else len(source)
-        body = source[match.end():end].strip()
-        why = re.match(r"Why: ([^\n]+)\n", body)
-        if not why:
-            raise ValueError(f"missing learner motivation: {name}")
-        body = body[why.end():].strip()
-        recall = re.match(r"Recall: ([^\n]+)\n", body)
-        if not recall:
-            raise ValueError(f"missing local notation reminder: {name}")
-        body = body[recall.end():].strip()
-        if name in result or not body:
-            raise ValueError(f"duplicate or empty narration section: {name}")
-        # Preserve paragraph pauses but join source wrapping within each paragraph.
-        beats = tuple("\n\n".join(" ".join(p.split()) for p in beat.split("\n\n") if p.strip())
-                      for beat in body.split("<!-- beat -->"))
-        if not all(beats):
-            raise ValueError(f"empty narration build: {name}")
-        result[name] = Narration(title, why.group(1), recall.group(1), beats)
-    if list(result) != list(scenes):
-        raise ValueError(f"narration sections must follow the deck's scene order: {path}")
-    return result
+    return read_scene_narration(path.read_text(), scenes=scenes, source_name=str(path))
 
 
 def narrated_decks() -> list[str]:

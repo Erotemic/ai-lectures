@@ -74,7 +74,7 @@ export function renderAllLectures(main, catalog, { item, link, reactions }) {
     showAll.textContent = `Show all ${rows.length.toLocaleString()} matching lectures`;
     showAll.onclick = () => { limit = Math.max(total, rows.length); update(); };
     const list = el("ul", { class: `list all-lectures-list view-${view.value}` }, ...visible.map(row => inventoryItem(row, view.value, {
-      item, link, reactions, packs, returnTo, axis: dateOrder(sort.value)?.axis,
+      item, link, reactions, packs, returnTo, courses: catalog.courses, axis: dateOrder(sort.value)?.axis,
     })));
     results.replaceChildren(list);
     if (!rows.length) results.append(el("p", { class: "notice", text: total ? "No lectures match these filters." : "No lectures are available yet. Add a content pack to begin." }));

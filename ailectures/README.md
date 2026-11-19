@@ -20,8 +20,20 @@ Collections provide title/ID search, section and session jumps, and expandable
 contents. Search changes the view; playback still follows the full collection's
 original order. Breadcrumbs show the collection hierarchy, while return links
 preserve the route and search used to open a lecture. References, related routes,
-complete original sequences, and recording preparation remain under Resources
-& connections.
+and complete original sequences remain under Resources & connections.
+**Generate all audio** appears directly in a collection’s header when generation
+is available. **Cache whole lecture** sits beside Play. Older recordings remain
+playable; select a current profile to generate new audio. The reader distinguishes
+missing audio for the selected profile revision from available older recordings.
+
+Narrated source decks use the same audio lecture model as the standalone tracks.
+Their `g1:` IDs and slide links remain stable; authored scene narration is adapted
+to the shared transcript format without speaking editorial Why/Recall notes.
+Content discovery and playback need no deck or Manim imports. The old production
+parser delegates to the shared parser in `ailectures/manuscripts.py`.
+Every lecture page links to its owning track, independently of search, graph,
+or listening-route return links. Expanded inventory rows link to that track too.
+“Not generated” means a usable transcript exists and audio can be queued.
 
 New web-generated recordings default to Ogg Opus. Spoken Markdown section titles
 receive isolated synthesis and pauses, with title-specific instructions on
@@ -102,7 +114,10 @@ graph, Focus selected, and Reset graph control the explored view. Zooming out
 hides finer topics, lectures, and labels; offscreen nodes are omitted from SVG
 rendering while their exploration state is retained. Branches, positions, and
 zoom are saved per collection/dimension for the current browser tab. Lecture
-lists are collapsible and contain links back to the lecture pages.
+lists are collapsible and contain links back to the lecture pages, with audio
+availability shown separately from lecture membership. Explicit expansion frames
+and reveals the new batch even when the graph was zoomed out. Existing reverse
+connections are not offered again as new connections.
 
 Tags support explicit broader-to-narrower paths for topics, geography, and
 time. Stats → Coverage from broad to specific expands these dimensions with

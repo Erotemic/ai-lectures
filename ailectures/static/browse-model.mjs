@@ -168,3 +168,14 @@ export function collectionReturnPath(hint, courseId, origin) {
   } catch { /* Ignore malformed optional hints. */ }
   return null;
 }
+
+/** Source-track membership is independent of the route used to open a lecture. */
+export function owningTrack(row, courses) {
+  const namespace = row.namespace || row.id.split(":")[0];
+  const main = courses.find(course => course.id === namespace + ":main");
+  if (main) return main;
+  const containing = courses.filter(course => course.lectures?.includes(row.id));
+  return containing.find(course => course.id.startsWith(namespace + ":") && !course.parent_id)
+    || containing.find(course => course.id.startsWith(namespace + ":"))
+    || containing.find(course => !course.parent_id) || containing[0] || null;
+}

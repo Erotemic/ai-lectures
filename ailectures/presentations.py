@@ -3,7 +3,9 @@
 from pathlib import Path
 import json
 
-from .core import digest, lecture_revision, text_digest
+from .core import BEGIN, digest, lecture_revision, text_digest
+from .manuscripts import spoken_transcript
+from .descriptions import description_fields
 
 
 def presentation_pack(repository):
@@ -36,13 +38,19 @@ def presentation_pack(repository):
         folder = folders[0]
         source = (folder / "lecture.md").read_text()
         provenance = folder / "provenance.yaml"
+        transcript = ""
+        diagnostic = None
+        try:
+            transcript = spoken_transcript(source, str(folder / "lecture.md"))
+        except ValueError as exc:
+            diagnostic = str(exc)
         row = dict(
             id="g1:" + entry["deck"],
             namespace="g1",
-            kind="presentation",
+            kind="audio" if transcript else "presentation",
             title=entry["title"],
-            transcript="",
-            spoken_sha256=text_digest(""),
+            transcript=transcript,
+            spoken_sha256=text_digest(transcript),
             source=source,
             metadata={
                 "provenance": (
@@ -57,6 +65,13 @@ def presentation_pack(repository):
             deck=entry["deck"],
             aliases=["g1:" + folder.name],
         )
+        if diagnostic:
+            row["metadata"]["narration_diagnostic"] = diagnostic
+        else:
+            row["metadata"]["source_format"] = (
+                "spoken-region-v1" if BEGIN in source else "scene-narration-v1"
+            )
+        row.update(description_fields(row))
         readings = folder / "resources.yaml"
         if readings.is_file():
             try:
