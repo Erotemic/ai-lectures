@@ -1,7 +1,7 @@
 {
   "id": "earth-systems",
   "title": "Earth as a System: Air, Water, Ocean, and Climate",
-  "summary": "Mechanistic Earth systems science connecting atmosphere, ocean, land, water, ice and living chemistry, including ENSO, hazards and biogeochemical cycling. A six-part paleoclimate sequence explains how ice, tree rings, sediments and cave deposits are dated and combined into climate reconstructions. Six modeling-method lectures connect conservation, grids, parameterizations, coupled components, data assimilation, designed experiments and model evaluation.",
+  "summary": "Mechanistic Earth systems science connecting atmosphere, ocean, land, water, ice and living chemistry, including ENSO, hazards and biogeochemical cycling. A six-part paleoclimate sequence explains how ice, tree rings, sediments and cave deposits are dated and combined into climate reconstructions. Six modeling-method lectures connect conservation, grids, parameterizations, coupled components, data assimilation, designed experiments and model evaluation. Five coast-focused lectures connect tidal forcing, wave-driven sediment budgets, barrier migration, estuarine exchange and river delta subsidence.",
   "categories": [
     "Science and nature"
   ],
@@ -67,7 +67,12 @@
     "models_coupling",
     "models_assimilation",
     "models_experiments",
-    "models_evaluation"
+    "models_evaluation",
+    "coastal_tides",
+    "coastal_waves_sediment",
+    "coastal_barrier_migration",
+    "coastal_estuarine_exchange",
+    "coastal_delta_dynamics"
   ],
   "lectures": [
     {
@@ -747,6 +752,145 @@
         "Ensemble weighting",
         "Uncertainty decomposition",
         "Model intercomparison"
+      ]
+    },
+    {
+      "id": "032000",
+      "title": "Why High Tide Is Late: Gravity, Basins, and Moving Water",
+      "section": "coastal_tides",
+      "file": "032000-why-high-tide-is-late.md",
+      "spoken_words": 1708,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 11.8,
+      "tags": [
+        "Ocean tides",
+        "Tide-generating potential",
+        "Differential gravitational force",
+        "Lunar day",
+        "Tidal constituents",
+        "M2 lunar tide",
+        "S2 solar tide",
+        "Spring tides",
+        "Neap tides",
+        "Tidal resonance",
+        "Bay of Fundy",
+        "Amphidromic systems",
+        "Shallow-water gravity waves",
+        "Tide gauges",
+        "Harmonic tidal prediction",
+        "Vertical tidal datums",
+        "Tidal currents",
+        "Tidal energy"
+      ]
+    },
+    {
+      "id": "033000",
+      "title": "The Beach Is a Conveyor: Waves, Sand, and a Moving Shoreline",
+      "section": "coastal_waves_sediment",
+      "file": "033000-the-beach-is-a-conveyor.md",
+      "spoken_words": 1737,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 12.0,
+      "tags": [
+        "Wind waves",
+        "Fetch",
+        "Swell",
+        "Wave shoaling",
+        "Wave refraction",
+        "Wave breaking",
+        "Wave setup",
+        "Swash and backwash",
+        "Longshore current",
+        "Longshore sediment transport",
+        "Littoral cell",
+        "Sediment mass balance",
+        "Coastal erosion",
+        "Beach nourishment",
+        "Groins",
+        "Satellite-derived shorelines",
+        "Long Island",
+        "Southern California"
+      ]
+    },
+    {
+      "id": "034000",
+      "title": "An Island That Moves: Dunes, Storms, and the Barrier Coast",
+      "section": "coastal_barrier_migration",
+      "file": "034000-an-island-that-moves.md",
+      "spoken_words": 1510,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 10.4,
+      "tags": [
+        "Barrier islands",
+        "Coastal geomorphology",
+        "Overwash",
+        "Overwash fans",
+        "Barrier migration",
+        "Dune erosion",
+        "Storm surge",
+        "Hurricane Sandy 2012",
+        "Hurricane Dorian 2019",
+        "North Core Banks",
+        "Sound-side inundation",
+        "Inlet migration",
+        "Shoreface sediment budget",
+        "Barrier island resilience",
+        "Relative sea-level rise"
+      ]
+    },
+    {
+      "id": "035000",
+      "title": "The River Meets Salt: How Estuaries Exchange Water and Life",
+      "section": "coastal_estuarine_exchange",
+      "file": "035000-the-river-meets-salt.md",
+      "spoken_words": 1680,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 11.6,
+      "tags": [
+        "Estuarine circulation",
+        "Saltwater intrusion",
+        "Salt wedge estuary",
+        "Stratification",
+        "Tidal mixing",
+        "Two-layer exchange flow",
+        "Conductivity temperature depth",
+        "CTD observations",
+        "Estuarine turbidity maximum",
+        "Sediment flocculation",
+        "Residence time",
+        "Tidal prism",
+        "Chesapeake Bay",
+        "Hudson River estuary",
+        "Hypoxia",
+        "Tidal marshes"
+      ]
+    },
+    {
+      "id": "036000",
+      "title": "A Delta Is a Temporary Promise: Rivers, Mud, and Sinking Ground",
+      "section": "coastal_delta_dynamics",
+      "file": "036000-a-delta-is-a-temporary-promise.md",
+      "spoken_words": 1782,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 12.3,
+      "tags": [
+        "River deltas",
+        "Delta avulsion",
+        "Distributary channels",
+        "Delta lobes",
+        "Natural levees",
+        "Sediment deposition",
+        "River engineering",
+        "Levee disconnection",
+        "Wetland sediment budgets",
+        "Subsidence",
+        "Groundwater extraction",
+        "Relative sea-level rise",
+        "InSAR",
+        "Mississippi River delta",
+        "Ganges-Brahmaputra delta",
+        "Mekong delta",
+        "Global delta subsidence 2026"
       ]
     }
   ]

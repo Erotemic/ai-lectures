@@ -1,0 +1,244 @@
+{
+  "schema_version": 1,
+  "lecture_id": "035000",
+  "transcript": "035000-the-river-meets-salt.md",
+  "description": "Density-driven estuarine circulation, salt wedges, tides and wind mixing, turbidity maxima, residence times, sediment trapping, oxygen budgets, marsh accretion and tidal prisms.",
+  "tags": [
+    "Estuarine circulation",
+    "Saltwater intrusion",
+    "Salt wedge estuary",
+    "Stratification",
+    "Tidal mixing",
+    "Two-layer exchange flow",
+    "Conductivity temperature depth",
+    "CTD observations",
+    "Estuarine turbidity maximum",
+    "Sediment flocculation",
+    "Residence time",
+    "Tidal prism",
+    "Chesapeake Bay",
+    "Hudson River estuary",
+    "Hypoxia",
+    "Tidal marshes"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Earth science",
+      "Coastal science",
+      "Density-driven estuarine exchange"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Coastal science",
+      "Salt-wedge and mixed estuaries"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Coastal science",
+      "Tidal and wind mixing"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Coastal science",
+      "CTD profiling and salinity"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Coastal science",
+      "Estuarine turbidity maxima"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Coastal science",
+      "Water and sediment residence times"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Coastal science",
+      "Tidal prism and inlet exchange"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Coastal science",
+      "Stratification and bottom oxygen"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Coastal science",
+      "Salt-marsh accretion"
+    ],
+    [
+      "Place: North America",
+      "Place: United States",
+      "Place: Maryland",
+      "Place: Chesapeake Bay"
+    ],
+    [
+      "Place: North America",
+      "Place: United States",
+      "Place: Virginia",
+      "Place: Chesapeake Bay"
+    ],
+    [
+      "Place: North America",
+      "Place: United States",
+      "Place: New York",
+      "Place: Hudson River"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "es-coast-noaa-estuaries",
+      "reason": "Salt wedges, well mixed and partially mixed estuaries; influence of tides, freshwater, density and bathymetry."
+    },
+    {
+      "source_id": "es-coast-noaa-estuary-course",
+      "reason": "Estuary formation, freshwater saltwater mixing and the estuarine environment."
+    },
+    {
+      "source_id": "es-coast-chesapeake",
+      "reason": "Chesapeake exchange circulation, stratification, wind changes and consequences for sediment transport and dissolved oxygen."
+    },
+    {
+      "source_id": "es-coast-hypoxia-review",
+      "reason": "Comparison of physical stratification, residence time, oxygen demand and hypoxia across estuaries."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "035000-e01",
+      "anchor": "Fresh river water may spread out across denser salt water",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-coast-noaa-estuaries"
+      ],
+      "source_locator": "Salt wedges, well mixed and partially mixed estuaries; influence of tides, freshwater, density and bathymetry.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "035000-e02",
+      "anchor": "a net landward salt transport at depth and a net seaward flow near the surface",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-coast-noaa-estuaries"
+      ],
+      "source_locator": "Salt wedges, well mixed and partially mixed estuaries; influence of tides, freshwater, density and bathymetry.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "035000-e03",
+      "anchor": "salt wedge with a steep transition between fresh and saline layers",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-coast-noaa-estuaries"
+      ],
+      "source_locator": "Salt wedges, well mixed and partially mixed estuaries; influence of tides, freshwater, density and bathymetry.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "035000-e04",
+      "anchor": "collect water at different depths and locations and measure its conductivity",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-coast-noaa-estuaries"
+      ],
+      "source_locator": "Salt wedges, well mixed and partially mixed estuaries; influence of tides, freshwater, density and bathymetry.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "035000-e05",
+      "anchor": "In the Chesapeake Bay, the broad physical pattern is an exchange",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-coast-chesapeake"
+      ],
+      "source_locator": "Chesapeake exchange circulation, stratification, wind changes and consequences for sediment transport and dissolved oxygen.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "035000-e06",
+      "anchor": "relatively buoyant surface water can be separated from deeper water",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-coast-chesapeake"
+      ],
+      "source_locator": "Chesapeake exchange circulation, stratification, wind changes and consequences for sediment transport and dissolved oxygen.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "035000-e07",
+      "anchor": "An estuary can therefore develop bottom-water hypoxia",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-coast-hypoxia-review"
+      ],
+      "source_locator": "Comparison of physical stratification, residence time, oxygen demand and hypoxia across estuaries.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "035000-e08",
+      "anchor": "Sediment provides a second example",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-coast-noaa-estuaries"
+      ],
+      "source_locator": "Salt wedges, well mixed and partially mixed estuaries; influence of tides, freshwater, density and bathymetry.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "035000-e09",
+      "anchor": "an estuarine turbidity maximum",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-coast-chesapeake"
+      ],
+      "source_locator": "Chesapeake exchange circulation, stratification, wind changes and consequences for sediment transport and dissolved oxygen.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "035000-e10",
+      "anchor": "The tidal prism is the volume of water exchanged",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-coast-noaa-estuaries"
+      ],
+      "source_locator": "Salt wedges, well mixed and partially mixed estuaries; influence of tides, freshwater, density and bathymetry.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "035000-e11",
+      "anchor": "The Hudson River offers another instructive contrast",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-coast-noaa-estuaries"
+      ],
+      "source_locator": "Salt wedges, well mixed and partially mixed estuaries; influence of tides, freshwater, density and bathymetry.",
+      "audit_status": "source_checked"
+    }
+  ],
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Introduces density stratification and water-volume conservation; prior lectures on salinity and tides are helpful but not required."
+    ],
+    "readiness_checks": [
+      "Why can estuary bottom water move inland while river water moves seaward?",
+      "How can mixing suppress or intensify bottom-water oxygen deficits?",
+      "Why is a turbidity maximum not always fixed in place?"
+    ]
+  },
+  "places": [
+    "Chesapeake Bay, Maryland and Virginia, United States",
+    "Hudson River estuary, New York, United States"
+  ]
+}

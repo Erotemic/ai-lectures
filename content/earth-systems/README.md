@@ -1,6 +1,6 @@
 # Earth as a System: Air, Water, Ocean, and Climate
 
-**Status:** in progress. Thirty-one complete narrated lectures (001000-031000). The first four establish the physical foundation; carbon, frozen water and landscape chapters connect reservoirs; three lectures develop ENSO; five follow the mechanisms and impacts of extreme weather; four connect the nitrogen, phosphorus and oxygen cycles through soils, waters and microbes; six reconstruct past climate, and six develop how Earth-system models work.
+**Status:** in progress. Thirty-six complete narrated lectures (001000-036000). The first four establish the physical foundation; carbon, frozen water and landscape chapters connect reservoirs; three lectures develop ENSO; five follow the mechanisms and impacts of extreme weather; four connect the nitrogen, phosphorus and oxygen cycles through soils, waters and microbes; six reconstruct past climate, six develop how Earth-system models work, and five follow the changing coast.
 
 The course explains the coupled Earth system by following energy, water, carbon, geological material and information in ocean-atmosphere feedbacks. Each manuscript has a single spoken region and a non-spoken scientific companion containing source notes, definitions and questions.
 
@@ -39,8 +39,13 @@ The course explains the coupled Earth system by following energy, water, carbon,
 | 029000 | A Forecast Begins with a Guess | Assimilation, observational error and reanalysis |
 | 030000 | A Second Earth for Experiments | Controls, forcing experiments and conditional projections |
 | 031000 | When a Climate Model Is Wrong | Model tests, ensemble dependence and uncertainty |
+| 032000 | Why High Tide Is Late | Tidal forcing, basin resonance, local phase and predicted water levels |
+| 033000 | The Beach Is a Conveyor | Wind waves, sediment budgets, groins and measured shoreline changes |
+| 034000 | An Island That Moves | Barrier migration, overwash, sound-side flooding and storm recovery |
+| 035000 | The River Meets Salt | Estuarine circulation, mixing, oxygen and turbidity |
+| 036000 | A Delta Is a Temporary Promise | Distributaries, avulsion, sediment delivery and subsidence |
 
-The `earth-as-a-system` route includes all thirty-one lectures. The shorter `earth-foundations-four` and ENSO routes remain intact. Further routes include `living-chemistry` (four new lectures), `nutrients-through-water` and `oxygen-in-time`. Earlier routes include `extreme-weather-mechanisms` (the five new lectures), `water-extremes` (water cycle, atmospheric rivers, drought), and `climate-attribution-and-hazards` (extreme event physics and attribution).
+The `earth-as-a-system` route includes all thirty-six lectures. The shorter `earth-foundations-four` and ENSO routes remain intact. Further routes include `living-chemistry` (four new lectures), `nutrients-through-water` and `oxygen-in-time`. Earlier routes include `extreme-weather-mechanisms` (the five new lectures), `water-extremes` (water cycle, atmospheric rivers, drought), and `climate-attribution-and-hazards` (extreme event physics and attribution).
 
 ## Editorial conventions
 
@@ -51,6 +56,10 @@ The `earth-as-a-system` route includes all thirty-one lectures. The shorter `ear
 - Explain storm intensity, event probability, exposed populations and realized damage as distinct quantities; a wind category, moisture flux, drought index or event attribution statement is never a complete local impact forecast.
 - Keep source-specific and place-specific tags on the lectures where those sources and places actually occur. Discovery paths include geographic case tags without implying every region has the same impact.
 - All content is text-only source material; audio and images are not bundled.
+
+## The Changing Coast (032000–036000)
+
+Five independent but connected lectures follow astronomical tide forcing, wave-driven sand transport, barrier island change, mixing within estuaries and delta sediment/elevation balances. Sources and topic-specific, geographic and historical publication/event tags are encoded in each lecture sidecar. Listening routes: `the-changing-coast`, `coastal-sediment-and-land`, and `coastal-water-exchange`. The earlier 31 lectures and their spoken text are unchanged.
 
 ## Further development
 

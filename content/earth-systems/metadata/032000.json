@@ -1,0 +1,253 @@
+{
+  "schema_version": 1,
+  "lecture_id": "032000",
+  "transcript": "032000-why-high-tide-is-late.md",
+  "description": "Why the Moon and Sun drive predictable tidal rhythms but local tide timing and height depend on basin resonance, rotation, friction, astronomical constituents, tidal datums, and meteorological water levels.",
+  "tags": [
+    "Ocean tides",
+    "Tide-generating potential",
+    "Differential gravitational force",
+    "Lunar day",
+    "Tidal constituents",
+    "M2 lunar tide",
+    "S2 solar tide",
+    "Spring tides",
+    "Neap tides",
+    "Tidal resonance",
+    "Bay of Fundy",
+    "Amphidromic systems",
+    "Shallow-water gravity waves",
+    "Tide gauges",
+    "Harmonic tidal prediction",
+    "Vertical tidal datums",
+    "Tidal currents",
+    "Tidal energy"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Earth science",
+      "Coastal science",
+      "Tide-generating forces"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Coastal science",
+      "Lunar and solar harmonic constituents"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Coastal science",
+      "Spring and neap tides"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Coastal science",
+      "Tidal resonance and basin geometry"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Coastal science",
+      "Amphidromic patterns"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Coastal science",
+      "Tide-height and current phase"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Coastal science",
+      "Tide-gauge datums and harmonic prediction"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Coastal science",
+      "Storm tide and astronomical tide"
+    ],
+    [
+      "Place: North America",
+      "Place: Canada",
+      "Place: New Brunswick"
+    ],
+    [
+      "Place: North America",
+      "Place: Canada",
+      "Place: Nova Scotia"
+    ],
+    [
+      "Place: North America",
+      "Place: Canada",
+      "Place: Quebec"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "es-coast-noaa-tides",
+      "reason": "Astronomical differential gravity, basin dynamics, daily tide types, spring-neap cycles, meteorological departures, and gauge predictions."
+    },
+    {
+      "source_id": "es-coast-noaa-cycles",
+      "reason": "Diurnal, semidiurnal and mixed semidiurnal cycles caused by celestial forcing interacting with coastlines and ocean basins."
+    },
+    {
+      "source_id": "es-coast-noaa-glossary",
+      "reason": "Tidal constituents and datum concepts; harmonic constituents referenced in local predictions."
+    },
+    {
+      "source_id": "es-coast-canada-tides",
+      "reason": "Minas Basin and Ungava Bay extreme tidal range; importance of bay geometry and resonance."
+    },
+    {
+      "source_id": "es-coast-nasa-fundy",
+      "reason": "Bay of Fundy and Minas Basin observations and satellite imagery; large tidal range from resonance."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "032000-e01",
+      "anchor": "The forcing is astronomical. The response belongs to moving water",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-coast-noaa-tides"
+      ],
+      "source_locator": "Astronomical differential gravity, basin dynamics, daily tide types, spring-neap cycles, meteorological departures, and gauge predictions.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "032000-e02",
+      "anchor": "a tide arises from the small differences in that attraction",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-coast-noaa-tides"
+      ],
+      "source_locator": "Astronomical differential gravity, basin dynamics, daily tide types, spring-neap cycles, meteorological departures, and gauge predictions.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "032000-e03",
+      "anchor": "the lunar day.",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-coast-noaa-cycles"
+      ],
+      "source_locator": "Diurnal, semidiurnal and mixed semidiurnal cycles caused by celestial forcing interacting with coastlines and ocean basins.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "032000-e04",
+      "anchor": "conventionally called M two",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-coast-noaa-glossary"
+      ],
+      "source_locator": "Tidal constituents and datum concepts; harmonic constituents referenced in local predictions.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "032000-e05",
+      "anchor": "resulting larger tidal range a spring tide",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-coast-noaa-cycles"
+      ],
+      "source_locator": "Diurnal, semidiurnal and mixed semidiurnal cycles caused by celestial forcing interacting with coastlines and ocean basins.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "032000-e06",
+      "anchor": "producing neap tides with a smaller range",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-coast-noaa-cycles"
+      ],
+      "source_locator": "Diurnal, semidiurnal and mixed semidiurnal cycles caused by celestial forcing interacting with coastlines and ocean basins.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "032000-e07",
+      "anchor": "At the head of the bay, tidal ranges can approach sixteen meters",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-coast-canada-tides",
+        "es-coast-nasa-fundy"
+      ],
+      "source_locator": "Minas Basin and Ungava Bay extreme tidal range; importance of bay geometry and resonance.; Bay of Fundy and Minas Basin observations and satellite imagery; large tidal range from resonance.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "032000-e08",
+      "anchor": "At an amphidromic point, the amplitude of a particular tidal constituent is very small",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-coast-noaa-tides"
+      ],
+      "source_locator": "Astronomical differential gravity, basin dynamics, daily tide types, spring-neap cycles, meteorological departures, and gauge predictions.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "032000-e09",
+      "anchor": "The current may turn near high or low water",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-coast-noaa-glossary"
+      ],
+      "source_locator": "Tidal constituents and datum concepts; harmonic constituents referenced in local predictions.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "032000-e10",
+      "anchor": "Harmonic analysis represents the observed tide as a sum of constituents",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-coast-noaa-glossary"
+      ],
+      "source_locator": "Tidal constituents and datum concepts; harmonic constituents referenced in local predictions.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "032000-e11",
+      "anchor": "Mean sea level, mean lower low water, and other tidal datums",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-coast-noaa-glossary"
+      ],
+      "source_locator": "Tidal constituents and datum concepts; harmonic constituents referenced in local predictions.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "032000-e12",
+      "anchor": "Flood currents may carry sediment landward; ebb currents may export it seaward",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-coast-noaa-tides"
+      ],
+      "source_locator": "Astronomical differential gravity, basin dynamics, daily tide types, spring-neap cycles, meteorological departures, and gauge predictions.",
+      "audit_status": "source_checked"
+    }
+  ],
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Introduces differential gravity and oscillation qualitatively; no prior astronomy or fluid mechanics required."
+    ],
+    "readiness_checks": [
+      "Why can the same astronomical forcing produce different tide patterns on neighboring coasts?",
+      "What distinguishes tidal current strength from high-water elevation?",
+      "Why does a water-level forecast need a stated datum?"
+    ]
+  },
+  "places": [
+    "Bay of Fundy, New Brunswick and Nova Scotia, Canada",
+    "Minas Basin, Nova Scotia, Canada",
+    "Ungava Bay, Quebec, Canada"
+  ]
+}

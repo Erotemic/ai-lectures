@@ -8,7 +8,7 @@
       "categories": [
         "Science and nature"
       ],
-      "summary": "Thirty-one connected lectures on Earth-system physics, living chemistry, paleoclimate evidence and the construction and evaluation of numerical climate models.",
+      "summary": "Thirty-six connected lectures on the physical Earth, living chemistry, paleoclimate evidence, numerical models, and the changing coast.",
       "chapters": [
         {
           "title": "Earth Has an Energy Budget: Light In, Heat Out",
@@ -194,6 +194,36 @@
           "title": "When a Climate Model Is Wrong: Testing Skill, Uncertainty, and Trust",
           "lectures": [
             "031000"
+          ]
+        },
+        {
+          "title": "Why High Tide Is Late: Gravity, Basins, and Moving Water",
+          "lectures": [
+            "032000"
+          ]
+        },
+        {
+          "title": "The Beach Is a Conveyor: Waves, Sand, and a Moving Shoreline",
+          "lectures": [
+            "033000"
+          ]
+        },
+        {
+          "title": "An Island That Moves: Dunes, Storms, and the Barrier Coast",
+          "lectures": [
+            "034000"
+          ]
+        },
+        {
+          "title": "The River Meets Salt: How Estuaries Exchange Water and Life",
+          "lectures": [
+            "035000"
+          ]
+        },
+        {
+          "title": "A Delta Is a Temporary Promise: Rivers, Mud, and Sinking Ground",
+          "lectures": [
+            "036000"
           ]
         }
       ]
@@ -554,6 +584,52 @@
         "028000",
         "030000",
         "031000"
+      ]
+    },
+    {
+      "id": "the-changing-coast",
+      "title": "Earth as a System · The Changing Coast",
+      "role": "deep_dive",
+      "categories": [
+        "Science and nature"
+      ],
+      "summary": "Tides, wave transport, barrier islands, estuaries, and delta elevation budgets.",
+      "lectures": [
+        "032000",
+        "033000",
+        "034000",
+        "035000",
+        "036000"
+      ]
+    },
+    {
+      "id": "coastal-sediment-and-land",
+      "title": "Earth as a System · Sediment from Mountains to Sea",
+      "role": "deep_dive",
+      "categories": [
+        "Science and nature"
+      ],
+      "summary": "Connect landscape sediment supply to beach drift, migrating barriers and delta building.",
+      "lectures": [
+        "007000",
+        "033000",
+        "034000",
+        "036000"
+      ]
+    },
+    {
+      "id": "coastal-water-exchange",
+      "title": "Earth as a System · Ocean Water at the Coast",
+      "role": "deep_dive",
+      "categories": [
+        "Science and nature"
+      ],
+      "summary": "Tides, estuarine density circulation, oxygen and sediment movement through coastal waters.",
+      "lectures": [
+        "004000",
+        "032000",
+        "035000",
+        "019000"
       ]
     }
   ]

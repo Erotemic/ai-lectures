@@ -1,0 +1,285 @@
+{
+  "schema_version": 1,
+  "lecture_id": "033000",
+  "transcript": "033000-the-beach-is-a-conveyor.md",
+  "description": "How waves form, refract, shoal, and break; how longshore and cross-shore transport redistribute sediment; how littoral-cell mass budgets, groins, storms, and measurement choices govern shoreline change.",
+  "tags": [
+    "Wind waves",
+    "Fetch",
+    "Swell",
+    "Wave shoaling",
+    "Wave refraction",
+    "Wave breaking",
+    "Wave setup",
+    "Swash and backwash",
+    "Longshore current",
+    "Longshore sediment transport",
+    "Littoral cell",
+    "Sediment mass balance",
+    "Coastal erosion",
+    "Beach nourishment",
+    "Groins",
+    "Satellite-derived shorelines",
+    "Long Island",
+    "Southern California"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Earth science",
+      "Coastal science",
+      "Wind-wave generation and swell"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Coastal science",
+      "Shallow-water shoaling and breaking"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Coastal science",
+      "Wave refraction and setup"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Coastal science",
+      "Longshore currents and drift"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Coastal science",
+      "Beach sediment budgets and littoral cells"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Coastal science",
+      "Cross-shore beach and bar exchange"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Coastal science",
+      "Groins and sediment bypass"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Coastal science",
+      "Satellite shoreline monitoring"
+    ],
+    [
+      "Place: North America",
+      "Place: United States",
+      "Place: California",
+      "Place: Ventura"
+    ],
+    [
+      "Place: North America",
+      "Place: United States",
+      "Place: California",
+      "Place: Santa Monica"
+    ],
+    [
+      "Place: North America",
+      "Place: United States",
+      "Place: California",
+      "Place: Newport Beach"
+    ],
+    [
+      "Place: North America",
+      "Place: United States",
+      "Place: New York",
+      "Place: Long Island"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Historical case studies",
+      "21st century",
+      "2026 research publication"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "es-coast-noaa-waves",
+      "reason": "Wave generation by wind speed, duration and fetch; shallow-water shoaling and breaking."
+    },
+    {
+      "source_id": "es-coast-noaa-longshore",
+      "reason": "Wave refraction, oblique breaking, longshore currents and sediment transport."
+    },
+    {
+      "source_id": "es-coast-usgs-budget",
+      "reason": "Sediment conservation, inputs, outputs and temporal variation in shore response."
+    },
+    {
+      "source_id": "es-coast-usgs-long-island",
+      "reason": "Rockaway, Long Beach and Jones Beach changes 1984–2022, with net westward longshore transport."
+    },
+    {
+      "source_id": "es-coast-usgs-groins",
+      "reason": "California groin field observations at Ventura, Santa Monica, Newport Beach; satellite derived shoreline offsets."
+    },
+    {
+      "source_id": "es-coast-usace-groins",
+      "reason": "Effects of groins, breakwaters, nourishment and interruption of down-drift sediment delivery."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "033000-e01",
+      "anchor": "The size of wind waves depends on wind speed, the time wind blows, and the fetch",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-coast-noaa-waves"
+      ],
+      "source_locator": "Wave generation by wind speed, duration and fetch; shallow-water shoaling and breaking.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "033000-e02",
+      "anchor": "The wave slows. Its wavelength changes; the crest can become steeper",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-coast-noaa-waves"
+      ],
+      "source_locator": "Wave generation by wind speed, duration and fetch; shallow-water shoaling and breaking.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "033000-e03",
+      "anchor": "This is wave refraction",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-coast-noaa-longshore"
+      ],
+      "source_locator": "Wave refraction, oblique breaking, longshore currents and sediment transport.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "033000-e04",
+      "anchor": "their breaking transfers momentum along the shoreline and drives a longshore current",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-coast-noaa-longshore"
+      ],
+      "source_locator": "Wave refraction, oblique breaking, longshore currents and sediment transport.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "033000-e05",
+      "anchor": "That balance, not simply the existence of transport, determines whether the storage tends to grow or shrink",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-coast-usgs-budget"
+      ],
+      "source_locator": "Sediment conservation, inputs, outputs and temporal variation in shore response.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "033000-e06",
+      "anchor": "A littoral cell is a useful unit for the accounting",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-coast-usgs-budget"
+      ],
+      "source_locator": "Sediment conservation, inputs, outputs and temporal variation in shore response.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "033000-e07",
+      "anchor": "The updrift side may widen as sand accumulates",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-coast-usace-groins"
+      ],
+      "source_locator": "Effects of groins, breakwaters, nourishment and interruption of down-drift sediment delivery.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "033000-e08",
+      "anchor": "In 2026, the U.S. Geological Survey described satellite-based observations",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-coast-usgs-groins"
+      ],
+      "source_locator": "California groin field observations at Ventura, Santa Monica, Newport Beach; satellite derived shoreline offsets.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "033000-e09",
+      "anchor": "Ventura, Santa Monica, and Newport Beach in California",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-coast-usgs-groins"
+      ],
+      "source_locator": "California groin field observations at Ventura, Santa Monica, Newport Beach; satellite derived shoreline offsets.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "033000-e10",
+      "anchor": "satellite-derived shorelines from 1984 through 2022",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-coast-usgs-long-island"
+      ],
+      "source_locator": "Rockaway, Long Beach and Jones Beach changes 1984–2022, with net westward longshore transport.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "033000-e11",
+      "anchor": "associated with net westward longshore drift",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-coast-usgs-long-island"
+      ],
+      "source_locator": "Rockaway, Long Beach and Jones Beach changes 1984–2022, with net westward longshore transport.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "033000-e12",
+      "anchor": "The shoreline proxy must be specified",
+      "kind": "evidence_and_history",
+      "source_ids": [
+        "es-coast-usgs-budget"
+      ],
+      "source_locator": "Sediment conservation, inputs, outputs and temporal variation in shore response.",
+      "audit_status": "source_checked"
+    }
+  ],
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Introduces energy transport, sediment mass balance and wave refraction with examples; no prior oceanography coursework required."
+    ],
+    "readiness_checks": [
+      "What must be measured to distinguish relocation of sand from permanent loss?",
+      "Why does a groin produce different outcomes updrift and downdrift?",
+      "How can substantial longshore transport coexist with an approximately steady beach volume?"
+    ]
+  },
+  "places": [
+    "Ventura, California, United States",
+    "Santa Monica, California, United States",
+    "Newport Beach, California, United States",
+    "Rockaway Peninsula, New York, United States",
+    "Jones Beach Island, New York, United States"
+  ],
+  "chronology": {
+    "period": {
+      "start": 2026,
+      "label": "California groin-field satellite analysis published in 2026",
+      "basis": "named research publication",
+      "note": "Dates the named research study, not the age of waves or the coastline.",
+      "source_ids": [
+        "es-coast-usgs-groins"
+      ]
+    }
+  }
+}
