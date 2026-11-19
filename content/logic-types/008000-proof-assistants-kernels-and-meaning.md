@@ -68,7 +68,7 @@ There is no contradiction. Computation, proof search, and proof checking answer 
 
 Lean provides powerful mathematical principles as axioms or in ways that depend on axioms. Classical choice is one example. Proposition extensionality is another: it lets logically equivalent propositions be treated as equal propositions. A quotient-soundness principle allows equivalence classes to be identified according to the chosen relation.
 
-These assumptions support ordinary classical mathematics, but they are not all mere reductions of concrete programs. A proof of a theorem using classical choice may be correct relative to the assumed theory while not providing a constructive algorithm for producing the chosen object. The distinction matters especially when the theorem is used as a software interface or as a claim about executable behavior.
+These assumptions support ordinary classical mathematics, but they are not all mere reductions of concrete programs. A proof of a theorem using classical choice may be correct relative to the assumed theory while not providing a constructive algorithm for producing the chosen object. As a software interface, a proof of existence need not supply an algorithm for constructing the object whose existence it proves.
 
 There is also a deliberately unsafe placeholder mechanism: 'sorry' allows an unfinished proof to stand in for an actual justification. Internally this introduces an axiom strong enough to inhabit the missing proposition. A development containing a sorry can type check, but it has not established the theorem from the intended ordinary assumptions. Calling a file 'verified' without noticing the placeholder would be misleading.
 

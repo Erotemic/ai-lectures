@@ -35,7 +35,7 @@ Dong Zhuo is eventually killed through a plot involving his warrior Lü Bu. The 
 
 ## Who possesses the emperor?
 
-As warlords compete, the emperor's authority becomes something that others can use. Cao Cao gains control of the imperial court. He can issue commands in the name of the Han while building the material power of his own position. The same arrangement can be described as protecting the emperor or holding him captive. The difference matters because people must decide whether an order bearing imperial authority deserves obedience when they distrust the man who has made it possible.
+As warlords compete, the emperor's authority becomes something that others can use. Cao Cao gains control of the imperial court. He can issue commands in the name of the Han while building the material power of his own position. The same arrangement can be described as protecting the emperor or holding him captive. An order bearing imperial authority still forces people to decide whether obedience is owed when they distrust the man exercising power in the emperor's name.
 
 Liu Bei moves through a succession of precarious relationships. He acquires territory and loses it. He accepts shelter from powerful men and must then consider whether shelter is becoming dependence. Lü Bu, whose military brilliance is not matched by stable commitments, repeatedly alters the balance. When Cao Cao defeats him, the great warrior's strength does not secure his survival. The ability to win a confrontation is not the same as the ability to make people believe that a relationship will last.
 
@@ -55,7 +55,7 @@ Liu Bei's search for a different kind of strength brings him to Zhuge Liang. In 
 
 His broad plan gives the future three-way division its strategic outline. Cao Cao is powerful in the north. The Sun household is established in the southeast. Liu Bei needs a western base and a relationship with the southeast that prevents the north from crushing each separately. The restoration of the Han is an ambition; territorial foundations and alliances are the conditions under which that ambition might become actionable.
 
-The distinction matters. A strategy has to make use of people who do not share all one's aims. The Sun family's state is not a temporary extension of Liu Bei's brotherhood. It has interests of its own. If Liu Bei acquires what he needs by ignoring those interests, the alliance can become a future source of danger.
+An alliance is not the same as a shared purpose. A strategy has to make use of people who do not share all one's aims. The Sun family's state is not a temporary extension of Liu Bei's brotherhood. It has interests of its own. If Liu Bei acquires what he needs by ignoring those interests, the alliance can become a future source of danger.
 
 Cao Cao's southward advance makes the need for cooperation urgent. Liu Bei retreats with followers, and the flight becomes one of the novel's great representations of leadership under pressure. At Changban, Zhao Yun rescues Liu Bei's infant son, while Zhang Fei's intimidating stand at a bridge helps protect the retreat. These episodes give individual courage an almost theatrical intensity. A single figure can suddenly occupy the whole field of attention.
 

@@ -18,7 +18,7 @@ Start at time zero with value one and propose a step of length one. Euler uses t
 
 We now have two proposed values, zero and one half, for the same future time. Their difference is one half. That difference warns us that a whole unit of time is too ambitious. But what exactly does it estimate?
 
-Euler's error over a single step, starting from exact data, is typically proportional to the square of the step length. Heun's corresponding error is typically proportional to the cube. The difference between the two approximations is therefore mainly measuring Euler's lower-order error, not exactly measuring the smaller error of the higher-order approximation. That distinction matters when designing a controller. If we choose the higher-order result as our solution, the difference is a conservative or indirect indicator of its error, not a certified numerical bound.
+Euler's error over a single step, starting from exact data, is typically proportional to the square of the step length. Heun's corresponding error is typically proportional to the cube. The difference between the two approximations is therefore mainly measuring Euler's lower-order error, not exactly measuring the smaller error of the higher-order approximation. A controller using the higher-order result should treat the difference as a conservative or indirect error indicator, not as a certified numerical bound.
 
 For this particular decay equation we can compute the two formulas without knowing the exact exponential. Starting from a general positive value, Euler multiplies it by one minus the step length. Heun multiplies it by one minus the step length plus half the square of the step length. Their difference is the starting value times half the square of the step length.
 

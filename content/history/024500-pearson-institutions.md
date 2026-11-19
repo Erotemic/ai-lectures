@@ -8,7 +8,7 @@
 
 In nineteen-oh-seven a laboratory devoted to eugenics became part of Karl Pearson's professional world. By the time he retired in the nineteen thirties, he had helped make mathematical statistics into an internationally recognized field, while also directing research intended to justify a program of social and reproductive hierarchy. The two histories cannot be separated into a respectable set of equations and an unrelated set of personal opinions. The mathematical papers had their own validity conditions; the institutions decided what problems those methods would serve and what judgments would be made in their name.
 
-This part follows those institutions to the end of Pearson's life. Only after that history will we work carefully through correlation, chi-square testing, and the geometry of closest-fitting lines and planes. Those ideas are worth learning in detail. The sequence matters because their mathematical power does not tell us whether Pearson's descriptions of people and societies were true or defensible.
+This part follows those institutions to the end of Pearson's life. Only after that history will we work carefully through correlation, chi-square testing, and the geometry of closest-fitting lines and planes. Those ideas are worth learning in detail. The power of these methods does not validate Pearson's descriptions of people and societies; those claims have to be judged on their own evidence and consequences.
 
 ## The scientific and moral failure of eugenics
 

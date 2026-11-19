@@ -132,7 +132,7 @@ The tobacco industry's history provides a documented example. A 1969 Brown and W
 
 This was not the productive uncertainty of a laboratory that had found an anomaly and invited attempts to explain it. It was an effort to encourage public controversy around an existing body of evidence, because controversy served a commercial interest. The difference is not that one group contained uncertain people while the other contained confident people. The difference is what each did with uncertainty and what evidence they were prepared to acknowledge.
 
-This matters because a plea for open-mindedness can sound virtuous even when it is being used to keep a conclusion permanently out of reach. Whenever the evidence grows stronger, the standard of proof can be raised. Whenever one claim fails, attention can shift to another question. A demand for perfect certainty can become a machine for making almost any conclusion impossible.
+A plea for open-mindedness can sound virtuous while being used to keep a conclusion permanently out of reach. Whenever the evidence grows stronger, the standard of proof can be raised. Whenever one claim fails, attention can shift to another question. A demand for perfect certainty can become a machine for making almost any conclusion impossible.
 
 The appropriate response is not to abolish doubt. It is to ask whether the doubt has a clear object and a possible resolution. What exactly is uncertain? Which existing evidence is being challenged? What finding would settle the objection? Are the standards of proof being applied consistently? Is the person asking for more evidence also willing to say what sufficient evidence would look like?
 

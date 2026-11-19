@@ -58,7 +58,7 @@ Consider the rule that takes two plane vectors, multiplies their first coordinat
 
 Both rules are linear in either input when the other is held fixed, yet they describe different geometry. The dot product of a nonzero vector with itself is positive. The determinant of any vector with itself is zero. Symmetry and alternation are different structural properties; one cannot infer them from the word bilinear alone.
 
-Choose a basis. Any bilinear form B has a matrix M whose entry in row i and column j is B of basis vector i with basis vector j. On coordinate columns x and y, the form is x transpose times M times y. Symmetry of the form corresponds to a symmetric matrix. If we change coordinates using a matrix P, the new matrix is P transpose times M times P. This is congruence, not the similarity change used for linear operators. The distinction matters because a bilinear form eats two vectors whereas an operator sends one vector to another.
+Choose a basis. Any bilinear form B has a matrix M whose entry in row i and column j is B of basis vector i with basis vector j. On coordinate columns x and y, the form is x transpose times M times y. Symmetry of the form corresponds to a symmetric matrix. If we change coordinates using a matrix P, the new matrix is P transpose times M times P. This is congruence, not the similarity change used for linear operators. A bilinear form eats two vectors whereas an operator sends one vector to another, so their matrices transform by different rules.
 
 ### A quadratic form measures a vector against itself
 

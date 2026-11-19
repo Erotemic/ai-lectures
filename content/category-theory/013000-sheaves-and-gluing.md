@@ -48,7 +48,7 @@ Now make the second formula x squared plus one. It is continuous on its own piec
 
 For a less trivial compatible example, suppose we define the first function as x squared and the second as x times x. The formulas look different but their values agree. A sheaf is concerned with the mathematical sections and their restrictions, not with preserving the exact syntax used to describe them. Compatible descriptions can glue even when written in distinct forms.
 
-This matters in software as well as mathematics. Two computational regions may carry data through different representations or coordinate systems. To glue them, we need a specified notion of compatibility, often involving changes of coordinates. Merely checking that their file names or formulas match would be too restrictive, while ignoring the overlap would be too permissive.
+Software encounters the same gluing problem. Two computational regions may carry data through different representations or coordinate systems. To glue them, we need a specified notion of compatibility, often involving changes of coordinates. Merely checking that their file names or formulas match would be too restrictive, while ignoring the overlap would be too permissive.
 
 ## A presheaf that fails to glue
 

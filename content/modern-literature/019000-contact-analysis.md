@@ -12,7 +12,7 @@ The first half of the book taught the reader how hard Ellie works to reject mist
 
 That reversal is the central engine of *Contact*. It is often described as a story about science and religion, and it certainly is. But that formula can be too quick. The deeper subject is what happens to knowledge when a discovery passes from a private experience into institutions that determine whether a claim will be believed. The novel asks what counts as evidence, who gets to interpret it, and what a person owes to the truth when public agreement is unavailable.
 
-The distinction matters because the book does not ask us to choose between a clever scientist and foolish believers. Ellie is frequently right, but other scientists are also capable of good-faith doubts. The religious characters disagree with one another. Government officials sometimes behave appallingly but must still confront genuine security risks. No single position provides a completely adequate response to contact with a civilization beyond Earth.
+The novel refuses to divide its characters into clever scientists and foolish believers. Ellie is frequently right, but other scientists are also capable of good-faith doubts. The religious characters disagree with one another. Government officials sometimes behave appallingly but must still confront genuine security risks. No single position provides a completely adequate response to contact with a civilization beyond Earth.
 
 ## Why the story spends so long on methods
 

@@ -16,7 +16,7 @@ Why a region, rather than a perfectly thin line? Because a finite window has its
 
 If the tone fades steadily in amplitude, the horizontal feature dims as time proceeds. But watch the scaling. A power spectrogram uses squared magnitude. Halving the signal amplitude divides the plotted power by four, a reduction of about six decibels. A log magnitude plot uses twenty times the base-ten logarithm of an amplitude ratio; a log power plot uses ten times the logarithm of a power ratio. Both report about six decibels for that amplitude change when their reference and normalization are consistent. They are not the same raw numerical quantity.
 
-This matters when comparing figures. The same recording can look richly textured on a logarithmic display and almost blank on a linear display dominated by one strong peak. A changed color limit can make a barely detectable component look bright or make a real low-level component vanish. Always check the colorbar, its units, and its reference.
+On a logarithmic display a recording can appear richly textured; on a linear display dominated by one strong peak, the same recording can look almost blank. A changed color limit can make a barely detectable component look bright or make a real low-level component vanish. Always check the colorbar, its units, and its reference.
 
 ## A chirp: a tone with a moving frequency
 

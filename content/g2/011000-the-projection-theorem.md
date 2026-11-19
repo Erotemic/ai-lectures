@@ -54,7 +54,7 @@ Suppose both p and q were nearest points. Their distances to x would both equal 
 
 So the closest point is not merely guaranteed to exist. It is uniquely determined by x.
 
-This matters because it lets us define a function: send each x to its unique closest point in M. We call that function the orthogonal projection onto M.
+The uniqueness of the closest point defines a function called the orthogonal projection onto M, which sends each x to that point.
 
 ## Why nearest-point error is perpendicular
 

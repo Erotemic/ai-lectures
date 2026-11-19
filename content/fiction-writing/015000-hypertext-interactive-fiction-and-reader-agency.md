@@ -44,7 +44,7 @@ Interactive writing introduces a special problem of perspective. A player may re
 
 In our tree story, a first playthrough might reveal that the treasurer falsified a maintenance estimate. On replay, the player may wish Neri to expose the deception immediately. But perhaps Neri needs to discover evidence through actions available in that version of events. If the story allows a shortcut, it can treat the reader as inhabiting a remembering role. If it refuses, it emphasizes that knowledge belongs to the character's life, not to the player's broader experience. Either choice can be deliberate; accidental inconsistency cannot.
 
-This distinction matters in prose too. Dramatic irony gives readers facts unknown to characters. Interactive fiction asks what readers may do with those facts. The answer affects interface design, dialogue, branching, and the reader's emotional relation to a decision.
+The divide between knowing and acting appears in prose and interactive fiction alike. Dramatic irony gives readers facts unknown to characters. Interactive fiction asks what readers may do with those facts. The answer affects interface design, dialogue, branching, and the reader's emotional relation to a decision.
 
 ## Procedural meaning
 

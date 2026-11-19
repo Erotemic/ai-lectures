@@ -6,7 +6,7 @@
 
 Imagine testing a thermostat. The room begins at its reference temperature. Two seconds into the experiment, a heater turns on. Three seconds later, it turns off. The temperature does not jump instantly to its new equilibrium: the heater changes the rate of warming, and the room takes time to respond. How do we write a single equation that records both switching events, rather than solve one time interval, then another, and hope we have matched them correctly?
 
-We use a unit step, also called the Heaviside function. It is zero before the switching time and one after. A step is not an impulse. A step changes a force and then leaves it changed; an impulse delivers a finite amount of input in a vanishingly short interval. The distinction matters to both the mathematics and the physical prediction.
+We use a unit step, also called the Heaviside function. It is zero before the switching time and one after. A step is not an impulse. A step changes a force and then leaves it changed; an impulse delivers a finite amount of input in a vanishingly short interval. The governing equation and its predicted response depend on which kind of input is applied.
 
 This lecture first handles switches that last a finite amount of time. Then we will let a narrow pulse shrink toward an ideal impulse and derive precisely which part of a system's state can jump.
 

@@ -14,7 +14,7 @@ Combinatorics turns this into a method. Describe a finite collection of objects,
 
 #### The product rule is a reversible description
 
-If a construction has a first choice from a set of m possibilities, followed by a second choice from n possibilities regardless of the first, then there are m times n ordered pairs. If the second choice depends on the first, we add the number of available second choices over all first choices instead. The statement sounds obvious, but the distinction matters.
+If a construction has a first choice from a set of m possibilities, followed by a second choice from n possibilities regardless of the first, then there are m times n ordered pairs. If the second choice depends on the first, we add the number of available second choices over all first choices instead. Confusing these two cases is one of the easiest ways to miscount.
 
 For a chair and a secretary chosen from five people, the second role has four choices after the first is fixed. The answer is five times four. We cannot use five squared because selecting the same person twice is forbidden. If we do allow the same person in both roles, we do get five squared. The numerical difference encodes a difference in the objects being counted.
 
@@ -226,7 +226,7 @@ Suppose a-n equals c-one times a at n minus one, through c-k times a at n minus 
 
 The roots of the characteristic polynomial explain the solutions. Distinct characteristic roots produce terms proportional to their n-th powers. Repeated roots require extra factors that are polynomials in n. For instance, the recurrence a-n equals two a at n minus one minus a at n minus two has characteristic polynomial r minus one squared. The general solution is A plus B times n. Check it directly: the second finite difference of a linear function of n vanishes.
 
-This matters when analyzing growth. A repeated dominant root can introduce factors such as n times r to the n. Merely identifying the largest root without checking multiplicities may miss the correct asymptotic factor.
+A repeated dominant root can introduce factors such as n times r to the n, so a growth estimate based only on the largest root may miss the correct asymptotic factor.
 
 #### A different kind of recurrence: branching structure
 

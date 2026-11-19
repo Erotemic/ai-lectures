@@ -62,7 +62,7 @@ The formula records the coordinate conversion into the original basis, the actio
 
 If the input and output belong to different vector spaces, we may choose one basis for the inputs and another for the outputs. Then there are two conversion matrices. If P converts new input coordinates to old input coordinates, and Q converts new output coordinates to old output coordinates, the new matrix is Q inverse times A times P. Only when the two spaces are the same and we use the same basis change do we obtain the similarity formula.
 
-This distinction matters later because many important operators are rectangular: they map between different spaces, or between a small coordinate space and a larger space of vectors.
+Many operators encountered later are rectangular: they map between different spaces, or between a small coordinate space and a larger space of vectors.
 
 ## What stays unchanged
 

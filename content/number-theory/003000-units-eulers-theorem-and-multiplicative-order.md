@@ -70,7 +70,7 @@ Security requires much more: parameter choices, padding, a precise adversary mod
 
 We have moved from remainders to invertible remainders, from finite permutations to a general power theorem, and from a theorem about powers to questions of order and primality. The underlying group idea is already visible: multiplication is an operation with an identity and inverses, and repeated applications of the operation trace a finite cycle.
 
-This matters because number theory repeatedly uses algebra without making algebra feel like an extra layer of vocabulary. One can first discover that the units modulo n behave in a structured way, then recognize the general pattern in matrix multiplication, symmetries, and transformations. Concrete modular arithmetic is one place where group theory earns its keep.
+The same structure reappears in matrix multiplication, symmetries, and transformations. Concrete modular arithmetic is one place where group theory earns its keep.
 
 The central conclusion is simple to say but rich in consequences: invertible remainders form a finite world, and multiplication by one of them only permutes that world. Euler's theorem captures that finiteness. Multiplicative order measures the precise cycle. Their counterexamples teach us which inferences are licensed—and which are not.
 

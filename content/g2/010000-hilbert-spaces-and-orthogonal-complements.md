@@ -12,7 +12,7 @@ Start with an inner-product space. We can add and scale vectors. We can measure 
 
 But the rules for inner products do not guarantee that every Cauchy sequence has a limit inside the space. Recall that a Cauchy sequence is one whose late terms get arbitrarily close to each other. A Hilbert space is simply an inner-product space that is complete for its inner-product norm. It combines Euclidean geometry with the guarantee that Cauchy approximations have limits.
 
-All ordinary real and complex coordinate spaces of finite dimension are Hilbert spaces. The distinction matters much more in infinite dimensions. There we can have an inner-product space with all the geometric identities we expect, but missing the limit of a sequence we can construct inside it.
+All ordinary real and complex coordinate spaces of finite dimension are Hilbert spaces. Completeness becomes a substantive requirement in infinite dimensions. There we can have an inner-product space with all the geometric identities we expect, but missing the limit of a sequence we can construct inside it.
 
 ## An infinite coordinate vector
 

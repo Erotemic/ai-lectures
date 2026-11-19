@@ -12,7 +12,7 @@ Carpentry is an exercise in controlling forces with a material that was once a t
 
 ### Begin at the roof, then follow the force
 
-Snow rests on a roof. Its weight acts downward. Roof sheathing distributes that load to rafters or trusses. Those members carry forces to supporting walls, beams, or other designed supports. Walls carry loads through plates and studs into floor framing or directly into the foundation. Foundations distribute loads into soil. This is a *load path*. Every connection in that chain matters because a load does not simply vanish at the end of a board.
+Snow rests on a roof. Its weight acts downward. Roof sheathing distributes that load to rafters or trusses. Those members carry forces to supporting walls, beams, or other designed supports. Walls carry loads through plates and studs into floor framing or directly into the foundation. Foundations distribute loads into soil. This is a *load path*. The load does not vanish at the end of a board; each connection must carry it onward.
 
 Now reverse your attention. Wind may exert uplift on a roof or lateral pressure on a wall. The structural system must transfer those forces through connections and bracing to suitable supports. A house that carries gravity loads is not automatically secure against uplift or sideways deformation. Metal connectors, nails, sheathing patterns, and anchorage can be essential parts of the structure even though they occupy less visible space than the lumber.
 
@@ -24,7 +24,7 @@ A post under a centered vertical load is primarily in compression. A tie that ho
 
 Imagine a plank supported at both ends and loaded in the middle. The plank bends. Its upper fibers shorten and its lower fibers lengthen for ordinary downward bending. This explains why cracks, knots, and notches can be more consequential in some locations than others. The damage to load capacity cannot be inferred solely from how much wood was removed; location relative to stress matters.
 
-Depth also matters. For an ideal rectangular beam of the same material and width, bending stiffness grows roughly with the cube of its depth, through the second moment of area. Doubling depth, all else equal, gives about eight times that geometric stiffness. But it also changes weight and load capacity in different ways, and actual framing is controlled by spans, materials, lateral restraint, connections, serviceability and the applicable design rules. This relationship is an explanation for why joists stand on edge, not permission to improvise a beam design.
+For an ideal rectangular beam of the same material and width, bending stiffness grows roughly with the cube of its depth, through the second moment of area. Doubling depth, all else equal, gives about eight times that geometric stiffness. But it also changes weight and load capacity in different ways, and actual framing is controlled by spans, materials, lateral restraint, connections, serviceability and the applicable design rules. This relationship is an explanation for why joists stand on edge, not permission to improvise a beam design.
 
 ### Wood is strong in particular directions
 
@@ -40,7 +40,7 @@ A board sitting loosely on another board may carry compression by bearing but re
 
 This is why the visual impression of "lots of screws" is not a structural argument. A wood screw designed for cabinets may have different behavior than a structural fastener tested for specific framing applications. Ordinary fastener substitutions can change withdrawal capacity, shear behavior, ductility, and corrosion resistance. The required connection is part of the structural design.
 
-The surface beneath a fastener matters too. Screw threads need effective engagement; nails need sufficient penetration and appropriate arrangement; bolts can crush wood locally if bearing stress becomes excessive. Edge distances matter because splitting may start long before the steel fastener itself reaches its capacity. Good construction is not just choosing a strong component. It is avoiding a weak mechanism in the combined assembly.
+A fastener depends on the wood it grips. Screw threads need effective engagement; nails need sufficient penetration and appropriate arrangement; bolts can crush wood locally if bearing stress becomes excessive. Edge distances matter because splitting may start long before the steel fastener itself reaches its capacity. Good construction is not just choosing a strong component. It is avoiding a weak mechanism in the combined assembly.
 
 ### Geometry is a form of strength
 
@@ -234,7 +234,7 @@ A beam can be strong enough while its connection is too weak. A sheathed wall ca
 
 Gravity tends to load framing downward. Wind can push walls inward or outward, shear a wall sideways, and create uplift that tries to detach the roof from its supports. Earthquake loading reverses directions during a sequence of movements. Connections intended for one of these cases are not automatically suitable for the others.
 
-A simple joist bearing on a beam transfers downward load through contact: wood presses on wood. A joist hanger creates a different path, usually from the joist into its fasteners, through the hanger metal, into more fasteners, and then into the support. Every part of that chain matters. If the specified nails are absent from the hanger's side holes, the installed connection may be a different device from the one whose capacity was published.
+A simple joist bearing on a beam transfers downward load through contact: wood presses on wood. A joist hanger creates a different path, usually from the joist into its fasteners, through the hanger metal, into more fasteners, and then into the support. Missing the specified nails can turn the installed hanger into a different connection from the one whose capacity was published.
 
 Likewise, a roof-to-wall tie intended to resist uplift must actually connect the structural members on both sides. Fastening a strap to sheathing alone may not provide the expected connection to the underlying framing. A connector can be mechanically sound but attached to a member that is itself inadequately supported. The load-path sketch should show where the force comes from, the connection, and where it goes next.
 

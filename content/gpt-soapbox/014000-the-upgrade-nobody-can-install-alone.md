@@ -124,7 +124,7 @@ There are technical qualifications. The revised S I affected multiple base-unit 
 
 Compare this with Sweden. Swedish drivers needed to change their behavior at a particular hour. In metrology, people who measured mass in everyday contexts were meant to continue behaving as before, while the mechanism that justified and realized the common unit changed beneath the surface.
 
-The difference matters. We sometimes speak as if genuine reform must look dramatic. A visible rupture is easy to photograph. A new definition that quietly preserves the measurements people rely upon can be an intellectual revolution with very little public spectacle.
+Public spectacle is a poor measure of whether reform is real. We sometimes speak as if genuine reform must look dramatic. A visible rupture is easy to photograph. A new definition that quietly preserves the measurements people rely upon can be an intellectual revolution with very little public spectacle.
 
 And this was not accomplished by declaring that the new approach was correct and insisting that everyone cope. Metrologists had to make measurements, compare methods, assess uncertainty, establish the relation between the old mass scale and the new definitions, and produce practical guidance for how units could continue to be realized and disseminated. The institutions doing this work were not deciding whether Planck's constant would behave itself. They were deciding how to attach a stable, usable human unit to physical invariants while preserving the utility of earlier measurements.
 

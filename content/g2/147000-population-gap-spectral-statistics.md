@@ -26,7 +26,7 @@ For a selected population block, compare its upper endpoint to the preceding pop
 
 For the largest d eigenvalues, there is only a lower boundary. If the dth eigenvalue is separated from the next one by g, Delta is g. For an interior block, both boundaries matter. No separation among eigenvalues *inside* the selected block is required; repeated eigenvalues inside it are permitted.
 
-This matters for principal component analysis. We often care about the entire leading d-dimensional subspace, not the orientation of individual principal components inside a nearly repeated cluster.
+In principal component analysis, the leading d-dimensional subspace may be more stable and more meaningful than the orientation of individual components inside a nearly repeated cluster.
 
 If Delta is zero, a small perturbation may cause a large change in which ordered eigenvectors are included in the selected block. A nonzero gap is the mechanism that identifies the target subspace.
 

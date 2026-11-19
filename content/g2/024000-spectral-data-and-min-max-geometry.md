@@ -236,7 +236,7 @@ We'll work first over the complex numbers. Let A be a self-adjoint operator on a
 
 The characteristic polynomial has positive degree. The fundamental theorem of algebra says that it has at least one complex root. If lambda is a root of the characteristic polynomial of a finite matrix A, then A minus lambda times the identity is singular. Its kernel therefore contains a nonzero eigenvector. So choose an eigenvalue lambda and a unit eigenvector v.
 
-Since A is self-adjoint, lambda is real. This matters because the restriction of A to the directions perpendicular to v will remain self-adjoint.
+Since A is self-adjoint, lambda is real. The restriction of A to directions perpendicular to v remains self-adjoint, allowing the argument to continue on that subspace.
 
 We know one good direction. How can we find the rest without interfering with it?
 

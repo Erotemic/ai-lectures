@@ -20,7 +20,7 @@ When h is not zero, divide this change by h. The result is six plus h. At h equa
 
 We say the derivative of the squaring function at three is six. Notice exactly what this means. It does not say that the function always changes six units for one unit of input. The actual output change contains the extra term h squared. It says that six is the limiting ratio of output change to input change when the input change tends to zero.
 
-The distinction matters because a finite step has a finite error. With a step of one tenth, the linear prediction says the output changes by six tenths. The actual change is sixty-one hundredths. The error is one hundredth. With a step of one hundredth, that error becomes one ten-thousandth. The prediction becomes disproportionately better as the step shrinks.
+The difference between a derivative and a finite-step prediction appears as an approximation error. With a step of one tenth, the linear prediction says the output changes by six tenths. The actual change is sixty-one hundredths. The error is one hundredth. With a step of one hundredth, that error becomes one ten-thousandth. The prediction becomes disproportionately better as the step shrinks.
 
 This is what it means for the straight line to be the correct first-order model of the curve near a point.
 

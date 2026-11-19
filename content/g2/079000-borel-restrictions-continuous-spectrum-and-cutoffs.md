@@ -60,7 +60,7 @@ Consider multiplication by t on L two of the unit interval. Let f be zero everyw
 
 By contrast, if A has an eigenvector with eigenvalue one half, the same symbol acts by a million on that eigenspace. There is no contradiction. The two operators have different spectral measures.
 
-This distinction is absent for continuous functions: a continuous function that is large at a spectral point is large nearby, and a genuine spectral point cannot have every small neighborhood carry zero projection. For discontinuous symbols, the difference matters.
+This distinction is absent for continuous functions: a continuous function that is large at a spectral point is large nearby, and a genuine spectral point cannot have every small neighborhood carry zero projection. Discontinuous symbols reveal the difference between pointwise size and size detected by the spectral measure.
 
 ### Strong convergence under bounded pointwise limits
 

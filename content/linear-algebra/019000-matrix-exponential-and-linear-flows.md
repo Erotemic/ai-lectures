@@ -66,7 +66,7 @@ Eventually the exponential decay wins over the linear factor of time, and every 
 
 In finite dimensions with constant coefficients, all eigenvalues having strictly negative real parts implies eventual decay of every solution. For normal matrices measured in the Euclidean norm, the geometry is much simpler: orthogonal eigenmodes eliminate this kind of shear-driven transient amplification. For nonnormal matrices, eigenvalues alone do not give a sharp bound on the intermediate growth of the evolution operator.
 
-This matters in control theory, hydrodynamic stability, numerical discretizations, and any problem where a large temporary amplification can cause failure before the asymptotic regime arrives.
+A large temporary amplification can cause failure before the asymptotic regime arrives, in control theory, hydrodynamic stability, numerical discretizations, and other settings.
 
 ## Forces that vary with time
 

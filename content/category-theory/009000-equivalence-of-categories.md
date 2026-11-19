@@ -64,7 +64,7 @@ This is a general pattern: a construction defined by an appropriate universal pr
 
 An equivalence also preserves whether two objects are isomorphic, the structure of each hom-set up to its specified bijection, and finite limits and colimits when they exist. It does not preserve the literal number of objects. One category might have many named copies of the same structure; an equivalent skeleton can have one object representing each isomorphism class.
 
-This matters when we decide what a classification theorem should count. Are we counting presentations, or structures up to isomorphism? A category can have many ways to present an object even when there is a single isomorphism type. The language of equivalence tells us which differences are mathematical and which are changes of representation.
+A classification theorem must specify whether it counts presentations or structures up to isomorphism. A category can have many ways to present an object even when there is a single isomorphism type. The language of equivalence tells us which differences are mathematical and which are changes of representation.
 
 ## Skeletons and a sharp example
 

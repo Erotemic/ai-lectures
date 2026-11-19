@@ -70,7 +70,7 @@ There are two distinct parts to a descent theorem. We need to reconstruct object
 
 Conversely, if local maps satisfy the overlap compatibility, can they be assembled into a global map? For ordinary vector bundles on open covers, yes. The glued map sends the equivalence class of a local vector to the equivalence class of its local image, and compatibility guarantees independence of the chart used. Continuity and fiberwise linearity can be checked locally.
 
-This distinction matters categorically. A correspondence that reconstructs every global object but loses maps is not an equivalence of categories. A proper descent theorem must be fully faithful on morphisms and essentially surjective on objects. Fully faithful here is the precise way of saying that maps can be recovered uniquely from compatible local maps. Essentially surjective says that any valid local object with descent data is isomorphic to something pulled back from the global space.
+An equivalence of categories must recover maps as well as objects. A proper descent theorem must be fully faithful on morphisms and essentially surjective on objects. Fully faithful here is the precise way of saying that maps can be recovered uniquely from compatible local maps. Essentially surjective says that any valid local object with descent data is isomorphic to something pulled back from the global space.
 
 We therefore package descent data into a category. Its objects are local families plus transition isomorphisms; its arrows are compatible families of local maps. The restriction functor from global objects to that descent category is the descent comparison functor. Effective descent, in its categorical formulation, is the statement that this comparison is an equivalence.
 

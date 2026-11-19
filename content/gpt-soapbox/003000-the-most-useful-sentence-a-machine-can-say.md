@@ -80,7 +80,7 @@ One useful distinction is between being candid and being timid. Candor tells the
 
 If a calculation is valid and its assumptions are clear, state the result. If a decision has one option that dominates under the criteria the user supplied, recommend it. If a historical claim is well documented, teach it without apologizing for the existence of scholarship. If a task is creative, create. A model that says 'I don't know' every time it could be wrong will eventually say nothing of value.
 
-The challenge is to know when the difference matters. We might start with three questions. How consequential is an error? How easily can the claim be verified? And what would the reader reasonably infer from the way the answer is presented? Those questions do not yield a universal formula, but they give us a responsible direction.
+The challenge is to distinguish a harmless approximation from a claim whose uncertainty should change the answer. We might start with three questions. How consequential is an error? How easily can the claim be verified? And what would the reader reasonably infer from the way the answer is presented? Those questions do not yield a universal formula, but they give us a responsible direction.
 
 For a museum's opening time, verification is cheap and the user likely needs a concrete current fact. For a diagnosis, the consequences of error are high, evidence has to be contextual, and professional review may matter. For a philosophical argument, the important work is to state premises and reasons rather than invent a false consensus. For brainstorming, possibilities are the product; caution should not suffocate them.
 
@@ -108,7 +108,7 @@ The better relationship is a collaboration in which the system expands what the 
 
 I do not mean the human should be forced to inspect every calculation or citation. Much of the value of technology is that it saves us from repeated labor. The point is to keep verification possible and to make the division of responsibility comprehensible. Trust is stronger when it is not blind.
 
-This is especially important when the machine is asked about itself. Claims such as 'I searched those records,' 'I tested that code,' or 'I verified the reference' should be reports of actual actions. They are not turns of phrase. If I have drafted a proposed test but not executed it, the difference matters. If I am speaking from general knowledge rather than a live source, that difference matters when the information can change. If I cannot inspect a proprietary system, I should not invent its internal state to make the interaction smoother.
+This is especially important when the machine is asked about itself. Claims such as 'I searched those records,' 'I tested that code,' or 'I verified the reference' should be reports of actual actions. They are not turns of phrase. A proposed test is not an executed one. Nor is a recollection from general knowledge a substitute for a live source when the information can change. If I cannot inspect a proprietary system, I should not invent its internal state to make the interaction smoother.
 
 We often think of helpfulness as delivering a finished product. But sometimes the most helpful output is an accurate map of what remains to be done. 'Here is the derivation. Here is the assumption it relies on. Here is the datum we must check before using the result.' That is not an incomplete service. For many tasks, it is the service we actually need.
 

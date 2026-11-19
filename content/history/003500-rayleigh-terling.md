@@ -8,7 +8,7 @@
 
 ## The laboratory after Cambridge
 
-John William Strutt, the third Baron Rayleigh, left his Cambridge professorship in eighteen eighty-four. He did not leave research. His home at Terling Place in Essex was where much of the next three decades of his scientific work took place. The distinction matters: an appointment to a famous laboratory may be a brief chapter in a scientific career, while a long period of apparently private work can produce findings that change whole disciplines.
+John William Strutt, the third Baron Rayleigh, left his Cambridge professorship in eighteen eighty-four. He did not leave research. His home at Terling Place in Essex was where much of the next three decades of his scientific work took place. An appointment to a famous laboratory can be a brief chapter in a scientific career, while decades of apparently private work can produce findings that change whole disciplines.
 
 Rayleigh had inherited an aristocratic household and the obligations of landownership. The agricultural economy was not reliably prosperous, and his equipment did not always resemble the expensive installations of a national laboratory. He was known for simple, carefully arranged apparatus and for making measurements that could be checked in several ways. That economy of means should not be confused with an absence of privilege. He possessed space, skilled assistance, and freedom to choose research problems; the scientific community around him did not have equal access to those resources.
 

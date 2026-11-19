@@ -58,7 +58,7 @@ Suppose there were only finitely many such primes. Their reciprocals to the powe
 
 We can say more. For each individual prime, one over p to the s increases to one over p as s decreases to one. Since all the summands are nonnegative, the limit of the entire sum is the sum of prime reciprocals, allowing infinity as a possible value. Our estimate forces that limit to be infinity. Thus the sum of one over p among primes in any reduced class diverges.
 
-This distinction matters. An infinite set of primes could, in principle, have a convergent reciprocal sum. Dirichlet's theorem in the form proved here rules out that possibility for a complete reduced arithmetic progression.
+Infinitely many primes need not, in general, contribute a divergent reciprocal sum. Dirichlet's theorem in the form proved here rules out that possibility for a complete reduced arithmetic progression.
 
 If q is one, there is only one residue class and the result is Euclid's theorem together with Euler's divergence of prime reciprocals. For every q at least two, the character argument above applies directly. We have therefore covered all positive moduli.
 

@@ -208,7 +208,7 @@ In fact their kernels are equal. If P kills a vector, expand that vector in an e
 
 If P is invertible, it has no zero eigenvalues. Then S is also invertible, with inverse formed by taking the reciprocals of its positive eigenvalues. If P is not invertible, its positive square root still exists. We have no need to divide by zero.
 
-This matters later: we want to handle linear maps that collapse some directions, not only maps that can be inverted.
+Later we will also need to handle maps that collapse directions and therefore cannot be inverted.
 
 ### Two rules worth remembering
 

@@ -46,7 +46,7 @@ Bentley went on to make more than five thousand snow-crystal photographs. In 193
 
 There is a complication in those images. Bentley sometimes prepared or retouched the photographic negatives so the crystals would stand out against a black background. The resulting pictures are striking, but they are not a random sample of everything that fell from the sky. He was selecting crystals worth showing and preparing them to be seen. Later photographers have likewise tended to choose the most symmetrical examples.
 
-That matters because the familiar snowflake image is only one entry in a large catalog. Plenty of atmospheric ice crystals are lopsided, clumped, broken, or coated in frozen droplets. Many are short columns. Some are plates so plain that they look like tiny hexagonal coins. A falling snowflake can also be an aggregate of several crystals stuck together, in which case the whole object has no obligation to be six-sided.
+The familiar six-pointed snowflake is only one form in a much larger catalog. Plenty of atmospheric ice crystals are lopsided, clumped, broken, or coated in frozen droplets. Many are short columns. Some are plates so plain that they look like tiny hexagonal coins. A falling snowflake can also be an aggregate of several crystals stuck together, in which case the whole object has no obligation to be six-sided.
 
 Bentley made the complexity visible. He did not settle the question of what conditions built each shape. His camera preserved the results of experiments that the sky had performed without telling him what settings it used.
 

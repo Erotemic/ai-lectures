@@ -20,7 +20,7 @@ I do not think there is one formula that settles these questions. I do think the
 
 The seed vault opened in two thousand eight. Its purpose is often described dramatically, as if it were a pantry stocked for the end of the world. That is not quite right. Its ordinary work is more concrete. Crop diversity is stored in gene banks around the world, where seeds support research, breeding, and conservation. Such collections can be lost through conflict, disaster, equipment failure, poor funding, or a hundred less cinematic events. Svalbard keeps backup samples of some of those collections. The institutions depositing seeds retain ownership and the right to retrieve them.
 
-That distinction matters. A vault does not preserve agriculture by itself. Seeds need records, trained people, viable storage conditions, institutions able to request them, and places where they can be grown. The vault is not a replacement for living agricultural knowledge. It is one additional layer of protection.
+A seed vault cannot preserve agriculture on its own. Seeds need records, trained people, viable storage conditions, institutions able to request them, and places where they can be grown. The vault is not a replacement for living agricultural knowledge. It is one additional layer of protection.
 
 And this is not merely a story about an imagined catastrophe centuries away. The International Center for Agricultural Research in the Dry Areas had kept important seed collections in Syria. As war disrupted its operations, the institute drew on material it had deposited in Svalbard. The first withdrawal occurred in two thousand fifteen. Returned seeds helped establish renewed collections in Lebanon and Morocco.
 

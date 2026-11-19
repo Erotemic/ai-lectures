@@ -78,7 +78,7 @@ There are n choose two potential edges. Each is present independently with proba
 
 The degree of a fixed vertex is a different sum: it counts the n minus one possible edges incident to that vertex. Its expected value is p times n minus one. Because those edge choices are independent, its degree follows a binomial distribution.
 
-But degrees at different vertices are not independent: any pair shares the possible edge joining them. That distinction matters when we move from a statement about one vertex to a statement about all vertices. Linearity of expectation works even when variables are dependent. Multiplying probabilities, in contrast, requires independence or a carefully justified conditional argument.
+But degrees at different vertices are not independent: any pair shares the possible edge joining them. A claim about one vertex cannot be multiplied into a claim about all vertices without accounting for their dependencies. Linearity of expectation works even when variables are dependent. Multiplying probabilities, in contrast, requires independence or a carefully justified conditional argument.
 
 ### The first-moment threshold for isolated vertices
 

@@ -30,7 +30,7 @@ Consider a concrete case. We have natural numbers a and b, a proof that a equals
 
 A direct paper argument says, 'Since a equals b, the property is unchanged.' That sentence is correct, but it conceals the key generality: it works for any predicate on any type because it is an instance of equality elimination. We did not need to know anything special about positivity.
 
-This matters when a proof changes something more complicated than a scalar. Suppose a matrix carries row and column dimensions in its type. A theorem may establish that the number of columns of one matrix equals the number of rows of another. That equality lets us construct a well-typed matrix product. Without it, the multiplication interface should refuse the operation. The role of transport is to turn arithmetic facts about dimensions into compatibility of the types describing the matrices.
+Transport becomes concrete when the objects being rewritten carry type-level structure. Suppose a matrix carries row and column dimensions in its type. A theorem may establish that the number of columns of one matrix equals the number of rows of another. That equality lets us construct a well-typed matrix product. Without it, the multiplication interface should refuse the operation. The role of transport is to turn arithmetic facts about dimensions into compatibility of the types describing the matrices.
 
 In practical systems the dimension equality may be hidden behind a helper lemma, a rewrite tactic, or a cast operation. Hiding an explicit cast can make code more pleasant, but it does not mean the requirement has disappeared. It has been justified, and the machinery is being managed by an abstraction.
 

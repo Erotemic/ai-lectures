@@ -40,7 +40,7 @@ Here is a deliberately non-ethnic original example. One town makes jokes about t
 
 Comparative work is strongest when it asks why certain joke cycles become available at particular times, and what social work is accomplished by repeating them. It is weakest when it turns a genre's conventional target into a description of real people. A writer who hears, "People from that region are the butt of our jokes," has learned something about the joke-telling community's social imagination. They have not thereby learned that people from the region actually possess the alleged trait.
 
-This distinction matters for translation. If we replace the target of a joke with the target a new audience already ridicules, we may preserve ease of recognition while intensifying an existing prejudice. A line that was self-mockery in the source community can become a punch downward in the receiving context. Two jokes may be structurally similar and politically different. A responsible comparison identifies that difference instead of treating a laugh as permission to ignore it.
+Translation can preserve the mechanics of a joke while changing its social target. If we replace the target of a joke with the target a new audience already ridicules, we may preserve ease of recognition while intensifying an existing prejudice. A line that was self-mockery in the source community can become a punch downward in the receiving context. Two jokes may be structurally similar and politically different. A responsible comparison identifies that difference instead of treating a laugh as permission to ignore it.
 
 ## The interaction around the joke
 

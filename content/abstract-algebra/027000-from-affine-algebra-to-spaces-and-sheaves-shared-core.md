@@ -136,7 +136,7 @@ These basic opens are compatible with multiplication. Being outside both the van
 
 A prime ideal p has closure equal to the set of primes containing p. The more ideals contain p, the more specialized those points are. An inclusion of primes therefore gives a specialization relation. This relation, rather than distance, controls much of the geometry.
 
-Now try the polynomial ring in one variable over an algebraically closed field. It has the generic zero ideal and one maximal ideal for each scalar value of the variable. We recover a line of closed points, but with an extra generic point. Over a field that is not algebraically closed, closed points may correspond to irreducible polynomials of higher degree. That distinction matters: an affine scheme is not simply a set of solutions over the original field.
+Now try the polynomial ring in one variable over an algebraically closed field. It has the generic zero ideal and one maximal ideal for each scalar value of the variable. We recover a line of closed points, but with an extra generic point. Over a field that is not algebraically closed, closed points may correspond to irreducible polynomials of higher degree. An affine scheme therefore contains more geometric information than the solutions visible over the original field.
 
 ### What functions are allowed near a point?
 

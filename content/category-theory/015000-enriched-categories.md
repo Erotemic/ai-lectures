@@ -65,7 +65,7 @@ These are two different operations. Addition expresses sequential composition. M
 
 Try a miniature case. Ash to Birch costs four. Birch to Cedar costs seven. Ash to Cedar has a direct edge of fifteen. Once paths through Birch are allowed, the new best time from Ash to Cedar is the minimum of fifteen and four plus seven. That is eleven. Repeat for all triples, and the network's best-time table becomes closed under the triangle inequality.
 
-The useful mathematical insight is that an admissible composite path never gives a tighter lower bound on the endpoint distance; it gives an upper bound on the best distance. This distinction matters when proving an algorithm correct. The triangle inequality is oriented toward an achievable journey, and an algorithm also needs an argument that it has considered enough journeys to attain the minimum.
+The useful mathematical insight is that an admissible composite path never gives a tighter lower bound on the endpoint distance; it gives an upper bound on the best distance. A shortest-path proof has two jobs: it must use the triangle inequality in the direction of an achievable journey, and it must establish that the algorithm considered enough journeys to attain the minimum.
 
 ## What is a functor between these spaces?
 

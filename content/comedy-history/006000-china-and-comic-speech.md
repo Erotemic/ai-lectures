@@ -24,7 +24,7 @@ Consider a fabricated scene. A man insists he can reproduce any person's voice f
 
 Notice that imitation is never socially innocent merely because it is technically impressive. An imitation can honor a performer, ridicule a politician, reproduce a demeaning stereotype, or allow a listener to recognize a shared experience. When the speaker borrows another person's voice, the audience asks whether the portrayal feels accurate, affectionate, malicious, or lazy. The performer must decide whose speech is being imitated and what the imitation suggests about that person.
 
-A modern English translation of a wordplay-heavy routine faces a difficult choice. Keep the sounds and many listeners will not know what the performer has done. Translate the meaning and the skill may vanish. Replace the wordplay with a new local joke and the performance may work again, but it is now an adaptation, not a literal replica. The distinction matters particularly for an art that makes sound, pace, and social registers part of its content.
+A modern English translation of a wordplay-heavy routine faces a difficult choice. Keep the sounds and many listeners will not know what the performer has done. Translate the meaning and the skill may vanish. Replace the wordplay with a new local joke and the performance may work again, but it is now an adaptation, not a literal replica. For an art built from sound, pace, and social register, translation and adaptation are different artistic achievements.
 
 ## The performer and the person who resists
 

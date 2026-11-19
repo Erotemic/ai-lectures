@@ -48,7 +48,7 @@ The power to choose questions matters. Imagine that the writer asks, 'Where does
 
 ## Liz Lerman and the order of feedback
 
-Liz Lerman developed the Critical Response Process in 1990 for giving and receiving feedback on creative work. It is used across art forms, not only fiction writing. The process formalizes a sequence: responders first identify what was meaningful or striking; the maker then asks questions; responders ask neutral questions; and finally responders may offer opinions with the maker's permission. The order matters. It gives the maker time to discover what is working and to shape the inquiry before being surrounded by proposed solutions.
+Liz Lerman developed the Critical Response Process in 1990 for giving and receiving feedback on creative work. It is used across art forms, not only fiction writing. The process formalizes a sequence: responders first identify what was meaningful or striking; the maker then asks questions; responders ask neutral questions; and finally responders may offer opinions with the maker's permission. The sequence gives the maker time to discover what is working and to shape the inquiry before being surrounded by proposed solutions.
 
 Let's try a brief version with Nadiya's opening. First a responder says, 'I remembered the image of one person counting chairs in a building everyone has stopped using.' This is not empty praise. It identifies an effect the draft has actually produced. Another says, 'The mother's history as a cleaner made the inventory feel like a question about whose work the building remembers.' The writer now knows that two elements have joined in a reader's mind.
 

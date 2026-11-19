@@ -104,7 +104,7 @@ This is an excellent example of why the molecular explanation matters. A soap mo
 
 If you have lived with hard water, you may have noticed the consequences before hearing the words calcium stearate. You use more product. Rinsing can be frustrating. A film builds up on the tub or the sink. This does not mean no cleaning is possible. It means that the water itself has become part of the formulation problem.
 
-A synthetic detergent can address it differently. Chemists can build molecules that still possess a water-compatible end and an oil-compatible end, but whose other chemical features make them less likely to form the same insoluble deposits. The distinction matters: in ordinary speech, we call many detergents soaps. Chemically, a traditional soap is a salt of a fatty acid. A synthetic surfactant need not be one.
+A synthetic detergent can address it differently. Chemists can build molecules that still possess a water-compatible end and an oil-compatible end, but whose other chemical features make them less likely to form the same insoluble deposits. In ordinary speech, we call many detergents soaps. Chemically, however, traditional soap is a salt of a fatty acid; a synthetic surfactant need not be one.
 
 Industrial chemists did not invent detergents merely because they were bored of soap. Different water supplies, industrial requirements, and raw-material constraints presented real limitations. In 1933, Procter and Gamble brought a synthetic laundry detergent called Dreft to market. It washed well in hard water but initially struggled with heavily soiled laundry. The company continued developing detergents and introduced Tide in the 1940s with a more capable cleaning formulation.
 

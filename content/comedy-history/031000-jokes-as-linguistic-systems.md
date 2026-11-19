@@ -10,7 +10,7 @@ Imagine a museum guide showing a visitor an exhibit called The World's Most Reli
 
 There is a small task for the listener in that exchange. A reliable clock ordinarily keeps the correct time as minutes pass. The guide treats reliability as the ability to display the correct time at one arranged moment. The sentence does not contain a nonsense word. Nobody falls over. The guide's answer is grammatically ordinary. Yet the meaning of the claim has changed underneath us, and we can reconstruct the change almost instantly.
 
-What is a joke made of, if the crucial event happens inside interpretation? That question led linguists in the late twentieth century to develop models of verbal humor. Their central ambition differed from a comedian's ambition. Rather than ask how to make a room laugh tonight, they asked how a text can support incompatible readings, how a listener moves between them, and how jokes can be compared systematically. The distinction matters. A theory of a joke's structure is not a theory of why everybody will enjoy it.
+What is a joke made of, if the crucial event happens inside interpretation? That question led linguists in the late twentieth century to develop models of verbal humor. Their central ambition differed from a comedian's ambition. Rather than ask how to make a room laugh tonight, they asked how a text can support incompatible readings, how a listener moves between them, and how jokes can be compared systematically. Explaining a joke's structure is not the same as explaining why every audience will enjoy it.
 
 ## The intellectual change
 

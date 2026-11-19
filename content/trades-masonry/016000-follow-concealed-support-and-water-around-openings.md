@@ -6,7 +6,7 @@
 
 ## Masonry Wall Ties and Anchorage Inspection
 
-A brick-faced house can look like a solid brick structure. Often it is not. The brick may be a relatively thin exterior veneer that carries its own weight while another wall behind it carries the floors and roof. Between the two are cavities, flashing, and small metal ties that connect the veneer back to its supporting wall. Those hidden connectors help keep the brick from moving outward under wind pressure and suction. Their condition matters even when the bricks themselves appear sound.
+A brick-faced house can look like a solid brick structure. Often it is not. The brick may be a relatively thin exterior veneer that carries its own weight while another wall behind it carries the floors and roof. Between the two are cavities, flashing, and small metal ties that connect the veneer back to its supporting wall. Those hidden connectors help keep the brick from moving outward under wind pressure and suction. Even apparently sound bricks can be unsafe when the ties behind them have corroded or loosened.
 
 ### Begin by identifying what the masonry does
 
@@ -34,7 +34,7 @@ When concealed connections need assessment, a qualified investigator may select 
 
 ### Repair the system, not its appearance
 
-A durable intervention may require source-water control, shelf-angle work, tie replacement or supplemental anchors, cavity drainage restoration, localized masonry rebuilding, and appropriate repointing. The order matters. Replacing a cracked brick while leaving a corroding support untreated only makes the wall look better temporarily. Likewise, applying an impermeable surface coating may reduce some wetting pathways while trapping moisture that enters elsewhere. Material compatibility and drying paths still matter.
+A durable intervention may require source-water control, shelf-angle work, tie replacement or supplemental anchors, cavity drainage restoration, localized masonry rebuilding, and appropriate repointing. Replacing a cracked brick while leaving a corroding support untreated only makes the wall look better temporarily. Likewise, applying an impermeable surface coating may reduce some wetting pathways while trapping moisture that enters elsewhere. Material compatibility and drying paths still matter.
 
 This is an example of why a masonry facade is an assembly rather than a stack of bricks. The veneer sheds rain imperfectly, drains what it admits, moves with temperature and moisture, carries its own weight, and transfers lateral forces through hidden connectors. Inspection becomes more reliable when we ask how each of those functions is currently being achieved, and what evidence would establish that it is not.
 
@@ -46,7 +46,7 @@ A section of brick veneer has begun to bow away from a house. The mortar joints 
 
 ### Veneer is not the main structural wall
 
-Many houses have a structural wall behind a brick facing. The brick veneer carries much of its own weight down to a supporting foundation, shelf angle, or other designed support. Ties connect it to the structural backing so that wind and other lateral forces can be resisted. That division of roles matters. The veneer is not held up simply because mortar adheres to the building, and a metal tie that holds the veneer back is not automatically intended to carry all of its gravity weight.
+Many houses have a structural wall behind a brick facing. The brick veneer carries much of its own weight down to a supporting foundation, shelf angle, or other designed support. Ties connect it to the structural backing so that wind and other lateral forces can be resisted. The veneer does not stay in place merely because mortar adheres to the building; metal ties and gravity supports play distinct structural roles.
 
 If ties corrode, were never installed correctly, or pull out of weak backing, the veneer can move outward. If the support below settles or a steel shelf angle deteriorates, the veneer may crack and rotate. Temperature expansion, moisture movement, and restrained joints can also produce stresses. Surface cracking alone cannot identify which mechanism is active, but displacement changes the level of concern. A bowing wall should not be treated as merely cosmetic.
 
@@ -72,7 +72,7 @@ Repointing replaces deteriorated mortar in accessible joints. It can be valuable
 
 A designed repair might require taking down unstable veneer in a controlled area, supporting adjacent work, correcting the foundation or shelf support, restoring the backing and water-resistive layer, installing properly selected ties and flashings, and rebuilding the masonry with suitable mortar and movement provisions. The actual sequence belongs to a qualified project design because partially dismantled masonry can be unstable, and temporary support is itself a structural system.
 
-Careful documentation matters during opening. Photograph the previous tie condition, corrosion, cavity obstructions, water stains, and flashing terminations before they disappear behind the reconstructed wall. Hold an inspection point before closing the cavity. Later, verify that weeps are open and that the completed facing is stable and properly supported. A beautiful exposed face is only one acceptance criterion.
+Before a cavity is closed again, photographs of the ties, corrosion, obstructions, water stains, and flashing terminations can preserve evidence that would otherwise disappear. Hold an inspection point before closing the cavity. Later, verify that weeps are open and that the completed facing is stable and properly supported. A beautiful exposed face is only one acceptance criterion.
 
 The central lesson is that a veneer functions as a layered assembly. Structural support keeps its weight in place. Ties keep it connected to the backing. Flashings and drainage let rainwater escape. Movement details allow materials to expand and contract without damaging each other. A repair that addresses only the visible mortar is incomplete whenever one of those hidden systems has failed.
 
@@ -94,7 +94,7 @@ Picture a drop of rain entering a mortar joint several courses above a window. I
 
 Weep openings complete the exit. They may be open head joints or another specified detail. If filled with mortar droppings, sealant, or debris, the cavity can hold water. A seemingly conscientious repair that caulks every visible hole at the base of a veneer may block intended drainage. Conversely, a hole that looks like a weep is not automatically a correctly constructed drainage path. The cavity, flashing, and outlet need to be understood as a connected route.
 
-Wall movement also matters. Brick expands and contracts with temperature and moisture; the supporting structural frame may move differently. Detailers use expansion joints, soft joints, and support arrangements to accommodate this movement. Rigidly bridging a movement joint with mortar or a new flashing bracket can redirect stress into the opening. Some cracks originate in movement rather than structural support failure. Their pattern and timing help distinguish those explanations, but no crack shape proves a unique cause.
+Brick expands and contracts with temperature and moisture, often differently from the structural frame that supports it. Detailers use expansion joints, soft joints, and support arrangements to accommodate this movement. Rigidly bridging a movement joint with mortar or a new flashing bracket can redirect stress into the opening. Some cracks originate in movement rather than structural support failure. Their pattern and timing help distinguish those explanations, but no crack shape proves a unique cause.
 
 ### Read a failure from several clues
 
@@ -114,7 +114,7 @@ The useful mental model is two paths drawn on one detail. One is the structural 
 
 The opening detail can now be tested by following the actual route of rainwater rather than assuming that the visible stain marks its entry point.
 
-A brown stain develops beneath a brick-faced window after a windy rain. Someone points at a cracked mortar joint and recommends sealing it. Perhaps the crack matters. But brick veneer is not normally designed on the assumption that not a drop of rain will pass its outer face. It is a water-management assembly. The diagnostic task is to learn where incoming water is supposed to go, and where it is going instead.
+A brown stain develops beneath a brick-faced window after a windy rain. Someone points at a cracked mortar joint and recommends sealing it. The crack may be a symptom, but brick veneer is not normally designed on the assumption that no rain will pass its outer face. It is a water-management assembly. The diagnostic task is to learn where incoming water is supposed to go, and where it is going instead.
 
 A typical drained veneer has an outer brick layer, a cavity, a water-resistive barrier against the backing, flashings at interruptions and openings to discharge water. The wall may also have insulation, air-control layers, ties and structural backing. Each has a different role. Brick and mortar reduce exposure but can absorb water. A drainage cavity creates a path downward, while properly detailed flashing redirects that water outward. If the path ends at a window frame or dead pocket, the veneer can perform exactly as its materials permit and still leak into the building.
 

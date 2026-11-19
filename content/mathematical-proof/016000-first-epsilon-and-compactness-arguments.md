@@ -38,7 +38,7 @@ The language of epsilon and N initially feels more complicated than saying 'the 
 
 ## Epsilon-Delta Proofs: Controlling a Function Near a Point
 
-A function has a limit L as x approaches a when its outputs become arbitrarily close to L whenever its inputs are sufficiently close to a, excluding the point a itself. Continuity adds the requirement that the function's value at a exists and agrees with that limit. The difference matters: a removable hole can have a limit even when the function is undefined at the hole.
+A function has a limit L as x approaches a when its outputs become arbitrarily close to L whenever its inputs are sufficiently close to a, excluding the point a itself. Continuity adds the requirement that the function's value at a exists and agrees with that limit. A removable hole can have a limit even when the function is undefined there.
 
 The epsilon-delta language encodes the relation. Given any positive desired output error epsilon, we must supply a positive input radius delta. Every point x of the domain satisfying zero less than the distance from x to a and less than delta must have output within epsilon of L. The order is crucial. Delta is allowed to depend on epsilon and a, but not on the particular x selected after delta has been fixed.
 

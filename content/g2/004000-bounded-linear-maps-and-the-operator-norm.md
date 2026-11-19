@@ -46,7 +46,7 @@ Many numbers M may satisfy the boundedness estimate. Our stretching example work
 
 For a nonzero input, consider the ratio of output length to input length. Because a linear map respects scaling, we can always rescale the input to have length one without changing this ratio. Therefore the operator norm is the supremum of the output lengths over all unit inputs.
 
-Supremum means the smallest number that is at least as large as every value under consideration. There need not be a single vector that achieves it. This matters in infinite dimensions. We can have a sequence of unit inputs whose output lengths approach the operator norm, without any unit input attaining it.
+Supremum means the smallest number that is at least as large as every value under consideration. In infinite dimensions, the operator norm may only be approached, never attained. A sequence of unit inputs can have output lengths tending toward the supremum even though no single unit input reaches it.
 
 The operator norm itself obeys the norm rules for bounded linear maps. It is nonnegative. It vanishes only for the zero map. Scaling an operator scales its norm by the absolute value of the scalar. And the norm of a sum of operators is at most the sum of their norms, because we can apply the vector triangle inequality to their outputs.
 

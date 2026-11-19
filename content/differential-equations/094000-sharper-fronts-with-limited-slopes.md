@@ -14,7 +14,7 @@ This is the reason for slope limiters and MUSCL reconstruction. The acronym refe
 
 ## One line per cell, with its average preserved
 
-Let the average in a cell be Q. Suppose its reconstructed line has a left-edge value below Q and a right-edge value equally far above Q. The average of that line across the cell is still Q. This matters: reconstruction is not allowed to change how much material the cell represents. It only changes how that stored amount is distributed inside the cell for the purpose of calculating interface fluxes.
+Let the average in a cell be Q. Suppose its reconstructed line has a left-edge value below Q and a right-edge value equally far above Q. The average of that line across the cell is still Q. The reconstruction must preserve the amount of material represented by the cell. It only changes how that stored amount is distributed inside the cell for the purpose of calculating interface fluxes.
 
 We will measure slopes by the total change across one cell, rather than change per unit distance. If the reconstructed change is sigma, the left edge has value Q minus one half sigma, and the right edge has value Q plus one half sigma. The physical slope is sigma divided by cell width.
 

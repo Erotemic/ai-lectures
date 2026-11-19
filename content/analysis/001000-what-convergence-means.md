@@ -38,7 +38,7 @@ No. Suppose a limit L existed. Far enough along, both a positive-one term and a 
 
 Now change the rule slightly. Keep the alternating signs, but divide the number at stage n by n. The values are negative one, positive one half, negative one third, positive one quarter, and so forth. They keep crossing zero forever. Nonetheless they converge to zero. Their distance from zero is simply one divided by n, so the very same tolerance argument applies.
 
-The contrast matters. Convergence does not mean a sequence moves steadily in one direction. It does not forbid oscillation. It says that whatever motion remains must eventually be confined to an arbitrarily small neighborhood of the proposed destination.
+A convergent sequence need not move steadily in one direction; it may oscillate indefinitely. But whatever motion remains must eventually be confined to an arbitrarily small neighborhood of its limit.
 
 ## A limit is not an approximation
 

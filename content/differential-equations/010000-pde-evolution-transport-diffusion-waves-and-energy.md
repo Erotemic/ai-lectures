@@ -118,7 +118,7 @@ This is an energy argument: test a difference equation with the difference itsel
 
 If instead we prescribe the normal derivative at the boundary, the Neumann problem, constants may be added to any solution without changing its gradient. Then uniqueness fails unless we choose a normalization such as zero average. There is also a compatibility condition between the source and the boundary flux. The equations cannot determine an absolute potential from derivative data alone.
 
-This matters in physics. Fixing a temperature at the boundary and prescribing heat flux through the boundary are different experiments. They have different well-posedness conditions, and treating them interchangeably would erase the part of the model that describes how the system interacts with its surroundings.
+The boundary condition is part of the physical experiment. Fixing a temperature at the boundary and prescribing heat flux through it are different experiments. They have different well-posedness conditions, and treating them interchangeably would erase the part of the model that describes how the system interacts with its surroundings.
 
 #### From weak solutions to finite elements
 

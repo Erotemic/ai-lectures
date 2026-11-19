@@ -60,7 +60,7 @@ A potato can be boiled, steamed, baked, or roasted. The ingredient is the same, 
 
 Conduction moves heat through material in contact. A hot pan transfers heat into its food-contact surface; the outer cooked layer then conducts energy toward the center. Convection involves moving fluid: circulating water in a pot or air in a fan oven carries heat to surfaces. Thermal radiation transfers energy from hot surfaces or flames to the food without requiring contact. In a real oven, conduction from a baking tray, convection from hot air, and radiation from walls and heating elements all occur together.
 
-The medium matters. Water is dense compared with air and transfers heat effectively to immersed food, especially when it circulates. Hot air may be much hotter than boiling water but transfer heat less rapidly in some circumstances. A metal pan also changes the contact geometry. If a food surface is not in good contact with the pan, heat transfer can be uneven regardless of the dial setting.
+The cooking medium shapes how quickly heat reaches food. Water, far denser than air, transfers heat effectively to immersed food, especially when it circulates. Hot air may be much hotter than boiling water but transfer heat less rapidly in some circumstances. A metal pan also changes the contact geometry. If a food surface is not in good contact with the pan, heat transfer can be uneven regardless of the dial setting.
 
 Boiling water at ordinary atmospheric pressure tends to remain near its boiling temperature while liquid water and steam coexist. At higher elevations that temperature is lower, so some cooking processes take longer. Pressure cooking raises the boiling point by operating above atmospheric pressure, allowing a different combination of temperature and time. The pressure appliance's design and instructions determine safe operation; it should not be treated as a sealed ordinary pot.
 
@@ -76,7 +76,7 @@ Starch granules can absorb water and gelatinize when heated; cell walls in veget
 
 Maillard browning involves reactions among amino compounds and reducing sugars under suitable conditions. It is not identical to caramelization of sugars alone. Low surface moisture and sufficiently high temperatures often favor browning, which is why steaming or simmering usually produces less roasted flavor than baking or searing. But surface browning does not establish that the center of meat has reached a safe temperature. Flavor development and food safety are related but independent targets.
 
-The ingredient's size and shape affect timing. Heat needs time to reach the center. A thick roast has a long conduction path; thin pieces heat more quickly, though they can also dry out. Two pieces with the same mass but different shape can cook differently because their surface area and center distance are different. A food thermometer supplies direct evidence of internal temperature where that matters, while a recipe time supplies only a starting estimate.
+The ingredient's size and shape affect timing. Heat needs time to reach the center. A thick roast has a long conduction path; thin pieces heat more quickly, though they can also dry out. Two pieces with the same mass but different shape can cook differently because their surface area and center distance are different. A food thermometer measures internal temperature directly, while a recipe time is only a starting estimate.
 
 ### Choose the medium for the result
 
@@ -116,7 +116,7 @@ Oil can improve thermal contact and help prevent sticking, but oil has temperatu
 
 A sauce becomes stronger as water evaporates and the dissolved or suspended flavor compounds remain. Suppose a sauce contains a fixed amount of dissolved salt. If its liquid volume is reduced to half without adding or removing salt, the approximate salt concentration doubles. That may turn a balanced sauce overly salty. Reduction changes not only thickness but also the concentration of sugar, acidity, bitterness, and aromatic compounds, some of which can volatilize or degrade.
 
-The vessel matters here too. A wide pan presents more surface for evaporation than a tall narrow pot of the same liquid volume. More exposed area often speeds reduction, though burner power, air motion, and surface agitation also matter. Stirring can refresh the surface and reduce scorching, especially as a sauce thickens. As water leaves, the sauce's viscosity and propensity to stick may change dramatically; the burner setting that worked initially may become excessive near the end.
+A wide pan presents more surface for evaporation than a tall narrow pot holding the same volume. More exposed area often speeds reduction, though burner power, air motion, and surface agitation also matter. Stirring can refresh the surface and reduce scorching, especially as a sauce thickens. As water leaves, the sauce's viscosity and propensity to stick may change dramatically; the burner setting that worked initially may become excessive near the end.
 
 Thickening by reduction differs from adding starch or forming an emulsion. A starch-thickened gravy can become viscous with relatively little water removed. A butter emulsion can feel rich and thick while containing substantial water. If a sauce is thin, the best correction depends on whether the missing property is concentration, texture, or emulsification. Boiling longer might fix one and worsen another.
 
@@ -170,7 +170,7 @@ Heat and seasoning are only part of a sauce’s behavior. The arrangement of fat
 
 Pour oil into water and wait. The droplets of oil coalesce and rise, leaving two layers. Now whisk oil slowly into an egg-yolk and acid mixture, and you can make a thick mayonnaise that seems to defy the first experiment. Nothing has changed about oil's basic unwillingness to dissolve in water. What changed is the structure of the mixture: countless small droplets, each with an interface that can be protected against rapid coalescence.
 
-An emulsion is a dispersion of one liquid into another liquid with which it does not mix completely. In common cooking emulsions, fat droplets may be dispersed through a continuous water-rich phase, or water droplets may be dispersed through continuous fat. The continuous phase matters. A vinaigrette shaken in a jar is not the same structure as butter or a carefully made mayonnaise, even when all contain water and oil.
+An emulsion is a dispersion of one liquid into another liquid with which it does not mix completely. In common cooking emulsions, fat droplets may be dispersed through a continuous water-rich phase, or water droplets may be dispersed through continuous fat. Which phase surrounds the droplets changes the structure: a vinaigrette shaken in a jar differs from butter or carefully made mayonnaise even though each contains water and oil.
 
 ### Why small droplets make a sauce feel different
 
@@ -178,7 +178,7 @@ Imagine a cup of oil divided into millions of tiny droplets. Their total surface
 
 Emulsifiers are molecules that interact favorably with both water and oil. Egg yolk contains proteins and phospholipids that help stabilize oil droplets dispersed through a water-rich phase. Mustard can also contribute to emulsion structure and stability. These ingredients do not make fat soluble in water. Instead, they influence the interfaces and help prevent droplets from merging immediately.
 
-Viscosity matters too. A thick continuous phase slows how rapidly droplets move, rise and collide. A spoonful of mayonnaise can hold its form because droplets are densely packed and the surrounding structure resists flow. This is different from a thin dressing whose droplets are few and mobile enough to separate within minutes.
+A thick continuous phase slows how rapidly droplets move, rise and collide. A spoonful of mayonnaise can hold its form because droplets are densely packed and the surrounding structure resists flow. This is different from a thin dressing whose droplets are few and mobile enough to separate within minutes.
 
 ### How an emulsion breaks
 
@@ -214,7 +214,7 @@ During searing, food loses water from its surface, permitting the surface temper
 
 Now add a modest amount of appropriate liquid to the hot pan. As it hits the surface, it absorbs heat, may boil vigorously, and loosens material at the bottom. This is deglazing. Water, stock, wine, or another food-safe liquid can dissolve some flavorful deposits. A wooden spatula can help dislodge the softened fond. Deglazing is not simply cleaning the pan; it returns concentrated flavor to a liquid phase where it can be redistributed across the finished dish.
 
-The amount of liquid matters. Too little can evaporate before the fond releases. Too much may create a thin, bland sauce that requires a long reduction. Imagine beginning with a half cup of stock and reducing it to a quarter cup. If its dissolved salt remains in the pan, the average salt concentration approximately doubles. Flavor compounds, acidity, sweetness, and viscosity also change. This is why aggressively seasoning at the beginning can produce an oversalted sauce at the end.
+Too little added liquid can evaporate before the fond releases; too much may leave a thin, bland sauce that requires a long reduction. Imagine beginning with a half cup of stock and reducing it to a quarter cup. If its dissolved salt remains in the pan, the average salt concentration approximately doubles. Flavor compounds, acidity, sweetness, and viscosity also change. This is why aggressively seasoning at the beginning can produce an oversalted sauce at the end.
 
 ### Build layers rather than mask mistakes
 

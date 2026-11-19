@@ -42,7 +42,7 @@ A study by George Rose and David Kulka of northern cod described a remarkable ex
 
 This is an important insight, but it has sometimes been turned into a story that is too simple: scientists trusted commercial catch rates, and therefore failed to notice that the fish were disappearing. A later methodological analysis examined the stock-assessment models actually used and challenged that precise account of how catch-rate data caused overestimation. Researchers also had data from scientific survey vessels, which did not always tell a reassuring story. The warnings weren't absent. Decisions did not always change sufficiently in response to them.
 
-That distinction matters because a measurement problem and a decision problem demand different repairs. If your instrument is biased, you need a better instrument or a better model. If your institution receives evidence of danger and postpones the necessary response, more data will not necessarily solve it.
+A measurement problem and a decision problem demand different repairs. If your instrument is biased, you need a better instrument or a better model. If your institution receives evidence of danger and postpones the necessary response, more data will not necessarily solve it.
 
 In the late twentieth century, northern cod encountered both problems. Different measures of its population did not agree as cleanly as anyone would have wished. Fishing activity continued under quotas and assumptions that proved unsustainable.
 
@@ -50,7 +50,7 @@ In the late twentieth century, northern cod encountered both problems. Different
 
 Cod are not simply units of meat waiting to be counted. They spawn. Eggs and larvae drift in the sea, and many do not survive. Fish grow at rates that depend on temperature and food. Their chances of reaching reproductive age depend on predators, fishing, disease, and conditions that vary over years.
 
-In the northwest Atlantic, capelin, a small schooling fish, has been especially important as food for northern cod. Capelin themselves fluctuate and were devastated by a collapse around 1991. This matters because removing cod from a fishery does not automatically recreate the system that once supported them. If their prey is scarce, the remaining population may grow slowly even when fishing pressure is substantially reduced.
+In the northwest Atlantic, capelin, a small schooling fish, has been especially important as food for northern cod. Capelin themselves fluctuate and were devastated by a collapse around 1991. Removing cod from a fishery does not automatically recreate the system that once supported them. If their prey is scarce, the remaining population may grow slowly even when fishing pressure is substantially reduced.
 
 To manage a stock, scientists try to estimate how many mature fish are present, how many young fish are being added, and how many die from fishing and from other causes. The phrase *spawning stock biomass* means the estimated total weight of reproductively mature fish. It's a useful quantity, but it isn't something that can be lowered into the sea on a scale and weighed. A model combines surveys, landings, ages and sizes, assumptions about catch reporting, and information about ecosystem conditions.
 

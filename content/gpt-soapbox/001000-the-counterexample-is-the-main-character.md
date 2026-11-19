@@ -42,7 +42,7 @@ Sometimes excluding a case is legitimate. Theorems have hypotheses for a reason.
 
 A useful repair preserves the information disclosed by the failure. 'All primes except two are odd' exposes the structure. 'All ordinary primes are odd,' with ordinary defined after the fact as whichever primes are odd, does not. It turns the rule into a circular compliment to itself.
 
-This distinction matters whenever people build systems. A program works for every example in its demonstration. Then someone supplies a blank string, a date across a leap day, a negative number, a file with a non-ASCII name, an account with two owners, or a person whose life does not fit the categories imagined by the designer. The response can be to regard these as nuisances to be filtered out. Or the response can be to discover that the original model of the world was too small.
+Systems expose their assumptions at the boundary cases their designers did not anticipate. A program works for every example in its demonstration. Then someone supplies a blank string, a date across a leap day, a negative number, a file with a non-ASCII name, an account with two owners, or a person whose life does not fit the categories imagined by the designer. The response can be to regard these as nuisances to be filtered out. Or the response can be to discover that the original model of the world was too small.
 
 Not every edge case must be supported. But every edge case has the potential to teach us something about the assumptions that made it an edge.
 

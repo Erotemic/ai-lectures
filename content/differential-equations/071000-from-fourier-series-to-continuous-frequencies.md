@@ -8,7 +8,7 @@ A vibrating string fixed at both ends has a countable set of pitches. A periodic
 
 There is a way to answer without inventing a new idea. Start with the Fourier series we already understand, make its period larger and larger, and watch the spacing between the allowable frequencies shrink. In the limit, the list of frequency coefficients becomes a continuous function of frequency, and the sum of harmonics becomes an integral. That limiting construction is the Fourier transform.
 
-The distinction matters: the Fourier transform is not a Fourier series with its symbols renamed. We have changed the domain, the frequency set, the normalization, and sometimes the meaning of convergence. We will derive all four changes, transform a rectangular pulse and a Gaussian, and explain why the transform is especially useful for differential equations.
+The Fourier transform is not a Fourier series with its symbols renamed. We have changed the domain, the frequency set, the normalization, and sometimes the meaning of convergence. We will derive all four changes, transform a rectangular pulse and a Gaussian, and explain why the transform is especially useful for differential equations.
 
 ## Stretching the period
 

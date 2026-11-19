@@ -66,7 +66,7 @@ Now suppose measurements barely constrain a coefficient. One common response is 
 
 QR can compute the original minimizer more reliably. Ridge deliberately chooses a different minimizer, balancing agreement with observations against a preference for smaller coefficients. The penalty should also respect units and the role of the intercept; penalizing an intercept measured in volts the same way as a slope measured in volts per second is not automatically sensible.
 
-The distinction matters when someone says an algorithm is more accurate. More accurate at solving which problem? Better at predicting new measurements under which assumptions? Less sensitive to noise in what parameterization? We should ask these questions before accepting a performance claim.
+Calling an algorithm 'more accurate' says little until the task and the error measure are specified. Better at predicting new measurements under which assumptions? Less sensitive to noise in what parameterization? We should ask these questions before accepting a performance claim.
 
 ## A common structure, three honest conclusions
 

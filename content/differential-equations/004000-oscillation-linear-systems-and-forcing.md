@@ -108,7 +108,7 @@ If some eigenvalue has positive real part, the equilibrium is unstable. If the l
 
 Even a diagonalizable stable matrix can show large transient amplification if its eigenvectors are nearly parallel. This is common for non-normal matrices, where the matrix does not commute with its transpose in the appropriate real inner product. A concrete family is the upper-triangular matrix with negative one and negative two on the diagonal and a large positive number K in the upper-right position. Starting from the second coordinate one and the first zero, the first coordinate becomes K times the difference between e to the negative t and e to the negative two t. The amplitude can be as large as K divided by four at time log two, despite both eigenvalues being strictly negative.
 
-So eigenvalues correctly predict eventual decay, but they do not bound intermediate amplification without additional information about eigenvector geometry or the matrix exponential norm. This distinction matters in numerical simulation and control. If disturbances are amplified a thousandfold before decaying, the eventual stability statement may be inadequate for design.
+So eigenvalues correctly predict eventual decay, but they do not bound intermediate amplification without additional information about eigenvector geometry or the matrix exponential norm. Transient amplification can make an eventually stable system hazardous in numerical simulation or control. If disturbances are amplified a thousandfold before decaying, the eventual stability statement may be inadequate for design.
 
 ### What the exponential actually buys us
 

@@ -62,7 +62,7 @@ For a tiny example, take the two-point arrays one, one and one, one. Their ordin
 
 If we want ordinary linear convolution from Fourier multiplication, we can pad both sequences with zeros until the transform length is at least the sum of their lengths minus one. For our two-point example, a transform length of three or more suffices. This zero padding has a different role from padding merely to smooth a spectrum plot: here it prevents unwanted circular wraparound in a computation.
 
-This matters directly for differential equations. A heat kernel represents smoothing by convolution; a transfer function represents a system's response to forcing. When we implement these ideas numerically with transforms, we must distinguish a periodic model from an interval with open or fixed boundaries. An FFT does not decide the physical boundary conditions for us.
+Differential equations provide two concrete applications. A heat kernel represents smoothing by convolution; a transfer function represents a system's response to forcing. When we implement these ideas numerically with transforms, we must distinguish a periodic model from an interval with open or fixed boundaries. An FFT does not decide the physical boundary conditions for us.
 
 ## What a trustworthy interpretation includes
 

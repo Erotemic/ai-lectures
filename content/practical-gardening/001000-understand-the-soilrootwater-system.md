@@ -42,11 +42,11 @@ The same reasoning explains why frequent shallow watering can create different r
 
 ### Fertility is a diagnosis, not a color
 
-Leaves turning yellow could reflect nutrient shortage, water stress, root damage, disease, seasonal aging, or environmental conditions. The pattern matters: older leaves or new growth, margins or veins, one plant or many, after heavy rain or after a dry period. Soil tests can guide pH and nutrient decisions when interpreted using the laboratory's recommendations and crop context. A laboratory result is more actionable than guesses based on leaf color alone, but even a test is only one part of the causal picture.
+Leaves turning yellow could reflect nutrient shortage, water stress, root damage, disease, seasonal aging, or environmental conditions. Older or new leaves, margins or veins, one plant or many, symptoms after rain or drought: each pattern changes the list of plausible causes. Soil tests can guide pH and nutrient decisions when interpreted using the laboratory's recommendations and crop context. A laboratory result is more actionable than guesses based on leaf color alone, but even a test is only one part of the causal picture.
 
 Fertilizers supply nutrients, not healthy soil structure by themselves. Excess nutrients can harm plants, alter soil chemistry and move into waterways. The best strategy is to identify the limiting factor before adding material. Sometimes that factor is sunlight. Sometimes it is root-zone oxygen. Sometimes it is pests or plant choice. A single garden bed can have several constraints.
 
-### The shape of a landscape matters
+### How the terrain directs water
 
 Water flows downhill but its actual route depends on grade, infiltration, obstructions, soil layering, drainage infrastructure and seasonal groundwater. A garden at the base of a slope may receive concentrated runoff from a far larger area than its surface footprint suggests. A raised bed may improve some rooting conditions while leaving the broader site drainage problem unresolved.
 
@@ -154,7 +154,7 @@ Plants acquire much of their carbon from atmospheric carbon dioxide through phot
 
 Many organic materials contain carbon compounds that microbes use for energy, but the microbes also need nitrogen to build proteins and other cellular components. A pile dominated by dry woody chips may offer abundant carbon but relatively little available nitrogen. Decomposers can then take up available nitrogen from their surroundings, temporarily *immobilizing* it in microbial biomass. As those organisms die and decompose, some nitrogen becomes available again. A nitrogen-rich mix, by contrast, may decompose more quickly but can lose nitrogen or develop unwanted odors when conditions are poor.
 
-Compost makers often talk about the carbon-to-nitrogen ratio. Around thirty parts carbon per part nitrogen by mass is a useful starting point for many composting mixtures, not a magical constant that applies to every ingredient. The accessibility of that carbon matters. Fresh grass and chopped kitchen scraps behave differently from dense wood even if a simplified ratio suggests a similar nutrient balance. Particle size, moisture, temperature, and oxygen also matter.
+Compost makers often talk about the carbon-to-nitrogen ratio. Around thirty parts carbon per part nitrogen by mass is a useful starting point for many composting mixtures, not a magical constant that applies to every ingredient. A compost pile also responds to how easily decomposers can reach its carbon. Fresh grass and chopped kitchen scraps break down differently from dense wood even when their simplified carbon-to-nitrogen ratios look similar. Particle size, moisture, temperature, and oxygen also matter.
 
 ### Compost is managed microbial activity
 
@@ -196,7 +196,7 @@ Soil pores accept water at a rate that changes as the profile wets. A compacted 
 
 A rain garden is a planted depression intended to receive runoff and hold it temporarily while water infiltrates or is otherwise managed by the design. It is not simply any low patch of yard. It needs appropriate soil, vegetation, overflow routing and separation from sensitive structures or utilities. If infiltration is poor, a design may require engineered soil or an underdrain, or a different strategy altogether. Sending more concentrated runoff into a persistently saturated basin does not make that basin an effective rain garden.
 
-A swale is a shallow channel that directs and sometimes slows runoff. Vegetation, gentle slopes and appropriate dimensions can reduce erosion and encourage infiltration. A steep bare ditch may carry water quickly but can also accelerate it enough to scour the soil. The difference between conveyance and infiltration matters: the first moves water to a destination; the second moves it into the ground. Some systems do both, but neither is automatically desirable at every location.
+A swale is a shallow channel that directs and sometimes slows runoff. Vegetation, gentle slopes and appropriate dimensions can reduce erosion and encourage infiltration. A steep bare ditch may carry water quickly but can also accelerate it enough to scour the soil. Conveyance moves water toward a destination; infiltration moves it into the ground. Some systems do both, but neither is automatically desirable at every location.
 
 ### Erosion is a feedback loop
 
@@ -220,7 +220,7 @@ A gardener sees yellow leaves and adds fertilizer. The leaves remain yellow, so 
 
 ### pH measures acidity, not plant vigor
 
-The pH scale describes hydrogen ion activity. Its logarithmic structure matters: a change from pH six to pH five corresponds approximately to a tenfold change in the relevant hydrogen-ion measure under the simplified interpretation. That does not mean a soil at pH five needs ten times as much lime as soil at pH six. Soil contains clays, organic matter, carbonates, and other components that buffer pH changes. The amount of amendment required depends on this buffering capacity, not just the number on the report.
+The pH scale describes hydrogen ion activity. Because pH is logarithmic, a drop from pH six to pH five corresponds approximately to a tenfold change in hydrogen-ion activity under the simplified interpretation. That does not mean a soil at pH five needs ten times as much lime as soil at pH six. Soil contains clays, organic matter, carbonates, and other components that buffer pH changes. The amount of amendment required depends on this buffering capacity, not just the number on the report.
 
 Plants have preferences. Many vegetables grow well in slightly acidic soils; acid-loving plants such as blueberries may require much lower pH. A single 'ideal pH for all gardens' would therefore be misleading. Soil pH also affects microbial activity and the chemical forms of nutrients. Some elements become less available at low pH, while iron or manganese can become too soluble in certain acidic conditions. In alkaline soils, iron availability can be restricted even when the total soil iron content is large. The deficiency symptoms can resemble other problems, so pH is evidence, not a complete diagnosis.
 
@@ -238,7 +238,7 @@ A soil report may show a measured pH, a buffer measurement, extractable nutrient
 
 Suppose half a garden was built from compost-rich raised-bed mix and half sits in native clay. A single soil sample mixed from both areas may produce a perfectly precise average that describes neither half well. Instead, sample areas with comparable history and expected management separately. Combine several subsamples from one uniform area, use clean tools, and tell the laboratory which crops are intended. Keep unusually poor-growing patches as separate diagnostic samples rather than hiding them in an average.
 
-Timing matters. Soil pH correction is not necessarily immediate. Lime may require months to react substantially, depending on conditions. Adding fertilizer and lime simultaneously without understanding the nutrient report can interfere with interpretation. Keep a record of the amendment type, amount, date, application area, and soil-test method. A follow-up soil test provides better evidence than guessing from the visual greenness of one plant.
+Soil pH correction is not immediate: lime may take months to react substantially, depending on conditions. Adding fertilizer and lime simultaneously without understanding the nutrient report can interfere with interpretation. Keep a record of the amendment type, amount, date, application area, and soil-test method. A follow-up soil test provides better evidence than guessing from the visual greenness of one plant.
 
 Consider an illustrative report for a vegetable bed showing pH five point two and a laboratory recommendation to apply limestone. The numerical pH tells you the soil is acidic relative to many vegetable preferences. It does not determine the rate by itself. Two soils with that same pH may require different amounts due to differing buffer capacity. You should use the laboratory's crop-specific recommendation and appropriate local guidance, not a generic tablespoon-per-plant formula.
 

@@ -38,7 +38,7 @@ Water chemistry matters. Flowing water may spend less time in contact with a pip
 
 A 2026 review of Roman lead exposure brings together written accounts, artifacts, and evidence from human bones and teeth. It questions familiar exaggerations about lead-adulterated wine and plumbing as straightforward explanations for widespread poisoning. It does not conclude that Roman lead exposure was harmless. Archaeological studies can identify contamination and sometimes reconstruct its likely sources. They cannot turn a variable distribution of exposures into a tidy theory of imperial collapse.
 
-That distinction matters outside ancient history. When a health hazard is real, we can become careless about evidence in the opposite direction: if it causes harm, perhaps it caused every harm that followed. It didn't. The fall of an empire is not a laboratory experiment with one variable.
+The same caution applies beyond ancient history. When a health hazard is real, we can become careless about evidence in the opposite direction: if it causes harm, perhaps it caused every harm that followed. It didn't. The fall of an empire is not a laboratory experiment with one variable.
 
 Roman pipes also illustrate a subtle engineering trap. A pipe can be intact, inexpensive to install, and apparently reliable while transferring a contaminant in amounts that people cannot see. The user evaluates the pipe as a pipe. The body experiences it as a chemical source. These are different tests of success, and one may pass for centuries without anyone running the other properly.
 

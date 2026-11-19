@@ -44,7 +44,7 @@ Here the structural diagnosis becomes indispensable. Draw a line from each scene
 
 A framework can make the defect obvious. The plot's middle has no meaningful shift from gathering information to bearing responsibility for a choice. The fix might not be to add a fight or a betrayal. It might be to give Mara evidence that the building is unsafe and force her to decide whether to disclose it publicly. From that moment, collecting facts is no longer cost-free. Her campaign's argument could harm the people she intended to help. This creates a new set of future possibilities for both plot and prose.
 
-The distinction matters. A story is encountered linearly by a reader, but it is also an organized whole. Readers may notice a wonderful sentence and then lose patience with the chapter's repetition. They may forgive a dull line when they are deeply invested in the surrounding situation. The relative importance of local and global problems changes from draft to draft.
+A story is encountered one sentence at a time, but readers also judge the shape of the whole. Readers may notice a wonderful sentence and then lose patience with the chapter's repetition. They may forgive a dull line when they are deeply invested in the surrounding situation. The relative importance of local and global problems changes from draft to draft.
 
 ## An actual two-scale revision pass
 

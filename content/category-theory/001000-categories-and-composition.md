@@ -18,7 +18,7 @@ In the nineteen forties, Samuel Eilenberg and Saunders Mac Lane were trying to c
 
 Take three sets. The first contains the integers zero, one, and two. The second contains the words zero, one, and two. The third contains the two labels even and odd. Define one function that writes each integer as its word. Define another that sends the words zero and two to even, and the word one to odd. Following the two gives the parity of an integer.
 
-There is no mystery about the combined function. Starting with two, the first function gives the word two; the second gives even. Starting with one, the answer is odd. A mathematician calls this operation composition. When we say the second function after the first, we mean apply the first and then apply the second. The order matters because the output of the first must be a valid input for the second.
+There is no mystery about the combined function. Starting with two, the first function gives the word two; the second gives even. Starting with one, the answer is odd. A mathematician calls this operation composition. When we say the second function after the first, we mean apply the first and then apply the second. The output of the first function must be a valid input for the second, so the two functions cannot in general be composed in an arbitrary order.
 
 Add a fourth set, perhaps the set of two colors, with green assigned to even and red to odd. Now we have three successive functions. We can first compose the word-conversion and parity functions, then apply the color function. Or we can first compose parity with the color function, then follow the word-conversion function. Both procedures produce green for zero and two, red for one.
 

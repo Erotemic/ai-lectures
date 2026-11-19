@@ -100,7 +100,7 @@ This matches the construction and proves the sharp bound. The proof works in blo
 
 #### What the theorem does and does not say
 
-A graph is clique-free here when it contains no forbidden clique as a subgraph, not merely when it contains none as an induced subgraph. This distinction matters: forbidding induced patterns is a different problem. Also, a graph with no four-clique may contain many triangles; it need not be triangle-free.
+A graph is clique-free here when it contains no forbidden clique as a subgraph, not merely when it contains none as an induced subgraph. Forbidding induced patterns is a different problem. Also, a graph with no four-clique may contain many triangles; it need not be triangle-free.
 
 Turán's theorem identifies a sharp edge threshold for forcing a complete subgraph. Many other extremal questions ask what happens when the forbidden graph is a cycle, a complete bipartite graph, or a more complicated configuration. The answers can differ dramatically, and the optimizers need not be multipartite.
 

@@ -88,17 +88,15 @@ After the condenser, the refrigerant is mostly high-pressure liquid. It passes t
 
 This sequence repeats: absorb heat, compress vapor, reject heat and condense, reduce pressure, absorb heat again. A textbook diagram draws a clean loop; operating systems contain fans, pumps, sensors, accumulators, reversing valves, refrigerant piping and electronic controls. Those additions help the real machine stay inside its useful operating envelope.
 
-### Why the temperature lift matters
+### Compressor work and temperature lift
 
 A heat pump serving low-temperature floor heating may work more efficiently than the same general technology required to produce very hot water, because the compressor often has to create a smaller temperature lift between source and sink. As outdoor air becomes colder, an air-source heat pump may have less available heat and may need greater compression lift. This is why rated heating performance is specified at particular conditions and why sizing cannot be reduced to one advertised efficiency number.
 
-Airflow matters just as much as refrigerant-side physics. A clogged indoor filter or poorly designed duct can reduce heat transfer at a coil and alter refrigerant operating conditions. Dirty outdoor coils can do the same. Yet a room that feels underheated could also have a control, distribution, envelope or equipment-capacity problem. A cold room is a symptom; it is not a refrigerant diagnosis.
+Refrigerant measurements alone cannot diagnose a heat pump whose airflow is restricted. A clogged indoor filter or poorly designed duct can reduce heat transfer at a coil and alter refrigerant operating conditions. Dirty outdoor coils can do the same. Yet a room that feels underheated could also have a control, distribution, envelope or equipment-capacity problem. A cold room is a symptom; it is not a refrigerant diagnosis.
 
 ### Reversal and defrost
 
-In cooling mode the indoor coil usually evaporates refrigerant and the outdoor coil condenses it. In heating mode a reversing valve changes the flow arrangement so the outdoor coil becomes the evaporator and the indoor coil the condenser. When humid outdoor air deposits frost on a cold outdoor coil, the equipment may temporarily enter a defrost sequence to melt it. This uses energy and changes the near-term heat delivered indoors. A white coating during certain winter conditions can be part of ordinary operation, while persistent ice, drainage problems or abnormal cycling may point to a fault. Context matters.
-
-### Diagnose by following energy, not by memorizing sounds
+In cooling mode the indoor coil usually evaporates refrigerant and the outdoor coil condenses it. In heating mode a reversing valve changes the flow arrangement so the outdoor coil becomes the evaporator and the indoor coil the condenser. When humid outdoor air deposits frost on a cold outdoor coil, the equipment may temporarily enter a defrost sequence to melt it. This uses energy and changes the near-term heat delivered indoors. A white coating during certain winter conditions can be part of ordinary operation, while persistent ice, drainage problems or abnormal cycling may point to a fault. ### Diagnose by following energy, not by memorizing sounds
 
 A service technician uses the system's temperatures, pressures, electrical inputs, airflow, refrigerant specifications and control state to reason about operating conditions. One pressure reading cannot uniquely identify a fault. The same low heating output might arise from poor airflow, incorrect charge, a sensor problem, insufficient equipment capacity, extreme weather or an envelope that loses too much heat. The machine and the building must be analyzed together.
 
@@ -222,7 +220,7 @@ The fundamental distinction is between temperature control and air renewal. Good
 
 Air delivery and room temperature do not yet account for moisture; humidity supplies another part of the comfort model.
 
-An air conditioner lowers the temperature in a room, yet the walls sometimes feel clammy and the windows fog. The thermostat says the cooling system has met its goal. How can the room remain uncomfortable? Because dry-bulb temperature, the number most thermostats display, is only one state variable of indoor air. Water vapor matters too. Cooling a room and drying the air are related processes, but they are not identical.
+An air conditioner lowers the temperature in a room, yet the walls sometimes feel clammy and the windows fog. The thermostat says the cooling system has met its goal. How can the room remain uncomfortable? Because dry-bulb temperature, the number most thermostats display, is only one state variable of indoor air. Indoor comfort depends on water vapor as well as temperature. Cooling a room and drying the air are related processes, but they are not identical.
 
 Start with relative humidity. It compares actual water-vapor pressure with the saturation vapor pressure at the present temperature. As air cools, its capacity for water vapor at saturation becomes smaller. Even if no water is added or removed, relative humidity rises as temperature falls. Conversely, heating a fixed parcel of air can lower its relative humidity without removing a single molecule of water. That is why a humidity reading is meaningful only when considered together with temperature.
 

@@ -132,7 +132,7 @@ At q equal to zero, the scalar equation has a regular singular point with repeat
 
 Move q once counterclockwise around the origin. The ordinary power-series solution returns to itself. The logarithm, however, gains two pi times the imaginary unit. Thus the logarithmic solution is shifted by a constant multiple of the analytic solution. Relative to a suitable basis, the monodromy is unipotent: its diagonal entries are one, and one off-diagonal entry is nonzero.
 
-This is monodromy in the parameter q, and it follows from analytic continuation around a regular singularity. We have not yet encountered a Stokes matrix. The distinction matters because not every nontrivial continuation of a solution is a Stokes phenomenon.
+This is monodromy in the parameter q, and it follows from analytic continuation around a regular singularity. We have not yet encountered a Stokes matrix. Nontrivial continuation of a solution is not, by itself, a Stokes phenomenon.
 
 ## What changes when z is small
 

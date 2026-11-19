@@ -160,7 +160,7 @@ The general wall-crossing formula is organized by charges and their phases. Choo
 
 As stability varies, a ray can cross another ray and the factors may have to be rearranged. Provided the hypotheses are met and no relevant ray crosses the boundary of the chosen sector, the total ordered product stays fixed. Individual invariants may jump, but their combined transport does not.
 
-This is why the order matters. If the algebra were commutative, rearranging the factors would convey much less information. The noncommutativity forces correction factors that register extensions. What appears as a change in enumerative numbers is constrained by a stable algebraic identity.
+The order of the factors carries information. In a commutative algebra, rearranging them would convey much less. The noncommutativity forces correction factors that register extensions. What appears as a change in enumerative numbers is constrained by a stable algebraic identity.
 
 ## A change of accounting, not a loss of structure
 

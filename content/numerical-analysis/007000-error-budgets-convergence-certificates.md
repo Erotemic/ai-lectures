@@ -62,7 +62,7 @@ An a posteriori estimate uses actual computed information. A residual bound, a v
 
 Comparing results on grids of size h and half h is often useful as a practical convergence study. If the method truly has known leading error proportional to h squared and is in the asymptotic regime, the difference between the two approximations can estimate the remaining discretization error. Without those assumptions, the observed difference is a diagnostic, not a theorem. Roundoff, boundary layers, discontinuities, and accidental cancellation can change the apparent convergence order.
 
-This matters whenever someone writes code that stops automatically because two successive values agree to a fixed number of decimal places.
+A stopping rule based only on successive values agreeing to a fixed number of decimal places can mistake a stalled iteration for convergence.
 
 ## Extrapolation can help if its model is true
 

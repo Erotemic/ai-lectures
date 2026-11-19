@@ -104,7 +104,7 @@ It would be a mistake to conclude that the law of excluded middle is somehow ref
 
 An elementary topos has intuitionistic internal logic in general. Some topoi are Boolean, meaning that their internal logic validates excluded middle. Others are not. Classical reasoning can also be added as an assumption in an appropriate formal environment, but that choice changes what can be deduced without proof.
 
-This matters for formalization. Constructive mathematics often asks for witnesses and constructions rather than invoking classical alternatives without evidence. Topos theory supplies mathematical models in which such distinctions have concrete content. Yet one should not imagine that every constructive proof can be read as a program with no further qualifications. Computational interpretations depend on the particular logic, type theory, and semantic model chosen.
+A constructive proof often provides witnesses or constructions where a classical argument might rely on an alternative asserted without a witness. Topos theory supplies mathematical models in which such distinctions have concrete content. Yet one should not imagine that every constructive proof can be read as a program with no further qualifications. Computational interpretations depend on the particular logic, type theory, and semantic model chosen.
 
 Topos theory is a bridge between geometry and logic because it lets us study mathematical worlds in which location, variation, and inference are connected by categorical structure.
 

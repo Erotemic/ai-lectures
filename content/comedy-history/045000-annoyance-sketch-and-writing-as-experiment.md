@@ -48,7 +48,7 @@ Improvisational advocates sometimes contrast the living response of the ensemble
 
 Researcher R. Keith Sawyer's work on group creativity examines emergence: the way a product can develop through interaction rather than unfolding from one person's fully specified plan. That observation helps explain why group rehearsal can reveal relationships a solo writer did not anticipate. But it does not establish that every group brainstorm is more creative than individual writing or that editing damages spontaneous invention. An improvised process can be collaborative and still produce a dull scene. Revision can be deliberate and still preserve surprise.
 
-The distinction that matters is between generating possibilities and selecting them. If a writer edits every line while trying to invent the premise, they may suppress ideas too soon. If an ensemble refuses to edit because the first attempt felt spontaneous, it may leave a promising idea buried beneath repetition. Skilled writers vary the balance of generation and evaluation. They are not required to pledge allegiance to one phase as the authentic form of creativity.
+Generating possibilities and selecting among them are different phases of the work. If a writer edits every line while trying to invent the premise, they may suppress ideas too soon. If an ensemble refuses to edit because the first attempt felt spontaneous, it may leave a promising idea buried beneath repetition. Skilled writers vary the balance of generation and evaluation. They are not required to pledge allegiance to one phase as the authentic form of creativity.
 
 ## A comparison through three revised endings
 

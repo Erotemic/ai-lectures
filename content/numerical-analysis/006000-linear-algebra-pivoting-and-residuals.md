@@ -64,7 +64,7 @@ Not every matrix should be attacked by a generic elimination routine. If a squar
 
 For least squares, if the columns are nearly linearly dependent, even QR may produce a problem whose solution is inherently sensitive. A singular-value decomposition makes near-dependence explicit. Truncating small singular values can regularize an unstable solution, but that changes the mathematical problem: it substitutes a prior assumption or a preference for smaller solution components. The output should therefore be described as a regularized estimate rather than the exact solution of the original least-squares question.
 
-This distinction matters in inverse problems. Recovering a hidden signal from noisy measurements can be ill-conditioned even when every linear-algebra operation is backward stable. Choosing a regularization parameter then becomes part of the scientific model and error budget, not merely a numerical implementation detail.
+Inverse problems expose the gap between numerical stability and reliable reconstruction. Recovering a hidden signal from noisy measurements can be ill-conditioned even when every linear-algebra operation is backward stable. Choosing a regularization parameter then becomes part of the scientific model and error budget, not merely a numerical implementation detail.
 
 ## A responsible solver has statuses, not just vectors
 

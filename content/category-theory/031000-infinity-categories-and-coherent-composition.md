@@ -78,7 +78,7 @@ Consider a category of geometric spaces. Two spaces can be homotopy equivalent e
 
 An infinity-categorical equivalence generalizes this phenomenon. A map f from X to Y is an equivalence if there is a map g back and suitable homotopies exhibiting the composites as identities, with the coherence appropriate to the setting. This is a stronger and more structured claim than simply observing that two objects have the same number of connected components. It is also weaker than demanding strict inverse equations in the original presentation.
 
-The difference matters when we compute limits and construct functors. If we replace a disk by a point inside a homotopically meaningful diagram, a properly derived construction should give an equivalent result when the replacement is made coherently. A naive strict construction may not respect that replacement. The higher viewpoint expresses the invariant requirement directly.
+Computations of limits and constructions of functors must respect homotopy equivalence. If we replace a disk by a point inside a homotopically meaningful diagram, a properly derived construction should give an equivalent result when the replacement is made coherently. A naive strict construction may not respect that replacement. The higher viewpoint expresses the invariant requirement directly.
 
 For practical mathematics this suggests a test: are we allowed to change a model while preserving its equivalence type? If yes, our constructions should respect equivalences, not demand particular coordinates, triangulations, or path parameterizations. The meaning of an infinity-category comes from making that test part of the foundation.
 

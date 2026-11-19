@@ -270,7 +270,7 @@ For Lebesgue measure on the real line, an interval receives its ordinary length.
 
 A different example is the Dirac measure concentrated at a point a. A measurable set has measure one if it contains a, and zero otherwise. In this measure, a singleton can have positive measure. The same Borel set may therefore have very different significance under different measures.
 
-This distinction matters even in the simplest spectral example. Multiplication by the coordinate t on L two of the unit interval cannot detect a change at a single point under Lebesgue measure. A diagonal matrix, however, can put positive weight on a single eigenvalue. A spectral measure generalizes both situations by recording which sets actually carry weight.
+The contrast already appears in the simplest spectral examples. Multiplication by the coordinate t on L two of the unit interval cannot detect a change at a single point under Lebesgue measure. A diagonal matrix, however, can put positive weight on a single eigenvalue. A spectral measure generalizes both situations by recording which sets actually carry weight.
 
 ### Three consequences of countable additivity
 

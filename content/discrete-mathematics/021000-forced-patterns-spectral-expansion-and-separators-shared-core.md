@@ -10,7 +10,7 @@ A graph problem may be difficult in the worst case and still be easy on the inst
 
 Parameterized algorithms separate these two quantities. We use n for input size and k for a parameter describing the aspect of the instance we hope is small. The goal of fixed-parameter tractability is a running time of the form a function of k times a polynomial in n, with the polynomial exponent independent of k.
 
-That distinction matters. A running time of n to the k-th power is polynomial if k is fixed in advance, but the exponent grows as the parameter grows. It belongs to a broader category often called XP. A running time like two to the k times n squared is fixed-parameter tractable, or FPT. Both may be useful, but the latter has a much stronger scalability guarantee when n becomes large.
+The place where the parameter appears changes the complexity guarantee. A running time of n to the k-th power is polynomial if k is fixed in advance, but the exponent grows as the parameter grows. It belongs to a broader category often called XP. A running time like two to the k times n squared is fixed-parameter tractable, or FPT. Both may be useful, but the latter has a much stronger scalability guarantee when n becomes large.
 
 ### Branching on a vertex-cover decision
 

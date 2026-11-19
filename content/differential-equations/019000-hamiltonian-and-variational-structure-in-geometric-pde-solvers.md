@@ -280,7 +280,7 @@ The discrete geometric conservation law demands a consistent relationship among 
 
 A moving computational face is not necessarily a physical wall. For a physical moving impermeable boundary, fluid and wall normal velocities must satisfy an appropriate no-penetration condition. For a computational face moving through the fluid, relative flux need not vanish.
 
-This distinction matters especially in fluid–structure interaction. A structural surface imposes physical boundary conditions. Interior mesh motion merely changes coordinates and cells. The numerical method must correctly represent both effects and not substitute a grid kinematic condition for a physical one.
+Fluid–structure interaction exposes the difference between physical boundaries and computational mesh motion. A structural surface imposes physical boundary conditions. Interior mesh motion merely changes coordinates and cells. The numerical method must correctly represent both effects and not substitute a grid kinematic condition for a physical one.
 
 Remapping adds another challenge. An ALE algorithm may move a mesh with the solution for part of a step, then interpolate onto a new mesh. That interpolation can change mass or create oscillations unless constructed conservatively. Even if each moving-grid step respects its volume balance, a careless remap can undo the result.
 

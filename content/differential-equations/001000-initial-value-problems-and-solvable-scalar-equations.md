@@ -94,7 +94,7 @@ An equilibrium y star is stable in the sense of Lyapunov if any sufficiently sma
 
 Asymptotic stability requires more: the equilibrium is stable, and all trajectories starting sufficiently near it converge to it as time grows. An equilibrium may be stable without being attractive. For instance, when the rate is identically zero, every point is an equilibrium. Starting near a chosen equilibrium leaves the state at that nearby starting point forever. It never runs away, so the chosen equilibrium is stable, but trajectories do not generally converge to it.
 
-The distinction matters when someone says that a numerical simulation has “settled.” A state can move slowly without converging to an equilibrium. Stability is a property of the mathematical flow and perturbations, not merely a visual impression of a flat plot.
+A numerical simulation can look as though it has “settled” simply because the state is moving slowly. That appearance does not establish convergence to an equilibrium. Stability is a property of the mathematical flow and perturbations, not merely a visual impression of a flat plot.
 
 ### Linearization near an equilibrium
 

@@ -34,7 +34,7 @@ A professional musician might be an amateur botanist. A retired engineer might b
 
 The meanings have also changed over time. The boundary between amateurs and professionals in science was not always drawn as we draw it now. The expansion of laboratories, research careers, formal education, and specialized instruments changed who could participate in particular forms of investigation. Historians of science warn against projecting today's occupational categories backward onto eras when paid scientific careers were far less common.
 
-This matters because stories about the heroic amateur can mislead us, too. I do not want to claim that science was somehow purer before it became a profession. It was often restricted by wealth, class, exclusion, and access to education. The figure of the gentleman with an observatory on his estate is hardly a model of universal opportunity.
+Yet the romance of the heroic amateur can mislead us, too. I do not want to claim that science was somehow purer before it became a profession. It was often restricted by wealth, class, exclusion, and access to education. The figure of the gentleman with an observatory on his estate is hardly a model of universal opportunity.
 
 Professionalization accomplished real things. It made sustained work possible without private fortunes. It built laboratories that outlived their founders. It created disciplines with standards and methods of criticism. It made difficult, cumulative investigation a vocation rather than an expensive pastime for people who could afford leisure.
 

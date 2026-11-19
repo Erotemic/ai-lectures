@@ -8,7 +8,7 @@
 
 Suppose two matrices have exactly the same eigenvalues. Should we expect them to behave similarly? In some circumstances, yes. For normal matrices, an orthonormal eigenvector basis makes the answer remarkably clean. But for a nonnormal matrix, the eigenvalues may tell us much less about how vectors are stretched, how solutions to differential equations evolve over finite times, or how a small perturbation moves the spectrum.
 
-This is not a rare numerical pathology that matters only to people designing eigenvalue software. Many linearized dynamical systems and discretized differential operators are nonnormal. A triangular matrix with a large entry above the diagonal is enough to see the central issue. We will develop a way of describing not only where the eigenvalues are, but also where they could move under small changes to the matrix.
+This is more than a pathology of eigenvalue software. Many linearized dynamical systems and discretized differential operators are nonnormal. A triangular matrix with a large entry above the diagonal is enough to see the central issue. We will develop a way of describing not only where the eigenvalues are, but also where they could move under small changes to the matrix.
 
 ## Normality is a geometric condition
 

@@ -46,7 +46,7 @@ Take a function that outputs negative one on the left half of an interval and po
 
 Or take a continuous function whose values are both positive at the endpoints. It might still dip below zero in the middle and cross the axis twice. The Intermediate Value Theorem gives a sufficient condition for a crossing, not a test that detects all crossings. A failure of its endpoint condition does not prove that no root exists.
 
-In computation, this matters. A sign-changing bracket is a certificate of existence only when we know the function is continuous on the bracket. Sampling two endpoints of a black-box program is not automatically enough. The program could implement a jump, have an undefined point inside, or return values affected by numerical error.
+In computation, a sign-changing bracket certifies a root only when the function is continuous throughout that bracket. Sampling two endpoints of a black-box program is not automatically enough. The program could implement a jump, have an undefined point inside, or return values affected by numerical error.
 
 Bisection also gives an error guarantee. After n exact halvings, the current bracket has width equal to the original width divided by two to the n. The midpoint lies at most half that width from any root inside the bracket. Under the theorem's hypotheses, there is such a root. We obtain a numerical approximation and a mathematical reason to trust the interval containing it.
 

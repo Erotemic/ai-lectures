@@ -196,7 +196,7 @@ This example is an abstract pairing matrix, not a claim about a particular ellip
 
 A student of elementary linear algebra might expect a perfect alternating pairing, with zero radical. But the arithmetic pairing can have a radical because divisible classes can pair trivially with everything. On the quotient of Sha by its maximal divisible subgroup, the relevant Cassels-Tate pairing is nondegenerate in an appropriate sense. To conclude a finite, perfect pairing on all of Sha, one usually needs an additional finiteness assumption.
 
-This matters when presenting a rank certificate. A nonzero pairing value is decisive: it witnesses a genuine obstruction. Zero pairings are not always decisive. The radical may contain rational-point classes, higher-descent classes, or elements hidden by the chosen level of descent. One cannot infer that every class in the radical comes from a rational point.
+A rank certificate can exhibit a genuine obstruction through a nonzero pairing. A zero pairing, however, does not rule out other obstructions. The radical may contain rational-point classes, higher-descent classes, or elements hidden by the chosen level of descent. One cannot infer that every class in the radical comes from a rational point.
 
 Likewise, a computation of a pairing on a finite subgroup is not automatically a computation of the entire Tate-Shafarevich group. It can prove that particular obstruction classes are nontrivial, and it can reduce a bound, without settling whether Sha is finite or whether it contains further elements of higher prime-power order.
 

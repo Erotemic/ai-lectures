@@ -48,7 +48,7 @@ Keep just the prime factors two, three and five, and set s equal to two. The fin
 
 It is smaller than zeta of two because integers such as seven and eleven have been excluded. It is also larger than the sum of reciprocals of squares through six, because it contains many integers greater than six. A prime cutoff and an integer cutoff are different approximations to the same limit. The integral tail bound compares them rigorously even when their terms are ordered differently.
 
-This distinction matters in computations. A partial product over primes is not simply a partial sum over consecutive integers. Its natural error estimate is obtained by observing which integers the product misses.
+A partial Euler product and a partial sum over consecutive integers have different errors: for the product, the relevant missing terms are the integers excluded by its choice of primes.
 
 ## From zeta to other arithmetic functions
 

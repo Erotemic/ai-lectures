@@ -40,7 +40,7 @@ The reconstruction function called sinc is not a small, local bump. It oscillate
 
 A signal that starts suddenly or has a perfect discontinuity is not exactly bandlimited. A sharp corner contains arbitrarily high frequencies in its ideal mathematical description. That does not mean such signals are impossible to sample usefully. It means a finite-rate acquisition system cannot guarantee exact recovery of every feature. In practice, we choose a frequency band worth retaining, and we suppress higher frequencies before taking samples.
 
-This suppression is anti-alias filtering. For audio, it is commonly a low-pass filter ahead of conversion or a suitable digital filter ahead of reducing an existing high-rate recording to a lower rate. The timing matters. If the instrument has already sampled a seven-cycle signal as though it were a one-cycle signal, a filter applied afterward cannot reliably tell the alias from a real one-cycle signal. The alias is already inside the low-frequency data.
+This suppression is anti-alias filtering. For audio, it is commonly a low-pass filter ahead of conversion or a suitable digital filter ahead of reducing an existing high-rate recording to a lower rate. Once sampling has mistaken a seven-cycle signal for a one-cycle signal, no filter applied afterward can reliably separate that alias from a real one-cycle signal. The distinction has already been lost in the low-frequency data.
 
 ## More samples or faster samples?
 

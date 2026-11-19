@@ -150,7 +150,7 @@ A controlled comparison is more informative. Split one batch of beans into match
 
 A crucial distinction exists between 'warm enough to taste tender' and 'prepared safely.' Raw or inadequately cooked red kidney beans contain phytohaemagglutinin, a lectin that can cause serious gastrointestinal illness. Health Canada specifically advises soaking dry red kidney beans, discarding the soak water, and boiling them vigorously for at least ten minutes before subsequent simmering. Slow cookers do not reliably reach the boiling temperatures required to inactivate this lectin and should not be used to cook dry red kidney beans from raw. Canned kidney beans have already received appropriate heat processing.
 
-This matters because a slow-cooked bean may seem soft after a long interval at a temperature below a vigorous boil. Texture is not a validated test for lectin inactivation. Other legumes have their own preparation characteristics; always follow reliable food-safety guidance for the actual ingredient rather than generalizing from a lentil recipe.
+A bean can become soft after prolonged heating below a vigorous boil, but texture does not establish that its lectins have been adequately inactivated. Other legumes have their own preparation characteristics; always follow reliable food-safety guidance for the actual ingredient rather than generalizing from a lentil recipe.
 
 ### Rice as a different experiment
 

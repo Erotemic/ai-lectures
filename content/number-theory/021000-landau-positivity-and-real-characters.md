@@ -38,7 +38,7 @@ An analytic function has a convergent power series around points in its domain. 
 
 The preceding analytic-continuation construction made this particular expansion explicit. Both zeta and the nonprincipal L-series were represented by integrals with bounded numerators. Under the assumption that L vanishes at one, a subtraction removes the pole and those integrals give a power-series expansion throughout the disk centered at two with radius two. We need no claim that the original Dirichlet series already converges at one half.
 
-That distinction matters. The function may be analytic at one half while its original coefficient series diverges there. For example, the alternating series one minus one plus one minus one does not converge in the ordinary sense, although a related generating function has values elsewhere. The power-series argument we are about to use will show why such a mismatch cannot happen in the same way when all the coefficients are nonnegative.
+A function can be analytic at one half even though its original coefficient series diverges there. For example, the alternating series one minus one plus one minus one does not converge in the ordinary sense, although a related generating function has values elsewhere. The power-series argument we are about to use will show why such a mismatch cannot happen in the same way when all the coefficients are nonnegative.
 
 ## Landau's argument in one disk
 
