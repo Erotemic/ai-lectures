@@ -93,6 +93,8 @@ listeners may choose any order.
 
 - **022000 — The Difficult Business of Blue.** Egyptian blue, lapis ultramarine and trade, Prussian blue and Hokusai's print workshops, artificial ultramarine, colonial indigo and modern gallium-nitride LEDs. A materials-centered essay about what it takes to make a blue that stays or emits light.
 
+- **023000 — The Argument I Kept Making.** A retrospective essay that reads the first twenty lectures as one corpus, finds repeated argumentative structures, distinguishes effective contrasts from formulaic endings, and demonstrates one possible concrete rewrite without altering any earlier manuscript. The analysis is grounded in the corpus and in `docs/STYLE_GUIDE.md`.
+
 Spoken narration is inside the standard marker pair in each manuscript. Source
 notes, constructed-example qualifications, and reading links follow the
 spoken region. Per-lecture metadata and reading records are in `metadata/`.
