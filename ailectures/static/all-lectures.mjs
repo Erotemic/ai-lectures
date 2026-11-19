@@ -46,7 +46,7 @@ export function renderAllLectures(main, catalog, { item, link, reactions }) {
   main.replaceChildren(el("div", { class: "inventory-heading" }, el("h1", { text: "All lectures" }),
     el("p", {}, link("Browse collections", "/collections"), " · ", link("Content stats", "/stats"))),
     query,
-    el("details", { class: "browsing-options", open: Boolean(params.get("category") || params.get("pack") || params.get("tag") || params.get("audio") || params.get("personal") || params.get("date")) },
+    el("details", { class: "browsing-options", open: true },
       el("summary", { text: "Filter and sort" }),
       el("div", { class: "filters" }, el("label", {}, "Category", category), el("label", {}, "Content pack", pack),
         el("label", {}, "Tag", tag, tags), el("label", {}, "Audio", audio), el("label", {}, "Your feedback", personal), el("label", {}, "Order", sort), dateFilter)),
