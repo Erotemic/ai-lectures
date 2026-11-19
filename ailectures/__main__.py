@@ -107,6 +107,21 @@ def main(argv=None):
     feedback_export.add_argument("--lecture")
     feedback_import = commands.add_parser("feedback-import")
     feedback_import.add_argument("path", type=Path)
+    cloud = commands.add_parser(
+        "word-cloud", help="Inspect repeated words and n-grams in spoken lectures"
+    )
+    cloud.add_argument("--repository", type=Path, help="authored repository (defaults to current checkout)")
+    cloud.add_argument("--pack", help="restrict to one content pack ID")
+    cloud.add_argument("--lecture", help="restrict to one qualified lecture ID")
+    cloud.add_argument("--n", type=int, choices=(1, 2, 3, 4), default=2, help="consecutive words per phrase")
+    cloud.add_argument("--top", type=int, default=40, help="number of phrases (1-150)")
+    cloud.add_argument("--rank", choices=("count", "lectures"), default="lectures")
+    cloud.add_argument("--min-lectures", type=int, default=2)
+    cloud.add_argument("--include-common", action="store_true", help="include function-only phrases")
+    cloud.add_argument("--find", help="show exact matches and example lectures for a phrase")
+    cloud.add_argument("--find-only", action="store_true", help="skip cloud generation; quickly search exact phrase uses")
+    cloud.add_argument("--svg", type=Path, help="save the cloud as a standalone SVG image")
+    cloud.add_argument("--json", action="store_true", help="write the full result as JSON")
     from .audit_cli import add_commands
 
     add_commands(commands)
@@ -118,6 +133,55 @@ def main(argv=None):
     from .maintenance import media_lock
     leases = ExitStack()
     try:
+        if args.command == "word-cloud":
+            from .word_cloud import cloud_data, phrase_data
+            if repository:
+                from .catalog import RepositoryCatalog
+
+                packs = RepositoryCatalog(repository).snapshot(copy=False)
+                rows = [
+                    dict(row, origin={"pack": namespace})
+                    for namespace, pack in packs.items()
+                    for row in pack["lectures"].values()
+                ]
+            else:
+                from .library import Library
+
+                rows = list(Library(args.library).snapshot(copy=False)["lectures"].values())
+            if args.find_only and not args.find:
+                raise ValueError("--find-only requires --find")
+            if args.find_only and args.svg:
+                raise ValueError("--find-only cannot produce --svg")
+            data = None if args.find_only else cloud_data(
+                rows, n=args.n, top=args.top, pack=args.pack, lecture=args.lecture,
+                rank=args.rank, min_lectures=args.min_lectures,
+                include_common=args.include_common,
+            )
+            found = phrase_data(rows, args.find, pack=args.pack, lecture=args.lecture) if args.find else None
+            if args.svg:
+                output = args.svg.expanduser()
+                output.parent.mkdir(parents=True, exist_ok=True)
+                output.write_text(data["svg"] + "\n", encoding="utf-8")
+            if args.json:
+                print(json.dumps(dict(data or {}, lookup=found), indent=2, ensure_ascii=False))
+            else:
+                if data:
+                    print(f"{data['lectures']:,} lectures, {data['words']:,} spoken words; "
+                      f"{data['distinct_phrases']:,} distinct {args.n}-grams")
+                if data:
+                    print(f"{'Occurrences':>11} {'Lectures':>9} {'Per 10k':>9}  Phrase")
+                for item in data["items"] if data else []:
+                    print(f"{item['count']:>11,} {item['lectures']:>9,} "
+                          f"{item['per_10k']:>9.2f}  {item['phrase']}")
+                if found:
+                    print(f"\n{found['phrase']}: {found['count']:,} occurrences "
+                          f"in {found['lectures']:,} lectures ({found['per_10k']:.2f} per 10k words)")
+                    for hit in found["examples"]:
+                        print(f"  {hit['count']:>3}  {hit['id']}: {hit['title']}")
+                        print(f"       {hit['excerpt']}")
+                if args.svg:
+                    print(f"SVG: {output}")
+            return 0
         if args.command == "metadata-audit":
             from .audit_cli import run
 

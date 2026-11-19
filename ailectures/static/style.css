@@ -1028,3 +1028,26 @@ progress {
 .transcript .transcript-title { border-bottom: 1px solid var(--line); padding-bottom: .35rem; }
 .passage .transcript-heading:first-child { margin-top: .2rem; }
 .transcript h5.transcript-heading, .transcript h6.transcript-heading { font-size: 1em; }
+
+/* Spoken-language exploration, shared with CLI SVG output. */
+.word-cloud-controls { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 13rem), 1fr)); align-items: end; gap: .85rem; padding: 1rem; background: var(--panel); border: 1px solid var(--line); border-radius: 10px; margin: 1.2rem 0; }
+.word-cloud-controls select { width: 100%; }
+.word-cloud-controls .check { align-self: center; font-size: .87rem; }
+.word-cloud-actions { display: flex; gap: .5rem; flex-wrap: wrap; grid-column: 1 / -1; }
+.word-cloud-visualization { margin: .8rem 0 1.6rem; max-width: 100%; overflow: hidden; }
+.word-cloud-visualization svg { display: block; width: 100%; height: auto; border: 1px solid var(--line); border-radius: 10px; }
+.word-cloud-visualization text[data-phrase] { cursor: pointer; }
+.word-cloud-visualization text[data-phrase]:hover { text-decoration: underline; }
+.word-cloud-visualization text[data-phrase]:focus-visible { outline: none; stroke: var(--ink); stroke-width: .3px; text-decoration: underline; }
+.word-cloud-list { max-height: 27rem; overflow: auto; border: 1px solid var(--line); border-radius: 8px; background: var(--panel); margin: .4rem 0 1.6rem; }
+.word-cloud-list ol { list-style-position: inside; margin: 0; padding: .3rem .9rem; }
+.word-cloud-list li { display: flex; gap: .7rem; justify-content: space-between; align-items: baseline; flex-wrap: wrap; padding: .35rem 0; border-bottom: 1px solid var(--line); }
+.word-cloud-list li:last-child { border: none; }
+.word-cloud-list .word-cloud-phrase { border: 0; padding: .2rem; color: var(--accent); text-align: left; background: transparent; font-weight: 600; }
+.word-cloud-list .word-cloud-phrase:hover { text-decoration: underline; }
+.word-cloud-list .muted { font-size: .82rem; }
+.word-cloud-find { display: flex; flex-wrap: wrap; align-items: end; gap: .7rem; margin: 1rem 0; }
+.word-cloud-find label { flex: 1; min-width: min(100%, 18rem); }
+.word-cloud-matches { margin: .5rem 0 2rem; }
+.word-cloud-example { padding: .75rem 0; border-bottom: 1px solid var(--line); }
+.word-cloud-example p { color: var(--muted); font-size: .9rem; margin: .35rem 0 0; max-width: 90ch; }

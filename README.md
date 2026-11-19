@@ -83,6 +83,14 @@ authored collection order remains available. See the
 [date metadata guide](docs/content-packs.md#dates-and-chronological-browsing)
 when extending a pack's coverage.
 
+## Explore repeated language
+
+Open **Word cloud** in the reader (or `/word-cloud`) for spoken-word and 1-4 word
+phrase clouds, per-pack filters, lecture coverage, linked excerpts, and SVG/CSV
+exports. For quick terminal inspections, run
+`python -m ailectures word-cloud --repository . --n 3 --top 40 --find "matters"`. See the
+[word cloud guide](docs/word-cloud.md) for counting rules and options.
+
 ## Write and revise content
 
 Start with [the lecture style rules](LECTURE_STYLE_RULES.md). The material

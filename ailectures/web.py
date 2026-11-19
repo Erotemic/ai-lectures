@@ -111,6 +111,8 @@ def create_app(
     assets = LibraryAssets(directory=STATIC)
     catalog_cache = {}
     catalog_lock = threading.Lock()
+    cloud_cache = {}
+    cloud_lock = threading.Lock()
 
     def production():
         if playback_disabled():
@@ -231,6 +233,50 @@ def create_app(
                 catalog_cache["response"] = catalog_response(snapshot, etag)
                 catalog_cache["key"] = key
             return catalog_cache["response"]
+
+    async def word_cloud(request):
+        from .word_cloud import cloud_data, render_svg
+
+        params = request.query_params
+        top = int(params.get("top", 60))
+        if not 1 <= top <= 150:
+            raise ValueError("top must be between 1 and 150")
+        options = dict(
+            n=int(params.get("n", 2)), rank=params.get("rank", "lectures"),
+            min_lectures=int(params.get("min_lectures", 2)),
+            include_common=params.get("include_common", "0") == "1",
+            pack=params.get("pack") or None,
+        )
+        snapshot = library.snapshot(copy=False)
+        key = (snapshot["generation"], tuple(options.items()))
+        with cloud_lock:
+            cached = cloud_cache.get(key)
+        if cached is None:
+            # Cache the largest selection so switching top-k does not recount
+            # an entire library. Rendering a shorter SVG is inexpensive.
+            cached = await run_in_threadpool(
+                cloud_data, snapshot["lectures"].values(), top=150, **options
+            )
+            with cloud_lock:
+                if any(k[0] != snapshot["generation"] for k in cloud_cache):
+                    cloud_cache.clear()
+                if len(cloud_cache) >= 8:
+                    cloud_cache.pop(next(iter(cloud_cache)))
+                cloud_cache[key] = cached
+        items = cached["items"][:top]
+        svg, drawn = render_svg(items)
+        return JSONResponse(dict(cached, top=top, items=items, svg=svg, drawn=drawn))
+
+    async def word_cloud_find(request):
+        from .word_cloud import phrase_data
+
+        params = request.query_params
+        snapshot = library.snapshot(copy=False)
+        result = await run_in_threadpool(
+            phrase_data, snapshot["lectures"].values(), params.get("phrase", ""),
+            pack=params.get("pack") or None, limit=15,
+        )
+        return JSONResponse(result)
 
     def catalog_response(snapshot, etag):
         collections = []
@@ -1202,6 +1248,7 @@ def create_app(
             "/listening",
             "/packs",
             "/stats",
+            "/word-cloud",
             "/feedback",
             "/references",
             "/learning-map",
@@ -1215,6 +1262,8 @@ def create_app(
     routes += [
         Route("/favicon.ico", favicon),
         Route("/api/library/catalog", catalog),
+        Route("/api/library/word-cloud", word_cloud),
+        Route("/api/library/word-cloud/find", word_cloud_find),
         Route("/api/library/storage", storage),
         Route("/api/library/deployment", deployment, methods=["POST"]),
         Route("/api/library/storage/gc", garbage_preview),

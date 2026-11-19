@@ -7,6 +7,7 @@ import { ReactionState, reactionControls, migrateReactions } from "./reactions.m
 import { renderAllLectures } from "./all-lectures.mjs";
 import { creatorLine } from "./creators.mjs";
 import { renderStats } from "./stats.mjs";
+import { renderWordCloud } from "./word-cloud.mjs";
 import { ProductionPanel } from "./production.mjs";
 import {
   randomId,
@@ -1267,6 +1268,7 @@ async function render(autoplay = false) {
       );
     else if (path === "/listening") listeningPage();
     else if (path === "/packs") packsPage();
+    else if (path === "/word-cloud") renderWordCloud($("main"), catalog, { link });
     else if (path === "/stats") renderStats($("main"), catalog, { link, refresh: async () => {
       try { await refresh(true); if (location.pathname === "/stats") await render(); }
       catch (error) { message(error.message); }
