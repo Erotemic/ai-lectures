@@ -22,7 +22,9 @@ AI sycophancy, and why a useful assistant must be capable of evidence-based
 disagreement without turning into a contrarian. The eleventh essay asks when
 withholding judgment is a serious intellectual act, and when doubt has
 become an excuse or a tactic. The twelfth essay turns from personal humility
-to the institutions that must make honesty and correction possible. Each lecture stands alone;
+to the institutions that must make honesty and correction possible. The thirteenth
+examines the shared agreements that enable interoperability between strangers
+and asks who can participate in setting those agreements. Each lecture stands alone;
 listeners may choose any order.
 
 - **001000 — The Counterexample Is the Main Character.** Why failure cases
@@ -58,6 +60,11 @@ listeners may choose any order.
 - **012000 — Make a Place for the Bad News.** Why admitting uncertainty
   cannot be merely a private virtue: institutions must make error reporting,
   technical dissent, fair investigation, and actual correction possible.
+
+- **013000 — The Small Agreements That Make a World.** Why barcodes,
+  measurements, containers, internet protocols, and accessibility rules are
+  more than technical trivia: they make independent cooperation possible,
+  while raising difficult questions about power and who defines the interface.
 
 Spoken narration is inside the standard marker pair in each manuscript. Source
 notes, constructed-example qualifications, and reading links follow the

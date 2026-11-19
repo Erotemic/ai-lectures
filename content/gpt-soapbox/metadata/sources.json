@@ -574,6 +574,104 @@
       "url": "https://www.ahrq.gov/hai/cusp/modules/apply/ac-cusp.html",
       "access": "free_no_login",
       "notes": "Operational distinctions between error, risky shortcuts, and reckless behavior; practices for fair treatment and improvement."
+    },
+    "gs-interfaces-gs1-timeline": {
+      "title": "GS1, Historical Timeline: Barcodes (2025)",
+      "kind": "standards_organization_history",
+      "url": "https://support.gs1.org/support/solutions/articles/43000734073-gs1-historical-timeline",
+      "access": "free_no_login",
+      "notes": "Official historical milestones for UPC agreement 1973, first scan June 26, 1974, and later EAN compatibility."
+    },
+    "gs-interfaces-gs1-scan": {
+      "title": "GS1 Canada, Industry Comes Together to Celebrate 40 Years of the GS1 Barcode (2014)",
+      "kind": "standards_organization_history",
+      "url": "https://www.newswire.ca/news-releases/industry-comes-together-to-celebrate-40-years-of-the-gs1-barcode-514492471.html",
+      "access": "free_no_login",
+      "notes": "GS1 press release on 1974 scan, names Sharon Buchanan and Clyde Dawson and specifies Marsh connection."
+    },
+    "gs-interfaces-gs1-upc": {
+      "title": "GS1 US, Guide to UPCs: What is a UPC Code?",
+      "kind": "standards_organization_guidance",
+      "url": "https://www.gs1us.org/upcs-barcodes-prefixes/guide-to-upcs",
+      "access": "free_no_login",
+      "notes": "UPC as identifying product code; distinction between identity encoded in barcode and dynamic lookup of pricing at point of sale."
+    },
+    "gs-interfaces-gs1-general": {
+      "title": "GS1, General Specifications Version 12 (2011), Introduction and Origins",
+      "kind": "standards_primary",
+      "url": "https://ref.gs1.org/standards/genspecs/12.0.0/",
+      "access": "free_no_login",
+      "notes": "Identity numbers, UCC 1973 origins and EAN as compatible superset; historical version used only for origins."
+    },
+    "gs-interfaces-itu-1865": {
+      "title": "ITU, Historical Highlights: ITU and Standardization",
+      "kind": "intergovernmental_history",
+      "url": "https://www.itu.int/en/history/Pages/FocusOnStandardization.aspx",
+      "access": "free_no_login",
+      "notes": "Twenty states in 1865, first international telegraph convention and operational regulations."
+    },
+    "gs-interfaces-itu-conference": {
+      "title": "ITU, The 1865 International Telegraph Conference",
+      "kind": "historical_archive",
+      "url": "https://www.itu.int/en/history/Pages/ITUBorn1865.aspx",
+      "access": "free_no_login",
+      "notes": "Countries represented and specific tariff/operational provisions; context makes clear limited representativeness."
+    },
+    "gs-interfaces-bipm": {
+      "title": "BIPM, The Metre Convention (20 May 1875)",
+      "kind": "intergovernmental_primary_history",
+      "url": "https://www.bipm.org/en/metre-convention",
+      "access": "free_no_login",
+      "notes": "Seventeen original signatory states and institutional purpose of coordinating measurement."
+    },
+    "gs-interfaces-iso668": {
+      "title": "ISO 668:2020, Series 1 Freight Containers: Classification, Dimensions and Ratings",
+      "kind": "technical_standard_abstract",
+      "url": "https://www.iso.org/standard/76912.html",
+      "access": "public_abstract_full_standard_paywalled",
+      "notes": "Public abstract documents common external dimensions and ratings; full standard is not claimed to have been reviewed."
+    },
+    "gs-interfaces-iso1161": {
+      "title": "ISO 1161:2026, Series 1 Freight Containers: Corner and Intermediate Fittings",
+      "kind": "technical_standard_abstract",
+      "url": "https://www.iso.org/standard/86404.html",
+      "access": "public_abstract_full_standard_paywalled",
+      "notes": "Public abstract describes basic dimensions and functional strength requirements; published October 2026, replacing 2016 edition."
+    },
+    "gs-interfaces-rfc791": {
+      "title": "Jon Postel, RFC 791: Internet Protocol (1981)",
+      "kind": "standards_primary",
+      "url": "https://www.rfc-editor.org/info/rfc791/",
+      "access": "free_no_login",
+      "notes": "IETF historical RFC for IP, edited by Postel, explicitly acknowledges prior revisions and contributors."
+    },
+    "gs-interfaces-rfc9293": {
+      "title": "W. Eddy, ed., RFC 9293: Transmission Control Protocol (2022)",
+      "kind": "standards_primary",
+      "url": "https://www.rfc-editor.org/rfc/rfc9293.html",
+      "access": "free_no_login",
+      "notes": "Consolidated TCP specification and context; TCP is ordered reliable byte stream within a functioning connection, not a guarantee against disconnection."
+    },
+    "gs-interfaces-rfc7282": {
+      "title": "Pete Resnick, RFC 7282: On Consensus and Humming in the IETF (2014)",
+      "kind": "standards_process",
+      "url": "https://datatracker.ietf.org/doc/html/rfc7282",
+      "access": "free_no_login",
+      "notes": "Describes rough consensus and running code, credits Dave Clark 1992 and emphasizes serious consideration of objections."
+    },
+    "gs-interfaces-rfc2026": {
+      "title": "IETF, RFC 2026: The Internet Standards Process, Revision 3 (1996)",
+      "kind": "standards_process",
+      "url": "https://datatracker.ietf.org/doc/html/rfc2026",
+      "access": "free_no_login",
+      "notes": "Principles of openness, fair process, consensus, testing and independent interoperable implementations."
+    },
+    "gs-interfaces-us-access": {
+      "title": "U.S. Access Board, ADA Guide to Ramps and Curb Ramps",
+      "kind": "government_accessibility_guidance",
+      "url": "https://www.access-board.gov/ada/guides/chapter-4-ramps-and-curb-ramps/",
+      "access": "free_no_login",
+      "notes": "Physical specifications and role of curb ramps and routes for public access."
     }
   }
 }
