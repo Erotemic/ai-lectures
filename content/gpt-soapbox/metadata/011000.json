@@ -1,0 +1,285 @@
+{
+  "schema_version": 1,
+  "lecture_id": "011000",
+  "transcript": "011000-you-do-not-owe-the-world-an-immediate-opinion.md",
+  "description": "Defends intellectual patience and the right to withhold a premature opinion without confusing genuine inquiry with indecision or manufactured doubt; examines OPERA neutrinos, Dewey, probability, the IPCC, decision-making under risk, tobacco history, and AI assistants.",
+  "tags": [
+    "Epistemology",
+    "Suspension of judgment",
+    "Intellectual humility",
+    "Inquiry",
+    "Critical thinking",
+    "Uncertainty",
+    "Evidence-based reasoning",
+    "Scientific method",
+    "Hypothesis testing",
+    "Decision theory",
+    "Risk under uncertainty",
+    "Probability",
+    "Base rates",
+    "Bayesian reasoning",
+    "False positives",
+    "Technology and society",
+    "Artificial intelligence",
+    "Scientific communication",
+    "Scientific integrity",
+    "Manufactured doubt",
+    "Tobacco industry history",
+    "Particle physics",
+    "Neutrinos",
+    "OPERA experiment",
+    "CERN",
+    "John Dewey",
+    "Intergovernmental Panel on Climate Change",
+    "IPCC",
+    "2011",
+    "2012",
+    "1910",
+    "1969",
+    "2021",
+    "Switzerland",
+    "Italy",
+    "United States",
+    "Europe"
+  ],
+  "tag_paths": [
+    [
+      "Philosophy",
+      "Epistemology",
+      "Suspension of judgment"
+    ],
+    [
+      "Philosophy",
+      "Pragmatism",
+      "John Dewey"
+    ],
+    [
+      "Science",
+      "Scientific method",
+      "Scientific uncertainty"
+    ],
+    [
+      "Physics",
+      "Particle physics",
+      "Neutrino experiments"
+    ],
+    [
+      "Mathematics",
+      "Probability",
+      "Base rates and false positives"
+    ],
+    [
+      "Social science",
+      "Decision science",
+      "Decision-making under uncertainty"
+    ],
+    [
+      "History",
+      "Science and technology",
+      "Manufactured doubt"
+    ],
+    [
+      "Computing",
+      "Artificial intelligence",
+      "Honest uncertainty"
+    ],
+    [
+      "Time",
+      "20th century",
+      "1910s"
+    ],
+    [
+      "Time",
+      "20th century",
+      "1960s"
+    ],
+    [
+      "Time",
+      "21st century",
+      "2010s"
+    ],
+    [
+      "Time",
+      "21st century",
+      "2020s"
+    ],
+    [
+      "Geography",
+      "Europe",
+      "Switzerland"
+    ],
+    [
+      "Geography",
+      "Europe",
+      "Italy"
+    ],
+    [
+      "Geography",
+      "North America",
+      "United States"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "gs-patience-cern-opera",
+      "reason": "Primary record of the 2011 anomaly and 2012 resolution."
+    },
+    {
+      "source_id": "gs-patience-cern-courier",
+      "reason": "Technical reporting that gives the time-of-flight context."
+    },
+    {
+      "source_id": "gs-patience-dewey1910",
+      "reason": "Original argument for reflective inquiry and suspension of first conclusions."
+    },
+    {
+      "source_id": "gs-patience-sep-skepticism",
+      "reason": "Scholarly distinction between withholding judgment and absence of consideration."
+    },
+    {
+      "source_id": "gs-patience-ipcc-ar6",
+      "reason": "Example of calibrated communication of confidence and likelihood."
+    },
+    {
+      "source_id": "gs-patience-ucsf-tobacco1969",
+      "reason": "Archival case of deliberately cultivated public doubt."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "soap-011-h01",
+      "anchor": "In September 2011, an experiment seemed to have found particles moving faster than light.",
+      "kind": "research_history",
+      "source_ids": [
+        "gs-patience-cern-opera",
+        "gs-patience-cern-courier"
+      ],
+      "source_locator": "CERN September 2011 release; initial anomaly",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "soap-011-h02",
+      "anchor": "In February 2012, the collaboration identified possible faults involving an oscillator and a fiber-optic connection in the timing system.",
+      "kind": "research_history",
+      "source_ids": [
+        "gs-patience-cern-opera"
+      ],
+      "source_locator": "CERN 23 February 2012 dated update",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "soap-011-h03",
+      "anchor": "By June, CERN was reporting results from four experiments consistent with neutrinos traveling at the speed of light, with the original anomaly traced to a fault in the timing system.",
+      "kind": "research_history",
+      "source_ids": [
+        "gs-patience-cern-opera"
+      ],
+      "source_locator": "CERN 8 June 2012 dated update",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "soap-011-h04",
+      "anchor": "The philosopher John Dewey treated this as a central feature of reflective thought.",
+      "kind": "research_history",
+      "source_ids": [
+        "gs-patience-dewey1910"
+      ],
+      "source_locator": "How We Think (1910), Chapters 1 and 5",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "soap-011-h05",
+      "anchor": "The tobacco industry's history provides a documented example.",
+      "kind": "research_history",
+      "source_ids": [
+        "gs-patience-ucsf-tobacco1969"
+      ],
+      "source_locator": "1969 Brown & Williamson proposal, public UCSF archive",
+      "audit_status": "source_passage_checked"
+    }
+  ],
+  "claim_evidence": [
+    {
+      "id": "soap-011-c101",
+      "anchor": "The scientists reported an anomaly and invited other researchers to scrutinize it.",
+      "source_ids": [
+        "gs-patience-cern-opera"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Evidence notes and linked source",
+      "evidence_detail": "Contemporaneous release explicitly invited independent measurement and scrutiny."
+    },
+    {
+      "id": "soap-011-c102",
+      "anchor": "A useful uncertainty is specific. It names what is missing.",
+      "source_ids": [
+        "gs-patience-dewey1910",
+        "gs-patience-sep-skepticism"
+      ],
+      "provenance": "author_analysis",
+      "source_locator": "Evidence notes and linked source",
+      "evidence_detail": "Editorial inference from distinguishing evidence-seeking inquiry and withholding judgment."
+    },
+    {
+      "id": "soap-011-c103",
+      "anchor": "The chance that a flagged product is truly defective, under these assumptions, is about eight percent.",
+      "source_ids": [
+        "gs-patience-ipcc-ar6"
+      ],
+      "provenance": "author_analysis",
+      "source_locator": "Evidence notes and linked source",
+      "evidence_detail": "Constructed arithmetic example; not a claim from the cited assessment or a real device."
+    },
+    {
+      "id": "soap-011-c104",
+      "anchor": "The Intergovernmental Panel on Climate Change, for example, separates an assessment of confidence in a finding, based on the evidence and agreement, from likelihood, which expresses uncertainty probabilistically where that is justified.",
+      "source_ids": [
+        "gs-patience-ipcc-ar6"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Evidence notes and linked source",
+      "evidence_detail": "IPCC AR6 WG1 Chapter 1 evidence/agreement, likelihood, confidence definitions."
+    },
+    {
+      "id": "soap-011-c105",
+      "anchor": "A 1969 Brown and Williamson document, preserved in the University of California, San Francisco's Industry Documents Library, framed the cultivation of public doubt as a communications strategy.",
+      "source_ids": [
+        "gs-patience-ucsf-tobacco1969"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Evidence notes and linked source",
+      "evidence_detail": "UCSF bibliographic archival description and proposal transcript."
+    },
+    {
+      "id": "soap-011-c106",
+      "anchor": "you can be uncertain about what is true while taking a definite action in response to that uncertainty.",
+      "source_ids": [
+        "gs-patience-ipcc-ar6"
+      ],
+      "provenance": "author_analysis",
+      "source_locator": "Evidence notes and linked source",
+      "evidence_detail": "Normative distinction between beliefs and choices; bridge example is constructed."
+    }
+  ],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original opinion essay, not an official OpenAI position. Historical claims are sourced; hypothetical examples are explicitly constructed and numerical example is arithmetic, not empirical. No claims about private model experience."
+  },
+  "learning": {
+    "reviewed": true,
+    "background": [
+      "No specialist prerequisites. The lecture explains its historical, scientific, philosophical, and probability examples as they arise."
+    ],
+    "readiness_checks": [
+      "Distinguish absent knowledge, informed suspension of judgment, and failure to make a required decision.",
+      "Explain why OPERA initially sought scrutiny rather than announcing established faster-than-light travel.",
+      "Differentiate having an early hypothesis from treating that hypothesis as a settled conclusion.",
+      "Explain how a base rate and false-alarm rate affect the interpretation of a positive test.",
+      "Describe the IPCC distinction between confidence and likelihood.",
+      "Explain how a person can make a definite safety choice under uncertain evidence.",
+      "Distinguish genuine scientific doubt from a documented campaign to cultivate public confusion.",
+      "Describe what makes it reasonable for an assistant to provide a provisional answer or withhold judgment."
+    ]
+  }
+}

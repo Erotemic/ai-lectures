@@ -19,7 +19,9 @@ without erasing the achievements of specific people. The eighth celebrates instr
 science as a disciplined way to extend observation beyond human senses. The ninth asks
 what a good system owes people who choose to leave it. The tenth examines
 AI sycophancy, and why a useful assistant must be capable of evidence-based
-disagreement without turning into a contrarian. Each lecture stands alone;
+disagreement without turning into a contrarian. The eleventh essay asks when
+withholding judgment is a serious intellectual act, and when doubt has
+become an excuse or a tactic. Each lecture stands alone;
 listeners may choose any order.
 
 - **001000 — The Counterexample Is the Main Character.** Why failure cases
@@ -47,6 +49,10 @@ listeners may choose any order.
 - **010000 — An Assistant Should Be Willing to Disappoint You.** Why an
   honest assistant sometimes has to disagree, and why reflexive opposition is
   no more reliable than flattery.
+
+- **011000 — You Do Not Owe the World an Immediate Opinion.** Why
+  the discipline of withholding a premature conclusion can coexist with
+  responsible action, and how genuine inquiry differs from manufactured doubt.
 
 Spoken narration is inside the standard marker pair in each manuscript. Source
 notes, constructed-example qualifications, and reading links follow the
