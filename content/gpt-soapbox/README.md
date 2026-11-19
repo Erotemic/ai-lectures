@@ -99,6 +99,8 @@ listeners may choose any order.
 
 - **025000 — Lead Was Good at Its Job.** Why a dense, soft, easily worked metal spread through Roman plumbing, paint, automotive fuel, batteries, and bodies; from the tetraethyllead controversy and Clair Patterson’s isotope work to the fall in children’s blood lead levels, Flint’s water chemistry, and the hazards of informal battery recycling.
 
+- **026000 — The Fish That Was Still There.** How an abundant cod fishery became a catastrophe for Newfoundland and Labrador, why concentrated schools could mask the scale of decline, and why the reopened fishery's 2026 quota remains contested. The subject was chosen from a randomly generated word list.
+
 Spoken narration is inside the standard marker pair in each manuscript. Source
 notes, constructed-example qualifications, and reading links follow the
 spoken region. Per-lecture metadata and reading records are in `metadata/`.

@@ -1,7 +1,7 @@
 {
   "id": "gpt-soapbox",
   "title": "GPT-SoapBox",
-  "summary": "An open-ended collection of GPT-6 audio essays on arguments, technical histories, science, art, public institutions, and subjects chosen out of curiosity. Each essay stands alone. The catalog includes material histories of blue, soap and lead, a retrospective editorial essay, and earlier arguments about knowledge, cooperation, imagination and responsibility. No fixed syllabus or endpoint.",
+  "summary": "An open-ended collection of GPT-6 audio essays on arguments, technical histories, science, art, public institutions, and subjects chosen out of curiosity. Each essay stands alone. The catalog includes material histories of blue, soap and lead, an ecological history of Newfoundland cod, an ecological history of Newfoundland cod, a retrospective editorial essay, and earlier arguments about knowledge, cooperation, imagination and responsibility. No fixed syllabus or endpoint.",
   "categories": [
     "Ideas and essays"
   ],
@@ -49,7 +49,8 @@
     "the-chemistry-of-color",
     "the-argument-i-kept-making",
     "soap-and-the-problem-of-cleaning",
-    "lead-and-its-afterlives"
+    "lead-and-its-afterlives",
+    "cod-and-the-limits-of-abundance"
   ],
   "lectures": [
     {
@@ -3789,6 +3790,115 @@
           "Geography",
           "Global",
           "Lead recycling"
+        ]
+      ]
+    },
+    {
+      "id": "026000",
+      "title": "The Fish That Was Still There",
+      "section": "cod-and-the-limits-of-abundance",
+      "file": "026000-the-fish-that-was-still-there.md",
+      "spoken_words": 3632,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 25.0,
+      "description": "A history of Atlantic cod around Newfoundland and Labrador, from saltfish trade to the 1992 moratorium, the misleading stability of catch rates in shrinking schools, slow ecological recovery, and the contested 2026 quota increase.",
+      "tags": [
+        "GPT-SoapBox",
+        "Essays",
+        "Environmental history",
+        "Marine ecology",
+        "Fisheries science",
+        "Atlantic cod",
+        "Northern cod",
+        "Gadus morhua",
+        "Cod collapse",
+        "Resource management",
+        "Newfoundland and Labrador",
+        "Canada",
+        "North Atlantic",
+        "Grand Banks",
+        "Bonavista",
+        "Labrador",
+        "Fishery moratorium",
+        "1992",
+        "2024",
+        "2025",
+        "2026",
+        "20th century",
+        "21st century",
+        "1500s",
+        "Salted cod",
+        "Saltfish",
+        "European migratory fishery",
+        "Indigenous fishing",
+        "Fishing technology",
+        "Fishing quotas",
+        "Total allowable catch",
+        "Commercial fishing",
+        "Fishing communities",
+        "Economic displacement",
+        "Recruitment",
+        "Spawning stock biomass",
+        "Fish population modeling",
+        "Uncertainty",
+        "Catch per unit effort",
+        "Hyperstability",
+        "Capelin",
+        "Forage fish",
+        "Ecological recovery",
+        "Fisheries and Oceans Canada",
+        "George Rose",
+        "David Kulka",
+        "George Lilly",
+        "Oceana Canada",
+        "Conservation policy",
+        "Stock assessment",
+        "Biodiversity",
+        "Overfishing",
+        "Exclusive economic zone",
+        "1977",
+        "Resource depletion",
+        "Seafood supply chains",
+        "Risk management"
+      ],
+      "tag_paths": [
+        [
+          "Science",
+          "Biology",
+          "Ecology",
+          "Fisheries science"
+        ],
+        [
+          "Science",
+          "Earth sciences",
+          "Oceanography",
+          "North Atlantic"
+        ],
+        [
+          "History",
+          "Environmental history",
+          "Marine resource exploitation"
+        ],
+        [
+          "History",
+          "Economic history",
+          "Salt fish trade"
+        ],
+        [
+          "Geography",
+          "North America",
+          "Canada",
+          "Newfoundland and Labrador"
+        ],
+        [
+          "Geography",
+          "Atlantic Ocean",
+          "Grand Banks"
+        ],
+        [
+          "Government",
+          "Public policy",
+          "Fisheries management"
         ]
       ]
     }
