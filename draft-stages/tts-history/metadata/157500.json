@@ -1,0 +1,942 @@
+{
+  "schema_version": 1,
+  "lecture_id": "157500",
+  "transcript": "157500-oppenheimer-los-alamos.md",
+  "related_resources": [
+    {
+      "source_id": "opp-aip-trinity",
+      "reason": "Retrospective witness account of Trinity; transcript provenance and misquotation risks."
+    },
+    {
+      "source_id": "opp-doe-women",
+      "reason": "Charlotte Serber at Los Alamos and Leona Woods Marshall Libby at Chicago and Hanford; distinct sites and roles."
+    },
+    {
+      "source_id": "opp-hoddeson-critical",
+      "reason": "Technical and organizational history of wartime research including implosion program; source for institutional context rather than operational guidance."
+    },
+    {
+      "source_id": "opp-implosion-review",
+      "reason": "Historical attribution to Neddermeyer, Kistiakowsky and others; technical details not needed in spoken lecture."
+    },
+    {
+      "source_id": "opp-nas-bethe",
+      "reason": "Scientist colleague and former Los Alamos theoretical-division head reflects on early physics, teaching and character; interpret retrospective appraisal accordingly."
+    },
+    {
+      "source_id": "opp-nci-trinity",
+      "reason": "Reconstructed group and regional exposure patterns with limitations on individual retrospective doses."
+    },
+    {
+      "source_id": "opp-nps-downwind",
+      "reason": "Nearby residents not warned; Trinity fallout and consequences. Does not establish exact exposures for individuals."
+    },
+    {
+      "source_id": "opp-nps-house",
+      "reason": "Oppenheimer family and social life at wartime Los Alamos; house and site history."
+    },
+    {
+      "source_id": "opp-nps-land",
+      "reason": "Pueblo, Athabaskan, Hispano and homesteader histories of Pajarito Plateau; wartime displacement and forced acquisition."
+    },
+    {
+      "source_id": "opp-nps-tatlock",
+      "reason": "Tatlock medical education, politics, personal relationship with Oppenheimer, 1943 meeting under surveillance, and suicide in 1944; no invented motive."
+    },
+    {
+      "source_id": "opp-nps-war",
+      "reason": "Wartime organization, Groves, research community, Chevalier and Tatlock, Trinity, Japanese bombings and early postwar reactions; uses a mix of archival evidence and retrospective testimony."
+    },
+    {
+      "source_id": "opp-science-panel",
+      "reason": "Contemporary scientific panel acknowledges non-unanimity and rejects demonstration option; policy recommendation, not empirical proof."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "157500-h001",
+      "anchor": "In the spring of nineteen forty-three, a remote school in northern New Mexico",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "opp-nps-war"
+      ],
+      "source_locator": "Verbatim narrated claim: In the spring of nineteen forty-three, a remote school in northern New Mexico",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "157500-h002",
+      "anchor": "The code name was Site Y",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "opp-nps-war"
+      ],
+      "source_locator": "Verbatim narrated claim: The code name was Site Y",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "157500-h003",
+      "anchor": "General Leslie Groves controlled the army's project",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "opp-nps-war"
+      ],
+      "source_locator": "Verbatim narrated claim: General Leslie Groves controlled the army's project",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "157500-h004",
+      "anchor": "Los Alamos was entrusted with a particular part",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "opp-nps-war"
+      ],
+      "source_locator": "Verbatim narrated claim: Los Alamos was entrusted with a particular part",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "157500-h005",
+      "anchor": "Oppenheimer tried to preserve a common intellectual picture",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "opp-nps-war"
+      ],
+      "source_locator": "Verbatim narrated claim: Oppenheimer tried to preserve a common intellectual picture",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "157500-h006",
+      "anchor": "In nineteen forty-three, discussions about an approach from his friend Haakon Chevalier",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "opp-nps-war"
+      ],
+      "source_locator": "Verbatim narrated claim: In nineteen forty-three, discussions about an approach from his friend Haakon Chevalier",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "157500-h007",
+      "anchor": "In June nineteen forty-three Oppenheimer traveled to see her in California",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "opp-nps-war"
+      ],
+      "source_locator": "Verbatim narrated claim: In June nineteen forty-three Oppenheimer traveled to see her in California",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "157500-h008",
+      "anchor": "Germany surrendered in May nineteen forty-five",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "opp-nps-war"
+      ],
+      "source_locator": "Verbatim narrated claim: Germany surrendered in May nineteen forty-five",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "157500-h009",
+      "anchor": "The scheduled detonation was delayed by bad weather",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "opp-nps-war"
+      ],
+      "source_locator": "Verbatim narrated claim: The scheduled detonation was delayed by bad weather",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "157500-h010",
+      "anchor": "On August sixth, the United States detonated an atomic bomb over Hiroshima",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "opp-nps-war"
+      ],
+      "source_locator": "Verbatim narrated claim: On August sixth, the United States detonated an atomic bomb over Hiroshima",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "157500-h011",
+      "anchor": "On August ninth, another was detonated over Nagasaki",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "opp-nps-war"
+      ],
+      "source_locator": "Verbatim narrated claim: On August ninth, another was detonated over Nagasaki",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "157500-h012",
+      "anchor": "At Los Alamos, reactions were not uniform",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "opp-nps-war"
+      ],
+      "source_locator": "Verbatim narrated claim: At Los Alamos, reactions were not uniform",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "157500-h013",
+      "anchor": "In October nineteen forty-five, he met President Harry Truman",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "opp-nps-war"
+      ],
+      "source_locator": "Verbatim narrated claim: In October nineteen forty-five, he met President Harry Truman",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "157500-h014",
+      "anchor": "Kitty Oppenheimer lived at Los Alamos with Robert and their children",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "opp-nps-house"
+      ],
+      "source_locator": "Verbatim narrated claim: Kitty Oppenheimer lived at Los Alamos with Robert and their children",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "157500-h015",
+      "anchor": "Dinner parties, music, arguments, and small occasions for recreation",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "opp-nps-house"
+      ],
+      "source_locator": "Verbatim narrated claim: Dinner parties, music, arguments, and small occasions for recreation",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "157500-h016",
+      "anchor": "Charlotte Serber directed the Los Alamos library and document work",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "opp-doe-women"
+      ],
+      "source_locator": "Verbatim narrated claim: Charlotte Serber directed the Los Alamos library and document work",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "157500-h017",
+      "anchor": "Leona Woods Marshall Libby, who had worked with Fermi on the Chicago reactor",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "opp-doe-women"
+      ],
+      "source_locator": "Verbatim narrated claim: Leona Woods Marshall Libby, who had worked with Fermi on the Chicago reactor",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "157500-h018",
+      "anchor": "Her instrumentation and reactor research contributed at Chicago and Hanford",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "opp-doe-women"
+      ],
+      "source_locator": "Verbatim narrated claim: Her instrumentation and reactor research contributed at Chicago and Hanford",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "157500-h019",
+      "anchor": "Women carried out important technical and scientific work",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "opp-doe-women"
+      ],
+      "source_locator": "Verbatim narrated claim: Women carried out important technical and scientific work",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "157500-h020",
+      "anchor": "The surrounding region was not empty land waiting for a laboratory",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "opp-nps-land"
+      ],
+      "source_locator": "Verbatim narrated claim: The surrounding region was not empty land waiting for a laboratory",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "157500-h021",
+      "anchor": "The plateau's history included Indigenous Pueblo use",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "opp-nps-land"
+      ],
+      "source_locator": "Verbatim narrated claim: The plateau's history included Indigenous Pueblo use",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "157500-h022",
+      "anchor": "During the wartime takeover, some residents lost access to lands and homes",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "opp-nps-land"
+      ],
+      "source_locator": "Verbatim narrated claim: During the wartime takeover, some residents lost access to lands and homes",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "157500-h023",
+      "anchor": "the laboratory explored different physical ways of producing the necessary rapid nuclear conditions",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "opp-hoddeson-critical"
+      ],
+      "source_locator": "Verbatim narrated claim: the laboratory explored different physical ways of producing the necessary rapid nuclear conditions",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "157500-h024",
+      "anchor": "Historians of the site describe a marked reorganization in nineteen forty-four",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "opp-hoddeson-critical"
+      ],
+      "source_locator": "Verbatim narrated claim: Historians of the site describe a marked reorganization in nineteen forty-four",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "157500-h025",
+      "anchor": "a technique known as implosion became central to the plutonium effort",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "opp-hoddeson-critical"
+      ],
+      "source_locator": "Verbatim narrated claim: a technique known as implosion became central to the plutonium effort",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "157500-h026",
+      "anchor": "an experiment revealed that a material or instrument did not behave as predicted",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "opp-hoddeson-critical"
+      ],
+      "source_locator": "Verbatim narrated claim: an experiment revealed that a material or instrument did not behave as predicted",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "157500-h027",
+      "anchor": "A perfectly spherical model can be solved on paper much more easily than a real object",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "opp-hoddeson-critical"
+      ],
+      "source_locator": "Verbatim narrated claim: A perfectly spherical model can be solved on paper much more easily than a real object",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "157500-h028",
+      "anchor": "Seth Neddermeyer was an early advocate of implosion studies",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "opp-implosion-review"
+      ],
+      "source_locator": "Verbatim narrated claim: Seth Neddermeyer was an early advocate of implosion studies",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "157500-h029",
+      "anchor": "George Kistiakowsky later organized crucial explosives work",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "opp-implosion-review"
+      ],
+      "source_locator": "Verbatim narrated claim: George Kistiakowsky later organized crucial explosives work",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "157500-h030",
+      "anchor": "John von Neumann's mathematical judgment was brought to bear",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "opp-implosion-review"
+      ],
+      "source_locator": "Verbatim narrated claim: John von Neumann's mathematical judgment was brought to bear",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "157500-h031",
+      "anchor": "Leo Szilard organized a petition",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "opp-science-panel"
+      ],
+      "source_locator": "Verbatim narrated claim: Leo Szilard organized a petition",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "157500-h032",
+      "anchor": "James Franck and colleagues prepared a report",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "opp-science-panel"
+      ],
+      "source_locator": "Verbatim narrated claim: James Franck and colleagues prepared a report",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "157500-h033",
+      "anchor": "Oppenheimer served on a scientific panel advising the Interim Committee",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "opp-science-panel"
+      ],
+      "source_locator": "Verbatim narrated claim: Oppenheimer served on a scientific panel advising the Interim Committee",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "157500-h034",
+      "anchor": "In a June sixteenth, nineteen forty-five report",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "opp-science-panel"
+      ],
+      "source_locator": "Verbatim narrated claim: In a June sixteenth, nineteen forty-five report",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "157500-h035",
+      "anchor": "Its members said they could see no technical demonstration",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "opp-science-panel"
+      ],
+      "source_locator": "Verbatim narrated claim: Its members said they could see no technical demonstration",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "157500-h036",
+      "anchor": "The scientific panel acknowledged that range",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "opp-science-panel"
+      ],
+      "source_locator": "Verbatim narrated claim: The scientific panel acknowledged that range",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "157500-h037",
+      "anchor": "Trinity also had neighbors",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "opp-nps-downwind"
+      ],
+      "source_locator": "Verbatim narrated claim: Trinity also had neighbors",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "157500-h038",
+      "anchor": "Communities in the Tularosa Basin and other parts of New Mexico",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "opp-nps-downwind"
+      ],
+      "source_locator": "Verbatim narrated claim: Communities in the Tularosa Basin and other parts of New Mexico",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "157500-h039",
+      "anchor": "The secrecy that protected the war project",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "opp-nps-downwind"
+      ],
+      "source_locator": "Verbatim narrated claim: The secrecy that protected the war project",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "157500-h040",
+      "anchor": "Residents of the Tularosa Basin were not given the information",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "opp-nps-downwind"
+      ],
+      "source_locator": "Verbatim narrated claim: Residents of the Tularosa Basin were not given the information",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "157500-h041",
+      "anchor": "Later studies have reconstructed exposure patterns",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "opp-nci-trinity"
+      ],
+      "source_locator": "Verbatim narrated claim: Later studies have reconstructed exposure patterns",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "157500-h042",
+      "anchor": "individual doses cannot simply be read off a modern map",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "opp-nci-trinity"
+      ],
+      "source_locator": "Verbatim narrated claim: individual doses cannot simply be read off a modern map",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "157500-h043",
+      "anchor": "Oppenheimer's brother Frank later recalled a brief exchange",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "opp-aip-trinity"
+      ],
+      "source_locator": "Verbatim narrated claim: Oppenheimer's brother Frank later recalled a brief exchange",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "157500-h044",
+      "anchor": "In a retrospective interview, Oppenheimer said that the flash brought to his mind a passage from the Bhagavad Gita",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "opp-aip-trinity"
+      ],
+      "source_locator": "Verbatim narrated claim: In a retrospective interview, Oppenheimer said that the flash brought to his mind a passage from the Bhagavad Gita",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "157500-h045",
+      "anchor": "The surviving evidence supports that as his later recollection",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "opp-aip-trinity"
+      ],
+      "source_locator": "Verbatim narrated claim: The surviving evidence supports that as his later recollection",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "157500-h046",
+      "anchor": "Tatlock died by suicide the following year",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "opp-nps-tatlock"
+      ],
+      "source_locator": "Verbatim narrated claim: Tatlock died by suicide the following year",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "157500-h047",
+      "anchor": "Security files do not give us permission to invent",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "opp-nps-tatlock"
+      ],
+      "source_locator": "Verbatim narrated claim: Security files do not give us permission to invent",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "157500-h048",
+      "anchor": "Hans Bethe later described how much the director brought out of his staff",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "opp-nas-bethe"
+      ],
+      "source_locator": "Verbatim narrated claim: Hans Bethe later described how much the director brought out of his staff",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "157500-h049",
+      "anchor": "Bethe led the theoretical division",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "opp-nas-bethe"
+      ],
+      "source_locator": "Verbatim narrated claim: Bethe led the theoretical division",
+      "audit_status": "source_checked"
+    }
+  ],
+  "chronology": {
+    "fast_neutron": {
+      "start": 1941,
+      "end": 1942,
+      "basis": "historical_primary_or_institutional_scholarship",
+      "label": "Early fission-weapons theory work in California",
+      "source_ids": [
+        "opp-nps-war"
+      ]
+    },
+    "groves_selection": {
+      "start": 1942,
+      "end": 1942,
+      "basis": "historical_primary_or_institutional_scholarship",
+      "label": "Groves chooses Oppenheimer to lead Los Alamos",
+      "source_ids": [
+        "opp-nps-war"
+      ]
+    },
+    "los_alamos_lab": {
+      "start": 1943,
+      "end": 1943,
+      "basis": "historical_primary_or_institutional_scholarship",
+      "label": "Secret Site Y opens in New Mexico",
+      "source_ids": [
+        "opp-nps-war"
+      ]
+    },
+    "pajarito_displacement": {
+      "start": 1943,
+      "end": 1943,
+      "basis": "historical_primary_or_institutional_scholarship",
+      "label": "Wartime plateau land acquisition and displacement",
+      "source_ids": [
+        "opp-nps-land"
+      ]
+    },
+    "chevalier_incident": {
+      "start": 1942,
+      "end": 1943,
+      "basis": "historical_primary_or_institutional_scholarship",
+      "label": "Chevalier approach and inconsistent subsequent reporting",
+      "source_ids": [
+        "opp-nps-war"
+      ]
+    },
+    "tatlock_visit": {
+      "start": 1943,
+      "end": 1943,
+      "basis": "historical_primary_or_institutional_scholarship",
+      "label": "Observed California visit to Jean Tatlock",
+      "source_ids": [
+        "opp-nps-tatlock"
+      ]
+    },
+    "tatlock_death": {
+      "start": 1944,
+      "end": 1944,
+      "basis": "historical_primary_or_institutional_scholarship",
+      "label": "Tatlock dies by suicide",
+      "source_ids": [
+        "opp-nps-tatlock"
+      ]
+    },
+    "implosion_reorganization": {
+      "start": 1944,
+      "end": 1944,
+      "basis": "historical_primary_or_institutional_scholarship",
+      "label": "Plutonium problems force stronger implosion program",
+      "source_ids": [
+        "opp-hoddeson-critical"
+      ]
+    },
+    "germany_surrenders": {
+      "start": 1945,
+      "end": 1945,
+      "basis": "historical_primary_or_institutional_scholarship",
+      "label": "German surrender shifts wartime context",
+      "source_ids": [
+        "opp-nps-war"
+      ]
+    },
+    "science_panel": {
+      "start": 1945,
+      "end": 1945,
+      "basis": "historical_primary_or_institutional_scholarship",
+      "label": "June 16 Interim Committee science-panel recommendations",
+      "source_ids": [
+        "opp-science-panel"
+      ]
+    },
+    "trinity": {
+      "start": 1945,
+      "end": 1945,
+      "basis": "historical_primary_or_institutional_scholarship",
+      "label": "July 16 Trinity nuclear test in New Mexico",
+      "source_ids": [
+        "opp-nps-war"
+      ]
+    },
+    "hiroshima": {
+      "start": 1945,
+      "end": 1945,
+      "basis": "historical_primary_or_institutional_scholarship",
+      "label": "August 6 bombing of Hiroshima",
+      "source_ids": [
+        "opp-nps-war"
+      ]
+    },
+    "nagasaki": {
+      "start": 1945,
+      "end": 1945,
+      "basis": "historical_primary_or_institutional_scholarship",
+      "label": "August 9 bombing of Nagasaki",
+      "source_ids": [
+        "opp-nps-war"
+      ]
+    },
+    "truman_meeting": {
+      "start": 1945,
+      "end": 1945,
+      "basis": "historical_primary_or_institutional_scholarship",
+      "label": "October meeting with Truman regarding nuclear control",
+      "source_ids": [
+        "opp-nps-war"
+      ]
+    }
+  },
+  "spacetime_coverage": {
+    "schema_version": 1,
+    "subject": "J. Robert Oppenheimer",
+    "description": "Leadership of Los Alamos, wartime cooperation, Trinity, bomb use, and scientific/moral responsibility. Nonbiographical historical and impact locations are explicitly marked in the roles and notes.",
+    "places": [
+      {
+        "place": "Berkeley, California, United States",
+        "present_day_country": "United States",
+        "historical_polity": "United States",
+        "start_year": 1941,
+        "end_year": 1942,
+        "role": "wartime_planning",
+        "note": "Early fast-neutron groups and summer study.",
+        "source_ids": [
+          "opp-nps-war"
+        ],
+        "approximate": false
+      },
+      {
+        "place": "Los Alamos, New Mexico, United States",
+        "present_day_country": "United States",
+        "historical_polity": "United States",
+        "start_year": 1943,
+        "end_year": 1945,
+        "role": "laboratory_director_residence",
+        "note": "Scientific directorship, family life, surveillance and wartime laboratory.",
+        "source_ids": [
+          "opp-nps-war"
+        ],
+        "approximate": false
+      },
+      {
+        "place": "Pajarito Plateau, New Mexico, United States",
+        "present_day_country": "United States",
+        "historical_polity": "United States",
+        "start_year": 1943,
+        "end_year": 1943,
+        "role": "displaced_community_context",
+        "note": "Acquired homeland and homesteads; contextual location of affected people.",
+        "source_ids": [
+          "opp-nps-land"
+        ],
+        "approximate": false
+      },
+      {
+        "place": "Chicago, Illinois, United States",
+        "present_day_country": "United States",
+        "historical_polity": "United States",
+        "start_year": 1942,
+        "end_year": 1945,
+        "role": "other_research_site",
+        "note": "Reactor work, broader project; not claim of residence by Oppenheimer.",
+        "source_ids": [
+          "opp-doe-women"
+        ],
+        "approximate": true
+      },
+      {
+        "place": "Oak Ridge, Tennessee, United States",
+        "present_day_country": "United States",
+        "historical_polity": "United States",
+        "start_year": 1943,
+        "end_year": 1945,
+        "role": "other_project_site",
+        "note": "Industrial production site, not an Oppenheimer residence.",
+        "source_ids": [
+          "opp-nps-war"
+        ],
+        "approximate": true
+      },
+      {
+        "place": "Hanford, Washington, United States",
+        "present_day_country": "United States",
+        "historical_polity": "United States",
+        "start_year": 1943,
+        "end_year": 1945,
+        "role": "other_project_site",
+        "note": "Plutonium-production site, not an Oppenheimer residence.",
+        "source_ids": [
+          "opp-doe-women"
+        ],
+        "approximate": true
+      },
+      {
+        "place": "San Francisco, California, United States",
+        "present_day_country": "United States",
+        "historical_polity": "United States",
+        "start_year": 1943,
+        "end_year": 1943,
+        "role": "documented_travel",
+        "note": "1943 meeting with Tatlock under surveillance.",
+        "source_ids": [
+          "opp-nps-tatlock"
+        ],
+        "approximate": false
+      },
+      {
+        "place": "Jornada del Muerto, New Mexico, United States",
+        "present_day_country": "United States",
+        "historical_polity": "United States",
+        "start_year": 1945,
+        "end_year": 1945,
+        "role": "test_site",
+        "note": "Trinity test vicinity 16 July 1945.",
+        "source_ids": [
+          "opp-nps-war"
+        ],
+        "approximate": false
+      },
+      {
+        "place": "Tularosa Basin, New Mexico, United States",
+        "present_day_country": "United States",
+        "historical_polity": "United States",
+        "start_year": 1945,
+        "end_year": 2022,
+        "role": "downwinder_impact_context",
+        "note": "People exposed without advance warning; regional impact and later study, not personal travel by Oppenheimer.",
+        "source_ids": [
+          "opp-nps-downwind"
+        ],
+        "approximate": true
+      },
+      {
+        "place": "Hiroshima, Japan",
+        "present_day_country": "Japan",
+        "historical_polity": "Empire of Japan",
+        "start_year": 1945,
+        "end_year": 1945,
+        "role": "bombing_civilian_impact_context",
+        "note": "August 6 atomic bombing, not Oppenheimer travel.",
+        "source_ids": [
+          "opp-nps-war"
+        ],
+        "approximate": false
+      },
+      {
+        "place": "Nagasaki, Japan",
+        "present_day_country": "Japan",
+        "historical_polity": "Empire of Japan",
+        "start_year": 1945,
+        "end_year": 1945,
+        "role": "bombing_civilian_impact_context",
+        "note": "August 9 atomic bombing, not Oppenheimer travel.",
+        "source_ids": [
+          "opp-nps-war"
+        ],
+        "approximate": false
+      },
+      {
+        "place": "Washington, DC, United States",
+        "present_day_country": "United States",
+        "historical_polity": "United States",
+        "start_year": 1945,
+        "end_year": 1945,
+        "role": "government_meetings",
+        "note": "Interim committee context and Truman meeting.",
+        "source_ids": [
+          "opp-nps-war"
+        ],
+        "approximate": false
+      }
+    ]
+  },
+  "tags": [
+    "Biography",
+    "History of science",
+    "History of physics",
+    "Physics",
+    "History of the United States",
+    "Scientific collaboration",
+    "Scientific institutions",
+    "J. Robert Oppenheimer",
+    "Robert Oppenheimer",
+    "20th-century history",
+    "Nuclear age",
+    "Scientific ethics",
+    "Scientific responsibility",
+    "Scientific leadership",
+    "Scientific credit",
+    "Research institutions",
+    "World War II",
+    "The Cold War",
+    "Nuclear history",
+    "Science and politics",
+    "Science and government",
+    "Scientific advice",
+    "Family and scientific careers",
+    "Region: North America",
+    "Country: United States",
+    "Place: New York City",
+    "Place: New Mexico",
+    "Place: Berkeley",
+    "Place: California",
+    "Place: Princeton",
+    "Historical polity: United States",
+    "1900s",
+    "1910s",
+    "1920s",
+    "1930s",
+    "1940s",
+    "1950s",
+    "1960s",
+    "Manhattan Project",
+    "Los Alamos",
+    "Site Y",
+    "General Leslie Groves",
+    "Nuclear fission",
+    "Chain reactions",
+    "Nuclear binding energy",
+    "Fission weapons: conceptual history",
+    "Uranium",
+    "Plutonium",
+    "Industrial wartime science",
+    "Oak Ridge",
+    "Hanford",
+    "Chicago Pile-1",
+    "Enrico Fermi",
+    "Hans Bethe",
+    "Richard Feynman",
+    "Edward Teller",
+    "Robert Serber",
+    "Seth Neddermeyer",
+    "George Kistiakowsky",
+    "John von Neumann",
+    "Kenneth Bainbridge",
+    "Charlotte Serber",
+    "Leona Woods Marshall Libby",
+    "Wartime scientific administration",
+    "Military secrecy",
+    "Scientific labor",
+    "Science and war",
+    "Trinity test",
+    "Trinity downwinders",
+    "New Mexico land displacement",
+    "Pueblo communities",
+    "Hispano New Mexico",
+    "Nuclear fallout",
+    "Interim Committee",
+    "Franck Report",
+    "Leo Szilard",
+    "Scientific panel 1945",
+    "Hiroshima",
+    "Nagasaki",
+    "War in the Pacific",
+    "Japan in World War II",
+    "Harry Truman",
+    "Jean Tatlock",
+    "Haakon Chevalier",
+    "Kitty Oppenheimer",
+    "Region: East Asia",
+    "Country: Japan",
+    "Place: Los Alamos",
+    "Place: Jornada del Muerto",
+    "Place: Tularosa Basin",
+    "Place: Hiroshima",
+    "Place: Nagasaki",
+    "Place: Washington, DC",
+    "Place: Chicago",
+    "Place: Oak Ridge",
+    "Place: Hanford",
+    "Historical polity: Empire of Japan",
+    "Year: 1941",
+    "Year: 1942",
+    "Year: 1943",
+    "Year: 1944",
+    "Year: 1945"
+  ]
+}

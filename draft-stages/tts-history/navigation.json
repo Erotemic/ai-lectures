@@ -55,7 +55,8 @@
         "128000",
         "130000",
         "137000",
-        "140000"
+        "140000",
+        "155000"
       ],
       "parent": "subjects",
       "assumed_background": [
@@ -390,10 +391,19 @@
         "145000",
         "146000",
         "146500",
-        "147000"
+        "147000",
+        "148000",
+        "150000",
+        "151000",
+        "152000",
+        "153000",
+        "153500",
+        "157000",
+        "157500",
+        "158000"
       ],
       "parent": "subjects",
-      "summary": "Historical lives behind physical laws, instruments, engineering, and institutions—from electromagnetism and nuclear physics to the experimental test of parity."
+      "summary": "Physics, engineering and research institutions through their practitioners, including Maxwell, Fermi, Feynman and a three-part Oppenheimer biography of quantum research, Los Alamos, and scientific responsibility."
     },
     {
       "id": "life-sciences",
@@ -405,10 +415,14 @@
         "138000",
         "139000",
         "140000",
-        "143000"
+        "143000",
+        "149000",
+        "153000",
+        "154000",
+        "156000"
       ],
       "parent": "subjects",
-      "summary": "Biological lives from natural selection and marine ecology to genetic mechanisms and scientific environmental policy. Science, people, and institutions are presented together.",
+      "summary": "Biological and medical lives, from evolution and genetics to marine ecology, structural biology, infection prevention and public health. Human stories and scientific reasoning are developed together.",
       "assumed_background": [
         "No technical biology prerequisites; the manuscripts develop the necessary concepts."
       ]
@@ -426,10 +440,14 @@
         "036000",
         "135000",
         "139000",
-        "145000"
+        "145000",
+        "149000",
+        "153000",
+        "153500",
+        "156000"
       ],
       "parent": "subjects",
-      "summary": "From Lavoisier's quantitative chemistry and Faraday's experiments to Pasteur's microbes, Marie Curie's radioactivity, Meitner's nuclei, and Franklin's diffraction.",
+      "summary": "Lives involving chemistry, matter, molecular structure, industry and public consequences, from Lavoisier and Mendeleev through Hodgkin to the two-part Fritz Haber portrait.",
       "assumed_background": [
         "No required specialist chemistry; the narrations explain the experimental ideas as they arise."
       ]
@@ -439,7 +457,7 @@
       "title": "Lives · Reading the Heavens and the Stuff of Stars",
       "role": "deep_dive",
       "parent": "subjects",
-      "summary": "From observing celestial motions and measuring the sky to fields, spectral classifications and stellar composition; each history is a self-contained human portrait.",
+      "summary": "Observations, fields, stellar composition and compact stars; includes Oppenheimer’s prewar work on neutron-star equilibrium and gravitational collapse.",
       "assumed_background": [
         "Curiosity about the night sky; technical ideas are introduced within each biography."
       ],
@@ -450,7 +468,61 @@
         "127000",
         "108000",
         "142000",
-        "147000"
+        "147000",
+        "148000",
+        "150000",
+        "155000",
+        "157000"
+      ]
+    },
+    {
+      "id": "earth-sciences",
+      "title": "Lives · A Moving Earth and Its Oceans",
+      "role": "deep_dive",
+      "parent": "subjects",
+      "summary": "Earth science through fieldwork, mapping, hidden landscapes, and debate: Humboldt, Wegener and Tharp, from continental drift to the evidence of the ocean floor.",
+      "assumed_background": [
+        "No prior geology; earth-science ideas are explained in the portraits."
+      ],
+      "lectures": [
+        "140000",
+        "151000",
+        "152000"
+      ]
+    },
+    {
+      "id": "medicine-and-public-health",
+      "title": "Lives · Medicine, Care, and Public Health",
+      "role": "deep_dive",
+      "lectures": [
+        "138000",
+        "143000",
+        "154000",
+        "156000"
+      ],
+      "parent": "subjects",
+      "summary": "History of infectious disease, clinical prevention, drugs and environmental effects on health, from Pasteur and Semmelweis to Carson and Tu Youyou.",
+      "assumed_background": [
+        "No prior medical training required; key biological concepts are introduced in speech."
+      ]
+    },
+    {
+      "id": "nuclear-age-lives",
+      "title": "Lives · Physics and the Nuclear Age",
+      "role": "deep_dive",
+      "parent": "subjects",
+      "summary": "A story-first route through nuclear physics, wartime laboratories, scientific attribution, public responsibility and the institutions of the atomic age.",
+      "assumed_background": [
+        "No nuclear physics prerequisites; the biographies explain key concepts in their own settings."
+      ],
+      "lectures": [
+        "145000",
+        "144000",
+        "146000",
+        "146500",
+        "157000",
+        "157500",
+        "158000"
       ]
     }
   ]
