@@ -26,8 +26,8 @@ export function renderStats(main, catalog, { link, refresh }) {
     try { await refresh(); } finally { reload.disabled = false; reload.textContent = "Refresh stats"; }
   } });
   const metrics = [
-    ["Unique lectures", number(data.lectures), "/lectures"], ["Collections", number(data.collections)],
-    ["Content packs", number(data.packs)], ["Transcript words", number(data.words)],
+    ["Unique lectures", number(data.lectures), "/lectures"], ["Collections", number(data.collections), "/collections"],
+    ["Content packs", number(data.packs), "/packs"], ["Transcript words", number(data.words)],
     ["Estimated listening", `${(data.minutes / 60).toLocaleString(undefined, { maximumFractionDigits: 1 })} h`],
     ["Complete audio", `${number(data.complete)} / ${number(data.lectures)}`],
   ];
@@ -114,7 +114,7 @@ export function renderStats(main, catalog, { link, refresh }) {
   filter();
   main.append(statsSection("collections", "By collection", search, count, results,
     el("p", { class: "muted", text: "Collections count unique available members, including nested listening routes. The same lecture can belong to multiple collections; archived collections are marked." })),
-    statsSection("packs", "By content pack", totalsTable(data.packRows, "Content by pack"),
+    statsSection("packs", "By content pack", totalsTable(data.packRows, "Content by pack", row => row.id === "unassigned" ? row.title : link(row.title, "/lectures?" + new URLSearchParams({ pack: row.id }))),
       el("p", {}, link("Manage content packs and storage", "/packs"))));
   if (search.value) main.querySelector("#stats-section-collections").open = true;
 }

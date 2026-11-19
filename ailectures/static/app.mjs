@@ -1055,7 +1055,8 @@ function packsPage() {
         el(
           "article",
           { class: "card", "data-pack": pack.id },
-          el("h3", { text: pack.title }),
+          el("h3", {}, link(pack.title, "/lectures?" + new URLSearchParams({ pack: pack.id }))),
+          el("p", {}, link("Browse contents", "/lectures?" + new URLSearchParams({ pack: pack.id }))),
           el("p", { "data-coverage": "", class: "muted" }),
           el("p", { text: pack.id }),
           el("span", {

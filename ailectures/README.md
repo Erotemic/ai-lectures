@@ -35,6 +35,11 @@ Every lecture page links to its owning track, independently of search, graph,
 or listening-route return links. Expanded inventory rows link to that track too.
 “Not generated” means a usable transcript exists and audio can be queued.
 
+Named references to lectures, tracks, collections, and content packs should link
+to the relevant page or filtered contents whenever available. Pack cards and
+statistics link to the pack’s lecture inventory. Current-page headings and
+selection controls can remain plain text.
+
 New web-generated recordings default to Ogg Opus. Spoken Markdown section titles
 receive isolated synthesis and pauses, with title-specific instructions on
 supported servers. The transcript preserves title and section-heading hierarchy

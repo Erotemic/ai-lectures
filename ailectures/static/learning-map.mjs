@@ -214,7 +214,7 @@ export async function renderLearningMap(main, context = {}) {
       ...edge.reasons.map(reason => el("p", { text: reason })),
       el("p", { class: "muted", text: edge.description }),
       el("details", {}, el("summary", { text: `Original claims · ${edge.evidence.length}` }),
-        ...edge.evidence.map(claim => el("p", {}, el("code", { text: `${claim.from} → ${claim.to}` }), claim.why ? " · " + claim.why : "", claim.collection_id ? " · " + (data.collections.find(row => row.id === claim.collection_id)?.title || claim.collection_id) : ""))));
+        ...edge.evidence.map(claim => el("p", {}, el("code", { text: `${claim.from} → ${claim.to}` }), claim.why ? " · " + claim.why : "", claim.collection_id ? el("span", {}, " · ", link(data.collections.find(row => row.id === claim.collection_id)?.title || claim.collection_id, "/collections/" + encodeURIComponent(claim.collection_id))) : ""))));
   }
   function update() {
     state.q = search.value; state.collection = collections.value;

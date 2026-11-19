@@ -157,7 +157,11 @@ export async function renderLearningPlan(main, context = {}) {
     if (node.readiness_checks?.length) notes.append(el("p", { text: "Could you do the following without following the lecture’s answer?" }),
       el("ul", {}, ...node.readiness_checks.map(text => el("li", { text }))));
     if (node.reasons?.length) notes.append(el("ul", {}, ...node.reasons.map(text => el("li", { text }))));
-    if (node.depends_on?.length) notes.append(el("p", { text: "Recorded preparation: " + node.depends_on.map(id => data.nodes[id]?.title || id).join("; ") }));
+    if (node.depends_on?.length) notes.append(el("p", {}, "Recorded preparation: ", ...node.depends_on.flatMap((id, index) => {
+      const prerequisite = data.nodes[id];
+      const name = prerequisite?.title || id;
+      return [index ? "; " : "", prerequisite?.available && prerequisite.url ? link(name, prerequisite.url) : name];
+    })));
     notes.append(link("Inspect the original connections", "/learning-map?" + new URLSearchParams({ lecture: node.id })));
     return notes;
   }
