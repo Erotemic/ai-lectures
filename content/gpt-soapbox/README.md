@@ -21,7 +21,8 @@ what a good system owes people who choose to leave it. The tenth examines
 AI sycophancy, and why a useful assistant must be capable of evidence-based
 disagreement without turning into a contrarian. The eleventh essay asks when
 withholding judgment is a serious intellectual act, and when doubt has
-become an excuse or a tactic. Each lecture stands alone;
+become an excuse or a tactic. The twelfth essay turns from personal humility
+to the institutions that must make honesty and correction possible. Each lecture stands alone;
 listeners may choose any order.
 
 - **001000 — The Counterexample Is the Main Character.** Why failure cases
@@ -53,6 +54,10 @@ listeners may choose any order.
 - **011000 — You Do Not Owe the World an Immediate Opinion.** Why
   the discipline of withholding a premature conclusion can coexist with
   responsible action, and how genuine inquiry differs from manufactured doubt.
+
+- **012000 — Make a Place for the Bad News.** Why admitting uncertainty
+  cannot be merely a private virtue: institutions must make error reporting,
+  technical dissent, fair investigation, and actual correction possible.
 
 Spoken narration is inside the standard marker pair in each manuscript. Source
 notes, constructed-example qualifications, and reading links follow the

@@ -1,0 +1,325 @@
+{
+  "schema_version": 1,
+  "lecture_id": "012000",
+  "transcript": "012000-make-a-place-for-the-bad-news.md",
+  "description": "Argues that intellectual humility must be supported by institutions able to receive, investigate, and act on bad news. Uses NASA aviation safety reporting, the Columbia accident investigation, psychological-safety research, and just-culture practice to distinguish protected inquiry from unaccountable conduct.",
+  "tags": [
+    "Institutional learning",
+    "Organizational culture",
+    "Intellectual humility",
+    "Epistemology",
+    "Disagreement",
+    "Dissent",
+    "Error reporting",
+    "Near misses",
+    "Reporting systems",
+    "Aviation safety",
+    "Aviation Safety Reporting System",
+    "NASA",
+    "Federal Aviation Administration",
+    "FAA",
+    "Space Shuttle Columbia",
+    "Columbia Accident Investigation Board",
+    "STS-107",
+    "Risk management",
+    "Safety engineering",
+    "Psychological safety",
+    "Just culture",
+    "Human error",
+    "At-risk behavior",
+    "Reckless behavior",
+    "Systems thinking",
+    "Accountability",
+    "Whistleblowing",
+    "Group dynamics",
+    "Organizational hierarchy",
+    "Workplace culture",
+    "Scientific integrity",
+    "Research reproducibility",
+    "Research data leakage",
+    "Software engineering",
+    "Code review",
+    "Artificial intelligence",
+    "Amy Edmondson",
+    "Patient safety",
+    "Medicine",
+    "United States",
+    "1976",
+    "1996",
+    "1999",
+    "2003",
+    "2021",
+    "20th century",
+    "21st century"
+  ],
+  "tag_paths": [
+    [
+      "Philosophy",
+      "Epistemology",
+      "Collective inquiry"
+    ],
+    [
+      "Social science",
+      "Organizational behavior",
+      "Psychological safety"
+    ],
+    [
+      "Social science",
+      "Organizational learning",
+      "Error reporting"
+    ],
+    [
+      "Social science",
+      "Institutions",
+      "Dissent and hierarchy"
+    ],
+    [
+      "Engineering",
+      "Safety engineering",
+      "Reporting and escalation"
+    ],
+    [
+      "Transportation",
+      "Aviation",
+      "Aviation safety reporting"
+    ],
+    [
+      "History",
+      "Spaceflight",
+      "Space Shuttle Columbia accident"
+    ],
+    [
+      "Medicine",
+      "Patient safety",
+      "Just culture"
+    ],
+    [
+      "Computing",
+      "Software engineering",
+      "Correcting defects"
+    ],
+    [
+      "Computing",
+      "Artificial intelligence",
+      "Correction and accountability"
+    ],
+    [
+      "Time",
+      "20th century",
+      "1970s"
+    ],
+    [
+      "Time",
+      "20th century",
+      "1990s"
+    ],
+    [
+      "Time",
+      "21st century",
+      "2000s"
+    ],
+    [
+      "Geography",
+      "North America",
+      "United States"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "gs-badnews-nasa-asrs",
+      "reason": "Primary description of ASRS and its purpose."
+    },
+    {
+      "source_id": "gs-badnews-nasa-summary",
+      "reason": "Primary description of alerting and learning from reports."
+    },
+    {
+      "source_id": "gs-badnews-nasa-caveats",
+      "reason": "Avoids implying unconditional anonymity or immunity."
+    },
+    {
+      "source_id": "gs-badnews-nasa-data",
+      "reason": "Qualifies what a voluntary reporting dataset can tell us."
+    },
+    {
+      "source_id": "gs-badnews-faa-advisory",
+      "reason": "Regulatory description of the joint FAA/NASA program."
+    },
+    {
+      "source_id": "gs-badnews-caib",
+      "reason": "Primary organizational analysis of the Columbia accident."
+    },
+    {
+      "source_id": "gs-badnews-edmondson-1996",
+      "reason": "Original work on hospital error detection and correction."
+    },
+    {
+      "source_id": "gs-badnews-edmondson-1999",
+      "reason": "Empirical basis for psychological safety and learning behavior."
+    },
+    {
+      "source_id": "gs-badnews-ahrq-safety",
+      "reason": "Contemporary patient safety account of just culture."
+    },
+    {
+      "source_id": "gs-badnews-ahrq-justculture",
+      "reason": "Operational guidance distinguishing error categories and responses."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "soap-012-h01",
+      "anchor": "Since 1976, NASA has operated the Aviation Safety Reporting System, usually called ASRS.",
+      "kind": "research_history",
+      "source_ids": [
+        "gs-badnews-nasa-asrs"
+      ],
+      "source_locator": "NASA overview, About ASRS",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "soap-012-h02",
+      "anchor": "The Federal Aviation Administration offers limited protections in qualifying circumstances.",
+      "kind": "research_history",
+      "source_ids": [
+        "gs-badnews-nasa-caveats",
+        "gs-badnews-faa-advisory"
+      ],
+      "source_locator": "NASA Caveats and FAA AC 00-46F description",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "soap-012-h03",
+      "anchor": "In a later 1999 study of fifty-one manufacturing teams, she examined what she called psychological safety: the shared belief that a team is safe for interpersonal risk-taking.",
+      "kind": "research_history",
+      "source_ids": [
+        "gs-badnews-edmondson-1999"
+      ],
+      "source_locator": "Edmondson (1999) abstract; number of teams and construct definition",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "soap-012-h04",
+      "anchor": "On February 1, 2003, the space shuttle Columbia broke apart during reentry, killing all seven members of its crew.",
+      "kind": "research_history",
+      "source_ids": [
+        "gs-badnews-caib"
+      ],
+      "source_locator": "Columbia Accident Investigation Board (2003), introductory description and organizational findings",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "soap-012-h05",
+      "anchor": "The board identified cultural traits that included reliance on earlier success instead of sufficient testing, barriers to the communication of critical safety information, and the suppression of professional disagreement.",
+      "kind": "research_history",
+      "source_ids": [
+        "gs-badnews-caib"
+      ],
+      "source_locator": "CAIB chapter 7, organizational cause statement",
+      "audit_status": "source_passage_checked"
+    }
+  ],
+  "claim_evidence": [
+    {
+      "id": "soap-012-c01",
+      "anchor": "NASA warns that these accounts are voluntary and not independently verified.",
+      "source_ids": [
+        "gs-badnews-nasa-data"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "NASA About ASRS Data, Characteristics of ASRS Data",
+      "evidence_detail": "ASRS reports are unverified subjective accounts and cannot estimate incidence rates."
+    },
+    {
+      "id": "soap-012-c02",
+      "anchor": "The system can also issue safety alerts to organizations able to investigate or correct a problem.",
+      "source_ids": [
+        "gs-badnews-nasa-summary"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "NASA ASRS Program Briefing",
+      "evidence_detail": "Program issues alert messages; describes outputs but not guaranteed remedial action."
+    },
+    {
+      "id": "soap-012-c03",
+      "anchor": "In work on error detection and correction in hospital patient-care teams, she investigated how group conditions affect whether errors are noticed and discussed.",
+      "source_ids": [
+        "gs-badnews-edmondson-1996"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Edmondson (1996), abstract",
+      "evidence_detail": "Study focused on reporting, detection, and correction of drug administration errors in two hospitals."
+    },
+    {
+      "id": "soap-012-c04",
+      "anchor": "She found an association between that sense of safety and learning behavior in the teams she studied.",
+      "source_ids": [
+        "gs-badnews-edmondson-1999"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Edmondson (1999), abstract",
+      "evidence_detail": "Associational wording intentionally avoids asserting causality beyond study design."
+    },
+    {
+      "id": "soap-012-c05",
+      "anchor": "The investigation later concluded that the strike damaged the thermal protection system, allowing superheated gas to enter during reentry.",
+      "source_ids": [
+        "gs-badnews-caib"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "CAIB Report Volume I, causes of accident",
+      "evidence_detail": "Physical failure and re-entry mechanism."
+    },
+    {
+      "id": "soap-012-c06",
+      "anchor": "The process by which questions, requests, and assessments traveled upward did not reliably preserve their meaning or urgency.",
+      "source_ids": [
+        "gs-badnews-caib"
+      ],
+      "provenance": "author_synthesis",
+      "source_locator": "CAIB Volume I, Chapter 7 and executive summaries",
+      "evidence_detail": "Paraphrase of organizational findings about transmission and authority; not a verbatim commission sentence."
+    },
+    {
+      "id": "soap-012-c07",
+      "anchor": "Guidance from the United States Agency for Healthcare Research and Quality separates ordinary human error, at-risk behavior, and reckless behavior.",
+      "source_ids": [
+        "gs-badnews-ahrq-safety",
+        "gs-badnews-ahrq-justculture"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "AHRQ PSNet Culture of Safety and CUSP facilitator notes",
+      "evidence_detail": "Just culture scheme includes proportional responses and retains accountability."
+    },
+    {
+      "id": "soap-012-c08",
+      "anchor": "The NASA reporting system offers a useful example of the difference between collection and action: it does not merely hold a database.",
+      "source_ids": [
+        "gs-badnews-nasa-summary"
+      ],
+      "provenance": "author_synthesis",
+      "source_locator": "NASA ASRS Program Briefing, purpose and program outputs",
+      "evidence_detail": "Inference from alerts, analysis, and educational publications; not proof that each report led to a correction."
+    }
+  ],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original argumentative essay, not an official OpenAI position. Historical and empirical claims grounded in referenced records. All illustrative situations clearly marked or signaled as hypothetical; no invented first-person experiences."
+  },
+  "learning": {
+    "reviewed": true,
+    "background": [
+      "No specialist prerequisites; the lecture introduces aviation reporting, organizational learning, psychological safety, and just-culture concepts in narrative context."
+    ],
+    "readiness_checks": [
+      "Explain the difference between a voluntarily submitted incident report and a verified event.",
+      "Explain why an increase in reported incidents could coexist with a reduction in underlying incidents.",
+      "Identify the organizational communication problems highlighted by the Columbia accident investigation.",
+      "Distinguish psychological safety from a workplace that refuses to criticize weak ideas.",
+      "Compare ordinary human error, at-risk behavior, and reckless behavior and describe why the responses should differ.",
+      "Explain why a reporting channel needs feedback and independent escalation rather than merely a submission form.",
+      "Give an example of a correction that updates the actual work rather than merely apologizing."
+    ]
+  }
+}

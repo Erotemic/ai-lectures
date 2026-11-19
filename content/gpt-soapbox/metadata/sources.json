@@ -504,6 +504,76 @@
       "url": "https://www.industrydocuments.ucsf.edu/tid/rgy93f00/",
       "access": "free_no_login",
       "notes": "1969 proposal documents the marketing of doubt as a means of creating public controversy about smoking and health; use without inventing private motives of named individuals."
+    },
+    "gs-badnews-nasa-asrs": {
+      "title": "NASA, Aviation Safety Reporting System Overview (established 1976)",
+      "kind": "government_program_description",
+      "url": "https://www.nasa.gov/human-systems-integration-division/aviation-safety-reporting-system-overview/",
+      "access": "free_no_login",
+      "notes": "NASA description of voluntary, confidential reporting, de-identification, and information sharing; current summary, not a point-in-time census."
+    },
+    "gs-badnews-nasa-summary": {
+      "title": "NASA Aviation Safety Reporting System, Program Briefing: Summary",
+      "kind": "government_program_description",
+      "url": "https://asrs.arc.nasa.gov/overview/summary.html",
+      "access": "free_no_login",
+      "notes": "Describes collection and alert messages, analyses, education, and dissemination; not every alert implies a confirmed defect or subsequent remediation."
+    },
+    "gs-badnews-nasa-caveats": {
+      "title": "NASA Aviation Safety Reporting System, Caveats",
+      "kind": "government_program_guidance",
+      "url": "https://asrs.arc.nasa.gov/overview/caveats.html",
+      "access": "free_no_login",
+      "notes": "Explicit exceptions and conditions for penalty-waiver protections, including accidents/criminal activity, inadvertence, prior violations, and reporting timeframe."
+    },
+    "gs-badnews-nasa-data": {
+      "title": "NASA Aviation Safety Reporting System, About ASRS Data",
+      "kind": "government_methodology",
+      "url": "https://asrs.arc.nasa.gov/search/dbol/aboutdata.html",
+      "access": "free_no_login",
+      "notes": "Reports are voluntary, unverified accounts; cannot infer incident prevalence from database counts alone."
+    },
+    "gs-badnews-faa-advisory": {
+      "title": "Federal Aviation Administration, AC 00-46F, Aviation Safety Reporting Program (2021)",
+      "kind": "government_guidance",
+      "url": "https://www.faa.gov/regulations_policies/advisory_circulars/index.cfm/go/document.information/documentID/1039459",
+      "access": "public_document_overview",
+      "notes": "FAA description of NASA acting as third party for safety reporting and its operational purpose; refer to NASA caveats for protection limitations."
+    },
+    "gs-badnews-caib": {
+      "title": "Columbia Accident Investigation Board, Report, Volume I, Chapter 7: The Accident's Organizational Causes (2003)",
+      "kind": "government_investigation_primary",
+      "url": "https://reportsthatmatter.org/reports/columbia-accident/chapter-7-the-accidents-organizational-causes",
+      "access": "public_primary_report_transcription",
+      "notes": "The original commission report is hosted in a public HTML transcription linked to original NASA pages; distinguish physical failure from organizational conditions and avoid counterfactual assertions."
+    },
+    "gs-badnews-edmondson-1996": {
+      "title": "Amy C. Edmondson, Learning from Mistakes is Easier Said Than Done: Group and Organizational Influences on the Detection and Correction of Human Error, Journal of Applied Behavioral Science 32(1) (1996)",
+      "kind": "peer_reviewed_research",
+      "url": "https://doi.org/10.1177/0021886396321001",
+      "access": "public_abstract_and_bibliography",
+      "notes": "Study of detection and correction of medication errors in patient care groups in two hospitals; not a randomized causal experiment."
+    },
+    "gs-badnews-edmondson-1999": {
+      "title": "Amy Edmondson, Psychological Safety and Learning Behavior in Work Teams, Administrative Science Quarterly 44(2), 350-383 (1999)",
+      "kind": "peer_reviewed_research",
+      "url": "https://doi.org/10.2307/2666999",
+      "access": "public_abstract_and_repository_record",
+      "notes": "Multimethod field study of 51 manufacturing teams, associating psychological safety with team learning behavior; no claim of universal causation."
+    },
+    "gs-badnews-ahrq-safety": {
+      "title": "Agency for Healthcare Research and Quality, PSNet, Culture of Safety (updated 2024)",
+      "kind": "government_patient_safety_primer",
+      "url": "https://psnet.ahrq.gov/primer/culture-safety",
+      "access": "free_no_login",
+      "notes": "Defines safety culture and just culture, distinguishing human error, at-risk conduct, and reckless conduct and explaining why accountability still matters."
+    },
+    "gs-badnews-ahrq-justculture": {
+      "title": "Agency for Healthcare Research and Quality, CUSP Facilitator Notes: Just Culture",
+      "kind": "government_training_material",
+      "url": "https://www.ahrq.gov/hai/cusp/modules/apply/ac-cusp.html",
+      "access": "free_no_login",
+      "notes": "Operational distinctions between error, risky shortcuts, and reckless behavior; practices for fair treatment and improvement."
     }
   }
 }
