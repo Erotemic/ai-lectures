@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "lecture_id": "068000",
+  "transcript": "068000-the-other-roads-to-fixed-carbon.md",
+  "description": "Compares spatial and temporal CO2 concentrating mechanisms in plants with reductive TCA and Wood–Ljungdahl microbial carbon fixation, emphasizing electron, ATP, and ecological tradeoffs.",
+  "tags": [
+    "C3 photosynthesis",
+    "C4 photosynthesis",
+    "CAM photosynthesis",
+    "PEP carboxylase",
+    "Bundle sheath",
+    "Photorespiration",
+    "Carbon dioxide concentrating",
+    "Reductive TCA",
+    "Wood–Ljungdahl pathway",
+    "Acetyl-CoA synthase",
+    "Chemoautotrophy",
+    "Carbon fixation"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Chemistry",
+      "C4 spatial carbon-concentrating chemistry"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "CAM nocturnal fixation and acid storage"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Reductive TCA and Wood-Ljungdahl microbial fixation"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "chem-net-calvin",
+      "reason": "Calvin–Benson carbon balance, nine ATP and six NADPH per net G3P."
+    },
+    {
+      "source_id": "chem-net-autotrophic",
+      "reason": "C4/CAM context and microbial rTCA and Wood–Ljungdahl pathways."
+    },
+    {
+      "source_id": "chem-net-photo",
+      "reason": "Light reactions supplying ATP and NADPH for carbon fixation."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "chem-068000-01",
+      "anchor": "C4 plants solve part of the problem by concentrating carbon dioxide spatially.",
+      "kind": "scientific_mechanism",
+      "source_ids": [
+        "chem-net-calvin"
+      ],
+      "source_locator": "C4 plants solve part of the problem by concentrating carbon dioxide spatially.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-068000-02",
+      "anchor": "CAM plants—named for Crassulacean acid metabolism—change the timing",
+      "kind": "scientific_mechanism",
+      "source_ids": [
+        "chem-net-calvin"
+      ],
+      "source_locator": "CAM plants—named for Crassulacean acid metabolism—change the timing",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-068000-03",
+      "anchor": "two molecules of carbon dioxide contribute to the two-carbon acetyl group of acetyl CoA.",
+      "kind": "scientific_quantitative",
+      "source_ids": [
+        "chem-net-autotrophic"
+      ],
+      "source_locator": "two molecules of carbon dioxide contribute to the two-carbon acetyl group of acetyl CoA.",
+      "audit_status": "reference_recorded"
+    }
+  ],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original chemistry of biological networks lecture, scientific companion and source-linked metadata."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Introductory chemical bonding and reactions, ATP and redox carriers; specialized metabolic ideas are developed in the narration."
+    ],
+    "readiness_checks": [
+      "When can additional ATP investment in C4 chemistry improve net carbon gain?",
+      "Why can Wood-Ljungdahl fixation operate without Rubisco?"
+    ]
+  }
+}

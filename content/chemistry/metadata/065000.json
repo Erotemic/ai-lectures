@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "lecture_id": "065000",
+  "transcript": "065000-where-the-carbon-goes.md",
+  "description": "Traces pyruvate oxidation, acetyl-CoA carbon positions, cofactor yields and anaplerotic replacement, distinguishing a turning cycle from a biosynthetic carbon pool.",
+  "tags": [
+    "Pyruvate dehydrogenase",
+    "Acetyl-CoA",
+    "Citric acid cycle",
+    "Oxaloacetate",
+    "Citrate",
+    "Alpha-ketoglutarate",
+    "Succinate",
+    "Anaplerosis",
+    "Cataplerosis",
+    "Carbon labeling",
+    "NADH",
+    "FADH2",
+    "GTP",
+    "Carbon dioxide"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Chemistry",
+      "Pyruvate to acetyl-CoA and carbon fate"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "TCA electron carriers and substrate-level phosphorylation"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Anaplerosis, cataplerosis and carbon balance"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "chem-net-citrate",
+      "reason": "Pyruvate oxidation, TCA reaction sequence, carbon position and reduced cofactors."
+    },
+    {
+      "source_id": "chem-net-flux-review",
+      "reason": "Stable-isotope flux inference, sampling, computational modeling and uncertainty."
+    },
+    {
+      "source_id": "chem-net-tracer-guide",
+      "reason": "Glucose and glutamine isotope labeling, M+2 and M+3 citrate and inference limits."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "chem-065000-01",
+      "anchor": "The two carbon dioxide molecules released during the *first* turn do not ordinarily consist of the two carbon atoms that just arrived in the acetyl group.",
+      "kind": "scientific_mechanism",
+      "source_ids": [
+        "chem-net-citrate"
+      ],
+      "source_locator": "The two carbon dioxide molecules released during the first turn do not ordinarily consist of the two carbon atoms that just arrived in the acetyl group.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-065000-02",
+      "anchor": "The conventional tally for one acetyl group is three NADH, one reduced FAD-associated equivalent, and one GTP or ATP",
+      "kind": "scientific_quantitative",
+      "source_ids": [
+        "chem-net-citrate"
+      ],
+      "source_locator": "The conventional tally for one acetyl group is three NADH, one reduced FAD-associated equivalent, and one GTP or ATP",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-065000-03",
+      "anchor": "A familiar example is pyruvate carboxylase",
+      "kind": "scientific_mechanism",
+      "source_ids": [
+        "chem-net-tracer-guide"
+      ],
+      "source_locator": "A familiar example is pyruvate carboxylase",
+      "audit_status": "reference_recorded"
+    }
+  ],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original chemistry of biological networks lecture, scientific companion and source-linked metadata."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Introductory chemical bonding and reactions, ATP and redox carriers; specialized metabolic ideas are developed in the narration."
+    ],
+    "readiness_checks": [
+      "Why does carbon withdrawal require anaplerosis?",
+      "Why do newly arrived acetyl carbon atoms not immediately leave as CO2?"
+    ]
+  }
+}

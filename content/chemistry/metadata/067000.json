@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "lecture_id": "067000",
+  "transcript": "067000-paying-to-build-sugar-from-air.md",
+  "description": "Derives the Calvin–Benson cycle from RuBP carboxylation through G3P reduction and RuBP regeneration, with the nine-ATP/six-NADPH carbon budget and oxygenation/photorespiration limits.",
+  "tags": [
+    "Carbon fixation",
+    "Calvin–Benson cycle",
+    "Rubisco",
+    "RuBP",
+    "3-phosphoglycerate",
+    "G3P",
+    "ATP",
+    "NADPH",
+    "Photorespiration",
+    "Carboxylation",
+    "Oxygenation",
+    "Chloroplast",
+    "Photosynthesis"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Chemistry",
+      "Rubisco carboxylation and RuBP acceptor balance"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "ATP and NADPH cost of net G3P"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Photorespiration and carbon gain"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "chem-net-calvin",
+      "reason": "Calvin–Benson carbon balance, nine ATP and six NADPH per net G3P."
+    },
+    {
+      "source_id": "chem-net-photo",
+      "reason": "Light reactions supplying ATP and NADPH for carbon fixation."
+    },
+    {
+      "source_id": "chem-net-autotrophic",
+      "reason": "C4/CAM context and microbial rTCA and Wood–Ljungdahl pathways."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "chem-067000-01",
+      "anchor": "fixing three carbon dioxide molecules and producing one net G3P equivalent consumes nine ATP and six NADPH",
+      "kind": "scientific_quantitative",
+      "source_ids": [
+        "chem-net-calvin"
+      ],
+      "source_locator": "fixing three carbon dioxide molecules and producing one net G3P equivalent consumes nine ATP and six NADPH",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-067000-02",
+      "anchor": "Rubisco has not, by itself, made a sugar.",
+      "kind": "scientific_mechanism",
+      "source_ids": [
+        "chem-net-calvin"
+      ],
+      "source_locator": "Rubisco has not, by itself, made a sugar.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-067000-03",
+      "anchor": "photorespiratory metabolism salvages carbon from two-phosphoglycolate",
+      "kind": "scientific_mechanism",
+      "source_ids": [
+        "chem-net-calvin"
+      ],
+      "source_locator": "photorespiratory metabolism salvages carbon from two-phosphoglycolate",
+      "audit_status": "reference_recorded"
+    }
+  ],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original chemistry of biological networks lecture, scientific companion and source-linked metadata."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Introductory chemical bonding and reactions, ATP and redox carriers; specialized metabolic ideas are developed in the narration."
+    ],
+    "readiness_checks": [
+      "Why do five-sixths of G3P carbon stay in the Calvin cycle?",
+      "What is the energy cost per three-carbon net product?"
+    ]
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "lecture_id": "063000",
+  "transcript": "063000-a-map-is-not-a-flow.md",
+  "description": "Distinguishes metabolite concentrations from reaction flux, steady state from equilibrium, and uses stoichiometric branching and cofactor balances to show how chemical measurements constrain intracellular flow.",
+  "tags": [
+    "Metabolic networks",
+    "Reaction flux",
+    "Steady state",
+    "Chemical equilibrium",
+    "Stoichiometry",
+    "Flux balance analysis",
+    "Mass balance",
+    "Redox balance",
+    "NADPH regeneration",
+    "Compartmentation",
+    "Flux inference"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Chemistry",
+      "Steady-state metabolic flux and concentration"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Stoichiometric constraints and branching"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Cofactor and energy constraints"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "chem-net-fba",
+      "reason": "Stoichiometric balances, flux constraints and interpretation of feasible solutions."
+    },
+    {
+      "source_id": "chem-net-flux-review",
+      "reason": "Stable-isotope flux inference, sampling, computational modeling and uncertainty."
+    },
+    {
+      "source_id": "chem-net-regulation",
+      "reason": "ATP, AMP, citrate, PFK-1 and pyruvate kinase feedback regulation."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "chem-063000-01",
+      "anchor": "A metabolite present at low concentration may be turned over rapidly",
+      "kind": "scientific_definition",
+      "source_ids": [
+        "chem-net-flux-review"
+      ],
+      "source_locator": "A metabolite present at low concentration may be turned over rapidly",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-063000-02",
+      "anchor": "The pathway map and the steady-state balances constrain the answer, but do not determine it.",
+      "kind": "scientific_definition",
+      "source_ids": [
+        "chem-net-fba"
+      ],
+      "source_locator": "The pathway map and the steady-state balances constrain the answer, but do not determine it.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-063000-03",
+      "anchor": "A reversible enzyme can be extremely busy at equilibrium without transporting much matter one way overall.",
+      "kind": "scientific_mechanism",
+      "source_ids": [
+        "chem-net-fba"
+      ],
+      "source_locator": "A reversible enzyme can be extremely busy at equilibrium without transporting much matter one way overall.",
+      "audit_status": "reference_recorded"
+    }
+  ],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original chemistry of biological networks lecture, scientific companion and source-linked metadata."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Introductory chemical bonding and reactions, ATP and redox carriers; specialized metabolic ideas are developed in the narration."
+    ],
+    "readiness_checks": [
+      "How can a steady metabolite concentration coexist with rapid turnover?",
+      "Which extra measurement can identify a split at a branch point?"
+    ]
+  }
+}

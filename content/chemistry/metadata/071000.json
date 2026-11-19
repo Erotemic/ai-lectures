@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "lecture_id": "071000",
+  "transcript": "071000-the-cell-changes-its-budget.md",
+  "description": "Connects pentose-phosphate NADPH/ribose demands, glyoxylate carbon conservation, gluconeogenic bypasses and lactate exchange to changing physiological objectives and measurable flux.",
+  "tags": [
+    "Pentose phosphate pathway",
+    "NADPH",
+    "Ribose-5-phosphate",
+    "Glucose-6-phosphate",
+    "Glyoxylate cycle",
+    "Isocitrate lyase",
+    "Malate synthase",
+    "Gluconeogenesis",
+    "Lactate shuttle",
+    "Fatty acid carbon",
+    "Carbon conservation",
+    "Metabolic reprogramming"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Chemistry",
+      "Pentose phosphate branch and NADPH versus ribose"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Glyoxylate shunt and oil-rich seed germination"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Gluconeogenic bypasses and resource-allocation tradeoffs"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "chem-net-ppp",
+      "reason": "Oxidative and nonoxidative pentose phosphate pathway and cofactor demands."
+    },
+    {
+      "source_id": "chem-net-glyoxylate",
+      "reason": "Isocitrate lyase, malate synthase and carbon-conserving bypass of TCA decarboxylations."
+    },
+    {
+      "source_id": "chem-net-connections",
+      "reason": "Biosynthetic branches, pyruvate routes, lipid-derived carbon and glucose precursors."
+    },
+    {
+      "source_id": "chem-net-tracer-methods",
+      "reason": "Tracer selection, labeled PPP carbon routing, extraction and isotope corrections."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "chem-071000-01",
+      "anchor": "one glucose six phosphate passing through that branch generates two NADPH and one carbon dioxide",
+      "kind": "scientific_quantitative",
+      "source_ids": [
+        "chem-net-ppp"
+      ],
+      "source_locator": "one glucose six phosphate passing through that branch generates two NADPH and one carbon dioxide",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-071000-02",
+      "anchor": "Isocitrate lyase cleaves isocitrate into succinate and glyoxylate.",
+      "kind": "scientific_mechanism",
+      "source_ids": [
+        "chem-net-glyoxylate"
+      ],
+      "source_locator": "Isocitrate lyase cleaves isocitrate into succinate and glyoxylate.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-071000-03",
+      "anchor": "Several glycolytic reactions can operate in reverse, but the strongly driven steps require distinct bypass reactions",
+      "kind": "scientific_mechanism",
+      "source_ids": [
+        "chem-net-connections"
+      ],
+      "source_locator": "Several glycolytic reactions can operate in reverse, but the strongly driven steps require distinct bypass reactions",
+      "audit_status": "reference_recorded"
+    }
+  ],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original chemistry of biological networks lecture, scientific companion and source-linked metadata."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Introductory chemical bonding and reactions, ATP and redox carriers; specialized metabolic ideas are developed in the narration."
+    ],
+    "readiness_checks": [
+      "How does the pentose-phosphate pathway decouple ribose from NADPH requirements?",
+      "Why is the glyoxylate shunt necessary for net glucose production from even-chain fatty acid carbon in organisms possessing it?"
+    ]
+  }
+}

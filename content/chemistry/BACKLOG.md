@@ -1,17 +1,13 @@
 # Chemistry: future course development
 
-The Chemistry pack contains sixty-two indexed audio-first lectures, including an organic-synthesis sequence through worked retrosynthetic analysis. The next priorities are complementary rather than re-tellings of existing elementary chemistry.
+The Chemistry pack contains seventy-one indexed audio-first lectures. It now covers foundational, organic, analytical, materials, electronic, bioinorganic and reaction-network chemistry, including quantitative metabolic tracing.
 
-## Priority next: chemistry of biological networks
+## Potential complementary chemistry extensions
 
-- Glycolysis and citric acid cycle at the atom-and-electron level; reaction coupling, oxidation-state ledgers and measured metabolic flux. Explain why pathways are regulated rather than merely enumerating intermediates.
-- Carbon fixation in contrasting organisms, including the Calvin cycle and alternative strategies; compare stoichiometry, energetic costs and ecological settings.
-- Cofactor regeneration, nitrogen and sulfur assimilation, metabolic bottlenecks and isotopic-flux evidence. Keep mechanisms clearly distinct from simplified pathway maps.
+- **Membranes and transport:** chemical potential, gradients, carrier selectivity, ion channels, coupled transport and quantitative membrane flux. Distinguish transport chemistry from whole-organism physiology.
+- **Lipids and biosynthetic construction:** fatty acid synthesis, acetyl-CoA and NADPH budgets, sterols, phospholipids and membrane properties; avoid repeating introductory organic reactions.
+- **One-carbon metabolism and cofactors:** folate-mediated transfers, methylation, nucleotide building, and redox/regulatory ties. Keep organism and compartment distinctions explicit.
+- **Environmental chemical transformations:** photochemistry, metal speciation, natural organic matter, remediation chemistry, and engineered transformations, grounded in analytical evidence.
+- **Industrial reaction networks:** fermentation and bioprocess yield, thermodynamic and kinetic constraints, production/selectivity, separations and life-cycle tradeoffs.
 
-## Further inorganic, analytical and environmental depth
-
-- Batteries and electrochemical interfaces: ion insertion, passivation, degradation and materials measurement beyond introductory electrochemistry.
-- Isotope-ratio methods, metal speciation, chemical tracing and environmental transformations.
-- Advanced catalysis and synthesis: selectivity in multistep networks, catalytic cycle failures, scalable workup, mechanistic discrimination and green-chemistry tradeoffs.
-
-Let explanatory need determine lecture length. Maintain full narration, separate scientific companions, source-linked claims and comprehensive topical tags. Attach geographic and chronological tags only to historical events actually documented in narration. The Chemistry pack is exclusively owned for overlay imports; use `--replace-owned` rather than allowing a stale index conflict to silently block new lectures.
+The Chemistry course is now broad enough that a new science track may have greater educational value than continued expansion. Select future chemistry topics by conceptual gaps, not by an obligation to extend it. For exclusively owned Chemistry pack imports, use `--replace-owned` rather than letting a differing index prevent the lectures from applying.

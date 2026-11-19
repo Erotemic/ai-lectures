@@ -8,7 +8,7 @@
       "categories": [
         "Science and nature"
       ],
-      "summary": "Sixty-two lectures on chemical foundations, analytical methods, materials, light, bioinorganic reactions and the planning of selective organic syntheses.",
+      "summary": "Seventy-one lectures from chemical foundations and organic synthesis to materials, electron-transfer chemistry and quantitative biological reaction networks.",
       "tags": [
         "Chemistry",
         "Chemical foundations",
@@ -286,6 +286,45 @@
             "062000"
           ],
           "collection": "synthesis-retrosynthesis-capstone"
+        },
+        {
+          "title": "From Metabolic Maps to Sugar Flux",
+          "lectures": [
+            "063000",
+            "064000"
+          ],
+          "collection": "metabolic-flux-and-glycolysis"
+        },
+        {
+          "title": "The Citric Acid Cycle and Control of Flow",
+          "lectures": [
+            "065000",
+            "066000"
+          ],
+          "collection": "metabolic-cycles-and-control"
+        },
+        {
+          "title": "How Living Things Fix Carbon",
+          "lectures": [
+            "067000",
+            "068000"
+          ],
+          "collection": "metabolic-carbon-fixation"
+        },
+        {
+          "title": "Nitrogen and Sulfur Join the Network",
+          "lectures": [
+            "069000"
+          ],
+          "collection": "metabolic-nutrient-assimilation"
+        },
+        {
+          "title": "Tracing Atoms and Rerouting Metabolism",
+          "lectures": [
+            "070000",
+            "071000"
+          ],
+          "collection": "metabolic-tracing-and-adaptation"
         }
       ]
     },
@@ -771,6 +810,87 @@
       ],
       "lectures": [
         "062000"
+      ]
+    },
+    {
+      "id": "metabolic-flux-and-glycolysis",
+      "title": "Chemistry · Metabolic Flow and Glycolysis",
+      "role": "deep_dive",
+      "parent": "chemistry-foundations",
+      "summary": "Steady-state chemical flux, branched networks, ATP expenditure and payoff, NADH regeneration.",
+      "tags": [
+        "Metabolism",
+        "Glycolysis",
+        "Flux analysis"
+      ],
+      "lectures": [
+        "063000",
+        "064000"
+      ]
+    },
+    {
+      "id": "metabolic-cycles-and-control",
+      "title": "Chemistry · Carbon Cycles and Regulation",
+      "role": "deep_dive",
+      "parent": "chemistry-foundations",
+      "summary": "TCA atom fate, anaplerosis, allosteric feedback and distributed flux control.",
+      "tags": [
+        "Citric acid cycle",
+        "Flux control",
+        "Regulation"
+      ],
+      "lectures": [
+        "065000",
+        "066000"
+      ]
+    },
+    {
+      "id": "metabolic-carbon-fixation",
+      "title": "Chemistry · The Chemical Cost of Fixing Carbon",
+      "role": "deep_dive",
+      "parent": "chemistry-foundations",
+      "summary": "Calvin-cycle stoichiometry, Rubisco, C4/CAM concentration, reductive TCA and Wood–Ljungdahl pathways.",
+      "tags": [
+        "Photosynthesis",
+        "Carbon fixation",
+        "C4",
+        "CAM"
+      ],
+      "lectures": [
+        "067000",
+        "068000"
+      ]
+    },
+    {
+      "id": "metabolic-nutrient-assimilation",
+      "title": "Chemistry · Assimilating Nitrogen and Sulfur",
+      "role": "deep_dive",
+      "parent": "chemistry-foundations",
+      "summary": "Nitrate and sulfate reduction into amino acid chemistry, with carbon and electron constraints.",
+      "tags": [
+        "Nitrogen assimilation",
+        "Sulfur assimilation",
+        "Nutrients"
+      ],
+      "lectures": [
+        "069000"
+      ]
+    },
+    {
+      "id": "metabolic-tracing-and-adaptation",
+      "title": "Chemistry · Isotopes and Metabolic Choices",
+      "role": "deep_dive",
+      "parent": "chemistry-foundations",
+      "summary": "13C tracer patterns and alternative resource strategies including pentose phosphate and glyoxylate networks.",
+      "tags": [
+        "13C tracing",
+        "Metabolic flux",
+        "Pentose phosphate",
+        "Glyoxylate"
+      ],
+      "lectures": [
+        "070000",
+        "071000"
       ]
     }
   ]

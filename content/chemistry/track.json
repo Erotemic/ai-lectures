@@ -1,7 +1,7 @@
 {
   "id": "chemistry",
   "title": "Chemistry: From Atoms to Reactions",
-  "summary": "Sixty-two standalone audio-first lectures connecting chemical identity, reaction mechanisms, measurement, materials, light, bioinorganic chemistry and selective organic synthesis with worked retrosynthesis.",
+  "summary": "Seventy-one standalone audio-first lectures connecting molecular chemistry, measurement, materials, light, bioinorganic reactions, selective synthesis and biological metabolic networks.",
   "categories": [
     "Science and nature"
   ],
@@ -78,7 +78,13 @@
     "Organic synthesis",
     "Retrosynthetic analysis",
     "Reaction selectivity",
-    "Carbon-carbon bond formation"
+    "Carbon-carbon bond formation",
+    "Metabolic networks",
+    "Carbon flux",
+    "Biochemical regulation",
+    "Autotrophic carbon fixation",
+    "Nitrogen assimilation",
+    "Stable isotope tracing"
   ],
   "tag_paths": [
     [
@@ -155,7 +161,16 @@
     "cross_coupling_strategy",
     "protecting_groups_and_compatibility",
     "asymmetric_synthesis",
-    "retrosynthesis_case_studies"
+    "retrosynthesis_case_studies",
+    "biochemical_networks_and_flux",
+    "glycolysis_atom_and_redox_accounting",
+    "tca_carbon_fate_and_anaplerosis",
+    "distributed_metabolic_regulation",
+    "calvin_cycle_carbon_and_energy",
+    "alternative_carbon_fixation_routes",
+    "nitrogen_and_sulfur_assimilation",
+    "stable_isotope_metabolic_flux_analysis",
+    "metabolic_network_tradeoffs_capstone"
   ],
   "lectures": [
     {
@@ -3404,6 +3419,381 @@
           "Science",
           "Chemistry",
           "Route alternatives, stereochemical limits and measurement"
+        ]
+      ],
+      "draft_status": "substantive"
+    },
+    {
+      "id": "063000",
+      "title": "A Map Is Not a Flow: Reading Metabolism as a Chemical Network",
+      "section": "biochemical_networks_and_flux",
+      "file": "063000-a-map-is-not-a-flow.md",
+      "spoken_words": 1418,
+      "estimated_minutes_at_145_wpm": 9.8,
+      "description": "Distinguishes metabolite concentrations from reaction flux, steady state from equilibrium, and uses stoichiometric branching and cofactor balances to show how chemical measurements constrain intracellular flow.",
+      "tags": [
+        "Metabolic networks",
+        "Reaction flux",
+        "Steady state",
+        "Chemical equilibrium",
+        "Stoichiometry",
+        "Flux balance analysis",
+        "Mass balance",
+        "Redox balance",
+        "NADPH regeneration",
+        "Compartmentation",
+        "Flux inference"
+      ],
+      "tag_paths": [
+        [
+          "Science",
+          "Chemistry",
+          "Steady-state metabolic flux and concentration"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Stoichiometric constraints and branching"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Cofactor and energy constraints"
+        ]
+      ],
+      "draft_status": "substantive"
+    },
+    {
+      "id": "064000",
+      "title": "What Glycolysis Buys and What It Owes: Following Sugar’s Carbon and Electrons",
+      "section": "glycolysis_atom_and_redox_accounting",
+      "file": "064000-what-glycolysis-buys-and-owes.md",
+      "spoken_words": 1350,
+      "estimated_minutes_at_145_wpm": 9.3,
+      "description": "Follows glucose through ATP investment, triose cleavage, aldehyde oxidation and substrate-level phosphorylation; accounts for two net ATP and two NADH and explains redox regeneration through fermentation or respiration.",
+      "tags": [
+        "Glycolysis",
+        "Glucose-6-phosphate",
+        "Hexokinase",
+        "PFK-1",
+        "Aldolase",
+        "GAPDH",
+        "Substrate-level phosphorylation",
+        "ATP investment",
+        "NADH regeneration",
+        "Lactate",
+        "Fermentation",
+        "Pyruvate",
+        "Redox metabolism"
+      ],
+      "tag_paths": [
+        [
+          "Science",
+          "Chemistry",
+          "Glycolysis ATP and phosphate ledger"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Triose oxidation and NADH"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Redox closure through lactate and ethanol"
+        ]
+      ],
+      "draft_status": "substantive"
+    },
+    {
+      "id": "065000",
+      "title": "Where the Carbon Goes: The Citric Acid Cycle as a Working Junction",
+      "section": "tca_carbon_fate_and_anaplerosis",
+      "file": "065000-where-the-carbon-goes.md",
+      "spoken_words": 1337,
+      "estimated_minutes_at_145_wpm": 9.2,
+      "description": "Traces pyruvate oxidation, acetyl-CoA carbon positions, cofactor yields and anaplerotic replacement, distinguishing a turning cycle from a biosynthetic carbon pool.",
+      "tags": [
+        "Pyruvate dehydrogenase",
+        "Acetyl-CoA",
+        "Citric acid cycle",
+        "Oxaloacetate",
+        "Citrate",
+        "Alpha-ketoglutarate",
+        "Succinate",
+        "Anaplerosis",
+        "Cataplerosis",
+        "Carbon labeling",
+        "NADH",
+        "FADH2",
+        "GTP",
+        "Carbon dioxide"
+      ],
+      "tag_paths": [
+        [
+          "Science",
+          "Chemistry",
+          "Pyruvate to acetyl-CoA and carbon fate"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "TCA electron carriers and substrate-level phosphorylation"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Anaplerosis, cataplerosis and carbon balance"
+        ]
+      ],
+      "draft_status": "substantive"
+    },
+    {
+      "id": "066000",
+      "title": "Who Controls the Flow? Regulation in a Chemical Network",
+      "section": "distributed_metabolic_regulation",
+      "file": "066000-who-controls-the-flow.md",
+      "spoken_words": 1387,
+      "estimated_minutes_at_145_wpm": 9.6,
+      "description": "Explains allosteric feedback, PFK-1 and fructose-2,6-bisphosphate regulation, and the distinction between regulatory targets and distributed flux control coefficients.",
+      "tags": [
+        "Metabolic control analysis",
+        "Flux control coefficients",
+        "Allosteric regulation",
+        "PFK-1",
+        "Fructose-2,6-bisphosphate",
+        "ATP",
+        "AMP",
+        "Feedback inhibition",
+        "Covalent modification",
+        "Enzyme regulation",
+        "Rate limitation",
+        "Flux sensitivity"
+      ],
+      "tag_paths": [
+        [
+          "Science",
+          "Chemistry",
+          "Demand-responsive glycolytic regulation"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Distributed steady-state control and summation"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "How experiments distinguish regulation from control"
+        ]
+      ],
+      "draft_status": "substantive"
+    },
+    {
+      "id": "067000",
+      "title": "Paying to Build Sugar from Air: The Calvin Cycle’s Carbon Account",
+      "section": "calvin_cycle_carbon_and_energy",
+      "file": "067000-paying-to-build-sugar-from-air.md",
+      "spoken_words": 1248,
+      "estimated_minutes_at_145_wpm": 8.6,
+      "description": "Derives the Calvin–Benson cycle from RuBP carboxylation through G3P reduction and RuBP regeneration, with the nine-ATP/six-NADPH carbon budget and oxygenation/photorespiration limits.",
+      "tags": [
+        "Carbon fixation",
+        "Calvin–Benson cycle",
+        "Rubisco",
+        "RuBP",
+        "3-phosphoglycerate",
+        "G3P",
+        "ATP",
+        "NADPH",
+        "Photorespiration",
+        "Carboxylation",
+        "Oxygenation",
+        "Chloroplast",
+        "Photosynthesis"
+      ],
+      "tag_paths": [
+        [
+          "Science",
+          "Chemistry",
+          "Rubisco carboxylation and RuBP acceptor balance"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "ATP and NADPH cost of net G3P"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Photorespiration and carbon gain"
+        ]
+      ],
+      "draft_status": "substantive"
+    },
+    {
+      "id": "068000",
+      "title": "The Other Roads to Fixed Carbon: C4, CAM, and Microbial Autotrophy",
+      "section": "alternative_carbon_fixation_routes",
+      "file": "068000-the-other-roads-to-fixed-carbon.md",
+      "spoken_words": 1332,
+      "estimated_minutes_at_145_wpm": 9.2,
+      "description": "Compares spatial and temporal CO2 concentrating mechanisms in plants with reductive TCA and Wood–Ljungdahl microbial carbon fixation, emphasizing electron, ATP, and ecological tradeoffs.",
+      "tags": [
+        "C3 photosynthesis",
+        "C4 photosynthesis",
+        "CAM photosynthesis",
+        "PEP carboxylase",
+        "Bundle sheath",
+        "Photorespiration",
+        "Carbon dioxide concentrating",
+        "Reductive TCA",
+        "Wood–Ljungdahl pathway",
+        "Acetyl-CoA synthase",
+        "Chemoautotrophy",
+        "Carbon fixation"
+      ],
+      "tag_paths": [
+        [
+          "Science",
+          "Chemistry",
+          "C4 spatial carbon-concentrating chemistry"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "CAM nocturnal fixation and acid storage"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Reductive TCA and Wood-Ljungdahl microbial fixation"
+        ]
+      ],
+      "draft_status": "substantive"
+    },
+    {
+      "id": "069000",
+      "title": "Nitrogen and Sulfur Enter the Network: Building the Elements into Life",
+      "section": "nitrogen_and_sulfur_assimilation",
+      "file": "069000-nitrogen-and-sulfur-enter-the-network.md",
+      "spoken_words": 1296,
+      "estimated_minutes_at_145_wpm": 8.9,
+      "description": "Follows nitrate and sulfate reduction into ammonium, glutamate and cysteine, integrating GS-GOGAT, APS chemistry, carbon skeletons, energy costs, and 15N tracing.",
+      "tags": [
+        "Nitrogen assimilation",
+        "Nitrate reductase",
+        "Nitrite reductase",
+        "Ammonium",
+        "Glutamine synthetase",
+        "Glutamate synthase",
+        "GS-GOGAT",
+        "Alpha-ketoglutarate",
+        "Sulfate assimilation",
+        "APS",
+        "Cysteine",
+        "Glutathione",
+        "15N tracer",
+        "Element cycling"
+      ],
+      "tag_paths": [
+        [
+          "Science",
+          "Chemistry",
+          "Nitrate reduction and GS-GOGAT nitrogen incorporation"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Sulfate activation, reduction and cysteine formation"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Elemental nutrient constraints on metabolic flux"
+        ]
+      ],
+      "draft_status": "substantive"
+    },
+    {
+      "id": "070000",
+      "title": "Follow the Heavy Carbon: Measuring Flux with Isotopes",
+      "section": "stable_isotope_metabolic_flux_analysis",
+      "file": "070000-follow-the-heavy-carbon.md",
+      "spoken_words": 1422,
+      "estimated_minutes_at_145_wpm": 9.8,
+      "description": "Teaches 13C tracer logic, isotopologues versus positional isotopomers, M+3 pyruvate and M+2 citrate, positional tracing, dynamic dilution, sampling and flux identifiability.",
+      "tags": [
+        "Carbon-13",
+        "Stable isotopes",
+        "Isotope tracing",
+        "Metabolic flux analysis",
+        "Isotopologues",
+        "Isotopomers",
+        "M+2 citrate",
+        "M+3 pyruvate",
+        "Mass spectrometry",
+        "Tracer design",
+        "Isotope steady state",
+        "Metabolomics",
+        "Flux uncertainty"
+      ],
+      "tag_paths": [
+        [
+          "Science",
+          "Chemistry",
+          "Label propagation from glucose into pyruvate and citrate"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Isotopologues, positional labeling and alternative routes"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Metabolic flux model inference and identifiability"
+        ]
+      ],
+      "draft_status": "substantive"
+    },
+    {
+      "id": "071000",
+      "title": "The Cell Changes Its Budget: Metabolic Detours and Chemical Priorities",
+      "section": "metabolic_network_tradeoffs_capstone",
+      "file": "071000-the-cell-changes-its-budget.md",
+      "spoken_words": 1417,
+      "estimated_minutes_at_145_wpm": 9.8,
+      "description": "Connects pentose-phosphate NADPH/ribose demands, glyoxylate carbon conservation, gluconeogenic bypasses and lactate exchange to changing physiological objectives and measurable flux.",
+      "tags": [
+        "Pentose phosphate pathway",
+        "NADPH",
+        "Ribose-5-phosphate",
+        "Glucose-6-phosphate",
+        "Glyoxylate cycle",
+        "Isocitrate lyase",
+        "Malate synthase",
+        "Gluconeogenesis",
+        "Lactate shuttle",
+        "Fatty acid carbon",
+        "Carbon conservation",
+        "Metabolic reprogramming"
+      ],
+      "tag_paths": [
+        [
+          "Science",
+          "Chemistry",
+          "Pentose phosphate branch and NADPH versus ribose"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Glyoxylate shunt and oil-rich seed germination"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Gluconeogenic bypasses and resource-allocation tradeoffs"
         ]
       ],
       "draft_status": "substantive"

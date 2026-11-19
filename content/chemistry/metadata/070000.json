@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "lecture_id": "070000",
+  "transcript": "070000-follow-the-heavy-carbon.md",
+  "description": "Teaches 13C tracer logic, isotopologues versus positional isotopomers, M+3 pyruvate and M+2 citrate, positional tracing, dynamic dilution, sampling and flux identifiability.",
+  "tags": [
+    "Carbon-13",
+    "Stable isotopes",
+    "Isotope tracing",
+    "Metabolic flux analysis",
+    "Isotopologues",
+    "Isotopomers",
+    "M+2 citrate",
+    "M+3 pyruvate",
+    "Mass spectrometry",
+    "Tracer design",
+    "Isotope steady state",
+    "Metabolomics",
+    "Flux uncertainty"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Chemistry",
+      "Label propagation from glucose into pyruvate and citrate"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Isotopologues, positional labeling and alternative routes"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Metabolic flux model inference and identifiability"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "chem-net-tracer-guide",
+      "reason": "Glucose and glutamine isotope labeling, M+2 and M+3 citrate and inference limits."
+    },
+    {
+      "source_id": "chem-net-tracer-roadmap",
+      "reason": "Interpretation of labeled metabolite fractions, tracer choice and ambiguity."
+    },
+    {
+      "source_id": "chem-net-tracer-methods",
+      "reason": "Tracer selection, labeled PPP carbon routing, extraction and isotope corrections."
+    },
+    {
+      "source_id": "chem-net-flux-review",
+      "reason": "Stable-isotope flux inference, sampling, computational modeling and uncertainty."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "chem-070000-01",
+      "anchor": "the first citrate molecules formed from labeled acetyl CoA and unlabeled oxaloacetate can have two labeled carbons.",
+      "kind": "scientific_example",
+      "source_ids": [
+        "chem-net-tracer-guide"
+      ],
+      "source_locator": "the first citrate molecules formed from labeled acetyl CoA and unlabeled oxaloacetate can have two labeled carbons.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-070000-02",
+      "anchor": "Two molecules both called M plus two can carry labels in different parts of their skeletons",
+      "kind": "scientific_mechanism",
+      "source_ids": [
+        "chem-net-tracer-roadmap"
+      ],
+      "source_locator": "Two molecules both called M plus two can carry labels in different parts of their skeletons",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-070000-03",
+      "anchor": "A small pyruvate pool might become fully labeled quickly even when the absolute rate is modest; a large pool might label more slowly.",
+      "kind": "scientific_mechanism",
+      "source_ids": [
+        "chem-net-flux-review"
+      ],
+      "source_locator": "A small pyruvate pool might become fully labeled quickly even when the absolute rate is modest; a large pool might label more slowly.",
+      "audit_status": "reference_recorded"
+    }
+  ],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original chemistry of biological networks lecture, scientific companion and source-linked metadata."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Introductory chemical bonding and reactions, ATP and redox carriers; specialized metabolic ideas are developed in the narration."
+    ],
+    "readiness_checks": [
+      "Why does M+2 citrate not directly measure the rate of the citric acid cycle?",
+      "What additional observations make a 13C flux model identifiable?"
+    ]
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "lecture_id": "069000",
+  "transcript": "069000-nitrogen-and-sulfur-enter-the-network.md",
+  "description": "Follows nitrate and sulfate reduction into ammonium, glutamate and cysteine, integrating GS-GOGAT, APS chemistry, carbon skeletons, energy costs, and 15N tracing.",
+  "tags": [
+    "Nitrogen assimilation",
+    "Nitrate reductase",
+    "Nitrite reductase",
+    "Ammonium",
+    "Glutamine synthetase",
+    "Glutamate synthase",
+    "GS-GOGAT",
+    "Alpha-ketoglutarate",
+    "Sulfate assimilation",
+    "APS",
+    "Cysteine",
+    "Glutathione",
+    "15N tracer",
+    "Element cycling"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Chemistry",
+      "Nitrate reduction and GS-GOGAT nitrogen incorporation"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Sulfate activation, reduction and cysteine formation"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Elemental nutrient constraints on metabolic flux"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "chem-net-nitrogen",
+      "reason": "Nitrate and ammonium assimilation, GS-GOGAT and carbon–nitrogen coupling."
+    },
+    {
+      "source_id": "chem-net-nitrogen-trace",
+      "reason": "Nitrogen tracer evidence and glutamine synthetase/glutamate synthase reactions."
+    },
+    {
+      "source_id": "chem-net-sulfur",
+      "reason": "ATP sulfurylase, APS reduction, sulfide incorporation to cysteine and glutathione."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "chem-069000-01",
+      "anchor": "It is an eight-electron reduction from nitrate nitrogen",
+      "kind": "scientific_quantitative",
+      "source_ids": [
+        "chem-net-nitrogen"
+      ],
+      "source_locator": "It is an eight-electron reduction from nitrate nitrogen",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-069000-02",
+      "anchor": "Glutamine synthetase combines ammonium with glutamate using ATP to make glutamine.",
+      "kind": "scientific_mechanism",
+      "source_ids": [
+        "chem-net-nitrogen-trace"
+      ],
+      "source_locator": "Glutamine synthetase combines ammonium with glutamate using ATP to make glutamine.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-069000-03",
+      "anchor": "A major plant route begins with ATP sulfurylase",
+      "kind": "scientific_mechanism",
+      "source_ids": [
+        "chem-net-sulfur"
+      ],
+      "source_locator": "A major plant route begins with ATP sulfurylase",
+      "audit_status": "reference_recorded"
+    }
+  ],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original chemistry of biological networks lecture, scientific companion and source-linked metadata."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Introductory chemical bonding and reactions, ATP and redox carriers; specialized metabolic ideas are developed in the narration."
+    ],
+    "readiness_checks": [
+      "Why can an abundance of nitrate fail to supply protein synthesis?",
+      "What energy and electron sources are required to reduce sulfate into cysteine?"
+    ]
+  }
+}

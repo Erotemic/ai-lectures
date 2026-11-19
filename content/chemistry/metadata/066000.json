@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "lecture_id": "066000",
+  "transcript": "066000-who-controls-the-flow.md",
+  "description": "Explains allosteric feedback, PFK-1 and fructose-2,6-bisphosphate regulation, and the distinction between regulatory targets and distributed flux control coefficients.",
+  "tags": [
+    "Metabolic control analysis",
+    "Flux control coefficients",
+    "Allosteric regulation",
+    "PFK-1",
+    "Fructose-2,6-bisphosphate",
+    "ATP",
+    "AMP",
+    "Feedback inhibition",
+    "Covalent modification",
+    "Enzyme regulation",
+    "Rate limitation",
+    "Flux sensitivity"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Chemistry",
+      "Demand-responsive glycolytic regulation"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Distributed steady-state control and summation"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "How experiments distinguish regulation from control"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "chem-net-regulation",
+      "reason": "ATP, AMP, citrate, PFK-1 and pyruvate kinase feedback regulation."
+    },
+    {
+      "source_id": "chem-net-mca",
+      "reason": "Distributed local flux-control coefficients and summation theorem."
+    },
+    {
+      "source_id": "chem-net-mca-app",
+      "reason": "Network-wide flux control versus regulatory enzyme changes."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "chem-066000-01",
+      "anchor": "control of a steady-state flux can be distributed across multiple enzymes",
+      "kind": "scientific_definition",
+      "source_ids": [
+        "chem-net-mca"
+      ],
+      "source_locator": "control of a steady-state flux can be distributed across multiple enzymes",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-066000-02",
+      "anchor": "The coefficients are local sensitivities, not moral rankings of enzymes or permanent properties of proteins.",
+      "kind": "scientific_mechanism",
+      "source_ids": [
+        "chem-net-mca-app"
+      ],
+      "source_locator": "The coefficients are local sensitivities, not moral rankings of enzymes or permanent properties of proteins.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-066000-03",
+      "anchor": "the flux control coefficients over the adjustable activities sum to one",
+      "kind": "scientific_quantitative",
+      "source_ids": [
+        "chem-net-mca"
+      ],
+      "source_locator": "the flux control coefficients over the adjustable activities sum to one",
+      "audit_status": "reference_recorded"
+    }
+  ],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original chemistry of biological networks lecture, scientific companion and source-linked metadata."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Introductory chemical bonding and reactions, ATP and redox carriers; specialized metabolic ideas are developed in the narration."
+    ],
+    "readiness_checks": [
+      "Why does doubling a single enzyme often fail to double pathway output?",
+      "What distinguishes the enzyme a hormone regulates from one that has high local flux control?"
+    ]
+  }
+}

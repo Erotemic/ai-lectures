@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "lecture_id": "064000",
+  "transcript": "064000-what-glycolysis-buys-and-owes.md",
+  "description": "Follows glucose through ATP investment, triose cleavage, aldehyde oxidation and substrate-level phosphorylation; accounts for two net ATP and two NADH and explains redox regeneration through fermentation or respiration.",
+  "tags": [
+    "Glycolysis",
+    "Glucose-6-phosphate",
+    "Hexokinase",
+    "PFK-1",
+    "Aldolase",
+    "GAPDH",
+    "Substrate-level phosphorylation",
+    "ATP investment",
+    "NADH regeneration",
+    "Lactate",
+    "Fermentation",
+    "Pyruvate",
+    "Redox metabolism"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Chemistry",
+      "Glycolysis ATP and phosphate ledger"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Triose oxidation and NADH"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Redox closure through lactate and ethanol"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "chem-net-glycolysis",
+      "reason": "Carbon, phosphate and NADH accounting in glycolysis."
+    },
+    {
+      "source_id": "chem-net-fermentation",
+      "reason": "Fermentative NAD+ regeneration, ethanol and lactate pathways."
+    },
+    {
+      "source_id": "chem-net-regulation",
+      "reason": "ATP, AMP, citrate, PFK-1 and pyruvate kinase feedback regulation."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "chem-064000-01",
+      "anchor": "The net is two ATP and two NADH",
+      "kind": "scientific_quantitative",
+      "source_ids": [
+        "chem-net-glycolysis"
+      ],
+      "source_locator": "The net is two ATP and two NADH",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-064000-02",
+      "anchor": "This phosphate is not donated by ATP.",
+      "kind": "scientific_mechanism",
+      "source_ids": [
+        "chem-net-glycolysis"
+      ],
+      "source_locator": "This phosphate is not donated by ATP.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-064000-03",
+      "anchor": "The fermentation step is not an extra ATP-making step",
+      "kind": "scientific_mechanism",
+      "source_ids": [
+        "chem-net-fermentation"
+      ],
+      "source_locator": "The fermentation step is not an extra ATP-making step",
+      "audit_status": "reference_recorded"
+    }
+  ],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original chemistry of biological networks lecture, scientific companion and source-linked metadata."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Introductory chemical bonding and reactions, ATP and redox carriers; specialized metabolic ideas are developed in the narration."
+    ],
+    "readiness_checks": [
+      "Where does inorganic phosphate enter glycolysis?",
+      "How does lactate formation permit continued ATP production without adding ATP directly?"
+    ]
+  }
+}
