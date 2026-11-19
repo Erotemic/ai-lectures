@@ -573,7 +573,6 @@
       }
     ]
   },
-  "description": "Follows Tartaglia from war-injured childhood to teaching, mathematical contests and the cubic-equation dispute with Cardano, separating documented claims from later legends about priority.",
   "content_recovery": {
     "date": "2026-11-18",
     "archive": "mathematician-biographies-cardano-tartaglia-story-first-2026-11-17.zip",
@@ -583,5 +582,19 @@
     "original_source_sha256": "3d10ab9f4de1f0b53b202c57c11747cfda9f17795d8f752e2a4acecc84a136e7",
     "integration_model": "GPT-6 (Codex; weights/config variant unknown)",
     "scope": "Recover supplied source and metadata; preserve spoken prose. Remap colliding playback IDs and citation records without replacing existing lectures."
-  }
+  },
+  "tags": [
+    "History of science and mathematics",
+    "Biography",
+    "Niccolò Tartaglia",
+    "Algebra"
+  ],
+  "tag_paths": [
+    [
+      "History",
+      "History of science",
+      "Scientific biography",
+      "Niccolò Tartaglia"
+    ]
+  ]
 }

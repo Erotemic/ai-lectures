@@ -63,5 +63,23 @@
       "Can you assemble a 2-by-2 stiffness matrix and its load vector for a three-element mesh?",
       "Can you distinguish the Galerkin energy error from the residual of a linear solver?"
     ]
-  }
+  },
+  "description": "Examines piecewise-linear trial spaces, stiffness assembly, Ritz–Galerkin orthogonality, exact energy errors, and numerical limitations.",
+  "tag_paths": [
+    [
+      "Mathematics",
+      "Multivariable calculus",
+      "Finite elements"
+    ],
+    [
+      "Mathematics",
+      "Multivariable calculus",
+      "Galerkin orthogonality"
+    ],
+    [
+      "Mathematics",
+      "Multivariable calculus",
+      "Céa lemma"
+    ]
+  ]
 }

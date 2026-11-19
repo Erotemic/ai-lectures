@@ -621,7 +621,6 @@
       }
     ]
   },
-  "description": "Follows Cardano through medicine, gambling, family conflict and Renaissance patronage, explaining how cubic equations and his contested bargain with Tartaglia shaped Ars Magna and his reputation.",
   "content_recovery": {
     "date": "2026-11-18",
     "archive": "mathematician-biographies-cardano-tartaglia-story-first-2026-11-17.zip",
@@ -631,5 +630,19 @@
     "original_source_sha256": "98ed67e14e4bc8189a81a52379e8a29db60348ce3a97702de7b385f5a67389bf",
     "integration_model": "GPT-6 (Codex; weights/config variant unknown)",
     "scope": "Recover supplied source and metadata; preserve spoken prose. Remap colliding playback IDs and citation records without replacing existing lectures."
-  }
+  },
+  "tags": [
+    "History of science and mathematics",
+    "Biography",
+    "Girolamo Cardano",
+    "Algebra"
+  ],
+  "tag_paths": [
+    [
+      "History",
+      "History of science",
+      "Scientific biography",
+      "Girolamo Cardano"
+    ]
+  ]
 }

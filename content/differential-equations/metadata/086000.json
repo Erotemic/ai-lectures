@@ -47,5 +47,23 @@
       "Verify the modified invariant for kick-drift symplectic Euler.",
       "Explain when preservation, dissipation or event handling is the appropriate numerical objective."
     ]
-  }
+  },
+  "description": "Develops one spring, two equations; a spring that gains energy; and a spring with imaginary friction.",
+  "tag_paths": [
+    [
+      "Mathematics",
+      "Differential equations",
+      "Symplectic Euler"
+    ],
+    [
+      "Mathematics",
+      "Differential equations",
+      "Störmer-Verlet"
+    ],
+    [
+      "Mathematics",
+      "Differential equations",
+      "Hamiltonian systems"
+    ]
+  ]
 }

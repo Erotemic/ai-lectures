@@ -1420,7 +1420,6 @@
     "Year: 2025",
     "Year: 2026"
   ],
-  "description": "Follows Vera Rubin’s education, family and observing career, explaining Doppler measurements and galaxy rotation curves, collaboration with Kent Ford and the evidence and limits of dark-matter inference.",
   "content_recovery": {
     "date": "2026-11-18",
     "archive": "scientist-biography-161000-vera-rubin-overlay.zip",
@@ -1430,5 +1429,13 @@
     "original_source_sha256": "3b37b0e64a1a81ed0209d764e37cda7d9d96dcf9ef77eba31ce7dfcd50bbb367",
     "integration_model": "GPT-6 (Codex; weights/config variant unknown)",
     "scope": "Recover supplied source and metadata; preserve spoken prose. Remap colliding playback IDs and citation records without replacing existing lectures."
-  }
+  },
+  "tag_paths": [
+    [
+      "History",
+      "History of science",
+      "Scientific biography",
+      "Vera Rubin"
+    ]
+  ]
 }

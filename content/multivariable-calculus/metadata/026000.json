@@ -59,5 +59,23 @@
       "Can you state which objective is changed by adding a Tikhonov penalty?",
       "Can you distinguish a robust data loss from a prior preference for particular parameters?"
     ]
-  }
+  },
+  "description": "Distinguishes noise modeling from prior information and step damping, derive Tikhonov and weighted least squares, and connect robust loss and validation to reliable inference.",
+  "tag_paths": [
+    [
+      "Mathematics",
+      "Multivariable calculus",
+      "Regularization"
+    ],
+    [
+      "Mathematics",
+      "Multivariable calculus",
+      "Robust fitting"
+    ],
+    [
+      "Mathematics",
+      "Multivariable calculus",
+      "Inverse problems"
+    ]
+  ]
 }

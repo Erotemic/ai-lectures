@@ -1,0 +1,21 @@
+{
+ "run": "R-20261116-tts-world-history-17",
+ "track": "tts-world-history",
+ "created": "2026-11-16T21:21:50Z",
+ "units_total": 1,
+ "order": [
+  "008000"
+ ],
+ "stages": {
+  "008000": {
+   "stage": "review_failed",
+   "at": "2026-11-16T21:24:17Z",
+   "revision": "03a993181987765d",
+   "error": "no JSON array in reviewer output (finish=None, first 200 chars: 'Let me carefully review this lecture against the registered sources.\\n\\nThe lecture is about the Sumerian Gilgamesh stories (other than the famous Akkadian epic). The registered sources are:\\n1. gilgames')"
+  }
+ },
+ "in_progress": {
+  "unit": "008000",
+  "stage": "review_failed"
+ }
+}

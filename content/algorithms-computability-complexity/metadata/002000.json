@@ -195,5 +195,23 @@
       "source_locator": "Distinguishes known NP-completeness from unresolved P vs NP; no universal exponential lower bound known.",
       "evidence_detail": "Distinguishes known NP-completeness from unresolved P vs NP; no universal exponential lower bound known."
     }
-  ]
+  ],
+  "tag_paths": [
+    [
+      "Mathematics",
+      "Theoretical computer science",
+      "Computational complexity"
+    ],
+    [
+      "Mathematics",
+      "Theoretical computer science",
+      "Asymptotic estimates"
+    ],
+    [
+      "Mathematics",
+      "Theoretical computer science",
+      "Lower bounds"
+    ]
+  ],
+  "description": "Compares ways to measure computational cost using search and growing inputs, showing why input size and asymptotic behavior matter more than a single timing."
 }

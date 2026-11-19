@@ -1178,7 +1178,6 @@
       }
     ]
   },
-  "description": "Connects Julia Robinson’s education, health, collaboration and institutional barriers to her work on Diophantine equations and Hilbert’s tenth problem, explaining why no general solving algorithm exists.",
   "content_recovery": {
     "date": "2026-11-18",
     "archive": "mathematician-biography-julia-robinson-story-first-2026-11-17.zip",
@@ -1188,5 +1187,19 @@
     "original_source_sha256": "bb12f5cab93d0e3c40db5139f9002318c81f1d11c3692547396902149292adda",
     "integration_model": "GPT-6 (Codex; weights/config variant unknown)",
     "scope": "Recover supplied source and metadata; preserve spoken prose. Remap colliding playback IDs and citation records without replacing existing lectures."
-  }
+  },
+  "tags": [
+    "History of science and mathematics",
+    "Biography",
+    "Julia Bowman Robinson",
+    "Mathematical logic"
+  ],
+  "tag_paths": [
+    [
+      "History",
+      "History of science",
+      "Scientific biography",
+      "Julia Bowman Robinson"
+    ]
+  ]
 }

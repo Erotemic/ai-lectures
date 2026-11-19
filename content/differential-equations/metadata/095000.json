@@ -43,5 +43,23 @@
       "Check the trapezoidal total-heat balance for insulated ghost nodes.",
       "Distinguish a prescribed endpoint temperature from a prescribed endpoint flux."
     ]
-  }
+  },
+  "description": "Addresses topics from the lecture, including \"Three unknown temperatures, not five\"; \"insulating the ends\"; and \"What happens when a boundary flux is prescribed?\".",
+  "tag_paths": [
+    [
+      "Mathematics",
+      "Differential equations",
+      "Dirichlet boundaries"
+    ],
+    [
+      "Mathematics",
+      "Differential equations",
+      "Neumann boundaries"
+    ],
+    [
+      "Mathematics",
+      "Differential equations",
+      "Ghost nodes"
+    ]
+  ]
 }

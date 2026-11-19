@@ -1249,9 +1249,9 @@
     "Year: 1934",
     "Year: 1941",
     "Year: 1945",
-    "Year: 1997"
+    "Year: 1997",
+    "Military history"
   ],
-  "description": "Continues Haber’s life through chemical warfare, family tragedy, postwar research and exile, examining documented choices and the moral consequences of scientific work without reducing them to a simple verdict.",
   "content_recovery": {
     "date": "2026-11-18",
     "archive": "scientist-biography-153000-153500-fritz-haber-special-overlay.zip",
@@ -1261,5 +1261,13 @@
     "original_source_sha256": "196ff9e83cbc569ca99358f9a79324bfcf5eefbda3125aeb6db1dff593a5007c",
     "integration_model": "GPT-6 (Codex; weights/config variant unknown)",
     "scope": "Recover supplied source and metadata; preserve spoken prose. Remap colliding playback IDs and citation records without replacing existing lectures."
-  }
+  },
+  "tag_paths": [
+    [
+      "History",
+      "History of science",
+      "Scientific biography",
+      "Fritz Haber"
+    ]
+  ]
 }

@@ -1112,7 +1112,6 @@
     "Year: 1913",
     "Year: 1914"
   ],
-  "description": "Follows Haber’s route to catalytic ammonia synthesis, connecting chemical equilibrium, high pressure, industrial scale-up and fertilizer to his personal life and German research institutions.",
   "content_recovery": {
     "date": "2026-11-18",
     "archive": "scientist-biography-153000-153500-fritz-haber-special-overlay.zip",
@@ -1122,5 +1121,13 @@
     "original_source_sha256": "a713f73fcc96bd6be70efe55a27a2ad6a2d9ab8f4d34eb917e6397febc80b8f5",
     "integration_model": "GPT-6 (Codex; weights/config variant unknown)",
     "scope": "Recover supplied source and metadata; preserve spoken prose. Remap colliding playback IDs and citation records without replacing existing lectures."
-  }
+  },
+  "tag_paths": [
+    [
+      "History",
+      "History of science",
+      "Scientific biography",
+      "Fritz Haber"
+    ]
+  ]
 }

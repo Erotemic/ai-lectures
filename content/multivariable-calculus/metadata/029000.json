@@ -55,5 +55,23 @@
       "Can you distinguish primal and dual residuals in KKT equations?",
       "Can you derive the zero bottom-right block and solve a small saddle system?"
     ]
-  }
+  },
+  "description": "Examines linearize constrained stationarity, compute the saddle-point Newton correction, and connect reduced Hessians, Schur complements, and nonlinear feasibility.",
+  "tag_paths": [
+    [
+      "Mathematics",
+      "Multivariable calculus",
+      "Constrained Newton"
+    ],
+    [
+      "Mathematics",
+      "Multivariable calculus",
+      "KKT systems"
+    ],
+    [
+      "Mathematics",
+      "Multivariable calculus",
+      "Schur complement"
+    ]
+  ]
 }

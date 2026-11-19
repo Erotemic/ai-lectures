@@ -2,7 +2,6 @@
   "schema_version": 1,
   "lecture_id": "017000",
   "transcript": "017000-amortized-costs-and-growing-arrays.md",
-  "description": "Derives aggregate and potential-method bounds for dynamic-array growth and binary counters, separating amortized from average and worst-case cost.",
   "tags": [
     "Algorithms",
     "Amortized analysis",
@@ -13,9 +12,18 @@
   "tag_paths": [
     [
       "Mathematics",
-      "Computer science",
-      "Algorithms",
+      "Theoretical computer science",
+      "Algorithms"
+    ],
+    [
+      "Mathematics",
+      "Theoretical computer science",
       "Amortized analysis"
+    ],
+    [
+      "Mathematics",
+      "Theoretical computer science",
+      "Data structures"
     ]
   ],
   "related_resources": [

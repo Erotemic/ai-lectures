@@ -47,5 +47,23 @@
       "Diagonalize a periodic second difference by Fourier modes.",
       "Solve the four-cell periodic heat problem and recover its forward-Euler stability limit."
     ]
-  }
+  },
+  "description": "Develops the redundant work hidden in a Fourier sum; A four-point FFT by hand; and from four to a million.",
+  "tag_paths": [
+    [
+      "Mathematics",
+      "Differential equations",
+      "Fast Fourier transform"
+    ],
+    [
+      "Mathematics",
+      "Differential equations",
+      "FFT"
+    ],
+    [
+      "Mathematics",
+      "Differential equations",
+      "Cooley-Tukey"
+    ]
+  ]
 }

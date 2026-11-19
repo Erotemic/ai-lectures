@@ -2,7 +2,6 @@
   "schema_version": 1,
   "lecture_id": "017000",
   "transcript": "017000-curvature-conditioning-and-regularization.md",
-  "description": "Derives gradient-descent rates from Hessian eigenvalues, gives a strong-convexity error certificate and distinguishes ridge from preconditioning.",
   "tags": [
     "Strong convexity",
     "Smoothness",
@@ -15,9 +14,18 @@
   "tag_paths": [
     [
       "Mathematics",
-      "Optimization Duality",
-      "Mathematical connections",
+      "Optimization",
       "Strong convexity"
+    ],
+    [
+      "Mathematics",
+      "Optimization",
+      "Smoothness"
+    ],
+    [
+      "Mathematics",
+      "Optimization",
+      "Gradient descent"
     ]
   ],
   "related_resources": [

@@ -47,5 +47,23 @@
       "Check open-boundary mass balance for a five-cell example.",
       "Explain the role of numerical flux consistency for nonlinear transport."
     ]
-  }
+  },
+  "description": "Develops A cell stores an average, not a point measurement; why shared faces produce exact conservation; and recovering upwind from a face flux.",
+  "tag_paths": [
+    [
+      "Mathematics",
+      "Differential equations",
+      "Finite-volume methods"
+    ],
+    [
+      "Mathematics",
+      "Differential equations",
+      "Conservative flux"
+    ],
+    [
+      "Mathematics",
+      "Differential equations",
+      "Cell averages"
+    ]
+  ]
 }

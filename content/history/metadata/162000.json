@@ -757,7 +757,6 @@
     "date_encoding": "Inclusive CE calendar years; approximate ranges or institutional appointments do not prove continuous residence. No real-time personal location tracking.",
     "coordinate_encoding": "Approximate modern city centroid; no home, personal address or individual building location."
   },
-  "description": "Traces Perelman’s mathematical upbringing, work on Alexandrov geometry and Ricci flow, the verification of geometrization, and his decisions to decline major prizes; distinguishes the proof from speculation about his private motives.",
   "content_recovery": {
     "date": "2026-11-18",
     "archive": "mathematician-biography-perelman-story-first-2026-11-17.zip",
@@ -767,5 +766,19 @@
     "original_source_sha256": "41be1cf267ff0c6bae111d9b0e855481835d5213db232e92ea81ea1a49e46c3d",
     "integration_model": "GPT-6 (Codex; weights/config variant unknown)",
     "scope": "Recover supplied source and metadata; preserve spoken prose. Remap colliding playback IDs and citation records without replacing existing lectures."
-  }
+  },
+  "tags": [
+    "History of science and mathematics",
+    "Biography",
+    "Grigori Perelman",
+    "Mathematics"
+  ],
+  "tag_paths": [
+    [
+      "History",
+      "History of science",
+      "Scientific biography",
+      "Grigori Perelman"
+    ]
+  ]
 }

@@ -2,7 +2,6 @@
   "schema_version": 1,
   "lecture_id": "013000",
   "transcript": "013000-graph-search-as-a-proof.md",
-  "description": "Derives BFS reachability and shortest-edge-count certificates, then uses DFS invariants for cycles and topological order.",
   "tags": [
     "Graph theory",
     "Graph algorithms",
@@ -14,9 +13,17 @@
   "tag_paths": [
     [
       "Mathematics",
-      "Computer science",
-      "Algorithms",
+      "Graph theory"
+    ],
+    [
+      "Mathematics",
+      "Theoretical computer science",
       "Graph algorithms"
+    ],
+    [
+      "Mathematics",
+      "Theoretical computer science",
+      "Breadth-first search"
     ]
   ],
   "related_resources": [

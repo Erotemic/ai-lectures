@@ -39,5 +39,23 @@
       "Explain why purely relative tolerance fails around zero.",
       "Distinguish requested output sampling from actual integration steps."
     ]
-  }
+  },
+  "description": "Addresses topics from the lecture, including \"A trajectory with two very different quantities\"; \"Relative tolerance needs an absolute floor\"; and \"A test on the error estimate, not on the error itself\".",
+  "tag_paths": [
+    [
+      "Mathematics",
+      "Differential equations",
+      "Absolute tolerance"
+    ],
+    [
+      "Mathematics",
+      "Differential equations",
+      "Relative tolerance"
+    ],
+    [
+      "Mathematics",
+      "Differential equations",
+      "Scaled errors"
+    ]
+  ]
 }

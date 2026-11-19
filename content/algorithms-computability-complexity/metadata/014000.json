@@ -2,7 +2,6 @@
   "schema_version": 1,
   "lecture_id": "014000",
   "transcript": "014000-shortest-paths-when-weights-matter.md",
-  "description": "Shows how edge weights change shortest-path guarantees; derives Dijkstra finalization, Bellman-Ford relaxation, and the acyclic special case.",
   "tags": [
     "Graph algorithms",
     "Shortest paths",
@@ -13,10 +12,18 @@
   "tag_paths": [
     [
       "Mathematics",
-      "Computer science",
-      "Algorithms",
-      "Graph algorithms",
+      "Theoretical computer science",
+      "Graph algorithms"
+    ],
+    [
+      "Mathematics",
+      "Theoretical computer science",
       "Shortest paths"
+    ],
+    [
+      "Mathematics",
+      "Theoretical computer science",
+      "Dijkstra algorithm"
     ]
   ],
   "related_resources": [

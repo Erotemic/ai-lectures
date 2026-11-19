@@ -1089,7 +1089,6 @@
       }
     ]
   },
-  "description": "An expanded Darwin portrait follows the Beagle voyage, geology and collecting, the long development of natural selection, correspondence with Wallace, family life and later experiments; challenges the instant Galápagos discovery story.",
   "content_recovery": {
     "date": "2026-11-18",
     "archive": "scientist-biography-darwin-story-first-2026-11-17.zip",
@@ -1099,5 +1098,19 @@
     "original_source_sha256": "4ff8f91509e8f6ed0e3880528545aa1d61330a52d8c5beb6d15fb564973fafce",
     "integration_model": "GPT-6 (Codex; weights/config variant unknown)",
     "scope": "Recover supplied source and metadata; preserve spoken prose. Remap colliding playback IDs and citation records without replacing existing lectures."
-  }
+  },
+  "tags": [
+    "History of science and mathematics",
+    "Biography",
+    "Charles Robert Darwin",
+    "Scientific biography"
+  ],
+  "tag_paths": [
+    [
+      "History",
+      "History of science",
+      "Scientific biography",
+      "Charles Robert Darwin"
+    ]
+  ]
 }

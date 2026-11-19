@@ -1505,7 +1505,6 @@
     "Year: 2012",
     "Year: 2025"
   ],
-  "description": "Follows Tycho Brahe through Danish patronage, Uraniborg, observation and exile, explaining precise positional astronomy, the nova and comet evidence, and his relationship with Kepler.",
   "content_recovery": {
     "date": "2026-11-18",
     "archive": "scientist-biography-155000-tycho-brahe-overlay.zip",
@@ -1515,5 +1514,13 @@
     "original_source_sha256": "146120727b4a9a534948d5d848407951b10cdd560ceb6edb6e4051dbf822bfa3",
     "integration_model": "GPT-6 (Codex; weights/config variant unknown)",
     "scope": "Recover supplied source and metadata; preserve spoken prose. Remap colliding playback IDs and citation records without replacing existing lectures."
-  }
+  },
+  "tag_paths": [
+    [
+      "History",
+      "History of science",
+      "Scientific biography",
+      "Tycho Brahe"
+    ]
+  ]
 }

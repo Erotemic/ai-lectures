@@ -267,5 +267,23 @@
       "source_locator": "Implementation validation scope, companion lab",
       "evidence_detail": "Original mathematical work in the narrated example and non-spoken companion. Cited sources provide contextual theory, not authorship. Locator: Implementation validation scope, companion lab."
     }
-  ]
+  ],
+  "tag_paths": [
+    [
+      "Mathematics",
+      "Theoretical computer science",
+      "Algorithm design"
+    ],
+    [
+      "Mathematics",
+      "Theoretical computer science",
+      "Dynamic programming"
+    ],
+    [
+      "Mathematics",
+      "Theoretical computer science",
+      "Optimal substructure"
+    ]
+  ],
+  "description": "Builds dynamic programming from overlapping choices and a table of subproblem values, connecting weighted scheduling to optimal-substructure proofs."
 }

@@ -43,5 +43,23 @@
       "Distinguish a complex STFT from its squared-magnitude spectrogram.",
       "Explain why overlap is not the same as independent observation."
     ]
-  }
+  },
+  "description": "Addresses topics from the lecture, including \"An eight-sample recording\"; \"Move the window, not the physical signal\"; and \"A spectrogram is a view, not the whole transform\".",
+  "tag_paths": [
+    [
+      "Mathematics",
+      "Differential equations",
+      "Short-time Fourier transform"
+    ],
+    [
+      "Mathematics",
+      "Differential equations",
+      "STFT"
+    ],
+    [
+      "Mathematics",
+      "Differential equations",
+      "Sliding windows"
+    ]
+  ]
 }

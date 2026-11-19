@@ -59,5 +59,23 @@
       "Derive the exponent 2/3 for a 270-degree reentrant corner and test H-one versus H-two integrability.",
       "Construct the cutoff forcing and explain why the standard H-two-based first-order FEM energy estimate is unavailable."
     ]
-  }
+  },
+  "description": "Examines reentrant sectors, exact harmonic singularities, energy versus H-two regularity, cutoff solutions with smooth forcing, finite-element rate limits, and adaptive refinement.",
+  "tag_paths": [
+    [
+      "Mathematics",
+      "Multivariable calculus",
+      "Corner singularity"
+    ],
+    [
+      "Mathematics",
+      "Multivariable calculus",
+      "Elliptic regularity"
+    ],
+    [
+      "Mathematics",
+      "Multivariable calculus",
+      "Finite element convergence"
+    ]
+  ]
 }

@@ -55,5 +55,23 @@
       "Explain why the mixed scalar potential can be in L2 even when the primal potential belongs to H1.",
       "Compute the exact two-cell flux and cell-average temperatures and check both weak equations."
     ]
-  }
+  },
+  "description": "Examines primal and mixed Poisson formulations, flux as an independent field, integration by parts, boundary conditions, conservation, and a solved two-cell approximation.",
+  "tag_paths": [
+    [
+      "Mathematics",
+      "Multivariable calculus",
+      "Mixed variational formulations"
+    ],
+    [
+      "Mathematics",
+      "Multivariable calculus",
+      "Flux conservation"
+    ],
+    [
+      "Mathematics",
+      "Multivariable calculus",
+      "H(div)"
+    ]
+  ]
 }

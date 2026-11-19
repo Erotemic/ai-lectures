@@ -221,5 +221,23 @@
       "source_locator": "Generalizes proof obligations; no formal theorem that all implementations have been verified.",
       "evidence_detail": "Generalizes proof obligations; no formal theorem that all implementations have been verified."
     }
-  ]
+  ],
+  "tag_paths": [
+    [
+      "Mathematics",
+      "Theoretical computer science",
+      "Mathematical proof"
+    ],
+    [
+      "Mathematics",
+      "Theoretical computer science",
+      "Program verification"
+    ],
+    [
+      "Mathematics",
+      "Theoretical computer science",
+      "Constructive mathematics"
+    ]
+  ],
+  "description": "Connects mathematical invariants and correctness proofs to executable programs, using binary search to examine assumptions, termination, and boundary cases."
 }

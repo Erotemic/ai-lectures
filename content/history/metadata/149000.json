@@ -1154,7 +1154,6 @@
     "Insulin crystal structure (1969)",
     "Insulin structural refinement (1988)"
   ],
-  "description": "Follows Hodgkin’s education, collaborations and scientific life through X-ray crystallography of penicillin, vitamin B12 and insulin, explaining how diffraction evidence reveals molecular structure.",
   "content_recovery": {
     "date": "2026-11-18",
     "archive": "scientist-biography-149000-hodgkin-overlay.zip",
@@ -1164,5 +1163,13 @@
     "original_source_sha256": "7912c9c026b16421e620fa28676b6a876756aa92fdbbc4bfd46dc53ea983a63e",
     "integration_model": "GPT-6 (Codex; weights/config variant unknown)",
     "scope": "Recover supplied source and metadata; preserve spoken prose. Remap colliding playback IDs and citation records without replacing existing lectures."
-  }
+  },
+  "tag_paths": [
+    [
+      "History",
+      "History of science",
+      "Scientific biography",
+      "Dorothy Crowfoot Hodgkin"
+    ]
+  ]
 }

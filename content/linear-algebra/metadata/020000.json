@@ -51,5 +51,23 @@
       "Can you eliminate one variable by subtracting a multiple of an equation?",
       "Can you solve an upper-triangular three-by-three system by backward substitution?"
     ]
-  }
+  },
+  "description": "Addresses topics from the lecture, including \"A pivot is a question we ask the next column\"; \"Where the lower triangular matrix comes from\"; and \"What a tiny pivot does to arithmetic\".",
+  "tag_paths": [
+    [
+      "Mathematics",
+      "Linear algebra",
+      "Gaussian elimination"
+    ],
+    [
+      "Mathematics",
+      "Linear algebra",
+      "Pivoted LU"
+    ],
+    [
+      "Mathematics",
+      "Linear algebra",
+      "Rank factorization"
+    ]
+  ]
 }

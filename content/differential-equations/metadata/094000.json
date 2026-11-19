@@ -51,5 +51,23 @@
       "Derive a linear-advection half-step MUSCL–Hancock prediction.",
       "Identify which conservation, CFL, TVD and error claims require separate hypotheses."
     ]
-  }
+  },
+  "description": "Develops one line per cell, with its average preserved; the minmod decision; and from reconstructed lines to a time step.",
+  "tag_paths": [
+    [
+      "Mathematics",
+      "Differential equations",
+      "MUSCL"
+    ],
+    [
+      "Mathematics",
+      "Differential equations",
+      "Minmod limiter"
+    ],
+    [
+      "Mathematics",
+      "Differential equations",
+      "Monotonized central"
+    ]
+  ]
 }

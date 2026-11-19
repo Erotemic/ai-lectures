@@ -47,5 +47,23 @@
       "Separate aliasing from leakage and explain what a Hann window changes.",
       "Explain circular convolution and the padding needed for linear convolution."
     ]
-  }
+  },
+  "description": "Addresses topics from the lecture, including \"Recovering a signal from its coefficients\"; \"Why a single tone can occupy several bins\"; and \"Tapering the endpoints\".",
+  "tag_paths": [
+    [
+      "Mathematics",
+      "Differential equations",
+      "Spectral leakage"
+    ],
+    [
+      "Mathematics",
+      "Differential equations",
+      "Window functions"
+    ],
+    [
+      "Mathematics",
+      "Differential equations",
+      "Phase"
+    ]
+  ]
 }

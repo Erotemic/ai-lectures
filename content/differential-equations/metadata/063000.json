@@ -39,5 +39,23 @@
       "Check each approximate value against an exact IVP solution.",
       "Explain why a vector system uses the same update formulas."
     ]
-  }
+  },
+  "description": "Addresses topics from the lecture, including \"An initial-value problem is a promise about a slope\"; \"A complete Euler calculation\"; and \"Sampling a slope halfway through\".",
+  "tag_paths": [
+    [
+      "Mathematics",
+      "Differential equations",
+      "Euler method"
+    ],
+    [
+      "Mathematics",
+      "Differential equations",
+      "Explicit midpoint"
+    ],
+    [
+      "Mathematics",
+      "Differential equations",
+      "Heun method"
+    ]
+  ]
 }

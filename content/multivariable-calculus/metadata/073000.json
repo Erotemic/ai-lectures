@@ -2,7 +2,6 @@
   "schema_version": 1,
   "lecture_id": "073000",
   "transcript": "073000-the-chain-rule-run-backwards.md",
-  "description": "Explains the reverse pullback of sensitivities with a shared-node graph and a two-by-two implicit linear system.",
   "tags": [
     "Chain rule",
     "Automatic differentiation",
@@ -15,9 +14,18 @@
   "tag_paths": [
     [
       "Mathematics",
-      "Multivariable Calculus",
-      "Mathematical connections",
+      "Multivariable calculus",
       "Chain rule"
+    ],
+    [
+      "Mathematics",
+      "Multivariable calculus",
+      "Automatic differentiation"
+    ],
+    [
+      "Mathematics",
+      "Multivariable calculus",
+      "Reverse mode"
     ]
   ],
   "related_resources": [

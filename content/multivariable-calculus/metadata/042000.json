@@ -59,5 +59,23 @@
       "Check the manufactured Stokes solution with u=0 and p=x-1/2 under constant gradient forcing.",
       "Distinguish pressure gauge, discrete inf–sup failure, and an ineffective block preconditioner."
     ]
-  }
+  },
+  "description": "Examines stokes weak formulation, pressure gauge, Taylor–Hood stability, Schur complement preconditioning, pressure robustness, and mixed finite-element error estimates.",
+  "tag_paths": [
+    [
+      "Mathematics",
+      "Multivariable calculus",
+      "Stokes equations"
+    ],
+    [
+      "Mathematics",
+      "Multivariable calculus",
+      "Taylor–Hood"
+    ],
+    [
+      "Mathematics",
+      "Multivariable calculus",
+      "Block preconditioning"
+    ]
+  ]
 }

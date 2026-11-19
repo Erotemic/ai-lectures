@@ -51,5 +51,23 @@
       "Exhibit the mean-zero pressure mode with nodal values (1,-1,1) and verify zero coupling.",
       "Prove the replacement P1-zero-boundary/P0-mean-zero pair has beta_h=1 on any interval partition."
     ]
-  }
+  },
+  "description": "Examines a spurious pressure mode on two cells, stable derivative-pressure pairs, uniform discrete inf–sup bounds, Raviart–Thomas spaces, and local conservation.",
+  "tag_paths": [
+    [
+      "Mathematics",
+      "Multivariable calculus",
+      "Discrete inf-sup"
+    ],
+    [
+      "Mathematics",
+      "Multivariable calculus",
+      "Spurious pressure modes"
+    ],
+    [
+      "Mathematics",
+      "Multivariable calculus",
+      "Raviart–Thomas elements"
+    ]
+  ]
 }

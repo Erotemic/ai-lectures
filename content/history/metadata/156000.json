@@ -1416,7 +1416,6 @@
     "Year: 2015",
     "Year: 2025"
   ],
-  "description": "Follows Tu Youyou’s training and malaria research through Project 523, historical medical texts, extraction experiments and artemisinin, distinguishing individual contributions from the wider collaborative effort.",
   "content_recovery": {
     "date": "2026-11-18",
     "archive": "scientist-biography-156000-tu-youyou-overlay.zip",
@@ -1426,5 +1425,13 @@
     "original_source_sha256": "545629b85bf65ae8bb2786846fab4273a15f4f5d31449b1fb6480719694da4ea",
     "integration_model": "GPT-6 (Codex; weights/config variant unknown)",
     "scope": "Recover supplied source and metadata; preserve spoken prose. Remap colliding playback IDs and citation records without replacing existing lectures."
-  }
+  },
+  "tag_paths": [
+    [
+      "History",
+      "History of science",
+      "Scientific biography",
+      "Tu Youyou"
+    ]
+  ]
 }

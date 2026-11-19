@@ -55,5 +55,23 @@
       "Can you distinguish the residual b minus A times x-hat from the unknown error x-star minus x-hat?",
       "Can you explain why a nearly singular matrix makes inverse recovery sensitive?"
     ]
-  }
+  },
+  "description": "Addresses topics from the lecture, including \"The exact relation between a residual and an error\"; \"Measuring how the problem amplifies changes\"; and \"Turn the residual into a relative error bound\".",
+  "tag_paths": [
+    [
+      "Mathematics",
+      "Linear algebra",
+      "Conditioning"
+    ],
+    [
+      "Mathematics",
+      "Linear algebra",
+      "Backward error"
+    ],
+    [
+      "Mathematics",
+      "Linear algebra",
+      "Residuals"
+    ]
+  ]
 }

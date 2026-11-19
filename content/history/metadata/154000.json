@@ -1397,7 +1397,6 @@
     "Year: 1865",
     "Year: 1867"
   ],
-  "description": "Follows Semmelweis through the maternity wards of Vienna, his evidence for hand disinfection, professional conflict and tragic later life; distinguishes the mortality findings from retrospective legends.",
   "content_recovery": {
     "date": "2026-11-18",
     "archive": "scientist-biography-154000-semmelweis-overlay.zip",
@@ -1407,5 +1406,13 @@
     "original_source_sha256": "c4a21530f3b107c1f57bbfa2fa4167b87a1f9910bf54a10fd890e6a440a7446d",
     "integration_model": "GPT-6 (Codex; weights/config variant unknown)",
     "scope": "Recover supplied source and metadata; preserve spoken prose. Remap colliding playback IDs and citation records without replacing existing lectures."
-  }
+  },
+  "tag_paths": [
+    [
+      "History",
+      "History of science",
+      "Scientific biography",
+      "Ignaz Semmelweis"
+    ]
+  ]
 }

@@ -328,5 +328,23 @@
       "source_locator": "Earley CACM 1970 title and abstract",
       "evidence_detail": "Published or established mathematical result with the specified source/teaching section; independently explained in the lecture. Earley CACM 1970 title and abstract"
     }
-  ]
+  ],
+  "tag_paths": [
+    [
+      "Mathematics",
+      "Theoretical computer science",
+      "Automata theory"
+    ],
+    [
+      "Mathematics",
+      "Theoretical computer science",
+      "Context-free languages"
+    ],
+    [
+      "Mathematics",
+      "Theoretical computer science",
+      "Pushdown automata"
+    ]
+  ],
+  "description": "Uses balanced parentheses and nested structure to show how a stack extends finite-state computation and leads to context-free languages."
 }

@@ -51,5 +51,23 @@
       "Can you distinguish an active constraint from a positive multiplier?",
       "Can you find a feasible direction that changes when an active set switches?"
     ]
-  }
+  },
+  "description": "Builds the local geometry of inequalities, calculate multipliers and critical directions, and distinguish valid active-set calculations from switches and degeneracy.",
+  "tag_paths": [
+    [
+      "Mathematics",
+      "Multivariable calculus",
+      "KKT conditions"
+    ],
+    [
+      "Mathematics",
+      "Multivariable calculus",
+      "Constrained optimization"
+    ],
+    [
+      "Mathematics",
+      "Multivariable calculus",
+      "Critical cones"
+    ]
+  ]
 }

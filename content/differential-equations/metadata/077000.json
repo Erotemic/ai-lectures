@@ -39,5 +39,23 @@
       "Compute the Lax-Wendroff pulse example and identify its new extrema.",
       "Explain why norm stability and positivity are different properties."
     ]
-  }
+  },
+  "description": "Develops error from a grid step, not from a physical process; measure the hidden diffusion; and why the Courant number one case looks special.",
+  "tag_paths": [
+    [
+      "Mathematics",
+      "Differential equations",
+      "Numerical diffusion"
+    ],
+    [
+      "Mathematics",
+      "Differential equations",
+      "Modified equations"
+    ],
+    [
+      "Mathematics",
+      "Differential equations",
+      "Lax-Wendroff"
+    ]
+  ]
 }

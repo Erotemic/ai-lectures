@@ -51,5 +51,23 @@
       "Can you explain why a local descent direction need not produce descent with a full step?",
       "Can you derive a stationarity equation after adding a quadratic penalty to a step?"
     ]
-  }
+  },
+  "description": "Shows why a plausible Gauss–Newton direction can fail, derive damped steps and trust-region acceptance, and distinguish step control from changing the fitted objective.",
+  "tag_paths": [
+    [
+      "Mathematics",
+      "Multivariable calculus",
+      "Levenberg–Marquardt"
+    ],
+    [
+      "Mathematics",
+      "Multivariable calculus",
+      "Trust regions"
+    ],
+    [
+      "Mathematics",
+      "Multivariable calculus",
+      "Nonlinear least squares"
+    ]
+  ]
 }

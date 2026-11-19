@@ -1287,9 +1287,9 @@
     "The Mathematical Theory of Black Holes (1983)",
     "Truth and Beauty (1987)",
     "Newton’s Principia for the Common Reader (1995)",
-    "Chandra X-ray Observatory"
+    "Chandra X-ray Observatory",
+    "Astronomy"
   ],
-  "description": "Follows Chandrasekhar from India through Cambridge to Chicago, explaining stellar degeneracy, the white-dwarf mass limit and the dispute with Eddington within a broader life of mathematical astrophysics.",
   "content_recovery": {
     "date": "2026-11-18",
     "archive": "scientist-biography-148000-chandrasekhar-overlay.zip",
@@ -1299,5 +1299,13 @@
     "original_source_sha256": "58854b7471c3b2200761fb396c0ce7b8482ae0952fb5d3da776f34b5143667ca",
     "integration_model": "GPT-6 (Codex; weights/config variant unknown)",
     "scope": "Recover supplied source and metadata; preserve spoken prose. Remap colliding playback IDs and citation records without replacing existing lectures."
-  }
+  },
+  "tag_paths": [
+    [
+      "History",
+      "History of science",
+      "Scientific biography",
+      "Subrahmanyan Chandrasekhar"
+    ]
+  ]
 }

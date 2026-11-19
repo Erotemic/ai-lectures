@@ -51,5 +51,23 @@
       "Can you distinguish an m-component residual vector from an n-component parameter vector?",
       "Can you differentiate half of a squared residual norm?"
     ]
-  }
+  },
+  "description": "Distinguishes the derivative of a residual vector from the derivative of its squared length; derive Gauss–Newton and identify the assumptions behind its success.",
+  "tag_paths": [
+    [
+      "Mathematics",
+      "Multivariable calculus",
+      "Nonlinear least squares"
+    ],
+    [
+      "Mathematics",
+      "Multivariable calculus",
+      "Gauss–Newton"
+    ],
+    [
+      "Mathematics",
+      "Multivariable calculus",
+      "Jacobian"
+    ]
+  ]
 }

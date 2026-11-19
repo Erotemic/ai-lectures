@@ -2,7 +2,6 @@
   "schema_version": 1,
   "lecture_id": "031000",
   "transcript": "031000-principal-components-from-covariance-to-low-rank.md",
-  "description": "Derives PCA as both maximum projected variance and minimum squared reconstruction error; discusses SVD, scaling, and instability.",
   "tags": [
     "Statistics",
     "Principal component analysis",
@@ -13,9 +12,17 @@
   "tag_paths": [
     [
       "Mathematics",
-      "Statistics",
-      "Multivariate statistics",
+      "Statistics"
+    ],
+    [
+      "Mathematics",
+      "Probability theory",
       "Principal component analysis"
+    ],
+    [
+      "Mathematics",
+      "Probability theory",
+      "Covariance matrices"
     ]
   ],
   "related_resources": [

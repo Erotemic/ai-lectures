@@ -20,5 +20,17 @@
       "reason": "Latency compensation and real-time buffering constraints."
     }
   ],
-  "historical_claims": []
+  "historical_claims": [],
+  "tags": [
+    "Routing and Dsp"
+  ],
+  "tag_paths": [
+    [
+      "Arts",
+      "Music",
+      "Music theory",
+      "Routing And Dsp"
+    ]
+  ],
+  "description": "Models audio mixing as a processing graph, connecting DawDreamer and Ardour workflows to plugin order, routing, and CPU costs."
 }

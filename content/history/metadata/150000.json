@@ -1411,9 +1411,9 @@
     "Nobel Prize in Physics (1974)",
     "Special Breakthrough Prize in Fundamental Physics (2018)",
     "Bell Burnell Graduate Scholarship Fund (2019)",
-    "Royal Society Copley Medal (2021)"
+    "Royal Society Copley Medal (2021)",
+    "Astronomy"
   ],
-  "description": "Follows Bell Burnell’s upbringing, radio-telescope work and recognition of pulsar signals, explaining instrumental evidence, the Nobel controversy and her later work on inclusion in science.",
   "content_recovery": {
     "date": "2026-11-18",
     "archive": "scientist-biography-150000-bell-burnell-overlay.zip",
@@ -1423,5 +1423,13 @@
     "original_source_sha256": "e4b07d3f559edcc17495c59529edb9b79aa17d7eaf9f7ba2ae5199b14880fad8",
     "integration_model": "GPT-6 (Codex; weights/config variant unknown)",
     "scope": "Recover supplied source and metadata; preserve spoken prose. Remap colliding playback IDs and citation records without replacing existing lectures."
-  }
+  },
+  "tag_paths": [
+    [
+      "History",
+      "History of science",
+      "Scientific biography",
+      "Jocelyn Bell Burnell"
+    ]
+  ]
 }

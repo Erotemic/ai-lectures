@@ -1240,9 +1240,9 @@
     "Place: Indian Ocean",
     "Place: Austria",
     "Place: South Nyack",
-    "Place: Washington, D.C."
+    "Place: Washington, D.C.",
+    "Natural history"
   ],
-  "description": "Follows Tharp’s training and mapping work with Bruce Heezen, explaining how sparse soundings, ocean-floor profiles and earthquake evidence revealed the mid-ocean ridge and rift valley.",
   "content_recovery": {
     "date": "2026-11-18",
     "archive": "scientist-biography-152000-marie-tharp-overlay.zip",
@@ -1252,5 +1252,13 @@
     "original_source_sha256": "6943233956b46453e2cb5ef55f424532a12bd4878aadd015370070a072f30d9b",
     "integration_model": "GPT-6 (Codex; weights/config variant unknown)",
     "scope": "Recover supplied source and metadata; preserve spoken prose. Remap colliding playback IDs and citation records without replacing existing lectures."
-  }
+  },
+  "tag_paths": [
+    [
+      "History",
+      "History of science",
+      "Scientific biography",
+      "Marie Tharp"
+    ]
+  ]
 }
