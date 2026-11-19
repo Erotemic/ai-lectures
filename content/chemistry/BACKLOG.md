@@ -1,17 +1,17 @@
 # Chemistry: future course development
 
-The chemistry pack now has forty-four indexed lectures, including the eight-lecture electronic matter and light unit. It covers bands, dopants, junctions, electroluminescence, photovoltaics, molecular excited states, photoredox chemistry and oxygenic photosynthesis.
+The chemistry pack now has fifty-three indexed lectures, including a nine-lecture bioinorganic chemistry and metabolic-reactions unit. It covers metal-cofactor roles, heme, iron-sulfur clusters, cobalamin, ATP coupling, NAD/NADP/flavins, enzyme mechanism evidence, nitrogenase and integrated respiration.
 
-## Priority next: biochemistry and molecular chemical systems
+## Priority next: selective synthesis, biological reaction networks and molecular structure
 
-- Biological reaction networks as coupled energy and electron-transfer systems: ATP, NADH/NADPH, enzyme mechanisms and metabolic redox (build on the existing Cell Biology and Genetics course without duplicating it).
-- Bioinorganic chemistry: metal cofactors, heme, iron–sulfur clusters, nitrogen fixation and why metal coordination enables chemistry biology cannot do with carbon alone.
-- Organic synthesis and selectivity: aromatic substitution, enolate chemistry, C–C bond construction and retrosynthetic reasoning, with extended worked cases rather than short disconnected surveys.
+- Organic synthesis and selectivity: aromatic substitution, enolate chemistry, carbon-carbon bond construction, protecting groups and retrosynthesis. Work through complete cases with mechanistic consequences instead of short lists.
+- Biological reaction networks: glycolysis and the citric acid cycle at the atom and electron level, carbon fixation across organisms, cofactor regeneration and metabolic flux. Avoid duplicating introductory cell-biology coverage.
+- Biochemical selectivity beyond this unit: zinc-dependent proteolysis, metallodrug mechanisms, radical SAM diversity, oxygen activation, and metal acquisition. Expand only where the mechanism provides a new idea.
 
-## Further analytical and materials depth
+## Further analytical, environmental and materials depth
 
-- Isotope-ratio methods and trace-element geochemistry; chemical imaging and spatial metrology; multivariate calibration with explicit leakage and uncertainty checks.
-- Batteries and electrochemical interfaces in greater depth than the introductory galvanic/electrolysis lectures.
-- Photochemical stability and environmental chemistry, connected to Earth's atmospheric oxidation without duplicating the Earth Systems course.
+- Isotope-ratio methods, environmental trace-element cycling and geochemical speciation.
+- Batteries and electrochemical interfaces beyond the introductory electrochemistry lectures.
+- Catalysis and surface chemistry, photochemical stability and environmental transformation pathways.
 
-Let explanatory need determine lecture length and the organization of future units. Add dates and places only for documented events actually discussed in the narration.
+Let explanatory need determine the length of each lecture. Add chronology and geography only for documented historical events actually discussed in narration. All future content packs should preserve existing stable lecture IDs and publish with --replace-owned for the exclusively owned Chemistry pack.

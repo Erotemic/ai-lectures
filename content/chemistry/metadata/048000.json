@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "lecture_id": "048000",
+  "transcript": "048000-the-cobalt-bond-that-can-break.md",
+  "description": "Contrasts methylcobalamin methyl transfer with adenosylcobalamin radical rearrangements, enzyme control of cobalt-carbon bond cleavage, and the necessity of B12 delivery and atom tracing.",
+  "tags": [
+    "Bioinorganic chemistry",
+    "Cobalamin",
+    "Vitamin B12",
+    "Cobalt",
+    "Corrin ring",
+    "Methylcobalamin",
+    "Adenosylcobalamin",
+    "Cobalt-carbon bond",
+    "Homolysis",
+    "Radicals",
+    "Methionine synthase",
+    "Methylmalonyl-CoA mutase",
+    "Methyl transfer",
+    "Radical rearrangement",
+    "Isotope tracing",
+    "Metabolism"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Chemistry",
+      "Cobalamin structure and cobalt-carbon bonding"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Methyl transfer versus radical rearrangement"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Enzyme selectivity and cofactor delivery"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "chem-bio-b122026",
+      "reason": "Cobalt-corrin cofactors, methylcobalamin and adenosylcobalamin mechanisms."
+    },
+    {
+      "source_id": "chem-bio-protein",
+      "reason": "Protein catalysis, molecular recognition and transition-state stabilization."
+    },
+    {
+      "source_id": "chem-bio-food",
+      "reason": "Glycolysis, carbon oxidation, ATP generation, reducing equivalents and metabolic balance."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "chem-048000-01",
+      "anchor": "In methylcobalamin, cobalt carries a methyl group",
+      "kind": "scientific_mechanism",
+      "source_ids": [
+        "chem-bio-b122026"
+      ],
+      "source_locator": "Methylcobalamin cofactor and methionine synthase.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-048000-02",
+      "anchor": "the cobalt-carbon bond can break homolytically",
+      "kind": "scientific_mechanism",
+      "source_ids": [
+        "chem-bio-b122026"
+      ],
+      "source_locator": "Adenosylcobalamin radical generation through Co-C homolysis.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-048000-03",
+      "anchor": "One of the classic examples is methylmalonyl-CoA mutase",
+      "kind": "scientific_mechanism",
+      "source_ids": [
+        "chem-bio-b122026"
+      ],
+      "source_locator": "Cobalamin-mediated radical rearrangement in metabolism.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-048000-04",
+      "anchor": "Some microbial enzymes combine B12-dependent chemistry with iron-sulfur clusters",
+      "kind": "scientific_mechanism",
+      "source_ids": [
+        "chem-bio-b122026"
+      ],
+      "source_locator": "B12 and radical SAM enzyme families.",
+      "audit_status": "reference_recorded"
+    }
+  ],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original bioinorganic chemistry and metabolic reaction lectures with source-linked scientific companions and navigation metadata."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Basic bonding, reaction free energy, acid-base and oxidation-reduction chemistry; specialized biological cofactors and protein mechanisms are introduced in the narration."
+    ],
+    "readiness_checks": [
+      "Why does radical chemistry require tight enzyme control?",
+      "What distinction separates methyl transfer from a radical rearrangement?"
+    ]
+  }
+}

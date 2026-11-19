@@ -1,0 +1,118 @@
+{
+  "schema_version": 1,
+  "lecture_id": "052000",
+  "transcript": "052000-the-enzyme-that-fixes-the-air.md",
+  "description": "Develops the nitrogen triple-bond problem, Fe protein/MoFe protein/cofactor roles, eight-electron and sixteen-ATP turnover accounting, oxygen protection, symbiosis, isotopic tracing, and mechanistic uncertainties.",
+  "tags": [
+    "Bioinorganic chemistry",
+    "Nitrogen fixation",
+    "Nitrogenase",
+    "Dinitrogen",
+    "Ammonia",
+    "Molybdenum",
+    "FeMo-cofactor",
+    "Iron-sulfur clusters",
+    "Fe protein",
+    "MoFe protein",
+    "ATP hydrolysis",
+    "Hydrogen evolution",
+    "Legume nodules",
+    "Leghemoglobin",
+    "Isotope tracing",
+    "Nitrogen cycle",
+    "Haber-Bosch"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Chemistry",
+      "Chemical difficulty of nitrogen reduction"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Nitrogenase cofactors, electron and ATP budgets"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Oxygen sensitivity and microbial ecology"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "chem-bio-nittransfer",
+      "reason": "Nitrogenase ATP coupling and FeMo active site, uncertainty in catalytic mechanism."
+    },
+    {
+      "source_id": "chem-bio-nitenergy",
+      "reason": "Fe protein cycle and energy-dependent transfers, customary turnover stoichiometry."
+    },
+    {
+      "source_id": "chem-bio-nitlowpotential",
+      "reason": "Nitrogenase electron sources, FeMo cofactor architecture and oxygen sensitivity."
+    },
+    {
+      "source_id": "chem-bio-nitHD",
+      "reason": "Nitrogenase N2 and H2 chemistry and open mechanistic questions."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "chem-052000-01",
+      "anchor": "The Fe protein contains an iron-sulfur cluster and binds ATP",
+      "kind": "scientific_mechanism",
+      "source_ids": [
+        "chem-bio-nittransfer"
+      ],
+      "source_locator": "Electron delivery from Fe protein to MoFe cofactor.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-052000-02",
+      "anchor": "about sixteen ATP molecules hydrolyzed",
+      "kind": "scientific_mechanism",
+      "source_ids": [
+        "chem-bio-nitenergy"
+      ],
+      "source_locator": "Customary Mo nitrogenase turnover stoichiometry.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-052000-03",
+      "anchor": "Some microorganisms can employ vanadium-dependent or iron-only nitrogenases",
+      "kind": "scientific_mechanism",
+      "source_ids": [
+        "chem-bio-nitlowpotential"
+      ],
+      "source_locator": "Alternative metal-dependent nitrogenase systems.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-052000-04",
+      "anchor": "The exact molecular sequence for every intermediate in nitrogen reduction remains an active subject",
+      "kind": "scientific_mechanism",
+      "source_ids": [
+        "chem-bio-nitHD"
+      ],
+      "source_locator": "Published uncertainties in detailed catalytic intermediates.",
+      "audit_status": "reference_recorded"
+    }
+  ],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original bioinorganic chemistry and metabolic reaction lectures with source-linked scientific companions and navigation metadata."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Basic bonding, reaction free energy, acid-base and oxidation-reduction chemistry; specialized biological cofactors and protein mechanisms are introduced in the narration."
+    ],
+    "readiness_checks": [
+      "Why is hydrogen generated in the common nitrogenase stoichiometry?",
+      "What would labeled nitrogen gas reveal in a fixation experiment?"
+    ]
+  }
+}

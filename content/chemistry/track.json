@@ -1,7 +1,7 @@
 {
   "id": "chemistry",
   "title": "Chemistry: From Atoms to Reactions",
-  "summary": "Audio-first chemistry from atomic structure, reactions and molecular mechanisms through chemical measurement, materials and electronic solids to semiconductors, solar cells, light-emitting devices, molecular excited states, photocatalysis and photosynthesis. Each lecture has a scientific companion and source-linked claims.",
+  "summary": "Audio-first chemistry from atomic structure, reactions, organic and analytical methods to materials, electronic solids, photochemistry, metal cofactors and metabolic networks. The bioinorganic unit develops heme, iron-sulfur centers, cobalamin, ATP, redox carriers, nitrogenase and respiration. Each lecture includes a scientific companion and source-linked claims.",
   "categories": [
     "Science and nature"
   ],
@@ -62,7 +62,19 @@
     "Photochemistry",
     "Photoredox catalysis",
     "Quantum yield",
-    "Photosynthesis"
+    "Photosynthesis",
+    "Bioinorganic chemistry",
+    "Biological metal cofactors",
+    "Metalloproteins",
+    "Heme",
+    "Iron-sulfur clusters",
+    "Cobalamin",
+    "ATP coupling",
+    "Metabolic electron transfer",
+    "Enzyme catalysis",
+    "Nitrogen fixation",
+    "Oxidative phosphorylation",
+    "Cellular respiration"
   ],
   "tag_paths": [
     [
@@ -121,7 +133,16 @@
     "photovoltaic_chemistry",
     "molecular_photophysics",
     "photoredox_chemistry",
-    "photosynthetic_photochemistry"
+    "photosynthetic_photochemistry",
+    "biological_metal_coordination",
+    "heme_oxygen_chemistry",
+    "iron_sulfur_electron_chemistry",
+    "cobalamin_radical_chemistry",
+    "atp_energy_coupling",
+    "metabolic_redox_carriers",
+    "enzyme_mechanism_proof",
+    "nitrogenase_biochemistry",
+    "integrated_respiration"
   ],
   "lectures": [
     {
@@ -2561,6 +2582,415 @@
           "Science",
           "Chemistry",
           "ATP, NADPH and carbon fixation"
+        ]
+      ]
+    },
+    {
+      "id": "045000",
+      "title": "When a Protein Borrows a Metal: The Chemistry of Biological Cofactors",
+      "section": "biological_metal_coordination",
+      "file": "045000-when-a-protein-borrows-a-metal.md",
+      "spoken_words": 1612,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 11.1,
+      "description": "Explains why proteins recruit and regulate metals, ligand and coordination chemistry, zinc Lewis acid catalysis, magnesium-ATP, iron and copper redox, and the evidence needed to assign a metal mechanism.",
+      "tags": [
+        "Bioinorganic chemistry",
+        "Metalloproteins",
+        "Coordination chemistry",
+        "Protein ligands",
+        "Metal cofactors",
+        "Zinc",
+        "Carbonic anhydrase",
+        "Hydrolysis",
+        "Magnesium",
+        "ATP complexes",
+        "Iron",
+        "Copper",
+        "Redox catalysis",
+        "Metal homeostasis",
+        "Lewis acids",
+        "Mismetallation",
+        "Spectroscopy"
+      ],
+      "tag_paths": [
+        [
+          "Science",
+          "Chemistry",
+          "Protein metal sites and coordination chemistry"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Zinc, magnesium and enzyme acid-base chemistry"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Iron, copper and metal homeostasis"
+        ]
+      ]
+    },
+    {
+      "id": "046000",
+      "title": "The Iron Ring That Handles Oxygen: Heme, Hemoglobin, and Cytochromes",
+      "section": "heme_oxygen_chemistry",
+      "file": "046000-the-iron-ring-that-handles-oxygen.md",
+      "spoken_words": 1524,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 10.5,
+      "description": "Develops heme coordination, myoglobin versus cooperative hemoglobin binding, the Bohr effect, ferric methemoglobin, and the distinct electron-transfer jobs of cytochromes.",
+      "tags": [
+        "Heme",
+        "Hemoglobin",
+        "Myoglobin",
+        "Porphyrin",
+        "Iron",
+        "Oxygen binding",
+        "Partial pressure",
+        "Cooperativity",
+        "Allostery",
+        "Bohr effect",
+        "pH",
+        "Carbon dioxide",
+        "Cytochromes",
+        "Methemoglobin",
+        "Carbon monoxide",
+        "Ligand equilibrium",
+        "Oxygen transport"
+      ],
+      "tag_paths": [
+        [
+          "Science",
+          "Chemistry",
+          "Heme coordination and reversible oxygen binding"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Myoglobin, hemoglobin and cooperativity"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Bohr effect, cytochromes and chemical selectivity"
+        ]
+      ]
+    },
+    {
+      "id": "047000",
+      "title": "Tiny Clusters, Long Electron Journeys: Iron-Sulfur Chemistry",
+      "section": "iron_sulfur_electron_chemistry",
+      "file": "047000-tiny-clusters-long-electron-journeys.md",
+      "spoken_words": 1460,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 10.1,
+      "description": "Shows how iron-sulfur clusters exchange electrons, how protein environments tune potentials and distances, and how complex I, ferredoxins, assembly systems, and spectroscopy reveal their functions.",
+      "tags": [
+        "Bioinorganic chemistry",
+        "Iron-sulfur clusters",
+        "[2Fe-2S]",
+        "[4Fe-4S]",
+        "Ferredoxin",
+        "Redox potentials",
+        "Nernst equation",
+        "Electron transfer",
+        "Electron tunneling",
+        "Complex I",
+        "Respiration",
+        "Photosynthesis",
+        "Cluster assembly",
+        "Metallocofactors",
+        "Electron paramagnetic resonance"
+      ],
+      "tag_paths": [
+        [
+          "Science",
+          "Chemistry",
+          "Iron-sulfur structures and redox tuning"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Electron transfer through proteins and complex I"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Ferredoxins, assembly and oxygen sensitivity"
+        ]
+      ]
+    },
+    {
+      "id": "048000",
+      "title": "The Cobalt Bond That Can Break: Vitamin B12 and Radical Chemistry",
+      "section": "cobalamin_radical_chemistry",
+      "file": "048000-the-cobalt-bond-that-can-break.md",
+      "spoken_words": 1441,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 9.9,
+      "description": "Contrasts methylcobalamin methyl transfer with adenosylcobalamin radical rearrangements, enzyme control of cobalt-carbon bond cleavage, and the necessity of B12 delivery and atom tracing.",
+      "tags": [
+        "Bioinorganic chemistry",
+        "Cobalamin",
+        "Vitamin B12",
+        "Cobalt",
+        "Corrin ring",
+        "Methylcobalamin",
+        "Adenosylcobalamin",
+        "Cobalt-carbon bond",
+        "Homolysis",
+        "Radicals",
+        "Methionine synthase",
+        "Methylmalonyl-CoA mutase",
+        "Methyl transfer",
+        "Radical rearrangement",
+        "Isotope tracing",
+        "Metabolism"
+      ],
+      "tag_paths": [
+        [
+          "Science",
+          "Chemistry",
+          "Cobalamin structure and cobalt-carbon bonding"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Methyl transfer versus radical rearrangement"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Enzyme selectivity and cofactor delivery"
+        ]
+      ]
+    },
+    {
+      "id": "049000",
+      "title": "ATP Is a Chemical Transaction: Coupling Work to Reactions",
+      "section": "atp_energy_coupling",
+      "file": "049000-atp-is-a-chemical-transaction.md",
+      "spoken_words": 1491,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 10.3,
+      "description": "Distinguishes ATP hydrolysis free energy from bond cleavage, derives real reaction coupling, compares kinase transfer, ATP-to-AMP activation, substrate-level phosphorylation, and proton-gradient-driven ATP synthase.",
+      "tags": [
+        "ATP",
+        "ADP",
+        "Phosphate",
+        "Free energy",
+        "Reaction coupling",
+        "Thermodynamics",
+        "ATP hydrolysis",
+        "Phosphoryl transfer",
+        "Magnesium",
+        "Hexokinase",
+        "Substrate-level phosphorylation",
+        "ATP synthase",
+        "Proton motive force",
+        "Chemiosmosis",
+        "Bioenergetics",
+        "Energy metabolism"
+      ],
+      "tag_paths": [
+        [
+          "Science",
+          "Chemistry",
+          "ATP hydrolysis and actual reaction free energy"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Phosphoryl transfer and chemical coupling"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Proton gradients and ATP synthase"
+        ]
+      ]
+    },
+    {
+      "id": "050000",
+      "title": "The Two Ledgers of Electrons: NADH, NADPH, and Flavins",
+      "section": "metabolic_redox_carriers",
+      "file": "050000-the-two-ledgers-of-electrons.md",
+      "spoken_words": 1429,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 9.9,
+      "description": "Follows hydride transfer through NADH and NADPH, distinct redox-pool ratios, flavin one- and two-electron chemistry, NAD regeneration in fermentation, and metabolic balancing.",
+      "tags": [
+        "Metabolic chemistry",
+        "NADH",
+        "NADPH",
+        "NAD+",
+        "NADP+",
+        "Hydride transfer",
+        "FAD",
+        "FMN",
+        "Flavin semiquinone",
+        "Dehydrogenases",
+        "Redox pools",
+        "Nernst equation",
+        "Electron balance",
+        "Pentose phosphate pathway",
+        "Glutathione",
+        "Fermentation",
+        "Biosynthesis"
+      ],
+      "tag_paths": [
+        [
+          "Science",
+          "Chemistry",
+          "Hydride transfer and NAD versus NADP specificity"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "NADPH biosynthesis and antioxidant cycles"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Flavins, electron coupling and regeneration"
+        ]
+      ]
+    },
+    {
+      "id": "051000",
+      "title": "How Enzymes Change the Route: Binding, Barriers, and Mechanistic Proof",
+      "section": "enzyme_mechanism_proof",
+      "file": "051000-how-enzymes-change-the-route.md",
+      "spoken_words": 1564,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 10.8,
+      "description": "Introduces activation free energy, catalytic cycles, Michaelis-Menten assumptions, metal and covalent catalysis, and how rate curves, isotope effects, mutants, and structures support mechanistic claims.",
+      "tags": [
+        "Enzymes",
+        "Transition state",
+        "Activation free energy",
+        "Catalysis",
+        "Michaelis-Menten",
+        "Km",
+        "kcat",
+        "Active site",
+        "Acid-base catalysis",
+        "Covalent catalysis",
+        "Metalloproteases",
+        "Zinc",
+        "Kinetic isotope effect",
+        "Site-directed mutagenesis",
+        "Mechanistic evidence",
+        "Detailed balance"
+      ],
+      "tag_paths": [
+        [
+          "Science",
+          "Chemistry",
+          "Catalytic cycles and rate limitation"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Michaelis-Menten models and mechanism limits"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Metallocatalysis, isotope effects and evidence"
+        ]
+      ]
+    },
+    {
+      "id": "052000",
+      "title": "The Enzyme That Fixes the Air: Nitrogenase and the Cost of a Bond",
+      "section": "nitrogenase_biochemistry",
+      "file": "052000-the-enzyme-that-fixes-the-air.md",
+      "spoken_words": 1510,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 10.4,
+      "description": "Develops the nitrogen triple-bond problem, Fe protein/MoFe protein/cofactor roles, eight-electron and sixteen-ATP turnover accounting, oxygen protection, symbiosis, isotopic tracing, and mechanistic uncertainties.",
+      "tags": [
+        "Bioinorganic chemistry",
+        "Nitrogen fixation",
+        "Nitrogenase",
+        "Dinitrogen",
+        "Ammonia",
+        "Molybdenum",
+        "FeMo-cofactor",
+        "Iron-sulfur clusters",
+        "Fe protein",
+        "MoFe protein",
+        "ATP hydrolysis",
+        "Hydrogen evolution",
+        "Legume nodules",
+        "Leghemoglobin",
+        "Isotope tracing",
+        "Nitrogen cycle",
+        "Haber-Bosch"
+      ],
+      "tag_paths": [
+        [
+          "Science",
+          "Chemistry",
+          "Chemical difficulty of nitrogen reduction"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Nitrogenase cofactors, electron and ATP budgets"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Oxygen sensitivity and microbial ecology"
+        ]
+      ]
+    },
+    {
+      "id": "053000",
+      "title": "How Cells Close the Electron Circuit: Respiration, Protons, and Oxygen",
+      "section": "integrated_respiration",
+      "file": "053000-how-cells-close-the-electron-circuit.md",
+      "spoken_words": 1562,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 10.8,
+      "description": "Integrates food oxidation, NADH and flavins, Fe-S and heme relays, quinones, respiratory complexes, terminal oxygen reduction, the proton gradient, ATP production and failure modes.",
+      "tags": [
+        "Cellular respiration",
+        "Oxidative phosphorylation",
+        "Complex I",
+        "Complex II",
+        "Complex III",
+        "Complex IV",
+        "Ubiquinone",
+        "Cytochrome c",
+        "Iron-sulfur clusters",
+        "Heme",
+        "Copper",
+        "Oxygen reduction",
+        "Proton motive force",
+        "ATP synthase",
+        "Reactive oxygen species",
+        "Electron acceptors",
+        "Energy coupling"
+      ],
+      "tag_paths": [
+        [
+          "Science",
+          "Chemistry",
+          "Electron sources, carriers and respiratory complexes"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Oxygen reduction and proton coupling"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "ATP yield, uncoupling and alternative respiration"
         ]
       ]
     }

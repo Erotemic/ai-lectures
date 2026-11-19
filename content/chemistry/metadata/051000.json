@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "lecture_id": "051000",
+  "transcript": "051000-how-enzymes-change-the-route.md",
+  "description": "Introduces activation free energy, catalytic cycles, Michaelis-Menten assumptions, metal and covalent catalysis, and how rate curves, isotope effects, mutants, and structures support mechanistic claims.",
+  "tags": [
+    "Enzymes",
+    "Transition state",
+    "Activation free energy",
+    "Catalysis",
+    "Michaelis-Menten",
+    "Km",
+    "kcat",
+    "Active site",
+    "Acid-base catalysis",
+    "Covalent catalysis",
+    "Metalloproteases",
+    "Zinc",
+    "Kinetic isotope effect",
+    "Site-directed mutagenesis",
+    "Mechanistic evidence",
+    "Detailed balance"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Chemistry",
+      "Catalytic cycles and rate limitation"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Michaelis-Menten models and mechanism limits"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Metallocatalysis, isotope effects and evidence"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "chem-bio-enzymes",
+      "reason": "Enzyme rate models, active sites, catalytic barriers and Michaelis-Menten kinetics."
+    },
+    {
+      "source_id": "chem-bio-protein",
+      "reason": "Protein catalysis, molecular recognition and transition-state stabilization."
+    },
+    {
+      "source_id": "chem-bio-catalysis",
+      "reason": "ATP and redox carriers, metabolic coupling and reaction energy conservation."
+    },
+    {
+      "source_id": "chem-bio-metals",
+      "reason": "Protein metal-binding sites, redox versus Lewis acid catalysis and metal-dependent enzyme functions."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "chem-051000-01",
+      "anchor": "An enzyme can lower the relevant activation free energy",
+      "kind": "scientific_mechanism",
+      "source_ids": [
+        "chem-bio-enzymes"
+      ],
+      "source_locator": "Catalysis changes reaction rate through alternative lower-barrier paths.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-051000-02",
+      "anchor": "The parameter called K M",
+      "kind": "scientific_mechanism",
+      "source_ids": [
+        "chem-bio-enzymes"
+      ],
+      "source_locator": "Michaelis parameter is not generally identical to substrate binding Kd.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-051000-03",
+      "anchor": "Some metalloproteases instead use a metal ion",
+      "kind": "scientific_mechanism",
+      "source_ids": [
+        "chem-bio-metals"
+      ],
+      "source_locator": "Metal-assisted hydrolysis distinguished from serine-protease mechanism.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-051000-04",
+      "anchor": "The best mechanistic conclusions survive several independent tests",
+      "kind": "scientific_mechanism",
+      "source_ids": [
+        "chem-bio-protein"
+      ],
+      "source_locator": "Independent kinetic, structural and chemical evidence for enzyme mechanism.",
+      "audit_status": "reference_recorded"
+    }
+  ],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original bioinorganic chemistry and metabolic reaction lectures with source-linked scientific companions and navigation metadata."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Basic bonding, reaction free energy, acid-base and oxidation-reduction chemistry; specialized biological cofactors and protein mechanisms are introduced in the narration."
+    ],
+    "readiness_checks": [
+      "Why is KM not generally a pure binding affinity?",
+      "Why does an inactive mutant not prove a single catalytic assignment?"
+    ]
+  }
+}

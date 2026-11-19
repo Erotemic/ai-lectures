@@ -1,0 +1,118 @@
+{
+  "schema_version": 1,
+  "lecture_id": "046000",
+  "transcript": "046000-the-iron-ring-that-handles-oxygen.md",
+  "description": "Develops heme coordination, myoglobin versus cooperative hemoglobin binding, the Bohr effect, ferric methemoglobin, and the distinct electron-transfer jobs of cytochromes.",
+  "tags": [
+    "Heme",
+    "Hemoglobin",
+    "Myoglobin",
+    "Porphyrin",
+    "Iron",
+    "Oxygen binding",
+    "Partial pressure",
+    "Cooperativity",
+    "Allostery",
+    "Bohr effect",
+    "pH",
+    "Carbon dioxide",
+    "Cytochromes",
+    "Methemoglobin",
+    "Carbon monoxide",
+    "Ligand equilibrium",
+    "Oxygen transport"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Chemistry",
+      "Heme coordination and reversible oxygen binding"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Myoglobin, hemoglobin and cooperativity"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Bohr effect, cytochromes and chemical selectivity"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "chem-bio-bohr",
+      "reason": "Hemoglobin cooperativity and changes in oxygen affinity with pH and carbon dioxide."
+    },
+    {
+      "source_id": "chem-bio-oxycurve",
+      "reason": "Oxygen saturation curves, conformational transitions and physiological oxygen delivery."
+    },
+    {
+      "source_id": "chem-bio-chain",
+      "reason": "Mitochondrial complexes, cofactors, proton pumps, cytochrome c and ATP synthase."
+    },
+    {
+      "source_id": "chem-bio-metals",
+      "reason": "Protein metal-binding sites, redox versus Lewis acid catalysis and metal-dependent enzyme functions."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "chem-046000-01",
+      "anchor": "adult human hemoglobin usually contains four protein subunits",
+      "kind": "scientific_mechanism",
+      "source_ids": [
+        "chem-bio-oxycurve"
+      ],
+      "source_locator": "Tetrameric hemoglobin and cooperative oxygen occupancy.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-046000-02",
+      "anchor": "The relationship involves linked equilibria among oxygen binding",
+      "kind": "scientific_mechanism",
+      "source_ids": [
+        "chem-bio-bohr"
+      ],
+      "source_locator": "pH and CO2 changes to hemoglobin oxygen affinity.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-046000-03",
+      "anchor": "In cytochromes, related heme centers act as electron-transfer stations",
+      "kind": "scientific_mechanism",
+      "source_ids": [
+        "chem-bio-chain"
+      ],
+      "source_locator": "Heme centers in the respiratory electron-transfer chain.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-046000-04",
+      "anchor": "A binding curve reports equilibrium behavior",
+      "kind": "scientific_mechanism",
+      "source_ids": [
+        "chem-bio-oxycurve"
+      ],
+      "source_locator": "Distinguishing binding measurements from structural and rate evidence.",
+      "audit_status": "reference_recorded"
+    }
+  ],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original bioinorganic chemistry and metabolic reaction lectures with source-linked scientific companions and navigation metadata."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Basic bonding, reaction free energy, acid-base and oxidation-reduction chemistry; specialized biological cofactors and protein mechanisms are introduced in the narration."
+    ],
+    "readiness_checks": [
+      "Why does a blood oxygen carrier need to release rather than only bind oxygen?",
+      "How do heme electron-transfer functions differ from heme oxygen binding?"
+    ]
+  }
+}

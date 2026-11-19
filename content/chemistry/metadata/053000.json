@@ -1,0 +1,118 @@
+{
+  "schema_version": 1,
+  "lecture_id": "053000",
+  "transcript": "053000-how-cells-close-the-electron-circuit.md",
+  "description": "Integrates food oxidation, NADH and flavins, Fe-S and heme relays, quinones, respiratory complexes, terminal oxygen reduction, the proton gradient, ATP production and failure modes.",
+  "tags": [
+    "Cellular respiration",
+    "Oxidative phosphorylation",
+    "Complex I",
+    "Complex II",
+    "Complex III",
+    "Complex IV",
+    "Ubiquinone",
+    "Cytochrome c",
+    "Iron-sulfur clusters",
+    "Heme",
+    "Copper",
+    "Oxygen reduction",
+    "Proton motive force",
+    "ATP synthase",
+    "Reactive oxygen species",
+    "Electron acceptors",
+    "Energy coupling"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Chemistry",
+      "Electron sources, carriers and respiratory complexes"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Oxygen reduction and proton coupling"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "ATP yield, uncoupling and alternative respiration"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "chem-bio-chain",
+      "reason": "Mitochondrial complexes, cofactors, proton pumps, cytochrome c and ATP synthase."
+    },
+    {
+      "source_id": "chem-bio-mito",
+      "reason": "Proton motive force, ATP synthase and directionality."
+    },
+    {
+      "source_id": "chem-bio-etc",
+      "reason": "NADH, FAD, mitochondrial redox, typical proton budgets and approximate ATP yields."
+    },
+    {
+      "source_id": "chem-bio-food",
+      "reason": "Glycolysis, carbon oxidation, ATP generation, reducing equivalents and metabolic balance."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "chem-053000-01",
+      "anchor": "Complex two supplies another entry route into the ubiquinone pool",
+      "kind": "scientific_mechanism",
+      "source_ids": [
+        "chem-bio-chain"
+      ],
+      "source_locator": "Complex II bypasses complex I proton pumping.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-053000-02",
+      "anchor": "This final oxidase contains heme and copper centers and reduces molecular oxygen to water",
+      "kind": "scientific_mechanism",
+      "source_ids": [
+        "chem-bio-chain"
+      ],
+      "source_locator": "Cytochrome c oxidase as terminal oxygen reductase.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-053000-03",
+      "anchor": "Complexes one, three, and four contribute to establishing a proton electrochemical gradient",
+      "kind": "scientific_mechanism",
+      "source_ids": [
+        "chem-bio-chain"
+      ],
+      "source_locator": "Respiratory proton-pumping complexes.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-053000-04",
+      "anchor": "A classroom number of ATP molecules per glucose can be a useful approximation",
+      "kind": "scientific_mechanism",
+      "source_ids": [
+        "chem-bio-etc"
+      ],
+      "source_locator": "P/O ratios and limits of universal ATP yield claims.",
+      "audit_status": "reference_recorded"
+    }
+  ],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original bioinorganic chemistry and metabolic reaction lectures with source-linked scientific companions and navigation metadata."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Basic bonding, reaction free energy, acid-base and oxidation-reduction chemistry; specialized biological cofactors and protein mechanisms are introduced in the narration."
+    ],
+    "readiness_checks": [
+      "Why does the electron entry point affect ATP yield?",
+      "What distinguishes respiratory inhibition from uncoupling?"
+    ]
+  }
+}

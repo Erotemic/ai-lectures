@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "lecture_id": "047000",
+  "transcript": "047000-tiny-clusters-long-electron-journeys.md",
+  "description": "Shows how iron-sulfur clusters exchange electrons, how protein environments tune potentials and distances, and how complex I, ferredoxins, assembly systems, and spectroscopy reveal their functions.",
+  "tags": [
+    "Bioinorganic chemistry",
+    "Iron-sulfur clusters",
+    "[2Fe-2S]",
+    "[4Fe-4S]",
+    "Ferredoxin",
+    "Redox potentials",
+    "Nernst equation",
+    "Electron transfer",
+    "Electron tunneling",
+    "Complex I",
+    "Respiration",
+    "Photosynthesis",
+    "Cluster assembly",
+    "Metallocofactors",
+    "Electron paramagnetic resonance"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Chemistry",
+      "Iron-sulfur structures and redox tuning"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Electron transfer through proteins and complex I"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Ferredoxins, assembly and oxygen sensitivity"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "chem-bio-ironsulfur2024",
+      "reason": "Iron-sulfur cluster roles, diverse ligation and redox potentials, biogenesis and vulnerability."
+    },
+    {
+      "source_id": "chem-bio-ironsulfurplastid",
+      "reason": "Iron-sulfur cluster compositions, coordination, assembly and photosynthetic electron transfer."
+    },
+    {
+      "source_id": "chem-bio-ironsulfur2025",
+      "reason": "Electronic states and magnetic complexity of biological iron-sulfur centers."
+    },
+    {
+      "source_id": "chem-bio-chain",
+      "reason": "Mitochondrial complexes, cofactors, proton pumps, cytochrome c and ATP synthase."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "chem-047000-01",
+      "anchor": "A major component of this system is the iron-sulfur cluster",
+      "kind": "scientific_mechanism",
+      "source_ids": [
+        "chem-bio-ironsulfur2024"
+      ],
+      "source_locator": "Biological prevalence and diverse Fe-S architectures.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-047000-02",
+      "anchor": "Different proteins tune closely related clusters to operate at widely different potentials",
+      "kind": "scientific_mechanism",
+      "source_ids": [
+        "chem-bio-ironsulfur2024"
+      ],
+      "source_locator": "Protein-ligand effects on cluster redox ranges.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-047000-03",
+      "anchor": "Between those endpoints is a chain containing multiple iron-sulfur centers",
+      "kind": "scientific_mechanism",
+      "source_ids": [
+        "chem-bio-chain"
+      ],
+      "source_locator": "Iron-sulfur relay in mitochondrial complex I.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-047000-04",
+      "anchor": "Cells use organized assembly machinery",
+      "kind": "scientific_mechanism",
+      "source_ids": [
+        "chem-bio-ironsulfurplastid"
+      ],
+      "source_locator": "Dedicated Fe-S cluster biosynthesis and transport.",
+      "audit_status": "reference_recorded"
+    }
+  ],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original bioinorganic chemistry and metabolic reaction lectures with source-linked scientific companions and navigation metadata."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Basic bonding, reaction free energy, acid-base and oxidation-reduction chemistry; specialized biological cofactors and protein mechanisms are introduced in the narration."
+    ],
+    "readiness_checks": [
+      "Why is a cluster reduction potential a property of its protein environment?",
+      "How does an electron relay differ from a proton pump?"
+    ]
+  }
+}

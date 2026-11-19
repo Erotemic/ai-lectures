@@ -1,0 +1,118 @@
+{
+  "schema_version": 1,
+  "lecture_id": "050000",
+  "transcript": "050000-the-two-ledgers-of-electrons.md",
+  "description": "Follows hydride transfer through NADH and NADPH, distinct redox-pool ratios, flavin one- and two-electron chemistry, NAD regeneration in fermentation, and metabolic balancing.",
+  "tags": [
+    "Metabolic chemistry",
+    "NADH",
+    "NADPH",
+    "NAD+",
+    "NADP+",
+    "Hydride transfer",
+    "FAD",
+    "FMN",
+    "Flavin semiquinone",
+    "Dehydrogenases",
+    "Redox pools",
+    "Nernst equation",
+    "Electron balance",
+    "Pentose phosphate pathway",
+    "Glutathione",
+    "Fermentation",
+    "Biosynthesis"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Chemistry",
+      "Hydride transfer and NAD versus NADP specificity"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "NADPH biosynthesis and antioxidant cycles"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Flavins, electron coupling and regeneration"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "chem-bio-food",
+      "reason": "Glycolysis, carbon oxidation, ATP generation, reducing equivalents and metabolic balance."
+    },
+    {
+      "source_id": "chem-bio-etc",
+      "reason": "NADH, FAD, mitochondrial redox, typical proton budgets and approximate ATP yields."
+    },
+    {
+      "source_id": "chem-bio-catalysis",
+      "reason": "ATP and redox carriers, metabolic coupling and reaction energy conservation."
+    },
+    {
+      "source_id": "chem-bio-chain",
+      "reason": "Mitochondrial complexes, cofactors, proton pumps, cytochrome c and ATP synthase."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "chem-050000-01",
+      "anchor": "That extra phosphate does not greatly change the fundamental hydride chemistry",
+      "kind": "scientific_mechanism",
+      "source_ids": [
+        "chem-bio-catalysis"
+      ],
+      "source_locator": "Biochemical cofactor recognition and distinct NAD/NADP networks.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-050000-02",
+      "anchor": "Two copies of the same redox cofactor in different compartments",
+      "kind": "scientific_mechanism",
+      "source_ids": [
+        "chem-bio-etc"
+      ],
+      "source_locator": "Redox potential and oxidized/reduced pool ratios.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-050000-03",
+      "anchor": "Flavins can participate in one-electron as well as two-electron transformations",
+      "kind": "scientific_mechanism",
+      "source_ids": [
+        "chem-bio-chain"
+      ],
+      "source_locator": "Flavin links between two-electron and one-electron carriers.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-050000-04",
+      "anchor": "Fermentation is not just a primitive version of breathing",
+      "kind": "scientific_mechanism",
+      "source_ids": [
+        "chem-bio-food"
+      ],
+      "source_locator": "Fermentative regeneration of oxidized metabolic cofactors.",
+      "audit_status": "reference_recorded"
+    }
+  ],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original bioinorganic chemistry and metabolic reaction lectures with source-linked scientific companions and navigation metadata."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Basic bonding, reaction free energy, acid-base and oxidation-reduction chemistry; specialized biological cofactors and protein mechanisms are introduced in the narration."
+    ],
+    "readiness_checks": [
+      "Why can NADH and NADPH be chemically related but functionally separate?",
+      "How does a flavin bridge two-electron and one-electron reactions?"
+    ]
+  }
+}

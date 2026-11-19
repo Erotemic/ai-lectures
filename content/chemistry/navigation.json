@@ -8,7 +8,7 @@
       "categories": [
         "Science and nature"
       ],
-      "summary": "Forty-four audio lectures connecting chemical foundations, organic and analytical evidence, material structure and processing, semiconductors, optoelectronic devices and light-driven chemistry.",
+      "summary": "Fifty-three audio lectures connecting chemical foundations and mechanisms to measurement, materials, light-driven reactions, metalloproteins and metabolic electron-and-energy networks.",
       "tags": [
         "Chemistry",
         "Chemical foundations",
@@ -208,6 +208,45 @@
             "044000"
           ],
           "collection": "photocatalysis-and-photosynthesis"
+        },
+        {
+          "title": "Why Proteins Recruit Metals",
+          "lectures": [
+            "045000",
+            "046000"
+          ],
+          "collection": "bio-metals-and-heme"
+        },
+        {
+          "title": "Clusters and the Cobalt Bond",
+          "lectures": [
+            "047000",
+            "048000"
+          ],
+          "collection": "bio-clusters-and-cobalamin"
+        },
+        {
+          "title": "Chemical Energy and Electron Ledgers",
+          "lectures": [
+            "049000",
+            "050000"
+          ],
+          "collection": "bio-atp-and-redox"
+        },
+        {
+          "title": "Mechanistic Tests and a Nitrogen Challenge",
+          "lectures": [
+            "051000",
+            "052000"
+          ],
+          "collection": "bio-enzyme-and-nitrogenase"
+        },
+        {
+          "title": "The Complete Respiratory Circuit",
+          "lectures": [
+            "053000"
+          ],
+          "collection": "bio-respiratory-circuit"
         }
       ]
     },
@@ -536,6 +575,85 @@
       "lectures": [
         "043000",
         "044000"
+      ]
+    },
+    {
+      "id": "bio-metals-and-heme",
+      "title": "Chemistry · Biological Metals and the Chemistry of Heme",
+      "role": "deep_dive",
+      "parent": "chemistry-foundations",
+      "summary": "From metal ion coordination to protein-mediated oxygen binding and heme electron chemistry.",
+      "tags": [
+        "Metal cofactors",
+        "Heme",
+        "Oxygen binding"
+      ],
+      "lectures": [
+        "045000",
+        "046000"
+      ]
+    },
+    {
+      "id": "bio-clusters-and-cobalamin",
+      "title": "Chemistry · Iron-Sulfur Relays and Cobalt Radicals",
+      "role": "deep_dive",
+      "parent": "chemistry-foundations",
+      "summary": "Two metal-cofactor architectures for electron relays, methyl transfer and radical rearrangements.",
+      "tags": [
+        "Iron-sulfur clusters",
+        "Cobalamin",
+        "Radical chemistry"
+      ],
+      "lectures": [
+        "047000",
+        "048000"
+      ]
+    },
+    {
+      "id": "bio-atp-and-redox",
+      "title": "Chemistry · ATP Coupling and Metabolic Electron Ledgers",
+      "role": "deep_dive",
+      "parent": "chemistry-foundations",
+      "summary": "How ATP-linked chemistry and differentiated redox pools sustain metabolic work.",
+      "tags": [
+        "ATP",
+        "NADH",
+        "NADPH"
+      ],
+      "lectures": [
+        "049000",
+        "050000"
+      ]
+    },
+    {
+      "id": "bio-enzyme-and-nitrogenase",
+      "title": "Chemistry · Catalytic Proof and Nitrogen Fixation",
+      "role": "deep_dive",
+      "parent": "chemistry-foundations",
+      "summary": "How mechanisms are established, culminating in the demanding nitrogenase catalytic cycle.",
+      "tags": [
+        "Enzymes",
+        "Nitrogenase",
+        "Bioinorganic catalysis"
+      ],
+      "lectures": [
+        "051000",
+        "052000"
+      ]
+    },
+    {
+      "id": "bio-respiratory-circuit",
+      "title": "Chemistry · Respiration: A Coupled Chemical Circuit",
+      "role": "deep_dive",
+      "parent": "chemistry-foundations",
+      "summary": "Capstone connecting electron donors, metallocofactors, terminal oxygen reduction, gradients and ATP.",
+      "tags": [
+        "Respiration",
+        "Electron transport",
+        "ATP synthesis"
+      ],
+      "lectures": [
+        "053000"
       ]
     }
   ]
