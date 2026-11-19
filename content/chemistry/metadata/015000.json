@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "lecture_id": "015000",
+  "transcript": "015000-what-a-functional-group-changes.md",
+  "description": "Uses hydrogen bonding, proton transfer, carbonyl polarization and resonance to distinguish alcohols, ethers, amines, acids, esters and amides.",
+  "tags": [
+    "Organic chemistry",
+    "Functional groups",
+    "Alcohols",
+    "Ethers",
+    "Phenols",
+    "Hydrogen bonding",
+    "Amines",
+    "Amides",
+    "Carboxylic acids",
+    "Esters",
+    "Ketones",
+    "Aldehydes",
+    "Solubility",
+    "Acid-base equilibria",
+    "Resonance",
+    "Thiols",
+    "Disulfides"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Chemistry",
+      "Functional groups and chemical properties"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Alcohol and ether interactions"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Amine versus amide basicity"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Carboxylic acid derivatives"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Functional group contributions to solubility"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "ch-org-functional",
+      "reason": "Recurring connectivity families and chemical properties."
+    },
+    {
+      "source_id": "ch-org-alcohol",
+      "reason": "Alcohol and phenol bonding, hydrogen bonding and acidity."
+    },
+    {
+      "source_id": "ch-org-acyl",
+      "reason": "Carboxylic acid derivatives, tetrahedral intermediates and leaving-group reactions."
+    },
+    {
+      "source_id": "ch-org-acids-derivatives",
+      "reason": "Functional-group comparisons across acid chlorides, esters, amides and thioesters."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "chem-015000-01",
+      "anchor": "Both have molecular formula C two H six O",
+      "kind": "scientific_example",
+      "source_ids": [
+        "ch-org-functional"
+      ],
+      "source_locator": "Ethanol and dimethyl ether are constitutional isomers with different hydrogen-bonding properties.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-015000-02",
+      "anchor": "an ordinary amide nitrogen is far less basic",
+      "kind": "scientific_explanation",
+      "source_ids": [
+        "ch-org-acids-derivatives"
+      ],
+      "source_locator": "Amide nitrogen lone-pair delocalization into carbonyl group.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-015000-03",
+      "anchor": "an ester",
+      "kind": "scientific_definition",
+      "source_ids": [
+        "ch-org-acyl"
+      ],
+      "source_locator": "Carboxylic acid derivatives, connectivity and acyl substitution.",
+      "audit_status": "reference_recorded"
+    }
+  ],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original audio-first organic chemistry narration, scientific companion, sources, claims and comprehensive discovery metadata."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Knows bond polarity and molecular interactions; specialized group names are explained in narration."
+    ],
+    "readiness_checks": [
+      "Why do ethanol and dimethyl ether differ despite having the same atoms?",
+      "Why is an amide normally less basic than an amine?",
+      "How does charge state alter solubility?"
+    ]
+  }
+}

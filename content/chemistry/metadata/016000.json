@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "lecture_id": "016000",
+  "transcript": "016000-when-molecules-have-handedness.md",
+  "description": "Explains constitutional and stereo-isomerism, chiral tetrahedral centers, optical rotation, R/S and E/Z labels, meso molecules and molecular recognition through Pasteur tartrate evidence.",
+  "tags": [
+    "Organic chemistry",
+    "Stereochemistry",
+    "Chirality",
+    "Enantiomers",
+    "Diastereomers",
+    "Stereogenic centers",
+    "Absolute configuration",
+    "R and S nomenclature",
+    "E and Z nomenclature",
+    "Optical rotation",
+    "Racemic mixtures",
+    "Meso compounds",
+    "Tartaric acid",
+    "Louis Pasteur",
+    "1848",
+    "France",
+    "Molecular recognition",
+    "Stereospecificity"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Chemistry",
+      "Stereochemistry and chirality"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Chiral stereogenic centers"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Enantiomeric recognition"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Geometric alkene stereoisomers"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Optical activity"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "History of stereochemistry"
+    ],
+    [
+      "Place: Europe",
+      "Place: France"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "ch-org-stereochemistry",
+      "reason": "Enantiomers, R/S labels, meso structures, diastereomers and optical rotation."
+    },
+    {
+      "source_id": "ch-org-pasteur",
+      "reason": "Pasteur 1848 mirror-related sodium ammonium tartrate crystals and optical observations."
+    },
+    {
+      "source_id": "ch-org-pasteur-academy",
+      "reason": "1848 Pasteur tartrate work, its scientific context and later interpretation."
+    },
+    {
+      "source_id": "ch-org-stereocenter",
+      "reason": "Modern definition of stereogenic center."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "chem-016000-01",
+      "anchor": "In France in 1848, Louis Pasteur",
+      "kind": "intellectual_history",
+      "source_ids": [
+        "ch-org-pasteur",
+        "ch-org-pasteur-academy"
+      ],
+      "source_locator": "Sodium ammonium tartrate crystals of opposite handedness, dated 1848.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-016000-02",
+      "anchor": "two structures are called enantiomers",
+      "kind": "scientific_definition",
+      "source_ids": [
+        "ch-org-stereochemistry",
+        "ch-org-stereocenter"
+      ],
+      "source_locator": "Non-superimposable mirror-related stereoisomers.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-016000-03",
+      "anchor": "the direction of optical rotation does not, by itself, tell you",
+      "kind": "scientific_distinction",
+      "source_ids": [
+        "ch-org-stereochemistry"
+      ],
+      "source_locator": "R/S naming is independent of measured dextrorotatory/levorotatory optical rotation.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-016000-04",
+      "anchor": "maleic acid and fumaric acid",
+      "kind": "scientific_example",
+      "source_ids": [
+        "ch-org-stereochemistry"
+      ],
+      "source_locator": "Geometric double-bond stereoisomers and physical properties.",
+      "audit_status": "reference_recorded"
+    }
+  ],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original audio-first organic chemistry narration, scientific companion, sources, claims and comprehensive discovery metadata."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Basic tetrahedral carbon bonding and single- versus double-bond rotation."
+    ],
+    "readiness_checks": [
+      "How does enantiomeric symmetry differ from conformational rotation?",
+      "Why do R/S and optical-rotation sign label different properties?",
+      "How did Pasteur connect crystal shape to molecular asymmetry?"
+    ]
+  },
+  "places": [
+    "France"
+  ],
+  "chronology": {
+    "context": {
+      "start": 1848,
+      "label": "Pasteur mirror-related tartrate crystal studies in 1848",
+      "basis": "documented 1848 report and separation of sodium ammonium tartrate crystals",
+      "note": "The date refers to this specific scientific investigation rather than the entire history of stereochemistry.",
+      "source_ids": [
+        "ch-org-pasteur-academy",
+        "ch-org-pasteur"
+      ]
+    }
+  }
+}

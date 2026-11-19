@@ -3,12 +3,12 @@
   "collections": [
     {
       "id": "chemistry-foundations",
-      "title": "Chemistry · Matter, Reaction, and Electricity",
+      "title": "Chemistry · Atoms, Reactions, Molecules, and Materials",
       "role": "main",
       "categories": [
         "Science and nature"
       ],
-      "summary": "Thirteen lectures from chemical identity and molecular structure through reaction time, equilibrium, acid-base behavior, galvanic cells and electrolysis.",
+      "summary": "Twenty coherent audio lectures from chemical identity and atomic bonding to energetic and kinetic rules, stereochemistry, organic mechanisms and the structure of polymer materials.",
       "tags": [
         "Chemistry",
         "Chemical foundations",
@@ -69,6 +69,43 @@
             "013000"
           ],
           "collection": "electrochemistry-in-action"
+        },
+        {
+          "title": "Building Carbon Molecules",
+          "lectures": [
+            "014000",
+            "015000"
+          ],
+          "collection": "organic-structure-and-stereo"
+        },
+        {
+          "title": "Why Three-Dimensional Structure Matters",
+          "lectures": [
+            "016000"
+          ],
+          "collection": "organic-structure-and-stereo"
+        },
+        {
+          "title": "How Organic Reactions Proceed",
+          "lectures": [
+            "017000",
+            "018000"
+          ],
+          "collection": "organic-mechanisms-and-carbonyls"
+        },
+        {
+          "title": "The Two Lives of the Carbonyl",
+          "lectures": [
+            "019000"
+          ],
+          "collection": "organic-mechanisms-and-carbonyls"
+        },
+        {
+          "title": "Molecules That Become Materials",
+          "lectures": [
+            "020000"
+          ],
+          "collection": "polymer-materials"
         }
       ]
     },
@@ -152,6 +189,56 @@
       "lectures": [
         "012000",
         "013000"
+      ]
+    },
+    {
+      "id": "organic-structure-and-stereo",
+      "title": "Chemistry · Organic Structure and Handedness",
+      "role": "deep_dive",
+      "parent": "chemistry-foundations",
+      "summary": "Carbon skeletons, functional groups, molecular geometry, chirality and stereoisomer recognition.",
+      "tags": [
+        "Organic chemistry",
+        "Molecular structure",
+        "Stereochemistry"
+      ],
+      "lectures": [
+        "014000",
+        "015000",
+        "016000"
+      ]
+    },
+    {
+      "id": "organic-mechanisms-and-carbonyls",
+      "title": "Chemistry · Organic Reaction Pathways",
+      "role": "deep_dive",
+      "parent": "chemistry-foundations",
+      "summary": "Electron flow, substitution and elimination competition, and carbonyl addition versus acyl substitution.",
+      "tags": [
+        "Reaction mechanisms",
+        "Nucleophiles and electrophiles",
+        "Carbonyl chemistry"
+      ],
+      "lectures": [
+        "017000",
+        "018000",
+        "019000"
+      ]
+    },
+    {
+      "id": "polymer-materials",
+      "title": "Chemistry · Polymers and Materials",
+      "role": "deep_dive",
+      "parent": "chemistry-foundations",
+      "summary": "From polymerization chemistry to thermal and mechanical behavior, material structure and degradation.",
+      "tags": [
+        "Polymers",
+        "Materials chemistry",
+        "Glass transition",
+        "Crosslinking"
+      ],
+      "lectures": [
+        "020000"
       ]
     }
   ]

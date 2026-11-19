@@ -1,0 +1,136 @@
+{
+  "schema_version": 1,
+  "lecture_id": "020000",
+  "transcript": "020000-when-molecules-become-materials.md",
+  "description": "Explains chain-growth and step-growth polymerization, molecular-size distributions, stoichiometric conversion, glass transitions, crystalline regions, elastomers, crosslinks and environmental degradation.",
+  "tags": [
+    "Organic chemistry",
+    "Polymer chemistry",
+    "Monomers",
+    "Chain-growth polymerization",
+    "Step-growth polymerization",
+    "Polyethylene",
+    "Polyamides",
+    "Polyesters",
+    "Carothers equation",
+    "Molecular-weight distribution",
+    "Dispersity",
+    "Thermoplastics",
+    "Thermosets",
+    "Elastomers",
+    "Crosslinking",
+    "Glass transition",
+    "Crystallinity",
+    "Copolymers",
+    "Mechanical recycling",
+    "Biodegradation"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Chemistry",
+      "Polymerization mechanisms"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Molar mass distributions"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Polymer thermal transitions"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Elastomers and crosslinked networks"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Polymer degradation and circularity"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "ch-org-poly-chain",
+      "reason": "Chain polymerization mechanisms, initiators and reaction centers."
+    },
+    {
+      "source_id": "ch-org-poly-step",
+      "reason": "Difunctional growth, polyester/polyamide formation and chain construction."
+    },
+    {
+      "source_id": "ch-org-poly-physical",
+      "reason": "Glass transition, crystallinity, chain organization, elasticity, crosslinking."
+    },
+    {
+      "source_id": "ch-org-poly-copolymers",
+      "reason": "Block and graft composition and arrangement."
+    },
+    {
+      "source_id": "ch-org-poly-environment",
+      "reason": "Environment and timescale control whether a plastic is actually biodegraded or composted."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "chem-020000-01",
+      "anchor": "A polymer is a molecule built from many repeating or related units",
+      "kind": "scientific_definition",
+      "source_ids": [
+        "ch-org-poly-chain"
+      ],
+      "source_locator": "Monomer to chain covalent bonding.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-020000-02",
+      "anchor": "At ninety-nine percent conversion, the idealized average approaches one hundred units",
+      "kind": "scientific_calculation",
+      "source_ids": [
+        "ch-org-poly-step"
+      ],
+      "source_locator": "Idealized bifunctional step-growth Carothers calculation Xn=1/(1-p).",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-020000-03",
+      "anchor": "Many polymers show a glass transition",
+      "kind": "scientific_explanation",
+      "source_ids": [
+        "ch-org-poly-physical"
+      ],
+      "source_locator": "Polymer glass transition versus crystalline melting.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-020000-04",
+      "anchor": "Industrial composting conditions do not necessarily match soil, freshwater, seawater",
+      "kind": "environmental_evidence",
+      "source_ids": [
+        "ch-org-poly-environment"
+      ],
+      "source_locator": "Biodegradation is environment- and timeframe-specific.",
+      "audit_status": "reference_recorded"
+    }
+  ],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original audio-first organic chemistry narration, scientific companion, sources, claims and comprehensive discovery metadata."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Knows monomer bond formation and functional groups; materials terminology is explained."
+    ],
+    "readiness_checks": [
+      "Why are long step-growth chains sensitive to conversion and stoichiometric balance?",
+      "How do crosslinks and chain ordering affect properties?",
+      "Why does biodegradability need environmental qualifiers?"
+    ]
+  }
+}

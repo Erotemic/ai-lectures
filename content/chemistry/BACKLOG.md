@@ -1,23 +1,22 @@
 # Chemistry: future course development
 
-The thirteen current lectures are authored and indexed; no unfinished work in that completed sequence needs to remain on the planning list. Candidate **next new units**:
+Candidate new units, ordered by foundational value:
 
-## Carbon chemistry and reaction design
+## Chemical identification and measurement
 
-- Carbon skeletons, functional groups and physical-property patterns; isomerism, stereochemistry and chirality.
-- Nucleophiles and electrophiles; substitution, addition, elimination and mechanistic reasoning from evidence.
-- Polymers and materials: chain structure, crosslinking, glass transitions, and degradation.
+- Molecular spectroscopy: light absorption and emission, vibrational transitions, UV/visible analysis, infrared, NMR, and limitations of interpreting peaks.
+- Chromatography and mass spectrometry: separations, retention, ionization, isotopic patterns, calibration, detection thresholds and identification uncertainty.
+- Sampling and measurement: standards, blanks, contamination, calibration curves and uncertainty propagation.
 
-## How chemists determine what is present
+## Materials chemistry and phases
 
-- Spectroscopy: what absorption and emission actually measure; infrared, UV/visible and nuclear magnetic resonance as structurally different probes.
-- Chromatography, mass spectrometry and separations; calibration, uncertainty, detection limits and false identification.
-- Chemical kinetics and measurements across interfaces, surfaces and phases where earlier examples do not provide sufficient treatment.
+- Phase diagrams, crystal growth, nucleation, glasses, ceramics, and how structure develops during processing.
+- Surface and interface chemistry: wetting, adsorption, colloids, emulsions, catalysts at surfaces and heterogeneous reaction kinetics.
+- Corrosion, electrochemical interfaces, passivation and the limits of idealized reaction models.
 
-## Materials and chemical environments
+## Advanced organic and biochemistry connections
 
-- Phase diagrams, nucleation and crystal growth, glasses, ceramics and interface chemistry.
-- Metals, corrosion, electrochemical interfaces and advanced energy conversion where separate depth is warranted.
-- Chemical ecology and biogeochemistry, avoiding duplication of the existing Earth Systems lectures; crosslink instead.
+- Aromatic substitution, enolate and carbon-carbon bond construction, multistep synthesis and selectivity where the molecular story warrants deeper treatment.
+- Chemical ecology, photochemistry and biologically mediated reactions, crosslinking the existing Cell Biology, Earth Systems and Living World courses instead of duplicating them.
 
-Write coherent explanations of complete questions rather than dividing topics mechanically into short recordings. Add source-backed geography and dates only where the narration covers historically or geographically bounded evidence.
+Write self-contained explanatory manuscripts. Let difficult topics run longer rather than splitting mechanically into brief entries. Include historically or geographically bounded tags only when supported in the actual lecture, and keep claim references close to the relevant scientific reasoning.

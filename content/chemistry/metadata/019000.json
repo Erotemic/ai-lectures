@@ -1,0 +1,129 @@
+{
+  "schema_version": 1,
+  "lecture_id": "019000",
+  "transcript": "019000-the-two-lives-of-a-carbonyl.md",
+  "description": "Distinguishes aldehyde/ketone addition from carboxylic-acid-derivative acyl substitution; develops reduction, esterification, hydrolysis, amide resistance, catalysis and peptide links.",
+  "tags": [
+    "Organic chemistry",
+    "Carbonyl chemistry",
+    "Aldehydes",
+    "Ketones",
+    "Nucleophilic addition",
+    "Nucleophilic acyl substitution",
+    "Carboxylic acid derivatives",
+    "Esters",
+    "Amides",
+    "Hydrolysis",
+    "Esterification",
+    "Acid catalysis",
+    "Peptide bonds",
+    "Hydride donors",
+    "Carbonyl stereochemistry",
+    "Polyester synthesis"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Chemistry",
+      "Carbonyl electrophilicity"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Addition versus acyl substitution"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Acid and ester equilibria"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Amide kinetic stability"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Carbonyl reactions in biomolecules"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "ch-org-addition",
+      "reason": "Carbonyl polarity, stereoelectronic addition and tetrahedral products."
+    },
+    {
+      "source_id": "ch-org-acyl",
+      "reason": "Carboxylic acid derivatives, tetrahedral intermediates and leaving-group reactions."
+    },
+    {
+      "source_id": "ch-org-acids-derivatives",
+      "reason": "Functional-group comparisons across acid chlorides, esters, amides and thioesters."
+    },
+    {
+      "source_id": "ch-org-poly-step",
+      "reason": "Difunctional growth, polyester/polyamide formation and chain construction."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "chem-019000-01",
+      "anchor": "An aldehyde may accept a new group",
+      "kind": "scientific_distinction",
+      "source_ids": [
+        "ch-org-addition",
+        "ch-org-acyl"
+      ],
+      "source_locator": "Addition to aldehydes/ketones versus acyl substitution in derivatives.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-019000-02",
+      "anchor": "In a carboxylic acid derivative",
+      "kind": "scientific_definition",
+      "source_ids": [
+        "ch-org-acyl"
+      ],
+      "source_locator": "Tetrahedral intermediate and possible leaving group.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-019000-03",
+      "anchor": "ordinary amides are often considerably less reactive",
+      "kind": "scientific_explanation",
+      "source_ids": [
+        "ch-org-acids-derivatives"
+      ],
+      "source_locator": "Amide resonance and unfavorable leaving-group behavior.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-019000-04",
+      "anchor": "Acid catalysis increases the speed of approaching equilibrium",
+      "kind": "scientific_thermodynamics",
+      "source_ids": [
+        "ch-org-acyl"
+      ],
+      "source_locator": "Catalyst kinetics versus unchanged equilibrium composition.",
+      "audit_status": "reference_recorded"
+    }
+  ],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original audio-first organic chemistry narration, scientific companion, sources, claims and comprehensive discovery metadata."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Familiarity with carbonyl functional groups, electron-pair mechanism and chemical equilibrium."
+    ],
+    "readiness_checks": [
+      "Why can an ester undergo acyl substitution while a ketone usually gives addition?",
+      "Why does a protease accelerate hydrolysis without changing atom balance?",
+      "Which conditions influence esterification equilibrium?"
+    ]
+  }
+}

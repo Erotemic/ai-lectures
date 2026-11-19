@@ -1,7 +1,7 @@
 {
   "id": "chemistry",
   "title": "Chemistry: From Atoms to Reactions",
-  "summary": "An audio-first chemistry course from matter and atomic structure through bonding, thermodynamics, reaction rate laws and catalytic mechanisms, chemical equilibrium, acid-base solutions, and electrochemical work. Examples lead from molecules to minerals, living systems and batteries.",
+  "summary": "Audio-first chemistry from atomic structure, reactions and electrochemistry through the molecular geometry of carbon, functional groups, stereochemistry, organic reaction mechanisms, carbonyl chemistry and polymer materials. Scientific companions provide equations, examples and source-backed claims.",
   "categories": [
     "Science and nature"
   ],
@@ -20,7 +20,15 @@
     "Catalysis",
     "Chemical equilibrium",
     "Acids and bases",
-    "Electrochemistry"
+    "Electrochemistry",
+    "Organic chemistry",
+    "Stereochemistry",
+    "Functional groups",
+    "Organic reaction mechanisms",
+    "Nucleophilic substitution",
+    "Carbonyl chemistry",
+    "Polymers",
+    "Materials chemistry"
   ],
   "tag_paths": [
     [
@@ -48,7 +56,14 @@
     "mechanisms_and_catalysis",
     "chemical_equilibrium",
     "acids_and_bases",
-    "electrochemistry"
+    "electrochemistry",
+    "organic_structure",
+    "functional_groups",
+    "stereochemistry",
+    "organic_mechanisms",
+    "substitution_and_elimination",
+    "carbonyl_chemistry",
+    "polymers_and_materials"
   ],
   "lectures": [
     {
@@ -809,6 +824,407 @@
           "Place: United Kingdom",
           "Place: England",
           "Place: London"
+        ]
+      ]
+    },
+    {
+      "id": "014000",
+      "title": "Carbon Is a Framework: Chains, Rings, and Shared Electrons",
+      "section": "organic_structure",
+      "file": "014000-carbon-is-a-framework.md",
+      "spoken_words": 1581,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 10.9,
+      "description": "Builds organic structures from four-valent carbon, skeletal formulas, constitutional isomers, conformations, alkene geometry and aromatic electron delocalization.",
+      "tags": [
+        "Organic chemistry",
+        "Carbon skeletons",
+        "Carbon valence",
+        "Skeletal structures",
+        "Constitutional isomers",
+        "Hydrocarbons",
+        "Alkanes",
+        "Alkenes",
+        "Alkynes",
+        "Bond rotation",
+        "Conformations",
+        "Cyclohexane chairs",
+        "Conjugation",
+        "Resonance",
+        "Benzene",
+        "Aromaticity",
+        "Hydrophobicity"
+      ],
+      "tag_paths": [
+        [
+          "Science",
+          "Chemistry",
+          "Carbon frameworks and connectivity"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Structural isomerism"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Carbon-carbon pi bonding"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Conformational dynamics"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Aromatic electron delocalization"
+        ]
+      ]
+    },
+    {
+      "id": "015000",
+      "title": "What a Functional Group Changes: From Alcohols to Amides",
+      "section": "functional_groups",
+      "file": "015000-what-a-functional-group-changes.md",
+      "spoken_words": 1542,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 10.6,
+      "description": "Uses hydrogen bonding, proton transfer, carbonyl polarization and resonance to distinguish alcohols, ethers, amines, acids, esters and amides.",
+      "tags": [
+        "Organic chemistry",
+        "Functional groups",
+        "Alcohols",
+        "Ethers",
+        "Phenols",
+        "Hydrogen bonding",
+        "Amines",
+        "Amides",
+        "Carboxylic acids",
+        "Esters",
+        "Ketones",
+        "Aldehydes",
+        "Solubility",
+        "Acid-base equilibria",
+        "Resonance",
+        "Thiols",
+        "Disulfides"
+      ],
+      "tag_paths": [
+        [
+          "Science",
+          "Chemistry",
+          "Functional groups and chemical properties"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Alcohol and ether interactions"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Amine versus amide basicity"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Carboxylic acid derivatives"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Functional group contributions to solubility"
+        ]
+      ]
+    },
+    {
+      "id": "016000",
+      "title": "When Molecules Have Handedness: Isomers in Three Dimensions",
+      "section": "stereochemistry",
+      "file": "016000-when-molecules-have-handedness.md",
+      "spoken_words": 1513,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 10.4,
+      "description": "Explains constitutional and stereo-isomerism, chiral tetrahedral centers, optical rotation, R/S and E/Z labels, meso molecules and molecular recognition through Pasteur tartrate evidence.",
+      "tags": [
+        "Organic chemistry",
+        "Stereochemistry",
+        "Chirality",
+        "Enantiomers",
+        "Diastereomers",
+        "Stereogenic centers",
+        "Absolute configuration",
+        "R and S nomenclature",
+        "E and Z nomenclature",
+        "Optical rotation",
+        "Racemic mixtures",
+        "Meso compounds",
+        "Tartaric acid",
+        "Louis Pasteur",
+        "1848",
+        "France",
+        "Molecular recognition",
+        "Stereospecificity"
+      ],
+      "tag_paths": [
+        [
+          "Science",
+          "Chemistry",
+          "Stereochemistry and chirality"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Chiral stereogenic centers"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Enantiomeric recognition"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Geometric alkene stereoisomers"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Optical activity"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "History of stereochemistry"
+        ],
+        [
+          "Place: Europe",
+          "Place: France"
+        ]
+      ]
+    },
+    {
+      "id": "017000",
+      "title": "Follow the Electron Pair: How to Read an Organic Reaction",
+      "section": "organic_mechanisms",
+      "file": "017000-follow-the-electron-pair.md",
+      "spoken_words": 1526,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 10.5,
+      "description": "Introduces electron-pair curved arrows, nucleophiles, electrophiles, formal charge, proton transfers, carbonyl attack, resonance versus intermediates, and tests of mechanism.",
+      "tags": [
+        "Organic chemistry",
+        "Reaction mechanisms",
+        "Curved-arrow notation",
+        "Electron pairs",
+        "Nucleophiles",
+        "Electrophiles",
+        "Polar reactions",
+        "Formal charge",
+        "Protonation",
+        "Carbonyl addition",
+        "Resonance",
+        "Transition states",
+        "Mechanistic evidence",
+        "Solvent effects",
+        "Rate laws"
+      ],
+      "tag_paths": [
+        [
+          "Science",
+          "Chemistry",
+          "Electron flow and reaction mechanisms"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Nucleophile electrophile interactions"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Acid-base activation"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Mechanistic hypotheses and evidence"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Carbonyl nucleophilic attack"
+        ]
+      ]
+    },
+    {
+      "id": "018000",
+      "title": "One Carbon, Four Pathways: Substitution and Elimination",
+      "section": "substitution_and_elimination",
+      "file": "018000-one-carbon-four-pathways.md",
+      "spoken_words": 1574,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 10.9,
+      "description": "Compares SN2, SN1, E2 and E1 using observed rate laws, leaving-group ability, solvent effects, stereochemical inversion, carbocation rearrangement, and anti-periplanar elimination.",
+      "tags": [
+        "Organic chemistry",
+        "Nucleophilic substitution",
+        "SN2 reactions",
+        "SN1 reactions",
+        "E2 elimination",
+        "E1 elimination",
+        "Rate laws",
+        "Carbocations",
+        "Leaving groups",
+        "Stereochemical inversion",
+        "Anti-periplanar geometry",
+        "Cyclohexane conformation",
+        "Ion pairs",
+        "Regioselectivity",
+        "Zaitsev orientation",
+        "Solvent effects"
+      ],
+      "tag_paths": [
+        [
+          "Science",
+          "Chemistry",
+          "Substitution versus elimination"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "SN2 and SN1 kinetic mechanisms"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "E2 and E1 elimination"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Carbocation and stereochemical outcomes"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Conformational control of reactivity"
+        ]
+      ]
+    },
+    {
+      "id": "019000",
+      "title": "The Two Lives of a Carbonyl: Addition and Acyl Substitution",
+      "section": "carbonyl_chemistry",
+      "file": "019000-the-two-lives-of-a-carbonyl.md",
+      "spoken_words": 1428,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 9.8,
+      "description": "Distinguishes aldehyde/ketone addition from carboxylic-acid-derivative acyl substitution; develops reduction, esterification, hydrolysis, amide resistance, catalysis and peptide links.",
+      "tags": [
+        "Organic chemistry",
+        "Carbonyl chemistry",
+        "Aldehydes",
+        "Ketones",
+        "Nucleophilic addition",
+        "Nucleophilic acyl substitution",
+        "Carboxylic acid derivatives",
+        "Esters",
+        "Amides",
+        "Hydrolysis",
+        "Esterification",
+        "Acid catalysis",
+        "Peptide bonds",
+        "Hydride donors",
+        "Carbonyl stereochemistry",
+        "Polyester synthesis"
+      ],
+      "tag_paths": [
+        [
+          "Science",
+          "Chemistry",
+          "Carbonyl electrophilicity"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Addition versus acyl substitution"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Acid and ester equilibria"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Amide kinetic stability"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Carbonyl reactions in biomolecules"
+        ]
+      ]
+    },
+    {
+      "id": "020000",
+      "title": "When Molecules Become Materials: Polymer Chains and Their Properties",
+      "section": "polymers_and_materials",
+      "file": "020000-when-molecules-become-materials.md",
+      "spoken_words": 1572,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 10.8,
+      "description": "Explains chain-growth and step-growth polymerization, molecular-size distributions, stoichiometric conversion, glass transitions, crystalline regions, elastomers, crosslinks and environmental degradation.",
+      "tags": [
+        "Organic chemistry",
+        "Polymer chemistry",
+        "Monomers",
+        "Chain-growth polymerization",
+        "Step-growth polymerization",
+        "Polyethylene",
+        "Polyamides",
+        "Polyesters",
+        "Carothers equation",
+        "Molecular-weight distribution",
+        "Dispersity",
+        "Thermoplastics",
+        "Thermosets",
+        "Elastomers",
+        "Crosslinking",
+        "Glass transition",
+        "Crystallinity",
+        "Copolymers",
+        "Mechanical recycling",
+        "Biodegradation"
+      ],
+      "tag_paths": [
+        [
+          "Science",
+          "Chemistry",
+          "Polymerization mechanisms"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Molar mass distributions"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Polymer thermal transitions"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Elastomers and crosslinked networks"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Polymer degradation and circularity"
         ]
       ]
     }

@@ -1,0 +1,129 @@
+{
+  "schema_version": 1,
+  "lecture_id": "014000",
+  "transcript": "014000-carbon-is-a-framework.md",
+  "description": "Builds organic structures from four-valent carbon, skeletal formulas, constitutional isomers, conformations, alkene geometry and aromatic electron delocalization.",
+  "tags": [
+    "Organic chemistry",
+    "Carbon skeletons",
+    "Carbon valence",
+    "Skeletal structures",
+    "Constitutional isomers",
+    "Hydrocarbons",
+    "Alkanes",
+    "Alkenes",
+    "Alkynes",
+    "Bond rotation",
+    "Conformations",
+    "Cyclohexane chairs",
+    "Conjugation",
+    "Resonance",
+    "Benzene",
+    "Aromaticity",
+    "Hydrophobicity"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Chemistry",
+      "Carbon frameworks and connectivity"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Structural isomerism"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Carbon-carbon pi bonding"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Conformational dynamics"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Aromatic electron delocalization"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "ch-org-carbon-framework",
+      "reason": "Same-formula structural isomers, carbon chains and skeletons."
+    },
+    {
+      "source_id": "ch-org-conformations",
+      "reason": "Single-bond rotation, staggered and eclipsed conformations."
+    },
+    {
+      "source_id": "ch-org-cyclohexane",
+      "reason": "Chair conformers and ring geometry."
+    },
+    {
+      "source_id": "ch-org-aromaticity",
+      "reason": "Cyclic electron delocalization, energetic and structural aromaticity criteria."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "chem-014000-01",
+      "anchor": "The molecular formula C four H ten belongs both to a straight four-carbon chain",
+      "kind": "scientific_example",
+      "source_ids": [
+        "ch-org-carbon-framework"
+      ],
+      "source_locator": "Butane and 2-methylpropane constitutional isomers.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-014000-02",
+      "anchor": "its familiar chair shape",
+      "kind": "scientific_explanation",
+      "source_ids": [
+        "ch-org-cyclohexane"
+      ],
+      "source_locator": "Cyclohexane nonplanar chair conformation.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-014000-03",
+      "anchor": "Benzene is aromatic",
+      "kind": "scientific_definition",
+      "source_ids": [
+        "ch-org-aromaticity"
+      ],
+      "source_locator": "Electron-delocalized cyclic aromatic systems, unlike odors.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-014000-04",
+      "anchor": "resonance contributors",
+      "kind": "scientific_explanation",
+      "source_ids": [
+        "ch-org-aromaticity"
+      ],
+      "source_locator": "Resonance drawings describe a delocalized electronic structure, not interconverting molecules.",
+      "audit_status": "reference_recorded"
+    }
+  ],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original audio-first organic chemistry narration, scientific companion, sources, claims and comprehensive discovery metadata."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "General valence and atomic bonding from chemistry foundations; geometry is developed in the lecture."
+    ],
+    "readiness_checks": [
+      "Why can a molecular formula describe several constitutional isomers?",
+      "Why does rotating a single bond not normally change connectivity?",
+      "What evidence shows benzene is not a fixed ring of alternating isolated single and double bonds?"
+    ]
+  }
+}

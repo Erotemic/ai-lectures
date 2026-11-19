@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "lecture_id": "017000",
+  "transcript": "017000-follow-the-electron-pair.md",
+  "description": "Introduces electron-pair curved arrows, nucleophiles, electrophiles, formal charge, proton transfers, carbonyl attack, resonance versus intermediates, and tests of mechanism.",
+  "tags": [
+    "Organic chemistry",
+    "Reaction mechanisms",
+    "Curved-arrow notation",
+    "Electron pairs",
+    "Nucleophiles",
+    "Electrophiles",
+    "Polar reactions",
+    "Formal charge",
+    "Protonation",
+    "Carbonyl addition",
+    "Resonance",
+    "Transition states",
+    "Mechanistic evidence",
+    "Solvent effects",
+    "Rate laws"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Chemistry",
+      "Electron flow and reaction mechanisms"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Nucleophile electrophile interactions"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Acid-base activation"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Mechanistic hypotheses and evidence"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Carbonyl nucleophilic attack"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "ch-org-polar",
+      "reason": "Polar reactivity, nucleophiles, electrophiles and electron-pair arrows."
+    },
+    {
+      "source_id": "ch-org-addition",
+      "reason": "Carbonyl polarity, stereoelectronic addition and tetrahedral products."
+    },
+    {
+      "source_id": "ch-org-sn2",
+      "reason": "Bimolecular kinetic law, backside attack and inversion."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "chem-017000-01",
+      "anchor": "a curved arrow from a lone pair on hydroxide",
+      "kind": "scientific_explanation",
+      "source_ids": [
+        "ch-org-polar"
+      ],
+      "source_locator": "Arrow bookkeeping begins at donated electron pair and points toward acceptor.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-017000-02",
+      "anchor": "a proton to an alcohol",
+      "kind": "scientific_example",
+      "source_ids": [
+        "ch-org-polar"
+      ],
+      "source_locator": "Oxygen protonation and activation as a leaving group.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-017000-03",
+      "anchor": "The carbonyl carbon changes from approximately planar geometry",
+      "kind": "scientific_explanation",
+      "source_ids": [
+        "ch-org-addition"
+      ],
+      "source_locator": "Nucleophilic addition causes trigonal-to-tetrahedral carbonyl center geometry change.",
+      "audit_status": "reference_recorded"
+    }
+  ],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original audio-first organic chemistry narration, scientific companion, sources, claims and comprehensive discovery metadata."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Knows formal charges conceptually, bond polarization and elementary acid-base chemistry."
+    ],
+    "readiness_checks": [
+      "Where should a curved electron-pair arrow begin?",
+      "Why is resonance not a chemical step?",
+      "How can a proposed mechanism be challenged experimentally?"
+    ]
+  }
+}

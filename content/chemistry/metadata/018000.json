@@ -1,0 +1,132 @@
+{
+  "schema_version": 1,
+  "lecture_id": "018000",
+  "transcript": "018000-one-carbon-four-pathways.md",
+  "description": "Compares SN2, SN1, E2 and E1 using observed rate laws, leaving-group ability, solvent effects, stereochemical inversion, carbocation rearrangement, and anti-periplanar elimination.",
+  "tags": [
+    "Organic chemistry",
+    "Nucleophilic substitution",
+    "SN2 reactions",
+    "SN1 reactions",
+    "E2 elimination",
+    "E1 elimination",
+    "Rate laws",
+    "Carbocations",
+    "Leaving groups",
+    "Stereochemical inversion",
+    "Anti-periplanar geometry",
+    "Cyclohexane conformation",
+    "Ion pairs",
+    "Regioselectivity",
+    "Zaitsev orientation",
+    "Solvent effects"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Chemistry",
+      "Substitution versus elimination"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "SN2 and SN1 kinetic mechanisms"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "E2 and E1 elimination"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Carbocation and stereochemical outcomes"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Conformational control of reactivity"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "ch-org-sn2",
+      "reason": "Bimolecular kinetic law, backside attack and inversion."
+    },
+    {
+      "source_id": "ch-org-sn1",
+      "reason": "Ionization to carbocations, first-order kinetics and stereochemical scrambling."
+    },
+    {
+      "source_id": "ch-org-e2",
+      "reason": "Concerted elimination and isotope/kinetic evidence."
+    },
+    {
+      "source_id": "ch-org-e2-ring",
+      "reason": "Trans-diaxial geometric requirement in cyclohexane elimination."
+    },
+    {
+      "source_id": "ch-org-e1",
+      "reason": "Carbocation pathways and elimination competition."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "chem-018000-01",
+      "anchor": "the substitution rate for methyl bromide and hydroxide depends on both",
+      "kind": "scientific_kinetics",
+      "source_ids": [
+        "ch-org-sn2"
+      ],
+      "source_locator": "Classic measured bimolecular rate law.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-018000-02",
+      "anchor": "The carbocation can be approximately planar",
+      "kind": "scientific_mechanism",
+      "source_ids": [
+        "ch-org-sn1"
+      ],
+      "source_locator": "Carbocation intermediate with possible face selectivity and ion pairs.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-018000-03",
+      "anchor": "E two therefore often displays a second-order rate law",
+      "kind": "scientific_kinetics",
+      "source_ids": [
+        "ch-org-e2"
+      ],
+      "source_locator": "Concerted base/substrate dependence.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-018000-04",
+      "anchor": "trans-diaxial requirement",
+      "kind": "scientific_geometry",
+      "source_ids": [
+        "ch-org-e2-ring"
+      ],
+      "source_locator": "Anti-periplanar cyclohexane elimination requirement.",
+      "audit_status": "reference_recorded"
+    }
+  ],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original audio-first organic chemistry narration, scientific companion, sources, claims and comprehensive discovery metadata."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Basic nucleophile/electrophile concepts and stereogenic carbon geometry."
+    ],
+    "readiness_checks": [
+      "What data distinguish SN1 and SN2?",
+      "Why can substitution and elimination compete?",
+      "What special geometry matters for E2 in cyclohexane?"
+    ]
+  }
+}
