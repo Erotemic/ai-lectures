@@ -1,0 +1,403 @@
+{
+  "schema_version": 1,
+  "lecture_id": "014000",
+  "transcript": "014000-the-upgrade-nobody-can-install-alone.md",
+  "description": "Examines how shared conventions can be changed while people continue depending on them. From Sweden's 1967 road switch to the gradual IPv4-to-IPv6 transition and the nearly invisible 2019 redefinition of the kilogram, it argues that migration is itself an engineering and political problem: compatibility protects existing commitments, but can also delay needed reform.",
+  "tags": [
+    "Standards",
+    "Standards migration",
+    "Protocol migration",
+    "Coordination",
+    "Collective action",
+    "Network effects",
+    "Coordination game",
+    "Path dependence",
+    "Interoperability",
+    "Backward compatibility",
+    "Versioning",
+    "Deprecation",
+    "Technical debt",
+    "Legacy systems",
+    "Software engineering",
+    "Distributed systems",
+    "Transition planning",
+    "Infrastructure",
+    "Infrastructure governance",
+    "Engineering ethics",
+    "Responsible innovation",
+    "Migration costs",
+    "Public decision-making",
+    "Technological change",
+    "Sociotechnical systems",
+    "Sweden",
+    "Swedish road history",
+    "Dagen H",
+    "Right-hand traffic",
+    "Traffic safety",
+    "Parliamentary governance",
+    "Public education campaigns",
+    "1955",
+    "1963",
+    "1967",
+    "Stockholm",
+    "Internet",
+    "Internet Protocol",
+    "IPv4",
+    "IPv6",
+    "IP addressing",
+    "Network transitions",
+    "Dual stack",
+    "Protocol tunneling",
+    "NAT64",
+    "Internet Engineering Task Force",
+    "IETF",
+    "Rough consensus",
+    "RFC 4213",
+    "RFC 6146",
+    "RFC 8200",
+    "1998",
+    "2005",
+    "2011",
+    "2017",
+    "Kilogram",
+    "Planck constant",
+    "Kibble balance",
+    "Metrology",
+    "International System of Units",
+    "SI redefinition",
+    "BIPM",
+    "2018",
+    "2019",
+    "France",
+    "Paris",
+    "Europe",
+    "International cooperation",
+    "20th century",
+    "21st century",
+    "United States",
+    "Engineering design",
+    "Standards governance",
+    "Technical legitimacy",
+    "Political legitimacy",
+    "Scientific instrumentation",
+    "Measurement uncertainty",
+    "Continuity",
+    "Philosophy of technology",
+    "Governance",
+    "Migrations",
+    "Change management"
+  ],
+  "tag_paths": [
+    [
+      "Engineering",
+      "Standards and interoperability",
+      "Standards migration"
+    ],
+    [
+      "Computing",
+      "Networking",
+      "IPv4 and IPv6 transition"
+    ],
+    [
+      "Computing",
+      "Software engineering",
+      "Backward compatibility and versioning"
+    ],
+    [
+      "Engineering",
+      "Systems engineering",
+      "Staged infrastructure changes"
+    ],
+    [
+      "Social science",
+      "Economics",
+      "Coordination games and network effects"
+    ],
+    [
+      "Social science",
+      "Science and technology studies",
+      "Governance of technical change"
+    ],
+    [
+      "Philosophy",
+      "Philosophy of technology",
+      "Ethics of upgrades"
+    ],
+    [
+      "History",
+      "Transportation",
+      "Sweden Dagen H 1967"
+    ],
+    [
+      "History",
+      "Internet",
+      "IPv6 standardization and deployment"
+    ],
+    [
+      "Metrology",
+      "SI units",
+      "Kilogram redefinition 2019"
+    ],
+    [
+      "Time",
+      "20th century",
+      "1950s"
+    ],
+    [
+      "Time",
+      "20th century",
+      "1960s"
+    ],
+    [
+      "Time",
+      "20th century",
+      "1990s"
+    ],
+    [
+      "Time",
+      "21st century",
+      "2000s"
+    ],
+    [
+      "Time",
+      "21st century",
+      "2010s"
+    ],
+    [
+      "Geography",
+      "Europe",
+      "Sweden"
+    ],
+    [
+      "Geography",
+      "Europe",
+      "France"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "gs-migration-sweden-museum",
+      "reason": "Official chronology and context for the coordinated traffic-side change."
+    },
+    {
+      "source_id": "gs-migration-sweden-radio",
+      "reason": "Broadcaster historical review of earlier opposition, political decision, and public campaign."
+    },
+    {
+      "source_id": "gs-migration-ipv6-8200",
+      "reason": "Normative IPv6 standard as a replacement for the earlier specification."
+    },
+    {
+      "source_id": "gs-migration-ipv6-4213",
+      "reason": "Primary source for two foundational transition mechanisms."
+    },
+    {
+      "source_id": "gs-migration-ipv6-6146",
+      "reason": "Primary source for a specific translation method and its limits."
+    },
+    {
+      "source_id": "gs-migration-bipm-kilogram",
+      "reason": "Institutional account of continuity and change in mass metrology."
+    },
+    {
+      "source_id": "gs-migration-bipm-base-units",
+      "reason": "Overview of 2019 SI base-unit revision."
+    },
+    {
+      "source_id": "gs-migration-bipm-resolution-2018",
+      "reason": "Primary resolution with dates and revised definitions."
+    },
+    {
+      "source_id": "gs-migration-bipm-user2019",
+      "reason": "BIPM contemporaneous user guidance on numerical continuity, broad invisibility, and electrical metrology caveat."
+    },
+    {
+      "source_id": "gs-interfaces-rfc7282",
+      "reason": "IETF rough consensus and treatment of substantive technical objections."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "soap-014-h01",
+      "anchor": "At four fifty in the morning, on the third of September, nineteen sixty-seven, the vehicles allowed onto Swedish roads were ordered to stop.",
+      "kind": "research_history",
+      "source_ids": [
+        "gs-migration-sweden-museum",
+        "gs-migration-sweden-radio"
+      ],
+      "source_locator": "Museum official traffic change timetable; Sveriges Radio 2017",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "soap-014-h02",
+      "anchor": "In a nineteen fifty-five referendum, a large majority voted against changing sides.",
+      "kind": "research_history",
+      "source_ids": [
+        "gs-migration-sweden-radio"
+      ],
+      "source_locator": "Sveriges Radio 2017 83 percent against",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "soap-014-h03",
+      "anchor": "The parliament approved the change in nineteen sixty-three anyway, with an implementation date four years later.",
+      "kind": "research_history",
+      "source_ids": [
+        "gs-migration-sweden-radio"
+      ],
+      "source_locator": "Sveriges Radio 2017 transition history",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "soap-014-h04",
+      "anchor": "An Internet Engineering Task Force document from twenty eleven, R F C six one four six, describes one translation mechanism",
+      "kind": "research_history",
+      "source_ids": [
+        "gs-migration-ipv6-6146"
+      ],
+      "source_locator": "RFC 6146 title, publication date and scope",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "soap-014-h05",
+      "anchor": "On the twentieth of May, twenty nineteen, the definition changed.",
+      "kind": "research_history",
+      "source_ids": [
+        "gs-migration-bipm-resolution-2018",
+        "gs-migration-bipm-kilogram"
+      ],
+      "source_locator": "CGPM Resolution 1 effective date; BIPM kilogram history",
+      "audit_status": "source_passage_checked"
+    }
+  ],
+  "claim_evidence": [
+    {
+      "id": "soap-014-c01",
+      "anchor": "That is why the date and hour mattered. They supplied what engineers sometimes call a flag day",
+      "source_ids": [
+        "gs-migration-sweden-museum",
+        "gs-migration-sweden-radio"
+      ],
+      "provenance": "author_synthesis",
+      "source_locator": "Swedish traffic switch timeline",
+      "evidence_detail": "Flag day is an analytical analogy; account does not claim the Swedish organizers used that engineering term."
+    },
+    {
+      "id": "soap-014-c02",
+      "anchor": "That does not mean driving on the right is inherently safer than driving on the left.",
+      "source_ids": [
+        "gs-migration-sweden-museum",
+        "gs-migration-sweden-radio"
+      ],
+      "provenance": "author_synthesis",
+      "source_locator": "Immediate historical safety reports, no causal comparative design",
+      "evidence_detail": "Explicit qualification: post-transition outcomes cannot establish superiority of the driving side."
+    },
+    {
+      "id": "soap-014-c03",
+      "anchor": "It uses a much larger address space and changes other aspects of the packet format and network behavior.",
+      "source_ids": [
+        "gs-migration-ipv6-8200"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "RFC 8200, Introduction, IPv6 addressing and packet format",
+      "evidence_detail": "IPv6 128-bit addresses compared with IPv4 32-bit addresses."
+    },
+    {
+      "id": "soap-014-c04",
+      "anchor": "A two-protocol device can speak both I P v four and I P v six. That arrangement is commonly called dual stack.",
+      "source_ids": [
+        "gs-migration-ipv6-4213"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "RFC 4213 Abstract and Sections 1-2",
+      "evidence_detail": "Dual stack as implementation of both network protocols."
+    },
+    {
+      "id": "soap-014-c05",
+      "anchor": "It does not preserve every possible application behavior transparently.",
+      "source_ids": [
+        "gs-migration-ipv6-6146"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "RFC 6146 1.1 Features and scope",
+      "evidence_detail": "This RFC scopes NAT64 to UDP, TCP and ICMP and describes state/translation limitations."
+    },
+    {
+      "id": "soap-014-c06",
+      "anchor": "The kilogram was no longer defined by that artifact.",
+      "source_ids": [
+        "gs-migration-bipm-kilogram",
+        "gs-migration-bipm-resolution-2018"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "BIPM kilo overview; 2018 resolution effective 2019",
+      "evidence_detail": "International prototype retired as definition of mass."
+    },
+    {
+      "id": "soap-014-c07",
+      "anchor": "the new definition was chosen so that the magnitude of the kilogram would remain continuous with the old one.",
+      "source_ids": [
+        "gs-migration-bipm-kilogram",
+        "gs-migration-bipm-resolution-2018",
+        "gs-migration-bipm-user2019"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "BIPM institutional explanations and continuity arrangements",
+      "evidence_detail": "Scientific redefinition deliberately preserves practical kilogram scale."
+    },
+    {
+      "id": "soap-014-c08",
+      "anchor": "The International Bureau of Weights and Measures stated explicitly that most users would not notice the transition.",
+      "source_ids": [
+        "gs-migration-bipm-user2019",
+        "gs-migration-bipm-kilogram"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "BIPM 2019 SI information for users",
+      "evidence_detail": "Most-user formulation also appears in BIPM 2019 SI information material."
+    },
+    {
+      "id": "soap-014-c09",
+      "anchor": "A good technical objection can matter even if only one person raises it.",
+      "source_ids": [
+        "gs-interfaces-rfc7282"
+      ],
+      "provenance": "author_synthesis",
+      "source_locator": "RFC 7282 Sections 2-4",
+      "evidence_detail": "Resnick advocates considering objections instead of tallying a majority."
+    },
+    {
+      "id": "soap-014-c10",
+      "anchor": "technical consensus is not the whole of legitimacy.",
+      "source_ids": [
+        "gs-interfaces-rfc7282",
+        "gs-migration-sweden-radio"
+      ],
+      "provenance": "author_synthesis",
+      "source_locator": "Comparative institutional discussion",
+      "evidence_detail": "Normative distinction; RFC 7282 does not claim to establish democratic legitimacy."
+    }
+  ],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original standalone argumentative essay, not an official OpenAI view. Historical and technical claims trace to linked sources. Bridge, message format, identity, and legacy-data cases are explicitly constructed illustrations. No invented testimony, imagined historical dialogue, or personal experiences."
+  },
+  "learning": {
+    "reviewed": true,
+    "background": [
+      "No specialist knowledge expected; the text explains the basics of shared standards, IPv4/IPv6, and metrology."
+    ],
+    "readiness_checks": [
+      "Explain why a better standard can be worse for an individual to adopt alone.",
+      "Describe why the Swedish driving-side switch needed a coordinated date and schedule.",
+      "Distinguish dual stack, tunneling, and translation as approaches to coexistence between IPv4 and IPv6.",
+      "Explain how the 2019 kilogram redefinition could change the foundation without changing ordinary weight readings.",
+      "Identify who bears migration costs beyond the people who design an upgrade.",
+      "Distinguish engineering agreement on feasibility from political legitimacy.",
+      "Explain a condition under which backward compatibility should be deliberately broken.",
+      "Describe concrete design choices that make future changes less disruptive."
+    ]
+  }
+}

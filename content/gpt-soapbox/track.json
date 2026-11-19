@@ -1,7 +1,7 @@
 {
   "id": "gpt-soapbox",
   "title": "GPT-SoapBox",
-  "summary": "An open-ended collection of independent, argumentative audio essays by GPT-6, across mathematics, science, technology, institutions, culture, and philosophy. The thirteenth essay examines the minimal agreements—standards, protocols, units, and interfaces—that allow independent people and organizations to work together, and asks who gets to set those terms. No fixed syllabus.",
+  "summary": "An open-ended collection of independent, argumentative audio essays by GPT-6, across mathematics, science, technology, institutions, culture, and philosophy. The fourteenth essay asks how standards can be updated while strangers continue to depend on them, comparing coordinated cutovers, coexistence, and invisible continuity. No fixed syllabus.",
   "categories": [
     "Ideas and essays"
   ],
@@ -37,7 +37,8 @@
     "honesty-without-flattery",
     "the-right-to-suspend-judgment",
     "institutional-learning-and-bad-news",
-    "agreements-between-strangers"
+    "agreements-between-strangers",
+    "when-shared-rules-must-change"
   ],
   "lectures": [
     {
@@ -1193,6 +1194,187 @@
           "North America",
           "United States",
           "Ohio"
+        ]
+      ]
+    },
+    {
+      "id": "014000",
+      "title": "The Upgrade Nobody Can Install Alone",
+      "section": "when-shared-rules-must-change",
+      "file": "014000-the-upgrade-nobody-can-install-alone.md",
+      "spoken_words": 5021,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 34.6,
+      "description": "Examines how shared conventions can be changed while people continue depending on them. From Sweden's 1967 road switch to the gradual IPv4-to-IPv6 transition and the nearly invisible 2019 redefinition of the kilogram, it argues that migration is itself an engineering and political problem: compatibility protects existing commitments, but can also delay needed reform.",
+      "tags": [
+        "Standards",
+        "Standards migration",
+        "Protocol migration",
+        "Coordination",
+        "Collective action",
+        "Network effects",
+        "Coordination game",
+        "Path dependence",
+        "Interoperability",
+        "Backward compatibility",
+        "Versioning",
+        "Deprecation",
+        "Technical debt",
+        "Legacy systems",
+        "Software engineering",
+        "Distributed systems",
+        "Transition planning",
+        "Infrastructure",
+        "Infrastructure governance",
+        "Engineering ethics",
+        "Responsible innovation",
+        "Migration costs",
+        "Public decision-making",
+        "Technological change",
+        "Sociotechnical systems",
+        "Sweden",
+        "Swedish road history",
+        "Dagen H",
+        "Right-hand traffic",
+        "Traffic safety",
+        "Parliamentary governance",
+        "Public education campaigns",
+        "1955",
+        "1963",
+        "1967",
+        "Stockholm",
+        "Internet",
+        "Internet Protocol",
+        "IPv4",
+        "IPv6",
+        "IP addressing",
+        "Network transitions",
+        "Dual stack",
+        "Protocol tunneling",
+        "NAT64",
+        "Internet Engineering Task Force",
+        "IETF",
+        "Rough consensus",
+        "RFC 4213",
+        "RFC 6146",
+        "RFC 8200",
+        "1998",
+        "2005",
+        "2011",
+        "2017",
+        "Kilogram",
+        "Planck constant",
+        "Kibble balance",
+        "Metrology",
+        "International System of Units",
+        "SI redefinition",
+        "BIPM",
+        "2018",
+        "2019",
+        "France",
+        "Paris",
+        "Europe",
+        "International cooperation",
+        "20th century",
+        "21st century",
+        "United States",
+        "Engineering design",
+        "Standards governance",
+        "Technical legitimacy",
+        "Political legitimacy",
+        "Scientific instrumentation",
+        "Measurement uncertainty",
+        "Continuity",
+        "Philosophy of technology",
+        "Governance",
+        "Migrations",
+        "Change management"
+      ],
+      "tag_paths": [
+        [
+          "Engineering",
+          "Standards and interoperability",
+          "Standards migration"
+        ],
+        [
+          "Computing",
+          "Networking",
+          "IPv4 and IPv6 transition"
+        ],
+        [
+          "Computing",
+          "Software engineering",
+          "Backward compatibility and versioning"
+        ],
+        [
+          "Engineering",
+          "Systems engineering",
+          "Staged infrastructure changes"
+        ],
+        [
+          "Social science",
+          "Economics",
+          "Coordination games and network effects"
+        ],
+        [
+          "Social science",
+          "Science and technology studies",
+          "Governance of technical change"
+        ],
+        [
+          "Philosophy",
+          "Philosophy of technology",
+          "Ethics of upgrades"
+        ],
+        [
+          "History",
+          "Transportation",
+          "Sweden Dagen H 1967"
+        ],
+        [
+          "History",
+          "Internet",
+          "IPv6 standardization and deployment"
+        ],
+        [
+          "Metrology",
+          "SI units",
+          "Kilogram redefinition 2019"
+        ],
+        [
+          "Time",
+          "20th century",
+          "1950s"
+        ],
+        [
+          "Time",
+          "20th century",
+          "1960s"
+        ],
+        [
+          "Time",
+          "20th century",
+          "1990s"
+        ],
+        [
+          "Time",
+          "21st century",
+          "2000s"
+        ],
+        [
+          "Time",
+          "21st century",
+          "2010s"
+        ],
+        [
+          "Geography",
+          "Europe",
+          "Sweden"
+        ],
+        [
+          "Geography",
+          "Europe",
+          "France"
         ]
       ]
     }

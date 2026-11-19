@@ -672,6 +672,69 @@
       "url": "https://www.access-board.gov/ada/guides/chapter-4-ramps-and-curb-ramps/",
       "access": "free_no_login",
       "notes": "Physical specifications and role of curb ramps and routes for public access."
+    },
+    "gs-migration-sweden-museum": {
+      "title": "Swedish National Museums of Transport History, Hogertafik (Driving on the Right)",
+      "kind": "government_museum_history",
+      "url": "https://www.statensmuseermtf.se/vara-museer-och-samlingar/vara-samlingar/transporthistoria/vaghistoriska-samlingarna/trafikhistoria/hogertrafik",
+      "access": "free_no_login_swedish",
+      "notes": "Primary national transport museum account: September 3, 1967, 04:50 stop, repositioning, 05:00 permitted traffic and 06:00 general reopening, along with a wider history of driving-side regulation."
+    },
+    "gs-migration-sweden-radio": {
+      "title": "Sveriges Radio, Sweden marks 50th anniversary of right-hand side driving (2017)",
+      "kind": "public_broadcaster_historical_reporting",
+      "url": "https://www.sverigesradio.se/artikel/6767655",
+      "access": "free_no_login",
+      "notes": "1955 advisory referendum 83 percent opposition, parliamentary decision in 1963, four-year public campaign and operational timings in 1967."
+    },
+    "gs-migration-ipv6-8200": {
+      "title": "S. Deering and R. Hinden, RFC 8200: Internet Protocol, Version 6 Specification (2017)",
+      "kind": "internet_standard",
+      "url": "https://www.rfc-editor.org/rfc/rfc8200.html",
+      "access": "free_no_login",
+      "notes": "Primary IETF IPv6 protocol specification; 2017 publication obsoletes RFC 2460, which was published in 1998."
+    },
+    "gs-migration-ipv6-4213": {
+      "title": "E. Nordmark and R. Gilligan, RFC 4213: Basic Transition Mechanisms for IPv6 Hosts and Routers (2005)",
+      "kind": "internet_standard",
+      "url": "https://www.rfc-editor.org/rfc/rfc4213.html",
+      "access": "free_no_login",
+      "notes": "Dual-stack and configured tunneling methods to coexist with deployed IPv4; demonstrates transition engineering as a substantive problem."
+    },
+    "gs-migration-ipv6-6146": {
+      "title": "M. Bagnulo, P. Matthews and I. van Beijnum, RFC 6146: Stateful NAT64 (2011)",
+      "kind": "internet_standard",
+      "url": "https://www.rfc-editor.org/rfc/rfc6146.html",
+      "access": "free_no_login",
+      "notes": "A concrete IPv6 to IPv4 translation mechanism. Does not promise full transparency for every application or protocol."
+    },
+    "gs-migration-bipm-kilogram": {
+      "title": "BIPM, How the kilogram is realized (accessed 2026)",
+      "kind": "international_metrology_institution",
+      "url": "https://www.bipm.org/en/physical-metrology-department/kilogram-realization",
+      "access": "free_no_login",
+      "notes": "Kilogram based on a unique artifact until 2019, redefinition through fixed Planck constant, Kibble balance, comparison and traceability."
+    },
+    "gs-migration-bipm-base-units": {
+      "title": "BIPM, SI base units (accessed 2026)",
+      "kind": "international_metrology_institution",
+      "url": "https://www.bipm.org/en/measurement-units/si-base-units",
+      "access": "free_no_login",
+      "notes": "The 2018 revision adopted four redefined SI base units; effective from 20 May 2019."
+    },
+    "gs-migration-bipm-user2019": {
+      "title": "BIPM, Information for users about the redefinition of the SI (updated 20 May 2019)",
+      "kind": "international_metrology_guidance",
+      "url": "https://www.bipm.org/documents/20126/52505189/SI-statement.pdf/a42e1340-2a8f-7cf4-e5c6-ee090d908200",
+      "access": "public_pdf",
+      "notes": "States most users will not notice the SI revision; the new kilogram was chosen for numerical continuity, with specialist electrical-unit corrections also described."
+    },
+    "gs-migration-bipm-resolution-2018": {
+      "title": "BIPM, Resolution 1 of the 26th General Conference on Weights and Measures (2018)",
+      "kind": "international_metrology_resolution",
+      "url": "https://www.bipm.org/en/committees/cg/cgpm/26-2018/resolution-1",
+      "access": "free_no_login",
+      "notes": "Primary institutional text for revised SI definitions and effective date, 20 May 2019."
     }
   }
 }

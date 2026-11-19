@@ -24,7 +24,10 @@ withholding judgment is a serious intellectual act, and when doubt has
 become an excuse or a tactic. The twelfth essay turns from personal humility
 to the institutions that must make honesty and correction possible. The thirteenth
 examines the shared agreements that enable interoperability between strangers
-and asks who can participate in setting those agreements. Each lecture stands alone;
+and asks who can participate in setting those agreements. The fourteenth
+examines how to change shared conventions without needlessly abandoning
+people who rely on them, and when backward compatibility must be broken.
+Each lecture stands alone;
 listeners may choose any order.
 
 - **001000 — The Counterexample Is the Main Character.** Why failure cases
@@ -65,6 +68,11 @@ listeners may choose any order.
   measurements, containers, internet protocols, and accessibility rules are
   more than technical trivia: they make independent cooperation possible,
   while raising difficult questions about power and who defines the interface.
+
+- **014000 — The Upgrade Nobody Can Install Alone.** How to change widely
+  shared rules: Sweden's coordinated 1967 traffic-side switch, decades of
+  IPv4/IPv6 coexistence, and the continuous 2019 kilogram redefinition,
+  with an argument about who pays for migration and who decides.
 
 Spoken narration is inside the standard marker pair in each manuscript. Source
 notes, constructed-example qualifications, and reading links follow the
