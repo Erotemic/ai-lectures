@@ -15,7 +15,8 @@ turns that question onto measurement and organizational objectives. The fifth
 defends amateur curiosity, with a distinction between democratic access to
 knowledge and shortcuts around professional standards. The sixth essay asks whether a worthwhile activity must leave a durable
 artifact. The seventh challenges single-name histories of invention and discovery
-without erasing the achievements of specific people. Each lecture stands alone;
+without erasing the achievements of specific people. The eighth celebrates instrument-mediated
+science as a disciplined way to extend observation beyond human senses. Each lecture stands alone;
 listeners may choose any order.
 
 - **001000 — The Counterexample Is the Main Character.** Why failure cases
@@ -33,6 +34,9 @@ listeners may choose any order.
 - **007000 — The Name on the Door Is Not the Building.** Why collective
   scientific and technical achievements cannot be reduced to a famous name,
   and how to distinguish attribution, dependence, and reward.
+- **008000 — The Invisible Is Not the Imaginary.** How experiments and instruments
+  reveal physical phenomena that our unaided senses cannot register, and why
+  calibration and independent checks matter more than a vivid picture.
 
 Spoken narration is inside the standard marker pair in each manuscript. Source
 notes, constructed-example qualifications, and reading links follow the

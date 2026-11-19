@@ -1,0 +1,402 @@
+{
+  "schema_version": 1,
+  "lecture_id": "008000",
+  "transcript": "008000-the-invisible-is-not-the-imaginary.md",
+  "description": "Argues that unseen phenomena are not intrinsically speculative and that instruments earn trust through calibration, predicted effects, and independent checks; follows Herschel’s infrared experiment, Jansky’s cosmic radio signal, neutrino detection, IceCube, and the first LIGO gravitational-wave event.",
+  "tags": [
+    "Science and scientific evidence",
+    "Scientific instruments",
+    "Observation and inference",
+    "Philosophy of science",
+    "Measurement",
+    "Calibration",
+    "Instrument error",
+    "Electromagnetic spectrum",
+    "Infrared radiation",
+    "William Herschel",
+    "Radio astronomy",
+    "Karl Jansky",
+    "Milky Way",
+    "Astronomical imaging",
+    "Hubble Space Telescope",
+    "Neutrino physics",
+    "Wolfgang Pauli",
+    "Clyde Cowan",
+    "Frederick Reines",
+    "Cherenkov radiation",
+    "IceCube Neutrino Observatory",
+    "Multi-messenger astronomy",
+    "TXS 0506+056",
+    "LIGO",
+    "Gravitational waves",
+    "Black holes",
+    "GW150914",
+    "Interferometry",
+    "Scientific uncertainty",
+    "1800",
+    "1930s",
+    "1950s",
+    "2010s",
+    "United Kingdom",
+    "United States",
+    "New Jersey",
+    "South Carolina",
+    "Washington state",
+    "Louisiana",
+    "Antarctica",
+    "South Pole"
+  ],
+  "tag_paths": [
+    [
+      "Philosophy",
+      "Philosophy of science",
+      "Observation and inference"
+    ],
+    [
+      "Science",
+      "Physics",
+      "Electromagnetic radiation"
+    ],
+    [
+      "Science",
+      "Astronomy",
+      "Radio astronomy"
+    ],
+    [
+      "Science",
+      "Astronomy",
+      "Multi-messenger astronomy"
+    ],
+    [
+      "Science",
+      "Physics",
+      "Neutrino detection"
+    ],
+    [
+      "Science",
+      "Physics",
+      "Gravitational waves"
+    ],
+    [
+      "Engineering",
+      "Instrumentation",
+      "Measurement and calibration"
+    ],
+    [
+      "Computing",
+      "Scientific visualization",
+      "Signal and image interpretation"
+    ],
+    [
+      "Time",
+      "19th century",
+      "1800"
+    ],
+    [
+      "Time",
+      "20th century",
+      "1930s–1950s"
+    ],
+    [
+      "Time",
+      "21st century",
+      "2010s"
+    ],
+    [
+      "Geography",
+      "Europe",
+      "United Kingdom"
+    ],
+    [
+      "Geography",
+      "North America",
+      "United States",
+      "New Jersey"
+    ],
+    [
+      "Geography",
+      "North America",
+      "United States",
+      "South Carolina"
+    ],
+    [
+      "Geography",
+      "North America",
+      "United States",
+      "Louisiana"
+    ],
+    [
+      "Geography",
+      "North America",
+      "United States",
+      "Washington"
+    ],
+    [
+      "Geography",
+      "Antarctica",
+      "South Pole"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "gs-invisible-herschel",
+      "reason": "Original experimental context of infrared measurement."
+    },
+    {
+      "source_id": "gs-invisible-jansky-nrao",
+      "reason": "Archival chronology and methods for cosmic radio discovery."
+    },
+    {
+      "source_id": "gs-invisible-hubble",
+      "reason": "Explains the observational basis of composite scientific images."
+    },
+    {
+      "source_id": "gs-invisible-neutrino-history",
+      "reason": "Chronology of neutrino prediction and first detection."
+    },
+    {
+      "source_id": "gs-invisible-icecube-how",
+      "reason": "Mechanism of indirect neutrino detection."
+    },
+    {
+      "source_id": "gs-invisible-icecube-2018-a",
+      "reason": "Source association supported by multi-messenger observations."
+    },
+    {
+      "source_id": "gs-invisible-icecube-2018-b",
+      "reason": "Archival, statistical evidence for neutrino emission."
+    },
+    {
+      "source_id": "gs-invisible-ligo-detection",
+      "reason": "First confirmed LIGO detection dates and documentary record."
+    },
+    {
+      "source_id": "gs-invisible-ligo-how",
+      "reason": "Physical measurement mechanism of the interferometer."
+    },
+    {
+      "source_id": "gs-invisible-ligo-explainer",
+      "reason": "Inferential role of waveform comparison and noise testing."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "soap-008-h001",
+      "anchor": "In 1800, William Herschel performed an experiment with sunlight and a prism.",
+      "kind": "research_history",
+      "source_ids": [
+        "gs-invisible-herschel"
+      ],
+      "source_locator": "NASA Infrared Waves, DISCOVERY OF INFRARED",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "soap-008-h002",
+      "anchor": "The temperature rose higher still.",
+      "kind": "research_history",
+      "source_ids": [
+        "gs-invisible-herschel"
+      ],
+      "source_locator": "NASA Infrared Waves, DISCOVERY OF INFRARED",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "soap-008-h003",
+      "anchor": "In 1933 he presented work identifying radio waves from beyond the solar system, associated with the Milky Way.",
+      "kind": "research_history",
+      "source_ids": [
+        "gs-invisible-jansky-nrao",
+        "gs-invisible-jansky-nist"
+      ],
+      "source_locator": "NRAO Jansky finding aid, archival background and 1933 presentations",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "soap-008-h004",
+      "anchor": "The Hubble Space Telescope's own educational material explains that its camera data can be recorded in grayscale exposures taken through different filters, then combined into color images.",
+      "kind": "research_history",
+      "source_ids": [
+        "gs-invisible-hubble"
+      ],
+      "source_locator": "NASA Hubble FAQ, Hubble Observations",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "soap-008-h005",
+      "anchor": "In 1930, Wolfgang Pauli proposed that an electrically neutral particle might account for the apparently missing energy and angular momentum in a type of radioactive decay.",
+      "kind": "research_history",
+      "source_ids": [
+        "gs-invisible-neutrino-history",
+        "gs-invisible-neutrino-discovery"
+      ],
+      "source_locator": "Fermilab neutrino history, Pauli 1930",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "soap-008-h006",
+      "anchor": "In 1956, Clyde Cowan and Frederick Reines reported the detection of neutrinos produced by a nuclear reactor.",
+      "kind": "research_history",
+      "source_ids": [
+        "gs-invisible-neutrino-history",
+        "gs-invisible-neutrino-discovery"
+      ],
+      "source_locator": "Fermilab neutrino history, Cowan–Reines 1956",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "soap-008-h007",
+      "anchor": "The IceCube Neutrino Observatory instruments roughly a cubic kilometer of ice with thousands of light sensors, deployed on strings buried far below the surface.",
+      "kind": "research_history",
+      "source_ids": [
+        "gs-invisible-icecube-nasa",
+        "gs-invisible-icecube-how"
+      ],
+      "source_locator": "NASA mission, IceCube Masterclass detector",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "soap-008-h008",
+      "anchor": "In September 2017, IceCube recorded a high-energy neutrino event.",
+      "kind": "research_history",
+      "source_ids": [
+        "gs-invisible-icecube-2018-a"
+      ],
+      "source_locator": "Science 361 (2018), abstract of multi-messenger analysis",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "soap-008-h009",
+      "anchor": "In September 2015, two observatories in the United States registered a brief signal.",
+      "kind": "research_history",
+      "source_ids": [
+        "gs-invisible-ligo-detection",
+        "gs-invisible-ligo-mit"
+      ],
+      "source_locator": "LIGO GW150914 overview, MIT press report",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "soap-008-h010",
+      "anchor": "The discovery was announced in February 2016.",
+      "kind": "research_history",
+      "source_ids": [
+        "gs-invisible-ligo-detection"
+      ],
+      "source_locator": "LIGO Feb 11 2016 announcement",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "soap-008-h011",
+      "anchor": "Each of LIGO's main arms is about four kilometers long, with arrangements of mirrors that allow the optical measurement to be sensitive to changes vastly smaller than ordinary engineering tolerances.",
+      "kind": "research_history",
+      "source_ids": [
+        "gs-invisible-ligo-how"
+      ],
+      "source_locator": "Caltech, LIGO's Interferometer",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "soap-008-h012",
+      "anchor": "The first detected event, called GW150914, had the rising-frequency pattern physicists call a *chirp*.",
+      "kind": "research_history",
+      "source_ids": [
+        "gs-invisible-ligo-mit"
+      ],
+      "source_locator": "MIT Advanced LIGO News 2016",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "soap-008-h013",
+      "anchor": "You can hear versions of the event played as audio.",
+      "kind": "research_history",
+      "source_ids": [
+        "gs-invisible-ligo-audio"
+      ],
+      "source_locator": "LIGO GW150914, Audio and data",
+      "audit_status": "source_passage_checked"
+    }
+  ],
+  "claim_evidence": [
+    {
+      "id": "soap-008-c101",
+      "anchor": "A temperature reading is not a little picture of the radiation that produced it.",
+      "source_ids": [
+        "gs-invisible-herschel"
+      ],
+      "provenance": "instrumentation_inference",
+      "source_locator": "Sources and claims described in institutional source",
+      "evidence_detail": "The underlying observation was a thermometer reading; modern radiation interpretation is distinct."
+    },
+    {
+      "id": "soap-008-c102",
+      "anchor": "The important object was not a sound. It was a pattern of relationships.",
+      "source_ids": [
+        "gs-invisible-jansky-nrao"
+      ],
+      "provenance": "analysis_of_sources",
+      "source_locator": "Sources and claims described in institutional source",
+      "evidence_detail": "Direction and recurrence of a radio source, rather than direct optical observation, identified its celestial character."
+    },
+    {
+      "id": "soap-008-c103",
+      "anchor": "The Hubble Space Telescope's own educational material explains that its camera data can be recorded in grayscale exposures taken through different filters, then combined into color images.",
+      "source_ids": [
+        "gs-invisible-hubble"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Sources and claims described in institutional source",
+      "evidence_detail": "NASA explicitly describes filter composites and assigned colors for invisible wavelengths."
+    },
+    {
+      "id": "soap-008-c104",
+      "anchor": "IceCube's sensors register when and where light arrives.",
+      "source_ids": [
+        "gs-invisible-icecube-how"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Sources and claims described in institutional source",
+      "evidence_detail": "Secondary Cherenkov light measured as detector signals, then events reconstructed."
+    },
+    {
+      "id": "soap-008-c105",
+      "anchor": "Researchers assessed chance coincidences, looked at archival observations, and explored alternative explanations.",
+      "source_ids": [
+        "gs-invisible-icecube-2018-a",
+        "gs-invisible-icecube-2018-b"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Sources and claims described in IceCube and LIGO",
+      "evidence_detail": "Statistical association and separate archival search; general mention of alternative causes is methodological synthesis."
+    },
+    {
+      "id": "soap-008-c106",
+      "anchor": "Many disturbances local to one observatory will not appear with a physically plausible delay and corresponding structure in the other.",
+      "source_ids": [
+        "gs-invisible-ligo-mit",
+        "gs-invisible-ligo-explainer"
+      ],
+      "provenance": "methodological_synthesis",
+      "source_locator": "Sources and claims described in IceCube and LIGO",
+      "evidence_detail": "Inferred from detectors and coincidence analysis; not a categorical claim that all correlated noise is ruled out."
+    }
+  ],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original interpretive essay; historical and experimental claims supported by NASA, NRAO, Fermilab, IceCube, and LIGO records. No invented historical dialogues or private experiences. Thought experiments and normative views are marked as arguments, not sourced experimental results."
+  },
+  "learning": {
+    "reviewed": true,
+    "background": [
+      "General curiosity; introduces electromagnetic radiation, radio astronomy, neutrinos, and interferometry without assumed physics prerequisites."
+    ],
+    "readiness_checks": [
+      "Explain how an instrument can provide evidence for something human eyes cannot detect.",
+      "Distinguish a measured effect from the physical inference drawn from it.",
+      "Describe the relation between Jansky’s noise observations and the discovery of radio astronomy.",
+      "Explain why a neutrino detector records secondary light, not neutrino light.",
+      "Describe the roles of the two LIGO instruments, waveform models, and noise tests.",
+      "Explain why an invisible claim requires testable consequences rather than automatic belief."
+    ]
+  }
+}
