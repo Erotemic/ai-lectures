@@ -1,0 +1,155 @@
+{
+  "schema_version": 1,
+  "lecture_id": "020000",
+  "transcript": "020000-when-the-valley-starts-to-flow.md",
+  "description": "Explains dense sediment-water flow mechanics, postfire runoff, lahars, debris-flow runout and the 2018 Montecito event.",
+  "tags": [
+    "Debris flow",
+    "Postfire hazard",
+    "Runout",
+    "Wildfire",
+    "Rainfall intensity",
+    "Sediment entrainment",
+    "Alluvial fan",
+    "Lahar",
+    "Montecito debris flow",
+    "Storm hydrology"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Earth science",
+      "Geology",
+      "Debris flow"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Geology",
+      "Postfire hazard"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Geology",
+      "Runout"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Geology",
+      "Wildfire"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Geology",
+      "Rainfall intensity"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Geology",
+      "Sediment entrainment"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Geology",
+      "Alluvial fan"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Geology",
+      "Lahar"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Geology",
+      "Montecito debris flow"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Geology",
+      "Storm hydrology"
+    ],
+    [
+      "Place: Americas",
+      "Place: North America",
+      "Place: United States",
+      "Place: California",
+      "Place: Montecito"
+    ],
+    [
+      "Place: Americas",
+      "Place: North America",
+      "Place: United States",
+      "Place: California",
+      "Place: Santa Ynez Mountains"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "de-usgs-postfire-debris",
+      "reason": "Postfire runoff generation, rainfall intensity and the entrainment of channel sediment."
+    },
+    {
+      "source_id": "de-usgs-montecito",
+      "reason": "January 2018 debris-flow paths, fatalities, damage and fan inundation in Montecito."
+    },
+    {
+      "source_id": "de-usgs-debris-runout",
+      "reason": "Difference between initiation likelihood, volume estimates and downstream runout mapping."
+    },
+    {
+      "source_id": "de-usgs-landslide-types",
+      "reason": "Classification of slope movement, triggers, orientation of fractures and groundwater effects."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "de-020000-01",
+      "anchor": "On January ninth, twenty eighteen",
+      "kind": "historical_event",
+      "source_ids": [
+        "de-usgs-montecito"
+      ],
+      "source_locator": "Montecito debris flows, California, 9 January 2018",
+      "audit_status": "source_checked"
+    }
+  ],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original Dynamic Earth hazards, resources and field reasoning lecture, companion and source-linked metadata."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "All geological processes and calculations are developed in the standalone narration."
+    ],
+    "readiness_checks": [
+      "How can postfire debris flow initiate without a distinct initial slide?",
+      "What is missing from a source-basin probability map if you need to evaluate a home on a fan?"
+    ]
+  },
+  "places": [
+    "Montecito, California, United States",
+    "Santa Ynez Mountains, California, United States"
+  ],
+  "chronology": {
+    "period": {
+      "start": 2018,
+      "label": "Montecito debris flows, California, 9 January 2018",
+      "basis": "documented natural hazard event",
+      "note": "The date identifies the event discussed, not the formation of the rock units.",
+      "source_ids": [
+        "de-usgs-montecito"
+      ]
+    }
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "schema_version": 1,
+  "lecture_id": "022000",
+  "transcript": "022000-a-hazard-map-is-a-question.md",
+  "description": "Distinguishes inventories, susceptibility, conditional probability, runout, exposure and risk, including the compounding of annual probabilities.",
+  "tags": [
+    "Landslide hazard map",
+    "Susceptibility",
+    "Hazard probability",
+    "Risk assessment",
+    "Exposure",
+    "Vulnerability",
+    "Runout modeling",
+    "Lidar",
+    "Land-use planning",
+    "Uncertainty"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Earth science",
+      "Geology",
+      "Landslide hazard map"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Geology",
+      "Susceptibility"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Geology",
+      "Hazard probability"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Geology",
+      "Risk assessment"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Geology",
+      "Exposure"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Geology",
+      "Vulnerability"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Geology",
+      "Runout modeling"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Geology",
+      "Lidar"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Geology",
+      "Land-use planning"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Geology",
+      "Uncertainty"
+    ],
+    [
+      "Place: Americas",
+      "Place: North America",
+      "Place: United States"
+    ],
+    [
+      "Place: Americas",
+      "Place: North America",
+      "Place: United States",
+      "Place: Washington",
+      "Place: Oso"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "de-usgs-landslide-map",
+      "reason": "Historical landslide inventory, mapping biases and national susceptibility classifications."
+    },
+    {
+      "source_id": "de-usgs-landslide-risk",
+      "reason": "Distinguishing susceptibility, probabilistic estimates, exposure and risk."
+    },
+    {
+      "source_id": "de-usgs-debris-hazard-faq",
+      "reason": "Conditional design-storm initiation and volume maps and limitations for runout inference."
+    },
+    {
+      "source_id": "de-usgs-oso-lidar",
+      "reason": "Pre-event lidar and evidence of earlier landslides in the Stillaguamish River valley."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original Dynamic Earth hazards, resources and field reasoning lecture, companion and source-linked metadata."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "All geological processes and calculations are developed in the standalone narration."
+    ],
+    "readiness_checks": [
+      "What decision can a susceptibility map support that it cannot determine alone?",
+      "When does a one-percent annual probability accumulate to twenty-six percent over thirty years?"
+    ]
+  },
+  "places": [
+    "United States",
+    "Oso, Washington, United States"
+  ]
+}

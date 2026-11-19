@@ -1,7 +1,7 @@
 {
   "id": "dynamic-earth",
   "title": "The Dynamic Earth: Plates, Quakes, Volcanoes, and Landscapes",
-  "summary": "Eighteen standalone, evidence-led lectures following the solid Earth from plate motions, earthquakes and volcanoes through crustal thickening, metamorphism, landscape erosion and the geological record.",
+  "summary": "Twenty-seven standalone, evidence-led lectures following plate motion and earthquake physics through mountain building and geological time to ground failure, mineral resources, geothermal systems and field inference.",
   "categories": [
     "Science and nature"
   ],
@@ -27,7 +27,16 @@
     "Glacial geology",
     "Stratigraphy",
     "Geochronology",
-    "Mountain building"
+    "Mountain building",
+    "Landslides",
+    "Debris flows",
+    "Liquefaction",
+    "Geological hazard mapping",
+    "Mineral resources",
+    "Economic geology",
+    "Hydrothermal systems",
+    "Geothermal energy",
+    "Geological field methods"
   ],
   "tag_paths": [
     [
@@ -63,7 +72,16 @@
     "sedimentary_basins_and_records",
     "relative_time_and_structure",
     "geochronology_and_thermochronology",
-    "appalachian_reconstruction"
+    "appalachian_reconstruction",
+    "slope_strength_and_failure",
+    "debris_flows_and_runout",
+    "earthquake_ground_failure",
+    "hazard_maps_and_risk",
+    "ore_genesis_and_concentration",
+    "hydrothermal_ore_systems",
+    "geological_exploration_and_resources",
+    "geothermal_resources",
+    "hazards_resources_field_case"
   ],
   "lectures": [
     {
@@ -1207,6 +1225,800 @@
         [
           "Place: Europe",
           "Place: United Kingdom"
+        ]
+      ]
+    },
+    {
+      "id": "019000",
+      "title": "How a Hillside Holds Together: Friction, Water, and Sudden Failure",
+      "section": "slope_strength_and_failure",
+      "file": "019000-how-a-hillside-holds-together.md",
+      "spoken_words": 1531,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 10.6,
+      "description": "Builds shear-strength and pore-pressure mechanics, contrasts rockfall, rotational sliding and deep creep, and investigates the 2014 Oso landslide.",
+      "tags": [
+        "Landslide",
+        "Rockfall",
+        "Slope stability",
+        "Factor of safety",
+        "Pore-water pressure",
+        "Effective stress",
+        "Mohr-Coulomb",
+        "Rock joints",
+        "Slope monitoring",
+        "Oso landslide"
+      ],
+      "tag_paths": [
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Landslide"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Rockfall"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Slope stability"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Factor of safety"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Pore-water pressure"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Effective stress"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Mohr-Coulomb"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Rock joints"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Slope monitoring"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Oso landslide"
+        ],
+        [
+          "Place: Americas",
+          "Place: North America",
+          "Place: United States",
+          "Place: Washington",
+          "Place: Oso"
+        ]
+      ]
+    },
+    {
+      "id": "020000",
+      "title": "When the Valley Starts to Flow: Debris Flows, Fire, and Lahars",
+      "section": "debris_flows_and_runout",
+      "file": "020000-when-the-valley-starts-to-flow.md",
+      "spoken_words": 1498,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 10.3,
+      "description": "Explains dense sediment-water flow mechanics, postfire runoff, lahars, debris-flow runout and the 2018 Montecito event.",
+      "tags": [
+        "Debris flow",
+        "Postfire hazard",
+        "Runout",
+        "Wildfire",
+        "Rainfall intensity",
+        "Sediment entrainment",
+        "Alluvial fan",
+        "Lahar",
+        "Montecito debris flow",
+        "Storm hydrology"
+      ],
+      "tag_paths": [
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Debris flow"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Postfire hazard"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Runout"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Wildfire"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Rainfall intensity"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Sediment entrainment"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Alluvial fan"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Lahar"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Montecito debris flow"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Storm hydrology"
+        ],
+        [
+          "Place: Americas",
+          "Place: North America",
+          "Place: United States",
+          "Place: California",
+          "Place: Montecito"
+        ],
+        [
+          "Place: Americas",
+          "Place: North America",
+          "Place: United States",
+          "Place: California",
+          "Place: Santa Ynez Mountains"
+        ]
+      ]
+    },
+    {
+      "id": "021000",
+      "title": "When the Ground Loses Its Strength: Liquefaction and Earthquake Ground Failure",
+      "section": "earthquake_ground_failure",
+      "file": "021000-when-the-ground-loses-its-strength.md",
+      "spoken_words": 1445,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 10.0,
+      "description": "Derives liquefaction from effective-stress loss, then distinguishes settlement, lateral spreading, shaking amplification and site investigation.",
+      "tags": [
+        "Liquefaction",
+        "Earthquake ground failure",
+        "Cyclic loading",
+        "Effective stress",
+        "Pore pressure",
+        "Lateral spreading",
+        "Sand boils",
+        "Seismic site effects",
+        "Site investigation",
+        "Niigata earthquake"
+      ],
+      "tag_paths": [
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Liquefaction"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Earthquake ground failure"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Cyclic loading"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Effective stress"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Pore pressure"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Lateral spreading"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Sand boils"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Seismic site effects"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Site investigation"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Niigata earthquake"
+        ],
+        [
+          "Place: Asia",
+          "Place: Japan",
+          "Place: Niigata"
+        ]
+      ]
+    },
+    {
+      "id": "022000",
+      "title": "A Hazard Map Is a Question: Probability, Exposure, and Geological Risk",
+      "section": "hazard_maps_and_risk",
+      "file": "022000-a-hazard-map-is-a-question.md",
+      "spoken_words": 1534,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 10.6,
+      "description": "Distinguishes inventories, susceptibility, conditional probability, runout, exposure and risk, including the compounding of annual probabilities.",
+      "tags": [
+        "Landslide hazard map",
+        "Susceptibility",
+        "Hazard probability",
+        "Risk assessment",
+        "Exposure",
+        "Vulnerability",
+        "Runout modeling",
+        "Lidar",
+        "Land-use planning",
+        "Uncertainty"
+      ],
+      "tag_paths": [
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Landslide hazard map"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Susceptibility"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Hazard probability"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Risk assessment"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Exposure"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Vulnerability"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Runout modeling"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Lidar"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Land-use planning"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Uncertainty"
+        ],
+        [
+          "Place: Americas",
+          "Place: North America",
+          "Place: United States"
+        ],
+        [
+          "Place: Americas",
+          "Place: North America",
+          "Place: United States",
+          "Place: Washington",
+          "Place: Oso"
+        ]
+      ]
+    },
+    {
+      "id": "023000",
+      "title": "Why a Deposit Becomes Ore: How Geology Concentrates the Elements",
+      "section": "ore_genesis_and_concentration",
+      "file": "023000-why-a-deposit-becomes-ore.md",
+      "spoken_words": 1501,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 10.4,
+      "description": "Compares magmatic, hydrothermal, sedimentary, placer and weathering enrichment, and separates contained metal from recoverable ore.",
+      "tags": [
+        "Ore genesis",
+        "Ore grade",
+        "Mineral deposits",
+        "Magmatic differentiation",
+        "Hydrothermal fluids",
+        "Placer deposits",
+        "Laterite",
+        "Supergene enrichment",
+        "Economic geology",
+        "Mining impacts"
+      ],
+      "tag_paths": [
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Ore genesis"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Ore grade"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Mineral deposits"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Magmatic differentiation"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Hydrothermal fluids"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Placer deposits"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Laterite"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Supergene enrichment"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Economic geology"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Mining impacts"
+        ]
+      ]
+    },
+    {
+      "id": "024000",
+      "title": "When Hot Water Carries Metals: Hydrothermal Veins, Copper, and the Seafloor",
+      "section": "hydrothermal_ore_systems",
+      "file": "024000-when-hot-water-carries-metals.md",
+      "spoken_words": 1502,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 10.4,
+      "description": "Explores fluid speciation and precipitation in seafloor massive sulfide, porphyry copper and epithermal ore systems.",
+      "tags": [
+        "Hydrothermal ore deposits",
+        "Volcanogenic massive sulfide",
+        "Porphyry copper",
+        "Epithermal veins",
+        "Fluid inclusions",
+        "Metalliferous hydrothermal vents",
+        "Fluid-rock alteration",
+        "Geothermal fluids",
+        "Geochemical speciation",
+        "Sulfide minerals"
+      ],
+      "tag_paths": [
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Hydrothermal ore deposits"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Volcanogenic massive sulfide"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Porphyry copper"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Epithermal veins"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Fluid inclusions"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Metalliferous hydrothermal vents"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Fluid-rock alteration"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Geothermal fluids"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Geochemical speciation"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Sulfide minerals"
+        ]
+      ]
+    },
+    {
+      "id": "025000",
+      "title": "What a Drill Hole Does Not Know: Exploring a Hidden Ore Body",
+      "section": "geological_exploration_and_resources",
+      "file": "025000-what-a-drill-hole-does-not-know.md",
+      "spoken_words": 1483,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 10.2,
+      "description": "Builds ore-body estimates from maps, core, surveys and assays while treating inverse problems, sampling bias, grade/tonnage and mine feasibility.",
+      "tags": [
+        "Mineral exploration",
+        "Geophysical surveys",
+        "Geochemical surveys",
+        "Drill core",
+        "Ore grade",
+        "Resource estimation",
+        "Sampling bias",
+        "Assay quality control",
+        "Grade-tonnage models",
+        "Geological inverse problem"
+      ],
+      "tag_paths": [
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Mineral exploration"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Geophysical surveys"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Geochemical surveys"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Drill core"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Ore grade"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Resource estimation"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Sampling bias"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Assay quality control"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Grade-tonnage models"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Geological inverse problem"
+        ]
+      ]
+    },
+    {
+      "id": "026000",
+      "title": "The Heat Is There, but Can We Reach It? Geothermal Energy Underground",
+      "section": "geothermal_resources",
+      "file": "026000-the-heat-is-there-but-can-we-reach-it.md",
+      "spoken_words": 1604,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 11.1,
+      "description": "Distinguishes heat flow, geothermal gradient, natural hydrothermal and enhanced reservoirs, electrical conversion, scaling and induced seismicity.",
+      "tags": [
+        "Geothermal energy",
+        "Heat flow",
+        "Geothermal gradient",
+        "Enhanced geothermal systems",
+        "Geothermal reservoirs",
+        "Thermal power",
+        "Binary-cycle power",
+        "Fracture permeability",
+        "Induced seismicity",
+        "Ground-source heat pump"
+      ],
+      "tag_paths": [
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Geothermal energy"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Heat flow"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Geothermal gradient"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Enhanced geothermal systems"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Geothermal reservoirs"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Thermal power"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Binary-cycle power"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Fracture permeability"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Induced seismicity"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Ground-source heat pump"
+        ]
+      ]
+    },
+    {
+      "id": "027000",
+      "title": "The Valley with Three Possible Futures: A Geological Field Investigation",
+      "section": "hazards_resources_field_case",
+      "file": "027000-the-valley-with-three-possible-futures.md",
+      "spoken_words": 1918,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 13.2,
+      "description": "Works through an explicitly fictional valley where slope, ore, geothermal and water-quality evidence support competing geological models and different tests.",
+      "tags": [
+        "Geological field investigation",
+        "Geological uncertainty",
+        "Geological mapping",
+        "Landslide monitoring",
+        "Debris-flow fan",
+        "Mineral prospecting",
+        "Hydrothermal fault",
+        "Geothermal evaluation",
+        "Water-quality sampling",
+        "Evidence-based decision making"
+      ],
+      "tag_paths": [
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Geological field investigation"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Geological uncertainty"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Geological mapping"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Landslide monitoring"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Debris-flow fan"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Mineral prospecting"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Hydrothermal fault"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Geothermal evaluation"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Water-quality sampling"
+        ],
+        [
+          "Science",
+          "Earth science",
+          "Geology",
+          "Evidence-based decision making"
         ]
       ]
     }

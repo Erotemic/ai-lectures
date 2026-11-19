@@ -1,29 +1,27 @@
 # Dynamic Earth — authoring backlog
 
-## Completed: plate motion, earthquakes and volcanoes (001000–009000)
+## Completed: plates, earthquakes and volcanoes (001000–009000)
 
-- [x] Evidence for plate tectonics; Earth interior and mantle rheology
-- [x] Plate forces, ridges, transforms and subduction
-- [x] Fault rupture, seismic waves, tsunamis and early warning
-- [x] Melt generation, eruption behavior and volcanic hazards
+- [x] Tectonic evidence, seismic interior, plate forces and boundaries
+- [x] Earthquake fault rupture, shaking and tsunami mechanisms
+- [x] Magma generation and eruption dynamics
 
-## Completed: mountains, surfaces and rock history (010000–018000)
+## Completed: mountains, landscapes and rock history (010000–018000)
 
-- [x] Crustal thickening, mountain building and isostasy
-- [x] Metamorphic mineral assemblages, deformation, burial and exhumation
-- [x] Rock weathering, soils and silicate–carbonate carbon accounting
-- [x] Rivers, hillslopes, sediment budgets and drainage adjustment
-- [x] Glacial flow, erosion, deposits and postglacial rebound
-- [x] Sedimentary basins, facies, compaction and provenance
-- [x] Relative geological time, faults, folds and unconformities
-- [x] Radiometric and thermochronological dating; limits of each clock
-- [x] Integrated Appalachian structural and basin reconstruction
+- [x] Crustal thickening, isostasy, metamorphism and exhumation
+- [x] Weathering, rivers, glaciers, sedimentary basins and stratigraphy
+- [x] Relative chronology, isotopic clocks and Appalachian reconstruction
 
-## Possible later developments
+## Completed: hazards, resources and field reasoning (019000–027000)
 
-- [ ] Rockfall, landslides, debris flows and geologic risk mapping across terrain
-- [ ] Ore deposits, hydrothermal fluids and the geology of materials
-- [ ] Geothermal systems and volcanic/tectonic heat resources
-- [ ] Field reconstruction from conflicting maps, drill records and uncertainties
+- [x] Rockfall and landslide mechanics, pore pressures, movement types and Oso case
+- [x] Debris-flow mechanics, postfire initiation, runout, Montecito and lahars
+- [x] Earthquake liquefaction, lateral spreading and ground-site investigations
+- [x] Hazard inventories, susceptibility, conditional probability and risk
+- [x] Ore concentrating mechanisms and mineral resource versus reserve
+- [x] Hydrothermal vents, porphyry copper and epithermal mineralization
+- [x] Geophysics, drilling, assays, spatial uncertainty and ore estimation
+- [x] Natural and enhanced geothermal energy systems and limits
+- [x] Fictional field case with conflicting geological observations and testable hypotheses
 
-These are possibilities rather than a release checklist. Prioritize well-supported geological explanation and meaningful listening arcs over completing a prescribed inventory.
+The present arc is complete. Specialist regional case studies can be added when their evidence and narrative justify them; no mandatory expansion backlog remains. For the Science and Nature library, prioritize evolution, ecology and populations next.

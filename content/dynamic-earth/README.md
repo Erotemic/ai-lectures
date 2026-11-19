@@ -1,8 +1,8 @@
 # The Dynamic Earth: Plates, Quakes, Volcanoes, and Landscapes
 
-**Status:** eighteen completed standalone audio-first lectures, numbered 001000–018000. Independent Science and Nature course.
+**Status:** twenty-seven completed standalone audio-first lectures, numbered 001000–027000. Independent Science and Nature course.
 
-The first nine lectures introduce plate-tectonic evidence, Earth’s interior, plate boundaries, earthquakes, magma and volcano hazards. Lectures 010000–018000 extend the course into mountain roots, metamorphic history, rock weathering, sediment transport, glaciers, sedimentary basins, relative dating, isotopic chronology and an Appalachian reconstruction. Each manuscript is self-contained for a general adult audience and includes a non-spoken scientific companion.
+The first nine lectures teach tectonic evidence, the interior, plate boundaries, earthquakes and eruptions. Lectures 010000–018000 explain mountains, metamorphism, weathering, rivers, glaciers, basins, geological chronology and the Appalachians. Lectures 019000–027000 extend this to rock and slope failure, debris flows, liquefaction, risk maps, mineral resources, hydrothermal systems, drilling, geothermal resources and an explicitly fictional field case. Every manuscript stands alone for a general adult audience with a non-spoken scientific companion.
 
 ## Published manuscripts
 
@@ -26,22 +26,31 @@ The first nine lectures introduce plate-tectonic evidence, Earth’s interior, p
 | 016000 | A Cliff Is an Order of Events: Relative Time, Faults, and Missing Chapters | 1,591 | 11.0 min |
 | 017000 | Clocks Hidden in Crystals: Radioactive Dates and Geological Time | 1,594 | 11.0 min |
 | 018000 | Reconstructing the Appalachians: A Mountain Range with Several Histories | 1,689 | 11.6 min |
+| 019000 | How a Hillside Holds Together: Friction, Water, and Sudden Failure | 1,531 | 10.6 min |
+| 020000 | When the Valley Starts to Flow: Debris Flows, Fire, and Lahars | 1,498 | 10.3 min |
+| 021000 | When the Ground Loses Its Strength: Liquefaction and Earthquake Ground Failure | 1,445 | 10.0 min |
+| 022000 | A Hazard Map Is a Question: Probability, Exposure, and Geological Risk | 1,534 | 10.6 min |
+| 023000 | Why a Deposit Becomes Ore: How Geology Concentrates the Elements | 1,501 | 10.4 min |
+| 024000 | When Hot Water Carries Metals: Hydrothermal Veins, Copper, and the Seafloor | 1,502 | 10.4 min |
+| 025000 | What a Drill Hole Does Not Know: Exploring a Hidden Ore Body | 1,483 | 10.2 min |
+| 026000 | The Heat Is There, but Can We Reach It? Geothermal Energy Underground | 1,604 | 11.1 min |
+| 027000 | The Valley with Three Possible Futures: A Geological Field Investigation | 1,918 | 13.2 min |
 
-**Full course:** 25,720 spoken words; about 177 minutes at 145 words per minute.
-**Surface and rock-record unit (010000–018000):** 14,073 spoken words; about 97 minutes.
+**Full course:** 39,736 spoken words, approximately 274 minutes at 145 words/minute.
+**Hazards and resources unit (019000–027000):** 14,016 spoken words, approximately 97 minutes.
 
 ## Listening routes
 
-The primary route follows all eighteen manuscripts. Focused routes cover plate evidence and motion, earthquake physics, eruptions, mountain building and metamorphism, transport and weathering, rock chronology and one Appalachian reconstruction. A shorter sampler is available for the second unit.
+The main collection follows all twenty-seven lectures in order. Focused routes connect slope failure and mapping, mineral concentration and exploration, geothermal heat, and the hypothetical Slate Fork field investigation. A short three-lecture sampler introduces the new unit.
 
 ## Authoring contract
 
-Each Markdown manuscript has one spoken region, a scientific companion, source readings and reasoning questions. The metadata sidecar contains discovery concepts, source IDs and grounded geography/date associations. `track.json` is the inventory, and `navigation.json` defines listening routes. No audio or binary images are distributed.
+Each Markdown manuscript contains one spoken region, non-spoken scientific companion, reading sources and review questions. Sidecars carry topic and geographic tags, source IDs and historical chronology only where there is a documented historical event. `track.json` and `navigation.json` form the inventory and listening routes. No audio or binary images are included.
 
-## What this course adds
+## Interpreting the third unit
 
-This course addresses solid-Earth mechanics beyond the Earth Systems and Deep Time surveys. The second unit treats rocks as evidence: mountains are built and unroofed; minerals record pressure and temperature; weathering, rivers and glaciers move materials into basins; field relationships order events; isotope systems assign appropriately interpreted numerical ages. The Appalachians capstone tests the entire chain with a regional case.
+The first four lectures separate slope-failure initiation from runout, and map susceptibility from conditional hazard and consequence. The second three distinguish geological concentration from economic extraction and direct sample evidence from uncertain 3D resource models. The geothermal lecture distinguishes rock heat, circulating thermal energy and generated electricity. The fictional capstone deliberately leaves competing models unresolved until appropriate additional tests are made.
 
-## Possible future expansions
+## Future directions
 
-Potentially useful third-unit topics: structural and geomorphological hazards (landslides, liquefaction, rockfall, debris flows), mineral resources and ore-forming fluids, geothermal systems, and geological mapping case studies. These are options, not content required to make the current eighteen lectures usable.
+The Dynamic Earth has a complete opening arc through tectonics, geological history, hazards and resources. Further depth could focus on field-based regional case studies or specialist hydrogeology, but neither is required to close this unit. The next broad Science and Nature gap is evolution, ecology and populations.

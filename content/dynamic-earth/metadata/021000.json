@@ -1,0 +1,141 @@
+{
+  "schema_version": 1,
+  "lecture_id": "021000",
+  "transcript": "021000-when-the-ground-loses-its-strength.md",
+  "description": "Derives liquefaction from effective-stress loss, then distinguishes settlement, lateral spreading, shaking amplification and site investigation.",
+  "tags": [
+    "Liquefaction",
+    "Earthquake ground failure",
+    "Cyclic loading",
+    "Effective stress",
+    "Pore pressure",
+    "Lateral spreading",
+    "Sand boils",
+    "Seismic site effects",
+    "Site investigation",
+    "Niigata earthquake"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Earth science",
+      "Geology",
+      "Liquefaction"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Geology",
+      "Earthquake ground failure"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Geology",
+      "Cyclic loading"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Geology",
+      "Effective stress"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Geology",
+      "Pore pressure"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Geology",
+      "Lateral spreading"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Geology",
+      "Sand boils"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Geology",
+      "Seismic site effects"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Geology",
+      "Site investigation"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Geology",
+      "Niigata earthquake"
+    ],
+    [
+      "Place: Asia",
+      "Place: Japan",
+      "Place: Niigata"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "de-usgs-earthquake-effects",
+      "reason": "Liquefaction, lateral spreading, settlement and sand boils."
+    },
+    {
+      "source_id": "de-fema-earthquake-design",
+      "reason": "1964 Niigata example, soils, foundations and earthquake-induced liquefaction."
+    },
+    {
+      "source_id": "de-usgs-landslide-types",
+      "reason": "Classification of slope movement, triggers, orientation of fractures and groundwater effects."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "de-021000-01",
+      "anchor": "In the nineteen sixty-four Niigata earthquake in Japan",
+      "kind": "historical_event",
+      "source_ids": [
+        "de-fema-earthquake-design"
+      ],
+      "source_locator": "Niigata earthquake and liquefaction, Japan, 1964",
+      "audit_status": "source_checked"
+    }
+  ],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original Dynamic Earth hazards, resources and field reasoning lecture, companion and source-linked metadata."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "All geological processes and calculations are developed in the standalone narration."
+    ],
+    "readiness_checks": [
+      "How can a foundation tilt without structural collapse from the seismic waves themselves?",
+      "Why is a site-specific groundwater profile needed when assessing liquefaction?"
+    ]
+  },
+  "places": [
+    "Niigata, Japan"
+  ],
+  "chronology": {
+    "period": {
+      "start": 1964,
+      "label": "Niigata earthquake and liquefaction, Japan, 1964",
+      "basis": "documented natural hazard event",
+      "note": "The date identifies the event discussed, not the formation of the rock units.",
+      "source_ids": [
+        "de-fema-earthquake-design"
+      ]
+    }
+  }
+}

@@ -3,12 +3,12 @@
   "collections": [
     {
       "id": "dynamic-earth-main",
-      "title": "The Dynamic Earth · From Plates to Landscapes",
+      "title": "The Dynamic Earth · From Plates to Resources",
       "role": "main",
       "categories": [
         "Science and nature"
       ],
-      "summary": "Eighteen complete audio lectures from plate and mantle mechanics to mountain growth, rock transformation, erosion and geological time.",
+      "summary": "Twenty-seven lectures from plate tectonics and geological history to ground failure, mineral deposits, geothermal energy and integrated field decisions.",
       "tags": [
         "Earth science",
         "Geophysics",
@@ -80,6 +80,39 @@
             "018000"
           ],
           "collection": "appalachian-case-study"
+        },
+        {
+          "title": "When the Ground Fails",
+          "lectures": [
+            "019000",
+            "020000",
+            "021000",
+            "022000"
+          ],
+          "collection": "ground-failure-and-geological-risk"
+        },
+        {
+          "title": "How Valuable Minerals Accumulate",
+          "lectures": [
+            "023000",
+            "024000",
+            "025000"
+          ],
+          "collection": "ores-and-exploration"
+        },
+        {
+          "title": "Heat and Hidden Fluid Networks",
+          "lectures": [
+            "026000"
+          ],
+          "collection": "geothermal-energy"
+        },
+        {
+          "title": "A Field Investigation with Competing Hypotheses",
+          "lectures": [
+            "027000"
+          ],
+          "collection": "slate-fork-field-study"
         }
       ]
     },
@@ -250,6 +283,94 @@
         "010000",
         "013000",
         "016000"
+      ]
+    },
+    {
+      "id": "ground-failure-and-geological-risk",
+      "title": "Dynamic Earth · Ground Failure and Geological Risk",
+      "role": "deep_dive",
+      "parent": "dynamic-earth-main",
+      "summary": "Why slopes slide, how debris flows develop, why shaking weakens soils, and what hazard maps actually say.",
+      "tags": [
+        "Slope stability",
+        "Debris flows",
+        "Liquefaction",
+        "Hazard maps"
+      ],
+      "lectures": [
+        "019000",
+        "020000",
+        "021000",
+        "022000"
+      ]
+    },
+    {
+      "id": "ores-and-exploration",
+      "title": "Dynamic Earth · Mineral Deposits and Evidence",
+      "role": "deep_dive",
+      "parent": "dynamic-earth-main",
+      "summary": "How ore bodies form, how hydrothermal fluids move metals, and how drilling changes confidence in a hidden resource.",
+      "tags": [
+        "Mineral resources",
+        "Hydrothermal geology",
+        "Ore exploration"
+      ],
+      "lectures": [
+        "023000",
+        "024000",
+        "025000"
+      ]
+    },
+    {
+      "id": "geothermal-energy",
+      "title": "Dynamic Earth · The Reachable Heat Beneath Us",
+      "role": "deep_dive",
+      "parent": "dynamic-earth-main",
+      "summary": "Heat gradients, convection, reservoirs, enhanced geothermal systems and the limits of heat extraction.",
+      "tags": [
+        "Geothermal",
+        "Heat flow",
+        "Subsurface hydrology"
+      ],
+      "lectures": [
+        "026000"
+      ]
+    },
+    {
+      "id": "slate-fork-field-study",
+      "title": "Dynamic Earth · A Valley with Three Possible Futures",
+      "role": "deep_dive",
+      "parent": "dynamic-earth-main",
+      "summary": "An explicitly fictional geological investigation that tests slope, mineral and geothermal models using conflicting field evidence.",
+      "tags": [
+        "Geological reconstruction",
+        "Risk",
+        "Resources"
+      ],
+      "lectures": [
+        "019000",
+        "022000",
+        "023000",
+        "025000",
+        "026000",
+        "027000"
+      ]
+    },
+    {
+      "id": "dynamic-earth-hazards-resources-sampler",
+      "title": "Dynamic Earth · Where the Ground Moves and Matters",
+      "role": "deep_dive",
+      "parent": "dynamic-earth-main",
+      "summary": "A short path through landslide mechanics, mineral concentration and the practical limits of geothermal heat.",
+      "tags": [
+        "Hazards",
+        "Ore genesis",
+        "Geothermal energy"
+      ],
+      "lectures": [
+        "019000",
+        "023000",
+        "026000"
       ]
     }
   ]
