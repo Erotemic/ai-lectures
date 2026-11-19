@@ -707,3 +707,83 @@ def test_voice_reference_edit_keeps_recipe_jobs_and_previous_recordings(
             }
     finally:
         manager.close()
+
+
+@pytest.mark.parametrize("replicas", [2, 4])
+@pytest.mark.parametrize("whole_lecture", [False, True])
+def test_parallel_blocks_follow_ready_breeze_replicas(
+    tmp_path, monkeypatch, replicas, whole_lecture
+):
+    from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
+    import threading
+
+    library, pack, manifest, audio, config = setup_library(
+        tmp_path,
+        monkeypatch,
+        text=("A complete sentence explains this useful example. " * 100).strip(),
+    )
+    runtime_calls = []
+
+    class Handler(BaseHTTPRequestHandler):
+        def log_message(self, *args):
+            pass
+
+        def do_GET(self):
+            runtime_calls.append(self.path)
+            payload = json.dumps(
+                {"gateway": {"workers": [{"ready": True} for _ in range(replicas)]}}
+            ).encode()
+            self.send_response(200)
+            self.send_header("Content-Length", str(len(payload)))
+            self.end_headers()
+            self.wfile.write(payload)
+
+    server = ThreadingHTTPServer(("127.0.0.1", 0), Handler)
+    thread = threading.Thread(target=server.serve_forever, daemon=True)
+    thread.start()
+    config.write_text(
+        config.read_text()
+        .replace('model="kokoro"', 'model="breeze-tts2"')
+        .replace(":1/v1", f":{server.server_port}/v1")
+    )
+    entered = threading.Event()
+    release = threading.Event()
+    lock = threading.Lock()
+    active = [0]
+
+    def sender(text, settings, dest):
+        with lock:
+            active[0] += 1
+            if active[0] == replicas:
+                entered.set()
+        assert release.wait(5), "Parallel generation never reached the expected workers"
+        shutil.copyfile(audio, dest)
+
+    manager = manager_for(library, config, sender)
+    try:
+        _, profile = catalog_profile(manager)
+        queued = manager.prepare_saved(
+            ["music:001000"],
+            profile["id"],
+            blocks=None if whole_lecture else list(range(replicas)),
+        )[0]
+        assert entered.wait(
+            3
+        ), f"Only {active[0]} blocks started for {replicas} ready replicas"
+        assert runtime_calls == ["/v1/runtime"]
+        assert (
+            manager.speech_workers(
+                f"http://127.0.0.1:{server.server_port}/v1/audio/speech", "breeze-tts2"
+            )
+            == replicas
+        )
+        assert runtime_calls == ["/v1/runtime"]
+        release.set()
+        result = finished(manager, queued["id"])
+        assert result["state"] == "ready", result
+    finally:
+        release.set()
+        manager.close()
+        server.shutdown()
+        server.server_close()
+        thread.join()

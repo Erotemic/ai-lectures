@@ -14,6 +14,7 @@ import socket
 import sqlite3
 import time
 from urllib.parse import urlparse
+import urllib.request
 from concurrent.futures import ThreadPoolExecutor
 import subprocess
 import threading
@@ -142,6 +143,7 @@ class GenerationManager:
         self._jobs = {}
         self._lock = threading.RLock()
         self._health = {}
+        self._backend_workers = {}
         self._voice_store = None
         self.jobs = JobStore(library.store.state)
         self.owner = uuid4().hex
@@ -151,6 +153,37 @@ class GenerationManager:
         self._closing = False
         self._heartbeat_stop = threading.Event()
         self._heartbeat_thread = None
+
+    def speech_workers(self, endpoint, model):
+        """Operational concurrency follows the gateway, independently of recipes."""
+
+        if model.lower() != "breeze-tts2":
+            return 1
+        cached = self._backend_workers.get(endpoint)
+        if cached and time.monotonic() - cached[0] < 30:
+            return cached[1]
+        workers = 1
+        try:
+            with urllib.request.urlopen(
+                endpoint.removesuffix("/v1/audio/speech") + "/v1/runtime", timeout=2
+            ) as response:
+                runtime = json.load(response)
+            gateway = runtime.get("gateway", {})
+            replicas = gateway.get("workers")
+            if isinstance(replicas, list):
+                workers = sum(
+                    isinstance(row, dict) and row.get("ready") is True
+                    for row in replicas
+                )
+            else:
+                workers = gateway.get(
+                    "replicas", runtime.get("long_form_jobs", {}).get("workers", 1)
+                )
+            workers = max(1, min(64, int(workers)))
+        except (OSError, ValueError, TypeError, AttributeError):
+            workers = cached[1] if cached else 1
+        self._backend_workers[endpoint] = (time.monotonic(), workers)
+        return workers
 
     def saved_profile_store(self):
         from .voice_profiles import RenderProfiles
@@ -743,7 +776,7 @@ class GenerationManager:
             document=document,
             profile=saved["id"],
             voice=saved["recipe"]["config"]["voice"],
-            workers=1,
+            workers=self.speech_workers(backend["endpoint"], backend["model"]),
             output_format=saved["recipe"]["config"]["output_format"],
             title_handling=saved["recipe"]["title_enabled"],
             page_chars=saved["recipe"]["reader"]["page_chars"],
@@ -1320,7 +1353,12 @@ class GenerationManager:
             profile=spec["profile"],
             voice=spec["voice"],
             endpoint=self.endpoint,
-            workers=1,
+            workers=self.speech_workers(
+                self.endpoint
+                or os.environ.get("DKVIS_AUDIO_TTS_ENDPOINT")
+                or config["endpoint"],
+                os.environ.get("DKVIS_AUDIO_TTS_MODEL") or config["model"],
+            ),
             output_format=config["output_format"],
             title_handling=title_handling,
         )
@@ -1407,7 +1445,7 @@ class GenerationManager:
             for state in inventory["states"]
         )
         for index in blocks:
-            if busy >= 3:
+            if busy >= max(3, getattr(engine, "workers", 1)):
                 break
             if inventory["states"][index] in {"missing", "cancelled"}:
                 engine.request(

@@ -50,6 +50,15 @@ material changes. The reader cannot detect every remote model replacement. A
 server URL relocation preserves identity; changing its model makes incompatible
 profiles unavailable. Duplicate a profile for the newly configured backend.
 
+## Parallel generation
+
+The reader queries Breeze's runtime endpoint for ready gateway workers and uses
+that capacity for parallel blocks within one lecture. The queue and preparation
+window grow with the worker count; multiple queued blocks can use both GPUs.
+This is operational scheduling, so changing capacity does not create an audio
+revision or invalidate recordings. A server without usable capacity discovery
+starts with one worker. Counts are cached briefly and applied as engines open.
+
 ## Local state and connections
 
 On first use, configured TTS entries import once from `tts.toml` plus its ignored

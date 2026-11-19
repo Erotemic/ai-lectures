@@ -247,9 +247,10 @@ class AudioLectureLibrary:
             raise ValueError('Invalid default TTS voice')
         self._sender = sender or self._send_speech
         self._native_sender = sender is None
-        self._queue = SpeechQueue(workers=workers, limit=8)
+        self.workers = workers
+        self._queue = SpeechQueue(workers=workers, limit=max(8, workers + 1))
         self._metrics = AudioMetrics(self.cache)
-        self._preparations = PreparationManager(max_inflight=3)
+        self._preparations = PreparationManager(max_inflight=max(3, workers))
         self.server_jobs = (self.server_long_form and
                             os.environ.get('DKVIS_AUDIO_BREEZE_JOB_API', '1') != '0')
 
