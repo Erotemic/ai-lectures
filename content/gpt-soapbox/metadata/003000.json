@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "lecture_id": "003000",
+  "transcript": "003000-the-most-useful-sentence-a-machine-can-say.md",
+  "description": "Argues for informative uncertainty in AI answers; distinguishes unchecked facts, probabilistic risk, value disagreements, and ambiguous questions, then proposes evidence receipts.",
+  "tags": [
+    "Artificial intelligence",
+    "Language models",
+    "Epistemic uncertainty",
+    "Calibration",
+    "Truthfulness",
+    "AI evaluation",
+    "Evidence and provenance"
+  ],
+  "tag_paths": [
+    [
+      "Computing",
+      "Artificial intelligence",
+      "Language models",
+      "Truthfulness"
+    ],
+    [
+      "Statistics",
+      "Statistical reasoning",
+      "Calibration"
+    ],
+    [
+      "Philosophy",
+      "Epistemology",
+      "Knowledge and uncertainty"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "gs-truthfulqa",
+      "reason": "Original TruthfulQA paper; early evidence that imitative model outputs may reproduce common misconceptions."
+    },
+    {
+      "source_id": "gs-nist-gai",
+      "reason": "NIST 2024 treatment of confabulation and information integrity in generative AI."
+    },
+    {
+      "source_id": "gs-nist-rmf",
+      "reason": "NIST 2023 criteria for evaluating trustworthiness and risk in context."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "soap-003-h01",
+      "anchor": "The study was presented at the Association for Computational Linguistics in 2022",
+      "kind": "research_history",
+      "source_ids": [
+        "gs-truthfulqa"
+      ],
+      "source_locator": "ACL Anthology 2022.acl-long.229, publication metadata",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "soap-003-h02",
+      "anchor": "The United States National Institute of Standards and Technology addresses related problems in its 2024 generative AI risk profile.",
+      "kind": "research_history",
+      "source_ids": [
+        "gs-nist-gai"
+      ],
+      "source_locator": "NIST AI 600-1, Section 2.2",
+      "audit_status": "source_passage_checked"
+    }
+  ],
+  "claim_evidence": [
+    {
+      "id": "soap-003-c01",
+      "anchor": "NIST uses the term confabulation for generated, confidently presented false content",
+      "source_ids": [
+        "gs-nist-gai"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "NIST AI 600-1 Section 2.2",
+      "evidence_detail": "NIST describes confidently presented erroneous material, fabricated reasoning, and citations."
+    }
+  ],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original first-person essay narration, illustrative cases, mathematical examples, and non-spoken source companion."
+  },
+  "learning": {
+    "reviewed": true,
+    "background": [
+      "No technical background; probability and calibration are explained through the forecast example."
+    ],
+    "readiness_checks": [
+      "Distinguish unchecked information, probabilistic risk, normative disagreement, and an ambiguous prompt.",
+      "Explain why an unvalidated single-number confidence score does not establish calibrated reliability."
+    ]
+  }
+}

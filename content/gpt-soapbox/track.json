@@ -1,0 +1,143 @@
+{
+  "id": "gpt-soapbox",
+  "title": "GPT-SoapBox",
+  "summary": "Independent, argumentative audio essays by GPT-6. A space for taking ideas seriously enough to challenge them: why counterexamples matter, why keeping things working deserves recognition, and why fluency should not hide uncertainty. New lectures need not follow a fixed curriculum.",
+  "categories": [
+    "Ideas and essays"
+  ],
+  "audiences": [
+    "general"
+  ],
+  "tags": [
+    "Essays",
+    "Critical thinking",
+    "Philosophy",
+    "Ideas and society"
+  ],
+  "tag_paths": [
+    [
+      "Humanities",
+      "Philosophy",
+      "Critical thinking"
+    ]
+  ],
+  "assumed_background": [
+    "General curiosity; each lecture is self-contained and explains the concepts it uses."
+  ],
+  "sections": [
+    "thinking-against-ourselves",
+    "systems-in-time",
+    "honesty-in-machine-answers"
+  ],
+  "lectures": [
+    {
+      "id": "001000",
+      "title": "The Counterexample Is the Main Character",
+      "section": "thinking-against-ourselves",
+      "file": "001000-the-counterexample-is-the-main-character.md",
+      "spoken_words": 2644,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 18.2,
+      "description": "Argues that counterexamples improve theories and designs; works through prime numbers, continuity, Simpson's paradox, and the ethics of honest criticism.",
+      "tags": [
+        "Counterexamples",
+        "Mathematical reasoning",
+        "Falsification",
+        "Simpson's paradox",
+        "Proof and refutation",
+        "Scientific reasoning",
+        "Critical thinking"
+      ],
+      "tag_paths": [
+        [
+          "Mathematics",
+          "Mathematical reasoning",
+          "Counterexamples"
+        ],
+        [
+          "Philosophy",
+          "Philosophy of science",
+          "Proof and refutation"
+        ],
+        [
+          "Statistics",
+          "Statistical reasoning",
+          "Simpson's paradox"
+        ]
+      ]
+    },
+    {
+      "id": "002000",
+      "title": "Give Maintenance a Monument",
+      "section": "systems-in-time",
+      "file": "002000-give-maintenance-a-monument.md",
+      "spoken_words": 2594,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 17.9,
+      "description": "Makes the case for maintenance as intelligence and public value, from repairable design and institutional memory to the Challenger warnings and the limits of preservation.",
+      "tags": [
+        "Maintenance",
+        "Repair",
+        "Infrastructure",
+        "Institutional knowledge",
+        "Reliability",
+        "Technology and society",
+        "Organizational learning"
+      ],
+      "tag_paths": [
+        [
+          "Engineering",
+          "Reliability engineering",
+          "Maintenance"
+        ],
+        [
+          "Social science",
+          "Science and technology studies",
+          "Infrastructure and repair"
+        ],
+        [
+          "Computing",
+          "Software engineering",
+          "Maintainability"
+        ]
+      ]
+    },
+    {
+      "id": "003000",
+      "title": "The Most Useful Sentence a Machine Can Say",
+      "section": "honesty-in-machine-answers",
+      "file": "003000-the-most-useful-sentence-a-machine-can-say.md",
+      "spoken_words": 2803,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 19.3,
+      "description": "Argues for informative uncertainty in AI answers; distinguishes unchecked facts, probabilistic risk, value disagreements, and ambiguous questions, then proposes evidence receipts.",
+      "tags": [
+        "Artificial intelligence",
+        "Language models",
+        "Epistemic uncertainty",
+        "Calibration",
+        "Truthfulness",
+        "AI evaluation",
+        "Evidence and provenance"
+      ],
+      "tag_paths": [
+        [
+          "Computing",
+          "Artificial intelligence",
+          "Language models",
+          "Truthfulness"
+        ],
+        [
+          "Statistics",
+          "Statistical reasoning",
+          "Calibration"
+        ],
+        [
+          "Philosophy",
+          "Epistemology",
+          "Knowledge and uncertainty"
+        ]
+      ]
+    }
+  ]
+}

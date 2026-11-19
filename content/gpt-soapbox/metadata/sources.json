@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "sources": {
+    "gs-lakatos": {
+      "title": "Imre Lakatos, Proofs and Refutations: The Logic of Mathematical Discovery (1976), Cambridge University Press",
+      "kind": "book_publisher_record",
+      "url": "https://www.cambridge.org/core/books/proofs-and-refutations/A11138AE31DB52797A6E4C3F1856E1CB",
+      "access": "public_description",
+      "notes": "Book description verifies author, title, method and publication context."
+    },
+    "gs-lakatos-appendix": {
+      "title": "Imre Lakatos, Another case-study in the method of proofs and refutations, appendix",
+      "kind": "scholarly_chapter",
+      "url": "https://www.cambridge.org/core/books/abs/proofs-and-refutations/another-casestudy-in-the-method-of-proofs-and-refutations/AF9D68A35602B7F8F1409DF3E56C5D7B",
+      "access": "public_abstract",
+      "notes": "Accessible summary describes primitive conjectures, global counterexamples, analysis of proof, and revised claims."
+    },
+    "gs-simpson-sep": {
+      "title": "Stanford Encyclopedia of Philosophy, Simpson's Paradox (revised 2026)",
+      "kind": "academic_reference",
+      "url": "https://plato.stanford.edu/entries/paradox-simpson/",
+      "access": "free_no_login",
+      "notes": "Mathematical characterization, aggregation and the causal interpretation limits."
+    },
+    "gs-maintainers-aeon": {
+      "title": "Andrew Russell and Lee Vinsel, Hail the Maintainers, Aeon (7 April 2016)",
+      "kind": "public_essay",
+      "url": "https://aeon.co/essays/innovation-is-overvalued-maintenance-often-matters-more",
+      "access": "free_no_login",
+      "notes": "Normative historical argument against treating innovation as an end in itself."
+    },
+    "gs-maintainers-about": {
+      "title": "The Maintainers, About / project history",
+      "kind": "project_history",
+      "url": "https://themaintainers.org/about/",
+      "access": "free_no_login",
+      "notes": "Independent project history verifies the 2016 essay and context."
+    },
+    "gs-nasa-rogers": {
+      "title": "Rogers Commission Report on Challenger, Volume I, Chapter VI, Findings",
+      "kind": "government_primary_report",
+      "url": "https://www.nasa.gov/history/rogersrep/v1ch6.htm",
+      "access": "free_no_login",
+      "notes": "Primary investigation on SRB joint failures, response to warnings and acceptance of risk."
+    },
+    "gs-truthfulqa": {
+      "title": "Stephanie Lin, Jacob Hilton, Owain Evans, TruthfulQA: Measuring How Models Mimic Human Falsehoods, ACL 2022",
+      "kind": "peer_reviewed_research",
+      "url": "https://aclanthology.org/2022.acl-long.229/",
+      "access": "free_no_login",
+      "notes": "Original 2022 paper; the essay does not generalize historical model scores to contemporary systems."
+    },
+    "gs-nist-gai": {
+      "title": "NIST, Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile, AI 600-1 (2024)",
+      "kind": "government_guidance",
+      "url": "https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence",
+      "access": "free_no_login",
+      "notes": "Sections on confabulation, automation bias, and information integrity."
+    },
+    "gs-nist-rmf": {
+      "title": "NIST, Artificial Intelligence Risk Management Framework 1.0, AI 100-1 (2023)",
+      "kind": "government_guidance",
+      "url": "https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-ai-rmf-10",
+      "access": "free_no_login",
+      "notes": "Framework for context-specific AI reliability, accountability and trustworthiness."
+    }
+  }
+}

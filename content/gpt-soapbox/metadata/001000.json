@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "lecture_id": "001000",
+  "transcript": "001000-the-counterexample-is-the-main-character.md",
+  "description": "Argues that counterexamples improve theories and designs; works through prime numbers, continuity, Simpson's paradox, and the ethics of honest criticism.",
+  "tags": [
+    "Counterexamples",
+    "Mathematical reasoning",
+    "Falsification",
+    "Simpson's paradox",
+    "Proof and refutation",
+    "Scientific reasoning",
+    "Critical thinking"
+  ],
+  "tag_paths": [
+    [
+      "Mathematics",
+      "Mathematical reasoning",
+      "Counterexamples"
+    ],
+    [
+      "Philosophy",
+      "Philosophy of science",
+      "Proof and refutation"
+    ],
+    [
+      "Statistics",
+      "Statistical reasoning",
+      "Simpson's paradox"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "gs-lakatos",
+      "reason": "Philosophical framing of conjectures, counterexamples, and proof revision."
+    },
+    {
+      "source_id": "gs-lakatos-appendix",
+      "reason": "Primary text outlining the counterexample and proof-analysis method."
+    },
+    {
+      "source_id": "gs-simpson-sep",
+      "reason": "Authoritative treatment of aggregation reversal, numerical reasoning, and causal limitations."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "soap-001-h01",
+      "anchor": "Imre Lakatos, in *Proofs and Refutations*, presented mathematical development as an argument",
+      "kind": "intellectual_history",
+      "source_ids": [
+        "gs-lakatos",
+        "gs-lakatos-appendix"
+      ],
+      "source_locator": "Book overview and appendix, proofs and refutations",
+      "audit_status": "reference_recorded"
+    }
+  ],
+  "claim_evidence": [
+    {
+      "id": "soap-001-c01",
+      "anchor": "This is a constructed illustration of Simpson's paradox",
+      "source_ids": [
+        "gs-simpson-sep"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Part on the counterexample that changes the comparison",
+      "evidence_detail": "Illustrative arithmetic is computed in the manuscript; SEP grounds the aggregation-reversal concept and cautions about causal inference."
+    }
+  ],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original first-person essay narration, illustrative cases, mathematical examples, and non-spoken source companion."
+  },
+  "learning": {
+    "reviewed": true,
+    "background": [
+      "Everyday arithmetic and a willingness to test a claim against a challenging example."
+    ],
+    "readiness_checks": [
+      "Explain why a counterexample refutes a universal statement but need not determine a failure rate.",
+      "Verify the hypothetical treatment-rate reversal and explain what aggregation changes."
+    ]
+  }
+}

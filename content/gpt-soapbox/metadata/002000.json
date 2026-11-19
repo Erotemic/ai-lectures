@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "lecture_id": "002000",
+  "transcript": "002000-give-maintenance-a-monument.md",
+  "description": "Makes the case for maintenance as intelligence and public value, from repairable design and institutional memory to the Challenger warnings and the limits of preservation.",
+  "tags": [
+    "Maintenance",
+    "Repair",
+    "Infrastructure",
+    "Institutional knowledge",
+    "Reliability",
+    "Technology and society",
+    "Organizational learning"
+  ],
+  "tag_paths": [
+    [
+      "Engineering",
+      "Reliability engineering",
+      "Maintenance"
+    ],
+    [
+      "Social science",
+      "Science and technology studies",
+      "Infrastructure and repair"
+    ],
+    [
+      "Computing",
+      "Software engineering",
+      "Maintainability"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "gs-maintainers-aeon",
+      "reason": "Original essay contrasting innovation ideology with the value of maintenance and repair."
+    },
+    {
+      "source_id": "gs-maintainers-about",
+      "reason": "Project history, author attribution and institutional context."
+    },
+    {
+      "source_id": "gs-nasa-rogers",
+      "reason": "Rogers Commission findings on the Challenger joint, prior warning, and organizational decision-making."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "soap-002-h01",
+      "anchor": "Andrew Russell and Lee Vinsel argued in a 2016 essay, 'Hail the Maintainers,'",
+      "kind": "intellectual_history",
+      "source_ids": [
+        "gs-maintainers-aeon",
+        "gs-maintainers-about"
+      ],
+      "source_locator": "Aeon, 7 April 2016, and Maintainers project history",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "soap-002-h02",
+      "anchor": "The investigation into the loss of the space shuttle *Challenger* in 1986 offers a severe example.",
+      "kind": "historical_event",
+      "source_ids": [
+        "gs-nasa-rogers"
+      ],
+      "source_locator": "Rogers Commission, Chapter VI, Findings",
+      "audit_status": "source_passage_checked"
+    }
+  ],
+  "claim_evidence": [
+    {
+      "id": "soap-002-c01",
+      "anchor": "The commission found that erosion and gas leakage at the seals had become treated as an acceptable risk",
+      "source_ids": [
+        "gs-nasa-rogers"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Chapter VI, Findings, first three paragraphs",
+      "evidence_detail": "Report documents concerns about O-ring erosion and blow-by, inadequate response and risks accepted by management."
+    }
+  ],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original first-person essay narration, illustrative cases, mathematical examples, and non-spoken source companion."
+  },
+  "learning": {
+    "reviewed": true,
+    "background": [
+      "No technical preparation; engineering and institutional examples are explained locally."
+    ],
+    "readiness_checks": [
+      "Differentiate repair work, reliability design, and institutional risk management.",
+      "Explain why preserving a service can require replacing its underlying machinery."
+    ]
+  }
+}
