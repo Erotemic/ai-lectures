@@ -192,7 +192,7 @@ A field extension L over K means K is a subfield of L, using the same addition a
 
 For rational numbers with the square root of two adjoined, every element is a plus b times square root of two, with a and b rational. The elements one and square root of two are linearly independent over the rationals. If a plus b square root of two equals zero and b were nonzero, the square root of two would be rational, which it is not. Consequently the degree of this extension is two.
 
-Adding a number does not always enlarge a field. The square root of four is already rational. Adjoining it changes nothing. What matters is whether the new element satisfies a nontrivial relation over the old field, and whether that relation can be made smaller.
+Adding a number does not always enlarge a field. The square root of four is already rational, so adjoining it leaves the field unchanged. The square root of two is different: it obeys the polynomial equation x squared minus two equals zero, but no linear polynomial with rational coefficients has it as a root. The smallest polynomial relation is what tells us how far the old field must be extended.
 
 ### The minimal polynomial
 

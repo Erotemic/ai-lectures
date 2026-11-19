@@ -8,7 +8,7 @@
 
 Suppose an experiment has seven treatments, and each trial can include three of them. We want to compare every pair fairly. Can we arrange the trials so that each pair of treatments appears together exactly once? The question sounds like scheduling. The answer is a piece of geometry, and the same geometry builds an error-correcting code.
 
-Call the seven treatments points and the three-treatment trials blocks. There is no requirement that the points lie on a physical plane. What matters is which points belong to which blocks.
+Call the seven treatments points and the three-treatment trials blocks. There is no requirement that the points lie on a physical plane. The assignment of points to blocks determines the construction.
 
 A balanced incomplete block design is specified by four numbers. There are v points, each block contains k points, and every pair of distinct points appears together in exactly lambda blocks. The number of blocks and the number of blocks containing one point are additional parameters. We do not get to choose all six numbers independently: simple counting forces equations between them.
 

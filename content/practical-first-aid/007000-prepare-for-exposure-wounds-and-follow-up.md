@@ -6,7 +6,7 @@
 
 ## Preparation, Kits, and Emergency Communication
 
-A first-aid kit is often imagined as the central object of emergency preparedness. But a kit does not recognize an emergency, decide when to call for help, tell responders where to go, or find a person who is missing. Those functions belong to people and a plan. The equipment matters, but preparation is a system with several parts: recognizing danger, activating appropriate help, communicating accurately, giving care within training, and making the scene accessible to responders.
+A first-aid kit is often imagined as the central object of emergency preparedness. But a kit does not recognize an emergency, decide when to call for help, tell responders where to go, or find a person who is missing. Those functions belong to people and a plan. Preparation involves more than equipment: recognizing danger, activating appropriate help, communicating accurately, giving care within training, and making the scene accessible to responders.
 
 Imagine a household member collapses in a garage while another person is in the yard. A third person knows how to retrieve an automated external defibrillator, but nobody has agreed who will call emergency services or where the street address is posted. The first minutes can be lost not because supplies were absent, but because responsibilities were not clear.
 
@@ -60,7 +60,7 @@ Heat exhaustion may involve weakness, dizziness, nausea, heavy sweating, and dif
 
 Heat stroke is more severe. Altered mental status—confusion, disorientation, seizure, or collapse—in someone with substantial heat exposure or exertion is an emergency sign. The person may be sweating or may have dry skin; the presence of sweat does not rule out heat stroke. Activate emergency medical services immediately and begin rapid cooling without waiting for transport. Appropriate immersion in cold water can be especially effective for exertional heat stroke when it can be done safely; other active cooling methods are useful when immersion is unavailable. A confused or unresponsive person should not be given oral fluids.
 
-The distinction matters because the response to severe heat illness is time-sensitive. A plan that only offers water and a shady chair can miss the crisis when the brain is already affected. Recognizing mental-status change and initiating emergency care while cooling is the central lesson.
+Severe heat illness demands a time-sensitive response. A plan that only offers water and a shady chair can miss the crisis when the brain is already affected. Recognizing mental-status change and initiating emergency care while cooling is the central lesson.
 
 ### Cold impairs both the body and judgment
 
@@ -126,7 +126,7 @@ The practical skill is to recognize the mechanism, stop ongoing exposure, cool a
 
 ## Poisoning Exposures and Emergency Information
 
-A child is discovered beside an open container of household cleaner. The adult nearby does not know whether any was swallowed. What matters first is not guessing the chemical reaction, but identifying the exposure, protecting the people present, and reaching a source of specific medical guidance promptly.
+A child is discovered beside an open container of household cleaner. The adult nearby does not know whether any was swallowed. The immediate problem is uncertainty about the exposure, not a chemistry puzzle to solve from memory. Identifying the product, preventing further exposure, and promptly seeking product-specific medical guidance are more useful than guessing at the chemical reaction.
 
 Poisoning is not one single illness. A substance can cause harm through swallowing, inhalation, skin or eye contact, or injection. Severity depends on what the substance is, the amount, concentration, route, timing and the person's condition. Some exposures cause immediate irritation; others may produce little early discomfort while still needing urgent assessment. Appearance, smell and the absence of symptoms are not adequate safety tests.
 
@@ -146,7 +146,7 @@ In the United States, Poison Control is available around the clock at one eight 
 
 ### The most useful information is specific
 
-When calling, try to identify the exact product name and ingredients from its original container. Concentration matters: two products with similar names may contain different formulations. Report the route of exposure, estimated amount if known, time since exposure, age and approximate weight when relevant, symptoms, and any actions already taken. If the amount is unknown, say that. Do not turn an estimate into an invented precise number.
+When calling, try to identify the exact product name and ingredients from its original container. Two products with similar names may have different formulations and concentrations. Report the route of exposure, estimated amount if known, time since exposure, age and approximate weight when relevant, symptoms, and any actions already taken. If the amount is unknown, say that. Do not turn an estimate into an invented precise number.
 
 Keep the container or an image of its label available to the responder if it is safe to do so. For a medication exposure, identifying the drug, strength, formulation, number of tablets possibly missing, and whether other medications are involved can materially change advice. A prescription bottle's original directions are not proof that an accidental dose is harmless. Multiple simultaneous substances complicate assessment.
 
@@ -214,7 +214,7 @@ A first-aid follow-up is a sequence of observations. It begins with what caused 
 
 Intact skin forms a barrier against microbes, chemicals, and physical injury. A cut, abrasion, puncture, or burn breaks that barrier. Dirt, foreign material, bacteria already present on skin, and microbes from the environment may enter the tissue. Not all contamination leads to infection. The body's defense, the depth and location of injury, the amount of damaged tissue, and the presence of trapped material all affect what happens.
 
-A superficial clean abrasion is different from a deep puncture caused by a dirty nail or an animal bite. A puncture may have a small visible opening but damage and contamination deeper inside. A wound over a joint, near a tendon, or on the hand can affect important structures even when it appears modest at the surface. These distinctions are why the mechanism matters as much as the photograph.
+A superficial clean abrasion is different from a deep puncture caused by a dirty nail or an animal bite. A puncture may have a small visible opening but damage and contamination deeper inside. A wound over a joint, near a tendon, or on the hand can affect important structures even when it appears modest at the surface. The mechanism of injury is as informative as the photograph.
 
 ### Begin with basic care and a record
 

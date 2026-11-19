@@ -88,7 +88,7 @@ Multiple-stage cooking often works because it allocates tasks to appropriate hea
 
 Next time a roast is pale, ask whether the oven was too cool, the pieces too crowded, or the surface simply wet. Next time a thick piece of meat has a browned exterior but a cold center, ask how far heat had to travel and whether the process allowed enough time. Next time steamed vegetables are limp, ask how the total heat exposure affected cell-wall structure rather than assuming that steam itself is the mistake.
 
-Food safety adds constraints to the experiment. Raw and ready-to-eat foods require separation, and animal products and leftovers have category-specific safe temperatures and cooling rules. A kitchen technique that produces an attractive exterior does not bypass those requirements. Good cooking uses thermometers when internal safety matters and visual or tactile observations when evaluating texture and browning.
+Food safety adds constraints to the experiment. Raw and ready-to-eat foods require separation, and animal products and leftovers have category-specific safe temperatures and cooling rules. A kitchen technique that produces an attractive exterior does not bypass those requirements. Good cooking uses thermometers for food-safety checks and visual or tactile observations to judge texture and browning.
 
 Wet heat and dry heat are not opposites; they are tools that move energy and water in different ways. Once you learn to separate those mechanisms, cooking becomes a sequence of deliberate physical choices rather than a collection of disconnected instructions.
 
@@ -144,7 +144,7 @@ Seasoning depends on total concentration rather than spoonfuls alone. A pot cont
 
 Acidity comes from a variety of compounds and affects perceived sourness. Citric acid in lemon, acetic acid in vinegar, and lactic acid in fermented foods have different sensory profiles alongside their other aromatic constituents. A small increase in acidity may sharpen a rich, fatty preparation or brighten a vegetable soup. Too much can dominate and make the result seem harsh. Acid also affects pigments, protein structure, and reactions during cooking, so late lemon juice and a long-simmered acidic marinade do not behave identically.
 
-The measurement called pH is not a direct ruler for perceived sourness. It measures a property related to hydrogen-ion activity, while titratable acidity describes the capacity of a food to neutralize an added base over a defined range. Two foods with the same pH can taste differently sour because their acid types, buffering, sweetness, and aromas differ. This distinction matters especially in food preservation: balancing flavor by taste is not evidence that a product meets a validated safety criterion.
+The measurement called pH is not a direct ruler for perceived sourness. It measures a property related to hydrogen-ion activity, while titratable acidity describes the capacity of a food to neutralize an added base over a defined range. Two foods with the same pH can taste differently sour because their acid types, buffering, sweetness, and aromas differ. In food preservation, balancing flavor by taste is not evidence that a product meets a validated safety criterion.
 
 ### Aromatics have time and temperature histories
 
@@ -156,7 +156,7 @@ Fats can carry certain aroma compounds and change their release. Water, oil, and
 
 Prepare a simple unsalted vegetable broth or a neutral bean puree. Divide it into small equal portions. Leave one unchanged. Add a measured little salt to another, a little acid to a third, and a combination to a fourth. Mix thoroughly, taste in a different order, and record which characteristics change. Repeat with an aromatic ingredient, such as toasted cumin or a fresh herb. Use small food-safe increments and avoid using flavor experiments as a substitute for safe preparation temperatures.
 
-Notice that tasters differ. Previous food, sensory adaptation, genetics, expectations, and smell sensitivity alter reports. Even the order of tasting matters because a strongly flavored sample can change how the next sample seems. Blind labeling or randomized order helps when you want to learn rather than confirm your own prediction. This is one reason professional sensory testing uses controlled protocols instead of relying on one confident taste.
+Notice that tasters differ. Previous food, sensory adaptation, genetics, expectations, and smell sensitivity alter reports. A strongly flavored sample can change how the next one seems, so the order of tasting can bias a comparison. Blind labeling or randomized order helps when you want to learn rather than confirm your own prediction. This is one reason professional sensory testing uses controlled protocols instead of relying on one confident taste.
 
 ### Diagnose rather than add everything
 
@@ -196,7 +196,7 @@ A roux mixes starch-containing flour with fat before liquid is added. The fat co
 
 ### Use temperature as a controllable variable
 
-Some emulsions tolerate cooking heat better than others. When egg proteins are heated, they can denature and form a network; in the right range that can thicken a sauce, while excessive heat can create curds or destabilize it. Butter itself contains dispersed water and milk solids and behaves differently from clarified butter. Because multiple mechanisms overlap, a sauce's temperature history matters along with ingredient ratios and mixing.
+Some emulsions tolerate cooking heat better than others. When egg proteins are heated, they can denature and form a network; in the right range that can thicken a sauce, while excessive heat can create curds or destabilize it. Butter itself contains dispersed water and milk solids and behaves differently from clarified butter. A sauce's behavior depends on its temperature history, ingredient ratios, and mixing because several mechanisms overlap.
 
 One way to learn the system is to compare two jars of oil-and-vinegar dressing. Shake both equally, but put a small amount of mustard in one. Observe droplet size by appearance, separation time, and how the dressings coat a spoon. Then make a small mayonnaise using a food-safe method and compare its thickness with the temporary dressing. Do not infer microbiological safety from stable texture: raw-egg preparations require appropriate egg handling and food-safety considerations independent of emulsion success.
 

@@ -206,7 +206,7 @@ Adding interior insulation to a cold foundation may reduce heat that formerly wa
 
 ### Residual moisture and repeated wetting leave different evidence
 
-Suppose a foundation has experienced months of intermittent rain leakage. After a drainage repair, it may remain damp for a long time. Dense concrete and masonry can store considerable water. A single elevated meter reading after the repair cannot establish a new leak. What matters is whether readings at comparable locations and under comparable conditions trend downward over time.
+Suppose a foundation has experienced months of intermittent rain leakage. Even after drainage is repaired, dense concrete and masonry may retain moisture for a long time. A high meter reading on one day cannot tell us whether a new leak has developed. Repeated measurements at the same locations, taken under comparable conditions, can show whether the assembly is gradually drying.
 
 A second pattern is a sudden step upward after rain, snowmelt, irrigation or a plumbing event. A third is a daily pattern associated with indoor humidity and surface temperature. A fourth is a localized hot spot where air from a humid room reaches a colder concealed surface. Each pattern suggests a different test, though none proves a source on its own.
 

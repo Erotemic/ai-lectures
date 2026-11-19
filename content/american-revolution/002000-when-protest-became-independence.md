@@ -56,7 +56,7 @@ Women ran farms and workshops, followed armies, supplied soldiers, supported boy
 
 The decisive political motion came from Richard Henry Lee, a Virginia delegate, on June 7, 1776, calling for independent states. Congress postponed a final decision while delegates consulted their colonies and a committee prepared a public explanation. The committee included Thomas Jefferson, John Adams, Benjamin Franklin, Roger Sherman, and Robert Livingston. Jefferson composed a draft; others edited it, and Congress edited it further.
 
-On July 2 Congress approved the independence resolution. On July 4 it approved the text that became the Declaration of Independence. The distinction matters. Independence was a political decision before it was a famous parchment. The Declaration was an explanation addressed to a broad audience: other governments, potential allies, colonists at home, and posterity.
+Congress approved the independence resolution on July 2 and adopted the text of the Declaration of Independence on July 4. The political decision came first; the Declaration supplied its public argument. It addressed other governments, possible allies, colonists at home, and future generations, explaining a separation Congress had already voted to make.
 
 It began with a proposition about political legitimacy, asserted rights that no king was supposed to bestow, and argued that government derived authority from consent. It then presented grievances against George the Third as a case that allegiance had been forfeited. Its language about equality became a resource for generations who challenged exclusion from the very republic it helped announce.
 

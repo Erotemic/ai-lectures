@@ -20,7 +20,7 @@ The fleece is associated with a miraculous ram that carried Phrixus away from da
 
 Jason gathers companions whose names and accomplishments already belong to other heroic legends. Among them is Orpheus, whose music will matter when strength is insufficient. Castor and Polydeuces join; so do seers, fighters, builders, and men renowned for seamanship. Heracles is the most powerful of the company, but he will not remain for the whole voyage. The ship itself, built by Argus with Athena's assistance, is more than transportation. It allows many accomplished individuals, each with different abilities, to undertake a feat none can achieve alone.
 
-The crew must decide how to lead itself. The men initially prefer Heracles, who refuses the place and directs them toward Jason. This matters because Jason's leadership will not resemble the simple superiority of the strongest warrior. He will need allies, judgment, persuasion, and, at critical points, help he cannot command by force.
+The crew must decide how to lead itself. The men initially prefer Heracles, who refuses the place and directs them toward Jason. Jason's leadership will not resemble the simple superiority of the strongest warrior. He will need allies, judgment, persuasion, and, at critical points, help he cannot command by force.
 
 They sacrifice, launch the Argo, and put the familiar coast behind them. At the start there is enough excitement for a heroic departure. Soon the sea begins to demonstrate how many kinds of danger the word adventure can conceal.
 

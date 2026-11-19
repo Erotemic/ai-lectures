@@ -20,7 +20,7 @@ Now connect them. Because Mara rings the bell, the clinic sends its medicine by 
 
 Each event changes a later choice. Some changes alter resources, some alter knowledge, and some alter relationships. Mara initially wants to hide a mistake. By the middle of the story, her refusal has helped trigger a public dispute that can no longer be solved by one quiet apology. That is a plot-sized change: the kind of problem the story is about has evolved through the consequences of its own actions.
 
-E. M. Forster famously contrasted the time order of a story with the causal connections of a plot. The distinction is useful, but we should not convert it into the claim that every passage must have a direct cause-and-effect link. A train delay, chance encounter, or unexpected illness can enter a story from outside the characters' plans. What matters is what the work subsequently does with that disturbance. An accident can begin a plot; a long chain of arbitrary rescues will usually make decisions feel less consequential.
+E. M. Forster famously distinguished the sequence of events in a story from the causal connections that make a plot. It is a useful distinction, but not a demand that characters somehow cause everything that happens to them. Trains run late, strangers meet, and people become ill without anyone planning it. These disruptions acquire narrative force through their consequences: the decisions they provoke, the promises they strain, and the possibilities they close. An accident can set a plot in motion. A succession of arbitrary rescues, by contrast, can make the characters' decisions feel irrelevant.
 
 ## The causal map is not the reading order
 
@@ -52,7 +52,7 @@ Predictability is not the opposite of quality. A reader can know that Mara must 
 
 ## Escalation is not necessarily enlargement
 
-Writers often hear that stakes must rise. If the ferry cancellation costs the town a morning, the next event must cost a week, then a year, then perhaps the entire harbor. This model can produce empty inflation. Larger numbers do not guarantee greater investment. What matters is the tightening relationship between a person's commitments and the available choices.
+Writers often hear that stakes must rise. If the ferry cancellation costs the town a morning, the next event must cost a week, then a year, then perhaps the entire harbor. This model can produce empty inflation. Larger numbers do not guarantee greater investment. The pressure comes from the tightening relationship between a person's commitments and the available choices.
 
 At the beginning, Mara can confess or remain quiet. Later, confession may protect the town but implicate the clinic director, who knowingly used the unofficial channel during a medical emergency. Still later, the town's emergency hearing may ask Mara to testify against the person who trained her. The physical stakes can remain a modest question of transport safety while the moral and relational consequences become harder to separate.
 

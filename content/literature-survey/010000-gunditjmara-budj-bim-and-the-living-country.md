@@ -75,7 +75,7 @@ A shelter and an eel pond are connected kinds of knowledge. One is a decision ab
 
 The most convincing evidence of occupation is not a picturesque ruin alone. It is the arrangement of works across a lived landscape: stone walls, water channels, holding ponds, places of dwelling, places where plant fibres could be gathered, and routes to other communities. The single remarkable structure becomes more intelligible as part of a network of ordinary needs and practiced solutions.
 
-Gunditjmara Elders and community organisations have worked to keep and renew this knowledge, including the arts of managing kooyang and weaving baskets. When a practice continues into the present, it changes what we mean by an archaeological site. Its significance is not exhausted by how old a particular wall may be. What matters is the relationship between people and place, including the people who remain able to speak for it.
+Gunditjmara Elders and community organisations have worked to keep and renew this knowledge, including the arts of managing kooyang and weaving baskets. When a practice continues into the present, it changes what we mean by an archaeological site. Its significance is not exhausted by how old a particular wall may be. The account turns on the relationship between people and place, including the people who remain able to speak for it.
 
 ## Toward Sea Country
 

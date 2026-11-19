@@ -30,7 +30,7 @@ This turns the residue theorem into a counting mechanism. Instead of integrating
 
 ## What the contour measures geometrically
 
-The same formula has a geometric interpretation. Suppose f has no zero or pole along the contour. As the input moves once around the boundary, the output f of z traces a closed curve in the complex plane that never passes through zero. It may cross itself, retrace part of its path, or move very unevenly. What matters is its net rotation around zero.
+The same formula has a geometric interpretation. Suppose f has no zero or pole along the contour. As the input travels once around the boundary, its image under f traces a closed curve that avoids zero. The image may cross itself, retrace part of its path, or speed up and slow down. None of those details changes its net winding around zero, which is the geometric quantity counted by the argument principle.
 
 Imagine tracking a continuously varying angle of the output vector as you travel along the boundary. The angle can increase and decrease, but after returning to the starting output its total change must be an integer number of full turns. That integer is the winding number of the output path about zero.
 

@@ -102,7 +102,7 @@ The smallest gap is two, so our general conclusion is that the operator norm of 
 
 The constant one is optimal. Take one-dimensional spaces. Let A multiply by delta, B multiply by zero, and C multiply by one. Then X multiplies by one over delta, so the bound is an equality.
 
-If the order is reversed, with A entirely below B, we can exchange the direction of time and the sign of the formula, or apply the result after swapping A and B. The same norm estimate holds. What matters is consistent ordering, not which operator is above.
+If the order is reversed, with A entirely below B, we can exchange the direction of time and the sign of the formula, or apply the result after swapping A and B. The same norm estimate holds. Consistent ordering is required; either operator can be above the other.
 
 Finally, be careful about hypotheses. The exact decay proof used self-adjoint functional calculus and a common ordered cut. Mere nonoverlap of spectral sets does not provide the same semigroup estimate.
 

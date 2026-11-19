@@ -62,7 +62,7 @@ The best sewing begins with a simple respect for cloth: it has a structure, a hi
 
 The direction and structure of cloth can be identified more precisely through its fibers, weave, knit, and grain.
 
-Take a cotton T-shirt and a cotton bedsheet. They can share the same basic fiber but feel and behave very differently. The shirt stretches around the body; the sheet holds its rectangular shape much more firmly. The explanation often lies in construction. Many T-shirts are knitted, with interlocking loops. Many sheets are woven, with yarns crossing at right angles. Fiber matters, but the architecture of the fabric matters just as much.
+Take a cotton T-shirt and a cotton bedsheet. Both may be made chiefly from the same fiber, yet they feel and behave differently. The shirt stretches around the body; the sheet holds its rectangular shape more firmly. Construction helps explain the difference: the shirt is often knitted from interlocking loops, while the sheet is woven from yarns crossing at right angles. Knowing the fiber alone does not tell us how the finished cloth will behave.
 
 This distinction is a powerful tool for repair and garment selection. When we say “cotton,” “polyester,” “wool,” “linen,” or “nylon,” we are naming fibers or fiber families. When we say “plain weave,” “twill,” “jersey knit,” “rib knit,” or “felt,” we are describing structures. And when we say “grain,” “bias,” “stretch,” and “recovery,” we are describing orientation and behavior. These are overlapping but not interchangeable classifications.
 
@@ -90,7 +90,7 @@ Stretch is the change in size under load. Recovery is the ability to return towa
 
 Felt, many interfacings and some specialty textiles are not woven or knitted. Their fibers may be bonded by heat, mechanical entanglement, chemicals or other processes. They can be useful precisely because their structure does not depend on one set of yarns crossing another. They may behave differently when cut, punctured, pressed or washed.
 
-This matters when repairing garments. A fusible interfacing must be compatible with fabric temperature and handling. A stitch line that works in stable woven cotton may pop in a stretchy knit unless the seam is designed to accommodate extension. The right needle, thread and stitch interact with both the fiber and construction.
+These construction differences affect garment repairs. A fusible interfacing must be compatible with fabric temperature and handling. A stitch line that works in stable woven cotton may pop in a stretchy knit unless the seam is designed to accommodate extension. The right needle, thread and stitch interact with both the fiber and construction.
 
 ### Observe cloth before trusting a label
 
@@ -152,7 +152,7 @@ The essential idea is that a sewing machine is a timed mechanism. Needle and hoo
 
 A garment is not just fabric shaped like a body. It is a collection of fabric pieces joined so that the seams withstand movement, washing, and wear while preserving the intended shape. A seam can fail by broken stitches, fraying edges, puckering, or fabric tearing next to an otherwise intact row of stitches. Those are different mechanisms, and they suggest different choices about how to sew.
 
-Begin with the plain seam. Two pieces are placed together, typically with their right sides facing, and stitched along a planned seam line. The material outside the stitching is the *seam allowance*. After turning or opening the pieces, the seam line establishes the finished shape. But the allowances still exist inside the garment, and their raw edges may fray. This distinction matters: creating the joint and finishing its raw edges are related jobs, not necessarily the same job.
+Begin with the plain seam. Two pieces are placed together, typically with their right sides facing, and stitched along a planned seam line. The material outside the stitching is the *seam allowance*. After turning or opening the pieces, the seam line establishes the finished shape. But the allowances still exist inside the garment, and their raw edges may fray. Creating the joint and finishing its raw edges are related jobs, but not necessarily the same job.
 
 ### The seam allowance is part of the design
 

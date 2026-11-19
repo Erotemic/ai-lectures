@@ -72,7 +72,7 @@ To estimate performance on genuinely new data, reserve observations that do not 
 
 For small datasets, cross-validation can be helpful. But the folds must reflect the intended use. If we want to predict a new patient, separate entire patients, not visits by the same patient. If we want to forecast next month, train only on earlier months and assess the future months. Randomly shuffling a time series may let information from the future leak into the apparent past.
 
-There is no universal split ratio. What matters is what independence or distributional similarity the test is meant to represent. A huge randomly split dataset may still give false confidence if train and test share duplicated records or hidden group identities.
+There is no universal split ratio. The aim is to test the model on cases that are independent enough, or similar enough to future uses, for the result to be informative. Even a huge randomly divided dataset can give false confidence when training and test sets share duplicate records or hidden group identities.
 
 ## What does coverage actually require?
 

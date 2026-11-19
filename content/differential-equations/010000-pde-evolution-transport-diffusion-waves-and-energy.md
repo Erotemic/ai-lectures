@@ -88,7 +88,7 @@ That identity can make sense even when u has only a square-integrable first weak
 
 A function u has a weak derivative g if integrating u against the derivative of any smooth compactly supported test function gives minus the integral of g against that test function. For a smooth u, integration by parts proves that g is the ordinary derivative. But the definition extends to functions with corners.
 
-Consider the absolute-value function on an interval around zero. Its classical derivative fails to exist at zero. Yet it has a weak derivative equal to negative one on the negative side and positive one on the positive side. What matters is equality inside every test-function integral; the value assigned at the single point zero is irrelevant in the usual almost-everywhere sense.
+Consider the absolute-value function on an interval around zero. Its classical derivative fails to exist at zero. Yet it has a weak derivative equal to negative one on the negative side and positive one on the positive side. The condition is equality inside every test-function integral; the value assigned at the single point zero is irrelevant in the usual almost-everywhere sense.
 
 Sobolev spaces package this idea. The space H one consists of square-integrable functions whose first weak derivatives are square-integrable. H naught one consists, roughly speaking, of H one functions with zero boundary trace. On a suitably regular bounded domain, this trace is a well-defined extension of the classical notion of vanishing at the boundary.
 

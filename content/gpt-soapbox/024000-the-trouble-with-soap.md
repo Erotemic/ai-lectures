@@ -30,7 +30,7 @@ Different kinds of dirt require different contributions from those mechanisms. A
 
 I like this level of explanation because it allows the familiar demonstration to become a set of questions. What sort of grease? How much soap? What temperature is the water? What are we washing? How are we agitating it? What else is dissolved in the water? The difference between a clean plate and a greasy one is affected by all of them.
 
-Even foam can mislead us. Bubbles are visible evidence that some surface-active material is present, but the height of a mountain of foam is not a direct measurement of how much grease has been removed. A cleaning formulation can be designed to produce an impressive lather. It can also be designed to clean effectively with less visible foam. What matters is the material left on the surface after the rinse.
+Even foam can mislead us. Bubbles are visible evidence that some surface-active material is present, but the height of a mountain of foam is not a direct measurement of how much grease has been removed. A cleaning formulation can be designed to produce an impressive lather. It can also be designed to clean effectively with less visible foam. The residue left after rinsing tells us what the cleaning process achieved.
 
 Before we get too comfortable with our beautifully cooperative soap molecule, we should ask where it comes from.
 

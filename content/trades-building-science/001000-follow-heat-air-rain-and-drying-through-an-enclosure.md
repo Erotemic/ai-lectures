@@ -8,7 +8,7 @@
 
 Imagine waking on a cold morning to find water on the inside of a bedroom window. The instinctive diagnosis might be, "The window leaks." But what exactly leaked? Rain may never have touched the glass. The water may have originated in your own breath, your cooking, or a shower in a different part of the house. To explain that puddle, we need to trace the paths of heat, air, and water vapor. A house is not a static collection of objects. It is a system through which energy and matter are always trying to move.
 
-The distinction matters because a remedy for one kind of movement may aggravate another. A window replacement can change the temperature of the glass and the air leakage around its frame. Added insulation may keep an interior surface warmer, yet make another hidden surface colder. Sealing an attic hatch can reduce an important air path without changing the insulating value of the hatch itself. If we understand the flows separately, we can predict which intervention addresses which mechanism.
+A remedy for one kind of movement may aggravate another, so the two must be distinguished. A window replacement can change the temperature of the glass and the air leakage around its frame. Added insulation may keep an interior surface warmer, yet make another hidden surface colder. Sealing an attic hatch can reduce an important air path without changing the insulating value of the hatch itself. If we understand the flows separately, we can predict which intervention addresses which mechanism.
 
 ### Where heat goes
 
@@ -82,7 +82,7 @@ This arithmetic reveals why the cavity insulation rating is not the wall rating.
 
 Now add an uninterrupted insulating layer outside the framing and the cavities. If it adds an R-value of five to both paths, the cavity path rises from twenty to twenty-five and the framing path rises from six to eleven. The combined result is approximately nineteen, using the same area fractions. That is a larger improvement than simply adding five to the weakest part or judging by the cavity rating alone.
 
-Why does this work? Continuous insulation forces both parallel paths to pass through another resistance in series. The framing still matters, but its bypass advantage is reduced. This is an important architectural idea: sometimes it is better to change the network of paths than to improve the best path in the network.
+Why does this work? Continuous insulation forces both parallel paths to pass through another resistance in series. Framing still affects the result, but its bypass advantage is reduced. This is an important architectural idea: sometimes it is better to change the network of paths than to improve the best path in the network.
 
 Real details complicate the model. Exterior insulation may be interrupted at window openings or attachments. Studs conduct heat in two and three dimensions, not only across a neat slice of wall. Surface temperatures, wind, moisture, fastener geometry, and installation quality change performance. The simple parallel-path model is for reasoning, not a claim that we have calculated the rating of a particular wall.
 
@@ -164,7 +164,7 @@ You can understand a flashing by asking three questions. What catches water arri
 
 ### The window is a small roof in the wall
 
-A window interrupts the wall's water-control plane in four directions. At the head, water from above must be diverted over the top of the opening. Along the jambs, water must stay directed toward the exterior. At the sill, a pan flashing can collect incidental water and direct it outward. The integration order matters because each layer must deliver water onto the next appropriate lower layer, not behind it.
+A window interrupts the wall's water-control plane at the head, jambs, and sill. Flashing at the head diverts water arriving from above. The jamb details guide water toward the outside, while a sill pan gives incidental water a route to escape. The sequence of layers determines whether those details work together: each upper layer must drain over the next lower one. If those overlaps are reversed, the same water may be led behind the protection rather than out of the wall.
 
 A window sealant joint is useful, but one bead of caulk is not a substitute for drainage. Sealants age, substrates move, and sun and temperature change adhesion. If the entire strategy depends on one inaccessible bead remaining flawless forever, a small defect can become a large hidden leak. The better question is what the assembly does *after* that bead fails. Does water find the pan and leave, or soak into the rough opening? A drained sill needs an exit path; plugging that exit while trying to make a window 'extra waterproof' can reverse the intended design.
 
@@ -196,7 +196,7 @@ To understand it, we need to distinguish three ways moisture moves. Liquid water
 
 Warm air generally has a higher saturation vapor pressure than cold air. The actual water-vapor pressure expresses how much vapor is present; relative humidity compares that amount with the saturation level at the current temperature. When air is cooled without removing moisture, its relative humidity rises. At the dew point, the actual vapor pressure reaches saturation. Further cooling can produce condensation on a suitable surface. We have all seen this on a cold beverage glass.
 
-Consider indoor air that feels reasonably dry at a comfortable temperature. If some of that air slips through an outlet opening into a cold wall cavity, it can reach cold sheathing while retaining much of its original moisture. Condensation may occur there. This is why controlling leakage of indoor air into assemblies matters so much: moving air can deliver moisture rapidly to a concentrated cold spot. The vapor that diffuses through intact gypsum board is a different and generally slower pathway.
+Indoor air can feel reasonably dry at a comfortable temperature and still carry water vapor into a wall cavity. If it leaks through an outlet opening and reaches cold sheathing, condensation may form there. Moving air can deliver moisture rapidly to one concentrated cold spot; diffusion through intact gypsum board is a different and generally slower route. The distinction changes how we diagnose the wetting and how we try to stop it.
 
 A vapor retarder changes the rate at which vapor diffuses through a material. Its permeability is often described in perms. Low-perm materials impede diffusion more strongly than high-perm materials. An air barrier, by contrast, is a continuous boundary designed to resist air movement under pressure differences. Some membranes can perform both jobs, but neither job follows automatically from the material's label. Taped joints, transitions, penetrations, and continuity across a whole assembly determine whether the air-control function is actually present.
 

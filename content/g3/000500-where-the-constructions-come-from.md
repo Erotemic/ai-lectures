@@ -40,7 +40,7 @@ Separated spectra and operator equations
 
 The fourth strand is an operator equation. James Joseph Sylvester studied the matrix equation A X minus X B equals C in 1884, and its solvability depends on the two coefficient matrices having no common eigenvalue. Marvin Rosenblum extended the theory to bounded operators with disjoint spectra in 1956, and studied the case of self-adjoint coefficients in 1969.
 
-For angle bounds, solvability is not enough; what matters is the size of the solution. When the residual is projected onto the complement of the exact subspace, the coordinates of the trial vectors in that complement satisfy a Sylvester equation whose coefficients are the trial operator and the unwanted exact block. If the two spectra are separated by delta in the right geometric shape, the solution is at most the right-hand side divided by delta. That is the bridge from a residual to an angle.
+For angle bounds, solvability is not enough; the bound depends on the size of the solution. When the residual is projected onto the complement of the exact subspace, the coordinates of the trial vectors in that complement satisfy a Sylvester equation whose coefficients are the trial operator and the unwanted exact block. If the two spectra are separated by delta in the right geometric shape, the solution is at most the right-hand side divided by delta. That is the bridge from a residual to an angle.
 
 In the course, this strand gives the Sylvester equation, Davis and Kahan's Theorems 5.1 and 5.2, the distance-only Hilbert–Schmidt estimate, and the treatment of unbounded coefficients through cutoffs.
 

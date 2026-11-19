@@ -14,7 +14,7 @@ But Beatty is not an objective historian. He is a literate officer defending the
 
 The novel's social world is itself incomplete. We hear much more from Montag, Beatty, Mildred, and Faber than from the people whose lives occupy the edges of the city. Bradbury's society is a satirical construction, not a sociological report. Its inhabitants often speak with an almost theatrical inability to sustain attention. That exaggeration gives the book force but also limits how literally we can apply it. A person who enjoys television is not thereby a collaborator in censorship. Popular entertainment can carry inquiry as well as distraction, and serious thinking does not require that everyone favor one literary form.
 
-What matters is the loss of choice and the impoverishment of attention. In Montag's world, the public has very few ways to encounter a difficult experience without immediately having it simplified or replaced. The wall-sized screens do not simply entertain; they claim a kind of emotional precedence over the people in the room. Mildred knows how to describe the scripts of her televised household while struggling to tell her husband what she feels about her own life. The medium is not the only cause of that distance, but it makes the distance easier to maintain.
+The system strips away choice and impoverishes attention. In Montag's world, the public has very few ways to encounter a difficult experience without immediately having it simplified or replaced. The wall-sized screens do not simply entertain; they claim a kind of emotional precedence over the people in the room. Mildred knows how to describe the scripts of her televised household while struggling to tell her husband what she feels about her own life. The medium is not the only cause of that distance, but it makes the distance easier to maintain.
 
 ## Clarisse's different kind of attention
 
@@ -32,7 +32,7 @@ This matters because possession can become another form of collecting without co
 
 Reading is an activity carried out by people. It can refine judgment, widen sympathy, or reveal how badly an author has reasoned. It can also supply material for intimidation. Beatty is a man full of literary quotations who uses them to silence another person. The difference between Faber and Beatty is therefore not that one has read and the other has not. It is that one still believes another person's inquiry should remain open, while the other has turned his knowledge into a technique for closing it.
 
-If we make Fahrenheit 451 into the claim that books are automatically virtuous and electronic media automatically corrupting, we miss this distinction. Bradbury's plot itself gives us a two-way electronic earpiece through which Faber can guide Montag. Technology can help preserve a relationship. What matters is whether the system encourages people to think and respond or merely delivers stimuli on a schedule that cannot be questioned.
+If we make Fahrenheit 451 into a claim that books are automatically virtuous and electronic media automatically corrupting, we miss part of Bradbury's own story. Faber guides Montag through a two-way electronic earpiece; technology can sustain a conversation as well as drown one out. The sharper distinction is between systems that leave room for thought and response and systems that keep delivering stimulation without allowing their audience to question the schedule.
 
 ## A marriage that no longer has a language
 

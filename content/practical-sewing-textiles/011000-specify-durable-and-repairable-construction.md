@@ -30,7 +30,7 @@ For a structured bag, some resistance to bending may be desirable, especially at
 
 ### Durability has several failure modes
 
-Abrasion resistance matters where surfaces rub, such as trouser knees and bag bottoms. Tear strength matters when a sharp load propagates a small cut. Tensile strength matters under distributed pulling. Seam slippage occurs when yarns move away from a seam even without thread breakage. Pilling appears when fibers and yarn ends form small surface balls after wear. Colorfastness, ultraviolet exposure, washing shrinkage, and heat damage add other aging processes.
+Different kinds of wear test different kinds of strength. Abrasion resistance describes a fabric's ability to withstand rubbing at trouser knees or bag bottoms. Tear strength describes how readily a small cut grows under a sharp load; tensile strength describes behavior under a more distributed pull. A seam can fail even without a broken thread if yarns slip away from its stitching. Pilling, fading, ultraviolet exposure, washing shrinkage, and heat damage introduce still other ways for a material to age.
 
 A dense fabric with excellent abrasion resistance might still fail at a poorly designed seam. The seam may carry stress through a small region and require reinforcement or a different stitch. Heavy fabric also demands appropriate machine needle, thread, seam allowances, and handling. Choosing the strongest fabric on paper does not guarantee the strongest finished object.
 
@@ -72,7 +72,7 @@ For a garment, stress points may include pocket corners, the ends of a zipper op
 
 ### Grain, stretch, and shrinkage remain important
 
-A woven lining cut on a different grain orientation from its outer layer may pull diagonally as the garment hangs. A knit lining may recover elastically while a non-stretch shell does not, changing where strain concentrates. Pre-treatment matters if the layers shrink differently when washed. It is often worth laundering and pressing a test sample in the way the finished item will be cared for before committing the final fabric.
+A woven lining cut on a different grain from its outer layer may pull diagonally as the garment hangs. A knit lining may recover elastically while a non-stretch shell does not, moving strain into different places. If the layers also shrink at different rates in the wash, the finished item can distort even when every seam was sewn correctly. Laundering and pressing a test sample as the finished item will be cared for can reveal those problems before the final fabric is cut.
 
 Interfacing is often cut to avoid unnecessary bulk in seam allowances, depending on method and pattern. That detail influences how collars and waistbands turn at the edge. A heavy overlap at a corner can produce a lump that careful topstitching cannot erase. Trimming, grading seam allowances, and controlled pressing can improve the shape because they redistribute thickness, not because they cosmetically hide an error.
 

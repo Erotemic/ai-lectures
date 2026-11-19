@@ -74,7 +74,7 @@ But consider what sort of ending this is for the young man introduced eleven yea
 
 Fans have spent decades discussing the mechanics of the fall and Spider-Man's attempt to catch her. The comics have not always handled that question consistently. It matters, but the wider significance does not depend on a single forensic answer. A superhero comic had killed a central character and made the resulting grief part of Peter's continuing life.
 
-One of the story's most important consequences happens after the action, in the quiet. Mary Jane, previously easy for Peter to dismiss as carefree, chooses not to leave him alone. The scene matters because she makes a decision that does not erase Gwen and is not simply an invitation to the next romance. A supporting character can surprise Peter by being more serious than his judgment of her.
+One of the story's most important consequences happens after the action, in the quiet. Mary Jane, previously easy for Peter to dismiss as carefree, chooses not to leave him alone. Mary Jane makes a decision that does not erase Gwen and is not simply an invitation to the next romance. A supporting character can surprise Peter by being more serious than his judgment of her.
 
 Meanwhile the broader series is getting bigger. The Punisher first appears in *Amazing Spider-Man* one hundred twenty-nine, a 1974 comic, as an armed vigilante initially set against Spider-Man. Place them side by side and you have an argument about heroism. Peter is a man who knows that violence is tempting and keeps looking for restraint. The Punisher takes a much harsher path. Their proximity makes Spider-Man's morality visible by contrast.
 
@@ -106,7 +106,7 @@ The other event is a wedding. Peter Parker and Mary Jane Watson marry in *Amazin
 
 Stop at that image for a moment: Spider-Man, whose original problem was that he could barely get a date and keep a job, has become a groom at home plate in front of a crowd. The shy boy from a short story has acquired a public wedding big enough to require a promotional strategy.
 
-Readers can disagree about whether the marriage was good for the ongoing series. What matters historically is that Marvel did not treat it as invisible or reversible in the moment. Peter and Mary Jane now had a shared household, new obligations, and a relationship that was not identical to the recurring will-they-or-won't-they romance. The comic had made an irreversible-sounding promise about adulthood. It was also committing the publisher to maintain that change across future stories.
+Readers can disagree about whether the marriage was good for the ongoing series. At the time, Marvel did not treat the change as invisible or reversible. Peter and Mary Jane now had a shared household, new obligations, and a relationship that was not identical to the recurring will-they-or-won't-they romance. The comic had made an irreversible-sounding promise about adulthood. It was also committing the publisher to maintain that change across future stories.
 
 The contrast is revealing. *Kraven's Last Hunt* explores what the costume means when it is removed from Peter. The wedding explores what Peter might become when he is not defined only by missing the next date. Both ask whether there is a person underneath the reliable brand. Both will haunt the decades to come.
 
@@ -226,7 +226,7 @@ If the earliest Spider-Man had been a teenager who could not fit into the heroic
 
 By the 2020s, asking for the current Spider-Man sounds like a request for a clarification. The films, the comics, the games, and the animated stories do not line up as chapters in a single biography. That is increasingly a feature rather than a defect.
 
-In 2020, *Marvel's Spider-Man: Miles Morales* gives Miles a starring videogame of his own. It matters that this is not a menu option to play the original game in a different suit. Miles has a family and neighborhood world, a distinctive fighting vocabulary, and his own claims on what protecting New York involves. The player gets to learn his version of the job from inside it.
+In 2020, *Marvel's Spider-Man: Miles Morales* gives Miles a starring videogame of his own. This is not a menu option to play the original game in a different suit. Miles has a family and neighborhood world, a distinctive fighting vocabulary, and his own claims on what protecting New York involves. The player gets to learn his version of the job from inside it.
 
 The 2021 film *Spider-Man: No Way Home* does something almost unimaginable to a comics fan reading in the sixties: it turns the existence of several earlier screen interpretations into the point of a blockbuster. Different Peters can meet without one having to be declared invalid. The film draws emotional power from the fact that audiences remember different eras of Spider-Man movies. It also relies on those memories being distinct. An earlier movie does not vanish merely because a studio has cast the character again.
 

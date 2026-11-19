@@ -88,7 +88,7 @@ There are important restrictions. If a pole lies directly on the real line, then
 
 If the integrand decays only like one divided by z, the length of a semicircle may cancel that decay and leave a nonvanishing arc contribution. Additional oscillation can sometimes help, but it must be shown. Similarly, branch points of logarithms and fractional powers may require branch cuts and keyhole contours, because there is no globally single-valued integrand on the whole region we initially imagined.
 
-Nor should we assume that only poles contribute. The residue theorem covers isolated essential singularities as well, so long as the function is holomorphic in the punctured region and the contour's hypotheses hold. What matters is the residue coefficient, not whether the singularity is easy to picture.
+Nor should we assume that only poles contribute. The residue theorem covers isolated essential singularities as well, so long as the function is holomorphic in the punctured region and the contour's hypotheses hold. The residue coefficient is what we compute; visualizing the singularity is optional.
 
 One final observation points to another powerful use. A residue is a local coefficient detected by the integral of f. What if we integrate the ratio of a function's derivative to the function itself? Near a zero, that ratio behaves like the multiplicity divided by z minus a. Near a pole, the ratio behaves like minus the pole order divided by z minus a. The residue theorem should then count zeros minus poles inside a contour, using only values along its boundary.
 

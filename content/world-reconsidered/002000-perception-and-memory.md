@@ -120,7 +120,7 @@ Notice how careful the comparison was. An experiment cannot bring back every sen
 
 The distinction is valuable when a witness says, sincerely, 'I can see it as clearly as the day it happened.' The statement reports a quality of present experience. It does not, on its own, settle whether the description matches the original event. A listener can respect the person's experience while still asking whether independent records, photographs, timestamps, or other accounts support the particular claim.
 
-We should also resist the opposite overreaction. Studies of mistaken or changing memories do not prove that eyewitnesses are always unreliable or that everything recalled is invented. Memory can preserve information for decades. It can also change under suggestion, repeated retelling, and shifts in understanding. What matters is identifying the conditions under which a specific memory should carry more or less evidentiary weight.
+We should also resist the opposite overreaction. The existence of mistaken or changing memories does not mean eyewitnesses are always unreliable or that every recollection is invented. Some memories remain informative for decades; others change with suggestion, repeated retelling, and later interpretation. Their evidentiary value depends on the conditions in which they formed, the pressures they have faced, and what independent checks are available.
 
 ## Prediction is useful because the world has structure
 

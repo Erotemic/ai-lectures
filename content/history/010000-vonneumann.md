@@ -84,7 +84,7 @@ In an infinite-dimensional Hilbert space, we need to specify what it means for a
 
 Von Neumann developed a theory of operator rings beginning in the late nineteen twenties. With Francis Murray, he produced a foundational series of papers in the nineteen thirties and early forties on what are now called von Neumann algebras. A central definition is an algebra of bounded operators that is closed under adjoints and under the weak operator topology, with the identity included. One also has equivalent descriptions in terms of commutants, under appropriate hypotheses.
 
-Why study such a collection? Because an operator may be too poor a description of a physical system considered in isolation. What matters is which measurements are available, how their projections are related, and what other operators commute with all of them. The algebra can preserve structure that an arbitrary change of matrix coordinates obscures.
+Why study such a collection? Because an operator may be too poor a description of a physical system considered in isolation. The analysis depends on which measurements are available, how their projections relate, and which other operators commute with all of them. The algebra can preserve structure that an arbitrary change of matrix coordinates obscures.
 
 An especially important concept is the center of an algebra: the operators that commute with every operator in the collection. In the algebra of all two-by-two matrices, the center consists only of scalar multiples of the identity. Such algebras are examples of factors. For a commutative algebra, by contrast, every element lies in the center. This simple distinction becomes the starting point for a much richer classification in infinite dimensions.
 

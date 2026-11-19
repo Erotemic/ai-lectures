@@ -26,7 +26,7 @@ Take a comfortable four-beat pulse. Count 'one, two, three, four.' Now fit two e
 
 Try a simple pattern while speaking the subdivision: clap on one, the 'and' after two, and four. Say the complete count several times while clapping only those moments. The first clap aligns with a prominent pulse; the middle clap arrives between pulses; the final clap returns to a numbered beat. If the middle clap keeps slipping onto three, slow down. You are practicing independence between the felt reference and the sounded events.
 
-A different division gives three equal parts inside one beat. You might say 'one-trip-let, two-trip-let' while keeping the two numbered beats evenly spaced. In ordinary speech, those syllables can be hard to keep evenly timed. Try saying 'one-ta-ta, two-ta-ta' if that is easier. The syllables are just a counting tool. What matters is whether three nearly equal subdivisions fit inside each pulse without stretching the beat itself.
+A different division gives three equal parts inside one beat. You might say 'one-trip-let, two-trip-let' while keeping the two numbered beats evenly spaced. In ordinary speech, those syllables can be hard to keep evenly timed. Try saying 'one-ta-ta, two-ta-ta' if that is easier. The syllables are just a counting tool. Three nearly equal subdivisions must fit inside each pulse without stretching the beat itself.
 
 These divisions form a grid, but performers do not have to sound exactly on every grid point. The grid is a way to describe relationships. Real performances often vary their attack times, note lengths, and emphasis. The difference between a notated arrangement and an actual groove is partly the difference between a plan of where sounds belong and a negotiated, responsive performance in time.
 

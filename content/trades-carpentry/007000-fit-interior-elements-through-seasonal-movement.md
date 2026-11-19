@@ -130,7 +130,7 @@ The first question for a cabinet or bookcase is where the weight goes. Books loa
 
 At a wall cabinet, the weight and its distance from the wall create both vertical shear and an overturning moment. Upper connections may experience significant tension as the cabinet tends to rotate outward. Mounting screws, rails, anchors, substrate, and cabinet back must all participate in the load path. A finish wall surface alone is not generally a reliable substitute for structural backing. Before hanging a cabinet, determine the wall construction and the attachment system designed for it.
 
-### Why shelf thickness matters so much
+### How shelf thickness affects stiffness
 
 The bending stiffness of a rectangular shelf depends strongly on thickness. In a simplified beam model, the second moment of area about the bending axis is proportional to width times thickness cubed. Doubling the thickness, with material and other dimensions unchanged, increases this geometric stiffness term by a factor of eight. This is why placing a narrow board on edge makes it resist bending far better than laying it flat.
 
@@ -160,7 +160,7 @@ The goal is not to turn every bookcase into a structural engineering project. It
 
 On one side of a porch, paint flakes from the lower edge of a wooden board. On the sheltered side, the same paint is intact. It is tempting to call the failure a bad paint job. But the peeling edge may be telling a longer story about sunlight, rain, wood moisture, and the direction in which water dries.
 
-Wood is not inert. Its cell structure takes up and releases water with changes in the surrounding environment. Across the grain, dimensional change can be substantial; along the grain it is much smaller. End grain exposes pathways that can take up liquid water readily. Sunlight degrades exposed surface wood and can weaken the interface on which a transparent or painted finish depends. Finish selection matters, but detailing that keeps wood reasonably dry often matters more.
+Wood is not inert. Its cell structure takes up and releases water with changes in the surrounding environment. Across the grain, dimensional change can be substantial; along the grain it is much smaller. End grain exposes pathways that can take up liquid water readily. Sunlight degrades exposed surface wood and can weaken the interface on which a transparent or painted finish depends. Detailing that keeps wood reasonably dry often offers more protection than the finish alone.
 
 ### Separate finish appearance from protection
 
@@ -172,7 +172,7 @@ The correct question is not whether paint or stain is “best.” It is what the
 
 Good exterior woodwork gives water an easy way out. Cap exposed horizontal edges where appropriate, slope surfaces intended to drain, avoid pockets that hold water, and provide adequate clearances from soil and constantly wet masonry. Where siding or trim forms part of a wall, maintain the continuous drainage and flashing system; caulk alone should not be asked to replace a missing water exit. Water can enter a joint despite an intact-looking exposed bead and remain concealed behind an impermeable layer.
 
-Consider a fence rail that is coated thoroughly on its visible faces but has an untreated end inserted into a wet pocket. The exposed finish looks sound while the end grain remains damp, and decay may begin where it cannot be seen. Improving the detail and protecting the vulnerable end matters as much as repainting the face. Do not use finish as a substitute for a structural repair where wood has already lost capacity.
+Consider a fence rail that is coated thoroughly on its visible faces but has an untreated end inserted into a wet pocket. The exposed finish looks sound while the end grain remains damp, and decay may begin where it cannot be seen. Repainting the face does not replace improving the detail and protecting the vulnerable end. Do not use finish as a substitute for a structural repair where wood has already lost capacity.
 
 ### Understand surface preparation
 

@@ -222,7 +222,7 @@ A certificate of insurance can provide information about coverage reported at th
 
 A building permit typically authorizes work within the governing authority's process. It may require plans, calculations, inspections, or revisions. The permit concerns a *particular scope* at a *particular address*; possessing a contractor license does not mean every job can begin without one. Some minor work may be exempt. Structural changes, certain electrical and plumbing work, and other alterations may trigger requirements depending on adopted local rules.
 
-Who pulls the permit matters because that determines who is listed as responsible in parts of the process and who receives notices. A contractor who asks the homeowner to pull a permit to avoid the contractor's obligations deserves careful scrutiny of the local rules and proposed contract. An exemption should be verified, not guessed from the small visible size of the project.
+Who pulls the permit determines who is listed as responsible in parts of the process and who receives notices. A contractor who asks the homeowner to pull a permit to avoid the contractor's obligations deserves careful scrutiny of the local rules and proposed contract. An exemption should be verified, not guessed from the small visible size of the project.
 
 ### Inspections are milestones, not magic guarantees
 

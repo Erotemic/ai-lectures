@@ -22,7 +22,7 @@ There is also a difficult question of where the joke ends. Suppose the original 
 
 ## Subtitles ask the eye to divide its labor
 
-Subtitles allow the original voices to remain audible, but reading is an additional visual task. The viewer is no longer looking only at faces, props, and spatial relationships. Even a short subtitle occupies attention and has to remain long enough to read. For comedy, this matters because a quick reaction shot may contain the entire punch line. A person who reads the words just as the reaction appears might miss the look that makes them funny.
+Subtitles allow the original voices to remain audible, but reading is an additional visual task. The viewer is no longer looking only at faces, props, and spatial relationships. Even a short subtitle occupies attention and has to remain long enough to read. In comedy, a quick reaction shot may contain the entire punch line. A person who reads the words just as the reaction appears might miss the look that makes them funny.
 
 It would be careless to propose a universal number of characters or seconds that solves this problem. Subtitle conventions vary by language, platform, delivery specification, age of intended audience, and accessibility goals. A viewer's reading speed varies too. Technical guidelines are useful production constraints, not a scientific law of laughter. The central artistic question is whether the sequence of noticing remains possible.
 

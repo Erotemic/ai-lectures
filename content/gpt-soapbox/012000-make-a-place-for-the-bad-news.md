@@ -188,7 +188,7 @@ Some warnings are mistaken. Some objections are repetitive after the crucial evi
 
 A system that values dissent therefore needs standards for dissent, too. The person raising a concern should be encouraged to identify the observation, the inference being drawn, the size of the possible consequence, and the evidence that could settle the question. The point is not to require a formal report from someone with an urgent warning. It is to help the investigation distinguish the warning's content from the intensity with which it is expressed.
 
-A responsible organization can conclude, "We investigated this concern and found that it does not change the decision." It can even conclude, "This is a recognized risk that we accept for the following reasons." What matters is whether the conclusion bears the weight of the evidence and whether the decision-makers are empowered to bear responsibility for it.
+A responsible organization can conclude, "We investigated this concern and found that it does not change the decision." It can even conclude, "This is a recognized risk that we accept for the following reasons." The conclusion must bear the weight of the evidence, and decision-makers must be empowered to accept responsibility for it.
 
 And the person who raised the concern may need to accept that their argument did not prevail. Intellectual hospitality is not an obligation to agree. A technical culture that allows only approval of objections will eventually lose its ability to make decisions, just as a culture that punishes objections will lose its ability to detect problems.
 

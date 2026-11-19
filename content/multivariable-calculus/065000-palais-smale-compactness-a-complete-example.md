@@ -20,7 +20,7 @@ Why not insist on twice differentiable functions at the beginning? Because the e
 
 On this interval, a function in our energy space has a continuous representative. Its value at a point equals the integral of its derivative from the left endpoint. The Cauchy–Schwarz inequality therefore says that its absolute value is at most the square root of pi times the slope norm. This single estimate already controls the nonlinear term: the integral of the fourth power of u is at most pi cubed times the fourth power of the slope norm.
 
-The numerical constant is not sharp, and it does not need to be. What matters is the difference of powers. If the slope norm t is small, the energy is at least one half t squared minus pi cubed divided by four times t to the fourth. A positive quadratic dominates a quartic near zero. So choose a sufficiently small positive radius in the energy norm. On the sphere with that radius, energy is bounded below by one positive number. That is our mountain-pass barrier.
+The numerical constant is not sharp, and it does not need to be. The difference of powers controls the comparison. If the slope norm t is small, the energy is at least one half t squared minus pi cubed divided by four times t to the fourth. A positive quadratic dominates a quartic near zero. So choose a sufficiently small positive radius in the energy norm. On the sphere with that radius, energy is bounded below by one positive number. That is our mountain-pass barrier.
 
 ## A path whose energy eventually drops
 

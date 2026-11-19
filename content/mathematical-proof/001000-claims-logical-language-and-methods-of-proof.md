@@ -226,7 +226,7 @@ We can also prove a universal negative by showing any hypothetical counterexampl
 
 ### Classical reasoning and a useful distinction
 
-In classical logic, to establish P by contradiction we may assume not P, reach an impossibility, and conclude P. Constructive logic distinguishes that from proving not P by assuming P and reaching an impossibility. The latter pattern is valid constructively; the unrestricted step from 'not not P' to P is a classical principle. The advanced constructive-logic course develops this distinction further. For elementary proof writing, what matters is that we identify which proposition was negated and what actually caused the contradiction.
+In classical logic, a proof by contradiction can assume not P, derive an impossibility, and conclude P. Constructive logic distinguishes this from proving not P by assuming P and deriving an impossibility; that latter pattern is constructive, while the unrestricted move from not not P to P is classical. The advanced constructive-logic course develops the distinction further. In elementary proofs, careful bookkeeping about what was assumed and what produced the contradiction prevents us from claiming more than the argument has established.
 
 Do not treat contradiction as a license for circular reasoning. If the supposed contradiction relies on the very theorem being proved, we have gained nothing. Likewise, an unfamiliar or surprising conclusion is not a contradiction. The conclusion must violate a known fact, a definition, an assumption, or an earlier proved theorem.
 

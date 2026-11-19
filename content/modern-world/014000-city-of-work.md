@@ -96,7 +96,7 @@ The United States expanded industrial manufacturing while slavery persisted in a
 
 Even within Britain, different regions adopted technologies at different times. Steelmaking, railway expansion, textiles, coal, and chemical production involved overlapping but nonidentical trajectories. An image of one national factory system turning on at a single date can conceal decades of trial, old and new methods operating side by side, and the persistent labor of people outside industrial plants.
 
-Nor should the world outside factories be described as stagnant. Agricultural knowledge changed, commercial networks adjusted, artisans adapted, and people fought to control resources. A country without a British-style factory system was not therefore living outside history. What matters is how production and political power changed in specific settings, with evidence of the opportunities and constraints facing different populations.
+Nor was the world outside factories standing still. Agricultural techniques changed, trade networks adjusted, artisans adapted, and people struggled over resources. A country without a British-style factory system was not therefore living outside history. Changes to production and political power differed from one place to another, as did the opportunities and constraints facing the people who lived through them.
 
 ## Measuring what progress meant
 
