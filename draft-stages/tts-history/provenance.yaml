@@ -111,3 +111,12 @@ transcript:
       IDs, restore missing indexed files, and merge subject routes and source records.
       The expanded Darwin portrait is separate from the existing shorter account.
       Archive identities and original source hashes are recorded in each sidecar.
+  - date: '2026-11-18'
+    models:
+    - GPT-6 (Codex; weights/config variant unknown)
+    sources:
+    - 168000-wiles.md
+    - metadata/168000.json
+    scope: Register the supplied Andrew Wiles manuscript and source evidence, measure
+      extracted narration, and add its description and algebra/proof route membership.
+      The supplied narration is unchanged; this records integration, not original authorship.

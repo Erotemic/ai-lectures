@@ -1,0 +1,708 @@
+{
+  "schema_version": 1,
+  "lecture_id": "168000",
+  "transcript": "168000-wiles.md",
+  "related_resources": [
+    {
+      "source_id": "history-wiles-annals",
+      "reason": "Primary proof of semistable modularity and consequence for Fermat; original article dedication and precise scope."
+    },
+    {
+      "source_id": "history-wiles-taylor-annals",
+      "reason": "Primary coauthored paper giving necessary ring-theoretic input to corrected argument."
+    },
+    {
+      "source_id": "history-wiles-taylor-primary",
+      "reason": "Authorial introduction on missing ingredient; dated October 1994; explains complete intersection versus Gorenstein limitation."
+    },
+    {
+      "source_id": "history-wiles-rubin-silverberg",
+      "reason": "Contemporary mathematical explanation of 23 June 1993 announcement and Frey-Serre-Ribet connection."
+    },
+    {
+      "source_id": "history-wiles-abel",
+      "reason": "2016 award citation and linked prize lectures and interviews; record of significance of modularity theorem."
+    },
+    {
+      "source_id": "history-wiles-oxford",
+      "reason": "Childhood library account and Abel award; ten-year-old chronology."
+    },
+    {
+      "source_id": "history-wiles-mactutor",
+      "reason": "Biographical chronology, early education, Nigeria, Oxford/Cambridge, marriage, interviews, gap and correction; degree-year claims not relied upon."
+    },
+    {
+      "source_id": "history-wiles-princeton",
+      "reason": "Oxford/Cambridge training, Coates, Mazur, Harvard/Princeton, return to Oxford, influence on number theory."
+    },
+    {
+      "source_id": "history-wiles-royal-society",
+      "reason": "Wiles as author; contemporarily published 2026 recollection of doctoral work and Coates collaboration."
+    },
+    {
+      "source_id": "history-wiles-abel-interview",
+      "reason": "Recorded discussion of childhood, Coates, elliptic curves, work method, proof, and research culture. Published online 2017."
+    },
+    {
+      "source_id": "history-wiles-abel-public-interview",
+      "reason": "Wiles retrospective recollections of secrecy, family, gap, and 1994 repair."
+    },
+    {
+      "source_id": "history-wiles-modularity-completion",
+      "reason": "Separates Wiles-Taylor semistable result from Breuil-Conrad-Diamond-Taylor full 2001 modularity theorem."
+    },
+    {
+      "source_id": "history-wiles-faltings",
+      "reason": "Contemporary expert review of revised argument and proof reception."
+    },
+    {
+      "source_id": "history-wiles-nas",
+      "reason": "Wiles first-person research summary; Iwasawa conjecture, Birch-Swinnerton-Dyer, modular forms."
+    },
+    {
+      "source_id": "history-wiles-mathworld",
+      "reason": "Overview of proof repair and full modularity completion, to be cross-checked against primary mathematical work."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "168000-h001",
+      "anchor": "Andrew John Wiles was born in Cambridge on April eleventh, nineteen fifty-three.",
+      "kind": "historical_biography_attribution_or_mathematics_context",
+      "source_ids": [
+        "history-wiles-princeton",
+        "history-wiles-mactutor"
+      ],
+      "source_locator": "Verbatim narrated claim: Andrew John Wiles was born in Cambridge on April eleventh, nineteen fifty-three.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "168000-h002",
+      "anchor": "the family lived for several years in Ibadan, Nigeria",
+      "kind": "historical_biography_attribution_or_mathematics_context",
+      "source_ids": [
+        "history-wiles-mactutor"
+      ],
+      "source_locator": "Verbatim narrated claim: the family lived for several years in Ibadan, Nigeria",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "168000-h003",
+      "anchor": "Eric Temple Bell's book *The Last Problem*",
+      "kind": "historical_biography_attribution_or_mathematics_context",
+      "source_ids": [
+        "history-wiles-mactutor",
+        "history-wiles-annals"
+      ],
+      "source_locator": "Verbatim narrated claim: Eric Temple Bell's book *The Last Problem*",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "168000-h004",
+      "anchor": "Wiles entered Merton College, Oxford, in nineteen seventy-one.",
+      "kind": "historical_biography_attribution_or_mathematics_context",
+      "source_ids": [
+        "history-wiles-mactutor"
+      ],
+      "source_locator": "Verbatim narrated claim: Wiles entered Merton College, Oxford, in nineteen seventy-one.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "168000-h005",
+      "anchor": "he began working with John Coates",
+      "kind": "historical_biography_attribution_or_mathematics_context",
+      "source_ids": [
+        "history-wiles-princeton",
+        "history-wiles-royal-society"
+      ],
+      "source_locator": "Verbatim narrated claim: he began working with John Coates",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "168000-h006",
+      "anchor": "They proved a significant result connected to the Birch and Swinnerton-Dyer conjecture",
+      "kind": "historical_biography_attribution_or_mathematics_context",
+      "source_ids": [
+        "history-wiles-royal-society",
+        "history-wiles-nas"
+      ],
+      "source_locator": "Verbatim narrated claim: They proved a significant result connected to the Birch and Swinnerton-Dyer conjecture",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "168000-h007",
+      "anchor": "At Harvard he developed an important collaboration with Barry Mazur.",
+      "kind": "historical_biography_attribution_or_mathematics_context",
+      "source_ids": [
+        "history-wiles-princeton",
+        "history-wiles-mactutor"
+      ],
+      "source_locator": "Verbatim narrated claim: At Harvard he developed an important collaboration with Barry Mazur.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "168000-h008",
+      "anchor": "By nineteen eighty-two he had joined Princeton's mathematics faculty.",
+      "kind": "historical_biography_attribution_or_mathematics_context",
+      "source_ids": [
+        "history-wiles-princeton"
+      ],
+      "source_locator": "Verbatim narrated claim: By nineteen eighty-two he had joined Princeton's mathematics faculty.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "168000-h009",
+      "anchor": "Yutaka Taniyama and Goro Shimura developed the ideas",
+      "kind": "historical_biography_attribution_or_mathematics_context",
+      "source_ids": [
+        "history-wiles-annals",
+        "history-wiles-mathworld"
+      ],
+      "source_locator": "Verbatim narrated claim: Yutaka Taniyama and Goro Shimura developed the ideas",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "168000-h010",
+      "anchor": "Ribet proved the critical result in nineteen eighty-six",
+      "kind": "historical_biography_attribution_or_mathematics_context",
+      "source_ids": [
+        "history-wiles-annals",
+        "history-wiles-rubin-silverberg"
+      ],
+      "source_locator": "Verbatim narrated claim: Ribet proved the critical result in nineteen eighty-six",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "168000-h011",
+      "anchor": "Wiles began the effort in nineteen eighty-six",
+      "kind": "historical_biography_attribution_or_mathematics_context",
+      "source_ids": [
+        "history-wiles-princeton",
+        "history-wiles-nas"
+      ],
+      "source_locator": "Verbatim narrated claim: Wiles began the effort in nineteen eighty-six",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "168000-h012",
+      "anchor": "Wiles married Nada Canaan, a molecular biologist, in nineteen eighty-eight.",
+      "kind": "historical_biography_attribution_or_mathematics_context",
+      "source_ids": [
+        "history-wiles-mactutor"
+      ],
+      "source_locator": "Verbatim narrated claim: Wiles married Nada Canaan, a molecular biologist, in nineteen eighty-eight.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "168000-h013",
+      "anchor": "he was elected to the Royal Society.",
+      "kind": "historical_biography_attribution_or_mathematics_context",
+      "source_ids": [
+        "history-wiles-mactutor"
+      ],
+      "source_locator": "Verbatim narrated claim: he was elected to the Royal Society.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "168000-h014",
+      "anchor": "he asked Nicholas Katz",
+      "kind": "historical_biography_attribution_or_mathematics_context",
+      "source_ids": [
+        "history-wiles-mactutor"
+      ],
+      "source_locator": "Verbatim narrated claim: he asked Nicholas Katz",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "168000-h015",
+      "anchor": "On the final day, June twenty-third",
+      "kind": "historical_biography_attribution_or_mathematics_context",
+      "source_ids": [
+        "history-wiles-rubin-silverberg"
+      ],
+      "source_locator": "Verbatim narrated claim: On the final day, June twenty-third",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "168000-h016",
+      "anchor": "During the review process, a serious gap emerged.",
+      "kind": "historical_biography_attribution_or_mathematics_context",
+      "source_ids": [
+        "history-wiles-mactutor",
+        "history-wiles-mathworld"
+      ],
+      "source_locator": "Verbatim narrated claim: During the review process, a serious gap emerged.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "168000-h017",
+      "anchor": "The problem concerned an argument that had been intended to control certain arithmetic groups",
+      "kind": "historical_biography_attribution_or_mathematics_context",
+      "source_ids": [
+        "history-wiles-mathworld",
+        "history-wiles-taylor-primary"
+      ],
+      "source_locator": "Verbatim narrated claim: The problem concerned an argument that had been intended to control certain arithmetic groups",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "168000-h018",
+      "anchor": "Wiles eventually sought the help of Richard Taylor",
+      "kind": "historical_biography_attribution_or_mathematics_context",
+      "source_ids": [
+        "history-wiles-mactutor",
+        "history-wiles-taylor-annals"
+      ],
+      "source_locator": "Verbatim narrated claim: Wiles eventually sought the help of Richard Taylor",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "168000-h019",
+      "anchor": "The breakthrough came in September of nineteen ninety-four.",
+      "kind": "historical_biography_attribution_or_mathematics_context",
+      "source_ids": [
+        "history-wiles-mactutor",
+        "history-wiles-mathworld"
+      ],
+      "source_locator": "Verbatim narrated claim: The breakthrough came in September of nineteen ninety-four.",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "168000-h020",
+      "anchor": "the insight arrived on September nineteenth",
+      "kind": "historical_biography_attribution_or_mathematics_context",
+      "source_ids": [
+        "history-wiles-mactutor"
+      ],
+      "source_locator": "Verbatim narrated claim: the insight arrived on September nineteenth",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "168000-h021",
+      "anchor": "a complete-intersection property of certain Hecke algebras",
+      "kind": "historical_biography_attribution_or_mathematics_context",
+      "source_ids": [
+        "history-wiles-taylor-primary",
+        "history-wiles-taylor-annals"
+      ],
+      "source_locator": "Verbatim narrated claim: a complete-intersection property of certain Hecke algebras",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "168000-h022",
+      "anchor": "two adjacent articles",
+      "kind": "historical_biography_attribution_or_mathematics_context",
+      "source_ids": [
+        "history-wiles-annals",
+        "history-wiles-taylor-annals"
+      ],
+      "source_locator": "Verbatim narrated claim: two adjacent articles",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "168000-h023",
+      "anchor": "For Nada, Clare, Kate and Olivia",
+      "kind": "historical_biography_attribution_or_mathematics_context",
+      "source_ids": [
+        "history-wiles-annals"
+      ],
+      "source_locator": "Verbatim narrated claim: For Nada, Clare, Kate and Olivia",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "168000-h024",
+      "anchor": "Christophe Breuil, Brian Conrad, Fred Diamond, and Richard Taylor completed the proof",
+      "kind": "historical_biography_attribution_or_mathematics_context",
+      "source_ids": [
+        "history-wiles-modularity-completion",
+        "history-wiles-mathworld"
+      ],
+      "source_locator": "Verbatim narrated claim: Christophe Breuil, Brian Conrad, Fred Diamond, and Richard Taylor completed the proof",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "168000-h025",
+      "anchor": "in two thousand and sixteen, the Abel Prize",
+      "kind": "historical_biography_attribution_or_mathematics_context",
+      "source_ids": [
+        "history-wiles-abel",
+        "history-wiles-oxford"
+      ],
+      "source_locator": "Verbatim narrated claim: in two thousand and sixteen, the Abel Prize",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "168000-h026",
+      "anchor": "The University of Oxford opened its Andrew Wiles Building",
+      "kind": "historical_biography_attribution_or_mathematics_context",
+      "source_ids": [
+        "history-wiles-mactutor"
+      ],
+      "source_locator": "Verbatim narrated claim: The University of Oxford opened its Andrew Wiles Building",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "168000-h027",
+      "anchor": "a biographical memoir of John Coates appeared under Wiles's name",
+      "kind": "historical_biography_attribution_or_mathematics_context",
+      "source_ids": [
+        "history-wiles-royal-society"
+      ],
+      "source_locator": "Verbatim narrated claim: a biographical memoir of John Coates appeared under Wiles's name",
+      "audit_status": "source_checked"
+    }
+  ],
+  "chronology": {
+    "birth": {
+      "start": 1953,
+      "end": 1953,
+      "basis": "documented_biography",
+      "label": "Born 11 April 1953 in Cambridge",
+      "source_ids": [
+        "history-wiles-princeton",
+        "history-wiles-mactutor"
+      ]
+    },
+    "childhood": {
+      "start": 1953,
+      "end": 1971,
+      "basis": "documented_biography_and_first_person_recollection",
+      "label": "Cambridge, Ibadan, and childhood encounter with Fermat",
+      "source_ids": [
+        "history-wiles-mactutor",
+        "history-wiles-annals"
+      ]
+    },
+    "education": {
+      "start": 1971,
+      "end": 1980,
+      "basis": "documented_university_record_approximate_end",
+      "label": "Oxford undergraduate and Cambridge research with John Coates",
+      "approximate": true,
+      "source_ids": [
+        "history-wiles-princeton",
+        "history-wiles-royal-society"
+      ],
+      "note": "Doctoral degree-year references differ between institutional biographies; no exact doctoral-degree date asserted in narration."
+    },
+    "public_mathematical_career": {
+      "start": 1975,
+      "end": 2026,
+      "basis": "dated_research_and_publications",
+      "label": "Research from Coates collaboration through 2026 memoir",
+      "source_ids": [
+        "history-wiles-royal-society",
+        "history-wiles-princeton"
+      ],
+      "note": "2026 is the latest source cited, not an end to career or life."
+    },
+    "fermat_research": {
+      "start": 1986,
+      "end": 1995,
+      "basis": "dated_research_announcement_and_publication",
+      "label": "Work begins in 1986; June 1993 announcement; September 1994 repair; May 1995 publication",
+      "source_ids": [
+        "history-wiles-princeton",
+        "history-wiles-annals",
+        "history-wiles-taylor-annals"
+      ]
+    },
+    "full_modularity_result": {
+      "start": 2001,
+      "end": 2001,
+      "basis": "later_mathematical_publication",
+      "label": "Full modularity of rational elliptic curves by Breuil, Conrad, Diamond and Taylor",
+      "source_ids": [
+        "history-wiles-modularity-completion"
+      ],
+      "note": "Post-Wiles collaborative extension, not a Wiles-only theorem."
+    },
+    "abel_recognition": {
+      "start": 2016,
+      "end": 2016,
+      "basis": "institutional_award_record",
+      "label": "2016 Abel Prize",
+      "source_ids": [
+        "history-wiles-abel"
+      ]
+    }
+  },
+  "spacetime_coverage": {
+    "schema_version": 1,
+    "subject": "Andrew Wiles",
+    "description": "Biographical coverage from 1953 to 2026 in the United Kingdom, colonial Nigeria, the United States and short visits to Germany and Norway. Open-ended contemporary life; 2026 is a reporting cutoff, not a death date. Interleaved Cambridge and Harvard appointments are not continuous-residence claims.",
+    "places": [
+      {
+        "place": "Cambridge, England, United Kingdom",
+        "present_day_country": "United Kingdom",
+        "historical_polity": "United Kingdom",
+        "start_year": 1953,
+        "end_year": 1955,
+        "role": "birth_early_childhood",
+        "source_ids": [
+          "history-wiles-mactutor",
+          "history-wiles-princeton"
+        ],
+        "note": "Born in Cambridge and spent early childhood before family move.",
+        "approximate": false,
+        "coordinates": {
+          "latitude": 52.2053,
+          "longitude": 0.1218,
+          "precision": "approximate_city_or_region_centroid"
+        }
+      },
+      {
+        "place": "Ibadan, Nigeria",
+        "present_day_country": "Nigeria",
+        "historical_polity": "British colonial Nigeria",
+        "start_year": 1955,
+        "end_year": 1959,
+        "role": "childhood_family_residence",
+        "source_ids": [
+          "history-wiles-mactutor"
+        ],
+        "note": "Father taught in Ibadan; Wiles began school there. Years approximate.",
+        "approximate": true,
+        "coordinates": {
+          "latitude": 7.3775,
+          "longitude": 3.947,
+          "precision": "approximate_city_or_region_centroid"
+        }
+      },
+      {
+        "place": "Cambridge, England, United Kingdom",
+        "present_day_country": "United Kingdom",
+        "historical_polity": "United Kingdom",
+        "start_year": 1959,
+        "end_year": 1971,
+        "role": "schooling_library_childhood",
+        "source_ids": [
+          "history-wiles-mactutor",
+          "history-wiles-oxford"
+        ],
+        "note": "Family return, schooling, and childhood Fermat reading.",
+        "approximate": false,
+        "coordinates": {
+          "latitude": 52.2053,
+          "longitude": 0.1218,
+          "precision": "approximate_city_or_region_centroid"
+        }
+      },
+      {
+        "place": "Oxford, England, United Kingdom",
+        "present_day_country": "United Kingdom",
+        "historical_polity": "United Kingdom",
+        "start_year": 1971,
+        "end_year": 1974,
+        "role": "university_education",
+        "source_ids": [
+          "history-wiles-mactutor",
+          "history-wiles-princeton"
+        ],
+        "note": "Merton College undergraduate mathematics.",
+        "approximate": false,
+        "coordinates": {
+          "latitude": 51.752,
+          "longitude": -1.2577,
+          "precision": "approximate_city_or_region_centroid"
+        }
+      },
+      {
+        "place": "Cambridge, England, United Kingdom",
+        "present_day_country": "United Kingdom",
+        "historical_polity": "United Kingdom",
+        "start_year": 1974,
+        "end_year": 1980,
+        "role": "doctoral_study_research",
+        "source_ids": [
+          "history-wiles-mactutor",
+          "history-wiles-royal-society"
+        ],
+        "note": "Clare College and research with John Coates; parallel Harvard appointment later in interval, so not continuous residence.",
+        "approximate": true,
+        "coordinates": {
+          "latitude": 52.2053,
+          "longitude": 0.1218,
+          "precision": "approximate_city_or_region_centroid"
+        }
+      },
+      {
+        "place": "Cambridge, Massachusetts, United States",
+        "present_day_country": "United States",
+        "historical_polity": "United States",
+        "start_year": 1977,
+        "end_year": 1980,
+        "role": "harvard_research",
+        "source_ids": [
+          "history-wiles-princeton",
+          "history-wiles-mactutor"
+        ],
+        "note": "Benjamin Peirce position and collaboration with Barry Mazur, while retaining Cambridge connections; approximate appointment dates.",
+        "approximate": true,
+        "coordinates": {
+          "latitude": 42.3736,
+          "longitude": -71.1097,
+          "precision": "approximate_city_or_region_centroid"
+        }
+      },
+      {
+        "place": "Bonn, Germany",
+        "present_day_country": "Germany",
+        "historical_polity": "West Germany",
+        "start_year": 1981,
+        "end_year": 1981,
+        "role": "research_visit",
+        "source_ids": [
+          "history-wiles-mactutor"
+        ],
+        "note": "Visiting position in Bonn before move to Princeton.",
+        "approximate": false,
+        "coordinates": {
+          "latitude": 50.7374,
+          "longitude": 7.0982,
+          "precision": "approximate_city_or_region_centroid"
+        }
+      },
+      {
+        "place": "Princeton, New Jersey, United States",
+        "present_day_country": "United States",
+        "historical_polity": "United States",
+        "start_year": 1982,
+        "end_year": 2011,
+        "role": "research_teaching_family",
+        "source_ids": [
+          "history-wiles-princeton"
+        ],
+        "note": "Princeton faculty; principal setting of 1986–94 Fermat work and later mentoring. Some Oxford appointments/visits overlap.",
+        "approximate": true,
+        "coordinates": {
+          "latitude": 40.3573,
+          "longitude": -74.6672,
+          "precision": "approximate_city_or_region_centroid"
+        }
+      },
+      {
+        "place": "Cambridge, England, United Kingdom",
+        "present_day_country": "United Kingdom",
+        "historical_polity": "United Kingdom",
+        "start_year": 1993,
+        "end_year": 1993,
+        "role": "announcement",
+        "source_ids": [
+          "history-wiles-rubin-silverberg"
+        ],
+        "note": "Isaac Newton Institute: three lectures and FLT announcement, June 23.",
+        "approximate": false,
+        "coordinates": {
+          "latitude": 52.2053,
+          "longitude": 0.1218,
+          "precision": "approximate_city_or_region_centroid"
+        }
+      },
+      {
+        "place": "Oxford, England, United Kingdom",
+        "present_day_country": "United Kingdom",
+        "historical_polity": "United Kingdom",
+        "start_year": 2011,
+        "end_year": 2026,
+        "role": "later_professorship",
+        "source_ids": [
+          "history-wiles-princeton",
+          "history-wiles-royal-society"
+        ],
+        "note": "Return to Oxford as Royal Society Research Professor; endpoint is coverage through 2026, not a lifetime end.",
+        "approximate": true,
+        "coordinates": {
+          "latitude": 51.752,
+          "longitude": -1.2577,
+          "precision": "approximate_city_or_region_centroid"
+        }
+      },
+      {
+        "place": "Oslo, Norway",
+        "present_day_country": "Norway",
+        "historical_polity": "Kingdom of Norway",
+        "start_year": 2016,
+        "end_year": 2016,
+        "role": "abel_prize_ceremony",
+        "source_ids": [
+          "history-wiles-abel"
+        ],
+        "note": "Award ceremony in Oslo in May 2016.",
+        "approximate": false,
+        "coordinates": {
+          "latitude": 59.9139,
+          "longitude": 10.7522,
+          "precision": "approximate_city_or_region_centroid"
+        }
+      }
+    ]
+  },
+  "tags": [
+    "Biography",
+    "Mathematical biography",
+    "History of mathematics",
+    "Number theory",
+    "Algebraic number theory",
+    "Arithmetic geometry",
+    "Elliptic curves",
+    "Modular forms",
+    "Fermat's Last Theorem",
+    "Taniyama–Shimura–Weil conjecture",
+    "Modularity theorem",
+    "Modularity lifting",
+    "Galois representations",
+    "Three-five trick",
+    "Deformation rings",
+    "Hecke algebras",
+    "Taylor–Wiles patching",
+    "Iwasawa theory",
+    "Birch and Swinnerton-Dyer conjecture",
+    "Mathematical proof",
+    "Scientific institutions",
+    "Mathematical collaboration",
+    "Historical attribution",
+    "20th-century history",
+    "21st-century history",
+    "Region: Europe",
+    "Region: West Africa",
+    "Region: North America",
+    "Country: United Kingdom",
+    "Country: Nigeria",
+    "Country: United States",
+    "Country: Germany",
+    "Country: Norway",
+    "Place: Cambridge (England)",
+    "Place: Ibadan",
+    "Place: Oxford",
+    "Place: Cambridge (Massachusetts)",
+    "Place: Bonn",
+    "Place: Princeton (New Jersey)",
+    "Place: Oslo",
+    "Historical polity: British colonial Nigeria",
+    "1950s",
+    "1960s",
+    "1970s",
+    "1980s",
+    "1990s",
+    "2000s",
+    "2010s",
+    "2020s",
+    "Year: 1953",
+    "Year: 1963",
+    "Year: 1971",
+    "Year: 1974",
+    "Year: 1975",
+    "Year: 1977",
+    "Year: 1982",
+    "Year: 1986",
+    "Year: 1988",
+    "Year: 1993",
+    "Year: 1994",
+    "Year: 1995",
+    "Year: 2001",
+    "Year: 2013",
+    "Year: 2016",
+    "Year: 2026"
+  ]
+}
