@@ -1,0 +1,1615 @@
+{
+  "schema_version": 1,
+  "lecture_id": "160000",
+  "transcript": "160000-nikolai-vavilov.md",
+  "related_resources": [
+    {
+      "source_id": "vav-asu",
+      "reason": "Detailed biography and family dates, education, Bateson, expeditions, institute and imprisonment; compare conflicting chronology with specialist studies."
+    },
+    {
+      "source_id": "vav-jic",
+      "reason": "Vavilov and Bateson, seed collection scale and international research links, wartime protection. Institutional commemoration."
+    },
+    {
+      "source_id": "vav-law",
+      "reason": "Primary scientific argument; June 4, 1920 Saratov talk, 1922 English article and bounds of analogy."
+    },
+    {
+      "source_id": "vav-centers",
+      "reason": "Vavilov 1926 paper, revised geography, collection method, crop centers and modern impact."
+    },
+    {
+      "source_id": "vav-domestication",
+      "reason": "Modern limits of the center-of-origin approach; archaeological and genetic complications, multiple domestications."
+    },
+    {
+      "source_id": "vav-genebank",
+      "reason": "Living collections, accessions, ex-situ conservation, breeding programs, institutional holdings and management."
+    },
+    {
+      "source_id": "vav-genetics-agronomy",
+      "reason": "The scientific and breeding relevance of crop wild relatives and local varieties; conservation of genetic variation."
+    },
+    {
+      "source_id": "vav-kolchinsky",
+      "reason": "Russian archives establish institutional political threats predating Lysenko dominant power; pre-arrest repression."
+    },
+    {
+      "source_id": "vav-lysenko",
+      "reason": "Vernalization, claims beyond physiology, Lysenko political ascent, personnel purges, 1939 denunciation, 1948 academy meeting."
+    },
+    {
+      "source_id": "vav-casestudy",
+      "reason": "Expeditions, institute plant varieties, siege-era collection preservation; wartime staff accounts are retrospective."
+    },
+    {
+      "source_id": "vav-royal-soc",
+      "reason": "Bateson training, career, international recognition; member elected June 1942 while prisoner; brief archive narrative has an erroneous prison location."
+    },
+    {
+      "source_id": "vav-cornell",
+      "reason": "International collection contacts, years of imprisonment and seed conservation history."
+    },
+    {
+      "source_id": "vav-ukraine",
+      "reason": "1940 arrest during western-Ukraine expedition, Saratov death, academy career, posthumous rehabilitation."
+    },
+    {
+      "source_id": "vav-tauger",
+      "reason": "Discussion of politically coerced agronomy, Vavilov arrest and transfer, survival and later history of VIR. Interpret archival claims cautiously."
+    },
+    {
+      "source_id": "vav-barulina",
+      "reason": "Barulina as biologist and geneticist, relationship, scholarly work, absent personal correspondence; no private dialogue inferred."
+    },
+    {
+      "source_id": "vav-vavilov-institute-book",
+      "reason": "VIR institutional history, 1934 Vavilov qualified support for vernalization and later critical dispute; specialist historical compilation."
+    },
+    {
+      "source_id": "vav-siege-crop-trust",
+      "reason": "History of crop collection and preservation with archival imagery; context for global conservation."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "160000-h001",
+      "anchor": "a collection of grain and potato varieties remained under guard in Leningrad",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "vav-casestudy"
+      ],
+      "source_locator": "Verbatim narrated claim: a collection of grain and potato varieties remained under guard in Leningrad",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "160000-h002",
+      "anchor": "German forces had surrounded it",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "vav-casestudy"
+      ],
+      "source_locator": "Verbatim narrated claim: German forces had surrounded it",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "160000-h003",
+      "anchor": "Members of the institute's staff protected the collection through the siege",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "vav-casestudy"
+      ],
+      "source_locator": "Verbatim narrated claim: Members of the institute's staff protected the collection through the siege",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "160000-h004",
+      "anchor": "Some died from hunger",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "vav-casestudy"
+      ],
+      "source_locator": "Verbatim narrated claim: Some died from hunger",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "160000-h005",
+      "anchor": "Nikolai Ivanovich Vavilov had been arrested in August of nineteen forty",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "vav-ukraine"
+      ],
+      "source_locator": "Verbatim narrated claim: Nikolai Ivanovich Vavilov had been arrested in August of nineteen forty",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "160000-h006",
+      "anchor": "He would die in prison in January of nineteen forty-three",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "vav-ukraine"
+      ],
+      "source_locator": "Verbatim narrated claim: He would die in prison in January of nineteen forty-three",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "160000-h007",
+      "anchor": "Nikolai Vavilov was born in Moscow in November of eighteen eighty-seven",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "vav-asu"
+      ],
+      "source_locator": "Verbatim narrated claim: Nikolai Vavilov was born in Moscow in November of eighteen eighty-seven",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "160000-h008",
+      "anchor": "Ivan Vavilov, a prosperous merchant, and Aleksandra Vavilova",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "vav-asu"
+      ],
+      "source_locator": "Verbatim narrated claim: Ivan Vavilov, a prosperous merchant, and Aleksandra Vavilova",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "160000-h009",
+      "anchor": "His brother Sergey would become an eminent physicist",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "vav-asu"
+      ],
+      "source_locator": "Verbatim narrated claim: His brother Sergey would become an eminent physicist",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "160000-h010",
+      "anchor": "Lydia, worked in microbiology and died young, after contracting smallpox",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "vav-asu"
+      ],
+      "source_locator": "Verbatim narrated claim: Lydia, worked in microbiology and died young, after contracting smallpox",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "160000-h011",
+      "anchor": "He entered Moscow's agricultural institute",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "vav-asu"
+      ],
+      "source_locator": "Verbatim narrated claim: He entered Moscow's agricultural institute",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "160000-h012",
+      "anchor": "He studied plant immunity",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "vav-asu"
+      ],
+      "source_locator": "Verbatim narrated claim: He studied plant immunity",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "160000-h013",
+      "anchor": "Vavilov's mentors included the agronomist Dmitrii Pryanishnikov",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "vav-asu"
+      ],
+      "source_locator": "Verbatim narrated claim: Vavilov's mentors included the agronomist Dmitrii Pryanishnikov",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "160000-h014",
+      "anchor": "the botanist Robert Regel",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "vav-asu"
+      ],
+      "source_locator": "Verbatim narrated claim: the botanist Robert Regel",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "160000-h015",
+      "anchor": "In nineteen thirteen and fourteen Vavilov traveled to Britain",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "vav-jic"
+      ],
+      "source_locator": "Verbatim narrated claim: In nineteen thirteen and fourteen Vavilov traveled to Britain",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "160000-h016",
+      "anchor": "with William Bateson, a major advocate of Mendelian genetics",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "vav-jic"
+      ],
+      "source_locator": "Verbatim narrated claim: with William Bateson, a major advocate of Mendelian genetics",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "160000-h017",
+      "anchor": "His expedition to Persia and neighboring mountain regions in nineteen sixteen",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "vav-asu"
+      ],
+      "source_locator": "Verbatim narrated claim: His expedition to Persia and neighboring mountain regions in nineteen sixteen",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "160000-h018",
+      "anchor": "He studied grain diversity across landscapes",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "vav-asu"
+      ],
+      "source_locator": "Verbatim narrated claim: He studied grain diversity across landscapes",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "160000-h019",
+      "anchor": "Vavilov accepted a professorship in Saratov",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "vav-asu"
+      ],
+      "source_locator": "Verbatim narrated claim: Vavilov accepted a professorship in Saratov",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "160000-h020",
+      "anchor": "Vavilov had married Ekaterina Sakharova",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "vav-asu"
+      ],
+      "source_locator": "Verbatim narrated claim: Vavilov had married Ekaterina Sakharova",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "160000-h021",
+      "anchor": "a son, Oleg, born in nineteen eighteen",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "vav-asu"
+      ],
+      "source_locator": "Verbatim narrated claim: a son, Oleg, born in nineteen eighteen",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "160000-h022",
+      "anchor": "He married Elena Barulina, herself a plant scientist",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "vav-barulina"
+      ],
+      "source_locator": "Verbatim narrated claim: He married Elena Barulina, herself a plant scientist",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "160000-h023",
+      "anchor": "their son Yuri was born in nineteen twenty-eight",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "vav-asu"
+      ],
+      "source_locator": "Verbatim narrated claim: their son Yuri was born in nineteen twenty-eight",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "160000-h024",
+      "anchor": "On the fourth of June, nineteen twenty, Vavilov presented a generalization",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "vav-law"
+      ],
+      "source_locator": "Verbatim narrated claim: On the fourth of June, nineteen twenty, Vavilov presented a generalization",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "160000-h025",
+      "anchor": "law of homologous series in hereditary variation",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "vav-law"
+      ],
+      "source_locator": "Verbatim narrated claim: law of homologous series in hereditary variation",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "160000-h026",
+      "anchor": "related species and genera often display parallel patterns of hereditary variation",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "vav-law"
+      ],
+      "source_locator": "Verbatim narrated claim: related species and genera often display parallel patterns of hereditary variation",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "160000-h027",
+      "anchor": "This is often compared to Mendeleev's periodic table",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "vav-law"
+      ],
+      "source_locator": "Verbatim narrated claim: This is often compared to Mendeleev's periodic table",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "160000-h028",
+      "anchor": "A version appeared in the Journal of Genetics in nineteen twenty-two",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "vav-law"
+      ],
+      "source_locator": "Verbatim narrated claim: A version appeared in the Journal of Genetics in nineteen twenty-two",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "160000-h029",
+      "anchor": "In nineteen twenty-one Vavilov took over the Bureau of Applied Botany in Petrograd",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "vav-asu"
+      ],
+      "source_locator": "Verbatim narrated claim: In nineteen twenty-one Vavilov took over the Bureau of Applied Botany in Petrograd",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "160000-h030",
+      "anchor": "He led its reorganization into the All-Union Institute of Plant Industry",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "vav-asu"
+      ],
+      "source_locator": "Verbatim narrated claim: He led its reorganization into the All-Union Institute of Plant Industry",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "160000-h031",
+      "anchor": "A seed arriving at headquarters was not the end of the task",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "vav-genebank"
+      ],
+      "source_locator": "Verbatim narrated claim: A seed arriving at headquarters was not the end of the task",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "160000-h032",
+      "anchor": "In nineteen twenty-one he also traveled to the United States",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "vav-asu"
+      ],
+      "source_locator": "Verbatim narrated claim: In nineteen twenty-one he also traveled to the United States",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "160000-h033",
+      "anchor": "There would be expeditions to Afghanistan in nineteen twenty-four",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "vav-asu"
+      ],
+      "source_locator": "Verbatim narrated claim: There would be expeditions to Afghanistan in nineteen twenty-four",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "160000-h034",
+      "anchor": "in the early nineteen thirties, to regions of Central and South America",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "vav-asu"
+      ],
+      "source_locator": "Verbatim narrated claim: in the early nineteen thirties, to regions of Central and South America",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "160000-h035",
+      "anchor": "Vavilov did not personally collect every sample",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "vav-genebank"
+      ],
+      "source_locator": "Verbatim narrated claim: Vavilov did not personally collect every sample",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "160000-h036",
+      "anchor": "Consider a wheat accession, meaning a recorded sample of material",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "vav-genebank"
+      ],
+      "source_locator": "Verbatim narrated claim: Consider a wheat accession, meaning a recorded sample of material",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "160000-h037",
+      "anchor": "Seeds of many crops can be dried and stored under appropriate conditions",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "vav-genebank"
+      ],
+      "source_locator": "Verbatim narrated claim: Seeds of many crops can be dried and stored under appropriate conditions",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "160000-h038",
+      "anchor": "Some important crops are propagated vegetatively or require field collections",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "vav-genebank"
+      ],
+      "source_locator": "Verbatim narrated claim: Some important crops are propagated vegetatively or require field collections",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "160000-h039",
+      "anchor": "He wanted a collection large enough for broad comparison",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "vav-genebank"
+      ],
+      "source_locator": "Verbatim narrated claim: He wanted a collection large enough for broad comparison",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "160000-h040",
+      "anchor": "A plant can become common far from the place where it was first domesticated",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "vav-domestication"
+      ],
+      "source_locator": "Verbatim narrated claim: A plant can become common far from the place where it was first domesticated",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "160000-h041",
+      "anchor": "Vavilov developed an approach that looked for geographic concentrations of diversity",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "vav-centers"
+      ],
+      "source_locator": "Verbatim narrated claim: Vavilov developed an approach that looked for geographic concentrations of diversity",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "160000-h042",
+      "anchor": "In nineteen twenty-six he published a major account of centers of origin of cultivated plants",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "vav-centers"
+      ],
+      "source_locator": "Verbatim narrated claim: In nineteen twenty-six he published a major account of centers of origin of cultivated plants",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "160000-h043",
+      "anchor": "Over the following years he revised the number and boundaries",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "vav-centers"
+      ],
+      "source_locator": "Verbatim narrated claim: Over the following years he revised the number and boundaries",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "160000-h044",
+      "anchor": "The place with the greatest diversity today need not be the exact place",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "vav-domestication"
+      ],
+      "source_locator": "Verbatim narrated claim: The place with the greatest diversity today need not be the exact place",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "160000-h045",
+      "anchor": "Modern crop histories reveal multiple domestication events",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "vav-domestication"
+      ],
+      "source_locator": "Verbatim narrated claim: Modern crop histories reveal multiple domestication events",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "160000-h046",
+      "anchor": "Local crop varieties are not unfinished versions of modern industrial products",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "vav-genetics-agronomy"
+      ],
+      "source_locator": "Verbatim narrated claim: Local crop varieties are not unfinished versions of modern industrial products",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "160000-h047",
+      "anchor": "In nineteen twenty-nine he became president of the new All-Union Academy",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "vav-lysenko"
+      ],
+      "source_locator": "Verbatim narrated claim: In nineteen twenty-nine he became president of the new All-Union Academy",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "160000-h048",
+      "anchor": "His institute assembled what became one of the largest collections",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "vav-jic"
+      ],
+      "source_locator": "Verbatim narrated claim: His institute assembled what became one of the largest collections",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "160000-h049",
+      "anchor": "William Bateson visited the research program in nineteen twenty-five",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "vav-law"
+      ],
+      "source_locator": "Verbatim narrated claim: William Bateson visited the research program in nineteen twenty-five",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "160000-h050",
+      "anchor": "Beginning around nineteen twenty-nine, collectivization and coercive grain procurement",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "vav-lysenko"
+      ],
+      "source_locator": "Verbatim narrated claim: Beginning around nineteen twenty-nine, collectivization and coercive grain procurement",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "160000-h051",
+      "anchor": "Catastrophic famines followed in the early nineteen thirties",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "vav-lysenko"
+      ],
+      "source_locator": "Verbatim narrated claim: Catastrophic famines followed in the early nineteen thirties",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "160000-h052",
+      "anchor": "Trofim Lysenko became prominent",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "vav-lysenko"
+      ],
+      "source_locator": "Verbatim narrated claim: Trofim Lysenko became prominent",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "160000-h053",
+      "anchor": "He had attracted attention with work on vernalization",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "vav-lysenko"
+      ],
+      "source_locator": "Verbatim narrated claim: He had attracted attention with work on vernalization",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "160000-h054",
+      "anchor": "Many plants use exposure to cold as a seasonal signal",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "vav-lysenko"
+      ],
+      "source_locator": "Verbatim narrated claim: Many plants use exposure to cold as a seasonal signal",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "160000-h055",
+      "anchor": "The problem lay in what Lysenko and his supporters claimed",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "vav-lysenko"
+      ],
+      "source_locator": "Verbatim narrated claim: The problem lay in what Lysenko and his supporters claimed",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "160000-h056",
+      "anchor": "Isai Prezent attacked Mendelian genetics itself",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "vav-lysenko"
+      ],
+      "source_locator": "Verbatim narrated claim: Isai Prezent attacked Mendelian genetics itself",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "160000-h057",
+      "anchor": "Vavilov himself initially supported investigating it",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "vav-vavilov-institute-book"
+      ],
+      "source_locator": "Verbatim narrated claim: Vavilov himself initially supported investigating it",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "160000-h058",
+      "anchor": "By the early nineteen thirties a broader transformation of Soviet scientific institutions",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "vav-kolchinsky"
+      ],
+      "source_locator": "Verbatim narrated claim: By the early nineteen thirties a broader transformation of Soviet scientific institutions",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "160000-h059",
+      "anchor": "Historical work using Russian archives shows that Vavilov's room",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "vav-kolchinsky"
+      ],
+      "source_locator": "Verbatim narrated claim: Historical work using Russian archives shows that Vavilov's room",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "160000-h060",
+      "anchor": "He lost the presidency of the agricultural academy in nineteen thirty-five",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "vav-lysenko"
+      ],
+      "source_locator": "Verbatim narrated claim: He lost the presidency of the agricultural academy in nineteen thirty-five",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "160000-h061",
+      "anchor": "In nineteen thirty-nine he had been selected to preside over a major international genetics congress",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "vav-royal-soc"
+      ],
+      "source_locator": "Verbatim narrated claim: In nineteen thirty-nine he had been selected to preside over a major international genetics congress",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "160000-h062",
+      "anchor": "The gathering ultimately took place in Edinburgh without Soviet participation",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "vav-royal-soc"
+      ],
+      "source_locator": "Verbatim narrated claim: The gathering ultimately took place in Edinburgh without Soviet participation",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "160000-h063",
+      "anchor": "In nineteen thirty-nine Lysenko and Prezent complained",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "vav-lysenko"
+      ],
+      "source_locator": "Verbatim narrated claim: In nineteen thirty-nine Lysenko and Prezent complained",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "160000-h064",
+      "anchor": "In August of nineteen forty, while collecting plants in western Ukraine",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "vav-ukraine"
+      ],
+      "source_locator": "Verbatim narrated claim: In August of nineteen forty, while collecting plants in western Ukraine",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "160000-h065",
+      "anchor": "The charges involved espionage and sabotage",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "vav-ukraine"
+      ],
+      "source_locator": "Verbatim narrated claim: The charges involved espionage and sabotage",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "160000-h066",
+      "anchor": "In nineteen forty-one a Soviet military court sentenced him to death",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "vav-tauger"
+      ],
+      "source_locator": "Verbatim narrated claim: In nineteen forty-one a Soviet military court sentenced him to death",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "160000-h067",
+      "anchor": "The sentence was later commuted to a long term of imprisonment",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "vav-ukraine"
+      ],
+      "source_locator": "Verbatim narrated claim: The sentence was later commuted to a long term of imprisonment",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "160000-h068",
+      "anchor": "He reached Saratov",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "vav-ukraine"
+      ],
+      "source_locator": "Verbatim narrated claim: He reached Saratov",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "160000-h069",
+      "anchor": "He died on January twenty-sixth, nineteen forty-three",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "vav-ukraine"
+      ],
+      "source_locator": "Verbatim narrated claim: He died on January twenty-sixth, nineteen forty-three",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "160000-h070",
+      "anchor": "commonly described as death from starvation or severe malnutrition",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "vav-cornell"
+      ],
+      "source_locator": "Verbatim narrated claim: commonly described as death from starvation or severe malnutrition",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "160000-h071",
+      "anchor": "The German siege of Leningrad had begun in September nineteen forty-one",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "vav-casestudy"
+      ],
+      "source_locator": "Verbatim narrated claim: The German siege of Leningrad had begun in September nineteen forty-one",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "160000-h072",
+      "anchor": "Curators continued to protect and maintain valuable crop material",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "vav-casestudy"
+      ],
+      "source_locator": "Verbatim narrated claim: Curators continued to protect and maintain valuable crop material",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "160000-h073",
+      "anchor": "Staff members died of starvation",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "vav-casestudy"
+      ],
+      "source_locator": "Verbatim narrated claim: Staff members died of starvation",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "160000-h074",
+      "anchor": "In August of nineteen forty-eight, a session of the Soviet agricultural academy",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "vav-lysenko"
+      ],
+      "source_locator": "Verbatim narrated claim: In August of nineteen forty-eight, a session of the Soviet agricultural academy",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "160000-h075",
+      "anchor": "Researchers lost jobs",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "vav-lysenko"
+      ],
+      "source_locator": "Verbatim narrated claim: Researchers lost jobs",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "160000-h076",
+      "anchor": "Some institutions and researchers preserved useful practices",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "vav-tauger"
+      ],
+      "source_locator": "Verbatim narrated claim: Some institutions and researchers preserved useful practices",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "160000-h077",
+      "anchor": "In nineteen fifty-five, after Stalin's death, Vavilov was officially rehabilitated",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "vav-ukraine"
+      ],
+      "source_locator": "Verbatim narrated claim: In nineteen fifty-five, after Stalin's death, Vavilov was officially rehabilitated",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "160000-h078",
+      "anchor": "His name now identifies the plant genetic resources institute in Saint Petersburg",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "vav-genebank"
+      ],
+      "source_locator": "Verbatim narrated claim: His name now identifies the plant genetic resources institute in Saint Petersburg",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "160000-h079",
+      "anchor": "Its records describe hundreds of thousands of accessions in the modern era",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "vav-genebank"
+      ],
+      "source_locator": "Verbatim narrated claim: Its records describe hundreds of thousands of accessions in the modern era",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "160000-h080",
+      "anchor": "A seed carries a history of mutation, inheritance, selection, migration, and cultivation",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "vav-centers"
+      ],
+      "source_locator": "Verbatim narrated claim: A seed carries a history of mutation, inheritance, selection, migration, and cultivation",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "160000-h081",
+      "anchor": "His maps of crop origins required revision",
+      "kind": "historical_biography_attribution_or_science_context",
+      "source_ids": [
+        "vav-centers"
+      ],
+      "source_locator": "Verbatim narrated claim: His maps of crop origins required revision",
+      "audit_status": "source_checked"
+    }
+  ],
+  "chronology": {
+    "birth": {
+      "start": 1887,
+      "end": 1887,
+      "basis": "historical_primary_or_institutional_scholarship",
+      "label": "Born in Moscow on November 25",
+      "source_ids": [
+        "vav-asu"
+      ]
+    },
+    "agricultural_studies": {
+      "start": 1906,
+      "end": 1911,
+      "basis": "historical_primary_or_institutional_scholarship",
+      "label": "Moscow Agricultural Institute studies and early plant science",
+      "source_ids": [
+        "vav-asu"
+      ]
+    },
+    "mentor_research": {
+      "start": 1911,
+      "end": 1913,
+      "basis": "historical_primary_or_institutional_scholarship",
+      "label": "Applied botany, plant resistance and mentoring from Regel and Pryanishnikov",
+      "source_ids": [
+        "vav-asu"
+      ]
+    },
+    "first_marriage": {
+      "start": 1912,
+      "end": 1912,
+      "basis": "historical_primary_or_institutional_scholarship",
+      "label": "Marriage to Ekaterina Sakharova",
+      "source_ids": [
+        "vav-asu"
+      ]
+    },
+    "bateson_uk": {
+      "start": 1913,
+      "end": 1914,
+      "basis": "historical_primary_or_institutional_scholarship",
+      "label": "Research with William Bateson at John Innes in Britain",
+      "source_ids": [
+        "vav-jic"
+      ]
+    },
+    "persia_expedition": {
+      "start": 1916,
+      "end": 1916,
+      "basis": "historical_primary_or_institutional_scholarship",
+      "label": "Expedition to Persia and mountain crop regions",
+      "source_ids": [
+        "vav-asu"
+      ]
+    },
+    "saratov": {
+      "start": 1917,
+      "end": 1921,
+      "basis": "historical_primary_or_institutional_scholarship",
+      "label": "Professorship and plant genetics research in Saratov",
+      "source_ids": [
+        "vav-asu"
+      ]
+    },
+    "oleg": {
+      "start": 1918,
+      "end": 1918,
+      "basis": "historical_primary_or_institutional_scholarship",
+      "label": "Birth of son Oleg",
+      "source_ids": [
+        "vav-asu"
+      ]
+    },
+    "homologous_lecture": {
+      "start": 1920,
+      "end": 1920,
+      "basis": "historical_primary_or_institutional_scholarship",
+      "label": "June 4 report of law of homologous series",
+      "source_ids": [
+        "vav-law"
+      ]
+    },
+    "institute": {
+      "start": 1921,
+      "end": 1924,
+      "basis": "historical_primary_or_institutional_scholarship",
+      "label": "Leadership and reorganization of applied botany into All-Union Plant Industry institute",
+      "source_ids": [
+        "vav-asu"
+      ]
+    },
+    "us_visit": {
+      "start": 1921,
+      "end": 1921,
+      "basis": "historical_primary_or_institutional_scholarship",
+      "label": "United States scientific visit, exchanges and seed collections",
+      "source_ids": [
+        "vav-asu"
+      ]
+    },
+    "homologous_english": {
+      "start": 1922,
+      "end": 1922,
+      "basis": "historical_primary_or_institutional_scholarship",
+      "label": "Law of homologous series published in Journal of Genetics",
+      "source_ids": [
+        "vav-law"
+      ]
+    },
+    "afghanistan": {
+      "start": 1924,
+      "end": 1924,
+      "basis": "historical_primary_or_institutional_scholarship",
+      "label": "Afghanistan crop collecting expedition",
+      "source_ids": [
+        "vav-asu"
+      ]
+    },
+    "bateson_visit": {
+      "start": 1925,
+      "end": 1925,
+      "basis": "historical_primary_or_institutional_scholarship",
+      "label": "William Bateson visits Vavilov plant research program",
+      "source_ids": [
+        "vav-law"
+      ]
+    },
+    "centers": {
+      "start": 1926,
+      "end": 1926,
+      "basis": "historical_primary_or_institutional_scholarship",
+      "label": "Publication on centers of origin of cultivated plants",
+      "source_ids": [
+        "vav-centers"
+      ]
+    },
+    "barulina": {
+      "start": 1926,
+      "end": 1926,
+      "basis": "historical_primary_or_institutional_scholarship",
+      "label": "New marriage to plant scientist Elena Barulina",
+      "source_ids": [
+        "vav-asu"
+      ]
+    },
+    "yuri": {
+      "start": 1928,
+      "end": 1928,
+      "basis": "historical_primary_or_institutional_scholarship",
+      "label": "Birth of son Yuri",
+      "source_ids": [
+        "vav-asu"
+      ]
+    },
+    "academy_presidency": {
+      "start": 1929,
+      "end": 1929,
+      "basis": "historical_primary_or_institutional_scholarship",
+      "label": "President of All-Union Academy of Agricultural Sciences",
+      "source_ids": [
+        "vav-lysenko"
+      ]
+    },
+    "east_asia": {
+      "start": 1929,
+      "end": 1929,
+      "basis": "historical_primary_or_institutional_scholarship",
+      "label": "East Asian collecting research and scientific exchanges",
+      "source_ids": [
+        "vav-asu"
+      ]
+    },
+    "institutional_repression": {
+      "start": 1929,
+      "end": 1932,
+      "basis": "historical_primary_or_institutional_scholarship",
+      "label": "Revolution from Above imposes political control on scientific institutions",
+      "source_ids": [
+        "vav-kolchinsky"
+      ]
+    },
+    "americas": {
+      "start": 1932,
+      "end": 1933,
+      "basis": "historical_primary_or_institutional_scholarship",
+      "label": "Collecting expeditions to Central and South American regions",
+      "source_ids": [
+        "vav-asu"
+      ]
+    },
+    "famine_politics": {
+      "start": 1932,
+      "end": 1933,
+      "basis": "historical_primary_or_institutional_scholarship",
+      "label": "Collectivization, coercive grain policies and catastrophic famines",
+      "source_ids": [
+        "vav-lysenko"
+      ]
+    },
+    "lysenko_initial": {
+      "start": 1932,
+      "end": 1934,
+      "basis": "historical_primary_or_institutional_scholarship",
+      "label": "Initial consideration and support of vernalization research",
+      "source_ids": [
+        "vav-vavilov-institute-book"
+      ]
+    },
+    "demotion": {
+      "start": 1935,
+      "end": 1935,
+      "basis": "historical_primary_or_institutional_scholarship",
+      "label": "Removed from presidency of agricultural academy",
+      "source_ids": [
+        "vav-lysenko"
+      ]
+    },
+    "denunciations": {
+      "start": 1936,
+      "end": 1939,
+      "basis": "historical_primary_or_institutional_scholarship",
+      "label": "Scientific and political confrontation with Lysenkoist authorities",
+      "source_ids": [
+        "vav-lysenko"
+      ]
+    },
+    "edinburgh": {
+      "start": 1939,
+      "end": 1939,
+      "basis": "historical_primary_or_institutional_scholarship",
+      "label": "Genetics congress in Edinburgh held without Vavilov or Soviet delegation",
+      "source_ids": [
+        "vav-royal-soc"
+      ]
+    },
+    "arrest": {
+      "start": 1940,
+      "end": 1940,
+      "basis": "historical_primary_or_institutional_scholarship",
+      "label": "Arrest while on crop expedition in western Ukraine",
+      "source_ids": [
+        "vav-ukraine"
+      ]
+    },
+    "court": {
+      "start": 1941,
+      "end": 1942,
+      "basis": "historical_primary_or_institutional_scholarship",
+      "label": "Death sentence subsequently commuted; wartime transfers and imprisonment",
+      "source_ids": [
+        "vav-tauger"
+      ]
+    },
+    "siege": {
+      "start": 1941,
+      "end": 1944,
+      "basis": "historical_primary_or_institutional_scholarship",
+      "label": "Leningrad siege during which colleagues protect major plant collections",
+      "source_ids": [
+        "vav-casestudy"
+      ]
+    },
+    "death": {
+      "start": 1943,
+      "end": 1943,
+      "basis": "historical_primary_or_institutional_scholarship",
+      "label": "Dies in Saratov prison on January 26",
+      "source_ids": [
+        "vav-ukraine"
+      ]
+    },
+    "lysenko_victory": {
+      "start": 1948,
+      "end": 1948,
+      "basis": "historical_primary_or_institutional_scholarship",
+      "label": "VASKhNIL meeting imposes Lysenkoist doctrine after Vavilov death",
+      "source_ids": [
+        "vav-lysenko"
+      ]
+    },
+    "rehabilitation": {
+      "start": 1955,
+      "end": 1955,
+      "basis": "historical_primary_or_institutional_scholarship",
+      "label": "Posthumously rehabilitated",
+      "source_ids": [
+        "vav-ukraine"
+      ]
+    },
+    "institution_modern": {
+      "start": 2018,
+      "end": 2023,
+      "basis": "historical_primary_or_institutional_scholarship",
+      "label": "Modern VIR collection and historical scientific reassessment",
+      "source_ids": [
+        "vav-genebank"
+      ]
+    }
+  },
+  "spacetime_coverage": {
+    "schema_version": 1,
+    "subject": "Nikolai Vavilov",
+    "description": "Life 1887–1943 across Imperial Russia, the Russian Revolution, Soviet research institutions, international expeditions, western Ukraine and Saratov prison. Includes post-arrest Leningrad siege and posthumous legacy as explicitly differentiated place roles.",
+    "places": [
+      {
+        "place": "Moscow, Russia",
+        "present_day_country": "Russia",
+        "historical_polity": "Russian Empire",
+        "start_year": 1887,
+        "end_year": 1914,
+        "role": "birth_family_training",
+        "note": "Birth and childhood, agricultural training, early research; intermittent later visits.",
+        "source_ids": [
+          "vav-asu"
+        ],
+        "approximate": true
+      },
+      {
+        "place": "Merton, London, England, United Kingdom",
+        "present_day_country": "United Kingdom",
+        "historical_polity": "United Kingdom",
+        "start_year": 1913,
+        "end_year": 1914,
+        "role": "international_scientific_training",
+        "note": "Bateson and John Innes horticultural genetics work; London-area location.",
+        "source_ids": [
+          "vav-jic"
+        ],
+        "approximate": true
+      },
+      {
+        "place": "Persia (Iran), including highland cereal-growing districts",
+        "present_day_country": "Iran",
+        "historical_polity": "Qajar Persia",
+        "start_year": 1916,
+        "end_year": 1916,
+        "role": "expedition",
+        "note": "Grain collecting and variation research; regions vary by source.",
+        "source_ids": [
+          "vav-asu"
+        ],
+        "approximate": true
+      },
+      {
+        "place": "Pamir and adjoining Central Asian highlands",
+        "present_day_country": "Tajikistan",
+        "historical_polity": "Russian Empire and neighboring polities",
+        "start_year": 1916,
+        "end_year": 1916,
+        "role": "expedition",
+        "note": "Highland crop diversity and cultivated relatives; broader regional coverage, not one precise site.",
+        "source_ids": [
+          "vav-asu"
+        ],
+        "approximate": true
+      },
+      {
+        "place": "Saratov, Russia",
+        "present_day_country": "Russia",
+        "historical_polity": "Russian Republic / RSFSR",
+        "start_year": 1917,
+        "end_year": 1921,
+        "role": "university_teaching_research",
+        "note": "Professorship and 1920 homologous series report; pre-USSR political transition.",
+        "source_ids": [
+          "vav-law"
+        ],
+        "approximate": false
+      },
+      {
+        "place": "Petrograd (now Saint Petersburg), Russia",
+        "present_day_country": "Russia",
+        "historical_polity": "RSFSR",
+        "start_year": 1921,
+        "end_year": 1924,
+        "role": "institute_leadership",
+        "note": "Applied botany bureau and institutional expansion.",
+        "source_ids": [
+          "vav-asu"
+        ],
+        "approximate": false
+      },
+      {
+        "place": "United States (scientific institutions)",
+        "present_day_country": "United States",
+        "historical_polity": "United States",
+        "start_year": 1921,
+        "end_year": 1921,
+        "role": "international_scientific_exchange",
+        "note": "Meeting geneticists and studying crop resources; not single residence.",
+        "source_ids": [
+          "vav-asu"
+        ],
+        "approximate": true
+      },
+      {
+        "place": "Afghanistan (agricultural districts)",
+        "present_day_country": "Afghanistan",
+        "historical_polity": "Kingdom of Afghanistan",
+        "start_year": 1924,
+        "end_year": 1924,
+        "role": "expedition",
+        "note": "Crop-collecting and plant-diversity fieldwork.",
+        "source_ids": [
+          "vav-asu"
+        ],
+        "approximate": true
+      },
+      {
+        "place": "Leningrad (now Saint Petersburg), Russia",
+        "present_day_country": "Russia",
+        "historical_polity": "Soviet Union",
+        "start_year": 1924,
+        "end_year": 1940,
+        "role": "institution_research_and_administration",
+        "note": "VIR leadership, crop collections, scientific organization, main institutional base.",
+        "source_ids": [
+          "vav-genebank"
+        ],
+        "approximate": false
+      },
+      {
+        "place": "Mediterranean and western Asian agricultural regions",
+        "present_day_country": "Turkey",
+        "historical_polity": "Several historical states and mandates",
+        "start_year": 1926,
+        "end_year": 1927,
+        "role": "regional_expeditions",
+        "note": "Broad documented collecting region; country is representative anchor, not assertion of every visit.",
+        "source_ids": [
+          "vav-asu"
+        ],
+        "approximate": true
+      },
+      {
+        "place": "East Asia (regional scientific travel)",
+        "present_day_country": "China",
+        "historical_polity": "Several historical states",
+        "start_year": 1929,
+        "end_year": 1929,
+        "role": "regional_expeditions",
+        "note": "Regional travel/collections, precise site dates vary in narrative sources.",
+        "source_ids": [
+          "vav-asu"
+        ],
+        "approximate": true
+      },
+      {
+        "place": "Central America (regional expeditions)",
+        "present_day_country": "Mexico",
+        "historical_polity": "Mexican United States and neighboring states",
+        "start_year": 1932,
+        "end_year": 1933,
+        "role": "regional_expeditions",
+        "note": "Broad regional collecting coverage, not one continuous Mexico residence.",
+        "source_ids": [
+          "vav-asu"
+        ],
+        "approximate": true
+      },
+      {
+        "place": "South America (regional expeditions)",
+        "present_day_country": "Peru",
+        "historical_polity": "Multiple republics",
+        "start_year": 1932,
+        "end_year": 1933,
+        "role": "regional_expeditions",
+        "note": "Wide crop-collecting work, country anchor approximate.",
+        "source_ids": [
+          "vav-asu"
+        ],
+        "approximate": true
+      },
+      {
+        "place": "Moscow, Soviet Union",
+        "present_day_country": "Russia",
+        "historical_polity": "Soviet Union",
+        "start_year": 1929,
+        "end_year": 1941,
+        "role": "academy_politics_trial",
+        "note": "All-Union agriculture leadership, scientific disputes, detention and political procedures.",
+        "source_ids": [
+          "vav-lysenko"
+        ],
+        "approximate": true
+      },
+      {
+        "place": "Western Ukraine (then Soviet-annexed territory)",
+        "present_day_country": "Ukraine",
+        "historical_polity": "Soviet Union",
+        "start_year": 1940,
+        "end_year": 1940,
+        "role": "last_expedition_arrest",
+        "note": "Arrest during collecting in western Ukraine, modern Ukraine location.",
+        "source_ids": [
+          "vav-ukraine"
+        ],
+        "approximate": true
+      },
+      {
+        "place": "Leningrad, USSR (wartime plant institute)",
+        "present_day_country": "Russia",
+        "historical_polity": "Soviet Union",
+        "start_year": 1941,
+        "end_year": 1944,
+        "role": "post_arrest_collection_preservation",
+        "note": "Colleagues protect institute germplasm during siege; Vavilov himself imprisoned.",
+        "source_ids": [
+          "vav-casestudy"
+        ],
+        "approximate": false
+      },
+      {
+        "place": "Saratov, Russia (wartime prison)",
+        "present_day_country": "Russia",
+        "historical_polity": "Soviet Union",
+        "start_year": 1942,
+        "end_year": 1943,
+        "role": "imprisonment_death",
+        "note": "Prison detention and death January 26, 1943.",
+        "source_ids": [
+          "vav-ukraine"
+        ],
+        "approximate": true
+      },
+      {
+        "place": "Saint Petersburg, Russia (VIR contemporary)",
+        "present_day_country": "Russia",
+        "historical_polity": "Russian Federation",
+        "start_year": 1991,
+        "end_year": 2023,
+        "role": "legacy_institution",
+        "note": "Modern institute and long-running crop collections.",
+        "source_ids": [
+          "vav-genebank"
+        ],
+        "approximate": true
+      }
+    ]
+  },
+  "tags": [
+    "Biography",
+    "History of science",
+    "History of biology",
+    "History of genetics",
+    "Agronomy",
+    "Botany",
+    "Agricultural history",
+    "Plant science",
+    "Plant breeding",
+    "Crop domestication",
+    "Crop genetic diversity",
+    "Plant genetic resources",
+    "Germplasm",
+    "Genebanks",
+    "Seed banks",
+    "Crop wild relatives",
+    "Wild germplasm",
+    "Landraces",
+    "Crop diversity",
+    "Crop improvement",
+    "Crop resistance",
+    "Plant pathology",
+    "Plant immunity",
+    "Disease resistance",
+    "Host–pathogen interactions",
+    "Mendelian inheritance",
+    "Genetics",
+    "Evolution",
+    "Natural selection",
+    "Genotype and phenotype",
+    "Developmental genetics",
+    "Vernalization",
+    "Molecular heredity",
+    "Environmental response",
+    "Plant physiology",
+    "Nikolai Vavilov",
+    "Nikolai Ivanovich Vavilov",
+    "Trofim Lysenko",
+    "Lysenkoism",
+    "Isai Prezent",
+    "William Bateson",
+    "Robert Regel",
+    "Dmitrii Pryanishnikov",
+    "Elena Barulina",
+    "Ekaterina Sakharova",
+    "Oleg Vavilov",
+    "Yuri Vavilov",
+    "Sergey Vavilov",
+    "Scientific families",
+    "Agricultural experiments",
+    "Scientific fieldwork",
+    "Collecting expeditions",
+    "Scientific collecting",
+    "Research stations",
+    "Botanical collections",
+    "Accession records",
+    "Seed regeneration",
+    "Crop conservation",
+    "Origins of cultivated plants",
+    "Centers of diversity",
+    "Centers of domestication",
+    "Geography of agriculture",
+    "Homologous series in hereditary variation",
+    "Plant classification",
+    "Historical ecology",
+    "Food security",
+    "Food history",
+    "History of famine",
+    "Nutrition and agriculture",
+    "Rural history",
+    "Farmers knowledge",
+    "Local ecological knowledge",
+    "Scientific exchange",
+    "International science",
+    "Research institutes",
+    "Institution building",
+    "Soviet science",
+    "Soviet agricultural science",
+    "Political repression",
+    "Scientific censorship",
+    "Politicization of science",
+    "Stalinism",
+    "Collectivization",
+    "Soviet famine",
+    "History of Ukraine",
+    "Soviet Purges",
+    "State violence",
+    "History of incarceration",
+    "Leningrad siege",
+    "World War II",
+    "Second World War",
+    "VASKhNIL",
+    "VIR institute",
+    "Scientific responsibility",
+    "Biological conservation",
+    "Agricultural biodiversity",
+    "Humanitarian science",
+    "History of plant physiology",
+    "Historical attribution",
+    "Archival research",
+    "Institutional science",
+    "20th-century history",
+    "19th-century history",
+    "Region: Europe",
+    "Region: Eastern Europe",
+    "Region: Central Asia",
+    "Region: Western Asia",
+    "Region: East Asia",
+    "Region: North America",
+    "Region: South America",
+    "Country: Russia",
+    "Country: Ukraine",
+    "Country: United Kingdom",
+    "Country: Iran",
+    "Country: Tajikistan",
+    "Country: Afghanistan",
+    "Country: United States",
+    "Country: Turkey",
+    "Country: China",
+    "Country: Mexico",
+    "Country: Peru",
+    "Place: Moscow",
+    "Place: Saratov",
+    "Place: Petrograd",
+    "Place: Leningrad",
+    "Place: Saint Petersburg",
+    "Place: Merton",
+    "Place: London",
+    "Place: Persia",
+    "Place: Pamir",
+    "Place: Afghanistan",
+    "Place: Western Ukraine",
+    "Place: Central America",
+    "Place: South America",
+    "Historical polity: Russian Empire",
+    "Historical polity: Russian Republic",
+    "Historical polity: Russian SFSR",
+    "Historical polity: Soviet Union",
+    "Historical polity: Kingdom of Afghanistan",
+    "Historical polity: Qajar Persia",
+    "Historical polity: Russian Federation",
+    "1880s",
+    "1890s",
+    "1900s",
+    "1910s",
+    "1920s",
+    "1930s",
+    "1940s",
+    "1950s",
+    "2000s",
+    "2010s",
+    "2020s",
+    "Year: 1887",
+    "Year: 1906",
+    "Year: 1911",
+    "Year: 1912",
+    "Year: 1913",
+    "Year: 1914",
+    "Year: 1916",
+    "Year: 1917",
+    "Year: 1918",
+    "Year: 1920",
+    "Year: 1921",
+    "Year: 1922",
+    "Year: 1924",
+    "Year: 1925",
+    "Year: 1926",
+    "Year: 1928",
+    "Year: 1929",
+    "Year: 1930",
+    "Year: 1932",
+    "Year: 1933",
+    "Year: 1934",
+    "Year: 1935",
+    "Year: 1936",
+    "Year: 1937",
+    "Year: 1939",
+    "Year: 1940",
+    "Year: 1941",
+    "Year: 1942",
+    "Year: 1943",
+    "Year: 1944",
+    "Year: 1948",
+    "Year: 1955",
+    "Year: 2018",
+    "Year: 2023"
+  ]
+}

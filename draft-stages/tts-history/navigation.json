@@ -420,10 +420,11 @@
         "153000",
         "154000",
         "156000",
-        "159000"
+        "159000",
+        "160000"
       ],
       "parent": "subjects",
-      "summary": "Portraits tracing genetics, evolution, molecular structures, neuroanatomy and discoveries that transformed the sciences of living systems.",
+      "summary": "Portraits tracing genetics, evolution, crop diversity, molecular structures, neuroanatomy and discoveries that transformed the sciences of living systems.",
       "assumed_background": [
         "No technical biology prerequisites; the manuscripts develop the necessary concepts."
       ]
@@ -481,14 +482,15 @@
       "title": "Lives · A Moving Earth and Its Oceans",
       "role": "deep_dive",
       "parent": "subjects",
-      "summary": "Earth science through fieldwork, mapping, hidden landscapes, and debate: Humboldt, Wegener and Tharp, from continental drift to the evidence of the ocean floor.",
+      "summary": "Earth science and geographic fieldwork through exploration, mapping, crop diversity, and evidence for a changing planet.",
       "assumed_background": [
         "No prior geology; earth-science ideas are explained in the portraits."
       ],
       "lectures": [
         "140000",
         "151000",
-        "152000"
+        "152000",
+        "160000"
       ]
     },
     {
@@ -525,6 +527,22 @@
         "157000",
         "157500",
         "158000"
+      ]
+    },
+    {
+      "id": "crop-diversity",
+      "title": "Lives · Crops, Genes, and the Human Food Supply",
+      "role": "deep_dive",
+      "parent": "subjects",
+      "summary": "From Darwin and Mendelian inheritance to the global search for crop variation, seed preservation, and medicine made from plants.",
+      "assumed_background": [
+        "No prior genetics; crop breeding, inheritance and conservation are explained through the lives."
+      ],
+      "lectures": [
+        "134000",
+        "136000",
+        "153000",
+        "160000"
       ]
     }
   ]
