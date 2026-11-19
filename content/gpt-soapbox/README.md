@@ -11,8 +11,10 @@ The opening lectures concern several undervalued intellectual practices:
 trying to break a claim, keeping a useful achievement alive, and marking the
 boundary between evidence and plausible invention. Their common concern is
 *how an idea or system remains accountable to the world*. The fourth essay
-turns that question onto measurement and organizational objectives. Each lecture
-stands alone; listeners may choose any order.
+turns that question onto measurement and organizational objectives. The fifth
+defends amateur curiosity, with a distinction between democratic access to
+knowledge and shortcuts around professional standards. Each lecture stands
+alone; listeners may choose any order.
 
 - **001000 — The Counterexample Is the Main Character.** Why failure cases
   sharpen theories, programs, statistics, and arguments.
@@ -22,6 +24,8 @@ stands alone; listeners may choose any order.
   truthfulness, and the proposed idea of an epistemic receipt.
 - **004000 — The Scoreboard Cannot Choose the Game.** How useful measurements
   become destructive objectives; why better data cannot decide what we value.
+- **005000 — In Defense of the Amateur.** Why pursuing a craft or an inquiry
+  without a profession or a business can still be a serious contribution to a life.
 
 Spoken narration is inside the standard marker pair in each manuscript. Source
 notes, constructed-example qualifications, and reading links follow the

@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "lecture_id": "005000",
+  "transcript": "005000-in-defense-of-the-amateur.md",
+  "description": "Defends nonprofessional curiosity and serious practice without required monetization; uses Galaxy Zoo and volunteer precipitation observations to distinguish openness from lack of standards, and addresses exploitation, gatekeeping, leisure inequality, and the right to be a beginner.",
+  "tags": [
+    "Amateurism",
+    "Hobbies",
+    "Lifelong learning",
+    "Citizen science",
+    "Professional expertise",
+    "Public participation",
+    "Creative practice",
+    "Curiosity",
+    "Scientific evidence",
+    "Volunteering",
+    "AI and creativity"
+  ],
+  "tag_paths": [
+    [
+      "Philosophy",
+      "Ethics",
+      "The value of activities"
+    ],
+    [
+      "Social science",
+      "Science and technology studies",
+      "Citizen science"
+    ],
+    [
+      "Education",
+      "Lifelong learning",
+      "Informal learning"
+    ],
+    [
+      "Arts",
+      "Creative practice",
+      "Amateur art"
+    ],
+    [
+      "Computing",
+      "Artificial intelligence",
+      "Human creativity and tools"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "gs-amateur-etymology",
+      "reason": "Origin of the word amateur and its distinction from professional practice."
+    },
+    {
+      "source_id": "gs-amateurs-professionals-history",
+      "reason": "History of the scientific professionalization process and caution against projecting modern categories backward."
+    },
+    {
+      "source_id": "gs-hanny-nasa",
+      "reason": "Primary agency account of Hanny van Arkel and Hanny's Voorwerp."
+    },
+    {
+      "source_id": "gs-galaxyzoo-results",
+      "reason": "Citizen science project history and redundant galaxy classifications for quality control."
+    },
+    {
+      "source_id": "gs-nws-observations",
+      "reason": "Official description of community precipitation monitoring and uses of volunteer reports."
+    },
+    {
+      "source_id": "gs-nasem-citizen-science",
+      "reason": "Synthesis of citizen science learning opportunities, design, and participation."
+    },
+    {
+      "source_id": "gs-citizen-science-quality",
+      "reason": "Empirical discussion of validity, redundancy and error management in citizen data."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "soap-005-h01",
+      "anchor": "The word comes through French from the Latin word for a lover.",
+      "kind": "etymology",
+      "source_ids": [
+        "gs-amateur-etymology"
+      ],
+      "source_locator": "Merriam-Webster amateur, etymology",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "soap-005-h02",
+      "anchor": "Historians of science warn against projecting today's occupational categories backward onto eras when paid scientific careers were far less common.",
+      "kind": "research_history",
+      "source_ids": [
+        "gs-amateurs-professionals-history"
+      ],
+      "source_locator": "David E. Allen, chapter 2 summary and discussion of the preprofessional era",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "soap-005-h03",
+      "anchor": "In 2007, a Dutch schoolteacher named Hanny van Arkel was looking at images of galaxies as a participant in Galaxy Zoo, a public astronomy project.",
+      "kind": "real_world_case",
+      "source_ids": [
+        "gs-hanny-nasa",
+        "gs-hanny-retrospective",
+        "gs-galaxyzoo-results"
+      ],
+      "source_locator": "NASA APOD 2008-06-25; discoverer's 2008 retrospective; project history",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "soap-005-h04",
+      "anchor": "The object became known as Hanny's Voorwerp, using the Dutch word for \"object.\"",
+      "kind": "real_world_case",
+      "source_ids": [
+        "gs-hanny-nasa"
+      ],
+      "source_locator": "NASA APOD 2008-06-25",
+      "audit_status": "source_passage_checked"
+    }
+  ],
+  "claim_evidence": [
+    {
+      "id": "soap-005-c01",
+      "anchor": "Galaxy Zoo itself was designed around that reality.",
+      "source_ids": [
+        "gs-galaxyzoo-results",
+        "gs-citizen-science-quality"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Galaxy Zoo Results, multiple independent classifications; Frontiers in Climate review of observer bias and error",
+      "evidence_detail": "Redundant volunteer classifications and quality checks; not treated as individually infallible."
+    },
+    {
+      "id": "soap-005-c02",
+      "anchor": "The National Weather Service describes these reports as useful to forecasters, researchers, and others trying to understand conditions across a landscape.",
+      "source_ids": [
+        "gs-nws-observations"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "NWS Observations, CoCoRaHS overview",
+      "evidence_detail": "Describes volunteer training, standardized measurements, and variety of users."
+    }
+  ],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original argumentative essay; factual historical cases and etymology grounded in cited sources, with fictional illustrations identified in notes."
+  },
+  "learning": {
+    "reviewed": true,
+    "background": [
+      "No prior specialist knowledge; citizen science is explained in the essay."
+    ],
+    "readiness_checks": [
+      "Distinguish the occupational sense of amateur from the quality of a person's work.",
+      "Explain why broader participation can coexist with demanding evidentiary standards.",
+      "Identify ethical concerns with treating volunteers as unpaid labor.",
+      "State a reason for learning or making something that is not justified by its market value."
+    ]
+  }
+}
