@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "lecture_id": "032000",
+  "transcript": "032000-the-ceramic-is-not-just-clay.md",
+  "description": "Connects powder processing, diffusion-driven neck formation, densification, grain growth, ceramic defect chemistry and brittle fracture to applications.",
+  "tags": [
+    "Ceramics",
+    "Materials processing",
+    "Sintering",
+    "Powder compaction",
+    "Densification",
+    "Grain growth",
+    "Porosity",
+    "Grain boundaries",
+    "Thermal expansion",
+    "Brittle fracture",
+    "Ceramic toughening",
+    "Ionic conduction",
+    "Oxygen vacancies",
+    "Porcelain",
+    "Glazes",
+    "Ceramic filters",
+    "Crack mechanics"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Chemistry",
+      "Ceramic powder processing and sintering"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Porosity and fracture toughness"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Ceramic defect chemistry and ion transport"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Traditional and functional ceramics"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "chem-mat-nist-sintering",
+      "reason": "Sintering densification, processing, and microstructure of ceramics."
+    },
+    {
+      "source_id": "chem-mat-acers-sintering",
+      "reason": "Sintering mechanisms, geometry, and limitations of common models."
+    },
+    {
+      "source_id": "chem-mat-nist-reactive-sinter",
+      "reason": "Densification and coarsening competing with chemical reaction and microstructure evolution."
+    },
+    {
+      "source_id": "chem-mat-openstax-crystal",
+      "reason": "Lattices, Bragg diffraction, defects and crystalline structures."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "chem-032000-01",
+      "anchor": "This is a common outcome of sintering: bonding and often densification",
+      "kind": "scientific_mechanism",
+      "source_ids": [
+        "chem-mat-nist-sintering",
+        "chem-mat-acers-sintering"
+      ],
+      "source_locator": "Particle-neck growth and densification.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-032000-02",
+      "anchor": "Some pathways chiefly reshape the particles",
+      "kind": "scientific_limitation",
+      "source_ids": [
+        "chem-mat-acers-sintering"
+      ],
+      "source_locator": "Neck growth versus pore-volume reduction.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-032000-03",
+      "anchor": "Replacing a fraction of its cations with ions of different charge",
+      "kind": "scientific_example",
+      "source_ids": [
+        "chem-mat-nist-reactive-sinter"
+      ],
+      "source_locator": "Defect chemistry and charge compensation context.",
+      "audit_status": "reference_recorded"
+    }
+  ],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original materials chemistry lecture narration, scientific companion, bibliography and discovery metadata."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Familiarity with substances, bonding, energy and reactions; all specialized materials concepts are developed within this narration."
+    ],
+    "readiness_checks": [
+      "What are the differences between densification and grain growth?",
+      "Why can porosity be either a defect or a useful feature?"
+    ]
+  }
+}

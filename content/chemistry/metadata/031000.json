@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "lecture_id": "031000",
+  "transcript": "031000-the-solid-that-never-crystallized.md",
+  "description": "Shows how supercooling, structural arrest, relaxation and thermal history produce amorphous glasses with distinct optical and mechanical properties.",
+  "tags": [
+    "Materials chemistry",
+    "Amorphous solids",
+    "Glass",
+    "Glass transition",
+    "Vitrification",
+    "Structural relaxation",
+    "Supercooled liquids",
+    "Viscosity",
+    "Fictive temperature",
+    "Thermal annealing",
+    "Residual stress",
+    "Chemical strengthening",
+    "Glass ceramics",
+    "X-ray scattering",
+    "Fracture mechanics",
+    "Silica glass"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Chemistry",
+      "Glassy and amorphous solids"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Glass transitions versus melting"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Thermal history and residual stress"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Glass characterization and crystallization"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "chem-mat-iupac-glass",
+      "reason": "Glass transitions and arrested noncrystalline structures."
+    },
+    {
+      "source_id": "chem-mat-iupac-glassy",
+      "reason": "Amorphous matter below its glass transition."
+    },
+    {
+      "source_id": "chem-mat-cmog-windows",
+      "reason": "Manufacturing variations rather than room-temperature flow explain antique window thickness."
+    },
+    {
+      "source_id": "chem-mat-psu-glass",
+      "reason": "Time scales of glass viscosity and failure of medieval window flow explanation."
+    },
+    {
+      "source_id": "chem-mat-openstax-crystal",
+      "reason": "Lattices, Bragg diffraction, defects and crystalline structures."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "chem-031000-01",
+      "anchor": "Most ordinary window glass is an amorphous solid",
+      "kind": "scientific_definition",
+      "source_ids": [
+        "chem-mat-iupac-glassy"
+      ],
+      "source_locator": "Definition of noncrystalline glassy state.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-031000-02",
+      "anchor": "At a glass transition, the disordered structure largely persists",
+      "kind": "scientific_distinction",
+      "source_ids": [
+        "chem-mat-iupac-glass"
+      ],
+      "source_locator": "Structural arrest instead of equilibrium crystal melting.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-031000-03",
+      "anchor": "Historic manufacturing processes produced panes with nonuniform thickness",
+      "kind": "historical_correction",
+      "source_ids": [
+        "chem-mat-cmog-windows",
+        "chem-mat-psu-glass"
+      ],
+      "source_locator": "Windowpane thickness and negligible room-temperature flow.",
+      "audit_status": "reference_recorded"
+    }
+  ],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original materials chemistry lecture narration, scientific companion, bibliography and discovery metadata."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Familiarity with substances, bonding, energy and reactions; all specialized materials concepts are developed within this narration."
+    ],
+    "readiness_checks": [
+      "Why does a glass transition depend on observation timescale?",
+      "Why does the old windowpane flow myth fail?"
+    ]
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "lecture_id": "035000",
+  "transcript": "035000-rust-is-a-battery-you-did-not-ask-for.md",
+  "description": "Explains anodic and cathodic corrosion regions, oxide films, pitting, galvanic cells, cathodic protection and why geometry governs localized damage.",
+  "tags": [
+    "Electrochemistry",
+    "Corrosion",
+    "Rust",
+    "Iron oxidation",
+    "Cathodic oxygen reduction",
+    "Mixed potential",
+    "Galvanic corrosion",
+    "Passivation",
+    "Stainless steel",
+    "Chromium oxide",
+    "Pitting",
+    "Crevice corrosion",
+    "Chloride attack",
+    "Sacrificial anodes",
+    "Cathodic protection",
+    "Corrosion coatings",
+    "Corrosion testing",
+    "Electrochemical interfaces"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Chemistry",
+      "Corrosion as an electrochemical cell"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Passive films and localized corrosion"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Galvanic protection and coatings"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Corrosion measurement and risk"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "chem-mat-openstax-corrosion",
+      "reason": "Oxidation and reduction, protective films, sacrificial anodes and corrosion processes."
+    },
+    {
+      "source_id": "chem-mat-nist-pitting",
+      "reason": "Passive-film breakdown and dependence of pit formation on local surface conditions."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "chem-035000-01",
+      "anchor": "They are examples of electrochemistry occurring in a material's environment",
+      "kind": "scientific_explanation",
+      "source_ids": [
+        "chem-mat-openstax-corrosion"
+      ],
+      "source_locator": "Electrochemical explanation of common corrosion modes.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-035000-02",
+      "anchor": "Stainless steels owe much of their corrosion resistance to a chromium-rich passive oxide film",
+      "kind": "scientific_mechanism",
+      "source_ids": [
+        "chem-mat-openstax-corrosion"
+      ],
+      "source_locator": "Passivation in stainless steels.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-035000-03",
+      "anchor": "Pitting corrosion is another localized pattern",
+      "kind": "scientific_limitation",
+      "source_ids": [
+        "chem-mat-nist-pitting"
+      ],
+      "source_locator": "Surface-localized attack and repassivation competition.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-035000-04",
+      "anchor": "Engineers exploit that logic through sacrificial-anode protection",
+      "kind": "engineering_example",
+      "source_ids": [
+        "chem-mat-openstax-corrosion"
+      ],
+      "source_locator": "Cathodic protection by sacrificial-anode coupling.",
+      "audit_status": "reference_recorded"
+    }
+  ],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original materials chemistry lecture narration, scientific companion, bibliography and discovery metadata."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Familiarity with substances, bonding, energy and reactions; all specialized materials concepts are developed within this narration."
+    ],
+    "readiness_checks": [
+      "Why can a passive alloy pit?",
+      "Why is local pit depth more important than average corrosion loss in some applications?"
+    ]
+  }
+}

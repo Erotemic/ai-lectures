@@ -1,0 +1,149 @@
+{
+  "schema_version": 1,
+  "lecture_id": "029000",
+  "transcript": "029000-a-map-of-what-matter-can-be.md",
+  "description": "Builds pure-substance and binary phase maps using chemical potential, vapor pressure, triple and critical points, the phase rule and a lever-rule alloy calculation.",
+  "tags": [
+    "Materials chemistry",
+    "Phase diagrams",
+    "Chemical potential",
+    "Gibbs free energy",
+    "Melting",
+    "Boiling",
+    "Clapeyron relation",
+    "Triple point",
+    "Critical point",
+    "Supercritical fluids",
+    "Gibbs phase rule",
+    "Lever rule",
+    "Binary alloy phase diagrams",
+    "Metastability",
+    "Water triple point",
+    "SI kelvin 2019"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Chemistry",
+      "Phase equilibrium and chemical potential"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Pure-substance phase diagrams"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Gibbs phase rule"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Binary phase diagrams and lever rule"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "chem-mat-iupac-phase",
+      "reason": "Equilibrium regions and phase boundaries, including composition-dependent diagrams."
+    },
+    {
+      "source_id": "chem-mat-iupac-rule",
+      "reason": "Gibbs phase rule, independent components and coexisting phases."
+    },
+    {
+      "source_id": "chem-mat-iupac-mu",
+      "reason": "Chemical potential as partial molar Gibbs energy."
+    },
+    {
+      "source_id": "chem-mat-openstax-phase",
+      "reason": "Triple points, critical points, equilibrium pressure and temperature examples."
+    },
+    {
+      "source_id": "chem-mat-nist-kelvin",
+      "reason": "Post-2019 kelvin definition and experimental status of water triple point."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "chem-029000-01",
+      "anchor": "A phase diagram is a map of those conditions",
+      "kind": "scientific_definition",
+      "source_ids": [
+        "chem-mat-iupac-phase"
+      ],
+      "source_locator": "Equilibrium phase-diagram definition.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-029000-02",
+      "anchor": "The three curves meet at a triple point",
+      "kind": "scientific_definition",
+      "source_ids": [
+        "chem-mat-openstax-phase"
+      ],
+      "source_locator": "Triple point and three-phase coexistence.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-029000-03",
+      "anchor": "Since the 2019 revision of the International System of Units",
+      "kind": "metrological_history",
+      "source_ids": [
+        "chem-mat-nist-kelvin"
+      ],
+      "source_locator": "2019 SI kelvin redefinition.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-029000-04",
+      "anchor": "Gibbs' phase rule summarizes one constraint on these maps",
+      "kind": "scientific_relation",
+      "source_ids": [
+        "chem-mat-iupac-rule"
+      ],
+      "source_locator": "Number of degrees of freedom under standard assumptions.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-029000-05",
+      "anchor": "This calculation is the basis of the lever rule",
+      "kind": "scientific_calculation",
+      "source_ids": [
+        "chem-mat-iupac-phase"
+      ],
+      "source_locator": "Illustrative binary phase balance.",
+      "audit_status": "reference_recorded"
+    }
+  ],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original materials chemistry lecture narration, scientific companion, bibliography and discovery metadata."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Familiarity with substances, bonding, energy and reactions; all specialized materials concepts are developed within this narration."
+    ],
+    "readiness_checks": [
+      "What is a phase, and what does the triple point fix?",
+      "Why must a lever-rule phase fraction satisfy mass balance?"
+    ]
+  },
+  "chronology": {
+    "context": {
+      "start": 2019,
+      "end": 2019,
+      "label": "2019 SI revision of the kelvin",
+      "basis": "The manuscript explicitly discusses the 2019 SI redefinition.",
+      "note": "Dated event only, not a time range for phase behavior.",
+      "source_ids": [
+        "chem-mat-nist-kelvin"
+      ]
+    }
+  },
+  "places": []
+}

@@ -1,8 +1,8 @@
 # Chemistry: From Atoms to Reactions
 
-**Status:** twenty-eight completed audio-first lectures (001000-028000). This is an independent pack in Science and Nature.
+**Status:** thirty-six completed audio-first lectures (001000-036000). This is an independent pack in Science and Nature.
 
-The course begins with matter, bonds, solutions, reaction quantities, thermodynamics, kinetics, equilibrium and electrochemistry. The organic chemistry extension builds carbon structures, recognizes functional groups, reasons about stereochemistry, follows electron-pair mechanisms and reaches macromolecules and material behavior. The new analytical chemistry sequence then explains how sampling, calibration, spectroscopy, separations and mass measurements support defensible chemical identifications. Each lecture is standalone with a spoken manuscript and an unspoken scientific companion.
+The course begins with matter, bonds, solutions, reaction quantities, thermodynamics, kinetics, equilibrium and electrochemistry. The organic chemistry extension builds carbon structures, recognizes functional groups, reasons about stereochemistry, follows electron-pair mechanisms and reaches macromolecules and material behavior. The analytical chemistry sequence explains how sampling, calibration, spectroscopy, separations and mass measurements support defensible chemical identifications. The materials sequence then develops phase equilibrium, crystal growth, glasses, ceramics, wetting, colloids, corrosion and processing-dependent properties. Each lecture is standalone with a spoken manuscript and an unspoken scientific companion.
 
 ## Current lectures
 
@@ -38,9 +38,18 @@ The course begins with matter, bonds, solutions, reaction quantities, thermodyna
 | 027000 | Weighing Ions, Not Molecules: What a Mass Spectrum Can Tell Us | Explains m/z and charge states, electron and electrospray ionization, isotopic patterns, accurate mass, tandem MS, matrix effects and limits of spectral database matches |
 | 028000 | Building the Chemical Case: How Independent Measurements Become Evidence | Integrates sampling, blanks, chromatography, UV detection, MS identity, extraction recovery, uncertainty and evidence limits in a worked fictional water investigation |
 
+| 029000 | A Map of What Matter Can Be: Phase Diagrams and Chemical Equilibrium | Builds pure-substance and binary phase maps using chemical potential, vapor pressure, triple and critical points, the phase rule and a lever-rule alloy calculation. |
+| 030000 | How a Crystal Begins: Nucleation, Growth, and Defects | Explains surface-energy barriers to nucleation, heterogeneous seeds, supersaturation, grain growth, polymorphs and how defects alter materials. |
+| 031000 | The Solid That Never Crystallized: Glass and the Race Against Time | Shows how supercooling, structural arrest, relaxation and thermal history produce amorphous glasses with distinct optical and mechanical properties. |
+| 032000 | The Ceramic Is Not Just Clay: Pores, Sintering, and Microstructure | Connects powder processing, diffusion-driven neck formation, densification, grain growth, ceramic defect chemistry and brittle fracture to applications. |
+| 033000 | The Chemistry of the Edge: Surfaces, Wetting, and Adsorption | Explains surface free energy, contact-angle balance, capillary flow, adsorption, active surface sites and practical coating or catalyst design. |
+| 034000 | Why Milk Does Not Separate Immediately: Colloids, Emulsions, and Tiny Particles | Connects Brownian motion, settling, electrostatic and steric stabilization, emulsifiers, coalescence and ripening to milk, mayonnaise and paint. |
+| 035000 | Rust Is a Battery You Did Not Ask For: Corrosion and Passivation | Explains anodic and cathodic corrosion regions, oxide films, pitting, galvanic cells, cathodic protection and why geometry governs localized damage. |
+| 036000 | A Material Remembers How It Was Made: Processing, Structure, and Performance | Explains how casting, work hardening, grain structure, precipitation, quenching, tempering and defects create property differences in chemically similar materials. |
+
 ### Listening routes
 
-`navigation.json` retains the stable `chemistry-foundations` main collection, now organized into twenty-eight lecture chapters, and the older deep-dive routes. New focused collections cover organic structure and stereochemistry, organic mechanisms and carbonyls, and polymers and materials, plus sampling and calibration, spectroscopic clues, chromatographic separations and mass spectra, and an analytical identification capstone.
+`navigation.json` retains the stable `chemistry-foundations` main collection, now organized into thirty-six lectures, and the older deep-dive routes. Focused collections cover organic structure and stereochemistry, organic mechanisms and carbonyls, and polymers and materials, plus sampling and calibration, spectroscopic clues, chromatographic separations and mass spectra, and an analytical identification capstone. Materials deep dives cover phase diagrams and crystal growth, glasses and ceramics, interfaces and colloids, and corrosion and processing history.
 
 ### Evidence and discovery
 

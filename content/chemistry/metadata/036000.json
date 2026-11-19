@@ -1,0 +1,127 @@
+{
+  "schema_version": 1,
+  "lecture_id": "036000",
+  "transcript": "036000-a-material-remembers-how-it-was-made.md",
+  "description": "Explains how casting, work hardening, grain structure, precipitation, quenching, tempering and defects create property differences in chemically similar materials.",
+  "tags": [
+    "Materials chemistry",
+    "Materials science",
+    "Processing structure property relationship",
+    "Microstructure",
+    "Heat treatment",
+    "Work hardening",
+    "Dislocations",
+    "Recrystallization",
+    "Grain refinement",
+    "Precipitation hardening",
+    "Quenching",
+    "Tempering",
+    "Austenite",
+    "Martensite",
+    "Steel",
+    "Fatigue",
+    "Creep",
+    "Fracture",
+    "Residual stress",
+    "Alloy design",
+    "Materials characterization"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Chemistry",
+      "Processing–structure–property relationships"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Steel transformations and heat treatment"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Defects and mechanical properties"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Failure analysis and service performance"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "chem-mat-nist-steel",
+      "reason": "Composition, cooling and manufacturing route change martensite and retained austenite."
+    },
+    {
+      "source_id": "chem-mat-nist-phase",
+      "reason": "Nonequilibrium phase structure and representative phase-fraction measurement."
+    },
+    {
+      "source_id": "chem-mat-nist-heat",
+      "reason": "Tempering changes microstructure and performance under environmental stress."
+    },
+    {
+      "source_id": "chem-mat-openstax-crystal",
+      "reason": "Lattices, Bragg diffraction, defects and crystalline structures."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "chem-036000-01",
+      "anchor": "This is sometimes called the processing–structure–properties–performance relationship",
+      "kind": "conceptual_framework",
+      "source_ids": [
+        "chem-mat-nist-phase"
+      ],
+      "source_locator": "Processing and microstructural effects on material properties.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-036000-02",
+      "anchor": "Rapid cooling from austenite can instead generate martensite",
+      "kind": "scientific_mechanism",
+      "source_ids": [
+        "chem-mat-nist-steel"
+      ],
+      "source_locator": "Cooling-dependent phases and martensitic formation.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-036000-03",
+      "anchor": "Tempering changes the microstructure through thermally activated processes",
+      "kind": "scientific_example",
+      "source_ids": [
+        "chem-mat-nist-heat"
+      ],
+      "source_locator": "Performance modifications from tempering.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-036000-04",
+      "anchor": "A small polished micrograph shows the structure at the examined location",
+      "kind": "measurement_scope",
+      "source_ids": [
+        "chem-mat-nist-phase"
+      ],
+      "source_locator": "Sampling and spatial variability in phase characterization.",
+      "audit_status": "reference_recorded"
+    }
+  ],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original materials chemistry lecture narration, scientific companion, bibliography and discovery metadata."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Familiarity with substances, bonding, energy and reactions; all specialized materials concepts are developed within this narration."
+    ],
+    "readiness_checks": [
+      "What facts distinguish two chemically identical metal parts?",
+      "Which measurements could reveal a heat-treatment defect?"
+    ]
+  }
+}

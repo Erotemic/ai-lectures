@@ -1,0 +1,111 @@
+{
+  "schema_version": 1,
+  "lecture_id": "034000",
+  "transcript": "034000-why-milk-does-not-separate-immediately.md",
+  "description": "Connects Brownian motion, settling, electrostatic and steric stabilization, emulsifiers, coalescence and ripening to milk, mayonnaise and paint.",
+  "tags": [
+    "Colloids",
+    "Dispersions",
+    "Emulsions",
+    "Brownian motion",
+    "Stokes settling",
+    "Electrical double layer",
+    "Electrostatic stabilization",
+    "Steric stabilization",
+    "Surfactants",
+    "Amphiphilic molecules",
+    "Coalescence",
+    "Flocculation",
+    "Creaming",
+    "Ostwald ripening",
+    "Gels",
+    "Rheology",
+    "Milk",
+    "Mayonnaise",
+    "Paint"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Chemistry",
+      "Colloidal suspensions and transport"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Emulsion stabilization"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Interfacial forces and aggregation"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Colloid failure mechanisms"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "chem-mat-openstax-colloid",
+      "reason": "Emulsions, surfactants, gels, dispersions and mixture structures."
+    },
+    {
+      "source_id": "chem-mat-iupac-adsorption",
+      "reason": "Interfacial accumulation of species relative to their bulk concentration."
+    },
+    {
+      "source_id": "chem-mat-openstax-liquid",
+      "reason": "Surface tension, liquids, capillary behavior."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "chem-034000-01",
+      "anchor": "A colloidal dispersion contains tiny droplets",
+      "kind": "scientific_definition",
+      "source_ids": [
+        "chem-mat-openstax-colloid"
+      ],
+      "source_locator": "Colloids versus solutions and coarse suspensions.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-034000-02",
+      "anchor": "An emulsifier is often amphiphilic",
+      "kind": "scientific_mechanism",
+      "source_ids": [
+        "chem-mat-openstax-colloid"
+      ],
+      "source_locator": "Surface-active stabilizers at oil-water interfaces.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-034000-03",
+      "anchor": "Ostwald ripening is especially revealing",
+      "kind": "scientific_mechanism",
+      "source_ids": [
+        "chem-mat-openstax-liquid"
+      ],
+      "source_locator": "Curvature-dependent material transfer and droplet coarsening.",
+      "audit_status": "reference_recorded"
+    }
+  ],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original materials chemistry lecture narration, scientific companion, bibliography and discovery metadata."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Familiarity with substances, bonding, energy and reactions; all specialized materials concepts are developed within this narration."
+    ],
+    "readiness_checks": [
+      "How do emulsions differ from molecular solutions?",
+      "What distinguishes coalescence from ripening?"
+    ]
+  }
+}

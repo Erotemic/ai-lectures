@@ -8,7 +8,7 @@
       "categories": [
         "Science and nature"
       ],
-      "summary": "Twenty-eight audio lectures from atomic structure and reactions to organic chemistry, analytical measurement, spectroscopy, chromatographic separation, and chemical evidence.",
+      "summary": "Thirty-six audio lectures connecting atomic and reaction foundations to organic molecules, analytical evidence, phase equilibria, crystal growth, glasses, ceramics, interfaces, colloids and real material performance.",
       "tags": [
         "Chemistry",
         "Chemical foundations",
@@ -144,6 +144,38 @@
             "028000"
           ],
           "collection": "analytical-identification-capstone"
+        },
+        {
+          "title": "Phase Boundaries and the First Crystals",
+          "lectures": [
+            "029000",
+            "030000"
+          ],
+          "collection": "materials-phase-and-growth"
+        },
+        {
+          "title": "Glasses, Ceramics, and What Firing Creates",
+          "lectures": [
+            "031000",
+            "032000"
+          ],
+          "collection": "materials-glasses-and-ceramics"
+        },
+        {
+          "title": "Surfaces, Droplets, and Dispersions",
+          "lectures": [
+            "033000",
+            "034000"
+          ],
+          "collection": "materials-interfaces-and-colloids"
+        },
+        {
+          "title": "Corrosion and the History of an Alloy",
+          "lectures": [
+            "035000",
+            "036000"
+          ],
+          "collection": "materials-corrosion-and-processing"
         }
       ]
     },
@@ -344,6 +376,70 @@
       ],
       "lectures": [
         "028000"
+      ]
+    },
+    {
+      "id": "materials-phase-and-growth",
+      "title": "Chemistry · Phase Maps and Crystal Growth",
+      "role": "deep_dive",
+      "parent": "chemistry-foundations",
+      "summary": "Equilibrium phase diagrams, chemical potential, nucleation, crystal growth and microstructural defects.",
+      "tags": [
+        "Materials chemistry",
+        "Phase diagrams",
+        "Crystal growth"
+      ],
+      "lectures": [
+        "029000",
+        "030000"
+      ]
+    },
+    {
+      "id": "materials-glasses-and-ceramics",
+      "title": "Chemistry · Glasses and Ceramics",
+      "role": "deep_dive",
+      "parent": "chemistry-foundations",
+      "summary": "Structural arrest, glass transitions, ceramic densification, grains, pores and brittle behavior.",
+      "tags": [
+        "Glass transition",
+        "Ceramics",
+        "Sintering"
+      ],
+      "lectures": [
+        "031000",
+        "032000"
+      ]
+    },
+    {
+      "id": "materials-interfaces-and-colloids",
+      "title": "Chemistry · Interfaces and Dispersions",
+      "role": "deep_dive",
+      "parent": "chemistry-foundations",
+      "summary": "Wetting, adsorption, capillarity, emulsions, colloidal stability and dispersed-particle transport.",
+      "tags": [
+        "Surface chemistry",
+        "Adsorption",
+        "Colloids"
+      ],
+      "lectures": [
+        "033000",
+        "034000"
+      ]
+    },
+    {
+      "id": "materials-corrosion-and-processing",
+      "title": "Chemistry · Corrosion and Processing History",
+      "role": "deep_dive",
+      "parent": "chemistry-foundations",
+      "summary": "How passivation, electrochemical interfaces, heat treatment and microstructure determine performance.",
+      "tags": [
+        "Corrosion",
+        "Passivation",
+        "Materials processing"
+      ],
+      "lectures": [
+        "035000",
+        "036000"
       ]
     }
   ]

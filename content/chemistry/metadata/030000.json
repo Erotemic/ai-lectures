@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "lecture_id": "030000",
+  "transcript": "030000-how-a-crystal-begins.md",
+  "description": "Explains surface-energy barriers to nucleation, heterogeneous seeds, supersaturation, grain growth, polymorphs and how defects alter materials.",
+  "tags": [
+    "Crystallization",
+    "Nucleation",
+    "Heterogeneous nucleation",
+    "Critical radius",
+    "Interfacial free energy",
+    "Supersaturation",
+    "Crystal growth",
+    "Polycrystals",
+    "Grain boundaries",
+    "Dislocations",
+    "Point defects",
+    "Polymorphism",
+    "Metastability",
+    "X-ray diffraction",
+    "Bragg equation",
+    "Crystal habit",
+    "Microstructure"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Chemistry",
+      "Crystal nucleation and growth"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Supersaturation and metastability"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Crystalline defects and polycrystals"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "X-ray diffraction and crystal identification"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "chem-mat-iupac-nucleation",
+      "reason": "Crystal formation as nucleation followed by growth."
+    },
+    {
+      "source_id": "chem-mat-openstax-crystal",
+      "reason": "Lattices, Bragg diffraction, defects and crystalline structures."
+    },
+    {
+      "source_id": "chem-mat-iupac-phase",
+      "reason": "Equilibrium regions and phase boundaries, including composition-dependent diagrams."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "chem-030000-01",
+      "anchor": "The difference is how the transition from dispersed molecules to an ordered solid got started",
+      "kind": "scientific_mechanism",
+      "source_ids": [
+        "chem-mat-iupac-nucleation"
+      ],
+      "source_locator": "Nucleation versus subsequent growth.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-030000-02",
+      "anchor": "An embryonic cluster can therefore dissolve even while larger crystals would grow",
+      "kind": "scientific_explanation",
+      "source_ids": [
+        "chem-mat-iupac-nucleation"
+      ],
+      "source_locator": "Competition between interfacial energy and bulk driving force.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-030000-03",
+      "anchor": "X-ray diffraction probes regular spacings",
+      "kind": "measurement_principle",
+      "source_ids": [
+        "chem-mat-openstax-crystal"
+      ],
+      "source_locator": "Lattice spacings inferred through X-ray diffraction.",
+      "audit_status": "reference_recorded"
+    }
+  ],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original materials chemistry lecture narration, scientific companion, bibliography and discovery metadata."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Familiarity with substances, bonding, energy and reactions; all specialized materials concepts are developed within this narration."
+    ],
+    "readiness_checks": [
+      "Why is a stable crystal embryo hard to create?",
+      "How could equal masses crystallize into different grain sizes?"
+    ]
+  }
+}

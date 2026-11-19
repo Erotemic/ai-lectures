@@ -1,7 +1,7 @@
 {
   "id": "chemistry",
   "title": "Chemistry: From Atoms to Reactions",
-  "summary": "Audio-first chemistry from atoms and reactions through organic molecules and polymers into evidence-bearing analytical chemistry: sampling, calibration, optical and nuclear spectroscopy, chromatography, mass spectrometry, and inference from combined measurements. Each lecture has scientific companions and source-linked claims.",
+  "summary": "Audio-first chemistry from matter, reactions and organic structures through analytical evidence into phase diagrams, crystallization, glasses, ceramics, surfaces, colloids, corrosion, and microstructure-dependent material behavior. Each lecture has scientific companions and source-linked claims.",
   "categories": [
     "Science and nature"
   ],
@@ -41,7 +41,17 @@
     "Chromatography",
     "Mass spectrometry",
     "Chemical identification",
-    "Chemical metrology"
+    "Chemical metrology",
+    "Phase diagrams",
+    "Crystal growth",
+    "Glass transition",
+    "Ceramic materials",
+    "Surface chemistry",
+    "Wetting and adsorption",
+    "Colloids and emulsions",
+    "Corrosion and passivation",
+    "Microstructure",
+    "Materials processing"
   ],
   "tag_paths": [
     [
@@ -84,7 +94,15 @@
     "nuclear_magnetic_resonance",
     "chromatography",
     "mass_spectrometry",
-    "evidence_integration"
+    "evidence_integration",
+    "phase_diagrams",
+    "crystal_growth",
+    "glass_and_amorphous",
+    "ceramics_and_sintering",
+    "surfaces_and_wetting",
+    "colloids_and_emulsions",
+    "corrosion_and_passivation",
+    "processing_structure_properties"
   ],
   "lectures": [
     {
@@ -1731,6 +1749,418 @@
           "Science",
           "Chemistry",
           "Measurement limitations and uncertainty"
+        ]
+      ]
+    },
+    {
+      "id": "029000",
+      "title": "A Map of What Matter Can Be: Phase Diagrams and Chemical Equilibrium",
+      "section": "phase_diagrams",
+      "file": "029000-a-map-of-what-matter-can-be.md",
+      "spoken_words": 1838,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 12.7,
+      "description": "Builds pure-substance and binary phase maps using chemical potential, vapor pressure, triple and critical points, the phase rule and a lever-rule alloy calculation.",
+      "tags": [
+        "Materials chemistry",
+        "Phase diagrams",
+        "Chemical potential",
+        "Gibbs free energy",
+        "Melting",
+        "Boiling",
+        "Clapeyron relation",
+        "Triple point",
+        "Critical point",
+        "Supercritical fluids",
+        "Gibbs phase rule",
+        "Lever rule",
+        "Binary alloy phase diagrams",
+        "Metastability",
+        "Water triple point",
+        "SI kelvin 2019"
+      ],
+      "tag_paths": [
+        [
+          "Science",
+          "Chemistry",
+          "Phase equilibrium and chemical potential"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Pure-substance phase diagrams"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Gibbs phase rule"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Binary phase diagrams and lever rule"
+        ]
+      ]
+    },
+    {
+      "id": "030000",
+      "title": "How a Crystal Begins: Nucleation, Growth, and Defects",
+      "section": "crystal_growth",
+      "file": "030000-how-a-crystal-begins.md",
+      "spoken_words": 1690,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 11.7,
+      "description": "Explains surface-energy barriers to nucleation, heterogeneous seeds, supersaturation, grain growth, polymorphs and how defects alter materials.",
+      "tags": [
+        "Crystallization",
+        "Nucleation",
+        "Heterogeneous nucleation",
+        "Critical radius",
+        "Interfacial free energy",
+        "Supersaturation",
+        "Crystal growth",
+        "Polycrystals",
+        "Grain boundaries",
+        "Dislocations",
+        "Point defects",
+        "Polymorphism",
+        "Metastability",
+        "X-ray diffraction",
+        "Bragg equation",
+        "Crystal habit",
+        "Microstructure"
+      ],
+      "tag_paths": [
+        [
+          "Science",
+          "Chemistry",
+          "Crystal nucleation and growth"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Supersaturation and metastability"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Crystalline defects and polycrystals"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "X-ray diffraction and crystal identification"
+        ]
+      ]
+    },
+    {
+      "id": "031000",
+      "title": "The Solid That Never Crystallized: Glass and the Race Against Time",
+      "section": "glass_and_amorphous",
+      "file": "031000-the-solid-that-never-crystallized.md",
+      "spoken_words": 1596,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 11.0,
+      "description": "Shows how supercooling, structural arrest, relaxation and thermal history produce amorphous glasses with distinct optical and mechanical properties.",
+      "tags": [
+        "Materials chemistry",
+        "Amorphous solids",
+        "Glass",
+        "Glass transition",
+        "Vitrification",
+        "Structural relaxation",
+        "Supercooled liquids",
+        "Viscosity",
+        "Fictive temperature",
+        "Thermal annealing",
+        "Residual stress",
+        "Chemical strengthening",
+        "Glass ceramics",
+        "X-ray scattering",
+        "Fracture mechanics",
+        "Silica glass"
+      ],
+      "tag_paths": [
+        [
+          "Science",
+          "Chemistry",
+          "Glassy and amorphous solids"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Glass transitions versus melting"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Thermal history and residual stress"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Glass characterization and crystallization"
+        ]
+      ]
+    },
+    {
+      "id": "032000",
+      "title": "The Ceramic Is Not Just Clay: Pores, Sintering, and Microstructure",
+      "section": "ceramics_and_sintering",
+      "file": "032000-the-ceramic-is-not-just-clay.md",
+      "spoken_words": 1506,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 10.4,
+      "description": "Connects powder processing, diffusion-driven neck formation, densification, grain growth, ceramic defect chemistry and brittle fracture to applications.",
+      "tags": [
+        "Ceramics",
+        "Materials processing",
+        "Sintering",
+        "Powder compaction",
+        "Densification",
+        "Grain growth",
+        "Porosity",
+        "Grain boundaries",
+        "Thermal expansion",
+        "Brittle fracture",
+        "Ceramic toughening",
+        "Ionic conduction",
+        "Oxygen vacancies",
+        "Porcelain",
+        "Glazes",
+        "Ceramic filters",
+        "Crack mechanics"
+      ],
+      "tag_paths": [
+        [
+          "Science",
+          "Chemistry",
+          "Ceramic powder processing and sintering"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Porosity and fracture toughness"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Ceramic defect chemistry and ion transport"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Traditional and functional ceramics"
+        ]
+      ]
+    },
+    {
+      "id": "033000",
+      "title": "The Chemistry of the Edge: Surfaces, Wetting, and Adsorption",
+      "section": "surfaces_and_wetting",
+      "file": "033000-the-chemistry-of-the-edge.md",
+      "spoken_words": 1599,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 11.0,
+      "description": "Explains surface free energy, contact-angle balance, capillary flow, adsorption, active surface sites and practical coating or catalyst design.",
+      "tags": [
+        "Surface chemistry",
+        "Interfacial free energy",
+        "Surface tension",
+        "Wetting",
+        "Contact angle",
+        "Young equation",
+        "Contact angle hysteresis",
+        "Capillarity",
+        "Adsorption",
+        "Absorption",
+        "Physisorption",
+        "Chemisorption",
+        "Langmuir adsorption",
+        "Heterogeneous catalysis",
+        "Adhesion",
+        "Surface contamination"
+      ],
+      "tag_paths": [
+        [
+          "Science",
+          "Chemistry",
+          "Surface energy and capillarity"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Wetting and contact angles"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Adsorption at interfaces"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Surface catalysis and adhesion"
+        ]
+      ]
+    },
+    {
+      "id": "034000",
+      "title": "Why Milk Does Not Separate Immediately: Colloids, Emulsions, and Tiny Particles",
+      "section": "colloids_and_emulsions",
+      "file": "034000-why-milk-does-not-separate-immediately.md",
+      "spoken_words": 1597,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 11.0,
+      "description": "Connects Brownian motion, settling, electrostatic and steric stabilization, emulsifiers, coalescence and ripening to milk, mayonnaise and paint.",
+      "tags": [
+        "Colloids",
+        "Dispersions",
+        "Emulsions",
+        "Brownian motion",
+        "Stokes settling",
+        "Electrical double layer",
+        "Electrostatic stabilization",
+        "Steric stabilization",
+        "Surfactants",
+        "Amphiphilic molecules",
+        "Coalescence",
+        "Flocculation",
+        "Creaming",
+        "Ostwald ripening",
+        "Gels",
+        "Rheology",
+        "Milk",
+        "Mayonnaise",
+        "Paint"
+      ],
+      "tag_paths": [
+        [
+          "Science",
+          "Chemistry",
+          "Colloidal suspensions and transport"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Emulsion stabilization"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Interfacial forces and aggregation"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Colloid failure mechanisms"
+        ]
+      ]
+    },
+    {
+      "id": "035000",
+      "title": "Rust Is a Battery You Did Not Ask For: Corrosion and Passivation",
+      "section": "corrosion_and_passivation",
+      "file": "035000-rust-is-a-battery-you-did-not-ask-for.md",
+      "spoken_words": 1509,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 10.4,
+      "description": "Explains anodic and cathodic corrosion regions, oxide films, pitting, galvanic cells, cathodic protection and why geometry governs localized damage.",
+      "tags": [
+        "Electrochemistry",
+        "Corrosion",
+        "Rust",
+        "Iron oxidation",
+        "Cathodic oxygen reduction",
+        "Mixed potential",
+        "Galvanic corrosion",
+        "Passivation",
+        "Stainless steel",
+        "Chromium oxide",
+        "Pitting",
+        "Crevice corrosion",
+        "Chloride attack",
+        "Sacrificial anodes",
+        "Cathodic protection",
+        "Corrosion coatings",
+        "Corrosion testing",
+        "Electrochemical interfaces"
+      ],
+      "tag_paths": [
+        [
+          "Science",
+          "Chemistry",
+          "Corrosion as an electrochemical cell"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Passive films and localized corrosion"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Galvanic protection and coatings"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Corrosion measurement and risk"
+        ]
+      ]
+    },
+    {
+      "id": "036000",
+      "title": "A Material Remembers How It Was Made: Processing, Structure, and Performance",
+      "section": "processing_structure_properties",
+      "file": "036000-a-material-remembers-how-it-was-made.md",
+      "spoken_words": 1608,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 11.1,
+      "description": "Explains how casting, work hardening, grain structure, precipitation, quenching, tempering and defects create property differences in chemically similar materials.",
+      "tags": [
+        "Materials chemistry",
+        "Materials science",
+        "Processing structure property relationship",
+        "Microstructure",
+        "Heat treatment",
+        "Work hardening",
+        "Dislocations",
+        "Recrystallization",
+        "Grain refinement",
+        "Precipitation hardening",
+        "Quenching",
+        "Tempering",
+        "Austenite",
+        "Martensite",
+        "Steel",
+        "Fatigue",
+        "Creep",
+        "Fracture",
+        "Residual stress",
+        "Alloy design",
+        "Materials characterization"
+      ],
+      "tag_paths": [
+        [
+          "Science",
+          "Chemistry",
+          "Processing–structure–property relationships"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Steel transformations and heat treatment"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Defects and mechanical properties"
+        ],
+        [
+          "Science",
+          "Chemistry",
+          "Failure analysis and service performance"
         ]
       ]
     }

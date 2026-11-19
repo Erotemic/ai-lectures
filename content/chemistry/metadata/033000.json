@@ -1,0 +1,118 @@
+{
+  "schema_version": 1,
+  "lecture_id": "033000",
+  "transcript": "033000-the-chemistry-of-the-edge.md",
+  "description": "Explains surface free energy, contact-angle balance, capillary flow, adsorption, active surface sites and practical coating or catalyst design.",
+  "tags": [
+    "Surface chemistry",
+    "Interfacial free energy",
+    "Surface tension",
+    "Wetting",
+    "Contact angle",
+    "Young equation",
+    "Contact angle hysteresis",
+    "Capillarity",
+    "Adsorption",
+    "Absorption",
+    "Physisorption",
+    "Chemisorption",
+    "Langmuir adsorption",
+    "Heterogeneous catalysis",
+    "Adhesion",
+    "Surface contamination"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Chemistry",
+      "Surface energy and capillarity"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Wetting and contact angles"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Adsorption at interfaces"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Surface catalysis and adhesion"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "chem-mat-iupac-adsorption",
+      "reason": "Interfacial accumulation of species relative to their bulk concentration."
+    },
+    {
+      "source_id": "chem-mat-openstax-liquid",
+      "reason": "Surface tension, liquids, capillary behavior."
+    },
+    {
+      "source_id": "chem-mat-nist-adsorption",
+      "reason": "Interpretation of adsorption isotherms and limitations of fitted models."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "chem-033000-01",
+      "anchor": "Increasing the surface area generally requires work",
+      "kind": "scientific_principle",
+      "source_ids": [
+        "chem-mat-openstax-liquid"
+      ],
+      "source_locator": "Liquid-surface tension as excess free energy.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-033000-02",
+      "anchor": "This is contact-angle hysteresis",
+      "kind": "scientific_observation",
+      "source_ids": [
+        "chem-mat-openstax-liquid"
+      ],
+      "source_locator": "Real contact angles can differ in spreading versus retreat.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-033000-03",
+      "anchor": "Adsorption is the accumulation of one species at an interface",
+      "kind": "scientific_definition",
+      "source_ids": [
+        "chem-mat-iupac-adsorption"
+      ],
+      "source_locator": "Adsorption versus bulk absorption.",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "chem-033000-04",
+      "anchor": "The Langmuir isotherm describes this limiting case",
+      "kind": "model_scope",
+      "source_ids": [
+        "chem-mat-nist-adsorption"
+      ],
+      "source_locator": "Ideal adsorption isotherm with site-filling assumptions.",
+      "audit_status": "reference_recorded"
+    }
+  ],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-18",
+    "scope": "Original materials chemistry lecture narration, scientific companion, bibliography and discovery metadata."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Familiarity with substances, bonding, energy and reactions; all specialized materials concepts are developed within this narration."
+    ],
+    "readiness_checks": [
+      "What determines whether a drop spreads or beads?",
+      "Why is adsorption capacity not automatically catalytic activity?"
+    ]
+  }
+}
