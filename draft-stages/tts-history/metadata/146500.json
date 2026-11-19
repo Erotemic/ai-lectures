@@ -1,0 +1,1057 @@
+{
+  "schema_version": 1,
+  "lecture_id": "146500",
+  "transcript": "146500-feynman-physics.md",
+  "related_resources": [
+    {
+      "source_id": "feynman-mactutor",
+      "reason": "Biographical chronology, family, Far Rockaway and MIT/Princeton/Caltech; historical synthesis, including recollections attributed to later memoirs."
+    },
+    {
+      "source_id": "feynman-anb",
+      "reason": "1918 birth, education, 1942 doctorate and marriage, wartime career and QED; available abstract, not full subscription-only biography."
+    },
+    {
+      "source_id": "feynman-caltech-findingaid",
+      "reason": "Collection scope, correspondence, teaching and institutional posts; not a claim individual letters were inspected."
+    },
+    {
+      "source_id": "feynman-caltech-archive-project",
+      "reason": "Caltech career summary; degrees, Cornell, basic discoveries, family archive donation."
+    },
+    {
+      "source_id": "feynman-aip-oral",
+      "reason": "Catalog description covering upbringing, training, Wheeler, nuclear project, QED, helium, weak forces and education; retrospective interviews."
+    },
+    {
+      "source_id": "feynman-nobel-lecture",
+      "reason": "Firsthand intellectual recollections and explicit admission of false starts; individual retrospective account, not complete independent chronology."
+    },
+    {
+      "source_id": "feynman-nobel-bio",
+      "reason": "Prize co-recipients and official subject of award; note prize does not list all contributors."
+    },
+    {
+      "source_id": "feynman-joan-jpl",
+      "reason": "Joan Feynman recalls childhood curiosity, brother, father, scientific work; retrospective first-person recollection."
+    },
+    {
+      "source_id": "feynman-joan-aps",
+      "reason": "Joan Feynman scientific achievements, childhood, family encouragement, career and education."
+    },
+    {
+      "source_id": "feynman-baldwin",
+      "reason": "Research-based assessment of public persona, Los Alamos jokes, collaborators, gender and critical responses; some quoted views are retrospective and attributed."
+    },
+    {
+      "source_id": "feynman-arline-catalog",
+      "reason": "Catalog description of 40 surviving letters and final weeks; not independent inspection of all autograph letters."
+    },
+    {
+      "source_id": "feynman-letters-review",
+      "reason": "Review summary of Arline correspondence and later unsent letter; indexed PDF excerpt, not claim full letters were inspected."
+    },
+    {
+      "source_id": "feynman-brazil",
+      "reason": "Brazilian historical research for 1949 visit, 1951–52 stay, Tiomno, Leite Lopes, teaching, 1952 and 1963 talks; Brazilian contemporaries had their own scientific institutions."
+    },
+    {
+      "source_id": "feynman-lectures-caltech",
+      "reason": "Primary edition crediting Feynman, Leighton and Sands, 1961–64 recordings, 1964 Cornell Messenger Lectures and edition copyright limits."
+    },
+    {
+      "source_id": "feynman-lectures-aps",
+      "reason": "Course curriculum and collaborators, wider Sputnik-era teaching reform, course dates and reception."
+    },
+    {
+      "source_id": "feynman-centennial",
+      "reason": "Family recollections from Joan and Michelle, colleague descriptions of informal Physics X discussions."
+    },
+    {
+      "source_id": "feynman-cargo",
+      "reason": "Feynman’s own public standard of reporting negative evidence and acknowledging uncertainties; cultural framing is historically specific."
+    },
+    {
+      "source_id": "feynman-nanotech",
+      "reason": "1959 conceptual miniaturization proposals; not documentary evidence that all nanotechnology began with the talk."
+    },
+    {
+      "source_id": "feynman-bbc",
+      "reason": "Public communication of atoms and physical intuition; listed episode dates."
+    },
+    {
+      "source_id": "feynman-challenger-app",
+      "reason": "Risk estimates, reliability practice and management-engineering disconnect; primary authored appendix."
+    },
+    {
+      "source_id": "feynman-challenger-ch6",
+      "reason": "Solid rocket booster design, O-ring erosion, management warnings and accident causes; multi-investigator findings."
+    },
+    {
+      "source_id": "feynman-challenger-nasa",
+      "reason": "Commission record, chronology and hearings; not a claim each hearing transcript was separately read."
+    },
+    {
+      "source_id": "feynman-wheeler",
+      "reason": "Historical absorber theory, its problem setting and collaborators; not modern standard theory by itself."
+    },
+    {
+      "source_id": "feynman-path-1948",
+      "reason": "Path-integral formulation, amplitudes, action and Schrödinger equivalence; not claim that all interacting QFT path integrals are rigorous."
+    },
+    {
+      "source_id": "feynman-qed-1949",
+      "reason": "Diagrammatic rules and early renormalization program in QED; nonphysical internal lines not direct observed tracks."
+    },
+    {
+      "source_id": "feynman-qed-1950",
+      "reason": "Further mathematical validation of diagrammatic approach and all-order structure."
+    },
+    {
+      "source_id": "feynman-dyson",
+      "reason": "Equivalence and translation of QED approaches, including independent central contributions."
+    },
+    {
+      "source_id": "feynman-helium-1953",
+      "reason": "Early qualitative Bose liquid arguments and explicit limitations."
+    },
+    {
+      "source_id": "feynman-helium-1954",
+      "reason": "Phonon/roton spectrum and numerical mismatch explicitly noted in paper."
+    },
+    {
+      "source_id": "feynman-helium-cohen",
+      "reason": "Collaboration, revised roton calculations and treatment of correlations."
+    },
+    {
+      "source_id": "feynman-weak-1958",
+      "reason": "Vector-minus-axial weak interaction theory, collaborative and subject to prior/parallel work."
+    },
+    {
+      "source_id": "feynman-weak-marshak",
+      "reason": "Published 1958 paper documenting independent vector-axial weak interaction analysis; prior 1957 conference presentation described by authors and later historical scholarship."
+    },
+    {
+      "source_id": "feynman-weak-wu",
+      "reason": "Cobalt-60 parity experiment with coauthors, not exclusively Wu alone."
+    },
+    {
+      "source_id": "feynman-partons-aps",
+      "reason": "Gell-Mann/Zweig proposals, SLAC experiment teams, Bjorken scaling and Feynman parton model; multiple discovery lines."
+    },
+    {
+      "source_id": "feynman-partons-paper",
+      "reason": "Feynman’s parton picture at high energy, not sole origin of quarks or scattering evidence."
+    },
+    {
+      "source_id": "feynman-quantum-1982",
+      "reason": "Quantum simulation motivation and state-space scaling; no claim Feynman alone invented subsequent quantum computing or hardware."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "146500-h01",
+      "anchor": "Richard Feynman suggested a very different picture",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "feynman-path-1948",
+        "feynman-nobel-lecture"
+      ],
+      "source_locator": "Richard Feynman suggested a very different picture",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "146500-h02",
+      "anchor": "A complex number can be understood for our purposes",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "feynman-path-1948"
+      ],
+      "source_locator": "A complex number can be understood for our purposes",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "146500-h03",
+      "anchor": "Quantum mechanics assigns a complex amplitude to each alternative",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "feynman-path-1948"
+      ],
+      "source_locator": "Quantum mechanics assigns a complex amplitude to each alternative",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "146500-h04",
+      "anchor": "It is the length squared of the final arrow",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "feynman-path-1948"
+      ],
+      "source_locator": "It is the length squared of the final arrow",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "146500-h05",
+      "anchor": "when an experiment acquires reliable which-path information",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "feynman-path-1948",
+        "feynman-lectures-caltech"
+      ],
+      "source_locator": "when an experiment acquires reliable which-path information",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "146500-h06",
+      "anchor": "Instead of merely adding contributions from two slits",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "feynman-path-1948"
+      ],
+      "source_locator": "Instead of merely adding contributions from two slits",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "146500-h07",
+      "anchor": "The familiar classical path can often be characterized as one for which small variations",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "feynman-path-1948"
+      ],
+      "source_locator": "The familiar classical path can often be characterized as one for which small variations",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "146500-h08",
+      "anchor": "Feynman's quantum construction, a path contributes an amplitude",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "feynman-path-1948"
+      ],
+      "source_locator": "Feynman's quantum construction, a path contributes an amplitude",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "146500-h09",
+      "anchor": "His 1948 paper laid out this space-time approach",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "feynman-path-1948"
+      ],
+      "source_locator": "His 1948 paper laid out this space-time approach",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "146500-h10",
+      "anchor": "Feynman could use classical intuition as a scaffold",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "feynman-path-1948"
+      ],
+      "source_locator": "Feynman could use classical intuition as a scaffold",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "146500-h11",
+      "anchor": "Quantum physics does not simply add random fuzziness",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "feynman-path-1948"
+      ],
+      "source_locator": "Quantum physics does not simply add random fuzziness",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "146500-h12",
+      "anchor": "Classical electromagnetism already gave Maxwell's equations",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "feynman-qed-1949"
+      ],
+      "source_locator": "Classical electromagnetism already gave Maxwell's equations",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "146500-h13",
+      "anchor": "A successful quantum electrodynamics must predict numbers",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "feynman-qed-1949",
+        "feynman-qed-1950"
+      ],
+      "source_locator": "A successful quantum electrodynamics must predict numbers",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "146500-h14",
+      "anchor": "This systematic procedure is called renormalization",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "feynman-qed-1949",
+        "feynman-dyson"
+      ],
+      "source_locator": "This systematic procedure is called renormalization",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "146500-h15",
+      "anchor": "Feynman's diagrams supplied one of the most effective new languages",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "feynman-qed-1949",
+        "feynman-qed-1950"
+      ],
+      "source_locator": "Feynman's diagrams supplied one of the most effective new languages",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "146500-h16",
+      "anchor": "A frequently repeated phrase says that the diagrams show antiparticles",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "feynman-qed-1949"
+      ],
+      "source_locator": "A frequently repeated phrase says that the diagrams show antiparticles",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "146500-h17",
+      "anchor": "Their momenta can be integrated over possible values",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "feynman-qed-1949",
+        "feynman-qed-1950"
+      ],
+      "source_locator": "Their momenta can be integrated over possible values",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "146500-h18",
+      "anchor": "ordinary quantum electrodynamics, electric charge is conserved",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "feynman-qed-1949"
+      ],
+      "source_locator": "ordinary quantum electrodynamics, electric charge is conserved",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "146500-h19",
+      "anchor": "fine-structure constant, approximately one divided by one hundred and thirty-seven",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "feynman-qed-1950"
+      ],
+      "source_locator": "fine-structure constant, approximately one divided by one hundred and thirty-seven",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "146500-h20",
+      "anchor": "The Lamb shift, observed in hydrogen",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "feynman-dyson",
+        "feynman-nobel-lecture"
+      ],
+      "source_locator": "The Lamb shift, observed in hydrogen",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "146500-h21",
+      "anchor": "At the 1947 Shelter Island meeting",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "feynman-nobel-lecture",
+        "feynman-dyson"
+      ],
+      "source_locator": "At the 1947 Shelter Island meeting",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "146500-h22",
+      "anchor": "Freeman Dyson helped supply that missing bridge",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "feynman-dyson"
+      ],
+      "source_locator": "Freeman Dyson helped supply that missing bridge",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "146500-h23",
+      "anchor": "In a 1949 paper he showed the equivalence",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "feynman-dyson"
+      ],
+      "source_locator": "In a 1949 paper he showed the equivalence",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "146500-h24",
+      "anchor": "In 1965 Feynman, Schwinger, and Tomonaga shared the Nobel Prize",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "feynman-nobel-bio"
+      ],
+      "source_locator": "In 1965 Feynman, Schwinger, and Tomonaga shared the Nobel Prize",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "146500-h25",
+      "anchor": "Schwinger calculated the leading contribution",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "feynman-dyson",
+        "feynman-qed-1950"
+      ],
+      "source_locator": "Schwinger calculated the leading contribution",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "146500-h26",
+      "anchor": "Feynman's own Nobel lecture is striking because he described his wrong turns",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "feynman-nobel-lecture"
+      ],
+      "source_locator": "Feynman's own Nobel lecture is striking because he described his wrong turns",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "146500-h27",
+      "anchor": "At Caltech he worked on liquid helium",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "feynman-helium-1953",
+        "feynman-helium-1954"
+      ],
+      "source_locator": "At Caltech he worked on liquid helium",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "146500-h28",
+      "anchor": "superfluid transition near two point one seven kelvin",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "feynman-helium-1954"
+      ],
+      "source_locator": "superfluid transition near two point one seven kelvin",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "146500-h29",
+      "anchor": "Lev Landau developed a phenomenological theory of elementary excitations",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "feynman-helium-1954"
+      ],
+      "source_locator": "Lev Landau developed a phenomenological theory of elementary excitations",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "146500-h30",
+      "anchor": "Feynman's 1954 calculations and later work with Michael Cohen",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "feynman-helium-1954",
+        "feynman-helium-cohen"
+      ],
+      "source_locator": "Feynman's 1954 calculations and later work with Michael Cohen",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "146500-h31",
+      "anchor": "improvements required better treatment of correlations",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "feynman-helium-cohen"
+      ],
+      "source_locator": "improvements required better treatment of correlations",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "146500-h32",
+      "anchor": "Tsung-Dao Lee and Chen-Ning Yang proposed ways to test this symmetry",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "feynman-weak-wu"
+      ],
+      "source_locator": "Tsung-Dao Lee and Chen-Ning Yang proposed ways to test this symmetry",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "146500-h33",
+      "anchor": "Chien-Shiung Wu and her collaborators made a decisive measurement",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "feynman-weak-wu"
+      ],
+      "source_locator": "Chien-Shiung Wu and her collaborators made a decisive measurement",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "146500-h34",
+      "anchor": "the distribution of emitted electrons relative to the nuclear spin",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "feynman-weak-wu"
+      ],
+      "source_locator": "the distribution of emitted electrons relative to the nuclear spin",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "146500-h35",
+      "anchor": "Feynman worked with Murray Gell-Mann on a formulation",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "feynman-weak-1958"
+      ],
+      "source_locator": "Feynman worked with Murray Gell-Mann on a formulation",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "146500-h36",
+      "anchor": "Their paper appeared in 1958",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "feynman-weak-1958"
+      ],
+      "source_locator": "Their paper appeared in 1958",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "146500-h37",
+      "anchor": "Robert Marshak and E. C. George Sudarshan developed a related universal weak-interaction theory",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "feynman-weak-marshak",
+        "feynman-weak-1958"
+      ],
+      "source_locator": "Robert Marshak and E. C. George Sudarshan developed a related universal weak-interaction theory",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "146500-h38",
+      "anchor": "presented it at a 1957 conference",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "feynman-weak-marshak"
+      ],
+      "source_locator": "presented it at a 1957 conference",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "146500-h39",
+      "anchor": "Murray Gell-Mann and George Zweig proposed the quark model in 1964",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "feynman-partons-aps"
+      ],
+      "source_locator": "Murray Gell-Mann and George Zweig proposed the quark model in 1964",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "146500-h40",
+      "anchor": "At the Stanford Linear Accelerator Center, collaborations led by Jerome Friedman",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "feynman-partons-aps"
+      ],
+      "source_locator": "At the Stanford Linear Accelerator Center, collaborations led by Jerome Friedman",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "146500-h41",
+      "anchor": "James Bjorken had developed important theoretical predictions",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "feynman-partons-aps"
+      ],
+      "source_locator": "James Bjorken had developed important theoretical predictions",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "146500-h42",
+      "anchor": "Feynman's parton model offered a practical way to think",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "feynman-partons-paper",
+        "feynman-partons-aps"
+      ],
+      "source_locator": "Feynman's parton model offered a practical way to think",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "146500-h43",
+      "anchor": "The relationship between partons, quarks, gluons",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "feynman-partons-aps"
+      ],
+      "source_locator": "The relationship between partons, quarks, gluons",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "146500-h44",
+      "anchor": "His famous 1959 talk about making things small",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "feynman-nanotech"
+      ],
+      "source_locator": "His famous 1959 talk about making things small",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "146500-h45",
+      "anchor": "In a paper published in 1982, Simulating Physics with Computers",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "feynman-quantum-1982"
+      ],
+      "source_locator": "In a paper published in 1982, Simulating Physics with Computers",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "146500-h46",
+      "anchor": "Adding one particle can double the number of basis-state amplitudes",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "feynman-quantum-1982"
+      ],
+      "source_locator": "Adding one particle can double the number of basis-state amplitudes",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "146500-h47",
+      "anchor": "Others, including Yuri Manin and Paul Benioff",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "feynman-quantum-1982"
+      ],
+      "source_locator": "Others, including Yuri Manin and Paul Benioff",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "146500-h48",
+      "anchor": "Caltech lectures delivered between 1961 and 1963",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "feynman-lectures-caltech",
+        "feynman-lectures-aps"
+      ],
+      "source_locator": "Caltech lectures delivered between 1961 and 1963",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "146500-h49",
+      "anchor": "Feynman's 1974 Caltech commencement address, published as Cargo Cult Science",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "feynman-cargo"
+      ],
+      "source_locator": "Feynman's 1974 Caltech commencement address, published as Cargo Cult Science",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "146500-h50",
+      "anchor": "In January 1986 the Challenger disaster turned that philosophy",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "feynman-challenger-ch6",
+        "feynman-challenger-app"
+      ],
+      "source_locator": "In January 1986 the Challenger disaster turned that philosophy",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "146500-h51",
+      "anchor": "A statement from his appendix compared deeply different estimates",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "feynman-challenger-app"
+      ],
+      "source_locator": "A statement from his appendix compared deeply different estimates",
+      "audit_status": "source_checked"
+    }
+  ],
+  "chronology": {
+    "life": {
+      "start": 1918,
+      "end": 1988,
+      "basis": "documented_biography",
+      "label": "1918–1988: Richard Feynman",
+      "source_ids": [
+        "feynman-mactutor",
+        "feynman-caltech-findingaid"
+      ]
+    },
+    "work": {
+      "start": 1939,
+      "end": 1982,
+      "basis": "dated_research_and_publications",
+      "label": "Feynman scientific and teaching career",
+      "source_ids": [
+        "feynman-aip-oral",
+        "feynman-caltech-archive-project",
+        "feynman-path-1948"
+      ]
+    },
+    "period": {
+      "start": 1945,
+      "end": 1986,
+      "basis": "dated_events_and_public_records",
+      "label": "War, postwar science, international teaching and shuttle commission",
+      "source_ids": [
+        "feynman-baldwin",
+        "feynman-brazil",
+        "feynman-challenger-ch6"
+      ]
+    }
+  },
+  "spacetime_coverage": {
+    "schema_version": 1,
+    "subject": "Richard Feynman",
+    "description": "Documented life, appointments, scientific conferences and significant visits. Modern coordinates are approximate city or site centroids, not residential addresses; date ranges do not establish continuous residence. Companion 146500 also describes scientific contributions of collaborators without tagging their workplaces as Feynman personal travel.",
+    "places": [
+      {
+        "place": "Far Rockaway, Queens, New York City",
+        "present_day_country": "United States",
+        "historical_polity": "United States of America",
+        "start_year": 1918,
+        "end_year": 1935,
+        "role": "childhood_and_education",
+        "note": "Born 1918 in New York City; grew up in Far Rockaway with family; residency boundary approximate.",
+        "coordinates": {
+          "latitude": 40.6054,
+          "longitude": -73.7551,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "feynman-mactutor",
+          "feynman-anb"
+        ],
+        "approximate": true
+      },
+      {
+        "place": "Cambridge, Massachusetts",
+        "present_day_country": "United States",
+        "historical_polity": "United States of America",
+        "start_year": 1935,
+        "end_year": 1939,
+        "role": "undergraduate_study",
+        "note": "MIT undergraduate physics and mathematics.",
+        "coordinates": {
+          "latitude": 42.3736,
+          "longitude": -71.1097,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "feynman-caltech-archive-project",
+          "feynman-mactutor"
+        ]
+      },
+      {
+        "place": "Princeton, New Jersey",
+        "present_day_country": "United States",
+        "historical_polity": "United States of America",
+        "start_year": 1939,
+        "end_year": 1942,
+        "role": "doctoral_work_and_marriage",
+        "note": "Princeton research with Wheeler; dissertation 1942; marriage to Arline in 1942; not an assertion wedding was held at Princeton.",
+        "coordinates": {
+          "latitude": 40.3573,
+          "longitude": -74.6672,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "feynman-caltech-archive-project",
+          "feynman-anb"
+        ]
+      },
+      {
+        "place": "Los Alamos, New Mexico",
+        "present_day_country": "United States",
+        "historical_polity": "United States of America",
+        "start_year": 1943,
+        "end_year": 1945,
+        "role": "wartime_science_and_family",
+        "note": "Los Alamos theoretical division, Bethe, calculations and nearby visits to Arline; this entry does not establish uninterrupted residence.",
+        "coordinates": {
+          "latitude": 35.88,
+          "longitude": -106.3031,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "feynman-aip-oral",
+          "feynman-baldwin"
+        ]
+      },
+      {
+        "place": "Ithaca, New York",
+        "present_day_country": "United States",
+        "historical_polity": "United States of America",
+        "start_year": 1945,
+        "end_year": 1950,
+        "role": "cornell_theoretical_physics",
+        "note": "Cornell teaching and postwar QED publications; end year approximate.",
+        "coordinates": {
+          "latitude": 42.444,
+          "longitude": -76.5019,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "feynman-aip-oral",
+          "feynman-caltech-archive-project"
+        ],
+        "approximate": true
+      },
+      {
+        "place": "Pasadena, California",
+        "present_day_country": "United States",
+        "historical_polity": "United States of America",
+        "start_year": 1950,
+        "end_year": 1988,
+        "role": "caltech_faculty_and_family",
+        "note": "Caltech scientific career, teaching, research and late life; appointment transition around 1950–52 depending retrospective source.",
+        "coordinates": {
+          "latitude": 34.1478,
+          "longitude": -118.1445,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "feynman-caltech-findingaid",
+          "feynman-mactutor"
+        ],
+        "approximate": true
+      },
+      {
+        "place": "Rio de Janeiro",
+        "present_day_country": "Brazil",
+        "historical_polity": "Republic of the United States of Brazil",
+        "start_year": 1951,
+        "end_year": 1952,
+        "role": "teaching_and_physics",
+        "note": "Teaching at University of Brazil/CBPF and research; sabbatical academic year.",
+        "coordinates": {
+          "latitude": -22.9068,
+          "longitude": -43.1729,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "feynman-brazil"
+        ]
+      },
+      {
+        "place": "Ithaca, New York",
+        "present_day_country": "United States",
+        "historical_polity": "United States of America",
+        "start_year": 1964,
+        "end_year": 1964,
+        "role": "public_lectures_visit",
+        "note": "Cornell Messenger Lectures on physical law; not residence.",
+        "coordinates": {
+          "latitude": 42.444,
+          "longitude": -76.5019,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "feynman-lectures-caltech"
+        ]
+      },
+      {
+        "place": "Stockholm",
+        "present_day_country": "Sweden",
+        "historical_polity": "Kingdom of Sweden",
+        "start_year": 1965,
+        "end_year": 1965,
+        "role": "nobel_ceremony_visit",
+        "note": "Nobel Lecture 11 December 1965; not residence.",
+        "coordinates": {
+          "latitude": 59.3293,
+          "longitude": 18.0686,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "feynman-nobel-lecture"
+        ]
+      },
+      {
+        "place": "Washington, D.C.",
+        "present_day_country": "United States",
+        "historical_polity": "United States of America",
+        "start_year": 1986,
+        "end_year": 1986,
+        "role": "commission_work_visit",
+        "note": "Rogers Commission investigation and hearings; not permanent residence.",
+        "coordinates": {
+          "latitude": 38.9072,
+          "longitude": -77.0369,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "feynman-challenger-app",
+          "feynman-challenger-ch6"
+        ]
+      }
+    ]
+  },
+  "tags": [
+    "Biography",
+    "History of science",
+    "History of physics",
+    "Theoretical physics",
+    "Quantum mechanics",
+    "20th century",
+    "1910s",
+    "1920s",
+    "1930s",
+    "1940s",
+    "1950s",
+    "1960s",
+    "1970s",
+    "1980s",
+    "Year: 1918",
+    "Year: 1927",
+    "Year: 1935",
+    "Year: 1939",
+    "Year: 1942",
+    "Year: 1943",
+    "Year: 1945",
+    "Year: 1947",
+    "Year: 1948",
+    "Year: 1949",
+    "Year: 1950",
+    "Year: 1951",
+    "Year: 1952",
+    "Year: 1953",
+    "Year: 1954",
+    "Year: 1956",
+    "Year: 1958",
+    "Year: 1959",
+    "Year: 1960",
+    "Year: 1961",
+    "Year: 1963",
+    "Year: 1964",
+    "Year: 1965",
+    "Year: 1969",
+    "Year: 1974",
+    "Year: 1982",
+    "Year: 1983",
+    "Year: 1985",
+    "Year: 1986",
+    "Year: 1988",
+    "Region: North America",
+    "Region: Northeastern United States",
+    "Region: Southwestern United States",
+    "Region: Western United States",
+    "Region: South America",
+    "Country: United States",
+    "Country: Brazil",
+    "Country: Sweden",
+    "Historical polity: United States of America",
+    "Historical polity: Republic of the United States of Brazil",
+    "Historical polity: Kingdom of Sweden",
+    "State: New York",
+    "State: New Jersey",
+    "State: Massachusetts",
+    "State: New Mexico",
+    "State: California",
+    "District: District of Columbia",
+    "Place: New York City",
+    "Place: Far Rockaway",
+    "Place: Cambridge",
+    "Place: Princeton",
+    "Place: Los Alamos",
+    "Place: Trinity Site",
+    "Place: Ithaca",
+    "Place: Pasadena",
+    "Place: Rio de Janeiro",
+    "Place: Stockholm",
+    "Place: Washington, D.C.",
+    "Richard Feynman",
+    "Melville Feynman",
+    "Lucille Phillips Feynman",
+    "Joan Feynman",
+    "Arline Greenbaum Feynman",
+    "Mary Louise Bell",
+    "Gweneth Howarth Feynman",
+    "Carl Feynman",
+    "Michelle Feynman",
+    "John Archibald Wheeler",
+    "Hans Bethe",
+    "Paul Dirac",
+    "Julian Schwinger",
+    "Sin-itiro Tomonaga",
+    "Freeman Dyson",
+    "Murray Gell-Mann",
+    "Ralph Leighton",
+    "Robert Leighton",
+    "Matthew Sands",
+    "Jaime Tiomno",
+    "César Lattes",
+    "José Leite Lopes",
+    "Ildeu de Castro Moreira",
+    "Massachusetts Institute of Technology",
+    "Princeton University",
+    "Los Alamos Laboratory",
+    "Cornell University",
+    "California Institute of Technology",
+    "Centro Brasileiro de Pesquisas Físicas",
+    "University of Brazil",
+    "History of scientific institutions",
+    "Scientific collaboration",
+    "Scientific education",
+    "Science communication",
+    "Scientific uncertainty",
+    "Scientific attribution",
+    "History of quantum field theory",
+    "Quantum electrodynamics",
+    "QED",
+    "Feynman diagrams",
+    "Feynman path integral",
+    "Action principle",
+    "Stationary action",
+    "Feynman propagator",
+    "Perturbation theory",
+    "Renormalization",
+    "Radiative corrections",
+    "Lamb shift",
+    "Anomalous magnetic moment",
+    "Fine-structure constant",
+    "Quantum interference",
+    "Which-path information",
+    "Wave function",
+    "Quantum amplitudes",
+    "Probability amplitudes",
+    "Quantum measurement",
+    "Superfluidity",
+    "Liquid helium-4",
+    "Phonons",
+    "Rotons",
+    "Bose statistics",
+    "Weak interaction",
+    "Parity violation",
+    "V-A theory",
+    "Chien-Shiung Wu",
+    "Tsung-Dao Lee",
+    "Chen-Ning Yang",
+    "Robert Marshak",
+    "E. C. George Sudarshan",
+    "Quark model",
+    "George Zweig",
+    "James Bjorken",
+    "Partons",
+    "Deep inelastic scattering",
+    "Stanford Linear Accelerator Center",
+    "Quantum chromodynamics",
+    "Quantum computing",
+    "Quantum simulation",
+    "Quantum information",
+    "Nanotechnology",
+    "There’s Plenty of Room at the Bottom",
+    "Cargo Cult Science",
+    "Challenger disaster",
+    "Science education"
+  ]
+}

@@ -1,0 +1,1153 @@
+{
+  "schema_version": 1,
+  "lecture_id": "146000",
+  "transcript": "146000-feynman-life.md",
+  "related_resources": [
+    {
+      "source_id": "feynman-mactutor",
+      "reason": "Biographical chronology, family, Far Rockaway and MIT/Princeton/Caltech; historical synthesis, including recollections attributed to later memoirs."
+    },
+    {
+      "source_id": "feynman-anb",
+      "reason": "1918 birth, education, 1942 doctorate and marriage, wartime career and QED; available abstract, not full subscription-only biography."
+    },
+    {
+      "source_id": "feynman-caltech-findingaid",
+      "reason": "Collection scope, correspondence, teaching and institutional posts; not a claim individual letters were inspected."
+    },
+    {
+      "source_id": "feynman-caltech-archive-project",
+      "reason": "Caltech career summary; degrees, Cornell, basic discoveries, family archive donation."
+    },
+    {
+      "source_id": "feynman-aip-oral",
+      "reason": "Catalog description covering upbringing, training, Wheeler, nuclear project, QED, helium, weak forces and education; retrospective interviews."
+    },
+    {
+      "source_id": "feynman-nobel-lecture",
+      "reason": "Firsthand intellectual recollections and explicit admission of false starts; individual retrospective account, not complete independent chronology."
+    },
+    {
+      "source_id": "feynman-nobel-bio",
+      "reason": "Prize co-recipients and official subject of award; note prize does not list all contributors."
+    },
+    {
+      "source_id": "feynman-joan-jpl",
+      "reason": "Joan Feynman recalls childhood curiosity, brother, father, scientific work; retrospective first-person recollection."
+    },
+    {
+      "source_id": "feynman-joan-aps",
+      "reason": "Joan Feynman scientific achievements, childhood, family encouragement, career and education."
+    },
+    {
+      "source_id": "feynman-baldwin",
+      "reason": "Research-based assessment of public persona, Los Alamos jokes, collaborators, gender and critical responses; some quoted views are retrospective and attributed."
+    },
+    {
+      "source_id": "feynman-arline-catalog",
+      "reason": "Catalog description of 40 surviving letters and final weeks; not independent inspection of all autograph letters."
+    },
+    {
+      "source_id": "feynman-letters-review",
+      "reason": "Review summary of Arline correspondence and later unsent letter; indexed PDF excerpt, not claim full letters were inspected."
+    },
+    {
+      "source_id": "feynman-brazil",
+      "reason": "Brazilian historical research for 1949 visit, 1951–52 stay, Tiomno, Leite Lopes, teaching, 1952 and 1963 talks; Brazilian contemporaries had their own scientific institutions."
+    },
+    {
+      "source_id": "feynman-lectures-caltech",
+      "reason": "Primary edition crediting Feynman, Leighton and Sands, 1961–64 recordings, 1964 Cornell Messenger Lectures and edition copyright limits."
+    },
+    {
+      "source_id": "feynman-lectures-aps",
+      "reason": "Course curriculum and collaborators, wider Sputnik-era teaching reform, course dates and reception."
+    },
+    {
+      "source_id": "feynman-centennial",
+      "reason": "Family recollections from Joan and Michelle, colleague descriptions of informal Physics X discussions."
+    },
+    {
+      "source_id": "feynman-cargo",
+      "reason": "Feynman’s own public standard of reporting negative evidence and acknowledging uncertainties; cultural framing is historically specific."
+    },
+    {
+      "source_id": "feynman-nanotech",
+      "reason": "1959 conceptual miniaturization proposals; not documentary evidence that all nanotechnology began with the talk."
+    },
+    {
+      "source_id": "feynman-bbc",
+      "reason": "Public communication of atoms and physical intuition; listed episode dates."
+    },
+    {
+      "source_id": "feynman-challenger-app",
+      "reason": "Risk estimates, reliability practice and management-engineering disconnect; primary authored appendix."
+    },
+    {
+      "source_id": "feynman-challenger-ch6",
+      "reason": "Solid rocket booster design, O-ring erosion, management warnings and accident causes; multi-investigator findings."
+    },
+    {
+      "source_id": "feynman-challenger-nasa",
+      "reason": "Commission record, chronology and hearings; not a claim each hearing transcript was separately read."
+    },
+    {
+      "source_id": "feynman-wheeler",
+      "reason": "Historical absorber theory, its problem setting and collaborators; not modern standard theory by itself."
+    },
+    {
+      "source_id": "feynman-path-1948",
+      "reason": "Path-integral formulation, amplitudes, action and Schrödinger equivalence; not claim that all interacting QFT path integrals are rigorous."
+    },
+    {
+      "source_id": "feynman-qed-1949",
+      "reason": "Diagrammatic rules and early renormalization program in QED; nonphysical internal lines not direct observed tracks."
+    },
+    {
+      "source_id": "feynman-qed-1950",
+      "reason": "Further mathematical validation of diagrammatic approach and all-order structure."
+    },
+    {
+      "source_id": "feynman-dyson",
+      "reason": "Equivalence and translation of QED approaches, including independent central contributions."
+    },
+    {
+      "source_id": "feynman-helium-1953",
+      "reason": "Early qualitative Bose liquid arguments and explicit limitations."
+    },
+    {
+      "source_id": "feynman-helium-1954",
+      "reason": "Phonon/roton spectrum and numerical mismatch explicitly noted in paper."
+    },
+    {
+      "source_id": "feynman-helium-cohen",
+      "reason": "Collaboration, revised roton calculations and treatment of correlations."
+    },
+    {
+      "source_id": "feynman-weak-1958",
+      "reason": "Vector-minus-axial weak interaction theory, collaborative and subject to prior/parallel work."
+    },
+    {
+      "source_id": "feynman-weak-marshak",
+      "reason": "Published 1958 paper documenting independent vector-axial weak interaction analysis; prior 1957 conference presentation described by authors and later historical scholarship."
+    },
+    {
+      "source_id": "feynman-weak-wu",
+      "reason": "Cobalt-60 parity experiment with coauthors, not exclusively Wu alone."
+    },
+    {
+      "source_id": "feynman-partons-aps",
+      "reason": "Gell-Mann/Zweig proposals, SLAC experiment teams, Bjorken scaling and Feynman parton model; multiple discovery lines."
+    },
+    {
+      "source_id": "feynman-partons-paper",
+      "reason": "Feynman’s parton picture at high energy, not sole origin of quarks or scattering evidence."
+    },
+    {
+      "source_id": "feynman-quantum-1982",
+      "reason": "Quantum simulation motivation and state-space scaling; no claim Feynman alone invented subsequent quantum computing or hardware."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "146000-h01",
+      "anchor": "On January 28, 1986, the space shuttle Challenger broke apart shortly after launch",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "feynman-challenger-ch6"
+      ],
+      "source_locator": "On January 28, 1986, the space shuttle Challenger broke apart shortly after launch",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "146000-h02",
+      "anchor": "Seven people died",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "feynman-challenger-ch6"
+      ],
+      "source_locator": "Seven people died",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "146000-h03",
+      "anchor": "During a televised hearing, Feynman pressed a sample of the rubber",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "feynman-challenger-app",
+        "feynman-challenger-ch6"
+      ],
+      "source_locator": "During a televised hearing, Feynman pressed a sample of the rubber",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "146000-h04",
+      "anchor": "Engineers at Morton Thiokol had warned about the seals",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "feynman-challenger-ch6"
+      ],
+      "source_locator": "Engineers at Morton Thiokol had warned about the seals",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "146000-h05",
+      "anchor": "Richard Phillips Feynman was born in 1918 in New York City",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "feynman-mactutor",
+        "feynman-caltech-archive-project"
+      ],
+      "source_locator": "Richard Phillips Feynman was born in 1918 in New York City",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "146000-h06",
+      "anchor": "His parents, Melville and Lucille",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "feynman-mactutor"
+      ],
+      "source_locator": "His parents, Melville and Lucille",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "146000-h07",
+      "anchor": "His mother Lucille contributed a different form of intelligence",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "feynman-mactutor"
+      ],
+      "source_locator": "His mother Lucille contributed a different form of intelligence",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "146000-h08",
+      "anchor": "Richard's sister Joan was born nine years after him",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "feynman-mactutor",
+        "feynman-joan-aps"
+      ],
+      "source_locator": "Richard's sister Joan was born nine years after him",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "146000-h09",
+      "anchor": "she became an astrophysicist whose work helped explain the physics of the aurora",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "feynman-joan-aps",
+        "feynman-joan-jpl"
+      ],
+      "source_locator": "she became an astrophysicist whose work helped explain the physics of the aurora",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "146000-h10",
+      "anchor": "Richard built electrical circuits in his bedroom",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "feynman-mactutor"
+      ],
+      "source_locator": "Richard built electrical circuits in his bedroom",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "146000-h11",
+      "anchor": "At Far Rockaway High School he excelled in mathematics",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "feynman-mactutor"
+      ],
+      "source_locator": "At Far Rockaway High School he excelled in mathematics",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "146000-h12",
+      "anchor": "He entered the Massachusetts Institute of Technology in 1935 and graduated in 1939",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "feynman-mactutor",
+        "feynman-caltech-archive-project"
+      ],
+      "source_locator": "He entered the Massachusetts Institute of Technology in 1935 and graduated in 1939",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "146000-h13",
+      "anchor": "At Princeton he studied under John Archibald Wheeler",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "feynman-aip-oral",
+        "feynman-caltech-archive-project"
+      ],
+      "source_locator": "At Princeton he studied under John Archibald Wheeler",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "146000-h14",
+      "anchor": "With Feynman he worked on an absorber theory",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "feynman-wheeler",
+        "feynman-nobel-lecture"
+      ],
+      "source_locator": "With Feynman he worked on an absorber theory",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "146000-h15",
+      "anchor": "Their proposal did not become the modern standard account",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "feynman-wheeler",
+        "feynman-nobel-lecture"
+      ],
+      "source_locator": "Their proposal did not become the modern standard account",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "146000-h16",
+      "anchor": "Arline Greenbaum, whom he had known since youth and loved",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "feynman-anb",
+        "feynman-arline-catalog"
+      ],
+      "source_locator": "Arline Greenbaum, whom he had known since youth and loved",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "146000-h17",
+      "anchor": "They married in 1942",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "feynman-anb",
+        "feynman-mactutor"
+      ],
+      "source_locator": "They married in 1942",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "146000-h18",
+      "anchor": "Feynman's doctorate was completed that year",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "feynman-caltech-archive-project"
+      ],
+      "source_locator": "Feynman's doctorate was completed that year",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "146000-h19",
+      "anchor": "Feynman joined the wartime atomic effort",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "feynman-aip-oral",
+        "feynman-baldwin"
+      ],
+      "source_locator": "Feynman joined the wartime atomic effort",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "146000-h20",
+      "anchor": "worked at Los Alamos under Hans Bethe",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "feynman-aip-oral",
+        "feynman-baldwin"
+      ],
+      "source_locator": "worked at Los Alamos under Hans Bethe",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "146000-h21",
+      "anchor": "Feynman helped organize some of this work",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "feynman-baldwin",
+        "feynman-aip-oral"
+      ],
+      "source_locator": "Feynman helped organize some of this work",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "146000-h22",
+      "anchor": "Arline was being treated at a sanatorium in New Mexico",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "feynman-arline-catalog",
+        "feynman-letters-review"
+      ],
+      "source_locator": "Arline was being treated at a sanatorium in New Mexico",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "146000-h23",
+      "anchor": "Richard wrote to her frequently",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "feynman-arline-catalog"
+      ],
+      "source_locator": "Richard wrote to her frequently",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "146000-h24",
+      "anchor": "Arline died on June 16, 1945",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "feynman-arline-catalog",
+        "feynman-letters-review"
+      ],
+      "source_locator": "Arline died on June 16, 1945",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "146000-h25",
+      "anchor": "One famous later letter, written after her death and never sent",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "feynman-letters-review"
+      ],
+      "source_locator": "One famous later letter, written after her death and never sent",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "146000-h26",
+      "anchor": "Feynman became famous for figuring out the weaknesses in supposedly secure cabinets",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "feynman-baldwin"
+      ],
+      "source_locator": "Feynman became famous for figuring out the weaknesses in supposedly secure cabinets",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "146000-h27",
+      "anchor": "On July 16, 1945, a nuclear device was detonated at the Trinity test site",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "feynman-aip-oral",
+        "feynman-mactutor"
+      ],
+      "source_locator": "On July 16, 1945, a nuclear device was detonated at the Trinity test site",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "146000-h28",
+      "anchor": "After the war he went to Cornell University",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "feynman-caltech-archive-project",
+        "feynman-aip-oral"
+      ],
+      "source_locator": "After the war he went to Cornell University",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "146000-h29",
+      "anchor": "Hans Bethe, who had valued his work at Los Alamos",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "feynman-caltech-archive-project",
+        "feynman-baldwin"
+      ],
+      "source_locator": "Hans Bethe, who had valued his work at Los Alamos",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "146000-h30",
+      "anchor": "a space-time approach to quantum mechanics, published in 1948",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "feynman-path-1948"
+      ],
+      "source_locator": "a space-time approach to quantum mechanics, published in 1948",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "146000-h31",
+      "anchor": "Sin-itiro Tomonaga in Japan and Julian Schwinger in the United States",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "feynman-dyson",
+        "feynman-nobel-bio"
+      ],
+      "source_locator": "Sin-itiro Tomonaga in Japan and Julian Schwinger in the United States",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "146000-h32",
+      "anchor": "Freeman Dyson recognized important equivalences",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "feynman-dyson"
+      ],
+      "source_locator": "Freeman Dyson recognized important equivalences",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "146000-h33",
+      "anchor": "In 1950 Feynman moved to the California Institute of Technology",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "feynman-mactutor",
+        "feynman-caltech-archive-project"
+      ],
+      "source_locator": "In 1950 Feynman moved to the California Institute of Technology",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "146000-h34",
+      "anchor": "In 1949 Feynman visited Brazil at the invitation of physicist Jaime Tiomno",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "feynman-brazil"
+      ],
+      "source_locator": "In 1949 Feynman visited Brazil at the invitation of physicist Jaime Tiomno",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "146000-h35",
+      "anchor": "The Brazilian Center for Research in Physics",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "feynman-brazil"
+      ],
+      "source_locator": "The Brazilian Center for Research in Physics",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "146000-h36",
+      "anchor": "During an extended stay in 1951 and 1952",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "feynman-brazil"
+      ],
+      "source_locator": "During an extended stay in 1951 and 1952",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "146000-h37",
+      "anchor": "Historian Ildeu de Castro Moreira has reconstructed Feynman's 1952 and 1963 talks",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "feynman-brazil"
+      ],
+      "source_locator": "Historian Ildeu de Castro Moreira has reconstructed Feynman's 1952 and 1963 talks",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "146000-h38",
+      "anchor": "Feynman returned to Brazil later, including a 1963 conference",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "feynman-brazil"
+      ],
+      "source_locator": "Feynman returned to Brazil later, including a 1963 conference",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "146000-h39",
+      "anchor": "His brief second marriage to Mary Louise Bell ended in divorce",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "feynman-baldwin",
+        "feynman-mactutor"
+      ],
+      "source_locator": "His brief second marriage to Mary Louise Bell ended in divorce",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "146000-h40",
+      "anchor": "Later he married Gweneth Howarth",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "feynman-mactutor",
+        "feynman-caltech-findingaid"
+      ],
+      "source_locator": "Later he married Gweneth Howarth",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "146000-h41",
+      "anchor": "Gweneth helped organize and preserve parts of his legacy",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "feynman-caltech-findingaid"
+      ],
+      "source_locator": "Gweneth helped organize and preserve parts of his legacy",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "146000-h42",
+      "anchor": "Physicist Murray Gell-Mann, who worked with him",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "feynman-baldwin"
+      ],
+      "source_locator": "Physicist Murray Gell-Mann, who worked with him",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "146000-h43",
+      "anchor": "Historian Melinda Baldwin has examined both the appeal",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "feynman-baldwin"
+      ],
+      "source_locator": "Historian Melinda Baldwin has examined both the appeal",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "146000-h44",
+      "anchor": "some of his later anecdotes are uncomfortable to read",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "feynman-baldwin"
+      ],
+      "source_locator": "some of his later anecdotes are uncomfortable to read",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "146000-h45",
+      "anchor": "In the early 1960s, Caltech attempted to rethink its introductory physics curriculum",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "feynman-lectures-caltech",
+        "feynman-lectures-aps"
+      ],
+      "source_locator": "In the early 1960s, Caltech attempted to rethink its introductory physics curriculum",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "146000-h46",
+      "anchor": "Feynman gave an ambitious series of lectures in 1961 through 1963",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "feynman-lectures-caltech"
+      ],
+      "source_locator": "Feynman gave an ambitious series of lectures in 1961 through 1963",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "146000-h47",
+      "anchor": "Robert Leighton and Matthew Sands were not mere typists",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "feynman-lectures-caltech",
+        "feynman-lectures-aps"
+      ],
+      "source_locator": "Robert Leighton and Matthew Sands were not mere typists",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "146000-h48",
+      "anchor": "The Soviet launch of Sputnik in 1957",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "feynman-lectures-aps"
+      ],
+      "source_locator": "The Soviet launch of Sputnik in 1957",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "146000-h49",
+      "anchor": "informal settings, where the atmosphere was less like a public performance",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "feynman-centennial"
+      ],
+      "source_locator": "informal settings, where the atmosphere was less like a public performance",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "146000-h50",
+      "anchor": "a series of Messenger Lectures at Cornell in 1964",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "feynman-lectures-caltech"
+      ],
+      "source_locator": "a series of Messenger Lectures at Cornell in 1964",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "146000-h51",
+      "anchor": "The Nobel Prize in Physics in 1965 was shared by Feynman, Schwinger, and Tomonaga",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "feynman-nobel-bio",
+        "feynman-nobel-lecture"
+      ],
+      "source_locator": "The Nobel Prize in Physics in 1965 was shared by Feynman, Schwinger, and Tomonaga",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "146000-h52",
+      "anchor": "One celebrated 1959 talk, later called There's Plenty of Room at the Bottom",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "feynman-nanotech"
+      ],
+      "source_locator": "One celebrated 1959 talk, later called There's Plenty of Room at the Bottom",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "146000-h53",
+      "anchor": "including Surely You're Joking, Mr. Feynman!, published in 1985",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "feynman-baldwin"
+      ],
+      "source_locator": "including Surely You're Joking, Mr. Feynman!, published in 1985",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "146000-h54",
+      "anchor": "In his appendix to the commission's report, he contrasted working engineers'",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "feynman-challenger-app"
+      ],
+      "source_locator": "In his appendix to the commission's report, he contrasted working engineers'",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "146000-h55",
+      "anchor": "The commission recorded how repeated warnings and evidence of erosion",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "feynman-challenger-ch6"
+      ],
+      "source_locator": "The commission recorded how repeated warnings and evidence of erosion",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "146000-h56",
+      "anchor": "In a 1974 Caltech commencement address, later published as Cargo Cult Science",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "feynman-cargo"
+      ],
+      "source_locator": "In a 1974 Caltech commencement address, later published as Cargo Cult Science",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "146000-h57",
+      "anchor": "Feynman died in Los Angeles on February 15, 1988",
+      "kind": "historical_biography_attribution_or_context",
+      "source_ids": [
+        "feynman-mactutor",
+        "feynman-caltech-archive-project"
+      ],
+      "source_locator": "Feynman died in Los Angeles on February 15, 1988",
+      "audit_status": "source_checked"
+    }
+  ],
+  "chronology": {
+    "life": {
+      "start": 1918,
+      "end": 1988,
+      "basis": "documented_biography",
+      "label": "1918–1988: Richard Feynman",
+      "source_ids": [
+        "feynman-mactutor",
+        "feynman-caltech-findingaid"
+      ]
+    },
+    "work": {
+      "start": 1939,
+      "end": 1986,
+      "basis": "dated_research_and_publications",
+      "label": "Feynman scientific and teaching career",
+      "source_ids": [
+        "feynman-aip-oral",
+        "feynman-caltech-archive-project",
+        "feynman-path-1948"
+      ]
+    },
+    "period": {
+      "start": 1943,
+      "end": 1986,
+      "basis": "dated_events_and_public_records",
+      "label": "War, postwar science, international teaching and shuttle commission",
+      "source_ids": [
+        "feynman-baldwin",
+        "feynman-brazil",
+        "feynman-challenger-ch6"
+      ]
+    }
+  },
+  "spacetime_coverage": {
+    "schema_version": 1,
+    "subject": "Richard Feynman",
+    "description": "Documented life, appointments, scientific conferences and significant visits. Modern coordinates are approximate city or site centroids, not residential addresses; date ranges do not establish continuous residence. Companion 146500 also describes scientific contributions of collaborators without tagging their workplaces as Feynman personal travel.",
+    "places": [
+      {
+        "place": "Far Rockaway, Queens, New York City",
+        "present_day_country": "United States",
+        "historical_polity": "United States of America",
+        "start_year": 1918,
+        "end_year": 1935,
+        "role": "childhood_and_education",
+        "note": "Born 1918 in New York City; grew up in Far Rockaway with family; residency boundary approximate.",
+        "coordinates": {
+          "latitude": 40.6054,
+          "longitude": -73.7551,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "feynman-mactutor",
+          "feynman-anb"
+        ],
+        "approximate": true
+      },
+      {
+        "place": "Cambridge, Massachusetts",
+        "present_day_country": "United States",
+        "historical_polity": "United States of America",
+        "start_year": 1935,
+        "end_year": 1939,
+        "role": "undergraduate_study",
+        "note": "MIT undergraduate physics and mathematics.",
+        "coordinates": {
+          "latitude": 42.3736,
+          "longitude": -71.1097,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "feynman-caltech-archive-project",
+          "feynman-mactutor"
+        ]
+      },
+      {
+        "place": "Princeton, New Jersey",
+        "present_day_country": "United States",
+        "historical_polity": "United States of America",
+        "start_year": 1939,
+        "end_year": 1942,
+        "role": "doctoral_work_and_marriage",
+        "note": "Princeton research with Wheeler; dissertation 1942; marriage to Arline in 1942; not an assertion wedding was held at Princeton.",
+        "coordinates": {
+          "latitude": 40.3573,
+          "longitude": -74.6672,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "feynman-caltech-archive-project",
+          "feynman-anb"
+        ]
+      },
+      {
+        "place": "Los Alamos, New Mexico",
+        "present_day_country": "United States",
+        "historical_polity": "United States of America",
+        "start_year": 1943,
+        "end_year": 1945,
+        "role": "wartime_science_and_family",
+        "note": "Los Alamos theoretical division, Bethe, calculations and nearby visits to Arline; this entry does not establish uninterrupted residence.",
+        "coordinates": {
+          "latitude": 35.88,
+          "longitude": -106.3031,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "feynman-aip-oral",
+          "feynman-baldwin"
+        ]
+      },
+      {
+        "place": "Trinity Site, New Mexico",
+        "present_day_country": "United States",
+        "historical_polity": "United States of America",
+        "start_year": 1945,
+        "end_year": 1945,
+        "role": "wartime_test_visit",
+        "note": "Observer at Trinity test, July 16, 1945; not residence.",
+        "coordinates": {
+          "latitude": 33.6773,
+          "longitude": -106.4754,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "feynman-aip-oral",
+          "feynman-mactutor"
+        ]
+      },
+      {
+        "place": "Ithaca, New York",
+        "present_day_country": "United States",
+        "historical_polity": "United States of America",
+        "start_year": 1945,
+        "end_year": 1950,
+        "role": "cornell_theoretical_physics",
+        "note": "Cornell teaching and postwar QED publications; end year approximate.",
+        "coordinates": {
+          "latitude": 42.444,
+          "longitude": -76.5019,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "feynman-aip-oral",
+          "feynman-caltech-archive-project"
+        ],
+        "approximate": true
+      },
+      {
+        "place": "Rio de Janeiro",
+        "present_day_country": "Brazil",
+        "historical_polity": "Republic of the United States of Brazil",
+        "start_year": 1949,
+        "end_year": 1949,
+        "role": "scientific_visit",
+        "note": "First visit to CBPF and local research community, including Tiomno.",
+        "coordinates": {
+          "latitude": -22.9068,
+          "longitude": -43.1729,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "feynman-brazil"
+        ]
+      },
+      {
+        "place": "Pasadena, California",
+        "present_day_country": "United States",
+        "historical_polity": "United States of America",
+        "start_year": 1950,
+        "end_year": 1988,
+        "role": "caltech_faculty_and_family",
+        "note": "Caltech scientific career, teaching, research and late life; appointment transition around 1950–52 depending retrospective source.",
+        "coordinates": {
+          "latitude": 34.1478,
+          "longitude": -118.1445,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "feynman-caltech-findingaid",
+          "feynman-mactutor"
+        ],
+        "approximate": true
+      },
+      {
+        "place": "Rio de Janeiro",
+        "present_day_country": "Brazil",
+        "historical_polity": "Republic of the United States of Brazil",
+        "start_year": 1951,
+        "end_year": 1952,
+        "role": "teaching_and_physics",
+        "note": "Teaching at University of Brazil/CBPF and research; sabbatical academic year.",
+        "coordinates": {
+          "latitude": -22.9068,
+          "longitude": -43.1729,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "feynman-brazil"
+        ]
+      },
+      {
+        "place": "Rio de Janeiro",
+        "present_day_country": "Brazil",
+        "historical_polity": "Republic of the United States of Brazil",
+        "start_year": 1963,
+        "end_year": 1963,
+        "role": "international_physics_education",
+        "note": "Education conference and speaking; not residence.",
+        "coordinates": {
+          "latitude": -22.9068,
+          "longitude": -43.1729,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "feynman-brazil"
+        ]
+      },
+      {
+        "place": "Ithaca, New York",
+        "present_day_country": "United States",
+        "historical_polity": "United States of America",
+        "start_year": 1964,
+        "end_year": 1964,
+        "role": "public_lectures_visit",
+        "note": "Cornell Messenger Lectures on physical law; not residence.",
+        "coordinates": {
+          "latitude": 42.444,
+          "longitude": -76.5019,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "feynman-lectures-caltech"
+        ]
+      },
+      {
+        "place": "Stockholm",
+        "present_day_country": "Sweden",
+        "historical_polity": "Kingdom of Sweden",
+        "start_year": 1965,
+        "end_year": 1965,
+        "role": "nobel_ceremony_visit",
+        "note": "Nobel Lecture 11 December 1965; not residence.",
+        "coordinates": {
+          "latitude": 59.3293,
+          "longitude": 18.0686,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "feynman-nobel-lecture"
+        ]
+      },
+      {
+        "place": "Washington, D.C.",
+        "present_day_country": "United States",
+        "historical_polity": "United States of America",
+        "start_year": 1986,
+        "end_year": 1986,
+        "role": "commission_work_visit",
+        "note": "Rogers Commission investigation and hearings; not permanent residence.",
+        "coordinates": {
+          "latitude": 38.9072,
+          "longitude": -77.0369,
+          "precision": "approximate_city_or_region_centroid"
+        },
+        "source_ids": [
+          "feynman-challenger-app",
+          "feynman-challenger-ch6"
+        ]
+      }
+    ]
+  },
+  "tags": [
+    "Biography",
+    "History of science",
+    "History of physics",
+    "Theoretical physics",
+    "Quantum mechanics",
+    "20th century",
+    "1910s",
+    "1920s",
+    "1930s",
+    "1940s",
+    "1950s",
+    "1960s",
+    "1970s",
+    "1980s",
+    "Year: 1918",
+    "Year: 1927",
+    "Year: 1935",
+    "Year: 1939",
+    "Year: 1942",
+    "Year: 1943",
+    "Year: 1945",
+    "Year: 1947",
+    "Year: 1948",
+    "Year: 1949",
+    "Year: 1950",
+    "Year: 1951",
+    "Year: 1952",
+    "Year: 1953",
+    "Year: 1954",
+    "Year: 1956",
+    "Year: 1958",
+    "Year: 1959",
+    "Year: 1960",
+    "Year: 1961",
+    "Year: 1963",
+    "Year: 1964",
+    "Year: 1965",
+    "Year: 1969",
+    "Year: 1974",
+    "Year: 1982",
+    "Year: 1983",
+    "Year: 1985",
+    "Year: 1986",
+    "Year: 1988",
+    "Region: North America",
+    "Region: Northeastern United States",
+    "Region: Southwestern United States",
+    "Region: Western United States",
+    "Region: South America",
+    "Country: United States",
+    "Country: Brazil",
+    "Country: Sweden",
+    "Historical polity: United States of America",
+    "Historical polity: Republic of the United States of Brazil",
+    "Historical polity: Kingdom of Sweden",
+    "State: New York",
+    "State: New Jersey",
+    "State: Massachusetts",
+    "State: New Mexico",
+    "State: California",
+    "District: District of Columbia",
+    "Place: New York City",
+    "Place: Far Rockaway",
+    "Place: Cambridge",
+    "Place: Princeton",
+    "Place: Los Alamos",
+    "Place: Trinity Site",
+    "Place: Ithaca",
+    "Place: Pasadena",
+    "Place: Rio de Janeiro",
+    "Place: Stockholm",
+    "Place: Washington, D.C.",
+    "Richard Feynman",
+    "Melville Feynman",
+    "Lucille Phillips Feynman",
+    "Joan Feynman",
+    "Arline Greenbaum Feynman",
+    "Mary Louise Bell",
+    "Gweneth Howarth Feynman",
+    "Carl Feynman",
+    "Michelle Feynman",
+    "John Archibald Wheeler",
+    "Hans Bethe",
+    "Paul Dirac",
+    "Julian Schwinger",
+    "Sin-itiro Tomonaga",
+    "Freeman Dyson",
+    "Murray Gell-Mann",
+    "Ralph Leighton",
+    "Robert Leighton",
+    "Matthew Sands",
+    "Jaime Tiomno",
+    "César Lattes",
+    "José Leite Lopes",
+    "Ildeu de Castro Moreira",
+    "Massachusetts Institute of Technology",
+    "Princeton University",
+    "Los Alamos Laboratory",
+    "Cornell University",
+    "California Institute of Technology",
+    "Centro Brasileiro de Pesquisas Físicas",
+    "University of Brazil",
+    "History of scientific institutions",
+    "Scientific collaboration",
+    "Scientific education",
+    "Science communication",
+    "Scientific uncertainty",
+    "Scientific attribution",
+    "History of scientific biography",
+    "History of nuclear weapons",
+    "Manhattan Project",
+    "Los Alamos computing",
+    "History of quantum electrodynamics",
+    "Personal correspondence",
+    "World War II",
+    "Challenger disaster",
+    "Rogers Commission",
+    "Engineering reliability",
+    "Science and government",
+    "Scientific integrity",
+    "International physics education",
+    "History of Brazilian physics",
+    "Brazilian carnival",
+    "Science and society",
+    "Practical jokes",
+    "Science memoirs",
+    "Public science persona",
+    "Women in science",
+    "Ethics of science"
+  ]
+}
