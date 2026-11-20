@@ -1,23 +1,18 @@
-# After the Wonder — finite editorial plan
+# After the Wonder — completed finite editorial plan
 
-**Scope:** Six holistic, independently listenable critical essays about the original 1980 *Cosmos: A Personal Voyage*. The purpose is not to follow each episode in sequence. This plan is intentionally finite; additional specials are optional, not implied by the number of original television episodes.
+**The original six-essay plan is complete.** All IDs `001000`–`006000` refer to full published manuscripts, indexed in `track.json` and both listening routes in `navigation.json`. No planned manuscript remains unstarted or unindexed.
 
-## Published manuscripts (two batches)
+## Published scope
 
-- **`001000` — The Universe as an Invitation: Why Cosmos Still Works.** What the original film language and Sagan's manner achieve, the limitations of its heroic science history, and why the series deserves criticism without dismissing its ambition.
-- **`002000` — The Universe Kept Changing: What Science Did to Cosmos.** Dated revisions in planetary exploration, cosmology, life detection, exoplanets and climate, with a distinction between improved measurements and deeper unresolved questions.
-- **`003000` — Alexandria, Kepler, and the Myth of the Lone Genius.** A substantive historical critique of Alexandria and Hypatia, Kepler and Tycho, the practical networks of scientific work and dramatic reconstructions.
-- **`004000` — The Face and Sound of Cosmos.** A substantive film-craft essay on Sagan’s delivery, collective authorship, production difficulties, music, visual effects and cinematic authority.
-
-## Remaining essays (planned; not yet indexed)
-
-| ID | Working title | Independent argument |
+| IDs | Editorial purpose | Status |
 | --- | --- | --- |
-| `005000` | **Who Speaks for Earth? A Science Documentary at the Nuclear Brink** | The Cold War, nuclear-war risk, environmental stewardship, skepticism and solidarity; examine the value and the limits of the "one planet" moral argument, including differential responsibility and institutional power. |
-| `006000` | **What Cosmos Changed, and What It Could Not** | Impact, reception and later Cosmos incarnations, the incentives of science media, public trust, scientific labor, participation and missed opportunities; a concluding critical assessment rather than a second series recap. |
+| `001000`–`002000` | Why the original still works, and what scientific discoveries changed after 1980 | Complete |
+| `003000`–`004000` | A critical history of the history-of-science stories; the image, sound and collaborative film craft | Complete |
+| `005000` | The Cold War, nuclear danger, environment, planetary solidarity and unequal responsibility | Complete |
+| `006000` | Reception and legacy, later *Cosmos* incarnations, what remains unproven, and opportunities for better science communication | Complete; concluding lecture |
 
-## Editorial decisions
+## Editorial boundaries retained
 
-The first four essays cover an orientation, a scientific update, history of inquiry and visual craft. The remaining two must **deepen political and legacy questions rather than recycle prior critiques**. Long lectures are acceptable when the argument warrants them. Avoid episodes-as-chapters, content-free nostalgia, worshipful biography, automatic debunking of every old claim, and simplistic "scientists versus religion" storytelling. Use positive examples from the original and clear evidence for historical corrections. Do not turn a story that communicates a true scientific principle into an established historical event merely because it is memorable.
+The track does not retell all thirteen episodes, assume that compelling reconstructions are accurate history, confuse original broadcasts with later *Cosmos Update* material, or treat personal memories as quantitative evidence of educational impact. The series argues for the value of the original while examining its historical, scientific, representational and cinematic limitations. Text-only manuscripts include separate source notes and claim metadata.
 
-**No other open requirements.** Closing with `006000` should complete the planned track unless a compelling editorial gap remains.
+The finite track is closed. Possible future one-off essays or different documentary retrospectives are optional new projects, not tasks left open in this one.
