@@ -167,3 +167,14 @@ learning_map:
 # Identifies already-checked exact source theorems and explicitly proposes,
 # rather than claims, a functional and resource proof for optimized f64 Rust.
 # Only authored lecture content/metadata is added; no code or proof changed.
+
+# End-to-end Python/NetworkX verification boundary (2026-11-20):
+# GPT-6 original spoken lecture 028000, based on the user's 2026-11-19 NX snapshot.
+# Sources: networkx_algo_common_subtree/{unordered,tree_isomorphism,
+# balanced_isomorphism,balanced_isomorphism_lean}.py; rust/src/{graph_bindings,
+# lib}.rs; rust/Cargo.toml; CMakeLists.txt; tests/test_unordered_api.py;
+# tests/test_verified_rational_isomorphism.py; docs/planning/RESUME.md;
+# proofs/PROOF_STATUS.md; proofs/SubtreeProofs/Paper2004/RationalOrderedSolver.lean.
+# Worked Python-reference graph example run and checked. Explains previously
+# proved exact rational ordered backend, tested f64 weighted graph paths, and
+# remaining Python/ABI/source/numeric bridges. No source program or proof modified.

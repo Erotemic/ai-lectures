@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "lecture_id": "028000",
+  "transcript": "028000-the-last-mile-from-proved-solver-to-python.md",
+  "description": "End-to-end verification boundaries for the NetworkX common-subtree Python APIs: graph and callback encoding, original-node and path witnesses, 2016/2018 empty and rooted policies, f64 versus exact rational semantics, PyO3 and ABI3 packaging, the compiled verified ordered Lean backend, tested public behavior, and feasible compositional proof interfaces.",
+  "related_resources": [
+    {
+      "source_id": "nx-lozano-2004",
+      "reason": "Mathematical ordered common-tree relation underlying the separately proved rational ordered isomorphism backend."
+    },
+    {
+      "source_id": "nx-dkm-2016",
+      "reason": "2016 weighted nonempty isomorphism objective and its different public empty-allowed convention."
+    },
+    {
+      "source_id": "nx-dkm-2018",
+      "reason": "2018 path-embedding validity, direct-edge reward, skipped-vertex penalty and returned original paths."
+    },
+    {
+      "source_id": "nx-lean-book",
+      "reason": "Functional correctness statements, theorem hypotheses, finite witness validity, and the limits of source execution guarantees."
+    }
+  ],
+  "historical_claims": [],
+  "source_snapshot": {
+    "date": "2026-11-19",
+    "repository": "networkx_algo_common_subtree",
+    "statement_map": "docs/planning/paper_statement_crosswalk.md",
+    "proof_status": "proofs/PROOF_STATUS.md"
+  },
+  "tag_paths": [
+    [
+      "Computer Science",
+      "Formal methods",
+      "Formal verification"
+    ],
+    [
+      "Computer Science",
+      "Programming languages",
+      "Python"
+    ],
+    [
+      "Computer Science",
+      "Programming languages",
+      "Rust"
+    ],
+    [
+      "Computer Science",
+      "Algorithms",
+      "Graph algorithms"
+    ]
+  ],
+  "learning": {
+    "assumed_lectures": [
+      "009000",
+      "015000",
+      "021000",
+      "025000",
+      "027000"
+    ],
+    "learning_objectives": [
+      "Specify successful, empty and error outcomes of the 2016 and 2018 public NetworkX APIs independently of implementation",
+      "Explain graph/label/weight encoding and original-node indexed-witness reconstruction, including path interior vertices and rooted policy",
+      "Work a concrete 2018 embedding through Python result generation, rescoring and the 2016 strict-isomorphism comparison",
+      "Distinguish f64 numerics, callback None, zero weight, +infinite skipping penalty and exact ordered rational affinities",
+      "Identify what RationalSolver.solveResult_correct, the restricted Rust token source theorems and weighted unordered tests actually establish",
+      "Explain why PyO3/ABI3 compatibility and result rescoring do not imply source-level optimality",
+      "Decompose a proposed end-to-end correctness and error contract into separately provable encoding, solver, decoding and numerical links"
+    ]
+  }
+}
