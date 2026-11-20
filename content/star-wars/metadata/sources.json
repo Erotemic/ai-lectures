@@ -1,0 +1,187 @@
+{
+  "schema_version": 1,
+  "sources": {
+    "sw-afi-starwars": {
+      "title": "Star Wars (1977), AFI Catalog",
+      "kind": "institutional_film_record",
+      "url": "https://catalog.afi.com/Catalog/MovieDetails/55187",
+      "access": "free_no_login",
+      "notes": "Original release, credited creative personnel and synopsis."
+    },
+    "sw-lucasfilm-history": {
+      "title": "Lucasfilm, Our Story",
+      "kind": "studio_history",
+      "url": "https://www.lucasfilm.com/who-we-are/our-story/",
+      "access": "free_no_login",
+      "notes": "1971–1978 studio history, American Graffiti, founding of ILM, photography in England and Tunisia."
+    },
+    "sw-lucasfilm-ep4": {
+      "title": "Lucasfilm, Star Wars: A New Hope",
+      "kind": "studio_film_record",
+      "url": "https://www.lucasfilm.com/productions/episode-iv/",
+      "access": "free_no_login",
+      "notes": "1977 film, makers and historical summary."
+    },
+    "sw-lucasfilm-ep5": {
+      "title": "Lucasfilm, The Empire Strikes Back",
+      "kind": "studio_film_record",
+      "url": "https://www.lucasfilm.com/productions/episode-v/",
+      "access": "free_no_login",
+      "notes": "1980 release, director and broad plot."
+    },
+    "sw-lucasfilm-ep6": {
+      "title": "Lucasfilm, Return of the Jedi",
+      "kind": "studio_film_record",
+      "url": "https://www.lucasfilm.com/productions/episode-vi/",
+      "access": "free_no_login",
+      "notes": "1983 release, director, screenplay and broad plot."
+    },
+    "sw-production-1976": {
+      "title": "Lucas Seastrom, Star Wars Began Filming 50 Years Ago, StarWars.com (2026)",
+      "kind": "archival_production_history",
+      "url": "https://www.starwars.com/news/star-wars-50-filming-begins",
+      "access": "free_no_login",
+      "notes": "March 1976 Tunisia production; original screenplay, film crew and filming context."
+    },
+    "sw-crawl-1981": {
+      "title": "Star Wars: Episode IV A New Hope — Opening Crawl, StarWars.com",
+      "kind": "official_film_history",
+      "url": "https://www.starwars.com/video/star-wars-episode-iv-a-new-hope-opening-crawl",
+      "access": "free_no_login",
+      "notes": "Original 1977 crawl lacked Episode IV and A New Hope; added April 1981."
+    },
+    "sw-oscars-1978": {
+      "title": "The 50th Academy Awards, Academy of Motion Picture Arts and Sciences",
+      "kind": "awards_institutional_record",
+      "url": "https://www.oscars.org/oscars/ceremonies/1978",
+      "access": "free_no_login",
+      "notes": "Award categories and personnel for original Star Wars, including editing, original score and visual effects."
+    },
+    "sw-marcia-2026": {
+      "title": "Marcia Lucas: 1945–2026, StarWars.com",
+      "kind": "studio_obituary",
+      "url": "https://www.starwars.com/news/marcia-lucas",
+      "access": "free_no_login",
+      "notes": "Editing career, original film revision, shared editing Oscar with Hirsch and Chew."
+    },
+    "sw-mcquarrie": {
+      "title": "J. W. Rinzler, How to Spot a Ralph McQuarrie, StarWars.com",
+      "kind": "production_art_history",
+      "url": "https://www.starwars.com/news/how-to-spot-a-ralph-mcquarrie",
+      "access": "free_no_login",
+      "notes": "McQuarrie concept and production artwork, differentiation of concept versus licensed art."
+    },
+    "sw-prowse": {
+      "title": "David Prowse, the Towering Figure Behind the Armor of Darth Vader, StarWars.com",
+      "kind": "studio_obituary",
+      "url": "https://www.starwars.com/news/david-prowse",
+      "access": "free_no_login",
+      "notes": "Physical portrayal of Vader and its contribution."
+    },
+    "sw-jones": {
+      "title": "James Earl Jones: 1931–2024, StarWars.com",
+      "kind": "studio_obituary",
+      "url": "https://www.starwars.com/news/james-earl-jones",
+      "access": "free_no_login",
+      "notes": "Vader voice performance."
+    },
+    "sw-anderson": {
+      "title": "Movie Sword-Fight Master Bob Anderson Dies, CBS News (2012)",
+      "kind": "reported_obituary",
+      "url": "https://www.cbsnews.com/news/movie-sword-fight-master-bob-anderson-dies/",
+      "access": "free_no_login",
+      "notes": "Anderson as stunt double in original-trilogy duels; uncredited physical performance."
+    },
+    "sw-shaw": {
+      "title": "Every Actor Who Played Darth Vader in Star Wars, SlashFilm (2024)",
+      "kind": "secondary_film_history",
+      "url": "https://www.slashfilm.com/1488358/star-wars-every-actor-to-play-darth-vader/",
+      "access": "free_no_login",
+      "notes": "Sebastian Shaw as unmasked Darth Vader in Return of the Jedi; secondary source."
+    },
+    "sw-burtt-r2": {
+      "title": "Ben Burtt Interview: R2-D2, Star Wars official video (2014)",
+      "kind": "filmmaker_interview",
+      "url": "https://www.youtube.com/watch?v=eUwnFYBPMlU",
+      "access": "free_no_login",
+      "notes": "Burtt on electronic and vocal elements of R2-D2’s expressive language."
+    },
+    "sw-burtt-lightsaber": {
+      "title": "Ben Burtt Interview: The Sound of Lightsabers, Star Wars official video (2014)",
+      "kind": "filmmaker_interview",
+      "url": "https://www.youtube.com/watch?v=TJQ3_tipGEY",
+      "access": "free_no_login",
+      "notes": "Lightsaber motor and cathode-ray television sound sources; moving microphone."
+    },
+    "sw-burtt-thom": {
+      "title": "Ben Burtt and Randy Thom on Crafting Ewokese, Jabba’s Voice, and the Rancor’s Roar, StarWars.com (2023)",
+      "kind": "filmmaker_interview",
+      "url": "https://www.starwars.com/news/jedi-at-40-ben-burtt-randy-thom",
+      "access": "free_no_login",
+      "notes": "Documented collaborative sound work on Return of the Jedi."
+    },
+    "sw-burtt-vader": {
+      "title": "Ben Burtt Interview: The Sound of Darth Vader, StarWars.com",
+      "kind": "filmmaker_interview",
+      "url": "https://www.starwars.com/video/ben-burtt-interview-the-sound-of-darth-vader",
+      "access": "free_no_login",
+      "notes": "Burtt’s interview about Vader breathing and its sonic development."
+    },
+    "sw-sequel-bb8": {
+      "title": "Creating BB-8 for Star Wars: The Force Awakens, StarWars.com",
+      "kind": "crew_interview",
+      "url": "https://www.starwars.com/news/droid-dreams-how-neal-scanlan-and-the-star-wars-the-force-awakens-team-brought-bb-8-to-life",
+      "access": "free_no_login",
+      "notes": "Practical creature-shop design and performer interaction in the sequel era."
+    },
+    "sw-sequel-lastjedi": {
+      "title": "Star Wars: The Last Jedi Comes Home, StarWars.com",
+      "kind": "studio_production_reference",
+      "url": "https://www.starwars.com/news/star-wars-the-last-jedi-comes-home",
+      "access": "free_no_login",
+      "notes": "Documentary breakdowns of practical and visual effects and real locations in sequel-era film production."
+    },
+    "sw-williams-music": {
+      "title": "The StarWars.com 10: Best Music, StarWars.com",
+      "kind": "official_music_commentary",
+      "url": "https://www.starwars.com/news/the-starwars-com-10-best-music",
+      "access": "free_no_login",
+      "notes": "Themes and their placement in original and prequel films; opinionated editorial assessment, not a source for composer intention."
+    },
+    "sw-williams-fates": {
+      "title": "Revelations at The Music of The Phantom Menace Panel, StarWars.com (2019)",
+      "kind": "composer_interview_report",
+      "url": "https://www.starwars.com/news/swcc-2019-revelations-at-the-music-of-star-wars-the-phantom-menace-panel-with-david-collins",
+      "access": "free_no_login",
+      "notes": "John Williams’s attributable comments on the choral character of Duel of the Fates."
+    },
+    "sw-ilm-clones": {
+      "title": "Clones at 20: How Attack of the Clones Helped Change Filmmaking, StarWars.com (2022)",
+      "kind": "studio_production_history",
+      "url": "https://www.starwars.com/news/clones-at-20-4-ways-star-wars-attack-of-the-clones-helped-change-filmmaking",
+      "access": "free_no_login",
+      "notes": "Digital shooting, miniatures, and effects workflow in Attack of the Clones."
+    },
+    "sw-ilm-interview": {
+      "title": "ILM Light & Magic Season 2 Director Joe Johnston Interview, ILM",
+      "kind": "studio_production_history",
+      "url": "https://www.ilm.com/light-magic-joe-johnston-interview/",
+      "access": "free_no_login",
+      "notes": "Effects history in prequels and transition to digital cinematography."
+    },
+    "sw-stagecraft": {
+      "title": "How Innovative Technology Immersed Us in The Mandalorian, StarWars.com (2020)",
+      "kind": "production_technical_interview",
+      "url": "https://www.starwars.com/news/the-mandalorian-stagecraft-feature",
+      "access": "free_no_login",
+      "notes": "LED volume, camera tracking, reflections, production collaborators and constraints."
+    },
+    "sw-mandalorian-vfx": {
+      "title": "ILM Celebrates The Mandalorian Season 2 Visual Effects, StarWars.com",
+      "kind": "studio_effects_report",
+      "url": "https://www.starwars.com/news/the-mandalorian-season-2-ilm",
+      "access": "free_no_login",
+      "notes": "Mixed practical, miniature, puppet and digital techniques in Mandalorian."
+    }
+  }
+}

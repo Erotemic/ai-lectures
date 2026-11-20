@@ -1,0 +1,163 @@
+{
+  "schema_version": 1,
+  "lecture_id": "003000",
+  "transcript": "003000-making-star-wars-sound-image-and-motion.md",
+  "description": "How scores, found sounds, picture editing, designs, miniatures, digital effects and performance make the galaxy legible across decades.",
+  "related_resources": [
+    {
+      "source_id": "sw-oscars-1978",
+      "reason": "Awards record for first film’s score, editing, effects and sound."
+    },
+    {
+      "source_id": "sw-burtt-r2",
+      "reason": "Direct testimony on R2-D2’s constructed vocal performance."
+    },
+    {
+      "source_id": "sw-burtt-lightsaber",
+      "reason": "Direct testimony on origins and motion of lightsaber sound."
+    },
+    {
+      "source_id": "sw-burtt-thom",
+      "reason": "Later sound teams and expanded soundscape."
+    },
+    {
+      "source_id": "sw-marcia-2026",
+      "reason": "Three credited editors and original-film postproduction."
+    },
+    {
+      "source_id": "sw-williams-fates",
+      "reason": "Composer’s stated reasons for choral ritual atmosphere."
+    },
+    {
+      "source_id": "sw-ilm-clones",
+      "reason": "Practical-digital mix in prequel-era effects."
+    },
+    {
+      "source_id": "sw-ilm-interview",
+      "reason": "Studio account of the digital transition."
+    },
+    {
+      "source_id": "sw-stagecraft",
+      "reason": "Technical and collaborative StageCraft methods."
+    },
+    {
+      "source_id": "sw-mandalorian-vfx",
+      "reason": "Subsequent television practice combining miniatures and digital environments."
+    },
+    {
+      "source_id": "sw-sequel-bb8",
+      "reason": "Practical performance and effects design for the sequel films."
+    },
+    {
+      "source_id": "sw-sequel-lastjedi",
+      "reason": "Locations and effects work in the sequel films."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "003000-c01",
+      "anchor": "The Imperial March, introduced in *The Empire Strikes Back*",
+      "kind": "music_history",
+      "source_ids": [
+        "sw-williams-music"
+      ],
+      "source_locator": "Named film, production interview, or institutional record listed by source ID",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "003000-c02",
+      "anchor": "The choral urgency of *Duel of the Fates*",
+      "kind": "film_music",
+      "source_ids": [
+        "sw-williams-fates"
+      ],
+      "source_locator": "Named film, production interview, or institutional record listed by source ID",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "003000-c03",
+      "anchor": "Ben Burtt's work on the original film established sounds",
+      "kind": "sound_history",
+      "source_ids": [
+        "sw-burtt-lightsaber",
+        "sw-burtt-r2"
+      ],
+      "source_locator": "Named film, production interview, or institutional record listed by source ID",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "003000-c04",
+      "anchor": "The lightsaber's characteristic tone combines a mechanical hum derived from a film projector",
+      "kind": "sound_design",
+      "source_ids": [
+        "sw-burtt-lightsaber"
+      ],
+      "source_locator": "Named film, production interview, or institutional record listed by source ID",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "003000-c05",
+      "anchor": "Burtt has described experimenting with his own vocalizations and electronic processing",
+      "kind": "sound_design",
+      "source_ids": [
+        "sw-burtt-r2"
+      ],
+      "source_locator": "Named film, production interview, or institutional record listed by source ID",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "003000-c06",
+      "anchor": "The 1977 film's credits name Paul Hirsch, Marcia Lucas, and Richard Chew",
+      "kind": "film_credits",
+      "source_ids": [
+        "sw-afi-starwars",
+        "sw-oscars-1978"
+      ],
+      "source_locator": "Named film, production interview, or institutional record listed by source ID",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "003000-c07",
+      "anchor": "Industrial Light & Magic was founded to solve a production problem",
+      "kind": "production_history",
+      "source_ids": [
+        "sw-lucasfilm-history",
+        "sw-ilm-interview"
+      ],
+      "source_locator": "Named film, production interview, or institutional record listed by source ID",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "003000-c08",
+      "anchor": "*Attack of the Clones* pushed digital acquisition and effects workflows",
+      "kind": "production_history",
+      "source_ids": [
+        "sw-ilm-clones",
+        "sw-ilm-interview"
+      ],
+      "source_locator": "Named film, production interview, or institutional record listed by source ID",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "003000-c09",
+      "anchor": "Industrial Light & Magic's StageCraft process uses large LED surfaces",
+      "kind": "technical_history",
+      "source_ids": [
+        "sw-stagecraft"
+      ],
+      "source_locator": "Named film, production interview, or institutional record listed by source ID",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "003000-c10",
+      "anchor": "The later sequel films combine digital techniques with locations",
+      "kind": "production_history",
+      "source_ids": [
+        "sw-sequel-bb8",
+        "sw-sequel-lastjedi"
+      ],
+      "source_locator": "Named film, production interview, or institutional record listed by source ID",
+      "audit_status": "source_checked"
+    }
+  ]
+}

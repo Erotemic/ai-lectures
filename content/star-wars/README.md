@@ -1,6 +1,6 @@
 # Star Wars: A Galaxy Worth Arguing About
 
-**Status: nine-essay editorial plan, not yet a published or audio-ready track.** The assignments live in [BACKLOG.md](BACKLOG.md). Do not publish placeholder manuscripts, empty `track.json`, invented audio lengths, or navigation pointing to files that have not been written.
+**Status: three of nine essays complete.** The published catalog in `track.json` and listening route in `navigation.json` contain only the three completed manuscripts. The six remaining assignments live in [BACKLOG.md](BACKLOG.md). Do not publish placeholders or count planned essays as recordings.
 
 ## What this series is
 
@@ -12,7 +12,7 @@ Eight essays generally target **35–50 minutes**, with the final historical and
 
 ## Nine-essay route
 
-This is also the main listening order; there is no separate four-part Essentials route or character-by-character detour.
+This is the planned listening order, not the published catalog. Lectures `001000`–`003000` are written; `004000`–`009000` remain planned. The actual playback route lists only completed essays. There is no separate four-part Essentials route or character-by-character detour.
 
 | ID | Essay | Main job | Target |
 | --- | --- | --- | --- |
@@ -61,12 +61,8 @@ Useful research starting points already in the original planning materials:
 
 Completed lectures use exactly one `<!-- BEGIN SPOKEN LECTURE -->` and `<!-- END SPOKEN LECTURE -->` pair, measured spoken word counts, per-lecture metadata and `metadata/sources.json` with claim anchors, plus `track.json` and `navigation.json` referring **only to written manuscripts**. Non-spoken notes should include the precise spoiler coverage. No copyrighted media clips, soundtrack recordings, notation, frames, promotional images, fonts, or other binary assets belong in the text-only overlay.
 
-## Finish quickly, finish deliberately
+## Finite completion plan
 
-Release three essays per batch if the manuscripts are ready:
+Six essays remain, organized as two substantive batches: `004000`–`006000` cover political collapse, the Force and resistance; `007000`–`009000` address the sequels, expansion beyond films, and the concluding retrospective. Write the capstone only after the other subjects have been developed enough to support it.
 
-1. `001000`–`003000`: the film, the original trilogy and filmmaking craft.
-2. `004000`–`006000`: political collapse, Jedi ideas and the experience of resistance.
-3. `007000`–`009000`: the sequels, the wider franchise and the capstone.
-
-Write the capstone after the first eight are complete, **not** after adding more side tracks. It should have a fresh thesis of its own. On release of `009000`, mark this finite plan complete and remove resolved planning items rather than preserving a historical change log.
+Each completed manuscript has exactly one spoken section, a measured word count and duration, source metadata, and stable ID. Treat later topics as plans, not as published lectures. After the capstone, mark this finite track complete and remove resolved planning items instead of keeping a history of completed chores.

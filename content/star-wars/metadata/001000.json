@@ -1,0 +1,133 @@
+{
+  "schema_version": 1,
+  "lecture_id": "001000",
+  "transcript": "001000-star-wars-1977-the-film-that-built-a-galaxy.md",
+  "description": "A history and critical reading of the 1977 film: its direct adventure, implied larger world, live-in design, collaborators and precise cinematic climax.",
+  "related_resources": [
+    {
+      "source_id": "sw-afi-starwars",
+      "reason": "Release date and final credited creative personnel."
+    },
+    {
+      "source_id": "sw-lucasfilm-history",
+      "reason": "History of Lucas’s prior films and the founding of ILM."
+    },
+    {
+      "source_id": "sw-production-1976",
+      "reason": "Documented 1976 filming and production challenges."
+    },
+    {
+      "source_id": "sw-crawl-1981",
+      "reason": "Difference between 1977 and later film-title and episode text."
+    },
+    {
+      "source_id": "sw-mcquarrie",
+      "reason": "Role of concept artwork in establishing the production’s design."
+    },
+    {
+      "source_id": "sw-oscars-1978",
+      "reason": "Institutional record of awards for collaborative work."
+    },
+    {
+      "source_id": "sw-marcia-2026",
+      "reason": "Editorial contributions, revision, and shared editing credits."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "001000-c01",
+      "anchor": "When the film opened in May 1977",
+      "kind": "release_history",
+      "source_ids": [
+        "sw-afi-starwars",
+        "sw-lucasfilm-ep4"
+      ],
+      "source_locator": "Named film, production interview, or institutional record listed by source ID",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "001000-c02",
+      "anchor": "The subtitle *A New Hope* and the episode number were added to the opening crawl in a later theatrical release",
+      "kind": "release_history",
+      "source_ids": [
+        "sw-crawl-1981"
+      ],
+      "source_locator": "Named film, production interview, or institutional record listed by source ID",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "001000-c03",
+      "anchor": "George Lucas had made two features before *Star Wars*",
+      "kind": "production_context",
+      "source_ids": [
+        "sw-lucasfilm-history"
+      ],
+      "source_locator": "Named film, production interview, or institutional record listed by source ID",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "001000-c04",
+      "anchor": "Ralph McQuarrie's concept paintings helped establish the visual vocabulary",
+      "kind": "production_art",
+      "source_ids": [
+        "sw-mcquarrie"
+      ],
+      "source_locator": "Named film, production interview, or institutional record listed by source ID",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "001000-c05",
+      "anchor": "Lucas established Industrial Light & Magic during preparation for the film",
+      "kind": "production_history",
+      "source_ids": [
+        "sw-lucasfilm-history",
+        "sw-production-1976"
+      ],
+      "source_locator": "Named film, production interview, or institutional record listed by source ID",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "001000-c06",
+      "anchor": "The live-action production, filmed in Tunisia and at English studios",
+      "kind": "production_history",
+      "source_ids": [
+        "sw-lucasfilm-history",
+        "sw-production-1976"
+      ],
+      "source_locator": "Named film, production interview, or institutional record listed by source ID",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "001000-c07",
+      "anchor": "Paul Hirsch, Marcia Lucas, and Richard Chew are the three credited editors",
+      "kind": "production_credits",
+      "source_ids": [
+        "sw-afi-starwars",
+        "sw-oscars-1978",
+        "sw-marcia-2026"
+      ],
+      "source_locator": "Named film, production interview, or institutional record listed by source ID",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "001000-c08",
+      "anchor": "The American Film Institute records its release on May 25, 1977",
+      "kind": "release_history",
+      "source_ids": [
+        "sw-afi-starwars"
+      ],
+      "source_locator": "Named film, production interview, or institutional record listed by source ID",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "001000-c09",
+      "anchor": "At the 1978 Academy Awards it won prizes for editing",
+      "kind": "awards_record",
+      "source_ids": [
+        "sw-oscars-1978"
+      ],
+      "source_locator": "Named film, production interview, or institutional record listed by source ID",
+      "audit_status": "source_checked"
+    }
+  ]
+}

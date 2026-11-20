@@ -1,46 +1,8 @@
-# Star Wars: A Galaxy Worth Arguing About — nine-essay plan
+# Star Wars: A Galaxy Worth Arguing About — remaining six essays
 
-**Nine planned manuscripts. None is complete yet.** Each brief defines a question and useful evidence, not a chapter list to read aloud. The editorial ranges are approximate; a finished argument is more important than a target minute. The capstone is lecture nine, not the reward for an indefinitely expanding catalog.
+**Six manuscripts remain to be written.** Each brief defines a question and useful evidence, not a chapter list to read aloud. The editorial ranges are approximate; a finished argument is more important than a target minute. The capstone is lecture nine, not the reward for an indefinitely expanding catalog.
 
-## Batch 1 — invention and the original trilogy
-
-### 001000 — Star Wars, 1977: The Film That Built a Galaxy
-
-**Target:** 35–45 minutes. **Spoilers:** *A New Hope*; broad context about the later franchise without giving away later twists.
-
-**Argument to develop:** The first film feels huge because it refuses to explain its whole universe while remaining extraordinarily clear about the immediate adventure. The promise begins with a starship crossing the screen, but it survives because this impossible place feels used, inhabited, funny and dangerous. Tell the making of the film through concrete creative choices rather than the myth of effortless genius or inevitable success.
-
-**Narrative movement:** Start with the opening image and the droids' point of view, then go back to Lucas's earlier work, influences from movie serials, westerns and samurai cinema, and the production's practical difficulties. Explore how the film's competing visual languages make the Empire, rebels, desert, cities and lived-in machinery instantly distinguishable. Discuss collaborative work: Ralph McQuarrie's concepts, ILM's effects problem-solving, sound design, production design, performers and the editing process. Return to the cinematic experience of the trench run, where an entire world and a character's choice become one sequence. A few facts about release and reception should follow evidence rather than familiar legends.
-
-**Scenes and evidence:** Star Destroyer opening; Tatooine droid journey; Mos Eisley and the cantina; the Falcon's shabby interior; Death Star corridors; the last attack on Yavin. Original film credits, production interviews, contemporary reviews and verifiable production histories.
-
-**Boundary:** This is the origin and the grammar of the first movie, **not** a history of every subsequent release. Avoid replaying Luke's entire quest. The later craft essay (`003000`) can compare sound, cutting and visual effects across decades rather than telling this origin story again.
-
-### 002000 — The Original Trilogy: Rebels, Family, and Redemption
-
-**Target:** 40–50 minutes. **Spoilers:** All three original films and their major revelations and endings.
-
-**Argument to develop:** The first trilogy grows from a buoyant rescue adventure into a story about inheritance, fear, loyalty and the possibility of refusing violence when violence has become the language of power. It succeeds because the family story and the rebellion give one another stakes; neither can replace the other.
-
-**Narrative movement:** Follow Luke's emergence as hero, student and ultimately someone who makes a choice his teachers cannot make for him. Give Leia agency as a politician and commander before romance and family revelations become important. Follow Han from reluctant participant to someone who keeps returning; make room for Lando's compromises and the droids' comic perspective. Explore the way *The Empire Strikes Back* changes tone and scale, while *Return of the Jedi* moves toward moral resolution rather than merely a larger battle. Vader should occupy a substantial section: how David Prowse's body, James Earl Jones's voice, the mask, the breathing and the eventual human face turn a monster into a tragic father without erasing his atrocities. Contrast the Emperor's theory of power with Luke's refusal in the throne room. Evaluate the films' weaker and more awkward choices too.
-
-**Scenes and evidence:** Hoth; Dagobah; Han and Leia's exchanges; Bespin; the carbon-freezing chamber; Vader's revelation; the Ewok battle as tonal contrast; the throne room; the unmasking. Credits and documented performance accounts for the different people who helped create Vader.
-
-**Boundary:** Not three consecutive plot summaries, not separate mini-biographies of Luke, Leia, Han and Vader. Use the trilogy's escalation and its final moral choice as the connecting argument. The Force essay (`005000`) will study the larger tradition and its contradictions instead.
-
-### 003000 — Making Star Wars: Sound, Image, and Motion
-
-**Target:** 35–45 minutes. **Spoilers:** Selected climactic scenes and duels across multiple eras, including original, prequel and sequel films.
-
-**Argument to develop:** An audience recognizes Star Wars almost before it can identify the story. A musical interval, an engine noise, a silhouette, the sudden silence before a threat, or the rhythm of a cut communicates scale, danger and character. Its creative influence lies as much in cinematic craft as in myth.
-
-**Narrative movement:** Explore John Williams's scoring as storytelling, including the opening fanfare, the Force theme, the Imperial March and the very different work of *Duel of the Fates*. Describe rather than reproduce the music. Follow Ben Burtt's documented sound-design practice, crediting the larger sound teams and changing soundscapes. Explain editing through the 1977 final battle and other sequences, crediting Marcia Lucas, Richard Chew and Paul Hirsch accurately without the story that one editor alone 'saved' the film. Examine McQuarrie's imagery, costumes, props, creature work and ILM's motion control and miniatures. Then move to the prequels' digital environments and characters and to later practical/digital and virtual-production combinations. Compare lightsaber duels as dramatic exchanges: restraint, terror, acrobatics, injury, forgiveness.
-
-**Scenes and evidence:** Main title; opening Star Destroyer; trench run; Vader's entrances; Bespin duel; duel on Naboo; Mustafar; selected sequel choreography and contemporary productions' virtual sets. Film credits, Academy records, composer/sound/production interviews, ILM and Lucasfilm archives.
-
-**Boundary:** The emphasis is **how** images and sounds create meaning, not a roll call of inventions or a verdict that practical is always better than digital. Do not restate the making of the first film (`001000`) at length. No copyrighted music, notation, frames or other media in the content pack.
-
-## Batch 2 — the Republic, the Force and resistance
+## Next batch — the Republic, the Force and resistance
 
 ### 004000 — The Prequels: How a Republic Falls
 
@@ -78,7 +40,7 @@
 
 **Boundary:** The theme is the **experience and organization of war**, not the total plot of four series and films. Do not claim *Andor* invented politics in Star Wars. Discuss a handful of scenes deeply enough to carry the argument.
 
-## Batch 3 — inheritance, expansion and conclusion
+## Final batch — inheritance, expansion and conclusion
 
 ### 007000 — After Endor: Sequels and the Weight of Inheritance
 
@@ -118,8 +80,7 @@
 
 ## Publication checkpoints
 
-- **First batch:** `001000`–`003000` only. Three real, sufficiently developed manuscripts and sourced metadata; no placeholders. Reading route should include only finished files.
-- **Second batch:** `004000`–`006000`. Make the series' political and philosophical questions more demanding without forcing listeners to know every animated episode.
+- **Next batch:** `004000`–`006000`. Make the series' political and philosophical questions more demanding without forcing listeners to know every animated episode.
 - **Final batch:** `007000` and `008000`, then write `009000` from the perspective of the *finished* essays. It is part of the same batch only if complete; otherwise publish it on its own next, rather than stretching the track with new subjects.
 
 For each manuscript: standalone, listener-paced prose; accurate spoken-word count and duration derived from the actual `<!-- BEGIN SPOKEN LECTURE -->` / `<!-- END SPOKEN LECTURE -->` body; non-spoken spoiler notices; sources and claim-level references; correct tag metadata; a navigation catalog listing only existing manuscripts. Do not include binary assets. Do not overwrite prior manuscripts casually. After the capstone, clear the backlog of completed work and mark the track finished.
