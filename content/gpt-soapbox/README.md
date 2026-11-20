@@ -115,6 +115,8 @@ listeners may choose any order.
 
 - **033000 — The Grapes That Borrowed Roots.** How a North American insect devastated European vineyards, why grafting preserved familiar grapes on different roots, the Texas limestone solution, and the later failure of AxR1 in California.
 
+- **034000 — Why a Rubber Band Gets Warm.** From entropic elasticity and ancient Mesoamerican rubbercraft to vulcanization, the botanical relocation of the rubber tree, South American leaf blight and Fordlândia.
+
 Spoken narration is inside the standard marker pair in each manuscript. Source
 notes, constructed-example qualifications, and reading links follow the
 spoken region. Per-lecture metadata and reading records are in `metadata/`.

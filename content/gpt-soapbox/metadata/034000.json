@@ -1,0 +1,514 @@
+{
+  "schema_version": 1,
+  "lecture_id": "034000",
+  "transcript": "034000-why-a-rubber-band-gets-warm.md",
+  "tags": [
+    "GPT-SoapBox",
+    "Essays",
+    "Rubber",
+    "Natural rubber",
+    "Rubber history",
+    "Elastomers",
+    "Elasticity",
+    "Thermodynamics",
+    "Entropy",
+    "Entropy elasticity",
+    "Gough–Joule effect",
+    "John Gough",
+    "James Prescott Joule",
+    "Polymer physics",
+    "Polymer chains",
+    "Cross-linking",
+    "Strain-induced crystallization",
+    "Vulcanization",
+    "Charles Goodyear",
+    "Thomas Hancock",
+    "Charles Macintosh",
+    "Carbon black",
+    "Tires",
+    "Mesoamerican technology",
+    "Indigenous engineering",
+    "Mesoamerican ballgames",
+    "Dorothy Hosler",
+    "Sandra Burkett",
+    "Michael Tarkanian",
+    "Castilla elastica",
+    "Ipomoea alba",
+    "Morning glory",
+    "Hevea brasiliensis",
+    "Latex",
+    "Rubber tapping",
+    "Henry Wickham",
+    "Royal Botanic Gardens Kew",
+    "Henry Nicholas Ridley",
+    "Botanical collections",
+    "Plant transfers",
+    "Plantation agriculture",
+    "British Empire",
+    "Colonialism",
+    "Rubber trade",
+    "Putumayo atrocities",
+    "Roger Casement",
+    "Pseudocercospora ulei",
+    "Microcyclus ulei",
+    "South American leaf blight",
+    "Plant disease",
+    "Fungal pathogens",
+    "Biosecurity",
+    "Fordlândia",
+    "Belterra",
+    "Henry Ford",
+    "Rubber supply chains",
+    "Synthetic rubber",
+    "Smallholder farmers",
+    "Guayule",
+    "Alternative rubber crops",
+    "Materials science",
+    "History of technology",
+    "History of botany",
+    "History of chemistry",
+    "Science and society",
+    "Agricultural history",
+    "Economic history",
+    "Environmental history",
+    "Mexico",
+    "Central America",
+    "Brazil",
+    "Amazon basin",
+    "Peru",
+    "Colombia",
+    "United Kingdom",
+    "England",
+    "Kew",
+    "Sri Lanka",
+    "Singapore",
+    "Malaysia",
+    "Thailand",
+    "Indonesia",
+    "Côte d’Ivoire",
+    "West Africa",
+    "United States",
+    "Mesoamerica",
+    "South America",
+    "Southeast Asia",
+    "Africa",
+    "North America",
+    "1802",
+    "1839",
+    "1843",
+    "1844",
+    "1876",
+    "1928",
+    "1945",
+    "1600 BCE",
+    "19th century",
+    "20th century",
+    "21st century",
+    "2025",
+    "2026"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Physics",
+      "Statistical mechanics",
+      "Entropy elasticity"
+    ],
+    [
+      "Science",
+      "Materials science",
+      "Polymers",
+      "Natural rubber"
+    ],
+    [
+      "Science",
+      "Chemistry",
+      "Polymer cross-linking",
+      "Vulcanization"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Plant pathology",
+      "South American leaf blight"
+    ],
+    [
+      "History",
+      "Technology",
+      "Mesoamerican rubber production",
+      "1600 BCE"
+    ],
+    [
+      "History",
+      "Industry",
+      "Vulcanization",
+      "19th century"
+    ],
+    [
+      "History",
+      "Botany",
+      "Rubber-seed transfer",
+      "1876"
+    ],
+    [
+      "History",
+      "Colonialism",
+      "Plantation economies",
+      "Rubber"
+    ],
+    [
+      "History",
+      "Labor history",
+      "Amazon rubber boom",
+      "Putumayo"
+    ],
+    [
+      "History",
+      "Industry",
+      "Fordlândia",
+      "1928–1945"
+    ],
+    [
+      "Geography",
+      "North America",
+      "Mexico",
+      "Mesoamerica"
+    ],
+    [
+      "Geography",
+      "South America",
+      "Brazil",
+      "Amazon basin"
+    ],
+    [
+      "Geography",
+      "South America",
+      "Peru and Colombia",
+      "Putumayo"
+    ],
+    [
+      "Geography",
+      "Europe",
+      "United Kingdom",
+      "Kew"
+    ],
+    [
+      "Geography",
+      "Asia",
+      "South Asia",
+      "Sri Lanka"
+    ],
+    [
+      "Geography",
+      "Asia",
+      "Southeast Asia",
+      "Singapore"
+    ],
+    [
+      "Geography",
+      "Asia",
+      "Southeast Asia",
+      "Thailand and Indonesia"
+    ],
+    [
+      "Geography",
+      "Africa",
+      "West Africa",
+      "Côte d’Ivoire"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "gs-rubber-physics-2026",
+      "reason": "Gough 1802, Gough-Joule effect, entropy elasticity, stretch-induced crystallization, history of rubber physics."
+    },
+    {
+      "source_id": "gs-rubber-physics-2002",
+      "reason": "Configurational entropy of networks, thermal responses, crystallization and mechanical properties."
+    },
+    {
+      "source_id": "gs-rubber-hosler-1999",
+      "reason": "Processing Castilla elastica latex with Ipomoea alba in Mesoamerica, ancient balls, figurines and objects."
+    },
+    {
+      "source_id": "gs-rubber-tarkanian-2011",
+      "reason": "Effects of changing latex-vine juice ratios on balls, sandals and hafting."
+    },
+    {
+      "source_id": "gs-rubber-mit-1999",
+      "reason": "Research context for the study and historical uses of Mesoamerican rubber."
+    },
+    {
+      "source_id": "gs-rubber-goodyear",
+      "reason": "1839 development of heat-and-sulfur vulcanization and 1844 patent."
+    },
+    {
+      "source_id": "gs-rubber-hancock-2023",
+      "reason": "Hancock, Macintosh and vulcanization patent chronology."
+    },
+    {
+      "source_id": "gs-rubber-kew-seeds",
+      "reason": "1876 collection of about 70,000 seeds and the small germinated fraction, shipment to Sri Lanka and Asia."
+    },
+    {
+      "source_id": "gs-rubber-imperial-botany",
+      "reason": "Kew, botanical transfers, Ceylon and Malaya rubber-growing, Ridley tapping methods."
+    },
+    {
+      "source_id": "gs-rubber-seeds-2026",
+      "reason": "Imperial economic relations, plant appropriation, debated legal and institutional contexts of Wickham collection."
+    },
+    {
+      "source_id": "gs-rubber-putumayo",
+      "reason": "Extractive rubber-company violence, 1909–1913 investigations and Casement."
+    },
+    {
+      "source_id": "gs-rubber-us-state",
+      "reason": "Contemporaneous diplomatic record of exploitative rubber collection and official investigations."
+    },
+    {
+      "source_id": "gs-rubber-salb-review",
+      "reason": "Pseudocercospora ulei host range, historical plantation failures, geographic threat and plant resistance."
+    },
+    {
+      "source_id": "gs-rubber-salb-fao",
+      "reason": "Asia-Pacific disease risk and biosecurity responses."
+    },
+    {
+      "source_id": "gs-rubber-ford-archives",
+      "reason": "History of Fordlândia and Belterra: plantations, labor policies, disease, scale and closure."
+    },
+    {
+      "source_id": "gs-rubber-cirad-2025",
+      "reason": "Current production geography, smallholder share, tire use and sustainability challenges."
+    },
+    {
+      "source_id": "gs-rubber-nhtsa-tire",
+      "reason": "Strain-induced crystallization and its relation to crack-growth resistance in tire formulations."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "m034-h01",
+      "anchor": "A rubber band is full of molecular chains that would ordinarily prefer, in a very precise statistical sense, to be arranged in many different shapes.",
+      "kind": "history_or_statistics",
+      "source_ids": [
+        "gs-rubber-physics-2026",
+        "gs-rubber-physics-2002"
+      ],
+      "source_locator": "gs-rubber-physics-2026",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "m034-h02",
+      "anchor": "This behavior was reported by John Gough in 1802, decades before scientists possessed a molecular explanation for rubber.",
+      "kind": "history_or_statistics",
+      "source_ids": [
+        "gs-rubber-physics-2026"
+      ],
+      "source_locator": "gs-rubber-physics-2026",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "m034-h03",
+      "anchor": "In Mesoamerica, people made resilient balls, sandals, bindings, and other objects using latex collected from a tree called *Castilla elastica*.",
+      "kind": "history_or_statistics",
+      "source_ids": [
+        "gs-rubber-hosler-1999",
+        "gs-rubber-tarkanian-2011"
+      ],
+      "source_locator": "gs-rubber-hosler-1999",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "m034-h04",
+      "anchor": "The archaeological evidence places rubber processing in Mesoamerica by at least 1600 before the common era.",
+      "kind": "history_or_statistics",
+      "source_ids": [
+        "gs-rubber-hosler-1999",
+        "gs-rubber-mit-1999"
+      ],
+      "source_locator": "gs-rubber-hosler-1999",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "m034-h05",
+      "anchor": "The most striking product may be the ball.",
+      "kind": "history_or_statistics",
+      "source_ids": [
+        "gs-rubber-mit-1999"
+      ],
+      "source_locator": "gs-rubber-mit-1999",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "m034-h06",
+      "anchor": "In 1839 he developed a successful process involving heat and sulfur; he received an American patent in 1844.",
+      "kind": "history_or_statistics",
+      "source_ids": [
+        "gs-rubber-goodyear",
+        "gs-rubber-hancock-2023"
+      ],
+      "source_locator": "gs-rubber-goodyear",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "m034-h07",
+      "anchor": "Thomas Hancock patented a related process in Britain in 1843.",
+      "kind": "history_or_statistics",
+      "source_ids": [
+        "gs-rubber-hancock-2023"
+      ],
+      "source_locator": "gs-rubber-hancock-2023",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "m034-h08",
+      "anchor": "In 1876, Henry Wickham collected a very large quantity of *Hevea brasiliensis* seeds in Brazil and sent them to the Royal Botanic Gardens at Kew, near London.",
+      "kind": "history_or_statistics",
+      "source_ids": [
+        "gs-rubber-kew-seeds"
+      ],
+      "source_locator": "gs-rubber-kew-seeds",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "m034-h09",
+      "anchor": "Kew's own collection records describe fewer than two thousand five hundred successful seedlings; some historical accounts give a figure around twenty-seven hundred.",
+      "kind": "history_or_statistics",
+      "source_ids": [
+        "gs-rubber-kew-seeds",
+        "gs-rubber-imperial-botany"
+      ],
+      "source_locator": "gs-rubber-kew-seeds",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "m034-h10",
+      "anchor": "In Singapore, botanist Henry Nicholas Ridley became a vigorous advocate of rubber cultivation.",
+      "kind": "history_or_statistics",
+      "source_ids": [
+        "gs-rubber-imperial-botany"
+      ],
+      "source_locator": "gs-rubber-imperial-botany",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "m034-h11",
+      "anchor": "In the Putumayo region, on the borders of present-day Peru, Colombia, and Brazil, the rubber trade was accompanied by forced labor, terror, and extreme violence against Indigenous communities.",
+      "kind": "history_or_statistics",
+      "source_ids": [
+        "gs-rubber-putumayo",
+        "gs-rubber-us-state"
+      ],
+      "source_locator": "gs-rubber-putumayo",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "m034-h12",
+      "anchor": "A fungus now known as *Pseudocercospora ulei* causes South American leaf blight.",
+      "kind": "history_or_statistics",
+      "source_ids": [
+        "gs-rubber-salb-review"
+      ],
+      "source_locator": "gs-rubber-salb-review",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "m034-h13",
+      "anchor": "In Asia, the commercial trees had been moved outside the disease's established range.",
+      "kind": "history_or_statistics",
+      "source_ids": [
+        "gs-rubber-salb-review",
+        "gs-rubber-salb-fao"
+      ],
+      "source_locator": "gs-rubber-salb-review",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "m034-h14",
+      "anchor": "In the late 1920s, his company established an ambitious rubber-growing settlement in the Brazilian Amazon along the Tapajós River.",
+      "kind": "history_or_statistics",
+      "source_ids": [
+        "gs-rubber-ford-archives"
+      ],
+      "source_locator": "gs-rubber-ford-archives",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "m034-h15",
+      "anchor": "The Henry Ford museum's historical account of the project records millions of trees planted, substantial investment, repeated disease problems, and the eventual transfer of the plantations to the Brazilian government in 1945.",
+      "kind": "history_or_statistics",
+      "source_ids": [
+        "gs-rubber-ford-archives"
+      ],
+      "source_locator": "gs-rubber-ford-archives",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "m034-h16",
+      "anchor": "By the middle of the 2020s, research organizations studying the crop were emphasizing a supply chain in which many producers were smallholders, not employees on gigantic estates.",
+      "kind": "history_or_statistics",
+      "source_ids": [
+        "gs-rubber-cirad-2025"
+      ],
+      "source_locator": "gs-rubber-cirad-2025",
+      "audit_status": "source_passage_checked"
+    }
+  ],
+  "claim_evidence": [
+    {
+      "id": "m034-c01",
+      "anchor": "The reduction in those possibilities changes the material's thermodynamics.",
+      "source_ids": [
+        "gs-rubber-physics-2026",
+        "gs-rubber-physics-2002"
+      ],
+      "provenance": "source_supported_explanation",
+      "source_locator": "gs-rubber-physics-2026",
+      "evidence_detail": "Entropy changes in stretched polymer networks provide much of the restoring force."
+    },
+    {
+      "id": "m034-c02",
+      "anchor": "Sulfur can create links between polymer chains.",
+      "source_ids": [
+        "gs-rubber-physics-2026",
+        "gs-rubber-hancock-2023"
+      ],
+      "provenance": "source_supported_explanation",
+      "source_locator": "gs-rubber-physics-2026",
+      "evidence_detail": "Sulfur vulcanization develops interchain cross-links that stabilize elastic networks."
+    },
+    {
+      "id": "m034-c03",
+      "anchor": "When natural rubber is stretched substantially, parts of its chains can become more ordered and temporarily crystallize.",
+      "source_ids": [
+        "gs-rubber-physics-2026",
+        "gs-rubber-nhtsa-tire"
+      ],
+      "provenance": "source_supported_explanation",
+      "source_locator": "gs-rubber-physics-2026",
+      "evidence_detail": "Crystallization under strain can contribute to resistance to tear propagation and heat release."
+    },
+    {
+      "id": "m034-c04",
+      "anchor": "A plantation supplies predictable access to trees; it can also supply pathogens with a nearly continuous corridor of susceptible hosts.",
+      "source_ids": [
+        "gs-rubber-salb-review"
+      ],
+      "provenance": "source_supported_explanation",
+      "source_locator": "gs-rubber-salb-review",
+      "evidence_detail": "The concentration of susceptible Hevea trees makes disease outbreaks especially damaging in plantations."
+    },
+    {
+      "id": "m034-c05",
+      "anchor": "The question is whether an entire production system can be built around it without simply moving the old difficulties to a new landscape.",
+      "source_ids": [
+        "gs-rubber-cirad-2025"
+      ],
+      "provenance": "author_synthesis_from_sources",
+      "source_locator": "gs-rubber-cirad-2025",
+      "evidence_detail": "Author synthesis from modern production and sustainability research."
+    }
+  ]
+}
