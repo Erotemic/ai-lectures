@@ -1,6 +1,6 @@
 # Dragon Ball: editorial map and future essays
 
-**Current state:** `001000`–`003000` are complete manuscripts and are published in `track.json`. All higher IDs below are **prospective**. They are not empty recordings, catalog entries, or commitments to a quota. Merge or replace adjacent ideas when that gives a better, more substantial listen. Drafts should supply enough plot to orient a listener but favor criticism, character, craft, production and real historical context over systematic recaps. Maintain the numbering of released lectures.
+**Current state:** `001000`–`006000` are complete manuscripts and are published in `track.json`. All higher IDs below are **prospective**. They are not empty recordings, catalog entries, or commitments to a quota. Merge or replace adjacent ideas when that gives a better, more substantial listen. Drafts should supply enough plot to orient a listener but favor criticism, character, craft, production and real historical context over systematic recaps. Maintain the numbering of released lectures.
 
 ## Completed opening: the artist before the hero
 
@@ -8,13 +8,16 @@
 - **002000 — Dr. Slump: Arale and the Village That Would Not Behave.** *Dr. Slump* as a rewarding independent comic and cultural success. Complete.
 - **003000 — The Boy with a Tail and the Girl with a Radar: Where Dragon Ball Begins.** The first Dragon Ball quest and the original story's comic grammar. Complete.
 
-## The original Dragon Ball — adventure, martial arts, and an increasingly dangerous world
+## Completed continuation: training, competition, and the Red Ribbon Army
+
+- **004000 — Two Boys, One Turtle Hermit: Roshi, Goku, and Krillin.** The work and companionship behind the Turtle School's idea of improvement. Complete; ~23 minutes at 145 words/minute.
+- **005000 — The Tournament That Invented Dragon Ball's Future.** The first Tenkaichi Budokai as a storytelling invention, Jackie Chun's disguised lesson, and Goku's narrow defeat. Complete; ~25 minutes.
+- **006000 — The Red Ribbon Army: An Adventure That Learns to Fight Back.** A treasure hunt turns into a sprawling campaign, then a promise to Upa. Complete; ~25 minutes.
+
+## The original Dragon Ball — remaining adventures and essays
 
 | ID | Proposed essay | Why it is a distinct essay |
 | --- | --- | --- |
-| `004000` | **Two Boys, One Turtle Hermit: Roshi, Goku, and Krillin** | Character-driven study of training, the Milk Delivery and Turtle School routines, early rivalry, friendship, and the comic creation of earned strength. The first tournament is part of the payoff, not a match-by-match recap. |
-| `005000` | **The Tournament That Invented Dragon Ball's Future** | Why an organized competition changed a relatively loose road adventure into a story with explicit goals and skill comparisons. Toriyama's attributed retrospective about reader response and the *Dr. Slump* Grand Prix; Jackie Chun's deliberately frustrating lesson about winning. |
-| `006000` | **The Red Ribbon Army: An Adventure That Learns to Fight Back** | From the improbable hunt for magical objects to a sprawling military pursuit. Bulma's ingenuity, Muscle Tower, Colonel Silver and Red's absurdity, and the terrifying punctuation of Mercenary Tao. Balance comic variety with the changing consequences of force. |
 | `007000` | **Baba's Tournament: A Boy Meets His Grandfather Again** | A story of ghosts, disguises, unexpected competence and Goku's relationship to Grandpa Gohan. Why this small, strange reunion has emotional weight without needing to manufacture a new world-ending villain. |
 | `008000` | **Tien, Chiaotzu, and the Tournament's Moral Education** | The 22nd Tenkaichi Budokai as an argument about the purposes of martial arts. The Crane School, Jackie Chun's place in the story, Yamcha, Goku and Tien's changing understanding of strength. A close character study, not an exhaustive bracket. |
 | `009000` | **King Piccolo: When Dragon Ball Discovered Terror** | Krillin's death, the demon king's reign, changed stakes, and the escalation from comic antagonists to a villain the reader is meant to fear. Ask how Toriyama's drawing and earlier character relationships make the turn effective. |
@@ -61,8 +64,8 @@
 
 ## Editorial and research reminders
 
-- **Priority next:** `004000` and `005000` as a related pair, potentially one substantial essay if their distinct arguments cannot be sustained. Then alternate between original-*Dragon Ball* close readings and visually grounded discussions of Toriyama's craft rather than marching mechanically through chapters.
+- **Priority next:** `007000`, a focused essay about Fortuneteller Baba and Goku meeting Grandpa Gohan again; then `008000` on Tien and the Crane School in the 22nd Tenkaichi Budokai. Continue alternating original-*Dragon Ball* character stories with visual craft rather than marching mechanically through chapters.
 - **Crossings between media:** Distinguish the 1984–1995 original continuous manga, the 1986 *Dragon Ball* TV series, 1989–1996 *Dragon Ball Z*, *Kai*, dubbing cuts and individual film continuities. Do not import later sequel backstory as evidence of Toriyama's original intentions in 1984.
 - **Oral style:** Every essay must be enjoyable without images or game footage. Explain the physical action and panel layout sufficiently for an audio listener. Include original criticism, memorable scenes and well-supported creator history; do not deliver listicles of trivia or fights.
 - **Biographical rigor:** Attribute editor anecdotes to Torishima or Toriyama and identify differences in their later recollections. Do not invent private conversations, emotional reactions or editorial orders where records do not exist.
-- **Future additions:** Treat all IDs above `003000` as ideas only. Register a lecture only when its manuscript and sources have been written. Reference `README.md` for published routes.
+- **Future additions:** Treat all IDs above `006000` as ideas only. Register a lecture only when its manuscript and sources have been written. Reference `README.md` for published routes.

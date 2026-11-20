@@ -1,7 +1,7 @@
 {
   "id": "dragon-ball",
   "title": "Dragon Ball: From Penguin Village to the End of Z",
-  "summary": "An expanding series of substantive, source-grounded audio essays beginning with Akira Toriyama’s early career and Dr. Slump, then following the original Dragon Ball adventure and its later Z television era. Three complete opening lectures introduce the creator, the robot girl Arale, and Goku and Bulma’s first quest. Future essays will address characters, manga art, animation and the franchise’s global reception. Not a scene-by-scene recap.",
+  "summary": "An expanding series of substantive, source-grounded audio essays beginning with Akira Toriyama’s early career and Dr. Slump, then following original Dragon Ball through its later Z television era. Six complete lectures cover the cartoonist, Arale, the first Dragon Ball quest, Roshi and Krillin, the first tournament, and the Red Ribbon Army. Future essays address characters, drawing, adaptations and worldwide reception; not a scene-by-scene recap.",
   "categories": [
     "Literature and arts"
   ],
@@ -24,14 +24,17 @@
     "Japan"
   ],
   "assumed_background": [
-    "No prior knowledge required to begin. The first two essays introduce Toriyama and Dr. Slump, and 003000 begins at Dragon Ball chapter one.",
-    "Spoiler notices precede the narration; the first three lectures contain major plot outcomes only for the initial Dragon Ball quest.",
-    "Fan-focused audio essays; the published catalog lists only fully written manuscripts. The final Z-era material is an editorial plan, not yet recorded or published."
+    "No prior knowledge required to begin. The first two essays introduce Toriyama and Dr. Slump; 003000 begins with Goku and Bulma, and all essays orient unfamiliar listeners.",
+    "Spoken lectures carry non-spoken spoiler notices and can discuss the endings of their specific covered arcs.",
+    "The track catalog lists only completed manuscripts. Unwritten Z-era essays are editorial proposals, not published or playable recordings."
   ],
   "sections": [
     "creator-history",
     "comic-form",
-    "origins-and-adventure"
+    "origins-and-adventure",
+    "turtle-school",
+    "tournament",
+    "red-ribbon"
   ],
   "lectures": [
     {
@@ -93,6 +96,75 @@
         "1980s",
         "Adventure",
         "Comedy"
+      ]
+    },
+    {
+      "id": "004000",
+      "title": "Two Boys, One Turtle Hermit: Roshi, Goku, and Krillin",
+      "section": "turtle-school",
+      "file": "004000-two-boys-one-turtle-hermit-roshi-goku-and-krillin.md",
+      "spoken_words": 3325,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 22.9,
+      "tags": [
+        "Dragon Ball",
+        "Goku",
+        "Krillin",
+        "Master Roshi",
+        "Kame School",
+        "Training",
+        "Martial arts",
+        "Character studies",
+        "21st Tenkaichi Budokai",
+        "Japan",
+        "1980s"
+      ]
+    },
+    {
+      "id": "005000",
+      "title": "The Tournament That Invented Dragon Ball's Future",
+      "section": "tournament",
+      "file": "005000-the-tournament-that-invented-dragon-balls-future.md",
+      "spoken_words": 3648,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 25.2,
+      "tags": [
+        "Dragon Ball",
+        "Akira Toriyama",
+        "21st Tenkaichi Budokai",
+        "Jackie Chun",
+        "Master Roshi",
+        "Goku",
+        "Krillin",
+        "Namu",
+        "Martial arts",
+        "Manga criticism",
+        "1980s",
+        "Japan"
+      ]
+    },
+    {
+      "id": "006000",
+      "title": "The Red Ribbon Army: An Adventure That Learns to Fight Back",
+      "section": "red-ribbon",
+      "file": "006000-the-red-ribbon-army-an-adventure-that-learns-to-fight-back.md",
+      "spoken_words": 3605,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 24.9,
+      "tags": [
+        "Dragon Ball",
+        "Goku",
+        "Red Ribbon Army",
+        "Android 8",
+        "Muscle Tower",
+        "Arale",
+        "Bora",
+        "Upa",
+        "Karin",
+        "Taopaipai",
+        "Manga criticism",
+        "1980s",
+        "Japan"
       ]
     }
   ]
