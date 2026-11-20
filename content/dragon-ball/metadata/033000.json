@@ -1,0 +1,155 @@
+{
+  "schema_version": 1,
+  "lecture_id": "033000",
+  "transcript": "033000-the-voices-that-made-dragon-ball-many-different-shows.md",
+  "related_resources": [
+    {
+      "source_id": "db-audio-nozawa-furukawa-interview",
+      "reason": "Original Japanese cast credits for Goku, Gohan, Goten, and Piccolo; retrospective actors, not claims about all 1980s recording sessions."
+    },
+    {
+      "source_id": "db-audio-japanese-cast",
+      "reason": "Confirms Masako Nozawa Goku, Ryo Horikawa Vegeta, Ryusei Nakao Frieza in Japanese productions."
+    },
+    {
+      "source_id": "db-audio-kikuchi-crunchyroll",
+      "reason": "Credits Kikuchi for original Dragon Ball and Z screen music; account of long career and 2021 death."
+    },
+    {
+      "source_id": "db-audio-original-song-singers",
+      "reason": "Credits Hiroki Takahashi (Makafushigi Adventure!) and Hironobu Kageyama (CHA-LA HEAD-CHA-LA and WE GOTTA POWER)."
+    },
+    {
+      "source_id": "db-audio-kageyama-interview",
+      "reason": "Kageyama discusses extensive recording sessions and Project MONOLITH; attributing testimony to singer rather than claiming inferred studio motives."
+    },
+    {
+      "source_id": "db-audio-kanzenshuu-first-dub",
+      "reason": "U.S. early syndicated period and Ocean/Saban roles. Secondary compiled reference; distinguish localizations by exact release."
+    },
+    {
+      "source_id": "db-audio-kanzenshuu-release-chronology",
+      "reason": "Chronology of syndicated, Toonami and home-video periods; secondary reference, not universal worldwide distribution data."
+    },
+    {
+      "source_id": "db-audio-us-episode-history",
+      "reason": "67 original Japanese episodes edited to 53 first English episodes; Texas cast from 1999; later reconstruction of early episodes."
+    },
+    {
+      "source_id": "db-audio-faulconer-label",
+      "reason": "Primary evidence of Faulconer Productions music catalog by character/arc, not independent evidence of aesthetic or ratings effects."
+    },
+    {
+      "source_id": "db-audio-latin-crunchyroll",
+      "reason": "Credits Mario Castañeda, René García, Carlos Segundo, Laura Torres, and others; Spanish-language distributor article."
+    },
+    {
+      "source_id": "db-audio-brazil-crunchyroll",
+      "reason": "2026 announcement confirms Wendel Bezerra as Goku and Alfredo Rollo as Vegeta in that edition; not claimed as first appearance of either actor."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "033000-c01",
+      "anchor": "Masako Nozawa became the Japanese voice of Goku",
+      "kind": "official_cast_credit",
+      "source_ids": [
+        "db-audio-nozawa-furukawa-interview"
+      ],
+      "source_locator": "Original Japanese cast and associated family roles",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "033000-c02",
+      "anchor": "Ryo Horikawa plays Vegeta",
+      "kind": "official_cast_credit",
+      "source_ids": [
+        "db-audio-japanese-cast"
+      ],
+      "source_locator": "Japanese Vegeta voice",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "033000-c03",
+      "anchor": "Shunsuke Kikuchi supplied the background music",
+      "kind": "production_fact",
+      "source_ids": [
+        "db-audio-kikuchi-crunchyroll"
+      ],
+      "source_locator": "Original Japanese Dragon Ball and Dragon Ball Z screen composer",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "033000-c04",
+      "anchor": "Hiroki Takahashi sang the original Dragon Ball opening",
+      "kind": "official_music_credits",
+      "source_ids": [
+        "db-audio-original-song-singers"
+      ],
+      "source_locator": "Official Dragon Ball Games Battle Hour singers list",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "033000-c05",
+      "anchor": "Hironobu Kageyama's CHA-LA HEAD-CHA-LA",
+      "kind": "official_music_credits",
+      "source_ids": [
+        "db-audio-original-song-singers",
+        "db-audio-kageyama-interview"
+      ],
+      "source_locator": "First Dragon Ball Z opening theme",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "033000-c06",
+      "anchor": "In 1996, FUNimation's version entered U.S. syndication",
+      "kind": "broadcast_history",
+      "source_ids": [
+        "db-audio-kanzenshuu-first-dub",
+        "db-audio-us-episode-history"
+      ],
+      "source_locator": "Original U.S. 1996 broadcast and Canada cast",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "033000-c07",
+      "anchor": "Cartoon Network's Toonami block began carrying the show in 1998",
+      "kind": "broadcast_history",
+      "source_ids": [
+        "db-audio-kanzenshuu-release-chronology"
+      ],
+      "source_locator": "American broadcast chronology",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "033000-c08",
+      "anchor": "Sean Schemmel became Goku and Christopher Sabat became Vegeta",
+      "kind": "cast_history",
+      "source_ids": [
+        "db-audio-kanzenshuu-release-chronology"
+      ],
+      "source_locator": "Dallas-based later American cast beginning 1999",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "033000-c09",
+      "anchor": "Mario Castañeda as adult Goku, René García as Vegeta",
+      "kind": "official_cast_credit",
+      "source_ids": [
+        "db-audio-latin-crunchyroll"
+      ],
+      "source_locator": "Latin American Spanish cast list",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "033000-c10",
+      "anchor": "Wendel Bezerra's Goku and Alfredo Rollo's Vegeta",
+      "kind": "official_cast_credit",
+      "source_ids": [
+        "db-audio-brazil-crunchyroll"
+      ],
+      "source_locator": "Brazilian Portuguese cast continuation, verified against 2026 release",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}

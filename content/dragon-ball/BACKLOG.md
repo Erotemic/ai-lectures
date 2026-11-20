@@ -1,6 +1,6 @@
 # Dragon Ball: editorial map and future essays
 
-**Current state:** Thirty complete manuscripts are published in `track.json`. All remaining proposed IDs below are **prospective**. They are not empty recordings, catalog entries, or commitments to a quota. Merge or replace adjacent ideas when that gives a better, more substantial listen. Drafts should supply enough plot to orient a listener but favor criticism, character, craft, production and real historical context over systematic recaps. Maintain the numbering of released lectures.
+**Current state:** Thirty-three complete manuscripts are published in `track.json`. All remaining proposed IDs below are **prospective**. They are not empty recordings, catalog entries, or commitments to a quota. Merge or replace adjacent ideas when that gives a better, more substantial listen. Drafts should supply enough plot to orient a listener but favor criticism, character, craft, production and real historical context over systematic recaps. Maintain the numbering of released lectures.
 
 ## Completed opening: the artist before the hero
 
@@ -69,13 +69,11 @@
 | `016000` | **Goku Is Not the Hero People Keep Asking Him to Be** | His appetite for hard fights, generosity and ethically difficult decisions: Frieza, Cell, and withdrawal. Competing readings of a benevolent hero who does not always behave like a responsible savior. |
 | `019000` | **Gohan: The Hero Who Doesn't Want the Job** | Childhood violence, latent potential, the Cell Games, school comedy and the distance between what fans want of him and what the character seems to want. |
 
-## Drawing, adaptation and cultural history
+## Completed continuation: the show's sound, resurrection and other media
 
-| ID | Proposed essay | Central question |
-| --- | --- | --- |
-| `033000` | **Voices, Music, and the Several Dragon Ball Zs** | Japan, North America, Latin America and other documented reception histories; competing versions and meaningful score, cast, translation and edit decisions. |
-| `034000` | **Death, Dragon Balls, and the Price of a Second Chance** | The actual changing rules of wishes and resurrection, and whether a story can still generate grief when some reversals become imaginable. |
-| `035000` | **A Franchise Larger Than the Manga: Films, Games, and Global Fans** | *Bardock*, *Broly*, movie continuities, *Dragon Quest* character design, different broadcasts, game aesthetics and global reception, with separate factual/interpretive layers. This may become two essays if original evidence warrants the split. |
+- **033000 — The Voices That Made Dragon Ball Many Different Shows.** Japanese cast and music, song production, Ocean/Saban/FUNimation periods, and the history of regional Spanish and Portuguese voices. Complete; ~24 minutes.
+- **034000 — Death, Dragon Balls, and the Price of a Second Chance.** Upa and Bora, Krillin and King Piccolo, the two dragons' rules, Namek's rescue logistics, Goku's choice to remain dead, and Buu's vast restoration. Complete; ~28 minutes.
+- **035000 — The Dragon Ball That Escaped the Manga: Films, Games, and Other Lives.** Bardock, Broly, stand-alone movie continuities, Budokai/Sparking, Xenoverse, FighterZ, Kakarot and the different histories of audiences beyond Japan. Complete; ~28 minutes.
 
 ## Planned conclusion, not yet a catalog entry
 
@@ -83,7 +81,7 @@
 
 ## Editorial and research reminders
 
-- **Priority next:** The original manga’s narrative and the first three craft studies are complete. Write `033000` on voices, scores, and region-specific cuts, `034000` on the changing rules and emotional cost of resurrection, and `035000` on films, games, and international fandom if the available evidence supports a strong essay. The reserved character studies `016000` and `019000` remain possible only if they add substantial new arguments. Draft the historical capstone (`036000`) after these focused essays, not as a recycled synopsis. Keep reserved IDs stable.
+- **Priority next:** The full original-manga story and three further media/craft essays are complete. The remaining reserved character studies, `016000` and `019000`, are optional only if they bring arguments not already given to Goku, Gohan and Cell. The major remaining project is the extended historical capstone (`036000`), which should make a new synthesis rather than repeat each arc. Keep stable IDs and don't create placeholders.
 - **Crossings between media:** Distinguish the 1984–1995 original continuous manga, the 1986 *Dragon Ball* TV series, 1989–1996 *Dragon Ball Z*, *Kai*, dubbing cuts and individual film continuities. Do not import later sequel backstory as evidence of Toriyama's original intentions in 1984.
 - **Oral style:** Every essay must be enjoyable without images or game footage. Explain the physical action and panel layout sufficiently for an audio listener. Include original criticism, memorable scenes and well-supported creator history; do not deliver listicles of trivia or fights.
 - **Biographical rigor:** Attribute editor anecdotes to Torishima or Toriyama and identify differences in their later recollections. Do not invent private conversations, emotional reactions or editorial orders where records do not exist.
