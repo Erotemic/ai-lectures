@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "lecture_id": "026000",
+  "transcript": "026000-proving-how-much-work-an-algorithm-does.md",
+  "description": "Mathematical and source-oriented complexity formalization using existing Lean memoization envelope/work theorems, list and dense cache cost models, ordered-tree cold-work bounds, matching-family retained-pair bounds, degree sums, amortized matching repair, and explicit production resource-proof gaps.",
+  "related_resources": [
+    {
+      "source_id": "nx-lozano-2004",
+      "reason": "Theorems 1 and 3, ordered decomposition state counts and the claimed runtime."
+    },
+    {
+      "source_id": "nx-dkm-2016",
+      "reason": "Related bipartite matching deletion families and the global subtree-isomorphism runtime aggregation."
+    },
+    {
+      "source_id": "nx-dkm-2018",
+      "reason": "Related matching-family complexity, Theorem 15 time and space bounds."
+    },
+    {
+      "source_id": "nx-lean-book",
+      "reason": "Propositions, finite sums, and verified theorems used in mechanizing numeric work inequalities."
+    }
+  ],
+  "historical_claims": [],
+  "source_snapshot": {
+    "date": "2026-11-19",
+    "repository": "networkx_algo_common_subtree",
+    "statement_map": "docs/planning/paper_statement_crosswalk.md",
+    "proof_status": "proofs/PROOF_STATUS.md"
+  },
+  "tag_paths": [
+    [
+      "Computer Science",
+      "Formal methods",
+      "Formal verification"
+    ],
+    [
+      "Computer Science",
+      "Algorithms",
+      "Algorithm analysis"
+    ],
+    [
+      "Computer Science",
+      "Algorithms",
+      "Graph algorithms"
+    ]
+  ],
+  "learning": {
+    "assumed_lectures": [
+      "002000",
+      "014000",
+      "020000",
+      "024000"
+    ],
+    "learning_objectives": [
+      "Separate state-count, expansion-count, operation-cost, aggregation, and source-refinement statements",
+      "Explain the work-envelope theorem and the difference between calls and distinct completed memo states",
+      "Compare declared cost models for list and dense-array memoization including initialization",
+      "Derive the global tagged matching-pair bound using degree sums while preserving its mathematical-storage scope",
+      "Distinguish logical work, source operations, peak memory, allocation totals and wall-clock timing",
+      "Identify concrete Lean/Rust invariants required for the optimized 2016 and 2018 time and space guarantees"
+    ]
+  }
+}

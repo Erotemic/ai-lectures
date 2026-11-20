@@ -145,3 +145,13 @@ learning_map:
 # MatchingSolveBuiltMatrix.lean, MatchingDecoding.lean, IndexedOrderedEntrypoint.lean;
 # rust/crates/verified_assignment_core/src/matching.rs; paper_statement_crosswalk.md.
 # This pack changes educational content only; no source proof, cost theorem, or ABI claim is made.
+
+# Formalized complexity reading (2026-11-20): GPT-6 original lecture 026000.
+# Based on user-supplied 2026-11-19 NX source snapshot and the three source papers.
+# Lean: Complexity/Memo/{Bounds,Work,RepresentationWork}.lean;
+# Complexity/EditDistance/Work.lean; Complexity/Paper2004/MemoWork.lean;
+# Complexity/MatchingFamilies.lean; Paper2004/TreeStateBounds.lean;
+# Rust/SourceResourceCanonical.lean, Rust/SourceHeapResources.lean; PROOF_STATUS.md.
+# The distinction between declared event work, tagged mathematical storage,
+# addressed-source partial proofs and full production runtime/space is explicit.
+# This ZIP adds lecture content only; it does not change any source program/proof.

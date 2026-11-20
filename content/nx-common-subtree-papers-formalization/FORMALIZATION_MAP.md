@@ -140,6 +140,15 @@ These recordings explain existing, pinned source proofs and their hypotheses. Th
 
 These lectures explain the theorem chain present in the pinned archive; they do not modify its formal proofs or establish additional runtime claims.
 
+## Formalizing complexity — lecture `026000`
+
+- **Generic memo work is already proved in an interpreter model.** `Complexity/Memo/Bounds.lean` (`roots_request_identity`, `roots_envelope`) separates actual lookup requests from distinct new completions, including arbitrary sound warm caches. `Complexity/Memo/Work.lean` (`roots_weighted_work_envelope`, `roots_weighted_work_wp`) derives an explicit weighted whole-run bound using an initially missing finite dependency-closed envelope and primitive cache work contracts. This is a proof of `Event.totalWork`, not physical CPU cycles or an actual optimized Rust loop.
+- **Representation-specific work has checked instantiations.** `Complexity/Memo/RepresentationWork.lean` supplies list and direct/product-array primitive work models; `Complexity/EditDistance/Work.lean` proves whole-run abstract costs for both with cache setup and nonuniform boundary charges. `Complexity/Paper2004/MemoWork.lean` (`cold_list_work`) specializes the model to a cold ordered-tree memo evaluator. That file explicitly excludes structural word/key construction, witness materialization and source execution from its declared work units. `Paper2004/TreeStateBounds.lean` proves a separate decomposition-cardinality theorem.
+- **Pair-cell space is mathematical, not source allocation.** `Complexity/MatchingFamilies.lean` proves `storedPairs_le_product`, `family_sum_le`, `tree_degree_sum`, and `tree_family_pairs_le`, giving an `8*(n-1)*(m-1)` bound on tagged retained matching pairs across feasible tree-indexed base/deletion families. It does not include Rust vector capacity, headers, temporary matrices, caches, output storage, or a peak-live allocation theorem.
+- **Source resources are further along in the ordered reference branch, but not closed.** `Rust/SourceResourceCanonical.lean`, `Rust/SourceHeapResources.lean`, and the `proofs/PROOF_STATUS.md` snapshot describe addressed-source work/ownership models and proved concrete evaluator/public-core fragments. They explicitly leave complete production resource/representation/global time-space closure open. The 2016 and 2018 optimized backends additionally need source representation and family/schedule refinement, `f64`/error semantics, choice reconstruction, Python/NetworkX API correspondence and full runtime/space proofs.
+
+The published 2016/2018 asymptotic bounds are paper mathematics and the corresponding source/runtime refinements are separate obligations. The lecture introduces no new theorem or performance assertion about the compiled program.
+
 ## Good next proof-reading exercises
 
 - For 2004, open `ContractionCompleteness.lean`, explain both directions of ordered-tree versus Dyck-word contraction, then find the `PrintedContainmentCounterexample.lean` statement whose converse fails.
