@@ -134,3 +134,14 @@ learning_map:
 # ContractionSoundness.lean, ContractionCompleteness.lean, PaperContainment.lean,
 # PrintedContainmentCounterexample.lean and original-position bridge modules.
 # No new Lean proof, Rust source theorem or runtime result is asserted.
+
+# Shared Lean and Rust proof-reading sequence (2026-11-20): GPT-6 originals 024000-025000.
+# User-supplied networkx_algo_common_subtree source snapshot 2026-11-19.
+# 024000: Droschinsky2018/RootedDynamicProgram.lean, BoundaryStates.lean,
+# SkippedRecurrence.lean, MatchingAssembly.lean, MappedDecomposition.lean,
+# Shared/FiniteTable.lean, Shared/RootedEvaluationOrder.lean.
+# 025000: dev/regenerate_rust_lean.sh; Rust/Generated/VerifiedAssignmentCore.lean;
+# Rust/MatchingEntrypoint.lean, MatchingValidation.lean, MatchingCostConstruction.lean,
+# MatchingSolveBuiltMatrix.lean, MatchingDecoding.lean, IndexedOrderedEntrypoint.lean;
+# rust/crates/verified_assignment_core/src/matching.rs; paper_statement_crosswalk.md.
+# This pack changes educational content only; no source proof, cost theorem, or ABI claim is made.

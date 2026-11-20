@@ -133,6 +133,13 @@ A future lecture should use the following vocabulary consistently:
 
 These recordings explain existing, pinned source proofs and their hypotheses. They do not add new Lean declarations or close source-level runtime/resource obligations.
 
+## Shared formalization continuation — lectures `024000`–`025000`
+
+- **`024000` — local recurrence to verified finite-table evaluator:** `Droschinsky2018/BoundaryStates.lean` and `SkippedRecurrence.lean` give independent state values; `MappedDecomposition.lean` and `MatchingAssembly.lean` prove the mapped identity. `RootedDynamicProgram.lean` defines executable `step`, `evaluate`, `solve` and proves `step_correct`, `evaluate_correct`, `solve_correct`, `rootedOptimum_correct`, and `unrootedOptimum_correct` against `sourceState`. `Shared/RootedEvaluationOrder.lean` supplies `Depends`, `rank_decreases`, `rank_lt_size`; `Shared/FiniteTable.lean` proves generic `rounds_correct`. The proof uses complete vertex lists, exact child-list relations, the exhaustive matching oracle and sufficient synchronous rounds. No optimized unrooted schedule or source-level complexity bound follows.
+- **`025000` — actual Rust matching source theorem:** `dev/regenerate_rust_lean.sh` pins Charon/Aeneas and checks `Rust/Generated/VerifiedAssignmentCore.lean`. `Rust/MatchingEntrypoint.lean` proves `max_weight_partial_matching_total_spec` / `max_weight_partial_matching_spec` for a rectangular `Option I64` matrix under dimension limits, or its documented shape/size rejection. `Rust/MatchingSolveBuiltMatrix.lean` defines `CorrectPartial` with indexed-pair correctness, exact weight and independent optimality. `Rust/MatchingValidation.lean`, `MatchingDecoding.lean`, and the assignment bridge establish the underlying loop/data-representation steps. The theorem does not cover optimized 2016/2018 tree solver integration, production `f64` scores, path-choice reconstruction, Python/NetworkX conversion or global runtime cost. The 2004 indexed public Rust path has a *different* theorem in `Rust/IndexedOrderedEntrypoint.lean`.
+
+These lectures explain the theorem chain present in the pinned archive; they do not modify its formal proofs or establish additional runtime claims.
+
 ## Good next proof-reading exercises
 
 - For 2004, open `ContractionCompleteness.lean`, explain both directions of ordered-tree versus Dyck-word contraction, then find the `PrintedContainmentCounterexample.lean` statement whose converse fails.

@@ -28,6 +28,20 @@
       "url": "https://lean-lang.org/theorem_proving_in_lean4/",
       "access": "free_no_login",
       "notes": "Inductive data, finite mathematics, theorem statements and the proof checker; cross-track background."
+    },
+    "nx-aeneas": {
+      "title": "Aeneas, a tool to verify Rust programs by translating them into pure functional code",
+      "kind": "official_project_documentation",
+      "url": "https://github.com/AeneasVerif/aeneas",
+      "access": "free_no_login",
+      "notes": "User-supplied NX repository pins the Charon/Aeneas toolchain for generated Lean modules; particular theorem claims are based on the source archive, not current upstream behavior."
+    },
+    "nx-charon": {
+      "title": "Charon: Rust MIR extraction for program verification",
+      "kind": "official_project_documentation",
+      "url": "https://github.com/AeneasVerif/charon",
+      "access": "free_no_login",
+      "notes": "Rust LLBC extraction used by the project and pinned by its regeneration script."
     }
   }
 }

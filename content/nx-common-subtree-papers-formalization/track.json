@@ -513,6 +513,50 @@
         "Original input identities",
         "Lozano Valiente 2004"
       ]
+    },
+    {
+      "id": "024000",
+      "title": "Proving a Dynamic Program Correct in Lean: From Witnesses to a Finished Table",
+      "section": "formalization-methods",
+      "file": "024000-proving-a-dynamic-program-correct-in-lean.md",
+      "spoken_words": 3341,
+      "estimated_minutes_at_145_wpm": 23.0,
+      "draft_status": "substantive",
+      "tags": [
+        "Lean 4",
+        "Dynamic programming",
+        "Mapped and skipped states",
+        "Correctness invariant",
+        "Finite tables",
+        "Well-founded induction",
+        "Dependency ranking",
+        "Tree embeddings",
+        "Droschinsky 2018",
+        "Formal verification"
+      ]
+    },
+    {
+      "id": "025000",
+      "title": "When Rust Becomes a Lean Theorem: Charon, Aeneas, and the Source Contract",
+      "section": "formalization-methods",
+      "file": "025000-when-rust-becomes-a-lean-theorem.md",
+      "spoken_words": 2821,
+      "estimated_minutes_at_145_wpm": 19.5,
+      "draft_status": "substantive",
+      "tags": [
+        "Lean 4",
+        "Rust",
+        "Aeneas",
+        "Charon",
+        "Source refinement",
+        "Machine integer overflow",
+        "Partial matching",
+        "Assignment problem",
+        "Proof contracts",
+        "Witness reconstruction",
+        "Droschinsky 2016",
+        "Droschinsky 2018"
+      ]
     }
   ]
 }

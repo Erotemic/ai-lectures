@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "lecture_id": "024000",
+  "transcript": "024000-proving-a-dynamic-program-correct-in-lean.md",
+  "description": "Detailed source reading of the Droschinsky 2018 independent mapped/skipped optima, local step correctness, exhaustive child matching, well-founded rank, generic synchronous-round induction, and root/unrooted reference readout, with a four-state numerical table.",
+  "related_resources": [
+    {
+      "source_id": "nx-dkm-2018",
+      "reason": "Rooted embedding recurrence, mapped/skipped states, and path penalties."
+    },
+    {
+      "source_id": "nx-lean-book",
+      "reason": "Lean theorem statements, well-founded induction, extensionality, and functional correctness."
+    }
+  ],
+  "historical_claims": [],
+  "source_snapshot": {
+    "date": "2026-11-19",
+    "repository": "networkx_algo_common_subtree",
+    "statement_map": "docs/planning/paper_statement_crosswalk.md",
+    "proof_status": "proofs/PROOF_STATUS.md"
+  },
+  "tag_paths": [
+    [
+      "Computer Science",
+      "Formal methods",
+      "Formal verification"
+    ],
+    [
+      "Computer Science",
+      "Programming languages",
+      "Lean 4"
+    ],
+    [
+      "Computer Science",
+      "Algorithms",
+      "Graph algorithms"
+    ]
+  ],
+  "learning": {
+    "assumed_lectures": [
+      "018000",
+      "022000",
+      "002000"
+    ],
+    "learning_objectives": [
+      "Distinguish independent boundary-state witness optima from the executable table that calculates them",
+      "Explain the exact dependency hypotheses of RootedDP.step_correct and why they are necessary",
+      "Trace exhaustively optimized child matching, list maxima, and the two recurrence equalities through the local proof",
+      "Prove conceptually why the combined remaining-depth rank strictly decreases on all dependency shapes",
+      "Use FiniteTable.rounds_correct to explain evaluate_correct and solve_correct and distinguish the all-root-pairs baseline from optimized runtime claims"
+    ]
+  }
+}
