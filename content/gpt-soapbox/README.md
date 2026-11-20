@@ -109,6 +109,8 @@ listeners may choose any order.
 
 - **030000 — The Day It Rained Stones.** A 1803 meteorite fall in Normandy brings together earlier eyewitness testimony, Chladni’s cosmic hypothesis, chemical analysis, and Biot’s field investigation; the account travels forward to Winchcombe in 2021 and samples returned from asteroid Bennu in 2023.
 
+- **031000 — The Pots That Broke the Code.** How a Pylos inventory of tripods helped verify the decipherment of Linear B; Kober’s inflectional patterns, Bennett’s sign classifications, Ventris’s phonetic grid and place names, and Chadwick’s linguistic collaboration.
+
 Spoken narration is inside the standard marker pair in each manuscript. Source
 notes, constructed-example qualifications, and reading links follow the
 spoken region. Per-lecture metadata and reading records are in `metadata/`.
