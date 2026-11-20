@@ -1,6 +1,6 @@
 # Roadmap — from foundations to paper proof to source verification
 
-This is a **curriculum plan**, not an indexed list of written lectures. IDs `000000`–`007000` are complete in the current pack. Later IDs are proposed, will be written as full narration with exact companion mathematics, and may be combined or expanded when the mathematics calls for it. Lecture order is a suggested path, not a fixed dependency graph.
+This is a **curriculum plan**, not an indexed list of written lectures. IDs `000000`–`009000` are complete in the current pack. Later IDs are proposed, will be written as full narration with exact companion mathematics, and may be combined or expanded when the mathematics calls for it. Lecture order is a suggested path, not a fixed dependency graph.
 
 The teaching goal is to be able to do four things for each paper: (1) define valid solutions independently of the algorithm; (2) derive and understand its central recurrence and claimed complexity; (3) find and read the corresponding Lean theorems and source obligations; and (4) identify the next useful correctness or cost proof without conflating optimized Rust, reference Rust, formal mathematics and Python API behavior.
 
@@ -23,8 +23,8 @@ The teaching goal is to be able to do four things for each paper: (1) define val
 | **`005000` — written** | The D, R and S state families and why there are few of them | Definitions 3–4, Lemmas 1–7, Theorem 1 | `Paper2004/Decomposition.lean`, `TreeStateBounds.lean` |
 | **`006000` — written** | Longest common balanced sequence: derive all three recurrence branches, with witnesses | Definitions 2, 5, Theorem 2, Lemma 8 | `Paper2004/DynamicProgram.lean`, `OptimalEncoding.lean` |
 | **`007000` — written** | The published running time, dictionary assumptions and the difference between state counts and actual costs | Theorem 3 | `Paper2004/MemoizedDynamicProgram.lean`, `Rust/*` memo/cost theorems, crosswalk |
-| `008000` | Printed Definition 2 versus independent edge contraction: a complete specification audit | Definitions 2, 5 and Theorem 2 | `PaperContainment.lean`, `PrintedContainmentCounterexample.lean`, `ContractionCompleteness.lean` |
-| `009000` | Reading the proved ordered pipeline: operational witnesses, balanced tokens, indexed reconstruction and source refinement | Paper interpreted operationally; project extension | `Paper2004/TokenEncoding.lean`, `TokenMaximum.lean`, `Rust/` indexed/guided modules |
+| **`008000` — written** | Printed Definition 2 versus independent edge contraction: a complete specification audit | Definitions 2, 5 and Theorem 2 | `PaperContainment.lean`, `PrintedContainmentCounterexample.lean`, `ContractionCompleteness.lean` |
+| **`009000` — written** | Reading the proved ordered pipeline: operational witnesses, balanced tokens, indexed reconstruction and source refinement | Paper interpreted operationally; project extension | `Paper2004/TokenEncoding.lean`, `TokenMaximum.lean`, `Rust/` indexed/guided modules |
 
 **Milestone:** The listener can reproduce the proof idea behind Lemma 8 and Theorem 1, read a representative Lean statement for each, explain the printed containment counterexample, and identify precisely which Theorem 3 cost assumptions are still missing for an actual solver.
 
@@ -85,6 +85,6 @@ The paper-specific lectures will still explain whatever piece of these prerequis
 
 ## Next sensible authoring session
 
-The three linked paper-focused lectures `005000`–`007000` are now written. Continue with `008000`, a close reading of the printed Definition 2 containment error and the corrected operational relation, followed by `009000`, a guided tour from the proved tree/Dyck optimum through token indexing and actual-source refinement. Then rotate to the 2016 rooted recurrence as an independent second paper branch.
+The Lozano–Valiente branch is now written through `009000`, including the printed-specification audit and the source-guided Lean/Rust reference-proof chain. The next distinct branch is `010000`, Droschinsky–Kriege–Mutzel 2016: define the weighted strict subtree-isomorphism problem independently of a solver, including rooted/unrooted witnesses, negative weights and score conventions. Follow with `011000`, the rooted matching recurrence and fixed-root theorem. The 2004 efficient witness/complexity and Python/NetworkX refinement frontiers remain explicit open-work topics, not hidden claims of completion.
 
 Before writing *formalization status* manuscripts in any later session, inspect the **current** source repository. This roadmap records the November 19, 2026 upload rather than assuming proof status remains fixed.

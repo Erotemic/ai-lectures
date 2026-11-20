@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "lecture_id": "008000",
+  "transcript": "008000-the-definition-that-misses-an-edge.md",
+  "description": "Shows why the literal least relation from printed Definition 2 excludes a valid nested contraction, distinguishes source intent from formal clauses, and follows the Lean counterexample and operational encoding equivalence.",
+  "related_resources": [
+    {
+      "source_id": "nx-lozano-2004",
+      "reason": "Paper §2 Definition 2 and Example 2, §3 Definition 5 and Theorem 2, §4 Lemma 8; the verified printed-containment counterexample."
+    }
+  ],
+  "historical_claims": [],
+  "source_snapshot": {
+    "date": "2026-11-19",
+    "repository": "networkx_algo_common_subtree",
+    "statement_map": "docs/planning/paper_statement_crosswalk.md",
+    "proof_status": "proofs/PROOF_STATUS.md"
+  },
+  "tag_paths": [
+    [
+      "Mathematics",
+      "Discrete mathematics",
+      "Graph theory",
+      "Trees"
+    ],
+    [
+      "Computer Science",
+      "Algorithms",
+      "Graph algorithms"
+    ],
+    [
+      "Computer Science",
+      "Formal methods",
+      "Formal verification"
+    ],
+    [
+      "Mathematics",
+      "Logic",
+      "Inductive relations"
+    ]
+  ],
+  "learning": {
+    "assumed_lectures": [
+      "000000",
+      "001000",
+      "003000",
+      "006000"
+    ],
+    "learning_objectives": [
+      "Distinguish PrintedContains from operational DyckEmbeds",
+      "Prove the smallest 001011-to-0011 discrepancy using one-pair-drop reasoning",
+      "Compare printed and operational optima",
+      "Locate the two-way tree/word contraction theorem"
+    ]
+  }
+}

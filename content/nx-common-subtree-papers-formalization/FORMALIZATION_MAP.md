@@ -26,7 +26,10 @@ The paper's original leaf measure needs care: the repository proves statements i
 - `006000`: the first-pair structural split, constructive optimum (`paperCommon_correct`), numerical optimum (`paperLcs_optimum`), and tree correspondence.
 - `007000`: `memoLcs_tree_operation_bound`, real association-list comparison work, the paper's expected dictionary model, and the still-open source-level cost bridge.
 
-These are mathematical/paper walkthroughs with Lean entry points, **not** yet a complete line-by-line formalization tutorial. The next planned lecture (`008000`) audits the printed containment relation independently.
+- `008000`: the separate `PrintedContains` grammar, its `001011 → 0011` counterexample, the differing optima, and the independently proved tree/Dyck equivalence.
+- `009000`: a reading path through `OrderedTree`, `ContractionCompleteness`, `OptimalEncoding`, `DynamicProgram`, `CanonicalIndexedWord`, `TokenMaximum` and source-proved `Rust` reference endpoints. Includes exact original pair/token coordinate examples and statements of unresolved optimized/API/cost boundaries.
+
+The 2004 branch now has paper-centered derivations and a formalization reading guide. It does **not** claim to teach every Lean tactic or close the source-verified optimized running-time and Python API gaps. The paper’s printed relation and independent operational objective remain separate.
 
 ## 2016 — weighted unordered subtree isomorphism
 

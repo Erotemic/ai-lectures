@@ -22,8 +22,25 @@ transcript:
         - repository: 'networkx_algo_common_subtree supplied 2026-11-19'
           evidence: 'Paper2004/Decomposition.lean; TreeStateBounds.lean; DynamicProgram.lean; MemoizedDynamicProgram.lean; paper_statement_crosswalk.md'
       scope: 'Author full lectures 005000–007000 on D/R/S, Lemma 8 and Theorem 3; no modification to formalization or claim of a new proved runtime bound.'
+    - date: '2026-11-19'
+      models:
+        - GPT-6
+      sources:
+        - paper: 'Lozano & Valiente 2004, Definitions 2 and 5, Example 2, Theorem 2 and Lemma 8'
+          url: https://www.cs.upc.edu/~antoni/subtree.pdf
+        - repository: 'networkx_algo_common_subtree supplied 2026-11-19'
+          evidence: 'PrintedContainmentCounterexample.lean; PaperContainment.lean; ContractionCompleteness.lean; IndexedWord.lean; CanonicalIndexedWord.lean; TokenEncoding.lean; TokenMaximum.lean; Rust/IndexedOrderedEntrypoint.lean; Rust/TokenMatchingEntrypoint.lean; PROOF_STATUS.md'
+      scope: 'Add full narration 008000 and 009000 covering specification discrepancy, formalization and verified reference Rust source endpoints; no source proof or new runtime theorem is asserted.'
 learning_map:
   revisions:
+    - date: '2026-11-19'
+      models:
+        - GPT-6
+      sources:
+        - README.md
+        - ROADMAP.md
+        - FORMALIZATION_MAP.md
+      scope: 'Update the owned 2004 collection to include 008000 and 009000; advance the next-paper plan to Droschinsky 2016.'
     - date: '2026-11-19'
       models:
         - GPT-6

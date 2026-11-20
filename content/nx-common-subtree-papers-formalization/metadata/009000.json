@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "lecture_id": "009000",
+  "transcript": "009000-from-tree-proof-to-original-tokens.md",
+  "description": "Guides the reader through independent tree contraction, Dyck equivalence, optimum recurrence, memoization, indexed original-edge witnesses, token-coordinate readback, source-proved Rust reference entry points, and remaining proof boundaries.",
+  "related_resources": [
+    {
+      "source_id": "nx-lozano-2004",
+      "reason": "Operational Theorem 2/Lemma 8 interpretation; source repository Paper2004 and Rust verified reference endpoints (project formalization extensions)."
+    }
+  ],
+  "historical_claims": [],
+  "source_snapshot": {
+    "date": "2026-11-19",
+    "repository": "networkx_algo_common_subtree",
+    "statement_map": "docs/planning/paper_statement_crosswalk.md",
+    "proof_status": "proofs/PROOF_STATUS.md"
+  },
+  "tag_paths": [
+    [
+      "Mathematics",
+      "Discrete mathematics",
+      "Graph theory",
+      "Trees"
+    ],
+    [
+      "Computer Science",
+      "Algorithms",
+      "Graph algorithms"
+    ],
+    [
+      "Computer Science",
+      "Formal methods",
+      "Formal verification"
+    ],
+    [
+      "Computer Science",
+      "Programming languages",
+      "Rust"
+    ]
+  ],
+  "learning": {
+    "assumed_lectures": [
+      "000000",
+      "001000",
+      "002000",
+      "003000",
+      "006000",
+      "007000",
+      "008000"
+    ],
+    "learning_objectives": [
+      "Read an independent theorem statement before its tactics",
+      "Trace tree contractions through Dyck words and indexed retained witnesses",
+      "Compute original pair IDs and token coordinates",
+      "Identify exactly what the source-proved Rust reference guarantees and what remains open"
+    ]
+  }
+}
