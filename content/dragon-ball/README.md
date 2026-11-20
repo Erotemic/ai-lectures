@@ -1,6 +1,6 @@
 # Dragon Ball: From Penguin Village to the End of Z
 
-**Status: started — twelve complete, source-annotated audio essays.** This is the active, unified track for Akira Toriyama's early work, *Dr. Slump*, the original *Dragon Ball* adventure, and the material adapted as *Dragon Ball Z*. It **supersedes the earlier proposed `dragon-ball-z` plan**. The twelve published lectures are real spoken manuscripts, not placeholders; remaining ideas are in [BACKLOG.md](BACKLOG.md), not in the published `track.json`.
+**Status: started — fifteen complete, source-annotated audio essays.** This is the active, unified track for Akira Toriyama's early work, *Dr. Slump*, the original *Dragon Ball* adventure, and the material adapted as *Dragon Ball Z*. It **supersedes the earlier proposed `dragon-ball-z` plan**. The fifteen published lectures are real spoken manuscripts, not placeholders; remaining ideas are in [BACKLOG.md](BACKLOG.md), not in the published `track.json`.
 
 ## Why begin before Goku?
 
@@ -24,14 +24,17 @@ The track should be **fun to listen to for fans who know the stories**. Treat ic
 | `010000` | **The Last Tournament of Childhood: Goku and Piccolo Jr.** | Goku returns grown, wins the championship, and gives his defeated opponent a future. |
 | `011000` | **Before the Transformations: What Made Young Goku Compelling?** | His appetite for challenge and companionship, fearlessness, anger, kindness, and imperfect judgment. |
 | `012000` | **Capsules, Cars, and Monsters: Toriyama Designs a World** | Machines, creatures, locations, silhouettes, and the way a comic makes movement legible. |
+| `013000` | **Before Z Was on Television: The Original Dragon Ball Anime** | The Japanese 1986–1989 show: voices, songs, acting, motion, television pacing, and the extra wedding adventure. |
+| `014000` | **Raditz: The Brother Who Came from Space** | Kinship, the scouter, Gohan in peril, Goku and Piccolo together, and the year-long warning. |
+| `015000` | **The Saiyans Arrive: Waiting for Goku** | The cost to Goku’s old friends before he arrives, the collective battle against Vegeta, and the disappearance of Earth's Dragon Balls. |
 
 These manuscripts contain non-spoken spoiler declarations and source notes, exactly one extractable spoken region each, and precise historical-claim metadata in `metadata/`. The `track.json` and `navigation.json` route only to actual complete manuscripts. Audio is not bundled or claimed to have been synthesized.
 
 ## Listening routes
 
-- **From the Beginning** (default) — all twelve essays in sequence, continuing forward as new manuscripts are completed. The central plot of *Dragon Ball* begins at `003000`, but the series deliberately opens with the artist and *Dr. Slump*.
+- **From the Beginning** (default) — all fifteen essays in sequence, continuing forward as new manuscripts are completed. The central plot of *Dragon Ball* begins at `003000`, but the series deliberately opens with the artist and *Dr. Slump*.
 - **Before Goku** — two substantive, independently listenable essays on Toriyama and *Dr. Slump*.
-- **Start with Goku** — `003000`–`012000` for listeners who want to begin with Goku and continue through the 23rd tournament, plus standalone essays on Goku and Toriyama’s visual design, without *Dr. Slump* prerequisites.
+- **Start with Goku** — `003000`–`015000` for listeners who want to begin with Goku and continue through the 23rd tournament, then the original anime and the Saiyan invasion, plus standalone essays on Goku and Toriyama’s visual design, without *Dr. Slump* prerequisites.
 - **Character and Drawing** — the standalone `011000`–`012000` essays, connecting the young Goku portrait to Toriyama’s world and visual storytelling.
 
 When more manuscripts are available, this track can develop a curated **Fan Essays and Deep Dives** route similar to Spider-Man, with the capstone last. Do not populate routes with planned-but-unwritten lectures.
@@ -48,4 +51,4 @@ When more manuscripts are available, this track can develop a curated **Fan Essa
 
 ## Continuing the track
 
-The immediate next planned essay is `013000` on the 1986 original *Dragon Ball* television adaptation: voices, direction, music, pacing, and documented creative decisions. From `014000` the story can move into Raditz, Vegeta, Namek, Frieza, Cell, and Buu. The essays on young Goku and early visual design are now complete. See [BACKLOG.md](BACKLOG.md) for the larger editorial map. The final historical essay should be written after enough of the track exists to support a genuine synthesis.
+Lectures `013000`–`015000` now complete the 1986 anime retrospective, the Raditz encounter and the invasion of Earth. The next planned essays start with Namek and the post-invasion consequences before moving through Frieza, the Androids, Cell, and Buu. The essays on young Goku and early visual design are also complete. See [BACKLOG.md](BACKLOG.md) for the larger editorial map. The final historical essay should be written after enough of the track exists to support a genuine synthesis.

@@ -1,6 +1,6 @@
 # Dragon Ball: editorial map and future essays
 
-**Current state:** `001000`–`012000` are complete manuscripts and are published in `track.json`. All higher IDs below are **prospective**. They are not empty recordings, catalog entries, or commitments to a quota. Merge or replace adjacent ideas when that gives a better, more substantial listen. Drafts should supply enough plot to orient a listener but favor criticism, character, craft, production and real historical context over systematic recaps. Maintain the numbering of released lectures.
+**Current state:** `001000`–`015000` are complete manuscripts and are published in `track.json`. All higher IDs below are **prospective**. They are not empty recordings, catalog entries, or commitments to a quota. Merge or replace adjacent ideas when that gives a better, more substantial listen. Drafts should supply enough plot to orient a listener but favor criticism, character, craft, production and real historical context over systematic recaps. Maintain the numbering of released lectures.
 
 ## Completed opening: the artist before the hero
 
@@ -26,18 +26,16 @@
 - **011000 — Before the Transformations: What Made Young Goku Compelling?** A self-contained character study from the first quest through the last original tournament. Complete.
 - **012000 — Capsules, Cars, and Monsters: Toriyama Designs a World.** Manga forms, machines, animal people, geography, visual storytelling and the widening scale of conflict. Complete.
 
-## The original Dragon Ball — remaining adventures and essays
+## Completed continuation: the original anime and the Saiyan arrival
 
-| ID | Proposed essay | Why it is a distinct essay |
-| --- | --- | --- |
-| `013000` | **Before Z Was on Television: The Original Dragon Ball Anime** | The 1986 anime's adaptation choices, voices, musical identity, television pacing, and the response to a growing battle narrative. Keep facts about production and regional release verifiable and differentiated. |
+- **013000 — Before Z Was on Television: The Original Dragon Ball Anime.** The 1986–1989 Japanese adaptation, song and voice identities, manga-to-television rhythm, and an anime-original wedding farewell. Complete; approximately 23–24 minutes.
+- **014000 — Raditz: The Brother Who Came from Space.** A family and identity crisis that forces Goku and Piccolo to cooperate, introduces Gohan's latent power, kills Goku, and starts the invasion clock. Complete; approximately 23–24 minutes.
+- **015000 — The Saiyans Arrive: Waiting for Goku.** The long preparation, the ordeal of the defenders, Goku's too-late arrival, and the collective struggle against Vegeta. Complete; approximately 28 minutes.
 
 ## The story continues: Saiyans, Frieza, Cell, and Buu
 
 | ID | Proposed essay | Central question |
 | --- | --- | --- |
-| `014000` | **Raditz: The Brother Who Came from Space** | How the arrival of Goku's brother changes the story's scale and its hero's identity; Piccolo and Goku must cooperate, and Gohan enters as more than a background child. |
-| `015000` | **The Saiyans Arrive: Waiting for Goku** | Nappa, Vegeta, desperate defenders and the cost of delaying the hero. Why the ensemble's struggle can be more gripping than the eventual rescue. |
 | `016000` | **Goku Is Not the Hero People Keep Asking Him to Be** | His appetite for hard fights, generosity and ethically difficult decisions: Frieza, Cell, and withdrawal. Competing readings of a benevolent hero who does not always behave like a responsible savior. |
 | `017000` | **Vegeta: Pride Is Harder to Defeat Than Goku** | Long-term character portrait from the cruel invader through Namek, family life, Majin Vegeta and a changed sense of duty. |
 | `018000` | **Piccolo and the Child He Never Expected to Protect** | Gohan's training, mentorship, sacrifice, Kami and the slow shift from antagonist to family; keep the original King Piccolo genealogy clear. |
@@ -70,7 +68,7 @@
 
 ## Editorial and research reminders
 
-- **Priority next:** `013000` on the original 1986 *Dragon Ball* television anime: adaptation, music, voices, directing, and the experience of turning a changing manga into a weekly show. Then `014000` on Raditz, continuing the manga chronology into the period adapted as *Z*. Keep fan essays and deeper character/craft readings in rotation.
+- **Priority next:** Follow the invasion’s aftermath into Namek with `021000` (the competing Dragon Ball search) and a Frieza character essay `022000`, interleaving a deeper Goku or Piccolo portrait (`016000`/`018000`) rather than publishing an uninterrupted sequence of plot summaries. Keep all previously reserved IDs stable.
 - **Crossings between media:** Distinguish the 1984–1995 original continuous manga, the 1986 *Dragon Ball* TV series, 1989–1996 *Dragon Ball Z*, *Kai*, dubbing cuts and individual film continuities. Do not import later sequel backstory as evidence of Toriyama's original intentions in 1984.
 - **Oral style:** Every essay must be enjoyable without images or game footage. Explain the physical action and panel layout sufficiently for an audio listener. Include original criticism, memorable scenes and well-supported creator history; do not deliver listicles of trivia or fights.
 - **Biographical rigor:** Attribute editor anecdotes to Torishima or Toriyama and identify differences in their later recollections. Do not invent private conversations, emotional reactions or editorial orders where records do not exist.
