@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "sources": {
+    "nx-lozano-2004": {
+      "title": "Antoni Lozano and Gabriel Valiente (2004), On the Maximum Common Embedded Subtree Problem for Ordered Trees",
+      "kind": "scholarly_primary",
+      "url": "https://www.cs.upc.edu/~antoni/subtree.pdf",
+      "access": "free_no_login",
+      "notes": "Original 13-page PDF, paper-edition SHA-256 recorded in docs/planning/paper_statement_crosswalk.md; Definitions 1–5, Lemmas 1–8, Theorems 1–3."
+    },
+    "nx-dkm-2016": {
+      "title": "Andre Droschinsky, Nils M. Kriege, Petra Mutzel (2016), Faster Algorithms for the Maximum Common Subtree Isomorphism Problem",
+      "kind": "scholarly_primary",
+      "url": "https://arxiv.org/pdf/1602.07210v4",
+      "access": "free_no_login",
+      "notes": "Pinned arXiv v4; 2016 source paper with rooted Eq. (1), Lemmas 2, 5–6, Theorems 4, 7–9. MFCS 2016 publication DOI 10.4230/LIPIcs.MFCS.2016.33."
+    },
+    "nx-dkm-2018": {
+      "title": "Andre Droschinsky, Nils M. Kriege, Petra Mutzel (2018), Largest Weight Common Subtree Embeddings with Distance Penalties",
+      "kind": "scholarly_primary",
+      "url": "https://arxiv.org/pdf/1805.00821v1",
+      "access": "free_no_login",
+      "notes": "Pinned arXiv v1; Definitions 1–2, 4, Lemma 5, Theorems 6 and 15. MFCS 2018 publication DOI 10.4230/LIPIcs.MFCS.2018.54."
+    },
+    "nx-lean-book": {
+      "title": "Theorem Proving in Lean 4",
+      "kind": "official_documentation",
+      "url": "https://lean-lang.org/theorem_proving_in_lean4/",
+      "access": "free_no_login",
+      "notes": "Inductive data, finite mathematics, theorem statements and the proof checker; cross-track background."
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "default_collection": "start-here",
+  "collections": [
+    {
+      "id": "start-here",
+      "title": "NX Common Subtree — Foundations for Three Papers",
+      "role": "main",
+      "lectures": [
+        "000000",
+        "001000",
+        "002000",
+        "003000",
+        "004000"
+      ],
+      "assumed_background": [
+        "Basic graph vocabulary, finite sets and elementary programming"
+      ],
+      "preparation_collections": [
+        "mathematical-proof:main",
+        "algorithms-computability-complexity:overview"
+      ],
+      "tags": [
+        "Common subtree",
+        "Graph algorithms",
+        "Formal verification"
+      ]
+    },
+    {
+      "id": "ordered",
+      "title": "Lozano–Valiente 2004 — Ordered-Tree Foundations",
+      "role": "deep_dive",
+      "parent": "start-here",
+      "lectures": [
+        "000000",
+        "001000",
+        "002000",
+        "003000"
+      ],
+      "related_collections": [
+        "logic-types:main"
+      ],
+      "tags": [
+        "Ordered trees",
+        "Dyck words",
+        "Edge contraction"
+      ]
+    },
+    {
+      "id": "unordered",
+      "title": "Droschinsky 2016/2018 — Unordered-Tree Foundations",
+      "role": "deep_dive",
+      "parent": "start-here",
+      "lectures": [
+        "000000",
+        "001000",
+        "002000",
+        "004000"
+      ],
+      "related_collections": [
+        "discrete-mathematics:graphs"
+      ],
+      "tags": [
+        "Bipartite matching",
+        "Unordered trees",
+        "Tree embeddings"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "lecture_id": "004000",
+  "transcript": "004000-matchings-child-branches-and-reuse.md",
+  "description": "Builds weighted partial matchings, dual assignment certificates, vertex-deletion reuse and their role in both Droschinsky algorithms.",
+  "related_resources": [
+    {
+      "source_id": "nx-dkm-2016",
+      "reason": "Original weighted strict subtree-isomorphism definitions, rooted matching recurrence and optimized matching bounds, pinned arXiv v4."
+    },
+    {
+      "source_id": "nx-dkm-2018",
+      "reason": "Original topological embedding and direct-edge versus skipped-path score semantics, pinned arXiv v1."
+    }
+  ],
+  "historical_claims": [],
+  "source_snapshot": {
+    "date": "2026-11-19",
+    "repository": "networkx_algo_common_subtree",
+    "statement_map": "docs/planning/paper_statement_crosswalk.md",
+    "proof_status": "proofs/PROOF_STATUS.md"
+  },
+  "tag_paths": [
+    [
+      "Mathematics",
+      "Discrete mathematics",
+      "Graph theory",
+      "Trees"
+    ],
+    [
+      "Computer Science",
+      "Algorithms",
+      "Graph algorithms"
+    ],
+    [
+      "Computer Science",
+      "Formal methods",
+      "Formal verification"
+    ],
+    [
+      "Mathematics",
+      "Combinatorics",
+      "Bipartite matching"
+    ]
+  ]
+}

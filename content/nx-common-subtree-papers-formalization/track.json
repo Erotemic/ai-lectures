@@ -1,0 +1,116 @@
+{
+  "id": "nx-common-subtree-papers-formalization",
+  "title": "NX Common Subtree Papers & Formalization",
+  "summary": "A paper- and formalization-focused course on ordered common embedded subtrees (Lozano–Valiente 2004), weighted unordered strict subtree isomorphism (Droschinsky et al. 2016), and weighted topological subtree embedding with distance penalties (Droschinsky et al. 2018). Foundations lead to paper recurrences, theorem correspondence, Lean/Rust refinement and remaining proof obligations.",
+  "categories": [
+    "Mathematics",
+    "Computer Science"
+  ],
+  "assumed_background": [
+    "basic graph and finite-set vocabulary",
+    "elementary programming and proof by induction; specialized matching and Dyck-word prerequisites taught in this pack",
+    "Lean and source verification background available as optional cross-links"
+  ],
+  "sections": [
+    "orientation",
+    "shared-foundations",
+    "lozano-foundations",
+    "droschinsky-foundations"
+  ],
+  "tags": [
+    "Discrete mathematics",
+    "Graph algorithms",
+    "Trees",
+    "Formal verification",
+    "Common subtree"
+  ],
+  "lectures": [
+    {
+      "id": "000000",
+      "title": "Three Meanings of a Common Subtree",
+      "section": "orientation",
+      "file": "000000-three-meanings-of-a-common-subtree.md",
+      "spoken_words": 2240,
+      "estimated_minutes_at_145_wpm": 15.4,
+      "draft_status": "substantive",
+      "tags": [
+        "Common subtree",
+        "Graph isomorphism",
+        "Tree embeddings",
+        "Formal verification",
+        "Lozano–Valiente 2004",
+        "Droschinsky 2016",
+        "Droschinsky 2018"
+      ]
+    },
+    {
+      "id": "001000",
+      "title": "Trees, Roots, Order, and the Shape of a Witness",
+      "section": "shared-foundations",
+      "file": "001000-trees-roots-order-and-witnesses.md",
+      "spoken_words": 2308,
+      "estimated_minutes_at_145_wpm": 15.9,
+      "draft_status": "substantive",
+      "tags": [
+        "Graph theory",
+        "Rooted trees",
+        "Ordered trees",
+        "Tree isomorphism",
+        "Formal specification",
+        "Witnesses"
+      ]
+    },
+    {
+      "id": "002000",
+      "title": "Tree Dynamic Programming as a Proof",
+      "section": "shared-foundations",
+      "file": "002000-tree-dynamic-programming-as-a-proof.md",
+      "spoken_words": 2339,
+      "estimated_minutes_at_145_wpm": 16.1,
+      "draft_status": "substantive",
+      "tags": [
+        "Dynamic programming",
+        "Graph algorithms",
+        "Mathematical proof",
+        "Bipartite matching",
+        "Optimization",
+        "Lean 4"
+      ]
+    },
+    {
+      "id": "003000",
+      "title": "Balanced Words and Ordered-Tree Contractions",
+      "section": "lozano-foundations",
+      "file": "003000-balanced-words-and-ordered-tree-contractions.md",
+      "spoken_words": 2282,
+      "estimated_minutes_at_145_wpm": 15.7,
+      "draft_status": "substantive",
+      "tags": [
+        "Dyck words",
+        "Balanced parentheses",
+        "Ordered trees",
+        "Edge contraction",
+        "Dynamic programming",
+        "Lozano–Valiente 2004"
+      ]
+    },
+    {
+      "id": "004000",
+      "title": "Matching Child Branches and Reusing the Answer",
+      "section": "droschinsky-foundations",
+      "file": "004000-matchings-child-branches-and-reuse.md",
+      "spoken_words": 2433,
+      "estimated_minutes_at_145_wpm": 16.8,
+      "draft_status": "substantive",
+      "tags": [
+        "Bipartite matching",
+        "Assignment problem",
+        "Dynamic programming",
+        "Duality",
+        "Droschinsky 2016",
+        "Droschinsky 2018",
+        "Graph algorithms"
+      ]
+    }
+  ]
+}

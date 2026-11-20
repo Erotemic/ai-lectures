@@ -1,0 +1,26 @@
+transcript:
+  revisions:
+    - date: '2026-11-19'
+      models:
+        - GPT-6
+      sources:
+        - paper: 'Lozano & Valiente 2004; original manuscript'
+          url: https://www.cs.upc.edu/~antoni/subtree.pdf
+        - paper: 'Droschinsky, Kriege & Mutzel 2016; pinned arXiv v4'
+          url: https://arxiv.org/pdf/1602.07210v4
+        - paper: 'Droschinsky, Kriege & Mutzel 2018; pinned arXiv v1'
+          url: https://arxiv.org/pdf/1805.00821v1
+        - repository: 'networkx_algo_common_subtree source archive supplied 2026-11-19'
+          evidence: 'docs/planning/paper_statement_crosswalk.md; proofs/PROOF_STATUS.md'
+      scope: 'Author an original five-lecture introductory track, paper-specific curriculum and source theorem crosswalk. Existing lecture scripts are linked rather than copied. Source results remain identified as proved or open per the uploaded snapshot; no new Lean or Rust proof is asserted.'
+learning_map:
+  revisions:
+    - date: '2026-11-19'
+      models:
+        - GPT-6
+      sources:
+        - README.md
+        - ROADMAP.md
+        - FORMALIZATION_MAP.md
+        - 'existing tracks: mathematical-proof, algorithms-computability-complexity, discrete-mathematics, logic-types'
+      scope: 'Create locally owned listening routes and optional prerequisites with no edits to other tracks or global curriculum.'

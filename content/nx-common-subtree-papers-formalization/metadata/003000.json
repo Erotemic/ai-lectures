@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "lecture_id": "003000",
+  "transcript": "003000-balanced-words-and-ordered-tree-contractions.md",
+  "description": "Explains ordered-tree Dyck encodings, first-return decomposition, matched-pair deletions and the printed containment discrepancy.",
+  "related_resources": [
+    {
+      "source_id": "nx-lozano-2004",
+      "reason": "Original ordered-tree contraction, balanced-sequence definitions and recurrence; pinned paper edition in source repository."
+    }
+  ],
+  "historical_claims": [],
+  "source_snapshot": {
+    "date": "2026-11-19",
+    "repository": "networkx_algo_common_subtree",
+    "statement_map": "docs/planning/paper_statement_crosswalk.md",
+    "proof_status": "proofs/PROOF_STATUS.md"
+  },
+  "tag_paths": [
+    [
+      "Mathematics",
+      "Discrete mathematics",
+      "Graph theory",
+      "Trees"
+    ],
+    [
+      "Computer Science",
+      "Algorithms",
+      "Graph algorithms"
+    ],
+    [
+      "Computer Science",
+      "Formal methods",
+      "Formal verification"
+    ],
+    [
+      "Mathematics",
+      "Combinatorics",
+      "Dyck words"
+    ],
+    [
+      "Computer Science",
+      "Algorithms",
+      "Ordered tree embedding"
+    ]
+  ]
+}
