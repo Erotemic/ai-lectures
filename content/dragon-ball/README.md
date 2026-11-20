@@ -1,6 +1,6 @@
 # Dragon Ball: From Penguin Village to the End of Z
 
-**Status: started — six complete, source-annotated audio essays.** This is the active, unified track for Akira Toriyama's early work, *Dr. Slump*, the original *Dragon Ball* adventure, and the material adapted as *Dragon Ball Z*. It **supersedes the earlier proposed `dragon-ball-z` plan**. The first six lectures are real spoken manuscripts, not placeholders; remaining ideas are in [BACKLOG.md](BACKLOG.md), not in the published `track.json`.
+**Status: started — nine complete, source-annotated audio essays.** This is the active, unified track for Akira Toriyama's early work, *Dr. Slump*, the original *Dragon Ball* adventure, and the material adapted as *Dragon Ball Z*. It **supersedes the earlier proposed `dragon-ball-z` plan**. The nine published lectures are real spoken manuscripts, not placeholders; remaining ideas are in [BACKLOG.md](BACKLOG.md), not in the published `track.json`.
 
 ## Why begin before Goku?
 
@@ -18,14 +18,17 @@ The track should be **fun to listen to for fans who know the stories**. Treat ic
 | `004000` | **Two Boys, One Turtle Hermit: Roshi, Goku, and Krillin** | The training and friendship that underpin the series’ changing idea of strength. |
 | `005000` | **The Tournament That Invented Dragon Ball’s Future** | The 21st tournament, Jackie Chun’s teaching, and why Goku’s defeat is rewarding. |
 | `006000` | **The Red Ribbon Army: An Adventure That Learns to Fight Back** | A comic military campaign grows into a deeply personal promise. |
+| `007000` | **Baba’s Tournament: The Boy Who Got to Say Hello** | A strange contest brings Goku back to Grandpa Gohan and gives Upa’s wish a deeper context. |
+| `008000` | **Tien and the Tournament That Changed His Mind** | Crane versus Turtle School; fairness, friendship, and a champion who learns to choose. |
+| `009000` | **King Piccolo: The Day the Rules Stopped Working** | Krillin’s death, a world under terror, and Goku’s victory when the familiar rules fail. |
 
 These manuscripts contain non-spoken spoiler declarations and source notes, exactly one extractable spoken region each, and precise historical-claim metadata in `metadata/`. The `track.json` and `navigation.json` route only to actual complete manuscripts. Audio is not bundled or claimed to have been synthesized.
 
 ## Listening routes
 
-- **From the Beginning** (default) — all six essays in sequence, continuing forward as new manuscripts are completed. The central plot of *Dragon Ball* begins at `003000`, but the series deliberately opens with the artist and *Dr. Slump*.
+- **From the Beginning** (default) — all nine essays in sequence, continuing forward as new manuscripts are completed. The central plot of *Dragon Ball* begins at `003000`, but the series deliberately opens with the artist and *Dr. Slump*.
 - **Before Goku** — two substantive, independently listenable essays on Toriyama and *Dr. Slump*.
-- **Start with Goku** — `003000`–`006000` for listeners who want to begin with Goku and continue through the Red Ribbon Army without *Dr. Slump* prerequisites.
+- **Start with Goku** — `003000`–`009000` for listeners who want to begin with Goku and continue through King Piccolo without *Dr. Slump* prerequisites.
 
 When more manuscripts are available, this track can develop a curated **Fan Essays and Deep Dives** route similar to Spider-Man, with the capstone last. Do not populate routes with planned-but-unwritten lectures.
 
@@ -41,4 +44,4 @@ When more manuscripts are available, this track can develop a curated **Fan Essa
 
 ## Continuing the track
 
-The next standalone essays are `007000`, on Fortuneteller Baba and Goku meeting Grandpa Gohan again, and `008000`, on Tien, Chiaotzu and the Crane School at the 22nd Tenkaichi Budokai. Later original-*Dragon Ball* subjects include King Piccolo, the 23rd tournament, Toriyama’s visual craft and the original television adaptation. Only after those does the track cross into Raditz, Vegeta, Namek, Frieza, Cell, and Buu. See [BACKLOG.md](BACKLOG.md) for the larger editorial map. The final historical essay should be written after enough of the track exists to support a genuine synthesis.
+The next proposed narrative essay is `010000`, on grown Goku and Piccolo Jr. at the 23rd Tenkaichi Budokai. Other original-*Dragon Ball* subjects include the young Goku character study, Toriyama’s visual craft and the original television adaptation. Only after those does the track cross into Raditz, Vegeta, Namek, Frieza, Cell, and Buu. See [BACKLOG.md](BACKLOG.md) for the larger editorial map. The final historical essay should be written after enough of the track exists to support a genuine synthesis.

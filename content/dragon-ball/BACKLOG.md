@@ -1,6 +1,6 @@
 # Dragon Ball: editorial map and future essays
 
-**Current state:** `001000`–`006000` are complete manuscripts and are published in `track.json`. All higher IDs below are **prospective**. They are not empty recordings, catalog entries, or commitments to a quota. Merge or replace adjacent ideas when that gives a better, more substantial listen. Drafts should supply enough plot to orient a listener but favor criticism, character, craft, production and real historical context over systematic recaps. Maintain the numbering of released lectures.
+**Current state:** `001000`–`009000` are complete manuscripts and are published in `track.json`. All higher IDs below are **prospective**. They are not empty recordings, catalog entries, or commitments to a quota. Merge or replace adjacent ideas when that gives a better, more substantial listen. Drafts should supply enough plot to orient a listener but favor criticism, character, craft, production and real historical context over systematic recaps. Maintain the numbering of released lectures.
 
 ## Completed opening: the artist before the hero
 
@@ -14,13 +14,16 @@
 - **005000 — The Tournament That Invented Dragon Ball's Future.** The first Tenkaichi Budokai as a storytelling invention, Jackie Chun's disguised lesson, and Goku's narrow defeat. Complete; ~25 minutes.
 - **006000 — The Red Ribbon Army: An Adventure That Learns to Fight Back.** A treasure hunt turns into a sprawling campaign, then a promise to Upa. Complete; ~25 minutes.
 
+## Completed continuation: Baba, the Crane School, and Great Demon King Piccolo
+
+- **007000 — Baba’s Tournament: The Boy Who Got to Say Hello.** Goku and his friends meet Baba’s five fighters, then Grandpa Gohan; Upa’s wish follows. Complete; ~25 minutes.
+- **008000 — Tien and the Tournament That Changed His Mind.** The 22nd tournament and the distinction between winning and deserving a win. Complete; ~27 minutes.
+- **009000 — King Piccolo: The Day the Rules Stopped Working.** Krillin’s death, a broken safety net, Tien and Roshi’s losses, Goku’s greatest early crisis. Complete; ~28 minutes.
+
 ## The original Dragon Ball — remaining adventures and essays
 
 | ID | Proposed essay | Why it is a distinct essay |
 | --- | --- | --- |
-| `007000` | **Baba's Tournament: A Boy Meets His Grandfather Again** | A story of ghosts, disguises, unexpected competence and Goku's relationship to Grandpa Gohan. Why this small, strange reunion has emotional weight without needing to manufacture a new world-ending villain. |
-| `008000` | **Tien, Chiaotzu, and the Tournament's Moral Education** | The 22nd Tenkaichi Budokai as an argument about the purposes of martial arts. The Crane School, Jackie Chun's place in the story, Yamcha, Goku and Tien's changing understanding of strength. A close character study, not an exhaustive bracket. |
-| `009000` | **King Piccolo: When Dragon Ball Discovered Terror** | Krillin's death, the demon king's reign, changed stakes, and the escalation from comic antagonists to a villain the reader is meant to fear. Ask how Toriyama's drawing and earlier character relationships make the turn effective. |
 | `010000` | **The Last Tournament of Childhood: Goku and Piccolo Jr.** | The 23rd Tenkaichi Budokai, a grown Goku, rivalry and inheritance, marriage as comedy, an opponent who becomes part of the future. Close the original television portion without treating the story as a separate, discarded childhood prequel. |
 | `011000` | **Before the Transformations: What Made Young Goku Compelling?** | Across the early manga, how sincerity, appetite, ignorance, mercy and a taste for challenge coexist. A character essay that supports comparisons with older Goku without deciding later debates in advance. |
 | `012000` | **Capsules, Cars, Monsters: Toriyama Designs a World** | Early art and invention: silhouettes, readable machines, the strange coexistence of dinosaurs and modern cities, comic devices that carry the plot. Can address *Dr. Slump* as part of the same visual career, without repeating 001000 or 002000. |
@@ -64,8 +67,8 @@
 
 ## Editorial and research reminders
 
-- **Priority next:** `007000`, a focused essay about Fortuneteller Baba and Goku meeting Grandpa Gohan again; then `008000` on Tien and the Crane School in the 22nd Tenkaichi Budokai. Continue alternating original-*Dragon Ball* character stories with visual craft rather than marching mechanically through chapters.
+- **Priority next:** `010000` on Goku and Piccolo Jr. at the 23rd Tenkaichi Budokai. Afterwards, rotate in a young Goku character study and original-series art and animation essays rather than leaving those until after the Z-era battles.
 - **Crossings between media:** Distinguish the 1984–1995 original continuous manga, the 1986 *Dragon Ball* TV series, 1989–1996 *Dragon Ball Z*, *Kai*, dubbing cuts and individual film continuities. Do not import later sequel backstory as evidence of Toriyama's original intentions in 1984.
 - **Oral style:** Every essay must be enjoyable without images or game footage. Explain the physical action and panel layout sufficiently for an audio listener. Include original criticism, memorable scenes and well-supported creator history; do not deliver listicles of trivia or fights.
 - **Biographical rigor:** Attribute editor anecdotes to Torishima or Toriyama and identify differences in their later recollections. Do not invent private conversations, emotional reactions or editorial orders where records do not exist.
-- **Future additions:** Treat all IDs above `006000` as ideas only. Register a lecture only when its manuscript and sources have been written. Reference `README.md` for published routes.
+- **Future additions:** Treat all IDs above `009000` as ideas only. Register a lecture only when its manuscript and sources have been written. Reference `README.md` for published routes.
