@@ -1,0 +1,248 @@
+{
+  "schema_version": 1,
+  "lecture_id": "006000",
+  "transcript": "006000-rebellion-from-below.md",
+  "description": "A history of rebellion told through clones, the Ghost crew, Ferrix, Ghorman, the prison on Narkina 5, and the people who deliver the Death Star plans.",
+  "related_resources": [
+    {
+      "source_id": "sw-lucasfilm-animation",
+      "reason": "Launches of Clone Wars and Rebels, studio animation history."
+    },
+    {
+      "source_id": "sw-clone-umbara",
+      "reason": "Pong Krell and Umbaran conflict."
+    },
+    {
+      "source_id": "sw-clone-fives",
+      "reason": "Fives investigation, Kamino and the clone army."
+    },
+    {
+      "source_id": "sw-clone-chip",
+      "reason": "Order 66 mechanization."
+    },
+    {
+      "source_id": "sw-lucasfilm-rebels",
+      "reason": "Ghost crew premise."
+    },
+    {
+      "source_id": "sw-kanan-ezra",
+      "reason": "Kanan and Ezra's story."
+    },
+    {
+      "source_id": "sw-andor-official",
+      "reason": "Two-season Andor and Rogue One linkage."
+    },
+    {
+      "source_id": "sw-andor-prison",
+      "reason": "Cassian imprisoned at Narkina 5."
+    },
+    {
+      "source_id": "sw-andor-maarva",
+      "reason": "Ferrix funeral and uprising."
+    },
+    {
+      "source_id": "sw-andor-ghorman-gilroy",
+      "reason": "Ghorman construction, propaganda and creator testimony."
+    },
+    {
+      "source_id": "sw-andor-ghorman-production",
+      "reason": "Physical filming and staging of Ghorman."
+    },
+    {
+      "source_id": "sw-andor-ghorman-episodes",
+      "reason": "Ghorman massacre and Mon Mothma speech."
+    },
+    {
+      "source_id": "sw-lucasfilm-rogue-one",
+      "reason": "2016 film credits and Death Star plan mission."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "006000-c01",
+      "anchor": "The 2008 computer-animated *The Clone Wars* series",
+      "kind": "series_history",
+      "source_ids": [
+        "sw-lucasfilm-animation"
+      ],
+      "source_locator": "Named film, episode or official reference identified by source ID",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "006000-c02",
+      "anchor": "Dee Bradley Baker voices the clone soldiers",
+      "kind": "performance_credit",
+      "source_ids": [
+        "sw-clone-umbara"
+      ],
+      "source_locator": "Named film, episode or official reference identified by source ID",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "006000-c03",
+      "anchor": "The Umbara arc makes the contradiction almost unbearable",
+      "kind": "primary_story",
+      "source_ids": [
+        "sw-clone-umbara",
+        "sw-clone-fives"
+      ],
+      "source_locator": "Named film, episode or official reference identified by source ID",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "006000-c04",
+      "anchor": "Krell arranges for clone units to attack one another",
+      "kind": "primary_story",
+      "source_ids": [
+        "sw-clone-umbara"
+      ],
+      "source_locator": "Named film, episode or official reference identified by source ID",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "006000-c05",
+      "anchor": "The story of ARC trooper Fives turns this contradiction into a conspiracy",
+      "kind": "primary_story",
+      "source_ids": [
+        "sw-clone-fives",
+        "sw-kamino"
+      ],
+      "source_locator": "Named film, episode or official reference identified by source ID",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "006000-c06",
+      "anchor": "the inhibitor chips implanted in the clones",
+      "kind": "official_story_reference",
+      "source_ids": [
+        "sw-clone-chip",
+        "sw-kamino"
+      ],
+      "source_locator": "Named film, episode or official reference identified by source ID",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "006000-c07",
+      "anchor": "In the final *Clone Wars* arc, Ahsoka and Rex are aboard a Republic vessel",
+      "kind": "primary_story",
+      "source_ids": [
+        "sw-clone-rex"
+      ],
+      "source_locator": "Named film, episode or official reference identified by source ID",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "006000-c08",
+      "anchor": "*Star Wars Rebels*, which began in 2014",
+      "kind": "series_history",
+      "source_ids": [
+        "sw-lucasfilm-rebels"
+      ],
+      "source_locator": "Named film, episode or official reference identified by source ID",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "006000-c09",
+      "anchor": "Kanan's death becomes especially painful",
+      "kind": "primary_story",
+      "source_ids": [
+        "sw-kanan-ezra"
+      ],
+      "source_locator": "Named film, episode or official reference identified by source ID",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "006000-c10",
+      "anchor": "The 2022 first season presents workshops",
+      "kind": "series_history",
+      "source_ids": [
+        "sw-andor-official"
+      ],
+      "source_locator": "Named film, episode or official reference identified by source ID",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "006000-c11",
+      "anchor": "Its 2025 second season follows the movement toward *Rogue One*",
+      "kind": "series_history",
+      "source_ids": [
+        "sw-andor-official",
+        "sw-andor-2025"
+      ],
+      "source_locator": "Named film, episode or official reference identified by source ID",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "006000-c12",
+      "anchor": "The Narkina 5 prison arc turns the Empire into a factory",
+      "kind": "primary_story",
+      "source_ids": [
+        "sw-andor-prison",
+        "sw-andor-cassian"
+      ],
+      "source_locator": "Named film, episode or official reference identified by source ID",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "006000-c13",
+      "anchor": "Maarva Andor, Cassian's adoptive mother",
+      "kind": "primary_story",
+      "source_ids": [
+        "sw-andor-maarva"
+      ],
+      "source_locator": "Named film, episode or official reference identified by source ID",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "006000-c14",
+      "anchor": "The Ghorman massacre is not merely a large battle",
+      "kind": "primary_story",
+      "source_ids": [
+        "sw-andor-ghorman-gilroy",
+        "sw-andor-ghorman-episodes"
+      ],
+      "source_locator": "Named film, episode or official reference identified by source ID",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "006000-c15",
+      "anchor": "The production makes the crowd at Ghorman legible as people",
+      "kind": "production_history",
+      "source_ids": [
+        "sw-andor-ghorman-production"
+      ],
+      "source_locator": "Named film, episode or official reference identified by source ID",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "006000-c16",
+      "anchor": "Mon Mothma's response to Ghorman transforms her public position",
+      "kind": "primary_story",
+      "source_ids": [
+        "sw-andor-ghorman-episodes"
+      ],
+      "source_locator": "Named film, episode or official reference identified by source ID",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "006000-c17",
+      "anchor": "*Rogue One*, released in 2016 and directed by Gareth Edwards",
+      "kind": "film_credits",
+      "source_ids": [
+        "sw-lucasfilm-rogue-one"
+      ],
+      "source_locator": "Named film, episode or official reference identified by source ID",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "006000-c18",
+      "anchor": "On Scarif, the theft of the Death Star plans",
+      "kind": "primary_story",
+      "source_ids": [
+        "sw-lucasfilm-rogue-one"
+      ],
+      "source_locator": "Named film, episode or official reference identified by source ID",
+      "audit_status": "source_checked"
+    }
+  ]
+}

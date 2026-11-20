@@ -1,6 +1,6 @@
 # Star Wars: A Galaxy Worth Arguing About
 
-**Status: three of nine essays complete.** The published catalog in `track.json` and listening route in `navigation.json` contain only the three completed manuscripts. The six remaining assignments live in [BACKLOG.md](BACKLOG.md). Do not publish placeholders or count planned essays as recordings.
+**Status: six of nine essays complete.** The published catalog in `track.json` and listening route in `navigation.json` contain only the six completed manuscripts. The three remaining assignments live in [BACKLOG.md](BACKLOG.md). Do not publish placeholders or count planned essays as recordings.
 
 ## What this series is
 
@@ -12,7 +12,7 @@ Eight essays generally target **35–50 minutes**, with the final historical and
 
 ## Nine-essay route
 
-This is the planned listening order, not the published catalog. Lectures `001000`–`003000` are written; `004000`–`009000` remain planned. The actual playback route lists only completed essays. There is no separate four-part Essentials route or character-by-character detour.
+This is the planned listening order, not the published catalog. Lectures `001000`–`006000` are written; `007000`–`009000` remain planned. The actual playback route lists only completed essays. There is no separate four-part Essentials route or character-by-character detour.
 
 | ID | Essay | Main job | Target |
 | --- | --- | --- | --- |
@@ -63,6 +63,6 @@ Completed lectures use exactly one `<!-- BEGIN SPOKEN LECTURE -->` and `<!-- END
 
 ## Finite completion plan
 
-Six essays remain, organized as two substantive batches: `004000`–`006000` cover political collapse, the Force and resistance; `007000`–`009000` address the sequels, expansion beyond films, and the concluding retrospective. Write the capstone only after the other subjects have been developed enough to support it.
+Three essays remain: `007000`–`009000` address the sequels, expansion beyond films, and the concluding retrospective. Write the capstone only after the other subjects have been developed enough to support it.
 
 Each completed manuscript has exactly one spoken section, a measured word count and duration, source metadata, and stable ID. Treat later topics as plans, not as published lectures. After the capstone, mark this finite track complete and remove resolved planning items instead of keeping a history of completed chores.

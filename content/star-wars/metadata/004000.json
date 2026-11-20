@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "lecture_id": "004000",
+  "transcript": "004000-the-prequels-how-a-republic-falls.md",
+  "description": "An intertwined tragedy: how Anakin becomes Vader and how a Republic grants the machinery of its own destruction to Palpatine.",
+  "related_resources": [
+    {
+      "source_id": "sw-lucasfilm-ep1",
+      "reason": "Film credits and Naboo/young Anakin story."
+    },
+    {
+      "source_id": "sw-lucasfilm-ep2",
+      "reason": "Film credits, romance, Kamino and digital production."
+    },
+    {
+      "source_id": "sw-lucasfilm-ep3",
+      "reason": "Film credits, Palpatine and Order 66 story."
+    },
+    {
+      "source_id": "sw-senate",
+      "reason": "Emergency powers and the collapse of the Senate."
+    },
+    {
+      "source_id": "sw-padme",
+      "reason": "Padmé political trajectory and Tatooine story."
+    },
+    {
+      "source_id": "sw-clone-chip",
+      "reason": "Later animated-series elaboration of Order 66."
+    },
+    {
+      "source_id": "sw-lucasfilm-history",
+      "reason": "Lucasfilm retrospective on the digital-production shift."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "004000-c01",
+      "anchor": "*The Phantom Menace* arrived in 1999",
+      "kind": "release_history",
+      "source_ids": [
+        "sw-lucasfilm-ep1"
+      ],
+      "source_locator": "Named film, episode or official reference identified by source ID",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "004000-c02",
+      "anchor": "*Attack of the Clones* in 2002",
+      "kind": "release_history",
+      "source_ids": [
+        "sw-lucasfilm-ep2"
+      ],
+      "source_locator": "Named film, episode or official reference identified by source ID",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "004000-c03",
+      "anchor": "*Revenge of the Sith* in 2005",
+      "kind": "release_history",
+      "source_ids": [
+        "sw-lucasfilm-ep3"
+      ],
+      "source_locator": "Named film, episode or official reference identified by source ID",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "004000-c04",
+      "anchor": "George Lucas wrote and directed all three",
+      "kind": "film_credits",
+      "source_ids": [
+        "sw-lucasfilm-ep1",
+        "sw-lucasfilm-ep2",
+        "sw-lucasfilm-ep3"
+      ],
+      "source_locator": "Named film, episode or official reference identified by source ID",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "004000-c05",
+      "anchor": "The Trade Federation's blockade of Naboo",
+      "kind": "primary_story",
+      "source_ids": [
+        "sw-lucasfilm-ep1"
+      ],
+      "source_locator": "Named film, episode or official reference identified by source ID",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "004000-c06",
+      "anchor": "The Senate grants emergency powers to fight the separatists",
+      "kind": "official_story_reference",
+      "source_ids": [
+        "sw-senate"
+      ],
+      "source_locator": "Named film, episode or official reference identified by source ID",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "004000-c07",
+      "anchor": "Anakin and Padmé into secrecy and marriage",
+      "kind": "primary_story",
+      "source_ids": [
+        "sw-lucasfilm-ep2",
+        "sw-padme"
+      ],
+      "source_locator": "Named film, episode or official reference identified by source ID",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "004000-c08",
+      "anchor": "He slaughters the camp, including children",
+      "kind": "primary_story",
+      "source_ids": [
+        "sw-padme",
+        "sw-lucasfilm-ep2"
+      ],
+      "source_locator": "Named film, episode or official reference identified by source ID",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "004000-c09",
+      "anchor": "The clones arrive in transports and transform near defeat into military victory",
+      "kind": "primary_story",
+      "source_ids": [
+        "sw-lucasfilm-ep2"
+      ],
+      "source_locator": "Named film, episode or official reference identified by source ID",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "004000-c10",
+      "anchor": "Later *Clone Wars* stories develop the implanted inhibitor chips",
+      "kind": "continuity_distinction",
+      "source_ids": [
+        "sw-clone-chip",
+        "sw-kamino"
+      ],
+      "source_locator": "Named film, episode or official reference identified by source ID",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "004000-c11",
+      "anchor": "*Attack of the Clones* was a landmark in digital feature cinematography",
+      "kind": "production_history",
+      "source_ids": [
+        "sw-lucasfilm-ep2",
+        "sw-lucasfilm-history"
+      ],
+      "source_locator": "Named film, episode or official reference identified by source ID",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "004000-c12",
+      "anchor": "Palpatine sends Order 66 through the clone forces",
+      "kind": "primary_story",
+      "source_ids": [
+        "sw-lucasfilm-ep3",
+        "sw-clone-chip"
+      ],
+      "source_locator": "Named film, episode or official reference identified by source ID",
+      "audit_status": "source_checked"
+    }
+  ]
+}
