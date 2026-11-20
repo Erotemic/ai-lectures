@@ -1,6 +1,6 @@
 # Dragon Ball: From Penguin Village to the End of Z
 
-**Status: started — thirty-three complete, source-annotated audio essays.** This is the active, unified track for Akira Toriyama's early work, *Dr. Slump*, the original *Dragon Ball* adventure, and the material adapted as *Dragon Ball Z*. It **supersedes the earlier proposed `dragon-ball-z` plan**. The thirty-three published lectures are real spoken manuscripts, not placeholders; remaining ideas are in [BACKLOG.md](BACKLOG.md), not in the published `track.json`.
+**Status: complete — thirty-six source-annotated audio essays.** This is the active, unified track for Akira Toriyama's early work, *Dr. Slump*, the original *Dragon Ball* adventure, and the material adapted as *Dragon Ball Z*. It **supersedes the earlier proposed `dragon-ball-z` plan**. All thirty-six entries are fully written spoken manuscripts, not placeholders; [BACKLOG.md](BACKLOG.md) records the completed scope and any future editorial considerations.
 
 ## Why begin before Goku?
 
@@ -66,9 +66,21 @@ Three new essays extend the critical discussion beyond the manga and original te
 
 These are full standalone, spoiler-rich essays; their measured narration is about 24–28 minutes each. The content pack includes only text and research metadata, not audio or audiovisual media.
 
+## Completed conclusion: adult Goku, Gohan, and the historical capstone
+
+The original manga's main narrative and its principal film, television, music, and craft contexts are now covered. The two reserved character studies have distinct arguments rather than repeating the childhood Goku essay or the Cell Games: one examines Goku's generosity and risk in the age of world-ending stakes; the other gives Gohan's peaceful adulthood and Great Saiyaman years their full importance. A long, standalone historical finale brings the complete work back to Toriyama's earliest cartooning and the first meeting of Goku and Bulma.
+
+| ID | Essay | Question |
+| --- | --- | --- |
+| `016000` | **Goku Is Not the Hero People Keep Asking Him to Be** | How can one love worthy rivals, save worlds, and still make ethically dangerous decisions about other people's futures? |
+| `019000` | **Gohan: The Hero Who Doesn't Want the Job** | What does a gifted fighter want from life when the world no longer needs him to fight? |
+| `036000` | **Dragon Ball: From the First Joke to the Last Fight** | How did Toriyama's comic inventions become an epic that repeatedly turns endings into new relationships? |
+
+All three are complete spoiler-rich manuscripts with exact spoken-region markers and companion source notes. The capstone ends both the default beginning-to-end collection and the Goku-first route. **The original-manga track has a planned ending and is now complete.** Later franchise branches are independent subjects, not pending work to finish this one.
+
 ## Listening routes
 
-- **From the Beginning** (default) — all thirty-three essays in sequence, continuing forward as new manuscripts are completed. The central plot of *Dragon Ball* begins at `003000`, but the series deliberately opens with the artist and *Dr. Slump*.
+- **From the Beginning** (default) — all thirty-six essays in sequence, ending with the historical capstone. The central plot of *Dragon Ball* begins at `003000`, but the series deliberately opens with the artist and *Dr. Slump*.
 - **Before Goku** — two substantive, independently listenable essays on Toriyama and *Dr. Slump*.
 - **Start with Goku** — `003000` onward for listeners who want to begin with Goku, including Namek, Frieza and Vegeta’s later journey, without *Dr. Slump* prerequisites.
 - **Character and Drawing** — Goku, Toriyama’s visual design, Piccolo, Vegeta and the Super Saiyan image (`011000`, `012000`, `018000`, `017000`, `023000`), including some later-story spoilers.
@@ -76,7 +88,7 @@ These are full standalone, spoiler-rich essays; their measured narration is abou
 - **Turning Points and Futures** — five complete essays on Super Saiyan, Trunks, Piccolo, the horror of Cell and Gohan’s victory.
 - **The Androids and Cell** — Future Trunks, Cell, Gohan, Bulma and Krillin, and Piccolo; a complete spoiler-rich themed route.
 - **Majin Buu: The Last Act** — Three essays on the changing genre, Majin Vegeta, and the friendship of Mr. Satan and Buu.
-- **Drawing, Transformations, and Television** — Seven completed essays spanning machine/world design, the 1986 anime, the first Super Saiyan, manga choreography, transformation design, and *Z*/*Kai* pacing, plus voice and music across broadcasts. Future fan routes should include only finished manuscripts, with the eventual historical capstone last.
+- **Drawing, Transformations, and Television** — Seven completed essays spanning machine/world design, the 1986 anime, the first Super Saiyan, manga choreography, transformation design, and *Z*/*Kai* pacing, plus voice and music across broadcasts. Every route refers only to finished manuscripts; the main routes end with the historical capstone.
 
 - **Beyond the Original Page** — Five essays on television presentation, dubbing, resurrection, films, and video games; spoiler-rich and media-focused.
 
@@ -90,6 +102,6 @@ These are full standalone, spoiler-rich essays; their measured narration is abou
 - Source media: no licensed manga scans, anime stills, clips, music, fonts, or binary artwork in text overlays. Sources and topical links are non-spoken.
 - Period/geography: tags include Japan, Aichi, Nagoya, Tokyo, 1970s/1980s and manga history when appropriate. These are history-of-creation tags; do not confuse them with fictional geography.
 
-## Continuing the track
+## Scope of completion
 
-Published manuscripts now run from Toriyama’s early work to the final confrontation with Majin Buu. The newest essays examine dubbing and musical identity, the changing cost of resurrection, and the afterlives of Dragon Ball in films, video games, and different markets. Broad Goku and Gohan portraits and the long historical capstone remain proposed; any topic may be combined or declined if a full new argument is not justified. See [BACKLOG.md](BACKLOG.md) for the larger editorial map. The final historical essay should be written after enough of the track exists to support a genuine synthesis.
+This thirty-six-essay track runs from Toriyama’s early work and *Dr. Slump* through the ending of the original *Dragon Ball* manga and its later media adaptations, with distinct Goku and Gohan portraits and a final historical synthesis. The original-manga track is complete; later continuities, dedicated film or game studies, and optional future specials would be separate editorial decisions rather than an unfinished portion of this track. See [BACKLOG.md](BACKLOG.md) for the complete inventory.

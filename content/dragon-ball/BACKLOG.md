@@ -1,6 +1,6 @@
 # Dragon Ball: editorial map and future essays
 
-**Current state:** Thirty-three complete manuscripts are published in `track.json`. All remaining proposed IDs below are **prospective**. They are not empty recordings, catalog entries, or commitments to a quota. Merge or replace adjacent ideas when that gives a better, more substantial listen. Drafts should supply enough plot to orient a listener but favor criticism, character, craft, production and real historical context over systematic recaps. Maintain the numbering of released lectures.
+**Current state:** Thirty-six complete manuscripts are published in `track.json`. The original-manga track is complete, including the historical capstone. There are no unwritten lecture placeholders in the catalog; any future specials will be separately chosen editorial work. Merge or replace adjacent ideas when that gives a better, more substantial listen. Drafts should supply enough plot to orient a listener but favor criticism, character, craft, production and real historical context over systematic recaps. Maintain the numbering of released lectures.
 
 ## Completed opening: the artist before the hero
 
@@ -62,12 +62,10 @@
 - **031000 — How to Draw a Transformation.** Oozaru, Kaiō-ken, Frieza, first Super Saiyan, expanded grades, Super Saiyan 3 and fusion as different artistic and dramatic proposals. Complete; ~22 minutes.
 - **032000 — Five Minutes Until Namek Explodes: What Weekly Anime Does to Time.** Manga-to-television duration, weekly scheduling and cliffhangers, anime-original arcs and *Kai* revisions, with both the pleasures and costs of delay. Complete; ~27 minutes.
 
-## More character essays
+## Completed conclusion: two full character studies
 
-| ID | Proposed essay | Central question |
-| --- | --- | --- |
-| `016000` | **Goku Is Not the Hero People Keep Asking Him to Be** | His appetite for hard fights, generosity and ethically difficult decisions: Frieza, Cell, and withdrawal. Competing readings of a benevolent hero who does not always behave like a responsible savior. |
-| `019000` | **Gohan: The Hero Who Doesn't Want the Job** | Childhood violence, latent potential, the Cell Games, school comedy and the distance between what fans want of him and what the character seems to want. |
+- **016000 — Goku Is Not the Hero People Keep Asking Him to Be.** Adult Goku's generosity, enjoyment of competition, ethically difficult decisions, parenting, sacrifice, and mentorship. Complete; full-original-manga spoilers.
+- **019000 — Gohan: The Hero Who Doesn't Want the Job.** His distinction from Goku, the Great Saiyaman comedy, Videl, scholarship, the Cell Games and Buu era, and the possibility of a life not organized around winning. Complete; full-original-manga spoilers.
 
 ## Completed continuation: the show's sound, resurrection and other media
 
@@ -75,14 +73,14 @@
 - **034000 — Death, Dragon Balls, and the Price of a Second Chance.** Upa and Bora, Krillin and King Piccolo, the two dragons' rules, Namek's rescue logistics, Goku's choice to remain dead, and Buu's vast restoration. Complete; ~28 minutes.
 - **035000 — The Dragon Ball That Escaped the Manga: Films, Games, and Other Lives.** Bardock, Broly, stand-alone movie continuities, Budokai/Sparking, Xenoverse, FighterZ, Kakarot and the different histories of audiences beyond Japan. Complete; ~28 minutes.
 
-## Planned conclusion, not yet a catalog entry
+## Completed extended historical capstone
 
-**036000 — Dragon Ball: From the First Joke to the Last Fight.** A long, independently satisfying capstone, written when the individual essays are mature: Toriyama's early published work, *Dr. Slump*, the novel idea of a Monkey King-inspired road story, tournaments, the Red Ribbon Army, Piccolo, Raditz's rupture, Namek and Super Saiyan, the Androids and Cell, Buu's return to comic invention, the anime's various international lives, and Toriyama's wider artistic legacy. The capstone should synthesize with **new arguments**, not reiterate each essay's plot. This should close the track, not automatically generate a queue of sequel tasks.
+- **036000 — Dragon Ball: From the First Joke to the Last Fight.** A substantial standalone historical conclusion, beginning with the original manga's final return to Goku and Bulma's first meeting, tracing Toriyama's early cartooning and Dr. Slump, the continual reinvention of Dragon Ball, relationships and fighting, TV and international afterlives, and the Uub ending. Complete; the capstone ends both major listening routes.
 
 ## Editorial and research reminders
 
-- **Priority next:** The full original-manga story and three further media/craft essays are complete. The remaining reserved character studies, `016000` and `019000`, are optional only if they bring arguments not already given to Goku, Gohan and Cell. The major remaining project is the extended historical capstone (`036000`), which should make a new synthesis rather than repeat each arc. Keep stable IDs and don't create placeholders.
+- **Current status:** The original-manga track is complete at thirty-six manuscripts. The two character portraits and the historical capstone are fully written, registered, and annotated. Do not automatically generate more lectures merely because a franchise has further stories.
 - **Crossings between media:** Distinguish the 1984–1995 original continuous manga, the 1986 *Dragon Ball* TV series, 1989–1996 *Dragon Ball Z*, *Kai*, dubbing cuts and individual film continuities. Do not import later sequel backstory as evidence of Toriyama's original intentions in 1984.
 - **Oral style:** Every essay must be enjoyable without images or game footage. Explain the physical action and panel layout sufficiently for an audio listener. Include original criticism, memorable scenes and well-supported creator history; do not deliver listicles of trivia or fights.
 - **Biographical rigor:** Attribute editor anecdotes to Torishima or Toriyama and identify differences in their later recollections. Do not invent private conversations, emotional reactions or editorial orders where records do not exist.
-- **Future additions:** Only manuscripts explicitly listed as complete are published; all remaining numbered proposals are unwritten. Register a lecture only when its manuscript and sources have been written. Reference `README.md` for published routes.
+- **Future additions:** Any newly chosen special requires a substantive manuscript and matching sources before it is added to the catalog; there are no currently numbered unwritten lectures. Reference `README.md` for published routes.

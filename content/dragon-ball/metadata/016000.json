@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "lecture_id": "016000",
+  "transcript": "016000-goku-is-not-the-hero-people-keep-asking-him-to-be.md",
+  "related_resources": [
+    {
+      "source_id": "db-official-fighting-morality",
+      "reason": "Expert commentary uses the Cell Games Senzu choice to read Goku as a fighter motivated by the contest; not proof of author intent."
+    },
+    {
+      "source_id": "db-official-gohan-cell",
+      "reason": "Original manga episode anchors for Goku, Gohan and Cell Games."
+    },
+    {
+      "source_id": "db-official-cell-perfect",
+      "reason": "Cell self-destruction and Goku’s death; original manga tale anchors."
+    },
+    {
+      "source_id": "db-official-vegeta-saiyan",
+      "reason": "Saiyan invasion and Goku’s decision to leave Vegeta alive; character history."
+    },
+    {
+      "source_id": "db-official-goku-family-home",
+      "reason": "Goku, Chichi, Gohan and Goten’s household details."
+    },
+    {
+      "source_id": "db-finale-issue-1995",
+      "reason": "Uub and Goku’s new mentorship at the final tournament."
+    },
+    {
+      "source_id": "db-official-panels-42-pt3",
+      "reason": "Original manga Cell and Buu arc overview and final encounter."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "016000-c01",
+      "anchor": "Goku gives Cell a Senzu bean",
+      "kind": "story_event",
+      "source_ids": [
+        "db-official-fighting-morality",
+        "db-official-gohan-cell"
+      ],
+      "source_locator": "Cell Games; original manga and official expert commentary",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "016000-c02",
+      "anchor": "Goku asks him not to",
+      "kind": "story_event",
+      "source_ids": [
+        "db-official-vegeta-saiyan"
+      ],
+      "source_locator": "Saiyan invasion; Krillin prepares to kill Vegeta and Goku intercedes",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "016000-c03",
+      "anchor": "Goku then has to intervene when Cell threatens to destroy the planet",
+      "kind": "story_event",
+      "source_ids": [
+        "db-official-cell-perfect"
+      ],
+      "source_locator": "Cell Games, original manga Tales 412–415",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "016000-c04",
+      "anchor": "Chi-Chi raises Gohan, manages a household",
+      "kind": "character_record",
+      "source_ids": [
+        "db-official-goku-family-home"
+      ],
+      "source_locator": "Official neighborhood profile, Goku’s family",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "016000-c05",
+      "anchor": "years after Buu's defeat at another World Martial Arts Tournament",
+      "kind": "story_event",
+      "source_ids": [
+        "db-finale-issue-1995"
+      ],
+      "source_locator": "Original manga final chapter, Weekly Shonen Jump 1995 no.25",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}
