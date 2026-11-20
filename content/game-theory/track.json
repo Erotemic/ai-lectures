@@ -1,0 +1,201 @@
+{
+  "id": "game-theory",
+  "title": "Game Theory: Choices, Equilibria, and Designed Rules",
+  "categories": [
+    "Mathematics"
+  ],
+  "summary": "A worked mathematical course from matrix games and Nash equilibrium to credible commitments, Bayesian bidding, and incentive-compatible mechanisms. Each lecture develops a testable claim through exact payoff calculations and proof arguments.",
+  "assumed_background": [
+    "Elementary algebra, discrete probability, expected values, and willingness to work through proofs. Elementary derivatives and geometric series appear in the later lectures and are explained where needed."
+  ],
+  "sections": [
+    "security-and-minimax",
+    "nash-and-coordination",
+    "extensive-and-repeated-games",
+    "bayesian-games",
+    "mechanism-design"
+  ],
+  "lectures": [
+    {
+      "id": "001000",
+      "title": "When Randomness Becomes a Strategy: Matrix Games and Minimax",
+      "section": "security-and-minimax",
+      "file": "001000-when-randomness-becomes-a-strategy.md",
+      "spoken_words": 2186,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 15.1,
+      "description": "Derives optimal mixed strategies for an asymmetric two-by-two zero-sum game, then obtains minimax as a primal-dual certificate.",
+      "tags": [
+        "Game theory",
+        "Zero-sum games",
+        "Mixed strategies",
+        "Minimax theorem",
+        "Linear programming",
+        "Duality"
+      ],
+      "tag_paths": [
+        [
+          "Mathematics",
+          "Game theory",
+          "Zero-sum games",
+          "Minimax theorem"
+        ],
+        [
+          "Mathematics",
+          "Optimization",
+          "Linear programming",
+          "Duality"
+        ]
+      ]
+    },
+    {
+      "id": "002000",
+      "title": "Mutual Best Responses: Nash Equilibrium Without a Common Objective",
+      "section": "nash-and-coordination",
+      "file": "002000-mutual-best-responses-and-nash-equilibrium.md",
+      "spoken_words": 2278,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 15.7,
+      "description": "Calculates pure and mixed Nash equilibria, proves support-indifference rules, sketches the finite-game existence theorem, and contrasts correlated coordination.",
+      "tags": [
+        "Game theory",
+        "Nash equilibrium",
+        "Best response",
+        "Mixed strategies",
+        "Correlated equilibrium",
+        "Fixed-point theorem"
+      ],
+      "tag_paths": [
+        [
+          "Mathematics",
+          "Game theory",
+          "Nash equilibrium",
+          "Mixed strategies"
+        ],
+        [
+          "Mathematics",
+          "Game theory",
+          "Correlated equilibrium"
+        ],
+        [
+          "Mathematics",
+          "Topology",
+          "Fixed-point theorems"
+        ]
+      ]
+    },
+    {
+      "id": "003000",
+      "title": "Credible Threats and the Arithmetic of Repeated Cooperation",
+      "section": "extensive-and-repeated-games",
+      "file": "003000-credible-threats-and-repeated-cooperation.md",
+      "spoken_words": 2216,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 15.3,
+      "description": "Uses backward induction and subgame perfection to reject an off-path threat, then derives the discount threshold for grim-trigger cooperation.",
+      "tags": [
+        "Game theory",
+        "Extensive-form games",
+        "Backward induction",
+        "Subgame-perfect equilibrium",
+        "Repeated games",
+        "Discount factors"
+      ],
+      "tag_paths": [
+        [
+          "Mathematics",
+          "Game theory",
+          "Sequential games",
+          "Subgame-perfect equilibrium"
+        ],
+        [
+          "Mathematics",
+          "Game theory",
+          "Repeated games",
+          "Incentive constraints"
+        ]
+      ]
+    },
+    {
+      "id": "004000",
+      "title": "Strategies When Information Is Private: Bayesian Games and Bidding",
+      "section": "bayesian-games",
+      "file": "004000-strategies-when-information-is-private.md",
+      "spoken_words": 1954,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 13.5,
+      "description": "Introduces type-contingent best responses and posterior beliefs, then derives a complete two-bidder first-price auction equilibrium.",
+      "tags": [
+        "Game theory",
+        "Bayesian games",
+        "Incomplete information",
+        "Bayes theorem",
+        "First-price auctions",
+        "Bayesian Nash equilibrium"
+      ],
+      "tag_paths": [
+        [
+          "Mathematics",
+          "Game theory",
+          "Bayesian games",
+          "Bayesian Nash equilibrium"
+        ],
+        [
+          "Mathematics",
+          "Probability",
+          "Conditional probability",
+          "Bayes theorem"
+        ],
+        [
+          "Mathematics",
+          "Game theory",
+          "Auctions"
+        ]
+      ]
+    },
+    {
+      "id": "005000",
+      "title": "Rules That Make Truthful Play Rational: Auctions and Mechanism Design",
+      "section": "mechanism-design",
+      "file": "005000-rules-that-make-truthful-play-rational.md",
+      "spoken_words": 2300,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 15.9,
+      "description": "Proves second-price truthful bidding, derives Groves payments and a Clarke-pivot example, and states the revelation principle with its limits.",
+      "tags": [
+        "Game theory",
+        "Mechanism design",
+        "Second-price auctions",
+        "Dominant strategies",
+        "VCG mechanisms",
+        "Revelation principle",
+        "Incentive compatibility"
+      ],
+      "tag_paths": [
+        [
+          "Mathematics",
+          "Game theory",
+          "Mechanism design",
+          "Incentive compatibility"
+        ],
+        [
+          "Mathematics",
+          "Game theory",
+          "Auctions",
+          "Second-price auctions"
+        ],
+        [
+          "Mathematics",
+          "Game theory",
+          "VCG mechanisms"
+        ]
+      ]
+    }
+  ],
+  "tags": [
+    "Mathematics",
+    "Game theory",
+    "Strategic interaction",
+    "Equilibrium"
+  ]
+}

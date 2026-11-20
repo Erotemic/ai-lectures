@@ -1,0 +1,96 @@
+{
+  "default_collection": "foundations",
+  "collections": [
+    {
+      "id": "foundations",
+      "title": "Game Theory: Choices, Equilibria, and Designed Rules - Foundation Course",
+      "role": "main",
+      "lectures": [
+        "001000",
+        "002000",
+        "003000",
+        "004000",
+        "005000"
+      ],
+      "assumed_background": [
+        "Expected values, elementary algebra, and basic probability. Calculus enters in the Bayesian auction example."
+      ],
+      "preparation_collections": [
+        "probability-measure:established-course",
+        "optimization-duality:survey"
+      ],
+      "tags": [
+        "Mathematics",
+        "Game theory",
+        "Nash equilibrium",
+        "Mechanism design"
+      ]
+    },
+    {
+      "id": "minimax-and-equilibrium",
+      "title": "From Security Guarantees to Mutual Best Responses",
+      "role": "deep_dive",
+      "parent": "foundations",
+      "lectures": [
+        "001000",
+        "002000"
+      ],
+      "assumed_background": [
+        "Finite probability and linear equations; no prior game theory."
+      ],
+      "related_collections": [
+        "optimization-duality:survey"
+      ],
+      "tags": [
+        "Minimax theorem",
+        "Nash equilibrium",
+        "Mixed strategies"
+      ]
+    },
+    {
+      "id": "credibility-and-information",
+      "title": "What Changes When Players Remember or Know More",
+      "role": "deep_dive",
+      "parent": "foundations",
+      "lectures": [
+        "002000",
+        "003000",
+        "004000"
+      ],
+      "assumed_background": [
+        "Normal-form games, conditional probability, and geometric series."
+      ],
+      "related_collections": [
+        "probability-measure:established-course"
+      ],
+      "tags": [
+        "Repeated games",
+        "Bayesian games",
+        "Subgame-perfect equilibrium"
+      ]
+    },
+    {
+      "id": "auction-and-incentives",
+      "title": "Auctions and Mechanism Design",
+      "role": "deep_dive",
+      "parent": "foundations",
+      "lectures": [
+        "002000",
+        "004000",
+        "005000"
+      ],
+      "assumed_background": [
+        "Expected utility, conditional probability, and simple derivatives."
+      ],
+      "related_collections": [
+        "optimization-duality:survey"
+      ],
+      "tags": [
+        "First-price auctions",
+        "Second-price auctions",
+        "Mechanism design",
+        "VCG mechanisms"
+      ]
+    }
+  ]
+}

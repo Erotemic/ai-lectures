@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "lecture_id": "005000",
+  "transcript": "005000-rules-that-make-truthful-play-rational.md",
+  "description": "Proves second-price truthful bidding, derives Groves payments and a Clarke-pivot example, and states the revelation principle with its limits.",
+  "tags": [
+    "Game theory",
+    "Mechanism design",
+    "Second-price auctions",
+    "Dominant strategies",
+    "VCG mechanisms",
+    "Revelation principle",
+    "Incentive compatibility"
+  ],
+  "tag_paths": [
+    [
+      "Mathematics",
+      "Game theory",
+      "Mechanism design",
+      "Incentive compatibility"
+    ],
+    [
+      "Mathematics",
+      "Game theory",
+      "Auctions",
+      "Second-price auctions"
+    ],
+    [
+      "Mathematics",
+      "Game theory",
+      "VCG mechanisms"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "gt-mit2025",
+      "reason": "Technical reference for the theorem and the underlying definitions. The worked examples and prose are independently authored."
+    },
+    {
+      "source_id": "gt-mitengineering",
+      "reason": "Technical reference for the theorem and the underlying definitions. The worked examples and prose are independently authored."
+    },
+    {
+      "source_id": "gt-yale",
+      "reason": "Technical reference for the theorem and the underlying definitions. The worked examples and prose are independently authored."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-20",
+    "scope": "Original spoken lecture, mathematical derivations, verified teaching examples, and non-spoken companion."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "game-theory:004000",
+        "reason": "Private values, Bayesian bidding, and type-contingent strategies."
+      },
+      {
+        "lecture_id": "game-theory:002000",
+        "reason": "Best-response and dominance reasoning."
+      }
+    ],
+    "background": [
+      "Basic algebra, maximum operators, payoffs, and incentive inequalities."
+    ],
+    "readiness_checks": [
+      "Prove truthful bidding is weakly dominant in a second-price auction.",
+      "Compute the VCG pivot payment in a two-project model.",
+      "Explain the revelation principle without claiming that every social choice rule is implementable."
+    ]
+  },
+  "claim_evidence": [
+    {
+      "id": "gt-005000-c001",
+      "anchor": "That proves truthful bidding is a **weakly dominant strategy**.",
+      "source_ids": [
+        "gt-mit2025",
+        "gt-mitengineering",
+        "gt-yale"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Spoken argument and mathematical companion",
+      "evidence_detail": "The manuscript states the hypotheses and derives or checks this claim; the source records give standard published theorem treatments."
+    },
+    {
+      "id": "gt-005000-c002",
+      "anchor": "This argument establishes dominant-strategy incentive compatibility",
+      "source_ids": [
+        "gt-mit2025",
+        "gt-mitengineering",
+        "gt-yale"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Spoken argument and mathematical companion",
+      "evidence_detail": "The manuscript states the hypotheses and derives or checks this claim; the source records give standard published theorem treatments."
+    },
+    {
+      "id": "gt-005000-c003",
+      "anchor": "The **revelation principle** says, roughly,",
+      "source_ids": [
+        "gt-mit2025",
+        "gt-mitengineering",
+        "gt-yale"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Spoken argument and mathematical companion",
+      "evidence_detail": "The manuscript states the hypotheses and derives or checks this claim; the source records give standard published theorem treatments."
+    }
+  ]
+}

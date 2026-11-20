@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "sources": {
+    "gt-mit2025": {
+      "title": "MIT OpenCourseWare, 14.12 Economic Applications of Game Theory (Fall 2025), lecture notes and calendar",
+      "kind": "university_course_notes",
+      "url": "https://ocw.mit.edu/courses/14-12-economic-applications-of-game-theory-fall-2025/resources/lecture-notes/",
+      "access": "free_no_login",
+      "notes": "Chapters on game representations, Nash equilibrium, backward induction, repeated games, Bayesian games, and auction applications. The lecture calendar also identifies minimax and auction sessions."
+    },
+    "gt-yale": {
+      "title": "Ben Polak, Game Theory (ECON 159), Open Yale Courses, Fall 2007",
+      "kind": "university_course",
+      "url": "https://oyc.yale.edu/economics/econ-159",
+      "access": "free_no_login",
+      "notes": "Mixed strategies, equilibrium, repeated games, asymmetric information, and auctions, with complete course lecture index."
+    },
+    "gt-mitengineering": {
+      "title": "MIT OpenCourseWare, 6.254 Game Theory with Engineering Applications (Spring 2010), syllabus",
+      "kind": "university_course",
+      "url": "https://ocw.mit.edu/courses/6-254-game-theory-with-engineering-applications-spring-2010/pages/syllabus/",
+      "access": "free_no_login",
+      "notes": "Theoretical foundations including Nash and correlated equilibria, Bayesian games, mechanism design, revelation principle, and VCG mechanisms."
+    },
+    "gt-computational": {
+      "title": "Tomas Kroupa, Computational Game Theory, Chapter 4: Two-player zero-sum games",
+      "kind": "open_textbook_chapter",
+      "url": "https://tomaskroupa.github.io/quarto-game-theory-course/lectures/04-two-player-zero-sum-games.html",
+      "access": "free_no_login",
+      "notes": "Explicit primal-dual linear-program formulation, weak and strong duality, and minimax theorem."
+    },
+    "gt-mitmatrix": {
+      "title": "Gilbert Strang, MIT OpenCourseWare 18.065, Lecture 24: Linear Programming and Two-Person Games",
+      "kind": "university_course_lecture",
+      "url": "https://www.ocw.mit.edu/courses/18-065-matrix-methods-in-data-analysis-signal-processing-and-machine-learning-spring-2018/resources/lecture-24-linear-programming-and-two-person-games/",
+      "access": "free_no_login",
+      "notes": "Connections among matrix games, linear programming, and duality."
+    }
+  }
+}

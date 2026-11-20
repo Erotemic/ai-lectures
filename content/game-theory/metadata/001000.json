@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "lecture_id": "001000",
+  "transcript": "001000-when-randomness-becomes-a-strategy.md",
+  "description": "Derives optimal mixed strategies for an asymmetric two-by-two zero-sum game, then obtains minimax as a primal-dual certificate.",
+  "tags": [
+    "Game theory",
+    "Zero-sum games",
+    "Mixed strategies",
+    "Minimax theorem",
+    "Linear programming",
+    "Duality"
+  ],
+  "tag_paths": [
+    [
+      "Mathematics",
+      "Game theory",
+      "Zero-sum games",
+      "Minimax theorem"
+    ],
+    [
+      "Mathematics",
+      "Optimization",
+      "Linear programming",
+      "Duality"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "gt-mit2025",
+      "reason": "Technical reference for the theorem and the underlying definitions. The worked examples and prose are independently authored."
+    },
+    {
+      "source_id": "gt-computational",
+      "reason": "Technical reference for the theorem and the underlying definitions. The worked examples and prose are independently authored."
+    },
+    {
+      "source_id": "gt-mitmatrix",
+      "reason": "Technical reference for the theorem and the underlying definitions. The worked examples and prose are independently authored."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "gt-001000-h01",
+      "anchor": "Von Neumann's minimax theorem",
+      "kind": "historical_research",
+      "source_ids": [
+        "gt-computational"
+      ],
+      "source_locator": "Course reading and theorem context",
+      "audit_status": "reference_recorded"
+    }
+  ],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-20",
+    "scope": "Original spoken lecture, mathematical derivations, verified teaching examples, and non-spoken companion."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "probability-measure:003000",
+        "reason": "Expectation and probability distributions, used to calculate mixed-strategy payoffs."
+      }
+    ],
+    "background": [
+      "Elementary algebra, probability fractions, and expected value. Linear programming is motivated inside the lecture."
+    ],
+    "readiness_checks": [
+      "Find optimal security mixtures and the game value in a two-by-two matrix.",
+      "Write the primal and dual linear programs for a finite matrix game.",
+      "Distinguish a mathematical security strategy from an opponent-belief model."
+    ]
+  },
+  "claim_evidence": [
+    {
+      "id": "gt-001000-c001",
+      "anchor": "Von Neumann's minimax theorem says that for every finite two-person zero-sum game",
+      "source_ids": [
+        "gt-mit2025",
+        "gt-computational",
+        "gt-mitmatrix"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Spoken argument and mathematical companion",
+      "evidence_detail": "The manuscript states the hypotheses and derives or checks this claim; the source records give standard published theorem treatments."
+    },
+    {
+      "id": "gt-001000-c002",
+      "anchor": "The row player's maximization problem and the column player's minimization problem form a primal-dual pair",
+      "source_ids": [
+        "gt-mit2025",
+        "gt-computational",
+        "gt-mitmatrix"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Spoken argument and mathematical companion",
+      "evidence_detail": "The manuscript states the hypotheses and derives or checks this claim; the source records give standard published theorem treatments."
+    }
+  ]
+}

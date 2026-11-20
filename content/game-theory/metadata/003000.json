@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "lecture_id": "003000",
+  "transcript": "003000-credible-threats-and-repeated-cooperation.md",
+  "description": "Uses backward induction and subgame perfection to reject an off-path threat, then derives the discount threshold for grim-trigger cooperation.",
+  "tags": [
+    "Game theory",
+    "Extensive-form games",
+    "Backward induction",
+    "Subgame-perfect equilibrium",
+    "Repeated games",
+    "Discount factors"
+  ],
+  "tag_paths": [
+    [
+      "Mathematics",
+      "Game theory",
+      "Sequential games",
+      "Subgame-perfect equilibrium"
+    ],
+    [
+      "Mathematics",
+      "Game theory",
+      "Repeated games",
+      "Incentive constraints"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "gt-mit2025",
+      "reason": "Technical reference for the theorem and the underlying definitions. The worked examples and prose are independently authored."
+    },
+    {
+      "source_id": "gt-yale",
+      "reason": "Technical reference for the theorem and the underlying definitions. The worked examples and prose are independently authored."
+    },
+    {
+      "source_id": "gt-mitengineering",
+      "reason": "Technical reference for the theorem and the underlying definitions. The worked examples and prose are independently authored."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-20",
+    "scope": "Original spoken lecture, mathematical derivations, verified teaching examples, and non-spoken companion."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "game-theory:002000",
+        "reason": "Uses the Nash best-response definition to distinguish equilibrium from subgame perfection."
+      }
+    ],
+    "background": [
+      "Finite decision trees, geometric series, and elementary inequalities."
+    ],
+    "readiness_checks": [
+      "Distinguish Nash from subgame-perfect strategies in the market-entry tree.",
+      "Derive the grim-trigger condition delta >= 1/2.",
+      "Explain the dependence on perfect monitoring and infinite horizon."
+    ]
+  },
+  "claim_evidence": [
+    {
+      "id": "gt-003000-c001",
+      "anchor": "A subgame-perfect Nash equilibrium requires",
+      "source_ids": [
+        "gt-mit2025",
+        "gt-yale",
+        "gt-mitengineering"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Spoken argument and mathematical companion",
+      "evidence_detail": "The manuscript states the hypotheses and derives or checks this claim; the source records give standard published theorem treatments."
+    },
+    {
+      "id": "gt-003000-c002",
+      "anchor": "Therefore delta must be at least one half.",
+      "source_ids": [
+        "gt-mit2025",
+        "gt-yale",
+        "gt-mitengineering"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Spoken argument and mathematical companion",
+      "evidence_detail": "The manuscript states the hypotheses and derives or checks this claim; the source records give standard published theorem treatments."
+    },
+    {
+      "id": "gt-003000-c003",
+      "anchor": "a one-shot deviation principle says a strategy profile",
+      "source_ids": [
+        "gt-mit2025",
+        "gt-yale",
+        "gt-mitengineering"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Spoken argument and mathematical companion",
+      "evidence_detail": "The manuscript states the hypotheses and derives or checks this claim; the source records give standard published theorem treatments."
+    }
+  ]
+}

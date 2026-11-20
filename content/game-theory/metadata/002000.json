@@ -1,0 +1,118 @@
+{
+  "schema_version": 1,
+  "lecture_id": "002000",
+  "transcript": "002000-mutual-best-responses-and-nash-equilibrium.md",
+  "description": "Calculates pure and mixed Nash equilibria, proves support-indifference rules, sketches the finite-game existence theorem, and contrasts correlated coordination.",
+  "tags": [
+    "Game theory",
+    "Nash equilibrium",
+    "Best response",
+    "Mixed strategies",
+    "Correlated equilibrium",
+    "Fixed-point theorem"
+  ],
+  "tag_paths": [
+    [
+      "Mathematics",
+      "Game theory",
+      "Nash equilibrium",
+      "Mixed strategies"
+    ],
+    [
+      "Mathematics",
+      "Game theory",
+      "Correlated equilibrium"
+    ],
+    [
+      "Mathematics",
+      "Topology",
+      "Fixed-point theorems"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "gt-mit2025",
+      "reason": "Technical reference for the theorem and the underlying definitions. The worked examples and prose are independently authored."
+    },
+    {
+      "source_id": "gt-yale",
+      "reason": "Technical reference for the theorem and the underlying definitions. The worked examples and prose are independently authored."
+    },
+    {
+      "source_id": "gt-mitengineering",
+      "reason": "Technical reference for the theorem and the underlying definitions. The worked examples and prose are independently authored."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "gt-002000-h01",
+      "anchor": "Nash's existence theorem",
+      "kind": "historical_research",
+      "source_ids": [
+        "gt-mit2025"
+      ],
+      "source_locator": "Course reading and theorem context",
+      "audit_status": "reference_recorded"
+    }
+  ],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-20",
+    "scope": "Original spoken lecture, mathematical derivations, verified teaching examples, and non-spoken companion."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "game-theory:001000",
+        "reason": "Introduces strategic payoff tables and mixtures of pure actions."
+      }
+    ],
+    "background": [
+      "Algebraic manipulation of expected payoffs, finite probability distributions, and the concept of optimization."
+    ],
+    "readiness_checks": [
+      "Solve the support indifference equations in a coordination game.",
+      "Verify a Nash equilibrium by checking all pure deviations.",
+      "Explain why Nash equilibrium does not imply Pareto efficiency or correlated coordination."
+    ]
+  },
+  "claim_evidence": [
+    {
+      "id": "gt-002000-c001",
+      "anchor": "A **Nash equilibrium** is a collection of strategies",
+      "source_ids": [
+        "gt-mit2025",
+        "gt-yale",
+        "gt-mitengineering"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Spoken argument and mathematical companion",
+      "evidence_detail": "The manuscript states the hypotheses and derives or checks this claim; the source records give standard published theorem treatments."
+    },
+    {
+      "id": "gt-002000-c002",
+      "anchor": "Nash's existence theorem says that **every finite game**",
+      "source_ids": [
+        "gt-mit2025",
+        "gt-yale",
+        "gt-mitengineering"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Spoken argument and mathematical companion",
+      "evidence_detail": "The manuscript states the hypotheses and derives or checks this claim; the source records give standard published theorem treatments."
+    },
+    {
+      "id": "gt-002000-c003",
+      "anchor": "This is a correlated equilibrium.",
+      "source_ids": [
+        "gt-mit2025",
+        "gt-yale",
+        "gt-mitengineering"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Spoken argument and mathematical companion",
+      "evidence_detail": "The manuscript states the hypotheses and derives or checks this claim; the source records give standard published theorem treatments."
+    }
+  ]
+}

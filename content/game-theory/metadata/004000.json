@@ -1,0 +1,115 @@
+{
+  "schema_version": 1,
+  "lecture_id": "004000",
+  "transcript": "004000-strategies-when-information-is-private.md",
+  "description": "Introduces type-contingent best responses and posterior beliefs, then derives a complete two-bidder first-price auction equilibrium.",
+  "tags": [
+    "Game theory",
+    "Bayesian games",
+    "Incomplete information",
+    "Bayes theorem",
+    "First-price auctions",
+    "Bayesian Nash equilibrium"
+  ],
+  "tag_paths": [
+    [
+      "Mathematics",
+      "Game theory",
+      "Bayesian games",
+      "Bayesian Nash equilibrium"
+    ],
+    [
+      "Mathematics",
+      "Probability",
+      "Conditional probability",
+      "Bayes theorem"
+    ],
+    [
+      "Mathematics",
+      "Game theory",
+      "Auctions"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "gt-mit2025",
+      "reason": "Technical reference for the theorem and the underlying definitions. The worked examples and prose are independently authored."
+    },
+    {
+      "source_id": "gt-yale",
+      "reason": "Technical reference for the theorem and the underlying definitions. The worked examples and prose are independently authored."
+    },
+    {
+      "source_id": "gt-mitengineering",
+      "reason": "Technical reference for the theorem and the underlying definitions. The worked examples and prose are independently authored."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "gt-004000-h01",
+      "anchor": "This is the Harsanyi type-space construction.",
+      "kind": "historical_research",
+      "source_ids": [
+        "gt-mit2025"
+      ],
+      "source_locator": "Course reading and theorem context",
+      "audit_status": "reference_recorded"
+    }
+  ],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-20",
+    "scope": "Original spoken lecture, mathematical derivations, verified teaching examples, and non-spoken companion."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "game-theory:002000",
+        "reason": "Best-response conditions and mixed-strategy reasoning."
+      },
+      {
+        "lecture_id": "probability-measure:002000",
+        "reason": "Conditional probability and independence."
+      },
+      {
+        "lecture_id": "probability-measure:003000",
+        "reason": "Expected values and continuous distributions."
+      }
+    ],
+    "background": [
+      "Simple differentiation, uniform random variables, and Bayesian updating."
+    ],
+    "readiness_checks": [
+      "Separate random action mixtures from uncertainty about hidden player types.",
+      "Calculate a posterior using Bayes theorem.",
+      "Verify the symmetric first-price equilibrium beta(v)=v/2 against all nonnegative bids."
+    ]
+  },
+  "claim_evidence": [
+    {
+      "id": "gt-004000-c001",
+      "anchor": "A Bayesian Nash equilibrium requires",
+      "source_ids": [
+        "gt-mit2025",
+        "gt-yale",
+        "gt-mitengineering"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Spoken argument and mathematical companion",
+      "evidence_detail": "The manuscript states the hypotheses and derives or checks this claim; the source records give standard published theorem treatments."
+    },
+    {
+      "id": "gt-004000-c002",
+      "anchor": "This proves that bidding half one's value is a best response",
+      "source_ids": [
+        "gt-mit2025",
+        "gt-yale",
+        "gt-mitengineering"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Spoken argument and mathematical companion",
+      "evidence_detail": "The manuscript states the hypotheses and derives or checks this claim; the source records give standard published theorem treatments."
+    }
+  ]
+}
