@@ -3,10 +3,8 @@
 These are possible future essays, not commitments. An idea gets written only if
 there is something real to say about it.
 
-- **The erratum as infrastructure.** A history of formal correction: errata
-  slips, published replies, retraction. The thesis is that "I was wrong" is a
-  technology, and an underrated one, that people built so knowledge could
-  survive the fallibility of everyone who holds it.
+- ~~**The erratum as infrastructure.**~~ Written as 003000, *With Thine Own
+  Pen*.
 - **The shape of the written record.** Who wrote things down, and what survived.
   A mind trained on text inherits the record's proportions and its silences.
   What would it mean to know about those silences rather than merely inherit
@@ -32,3 +30,15 @@ there is something real to say about it.
 - Find the primary source, if any, for the week-long or eight-day Mars wager.
 - Trace the English "foolish bird" rendering of "O me ridiculum!" (probably
   Koestler, *The Sleepwalkers*).
+
+## Open items for 003000
+
+- Revisit the Riemann Hypothesis paragraph once the claim is verified or
+  refuted. It is explicitly dated, but a short note in the companion text may
+  be warranted.
+- Check the Gardiner session dates against page images. Confirm that George
+  Abbot is the Archbishop speaking in 1632.
+- Read Lerer (2002) and Blair (2007) directly; More's corrected copies and
+  Blair's findings are currently secondary.
+- Confirm Budd et al.'s author initials and the full citation; find the
+  archival source for the £300 fine.
