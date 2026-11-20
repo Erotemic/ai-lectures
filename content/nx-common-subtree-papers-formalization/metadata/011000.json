@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "lecture_id": "011000",
+  "transcript": "011000-why-the-children-become-a-matching.md",
+  "description": "Derives Eq. (1) as equality with a maximum-weight partial child matching, including both witness directions, an enumerated negative-weight example, Lemma 2, fixed orientations and the checked rooted reference evaluator.",
+  "related_resources": [
+    {
+      "source_id": "nx-dkm-2016",
+      "reason": "Pinned arXiv v4, Section 2 and Section 3, independent score, Equation (1), Lemma 2, and the 2016 source-to-proof crosswalk."
+    }
+  ],
+  "historical_claims": [],
+  "source_snapshot": {
+    "date": "2026-11-19",
+    "repository": "networkx_algo_common_subtree",
+    "statement_map": "docs/planning/paper_statement_crosswalk.md",
+    "proof_status": "proofs/PROOF_STATUS.md"
+  },
+  "tag_paths": [
+    [
+      "Mathematics",
+      "Discrete mathematics",
+      "Graph theory",
+      "Trees"
+    ],
+    [
+      "Mathematics",
+      "Combinatorics",
+      "Bipartite matching"
+    ],
+    [
+      "Computer Science",
+      "Algorithms",
+      "Graph algorithms"
+    ],
+    [
+      "Computer Science",
+      "Formal methods",
+      "Formal verification"
+    ]
+  ],
+  "learning": {
+    "assumed_lectures": [
+      "000000",
+      "001000",
+      "002000",
+      "004000",
+      "010000"
+    ],
+    "learning_objectives": [
+      "Derive the rooted matching recurrence and compute a complete two-child example",
+      "Prove decomposition and reconstruction inequalities using connected branches",
+      "Explain Lemma 2 and why an arbitrary fixed left orientation suffices",
+      "Read the source recurrence, oriented extension and reference-DP correctness theorems"
+    ]
+  }
+}

@@ -39,7 +39,7 @@ The 2004 branch now has paper-centered derivations and a formalization reading g
 | --- | --- | --- | --- |
 | Independent weighted connected isomorphism and finite optima | Proved; root restrictions, valid witnesses and edge/vertex scores explicit | `Droschinsky2016/Specification.lean`, `Witness.lean`, `Rooted.lean` | Begin with feasible mappings and score function, not DP storage |
 | Rooted matching recurrence (Eq. 1, Prop. 1) | Proved for whole and descendant problems; executable reference score table/optimum proved | `RootedRecurrence.lean`, `BranchDecomposition.lean`, `BranchAssembly.lean`, `RootedDynamicProgram.lean` | Work through both directions and reconstruction |
-| Fixed-left-root structural sufficiency (Lemma 2) | Proved with highest-vertex reasoning | `OrientedRecurrence.lean` and source crosswalk | Make root reduction a named theorem, not a heuristic |
+| Fixed-left-root structural sufficiency (Lemma 2) | Proved with highest-vertex reasoning | `Rooted.lean`, `OrientedRecurrence.lean` and source crosswalk | Make root reduction a named theorem, not a heuristic |
 | Rectangular matching (Lemma 5) | Copied-graph reduction, source dual and signed-integer references have substantial proved components; full optimized runtime open | `WeightedMatching/`, `Rust/` matching modules | Separate reference matching, dual certificate, reduction and optimized solver |
 | Deletion matching family (Lemma 6) | Reference family, source row/potential invariants and substantial repair/export steps proved; final production family integration and optimized runtime remain open | `WeightedMatching.CopiedAssignmentReduction` and `Rust.SparseDeletion` modules | Explain how related instances can be reused without assuming indexing is trivial |
 | Optimized Theorem 4, total work Theorem 7; reduction Theorem 8; enumeration Theorem 9 | Open in the crosswalk | `paper_statement_crosswalk.md`, production algorithm docs | Derive the theoretical target and identify missing end-to-end theorems |
@@ -51,6 +51,13 @@ O\left(|G||H|\left(\min(\Delta_G,\Delta_H)+\log\max(\Delta_G,\Delta_H)\right)\ri
 \]
 
 The shorter `O(n²Δ)` expression is useful in a symmetric presentation, but the degrees and logarithmic term should not be erased when teaching the precise statement.
+
+### Lectures now available for the 2016 mathematical core
+
+- `010000`: Source Section 2, exact nonempty connected induced-isomorphism witnesses, finite score and optimum, singleton edge cases, `WithBot` negative infinity, and the separate empty-allowed API convention. Reading map: `Specification.lean`, `Witness.lean`, `Rooted.lean`.
+- `011000`: Section 3 Equation (1) and Lemma 2; matching table with explicit signed node/edge scores; decomposition via `score_decomposition`; converse via `BranchFamily.assemble_valid` and `score_assemble`; `RootedDP.solve_correct` and `unrootedOptimum_correct`. These are mathematical and exhaustive-reference proofs, **not** an optimized Rust or full runtime theorem.
+
+The fixed-root proof itself is in `Droschinsky2016/Rooted.lean` (`Valid.fixed_root_representative`, `fixedRootValue_eq_unrootedValue`); `OrientedRecurrence.lean` handles the descendant-state recurrence while keeping ambient roots fixed.
 
 ## 2018 — topological embedding and distance penalties
 

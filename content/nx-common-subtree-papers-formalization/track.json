@@ -16,7 +16,8 @@
     "shared-foundations",
     "lozano-foundations",
     "droschinsky-foundations",
-    "lozano-paper"
+    "lozano-paper",
+    "droschinsky-2016-paper"
   ],
   "tags": [
     "Discrete mathematics",
@@ -205,6 +206,44 @@
         "Original indices",
         "Witness reconstruction",
         "Graph algorithms"
+      ]
+    },
+    {
+      "id": "010000",
+      "title": "The Map Is the Object: Weighted Common Subtree Isomorphism",
+      "section": "droschinsky-2016-paper",
+      "file": "010000-the-map-is-the-object.md",
+      "spoken_words": 2716,
+      "estimated_minutes_at_145_wpm": 18.7,
+      "draft_status": "substantive",
+      "tags": [
+        "Droschinsky 2016",
+        "Unordered trees",
+        "Induced subgraph isomorphism",
+        "Finite mappings",
+        "Negative weights",
+        "WithBot",
+        "Lean 4",
+        "Graph theory"
+      ]
+    },
+    {
+      "id": "011000",
+      "title": "Why the Children Become a Matching: The 2016 Recurrence and Fixed-Root Lemma",
+      "section": "droschinsky-2016-paper",
+      "file": "011000-why-the-children-become-a-matching.md",
+      "spoken_words": 3197,
+      "estimated_minutes_at_145_wpm": 22.0,
+      "draft_status": "substantive",
+      "tags": [
+        "Droschinsky 2016",
+        "Rooted trees",
+        "Dynamic programming",
+        "Bipartite matching",
+        "Weighted matching",
+        "Witness assembly",
+        "Fixed-root lemma",
+        "Lean 4"
       ]
     }
   ]

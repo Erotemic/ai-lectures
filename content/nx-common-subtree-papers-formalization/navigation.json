@@ -74,6 +74,32 @@
         "Unordered trees",
         "Tree embeddings"
       ]
+    },
+    {
+      "id": "droschinsky-2016",
+      "title": "Droschinsky–Kriege–Mutzel 2016 — Weighted Isomorphism and Rooted DP",
+      "role": "deep_dive",
+      "parent": "unordered",
+      "lectures": [
+        "000000",
+        "001000",
+        "002000",
+        "004000",
+        "010000",
+        "011000"
+      ],
+      "related_collections": [
+        "discrete-mathematics:graphs",
+        "logic-types:main"
+      ],
+      "tags": [
+        "Unordered trees",
+        "Induced subtree isomorphism",
+        "Weighted partial matching",
+        "Dynamic programming",
+        "Rooted recurrence",
+        "Lean 4"
+      ]
     }
   ]
 }
