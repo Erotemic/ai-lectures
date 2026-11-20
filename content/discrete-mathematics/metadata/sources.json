@@ -581,6 +581,76 @@
       "url": "https://ocw.mit.edu/courses/6-441-information-theory-spring-2016/pages/lecture-notes/",
       "access": "free_no_login",
       "notes": "Characteristic-function and information-theoretic probability links are standard results; cited as background not as a source for the specific random-walk example."
+    },
+    "dm-nist-catalan": {
+      "title": "NIST Digital Library of Mathematical Functions, Section 26.5: Lattice Paths and Catalan Numbers",
+      "kind": "reference",
+      "url": "https://dlmf.nist.gov/26.5",
+      "access": "free_no_login",
+      "notes": "Closed formula, first-return recurrence and generating function for Catalan numbers."
+    },
+    "dm-illinois-catalan": {
+      "title": "Alexander Yong, Math 413 Lecture 22: Catalan Numbers (University of Illinois, 2025)",
+      "kind": "university_course_notes",
+      "url": "https://ayong.web.illinois.edu/Spring2025Math413/lecture22.html",
+      "access": "free_no_login",
+      "notes": "Combinatorial derivation of C(x)=1+x C(x)^2 and Dyck path/tree interpretation."
+    },
+    "dm-stanley-catalan": {
+      "title": "Richard P. Stanley, Catalan Numbers, Cambridge University Press",
+      "kind": "scholarly_book",
+      "url": "https://www.cambridge.org/core/books/catalan-numbers/5441FB5B09E9C01185834D9CBB9DFAD9",
+      "access": "publisher_or_author",
+      "notes": "Background reference for the many Catalan-counted combinatorial objects; exact title and concepts used, not prose copied."
+    },
+    "dm-mit-mcs-2015": {
+      "title": "MIT OpenCourseWare, 6.042J Mathematics for Computer Science (2015), Readings",
+      "kind": "open_university_notes",
+      "url": "https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/pages/readings/",
+      "access": "free_no_login",
+      "notes": "Tree counts, Cayley's formula and combinatorial proof techniques."
+    },
+    "dm-sheffield-prufer": {
+      "title": "Paul Johnson, MAS 341 Graph Theory Lecture 8: Prüfer Code (University of Sheffield)",
+      "kind": "open_university_notes",
+      "url": "https://ptwiddle.github.io/MAS341-Graph-Theory-2017/lecturenotes/lecture8.html",
+      "access": "free_no_login",
+      "notes": "Encoding and decoding Prüfer sequences, a bijective proof of Cayley's formula."
+    },
+    "dm-lafayette-cayley": {
+      "title": "Jonathan S. Bloom, Math 374: Cayley's Formula (Lafayette College)",
+      "kind": "university_course_notes",
+      "url": "https://sites.lafayette.edu/bloomjs/files/2016/03/Cayleys-formula.pdf",
+      "access": "free_no_login",
+      "notes": "Labeled tree enumeration via least-leaf Prüfer map."
+    },
+    "dm-menger-vertex-degree": {
+      "title": "Mikhail Lavrov, Start Doing Graph Theory: Menger's Theorem",
+      "kind": "open_textbook",
+      "url": "https://vertex.degree/connectivity/menger",
+      "access": "free_no_login",
+      "notes": "Vertex-disjoint paths versus minimum separators and structural proofs."
+    },
+    "dm-disser-alg-discrete": {
+      "title": "Yann Disser, Algorithmic Discrete Mathematics, Lecture Notes (2024)",
+      "kind": "open_university_notes",
+      "url": "https://www2.mathematik.tu-darmstadt.de/~disser/pdfs/scripts/ADM_lecture_notes.pdf",
+      "access": "free_no_login",
+      "notes": "Vertex-splitting reduction to max-flow/min-cut, Theorem 6.18."
+    },
+    "dm-sage-tree-decompositions": {
+      "title": "SageMath Reference Manual: Tree Decompositions",
+      "kind": "open_documentation",
+      "url": "https://doc.sagemath.org/html/en/reference/graphs/sage/graphs/graph_decompositions/tree_decomposition.html",
+      "access": "free_no_login",
+      "notes": "Definition of bags, running intersection and width."
+    },
+    "dm-liu-tree-dp": {
+      "title": "Chun-Hung Liu, Dynamic Programming via a Given Tree-Decomposition (2026)",
+      "kind": "open_university_notes",
+      "url": "https://people.tamu.edu/~chliu/teaching/spring26math689/2026_02_12.pdf",
+      "access": "free_no_login",
+      "notes": "Separator structure and rooted-bag independent-set recursion."
     }
   }
 }

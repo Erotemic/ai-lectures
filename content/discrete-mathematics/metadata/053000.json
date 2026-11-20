@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "lecture_id": "053000",
+  "transcript": "053000-tree-decompositions-small-boundaries-big-graphs.md",
+  "description": "Derives the three tree-decomposition axioms, proves the separator intuition, and calculates an exact independent-set dynamic program using compatible bag states.",
+  "tags": [
+    "Graph theory",
+    "Treewidth",
+    "Tree decompositions",
+    "Dynamic programming",
+    "Independent sets",
+    "Graph separators"
+  ],
+  "tag_paths": [
+    [
+      "Mathematics",
+      "Discrete mathematics",
+      "Graph theory"
+    ],
+    [
+      "Mathematics",
+      "Discrete mathematics",
+      "Treewidth"
+    ],
+    [
+      "Mathematics",
+      "Discrete mathematics",
+      "Tree decompositions"
+    ],
+    [
+      "Mathematics",
+      "Discrete mathematics",
+      "Dynamic programming"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "dm-sage-tree-decompositions",
+      "reason": "Background for the definitions, bijections, or theorem developed in this manuscript."
+    },
+    {
+      "source_id": "dm-feige-treewidth",
+      "reason": "Background for the definitions, bijections, or theorem developed in this manuscript."
+    },
+    {
+      "source_id": "dm-liu-tree-dp",
+      "reason": "Background for the definitions, bijections, or theorem developed in this manuscript."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-20",
+    "scope": "Original narration, worked examples, mathematical companion, exercises and source cross-references."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "discrete-mathematics:005000",
+        "reason": "Graph and tree basics."
+      },
+      {
+        "lecture_id": "discrete-mathematics:052000",
+        "reason": "Separators as certificates and boundaries (helpful, not required)."
+      }
+    ],
+    "background": [
+      "Graphs, tree paths, independent sets, and basic dynamic programming."
+    ],
+    "readiness_checks": [
+      "Check all three tree-decomposition axioms for a given bag tree.",
+      "Compute the maximum independent-set table for two triangles sharing vertex c.",
+      "State and justify both directions of the independent-set table recurrence."
+    ]
+  },
+  "claim_evidence": [
+    {
+      "id": "dm-053000-c001",
+      "anchor": "These are precisely the three requirements of a tree decomposition.",
+      "source_ids": [
+        "dm-sage-tree-decompositions"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Spoken lecture and mathematical companion",
+      "evidence_detail": "Coverage, edge-in-bag, and connected running intersection."
+    },
+    {
+      "id": "dm-053000-c002",
+      "anchor": "The children can be combined by addition",
+      "source_ids": [
+        "dm-feige-treewidth",
+        "dm-liu-tree-dp"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Spoken lecture and mathematical companion",
+      "evidence_detail": "Decomposition separates private child regions given fixed bag assignment."
+    }
+  ]
+}

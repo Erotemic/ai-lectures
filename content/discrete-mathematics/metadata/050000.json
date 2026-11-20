@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "lecture_id": "050000",
+  "transcript": "050000-five-ways-to-count-a-balanced-shape.md",
+  "description": "Derives Catalan numbers by first-violation reflection, first-return decomposition, full binary trees, plane trees, and generating functions, with explicit reversible encodings.",
+  "tags": [
+    "Catalan numbers",
+    "Bijections",
+    "Dyck paths",
+    "Generating functions",
+    "Rooted ordered trees"
+  ],
+  "tag_paths": [
+    [
+      "Mathematics",
+      "Discrete mathematics",
+      "Catalan numbers"
+    ],
+    [
+      "Mathematics",
+      "Discrete mathematics",
+      "Bijections"
+    ],
+    [
+      "Mathematics",
+      "Discrete mathematics",
+      "Dyck paths"
+    ],
+    [
+      "Mathematics",
+      "Discrete mathematics",
+      "Generating functions"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "dm-nist-catalan",
+      "reason": "Background for the definitions, bijections, or theorem developed in this manuscript."
+    },
+    {
+      "source_id": "dm-illinois-catalan",
+      "reason": "Background for the definitions, bijections, or theorem developed in this manuscript."
+    },
+    {
+      "source_id": "dm-stanley-catalan",
+      "reason": "Background for the definitions, bijections, or theorem developed in this manuscript."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-20",
+    "scope": "Original narration, worked examples, mathematical companion, exercises and source cross-references."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "discrete-mathematics:001000",
+        "reason": "Counting by bijection and binomial coefficients."
+      }
+    ],
+    "background": [
+      "Finite sets, basic binomial coefficients, and reading a recurrence."
+    ],
+    "readiness_checks": [
+      "Show that the reflection maps bad balanced-count paths bijectively to paths with n+1 upsteps.",
+      "Derive C(x)=1+xC(x)^2 from a first-return split.",
+      "Give an explicit invertible encoding of ordered trees as Dyck words."
+    ]
+  },
+  "claim_evidence": [
+    {
+      "id": "dm-050000-c001",
+      "anchor": "A balanced word has two properties.",
+      "source_ids": [
+        "dm-nist-catalan"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Spoken lecture and mathematical companion",
+      "evidence_detail": "Definitions of Dyck words and the prefix condition."
+    },
+    {
+      "id": "dm-050000-c002",
+      "anchor": "This is where the reflection principle becomes useful.",
+      "source_ids": [
+        "dm-nist-catalan"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Spoken lecture and mathematical companion",
+      "evidence_detail": "The first-violation reflection obtains the Catalan binomial difference."
+    },
+    {
+      "id": "dm-050000-c003",
+      "anchor": "Every nonempty balanced word has a unique shape.",
+      "source_ids": [
+        "dm-illinois-catalan"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Spoken lecture and mathematical companion",
+      "evidence_detail": "First-return decomposition yields the Catalan recurrence."
+    }
+  ]
+}

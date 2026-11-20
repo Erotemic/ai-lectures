@@ -1,12 +1,12 @@
-# Discrete Mathematics and Combinatorics — after 42 completed lectures
+# Discrete Mathematics and Combinatorics — continuation proposals
 
-The Fourier formula makes three-term arithmetic progression counts exact; the four-cycle criterion identifies when dense deterministic graphs are asymptotically quasirandom.
+Completed, indexed foundation bridges: Catalan encodings (050000), Prüfer codes (051000), Menger connectivity (052000), and tree decompositions with an independent-set dynamic program (053000). The next priorities are substantive treatments of algebraic and ordinary generating functions, the probabilistic method at intermediate depth, and worked matroid exchange proofs where the consolidated survey moves quickly.
 
-## Unindexed continuation proposals
+## Additional advanced directions (not indexed)
 
-- 043000 — Graph Limits, Cut Distance, and Regularity
-- 044000 — Freiman Models and Small Doubling
-- 045000 — Dense Model Theorems and Arithmetic Regularity
-- 046000 — Agreement Testing and List Recovery
+- Graph limits, cut distance, and regularity.
+- Freiman models and small doubling.
+- Dense-model theorems and arithmetic regularity.
+- Agreement testing and list recovery.
 
-Proposals are not registered until their manuscripts exist. Material determines lecture depth and length; no duration or word-count policy applies.
+A proposal is not registered until its manuscript exists.

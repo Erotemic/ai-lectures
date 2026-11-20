@@ -2,7 +2,7 @@
 
 Finite structures and counting arguments, progressing from bijections and double counting through graph theory, generating functions, recurrences, matching, matroids and extremal combinatorics. Distinct from the Algorithms course: mathematical structure and proof first.
 
-The current pack contains **13 lecture manuscripts**. Short concept chapters have been consolidated where they develop one subject. Each numbered manuscript has one spoken region; its mathematical statements, exercises, sources, and inherited component notes remain in the non-spoken companion.
+The current pack contains **18 lecture manuscripts**. Short concept chapters have been consolidated where they develop one subject. Each numbered manuscript has one spoken region; its mathematical statements, exercises, sources, and inherited component notes remain in the non-spoken companion.
 
 ## Listening routes
 
@@ -13,6 +13,7 @@ The current pack contains **13 lecture manuscripts**. Short concept chapters hav
 - **Discrete Mathematics · Randomness and Counting** (Deep dive): `011000`, `018000`, `013000`, `031000`.
 - **Discrete Mathematics · Set Systems and Discrepancy** (Deep dive): `018000`.
 - **Discrete Mathematics · Codes, Fourier Methods, and Pseudorandomness** (Deep dive): `020000`, `036000`.
+- **Discrete Mathematics · Counting, Trees, and Separators** (Foundation bridge): `001000`, `050000`, `005000`, `051000`, `052000`, `053000`.
 
 ## Current manuscripts
 
@@ -33,6 +34,11 @@ Durations are measured from the current spoken text at 145 words per minute, bef
 | `036000` | [Local recovery, derandomization, and Fourier uniformity](036000-local-recovery-derandomization-and-fourier-uniformity.md) | 40.1 |
 | `040000` | [Hypergraph Matchings and the Absorption Method](040000-hypergraph-matchings-and-absorption.md) | 7.1 |
 | `042000` | [Quasirandom Graphs and Four-Cycle Counts](042000-quasirandom-graphs-and-four-cycle-counts.md) | 5.9 |
+| `043000` | [One Fourier Principle in Several Different Mathematical Worlds](043000-one-fourier-principle-many-spaces.md) | 11.1 |
+| `050000` | [Five Ways to Count a Balanced Shape: Catalan Numbers](050000-five-ways-to-count-a-balanced-shape.md) | 15.8 |
+| `051000` | [A Tree Written as a Word: Prüfer Codes and Cayley's Formula](051000-a-tree-written-as-a-word-prufer-codes.md) | 15.1 |
+| `052000` | [The Cost of Disconnecting Two Vertices: Menger's Theorem](052000-the-cost-of-disconnecting-two-vertices-menger.md) | 15.0 |
+| `053000` | [Small Boundaries, Big Graphs: Tree Decompositions and Dynamic Programming](053000-tree-decompositions-small-boundaries-big-graphs.md) | 17.0 |
 
 The short 040000 hypergraph-absorption introduction and 042000 four-cycle/quasirandomness reference address distinct advanced questions. 040000 has no same-method expanded sequel in the current pack; it is labelled as a compact introduction. 042000 contains its own focused argument. They are not combined merely to make a longer recording.
 
@@ -45,3 +51,7 @@ Read [the lecture style rules](../../LECTURE_STYLE_RULES.md) before changing nar
 ## Fourier synthesis and discrete harmonic analysis (043000)
 
 New standalone connective lecture `discrete-mathematics:043000` proves finite cyclic convolution and works a four-cycle random walk with an eigenvalue -1 that prevents mixing until the walk is made lazy. The `fourier-connections` route points from this entry to advanced coding and pseudorandomness material. It links separately to the differential-equations and number-theory discussions without duplicating their manuscripts.
+
+## Foundation-to-intermediate additions (050000–053000)
+
+Four standalone worked lectures build the missing bridges from counting to graph structure: Catalan bijections; Prüfer encoding and labeled-tree enumeration; Menger's disjoint paths and separating vertices; and tree-decomposition dynamic programming. The existing guided survey is unchanged; `foundation-bridges` is the new ordered listening route. The original manuscripts and sidecars are not modified by this batch.

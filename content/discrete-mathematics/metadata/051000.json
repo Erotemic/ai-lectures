@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "lecture_id": "051000",
+  "transcript": "051000-a-tree-written-as-a-word-prufer-codes.md",
+  "description": "Proves Cayley's formula by a reversible least-leaf deletion code, derives the degree-sequence enumeration, and shows how uniform random words sample labeled trees.",
+  "tags": [
+    "Graph theory",
+    "Labeled trees",
+    "Prüfer codes",
+    "Cayley formula",
+    "Degree sequences",
+    "Bijections"
+  ],
+  "tag_paths": [
+    [
+      "Mathematics",
+      "Discrete mathematics",
+      "Graph theory"
+    ],
+    [
+      "Mathematics",
+      "Discrete mathematics",
+      "Labeled trees"
+    ],
+    [
+      "Mathematics",
+      "Discrete mathematics",
+      "Prüfer codes"
+    ],
+    [
+      "Mathematics",
+      "Discrete mathematics",
+      "Cayley formula"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "dm-mit-mcs-2015",
+      "reason": "Background for the definitions, bijections, or theorem developed in this manuscript."
+    },
+    {
+      "source_id": "dm-sheffield-prufer",
+      "reason": "Background for the definitions, bijections, or theorem developed in this manuscript."
+    },
+    {
+      "source_id": "dm-lafayette-cayley",
+      "reason": "Background for the definitions, bijections, or theorem developed in this manuscript."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-20",
+    "scope": "Original narration, worked examples, mathematical companion, exercises and source cross-references."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "discrete-mathematics:005000",
+        "reason": "Trees, leaves, the degree sum, and acyclicity."
+      },
+      {
+        "lecture_id": "discrete-mathematics:050000",
+        "reason": "Comparing different notions of tree encodings and counting families (optional)."
+      }
+    ],
+    "background": [
+      "Finite simple trees, leaves, and the product rule."
+    ],
+    "readiness_checks": [
+      "Encode and decode the word 4,4,4,5 on six labeled vertices.",
+      "Prove that a vertex degree equals one plus its code multiplicity.",
+      "Count trees with prescribed positive degree sequence."
+    ]
+  },
+  "claim_evidence": [
+    {
+      "id": "dm-051000-c001",
+      "anchor": "This is Cayley's formula.",
+      "source_ids": [
+        "dm-mit-mcs-2015",
+        "dm-lafayette-cayley"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Spoken lecture and mathematical companion",
+      "evidence_detail": "The number of labeled trees on n labels is n^(n-2)."
+    },
+    {
+      "id": "dm-051000-c002",
+      "anchor": "a vertex of degree d appears exactly d minus one times",
+      "source_ids": [
+        "dm-sheffield-prufer"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Spoken lecture and mathematical companion",
+      "evidence_detail": "Degree multiplicity and inverse decoding of Prüfer sequences."
+    }
+  ]
+}

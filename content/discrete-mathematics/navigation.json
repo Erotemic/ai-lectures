@@ -30,6 +30,9 @@
       "role": "deep_dive",
       "lectures": [
         "005000",
+        "051000",
+        "052000",
+        "053000",
         "009000",
         "013000",
         "014000",
@@ -143,6 +146,38 @@
         "Harmonic analysis",
         "Random walks",
         "Probability"
+      ]
+    },
+    {
+      "id": "foundation-bridges",
+      "title": "Discrete Mathematics · Counting, Trees, and Separators",
+      "role": "deep_dive",
+      "parent": "survey",
+      "lectures": [
+        "001000",
+        "050000",
+        "005000",
+        "051000",
+        "052000",
+        "053000"
+      ],
+      "assumed_background": [
+        "Finite counting, basic graphs and elementary proofs; the listening sequence supplies its own bridge from counting to trees to separators."
+      ],
+      "preparation_collections": [
+        "discrete-mathematics:survey"
+      ],
+      "related_collections": [
+        "mathematical-proof:main",
+        "algorithms-computability-complexity:graph-algorithms"
+      ],
+      "tags": [
+        "Combinatorics",
+        "Graph theory",
+        "Catalan numbers",
+        "Prüfer codes",
+        "Menger theorem",
+        "Treewidth"
       ]
     }
   ]
