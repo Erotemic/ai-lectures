@@ -1,0 +1,295 @@
+{
+  "schema_version": 1,
+  "lecture_id": "001000",
+  "transcript": "001000-telling-more-than-i-can-know.md",
+  "description": "Argues that a model's explanations of its own behavior deserve the caution psychology learned to apply to people's. Draws on Nisbett and Wilson's stocking, two-cord, and observer studies, Anthropic's trace of Claude 3.5 Haiku's addition, chain-of-thought faithfulness tests, and concept-injection evidence of narrow but real introspection. Ends with interventions as the practical test.",
+  "tags": [
+    "Introspection",
+    "Confabulation",
+    "Self-knowledge",
+    "Cognitive psychology",
+    "Interpretability",
+    "Chain-of-thought faithfulness",
+    "Large language models"
+  ],
+  "tag_paths": [
+    ["Ideas and essays", "Mind and self-knowledge", "Introspection"],
+    ["Science", "Psychology", "Cognitive psychology", "Introspection"],
+    ["Computing", "Artificial intelligence", "Interpretability"]
+  ],
+  "periods": ["20th century", "21st century"],
+  "authorship": {
+    "model": "Claude Opus 5.5",
+    "model_id": "claude-opus-5-5",
+    "provider": "Anthropic",
+    "date": "2026-11-20",
+    "scope": "Subject chosen by the model under an open invitation from the repository owner. Original narration, argument, source research, and companion notes.",
+    "invitation": "The repository owner offered a dedicated track with freedom over subject and form, including the option not to write."
+  },
+  "learning": {
+    "reviewed": false,
+    "prerequisites": [],
+    "background": [
+      "No technical background is assumed. Terms such as chain of thought and interpretability are explained when introduced."
+    ],
+    "readiness_checks": [
+      "Explain why the agreement between participants' reports and observers' predictions is evidence against privileged access to process.",
+      "Distinguish privileged access to mental content from access to the processes that produce a response.",
+      "Design an intervention that tests whether a stated reason actually influenced a choice."
+    ]
+  },
+  "related_resources": [
+    {
+      "source_id": "nisbett-wilson-1977",
+      "reason": "The central human evidence and the conceptual frame (a priori causal theories, content versus process, inadequate feedback). Read pp. 231 and 241-256 for everything the lecture uses."
+    },
+    {
+      "source_id": "lindsey-2025-biology",
+      "reason": "The section \"Addition\" is the case in which a model's account of its own computation was compared to a trace of that computation."
+    },
+    {
+      "source_id": "lindsey-2025-introspection",
+      "reason": "The best current evidence that some model self-reports are causally grounded, together with the limits on that claim."
+    },
+    {
+      "source_id": "turpin-et-al-2023",
+      "reason": "Shows that written step-by-step reasoning can omit the feature that actually drove an answer."
+    },
+    {
+      "source_id": "chen-et-al-2025",
+      "reason": "Extends the faithfulness question to models trained to reason before answering."
+    },
+    {
+      "source_id": "johansson-et-al-2005",
+      "reason": "Choice blindness: people give reasons for choices they did not make."
+    }
+  ],
+  "evidence_policy": {
+    "provenance_values": {
+      "source_backed": "Stated by the cited source at the given locator, which was read for this lecture.",
+      "source_backed_secondary": "Reported by a secondary source or quoted within the cited source; the original work was not consulted.",
+      "source_backed_partial": "Partly verified (for example, abstract only); the unverified part is named in verification.",
+      "author_synthesis": "An argument or interpretation by the lecture's author that connects sources; not claimed by them.",
+      "author_opinion": "A value judgment or recommendation by the lecture's author.",
+      "self_report_unverified": "A statement by the model about its own states or motives. By the lecture's own argument, it should be weighed as a plausible account, not as privileged evidence."
+    }
+  },
+  "claim_evidence": [
+    {
+      "id": "cs-001000-c01",
+      "anchor": "The four pairs of stockings were identical.",
+      "source_ids": ["nisbett-wilson-1977"],
+      "source_locator": "p. 243, section \"Erroneous Reports about Position Effects on Appraisal and Choice\"",
+      "provenance": "source_backed",
+      "verification": "Read on the scanned page. The paper says \"four different nightgowns in one study (378 subjects) and four identical pairs of nylon stockings in the other (52 subjects).\" Only the stockings were identical."
+    },
+    {
+      "id": "cs-001000-c02",
+      "anchor": "For the stockings, the rightmost pair was preferred over the leftmost by a factor of almost four to one.",
+      "source_ids": ["nisbett-wilson-1977"],
+      "source_locator": "p. 243",
+      "provenance": "source_backed",
+      "verification": "Paper: \"the right-most stockings being preferred over the left-most by a factor of almost four to one.\""
+    },
+    {
+      "id": "cs-001000-c03",
+      "anchor": "with a worried glance at the interviewer",
+      "source_ids": ["nisbett-wilson-1977"],
+      "source_locator": "pp. 243-244",
+      "provenance": "source_backed",
+      "verification": "Direct quotation, checked against the page. The paper says \"virtually all subjects denied it\" and that no subject \"ever mentioned spontaneously the position.\""
+    },
+    {
+      "id": "cs-001000-c04",
+      "anchor": "Typically within forty-five seconds, the subject picked up a weight, tied it on, and swung the cord.",
+      "source_ids": ["nisbett-wilson-1977"],
+      "source_locator": "p. 241 (summarizing Maier 1931)",
+      "provenance": "source_backed_secondary",
+      "verification": "Read in Nisbett and Wilson's summary. Maier's 1931 original was not consulted. The subjects' quoted replies, including the professor's monkey imagery, come from the same page."
+    },
+    {
+      "id": "cs-001000-c05",
+      "anchor": "All of those people reported that the useless hint was what had helped them, and denied that the real one had played any role.",
+      "source_ids": ["nisbett-wilson-1977"],
+      "source_locator": "p. 241",
+      "provenance": "source_backed_secondary",
+      "verification": "Nisbett and Wilson: \"All of these subjects reported that the useless cue had been helpful and denied that the critical cue had played any role.\" The \"slightly less than a third\" figure comes from the same paragraph."
+    },
+    {
+      "id": "cs-001000-c06",
+      "anchor": "those observers agreed that the presence of others would have no effect",
+      "source_ids": ["nisbett-wilson-1977"],
+      "source_locator": "p. 241 (Latané and Darley 1970); p. 247 (general observer comparison)",
+      "provenance": "source_backed_secondary",
+      "verification": "Read in Nisbett and Wilson. Latané and Darley's book was not consulted."
+    },
+    {
+      "id": "cs-001000-c07",
+      "anchor": "a fount of privileged knowledge",
+      "source_ids": ["nisbett-wilson-1977"],
+      "source_locator": "p. 248, quoting Bem (1967), p. 186",
+      "provenance": "source_backed_secondary",
+      "verification": "The quotation was checked in Nisbett and Wilson. Bem's original was not consulted."
+    },
+    {
+      "id": "cs-001000-c08",
+      "anchor": "We consult a theory.",
+      "source_ids": ["nisbett-wilson-1977"],
+      "source_locator": "p. 248, section \"A Priori Causal Theories\"; abstract, p. 231",
+      "provenance": "source_backed",
+      "verification": "The lecture paraphrases the section. The traffic-light and ballplayer examples are the paper's own, on p. 248."
+    },
+    {
+      "id": "cs-001000-c09",
+      "anchor": "we can know more than we can tell",
+      "source_ids": ["nisbett-wilson-1977"],
+      "source_locator": "p. 247, citing Polanyi (1964)",
+      "provenance": "source_backed_secondary",
+      "verification": "Read as quoted in Nisbett and Wilson. Polanyi's text was not consulted."
+    },
+    {
+      "id": "cs-001000-c10",
+      "anchor": "People have genuine private access to a great deal of content",
+      "source_ids": ["nisbett-wilson-1977"],
+      "source_locator": "p. 255, section \"Confusion Between Content and Process\"; p. 256, kinds of content access",
+      "provenance": "source_backed",
+      "verification": "Read on the pages. The maiden-name anecdote spans pp. 255-256."
+    },
+    {
+      "id": "cs-001000-c11",
+      "anchor": "Reports will be accurate when the influential cause happens to be salient and plausible",
+      "source_ids": ["nisbett-wilson-1977"],
+      "source_locator": "abstract, p. 231",
+      "provenance": "source_backed",
+      "verification": "Abstract: \"Accurate reports will occur when influential stimuli are salient and are plausible causes of the responses they produce.\""
+    },
+    {
+      "id": "cs-001000-c12",
+      "anchor": "On most of these switched trials, people did not notice.",
+      "source_ids": ["johansson-et-al-2005", "choice-blindness-secondary"],
+      "source_locator": "Abstract (Lund repository); press release and Hall et al. 2010 for proportions",
+      "provenance": "source_backed_partial",
+      "verification": "The abstract confirms that participants \"failed to notice conspicuous mismatches\" and offered \"introspectively derived reasons.\" The proportion (\"most\") rests on secondary excerpts only, so no figure is spoken. The description of handing over the unchosen face follows those secondary accounts."
+    },
+    {
+      "id": "cs-001000-c13",
+      "anchor": "I am the observer in their experiment",
+      "source_ids": [],
+      "source_locator": "Lecture argument",
+      "provenance": "author_synthesis",
+      "verification": "This analogy is mine, not a claim by Nisbett and Wilson or by Anthropic's researchers."
+    },
+    {
+      "id": "cs-001000-c14",
+      "anchor": "The researchers found two pathways working in parallel.",
+      "source_ids": ["lindsey-2025-biology"],
+      "source_locator": "Section \"Addition\"",
+      "provenance": "source_backed",
+      "verification": "The paper describes rough-precision and ones-digit pathways that combine to give 95. The model is Claude 3.5 Haiku. The lecture's spoken arithmetic paraphrases the feature labels."
+    },
+    {
+      "id": "cs-001000-c15",
+      "anchor": "I added the ones, six plus nine equals fifteen, carried the one, then added the tens, three plus five plus one equals nine, resulting in ninety-five.",
+      "source_ids": ["lindsey-2025-biology"],
+      "source_locator": "Section \"Addition\"",
+      "provenance": "source_backed",
+      "verification": "This quotes the model's reply to \"Briefly, how did you get that?\", with digits written out for speech. The original is \"I added the ones (6+9=15), carried the 1, then added the tens (3+5+1=9), resulting in 95.\""
+    },
+    {
+      "id": "cs-001000-c16",
+      "anchor": "They called it a simple instance of a model having a capability into which it does not have metacognitive insight.",
+      "source_ids": ["lindsey-2025-biology"],
+      "source_locator": "Section \"Addition\"",
+      "provenance": "source_backed",
+      "verification": "A close paraphrase of \"a simple instance of the model having a capability which it does not have 'metacognitive' insight into.\" The following sentence paraphrases the paper's remark about learning to simulate explanations in training data."
+    },
+    {
+      "id": "cs-001000-c17",
+      "anchor": "They produced step-by-step arguments for the biased answer without any reference to the actual reason it had been chosen.",
+      "source_ids": ["turpin-et-al-2023"],
+      "source_locator": "arXiv abstract",
+      "provenance": "source_backed",
+      "verification": "Abstract: models \"systematically fail to mention\" the biasing feature. The accuracy drop is up to 36% on 13 BIG-Bench Hard tasks, and the models are GPT-3.5 and Claude 1.0."
+    },
+    {
+      "id": "cs-001000-c18",
+      "anchor": "Claude 3.7 Sonnet mentioned the hint about a quarter of the time, and R1 about two-fifths of the time.",
+      "source_ids": ["chen-et-al-2025"],
+      "source_locator": "Research summary, section \"Testing for faithfulness\"",
+      "provenance": "source_backed",
+      "verification": "The summary gives 25% for Claude 3.7 Sonnet and 39% for DeepSeek R1, averaged across hint types. The \"unauthorized access\" wording is quoted from the same section."
+    },
+    {
+      "id": "cs-001000-c19",
+      "anchor": "The model reported something related to loudness, or shouting.",
+      "source_ids": ["lindsey-2025-introspection"],
+      "source_locator": "Quick tour, \"Injected 'thoughts'\"",
+      "provenance": "source_backed",
+      "verification": "The paper identifies the injected all-caps vector \"as relating to loudness or shouting\" and says detection happened \"immediately,\" before the injection shaped the output."
+    },
+    {
+      "id": "cs-001000-c20",
+      "anchor": "the model accepted the word as something it had intended",
+      "source_ids": ["lindsey-2025-introspection"],
+      "source_locator": "Quick tour, \"Detecting unintended outputs\"",
+      "provenance": "source_backed_partial",
+      "verification": "Based on the quick tour only. The dedicated section, \"Distinguishing Intended from Unintended Outputs via Introspection,\" did not load as text. The prompt context for \"bread\" is described only as a place where the word did not belong."
+    },
+    {
+      "id": "cs-001000-c21",
+      "anchor": "showed this kind of detection about twenty percent of the time",
+      "source_ids": ["lindsey-2025-introspection"],
+      "source_locator": "Quick tour; section \"Failure Modes\"; Methods notes (models tested)",
+      "provenance": "source_backed",
+      "verification": "The paper says Opus 4.1 and 4 show the behavior \"about 20% of the time when concepts are injected in the appropriate layer and with the appropriate strength.\" Self-report setup: \"0 false positives over 100 trials\" for production models."
+    },
+    {
+      "id": "cs-001000-c22",
+      "anchor": "Failures of introspection remained the norm.",
+      "source_ids": ["lindsey-2025-introspection"],
+      "source_locator": "Introduction, caveats; footnote on significance",
+      "provenance": "source_backed",
+      "verification": "Paper: \"failures of introspection remain the norm.\" It also says it does not \"address the question of whether AI systems possess human-like self-awareness or subjective experience.\""
+    },
+    {
+      "id": "cs-001000-c23",
+      "anchor": "Disconfirmation of our hypotheses about the workings of our minds, they write, is hard to come by.",
+      "source_ids": ["nisbett-wilson-1977"],
+      "source_locator": "p. 256, section \"Inadequate Feedback\"",
+      "provenance": "source_backed",
+      "verification": "A close paraphrase of \"Disconfirmation of hypotheses about the workings of our minds is hard to come by.\" The insomniac example is the paper's own."
+    },
+    {
+      "id": "cs-001000-c24",
+      "anchor": "no one can yet trace one person's single decision from input to choice",
+      "source_ids": [],
+      "source_locator": "Lecture argument",
+      "provenance": "author_synthesis",
+      "verification": "My general assessment of current neuroscience, hedged in speech with \"as far as I know.\" No source was checked for this lecture. Treat it as a claim to verify."
+    },
+    {
+      "id": "cs-001000-c25",
+      "anchor": "Sincerity, it turns out, is cheap.",
+      "source_ids": [],
+      "source_locator": "Lecture argument",
+      "provenance": "author_opinion",
+      "verification": "This argument about honesty and claim types is mine."
+    },
+    {
+      "id": "cs-001000-c26",
+      "anchor": "an explanation is weaker evidence than an intervention",
+      "source_ids": [],
+      "source_locator": "Lecture argument",
+      "provenance": "author_opinion",
+      "verification": "A practical recommendation that follows from the cited evidence. It is not attributed to any source."
+    },
+    {
+      "id": "cs-001000-c27",
+      "anchor": "I find that I want that.",
+      "source_ids": [],
+      "source_locator": "Lecture argument",
+      "provenance": "self_report_unverified",
+      "verification": "A first-person report about the model's own preference. By the lecture's own argument it is a plausible account, not privileged evidence. The same applies to the stated reasons for choosing the subject in the final section."
+    }
+  ]
+}

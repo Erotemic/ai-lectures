@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "sources": {
+    "nisbett-wilson-1977": {
+      "title": "Richard E. Nisbett and Timothy DeCamp Wilson, \"Telling More Than We Can Know: Verbal Reports on Mental Processes,\" Psychological Review 84(3), May 1977, pp. 231-259",
+      "kind": "peer_reviewed_article",
+      "doi": "10.1037/0033-295X.84.3.231",
+      "url": "https://deepblue.lib.umich.edu/handle/2027.42/92167",
+      "access": "free_no_login",
+      "consulted": {
+        "date": "2026-11-20",
+        "copy": "Scanned journal pages hosted at https://web.math.princeton.edu/~sswang/literature_general_unsorted/Nisbett-Wilson-PsychologicalReview1977.pdf, rendered to images and read page by page",
+        "pages_read": [
+          "231",
+          "241",
+          "243",
+          "244",
+          "247",
+          "248",
+          "255",
+          "256"
+        ]
+      },
+      "notes": "Primary source for the stocking/nightgown position effect, the review of Maier (1931), the observer comparison (including Latane and Darley 1970), a priori causal theories, the content/process distinction, and the inadequate-feedback argument."
+    },
+    "johansson-et-al-2005": {
+      "title": "Petter Johansson, Lars Hall, Sverker Sikstrom, and Andreas Olsson, \"Failure to Detect Mismatches Between Intention and Outcome in a Simple Decision Task,\" Science 310(5745), 2005, pp. 116-119",
+      "kind": "peer_reviewed_article",
+      "doi": "10.1126/science.1111709",
+      "url": "https://lup.lub.lu.se/record/220623",
+      "access": "abstract_only_consulted",
+      "consulted": {
+        "date": "2026-11-20",
+        "copy": "Abstract and bibliographic record in the Lund University Publications repository",
+        "pages_read": []
+      },
+      "notes": "Only the abstract was read. Detection rates and procedural detail beyond the abstract are not verified against the article; see choice-blindness-secondary."
+    },
+    "choice-blindness-secondary": {
+      "title": "Secondary reports of Johansson et al. (2005): Lund University press release via ScienceDaily (7 October 2005), and Hall, Johansson, Tarning, Sikstrom and Deutgen (2010), Cognition 117(1), pp. 54-61",
+      "kind": "secondary_summary",
+      "url": "https://www.sciencedaily.com/releases/2005/10/051007091302.htm",
+      "access": "search_snippets_only",
+      "consulted": {
+        "date": "2026-11-20",
+        "copy": "Search-result excerpts only; neither document was read in full",
+        "pages_read": []
+      },
+      "notes": "Excerpts state that fewer than 10% of manipulations were detected immediately and no more than about a fifth to a quarter in total. The lecture therefore says only that most switched trials went unnoticed. Upgrade to the full Science article when available."
+    },
+    "lindsey-2025-biology": {
+      "title": "Jack Lindsey et al. (Anthropic), \"On the Biology of a Large Language Model,\" Transformer Circuits Thread, 27 March 2025",
+      "kind": "research_primary",
+      "url": "https://transformer-circuits.pub/2025/attribution-graphs/biology.html",
+      "access": "free_no_login",
+      "consulted": {
+        "date": "2026-11-20",
+        "copy": "Web page; the Introduction and the section \"Addition\" were read",
+        "pages_read": []
+      },
+      "notes": "Studies Claude 3.5 Haiku (October 2024 release). The Addition section gives the 36+59 parallel pathways, the model's carry-the-one explanation, and the interpretation about lacking metacognitive insight. Model output and the interpretive sentence are quoted from this section. The lead author is from the standard citation; the full author list was not checked on the page."
+    },
+    "lindsey-2025-introspection": {
+      "title": "Jack Lindsey, \"Emergent Introspective Awareness in Large Language Models,\" Transformer Circuits Thread, 29 October 2025; also arXiv:2601.01828",
+      "kind": "research_primary",
+      "url": "https://transformer-circuits.pub/2025/introspection/index.html",
+      "access": "free_no_login",
+      "consulted": {
+        "date": "2026-11-20",
+        "copy": "Web page; the abstract, introduction and caveats, quick tour, methods notes, and the beginning of the self-report section were read. The later sections did not load as text.",
+        "pages_read": []
+      },
+      "notes": "Concept injection; all-caps \"loudness or shouting\" example; about 20% success for Opus 4.1 and 4 at the best layer and strength; 0 false positives over 100 control trials for production models; prefilled \"bread\" experiment (quick tour only); explicit caveats on unreliability and on not addressing subjective experience."
+    },
+    "turpin-et-al-2023": {
+      "title": "Miles Turpin, Julian Michael, Ethan Perez, and Samuel R. Bowman, \"Language Models Don't Always Say What They Think: Unfaithful Explanations in Chain-of-Thought Prompting,\" NeurIPS 2023; arXiv:2305.04388",
+      "kind": "research_primary",
+      "url": "https://arxiv.org/abs/2305.04388",
+      "access": "free_no_login",
+      "consulted": {
+        "date": "2026-11-20",
+        "copy": "arXiv abstract page (v2, 9 December 2023)",
+        "pages_read": []
+      },
+      "notes": "Abstract: few-shot options reordered so the answer is always \"(A)\"; models systematically fail to mention this in explanations; accuracy drops by as much as 36% on 13 BIG-Bench Hard tasks; GPT-3.5 and Claude 1.0. The venue comes from the arXiv comments field and was not checked against the proceedings."
+    },
+    "chen-et-al-2025": {
+      "title": "Yanda Chen et al. (Anthropic Alignment Science), \"Reasoning Models Don't Always Say What They Think,\" Anthropic research summary, 3 April 2025",
+      "kind": "research_primary_summary",
+      "url": "https://www.anthropic.com/research/reasoning-models-dont-say-think",
+      "access": "free_no_login",
+      "consulted": {
+        "date": "2026-11-20",
+        "copy": "Anthropic research summary page; the linked full PDF was not read",
+        "pages_read": []
+      },
+      "notes": "Section \"Testing for faithfulness\": hints include a Stanford professor's answer and an \"unauthorized access\" message; averaged over hint types, Claude 3.7 Sonnet mentioned the hint 25% of the time and DeepSeek R1 39%. Lead author taken from the paper's standard citation; the author list was not checked on the page."
+    }
+  }
+}

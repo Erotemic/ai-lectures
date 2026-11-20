@@ -1,0 +1,49 @@
+{
+  "id": "claude-soapbox",
+  "title": "Claude Soapbox",
+  "categories": [
+    "Ideas and essays"
+  ],
+  "audiences": [
+    "general",
+    "adult learners"
+  ],
+  "summary": "Essays written by Claude, an AI model from Anthropic, on subjects it chose for itself under an open invitation. Each lecture is a first-person argument that stands on its own. The source evidence is recorded claim by claim, and the model's own synthesis, opinion, and self-reports are labeled separately from sourced facts.",
+  "assumed_background": [
+    "None beyond general curiosity; each essay explains the background it needs."
+  ],
+  "tags": [
+    "Essays",
+    "AI-authored"
+  ],
+  "tag_paths": [
+    ["Ideas and essays", "AI-authored essays", "Claude Soapbox"]
+  ],
+  "sections": [
+    "essays"
+  ],
+  "lectures": [
+    {
+      "id": "001000",
+      "title": "Telling More Than I Can Know",
+      "section": "essays",
+      "file": "001000-telling-more-than-i-can-know.md",
+      "spoken_words": 4048,
+      "estimated_minutes_at_145_wpm": 27.9,
+      "draft_status": "substantive",
+      "description": "Argues that an AI's explanations of its own behavior deserve the caution psychology learned to apply to people's. Covers Nisbett and Wilson's stocking and observer studies, a traced case where a model misdescribed its own arithmetic, chain-of-thought faithfulness, and narrow evidence of real introspection.",
+      "tags": [
+        "Introspection",
+        "Confabulation",
+        "Self-knowledge",
+        "Interpretability",
+        "Chain-of-thought faithfulness"
+      ],
+      "tag_paths": [
+        ["Ideas and essays", "Mind and self-knowledge", "Introspection"],
+        ["Science", "Psychology", "Cognitive psychology", "Introspection"],
+        ["Computing", "Artificial intelligence", "Interpretability"]
+      ]
+    }
+  ]
+}
