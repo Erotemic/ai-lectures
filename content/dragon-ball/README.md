@@ -1,6 +1,6 @@
 # Dragon Ball: From Penguin Village to the End of Z
 
-**Status: started — twenty-seven complete, source-annotated audio essays.** This is the active, unified track for Akira Toriyama's early work, *Dr. Slump*, the original *Dragon Ball* adventure, and the material adapted as *Dragon Ball Z*. It **supersedes the earlier proposed `dragon-ball-z` plan**. The twenty-seven published lectures are real spoken manuscripts, not placeholders; remaining ideas are in [BACKLOG.md](BACKLOG.md), not in the published `track.json`.
+**Status: started — thirty complete, source-annotated audio essays.** This is the active, unified track for Akira Toriyama's early work, *Dr. Slump*, the original *Dragon Ball* adventure, and the material adapted as *Dragon Ball Z*. It **supersedes the earlier proposed `dragon-ball-z` plan**. The thirty published lectures are real spoken manuscripts, not placeholders; remaining ideas are in [BACKLOG.md](BACKLOG.md), not in the published `track.json`.
 
 ## Why begin before Goku?
 
@@ -42,16 +42,29 @@ The track should be **fun to listen to for fans who know the stories**. Treat ic
 
 These manuscripts contain non-spoken spoiler declarations and source notes, exactly one extractable spoken region each, and precise historical-claim metadata in `metadata/`. The `track.json` and `navigation.json` route only to actual complete manuscripts. Audio is not bundled or claimed to have been synthesized.
 
+## Completed continuation: drawing, power, and television
+
+Three newly completed essays examine not who wins but how Dragon Ball makes its fights visible and audible:
+
+| ID | Essay | The question |
+| --- | --- | --- |
+| `030000` | **How Toriyama Draws a Punch** | How the manga makes movement readable with panel transitions, geometry, silhouette and implied time. |
+| `031000` | **How to Draw a Transformation** | Why the first Super Saiyan, the bulky grades, Kaiō-ken, Frieza’s forms, and fusion make very different promises to the audience. |
+| `032000` | **Five Minutes Until Namek Explodes** | What changes when an ongoing manga must become weekly television, and why *Kai* can clarify some scenes without simply replacing the original Z. |
+
+All are standalone essays of roughly 22–27 minutes; art/production references remain non-spoken and no panels, animation stills, or sound are bundled.
+
 ## Listening routes
 
-- **From the Beginning** (default) — all twenty-seven essays in sequence, continuing forward as new manuscripts are completed. The central plot of *Dragon Ball* begins at `003000`, but the series deliberately opens with the artist and *Dr. Slump*.
+- **From the Beginning** (default) — all thirty essays in sequence, continuing forward as new manuscripts are completed. The central plot of *Dragon Ball* begins at `003000`, but the series deliberately opens with the artist and *Dr. Slump*.
 - **Before Goku** — two substantive, independently listenable essays on Toriyama and *Dr. Slump*.
 - **Start with Goku** — `003000` onward for listeners who want to begin with Goku, including Namek, Frieza and Vegeta’s later journey, without *Dr. Slump* prerequisites.
 - **Character and Drawing** — Goku, Toriyama’s visual design, Piccolo, Vegeta and the Super Saiyan image (`011000`, `012000`, `018000`, `017000`, `023000`), including some later-story spoilers.
 - **Namek, Frieza, and Vegeta** — four finished long-form essays grouped by theme, including the first Super Saiyan, rather than numerical ID. The Vegeta portrait covers later storylines in full.
 - **Turning Points and Futures** — five complete essays on Super Saiyan, Trunks, Piccolo, the horror of Cell and Gohan’s victory.
 - **The Androids and Cell** — Future Trunks, Cell, Gohan, Bulma and Krillin, and Piccolo; a complete spoiler-rich themed route.
-- **Majin Buu: The Last Act** — Three essays on the changing genre, Majin Vegeta, and the friendship of Mr. Satan and Buu. Future fan routes should include only finished manuscripts, with the eventual historical capstone last.
+- **Majin Buu: The Last Act** — Three essays on the changing genre, Majin Vegeta, and the friendship of Mr. Satan and Buu.
+- **Drawing, Transformations, and Television** — Six completed essays spanning machine/world design, the 1986 anime, the first Super Saiyan, manga choreography, transformation design, and *Z*/*Kai* pacing. Future fan routes should include only finished manuscripts, with the eventual historical capstone last.
 
 ## Scope and working conventions
 
@@ -65,4 +78,4 @@ These manuscripts contain non-spoken spoiler declarations and source notes, exac
 
 ## Continuing the track
 
-Published manuscripts now run from Toriyama’s early work to the final confrontation with Majin Buu. The newest essays address the Buu saga’s changing genres, Majin Vegeta’s choices, and the friendship of Mr. Satan and Buu. Broad Goku and Gohan portraits, the drawing and anime-production essays, and the long historical capstone remain to be written. See [BACKLOG.md](BACKLOG.md) for the larger editorial map. The final historical essay should be written after enough of the track exists to support a genuine synthesis.
+Published manuscripts now run from Toriyama’s early work to the final confrontation with Majin Buu. The newest essays analyze Toriyama’s choreography, transformation design, and the weekly anime’s handling of time. Broad Goku and Gohan portraits, a detailed voices-and-regional-dubs essay, resurrection, films and global reception, and the long historical capstone remain proposed; any topic may be combined or declined if a full new argument is not justified. See [BACKLOG.md](BACKLOG.md) for the larger editorial map. The final historical essay should be written after enough of the track exists to support a genuine synthesis.

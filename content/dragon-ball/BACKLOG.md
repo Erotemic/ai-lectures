@@ -1,6 +1,6 @@
 # Dragon Ball: editorial map and future essays
 
-**Current state:** Twenty-seven complete manuscripts are published in `track.json`. All remaining proposed IDs below are **prospective**. They are not empty recordings, catalog entries, or commitments to a quota. Merge or replace adjacent ideas when that gives a better, more substantial listen. Drafts should supply enough plot to orient a listener but favor criticism, character, craft, production and real historical context over systematic recaps. Maintain the numbering of released lectures.
+**Current state:** Thirty complete manuscripts are published in `track.json`. All remaining proposed IDs below are **prospective**. They are not empty recordings, catalog entries, or commitments to a quota. Merge or replace adjacent ideas when that gives a better, more substantial listen. Drafts should supply enough plot to orient a listener but favor criticism, character, craft, production and real historical context over systematic recaps. Maintain the numbering of released lectures.
 
 ## Completed opening: the artist before the hero
 
@@ -56,6 +56,12 @@
 - **028000 — Majin Vegeta: The Fight He Really Needed to Lose.** A close reading of Vegeta’s decision, the needless harm he causes, the doomed farewell to Trunks and his eventual cooperation. Complete; approximately 24 minutes.
 - **029000 — Mr. Satan and Buu: The Joke That Saves the World.** A fraud who knows how to talk to people learns the power of friendship and uses a reputation to enlist Earth in saving itself. Complete; approximately 25 minutes.
 
+## Completed continuation: manga choreography, transformations, and the television clock
+
+- **030000 — How Toriyama Draws a Punch.** Tournament geography, missing instants between panels, readable silhouettes, negative space, giant-ape scale, and Cell-era action as visual argument. Complete; ~23 minutes.
+- **031000 — How to Draw a Transformation.** Oozaru, Kaiō-ken, Frieza, first Super Saiyan, expanded grades, Super Saiyan 3 and fusion as different artistic and dramatic proposals. Complete; ~22 minutes.
+- **032000 — Five Minutes Until Namek Explodes: What Weekly Anime Does to Time.** Manga-to-television duration, weekly scheduling and cliffhangers, anime-original arcs and *Kai* revisions, with both the pleasures and costs of delay. Complete; ~27 minutes.
+
 ## More character essays
 
 | ID | Proposed essay | Central question |
@@ -67,9 +73,6 @@
 
 | ID | Proposed essay | Central question |
 | --- | --- | --- |
-| `030000` | **How Toriyama Draws a Punch** | Analyze specific manga sequences through silhouettes, panel rhythms, impact, negative space, point of view and comedy. Precise non-spoken chapter/panel citations; no reproduced scans. |
-| `031000` | **How to Draw a Transformation** | The visual language of Kaiō-ken, the Super Saiyan forms, body proportions, hair and fusion, from authored manga design to animation. |
-| `032000` | **Five Minutes Until Namek Explodes: The Weekly Anime and Time** | The problems of keeping the television anime behind the manga, added material, pacing and how *Dragon Ball Z Kai* changes the experience. |
 | `033000` | **Voices, Music, and the Several Dragon Ball Zs** | Japan, North America, Latin America and other documented reception histories; competing versions and meaningful score, cast, translation and edit decisions. |
 | `034000` | **Death, Dragon Balls, and the Price of a Second Chance** | The actual changing rules of wishes and resurrection, and whether a story can still generate grief when some reversals become imaginable. |
 | `035000` | **A Franchise Larger Than the Manga: Films, Games, and Global Fans** | *Bardock*, *Broly*, movie continuities, *Dragon Quest* character design, different broadcasts, game aesthetics and global reception, with separate factual/interpretive layers. This may become two essays if original evidence warrants the split. |
@@ -80,7 +83,7 @@
 
 ## Editorial and research reminders
 
-- **Priority next:** The main manga’s final conflict is now covered. Develop `016000` (Goku’s contested choices) and `019000` (Gohan’s life outside the expected heroic role) only if they offer new arguments beyond existing portraits and Buu essays. Then prioritize Toriyama’s drawing (`030000`–`031000`) and the historical animation and global-reception studies (`032000`–`035000`). Keep reserved IDs stable.
+- **Priority next:** The original manga’s narrative and the first three craft studies are complete. Write `033000` on voices, scores, and region-specific cuts, `034000` on the changing rules and emotional cost of resurrection, and `035000` on films, games, and international fandom if the available evidence supports a strong essay. The reserved character studies `016000` and `019000` remain possible only if they add substantial new arguments. Draft the historical capstone (`036000`) after these focused essays, not as a recycled synopsis. Keep reserved IDs stable.
 - **Crossings between media:** Distinguish the 1984–1995 original continuous manga, the 1986 *Dragon Ball* TV series, 1989–1996 *Dragon Ball Z*, *Kai*, dubbing cuts and individual film continuities. Do not import later sequel backstory as evidence of Toriyama's original intentions in 1984.
 - **Oral style:** Every essay must be enjoyable without images or game footage. Explain the physical action and panel layout sufficiently for an audio listener. Include original criticism, memorable scenes and well-supported creator history; do not deliver listicles of trivia or fights.
 - **Biographical rigor:** Attribute editor anecdotes to Torishima or Toriyama and identify differences in their later recollections. Do not invent private conversations, emotional reactions or editorial orders where records do not exist.

@@ -1,0 +1,118 @@
+{
+  "schema_version": 1,
+  "lecture_id": "032000",
+  "transcript": "032000-five-minutes-until-namek-explodes.md",
+  "related_resources": [
+    {
+      "source_id": "db-toei-z-series-catalog",
+      "reason": "Official episode counts for original Dragon Ball, Z, Kai and Final Chapters Japanese/international variants."
+    },
+    {
+      "source_id": "db-viz-dragonball",
+      "reason": "Publisher record for Toriyama’s original continuous Dragon Ball manga."
+    },
+    {
+      "source_id": "db-kanzenshuu-z-series",
+      "reason": "Original Japanese Z production and broadcast context."
+    },
+    {
+      "source_id": "db-official-42panels2",
+      "reason": "Namek plot and impending destruction in original manga."
+    },
+    {
+      "source_id": "db-kanzenshuu-z-episode-list",
+      "reason": "Original Japanese episodes, added Garlic Jr. storyline and airdate chronology."
+    },
+    {
+      "source_id": "db-kanzenshuu-afterlife-tournament",
+      "reason": "The anime-original Other World Tournament after the Cell Games."
+    },
+    {
+      "source_id": "db-kanzenshuu-adaptation-index",
+      "reason": "Secondary reference on anime-manga adaptation boundaries, not artist intentions."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "032000-c01",
+      "anchor": "The original Dragon Ball animated series began in Japan in 1986 and ran for 153 episodes.",
+      "kind": "production_fact",
+      "source_ids": [
+        "db-toei-z-series-catalog"
+      ],
+      "source_locator": "Original Dragon Ball program catalog",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "032000-c02",
+      "anchor": "Dragon Ball Z followed in 1989",
+      "kind": "production_fact",
+      "source_ids": [
+        "db-toei-z-series-catalog",
+        "db-kanzenshuu-z-series"
+      ],
+      "source_locator": "Japanese Z television debut and 291-episode run",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "032000-c03",
+      "anchor": "The manga also stretches fictional time for dramatic effect.",
+      "kind": "critical_reading",
+      "source_ids": [
+        "db-official-42panels2"
+      ],
+      "source_locator": "Manga original Namek finale and planet countdown",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "032000-c04",
+      "anchor": "The Garlic Jr. arc, broadcast after the Namek material",
+      "kind": "production_fact",
+      "source_ids": [
+        "db-kanzenshuu-z-episode-list"
+      ],
+      "source_locator": "Anime-original Z episodes 108–117 after Namek",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "032000-c05",
+      "anchor": "The Other World Tournament after Cell is another example.",
+      "kind": "adaptation_distinction",
+      "source_ids": [
+        "db-kanzenshuu-afterlife-tournament"
+      ],
+      "source_locator": "Anime-original Z episodes 196–199",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "032000-c06",
+      "anchor": "In 2009, twenty years after the launch of Z, Toei began releasing Dragon Ball Kai",
+      "kind": "production_fact",
+      "source_ids": [
+        "db-toei-z-series-catalog"
+      ],
+      "source_locator": "Producer catalog for 2009 Kai edition",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "032000-c07",
+      "anchor": "Official catalog counts differ between the original Japanese presentation and some international releases",
+      "kind": "production_fact",
+      "source_ids": [
+        "db-toei-z-series-catalog"
+      ],
+      "source_locator": "Kai Final Chapters Japanese 61 / international listing 69",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "032000-c08",
+      "anchor": "The original Dragon Ball manga itself also appeared one installment at a time.",
+      "kind": "publication_fact",
+      "source_ids": [
+        "db-viz-dragonball"
+      ],
+      "source_locator": "Original weekly manga serialization",
+      "audit_status": "reference_recorded"
+    }
+  ]
+}
