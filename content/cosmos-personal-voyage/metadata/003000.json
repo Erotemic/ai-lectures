@@ -1,0 +1,187 @@
+{
+  "schema_version": 1,
+  "lecture_id": "003000",
+  "transcript": "003000-alexandria-kepler-and-the-myth-of-the-lone-genius.md",
+  "description": "A historical critique of the original Cosmos: Alexandria and Hypatia, the tangled survival of knowledge, Kepler’s reliance on Tycho, and the heroic individual as a misleading model of collective science.",
+  "related_resources": [
+    {
+      "source_id": "cosmos-transcript-13",
+      "reason": "Transcript of Sagan on Hypatia, the library and its destruction."
+    },
+    {
+      "source_id": "cosmos-transcript-3",
+      "reason": "Original Kepler/Tycho narrative, geometrical ideas and eight-minute discrepancy."
+    },
+    {
+      "source_id": "cosmos-transcript-1",
+      "reason": "Ship of the Imagination, Eratosthenes, Alexandria and the Cosmic Calendar."
+    },
+    {
+      "source_id": "cosmos-ou-alexandria",
+      "reason": "Differing ancient testimonies and the uncertain history of the Library’s loss."
+    },
+    {
+      "source_id": "cosmos-serapeum-2022",
+      "reason": "Scholarship arguing for significant library destruction during the Serapeum event; evidence is debated."
+    },
+    {
+      "source_id": "cosmos-watts-hypatia",
+      "reason": "The actual career of Hypatia and the later traditions about her murder."
+    },
+    {
+      "source_id": "cosmos-maa-hypatia-watts",
+      "reason": "Evaluation of source limitations in Hypatia’s history."
+    },
+    {
+      "source_id": "cosmos-stanford-kepler",
+      "reason": "Tycho Brahe, religious commitments, astrology, Kepler’s laws and their publication."
+    },
+    {
+      "source_id": "cosmos-unesco-islamic-astronomy",
+      "reason": "Medieval astronomical model building, observation and translation."
+    },
+    {
+      "source_id": "cosmos-met-islamic-astronomy",
+      "reason": "Multiple intellectual traditions and developments across the medieval Islamic world."
+    },
+    {
+      "source_id": "cosmos-chicago-eratosthenes",
+      "reason": "Eratosthenes’s angle and baseline calculation, assumptions and uncertainty over the ancient stade."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "003000-c01",
+      "anchor": "In the final episode of *Cosmos*, Carl Sagan stands inside an extraordinary library.",
+      "kind": "series_content",
+      "source_ids": [
+        "cosmos-transcript-13"
+      ],
+      "source_locator": "Original program transcript, primary production account, or specialist history",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "003000-c02",
+      "anchor": "Hypatia, the Alexandrian philosopher and mathematician killed by a mob in the year 415.",
+      "kind": "historical_event",
+      "source_ids": [
+        "cosmos-watts-hypatia"
+      ],
+      "source_locator": "Original program transcript, primary production account, or specialist history",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "003000-c03",
+      "anchor": "The early episode *The Shores of the Cosmic Ocean* uses Alexandria as a gateway to Eratosthenes",
+      "kind": "episode_reference",
+      "source_ids": [
+        "cosmos-transcript-1"
+      ],
+      "source_locator": "Original program transcript, primary production account, or specialist history",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "003000-c04",
+      "anchor": "Historians have debated the length of the stade",
+      "kind": "historical_measurement",
+      "source_ids": [
+        "cosmos-chicago-eratosthenes"
+      ],
+      "source_locator": "Original program transcript, primary production account, or specialist history",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "003000-c05",
+      "anchor": "in 391 of the common era, the Serapeum",
+      "kind": "late_antique_history",
+      "source_ids": [
+        "cosmos-serapeum-2022",
+        "cosmos-ou-alexandria"
+      ],
+      "source_locator": "Original program transcript, primary production account, or specialist history",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "003000-c06",
+      "anchor": "The popular story of an Arab conqueror ordering the books of the great library burned as fuel",
+      "kind": "history_of_legend",
+      "source_ids": [
+        "cosmos-ou-alexandria"
+      ],
+      "source_locator": "Original program transcript, primary production account, or specialist history",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "003000-c07",
+      "anchor": "Historian Edward J. Watts has worked to recover Hypatia as a thinker",
+      "kind": "scholarly_interpretation",
+      "source_ids": [
+        "cosmos-watts-hypatia",
+        "cosmos-maa-hypatia-watts"
+      ],
+      "source_locator": "Original program transcript, primary production account, or specialist history",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "003000-c08",
+      "anchor": "Between Ptolemy and Copernicus, astronomy did not stop.",
+      "kind": "historical_continuity",
+      "source_ids": [
+        "cosmos-unesco-islamic-astronomy",
+        "cosmos-met-islamic-astronomy"
+      ],
+      "source_locator": "Original program transcript, primary production account, or specialist history",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "003000-c09",
+      "anchor": "The Kepler episode, *Harmony of the Worlds*",
+      "kind": "episode_reference",
+      "source_ids": [
+        "cosmos-transcript-3"
+      ],
+      "source_locator": "Original program transcript, primary production account, or specialist history",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "003000-c10",
+      "anchor": "After Brahe's death in 1601, Kepler succeeded him as imperial mathematician",
+      "kind": "biographical_history",
+      "source_ids": [
+        "cosmos-stanford-kepler"
+      ],
+      "source_locator": "Original program transcript, primary production account, or specialist history",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "003000-c11",
+      "anchor": "Those first two laws appeared in *Astronomia nova* in 1609.",
+      "kind": "science_history",
+      "source_ids": [
+        "cosmos-stanford-kepler"
+      ],
+      "source_locator": "Original program transcript, primary production account, or specialist history",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "003000-c12",
+      "anchor": "A third relation between orbital periods and distances followed in 1619.",
+      "kind": "science_history",
+      "source_ids": [
+        "cosmos-stanford-kepler"
+      ],
+      "source_locator": "Original program transcript, primary production account, or specialist history",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "003000-c13",
+      "anchor": "He was drawn to geometrical and musical structures",
+      "kind": "historical_context",
+      "source_ids": [
+        "cosmos-stanford-kepler"
+      ],
+      "source_locator": "Original program transcript, primary production account, or specialist history",
+      "audit_status": "source_checked"
+    }
+  ]
+}
