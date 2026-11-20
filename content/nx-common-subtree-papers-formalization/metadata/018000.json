@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "lecture_id": "018000",
+  "transcript": "018000-the-two-state-dynamic-program.md",
+  "description": "Derives both mapped and skipped recurrence equations from independent boundary witnesses, proves the skipped descent and child-matching assembly/decomposition directions, works a finite/infinite-penalty table and reads the relevant Lean correctness theorems.",
+  "related_resources": [
+    {
+      "source_id": "nx-dkm-2018",
+      "reason": "MFCS 2018, Lemma 5, its two-state recurrence and proof, pp. 54:6–54:7."
+    }
+  ],
+  "historical_claims": [],
+  "source_snapshot": {
+    "date": "2026-11-19",
+    "repository": "networkx_algo_common_subtree",
+    "statement_map": "docs/planning/paper_statement_crosswalk.md",
+    "proof_status": "proofs/PROOF_STATUS.md"
+  },
+  "tag_paths": [
+    [
+      "Computer Science",
+      "Algorithms",
+      "Graph algorithms"
+    ],
+    [
+      "Mathematics",
+      "Discrete mathematics",
+      "Graph theory"
+    ],
+    [
+      "Computer Science",
+      "Formal methods",
+      "Formal verification"
+    ],
+    [
+      "Computer Science",
+      "Programming languages",
+      "Lean 4"
+    ]
+  ],
+  "learning": {
+    "assumed_lectures": [
+      "016000",
+      "017000"
+    ],
+    "learning_objectives": [
+      "Define mapped and skipped boundary states without reference to a recurrence",
+      "Derive and prove the two Lemma 5 recurrence equalities in both directions",
+      "Compute the exact U-B versus V-C-D worked example with signed and infinite penalties",
+      "Distinguish independently proved Bellman identities from exhaustive reference evaluation and optimized production Rust"
+    ]
+  }
+}

@@ -90,12 +90,20 @@ Definition 4's path score for representing paths `P₁,P₂` of lengths `k,l` is
 
 Every matched common vertex additionally contributes its vertex-pair score. In the non-direct case, do **not** add the direct-edge reward on top of the skipped-vertex penalty. The paper's rooted and unrooted real-weight time target is `O(|T||T'|Δ)` with `Δ = min(Δ(T), Δ(T'))` under its stated model; the bounded-integer rooted improvement has separate hypotheses and an imported scaling-solver space qualification.
 
-### Lectures now available for the 2018 specification and scoring
+### Lectures now available for the 2018 paper
 
 - `016000`: Definitions 1–2, a common-tree fork with two valid path realizations, a hidden branch-point counterexample, exact `Valid` skeleton requirements, `Valid.commonTree`, `valid_iff_source_embeddings`, and rooted/root-to-root representation bridges. Both representation directions are mathematical theorems; neither asserts optimized-source refinement.
 - `017000`: Definition 4 with edge rewards only when **both** realized paths are direct, skipped interior counts for all other path pairs, a numerical comparison of three explicitly feasible mappings, negative/infinite/zero-penalty cases, and the formal `pathScore` / `one_two_path_score` / `maximum_score_antitone` results. The worked example is not claimed to cover all possible embeddings because unrelated pair weights are not specified.
 
-The supplied proof snapshot supports independent nonempty finite optimum and the exact source-to-skeleton and score correspondences. It also contains the mapped/skipped recurrence and reference score correctness, to be taught in `018000`. The optimized source graph algorithm, its complete output-path reconstruction proof, `f64` refinement, Python boundary and paper time/space bounds remain separate research obligations.
+The supplied proof snapshot supports independent nonempty finite optimum, exact source-to-skeleton and score correspondences, both halves of the mapped/skipped recurrence, and executable reference score correctness. Lecture `018000` derives the actual two-state Bellman equalities against independent boundary witnesses and reads `skipped_recurrence_two_state`, `mapped_recurrence` and `RootedDP.solve_correct`. Lecture `019000` presents the paper's Lemmas 9–11 and distinguishes the still-open fixed-first-root M1/M2 structural formalization from the **already proved all-root-pairs baseline** (`unrootedValue_eq_max_rerooted_mapped`, `RootedDP.unrootedOptimum_correct`). The optimized source graph algorithm, its complete output-path reconstruction proof, `f64` refinement, Python boundary and paper time/space bounds remain separate research obligations.
+
+### New 2018 proof-reading guide (`018000`–`019000`)
+
+- **Independent state:** `BoundaryStates.StateValid`, `stateScore`, `mappedValue`, `skippedValue` represent actual nonempty common-tree witnesses, not recurrence outputs. Boundary skip distances are charged once per physical descent.
+- **Lemma 5, skipped half:** `StateValid.skipped_cover`, `extend_left` / `extend_right`, and `stateScore_step_left` / `step_right` yield `SkippedRecurrence.skipped_recurrence_two_state` for empty and nonempty child families, including infinite penalties.
+- **Lemma 5, mapped half:** `BranchOptimum.matchingBranchValue_attained`, `MatchingAssembly.familyOfMatching_score`, `MappedDecomposition.source_score_upper`, and `mapped_recurrence` prove the two directions of optimality. Edge rewards require both realized paths to be direct. `RootedDP.solve_correct` supplies an executable but exhaustive score table; it is not production Rust refinement.
+- **Lemmas 9–11, paper only:** An arbitrarily fixed first root can miss an unrooted optimum when the highest realized vertex is skipped along a crossing path. The paper adds a cardinality-two matching of two distinct child branches across a cut edge in the second tree, with one central penalty. Its top-two exchange argument makes the added M2 maximization linear in the rooted child-family size. These specific fixed-first-root structural and cost proofs are **open** in the uploaded Lean snapshot.
+- **Certified baseline for contrast:** `OverallOptima.unrootedValue_eq_max_rerooted_mapped` and `RootedDP.unrootedOptimum_correct` prove correctness of evaluating every input root pair, under the stated finite vertex and true child-list hypotheses. They do not imply the optimized Lemma 10/11 representation or runtime.
 
 ## Shared source-refinement vocabulary
 

@@ -108,3 +108,13 @@ learning_map:
 # Reconstruction.lean, Rooted.lean, Shared/TopologicalEmbedding.lean,
 # GraftScore.lean, ScoreDecomposition.lean and paper_statement_crosswalk.md.
 # No new Lean or Rust source proof, optimized runtime, or Python guarantee is claimed.
+
+# Droschinsky 2018 continuation (2026-11-19): GPT-6 original lectures 018000-019000.
+# Paper: MFCS 2018 Sections 4 and 5.1, Lemmas 5 and 9-11.
+# Supplied repository: Droschinsky2018/BoundaryStates.lean, SkippedRecurrence.lean,
+# BranchOptimum.lean, MatchingAssembly.lean, MappedDecomposition.lean,
+# RootedDynamicProgram.lean, OverallOptima.lean, plus PROOF_STATUS.md and
+# paper_statement_crosswalk.md.
+# Bellman state and reference score proofs are recorded as existing source claims.
+# Unrooted M1/M2 structural proof, optimized schedule/cost and Rust/Python
+# refinement remain explicitly open; no new source proofs asserted.

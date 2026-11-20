@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "lecture_id": "019000",
+  "transcript": "019000-the-root-that-was-not-mapped.md",
+  "description": "Explains why a fixed input root fails for topological embeddings, proves the selected/skipped highest-point dichotomy and two-branch reconstruction, derives the M1/M2 optimization and linear-time top-two cardinality-two matching step, and distinguishes these paper claims from the verified all-roots Lean baseline.",
+  "related_resources": [
+    {
+      "source_id": "nx-dkm-2018",
+      "reason": "MFCS 2018, Section 5.1, Figure 2, Lemmas 9–11, pp. 54:8–54:10."
+    }
+  ],
+  "historical_claims": [],
+  "source_snapshot": {
+    "date": "2026-11-19",
+    "repository": "networkx_algo_common_subtree",
+    "statement_map": "docs/planning/paper_statement_crosswalk.md",
+    "proof_status": "proofs/PROOF_STATUS.md"
+  },
+  "tag_paths": [
+    [
+      "Computer Science",
+      "Algorithms",
+      "Graph algorithms"
+    ],
+    [
+      "Mathematics",
+      "Discrete mathematics",
+      "Graph theory"
+    ],
+    [
+      "Computer Science",
+      "Formal methods",
+      "Formal verification"
+    ],
+    [
+      "Computer Science",
+      "Programming languages",
+      "Lean 4"
+    ]
+  ],
+  "learning": {
+    "assumed_lectures": [
+      "018000"
+    ],
+    "learning_objectives": [
+      "Explain why the 2016 fixed-left-root shortcut fails for skipped-path embeddings",
+      "Characterize the two selected sides of a highest skipped realized-path vertex",
+      "Derive the M1/M2 unrooted decomposition with exactly one central skip penalty",
+      "Prove that top-two candidates per right terminal suffice for each cardinality-two child matching",
+      "Identify the correct all-root-pairs Lean baseline and the still-open fixed-root structural theorem"
+    ]
+  }
+}
