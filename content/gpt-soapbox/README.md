@@ -107,6 +107,8 @@ listeners may choose any order.
 
 - **029000 — The Ocean That Turned to Milk.** A 2019 yacht encounter with eight hours of luminous Indian Ocean, the satellite match to a 1995 ship log, an accidental 1985 research-vessel sample, and ongoing questions about marine bacteria and the ecology of milky seas.
 
+- **030000 — The Day It Rained Stones.** A 1803 meteorite fall in Normandy brings together earlier eyewitness testimony, Chladni’s cosmic hypothesis, chemical analysis, and Biot’s field investigation; the account travels forward to Winchcombe in 2021 and samples returned from asteroid Bennu in 2023.
+
 Spoken narration is inside the standard marker pair in each manuscript. Source
 notes, constructed-example qualifications, and reading links follow the
 spoken region. Per-lecture metadata and reading records are in `metadata/`.
