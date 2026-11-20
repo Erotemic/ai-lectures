@@ -1,6 +1,6 @@
 # Roadmap — from foundations to paper proof to source verification
 
-This is a **curriculum plan**, not an indexed list of written lectures. IDs `000000`–`028000` are complete in the current pack. Later IDs are proposed, will be written as full narration with exact companion mathematics, and may be combined or expanded when the mathematics calls for it. Lecture order is a suggested path, not a fixed dependency graph.
+This is a **curriculum plan**, not an indexed list of written lectures. IDs `000000`–`029000` are complete in the current pack. The final lecture is a capstone; further research or lecture extensions may follow when there is new mathematics to explain. Lecture order is a suggested path, not a fixed dependency graph.
 
 The teaching goal is to be able to do four things for each paper: (1) define valid solutions independently of the algorithm; (2) derive and understand its central recurrence and claimed complexity; (3) find and read the corresponding Lean theorems and source obligations; and (4) identify the next useful correctness or cost proof without conflating optimized Rust, reference Rust, formal mathematics and Python API behavior.
 
@@ -71,7 +71,7 @@ These lectures can be listened to after one paper or in parallel with the paper-
 | **`026000` — written** | Lean complexity: request and completion identities, nonuniform memo work, list vs dense cache charging, matching-family pair storage, tree degree sums and concrete Rust resource gaps | Interpret exactly what source and abstract work bounds establish |
 | **`027000` — written** | One production matching-deletion family: lazy reuse, rectangular Hungarian invariants, both repair orientations, source-level boundaries and proposed cost/space certificates | Follow the actual `matching.rs` code and design separately dischargeable correctness and work obligations |
 | **`028000` — written** | Exact-rational verified ordered backend versus tested f64 unordered APIs; NetworkX node identity, callback tables, PyO3/ABI3, rooted/empty/error contracts and witness paths | Distinguish mathematical correctness, compiled Lean execution, indexed Rust results, Python reconstruction and installed-wheel assurances; design separable API proof interfaces |
-| `029000` | A proof-completion workshop with three worked open obligations and viable theorem interfaces | Convert the crosswalk into a research plan, revisiting actual repository state |
+| **`029000` — capstone written** | Three-paper synthesis and three worked proof-completion targets: 2018 M₁/M₂, production matching-family refinement, and original-node/path decoding | Understand how independently proved structural, source and API theorems compose without inflating any one guarantee |
 
 ### Reusable lectures already in other tracks
 
@@ -84,8 +84,10 @@ Instead of duplicating large independent courses, recommend:
 
 The paper-specific lectures will still explain whatever piece of these prerequisites is needed at the point of use. Linking a broader recording does not license skipping a definition required for the paper.
 
-## Next sensible authoring session
+## First-phase completion and subsequent proof development
 
-The Lozano–Valiente branch is written through `009000`, including the source-notation counterexample and formalization reading route. The 2016 branch is written through `015000`: mathematical definitions, recurrence, matching optimization, complete paper complexity argument, and a source-aware list of unresolved verification interfaces. The 2018 branch is written through `021000`: topological embeddings, path scoring, mapped/skipped two-state recurrence, fixed-first-root structural reduction, matching-family reuse, the published time/space analysis, and a detailed formalization status and source-refinement guide. Lemmas 9–14 and Theorem 15 remain open formalization frontiers in the pinned repository, despite the mathematical explanation in these lectures. The shared Lean, Rust and Python reading sequence is written through `028000`: mathematical specifications, the tree-to-Dyck equivalence, the 2018 reference-table proof, signed-integer Rust matching source verification, existing Lean work/space-count theorems, a source-oriented matching-family refinement case study, and the distinct Python/NetworkX API proof boundaries for compiled exact-rational Lean versus tested floating-point Rust. Next proposed is `029000`, a hands-on proof-completion workshop that prioritizes explicit Lean theorem interfaces and source invariants. The optimized graph backend and Python API remain open. The 2004 and 2016 source-level runtime and Python/NetworkX refinement frontiers remain open research work, not claims of completion.
+The track has a complete foundational and paper-level treatment of the three source papers, shared formalization methods through `028000`, and a substantial synthesis and proof-completion workshop in `029000`. Its end point is *understanding and a credible mathematical work plan*, not a statement that the optimized graph backends, Python API or physical resource bounds are fully verified.
 
-Before writing *formalization status* manuscripts in any later session, inspect the **current** source repository. This roadmap records the November 19, 2026 upload rather than assuming proof status remains fixed.
+The capstone's three independent extension targets are: prove the 2018 fixed-root M₁/M₂ witness theorem; refine the optimized right-deletion matching-family source through direct and transposed rectangular repairs under explicit arithmetic premises; and prove original-node and realized-path witness decoding at the NetworkX boundary, independently of backend optimality. Later research can choose one of these targets, or the source-work/space obligations, without adding arbitrary lectures to this completed curriculum.
+
+Before drafting further *formalization status* manuscripts, inspect the then-current repository, because these proof-status descriptions refer to the November 19, 2026 source snapshot.

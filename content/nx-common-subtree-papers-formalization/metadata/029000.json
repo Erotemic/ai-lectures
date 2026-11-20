@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "lecture_id": "029000",
+  "transcript": "029000-the-tree-the-witness-and-the-machine.md",
+  "description": "Course capstone synthesizing Lozano–Valiente 2004, Droschinsky 2016 and 2018, independently specified witnesses, recurrences, matching-family speedups, existing Lean correctness, exact/source/numeric boundaries, and three worked proof-completion targets: fixed-root 2018 M1/M2, optimized matching deletion-family source refinement, and original-node/path decoding for NetworkX.",
+  "related_resources": [
+    {
+      "source_id": "nx-lozano-2004",
+      "reason": "Ordered-tree contractions, balanced-word decomposition and the source-definition discrepancy."
+    },
+    {
+      "source_id": "nx-dkm-2016",
+      "reason": "Strict weighted subtree isomorphism, child matching, fixed-root reduction and deletion-family optimization."
+    },
+    {
+      "source_id": "nx-dkm-2018",
+      "reason": "Topological embedding score, mapped/skipped states, M1/M2 split and the optimized runtime argument."
+    },
+    {
+      "source_id": "nx-lean-book",
+      "reason": "Independent specifications, proof statements, induction, refinement and executable theorem reading."
+    },
+    {
+      "source_id": "nx-aeneas",
+      "reason": "Pinned Rust-to-Lean translation approach for the exact-integer source-level matching boundary."
+    }
+  ],
+  "historical_claims": [],
+  "source_snapshot": {
+    "date": "2026-11-19",
+    "repository": "networkx_algo_common_subtree",
+    "statement_map": "docs/planning/paper_statement_crosswalk.md",
+    "proof_status": "proofs/PROOF_STATUS.md"
+  },
+  "tag_paths": [
+    [
+      "Computer Science",
+      "Algorithms",
+      "Graph algorithms"
+    ],
+    [
+      "Computer Science",
+      "Formal methods",
+      "Formal verification"
+    ],
+    [
+      "Computer Science",
+      "Programming languages",
+      "Lean 4"
+    ],
+    [
+      "Computer Science",
+      "Algorithms",
+      "Algorithm analysis"
+    ]
+  ],
+  "learning": {
+    "assumed_lectures": [
+      "000000",
+      "009000",
+      "015000",
+      "021000",
+      "024000",
+      "027000",
+      "028000"
+    ],
+    "learning_objectives": [
+      "Contrast the three independent admissibility relations using a small path example, including 2018 penalty-dependent optimum changes.",
+      "Derive the shared witness-decomposition/assembly strategy without conflating ordered contraction, induced isomorphism or path embedding.",
+      "Explain how recurrence, executable table, witness reconstruction, source refinement and resource proofs compose.",
+      "State the 2018 fixed-first-root M1/M2 completeness and soundness targets and the needed highest-vertex and path-separation lemmas.",
+      "Formulate direct and transposed rectangular matching-deletion refinement and the separate amortized source-work obligation.",
+      "Formulate a conditional Python/NetworkX indexed-witness decoding theorem with original identities, paths, score and empty-policy correspondence.",
+      "Identify which proofs are checked in the November 2026 snapshot and which proposed theorem interfaces are open."
+    ]
+  }
+}

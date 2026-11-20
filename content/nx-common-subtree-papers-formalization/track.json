@@ -1,7 +1,7 @@
 {
   "id": "nx-common-subtree-papers-formalization",
   "title": "NX Common Subtree Papers & Formalization",
-  "summary": "A paper- and formalization-focused course on ordered common embedded subtrees (Lozano–Valiente 2004), weighted unordered strict subtree isomorphism (Droschinsky et al. 2016), and weighted topological subtree embedding with distance penalties (Droschinsky et al. 2018). Foundations lead to paper recurrences, theorem correspondence, Lean/Rust refinement and remaining proof obligations.",
+  "summary": "A paper- and formalization-focused course on ordered common embedded subtrees (Lozano–Valiente 2004), weighted unordered strict subtree isomorphism (Droschinsky et al. 2016), and weighted topological subtree embedding with distance penalties (Droschinsky et al. 2018). Foundations lead to paper recurrences, theorem correspondence, Lean/Rust refinement and remaining proof obligations, concluding with a capstone that synthesizes their proof boundaries and three concrete proof-completion targets.",
   "categories": [
     "Mathematics",
     "Computer Science"
@@ -632,6 +632,33 @@
         "Exact rationals",
         "Floating-point semantics",
         "Backend selection",
+        "Lozano Valiente 2004",
+        "Droschinsky 2016",
+        "Droschinsky 2018"
+      ]
+    },
+    {
+      "id": "029000",
+      "title": "The Tree, the Witness, and the Machine: A Common-Subtree Capstone",
+      "section": "formalization-methods",
+      "file": "029000-the-tree-the-witness-and-the-machine.md",
+      "spoken_words": 6010,
+      "estimated_minutes_at_145_wpm": 41.4,
+      "draft_status": "substantive",
+      "tags": [
+        "Common subtree",
+        "Capstone",
+        "Ordered tree contractions",
+        "Strict subtree isomorphism",
+        "Topological embedding",
+        "Proof completion",
+        "Lean 4",
+        "Rust source verification",
+        "Matching deletion family",
+        "Amortized analysis",
+        "NetworkX",
+        "Witness refinement",
+        "Python API",
         "Lozano Valiente 2004",
         "Droschinsky 2016",
         "Droschinsky 2018"

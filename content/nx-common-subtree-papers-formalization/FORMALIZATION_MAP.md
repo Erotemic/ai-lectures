@@ -174,3 +174,13 @@ The companion of `027000` records proposed interfaces separately from checked de
 - For 2018, trace `skipped_recurrence_two_state` and `RootedDP.solve_correct`; locate the exact hypothesis that distinguishes mapped and skipped states and follow the `Definition 4` scoring branch.
 
 These exercises refer to **existing** files and declarations in the supplied snapshot. When later sessions aim to teach the current state or draft completion work, reopen the latest source rather than relying on this dated map.
+
+## Capstone — lecture `029000`
+
+`029000-the-tree-the-witness-and-the-machine.md` concludes the first phase with a three-paper comparison and a concrete three-target proof-completion workshop. It introduces **no new Lean or Rust theorem**.
+
+1. **2018 fixed-root structural reduction (open in pinned snapshot):** prove the independent unrooted optimum equals `max(M₁,M₂)` for any fixed first-tree root, with soundness, completeness, no-hidden-branching, exact central skip-penalty accounting, and best-two distinct-child candidate exclusion. `Droschinsky2018/OverallOptima.lean` already proves the all-roots reference optimum but not this optimized identity.
+2. **Optimized matching-deletion family source (open in pinned snapshot):** refine the production `WeightedMatchingFamily` in `rust/crates/common_subtree_algorithms/src/matching.rs` to independent deleted-right partial-matching optima, preserving original indices and both direct/transposed repair invariants. Exact-mathematical `Shared/MatchingDeletion.lean`, `Shared/TransposedMatchingDeletion.lean`, exact reference source `Rust/MatchingDeletionEntrypoint.lean`, and conditional sparse caller `Rust/SparseDeletionEntrypoint.lean` supply partial facts, not a proof of the production `f64` family. Source work and live-allocation bounds remain separate.
+3. **Python indexed-witness decoding (open in pinned snapshot):** conditionally prove decoding any valid indexed 2018 witness preserves actual NetworkX node identities, paths, skipped interiors, branch separation and independent score, including the documented empty-policy split. This narrower result does not require proving the Rust backend optimal. Full public API optimality later composes encoding, a designated backend source theorem, numeric contract and decoding.
+
+The manuscript's companion contains candidate theorem statements and a dependency graph and **explicitly labels them as proposals**. See `docs/planning/paper_statement_crosswalk.md` and `proofs/PROOF_STATUS.md` in the November 19, 2026 NX upload for the checked statement names, hypotheses and source-status boundaries.

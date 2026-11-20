@@ -178,3 +178,15 @@ learning_map:
 # Worked Python-reference graph example run and checked. Explains previously
 # proved exact rational ordered backend, tested f64 weighted graph paths, and
 # remaining Python/ABI/source/numeric bridges. No source program or proof modified.
+
+# First-phase capstone (2026-11-20):
+# GPT-6 original lecture 029000 synthesizes all three pinned paper editions and
+# checked statements in the supplied November 19 NX source snapshot.
+# Source anchors include Paper2004/ContractionCompleteness.lean and
+# RationalOrderedSolver.lean; Droschinsky2016/OrientedRecurrence.lean;
+# Droschinsky2018/{OverallOptima,SkippedRecurrence,RootedDynamicProgram}.lean;
+# Shared/{MatchingDeletion,TransposedMatchingDeletion}.lean;
+# Rust/{MatchingDeletionEntrypoint,SparseDeletionEntrypoint}.lean;
+# Complexity/{Memo/Work,MatchingFamilies}.lean; matching.rs, unordered.py,
+# graph_bindings.rs, paper_statement_crosswalk.md and PROOF_STATUS.md.
+# The three suggested proof interfaces are not source changes or checked proofs.
