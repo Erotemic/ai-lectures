@@ -1,6 +1,6 @@
 # Dragon Ball: From Penguin Village to the End of Z
 
-**Status: started — fifteen complete, source-annotated audio essays.** This is the active, unified track for Akira Toriyama's early work, *Dr. Slump*, the original *Dragon Ball* adventure, and the material adapted as *Dragon Ball Z*. It **supersedes the earlier proposed `dragon-ball-z` plan**. The fifteen published lectures are real spoken manuscripts, not placeholders; remaining ideas are in [BACKLOG.md](BACKLOG.md), not in the published `track.json`.
+**Status: started — eighteen complete, source-annotated audio essays.** This is the active, unified track for Akira Toriyama's early work, *Dr. Slump*, the original *Dragon Ball* adventure, and the material adapted as *Dragon Ball Z*. It **supersedes the earlier proposed `dragon-ball-z` plan**. The eighteen published lectures are real spoken manuscripts, not placeholders; remaining ideas are in [BACKLOG.md](BACKLOG.md), not in the published `track.json`.
 
 ## Why begin before Goku?
 
@@ -27,17 +27,20 @@ The track should be **fun to listen to for fans who know the stories**. Treat ic
 | `013000` | **Before Z Was on Television: The Original Dragon Ball Anime** | The Japanese 1986–1989 show: voices, songs, acting, motion, television pacing, and the extra wedding adventure. |
 | `014000` | **Raditz: The Brother Who Came from Space** | Kinship, the scouter, Gohan in peril, Goku and Piccolo together, and the year-long warning. |
 | `015000` | **The Saiyans Arrive: Waiting for Goku** | The cost to Goku’s old friends before he arrives, the collective battle against Vegeta, and the disappearance of Earth's Dragon Balls. |
+| `017000` | **Vegeta: Pride Is Harder to Defeat Than Goku** | A long character portrait from Nappa and Frieza to Trunks, Cell, Babidi and Buu; the contradictions of pride and attachment. |
+| `021000` | **Namek: The Greatest Game of Keep-Away** | The search and its shifting alliances, Dende and Saichoro, Vegeta’s thefts, and the bizarre Ginyu Force. |
+| `022000` | **Frieza: A Tyrant Small Enough to Smile** | The design, military hierarchy, transformations and moral horror behind the Namek villain. |
 
 These manuscripts contain non-spoken spoiler declarations and source notes, exactly one extractable spoken region each, and precise historical-claim metadata in `metadata/`. The `track.json` and `navigation.json` route only to actual complete manuscripts. Audio is not bundled or claimed to have been synthesized.
 
 ## Listening routes
 
-- **From the Beginning** (default) — all fifteen essays in sequence, continuing forward as new manuscripts are completed. The central plot of *Dragon Ball* begins at `003000`, but the series deliberately opens with the artist and *Dr. Slump*.
+- **From the Beginning** (default) — all eighteen essays in sequence, continuing forward as new manuscripts are completed. The central plot of *Dragon Ball* begins at `003000`, but the series deliberately opens with the artist and *Dr. Slump*.
 - **Before Goku** — two substantive, independently listenable essays on Toriyama and *Dr. Slump*.
-- **Start with Goku** — `003000`–`015000` for listeners who want to begin with Goku and continue through the 23rd tournament, then the original anime and the Saiyan invasion, plus standalone essays on Goku and Toriyama’s visual design, without *Dr. Slump* prerequisites.
-- **Character and Drawing** — the standalone `011000`–`012000` essays, connecting the young Goku portrait to Toriyama’s world and visual storytelling.
+- **Start with Goku** — `003000` onward for listeners who want to begin with Goku, including Namek, Frieza and Vegeta’s later journey, without *Dr. Slump* prerequisites.
+- **Character and Drawing** — the standalone `011000`, `012000` and `017000` essays, connecting the young Goku portrait and Toriyama’s visual craft to Vegeta’s long character journey.
 
-When more manuscripts are available, this track can develop a curated **Fan Essays and Deep Dives** route similar to Spider-Man, with the capstone last. Do not populate routes with planned-but-unwritten lectures.
+- **Namek, Frieza, and Vegeta** — three finished long-form essays grouped by theme rather than numerical ID. The Vegeta portrait covers later storylines in full. Future fan routes should include only finished manuscripts, with the eventual historical capstone last.
 
 ## Scope and working conventions
 
@@ -51,4 +54,4 @@ When more manuscripts are available, this track can develop a curated **Fan Essa
 
 ## Continuing the track
 
-Lectures `013000`–`015000` now complete the 1986 anime retrospective, the Raditz encounter and the invasion of Earth. The next planned essays start with Namek and the post-invasion consequences before moving through Frieza, the Androids, Cell, and Buu. The essays on young Goku and early visual design are also complete. See [BACKLOG.md](BACKLOG.md) for the larger editorial map. The final historical essay should be written after enough of the track exists to support a genuine synthesis.
+The published manuscripts now include the 1986 anime, Saiyan invasion, the Namek pursuit, Frieza’s rule and a full Vegeta character portrait. The next original story landmark is the first Super Saiyan, followed by Future Trunks, the Androids, Cell and Buu; complementary character and visual-craft essays remain in the backlog. See [BACKLOG.md](BACKLOG.md) for the larger editorial map. The final historical essay should be written after enough of the track exists to support a genuine synthesis.
