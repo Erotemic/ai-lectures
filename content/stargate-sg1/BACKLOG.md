@@ -1,10 +1,13 @@
 # Stargate SG-1: proposed lecture map
 
-**Planning status:** Twenty-two complete manuscripts are indexed in `track.json`: `001000` and `005000`–`025000`. All other IDs below remain proposals, not manuscripts or catalog records. `001000`–`004000` form the planned essentials route, with only `001000` published so far; the remaining essays are independently listenable. The final retrospective is a deliberate ending, not a requirement to cover every episode. IDs increase by 1,000 for manuscript stability; writing and listening order can differ.
+**Planning status:** Twenty-five complete manuscripts are indexed in `track.json`: `001000`–`025000`. Only `026000` and `027000` below remain proposals, not manuscripts or catalog records. `001000`–`004000` form the now-complete Essentials route; the remaining essays are independently listenable. The final retrospective is a deliberate ending, not a requirement to cover every episode. IDs increase by 1,000 for manuscript stability; writing and listening order can differ.
 
-## Published manuscripts (eight batches)
+## Published manuscripts (nine batches)
 
 - **`001000` — From a Film to a Universe: SG-1 Opens the Gate.** A complete, accessible film-to-pilot essay; indexed in the Essentials and Every Lecture collections.
+- **`002000` — Four People and a Wormhole: Why This Team Works.** An accessible essay about the original team's contrasting skills, disagreements, loyalties, and trust.
+- **`003000` — The Weekly Miracle: How a Stargate Episode Works.** A spoiler-limited essay on the mission format, its reversals and consequences, and its independence from strict serialization.
+- **`004000` — A Galaxy Where Gods Lie: The Powers Beyond Earth.** A selective introduction to the Goa’uld, Jaffa, Tok’ra, Asgard, Nox, Ancients and larger threats, asking what authority power creates.
 - **`005000` — Jack O'Neill Does Not Take the Universe Seriously.** A complete, spoiler-labeled fan essay about Anderson's performance, leadership, grief, humor, and command; featured at the beginning of the main fan route.
 - **`006000` — Daniel Jackson Keeps Asking the Wrong Question.** A character essay about the interpretive and ethical work of his curiosity, with *Scorched Earth*, Chaka, Sha’re, ascension and the Ori.
 - **`007000` — Samantha Carter Makes the Impossible Practical.** A character essay about science as action, power, family, selfhood, and the lasting cost of technical success, from *Solitudes* to *Unending*.
@@ -27,16 +30,16 @@
 - **`024000` — Making a Galaxy out of Vancouver.** A production-history essay grounded in interviews with the art department, location team and visual effects collaborators.
 - **`025000` — Ascension and the Price of Refusing to Intervene.** The Ancients’ doctrine tested through Oma, Orlin, Daniel, Anubis and the Ori.
 
-These are complete transcripts with source notes, selected claim-level anchors and measured spoken lengths. The tables below preserve the original ID map; rows for published manuscripts are already complete, and the other entries remain briefs.
+These are complete transcripts with source notes, selected claim-level anchors and measured spoken lengths. The tables preserve the original ID map; only `026000` and `027000` remain briefs.
 
 ## A. Four accessible foundations
 
 | Proposed ID | Working title | The essay's job |
 | --- | --- | --- |
 | `001000` | **From a Film to a Universe: SG-1 Opens the Gate** | The 1994 film, the 1997 pilot *Children of the Gods*, and the dramatic change from one astonishing doorway to a weekly exploration program. Make the new team's composition and its early stakes vivid, without a long pilot retelling. |
-| `002000` | **Four People and a Wormhole: Why This Team Works** | Introduce Jack, Daniel, Carter and Teal'c through contrasts in how they answer danger, ignorance and orders; include Hammond and the early SGC. The thesis is that the show's best special effect is the friction and trust among four people. |
-| `003000` | **The Weekly Miracle: How a Stargate Episode Works** | Explain the dial, the mission brief, the event horizon and the return home as a story-generating framework. Contrast problem-of-the-week exploration with accumulating mythology and consequences; use selected early episodes rather than a chronological recap. |
-| `004000` | **A Galaxy Where Gods Lie: The Powers Beyond Earth** | Orient the listener to the Goa'uld and Jaffa, Tok'ra, Asgard, Ancients and later threats. Explain enough to support later essays; ask why the repeated discovery that the gods can be challenged is both thrilling and morally complicated. |
+| `002000` | **Four People and a Wormhole: Why This Team Works** *(published)* | Introduce Jack, Daniel, Carter and Teal'c through contrasts in how they answer danger, ignorance and orders; include Hammond and the early SGC. The thesis is that the show's best special effect is the friction and trust among four people. |
+| `003000` | **The Weekly Miracle: How a Stargate Episode Works** *(published)* | Explain the dial, the mission brief, the event horizon and the return home as a story-generating framework. Contrast problem-of-the-week exploration with accumulating mythology and consequences; use selected early episodes rather than a chronological recap. |
+| `004000` | **A Galaxy Where Gods Lie: The Powers Beyond Earth** *(published)* | Orient the listener to the Goa'uld and Jaffa, Tok'ra, Asgard, Ancients and later threats. Explain enough to support later essays; ask why the repeated discovery that the gods can be challenged is both thrilling and morally complicated. |
 
 ## B. Characters, loyalties, and command
 
@@ -86,9 +89,9 @@ These are complete transcripts with source notes, selected claim-level anchors a
 
 ## Editorial sequencing rather than a production quota
 
-**Completed:** Eight batches have produced the film-to-series opening (`001000`), six character and SGC personnel essays (`005000`–`010000`), six essays on Goa’uld power, Tok’ra diplomacy, Replicators, intervention, secrecy and the Ori (`011000`–`016000`), four episode close readings (`017000`–`020000`), an essay on Stargate mechanics (`021000`), Earth's rise (`022000`), the anniversary self-parodies (`023000`), the Vancouver production (`024000`), and the Ancients' noninterference doctrine (`025000`). The fan route begins with self-contained essays; the Essentials route remains a separate introduction.
+**Completed:** Nine batches have produced four accessible foundations (`001000`–`004000`), six character and SGC personnel essays (`005000`–`010000`), six essays on Goa’uld power, Tok’ra diplomacy, Replicators, intervention, secrecy and the Ori (`011000`–`016000`), four episode close readings (`017000`–`020000`), an essay on Stargate mechanics (`021000`), Earth's rise (`022000`), the anniversary self-parodies (`023000`), the Vancouver production (`024000`), and the Ancients' noninterference doctrine (`025000`). The fan route begins with self-contained essays; the Essentials route is a complete four-part introduction.
 
-**Next areas:** The remaining accessible foundations (`002000`–`004000`), the closing films (`026000`), and the substantial final retrospective (`027000`). Rotate subjects according to the strongest manuscript, not ID order.
+**Next areas:** The 2008 films (`026000`) and the substantial final retrospective (`027000`). Rotate subjects according to the strongest manuscript, not ID order.
 
 **Middle passes:** Rotate between characters, ethically difficult episodes, the villains, comedy and technical production. Do not spend an entire batch reciting four seasons of plot. The film-follow-up and long capstone belong late in the track, after more specific essays have had room to develop their own arguments.
 
@@ -99,6 +102,6 @@ These are complete transcripts with source notes, selected claim-level anchors a
 
 ## Planned navigation and metadata
 
-The current publication indexes twenty-two complete manuscripts in `track.json`, with descriptive spoken word counts, `Literature and arts`, `fans` and `general` audiences, and specific tags. The `metadata/sources.json` and `metadata/NNNNNN.json` records contain source links and exact claim anchors. `navigation.json` routes the original team, SGC supporting personnel, seven political/ethical essays, four episode close readings and the comedy essay for fans, and the film-to-series essay for the accessible introduction; the complete route includes all twenty-two. Add future lectures to these files only as the real manuscripts are completed. The fan route should end with `027000` only after that capstone exists.
+The current publication indexes twenty-five complete manuscripts in `track.json`, with descriptive spoken word counts, `Literature and arts`, `fans` and `general` audiences, and specific tags. The `metadata/sources.json` and `metadata/NNNNNN.json` records contain source links and exact claim anchors. `navigation.json` routes the original team, SGC supporting personnel, seven political/ethical essays, four episode close readings and the comedy essay for fans, and all four foundation essays for the accessible introduction; the complete route includes all twenty-five. Add future lectures to these files only as the real manuscripts are completed. The fan route should end with `027000` only after that capstone exists.
 
 **Scope limit:** The first series should feel complete once the major creative arguments and ten-season history have been told. Further franchise or episode specials may be good later, but they are optional ideas, not hidden work required to finish the plan.

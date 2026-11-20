@@ -1,6 +1,6 @@
 # Stargate SG-1: Through the Gate
 
-**Status: active track with twenty-two published, audio-ready manuscripts.** `001000`, `005000`–`016000`, `017000`–`025000` are complete, indexed in [track.json](track.json), and available in the listening routes in [navigation.json](navigation.json). See [BACKLOG.md](BACKLOG.md) for the remaining editorial plan. Future titles are *not* indexed until complete manuscripts exist.
+**Status: active track with twenty-five published, audio-ready manuscripts.** `001000`–`025000` are complete, indexed in [track.json](track.json), and available in the listening routes in [navigation.json](navigation.json). See [BACKLOG.md](BACKLOG.md) for the remaining editorial plan. Future titles are *not* indexed until complete manuscripts exist.
 
 ## The promise
 
@@ -15,14 +15,14 @@ The 1997–2007 television series is the center. The 1994 film supplies its orig
 The current complete manuscript inventory lives in `track.json`; `navigation.json` selects overlapping routes without duplicating manuscripts.
 
 - **Fan Essays and Deep Dives (default):** Character portraits, memorable episodes, enemies, production, choices, and humor; now offers the original-team portraits, Hammond and Fraiser (`009000`), the changing ensemble (`010000`), and six essays on Goa’uld power, Tok’ra alliances, Replicators, intervention, secrecy and the Ori (`011000`–`016000`), close readings of *The Fifth Race*, *Window of Opportunity*, *Heroes*, and *Lost City* (`017000`–`020000`), Earth’s rise from the gate room to interstellar flight (`022000`), self-parody in *Wormhole X-Treme!* and *200* (`023000`), the Stargate’s story-generating rules (`021000`), the Vancouver production (`024000`) and ascension (`025000`), without demanding four introductions first. The eventual capstone will be last.
-- **The Essentials:** Begins with the completed film-to-show essay (`001000`); three further orientation essays on team chemistry, the episode engine and the galaxy's power structure will join it as they are written.
-- **Every Lecture:** All completed manuscripts in ID order, currently `001000`, `005000`–`016000`, `017000`–`025000`; the retrospective will be last after it exists.
+- **The Essentials:** Four complete, accessible essays (`001000`–`004000`) introduce the film-to-series transition, the original-team dynamic, the weekly episode engine, and the galaxy’s competing powers.
+- **Every Lecture:** All completed manuscripts in ID order, currently `001000`–`025000`; the retrospective will be last after it exists.
 - **Empires, Allies, and Choices:** Seven completed essays (`011000`–`016000` and `025000`) cover tyranny, alliances, Replicators, intervention, secrecy, the Ori, and the Ancients’ noninterference doctrine.
 - **Characters and Command:** All four original-team portraits are complete (`005000`–`008000`), as are Hammond and Fraiser (`009000`) and Jonas, Mitchell and Vala (`010000`).
 - **Technology and Power:** Replicators (`013000`), the politics of secrecy (`015000`), the Stargate as a narrative device (`021000`), and Earth’s changing military position (`022000`).
 - **Great Episodes and How They Work:** *The Fifth Race* (`017000`), *Window of Opportunity* (`018000`), *Heroes* (`019000`) and *Lost City* (`020000`) are complete; the hundredth and two-hundredth episode comedies share a fifth essay (`023000`).
 
-The default essays can reveal major events, including character deaths and the endings of multi-season storylines; each manuscript should carry a specific **non-spoken spoiler notice** before its narration. The four introductory essays should label how much later-series history they disclose. Each essay must supply enough context for its own subject without replaying the entire premise.
+The default essays can reveal major events, including character deaths and the endings of multi-season storylines; each manuscript should carry a specific **non-spoken spoiler notice** before its narration. The four completed introductory essays label their early-season spoiler scope and avoid late-series endings. Each essay must supply enough context for its own subject without replaying the entire premise.
 
 ## Editorial personality
 
@@ -49,4 +49,4 @@ Completed lectures use the repository's spoken markers, `metadata/NNNNNN.json` c
 
 ## Current manuscripts and next authoring step
 
-Eight batches have published twenty-two full manuscripts: the film-to-series opening (`001000`), the original team, SGC supporting personnel and newcomers (`005000`–`010000`), six thematic essays on the Goa’uld, Tok’ra, Replicators, intervention, secrecy and the Ori (`011000`–`016000`), four close readings of major episodes (`017000`–`020000`), gate mechanics (`021000`), Earth’s developing fleet and inherited technology (`022000`), self-parody (`023000`), Vancouver production (`024000`), and ascension (`025000`). The essentials essays (`002000`–`004000`) and the 2008-film bridge (`026000`) remain; the concluding retrospective (`027000`) should synthesize the work rather than summarize all 214 episodes. Expand navigation only with completed essays. Write the long historical capstone after the narrower arguments have matured so it can synthesize rather than repeat them.
+Nine batches have published twenty-five full manuscripts: four accessible foundations (`001000`–`004000`), the original team, SGC supporting personnel and newcomers (`005000`–`010000`), six thematic essays on the Goa’uld, Tok’ra, Replicators, intervention, secrecy and the Ori (`011000`–`016000`), four close readings of major episodes (`017000`–`020000`), gate mechanics (`021000`), Earth’s developing fleet and inherited technology (`022000`), self-parody (`023000`), Vancouver production (`024000`), and ascension (`025000`). The 2008-film bridge (`026000`) remains; the concluding retrospective (`027000`) should synthesize the work rather than summarize all 214 episodes. Expand navigation only with completed essays. Write the long historical capstone after the narrower arguments have matured so it can synthesize rather than repeat them.
