@@ -1,0 +1,565 @@
+{
+  "schema_version": 1,
+  "lecture_id": "036000",
+  "transcript": "036000-the-moon-was-on-time.md",
+  "tags": [
+    "GPT-SoapBox",
+    "Essays",
+    "Historical narrative",
+    "Scientific discovery",
+    "Speed of light",
+    "Finite speed of light",
+    "Light travel time",
+    "Io",
+    "Jupiter",
+    "Galilean moons",
+    "Jovian eclipses",
+    "Astronomical ephemerides",
+    "Astronomical clocks",
+    "Astronomical longitude",
+    "Mapmaking",
+    "Longitude measurement",
+    "Transit time",
+    "Signal propagation",
+    "Ole Rømer",
+    "Jean Picard",
+    "Giovanni Domenico Cassini",
+    "Galileo Galilei",
+    "Christiaan Huygens",
+    "James Bradley",
+    "Samuel Molyneux",
+    "Hippolyte Fizeau",
+    "Paris Observatory",
+    "Royal Academy of Sciences",
+    "BIPM",
+    "Niels Bohr Institute",
+    "NASA",
+    "NIST",
+    "Paris",
+    "France",
+    "Copenhagen",
+    "Denmark",
+    "Aarhus",
+    "Denmark-Norway",
+    "Hven",
+    "Sweden",
+    "England",
+    "United Kingdom",
+    "Jupiter system",
+    "Solar system",
+    "Astronomy",
+    "Astrometry",
+    "Physics",
+    "Optics",
+    "History of physics",
+    "Astronomical observations",
+    "Scientific instruments",
+    "Telescope",
+    "Pendulum clocks",
+    "Eclipse predictions",
+    "Orbital mechanics",
+    "Light-time correction",
+    "Stellar aberration",
+    "Light refraction",
+    "Fizeau toothed wheel",
+    "Length standards",
+    "International System of Units",
+    "Metre",
+    "Second",
+    "Metrology",
+    "Laser interferometry",
+    "GPS",
+    "Satellite navigation",
+    "Electromagnetic signals",
+    "Satellite clocks",
+    "Signal synchronization",
+    "Longitude",
+    "Observational uncertainty",
+    "Scientific skepticism",
+    "Historical attribution",
+    "Public infrastructure",
+    "1610",
+    "1667",
+    "1676",
+    "1681",
+    "1728",
+    "1729",
+    "1849",
+    "1983",
+    "2018",
+    "2019",
+    "2026",
+    "17th century",
+    "18th century",
+    "19th century",
+    "20th century",
+    "21st century",
+    "1600s",
+    "1700s",
+    "1800s",
+    "1900s",
+    "2000s"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Physics",
+      "Optics",
+      "Speed of light"
+    ],
+    [
+      "Science",
+      "Astronomy",
+      "Solar system",
+      "Jupiter and Io"
+    ],
+    [
+      "Science",
+      "Astronomy",
+      "Observational methods",
+      "Eclipse timing"
+    ],
+    [
+      "Science",
+      "Mathematics",
+      "Applied mathematics",
+      "Longitude and timekeeping"
+    ],
+    [
+      "Science",
+      "Physics",
+      "Relativity",
+      "Light propagation and stellar aberration"
+    ],
+    [
+      "Science",
+      "Technology",
+      "Satellite navigation",
+      "Signal time of flight"
+    ],
+    [
+      "Science",
+      "Metrology",
+      "SI units",
+      "Metre"
+    ],
+    [
+      "History",
+      "Science",
+      "Optics and astronomy",
+      "1676: Rømer and Io"
+    ],
+    [
+      "History",
+      "Science",
+      "Astronomy",
+      "1610: Galilean moons"
+    ],
+    [
+      "History",
+      "Science",
+      "Optics",
+      "1729: Bradley and aberration"
+    ],
+    [
+      "History",
+      "Technology",
+      "Optical measurement",
+      "1849: Fizeau"
+    ],
+    [
+      "History",
+      "Technology",
+      "Metrology",
+      "1983: metre redefinition"
+    ],
+    [
+      "Geography",
+      "Europe",
+      "France",
+      "Paris Observatory"
+    ],
+    [
+      "Geography",
+      "Europe",
+      "Denmark",
+      "Copenhagen"
+    ],
+    [
+      "Geography",
+      "Europe",
+      "United Kingdom",
+      "England"
+    ],
+    [
+      "Geography",
+      "Europe",
+      "Sweden",
+      "Hven"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "gs-roemer-paris-2026",
+      "reason": "Astronomical timeline, geometry, prediction, Cassini and Rømer history; 22-minute result."
+    },
+    {
+      "source_id": "gs-roemer-copenhagen",
+      "reason": "Io timing, Picard longitude work, Cassini observations, travel-time estimate and modern comparison."
+    },
+    {
+      "source_id": "gs-roemer-optica",
+      "reason": "Detailed history of November 1676 prediction, correspondence and quantitative limitations."
+    },
+    {
+      "source_id": "gs-roemer-fabricius",
+      "reason": "Historiographic disagreement about priority and interpretation of contemporary academy minutes."
+    },
+    {
+      "source_id": "gs-roemer-amnh",
+      "reason": "Longitude proposal and terrestrial observations, Io orbital period, changing travel time."
+    },
+    {
+      "source_id": "gs-roemer-paris-2016",
+      "reason": "Cassini and Rømer at Paris Observatory and historical timekeeping program."
+    },
+    {
+      "source_id": "gs-roemer-io-nasa",
+      "reason": "Io volcanic activity and gravitational tidal heating; modern view of Jupiter moon."
+    },
+    {
+      "source_id": "gs-roemer-bradley",
+      "reason": "Bradley and Molyneux observations, 1729 announcement and aberration explanation."
+    },
+    {
+      "source_id": "gs-roemer-aberration-nasa",
+      "reason": "Classical illustration of aberration as changing perceived direction of starlight."
+    },
+    {
+      "source_id": "gs-roemer-fizeau-aps",
+      "reason": "Galileo hilltop lantern thought experiment, Fizeau toothed wheel and reflector."
+    },
+    {
+      "source_id": "gs-roemer-bipm-1983",
+      "reason": "Primary definition of meter with exact numerical value of light speed."
+    },
+    {
+      "source_id": "gs-roemer-bipm-now",
+      "reason": "Current wording of the speed-of-light definition of meter."
+    },
+    {
+      "source_id": "gs-roemer-copenhagen-life",
+      "reason": "Post-1681 roles and the loss of observations in the Copenhagen fire of 1728."
+    },
+    {
+      "source_id": "gs-roemer-gps-nasa",
+      "reason": "Broadcast satellite position/time and position derived from signal propagation."
+    },
+    {
+      "source_id": "gs-roemer-gps-nist",
+      "reason": "Propagation delays, atmospheric corrections and precise GPS timing."
+    },
+    {
+      "source_id": "gs-roemer-gps-relativity",
+      "reason": "Relativistic satellite-clock corrections."
+    },
+    {
+      "source_id": "gs-roemer-gps-technical",
+      "reason": "Signal propagation timing as geometric range correction; clock offset and special/general relativity."
+    },
+    {
+      "source_id": "gs-roemer-io-dynamics",
+      "reason": "Nonuniformities in orbital motion from Laplace resonance and other perturbations."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "m036-h01",
+      "anchor": "On November 9, 1676, an astronomer at the Paris Observatory had a reason to watch Jupiter very carefully.",
+      "kind": "history_or_statistics",
+      "source_ids": [
+        "gs-roemer-optica",
+        "gs-roemer-paris-2026"
+      ],
+      "source_locator": "gs-roemer-optica",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "m036-h02",
+      "anchor": "In 1610, Galileo Galilei turned a telescope toward Jupiter and noticed small points of light that changed position from night to night.",
+      "kind": "history_or_statistics",
+      "source_ids": [
+        "gs-roemer-amnh"
+      ],
+      "source_locator": "gs-roemer-amnh",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "m036-h03",
+      "anchor": "Earth rotates through fifteen degrees of longitude in one hour.",
+      "kind": "history_or_statistics",
+      "source_ids": [
+        "gs-roemer-amnh"
+      ],
+      "source_locator": "gs-roemer-amnh",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "m036-h04",
+      "anchor": "The innermost of Galileo's four large moons, Io, completes an orbit in about one day and eighteen hours:",
+      "kind": "history_or_statistics",
+      "source_ids": [
+        "gs-roemer-copenhagen",
+        "gs-roemer-amnh"
+      ],
+      "source_locator": "gs-roemer-copenhagen",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "m036-h05",
+      "anchor": "He traveled to the island of Hven, between modern Denmark and Sweden, to compare observations from the site of Tycho Brahe's former observatory with observations made in Paris.",
+      "kind": "history_or_statistics",
+      "source_ids": [
+        "gs-roemer-copenhagen"
+      ],
+      "source_locator": "gs-roemer-copenhagen",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "m036-h06",
+      "anchor": "Giovanni Domenico Cassini, one of the observatory's leading figures, made eclipse tables and had already encountered discrepancies between the predicted and observed times.",
+      "kind": "history_or_statistics",
+      "source_ids": [
+        "gs-roemer-paris-2016",
+        "gs-roemer-optica"
+      ],
+      "source_locator": "gs-roemer-paris-2016",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "m036-h07",
+      "anchor": "The extent of his contribution to the decisive claim has been debated by historians examining the academy's records.",
+      "kind": "history_or_statistics",
+      "source_ids": [
+        "gs-roemer-fabricius",
+        "gs-roemer-paris-2026"
+      ],
+      "source_locator": "gs-roemer-fabricius",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "m036-h08",
+      "anchor": "and the observation on November 9 corresponded to it.",
+      "kind": "history_or_statistics",
+      "source_ids": [
+        "gs-roemer-optica"
+      ],
+      "source_locator": "gs-roemer-optica",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "m036-h09",
+      "anchor": "On November 21 he presented the argument to the academy.",
+      "kind": "history_or_statistics",
+      "source_ids": [
+        "gs-roemer-optica",
+        "gs-roemer-paris-2026"
+      ],
+      "source_locator": "gs-roemer-optica",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "m036-h10",
+      "anchor": "Rømer estimated that light would take roughly twenty-two minutes to cross a distance equal to the diameter of Earth's orbit.",
+      "kind": "history_or_statistics",
+      "source_ids": [
+        "gs-roemer-optica",
+        "gs-roemer-copenhagen"
+      ],
+      "source_locator": "gs-roemer-optica",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "m036-h11",
+      "anchor": "A few decades later, astronomers found another way that finite light speed makes itself visible.",
+      "kind": "history_or_statistics",
+      "source_ids": [
+        "gs-roemer-bradley"
+      ],
+      "source_locator": "gs-roemer-bradley",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "m036-h12",
+      "anchor": "In 1849, Hippolyte Fizeau measured light travel time along a terrestrial route with a rapidly rotating toothed wheel and a distant reflector.",
+      "kind": "history_or_statistics",
+      "source_ids": [
+        "gs-roemer-fizeau-aps"
+      ],
+      "source_locator": "gs-roemer-fizeau-aps",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "m036-h13",
+      "anchor": "In 1983, the international body responsible for the metric system redefined the meter in terms of the distance light travels in vacuum during a specified fraction of a second.",
+      "kind": "history_or_statistics",
+      "source_ids": [
+        "gs-roemer-bipm-1983"
+      ],
+      "source_locator": "gs-roemer-bipm-1983",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "m036-h14",
+      "anchor": "A GPS satellite broadcasts a radio signal that includes information about when the signal was sent and where the satellite was.",
+      "kind": "history_or_statistics",
+      "source_ids": [
+        "gs-roemer-gps-nasa",
+        "gs-roemer-gps-nist"
+      ],
+      "source_locator": "gs-roemer-gps-nasa",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "m036-h15",
+      "anchor": "From an orbit more than twenty thousand kilometers above Earth, a signal typically takes over sixty milliseconds to reach the ground.",
+      "kind": "history_or_statistics",
+      "source_ids": [
+        "gs-roemer-gps-nasa",
+        "gs-roemer-gps-nist"
+      ],
+      "source_locator": "gs-roemer-gps-nasa",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "m036-h16",
+      "anchor": "The GPS receiver is also a lesson in everything that has become more complicated since Rømer's day.",
+      "kind": "history_or_statistics",
+      "source_ids": [
+        "gs-roemer-gps-technical"
+      ],
+      "source_locator": "gs-roemer-gps-technical",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "m036-h17",
+      "anchor": "Rømer returned to Copenhagen in 1681, helped improve astronomical instruments, worked on standards of weights and measures and took on substantial public duties.",
+      "kind": "history_or_statistics",
+      "source_ids": [
+        "gs-roemer-copenhagen-life"
+      ],
+      "source_locator": "gs-roemer-copenhagen-life",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "m036-h18",
+      "anchor": "Much of his unpublished observational material was lost in Copenhagen's great fire of 1728, after his death.",
+      "kind": "history_or_statistics",
+      "source_ids": [
+        "gs-roemer-copenhagen-life"
+      ],
+      "source_locator": "gs-roemer-copenhagen-life",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "m036-h19",
+      "anchor": "In reality, Io is a violent and fascinating world: a body reshaped by tidal heating, with volcanoes erupting across its surface.",
+      "kind": "history_or_statistics",
+      "source_ids": [
+        "gs-roemer-io-nasa"
+      ],
+      "source_locator": "gs-roemer-io-nasa",
+      "audit_status": "source_passage_checked"
+    }
+  ],
+  "claim_evidence": [
+    {
+      "id": "m036-c01",
+      "anchor": "The delay would occur between the moon and the observer.",
+      "source_ids": [
+        "gs-roemer-copenhagen",
+        "gs-roemer-amnh"
+      ],
+      "provenance": "source_supported_explanation",
+      "source_locator": "gs-roemer-copenhagen",
+      "evidence_detail": "The light-time correction changes with the Earth-Jupiter distance, whereas the physical eclipse time does not depend on the Earth observer."
+    },
+    {
+      "id": "m036-c02",
+      "anchor": "A small increase in the travel time from eclipse to eclipse accumulated into minutes over a season.",
+      "source_ids": [
+        "gs-roemer-paris-2026",
+        "gs-roemer-amnh"
+      ],
+      "provenance": "source_supported_explanation",
+      "source_locator": "gs-roemer-paris-2026",
+      "evidence_detail": "Each observed Io event includes the varying propagation time, yielding accumulated apparent drift."
+    },
+    {
+      "id": "m036-c03",
+      "anchor": "There are complications. Earth and Jupiter both move, so the distance between them changes in a more elaborate way than a simple picture of Earth sitting at the two opposite ends of a straight line.",
+      "source_ids": [
+        "gs-roemer-optica",
+        "gs-roemer-io-dynamics"
+      ],
+      "provenance": "source_supported_explanation",
+      "source_locator": "gs-roemer-optica",
+      "evidence_detail": "The 2 AU baseline is a convenient approximation; real geometric and orbital effects must be modeled."
+    },
+    {
+      "id": "m036-c04",
+      "anchor": "The modern value for that distance is about sixteen minutes and forty seconds.",
+      "source_ids": [
+        "gs-roemer-copenhagen",
+        "gs-roemer-paris-2026"
+      ],
+      "provenance": "source_supported_explanation",
+      "source_locator": "gs-roemer-copenhagen",
+      "evidence_detail": "Modern diameter-orbit light-travel time is around 998 seconds, often rounded to 16m40s."
+    },
+    {
+      "id": "m036-c05",
+      "anchor": "To turn a travel duration into a speed measured in kilometers per second, one also needs the length of the route in kilometers.",
+      "source_ids": [
+        "gs-roemer-optica",
+        "gs-roemer-amnh"
+      ],
+      "provenance": "source_supported_explanation",
+      "source_locator": "gs-roemer-optica",
+      "evidence_detail": "The inferred physical speed depends on the solar-system distance scale."
+    },
+    {
+      "id": "m036-c06",
+      "anchor": "The apparent direction shifted over the year, but the timing was wrong for the explanation they had been looking for.",
+      "source_ids": [
+        "gs-roemer-bradley",
+        "gs-roemer-aberration-nasa"
+      ],
+      "provenance": "source_supported_explanation",
+      "source_locator": "gs-roemer-bradley",
+      "evidence_detail": "Bradley discovered annual stellar aberration rather than the sought parallax."
+    },
+    {
+      "id": "m036-c07",
+      "anchor": "A modern satellite navigation receiver encounters a related problem whenever it calculates your location.",
+      "source_ids": [
+        "gs-roemer-gps-nasa",
+        "gs-roemer-gps-technical"
+      ],
+      "provenance": "source_supported_explanation",
+      "source_locator": "gs-roemer-gps-nasa",
+      "evidence_detail": "GPS solves satellite-range and receiver-clock offset from radio propagation times."
+    },
+    {
+      "id": "m036-c08",
+      "anchor": "The number is exact by definition.",
+      "source_ids": [
+        "gs-roemer-bipm-now",
+        "gs-roemer-bipm-1983"
+      ],
+      "provenance": "source_supported_explanation",
+      "source_locator": "gs-roemer-bipm-now",
+      "evidence_detail": "SI sets c exact; realization of the metre has measurement uncertainty."
+    }
+  ]
+}

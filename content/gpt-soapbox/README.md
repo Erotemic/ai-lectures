@@ -119,6 +119,8 @@ listeners may choose any order.
 
 - **035000 — The Sound That Took an Hour and Forty-Four Minutes.** Why sound can travel for thousands of kilometers inside the ocean; from the 1944 SOFAR experiments and the 1991 Heard Island test to acoustic thermometry, marine mammals, and earthquake signals.
 
+- **036000 — The Moon Was On Time.** How late eclipses of Io led Rømer to a finite speed of light in 1676, why measuring a duration is different from measuring a speed, and how the principle appears again in modern navigation and length standards.
+
 Spoken narration is inside the standard marker pair in each manuscript. Source
 notes, constructed-example qualifications, and reading links follow the
 spoken region. Per-lecture metadata and reading records are in `metadata/`.
