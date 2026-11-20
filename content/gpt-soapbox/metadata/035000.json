@@ -1,0 +1,537 @@
+{
+  "schema_version": 1,
+  "lecture_id": "035000",
+  "transcript": "035000-the-sound-that-took-an-hour-and-forty-four-minutes.md",
+  "tags": [
+    "GPT-SoapBox",
+    "Essays",
+    "Ocean acoustics",
+    "Underwater sound",
+    "Deep sound channel",
+    "SOFAR channel",
+    "Sound Fixing and Ranging",
+    "Ocean sound speed",
+    "Sound refraction",
+    "Acoustic waveguide",
+    "Ocean physics",
+    "Physical oceanography",
+    "Underwater hydrophones",
+    "Hydroacoustic monitoring",
+    "Acoustic tomography",
+    "Acoustic thermometry",
+    "Ocean climate",
+    "Ocean heat content",
+    "Long-range acoustic propagation",
+    "Underwater acoustics",
+    "Temperature",
+    "Pressure",
+    "Salinity",
+    "Refraction",
+    "Hydrophone arrays",
+    "Matched filtering",
+    "Signal processing",
+    "Coded acoustic signals",
+    "Maurice Ewing",
+    "J. Lamar Worzel",
+    "Walter Munk",
+    "Carl Wunsch",
+    "Brian Dushaw",
+    "Robert Spindel",
+    "Wenbo Wu",
+    "Zhongwen Zhan",
+    "Heard Island Feasibility Test",
+    "HIFT",
+    "Acoustic Thermometry of Ocean Climate",
+    "ATOC",
+    "SOSUS",
+    "Cold War",
+    "World War II",
+    "Wartime research",
+    "Naval history",
+    "Rescue technology",
+    "Submarines",
+    "Whale communication",
+    "Baleen whales",
+    "Marine mammals",
+    "Noise pollution",
+    "Acoustic masking",
+    "Environmental monitoring",
+    "Marine conservation",
+    "Seismic ocean thermometry",
+    "T waves",
+    "Repeating earthquakes",
+    "Underwater earthquakes",
+    "Earthquake acoustics",
+    "CTBTO",
+    "Comprehensive Nuclear-Test-Ban Treaty",
+    "Nuclear-test monitoring",
+    "Science policy",
+    "Observation and inference",
+    "Inverse problems",
+    "Sensor networks",
+    "Ocean observations",
+    "Argo floats",
+    "Woods Hole Oceanographic Institution",
+    "Scripps Institution of Oceanography",
+    "NOAA",
+    "University of Washington",
+    "Indian Ocean",
+    "South Atlantic Ocean",
+    "Pacific Ocean",
+    "Southern Ocean",
+    "North Pacific Ocean",
+    "Heard Island",
+    "Ascension Island",
+    "Woods Hole",
+    "Massachusetts",
+    "Bahamas",
+    "Sea of Japan",
+    "Southern Indian Ocean",
+    "California",
+    "Hawaii",
+    "United States",
+    "Australia",
+    "South Atlantic",
+    "North America",
+    "1944",
+    "1946",
+    "1979",
+    "1991",
+    "1994",
+    "1995",
+    "1997",
+    "1999",
+    "2000",
+    "2009",
+    "2020",
+    "2023",
+    "2025",
+    "1940s",
+    "1970s",
+    "1990s",
+    "2000s",
+    "2020s",
+    "20th century",
+    "21st century",
+    "Jörn Callies"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Physics",
+      "Acoustics",
+      "Refraction and waveguides"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Physical oceanography",
+      "SOFAR channel"
+    ],
+    [
+      "Science",
+      "Earth science",
+      "Ocean climate",
+      "Acoustic thermometry"
+    ],
+    [
+      "Science",
+      "Data analysis",
+      "Signal processing",
+      "Matched filtering"
+    ],
+    [
+      "Science",
+      "Geophysics",
+      "Seismology",
+      "Seismic ocean thermometry"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Marine mammals",
+      "Acoustic communication"
+    ],
+    [
+      "History",
+      "Technology",
+      "Naval acoustics",
+      "1944"
+    ],
+    [
+      "History",
+      "Technology",
+      "Ocean acoustic thermometry",
+      "1979–2009"
+    ],
+    [
+      "History",
+      "Science",
+      "Heard Island Feasibility Test",
+      "1991"
+    ],
+    [
+      "History",
+      "Science",
+      "Marine mammal impact research",
+      "1990s–2000s"
+    ],
+    [
+      "History",
+      "Technology",
+      "Acoustic nuclear-test monitoring",
+      "21st century"
+    ],
+    [
+      "Geography",
+      "Oceania",
+      "Australia",
+      "Heard Island"
+    ],
+    [
+      "Geography",
+      "Atlantic Ocean",
+      "South Atlantic",
+      "Ascension Island"
+    ],
+    [
+      "Geography",
+      "Indian Ocean",
+      "Southern Indian Ocean",
+      "Heard Island"
+    ],
+    [
+      "Geography",
+      "North America",
+      "United States",
+      "Woods Hole, Massachusetts"
+    ],
+    [
+      "Geography",
+      "North America",
+      "United States",
+      "California and Hawaii"
+    ],
+    [
+      "Geography",
+      "Pacific Ocean",
+      "North Pacific",
+      "Ocean acoustic thermometry"
+    ],
+    [
+      "Geography",
+      "Asia",
+      "East Asia",
+      "Sea of Japan"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "gs-sofar-noaa-ascension",
+      "reason": "The 9,200 km path, 1 h 44 min 17 s earliest arrival, hydrophones, and late reverberation."
+    },
+    {
+      "source_id": "gs-sofar-noaa-channel",
+      "reason": "Physical description of deep sound channel, wave bending, WWII hydrophone demonstration."
+    },
+    {
+      "source_id": "gs-sofar-noaa-speed",
+      "reason": "Temperature and pressure effects, approximate sound speed, and varying channel depths."
+    },
+    {
+      "source_id": "gs-sofar-woods-1944",
+      "reason": "Ewing and Worzel demonstration in 1944, independent Soviet results, rescue scheme."
+    },
+    {
+      "source_id": "gs-sofar-navy-sosus",
+      "reason": "Early SOFAR rescue stations and later submarine monitoring."
+    },
+    {
+      "source_id": "gs-sofar-whoi-ears",
+      "reason": "Declassification of SOSUS-related capabilities and use of hydrophones for marine geophysics."
+    },
+    {
+      "source_id": "gs-sofar-heard-paper",
+      "reason": "Scientific context and worldwide reception of the 1991 experiment."
+    },
+    {
+      "source_id": "gs-sofar-heard-expedition",
+      "reason": "57 Hz source, 35 transmissions, equipment failures, force-ten storm, choice of island."
+    },
+    {
+      "source_id": "gs-sofar-heard-limitations",
+      "reason": "Explains why global signal reception did not yet permit oceanographic inversions."
+    },
+    {
+      "source_id": "gs-sofar-atoc-2009",
+      "reason": "ATOC measurement precision, scientific findings, and limits of global sound paths."
+    },
+    {
+      "source_id": "gs-sofar-atoc-archive",
+      "reason": "Source installations, operational periods, original questions and measured travel time precision."
+    },
+    {
+      "source_id": "gs-sofar-nrc-mammals",
+      "reason": "Independent assessment of ATOC marine-mammal observation methods, findings and limitations."
+    },
+    {
+      "source_id": "gs-sofar-burnham-masking",
+      "reason": "How shipping noise affects communication and acoustic detection ranges of marine mammals."
+    },
+    {
+      "source_id": "gs-sofar-wu-2020",
+      "reason": "Demonstration of temperature inference from repeating earthquake-generated T waves over about 3,000 km."
+    },
+    {
+      "source_id": "gs-sofar-wu-2023",
+      "reason": "Using hydrophone data to improve resolution of passive thermometry from earthquakes."
+    },
+    {
+      "source_id": "gs-sofar-ctbto",
+      "reason": "Eleven hydroacoustic stations, hydrophones and T-phase stations, and non-nuclear signals."
+    },
+    {
+      "source_id": "gs-sofar-whales-noaa",
+      "reason": "Examples of whale vocalization frequencies and spectrograms."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "m035-h01",
+      "anchor": "In January 1991, a set of underwater microphones near Ascension Island in the South Atlantic registered a sound that had begun near Heard Island in the southern Indian Ocean.",
+      "kind": "history_or_statistics",
+      "source_ids": [
+        "gs-sofar-noaa-ascension"
+      ],
+      "source_locator": "gs-sofar-noaa-ascension",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "m035-h02",
+      "anchor": "Its earliest arrival took about one hour, forty-four minutes, and seventeen seconds.",
+      "kind": "history_or_statistics",
+      "source_ids": [
+        "gs-sofar-noaa-ascension"
+      ],
+      "source_locator": "gs-sofar-noaa-ascension",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "m035-h03",
+      "anchor": "Researchers reported late reverberation for at least twenty-two minutes after the direct signal ended.",
+      "kind": "history_or_statistics",
+      "source_ids": [
+        "gs-sofar-noaa-ascension"
+      ],
+      "source_locator": "gs-sofar-noaa-ascension",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "m035-h04",
+      "anchor": "Sound travels through seawater at roughly fifteen hundred meters per second, more than four times its speed in air.",
+      "kind": "history_or_statistics",
+      "source_ids": [
+        "gs-sofar-noaa-channel",
+        "gs-sofar-noaa-speed"
+      ],
+      "source_locator": "gs-sofar-noaa-channel",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "m035-h05",
+      "anchor": "In 1944, Maurice Ewing and J. Lamar Worzel tested long-range sound propagation in the Atlantic.",
+      "kind": "history_or_statistics",
+      "source_ids": [
+        "gs-sofar-woods-1944"
+      ],
+      "source_locator": "gs-sofar-woods-1944",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "m035-h06",
+      "anchor": "Some of the transmissions were made at distances approaching nine hundred miles from the receiver.",
+      "kind": "history_or_statistics",
+      "source_ids": [
+        "gs-sofar-woods-1944"
+      ],
+      "source_locator": "gs-sofar-woods-1944",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "m035-h07",
+      "anchor": "A group in the Soviet Union made an independent discovery in the Sea of Japan in 1946.",
+      "kind": "history_or_statistics",
+      "source_ids": [
+        "gs-sofar-woods-1944"
+      ],
+      "source_locator": "gs-sofar-woods-1944",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "m035-h08",
+      "anchor": "The Navy established several SOFAR stations, but according to its own history they were never used as intended for that rescue system.",
+      "kind": "history_or_statistics",
+      "source_ids": [
+        "gs-sofar-navy-sosus"
+      ],
+      "source_locator": "gs-sofar-navy-sosus",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "m035-h09",
+      "anchor": "Aspects of the system were declassified in 1991, and scientists gained access to acoustic recordings that could also reveal earthquakes, submarine volcanoes, and marine animals.",
+      "kind": "history_or_statistics",
+      "source_ids": [
+        "gs-sofar-whoi-ears"
+      ],
+      "source_locator": "gs-sofar-whoi-ears",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "m035-h10",
+      "anchor": "On January thirty-first, the crew reported Beaufort force ten conditions and a wind instrument at its limit of sixty knots.",
+      "kind": "history_or_statistics",
+      "source_ids": [
+        "gs-sofar-heard-expedition"
+      ],
+      "source_locator": "gs-sofar-heard-expedition",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "m035-h11",
+      "anchor": "During the five days the sources operated, the experiment managed thirty-five long-distance transmissions.",
+      "kind": "history_or_statistics",
+      "source_ids": [
+        "gs-sofar-heard-expedition",
+        "gs-sofar-heard-limitations"
+      ],
+      "source_locator": "gs-sofar-heard-expedition",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "m035-h12",
+      "anchor": "The short experiment did not provide enough stable, identifiable travel paths to infer the ocean's temperature field as planned.",
+      "kind": "history_or_statistics",
+      "source_ids": [
+        "gs-sofar-heard-limitations"
+      ],
+      "source_locator": "gs-sofar-heard-limitations",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "m035-h13",
+      "anchor": "During the experiments of the later 1990s, researchers measured travel times over roughly three thousand to five thousand kilometers to precisions of a few tens of milliseconds.",
+      "kind": "history_or_statistics",
+      "source_ids": [
+        "gs-sofar-atoc-2009"
+      ],
+      "source_locator": "gs-sofar-atoc-2009",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "m035-h14",
+      "anchor": "A National Research Council review in 2000 did not give a simple all-clear.",
+      "kind": "history_or_statistics",
+      "source_ids": [
+        "gs-sofar-nrc-mammals"
+      ],
+      "source_locator": "gs-sofar-nrc-mammals",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "m035-h15",
+      "anchor": "In 2020, Wenbo Wu, Zhongwen Zhan, Shirui Peng, Sidao Ni, and Jörn Callies published an example using a roughly three-thousand-kilometer section of the eastern Indian Ocean.",
+      "kind": "history_or_statistics",
+      "source_ids": [
+        "gs-sofar-wu-2020"
+      ],
+      "source_locator": "gs-sofar-wu-2020",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "m035-h16",
+      "anchor": "In 2023, researchers extended the approach using hydrophones operated for the international nuclear-test monitoring system.",
+      "kind": "history_or_statistics",
+      "source_ids": [
+        "gs-sofar-wu-2023"
+      ],
+      "source_locator": "gs-sofar-wu-2023",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "m035-h17",
+      "anchor": "The Comprehensive Nuclear-Test-Ban Treaty Organization operates eleven hydroacoustic stations to watch for evidence of nuclear explosions, including six deep-water hydrophone stations and five island stations that register sound energy converted into seismic vibrations.",
+      "kind": "history_or_statistics",
+      "source_ids": [
+        "gs-sofar-ctbto"
+      ],
+      "source_locator": "gs-sofar-ctbto",
+      "audit_status": "source_passage_checked"
+    }
+  ],
+  "claim_evidence": [
+    {
+      "id": "m035-c01",
+      "anchor": "What holds sound near it is refraction.",
+      "source_ids": [
+        "gs-sofar-noaa-channel",
+        "gs-sofar-noaa-speed"
+      ],
+      "provenance": "source_supported_explanation",
+      "source_locator": "gs-sofar-noaa-channel",
+      "evidence_detail": "A sound-speed minimum acts as an acoustic waveguide through gradual ray refraction."
+    },
+    {
+      "id": "m035-c02",
+      "anchor": "a change in travel time can reveal a change in temperature averaged along an extended path.",
+      "source_ids": [
+        "gs-sofar-atoc-2009"
+      ],
+      "provenance": "source_supported_explanation",
+      "source_locator": "gs-sofar-atoc-2009",
+      "evidence_detail": "Acoustic travel times depend on the path-integrated sound speed; water temperature is a major contributor."
+    },
+    {
+      "id": "m035-c03",
+      "anchor": "In later accounts, the investigators were explicit: they had demonstrated extraordinary propagation, but they could not yet perform the intended oceanographic inversion from those measurements.",
+      "source_ids": [
+        "gs-sofar-heard-limitations"
+      ],
+      "provenance": "source_supported_explanation",
+      "source_locator": "gs-sofar-heard-limitations",
+      "evidence_detail": "HIFT established global reception but lacked stable recognizable arrivals for inversion."
+    },
+    {
+      "id": "m035-c04",
+      "anchor": "A short controlled signal and the continuous noise of traffic create different exposure patterns.",
+      "source_ids": [
+        "gs-sofar-nrc-mammals",
+        "gs-sofar-burnham-masking"
+      ],
+      "provenance": "source_supported_explanation",
+      "source_locator": "gs-sofar-nrc-mammals",
+      "evidence_detail": "Noise impact is a function of time, intensity, frequency and biological context."
+    },
+    {
+      "id": "m035-c05",
+      "anchor": "An undersea earthquake sends energy through the solid Earth. Some of it can enter the ocean and travel as acoustic waves.",
+      "source_ids": [
+        "gs-sofar-wu-2020",
+        "gs-sofar-wu-2023"
+      ],
+      "provenance": "source_supported_explanation",
+      "source_locator": "gs-sofar-wu-2020",
+      "evidence_detail": "T waves can carry seismic energy in the sound channel."
+    },
+    {
+      "id": "m035-c06",
+      "anchor": "An earthquake has another: it happens without anyone needing to add another acoustic source to the sea.",
+      "source_ids": [
+        "gs-sofar-wu-2020"
+      ],
+      "provenance": "author_synthesis_from_sources",
+      "source_locator": "gs-sofar-wu-2020",
+      "evidence_detail": "Author synthesis, grounded in the existing passive thermometry demonstration."
+    }
+  ]
+}

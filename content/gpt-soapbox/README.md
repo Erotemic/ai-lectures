@@ -117,6 +117,8 @@ listeners may choose any order.
 
 - **034000 — Why a Rubber Band Gets Warm.** From entropic elasticity and ancient Mesoamerican rubbercraft to vulcanization, the botanical relocation of the rubber tree, South American leaf blight and Fordlândia.
 
+- **035000 — The Sound That Took an Hour and Forty-Four Minutes.** Why sound can travel for thousands of kilometers inside the ocean; from the 1944 SOFAR experiments and the 1991 Heard Island test to acoustic thermometry, marine mammals, and earthquake signals.
+
 Spoken narration is inside the standard marker pair in each manuscript. Source
 notes, constructed-example qualifications, and reading links follow the
 spoken region. Per-lecture metadata and reading records are in `metadata/`.
