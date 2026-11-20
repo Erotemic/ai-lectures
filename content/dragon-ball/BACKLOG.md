@@ -1,6 +1,6 @@
 # Dragon Ball: editorial map and future essays
 
-**Current state:** Twenty-one complete manuscripts are published in `track.json`. All remaining proposed IDs below are **prospective**. They are not empty recordings, catalog entries, or commitments to a quota. Merge or replace adjacent ideas when that gives a better, more substantial listen. Drafts should supply enough plot to orient a listener but favor criticism, character, craft, production and real historical context over systematic recaps. Maintain the numbering of released lectures.
+**Current state:** Twenty-seven complete manuscripts are published in `track.json`. All remaining proposed IDs below are **prospective**. They are not empty recordings, catalog entries, or commitments to a quota. Merge or replace adjacent ideas when that gives a better, more substantial listen. Drafts should supply enough plot to orient a listener but favor criticism, character, craft, production and real historical context over systematic recaps. Maintain the numbering of released lectures.
 
 ## Completed opening: the artist before the hero
 
@@ -50,15 +50,18 @@
 - **026000 — Gohan Versus Cell: The Victory Goku Could Not Win.** The burden of Goku's expectations, Piccolo's insight, Android 16, Gohan's rage and a victory that requires others. Complete; ~25 minutes.
 - **020000 — Bulma, Krillin, and the People Who Cannot Keep Up.** Inventors and friends changing events through skill and human judgment, from the first quest through the future timeline and Android 18. Complete; ~23 minutes.
 
-## More character essays and the Buu era
+## Completed continuation: Buu, the prince, and the people's champion
+
+- **027000 — The Buu Saga Refuses to Be One Kind of Story.** Great Saiyaman, the 25th tournament, Babidi, the changing forms of Buu, fusion, the many potential endings, and the communal finale. Complete; approximately 25 minutes.
+- **028000 — Majin Vegeta: The Fight He Really Needed to Lose.** A close reading of Vegeta’s decision, the needless harm he causes, the doomed farewell to Trunks and his eventual cooperation. Complete; approximately 24 minutes.
+- **029000 — Mr. Satan and Buu: The Joke That Saves the World.** A fraud who knows how to talk to people learns the power of friendship and uses a reputation to enlist Earth in saving itself. Complete; approximately 25 minutes.
+
+## More character essays
 
 | ID | Proposed essay | Central question |
 | --- | --- | --- |
 | `016000` | **Goku Is Not the Hero People Keep Asking Him to Be** | His appetite for hard fights, generosity and ethically difficult decisions: Frieza, Cell, and withdrawal. Competing readings of a benevolent hero who does not always behave like a responsible savior. |
 | `019000` | **Gohan: The Hero Who Doesn't Want the Job** | Childhood violence, latent potential, the Cell Games, school comedy and the distance between what fans want of him and what the character seems to want. |
-| `027000` | **The Buu Saga Refuses to Be One Kind of Story** | School comedy, tournament, horror, fusion, catastrophe, absurdity and the pleasures and difficulties of its wandering structure. |
-| `028000` | **Majin Vegeta: The Fight He Really Needed to Lose** | One decisive emotional episode in detail, distinct from the multi-season Vegeta portrait. |
-| `029000` | **Mr. Satan and Buu: The Joke That Saves the World** | The showman's comic impotence, friendship and compassion becoming more important than victory through strength. |
 
 ## Drawing, adaptation and cultural history
 
@@ -77,7 +80,7 @@
 
 ## Editorial and research reminders
 
-- **Priority next:** Begin Buu with `027000` as an argument about its changing genres, then `028000` on Majin Vegeta and `029000` on Mr. Satan and Buu. Alternate these with `016000` (Goku’s choices) and `019000` (Gohan’s larger life) when they offer something distinct from the new Cell essays. Keep all reserved IDs stable.
+- **Priority next:** The main manga’s final conflict is now covered. Develop `016000` (Goku’s contested choices) and `019000` (Gohan’s life outside the expected heroic role) only if they offer new arguments beyond existing portraits and Buu essays. Then prioritize Toriyama’s drawing (`030000`–`031000`) and the historical animation and global-reception studies (`032000`–`035000`). Keep reserved IDs stable.
 - **Crossings between media:** Distinguish the 1984–1995 original continuous manga, the 1986 *Dragon Ball* TV series, 1989–1996 *Dragon Ball Z*, *Kai*, dubbing cuts and individual film continuities. Do not import later sequel backstory as evidence of Toriyama's original intentions in 1984.
 - **Oral style:** Every essay must be enjoyable without images or game footage. Explain the physical action and panel layout sufficiently for an audio listener. Include original criticism, memorable scenes and well-supported creator history; do not deliver listicles of trivia or fights.
 - **Biographical rigor:** Attribute editor anecdotes to Torishima or Toriyama and identify differences in their later recollections. Do not invent private conversations, emotional reactions or editorial orders where records do not exist.
