@@ -1,68 +1,35 @@
 # Star Wars: A Galaxy Worth Arguing About
 
-**Status: six of nine essays complete.** The published catalog in `track.json` and listening route in `navigation.json` contain only the six completed manuscripts. The three remaining assignments live in [BACKLOG.md](BACKLOG.md). Do not publish placeholders or count planned essays as recordings.
+**Status: complete — nine substantial audio essays.** Every lecture listed below has a finished manuscript, source metadata, and a published entry in `track.json` and `navigation.json`. There are no placeholder lectures.
 
-## What this series is
+## The series
 
-A **short, high-level series of nine substantial audio essays, including a concluding capstone**. It is for listeners who enjoy Star Wars and want a coherent account of what it accomplished, what its creators changed, and where its different stories agree or disagree. Someone who has seen only some of the films should be able to follow with brief context; a longtime fan should hear specific interpretations and scenes worth returning to.
+Star Wars is examined here as storytelling, filmmaking, political and family myth, and the creative world that emerged around the films. The aim is **coverage through synthesis** rather than an episode guide, character encyclopedia, or viewing-order exercise. The narration is intended to be entertaining for longtime fans, and provides enough orientation for listeners who have seen only part of the franchise. Each lecture has its own argument and conclusion; the capstone closes the collection rather than proposing an unlimited sequel program.
 
-The goal is **coverage through synthesis**, not one recording for each character, trilogy installment, show, or craft specialty. Group related material around an argument. Introduce a character through their choices; introduce a film through what it attempts and how it is made. When two examples prove the same point, choose the better one instead of padding the survey. Each lecture should stand on its own without referring to a previous or upcoming lecture.
+The series is critical when scenes warrant criticism and affectionate when scenes warrant affection. Original trilogy, prequels, sequels, animation, television, comics, games, and audience culture all have a meaningful place. Production facts are supported by credited personnel, institutional histories, interviews and source companions. Critical interpretations are presented as interpretations, not quotations or evidence of a creator’s unrecorded intentions.
 
-Eight essays generally target **35–50 minutes**, with the final historical and critical essay around **50–60 minutes** if its material warrants it. These are editorial ranges, not word-count quotas. If an argument is finished sooner, stop. Do not grow this back into an encyclopedic track. Make room for a standalone special later only if there is a genuinely independent subject worth a full essay.
+## Full listening route
 
-## Nine-essay route
+| ID | Lecture | Spoken words | Approximate runtime |
+| --- | --- | ---: | ---: |
+| `001000` | **Star Wars, 1977: The Film That Built a Galaxy** | 5,185 | 35.8 min |
+| `002000` | **The Original Trilogy: Rebels, Family, and Redemption** | 5,767 | 39.8 min |
+| `003000` | **Making Star Wars: Sound, Image, and Motion** | 5,296 | 36.5 min |
+| `004000` | **The Prequels: How a Republic Falls** | 5,387 | 37.2 min |
+| `005000` | **Jedi, Sith, and the Problem of Power** | 5,198 | 35.8 min |
+| `006000` | **Rebellion from Below** | 5,395 | 37.2 min |
+| `007000` | **After Endor: Sequels and the Weight of Inheritance** | 5,763 | 39.7 min |
+| `008000` | **The Galaxy Beyond the Movies** | 5,206 | 35.9 min |
+| `009000` | **A Galaxy Worth Arguing About** | 7,364 | 50.8 min |
 
-This is the planned listening order, not the published catalog. Lectures `001000`–`006000` are written; `007000`–`009000` remain planned. The actual playback route lists only completed essays. There is no separate four-part Essentials route or character-by-character detour.
+The first eight lectures form a broad history of the films, ideas, creators, and expanded franchise. The ninth, **A Galaxy Worth Arguing About**, is a standalone historical and critical capstone, not a summary of the earlier eight essays.
 
-| ID | Essay | Main job | Target |
-| --- | --- | --- | --- |
-| `001000` | **Star Wars, 1977: The Film That Built a Galaxy** | Origins, first film, collaborators, lived-in world | 35–45 min |
-| `002000` | **The Original Trilogy: Rebels, Family, and Redemption** | Luke, Leia, Han, Vader and the saga's first dramatic completion | 40–50 min |
-| `003000` | **Making Star Wars: Sound, Image, and Motion** | Music, sound, editing, effects, performance and visual storytelling | 35–45 min |
-| `004000` | **The Prequels: How a Republic Falls** | Anakin, Padme, Palpatine, Jedi failure and the political tragedy | 40–50 min |
-| `005000` | **Jedi, Sith, and the Problem of Power** | The Force as myth, practice, institution and moral disagreement | 35–45 min |
-| `006000` | **Rebellion from Below** | *The Clone Wars*, *Rebels*, *Rogue One*, *Andor* and the people who fight wars | 35–45 min |
-| `007000` | **After Endor: Sequels and the Weight of Inheritance** | The sequel trilogy, its characters and the uncertain New Republic | 40–50 min |
-| `008000` | **The Galaxy Beyond the Movies** | Television formats, novels, comics, games, Legends, toys and fandom | 35–45 min |
-| `009000` | **A Galaxy Worth Arguing About** | Historical and critical capstone: what Star Wars became | 50–60 min |
+## Reading the manuscripts
 
-The first eight should cumulatively make the final essay possible, but the capstone must make its own argument, not recap all eight manuscripts.
+- Spoken text is between `<!-- BEGIN SPOKEN LECTURE -->` and `<!-- END SPOKEN LECTURE -->`.
+- Scope and precise spoiler notices appear before the spoken section and are not narrated.
+- `metadata/XXXXXX.json` records source-backed claims with anchors in the spoken text; `metadata/sources.json` contains bibliographic URLs.
+- `track.json` is the publication catalog and `navigation.json` lists only actually written manuscripts.
+- Word counts and runtimes are measured descriptions, not reasons to pad or cut a complete argument. The runtime uses 145 spoken words per minute.
 
-## Coverage without a completionist checklist
-
-The original trilogy, prequels and sequels are the historical spine. The Force, the Jedi and Sith, and relationships across the Skywalker family recur where a particular question makes them relevant, not as separate biographies. Give Carrie Fisher, Mark Hamill, Harrison Ford, James Earl Jones, David Prowse, Hayden Christensen, Ewan McGregor, Daisy Ridley, John Boyega, Adam Driver and their fellow collaborators credit where analyzing performances demands it; no performer needs an isolated essay merely to appear in the catalog.
-
-*The Clone Wars*, *Rebels*, *Rogue One*, *Andor*, *The Mandalorian*, and selected New Republic stories each have a defined role. The first four are especially useful for examining politics and the experience of war. Later television can illustrate reconstruction, new genres and expanded authorship. Games, novels, comics, and the Expanded Universe/Legends belong because they changed how audiences lived with Star Wars, not to inventory continuity. Name continuity differences when necessary; don't turn them into a canon quiz.
-
-Films released and series completed as of the editorial snapshot (**November 2026**) may be discussed as works, with claims checked at manuscript time. Do not infer story details from announcements or marketing. Distinguish real-world production and release history from in-universe chronology, especially for prequels and animated series. Retrospective sources, promotional statements and fan recollections are not interchangeable.
-
-## Critical approach
-
-A useful essay should be enjoyable for a fan who already knows its ending. The narration may be affectionate, delighted, disappointed or critical when the scenes support it. Discuss the original trilogy's craftsmanship and its blind spots; the prequels' political ambition and awkwardness; the sequels' performances, competing intentions and unresolved possibilities. Avoid organizing lectures around a referendum on which generation of fans was right.
-
-The series should credit collective filmmaking. Lucas is important, and so are Ralph McQuarrie, Marcia Lucas, Richard Chew, Paul Hirsch, Ben Burtt, John Williams, ILM artists and technicians, actors, later directors, writers, animators, editors and game developers. A historical production assertion needs evidence; do not repeat the story that one person single-handedly invented or rescued everything. Explain what an edit, a sound, a musical entrance or a shot *does* instead of substituting admiration for analysis. Never invent a filmmaker's intention from a scene or a fan theory.
-
-Avoid mechanical plots, a parade of facts, speculative production gossip, and stock transitions such as "in the next lecture." Write one continuous, substantive narration in a human voice. If an unfamiliar work is introduced, give enough story to make the point, then move to analysis. Don't overwrite humor with commentary on why a joke is funny.
-
-## Sources, spoilers and publication
-
-Use the released films, series and games as primary evidence for what appears in them. Cross-check dates, credits, special-edition changes, release history and production testimony against film credits, contemporary interviews, reliable archives and documented retrospective accounts. Distinguish official descriptions from critical interpretations. Keep sources and precise spoiler notices **non-spoken**.
-
-Useful research starting points already in the original planning materials:
-
-- [Lucasfilm — Our Story](https://www.lucasfilm.com/who-we-are/our-story/)
-- [Lucasfilm — A New Hope](https://www.lucasfilm.com/productions/episode-iv/)
-- [StarWars.com — Movies and Series Viewing Guide](https://www.starwars.com/news/star-wars-movies-and-series-guide)
-- [StarWars.com — Official Eras](https://www.starwars.com/eras)
-- [StarWars.com — The Legendary Star Wars Expanded Universe Turns a New Page](https://www.starwars.com/news/the-legendary-star-wars-expanded-universe-turns-a-new-page/)
-- [StarWars.com — Marcia Lucas](https://www.starwars.com/news/marcia-lucas)
-- [StarWars.com — Ben Burtt on The Phantom Menace](https://www.starwars.com/news/ben-burtt-the-phantom-menace)
-- [StarWars.com — Andor](https://www.starwars.com/series/andor)
-
-Completed lectures use exactly one `<!-- BEGIN SPOKEN LECTURE -->` and `<!-- END SPOKEN LECTURE -->` pair, measured spoken word counts, per-lecture metadata and `metadata/sources.json` with claim anchors, plus `track.json` and `navigation.json` referring **only to written manuscripts**. Non-spoken notes should include the precise spoiler coverage. No copyrighted media clips, soundtrack recordings, notation, frames, promotional images, fonts, or other binary assets belong in the text-only overlay.
-
-## Finite completion plan
-
-Three essays remain: `007000`–`009000` address the sequels, expansion beyond films, and the concluding retrospective. Write the capstone only after the other subjects have been developed enough to support it.
-
-Each completed manuscript has exactly one spoken section, a measured word count and duration, source metadata, and stable ID. Treat later topics as plans, not as published lectures. After the capstone, mark this finite track complete and remove resolved planning items instead of keeping a history of completed chores.
+This track is intentionally finite. Independent specials would be new editorial projects rather than tasks carried in this completed backlog. No copyrighted images, music, sound recordings, film clips, or other binary media are included.
