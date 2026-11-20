@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "lecture_id": "093000",
+  "transcript": "093000-field-extensions-degrees-and-conjugates.md",
+  "description": "Constructs simple and biquadratic extensions, proves the tower law, computes the minimal polynomial of √2+√3, and introduces conjugates and splitting-field distinctions.",
+  "tags": [
+    "Field extensions",
+    "Minimal polynomials",
+    "Tower law",
+    "Algebraic numbers",
+    "Conjugates",
+    "Galois theory prerequisites"
+  ],
+  "tag_paths": [
+    [
+      "Mathematics",
+      "Algebra",
+      "Field theory",
+      "Minimal polynomials"
+    ],
+    [
+      "Mathematics",
+      "Algebra",
+      "Field theory",
+      "Extension degrees"
+    ],
+    [
+      "Mathematics",
+      "Algebra",
+      "Galois theory",
+      "Conjugate roots"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "aa-conrad",
+      "reason": "Reference for the definitions, proofs, and examples developed in the lecture."
+    },
+    {
+      "source_id": "aa-mit702",
+      "reason": "Reference for the definitions, proofs, and examples developed in the lecture."
+    },
+    {
+      "source_id": "aa-judson",
+      "reason": "Reference for the definitions, proofs, and examples developed in the lecture."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-20",
+    "scope": "New spoken lecture, mathematical companion, worked examples, and proof exercises; no existing manuscripts modified."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "abstract-algebra:092000",
+        "reason": "Earlier concepts used in this proof-based lecture."
+      },
+      {
+        "lecture_id": "abstract-algebra:004000",
+        "reason": "Earlier concepts used in this proof-based lecture."
+      }
+    ],
+    "background": [
+      "Basic algebra, finite sets, and reading elementary mathematical proofs."
+    ],
+    "readiness_checks": [
+      "Derive the degree-four basis for Q(√2,√3).",
+      "Prove that √2+√3 has minimal polynomial x⁴−10x²+1.",
+      "Distinguish Q(cuberoot(2)) from the splitting field of x³−2."
+    ]
+  },
+  "claim_evidence": [
+    {
+      "id": "aa-093000-c001",
+      "anchor": "The tower law is easy to remember, but its proof is worth learning.",
+      "source_ids": [
+        "aa-mit702"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Spoken lecture and mathematical companion",
+      "evidence_detail": "Basis-product proof for extension-degree multiplication."
+    },
+    {
+      "id": "aa-093000-c002",
+      "anchor": "Consider beta equal to square root of two plus square root of three.",
+      "source_ids": [
+        "aa-conrad"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Spoken lecture and mathematical companion",
+      "evidence_detail": "Explicit biquadratic field calculation."
+    }
+  ]
+}

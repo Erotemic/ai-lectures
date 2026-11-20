@@ -2,13 +2,14 @@
 
 Groups, homomorphisms, quotients, actions, modular arithmetic, rings and fields, growing toward Galois theory, representation theory, commutative algebra and homological algebra.
 
-The current pack contains **22 lecture manuscripts**. Short concept chapters have been consolidated where they develop one subject. Each numbered manuscript has one spoken region; its mathematical statements, exercises, sources, and inherited component notes remain in the non-spoken companion.
+The current pack contains **26 lecture manuscripts**. Short concept chapters have been consolidated where they develop one subject. Each numbered manuscript has one spoken region; its mathematical statements, exercises, sources, and inherited component notes remain in the non-spoken companion.
 
 ## Listening routes
 
 `track.json` owns the current manuscripts and complete sequence. `navigation.json` selects the guided and deeper routes listed below.
 
 - **Abstract Algebra · Groups, Rings, and Fields** (Guided route): `001000`, `004000`, `008000`, `009000`.
+- **Abstract Algebra · From Symmetry to Field Extensions** (Foundation bridge): `001000`, `090000`, `091000`, `004000`, `092000`, `093000`, `009000`.
 - **Algebra · Modules, Homology, and Resolutions** (Deep dive): `008000`, `016000`, `021000`, `020000`.
 - **Algebra · Commutative Rings, Schemes, and Deformations** (Deep dive): `008000`, `017000`, `019000`, `027000`, `038000`, `039000`, `048000`.
 - **Algebra · Number Fields and Arithmetic Geometry** (Deep dive): `004000`, `008000`, `009000`, `019000`, `025000`, `057000`, `077000`.
@@ -44,9 +45,17 @@ Durations are measured from the current spoken text at 145 words per minute, bef
 | `064000` | [DT/PT counts, Hall algebras, and stability walls](064000-dt-pt-counts-hall-algebras-and-stability-walls.md) | 38.4 |
 | `070000` | [Tensor multiplicities, crystal combinatorics, and Hecke theory](070000-tensor-multiplicities-crystal-combinatorics-and-hecke-theory.md) | 28.3 |
 | `077000` | [p-Adic refinements and representation-theoretic information](077000-p-adic-refinements-and-representation-theoretic-information.md) | 18.8 |
+| `090000` | [Counting Symmetry Without Listing Every Transformation: Group Actions and Orbits](090000-counting-symmetry-group-actions-and-orbits.md) | 14.4 |
+| `091000` | [What Can Be Forgotten Without Breaking the Operation? Quotients and the Isomorphism Theorems](091000-quotients-and-three-isomorphism-theorems.md) | 13.9 |
+| `092000` | [A Polynomial Is Not Just an Equation: Division, Ideals, and New Fields](092000-polynomials-division-ideals-and-fields.md) | 15.4 |
+| `093000` | [How Large Is a New Number? Field Extensions, Degrees, and Conjugates](093000-field-extensions-degrees-and-conjugates.md) | 16.8 |
 
 ## Sources and authoring
 
 Per-lecture source records live in `metadata/`; the bibliography is in `metadata/sources.json` when present. Composition lineage and editorial revisions are recorded in per-lecture metadata and `provenance.yaml`. Original arguments and exact companions remain with their consolidated manuscript.
 
 Read [the lecture style rules](../../LECTURE_STYLE_RULES.md) before changing narration. Use the spoken-region markers for extraction; keep raw mathematics, code, and source records in the non-spoken companion. Teaching preparation, proof dependencies, and historical influence are distinct.
+
+## New foundation bridge (November 2026)
+
+These four standalone, example-driven lectures deepen the compressed introductions already in `001000` and `004000`. They do not revise or supersede those surveys. The route moves through symmetry counting and conjugation, well-defined quotient operations and the three isomorphism theorems, explicit polynomial quotients including a four-element field, and extension degrees with a biquadratic Galois example. Use `009000` afterward to continue into the Galois correspondence. The advanced algebra backlog is unchanged.

@@ -25,6 +25,39 @@
       ]
     },
     {
+      "id": "foundation-bridges",
+      "title": "Abstract Algebra · From Symmetry to Field Extensions",
+      "role": "deep_dive",
+      "parent": "survey",
+      "lectures": [
+        "001000",
+        "090000",
+        "091000",
+        "004000",
+        "092000",
+        "093000",
+        "009000"
+      ],
+      "assumed_background": [
+        "Elementary algebra, finite sets, functions, and the first group/ring survey. The route deepens concepts with worked proofs before Galois theory."
+      ],
+      "preparation_collections": [
+        "mathematical-proof:main"
+      ],
+      "related_collections": [
+        "discrete-mathematics:foundation-bridges",
+        "number-theory:survey"
+      ],
+      "tags": [
+        "Algebra",
+        "Group actions",
+        "Isomorphism theorems",
+        "Polynomial rings",
+        "Field extensions",
+        "Galois prerequisites"
+      ]
+    },
+    {
       "id": "modules-homological",
       "title": "Algebra · Modules, Homology, and Resolutions",
       "role": "deep_dive",

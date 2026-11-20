@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "lecture_id": "091000",
+  "transcript": "091000-quotients-and-three-isomorphism-theorems.md",
+  "description": "Proves why normality makes coset multiplication well-defined, derives the three isomorphism theorems from homomorphisms, and works integer and dihedral examples.",
+  "tags": [
+    "Quotient groups",
+    "Normal subgroups",
+    "First isomorphism theorem",
+    "Second isomorphism theorem",
+    "Third isomorphism theorem",
+    "Subgroup correspondence"
+  ],
+  "tag_paths": [
+    [
+      "Mathematics",
+      "Algebra",
+      "Group theory",
+      "Normal subgroups"
+    ],
+    [
+      "Mathematics",
+      "Algebra",
+      "Group theory",
+      "Isomorphism theorems"
+    ],
+    [
+      "Mathematics",
+      "Algebra",
+      "Group theory",
+      "Quotients"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "aa-judson",
+      "reason": "Reference for the definitions, proofs, and examples developed in the lecture."
+    },
+    {
+      "source_id": "aa-mit701",
+      "reason": "Reference for the definitions, proofs, and examples developed in the lecture."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-20",
+    "scope": "New spoken lecture, mathematical companion, worked examples, and proof exercises; no existing manuscripts modified."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "abstract-algebra:001000",
+        "reason": "Earlier concepts used in this proof-based lecture."
+      },
+      {
+        "lecture_id": "abstract-algebra:090000",
+        "reason": "Earlier concepts used in this proof-based lecture."
+      }
+    ],
+    "background": [
+      "Basic algebra, finite sets, and reading elementary mathematical proofs."
+    ],
+    "readiness_checks": [
+      "Use normality to show multiplication of quotient cosets does not depend on representatives.",
+      "Apply the second isomorphism theorem to 4Z and 6Z.",
+      "Explain the correspondence between subgroups of Z/12Z and subgroups of Z containing 12Z."
+    ]
+  },
+  "claim_evidence": [
+    {
+      "id": "aa-091000-c001",
+      "anchor": "But counting cosets is not the same as multiplying cosets.",
+      "source_ids": [
+        "aa-judson"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Spoken lecture and mathematical companion",
+      "evidence_detail": "Normality is needed for coset multiplication."
+    },
+    {
+      "id": "aa-091000-c002",
+      "anchor": "The third isomorphism theorem handles nested normal subgroups.",
+      "source_ids": [
+        "aa-mit701"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Spoken lecture and mathematical companion",
+      "evidence_detail": "Nested quotient isomorphism theorem."
+    }
+  ]
+}

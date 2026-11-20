@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "lecture_id": "090000",
+  "transcript": "090000-counting-symmetry-group-actions-and-orbits.md",
+  "description": "Proves orbit-stabilizer, Burnside’s fixed-point count, and the class equation through the square’s action on three-colorings of the square’s corners and conjugacy classes.",
+  "tags": [
+    "Group actions",
+    "Orbit–stabilizer theorem",
+    "Burnside lemma",
+    "Conjugacy classes",
+    "Class equation"
+  ],
+  "tag_paths": [
+    [
+      "Mathematics",
+      "Algebra",
+      "Group theory",
+      "Group actions"
+    ],
+    [
+      "Mathematics",
+      "Algebra",
+      "Combinatorics",
+      "Burnside lemma"
+    ],
+    [
+      "Mathematics",
+      "Algebra",
+      "Group theory",
+      "Conjugacy classes"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "aa-judson",
+      "reason": "Reference for the definitions, proofs, and examples developed in the lecture."
+    },
+    {
+      "source_id": "aa-mit701-notes",
+      "reason": "Reference for the definitions, proofs, and examples developed in the lecture."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-20",
+    "scope": "New spoken lecture, mathematical companion, worked examples, and proof exercises; no existing manuscripts modified."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "abstract-algebra:001000",
+        "reason": "Earlier concepts used in this proof-based lecture."
+      }
+    ],
+    "background": [
+      "Basic algebra, finite sets, and reading elementary mathematical proofs."
+    ],
+    "readiness_checks": [
+      "Explain why orbit sizes vary across square colorings.",
+      "Compute 21 D4-orbits of three-colorings of the square’s corners by Burnside’s lemma.",
+      "Recover the five conjugacy classes of D4 and identify its center."
+    ]
+  },
+  "claim_evidence": [
+    {
+      "id": "aa-090000-c001",
+      "anchor": "There is a remarkable way around the variable orbit size.",
+      "source_ids": [
+        "aa-judson"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Spoken lecture and mathematical companion",
+      "evidence_detail": "Burnside’s lemma as a count of fixed pairs."
+    },
+    {
+      "id": "aa-090000-c002",
+      "anchor": "Under conjugation, the identity forms a class by itself.",
+      "source_ids": [
+        "aa-mit701-notes"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Spoken lecture and mathematical companion",
+      "evidence_detail": "Conjugacy-class decomposition in D4."
+    }
+  ]
+}

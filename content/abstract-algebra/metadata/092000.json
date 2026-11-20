@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "lecture_id": "092000",
+  "transcript": "092000-polynomials-division-ideals-and-fields.md",
+  "description": "Develops polynomial identity versus evaluation, Euclidean division and Bézout, irreducible quotients, an explicit four-element field, and polynomial Chinese remaindering.",
+  "tags": [
+    "Polynomial rings",
+    "Polynomial Euclidean algorithm",
+    "Bézout identity",
+    "Irreducible polynomials",
+    "Finite fields",
+    "Chinese remainder theorem"
+  ],
+  "tag_paths": [
+    [
+      "Mathematics",
+      "Algebra",
+      "Ring theory",
+      "Polynomial rings"
+    ],
+    [
+      "Mathematics",
+      "Algebra",
+      "Field theory",
+      "Finite fields"
+    ],
+    [
+      "Mathematics",
+      "Algebra",
+      "Ring theory",
+      "Chinese remainder theorem"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "aa-judson",
+      "reason": "Reference for the definitions, proofs, and examples developed in the lecture."
+    },
+    {
+      "source_id": "aa-conrad",
+      "reason": "Reference for the definitions, proofs, and examples developed in the lecture."
+    },
+    {
+      "source_id": "aa-mit702",
+      "reason": "Reference for the definitions, proofs, and examples developed in the lecture."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-20",
+    "scope": "New spoken lecture, mathematical companion, worked examples, and proof exercises; no existing manuscripts modified."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "abstract-algebra:004000",
+        "reason": "Earlier concepts used in this proof-based lecture."
+      },
+      {
+        "lecture_id": "abstract-algebra:091000",
+        "reason": "Earlier concepts used in this proof-based lecture."
+      }
+    ],
+    "background": [
+      "Basic algebra, finite sets, and reading elementary mathematical proofs."
+    ],
+    "readiness_checks": [
+      "Compute the gcd of x³−1 and x²−1 and give its Bézout certificate.",
+      "Construct F4 as a quotient of F2[x], including an inverse for alpha.",
+      "Prove the CRT isomorphism Q[x]/(x²−1) ≅ Q×Q."
+    ]
+  },
+  "claim_evidence": [
+    {
+      "id": "aa-092000-c001",
+      "anchor": "The field hypothesis is doing real work.",
+      "source_ids": [
+        "aa-judson"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Spoken lecture and mathematical companion",
+      "evidence_detail": "Polynomial division over field coefficients."
+    },
+    {
+      "id": "aa-092000-c002",
+      "anchor": "This four-element field is not the integers modulo four.",
+      "source_ids": [
+        "aa-conrad"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Spoken lecture and mathematical companion",
+      "evidence_detail": "A field cannot contain nonzero zero divisors."
+    }
+  ]
+}
