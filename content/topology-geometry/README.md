@@ -2,13 +2,14 @@
 
 Open-set topology, compactness, connectedness, quotient spaces, fundamental groups and manifolds, leading toward algebraic topology and differential geometry.
 
-The current pack contains **24 lecture manuscripts**. Short concept chapters have been consolidated where they develop one subject. Each numbered manuscript has one spoken region; its mathematical statements, exercises, sources, and inherited component notes remain in the non-spoken companion.
+The current pack contains **28 lecture manuscripts**. Short concept chapters have been consolidated where they develop one subject. Each numbered manuscript has one spoken region; its mathematical statements, exercises, sources, and inherited component notes remain in the non-spoken companion.
 
 ## Listening routes
 
 `track.json` owns the current manuscripts and complete sequence. `navigation.json` selects the guided and deeper routes listed below.
 
 - **Topology and Geometry · Foundations and Further Routes** (Guided route): `001000`, `005000`.
+- **Geometry from Curves to Curvature** (Deep dive): `001000`, `050000`, `051000`, `008000`, `052000`, `053000`, `014000`. This is a worked foundation bridge into the existing geometry survey.
 - **Manifolds, Forms, and Stokes** (Deep dive): `008000`, `009000`.
 - **Homology, Bundles, Curvature, and Index** (Deep dive): `011000`, `016000`, `014000`, `018000`, `020000`, `020300`.
 - **Symplectic Geometry, Curves, and Quantization** (Deep dive): `021100`, `022000`, `022200`, `023000`, `025100`, `025600`, `026000`.
@@ -44,6 +45,10 @@ Durations are measured from the current spoken text at 145 words per minute, bef
 | `036100` | [Contact boundaries, wrapping, and embedding obstructions](036100-contact-boundaries-wrapping-and-embedding-obstructions.md) | 45.4 |
 | `034100` | [Yang-Mills energy, small-energy gauges, bubbling, and compactness](034100-yang-mills-energy-small-energy-gauges-bubbling-and-compactness.md) | 26.8 |
 | `039000` | [Four-manifold invariants, family indices, and genus bounds](039000-four-manifold-invariants-family-indices-and-genus-bounds.md) | 32.7 |
+| `050000` | [A Curve Carries a Clock: Arc Length, Curvature, and Turning](050000-a-curve-carries-a-clock.md) | 13.8 |
+| `051000` | [A Surface Has Many Maps: Charts, Tangents, and Differentials](051000-a-surface-has-many-maps.md) | 15.3 |
+| `052000` | [The Ruler That Stays on the Surface: Metrics, Distance, and Geodesics](052000-the-ruler-that-stays-on-the-surface.md) | 15.6 |
+| `053000` | [The Curvature a Surface Can Feel: From Small Circles to Gauss--Bonnet](053000-the-curvature-a-surface-can-feel.md) | 17.9 |
 
 ## Sources and authoring
 

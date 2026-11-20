@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "lecture_id": "051000",
+  "transcript": "051000-a-surface-has-many-maps.md",
+  "description": "Constructs regular graph, sphere, and torus charts; derives tangent planes and changes of coordinates; differentiates height on a sphere; contrasts chart failure with genuine singularity.",
+  "tags": [
+    "Differential geometry",
+    "Regular surfaces",
+    "Manifolds",
+    "Tangent spaces",
+    "Implicit function theorem",
+    "Coordinate charts"
+  ],
+  "tag_paths": [
+    [
+      "Mathematics",
+      "Geometry",
+      "Differential geometry",
+      "Regular surfaces"
+    ],
+    [
+      "Mathematics",
+      "Topology",
+      "Manifolds",
+      "Tangent spaces"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "tg-mit-manifolds",
+      "reason": "Source for the definitions and worked geometry developed in the lecture."
+    },
+    {
+      "source_id": "tg-mit-differential",
+      "reason": "Source for the definitions and worked geometry developed in the lecture."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-20",
+    "scope": "New spoken lecture, mathematical companion, worked examples, and exercises; previous manuscripts untouched."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "topology-geometry:050000",
+        "reason": "Supports the geometric concepts and calculations used here."
+      },
+      {
+        "lecture_id": "topology-geometry:001000",
+        "reason": "Supports the geometric concepts and calculations used here."
+      }
+    ],
+    "background": [
+      "Single-variable and multivariable calculus, vectors, and elementary proof reasoning."
+    ],
+    "readiness_checks": [
+      "Find the tangent plane to a sphere at any specified point.",
+      "Explain why latitude and longitude fail as coordinates at the poles.",
+      "Calculate the differential of height along a tangent direction."
+    ]
+  },
+  "claim_evidence": [
+    {
+      "id": "tg-051000-c001",
+      "anchor": "The implicit and parametric approaches agree because they describe the same geometry.",
+      "source_ids": [
+        "tg-mit-manifolds",
+        "tg-mit-differential"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Spoken lecture and mathematical companion",
+      "evidence_detail": "Demonstrates equality of the parametrized and implicit tangent-plane constructions."
+    }
+  ]
+}

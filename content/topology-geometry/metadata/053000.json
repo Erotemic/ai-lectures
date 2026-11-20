@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "lecture_id": "053000",
+  "transcript": "053000-the-curvature-a-surface-can-feel.md",
+  "description": "Compares principal and Gaussian curvature, calculates sphere/cylinder/saddle examples, derives small-circle and spherical triangle measurements, and explains Gauss--Bonnet with and without boundary.",
+  "tags": [
+    "Differential geometry",
+    "Gaussian curvature",
+    "Gauss--Bonnet",
+    "Theorema Egregium",
+    "Geodesic triangles",
+    "Euler characteristic"
+  ],
+  "tag_paths": [
+    [
+      "Mathematics",
+      "Geometry",
+      "Differential geometry",
+      "Gaussian curvature"
+    ],
+    [
+      "Mathematics",
+      "Topology",
+      "Euler characteristic",
+      "Gauss--Bonnet"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "tg-ucla-gauss",
+      "reason": "Source for the definitions and worked geometry developed in the lecture."
+    },
+    {
+      "source_id": "tg-mit-differential",
+      "reason": "Source for the definitions and worked geometry developed in the lecture."
+    },
+    {
+      "source_id": "tg-notredame-gauss",
+      "reason": "Source for the definitions and worked geometry developed in the lecture."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-20",
+    "scope": "New spoken lecture, mathematical companion, worked examples, and exercises; previous manuscripts untouched."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "topology-geometry:052000",
+        "reason": "Supports the geometric concepts and calculations used here."
+      },
+      {
+        "lecture_id": "topology-geometry:005000",
+        "reason": "Supports the geometric concepts and calculations used here."
+      }
+    ],
+    "background": [
+      "Single-variable and multivariable calculus, vectors, and elementary proof reasoning."
+    ],
+    "readiness_checks": [
+      "Compute Gaussian curvature at the center of a quadratic saddle.",
+      "Derive the angle excess of a spherical octant triangle.",
+      "Use Gauss--Bonnet to rule out everywhere-positive curvature on genus-two surfaces."
+    ]
+  },
+  "claim_evidence": [
+    {
+      "id": "tg-053000-c001",
+      "anchor": "The integer V minus E plus F is the Euler characteristic.",
+      "source_ids": [
+        "tg-ucla-gauss",
+        "tg-mit-differential",
+        "tg-notredame-gauss"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Spoken lecture and mathematical companion",
+      "evidence_detail": "Derives Gauss--Bonnet from geodesic-triangle angle excess and Euler counting, under the stated surface hypotheses."
+    }
+  ]
+}

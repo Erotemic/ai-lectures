@@ -32,7 +32,11 @@
     "berry-curvature",
     "yang-mills-energy",
     "contact-reeb-foundations",
-    "donaldson-invariants"
+    "donaldson-invariants",
+    "curves-arclength-curvature",
+    "regular-surfaces",
+    "induced-metrics",
+    "gaussian-curvature-examples"
   ],
   "lectures": [
     {
@@ -566,6 +570,74 @@
         "Gauge theory",
         "Index theory",
         "Genus bounds"
+      ]
+    },
+    {
+      "id": "050000",
+      "title": "A Curve Carries a Clock: Arc Length, Curvature, and Turning",
+      "section": "curves-arclength-curvature",
+      "file": "050000-a-curve-carries-a-clock.md",
+      "spoken_words": 2005,
+      "estimated_minutes_at_145_wpm": 13.8,
+      "draft_status": "substantive",
+      "tags": [
+        "Differential geometry",
+        "Curves",
+        "Arc length",
+        "Curvature",
+        "Torsion",
+        "Turning number"
+      ]
+    },
+    {
+      "id": "051000",
+      "title": "A Surface Has Many Maps: Charts, Tangents, and Differentials",
+      "section": "regular-surfaces",
+      "file": "051000-a-surface-has-many-maps.md",
+      "spoken_words": 2219,
+      "estimated_minutes_at_145_wpm": 15.3,
+      "draft_status": "substantive",
+      "tags": [
+        "Differential geometry",
+        "Regular surfaces",
+        "Manifolds",
+        "Tangent spaces",
+        "Implicit function theorem",
+        "Coordinate charts"
+      ]
+    },
+    {
+      "id": "052000",
+      "title": "The Ruler That Stays on the Surface: Metrics, Distance, and Geodesics",
+      "section": "induced-metrics",
+      "file": "052000-the-ruler-that-stays-on-the-surface.md",
+      "spoken_words": 2256,
+      "estimated_minutes_at_145_wpm": 15.6,
+      "draft_status": "substantive",
+      "tags": [
+        "Differential geometry",
+        "Riemannian metrics",
+        "First fundamental form",
+        "Geodesics",
+        "Area",
+        "Variational calculus"
+      ]
+    },
+    {
+      "id": "053000",
+      "title": "The Curvature a Surface Can Feel: From Small Circles to Gauss--Bonnet",
+      "section": "gaussian-curvature-examples",
+      "file": "053000-the-curvature-a-surface-can-feel.md",
+      "spoken_words": 2602,
+      "estimated_minutes_at_145_wpm": 17.9,
+      "draft_status": "substantive",
+      "tags": [
+        "Differential geometry",
+        "Gaussian curvature",
+        "Gauss--Bonnet",
+        "Theorema Egregium",
+        "Geodesic triangles",
+        "Euler characteristic"
       ]
     }
   ],

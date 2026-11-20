@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "lecture_id": "050000",
+  "transcript": "050000-a-curve-carries-a-clock.md",
+  "description": "Develops regular plane and space curves, reparametrization, arc length, signed curvature, osculating circles, torsion, and global turning through worked examples.",
+  "tags": [
+    "Differential geometry",
+    "Curves",
+    "Arc length",
+    "Curvature",
+    "Torsion",
+    "Turning number"
+  ],
+  "tag_paths": [
+    [
+      "Mathematics",
+      "Geometry",
+      "Differential geometry",
+      "Curves"
+    ],
+    [
+      "Mathematics",
+      "Geometry",
+      "Curvature",
+      "Plane curves"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "tg-mit-differential",
+      "reason": "Source for the definitions and worked geometry developed in the lecture."
+    },
+    {
+      "source_id": "tg-ucla-gauss",
+      "reason": "Source for the definitions and worked geometry developed in the lecture."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-20",
+    "scope": "New spoken lecture, mathematical companion, worked examples, and exercises; previous manuscripts untouched."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "multivariable-calculus:001000",
+        "reason": "Supports the geometric concepts and calculations used here."
+      }
+    ],
+    "background": [
+      "Single-variable and multivariable calculus, vectors, and elementary proof reasoning."
+    ],
+    "readiness_checks": [
+      "Calculate the signed curvature of y=x squared at x=0.",
+      "Explain why arc length does not depend on a regular change of parameter.",
+      "Distinguish the curvature and torsion of a helix."
+    ]
+  },
+  "claim_evidence": [
+    {
+      "id": "tg-050000-c001",
+      "anchor": "The magnitude of the change in tangent per unit arc length is the curvature.",
+      "source_ids": [
+        "tg-mit-differential",
+        "tg-ucla-gauss"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Spoken lecture and mathematical companion",
+      "evidence_detail": "Defines intrinsic-parameter curvature and checks it on a circle, parabola, and helix."
+    }
+  ]
+}

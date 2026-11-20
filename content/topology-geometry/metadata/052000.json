@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "lecture_id": "052000",
+  "transcript": "052000-the-ruler-that-stays-on-the-surface.md",
+  "description": "Calculates the first fundamental form and area elements for cylinders, spheres, and paraboloids; derives geodesics from energy and compares local straightness to global distance.",
+  "tags": [
+    "Differential geometry",
+    "Riemannian metrics",
+    "First fundamental form",
+    "Geodesics",
+    "Area",
+    "Variational calculus"
+  ],
+  "tag_paths": [
+    [
+      "Mathematics",
+      "Geometry",
+      "Riemannian geometry",
+      "Metrics"
+    ],
+    [
+      "Mathematics",
+      "Geometry",
+      "Riemannian geometry",
+      "Geodesics"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "tg-mit-differential",
+      "reason": "Source for the definitions and worked geometry developed in the lecture."
+    },
+    {
+      "source_id": "tg-mit-manifolds",
+      "reason": "Source for the definitions and worked geometry developed in the lecture."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-20",
+    "scope": "New spoken lecture, mathematical companion, worked examples, and exercises; previous manuscripts untouched."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "topology-geometry:051000",
+        "reason": "Supports the geometric concepts and calculations used here."
+      },
+      {
+        "lecture_id": "multivariable-calculus:001000",
+        "reason": "Supports the geometric concepts and calculations used here."
+      }
+    ],
+    "background": [
+      "Single-variable and multivariable calculus, vectors, and elementary proof reasoning."
+    ],
+    "readiness_checks": [
+      "Derive the metric of a radius-R cylinder and flatten it locally.",
+      "Compute the area element on a sphere.",
+      "Explain the Euler--Lagrange origin of the geodesic equation."
+    ]
+  },
+  "claim_evidence": [
+    {
+      "id": "tg-052000-c001",
+      "anchor": "This expression is called the first fundamental form.",
+      "source_ids": [
+        "tg-mit-differential",
+        "tg-mit-manifolds"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Spoken lecture and mathematical companion",
+      "evidence_detail": "Constructs E,F,G from tangent dot products and uses them in explicit length, area, and energy calculations."
+    }
+  ]
+}

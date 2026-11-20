@@ -19,6 +19,41 @@
       ]
     },
     {
+      "id": "geometry-foundations",
+      "title": "Geometry from Curves to Curvature",
+      "role": "deep_dive",
+      "parent": "survey",
+      "summary": "Worked foundations: distance and turning on curves, regular surfaces and tangent planes, local metrics and geodesics, and the global consequences of Gaussian curvature.",
+      "lectures": [
+        "001000",
+        "050000",
+        "051000",
+        "008000",
+        "052000",
+        "053000",
+        "014000"
+      ],
+      "assumed_background": [
+        "Single-variable and multivariable derivatives, dot products, vector-valued functions, and elementary proofs. The existing manifold survey is used as an optional strengthening bridge."
+      ],
+      "preparation_collections": [
+        "topology-geometry:survey",
+        "multivariable-calculus:main",
+        "linear-algebra:main"
+      ],
+      "related_collections": [
+        "topology-geometry:manifolds",
+        "topology-geometry:algebraic"
+      ],
+      "tags": [
+        "Differential geometry",
+        "Regular surfaces",
+        "Metrics",
+        "Curvature",
+        "Gauss--Bonnet"
+      ]
+    },
+    {
       "id": "manifolds",
       "title": "Manifolds, Forms, and Stokes",
       "role": "deep_dive",
