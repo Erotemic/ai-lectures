@@ -103,6 +103,8 @@ listeners may choose any order.
 
 - **027000 - A Snowflake on a Rabbit Hair.** How hexagonal ice grows wildly different shapes, from Kepler's puzzle and Bentley's photographs to Nakaya's 1936 artificial snow crystal on a fine support; what vapor, temperature and growing tips do to the six arms.
 
+- **028000 — The Pond That Needs to Dry.** Why woodland vernal pools and California grassland pools sometimes depend on their seasonal dry phase; how frogs, salamanders, fairy shrimp and wildflowers live by different clocks; and why conserving a changing habitat requires protecting its calendar and surrounding landscape.
+
 Spoken narration is inside the standard marker pair in each manuscript. Source
 notes, constructed-example qualifications, and reading links follow the
 spoken region. Per-lecture metadata and reading records are in `metadata/`.

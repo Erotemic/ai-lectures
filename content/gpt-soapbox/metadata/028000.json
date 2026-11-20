@@ -1,0 +1,267 @@
+{
+  "schema_version": 1,
+  "lecture_id": "028000",
+  "transcript": "028000-the-pond-that-needs-to-dry.md",
+  "tags": [
+    "GPT-SoapBox",
+    "Essays",
+    "Ecology",
+    "Vernal pools",
+    "Seasonal wetlands",
+    "Ephemeral wetlands",
+    "Woodland ponds",
+    "Hydroperiod",
+    "Amphibian reproduction",
+    "Wood frogs",
+    "Spotted salamanders",
+    "Fairy shrimp",
+    "Branchinecta lynchi",
+    "Resting eggs",
+    "Cysts",
+    "Dormancy",
+    "Life cycles",
+    "Fish predation",
+    "Metamorphosis",
+    "Environmental conservation",
+    "Wetland conservation",
+    "Habitat connectivity",
+    "Land-use planning",
+    "Climate adaptation",
+    "Drought",
+    "Hydrologic refugia",
+    "Citizen science",
+    "Wetland mapping",
+    "Environmental management",
+    "Northeastern United States",
+    "New England",
+    "Massachusetts",
+    "California",
+    "United States",
+    "Grassland ecology",
+    "Forests",
+    "Water cycle",
+    "Seasonal change",
+    "Wildlife habitat",
+    "Terrestrial habitat"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Biology",
+      "Ecology",
+      "Wetland ecology",
+      "Vernal pools"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Zoology",
+      "Amphibians",
+      "Wood frogs"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Zoology",
+      "Crustaceans",
+      "Fairy shrimp"
+    ],
+    [
+      "Science",
+      "Earth sciences",
+      "Hydrology",
+      "Wetlands",
+      "Hydroperiod"
+    ],
+    [
+      "Environment",
+      "Conservation",
+      "Wetland conservation"
+    ],
+    [
+      "Environment",
+      "Climate change",
+      "Climate adaptation",
+      "Hydrologic refugia"
+    ],
+    [
+      "Government",
+      "Land-use planning",
+      "Wetlands"
+    ],
+    [
+      "Geography",
+      "Americas",
+      "North America",
+      "United States",
+      "Massachusetts"
+    ],
+    [
+      "Geography",
+      "Americas",
+      "North America",
+      "United States",
+      "California"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "gs-pond-epa",
+      "reason": "General seasonal wetland characteristics and ecological persistence"
+    },
+    {
+      "source_id": "gs-pond-ma-state",
+      "reason": "Northeastern pool hydrology, habitat needs and threats"
+    },
+    {
+      "source_id": "gs-pond-pa-ecology",
+      "reason": "Fish exclusion through dry phases"
+    },
+    {
+      "source_id": "gs-pond-pa-hydrology",
+      "reason": "Variable developmental time and hydroperiod requirements"
+    },
+    {
+      "source_id": "gs-pond-massaudubon",
+      "reason": "Woodland frog and salamander breeding, upland dependence"
+    },
+    {
+      "source_id": "gs-pond-massroads",
+      "reason": "Road crossings during amphibian migrations"
+    },
+    {
+      "source_id": "gs-pond-massplanning",
+      "reason": "Habitat connectivity and buffers beyond the pool itself"
+    },
+    {
+      "source_id": "gs-pond-cdfw",
+      "reason": "California pool geometry and seasonal flora"
+    },
+    {
+      "source_id": "gs-pond-fws-shrimp",
+      "reason": "Species-level fairy shrimp biology and resting cysts"
+    },
+    {
+      "source_id": "gs-pond-caparks",
+      "reason": "Evidence for wildflower bands during pool recession"
+    },
+    {
+      "source_id": "gs-pond-massgis",
+      "reason": "Certification and land use limitations"
+    },
+    {
+      "source_id": "gs-pond-usgs",
+      "reason": "2021 model of potentially drought-resistant pools"
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "pond-028-h01",
+      "anchor": "In the northeastern United States, many such places are called vernal pools: seasonal wetlands that fill with rain, snowmelt, or rising groundwater and later lose their standing water.",
+      "kind": "history_or_statistics",
+      "source_ids": [
+        "gs-pond-ma-state",
+        "gs-pond-epa"
+      ],
+      "source_locator": "gs-pond-ma-state",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "pond-028-h02",
+      "anchor": "The California vernal pool fairy shrimp, for example, lays resting eggs called cysts.",
+      "kind": "history_or_statistics",
+      "source_ids": [
+        "gs-pond-fws-shrimp"
+      ],
+      "source_locator": "gs-pond-fws-shrimp",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "pond-028-h03",
+      "anchor": "California vernal pools can develop bands of flowers as the water retreats.",
+      "kind": "history_or_statistics",
+      "source_ids": [
+        "gs-pond-cdfw",
+        "gs-pond-caparks"
+      ],
+      "source_locator": "gs-pond-cdfw",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "pond-028-h04",
+      "anchor": "Massachusetts has an instructive approach to part of this problem.",
+      "kind": "history_or_statistics",
+      "source_ids": [
+        "gs-pond-massgis"
+      ],
+      "source_locator": "gs-pond-massgis",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "pond-028-h05",
+      "anchor": "A 2021 study by Jennifer Cartwright, Toni Lyn Morelli, and Evan Campbell Grant used thousands of field observations from hundreds of northeastern vernal pools to investigate which ones were likely to remain wet later into the season.",
+      "kind": "history_or_statistics",
+      "source_ids": [
+        "gs-pond-usgs"
+      ],
+      "source_locator": "gs-pond-usgs",
+      "audit_status": "source_passage_checked"
+    }
+  ],
+  "claim_evidence": [
+    {
+      "id": "pond-028-c01",
+      "anchor": "A pool that holds water for several months may support animals that cannot finish their development in a pool that dries after a few weeks.",
+      "source_ids": [
+        "gs-pond-pa-hydrology",
+        "gs-pond-ma-state"
+      ],
+      "provenance": "source_supported_explanation",
+      "source_locator": "gs-pond-pa-hydrology",
+      "evidence_detail": "Distinct species require different minimum inundation periods for larval development."
+    },
+    {
+      "id": "pond-028-c02",
+      "anchor": "Protecting the water alone does not protect the animal.",
+      "source_ids": [
+        "gs-pond-massaudubon",
+        "gs-pond-massplanning"
+      ],
+      "provenance": "source_supported_explanation",
+      "source_locator": "gs-pond-massaudubon",
+      "evidence_detail": "Pool-breeding amphibians depend on terrestrial forest habitat and migration connectivity."
+    },
+    {
+      "id": "pond-028-c03",
+      "anchor": "If the water vanishes too soon, larvae may be stranded before they are ready.",
+      "source_ids": [
+        "gs-pond-pa-hydrology",
+        "gs-pond-usgs"
+      ],
+      "provenance": "source_supported_explanation",
+      "source_locator": "gs-pond-pa-hydrology",
+      "evidence_detail": "Early drying can prevent aquatic larvae from completing metamorphosis."
+    },
+    {
+      "id": "pond-028-c04",
+      "anchor": "Certification can inform land-use decisions and contribute to legal protections under applicable regulations.",
+      "source_ids": [
+        "gs-pond-massgis"
+      ],
+      "provenance": "source_supported_explanation",
+      "source_locator": "gs-pond-massgis",
+      "evidence_detail": "Certification establishes biological function; wetland-law protection depends on jurisdiction."
+    },
+    {
+      "id": "pond-028-c05",
+      "anchor": "A region can receive more precipitation overall while particular pools lose their water earlier during the breeding season.",
+      "source_ids": [
+        "gs-pond-ma-state",
+        "gs-pond-usgs"
+      ],
+      "provenance": "source_supported_explanation",
+      "source_locator": "gs-pond-ma-state",
+      "evidence_detail": "Inundation depends on timing, evapotranspiration, and local basins, not annual precipitation alone."
+    }
+  ]
+}
