@@ -1,0 +1,168 @@
+{
+  "schema_version": 1,
+  "lecture_id": "002000",
+  "transcript": "002000-the-universe-kept-changing-what-science-did-to-cosmos.md",
+  "description": "A science-focused assessment of how Voyager, Mars exploration, exoplanets, precision cosmology and climate science transformed the evidentiary picture of the universe Sagan presented, with explicit November 2026 reference dates.",
+  "related_resources": [
+    {
+      "source_id": "cosmos-nasa-voyager",
+      "reason": "Voyager 1 Saturn November 1980; Voyager 2 Saturn 1981, Uranus 1986, Neptune 1989."
+    },
+    {
+      "source_id": "cosmos-nasa-viking",
+      "reason": "Viking chronology and life detection experiments, with ambiguous results and no definitive detection."
+    },
+    {
+      "source_id": "cosmos-nasa-mars",
+      "reason": "Evidence for early liquid water, habitability and unresolved evolution of the Martian climate."
+    },
+    {
+      "source_id": "cosmos-nasa-exoplanet-count",
+      "reason": "6,473 confirmed exoplanets reported November 19, 2026; value subject to updates."
+    },
+    {
+      "source_id": "cosmos-nasa-exoplanet-history",
+      "reason": "51 Pegasi b (1995), early detection methods, six thousand exoplanets milestone."
+    },
+    {
+      "source_id": "cosmos-nasa-first-pulsar",
+      "reason": "Pulsar planet discoveries reported in 1992 and first exoplanet around an ordinary star 51 Pegasi b in 1995."
+    },
+    {
+      "source_id": "cosmos-stsci-cosmology",
+      "reason": "Modern approximate age 13.8 billion years and observational cosmology."
+    },
+    {
+      "source_id": "cosmos-nasa-dark-energy",
+      "reason": "Acceleration of cosmic expansion, open mechanism behind dark energy."
+    },
+    {
+      "source_id": "cosmos-nasa-venus",
+      "reason": "Dense CO2 atmosphere, greenhouse effect and modern Venus conditions."
+    },
+    {
+      "source_id": "cosmos-nasa-life-status",
+      "reason": "NASA reports no credible evidence of extraterrestrial life or alien UAPs as of reference date."
+    },
+    {
+      "source_id": "cosmos-nasa-climate-comparison",
+      "reason": "Venus-Earth climate differences and history relevant to greenhouse analogy."
+    },
+    {
+      "source_id": "cosmos-episode-guide",
+      "reason": "Original episodes, broad subjects, broadcast chronology; not a substitute for inspecting film sequences."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "002000-c01",
+      "anchor": "Voyager 1 reached Saturn in November 1980",
+      "kind": "spacecraft_history",
+      "source_ids": [
+        "cosmos-nasa-voyager"
+      ],
+      "source_locator": "Episode, verified production account or current institutional scientific record",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "002000-c02",
+      "anchor": "Voyager 2 would visit Saturn the following year, Uranus in January 1986, and Neptune in August 1989.",
+      "kind": "spacecraft_history",
+      "source_ids": [
+        "cosmos-nasa-voyager"
+      ],
+      "source_locator": "Episode, verified production account or current institutional scientific record",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "002000-c03",
+      "anchor": "The Viking missions reached the surface in 1976.",
+      "kind": "mission_history",
+      "source_ids": [
+        "cosmos-nasa-viking"
+      ],
+      "source_locator": "Episode, verified production account or current institutional scientific record",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "002000-c04",
+      "anchor": "The experiments did not produce a clear, generally accepted detection of life.",
+      "kind": "mission_interpretation",
+      "source_ids": [
+        "cosmos-nasa-viking"
+      ],
+      "source_locator": "Episode, verified production account or current institutional scientific record",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "002000-c05",
+      "anchor": "In 1992, planets were identified around a pulsar",
+      "kind": "discovery_history",
+      "source_ids": [
+        "cosmos-nasa-first-pulsar"
+      ],
+      "source_locator": "Episode, verified production account or current institutional scientific record",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "002000-c06",
+      "anchor": "In 1995, astronomers confirmed a giant planet orbiting the Sun-like star 51 Pegasi.",
+      "kind": "discovery_history",
+      "source_ids": [
+        "cosmos-nasa-exoplanet-history"
+      ],
+      "source_locator": "Episode, verified production account or current institutional scientific record",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "002000-c07",
+      "anchor": "As of November 19, 2026, the NASA Exoplanet Archive reported 6,473 confirmed planets",
+      "kind": "dated_statistics",
+      "source_ids": [
+        "cosmos-nasa-exoplanet-count"
+      ],
+      "source_locator": "Episode, verified production account or current institutional scientific record",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "002000-c08",
+      "anchor": "The universe is now estimated to be about 13.8 billion years old.",
+      "kind": "measurement",
+      "source_ids": [
+        "cosmos-stsci-cosmology"
+      ],
+      "source_locator": "Episode, verified production account or current institutional scientific record",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "002000-c09",
+      "anchor": "The discovery, in the late 1990s, that the expansion is accelerating",
+      "kind": "cosmology_history",
+      "source_ids": [
+        "cosmos-nasa-dark-energy"
+      ],
+      "source_locator": "Episode, verified production account or current institutional scientific record",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "002000-c10",
+      "anchor": "At the time of this lecture, in November 2026, no discovery of extraterrestrial life has won broad scientific confirmation.",
+      "kind": "astrobiology_status",
+      "source_ids": [
+        "cosmos-nasa-life-status"
+      ],
+      "source_locator": "Episode, verified production account or current institutional scientific record",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "002000-c11",
+      "anchor": "Its extremely dense carbon dioxide atmosphere traps heat through well-understood radiative processes.",
+      "kind": "planetary_climate",
+      "source_ids": [
+        "cosmos-nasa-venus"
+      ],
+      "source_locator": "Episode, verified production account or current institutional scientific record",
+      "audit_status": "source_checked"
+    }
+  ]
+}
