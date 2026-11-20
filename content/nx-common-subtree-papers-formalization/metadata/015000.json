@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "lecture_id": "015000",
+  "transcript": "015000-from-proved-math-to-fast-rust.md",
+  "description": "Reads the current 2016 Lean proof chain and source-refined exact integer matching functions, contrasts paper copied assignments with optimized f64 dummy-column/transposed production matching, and proposes composable functional, witness, representation and resource proof interfaces.",
+  "related_resources": [
+    {
+      "source_id": "nx-dkm-2016",
+      "reason": "Pinned 2016 arXiv v4 and MFCS 2016 Section 3-4, Theorems 4 and 7, the exact source and local cost arguments."
+    }
+  ],
+  "historical_claims": [],
+  "source_snapshot": {
+    "date": "2026-11-19",
+    "repository": "networkx_algo_common_subtree",
+    "statement_map": "docs/planning/paper_statement_crosswalk.md",
+    "proof_status": "proofs/PROOF_STATUS.md"
+  },
+  "tag_paths": [
+    [
+      "Computer Science",
+      "Formal methods",
+      "Formal verification"
+    ],
+    [
+      "Computer Science",
+      "Programming languages",
+      "Lean 4"
+    ],
+    [
+      "Computer Science",
+      "Programming languages",
+      "Rust"
+    ],
+    [
+      "Computer Science",
+      "Algorithms",
+      "Graph algorithms"
+    ]
+  ],
+  "learning": {
+    "assumed_lectures": [
+      "010000",
+      "011000",
+      "012000",
+      "013000",
+      "014000"
+    ],
+    "learning_objectives": [
+      "Classify which exact specification, rooted recurrence, executable baseline, matching helpers and cost pieces are already proved",
+      "Distinguish the paper copied perfect assignment from the production f64 dummy-column/transposed algorithm",
+      "Identify source, witness, numeric, Python, and asymptotic runtime interfaces still needed",
+      "Propose a bounded, composable sequence of new proof milestones without overclaiming formal source assurance"
+    ]
+  }
+}

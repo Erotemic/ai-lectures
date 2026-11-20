@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "lecture_id": "014000",
+  "transcript": "014000-counting-the-whole-algorithm.md",
+  "description": "Derives the complete fixed-left, right-oriented DP schedule: O(|G||H|) views, matching deletion families, the local family bound, exact tree-degree sum, Theorems 7 and 4, and the distinction between paper analysis and source-level costs.",
+  "related_resources": [
+    {
+      "source_id": "nx-dkm-2016",
+      "reason": "Pinned 2016 arXiv v4 and MFCS 2016 Section 3-4, Theorems 4 and 7, the exact source and local cost arguments."
+    }
+  ],
+  "historical_claims": [],
+  "source_snapshot": {
+    "date": "2026-11-19",
+    "repository": "networkx_algo_common_subtree",
+    "statement_map": "docs/planning/paper_statement_crosswalk.md",
+    "proof_status": "proofs/PROOF_STATUS.md"
+  },
+  "tag_paths": [
+    [
+      "Mathematics",
+      "Discrete mathematics",
+      "Graph theory",
+      "Trees"
+    ],
+    [
+      "Computer Science",
+      "Algorithms",
+      "Dynamic programming"
+    ],
+    [
+      "Computer Science",
+      "Algorithms",
+      "Complexity analysis"
+    ],
+    [
+      "Computer Science",
+      "Formal methods",
+      "Lean 4"
+    ]
+  ],
+  "learning": {
+    "assumed_lectures": [
+      "010000",
+      "011000",
+      "012000",
+      "013000"
+    ],
+    "learning_objectives": [
+      "Enumerate the source Algorithm 1 states D(u,s,v) and prove there are O(|G||H|) oriented views",
+      "Explain why matching weights are fixed across the one-right-parent deletion family at (u,v)",
+      "Derive the family cost and factor the degree-sum bound for 2016 Theorem 7",
+      "Explain the nonmatching work behind Theorem 4 and the remaining formal source/time proof obligations"
+    ]
+  }
+}

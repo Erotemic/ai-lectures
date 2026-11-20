@@ -1,6 +1,6 @@
 # Roadmap — from foundations to paper proof to source verification
 
-This is a **curriculum plan**, not an indexed list of written lectures. IDs `000000`–`013000` are complete in the current pack. Later IDs are proposed, will be written as full narration with exact companion mathematics, and may be combined or expanded when the mathematics calls for it. Lecture order is a suggested path, not a fixed dependency graph.
+This is a **curriculum plan**, not an indexed list of written lectures. IDs `000000`–`015000` are complete in the current pack. Later IDs are proposed, will be written as full narration with exact companion mathematics, and may be combined or expanded when the mathematics calls for it. Lecture order is a suggested path, not a fixed dependency graph.
 
 The teaching goal is to be able to do four things for each paper: (1) define valid solutions independently of the algorithm; (2) derive and understand its central recurrence and claimed complexity; (3) find and read the corresponding Lean theorems and source obligations; and (4) identify the next useful correctness or cost proof without conflating optimized Rust, reference Rust, formal mathematics and Python API behavior.
 
@@ -38,8 +38,8 @@ The teaching goal is to be able to do four things for each paper: (1) define val
 | **`011000` — written** | Rooted recurrence and why fixing one root suffices | Proposition 1 / Eq. (1), Lemma 2 | `RootedRecurrence.lean`, `OrientedRecurrence.lean`, `RootedDynamicProgram.lean` |
 | **`012000` — written** | Exact copied-graph reduction, assignment duality, starting deficit and rectangular cost | Lemma 5 | `Shared/CopiedAssignmentReduction.lean`, `CopiedMatchingInitialization.lean`, `CopiedMatchingDuality.lean` |
 | **`013000` — written** | Unmatched reuse, one-pair deletion deficit, dual-tight repair, family cost and Rust proof boundary | Lemma 6, Algorithm 2 | `Shared/MatchingDeletion.lean`, `CopiedMatchingDeletion.lean`, `Rust/SparseDeletionEntrypoint.lean` |
-| `014000` | Unrooted algorithm schedule and summing the matching costs | Proposition 3, Theorems 4, 7; optional Theorems 8–9 | Fixed-root theorem, production orientation/memo components, complexity plan |
-| `015000` | Formalization checkpoint: what is proved, what still blocks verified optimized Python output | Paper statement ledger and production backend | `paper_statement_crosswalk.md`, `PROOF_STATUS.md` |
+| **`014000` — written** | Algorithm 1, oriented right views, one-deletion families, degree-sum factorization, complete runtime argument | Proposition 3; Theorems 7 and 4 | `Rooted.lean`, `OrientedRecurrence.lean`, `Complexity/MatchingFamilies.lean`; published cost proof |
+| **`015000` — written** | Exactly what Lean and source Rust prove; production dummy-column matching, representation and resource theorem interfaces | Paper statement ledger, production graph backend | `RootedDynamicProgram.lean`, `Rust/SparseDeletionEntrypoint.lean`, `paper_statement_crosswalk.md`, production `tree.rs`/`matching.rs` |
 
 **Milestone:** Explain the exact 2016 asymmetric unrestricted-weight target `O(|G||H|(min(Δ_G,Δ_H)+log(max(Δ_G,Δ_H))))`, including why a source-correct rooted reference solver does not yet prove the optimized bound.
 
@@ -85,6 +85,6 @@ The paper-specific lectures will still explain whatever piece of these prerequis
 
 ## Next sensible authoring session
 
-The Lozano–Valiente branch is now written through `009000`, including the printed-specification audit and the source-guided Lean/Rust reference-proof chain. The 2016 branch is now written through `011000`: independent weighted strict subtree-isomorphism, the rooted matching recurrence, fixed-root Lemma 2 and the source-guided Lean mathematical proof. The next authoring step is `012000`, the rectangular weighted-matching / copied-assignment reduction in Lemma 5, followed by the related deletion-family proof in `013000`. The 2004 efficient witness/complexity and Python/NetworkX refinement frontiers remain explicit open-work topics, not hidden claims of completion.
+The Lozano–Valiente branch is written through `009000`, including the source-notation counterexample and formalization reading route. The 2016 branch is written through `015000`: mathematical definitions, recurrence, matching optimization, complete paper complexity argument, and a source-aware list of unresolved verification interfaces. The next paper-specific authoring step is `016000` and `017000`: Droschinsky 2018 topological embeddings, skeletons, exact direct-edge reward and skipped-path penalties. The 2004 and 2016 source-level runtime and Python/NetworkX refinement frontiers remain open research work, not claims of completion.
 
 Before writing *formalization status* manuscripts in any later session, inspect the **current** source repository. This roadmap records the November 19, 2026 upload rather than assuming proof status remains fixed.
