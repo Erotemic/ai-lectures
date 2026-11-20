@@ -1,6 +1,6 @@
 # Dragon Ball: From Penguin Village to the End of Z
 
-**Status: started — eighteen complete, source-annotated audio essays.** This is the active, unified track for Akira Toriyama's early work, *Dr. Slump*, the original *Dragon Ball* adventure, and the material adapted as *Dragon Ball Z*. It **supersedes the earlier proposed `dragon-ball-z` plan**. The eighteen published lectures are real spoken manuscripts, not placeholders; remaining ideas are in [BACKLOG.md](BACKLOG.md), not in the published `track.json`.
+**Status: started — twenty-one complete, source-annotated audio essays.** This is the active, unified track for Akira Toriyama's early work, *Dr. Slump*, the original *Dragon Ball* adventure, and the material adapted as *Dragon Ball Z*. It **supersedes the earlier proposed `dragon-ball-z` plan**. The twenty-one published lectures are real spoken manuscripts, not placeholders; remaining ideas are in [BACKLOG.md](BACKLOG.md), not in the published `track.json`.
 
 ## Why begin before Goku?
 
@@ -27,20 +27,23 @@ The track should be **fun to listen to for fans who know the stories**. Treat ic
 | `013000` | **Before Z Was on Television: The Original Dragon Ball Anime** | The Japanese 1986–1989 show: voices, songs, acting, motion, television pacing, and the extra wedding adventure. |
 | `014000` | **Raditz: The Brother Who Came from Space** | Kinship, the scouter, Gohan in peril, Goku and Piccolo together, and the year-long warning. |
 | `015000` | **The Saiyans Arrive: Waiting for Goku** | The cost to Goku’s old friends before he arrives, the collective battle against Vegeta, and the disappearance of Earth's Dragon Balls. |
-| `017000` | **Vegeta: Pride Is Harder to Defeat Than Goku** | A long character portrait from Nappa and Frieza to Trunks, Cell, Babidi and Buu; the contradictions of pride and attachment. |
 | `021000` | **Namek: The Greatest Game of Keep-Away** | The search and its shifting alliances, Dende and Saichoro, Vegeta’s thefts, and the bizarre Ginyu Force. |
 | `022000` | **Frieza: A Tyrant Small Enough to Smile** | The design, military hierarchy, transformations and moral horror behind the Namek villain. |
+| `023000` | **The First Super Saiyan: When an Image Changed a Series** | Krillin, Frieza, manga composition and the 1991 Japanese episode that gave the transformation time and sound. |
+| `024000` | **Future Trunks: A Sword Through the Status Quo** | Frieza's sudden defeat, Bulma's time machine, divergent histories and the obligation to return to a ruined future. |
+| `018000` | **Piccolo and the Child He Never Expected to Protect** | King Piccolo's legacy, training Gohan, sacrifice, Nail, Kami and the Cell Games. |
+| `017000` | **Vegeta: Pride Is Harder to Defeat Than Goku** | A long character portrait from Nappa and Frieza to Trunks, Cell, Babidi and Buu; the contradictions of pride and attachment. |
 
 These manuscripts contain non-spoken spoiler declarations and source notes, exactly one extractable spoken region each, and precise historical-claim metadata in `metadata/`. The `track.json` and `navigation.json` route only to actual complete manuscripts. Audio is not bundled or claimed to have been synthesized.
 
 ## Listening routes
 
-- **From the Beginning** (default) — all eighteen essays in sequence, continuing forward as new manuscripts are completed. The central plot of *Dragon Ball* begins at `003000`, but the series deliberately opens with the artist and *Dr. Slump*.
+- **From the Beginning** (default) — all twenty-one essays in sequence, continuing forward as new manuscripts are completed. The central plot of *Dragon Ball* begins at `003000`, but the series deliberately opens with the artist and *Dr. Slump*.
 - **Before Goku** — two substantive, independently listenable essays on Toriyama and *Dr. Slump*.
 - **Start with Goku** — `003000` onward for listeners who want to begin with Goku, including Namek, Frieza and Vegeta’s later journey, without *Dr. Slump* prerequisites.
-- **Character and Drawing** — the standalone `011000`, `012000` and `017000` essays, connecting the young Goku portrait and Toriyama’s visual craft to Vegeta’s long character journey.
-
-- **Namek, Frieza, and Vegeta** — three finished long-form essays grouped by theme rather than numerical ID. The Vegeta portrait covers later storylines in full. Future fan routes should include only finished manuscripts, with the eventual historical capstone last.
+- **Character and Drawing** — Goku, Toriyama’s visual design, Piccolo, Vegeta and the Super Saiyan image (`011000`, `012000`, `018000`, `017000`, `023000`), including some later-story spoilers.
+- **Namek, Frieza, and Vegeta** — four finished long-form essays grouped by theme, including the first Super Saiyan, rather than numerical ID. The Vegeta portrait covers later storylines in full.
+- **Turning Points and Futures** — three complete essays about the Super Saiyan, Future Trunks and Piccolo, with Cell-era spoilers. Future fan routes should include only finished manuscripts, with the eventual historical capstone last.
 
 ## Scope and working conventions
 
@@ -54,4 +57,4 @@ These manuscripts contain non-spoken spoiler declarations and source notes, exac
 
 ## Continuing the track
 
-The published manuscripts now include the 1986 anime, Saiyan invasion, the Namek pursuit, Frieza’s rule and a full Vegeta character portrait. The next original story landmark is the first Super Saiyan, followed by Future Trunks, the Androids, Cell and Buu; complementary character and visual-craft essays remain in the backlog. See [BACKLOG.md](BACKLOG.md) for the larger editorial map. The final historical essay should be written after enough of the track exists to support a genuine synthesis.
+The published manuscripts now include the 1986 anime, Saiyan invasion, Namek and Frieza, the first Super Saiyan, Future Trunks and full portraits of Piccolo and Vegeta. Next, the Androids and Cell deserve a distinct treatment before Gohan's decisive battle and Buu; shorter critical studies of Goku, Bulma and Krillin also remain to be written. See [BACKLOG.md](BACKLOG.md) for the larger editorial map. The final historical essay should be written after enough of the track exists to support a genuine synthesis.

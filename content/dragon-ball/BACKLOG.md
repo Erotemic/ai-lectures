@@ -1,6 +1,6 @@
 # Dragon Ball: editorial map and future essays
 
-**Current state:** `001000`–`015000` are complete manuscripts and are published in `track.json`. All higher IDs below are **prospective**. They are not empty recordings, catalog entries, or commitments to a quota. Merge or replace adjacent ideas when that gives a better, more substantial listen. Drafts should supply enough plot to orient a listener but favor criticism, character, craft, production and real historical context over systematic recaps. Maintain the numbering of released lectures.
+**Current state:** Twenty-one complete manuscripts are published in `track.json`. All remaining proposed IDs below are **prospective**. They are not empty recordings, catalog entries, or commitments to a quota. Merge or replace adjacent ideas when that gives a better, more substantial listen. Drafts should supply enough plot to orient a listener but favor criticism, character, craft, production and real historical context over systematic recaps. Maintain the numbering of released lectures.
 
 ## Completed opening: the artist before the hero
 
@@ -38,16 +38,19 @@
 - **022000 — Frieza: A Tyrant Small Enough to Smile.** Villain portrait focused on organization, transformations and a composure that collapses under challenge. Complete; ~25 minutes.
 - **017000 — Vegeta: Pride Is Harder to Defeat Than Goku.** Longitudinal portrait through the Buu conclusion, with extensive spoilers beyond Namek. Complete; ~25 minutes.
 
+## Completed continuation: a transformation, a warning, and an earned guardianship
+
+- **023000 — The First Super Saiyan: When an Image Changed a Series.** A visual and emotional close reading of the Namek transformation in manga and original Japanese television, with documented 1991 episode context. Complete; ~25 minutes.
+- **024000 — Future Trunks: A Sword Through the Status Quo.** Frieza's return, Bulma's time machine, the ruined future, divergent histories and the limits of knowledge. Complete; ~25 minutes.
+- **018000 — Piccolo and the Child He Never Expected to Protect.** Piccolo Jr., Gohan, Nail, Kami, Cell-era guardianship and the transformation of a person shaped for revenge. Complete; ~25 minutes.
+
 ## More story and character essays: Androids, Cell, and Buu
 
 | ID | Proposed essay | Central question |
 | --- | --- | --- |
 | `016000` | **Goku Is Not the Hero People Keep Asking Him to Be** | His appetite for hard fights, generosity and ethically difficult decisions: Frieza, Cell, and withdrawal. Competing readings of a benevolent hero who does not always behave like a responsible savior. |
-| `018000` | **Piccolo and the Child He Never Expected to Protect** | Gohan's training, mentorship, sacrifice, Kami and the slow shift from antagonist to family; keep the original King Piccolo genealogy clear. |
 | `019000` | **Gohan: The Hero Who Doesn't Want the Job** | Childhood violence, latent potential, the Cell Games, school comedy and the distance between what fans want of him and what the character seems to want. |
 | `020000` | **Bulma, Krillin, and the People Who Cannot Keep Up** | Technical ingenuity, courage, fear, loyalty and the importance of non-superpowered characters as battles expand beyond their reach. |
-| `023000` | **The First Super Saiyan: When an Image Changed a Series** | The emotional and visual payoff of Goku's transformation; distinguish manga page structure, 1991 Japanese television treatment and later worldwide reception. |
-| `024000` | **Future Trunks: A Sword Through the Status Quo** | Time-travel stakes, lost futures, and a violent introduction that rewrites the reader's expectations of the world. |
 | `025000` | **Cell: A Monster Built from Other People's Strength** | The genre-shift from Android threat to hunt, absorption, psychological predation and public tournament; avoid easy claims about authorial intentions. |
 | `026000` | **Gohan Versus Cell: The Victory Goku Could Not Win** | Father-son misunderstanding, Android 16, sacrifice, rage and what the climax teaches about different relationships to fighting. |
 | `027000` | **The Buu Saga Refuses to Be One Kind of Story** | School comedy, tournament, horror, fusion, catastrophe, absurdity and the pleasures and difficulties of its wandering structure. |
@@ -71,7 +74,7 @@
 
 ## Editorial and research reminders
 
-- **Priority next:** `023000`, the original Super Saiyan transformation, is ready for a distinct treatment of manga page turns, anime timing and decades of reception. Follow it with Piccolo or Goku (`018000`/`016000`), or rotate into Future Trunks (`024000`) rather than building an uninterrupted series of plot summaries. Keep all previously reserved IDs stable.
+- **Priority next:** `025000`, Cell as the hunted-hunter/horror-story pivot, then `026000`, Gohan versus Cell, and either `016000` (Goku’s morally difficult choices) or `020000` (Bulma and Krillin). Rotate character studies with distinctive story criticism rather than creating one uninterrupted saga summary. Keep all previously reserved IDs stable.
 - **Crossings between media:** Distinguish the 1984–1995 original continuous manga, the 1986 *Dragon Ball* TV series, 1989–1996 *Dragon Ball Z*, *Kai*, dubbing cuts and individual film continuities. Do not import later sequel backstory as evidence of Toriyama's original intentions in 1984.
 - **Oral style:** Every essay must be enjoyable without images or game footage. Explain the physical action and panel layout sufficiently for an audio listener. Include original criticism, memorable scenes and well-supported creator history; do not deliver listicles of trivia or fights.
 - **Biographical rigor:** Attribute editor anecdotes to Torishima or Toriyama and identify differences in their later recollections. Do not invent private conversations, emotional reactions or editorial orders where records do not exist.
