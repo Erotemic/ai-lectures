@@ -1,0 +1,153 @@
+{
+  "schema_version": 1,
+  "lecture_id": "002000",
+  "transcript": "002000-dr-slump-arale-and-the-village-that-would-not-behave.md",
+  "related_resources": [
+    {
+      "source_id": "db-viz-slump",
+      "reason": "Premise and authorship. Describes first volume and initial invention of Arale."
+    },
+    {
+      "source_id": "db-shueisha-slump1",
+      "reason": "Original collected volume publication 9 August 1980 and contents synopsis."
+    },
+    {
+      "source_id": "db-forbes-torishima2016",
+      "reason": "First-person editor recollections of work with Toriyama, Arale as protagonist, Mashirito, and series production. Retrospective testimony, not proof of all private motives."
+    },
+    {
+      "source_id": "db-tcj-drslump2025",
+      "reason": "Critical analysis of Dr. Slump, including the names Senbei and Arale as references to rice-cracker snacks; secondary interpretation, not creator testimony."
+    },
+    {
+      "source_id": "db-official-mashirito",
+      "reason": "Dr. Mashirito fictional role and appearance based on editor Torishima."
+    },
+    {
+      "source_id": "db-shueisha-slump13",
+      "reason": "Official overview of Dr. Mashirito and Obotchaman conflict."
+    },
+    {
+      "source_id": "db-toei-slump",
+      "reason": "Records 1981 production and 243 episodes. Episode counts in particular regional reruns can vary."
+    },
+    {
+      "source_id": "db-official-arale",
+      "reason": "Details of crossover with Goku during Red Ribbon pursuit, manga Tales 81–83."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "002000-c01",
+      "anchor": "Senbei Norimaki is an inventor of astonishing ability and unreliable judgment.",
+      "kind": "fictional_premise",
+      "source_ids": [
+        "db-viz-slump",
+        "db-shueisha-slump1"
+      ],
+      "source_locator": "comic premise in official publisher description",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "002000-c02",
+      "anchor": "Toriyama originally imagined Senbei as the protagonist.",
+      "kind": "attributed_creator_account",
+      "source_ids": [
+        "db-forbes-torishima2016"
+      ],
+      "source_locator": "editor testimony on protagonist choice",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "002000-c03",
+      "anchor": "Toriyama retained the title",
+      "kind": "attributed_creator_account",
+      "source_ids": [
+        "db-forbes-torishima2016"
+      ],
+      "source_locator": "editor on title retention",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "002000-c04",
+      "anchor": "Senbei and Arale both refer, in different ways, to kinds of Japanese rice crackers.",
+      "kind": "cultural_wordplay",
+      "source_ids": [
+        "db-tcj-drslump2025"
+      ],
+      "source_locator": "names interpreted via Japanese-language vocabulary; no claim of unique intended pun",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "002000-c05",
+      "anchor": "Mashirito is an evil scientist who treats Arale as a problem to be eliminated",
+      "kind": "fictional_premise",
+      "source_ids": [
+        "db-official-mashirito",
+        "db-shueisha-slump13"
+      ],
+      "source_locator": "Mashirito character premise",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "002000-c06",
+      "anchor": "His name and appearance are based on Toriyama's editor, Kazuhiko Torishima",
+      "kind": "creator_attribution",
+      "source_ids": [
+        "db-official-mashirito",
+        "db-forbes-torishima2016"
+      ],
+      "source_locator": "editor and official franchise attribution",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "002000-c07",
+      "anchor": "One of them, the robot Obotchaman",
+      "kind": "fictional_premise",
+      "source_ids": [
+        "db-shueisha-slump13"
+      ],
+      "source_locator": "Obotchaman created by Mashirito",
+      "audit_status": "reference_recorded"
+    },
+    {
+      "id": "002000-c08",
+      "anchor": "Toei's catalog describes a 243-episode animated series",
+      "kind": "adaptation_history",
+      "source_ids": [
+        "db-toei-slump"
+      ],
+      "source_locator": "1981 anime 243 episodes",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "002000-c09",
+      "anchor": "Goku's early adventures take him to Penguin Village during the Red Ribbon Army story",
+      "kind": "cross_media_reference",
+      "source_ids": [
+        "db-official-arale"
+      ],
+      "source_locator": "Dragon Ball Tales 81–83 crossover",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "002000-c10",
+      "anchor": "Torishima later expressed dissatisfaction with aspects of how the first *Dr. Slump* adaptation was managed",
+      "kind": "attributed_production_account",
+      "source_ids": [
+        "db-forbes-torishima2016"
+      ],
+      "source_locator": "Torishima retrospective on anime",
+      "audit_status": "source_checked"
+    }
+  ],
+  "description": "A character and visual-arts examination of Dr. Slump, Arale, Senbei, Penguin Village and Toriyama’s comic storytelling.",
+  "tag_paths": [
+    [
+      "Arts",
+      "Manga",
+      "Dragon Ball",
+      "Dr Slump"
+    ]
+  ]
+}

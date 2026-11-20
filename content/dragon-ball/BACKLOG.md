@@ -1,0 +1,68 @@
+# Dragon Ball: editorial map and future essays
+
+**Current state:** `001000`–`003000` are complete manuscripts and are published in `track.json`. All higher IDs below are **prospective**. They are not empty recordings, catalog entries, or commitments to a quota. Merge or replace adjacent ideas when that gives a better, more substantial listen. Drafts should supply enough plot to orient a listener but favor criticism, character, craft, production and real historical context over systematic recaps. Maintain the numbering of released lectures.
+
+## Completed opening: the artist before the hero
+
+- **001000 — Before the Dragon Balls: Akira Toriyama Finds His Line.** Career in commercial design, unpublished work, *Wonder Island*, *Tomato*, Torishima, development of *Dr. Slump*, and the kung-fu impulse. Complete.
+- **002000 — Dr. Slump: Arale and the Village That Would Not Behave.** *Dr. Slump* as a rewarding independent comic and cultural success. Complete.
+- **003000 — The Boy with a Tail and the Girl with a Radar: Where Dragon Ball Begins.** The first Dragon Ball quest and the original story's comic grammar. Complete.
+
+## The original Dragon Ball — adventure, martial arts, and an increasingly dangerous world
+
+| ID | Proposed essay | Why it is a distinct essay |
+| --- | --- | --- |
+| `004000` | **Two Boys, One Turtle Hermit: Roshi, Goku, and Krillin** | Character-driven study of training, the Milk Delivery and Turtle School routines, early rivalry, friendship, and the comic creation of earned strength. The first tournament is part of the payoff, not a match-by-match recap. |
+| `005000` | **The Tournament That Invented Dragon Ball's Future** | Why an organized competition changed a relatively loose road adventure into a story with explicit goals and skill comparisons. Toriyama's attributed retrospective about reader response and the *Dr. Slump* Grand Prix; Jackie Chun's deliberately frustrating lesson about winning. |
+| `006000` | **The Red Ribbon Army: An Adventure That Learns to Fight Back** | From the improbable hunt for magical objects to a sprawling military pursuit. Bulma's ingenuity, Muscle Tower, Colonel Silver and Red's absurdity, and the terrifying punctuation of Mercenary Tao. Balance comic variety with the changing consequences of force. |
+| `007000` | **Baba's Tournament: A Boy Meets His Grandfather Again** | A story of ghosts, disguises, unexpected competence and Goku's relationship to Grandpa Gohan. Why this small, strange reunion has emotional weight without needing to manufacture a new world-ending villain. |
+| `008000` | **Tien, Chiaotzu, and the Tournament's Moral Education** | The 22nd Tenkaichi Budokai as an argument about the purposes of martial arts. The Crane School, Jackie Chun's place in the story, Yamcha, Goku and Tien's changing understanding of strength. A close character study, not an exhaustive bracket. |
+| `009000` | **King Piccolo: When Dragon Ball Discovered Terror** | Krillin's death, the demon king's reign, changed stakes, and the escalation from comic antagonists to a villain the reader is meant to fear. Ask how Toriyama's drawing and earlier character relationships make the turn effective. |
+| `010000` | **The Last Tournament of Childhood: Goku and Piccolo Jr.** | The 23rd Tenkaichi Budokai, a grown Goku, rivalry and inheritance, marriage as comedy, an opponent who becomes part of the future. Close the original television portion without treating the story as a separate, discarded childhood prequel. |
+| `011000` | **Before the Transformations: What Made Young Goku Compelling?** | Across the early manga, how sincerity, appetite, ignorance, mercy and a taste for challenge coexist. A character essay that supports comparisons with older Goku without deciding later debates in advance. |
+| `012000` | **Capsules, Cars, Monsters: Toriyama Designs a World** | Early art and invention: silhouettes, readable machines, the strange coexistence of dinosaurs and modern cities, comic devices that carry the plot. Can address *Dr. Slump* as part of the same visual career, without repeating 001000 or 002000. |
+| `013000` | **Before Z Was on Television: The Original Dragon Ball Anime** | The 1986 anime's adaptation choices, voices, musical identity, television pacing, and the response to a growing battle narrative. Keep facts about production and regional release verifiable and differentiated. |
+
+## The story continues: Saiyans, Frieza, Cell, and Buu
+
+| ID | Proposed essay | Central question |
+| --- | --- | --- |
+| `014000` | **Raditz: The Brother Who Came from Space** | How the arrival of Goku's brother changes the story's scale and its hero's identity; Piccolo and Goku must cooperate, and Gohan enters as more than a background child. |
+| `015000` | **The Saiyans Arrive: Waiting for Goku** | Nappa, Vegeta, desperate defenders and the cost of delaying the hero. Why the ensemble's struggle can be more gripping than the eventual rescue. |
+| `016000` | **Goku Is Not the Hero People Keep Asking Him to Be** | His appetite for hard fights, generosity and ethically difficult decisions: Frieza, Cell, and withdrawal. Competing readings of a benevolent hero who does not always behave like a responsible savior. |
+| `017000` | **Vegeta: Pride Is Harder to Defeat Than Goku** | Long-term character portrait from the cruel invader through Namek, family life, Majin Vegeta and a changed sense of duty. |
+| `018000` | **Piccolo and the Child He Never Expected to Protect** | Gohan's training, mentorship, sacrifice, Kami and the slow shift from antagonist to family; keep the original King Piccolo genealogy clear. |
+| `019000` | **Gohan: The Hero Who Doesn't Want the Job** | Childhood violence, latent potential, the Cell Games, school comedy and the distance between what fans want of him and what the character seems to want. |
+| `020000` | **Bulma, Krillin, and the People Who Cannot Keep Up** | Technical ingenuity, courage, fear, loyalty and the importance of non-superpowered characters as battles expand beyond their reach. |
+| `021000` | **Namek: The Greatest Game of Keep-Away** | Competing Dragon Ball searches, strategy, the Ginyu Force, an escalating threat and Toriyama's control over a sprawling chase. |
+| `022000` | **Frieza: A Tyrant Small Enough to Smile** | Why the imperial antagonist works in both design and dialogue, and how Namek changes from a treasure hunt into horror and resistance. |
+| `023000` | **The First Super Saiyan: When an Image Changed a Series** | The emotional and visual payoff of Goku's transformation; distinguish manga page structure, 1991 Japanese television treatment and later worldwide reception. |
+| `024000` | **Future Trunks: A Sword Through the Status Quo** | Time-travel stakes, lost futures, and a violent introduction that rewrites the reader's expectations of the world. |
+| `025000` | **Cell: A Monster Built from Other People's Strength** | The genre-shift from Android threat to hunt, absorption, psychological predation and public tournament; avoid easy claims about authorial intentions. |
+| `026000` | **Gohan Versus Cell: The Victory Goku Could Not Win** | Father-son misunderstanding, Android 16, sacrifice, rage and what the climax teaches about different relationships to fighting. |
+| `027000` | **The Buu Saga Refuses to Be One Kind of Story** | School comedy, tournament, horror, fusion, catastrophe, absurdity and the pleasures and difficulties of its wandering structure. |
+| `028000` | **Majin Vegeta: The Fight He Really Needed to Lose** | One decisive emotional episode in detail, distinct from the multi-season Vegeta portrait. |
+| `029000` | **Mr. Satan and Buu: The Joke That Saves the World** | The showman's comic impotence, friendship and compassion becoming more important than victory through strength. |
+
+## Drawing, adaptation and cultural history
+
+| ID | Proposed essay | Central question |
+| --- | --- | --- |
+| `030000` | **How Toriyama Draws a Punch** | Analyze specific manga sequences through silhouettes, panel rhythms, impact, negative space, point of view and comedy. Precise non-spoken chapter/panel citations; no reproduced scans. |
+| `031000` | **How to Draw a Transformation** | The visual language of Kaiō-ken, the Super Saiyan forms, body proportions, hair and fusion, from authored manga design to animation. |
+| `032000` | **Five Minutes Until Namek Explodes: The Weekly Anime and Time** | The problems of keeping the television anime behind the manga, added material, pacing and how *Dragon Ball Z Kai* changes the experience. |
+| `033000` | **Voices, Music, and the Several Dragon Ball Zs** | Japan, North America, Latin America and other documented reception histories; competing versions and meaningful score, cast, translation and edit decisions. |
+| `034000` | **Death, Dragon Balls, and the Price of a Second Chance** | The actual changing rules of wishes and resurrection, and whether a story can still generate grief when some reversals become imaginable. |
+| `035000` | **A Franchise Larger Than the Manga: Films, Games, and Global Fans** | *Bardock*, *Broly*, movie continuities, *Dragon Quest* character design, different broadcasts, game aesthetics and global reception, with separate factual/interpretive layers. This may become two essays if original evidence warrants the split. |
+
+## Planned conclusion, not yet a catalog entry
+
+**036000 — Dragon Ball: From the First Joke to the Last Fight.** A long, independently satisfying capstone, written when the individual essays are mature: Toriyama's early published work, *Dr. Slump*, the novel idea of a Monkey King-inspired road story, tournaments, the Red Ribbon Army, Piccolo, Raditz's rupture, Namek and Super Saiyan, the Androids and Cell, Buu's return to comic invention, the anime's various international lives, and Toriyama's wider artistic legacy. The capstone should synthesize with **new arguments**, not reiterate each essay's plot. This should close the track, not automatically generate a queue of sequel tasks.
+
+## Editorial and research reminders
+
+- **Priority next:** `004000` and `005000` as a related pair, potentially one substantial essay if their distinct arguments cannot be sustained. Then alternate between original-*Dragon Ball* close readings and visually grounded discussions of Toriyama's craft rather than marching mechanically through chapters.
+- **Crossings between media:** Distinguish the 1984–1995 original continuous manga, the 1986 *Dragon Ball* TV series, 1989–1996 *Dragon Ball Z*, *Kai*, dubbing cuts and individual film continuities. Do not import later sequel backstory as evidence of Toriyama's original intentions in 1984.
+- **Oral style:** Every essay must be enjoyable without images or game footage. Explain the physical action and panel layout sufficiently for an audio listener. Include original criticism, memorable scenes and well-supported creator history; do not deliver listicles of trivia or fights.
+- **Biographical rigor:** Attribute editor anecdotes to Torishima or Toriyama and identify differences in their later recollections. Do not invent private conversations, emotional reactions or editorial orders where records do not exist.
+- **Future additions:** Treat all IDs above `003000` as ideas only. Register a lecture only when its manuscript and sources have been written. Reference `README.md` for published routes.
