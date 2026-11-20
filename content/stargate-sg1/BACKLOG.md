@@ -1,15 +1,18 @@
 # Stargate SG-1: proposed lecture map
 
-**Planning status:** `001000`, `005000`, `008000`, and `018000` are complete, source-anchored manuscripts included in `track.json`; all other IDs below remain *proposals*, not manuscripts or catalog records. `001000`–`004000` form the planned essentials route, with only `001000` published so far; the rest are independently listenable fan essays. The final retrospective is a deliberate ending, not an obligation to cover every episode. IDs increase by 1,000 for manuscript stability; writing and listening order can differ. No duration targets or fixed lecture count are acceptance gates.
+**Planning status:** `001000`, `005000`, `006000`, `007000`, `008000`, `017000`, and `018000` are complete, source-anchored manuscripts in `track.json`; all other IDs below remain proposals, not manuscripts or catalog records. `001000`–`004000` form the planned essentials route, with only `001000` published so far; the remaining essays are independently listenable. The final retrospective is a deliberate ending, not a requirement to cover every episode. IDs increase by 1,000 for manuscript stability; writing and listening order can differ.
 
-## Published manuscripts (two batches)
+## Published manuscripts (three batches)
 
 - **`001000` — From a Film to a Universe: SG-1 Opens the Gate.** A complete, accessible film-to-pilot essay; indexed in the Essentials and Every Lecture collections.
 - **`005000` — Jack O'Neill Does Not Take the Universe Seriously.** A complete, spoiler-labeled fan essay about Anderson's performance, leadership, grief, humor, and command; featured at the beginning of the main fan route.
+- **`006000` — Daniel Jackson Keeps Asking the Wrong Question.** A character essay about the interpretive and ethical work of his curiosity, with *Scorched Earth*, Chaka, Sha’re, ascension and the Ori.
+- **`007000` — Samantha Carter Makes the Impossible Practical.** A character essay about science as action, power, family, selfhood, and the lasting cost of technical success, from *Solitudes* to *Unending*.
 - **`008000` — Teal'c's Freedom Is Not a Single Defection.** An extended story of Bra'tac, Teal'c's family, Jaffa resistance, physical dependence, and the move toward elected government on Dakara.
+- **`017000` — The Fifth Race: When the Galaxy Gets Older.** A close reading of the Ancient archive, Jack’s language loss, the eight-chevron gate, the Asgard, and a possibility of interspecies fellowship.
 - **`018000` — Window of Opportunity: The Joke That Ends in Grief.** Close analysis of editing, physical comedy, loop mechanics, credited production decisions, and the encounter with Malikai.
 
-These are real transcripts with claim-level metadata, source notes and measured spoken lengths. Remaining rows below are authoring briefs rather than promises of published material.
+These are complete transcripts with source notes, selected claim-level anchors and measured spoken lengths. The tables below preserve the original ID map; rows for published manuscripts are already complete, and the other entries remain briefs.
 
 ## A. Four accessible foundations
 
@@ -68,21 +71,19 @@ These are real transcripts with claim-level metadata, source notes and measured 
 
 ## Editorial sequencing rather than a production quota
 
-**First two authoring passes:** `001000`, `005000`, `008000`, and `018000` are complete and published. The fan route now combines character criticism with an episode close reading, while the Essentials route remains independently accessible with `001000`.
+**Completed:** The first three batches produced the film-to-series essay (`001000`), original-team character portraits (`005000`–`008000`), and focused episode readings (`017000`–`018000`). The fan route can now begin immediately with those essays, while the Essentials route remains a separately paced introduction.
 
-**Next authoring pass:** `002000`–`004000`, with character portraits (`006000`, `007000`) and further close readings (`017000`, `019000`) rotated in as essays are ready. Finish a meaningful Essentials route without padding an overview to meet a count.
+**Next areas:** Additional episodes such as *Heroes* (`019000`) and *Lost City* (`020000`); the adults who keep the program operating (`009000`); or the accessible essays on the team, the episode engine and galactic powers (`002000`–`004000`). Rotate subjects according to the strength of the next manuscript rather than following ID order.
 
 **Middle passes:** Rotate between characters, ethically difficult episodes, the villains, comedy and technical production. Do not spend an entire batch reciting four seasons of plot. The film-follow-up and long capstone belong late in the track, after more specific essays have had room to develop their own arguments.
 
 **Writing briefs requiring special attention:**
 
-- In `008000`, the emotional turning point is not only Teal'c leaving Apophis. Bra'tac, Rya'c and other Jaffa force the question of how liberation survives a single heroic defection. Follow the movement across multiple seasons; verify precise allegiances and dates.
-- In `018000`, begin with the comedy of the repeated base routine, but the lecture needs the scene in which grief becomes the point. Explain the performance and editing that make the turn plausible; this should never be a gag-compilation transcript.
 - In `019000`, the question of who controls the film footage connects the documentary form to the way military and medical labor becomes visible. An excellent episode permits an excellent lecture, but the essay should make its own argument, supported by episode viewing and production accounts.
 - In `024000`, research crew interviews and credits before pronouncing any production anecdote fact. Manufacturing a familiar-looking alien village from practical constraints is an interesting production question, not a license to invent a financial explanation.
 
 ## Planned navigation and metadata
 
-The current publication includes `track.json` with the four complete manuscripts, descriptive spoken word counts, `Literature and arts`, `fans` and `general` audiences, and specific tags. The `metadata/sources.json` and `metadata/NNNNNN.json` records contain source links and exact claim anchors. `navigation.json` routes Jack and Teal'c first for fans, the film-to-series essay for the accessible introduction, and all four in the complete inventory; specialized character and great-episode routes are now populated. Add future lectures to these files only as the real manuscripts are completed. The fan route should end with `027000` only after that capstone exists.
+The current publication indexes seven complete manuscripts in `track.json`, with descriptive spoken word counts, `Literature and arts`, `fans` and `general` audiences, and specific tags. The `metadata/sources.json` and `metadata/NNNNNN.json` records contain source links and exact claim anchors. `navigation.json` routes the original four characters and two episode close readings first for fans, and the film-to-series essay for the accessible introduction; the complete route includes all seven. Add future lectures to these files only as the real manuscripts are completed. The fan route should end with `027000` only after that capstone exists.
 
 **Scope limit:** The first series should feel complete once the major creative arguments and ten-season history have been told. Further franchise or episode specials may be good later, but they are optional ideas, not hidden work required to finish the plan.

@@ -1,6 +1,6 @@
 # Stargate SG-1: Through the Gate
 
-**Status: active track with four published, audio-ready manuscripts.** `001000`, `005000`, `008000`, and `018000` are complete, indexed in [track.json](track.json), and available in the listening routes in [navigation.json](navigation.json). See [BACKLOG.md](BACKLOG.md) for the remaining editorial plan. Future titles are *not* indexed until complete manuscripts exist.
+**Status: active track with seven published, audio-ready manuscripts.** `001000`, `005000`, `006000`, `007000`, `008000`, `017000`, and `018000` are complete, indexed in [track.json](track.json), and available in the listening routes in [navigation.json](navigation.json). See [BACKLOG.md](BACKLOG.md) for the remaining editorial plan. Future titles are *not* indexed until complete manuscripts exist.
 
 ## The promise
 
@@ -14,11 +14,11 @@ The 1997–2007 television series is the center. The 1994 film supplies its orig
 
 The current complete manuscript inventory lives in `track.json`; `navigation.json` selects overlapping routes without duplicating manuscripts.
 
-- **Fan Essays and Deep Dives (default):** Character portraits, memorable episodes, enemies, production, choices, and humor; currently pairs the Jack O’Neill essay (`005000`) with Teal’c’s liberation story (`008000`) and the *Window of Opportunity* close reading (`018000`), without demanding four introductions first. The eventual capstone will be last.
+- **Fan Essays and Deep Dives (default):** Character portraits, memorable episodes, enemies, production, choices, and humor; currently offers all four original-team portraits (`005000`–`008000`) and close readings of *The Fifth Race* (`017000`) and *Window of Opportunity* (`018000`), without demanding four introductions first. The eventual capstone will be last.
 - **The Essentials:** Begins with the completed film-to-show essay (`001000`); three further orientation essays on team chemistry, the episode engine and the galaxy's power structure will join it as they are written.
-- **Every Lecture:** All completed manuscripts in ID order, currently `001000`, `005000`, `008000`, and `018000`; the retrospective will be last after it exists.
-- **Characters and Command:** Jack and Teal'c are complete (`005000`, `008000`); Daniel, Sam, supporting personnel, difficult allies, and institutional accountability remain in development.
-- **Great Episodes and How They Work:** The complete *Window of Opportunity* close reading (`018000`) begins this route; *The Fifth Race*, *Heroes*, and *Lost City* are planned.
+- **Every Lecture:** All completed manuscripts in ID order, currently `001000`, `005000`, `006000`, `007000`, `008000`, `017000`, and `018000`; the retrospective will be last after it exists.
+- **Characters and Command:** All four original-team portraits are complete (`005000`–`008000`); supporting personnel, difficult allies, and institutional accountability remain in development.
+- **Great Episodes and How They Work:** *The Fifth Race* (`017000`) and *Window of Opportunity* (`018000`) are complete; *Heroes* and *Lost City* remain planned.
 
 The default essays can reveal major events, including character deaths and the endings of multi-season storylines; each manuscript should carry a specific **non-spoken spoiler notice** before its narration. The four introductory essays should label how much later-series history they disclose. Each essay must supply enough context for its own subject without replaying the entire premise.
 
@@ -47,4 +47,4 @@ Completed lectures use the repository's spoken markers, `metadata/NNNNNN.json` c
 
 ## Current manuscripts and next authoring step
 
-The first two batches published `001000` (film-to-series), `005000` (Jack), `008000` (Teal'c and Jaffa self-government), and `018000` (*Window of Opportunity*). The last two have verified story and production sources, exact claim anchors, and their own substantial listening arguments, not plot recaps. The remaining foundation essays (`002000`–`004000`) and portraits of Daniel (`006000`) and Sam (`007000`) are natural next choices; additional episode close readings (`017000` and `019000`) can be rotated in. Expand navigation only with completed essays. Write the long historical capstone after the narrower arguments have matured so it can synthesize rather than repeat them.
+Three batches have published seven full manuscripts: the film-to-series opening (`001000`), four original-team character portraits (`005000`–`008000`), and close readings of *The Fifth Race* (`017000`) and *Window of Opportunity* (`018000`). The most natural later work is *Heroes* (`019000`), *Lost City* (`020000`), the supporting cast (`009000`), and the still-planned accessible foundation essays (`002000`–`004000`). Expand navigation only with completed essays. Write the long historical capstone after the narrower arguments have matured so it can synthesize rather than repeat them.
