@@ -1,6 +1,6 @@
 # Stargate SG-1: Through the Gate
 
-**Status: active track with two published, audio-ready manuscripts.** `001000` and `005000` are complete, indexed in [track.json](track.json), and available in the listening routes in [navigation.json](navigation.json). See [BACKLOG.md](BACKLOG.md) for the remaining editorial plan. Future titles are *not* indexed until complete manuscripts exist.
+**Status: active track with four published, audio-ready manuscripts.** `001000`, `005000`, `008000`, and `018000` are complete, indexed in [track.json](track.json), and available in the listening routes in [navigation.json](navigation.json). See [BACKLOG.md](BACKLOG.md) for the remaining editorial plan. Future titles are *not* indexed until complete manuscripts exist.
 
 ## The promise
 
@@ -14,11 +14,11 @@ The 1997–2007 television series is the center. The 1994 film supplies its orig
 
 The current complete manuscript inventory lives in `track.json`; `navigation.json` selects overlapping routes without duplicating manuscripts.
 
-- **Fan Essays and Deep Dives (default):** Character portraits, memorable episodes, enemies, production, choices, and humor; currently begins with the Jack O’Neill essay (`005000`) rather than demanding four introductions first. The eventual capstone will be last.
+- **Fan Essays and Deep Dives (default):** Character portraits, memorable episodes, enemies, production, choices, and humor; currently pairs the Jack O’Neill essay (`005000`) with Teal’c’s liberation story (`008000`) and the *Window of Opportunity* close reading (`018000`), without demanding four introductions first. The eventual capstone will be last.
 - **The Essentials:** Begins with the completed film-to-show essay (`001000`); three further orientation essays on team chemistry, the episode engine and the galaxy's power structure will join it as they are written.
-- **Every Lecture:** All completed manuscripts in ID order, currently `001000` and `005000`; the retrospective will be last after it exists.
-- **Character and Command (planned):** Jack is complete; Daniel, Sam, Teal'c, supporting personnel, difficult allies, and institutional accountability remain in development. No empty route is published.
-- **Great Episodes and How They Work (planned):** Close readings of *The Fifth Race*, *Window of Opportunity*, *Heroes*, *Lost City*, and the craft of a Stargate hour. No empty route is published.
+- **Every Lecture:** All completed manuscripts in ID order, currently `001000`, `005000`, `008000`, and `018000`; the retrospective will be last after it exists.
+- **Characters and Command:** Jack and Teal'c are complete (`005000`, `008000`); Daniel, Sam, supporting personnel, difficult allies, and institutional accountability remain in development.
+- **Great Episodes and How They Work:** The complete *Window of Opportunity* close reading (`018000`) begins this route; *The Fifth Race*, *Heroes*, and *Lost City* are planned.
 
 The default essays can reveal major events, including character deaths and the endings of multi-season storylines; each manuscript should carry a specific **non-spoken spoiler notice** before its narration. The four introductory essays should label how much later-series history they disclose. Each essay must supply enough context for its own subject without replaying the entire premise.
 
@@ -45,6 +45,6 @@ Starting references (research leads, not a substitute for claim-level verificati
 
 Completed lectures use the repository's spoken markers, `metadata/NNNNNN.json` claim anchors, `metadata/sources.json`, measured words and durations, and carefully authored subject tags. Use original air dates as **work chronology** and do not confuse the fictional setting with filming in British Columbia. Proper nouns and pronunciation should be checked for listening clarity. Do not include television footage, scores, screenshots, publicity photos, or other binary assets in content overlays.
 
-## Next authoring step
+## Current manuscripts and next authoring step
 
-The first release contains both complete manuscripts: `001000`, the film-to-series transition, and `005000`, Jack’s leadership through humor. Next priorities are the Teal’c portrait (`008000`) and *Window of Opportunity* (`018000`), balanced with the three remaining foundations (`002000`–`004000`). Expand the navigation only with completed essays. Produce the long historical capstone after the individual arguments have matured, so it can synthesize rather than repeat them.
+The first two batches published `001000` (film-to-series), `005000` (Jack), `008000` (Teal'c and Jaffa self-government), and `018000` (*Window of Opportunity*). The last two have verified story and production sources, exact claim anchors, and their own substantial listening arguments, not plot recaps. The remaining foundation essays (`002000`–`004000`) and portraits of Daniel (`006000`) and Sam (`007000`) are natural next choices; additional episode close readings (`017000` and `019000`) can be rotated in. Expand navigation only with completed essays. Write the long historical capstone after the narrower arguments have matured so it can synthesize rather than repeat them.
