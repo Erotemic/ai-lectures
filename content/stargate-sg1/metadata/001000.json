@@ -1,0 +1,176 @@
+{
+  "schema_version": 1,
+  "lecture_id": "001000",
+  "transcript": "001000-from-a-film-to-a-universe.md",
+  "description": "A scene-driven account of how the 1994 Stargate film became a weekly science-fiction adventure built around a team, a permanent base and a galaxy of addresses.",
+  "related_resources": [
+    {
+      "source_id": "sg-film-afi",
+      "reason": "Original film premise, cast, plot frame, and director context."
+    },
+    {
+      "source_id": "sg-series-archive",
+      "reason": "Original broadcast run, original cast, producers and creators."
+    },
+    {
+      "source_id": "sg-gw-faq",
+      "reason": "Film/show casting and naming differences, including O’Neil/O’Neill."
+    },
+    {
+      "source_id": "sg-gw-pilot",
+      "reason": "1997 pilot plot, premiere, writer/director credits, casting and first mission."
+    },
+    {
+      "source_id": "sg-gw-canon",
+      "reason": "Deliberate series continuity changes from the film: spellings, places and cosmology."
+    },
+    {
+      "source_id": "sg-gw-pilot-script",
+      "reason": "Review of 1996 script draft, production origins, and changes before broadcast."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "001000-c01",
+      "anchor": "The original film begins with an image designed to defeat an ordinary sense of scale: an immense ring unearthed in Egypt.",
+      "kind": "film_story",
+      "source_ids": [
+        "sg-film-afi"
+      ],
+      "source_locator": "on-screen scene/production record for m afi",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "001000-c02",
+      "anchor": "When the gate opens, a military expedition passes through it and arrives on Abydos, a desert world ruled by a figure calling himself Ra.",
+      "kind": "film_story",
+      "source_ids": [
+        "sg-film-afi"
+      ],
+      "source_locator": "on-screen scene/production record for m afi",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "001000-c03",
+      "anchor": "The film is directed by Roland Emmerich, from a story by Emmerich and Dean Devlin.",
+      "kind": "production_history",
+      "source_ids": [
+        "sg-film-afi",
+        "sg-series-archive"
+      ],
+      "source_locator": "on-screen scene/production record for m afi",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "001000-c04",
+      "anchor": "Jack O'Neil, played by Kurt Russell",
+      "kind": "casting",
+      "source_ids": [
+        "sg-film-afi",
+        "sg-gw-faq"
+      ],
+      "source_locator": "on-screen scene/production record for m afi",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "001000-c05",
+      "anchor": "the television pilot written by Brad Wright and Jonathan Glassner and first broadcast in July 1997",
+      "kind": "broadcast_history",
+      "source_ids": [
+        "sg-gw-pilot",
+        "sg-series-archive"
+      ],
+      "source_locator": "on-screen scene/production record for pilot",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "001000-c06",
+      "anchor": "On Abydos, Daniel has found evidence of many other gates.",
+      "kind": "pilot_story",
+      "source_ids": [
+        "sg-gw-pilot"
+      ],
+      "source_locator": "on-screen scene/production record for pilot",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "001000-c07",
+      "anchor": "Michael Shanks now plays Daniel Jackson; Richard Dean Anderson plays Jack O'Neill.",
+      "kind": "casting",
+      "source_ids": [
+        "sg-series-archive",
+        "sg-gw-faq"
+      ],
+      "source_locator": "on-screen scene/production record for ies archive",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "001000-c08",
+      "anchor": "His television surname even gains a second L.",
+      "kind": "name_spelling",
+      "source_ids": [
+        "sg-gw-faq",
+        "sg-gw-canon"
+      ],
+      "source_locator": "on-screen scene/production record for faq",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "001000-c09",
+      "anchor": "Samantha Carter, played by Amanda Tapping, is an Air Force officer and a scientist.",
+      "kind": "casting",
+      "source_ids": [
+        "sg-series-archive",
+        "sg-gw-pilot"
+      ],
+      "source_locator": "on-screen scene/production record for ies archive",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "001000-c10",
+      "anchor": "Then there is Teal'c, played by Christopher Judge",
+      "kind": "casting",
+      "source_ids": [
+        "sg-series-archive",
+        "sg-gw-pilot"
+      ],
+      "source_locator": "on-screen scene/production record for ies archive",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "001000-c11",
+      "anchor": "the pilot plants the seeds of a much better ensemble.",
+      "kind": "fiction_interpretation",
+      "source_ids": [
+        "sg-gw-pilot"
+      ],
+      "source_locator": "on-screen scene/production record for pilot",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "001000-c12",
+      "anchor": "The base at Cheyenne Mountain is not just a convenient recurring set.",
+      "kind": "fiction_interpretation",
+      "source_ids": [
+        "sg-series-archive",
+        "sg-gw-canon"
+      ],
+      "source_locator": "on-screen scene/production record for ies archive",
+      "audit_status": "source_checked"
+    }
+  ],
+  "tag_paths": [
+    [
+      "Arts",
+      "Television",
+      "Science-fiction television",
+      "Stargate SG-1"
+    ],
+    [
+      "Arts",
+      "Film",
+      "Science-fiction film",
+      "Stargate (1994)"
+    ]
+  ]
+}
