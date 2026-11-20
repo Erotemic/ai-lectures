@@ -1,8 +1,8 @@
 # Stargate SG-1: proposed lecture map
 
-**Planning status:** Sixteen complete manuscripts are indexed in `track.json`: `001000`, `005000`–`009000`, `011000`–`015000`, `017000`–`020000`, and `022000`. All other IDs below remain proposals, not manuscripts or catalog records. `001000`–`004000` form the planned essentials route, with only `001000` published so far; the remaining essays are independently listenable. The final retrospective is a deliberate ending, not a requirement to cover every episode. IDs increase by 1,000 for manuscript stability; writing and listening order can differ.
+**Planning status:** Nineteen complete manuscripts are indexed in `track.json`: `001000`, `005000`–`020000`, `022000`, and `023000`. All other IDs below remain proposals, not manuscripts or catalog records. `001000`–`004000` form the planned essentials route, with only `001000` published so far; the remaining essays are independently listenable. The final retrospective is a deliberate ending, not a requirement to cover every episode. IDs increase by 1,000 for manuscript stability; writing and listening order can differ.
 
-## Published manuscripts (six batches)
+## Published manuscripts (seven batches)
 
 - **`001000` — From a Film to a Universe: SG-1 Opens the Gate.** A complete, accessible film-to-pilot essay; indexed in the Essentials and Every Lecture collections.
 - **`005000` — Jack O'Neill Does Not Take the Universe Seriously.** A complete, spoiler-labeled fan essay about Anderson's performance, leadership, grief, humor, and command; featured at the beginning of the main fan route.
@@ -10,17 +10,19 @@
 - **`007000` — Samantha Carter Makes the Impossible Practical.** A character essay about science as action, power, family, selfhood, and the lasting cost of technical success, from *Solitudes* to *Unending*.
 - **`008000` — Teal'c's Freedom Is Not a Single Defection.** An extended story of Bra'tac, Teal'c's family, Jaffa resistance, physical dependence, and the move toward elected government on Dakara.
 - **`009000` — Hammond, Fraiser, and the People Who Keep the Gate Open.** A study of command, medical care, Cassandra, recurring technical staff and institutional ethics.
+- **`010000` — New Faces at the Same Table: Jonas, Mitchell, and Vala.** Complete essay on changing team chemistry, command and belonging.
 - **`011000` — Apophis, Ba'al, and the Art of Playing God.** Examines Goa’uld rulership through theatrical authority, host autonomy, the System Lords’ power politics and Ba’al’s adaptation.
 - **`012000` — The Tok'ra, the Jaffa, and the Cost of an Ally.** Blending and consent, Selmak/Jacob, Shau’nac and Tanith, Pangar, tretonin and trust between allies.
 - **`013000` — The Replicators: An Enemy That Cannot Stop Eating.** A substantive essay following mechanical replication through Reese, Fifth, Carter’s double and the Dakara victory.
 - **`014000` — The Nox, The Other Side, and the Cost of Helping.** Four ethical adventures about pacifism, Orban’s children, Euronda and competing claims to survival.
 - **`015000` — Who Is Allowed to Know About the Stargate?** Secrecy, oversight, NID theft, international diplomacy and civilian accountability.
+- **`016000` — The Ori: What Happens When the Gods Are Not Frauds?** Complete essay on coercive worship, actual supernatural power, and the Ark’s ethical cost.
 - **`017000` — The Fifth Race: When the Galaxy Gets Older.** A close reading of the Ancient archive, Jack’s language loss, the eight-chevron gate, the Asgard, and a possibility of interspecies fellowship.
 - **`018000` — Window of Opportunity: The Joke That Ends in Grief.** Close analysis of editing, physical comedy, loop mechanics, credited production decisions, and the encounter with Malikai.
 - **`019000` — Heroes: Who Gets to Tell the Story of a Death?** A close reading of the documentary framing, Janet's death and the responsibility of recording.
 - **`020000` — Lost City: When a Weekly Adventure Became a Blockbuster.** The Ancient quest, planetary defense, feature-film origins and human costs of an enormous finale.
-
 - **`022000` — When Earth Stops Being the Underdog.** Tracks Earth from the iris through Prometheus, Ancient defenses, the fleet, and the Asgard legacy, focusing on what power changes.
+- **`023000` — Wormhole X-Treme!, 200, and the Show That Could Laugh at Itself.** Complete close reading of SG-1’s anniversary comedies and self-parody.
 
 These are complete transcripts with source notes, selected claim-level anchors and measured spoken lengths. The tables below preserve the original ID map; rows for published manuscripts are already complete, and the other entries remain briefs.
 
@@ -81,9 +83,9 @@ These are complete transcripts with source notes, selected claim-level anchors a
 
 ## Editorial sequencing rather than a production quota
 
-**Completed:** Six batches have produced the film-to-series opening (`001000`), five character and SGC personnel essays (`005000`–`009000`), five essays on Goa’uld power, Tok’ra diplomacy, Replicators, intervention and secrecy (`011000`–`015000`), four episode close readings (`017000`–`020000`), and an essay on Earth’s expanding military power (`022000`). The fan route begins with these self-contained essays; the Essentials route remains a separate introduction.
+**Completed:** Seven batches have produced the film-to-series opening (`001000`), six character and SGC personnel essays (`005000`–`010000`), six essays on Goa’uld power, Tok’ra diplomacy, Replicators, intervention, secrecy and the Ori (`011000`–`016000`), four episode close readings (`017000`–`020000`), an essay on Earth’s expanding military power (`022000`) and self-parody (`023000`). The fan route begins with these self-contained essays; the Essentials route remains a separate introduction.
 
-**Next areas:** The remaining accessible foundations (`002000`–`004000`), the changing ensemble (`010000`), the Ori (`016000`), the Stargate as a plot engine (`021000`), the show’s comedy (`023000`), or its production history (`024000`). Rotate subjects according to the strongest manuscript, not ID order.
+**Next areas:** The remaining accessible foundations (`002000`–`004000`), the Stargate as a plot engine (`021000`), the show’s production history (`024000`), ascension (`025000`), and the closing films (`026000`). Rotate subjects according to the strongest manuscript, not ID order.
 
 **Middle passes:** Rotate between characters, ethically difficult episodes, the villains, comedy and technical production. Do not spend an entire batch reciting four seasons of plot. The film-follow-up and long capstone belong late in the track, after more specific essays have had room to develop their own arguments.
 
@@ -94,6 +96,6 @@ These are complete transcripts with source notes, selected claim-level anchors a
 
 ## Planned navigation and metadata
 
-The current publication indexes sixteen complete manuscripts in `track.json`, with descriptive spoken word counts, `Literature and arts`, `fans` and `general` audiences, and specific tags. The `metadata/sources.json` and `metadata/NNNNNN.json` records contain source links and exact claim anchors. `navigation.json` routes the original team, SGC supporting personnel, five political/ethical essays and four episode close readings for fans, and the film-to-series essay for the accessible introduction; the complete route includes all sixteen. Add future lectures to these files only as the real manuscripts are completed. The fan route should end with `027000` only after that capstone exists.
+The current publication indexes nineteen complete manuscripts in `track.json`, with descriptive spoken word counts, `Literature and arts`, `fans` and `general` audiences, and specific tags. The `metadata/sources.json` and `metadata/NNNNNN.json` records contain source links and exact claim anchors. `navigation.json` routes the original team, SGC supporting personnel, six political/ethical essays, four episode close readings and the comedy essay for fans, and the film-to-series essay for the accessible introduction; the complete route includes all nineteen. Add future lectures to these files only as the real manuscripts are completed. The fan route should end with `027000` only after that capstone exists.
 
 **Scope limit:** The first series should feel complete once the major creative arguments and ten-season history have been told. Further franchise or episode specials may be good later, but they are optional ideas, not hidden work required to finish the plan.
