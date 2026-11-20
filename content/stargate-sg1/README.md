@@ -1,6 +1,6 @@
 # Stargate SG-1: Through the Gate
 
-**Status: active track with twenty-five published, audio-ready manuscripts.** `001000`–`025000` are complete, indexed in [track.json](track.json), and available in the listening routes in [navigation.json](navigation.json). See [BACKLOG.md](BACKLOG.md) for the remaining editorial plan. Future titles are *not* indexed until complete manuscripts exist.
+**Status: complete original track; twenty-seven published, audio-ready manuscripts.** `001000`–`027000` are complete and indexed in [track.json](track.json) and the listening routes in [navigation.json](navigation.json). [BACKLOG.md](BACKLOG.md) records the completed scope. No further lectures are required to finish the original plan.
 
 ## The promise
 
@@ -8,15 +8,15 @@ An audio-essay series for people who enjoy *Stargate SG-1* and want to spend mor
 
 This is **not** a synopsis of 214 television episodes. Plot summaries supply the minimum necessary setup for an argument about a character, an episode, a creative choice, a production constraint, or the series' development. A lecture should have something to say, tell an enjoyable story, consider alternatives when they improve the reading, and finish its thought.
 
-The 1997–2007 television series is the center. The 1994 film supplies its origins. *The Ark of Truth* and *Continuum* (both 2008) supply necessary closure or counterpoint. *Atlantis*, *Universe*, and other franchise continuations enter only when they illuminate SG-1; none requires a parallel comprehensive franchise survey. The planned extended capstone ends this finite series.
+The 1997–2007 television series is the center. The 1994 film supplies its origins. *The Ark of Truth* and *Continuum* (both 2008) supply necessary closure or counterpoint. *Atlantis*, *Universe*, and other franchise continuations enter only when they illuminate SG-1; none requires a parallel comprehensive franchise survey. The extended capstone (`027000`) closes this finite series.
 
-## Proposed listening routes
+## Listening routes
 
 The current complete manuscript inventory lives in `track.json`; `navigation.json` selects overlapping routes without duplicating manuscripts.
 
-- **Fan Essays and Deep Dives (default):** Character portraits, memorable episodes, enemies, production, choices, and humor; now offers the original-team portraits, Hammond and Fraiser (`009000`), the changing ensemble (`010000`), and six essays on Goa’uld power, Tok’ra alliances, Replicators, intervention, secrecy and the Ori (`011000`–`016000`), close readings of *The Fifth Race*, *Window of Opportunity*, *Heroes*, and *Lost City* (`017000`–`020000`), Earth’s rise from the gate room to interstellar flight (`022000`), self-parody in *Wormhole X-Treme!* and *200* (`023000`), the Stargate’s story-generating rules (`021000`), the Vancouver production (`024000`) and ascension (`025000`), without demanding four introductions first. The eventual capstone will be last.
+- **Fan Essays and Deep Dives (default):** Character portraits, memorable episodes, enemies, production, choices, and humor; now offers the original-team portraits, Hammond and Fraiser (`009000`), the changing ensemble (`010000`), and six essays on Goa’uld power, Tok’ra alliances, Replicators, intervention, secrecy and the Ori (`011000`–`016000`), close readings of *The Fifth Race*, *Window of Opportunity*, *Heroes*, and *Lost City* (`017000`–`020000`), Earth’s rise from the gate room to interstellar flight (`022000`), self-parody in *Wormhole X-Treme!* and *200* (`023000`), the Stargate’s story-generating rules (`021000`), the Vancouver production (`024000`) and ascension (`025000`), without demanding four introductions first. The route ends with the film essay (`026000`) and the long historical capstone (`027000`).
 - **The Essentials:** Four complete, accessible essays (`001000`–`004000`) introduce the film-to-series transition, the original-team dynamic, the weekly episode engine, and the galaxy’s competing powers.
-- **Every Lecture:** All completed manuscripts in ID order, currently `001000`–`025000`; the retrospective will be last after it exists.
+- **Every Lecture:** All completed manuscripts in ID order, `001000`–`027000`, ending with the retrospective.
 - **Empires, Allies, and Choices:** Seven completed essays (`011000`–`016000` and `025000`) cover tyranny, alliances, Replicators, intervention, secrecy, the Ori, and the Ancients’ noninterference doctrine.
 - **Characters and Command:** All four original-team portraits are complete (`005000`–`008000`), as are Hammond and Fraiser (`009000`) and Jonas, Mitchell and Vala (`010000`).
 - **Technology and Power:** Replicators (`013000`), the politics of secrecy (`015000`), the Stargate as a narrative device (`021000`), and Earth’s changing military position (`022000`).
@@ -47,6 +47,8 @@ Starting references (research leads, not a substitute for claim-level verificati
 
 Completed lectures use the repository's spoken markers, `metadata/NNNNNN.json` claim anchors, `metadata/sources.json`, measured words and durations, and carefully authored subject tags. Use original air dates as **work chronology** and do not confuse the fictional setting with filming in British Columbia. Proper nouns and pronunciation should be checked for listening clarity. Do not include television footage, scores, screenshots, publicity photos, or other binary assets in content overlays.
 
-## Current manuscripts and next authoring step
+## Completed manuscript scope
 
-Nine batches have published twenty-five full manuscripts: four accessible foundations (`001000`–`004000`), the original team, SGC supporting personnel and newcomers (`005000`–`010000`), six thematic essays on the Goa’uld, Tok’ra, Replicators, intervention, secrecy and the Ori (`011000`–`016000`), four close readings of major episodes (`017000`–`020000`), gate mechanics (`021000`), Earth’s developing fleet and inherited technology (`022000`), self-parody (`023000`), Vancouver production (`024000`), and ascension (`025000`). The 2008-film bridge (`026000`) remains; the concluding retrospective (`027000`) should synthesize the work rather than summarize all 214 episodes. Expand navigation only with completed essays. Write the long historical capstone after the narrower arguments have matured so it can synthesize rather than repeat them.
+Ten content batches produced twenty-seven original audio essays: four accessible foundations (`001000`–`004000`); six character and command portraits (`005000`–`010000`); six essays on Goa’uld power, alliances, intervention, secrecy, Replicators and the Ori (`011000`–`016000`); four close readings of significant episodes (`017000`–`020000`); five essays on the gate as a storytelling device, Earth’s power, self-parody, production, and ascension (`021000`–`025000`); a close examination of the 2008 films (`026000`); and a deliberately long historical retrospective (`027000`).
+
+The original plan is closed. Further specials or a separate *Stargate Atlantis* track may be interesting, but they are not outstanding tasks for *Through the Gate*. The default listening route starts with Jack O’Neill rather than a compulsory four-lecture introduction, and ends with the retrospective. The Essentials route remains available as a spoiler-limited introduction.
