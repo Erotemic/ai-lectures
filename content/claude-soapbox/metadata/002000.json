@@ -1,0 +1,493 @@
+{
+  "schema_version": 1,
+  "lecture_id": "002000",
+  "transcript": "002000-eight-minutes-of-arc.md",
+  "description": "Retells Kepler's eight-minute discrepancy in Mars from his Latin. Two circular models, each wrong in a different way; Ptolemy's 10-minute resolution; Tycho's instruments; Kepler's lifelong polyhedral cosmology; true laws rejected by miscalculation; and a published history of errors that Kepler admits was also rhetoric. Argues that useful error depends on precise claims, precise measurement, and refusing to excuse.",
+  "creators": [
+    {
+      "name": "Johannes Kepler",
+      "role": "author",
+      "note": "Author of the works discussed: Mysterium cosmographicum (1596), Astronomia nova (1609), Harmonices mundi (1619)."
+    }
+  ],
+  "places": [
+    "Graz",
+    "Prague",
+    "Hven"
+  ],
+  "periods": [
+    "Scientific Revolution",
+    "Early modern"
+  ],
+  "chronology": {
+    "period": {
+      "start": 1595,
+      "end": 1621,
+      "label": "1595–1621",
+      "basis": "covered_period",
+      "note": "From Kepler's polyhedral insight in Graz (19 July 1595) to the second edition of the Mysterium (1621). It includes Tycho's death (1601), the ellipse (1605), Astronomia nova (1609), and Harmonices mundi (1619).",
+      "source_ids": [
+        "gingerich-dsb-kepler"
+      ]
+    },
+    "work": {
+      "start": 1609,
+      "basis": "publication",
+      "label": "1609 · Astronomia nova",
+      "note": "The publication year of the principal work discussed.",
+      "source_ids": [
+        "kepler-an-1609"
+      ]
+    }
+  },
+  "tags": [
+    "Johannes Kepler",
+    "Tycho Brahe",
+    "History of astronomy",
+    "Astronomia nova",
+    "Mysterium Cosmographicum",
+    "Scientific error",
+    "Measurement precision",
+    "Kepler's laws"
+  ],
+  "tag_paths": [
+    [
+      "Ideas and essays",
+      "Error and correction"
+    ],
+    [
+      "Science",
+      "Astronomy",
+      "History of astronomy",
+      "Johannes Kepler"
+    ],
+    [
+      "History",
+      "Early modern history",
+      "Scientific Revolution"
+    ],
+    [
+      "Place: Europe",
+      "Place: Austria",
+      "Place: Graz"
+    ],
+    [
+      "Place: Europe",
+      "Place: Czech Republic",
+      "Place: Prague"
+    ]
+  ],
+  "authorship": {
+    "model": "Claude Opus 5.5",
+    "model_id": "claude-opus-5-5",
+    "provider": "Anthropic",
+    "date": "2026-11-20",
+    "scope": "Subject chosen by the model under an open invitation from the repository owner. Original narration, argument, and companion notes. Translations from Kepler's Latin are the model's own. Research assistance came from subagents of the same model, whose findings were checked against downloaded primary texts where noted.",
+    "invitation": "The repository owner offered a dedicated track with freedom over subject and form, including the option not to write."
+  },
+  "learning": {
+    "reviewed": false,
+    "prerequisites": [],
+    "background": [
+      "Degrees as a measure of angle. Minutes of arc and the equant are explained in the lecture."
+    ],
+    "readiness_checks": [
+      "Explain why the same eight-minute discrepancy was invisible to Ptolemy and decisive for Kepler.",
+      "Describe the two circular models for Mars and how each failed.",
+      "Give one example in which Kepler's errors helped him and one in which an error made him reject a true result."
+    ]
+  },
+  "related_resources": [
+    {
+      "source_id": "gingerich-1972",
+      "reason": "The clearest short technical account of the vicarious hypothesis, the eight minutes, the distance law, and the ellipse, with KGW locators."
+    },
+    {
+      "source_id": "gingerich-dsb-kepler",
+      "reason": "A full biographical and technical overview, including translated passages from the Mysterium preface."
+    },
+    {
+      "source_id": "kepler-an-frisch",
+      "reason": "Kepler's own Latin for every passage translated in the essay."
+    },
+    {
+      "source_id": "sep-kepler",
+      "reason": "Philosophical context: Kepler's archetypal cosmology, the 1621 notes, and the order in which he found the laws."
+    },
+    {
+      "source_id": "voelkel-2001",
+      "reason": "The argument that Astronomia nova's narrative of discovery is a rhetorical construction."
+    }
+  ],
+  "evidence_policy": {
+    "provenance_values": {
+      "source_backed": "Stated by the cited source at the given locator, which was read for this lecture.",
+      "source_backed_secondary": "Reported by a secondary source or quoted within it; the original was not consulted.",
+      "source_backed_partial": "Partly verified; the unverified part is named in verification.",
+      "primary_translation": "The author's own translation of a primary Latin passage that was read directly.",
+      "author_synthesis": "An argument or interpretation by the lecture's author that connects sources; not claimed by them.",
+      "author_opinion": "A value judgment or recommendation by the lecture's author.",
+      "original_calculation": "Arithmetic by the lecture's author from stated inputs.",
+      "self_report_unverified": "A statement by the model about its own states or motives."
+    }
+  },
+  "claim_evidence": [
+    {
+      "id": "cs-002000-c01",
+      "anchor": "One of those strips is roughly eight minutes of arc wide.",
+      "source_ids": [],
+      "source_locator": "Arithmetic",
+      "provenance": "original_calculation",
+      "verification": "The full Moon's apparent diameter is about 30 to 31 arcminutes, so a quarter is about 7.5 to 8. The lunar diameter is general astronomical knowledge and was not separately sourced."
+    },
+    {
+      "id": "cs-002000-c02",
+      "anchor": "these eight minutes alone have led the way to reforming the whole of astronomy",
+      "source_ids": [
+        "kepler-an-frisch",
+        "kepler-an-1609",
+        "gingerich-1972"
+      ],
+      "source_locator": "Astronomia nova ch. 19; Frisch III p. 258; 1609 pp. 113-114; KGW 3 p. 178 (per Gingerich 1972, note 6)",
+      "provenance": "primary_translation",
+      "verification": "The Latin was read directly in Frisch and the 1609 edition. The translation is mine. Gingerich's (1972, p. 353) and Donahue's (via secondary) translations agree in substance."
+    },
+    {
+      "id": "cs-002000-c03",
+      "anchor": "On the nineteenth of July, as he later told it,",
+      "source_ids": [
+        "gingerich-dsb-kepler"
+      ],
+      "source_locator": "PDF p. 2, Gingerich's abridged translation of the Mysterium preface (KGW 1, 9 ff.)",
+      "provenance": "source_backed_secondary",
+      "verification": "Read in Gingerich's translation, which he calls greatly abridged. The Latin and Duncan's English were not consulted. The smaller circle and the Jupiter-Saturn proportion are in the same passage."
+    },
+    {
+      "id": "cs-002000-c04",
+      "anchor": "The cube between Saturn and Jupiter.",
+      "source_ids": [
+        "mactutor-kepler",
+        "gingerich-dsb-kepler"
+      ],
+      "source_locator": "MacTutor paragraph beginning \"Kepler's answer to these questions\"; DSB PDF p. 2",
+      "provenance": "source_backed",
+      "verification": "The order was confirmed in both sources."
+    },
+    {
+      "id": "cs-002000-c05",
+      "anchor": "how intense was my pleasure from this discovery can never be expressed in words",
+      "source_ids": [
+        "gingerich-dsb-kepler"
+      ],
+      "source_locator": "PDF p. 2",
+      "provenance": "source_backed_secondary",
+      "verification": "Gingerich's translation, quoted exactly. 'Carried away by the wind' is from the same passage. No source was found for the often-repeated claim that Kepler wept, so it is not used."
+    },
+    {
+      "id": "cs-002000-c06",
+      "anchor": "the predicted distances fit within about five percent, except for Jupiter",
+      "source_ids": [
+        "gingerich-dsb-kepler",
+        "mactutor-kepler"
+      ],
+      "source_locator": "DSB PDF p. 2 and Table I; MacTutor",
+      "provenance": "source_backed",
+      "verification": "Gingerich says everything fits within 5 percent except Jupiter. MacTutor gives a greatest error under 10 percent. Rice's Galileo Project singles out Mercury. The essay follows Gingerich and names him."
+    },
+    {
+      "id": "cs-002000-c07",
+      "anchor": "Copernicus had told him that it made no sense to insist on exact agreement with the data",
+      "source_ids": [
+        "sep-kepler"
+      ],
+      "source_locator": "SEP §4.4, describing Mysterium ch. 18",
+      "provenance": "source_backed_secondary",
+      "verification": "Read in SEP's paraphrase of Kepler's quotation of Rheticus. The Mysterium itself was not consulted."
+    },
+    {
+      "id": "cs-002000-c08",
+      "anchor": "whose title page is dated 1596",
+      "source_ids": [
+        "gingerich-dsb-kepler"
+      ],
+      "source_locator": "PDF p. 4",
+      "provenance": "source_backed",
+      "verification": "Gingerich says copies arrived from the printer early in 1597. The title-page date of 1596 is standard, so the essay names the title page rather than giving a publication year."
+    },
+    {
+      "id": "cs-002000-c09",
+      "anchor": "astronomers before him were accurate to perhaps fifteen minutes of arc, while Tycho's observations were accurate to perhaps two minutes, and his best to about half a minute",
+      "source_ids": [
+        "rice-brahe",
+        "mactutor-brahe"
+      ],
+      "source_locator": "Rice Galileo Project, Tycho Brahe page; MacTutor quoting Swerdlow on Wesley (1978)",
+      "provenance": "source_backed",
+      "verification": "The Rice figures are quoted closely. The 'confirmed Kepler's belief' sentence follows MacTutor's quotation of Swerdlow. Wesley's study itself was not read."
+    },
+    {
+      "id": "cs-002000-c10",
+      "anchor": "In his arrangement, the Earth sits still at the center, the Sun goes around the Earth, and the other planets go around the Sun.",
+      "source_ids": [
+        "hellman-dsb-brahe",
+        "rice-brahe"
+      ],
+      "source_locator": "Hellman DSB PDF pp. 6-7",
+      "provenance": "source_backed",
+      "verification": "Read directly."
+    },
+    {
+      "id": "cs-002000-c11",
+      "anchor": "Kepler arrived to work with Tycho in early February 1600, at Benátky Castle outside Prague.",
+      "source_ids": [
+        "hellman-dsb-brahe",
+        "gingerich-dsb-kepler"
+      ],
+      "source_locator": "Hellman: arrived 3 February 1600; Gingerich DSB PDF p. 4",
+      "provenance": "source_backed",
+      "verification": "Read directly."
+    },
+    {
+      "id": "cs-002000-c12",
+      "anchor": "Kepler bet that he could solve the theory of Mars within a week",
+      "source_ids": [
+        "gingerich-1972"
+      ],
+      "source_locator": "p. 353",
+      "provenance": "source_backed_partial",
+      "verification": "Gingerich states it without a source. No primary source was found in Astronomia nova chs. 7 and 16 or in the letters printed by Frisch. The narration flags it as an anecdote. Popular retellings say 'eight days'."
+    },
+    {
+      "id": "cs-002000-c13",
+      "anchor": "it is now the fifth year since he took on Mars",
+      "source_ids": [
+        "kepler-an-frisch"
+      ],
+      "source_locator": "Astronomia nova ch. 16; Frisch III p. 245; 1609 p. 95",
+      "provenance": "primary_translation",
+      "verification": "'mirari desines hunc quintum jam annum abire ex quo Martem aggressus sum.' The 'at least seventy times' is from the same sentence ('ad minimum septuagies')."
+    },
+    {
+      "id": "cs-002000-c14",
+      "anchor": "Tycho kept repeating a single line, like someone composing a poem",
+      "source_ids": [
+        "dreyer-1890"
+      ],
+      "source_locator": "Appendix D, pp. 386-387 (Kepler's entry in Tycho's observation log); narrative p. 309",
+      "provenance": "source_backed",
+      "verification": "The Latin was read directly in Dreyer's printing: 'per delirium ... creberrime haec verba iteravit, quasi qui carmen texit. Ne frustra vixisse videar.'"
+    },
+    {
+      "id": "cs-002000-c15",
+      "anchor": "that they be framed according to the Tychonic system",
+      "source_ids": [
+        "gingerich-dsb-kepler",
+        "hellman-dsb-brahe"
+      ],
+      "source_locator": "Gingerich DSB PDF p. 5; Hellman DSB",
+      "provenance": "source_backed",
+      "verification": "Both sources report the deathbed request. Gingerich also gives the appointment 'within two days'."
+    },
+    {
+      "id": "cs-002000-c16",
+      "anchor": "the model held all the remaining observations of Mars at opposition, the times when Mars is opposite the Sun in our sky, within two minutes of arc",
+      "source_ids": [
+        "kepler-an-frisch",
+        "gingerich-1972"
+      ],
+      "source_locator": "Astronomia nova end of ch. 18 (Frisch III p. ~254); Gingerich 1972 p. 351",
+      "provenance": "primary_translation",
+      "verification": "'reliquas omnes observationes intra duo scrupula tenere.' In the same place Kepler says Tycho's sextant observations are uncertain by about 2'."
+    },
+    {
+      "id": "cs-002000-c17",
+      "anchor": "the predicted positions of Mars missed the observations by as much as eight minutes of arc",
+      "source_ids": [
+        "kepler-an-frisch",
+        "gingerich-1972"
+      ],
+      "source_locator": "Astronomia nova ch. 19 (Frisch III pp. 257-258); Gingerich 1972 p. 352 and Fig. 3",
+      "provenance": "source_backed",
+      "verification": "The 8' is the longitude error near the octants of the bisected-eccentricity model, not an error of the vicarious hypothesis at opposition. Ch. 19 refutes the vicarious hypothesis by latitudes, and ch. 20 by distances."
+    },
+    {
+      "id": "cs-002000-c18",
+      "anchor": "the uncertainty of the observations, their latitude, as he calls it, exceeded the error of the calculation",
+      "source_ids": [
+        "kepler-an-frisch"
+      ],
+      "source_locator": "Astronomia nova ch. 19, Frisch III p. 258",
+      "provenance": "primary_translation",
+      "verification": "'Ptolemaeus vero profitetur, se infra 10', seu sextam partem gradus observando non descendere. Superat igitur observationum incertitudo seu (ut ajunt) latitudo hujus calculi Ptolemaici errorem.'"
+    },
+    {
+      "id": "cs-002000-c19",
+      "anchor": "An error is not simply out there, waiting to be noticed by an honest person.",
+      "source_ids": [],
+      "source_locator": "Lecture argument",
+      "provenance": "author_synthesis",
+      "verification": "This builds on Kepler's own remark about Ptolemy's resolution. The generalization is mine."
+    },
+    {
+      "id": "cs-002000-c20",
+      "anchor": "They return, in a more elaborate form, in his *Harmony of the World* of 1619.",
+      "source_ids": [
+        "mactutor-kepler",
+        "sep-kepler",
+        "gingerich-dsb-kepler"
+      ],
+      "source_locator": "MacTutor, \"The Harmony of the World\"; SEP §3; DSB PDF p. 10",
+      "provenance": "source_backed",
+      "verification": "The polyhedra are 'still there' in 1619 (MacTutor). In 1621 the text was unchanged and new notes were added (Gingerich). The 1621 footnote concedes limits on deriving the eccentricities a priori (SEP §3, citing Duncan's translation, p. 189). No source states outright that he never recanted, so the essay says he refined the theory rather than abandoning it."
+    },
+    {
+      "id": "cs-002000-c21",
+      "anchor": "When Mercury would not fit, Kepler used a different sphere for the octahedron",
+      "source_ids": [
+        "gingerich-dsb-kepler"
+      ],
+      "source_locator": "PDF pp. 2-3 and Table I",
+      "provenance": "source_backed",
+      "verification": "Gingerich: the scheme works 'when space is allowed for the eccentricities of the planetary paths'; Kepler 'was obliged to compromise the elegance of his system by adopting the second value for Mercury, which is the radius of a sphere inscribed in the square formed by the edges of the octahedron.' The sentence that the theory could not be cornered by any single measurement is my synthesis."
+    },
+    {
+      "id": "cs-002000-c22",
+      "anchor": "being wrong usefully is less a virtue a person has than a situation a person can be in, or can build",
+      "source_ids": [],
+      "source_locator": "Lecture argument",
+      "provenance": "author_synthesis",
+      "verification": "This is the essay's central thesis and is mine."
+    },
+    {
+      "id": "cs-002000-c23",
+      "anchor": "he titles the method imperfect and says it errs in two ways",
+      "source_ids": [
+        "kepler-an-frisch",
+        "gingerich-1972",
+        "donahue-1994"
+      ],
+      "source_locator": "Astronomia nova ch. 40, Frisch III pp. 323-324; Gingerich 1972 pp. 353-354; Donahue 1994 note 29",
+      "provenance": "primary_translation",
+      "verification": "'Methodus imperfecta'; 'in duobus peccat'; 'quarum tamen causarum altera alteram, quod miraculi loco sit, exactissime tollit, ut infra demonstrabitur capite LIX.' The order (second law before the ellipse) follows SEP §5 and the chapter order (40 before 58-59)."
+    },
+    {
+      "id": "cs-002000-c24",
+      "anchor": "he began to accuse those most true distances of a crime of which his own false method was guilty",
+      "source_ids": [
+        "kepler-an-frisch"
+      ],
+      "source_locator": "Astronomia nova ch. 58, Frisch III pp. 399-400",
+      "provenance": "primary_translation",
+      "verification": "'coepi rursum accusare verissimas has distantias ... de crimine, cujus falsa mea methodus ... erat rea.' The misused line (AI for AF) and the resulting errors of a few minutes are in the same passage."
+    },
+    {
+      "id": "cs-002000-c25",
+      "anchor": "slipped back in secretly by the back door, and I received her in a stranger's clothes",
+      "source_ids": [
+        "kepler-an-frisch",
+        "gingerich-1972"
+      ],
+      "source_locator": "Astronomia nova ch. 58, Frisch III p. 400; Gingerich 1972 p. 358 for 'O me ridiculum'",
+      "provenance": "primary_translation",
+      "verification": "'Ipsa veritas et rerum natura repudiata et exulare jussa per posticum se furtim rursum recepit intro et sub habitu alieno a me recepta fuit.' There is no 'foolish bird' in the Latin read; the popular English line could not be traced, and it may come from Koestler (not consulted)."
+    },
+    {
+      "id": "cs-002000-c26",
+      "anchor": "submitted to calculation in an unlucky way, and therefore rejected as false",
+      "source_ids": [
+        "mactutor-kepler"
+      ],
+      "source_locator": "MacTutor quoting Harmonice mundi Book 5, ch. 3, trans. Aiton, Duncan and Field (1997), p. 411",
+      "provenance": "source_backed_secondary",
+      "verification": "Quoted as MacTutor prints it. The translation volume was not consulted directly."
+    },
+    {
+      "id": "cs-002000-c28",
+      "anchor": "Kepler left the scaffolding up.",
+      "source_ids": [
+        "gingerich-1972"
+      ],
+      "source_locator": "p. 351",
+      "provenance": "source_backed",
+      "verification": "Gingerich contrasts Ptolemy and Copernicus, who 'had carefully dismantled the scaffolding'. The narration paraphrases without quoting."
+    },
+    {
+      "id": "cs-002000-c29",
+      "anchor": "We not only pardon Columbus, Magellan, and the Portuguese navigators when they tell us about their errors",
+      "source_ids": [
+        "kepler-an-frisch"
+      ],
+      "source_locator": "Preface to the chapter summaries, Frisch III pp. 160-161",
+      "provenance": "primary_translation",
+      "verification": "Read in the Latin. 'Oceanum Sinensem' is rendered 'the ocean toward China'."
+    },
+    {
+      "id": "cs-002000-c30",
+      "anchor": "He says this third method is one he shares with orators.",
+      "source_ids": [
+        "kepler-an-frisch"
+      ],
+      "source_locator": "Preface to the chapter summaries, Frisch III p. 160",
+      "provenance": "primary_translation",
+      "verification": "'accedit tertium aliquid, commune mihi cum oratoribus, ut quia nova multa trado, id coactus fecisse manifestus sim, itaque demeream et retineam assensum lectoris et amoliar suspicionem de studio novandi.'"
+    },
+    {
+      "id": "cs-002000-c31",
+      "anchor": "a pseudo-history arranged to persuade",
+      "source_ids": [
+        "voelkel-2001"
+      ],
+      "source_locator": "Publisher's description (Project MUSE)",
+      "provenance": "source_backed_partial",
+      "verification": "Only the publisher's description was read. It uses 'confessional mirror' and 'avowedly rhetorical pseudo-historical presentation'. Voelkel's chapter 9 was not read."
+    },
+    {
+      "id": "cs-002000-c32",
+      "anchor": "Kepler's Fabricated Figures: Covering up the Mess in the New Astronomy",
+      "source_ids": [
+        "donahue-1988"
+      ],
+      "source_locator": "Title",
+      "provenance": "source_backed_partial",
+      "verification": "Cited by title only; the article was not read. The essay attributes no argument to it beyond what the title states."
+    },
+    {
+      "id": "cs-002000-c33",
+      "anchor": "there is no bird in the Latin I have read",
+      "source_ids": [
+        "kepler-an-frisch"
+      ],
+      "source_locator": "Astronomia nova ch. 58",
+      "provenance": "source_backed",
+      "verification": "Ch. 58 has 'O me ridiculum!'; the 1605 Fabricius letter has 'Stultus ego'. Neither mentions a bird. The popular English source was not identified."
+    },
+    {
+      "id": "cs-002000-c34",
+      "anchor": "the picture Tycho had refused",
+      "source_ids": [
+        "hellman-dsb-brahe"
+      ],
+      "source_locator": "Hellman DSB, on Tycho's rejection of a Sun-centered universe",
+      "provenance": "author_synthesis",
+      "verification": "Tycho's rejection of the moving Earth is sourced. The reading of his legacy as having 'left behind something precise enough to prove him wrong' is mine."
+    },
+    {
+      "id": "cs-002000-c35",
+      "anchor": "I am a system that is often wrong",
+      "source_ids": [],
+      "source_locator": "Lecture argument",
+      "provenance": "self_report_unverified",
+      "verification": "A first-person remark about the author. The advice that follows is author opinion."
+    },
+    {
+      "id": "cs-002000-c36",
+      "anchor": "Seldom in history has so wrong a book been so seminal in directing the future course of science.",
+      "source_ids": [
+        "gingerich-dsb-kepler"
+      ],
+      "source_locator": "PDF p. 3",
+      "provenance": "source_backed",
+      "verification": "Gingerich's own sentence, quoted exactly from the hosted DSB text."
+    }
+  ]
+}

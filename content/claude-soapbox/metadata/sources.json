@@ -95,6 +95,188 @@
         "pages_read": []
       },
       "notes": "Section \"Testing for faithfulness\": hints include a Stanford professor's answer and an \"unauthorized access\" message; averaged over hint types, Claude 3.7 Sonnet mentioned the hint 25% of the time and DeepSeek R1 39%. Lead author taken from the paper's standard citation; the author list was not checked on the page."
+    },
+    "kepler-an-frisch": {
+      "title": "Johannes Kepler, Astronomia nova (1609), in Christian Frisch (ed.), Joannis Kepleri astronomi opera omnia, vol. 3 (Frankfurt and Erlangen, 1860)",
+      "kind": "historical_primary",
+      "url": "https://archive.org/details/joanniskeplerias03kepl",
+      "access": "free_no_login",
+      "consulted": {
+        "date": "2026-11-20",
+        "copy": "archive.org OCR text; passages located by Latin search and read in context",
+        "pages_read": [
+          "160-161 (preface to chapter summaries)",
+          "245 (ch. 16)",
+          "~254 (end of ch. 18)",
+          "257-258 (ch. 19)",
+          "323-324 (ch. 40)",
+          "399-400 (ch. 58)"
+        ]
+      },
+      "notes": "The Latin quoted and translated in essay 002000. Frisch's page numbers differ from those of the Gesammelte Werke (KGW). Translations in the essay are the author's own and are literal."
+    },
+    "kepler-an-1609": {
+      "title": "Johannes Kepler, Astronomia nova AITIOLOGETOS, seu physica coelestis (Heidelberg, 1609), first edition",
+      "kind": "historical_primary",
+      "url": "https://archive.org/details/astronomianovaai00kepl",
+      "access": "free_no_login",
+      "consulted": {
+        "date": "2026-11-20",
+        "copy": "archive.org OCR text",
+        "pages_read": [
+          "113-114 (end of ch. 19)",
+          "95 (ch. 16)",
+          "196-197 (ch. 40)"
+        ]
+      },
+      "notes": "Used to confirm the ch. 19 wording ('sola igitur haec octo minuta viam praeiverunt'). The parenthetical about errors of 30 minutes printed by Frisch is not in the 1609 main text."
+    },
+    "gingerich-1972": {
+      "title": "Owen Gingerich, \"Johannes Kepler and the New Astronomy,\" Quarterly Journal of the Royal Astronomical Society 13 (1972), pp. 346-373",
+      "kind": "scholarly_article",
+      "url": "https://articles.adsabs.harvard.edu/pdf/1972QJRAS..13..346G",
+      "access": "free_no_login",
+      "consulted": {
+        "date": "2026-11-20",
+        "copy": "NASA ADS page images",
+        "pages_read": [
+          "351",
+          "352",
+          "353",
+          "354",
+          "358"
+        ]
+      },
+      "notes": "Source of the week-long wager anecdote (p. 353, unsourced there), the vicarious-hypothesis geometry (p. 351, Fig. 3), the 'scaffolding' contrast with Ptolemy and Copernicus (p. 351), the distance law (pp. 353-354), and KGW locators (ch. 19 = KGW 3, p. 178)."
+    },
+    "gingerich-dsb-kepler": {
+      "title": "Owen Gingerich, \"Kepler, Johannes,\" Dictionary of Scientific Biography, vol. 7 (1973), PDF hosted by MacTutor",
+      "kind": "scholarly_reference",
+      "url": "https://mathshistory.st-andrews.ac.uk/DSB/Kepler.pdf",
+      "access": "free_no_login",
+      "consulted": {
+        "date": "2026-11-20",
+        "copy": "PDF text; page numbers below are pages of the hosted PDF",
+        "pages_read": [
+          "2",
+          "4",
+          "5",
+          "9",
+          "10"
+        ]
+      },
+      "notes": "Gingerich's translation of Kepler's 1595 account (19 July; triangles; the smaller circle; 'why have plane figures among three-dimensional orbits?'; the pleasure passage); fit within 5 percent except Jupiter; the Lutheran school in Graz; arrival at Benatky; Tycho's death on 24 October 1601 and deathbed wish; appointment within two days; Mars assigned to Kepler; 1621 edition with the text unchanged and new notes."
+    },
+    "sep-kepler": {
+      "title": "Daniel A. Di Liscia, \"Johannes Kepler,\" Stanford Encyclopedia of Philosophy (revised 14 September 2025)",
+      "kind": "scholarly_reference",
+      "url": "https://plato.stanford.edu/entries/kepler/",
+      "access": "free_no_login",
+      "consulted": {
+        "date": "2026-11-20",
+        "copy": "Web page, sections 3, 4.2, 4.4, and 5",
+        "pages_read": []
+      },
+      "notes": "Mysterium ch. 18 quoting Rheticus on Copernicus's view that exact agreement with imperfect data is unnecessary (§4.4); the 1621 footnote conceding that the eccentricities cannot be derived a priori (§3); polyhedra in Harmonices mundi Book 5 (§3); the second law found before the ellipse (§5). Its locator for the eight-minutes passage, 'KGW 3, p. 286', is Donahue's page, not KGW's."
+    },
+    "mactutor-kepler": {
+      "title": "J. V. Field, \"Johannes Kepler,\" MacTutor History of Mathematics (1999)",
+      "kind": "scholarly_reference",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Kepler/",
+      "access": "free_no_login",
+      "consulted": {
+        "date": "2026-11-20",
+        "copy": "Web page",
+        "pages_read": []
+      },
+      "notes": "Order of the nested solids; polyhedra 'still there' in the 1619 Harmony; the third-law passage quoted from the Aiton, Duncan and Field translation (Harmonice mundi Book 5, ch. 3, p. 411); Kepler sent the Mysterium to Tycho hoping better observations would improve the agreement."
+    },
+    "mactutor-brahe": {
+      "title": "J. J. O'Connor and E. F. Robertson, \"Tycho Brahe,\" MacTutor History of Mathematics (2003)",
+      "kind": "scholarly_reference",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Brahe/",
+      "access": "free_no_login",
+      "consulted": {
+        "date": "2026-11-20",
+        "copy": "Web page",
+        "pages_read": []
+      },
+      "notes": "Quotes Swerdlow's review of Wesley (1978): errors mostly 0.5' to 1.0', and 'Kepler's belief that Tycho's observations could be trusted to better than two minutes is amply confirmed.' Open-sighted instruments, with no telescope."
+    },
+    "rice-brahe": {
+      "title": "Albert Van Helden, \"Tycho Brahe,\" The Galileo Project, Rice University",
+      "kind": "university_or_open_reference",
+      "url": "http://galileo.rice.edu/sci/brahe.html",
+      "access": "free_no_login",
+      "consulted": {
+        "date": "2026-11-20",
+        "copy": "Web page",
+        "pages_read": []
+      },
+      "notes": "'previous astronomers made observations accurate to perhaps 15 arc minutes, those of Tycho were accurate to perhaps 2 arc minutes ... his best observations were accurate to about half an arc minute.' The Tychonic system."
+    },
+    "hellman-dsb-brahe": {
+      "title": "C. Doris Hellman, \"Brahe, Tycho,\" Dictionary of Scientific Biography, vol. 2 (1970), PDF hosted by MacTutor",
+      "kind": "scholarly_reference",
+      "url": "https://mathshistory.st-andrews.ac.uk/DSB/Brahe.pdf",
+      "access": "free_no_login",
+      "consulted": {
+        "date": "2026-11-20",
+        "copy": "PDF text",
+        "pages_read": []
+      },
+      "notes": "Kepler arrived at Benatky on 3 February 1600; Mars was worked on by Longomontanus and turned over to Kepler; the Tychonic system (Earth at rest, Sun circling the Earth, planets circling the Sun); an illness of eleven days; the deathbed wish that the Rudolphine Tables follow the Tychonic system; large instruments."
+    },
+    "dreyer-1890": {
+      "title": "J. L. E. Dreyer, Tycho Brahe: A Picture of Scientific Life and Work in the Sixteenth Century (Edinburgh, 1890)",
+      "kind": "scholarly_biography",
+      "url": "https://archive.org/details/tychobrahepictur00dreyuoft",
+      "access": "free_no_login",
+      "consulted": {
+        "date": "2026-11-20",
+        "copy": "archive.org OCR text",
+        "pages_read": [
+          "309",
+          "386-387 (Appendix D)"
+        ]
+      },
+      "notes": "Prints Kepler's Latin entry in Tycho's observation log: 'Nocte, quam ultimam habuit, per delirium, quo omnia suavissima fuere, creberrime haec verba iteravit, quasi qui carmen texit. Ne frustra vixisse videar.'"
+    },
+    "voelkel-2001": {
+      "title": "James R. Voelkel, The Composition of Kepler's Astronomia nova (Princeton University Press, 2001)",
+      "kind": "scholarly_monograph",
+      "url": "https://muse.jhu.edu/book/81252",
+      "access": "publisher_description_only",
+      "consulted": {
+        "date": "2026-11-20",
+        "copy": "Publisher's description on Project MUSE only; the book was not read",
+        "pages_read": []
+      },
+      "notes": "The description says the narrative 'had long been deemed a \"confessional\" mirror' of Kepler's process and calls it 'an avowedly rhetorical pseudo-historical presentation of his results.' The essay attributes only this thesis to Voelkel."
+    },
+    "donahue-1988": {
+      "title": "William H. Donahue, \"Kepler's Fabricated Figures: Covering up the Mess in the New Astronomy,\" Journal for the History of Astronomy 19 (1988), pp. 217-237",
+      "kind": "scholarly_article",
+      "url": "https://doi.org/10.1177/002182868801900401",
+      "access": "bibliographic_record_only",
+      "consulted": {
+        "date": "2026-11-20",
+        "copy": "Bibliographic record only; the article was not read",
+        "pages_read": []
+      },
+      "notes": "Cited in the essay for its title only. The title, volume, and pages are confirmed by the IsisCB bibliography (https://data.isiscb.org/isis/authority/CBA000026432/). The DOI is confirmed by a zbMATH-derived reference list but was not resolved at doi.org."
+    },
+    "donahue-1994": {
+      "title": "William H. Donahue, \"Kepler's Invention of the Second Planetary Law,\" British Journal for the History of Science 27 (1994), pp. 89-102",
+      "kind": "scholarly_article",
+      "url": "https://doi.org/10.1017/S000708740003168X",
+      "access": "abstract_and_notes_page",
+      "consulted": {
+        "date": "2026-11-20",
+        "copy": "Cambridge page; note 29 read",
+        "pages_read": []
+      },
+      "notes": "Note 29: Kepler 'remarks ... that the area law is not exactly equivalent to the distance law, and throughout the Astronomia nova regards it as only a convenient means of computation.'"
     }
   }
 }
