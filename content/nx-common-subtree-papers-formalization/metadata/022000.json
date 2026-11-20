@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "lecture_id": "022000",
+  "transcript": "022000-what-a-lean-theorem-actually-says.md",
+  "description": "Guided reading of actual 2016 and 2018 Lean declarations: independent validity and maximum specifications, finite optimum existence, rooted matching recurrence, proof tactics and hypotheses, local dependency correctness versus a complete reference solver.",
+  "related_resources": [
+    {
+      "source_id": "nx-dkm-2016",
+      "reason": "Independent nonempty weighted subtree isomorphism and rooted recurrence, including Eq. (1)."
+    },
+    {
+      "source_id": "nx-dkm-2018",
+      "reason": "Independent mapped/skipped states and the reference-table correctness interfaces."
+    },
+    {
+      "source_id": "nx-lean-book",
+      "reason": "Lean 4 theorem syntax, quantifiers, inductive reasoning, typeclass assumptions and kernel proof checking."
+    }
+  ],
+  "historical_claims": [],
+  "source_snapshot": {
+    "date": "2026-11-19",
+    "repository": "networkx_algo_common_subtree",
+    "statement_map": "docs/planning/paper_statement_crosswalk.md",
+    "proof_status": "proofs/PROOF_STATUS.md"
+  },
+  "tag_paths": [
+    [
+      "Computer Science",
+      "Formal methods",
+      "Formal verification"
+    ],
+    [
+      "Computer Science",
+      "Programming languages",
+      "Lean 4"
+    ],
+    [
+      "Mathematics",
+      "Discrete mathematics",
+      "Graph theory"
+    ]
+  ],
+  "learning": {
+    "assumed_lectures": [
+      "010000",
+      "011000",
+      "018000"
+    ],
+    "learning_objectives": [
+      "Read Lean theorem types as mathematical sentences with explicit input domains and hypotheses",
+      "Explain the independent 2016 Valid, IsMaximum and exists_maximum declarations",
+      "Follow both inequalities of rooted_matching_recurrence through decomposition and assembly",
+      "Separate local step correctness from reference table correctness, production refinement and runtime bounds",
+      "Recognize the roles of noncomputable definitions, typeclasses and common proof tactics"
+    ]
+  }
+}

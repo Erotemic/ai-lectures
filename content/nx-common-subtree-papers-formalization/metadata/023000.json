@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "lecture_id": "023000",
+  "transcript": "023000-two-bridges-from-trees-to-words.md",
+  "description": "Reads the existing reversible ordered-tree–Dyck-word encoding, one-step contraction simulations, full soundness/completeness theorem, printed-containment counterexample, and indexed original-token witness guarantees, including a six-bit worked example.",
+  "related_resources": [
+    {
+      "source_id": "nx-lozano-2004",
+      "reason": "Ordered rooted-tree edge contraction, Dyck balanced-word interpretation and the paper’s printed containment definition."
+    },
+    {
+      "source_id": "nx-lean-book",
+      "reason": "Mutual structural induction, equivalences, and reflexive-transitive closure proofs."
+    }
+  ],
+  "historical_claims": [],
+  "source_snapshot": {
+    "date": "2026-11-19",
+    "repository": "networkx_algo_common_subtree",
+    "statement_map": "docs/planning/paper_statement_crosswalk.md",
+    "proof_status": "proofs/PROOF_STATUS.md"
+  },
+  "tag_paths": [
+    [
+      "Computer Science",
+      "Formal methods",
+      "Formal verification"
+    ],
+    [
+      "Computer Science",
+      "Programming languages",
+      "Lean 4"
+    ],
+    [
+      "Mathematics",
+      "Discrete mathematics",
+      "Graph theory"
+    ]
+  ],
+  "learning": {
+    "assumed_lectures": [
+      "003000",
+      "008000",
+      "009000",
+      "022000"
+    ],
+    "learning_objectives": [
+      "Explain the distinction between a bijective encoding and a correctness-preserving operation simulation",
+      "Trace the first-child/next-sibling representation and both encode/decode round trips",
+      "Identify both directions of embeds_iff_dyckEmbeds and why context induction is needed",
+      "Reproduce the 001011 contraction example and distinguish the printed containment relation",
+      "Explain why original token coordinates and pair identities require further theorems"
+    ]
+  }
+}

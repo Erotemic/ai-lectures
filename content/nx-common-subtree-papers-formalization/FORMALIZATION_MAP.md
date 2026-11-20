@@ -126,6 +126,13 @@ A future lecture should use the following vocabulary consistently:
 
 **Why these categories need separate lectures:** A machine-checked `RootedDP.solve_correct` theorem does not by itself prove that a fast production solver implements its mathematical table, and a source-level correctness theorem does not by itself prove the paper's optimized asymptotic bound. Likewise, a compiled source proof may cover exact integers or rationals without claiming IEEE-754 numerical equivalence.
 
+## Shared formalization reading — new lectures `022000`–`023000`
+
+- **`022000` — theorem statement versus algorithm:** `Droschinsky2016/Specification.lean` (`Valid`, `IsMaximum`, `singleton_valid`, `exists_maximum`), `RootedRecurrence.lean` (`rooted_matching_recurrence`, two inequalities), and `Droschinsky2018/RootedDynamicProgram.lean` (`step_correct`, `evaluate_correct`, `solve_correct`). The existence theorem concerns the independent finite witness family; the table theorem has explicit complete-enumeration and child-representation hypotheses. Neither asserts correctness of the optimized production algorithm.
+- **`023000` — reversible representation versus semantic contraction:** `Paper2004/EncodingEquivalence.lean` (`orderedTreeEquivDyck` and both inverse laws), `ContractionSoundness.lean` (`contractStep_encodeDyck`, `embeds_encodeDyck`), and `ContractionCompleteness.lean` (`dyckContractStep_decodeDyck`, `dyckEmbeds_decodeDyck`, `embeds_iff_dyckEmbeds`). `PrintedContainmentCounterexample.lean` proves the literal printed relation is strictly weaker on the `001011 → 0011` example. `TokenEncoding.positionPairs_bounds`, `IndexedWord.Retains.tokenIndices_sublist` and `TokenReading.retained_readsTokens` are separate original-identity obligations, not consequences of a mere shape equivalence.
+
+These recordings explain existing, pinned source proofs and their hypotheses. They do not add new Lean declarations or close source-level runtime/resource obligations.
+
 ## Good next proof-reading exercises
 
 - For 2004, open `ContractionCompleteness.lean`, explain both directions of ordered-tree versus Dyck-word contraction, then find the `PrintedContainmentCounterexample.lean` statement whose converse fails.

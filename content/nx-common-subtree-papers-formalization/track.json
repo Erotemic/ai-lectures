@@ -18,7 +18,8 @@
     "droschinsky-foundations",
     "lozano-paper",
     "droschinsky-2016-paper",
-    "droschinsky-2018-paper"
+    "droschinsky-2018-paper",
+    "formalization-methods"
   ],
   "tags": [
     "Discrete mathematics",
@@ -468,6 +469,49 @@
         "Python NetworkX",
         "Original-index witnesses",
         "Verification roadmap"
+      ]
+    },
+    {
+      "id": "022000",
+      "title": "What a Lean Theorem Actually Says: Reading the Common-Subtree Proofs",
+      "section": "formalization-methods",
+      "file": "022000-what-a-lean-theorem-actually-says.md",
+      "spoken_words": 2888,
+      "estimated_minutes_at_145_wpm": 19.9,
+      "draft_status": "substantive",
+      "tags": [
+        "Lean 4",
+        "Formal verification",
+        "Proof assistants",
+        "Mathematical specification",
+        "Finite sets",
+        "Quantifiers",
+        "WithBot",
+        "Rooted dynamic programming",
+        "Correctness theorem",
+        "Droschinsky 2016",
+        "Droschinsky 2018"
+      ]
+    },
+    {
+      "id": "023000",
+      "title": "Two Bridges from Trees to Words: A Complete Representation Proof",
+      "section": "formalization-methods",
+      "file": "023000-two-bridges-from-trees-to-words.md",
+      "spoken_words": 3006,
+      "estimated_minutes_at_145_wpm": 20.7,
+      "draft_status": "substantive",
+      "tags": [
+        "Lean 4",
+        "Dyck words",
+        "Ordered trees",
+        "Edge contraction",
+        "Bijection",
+        "Proof by induction",
+        "Soundness and completeness",
+        "Representation theorem",
+        "Original input identities",
+        "Lozano Valiente 2004"
       ]
     }
   ]

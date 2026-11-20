@@ -156,6 +156,29 @@
         "Resource bounds",
         "Rust source refinement"
       ]
+    },
+    {
+      "id": "formalization-methods",
+      "title": "Reading and Extending the Common-Subtree Lean Proofs",
+      "role": "deep_dive",
+      "parent": "start-here",
+      "lectures": [
+        "022000",
+        "023000"
+      ],
+      "related_collections": [
+        "logic-types:main",
+        "mathematical-proof:main"
+      ],
+      "tags": [
+        "Lean 4",
+        "Theorem statements",
+        "Proof assistants",
+        "Independent specification",
+        "Representation equivalence",
+        "Soundness and completeness",
+        "Formal verification"
+      ]
     }
   ]
 }
