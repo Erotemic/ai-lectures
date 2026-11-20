@@ -1,0 +1,358 @@
+{
+  "schema_version": 1,
+  "lecture_id": "029000",
+  "transcript": "029000-the-ocean-that-turned-to-milk.md",
+  "tags": [
+    "GPT-SoapBox",
+    "Essays",
+    "Bioluminescence",
+    "Milky seas",
+    "Luminous ocean",
+    "Marine bacteria",
+    "Indian Ocean",
+    "Arabian Sea",
+    "Java",
+    "Indonesia",
+    "Lombok",
+    "Cocos (Keeling) Islands",
+    "Indian Ocean Dipole",
+    "Socotra",
+    "Yemen",
+    "Somalia",
+    "Northwestern Indian Ocean",
+    "Banda Sea",
+    "Maritime Continent",
+    "1985",
+    "1988",
+    "1995",
+    "2005",
+    "2011",
+    "2019",
+    "2021",
+    "2022",
+    "2025",
+    "1600s",
+    "17th century",
+    "19th century",
+    "20th century",
+    "21st century",
+    "Ganesha yacht",
+    "Johan Lemmens",
+    "Naomi McKinnon",
+    "Steven D. Miller",
+    "Steven Haddock",
+    "Justin Hudson",
+    "S.S. Lima",
+    "USNS Wilkes",
+    "Microbial ecology",
+    "Oceanography",
+    "Marine biology",
+    "Marine microbiology",
+    "Vibrio harveyi",
+    "Phaeocystis",
+    "Dinoflagellates",
+    "Biochemistry",
+    "Luciferase",
+    "Quorum sensing",
+    "Bacterial communication",
+    "Phytoplankton",
+    "Surface slicks",
+    "Ocean fronts",
+    "Ocean circulation",
+    "Coastal upwelling",
+    "Organic matter",
+    "Nighttime remote sensing",
+    "NOAA",
+    "NASA",
+    "VIIRS",
+    "Day/Night Band",
+    "Suomi NPP",
+    "Satellite imagery",
+    "Marine observer logs",
+    "Maritime history",
+    "Scientific observation",
+    "Field research",
+    "Ocean color",
+    "Chlorophyll",
+    "Environmental science",
+    "Public research datasets",
+    "Remote sensing",
+    "Scientific uncertainty"
+  ],
+  "tag_paths": [
+    [
+      "Science",
+      "Biology",
+      "Microbiology",
+      "Bacterial bioluminescence"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Ecology",
+      "Marine microbiology"
+    ],
+    [
+      "Science",
+      "Earth sciences",
+      "Oceanography",
+      "Ocean circulation"
+    ],
+    [
+      "Science",
+      "Earth sciences",
+      "Remote sensing",
+      "Nighttime satellite imaging"
+    ],
+    [
+      "History",
+      "History of science",
+      "Ocean observation and exploration"
+    ],
+    [
+      "Geography",
+      "Asia",
+      "Indonesia",
+      "Java"
+    ],
+    [
+      "Geography",
+      "Indian Ocean",
+      "Arabian Sea"
+    ],
+    [
+      "Geography",
+      "Indian Ocean",
+      "Cocos (Keeling) Islands"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "gs-milky-miller-2022",
+      "reason": "Primary account of 2019 Ganesha observation, timing, photos and satellite matched GPS"
+    },
+    {
+      "source_id": "gs-milky-miller-2005",
+      "reason": "Original 1995 Lima report matched to 2005 satellite re-analysis"
+    },
+    {
+      "source_id": "gs-milky-lapota-1988",
+      "reason": "1985 Socotra expedition, marine bacteria and algal association"
+    },
+    {
+      "source_id": "gs-milky-miller-2021",
+      "reason": "Satellite detection methods, decade-long survey and 2019 Java event"
+    },
+    {
+      "source_id": "gs-milky-nasa-java",
+      "reason": "NASA visualization and nearby ocean-color chlorophyll observations"
+    },
+    {
+      "source_id": "gs-milky-hudson-2025",
+      "reason": "Curated historical reports and conditional associations with ocean climate"
+    },
+    {
+      "source_id": "gs-milky-hudson-data",
+      "reason": "Supplementary observation database and event records"
+    },
+    {
+      "source_id": "gs-milky-microbio",
+      "reason": "Chemical mechanism of light emission by luminous marine bacteria"
+    },
+    {
+      "source_id": "gs-milky-qs-model",
+      "reason": "Quorum sensing mechanism and limits of extrapolation"
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "m029-h01",
+      "anchor": "On the night of August second, 2019, the sailing yacht Ganesha was crossing the Indian Ocean south of Java.",
+      "kind": "history_or_statistics",
+      "source_ids": [
+        "gs-milky-miller-2022"
+      ],
+      "source_locator": "gs-milky-miller-2022",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "m029-h02",
+      "anchor": "Around nine in the evening the boat entered a stretch of water that looked wrong.",
+      "kind": "history_or_statistics",
+      "source_ids": [
+        "gs-milky-miller-2022"
+      ],
+      "source_locator": "gs-milky-miller-2022",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "m029-h03",
+      "anchor": "Ganesha remained inside the luminous region until the following morning, about eight hours after entering it.",
+      "kind": "history_or_statistics",
+      "source_ids": [
+        "gs-milky-miller-2022"
+      ],
+      "source_locator": "gs-milky-miller-2022",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "m029-h04",
+      "anchor": "The luminous region covered more than one hundred thousand square kilometers.",
+      "kind": "history_or_statistics",
+      "source_ids": [
+        "gs-milky-miller-2022",
+        "gs-milky-miller-2021"
+      ],
+      "source_locator": "gs-milky-miller-2022",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "m029-h05",
+      "anchor": "In July 1985, a United States naval research vessel, the Wilkes, sailed into glowing water in the Arabian Sea east of Socotra.",
+      "kind": "history_or_statistics",
+      "source_ids": [
+        "gs-milky-lapota-1988",
+        "gs-milky-miller-2021"
+      ],
+      "source_locator": "gs-milky-lapota-1988",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "m029-h06",
+      "anchor": "They found bacteria identified as Vibrio harveyi associated with colonies of the microalga Phaeocystis.",
+      "kind": "history_or_statistics",
+      "source_ids": [
+        "gs-milky-lapota-1988",
+        "gs-milky-hudson-2025"
+      ],
+      "source_locator": "gs-milky-lapota-1988",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "m029-h07",
+      "anchor": "In January 1995, the merchant vessel Lima reported an extensive milky sea off the coast of Somalia.",
+      "kind": "history_or_statistics",
+      "source_ids": [
+        "gs-milky-miller-2005"
+      ],
+      "source_locator": "gs-milky-miller-2005",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "m029-h08",
+      "anchor": "It covered about fifteen thousand four hundred square kilometers, and related observations showed it persisting across several nights.",
+      "kind": "history_or_statistics",
+      "source_ids": [
+        "gs-milky-miller-2005"
+      ],
+      "source_locator": "gs-milky-miller-2005",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "m029-h09",
+      "anchor": "The result was published in 2005.",
+      "kind": "history_or_statistics",
+      "source_ids": [
+        "gs-milky-miller-2005"
+      ],
+      "source_locator": "gs-milky-miller-2005",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "m029-h10",
+      "anchor": "This possibility became more practical after the launch of the Suomi National Polar-orbiting Partnership satellite in 2011.",
+      "kind": "history_or_statistics",
+      "source_ids": [
+        "gs-milky-nasa-java",
+        "gs-milky-miller-2021"
+      ],
+      "source_locator": "gs-milky-nasa-java",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "m029-h11",
+      "anchor": "In 2021, Miller and collaborators published a survey of a decade of newer satellite observations and identified twelve candidate milky seas.",
+      "kind": "history_or_statistics",
+      "source_ids": [
+        "gs-milky-miller-2021"
+      ],
+      "source_locator": "gs-milky-miller-2021",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "m029-h12",
+      "anchor": "In 2025, Justin Hudson and Steven Miller published a curated record combining centuries of ship reports with modern satellite detections.",
+      "kind": "history_or_statistics",
+      "source_ids": [
+        "gs-milky-hudson-2025"
+      ],
+      "source_locator": "gs-milky-hudson-2025",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "m029-h13",
+      "anchor": "Their database contains 393 eyewitness accounts and 22 satellite observations up to the study's cutoff.",
+      "kind": "history_or_statistics",
+      "source_ids": [
+        "gs-milky-hudson-2025"
+      ],
+      "source_locator": "gs-milky-hudson-2025",
+      "audit_status": "source_passage_checked"
+    }
+  ],
+  "claim_evidence": [
+    {
+      "id": "m029-c01",
+      "anchor": "The light is a product of chemistry occurring inside living cells.",
+      "source_ids": [
+        "gs-milky-microbio",
+        "gs-milky-qs-model"
+      ],
+      "provenance": "source_supported_explanation",
+      "source_locator": "gs-milky-microbio",
+      "evidence_detail": "Luciferase-catalyzed oxidation produces blue-green bacterial light."
+    },
+    {
+      "id": "m029-c02",
+      "anchor": "Some luminous bacteria regulate light production through a process called quorum sensing.",
+      "source_ids": [
+        "gs-milky-qs-model",
+        "gs-milky-hudson-2025"
+      ],
+      "provenance": "source_supported_explanation",
+      "source_locator": "gs-milky-qs-model",
+      "evidence_detail": "Cell-density chemical signaling can regulate light gene expression; extrapolation to milky seas is a leading hypothesis."
+    },
+    {
+      "id": "m029-c03",
+      "anchor": "The luminous bacteria might flourish near the margins of an algal bloom, where nutrients and particles become available.",
+      "source_ids": [
+        "gs-milky-nasa-java",
+        "gs-milky-miller-2021"
+      ],
+      "provenance": "source_supported_explanation",
+      "source_locator": "gs-milky-nasa-java",
+      "evidence_detail": "Hypothesis about spatial patterns of water color/chlorophyll and luminosity; not direct in situ proof."
+    },
+    {
+      "id": "m029-c04",
+      "anchor": "One of the stronger statistical signals emerged south of Java, where positive phases of the Indian Ocean Dipole were associated with a greater likelihood of a reported milky sea during the regional winter.",
+      "source_ids": [
+        "gs-milky-hudson-2025"
+      ],
+      "provenance": "source_supported_explanation",
+      "source_locator": "gs-milky-hudson-2025",
+      "evidence_detail": "2025 bootstrap comparisons; affected by observation density and conditional classification."
+    },
+    {
+      "id": "m029-c05",
+      "anchor": "The strongest confirmation came from the independent match between location, time, eyewitness description, and the satellite signal.",
+      "source_ids": [
+        "gs-milky-miller-2022"
+      ],
+      "provenance": "source_supported_explanation",
+      "source_locator": "gs-milky-miller-2022",
+      "evidence_detail": "Time-resolved satellite signal aligned with ship GPS course and human description; not a bacterial sample."
+    }
+  ]
+}

@@ -105,6 +105,8 @@ listeners may choose any order.
 
 - **028000 — The Pond That Needs to Dry.** Why woodland vernal pools and California grassland pools sometimes depend on their seasonal dry phase; how frogs, salamanders, fairy shrimp and wildflowers live by different clocks; and why conserving a changing habitat requires protecting its calendar and surrounding landscape.
 
+- **029000 — The Ocean That Turned to Milk.** A 2019 yacht encounter with eight hours of luminous Indian Ocean, the satellite match to a 1995 ship log, an accidental 1985 research-vessel sample, and ongoing questions about marine bacteria and the ecology of milky seas.
+
 Spoken narration is inside the standard marker pair in each manuscript. Source
 notes, constructed-example qualifications, and reading links follow the
 spoken region. Per-lecture metadata and reading records are in `metadata/`.
