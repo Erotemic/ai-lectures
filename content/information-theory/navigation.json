@@ -3,12 +3,16 @@
   "collections": [
     {
       "id": "established-course",
-      "title": "Information Theory: From Questions to Communication · Full Course",
+      "title": "Information Theory: From Questions to Communication - Full Course",
       "role": "main",
       "lectures": [
         "001000",
+        "004000",
         "002000",
-        "003000"
+        "005000",
+        "003000",
+        "006000",
+        "007000"
       ],
       "assumed_background": [
         "Probability of discrete events, elementary logarithms, and willingness to work with sums."
@@ -25,7 +29,8 @@
       "parent": "established-course",
       "lectures": [
         "001000",
-        "003000"
+        "003000",
+        "007000"
       ],
       "assumed_background": [
         "Probability of discrete events, elementary logarithms, and willingness to work with sums."
@@ -38,6 +43,70 @@
         "Information theory",
         "KL divergence",
         "Statistics"
+      ]
+    },
+    {
+      "id": "source-coding-and-memory",
+      "title": "Why Sources Can Be Compressed",
+      "role": "deep_dive",
+      "parent": "established-course",
+      "lectures": [
+        "001000",
+        "004000",
+        "007000"
+      ],
+      "assumed_background": [
+        "Discrete probability, logarithms, and the law of large numbers."
+      ],
+      "related_collections": [
+        "probability-measure:established-course"
+      ],
+      "tags": [
+        "Information theory",
+        "Typical sequences",
+        "Entropy rates"
+      ]
+    },
+    {
+      "id": "noisy-channel-coding",
+      "title": "From Mutual Information to Reliable Communication",
+      "role": "deep_dive",
+      "parent": "established-course",
+      "lectures": [
+        "002000",
+        "004000",
+        "005000"
+      ],
+      "assumed_background": [
+        "Entropy, conditional probability, and basic counting."
+      ],
+      "related_collections": [
+        "probability-measure:established-course"
+      ],
+      "tags": [
+        "Information theory",
+        "Channel capacity",
+        "Fano inequality"
+      ]
+    },
+    {
+      "id": "lossy-compression",
+      "title": "From Exact Coding to Rate-Distortion Theory",
+      "role": "deep_dive",
+      "parent": "established-course",
+      "lectures": [
+        "001000",
+        "004000",
+        "002000",
+        "006000"
+      ],
+      "assumed_background": [
+        "Entropy, mutual information, logarithms, and counting."
+      ],
+      "tags": [
+        "Information theory",
+        "Rate-distortion",
+        "Lossy compression"
       ]
     }
   ]

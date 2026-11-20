@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "lecture_id": "007000",
+  "transcript": "007000-entropy-rates-and-sources-with-memory.md",
+  "description": "Derives stationary entropy rate and exact two-state Markov examples, distinguishing marginal from predictive entropy and connecting to compression and log loss.",
+  "tags": [
+    "Information theory",
+    "Entropy rate",
+    "Stationary processes",
+    "Markov chains",
+    "Conditional entropy",
+    "Predictive coding",
+    "Cross-entropy rate"
+  ],
+  "tag_paths": [
+    [
+      "Mathematics",
+      "Information theory",
+      "Sources with memory",
+      "Entropy rate"
+    ],
+    [
+      "Mathematics",
+      "Probability",
+      "Markov chains"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "it-mit2010",
+      "reason": "Technical reference for the underlying mathematical definitions and theorems; narration and worked examples are independently authored."
+    },
+    {
+      "source_id": "it-mit2016",
+      "reason": "Technical reference for the underlying mathematical definitions and theorems; narration and worked examples are independently authored."
+    },
+    {
+      "source_id": "it-cover-thomas",
+      "reason": "Technical reference for the underlying mathematical definitions and theorems; narration and worked examples are independently authored."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-20",
+    "scope": "New spoken manuscript, mathematical derivations, checked examples, and a non-spoken technical companion. Existing lectures unchanged."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "information-theory:001000",
+        "reason": "Introduces entropy for individual symbols."
+      },
+      {
+        "lecture_id": "information-theory:003000",
+        "reason": "Connects log loss and KL divergence to probabilistic prediction."
+      },
+      {
+        "lecture_id": "information-theory:004000",
+        "reason": "Explains iid block coding before memory is introduced."
+      }
+    ],
+    "background": [
+      "Discrete probability, logarithms, and elementary proof reasoning."
+    ],
+    "readiness_checks": [
+      "Compute exact block entropy for a symmetric binary switching Markov chain.",
+      "Derive stationary entropy rate as a limit of conditional entropies.",
+      "Explain why fair single-symbol marginals do not imply one bit per symbol of entropy rate."
+    ]
+  },
+  "claim_evidence": [
+    {
+      "id": "it-007000-c001",
+      "anchor": "The exact block entropy is one plus n minus one times the binary entropy of one tenth.",
+      "source_ids": [
+        "it-mit2010",
+        "it-mit2016",
+        "it-cover-thomas"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Spoken lecture and mathematical companion",
+      "evidence_detail": "The manuscript derives the claim under explicit probabilistic hypotheses, with textbook and lecture-note sources recorded."
+    },
+    {
+      "id": "it-007000-c002",
+      "anchor": "The entropy rate is the weighted average of those two uncertainties, about point five five three bits per symbol.",
+      "source_ids": [
+        "it-mit2010",
+        "it-mit2016",
+        "it-cover-thomas"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Spoken lecture and mathematical companion",
+      "evidence_detail": "The manuscript derives the claim under explicit probabilistic hypotheses, with textbook and lecture-note sources recorded."
+    }
+  ]
+}

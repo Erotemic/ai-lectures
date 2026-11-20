@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "lecture_id": "006000",
+  "transcript": "006000-how-much-can-we-afford-to-forget.md",
+  "description": "Derives the binary Hamming rate-distortion curve by entropy/data-processing converse and random covering achievability, then generalizes to test channels.",
+  "tags": [
+    "Information theory",
+    "Rate-distortion theory",
+    "Lossy compression",
+    "Hamming distortion",
+    "Mutual information",
+    "Random covering",
+    "Source coding"
+  ],
+  "tag_paths": [
+    [
+      "Mathematics",
+      "Information theory",
+      "Lossy compression",
+      "Rate-distortion"
+    ],
+    [
+      "Mathematics",
+      "Optimization",
+      "Constrained information minimization"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "it-mit2016",
+      "reason": "Technical reference for the underlying mathematical definitions and theorems; narration and worked examples are independently authored."
+    },
+    {
+      "source_id": "it-cover-thomas",
+      "reason": "Technical reference for the underlying mathematical definitions and theorems; narration and worked examples are independently authored."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-20",
+    "scope": "New spoken manuscript, mathematical derivations, checked examples, and a non-spoken technical companion. Existing lectures unchanged."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "information-theory:001000",
+        "reason": "Provides source entropy and coding motivation."
+      },
+      {
+        "lecture_id": "information-theory:002000",
+        "reason": "Provides mutual information and data processing."
+      },
+      {
+        "lecture_id": "information-theory:004000",
+        "reason": "Provides typical-set and block-coding reasoning."
+      }
+    ],
+    "background": [
+      "Discrete probability, logarithms, and elementary proof reasoning."
+    ],
+    "readiness_checks": [
+      "Prove the lower bound R(D) greater than or equal to one minus binary entropy for a fair binary source.",
+      "Explain how Hamming-ball covering constructs lossy codes.",
+      "Evaluate R at zero, one-tenth, and one-half distortion."
+    ]
+  },
+  "claim_evidence": [
+    {
+      "id": "it-006000-c001",
+      "anchor": "The minimum asymptotic rate, in bits per source pixel, is one minus the binary entropy of D.",
+      "source_ids": [
+        "it-mit2016",
+        "it-cover-thomas"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Spoken lecture and mathematical companion",
+      "evidence_detail": "The manuscript derives the claim under explicit probabilistic hypotheses, with textbook and lecture-note sources recorded."
+    },
+    {
+      "id": "it-006000-c002",
+      "anchor": "For finite-alphabet memoryless sources with additive per-letter distortion, that minimum is the rate-distortion function.",
+      "source_ids": [
+        "it-mit2016",
+        "it-cover-thomas"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Spoken lecture and mathematical companion",
+      "evidence_detail": "The manuscript derives the claim under explicit probabilistic hypotheses, with textbook and lecture-note sources recorded."
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "lecture_id": "005000",
+  "transcript": "005000-how-reliable-messages-cross-a-noisy-channel.md",
+  "description": "Develops a random-codebook achievability proof for the binary symmetric channel and Fano/data-processing converse, with careful error criteria.",
+  "tags": [
+    "Information theory",
+    "Channel coding theorem",
+    "Random coding",
+    "Binary symmetric channel",
+    "Fano inequality",
+    "Channel capacity",
+    "Typical decoding"
+  ],
+  "tag_paths": [
+    [
+      "Mathematics",
+      "Information theory",
+      "Channel coding",
+      "Shannon capacity"
+    ],
+    [
+      "Mathematics",
+      "Probability",
+      "Random coding"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "it-mit2010",
+      "reason": "Technical reference for the underlying mathematical definitions and theorems; narration and worked examples are independently authored."
+    },
+    {
+      "source_id": "it-mit2016",
+      "reason": "Technical reference for the underlying mathematical definitions and theorems; narration and worked examples are independently authored."
+    },
+    {
+      "source_id": "it-cover-thomas",
+      "reason": "Technical reference for the underlying mathematical definitions and theorems; narration and worked examples are independently authored."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-20",
+    "scope": "New spoken manuscript, mathematical derivations, checked examples, and a non-spoken technical companion. Existing lectures unchanged."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "information-theory:002000",
+        "reason": "Introduces mutual information, data processing, and the binary symmetric channel."
+      },
+      {
+        "lecture_id": "information-theory:004000",
+        "reason": "Develops typical-set counting used in random decoding."
+      }
+    ],
+    "background": [
+      "Discrete probability, logarithms, and elementary proof reasoning."
+    ],
+    "readiness_checks": [
+      "Bound a random rival codeword colliding with a typical received string.",
+      "Derive a rate upper bound from Fano inequality and data processing.",
+      "Distinguish average block error from a finite-block zero-error guarantee."
+    ]
+  },
+  "claim_evidence": [
+    {
+      "id": "it-005000-c001",
+      "anchor": "The decoder looks for a codeword whose difference from the received string resembles a typical noise pattern.",
+      "source_ids": [
+        "it-mit2010",
+        "it-mit2016",
+        "it-cover-thomas"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Spoken lecture and mathematical companion",
+      "evidence_detail": "The manuscript derives the claim under explicit probabilistic hypotheses, with textbook and lecture-note sources recorded."
+    },
+    {
+      "id": "it-005000-c002",
+      "anchor": "Combining the bounds gives a simple inequality: one minus P, times log base two of M, is no greater than n times capacity plus one.",
+      "source_ids": [
+        "it-mit2010",
+        "it-mit2016",
+        "it-cover-thomas"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Spoken lecture and mathematical companion",
+      "evidence_detail": "The manuscript derives the claim under explicit probabilistic hypotheses, with textbook and lecture-note sources recorded."
+    }
+  ]
+}

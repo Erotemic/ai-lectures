@@ -4,14 +4,16 @@
   "categories": [
     "Mathematics"
   ],
-  "summary": "Entropy and coding, dependency and noisy channels, and information divergence as a bridge between probability, communication, and statistics. Proof ideas, explicit binary calculations and hypotheses accompany the mathematical statements.",
+  "summary": "Entropy, coding, mutual information, divergence, and the theorems of lossless and lossy communication. Includes worked proofs for typical sets, random coding, rate-distortion, and sources with memory.",
   "assumed_background": [
     "Probability of discrete events, elementary logarithms, and willingness to work with sums."
   ],
   "sections": [
     "entropy-and-source-coding",
     "mutual-information-and-channels",
-    "divergence-and-statistics"
+    "divergence-and-statistics",
+    "lossy-source-coding",
+    "sources-with-memory"
   ],
   "lectures": [
     {
@@ -86,6 +88,133 @@
           "Mathematics",
           "Information theory",
           "Statistical learning"
+        ]
+      ]
+    },
+    {
+      "id": "004000",
+      "title": "Why Typical Sequences Can Be Compressed",
+      "section": "entropy-and-source-coding",
+      "file": "004000-why-typical-sequences-can-be-compressed.md",
+      "spoken_words": 1769,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 12.2,
+      "description": "Proves iid typical-set cardinality bounds, almost-lossless source coding achievability and converse, and the exact block-prefix entropy limit.",
+      "tags": [
+        "Information theory",
+        "Asymptotic equipartition property",
+        "Typical sets",
+        "Shannon source coding theorem",
+        "Block codes",
+        "Prefix coding"
+      ],
+      "tag_paths": [
+        [
+          "Mathematics",
+          "Information theory",
+          "Source coding",
+          "Typical sequences"
+        ],
+        [
+          "Mathematics",
+          "Probability",
+          "Law of large numbers"
+        ]
+      ]
+    },
+    {
+      "id": "005000",
+      "title": "How Reliable Messages Cross a Noisy Channel",
+      "section": "mutual-information-and-channels",
+      "file": "005000-how-reliable-messages-cross-a-noisy-channel.md",
+      "spoken_words": 1753,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 12.1,
+      "description": "Develops a random-codebook achievability proof for the binary symmetric channel and Fano/data-processing converse, with careful error criteria.",
+      "tags": [
+        "Information theory",
+        "Channel coding theorem",
+        "Random coding",
+        "Binary symmetric channel",
+        "Fano inequality",
+        "Channel capacity",
+        "Typical decoding"
+      ],
+      "tag_paths": [
+        [
+          "Mathematics",
+          "Information theory",
+          "Channel coding",
+          "Shannon capacity"
+        ],
+        [
+          "Mathematics",
+          "Probability",
+          "Random coding"
+        ]
+      ]
+    },
+    {
+      "id": "006000",
+      "title": "How Much Can We Afford to Forget?",
+      "section": "lossy-source-coding",
+      "file": "006000-how-much-can-we-afford-to-forget.md",
+      "spoken_words": 1850,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 12.8,
+      "description": "Derives the binary Hamming rate-distortion curve by entropy/data-processing converse and random covering achievability, then generalizes to test channels.",
+      "tags": [
+        "Information theory",
+        "Rate-distortion theory",
+        "Lossy compression",
+        "Hamming distortion",
+        "Mutual information",
+        "Random covering",
+        "Source coding"
+      ],
+      "tag_paths": [
+        [
+          "Mathematics",
+          "Information theory",
+          "Lossy compression",
+          "Rate-distortion"
+        ],
+        [
+          "Mathematics",
+          "Optimization",
+          "Constrained information minimization"
+        ]
+      ]
+    },
+    {
+      "id": "007000",
+      "title": "Entropy Rates and Sources with Memory",
+      "section": "sources-with-memory",
+      "file": "007000-entropy-rates-and-sources-with-memory.md",
+      "spoken_words": 1789,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 12.3,
+      "description": "Derives stationary entropy rate and exact two-state Markov examples, distinguishing marginal from predictive entropy and connecting to compression and log loss.",
+      "tags": [
+        "Information theory",
+        "Entropy rate",
+        "Stationary processes",
+        "Markov chains",
+        "Conditional entropy",
+        "Predictive coding",
+        "Cross-entropy rate"
+      ],
+      "tag_paths": [
+        [
+          "Mathematics",
+          "Information theory",
+          "Sources with memory",
+          "Entropy rate"
+        ],
+        [
+          "Mathematics",
+          "Probability",
+          "Markov chains"
         ]
       ]
     }

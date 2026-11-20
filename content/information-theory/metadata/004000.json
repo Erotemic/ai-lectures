@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "lecture_id": "004000",
+  "transcript": "004000-why-typical-sequences-can-be-compressed.md",
+  "description": "Proves iid typical-set cardinality bounds, almost-lossless source coding achievability and converse, and the exact block-prefix entropy limit.",
+  "tags": [
+    "Information theory",
+    "Asymptotic equipartition property",
+    "Typical sets",
+    "Shannon source coding theorem",
+    "Block codes",
+    "Prefix coding"
+  ],
+  "tag_paths": [
+    [
+      "Mathematics",
+      "Information theory",
+      "Source coding",
+      "Typical sequences"
+    ],
+    [
+      "Mathematics",
+      "Probability",
+      "Law of large numbers"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "it-mit2010",
+      "reason": "Technical reference for the underlying mathematical definitions and theorems; narration and worked examples are independently authored."
+    },
+    {
+      "source_id": "it-mit2016",
+      "reason": "Technical reference for the underlying mathematical definitions and theorems; narration and worked examples are independently authored."
+    },
+    {
+      "source_id": "it-cover-thomas",
+      "reason": "Technical reference for the underlying mathematical definitions and theorems; narration and worked examples are independently authored."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-20",
+    "scope": "New spoken manuscript, mathematical derivations, checked examples, and a non-spoken technical companion. Existing lectures unchanged."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "information-theory:001000",
+        "reason": "Introduces entropy, prefix codes, and Kraft inequality."
+      },
+      {
+        "lecture_id": "probability-measure:003000",
+        "reason": "Provides elementary concentration and the law of large numbers."
+      }
+    ],
+    "background": [
+      "Discrete probability, logarithms, and elementary proof reasoning."
+    ],
+    "readiness_checks": [
+      "Derive the two cardinality bounds for an iid typical set.",
+      "Explain why fixed-length almost-lossless and exact variable-length codes give different statements.",
+      "Use the counting converse to rule out a rate below entropy."
+    ]
+  },
+  "claim_evidence": [
+    {
+      "id": "it-004000-c001",
+      "anchor": "With probability approaching one as the block gets longer, the observed average surprise is close to its expected value.",
+      "source_ids": [
+        "it-mit2010",
+        "it-mit2016",
+        "it-cover-thomas"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Spoken lecture and mathematical companion",
+      "evidence_detail": "The manuscript derives the claim under explicit probabilistic hypotheses, with textbook and lecture-note sources recorded."
+    },
+    {
+      "id": "it-004000-c002",
+      "anchor": "The length of every codeword exceeds its ideal information content by less than one bit.",
+      "source_ids": [
+        "it-mit2010",
+        "it-mit2016",
+        "it-cover-thomas"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Spoken lecture and mathematical companion",
+      "evidence_detail": "The manuscript derives the claim under explicit probabilistic hypotheses, with textbook and lecture-note sources recorded."
+    }
+  ]
+}
