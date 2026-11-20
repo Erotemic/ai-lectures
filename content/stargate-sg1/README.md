@@ -1,6 +1,6 @@
 # Stargate SG-1: Through the Gate
 
-**Status: active track with ten published, audio-ready manuscripts.** `001000`, `005000`–`009000`, and `017000`–`020000` are complete, indexed in [track.json](track.json), and available in the listening routes in [navigation.json](navigation.json). See [BACKLOG.md](BACKLOG.md) for the remaining editorial plan. Future titles are *not* indexed until complete manuscripts exist.
+**Status: active track with thirteen published, audio-ready manuscripts.** `001000`, `005000`–`009000`, `011000`–`012000`, `014000`, and `017000`–`020000` are complete, indexed in [track.json](track.json), and available in the listening routes in [navigation.json](navigation.json). See [BACKLOG.md](BACKLOG.md) for the remaining editorial plan. Future titles are *not* indexed until complete manuscripts exist.
 
 ## The promise
 
@@ -14,9 +14,10 @@ The 1997–2007 television series is the center. The 1994 film supplies its orig
 
 The current complete manuscript inventory lives in `track.json`; `navigation.json` selects overlapping routes without duplicating manuscripts.
 
-- **Fan Essays and Deep Dives (default):** Character portraits, memorable episodes, enemies, production, choices, and humor; now offers four original-team portraits, Hammond and Fraiser (`009000`), and close readings of *The Fifth Race*, *Window of Opportunity*, *Heroes*, and *Lost City* (`017000`–`020000`), without demanding four introductions first. The eventual capstone will be last.
+- **Fan Essays and Deep Dives (default):** Character portraits, memorable episodes, enemies, production, choices, and humor; now offers four original-team portraits, Hammond and Fraiser (`009000`), three essays on Goa’uld rulers, the Tok’ra and intervention (`011000`, `012000`, `014000`), and close readings of *The Fifth Race*, *Window of Opportunity*, *Heroes*, and *Lost City* (`017000`–`020000`), without demanding four introductions first. The eventual capstone will be last.
 - **The Essentials:** Begins with the completed film-to-show essay (`001000`); three further orientation essays on team chemistry, the episode engine and the galaxy's power structure will join it as they are written.
-- **Every Lecture:** All completed manuscripts in ID order, currently `001000`, `005000`–`009000`, and `017000`–`020000`; the retrospective will be last after it exists.
+- **Every Lecture:** All completed manuscripts in ID order, currently `001000`, `005000`–`009000`, `011000`–`012000`, `014000`, and `017000`–`020000`; the retrospective will be last after it exists.
+- **Empires, Allies, and Choices:** The three completed political/ethical essays (`011000`, `012000`, `014000`) explore tyranny, alliances and interventions.
 - **Characters and Command:** All four original-team portraits are complete (`005000`–`008000`), as is the Hammond–Fraiser essay (`009000`); difficult allies and further institutional problems remain in development.
 - **Great Episodes and How They Work:** *The Fifth Race* (`017000`), *Window of Opportunity* (`018000`), *Heroes* (`019000`) and *Lost City* (`020000`) are complete.
 
@@ -47,4 +48,4 @@ Completed lectures use the repository's spoken markers, `metadata/NNNNNN.json` c
 
 ## Current manuscripts and next authoring step
 
-Four batches have published ten full manuscripts: the film-to-series opening (`001000`), the original team and SGC supporting personnel (`005000`–`009000`), and close readings of *The Fifth Race*, *Window of Opportunity*, *Heroes*, and *Lost City* (`017000`–`020000`). The remaining essentials essays (`002000`–`004000`) and thematic studies of the Goa’uld, intervention and Earth’s power (`010000`–`016000`) offer the next substantive directions. Expand navigation only with completed essays. Write the long historical capstone after the narrower arguments have matured so it can synthesize rather than repeat them.
+Five batches have published thirteen full manuscripts: the film-to-series opening (`001000`), the original team and SGC supporting personnel (`005000`–`009000`), the thematic essays about Goa’uld power, Tok’ra alliances and intervention (`011000`, `012000`, `014000`), and close readings of *The Fifth Race*, *Window of Opportunity*, *Heroes*, and *Lost City* (`017000`–`020000`). The remaining essentials essays (`002000`–`004000`) plus the uncompleted later character, Replicator, secrecy, Ori, technology and production essays offer the next substantive directions. Expand navigation only with completed essays. Write the long historical capstone after the narrower arguments have matured so it can synthesize rather than repeat them.
