@@ -112,6 +112,34 @@
         "Source refinement",
         "Indexed witness reconstruction"
       ]
+    },
+    {
+      "id": "droschinsky-2018",
+      "title": "Droschinsky–Kriege–Mutzel 2018 — Topological Paths, Weights and Penalties",
+      "role": "deep_dive",
+      "parent": "unordered",
+      "lectures": [
+        "000000",
+        "001000",
+        "002000",
+        "004000",
+        "016000",
+        "017000"
+      ],
+      "related_collections": [
+        "discrete-mathematics:graphs",
+        "logic-types:main"
+      ],
+      "tags": [
+        "Topological embedding",
+        "Common tree skeletons",
+        "Branch separation",
+        "Skipped vertices",
+        "Distance penalty",
+        "Direct-edge reward",
+        "Lean 4",
+        "Formal specification"
+      ]
     }
   ]
 }

@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "lecture_id": "016000",
+  "transcript": "016000-when-an-edge-becomes-a-path.md",
+  "description": "Defines topological common-tree embeddings through injective vertex images and separated paths, develops a valid/invalid fork example, distinguishes selected versus skipped vertices, and reads the exact source-to-skeleton correspondence in Lean.",
+  "related_resources": [
+    {
+      "source_id": "nx-dkm-2018",
+      "reason": "Pinned 2018 arXiv v1 / MFCS 2018, Definitions 1–2 and independent common-embedding semantics."
+    }
+  ],
+  "historical_claims": [],
+  "source_snapshot": {
+    "date": "2026-11-19",
+    "repository": "networkx_algo_common_subtree",
+    "statement_map": "docs/planning/paper_statement_crosswalk.md",
+    "proof_status": "proofs/PROOF_STATUS.md"
+  },
+  "tag_paths": [
+    [
+      "Computer Science",
+      "Algorithms",
+      "Graph algorithms"
+    ],
+    [
+      "Mathematics",
+      "Discrete mathematics",
+      "Graph theory"
+    ],
+    [
+      "Computer Science",
+      "Formal methods",
+      "Formal verification"
+    ],
+    [
+      "Computer Science",
+      "Programming languages",
+      "Lean 4"
+    ]
+  ],
+  "learning": {
+    "assumed_lectures": [
+      "000000",
+      "001000",
+      "002000"
+    ],
+    "learning_objectives": [
+      "Explain ancestry and branch-intersection clauses of Definition 1",
+      "Construct common-tree pair maps and disallow hidden branch points using a concrete counterexample",
+      "Distinguish rooted, root-to-root and unrooted witness requirements",
+      "Read both directions of the independent skeleton/source-embedding equivalence in Lean"
+    ]
+  }
+}

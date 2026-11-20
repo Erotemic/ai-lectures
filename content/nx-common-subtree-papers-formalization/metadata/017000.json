@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "lecture_id": "017000",
+  "transcript": "017000-the-price-of-a-skipped-vertex.md",
+  "description": "Derives Definition 4 exactly: reward edge labels only for two length-one paths, otherwise penalize the total skipped interiors; compares three numerical witnesses as penalty changes, proves penalty monotonicity, and traces the Lean scoring declarations.",
+  "related_resources": [
+    {
+      "source_id": "nx-dkm-2018",
+      "reason": "Pinned 2018 arXiv v1 / MFCS 2018, Definition 4, exact path scoring and the lead-in to Lemma 5."
+    }
+  ],
+  "historical_claims": [],
+  "source_snapshot": {
+    "date": "2026-11-19",
+    "repository": "networkx_algo_common_subtree",
+    "statement_map": "docs/planning/paper_statement_crosswalk.md",
+    "proof_status": "proofs/PROOF_STATUS.md"
+  },
+  "tag_paths": [
+    [
+      "Computer Science",
+      "Algorithms",
+      "Graph algorithms"
+    ],
+    [
+      "Mathematics",
+      "Discrete mathematics",
+      "Graph theory"
+    ],
+    [
+      "Computer Science",
+      "Formal methods",
+      "Formal verification"
+    ],
+    [
+      "Computer Science",
+      "Programming languages",
+      "Lean 4"
+    ]
+  ],
+  "learning": {
+    "assumed_lectures": [
+      "016000"
+    ],
+    "learning_objectives": [
+      "Compute scores for direct/direct, direct/long and long/long path pairs with signed node and edge weights",
+      "Show how changing the finite penalty changes which feasible witness scores highest",
+      "Explain forbidden weights, infinite penalty, zero penalty and negative nonempty optima",
+      "Read pathScore, one_two_path_score and maximum_score_antitone in the Lean source"
+    ]
+  }
+}

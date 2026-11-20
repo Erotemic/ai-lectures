@@ -90,6 +90,13 @@ Definition 4's path score for representing paths `P₁,P₂` of lengths `k,l` is
 
 Every matched common vertex additionally contributes its vertex-pair score. In the non-direct case, do **not** add the direct-edge reward on top of the skipped-vertex penalty. The paper's rooted and unrooted real-weight time target is `O(|T||T'|Δ)` with `Δ = min(Δ(T), Δ(T'))` under its stated model; the bounded-integer rooted improvement has separate hypotheses and an imported scaling-solver space qualification.
 
+### Lectures now available for the 2018 specification and scoring
+
+- `016000`: Definitions 1–2, a common-tree fork with two valid path realizations, a hidden branch-point counterexample, exact `Valid` skeleton requirements, `Valid.commonTree`, `valid_iff_source_embeddings`, and rooted/root-to-root representation bridges. Both representation directions are mathematical theorems; neither asserts optimized-source refinement.
+- `017000`: Definition 4 with edge rewards only when **both** realized paths are direct, skipped interior counts for all other path pairs, a numerical comparison of three explicitly feasible mappings, negative/infinite/zero-penalty cases, and the formal `pathScore` / `one_two_path_score` / `maximum_score_antitone` results. The worked example is not claimed to cover all possible embeddings because unrelated pair weights are not specified.
+
+The supplied proof snapshot supports independent nonempty finite optimum and the exact source-to-skeleton and score correspondences. It also contains the mapped/skipped recurrence and reference score correctness, to be taught in `018000`. The optimized source graph algorithm, its complete output-path reconstruction proof, `f64` refinement, Python boundary and paper time/space bounds remain separate research obligations.
+
 ## Shared source-refinement vocabulary
 
 A future lecture should use the following vocabulary consistently:

@@ -17,7 +17,8 @@
     "lozano-foundations",
     "droschinsky-foundations",
     "lozano-paper",
-    "droschinsky-2016-paper"
+    "droschinsky-2016-paper",
+    "droschinsky-2018-paper"
   ],
   "tags": [
     "Discrete mathematics",
@@ -333,6 +334,48 @@
         "Cost semantics",
         "Witness reconstruction"
       ]
+    },
+    {
+      "id": "016000",
+      "title": "When an Edge Becomes a Path: The Common Tree in Droschinsky 2018",
+      "file": "016000-when-an-edge-becomes-a-path.md",
+      "tags": [
+        "Droschinsky 2018",
+        "2018",
+        "Topological embedding",
+        "Common subtree embedding",
+        "Rooted trees",
+        "Nonoverlapping paths",
+        "Common skeleton",
+        "Partial bijection",
+        "Lean 4",
+        "Formal specification"
+      ],
+      "section": "droschinsky-2018-paper",
+      "spoken_words": 2766,
+      "estimated_minutes_at_145_wpm": 19.1,
+      "draft_status": "substantive"
+    },
+    {
+      "id": "017000",
+      "title": "The Price of a Skipped Vertex: Exact Scores in Droschinsky 2018",
+      "file": "017000-the-price-of-a-skipped-vertex.md",
+      "tags": [
+        "Droschinsky 2018",
+        "2018",
+        "Distance penalties",
+        "Edge label weights",
+        "Negative infinity",
+        "Weighted topological embedding",
+        "Scoring semantics",
+        "Sensitivity analysis",
+        "Lean 4",
+        "Formal verification"
+      ],
+      "section": "droschinsky-2018-paper",
+      "spoken_words": 3266,
+      "estimated_minutes_at_145_wpm": 22.5,
+      "draft_status": "substantive"
     }
   ]
 }
