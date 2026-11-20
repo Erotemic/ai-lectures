@@ -1,6 +1,6 @@
 # Dragon Ball: editorial map and future essays
 
-**Current state:** `001000`–`009000` are complete manuscripts and are published in `track.json`. All higher IDs below are **prospective**. They are not empty recordings, catalog entries, or commitments to a quota. Merge or replace adjacent ideas when that gives a better, more substantial listen. Drafts should supply enough plot to orient a listener but favor criticism, character, craft, production and real historical context over systematic recaps. Maintain the numbering of released lectures.
+**Current state:** `001000`–`012000` are complete manuscripts and are published in `track.json`. All higher IDs below are **prospective**. They are not empty recordings, catalog entries, or commitments to a quota. Merge or replace adjacent ideas when that gives a better, more substantial listen. Drafts should supply enough plot to orient a listener but favor criticism, character, craft, production and real historical context over systematic recaps. Maintain the numbering of released lectures.
 
 ## Completed opening: the artist before the hero
 
@@ -20,13 +20,16 @@
 - **008000 — Tien and the Tournament That Changed His Mind.** The 22nd tournament and the distinction between winning and deserving a win. Complete; ~27 minutes.
 - **009000 — King Piccolo: The Day the Rules Stopped Working.** Krillin’s death, a broken safety net, Tien and Roshi’s losses, Goku’s greatest early crisis. Complete; ~28 minutes.
 
+## Completed continuation: The last tournament and the art of early Dragon Ball
+
+- **010000 — The Last Tournament of Childhood: Goku and Piccolo Jr.** Goku’s grown-up return, the final championship, Chi-Chi, Shen, Piccolo Junior and the Senzu decision. Complete.
+- **011000 — Before the Transformations: What Made Young Goku Compelling?** A self-contained character study from the first quest through the last original tournament. Complete.
+- **012000 — Capsules, Cars, and Monsters: Toriyama Designs a World.** Manga forms, machines, animal people, geography, visual storytelling and the widening scale of conflict. Complete.
+
 ## The original Dragon Ball — remaining adventures and essays
 
 | ID | Proposed essay | Why it is a distinct essay |
 | --- | --- | --- |
-| `010000` | **The Last Tournament of Childhood: Goku and Piccolo Jr.** | The 23rd Tenkaichi Budokai, a grown Goku, rivalry and inheritance, marriage as comedy, an opponent who becomes part of the future. Close the original television portion without treating the story as a separate, discarded childhood prequel. |
-| `011000` | **Before the Transformations: What Made Young Goku Compelling?** | Across the early manga, how sincerity, appetite, ignorance, mercy and a taste for challenge coexist. A character essay that supports comparisons with older Goku without deciding later debates in advance. |
-| `012000` | **Capsules, Cars, Monsters: Toriyama Designs a World** | Early art and invention: silhouettes, readable machines, the strange coexistence of dinosaurs and modern cities, comic devices that carry the plot. Can address *Dr. Slump* as part of the same visual career, without repeating 001000 or 002000. |
 | `013000` | **Before Z Was on Television: The Original Dragon Ball Anime** | The 1986 anime's adaptation choices, voices, musical identity, television pacing, and the response to a growing battle narrative. Keep facts about production and regional release verifiable and differentiated. |
 
 ## The story continues: Saiyans, Frieza, Cell, and Buu
@@ -67,8 +70,8 @@
 
 ## Editorial and research reminders
 
-- **Priority next:** `010000` on Goku and Piccolo Jr. at the 23rd Tenkaichi Budokai. Afterwards, rotate in a young Goku character study and original-series art and animation essays rather than leaving those until after the Z-era battles.
+- **Priority next:** `013000` on the original 1986 *Dragon Ball* television anime: adaptation, music, voices, directing, and the experience of turning a changing manga into a weekly show. Then `014000` on Raditz, continuing the manga chronology into the period adapted as *Z*. Keep fan essays and deeper character/craft readings in rotation.
 - **Crossings between media:** Distinguish the 1984–1995 original continuous manga, the 1986 *Dragon Ball* TV series, 1989–1996 *Dragon Ball Z*, *Kai*, dubbing cuts and individual film continuities. Do not import later sequel backstory as evidence of Toriyama's original intentions in 1984.
 - **Oral style:** Every essay must be enjoyable without images or game footage. Explain the physical action and panel layout sufficiently for an audio listener. Include original criticism, memorable scenes and well-supported creator history; do not deliver listicles of trivia or fights.
 - **Biographical rigor:** Attribute editor anecdotes to Torishima or Toriyama and identify differences in their later recollections. Do not invent private conversations, emotional reactions or editorial orders where records do not exist.
-- **Future additions:** Treat all IDs above `009000` as ideas only. Register a lecture only when its manuscript and sources have been written. Reference `README.md` for published routes.
+- **Future additions:** Treat all IDs above `012000` as ideas only. Register a lecture only when its manuscript and sources have been written. Reference `README.md` for published routes.
