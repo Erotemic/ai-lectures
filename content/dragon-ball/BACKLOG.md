@@ -44,15 +44,18 @@
 - **024000 — Future Trunks: A Sword Through the Status Quo.** Frieza's return, Bulma's time machine, the ruined future, divergent histories and the limits of knowledge. Complete; ~25 minutes.
 - **018000 — Piccolo and the Child He Never Expected to Protect.** Piccolo Jr., Gohan, Nail, Kami, Cell-era guardianship and the transformation of a person shaped for revenge. Complete; ~25 minutes.
 
-## More story and character essays: Androids, Cell, and Buu
+## Completed continuation: Cell, the Cell Games, and two people outside the power scale
+
+- **025000 — Cell: A Monster Built from Other People's Strength.** First Form Cell and the empty Ginger Town, the predatory transformations, and the tournament that turns private horror into public spectacle. Complete; ~25 minutes.
+- **026000 — Gohan Versus Cell: The Victory Goku Could Not Win.** The burden of Goku's expectations, Piccolo's insight, Android 16, Gohan's rage and a victory that requires others. Complete; ~25 minutes.
+- **020000 — Bulma, Krillin, and the People Who Cannot Keep Up.** Inventors and friends changing events through skill and human judgment, from the first quest through the future timeline and Android 18. Complete; ~23 minutes.
+
+## More character essays and the Buu era
 
 | ID | Proposed essay | Central question |
 | --- | --- | --- |
 | `016000` | **Goku Is Not the Hero People Keep Asking Him to Be** | His appetite for hard fights, generosity and ethically difficult decisions: Frieza, Cell, and withdrawal. Competing readings of a benevolent hero who does not always behave like a responsible savior. |
 | `019000` | **Gohan: The Hero Who Doesn't Want the Job** | Childhood violence, latent potential, the Cell Games, school comedy and the distance between what fans want of him and what the character seems to want. |
-| `020000` | **Bulma, Krillin, and the People Who Cannot Keep Up** | Technical ingenuity, courage, fear, loyalty and the importance of non-superpowered characters as battles expand beyond their reach. |
-| `025000` | **Cell: A Monster Built from Other People's Strength** | The genre-shift from Android threat to hunt, absorption, psychological predation and public tournament; avoid easy claims about authorial intentions. |
-| `026000` | **Gohan Versus Cell: The Victory Goku Could Not Win** | Father-son misunderstanding, Android 16, sacrifice, rage and what the climax teaches about different relationships to fighting. |
 | `027000` | **The Buu Saga Refuses to Be One Kind of Story** | School comedy, tournament, horror, fusion, catastrophe, absurdity and the pleasures and difficulties of its wandering structure. |
 | `028000` | **Majin Vegeta: The Fight He Really Needed to Lose** | One decisive emotional episode in detail, distinct from the multi-season Vegeta portrait. |
 | `029000` | **Mr. Satan and Buu: The Joke That Saves the World** | The showman's comic impotence, friendship and compassion becoming more important than victory through strength. |
@@ -74,7 +77,7 @@
 
 ## Editorial and research reminders
 
-- **Priority next:** `025000`, Cell as the hunted-hunter/horror-story pivot, then `026000`, Gohan versus Cell, and either `016000` (Goku’s morally difficult choices) or `020000` (Bulma and Krillin). Rotate character studies with distinctive story criticism rather than creating one uninterrupted saga summary. Keep all previously reserved IDs stable.
+- **Priority next:** Begin Buu with `027000` as an argument about its changing genres, then `028000` on Majin Vegeta and `029000` on Mr. Satan and Buu. Alternate these with `016000` (Goku’s choices) and `019000` (Gohan’s larger life) when they offer something distinct from the new Cell essays. Keep all reserved IDs stable.
 - **Crossings between media:** Distinguish the 1984–1995 original continuous manga, the 1986 *Dragon Ball* TV series, 1989–1996 *Dragon Ball Z*, *Kai*, dubbing cuts and individual film continuities. Do not import later sequel backstory as evidence of Toriyama's original intentions in 1984.
 - **Oral style:** Every essay must be enjoyable without images or game footage. Explain the physical action and panel layout sufficiently for an audio listener. Include original criticism, memorable scenes and well-supported creator history; do not deliver listicles of trivia or fights.
 - **Biographical rigor:** Attribute editor anecdotes to Torishima or Toriyama and identify differences in their later recollections. Do not invent private conversations, emotional reactions or editorial orders where records do not exist.

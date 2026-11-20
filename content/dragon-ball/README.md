@@ -1,6 +1,6 @@
 # Dragon Ball: From Penguin Village to the End of Z
 
-**Status: started — twenty-one complete, source-annotated audio essays.** This is the active, unified track for Akira Toriyama's early work, *Dr. Slump*, the original *Dragon Ball* adventure, and the material adapted as *Dragon Ball Z*. It **supersedes the earlier proposed `dragon-ball-z` plan**. The twenty-one published lectures are real spoken manuscripts, not placeholders; remaining ideas are in [BACKLOG.md](BACKLOG.md), not in the published `track.json`.
+**Status: started — twenty-four complete, source-annotated audio essays.** This is the active, unified track for Akira Toriyama's early work, *Dr. Slump*, the original *Dragon Ball* adventure, and the material adapted as *Dragon Ball Z*. It **supersedes the earlier proposed `dragon-ball-z` plan**. The twenty-four published lectures are real spoken manuscripts, not placeholders; remaining ideas are in [BACKLOG.md](BACKLOG.md), not in the published `track.json`.
 
 ## Why begin before Goku?
 
@@ -31,6 +31,9 @@ The track should be **fun to listen to for fans who know the stories**. Treat ic
 | `022000` | **Frieza: A Tyrant Small Enough to Smile** | The design, military hierarchy, transformations and moral horror behind the Namek villain. |
 | `023000` | **The First Super Saiyan: When an Image Changed a Series** | Krillin, Frieza, manga composition and the 1991 Japanese episode that gave the transformation time and sound. |
 | `024000` | **Future Trunks: A Sword Through the Status Quo** | Frieza's sudden defeat, Bulma's time machine, divergent histories and the obligation to return to a ruined future. |
+| `025000` | **Cell: A Monster Built from Other People's Strength** | The empty town, a predator built from familiar fighters, and a horror story that becomes a coerced tournament. |
+| `026000` | **Gohan Versus Cell: The Victory Goku Could Not Win** | Goku's gamble, Piccolo's insight, Android 16, overwhelming strength and what winning costs. |
+| `020000` | **Bulma, Krillin, and the People Who Cannot Keep Up** | The Dragon Radar, friendship, the future time machine, and the moral choices of characters outside the strongest fighters. |
 | `018000` | **Piccolo and the Child He Never Expected to Protect** | King Piccolo's legacy, training Gohan, sacrifice, Nail, Kami and the Cell Games. |
 | `017000` | **Vegeta: Pride Is Harder to Defeat Than Goku** | A long character portrait from Nappa and Frieza to Trunks, Cell, Babidi and Buu; the contradictions of pride and attachment. |
 
@@ -38,12 +41,13 @@ These manuscripts contain non-spoken spoiler declarations and source notes, exac
 
 ## Listening routes
 
-- **From the Beginning** (default) — all twenty-one essays in sequence, continuing forward as new manuscripts are completed. The central plot of *Dragon Ball* begins at `003000`, but the series deliberately opens with the artist and *Dr. Slump*.
+- **From the Beginning** (default) — all twenty-four essays in sequence, continuing forward as new manuscripts are completed. The central plot of *Dragon Ball* begins at `003000`, but the series deliberately opens with the artist and *Dr. Slump*.
 - **Before Goku** — two substantive, independently listenable essays on Toriyama and *Dr. Slump*.
 - **Start with Goku** — `003000` onward for listeners who want to begin with Goku, including Namek, Frieza and Vegeta’s later journey, without *Dr. Slump* prerequisites.
 - **Character and Drawing** — Goku, Toriyama’s visual design, Piccolo, Vegeta and the Super Saiyan image (`011000`, `012000`, `018000`, `017000`, `023000`), including some later-story spoilers.
 - **Namek, Frieza, and Vegeta** — four finished long-form essays grouped by theme, including the first Super Saiyan, rather than numerical ID. The Vegeta portrait covers later storylines in full.
-- **Turning Points and Futures** — three complete essays about the Super Saiyan, Future Trunks and Piccolo, with Cell-era spoilers. Future fan routes should include only finished manuscripts, with the eventual historical capstone last.
+- **Turning Points and Futures** — five complete essays on Super Saiyan, Trunks, Piccolo, the horror of Cell and Gohan’s victory.
+- **The Androids and Cell** — Future Trunks, Cell, Gohan, Bulma and Krillin, and Piccolo; a complete spoiler-rich themed route. Future fan routes should include only finished manuscripts, with the eventual historical capstone last.
 
 ## Scope and working conventions
 
@@ -57,4 +61,4 @@ These manuscripts contain non-spoken spoiler declarations and source notes, exac
 
 ## Continuing the track
 
-The published manuscripts now include the 1986 anime, Saiyan invasion, Namek and Frieza, the first Super Saiyan, Future Trunks and full portraits of Piccolo and Vegeta. Next, the Androids and Cell deserve a distinct treatment before Gohan's decisive battle and Buu; shorter critical studies of Goku, Bulma and Krillin also remain to be written. See [BACKLOG.md](BACKLOG.md) for the larger editorial map. The final historical essay should be written after enough of the track exists to support a genuine synthesis.
+The published manuscripts now include the 1986 anime, Saiyan invasion, Namek, Frieza, Super Saiyan, Future Trunks, Cell’s arrival and the Cell Games, with full portraits of Piccolo and Vegeta and a human-scale essay on Bulma and Krillin. The next substantial story arc is Buu; Goku and Gohan portraits, the drawing and anime-production essays, and the long historical capstone remain to be written. See [BACKLOG.md](BACKLOG.md) for the larger editorial map. The final historical essay should be written after enough of the track exists to support a genuine synthesis.
