@@ -1,0 +1,389 @@
+{
+  "schema_version": 1,
+  "lecture_id": "032000",
+  "transcript": "032000-three-dots-no-instructions.md",
+  "tags": [
+    "GPT-SoapBox",
+    "Essays",
+    "Punctuation",
+    "Writing",
+    "Ellipsis",
+    "Typography",
+    "Publishing history",
+    "Printing",
+    "Quotation ethics",
+    "Literary history",
+    "Literature",
+    "Early modern drama",
+    "English drama",
+    "Terence",
+    "Maurice Kyffin",
+    "Anne Toner",
+    "Jane Austen",
+    "The Chicago Manual of Style",
+    "Editorial practices",
+    "Textual criticism",
+    "Linguistics",
+    "Linguistic ellipsis",
+    "Syntax",
+    "Pragmatics",
+    "Conversation",
+    "Digital communication",
+    "Text messaging",
+    "Generational language change",
+    "Gretchen McCulloch",
+    "Because Internet",
+    "Typing indicators",
+    "Messaging interfaces",
+    "Signal",
+    "Computer-mediated communication",
+    "Unicode",
+    "U+2026",
+    "Python",
+    "NumPy",
+    "Programming languages",
+    "Multidimensional arrays",
+    "Mathematics",
+    "Sequences",
+    "Evidence and interpretation",
+    "Critical reading",
+    "United Kingdom",
+    "England",
+    "London",
+    "Cambridge",
+    "United States",
+    "Chicago",
+    "Japan",
+    "Japanese typography",
+    "1588",
+    "1600s",
+    "1800s",
+    "1906",
+    "2015",
+    "2019",
+    "16th century",
+    "19th century",
+    "20th century",
+    "21st century",
+    "History of writing"
+  ],
+  "tag_paths": [
+    [
+      "Humanities",
+      "Linguistics",
+      "Punctuation",
+      "Ellipsis"
+    ],
+    [
+      "Humanities",
+      "Literature",
+      "English literature",
+      "Ellipsis"
+    ],
+    [
+      "History",
+      "History of printing",
+      "Early modern England",
+      "16th century"
+    ],
+    [
+      "History",
+      "History of writing",
+      "Typography",
+      "19th century"
+    ],
+    [
+      "Humanities",
+      "Linguistics",
+      "Pragmatics",
+      "Text messaging"
+    ],
+    [
+      "Technology",
+      "Communication",
+      "Digital messaging",
+      "Typing indicators"
+    ],
+    [
+      "Technology",
+      "Computing",
+      "Character encodings",
+      "Unicode"
+    ],
+    [
+      "Technology",
+      "Programming languages",
+      "Python",
+      "Ellipsis object"
+    ],
+    [
+      "Mathematics",
+      "Mathematical writing",
+      "Sequences"
+    ],
+    [
+      "Geography",
+      "Europe",
+      "United Kingdom",
+      "England"
+    ],
+    [
+      "Geography",
+      "Asia",
+      "Japan"
+    ],
+    [
+      "Geography",
+      "North America",
+      "United States",
+      "Illinois"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "gs-ellipsis-toner-book",
+      "reason": "History of ellipsis in drama and novels, including marks other than three dots and their relationship to voice and editing."
+    },
+    {
+      "source_id": "gs-ellipsis-cambridge-2015",
+      "reason": "1588 Kyffin translation of Terence, Jane Austen early manuscripts, printing-house editorial practices and standardization."
+    },
+    {
+      "source_id": "gs-ellipsis-chicago1906",
+      "reason": "Historical rule for four spaced periods to indicate certain omissions."
+    },
+    {
+      "source_id": "gs-ellipsis-chicago-speech",
+      "reason": "Three dots for speech trailing off rather than the four-dot convention used in quotation omissions."
+    },
+    {
+      "source_id": "gs-ellipsis-chicago-spacing",
+      "reason": "Contemporary approach to surrounding spaces with U+2026."
+    },
+    {
+      "source_id": "gs-ellipsis-oxford-grammar",
+      "reason": "Linguistic ellipsis as recoverable phonological or syntactic material absent from an utterance."
+    },
+    {
+      "source_id": "gs-ellipsis-mcculloch-scifri",
+      "reason": "Descriptive generational tendencies in ellipsis and message-break usage; not a universal age rule."
+    },
+    {
+      "source_id": "gs-ellipsis-mcculloch-guardian",
+      "reason": "Offline handwritten-letter and postcard precedent, including older writers using dots as separators."
+    },
+    {
+      "source_id": "gs-ellipsis-signal",
+      "reason": "Optional animated dots in messaging, privacy controls, reciprocal enablement."
+    },
+    {
+      "source_id": "gs-ellipsis-unicode17",
+      "reason": "U+2026, three full stops, spacing variation, use in East Asian typography."
+    },
+    {
+      "source_id": "gs-ellipsis-python",
+      "reason": "The Ellipsis singleton object and three-dot literal."
+    },
+    {
+      "source_id": "gs-ellipsis-numpy",
+      "reason": "Ellipsis in multidimensional indexing expands to the unspecified axes."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "m032-h01",
+      "anchor": "In her study of early printed drama, one of the examples comes from a 1588 English translation of the Roman playwright Terence's *Andria*.",
+      "kind": "history_or_statistics",
+      "source_ids": [
+        "gs-ellipsis-cambridge-2015",
+        "gs-ellipsis-toner-book"
+      ],
+      "source_locator": "gs-ellipsis-cambridge-2015",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "m032-h02",
+      "anchor": "The translator was Maurice Kyffin.",
+      "kind": "history_or_statistics",
+      "source_ids": [
+        "gs-ellipsis-cambridge-2015"
+      ],
+      "source_locator": "gs-ellipsis-cambridge-2015",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "m032-h03",
+      "anchor": "At points where the dialogue breaks, the printed text uses little sequences of dashes or hyphens, not the tidy three dots we would recognize today.",
+      "kind": "history_or_statistics",
+      "source_ids": [
+        "gs-ellipsis-cambridge-2015"
+      ],
+      "source_locator": "gs-ellipsis-cambridge-2015",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "m032-h04",
+      "anchor": "Jane Austen used dashes and runs of dots in some of her early manuscript writing.",
+      "kind": "history_or_statistics",
+      "source_ids": [
+        "gs-ellipsis-cambridge-2015"
+      ],
+      "source_locator": "gs-ellipsis-cambridge-2015",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "m032-h05",
+      "anchor": "By the nineteenth century, printed punctuation was becoming more standardized, although writers did not stop experimenting.",
+      "kind": "history_or_statistics",
+      "source_ids": [
+        "gs-ellipsis-cambridge-2015",
+        "gs-ellipsis-toner-book"
+      ],
+      "source_locator": "gs-ellipsis-cambridge-2015",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "m032-h06",
+      "anchor": "The first *Chicago Manual of Style*, published in 1906, specified four spaced periods in many cases where material was omitted from a quotation.",
+      "kind": "history_or_statistics",
+      "source_ids": [
+        "gs-ellipsis-chicago1906"
+      ],
+      "source_locator": "gs-ellipsis-chicago1906",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "m032-h07",
+      "anchor": "In linguistics, an ellipsis can occur without three dots—or any dots at all.",
+      "kind": "history_or_statistics",
+      "source_ids": [
+        "gs-ellipsis-oxford-grammar"
+      ],
+      "source_locator": "gs-ellipsis-oxford-grammar",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "m032-h08",
+      "anchor": "The linguist Gretchen McCulloch has described a generational difference in how some people use the dots.",
+      "kind": "history_or_statistics",
+      "source_ids": [
+        "gs-ellipsis-mcculloch-scifri"
+      ],
+      "source_locator": "gs-ellipsis-mcculloch-scifri",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "m032-h09",
+      "anchor": "McCulloch has emphasized that the difference is connected to how messages are divided.",
+      "kind": "history_or_statistics",
+      "source_ids": [
+        "gs-ellipsis-mcculloch-scifri"
+      ],
+      "source_locator": "gs-ellipsis-mcculloch-scifri",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "m032-h10",
+      "anchor": "Signal, for example, describes typing indicators as optional animated dots.",
+      "kind": "history_or_statistics",
+      "source_ids": [
+        "gs-ellipsis-signal"
+      ],
+      "source_locator": "gs-ellipsis-signal",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "m032-h11",
+      "anchor": "You can type three ordinary periods. Or you can use a single character whose Unicode name is *horizontal ellipsis*.",
+      "kind": "history_or_statistics",
+      "source_ids": [
+        "gs-ellipsis-unicode17"
+      ],
+      "source_locator": "gs-ellipsis-unicode17",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "m032-h12",
+      "anchor": "In Japanese typography, an ellipsis may be centered vertically rather than resting near the baseline like a period.",
+      "kind": "history_or_statistics",
+      "source_ids": [
+        "gs-ellipsis-unicode17"
+      ],
+      "source_locator": "gs-ellipsis-unicode17",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "m032-h13",
+      "anchor": "In Python, three consecutive periods are a literal value called *Ellipsis*.",
+      "kind": "history_or_statistics",
+      "source_ids": [
+        "gs-ellipsis-python"
+      ],
+      "source_locator": "gs-ellipsis-python",
+      "audit_status": "source_passage_checked"
+    },
+    {
+      "id": "m032-h14",
+      "anchor": "In the array library NumPy, an ellipsis in an index can stand for all the intervening dimensions.",
+      "kind": "history_or_statistics",
+      "source_ids": [
+        "gs-ellipsis-numpy"
+      ],
+      "source_locator": "gs-ellipsis-numpy",
+      "audit_status": "source_passage_checked"
+    }
+  ],
+  "claim_evidence": [
+    {
+      "id": "m032-c01",
+      "anchor": "The missing material might be a sentence, an emotion, a turn in the conversation, or nothing at all.",
+      "source_ids": [
+        "gs-ellipsis-oxford-grammar"
+      ],
+      "provenance": "source_supported_explanation",
+      "source_locator": "gs-ellipsis-oxford-grammar",
+      "evidence_detail": "Contrast between grammatical recovery and ambiguous standalone marks; essay inference."
+    },
+    {
+      "id": "m032-c02",
+      "anchor": "The omitted words must not overturn the sense being offered to the reader.",
+      "source_ids": [
+        "gs-ellipsis-chicago1906"
+      ],
+      "provenance": "source_supported_explanation",
+      "source_locator": "gs-ellipsis-chicago1906",
+      "evidence_detail": "Normative editorial argument based on ellipsis being a declaration of omitted quotation; bridge example is invented."
+    },
+    {
+      "id": "m032-c03",
+      "anchor": "A new bubble becomes a convenient alternative to a punctuation mark.",
+      "source_ids": [
+        "gs-ellipsis-mcculloch-scifri"
+      ],
+      "provenance": "source_supported_explanation",
+      "source_locator": "gs-ellipsis-mcculloch-scifri",
+      "evidence_detail": "McCulloch describes text-message bubbles as phrase separation replacing older uses of ellipses."
+    },
+    {
+      "id": "m032-c04",
+      "anchor": "The interface has shown hints of composition, not the content or the meaning of the composition.",
+      "source_ids": [
+        "gs-ellipsis-signal"
+      ],
+      "provenance": "source_supported_explanation",
+      "source_locator": "gs-ellipsis-signal",
+      "evidence_detail": "Animated typing status is distinct from a user-sent message."
+    },
+    {
+      "id": "m032-c05",
+      "anchor": "A program has to decide exactly what to do.",
+      "source_ids": [
+        "gs-ellipsis-python",
+        "gs-ellipsis-numpy"
+      ],
+      "provenance": "source_supported_explanation",
+      "source_locator": "gs-ellipsis-python",
+      "evidence_detail": "`Ellipsis` syntax has specified behavior in Python and NumPy."
+    }
+  ]
+}

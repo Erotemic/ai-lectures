@@ -111,6 +111,8 @@ listeners may choose any order.
 
 - **031000 — The Pots That Broke the Code.** How a Pylos inventory of tripods helped verify the decipherment of Linear B; Kober’s inflectional patterns, Bennett’s sign classifications, Ventris’s phonetic grid and place names, and Chadwick’s linguistic collaboration.
 
+- **032000 — Three Dots, No Instructions.** A tour of ellipses from stage interruptions and editorial cuts to text-message ambiguity, typing indicators, Unicode, and Python.
+
 Spoken narration is inside the standard marker pair in each manuscript. Source
 notes, constructed-example qualifications, and reading links follow the
 spoken region. Per-lecture metadata and reading records are in `metadata/`.
