@@ -77,7 +77,7 @@
     },
     {
       "id": "droschinsky-2016",
-      "title": "Droschinsky–Kriege–Mutzel 2016 — Weighted Isomorphism and Rooted DP",
+      "title": "Droschinsky–Kriege–Mutzel 2016 — Isomorphism, Matching and Reuse",
       "role": "deep_dive",
       "parent": "unordered",
       "lectures": [
@@ -86,7 +86,9 @@
         "002000",
         "004000",
         "010000",
-        "011000"
+        "011000",
+        "012000",
+        "013000"
       ],
       "related_collections": [
         "discrete-mathematics:graphs",
@@ -98,7 +100,11 @@
         "Weighted partial matching",
         "Dynamic programming",
         "Rooted recurrence",
-        "Lean 4"
+        "Lean 4",
+        "Assignment problem",
+        "Hungarian method",
+        "Vertex-deletion matching family",
+        "Primal-dual certificates"
       ]
     }
   ]

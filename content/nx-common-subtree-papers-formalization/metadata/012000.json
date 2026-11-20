@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "lecture_id": "012000",
+  "transcript": "012000-from-optional-branches-to-a-perfect-assignment.md",
+  "description": "Explains why partial matching is an assignment with an exact copied-graph reduction, both decode directions, real-valued dual feasibility, tightness, the smaller-side starting deficit, and the precise claimed rectangular augmentation cost.",
+  "related_resources": [
+    {
+      "source_id": "nx-dkm-2016",
+      "reason": "Pinned arXiv v4, Section 4, Algorithm 2, Lemmas 5 and 6, and the exact matching source crosswalk."
+    }
+  ],
+  "historical_claims": [],
+  "source_snapshot": {
+    "date": "2026-11-19",
+    "repository": "networkx_algo_common_subtree",
+    "statement_map": "docs/planning/paper_statement_crosswalk.md",
+    "proof_status": "proofs/PROOF_STATUS.md"
+  },
+  "tag_paths": [
+    [
+      "Mathematics",
+      "Discrete mathematics",
+      "Graph theory",
+      "Bipartite matching"
+    ],
+    [
+      "Mathematics",
+      "Optimization",
+      "Linear programming",
+      "Duality"
+    ],
+    [
+      "Computer Science",
+      "Algorithms",
+      "Graph algorithms"
+    ],
+    [
+      "Computer Science",
+      "Formal methods",
+      "Lean 4"
+    ]
+  ],
+  "learning": {
+    "assumed_lectures": [
+      "004000",
+      "010000",
+      "011000"
+    ],
+    "learning_objectives": [
+      "Construct the copied bipartite graph, explain allowed identity edges and why a maximum partial matching becomes a maximum perfect assignment",
+      "Prove the doubling bound by decoding both projections and extending a partial optimum",
+      "Prove the dual bound, explain tightness, and calculate the initial smaller-side assignment deficit",
+      "Derive Lemma 5 complexity under the paper augmentation model and locate the proved Lean subclaims and open source-cost boundary"
+    ]
+  }
+}

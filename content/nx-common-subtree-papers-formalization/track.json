@@ -245,6 +245,49 @@
         "Fixed-root lemma",
         "Lean 4"
       ]
+    },
+    {
+      "id": "012000",
+      "title": "From Optional Branches to a Perfect Assignment: Droschinsky 2016, Lemma 5",
+      "section": "droschinsky-2016-paper",
+      "file": "012000-from-optional-branches-to-a-perfect-assignment.md",
+      "spoken_words": 2950,
+      "estimated_minutes_at_145_wpm": 20.3,
+      "draft_status": "substantive",
+      "tags": [
+        "Droschinsky 2016",
+        "2016",
+        "Weighted bipartite matching",
+        "Assignment problem",
+        "Hungarian method",
+        "Primal-dual optimization",
+        "Dual certificates",
+        "Rectangular matching",
+        "Lean 4",
+        "Formal verification"
+      ]
+    },
+    {
+      "id": "013000",
+      "title": "One Deletion, One Augmentation: Droschinsky 2016, Lemma 6",
+      "section": "droschinsky-2016-paper",
+      "file": "013000-one-deletion-one-augmentation.md",
+      "spoken_words": 3175,
+      "estimated_minutes_at_145_wpm": 21.9,
+      "draft_status": "substantive",
+      "tags": [
+        "Droschinsky 2016",
+        "2016",
+        "Bipartite matching",
+        "Sensitivity analysis",
+        "Vertex deletion",
+        "Alternating paths",
+        "Hungarian method",
+        "Primal-dual optimization",
+        "Tree dynamic programming",
+        "Lean 4",
+        "Rust verification"
+      ]
     }
   ]
 }

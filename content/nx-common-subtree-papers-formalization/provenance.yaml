@@ -40,6 +40,15 @@ transcript:
         - repository: 'networkx_algo_common_subtree source archive supplied 2026-11-19'
           evidence: 'Droschinsky2016/Specification.lean; Witness.lean; Rooted.lean; BranchDecomposition.lean; BranchAssembly.lean; RootedRecurrence.lean; OrientedRecurrence.lean; RootedDynamicProgram.lean; paper_statement_crosswalk.md'
       scope: 'Author full lectures 010000 and 011000: independent 2016 nonempty weighted isomorphism, negative and bottom rewards, rooted child-matching recurrence with both witness directions, fixed-root Lemma 2 and checked source reading map. No new source proof, production refinement or runtime theorem is asserted.'
+    - date: '2026-11-19'
+      models:
+        - GPT-6
+      sources:
+        - paper: 'Droschinsky, Kriege and Mutzel 2016, MFCS Section 4, Lemmas 5 and 6, Algorithm 2'
+          url: https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.MFCS.2016.33
+        - repository: 'networkx_algo_common_subtree source archive supplied 2026-11-19'
+          evidence: 'Shared/CopiedAssignmentReduction.lean; CopiedMatchingInitialization.lean; CopiedMatchingDeletion.lean; CopiedMatchingRepair.lean; Rust/SparseDeletionEntrypoint.lean; paper_statement_crosswalk.md'
+      scope: 'Add substantive manuscripts 012000 and 013000 for Lemma 5 and Lemma 6, exact numerical examples, and separate mathematical, reference Rust, production and runtime guarantees. No new Lean or Rust theorem claimed.'
 learning_map:
   revisions:
     - date: '2026-11-19'
@@ -79,3 +88,9 @@ learning_map:
 
 # Independent 2026-11-19 continuation: paper-specific mathematics and costs.
 # No new theorem or runtime verification was performed in the source repository.
+
+# Content update: actual Droschinsky 2016 Lemmas 5-6.
+# Based on the user's same-day repository source archives and the MFCS 2016 primary paper.
+# Original first twelve manuscripts and their metadata are not changed by this revision.
+
+# New Droschinsky 2016 collection content 012000-013000 indexed by track and navigation.

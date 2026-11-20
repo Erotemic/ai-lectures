@@ -1,6 +1,6 @@
 # Roadmap — from foundations to paper proof to source verification
 
-This is a **curriculum plan**, not an indexed list of written lectures. IDs `000000`–`011000` are complete in the current pack. Later IDs are proposed, will be written as full narration with exact companion mathematics, and may be combined or expanded when the mathematics calls for it. Lecture order is a suggested path, not a fixed dependency graph.
+This is a **curriculum plan**, not an indexed list of written lectures. IDs `000000`–`013000` are complete in the current pack. Later IDs are proposed, will be written as full narration with exact companion mathematics, and may be combined or expanded when the mathematics calls for it. Lecture order is a suggested path, not a fixed dependency graph.
 
 The teaching goal is to be able to do four things for each paper: (1) define valid solutions independently of the algorithm; (2) derive and understand its central recurrence and claimed complexity; (3) find and read the corresponding Lean theorems and source obligations; and (4) identify the next useful correctness or cost proof without conflating optimized Rust, reference Rust, formal mathematics and Python API behavior.
 
@@ -36,8 +36,8 @@ The teaching goal is to be able to do four things for each paper: (1) define val
 | --- | --- | --- | --- |
 | **`010000` — written** | Independent weighted common-tree isomorphism, negative weights and objective conventions | Section 2 | `Droschinsky2016/Specification.lean`, `Witness.lean` |
 | **`011000` — written** | Rooted recurrence and why fixing one root suffices | Proposition 1 / Eq. (1), Lemma 2 | `RootedRecurrence.lean`, `OrientedRecurrence.lean`, `RootedDynamicProgram.lean` |
-| `012000` | Rectangular matching, copied assignment graphs, dual feasibility and optimality | Lemma 5 | `WeightedMatching` and `Rust/` matching modules, source crosswalk |
-| `013000` | All one-vertex-deleted matching instances and repair invariants | Lemma 6 | `WeightedMatching.CopiedAssignmentReduction`, `Rust.SparseDeletion` |
+| **`012000` — written** | Exact copied-graph reduction, assignment duality, starting deficit and rectangular cost | Lemma 5 | `Shared/CopiedAssignmentReduction.lean`, `CopiedMatchingInitialization.lean`, `CopiedMatchingDuality.lean` |
+| **`013000` — written** | Unmatched reuse, one-pair deletion deficit, dual-tight repair, family cost and Rust proof boundary | Lemma 6, Algorithm 2 | `Shared/MatchingDeletion.lean`, `CopiedMatchingDeletion.lean`, `Rust/SparseDeletionEntrypoint.lean` |
 | `014000` | Unrooted algorithm schedule and summing the matching costs | Proposition 3, Theorems 4, 7; optional Theorems 8–9 | Fixed-root theorem, production orientation/memo components, complexity plan |
 | `015000` | Formalization checkpoint: what is proved, what still blocks verified optimized Python output | Paper statement ledger and production backend | `paper_statement_crosswalk.md`, `PROOF_STATUS.md` |
 

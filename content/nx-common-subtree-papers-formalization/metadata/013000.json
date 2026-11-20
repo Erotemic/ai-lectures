@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "lecture_id": "013000",
+  "transcript": "013000-one-deletion-one-augmentation.md",
+  "description": "Develops the one-right-vertex deletion family: unchanged optimum for unmatched deletion, the single missing copied-assignment pair after matched deletion, one weighted augmenting-path repair, the family-wide work count and exact existing Lean and Rust proof boundaries.",
+  "related_resources": [
+    {
+      "source_id": "nx-dkm-2016",
+      "reason": "Pinned arXiv v4, Section 4, Algorithm 2, Lemmas 5 and 6, and the exact matching source crosswalk."
+    }
+  ],
+  "historical_claims": [],
+  "source_snapshot": {
+    "date": "2026-11-19",
+    "repository": "networkx_algo_common_subtree",
+    "statement_map": "docs/planning/paper_statement_crosswalk.md",
+    "proof_status": "proofs/PROOF_STATUS.md"
+  },
+  "tag_paths": [
+    [
+      "Mathematics",
+      "Discrete mathematics",
+      "Graph theory",
+      "Bipartite matching"
+    ],
+    [
+      "Computer Science",
+      "Algorithms",
+      "Dynamic programming"
+    ],
+    [
+      "Computer Science",
+      "Algorithms",
+      "Graph algorithms"
+    ],
+    [
+      "Computer Science",
+      "Formal methods",
+      "Formal verification"
+    ]
+  ],
+  "learning": {
+    "assumed_lectures": [
+      "004000",
+      "010000",
+      "011000",
+      "012000"
+    ],
+    "learning_objectives": [
+      "Identify one-vertex deletion families in the right-root orientation of the 2016 tree recurrence",
+      "Prove optimal matching reuse after deleting an unmatched vertex and bound the number of affected deletions",
+      "Explain the one-pair copied-assignment deficit and primal-dual augmentation under preserved feasible/tight certificates",
+      "Derive Lemma 6 family cost and distinguish proved mathematical, verified integer reference and open production/runtime layers"
+    ]
+  }
+}
