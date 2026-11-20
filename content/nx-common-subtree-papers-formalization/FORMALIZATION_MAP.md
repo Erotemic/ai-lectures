@@ -19,6 +19,15 @@ The source crosswalk is authoritative if the two records disagree; older plan pa
 
 The paper's original leaf measure needs care: the repository proves statements in actual tree depth and actual leaf count rather than silently identifying the paper's printed recurrence with true leaves. The displayed Theorem 3 bound is **expected** under a dictionary model; it is not a blanket runtime theorem for the source Rust implementation.
 
+
+### Lectures now available for the Lozano–Valiente proof chain
+
+- `005000`: D/R/S, the actual-leaf correction, `decomposition_card_bound` and its underlying finite-set inclusions.
+- `006000`: the first-pair structural split, constructive optimum (`paperCommon_correct`), numerical optimum (`paperLcs_optimum`), and tree correspondence.
+- `007000`: `memoLcs_tree_operation_bound`, real association-list comparison work, the paper's expected dictionary model, and the still-open source-level cost bridge.
+
+These are mathematical/paper walkthroughs with Lean entry points, **not** yet a complete line-by-line formalization tutorial. The next planned lecture (`008000`) audits the printed containment relation independently.
+
 ## 2016 — weighted unordered subtree isomorphism
 
 **The source paper:** [Droschinsky, Kriege & Mutzel, *Faster Algorithms for the Maximum Common Subtree Isomorphism Problem*](https://arxiv.org/pdf/1602.07210v4), pinned v4.

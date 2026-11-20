@@ -1,6 +1,6 @@
 # Roadmap — from foundations to paper proof to source verification
 
-This is a **curriculum plan**, not an indexed list of written lectures. IDs `000000`–`004000` are complete in the current pack. Everything after that is proposed, will be written as full narration with exact companion mathematics, and may be combined or expanded when the mathematics calls for it. Lecture order is a suggested path, not a fixed dependency graph.
+This is a **curriculum plan**, not an indexed list of written lectures. IDs `000000`–`007000` are complete in the current pack. Later IDs are proposed, will be written as full narration with exact companion mathematics, and may be combined or expanded when the mathematics calls for it. Lecture order is a suggested path, not a fixed dependency graph.
 
 The teaching goal is to be able to do four things for each paper: (1) define valid solutions independently of the algorithm; (2) derive and understand its central recurrence and claimed complexity; (3) find and read the corresponding Lean theorems and source obligations; and (4) identify the next useful correctness or cost proof without conflating optimized Rust, reference Rust, formal mathematics and Python API behavior.
 
@@ -18,11 +18,11 @@ The teaching goal is to be able to do four things for each paper: (1) define val
 
 **Suggested route:** `000000`, `001000`, `002000`, `003000`, then the following.
 
-| Proposed ID | Lecture focus | Original paper | Lean/proof landmark |
+| ID and status | Lecture focus | Original paper | Lean/proof landmark |
 | --- | --- | --- | --- |
-| `005000` | The D, R and S state families and why there are few of them | Definitions 3–4, Lemmas 1–7, Theorem 1 | `Paper2004/Decomposition.lean`, `TreeStateBounds.lean` |
-| `006000` | Longest common balanced sequence: derive all three recurrence branches, with witnesses | Definitions 2, 5, Theorem 2, Lemma 8 | `Paper2004/DynamicProgram.lean`, `OptimalEncoding.lean` |
-| `007000` | The published running time, dictionary assumptions and the difference between state counts and actual costs | Theorem 3 | `Paper2004/MemoizedDynamicProgram.lean`, `Rust/*` memo/cost theorems, crosswalk |
+| **`005000` — written** | The D, R and S state families and why there are few of them | Definitions 3–4, Lemmas 1–7, Theorem 1 | `Paper2004/Decomposition.lean`, `TreeStateBounds.lean` |
+| **`006000` — written** | Longest common balanced sequence: derive all three recurrence branches, with witnesses | Definitions 2, 5, Theorem 2, Lemma 8 | `Paper2004/DynamicProgram.lean`, `OptimalEncoding.lean` |
+| **`007000` — written** | The published running time, dictionary assumptions and the difference between state counts and actual costs | Theorem 3 | `Paper2004/MemoizedDynamicProgram.lean`, `Rust/*` memo/cost theorems, crosswalk |
 | `008000` | Printed Definition 2 versus independent edge contraction: a complete specification audit | Definitions 2, 5 and Theorem 2 | `PaperContainment.lean`, `PrintedContainmentCounterexample.lean`, `ContractionCompleteness.lean` |
 | `009000` | Reading the proved ordered pipeline: operational witnesses, balanced tokens, indexed reconstruction and source refinement | Paper interpreted operationally; project extension | `Paper2004/TokenEncoding.lean`, `TokenMaximum.lean`, `Rust/` indexed/guided modules |
 
@@ -85,6 +85,6 @@ The paper-specific lectures will still explain whatever piece of these prerequis
 
 ## Next sensible authoring session
 
-Write `005000` and `006000` in depth, following the 2004 paper's D/R/S families and Lemma 8 proof. They are the shortest path from the current prerequisites to a complete original-paper argument and a substantial body of already-compiled Lean mathematics. The 2016 rooted recurrence would also be a good independent second branch if more variety is preferred; neither option requires a new repository restructure.
+The three linked paper-focused lectures `005000`–`007000` are now written. Continue with `008000`, a close reading of the printed Definition 2 containment error and the corrected operational relation, followed by `009000`, a guided tour from the proved tree/Dyck optimum through token indexing and actual-source refinement. Then rotate to the 2016 rooted recurrence as an independent second paper branch.
 
 Before writing *formalization status* manuscripts in any later session, inspect the **current** source repository. This roadmap records the November 19, 2026 upload rather than assuming proof status remains fixed.

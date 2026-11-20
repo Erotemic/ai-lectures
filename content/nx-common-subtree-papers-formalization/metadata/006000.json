@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "lecture_id": "006000",
+  "transcript": "006000-lemma-eight-three-exhaustive-choices.md",
+  "description": "Proves the three cases of Lemma 8 in both directions, works two concrete recurrences, and traces the independent-optimum and witness theorems in Lean.",
+  "related_resources": [
+    {
+      "source_id": "nx-lozano-2004",
+      "reason": "Paper Section 3 Theorem 2 and Section 4 Lemma 8, interpreted with operational containment."
+    }
+  ],
+  "historical_claims": [],
+  "source_snapshot": {
+    "date": "2026-11-19",
+    "repository": "networkx_algo_common_subtree",
+    "statement_map": "docs/planning/paper_statement_crosswalk.md",
+    "proof_status": "proofs/PROOF_STATUS.md"
+  },
+  "tag_paths": [
+    [
+      "Mathematics",
+      "Discrete mathematics",
+      "Graph theory",
+      "Trees"
+    ],
+    [
+      "Computer Science",
+      "Algorithms",
+      "Graph algorithms"
+    ],
+    [
+      "Computer Science",
+      "Formal methods",
+      "Formal verification"
+    ],
+    [
+      "Mathematics",
+      "Combinatorics",
+      "Dynamic programming"
+    ]
+  ],
+  "learning": {
+    "assumed_lectures": [
+      "000000",
+      "001000",
+      "002000",
+      "003000",
+      "005000"
+    ],
+    "learning_objectives": [
+      "Derive the first-pair case split",
+      "Prove both optimality directions using feasible witnesses",
+      "Compute examples",
+      "Locate the separate witness and numeric Lean theorems"
+    ]
+  }
+}

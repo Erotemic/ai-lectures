@@ -13,14 +13,17 @@ The course starts with **independent problem definitions**, works through recurr
 | 002000 | [Tree Dynamic Programming as a Proof](002000-tree-dynamic-programming-as-a-proof.md) | States, rooted recurrence, soundness, completeness and cost |
 | 003000 | [Balanced Words and Ordered-Tree Contractions](003000-balanced-words-and-ordered-tree-contractions.md) | Foundation for Lozano–Valiente 2004 |
 | 004000 | [Matching Child Branches and Reusing the Answer](004000-matchings-child-branches-and-reuse.md) | Foundation for both Droschinsky papers |
+| 005000 | [The Small World of D, R, and S](005000-the-small-world-of-d-r-and-s.md) | Decomposition, six-state example, Theorem 1 and actual-leaf correction |
+| 006000 | [Lemma 8: Three Exhaustive Choices](006000-lemma-eight-three-exhaustive-choices.md) | Soundness, completeness, witnesses and the independent optimum |
+| 007000 | [From a Small State Space to a Running-Time Theorem](007000-from-small-state-space-to-runtime.md) | Theorem 3, expected hashing, actual operation counts and remaining costs |
 
-The initial five lectures are foundations and orientation, not a claim that the complete papers or their formalization have already been taught. See [ROADMAP.md](ROADMAP.md) for the remaining paper-specific sequence and [FORMALIZATION_MAP.md](FORMALIZATION_MAP.md) for the exact snapshot of proved and open source results.
+The first five lectures establish foundations. Lectures `005000`–`007000` work through Lozano–Valiente (2004), Section 2 and Section 4: the decomposition bound, Lemma 8 and Theorem 3. This is not yet a lecture-by-lecture reading of the repository’s full Lean and Rust refinement proofs. See [ROADMAP.md](ROADMAP.md) for the remaining paper-specific sequence and [FORMALIZATION_MAP.md](FORMALIZATION_MAP.md) for the exact snapshot of proved and open source results.
 
 ## Suggested listening routes
 
-**All three papers:** `000000 → 001000 → 002000 → 003000 → 004000`, then follow the planned paper-specific lectures as they are written.
+**All three papers:** `000000 → 001000 → 002000 → 003000 → 004000`, then choose a paper path. The 2004 paper path is now available through `007000`; Droschinsky-specific lectures remain planned.
 
-**Lozano–Valiente (ordered contractions):** `000000 → 001000 → 002000 → 003000`. An optional earlier refresher is `algorithms-computability-complexity:011000` (dynamic programming), with `logic-types:004000` (inductive types) available before the formalization lectures.
+**Lozano–Valiente (ordered contractions):** `000000 → 001000 → 002000 → 003000 → 005000 → 006000 → 007000`. An optional earlier refresher is `algorithms-computability-complexity:011000` (dynamic programming), with `logic-types:004000` (inductive types) available before the formalization lectures.
 
 **Droschinsky 2016 (unordered isomorphism):** `000000 → 001000 → 002000 → 004000`. Existing `discrete-mathematics:005000` develops matchings and flow certificates at greater breadth; `algorithms-computability-complexity:015000` develops optimization certificates.
 
@@ -58,4 +61,4 @@ The repository's `docs/planning/paper_statement_crosswalk.md` supplies theorem-l
 - The ordered exact-rational isomorphism backend is a project extension with its own contract, not a theorem claimed by the 2004 paper.
 - The 2018 direct-edge reward is awarded only if **both** representing paths have length one. Otherwise skipped-vertex distance penalties apply.
 
-**Future sessions:** Follow [ROADMAP.md](ROADMAP.md) by the user's preferred paper or theorem frontier. Each new session can add complete manuscripts without forcing the entire course to be written in one batch.
+**Next source-reading stage:** `008000` is the printed-versus-operational containment audit; `009000` will read the Lean tree/word/token and actual-source refinement pipeline. **Future sessions:** Follow [ROADMAP.md](ROADMAP.md) by the user's preferred paper or theorem frontier. Each new session can add complete manuscripts without forcing the entire course to be written in one batch.

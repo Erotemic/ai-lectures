@@ -15,7 +15,8 @@
     "orientation",
     "shared-foundations",
     "lozano-foundations",
-    "droschinsky-foundations"
+    "droschinsky-foundations",
+    "lozano-paper"
   ],
   "tags": [
     "Discrete mathematics",
@@ -110,6 +111,61 @@
         "Droschinsky 2016",
         "Droschinsky 2018",
         "Graph algorithms"
+      ]
+    },
+    {
+      "id": "005000",
+      "title": "The Small World of D, R, and S: Why the Decomposition Fits in a Table",
+      "section": "lozano-paper",
+      "file": "005000-the-small-world-of-d-r-and-s.md",
+      "spoken_words": 2713,
+      "estimated_minutes_at_145_wpm": 18.7,
+      "draft_status": "substantive",
+      "tags": [
+        "Lozano–Valiente 2004",
+        "Ordered trees",
+        "Dyck words",
+        "State-space bounds",
+        "Structural induction",
+        "Tree depth",
+        "Tree leaves",
+        "Formal verification"
+      ]
+    },
+    {
+      "id": "006000",
+      "title": "Lemma 8: Three Exhaustive Choices for a Common Ordered Subtree",
+      "section": "lozano-paper",
+      "file": "006000-lemma-eight-three-exhaustive-choices.md",
+      "spoken_words": 2853,
+      "estimated_minutes_at_145_wpm": 19.7,
+      "draft_status": "substantive",
+      "tags": [
+        "Lozano–Valiente 2004",
+        "Common subtree",
+        "Tree contraction",
+        "Dynamic programming",
+        "Optimality proof",
+        "Witness construction",
+        "Lean 4"
+      ]
+    },
+    {
+      "id": "007000",
+      "title": "From a Small State Space to a Running-Time Theorem",
+      "section": "lozano-paper",
+      "file": "007000-from-small-state-space-to-runtime.md",
+      "spoken_words": 2617,
+      "estimated_minutes_at_145_wpm": 18.0,
+      "draft_status": "substantive",
+      "tags": [
+        "Lozano–Valiente 2004",
+        "Graph algorithms",
+        "Time complexity",
+        "Expected time",
+        "Memoization",
+        "Hashing",
+        "Formal verification"
       ]
     }
   ]

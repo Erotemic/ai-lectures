@@ -27,14 +27,17 @@
     },
     {
       "id": "ordered",
-      "title": "Lozano–Valiente 2004 — Ordered-Tree Foundations",
+      "title": "Lozano–Valiente 2004 — Decomposition, Lemma 8, and Complexity",
       "role": "deep_dive",
       "parent": "start-here",
       "lectures": [
         "000000",
         "001000",
         "002000",
-        "003000"
+        "003000",
+        "005000",
+        "006000",
+        "007000"
       ],
       "related_collections": [
         "logic-types:main"
@@ -42,7 +45,9 @@
       "tags": [
         "Ordered trees",
         "Dyck words",
-        "Edge contraction"
+        "Edge contraction",
+        "Dynamic programming",
+        "Complexity analysis"
       ]
     },
     {

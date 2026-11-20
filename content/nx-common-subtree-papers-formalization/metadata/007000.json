@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "lecture_id": "007000",
+  "transcript": "007000-from-small-state-space-to-runtime.md",
+  "description": "Builds Theorem 3 from state and call counts, explains expected dictionary costs, and separates proved reference comparisons from open source-level runtime work.",
+  "related_resources": [
+    {
+      "source_id": "nx-lozano-2004",
+      "reason": "Paper Section 4 Theorem 3, expected dictionary assumptions and dynamic-program state accounting."
+    }
+  ],
+  "historical_claims": [],
+  "source_snapshot": {
+    "date": "2026-11-19",
+    "repository": "networkx_algo_common_subtree",
+    "statement_map": "docs/planning/paper_statement_crosswalk.md",
+    "proof_status": "proofs/PROOF_STATUS.md"
+  },
+  "tag_paths": [
+    [
+      "Mathematics",
+      "Discrete mathematics",
+      "Graph theory",
+      "Trees"
+    ],
+    [
+      "Computer Science",
+      "Algorithms",
+      "Graph algorithms"
+    ],
+    [
+      "Computer Science",
+      "Formal methods",
+      "Formal verification"
+    ],
+    [
+      "Mathematics",
+      "Combinatorics",
+      "Asymptotic analysis"
+    ]
+  ],
+  "learning": {
+    "assumed_lectures": [
+      "000000",
+      "001000",
+      "002000",
+      "003000",
+      "005000",
+      "006000"
+    ],
+    "learning_objectives": [
+      "Compose the state and memo call bounds",
+      "Distinguish expected hashing from constant-cost assumptions",
+      "Read actual list comparison bounds",
+      "Describe the open source-level cost bridge"
+    ]
+  }
+}
