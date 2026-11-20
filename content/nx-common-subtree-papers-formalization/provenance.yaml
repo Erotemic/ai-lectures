@@ -118,3 +118,11 @@ learning_map:
 # Bellman state and reference score proofs are recorded as existing source claims.
 # Unrooted M1/M2 structural proof, optimized schedule/cost and Rust/Python
 # refinement remain explicitly open; no new source proofs asserted.
+
+# Droschinsky 2018 completion of paper-level lectures (2026-11-20):
+# GPT-6 original spoken manuscripts 020000-021000. Sources: MFCS 2018
+# Theorem 6, Lemmas 12-14, Theorem 15; November 19 user-supplied NX archive
+# (paper_statement_crosswalk.md; Droschinsky2018/OverallOptima.lean;
+# RootedDynamicProgram.lean; Complexity/MatchingFamilies.lean;
+# production tree.rs and matching.rs). Exact paper claim distinctions preserved.
+# This is lecture content only: no new Lean, Rust, Python or runtime proof is asserted.

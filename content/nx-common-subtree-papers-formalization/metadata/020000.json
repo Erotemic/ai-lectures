@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "lecture_id": "020000",
+  "transcript": "020000-one-matching-and-all-its-missing-neighbors.md",
+  "description": "Explains the rooted cost baseline, right-view reuse, top-two exclusion maxima, whole weighted matching-deletion families, rectangular repair and the main/sub evaluation schedule. Derives Lemmas 12–14 and Theorem 15 with a numerical matching example and precise theorem-versus-source verification boundaries.",
+  "related_resources": [
+    {
+      "source_id": "nx-dkm-2018",
+      "reason": "MFCS 2018 Sections 4–5, rooted Theorem 6 and Lemmas 12–14, Theorem 15, pp. 54:7–54:14."
+    }
+  ],
+  "historical_claims": [],
+  "source_snapshot": {
+    "date": "2026-11-19",
+    "repository": "networkx_algo_common_subtree",
+    "statement_map": "docs/planning/paper_statement_crosswalk.md",
+    "proof_status": "proofs/PROOF_STATUS.md"
+  },
+  "tag_paths": [
+    [
+      "Computer Science",
+      "Algorithms",
+      "Graph algorithms"
+    ],
+    [
+      "Mathematics",
+      "Discrete mathematics",
+      "Graph theory"
+    ],
+    [
+      "Computer Science",
+      "Formal methods",
+      "Formal verification"
+    ],
+    [
+      "Computer Science",
+      "Programming languages",
+      "Lean 4"
+    ]
+  ],
+  "learning": {
+    "assumed_lectures": [
+      "019000",
+      "013000"
+    ],
+    "learning_objectives": [
+      "Derive the rooted O(nm Delta) matching bound using child-degree summation",
+      "Prove that maxima over all single-neighbor exclusions are obtained from top-two distinct-origin candidates",
+      "Explain matching-family reuse and the O(s^4+s^2t) rectangular deletion bound",
+      "Derive Lemmas 12–14 and Theorem 15 including the main/sub schedule and its conditional hypotheses",
+      "Distinguish the abstract cost proof from source-level correctness and resource proofs"
+    ]
+  }
+}

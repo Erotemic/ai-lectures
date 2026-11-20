@@ -105,6 +105,14 @@ The supplied proof snapshot supports independent nonempty finite optimum, exact 
 - **Lemmas 9–11, paper only:** An arbitrarily fixed first root can miss an unrooted optimum when the highest realized vertex is skipped along a crossing path. The paper adds a cardinality-two matching of two distinct child branches across a cut edge in the second tree, with one central penalty. Its top-two exchange argument makes the added M2 maximization linear in the rooted child-family size. These specific fixed-first-root structural and cost proofs are **open** in the uploaded Lean snapshot.
 - **Certified baseline for contrast:** `OverallOptima.unrootedValue_eq_max_rerooted_mapped` and `RootedDP.unrootedOptimum_correct` prove correctness of evaluating every input root pair, under the stated finite vertex and true child-list hypotheses. They do not imply the optimized Lemma 10/11 representation or runtime.
 
+### New 2018 proof-reading guide (`020000`–`021000`)
+
+- **`020000`, Lemma 12:** A full-neighborhood maximum and every one-neighbor exclusion maximum can be obtained from the best two candidates with distinct right-neighbor origins. Conditional on the necessary state values being ready, the aggregate scalar work is `O(|T||T'|)`.
+- **`020000`, Lemmas 13–14:** Related matching graphs differ by removing one right neighbor. The all-deletions algorithm has `O(s^4+s²t)` cost for `s<=t` (Lemma 14). Combining it with the earlier 2016 family method at the `s >= log t` threshold yields one-family cost `O(s²t)`, not that cost multiplied by the number of deletions. Summing degree products yields `O(|T||T'| min(Delta(T),Delta(T')))`. These are paper results; their optimized Rust complexity proofs remain open.
+- **`020000`, Theorem 15:** The paper's main/sub-instance evaluation schedule discharges the conditional ordering hypothesis and gives unrooted time `O(|T||T'| Delta)` and space `O(|T||T'|)`. `Complexity/MatchingFamilies.lean` is a partial mathematical counting result, not full Rust memory evidence.
+- **`021000`, source reading:** `RootedDP.unrootedOptimum_correct` proves an exhaustive all-roots optimum, **not** the optimized fixed-left-root M1/M2 theorem. The production `embedding_matching_family`, `compute_embeddings`, `max_weight_bipartite_matching_with_right_deletions`, skipped-highest join, and Python node/path conversions require separate source, numeric and resource refinement.
+- **`021000`, proof interfaces:** Proposed high-level obligations are highest-realized-vertex soundness/completeness, right-view decoding, two-best distinct-origin exclusions, matching-family correctness, a two-phase table invariant and concrete resource accounting. The interfaces are suggestions, not implemented Lean declaration names.
+
 ## Shared source-refinement vocabulary
 
 A future lecture should use the following vocabulary consistently:

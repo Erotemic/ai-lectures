@@ -1,6 +1,6 @@
 # Roadmap — from foundations to paper proof to source verification
 
-This is a **curriculum plan**, not an indexed list of written lectures. IDs `000000`–`019000` are complete in the current pack. Later IDs are proposed, will be written as full narration with exact companion mathematics, and may be combined or expanded when the mathematics calls for it. Lecture order is a suggested path, not a fixed dependency graph.
+This is a **curriculum plan**, not an indexed list of written lectures. IDs `000000`–`021000` are complete in the current pack. Later IDs are proposed, will be written as full narration with exact companion mathematics, and may be combined or expanded when the mathematics calls for it. Lecture order is a suggested path, not a fixed dependency graph.
 
 The teaching goal is to be able to do four things for each paper: (1) define valid solutions independently of the algorithm; (2) derive and understand its central recurrence and claimed complexity; (3) find and read the corresponding Lean theorems and source obligations; and (4) identify the next useful correctness or cost proof without conflating optimized Rust, reference Rust, formal mathematics and Python API behavior.
 
@@ -53,10 +53,10 @@ The teaching goal is to be able to do four things for each paper: (1) define val
 | **`017000` — written** | Exact scoring: direct edge reward, skipped-path penalties, impossible matches and negative weights | Definition 4 | `GraftScore.lean`, `ScoreDecomposition.lean`, `BranchReward.lean` |
 | **`018000` — written** | Why the DP needs mapped and skipped states; deriving Lemma 5 | Lemma 5 | `BoundaryStates.lean`, `SkippedRecurrence.lean`, `RootedDynamicProgram.lean` |
 | **`019000` — written** | The unrooted structural split, highest mapped vertices, joins and root choices | Lemmas 9–11 | `OverallOptima.lean`, structural source crosswalk (open frontier) |
-| `020000` | Related matching families, evaluation order and the claimed optimized space/time | Lemmas 12–14, Theorem 15; rooted Theorem 6 | Matching/complexity modules, production schedule and current open goals |
-| `021000` | Formalization checkpoint: source-level path reconstruction, f64 conventions and Python witness boundaries | Source versus production behavior | `Droschinsky2018/` proof modules and Rust/Python backend docs |
+| **`020000` — written** | Right-view maxima, matching-deletion families, evaluation order and whole-algorithm cost | Lemmas 12–14 and Theorem 15; rooted Theorem 6 | `Complexity/MatchingFamilies.lean` (partial math bounds), production `tree.rs`/`matching.rs`, open source theorems |
+| **`021000` — written** | Source-aware 2018 verification guide: independent specification, proven recurrence and reference solver, optimized structural/cost/source/numeric/API obligations | The 2018 paper as a whole | `OverallOptima.lean`, `RootedDynamicProgram.lean`, source Rust, `paper_statement_crosswalk.md` |
 
-**Milestone:** Trace a candidate common edge through two paths, compute precisely when its direct edge reward is counted and when penalties apply, derive both Lemma 5 states, then state which unrooted and complexity claims still lack source-level proofs.
+**Milestone:** Trace a common edge through two paths, compute exact path rewards/penalties, derive Lemma 5, reconstruct the M₁/M₂ split, recover Theorem 15 from matching-family and scheduling bounds, and distinguish published cost arguments from Lean/source/API proofs in the pinned repository.
 
 ## E. Shared formalization and research methods
 
@@ -85,6 +85,6 @@ The paper-specific lectures will still explain whatever piece of these prerequis
 
 ## Next sensible authoring session
 
-The Lozano–Valiente branch is written through `009000`, including the source-notation counterexample and formalization reading route. The 2016 branch is written through `015000`: mathematical definitions, recurrence, matching optimization, complete paper complexity argument, and a source-aware list of unresolved verification interfaces. The 2018 branch is written through `019000`: topological embeddings, exact path scores, the mapped/skipped two-state recurrence and its existing Lean proofs (Lemma 5), and the paper's structural unrooted split (Lemmas 9–11), which remains an open source-level Lean proof frontier. The next paper-specific authoring step is `020000`, related matching families and the actual optimized time/space argument (Lemmas 12–14, Theorem 15). The 2004 and 2016 source-level runtime and Python/NetworkX refinement frontiers remain open research work, not claims of completion.
+The Lozano–Valiente branch is written through `009000`, including the source-notation counterexample and formalization reading route. The 2016 branch is written through `015000`: mathematical definitions, recurrence, matching optimization, complete paper complexity argument, and a source-aware list of unresolved verification interfaces. The 2018 branch is written through `021000`: topological embeddings, path scoring, mapped/skipped two-state recurrence, fixed-first-root structural reduction, matching-family reuse, the published time/space analysis, and a detailed formalization status and source-refinement guide. Lemmas 9–14 and Theorem 15 remain open formalization frontiers in the pinned repository, despite the mathematical explanation in these lectures. The next authoring step is `022000`, starting the shared reading-and-extension sequence for actual Lean theorems. The 2004 and 2016 source-level runtime and Python/NetworkX refinement frontiers remain open research work, not claims of completion.
 
 Before writing *formalization status* manuscripts in any later session, inspect the **current** source repository. This roadmap records the November 19, 2026 upload rather than assuming proof status remains fixed.
