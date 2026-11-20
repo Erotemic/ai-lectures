@@ -1,0 +1,144 @@
+{
+  "schema_version": 1,
+  "lecture_id": "021000",
+  "transcript": "021000-the-stargate-is-a-machine-for-plot.md",
+  "description": "A deep reading of the Stargate as a story-generating device: addresses, one-way travel, the iris, and the unintended journeys of Solitudes, A Matter of Time, 1969 and 2010.",
+  "related_resources": [
+    {
+      "source_id": "sg-gw-wormhole",
+      "reason": "The core material-transit, radio and travel exception rules."
+    },
+    {
+      "source_id": "sg-gw-faq",
+      "reason": "Early episode inconsistencies and the iris/security logic."
+    },
+    {
+      "source_id": "sg-gw-solitudes",
+      "reason": "Antarctic second gate and Carter’s stream-diversion hypothesis."
+    },
+    {
+      "source_id": "sg-gw-blackhole",
+      "reason": "SG-10 and black-hole-linked effects at the SGC."
+    },
+    {
+      "source_id": "sg-gw-gate-malfunctions",
+      "reason": "Retrospective analysis of malfunctions and the shaped-charge solution."
+    },
+    {
+      "source_id": "sg-gw-1969",
+      "reason": "Solar-flare travel and the encounter with young Hammond."
+    },
+    {
+      "source_id": "sg-gw-2010",
+      "reason": "Aschen future and note carried through a timed wormhole."
+    },
+    {
+      "source_id": "sg-gw-torment",
+      "reason": "Ernest Littlefield and the stranded early gate expedition."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "021000-c01",
+      "anchor": "ordinary matter travels in one direction through an established wormhole",
+      "kind": "continuity_rule",
+      "source_ids": [
+        "sg-gw-wormhole",
+        "sg-gw-faq"
+      ],
+      "source_locator": "Named episode record, direct transcript, or identified production testimony",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "021000-c02",
+      "anchor": "Radio communication, by contrast, can pass both ways through an open wormhole.",
+      "kind": "continuity_rule",
+      "source_ids": [
+        "sg-gw-faq"
+      ],
+      "source_locator": "Named episode record, direct transcript, or identified production testimony",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "021000-c03",
+      "anchor": "The first-season episode *Solitudes*",
+      "kind": "episode_reference",
+      "source_ids": [
+        "sg-gw-solitudes"
+      ],
+      "source_locator": "Named episode record, direct transcript, or identified production testimony",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "021000-c04",
+      "anchor": "There is another Stargate on Earth, buried beneath Antarctic ice.",
+      "kind": "episode_reference",
+      "source_ids": [
+        "sg-gw-solitudes"
+      ],
+      "source_locator": "Named episode record, direct transcript, or identified production testimony",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "021000-c05",
+      "anchor": "One season later, *A Matter of Time*",
+      "kind": "episode_reference",
+      "source_ids": [
+        "sg-gw-blackhole"
+      ],
+      "source_locator": "Named episode record, direct transcript, or identified production testimony",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "021000-c06",
+      "anchor": "The normal operating limit of roughly thirty-eight minutes",
+      "kind": "continuity_rule",
+      "source_ids": [
+        "sg-gw-wormhole",
+        "sg-gw-gate-malfunctions"
+      ],
+      "source_locator": "Named episode record, direct transcript, or identified production testimony",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "021000-c07",
+      "anchor": "*1969*, a solar flare interferes with a wormhole",
+      "kind": "episode_reference",
+      "source_ids": [
+        "sg-gw-1969"
+      ],
+      "source_locator": "Named episode record, direct transcript, or identified production testimony",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "021000-c08",
+      "anchor": "In *2010*, the device becomes the vehicle",
+      "kind": "episode_reference",
+      "source_ids": [
+        "sg-gw-2010"
+      ],
+      "source_locator": "Named episode record, direct transcript, or identified production testimony",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "021000-c09",
+      "anchor": "The warning is carried by something wonderfully small: a piece of paper.",
+      "kind": "episode_reference",
+      "source_ids": [
+        "sg-gw-2010"
+      ],
+      "source_locator": "Named episode record, direct transcript, or identified production testimony",
+      "audit_status": "source_checked"
+    },
+    {
+      "id": "021000-c10",
+      "anchor": "Ernest Littlefield passed through it in 1945 and never returned.",
+      "kind": "episode_reference",
+      "source_ids": [
+        "sg-gw-torment"
+      ],
+      "source_locator": "Named episode record, direct transcript, or identified production testimony",
+      "audit_status": "source_checked"
+    }
+  ]
+}

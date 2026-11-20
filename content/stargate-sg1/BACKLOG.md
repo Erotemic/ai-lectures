@@ -1,8 +1,8 @@
 # Stargate SG-1: proposed lecture map
 
-**Planning status:** Nineteen complete manuscripts are indexed in `track.json`: `001000`, `005000`–`020000`, `022000`, and `023000`. All other IDs below remain proposals, not manuscripts or catalog records. `001000`–`004000` form the planned essentials route, with only `001000` published so far; the remaining essays are independently listenable. The final retrospective is a deliberate ending, not a requirement to cover every episode. IDs increase by 1,000 for manuscript stability; writing and listening order can differ.
+**Planning status:** Twenty-two complete manuscripts are indexed in `track.json`: `001000` and `005000`–`025000`. All other IDs below remain proposals, not manuscripts or catalog records. `001000`–`004000` form the planned essentials route, with only `001000` published so far; the remaining essays are independently listenable. The final retrospective is a deliberate ending, not a requirement to cover every episode. IDs increase by 1,000 for manuscript stability; writing and listening order can differ.
 
-## Published manuscripts (seven batches)
+## Published manuscripts (eight batches)
 
 - **`001000` — From a Film to a Universe: SG-1 Opens the Gate.** A complete, accessible film-to-pilot essay; indexed in the Essentials and Every Lecture collections.
 - **`005000` — Jack O'Neill Does Not Take the Universe Seriously.** A complete, spoiler-labeled fan essay about Anderson's performance, leadership, grief, humor, and command; featured at the beginning of the main fan route.
@@ -21,8 +21,11 @@
 - **`018000` — Window of Opportunity: The Joke That Ends in Grief.** Close analysis of editing, physical comedy, loop mechanics, credited production decisions, and the encounter with Malikai.
 - **`019000` — Heroes: Who Gets to Tell the Story of a Death?** A close reading of the documentary framing, Janet's death and the responsibility of recording.
 - **`020000` — Lost City: When a Weekly Adventure Became a Blockbuster.** The Ancient quest, planetary defense, feature-film origins and human costs of an enormous finale.
+- **`021000` — The Stargate Is a Machine for Plot.** The iris, one-way transit and malfunction stories as a reusable dramatic grammar; from *Solitudes* through *2010*.
 - **`022000` — When Earth Stops Being the Underdog.** Tracks Earth from the iris through Prometheus, Ancient defenses, the fleet, and the Asgard legacy, focusing on what power changes.
 - **`023000` — Wormhole X-Treme!, 200, and the Show That Could Laugh at Itself.** Complete close reading of SG-1’s anniversary comedies and self-parody.
+- **`024000` — Making a Galaxy out of Vancouver.** A production-history essay grounded in interviews with the art department, location team and visual effects collaborators.
+- **`025000` — Ascension and the Price of Refusing to Intervene.** The Ancients’ doctrine tested through Oma, Orlin, Daniel, Anubis and the Ori.
 
 These are complete transcripts with source notes, selected claim-level anchors and measured spoken lengths. The tables below preserve the original ID map; rows for published manuscripts are already complete, and the other entries remain briefs.
 
@@ -70,11 +73,11 @@ These are complete transcripts with source notes, selected claim-level anchors a
 
 | Proposed ID | Working title | Primary question and evidence to gather |
 | --- | --- | --- |
-| `021000` | **The Stargate Is a Machine for Plot** | Why does the gate's physical grammar make better stories than unrestricted teleportation? The one-way journey, dialing, power, iris, uncertainty and terrifying edge cases. Use *Solitudes*, *A Matter of Time* and an alternate-future story to show rules enabling suspense; verify each technical claim against the episodes. |
+| `021000` | **The Stargate Is a Machine for Plot** *(published)* | Why does the gate's physical grammar make better stories than unrestricted teleportation? The one-way journey, dialing, power, iris, uncertainty and terrifying edge cases. Use *Solitudes*, *A Matter of Time* and an alternate-future story to show rules enabling suspense; verify each technical claim against the episodes. |
 | `022000` | **When Earth Stops Being the Underdog** | The road from soldiers with an iris and small arms to ships and inherited technology. How does competence change the series' power balance, and when do technological victories create a harder moral burden? Compare early desperation with later fleet-era decisions. |
 | `023000` | **Wormhole X-Treme, 200, and the Show That Could Laugh at Itself** | The self-parody of *Wormhole X-Treme!* and *200*, plus smaller performance gags. What makes the comedy affectionate rather than merely self-congratulatory, and why do the jokes work because the series believes in its own stakes? Avoid a list of catchphrases. |
-| `024000` | **Making a Galaxy out of Vancouver** | Practical sets, gate-room geography, costume and creature design, Canadian production, recurring guest casts, visual effects and the changing economics of television. Research credited craftspeople and verified production accounts; don't invent budget numbers or behind-the-scenes anecdotes. |
-| `025000` | **Ascension and the Price of Refusing to Intervene** | Daniel's ascent and the Ancients' rules of noninterference complicate a show built on helping strangers. Examine *Meridian*, *Full Circle* and later Ancient/Anubis choices, drawing a clear distinction between a story-world doctrine and the lecturer's moral analysis. |
+| `024000` | **Making a Galaxy out of Vancouver** *(published)* | Practical sets, gate-room geography, costume and creature design, Canadian production, recurring guest casts, visual effects and the changing economics of television. Research credited craftspeople and verified production accounts; don't invent budget numbers or behind-the-scenes anecdotes. |
+| `025000` | **Ascension and the Price of Refusing to Intervene** *(published)* | Daniel's ascent and the Ancients' rules of noninterference complicate a show built on helping strangers. Examine *Meridian*, *Full Circle* and later Ancient/Anubis choices, drawing a clear distinction between a story-world doctrine and the lecturer's moral analysis. |
 | `026000` | **After the Last Dial: Two Films and a Bigger Franchise** | What *The Ark of Truth* actually resolves, what *Continuum* revisits, and how *Atlantis* makes the earlier show's change of scale visible. Keep the attention on SG-1's ending and legacy rather than creating an *Atlantis* or *Universe* survey by stealth. |
 
 ## F. Historical conclusion
@@ -83,9 +86,9 @@ These are complete transcripts with source notes, selected claim-level anchors a
 
 ## Editorial sequencing rather than a production quota
 
-**Completed:** Seven batches have produced the film-to-series opening (`001000`), six character and SGC personnel essays (`005000`–`010000`), six essays on Goa’uld power, Tok’ra diplomacy, Replicators, intervention, secrecy and the Ori (`011000`–`016000`), four episode close readings (`017000`–`020000`), an essay on Earth’s expanding military power (`022000`) and self-parody (`023000`). The fan route begins with these self-contained essays; the Essentials route remains a separate introduction.
+**Completed:** Eight batches have produced the film-to-series opening (`001000`), six character and SGC personnel essays (`005000`–`010000`), six essays on Goa’uld power, Tok’ra diplomacy, Replicators, intervention, secrecy and the Ori (`011000`–`016000`), four episode close readings (`017000`–`020000`), an essay on Stargate mechanics (`021000`), Earth's rise (`022000`), the anniversary self-parodies (`023000`), the Vancouver production (`024000`), and the Ancients' noninterference doctrine (`025000`). The fan route begins with self-contained essays; the Essentials route remains a separate introduction.
 
-**Next areas:** The remaining accessible foundations (`002000`–`004000`), the Stargate as a plot engine (`021000`), the show’s production history (`024000`), ascension (`025000`), and the closing films (`026000`). Rotate subjects according to the strongest manuscript, not ID order.
+**Next areas:** The remaining accessible foundations (`002000`–`004000`), the closing films (`026000`), and the substantial final retrospective (`027000`). Rotate subjects according to the strongest manuscript, not ID order.
 
 **Middle passes:** Rotate between characters, ethically difficult episodes, the villains, comedy and technical production. Do not spend an entire batch reciting four seasons of plot. The film-follow-up and long capstone belong late in the track, after more specific essays have had room to develop their own arguments.
 
@@ -96,6 +99,6 @@ These are complete transcripts with source notes, selected claim-level anchors a
 
 ## Planned navigation and metadata
 
-The current publication indexes nineteen complete manuscripts in `track.json`, with descriptive spoken word counts, `Literature and arts`, `fans` and `general` audiences, and specific tags. The `metadata/sources.json` and `metadata/NNNNNN.json` records contain source links and exact claim anchors. `navigation.json` routes the original team, SGC supporting personnel, six political/ethical essays, four episode close readings and the comedy essay for fans, and the film-to-series essay for the accessible introduction; the complete route includes all nineteen. Add future lectures to these files only as the real manuscripts are completed. The fan route should end with `027000` only after that capstone exists.
+The current publication indexes twenty-two complete manuscripts in `track.json`, with descriptive spoken word counts, `Literature and arts`, `fans` and `general` audiences, and specific tags. The `metadata/sources.json` and `metadata/NNNNNN.json` records contain source links and exact claim anchors. `navigation.json` routes the original team, SGC supporting personnel, seven political/ethical essays, four episode close readings and the comedy essay for fans, and the film-to-series essay for the accessible introduction; the complete route includes all twenty-two. Add future lectures to these files only as the real manuscripts are completed. The fan route should end with `027000` only after that capstone exists.
 
 **Scope limit:** The first series should feel complete once the major creative arguments and ten-season history have been told. Further franchise or episode specials may be good later, but they are optional ideas, not hidden work required to finish the plan.
