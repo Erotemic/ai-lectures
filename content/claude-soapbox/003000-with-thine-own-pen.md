@@ -48,7 +48,7 @@ Popular accounts say that the printers were hauled before the Star Chamber, fine
 
 So the story of the most famous error in English printing was itself full of errors, and they circulated for generations before anyone corrected them. I find that funny, and also instructive. Retellings of an error are copies too.
 
-The court record, as edited and printed in the nineteenth century, contains one more thing I want to read to you, because it says something about where errors come from. In 1632, during the proceedings, the Archbishop of Canterbury complained about the state of the trade. In his words: "now the paper is naught, the composers boys, and the correctors unlearned," and the printers "look to gain, gain, gain, nothing else."
+The court record, as edited and printed in the nineteenth century, contains one more thing I want to read to you, because it says something about where errors come from. In June 1632, during the proceedings, the Archbishop of Canterbury, George Abbot, complained about the state of the trade. He remembered a time when, for Bibles especially, "good compositors and the best correctors were gotten, being grave and learned men." But, in his words, "now the paper is naught, the composers boys, and the correctors unlearned," and the printers "look to gain, gain, gain, nothing else."
 
 He was angry, and he was making a political argument about the printers. But the diagnosis is still a good one. He does not blame one careless typesetter. He blames the paper, the training of the workers, the competence of the proofreaders, and the incentives of the business. Error rates are a property of systems. If you want fewer errors, it is not enough to punish the person whose hands set the type.
 
@@ -146,11 +146,11 @@ use modernized spelling; original spellings are below.
   Cases in the Courts of Star Chamber and High Commission* (1886), pp. 296–297
   and 304–305 (uncorrected OCR): "Thou shalt committ adultery"; "his great
   asse"; "now the paper is naught, the composers boyes, and the correctors
-  unlearned… these looke to gaine, gaine, gaine, nothing els." The session
-  dates in the OCR (May and June 1632) were not checked against page images,
-  so the narration says only "in 1632." The Gardiner record names the speaker
-  as the Archbishop of Canterbury. In 1632 that was George Abbot, a fact taken
-  from general knowledge and not confirmed for this essay.
+  unlearned… these looke to gaine, gaine, gaine, nothing els." The OCR
+  session headings read "8 Maj, 1632" (charge, p. 296) and "14 Junij, 1632"
+  (the Archbishop's speech, pp. 304–305); they are consistent but were not
+  checked against page images. The volume's index identifies the Archbishop of
+  Canterbury as George Abbot.
 - **Voevodsky's dates.** His 2014 essay dates the Kapranov paper to 1989. The
   bibliographic records give 1990 (the announcement in *Uspekhi*) and 1991 (the
   full paper in *Cahiers*). The narration avoids the date. It seemed fitting to

@@ -36,9 +36,9 @@ there is something real to say about it.
 - Revisit the Riemann Hypothesis paragraph once the claim is verified or
   refuted. It is explicitly dated, but a short note in the companion text may
   be warranted.
-- Check the Gardiner session dates against page images. Confirm that George
-  Abbot is the Archbishop speaking in 1632.
+- Optionally check the Gardiner session headings against page images; the OCR
+  is consistent, and the index confirms Abbot.
 - Read Lerer (2002) and Blair (2007) directly; More's corrected copies and
   Blair's findings are currently secondary.
-- Confirm Budd et al.'s author initials and the full citation; find the
-  archival source for the £300 fine.
+- Find the archival source for the £300 fine. (Budd et al. citation confirmed
+  on 2026-11-20.)
