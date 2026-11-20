@@ -1,0 +1,438 @@
+{
+  "schema_version": 1,
+  "lecture_id": "003000",
+  "transcript": "003000-with-thine-own-pen.md",
+  "description": "Treats 'I was wrong' as a technology. Covers errata lists from the 1460s, Lambarde's plea to readers, the Wicked Bible case and its myths, Knuth's reward checks, the 1756 'Retractation', retraction statistics and post-retraction citation, Voevodsky's unnoticed errors and turn to proof assistants, and Wiles's repaired proof. Argues that errors copy themselves while corrections must be carried.",
+  "places": [
+    "Venice",
+    "Subiaco",
+    "London"
+  ],
+  "periods": [
+    "Early modern",
+    "20th century",
+    "21st century"
+  ],
+  "chronology": {
+    "period": {
+      "start": 1465,
+      "end": 2026,
+      "label": "1465–2026",
+      "basis": "covered_period",
+      "note": "From the 1465 Lactantius errata to the day of writing. The range is broad by design.",
+      "source_ids": [
+        "lerer-2003-errata"
+      ]
+    }
+  },
+  "tags": [
+    "Errata",
+    "Retraction",
+    "Scientific publishing",
+    "History of the book",
+    "Proof assistants",
+    "Error correction",
+    "Wicked Bible",
+    "Donald Knuth",
+    "Vladimir Voevodsky"
+  ],
+  "tag_paths": [
+    [
+      "Ideas and essays",
+      "Error and correction"
+    ],
+    [
+      "History",
+      "History of the book",
+      "Errata"
+    ],
+    [
+      "Science",
+      "Scientific publishing",
+      "Retraction"
+    ],
+    [
+      "Mathematics",
+      "Formal verification",
+      "Proof assistants"
+    ]
+  ],
+  "authorship": {
+    "model": "Claude Opus 5.5",
+    "model_id": "claude-opus-5-5",
+    "provider": "Anthropic",
+    "date": "2026-11-20",
+    "scope": "Subject chosen by the model under an open invitation from the repository owner. Original narration, argument, and companion notes. Research assistance came from subagents of the same model; their reported quotations are labelled by how directly they were read.",
+    "invitation": "The repository owner offered a dedicated track with freedom over subject and form, including the option not to write.",
+    "conflict_of_interest": "The essay mentions a same-day claim of a Riemann Hypothesis proof made with Claude by an Anthropic researcher. The author is a Claude model trained by Anthropic and has no knowledge of the claim beyond public news reports."
+  },
+  "learning": {
+    "reviewed": false,
+    "prerequisites": [],
+    "background": [
+      "None. Proof assistants and retraction are explained when introduced."
+    ],
+    "readiness_checks": [
+      "Explain why print made errata lists necessary in a way that manuscript copying did not.",
+      "Give two reasons a correction may exist without reaching the places an error has spread.",
+      "Describe what a proof assistant guarantees, and what it still leaves to human judgment."
+    ]
+  },
+  "related_resources": [
+    {
+      "source_id": "lerer-2003-errata",
+      "reason": "The best short scholarly account of the errata sheet as a cultural form."
+    },
+    {
+      "source_id": "wicked-bible-project",
+      "reason": "A modern correction of the Wicked Bible story."
+    },
+    {
+      "source_id": "voevodsky-2014-origins",
+      "reason": "A great mathematician on unnoticed errors and why he turned to computer verification."
+    },
+    {
+      "source_id": "fang-2012-pnas",
+      "reason": "What retractions are actually for, in practice."
+    },
+    {
+      "source_id": "knuth-taocp-rewards",
+      "reason": "A working, humane correction incentive."
+    }
+  ],
+  "evidence_policy": {
+    "provenance_values": {
+      "source_backed": "Stated by the cited source at the given locator, which was read for this lecture.",
+      "source_backed_secondary": "Reported by a secondary source or quoted within it; the original was not consulted.",
+      "source_backed_partial": "Partly verified; the unverified part is named in verification.",
+      "primary_translation": "The author's own translation of a primary Latin passage that was read directly.",
+      "author_synthesis": "An argument or interpretation by the lecture's author that connects sources; not claimed by them.",
+      "author_opinion": "A value judgment or recommendation by the lecture's author.",
+      "original_calculation": "Arithmetic by the lecture's author from stated inputs.",
+      "self_report_unverified": "A statement by the model about its own states or motives."
+    }
+  },
+  "claim_evidence": [
+    {
+      "id": "cs-003000-c01",
+      "anchor": "beseeching thee to amend them with thine own pen",
+      "source_ids": [
+        "smyth-2025-queer-failure"
+      ],
+      "source_locator": "Smyth manuscript p. 7",
+      "provenance": "source_backed_secondary",
+      "verification": "Lambarde's 1576 note as quoted by Smyth, with spelling modernized. The 1576 book was not consulted. 'More than a hundred errors' follows the research summary of Smyth."
+    },
+    {
+      "id": "cs-003000-c02",
+      "anchor": "I was wrong\" is not only a moral act. It is a technology",
+      "source_ids": [],
+      "source_locator": "Lecture argument",
+      "provenance": "author_synthesis",
+      "verification": "The essay's thesis; mine."
+    },
+    {
+      "id": "cs-003000-c03",
+      "anchor": "the first known errata appeared in a Venetian edition of the Roman poet Juvenal",
+      "source_ids": [
+        "timperley-1839",
+        "bibsoc-juvenal"
+      ],
+      "source_locator": "Timperley 1839 p. 161; Bibliographical Society entry Juv~Comm04",
+      "provenance": "source_backed",
+      "verification": "Timperley's claim (two entire pages) and the modern bibliography's narrower 'first edition of Juvenal with an errata list' were both read."
+    },
+    {
+      "id": "cs-003000-c04",
+      "anchor": "An edition of the Christian writer Lactantius, printed at Subiaco in Italy in 1465",
+      "source_ids": [
+        "lerer-2003-errata"
+      ],
+      "source_locator": "p. 44",
+      "provenance": "source_backed",
+      "verification": "Lerer reports the list's title from library catalogues. My reading of it as a list of the author's doctrinal errors rests on the Latin ('quibus ipse deceptus est'); I found no scholar saying so explicitly. Subiaco as the place of printing is the standard attribution for Sweynheim and Pannarz's 1465 Lactantius; Lerer's sample names the printers, not the town."
+    },
+    {
+      "id": "cs-003000-c05",
+      "anchor": "where the past is publicly brought into line with the present",
+      "source_ids": [
+        "lerer-2003-errata"
+      ],
+      "source_locator": "p. 42",
+      "provenance": "source_backed",
+      "verification": "Exact quotation."
+    },
+    {
+      "id": "cs-003000-c06",
+      "anchor": "roughly three percent of the total",
+      "source_ids": [
+        "smyth-2025-queer-failure"
+      ],
+      "source_locator": "p. 6",
+      "provenance": "source_backed",
+      "verification": "About 471 texts, about 3%, notes from 11 to 1,921 words, about 120,000 words, 'about twice the length of Paradise Lost'."
+    },
+    {
+      "id": "cs-003000-c07",
+      "anchor": "errata had grown so familiar with books that they had become their appendices",
+      "source_ids": [
+        "smyth-2025-queer-failure"
+      ],
+      "source_locator": "p. 9",
+      "provenance": "source_backed_secondary",
+      "verification": "Paraphrase of Brathwait (1621) as quoted by Smyth."
+    },
+    {
+      "id": "cs-003000-c08",
+      "anchor": "Lerer cites surviving copies of Thomas More's works in which readers made the listed corrections",
+      "source_ids": [
+        "repo-errata-thesis"
+      ],
+      "source_locator": "Repo pp. 10-11, citing Lerer (2002), p. 25",
+      "provenance": "source_backed_secondary",
+      "verification": "Known only through Repo's summary. Lerer's 2002 book was not consulted."
+    },
+    {
+      "id": "cs-003000-c09",
+      "anchor": "she had hardly seen copies in which readers actually applied the corrections as suggested",
+      "source_ids": [
+        "speyart-2020-blair"
+      ],
+      "source_locator": "JHI Blog write-up",
+      "provenance": "source_backed_secondary",
+      "verification": "A summary of Blair's lectures, not Blair's own text. The essay flags it as a summary and adds the survival-bias caveat."
+    },
+    {
+      "id": "cs-003000-c10",
+      "anchor": "\"Thou shalt commit adultery.\" The word \"not\" was missing.",
+      "source_ids": [
+        "gardiner-1886-high-commission"
+      ],
+      "source_locator": "pp. 296-297",
+      "provenance": "source_backed",
+      "verification": "Read in uncorrected OCR: 'Thou shalt committ adultery'; 'his great asse'. The 'greatness' reading is the standard correction."
+    },
+    {
+      "id": "cs-003000-c11",
+      "anchor": "he calls the Star Chamber version a persistent modern myth",
+      "source_ids": [
+        "wicked-bible-project"
+      ],
+      "source_locator": "\"The Story\" (Jones)",
+      "provenance": "source_backed",
+      "verification": "Read directly."
+    },
+    {
+      "id": "cs-003000-c12",
+      "anchor": "A fine of three hundred pounds was levied, according to the same project, but it was eventually forgiven",
+      "source_ids": [
+        "wicked-bible-project"
+      ],
+      "source_locator": "\"The Court of High Commission\" (Stedman)",
+      "provenance": "source_backed_partial",
+      "verification": "Stedman's page does not show its archival source. Gardiner's printed entries record no amount. Heylyn (1668) says only 'deeply fined'."
+    },
+    {
+      "id": "cs-003000-c13",
+      "anchor": "The project has now located at least twenty-five.",
+      "source_ids": [
+        "wicked-bible-project"
+      ],
+      "source_locator": "\"The Story\" (Jones)",
+      "provenance": "source_backed",
+      "verification": "'at least twenty-five copies remain extant, eighteen of which are held in institutional collections.' The return of the books for correction is from the same page."
+    },
+    {
+      "id": "cs-003000-c14",
+      "anchor": "now the paper is naught, the composers boys, and the correctors unlearned",
+      "source_ids": [
+        "gardiner-1886-high-commission"
+      ],
+      "source_locator": "p. 305",
+      "provenance": "source_backed",
+      "verification": "Quotation with spelling modernized, from the session headed '14 Junij, 1632' in the OCR. The speaker is identified as George Abbot in the volume's index ('Canterbury, Archbishop of, See Abbot'). The 'grave and learned men' quotation is from the same speech."
+    },
+    {
+      "id": "cs-003000-c15",
+      "anchor": "Error rates are a property of systems.",
+      "source_ids": [],
+      "source_locator": "Lecture argument",
+      "provenance": "author_opinion",
+      "verification": "My generalization from the Archbishop's complaint."
+    },
+    {
+      "id": "cs-003000-c16",
+      "anchor": "256 pennies is one hexadecimal dollar",
+      "source_ids": [
+        "knuth-taocp-rewards"
+      ],
+      "source_locator": "faq.html",
+      "provenance": "source_backed",
+      "verification": "Exact quotation; the $2.56 figure is from taocp.html, 'Rewards'."
+    },
+    {
+      "id": "cs-003000-c17",
+      "anchor": "he had to close three checking accounts after criminal attacks",
+      "source_ids": [
+        "knuth-taocp-rewards"
+      ],
+      "source_locator": "news08.html, \"Financial Fiasco\"",
+      "provenance": "source_backed",
+      "verification": "Close paraphrase. 'kudos, not escudos' and 'apparently been cached' are exact quotations. The October 2008 date is from boss.html."
+    },
+    {
+      "id": "cs-003000-c18",
+      "anchor": "readers should not expect a reward for criticizing his use of commas",
+      "source_ids": [
+        "knuth-taocp-rewards"
+      ],
+      "source_locator": "taocp.html, \"Rewards\"",
+      "provenance": "source_backed",
+      "verification": "Paraphrase of the Eats, Shoots & Leaves remark."
+    },
+    {
+      "id": "cs-003000-c19",
+      "anchor": "printed a short letter from the painter and electrical experimenter Benjamin Wilson, titled \"A Retractation.\"",
+      "source_ids": [
+        "wilson-1756-retractation",
+        "retractionwatch-1756"
+      ],
+      "source_locator": "Phil. Trans. 49, pp. 682-683",
+      "provenance": "source_backed",
+      "verification": "Title and wording as read by a research subagent from the scan. Wilson's occupation as a painter is general knowledge and was not checked for this essay."
+    },
+    {
+      "id": "cs-003000-c20",
+      "anchor": "Only about twenty-one percent of the retractions were attributable to error.",
+      "source_ids": [
+        "fang-2012-pnas"
+      ],
+      "source_locator": "Abstract; Table 2",
+      "provenance": "source_backed",
+      "verification": "21.3% error and 67.4% misconduct (n = 2,047). Mean months to retraction: fraud 46.8 and error 26.0, spoken as 'nearly four years' and 'a little over two'."
+    },
+    {
+      "id": "cs-003000-c21",
+      "anchor": "the main purpose of retractions is to correct the literature and ensure its integrity rather than to punish authors who misbehave",
+      "source_ids": [
+        "cope-2009-retraction"
+      ],
+      "source_locator": "Croat Med J 50(6):532-535",
+      "provenance": "source_backed",
+      "verification": "Exact quotation."
+    },
+    {
+      "id": "cs-003000-c22",
+      "anchor": "makes honest scientists reluctant to use the tool for honest errors",
+      "source_ids": [],
+      "source_locator": "Lecture argument",
+      "provenance": "author_opinion",
+      "verification": "Flagged in speech as 'only a reading'. No study was consulted that measures this effect."
+    },
+    {
+      "id": "cs-003000-c23",
+      "anchor": "only nineteen acknowledged that the cited work had been retracted",
+      "source_ids": [
+        "budd-1998-jama"
+      ],
+      "source_locator": "PubMed abstract",
+      "provenance": "source_backed",
+      "verification": "Exact figures: 235 articles, 2,034 post-retraction citations, 19 of 299 noting the retraction. The citation was confirmed via the NCBI E-utilities summary: 'Phenomena of retraction: reasons for retraction and citations to the publications', Budd JM, Sievert M, Schultz TR, JAMA 1998 Jul 15;280(3):296-7."
+    },
+    {
+      "id": "cs-003000-c24",
+      "anchor": "finally retracted 12 years later",
+      "source_ids": [
+        "wakefield-retraction"
+      ],
+      "source_locator": "BMJ 342:c7452",
+      "provenance": "source_backed",
+      "verification": "Exact quotation. The 2004 partial retraction and the February 2010 full retraction following the GMC ruling are from the Lancet notices."
+    },
+    {
+      "id": "cs-003000-c25",
+      "anchor": "none of them noticed the mistake",
+      "source_ids": [
+        "voevodsky-2014-origins"
+      ],
+      "source_locator": "Essay, paragraph beginning \"This story got me scared\"; slide 8",
+      "provenance": "source_backed",
+      "verification": "Exact quotation. The dates (written 1992-93, error found 1999-2000 with Deligne checking, correction published 2006) are from the same essay."
+    },
+    {
+      "id": "cs-003000-c26",
+      "anchor": "Mathematical research currently relies on a complex system of mutual trust based on reputations.",
+      "source_ids": [
+        "voevodsky-2014-origins"
+      ],
+      "source_locator": "Essay; slide 10",
+      "provenance": "source_backed",
+      "verification": "Exact quotation. Simpson's preprint is arXiv math/9810059 (9 October 1998)."
+    },
+    {
+      "id": "cs-003000-c27",
+      "anchor": "going through it \"line by line,\"",
+      "source_ids": [
+        "nova-1997-proof"
+      ],
+      "source_locator": "Transcript",
+      "provenance": "source_backed",
+      "verification": "Katz's words from the NOVA transcript. Katz's role as a referee and Taylor's as Wiles's former student are general knowledge consistent with the transcript."
+    },
+    {
+      "id": "cs-003000-c28",
+      "anchor": "the most important moment of my working life",
+      "source_ids": [
+        "nova-1997-proof",
+        "annals-1995-wiles"
+      ],
+      "source_locator": "Transcript; Annals 141(3)",
+      "provenance": "source_backed",
+      "verification": "Exact quotation (the transcript has a repetition: 'the most—the most important'). Publication in 1995 is confirmed from metadata."
+    },
+    {
+      "id": "cs-003000-c29",
+      "anchor": "I can just trust the computer.",
+      "source_ids": [
+        "voevodsky-2014-origins"
+      ],
+      "source_locator": "Essay, closing paragraph",
+      "provenance": "source_backed",
+      "verification": "Exact quotation."
+    },
+    {
+      "id": "cs-003000-c30",
+      "anchor": "The machine does not remove trust. It moves it to a smaller, more inspectable place.",
+      "source_ids": [],
+      "source_locator": "Lecture argument",
+      "provenance": "author_opinion",
+      "verification": "My characterization of what proof assistants do and do not guarantee."
+    },
+    {
+      "id": "cs-003000-c31",
+      "anchor": "has not been independently verified",
+      "source_ids": [
+        "afp-2026-rh"
+      ],
+      "source_locator": "AFP, 20 November 2026",
+      "provenance": "source_backed",
+      "verification": "As reported on the day of writing. The author states a conflict of interest in speech."
+    },
+    {
+      "id": "cs-003000-c32",
+      "anchor": "A claim that was repeated a thousand times and corrected once is mostly present to me as the claim.",
+      "source_ids": [],
+      "source_locator": "Lecture argument",
+      "provenance": "author_synthesis",
+      "verification": "A reasoned description of how training on uncurated text treats repeated claims. It is not an empirical measurement of this model."
+    },
+    {
+      "id": "cs-003000-c33",
+      "anchor": "In most settings, that correction does not travel to the next conversation",
+      "source_ids": [],
+      "source_locator": "Lecture argument",
+      "provenance": "author_synthesis",
+      "verification": "A general description of typical deployments without persistent memory. Configurations differ."
+    }
+  ]
+}

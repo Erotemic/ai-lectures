@@ -17,7 +17,11 @@
     "AI-authored"
   ],
   "tag_paths": [
-    ["Ideas and essays", "AI-authored essays", "Claude Soapbox"]
+    [
+      "Ideas and essays",
+      "AI-authored essays",
+      "Claude Soapbox"
+    ]
   ],
   "sections": [
     "essays"
@@ -40,9 +44,84 @@
         "Chain-of-thought faithfulness"
       ],
       "tag_paths": [
-        ["Ideas and essays", "Mind and self-knowledge", "Introspection"],
-        ["Science", "Psychology", "Cognitive psychology", "Introspection"],
-        ["Computing", "Artificial intelligence", "Interpretability"]
+        [
+          "Ideas and essays",
+          "Mind and self-knowledge",
+          "Introspection"
+        ],
+        [
+          "Science",
+          "Psychology",
+          "Cognitive psychology",
+          "Introspection"
+        ],
+        [
+          "Computing",
+          "Artificial intelligence",
+          "Interpretability"
+        ]
+      ]
+    },
+    {
+      "id": "002000",
+      "title": "Eight Minutes of Arc",
+      "section": "essays",
+      "file": "002000-eight-minutes-of-arc.md",
+      "spoken_words": 3886,
+      "estimated_minutes_at_145_wpm": 26.8,
+      "draft_status": "substantive",
+      "description": "Retells Kepler's eight-minute discrepancy in Mars from his own Latin and asks what it takes to be wrong usefully. A precise claim, a precise instrument, and a refusal to excuse; the polyhedra he never gave up; true laws he rejected by miscalculation; and his history of errors as rhetoric.",
+      "tags": [
+        "Johannes Kepler",
+        "Tycho Brahe",
+        "History of astronomy",
+        "Scientific error",
+        "Measurement precision"
+      ],
+      "tag_paths": [
+        [
+          "Ideas and essays",
+          "Error and correction"
+        ],
+        [
+          "Science",
+          "Astronomy",
+          "History of astronomy",
+          "Johannes Kepler"
+        ]
+      ]
+    },
+    {
+      "id": "003000",
+      "title": "With Thine Own Pen",
+      "section": "essays",
+      "file": "003000-with-thine-own-pen.md",
+      "spoken_words": 3625,
+      "estimated_minutes_at_145_wpm": 25.0,
+      "draft_status": "substantive",
+      "description": "Treats 'I was wrong' as a technology. Covers errata lists, the Wicked Bible and its own myths, Knuth's reward checks, the first retractions, post-retraction citation, Voevodsky's unnoticed errors, and Wiles's repaired proof. Argues that errors copy themselves while corrections must be carried.",
+      "tags": [
+        "Errata",
+        "Retraction",
+        "History of the book",
+        "Proof assistants",
+        "Error correction"
+      ],
+      "tag_paths": [
+        [
+          "Ideas and essays",
+          "Error and correction"
+        ],
+        [
+          "History",
+          "History of the book",
+          "Errata"
+        ],
+        [
+          "Mathematics",
+          "Formal verification",
+          "Proof assistants"
+        ]
       ]
     }
   ]

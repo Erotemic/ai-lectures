@@ -95,6 +95,464 @@
         "pages_read": []
       },
       "notes": "Section \"Testing for faithfulness\": hints include a Stanford professor's answer and an \"unauthorized access\" message; averaged over hint types, Claude 3.7 Sonnet mentioned the hint 25% of the time and DeepSeek R1 39%. Lead author taken from the paper's standard citation; the author list was not checked on the page."
+    },
+    "kepler-an-frisch": {
+      "title": "Johannes Kepler, Astronomia nova (1609), in Christian Frisch (ed.), Joannis Kepleri astronomi opera omnia, vol. 3 (Frankfurt and Erlangen, 1860)",
+      "kind": "historical_primary",
+      "url": "https://archive.org/details/joanniskeplerias03kepl",
+      "access": "free_no_login",
+      "consulted": {
+        "date": "2026-11-20",
+        "copy": "archive.org OCR text; passages located by Latin search and read in context",
+        "pages_read": [
+          "160-161 (preface to chapter summaries)",
+          "245 (ch. 16)",
+          "~254 (end of ch. 18)",
+          "257-258 (ch. 19)",
+          "323-324 (ch. 40)",
+          "399-400 (ch. 58)"
+        ]
+      },
+      "notes": "The Latin quoted and translated in essay 002000. Frisch's page numbers differ from those of the Gesammelte Werke (KGW). Translations in the essay are the author's own and are literal."
+    },
+    "kepler-an-1609": {
+      "title": "Johannes Kepler, Astronomia nova AITIOLOGETOS, seu physica coelestis (Heidelberg, 1609), first edition",
+      "kind": "historical_primary",
+      "url": "https://archive.org/details/astronomianovaai00kepl",
+      "access": "free_no_login",
+      "consulted": {
+        "date": "2026-11-20",
+        "copy": "archive.org OCR text",
+        "pages_read": [
+          "113-114 (end of ch. 19)",
+          "95 (ch. 16)",
+          "196-197 (ch. 40)"
+        ]
+      },
+      "notes": "Used to confirm the ch. 19 wording ('sola igitur haec octo minuta viam praeiverunt'). The parenthetical about errors of 30 minutes printed by Frisch is not in the 1609 main text."
+    },
+    "gingerich-1972": {
+      "title": "Owen Gingerich, \"Johannes Kepler and the New Astronomy,\" Quarterly Journal of the Royal Astronomical Society 13 (1972), pp. 346-373",
+      "kind": "scholarly_article",
+      "url": "https://articles.adsabs.harvard.edu/pdf/1972QJRAS..13..346G",
+      "access": "free_no_login",
+      "consulted": {
+        "date": "2026-11-20",
+        "copy": "NASA ADS page images",
+        "pages_read": [
+          "351",
+          "352",
+          "353",
+          "354",
+          "358"
+        ]
+      },
+      "notes": "Source of the week-long wager anecdote (p. 353, unsourced there), the vicarious-hypothesis geometry (p. 351, Fig. 3), the 'scaffolding' contrast with Ptolemy and Copernicus (p. 351), the distance law (pp. 353-354), and KGW locators (ch. 19 = KGW 3, p. 178)."
+    },
+    "gingerich-dsb-kepler": {
+      "title": "Owen Gingerich, \"Kepler, Johannes,\" Dictionary of Scientific Biography, vol. 7 (1973), PDF hosted by MacTutor",
+      "kind": "scholarly_reference",
+      "url": "https://mathshistory.st-andrews.ac.uk/DSB/Kepler.pdf",
+      "access": "free_no_login",
+      "consulted": {
+        "date": "2026-11-20",
+        "copy": "PDF text; page numbers below are pages of the hosted PDF",
+        "pages_read": [
+          "2",
+          "4",
+          "5",
+          "9",
+          "10"
+        ]
+      },
+      "notes": "Gingerich's translation of Kepler's 1595 account (19 July; triangles; the smaller circle; 'why have plane figures among three-dimensional orbits?'; the pleasure passage); fit within 5 percent except Jupiter; the Lutheran school in Graz; arrival at Benatky; Tycho's death on 24 October 1601 and deathbed wish; appointment within two days; Mars assigned to Kepler; 1621 edition with the text unchanged and new notes."
+    },
+    "sep-kepler": {
+      "title": "Daniel A. Di Liscia, \"Johannes Kepler,\" Stanford Encyclopedia of Philosophy (revised 14 September 2025)",
+      "kind": "scholarly_reference",
+      "url": "https://plato.stanford.edu/entries/kepler/",
+      "access": "free_no_login",
+      "consulted": {
+        "date": "2026-11-20",
+        "copy": "Web page, sections 3, 4.2, 4.4, and 5",
+        "pages_read": []
+      },
+      "notes": "Mysterium ch. 18 quoting Rheticus on Copernicus's view that exact agreement with imperfect data is unnecessary (§4.4); the 1621 footnote conceding that the eccentricities cannot be derived a priori (§3); polyhedra in Harmonices mundi Book 5 (§3); the second law found before the ellipse (§5). Its locator for the eight-minutes passage, 'KGW 3, p. 286', is Donahue's page, not KGW's."
+    },
+    "mactutor-kepler": {
+      "title": "J. V. Field, \"Johannes Kepler,\" MacTutor History of Mathematics (1999)",
+      "kind": "scholarly_reference",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Kepler/",
+      "access": "free_no_login",
+      "consulted": {
+        "date": "2026-11-20",
+        "copy": "Web page",
+        "pages_read": []
+      },
+      "notes": "Order of the nested solids; polyhedra 'still there' in the 1619 Harmony; the third-law passage quoted from the Aiton, Duncan and Field translation (Harmonice mundi Book 5, ch. 3, p. 411); Kepler sent the Mysterium to Tycho hoping better observations would improve the agreement."
+    },
+    "mactutor-brahe": {
+      "title": "J. J. O'Connor and E. F. Robertson, \"Tycho Brahe,\" MacTutor History of Mathematics (2003)",
+      "kind": "scholarly_reference",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Brahe/",
+      "access": "free_no_login",
+      "consulted": {
+        "date": "2026-11-20",
+        "copy": "Web page",
+        "pages_read": []
+      },
+      "notes": "Quotes Swerdlow's review of Wesley (1978): errors mostly 0.5' to 1.0', and 'Kepler's belief that Tycho's observations could be trusted to better than two minutes is amply confirmed.' Open-sighted instruments, with no telescope."
+    },
+    "rice-brahe": {
+      "title": "Albert Van Helden, \"Tycho Brahe,\" The Galileo Project, Rice University",
+      "kind": "university_or_open_reference",
+      "url": "http://galileo.rice.edu/sci/brahe.html",
+      "access": "free_no_login",
+      "consulted": {
+        "date": "2026-11-20",
+        "copy": "Web page",
+        "pages_read": []
+      },
+      "notes": "'previous astronomers made observations accurate to perhaps 15 arc minutes, those of Tycho were accurate to perhaps 2 arc minutes ... his best observations were accurate to about half an arc minute.' The Tychonic system."
+    },
+    "hellman-dsb-brahe": {
+      "title": "C. Doris Hellman, \"Brahe, Tycho,\" Dictionary of Scientific Biography, vol. 2 (1970), PDF hosted by MacTutor",
+      "kind": "scholarly_reference",
+      "url": "https://mathshistory.st-andrews.ac.uk/DSB/Brahe.pdf",
+      "access": "free_no_login",
+      "consulted": {
+        "date": "2026-11-20",
+        "copy": "PDF text",
+        "pages_read": []
+      },
+      "notes": "Kepler arrived at Benatky on 3 February 1600; Mars was worked on by Longomontanus and turned over to Kepler; the Tychonic system (Earth at rest, Sun circling the Earth, planets circling the Sun); an illness of eleven days; the deathbed wish that the Rudolphine Tables follow the Tychonic system; large instruments."
+    },
+    "dreyer-1890": {
+      "title": "J. L. E. Dreyer, Tycho Brahe: A Picture of Scientific Life and Work in the Sixteenth Century (Edinburgh, 1890)",
+      "kind": "scholarly_biography",
+      "url": "https://archive.org/details/tychobrahepictur00dreyuoft",
+      "access": "free_no_login",
+      "consulted": {
+        "date": "2026-11-20",
+        "copy": "archive.org OCR text",
+        "pages_read": [
+          "309",
+          "386-387 (Appendix D)"
+        ]
+      },
+      "notes": "Prints Kepler's Latin entry in Tycho's observation log: 'Nocte, quam ultimam habuit, per delirium, quo omnia suavissima fuere, creberrime haec verba iteravit, quasi qui carmen texit. Ne frustra vixisse videar.'"
+    },
+    "voelkel-2001": {
+      "title": "James R. Voelkel, The Composition of Kepler's Astronomia nova (Princeton University Press, 2001)",
+      "kind": "scholarly_monograph",
+      "url": "https://muse.jhu.edu/book/81252",
+      "access": "publisher_description_only",
+      "consulted": {
+        "date": "2026-11-20",
+        "copy": "Publisher's description on Project MUSE only; the book was not read",
+        "pages_read": []
+      },
+      "notes": "The description says the narrative 'had long been deemed a \"confessional\" mirror' of Kepler's process and calls it 'an avowedly rhetorical pseudo-historical presentation of his results.' The essay attributes only this thesis to Voelkel."
+    },
+    "donahue-1988": {
+      "title": "William H. Donahue, \"Kepler's Fabricated Figures: Covering up the Mess in the New Astronomy,\" Journal for the History of Astronomy 19 (1988), pp. 217-237",
+      "kind": "scholarly_article",
+      "url": "https://doi.org/10.1177/002182868801900401",
+      "access": "bibliographic_record_only",
+      "consulted": {
+        "date": "2026-11-20",
+        "copy": "Bibliographic record only; the article was not read",
+        "pages_read": []
+      },
+      "notes": "Cited in the essay for its title only. The title, volume, and pages are confirmed by the IsisCB bibliography (https://data.isiscb.org/isis/authority/CBA000026432/). The DOI is confirmed by a zbMATH-derived reference list but was not resolved at doi.org."
+    },
+    "donahue-1994": {
+      "title": "William H. Donahue, \"Kepler's Invention of the Second Planetary Law,\" British Journal for the History of Science 27 (1994), pp. 89-102",
+      "kind": "scholarly_article",
+      "url": "https://doi.org/10.1017/S000708740003168X",
+      "access": "abstract_and_notes_page",
+      "consulted": {
+        "date": "2026-11-20",
+        "copy": "Cambridge page; note 29 read",
+        "pages_read": []
+      },
+      "notes": "Note 29: Kepler 'remarks ... that the area law is not exactly equivalent to the distance law, and throughout the Astronomia nova regards it as only a convenient means of computation.'"
+    },
+    "smyth-2025-queer-failure": {
+      "title": "Adam Smyth, \"Queer Failure and Early Modern Books\" (author's accepted manuscript, 2025), Oxford University Research Archive",
+      "kind": "scholarly_article",
+      "url": "https://ora.ox.ac.uk/objects/uuid:c5f6ce53-df80-457e-92aa-1d3a46d2bd0e",
+      "access": "free_no_login",
+      "consulted": {
+        "date": "2026-11-20",
+        "copy": "PDF of the author's manuscript; page numbers are the manuscript's",
+        "pages_read": [
+          "6",
+          "7",
+          "9"
+        ]
+      },
+      "notes": "Lambarde 1576 errata note; the 1640 'Saint Thomas More' erratum; about 471 English texts before 1640 (about 3%) with prose errata notes, from 11 to 1,921 words, about 120,000 words in all ('about twice the length of Paradise Lost'); Brathwait 1621."
+    },
+    "lerer-2003-errata": {
+      "title": "Seth Lerer, \"Errata: print, politics and poetry in early modern England,\" in Kevin Sharpe and Steven N. Zwicker (eds), Reading, Society and Politics in Early Modern England (Cambridge University Press, 2003)",
+      "kind": "scholarly_chapter",
+      "url": "https://assets.cambridge.org/97805218/24347/sample/9780521824347ws.pdf",
+      "access": "publisher_sample",
+      "consulted": {
+        "date": "2026-11-20",
+        "copy": "Publisher's sample chapter; footnotes not included",
+        "pages_read": [
+          "41",
+          "42",
+          "44",
+          "45",
+          "46"
+        ]
+      },
+      "notes": "The 1465 Lactantius (Sweynheim and Pannarz) list 'Lactantii Firmiani errata quibus ipse deceptus est per fratrem Antonium Randesem theologicum collecta et exarata sunt' (p. 44); the errata sheet as the place 'where the past is publicly brought into line with the present...' (p. 42); errata commonplace by the early sixteenth century (p. 45)."
+    },
+    "bibsoc-juvenal": {
+      "title": "The Bibliographical Society, Editions of Juvenal printed up to 1600, main list, entry Juv~Comm04",
+      "kind": "bibliographic_database",
+      "url": "http://docs.bibsoc.org.uk/juvenal/juvenal_main_list.htm",
+      "access": "free_no_login",
+      "consulted": {
+        "date": "2026-11-20",
+        "copy": "Web page",
+        "pages_read": []
+      },
+      "notes": "'Venice, Gabriele di Pietro, 1478 ... G. Merula, In satyras Iuuenalis enarrationes / First edition of Juvenal with an errata list.'"
+    },
+    "timperley-1839": {
+      "title": "C. H. Timperley, A Dictionary of Printers and Printing (London, 1839)",
+      "kind": "historical_reference",
+      "url": "https://en.wikisource.org/wiki/Page:A_dictionary_of_printers_and_printing.djvu/170",
+      "access": "free_no_login",
+      "consulted": {
+        "date": "2026-11-20",
+        "copy": "Unproofread Wikisource OCR of p. 161",
+        "pages_read": [
+          "161"
+        ]
+      },
+      "notes": "'1478. The first Errata which is known is a Juvenal, printed at Venice, with the notes of Merula, by Gabriel Petrus. In this book the errata occupy two entire pages.' (OCR corrected)"
+    },
+    "repo-errata-thesis": {
+      "title": "Liina Repo, Errors and Corrections: Early Modern English Errata Lists in 1529-1700 (MA thesis, University of Turku)",
+      "kind": "thesis",
+      "url": "https://www.utupub.fi/bitstream/handle/10024/146176/Liina_Repo.pdf",
+      "access": "free_no_login",
+      "consulted": {
+        "date": "2026-11-20",
+        "copy": "PDF",
+        "pages_read": [
+          "9",
+          "10",
+          "11"
+        ]
+      },
+      "notes": "Secondary summaries of Blair (2007) and Lerer (2002), including readers' corrections in copies of More's works."
+    },
+    "speyart-2020-blair": {
+      "title": "Anna Speyart, write-up of Ann Blair's 2019 Panizzi Lectures, JHI Blog, 9 March 2020",
+      "kind": "secondary_summary",
+      "url": "https://www.jhiblog.org/?p=13933",
+      "access": "free_no_login",
+      "consulted": {
+        "date": "2026-11-20",
+        "copy": "Web page (read by a research subagent)",
+        "pages_read": []
+      },
+      "notes": "Reports that Blair 'has hardly seen instances in which readers actually applied corrections as suggested in the errata.'"
+    },
+    "folger-werner-2012": {
+      "title": "Sarah Werner, \"Correcting mistakes,\" The Collation (Folger Shakespeare Library), 1 March 2012",
+      "kind": "library_blog",
+      "url": "https://www.folger.edu/blogs/collation/correcting-mistakes",
+      "access": "free_no_login",
+      "consulted": {
+        "date": "2026-11-20",
+        "copy": "Web page (read by a research subagent)",
+        "pages_read": []
+      },
+      "notes": "A reader partially applying a Flecknoe errata list."
+    },
+    "gardiner-1886-high-commission": {
+      "title": "S. R. Gardiner (ed.), Reports of Cases in the Courts of Star Chamber and High Commission (Camden Society, 1886)",
+      "kind": "historical_primary",
+      "url": "https://archive.org/details/reportscasesinc01commgoog",
+      "access": "free_no_login",
+      "consulted": {
+        "date": "2026-11-20",
+        "copy": "archive.org OCR text (uncorrected)",
+        "pages_read": [
+          "296",
+          "297",
+          "304",
+          "305"
+        ]
+      },
+      "notes": "The High Commission case against Barker over the 1631 Bible, with the 'committ adultery' and 'great asse' readings and the Archbishop's 'gaine, gaine, gaine' complaint. The entries record no fine amount. Session headings in the OCR read '8 Maj, 1632' and '14 Junij, 1632'. The index identifies the Archbishop of Canterbury as George Abbot."
+    },
+    "wicked-bible-project": {
+      "title": "Chris Jones, Annika Stedman, et al., The Wicked Bible Project (Canterbury University Press / University of Canterbury, 2024), pages \"The Story\" and \"The Court of High Commission\"",
+      "kind": "scholarly_digital_project",
+      "url": "https://digitalvoyages.canterbury.ac.nz/omeka-s/s/wicked-bible/page/the-story",
+      "access": "free_no_login",
+      "consulted": {
+        "date": "2026-11-20",
+        "copy": "Web pages",
+        "pages_read": []
+      },
+      "notes": "Jones: tried by High Commission, not Star Chamber ('persistent modern myth'); impounded books returned to be corrected before resale; at least 25 copies extant (18 institutional), against the pre-2022 assumption of fewer than 10. Stedman: a £300 fine was levied and later forgiven after being used as leverage on Barker. Stedman's archival source for the £300 is not shown on the page."
+    },
+    "knuth-taocp-rewards": {
+      "title": "Donald E. Knuth, \"The Art of Computer Programming\" home page, section \"Rewards\"; FAQ; \"Financial Fiasco\" (news, 2008); Bank of San Serriffe page",
+      "kind": "author_primary",
+      "url": "https://www-cs-faculty.stanford.edu/~knuth/taocp.html",
+      "access": "free_no_login",
+      "consulted": {
+        "date": "2026-11-20",
+        "copy": "Web pages taocp.html, faq.html, news08.html, boss.html",
+        "pages_read": []
+      },
+      "notes": "$2.56 = 0x$1.00; '256 pennies is one hexadecimal dollar'; 'you may be able to recoup more than the cost...'; commas excluded; three checking accounts closed; 'kudos, not escudos'; 9 of 275 checks cashed since 2006, 'The others have apparently been cached'; bank founded October 2008."
+    },
+    "wilson-1756-retractation": {
+      "title": "Benjamin Wilson, \"A Retractation,\" Philosophical Transactions 49 (1755-56), pp. 682-683, doi:10.1098/rstl.1755.0107",
+      "kind": "historical_primary",
+      "url": "https://doi.org/10.1098/rstl.1755.0107",
+      "access": "free_no_login",
+      "consulted": {
+        "date": "2026-11-20",
+        "copy": "Scanned PDF via a Wayback Machine copy (read by a research subagent)",
+        "pages_read": [
+          "682",
+          "683"
+        ]
+      },
+      "notes": "Read 24 June 1756. 'I think it necessary to retract an opinion concerning the explication of the Leyden experiment ... which shew I was then mistaken in my notions about it.'"
+    },
+    "retractionwatch-1756": {
+      "title": "Retraction Watch, \"The first-ever English language retraction (1756)?\" (27 Feb 2012), and interview with Alex Csiszar, \"What did retractions look like in the 17th century?\" (14 Mar 2016)",
+      "kind": "secondary_summary",
+      "url": "https://retractionwatch.com/2012/02/27/the-first-ever-english-language-retraction-1756/",
+      "access": "free_no_login",
+      "consulted": {
+        "date": "2026-11-20",
+        "copy": "Web pages (read by a research subagent)",
+        "pages_read": []
+      },
+      "notes": "'what may be the earliest-ever English language retraction.' Csiszar suspects earlier examples (a 1684 Molyneux 'retractation', unverified) and says whole-paper retractions were rare before the twentieth century."
+    },
+    "fang-2012-pnas": {
+      "title": "Ferric C. Fang, R. Grant Steen, and Arturo Casadevall, \"Misconduct accounts for the majority of retracted scientific publications,\" PNAS 109(42) (2012), pp. 17028-17033",
+      "kind": "peer_reviewed_article",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3479492/",
+      "access": "free_no_login",
+      "consulted": {
+        "date": "2026-11-20",
+        "copy": "PubMed Central full text (read by a research subagent)",
+        "pages_read": []
+      },
+      "notes": "2,047 retracted articles (PubMed, 3 May 2012); 21.3% error; 67.4% misconduct (fraud or suspected fraud 43.4%, duplicate publication 14.2%, plagiarism 9.8%); mean months to retraction: fraud 46.8, error 26.0 (Table 2). A later correction (PNAS 110(3):1137) was not read."
+    },
+    "cope-2009-retraction": {
+      "title": "Elizabeth Wager, Virginia Barbour, Steven Yentis, and Sabine Kleinert, \"Retractions: guidance from the Committee on Publication Ethics (COPE),\" Croatian Medical Journal 50(6) (2009), pp. 532-535",
+      "kind": "guideline",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2802086/",
+      "access": "free_no_login",
+      "consulted": {
+        "date": "2026-11-20",
+        "copy": "PubMed Central full text (read by a research subagent)",
+        "pages_read": []
+      },
+      "notes": "'The main purpose of retractions is to correct the literature and ensure its integrity rather than to punish authors who misbehave.'"
+    },
+    "budd-1998-jama": {
+      "title": "J. M. Budd, M. Sievert, and T. R. Schultz, \"Phenomena of retraction: reasons for retraction and citations to the publications,\" JAMA 280(3) (1998), pp. 296-297, PMID 9676689",
+      "kind": "peer_reviewed_article",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9676689/",
+      "access": "abstract_only_consulted",
+      "consulted": {
+        "date": "2026-11-20",
+        "copy": "PubMed abstract only",
+        "pages_read": []
+      },
+      "notes": "'The 235 retracted articles were cited 2034 times after the retraction notice ... in only 19 instances was the retraction noted' (of 299 examined). Title, authors (Budd JM, Sievert M, Schultz TR) and citation confirmed via NCBI E-utilities esummary on 2026-11-20."
+    },
+    "wakefield-retraction": {
+      "title": "The Lancet, \"Retraction—Ileal-lymphoid-nodular hyperplasia, non-specific colitis, and pervasive developmental disorder in children,\" Lancet 375(9713):445 (6 Feb 2010); \"Retraction of an interpretation,\" Lancet 363:750 (6 Mar 2004); F. Godlee, J. Smith, H. Marcovitch, \"Wakefield's article linking MMR vaccine and autism was fraudulent,\" BMJ 342:c7452 (2011)",
+      "kind": "journal_notice",
+      "url": "https://www.bmj.com/content/342/bmj.c7452",
+      "access": "free_no_login",
+      "consulted": {
+        "date": "2026-11-20",
+        "copy": "Lancet notice and BMJ editorial via Wayback Machine captures (read by a research subagent)",
+        "pages_read": []
+      },
+      "notes": "Original paper Lancet 351(9103):637-641 (28 Feb 1998). The full retraction followed the GMC Fitness to Practise Panel ruling of 28 Jan 2010. BMJ: 'By the time the paper was finally retracted 12 years later...'. The retraction notice title and the BMJ editorial title are from the standard citations."
+    },
+    "voevodsky-2014-origins": {
+      "title": "Vladimir Voevodsky, \"The Origins and Motivations of Univalent Foundations,\" The Institute Letter (Institute for Advanced Study), Summer 2014; and slides \"Univalent Foundations\" (IAS, 26 March 2014)",
+      "kind": "author_primary",
+      "url": "https://www.ias.edu/ideas/2014/voevodsky-origins",
+      "access": "free_no_login",
+      "consulted": {
+        "date": "2026-11-20",
+        "copy": "Wayback Machine capture of 20 January 2021, and the slides PDF (read by a research subagent)",
+        "pages_read": []
+      },
+      "notes": "Motivic paper written 1992-93; error found 1999-2000 while Deligne checked his lectures; corrected arguments published 2006; 'This story got me scared...'; 'A technical argument by a trusted author...'; Simpson's October 1998 preprint (arXiv math/9810059); 'I was sure that we were right until the fall of 2013 (!!)'; 'mutual trust based on reputations'; no suitable proof assistant around 2000; 'I now do my mathematics with a proof assistant... I can just trust the computer.' The essay dates the Kapranov paper to 1989, but the records give 1990 and 1991."
+    },
+    "nova-1997-proof": {
+      "title": "NOVA, \"The Proof\" (PBS, broadcast 28 Oct 1997), transcript",
+      "kind": "broadcast_transcript",
+      "url": "https://www.pbs.org/wgbh/nova/transcripts/2414proof.html",
+      "access": "free_no_login",
+      "consulted": {
+        "date": "2026-11-20",
+        "copy": "Transcript web page (read by a research subagent)",
+        "pages_read": []
+      },
+      "notes": "Katz: 'for two months, July and August, I literally did nothing but go through this manuscript line by line'; the 'fundamental error'; Wiles: 'Monday morning, September 19'; 'the most—the most important moment of my working life'; work with Taylor."
+    },
+    "rubin-silverberg-1994": {
+      "title": "Karl Rubin and Alice Silverberg, \"A report on Wiles' Cambridge lectures,\" Bulletin of the AMS 31(1) (1994), pp. 15-38",
+      "kind": "scholarly_article",
+      "url": "https://arxiv.org/abs/math/9407220",
+      "access": "free_no_login",
+      "consulted": {
+        "date": "2026-11-20",
+        "copy": "arXiv text (read by a research subagent)",
+        "pages_read": []
+      },
+      "notes": "Announcement at the Newton Institute, 23 June 1993; Wiles's December 1993 statement that the calculation was 'not yet complete as it stands'."
+    },
+    "annals-1995-wiles": {
+      "title": "A. Wiles, \"Modular elliptic curves and Fermat's Last Theorem,\" Annals of Mathematics 141(3) (1995), pp. 443-551; R. Taylor and A. Wiles, \"Ring-theoretic properties of certain Hecke algebras,\" pp. 553-572",
+      "kind": "research_primary",
+      "url": "https://doi.org/10.2307/2118559",
+      "access": "bibliographic_record_only",
+      "consulted": {
+        "date": "2026-11-20",
+        "copy": "Crossref and zbMATH metadata only",
+        "pages_read": []
+      },
+      "notes": "Bibliographic confirmation of the 1995 publication. The papers were not read."
+    },
+    "afp-2026-rh": {
+      "title": "AFP, \"Anthropic researcher says Claude solved math's greatest riddle,\" via France 24, 20 November 2026",
+      "kind": "news_report",
+      "url": "https://www.france24.com/en/live-news/20261120-anthropic-researcher-says-claude-solved-math-s-greatest-riddle-1",
+      "access": "free_no_login",
+      "consulted": {
+        "date": "2026-11-20",
+        "copy": "Web page (read by a subagent)",
+        "pages_read": []
+      },
+      "notes": "Levent Alpoge: 'I believe I have, working with Claude, discovered a proof of the Riemann Hypothesis'; Lean version released first; full write-up planned; 'not been independently verified'. A same-day news report; its status is expected to change."
     }
   }
 }
