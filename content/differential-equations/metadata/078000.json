@@ -48,7 +48,7 @@
       "Explain the role of numerical flux consistency for nonlinear transport."
     ]
   },
-  "description": "Develops A cell stores an average, not a point measurement; why shared faces produce exact conservation; and recovering upwind from a face flux.",
+  "description": "Develops finite-volume updates from conservation over cells, tracking fluxes through boundaries so total quantities balance.",
   "tag_paths": [
     [
       "Mathematics",

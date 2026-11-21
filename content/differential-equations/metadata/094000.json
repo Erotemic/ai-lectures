@@ -52,7 +52,7 @@
       "Identify which conservation, CFL, TVD and error claims require separate hypotheses."
     ]
   },
-  "description": "Develops one line per cell, with its average preserved; the minmod decision; and from reconstructed lines to a time step.",
+  "description": "Introduces MUSCL reconstruction and slope limiters to sharpen numerical fronts without creating spurious oscillations near discontinuities.",
   "tag_paths": [
     [
       "Mathematics",

@@ -40,7 +40,7 @@
       "Solve a forced linear system and explain transient amplification."
     ]
   },
-  "description": "Develops one eigenvector where we need two; the generalized eigenvector explains the time factor; and the matrix exponential as an evolution operator.",
+  "description": "Calculates matrix exponentials when a system has Jordan blocks and uses variation of constants to account for external forcing.",
   "tag_paths": [
     [
       "Mathematics",
