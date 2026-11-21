@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "lecture_id": "005000",
+  "transcript": "005000-the-ladder-inside-su-two.md",
+  "description": "Constructs the polynomial representations of SU(2), proves the sl-two highest-weight ladder, decomposes tensor products, and distinguishes descent to SO(3).",
+  "tags": [
+    "SU(2)",
+    "sl(2)",
+    "Highest-weight representations",
+    "Raising operators",
+    "Lowering operators",
+    "Symmetric powers",
+    "Clebsch-Gordan"
+  ],
+  "tag_paths": [
+    [
+      "Mathematics",
+      "Lie theory",
+      "Su2 Highest Weight"
+    ],
+    [
+      "Mathematics",
+      "Representation theory",
+      "Su2 Highest Weight"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "lie-mit-18745",
+      "reason": "Reference for the mathematical definitions, claims and hypotheses; narration, examples and exercises are independently authored."
+    },
+    {
+      "source_id": "lie-hall-2015",
+      "reason": "Reference for the mathematical definitions, claims and hypotheses; narration, examples and exercises are independently authored."
+    },
+    {
+      "source_id": "lie-etingof-rep",
+      "reason": "Reference for the mathematical definitions, claims and hypotheses; narration, examples and exercises are independently authored."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-20",
+    "scope": "Original mathematical narration, examples, proofs and non-spoken exercise companion; external bibliography separately attributed."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "lie-groups-representation-theory:002000",
+        "reason": "Provides mathematical definitions, operations or examples used in this lecture."
+      },
+      {
+        "lecture_id": "lie-groups-representation-theory:004000",
+        "reason": "Provides mathematical definitions, operations or examples used in this lecture."
+      },
+      {
+        "lecture_id": "abstract-algebra:008000",
+        "reason": "Provides mathematical definitions, operations or examples used in this lecture."
+      }
+    ],
+    "background": [
+      "Matrix and group fundamentals; see indicated prerequisites for additional topics."
+    ],
+    "readiness_checks": [
+      "Compute the E,F,H commutation relations.",
+      "Determine weights and dimensions of symmetric-power modules.",
+      "Explain which representations descend from SU(2) to SO(3)."
+    ]
+  },
+  "claim_evidence": [
+    {
+      "id": "lie-005000-c001",
+      "anchor": "Three relations, each only one line long, encode the whole Lie algebra.",
+      "source_ids": [
+        "lie-mit-18745"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Spoken lecture and exact mathematical companion",
+      "evidence_detail": "The cited source supports the central standard theorem or definition; the author independently produced this exposition."
+    },
+    {
+      "id": "lie-005000-c002",
+      "anchor": "For even n, that action is the identity, so the representation descends to SO three.",
+      "source_ids": [
+        "lie-hall-2015"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Spoken lecture and exact mathematical companion",
+      "evidence_detail": "The cited source supports the central standard theorem or definition; the author independently produced this exposition."
+    }
+  ]
+}

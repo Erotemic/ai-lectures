@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "lecture_id": "001000",
+  "transcript": "001000-when-symmetry-moves-continuously.md",
+  "description": "Derives the infinitesimal generators of rotation, special linear and special unitary matrix groups and explains the local/global distinction.",
+  "tags": [
+    "Lie groups",
+    "Matrix Lie groups",
+    "SO(n)",
+    "SU(n)",
+    "Tangent spaces",
+    "Infinitesimal generators",
+    "Matrix exponential"
+  ],
+  "tag_paths": [
+    [
+      "Mathematics",
+      "Lie theory",
+      "Matrix Groups"
+    ],
+    [
+      "Mathematics",
+      "Representation theory",
+      "Matrix Groups"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "lie-mit-18745",
+      "reason": "Reference for the mathematical definitions, claims and hypotheses; narration, examples and exercises are independently authored."
+    },
+    {
+      "source_id": "lie-hall-2015",
+      "reason": "Reference for the mathematical definitions, claims and hypotheses; narration, examples and exercises are independently authored."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-20",
+    "scope": "Original mathematical narration, examples, proofs and non-spoken exercise companion; external bibliography separately attributed."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "linear-algebra:001000",
+        "reason": "Provides mathematical definitions, operations or examples used in this lecture."
+      },
+      {
+        "lecture_id": "abstract-algebra:001000",
+        "reason": "Provides mathematical definitions, operations or examples used in this lecture."
+      }
+    ],
+    "background": [
+      "Matrix and group fundamentals; see indicated prerequisites for additional topics."
+    ],
+    "readiness_checks": [
+      "Compute the tangent condition for the orthogonal group.",
+      "Recover a planar rotation by exponentiation.",
+      "Explain why the Lie algebra need not determine a group globally."
+    ]
+  },
+  "claim_evidence": [
+    {
+      "id": "lie-001000-c001",
+      "anchor": "We have discovered the Lie algebra of SO of n: precisely the skew-symmetric real matrices.",
+      "source_ids": [
+        "lie-mit-18745"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Spoken lecture and exact mathematical companion",
+      "evidence_detail": "The cited source supports the central standard theorem or definition; the author independently produced this exposition."
+    },
+    {
+      "id": "lie-001000-c002",
+      "anchor": "The derivative of the determinant at the identity in direction X is the trace of X, the sum of its diagonal entries.",
+      "source_ids": [
+        "lie-hall-2015"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Spoken lecture and exact mathematical companion",
+      "evidence_detail": "The cited source supports the central standard theorem or definition; the author independently produced this exposition."
+    }
+  ]
+}

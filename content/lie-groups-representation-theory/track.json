@@ -1,0 +1,214 @@
+{
+  "id": "lie-groups-representation-theory",
+  "title": "Lie Groups, Lie Algebras, and Representation Theory",
+  "categories": [
+    "Mathematics"
+  ],
+  "summary": "From continuous matrix symmetries and Lie brackets to homogeneous spaces, compact-group representations, and the highest-weight examples of SU(2) and SU(3).",
+  "assumed_background": [
+    "Matrix multiplication, basic group theory, eigenvalues, simple derivatives; companion notes carry exact notation."
+  ],
+  "sections": [
+    "matrix-groups",
+    "brackets-exponentials",
+    "actions-homogeneous-spaces",
+    "compact-representations",
+    "su2-highest-weight",
+    "su3-roots-weights"
+  ],
+  "lectures": [
+    {
+      "id": "001000",
+      "title": "When Symmetry Moves Continuously",
+      "section": "matrix-groups",
+      "file": "001000-when-symmetry-moves-continuously.md",
+      "description": "Derives the infinitesimal generators of rotation, special linear and special unitary matrix groups and explains the local/global distinction.",
+      "tags": [
+        "Lie groups",
+        "Matrix Lie groups",
+        "SO(n)",
+        "SU(n)",
+        "Tangent spaces",
+        "Infinitesimal generators",
+        "Matrix exponential"
+      ],
+      "tag_paths": [
+        [
+          "Mathematics",
+          "Lie theory",
+          "Matrix Groups"
+        ],
+        [
+          "Mathematics",
+          "Representation theory",
+          "Matrix Groups"
+        ]
+      ],
+      "spoken_words": 1560,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 10.8
+    },
+    {
+      "id": "002000",
+      "title": "Why Tiny Rotations Do Not Commute",
+      "section": "brackets-exponentials",
+      "file": "002000-why-tiny-rotations-do-not-commute.md",
+      "description": "Calculates commutators of infinitesimal transformations, derives the leading group-commutator and BCH terms, and explains why topology constrains integration.",
+      "tags": [
+        "Lie bracket",
+        "Commutator",
+        "Baker-Campbell-Hausdorff",
+        "Jacobi identity",
+        "SO(3)",
+        "Lie algebra homomorphisms"
+      ],
+      "tag_paths": [
+        [
+          "Mathematics",
+          "Lie theory",
+          "Brackets Exponentials"
+        ],
+        [
+          "Mathematics",
+          "Representation theory",
+          "Brackets Exponentials"
+        ]
+      ],
+      "spoken_words": 1586,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 10.9
+    },
+    {
+      "id": "003000",
+      "title": "A Sphere as a Space of Symmetries",
+      "section": "actions-homogeneous-spaces",
+      "file": "003000-a-sphere-as-a-space-of-symmetries.md",
+      "description": "Models the sphere as SO(3)/SO(2), computes orbit-stabilizer tangent dimensions, and derives the adjoint and isotropy representations.",
+      "tags": [
+        "Lie group actions",
+        "Homogeneous spaces",
+        "Orbit-stabilizer",
+        "SO(3)/SO(2)",
+        "Adjoint representation",
+        "Invariant metric"
+      ],
+      "tag_paths": [
+        [
+          "Mathematics",
+          "Lie theory",
+          "Actions Homogeneous Spaces"
+        ],
+        [
+          "Mathematics",
+          "Representation theory",
+          "Actions Homogeneous Spaces"
+        ]
+      ],
+      "spoken_words": 1676,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 11.6
+    },
+    {
+      "id": "004000",
+      "title": "One Symmetry, Many Linear Worlds",
+      "section": "compact-representations",
+      "file": "004000-one-symmetry-many-linear-worlds.md",
+      "description": "Connects continuous group representations to Lie-algebra operators, integer circle weights, Haar averaging, irreducibility and Schur’s lemma.",
+      "tags": [
+        "Representation theory",
+        "Compact Lie groups",
+        "Haar measure",
+        "Schur lemma",
+        "Circle characters",
+        "Fourier modes",
+        "Irreducible representations"
+      ],
+      "tag_paths": [
+        [
+          "Mathematics",
+          "Lie theory",
+          "Compact Representations"
+        ],
+        [
+          "Mathematics",
+          "Representation theory",
+          "Compact Representations"
+        ]
+      ],
+      "spoken_words": 1664,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 11.5
+    },
+    {
+      "id": "005000",
+      "title": "The Ladder Inside SU(2)",
+      "section": "su2-highest-weight",
+      "file": "005000-the-ladder-inside-su-two.md",
+      "description": "Constructs the polynomial representations of SU(2), proves the sl-two highest-weight ladder, decomposes tensor products, and distinguishes descent to SO(3).",
+      "tags": [
+        "SU(2)",
+        "sl(2)",
+        "Highest-weight representations",
+        "Raising operators",
+        "Lowering operators",
+        "Symmetric powers",
+        "Clebsch-Gordan"
+      ],
+      "tag_paths": [
+        [
+          "Mathematics",
+          "Lie theory",
+          "Su2 Highest Weight"
+        ],
+        [
+          "Mathematics",
+          "Representation theory",
+          "Su2 Highest Weight"
+        ]
+      ],
+      "spoken_words": 1786,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 12.3
+    },
+    {
+      "id": "006000",
+      "title": "Roots, Weights, and the Triangle of SU(3)",
+      "section": "su3-roots-weights",
+      "file": "006000-roots-weights-and-the-triangle-of-su-three.md",
+      "description": "Computes the A2 root system of sl-three, Weyl permutations, fundamental weights, highest-weight dimensions and the 3-tensor-3 decomposition.",
+      "tags": [
+        "SU(3)",
+        "sl(3)",
+        "Root systems",
+        "Weyl group",
+        "Fundamental weights",
+        "Highest-weight classification",
+        "Tensor representations"
+      ],
+      "tag_paths": [
+        [
+          "Mathematics",
+          "Lie theory",
+          "Su3 Roots Weights"
+        ],
+        [
+          "Mathematics",
+          "Representation theory",
+          "Su3 Roots Weights"
+        ]
+      ],
+      "spoken_words": 2099,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 14.5
+    }
+  ],
+  "tags": [
+    "Mathematics",
+    "Lie groups",
+    "Lie algebras",
+    "Representation theory",
+    "Differential geometry",
+    "Semisimple Lie algebras",
+    "Highest weights"
+  ]
+}

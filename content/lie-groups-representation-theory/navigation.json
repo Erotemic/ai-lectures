@@ -1,0 +1,97 @@
+{
+  "default_collection": "foundations",
+  "collections": [
+    {
+      "id": "foundations",
+      "title": "From Continuous Symmetry to Highest Weights",
+      "role": "main",
+      "lectures": [
+        "001000",
+        "002000",
+        "003000",
+        "004000",
+        "005000",
+        "006000"
+      ],
+      "assumed_background": [
+        "Matrix multiplication and derivatives; group actions and eigenspaces are refreshed."
+      ],
+      "preparation_collections": [
+        "abstract-algebra:survey",
+        "topology-geometry:manifolds"
+      ],
+      "tags": [
+        "Lie groups",
+        "Lie algebras",
+        "Representations",
+        "Roots and weights"
+      ]
+    },
+    {
+      "id": "geometry-of-symmetry",
+      "title": "Matrix Groups, Brackets and Homogeneous Spaces",
+      "role": "deep_dive",
+      "parent": "foundations",
+      "lectures": [
+        "001000",
+        "002000",
+        "003000"
+      ],
+      "assumed_background": [
+        "Elementary linear algebra and smooth curves."
+      ],
+      "related_collections": [
+        "topology-geometry:manifolds"
+      ],
+      "tags": [
+        "Matrix groups",
+        "Lie brackets",
+        "Homogeneous spaces"
+      ]
+    },
+    {
+      "id": "irreducibles-and-weights",
+      "title": "Representations: From Fourier Modes to SU(3)",
+      "role": "deep_dive",
+      "parent": "foundations",
+      "lectures": [
+        "004000",
+        "005000",
+        "006000"
+      ],
+      "assumed_background": [
+        "Group representations and eigenvectors; lecture 002000 supplies brackets."
+      ],
+      "related_collections": [
+        "abstract-algebra:representations"
+      ],
+      "tags": [
+        "Compact groups",
+        "Irreducibles",
+        "SU(2)",
+        "SU(3)",
+        "Highest weights"
+      ]
+    },
+    {
+      "id": "highest-weight-path",
+      "title": "A Short Route to Highest-Weight Theory",
+      "role": "deep_dive",
+      "parent": "foundations",
+      "lectures": [
+        "002000",
+        "004000",
+        "005000",
+        "006000"
+      ],
+      "assumed_background": [
+        "Already familiar with smooth matrix groups and elementary group actions."
+      ],
+      "tags": [
+        "Lie algebras",
+        "Representation theory",
+        "Root systems"
+      ]
+    }
+  ]
+}

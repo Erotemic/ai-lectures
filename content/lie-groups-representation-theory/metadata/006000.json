@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "lecture_id": "006000",
+  "transcript": "006000-roots-weights-and-the-triangle-of-su-three.md",
+  "description": "Computes the A2 root system of sl-three, Weyl permutations, fundamental weights, highest-weight dimensions and the 3-tensor-3 decomposition.",
+  "tags": [
+    "SU(3)",
+    "sl(3)",
+    "Root systems",
+    "Weyl group",
+    "Fundamental weights",
+    "Highest-weight classification",
+    "Tensor representations"
+  ],
+  "tag_paths": [
+    [
+      "Mathematics",
+      "Lie theory",
+      "Su3 Roots Weights"
+    ],
+    [
+      "Mathematics",
+      "Representation theory",
+      "Su3 Roots Weights"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "lie-mit-18745",
+      "reason": "Reference for the mathematical definitions, claims and hypotheses; narration, examples and exercises are independently authored."
+    },
+    {
+      "source_id": "lie-hall-2015",
+      "reason": "Reference for the mathematical definitions, claims and hypotheses; narration, examples and exercises are independently authored."
+    },
+    {
+      "source_id": "lie-etingof-rep",
+      "reason": "Reference for the mathematical definitions, claims and hypotheses; narration, examples and exercises are independently authored."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-20",
+    "scope": "Original mathematical narration, examples, proofs and non-spoken exercise companion; external bibliography separately attributed."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "lie-groups-representation-theory:005000",
+        "reason": "Provides mathematical definitions, operations or examples used in this lecture."
+      },
+      {
+        "lecture_id": "lie-groups-representation-theory:003000",
+        "reason": "Provides mathematical definitions, operations or examples used in this lecture."
+      }
+    ],
+    "background": [
+      "Matrix and group fundamentals; see indicated prerequisites for additional topics."
+    ],
+    "readiness_checks": [
+      "Compute the six root operators of sl-three.",
+      "Recognize the Weyl group as coordinate permutations.",
+      "Decompose 3 tensor 3 into symmetric and antisymmetric parts."
+    ]
+  },
+  "claim_evidence": [
+    {
+      "id": "lie-006000-c001",
+      "anchor": "There are six roots, one for each ordered pair of different indices:",
+      "source_ids": [
+        "lie-mit-18745"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Spoken lecture and exact mathematical companion",
+      "evidence_detail": "The cited source supports the central standard theorem or definition; the author independently produced this exposition."
+    },
+    {
+      "id": "lie-006000-c002",
+      "anchor": "The dimension of the representation with highest-weight coordinates p and q is one half times p plus one, times q plus one, times p plus q plus two.",
+      "source_ids": [
+        "lie-hall-2015"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Spoken lecture and exact mathematical companion",
+      "evidence_detail": "The cited source supports the central standard theorem or definition; the author independently produced this exposition."
+    }
+  ]
+}
