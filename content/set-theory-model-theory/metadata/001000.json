@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "lecture_id": "001000",
+  "transcript": "001000-the-collection-that-cannot-be-a-set.md",
+  "description": "Uses Russell's paradox to motivate restricted set construction and proves Cantor's power-set theorem before introducing the cumulative hierarchy.",
+  "tags": [
+    "Set theory",
+    "Zermelo-Fraenkel axioms",
+    "Russell paradox",
+    "Cantor theorem",
+    "Power set",
+    "Cumulative hierarchy"
+  ],
+  "tag_paths": [
+    [
+      "Mathematics",
+      "Set theory",
+      "Axioms and construction",
+      "Russell paradox"
+    ],
+    [
+      "Mathematics",
+      "Set theory",
+      "Power sets",
+      "Cantor theorem"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "smt-sep-set",
+      "reason": "Technical reference for definitions, theorem hypotheses, and proof context; narration and examples are independently authored."
+    },
+    {
+      "source_id": "smt-openlogic-set",
+      "reason": "Technical reference for definitions, theorem hypotheses, and proof context; narration and examples are independently authored."
+    },
+    {
+      "source_id": "smt-openlogic-slc",
+      "reason": "Technical reference for definitions, theorem hypotheses, and proof context; narration and examples are independently authored."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "smt-001000-h01",
+      "anchor": "Russell's paradox.",
+      "kind": "historical_research",
+      "source_ids": [
+        "smt-sep-set"
+      ],
+      "source_locator": "Standard scholarly account in the cited reference",
+      "audit_status": "reference_recorded"
+    }
+  ],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-20",
+    "scope": "Original audio-first manuscript, mathematical derivations and examples, and non-spoken companion."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "mathematical-proof:009000",
+        "reason": "Familiarity with sets, functions, and mathematical existence claims."
+      }
+    ],
+    "background": [
+      "Elementary sets, functions, and proof by contradiction."
+    ],
+    "readiness_checks": [
+      "Explain why unrestricted comprehension is inconsistent while separation is safe.",
+      "Construct the diagonal subset missing from a proposed power-set enumeration.",
+      "Distinguish a proper class description from an existing set."
+    ]
+  },
+  "claim_evidence": [
+    {
+      "id": "smt-001000-c001",
+      "anchor": "Russell's paradox.",
+      "source_ids": [
+        "smt-sep-set",
+        "smt-openlogic-set",
+        "smt-openlogic-slc"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Spoken discussion and mathematical companion",
+      "evidence_detail": "The manuscript gives the theorem hypotheses and a worked proof or proof argument, with foundational references recorded separately."
+    },
+    {
+      "id": "smt-001000-c002",
+      "anchor": "No function from A can be onto the power set of A.",
+      "source_ids": [
+        "smt-sep-set",
+        "smt-openlogic-set",
+        "smt-openlogic-slc"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Spoken discussion and mathematical companion",
+      "evidence_detail": "The manuscript gives the theorem hypotheses and a worked proof or proof argument, with foundational references recorded separately."
+    },
+    {
+      "id": "smt-001000-c003",
+      "anchor": "The hierarchy V is a proper class.",
+      "source_ids": [
+        "smt-sep-set",
+        "smt-openlogic-set",
+        "smt-openlogic-slc"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Spoken discussion and mathematical companion",
+      "evidence_detail": "The manuscript gives the theorem hypotheses and a worked proof or proof argument, with foundational references recorded separately."
+    }
+  ]
+}

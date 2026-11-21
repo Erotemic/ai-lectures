@@ -1,0 +1,306 @@
+{
+  "id": "set-theory-model-theory",
+  "title": "Set Theory and Model Theory: From Collections to Models",
+  "categories": [
+    "Mathematics"
+  ],
+  "summary": "An audio-first mathematical foundations course explaining axiomatic set construction, cardinality, ordinals, choice, the syntax and semantics of first-order theories, compactness, elementary substructures, and the distinction between completeness and incompleteness. Worked arguments bridge elementary proof habits to formalization.",
+  "assumed_background": [
+    "Basic sets, functions, proof by contradiction, and mathematical induction. First-order syntax is introduced from scratch. Linear algebra examples assume familiarity with independence and span."
+  ],
+  "sections": [
+    "axioms-and-construction",
+    "cardinality-and-bijections",
+    "ordinals-and-transfinite-methods",
+    "choice-and-maximality",
+    "languages-and-structures",
+    "completeness-and-compactness",
+    "elementary-substructures",
+    "incompleteness-and-theories"
+  ],
+  "lectures": [
+    {
+      "id": "001000",
+      "title": "The Collection That Cannot Be a Set: Why Set Theory Needs Axioms",
+      "section": "axioms-and-construction",
+      "file": "001000-the-collection-that-cannot-be-a-set.md",
+      "spoken_words": 1964,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 13.5,
+      "description": "Uses Russell's paradox to motivate restricted set construction and proves Cantor's power-set theorem before introducing the cumulative hierarchy.",
+      "tags": [
+        "Set theory",
+        "Zermelo-Fraenkel axioms",
+        "Russell paradox",
+        "Cantor theorem",
+        "Power set",
+        "Cumulative hierarchy"
+      ],
+      "tag_paths": [
+        [
+          "Mathematics",
+          "Set theory",
+          "Axioms and construction",
+          "Russell paradox"
+        ],
+        [
+          "Mathematics",
+          "Set theory",
+          "Power sets",
+          "Cantor theorem"
+        ]
+      ]
+    },
+    {
+      "id": "002000",
+      "title": "The Infinite List and the Missing Number: Countability and the Diagonal",
+      "section": "cardinality-and-bijections",
+      "file": "002000-the-infinite-list-and-the-missing-number.md",
+      "spoken_words": 1853,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 12.8,
+      "description": "Builds explicit countable enumerations, proves uncountability by diagonalization, and constructs the Cantor-Schroder-Bernstein bijection from two injections.",
+      "tags": [
+        "Set theory",
+        "Countability",
+        "Uncountability",
+        "Cantor diagonal argument",
+        "Cantor-Schroder-Bernstein",
+        "Cardinal arithmetic"
+      ],
+      "tag_paths": [
+        [
+          "Mathematics",
+          "Set theory",
+          "Cardinality",
+          "Countability"
+        ],
+        [
+          "Mathematics",
+          "Set theory",
+          "Injections and bijections",
+          "Cantor-Schroder-Bernstein"
+        ]
+      ]
+    },
+    {
+      "id": "003000",
+      "title": "Counting After Forever: Ordinals and Transfinite Induction",
+      "section": "ordinals-and-transfinite-methods",
+      "file": "003000-counting-after-forever.md",
+      "spoken_words": 1980,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 13.7,
+      "description": "Separates order type from cardinality, derives transfinite induction and recursion, and uses ordinal-valued rankings to explain termination.",
+      "tags": [
+        "Set theory",
+        "Ordinals",
+        "Well-orders",
+        "Transfinite induction",
+        "Transfinite recursion",
+        "Ordinal arithmetic",
+        "Termination proofs"
+      ],
+      "tag_paths": [
+        [
+          "Mathematics",
+          "Set theory",
+          "Ordinals",
+          "Well-orders"
+        ],
+        [
+          "Mathematics",
+          "Mathematical reasoning",
+          "Induction",
+          "Transfinite induction"
+        ],
+        [
+          "Computer science",
+          "Formal methods",
+          "Termination proofs"
+        ]
+      ]
+    },
+    {
+      "id": "004000",
+      "title": "Choosing Without a Formula: The Axiom of Choice, Zorn's Lemma, and Bases",
+      "section": "choice-and-maximality",
+      "file": "004000-choosing-without-a-formula.md",
+      "spoken_words": 1785,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 12.3,
+      "description": "Explains choice as an existence principle and proves the vector-space basis theorem by verifying Zorn's chain-upper-bound condition.",
+      "tags": [
+        "Set theory",
+        "Axiom of choice",
+        "Zorn lemma",
+        "Well-ordering theorem",
+        "Vector-space bases",
+        "Maximal ideals",
+        "Nonconstructive existence"
+      ],
+      "tag_paths": [
+        [
+          "Mathematics",
+          "Set theory",
+          "Axiom of choice",
+          "Zorn lemma"
+        ],
+        [
+          "Mathematics",
+          "Abstract algebra",
+          "Vector spaces",
+          "Basis existence"
+        ]
+      ]
+    },
+    {
+      "id": "005000",
+      "title": "When a Sentence Meets a Structure: The Mathematics of Models",
+      "section": "languages-and-structures",
+      "file": "005000-when-a-sentence-meets-a-structure.md",
+      "spoken_words": 1761,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 12.1,
+      "description": "Defines first-order signatures, truth in a structure, theories and consequence, with graph examples and a compactness-based limit on connectivity expressibility.",
+      "tags": [
+        "Model theory",
+        "First-order logic",
+        "Syntax and semantics",
+        "Satisfaction",
+        "Logical consequence",
+        "Graph theory",
+        "Isomorphism"
+      ],
+      "tag_paths": [
+        [
+          "Mathematics",
+          "Logic",
+          "Model theory",
+          "First-order structures"
+        ],
+        [
+          "Mathematics",
+          "Logic",
+          "Semantics",
+          "Satisfaction"
+        ],
+        [
+          "Mathematics",
+          "Graph theory",
+          "Logical definability"
+        ]
+      ]
+    },
+    {
+      "id": "006000",
+      "title": "Every Finite Piece Can Fit: Completeness and Compactness",
+      "section": "completeness-and-compactness",
+      "file": "006000-every-finite-piece-can-fit.md",
+      "spoken_words": 1798,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 12.4,
+      "description": "Derives compactness from finite derivations and first-order completeness, then explains Henkin witnesses, term models, and a nonstandard-arithmetic application.",
+      "tags": [
+        "Model theory",
+        "Completeness theorem",
+        "Compactness theorem",
+        "Henkin construction",
+        "Term models",
+        "Nonstandard models",
+        "First-order arithmetic"
+      ],
+      "tag_paths": [
+        [
+          "Mathematics",
+          "Logic",
+          "Completeness theorem",
+          "Henkin construction"
+        ],
+        [
+          "Mathematics",
+          "Logic",
+          "Compactness theorem",
+          "Nonstandard models"
+        ]
+      ]
+    },
+    {
+      "id": "007000",
+      "title": "How Small Can an Infinite Model Be? Löwenheim–Skolem and the Skolem Paradox",
+      "section": "elementary-substructures",
+      "file": "007000-how-small-can-an-infinite-model-be.md",
+      "spoken_words": 1622,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 11.2,
+      "description": "Builds the witness-closure argument for a countable elementary substructure and resolves the internal/external countability distinction in set-theoretic models.",
+      "tags": [
+        "Model theory",
+        "Löwenheim–Skolem theorem",
+        "Tarski-Vaught test",
+        "Elementary substructure",
+        "Skolem paradox",
+        "Countable models"
+      ],
+      "tag_paths": [
+        [
+          "Mathematics",
+          "Logic",
+          "Model theory",
+          "Elementary substructures"
+        ],
+        [
+          "Mathematics",
+          "Set theory",
+          "Model theory",
+          "Skolem paradox"
+        ]
+      ]
+    },
+    {
+      "id": "008000",
+      "title": "Complete Logic, Incomplete Arithmetic: What Gödel Actually Proved",
+      "section": "incompleteness-and-theories",
+      "file": "008000-complete-logic-incomplete-arithmetic.md",
+      "spoken_words": 1892,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 13.0,
+      "description": "Reconciles semantic completeness with arithmetical incompleteness through proof coding, diagonalization, Rosser refinement, nonstandard models, and relative consistency.",
+      "tags": [
+        "Mathematical logic",
+        "Gödel incompleteness",
+        "First-order completeness",
+        "Diagonal lemma",
+        "Arithmetization",
+        "Consistency",
+        "Formal proof systems"
+      ],
+      "tag_paths": [
+        [
+          "Mathematics",
+          "Logic",
+          "Incompleteness theorems",
+          "Gödel coding"
+        ],
+        [
+          "Mathematics",
+          "Logic",
+          "Proof theory",
+          "Consistency"
+        ],
+        [
+          "Computer science",
+          "Formal methods",
+          "Proof systems"
+        ]
+      ]
+    }
+  ],
+  "tags": [
+    "Mathematics",
+    "Set theory",
+    "Mathematical logic",
+    "Model theory",
+    "Formalization"
+  ]
+}

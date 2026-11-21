@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "lecture_id": "005000",
+  "transcript": "005000-when-a-sentence-meets-a-structure.md",
+  "description": "Defines first-order signatures, truth in a structure, theories and consequence, with graph examples and a compactness-based limit on connectivity expressibility.",
+  "tags": [
+    "Model theory",
+    "First-order logic",
+    "Syntax and semantics",
+    "Satisfaction",
+    "Logical consequence",
+    "Graph theory",
+    "Isomorphism"
+  ],
+  "tag_paths": [
+    [
+      "Mathematics",
+      "Logic",
+      "Model theory",
+      "First-order structures"
+    ],
+    [
+      "Mathematics",
+      "Logic",
+      "Semantics",
+      "Satisfaction"
+    ],
+    [
+      "Mathematics",
+      "Graph theory",
+      "Logical definability"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "smt-openlogic-slc",
+      "reason": "Technical reference for definitions, theorem hypotheses, and proof context; narration and examples are independently authored."
+    },
+    {
+      "source_id": "smt-openlogic-fol",
+      "reason": "Technical reference for definitions, theorem hypotheses, and proof context; narration and examples are independently authored."
+    },
+    {
+      "source_id": "smt-sep-model",
+      "reason": "Technical reference for definitions, theorem hypotheses, and proof context; narration and examples are independently authored."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-20",
+    "scope": "Original audio-first manuscript, mathematical derivations and examples, and non-spoken companion."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "mathematical-proof:001000",
+        "reason": "Quantifiers, logical connectives, and implication."
+      }
+    ],
+    "background": [
+      "Sets, relations, quantifiers, and elementary graph theory."
+    ],
+    "readiness_checks": [
+      "Write first-order graph sentences for symmetry and no isolated vertices.",
+      "Distinguish a formula with free variables from a sentence.",
+      "Explain why model-theoretic consequence and derivability have different definitions."
+    ]
+  },
+  "claim_evidence": [
+    {
+      "id": "smt-005000-c001",
+      "anchor": "A structure for this language chooses a nonempty domain",
+      "source_ids": [
+        "smt-openlogic-slc",
+        "smt-openlogic-fol",
+        "smt-sep-model"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Spoken discussion and mathematical companion",
+      "evidence_detail": "The manuscript gives the theorem hypotheses and a worked proof or proof argument, with foundational references recorded separately."
+    },
+    {
+      "id": "smt-005000-c002",
+      "anchor": "A sentence has no free variables",
+      "source_ids": [
+        "smt-openlogic-slc",
+        "smt-openlogic-fol",
+        "smt-sep-model"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Spoken discussion and mathematical companion",
+      "evidence_detail": "The manuscript gives the theorem hypotheses and a worked proof or proof argument, with foundational references recorded separately."
+    },
+    {
+      "id": "smt-005000-c003",
+      "anchor": "The proper proof uses compactness.",
+      "source_ids": [
+        "smt-openlogic-slc",
+        "smt-openlogic-fol",
+        "smt-sep-model"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Spoken discussion and mathematical companion",
+      "evidence_detail": "The manuscript gives the theorem hypotheses and a worked proof or proof argument, with foundational references recorded separately."
+    }
+  ]
+}

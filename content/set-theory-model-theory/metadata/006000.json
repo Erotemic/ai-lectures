@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "lecture_id": "006000",
+  "transcript": "006000-every-finite-piece-can-fit.md",
+  "description": "Derives compactness from finite derivations and first-order completeness, then explains Henkin witnesses, term models, and a nonstandard-arithmetic application.",
+  "tags": [
+    "Model theory",
+    "Completeness theorem",
+    "Compactness theorem",
+    "Henkin construction",
+    "Term models",
+    "Nonstandard models",
+    "First-order arithmetic"
+  ],
+  "tag_paths": [
+    [
+      "Mathematics",
+      "Logic",
+      "Completeness theorem",
+      "Henkin construction"
+    ],
+    [
+      "Mathematics",
+      "Logic",
+      "Compactness theorem",
+      "Nonstandard models"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "smt-openlogic-slc",
+      "reason": "Technical reference for definitions, theorem hypotheses, and proof context; narration and examples are independently authored."
+    },
+    {
+      "source_id": "smt-openlogic-fol",
+      "reason": "Technical reference for definitions, theorem hypotheses, and proof context; narration and examples are independently authored."
+    },
+    {
+      "source_id": "smt-sep-model",
+      "reason": "Technical reference for definitions, theorem hypotheses, and proof context; narration and examples are independently authored."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "smt-006000-h01",
+      "anchor": "Gödel's completeness theorem",
+      "kind": "historical_research",
+      "source_ids": [
+        "smt-openlogic-slc"
+      ],
+      "source_locator": "Standard scholarly account in the cited reference",
+      "audit_status": "reference_recorded"
+    }
+  ],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-20",
+    "scope": "Original audio-first manuscript, mathematical derivations and examples, and non-spoken companion."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "set-theory-model-theory:005000",
+        "reason": "Model satisfaction, consequence, and first-order theories."
+      },
+      {
+        "lecture_id": "logic-types:002000",
+        "reason": "Natural deduction and finite derivations."
+      }
+    ],
+    "background": [
+      "First-order quantifiers, ordinary induction, and satisfaction of formulas."
+    ],
+    "readiness_checks": [
+      "Derive compactness from completeness and the finiteness of derivations.",
+      "Explain why Henkin constants are necessary for the truth lemma.",
+      "Construct a finitely satisfiable theory forcing a nonstandard arithmetic element."
+    ]
+  },
+  "claim_evidence": [
+    {
+      "id": "smt-006000-c001",
+      "anchor": "This is the compactness theorem.",
+      "source_ids": [
+        "smt-openlogic-slc",
+        "smt-openlogic-fol",
+        "smt-sep-model"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Spoken discussion and mathematical companion",
+      "evidence_detail": "The manuscript gives the theorem hypotheses and a worked proof or proof argument, with foundational references recorded separately."
+    },
+    {
+      "id": "smt-006000-c002",
+      "anchor": "The decisive theorem is the truth lemma",
+      "source_ids": [
+        "smt-openlogic-slc",
+        "smt-openlogic-fol",
+        "smt-sep-model"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Spoken discussion and mathematical companion",
+      "evidence_detail": "The manuscript gives the theorem hypotheses and a worked proof or proof argument, with foundational references recorded separately."
+    },
+    {
+      "id": "smt-006000-c003",
+      "anchor": "By compactness, the whole theory has a model M.",
+      "source_ids": [
+        "smt-openlogic-slc",
+        "smt-openlogic-fol",
+        "smt-sep-model"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Spoken discussion and mathematical companion",
+      "evidence_detail": "The manuscript gives the theorem hypotheses and a worked proof or proof argument, with foundational references recorded separately."
+    }
+  ]
+}

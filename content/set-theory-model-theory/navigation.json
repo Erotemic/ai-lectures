@@ -1,0 +1,90 @@
+{
+  "default_collection": "foundations",
+  "collections": [
+    {
+      "id": "foundations",
+      "title": "Set Theory and Model Theory: A Connected Foundations Course",
+      "role": "main",
+      "lectures": [
+        "001000",
+        "002000",
+        "003000",
+        "004000",
+        "005000",
+        "006000",
+        "007000",
+        "008000"
+      ],
+      "assumed_background": [
+        "Elementary mathematics and comfort reading short proofs; first-order logic and set-theoretic axioms are developed within the course."
+      ],
+      "tags": [
+        "Mathematics",
+        "Set theory",
+        "Model theory",
+        "Mathematical logic"
+      ]
+    },
+    {
+      "id": "sets-and-infinity",
+      "title": "Constructing Sets, Comparing Infinities, and Choosing Maximal Objects",
+      "role": "deep_dive",
+      "parent": "foundations",
+      "lectures": [
+        "001000",
+        "002000",
+        "003000",
+        "004000"
+      ],
+      "assumed_background": [
+        "Sets, functions, countability basics, and induction."
+      ],
+      "tags": [
+        "ZF and ZFC",
+        "Cardinality",
+        "Ordinals",
+        "Zorn lemma"
+      ]
+    },
+    {
+      "id": "sentences-and-models",
+      "title": "What a First-Order Theory Can Say and Force",
+      "role": "deep_dive",
+      "parent": "foundations",
+      "lectures": [
+        "005000",
+        "006000",
+        "007000"
+      ],
+      "assumed_background": [
+        "Quantifiers, basic sets, and finite formal arguments."
+      ],
+      "tags": [
+        "Structures",
+        "Completeness",
+        "Compactness",
+        "Elementary substructures"
+      ]
+    },
+    {
+      "id": "proofs-and-limitations",
+      "title": "Completeness, Nonstandard Models, and Incompleteness",
+      "role": "deep_dive",
+      "parent": "foundations",
+      "lectures": [
+        "005000",
+        "006000",
+        "007000",
+        "008000"
+      ],
+      "assumed_background": [
+        "First-order syntax, elementary number theory, and computability at an intuitive level."
+      ],
+      "tags": [
+        "Gödel incompleteness",
+        "Model theory",
+        "Formalization"
+      ]
+    }
+  ]
+}

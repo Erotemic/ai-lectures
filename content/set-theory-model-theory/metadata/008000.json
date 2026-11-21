@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "lecture_id": "008000",
+  "transcript": "008000-complete-logic-incomplete-arithmetic.md",
+  "description": "Reconciles semantic completeness with arithmetical incompleteness through proof coding, diagonalization, Rosser refinement, nonstandard models, and relative consistency.",
+  "tags": [
+    "Mathematical logic",
+    "Gödel incompleteness",
+    "First-order completeness",
+    "Diagonal lemma",
+    "Arithmetization",
+    "Consistency",
+    "Formal proof systems"
+  ],
+  "tag_paths": [
+    [
+      "Mathematics",
+      "Logic",
+      "Incompleteness theorems",
+      "Gödel coding"
+    ],
+    [
+      "Mathematics",
+      "Logic",
+      "Proof theory",
+      "Consistency"
+    ],
+    [
+      "Computer science",
+      "Formal methods",
+      "Proof systems"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "smt-sep-godel",
+      "reason": "Technical reference for definitions, theorem hypotheses, and proof context; narration and examples are independently authored."
+    },
+    {
+      "source_id": "smt-openlogic-slc",
+      "reason": "Technical reference for definitions, theorem hypotheses, and proof context; narration and examples are independently authored."
+    },
+    {
+      "source_id": "smt-sep-model",
+      "reason": "Technical reference for definitions, theorem hypotheses, and proof context; narration and examples are independently authored."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "smt-008000-h01",
+      "anchor": "Rosser later modified the construction",
+      "kind": "historical_research",
+      "source_ids": [
+        "smt-sep-godel"
+      ],
+      "source_locator": "Standard scholarly account in the cited reference",
+      "audit_status": "reference_recorded"
+    }
+  ],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-20",
+    "scope": "Original audio-first manuscript, mathematical derivations and examples, and non-spoken companion."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "set-theory-model-theory:006000",
+        "reason": "The first-order completeness and model-existence theorem."
+      },
+      {
+        "lecture_id": "set-theory-model-theory:007000",
+        "reason": "Nonstandard models and internal/external quantification."
+      },
+      {
+        "lecture_id": "algorithms-computability-complexity:004000",
+        "reason": "Effective computations, halting, and undecidability."
+      }
+    ],
+    "background": [
+      "Formal derivations, basic computability, and first-order models."
+    ],
+    "readiness_checks": [
+      "Distinguish semantic completeness of a calculus from syntactic completeness of a theory.",
+      "Reconstruct the diagonal fixed-point argument for unprovability under consistency.",
+      "Explain why incompleteness coexists with soundness and completeness of first-order logic."
+    ]
+  },
+  "claim_evidence": [
+    {
+      "id": "smt-008000-c001",
+      "anchor": "Two famous statements about mathematical logic seem to collide.",
+      "source_ids": [
+        "smt-sep-godel",
+        "smt-openlogic-slc",
+        "smt-sep-model"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Spoken discussion and mathematical companion",
+      "evidence_detail": "The manuscript gives the theorem hypotheses and a worked proof or proof argument, with foundational references recorded separately."
+    },
+    {
+      "id": "smt-008000-c002",
+      "anchor": "Rosser later modified the construction",
+      "source_ids": [
+        "smt-sep-godel",
+        "smt-openlogic-slc",
+        "smt-sep-model"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Spoken discussion and mathematical companion",
+      "evidence_detail": "The manuscript gives the theorem hypotheses and a worked proof or proof argument, with foundational references recorded separately."
+    },
+    {
+      "id": "smt-008000-c003",
+      "anchor": "The second concerns the theory's own assertion of consistency.",
+      "source_ids": [
+        "smt-sep-godel",
+        "smt-openlogic-slc",
+        "smt-sep-model"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Spoken discussion and mathematical companion",
+      "evidence_detail": "The manuscript gives the theorem hypotheses and a worked proof or proof argument, with foundational references recorded separately."
+    }
+  ]
+}

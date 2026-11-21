@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "lecture_id": "002000",
+  "transcript": "002000-the-infinite-list-and-the-missing-number.md",
+  "description": "Builds explicit countable enumerations, proves uncountability by diagonalization, and constructs the Cantor-Schroder-Bernstein bijection from two injections.",
+  "tags": [
+    "Set theory",
+    "Countability",
+    "Uncountability",
+    "Cantor diagonal argument",
+    "Cantor-Schroder-Bernstein",
+    "Cardinal arithmetic"
+  ],
+  "tag_paths": [
+    [
+      "Mathematics",
+      "Set theory",
+      "Cardinality",
+      "Countability"
+    ],
+    [
+      "Mathematics",
+      "Set theory",
+      "Injections and bijections",
+      "Cantor-Schroder-Bernstein"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "smt-sep-set",
+      "reason": "Technical reference for definitions, theorem hypotheses, and proof context; narration and examples are independently authored."
+    },
+    {
+      "source_id": "smt-openlogic-set",
+      "reason": "Technical reference for definitions, theorem hypotheses, and proof context; narration and examples are independently authored."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-20",
+    "scope": "Original audio-first manuscript, mathematical derivations and examples, and non-spoken companion."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "set-theory-model-theory:001000",
+        "reason": "Cantor diagonal construction and the distinction between a set and its power set."
+      }
+    ],
+    "background": [
+      "Sequences, functions, integers, rationals, and simple proofs about sets."
+    ],
+    "readiness_checks": [
+      "Enumerate the rationals by a diagonal grid and explain why all appear.",
+      "Build a real number missing from any claimed complete decimal listing.",
+      "Sketch the partition-and-bijection proof of Cantor-Schroder-Bernstein."
+    ]
+  },
+  "claim_evidence": [
+    {
+      "id": "smt-002000-c001",
+      "anchor": "The integers are countable.",
+      "source_ids": [
+        "smt-sep-set",
+        "smt-openlogic-set"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Spoken discussion and mathematical companion",
+      "evidence_detail": "The manuscript gives the theorem hypotheses and a worked proof or proof argument, with foundational references recorded separately."
+    },
+    {
+      "id": "smt-002000-c002",
+      "anchor": "This proves that the interval from zero to one is uncountable.",
+      "source_ids": [
+        "smt-sep-set",
+        "smt-openlogic-set"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Spoken discussion and mathematical companion",
+      "evidence_detail": "The manuscript gives the theorem hypotheses and a worked proof or proof argument, with foundational references recorded separately."
+    },
+    {
+      "id": "smt-002000-c003",
+      "anchor": "this theorem does not require the axiom of choice.",
+      "source_ids": [
+        "smt-sep-set",
+        "smt-openlogic-set"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Spoken discussion and mathematical companion",
+      "evidence_detail": "The manuscript gives the theorem hypotheses and a worked proof or proof argument, with foundational references recorded separately."
+    }
+  ]
+}

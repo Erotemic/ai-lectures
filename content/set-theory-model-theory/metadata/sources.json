@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "sources": {
+    "smt-sep-set": {
+      "title": "Stanford Encyclopedia of Philosophy, Set Theory",
+      "kind": "scholarly_reference",
+      "url": "https://plato.stanford.edu/entries/set-theory/",
+      "access": "free_no_login",
+      "notes": "ZF and ZFC axioms, the cumulative hierarchy, transfinite ordinals, cardinality, and independence context."
+    },
+    "smt-openlogic-set": {
+      "title": "Open Logic Project, Set Theory",
+      "kind": "open_textbook",
+      "url": "https://builds.openlogicproject.org/content/set-theory/set-theory.pdf",
+      "access": "free_no_login",
+      "notes": "Set construction, ordinals, cardinals, and choice. Companion reference to a collaboratively authored, openly licensed textbook."
+    },
+    "smt-sep-choice": {
+      "title": "Stanford Encyclopedia of Philosophy, The Axiom of Choice",
+      "kind": "scholarly_reference",
+      "url": "https://plato.stanford.edu/entries/axiom-choice/",
+      "access": "free_no_login",
+      "notes": "Equivalent forms of choice, well-ordering, Zorn lemma, and mathematical consequences."
+    },
+    "smt-openlogic-slc": {
+      "title": "Richard Zach, Sets, Logic, Computation: An Open Introduction to Logic (Open Logic Project)",
+      "kind": "open_textbook",
+      "url": "https://slc.openlogicproject.org/",
+      "access": "free_no_login",
+      "notes": "Metalogic, first-order semantics, soundness, completeness, compactness, Löwenheim-Skolem, and computability."
+    },
+    "smt-openlogic-fol": {
+      "title": "Open Logic Project, First-Order Logic",
+      "kind": "open_textbook",
+      "url": "https://builds.openlogicproject.org/content/first-order-logic/first-order-logic.pdf",
+      "access": "free_no_login",
+      "notes": "Syntax, structures, formal derivations, the Henkin method, completeness, and compactness."
+    },
+    "smt-sep-model": {
+      "title": "Stanford Encyclopedia of Philosophy, Model Theory",
+      "kind": "scholarly_reference",
+      "url": "https://plato.stanford.edu/entries/model-theory/",
+      "access": "free_no_login",
+      "notes": "Structures, satisfaction, logical consequence, and the scope of first-order language."
+    },
+    "smt-sep-godel": {
+      "title": "Stanford Encyclopedia of Philosophy, Gödel's Incompleteness Theorems",
+      "kind": "scholarly_reference",
+      "url": "https://plato.stanford.edu/entries/goedel-incompleteness/",
+      "access": "free_no_login",
+      "notes": "Arithmetization, diagonal lemma, first and second incompleteness, Rosser refinement, nonstandard models, and undecidability distinctions."
+    }
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "lecture_id": "004000",
+  "transcript": "004000-choosing-without-a-formula.md",
+  "description": "Explains choice as an existence principle and proves the vector-space basis theorem by verifying Zorn's chain-upper-bound condition.",
+  "tags": [
+    "Set theory",
+    "Axiom of choice",
+    "Zorn lemma",
+    "Well-ordering theorem",
+    "Vector-space bases",
+    "Maximal ideals",
+    "Nonconstructive existence"
+  ],
+  "tag_paths": [
+    [
+      "Mathematics",
+      "Set theory",
+      "Axiom of choice",
+      "Zorn lemma"
+    ],
+    [
+      "Mathematics",
+      "Abstract algebra",
+      "Vector spaces",
+      "Basis existence"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "smt-sep-choice",
+      "reason": "Technical reference for definitions, theorem hypotheses, and proof context; narration and examples are independently authored."
+    },
+    {
+      "source_id": "smt-sep-set",
+      "reason": "Technical reference for definitions, theorem hypotheses, and proof context; narration and examples are independently authored."
+    },
+    {
+      "source_id": "smt-openlogic-set",
+      "reason": "Technical reference for definitions, theorem hypotheses, and proof context; narration and examples are independently authored."
+    }
+  ],
+  "historical_claims": [
+    {
+      "id": "smt-004000-h01",
+      "anchor": "Zorn's lemma.",
+      "kind": "historical_research",
+      "source_ids": [
+        "smt-sep-choice"
+      ],
+      "source_locator": "Standard scholarly account in the cited reference",
+      "audit_status": "reference_recorded"
+    }
+  ],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-20",
+    "scope": "Original audio-first manuscript, mathematical derivations and examples, and non-spoken companion."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "set-theory-model-theory:003000",
+        "reason": "Ordinals and well-ordering."
+      },
+      {
+        "lecture_id": "linear-algebra:001000",
+        "reason": "Linear independence and spanning sets."
+      }
+    ],
+    "background": [
+      "Elementary linear algebra and partial orders."
+    ],
+    "readiness_checks": [
+      "State AC, the well-ordering theorem, and Zorn lemma without conflating them with algorithms.",
+      "Prove a chain union of linearly independent sets remains independent.",
+      "Distinguish maximal from maximum and identify the use of choice in the basis theorem."
+    ]
+  },
+  "claim_evidence": [
+    {
+      "id": "smt-004000-c001",
+      "anchor": "The axiom of choice answers yes",
+      "source_ids": [
+        "smt-sep-choice",
+        "smt-sep-set",
+        "smt-openlogic-set"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Spoken discussion and mathematical companion",
+      "evidence_detail": "The manuscript gives the theorem hypotheses and a worked proof or proof argument, with foundational references recorded separately."
+    },
+    {
+      "id": "smt-004000-c002",
+      "anchor": "A maximal element has no strictly larger element above it.",
+      "source_ids": [
+        "smt-sep-choice",
+        "smt-sep-set",
+        "smt-openlogic-set"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Spoken discussion and mathematical companion",
+      "evidence_detail": "The manuscript gives the theorem hypotheses and a worked proof or proof argument, with foundational references recorded separately."
+    },
+    {
+      "id": "smt-004000-c003",
+      "anchor": "Thus there exists a maximal independent set B.",
+      "source_ids": [
+        "smt-sep-choice",
+        "smt-sep-set",
+        "smt-openlogic-set"
+      ],
+      "provenance": "original_derivation",
+      "source_locator": "Spoken discussion and mathematical companion",
+      "evidence_detail": "The manuscript gives the theorem hypotheses and a worked proof or proof argument, with foundational references recorded separately."
+    }
+  ]
+}
