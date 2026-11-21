@@ -1,0 +1,100 @@
+{
+  "default_collection": "foundations",
+  "collections": [
+    {
+      "id": "foundations",
+      "title": "Optimal Transport: From Couplings to Wasserstein Geometry",
+      "role": "main",
+      "lectures": [
+        "001000",
+        "002000",
+        "003000",
+        "004000",
+        "005000",
+        "006000"
+      ],
+      "assumed_background": [
+        "Elementary probability and calculus; optional preparation includes linear programming and graph matching."
+      ],
+      "preparation_collections": [
+        "probability-measure:established-course",
+        "optimization-duality:survey"
+      ],
+      "tags": [
+        "Mathematics",
+        "Optimal transport",
+        "Wasserstein distance"
+      ]
+    },
+    {
+      "id": "certificates-and-algorithms",
+      "title": "Finite Plans, Dual Certificates, and Matching",
+      "role": "deep_dive",
+      "parent": "foundations",
+      "lectures": [
+        "001000",
+        "002000",
+        "004000"
+      ],
+      "assumed_background": [
+        "Matrix arithmetic, nonnegative vectors and basic proof arguments."
+      ],
+      "related_collections": [
+        "optimization-duality:survey"
+      ],
+      "tags": [
+        "Kantorovich duality",
+        "Linear programming",
+        "Min-cost flow"
+      ]
+    },
+    {
+      "id": "wasserstein-geometry",
+      "title": "Wasserstein Distance and Moving Distributions",
+      "role": "deep_dive",
+      "parent": "foundations",
+      "lectures": [
+        "001000",
+        "003000",
+        "006000"
+      ],
+      "assumed_background": [
+        "Probability distributions and metrics; differentiability is helpful for the final lecture."
+      ],
+      "related_collections": [
+        "probability-measure:established-course",
+        "topology-geometry:survey"
+      ],
+      "tags": [
+        "Wasserstein metric",
+        "Quantiles",
+        "Displacement interpolation"
+      ]
+    },
+    {
+      "id": "computational-transport",
+      "title": "Computational Transport: Discrete Solvers to Sinkhorn",
+      "role": "deep_dive",
+      "parent": "foundations",
+      "lectures": [
+        "001000",
+        "002000",
+        "004000",
+        "005000"
+      ],
+      "assumed_background": [
+        "Matrix arithmetic, basic optimization, and logarithms."
+      ],
+      "related_collections": [
+        "optimization-duality:survey",
+        "information-theory:established-course"
+      ],
+      "tags": [
+        "Matching",
+        "Min-cost flow",
+        "Sinkhorn algorithm",
+        "Entropic regularization"
+      ]
+    }
+  ]
+}

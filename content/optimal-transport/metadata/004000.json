@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "lecture_id": "004000",
+  "transcript": "004000-when-transport-becomes-matching.md",
+  "description": "Connects equal-weight transport to Birkhoff-von Neumann, proves a discrete assignment certificate, and derives the min-cost flow reduction for general marginals.",
+  "tags": [
+    "Optimal transport",
+    "Birkhoff-von Neumann theorem",
+    "Assignment problem",
+    "Bipartite matching",
+    "Minimum-cost flow",
+    "Integrality"
+  ],
+  "tag_paths": [
+    [
+      "Mathematics",
+      "Optimal transport",
+      "Discrete algorithms"
+    ],
+    [
+      "Mathematics",
+      "Graph theory",
+      "Bipartite matching"
+    ],
+    [
+      "Mathematics",
+      "Optimization",
+      "Integral polyhedra"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "ot-peyre-cuturi",
+      "reason": "Reference for the mathematical definitions and theorem statements. Spoken narrative and worked numerical examples are independently authored."
+    },
+    {
+      "source_id": "ot-pot",
+      "reason": "Reference for the mathematical definitions and theorem statements. Spoken narrative and worked numerical examples are independently authored."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-20",
+    "scope": "Original spoken lecture, mathematical explanations and worked examples, exercises, and non-spoken companion. Theorem and bibliography sources recorded separately."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "optimal-transport:001000",
+        "reason": "Introduces the coupled-mass or Wasserstein structure used in this lecture."
+      }
+    ],
+    "background": [
+      "Finite matrices and elementary graph terminology; Hall’s theorem and LP duality are developed in outline."
+    ],
+    "readiness_checks": [
+      "Explain the scaling between unit assignments and probability couplings.",
+      "Prove why a doubly stochastic table is a mixture of permutations.",
+      "Translate a transport table into a minimum-cost flow network."
+    ]
+  },
+  "claim_evidence": [
+    {
+      "id": "ot-004000-c001",
+      "anchor": "The Birkhoff–von Neumann theorem says",
+      "source_ids": [
+        "ot-peyre-cuturi",
+        "ot-pot"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Spoken lecture and non-spoken mathematical companion",
+      "evidence_detail": "Published mathematical reference supports the stated theory; specific numerical derivations are original to this track."
+    }
+  ]
+}

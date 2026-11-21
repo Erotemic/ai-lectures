@@ -1,0 +1,240 @@
+{
+  "id": "optimal-transport",
+  "title": "Optimal Transport: Couplings, Duality, and the Geometry of Probability",
+  "categories": [
+    "Mathematics"
+  ],
+  "summary": "A worked mathematical foundation for optimal transport: finite couplings and primal-dual proofs, Wasserstein metrics, assignment and min-cost flow, entropic Sinkhorn scaling, and displacement interpolation.",
+  "assumed_background": [
+    "Probability distributions, expectations, linear equations and basic calculus. Matrix multiplication and mathematical proofs are introduced as needed. Advanced measure theory is optional."
+  ],
+  "sections": [
+    "couplings",
+    "duality",
+    "wasserstein",
+    "algorithms",
+    "regularization",
+    "geometry"
+  ],
+  "lectures": [
+    {
+      "id": "001000",
+      "title": "The Mass Has to Go Somewhere: Couplings and the Transport Problem",
+      "section": "couplings",
+      "file": "001000-the-mass-has-to-go-somewhere.md",
+      "spoken_words": 1886,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 13.0,
+      "description": "Derives the finite Kantorovich transport polytope, calculates an optimal two-by-two coupling, and explains why Monge maps can fail when atoms must split.",
+      "tags": [
+        "Optimal transport",
+        "Couplings",
+        "Marginals",
+        "Kantorovich problem",
+        "Monge problem",
+        "Linear programming"
+      ],
+      "tag_paths": [
+        [
+          "Mathematics",
+          "Optimal transport",
+          "Couplings"
+        ],
+        [
+          "Mathematics",
+          "Probability",
+          "Joint distributions"
+        ],
+        [
+          "Mathematics",
+          "Optimization",
+          "Linear programming"
+        ]
+      ]
+    },
+    {
+      "id": "002000",
+      "title": "Prices That Prove a Shipment Optimal: Kantorovich Duality",
+      "section": "duality",
+      "file": "002000-prices-that-prove-a-shipment-optimal.md",
+      "spoken_words": 1689,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 11.6,
+      "description": "Constructs an exact primal-dual transport certificate, derives the finite Kantorovich dual, and connects it to the one-Lipschitz dual for W-one.",
+      "tags": [
+        "Optimal transport",
+        "Kantorovich duality",
+        "Linear programming duality",
+        "Transport potentials",
+        "Complementary slackness",
+        "Kantorovich-Rubinstein duality"
+      ],
+      "tag_paths": [
+        [
+          "Mathematics",
+          "Optimal transport",
+          "Kantorovich duality"
+        ],
+        [
+          "Mathematics",
+          "Optimization",
+          "Duality"
+        ],
+        [
+          "Mathematics",
+          "Probability",
+          "Wasserstein distance"
+        ]
+      ]
+    },
+    {
+      "id": "003000",
+      "title": "A Distance Between Distributions: Wasserstein Metrics and Quantiles",
+      "section": "wasserstein",
+      "file": "003000-a-distance-between-distributions.md",
+      "spoken_words": 1901,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 13.1,
+      "description": "Builds the W-p metrics, proves the triangle inequality through gluing and Minkowski, computes quantile couplings, and distinguishes weak from Wasserstein convergence.",
+      "tags": [
+        "Optimal transport",
+        "Wasserstein metrics",
+        "Quantiles",
+        "Gluing lemma",
+        "Minkowski inequality",
+        "Weak convergence"
+      ],
+      "tag_paths": [
+        [
+          "Mathematics",
+          "Optimal transport",
+          "Wasserstein distances"
+        ],
+        [
+          "Mathematics",
+          "Probability",
+          "Coupling",
+          "Gluing lemma"
+        ],
+        [
+          "Mathematics",
+          "Analysis",
+          "Convergence of measures"
+        ]
+      ]
+    },
+    {
+      "id": "004000",
+      "title": "When Transport Becomes Matching: Assignments, Flows, and Integrality",
+      "section": "algorithms",
+      "file": "004000-when-transport-becomes-matching.md",
+      "spoken_words": 1809,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 12.5,
+      "description": "Connects equal-weight transport to Birkhoff-von Neumann, proves a discrete assignment certificate, and derives the min-cost flow reduction for general marginals.",
+      "tags": [
+        "Optimal transport",
+        "Birkhoff-von Neumann theorem",
+        "Assignment problem",
+        "Bipartite matching",
+        "Minimum-cost flow",
+        "Integrality"
+      ],
+      "tag_paths": [
+        [
+          "Mathematics",
+          "Optimal transport",
+          "Discrete algorithms"
+        ],
+        [
+          "Mathematics",
+          "Graph theory",
+          "Bipartite matching"
+        ],
+        [
+          "Mathematics",
+          "Optimization",
+          "Integral polyhedra"
+        ]
+      ]
+    },
+    {
+      "id": "005000",
+      "title": "Smoothing a Sharp Transport Plan: Entropy and Sinkhorn Scaling",
+      "section": "regularization",
+      "file": "005000-smoothing-a-sharp-transport-plan.md",
+      "spoken_words": 1951,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 13.5,
+      "description": "Derives the entropic objective, exponential kernel and Sinkhorn updates, with a closed-form two-by-two example and clear distinctions among regularized and unregularized losses.",
+      "tags": [
+        "Optimal transport",
+        "Entropic regularization",
+        "Sinkhorn algorithm",
+        "Matrix scaling",
+        "Kullback-Leibler divergence",
+        "Numerical stability"
+      ],
+      "tag_paths": [
+        [
+          "Mathematics",
+          "Optimal transport",
+          "Entropic regularization"
+        ],
+        [
+          "Mathematics",
+          "Numerical optimization",
+          "Matrix scaling"
+        ],
+        [
+          "Mathematics",
+          "Information theory",
+          "Relative entropy"
+        ]
+      ]
+    },
+    {
+      "id": "006000",
+      "title": "Moving a Distribution Along a Geodesic: Transport Maps and Wasserstein Geometry",
+      "section": "geometry",
+      "file": "006000-moving-a-distribution-along-a-geodesic.md",
+      "spoken_words": 1955,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 13.5,
+      "description": "Constructs displacement interpolation, proves constant speed in an atomic example, introduces Brenier maps and connects dynamic quadratic transport to the continuity equation.",
+      "tags": [
+        "Optimal transport",
+        "Displacement interpolation",
+        "Brenier theorem",
+        "Convex potentials",
+        "Wasserstein geodesics",
+        "Benamou-Brenier formulation"
+      ],
+      "tag_paths": [
+        [
+          "Mathematics",
+          "Optimal transport",
+          "Wasserstein geometry"
+        ],
+        [
+          "Mathematics",
+          "Convex analysis",
+          "Convex potentials"
+        ],
+        [
+          "Mathematics",
+          "Partial differential equations",
+          "Continuity equation"
+        ]
+      ]
+    }
+  ],
+  "tags": [
+    "Mathematics",
+    "Optimal transport",
+    "Wasserstein distance",
+    "Kantorovich duality",
+    "Couplings",
+    "Numerical optimization"
+  ]
+}

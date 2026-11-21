@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "lecture_id": "002000",
+  "transcript": "002000-prices-that-prove-a-shipment-optimal.md",
+  "description": "Constructs an exact primal-dual transport certificate, derives the finite Kantorovich dual, and connects it to the one-Lipschitz dual for W-one.",
+  "tags": [
+    "Optimal transport",
+    "Kantorovich duality",
+    "Linear programming duality",
+    "Transport potentials",
+    "Complementary slackness",
+    "Kantorovich-Rubinstein duality"
+  ],
+  "tag_paths": [
+    [
+      "Mathematics",
+      "Optimal transport",
+      "Kantorovich duality"
+    ],
+    [
+      "Mathematics",
+      "Optimization",
+      "Duality"
+    ],
+    [
+      "Mathematics",
+      "Probability",
+      "Wasserstein distance"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "ot-peyre-cuturi",
+      "reason": "Reference for the mathematical definitions and theorem statements. Spoken narrative and worked numerical examples are independently authored."
+    },
+    {
+      "source_id": "ot-villani",
+      "reason": "Reference for the mathematical definitions and theorem statements. Spoken narrative and worked numerical examples are independently authored."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-20",
+    "scope": "Original spoken lecture, mathematical explanations and worked examples, exercises, and non-spoken companion. Theorem and bibliography sources recorded separately."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "optimal-transport:001000",
+        "reason": "Introduces the coupled-mass or Wasserstein structure used in this lecture."
+      }
+    ],
+    "background": [
+      "Linear inequalities, finite expectations, and an introductory idea of LP duality; a complete finite derivation is included."
+    ],
+    "readiness_checks": [
+      "Produce a feasible set of transport potentials and calculate its lower bound.",
+      "Explain complementary slackness on positive-mass edges.",
+      "Relate a one-Lipschitz function to a W-one dual certificate."
+    ]
+  },
+  "claim_evidence": [
+    {
+      "id": "ot-002000-c001",
+      "anchor": "Weak duality is the easy inequality we have just proved",
+      "source_ids": [
+        "ot-peyre-cuturi",
+        "ot-villani"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Spoken lecture and non-spoken mathematical companion",
+      "evidence_detail": "Published mathematical reference supports the stated theory; specific numerical derivations are original to this track."
+    }
+  ]
+}

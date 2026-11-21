@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "lecture_id": "003000",
+  "transcript": "003000-a-distance-between-distributions.md",
+  "description": "Builds the W-p metrics, proves the triangle inequality through gluing and Minkowski, computes quantile couplings, and distinguishes weak from Wasserstein convergence.",
+  "tags": [
+    "Optimal transport",
+    "Wasserstein metrics",
+    "Quantiles",
+    "Gluing lemma",
+    "Minkowski inequality",
+    "Weak convergence"
+  ],
+  "tag_paths": [
+    [
+      "Mathematics",
+      "Optimal transport",
+      "Wasserstein distances"
+    ],
+    [
+      "Mathematics",
+      "Probability",
+      "Coupling",
+      "Gluing lemma"
+    ],
+    [
+      "Mathematics",
+      "Analysis",
+      "Convergence of measures"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "ot-peyre-cuturi",
+      "reason": "Reference for the mathematical definitions and theorem statements. Spoken narrative and worked numerical examples are independently authored."
+    },
+    {
+      "source_id": "ot-villani",
+      "reason": "Reference for the mathematical definitions and theorem statements. Spoken narrative and worked numerical examples are independently authored."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-20",
+    "scope": "Original spoken lecture, mathematical explanations and worked examples, exercises, and non-spoken companion. Theorem and bibliography sources recorded separately."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "optimal-transport:001000",
+        "reason": "Introduces the coupled-mass or Wasserstein structure used in this lecture."
+      }
+    ],
+    "background": [
+      "Discrete distributions and expectation; the extension to measures uses finite p-th moments."
+    ],
+    "readiness_checks": [
+      "Compute W-one and W-two for the running atomic example.",
+      "Explain the gluing argument for the triangle inequality.",
+      "Show why weak convergence alone need not imply W-one convergence."
+    ]
+  },
+  "claim_evidence": [
+    {
+      "id": "ot-003000-c001",
+      "anchor": "The Wasserstein distances do exactly that",
+      "source_ids": [
+        "ot-peyre-cuturi",
+        "ot-villani"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Spoken lecture and non-spoken mathematical companion",
+      "evidence_detail": "Published mathematical reference supports the stated theory; specific numerical derivations are original to this track."
+    }
+  ]
+}

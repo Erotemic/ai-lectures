@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "lecture_id": "006000",
+  "transcript": "006000-moving-a-distribution-along-a-geodesic.md",
+  "description": "Constructs displacement interpolation, proves constant speed in an atomic example, introduces Brenier maps and connects dynamic quadratic transport to the continuity equation.",
+  "tags": [
+    "Optimal transport",
+    "Displacement interpolation",
+    "Brenier theorem",
+    "Convex potentials",
+    "Wasserstein geodesics",
+    "Benamou-Brenier formulation"
+  ],
+  "tag_paths": [
+    [
+      "Mathematics",
+      "Optimal transport",
+      "Wasserstein geometry"
+    ],
+    [
+      "Mathematics",
+      "Convex analysis",
+      "Convex potentials"
+    ],
+    [
+      "Mathematics",
+      "Partial differential equations",
+      "Continuity equation"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "ot-peyre-cuturi",
+      "reason": "Reference for the mathematical definitions and theorem statements. Spoken narrative and worked numerical examples are independently authored."
+    },
+    {
+      "source_id": "ot-villani",
+      "reason": "Reference for the mathematical definitions and theorem statements. Spoken narrative and worked numerical examples are independently authored."
+    },
+    {
+      "source_id": "ot-brenier",
+      "reason": "Reference for the mathematical definitions and theorem statements. Spoken narrative and worked numerical examples are independently authored."
+    },
+    {
+      "source_id": "ot-benamou-brenier",
+      "reason": "Reference for the mathematical definitions and theorem statements. Spoken narrative and worked numerical examples are independently authored."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-20",
+    "scope": "Original spoken lecture, mathematical explanations and worked examples, exercises, and non-spoken companion. Theorem and bibliography sources recorded separately."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "optimal-transport:003000",
+        "reason": "Introduces the coupled-mass or Wasserstein structure used in this lecture."
+      }
+    ],
+    "background": [
+      "Wasserstein metrics, elementary convexity and integration; the lecture distinguishes smooth heuristics from rigorous general statements."
+    ],
+    "readiness_checks": [
+      "Contrast mixture interpolation with displacement interpolation for point masses.",
+      "State Brenier’s theorem with its source absolute-continuity assumption.",
+      "Compute the W-two speed of the two-particle displacement path."
+    ]
+  },
+  "claim_evidence": [
+    {
+      "id": "ot-006000-c001",
+      "anchor": "In Euclidean space, under the standard hypotheses including absolute continuity of the source probability measure and finite second moments, Brenier's theorem gives an optimal transport map",
+      "source_ids": [
+        "ot-peyre-cuturi",
+        "ot-villani",
+        "ot-brenier",
+        "ot-benamou-brenier"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Spoken lecture and non-spoken mathematical companion",
+      "evidence_detail": "Published mathematical reference supports the stated theory; specific numerical derivations are original to this track."
+    }
+  ]
+}

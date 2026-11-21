@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "lecture_id": "005000",
+  "transcript": "005000-smoothing-a-sharp-transport-plan.md",
+  "description": "Derives the entropic objective, exponential kernel and Sinkhorn updates, with a closed-form two-by-two example and clear distinctions among regularized and unregularized losses.",
+  "tags": [
+    "Optimal transport",
+    "Entropic regularization",
+    "Sinkhorn algorithm",
+    "Matrix scaling",
+    "Kullback-Leibler divergence",
+    "Numerical stability"
+  ],
+  "tag_paths": [
+    [
+      "Mathematics",
+      "Optimal transport",
+      "Entropic regularization"
+    ],
+    [
+      "Mathematics",
+      "Numerical optimization",
+      "Matrix scaling"
+    ],
+    [
+      "Mathematics",
+      "Information theory",
+      "Relative entropy"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "ot-peyre-cuturi",
+      "reason": "Reference for the mathematical definitions and theorem statements. Spoken narrative and worked numerical examples are independently authored."
+    },
+    {
+      "source_id": "ot-cuturi",
+      "reason": "Reference for the mathematical definitions and theorem statements. Spoken narrative and worked numerical examples are independently authored."
+    },
+    {
+      "source_id": "ot-pot",
+      "reason": "Reference for the mathematical definitions and theorem statements. Spoken narrative and worked numerical examples are independently authored."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-20",
+    "scope": "Original spoken lecture, mathematical explanations and worked examples, exercises, and non-spoken companion. Theorem and bibliography sources recorded separately."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "optimal-transport:001000",
+        "reason": "Introduces the coupled-mass or Wasserstein structure used in this lecture."
+      },
+      {
+        "lecture_id": "optimal-transport:002000",
+        "reason": "Introduces the coupled-mass or Wasserstein structure used in this lecture."
+      }
+    ],
+    "background": [
+      "Logarithms, derivatives, matrix multiplication, and entropy; the transport conventions are reviewed."
+    ],
+    "readiness_checks": [
+      "Derive the exponential kernel of an entropically regularized transport plan.",
+      "Calculate the symmetric two-by-two solution for a chosen epsilon.",
+      "Distinguish transport cost, full regularized objective and Sinkhorn divergence."
+    ]
+  },
+  "claim_evidence": [
+    {
+      "id": "ot-005000-c001",
+      "anchor": "The result is entropically regularized optimal transport.",
+      "source_ids": [
+        "ot-peyre-cuturi",
+        "ot-cuturi",
+        "ot-pot"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Spoken lecture and non-spoken mathematical companion",
+      "evidence_detail": "Published mathematical reference supports the stated theory; specific numerical derivations are original to this track."
+    }
+  ]
+}

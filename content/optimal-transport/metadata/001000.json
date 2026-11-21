@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "lecture_id": "001000",
+  "transcript": "001000-the-mass-has-to-go-somewhere.md",
+  "description": "Derives the finite Kantorovich transport polytope, calculates an optimal two-by-two coupling, and explains why Monge maps can fail when atoms must split.",
+  "tags": [
+    "Optimal transport",
+    "Couplings",
+    "Marginals",
+    "Kantorovich problem",
+    "Monge problem",
+    "Linear programming"
+  ],
+  "tag_paths": [
+    [
+      "Mathematics",
+      "Optimal transport",
+      "Couplings"
+    ],
+    [
+      "Mathematics",
+      "Probability",
+      "Joint distributions"
+    ],
+    [
+      "Mathematics",
+      "Optimization",
+      "Linear programming"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "ot-peyre-cuturi",
+      "reason": "Reference for the mathematical definitions and theorem statements. Spoken narrative and worked numerical examples are independently authored."
+    },
+    {
+      "source_id": "ot-pot",
+      "reason": "Reference for the mathematical definitions and theorem statements. Spoken narrative and worked numerical examples are independently authored."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-20",
+    "scope": "Original spoken lecture, mathematical explanations and worked examples, exercises, and non-spoken companion. Theorem and bibliography sources recorded separately."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "background": [
+      "Probability distributions and weighted averages; all needed transportation notation is introduced in the lecture."
+    ],
+    "readiness_checks": [
+      "Describe row and column marginal constraints for a coupling.",
+      "Solve the two-by-two transport example by reducing it to one variable.",
+      "Explain why a feasible coupling need not arise from a deterministic map."
+    ]
+  },
+  "claim_evidence": [
+    {
+      "id": "ot-001000-c001",
+      "anchor": "So a coupling of mu and nu is any joint distribution with those prescribed marginals.",
+      "source_ids": [
+        "ot-peyre-cuturi",
+        "ot-pot"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Spoken lecture and non-spoken mathematical companion",
+      "evidence_detail": "Published mathematical reference supports the stated theory; specific numerical derivations are original to this track."
+    }
+  ]
+}

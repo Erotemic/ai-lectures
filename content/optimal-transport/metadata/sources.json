@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "sources": {
+    "ot-peyre-cuturi": {
+      "title": "Gabriel Peyré and Marco Cuturi, Computational Optimal Transport (Foundations and Trends in Machine Learning, 2019)",
+      "kind": "research_monograph",
+      "url": "https://research.google/pubs/computational-optimal-transport/",
+      "access": "free_no_login",
+      "notes": "Primary source for discrete transport, duality, Wasserstein metrics, assignment, entropic regularization and maps."
+    },
+    "ot-villani": {
+      "title": "Cédric Villani, Optimal Transport: Old and New (Springer, 2009)",
+      "kind": "research_monograph",
+      "url": "https://link.springer.com/book/10.1007/978-3-540-71050-9",
+      "access": "publisher_preview",
+      "notes": "Detailed statements and proofs for Kantorovich duality, Wasserstein spaces, displacement interpolation and transport maps."
+    },
+    "ot-pot": {
+      "title": "Python Optimal Transport (POT), User Guide and API Documentation",
+      "kind": "open_technical_documentation",
+      "url": "https://pythonot.github.io/user_guide.html",
+      "access": "free_no_login",
+      "notes": "Finite transport and entropic solver definitions, including convention distinctions and numerical stability guidance."
+    },
+    "ot-cuturi": {
+      "title": "Marco Cuturi, Sinkhorn Distances: Lightspeed Computation of Optimal Transport (NeurIPS, 2013)",
+      "kind": "research_paper",
+      "url": "https://mlanthology.org/neurips/2013/cuturi2013neurips-sinkhorn/",
+      "access": "free_no_login",
+      "notes": "Entropic regularization and matrix scaling for optimal transport."
+    },
+    "ot-brenier": {
+      "title": "Yann Brenier, Polar Factorization and Monotone Rearrangement of Vector-Valued Functions (1991)",
+      "kind": "research_paper",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/cpa.3160440402",
+      "access": "publisher_abstract",
+      "notes": "Convex-gradient map structure associated with quadratic transport; lecture states standard theorem hypotheses."
+    },
+    "ot-benamou-brenier": {
+      "title": "Jean-David Benamou and Yann Brenier, A Computational Fluid Mechanics Solution to the Monge-Kantorovich Mass Transfer Problem (Numerische Mathematik, 2000)",
+      "kind": "research_paper",
+      "url": "https://doi.org/10.1007/s002119900117",
+      "access": "publisher_abstract",
+      "notes": "Dynamic formulation of quadratic optimal transport in terms of kinetic action and mass conservation."
+    }
+  }
+}
