@@ -1,0 +1,244 @@
+{
+  "id": "statistical-decision-theory",
+  "title": "Statistical Decision Theory and Bayesian Computation",
+  "categories": [
+    "Mathematics"
+  ],
+  "summary": "Worked foundations for decisions under uncertainty, frequentist and Bayes risk, shrinkage, posterior predictive model criticism, Metropolis-Hastings, Gibbs and Hamiltonian Monte Carlo.",
+  "assumed_background": [
+    "Elementary probability and calculus; normal distributions and Markov chains are introduced in existing probability-measure lectures and reviewed where needed."
+  ],
+  "sections": [
+    "decisions",
+    "frequentist-risk",
+    "shrinkage",
+    "model-checks",
+    "metropolis",
+    "modern-mcmc"
+  ],
+  "lectures": [
+    {
+      "id": "001000",
+      "title": "A Probability Is Not Yet a Decision",
+      "section": "decisions",
+      "file": "001000-a-probability-is-not-yet-a-decision.md",
+      "description": "Derives posterior expected loss, cost-sensitive thresholds and the expected value of a diagnostic test, distinguishing observational forecasts from intervention decisions.",
+      "tags": [
+        "Statistical decision theory",
+        "Bayes actions",
+        "Posterior expected loss",
+        "Loss functions",
+        "Value of information",
+        "Decision thresholds"
+      ],
+      "tag_paths": [
+        [
+          "Mathematics",
+          "Statistics",
+          "Decision theory"
+        ],
+        [
+          "Mathematics",
+          "Probability",
+          "Conditional expectation"
+        ],
+        [
+          "Mathematics",
+          "Decision theory",
+          "Value of information"
+        ]
+      ],
+      "spoken_words": 1914,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 13.2
+    },
+    {
+      "id": "002000",
+      "title": "Risk, Admissibility, and the Minimax Choice",
+      "section": "frequentist-risk",
+      "file": "002000-risk-admissibility-and-the-minimax-choice.md",
+      "description": "Develops the frequentist risk function, dominance, admissibility, Bayes average risk and minimax worst-case risk with a coin estimator and a complete two-state game.",
+      "tags": [
+        "Statistical decision theory",
+        "Risk functions",
+        "Admissibility",
+        "Minimax estimation",
+        "Bayes risk",
+        "Frequentist estimation"
+      ],
+      "tag_paths": [
+        [
+          "Mathematics",
+          "Statistics",
+          "Risk"
+        ],
+        [
+          "Mathematics",
+          "Optimization",
+          "Minimax"
+        ],
+        [
+          "Mathematics",
+          "Statistics",
+          "Admissibility"
+        ]
+      ],
+      "spoken_words": 1933,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 13.3
+    },
+    {
+      "id": "003000",
+      "title": "The Advantage of Shrinking Several Estimates",
+      "section": "shrinkage",
+      "file": "003000-the-advantage-of-shrinking-several-estimates.md",
+      "description": "Derives conjugate normal shrinkage and partial pooling, then proves the James–Stein risk improvement via Stein’s identity while keeping Bayesian and frequentist guarantees separate.",
+      "tags": [
+        "Statistical decision theory",
+        "Normal means",
+        "Hierarchical Bayes",
+        "Empirical Bayes",
+        "James-Stein estimator",
+        "Stein identity",
+        "Shrinkage"
+      ],
+      "tag_paths": [
+        [
+          "Mathematics",
+          "Statistics",
+          "Shrinkage estimation"
+        ],
+        [
+          "Mathematics",
+          "Statistics",
+          "Hierarchical models"
+        ],
+        [
+          "Mathematics",
+          "Probability",
+          "Multivariate normal"
+        ]
+      ],
+      "spoken_words": 1897,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 13.1
+    },
+    {
+      "id": "004000",
+      "title": "When the Model Predicts the Wrong Pattern",
+      "section": "model-checks",
+      "file": "004000-when-the-model-predicts-the-wrong-pattern.md",
+      "description": "Uses a twelve-test ordering counterexample to develop prior and posterior predictive checking, then distinguishes model criticism from out-of-sample predictive validation.",
+      "tags": [
+        "Bayesian computation",
+        "Posterior predictive checks",
+        "Prior predictive checks",
+        "Model criticism",
+        "Cross-validation",
+        "PSIS-LOO",
+        "Exchangeability"
+      ],
+      "tag_paths": [
+        [
+          "Mathematics",
+          "Statistics",
+          "Bayesian model checking"
+        ],
+        [
+          "Mathematics",
+          "Probability",
+          "Exchangeability"
+        ],
+        [
+          "Mathematics",
+          "Statistics",
+          "Cross-validation"
+        ]
+      ],
+      "spoken_words": 1854,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 12.8
+    },
+    {
+      "id": "005000",
+      "title": "A Chain That Samples the Posterior",
+      "section": "metropolis",
+      "file": "005000-a-chain-that-samples-the-posterior.md",
+      "description": "Builds a three-state Metropolis chain, verifies detailed balance, derives Metropolis–Hastings and separates stationarity from mixing and Monte Carlo accuracy.",
+      "tags": [
+        "Bayesian computation",
+        "Markov chain Monte Carlo",
+        "Metropolis-Hastings",
+        "Detailed balance",
+        "Stationarity",
+        "Mixing",
+        "Effective sample size"
+      ],
+      "tag_paths": [
+        [
+          "Mathematics",
+          "Statistics",
+          "MCMC"
+        ],
+        [
+          "Mathematics",
+          "Probability",
+          "Markov chains"
+        ],
+        [
+          "Mathematics",
+          "Computational statistics",
+          "Metropolis-Hastings"
+        ]
+      ],
+      "spoken_words": 1975,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 13.6
+    },
+    {
+      "id": "006000",
+      "title": "From Gibbs Updates to Hamiltonian Trajectories",
+      "section": "modern-mcmc",
+      "file": "006000-from-gibbs-updates-to-hamiltonian-trajectories.md",
+      "description": "Derives bivariate-normal Gibbs persistence, introduces HMC leapfrog and Metropolis correction, and explains practical multi-chain, effective-sample-size and divergence diagnostics.",
+      "tags": [
+        "Bayesian computation",
+        "Gibbs sampling",
+        "Hamiltonian Monte Carlo",
+        "NUTS",
+        "MCMC diagnostics",
+        "Autocorrelation",
+        "R-hat"
+      ],
+      "tag_paths": [
+        [
+          "Mathematics",
+          "Statistics",
+          "MCMC"
+        ],
+        [
+          "Mathematics",
+          "Numerical analysis",
+          "Hamiltonian methods"
+        ],
+        [
+          "Mathematics",
+          "Statistics",
+          "Sampler diagnostics"
+        ]
+      ],
+      "spoken_words": 1906,
+      "draft_status": "substantive",
+      "estimated_minutes_at_145_wpm": 13.1
+    }
+  ],
+  "tags": [
+    "Mathematics",
+    "Probability",
+    "Statistics",
+    "Decision theory",
+    "Bayesian inference",
+    "Bayesian computation",
+    "Markov chain Monte Carlo"
+  ]
+}

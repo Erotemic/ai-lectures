@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "lecture_id": "005000",
+  "transcript": "005000-a-chain-that-samples-the-posterior.md",
+  "description": "Builds a three-state Metropolis chain, verifies detailed balance, derives Metropolis–Hastings and separates stationarity from mixing and Monte Carlo accuracy.",
+  "tags": [
+    "Bayesian computation",
+    "Markov chain Monte Carlo",
+    "Metropolis-Hastings",
+    "Detailed balance",
+    "Stationarity",
+    "Mixing",
+    "Effective sample size"
+  ],
+  "tag_paths": [
+    [
+      "Mathematics",
+      "Statistics",
+      "MCMC"
+    ],
+    [
+      "Mathematics",
+      "Probability",
+      "Markov chains"
+    ],
+    [
+      "Mathematics",
+      "Computational statistics",
+      "Metropolis-Hastings"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "sdt-stan-mcmc",
+      "reason": "Reference for the mathematical claim and its hypotheses; prose and worked examples in this lecture are independently authored."
+    },
+    {
+      "source_id": "sdt-hastings",
+      "reason": "Reference for the mathematical claim and its hypotheses; prose and worked examples in this lecture are independently authored."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-20",
+    "scope": "Original narration, worked derivations, examples, exercises and non-spoken technical companion. Bibliographic sources attributed separately."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "probability-measure:009000",
+        "reason": "Provides the probability, statistical, or computational background used here."
+      },
+      {
+        "lecture_id": "statistical-decision-theory:004000",
+        "reason": "Provides the probability, statistical, or computational background used here."
+      }
+    ],
+    "background": [
+      "Conditional probabilities, finite Markov chains and matrix multiplication."
+    ],
+    "readiness_checks": [
+      "Verify detailed balance of the three-state transition matrix.",
+      "Derive the asymmetric-proposal acceptance probability.",
+      "Explain why stationarity alone does not certify a finite run."
+    ]
+  },
+  "claim_evidence": [
+    {
+      "id": "sdt-005000-c001",
+      "anchor": "This is the core correctness proof of Metropolis–Hastings.",
+      "source_ids": [
+        "sdt-stan-mcmc",
+        "sdt-hastings"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Spoken lecture and mathematical companion",
+      "evidence_detail": "Source supports the theorem or definition; the numerical calculations and presentation are original."
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "lecture_id": "004000",
+  "transcript": "004000-when-the-model-predicts-the-wrong-pattern.md",
+  "description": "Uses a twelve-test ordering counterexample to develop prior and posterior predictive checking, then distinguishes model criticism from out-of-sample predictive validation.",
+  "tags": [
+    "Bayesian computation",
+    "Posterior predictive checks",
+    "Prior predictive checks",
+    "Model criticism",
+    "Cross-validation",
+    "PSIS-LOO",
+    "Exchangeability"
+  ],
+  "tag_paths": [
+    [
+      "Mathematics",
+      "Statistics",
+      "Bayesian model checking"
+    ],
+    [
+      "Mathematics",
+      "Probability",
+      "Exchangeability"
+    ],
+    [
+      "Mathematics",
+      "Statistics",
+      "Cross-validation"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "sdt-stan-ppc",
+      "reason": "Reference for the mathematical claim and its hypotheses; prose and worked examples in this lecture are independently authored."
+    },
+    {
+      "source_id": "sdt-gelman-meng-stern",
+      "reason": "Reference for the mathematical claim and its hypotheses; prose and worked examples in this lecture are independently authored."
+    },
+    {
+      "source_id": "sdt-vehtari-loo",
+      "reason": "Reference for the mathematical claim and its hypotheses; prose and worked examples in this lecture are independently authored."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-20",
+    "scope": "Original narration, worked derivations, examples, exercises and non-spoken technical companion. Bibliographic sources attributed separately."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "probability-measure:008000",
+        "reason": "Provides the probability, statistical, or computational background used here."
+      },
+      {
+        "lecture_id": "statistical-decision-theory:001000",
+        "reason": "Provides the probability, statistical, or computational background used here."
+      }
+    ],
+    "background": [
+      "Binomial distributions, conditional probabilities and basic Bayesian inference."
+    ],
+    "readiness_checks": [
+      "Compute the conditional two-run probability for twelve binary trials.",
+      "Distinguish prior prediction from posterior prediction.",
+      "Explain how cross-validation differs from posterior predictive checking."
+    ]
+  },
+  "claim_evidence": [
+    {
+      "id": "sdt-004000-c001",
+      "anchor": "Conditional on the total count being six, all such sequences are therefore equally likely, regardless of p.",
+      "source_ids": [
+        "sdt-stan-ppc",
+        "sdt-gelman-meng-stern",
+        "sdt-vehtari-loo"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Spoken lecture and mathematical companion",
+      "evidence_detail": "Source supports the theorem or definition; the numerical calculations and presentation are original."
+    }
+  ]
+}

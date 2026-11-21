@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "lecture_id": "003000",
+  "transcript": "003000-the-advantage-of-shrinking-several-estimates.md",
+  "description": "Derives conjugate normal shrinkage and partial pooling, then proves the James–Stein risk improvement via Stein’s identity while keeping Bayesian and frequentist guarantees separate.",
+  "tags": [
+    "Statistical decision theory",
+    "Normal means",
+    "Hierarchical Bayes",
+    "Empirical Bayes",
+    "James-Stein estimator",
+    "Stein identity",
+    "Shrinkage"
+  ],
+  "tag_paths": [
+    [
+      "Mathematics",
+      "Statistics",
+      "Shrinkage estimation"
+    ],
+    [
+      "Mathematics",
+      "Statistics",
+      "Hierarchical models"
+    ],
+    [
+      "Mathematics",
+      "Probability",
+      "Multivariate normal"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "sdt-berkeley-js",
+      "reason": "Reference for the mathematical claim and its hypotheses; prose and worked examples in this lecture are independently authored."
+    },
+    {
+      "source_id": "sdt-berkeley-decision",
+      "reason": "Reference for the mathematical claim and its hypotheses; prose and worked examples in this lecture are independently authored."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-20",
+    "scope": "Original narration, worked derivations, examples, exercises and non-spoken technical companion. Bibliographic sources attributed separately."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "statistical-decision-theory:002000",
+        "reason": "Provides the probability, statistical, or computational background used here."
+      },
+      {
+        "lecture_id": "probability-measure:021000",
+        "reason": "Provides the probability, statistical, or computational background used here."
+      }
+    ],
+    "background": [
+      "Normal distributions, mean squared error, vectors and elementary differentiation."
+    ],
+    "readiness_checks": [
+      "Derive the normal posterior mean under squared loss.",
+      "Distinguish Bayes-average shrinkage improvement from frequentist domination.",
+      "Explain where dimension three enters the James–Stein proof."
+    ]
+  },
+  "claim_evidence": [
+    {
+      "id": "sdt-003000-c001",
+      "anchor": "the James–Stein risk is d minus the square of d minus two times the expected reciprocal squared length of X.",
+      "source_ids": [
+        "sdt-berkeley-js",
+        "sdt-berkeley-decision"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Spoken lecture and mathematical companion",
+      "evidence_detail": "Source supports the theorem or definition; the numerical calculations and presentation are original."
+    }
+  ]
+}

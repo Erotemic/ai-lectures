@@ -1,0 +1,99 @@
+{
+  "default_collection": "foundations",
+  "collections": [
+    {
+      "id": "foundations",
+      "title": "From Inference to Decisions and Computation",
+      "role": "main",
+      "lectures": [
+        "001000",
+        "002000",
+        "003000",
+        "004000",
+        "005000",
+        "006000"
+      ],
+      "assumed_background": [
+        "Conditional probability, expectation and introductory statistics; vector calculus appears in lecture 006000."
+      ],
+      "preparation_collections": [
+        "probability-measure:established-course",
+        "probability-measure:worked-statistical-inference"
+      ],
+      "tags": [
+        "Statistical decision theory",
+        "Bayesian computation",
+        "MCMC"
+      ]
+    },
+    {
+      "id": "decisions-and-risk",
+      "title": "Decision Rules, Risk and Shrinkage",
+      "role": "deep_dive",
+      "parent": "foundations",
+      "lectures": [
+        "001000",
+        "002000",
+        "003000"
+      ],
+      "assumed_background": [
+        "Basic statistics, expectation and mean squared error."
+      ],
+      "related_collections": [
+        "probability-measure:worked-statistical-inference"
+      ],
+      "tags": [
+        "Bayes risk",
+        "Admissibility",
+        "Minimax",
+        "James-Stein estimator"
+      ]
+    },
+    {
+      "id": "bayesian-workflow",
+      "title": "Bayesian Workflow: Checking and Sampling",
+      "role": "deep_dive",
+      "parent": "foundations",
+      "lectures": [
+        "001000",
+        "004000",
+        "005000",
+        "006000"
+      ],
+      "assumed_background": [
+        "Bayes rule and basic Markov chains; gradients for HMC."
+      ],
+      "related_collections": [
+        "probability-measure:established-course"
+      ],
+      "tags": [
+        "Posterior predictive checks",
+        "MCMC",
+        "Gibbs sampling",
+        "Hamiltonian Monte Carlo"
+      ]
+    },
+    {
+      "id": "computational-foundations",
+      "title": "MCMC Methods and Their Guarantees",
+      "role": "deep_dive",
+      "parent": "foundations",
+      "lectures": [
+        "005000",
+        "006000"
+      ],
+      "assumed_background": [
+        "Conditional distributions, finite Markov chains and derivatives."
+      ],
+      "related_collections": [
+        "probability-measure:random-walks-diffusion"
+      ],
+      "tags": [
+        "Stationarity",
+        "Detailed balance",
+        "HMC",
+        "Diagnostics"
+      ]
+    }
+  ]
+}

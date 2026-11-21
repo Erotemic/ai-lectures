@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "lecture_id": "006000",
+  "transcript": "006000-from-gibbs-updates-to-hamiltonian-trajectories.md",
+  "description": "Derives bivariate-normal Gibbs persistence, introduces HMC leapfrog and Metropolis correction, and explains practical multi-chain, effective-sample-size and divergence diagnostics.",
+  "tags": [
+    "Bayesian computation",
+    "Gibbs sampling",
+    "Hamiltonian Monte Carlo",
+    "NUTS",
+    "MCMC diagnostics",
+    "Autocorrelation",
+    "R-hat"
+  ],
+  "tag_paths": [
+    [
+      "Mathematics",
+      "Statistics",
+      "MCMC"
+    ],
+    [
+      "Mathematics",
+      "Numerical analysis",
+      "Hamiltonian methods"
+    ],
+    [
+      "Mathematics",
+      "Statistics",
+      "Sampler diagnostics"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "sdt-stan-mcmc",
+      "reason": "Reference for the mathematical claim and its hypotheses; prose and worked examples in this lecture are independently authored."
+    },
+    {
+      "source_id": "sdt-stan-diagnostics",
+      "reason": "Reference for the mathematical claim and its hypotheses; prose and worked examples in this lecture are independently authored."
+    },
+    {
+      "source_id": "sdt-betancourt",
+      "reason": "Reference for the mathematical claim and its hypotheses; prose and worked examples in this lecture are independently authored."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-20",
+    "scope": "Original narration, worked derivations, examples, exercises and non-spoken technical companion. Bibliographic sources attributed separately."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "statistical-decision-theory:005000",
+        "reason": "Provides the probability, statistical, or computational background used here."
+      },
+      {
+        "lecture_id": "probability-measure:009000",
+        "reason": "Provides the probability, statistical, or computational background used here."
+      }
+    ],
+    "background": [
+      "Conditional normal distributions, Metropolis-Hastings and elementary derivatives."
+    ],
+    "readiness_checks": [
+      "Compute the rho-squared persistence factor for Gibbs sampling.",
+      "Explain the purpose of leapfrog and its Metropolis correction.",
+      "Distinguish posterior uncertainty from Monte Carlo error."
+    ]
+  },
+  "claim_evidence": [
+    {
+      "id": "sdt-006000-c001",
+      "anchor": "A fixed sequence of different coordinate updates preserves the target because the composition of invariant kernels remains invariant.",
+      "source_ids": [
+        "sdt-stan-mcmc",
+        "sdt-stan-diagnostics",
+        "sdt-betancourt"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Spoken lecture and mathematical companion",
+      "evidence_detail": "Source supports the theorem or definition; the numerical calculations and presentation are original."
+    }
+  ]
+}

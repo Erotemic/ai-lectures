@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "lecture_id": "001000",
+  "transcript": "001000-a-probability-is-not-yet-a-decision.md",
+  "description": "Derives posterior expected loss, cost-sensitive thresholds and the expected value of a diagnostic test, distinguishing observational forecasts from intervention decisions.",
+  "tags": [
+    "Statistical decision theory",
+    "Bayes actions",
+    "Posterior expected loss",
+    "Loss functions",
+    "Value of information",
+    "Decision thresholds"
+  ],
+  "tag_paths": [
+    [
+      "Mathematics",
+      "Statistics",
+      "Decision theory"
+    ],
+    [
+      "Mathematics",
+      "Probability",
+      "Conditional expectation"
+    ],
+    [
+      "Mathematics",
+      "Decision theory",
+      "Value of information"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "sdt-berkeley-decision",
+      "reason": "Reference for the mathematical claim and its hypotheses; prose and worked examples in this lecture are independently authored."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-20",
+    "scope": "Original narration, worked derivations, examples, exercises and non-spoken technical companion. Bibliographic sources attributed separately."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "probability-measure:003000",
+        "reason": "Provides the probability, statistical, or computational background used here."
+      },
+      {
+        "lecture_id": "probability-measure:008000",
+        "reason": "Provides the probability, statistical, or computational background used here."
+      }
+    ],
+    "background": [
+      "Conditional probability, expectations and elementary algebra."
+    ],
+    "readiness_checks": [
+      "Derive the binary cost-sensitive alarm threshold.",
+      "Compute the expected value of the diagnostic test.",
+      "Explain why a forecast need not identify an optimal intervention."
+    ]
+  },
+  "claim_evidence": [
+    {
+      "id": "sdt-001000-c001",
+      "anchor": "A general Bayesian decision rule minimizes posterior expected loss among the available actions.",
+      "source_ids": [
+        "sdt-berkeley-decision"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Spoken lecture and mathematical companion",
+      "evidence_detail": "Source supports the theorem or definition; the numerical calculations and presentation are original."
+    }
+  ]
+}

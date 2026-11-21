@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "lecture_id": "002000",
+  "transcript": "002000-risk-admissibility-and-the-minimax-choice.md",
+  "description": "Develops the frequentist risk function, dominance, admissibility, Bayes average risk and minimax worst-case risk with a coin estimator and a complete two-state game.",
+  "tags": [
+    "Statistical decision theory",
+    "Risk functions",
+    "Admissibility",
+    "Minimax estimation",
+    "Bayes risk",
+    "Frequentist estimation"
+  ],
+  "tag_paths": [
+    [
+      "Mathematics",
+      "Statistics",
+      "Risk"
+    ],
+    [
+      "Mathematics",
+      "Optimization",
+      "Minimax"
+    ],
+    [
+      "Mathematics",
+      "Statistics",
+      "Admissibility"
+    ]
+  ],
+  "related_resources": [
+    {
+      "source_id": "sdt-berkeley-decision",
+      "reason": "Reference for the mathematical claim and its hypotheses; prose and worked examples in this lecture are independently authored."
+    }
+  ],
+  "historical_claims": [],
+  "authorship": {
+    "model": "GPT-6",
+    "date": "2026-11-20",
+    "scope": "Original narration, worked derivations, examples, exercises and non-spoken technical companion. Bibliographic sources attributed separately."
+  },
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "statistical-decision-theory:001000",
+        "reason": "Provides the probability, statistical, or computational background used here."
+      },
+      {
+        "lecture_id": "probability-measure:021000",
+        "reason": "Provides the probability, statistical, or computational background used here."
+      }
+    ],
+    "background": [
+      "Expectation, Bernoulli models and basic optimization."
+    ],
+    "readiness_checks": [
+      "Compare risk curves for a binomial estimator and a constant estimator.",
+      "Use projection to prove domination under squared loss.",
+      "Prove minimax optimality for the two-state randomized decision."
+    ]
+  },
+  "claim_evidence": [
+    {
+      "id": "sdt-002000-c001",
+      "anchor": "An admissible rule is one that no other available rule dominates in this sense.",
+      "source_ids": [
+        "sdt-berkeley-decision"
+      ],
+      "provenance": "source_backed",
+      "source_locator": "Spoken lecture and mathematical companion",
+      "evidence_detail": "Source supports the theorem or definition; the numerical calculations and presentation are original."
+    }
+  ]
+}

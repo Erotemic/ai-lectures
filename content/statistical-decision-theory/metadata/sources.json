@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "sources": {
+    "sdt-berkeley-decision": {
+      "title": "William Fithian, Statistical Decision Theory, Berkeley STAT 210A",
+      "kind": "university_course_notes",
+      "url": "https://www.stat.berkeley.edu/~wfithian/courses/stat210a/models.html",
+      "access": "free_no_login",
+      "notes": "Risk, Bayes rules, admissibility and minimax decision criteria."
+    },
+    "sdt-berkeley-js": {
+      "title": "Berkeley STAT 210A, The James–Stein Estimator",
+      "kind": "university_course_notes",
+      "url": "https://stat210a.berkeley.edu/fall-2025/reader/jamesstein.html",
+      "access": "free_no_login",
+      "notes": "Stein identity and the risk improvement of James–Stein shrinkage."
+    },
+    "sdt-stan-ppc": {
+      "title": "Stan User’s Guide, Posterior and Prior Predictive Checks",
+      "kind": "open_technical_documentation",
+      "url": "https://mc-stan.org/docs/2_27/stan-users-guide/ppcs-chapter.html",
+      "access": "free_no_login",
+      "notes": "Prior and posterior replication and discrepancy diagnostics."
+    },
+    "sdt-gelman-meng-stern": {
+      "title": "Andrew Gelman, Xiao-Li Meng and Hal Stern, Posterior Predictive Assessment of Model Fitness via Realized Discrepancies (1996)",
+      "kind": "research_paper",
+      "url": "https://www.cs.columbia.edu/~blei/fogm/2019F/readings/GelmanMengStern1996.pdf",
+      "access": "free_no_login",
+      "notes": "Foundational posterior predictive checking paper."
+    },
+    "sdt-vehtari-loo": {
+      "title": "Aki Vehtari, Andrew Gelman and Jonah Gabry, Practical Bayesian Model Evaluation Using Leave-One-Out Cross-Validation and WAIC (2017)",
+      "kind": "research_paper",
+      "url": "https://stat.columbia.edu/~gelman/research/published/loo_stan.pdf",
+      "access": "free_no_login",
+      "notes": "LOO predictive validation and importance sampling caveats."
+    },
+    "sdt-stan-mcmc": {
+      "title": "Stan Reference Manual, MCMC Sampling",
+      "kind": "open_technical_documentation",
+      "url": "https://mc-stan.org/docs/2_37/reference-manual/mcmc.html",
+      "access": "free_no_login",
+      "notes": "Hamiltonian MCMC, acceptance, and numerical integration."
+    },
+    "sdt-stan-diagnostics": {
+      "title": "Stan, How to Diagnose and Resolve Convergence Problems",
+      "kind": "open_technical_documentation",
+      "url": "https://mc-stan.org/learn-stan/diagnostics-warnings.html",
+      "access": "free_no_login",
+      "notes": "Rank-normalized R-hat, effective sample size, divergent transitions."
+    },
+    "sdt-betancourt": {
+      "title": "Michael Betancourt, A Conceptual Introduction to Hamiltonian Monte Carlo (2017)",
+      "kind": "research_paper",
+      "url": "https://arxiv.org/abs/1701.02434",
+      "access": "free_no_login",
+      "notes": "Geometric foundations of HMC and its numerical integration."
+    },
+    "sdt-hastings": {
+      "title": "W. K. Hastings, Monte Carlo Sampling Methods Using Markov Chains and Their Applications (1970)",
+      "kind": "research_paper",
+      "url": "https://doi.org/10.1093/biomet/57.1.97",
+      "access": "publisher_abstract",
+      "notes": "Original general Metropolis–Hastings acceptance construction."
+    }
+  }
+}
