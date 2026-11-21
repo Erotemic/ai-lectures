@@ -56,7 +56,7 @@
       "Can you explain why a nearly singular matrix makes inverse recovery sensitive?"
     ]
   },
-  "description": "Addresses topics from the lecture, including \"The exact relation between a residual and an error\"; \"Measuring how the problem amplifies changes\"; and \"Turn the residual into a relative error bound\".",
+  "description": "Separates residual, backward error, and forward error for linear systems, deriving why a small equation error may conceal a large solution error in an ill-conditioned problem.",
   "tag_paths": [
     [
       "Mathematics",

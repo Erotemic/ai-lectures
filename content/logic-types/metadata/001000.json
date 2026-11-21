@@ -59,5 +59,22 @@
       "Mathematical logic",
       "Constructive mathematics"
     ]
-  ]
+  ],
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "recommended": [
+      {
+        "lecture_id": "mathematical-proof:001000",
+        "reason": "Optional practice interpreting implications and quantified propositions."
+      }
+    ],
+    "background": [
+      "Informal implications, functions and programs; this lecture introduces the type-theoretic interpretation."
+    ],
+    "readiness_checks": [
+      "Can you distinguish a true proposition from an example supporting it?",
+      "Can you explain what a value of a function type is?"
+    ]
+  }
 }

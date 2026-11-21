@@ -69,5 +69,22 @@
       "Optimization",
       "Certificates"
     ]
-  ]
+  ],
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "recommended": [
+      {
+        "lecture_id": "linear-algebra:001000",
+        "reason": "Optional preparation for writing finite-dimensional constraints as equations."
+      }
+    ],
+    "background": [
+      "Algebraic equations and inequalities, geometric intuition about feasible regions, and evaluating candidate solutions."
+    ],
+    "readiness_checks": [
+      "Can you test whether a point satisfies two inequalities?",
+      "Can you distinguish a feasible candidate from a proof that no better candidate exists?"
+    ]
+  }
 }

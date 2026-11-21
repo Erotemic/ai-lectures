@@ -232,5 +232,22 @@
       "Discrete mathematics",
       "Group actions"
     ]
-  ]
+  ],
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "recommended": [
+      {
+        "lecture_id": "mathematical-proof:001000",
+        "reason": "Optional review of counting as a proof of equality and elementary induction."
+      }
+    ],
+    "background": [
+      "Finite sets, choosing objects in stages, multiplication of counts and basic algebra."
+    ],
+    "readiness_checks": [
+      "Can you count ways to assign two different roles to five people?",
+      "Can you explain why counting the same objects in two ways proves an identity?"
+    ]
+  }
 }

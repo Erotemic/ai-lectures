@@ -28,7 +28,12 @@
             "from-model-to-verified-prediction",
             "from-derivatives-to-optimization",
             "least-squares-to-conditional-prediction",
-            "from-measurement-to-uncertainty"
+            "from-measurement-to-uncertainty",
+            "infinity-and-logic",
+            "symmetry-to-representations",
+            "graph-matching-to-transport",
+            "probability-to-decisions",
+            "graph-subtrees-and-formalization"
           ]
         },
         {
@@ -48,7 +53,10 @@
             "multivariable-calculus:main",
             "topology-geometry:survey",
             "analysis:complex",
-            "analysis:measure-functional"
+            "analysis:measure-functional",
+            "topology-geometry:geometry-foundations",
+            "lie-groups-representation-theory:geometry-of-symmetry",
+            "optimal-transport:wasserstein-geometry"
           ]
         },
         {
@@ -58,7 +66,11 @@
             "logic-types:main",
             "algorithms-computability-complexity:main",
             "abstract-algebra:survey",
-            "category-theory:survey"
+            "category-theory:survey",
+            "abstract-algebra:foundation-bridges",
+            "set-theory-model-theory:foundations",
+            "lie-groups-representation-theory:foundations",
+            "nx-common-subtree-papers-formalization:start-here"
           ]
         },
         {
@@ -68,7 +80,11 @@
             "number-theory:survey",
             "discrete-mathematics:survey",
             "probability-measure:main",
-            "information-theory:main"
+            "information-theory:main",
+            "discrete-mathematics:foundation-bridges",
+            "information-theory:established-course",
+            "game-theory:foundations",
+            "statistical-decision-theory:foundations"
           ]
         },
         {
@@ -77,7 +93,9 @@
           "collections": [
             "numerical-analysis:survey",
             "optimization-duality:survey",
-            "differential-equations:survey"
+            "differential-equations:survey",
+            "optimal-transport:foundations",
+            "statistical-decision-theory:bayesian-workflow"
           ]
         },
         {
@@ -648,6 +666,22 @@
             "probability-measure:032000"
           ],
           "collection": "information-theory:information-and-statistics"
+        },
+        {
+          "title": "Why coding limits have proofs",
+          "lectures": [
+            "information-theory:004000",
+            "information-theory:005000"
+          ],
+          "collection": "information-theory:established-course"
+        },
+        {
+          "title": "Lossy compression and sources with memory",
+          "lectures": [
+            "information-theory:006000",
+            "information-theory:007000"
+          ],
+          "collection": "information-theory:lossy-compression"
         }
       ],
       "related_collections": [
@@ -811,6 +845,254 @@
         "Sensitivity",
         "Conditioning",
         "Prediction"
+      ]
+    },
+    {
+      "id": "infinity-and-logic",
+      "title": "From Infinite Sets to Logical Models",
+      "role": "deep_dive",
+      "parent": "start",
+      "summary": "Build infinite cardinalities and transfinite arguments before seeing how structures interpret formulas and why arithmetic theories meet incompleteness limits.",
+      "assumed_background": [
+        "Elementary proof methods and functions; the first stages introduce set-theoretic conventions."
+      ],
+      "chapters": [
+        {
+          "title": "Proofs, infinite sets and cardinalities",
+          "lectures": [
+            "mathematical-proof:001000",
+            "set-theory-model-theory:001000",
+            "set-theory-model-theory:002000"
+          ],
+          "collection": "set-theory-model-theory:sets-and-infinity"
+        },
+        {
+          "title": "Ordinals and mathematical choice",
+          "lectures": [
+            "set-theory-model-theory:003000",
+            "set-theory-model-theory:004000"
+          ],
+          "collection": "set-theory-model-theory:sets-and-infinity"
+        },
+        {
+          "title": "Sentences, models and logical limits",
+          "lectures": [
+            "set-theory-model-theory:005000",
+            "set-theory-model-theory:006000",
+            "set-theory-model-theory:007000",
+            "set-theory-model-theory:008000"
+          ],
+          "collection": "set-theory-model-theory:sentences-and-models"
+        }
+      ],
+      "related_collections": [
+        "logic-types:main",
+        "mathematical-proof:main"
+      ],
+      "tags": [
+        "Set theory",
+        "Model theory",
+        "Mathematical logic"
+      ]
+    },
+    {
+      "id": "symmetry-to-representations",
+      "title": "From Finite Symmetry to Lie Groups and Highest Weights",
+      "role": "deep_dive",
+      "parent": "start",
+      "summary": "Connect concrete group actions and quotient constructions with continuous symmetry, infinitesimal transformations and the SU(2)/SU(3) representation examples.",
+      "assumed_background": [
+        "Functions, matrices, elementary groups and derivatives; the geometry and algebra foundation lectures provide the longer path."
+      ],
+      "chapters": [
+        {
+          "title": "Finite actions, quotients and structure",
+          "lectures": [
+            "abstract-algebra:001000",
+            "abstract-algebra:090000",
+            "abstract-algebra:091000"
+          ],
+          "collection": "abstract-algebra:foundation-bridges"
+        },
+        {
+          "title": "Tangent geometry and Lie brackets",
+          "lectures": [
+            "topology-geometry:051000",
+            "lie-groups-representation-theory:001000",
+            "lie-groups-representation-theory:002000",
+            "lie-groups-representation-theory:003000"
+          ],
+          "collection": "lie-groups-representation-theory:geometry-of-symmetry"
+        },
+        {
+          "title": "Representations and highest weights",
+          "lectures": [
+            "abstract-algebra:013000",
+            "lie-groups-representation-theory:004000",
+            "lie-groups-representation-theory:005000",
+            "lie-groups-representation-theory:006000"
+          ],
+          "collection": "lie-groups-representation-theory:irreducibles-and-weights"
+        }
+      ],
+      "related_collections": [
+        "topology-geometry:geometry-foundations",
+        "abstract-algebra:representations"
+      ],
+      "tags": [
+        "Group actions",
+        "Lie algebras",
+        "Representation theory"
+      ]
+    },
+    {
+      "id": "graph-matching-to-transport",
+      "title": "From Graph Matching to Optimal Transport",
+      "role": "deep_dive",
+      "parent": "start",
+      "summary": "Move from finite counting and matching to linear-programming certificates, transport couplings, assignment structure and entropic regularization.",
+      "assumed_background": [
+        "Elementary discrete probability, finite graphs and linear optimization; the route includes an LP introduction."
+      ],
+      "chapters": [
+        {
+          "title": "Finite graphs and certificates",
+          "lectures": [
+            "discrete-mathematics:001000",
+            "discrete-mathematics:005000",
+            "algorithms-computability-complexity:015000"
+          ],
+          "collection": "discrete-mathematics:graphs"
+        },
+        {
+          "title": "Duality and finite transport",
+          "lectures": [
+            "optimization-duality:003000",
+            "optimal-transport:001000",
+            "optimal-transport:002000"
+          ],
+          "collection": "optimal-transport:certificates-and-algorithms"
+        },
+        {
+          "title": "Assignments, metrics and computation",
+          "lectures": [
+            "optimal-transport:003000",
+            "optimal-transport:004000",
+            "optimal-transport:005000"
+          ],
+          "collection": "optimal-transport:computational-transport"
+        }
+      ],
+      "related_collections": [
+        "optimization-duality:survey",
+        "nx-common-subtree-papers-formalization:start-here"
+      ],
+      "tags": [
+        "Bipartite matching",
+        "Optimal transport",
+        "Linear programming",
+        "Duality"
+      ]
+    },
+    {
+      "id": "probability-to-decisions",
+      "title": "From Probabilities to Statistical Decisions",
+      "role": "deep_dive",
+      "parent": "start",
+      "summary": "Connect distributions and Bayesian inference to logarithmic scoring, decision risk, predictive checks, and posterior sampling.",
+      "assumed_background": [
+        "Probability and elementary calculus; the introductory probability course supplies definitions."
+      ],
+      "chapters": [
+        {
+          "title": "Uncertainty, inference and information",
+          "lectures": [
+            "probability-measure:001000",
+            "probability-measure:008000",
+            "information-theory:001000",
+            "information-theory:003000"
+          ],
+          "collection": "information-theory:information-and-statistics"
+        },
+        {
+          "title": "Decisions, risk and shrinkage",
+          "lectures": [
+            "statistical-decision-theory:001000",
+            "statistical-decision-theory:002000",
+            "statistical-decision-theory:003000"
+          ],
+          "collection": "statistical-decision-theory:decisions-and-risk"
+        },
+        {
+          "title": "Criticism and computational posteriors",
+          "lectures": [
+            "statistical-decision-theory:004000",
+            "statistical-decision-theory:005000",
+            "statistical-decision-theory:006000"
+          ],
+          "collection": "statistical-decision-theory:bayesian-workflow"
+        }
+      ],
+      "related_collections": [
+        "probability-measure:worked-statistical-inference",
+        "information-theory:established-course"
+      ],
+      "tags": [
+        "Bayesian inference",
+        "Decision theory",
+        "Posterior predictive checks",
+        "MCMC"
+      ]
+    },
+    {
+      "id": "graph-subtrees-and-formalization",
+      "title": "From Graph Algorithms to Formally Verified Subtrees",
+      "role": "deep_dive",
+      "parent": "start",
+      "summary": "Use tree combinatorics and dynamic programming as preparation for reading three common-subtree papers, their Lean proofs, and the Rust/Python refinement boundary.",
+      "assumed_background": [
+        "Graphs, finite mappings, induction and basic programming concepts; the paper-specific track introduces its own notation."
+      ],
+      "chapters": [
+        {
+          "title": "Trees and algorithms",
+          "lectures": [
+            "discrete-mathematics:051000",
+            "discrete-mathematics:053000",
+            "algorithms-computability-complexity:011000"
+          ],
+          "collection": "discrete-mathematics:foundation-bridges"
+        },
+        {
+          "title": "Three definitions and their recurrences",
+          "lectures": [
+            "nx-common-subtree-papers-formalization:000000",
+            "nx-common-subtree-papers-formalization:001000",
+            "nx-common-subtree-papers-formalization:002000",
+            "nx-common-subtree-papers-formalization:004000"
+          ],
+          "collection": "nx-common-subtree-papers-formalization:start-here"
+        },
+        {
+          "title": "Reading the formalization",
+          "lectures": [
+            "nx-common-subtree-papers-formalization:022000",
+            "nx-common-subtree-papers-formalization:024000",
+            "nx-common-subtree-papers-formalization:026000"
+          ],
+          "collection": "nx-common-subtree-papers-formalization:formalization-methods"
+        }
+      ],
+      "related_collections": [
+        "logic-types:main",
+        "nx-common-subtree-papers-formalization:droschinsky-2016",
+        "nx-common-subtree-papers-formalization:droschinsky-2018"
+      ],
+      "tags": [
+        "Tree algorithms",
+        "Dynamic programming",
+        "Lean",
+        "Formal verification"
       ]
     }
   ]

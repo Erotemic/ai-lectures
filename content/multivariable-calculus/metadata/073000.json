@@ -114,5 +114,6 @@
     "original_source_sha256": "2b551265920a4b8ac6e0645ba34d51ab30035eecd5e255cca7556683aab63a08",
     "integration_model": "GPT-6 (Codex; weights/config variant unknown)",
     "scope": "Recover supplied source and metadata; preserve spoken prose. Remap colliding playback IDs and citation records without replacing existing lectures."
-  }
+  },
+  "description": "Derives reverse-mode differentiation and adjoint sensitivities from the chain rule, showing how one backward pass computes derivatives of a scalar model output with respect to many inputs."
 }

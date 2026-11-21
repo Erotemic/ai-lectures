@@ -49,5 +49,22 @@
       "Category theory",
       "Mathematical structure"
     ]
-  ]
+  ],
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "recommended": [
+      {
+        "lecture_id": "mathematical-proof:009000",
+        "reason": "Optional review of functions, composition and equality of maps."
+      }
+    ],
+    "background": [
+      "Sets and functions as rules between collections; familiarity with composing functions is helpful."
+    ],
+    "readiness_checks": [
+      "Can you compose two functions with compatible domains and codomains?",
+      "Can you explain why an identity function changes no input?"
+    ]
+  }
 }

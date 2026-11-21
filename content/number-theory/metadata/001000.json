@@ -80,5 +80,22 @@
       "Number theory",
       "Euclidean algorithm"
     ]
-  ]
+  ],
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "recommended": [
+      {
+        "lecture_id": "mathematical-proof:001000",
+        "reason": "Optional refresher on quantified claims and divisibility proofs."
+      }
+    ],
+    "background": [
+      "Whole-number arithmetic, division with remainder, and simple algebra."
+    ],
+    "readiness_checks": [
+      "Can you compute a remainder after integer division?",
+      "Can you explain why every common divisor of a and b also divides a minus b?"
+    ]
+  }
 }

@@ -44,7 +44,7 @@
       "Estimate an observed convergence rate from grid refinements."
     ]
   },
-  "description": "Addresses topics from the lecture, including \"What happens if we start from the true value?\"; \"The stored value is no longer exact\"; and \"A fully computable error experiment\".",
+  "description": "Connects local truncation error to accumulated global error, using consistency, stability, and step-size refinement to explain convergence of ODE solvers.",
   "tag_paths": [
     [
       "Mathematics",

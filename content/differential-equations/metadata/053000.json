@@ -40,8 +40,8 @@
     ],
     "recommended": [
       {
-        "lecture_id": "analysis:survey",
-        "reason": "Optional review of trigonometry, integration and infinite series."
+        "lecture_id": "functions-and-modeling:003000",
+        "reason": "Optional review of sinusoidal motion, period, amplitude and phase."
       }
     ],
     "background": [
@@ -53,7 +53,7 @@
       "Distinguish initial transients from periodic particular responses."
     ]
   },
-  "description": "Addresses topics from the lecture, including \"A stable equation with an external input\"; \"Find the periodic response by matching the halves\"; and \"What happens to a single sinusoidal input?\".",
+  "description": "Solves first-order linear systems under periodic forcing, deriving the steady frequency response and separating transients from sustained oscillations.",
   "tag_paths": [
     [
       "Mathematics",

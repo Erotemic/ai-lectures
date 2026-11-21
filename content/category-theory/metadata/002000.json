@@ -37,5 +37,22 @@
       "Mathematics",
       "Algebra"
     ]
-  ]
+  ],
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [
+      {
+        "lecture_id": "category-theory:001000",
+        "reason": "Uses the axioms for categories, arrows, identities and composition."
+      }
+    ],
+    "recommended": [],
+    "background": [
+      "Elementary examples of sets, groups and functions; no advanced algebra is required."
+    ],
+    "readiness_checks": [
+      "Can you state what a functor must do to identities and composites?",
+      "Can you name a structure-preserving translation that forgets some properties?"
+    ]
+  }
 }

@@ -120,5 +120,22 @@
       "Abstract algebra",
       "Homomorphisms"
     ]
-  ]
+  ],
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "recommended": [
+      {
+        "lecture_id": "mathematical-proof:001000",
+        "reason": "Optional preparation for interpreting universally quantified group axioms."
+      }
+    ],
+    "background": [
+      "Functions, composition, and elementary geometric symmetry; group axioms are introduced in the lecture."
+    ],
+    "readiness_checks": [
+      "Can you compose two symmetries of a square?",
+      "Can you explain how the identity and inverse operations act on a transformation?"
+    ]
+  }
 }

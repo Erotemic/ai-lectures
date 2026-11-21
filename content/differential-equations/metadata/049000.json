@@ -32,8 +32,8 @@
     ],
     "recommended": [
       {
-        "lecture_id": "analysis:survey",
-        "reason": "Optional review of derivatives, antiderivatives, and elementary functions."
+        "lecture_id": "analysis:005000",
+        "reason": "Optional review of derivatives as local rates before solving differential equations."
       }
     ],
     "background": [
@@ -45,7 +45,7 @@
       "State the hypotheses and limitations of a finite-time Gronwall bound."
     ]
   },
-  "description": "Addresses topics from the lecture, including \"Three different promises\"; \"Why a continuous rate law can fail uniqueness\"; and \"Turn the derivative equation into an integral equation\".",
+  "description": "Distinguishes existence, uniqueness, and continuous dependence of initial-value solutions, using examples where continuity does not imply uniqueness.",
   "tag_paths": [
     [
       "Mathematics",

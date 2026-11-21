@@ -147,5 +147,22 @@
       "Topology and geometry",
       "Compactness"
     ]
-  ]
+  ],
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "recommended": [
+      {
+        "lecture_id": "analysis:003000",
+        "reason": "Optional review of limits and continuity on the real line."
+      }
+    ],
+    "background": [
+      "Elementary set operations, functions, intervals and the idea of a continuous deformation."
+    ],
+    "readiness_checks": [
+      "Can you give an example of an open interval in the real numbers?",
+      "Can you explain why changing lengths need not alter whether a path exists?"
+    ]
+  }
 }

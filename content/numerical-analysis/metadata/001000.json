@@ -17,7 +17,7 @@
     }
   ],
   "historical_claims": [],
-  "description": "Addresses topics from the lecture, including \"Choose the target before the algorithm\"; \"Four arrows between the question and the number\"; and \"A residual is not the same as an error\".",
+  "description": "Separates mathematical modeling, measurement error, approximation error, and algorithmic error, showing how a trustworthy numerical answer requires a stated target and tolerance.",
   "tag_paths": [
     [
       "Mathematics",
@@ -34,5 +34,22 @@
       "Numerical analysis",
       "Error bounds"
     ]
-  ]
+  ],
+  "learning": {
+    "reviewed": true,
+    "prerequisites": [],
+    "recommended": [
+      {
+        "lecture_id": "functions-and-modeling:001000",
+        "reason": "Optional review of modeling assumptions, units and domains."
+      }
+    ],
+    "background": [
+      "Elementary equations, arithmetic with decimals and a willingness to distinguish the model from the computation."
+    ],
+    "readiness_checks": [
+      "Can you tell a measurement uncertainty from a rounding error?",
+      "Can you state the quantity and units an algorithm is supposed to approximate?"
+    ]
+  }
 }
