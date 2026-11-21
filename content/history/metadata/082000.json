@@ -263,7 +263,9 @@
     }
   ],
   "places": [
-    "Cambridge"
+    "Cambridge",
+    "Cambridge, England",
+    "London"
   ],
   "periods": [
     "Victorian era"
@@ -288,5 +290,17 @@
       "Place: Cambridge"
     ]
   ],
-  "description": "Examines international merchant family, Cambridge examinations, mathematics practiced during legal employment, friendship with Sylvester, the development of matrices and invariant theory, academic appointments, scientific societies, and family life."
+  "description": "Examines international merchant family, Cambridge examinations, mathematics practiced during legal employment, friendship with Sylvester, the development of matrices and invariant theory, academic appointments, scientific societies, and family life.",
+  "chronology": {
+    "life": {
+      "start": 1821,
+      "end": 1895,
+      "approximate": false,
+      "label": "Arthur Cayley, 1821–1895",
+      "basis": "documented_biography",
+      "source_ids": [
+        "history-cayley-mactutor"
+      ]
+    }
+  }
 }

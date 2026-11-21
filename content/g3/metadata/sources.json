@@ -1,0 +1,810 @@
+{
+  "schema_version": 1,
+  "sources": {
+    "bell-trace-ideals": {
+      "title": "Trace Class Operators and Hilbert-Schmidt Operators",
+      "authors": [
+        "Jordan Bell"
+      ],
+      "year": 2016,
+      "kind": "mathematical_notes",
+      "url": "https://jordanbell.info/LaTeX/mathematics/traceclass/",
+      "origin": "DKPS free-resource search, 2026-11-08",
+      "notes": "Operator-ideal membership, Hilbert-Schmidt norm, trace class and ideal operations.",
+      "access": "free_no_login",
+      "format": "html_and_pdf"
+    },
+    "bhatia-1997": {
+      "title": "Matrix Analysis",
+      "authors": [
+        "Rajendra Bhatia"
+      ],
+      "year": 1997,
+      "kind": "textbook",
+      "url": "https://doi.org/10.1007/978-1-4612-0653-8",
+      "origin": "publisher",
+      "notes": "Alternative treatment of matrix inequalities, singular values and invariant norms."
+    },
+    "bindel-eigen-perturbation": {
+      "title": "Matrix Computations: Perturbation Theory",
+      "authors": [
+        "David Bindel"
+      ],
+      "year": 2025,
+      "kind": "university_notes",
+      "url": "https://www.cs.cornell.edu/courses/cs6210/2025fa/lec/2025-10-22.html",
+      "origin": "DKPS free-resource search, 2026-11-08",
+      "notes": "Worked first-order eigenvalue sensitivity, normal/nonnormal comparison and Gershgorin bounds.",
+      "access": "free_no_login",
+      "format": "html"
+    },
+    "bindel-ritz-eigensolvers": {
+      "title": "Matrix Computations: Large-Scale Eigensolvers",
+      "authors": [
+        "David Bindel"
+      ],
+      "year": 2025,
+      "kind": "university_notes",
+      "url": "https://www.cs.cornell.edu/courses/cs6210/2025fa/lec/2025-12-01.html",
+      "origin": "DKPS free-resource search, 2026-11-08",
+      "notes": "Rayleigh-Ritz/Galerkin residual orthogonality and refinement of approximate eigenvectors.",
+      "access": "free_no_login",
+      "format": "html"
+    },
+    "bjorck-golub-1973": {
+      "title": "Numerical Methods for Computing Angles Between Linear Subspaces",
+      "authors": [
+        "Åke Björck",
+        "Gene H. Golub"
+      ],
+      "year": 1973,
+      "kind": "primary_paper",
+      "url": "https://doi.org/10.1090/S0025-5718-1973-0348991-3",
+      "origin": "papers/dk_formalization_journal/references.bib (formalization repository)",
+      "notes": "Mathematics of Computation 27(123), pp. 579-594."
+    },
+    "bolotnikov-li-rodman-2001": {
+      "title": "Minimal Distortion Problems for Classes of Unitary Matrices",
+      "authors": [
+        "Vladimir Bolotnikov",
+        "Chi-Kwong Li",
+        "Leiba Rodman"
+      ],
+      "year": 2001,
+      "kind": "primary_paper",
+      "url": "https://doi.org/10.13001/1081-3810.1058",
+      "origin": "papers/dk_formalization_journal/references.bib (formalization repository)",
+      "notes": "Electronic Journal of Linear Algebra 8, pp. 26-46. Q-norm and Frobenius minimality; Schatten p<2 counterexamples (Theorem 3.1, Lemma 3.3)."
+    },
+    "bottcher-spitkovsky-2010": {
+      "title": "A Gentle Guide to the Basics of Two Projections Theory",
+      "authors": [
+        "Albrecht Böttcher",
+        "Ilya M. Spitkovsky"
+      ],
+      "year": 2010,
+      "kind": "historical_survey",
+      "url": "https://doi.org/10.1016/j.laa.2009.11.002",
+      "origin": "papers/dk_formalization_journal/references.bib (formalization repository)",
+      "notes": "Linear Algebra and its Applications 432(6), pp. 1412-1459. Remark 1.3 relates Halmos (1969) to Dixmier (1948) and Davis (1958). Dixmier, Revue Scientifique 86 (1948), 387-399, has no verified online link in this catalog."
+    },
+    "chen-chi-fan-ma-2021": {
+      "title": "Spectral Methods for Data Science: A Statistical Perspective",
+      "authors": [
+        "Yuxin Chen",
+        "Yuejie Chi",
+        "Jianqing Fan",
+        "Cong Ma"
+      ],
+      "year": 2021,
+      "kind": "survey",
+      "url": "https://doi.org/10.1561/2200000079",
+      "origin": "papers/dk_formalization_journal/references.bib (formalization repository)",
+      "notes": "Foundations and Trends in Machine Learning. Survey of spectral methods and eigenspace perturbation in statistics."
+    },
+    "davis-1958-separation": {
+      "title": "Separation of Two Linear Subspaces",
+      "authors": [
+        "Chandler Davis"
+      ],
+      "year": 1958,
+      "kind": "primary_paper",
+      "url": "https://acta.bibl.u-szeged.hu/13858/1/math_019_fasc_003_004_172-187.pdf",
+      "origin": "papers/dk_formalization_journal/references.bib (formalization repository)",
+      "notes": "Acta Scientiarum Mathematicarum (Szeged) 19, pp. 172-187. Closeness and separation operators for two subspaces; Theorems 7.3-7.4 give extremal properties of the direct rotation."
+    },
+    "davis-1963": {
+      "title": "The Rotation of Eigenvectors by a Perturbation",
+      "authors": [
+        "Chandler Davis"
+      ],
+      "year": 1963,
+      "kind": "primary_paper",
+      "url": "https://doi.org/10.1016/0022-247X(63)90001-5",
+      "origin": "papers/dk_formalization_journal/references.bib (formalization repository)",
+      "notes": "J. Math. Anal. Appl. 6, pp. 159-173."
+    },
+    "davis-1965": {
+      "title": "The Rotation of Eigenvectors by a Perturbation. II",
+      "authors": [
+        "Chandler Davis"
+      ],
+      "year": 1965,
+      "kind": "primary_paper",
+      "url": "https://doi.org/10.1016/0022-247X(65)90066-1",
+      "origin": "papers/dk_formalization_journal/references.bib (formalization repository)",
+      "notes": "J. Math. Anal. Appl. 11, pp. 20-27."
+    },
+    "davis-kahan-1969": {
+      "title": "Some New Bounds on Perturbation of Subspaces",
+      "authors": [
+        "Chandler Davis",
+        "W. M. Kahan"
+      ],
+      "year": 1969,
+      "kind": "primary_paper",
+      "url": "https://doi.org/10.1090/S0002-9904-1969-12330-X",
+      "origin": "papers/dk_formalization_journal/references.bib (formalization repository)",
+      "notes": "Bull. AMS 75, pp. 863-868. Announcement preceding the 1970 paper."
+    },
+    "davis-kahan-1970": {
+      "title": "The Rotation of Eigenvectors by a Perturbation. III",
+      "authors": [
+        "Chandler Davis",
+        "W. M. Kahan"
+      ],
+      "year": 1970,
+      "kind": "primary_paper",
+      "url": "https://doi.org/10.1137/0707001",
+      "origin": "dev/external-literature-references.md",
+      "notes": "SIAM Journal on Numerical Analysis 7(1), pp. 1-46. Theorem and page locators support the historical-claim audit."
+    },
+    "eckart-young-1936": {
+      "title": "The Approximation of One Matrix by Another of Lower Rank",
+      "authors": [
+        "Carl Eckart",
+        "Gale Young"
+      ],
+      "year": 1936,
+      "kind": "primary_paper",
+      "url": "https://doi.org/10.1007/BF02288367",
+      "origin": "publisher original-article record",
+      "notes": "Psychometrika 1(3), 211-218; original rank-approximation paper."
+    },
+    "edmonds-1965": {
+      "title": "Paths, Trees, and Flowers",
+      "authors": [
+        "Jack Edmonds"
+      ],
+      "year": 1965,
+      "kind": "primary_paper",
+      "url": "https://web.eecs.umich.edu/~pettie/matching/Edmonds-paths-trees-flowers.pdf",
+      "origin": "docs/planning/lecture-project-vision-and-history.md (Canadian Journal of Mathematics 17, 449-467)",
+      "notes": "Blossom algorithm for maximum (cardinality) matching in general graphs; weighted matching is treated in Edmonds's companion 1965 work. Distinguish cardinality and weighted sources before crediting a specific algorithm."
+    },
+    "fan-1951": {
+      "title": "Maximum Properties and Inequalities for the Eigenvalues of Completely Continuous Operators",
+      "authors": [
+        "Ky Fan"
+      ],
+      "year": 1951,
+      "kind": "primary_paper",
+      "url": "https://doi.org/10.1073/pnas.37.11.760",
+      "origin": "papers/dk_formalization_journal/references.bib (formalization repository)",
+      "notes": "PNAS 37, pp. 760-766. Ky Fan norms, the extremal characterization, and the dominance principle."
+    },
+    "halmos-1969": {
+      "title": "Two Subspaces",
+      "authors": [
+        "P. R. Halmos"
+      ],
+      "year": 1969,
+      "kind": "primary_paper",
+      "url": "https://doi.org/10.1090/S0002-9947-1969-0251519-5",
+      "origin": "original publisher",
+      "notes": "Transactions of the AMS 144, 381-389; primary account of generic two-subspace representation."
+    },
+    "hellinger-toeplitz-1910": {
+      "title": "Grundlagen für eine Theorie der unendlichen Matrizen",
+      "authors": [
+        "Ernst Hellinger",
+        "Otto Toeplitz"
+      ],
+      "year": 1910,
+      "kind": "primary_paper",
+      "url": "https://doi.org/10.1007/BF01456325",
+      "origin": "papers/dk_formalization_journal/references.bib (formalization repository)",
+      "notes": "Mathematische Annalen 69, pp. 289-330. Everywhere-defined symmetric operators are bounded."
+    },
+    "higham-cs-decomposition": {
+      "title": "What Is the CS Decomposition?",
+      "authors": [
+        "Nicholas J. Higham"
+      ],
+      "year": 2020,
+      "kind": "explainer",
+      "url": "https://nhigham.com/2020/10/27/what-is-the-cs-decomposition/",
+      "origin": "Nick Higham: What Is index",
+      "notes": "Cosine-sine block factors and principal-angle relations in finite dimensions."
+    },
+    "higham-polar": {
+      "title": "What Is the Polar Decomposition?",
+      "authors": [
+        "Nicholas J. Higham"
+      ],
+      "year": 2020,
+      "kind": "explainer",
+      "url": "https://nhigham.com/2020/07/28/what-is-the-polar-decomposition/",
+      "origin": "visualizations/lectures/reference-core.yaml",
+      "notes": "SVD-based polar factorization; compare conventions on the kernel at singular inputs."
+    },
+    "higham-sylvester": {
+      "title": "What Is the Sylvester Equation?",
+      "authors": [
+        "Nicholas J. Higham"
+      ],
+      "year": 2020,
+      "kind": "explainer",
+      "url": "https://nhigham.com/2020/09/01/what-is-the-sylvester-equation/",
+      "origin": "visualizations/lectures/003500_sylvester/resources.yaml",
+      "notes": "A-X-B equation, spectral separation and solvability in matrices."
+    },
+    "higham-unitarily-invariant-norm": {
+      "title": "What Is a Unitarily Invariant Norm?",
+      "authors": [
+        "Nicholas J. Higham"
+      ],
+      "year": 2021,
+      "kind": "explainer",
+      "url": "https://nhigham.com/2021/02/02/what-is-a-unitarily-invariant-norm/",
+      "origin": "Nick Higham: What Is index",
+      "notes": "Singular-value symmetric gauges, Schatten norms, and Ky Fan norms."
+    },
+    "hotelling-1936": {
+      "title": "Relations Between Two Sets of Variates",
+      "authors": [
+        "Harold Hotelling"
+      ],
+      "year": 1936,
+      "kind": "primary_paper",
+      "url": "https://doi.org/10.1093/biomet/28.3-4.321",
+      "origin": "papers/dk_formalization_journal/references.bib (formalization repository)",
+      "notes": "Biometrika 28(3-4), pp. 321-377. Canonical correlation analysis."
+    },
+    "intel-principal-angles": {
+      "title": "Computing Principal Angles Between Two Subspaces",
+      "authors": [
+        "Intel oneMKL Documentation"
+      ],
+      "year": 2024,
+      "kind": "numerical_tutorial",
+      "url": "https://www.intel.com/content/www/us/en/docs/onemkl/cookbook/2024-2/computing-principal-angles-between-two-subspaces.html",
+      "origin": "visualizations/lectures/002250_principal_angles/resources.yaml (newer documentation path)",
+      "notes": "QR and SVD algorithm for principal angles of finite-dimensional subspaces."
+    },
+    "jordan-1875-essai": {
+      "title": "Essai sur la géométrie à n dimensions",
+      "authors": [
+        "Camille Jordan"
+      ],
+      "year": 1875,
+      "kind": "primary_paper",
+      "url": "https://doi.org/10.24033/bsmf.90",
+      "origin": "papers/dk_formalization_journal/references.bib (formalization repository)",
+      "notes": "Bulletin de la Société Mathématique de France 3, pp. 103-174. Introduces the angles between linear subspaces of n-dimensional space."
+    },
+    "jordan-bell-pvm": {
+      "title": "Projection-Valued Measures and Spectral Integrals",
+      "authors": [
+        "Jordan Bell"
+      ],
+      "year": 2014,
+      "kind": "mathematical_notes",
+      "url": "https://jordanbell.info/LaTeX/mathematics/pvm/",
+      "origin": "visualizations/lectures/002916_pvm/resources.yaml",
+      "notes": "PVM definitions, scalar spectral measures, spectral integrals and theorem statement."
+    },
+    "kato-1966": {
+      "title": "Perturbation Theory for Linear Operators (first edition)",
+      "authors": [
+        "Tosio Kato"
+      ],
+      "year": 1966,
+      "kind": "book",
+      "url": "https://doi.org/10.1007/978-3-662-12678-3",
+      "origin": "papers/dk_formalization_journal/references.bib (formalization repository)",
+      "notes": "Springer. Chapter I, Section 4.6, equations (4.33)-(4.42): the algebraic intertwiner construction for nearby projections. Distinguish from the 1976/1995 editions (kato-1995)."
+    },
+    "leissa-2005": {
+      "title": "The Historical Bases of the Rayleigh and Ritz Methods",
+      "authors": [
+        "A. W. Leissa"
+      ],
+      "year": 2005,
+      "kind": "historical_survey",
+      "url": "https://doi.org/10.1016/j.jsv.2004.12.021",
+      "origin": "papers/dk_formalization_journal/references.bib (formalization repository)",
+      "notes": "Journal of Sound and Vibration 287(4-5), pp. 961-978. Rayleigh (Theory of Sound, 1877) and Ritz (1909)."
+    },
+    "paige-wei-1994": {
+      "title": "History and Generality of the CS Decomposition",
+      "authors": [
+        "C. C. Paige",
+        "M. Wei"
+      ],
+      "year": 1994,
+      "kind": "historical_survey",
+      "url": "https://doi.org/10.1016/0024-3795(94)90446-4",
+      "origin": "papers/dk_formalization_journal/references.bib (formalization repository)",
+      "notes": "Linear Algebra and its Applications 208-209, pp. 303-326. Traces the CS decomposition from Jordan through Davis-Kahan to Stewart."
+    },
+    "qiu-zhang-li-2005": {
+      "title": "Unitarily Invariant Metrics on the Grassmann Space",
+      "authors": [
+        "Li Qiu",
+        "Yanxia Zhang",
+        "Chi-Kwong Li"
+      ],
+      "year": 2005,
+      "kind": "primary_paper",
+      "url": "https://doi.org/10.1137/040607605",
+      "origin": "papers/dk_formalization_journal/references.bib (formalization repository)",
+      "notes": "SIAM J. Matrix Anal. Appl. 27(2), pp. 507-531 (published online 2006). Section 5 repeats the pi/3 assertion."
+    },
+    "ritz-1909": {
+      "title": "Über eine neue Methode zur Lösung gewisser Variationsprobleme der mathematischen Physik",
+      "authors": [
+        "Walter Ritz"
+      ],
+      "year": 1909,
+      "kind": "primary_paper",
+      "url": "https://doi.org/10.1515/crll.1909.135.1",
+      "origin": "papers/dk_formalization_journal/references.bib (formalization repository)",
+      "notes": "Journal für die reine und angewandte Mathematik 135, pp. 1-61."
+    },
+    "rosenblum-1956": {
+      "title": "On the Operator Equation BX-XA=Q",
+      "authors": [
+        "Marvin Rosenblum"
+      ],
+      "year": 1956,
+      "kind": "primary_paper",
+      "url": "https://doi.org/10.1215/S0012-7094-56-02324-9",
+      "origin": "bibliographic DOI",
+      "notes": "Duke Mathematical Journal 23, 263-269. Exact passages must be checked against the article."
+    },
+    "rosenblum-1969": {
+      "title": "The Operator Equation BX - XA = Q with Selfadjoint A and B",
+      "authors": [
+        "Marvin Rosenblum"
+      ],
+      "year": 1969,
+      "kind": "primary_paper",
+      "url": "https://doi.org/10.2307/2035971",
+      "origin": "papers/dk_formalization_journal/references.bib (formalization repository)",
+      "notes": "Proceedings of the AMS 20, pp. 115-120."
+    },
+    "simon-2018-kato": {
+      "title": "Tosio Kato's work on non-relativistic quantum mechanics: part 1",
+      "authors": [
+        "Barry Simon"
+      ],
+      "year": 2018,
+      "kind": "historical_survey",
+      "url": "https://doi.org/10.1007/s13373-018-0118-0",
+      "origin": "papers/dk_formalization_journal/references.bib (formalization repository)",
+      "notes": "Bulletin of Mathematical Sciences. Section 5 traces Sz.-Nagy (1947) and Kato's pairs-of-projections construction; Theorem 5.1."
+    },
+    "stewart-1977": {
+      "title": "On the Perturbation of Pseudo-Inverses, Projections and Linear Least Squares Problems",
+      "authors": [
+        "G. W. Stewart"
+      ],
+      "year": 1977,
+      "kind": "primary_paper",
+      "url": "https://doi.org/10.1137/1019104",
+      "origin": "papers/dk_formalization_journal/references.bib (formalization repository)",
+      "notes": "SIAM Review 19(4), pp. 634-662. Explicit formulation of the CS decomposition, per Paige and Wei (1994)."
+    },
+    "wedin-1972": {
+      "title": "Perturbation Bounds in Connection with Singular Value Decomposition",
+      "authors": [
+        "Per-Åke Wedin"
+      ],
+      "year": 1972,
+      "kind": "primary_paper",
+      "url": "https://doi.org/10.1007/BF01932678",
+      "origin": "papers/dk_formalization_journal/references.bib (formalization repository)",
+      "notes": "BIT Numerical Mathematics 12, pp. 99-111. Singular-subspace perturbation bounds."
+    },
+    "weyl-1912": {
+      "title": "Das asymptotische Verteilungsgesetz der Eigenwerte linearer partieller Differentialgleichungen",
+      "authors": [
+        "Hermann Weyl"
+      ],
+      "year": 1912,
+      "kind": "primary_paper",
+      "url": "https://doi.org/10.1007/BF01456804",
+      "origin": "papers/dk_formalization_journal/references.bib (formalization repository)",
+      "notes": "Mathematische Annalen 71, pp. 441-479. Locate the exact eigenvalue comparison passage before confirming."
+    },
+    "wiki-angles-between-flats": {
+      "title": "Angles between flats - Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Angles_between_flats",
+      "origin": "Wikipedia (English); checked 2026-11-11",
+      "notes": "Principal angles defined using subspace vectors and singular values of overlaps.",
+      "access": "free_no_login"
+    },
+    "wiki-c0-semigroup": {
+      "title": "C0-semigroup - Wikipedia",
+      "kind": "encyclopedia_article",
+      "url": "https://en.wikipedia.org/wiki/C0-semigroup",
+      "origin": "Wikipedia topic page checked 2026-11-11",
+      "notes": "Strongly continuous semigroups, generators, and examples of evolution operators.",
+      "access": "free_no_login",
+      "format": "html"
+    },
+    "wiki-canonical-correlation": {
+      "title": "Canonical correlation - Wikipedia",
+      "kind": "encyclopedia_article",
+      "url": "https://en.wikipedia.org/wiki/Canonical_correlation",
+      "origin": "Wikipedia (English)",
+      "notes": "Canonical correlation analysis; connection to principal angles between column spaces.",
+      "access": "free_no_login",
+      "format": "html"
+    },
+    "wiki-closed-operator": {
+      "title": "Closed linear operator - Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Closed_operator",
+      "origin": "Wikipedia (English); checked 2026-11-11",
+      "notes": "Closed graphs and domains of operators that are not defined everywhere.",
+      "access": "free_no_login"
+    },
+    "wiki-complexification": {
+      "title": "Complexification - Wikipedia",
+      "kind": "encyclopedia_article",
+      "url": "https://en.wikipedia.org/wiki/Complexification",
+      "origin": "Wikipedia topic page checked 2026-11-11",
+      "notes": "Extending scalars from real to complex vector spaces; the lecture also covers Hilbert norms and operator adjoints.",
+      "access": "free_no_login",
+      "format": "html"
+    },
+    "wiki-courant-minimax": {
+      "title": "Courant minimax principle - Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Courant_minimax_principle",
+      "origin": "Wikipedia (English); checked 2026-11-11",
+      "notes": "The variational min–max formula and the role of competing subspaces.",
+      "access": "free_no_login"
+    },
+    "wiki-eigenvalue-perturbation": {
+      "title": "Eigenvalue perturbation - Wikipedia",
+      "kind": "encyclopedia_article",
+      "url": "https://en.wikipedia.org/wiki/Eigenvalue_perturbation",
+      "origin": "Wikipedia topic page checked 2026-11-11",
+      "notes": "Finite-dimensional eigenvalue and eigenvector sensitivity as background for angle estimates.",
+      "access": "free_no_login",
+      "format": "html"
+    },
+    "wiki-functional-calculus": {
+      "title": "Functional calculus - Wikipedia",
+      "kind": "encyclopedia_article",
+      "url": "https://en.wikipedia.org/wiki/Functional_calculus",
+      "origin": "Wikipedia topic page checked 2026-11-11",
+      "notes": "How scalar functions become operator functions; distinguish continuous calculus from the Borel indicator construction.",
+      "access": "free_no_login",
+      "format": "html"
+    },
+    "wiki-hellinger-toeplitz-theorem": {
+      "title": "Hellinger-Toeplitz theorem - Wikipedia",
+      "kind": "encyclopedia_article",
+      "url": "https://en.wikipedia.org/wiki/Hellinger%E2%80%93Toeplitz_theorem",
+      "origin": "Wikipedia topic page checked 2026-11-11",
+      "notes": "Everywhere-defined symmetric operators and why boundedness follows.",
+      "access": "free_no_login",
+      "format": "html"
+    },
+    "wiki-hilbert-schmidt-operator": {
+      "title": "Hilbert-Schmidt operator - Wikipedia",
+      "kind": "encyclopedia_article",
+      "url": "https://en.wikipedia.org/wiki/Hilbert%E2%80%93Schmidt_operator",
+      "origin": "Wikipedia topic page checked 2026-11-11",
+      "notes": "Basis-independent square-sum definition and the operator inner product.",
+      "access": "free_no_login",
+      "format": "html"
+    },
+    "wiki-invariant-subspace": {
+      "title": "Invariant subspace - Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Invariant_subspace",
+      "origin": "Wikipedia (English); checked 2026-11-11",
+      "notes": "What it means for a subspace to be preserved under a linear map.",
+      "access": "free_no_login"
+    },
+    "wiki-jacobi-eigenvalue": {
+      "title": "Jacobi eigenvalue algorithm - Wikipedia",
+      "kind": "encyclopedia_article",
+      "url": "https://en.wikipedia.org/wiki/Jacobi_eigenvalue_algorithm",
+      "origin": "Wikipedia (English)",
+      "notes": "Jacobi rotations; the rotation angle satisfies tan 2theta = 2b/(a1 - a0).",
+      "access": "free_no_login",
+      "format": "html"
+    },
+    "wiki-kronecker-product": {
+      "title": "Kronecker product - Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Kronecker_product",
+      "origin": "Wikipedia (English); checked 2026-11-11",
+      "notes": "Vectorization and the Kronecker formulation of matrix operator equations.",
+      "access": "free_no_login"
+    },
+    "wiki-majorization": {
+      "title": "Majorization - Wikipedia",
+      "kind": "encyclopedia_article",
+      "url": "https://en.wikipedia.org/wiki/Majorization",
+      "origin": "Wikipedia topic page checked 2026-11-11",
+      "notes": "Weak majorization and the interpretation of sorted prefix-sum comparisons.",
+      "access": "free_no_login",
+      "format": "html"
+    },
+    "wiki-matching-graph": {
+      "title": "Maximum weight matching - Wikipedia",
+      "kind": "encyclopedia_article",
+      "url": "https://en.wikipedia.org/wiki/Maximum_weight_matching",
+      "origin": "Wikipedia (English)",
+      "notes": "Maximum-weight matching in general graphs and blossom algorithms.",
+      "access": "free_no_login",
+      "format": "html"
+    },
+    "wiki-matrix-exponential": {
+      "title": "Matrix exponential - Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Matrix_exponential",
+      "origin": "Wikipedia (English); checked 2026-11-11",
+      "notes": "Exponentials of matrices and one-parameter linear evolution.",
+      "access": "free_no_login"
+    },
+    "wiki-matrix-norm": {
+      "title": "Matrix norm - Wikipedia",
+      "kind": "encyclopedia_article",
+      "url": "https://en.wikipedia.org/wiki/Matrix_norm",
+      "origin": "Wikipedia topic page checked 2026-11-11",
+      "notes": "Schatten and unitarily invariant norms for finite matrices.",
+      "access": "free_no_login",
+      "format": "html"
+    },
+    "wiki-operator-ideal": {
+      "title": "Operator ideal - Wikipedia",
+      "kind": "encyclopedia_article",
+      "url": "https://en.wikipedia.org/wiki/Operator_ideal",
+      "origin": "Wikipedia topic page checked 2026-11-11",
+      "notes": "Two-sided composition closure and examples of operator ideals.",
+      "access": "free_no_login",
+      "format": "html"
+    },
+    "wiki-orthogonal-matrix": {
+      "title": "Orthogonal matrix - Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Orthogonal_matrix",
+      "origin": "Wikipedia (English); checked 2026-11-11",
+      "notes": "Orthonormal columns, rotations, and change of basis in real spaces.",
+      "access": "free_no_login"
+    },
+    "wiki-orthogonal-procrustes": {
+      "title": "Orthogonal Procrustes problem - Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Orthogonal_Procrustes_problem",
+      "origin": "Wikipedia (English); checked 2026-11-11",
+      "notes": "Finding the orthogonal alignment of two finite point or coordinate configurations.",
+      "access": "free_no_login"
+    },
+    "wiki-polar-decomposition": {
+      "title": "Polar decomposition - Wikipedia",
+      "kind": "encyclopedia_article",
+      "url": "https://en.wikipedia.org/wiki/Polar_decomposition",
+      "origin": "Wikipedia topic page checked 2026-11-11",
+      "notes": "Polar factors, positive modulus, and rectangular matrix examples; compare full-unitary extensions with the canonical kernel-zero partial isometry.",
+      "access": "free_no_login",
+      "format": "html"
+    },
+    "wiki-projection-linear-algebra": {
+      "title": "Projection (linear algebra) - Wikipedia",
+      "kind": "encyclopedia_article",
+      "url": "https://en.wikipedia.org/wiki/Projection_%28linear_algebra%29",
+      "origin": "Wikipedia topic page checked 2026-11-11",
+      "notes": "Orthogonal projections and how they select source and target blocks.",
+      "access": "free_no_login",
+      "format": "html"
+    },
+    "wiki-projection-valued-measure": {
+      "title": "Projection-valued measure - Wikipedia",
+      "kind": "encyclopedia_article",
+      "url": "https://en.wikipedia.org/wiki/Projection-valued_measure",
+      "origin": "Wikipedia topic page checked 2026-11-11",
+      "notes": "Spectral projections, reducing spaces and spectral integration.",
+      "access": "free_no_login",
+      "format": "html"
+    },
+    "wiki-quadratic-form": {
+      "title": "Quadratic form - Wikipedia",
+      "kind": "encyclopedia_article",
+      "url": "https://en.wikipedia.org/wiki/Quadratic_form",
+      "origin": "Wikipedia topic page checked 2026-11-11",
+      "notes": "Elementary quadratic forms and associated matrices before unbounded form-domain questions.",
+      "access": "free_no_login",
+      "format": "html"
+    },
+    "wiki-rayleigh-quotient": {
+      "title": "Rayleigh quotient - Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Rayleigh_quotient",
+      "origin": "Wikipedia (English); checked 2026-11-11",
+      "notes": "Extremal eigenvalue characterizations through quadratic forms.",
+      "access": "free_no_login"
+    },
+    "wiki-rayleigh-ritz-method": {
+      "title": "Rayleigh-Ritz method - Wikipedia",
+      "kind": "encyclopedia_article",
+      "url": "https://en.wikipedia.org/wiki/Rayleigh%E2%80%93Ritz_method",
+      "origin": "Wikipedia topic page checked 2026-11-11",
+      "notes": "Finite-dimensional trial-space compression and approximate eigenvalues.",
+      "access": "free_no_login",
+      "format": "html"
+    },
+    "wiki-resolvent-formalism": {
+      "title": "Resolvent formalism - Wikipedia",
+      "kind": "encyclopedia_article",
+      "url": "https://en.wikipedia.org/wiki/Resolvent_formalism",
+      "origin": "Wikipedia topic page checked 2026-11-11",
+      "notes": "Shifted inverses and the resolvent identity; notes use their own sign convention.",
+      "access": "free_no_login",
+      "format": "html"
+    },
+    "wiki-riccati-equation": {
+      "title": "Riccati equation - Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Riccati_equation",
+      "origin": "Wikipedia (English); checked 2026-11-11",
+      "notes": "Quadratic matrix equations related to invariant graph-subspace calculations.",
+      "access": "free_no_login"
+    },
+    "wiki-schatten-norm": {
+      "title": "Schatten norm - Wikipedia",
+      "kind": "encyclopedia_article",
+      "url": "https://en.wikipedia.org/wiki/Schatten_norm",
+      "origin": "Wikipedia topic page checked 2026-11-11",
+      "notes": "Singular-value p-summability, trace class and Hilbert-Schmidt special cases.",
+      "access": "free_no_login",
+      "format": "html"
+    },
+    "wiki-schur-complement": {
+      "title": "Schur complement - Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Schur_complement",
+      "origin": "Wikipedia (English); checked 2026-11-11",
+      "notes": "Eliminating blocks to get an effective operator or reduced eigenvalue equation.",
+      "access": "free_no_login"
+    },
+    "wiki-singular-value-decomposition": {
+      "title": "Singular value decomposition - Wikipedia",
+      "kind": "encyclopedia_article",
+      "url": "https://en.wikipedia.org/wiki/Singular_value_decomposition",
+      "origin": "Wikipedia topic page checked 2026-11-11",
+      "notes": "Geometric SVD, best low-rank approximation and the Ky Fan norms subsection.",
+      "access": "free_no_login",
+      "format": "html"
+    },
+    "wiki-spectral-gap": {
+      "title": "Spectral gap - Wikipedia",
+      "kind": "encyclopedia_article",
+      "url": "https://en.wikipedia.org/wiki/Spectral_gap",
+      "origin": "Wikipedia topic page checked 2026-11-11",
+      "notes": "Basic interpretations of gaps between spectral regions; definitions vary by setting.",
+      "access": "free_no_login",
+      "format": "html"
+    },
+    "wiki-spectral-theorem": {
+      "title": "Spectral theorem - Wikipedia",
+      "kind": "encyclopedia_article",
+      "url": "https://en.wikipedia.org/wiki/Spectral_theorem",
+      "origin": "Wikipedia topic page checked 2026-11-11",
+      "notes": "Spectral representation including operator and unbounded-operator cases.",
+      "access": "free_no_login",
+      "format": "html"
+    },
+    "wiki-strong-operator-topology": {
+      "title": "Strong operator topology - Wikipedia",
+      "kind": "encyclopedia_article",
+      "url": "https://en.wikipedia.org/wiki/Strong_operator_topology",
+      "origin": "Wikipedia topic page checked 2026-11-11",
+      "notes": "Convergence on each fixed Hilbert-space vector versus uniform norm control.",
+      "access": "free_no_login",
+      "format": "html"
+    },
+    "wiki-sylvester-equation": {
+      "title": "Sylvester equation - Wikipedia",
+      "kind": "encyclopedia_article",
+      "url": "https://en.wikipedia.org/wiki/Sylvester_equation",
+      "origin": "Wikipedia topic page checked 2026-11-11",
+      "notes": "Finite-dimensional Sylvester equations, spectral separation and uniqueness.",
+      "access": "free_no_login",
+      "format": "html"
+    },
+    "wiki-trace-class": {
+      "title": "Trace class - Wikipedia",
+      "kind": "encyclopedia_article",
+      "url": "https://en.wikipedia.org/wiki/Trace_class",
+      "origin": "Wikipedia topic page checked 2026-11-11",
+      "notes": "Trace-norm summability, basis-independent traces and trace-class properties.",
+      "access": "free_no_login",
+      "format": "html"
+    },
+    "wiki-unbounded-operator": {
+      "title": "Unbounded operator - Wikipedia",
+      "kind": "encyclopedia_article",
+      "url": "https://en.wikipedia.org/wiki/Unbounded_operator",
+      "origin": "Wikipedia topic page checked 2026-11-11",
+      "notes": "Operator domains, closedness, and self-adjoint unbounded examples.",
+      "access": "free_no_login",
+      "format": "html"
+    },
+    "wiki-unitary-rotation": {
+      "title": "Orthogonal matrix - Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Orthogonal_matrix",
+      "origin": "Wikipedia (English); checked 2026-11-11",
+      "notes": "Simple rotations as real orthogonal maps and transport candidates.",
+      "access": "free_no_login"
+    },
+    "wiki-weyl-inequality": {
+      "title": "Weyl's inequality - Wikipedia",
+      "kind": "encyclopedia_article",
+      "url": "https://en.wikipedia.org/wiki/Weyl%27s_inequality",
+      "origin": "Wikipedia topic page checked 2026-11-11",
+      "notes": "Read the Hermitian eigenvalue-perturbation corollary based on ordered eigenvalues, separate from the number-theory usage.",
+      "access": "free_no_login",
+      "format": "html"
+    },
+    "yu-wang-samworth-2015": {
+      "title": "A Useful Variant of the Davis–Kahan Theorem for Statisticians",
+      "authors": [
+        "Yi Yu",
+        "Tengyao Wang",
+        "Richard J. Samworth"
+      ],
+      "year": 2015,
+      "kind": "research_paper",
+      "url": "https://doi.org/10.1093/biomet/asv008",
+      "origin": "publisher and university repository",
+      "notes": "Biometrika 102(2), 315-323; population-only gap and rectangular singular-subspace discussion."
+    },
+    "zhang-qiu-2010": {
+      "title": "From Subadditive Inequalities of Singular Values to Triangle Inequalities of Canonical Angles",
+      "authors": [
+        "Yanxia Zhang",
+        "Li Qiu"
+      ],
+      "year": 2010,
+      "kind": "primary_paper",
+      "url": "https://doi.org/10.1137/09074841X",
+      "origin": "papers/dk_formalization_journal/references.bib (formalization repository)",
+      "notes": "SIAM J. Matrix Anal. Appl. 31(4), pp. 1606-1620. Section 4, p. 1615: general trace-norm nonminimality."
+    },
+    "zhu-knyazev-tangent-angles": {
+      "title": "Angles Between Subspaces and Their Tangents",
+      "authors": [
+        "Peizhen Zhu",
+        "Andrew V. Knyazev"
+      ],
+      "year": 2012,
+      "kind": "open_research_paper",
+      "url": "https://arxiv.org/abs/1209.0523",
+      "origin": "DKPS free-resource search, 2026-11-08",
+      "notes": "SVD representations for cosines, sines, and tangents of principal angles using frames and projectors.",
+      "access": "free_no_login",
+      "format": "arxiv_full_text"
+    }
+  }
+}

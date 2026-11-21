@@ -113,7 +113,7 @@
     },
     {
       "id": "059000-h09",
-      "anchor": "*Discourse* appeared in sixteen thirty-seven",
+      "anchor": "Discourse appeared in sixteen thirty-seven",
       "kind": "historical_biography_attribution_or_context",
       "source_ids": [
         "history-descartes-sep-mathematics",
@@ -124,7 +124,7 @@
     },
     {
       "id": "059000-h10",
-      "anchor": "*La Géométrie*",
+      "anchor": "La Géométrie",
       "kind": "historical_biography_attribution_or_context",
       "source_ids": [
         "history-descartes-sep-mathematics"
@@ -145,7 +145,7 @@
     },
     {
       "id": "059000-h12",
-      "anchor": "*Meditations on First Philosophy* in sixteen forty-one",
+      "anchor": "Meditations on First Philosophy in sixteen forty-one",
       "kind": "historical_biography_attribution_or_context",
       "source_ids": [
         "history-descartes-sep",
@@ -177,7 +177,7 @@
     },
     {
       "id": "059000-h15",
-      "anchor": "*The Passions of the Soul*",
+      "anchor": "The Passions of the Soul",
       "kind": "historical_biography_attribution_or_context",
       "source_ids": [
         "history-descartes-sep"
@@ -231,5 +231,21 @@
       "Scientific biography",
       "René Descartes"
     ]
+  ],
+  "chronology": {
+    "life": {
+      "start": 1596,
+      "end": 1650,
+      "approximate": false,
+      "label": "René Descartes, 1596–1650",
+      "basis": "documented_biography",
+      "source_ids": [
+        "history-descartes-mactutor"
+      ]
+    }
+  },
+  "places": [
+    "Netherlands",
+    "Paris"
   ]
 }

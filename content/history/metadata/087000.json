@@ -58,7 +58,7 @@
     },
     {
       "id": "087000-h04",
-      "anchor": "E. T. Bell's *Men of Mathematics*",
+      "anchor": "E. T. Bell's Men of Mathematics",
       "kind": "historical_biography_attribution_or_context",
       "source_ids": [
         "history-nash-mactutor"
@@ -323,7 +323,8 @@
     }
   ],
   "places": [
-    "Princeton"
+    "Princeton",
+    "Princeton, New Jersey"
   ],
   "tags": [
     "History of science and mathematics",
@@ -339,5 +340,17 @@
       "Scientific biography",
       "John Nash"
     ]
-  ]
+  ],
+  "chronology": {
+    "life": {
+      "start": 1928,
+      "end": 2015,
+      "approximate": false,
+      "label": "John Nash, 1928–2015",
+      "basis": "documented_biography",
+      "source_ids": [
+        "history-nash-mactutor"
+      ]
+    }
+  }
 }

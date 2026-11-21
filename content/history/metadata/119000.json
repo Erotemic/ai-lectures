@@ -73,7 +73,7 @@
     },
     {
       "id": "119000-h06",
-      "anchor": "In 1593 he published *A Plaine Discovery",
+      "anchor": "In 1593 he published A Plaine Discovery",
       "kind": "historical_biography_attribution_or_context",
       "source_ids": [
         "history-napier-mactutor"
@@ -114,7 +114,7 @@
     },
     {
       "id": "119000-h10",
-      "anchor": "In 1614 Napier published *Mirifici Logarithmorum Canonis Descriptio*",
+      "anchor": "In 1614 Napier published Mirifici Logarithmorum Canonis Descriptio",
       "kind": "historical_biography_attribution_or_context",
       "source_ids": [
         "history-napier-mactutor"
@@ -155,7 +155,7 @@
     },
     {
       "id": "119000-h14",
-      "anchor": "his larger *Arithmetica Logarithmica* in 1624",
+      "anchor": "his larger Arithmetica Logarithmica in 1624",
       "kind": "historical_biography_attribution_or_context",
       "source_ids": [
         "history-napier-briggs"
@@ -186,7 +186,7 @@
     },
     {
       "id": "119000-h17",
-      "anchor": "Napier described his rods in *Rabdologiae*",
+      "anchor": "Napier described his rods in Rabdologiae",
       "kind": "historical_biography_attribution_or_context",
       "source_ids": [
         "history-napier-museum"
@@ -227,7 +227,8 @@
     }
   ],
   "places": [
-    "Scotland"
+    "Scotland",
+    "Edinburgh"
   ],
   "tags": [
     "History of science and mathematics",
@@ -243,5 +244,17 @@
       "Scientific biography",
       "John Napier"
     ]
-  ]
+  ],
+  "chronology": {
+    "life": {
+      "start": 1550,
+      "end": 1617,
+      "approximate": false,
+      "label": "John Napier, 1550–1617",
+      "basis": "documented_biography",
+      "source_ids": [
+        "history-napier-mactutor"
+      ]
+    }
+  }
 }

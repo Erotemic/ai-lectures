@@ -153,7 +153,7 @@
     },
     {
       "id": "111000-h14",
-      "anchor": "The major book conventionally known as al-Biruni's *India",
+      "anchor": "The major book conventionally known as al-Biruni's India",
       "kind": "historical_biography_attribution_or_context",
       "source_ids": [
         "history-biruni-iranica",
@@ -248,5 +248,17 @@
       "Scientific biography",
       "Al-Biruni"
     ]
-  ]
+  ],
+  "chronology": {
+    "life": {
+      "start": 973,
+      "end": 1048,
+      "approximate": false,
+      "label": "Al-Biruni, 973–1048",
+      "basis": "documented_biography",
+      "source_ids": [
+        "history-biruni-mactutor"
+      ]
+    }
+  }
 }

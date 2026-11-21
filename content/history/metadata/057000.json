@@ -26,7 +26,7 @@
     },
     {
       "id": "057000-h02",
-      "anchor": "kingdom of Sardinia",
+      "anchor": "worlds: the kingdom of Sardinia, the Prussian",
       "kind": "historical_biography_attribution_or_context",
       "source_ids": [
         "history-lagrange-mactutor"
@@ -234,7 +234,8 @@
   ],
   "places": [
     "Paris",
-    "Turin"
+    "Turin",
+    "Berlin"
   ],
   "tags": [
     "History of science and mathematics",
@@ -250,5 +251,17 @@
       "Scientific biography",
       "Joseph-Louis Lagrange"
     ]
-  ]
+  ],
+  "chronology": {
+    "life": {
+      "start": 1736,
+      "end": 1813,
+      "approximate": false,
+      "label": "Joseph-Louis Lagrange, 1736–1813",
+      "basis": "documented_biography",
+      "source_ids": [
+        "history-lagrange-mactutor"
+      ]
+    }
+  }
 }

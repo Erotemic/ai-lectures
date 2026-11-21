@@ -93,7 +93,7 @@
     },
     {
       "id": "041000-h07",
-      "anchor": "draining of marshes near Bourgoin",
+      "anchor": "including the draining of marshes near Bourgoin and work on",
       "kind": "historical_biography_attribution_or_context",
       "source_ids": [
         "history-fourier-grenoble"
@@ -330,7 +330,7 @@
     },
     {
       "id": "041000-h30",
-      "anchor": "When Napoleon returned from Elba, Fourier",
+      "anchor": "especially awkward. When Napoleon returned from Elba, Fourier, then serving",
       "kind": "historical_biography_attribution_or_context",
       "source_ids": [
         "history-fourier-1815-ems"
@@ -351,7 +351,8 @@
   ],
   "places": [
     "Auxerre",
-    "Egypt"
+    "Egypt",
+    "Grenoble"
   ],
   "tags": [
     "History of science and mathematics",
@@ -368,5 +369,17 @@
       "Scientific biography",
       "Joseph Fourier"
     ]
-  ]
+  ],
+  "chronology": {
+    "life": {
+      "start": 1768,
+      "end": 1830,
+      "approximate": false,
+      "label": "Joseph Fourier, 1768–1830",
+      "basis": "documented_biography",
+      "source_ids": [
+        "history-fourier-mactutor"
+      ]
+    }
+  }
 }
