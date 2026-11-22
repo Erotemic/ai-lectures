@@ -7,7 +7,10 @@
     "Shortest paths",
     "Dijkstra algorithm",
     "Bellman-Ford",
-    "Dynamic programming"
+    "Dynamic programming",
+    "Negative cycles",
+    "Shortest paths in DAGs",
+    "Edge relaxation"
   ],
   "tag_paths": [
     [
@@ -82,5 +85,5 @@
       "evidence_detail": "The author independently derives the claim in narration and companion using the cited standard mathematical framework; numerical examples are original."
     }
   ],
-  "description": "Extends shortest-path search from unit-weight graphs to weighted networks, contrasting Dijkstra-style greedy settling with relaxation and the assumptions needed for correct distances."
+  "description": "Compares Dijkstra, Bellman-Ford, and topological-order shortest paths, showing how nonnegative edges, negative cycles, and graph acyclicity determine correctness and efficiency."
 }

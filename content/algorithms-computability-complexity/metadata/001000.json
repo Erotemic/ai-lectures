@@ -219,5 +219,13 @@
       "Algorithm correctness"
     ]
   ],
-  "description": "Introduces algorithms as precise finite procedures through greatest-common-divisor computation, then distinguishes a correct specification from an efficient implementation."
+  "description": "Uses Euclid's greatest-common-divisor algorithm to explain specifications, invariants, termination proofs, and implementation costs, then introduces Turing machines and the Church-Turing thesis.",
+  "tags": [
+    "Algorithm specifications",
+    "Euclidean algorithm",
+    "Loop invariants and termination",
+    "Formal computability",
+    "Church-Turing thesis",
+    "Bit complexity"
+  ]
 }

@@ -213,5 +213,13 @@
       "Lower bounds"
     ]
   ],
-  "description": "Compares ways to measure computational cost using search and growing inputs, showing why input size and asymptotic behavior matter more than a single timing."
+  "description": "Uses binary search and merge sort to develop asymptotic cost models, prove a comparison-sorting lower bound, and distinguish encoded bit length from numerical magnitude.",
+  "tags": [
+    "Asymptotic notation",
+    "Binary search",
+    "Merge sort recurrences",
+    "Comparison sorting lower bounds",
+    "Bit complexity and pseudopolynomial time",
+    "Complexity models"
+  ]
 }

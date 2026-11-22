@@ -1069,17 +1069,37 @@
       ]
     }
   ],
-  "description": "Relates thermostat and control behavior to measured room conditions, distinguishing equipment commands from achieved comfort.",
+  "description": "Explains thermostat feedback, heat-pump defrost and cycling, variable-speed controls, duct zoning, and room-temperature logs to distinguish equipment commands from delivered comfort.",
   "tags": [
     "Energy and Airflow",
     "Heat Pump Defrost, Cold Weather, and Controls",
-    "Duct Leakage, Zoning, and Temperature Imbalance"
+    "Duct Leakage, Zoning, and Temperature Imbalance",
+    "Thermostat feedback and diagnostics",
+    "Variable-speed HVAC controls",
+    "Heat pump cycling and auxiliary heat",
+    "Room comfort and sensor logs",
+    "Duct leakage and return paths"
   ],
   "tag_paths": [
     [
       "Practical skills",
       "HVAC",
       "Energy And Airflow"
+    ],
+    [
+      "Practical skills",
+      "HVAC",
+      "Control systems and thermostats"
+    ],
+    [
+      "Practical skills",
+      "HVAC",
+      "Heat pump operation and defrost"
+    ],
+    [
+      "Practical skills",
+      "HVAC",
+      "Room diagnostics and distribution"
     ]
   ]
 }
