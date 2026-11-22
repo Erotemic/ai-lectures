@@ -2,7 +2,7 @@
   "schema_version": 1,
   "lecture_id": "019000",
   "transcript": "019000-the-root-that-was-not-mapped.md",
-  "description": "Explains why a fixed input root fails for topological embeddings, proves the selected/skipped highest-point dichotomy and two-branch reconstruction, derives the M1/M2 optimization and linear-time top-two cardinality-two matching step, and distinguishes these paper claims from the verified all-roots Lean baseline.",
+  "description": "Explains why fixed-root dynamic programming can miss unrooted topological embeddings, derives the M1/M2 two-branch optimization, and distinguishes these paper arguments from what existing Lean proofs establish.",
   "related_resources": [
     {
       "source_id": "nx-dkm-2018",
