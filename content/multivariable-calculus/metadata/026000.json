@@ -60,7 +60,7 @@
       "Can you distinguish a robust data loss from a prior preference for particular parameters?"
     ]
   },
-  "description": "Distinguishes noise modeling from prior information and step damping, derive Tikhonov and weighted least squares, and connect robust loss and validation to reliable inference.",
+  "description": "Separates measurement weighting, Tikhonov regularization, and algorithmic damping, then explores robust losses and validation when inverse-problem parameters are weakly identified.",
   "tag_paths": [
     [
       "Mathematics",

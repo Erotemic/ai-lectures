@@ -52,7 +52,7 @@
       "Can you derive a stationarity equation after adding a quadratic penalty to a step?"
     ]
   },
-  "description": "Shows why a plausible Gauss–Newton direction can fail, derive damped steps and trust-region acceptance, and distinguish step control from changing the fitted objective.",
+  "description": "Explains why unrestricted Gauss–Newton steps can overshoot and develops damping and trust-region acceptance, distinguishing step control from regularizing the fitted model.",
   "tag_paths": [
     [
       "Mathematics",

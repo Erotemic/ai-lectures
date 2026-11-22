@@ -52,7 +52,7 @@
       "Can you differentiate half of a squared residual norm?"
     ]
   },
-  "description": "Distinguishes the derivative of a residual vector from the derivative of its squared length; derive Gauss–Newton and identify the assumptions behind its success.",
+  "description": "Derives Gauss–Newton by linearizing residuals rather than the squared-error objective, then examines the small-residual assumptions and examples where the step fails.",
   "tag_paths": [
     [
       "Mathematics",
