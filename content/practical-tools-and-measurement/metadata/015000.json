@@ -828,14 +828,35 @@
     }
   ],
   "tags": [
-    "Measurement and Layout"
+    "Measurement and Layout",
+    "Tool runout and vibration",
+    "Measurement repeatability and bias",
+    "Fault isolation under load",
+    "Reference standards and calibration",
+    "Go/no-go gauges",
+    "Tolerance and functional acceptance testing"
   ],
   "tag_paths": [
     [
       "Practical skills",
       "Measurement and tools",
       "Measurement And Layout"
+    ],
+    [
+      "Practical skills",
+      "Measurement and tools",
+      "Tool diagnostics and runout"
+    ],
+    [
+      "Practical skills",
+      "Measurement and tools",
+      "Measurement standards and uncertainty"
+    ],
+    [
+      "Practical skills",
+      "Measurement and tools",
+      "Acceptance tests and fixtures"
     ]
   ],
-  "description": "Covers practical diagnosis of runout, vibration, alignment, and repeatability, followed by checks that demonstrate whether the finished work meets its specifications."
+  "description": "Diagnoses runout, deflection, drift, and intermittent faults using reference and under-load measurements, then develops tolerances, go/no-go gauges, and repeatable functional acceptance tests."
 }
