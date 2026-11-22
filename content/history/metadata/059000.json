@@ -221,9 +221,21 @@
     "History of science and mathematics",
     "Biography",
     "René Descartes",
-    "Mathematics"
+    "Analytic geometry",
+    "La Géométrie",
+    "Algebraic geometry of curves",
+    "Philosophy of science",
+    "Optics and refraction",
+    "Galileo affair",
+    "Fermat-Descartes controversy",
+    "Mind-body dualism",
+    "Princess Elisabeth of Bohemia",
+    "Marin Mersenne",
+    "Dutch Republic",
+    "Seventeenth-century mathematics",
+    "Descartes rule of signs"
   ],
-  "description": "Traces René Descartes from schooling in Touraine to the Dutch Republic, examining analytic geometry, correspondence, publishing, and the tensions between philosophy and religious authority.",
+  "description": "Follows Descartes from Touraine and Dutch scholarly networks to Stockholm, detailing his 1637 Geometry, algebraic methods for curves, debates with Fermat, Galileo's condemnation, and Elisabeth of Bohemia's challenges to mind-body dualism.",
   "tag_paths": [
     [
       "History",
@@ -234,18 +246,19 @@
   ],
   "chronology": {
     "life": {
-      "start": 1596,
+      "basis": "narrated_biography",
       "end": 1650,
-      "approximate": false,
-      "label": "René Descartes, 1596–1650",
-      "basis": "documented_biography",
-      "source_ids": [
-        "history-descartes-mactutor"
-      ]
+      "label": "1596-1650: René Descartes",
+      "start": 1596
     }
   },
   "places": [
-    "Netherlands",
-    "Paris"
+    "La Haye, Touraine, France",
+    "La Flèche, France",
+    "Poitiers, France",
+    "Breda, Netherlands",
+    "Paris, France",
+    "Dutch Republic (present-day Netherlands)",
+    "Stockholm, Sweden"
   ]
 }

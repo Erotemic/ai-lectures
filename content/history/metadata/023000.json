@@ -395,9 +395,23 @@
   "tags": [
     "History of science and mathematics",
     "Biography",
-    "G. W. Stewart"
+    "G. W. Stewart",
+    "Numerical linear algebra",
+    "Matrix perturbation theory",
+    "Generalized eigenvalue problems",
+    "QZ algorithm",
+    "Bartels-Stewart algorithm",
+    "Sylvester equations",
+    "Invariant subspaces",
+    "Sylvester separation",
+    "Nonnormal matrices",
+    "Condition numbers",
+    "Backward stability",
+    "LINPACK",
+    "QR updating and downdating",
+    "Stochastic perturbation theory"
   ],
-  "description": "Examines G. W. “Pete” Stewart’s role in practical matrix perturbation theory, including invariant subspaces, separation, QZ algorithms, and the software and textbooks that shaped numerical linear algebra.",
+  "description": "Follows Pete Stewart from Oak Ridge and Householder's mentorship to Maryland, explaining the QZ and Bartels-Stewart algorithms, LINPACK, invariant-subspace perturbation bounds, and why nonnormal matrices require separation measures beyond an eigenvalue gap.",
   "tag_paths": [
     [
       "History",
@@ -408,18 +422,19 @@
   ],
   "chronology": {
     "life": {
-      "start": 1940,
+      "basis": "narrated_biography",
       "end": 2026,
-      "approximate": false,
-      "label": "G. W. Stewart, 1940–2026",
-      "basis": "documented_biography",
-      "source_ids": [
-        "history-stewart-umd"
-      ],
-      "note": "Death recorded June 9, 2026 in the University of Maryland memorial; this is a biographical lifespan."
+      "label": "1940-2026: G. W. Stewart",
+      "start": 1940
     }
   },
   "places": [
-    "Maryland"
+    "Washington, D.C., United States",
+    "Knoxville, Tennessee, United States",
+    "Oak Ridge, Tennessee, United States",
+    "Princeton, New Jersey, United States",
+    "Austin, Texas, United States",
+    "Pittsburgh, Pennsylvania, United States",
+    "Maryland, United States"
   ]
 }

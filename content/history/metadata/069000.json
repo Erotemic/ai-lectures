@@ -258,9 +258,20 @@
   "tags": [
     "History of science and mathematics",
     "Biography",
-    "Carl Gustav Jacob Jacobi"
+    "Carl Gustav Jacob Jacobi",
+    "Elliptic functions",
+    "Elliptic integrals",
+    "Theta functions",
+    "Jacobian determinants",
+    "Hamilton-Jacobi theory",
+    "Jacobi symbol",
+    "Niels Henrik Abel",
+    "Adrien-Marie Legendre",
+    "Königsberg mathematical school",
+    "Prussian Revolution of 1848",
+    "Nineteenth-century mathematical physics"
   ],
-  "description": "Follows Carl Gustav Jacob Jacobi’s Prussian mathematical career through Königsberg, competition and exchange with Abel and Legendre, and advances in elliptic functions and dynamics.",
+  "description": "Traces Jacobi from Potsdam through Königsberg to Berlin, following his elliptic-function discoveries and exchanges with Abel and Legendre, then explains Jacobian determinants and Hamilton-Jacobi mechanics alongside his struggles with illness and Prussian politics.",
   "tag_paths": [
     [
       "History",
@@ -271,18 +282,19 @@
   ],
   "chronology": {
     "life": {
-      "start": 1804,
+      "basis": "narrated_biography",
       "end": 1851,
-      "approximate": false,
-      "label": "Carl Gustav Jacob Jacobi, 1804–1851",
-      "basis": "documented_biography",
-      "source_ids": [
-        "history-jacobi-mactutor"
-      ]
+      "label": "1804-1851: Carl Gustav Jacob Jacobi",
+      "start": 1804
     }
   },
   "places": [
-    "Königsberg",
-    "Berlin"
+    "Potsdam, Germany",
+    "Berlin, Germany",
+    "Königsberg (now Kaliningrad, Russia)",
+    "Göttingen, Germany",
+    "Paris, France",
+    "Gotha, Germany",
+    "Italy"
   ]
 }
