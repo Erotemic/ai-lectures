@@ -70,6 +70,6 @@ Each event is append-only in `reviews/registry/description-audits-<track>.jsonl`
 
 The initial eleven-lecture scoped batch covered descriptions, title alignment, and relevant taxonomy fields, with a chronology/geography check for Ky Fan. It did **not** review learning prerequisites, source support, external historical facts, or formal proof correctness. Earlier description-only full-manuscript records remain description-only. These audits should not block importing or playing lectures.
 
-## Audit progress (22 November 2026, batch 5)
+## Audit progress (22 November 2026, batch 6)
 
-The cumulative scoped audit overlay includes **68 current full-manuscript description reviews**, with 14 additional reviews in this batch. Their scope and per-field outcome are recorded independently. Unreviewed lectures are not upgraded by an automated screening or by previous batch-level editorial changes; rerun `rank` for the current queue.
+The cumulative scoped audit overlay includes **78 current full-manuscript description reviews**, including 10 manuscript-level reviews in this batch. Each receipt is keyed by scope, reviewer, depth, date, and text fingerprints. Unreviewed lectures remain uncredited; a geography or chronology review is not independent fact verification.

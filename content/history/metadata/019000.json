@@ -115,7 +115,13 @@
     "History of science and mathematics",
     "Biography",
     "William Kahan",
-    "Perturbation theory"
+    "Perturbation theory",
+    "Davis–Kahan theorem",
+    "Subspace perturbation",
+    "Numerical linear algebra",
+    "Floating-point arithmetic",
+    "IEEE 754",
+    "Residual error bounds"
   ],
   "tag_paths": [
     [
@@ -125,5 +131,20 @@
       "William Kahan"
     ]
   ],
-  "description": "Explores William Kahan’s approach to trustworthy numerical computation, from floating-point pitfalls and rounding errors to eigenspace perturbation and the demands of algorithms run on real machines."
+  "description": "Explores William Kahan’s approach to trustworthy numerical computation, from floating-point pitfalls and rounding errors to eigenspace perturbation and the demands of algorithms run on real machines.",
+  "places": [
+    "Toronto",
+    "Cambridge, England",
+    "Berkeley"
+  ],
+  "chronology": {
+    "period": {
+      "start": 1933,
+      "end": 2005,
+      "label": "William Kahan: narrated life and work, 1933–2005 CE",
+      "basis": "events_discussed",
+      "approximate": false,
+      "note": "The narration gives his 1933 Toronto birth, early computer work, 1970 Davis–Kahan paper, subsequent standards work, and a 2005 oral history. The end date is not a claim about lifespan."
+    }
+  }
 }

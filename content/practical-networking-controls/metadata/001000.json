@@ -977,19 +977,39 @@
       ]
     }
   ],
-  "description": "Follows power and data through a small network, using connection tests to isolate faults among devices, cables, and services.",
+  "description": "Traces Ethernet cabling, switching, IP, and PoE power through camera troubleshooting, then explains local-first automation, dependency mapping, monitoring, and fault isolation.",
   "tags": [
     "Packet and Power Paths",
     "Follow the Packet and the Power",
     "Copper Cable, Pairs, Termination, and Link Tests",
     "Switches, Routers, IP, DHCP, and DNS",
-    "PoE Budgets, Voltage Drop, and Cable Runs"
+    "PoE Budgets, Voltage Drop, and Cable Runs",
+    "Local-First Reliability and Dependency Mapping",
+    "Monitoring, Security, and Fault Isolation",
+    "Home automation",
+    "Network troubleshooting",
+    "PoE power budgeting"
   ],
   "tag_paths": [
     [
       "Practical skills",
       "Networking and controls",
       "Packet And Power Paths"
+    ],
+    [
+      "Practical skills",
+      "Networking and controls",
+      "Ethernet diagnostics"
+    ],
+    [
+      "Practical skills",
+      "Networking and controls",
+      "Power over Ethernet"
+    ],
+    [
+      "Practical skills",
+      "Networking and controls",
+      "Local-first automation"
     ]
   ]
 }
