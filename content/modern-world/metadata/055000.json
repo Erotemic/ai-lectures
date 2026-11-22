@@ -372,13 +372,23 @@
   ],
   "notes": "23 paragraph-mapped source records; direct URLs, locators, source review scope and limits are in the text-only display ledger. Word counts and runtime estimates are descriptive.",
   "places": [
-    "Cambodia",
+    "Vietnam",
     "Laos",
-    "Vietnam"
+    "Cambodia",
+    "Saigon",
+    "Phnom Penh",
+    "United States"
   ],
-  "description": "Examines war and decolonization across Indochina, contested states, civilian survival, 1975 transitions, Khmer Rouge rule and refugees.",
+  "description": "Traces Vietnam's rival states and reunification, Laos's civil war and U.S. bombing, and Cambodia's Khmer Rouge regime, then follows unexploded ordnance and refugee crises.",
   "tags": [
-    "Indochina Conflict and Survival"
+    "Indochina Conflict and Survival",
+    "Vietnam War",
+    "Laotian Civil War",
+    "U.S. bombing of Laos",
+    "Khmer Rouge",
+    "Cambodian genocide",
+    "Indochinese refugees",
+    "Decolonization"
   ],
   "tag_paths": [
     [
@@ -387,5 +397,15 @@
       "Modern history",
       "Indochina Conflict And Survival"
     ]
-  ]
+  ],
+  "chronology": {
+    "period": {
+      "start": 1954,
+      "end": 1979,
+      "label": "Vietnam, Laos and Cambodia, 1954-1979 CE",
+      "basis": "events_discussed",
+      "approximate": false,
+      "note": "Tracks the 1954 settlement, the connected wars and bombing, the 1975 transitions, Khmer Rouge rule to 1979, and the 1979 refugee conference; long-term unexploded ordnance is discussed beyond this interval."
+    }
+  }
 }

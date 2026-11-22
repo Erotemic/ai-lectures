@@ -342,9 +342,15 @@
     }
   ],
   "notes": "22 paragraph-level research mappings for the narrated manuscript. Sources outside the speech, with access scope and recorded caveats; no mandatory duration or word count.",
-  "description": "Examines British health care, European recovery, Japanese and Chinese land policies, Indian planning, and Latin American development theories.",
+  "description": "Compares Britain's NHS, Marshall aid, land reforms in Japan and China, Indian planning, and Prebisch's Latin American trade theory, asking who benefited from reconstruction.",
   "tags": [
-    "Postwar Development and Social Reform"
+    "Postwar Development and Social Reform",
+    "Welfare state",
+    "National Health Service",
+    "Marshall Plan",
+    "Land reform",
+    "Economic planning",
+    "Development economics"
   ],
   "tag_paths": [
     [
@@ -353,5 +359,23 @@
       "Modern history",
       "Postwar Development And Social Reform"
     ]
-  ]
+  ],
+  "places": [
+    "United Kingdom",
+    "Western Europe",
+    "Japan",
+    "China",
+    "India",
+    "Latin America"
+  ],
+  "chronology": {
+    "period": {
+      "start": 1942,
+      "end": 1953,
+      "label": "Postwar social and development programs, 1942-1953 CE",
+      "basis": "events_discussed",
+      "approximate": false,
+      "note": "The core examples include the 1942 Beveridge report, the 1947-48 Marshall Plan, land reforms in Japan and China, the 1949 Prebisch essay, and India's 1951 plan and early reviews. This is a comparative coverage interval, not a continuous event."
+    }
+  }
 }

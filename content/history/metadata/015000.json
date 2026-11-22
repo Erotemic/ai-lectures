@@ -298,9 +298,15 @@
     "History of science and mathematics",
     "Biography",
     "Jacques Dixmier",
-    "Operator theory"
+    "Operator theory",
+    "Hilbert space geometry",
+    "Closed operators",
+    "Bourbaki",
+    "Dixmier trace",
+    "C-star algebras",
+    "Friedrichs angle"
   ],
-  "description": "Introduces Jacques Dixmier’s work on closed operators and operator algebras through the relative geometry of infinite-dimensional subspaces and his influence as a mathematical expositor.",
+  "description": "Follows Jacques Dixmier from occupied Paris to Bourbaki, using nearly intersecting closed subspaces to explain operator algebras, nonclosed sums, and the Dixmier trace.",
   "tag_paths": [
     [
       "History",
@@ -308,5 +314,23 @@
       "Scientific biography",
       "Jacques Dixmier"
     ]
-  ]
+  ],
+  "places": [
+    "Saint-Étienne",
+    "Versailles",
+    "Paris",
+    "Dijon",
+    "Toulouse",
+    "Bures-sur-Yvette"
+  ],
+  "chronology": {
+    "period": {
+      "start": 1924,
+      "end": 2024,
+      "label": "Jacques Dixmier biography, 1924-2024 CE",
+      "basis": "events_discussed",
+      "approximate": false,
+      "note": "Narration begins with his birth in 1924 and includes his centenary gathering in 2024. This is coverage of events discussed, not a complete lifespan or a statement of death."
+    }
+  }
 }
