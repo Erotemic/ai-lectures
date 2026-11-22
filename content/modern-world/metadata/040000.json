@@ -316,10 +316,13 @@
     }
   ],
   "notes": "19 paragraph-level historical claim references with direct URLs, source passage locators, access scopes and limitations. The displaced-person figures reported by USHMM have specific periods and administrative categories. The German transfers discussion analyzes the Potsdam text as an official policy document and does not assert it was implemented humanely. Japanese repatriation estimates come from abstracts or excerpts by Jonathan Bull and Lori Watt. Partition and Korea are introduced but require region-specific testimony for detailed life stories. No first-person individual refugee account is invented. No duration target.",
-  "description": "Examines displaced persons, family tracing, population transfers, repatriation after empire, Partition and the practical meaning of reconstruction.",
+  "description": "Follows Jewish survivors and other displaced people through postwar European camps, population transfers, Japanese repatriation, and South Asian Partition, asking what return or home meant.",
   "tags": [
     "Postwar Displacement and Reconstruction",
-    "Military history"
+    "Forced migration",
+    "Postwar refugees",
+    "Repatriation",
+    "Partition of India"
   ],
   "tag_paths": [
     [
@@ -328,5 +331,25 @@
       "Modern history",
       "Postwar Displacement And Reconstruction"
     ]
-  ]
+  ],
+  "places": [
+    "Germany",
+    "Poland",
+    "Czechoslovakia",
+    "Japan",
+    "Korea",
+    "India",
+    "Pakistan",
+    "Palestine"
+  ],
+  "chronology": {
+    "period": {
+      "start": 1945,
+      "end": 1951,
+      "label": "Postwar displacement and reconstruction, c. 1945–1951 CE",
+      "basis": "events_discussed",
+      "approximate": true,
+      "note": "The principal movements and repatriation problems begin after the 1945 surrenders and include the 1947 Partition and the 1951 Refugee Convention. Earlier coercion and later rationing are context."
+    }
+  }
 }

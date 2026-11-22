@@ -64,7 +64,7 @@
       "Can you distinguish the Galerkin energy error from the residual of a linear solver?"
     ]
   },
-  "description": "Examines piecewise-linear trial spaces, stiffness assembly, Ritz–Galerkin orthogonality, exact energy errors, and numerical limitations.",
+  "description": "Builds a two-unknown finite-element model of a loaded string, derives Galerkin best approximation and an exact energy error, then examines interfaces and conditioning.",
   "tag_paths": [
     [
       "Mathematics",

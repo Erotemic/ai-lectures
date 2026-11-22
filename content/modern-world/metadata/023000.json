@@ -302,11 +302,19 @@
   ],
   "notes": "A display-only, direct-link claim ledger follows the narration. Source scope and passage-level locators are explicit; neither a bibliography link nor an abstract is treated as confirmation of unsupported factual detail. No word-count or lecture-duration policy applied.",
   "places": [
-    "Egypt"
+    "Egypt",
+    "India",
+    "Ottoman Empire",
+    "Palestine",
+    "Philippines"
   ],
-  "description": "Examines political organizations and claims to speak for peoples under empires, from India and Egypt to the Philippines and the Ottoman Empire.",
+  "description": "Compares Indian Congress organizing, Ottoman constitutional reform, Egypt’s Urabi movement, and Philippine revolutionaries to ask who could legitimately speak for a nation under empire.",
   "tags": [
-    "Nationalism and Representation"
+    "Nationalism and Representation",
+    "Constitutionalism",
+    "Indian National Congress",
+    "Anti-imperialism",
+    "Philippine independence"
   ],
   "tag_paths": [
     [
@@ -315,5 +323,15 @@
       "Modern history",
       "Nationalism And Representation"
     ]
-  ]
+  ],
+  "chronology": {
+    "period": {
+      "start": 1876,
+      "end": 1908,
+      "label": "Nationalist and constitutional movements, 1876–1908 CE",
+      "basis": "events_discussed",
+      "approximate": false,
+      "note": "Spans the 1876 Ottoman constitution, the 1885 Indian National Congress, late-nineteenth-century Egyptian and Filipino organizing, and the 1908 Ottoman constitutional restoration."
+    }
+  }
 }

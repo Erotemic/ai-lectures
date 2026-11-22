@@ -300,13 +300,21 @@
   ],
   "notes": "21 paragraph-level traceable references; 8 distinct sources. Source URLs, passage-level locators, and scope/caution labels are in manuscript. No fixed duration.",
   "places": [
-    "China"
+    "China",
+    "Japan",
+    "Manchuria",
+    "Nanjing",
+    "Chongqing",
+    "Burma"
   ],
-  "description": "Examines manchuria, the 1937 invasion, the Nanjing Massacre, civilian displacement, Chinese resistance, and the politics of wartime remembrance.",
+  "description": "Traces Japan’s escalating war in China from Manchuria and 1937 through Nanjing, mass displacement, and resistance, including Nationalist–Communist divisions and contested wartime memory.",
   "tags": [
     "China and the Long Asian War",
     "Military history",
-    "East Asian history"
+    "East Asian history",
+    "Second Sino-Japanese War",
+    "Nanjing Massacre",
+    "Chinese resistance"
   ],
   "tag_paths": [
     [
@@ -315,5 +323,15 @@
       "Modern history",
       "China And The Long Asian War"
     ]
-  ]
+  ],
+  "chronology": {
+    "period": {
+      "start": 1931,
+      "end": 1945,
+      "label": "China and the long Sino-Japanese War, 1931–1945 CE",
+      "basis": "events_discussed",
+      "approximate": false,
+      "note": "Centers on the Japanese seizure of Manchuria in 1931, large-scale fighting from 1937, and the consequences for China through Japan’s defeat in 1945; postwar memory is discussed as context."
+    }
+  }
 }

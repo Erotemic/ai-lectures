@@ -311,12 +311,20 @@
   ],
   "notes": "A display-only, direct-link claim ledger follows the narration. Source scope and passage-level locators are explicit; neither a bibliography link nor an abstract is treated as confirmation of unsupported factual detail. No word-count or lecture-duration policy applied.",
   "places": [
-    "Congo"
+    "Congo",
+    "Putumayo",
+    "Peru",
+    "Colombia",
+    "Kimberley",
+    "South Africa"
   ],
-  "description": "Examines rubber in Congo and Putumayo, mineral production in southern Africa, concession power, colonial violence, documentary limits and Indigenous resistance.",
+  "description": "Compares rubber quotas in the Congo, forced debt in the Putumayo, and Kimberley mine compounds, showing how colonial firms converted resource extraction into control over labor.",
   "tags": [
     "Extractive Frontiers",
-    "Colonialism"
+    "Colonialism",
+    "Forced labor",
+    "Rubber extraction",
+    "Diamond mining"
   ],
   "tag_paths": [
     [
@@ -325,5 +333,15 @@
       "Modern history",
       "Extractive Frontiers"
     ]
-  ]
+  ],
+  "chronology": {
+    "period": {
+      "start": 1867,
+      "end": 1913,
+      "label": "Colonial extraction regimes, c. 1867–1913 CE",
+      "basis": "events_discussed",
+      "approximate": true,
+      "note": "The Kimberley diamond boom begins in the late 1860s; the Congo rubber system and Putumayo investigations belong largely to the late nineteenth and early twentieth centuries. This is a comparative range, not one continuous event."
+    }
+  }
 }

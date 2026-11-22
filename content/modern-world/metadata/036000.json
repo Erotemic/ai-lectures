@@ -309,10 +309,13 @@
     }
   ],
   "notes": "22 paragraph-level traceable references; 8 distinct sources. Source URLs, passage-level locators, and scope/caution labels are in manuscript. No fixed duration.",
-  "description": "Examines invasion and occupation in Europe, the Eastern Front, Asia-Pacific escalation, imperial forces, logistics, and the different meanings of victory.",
+  "description": "Traces how Germany’s invasions of Poland and the Soviet Union and Japan’s Pacific expansion connected separate wars, emphasizing occupation, imperial troops, logistics, and civilian costs.",
   "tags": [
     "World War Two Global Escalations",
-    "Military history"
+    "Military history",
+    "Second World War",
+    "Military occupation",
+    "Colonial soldiers"
   ],
   "tag_paths": [
     [
@@ -321,5 +324,26 @@
       "Modern history",
       "World War Two Global Escalations"
     ]
-  ]
+  ],
+  "places": [
+    "Poland",
+    "Germany",
+    "Soviet Union",
+    "France",
+    "North Africa",
+    "Burma",
+    "China",
+    "Japan",
+    "United States"
+  ],
+  "chronology": {
+    "period": {
+      "start": 1939,
+      "end": 1945,
+      "label": "Globalization of World War II, 1939–1945 CE",
+      "basis": "events_discussed",
+      "approximate": false,
+      "note": "The main comparative sequence begins with Germany’s attack on Poland in 1939 and follows the widening global war through 1945. Earlier East Asian fighting is explicitly acknowledged."
+    }
+  }
 }
