@@ -52,7 +52,7 @@
       "If x_n converges to c and f is continuous at c, can you justify that f(x_n) converges to f(c)?"
     ]
   },
-  "description": "Explains how local control of a function, together with a closed interval, forces global facts.",
+  "description": "Proves the Intermediate and Extreme Value Theorems using bisection, completeness, and convergent subsequences, distinguishing existence guarantees from root-finding and optimization procedures.",
   "tag_paths": [
     [
       "Mathematics",
@@ -67,6 +67,19 @@
       "Mathematics",
       "Analysis",
       "Intermediate value theorem"
+    ],
+    [
+      "Mathematics",
+      "Analysis",
+      "Extreme value theorem"
     ]
+  ],
+  "tags": [
+    "Intermediate Value Theorem",
+    "Extreme Value Theorem",
+    "Bisection method",
+    "Bolzano-Weierstrass property",
+    "Completeness of the real numbers",
+    "Compact intervals"
   ]
 }
