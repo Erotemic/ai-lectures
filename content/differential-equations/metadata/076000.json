@@ -40,7 +40,7 @@
       "Derive Fourier amplification for centered Euler and contrast its stability with upwind."
     ]
   },
-  "description": "Addresses topics from the lecture, including \"The Courant number has a physical meaning\"; \"Six cells and one transported pulse\"; and \"What if the speed is negative?\".",
+  "description": "Derives an upwind finite-difference scheme from the direction of information flow, follows a pulse across sample cells, and explains the Courant–Friedrichs–Lewy stability limit.",
   "tag_paths": [
     [
       "Mathematics",

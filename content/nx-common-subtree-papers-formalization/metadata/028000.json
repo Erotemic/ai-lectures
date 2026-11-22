@@ -2,7 +2,7 @@
   "schema_version": 1,
   "lecture_id": "028000",
   "transcript": "028000-the-last-mile-from-proved-solver-to-python.md",
-  "description": "End-to-end verification boundaries for the NetworkX common-subtree Python APIs: graph and callback encoding, original-node and path witnesses, 2016/2018 empty and rooted policies, f64 versus exact rational semantics, PyO3 and ABI3 packaging, the compiled verified ordered Lean backend, tested public behavior, and feasible compositional proof interfaces.",
+  "description": "Examines the verification boundary between a proved Lean common-subtree solver and NetworkX’s Python API, including tree encodings, witness reconstruction, numeric semantics, PyO3, and packaging.",
   "related_resources": [
     {
       "source_id": "nx-lozano-2004",

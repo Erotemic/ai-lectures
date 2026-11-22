@@ -48,7 +48,7 @@
       "Identify the staggered energy that leapfrog conserves under fixed boundaries."
     ]
   },
-  "description": "Addresses topics from the lecture, including \"The time-step ratio that governs the wave\"; \"A spring system is hiding inside the grid\"; and \"A discrete energy that does not change\".",
+  "description": "Constructs an energy-preserving leapfrog scheme for the wave equation, derives the CFL restriction, and compares fixed, free, and absorbing boundary models.",
   "tag_paths": [
     [
       "Mathematics",

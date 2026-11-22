@@ -52,7 +52,7 @@
       "Explain why conservation and flux consistency are not sufficient entropy guarantees."
     ]
   },
-  "description": "Addresses topics from the lecture, including \"What a face needs to know\"; \"A rarefaction needs three cases\"; and \"Four cells, every flux computed\".",
+  "description": "Constructs Godunov fluxes from local Riemann problems at cell boundaries, calculates a finite-volume update, and separates conservation from stability and entropy properties.",
   "tag_paths": [
     [
       "Mathematics",

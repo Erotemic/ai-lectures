@@ -48,7 +48,7 @@
       "Separate local acceptance from long-time trajectory accuracy."
     ]
   },
-  "description": "Addresses topics from the lecture, including \"Two approximations from the same starting point\"; \"Rejecting a step is normal work\"; and \"Why real solvers use embedded Runge–Kutta pairs\".",
+  "description": "Introduces adaptive ODE integration through local error estimates, embedded Runge–Kutta pairs, accepted and rejected steps, and the difference between step accuracy and global error.",
   "tag_paths": [
     [
       "Mathematics",

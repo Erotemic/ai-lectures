@@ -52,7 +52,7 @@
       "Separate spatial truncation, temporal truncation and stability in a refinement test."
     ]
   },
-  "description": "Addresses topics from the lecture, including \"A grid of temperatures that changes in time\"; \"Forward Euler gives an averaging rule\"; and \"What goes wrong when the time step is too large?\".",
+  "description": "Turns the heat equation into coupled ODEs by spatial discretization, then analyzes forward Euler stability, accuracy, and why refining the grid constrains the time step.",
   "tag_paths": [
     [
       "Mathematics",

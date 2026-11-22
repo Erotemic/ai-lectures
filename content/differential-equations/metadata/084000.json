@@ -40,7 +40,7 @@
       "Distinguish requested output sampling from actual integration steps."
     ]
   },
-  "description": "Addresses topics from the lecture, including \"A trajectory with two very different quantities\"; \"Relative tolerance needs an absolute floor\"; and \"A test on the error estimate, not on the error itself\".",
+  "description": "Explains absolute and relative ODE tolerances for variables with different units and scales, distinguishing the solver’s error estimate and output sampling from true global accuracy.",
   "tag_paths": [
     [
       "Mathematics",
