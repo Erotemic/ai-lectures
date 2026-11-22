@@ -69,3 +69,7 @@ Each event is append-only in `reviews/registry/description-audits-<track>.jsonl`
 5. Generate a fresh ranking. Never convert historical bulk audits into fictitious full-manuscript receipts.
 
 The initial eleven-lecture scoped batch covered descriptions, title alignment, and relevant taxonomy fields, with a chronology/geography check for Ky Fan. It did **not** review learning prerequisites, source support, external historical facts, or formal proof correctness. Earlier description-only full-manuscript records remain description-only. These audits should not block importing or playing lectures.
+
+## Audit progress (22 November 2026, batch 3)
+
+The cumulative scoped audit overlay contains 40 current full-manuscript description reviews. The new batch adds 14 records including 6 descriptions retained as accurate. Review scope and manuscript-vs-external verification remain separate; rerun `rank` to obtain the current queue.
