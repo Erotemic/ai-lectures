@@ -118,9 +118,17 @@
     "History of science and mathematics",
     "Biography",
     "Terence Tao",
-    "Additive combinatorics"
+    "Additive combinatorics",
+    "Green-Tao theorem",
+    "Arithmetic progressions in primes",
+    "Pseudorandom majorants",
+    "Szemeredi theorem",
+    "Harmonic analysis",
+    "Partial differential equations",
+    "Collaborative mathematics",
+    "Computer-assisted proof"
   ],
-  "description": "Introduces Terence Tao’s collaborative mathematical career through harmonic analysis, additive combinatorics, proof techniques, and public exposition across several fields.",
+  "description": "Uses the Green-Tao theorem on arbitrarily long finite prime progressions to introduce Terence Tao's additive combinatorics, PDE research, collaborative methods, and emerging AI-assisted mathematics.",
   "tag_paths": [
     [
       "History",
@@ -128,5 +136,19 @@
       "Scientific biography",
       "Terence Tao"
     ]
-  ]
+  ],
+  "places": [
+    "Adelaide, Australia",
+    "Princeton, New Jersey, United States",
+    "Los Angeles, California, United States"
+  ],
+  "chronology": {
+    "period": {
+      "start": 1975,
+      "end": 2026,
+      "label": "1975-2026: narrated life and ongoing mathematical work",
+      "basis": "narrated_episode_span",
+      "note": "Narrated period from birth to the 2026 discussion of AI-assisted mathematics; NOT a lifespan or completed career."
+    }
+  }
 }
