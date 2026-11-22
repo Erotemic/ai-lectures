@@ -261,9 +261,20 @@
     "History of science and mathematics",
     "Biography",
     "Pierre-Simon Laplace",
-    "Astronomy"
+    "Astronomy",
+    "Celestial mechanics",
+    "Planetary perturbations",
+    "Probability theory",
+    "Inverse probability",
+    "Bayesian updating",
+    "Potential theory",
+    "Laplacian",
+    "Laplace’s demon",
+    "French Revolution",
+    "Napoleonic France",
+    "Scientific institutions"
   ],
-  "description": "Profiles Pierre-Simon Laplace through celestial mechanics, probability, scientific institutions, and political change in France, examining the relationship between calculation and authority.",
+  "description": "Follows Laplace from Normandy to Paris through celestial mechanics, inverse probability, and potential theory, alongside scientific institutions and his political roles during the French Revolution, Napoleon’s rule, and the Bourbon Restoration.",
   "tag_paths": [
     [
       "History",
@@ -274,17 +285,16 @@
   ],
   "chronology": {
     "life": {
-      "start": 1749,
+      "basis": "narrated_biography",
       "end": 1827,
-      "approximate": false,
-      "label": "Pierre-Simon Laplace, 1749–1827",
-      "basis": "documented_biography",
-      "source_ids": [
-        "history-laplace-mactutor"
-      ]
+      "label": "1749–1827: Pierre-Simon Laplace",
+      "start": 1749
     }
   },
   "places": [
-    "Paris"
+    "Beaumont-en-Auge, Normandy, France",
+    "Caen, Normandy, France",
+    "Paris, France",
+    "Arcueil, France"
   ]
 }

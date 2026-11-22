@@ -230,7 +230,7 @@ def risk_cues(row: dict, scope: str = "description") -> list[tuple[str, int]]:
     if re.search(r"(?i)^\s*(?:covers|examines|addresses|discusses|surveys)\b", desc):
         cues.append(("generic_preview_opening", 6))
     # Title/subject anchoring is a cue only: a valid summary need not repeat title words.
-    special = {w for w in TOKEN_RE.findall(normalize(title)) if w not in STOP_WORDS and len(w) >= 5}
+    special = {w for w in re.findall(r"[a-z]{3,}", normalize(title)) if w not in STOP_WORDS and len(w) >= 5}
     # Split hyphenated phrases (e.g. sperm-egg), and accept closely related
     # inflections (e.g. metabolism/metabolic). A metaphorical title is not a
     # strong reason to doubt a precise technical description.
@@ -239,7 +239,14 @@ def risk_cues(row: dict, scope: str = "description") -> list[tuple[str, int]]:
         t == d or (len(t) >= 6 and len(d) >= 6 and t[:6] == d[:6])
         for t in special for d in subject_words
     )
-    if special and not title_anchored:
+    # An explicit name before a title colon is a strong anchor even if each
+    # name component is short (Fu Hao), or is hyphenated (Chien-Shiung Wu).
+    prefix = normalize(title).split(":", 1)[0]
+    prefix_words = re.findall(r"[a-z]{2,}", prefix)
+    explicitly_named = (":" in title and bool(prefix_words) and
+                        len(prefix_words) <= 4 and
+                        all(re.search(r"\b"+re.escape(w)+r"\b", d_norm) for w in prefix_words))
+    if special and not (title_anchored or explicitly_named):
         # Named biographies have a more specific and meaningful title anchor.
         named_subject = bool(re.match(r"^[A-Z][A-Za-zÀ-ÿ'-]+ [A-Z][A-Za-zÀ-ÿ'-]+:", title))
         cues.append(("title_subject_not_named", 15 if named_subject else 4))

@@ -70,6 +70,6 @@ Each event is append-only in `reviews/registry/description-audits-<track>.jsonl`
 
 The initial eleven-lecture scoped batch covered descriptions, title alignment, and relevant taxonomy fields, with a chronology/geography check for Ky Fan. It did **not** review learning prerequisites, source support, external historical facts, or formal proof correctness. Earlier description-only full-manuscript records remain description-only. These audits should not block importing or playing lectures.
 
-## Audit progress (22 November 2026, batch 11)
+## Audit progress (22 November 2026, batch 12)
 
-The cumulative scoped audit overlay contains **129 current full-manuscript description reviews** (including **12** in this batch). The eight animal-physiology previews in batch 11 were accurate; the four biography previews were expanded to represent substantial technical content and add missing subject and geographic indexing. Each receipt identifies model, date, depth, scope, outcomes, and revision fingerprints. Reviews compare metadata with narration, not independent external sources.
+The cumulative overlay contains **139 current full-manuscript description reviews**; batch 12 adds ten across biographies, literature, TV criticism, world history and mathematics. Nine sidecars received metadata improvements. Audits retain scope-specific outcomes, actual reviewer/model, depth, timestamps, and revision fingerprints. The title-anchor heuristic now tokenizes hyphenated names and recognizes a fully named subject before a colon, avoiding false alarms for Chien-Shiung Wu and Fu Hao. Review outcomes remain based on manuscript alignment, not independent fact checking.

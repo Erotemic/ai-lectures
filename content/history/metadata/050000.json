@@ -142,9 +142,19 @@
   "tags": [
     "History of science and mathematics",
     "Biography",
-    "Pierre de Fermat"
+    "Pierre de Fermat",
+    "Number theory",
+    "Infinite descent",
+    "Fermat’s Last Theorem",
+    "Probability theory",
+    "Problem of points",
+    "Blaise Pascal",
+    "Adequality",
+    "Tangents",
+    "History of calculus",
+    "Mathematical correspondence"
   ],
-  "description": "Follows Pierre de Fermat as a lawyer and correspondent, explaining his contributions to number theory, probability, tangents, and the mathematical exchange of seventeenth-century Europe.",
+  "description": "Portrays Fermat as a Toulouse magistrate and European correspondent, explaining tangent methods and adequality, the Pascal problem of points, infinite descent, and the famous higher-power claim whose general proof did not survive.",
   "tag_paths": [
     [
       "History",
@@ -154,20 +164,16 @@
     ]
   ],
   "chronology": {
-    "life": {
-      "start": 1607,
+    "period": {
+      "basis": "narrated_mathematical_career",
       "end": 1665,
-      "approximate": true,
-      "label": "Pierre de Fermat, c. 1607–1665",
-      "basis": "documented_biography",
-      "source_ids": [
-        "history-fermat-mactutor",
-        "history-fermat-cambridge"
-      ],
-      "note": "Birth date disputed: older sources print 1601; modern archival analysis and the Cambridge biographical entry favor approximately 1607. Death in 1665 is documented."
+      "label": "1630–1665: legal work, mathematical correspondence and disputed claims",
+      "start": 1630
     }
   },
   "places": [
-    "Toulouse"
+    "Beaumont-de-Lomagne, France",
+    "Toulouse, France",
+    "Bordeaux, France"
   ]
 }

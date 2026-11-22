@@ -166,3 +166,16 @@ def test_title_words_are_weak_cues_for_descriptive_biology_titles():
              "Explains the noncommutativity of operators and relativistic particles.",
              "manuscript": "Quantum operators. " * 100}
     assert dict(audit.risk_cues(named))["title_subject_not_named"] == 15
+
+
+def test_hyphenated_and_short_biographical_name_anchor():
+    for title, description in [
+        ("Chien-Shiung Wu: The mirror and the nucleus",
+         "Follows Chien-Shiung Wu through her experiments in nuclear physics."),
+        ("Fu Hao: When a Tomb Meets an Archive",
+         "Links Fu Hao's tomb with Shang oracle-bone inscriptions."),
+    ]:
+        row = {"title": title, "description": description, "manuscript": "Short text"}
+        assert "title_subject_not_named" not in [
+            name for name, weight in audit.risk_cues(row, "description")
+        ]

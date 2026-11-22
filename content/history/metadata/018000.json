@@ -171,9 +171,15 @@
     "History of science and mathematics",
     "Biography",
     "Chandler Davis",
-    "Perturbation theory"
+    "Perturbation theory",
+    "Davis–Kahan theorem",
+    "Principal angles",
+    "Subspace projections",
+    "Academic freedom",
+    "Red Scare",
+    "Science fiction writing"
   ],
-  "description": "Recounts Chandler Davis’s family and political commitments, science-fiction writing, dismissal during the American Red Scare, and his mathematical work on subspace geometry.",
+  "description": "Follows Chandler Davis through science-fiction writing, Red Scare persecution, and a disrupted U.S. academic career to Toronto, then explains invariant-subspace projections, principal angles, and the Davis–Kahan perturbation viewpoint.",
   "tag_paths": [
     [
       "History",
@@ -183,20 +189,17 @@
     ]
   ],
   "chronology": {
-    "life": {
-      "start": 1926,
-      "end": 2022,
-      "approximate": false,
-      "label": "Chandler Davis, 1926–2022",
-      "basis": "documented_biography",
-      "source_ids": [
-        "history-davis-ams"
-      ],
-      "note": "Same documented lifespan in both biographical installments; not the date range covered by either installment."
+    "period": {
+      "basis": "narrated_life_and_early_career",
+      "end": 1962,
+      "label": "1926–1962: childhood, U.S. career, political persecution and move to Toronto",
+      "start": 1926
     }
   },
   "places": [
-    "Toronto",
-    "Michigan"
+    "Ithaca, New York",
+    "Ann Arbor, Michigan",
+    "New York City",
+    "Toronto, Ontario"
   ]
 }
