@@ -12,7 +12,7 @@ python3 tools/description_audit.py rank --scope geography --top 30 \
 python3 tools/description_audit.py rank --scope tags --top 30
 ```
 
-`--scope` accepts `description`, `title`, `tags`, `tag_paths`, `chronology`, `geography`, `learning`, `related_resources`, or `claim_evidence`. The description queue uses heuristic risk cues: heading lists, missing identifying subjects, strong proof verbs, unusually brief or generic summaries, and prior follow-ups. Other scopes mainly rank by whether a current review exists; there are a few conservative cues for empty biography geography/chronology, absent tag paths, and generic source rationales. The score is a **priority score, not a calibrated probability of an error**. A high score can be a false alarm, and a low score can miss a serious issue.
+`--scope` accepts `description`, `title`, `tags`, `tag_paths`, `chronology`, `geography`, `learning`, `related_resources`, or `claim_evidence`. The description queue uses heuristic risk cues: heading lists, missing identifying subjects, strong proof verbs, unusually brief or generic summaries, and prior follow-ups. After eight high-scoring animal-physiology descriptions passed full-manuscript review in batch 11, a missing title word was made a *weak* cue for general titles: metaphorical titles and morphological variants had generated false positives. Named biographical subjects still receive a stronger title-anchor cue. This is a triage adjustment, not a calibrated prediction model. Other scopes mainly rank by whether a current review exists; there are a few conservative cues for empty biography geography/chronology, absent tag paths, and generic source rationales. The score is a **priority score, not a calibrated probability of an error**. A high score can be a false alarm, and a low score can miss a serious issue.
 
 Each CSV row gives the exact `audit_scope`, revision-aware review state, last audit date/model/depth/result for *that scope*, last current full-manuscript audit, and manuscript/description fingerprints. The ranking command does not create audit records.
 
@@ -70,6 +70,6 @@ Each event is append-only in `reviews/registry/description-audits-<track>.jsonl`
 
 The initial eleven-lecture scoped batch covered descriptions, title alignment, and relevant taxonomy fields, with a chronology/geography check for Ky Fan. It did **not** review learning prerequisites, source support, external historical facts, or formal proof correctness. Earlier description-only full-manuscript records remain description-only. These audits should not block importing or playing lectures.
 
-## Audit progress (22 November 2026, batch 10)
+## Audit progress (22 November 2026, batch 11)
 
-The cumulative scoped audit overlay contains **117 current full-manuscript description reviews** (including **10** in this batch). Each receipt identifies its model, date, depth, scope, outcomes and revision fingerprints. Recent full-manuscript audits compare metadata with narration, not external sources.
+The cumulative scoped audit overlay contains **129 current full-manuscript description reviews** (including **12** in this batch). The eight animal-physiology previews in batch 11 were accurate; the four biography previews were expanded to represent substantial technical content and add missing subject and geographic indexing. Each receipt identifies model, date, depth, scope, outcomes, and revision fingerprints. Reviews compare metadata with narration, not independent external sources.

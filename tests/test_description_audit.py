@@ -150,3 +150,19 @@ def test_legacy_receipts_are_description_scoped_only(tmp_path):
               "description_sha256": row["description_sha256"]}
     assert audit.matches(legacy, row, "description")
     assert not audit.matches(legacy, row, "tags")
+
+
+def test_title_words_are_weak_cues_for_descriptive_biology_titles():
+    metaphor = {"title": "When Life Slows Down", "description":
+                "Compares hummingbird torpor, black bear hibernation and frog freeze tolerance.",
+                "manuscript": "Torpor is regulated. " * 100}
+    cues = dict(audit.risk_cues(metaphor))
+    assert cues["title_subject_not_named"] == 4
+    concrete = {"title": "What Metabolism Measures", "description":
+                "Explains metabolic power through calorimetry and isotope measurements.",
+                "manuscript": "Metabolic measurement. " * 100}
+    assert "title_subject_not_named" not in dict(audit.risk_cues(concrete))
+    named = {"title": "Paul Dirac: A life across the quantum revolution", "description":
+             "Explains the noncommutativity of operators and relativistic particles.",
+             "manuscript": "Quantum operators. " * 100}
+    assert dict(audit.risk_cues(named))["title_subject_not_named"] == 15
