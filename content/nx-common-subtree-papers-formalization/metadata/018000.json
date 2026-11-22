@@ -2,7 +2,7 @@
   "schema_version": 1,
   "lecture_id": "018000",
   "transcript": "018000-the-two-state-dynamic-program.md",
-  "description": "Derives both mapped and skipped recurrence equations from independent boundary witnesses, proves the skipped descent and child-matching assembly/decomposition directions, works a finite/infinite-penalty table and reads the relevant Lean correctness theorems.",
+  "description": "Derives Droschinsky's mapped and skipped recurrences for topological common-subtree embeddings, including path penalties and child matchings, and connects a worked score table to Lean correctness proofs.",
   "related_resources": [
     {
       "source_id": "nx-dkm-2018",

@@ -93,3 +93,60 @@ def test_followup_retained_until_recheck(tmp_path):
     audit.record_audit(repo, "demo:001000", "model", "GPT-6", "full_manuscript", "clean", "Resolved")
     item = next(x for x in audit.all_ranks(repo) if x["lecture"] == "demo:001000")
     assert item["review_state"] == "fully_reviewed"
+
+
+def test_scope_specific_receipts_do_not_clear_unreviewed_metadata(tmp_path):
+    repo = fixture_repo(tmp_path)
+    rec = audit.record_audit(
+        repo, "demo:001000", "model", "GPT-6", "full_manuscript", "clean",
+        "Compared title and description against narration; did not check tags.",
+        scopes=("description", "title"),
+        scope_outcomes={"description": "clean", "title": "clean"},
+    )
+    assert rec["scope"] == ["description", "title"]
+    assert next(x for x in audit.all_ranks(repo, "description")
+                if x["lecture"] == "demo:001000")["review_state"] == "fully_reviewed"
+    assert next(x for x in audit.all_ranks(repo, "tags") if x["lecture"] == "demo:001000")["review_state"] == "never_recorded"
+    assert next(x for x in audit.all_ranks(repo, "title") if x["lecture"] == "demo:001000")["review_state"] == "fully_reviewed"
+
+
+def test_changing_tags_only_stales_tag_scope(tmp_path):
+    repo = fixture_repo(tmp_path)
+    p = repo / "content/demo/metadata/001000.json"
+    meta = json.loads(p.read_text()); meta["tags"] = ["Logic", "Proof"]
+    p.write_text(json.dumps(meta))
+    audit.record_audit(
+        repo, "demo:001000", "model", "GPT-6", "full_manuscript", "clean",
+        "Checked description and tags against narration.",
+        scopes=("description", "tags"),
+        scope_outcomes={"description": "clean", "tags": "clean"},
+    )
+    meta["tags"].append("Algebra")
+    p.write_text(json.dumps(meta))
+    assert next(x for x in audit.all_ranks(repo, "tags") if x["lecture"] == "demo:001000")["review_state"] == "stale"
+    assert next(x for x in audit.all_ranks(repo, "description") if x["lecture"] == "demo:001000")["review_state"] == "fully_reviewed"
+    hist = audit.report_history(repo, "demo:001000")[0]
+    assert hist["current"] is False
+    assert hist["current_by_scope"] == {"description": True, "tags": False}
+
+
+def test_multiscope_requires_individual_outcomes_and_no_faked_semantic_screen(tmp_path):
+    import pytest
+    repo = fixture_repo(tmp_path)
+    with pytest.raises(ValueError, match="separate"):
+        audit.record_audit(repo, "demo:001000", "model", "GPT-6", "full_manuscript",
+                           "clean", "read all", scopes=("description", "tags"))
+    with pytest.raises(ValueError, match="cannot certify"):
+        audit.record_audit(repo, "demo:001000", "tool", "regex", "automated",
+                           "screened", "read headings", scopes=("description", "tags"),
+                           scope_outcomes={"description": "clean", "tags": "screened"})
+
+
+def test_legacy_receipts_are_description_scoped_only(tmp_path):
+    repo = fixture_repo(tmp_path)
+    row = audit.by_key(repo, "demo:001000")
+    legacy = {"scope": "description", "depth": "full_manuscript", "outcome": "clean",
+              "manuscript_sha256": row["manuscript_sha256"],
+              "description_sha256": row["description_sha256"]}
+    assert audit.matches(legacy, row, "description")
+    assert not audit.matches(legacy, row, "tags")
