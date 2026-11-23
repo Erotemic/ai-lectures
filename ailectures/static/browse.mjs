@@ -157,12 +157,13 @@ export class CatalogBrowser {
       .filter((p) => this.byId(p.lecture_id) && (!allowed || allowed.has(p.lecture_id)))
       .slice(0, 4);
     if (!rows.length) return null;
+    const storageKey = `recent-listening-open:${this.listener()}`;
     return el(
-      "section",
-      { class: "section" },
-      el("div", { class: "section-heading" },
-        el("h2", { text: "Recently listened" }),
-        this.link("View listening history →", "/listening")),
+      "details",
+      { class: "section recent-listening", open: getStored(storageKey, true),
+        ontoggle: (event) => store(storageKey, event.currentTarget.open) },
+      el("summary", {}, el("h2", { text: "Recently listened" })),
+      this.link("View listening history →", "/listening"),
       el(
         "ul",
         { class: "list" },

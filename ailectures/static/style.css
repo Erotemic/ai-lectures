@@ -455,6 +455,8 @@ main {
   display: block;
 }
 .section-heading { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 0.5rem 1rem; }
+.recent-listening > summary { cursor: pointer; padding: 0.35rem 0; }
+.recent-listening > summary h2 { display: inline; margin: 0; }
 .list li.history-item { align-items: start; }
 .history-item .copy > a, .history-item .actions a { overflow-wrap: anywhere; }
 .history-actions { margin-top: 0.7rem; font-size: 0.9rem; }

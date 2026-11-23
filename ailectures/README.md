@@ -26,6 +26,11 @@ is available. **Cache whole lecture** sits beside Play. Older recordings remain
 playable; select a current profile to generate new audio. The reader distinguishes
 missing audio for the selected profile revision from available older recordings.
 
+The Library landing page's **Recently listened** section can be collapsed using
+its heading. It starts expanded and remembers the open/closed choice for each
+listener in that browser. The expanded section retains resume, next-item and
+full listening-history links.
+
 Narrated source decks use the same audio lecture model as the standalone tracks.
 Their `g1:` IDs and slide links remain stable; authored scene narration is adapted
 to the shared transcript format without speaking editorial Why/Recall notes.
