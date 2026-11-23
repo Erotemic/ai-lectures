@@ -1,5 +1,10 @@
 # Curated libraries for another computer
 
+The [curated export register](../../docs/curated-exports.md) tracks named
+curations, packaged releases, reproducibility and acceptance checks. Its handoff
+builder packages the matching reader code, offline dependency wheels and selected
+content together; the commands below also remain useful for content-only exports.
+
 `curated-mac-library.json` is the proposed family library: broad classics with
 extra science fiction and fantasy. It uses the existing bundle selection format,
 so the same file selects lectures for generation and export. Selection is a

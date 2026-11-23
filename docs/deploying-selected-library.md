@@ -1,5 +1,9 @@
 # Deploy a selected library with existing audio
 
+For a versioned transfer containing both server code and selected content, use
+the [curated export register and handoff workflow](curated-exports.md). It also
+records small transfer tests and the pending Mac acceptance checks.
+
 Packs → **Deploy selected content on another machine** combines selected packs,
 categories, and collections. Selections are a union, and each lecture appears
 once. Preview reports complete, partial, and missing audio before creating a
