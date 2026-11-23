@@ -35,6 +35,7 @@ def main(argv=None):
     serve.add_argument("--poll-interval", type=float, default=2)
     serve.add_argument("--host", default="127.0.0.1")
     serve.add_argument("--port", type=int, default=8001)
+    serve.add_argument("--installed-only", action="store_true", help="Use installed packs without discovering a checkout")
     serve.add_argument(
         "--playback-only",
         action="store_true",
@@ -65,7 +66,11 @@ def main(argv=None):
     prepare.add_argument("--repository", type=Path)
     prepare.add_argument("--lecture", action="append", default=[])
     prepare.add_argument("--course")
-    prepare.add_argument("--profile", required=True)
+    prepare.add_argument("--selection", type=Path, help="Use the same JSON selection as bundle")
+    prepare.add_argument("--skip-complete", action="store_true", help="Keep any existing complete recording and prepare only the rest")
+    generation_profile = prepare.add_mutually_exclusive_group(required=True)
+    generation_profile.add_argument("--profile", help="Legacy TTS profile name")
+    generation_profile.add_argument("--saved-profile", help="Saved rendering recipe ID from Settings")
     prepare.add_argument("--voice")
     prepare.add_argument("--speed", type=float, default=1)
     prepare.add_argument("--tts-config", type=Path)
@@ -91,6 +96,7 @@ def main(argv=None):
     bundle.add_argument("--selection", type=Path, help="JSON selection with packs/collections/categories/tags/lectures lists")
     bundle.add_argument("--output", type=Path)
     bundle.add_argument("--preview", action="store_true")
+    bundle.add_argument("--require-complete", action="store_true", help="Refuse an export if any selected lecture lacks complete published audio")
     commands.add_parser("gc-recover", help="Recover an interrupted offline audio cleanup")
     gc = commands.add_parser("gc", help="Preview stale audio; explicit plan ID required to delete")
     gc.add_argument("--installed-only", action="store_true")
@@ -242,19 +248,30 @@ def main(argv=None):
             from .production import GenerationManager
 
             library = Library(args.library, repository=repository)
-            snapshot = library.snapshot()
+            snapshot = library.snapshot(copy=False)
             selection = list(args.lecture)
             if args.course:
                 selection.extend(snapshot["courses"][args.course]["lectures"])
+            if args.selection:
+                from .deployment import select_content
+                selection.extend(select_content(snapshot, read_json(args.selection)))
+            selection = list(dict.fromkeys(selection))
             if not selection:
-                raise ValueError("Select --lecture or --course")
+                raise ValueError("Select --lecture, --course, or --selection")
+            if args.saved_profile and (args.voice is not None or args.speed != 1):
+                raise ValueError("Saved profiles already fix the voice and generation speed; edit the recipe in Settings")
+            if args.skip_complete:
+                selection = [key for key in selection if not any(rec["complete"] for rec in snapshot["lectures"][key]["recordings"])]
+                if not selection:
+                    print("All selected lectures already have complete published audio.")
+                    return 0
             manager = GenerationManager(
                 library, config=args.tts_config, repository=repository
             )
             try:
-                requested = manager.prepare_many(
-                    selection, args.profile, voice=args.voice, speed=args.speed
-                )
+                requested = (manager.prepare_saved(selection, args.saved_profile)
+                             if args.saved_profile else manager.prepare_many(
+                                 selection, args.profile, voice=args.voice, speed=args.speed))
                 for job in requested:
                     lecture_id = job["lecture_id"]
                     previous = None
@@ -287,7 +304,7 @@ def main(argv=None):
                     result = deployment_plan(library,selection)
                 else:
                     if not args.output: raise ValueError("Specify --output BUNDLE.zip, or use --preview")
-                    result = export_deployment(library,selection,args.output)
+                    result = export_deployment(library,selection,args.output,require_complete=args.require_complete)
             print(json.dumps(result,indent=2))
         elif args.command == "gc-recover":
             from .garbage import recover_garbage

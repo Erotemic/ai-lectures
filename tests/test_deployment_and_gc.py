@@ -39,7 +39,7 @@ def test_multi_pack_bundle_restores_only_selected_content_and_audio(tmp_path):
     install(library,tmp_path,'private','An omitted lecture.')
     ListenerState(library.store.state).create_profile('Do not transfer')
     out=tmp_path/'deployment.zip'
-    report=export_deployment(library,{'packs':['music','stories']},out)
+    report=export_deployment(library,{'packs':['music','stories']},out,require_complete=True)
     assert report['lectures']==report['complete']==2
     with ZipFile(out) as archive:
         assert not any('listeners.sqlite3' in key or 'production.sqlite3' in key or '/private/' in key for key in archive.namelist())

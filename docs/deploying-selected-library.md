@@ -24,6 +24,15 @@ python -m ailectures --library library-data bundle --repository . \
   --output /path/to/spider-literature-history.zip
 ```
 
+The [curated Mac selection and preparation guide](../tools/deployments/README.md)
+adds a narrower family library with broad classics, science fiction, fan essays,
+children's stories and selected American history. `prepare --selection FILE`
+uses the same selectors; `--skip-complete` keeps already prepared lectures and
+`--saved-profile ID` selects an immutable saved rendering recipe. Use
+`bundle --require-complete` when every selected lecture must have complete
+published audio before writing the archive. Ordinary bundles still support
+partial or source-only collections.
+
 On the other machine, install the standalone Python reader and restore into a
 **new** library directory. A GPU, TTS server, Manim, and the authored checkout are
 not required for playback. Installing from the reader subdirectory avoids the
@@ -33,7 +42,7 @@ optional production stack:
 python -m pip install /path/to/ai-lectures/ailectures
 python -m ailectures --library /srv/children-library restore children-library.zip
 python -m ailectures --library /srv/children-library serve --installed-only \
-  --host 0.0.0.0 --port 8001
+  --playback-only --host 0.0.0.0 --port 8001
 ```
 
 `--installed-only` prevents automatic checkout discovery even if you launch from

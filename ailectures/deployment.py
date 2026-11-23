@@ -67,14 +67,17 @@ def trim_course(course, selected, course_ids):
     result = deepcopy(course)
     def trim(node):
         if 'lectures' in node: node['lectures'] = [key for key in node['lectures'] if key in selected]
+        if node.get('collection') not in course_ids: node.pop('collection', None)
         for field in ('chapters', 'sessions'):
             if field in node:
                 node[field] = [trim(child) for child in node[field]]
                 node[field] = [child for child in node[field] if child.get('lectures') or child.get('chapters') or child.get('sessions')]
         return node
     trim(result)
-    if 'children' in result: result['children'] = [key for key in result['children'] if key in course_ids]
-    if result.get('parent') not in course_ids: result.pop('parent', None)
+    for field in ('children', 'related_collections', 'preparation_collections'):
+        if field in result: result[field] = [key for key in result[field] if key in course_ids]
+    for field in ('parent', 'parent_id'):
+        if result.get(field) not in course_ids: result.pop(field, None)
     if 'browse_sections' in result:
         for section in result['browse_sections']: section['collections'] = [key for key in section['collections'] if key in course_ids]
         result['browse_sections'] = [s for s in result['browse_sections'] if s['collections']]
@@ -82,13 +85,15 @@ def trim_course(course, selected, course_ids):
 
 
 @media_operation
-def export_deployment(library, selection, output, *, title='Selected lecture library'):
+def export_deployment(library, selection, output, *, title='Selected lecture library', require_complete=False):
     output = Path(output).resolve()
     if output.exists(): raise FileExistsError(output)
     if output.is_relative_to(library.store.packs) or output.is_relative_to(library.store.state):
         raise ValueError('Choose an output outside packs/ and state/')
     snapshot = library.snapshot(copy=False)
     plan = deployment_plan(library, selection, snapshot=snapshot)
+    if require_complete and plan['complete'] != plan['lectures']:
+        raise ValueError(f"Complete published audio is required: {plan['partial']} partial and {plan['missing']} missing lectures; run bundle --preview for this selection")
     selected = set(plan['lecture_ids'])
     course_ids = {key for key, course in snapshot['courses'].items() if selected.intersection(course['lectures'])}
     courses = {key:trim_course(snapshot['courses'][key], selected, course_ids) for key in course_ids}
