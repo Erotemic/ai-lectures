@@ -2,7 +2,7 @@
   "schema_version": 1,
   "lecture_id": "017000",
   "transcript": "017000-the-price-of-a-skipped-vertex.md",
-  "description": "Derives Definition 4 exactly: reward edge labels only for two length-one paths, otherwise penalize the total skipped interiors; compares three numerical witnesses as penalty changes, proves penalty monotonicity, and traces the Lean scoring declarations.",
+  "description": "Explains why Droschinsky’s edge-label reward applies only to two direct paths, while longer path pairs incur skipped-vertex penalties; compares feasible witnesses and proves penalty monotonicity in the Lean specification.",
   "related_resources": [
     {
       "source_id": "nx-dkm-2018",
