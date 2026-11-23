@@ -2,7 +2,7 @@
   "schema_version": 1,
   "lecture_id": "029000",
   "transcript": "029000-the-tree-the-witness-and-the-machine.md",
-  "description": "Course capstone synthesizing Lozano–Valiente 2004, Droschinsky 2016 and 2018, independently specified witnesses, recurrences, matching-family speedups, existing Lean correctness, exact/source/numeric boundaries, and three worked proof-completion targets: fixed-root 2018 M1/M2, optimized matching deletion-family source refinement, and original-node/path decoding for NetworkX.",
+  "description": "Capstone compares the 2004 ordered-contraction, 2016 strict-isomorphism, and 2018 distance-penalized embedding specifications; distinguishes established Lean/reference proofs from unverified optimized Rust/Python implementations and outlines three open proof obligations: fixed-root M1/M2, matching deletion-family refinement, and NetworkX witness decoding.",
   "related_resources": [
     {
       "source_id": "nx-lozano-2004",
