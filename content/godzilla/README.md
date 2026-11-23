@@ -1,6 +1,6 @@
 # Godzilla: The Monster That Keeps Changing
 
-**Status: in progress — five complete long-form audio essays; two planned.**
+**Status: complete — seven substantive audio essays, including a long capstone.**
 
 Godzilla began in 1954 as a destructive creature linked to nuclear terror, then became an opponent of other monsters, an unlikely protector, a figure of ecological disturbance, a subject of creative reinvention, and an international blockbuster star. This series asks how one recognizable monster can support such different kinds of film without losing the power of the original image: something immense moving through an ordinary human world.
 
@@ -10,17 +10,17 @@ The most useful distinction is not "serious Godzilla" versus "silly Godzilla." T
 
 ## Seven-lecture route
 
-| ID | Essay | Central question | Status / measured or planned length |
+| ID | Essay | Central question | Status / measured length |
 | --- | --- | --- | --- |
 | `001000` | **Godzilla, 1954: A Monster Born from Catastrophe** | How can a monster movie carry the fear and responsibility of the atomic age? | Complete · ~30 min |
 | `002000` | **When the Monster Became the Hero** | How did a destroyer become a creature people could cheer for? | Complete · ~31 min |
 | `003000` | **Kill the Monster, Bring Him Back** | What did the Heisei and Millennium reboots recover, change, and discard? | Complete · ~26 min |
 | `004000` | **The Art of Making Something Enormous** | How do filmmakers create convincing scale, weight, terror, and delight? | Complete · ~25 min |
 | `005000` | **The Monster Returns to the Wound** | What do *Shin Godzilla*, *Minus One*, and *Minus Zero* do with catastrophe and recovery? | Complete · ~31 min |
-| `006000` | **Godzilla Crosses the Pacific** | What happens when an intensely Japanese creation becomes global spectacle? | 35–45 min |
-| `007000` | **Godzilla Is What We Need Him to Be** | What can seven decades of a changing monster tell us about movies and ourselves? | 45–60 min |
+| `006000` | **Godzilla Crosses the Pacific** | What happens when an intensely Japanese creation becomes global spectacle? | Complete · ~26 min |
+| `007000` | **Godzilla Is What We Need Him to Be** | What can seven decades of a changing monster tell us about movies and ourselves? | Complete · ~53 min |
 
-The first five manuscripts are published in `track.json` and `navigation.json`; the remaining two are plans, not phantom recordings. Approximate timings are editorial estimates only, never targets that require padding or cutting. Manuscripts can depart from them if their material warrants it. The finite collection is deliberately not a checklist of all Godzilla films.
+All seven complete manuscripts are published in `track.json` and `navigation.json`. Timings are measured descriptions, not reasons to pad or cut an essay. The finite collection is deliberately not a checklist of all Godzilla films.
 
 ## Editorial commitments
 
@@ -38,13 +38,9 @@ As of **November 22, 2026**, Takashi Yamazaki's **Godzilla Minus Zero** has alre
 
 Lecture `001000` spoils the 1954 film including the Oxygen Destroyer. Later lectures disclose the major plots and endings of their specific anchor films; put a clear spoiler scope outside the spoken lecture. Film titles and years should be identified on their first important mention. Those who have never watched Godzilla should be able to follow the essays without treating them as viewing guides.
 
-## Writing sequence and publishing
+## Publication and source organization
 
-The remaining **final batch** is `006000` + `007000`: globalization, followed by the concluding retrospective.
-
-Each batch should contain complete manuscripts, bibliography/source sidecars, and `track.json` / `navigation.json` entries **only for lectures that exist**. Keep all IDs stable. For each manuscript, include exactly one `<!-- BEGIN SPOKEN LECTURE -->` / `<!-- END SPOKEN LECTURE -->` pair; put research and non-spoken reference material outside the spoken region or in companion files. Keep broad track-level tags plus precise film years, people, geography, production periods, and film titles in each lecture's individual metadata. Use the repository's actual extractor for measured spoken word counts and durations.
-
-The initial planning overlay contained only `README.md` and `BACKLOG.md`. The published pack currently includes `001000` through `005000`, each with individual and shared source metadata; the unwritten lectures remain only in the plan. Content overlay ZIPs are text-only: no posters, film stills, fonts, clips, copied scores, recordings, or downloaded binary assets. Source links are references for original criticism, not a substitute for original prose.
+All seven manuscripts have exactly one marked spoken-lecture region, bibliography and Wikipedia orientation links outside the narration, individual claim metadata, and source records in the combined `metadata/sources.json`. `track.json` and `navigation.json` index only completed work. The text-only content overlays contain no posters, film stills, fonts, clips, copied scores, recordings or downloaded media. Sources document checkable claims, not someone else's interpretation passed off as original criticism.
 
 ## Published lectures and research
 
@@ -53,6 +49,8 @@ The initial planning overlay contained only `README.md` and `BACKLOG.md`. The pu
 - **`003000` — Kill the Monster, Bring Him Back**: Heisei and Millennium films, serial continuity, Biollante, the 1995 farewell, GMK and Kiryu. [Manuscript](003000-kill-the-monster-bring-him-back.md); [claim metadata](metadata/003000.json).
 - **`004000` — The Art of Making Something Enormous**: suits, miniatures, sound, perspective and digital effects across different eras. [Manuscript](004000-the-art-of-making-something-enormous.md); [claim metadata](metadata/004000.json).
 - **`005000` — The Monster Returns to the Wound**: *Shin Godzilla*, *Minus One* and the released *Minus Zero*. [Manuscript](005000-the-monster-returns-to-the-wound.md); [claim metadata](metadata/005000.json).
+- **`006000` — Godzilla Crosses the Pacific**: the 1956 American recut, 1962 crossover, 1998 New York film, Legendary productions and international adaptations. [Manuscript](006000-godzilla-crosses-the-pacific.md); [claim metadata](metadata/006000.json).
+- **`007000` — Godzilla Is What We Need Him to Be**: a long critical capstone about the competing uses of Godzilla, historical memory, awe, ecological narratives, love of spectacle and the people beneath it. [Manuscript](007000-godzilla-is-what-we-need-him-to-be.md); [claim metadata](metadata/007000.json).
 - The research catalog is in [`metadata/sources.json`](metadata/sources.json). Each manuscript includes non-spoken references and Wikipedia orientation links.
 
 ## Source starting points
