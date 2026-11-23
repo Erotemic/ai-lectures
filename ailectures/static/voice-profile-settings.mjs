@@ -1,5 +1,6 @@
 import { api, post, el, store } from "./api.mjs";
 import { voiceReferenceRecorder } from "./voice-reference-recorder.mjs";
+import { voicePlayground, DEFAULT_PREVIEW_TEXT } from "./voice-playground.mjs";
 
 export async function renderVoiceProfiles(
   root,
@@ -8,6 +9,7 @@ export async function renderVoiceProfiles(
   let catalog = await api("/api/library/voice-profiles?archived=1");
   if (!root.isConnected) return;
   const status = el("p", { role: "status", "aria-live": "polite" });
+  let playground, previewText = DEFAULT_PREVIEW_TEXT, previewProfile;
   async function refresh() {
     catalog = await api("/api/library/voice-profiles?archived=1");
     if (root.isConnected) draw();
@@ -21,8 +23,15 @@ export async function renderVoiceProfiles(
     }
   }
   function draw() {
+    playground?.dispose();
+    playground = voicePlayground({ catalog, playbackOnly, player, text: previewText, preferred: previewProfile,
+      onText: (value) => { previewText = value; }, onProfile: (value) => { previewProfile = value; } });
     const active = catalog.profiles.filter((row) => !row.archived);
     const archived = catalog.profiles.filter((row) => row.archived);
+    const recordingBackend = catalog.backends.find((row) => row.reference_recording?.available);
+    const recordingReason = playbackOnly() ? "Recording is unavailable in playback-only mode."
+      : !recordingBackend ? (catalog.backends.find((row) => row.available && ["breeze-tts2", "fish-s2-pro"].includes(row.model))?.reference_recording?.reason
+        || "Voice recording needs a compatible local speech backend and a writable reference folder on this server.") : "";
     function profileRow(row) {
       const quick = el("input", {
         type: "checkbox",
@@ -118,14 +127,23 @@ export async function renderVoiceProfiles(
           "div",
           { class: "voice-profile-heading" },
           el("h2", { text: "Saved voice profiles" }),
-          el("button", {
-            type: "button",
-            text: "Add profile",
-            disabled: !catalog.backends.some((row) => row.available),
-            onclick: () => edit(),
-          }),
+          el("div", { class: "actions" },
+            el("button", {
+              type: "button", text: "Record a voice", disabled: Boolean(recordingReason),
+              title: recordingReason || "Record a reusable reference voice",
+              onclick: () => edit(null, false, { record: true, backendId: recordingBackend.id }),
+            }),
+            el("button", {
+              type: "button",
+              text: "Add profile",
+              disabled: !catalog.backends.some((row) => row.available),
+              onclick: () => edit(),
+            }),
+          ),
         ),
         status,
+        recordingReason ? el("p", { class: "muted", text: recordingReason }) : null,
+        playground.element,
         active.length
           ? el(
               "ul",
@@ -174,7 +192,7 @@ export async function renderVoiceProfiles(
       ].filter(Boolean),
     );
   }
-  async function edit(existing = null, duplicate = false) {
+  async function edit(existing = null, duplicate = false, options = {}) {
     const dialog = el("dialog", {
       class: "voice-profile-dialog",
       "aria-label": existing
@@ -202,6 +220,7 @@ export async function renderVoiceProfiles(
         .map((row) => el("option", { value: row.id, text: row.label })),
     );
     if (existing) backend.value = existing.backend_id;
+    else if (options.backendId) backend.value = options.backendId;
     const voice = el("select", {
       "aria-label": "Voice or reference",
     });
@@ -262,10 +281,12 @@ export async function renderVoiceProfiles(
     });
     const test = el("button", {
       type: "button",
-      text: "Test title and prose",
+      text: "Generate preview",
       "data-profile-preview": "",
       disabled: playbackOnly() || !catalog.tools_available,
     });
+    const customPreviewText = el("textarea", { "aria-label": "Profile preview text", maxlength: "6000", rows: "4" });
+    customPreviewText.value = previewText;
     const close = () => {
       referenceRecorder?.dispose();
       removalObserver.disconnect();
@@ -312,6 +333,7 @@ export async function renderVoiceProfiles(
         registerVoice,
       ),
       fields,
+      el("label", {}, "Preview text", customPreviewText),
       error,
       el(
         "div",
@@ -360,6 +382,10 @@ export async function renderVoiceProfiles(
         },
       });
       referencePanel.append(referenceRecorder.element);
+      if (options.record) {
+        referenceRecorder.element.open = true;
+        referenceRecorder.element.scrollIntoView({ block: "start" });
+      }
     }
     function identity() {
       return {
@@ -814,11 +840,13 @@ export async function renderVoiceProfiles(
       event.preventDefault();
       save.disabled = test.disabled = true;
       try {
-        await post("/api/library/voice-profiles/save", {
+        const saved = await post("/api/library/voice-profiles/save", {
           ...identity(),
           label: label.value.trim(),
           settings: readSettings(),
         });
+        previewProfile = saved.id;
+        previewText = customPreviewText.value;
         close();
         await refresh();
         status.textContent =
@@ -831,12 +859,13 @@ export async function renderVoiceProfiles(
     };
     test.onclick = async () => {
       test.disabled = save.disabled = true;
-      error.textContent = "Generating a short title and prose preview…";
+      error.textContent = "Generating your voice preview…";
       try {
         const data = await post("/api/library/voice-profiles/preview", {
           ...identity(),
           label: label.value.trim() || "Preview",
           settings: readSettings(),
+          text: customPreviewText.value,
         });
         if (!dialog.isConnected) return;
         const audio = el("audio", {

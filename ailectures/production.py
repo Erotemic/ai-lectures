@@ -537,6 +537,11 @@ class GenerationManager:
         from .voice_profiles import revision_id
         from dkvis.presentation.audio_library import AudioLectureLibrary
 
+        custom_text = payload.get("text")
+        if "text" in payload and (not isinstance(custom_text, str) or not 1 <= len(custom_text.strip()) <= 6000):
+            raise ValueError("Preview text must contain 1–6000 characters")
+        if custom_text is not None and re.search(r"<!--\s*(BEGIN|END)\s+SPOKEN", custom_text):
+            raise ValueError("Preview text cannot contain lecture control comments")
         draft = self.save_profile(payload, template_only=True)
         recipe = draft["recipe"]
         token = uuid4().hex
@@ -552,9 +557,16 @@ class GenerationManager:
         folder = self.library.store.root / "build-cache" / "profile-previews" / token
         sources = folder / "source"
         sources.mkdir(parents=True)
-        (sources / "000000-preview.md").write_text(
-            "# Preview\n<!-- BEGIN SPOKEN LECTURE -->\n## A new section\n\nThis short paragraph demonstrates the profile’s normal delivery, pacing, and audio processing.\n<!-- END SPOKEN LECTURE -->\n"
+        sample = custom_text.strip() if custom_text is not None else (
+            "## A new section\n\nThis short paragraph demonstrates the profile’s normal delivery, pacing, and audio processing."
         )
+        (sources / "000000-preview.md").write_text(
+            "# Preview\n<!-- BEGIN SPOKEN LECTURE -->\n" + sample + "\n<!-- END SPOKEN LECTURE -->\n", encoding="utf-8",
+        )
+        from .core import extract
+
+        if not extract(sources / "000000-preview.md").strip():
+            raise ValueError("Preview text has no spoken words")
         engine = (self.engine_factory or AudioLectureLibrary)(
             sources=sources,
             cache=folder / "audio",
@@ -575,15 +587,29 @@ class GenerationManager:
                 inventory = engine.inventory("000000", settings)
                 if inventory["ready"] == inventory["total"] and inventory["total"]:
                     target = folder / ("preview." + recipe["config"]["output_format"])
-                    # The fixed sample fits in one normal reader page.
-                    if inventory["total"] != 1:
-                        raise ValueError(
-                            "Preview sample unexpectedly spans multiple pages"
-                        )
-                    shutil.copyfile(engine.audio_file("000000", 0, settings), target)
+                    pages = [engine.audio_file("000000", index, settings) for index in range(inventory["total"])]
+                    if len(pages) == 1:
+                        shutil.copyfile(pages[0], target)
+                    else:
+                        from dkvis.presentation.media import concat_list, duration
+
+                        listing = concat_list(pages, folder / "pages.txt")
+                        codec = ["-c:a", "libopus", "-b:a", "96k", "-f", "ogg"] if target.suffix == ".ogg" else ["-c:a", "libmp3lame", "-q:a", "3", "-f", "mp3"]
+                        try:
+                            subprocess.run([
+                                "ffmpeg", "-nostdin", "-y", "-loglevel", "error", "-f", "concat", "-safe", "0",
+                                "-i", str(listing), *codec, str(target),
+                            ], check=True, capture_output=True, timeout=60)
+                        except (OSError, subprocess.SubprocessError):
+                            raise ValueError("Could not assemble the complete voice preview") from None
+                        expected = sum(duration(page) for page in pages)
+                        if abs(duration(target) - expected) > max(0.35, expected * 0.015):
+                            target.unlink(missing_ok=True)
+                            raise ValueError("Preview assembly did not retain all generated audio")
                     return dict(
                         url="/api/library/voice-profiles/preview/" + token,
                         output_format=recipe["config"]["output_format"],
+                        pages=inventory["total"],
                     )
                 if any(state == "error" for state in inventory.get("states", [])):
                     raise ValueError(

@@ -51,7 +51,15 @@ def supports_recording(backend):
 
 
 def recording_capability(backend):
-    return dict(available=supports_recording(backend), prompt=PROMPT,
+    directory = reference_directory()
+    reason = (
+        "This backend does not support recording local reference voices." if not uses_local_references(backend)
+        else "The server's voice reference folder is missing." if not directory.is_dir()
+        else "The server's voice reference folder is not writable." if not os.access(directory, os.W_OK | os.X_OK)
+        else "Recording needs FFmpeg installed on the server." if not shutil.which("ffmpeg")
+        else None
+    )
+    return dict(available=reason is None, reason=reason, prompt=PROMPT,
                 min_seconds=MIN_SECONDS, max_seconds=MAX_SECONDS, max_bytes=MAX_BYTES)
 
 

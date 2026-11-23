@@ -34,8 +34,8 @@ instructions appear directly in the creation form for supported backends. Enteri
 normal text instructions selects directed narration automatically; leaving them
 blank preserves stable paragraph cloning. CFG controls are in Advanced recipe
 settings. Titles can use their own instruction,
-CFG and pauses. Unsupported instruction controls are omitted. **Test title and
-prose** generates a small local preview without creating a lecture recording;
+CFG and pauses. Unsupported instruction controls are omitted. **Generate preview**
+reads the editable preview text without creating a lecture recording;
 preview synthesis is disabled in playback-only mode.
 
 Loudness, filtering and compression are optional and run once on the assembled
@@ -52,8 +52,11 @@ profiles unavailable. Duplicate a profile for the newly configured backend.
 
 ## Recording a reference voice
 
-On supported servers, open **Settings → Saved voice profiles → Add profile**
-(or **Edit**) and expand **Record a reference voice**. Name the reference, read
+Use the visible **Record a voice** button at the top of Settings. It selects a
+compatible backend and opens the recorder directly. If recording is unavailable,
+the button remains visible and Settings explains why. The recorder is also
+available under **Add profile** or **Edit → Record a reference voice** for
+compatible backends. Name the reference, read
 the displayed prompt exactly, stop recording, and review the take. You can edit
 the prompt before recording; changing it afterward discards the take so the audio
 cannot accidentally be saved with different words. A take must last 3–45 seconds.
@@ -87,6 +90,23 @@ Audio, prompts, and reference metadata stay in the private reference directory.
 They are excluded from content packs, deployment bundles, and this repository.
 Library backups preserve saved profile settings but do not copy this external
 directory; back it up separately if you need to move or restore recorded voices.
+
+## Trying voices with your own text
+
+**Settings → Try voices** accepts up to 6000 characters of your own text. Choose
+the saved profile whose speaking settings you want, then choose a voice from its
+backend. **Refresh voices** checks the speech service for additional choices.
+**Generate preview** reads the text without changing or saving the selected
+profile. Switch voices and generate again to compare the same passage. The panel
+keeps the four most recent previews, with their voice names and text excerpts;
+playing one pauses the others and the lecture player.
+
+Longer previews are paginated and assembled into one complete audio file.
+Preview text can include Markdown headings to test title delivery. The profile
+editor also has an editable **Preview text** field and **Generate preview**.
+Preview files and text remain in the ignored library build cache and never
+become catalog lectures or published lecture recordings. Playback-only mode
+disables preview generation, and changing server mode refreshes these controls.
 
 ## Parallel generation
 
@@ -134,6 +154,10 @@ backend capabilities. Add `?archived=1` to include archived profiles.
 `POST /api/library/voice-profiles/save` creates a profile or saves an edit;
 edits require `id` and `expected_revision`, while duplication uses `duplicate_of`.
 Backend voice catalogs are under `/api/library/voice-profiles/backends/{id}/voices`.
+`POST /api/library/voice-profiles/preview` accepts optional `text` (1–6000
+characters); omitting it retains the standard sample. `duplicate_of` plus a
+backend `voice` previews another voice with an existing profile's settings
+without creating a profile. The response includes the audio URL and page count.
 Supported backends advertise `reference_recording` in their catalog entry.
 `POST /api/library/voice-profiles/backends/{id}/references` accepts `label`,
 `transcript`, `media_type`, and `audio_base64`, and returns the new `voice` ID

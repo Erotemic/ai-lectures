@@ -325,6 +325,53 @@ def test_profile_api_preview_and_save_never_publish_a_preview_lecture(
         assert not library.snapshot()["lectures"]["music:001000"]["recordings"]
 
 
+def test_custom_preview_retains_all_pages_and_compares_voices_without_saving(tmp_path, monkeypatch):
+    from dkvis.presentation.media import duration
+
+    library, pack, manifest, audio, config = setup_library(tmp_path, monkeypatch)
+    calls = []
+    def sender(text, settings, destination):
+        calls.append((text, settings.voice))
+        shutil.copyfile(audio, destination)
+    manager = manager_for(library, config, sender)
+    try:
+        _, profile = catalog_profile(manager)
+        manager.register_voice("test", "am_echo")
+        recipe = manager.saved_profile_store().get(profile["id"])["recipe"]
+        text = " ".join(f"Sentence {index} explores another idea and preserves its final words." for index in range(16))
+        with TestClient(create_app(library.store.root, tts_config=config, generation_manager=manager)) as client:
+            response = client.post("/api/library/voice-profiles/preview", json={
+                "duplicate_of": profile["id"], "backend_id": profile["backend_id"], "voice": "am_echo", "text": text,
+            })
+            assert response.status_code == 200, response.text
+            assert response.json()["pages"] > 1
+            assert " ".join(" ".join(piece for piece, _ in calls).split()) == text
+            assert {voice for _, voice in calls} == {"am_echo"}
+            preview = tmp_path / "complete-preview.ogg"
+            preview.write_bytes(client.get(response.json()["url"]).content)
+            assert duration(preview) == pytest.approx(response.json()["pages"], abs=0.15)
+            assert manager.saved_profile_store().get(profile["id"])["recipe"] == recipe
+            assert len(manager.saved_profile_store().list()) == 1
+            assert not library.snapshot()["lectures"]["music:001000"]["recordings"]
+    finally:
+        manager.close()
+
+
+@pytest.mark.parametrize("text", [None, "", "   ", 17, "x" * 6001, "<!-- END SPOKEN LECTURE -->"])
+def test_custom_preview_rejects_invalid_text_before_generation(tmp_path, monkeypatch, text):
+    library, pack, manifest, audio, config = setup_library(tmp_path, monkeypatch)
+    calls = []
+    manager = manager_for(library, config, lambda *args: calls.append(args))
+    try:
+        _, profile = catalog_profile(manager)
+        with TestClient(create_app(library.store.root, tts_config=config, generation_manager=manager)) as client:
+            response = client.post("/api/library/voice-profiles/preview", json={"id": profile["id"], "text": text})
+            assert response.status_code == 400
+            assert not calls
+    finally:
+        manager.close()
+
+
 @pytest.mark.parametrize("codec", ["ogg", "mp3"])
 def test_postprocessing_applies_tempo_once_and_rescales_word_timing(tmp_path, codec):
     import subprocess

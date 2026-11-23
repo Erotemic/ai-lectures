@@ -24,7 +24,7 @@ export async function renderSettings(target, { message, player }) {
   });
   const server = el(
     "form",
-    { class: "section" },
+    { class: "section", id: "server-settings" },
     el("h2", { text: "Server" }),
     el("p", {
       class: "muted",
@@ -54,6 +54,7 @@ export async function renderSettings(target, { message, player }) {
       status.textContent = "Server mode saved.";
       for (const button of document.querySelectorAll("[data-profile-preview]"))
         button.disabled = data.playback_only;
+      await renderVoiceProfiles(profiles, { playbackOnly: () => data.playback_only, player, message });
     } catch (error) {
       status.textContent = error.message;
     } finally {
@@ -91,8 +92,8 @@ export async function renderSettings(target, { message, player }) {
   const profiles = el("section", { id: "voice-profiles" });
   root.replaceChildren(
     el("h1", { text: "Settings" }),
-    server,
     profiles,
+    server,
     el(
       "section",
       { class: "section" },
