@@ -35,6 +35,7 @@ import { listeningCourse, followingLecture, precedingLecture } from "./playback-
 import { renderLearningPlan } from "./learning-plan.mjs";
 import { migrateLearningState } from "./learning-state.mjs";
 import { dateAxes, chronologyLine } from "./chronology.mjs";
+import { recentListening } from "./listening-history.mjs";
 import { topicLinks } from "./topics.mjs";
 import {
   legacyPositions,
@@ -308,7 +309,7 @@ async function updatePlaybackRoute() {
     queued = true;
     track.hidden = false;
     track.textContent = "Listening queue";
-    track.href = "/listening";
+    track.href = "/listening#listening-queue";
   }
   const previousRow = byId(previousId);
   $("previous-lecture").disabled = !previousRow;
@@ -434,7 +435,6 @@ const browser = new CatalogBrowser({
   lectureLink,
   enqueue: enqueueEntries,
 });
-const lectureItem = (row, collection = null) => browser.item(row, collection);
 const browse = (collectionsOnly = false) =>
   browser.browse($("main"), collectionsOnly);
 const coursePage = (id) => browser.collection($("main"), id);
@@ -914,17 +914,17 @@ function downloadJSON(data, filename) {
 function listeningPage() {
   const main = $("main");
   main.replaceChildren(
-    title("Your listening"),
+    title("Listening history"),
     description(
       profile
         ? "Progress is shared with devices using this listener."
         : "This device remembers your progress. Choose a named listener to share it with other devices.",
     ),
   );
-  const queuePanel = el("section", { class: "section", id: "listening-queue" });
-  main.append(queuePanel);
-  listeningQueue.render(queuePanel);
-  main.append(el("h2", { class: "section", text: "Listening history" }));
+  main.append(el("div", { class: "actions" },
+    link("Listening queue", "/listening#listening-queue"),
+    link("Browse library", "/")),
+    description("Your latest saved place in each lecture, including completed lectures, most recent first."));
   let oldPositions = [];
   try {
     oldPositions = legacyPositions(localStorage).filter(
@@ -943,38 +943,56 @@ function listeningPage() {
         );
       }),
     );
-  const values = Object.values(progress).sort((a, b) =>
-    (b.updated_at || "").localeCompare(a.updated_at || ""),
-  );
-  main.append(
-    el(
-      "ul",
-      { class: "list", id: "listening-history" },
-      ...values.map((p) => {
-        const row = byId(p.lecture_id);
-        const item = row
-          ? lectureItem(row, p.course_id)
-          : el("li", {
-              text: p.lecture_id + " · Pack not installed · history retained",
-            });
-        item.append(
-          button(p.completed ? "Mark unplayed" : "Mark complete", () => {
-            saveCheckpoint({
-              ...p,
-              completed: !p.completed,
-              explicit_completion: true,
-            });
-            render();
-          }),
-        );
-        return item;
-      }),
-    ),
-  );
+  const values = recentListening(progress);
+  const params = new URLSearchParams(location.search);
+  const search = el("input", { type: "search", "aria-label": "Search listening history", placeholder: "Find a lecture or track", value: params.get("q") || "", class: "library-search" });
+  const status = el("select", { "aria-label": "Listening status" },
+    el("option", { value: "", text: "All listening" }),
+    el("option", { value: "in-progress", text: "In progress" }),
+    el("option", { value: "completed", text: "Completed" }));
+  status.value = ["completed", "in-progress"].includes(params.get("status")) ? params.get("status") : "";
+  const count = el("small", { role: "status", "aria-live": "polite" });
+  const list = el("ul", { class: "list", id: "listening-history", tabindex: "-1" });
+  const updateHistory = () => {
+    const url = new URL(location.href);
+    if (search.value) url.searchParams.set("q", search.value); else url.searchParams.delete("q");
+    if (status.value) url.searchParams.set("status", status.value); else url.searchParams.delete("status");
+    history.replaceState(history.state, "", url);
+    const q = search.value.trim().toLocaleLowerCase();
+    const shown = values.filter((p) => {
+      const row = byId(p.lecture_id);
+      const course = catalog.courses.find((candidate) => candidate.id === p.course_id);
+      return (!status.value || Boolean(p.completed) === (status.value === "completed"))
+        && (!q || `${p.lecture_id} ${row?.title || ""} ${course?.title || ""} ${course?.series_title || ""}`.toLocaleLowerCase().includes(q));
+    });
+    list.replaceChildren(...shown.map((p) => {
+      const item = browser.historyItem(p);
+      item.querySelector(".history-actions").append(
+        button(p.completed ? "Mark unplayed" : "Mark complete", () => {
+          saveCheckpoint({
+            ...p,
+            completed: !p.completed,
+            explicit_completion: true,
+          });
+          render();
+        }),
+      );
+      return item;
+    }));
+    count.textContent = `${shown.length} of ${values.length} lectures`;
+    if (values.length && !shown.length) list.append(el("li", { text: "No matching lectures. Change the search or listening status." }));
+  };
+  search.addEventListener("input", updateHistory);
+  status.addEventListener("change", updateHistory);
+  main.append(search, el("div", { class: "filters" }, el("label", {}, "Status", status)), count, list);
+  updateHistory();
   if (!values.length)
     main.append(
       description("Start a lecture to build your listening history."),
     );
+  const queuePanel = el("section", { class: "section", id: "listening-queue", tabindex: "-1" });
+  main.append(queuePanel);
+  listeningQueue.render(queuePanel);
   if (profile) {
     main.append(
       button("Export listener history", async () =>

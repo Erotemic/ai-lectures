@@ -5,6 +5,7 @@ import { preparationPanel } from "./narration.mjs";
 import { collectionRows, collectionAncestors, collectionSections, formatMinutes, matchesLecture, matchesTag } from "./browse-model.mjs";
 import { dateOrder, chronologyLine, chronologyOptions, sortChronologically } from "./chronology.mjs";
 import { topicLinks } from "./topics.mjs";
+import { recentListening, historyRoute } from "./listening-history.mjs";
 
 const roleLabel = (collection) => ({ main: "Guided route", deep_dive: "Deep dive", hub: "Route guide", archive: "Complete sequence" })[collection.role] || "Collection";
 
@@ -128,41 +129,53 @@ export class CatalogBrowser {
     });
     return el("div", { class: "subject-directory" }, jump, ...sections);
   }
+  historyItem(position) {
+    const row = this.byId(position.lecture_id);
+    const { course, index, next } = historyRoute(position, this.catalog().courses);
+    const item = row ? this.item(row, course?.id) : el("li", { class: "catalog-item" },
+      el("div", { class: "copy", text: position.lecture_id + " · Pack not installed · history retained" }));
+    item.classList.add("history-item");
+    const copy = item.querySelector(".copy");
+    const date = new Date(position.updated_at);
+    if (Number.isFinite(date.getTime())) copy.append(el("small", {}, "Last saved ",
+      el("time", { datetime: position.updated_at, text: date.toLocaleString(undefined, { dateStyle: "medium", timeStyle: "short" }) })));
+    if (course) copy.append(el("small", {},
+      this.link(course.series_title || course.title, this.courseLink(course)),
+      ` · ${index + 1} of ${course.lectures.length}`));
+    else if (position.course_id) copy.append(el("small", { text: "Previous listening track is no longer available." }));
+    const actions = el("div", { class: "actions history-actions" });
+    if (row) actions.append(this.link(position.completed ? "Listen again" : "Resume lecture", this.itemURL(row.id, course?.id)));
+    const nextRow = this.byId(next);
+    if (nextRow) actions.append(this.link("Next: " + nextRow.title, this.itemURL(next, course.id)));
+    else if (next) copy.append(el("small", { text: "Next lecture is not installed on this server." }));
+    else if (course) copy.append(el("small", { text: "Last lecture in this track" }));
+    copy.append(actions);
+    return item;
+  }
   continuation(allowed = null) {
-    const rows = Object.values(this.progress())
-      .filter(
-        (p) =>
-          !p.completed &&
-          this.byId(p.lecture_id) &&
-          (!allowed || allowed.has(p.lecture_id)),
-      )
-      .sort((a, b) => (b.updated_at || "").localeCompare(a.updated_at || ""))
+    const rows = recentListening(this.progress())
+      .filter((p) => this.byId(p.lecture_id) && (!allowed || allowed.has(p.lecture_id)))
       .slice(0, 4);
     if (!rows.length) return null;
     return el(
       "section",
       { class: "section" },
-      el("h2", { text: "Continue listening" }),
+      el("div", { class: "section-heading" },
+        el("h2", { text: "Recently listened" }),
+        this.link("View listening history →", "/listening")),
       el(
         "ul",
         { class: "list" },
-        ...rows.map((p) => this.item(this.byId(p.lecture_id), p.course_id)),
+        ...rows.map((p) => this.historyItem(p)),
       ),
     );
   }
   browse(main, collectionsOnly = false) {
-    const data = this.catalog(),
-      key = "browse:" + this.listener();
-    const listenerChanged =
-      this.previousListener !== undefined &&
-      this.previousListener !== this.listener();
-    this.previousListener = this.listener();
-    const query = new URLSearchParams(listenerChanged ? "" : location.search);
-    const explicit = ["category", "audience", "q", "tag", "audio", "all", "view", "sort"].some(
-      (field) => query.has(field),
-    );
-    const saved = explicit ? {} : getStored(key, {});
-    const initial = (field) => query.get(field) || saved[field] || "";
+    const data = this.catalog();
+    // The URL owns browse state. Library and Collections are stable destinations;
+    // browser Back restores the previous filtered URL and its scroll position.
+    const query = new URLSearchParams(location.search);
+    const initial = (field) => query.get(field) || "";
     const heading = el("h1");
     const search = el("input", {
       type: "search",
@@ -248,6 +261,7 @@ export class CatalogBrowser {
         "div",
         { class: "actions" },
         this.link("Browse all categories", base + "?all=1"),
+        this.link("Listening history", "/listening"),
         this.link("All lectures", "/lectures"),
         this.link("References and reading", "/references"),
       ),
@@ -265,14 +279,13 @@ export class CatalogBrowser {
         view: view.value,
         sort: sort.value,
       };
-      store(key, state);
       const params = new URLSearchParams(
         Object.entries(state).filter(([, value]) => value),
       );
       history.replaceState(
         { ...history.state, browseLimit: limit },
         "",
-        base + "?" + (params.size ? params : "all=1"),
+        base + (params.size ? "?" + params : "") + location.hash,
       );
       heading.textContent =
         state.category ||
@@ -350,9 +363,6 @@ export class CatalogBrowser {
             group.collections.length === 1
               ? this.courseLink(group.collections[0])
               : base + "?category=" + encodeURIComponent(group.title),
-          );
-          node.addEventListener("click", () =>
-            store(key, { ...state, category: group.title, q: "" }),
           );
           return node;
         };
@@ -452,7 +462,7 @@ export class CatalogBrowser {
     const start = next ? this.link(Object.keys(this.progress()).some(key => collection.lectures.includes(key)) ? "Continue collection →" : "Start collection →", this.itemURL(next.id, id)) : null;
     const refreshStart = () => { if (start) start.href = this.itemURL(next.id, id); };
     const breadcrumbs = el("nav", { class: "breadcrumbs", "aria-label": "Breadcrumb" },
-      this.link("Library", "/?all=1"),
+      this.link("Library", "/"),
       ...ancestors.map(c => this.link(c.series_title || c.title, this.courseLink(c))),
       el("span", { "aria-current": "page", text: collection.series_title || collection.title }),
     );
