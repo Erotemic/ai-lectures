@@ -48,7 +48,7 @@
       "reason": "Application context for perturbed invariant subspaces and spectral estimators."
     }
   ],
-  "description": "Examines population eigengaps in spectral statistics and explains how sample perturbations affect principal directions and their interpretation.",
+  "description": "Develops the Yu–Wang–Samworth population-eigengap refinement of Davis–Kahan: a perturbation bound for principal subspaces using the population gap rather than a separate sample eigengap, together with an aligned-frame interpretation and its statistical limits.",
   "tag_paths": [
     [
       "Mathematics",
@@ -61,6 +61,20 @@
     [
       "Mathematics",
       "Perturbation theory"
+    ],
+    [
+      "Mathematics",
+      "Statistics",
+      "Spectral statistics",
+      "Population eigengaps"
     ]
+  ],
+  "tags": [
+    "Davis–Kahan sin-theta theorem",
+    "Yu–Wang–Samworth bound",
+    "Eigenspace perturbation",
+    "Principal angles",
+    "Eigenvector alignment",
+    "Population eigengap"
   ]
 }

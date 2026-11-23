@@ -32,7 +32,7 @@
       "audit_status": "reference_recorded"
     }
   ],
-  "description": "Examines multipliers, stationarity, complementary slackness, strong duality, Slater's condition, and failures of constraint qualification.",
+  "description": "Derives the KKT sufficiency certificate for differentiable convex problems from primal–dual inequalities, explains Slater’s role in multiplier existence and dual attainment, and distinguishes nonconvex stationary points from optima and zero duality gap from attainment.",
   "tag_paths": [
     [
       "Mathematics",
@@ -48,6 +48,23 @@
       "Mathematics",
       "Optimization",
       "KKT conditions"
+    ],
+    [
+      "Mathematics",
+      "Optimization",
+      "Convex optimization",
+      "Primal–dual certificates"
     ]
+  ],
+  "tags": [
+    "Lagrange duality",
+    "Lagrangian lower bounds",
+    "Complementary slackness",
+    "Primal and dual feasibility",
+    "Convex optimization",
+    "Slater constraint qualification",
+    "Dual attainment",
+    "Optimality certificates",
+    "Nonconvex stationary points"
   ]
 }

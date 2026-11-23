@@ -48,6 +48,12 @@
       "Computer Science",
       "Algorithms",
       "Graph algorithms"
+    ],
+    [
+      "Computer Science",
+      "Formal methods",
+      "Refinement proofs",
+      "FFI and API correctness"
     ]
   ],
   "learning": {
@@ -67,5 +73,12 @@
       "Explain why PyO3/ABI3 compatibility and result rescoring do not imply source-level optimality",
       "Decompose a proposed end-to-end correctness and error contract into separately provable encoding, solver, decoding and numerical links"
     ]
-  }
+  },
+  "tags": [
+    "API correctness boundaries",
+    "Witness feasibility and optimality",
+    "Input and output representation",
+    "Independent rescoring",
+    "Python–Rust verification"
+  ]
 }
