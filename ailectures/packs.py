@@ -17,6 +17,7 @@ import stat
 import tempfile
 import threading
 import time
+from functools import lru_cache
 from uuid import uuid4
 from zipfile import ZIP_DEFLATED, ZipFile
 
@@ -36,6 +37,11 @@ from .core import (
     text_digest,
     write_json,
 )
+
+
+@lru_cache(maxsize=256)
+def media_digest(path, mtime, ctime, size, inode):
+    return file_digest(Path(path))
 
 
 def recording_id(recording):
@@ -324,6 +330,7 @@ class PackStore:
                 CREATE TABLE IF NOT EXISTS releases (
                     release TEXT PRIMARY KEY, pack_id TEXT NOT NULL, directory TEXT NOT NULL,
                     manifest TEXT NOT NULL, catalog TEXT NOT NULL);
+                CREATE TABLE IF NOT EXISTS release_validation (release TEXT PRIMARY KEY, signature TEXT NOT NULL);
             """)
 
     @contextmanager
@@ -509,6 +516,8 @@ class PackStore:
             )
             self.compose(self.active(db))  # Any conflict rolls back this activation.
             self._write_lock(db)
+            db.execute("INSERT OR REPLACE INTO release_validation VALUES (?,?)",
+                       (revision, self._directory_signature(destination)))
         return manifest
 
     def remove(self, pack_id):
@@ -520,14 +529,29 @@ class PackStore:
             self._write_lock(db)
         # Immutable releases remain readable for active players and feedback.
 
-    def _candidate(self, directory):
+    @staticmethod
+    def _directory_signature(directory):
         paths = sorted(Path(directory).rglob("*"))
-        signature = tuple(
-            (str(p), p.lstat().st_mtime_ns, p.lstat().st_size) for p in paths
-        )
+        return digest([(str(p), s.st_mtime_ns, s.st_ctime_ns, s.st_size, s.st_ino, s.st_mode)
+                       for p in paths for s in [p.lstat()]])
+
+    def _candidate(self, directory):
+        signature = self._directory_signature(directory)
         key = str(directory)
         if key not in self._validated or self._validated[key][0] != signature:
-            self._validated[key] = signature, load_release(directory)
+            cached = None
+            with self.connect() as db:
+                registered = db.execute("""SELECT r.* FROM releases r JOIN release_validation v
+                    ON r.release=v.release WHERE r.release=? AND v.signature=?""", (Path(directory).name, signature)).fetchone()
+                if registered and Path(directory).resolve() == Path(self.release_row(registered)["directory"]):
+                    cached = dict(manifest=json.loads(registered["manifest"]), catalog=json.loads(registered["catalog"]),
+                                  directory=Path(directory), checksums=read_json(Path(directory) / "checksums.json"))
+            if cached is None:
+                cached = load_release(directory)
+                with self.connect() as db:
+                    db.execute("INSERT OR REPLACE INTO release_validation SELECT release,? FROM releases WHERE release=?",
+                               (signature, cached["manifest"]["release"]))
+            self._validated[key] = signature, cached
         return self._validated[key][1]
 
     def reconcile(self, *, force=False):
@@ -617,10 +641,10 @@ class PackStore:
     def snapshot(self, *, copy=True):
         with self._lock:
             self.reconcile()
-            active = self.active()
-            key = tuple((row["pack_id"], row["release"]) for row in active)
+            with self.connect() as db:
+                key = tuple(tuple(row) for row in db.execute("SELECT pack_id,release FROM selections WHERE enabled=1 ORDER BY pack_id"))
             if key != getattr(self, "_snapshot_key", None):
-                self._snapshot_cache = self.compose(active)
+                self._snapshot_cache = self.compose(self.active())
                 self._snapshot_key = key
             return deepcopy(self._snapshot_cache) if copy else self._snapshot_cache
 
@@ -637,7 +661,7 @@ class PackStore:
         lecture = json.loads(row["catalog"])["lectures"][lecture_id]
         return lecture, Path(row["directory"])
 
-    def media_file(self, release_id, recording_id, index):
+    def media_file(self, release_id, recording_id, index, *, allow_changed=False):
         checksum(release_id)
         checksum(recording_id)
         with self.connect() as db:
@@ -653,9 +677,11 @@ class PackStore:
                 if rec["id"] == recording_id:
                     segment = next(s for s in rec["segments"] if s["index"] == index)
                     path = contained(row["directory"], segment["path"])
-                    if file_digest(path) != segment["sha256"]:
-                        raise ValueError(
-                            "Published recording bytes changed; refusing an obsolete immutable URL"
-                        )
+                    stamp = path.stat()
+                    actual = media_digest(str(path), stamp.st_mtime_ns, stamp.st_ctime_ns, stamp.st_size, stamp.st_ino)
+                    if actual != segment["sha256"]:
+                        if not allow_changed:
+                            raise ValueError("Published recording bytes changed; refusing an obsolete immutable URL")
+                        segment = dict(segment, sha256=actual, playback_warning="Stored audio differs from its published checksum. Playback is continuing with the available file.")
                     return path, segment
         raise KeyError("Unknown recording")

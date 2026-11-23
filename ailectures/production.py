@@ -21,7 +21,7 @@ import threading
 from uuid import uuid4
 
 from .core import digest, file_digest, write_json, finite
-from .packs import export_release, recording_id
+from .packs import export_release, recording_id, media_digest
 from .jobs import JobStore
 from .narration import TITLE_POLICY, speech_cache_key
 
@@ -343,6 +343,24 @@ class GenerationManager:
             discovery=discovery,
         )
 
+    def backend_health(self, backend_id):
+        self.sync_saved_profiles()
+        backend = next((row for row in self.saved_profile_store().backends() if row["id"] == backend_id), None)
+        if backend is None:
+            raise KeyError("Unknown speech backend")
+        endpoint = backend["endpoint"]
+        cached = self._health.get(endpoint)
+        if cached and time.monotonic() - cached[0] < 10:
+            return dict(backend_id=backend_id, reachable=cached[1])
+        parsed = urlparse(endpoint)
+        try:
+            with socket.create_connection((parsed.hostname, parsed.port or (443 if parsed.scheme == "https" else 80)), timeout=1.5):
+                reachable = True
+        except (OSError, ValueError):
+            reachable = False
+        self._health[endpoint] = (time.monotonic(), reachable)
+        return dict(backend_id=backend_id, reachable=reachable)
+
     def save_voice_reference(self, backend_id, payload):
         from .voice_references import supports_recording, save_recording
         from dkvis.presentation.tts import remote_voices
@@ -627,6 +645,7 @@ class GenerationManager:
         store = self.saved_profile_store()
         choices = []
         matched = set()
+        backends = store.backends()
         for profile in catalog["profiles"]:
             spec = dict(
                 profile=profile["id"],
@@ -651,6 +670,7 @@ class GenerationManager:
                     label=profile["label"],
                     profile=profile["id"],
                     profile_revision=profile["revision"],
+                    backend_id=profile["backend_id"],
                     voice=profile["voice"],
                     speed=1,
                     variant=variant,
@@ -694,6 +714,10 @@ class GenerationManager:
                     recording_id=recording["id"],
                     recording_complete=recording["complete"],
                     aliases=aliases,
+                    warning="This recording uses earlier or different generation settings. Playback remains available; new generation uses the current profile.",
+                    backend_id=next((b["id"] for b in backends
+                                     if profile_id == b["id"] or profile_id in b["aliases"]
+                                     or known and b["id"] == known["backend_id"]), None),
                 )
             )
         pages = next(
@@ -831,7 +855,7 @@ class GenerationManager:
             document=document,
             profile=saved["id"],
             voice=saved["recipe"]["config"]["voice"],
-            workers=self.speech_workers(backend["endpoint"], backend["model"]),
+            workers=self.speech_workers(backend["endpoint"], backend["model"]) if start else 1,
             output_format=saved["recipe"]["config"]["output_format"],
             title_handling=saved["recipe"]["title_enabled"],
             page_chars=saved["recipe"]["reader"]["page_chars"],
@@ -1413,7 +1437,7 @@ class GenerationManager:
                 or os.environ.get("DKVIS_AUDIO_TTS_ENDPOINT")
                 or config["endpoint"],
                 os.environ.get("DKVIS_AUDIO_TTS_MODEL") or config["model"],
-            ),
+            ) if start else 1,
             output_format=config["output_format"],
             title_handling=title_handling,
         )
@@ -1550,6 +1574,25 @@ class GenerationManager:
                     job["engine"].close()
 
     def playback_file(self, job_id, index, sha):
+        # A previously issued playback URL identifies bytes, not today's TTS
+        # connection or rendering defaults. Read those bytes without an engine.
+        from .voice_profiles import profile_cache_key
+        record = self.jobs.get(job_id)
+        spec = record["specification"]
+        key = (profile_cache_key(spec["row"]["id"], spec["voice_profile"], spec.get("cache_epoch"))
+               if spec.get("voice_profile") else speech_cache_key(spec["row"]["id"], {
+                   **spec["configuration"], **({"cache_epoch": spec["cache_epoch"]} if spec.get("cache_epoch") else {}),
+               }))
+        roots = [self.library.store.root / "build-cache" / "speech" / key / "000000",
+                 self.library.store.root / "build-cache" / "generation" / job_id / "audio" / "000000"]
+        if type(index) is not int or index < 0:
+            raise ValueError("Select an audio block")
+        for root in roots:
+            for path in root.glob(f"{index:03d}-*"):
+                if path.suffix in {".ogg", ".mp3", ".wav"} and path.is_file():
+                    stat = path.stat()
+                    if media_digest(str(path), stat.st_mtime_ns, stat.st_ctime_ns, stat.st_size, stat.st_ino) == sha:
+                        return path
         with self._lock:
             record = self.jobs.get(job_id)
             active = self._jobs.get(job_id)

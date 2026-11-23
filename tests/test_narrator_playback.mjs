@@ -136,11 +136,11 @@ console.log('Rapid voice switching keeps both scoped generation requests respons
 
 const primary = {key:'preferred',profile:'preferred',profile_default:true,recording_id:'partial',aliases:['recording:old-import']};
 const readyOther = {key:'other',profile:'other',profile_default:true,recording_id:'full',recording_complete:true};
-assert.equal(preferredNarrator([readyOther,primary],{preferred_profile:'preferred',default_profile:'preferred'}).key,'preferred');
+assert.equal(preferredNarrator([readyOther,primary],{preferred_profile:'preferred',default_profile:'preferred'}).key,'other');
 assert.equal(preferredNarrator([readyOther,primary],{preferred_profile:'preferred'},{remembered:'other'}).key,'other');
 assert.equal(preferredNarrator([readyOther,primary],{preferred_profile:'preferred'},{remembered:'recording:old-import'}).key,'preferred');
 assert.equal(preferredNarrator([primary,readyOther],{}).key,'other');
-console.log('Configured audio defaults and remembered legacy voices retain generation controls');
+console.log('Prepared audio takes priority over unprepared defaults; explicit prepared choices are retained');
 
 // Fully prepared lectures continue without granting permission to synthesize.
 const preferences=new Map();
@@ -206,8 +206,22 @@ const manualChoices=[{key:'hidden',recording_id:installed.id,quick_select:false}
   {key:'pinned',profile:'kokoro',quick_select:true}];
 assert.deepEqual(voiceGroups(manualChoices,row,[],installed.pages,'pinned').flatMap(g=>g.choices.map(c=>c.key)),['pinned']);
 assert.ok(voiceGroups(manualChoices,row,[],installed.pages,'hidden').some(g=>g.choices.some(c=>c.key==='hidden')));
-assert.equal(preferredNarrator([{key:'prepared',recording_complete:true},{key:'default',server_default:true}],{}).key,'default');
+assert.equal(preferredNarrator([{key:'prepared',recording_complete:true},{key:'default',server_default:true}],{}).key,'prepared');
 assert.equal(preferredNarrator([{key:'prepared',recording_complete:true},{key:'default',server_default:true}],{},{remembered:'prepared'}).key,'prepared');
+assert.equal(preferredNarrator([primary,readyOther],{},{remembered:'unknown-new-profile'}).key,'other');
+assert.equal(preferredNarrator([primary,readyOther],{},{recordingId:'partial'}).key,'preferred');
+assert.deepEqual(narratorInventory({...choice,recording_id:sparse.id},{...row,recordings:[sparse]},
+  [{...pending,inventory:{states:['missing','missing','ready']}}],['One.','Two.']).states,['ready','missing']);
+
+// Existing audio is ready before a slow or unavailable profile-discovery call.
+const immediate=Object.create(LectureAudio.prototype);
+let completeDiscovery, opened=false;
+Object.assign(immediate,{row,select:{},progress:null,preparedOptions(){this.data={};this.choices=[{key:'prepared',recording_id:installed.id,recording_complete:true}];},
+  choose(){opened=true;},initializeOptions(){return new Promise(resolve=>{completeDiscovery=resolve;});}});
+await immediate.initialize();
+assert.equal(opened,true);
+assert.equal(immediate.select.value,'prepared');
+completeDiscovery();await immediate.optionsReady;
 
 const {matchesPreparation}=await import('../ailectures/static/narration.mjs');
 assert.ok(matchesPreparation({profile:'voice-one',profile_revision:'revision-a',voice:'reference-one',speed:1},{profile:'voice-one',profile_revision:'revision-a'}));

@@ -241,3 +241,16 @@ repository for export, revisions, live discovery, progress, and feedback.
 Authored audio sources use `content/<namespace>/` consistently. The original 22
 scene-based narrated decks remain in `lectures/`. Reader data, recordings and
 build caches are separate from source packs; moving sources does not move them.
+
+Catalog construction indexes collection membership and the shared tag vocabulary,
+and unchanged selections reuse already loaded catalog documents. Installed
+releases retain a validation fingerprint across restarts: unchanged managed files
+skip repeated full media hashing, while changed files and new imports undergo
+validation. Playback reports changed published checksums as warnings and serves
+the available bytes; missing or undecodable audio still cannot play.
+
+New historical source snapshots store shared lecture rows plus small revision
+indexes, so generating another block does not duplicate every transcript in its
+pack. Existing snapshots remain readable and are not deleted or compacted by this
+change. A database already enlarged by old snapshots will retain that allocated
+space.

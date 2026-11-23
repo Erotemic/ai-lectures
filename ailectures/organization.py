@@ -139,8 +139,8 @@ def collection_metadata(plan, namespace):
     return result
 
 
-def item_organization(row, collections):
-    context = [
+def item_organization(row, collections, *, memberships=None, namespaces=None, include_discovery=True):
+    context = memberships.get(row["id"], []) if memberships is not None else [
         collection for collection in collections if row["id"] in collection["lectures"]
     ]
     # A compatibility archive can mix subjects; curated routes own browsing
@@ -152,7 +152,7 @@ def item_organization(row, collections):
         context = curated
     if not context:
         # Unindexed manuscripts retain categories without becoming ordered members.
-        context = [
+        context = namespaces.get(row["id"].split(":")[0], []) if namespaces is not None else [
             collection
             for collection in collections
             if collection["id"].split(":")[0] == row["id"].split(":")[0]
@@ -164,7 +164,7 @@ def item_organization(row, collections):
     from .discovery import discovery_fields
 
     return {
-        **discovery_fields(row),
+        **(discovery_fields(row) if include_discovery else {}),
         "categories": categories(metadata.get("categories", metadata.get("category")))
         or list(
             dict.fromkeys(

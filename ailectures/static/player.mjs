@@ -223,6 +223,12 @@ export class Player {
     } else use(this.blockCache.cached(segment.url));
     document.getElementById("playing-note").textContent =
       this.recording.label || this.recording.variant;
+    // Surface advisory metadata without delaying media loading or requiring TTS.
+    if (globalThis.window?.fetch && segment.url?.startsWith("/api/library/"))
+      window.fetch(segment.url, { method: "HEAD", cache: "no-store" }).then((response) => {
+        const warning = response.headers.get("X-Playback-Warning");
+        if (token === this.loadToken && warning) this.message(warning);
+      }).catch(() => {});
     this.update();
   }
   seekSentence(index, sentence) {

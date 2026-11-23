@@ -21,6 +21,15 @@ revision; previous revisions and legacy recordings remain separately playable.
 Clearing a profile's lecture cache affects that revision only. Archiving hides a
 profile from new generation without deleting its recordings.
 
+Opening a lecture selects its resumed or prepared recording before an
+ungenerated default profile. Prepared playback is available immediately while
+profile and job discovery continue in the background. Earlier profile revisions
+stay selectable with a warning; their actual audio block layout is retained.
+A background reachability check warns when the speech service is unreachable.
+That warning does not interrupt existing audio. Missing blocks still require a
+working service. Previously issued block URLs read their cached bytes without
+reconstructing today's synthesis configuration.
+
 ## Delivery and speed
 
 Native speaking rate is a synthesis request, available only on an adapter that

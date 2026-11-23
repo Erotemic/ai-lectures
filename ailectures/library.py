@@ -3,12 +3,12 @@
 from __future__ import annotations
 
 from copy import deepcopy
-import json
 import threading
 
 from .catalog import RepositoryCatalog
-from .core import canonical, digest
+from .core import digest
 from .packs import PackStore
+from .source_snapshots import save_snapshot, historical_lecture
 
 
 class Library:
@@ -39,6 +39,7 @@ class Library:
             db.execute(
                 "CREATE TABLE IF NOT EXISTS cleared_recordings (lecture TEXT, recording TEXT, PRIMARY KEY (lecture,recording))"
             )
+            db.execute("CREATE TABLE IF NOT EXISTS source_snapshot_rows (id TEXT PRIMARY KEY, document TEXT NOT NULL)")
             self._saved_snapshots = {
                 row[0] for row in db.execute("SELECT release FROM source_snapshots")
             }
@@ -131,10 +132,7 @@ class Library:
             result["relationships"].extend(pack.get("relationships", []))
             if source_release not in self._saved_snapshots:
                 with self.store.connect() as db:
-                    db.execute(
-                        "INSERT OR IGNORE INTO source_snapshots VALUES (?,?)",
-                        (source_release, canonical(source_rows).decode()),
-                    )
+                    save_snapshot(db, source_release, source_rows)
                 self._saved_snapshots.add(source_release)
             result["packs"] = [p for p in result["packs"] if p["id"] != pack_id]
             result["packs"].append(
@@ -180,10 +178,7 @@ class Library:
                 )
             if view not in self._saved_snapshots:
                 with self.store.connect() as db:
-                    db.execute(
-                        "INSERT OR IGNORE INTO source_snapshots VALUES (?,?)",
-                        (view, canonical(rows).decode()),
-                    )
+                    save_snapshot(db, view, rows)
                 self._saved_snapshots.add(view)
         result["aliases"] = {
             alias: row["id"]
@@ -202,11 +197,9 @@ class Library:
 
     def historical(self, release, lecture_id):
         with self.store.connect() as db:
-            row = db.execute(
-                "SELECT catalog FROM source_snapshots WHERE release=?", (release,)
-            ).fetchone()
-        if row:
-            return json.loads(row["catalog"])[lecture_id]
+            row = historical_lecture(db, release, lecture_id)
+        if row is not None:
+            return row
         return self.store.historical(release, lecture_id)[0]
 
     def remember_playback(self, row):
@@ -218,9 +211,6 @@ class Library:
         )
         if release not in self._saved_snapshots:
             with self.store.connect() as db:
-                db.execute(
-                    "INSERT OR IGNORE INTO source_snapshots VALUES (?,?)",
-                    (release, canonical({row["id"]: row}).decode()),
-                )
+                save_snapshot(db, release, {row["id"]: row})
             self._saved_snapshots.add(release)
         return row

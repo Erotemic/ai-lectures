@@ -230,18 +230,32 @@ def tag_key(label):
     return aliases.get(value, value)
 
 
-def matching_paths(labels, vocabulary, prefix=''):
-    """A broad authored label never acquires narrower, unrecorded coverage."""
+def vocabulary_index(vocabulary, prefix=''):
     indexed = {}
     for path in vocabulary:
         for index, label in enumerate(path):
-            branch = [prefix + part for part in path[:index+1]]
-            indexed.setdefault(tag_key(label), [])
-            if branch not in indexed[tag_key(label)]:
-                indexed[tag_key(label)].append(branch)
+            branch = tuple(prefix + part for part in path[:index+1])
+            branches = indexed.setdefault(tag_key(label), [])
+            if branch not in branches:
+                branches.append(branch)
+    return indexed
+
+
+_TOPIC_INDEX = vocabulary_index(TOPIC_PATHS)
+_PLACE_INDEX = vocabulary_index(PLACE_PATHS, 'Place: ')
+
+
+def matching_paths(labels, vocabulary, prefix=''):
+    """A broad authored label never acquires narrower, unrecorded coverage."""
+    if vocabulary is TOPIC_PATHS and not prefix:
+        indexed = _TOPIC_INDEX
+    elif vocabulary is PLACE_PATHS and prefix == 'Place: ':
+        indexed = _PLACE_INDEX
+    else:
+        indexed = vocabulary_index(vocabulary, prefix)
     result = []
     for label in labels:
-        result.extend(indexed.get(tag_key(label), [[prefix + label]]))
+        result.extend(list(path) for path in indexed.get(tag_key(label), [(prefix + label,)]))
     return result
 
 

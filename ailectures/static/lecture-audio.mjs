@@ -17,11 +17,11 @@ export function narratorInventory(choice, row, jobs, pages) {
         job.variant === choice?.variant &&
         job.speed === choice?.speed,
     );
-  pages = choice?.pages || pages;
+  pages = recording?.pages || choice?.pages || pages;
   const states = recording
     ? recordingStates(recording)
     : pages.map(() => "missing");
-  if (job?.inventory.states?.length && (!recording || !recording.complete))
+  if (job?.inventory.states?.length && (!recording || (!recording.complete && job.inventory.states.length === states.length)))
     return {
       states: job.inventory.states.map((state, index) =>
         states.length === job.inventory.states.length &&
@@ -110,14 +110,15 @@ export function preferredNarrator(
   data,
   { remembered, recordingId, profile, voice } = {},
 ) {
+  const rememberedChoice = choices.find((choice) => choice.key === remembered || choice.aliases?.includes(remembered));
   return (
-    choices.find(
-      (choice) =>
-        choice.key === remembered || choice.aliases?.includes(remembered),
-    ) ||
     choices.find(
       (choice) => choice.recording_id && choice.recording_id === recordingId,
     ) ||
+    (rememberedChoice?.recording_id ? rememberedChoice : null) ||
+    choices.find((choice) => choice.recording_complete) ||
+    choices.find((choice) => choice.recording_id) ||
+    rememberedChoice ||
     choices.find((choice) => choice.server_default) ||
     choices.find(
       (choice) =>
@@ -129,8 +130,6 @@ export function preferredNarrator(
         choice.profile === profile &&
         (!voice || choice.voice === voice),
     ) ||
-    choices.find((choice) => choice.recording_complete) ||
-    choices.find((choice) => choice.recording_id) ||
     choices.find(
       (choice) =>
         choice.profile === data.default_profile && choice.profile_default,
@@ -322,7 +321,28 @@ export class LectureAudio {
     if (this.choices.some((choice) => choice.key === selected))
       this.select.value = selected;
   }
-  async initialize() {
+  preparedOptions() {
+    this.data = { tools_available: false };
+    this.pages = this.row.recordings[0]?.pages || [this.row.transcript];
+    this.choices = this.row.recordings.map((r) => ({ key: "recording:" + r.variant,
+      label: r.label || r.variant, recording_id: r.id, recording_complete: r.complete, pages: r.pages }));
+    this.select.replaceChildren(...this.choices.map((c) => el("option", { value: c.key })));
+  }
+  initialize() {
+    if (this.row?.recordings?.some((recording) => recording.segments.length)) {
+      this.preparedOptions();
+      this.select.value = preferredNarrator(this.choices, this.data, {
+        remembered: getStored("narrator-choice"), recordingId: this.progress?.recording_id,
+      })?.key || "";
+      this.choose(false);
+      // Prepared playback must not wait for profile or generation discovery.
+      this.optionsReady = this.initializeOptions();
+      this.optionsReady.catch((error) => this.showError(error));
+      return Promise.resolve();
+    }
+    return this.initializeOptions();
+  }
+  async initializeOptions() {
     const jobs = api(this.jobsURL()).catch((error) => {
       this.queueError = error.message;
       return { jobs: [] };
@@ -330,16 +350,7 @@ export class LectureAudio {
     try {
       await this.loadOptions();
     } catch (error) {
-      this.data = { tools_available: false };
-      this.pages = this.row.recordings[0]?.pages || [this.row.transcript];
-      this.choices = this.row.recordings.map((r) => ({
-        key: "recording:" + r.variant,
-        label: r.label || r.variant,
-        recording_id: r.id,
-      }));
-      this.select.replaceChildren(
-        ...this.choices.map((c) => el("option", { value: c.key })),
-      );
+      this.preparedOptions();
       this.initialError = error.message;
     }
     if (this.disposed || !this.active()) return;
@@ -386,8 +397,20 @@ export class LectureAudio {
   get inventory() {
     return narratorInventory(this.choice, this.row, this.jobs, this.pages);
   }
+  checkGenerationHealth() {
+    const backend = this.choice?.backend_id;
+    if (!backend) return;
+    this.backendHealth ||= new Map();
+    const previous = this.backendHealth.get(backend);
+    if (previous && Date.now() - previous.checked < 10000) return;
+    this.backendHealth.set(backend, { ...previous, checked: Date.now() });
+    api(`/api/library/voice-profiles/backends/${encodeURIComponent(backend)}/health`).then((result) => {
+      this.backendHealth.set(backend, { reachable: result.reachable, checked: Date.now() });
+      if (!this.disposed && this.choice?.backend_id === backend && this.active()) this.render();
+    }).catch(() => {});
+  }
   choose(remember = true, activate = false) {
-    this.pages = this.choice?.pages || this.data?.pages || this.pages;
+    this.pages = this.row.recordings.find((r) => r.id === this.choice?.recording_id)?.pages || this.choice?.pages || this.data?.pages || this.pages;
     const selectedBlock =
       this.pending?.index ??
       (this.player.row?.id === this.row.id ? this.player.index : null);
@@ -448,6 +471,7 @@ export class LectureAudio {
     this.player.onBlockPlay = (index) => this.queueAhead(index);
     this.onChange?.();
     this.render();
+    this.checkGenerationHealth();
   }
   render() {
     this.voiceOptions();
@@ -464,6 +488,10 @@ export class LectureAudio {
     this.clearCache.hidden = this.stop.hidden = !canGenerate;
     const useChoice = key => {this.voiceOptions(key);this.select.value=key;this.choose();};
     this.generationNotice.replaceChildren();
+    if (this.backendHealth?.get(this.choice?.backend_id)?.reachable === false)
+      this.generationNotice.append("The speech service is unreachable. Existing audio remains playable; missing blocks cannot be generated until it returns. ");
+    if (this.choice?.recording_id && (this.choice.warning || this.initialError || this.queueError))
+      this.generationNotice.append((this.choice.warning || "Generation information is unavailable. Existing audio remains playable.") + " ");
     if (this.data.tools_available && !canGenerate && generationTarget) {
       this.generationNotice.append("This saved recording remains playable. Select a current voice profile to cache new audio. ",
         el("button", {type:"button", text:"Use " + generationTarget.label, onclick:()=>useChoice(generationTarget.key)}));
@@ -804,6 +832,7 @@ export class LectureAudio {
   }
   async poll() {
     if (this.polling || this.clearing) return;
+    this.checkGenerationHealth();
     this.polling = true;
     const epoch = this.epoch;
     try {

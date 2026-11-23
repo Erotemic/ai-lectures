@@ -10,6 +10,7 @@ from .core import Conflict, digest, read_json, write_json
 from .maintenance import media_lock
 from .narration import speech_cache_key
 from .voice_profiles import profile_cache_key
+from .source_snapshots import expand_snapshot
 
 
 def readonly(path):
@@ -36,7 +37,7 @@ def garbage_plan(library, *, keep_days=30, keep_text_versions=2):
     hashes = {key:[row['spoken_sha256']] for key,row in current.items()}
     with library.store.connect() as db:
         releases = [dict(row) for row in db.execute('SELECT * FROM releases')]
-        snapshots = {row['release']:json.loads(row['catalog']) for row in db.execute('SELECT release,catalog FROM source_snapshots ORDER BY rowid DESC')}
+        snapshots = {row['release']:expand_snapshot(db, row['catalog']) for row in db.execute('SELECT release,catalog FROM source_snapshots ORDER BY rowid DESC')}
     for rows in snapshots.values():
         for key,row in rows.items():
             if key in hashes and len(hashes[key]) < keep_text_versions and row['spoken_sha256'] not in hashes[key]: hashes[key].append(row['spoken_sha256'])

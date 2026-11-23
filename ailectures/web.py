@@ -293,9 +293,14 @@ def create_app(
             if chronology:
                 collection["chronology"] = chronology
         items = []
+        memberships, namespaces = {}, {}
+        for collection in collections:
+            namespaces.setdefault(collection["id"].split(":")[0], []).append(collection)
+            for key in collection["lectures"]:
+                memberships.setdefault(key, []).append(collection)
         for row in snapshot["lectures"].values():
             summary = annotate(row, summary=True)
-            summary.update(item_organization(row, collections))
+            summary.update(item_organization(row, collections, memberships=memberships, namespaces=namespaces, include_discovery=False))
             if row.get("metadata", {}).get("short_format_reason"):
                 summary["short_format_reason"] = row["metadata"]["short_format_reason"]
             items.append(summary)
@@ -465,13 +470,16 @@ def create_app(
             request.path_params["release"],
             request.path_params["recording"],
             int(request.path_params["index"]),
+            allow_changed=True,
         )
         return FileResponse(
             path,
             media_type=segment["media_type"],
             headers={
-                "Cache-Control": "private, max-age=31536000, immutable",
+                "Cache-Control": "no-store" if segment.get("playback_warning") else "private, max-age=31536000, immutable",
                 "ETag": '"' + segment["sha256"] + '"',
+                "X-Content-Type-Options": "nosniff",
+                **({"X-Playback-Warning": segment["playback_warning"]} if segment.get("playback_warning") else {}),
             },
         )
 
@@ -740,7 +748,7 @@ def create_app(
                 status_code=202,
             )
         row = await run_in_threadpool(
-            production().playback, checksum(request.path_params["job_id"])
+            configured_production().playback, checksum(request.path_params["job_id"])
         )
         return JSONResponse(
             annotate(library.remember_playback(row)),
@@ -748,7 +756,7 @@ def create_app(
         )
 
     def production_media(request):
-        path = production().playback_file(
+        path = configured_production().playback_file(
             checksum(request.path_params["job_id"]),
             request.path_params["index"],
             checksum(request.path_params["sha256"]),
@@ -1014,6 +1022,10 @@ def create_app(
         return JSONResponse(
             await run_in_threadpool(manager.profile_backend_voices, key)
         )
+
+    async def voice_backend_health(request):
+        return JSONResponse(await run_in_threadpool(configured_production().backend_health, request.path_params["backend_id"]),
+                            headers={"Cache-Control": "no-store"})
 
     async def voice_reference_record(request):
         require_local_action(request)
@@ -1334,6 +1346,7 @@ def create_app(
         Route("/api/library/voice-profiles/preview/{token}",voice_profile_preview_audio),
         Route("/api/library/voice-profiles/save",voice_profile_save,methods=["POST"]),
         Route("/api/library/voice-profiles/backends/{backend_id}/voices",voice_profile_voices,methods=["GET","POST"]),
+        Route("/api/library/voice-profiles/backends/{backend_id}/health",voice_backend_health),
         Route("/api/library/voice-profiles/backends/{backend_id}/references",voice_reference_record,methods=["POST"]),
         Route("/api/library/voice-profiles/{profile_id}/action",voice_profile_action,methods=["POST"]),
         Route("/api/library/voice-profiles/{profile_id}",voice_profile_editor),
