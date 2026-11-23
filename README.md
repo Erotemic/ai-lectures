@@ -28,6 +28,12 @@ to bind only to this machine. Named listeners share progress and queues across
 devices without accounts or passwords; the LAN binding is intended for a
 trusted network.
 
+Use `make serve HTTPS_PORT=8443` to serve HTTP and HTTPS simultaneously. HTTPS
+creates a persistent local self-signed certificate unless you supply one. Open
+`https://SERVER:8443/settings` for microphone recording from another device;
+existing HTTP links on port 8001 keep working. See the
+[HTTPS recording instructions](docs/voice-profiles.md#http-and-https-together).
+
 Browsing transcripts and playing prepared audio need no running AI model,
 Manim, VTK, or LaTeX. Generating new audio additionally needs a configured TTS
 service and FFmpeg/ffprobe. Source content updates appear without restarting;

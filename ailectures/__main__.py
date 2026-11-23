@@ -35,6 +35,10 @@ def main(argv=None):
     serve.add_argument("--poll-interval", type=float, default=2)
     serve.add_argument("--host", default="127.0.0.1")
     serve.add_argument("--port", type=int, default=8001)
+    serve.add_argument("--https-port", type=int, help="Add HTTPS on this port alongside HTTP; create a local self-signed certificate unless a pair is supplied")
+    serve.add_argument("--ssl-certfile", type=Path)
+    serve.add_argument("--ssl-keyfile", type=Path)
+    serve.add_argument("--https-name", action="append", default=[], help="Hostname or IP to include in the local self-signed certificate; repeat as needed")
     serve.add_argument("--installed-only", action="store_true", help="Use installed packs without discovering a checkout")
     serve.add_argument(
         "--playback-only",
@@ -202,6 +206,25 @@ def main(argv=None):
             if args.config:
                 config = tomllib.loads(args.config.read_text())
             config_base = args.config.resolve().parent if args.config else Path.cwd()
+            https = config.get("https", {})
+            if not isinstance(https, dict):
+                raise ValueError("The https configuration must be a TOML table")
+            https_port = args.https_port if args.https_port is not None else https.get("port")
+            certfile = args.ssl_certfile or (config_base / https["certfile"] if https.get("certfile") else None)
+            keyfile = args.ssl_keyfile or (config_base / https["keyfile"] if https.get("keyfile") else None)
+            configured_names = https.get("names", [])
+            if not isinstance(configured_names, list) or not all(isinstance(value, str) for value in configured_names):
+                raise ValueError("https.names must be a list of hostnames or IP addresses")
+            https_names = [*configured_names, *args.https_name]
+            if https_port is None and (certfile or keyfile or https_names):
+                raise ValueError("Specify --https-port to enable the additional HTTPS listener")
+            if https_port is not None:
+                if type(https_port) is not int or not 0 <= https_port <= 65535 or not 0 <= args.port <= 65535:
+                    raise ValueError("Listener ports must be between 0 and 65535")
+                if args.port == https_port and args.port != 0:
+                    raise ValueError("HTTP and HTTPS need different ports")
+                from .serving import certificate_files
+                certfile, keyfile = certificate_files(args.library, args.host, certfile=certfile, keyfile=keyfile, names=https_names)
             roots = [
                 config_base / p for p in config.get("pack_roots", [])
             ] + args.pack_root
@@ -242,7 +265,14 @@ def main(argv=None):
                 legacy_factory=legacy_factory,
             )
             print(f"AI Lectures: http://{args.host}:{args.port}/", flush=True)
-            uvicorn.run(app, host=args.host, port=args.port)
+            if https_port is None:
+                uvicorn.run(app, host=args.host, port=args.port)
+            else:
+                from .serving import run_http_https
+                print(f"AI Lectures: https://{args.host}:{https_port}/", flush=True)
+                if not args.ssl_certfile and not https.get("certfile"):
+                    print("Local self-signed HTTPS: accept the browser certificate warning, then allow microphone access.", flush=True)
+                run_http_https(app, host=args.host, port=args.port, https_port=https_port, certfile=certfile, keyfile=keyfile)
         elif args.command == "prepare":
             from .library import Library
             from .production import GenerationManager

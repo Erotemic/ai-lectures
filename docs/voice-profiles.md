@@ -88,6 +88,66 @@ For another computer or phone, live browser recording needs HTTPS; over plain
 HTTP, record in another app and upload the matching audio instead. The app cannot
 grant microphone access that the browser blocks.
 
+### HTTP and HTTPS together
+
+Start both listeners from the same server command:
+
+```bash
+make serve HTTPS_PORT=8443
+```
+
+HTTP remains on port 8001 and HTTPS is added on port 8443. Both share the same
+app, catalog, generation coordinator, audio and named listener state. Existing
+HTTP links keep working. On another device, open `https://SERVER:8443/settings`,
+accept the self-signed certificate warning, and then grant microphone access.
+This flow has been checked in Chromium with a simulated microphone; certificate
+trust behavior can differ in other browsers.
+
+For a certificate matching a LAN/VPN address or hostname, add its names when
+starting (substitute the server's actual address):
+
+```bash
+make serve HTTPS_PORT=8443 HTTPS_NAMES="192.168.1.50 lecturebox.local"
+```
+
+The equivalent standalone reader command is:
+
+```bash
+python -m ailectures --library library-data serve \
+  --host 0.0.0.0 --port 8001 --https-port 8443 \
+  --https-name 192.168.1.50 --https-name lecturebox.local
+```
+
+The first HTTPS start needs `openssl` to create a one-year certificate and a
+private key in the ignored library's `state/tls/` directory. Later starts reuse
+that pair for the same names. The private key has owner-only permissions; it
+stays local and is not included in curated exports. To use your own certificate,
+pass both `--ssl-certfile CERT.pem` and `--ssl-keyfile KEY.pem`, or set
+`SSL_CERTFILE` and `SSL_KEYFILE` with `make serve`.
+
+The reader's optional TOML configuration also supports:
+
+```toml
+[https]
+port = 8443
+names = ["lecturebox.local", "192.168.1.50"]
+# Optional: supply both instead of generating a self-signed certificate.
+# certfile = "certificates/server.pem"
+# keyfile = "certificates/server-key.pem"
+```
+
+Certificate paths in TOML are relative to that configuration file. HTTP and
+HTTPS must use different ports. Both sockets are reserved before the app starts;
+a bad certificate or occupied port prevents a partial startup. Control-C or
+SIGTERM shuts down both listeners and the app together.
+
+HTTP and HTTPS are different browser origins. Device-local preferences and
+listening history do not automatically carry between them. To share progress,
+select the same named listener on both. Browser requests stay on the protocol
+and port of the page they came from.
+
+### Recorder feedback
+
 The recorder explains unavailable microphone access beside its controls rather
 than leaving Start recording silently disabled. You can start before naming a
 take; a name is required when saving it. An unanswered browser permission prompt

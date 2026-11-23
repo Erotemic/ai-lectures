@@ -143,6 +143,10 @@ wheelhouse`; after Python is installed, the release supplies its own dependencie
 The server starts in installed-only, playback-only mode at
 `http://localhost:8001/`. It needs no internet, source checkout, TTS service, GPU
 or FFmpeg. Stop with Control-C; restore runs only once into a new library folder.
+An installation can optionally add HTTPS alongside HTTP using the
+[HTTPS recording instructions](voice-profiles.md#http-and-https-together).
+Each installation creates or supplies its own certificate; TLS private keys are
+not transferred in a curated export.
 
 For each release, record:
 
