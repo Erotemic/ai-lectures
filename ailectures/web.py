@@ -1015,6 +1015,25 @@ def create_app(
             await run_in_threadpool(manager.profile_backend_voices, key)
         )
 
+    async def voice_reference_record(request):
+        require_local_action(request)
+        manager = production()
+        # Bound the actual stream, including requests without Content-Length.
+        raw = bytearray()
+        async for chunk in request.stream():
+            if len(raw) + len(chunk) > 6 * 1024**2:
+                raise HTTPException(413, "Recording upload too large")
+            raw.extend(chunk)
+        try:
+            payload = json.loads(raw)
+        except (ValueError, UnicodeDecodeError):
+            raise ValueError("Expected a recording upload") from None
+        if not isinstance(payload, dict):
+            raise ValueError("Expected a recording upload")
+        return JSONResponse(await run_in_threadpool(
+            manager.save_voice_reference, request.path_params["backend_id"], payload,
+        ), status_code=201, headers={"Cache-Control": "no-store"})
+
     async def clear_voice_cache(request):
         require_local_action(request)
         manager = production()
@@ -1315,6 +1334,7 @@ def create_app(
         Route("/api/library/voice-profiles/preview/{token}",voice_profile_preview_audio),
         Route("/api/library/voice-profiles/save",voice_profile_save,methods=["POST"]),
         Route("/api/library/voice-profiles/backends/{backend_id}/voices",voice_profile_voices,methods=["GET","POST"]),
+        Route("/api/library/voice-profiles/backends/{backend_id}/references",voice_reference_record,methods=["POST"]),
         Route("/api/library/voice-profiles/{profile_id}/action",voice_profile_action,methods=["POST"]),
         Route("/api/library/voice-profiles/{profile_id}",voice_profile_editor),
         Route("/api/library/settings", server_settings, methods=["GET", "POST"]),

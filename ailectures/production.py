@@ -241,6 +241,7 @@ class GenerationManager:
 
     def profile_catalog(self, *, probe=False, include_archived=False):
         from .voice_profiles import SCHEMA, RenderProfiles
+        from .voice_references import recording_capability
 
         self.sync_saved_profiles()
         store = self.saved_profile_store()
@@ -285,6 +286,7 @@ class GenerationManager:
                     ),
                     available=b["available"],
                     capabilities=b["capabilities"],
+                    reference_recording=recording_capability(b),
                 )
                 for b in backends
             ],
@@ -330,11 +332,30 @@ class GenerationManager:
                     voices.setdefault(
                         value, dict(voice=value, label=value, reference=False)
                     )
+        from .voice_references import uses_local_references, recorded_references
+
+        if uses_local_references(backend):
+            for record in recorded_references():
+                voices[record["voice"]] = dict(voice=record["voice"], label=record["label"], reference=True)
         return dict(
             backend_id=backend_id,
             voices=sorted(voices.values(), key=lambda row: row["label"].casefold()),
             discovery=discovery,
         )
+
+    def save_voice_reference(self, backend_id, payload):
+        from .voice_references import supports_recording, save_recording
+        from dkvis.presentation.tts import remote_voices
+
+        self.sync_saved_profiles()
+        backend = next((b for b in self.saved_profile_store().backends() if b["id"] == backend_id), None)
+        if backend is None or not supports_recording(backend):
+            raise ValueError("Reference recording is unavailable for this server/backend")
+        record = save_recording(payload)
+        # Discovery adds its default argument, so don't pass the new voice here.
+        fetched = remote_voices(backend["endpoint"], "default")
+        return dict(voice=record["voice"], label=record["label"], seconds=record["seconds"],
+                    backend_visible=record["voice"] in fetched)
 
     @staticmethod
     def _profile_editor_settings(recipe):
@@ -472,6 +493,14 @@ class GenerationManager:
         ]:
             if key in patch:
                 recipe["config"][target] = deepcopy(patch[key])
+        from .voice_references import uses_local_references, recorded_references
+
+        if uses_local_references(backend):
+            recorded = next((row for row in recorded_references() if row["voice"] == voice), None)
+            if recorded:
+                recipe["reference"] = deepcopy(recorded["reference"])
+                recipe["fixed_reference"] = True
+                recipe["config"]["voice_revision"] = digest(recorded["reference"])
         from .voice_profiles import PIPELINE
         from dkvis.presentation.audio_quality import VERSION
 

@@ -1,4 +1,5 @@
 import { api, post, el, store } from "./api.mjs";
+import { voiceReferenceRecorder } from "./voice-reference-recorder.mjs";
 
 export async function renderVoiceProfiles(
   root,
@@ -209,6 +210,8 @@ export async function renderVoiceProfiles(
       role: "status",
       "aria-live": "polite",
     });
+    const referencePanel = el("div");
+    let referenceRecorder = null;
     const fields = el("div"),
       preview = el("div");
     const registerId = el("input", {
@@ -264,6 +267,8 @@ export async function renderVoiceProfiles(
       disabled: playbackOnly() || !catalog.tools_available,
     });
     const close = () => {
+      referenceRecorder?.dispose();
+      removalObserver.disconnect();
       preview.querySelector("audio")?.pause();
       dialog.close();
       dialog.remove();
@@ -293,6 +298,7 @@ export async function renderVoiceProfiles(
         el("label", {}, "Voice/reference", voice),
       ),
       voiceStatus,
+      referencePanel,
       el(
         "details",
         {},
@@ -318,6 +324,8 @@ export async function renderVoiceProfiles(
     );
     dialog.append(form);
     dialog.showModal();
+    const removalObserver = new MutationObserver(() => { if (!root.isConnected) close(); });
+    removalObserver.observe(document.body, { childList: true, subtree: true });
     dialog.oncancel = (event) => {
       event.preventDefault();
       close();
@@ -327,6 +335,32 @@ export async function renderVoiceProfiles(
       token = 0;
     const selectedBackend = () =>
       catalog.backends.find((row) => row.id === backend.value);
+    function drawReferenceRecorder() {
+      referenceRecorder?.dispose();
+      referenceRecorder = null;
+      referencePanel.replaceChildren();
+      const capability = selectedBackend()?.reference_recording;
+      if (!capability?.available || playbackOnly()) return;
+      const backendId = backend.value;
+      referenceRecorder = voiceReferenceRecorder({
+        capability, player,
+        onBusy: (busy) => {
+          backend.disabled = busy || Boolean(existing && !duplicate);
+          voice.disabled = save.disabled = busy;
+          test.disabled = busy || playbackOnly() || !catalog.tools_available;
+        },
+        save: async (payload) => {
+          const result = await post(`/api/library/voice-profiles/backends/${backendId}/references`, payload);
+          if (!dialog.isConnected || backend.value !== backendId) return result;
+          const data = await api(`/api/library/voice-profiles/backends/${backendId}/voices`);
+          if (!dialog.isConnected || backend.value !== backendId) return result;
+          voiceOptions(data, result.voice);
+          await voice.onchange();
+          return result;
+        },
+      });
+      referencePanel.append(referenceRecorder.element);
+    }
     function identity() {
       return {
         ...(existing
@@ -384,6 +418,9 @@ export async function renderVoiceProfiles(
     }
     async function loadVoiceOptions(preferred = null, discover = true) {
       const generation = ++token;
+      referenceRecorder?.dispose();
+      referenceRecorder = null;
+      referencePanel.replaceChildren();
       save.disabled = test.disabled = true;
       try {
         const data = await api(
@@ -411,6 +448,7 @@ export async function renderVoiceProfiles(
         }
         if (!dialog.isConnected || generation !== token) return;
         drawFields();
+        drawReferenceRecorder();
         save.disabled = false;
         test.disabled = playbackOnly() || !catalog.tools_available;
         if (discover) void discoverVoices(backend.value, generation);

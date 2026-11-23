@@ -1019,6 +1019,10 @@ progress {
 .voice-profile-options { margin-top: .55rem; }
 .voice-profile-options[open] { grid-column: 1 / -1; }
 .voice-profile-options > .actions { margin-top: .65rem; }
+.voice-reference-recorder { margin: 1rem 0; padding: 1rem; border: 1px solid var(--line); border-radius: 8px; }
+.voice-reference-recorder > summary { cursor: pointer; color: var(--accent); font-weight: 600; }
+.voice-reference-recorder > p, .voice-reference-recorder > label, .voice-reference-recorder > .actions { margin: 0.8rem 0; }
+.voice-reference-recorder textarea, .voice-reference-recorder input, .voice-reference-recorder audio { width: 100%; min-width: 0; max-width: 100%; }
 .voice-profile-options p, .voice-profile-options code { overflow-wrap: anywhere; font-size: .8rem; }
 .voice-profile-device, .voice-profile-archived { margin: .8rem 0; }
 #voice-profiles > [role="status"]:empty { display: none; }

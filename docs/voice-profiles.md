@@ -50,6 +50,44 @@ material changes. The reader cannot detect every remote model replacement. A
 server URL relocation preserves identity; changing its model makes incompatible
 profiles unavailable. Duplicate a profile for the newly configured backend.
 
+## Recording a reference voice
+
+On supported servers, open **Settings → Saved voice profiles → Add profile**
+(or **Edit**) and expand **Record a reference voice**. Name the reference, read
+the displayed prompt exactly, stop recording, and review the take. You can edit
+the prompt before recording; changing it afterward discards the take so the audio
+cannot accidentally be saved with different words. A take must last 3–45 seconds.
+You can also upload a WebM, Ogg, MP4/M4A, WAV, or MP3 recording of those words,
+up to 4 MiB.
+
+**Save reference voice** saves and selects the reference. Then **Save voice
+profile** to use it in later previews and lecture generation. A new take always
+gets a new reference ID; previous references, profiles, and recordings remain
+available. Reference names and saved voices are shared by users of this server.
+
+Microphone access requires [HTTPS or localhost](https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices/getUserMedia).
+The upload option remains usable when visiting a household server over plain HTTP.
+
+The feature appears for configured **Breeze TTS 2** and **Fish S2 Pro** backends
+on loopback addresses when `ffmpeg` and a writable reference directory are present.
+The default directory is `~/code/local-ai/services/tts/voice-references`, relative
+to the account running the lecture server. Set `DKVIS_TTS_REFERENCE_DIR` in the
+server environment to use another existing shared reference directory. The TTS
+service must mount that same directory at `/voices`, as in the local-ai setup.
+Remote backends and other models do not expose the recorder.
+
+The server converts each take to mono, 24 kHz, 16-bit PCM WAV and stores its exact
+prompt alongside it. The TTS service discovers these pairs without restarting.
+After saving, the editor reports whether the backend advertises the new reference;
+if it does not, check the shared mount and refresh backend voices before generating.
+Duration and format are checked mechanically; the user checks the spoken words
+against the prompt.
+
+Audio, prompts, and reference metadata stay in the private reference directory.
+They are excluded from content packs, deployment bundles, and this repository.
+Library backups preserve saved profile settings but do not copy this external
+directory; back it up separately if you need to move or restore recorded voices.
+
 ## Parallel generation
 
 The reader queries Breeze's runtime endpoint for ready gateway workers and uses
@@ -67,7 +105,7 @@ saved recipes. New environment defaults do not rewrite profiles or queued jobs.
 The shared slide-production clients and legacy reader APIs retain their own
 configuration path.
 
-Saved recipes, private references, backend addresses, labels and preferences live
+Saved recipes, reference descriptions, backend addresses, labels and preferences live
 in `LIBRARY/state/render-profiles.sqlite3`, alongside the reader's other local
 state. Keep the library directory ignored. Never copy private profiles into shared
 TOML examples or source packs. Full library backups include this state and should
@@ -96,6 +134,11 @@ backend capabilities. Add `?archived=1` to include archived profiles.
 `POST /api/library/voice-profiles/save` creates a profile or saves an edit;
 edits require `id` and `expected_revision`, while duplication uses `duplicate_of`.
 Backend voice catalogs are under `/api/library/voice-profiles/backends/{id}/voices`.
+Supported backends advertise `reference_recording` in their catalog entry.
+`POST /api/library/voice-profiles/backends/{id}/references` accepts `label`,
+`transcript`, `media_type`, and `audio_base64`, and returns the new `voice` ID
+and whether it was advertised by the backend. This upload is disabled in
+playback-only mode.
 Preview, default, quick-select and archive actions use the same-origin mutation
 checks as other reader settings.
 
