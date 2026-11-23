@@ -255,11 +255,20 @@
     "History of science and mathematics",
     "Biography",
     "Qin Jiushao",
-    "Ancient mathematics",
-    "Military history",
-    "Early China"
+    "Southern Song dynasty",
+    "Medieval Chinese mathematics",
+    "Chinese remainder theorem",
+    "Simultaneous congruences",
+    "Non-coprime moduli",
+    "Counting rods",
+    "High-degree polynomial root extraction",
+    "Mathematical Treatise in Nine Sections",
+    "Surveying and numerical geometry",
+    "Astronomical calculation",
+    "Military and administrative history",
+    "Historical misconduct allegations"
   ],
-  "description": "Profiles Qin Jiushao’s Southern Song career in administration and mathematics, including his 1247 treatise, simultaneous remainders, numerical methods, and contested reputation.",
+  "description": "Follows Qin Jiushao through Southern Song war and contested government service while explaining his 1247 Mathematical Treatise in Nine Sections: compatible simultaneous remainders, counting-rod algorithms, high-degree polynomial root extraction, and surveying, including a tenth-degree city-wall problem.",
   "tag_paths": [
     [
       "History",
@@ -267,5 +276,20 @@
       "Scientific biography",
       "Qin Jiushao"
     ]
-  ]
+  ],
+  "places": [
+    "Sichuan, China (origin and wartime setting)",
+    "Lin’an (present-day Hangzhou), China (Southern Song capital)",
+    "Qiongzhou, Hainan, China (later governorship)"
+  ],
+  "chronology": {
+    "context": {
+      "start": 1202,
+      "end": 1261,
+      "approximate": true,
+      "label": "Qin Jiushao and Southern Song mathematical administration, c. 1202–1261",
+      "basis": "narrated_biographical_window",
+      "note": "The narration says Qin was born around 1202 and died around 1261; this is approximate historical context, not independently verified documented life dates. His main treatise was completed in 1247."
+    }
+  }
 }

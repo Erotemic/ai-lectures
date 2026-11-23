@@ -242,9 +242,19 @@
     "History of science and mathematics",
     "Biography",
     "Zhu Shijie",
-    "Ancient mathematics"
+    "Medieval Chinese mathematics",
+    "Yuan dynasty",
+    "Counting rods",
+    "Counting-board algebra",
+    "Four-unknown polynomial elimination",
+    "Jade Mirror of the Four Unknowns",
+    "Suanxue qimeng",
+    "Binomial coefficients",
+    "High-degree polynomial methods",
+    "Mathematical teaching",
+    "Korean and Japanese textual transmission"
   ],
-  "description": "Traces Zhu Shijie’s mathematical teaching under the Yuan dynasty through his published treatises, methods for multivariable polynomial equations, counting, and numerical calculation.",
+  "description": "Profiles Yuan-era traveling teacher Zhu Shijie through counting-board algebra, polynomial elimination with four unknowns, the 1299 Introduction to Mathematical Studies and 1303 Jade Mirror, binomial-coefficient arrays, and the later Korean and Japanese preservation and recovery of his mathematical texts.",
   "tag_paths": [
     [
       "History",
@@ -252,5 +262,21 @@
       "Scientific biography",
       "Zhu Shijie"
     ]
-  ]
+  ],
+  "places": [
+    "Yanshan, China (attributed origin near historical Dadu)",
+    "Yuan China (itinerant teaching; exact route unknown)",
+    "Korea (later preservation of mathematical texts)",
+    "Japan (later preservation of mathematical texts)"
+  ],
+  "chronology": {
+    "composition": {
+      "start": 1299,
+      "end": 1303,
+      "approximate": false,
+      "label": "Zhu Shijie’s surviving treatises, 1299 and 1303",
+      "basis": "publication_dates_discussed",
+      "note": "Dates of the Introduction to Mathematical Studies and Jade Mirror, not a documented life span; the narration qualifies the conventional c. 1260–1320 biographical dates."
+    }
+  }
 }
