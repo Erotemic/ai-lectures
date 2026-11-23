@@ -15,11 +15,12 @@ class Element {
 const find = (root, predicate) => predicate(root) ? root : root.children?.map((child) => typeof child === "object" && find(child, predicate)).find(Boolean);
 const tick = () => new Promise((resolve) => setImmediate(resolve));
 
-function setup(getMedia, { secure = true } = {}) {
+function setup(getMedia, { secure = true, url = "http://0.0.0.0:8001/settings" } = {}) {
   globalThis.document = { createElement: (tag) => new Element(tag), body: new Element("body") };
   globalThis.window = new EventTarget();
   globalThis.MutationObserver = class { constructor(callback) { this.callback = callback; } observe() {} disconnect() {} };
   globalThis.isSecureContext = secure;
+  globalThis.location = new URL(url);
   Object.defineProperty(globalThis, "navigator", { configurable: true, value: { mediaDevices: { getUserMedia: getMedia } } });
   globalThis.MediaRecorder = class {
     static isTypeSupported() { return true; }
@@ -123,7 +124,9 @@ test("denied microphone permission leaves recording and upload controls usable",
 test("an uploaded take remains usable on plain HTTP without requesting microphone access", async () => {
   const ui = setup(async () => { assert.fail("insecure page must not request microphone access"); }, { secure: false });
   try {
-    assert.equal(ui.record.disabled, true);
+    assert.equal(Boolean(ui.record.disabled), false);
+    await ui.record.onclick();
+    assert.equal(find(ui.root, (node) => node.tag === "a").href, "http://localhost:8001/settings#voice-profiles");
     const upload = find(ui.root, (node) => node.type === "file");
     upload.files = [Object.assign(new Blob(["synthetic upload"]), { name: "sample.wav" })];
     upload.onchange();
@@ -131,6 +134,53 @@ test("an uploaded take remains usable on plain HTTP without requesting microphon
     await ui.submit.onclick();
     assert.equal(ui.saved[0].media_type, "audio/wav");
     assert.equal(Buffer.from(ui.saved[0].audio_base64, "base64").toString(), "synthetic upload");
-    assert.equal(ui.record.disabled, true);
+    assert.equal(ui.record.disabled, false);
   } finally { ui.dispose(); }
+});
+
+test("starting a take does not require naming it until it is saved", async () => {
+  const media = input(), ui = setup(async () => media.stream);
+  try {
+    find(ui.root, (node) => node["aria-label"] === "Reference name").value = "";
+    await ui.record.onclick();
+    assert.equal(media.track.readyState, "live");
+    ui.stop.onclick(); await tick();
+    await ui.submit.onclick();
+    assert.deepEqual(ui.saved, []);
+  } finally { ui.dispose(); }
+});
+
+test("cancelling a pending request restores controls and ignores a late microphone grant", async () => {
+  const pending = [];
+  const ui = setup(() => new Promise((resolve) => pending.push(resolve)));
+  const first = input(), second = input();
+  try {
+    const opening = ui.record.onclick();
+    assert.equal(ui.record.disabled, true);
+    assert.equal(ui.stop.hidden, false);
+    ui.stop.onclick();
+    assert.equal(ui.record.disabled, false);
+    assert.equal(ui.stop.hidden, true);
+    const retry = ui.record.onclick();
+    pending[1](second.stream); await retry;
+    pending[0](first.stream); await opening;
+    assert.equal(first.track.readyState, "ended");
+    assert.equal(second.track.readyState, "live");
+    ui.stop.onclick(); await tick();
+    assert.equal(second.track.readyState, "ended");
+  } finally { ui.dispose(); }
+});
+
+test("secure browsers without MediaRecorder provide recovery without opening a microphone", async () => {
+  const ui = setup(async () => { assert.fail("microphone must not open without a recorder"); });
+  ui.dispose();
+  globalThis.MediaRecorder = undefined;
+  const unsupported = voiceReferenceRecorder({ capability: { prompt: "A synthetic test prompt.", min_seconds: 3, max_seconds: 45, max_bytes: 4096 },
+    save: async () => assert.fail("nothing to save"), onBusy: () => {}, player: { audio: { pause() {} } } });
+  try {
+    const record = find(unsupported.element, (node) => node.tag === "button");
+    assert.equal(Boolean(record.disabled), false);
+    await record.onclick();
+    assert.equal(find(unsupported.element, (node) => node.tag === "aside").hidden, false);
+  } finally { unsupported.dispose(); }
 });

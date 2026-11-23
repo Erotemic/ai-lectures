@@ -71,6 +71,20 @@ available. Reference names and saved voices are shared by users of this server.
 Microphone access requires [HTTPS or localhost](https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices/getUserMedia).
 The upload option remains usable when visiting a household server over plain HTTP.
 
+On the computer running the server, use `http://localhost:8001/settings` or
+`http://127.0.0.1:8001/settings` to record over HTTP (adjust the port if needed).
+`0.0.0.0` is a bind address and does not receive the browser's localhost exception.
+The recorder provides a direct localhost link when opened at that address.
+For another computer or phone, live browser recording needs HTTPS; over plain
+HTTP, record in another app and upload the matching audio instead. The app cannot
+grant microphone access that the browser blocks.
+
+The recorder explains unavailable microphone access beside its controls rather
+than leaving Start recording silently disabled. You can start before naming a
+take; a name is required when saving it. An unanswered browser permission prompt
+can be cancelled with **Cancel microphone request**, leaving upload and retry
+available. A later permission response cannot restart a cancelled recording.
+
 The feature appears for configured **Breeze TTS 2** and **Fish S2 Pro** backends
 on loopback addresses when `ffmpeg` and a writable reference directory are present.
 The default directory is `~/code/local-ai/services/tts/voice-references`, relative
