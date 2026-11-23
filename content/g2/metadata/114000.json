@@ -223,7 +223,7 @@
       }
     ]
   },
-  "description": "Uses reflections across subspaces to obtain double-angle identities and quantitative estimates for the distance between projections.",
+  "description": "Uses block reflections to derive sine-of-two-theta and tangent-of-two-theta bounds for off-diagonal self-adjoint perturbations, distinguishing bounds valid for all angles from those requiring the selected spectral branch.",
   "tag_paths": [
     [
       "Mathematics",
@@ -236,6 +236,18 @@
     [
       "Mathematics",
       "Reflections"
+    ],
+    [
+      "Mathematics",
+      "Spectral theory",
+      "Davis–Kahan theorems",
+      "Double-angle bounds"
     ]
+  ],
+  "tags": [
+    "Sine-two-theta theorem",
+    "Tangent-two-theta theorem",
+    "Off-diagonal perturbations",
+    "Spectral branch selection"
   ]
 }

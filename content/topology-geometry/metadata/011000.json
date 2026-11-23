@@ -202,7 +202,7 @@
       }
     ]
   },
-  "description": "Computes chains, cycles, boundaries, homology, and cohomology in concrete spaces before introducing their algebraic structure.",
+  "description": "Computes homology and cohomology of circles, spheres, and tori with chains, differential forms, and cup products, then develops Mayer–Vietoris and excision methods for gluing calculations.",
   "tag_paths": [
     [
       "Mathematics",
@@ -218,6 +218,19 @@
       "Mathematics",
       "Topology and geometry",
       "Cohomology"
+    ],
+    [
+      "Mathematics",
+      "Topology and geometry",
+      "Algebraic topology",
+      "Mayer–Vietoris sequence"
     ]
+  ],
+  "tags": [
+    "Cup products",
+    "Mayer–Vietoris sequence",
+    "Excision",
+    "de Rham map",
+    "Torus cohomology"
   ]
 }

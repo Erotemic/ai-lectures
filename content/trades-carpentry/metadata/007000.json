@@ -782,19 +782,34 @@
       ]
     }
   ],
-  "description": "Examines interior trim and fitted elements through seasonal wood movement, tolerances, and fastening choices.",
+  "description": "Treats windows, doors, trim, stairs, guardrails, cabinets, shelves, and exterior finishes as connected carpentry systems, accounting for tolerances, seasonal movement, loading, and weather exposure.",
   "tags": [
     "Load Paths",
     "Windows, Doors, Trim, and Movement",
     "Stairs, Guardrails, and Geometric Constraints",
     "Cabinetry, Shelves, and Deflection Under Load",
-    "Wood Finishes, Weathering, and Exterior Durability"
+    "Wood Finishes, Weathering, and Exterior Durability",
+    "Window and door installation",
+    "Stair and guardrail geometry",
+    "Cabinet deflection",
+    "Exterior wood finishing",
+    "Seasonal wood movement"
   ],
   "tag_paths": [
     [
       "Practical skills",
       "Carpentry",
       "Load Paths"
+    ],
+    [
+      "Practical skills",
+      "Carpentry",
+      "Finish carpentry and cabinetry"
+    ],
+    [
+      "Practical skills",
+      "Carpentry",
+      "Stair and guardrail geometry"
     ]
   ]
 }

@@ -257,7 +257,7 @@
       "Can you apply the scalar chain rule to (x squared + 1) cubed, including evaluating the outer derivative at the inner output?"
     ]
   },
-  "description": "Treats the derivative as a linear approximation to a multivariable map, connecting Jacobian matrices to tangent geometry and the chain rule.",
+  "description": "Develops multivariable limits, total derivatives, Jacobians, gradients, tangent geometry, and the chain rule before explaining local solvability through the inverse and implicit function theorems.",
   "tag_paths": [
     [
       "Mathematics",
@@ -271,6 +271,17 @@
     [
       "Mathematics",
       "Topology"
+    ],
+    [
+      "Mathematics",
+      "Multivariable calculus",
+      "Inverse and implicit functions"
     ]
+  ],
+  "tags": [
+    "Jacobian matrices",
+    "Inverse function theorem",
+    "Implicit function theorem",
+    "Total derivative"
   ]
 }

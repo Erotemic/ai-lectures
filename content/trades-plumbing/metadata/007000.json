@@ -1086,16 +1086,33 @@
       ]
     }
   ],
-  "description": "Uses flow and pressure symptoms to distinguish possible plumbing faults and verify that a proposed repair addresses the cause.",
+  "description": "Diagnoses fixture restrictions, leaks and noise by comparing static and flowing pressures, then develops valve and cartridge repair, pressure testing, recommissioning, water-hammer analysis, and filter troubleshooting.",
   "tags": [
     "Fundamental Hydraulics",
-    "Diagnosing Low Flow, Noise, and Leaks"
+    "Diagnosing Low Flow, Noise, and Leaks",
+    "Water hammer",
+    "Fixture cartridges",
+    "Pressure testing",
+    "Supply stops",
+    "Water filters",
+    "Static versus flowing pressure"
   ],
   "tag_paths": [
     [
       "Practical skills",
       "Plumbing",
       "Fundamental Hydraulics"
+    ],
+    [
+      "Practical skills",
+      "Plumbing",
+      "Hydraulic diagnostics",
+      "Pressure and flow"
+    ],
+    [
+      "Practical skills",
+      "Plumbing",
+      "Fixture repairs"
     ]
   ]
 }
