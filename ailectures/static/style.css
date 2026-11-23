@@ -1003,7 +1003,7 @@ progress {
 @media (max-width: 800px) { .topic-graph-layout { grid-template-columns: minmax(0,1fr); } .topic-graph-panel { position: static; } .topic-graph-panel svg { height: 420px; } }
 
 .topic-graph-layout > section { min-width: 0; overflow-wrap: anywhere; }
-.voice-profile-dialog { width: min(780px, 94vw); max-width: 94vw; max-height: 90vh; overflow-y: auto; }
+.voice-profile-dialog { width: min(780px, 94vw); max-width: 94vw; max-height: 90vh; overflow-y: auto; scroll-padding-top: 2rem; }
 .voice-profile-dialog form { min-width: 0; }
 .voice-profile-dialog textarea { width: 100%; min-height: 6rem; }
 .voice-profile-dialog input:not([type="checkbox"]), .voice-profile-dialog select { max-width: 100%; }
@@ -1023,6 +1023,34 @@ progress {
 .voice-reference-recorder > summary { cursor: pointer; color: var(--accent); font-weight: 600; }
 .voice-reference-recorder > p, .voice-reference-recorder > label, .voice-reference-recorder > .actions { margin: 0.8rem 0; }
 .voice-reference-recorder textarea, .voice-reference-recorder input, .voice-reference-recorder audio { width: 100%; min-width: 0; max-width: 100%; }
+.voice-recording-controls { margin: .8rem 0; }
+.voice-recording-controls[data-state="recording"] { position: sticky; top: 0; z-index: 2; background: var(--panel); border: 1px solid #bc4338; border-radius: 8px; padding: .8rem; box-shadow: 0 3px 12px #0002; }
+.voice-recording-controls > p { margin: .5rem 0 0; font-size: .82rem; }
+.recording-heading { display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+.recording-badge { display: inline-flex; align-items: center; gap: .5rem; color: #ad3028; font-weight: 700; }
+.recording-dot { width: .65rem; height: .65rem; border-radius: 50%; background: #d63830; animation: recording-pulse 1.4s ease-in-out infinite; }
+.recording-elapsed { font-variant-numeric: tabular-nums; font-weight: 600; }
+.recording-device { display: block; color: var(--muted); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: .75rem; }
+.recording-device:empty { display: none; }
+.voice-recording-controls[data-state="recording"] .recording-stop { background: #ad3028; border-color: #ad3028; color: #fff; font-weight: 600; }
+.voice-recording-controls[data-state="recording"] .actions > button:first-child { display: none; }
+.recording-prompt { scroll-margin-top: 15rem; }
+.microphone-level { margin: .5rem 0; }
+.microphone-level-heading, .microphone-level-scale { display: flex; justify-content: space-between; gap: .5rem; font-size: .75rem; color: var(--muted); }
+.microphone-level-value { font-variant-numeric: tabular-nums; }
+.microphone-level-bar { display: flex; gap: 3px; height: 1.2rem; margin: .25rem 0; }
+.microphone-level-bar > span { flex: 1; min-width: 0; background: var(--line); border-radius: 2px; }
+.microphone-level-bar > span[data-lit="true"] { background: #27845c; }
+.microphone-level-bar > span:nth-child(n+19)[data-lit="true"] { background: #c18918; }
+.microphone-level-bar > span:nth-child(n+23)[data-lit="true"] { background: #d63830; }
+.microphone-level-advice { font-size: .8rem; min-height: 3.2em; margin: .35rem 0 .5rem; }
+.microphone-level[data-level="clipping"] .microphone-level-advice, .microphone-level[data-level="loud"] .microphone-level-advice { color: #ad3028; font-weight: 600; }
+@keyframes recording-pulse { 50% { opacity: .4; } }
+@media (prefers-reduced-motion: reduce) { .recording-dot { animation: none; } }
+@media (prefers-color-scheme: dark) {
+  .recording-badge, .microphone-level[data-level="clipping"] .microphone-level-advice,
+  .microphone-level[data-level="loud"] .microphone-level-advice { color: #ff9a92; }
+}
 .voice-profile-options p, .voice-profile-options code { overflow-wrap: anywhere; font-size: .8rem; }
 .voice-playground { margin: 1rem 0 1.5rem; padding: 1rem; background: var(--panel); border: 1px solid var(--line); border-radius: 8px; }
 .voice-playground textarea { width: 100%; min-height: 7rem; }

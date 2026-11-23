@@ -1,4 +1,5 @@
 import { el } from "./api.mjs";
+import { microphoneMeter } from "./microphone-meter.mjs";
 
 export function voiceReferenceRecorder({ capability, save, onBusy, player }) {
   let stream, recorder, timer, deadline, take, previewURL, disposed = false;
@@ -10,10 +11,18 @@ export function voiceReferenceRecorder({ capability, save, onBusy, player }) {
   const preview = el("audio", { controls: true, hidden: true, "aria-label": "Your reference recording" });
   preview.onplay = () => player.audio.pause();
   const canRecord = Boolean(globalThis.isSecureContext && navigator.mediaDevices?.getUserMedia && globalThis.MediaRecorder);
-  const record = el("button", { type: "button", text: canRecord ? "Start recording" : "Enable microphone recording" });
-  const stop = el("button", { type: "button", text: "Stop recording", hidden: true });
+  const record = el("button", { type: "button", "data-record-action": "start", text: canRecord ? "Start recording" : "Enable microphone recording" });
+  const stop = el("button", { type: "button", "data-record-action": "stop", text: "Stop recording", hidden: true });
   const upload = el("input", { type: "file", accept: ".webm,.ogg,.mp4,.m4a,.wav,.mp3", "aria-label": "Upload a reference recording" });
-  const submit = el("button", { type: "button", class: "primary", text: "Save reference voice", disabled: true });
+  const submit = el("button", { type: "button", "data-record-action": "save", class: "primary", text: "Save reference voice", disabled: true });
+  const meter = microphoneMeter();
+  const elapsed = el("output", { class: "recording-elapsed", "aria-label": "Elapsed recording time", "aria-live": "off", text: "00:00" });
+  const device = el("small", { class: "recording-device" });
+  const recordingHeader = el("div", { class: "recording-heading", hidden: true },
+    el("span", { class: "recording-badge" }, el("span", { class: "recording-dot", "aria-hidden": "true" }), "Recording"), elapsed);
+  const controls = el("div", { class: "voice-recording-controls", "data-state": "idle" },
+    recordingHeader, device, meter.element, el("div", { class: "actions" }, record, stop), status);
+  stop.className = "recording-stop";
   const localAddress = globalThis.location?.hostname === "0.0.0.0"
     ? new URL("/settings#voice-profiles", globalThis.location.href) : null;
   if (localAddress) localAddress.hostname = "localhost";
@@ -29,10 +38,9 @@ export function voiceReferenceRecorder({ capability, save, onBusy, player }) {
     el("p", { text: `Read the prompt exactly in your normal speaking voice (${capability.min_seconds}–${capability.max_seconds} seconds). Review your take before saving.` }),
     el("p", { class: "muted", text: "Saved voices are available to everyone using this server for future generation. The reference recording and prompt stay on this server." }),
     el("label", {}, "Reference name", name),
-    el("label", {}, "Words to read", prompt),
     accessHelp,
-    el("div", { class: "actions" }, record, stop),
-    status,
+    controls,
+    el("label", { class: "recording-prompt" }, "Words to read", prompt),
     el("label", {}, "Or upload a recording of these words", upload),
     preview, submit);
 
@@ -50,6 +58,9 @@ export function voiceReferenceRecorder({ capability, save, onBusy, player }) {
   }
   function releaseMicrophone() {
     clearInterval(timer); clearTimeout(deadline);
+    meter.stop();
+    recordingHeader.hidden = true; device.textContent = "";
+    controls.setAttribute("data-state", "idle");
     stream?.getTracks().forEach((track) => track.stop());
     stream = null;
   }
@@ -81,7 +92,10 @@ export function voiceReferenceRecorder({ capability, save, onBusy, player }) {
         status.textContent = "Microphone request cancelled. You can try again or upload a recording.";
       }
     }
-    if (recorder?.state === "recording") recorder.stop();
+    if (recorder?.state === "recording") {
+      recorder.stop();
+      if (!disposed) status.textContent = "Recording stopped. Preparing your take for playback…";
+    }
     releaseMicrophone();
   }
   record.onclick = async () => {
@@ -101,6 +115,9 @@ export function voiceReferenceRecorder({ capability, save, onBusy, player }) {
       if (disposed || request !== microphoneRequest) { input.getTracks().forEach((track) => track.stop()); return; }
       waitingForMicrophone = false;
       stream = input;
+      const track = (stream.getAudioTracks?.() || stream.getTracks())[0];
+      device.textContent = track?.label || "Microphone active";
+      device.title = device.textContent;
       stop.textContent = "Stop recording";
       const type = ["audio/webm;codecs=opus", "audio/ogg;codecs=opus", "audio/mp4"].find((mime) => MediaRecorder.isTypeSupported(mime));
       recorder = new MediaRecorder(stream, type ? { mimeType: type } : {});
@@ -122,8 +139,13 @@ export function voiceReferenceRecorder({ capability, save, onBusy, player }) {
       };
       clearTake(); player.audio.pause();
       recorder.start(250); stop.hidden = false;
-      fitPrompt(); prompt.scrollIntoView({ block: "center" });
-      const update = () => { status.textContent = `Recording · ${Math.floor((Date.now() - started) / 1000)} / ${capability.max_seconds} seconds`; };
+      controls.setAttribute("data-state", "recording"); recordingHeader.hidden = false;
+      meter.start(stream);
+      status.textContent = "";
+      fitPrompt();
+      controls.scrollIntoView({ block: "start" });
+      const time = (seconds) => `${String(Math.floor(seconds / 60)).padStart(2, "0")}:${String(seconds % 60).padStart(2, "0")}`;
+      const update = () => { elapsed.textContent = `${time(Math.floor((Date.now() - started) / 1000))} / ${time(capability.max_seconds)}`; };
       update(); timer = setInterval(update, 1000);
       deadline = setTimeout(stopRecording, (capability.max_seconds - 0.5) * 1000);
     } catch (error) {
@@ -173,7 +195,7 @@ export function voiceReferenceRecorder({ capability, save, onBusy, player }) {
   function dispose() {
     if (disposed) return;
     disposed = true;
-    stopRecording(); clearTake(); observer.disconnect();
+    stopRecording(); clearTake(); meter.dispose(); observer.disconnect();
     window.removeEventListener("pagehide", stopRecording);
     window.removeEventListener("resize", fitPrompt);
   }

@@ -51,7 +51,10 @@ function setup(getMedia, { secure = true, url = "http://0.0.0.0:8001/settings" }
   name.value = "Synthetic voice";
   const buttons = [];
   (function collect(node) { if (node.tag === "button") buttons.push(node); for (const child of node.children || []) if (typeof child === "object") collect(child); })(root);
-  return { ...controller, root, saved, busy, record: buttons[0], stop: buttons[1], submit: buttons[2],
+  return { ...controller, root, saved, busy,
+    record: buttons.find((node) => node["data-record-action"] === "start"),
+    stop: buttons.find((node) => node["data-record-action"] === "stop"),
+    submit: buttons.find((node) => node["data-record-action"] === "save"),
     prompt: find(root, (node) => node.tag === "textarea") };
 }
 
@@ -67,9 +70,16 @@ test("reviewed takes save their matching prompt and release the microphone", asy
     await ui.record.onclick();
     assert.equal(ui.submit.disabled, true);
     assert.equal(ui.prompt.readOnly, true);
+    const controls = find(ui.root, (node) => node.className === "voice-recording-controls");
+    const heading = find(ui.root, (node) => node.className === "recording-heading");
+    assert.equal(controls["data-state"], "recording");
+    assert.equal(heading.hidden, false);
     ui.stop.onclick();
     await tick();
     assert.equal(media.track.readyState, "ended");
+    assert.equal(controls["data-state"], "idle");
+    assert.equal(heading.hidden, true);
+    assert.equal(find(ui.root, (node) => node.className === "microphone-level").hidden, true);
     assert.equal(ui.submit.disabled, false);
     await ui.submit.onclick();
     assert.equal(ui.saved.length, 1);
@@ -178,7 +188,7 @@ test("secure browsers without MediaRecorder provide recovery without opening a m
   const unsupported = voiceReferenceRecorder({ capability: { prompt: "A synthetic test prompt.", min_seconds: 3, max_seconds: 45, max_bytes: 4096 },
     save: async () => assert.fail("nothing to save"), onBusy: () => {}, player: { audio: { pause() {} } } });
   try {
-    const record = find(unsupported.element, (node) => node.tag === "button");
+    const record = find(unsupported.element, (node) => node["data-record-action"] === "start");
     assert.equal(Boolean(record.disabled), false);
     await record.onclick();
     assert.equal(find(unsupported.element, (node) => node.tag === "aside").hidden, false);

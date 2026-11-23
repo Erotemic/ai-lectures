@@ -85,6 +85,20 @@ take; a name is required when saving it. An unanswered browser permission prompt
 can be cancelled with **Cancel microphone request**, leaving upload and retry
 available. A later permission response cannot restart a cancelled recording.
 
+While recording, a red recording indicator, elapsed/maximum time, microphone
+name, and live input meter stay visible above the reading prompt. The meter
+measures the actual microphone samples in the browser. It shows input level and
+guidance for sustained quiet input, silence, loud input, and clipping. Brief
+pauses do not immediately trigger quiet warnings, and clipping feedback remains
+visible for a second after a peak. Text accompanies the colors, and the pulsing
+recording indicator respects reduced-motion preferences.
+
+Level guidance measures signal amplitude; listen back to judge the take's sound
+quality. The meter does not change the recorded audio or play the microphone
+through the speakers. Stopping, cancelling, or closing the editor releases the
+meter's audio context and animation updates along with the microphone. Recording
+still works if a browser cannot provide metering; the panel explains that state.
+
 The feature appears for configured **Breeze TTS 2** and **Fish S2 Pro** backends
 on loopback addresses when `ffmpeg` and a writable reference directory are present.
 The default directory is `~/code/local-ai/services/tts/voice-references`, relative
