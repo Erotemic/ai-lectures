@@ -234,7 +234,17 @@
     "History of science and mathematics",
     "Biography",
     "Euclid of Alexandria",
-    "Ancient mathematics"
+    "Ptolemaic Alexandria",
+    "Elements of Euclid",
+    "Axiomatic geometry",
+    "Geometric construction and proof",
+    "Parallel postulate",
+    "Eudoxian ratios and proportion",
+    "Euclidean algorithm",
+    "Infinitely many primes",
+    "Greek mathematical manuscripts",
+    "Arabic and Latin translation of the Elements",
+    "History of mathematical textbooks"
   ],
   "description": "Explores what can be established about Euclid in Ptolemaic Alexandria, how the Elements organizes geometry and number, and how its proof tradition survived through translation.",
   "tag_paths": [
@@ -244,5 +254,19 @@
       "Scientific biography",
       "Euclid of Alexandria"
     ]
-  ]
+  ],
+  "places": [
+    "Alexandria, Egypt",
+    "Venice, Italy"
+  ],
+  "chronology": {
+    "context": {
+      "start": -300,
+      "end": -300,
+      "approximate": true,
+      "label": "Euclid associated with Alexandria around 300 BCE",
+      "basis": "period_discussed",
+      "note": "Association with Ptolemaic Alexandria is presented as historically supported; exact birth and death dates, birthplace, and personal details are unknown. This is context, not a lifespan."
+    }
+  }
 }

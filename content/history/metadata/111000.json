@@ -238,7 +238,18 @@
     "History of science and mathematics",
     "Biography",
     "Al-Biruni",
-    "Astronomy"
+    "Historical Khwarazm",
+    "Astronomical observation and instruments",
+    "Eclipse timing and longitude",
+    "Latitude and geodesy",
+    "Earth-radius estimation",
+    "Map projections",
+    "Measurement error and calibration",
+    "Comparative calendars and chronology",
+    "Sanskrit and Arabic scientific translation",
+    "Indian astronomy and cultural study",
+    "Ghaznavid conquest and court patronage",
+    "Scientific comparison across cultures"
   ],
   "description": "Traces al-Biruni from Khwarazm through regional political upheavals to comparative calendars, Sanskrit studies, geographical measurements, astronomy, and careful discussion of error.",
   "tag_paths": [
@@ -253,12 +264,21 @@
     "life": {
       "start": 973,
       "end": 1048,
-      "approximate": false,
-      "label": "Al-Biruni, 973–1048",
+      "approximate": true,
+      "label": "Al-Biruni, born 973; death conventionally circa 1048",
       "basis": "documented_biography",
       "source_ids": [
         "history-biruni-mactutor"
-      ]
+      ],
+      "note": "The narration presents 973 as the birth year but qualifies the conventional death date around 1048, noting conflicting later notices. Original documentary source ID retained."
     }
-  }
+  },
+  "places": [
+    "Khwarazm (historical Central Asian region, now largely Uzbekistan)",
+    "Rayy, Iran",
+    "Gurgan, Iran",
+    "Ghazni, Afghanistan",
+    "Indian subcontinent",
+    "Baghdad, Iraq"
+  ]
 }

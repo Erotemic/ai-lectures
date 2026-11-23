@@ -261,9 +261,23 @@
     "History of science and mathematics",
     "Biography",
     "Liu Hui",
-    "Ancient mathematics"
+    "Nine Chapters on the Mathematical Art",
+    "Ancient Chinese mathematics",
+    "Three Kingdoms period",
+    "Mathematical commentary and proof",
+    "Geometric dissection",
+    "Trapezoid area proofs",
+    "Pyramid volume arguments",
+    "Polygon approximation to pi",
+    "Sphere-volume problem",
+    "Signed numbers",
+    "Counting-rod elimination",
+    "Simultaneous linear equations",
+    "Sea Island surveying",
+    "Similar triangles",
+    "Mathematical manuscript transmission"
   ],
-  "description": "Profiles Liu Hui’s third-century Chinese mathematical commentary on the Nine Chapters, explaining elimination, negative numbers, area and volume proofs, and approximation by exhaustion.",
+  "description": "Follows Liu Hui’s explanation of the Nine Chapters through geometric dissection, signed-number elimination, polygon approximations to pi and inaccessible-distance surveying, including his identification of an unresolved sphere-volume problem and later textual transmission.",
   "tag_paths": [
     [
       "History",
@@ -271,5 +285,18 @@
       "Scientific biography",
       "Liu Hui"
     ]
-  ]
+  ],
+  "places": [
+    "China (Three Kingdoms-era historical setting; personal location unknown)"
+  ],
+  "chronology": {
+    "composition": {
+      "start": 263,
+      "end": 263,
+      "approximate": true,
+      "label": "Commentary on the Nine Chapters conventionally dated to 263 CE",
+      "basis": "later_textual_witness",
+      "note": "The date is presented as conventional and based on later textual witnesses. The narration provides no secure birthplace, career city or lifespan for Liu Hui."
+    }
+  }
 }

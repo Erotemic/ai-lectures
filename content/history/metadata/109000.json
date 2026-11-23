@@ -262,9 +262,21 @@
     "History of science and mathematics",
     "Biography",
     "Aryabhata I",
-    "Ancient mathematics"
+    "Aryabhatiya",
+    "Indian mathematical astronomy",
+    "Earth rotation and apparent stellar motion",
+    "Geocentric astronomical models",
+    "Planetary epicycles",
+    "Eclipse geometry",
+    "Pi approximation",
+    "Trigonometric sine tables",
+    "Sine-difference recurrences",
+    "Verse-encoded numerals",
+    "Kuttaka indeterminate equations",
+    "Astronomical computation",
+    "Bhaskara I commentary"
   ],
-  "description": "Explains Aryabhata’s mathematical astronomy around 500 CE through the Aryabhatiya, numeral language, trigonometry, planetary models, eclipse calculations, and later commentary.",
+  "description": "Examines Aryabhata’s 499 CE Aryabhatiya through verse-encoded numbers, pi approximation, sine tables, kuttaka equations, eclipse geometry and a proposed daily rotation of Earth within a geocentric planetary model, distinguishing his rules from later commentary.",
   "tag_paths": [
     [
       "History",
@@ -272,5 +284,18 @@
       "Scientific biography",
       "Aryabhata I"
     ]
-  ]
+  ],
+  "places": [
+    "Kusumapura (commonly identified with Pataliputra in the Ganges region, India)"
+  ],
+  "chronology": {
+    "composition": {
+      "start": 499,
+      "end": 499,
+      "approximate": false,
+      "label": "Aryabhatiya composed in 499 CE",
+      "basis": "composition_date_discussed",
+      "note": "The manuscript reports Aryabhata stated his age as 23 at composition. Birthplace and exact location of teaching are unresolved; this is a composition date, not a lifespan."
+    }
+  }
 }

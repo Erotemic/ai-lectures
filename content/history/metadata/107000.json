@@ -209,10 +209,20 @@
     "History of science and mathematics",
     "Biography",
     "Muhammad ibn Musa al-Khwarizmi",
+    "Abbasid Baghdad",
     "Algebra",
-    "Urban history"
+    "Al-jabr and al-muqabala",
+    "Quadratic equations",
+    "Completing the square",
+    "Mathematical problem classification",
+    "Hindu–Arabic numerals",
+    "Place-value arithmetic",
+    "Historical origins of algorithms",
+    "Astronomical tables",
+    "Geographical coordinates",
+    "Arabic and Latin mathematical translation"
   ],
-  "description": "Places al-Khwarizmi in Abbasid Baghdad, explaining his systematic treatment of algebraic equations, Indian numerals, astronomical tables, and the transmission of mathematical methods through translation.",
+  "description": "Follows al-Khwarizmi in Abbasid Baghdad through the classification and geometric completion of quadratic equations, Indian place-value arithmetic, astronomical tables and geographical coordinates, distinguishing his systematization from earlier mathematics and later Latin transmission.",
   "tag_paths": [
     [
       "History",
@@ -220,5 +230,18 @@
       "Scientific biography",
       "Muhammad ibn Musa al-Khwarizmi"
     ]
-  ]
+  ],
+  "places": [
+    "Baghdad, Iraq"
+  ],
+  "chronology": {
+    "context": {
+      "start": 813,
+      "end": 833,
+      "approximate": false,
+      "label": "Al-Khwarizmi’s Baghdad scholarly setting during al-Ma’mun’s reign (813–833 CE)",
+      "basis": "historical_setting_discussed",
+      "note": "The reign is an anchored context period in the narration, not al-Khwarizmi’s uncertain birth/death dates. His name suggests Khwarazm, but the text does not establish his birthplace there."
+    }
+  }
 }
