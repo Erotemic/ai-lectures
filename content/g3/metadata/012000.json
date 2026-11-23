@@ -43,7 +43,7 @@
       "reason": "Spectral projections for bounded intervals and the resulting bounded truncations."
     }
   ],
-  "description": "Examines Sylvester identities for unbounded operators and the role of spectral cutoffs in making the identities and limiting arguments legitimate.",
+  "description": "Develops domain-safe Sylvester identities for unbounded self-adjoint operators using adjoint duality and bounded residuals, then constructs gap-preserving spectral cutoffs and distinguishes strong convergence from norm convergence in the limit arguments.",
   "tag_paths": [
     [
       "Mathematics",
@@ -56,6 +56,30 @@
     [
       "Mathematics",
       "Sylvester equations"
+    ],
+    [
+      "Mathematics",
+      "Unbounded operators",
+      "Domain compatibility"
+    ],
+    [
+      "Mathematics",
+      "Sylvester equations",
+      "Spectral cutoffs"
+    ],
+    [
+      "Mathematics",
+      "Functional analysis",
+      "Strong operator convergence"
     ]
+  ],
+  "tags": [
+    "Davis–Kahan",
+    "Unbounded operators",
+    "Sylvester equations",
+    "Operator domains",
+    "Spectral truncation",
+    "Strong convergence",
+    "Ky Fan inequalities"
   ]
 }

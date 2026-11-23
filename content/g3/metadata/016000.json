@@ -39,7 +39,7 @@
       "reason": "Quadratic-form inequalities such as A1 - alpha <= C1 (Lambda1 - alpha) C1."
     }
   ],
-  "description": "Examines off-diagonal perturbations, the need to select the intended spectral branch, and the eigenvalue-repulsion geometry behind stronger angle estimates.",
+  "description": "Analyzes strictly off-diagonal self-adjoint perturbations, the continuation of the intended spectral branch below a 45-degree angle, and the eigenvalue repulsion that strengthens angle estimates; distinguishes the selected branch from arbitrary spectral subspaces.",
   "tag_paths": [
     [
       "Mathematics",
@@ -52,6 +52,29 @@
     [
       "Mathematics",
       "Off-diagonal perturbations"
+    ],
+    [
+      "Mathematics",
+      "Perturbation theory",
+      "Off-diagonal perturbations"
+    ],
+    [
+      "Mathematics",
+      "Spectral selection",
+      "Branch continuation"
+    ],
+    [
+      "Mathematics",
+      "Principal angles",
+      "Eigenvalue repulsion"
     ]
+  ],
+  "tags": [
+    "Davis–Kahan",
+    "Off-diagonal perturbations",
+    "Spectral branch selection",
+    "Eigenvalue repulsion",
+    "Principal angles",
+    "Invariant subspaces"
   ]
 }

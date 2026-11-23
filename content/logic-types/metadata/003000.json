@@ -33,7 +33,7 @@
       "audit_status": "reference_recorded"
     }
   ],
-  "description": "Examines dependent products and sums, universals, existentials, specification, and the computational role of witnesses.",
+  "description": "Explains universal quantifiers as dependent functions and existential witnesses as dependent pairs, distinguishing Lean’s propositional Exists from computational sigma types and showing why quantifier order, choice, and algorithmic specifications require different guarantees.",
   "tag_paths": [
     [
       "Mathematics",
@@ -49,6 +49,31 @@
       "Mathematics",
       "Mathematical logic",
       "Witnesses"
+    ],
+    [
+      "Mathematics",
+      "Mathematical logic",
+      "Dependent functions and Pi types"
+    ],
+    [
+      "Mathematics",
+      "Mathematical logic",
+      "Existence and Sigma types"
+    ],
+    [
+      "Mathematics",
+      "Mathematical logic",
+      "Propositional versus computational witnesses"
     ]
+  ],
+  "tags": [
+    "Dependent functions",
+    "Pi types",
+    "Sigma types",
+    "Universal quantification",
+    "Existential quantification",
+    "Proofs versus data",
+    "Axiom of choice",
+    "Verified algorithms"
   ]
 }
