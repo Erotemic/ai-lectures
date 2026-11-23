@@ -23,15 +23,16 @@ make serve
 
 Open <http://127.0.0.1:8001/>. `make serve` installs the serving dependencies and
 binds to the LAN; another device can use the server's address on port 8001.
-Use `make serve PORT=8002` to change the port, or `make serve HOST=127.0.0.1`
+Use `make serve PORT=8011` to change the HTTP port, or `make serve HOST=127.0.0.1`
 to bind only to this machine. Named listeners share progress and queues across
 devices without accounts or passwords; the LAN binding is intended for a
 trusted network.
 
-Use `make serve HTTPS_PORT=8443` to serve HTTP and HTTPS simultaneously. HTTPS
+`make serve` starts HTTP on port 8001 and HTTPS on port 8002 by default. HTTPS
 creates a persistent local self-signed certificate unless you supply one. Open
-`https://SERVER:8443/settings` for microphone recording from another device;
-existing HTTP links on port 8001 keep working. See the
+`https://SERVER:8002/settings` for microphone recording from another device;
+existing HTTP links on port 8001 keep working. Set `HTTPS_PORT` to change the
+HTTPS port, or use `make serve HTTPS_PORT=` for HTTP only. See the
 [HTTPS recording instructions](docs/voice-profiles.md#http-and-https-together).
 
 Browsing transcripts and playing prepared audio need no running AI model,

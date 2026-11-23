@@ -93,12 +93,12 @@ grant microphone access that the browser blocks.
 Start both listeners from the same server command:
 
 ```bash
-make serve HTTPS_PORT=8443
+make serve
 ```
 
-HTTP remains on port 8001 and HTTPS is added on port 8443. Both share the same
+HTTP on port 8001 and HTTPS on port 8002 start by default. Both share the same
 app, catalog, generation coordinator, audio and named listener state. Existing
-HTTP links keep working. On another device, open `https://SERVER:8443/settings`,
+HTTP links keep working. On another device, open `https://SERVER:8002/settings`,
 accept the self-signed certificate warning, and then grant microphone access.
 This flow has been checked in Chromium with a simulated microphone; certificate
 trust behavior can differ in other browsers.
@@ -107,14 +107,14 @@ For a certificate matching a LAN/VPN address or hostname, add its names when
 starting (substitute the server's actual address):
 
 ```bash
-make serve HTTPS_PORT=8443 HTTPS_NAMES="192.168.1.50 lecturebox.local"
+make serve HTTPS_NAMES="192.168.1.50 lecturebox.local"
 ```
 
 The equivalent standalone reader command is:
 
 ```bash
 python -m ailectures --library library-data serve \
-  --host 0.0.0.0 --port 8001 --https-port 8443 \
+  --host 0.0.0.0 --port 8001 --https-port 8002 \
   --https-name 192.168.1.50 --https-name lecturebox.local
 ```
 
@@ -129,7 +129,7 @@ The reader's optional TOML configuration also supports:
 
 ```toml
 [https]
-port = 8443
+port = 8002
 names = ["lecturebox.local", "192.168.1.50"]
 # Optional: supply both instead of generating a self-signed certificate.
 # certfile = "certificates/server.pem"
@@ -140,6 +140,10 @@ Certificate paths in TOML are relative to that configuration file. HTTP and
 HTTPS must use different ports. Both sockets are reserved before the app starts;
 a bad certificate or occupied port prevents a partial startup. Control-C or
 SIGTERM shuts down both listeners and the app together.
+
+With `make serve`, override `PORT` and `HTTPS_PORT` to choose other ports. Use
+`make serve HTTPS_PORT=` to disable HTTPS. The standalone CLI remains HTTP only
+unless `--https-port` or the TOML HTTPS configuration enables the second listener.
 
 HTTP and HTTPS are different browser origins. Device-local preferences and
 listening history do not automatically carry between them. To share progress,
