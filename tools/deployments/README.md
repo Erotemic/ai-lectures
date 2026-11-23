@@ -1,5 +1,10 @@
 # Curated libraries for another computer
 
+Each JSON file declares an export: `packs` selects whole packs,
+`lectures` selects individual items, and `collections` selects authored listening
+sequences. Mixed declarations form a deduplicated union. The exporter resolves
+these declarations and gathers the relevant content programmatically.
+
 The [curated export register](../../docs/curated-exports.md) tracks named
 curations, packaged releases, reproducibility and acceptance checks. Its handoff
 builder packages the matching reader code, offline dependency wheels and selected

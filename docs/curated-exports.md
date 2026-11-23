@@ -1,9 +1,36 @@
 # Curated export register
 
-This is the starting record for portable, deliberately smaller lecture libraries.
-Each curation has a tracked selection and purpose. Each packaged release has a
-separate immutable artifact, content lock, code identity and test record. Keep the
-selection, the generated release, and the recipient's installation distinct.
+Curated exports are built programmatically from tracked declarations of items,
+packs and optional collections. The JSON declaration is the source of truth for
+membership; this document records purpose, generated releases and test results.
+Changing a declaration and rerunning the builder changes the exported library.
+
+## Declare an export
+
+For example, a declaration can combine whole packs with individual items:
+
+```json
+{
+  "packs": ["spider-man", "godzilla", "star-wars"],
+  "lectures": ["modern-literature:022200", "modern-literature:023000"]
+}
+```
+
+`lectures` is the existing API field for individual items, including essays and
+children's stories. This example selects all items in the three packs and the two
+Dune items. To select an entire authored listening sequence instead, declare
+`"collections": ["modern-literature:dune"]`.
+
+The resolver combines the declarations as a union, removes duplicate IDs,
+validates every declared selector, and includes only matching items. Selecting
+one item does not pull in the rest of its pack. Prerequisites and related works
+are included only when declared. The builder includes the standalone server code
+automatically and gathers the selected source text, metadata, companions and
+published audio without manually copying content directories.
+
+Use the same JSON with `bundle --preview`, `prepare --selection`, and
+`export_curated.py --selection`. The human-maintained declaration expresses the
+desired content; the generated lock records exactly what one run exported.
 
 ## Curations
 
@@ -163,7 +190,7 @@ transfer remain open acceptance checks. No TTS was run for this test.
 
 ## Expand a curation
 
-Copy the selection to a new versioned filename and add an entry to the register.
+Copy the declaration to a new versioned filename and add an entry to the register.
 Change explicit pack, collection or lecture selectors, then compare its preview
 with the prior lock: additions, removals, estimated listening time, missing audio
 and eventual artifact size. Existing IDs must remain stable.

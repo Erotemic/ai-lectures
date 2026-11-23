@@ -1,17 +1,20 @@
 """Code, source text and audio travel together with verifiable identities."""
 import json
+from copy import deepcopy
 from zipfile import ZipFile, ZIP_DEFLATED
 
 import pytest
 from starlette.testclient import TestClient
 
-from ailectures.core import file_digest
+from ailectures.core import file_digest, lecture_revision
 from ailectures.library import Library
+from ailectures.packs import export_release
 from ailectures.storage import restore_library
 from ailectures.web import create_app
 from tools.deployments import export_curated as exporter
 from tools.deployments.verify_export import verify
 from test_deployment_and_gc import install
+from test_content_packs import media_for
 
 
 def reader_repository(tmp_path):
@@ -125,3 +128,29 @@ def test_source_copy_rejects_package_symlinks(tmp_path):
     (source / 'alias.py').symlink_to(source / '__init__.py')
     with pytest.raises(ValueError):
         exporter.copy_reader(repository, tmp_path / 'copy')
+
+
+def test_mixed_pack_and_item_declarations_export_only_the_declared_union(tmp_path, monkeypatch):
+    repository = reader_repository(tmp_path)
+    library = Library(tmp_path / 'library')
+    install(library, tmp_path)
+    previous, pack = install(library, tmp_path, 'stories')
+    omitted = deepcopy(pack['lectures']['stories:001000'])
+    omitted['id'] = 'stories:002000'
+    omitted['revision'] = lecture_revision(omitted)
+    pack['lectures'][omitted['id']] = omitted
+    pack['courses']['stories:main']['lectures'].append(omitted['id'])
+    export_release(pack, tmp_path / 'two-stories', media=[media_for(pack, tmp_path)])
+    library.store.install(tmp_path / 'two-stories', expected=previous['release'])
+    monkeypatch.setattr(exporter, 'build_reader', fake_build)
+    declaration = {'packs': ['music'], 'lectures': ['music:001000', 'stories:001000']}
+    output = tmp_path / 'declared.zip'
+    result = exporter.build_handoff(library, repository, declaration, output, export_id='declared-v1')
+    assert result['lectures'] == result['complete'] == 2
+    with ZipFile(output) as zipped:
+        assert json.loads(zipped.read('selection.json')) == declaration
+        lock = json.loads(zipped.read('selection.lock.json'))
+        assert set(lock['lectures']) == {'music:001000', 'stories:001000'}
+    # The undeclared second story has no audio: it must not enter through pack
+    # membership or prevent this complete mixed selection from being exported.
+    assert 'stories:002000' not in lock['lectures']
