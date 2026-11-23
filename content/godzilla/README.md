@@ -1,6 +1,6 @@
 # Godzilla: The Monster That Keeps Changing
 
-**Status: in progress — two complete long-form audio essays; five planned.**
+**Status: in progress — five complete long-form audio essays; two planned.**
 
 Godzilla began in 1954 as a destructive creature linked to nuclear terror, then became an opponent of other monsters, an unlikely protector, a figure of ecological disturbance, a subject of creative reinvention, and an international blockbuster star. This series asks how one recognizable monster can support such different kinds of film without losing the power of the original image: something immense moving through an ordinary human world.
 
@@ -14,13 +14,13 @@ The most useful distinction is not "serious Godzilla" versus "silly Godzilla." T
 | --- | --- | --- | --- |
 | `001000` | **Godzilla, 1954: A Monster Born from Catastrophe** | How can a monster movie carry the fear and responsibility of the atomic age? | Complete · ~30 min |
 | `002000` | **When the Monster Became the Hero** | How did a destroyer become a creature people could cheer for? | Complete · ~31 min |
-| `003000` | **Kill the Monster, Bring Him Back** | What did the Heisei and Millennium reboots recover, change, and discard? | 35–45 min |
-| `004000` | **The Art of Making Something Enormous** | How do filmmakers create convincing scale, weight, terror, and delight? | 35–45 min |
-| `005000` | **The Monster Returns to the Wound** | What do *Shin Godzilla*, *Minus One*, and *Minus Zero* do with catastrophe and recovery? | 40–50 min |
+| `003000` | **Kill the Monster, Bring Him Back** | What did the Heisei and Millennium reboots recover, change, and discard? | Complete · ~26 min |
+| `004000` | **The Art of Making Something Enormous** | How do filmmakers create convincing scale, weight, terror, and delight? | Complete · ~25 min |
+| `005000` | **The Monster Returns to the Wound** | What do *Shin Godzilla*, *Minus One*, and *Minus Zero* do with catastrophe and recovery? | Complete · ~31 min |
 | `006000` | **Godzilla Crosses the Pacific** | What happens when an intensely Japanese creation becomes global spectacle? | 35–45 min |
 | `007000` | **Godzilla Is What We Need Him to Be** | What can seven decades of a changing monster tell us about movies and ourselves? | 45–60 min |
 
-The first two manuscripts are published in `track.json` and `navigation.json`; the remaining five are plans, not phantom recordings. Approximate timings are editorial estimates only, never targets that require padding or cutting. Manuscripts can depart from them if their material warrants it. Seven essays should make a finite collection of approximately five hours, rather than a checklist of all Godzilla films.
+The first five manuscripts are published in `track.json` and `navigation.json`; the remaining two are plans, not phantom recordings. Approximate timings are editorial estimates only, never targets that require padding or cutting. Manuscripts can depart from them if their material warrants it. The finite collection is deliberately not a checklist of all Godzilla films.
 
 ## Editorial commitments
 
@@ -34,25 +34,25 @@ The first two manuscripts are published in `track.json` and `navigation.json`; t
 
 ## Current-release and spoiler guidance
 
-As of **November 22, 2026**, Takashi Yamazaki's **Godzilla Minus Zero** has already opened in Japan (November 3) and North America (November 6). It is the sequel to *Godzilla Minus One*, not an upcoming production. In lecture `005000`, discuss it as a released film, using the film, contemporary reviews, and filmmaker interviews when available. The story and critical reception are recent: avoid declaring an enduring consensus. Avoid an overconfident technical or production claim grounded only in promotional materials.
+As of **November 22, 2026**, Takashi Yamazaki's **Godzilla Minus Zero** has already opened in Japan (November 3) and North America (November 6). It is the sequel to *Godzilla Minus One*, not an upcoming production. Lecture `005000` treats it as a released film, drawing on contemporary signed reviews and official information, without assuming reception is settled. The story and critical reception are recent: avoid declaring an enduring consensus. Avoid an overconfident technical or production claim grounded only in promotional materials.
 
 Lecture `001000` spoils the 1954 film including the Oxygen Destroyer. Later lectures disclose the major plots and endings of their specific anchor films; put a clear spoiler scope outside the spoken lecture. Film titles and years should be identified on their first important mention. Those who have never watched Godzilla should be able to follow the essays without treating them as viewing guides.
 
 ## Writing sequence and publishing
 
-Continue with two **small batches** so the capstone can refer to a finished body of work:
-
-1. `003000` + `004000` + `005000`: reinvention, craft, and contemporary Japanese returns to disaster.
-2. `006000` + `007000`: globalization and the conclusion.
+The remaining **final batch** is `006000` + `007000`: globalization, followed by the concluding retrospective.
 
 Each batch should contain complete manuscripts, bibliography/source sidecars, and `track.json` / `navigation.json` entries **only for lectures that exist**. Keep all IDs stable. For each manuscript, include exactly one `<!-- BEGIN SPOKEN LECTURE -->` / `<!-- END SPOKEN LECTURE -->` pair; put research and non-spoken reference material outside the spoken region or in companion files. Keep broad track-level tags plus precise film years, people, geography, production periods, and film titles in each lecture's individual metadata. Use the repository's actual extractor for measured spoken word counts and durations.
 
-The initial planning overlay contained only `README.md` and `BACKLOG.md`. This first manuscript pack publishes exactly `001000` and `002000` with individual and shared source metadata, a catalog, and a listening route; the unwritten lectures remain only in the plan. Content overlay ZIPs are text-only: no posters, film stills, fonts, clips, copied scores, recordings, or downloaded binary assets. Source links are references for original criticism, not a substitute for original prose.
+The initial planning overlay contained only `README.md` and `BACKLOG.md`. The published pack currently includes `001000` through `005000`, each with individual and shared source metadata; the unwritten lectures remain only in the plan. Content overlay ZIPs are text-only: no posters, film stills, fonts, clips, copied scores, recordings, or downloaded binary assets. Source links are references for original criticism, not a substitute for original prose.
 
 ## Published lectures and research
 
 - **`001000` — Godzilla, 1954: A Monster Born from Catastrophe**: the 1954 film, nuclear history, special effects, and Serizawa’s ethical decision. [Manuscript](001000-godzilla-1954-a-monster-born-from-catastrophe.md); [claim metadata](metadata/001000.json).
 - **`002000` — When the Monster Became the Hero**: the Shōwa transformation through monster rivals, Mothra, Minilla, Hedorah, and Mechagodzilla. [Manuscript](002000-when-the-monster-became-the-hero.md); [claim metadata](metadata/002000.json).
+- **`003000` — Kill the Monster, Bring Him Back**: Heisei and Millennium films, serial continuity, Biollante, the 1995 farewell, GMK and Kiryu. [Manuscript](003000-kill-the-monster-bring-him-back.md); [claim metadata](metadata/003000.json).
+- **`004000` — The Art of Making Something Enormous**: suits, miniatures, sound, perspective and digital effects across different eras. [Manuscript](004000-the-art-of-making-something-enormous.md); [claim metadata](metadata/004000.json).
+- **`005000` — The Monster Returns to the Wound**: *Shin Godzilla*, *Minus One* and the released *Minus Zero*. [Manuscript](005000-the-monster-returns-to-the-wound.md); [claim metadata](metadata/005000.json).
 - The research catalog is in [`metadata/sources.json`](metadata/sources.json). Each manuscript includes non-spoken references and Wikipedia orientation links.
 
 ## Source starting points
