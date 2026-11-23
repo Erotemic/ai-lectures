@@ -247,7 +247,7 @@
       }
     ]
   },
-  "description": "Connects Fourier approximation and rough derivatives to weak formulations of differential equations, including distributional solutions.",
+  "description": "Connects Fourier approximation and transforms to distributions, mollifiers, Sobolev weak derivatives, and variational Poisson problems; works through Lax–Milgram solvability and explains when elliptic regularity or boundary conclusions require extra hypotheses.",
   "tag_paths": [
     [
       "Mathematics",
@@ -263,6 +263,11 @@
       "Mathematics",
       "Analysis",
       "Fourier analysis"
+    ],
+    [
+      "Mathematics",
+      "Analysis",
+      "Sobolev spaces"
     ]
   ]
 }
