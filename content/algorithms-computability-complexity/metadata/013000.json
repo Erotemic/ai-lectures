@@ -8,7 +8,9 @@
     "Breadth-first search",
     "Depth-first search",
     "Shortest paths",
-    "Proof of correctness"
+    "Proof of correctness",
+    "Directed cycle detection",
+    "Topological sorting"
   ],
   "tag_paths": [
     [
@@ -24,6 +26,11 @@
       "Mathematics",
       "Theoretical computer science",
       "Breadth-first search"
+    ],
+    [
+      "Mathematics",
+      "Theoretical computer science",
+      "Depth-first search"
     ]
   ],
   "related_resources": [
@@ -82,5 +89,5 @@
       "evidence_detail": "The author independently derives the claim in narration and companion using the cited standard mathematical framework; numerical examples are original."
     }
   ],
-  "description": "Develops breadth-first and depth-first graph search as proofs of reachability, explaining exploration invariants, parent pointers, and certificates that a destination is unreachable."
+  "description": "Develops breadth-first and depth-first search as reachability proofs, including shortest-edge paths, unreachability certificates, directed cycle detection, and topological ordering."
 }

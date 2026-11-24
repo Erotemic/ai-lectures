@@ -329,6 +329,14 @@
       "evidence_detail": "Published or established mathematical result with the specified source/teaching section; independently explained in the lecture. Earley CACM 1970 title and abstract"
     }
   ],
+  "tags": [
+    "Formal languages",
+    "Context-free grammars",
+    "Pushdown automata",
+    "CYK parsing",
+    "Grammar ambiguity",
+    "Context-free pumping lemma"
+  ],
   "tag_paths": [
     [
       "Mathematics",
@@ -346,5 +354,5 @@
       "Pushdown automata"
     ]
   ],
-  "description": "Uses balanced parentheses and nested structure to show how a stack extends finite-state computation and leads to context-free languages."
+  "description": "Shows how context-free grammars and pushdown automata describe nested structure, then develops CYK parsing, grammar ambiguity, and a pumping-lemma proof that not every language is context-free."
 }

@@ -308,6 +308,14 @@
       "evidence_detail": "Original proof or example is written in this lecture and its formal companion; cited resources provide context, not authorship or a formal check. Infinite 0^i distinguishable prefix classes"
     }
   ],
+  "tags": [
+    "Automata theory",
+    "Deterministic finite automata",
+    "Nondeterministic finite automata",
+    "Regular expressions",
+    "Pumping lemma",
+    "Myhill–Nerode theorem"
+  ],
   "tag_paths": [
     [
       "Mathematics",
@@ -325,5 +333,5 @@
       "Regular expressions"
     ]
   ],
-  "description": "Connects deterministic and nondeterministic automata, regular expressions, and regular languages through different representations of the same recognition task."
+  "description": "Explains why deterministic and nondeterministic finite automata and formal regular expressions recognize the same languages, then uses the pumping lemma and Myhill–Nerode distinguishability to prove limits of regularity."
 }

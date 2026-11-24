@@ -70,6 +70,16 @@ Each event is append-only in `reviews/registry/description-audits-<track>.jsonl`
 
 The initial eleven-lecture scoped batch covered descriptions, title alignment, and relevant taxonomy fields, with a chronology/geography check for Ky Fan. It did **not** review learning prerequisites, source support, external historical facts, or formal proof correctness. Earlier description-only full-manuscript records remain description-only. These audits should not block importing or playing lectures.
 
+## Audit progress (23 November 2026, batch 32)
+
+**695 current distinct full-manuscript description reviews out of 2,399 lectures (29.0%)** are recorded, up from 677 (28.2%) after batch 31. Batch 32 adds **18 complete spoken-manuscript reviews**: eight Algorithms, Computability, and Complexity lectures; eight Analysis lectures; and two Abstract Algebra lectures. **1,704 remain without current full-manuscript description receipts.** The reviewer is `GPT-6`, `depth=full_manuscript`, and the receipts contain final post-edit fingerprints and explicit per-field outcomes.
+
+**Eight descriptions were improved; 10 existing descriptions were retained.** The formal-language summaries now mention the pumping lemma, Myhill–Nerode distinguishability, CYK parsing and context-free limits; selection and dynamic-programming previews now identify median-of-medians and weighted interval scheduling; the graph-search preview now covers cycle detection and topological sorting. Analysis summaries better describe completeness, local linearization and uniform function series. These are substantial portions of their spoken lectures, not independent additions to the subject matter. All 18 titles agree with the narrations.
+
+**Fifteen flat topic-tag lists were improved and one hierarchical path was added.** Early mathematics and theoretical-computer-science entries had relevant `tag_paths` but empty top-level `tags`; these now index their actual central tools and theorems. The DFS lecture gained a specific DFS hierarchy path to accompany its existing BFS path. The max-flow, NP-completeness and amortized-analysis records already had adequate descriptions and topical indexing and were left unchanged.
+
+Exactly **15 metadata sidecars changed** and three passed unchanged; the three track registries gained append-only receipts. No spoken manuscript, track title registry, bibliography, associated asset or executable code changed. This batch reviewed `description`, `title`, `tags` and `tag_paths` against the entire spoken narration; it did **not** separately certify chronological/geographical metadata, source attribution, proofs, or external factual accuracy.
+
 ## Audit progress (23 November 2026, batch 31)
 
 **677 current distinct full-manuscript description reviews out of 2,399 lectures (28.2%)** are now recorded, up from 659 (27.5%) after batch 30. This batch adds **18 entire spoken-manuscript reviews**: two GPT-SoapBox essays, six world-history epic retellings, one pre-1900 literature story, two *Stargate SG-1* essays, one Washington biography, and six earth-systems science lectures. **1,722 lectures remain without current full-description reviews.** All new receipts identify `GPT-6`, `depth=full_manuscript`, final manuscript and field fingerprints, and explicit scope outcomes.

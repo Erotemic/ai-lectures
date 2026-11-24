@@ -249,6 +249,14 @@
       "evidence_detail": "Interpretive or methodological observation, not a directly quoted external theorem. Context and limitation: Limitations of the original companion executable lab."
     }
   ],
+  "tags": [
+    "Selection algorithms",
+    "Order statistics",
+    "Three-way partitioning",
+    "Median of medians",
+    "BFPRT",
+    "Worst-case analysis"
+  ],
   "tag_paths": [
     [
       "Mathematics",
@@ -266,5 +274,5 @@
       "Selection algorithms"
     ]
   ],
-  "description": "Analyzes divide-and-conquer selection through the problem of finding a median, focusing on pivot quality, recurrence costs, and guaranteed progress."
+  "description": "Develops rank selection using three-way partitioning and median-of-medians pivots, proving a worst-case linear bound from guaranteed discard fractions while contrasting naive and randomized pivot choices."
 }
