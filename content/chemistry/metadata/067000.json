@@ -15,7 +15,12 @@
     "Carboxylation",
     "Oxygenation",
     "Chloroplast",
-    "Photosynthesis"
+    "Photosynthesis",
+    "RuBP regeneration",
+    "2-phosphoglycolate",
+    "C4 photosynthesis",
+    "CAM photosynthesis",
+    "Gas exchange"
   ],
   "tag_paths": [
     [
@@ -86,5 +91,5 @@
       "What is the energy cost per three-carbon net product?"
     ]
   },
-  "description": "Tracks carbon fixation through the Calvin cycle, including the ATP and reducing-power requirements of building sugars from carbon dioxide."
+  "description": "Tracks Rubisco carboxylation, reduction to glyceraldehyde 3-phosphate and RuBP regeneration in the Calvin–Benson cycle, accounting for nine ATP and six NADPH per net G3P in the simplified model. Examines oxygenation, photorespiration, carbon-concentrating strategies and net carbon-gain measurements."
 }

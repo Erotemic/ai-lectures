@@ -21,7 +21,10 @@
     "Silicon",
     "Diamond",
     "Electrical conductivity",
-    "Optical absorption"
+    "Optical absorption",
+    "Intrinsic carrier concentration",
+    "Hall measurements",
+    "Photoemission"
   ],
   "tag_paths": [
     [
@@ -103,5 +106,5 @@
       "What extra information beyond a band gap controls electrical conduction?"
     ]
   },
-  "description": "Builds electronic energy bands from atomic orbitals and periodic solids, distinguishing occupied states, band gaps, and conducting behavior."
+  "description": "Builds electronic bands and gaps from interacting atomic orbitals and periodic solids, distinguishing band occupancy, carrier concentration and mobility in metals, semiconductors and insulators. Explains electron-hole pairs, optical absorption and direct versus indirect gaps."
 }

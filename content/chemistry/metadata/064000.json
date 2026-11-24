@@ -15,7 +15,12 @@
     "Lactate",
     "Fermentation",
     "Pyruvate",
-    "Redox metabolism"
+    "Redox metabolism",
+    "Phosphoglycerate kinase",
+    "Phosphoenolpyruvate",
+    "Pyruvate kinase",
+    "Alcoholic fermentation",
+    "NADH shuttles"
   ],
   "tag_paths": [
     [
@@ -86,5 +91,5 @@
       "How does lactate formation permit continued ATP production without adding ATP directly?"
     ]
   },
-  "description": "Follows carbon atoms, ATP, and redox carriers through glycolysis to explain the chemical accounting behind sugar breakdown."
+  "description": "Follows glycolysis from ATP investment and triose cleavage through aldehyde oxidation and substrate-level phosphorylation, accounting for two net ATP, two NADH and two pyruvate per glucose. Explains NAD+ regeneration through respiration, lactate and alcoholic fermentation and the competing fates of pyruvate."
 }

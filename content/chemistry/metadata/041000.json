@@ -20,7 +20,12 @@
     "Multijunction solar cells",
     "Recombination",
     "Energy conversion",
-    "Materials degradation"
+    "Materials degradation",
+    "Maximum power point",
+    "Open-circuit voltage",
+    "Short-circuit current",
+    "Thermalization losses",
+    "Spectral response"
   ],
   "tag_paths": [
     [
@@ -101,5 +106,5 @@
       "How do short-circuit current, open-circuit voltage and fill factor relate to maximum output?"
     ]
   },
-  "description": "Follows photon absorption, charge separation, and carrier collection through a solar cell to connect its chemical architecture with electrical output."
+  "description": "Follows photon absorption, carrier generation, separation and collection in photovoltaic cells, distinguishing light's energy input from the built-in junction field. Explains band-gap tradeoffs, recombination, the current-voltage curve and fill factor, and how interfaces and degradation affect practical output."
 }

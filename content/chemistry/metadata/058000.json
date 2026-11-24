@@ -18,7 +18,10 @@
     "1950",
     "Germany",
     "Otto Diels",
-    "Kurt Alder"
+    "Kurt Alder",
+    "Regioselectivity",
+    "Racemic cycloaddition products",
+    "Retrosynthesis"
   ],
   "tag_paths": [
     [
@@ -93,5 +96,20 @@
       "How is stereospecificity different from forming one enantiomer?"
     ]
   },
-  "description": "Explains Diels–Alder cycloaddition through orbital and stereochemical constraints, showing why a ring can form in a single concerted step."
+  "description": "Explains the concerted Diels–Alder [4+2] cycloaddition through diene conformation, orbital interactions and dienophile activation. Distinguishes endo/exo preferences, stereospecificity, enantiomer formation, regioselectivity and reversibility, and uses the ring disconnection in retrosynthesis.",
+  "places": [
+    "Germany"
+  ],
+  "chronology": {
+    "context": {
+      "start": 1950,
+      "end": 1950,
+      "label": "1950 Nobel Prize in Chemistry for diene synthesis",
+      "basis": "The narration explicitly states that Diels and Alder worked in Germany and received the 1950 award.",
+      "note": "The date refers to the award, not the full research period or discovery date.",
+      "source_ids": [
+        "chem-syn-nobel1950"
+      ]
+    }
+  }
 }

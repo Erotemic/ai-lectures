@@ -16,7 +16,12 @@
     "Cysteine",
     "Glutathione",
     "15N tracer",
-    "Element cycling"
+    "Element cycling",
+    "ATP sulfurylase",
+    "O-acetylserine",
+    "Transamination",
+    "Assimilatory reduction",
+    "Disulfide bonds"
   ],
   "tag_paths": [
     [
@@ -87,5 +92,5 @@
       "What energy and electron sources are required to reduce sulfate into cysteine?"
     ]
   },
-  "description": "Follows nitrogen and sulfur into biomolecules through assimilation and redox chemistry, connecting elemental cycles with metabolism."
+  "description": "Follows nitrate and sulfate reduction into reduced nitrogen and sulfur, tracing GS–GOGAT incorporation into glutamate and ATP-dependent sulfate activation through APS to cysteine. Connects amino-group transfer, carbon skeletons, reducing power and isotope tracing to nutrient limitation."
 }

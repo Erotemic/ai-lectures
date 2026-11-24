@@ -17,7 +17,11 @@
     "Chiral chromatography",
     "Impurities",
     "Evidence",
-    "Overall yield"
+    "Overall yield",
+    "Aldol dehydration",
+    "Convergent synthesis",
+    "Enantiomer resolution",
+    "NMR coupling constants"
   ],
   "tag_paths": [
     [
@@ -96,5 +100,5 @@
       "Where does chirality enter the biaryl-hydroxy-ester route?"
     ]
   },
-  "description": "Works backward from target structures to plausible starting materials, then checks the proposed routes against forward reaction chemistry."
+  "description": "Works backward from E-benzalacetone and a biaryl beta-hydroxy ester to plausible starting materials, then tests the crossed-aldol, Suzuki coupling and ester-enolate addition routes forward. Compares competing reactions, route order, illustrative yields, racemate versus single-enantiomer targets, and analytical verification."
 }

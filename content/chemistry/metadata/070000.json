@@ -15,7 +15,11 @@
     "Tracer design",
     "Isotope steady state",
     "Metabolomics",
-    "Flux uncertainty"
+    "Flux uncertainty",
+    "Uniformly labeled glucose",
+    "Positional isotope labeling",
+    "Pyruvate carboxylation",
+    "Natural isotope abundance correction"
   ],
   "tag_paths": [
     [
@@ -90,5 +94,5 @@
       "What additional observations make a 13C flux model identifiable?"
     ]
   },
-  "description": "Explains isotope tracing as a way to infer metabolic flux from labeled carbon patterns, distinguishing metabolite abundance from turnover."
+  "description": "Explains stable carbon-13 tracing and metabolic flux inference through labeled pyruvate and citrate, isotopologues versus positional isotopomers, branch-specific tracer design and dynamic dilution. Shows why isotope enrichment is not itself a flux measurement and how stoichiometric models, time courses, independent rates and uncertainty determine identifiability."
 }
