@@ -327,6 +327,35 @@ main {
 .lecture-header .preparation-panel summary { cursor: pointer; color: var(--accent); }
 .lecture-header .preparation-panel > p { margin: .65rem 0 0; }
 .lecture-actions a { display: inline-flex; align-items: center; min-height: 44px; }
+.reading-visual {
+  width: 100%;
+  max-width: 30rem;
+  margin: 1rem 0;
+}
+.reading-visual a, .reading-visual picture { display: block; }
+.reading-visual img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+.reading-visual figcaption { color: var(--muted); font: .85rem/1.5 system-ui, sans-serif; margin-top: .4rem; }
+.section-visual { padding-inline: 1rem; }
+.section-visual .reading-visual { max-width: 24rem; }
+.transcript .reading-visual { margin-inline: auto; }
+@media (max-width: 760px) {
+  .section-visual .reading-visual { max-width: 16rem; }
+}
+@media (min-width: 861px) {
+  .illustrated-lecture:has(> .reading-visual:not([hidden])) {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(15rem, 23rem);
+    align-items: start;
+    gap: 2rem;
+  }
+  .illustrated-lecture > .reading-visual { margin: 0; }
+}
 .lecture-about { margin-top: .6rem; }
 .lecture-about > summary { cursor: pointer; color: var(--accent); }
 .lecture-about[open] > div { margin-top: .6rem; }

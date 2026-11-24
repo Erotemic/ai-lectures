@@ -48,6 +48,29 @@ its heading. It starts expanded and remembers the open/closed choice for each
 listener in that browser. The expanded section retains resume, next-item and
 full listening-history links.
 
+### Illustrations
+
+Season sections and their episodes share covers declared in a pack's
+`visuals.json`. The default asset directory is `generated-assets/accepted`.
+To serve images stored elsewhere, pass `--visual-root /path/to/illustrations`
+to `ailectures serve` or set `visual_root` in the server TOML. Without a source
+checkout, the default is relative to the server's working directory.
+
+Use an `images` object with an image ID, relative PNG, JPEG, or WebP `path`, descriptive `alt`
+text, and optional `caption`. The `sections` object maps stable section keys
+from `track.json` to image IDs. A local lecture ID in `lectures` can set a
+different `cover` or add `inline` placements with an `image` ID and an
+`after` field containing a unique passage from the spoken transcript.
+An inline illustration appears after the corresponding paragraph or spoken
+sentence. The spoken text and audio timing stay separate from the placement.
+
+The reader caches small WebP display copies under `library-data/build-cache/visuals`
+when Pillow is available. The repository's `serve` extra includes Pillow.
+The standalone reader displays the originals and can use the optional
+`illustrations` extra for WebP display copies. Click any illustration to open
+its original. Git and library exports carry the placement metadata.
+Supply the original files independently on each server.
+
 Narrated source decks use the same audio lecture model as the standalone tracks.
 Their `g1:` IDs and slide links remain stable; authored scene narration is adapted
 to the shared transcript format without speaking editorial Why/Recall notes.

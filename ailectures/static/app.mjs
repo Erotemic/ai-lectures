@@ -13,7 +13,8 @@ import {
 import { Player } from "./player.mjs";
 import { ProgressSync, mergeSharedProgress } from "./progress.mjs";
 import { ListeningQueue } from "./queue.mjs";
-import { transcriptBlocks, recordingTranscriptParts } from "./transcript.mjs";
+import { transcriptBlocks, recordingTranscriptParts, words } from "./transcript.mjs";
+import { visualFigure } from "./visuals.mjs";
 import { CatalogBrowser, revealAnchor } from "./browse.mjs";
 import { collectionReturnPath, owningTrack } from "./browse-model.mjs";
 import { listeningCourse, followingLecture, precedingLecture } from "./playback-route.mjs";
@@ -600,6 +601,8 @@ async function lecturePage(id, autoplay = false, token = ++renderToken) {
     el("a", { href: "#lecture-transcript", text: "Read transcript" }),
     button("Add to listening queue", () => listeningQueue.add(id, audio.course)),
   ));
+  const cover = visualFigure(requested.visuals?.cover,
+    "(max-width: 520px) calc(100vw - 2rem), (max-width: 860px) 30rem, 23rem");
   if (row.deck && catalog.legacy) details.append(el("p", {}, el("a", {
     href: "/presentations?deck=" + encodeURIComponent(row.deck), text: "Open slides and handouts", target: "_blank", rel: "noopener",
   })));
@@ -666,6 +669,14 @@ async function lecturePage(id, autoplay = false, token = ++renderToken) {
     text.replaceChildren(transcriptHeading);
     delete text.dataset.recording;
     delete text.dataset.lecture;
+    const inline = requested.visuals?.inline || [];
+    let figureIndex = 0, wordOffset = 0;
+    const addVisuals = (parent, spoken) => {
+      if (figureIndex === inline.length) return;
+      wordOffset += words(spoken);
+      while (figureIndex < inline.length && inline[figureIndex].after_word <= wordOffset)
+        parent.append(visualFigure(inline[figureIndex++].figure));
+    };
     if (recording) {
       text.dataset.lecture = row.id;
       text.dataset.recording = recording.id;
@@ -722,6 +733,7 @@ async function lecturePage(id, autoplay = false, token = ++renderToken) {
               parts[partIndex + 1]?.kind === "heading" ? "" : trailing,
             );
           }
+          addVisuals(node, sentence);
         });
         text.append(node);
       });
@@ -745,9 +757,12 @@ async function lecturePage(id, autoplay = false, token = ++renderToken) {
               text: block.text.trimEnd(),
             }),
           );
+          if (block.spoken !== false) addVisuals(text, block.text);
         } else {
           for (const paragraph of block.text.split(/\n\s*\n/)) {
-            if (paragraph.trim()) text.append(el("p", { text: paragraph }));
+            if (!paragraph.trim()) continue;
+            text.append(el("p", { text: paragraph }));
+            addVisuals(text, paragraph);
           }
         }
       }
@@ -834,7 +849,10 @@ async function lecturePage(id, autoplay = false, token = ++renderToken) {
   });
   about.append(details);
   top.append(about);
-  $("main").replaceChildren(top, layout);
+  $("main").replaceChildren(
+    cover ? el("div", { class: "illustrated-lecture" }, top, cover) : top,
+    layout,
+  );
   player.update();
   if (autoplay) {
     await audio.ready;
@@ -1386,7 +1404,7 @@ async function refresh(force = false) {
       next.error || `Catalog request failed (${response.status})`,
     );
   catalogTag = response.headers.get("ETag");
-  const changed = next.generation !== catalog.generation;
+  const changed = next.generation !== catalog.generation || next.visual_generation !== catalog.visual_generation;
   catalog = next;
   lectureIndex = new Map(next.lectures.map((row) => [row.id, row]));
   updatePlaybackRoute();

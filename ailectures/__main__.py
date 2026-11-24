@@ -32,6 +32,7 @@ def main(argv=None):
         help="library.toml with pack_roots and optional tts_config",
     )
     serve.add_argument("--pack-root", action="append", type=Path, default=[])
+    serve.add_argument("--visual-root", type=Path, help="Directory containing separately stored illustrations")
     serve.add_argument("--poll-interval", type=float, default=2)
     serve.add_argument("--host", default="127.0.0.1")
     serve.add_argument("--port", type=int, default=8001)
@@ -268,6 +269,9 @@ def main(argv=None):
                 tts_endpoint=args.audio_tts_endpoint,
                 pins=config.get("pins"),
                 excluded=config.get("excluded", []),
+                visual_root=args.visual_root or (
+                    config_base / config["visual_root"] if config.get("visual_root") else None
+                ),
                 legacy_factory=legacy_factory,
             )
             print(f"AI Lectures: http://{args.host}:{args.port}/", flush=True)

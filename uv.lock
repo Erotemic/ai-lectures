@@ -426,6 +426,7 @@ manim = [
     { name = "manim" },
 ]
 serve = [
+    { name = "pillow" },
     { name = "starlette" },
     { name = "uvicorn" },
 ]
@@ -453,6 +454,7 @@ requires-dist = [
     { name = "networkx", specifier = ">=3.2" },
     { name = "num2words", marker = "extra == 'align'", specifier = ">=0.5" },
     { name = "numpy", specifier = ">=2.0" },
+    { name = "pillow", marker = "extra == 'serve'", specifier = ">=10" },
     { name = "pytest", marker = "extra == 'all'", specifier = ">=8" },
     { name = "pytest", marker = "extra == 'test'", specifier = ">=8" },
     { name = "pyyaml", specifier = ">=6.0" },

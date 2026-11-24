@@ -25,6 +25,7 @@ from .tagging import normalize_paths
 from .organization import collection_metadata, topic_tags
 from .navigation import route_collections
 from .companions import discover_companions, companion_file
+from .visuals import apply_visuals
 from .source_paths import pack_directory
 
 LECTURE_FILE = re.compile(r"^([0-9]{6})-.*\.md$")
@@ -235,7 +236,6 @@ def repository_track(directory, *, previous=None, strict=False):
             row["companions"] = companions
             extra_files.update(files)
         row.update(description_fields(row))
-        row["revision"] = lecture_revision(row)
         lectures[key] = row
     course = dict(
         id=f"{namespace}:main",
@@ -256,6 +256,9 @@ def repository_track(directory, *, previous=None, strict=False):
         previous=previous.get("courses"),
         issue=issue,
     )
+    apply_visuals(directory / "visuals.json", lectures, courses, issue)
+    for row in lectures.values():
+        row["revision"] = lecture_revision(row)
     return dict(
         id=namespace,
         title=title,
@@ -288,6 +291,7 @@ class RepositoryCatalog:
                     "catalog.py",
                     "core.py",
                     "companions.py",
+                    "visuals.py",
                     "navigation.py",
                     "organization.py",
                     "presentations.py",

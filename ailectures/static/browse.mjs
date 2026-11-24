@@ -6,6 +6,7 @@ import { collectionRows, collectionAncestors, collectionSections, formatMinutes,
 import { dateOrder, chronologyLine, chronologyOptions, sortChronologically } from "./chronology.mjs";
 import { topicLinks } from "./topics.mjs";
 import { recentListening, historyRoute } from "./listening-history.mjs";
+import { visualFigure } from "./visuals.mjs";
 
 const roleLabel = (collection) => ({ main: "Guided route", deep_dive: "Deep dive", hub: "Route guide", archive: "Complete sequence" })[collection.role] || "Collection";
 
@@ -453,6 +454,11 @@ export class CatalogBrowser {
       });
     update();
   }
+  sectionVisual(collection, keys) {
+    const section = keys.length && this.byId(keys[0])?.section;
+    const visual = section && collection.section_visuals?.[section];
+    return visual && keys.every(id => this.byId(id)?.section === section) ? visual : null;
+  }
   collection(main, id) {
     const courses = this.catalog().courses;
     const collection = courses.find((c) => c.id === id);
@@ -463,6 +469,7 @@ export class CatalogBrowser {
     const rows = collectionRows(collection, courses, this.byId);
     const directRows = collection.lectures.map(this.byId).filter(Boolean);
     const children = courses.filter(c => c.parent_id === id);
+    const cover = this.sectionVisual(collection, collection.lectures);
     const branches = children.filter(c => c.role !== "archive");
     const completed = directRows.filter(row => this.progress()[row.id]?.completed).length;
     const inProgress = directRows.filter(row => this.progress()[row.id] && !this.progress()[row.id].completed)
@@ -501,6 +508,7 @@ export class CatalogBrowser {
         collection.sequence_recommended ? el("span", { text: "Listen in episode order" }) : null,
       ),
       start ? el("div", { class: "actions collection-start" }, start) : null,
+      visualFigure(cover),
     );
     main.replaceChildren(breadcrumbs);
     if (origin) main.append(el("div", { class: "return-route" }, this.link("← Return to " + (origin.series_title || origin.title), this.courseLink(origin))));
@@ -555,10 +563,10 @@ export class CatalogBrowser {
         ));
       } else if (unlisted.length) contents.append(el("h2", { text: "Choose a route" }), branchCards);
     }
-    if (collection.lectures.length) this.collectionContents(contents, collection, refreshStart);
+    if (collection.lectures.length) this.collectionContents(contents, collection, refreshStart, cover);
     main.append(el("div", { class: "collection-layout" }, contents, resources));
   }
-  collectionContents(contents, collection, refreshStart) {
+  collectionContents(contents, collection, refreshStart, cover) {
     const id = collection.id;
     const sections = collectionSections(collection, this.byId);
     const flat = collection.lectures.length <= 12 && sections.every(section =>
@@ -649,10 +657,12 @@ export class CatalogBrowser {
         const groups = sourceGroups.map(group => ({ ...group, lectures: group.lectures.filter(key => !q || wholeSection || group.title?.toLocaleLowerCase().includes(q) || matchesLecture(key, this.byId, q)) })).filter(group => group.lectures.length);
         if (!groups.length) continue;
         const keys = groups.flatMap(group => group.lectures);
+        const illustration = cover ? null : this.sectionVisual(collection, section.lectures);
         shown += keys.length;
         if (flat) {
           const list = el("ol", { class: "list", id: section.id, tabindex: "-1" });
           for (const key of keys) this.appendItem(list, key, id);
+          if (illustration) results.append(visualFigure(illustration));
           results.append(list);
           continue;
         }
@@ -664,8 +674,16 @@ export class CatalogBrowser {
           ),
         );
         detail.open = Boolean(q) || (openState[section.id] ?? (sections.length <= 8 && collection.lectures.length <= 50));
+        const picture = illustration ? el("div", { class: "section-visual" }) : null;
+        const showPicture = () => {
+          if (picture && detail.open && !picture.firstChild)
+            picture.append(visualFigure(illustration, "(max-width: 760px) 16rem, 24rem"));
+        };
+        if (picture) detail.append(picture);
+        showPicture();
         detail.addEventListener("toggle", () => {
           if (!search.value.trim()) { openState[section.id] = detail.open; store(openedKey, openState); }
+          showPicture();
         });
         if (section.collection)
           detail.append(el("div", { class: "topic-link" }, this.routeLink(section.collection, "Explore the full topic →", id)));

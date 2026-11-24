@@ -16,6 +16,7 @@ align = [
   "num2words>=0.5",
 ]
 serve = [
+  "Pillow>=10",
   "starlette>=1.5.1",
   "uvicorn>=0.35",
 ]

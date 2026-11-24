@@ -33,6 +33,7 @@ from .organization import collection_metadata, item_organization
 from .companions import available_companions
 from .assets import LibraryAssets
 from .slide_companions import SlideCompanionsUnavailable
+from .visuals import VisualStore, lecture_figures, section_figures
 from .chronology import chronology_for, collection_chronology
 from .discovery import discovery_fields
 from .descriptions import description_fields
@@ -105,6 +106,7 @@ def create_app(
     generation_manager=None,
     playback_only=False,
     slide_companion_service=None,
+    visual_root=None,
     pins=None,
     excluded=(),
 ):
@@ -133,6 +135,10 @@ def create_app(
     producer_lock = threading.Lock()
     slide_service = slide_companion_service
     assets = LibraryAssets(directory=STATIC)
+    visuals = VisualStore(
+        visual_root if visual_root is not None else Path(repository or Path.cwd()) / "generated-assets" / "accepted",
+        library.store.root / "build-cache" / "visuals",
+    )
     catalog_cache = {}
     catalog_lock = threading.Lock()
     cloud_cache = {}
@@ -208,7 +214,7 @@ def create_app(
             {
                 k: v
                 for k, v in row.items()
-                if k not in {"source", "transcript", "metadata", "sources"}
+                if k not in {"source", "transcript", "metadata", "sources", "visuals"}
             }
             if summary
             else row
@@ -220,6 +226,14 @@ def create_app(
             row["transcript_headings"] = transcript_headings(
                 row.get("source"), row["transcript"]
             )
+            if "visuals" in row:
+                declared_cover, placements = lecture_figures(row)
+                cover = visuals.describe(declared_cover)
+                inline = []
+                for placement in placements:
+                    if figure := visuals.describe(placement["figure"]):
+                        inline.append({"after_word": placement["after_word"], "figure": figure})
+                row["visuals"] = {"cover": cover, "inline": inline}
         row.update(discovery)
         row.pop("chronology", None)
         if chronology:
@@ -264,14 +278,15 @@ def create_app(
         snapshot = library.snapshot(
             refresh=request.query_params.get("refresh") == "1", copy=False
         )
-        key = (snapshot["generation"], tuple(snapshot["errors"]), assets.version)
+        visual_generation = digest(visuals.refresh(snapshot))
+        key = (snapshot["generation"], tuple(snapshot["errors"]), assets.version, visual_generation)
         etag = 'W/"' + digest(key) + '"'
         headers = {"Cache-Control": "no-cache", "ETag": etag, "Vary": "Accept-Encoding"}
         if request.headers.get("if-none-match") == etag:
             return Response(status_code=304, headers=headers)
         with catalog_lock:
             if catalog_cache.get("key") != key:
-                catalog_cache["response"] = catalog_response(snapshot, headers)
+                catalog_cache["response"] = catalog_response(snapshot, headers, visual_generation)
                 catalog_cache.pop("gzip", None)
                 catalog_cache["key"] = key
             response = catalog_cache["response"]
@@ -329,11 +344,16 @@ def create_app(
         )
         return JSONResponse(result)
 
-    def catalog_response(snapshot, headers):
+    def catalog_response(snapshot, headers, visual_generation):
         collections = []
         for course in snapshot["courses"].values():
             organization = collection_metadata(course, course["id"].split(":")[0])
             collection = dict(course, **organization)
+            if "section_visuals" in collection:
+                collection["section_visuals"] = {
+                    section: figure for section, declaration in section_figures(collection).items()
+                    if (figure := visuals.describe(declaration))
+                }
             for field in ("browse_sections", "guide_for"):
                 if field not in organization:
                     collection.pop(field, None)
@@ -360,6 +380,7 @@ def create_app(
         return JSONResponse(
             {
                 "generation": snapshot["generation"],
+                "visual_generation": visual_generation,
                 "lectures": items,
                 "courses": collections,
                 "packs": snapshot["packs"],
@@ -539,6 +560,19 @@ def create_app(
                 **({"X-Playback-Warning": segment["playback_warning"]} if segment.get("playback_warning") else {}),
             },
         )
+
+    def visual(request):
+        identifier = checksum(request.path_params["digest"])
+        size = request.path_params["size"]
+        try:
+            path, media_type = visuals.media(identifier, size)
+        except KeyError:
+            visuals.refresh(library.snapshot(copy=False))
+            path, media_type = visuals.media(identifier, size)
+        return FileResponse(path, media_type=media_type, headers={
+            "Cache-Control": "private, max-age=31536000, immutable",
+            "X-Content-Type-Options": "nosniff",
+        })
 
     def companion(request):
         from .companions import companion_file
@@ -1379,6 +1413,7 @@ def create_app(
         Route("/api/library/lectures/{lecture_id}/transcript.txt", transcript),
         Route("/api/library/lectures/{lecture_id}", lecture),
         Route("/api/library/media/{release}/{recording}/{index:int}", media),
+        Route("/api/library/visuals/{digest}/{size}", visual),
         Route(
             "/api/library/companions/{release}/{lecture_id}/{identifier}/{sha256}",
             companion,
