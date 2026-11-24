@@ -60,7 +60,7 @@
     }
   ],
   "historical_claims": [],
-  "description": "Counts representations of an integer as two squares by factoring Gaussian integers, distinguishing ordered, signed representations from equivalence classes.",
+  "description": "Counts ordered, signed representations of integers as two squares by Gaussian prime factorization, then derives Jacobi’s divisor-sum identity using the character modulo four and Dirichlet convolution.",
   "tag_paths": [
     [
       "Mathematics",
@@ -76,5 +76,16 @@
       "Number theory",
       "Sums of squares"
     ]
+  ],
+  "tags": [
+    "Sum of two squares",
+    "Representation counts",
+    "Gaussian integers",
+    "Unique factorization",
+    "Splitting of primes",
+    "Dirichlet convolution",
+    "Character modulo four",
+    "Jacobi two-square identity",
+    "Divisor sums"
   ]
 }

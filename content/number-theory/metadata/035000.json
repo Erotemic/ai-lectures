@@ -58,7 +58,7 @@
     }
   ],
   "historical_claims": [],
-  "description": "Constructs the codifferent using trace-dual lattices and derives its relation to the derivative of a defining polynomial in a power basis.",
+  "description": "Builds the codifferent as a trace-dual fractional ideal, proves the monogenic different formula using Lagrange interpolation and the minimal-polynomial derivative, and relates its norm to the discriminant with examples exposing the index condition.",
   "tag_paths": [
     [
       "Mathematics",
@@ -75,5 +75,16 @@
       "Number theory",
       "Different and codifferent"
     ]
+  ],
+  "tags": [
+    "Codifferent",
+    "Different ideal",
+    "Trace-dual fractional ideal",
+    "Polynomial derivative formula",
+    "Lagrange interpolation",
+    "Integral power basis",
+    "Discriminant as norm of different",
+    "Gaussian integers",
+    "Index trap"
   ]
 }

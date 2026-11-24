@@ -72,7 +72,7 @@
     }
   ],
   "historical_claims": [],
-  "description": "Uses Landau’s positivity principle to study Dirichlet L-functions of real characters, showing how a nonnegative auxiliary series constrains possible zeros near one.",
+  "description": "Proves L(1,χ)>0 for real nonprincipal Dirichlet characters using nonnegative coefficients of ζ(s)L(s,χ), Landau’s Taylor-series positivity argument, and a divergent perfect-square subseries.",
   "tag_paths": [
     [
       "Mathematics",
@@ -88,5 +88,15 @@
       "Number theory",
       "Positivity"
     ]
+  ],
+  "tags": [
+    "Landau positivity argument",
+    "Real Dirichlet characters",
+    "Dirichlet L-functions",
+    "Dirichlet convolution",
+    "Nonnegative coefficients",
+    "Nonvanishing at one",
+    "Perfect-square subseries",
+    "Analytic continuation"
   ]
 }

@@ -70,6 +70,16 @@ Each event is append-only in `reviews/registry/description-audits-<track>.jsonl`
 
 The initial eleven-lecture scoped batch covered descriptions, title alignment, and relevant taxonomy fields, with a chronology/geography check for Ky Fan. It did **not** review learning prerequisites, source support, external historical facts, or formal proof correctness. Earlier description-only full-manuscript records remain description-only. These audits should not block importing or playing lectures.
 
+## Audit progress (24 November 2026, batch 34)
+
+**785 current distinct full-manuscript description reviews out of 2,399 lectures (32.7%)** are recorded, up from 713 (29.7%) after batch 33. This expanded batch adds **72 complete spoken-manuscript reviews**: the 13 remaining unreviewed Analysis lectures and 59 unreviewed Number Theory lectures. **1,614 lectures remain** without current full-manuscript description receipts. All 72 records identify `GPT-6`, set `depth=full_manuscript`, include final manuscript and metadata fingerprints, and give separate `description`, `title`, `tags` and `tag_paths` outcomes.
+
+**Forty-four descriptions were refined and 28 retained.** The Analysis edits clarify the scope of the Riemann mapping theorem, measure construction, convergence theorems, operator duality, evolution equations, and boundary-trace/interpolation methods. The Number Theory edits clarify distinctions between nonreal and real character nonvanishing, prime splitting versus ideal principality, the full-integer-ring condition in Dedekind–Kummer, finite extensions of p-adic fields, local–global solvability, tame versus wild ramification, and the exact conductor–discriminant arguments. Previews were changed only when the complete narration supported a substantial addition or more precise statement.
+
+**All 72 previously empty flat topic-tag lists were populated** with central definitions, theorems, examples, and proof tools appearing in the full narration; **two Analysis hierarchical path sets were expanded** to capture nonlinear evolution and trace/interpolation methods. All 72 lecture titles and the other 70 hierarchical path sets passed alignment review without changes. The metadata audit records preserve the four independent field outcomes. Neither chronology nor geography nor source-claim evidence was independently reviewed in this batch.
+
+Exactly **72 metadata sidecars** and two append-only track audit ledgers changed alongside this progress note. No spoken lecture manuscript, `track.json`, bibliography, dependency graph, source record, binary asset, or executable code was edited. This is a full-manuscript **metadata-alignment** review, not independent verification of number-theoretic proofs, mathematical claims, or external bibliography.
+
 ## Audit progress (23 November 2026, batch 33)
 
 **713 current distinct full-manuscript description reviews out of 2,399 lectures (29.7%)** are recorded, up from 695 (29.0%) after batch 32. This batch adds **18 complete spoken-manuscript reviews**: eight advanced Abstract Algebra lectures and ten Analysis lectures from the complex-analysis sequence. **1,686 lectures remain** without current full-manuscript description receipts. All new receipts name `GPT-6` as reviewer, use `depth=full_manuscript`, and fingerprint the final post-edit spoken text and four audited metadata scopes.

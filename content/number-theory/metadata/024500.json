@@ -55,7 +55,7 @@
     }
   ],
   "historical_claims": [],
-  "description": "Counts lattice points in expanding disks and compares area with boundary errors, providing a geometric route to asymptotic estimates.",
+  "description": "Proves the O(R) boundary error for lattice points in a disk using unit-square tilings, translates it into an average two-square representation count, and connects the result to Dirichlet L-values, theta series, and Gauss’s circle problem.",
   "tag_paths": [
     [
       "Mathematics",
@@ -71,5 +71,16 @@
       "Number theory",
       "Lattice points"
     ]
+  ],
+  "tags": [
+    "Gauss circle problem",
+    "Lattice-point counting",
+    "Area comparison",
+    "Boundary error",
+    "Two-square representation function",
+    "Asymptotic density",
+    "Dirichlet L-functions",
+    "Theta series",
+    "Special value L(1,chi4)"
   ]
 }

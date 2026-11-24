@@ -83,7 +83,7 @@
       "audit_status": "reading_reference_recorded"
     }
   ],
-  "description": "Analyzes which values are squares in local fields and uses examples to expose limits of reasoning separately at each completion.",
+  "description": "Classifies squares in Q_p by valuation parity and, for unit parts, quadratic residues modulo odd p or residues modulo eight at p=2; uses Hensel lifting and contrasts valid local obstructions with the limits of local-global solvability.",
   "tag_paths": [
     [
       "Mathematics",
@@ -100,5 +100,16 @@
       "Number theory",
       "Local solvability"
     ]
+  ],
+  "tags": [
+    "p-adic square classes",
+    "Valuation parity",
+    "Hensel lemma",
+    "Odd-prime quadratic residues",
+    "Two-adic units modulo eight",
+    "Local solvability",
+    "Local-global principle",
+    "Hasse–Minkowski theorem",
+    "Selmer cubic counterexample"
   ]
 }

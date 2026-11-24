@@ -21,7 +21,7 @@
     }
   ],
   "historical_claims": [],
-  "description": "Builds Lebesgue integration from simple functions and monotone limits, then compares its approximation properties with Riemann integration.",
+  "description": "Constructs the Lebesgue integral from nonnegative simple functions, proves monotone convergence and Fatou’s lemma, analyzes failures of naive limit exchange, and defines signed integration through positive and negative parts.",
   "tag_paths": [
     [
       "Mathematics",
@@ -38,5 +38,15 @@
       "Analysis",
       "Convergence theorems"
     ]
+  ],
+  "tags": [
+    "Lebesgue integration",
+    "Simple functions",
+    "Monotone convergence theorem",
+    "Fatou’s lemma",
+    "Signed integrals",
+    "Absolute integrability",
+    "Pointwise convergence",
+    "Riemann versus Lebesgue integration"
   ]
 }

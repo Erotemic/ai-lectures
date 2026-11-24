@@ -17,7 +17,7 @@
     }
   ],
   "historical_claims": [],
-  "description": "Represents bounded linear measurements on Lp spaces through dual functions, using Hölder’s inequality and concrete examples to motivate the conjugate-exponent correspondence.",
+  "description": "Represents continuous linear measurements on finite-p Lp spaces by conjugate-exponent weights, outlines the Radon–Nikodym argument, and explains why the dual of L-infinity generally exceeds L-one.",
   "tag_paths": [
     [
       "Mathematics",
@@ -33,5 +33,15 @@
       "Analysis",
       "Duality"
     ]
+  ],
+  "tags": [
+    "Lp duality",
+    "Continuous linear functionals",
+    "Hölder’s inequality",
+    "Radon–Nikodym theorem",
+    "Riesz representation theorem",
+    "Conjugate exponents",
+    "Sigma-finite measure spaces",
+    "Dual of L-infinity"
   ]
 }

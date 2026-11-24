@@ -85,7 +85,7 @@
     }
   ],
   "historical_claims": [],
-  "description": "Uses the Frobenius automorphism to describe subfields of finite fields and derive irreducibility tests for polynomials.",
+  "description": "Uses Frobenius orbits to characterize finite-field subfields and minimal polynomials, counts irreducibles by Möbius inversion, proves Rabin’s irreducibility criterion, and introduces finite-field trace and norm.",
   "tag_paths": [
     [
       "Mathematics",
@@ -101,5 +101,16 @@
       "Number theory",
       "Frobenius"
     ]
+  ],
+  "tags": [
+    "Finite fields",
+    "Frobenius automorphism",
+    "Subfield lattice",
+    "Minimal polynomials",
+    "Irreducibility criterion",
+    "Rabin test",
+    "Möbius inversion",
+    "Trace and norm",
+    "Polynomial gcd"
   ]
 }

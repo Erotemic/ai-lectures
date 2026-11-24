@@ -21,7 +21,7 @@
     }
   ],
   "historical_claims": [],
-  "description": "Constructs outer measure from countable interval coverings, distinguishes null sets from measurable sets, and explains the Carathéodory boundary between outer measure and Lebesgue measure.",
+  "description": "Constructs Lebesgue outer measure from interval coverings and uses Carathéodory’s criterion to obtain countable additivity, explains measure completion and null sets with the Cantor set, and uses a Vitali set to show why not every subset is measurable.",
   "tag_paths": [
     [
       "Mathematics",
@@ -38,5 +38,15 @@
       "Analysis",
       "Null sets"
     ]
+  ],
+  "tags": [
+    "Lebesgue outer measure",
+    "Countable interval coverings",
+    "Carathéodory measurability",
+    "Lebesgue measure",
+    "Null sets",
+    "Measure completion",
+    "Cantor set",
+    "Vitali nonmeasurable sets"
   ]
 }
