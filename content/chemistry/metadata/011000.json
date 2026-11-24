@@ -15,7 +15,9 @@
     "Indicators",
     "Bicarbonate buffer",
     "Blood chemistry",
-    "Alkalinity"
+    "Alkalinity",
+    "Half-equivalence point",
+    "Titration endpoints"
   ],
   "tag_paths": [
     [
@@ -97,5 +99,5 @@
       "Why is titration endpoint not always the equivalence point?"
     ]
   },
-  "description": "Explains buffer capacity through weak-acid equilibria and titration curves, showing why two solutions with similar pH can respond differently to added acid."
+  "description": "Develops finite buffer capacity using the Henderson-Hasselbalch relationship and titration curves, distinguishing half-equivalence, equivalence and experimental endpoints and explaining why equal-pH solutions respond differently."
 }
