@@ -128,7 +128,7 @@ She showed Grandpa.
 
 “It's Saturn. But it looks like a cup with handles.”
 
-“That's rather like the way some of the first people who looked through telescopes described it,” Grandpa said.
+“Some of the first people to look at Saturn through telescopes thought it looked like that, too,” Grandpa said.
 
 Lisa drew two more circles: a tiny one for the moon and a big one for Earth. She put a little house on the big circle.
 

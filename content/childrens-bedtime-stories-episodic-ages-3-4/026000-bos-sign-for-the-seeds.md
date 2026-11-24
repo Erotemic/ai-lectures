@@ -74,7 +74,7 @@ Ben looked from the packet to the earth and back again.
 
 "Do we have to tell them where they are?"
 
-"The seeds don't need a street address," Grandma May said. "But the signs could help us remember which row is which."
+"No, we don't have to tell them," Grandma May said. "But the signs could help us remember which row is which."
 
 Amy drew a round red radish with two little leaves on one piece of cardboard.
 

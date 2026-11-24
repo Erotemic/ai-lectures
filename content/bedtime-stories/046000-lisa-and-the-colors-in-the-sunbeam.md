@@ -52,9 +52,9 @@ Lisa looked at the prism.
 
 “Yes.”
 
-“But the colors aren't clear.”
+“Where were all those colors hiding?”
 
-“No, they aren't.”
+“In the sunlight.”
 
 Grandpa tipped the prism very slightly.
 

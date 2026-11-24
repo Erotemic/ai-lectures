@@ -72,7 +72,7 @@ Ben was the first to speak.
 
 "Maybe it went to Button Town and opened a tiny bakery."
 
-"Maybe," Wendy said, smiling. "But not in the real garden."
+"I hope it makes sunflower buns," Wendy said.
 
 Grandma May knelt beside the bed.
 

@@ -16,7 +16,7 @@ When Ben heard that Amy had seen pigeons on Market Street, he looked at his red 
 
 Amy considered this.
 
-"I think they manage."
+"Maybe they know each other's voices."
 
 Ben was not entirely convinced. But when Grandma May and Ben's grown-up arranged a trip on the green bus, he forgot about scarves for pigeons and started wondering whether he would need a ticket for his own scarf.
 
@@ -100,7 +100,7 @@ The dancing pigeon had stopped dancing. It was resting on one foot.
 
 Ben considered both ideas.
 
-"The second one seems more likely."
+"It's not much of a parade, is it?"
 
 He sat down on the bench. For a while, they watched the pigeons do whatever pigeons wanted to do.
 

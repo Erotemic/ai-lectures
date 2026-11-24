@@ -88,7 +88,7 @@ Kim tried the chair near the plant. From there she could see the whole table. Sh
 
 "A book about that beetle would be very short," Sue observed.
 
-"Maybe," said Kim. "But it would have six legs."
+"We could draw all six of its legs," said Kim.
 
 They borrowed nothing that morning. Kim only wanted to remember the note. Sue wanted to remember the sandwich picture.
 

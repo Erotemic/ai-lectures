@@ -110,7 +110,7 @@ Ben scratched one ear.
 
 "Even the slippery ones?"
 
-"Especially the snug ones," said Wendy.
+"Even those," said Wendy.
 
 Ben decided to open an imaginary shop at the edge of the Little Quiet Place.
 

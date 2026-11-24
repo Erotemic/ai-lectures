@@ -70,7 +70,7 @@ It was about the size of the tip of Mona's thumb. There were a few tiny gold-col
 
 “Is that a seed?” Mona asked.
 
-“No. It's the caterpillar, changing. The next part of its life is happening inside.”
+“No. It's the caterpillar, changing. It's turning into a butterfly.”
 
 Mona leaned close, but not close enough to touch it.
 

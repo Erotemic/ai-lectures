@@ -28,9 +28,9 @@ The bus door went psssh.
 
 Ben looked around. The green bus had windows, seats, and a long aisle. It did not appear to have a pencil.
 
-"This bus is very poorly prepared to write a book," he said.
+"Nobody gave it a pencil," he said.
 
-Sue considered it. "It can make the sound without drawing it."
+Sue considered it. "We could give it one."
 
 For a while everyone watched the road and the fields go by. Far Meadow slipped behind them. The bus traveled west along the paved road toward Market Street, not across the creek and not through the orchard.
 
@@ -64,7 +64,7 @@ Ben held up the bag.
 
 The pigeon kept walking.
 
-"It must have heard," said Wendy. "It looks very official."
+"I don't think it wants a ride," said Wendy.
 
 At the library, the large window showed its painted books. Inside, the low wooden table had been cleared. The handwritten sign about homemade books stood on it beside a little vase with one leaf.
 

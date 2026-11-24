@@ -112,7 +112,7 @@ He pointed to his red scarf.
 
 Kim considered the scarf.
 
-“That is an extremely long shape,” she agreed.
+“Can you make it round?” she asked.
 
 Ben tried to fold it into a circle. It made a lumpy red heap instead.
 

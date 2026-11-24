@@ -130,9 +130,9 @@ Todd smiled.
 
 Ben drew a little round shape and three lines coming from it.
 
-"That looks like a biscuit trying to sing," Amy said.
+"What are those lines for?" Amy asked.
 
-"A very good biscuit," Ben agreed.
+"That's the sound coming out," Ben said.
 
 Grandma May wrote one word beneath the picture.
 

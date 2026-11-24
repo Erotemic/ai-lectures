@@ -28,9 +28,9 @@ The old picture label still showed a round red radish with leaves. But the row b
 
 "I liked looking at their funny leaves," Kim said.
 
-"You can look at the sunflowers now."
+"You could watch the sunflowers instead."
 
-"I can," said Kim. "But I can also look at this."
+"I know," said Kim. "But I want to look here for a bit."
 
 She sat on one of the two dry viewing stones, keeping both feet out of the planted patch.
 

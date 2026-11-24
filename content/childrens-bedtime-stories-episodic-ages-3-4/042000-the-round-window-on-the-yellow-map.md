@@ -98,13 +98,13 @@ But it showed enough.
 
 Ben looked at the map.
 
-"Now there are six places where friends can go home," he said.
+"Now all six of our homes are on the map," he said.
 
-"Many more than six," said Kim. "There are grown-ups and neighbors too."
+"And there's the pond," said Kim.
 
-"And the dandelion audience," Wendy added.
+"And the dandelion's meadow," Wendy added.
 
-"The Almost Ocean," Todd said.
+"And my Almost Ocean," Todd said.
 
 "That one might not last," Sue replied.
 

@@ -86,7 +86,7 @@ Sue checked the drawing in her notebook. The long arm of her pretend clock reach
 
 "Very different," said Wendy. "I like its pockets."
 
-Grandpa Ed looked at the big clock above the awning. "The shop clock is useful for knowing when to catch our bus. Your clock is useful for telling a story."
+Grandpa Ed looked at the big clock above the awning. "The shop clock is useful for knowing when to catch our bus. I wonder what time your bakery closes."
 
 Sue thought of her cardboard castle bakery at home, standing beside the round window. It had a flap door, a WINDOW ORDERS sign, and a paper beetle inside.
 

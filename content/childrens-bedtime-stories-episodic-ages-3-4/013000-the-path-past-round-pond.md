@@ -66,7 +66,7 @@ Ben touched his own ears.
 
 "Even taller than mine?"
 
-"Not all the grass," Kim said. "Some of it is quite ordinary."
+"In some places," Kim said. "You'll see."
 
 Grandma May came along as they followed the dry, winding path. It kept well back from the pond's edge.
 

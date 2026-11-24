@@ -30,7 +30,7 @@ Ben looked around.
 
 "I think we have enough people for a very small book reading."
 
-"It's an excellent size," Kim said.
+"I want to sit where I can see the pictures," Kim said.
 
 They found places on cushions and chairs. Kim chose a cushion a little to the side, where she could see the pages without sitting in the middle.
 
@@ -126,9 +126,9 @@ Grandma May wrote a little word beneath it.
 
 Fffft.
 
-"That's a very soft final sound," Todd said.
+"That one's quieter than my bup," Todd said.
 
-"It's a good one for a little book," Kim replied.
+"Fffft," Kim replied.
 
 Ben looked at his six finished pages.
 

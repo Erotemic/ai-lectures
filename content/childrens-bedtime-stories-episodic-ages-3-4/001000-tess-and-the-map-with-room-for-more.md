@@ -124,7 +124,7 @@ Grandma May told them that, at the end of the week, Willow Bend would have its L
 
 “Will they need a map?” Amy asked.
 
-“Perhaps,” Grandma said. “Especially if it's a map that knows all the little places along the way.”
+“Perhaps,” Grandma said. “We could mark the places where we'll stop.”
 
 Ben immediately wanted to draw a giant red arrow across the whole page.
 

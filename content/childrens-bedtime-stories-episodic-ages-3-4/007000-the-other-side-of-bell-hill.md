@@ -30,7 +30,7 @@ Ben arrived wearing his red scarf. Kim arrived with her violet pouch, which held
 
 "It goes on for a little while," Grandma May answered. "Then it becomes something else."
 
-"Oh," said Ben. "That's much more sensible."
+"Oh good," said Ben. "My legs aren't very long."
 
 They passed the Village Green and the Story House, where Ben's orange paper lantern still hung in the window.
 

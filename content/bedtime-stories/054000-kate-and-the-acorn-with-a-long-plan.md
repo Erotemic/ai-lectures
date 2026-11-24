@@ -76,7 +76,7 @@ Kate crouched close.
 
 “Is that the beginning?”
 
-“It is one beginning,” said the gardener.
+“Yes. That's its first root,” said the gardener.
 
 Farther along the meadow stood a little oak sapling, no taller than Kate's head. It had a thin stem and several green leaves.
 

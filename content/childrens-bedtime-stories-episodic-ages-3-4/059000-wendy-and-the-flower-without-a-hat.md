@@ -90,11 +90,11 @@ Aunt Kay showed Wendy the green bud on the second stem.
 
 "Does it have to open today?"
 
-"No. The plants don't all do everything together."
+"No. Some flowers open sooner than others."
 
 Wendy sat quietly for a moment, then waved her little paper hat in the direction of the unopened bud.
 
-"You can have a look at it when you're ready," she said.
+"I'll come and see you again," she said.
 
 The bud stayed closed, which was exactly what a closed bud ought to do.
 

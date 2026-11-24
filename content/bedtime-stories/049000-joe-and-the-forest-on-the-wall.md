@@ -90,7 +90,7 @@ The woodlouse stopped beside a bead of water. It walked around the bead and disa
 
 “It has a road!” Joe said.
 
-“Perhaps it has several,” Dad replied.
+“Look, it goes right under the moss,” Dad replied.
 
 Joe bent down to sniff where the woodlouse had gone.
 

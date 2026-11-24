@@ -54,7 +54,7 @@ Ben gave his wibble-wave, the silly greeting he had invented when the Story Hous
 
 "Very shy sign," Ben said.
 
-"It's not shy," said Sue. "It's busy growing behind a sunflower."
+"The sunflower keeps hiding it," said Sue.
 
 They tried reading it with their heads tipped sideways. They tried standing on the two dry viewing stones, which were only a tiny bit higher than the path. They tried crouching, though Ben's scarf kept falling over his nose.
 
