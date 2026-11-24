@@ -92,7 +92,7 @@ Joe gave a small laugh.
 
 “Dad,” he said, “you can't see my parade at all.”
 
-“No,” said Dad. “But I can see you enjoying it.”
+“No,” said Dad. “I can smell the pine tree, though.”
 
 They went past the fountain and turned toward home.
 

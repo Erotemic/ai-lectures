@@ -30,7 +30,7 @@ The front row, once filled with radish leaves, was bare after the grown-ups' spr
 
 "One open and one thinking about it," said Ben.
 
-"The second one doesn't have to decide right now," Kim told him.
+"I wonder if it'll open tomorrow," Kim told him.
 
 Todd pointed upward. "I drew that bud before it had a yellow edge. Now it has one."
 

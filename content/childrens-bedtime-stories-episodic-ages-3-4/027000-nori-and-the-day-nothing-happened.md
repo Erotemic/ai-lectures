@@ -92,13 +92,13 @@ Kim tried one stone with her feet.
 
 Then she tried the other.
 
-"This is a good looking place," she said.
+"I like this spot," she said.
 
-"A place for looking," Amy said.
+"Because you can see the garden?" Amy asked.
 
 Kim shook her head, smiling.
 
-"A good looking place. Both kinds."
+"I like standing on the stone."
 
 On Friday, they came back once more.
 

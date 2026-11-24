@@ -70,11 +70,7 @@ They considered the colors.
 
 "The violet looks like Kim's pouch," said Wendy.
 
-"And the blue looks like my hat ribbon," Kim added.
-
-"Your hat ribbon," Wendy corrected gently.
-
-"Yes," said Kim, smiling. "I borrowed it in my imagination."
+"And the blue looks like Wendy's ribbon," Kim added.
 
 Grandma May brought out large paper shapes the grown-ups had prepared: a sun, a leaf, and a little round pond.
 

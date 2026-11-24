@@ -76,7 +76,7 @@ The bus stopped to let someone aboard. It started again. Amy counted two red doo
 
 "You don't have to draw every fence post," Grandma May replied.
 
-"Especially that one," said Wendy. "It looks rather busy being crooked."
+"That crooked one would be fun to draw," said Wendy.
 
 Soon the buildings stood closer together. Shops appeared along a broad street. There was a bakery with round loaves in the window, a little library with painted book pictures on its glass, and a clock above a shop awning.
 

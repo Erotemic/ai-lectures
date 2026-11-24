@@ -24,9 +24,9 @@ Amy was there already. Her yellow map lay folded on the table. Sue had arrived w
 
 "Has it learned any new sounds?" Sue asked.
 
-"It heard a bus go psssh," Ben said. "But it has only six pages."
+"It heard a bus go psssh," Ben said. "I didn't draw that one."
 
-"That's enough pages to take a bus," Amy told him.
+"I heard it at Far Meadow, too," Amy told him.
 
 They took the notebook out. Its blue cover had the same small crease. Inside were still the reeds, the bridge, Todd's bup, two kinds of wind, a plinking can, and Amy's folding map.
 

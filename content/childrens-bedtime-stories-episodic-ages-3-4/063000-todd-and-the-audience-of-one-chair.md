@@ -80,13 +80,13 @@ No one asked Kim to speak louder. She had shown exactly what she wanted to show.
 
 Next Sue pretended that the library table was a bakery counter. She opened her paws.
 
-"One book, please. With a window."
+"One book sandwich, please."
 
 Ben offered the blue notebook.
 
-"Sorry," Sue said. "This is a sound book. Can you make it crunchy?"
+"Can I have it toasted?" Sue asked.
 
-"Certainly not," said Ben. "It would be a very noisy sandwich."
+"Certainly not," said Ben. "You'd burn all the pages."
 
 Todd made a small bup into his sleeve. The chair remained quite impressed.
 

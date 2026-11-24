@@ -46,7 +46,7 @@ Kim looked at it. She had heard about Grandpa Ed repairing the hinge, but she ha
 
 Todd looked at his boots. "I could lend it a shup."
 
-"I think it has enough shoes," Kim said.
+"Then it could go click-shup!" Kim said.
 
 They went inside to look at the garden picture on the low shelf. The little plants in the garden behind the house had more leaves than they had when the picture was made.
 

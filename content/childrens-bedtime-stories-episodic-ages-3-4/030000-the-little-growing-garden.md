@@ -30,7 +30,7 @@ At the Story House door, Ben greeted everyone with an announcement.
 
 "Welcome to the most important very small garden in Willow Bend!"
 
-"It's our only very small garden behind this particular building," Amy said.
+"It's the only garden back here," Amy said.
 
 "Exactly," said Ben. "A record holder."
 

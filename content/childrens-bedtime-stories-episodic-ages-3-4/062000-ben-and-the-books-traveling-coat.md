@@ -24,9 +24,9 @@ Ben pulled the blue book toward him.
 
 "Does it need a library card?"
 
-"We'll ask the librarian," Grandma May said. "For now, it needs its author to agree."
+"We'll ask the librarian," Grandma May said. "Do you want to take your book?"
 
-"I agree," Ben said. "But it also needs a traveling coat."
+"I do," Ben said. "But it also needs a traveling coat."
 
 "Books don't usually wear coats," Amy pointed out.
 
@@ -40,7 +40,7 @@ On the first page, tall reeds bent over a narrow path.
 
 "Shhh," Kim said. "That's my way to Todd's meadow."
 
-"It's the wind's way," Ben corrected kindly. "You're allowed to use it."
+"Remember how loud the reeds were that day?" Ben asked.
 
 The second page showed feet on Pebble Bridge, making tok and tuk, and the enormous ears of Ben's paper listening hat.
 

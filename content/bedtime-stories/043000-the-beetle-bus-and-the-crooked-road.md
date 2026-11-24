@@ -76,7 +76,7 @@ Around the stone was a long curly line. It went past the thyme plant, under a be
 
 “That looks very crooked,” said the ladybug.
 
-“It is,” said the driver. “A crooked road can still get us there.”
+“It is,” said the driver. “It goes all the way around that stone. Hold on tight!”
 
 Everyone climbed in again.
 

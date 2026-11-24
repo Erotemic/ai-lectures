@@ -90,7 +90,7 @@ Then he looked at his own yellow boots.
 
 "So my boots are helping me do the trick."
 
-"Your feet are certainly doing some of the work."
+"They are. Try it again!"
 
 Todd made a long, pleased buuuup.
 

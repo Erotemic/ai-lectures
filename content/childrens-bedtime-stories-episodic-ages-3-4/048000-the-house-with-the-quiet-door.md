@@ -100,7 +100,7 @@ Sue told Amy that her cardboard castle bakery now had a tiny door, too.
 
 "It flups," Sue replied.
 
-"Excellent," said Ben. "A professional sound."
+"Flup!" said Ben. "That's a good door noise."
 
 Soon it was time to go home. The friends left by the paths they knew, each with a grown-up. Sue went south toward her round window. Wendy went west over the hill. Kim and Todd went east across Pebble Bridge, then parted near Round Pond. Ben went home with his red scarf, and Amy walked west with Grandma May.
 

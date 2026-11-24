@@ -48,7 +48,7 @@ They still appeared to sit still.
 
 "Grandpa, are they asleep?"
 
-"They move slowly enough that it's hard to notice from moment to moment. Shall we go look at the flower stall and come back?"
+"No, they're just moving very slowly. Shall we go look at the flower stall and come back?"
 
 That sounded like a good idea.
 

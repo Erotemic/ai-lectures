@@ -118,7 +118,7 @@ He found a feather caught against a flowerpot and three pebbles near the drainpi
 
 He also found his lost blue ball behind a watering can.
 
-“That,” Joe said, “is a much bigger discovery.”
+“My ball!” Joe said. “I wondered where that went!”
 
 He brought the ball to Dad, and they played fetch until the shadows grew long.
 

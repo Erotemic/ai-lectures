@@ -74,7 +74,7 @@ He waited. Nothing on his shell lit up.
 
 “I'm a snail with no lantern,” he announced.
 
-Kate smiled. “You have a very good shell, though.”
+Kate smiled. “Would you trade your shell for a lantern?”
 
 Pete considered this. His shell was indeed good. It kept the rain off his head and went everywhere with him.
 

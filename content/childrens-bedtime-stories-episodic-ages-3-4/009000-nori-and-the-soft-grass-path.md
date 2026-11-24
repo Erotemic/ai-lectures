@@ -72,7 +72,7 @@ Ben held his scarf very still.
 
 "It says you are wearing a scarf," Kim said.
 
-Ben nodded. "A very wise scarf."
+Ben nodded. "It got that right!"
 
 They all sat in the clover for a little while.
 

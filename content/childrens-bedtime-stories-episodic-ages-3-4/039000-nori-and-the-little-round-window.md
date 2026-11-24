@@ -158,7 +158,7 @@ The pouch stayed in Kim's paw, with all three pebbles inside. Sue's green cushio
 
 "Perhaps," said Kim. "Or perhaps we'll just sit."
 
-"Either is good."
+"I'll save you a spot by the window."
 
 When Kim had gone, Sue sat by the round window once more.
 

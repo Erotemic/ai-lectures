@@ -26,7 +26,7 @@ One side touched the Story House's warm southern wall. The other sides were edge
 
 Grandma May leaned down beside her.
 
-"At the moment? Mostly questions."
+"Not much yet. What can you see?"
 
 Amy looked carefully.
 
@@ -42,9 +42,9 @@ Ben came around the corner with his red scarf swinging behind him.
 
 He had been at the front of the Story House, admiring his old orange lantern. It still leaned a little, silver spots and all, by the window.
 
-"I heard someone say questions were growing," he announced. "Are they tall questions?"
+"What are you two looking at?" he asked.
 
-"One of them is very small," Amy said. "Could this be a garden?"
+"This little patch," Amy said. "Could it be a garden?"
 
 Ben examined the patch.
 

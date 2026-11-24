@@ -126,7 +126,7 @@ The pink side faced the garden path. The brown side faced Abby's doorway.
 
 “Will it be a hiding place?” Deb asked.
 
-“No,” said Abby. “It's too small to hide me. But it's a very good place for something beautiful to sit.”
+“No,” said Abby. “It's too small to hide me. I want to see the pink side when I come home.”
 
 A small fish passed overhead and looked down at the garden.
 

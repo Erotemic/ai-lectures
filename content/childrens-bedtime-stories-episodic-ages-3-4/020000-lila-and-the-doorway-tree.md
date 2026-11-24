@@ -96,9 +96,9 @@ Ben spread his arms.
 
 "Over there is a bakery that makes bread for ants."
 
-"But it is pretend bread," Amy added.
+"They make very tiny loaves," Amy added.
 
-"Good," Wendy said. "Otherwise it might get crumbs in the grass."
+"I'll have a hundred, please," Wendy said. "I'm much bigger than an ant."
 
 "Over there," Ben continued, "is the hat shop. Every hat is the size of a blueberry."
 
