@@ -70,6 +70,16 @@ Each event is append-only in `reviews/registry/description-audits-<track>.jsonl`
 
 The initial eleven-lecture scoped batch covered descriptions, title alignment, and relevant taxonomy fields, with a chronology/geography check for Ky Fan. It did **not** review learning prerequisites, source support, external historical facts, or formal proof correctness. Earlier description-only full-manuscript records remain description-only. These audits should not block importing or playing lectures.
 
+## Audit progress (24 November 2026, batch 39)
+
+**1,027 current distinct full-manuscript description reviews out of 2,399 lectures (42.8%)** are recorded, up from 1,003 after batch 38. This adds 24 previously unreviewed lectures: the remaining 14 `cell-biology-genetics` lectures and ten foundational `category-theory` lectures (001000–006000 and 008000–011000; 007000 was already covered). **1,372 remain**, all never recorded; no stale description reviews remain. This is below the planned 72; the batch stops after these complete manuscript reads rather than counting unread lectures. The equally prioritized queue was grouped by track and topic.
+
+**17 descriptions refined, 7 retained; 24 flat topic-tag sets expanded with 209 additional labels after accounting for inherited tags and tag-path leaves; all 24 titles and hierarchical tag-path sets retained.** The functor preview no longer promises essentially surjective functors, which are developed in the equivalence lecture. The other mathematics corrections cover functor categories, limit constructions, the direction of adjoint preservation, monad algebras and the extra structure required for graphical operations. Biology corrections preserve distinctions among DNA damage and inherited mutation, enzyme kinetics and affinity, genetic and physical maps, heritability and individual predictions, single-cell snapshots and lineage, and Cas9 cleavage and repair outcomes.
+
+Targeted chronology checks added five structured context dates for explicitly narrated papers or experimental reports, using existing related-resource identifiers. The population genetics lecture gained geographic indexing for the Galápagos Islands and Daphne Major. These are manuscript-alignment checks, not external verification; chronology and geography scope receipts are limited to those targeted checks.
+
+Exactly 24 metadata sidecars changed. The two ledgers gained 24 individually annotated full-manuscript receipts identifying `GPT-6.2`, with final scope fingerprints. No manuscript, track manifest, related resource, code, binary asset, or audio artifact changed. Apply after batch 38 on the rebased November 24 snapshot. A subsequent manuscript edit can stale a receipt even when the metadata patch applies without conflict.
+
 ## Audit progress (24 November 2026, batch 38)
 
 **1,003 current distinct full-manuscript description reviews out of 2,399 lectures (41.8%)** are recorded, up from 964 after batch 37. This adds 39 previously unreviewed `chemistry` lectures, completing that track's description-review queue. **1,396 lectures remain**, all never recorded; there are no stale description reviews. The 39 chemistry candidates were tied at priority 65 with other tracks. This pass grouped the remaining chemistry lectures and stopped at the track boundary rather than claiming the planned 72 reviews.

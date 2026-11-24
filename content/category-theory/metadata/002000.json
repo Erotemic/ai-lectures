@@ -21,7 +21,7 @@
     }
   ],
   "historical_claims": [],
-  "description": "Defines covariant and contravariant functors as structure-preserving translations between categories, then distinguishes faithful, full, and essentially surjective behavior.",
+  "description": "Defines covariant and contravariant functors through the functor laws, forgetful and powerset constructions, and dual maps. Distinguishes fullness, faithfulness, and preservation versus reflection of isomorphisms, with examples showing why functors need not preserve all universal constructions.",
   "tag_paths": [
     [
       "Mathematics",
@@ -54,5 +54,17 @@
       "Can you state what a functor must do to identities and composites?",
       "Can you name a structure-preserving translation that forgets some properties?"
     ]
-  }
+  },
+  "tags": [
+    "Covariant functors",
+    "Contravariant functors",
+    "Opposite categories",
+    "Forgetful functors",
+    "Powerset functors",
+    "Dual maps",
+    "Full and faithful functors",
+    "Commutative diagrams",
+    "Preservation and reflection of isomorphisms",
+    "Monotone maps"
+  ]
 }

@@ -32,7 +32,7 @@
       "audit_status": "reference_recorded"
     }
   ],
-  "description": "Uses string diagrams to reason about monoidal categories, translating algebraic equations into wires and crossings while marking where graphical intuition needs coherence theorems.",
+  "description": "Interprets typed wires and boxes as tensor and sequential composition, using graphical coherence and the interchange law. Distinguishes symmetric and braided crossings, explicit copying and discarding, and cups, caps and feedback that require additional duality or trace structure; checks interchange via Kronecker products.",
   "tag_paths": [
     [
       "Mathematics",
@@ -49,5 +49,16 @@
       "Category theory",
       "Graphical reasoning"
     ]
+  ],
+  "tags": [
+    "Graphical coherence",
+    "Interchange law",
+    "Braiding and symmetry",
+    "Diagonal maps",
+    "Copying and discarding",
+    "Dualizable objects",
+    "Evaluation and coevaluation",
+    "Snake identities",
+    "Kronecker products"
   ]
 }

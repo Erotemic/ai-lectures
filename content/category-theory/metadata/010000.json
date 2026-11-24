@@ -32,7 +32,7 @@
       "audit_status": "reference_recorded"
     }
   ],
-  "description": "Introduces monoidal categories as a framework for side-by-side composition, explaining tensor products, coherence, associators, unit objects, and symmetric structures.",
+  "description": "Introduces monoidal categories through sequential and parallel composition, the tensor bifunctor, associators, unitors and pentagon and triangle coherence. Compares cartesian products, vector-space tensors and resource addition, distinguishing symmetry and braiding from extra copying and discarding structure.",
   "tag_paths": [
     [
       "Mathematics",
@@ -49,5 +49,16 @@
       "Category theory",
       "Structured composition"
     ]
+  ],
+  "tags": [
+    "Interchange law",
+    "Tensor bifunctors",
+    "Mac Lane coherence theorem",
+    "Pentagon identity",
+    "Unitors",
+    "Symmetric monoidal categories",
+    "Braided monoidal categories",
+    "Cartesian monoidal structure",
+    "Copying and discarding"
   ]
 }

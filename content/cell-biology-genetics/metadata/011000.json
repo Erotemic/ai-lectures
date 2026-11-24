@@ -196,7 +196,7 @@
       "audit_status": "source_checked"
     }
   ],
-  "description": "Connects allele frequencies to selection, drift, migration, effective population size and historical inference from genetic data.",
+  "description": "Uses Hardy–Weinberg proportions as a null model, the Luria–Delbrück fluctuation test and the Daphne Major finch studies to distinguish mutation, selection and chance. Develops drift, bottlenecks, gene flow, effective population size and coalescent inference with demographic and recombination limitations.",
   "tag_paths": [
     [
       "Science",
@@ -204,5 +204,18 @@
       "Cell biology and genetics",
       "Population Genetics"
     ]
+  ],
+  "tags": [
+    "Allele and genotype frequencies",
+    "Fluctuation test",
+    "Bottleneck effect",
+    "Founder effect",
+    "Neutral variation",
+    "Genealogical inference",
+    "Daphne Major finch studies"
+  ],
+  "places": [
+    "Galápagos Islands",
+    "Daphne Major"
   ]
 }

@@ -165,7 +165,7 @@
       "audit_status": "source_checked"
     }
   ],
-  "description": "Develops DNA replication and repair alongside mitosis, meiosis, recombination and inheritance, distinguishing copying machinery from heredity across generations.",
+  "description": "Connects semiconservative DNA replication and the Meselson–Stahl isotope experiment with proofreading, repair, chromosome segregation and cell division. Contrasts mitosis and meiosis, and explains Mendelian transmission, recombination, linkage and the distinction between DNA damage and inherited mutation.",
   "tag_paths": [
     [
       "Science",
@@ -173,5 +173,29 @@
       "Cell biology and genetics",
       "Cell Division Inheritance"
     ]
-  ]
+  ],
+  "tags": [
+    "Semiconservative replication",
+    "Meselson–Stahl experiment",
+    "Leading and lagging strands",
+    "Okazaki fragments",
+    "Proofreading and mismatch repair",
+    "Cytokinesis",
+    "Spindle assembly checkpoint",
+    "Independent assortment",
+    "Linkage",
+    "Germline and somatic mutations"
+  ],
+  "chronology": {
+    "context": {
+      "start": 1958,
+      "end": 1958,
+      "label": "Meselson–Stahl DNA replication experiment",
+      "basis": "The spoken lecture identifies the 1958 isotope-labeling experiment.",
+      "note": "Date of the experiment’s published report, not the origin of DNA replication.",
+      "source_ids": [
+        "cb-meselson1958"
+      ]
+    }
+  }
 }

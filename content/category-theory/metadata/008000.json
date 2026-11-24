@@ -21,7 +21,7 @@
     }
   ],
   "historical_claims": [],
-  "description": "Builds monads from units and associative multiplication, using list and optional-value computations to explain Kleisli composition and the relation to adjunctions.",
+  "description": "Builds monads from endofunctors, units and multiplication, checking laws for optional values and lists and deriving Kleisli composition. Connects monads to adjunctions, Eilenberg–Moore algebras and monoids, and models of finite branching and state.",
   "tag_paths": [
     [
       "Mathematics",
@@ -38,5 +38,17 @@
       "Category theory",
       "Structured composition"
     ]
+  ],
+  "tags": [
+    "Endofunctors",
+    "Monad laws",
+    "List monad",
+    "Maybe monad",
+    "Kleisli categories",
+    "Eilenberg–Moore categories",
+    "Monad algebras",
+    "State monads",
+    "Monads from adjunctions",
+    "Monoids"
   ]
 }

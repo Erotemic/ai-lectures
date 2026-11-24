@@ -2,7 +2,7 @@
   "schema_version": 1,
   "lecture_id": "015000",
   "transcript": "015000-how-to-interrogate-a-genome.md",
-  "description": "Distinguishes PCR, genome sequencing, RNA profiling, single-cell inference and genome editing, emphasizing experimental controls and causal interpretation.",
+  "description": "Distinguishes targeted PCR, short- and long-read sequencing, genome assembly, RNA profiling and single-cell pseudotime from direct lineage observations. Explains programmable Cas9 cutting and repair, knockout and rescue controls, and the limits of association, measurement and causal inference.",
   "tag_paths": [
     [
       "Science",
@@ -184,5 +184,29 @@
       "source_locator": "Technical limitations and analysis recommendations",
       "audit_status": "source_checked"
     }
-  ]
+  ],
+  "tags": [
+    "Sanger sequencing",
+    "Short- and long-read sequencing",
+    "Genome assembly",
+    "Reference bias",
+    "Genome annotation",
+    "Single-cell dropout",
+    "Batch effects",
+    "Lineage recording",
+    "DNA repair outcomes",
+    "Rescue experiments"
+  ],
+  "chronology": {
+    "context": {
+      "start": 2012,
+      "end": 2012,
+      "label": "Programmable Cas9 DNA cleavage demonstration",
+      "basis": "The narration describes the 2012 demonstration of programmable DNA cleavage.",
+      "note": "The date refers to the cited cleavage study, not all genome-editing methods or later cellular applications.",
+      "source_ids": [
+        "cb-jinek2012"
+      ]
+    }
+  }
 }
