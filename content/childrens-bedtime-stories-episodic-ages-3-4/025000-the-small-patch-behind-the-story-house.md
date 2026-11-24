@@ -44,7 +44,7 @@ He had been at the front of the Story House, admiring his old orange lantern. It
 
 "What are you two looking at?" he asked.
 
-"This little patch," Amy said. "Could it be a garden?"
+"This little patch," Amy said. "Could this be a garden?"
 
 Ben examined the patch.
 

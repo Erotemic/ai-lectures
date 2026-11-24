@@ -26,8 +26,6 @@ Amy was there already. Her yellow map lay folded on the table. Sue had arrived w
 
 "It heard a bus go psssh," Ben said. "I didn't draw that one."
 
-"I heard it at Far Meadow, too," Amy told him.
-
 They took the notebook out. Its blue cover had the same small crease. Inside were still the reeds, the bridge, Todd's bup, two kinds of wind, a plinking can, and Amy's folding map.
 
 But something new lay just inside the cover.

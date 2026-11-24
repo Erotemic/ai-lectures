@@ -66,7 +66,7 @@ The meadow slipped backward outside the glass. Then came a field of tall flowers
 
 "The dog's not going anywhere," Amy whispered.
 
-"The bus is," Wendy whispered back.
+"I wonder if it'll still be there when we come back," Wendy whispered.
 
 For a moment, Amy thought the trees were marching past. Then she looked down and noticed the road sliding along beneath the bus instead.
 

@@ -48,7 +48,7 @@ Ben drew an orange lantern with silver spots. It leaned to one side.
 
 "Can lanterns read?" Kim asked.
 
-"I'll put it where the lantern can see the picture," Ben said.
+"It's just a picture. There aren't any words," Ben said.
 
 Amy drew a blue door and the apple tree beside it.
 

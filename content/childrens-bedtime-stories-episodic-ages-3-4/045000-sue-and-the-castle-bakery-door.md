@@ -38,7 +38,7 @@ Flup.
 
 "I like that noise," Grandpa Ed said.
 
-"Listen! It makes a different noise when I shut it," Sue replied.
+"I like opening it best," Sue replied.
 
 Amy came by with Grandma May when the rain had slowed to a soft patter. They followed the familiar orchard path and stopped at the cottage before the fenced old mill.
 

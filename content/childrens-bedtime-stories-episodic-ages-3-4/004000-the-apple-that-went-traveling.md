@@ -28,7 +28,7 @@ Ben stopped beneath that tree.
 
 Kim looked at the two trunks.
 
-“These are much too big for you,” Kim said.
+“You'd need legs as tall as a tree,” Kim said.
 
 Grandma May was carrying a basket of apples from the orchard keeper, who had left them by the gate.
 

@@ -102,7 +102,7 @@ Wendy examined the fish-shaped leaf.
 
 "This one looks like a fish," she said.
 
-"I thought you might like that one," Ben said.
+"That's why I put it in my pocket," Ben said.
 
 Amy picked up the folded napkin and made it into a little mountain.
 

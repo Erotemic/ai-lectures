@@ -84,9 +84,9 @@ Next Sue pretended that the library table was a bakery counter. She opened her p
 
 Ben offered the blue notebook.
 
-"Can I have it toasted?" Sue asked.
+"What's inside?" Sue asked.
 
-"Certainly not," said Ben. "You'd burn all the pages."
+"Reeds, rain and a frog," said Ben.
 
 Todd made a small bup into his sleeve. The chair remained quite impressed.
 

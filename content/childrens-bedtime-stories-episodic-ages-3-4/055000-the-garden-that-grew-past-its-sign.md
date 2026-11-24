@@ -46,7 +46,7 @@ Amy remembered the little red circles on the kitchen table and how Ben had calle
 
 "Did they all go to lunch?" Ben asked.
 
-"Some went to other kitchens," said Grandma May. "And some were much too small to be very useful."
+"Some went to other kitchens," said Grandma May. "And some were too small to eat."
 
 Ben bent down to look at the empty row, but he stayed on the dry path beside the two flat stepping stones Kim had once helped place.
 
@@ -61,8 +61,6 @@ They stood for a moment beneath the broad leaves. A little breeze moved them. On
 "Good morning," said Ben to the leaf.
 
 It moved again.
-
-"There goes my shade again!" said Ben.
 
 Grandma May pointed to the closed round bud. "There's something there that we haven't seen yet."
 

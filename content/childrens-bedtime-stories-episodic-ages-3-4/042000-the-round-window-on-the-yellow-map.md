@@ -98,11 +98,11 @@ But it showed enough.
 
 Ben looked at the map.
 
-"Now all six of our homes are on the map," he said.
+"Now we can find Sue's house on the map," he said.
 
 "And there's the pond," said Kim.
 
-"And the dandelion's meadow," Wendy added.
+"And the Windbreak Tree," Wendy added.
 
 "And my Almost Ocean," Todd said.
 

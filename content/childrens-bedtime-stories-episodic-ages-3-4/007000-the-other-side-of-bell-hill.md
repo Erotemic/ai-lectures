@@ -28,7 +28,7 @@ Ben arrived wearing his red scarf. Kim arrived with her violet pouch, which held
 
 "Far Meadow," Ben said. "That sounds like a meadow that goes on for ever."
 
-"It goes on for a little while," Grandma May answered. "Then it becomes something else."
+"It isn't that big," Grandma May answered. "We won't have to walk all the way across it."
 
 "Oh good," said Ben. "My legs aren't very long."
 

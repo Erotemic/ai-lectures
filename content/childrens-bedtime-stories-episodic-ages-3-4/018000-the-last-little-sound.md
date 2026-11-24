@@ -62,7 +62,7 @@ Todd leaned forward.
 
 "Your very important bup," said Ben.
 
-"It's a fine-looking bup," Wendy told him.
+"I like the picture," Wendy told him.
 
 Todd sat a little taller in his yellow boots.
 

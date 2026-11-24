@@ -106,7 +106,7 @@ Todd lifted the little curve. A pigeon walked past outside just then, but not th
 
 "The pigeon's too quick," he said.
 
-"Try looking at the clock. That won't run away," said Ben.
+"Then you might as well eat your window," said Ben.
 
 They finished their snack and walked back toward the bus stop with their grown-ups. On the way, Todd spotted a real shoe shop. There were boots in its window, but none was made of bread.
 

@@ -22,7 +22,7 @@ Sue had heard about Todd's boots from Ben.
 
 Todd looked down.
 
-"Yes. See the blue patch?"
+"Yes. I remembered to wear both of them."
 
 Sue laughed.
 
