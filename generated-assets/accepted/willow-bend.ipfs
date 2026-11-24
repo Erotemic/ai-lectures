@@ -1,0 +1,27 @@
+type: ipfs-sidecar
+cid: bafybeibspay6r4a5swec5nrztouv5iizhrmroslnifojtadixbito5sy6u
+rel_path: willow-bend
+size: 69.37 MiB
+num_items: 13
+add_config:
+  path: willow-bend
+  name: null
+  recursive: true
+  progress: true
+  cid_version: 1
+  raw_leaves: false
+  only_hash: false
+  pin: true
+  sidecar: true
+  update_gitignore: true
+  git_add_sidecar: true
+  dry_run: false
+add_datetime: 2026-11-24T135426-5
+add_duration: 3.754352636053227
+local_quickstat:
+  kind: dir
+  bytes: 72737422
+  mtime: 1795557780.0
+  nfiles: 12
+pin_name: pkg:github/Erotemic/ai-lectures#generated-assets/accepted/willow-bend
+pin_name_source: generated

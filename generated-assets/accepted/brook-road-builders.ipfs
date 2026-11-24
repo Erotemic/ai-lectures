@@ -1,0 +1,27 @@
+type: ipfs-sidecar
+cid: bafybeihnmd66hecxokg73xldj4pu5xcxtowes3clnlhdik23nvfrycsqhu
+rel_path: brook-road-builders
+size: 28.15 MiB
+num_items: 17
+add_config:
+  path: brook-road-builders
+  name: null
+  recursive: true
+  progress: true
+  cid_version: 1
+  raw_leaves: false
+  only_hash: false
+  pin: true
+  sidecar: true
+  update_gitignore: true
+  git_add_sidecar: true
+  dry_run: false
+add_datetime: 2026-11-24T135432-5
+add_duration: 3.2415484939701855
+local_quickstat:
+  kind: dir
+  bytes: 29514675
+  mtime: 1795561336.0
+  nfiles: 16
+pin_name: pkg:github/Erotemic/ai-lectures#generated-assets/accepted/brook-road-builders
+pin_name_source: generated
