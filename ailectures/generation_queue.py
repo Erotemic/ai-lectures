@@ -22,8 +22,13 @@ def resolve_profiles(catalog, selectors):
         matches = [p for p in catalog['profiles'] if p['id'] == selector]
         if not matches:
             matches = [p for p in catalog['profiles'] if p['label'].casefold() == selector.casefold()]
-        if len(matches) != 1:
-            raise ValueError(f'Saved voice profile {selector!r} is unknown or ambiguous; run voices and use its exact ID')
+        if not matches:
+            matches = [p for p in catalog['profiles'] if p['voice'] == selector]
+        if not matches:
+            raise ValueError(f'No saved profile matches {selector!r} as an ID, label or voice ID; run voices to list choices')
+        if len(matches) > 1:
+            candidates = '; '.join(f"{p['id']} ({p['label']})" for p in matches)
+            raise ValueError(f'Saved voice profile {selector!r} is ambiguous; choose an exact profile ID: {candidates}')
         profile = matches[0]
         if not profile['available'] or profile['archived']:
             raise ValueError(f'Saved voice profile {selector!r} is unavailable')

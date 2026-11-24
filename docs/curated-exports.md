@@ -100,7 +100,7 @@ production database and its historical snapshots.
 ## Readiness and reproducibility
 
 To queue a declaration for specific voices, use `python -m ailectures queue
---selection FILE --saved-profile ID_OR_LABEL`, repeating `--saved-profile` as
+--selection FILE --saved-profile PROFILE_OR_VOICE`, repeating `--saved-profile` as
 needed. `voices` lists the saved profiles, and `queue --dry-run` previews the
 item/voice pairs. The [preparation commands](../tools/deployments/README.md#prepare-on-the-production-machine)
 cover worker pickup, matching-profile readiness and retry behavior. The CLI

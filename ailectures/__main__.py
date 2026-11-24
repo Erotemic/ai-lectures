@@ -89,7 +89,7 @@ def main(argv=None):
     queue.add_argument("--collection", action="append", default=[])
     queue.add_argument("--lecture", action="append", default=[])
     queue.add_argument("--all", action="store_true", help="Explicitly select every audio item in the library")
-    queue.add_argument("--saved-profile", action="append", required=True, metavar="ID_OR_LABEL", help="Saved voice profile ID or exact label; repeat for multiple voices")
+    queue.add_argument("--saved-profile", action="append", required=True, metavar="PROFILE_OR_VOICE", help="Saved profile ID, exact label, or unique voice ID; repeat for multiple voices")
     queue.add_argument("--tts-config", type=Path)
     queue.add_argument("--dry-run", action="store_true")
     queue.add_argument("--json", action="store_true")

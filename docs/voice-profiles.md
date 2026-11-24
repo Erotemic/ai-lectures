@@ -31,8 +31,9 @@ working service. Previously issued block URLs read their cached bytes without
 reconstructing today's synthesis configuration.
 
 The CLI's `voices` command lists these saved profiles, including their IDs and
-labels. `queue --selection FILE --saved-profile ID_OR_LABEL` accepts either an
-exact ID or an unambiguous label; repeat the flag for multiple voices. It pins
+labels. `queue --selection FILE --saved-profile PROFILE_OR_VOICE` accepts an
+exact profile ID, an unambiguous label, or a voice ID used by exactly one saved
+profile; repeat the flag for multiple voices. It pins
 each current recipe revision, skips only matching complete audio, and persists
 jobs for the running reader without making synthesis requests itself. Use
 `--dry-run` to preview. Full examples are in the

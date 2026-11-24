@@ -14,7 +14,7 @@ from starlette.testclient import TestClient
 
 from ailectures.__main__ import main
 from ailectures.core import lecture_revision
-from ailectures.generation_queue import queue_audio
+from ailectures.generation_queue import queue_audio, resolve_profiles
 from ailectures.jobs import JobStore
 from ailectures.packs import export_release
 from ailectures.web import create_app
@@ -184,7 +184,7 @@ def test_real_cli_process_exits_with_unclaimed_jobs_and_no_generation_cache(tmp_
     selection.write_text(json.dumps({'packs':['music']}))
     try:
         result = subprocess.run([sys.executable, '-m', 'ailectures', '--library', str(library.store.root),
-            'queue', '--selection', str(selection), '--saved-profile', first['label'],
+            'queue', '--selection', str(selection), '--saved-profile', first['voice'],
             '--saved-profile', second['id'], '--tts-config', str(config), '--json'],
             cwd=tmp_path, env={**os.environ, 'PYTHONPATH': str(Path(__file__).resolve().parents[1])},
             capture_output=True, text=True, timeout=15)
@@ -213,3 +213,21 @@ def test_absent_published_recording_can_be_restored_from_cached_completed_job(tm
         assert calls == ['af_alloy']
     finally:
         manager.close()
+
+
+def test_voice_id_resolution_requires_one_recipe_and_explicit_profiles_take_priority():
+    first = dict(id='voice-one', label='Main narrator', voice='af_alloy', available=True, archived=False)
+    catalog = {'profiles':[first]}
+    assert resolve_profiles(catalog, ['af_alloy']) == [first]
+    assert resolve_profiles(catalog, ['af_alloy', first['id'], first['label']]) == [first]
+    second = dict(first, id='voice-two', label='Alternate recipe')
+    catalog['profiles'].append(second)
+    with pytest.raises(ValueError, match='ambiguous') as error:
+        resolve_profiles(catalog, ['af_alloy'])
+    assert first['id'] in str(error.value) and second['id'] in str(error.value)
+    assert resolve_profiles(catalog, [first['id']]) == [first]
+    assert resolve_profiles(catalog, [second['label']]) == [second]
+    # An exact profile ID or label is more specific than a backend voice ID.
+    named = dict(first, id='af_alloy', label='Explicit selection', voice='am_echo')
+    catalog['profiles'].append(named)
+    assert resolve_profiles(catalog, ['af_alloy']) == [named]

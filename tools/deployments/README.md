@@ -98,7 +98,8 @@ uv run --extra serve python -m ailectures --library library-data voices \
   --tts-config /path/to/tts.toml
 ```
 
-Use the IDs or exact labels from that list. Repeat `--saved-profile` for each
+Use profile IDs, exact labels, or a voice ID that identifies exactly one saved
+profile from that list. Repeat `--saved-profile` for each
 voice; the examples below use placeholder IDs:
 
 ```bash
@@ -124,8 +125,10 @@ profile later does not change the recipe already frozen into a queued job.
 `--pack`, `--collection`, and `--lecture` can select content directly or add to a
 JSON declaration. Explicit `--all` selects every audio item instead of an export
 subset. `--json` produces a report with pair counts, pinned profile revisions and
-job IDs. An unknown or ambiguous profile label fails before any jobs are added;
-use its exact ID to disambiguate. No live voice discovery or TTS reachability
+job IDs. Resolution prefers an exact profile ID, then its label, then an exact
+voice ID. If several saved recipes use that voice, the error lists their profile
+IDs so you can choose one. Unknown or ambiguous choices fail before any jobs are
+added. No live voice discovery or TTS reachability
 probe is needed to enqueue. A worker can still fail if its TTS service is down;
 rerun the queue command after fixing it to retry failed jobs.
 

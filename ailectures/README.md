@@ -28,7 +28,8 @@ missing audio for the selected profile revision from available older recordings.
 
 For repeatable bulk generation, `python -m ailectures voices` lists saved
 rendering profiles. `python -m ailectures queue --selection FILE --saved-profile
-ID_OR_LABEL` queues the same declaration used by an export; repeat
+PROFILE_OR_VOICE` queues the same declaration used by an export; use an exact
+profile ID, label, or unique voice ID. Repeat
 `--saved-profile` for multiple voices and add `--dry-run` to preview. It skips
 complete item/profile-revision pairs, persists jobs without starting synthesis,
 and lets the running generation-enabled reader consume them. See the
