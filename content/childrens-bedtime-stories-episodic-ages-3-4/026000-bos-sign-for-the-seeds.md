@@ -62,7 +62,7 @@ These seeds were much larger.
 
 "Ah," said Ben. "Now those look like something a bird might pack for a picnic."
 
-"A bird might," Grandma agreed. "We'll put these in the back row, where they will have room later on."
+"Let's plant them before a bird finds them," Grandma said. "We'll put these in the back row, where they will have room later on."
 
 The children helped with those seeds too.
 

@@ -40,7 +40,7 @@ She took her paws off the cart and looked at Amy.
 
 "I'm Amy. This is Grandma May."
 
-Grandpa Ed smiled. "A good morning for meeting neighbors."
+Grandpa Ed smiled. "Hello there!"
 
 Amy looked along the path.
 

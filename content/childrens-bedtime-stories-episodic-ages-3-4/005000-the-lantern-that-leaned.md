@@ -94,7 +94,7 @@ Kim tilted hers last.
 
 Grandma May looked at three tilted heads and one tilted lantern.
 
-“I suppose the Story House is full of very thoughtful faces today,” she said.
+“Are you all going to walk around like that?” she asked.
 
 Ben giggled.
 

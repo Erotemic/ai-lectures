@@ -74,7 +74,7 @@ He had never met an animal with a lamp of its own. Unless fireflies counted. He 
 
 “So the ocean has fireflies?” he asked.
 
-“Not exactly. These are sea animals. But they can make light too.”
+“They're different animals, but they make their own light, just like fireflies.”
 
 The camera turned. For a while the screen showed nothing but dark water.
 

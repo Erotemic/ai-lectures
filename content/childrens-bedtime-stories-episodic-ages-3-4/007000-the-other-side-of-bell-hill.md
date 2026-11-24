@@ -66,7 +66,7 @@ Amy stopped.
 
 "There's more," she said.
 
-Grandma May smiled. "There usually is."
+Grandma May smiled. "Look how far the grass goes."
 
 Just then, a straw hat rolled slowly out from behind the tree.
 

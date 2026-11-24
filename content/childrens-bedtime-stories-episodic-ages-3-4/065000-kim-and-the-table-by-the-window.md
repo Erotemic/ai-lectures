@@ -50,7 +50,7 @@ Ben showed the next page: feet on Pebble Bridge going tok and tuk, with his sill
 
 "Why does the hat have such big ears?" the child asked.
 
-"Because I drew them," said Ben.
+"I thought they would help me hear," said Ben.
 
 "Did it help?"
 
@@ -103,10 +103,6 @@ When the visitors had finished looking, the librarian told Ben she liked how the
 "You can visit them on the map," Amy said. "Or on the bus for some of them. But the bus can't go over Pebble Bridge."
 
 "It would be a very wide bus for that bridge," Todd observed.
-
-"A bus made of bread," Sue suggested.
-
-"No," everyone said, except Ben, who needed a moment to think about it.
 
 The little table was put back in order. The librarian gave Ben his book and thanked the children for bringing it. She had drawn a small picture of the library window on a paper bookmark, with the words THANK YOU, WILLOW BEND beneath it.
 

@@ -24,11 +24,11 @@ Ben stopped beneath that tree.
 
 “I would like trousers with leaves on them,” he said.
 
-“I think the tree would like trousers without leaves,” Amy replied.
+“They'd be very scratchy,” Amy replied.
 
 Kim looked at the two trunks.
 
-“I think the tree already has excellent trousers.”
+“These are much too big for you,” Kim said.
 
 Grandma May was carrying a basket of apples from the orchard keeper, who had left them by the gate.
 

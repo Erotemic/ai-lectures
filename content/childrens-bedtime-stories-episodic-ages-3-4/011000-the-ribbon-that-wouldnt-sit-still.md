@@ -112,8 +112,6 @@ Violet.
 
 "It looks like a piece of a rainbow that came for a visit," Amy said.
 
-"A very polite rainbow," Ben added. "It didn't even splash in the fountain."
-
 Outside the Story House, the Village Green was bright and breezy.
 
 The grown-ups carried the finished banner with them, rolled neatly so it would stay clean until the picnic.

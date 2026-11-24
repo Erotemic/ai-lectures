@@ -102,8 +102,6 @@ Ben said, "Excuse me, Beetle. Have we met?"
 
 The beetle kept walking.
 
-"A private sort of visitor," said Wendy.
-
 The friends sat in a little circle on the grass beside the dry path. The garden was close enough to see, but nobody needed to stand over it anymore.
 
 Aunt Pat brought out a jug of water for the friends, and Aunt Kay passed around fresh oat biscuits from her basket.

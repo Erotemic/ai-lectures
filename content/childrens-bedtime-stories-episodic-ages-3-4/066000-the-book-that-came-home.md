@@ -44,7 +44,7 @@ Sue counted the words with one finger.
 
 "My cardboard bakery can send paper sandwiches. The real bakery could send bread sandwiches."
 
-"And the library can send thank-yous," Amy said.
+"Look, they drew the library window!" Amy said.
 
 She opened her map. The new western fold-out showed the green bus route through the road beyond Far Meadow to Market Street. There was the little clock, the bakery, the pigeon bench, the flower stall, and the broad library window. She pointed to the window on the map and then to the window on the bookmark.
 

@@ -132,9 +132,9 @@ Ben opened the fifth page of the blue book.
 
 He drew a watering can with a very long spout. He drew three drops above it.
 
-"That looks like a bird drinking from a teapot," Amy said.
+"Where's the plink?" Amy asked.
 
-"It can be both," Ben replied.
+"Right there, where the rain hits the can," Ben replied.
 
 Kim drew a little gap between the drops. Grandma May wrote plink beneath the picture.
 

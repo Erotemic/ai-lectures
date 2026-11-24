@@ -94,11 +94,11 @@ The reeds swayed along the water's edge. Somewhere beneath the bridge, the brook
 
 “It sounds like someone thinking,” Ben whispered.
 
-“Perhaps the reeds are thinking about supper,” said Grandma May.
+“Watch the reeds when you hear it,” said Grandma May.
 
-“Reeds don't eat supper,” Amy said.
+“They move when it makes that sound,” Amy said.
 
-Grandma smiled. “Then perhaps it's the wind passing through them.”
+Grandma smiled. “I think it's the wind passing through them.”
 
 They listened a little longer.
 

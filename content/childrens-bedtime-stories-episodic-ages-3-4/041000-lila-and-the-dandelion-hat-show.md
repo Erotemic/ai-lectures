@@ -82,7 +82,7 @@ Sue had seen a leaning cardboard roof at home. She had heard all about a leaning
 
 "I think leaning things are very popular around here," she said.
 
-"They are not easy to stack," Wendy answered.
+"Look, this one's nearly falling over," Wendy answered.
 
 When the little hat show was finished, Aunt Kay offered biscuits. Everyone sat in the shelter of the Windbreak Tree, where the breeze felt softer.
 

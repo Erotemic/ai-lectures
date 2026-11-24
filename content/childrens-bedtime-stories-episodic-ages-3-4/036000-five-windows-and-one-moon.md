@@ -74,11 +74,11 @@ Kim said that the pond had made a wiggly picture of the Moon. She described how 
 
 Todd showed them how a nearby object could hide something far away. He held his paw in front of the round hole in Ben's paper.
 
-"Now you see it," said Todd.
+"Now you can't see it," said Todd.
 
 He lowered his paw.
 
-"Now you see it again."
+"Now you can."
 
 "A very short magic show," said Ben.
 

@@ -62,7 +62,7 @@ They stood for a moment beneath the broad leaves. A little breeze moved them. On
 
 It moved again.
 
-"Very polite," said Ben. "It answered without interrupting."
+"There goes my shade again!" said Ben.
 
 Grandma May pointed to the closed round bud. "There's something there that we haven't seen yet."
 

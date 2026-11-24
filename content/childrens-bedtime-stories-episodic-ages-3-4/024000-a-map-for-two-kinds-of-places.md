@@ -108,7 +108,7 @@ Amy drew one winding street connecting everything.
 
 "A noodle road," said Wendy.
 
-"A noodle road with no noodles on it," said Todd.
+"I'd like to walk down a noodle road," said Todd.
 
 They all liked the sound of that.
 

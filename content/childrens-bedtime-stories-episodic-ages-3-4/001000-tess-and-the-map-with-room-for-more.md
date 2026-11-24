@@ -62,7 +62,7 @@ He could see one blue square and one very crooked green line.
 
 Ben considered this.
 
-“That's good,” he said. “Because I left my breakfast bowl at home.”
+“Then we can draw my house later,” he said.
 
 He stood and walked with them around the Green.
 
