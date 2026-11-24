@@ -91,7 +91,7 @@ export function renderWordCloud(main, catalog, { link }) {
     csvDownload.disabled = true;
     status.textContent = "Counting spoken words and phrases...";
     const query = params();
-    history.replaceState(null, "", "/word-cloud?" + query);
+    history.replaceState(history.state, "", "/word-cloud?" + query);
     try {
       const data = await api("/api/library/word-cloud?" + query);
       if (sequence !== cloudRequest || !main.isConnected) return;

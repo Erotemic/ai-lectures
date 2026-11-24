@@ -242,7 +242,7 @@ source review; matching text is not independent verification.
 
 ### Dates and chronological browsing
 
-Library and Collections offer oldest/newest sorting under **Sort results**.
+Library offers oldest/newest sorting under **Sort results**.
 Each collection's contents also have **Order this collection**, with the authored
 order as the default. A chronological view can be bookmarked with, for example,
 `?order=date-work` or `?order=date-period-desc`. Dates sort by starting year,

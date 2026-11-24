@@ -61,7 +61,7 @@ export function renderAllLectures(main, catalog, { item, link, reactions }) {
     loadTags();
   });
   main.replaceChildren(el("div", { class: "inventory-heading" }, el("h1", { text: "All lectures" }),
-    el("p", {}, link("Browse collections", "/collections"), " · ", link("Content stats", "/stats"))),
+    el("p", {}, link("Browse collections", "/#library-categories"), " · ", link("Content stats", "/stats"))),
     query,
     filters,
     el("div", { class: "actions all-lectures-status" }, count, el("label", { class: "inventory-view" }, "View", view), showAll, clear), coverage, results);

@@ -42,13 +42,15 @@ export class CatalogBrowser {
   }
   item(row, collection = null, dateAxis = null) {
     const saved = this.progress()[row.id];
+    const title = this.link(row.title, this.itemURL(row.id, collection));
+    title.className = "catalog-item-title";
     return el(
       "li",
       { class: "catalog-item" },
       el(
         "div",
         { class: "copy" },
-        this.link(row.title, this.itemURL(row.id, collection)),
+        title,
         creatorLine(row, this.link),
         row.description ? el("p", { class: "lecture-description", text: row.description }) : null,
         topicLinks(row.tags, this.link, 4),
@@ -174,10 +176,9 @@ export class CatalogBrowser {
       ),
     );
   }
-  browse(main, collectionsOnly = false) {
+  browse(main) {
     const data = this.catalog();
-    // The URL owns browse state. Library and Collections are stable destinations;
-    // browser Back restores the previous filtered URL and its scroll position.
+    // The URL owns browse state so Back can restore the previous filters.
     const query = new URLSearchParams(location.search);
     const initial = (field) => query.get(field) || "";
     const heading = el("h1");
@@ -237,7 +238,7 @@ export class CatalogBrowser {
     sort.value = initial("sort");
     let limit = Number.isInteger(history.state?.browseLimit) ? Math.max(24, history.state.browseLimit) : 24;
     let collectionLimit = history.state?.browseCollectionLimit || 12;
-    const base = collectionsOnly ? "/collections" : "/";
+    const base = "/";
     const results = el("div");
     const filters = el(
       "details",
@@ -286,9 +287,7 @@ export class CatalogBrowser {
         "",
         base + (params.size ? "?" + params : "") + location.hash,
       );
-      heading.textContent =
-        state.category ||
-        (collectionsOnly ? "Collections" : "Browse the library");
+      heading.textContent = state.category || "Browse the library";
       document.title = heading.textContent + " · AI Lectures";
       const available = (row) =>
         !state.audio ||
@@ -367,12 +366,12 @@ export class CatalogBrowser {
           return node;
         };
         const continuation = this.continuation(allowed);
-        if (!collectionsOnly && continuation) results.append(continuation);
+        if (continuation) results.append(continuation);
         results.append(
           el(
             "section",
             { class: "section", "aria-label": "Browse categories" },
-            el("h2", { text: "Browse by category" }),
+            el("h2", { id: "library-categories", tabindex: "-1", text: "Collections by category" }),
             el(
               "div",
               { class: "grid category-grid" },
@@ -409,7 +408,7 @@ export class CatalogBrowser {
           collectionResults.append(more);
         }
         if (!q) results.append(collectionResults);
-        if (!collectionsOnly || q) {
+        if (rows.length || !q) {
           const section = el(
             "section",
             { class: "section" },
@@ -510,7 +509,7 @@ export class CatalogBrowser {
     const resources = el("aside", { class: "collection-resources", "aria-label": "Collection resources" },
       el("h2", { text: "Resources & connections" }),
       this.link("References and reading", "/references?" + new URLSearchParams({ course_id: id })),
-      this.link("All collections", "/collections?all=1"),
+      this.link("Browse collections", "/#library-categories"),
       this.link("Explore the learning map", "/learning-map?" + new URLSearchParams({ collection: id })),
       collection.lectures.length ? this.link("Plan a learning order", "/learning-plan?" + new URLSearchParams({ collection: id })) : this.link("Build a personal study plan", "/learning-plan"),
     );
@@ -535,7 +534,7 @@ export class CatalogBrowser {
     const audioRows = rows.filter(row => row.kind === "audio");
     if (audioRows.length) {
       const preparation = el("details", {class:"collection-preparation",hidden:true},el("summary",{text:"Generate all audio"}));
-      hero.append(preparation);
+      resources.append(preparation);
       let loaded=false;
       preparation.ontoggle=()=>{
         if(preparation.open&&!loaded){loaded=true;preparation.append(preparationPanel({lectureIds:audioRows.map(row=>row.id),label:"Generate collection audio",description:"Queue all audio lectures in this collection using one saved voice profile. Existing matching audio is reused."}));}

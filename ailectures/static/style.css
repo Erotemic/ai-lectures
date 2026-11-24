@@ -736,7 +736,7 @@ progress {
     grid-column: 1 / -1;
     grid-row: 2;
     display: grid;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: .15rem;
     padding: .25rem 0;
   }
@@ -777,6 +777,14 @@ progress {
   .breadcrumbs { font-size: 0.72rem; margin-bottom: 1rem; }
   .collection-contents .list li { flex-wrap: wrap; gap: 0.35rem; }
   .collection-contents .list .copy { flex-basis: 100%; }
+  .collection-contents .catalog-item-title {
+    display: flex;
+    align-items: center;
+    min-height: 44px;
+    padding: .35rem 0;
+    font-weight: 600;
+    overflow-wrap: anywhere;
+  }
   .contents-section > summary { padding: 0.75rem; }
   main {
     padding: 1.4rem 1rem calc(var(--player-height, 0px) + 1.5rem);

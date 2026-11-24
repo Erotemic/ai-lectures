@@ -16,14 +16,17 @@ Original presentation bookmarks and `/audio` remain available through a lazily
 loaded compatibility app. Content-pack updates require no restart. Changes to
 server code require restarting the process.
 
+Library is the starting point for browsing collections by category. Lectures
+lists individual items, and History keeps recent listening and the queue.
 Collections provide title/ID search, section and session jumps, and expandable
 contents. Search changes the view; playback still follows the full collection's
 original order. Breadcrumbs show the collection hierarchy, while return links
 preserve the route and search used to open a lecture. References, related routes,
 and complete original sequences remain under Resources & connections.
-**Generate all audio** appears directly in a collection’s header when generation
-is available. **Cache whole lecture** sits beside Play. Older recordings remain
-playable; select a current profile to generate new audio. The reader distinguishes
+**Generate all audio** appears under **Resources & connections** when generation
+is available. **Cache whole lecture** is under **Audio blocks & generation**.
+Older recordings remain playable. Select a current profile to generate new
+audio. The reader distinguishes
 missing audio for the selected profile revision from available older recordings.
 
 For repeatable bulk generation, `python -m ailectures voices` lists saved

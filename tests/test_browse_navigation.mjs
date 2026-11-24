@@ -36,16 +36,17 @@ test("browse destinations ignore stale storage while filtered URLs survive retur
     byId: () => undefined,
   });
   const main = new Element("main");
-  for (const path of ["/", "/collections", "/?all=1", "/collections?all=1"]) {
+  for (const path of ["/", "/collections", "/courses", "/?all=1", "/collections?all=1"]) {
     globalThis.location = new URL(path, "http://reader.test");
-    browser.browse(main, location.pathname === "/collections");
-    assert.equal(location.search, "");
+    browser.browse(main);
+    assert.equal(location.pathname + location.search, "/");
     assert.equal(history.state.scroll, 250);
     assert.equal(history.state.browseLimit, 84);
   }
   const filtered = "/?category=Science&q=explicit+search&sort=title";
-  for (let visit = 0; visit < 2; visit++) {
-    globalThis.location = new URL(filtered, "http://reader.test");
+  for (const prefix of ["", "/collections", "/courses"]) {
+    const path = prefix ? prefix + filtered.slice(1) : filtered;
+    globalThis.location = new URL(path, "http://reader.test");
     browser.browse(main);
     assert.equal(location.pathname + location.search, filtered);
   }

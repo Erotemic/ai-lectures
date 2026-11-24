@@ -136,7 +136,7 @@ export async function referencesPage(main, catalog) {
     query.delete("release");
     if (courses.value) query.set("course_id", courses.value);
     else query.delete("course_id");
-    history.replaceState(null, "", "/references?" + query);
+    history.replaceState(history.state, "", "/references?" + query);
     try {
       await load();
     } catch (error) {

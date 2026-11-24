@@ -26,7 +26,7 @@ export function renderStats(main, catalog, { link, refresh }) {
     try { await refresh(); } finally { reload.disabled = false; reload.textContent = "Refresh stats"; }
   } });
   const metrics = [
-    ["Unique lectures", number(data.lectures), "/lectures"], ["Collections", number(data.collections), "/collections"],
+    ["Unique lectures", number(data.lectures), "/lectures"], ["Collections", number(data.collections), "/#library-categories"],
     ["Content packs", number(data.packs), "/packs"], ["Transcript words", number(data.words)],
     ["Estimated listening", `${(data.minutes / 60).toLocaleString(undefined, { maximumFractionDigits: 1 })} h`],
     ["Complete audio", `${number(data.complete)} / ${number(data.lectures)}`],
@@ -92,7 +92,7 @@ export function renderStats(main, catalog, { link, refresh }) {
   showTags();
   main.append(statsSection("tags", "Explore all tags", topicSearch, tagResults));
   if (data.subjects.length) main.append(statsSection("subjects", "By subject",
-    totalsTable(data.subjects, "Content by subject", row => row.title === "Unspecified" ? row.title : link(row.title, "/collections?" + new URLSearchParams({ category: row.title })))));
+    totalsTable(data.subjects, "Content by subject", row => row.title === "Unspecified" ? row.title : link(row.title, "/?" + new URLSearchParams({ category: row.title })))));
   if (data.audiences.length && data.audiences.some(row => row.title !== "Unspecified")) main.append(
     statsSection("audiences", "By audience", totalsTable(data.audiences, "Content by audience")));
   const search = el("input", { id: "stats-collection-search", type: "search", value: new URLSearchParams(location.search).get("q") || "", placeholder: "Find a collection", "aria-label": "Find a collection" });
@@ -108,7 +108,7 @@ export function renderStats(main, catalog, { link, refresh }) {
   search.oninput = () => {
     const params = new URLSearchParams(location.search);
     if (search.value) params.set("q", search.value); else params.delete("q");
-    history.replaceState(null, "", location.pathname + (params.size ? "?" + params : ""));
+    history.replaceState(history.state, "", location.pathname + (params.size ? "?" + params : ""));
     filter();
   };
   filter();
