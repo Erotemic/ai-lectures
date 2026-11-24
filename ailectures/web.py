@@ -5,6 +5,7 @@ from __future__ import annotations
 import asyncio
 import json
 import re
+import sqlite3
 import threading
 from contextlib import asynccontextmanager
 from copy import deepcopy
@@ -1230,9 +1231,13 @@ def create_app(
         while True:
             try:
                 await run_in_threadpool(library.store.reconcile)
+                if producer is None and not playback_disabled():
+                    from .jobs import JobStore
+                    if await run_in_threadpool(JobStore.has_pending, library.store.state):
+                        production()
                 if producer is not None and not playback_disabled():
                     await run_in_threadpool(producer.tick)
-            except (OSError, ValueError) as exc:
+            except (OSError, ValueError, sqlite3.Error) as exc:
                 library.store.errors = [str(exc)]
             await asyncio.sleep(max(0.05, interval))
 
@@ -1247,10 +1252,7 @@ def create_app(
             ):
                 from .jobs import JobStore
 
-                if any(
-                    record["state"] in {"queued", "running"}
-                    for record in JobStore(library.store.state).list()
-                ):
+                if JobStore.has_pending(library.store.state):
                     production()
             task = asyncio.create_task(reconcile())
             try:

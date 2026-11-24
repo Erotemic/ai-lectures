@@ -30,6 +30,14 @@ That warning does not interrupt existing audio. Missing blocks still require a
 working service. Previously issued block URLs read their cached bytes without
 reconstructing today's synthesis configuration.
 
+The CLI's `voices` command lists these saved profiles, including their IDs and
+labels. `queue --selection FILE --saved-profile ID_OR_LABEL` accepts either an
+exact ID or an unambiguous label; repeat the flag for multiple voices. It pins
+each current recipe revision, skips only matching complete audio, and persists
+jobs for the running reader without making synthesis requests itself. Use
+`--dry-run` to preview. Full examples are in the
+[curated preparation guide](../tools/deployments/README.md#prepare-on-the-production-machine).
+
 ## Delivery and speed
 
 Native speaking rate is a synthesis request, available only on an adapter that

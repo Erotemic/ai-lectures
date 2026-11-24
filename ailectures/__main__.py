@@ -78,6 +78,21 @@ def main(argv=None):
     prepare.add_argument("--voice")
     prepare.add_argument("--speed", type=float, default=1)
     prepare.add_argument("--tts-config", type=Path)
+    voices = commands.add_parser("voices", help="List saved rendering profile IDs and labels without probing the TTS service")
+    voices.add_argument("--repository", type=Path)
+    voices.add_argument("--tts-config", type=Path)
+    voices.add_argument("--json", action="store_true")
+    queue = commands.add_parser("queue", help="Persist audio jobs for declared content and selected saved voice profiles, then exit")
+    queue.add_argument("--repository", type=Path)
+    queue.add_argument("--selection", type=Path, help="The same JSON declaration used by curated exports")
+    queue.add_argument("--pack", action="append", default=[])
+    queue.add_argument("--collection", action="append", default=[])
+    queue.add_argument("--lecture", action="append", default=[])
+    queue.add_argument("--all", action="store_true", help="Explicitly select every audio item in the library")
+    queue.add_argument("--saved-profile", action="append", required=True, metavar="ID_OR_LABEL", help="Saved voice profile ID or exact label; repeat for multiple voices")
+    queue.add_argument("--tts-config", type=Path)
+    queue.add_argument("--dry-run", action="store_true")
+    queue.add_argument("--json", action="store_true")
     install = commands.add_parser("install")
     install.add_argument("path", type=Path)
     install.add_argument(
@@ -196,7 +211,7 @@ def main(argv=None):
             from .audit_cli import run
 
             return run(args, repository)
-        if args.command in {"bundle","export","backup","prepare","install","remove"}:
+        if args.command in {"bundle","export","backup","prepare","queue","install","remove"}:
             leases.enter_context(media_lock(args.library))
         if args.command == "serve":
             import uvicorn
@@ -273,6 +288,41 @@ def main(argv=None):
                 if not args.ssl_certfile and not https.get("certfile"):
                     print("Local self-signed HTTPS: accept the browser certificate warning, then allow microphone access.", flush=True)
                 run_http_https(app, host=args.host, port=args.port, https_port=https_port, certfile=certfile, keyfile=keyfile)
+        elif args.command in {"voices", "queue"}:
+            from .library import Library
+            from .production import GenerationManager
+            manager = GenerationManager(Library(args.library, repository=repository), config=args.tts_config, repository=repository)
+            try:
+                if args.command == "voices":
+                    profiles = manager.profile_catalog()["profiles"]
+                    if args.json:
+                        print(json.dumps(profiles, indent=2))
+                    else:
+                        print("ID\tLabel\tVoice\tAvailable")
+                        for profile in profiles:
+                            print(f"{profile['id']}\t{profile['label']}\t{profile['voice']}\t{profile['available']}")
+                else:
+                    from .generation_queue import queue_audio
+                    selection = read_json(args.selection) if args.selection else {}
+                    if not isinstance(selection, dict):
+                        raise ValueError("The content declaration must be a JSON object")
+                    for field, values in (("packs", args.pack), ("collections", args.collection), ("lectures", args.lecture)):
+                        if values:
+                            if not isinstance(selection.get(field, []), list):
+                                raise ValueError(f"{field} must be a list")
+                            selection[field] = [*selection.get(field, []), *values]
+                    report = queue_audio(manager, selection, args.saved_profile, all_audio=args.all, dry_run=args.dry_run)
+                    if args.json:
+                        print(json.dumps(report, indent=2))
+                    else:
+                        print(f"{report['lectures']} items × {report['voices']} voices; {report['complete']} item/voice pairs already complete.")
+                        for profile in report['profiles']:
+                            print(f"{profile['label']}: {profile['complete']} complete; {profile['requested']} jobs requested")
+                        print(f"{'Would enqueue' if args.dry_run else 'Enqueued'} {report['requested']} jobs: {report['new']} new, {report['reused']} already queued/running, {report['retried']} retries.")
+                        if not args.dry_run:
+                            print("A running generation-enabled reader using this library and TTS configuration will consume the durable queue. View /production for progress; otherwise start make serve.")
+            finally:
+                manager.close()
         elif args.command == "prepare":
             from .library import Library
             from .production import GenerationManager

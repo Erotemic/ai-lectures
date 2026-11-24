@@ -729,6 +729,13 @@ class GenerationManager:
     def prepare_saved(
         self, lecture_ids, profile_id, *, profile_revision=None, blocks=None
     ):
+        requests = self.saved_requests(lecture_ids, profile_id, profile_revision=profile_revision, blocks=blocks)
+        self.jobs.enqueue(requests, blocks=sorted(set(blocks)) if blocks is not None else None)
+        self.tick()
+        return [self._public(self.jobs.get(key)) for key, _ in requests]
+
+    def saved_requests(self, lecture_ids, profile_id, *, profile_revision=None, blocks=None, snapshot=None):
+        """Validate and freeze job specifications without opening an engine or queueing."""
         self.sync_saved_profiles()
         store = self.saved_profile_store()
         profile = store.get(profile_id, profile_revision)
@@ -741,7 +748,7 @@ class GenerationManager:
         from .render_recipe import compile_recipe
 
         compile_recipe(profile, backend or {})
-        snapshot = self.library.snapshot(copy=False)
+        snapshot = snapshot if snapshot is not None else self.library.snapshot(copy=False)
         requests = []
         for lecture_id in dict.fromkeys(lecture_ids):
             row = deepcopy(snapshot["lectures"][lecture_id])
@@ -792,11 +799,7 @@ class GenerationManager:
                 )
             )
             requests.append((job_id, spec))
-        self.jobs.enqueue(
-            requests, blocks=sorted(set(blocks)) if blocks is not None else None
-        )
-        self.tick()
-        return [self._public(self.jobs.get(key)) for key, _ in requests]
+        return requests
 
     def _open_saved(self, record, *, start=True):
         from .render_recipe import compile_recipe, page_processor

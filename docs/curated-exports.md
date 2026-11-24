@@ -99,6 +99,13 @@ production database and its historical snapshots.
 
 ## Readiness and reproducibility
 
+To queue a declaration for specific voices, use `python -m ailectures queue
+--selection FILE --saved-profile ID_OR_LABEL`, repeating `--saved-profile` as
+needed. `voices` lists the saved profiles, and `queue --dry-run` previews the
+item/voice pairs. The [preparation commands](../tools/deployments/README.md#prepare-on-the-production-machine)
+cover worker pickup, matching-profile readiness and retry behavior. The CLI
+persists jobs and exits; the generation-enabled server performs the work.
+
 The builder requires complete published audio for every selected entry. For an
 explicit development snapshot, `--allow-incomplete` permits a draft, and the
 manifest records its missing/partial counts. Do not call that a ready listening

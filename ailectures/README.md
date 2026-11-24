@@ -26,6 +26,14 @@ is available. **Cache whole lecture** sits beside Play. Older recordings remain
 playable; select a current profile to generate new audio. The reader distinguishes
 missing audio for the selected profile revision from available older recordings.
 
+For repeatable bulk generation, `python -m ailectures voices` lists saved
+rendering profiles. `python -m ailectures queue --selection FILE --saved-profile
+ID_OR_LABEL` queues the same declaration used by an export; repeat
+`--saved-profile` for multiple voices and add `--dry-run` to preview. It skips
+complete item/profile-revision pairs, persists jobs without starting synthesis,
+and lets the running generation-enabled reader consume them. See the
+[curated preparation workflow](../tools/deployments/README.md#prepare-on-the-production-machine).
+
 The Library landing page's **Recently listened** section can be collapsed using
 its heading. It starts expanded and remembers the open/closed choice for each
 listener in that browser. The expanded section retains resume, next-item and

@@ -90,8 +90,48 @@ python -m ailectures --library library-data bundle --repository . \
 
 Choose a saved rendering recipe in Settings. Use its profile ID as
 `SAVED_PROFILE_ID`; do not put private reference names or transcripts in this
-shared selection. This command queues only entries lacking any complete
-published recording and waits for publication:
+shared selection. To queue the declaration for one or more specific voices,
+first list the available saved profiles:
+
+```bash
+uv run --extra serve python -m ailectures --library library-data voices \
+  --tts-config /path/to/tts.toml
+```
+
+Use the IDs or exact labels from that list. Repeat `--saved-profile` for each
+voice; the examples below use placeholder IDs:
+
+```bash
+uv run --extra serve python -m ailectures --library library-data queue \
+  --repository . --selection tools/deployments/curated-mac-library.json \
+  --saved-profile SAVED_PROFILE_A --saved-profile SAVED_PROFILE_B \
+  --tts-config /path/to/tts.toml --dry-run
+```
+
+Remove `--dry-run` to enqueue. The command saves all validated jobs in one
+transaction and exits without starting synthesis. A running generation-enabled
+reader using the same library and TTS configuration notices new jobs on its next
+poll, even if it was idle. Otherwise start `make serve TTS_CONFIG=/path/to/tts.toml`.
+Playback-only servers do not consume the queue. Progress is visible at
+`/production`; closing the browser does not cancel the work.
+
+Readiness is checked separately for every item and saved profile revision.
+Complete recordings for another voice or earlier recipe do not satisfy the
+requested voice. Repeating the same command reuses queued/running jobs, retries
+failed/cancelled work and preserves matching cached blocks. Editing a saved
+profile later does not change the recipe already frozen into a queued job.
+
+`--pack`, `--collection`, and `--lecture` can select content directly or add to a
+JSON declaration. Explicit `--all` selects every audio item instead of an export
+subset. `--json` produces a report with pair counts, pinned profile revisions and
+job IDs. An unknown or ambiguous profile label fails before any jobs are added;
+use its exact ID to disambiguate. No live voice discovery or TTS reachability
+probe is needed to enqueue. A worker can still fail if its TTS service is down;
+rerun the queue command after fixing it to retry failed jobs.
+
+For a foreground command that waits for one profile to publish, the existing
+`prepare` command remains available. This version preserves any complete
+existing recording, regardless of voice:
 
 ```bash
 python -m ailectures --library library-data prepare --repository . \

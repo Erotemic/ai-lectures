@@ -6,7 +6,7 @@ speech snapshots stay in ignored local state, outside portable content packs.
 
 from __future__ import annotations
 
-from contextlib import contextmanager
+from contextlib import closing, contextmanager
 import json
 from pathlib import Path
 import sqlite3
@@ -30,6 +30,7 @@ class JobStore:
             db.execute(
                 "CREATE TABLE IF NOT EXISTS cache_epochs (scope TEXT PRIMARY KEY, epoch TEXT NOT NULL)"
             )
+            db.execute("CREATE INDEX IF NOT EXISTS jobs_by_state ON jobs(state)")
             if "requested_blocks" not in {
                 row[1] for row in db.execute("PRAGMA table_info(jobs)")
             }:
@@ -80,7 +81,22 @@ class JobStore:
                 )
             ]
 
-    def enqueue(self, specifications, *, blocks=None):
+    @staticmethod
+    def has_pending(directory):
+        database = Path(directory) / "production.sqlite3"
+        if not database.is_file():
+            return False
+        with closing(sqlite3.connect(database.resolve().as_uri() + "?mode=ro", uri=True, timeout=5)) as db:
+            if not db.execute("SELECT 1 FROM sqlite_master WHERE type='table' AND name='jobs'").fetchone():
+                return False  # Another process may still be initializing the queue.
+            return db.execute("SELECT 1 FROM jobs WHERE state IN ('queued','running') LIMIT 1").fetchone() is not None
+
+    def states(self):
+        """Inspect queue identities without loading frozen transcripts/recipes."""
+        with self.connect() as db:
+            return dict(db.execute("SELECT id,state FROM jobs"))
+
+    def enqueue(self, specifications, *, blocks=None, requeue_ready=False):
         now = time.time()
         with self.connect() as db:
             db.execute("BEGIN IMMEDIATE")
@@ -131,7 +147,7 @@ class JobStore:
                     merged = (
                         canonical(combined).decode() if combined is not None else None
                     )
-                    if merged != previous["requested_blocks"]:
+                    if merged != previous["requested_blocks"] or (requeue_ready and previous["state"] == "ready"):
                         if previous["state"] == "ready":
                             db.execute(
                                 "UPDATE jobs SET requested_blocks=?,state='queued',attempts=0,retry_at=0,owner=NULL,lease_until=NULL,published=NULL,error=NULL,updated_at=? WHERE id=?",
