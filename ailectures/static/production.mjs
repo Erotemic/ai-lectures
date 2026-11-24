@@ -231,9 +231,15 @@ export class ProductionPanel {
   jobNarrator(job) {
     return `${job.profile} · ${job.voice || "configured voice"} · ${job.model || "configured model"} · ${job.speed || 1}× speech`;
   }
+  earlierTranscript(job) {
+    if (!job.spoken_sha256) return false;
+    const current = this.byId(job.lecture_id);
+    return Boolean(current && current.spoken_sha256 !== job.spoken_sha256);
+  }
   jobCard(job) {
     const id = job.id;
     const inv = job.inventory;
+    const earlier = this.earlierTranscript(job);
     return el(
       "article",
       { class: "card", "data-job": id },
@@ -245,6 +251,7 @@ export class ProductionPanel {
       el("p", {
         text: this.jobNarrator(job),
       }),
+      earlier ? el("p", { class: "notice", text: "This job used an earlier transcript." }) : null,
       el("p", {
         class: "muted",
         text: job.requested_blocks
@@ -284,9 +291,9 @@ export class ProductionPanel {
           }),
         ),
       ),
-      job.state === "settings_changed"
+      earlier || job.state === "settings_changed"
         ? this.link(
-            "Prepare with current settings",
+            earlier ? "Prepare current transcript" : "Prepare with current settings",
             "/production?lecture=" + encodeURIComponent(job.lecture_id),
           )
         : ["failed", "cancelled"].includes(job.state)
@@ -337,7 +344,7 @@ export class ProductionPanel {
         el("strong", { text: this.jobTitle(job) }),
         el("span", {
           class: "muted",
-          text: `${this.jobNarrator(job)} · ${job.state === "ready" ? "Completed" : "Cancelled"}`,
+          text: `${this.jobNarrator(job)} · ${job.state === "ready" ? "Completed" : "Cancelled"}${this.earlierTranscript(job) ? " · Earlier transcript" : ""}`,
         }),
         when,
       ),
@@ -431,6 +438,7 @@ export class ProductionPanel {
       [...this.cancelling],
       [...this.cancelErrors],
       this.cancellingAll,
+      jobs.filter((job) => this.earlierTranscript(job)).map((job) => job.id),
     ]);
     if (this.jobsTarget === target && this.jobsSignature === signature) return;
     this.drawJobs(target, jobs);

@@ -28,6 +28,9 @@ is available. **Cache whole lecture** is under **Audio blocks & generation**.
 Older recordings remain playable. Select a current profile to generate new
 audio. The reader distinguishes
 missing audio for the selected profile revision from available older recordings.
+Spoken edits require audio for the revised transcript. The lecture page links
+to an available earlier recording, and preparation reuses blocks whose text
+and rendering settings still match.
 In Production, **Cancel all preparation jobs** stops queued and running jobs.
 Cached audio stays available when you retry.
 

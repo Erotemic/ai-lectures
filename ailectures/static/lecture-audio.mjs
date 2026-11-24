@@ -147,10 +147,11 @@ export class LectureAudio {
     onChange,
     onActivate,
     message,
+    archived = false,
     active = () => true,
     course = null,
   }) {
-    Object.assign(this, { row, player, progress, onChange, onActivate, message, active, course });
+    Object.assign(this, { row, player, progress, onChange, onActivate, message, archived, active, course });
     this.jobs = [];
     this.views = new Map();
     this.recentlyStopped = new Set();
@@ -329,15 +330,17 @@ export class LectureAudio {
     this.select.replaceChildren(...this.choices.map((c) => el("option", { value: c.key })));
   }
   initialize() {
-    if (this.row?.recordings?.some((recording) => recording.segments.length)) {
+    if (this.archived || this.row?.recordings?.some((recording) => recording.segments.length)) {
       this.preparedOptions();
       this.select.value = preferredNarrator(this.choices, this.data, {
         remembered: getStored("narrator-choice"), recordingId: this.progress?.recording_id,
       })?.key || "";
       this.choose(false);
       // Prepared playback must not wait for profile or generation discovery.
-      this.optionsReady = this.initializeOptions();
-      this.optionsReady.catch((error) => this.showError(error));
+      if (!this.archived) {
+        this.optionsReady = this.initializeOptions();
+        this.optionsReady.catch((error) => this.showError(error));
+      }
       return Promise.resolve();
     }
     return this.initializeOptions();
@@ -427,9 +430,11 @@ export class LectureAudio {
         store("production-voice:" + choice.profile, choice.voice);
       }
     }
-    // Reading or choosing a voice in another lecture is a preview. Take over
-    // the persistent player only after an explicit playback action.
-    if (this.player.row && this.player.row.id !== this.row.id && this.player.revealed !== false && !activate) {
+    // Browsing a different lecture or revision leaves the player in place
+    // until the listener explicitly plays the displayed version.
+    const different = this.player.row && (this.player.row.id !== this.row.id ||
+      this.player.row.revision !== this.row.revision);
+    if (different && this.player.revealed !== false && !activate) {
       this.resume ||= this.progress;
       this.target = resumeTarget(this.row, this.resume, this.pages);
       this.onChange?.();
@@ -437,7 +442,8 @@ export class LectureAudio {
       return;
     }
     const position =
-      this.player.row?.id === this.row.id ? this.player.position() : null;
+      this.player.row?.id === this.row.id && this.player.row.spoken_sha256 === this.row.spoken_sha256
+        ? this.player.position() : null;
     this.resume = position || this.resume || this.progress;
     if (this.player.lectureController !== this) {
       this.player.lectureController?.dispose();

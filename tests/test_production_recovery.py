@@ -170,6 +170,22 @@ def test_source_revision_reuses_unchanged_pages_and_metadata_only_reuses_all(
             revised, tmp_path / "revised", parent=manifest["release"]
         )
         library.store.install(tmp_path / "revised")
+        from starlette.testclient import TestClient
+        from ailectures.web import create_app
+
+        client = TestClient(create_app(library.store.root, generation_manager=manager))
+        try:
+            endpoint = "/api/library/lectures/music:001000"
+            current = client.get(endpoint).json()
+            assert current["recordings"] == []
+            assert current["earlier_audio_release"] == initial["published"]
+            old = client.get(endpoint, params={"release": initial["published"]}).json()
+            assert old["transcript"] == text
+            assert client.get(old["recordings"][0]["segments"][0]["url"]).status_code == 200
+            retry = client.post("/api/library/production/jobs/" + initial["id"] + "/retry")
+            assert retry.status_code == 409
+        finally:
+            client.close()
         result = finished(manager, manager.prepare("music:001000", "test")["id"])
         assert result["state"] == "ready" and len(calls) == 3
         assert calls[1] not in calls[2:]
@@ -183,6 +199,71 @@ def test_source_revision_reuses_unchanged_pages_and_metadata_only_reuses_all(
         assert bibliographic["published"] == result["published"]
         assert len(calls) == 3
     finally:
+        manager.close()
+
+
+def test_revision_changed_during_staging_retires_in_flight_and_queued_work(
+    tmp_path, monkeypatch
+):
+    from contextlib import contextmanager
+    from concurrent.futures import ThreadPoolExecutor
+    from ailectures.packs import PackStore
+
+    library, _, manifest, audio, config = setup_library(
+        tmp_path, monkeypatch, text="The original dialogue."
+    )
+    calls = []
+    sending, release_sender = threading.Event(), threading.Event()
+
+    def sender(text, settings, dest):
+        calls.append(text)
+        sending.set()
+        release_sender.wait(8)
+        shutil.copyfile(audio, dest)
+
+    manager = manager_for(library, config, sender, max_active_jobs=1)
+    revised = source_pack(text="The revised dialogue.")
+    export_release(revised, tmp_path / "revised", parent=manifest["release"])
+    staged, release_stage = threading.Event(), threading.Event()
+    original = library.store.stage_install
+
+    @contextmanager
+    def stage(*args, **kwargs):
+        with original(*args, **kwargs) as prepared:
+            staged.set()
+            release_stage.wait(8)
+            yield prepared
+
+    try:
+        first = manager.prepare("music:001000", "test")
+        assert sending.wait(3)
+        queued = manager.prepare("music:001000", "test", speed=1.2)
+        assert queued["state"] == "queued"
+        release_sender.set()
+        live = manager._jobs[first["id"]]
+        deadline = time.monotonic() + 5
+        while not live["engine"].inventory("000000", live["settings"])["ready"]:
+            assert time.monotonic() < deadline
+            time.sleep(0.01)
+        monkeypatch.setattr(library.store, "stage_install", stage)
+        with ThreadPoolExecutor(max_workers=1) as pool:
+            publishing = pool.submit(manager.tick)
+            try:
+                assert staged.wait(5)
+                # Install through a separate client while the old worker is
+                # still staging the media for the previous transcript.
+                PackStore(library.store.root).install(tmp_path / "revised")
+            finally:
+                release_stage.set()
+            publishing.result(timeout=5)
+        result = manager.jobs.get(first["id"])
+        assert result["state"] == "settings_changed"
+        assert result["published"] is None
+        assert manager.jobs.get(queued["id"])["state"] == "settings_changed"
+        assert library.snapshot()["lectures"]["music:001000"]["recordings"] == []
+        assert calls == ["The original dialogue."]
+    finally:
+        release_sender.set()
         manager.close()
 
 

@@ -98,7 +98,7 @@ const badgeText = (row) =>
       ? "Ready to play"
       : row?.recordings.length
         ? "Partial audio"
-        : "Transcript available";
+        : row?.earlier_audio_release ? "Audio needs an update" : "Transcript available";
 const badge = (row) => el("span", { class: "badge", text: badgeText(row) });
 const courseLink = (course) => "/collections/" + encodeURIComponent(course.id);
 const lectureLink = (id, course = null) => {
@@ -110,6 +110,11 @@ const lectureLink = (id, course = null) => {
     params.set("return", returnTo);
   return lectureURL(id) + (params.size ? "?" + params : "");
 };
+function recordingLink(id, course, release) {
+  const url = new URL(lectureLink(id, course), location.origin);
+  url.searchParams.set("release", release);
+  return url.pathname + url.search;
+}
 const contextKey = () => profile || "device";
 function persistProgress() {
   store("progress:" + contextKey(), progress);
@@ -288,10 +293,14 @@ async function updatePlaybackRoute() {
     selector.value = course?.id || "";
     selector.dataset.routes = signature;
   }
-  $("playing-title").href = lectureLink(row.id, player.course);
+  const current = byId(row.id);
+  const olderText = current && current.spoken_sha256 !== row.spoken_sha256;
+  const returnHref = olderText ? recordingLink(row.id, player.course, row.origin.release)
+    : lectureLink(row.id, player.course);
+  $("playing-title").href = returnHref;
+  $("playing-title").textContent = olderText ? "Earlier transcript · " + row.title : row.title;
   $("playing-title").title = "Open lecture: " + row.title;
   const returnLink = $("return-to-lecture");
-  const returnHref = lectureLink(row.id, player.course);
   const viewedRelease = new URLSearchParams(location.search).get("release");
   const alreadyHere = location.pathname === new URL(returnHref, location.origin).pathname
     && (!viewedRelease || viewedRelease === row.origin.release)
@@ -443,27 +452,28 @@ const browser = new CatalogBrowser({
 });
 const browse = () => browser.browse($("main"));
 const coursePage = (id) => browser.collection($("main"), id);
-async function lecturePage(id, autoplay = false, historical = null, token = ++renderToken) {
+async function lecturePage(id, autoplay = false, token = ++renderToken) {
   $("main").replaceChildren(
     title(byId(id)?.title || "Loading lecture…"),
     description("Loading lecture…"),
   );
-  const [latest, view] = await Promise.all([
-    historical || api("/api/library/lectures/" + encodeURIComponent(id)),
+  const release = new URLSearchParams(location.search).get("release");
+  const [requested, view] = await Promise.all([
+    api("/api/library/lectures/" + encodeURIComponent(id) + (release ? "?" + new URLSearchParams({ release }) : "")),
     loadPageModule(() => import("./lecture-audio.mjs"), token),
   ]);
   if (!view || token !== renderToken) return;
-  const row =
-    !historical && player.row?.id === id && !player.audio.paused
-      ? player.row
-      : latest;
+  const row = !release && player.row?.id === id
+    && player.row.revision === requested.revision && !player.audio.paused
+    ? player.row : requested;
   if (row.kind === "presentation") {
     location.href = "/presentations?deck=" + encodeURIComponent(row.deck);
     return;
   }
   currentCourse = listeningCourse(catalog.courses, id,
     new URLSearchParams(location.search).get("course"), progress[id]?.course_id, currentCourse)?.id || null;
-  const position = player.row?.id === id ? player.position() : null;
+  const position = player.row?.id === id && player.row.spoken_sha256 === row.spoken_sha256
+    ? player.position() : null;
   if (lectureAudio && lectureAudio !== player.lectureController) lectureAudio.dispose();
   let refreshTranscript = () => {};
   const audio = new view.LectureAudio({
@@ -472,6 +482,7 @@ async function lecturePage(id, autoplay = false, historical = null, token = ++re
     progress: position || progress[id],
     message,
     course: currentCourse,
+    archived: Boolean(release && byId(id)?.spoken_sha256 !== row.spoken_sha256),
     active: () => token === renderToken,
     onChange: () => refreshTranscript(),
     onActivate: () => {
@@ -542,22 +553,18 @@ async function lecturePage(id, autoplay = false, historical = null, token = ++re
         ),
       ),
     );
-  if (catalog.lectures.find((r) => r.id === id)?.revision !== row.revision)
-    top.append(
-      el(
-        "div",
-        { class: "notice" },
-        "You are viewing an earlier revision. ",
-        button("Open current revision", async () => {
-          player.open(
-            await api("/api/library/lectures/" + encodeURIComponent(id)),
-            null,
-          );
-          await lecturePage(id);
-        }),
-      ),
-    );
+  top.append(el("div", { id: "transcript-update", class: "notice", role: "status", hidden: !release },
+    release ? "You are viewing a saved revision. " : "A revised transcript is available. ",
+    link("Open current transcript", lectureLink(id, currentCourse)),
+  ));
   const saved = progress[id];
+  const previousRelease = saved?.spoken_sha256 && saved.spoken_sha256 !== row.spoken_sha256
+    ? saved.release : null;
+  if (!release && requested.earlier_audio_release)
+    top.append(el("div", { class: "notice" },
+      "The spoken text was revised. Audio for the revised transcript still needs preparation. ",
+      link("Open earlier recording", recordingLink(id, currentCourse, requested.earlier_audio_release)),
+    ));
   if (saved?.legacy) {
     const legacyActions = el("div", { class: "actions" });
     top.append(
@@ -584,24 +591,11 @@ async function lecturePage(id, autoplay = false, historical = null, token = ++re
       })
       .catch(() => {});
   }
-  if (saved?.release && saved.spoken_sha256 !== row.spoken_sha256)
-    top.append(
-      el(
-        "div",
-        { class: "notice" },
-        "Your previous position belongs to an earlier transcript. ",
-        button("Open previous revision", async () => {
-          const old = await api(
-            "/api/library/lectures/" +
-              encodeURIComponent(id) +
-              "?release=" +
-              saved.release,
-          );
-          player.open(old, saved);
-          await lecturePage(id, false, old);
-        }),
-      ),
-    );
+  if (!release && previousRelease && previousRelease !== requested.earlier_audio_release)
+    top.append(el("div", { class: "notice" },
+      "Your saved position belongs to an earlier transcript. ",
+      link("Open your saved revision", recordingLink(id, currentCourse, previousRelease)),
+    ));
   top.append(audio.root, el("div", { class: "lecture-actions actions" },
     el("a", { href: "#lecture-transcript", text: "Read transcript" }),
     button("Add to listening queue", () => listeningQueue.add(id, audio.course)),
@@ -1340,7 +1334,6 @@ async function render(autoplay = false) {
       await lecturePage(
         path.slice(10).split("/").map(decodeURIComponent).join(":"),
         autoplay,
-        null,
         token,
       );
     else if (path === "/listening") listeningPage();
@@ -1436,13 +1429,12 @@ async function init() {
       } else if (
         changed &&
         path.startsWith("/lectures/") &&
-        player.row
+        lectureAudio &&
+        !new URLSearchParams(location.search).has("release")
       ) {
-        const current = byId(player.row.id);
-        if (current && current.revision !== player.row.revision)
-          message(
-            "An updated lecture is available. Current playback and feedback retain their revision; reopen the lecture after pausing to load the update.",
-          );
+        const current = byId(lectureAudio.row.id);
+        const notice = $("transcript-update");
+        if (notice && current) notice.hidden = current.spoken_sha256 === lectureAudio.row.spoken_sha256;
       }
       await production?.showJobs();
       await production?.refreshHealth();

@@ -351,6 +351,8 @@ def create_app(
                 memberships.setdefault(key, []).append(collection)
         for row in snapshot["lectures"].values():
             summary = annotate(row, summary=True)
+            if earlier := snapshot["earlier_audio"].get(row["id"]):
+                summary["earlier_audio_release"] = earlier
             summary.update(item_organization(row, collections, memberships=memberships, namespaces=namespaces, include_discovery=False))
             if row.get("metadata", {}).get("short_format_reason"):
                 summary["short_format_reason"] = row["metadata"]["short_format_reason"]
@@ -499,12 +501,16 @@ def create_app(
         key = qualified(request.path_params["lecture_id"])
         snapshot = library.snapshot(copy=False)
         key = snapshot.get("aliases", {}).get(key, key)
-        if request.query_params.get("release"):
-            row = library.historical(request.query_params["release"], key)
-            row.setdefault("origin", {"release": request.query_params["release"]})
+        release = request.query_params.get("release")
+        if release:
+            row = library.historical(release, key)
+            row.setdefault("origin", {"release": release})
         else:
             row = snapshot["lectures"][key]
-        return JSONResponse(annotate(row, summary=request.query_params.get("summary") == "1"), headers={"Cache-Control": "no-store"})
+        payload = annotate(row, summary=request.query_params.get("summary") == "1")
+        if not release and (earlier := snapshot["earlier_audio"].get(key)):
+            payload["earlier_audio_release"] = earlier
+        return JSONResponse(payload, headers={"Cache-Control": "no-store"})
 
     def transcript(request):
         key = qualified(request.path_params["lecture_id"])

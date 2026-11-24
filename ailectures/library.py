@@ -80,6 +80,7 @@ class Library:
 
     def _compose(self, installed, sources, cleared=()):
         result = deepcopy(installed)
+        earlier_audio = result["earlier_audio"] = {}
         hidden = set(cleared)
         for row in [
             *result["lectures"].values(),
@@ -92,6 +93,23 @@ class Library:
             row["recordings"] = [
                 r for r in row["recordings"] if (row["id"], r["id"]) not in hidden
             ]
+        def remember_earlier_audio(row, candidates):
+            if any(recording["complete"] for recording in row["recordings"]):
+                return
+            earlier = max(
+                (
+                    recording
+                    for version in candidates
+                    for recording in version["recordings"]
+                    if recording["spoken_sha256"] != row["spoken_sha256"]
+                    and recording["segments"]
+                ),
+                key=lambda recording: (recording["complete"], len(recording["segments"])),
+                default=None,
+            )
+            if earlier:
+                earlier_audio[row["id"]] = earlier["_release"]
+
         for pack_id, pack in sources.items():
             # Composition replaces recordings/origin; authored fields stay
             # read-only, like the courses already shared with this snapshot.
@@ -108,6 +126,7 @@ class Library:
                     if r["spoken_sha256"] == row["spoken_sha256"]
                 }
                 row["recordings"] = list(recordings.values())
+                remember_earlier_audio(row, candidates)
             source_release = digest(
                 {
                     "lectures": {
@@ -160,6 +179,7 @@ class Library:
         installed_groups = {}
         for key, row in result["lectures"].items():
             if not row.get("origin", {}).get("source"):
+                remember_earlier_audio(row, result["media_revisions"].get(key, ()))
                 installed_groups.setdefault(row["origin"]["release"], {})[key] = row
         for pack_release, rows in installed_groups.items():
             view = digest(

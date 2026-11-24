@@ -20,10 +20,14 @@ import subprocess
 import threading
 from uuid import uuid4
 
-from .core import digest, file_digest, write_json, finite
+from .core import Conflict, digest, file_digest, write_json, finite
 from .packs import export_release, recording_id, media_digest
 from .jobs import JobStore
 from .narration import TITLE_POLICY, speech_cache_key
+
+
+class PreparationTranscriptChanged(Conflict):
+    """The frozen job is for a transcript that is no longer current."""
 
 
 def audio_duration(path):
@@ -1671,6 +1675,7 @@ class GenerationManager:
             "id": record["id"],
             "lecture_id": spec["row"]["id"],
             "revision": spec["row"]["revision"],
+            "spoken_sha256": spec["row"]["spoken_sha256"],
             "title": spec["row"]["title"],
             "profile": spec["profile"],
             "profile_revision": spec.get("voice_profile", {}).get("revision"),
@@ -1775,6 +1780,10 @@ class GenerationManager:
                         )
                         job["engine"].close()
                         del self._jobs[job_id]
+                except PreparationTranscriptChanged as exc:
+                    self.jobs.fail(job_id, self.owner, str(exc), retry=False)
+                    job["engine"].close()
+                    del self._jobs[job_id]
                 except (
                     OSError,
                     ValueError,
@@ -1795,6 +1804,7 @@ class GenerationManager:
                         raise ValueError(
                             "Configure a TTS connection to resume this preparation"
                         )
+                    self._require_current_transcript(record["specification"]["row"])
                     job = self._open(record)
                     self._jobs[job_id] = job
                     current = self.jobs.get(job_id)
@@ -1825,6 +1835,7 @@ class GenerationManager:
 
     def retry(self, job_id):
         record = self.jobs.get(job_id)
+        self._require_current_transcript(record["specification"]["row"])
         self.jobs.enqueue(
             [(job_id, record["specification"])], blocks=record["requested_blocks"]
         )
@@ -1834,9 +1845,19 @@ class GenerationManager:
         with self._publication(job) as activate:
             return activate()
 
+    def _require_current_transcript(self, row):
+        snapshot = self.library.snapshot(copy=False)
+        current = snapshot["lectures"].get(row["id"])
+        if current is None or current["spoken_sha256"] != row["spoken_sha256"]:
+            raise PreparationTranscriptChanged(
+                "This job is for an earlier transcript. Prepare the current transcript to update its audio."
+            )
+        return snapshot
+
     @contextmanager
     def _publication(self, job):
         row = job["row"]
+        snapshot = self._require_current_transcript(row)
         engine, settings = job["engine"], job["settings"]
         rec, files = recording_from_engine(
             engine,
@@ -1864,9 +1885,7 @@ class GenerationManager:
             if old:
                 visible = {
                     r["id"]
-                    for r in self.library.snapshot(copy=False)["lectures"]
-                    .get(row["id"], {})
-                    .get("recordings", [])
+                    for r in snapshot["lectures"][row["id"]]["recordings"]
                 }
                 old["recordings"] = [r for r in old["recordings"] if r["id"] in visible]
             if old and old["spoken_sha256"] == row["spoken_sha256"]:
@@ -1925,7 +1944,11 @@ class GenerationManager:
             kind="media",
         )
         with self.library.store.stage_install(directory) as staged:
-            yield lambda: self.library.store.activate_install(staged)["release"]
+            def activate():
+                self._require_current_transcript(row)
+                return self.library.store.activate_install(staged)["release"]
+
+            yield activate
 
     def clear_voice_cache(self, lecture_id, profile, voice, *, revision):
         from dkvis.presentation.tts import load_profiles
