@@ -50,7 +50,7 @@ The baker smiled from behind the counter. The grown-ups chose some bread for the
 
 "Why is there nothing in the middle?" he asked.
 
-"That's the shape the baker made," Aunt Pat said. "The middle is empty."
+"The baker leaves a hole when making the ring," Aunt Pat said.
 
 "Wouldn't it be better with more bread?"
 
@@ -106,7 +106,7 @@ Todd lifted the little curve. A pigeon walked past outside just then, but not th
 
 "The pigeon's too quick," he said.
 
-"Perhaps it's in a parade," said Ben.
+"Try looking at the clock. That won't run away," said Ben.
 
 They finished their snack and walked back toward the bus stop with their grown-ups. On the way, Todd spotted a real shoe shop. There were boots in its window, but none was made of bread.
 

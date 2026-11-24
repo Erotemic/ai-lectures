@@ -56,7 +56,7 @@ She moved the binoculars a little. The whole sky moved across her view, smudge a
 
 “Is it a cloud?”
 
-“Not an ordinary cloud.”
+“No. It's much farther away than a cloud.”
 
 Grandpa pointed to the same place in the sky. Without the binoculars Lisa could barely make out anything there at all.
 

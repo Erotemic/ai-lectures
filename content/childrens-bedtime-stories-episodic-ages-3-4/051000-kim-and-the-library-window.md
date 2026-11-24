@@ -54,7 +54,7 @@ A little farther along, Sue found a picture book with a sock on its cover.
 
 The sock was blue. It had two wheels and a tiny bell.
 
-"A sock with transport," Sue said. "Grandpa Ed, our bakery could use one."
+"Look, it has wheels!" Sue said. "Grandpa Ed, it could deliver our bread."
 
 "Does the sock deliver bread?" Kim asked.
 
@@ -82,7 +82,7 @@ Near the door was a wide slot marked BOOK RETURNS.
 
 "Not right away," the librarian said. "That is where returned books go for us to put away."
 
-"Then let's not return it yet," said Kim. "I haven't finished looking at the shoes."
+"Then let's not return it yet," said Kim. "I haven't finished the story."
 
 Before they left, Kim looked once more at the painted books on the big window. From inside, the pictures were backwards.
 

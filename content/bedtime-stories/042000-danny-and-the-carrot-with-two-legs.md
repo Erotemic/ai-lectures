@@ -120,7 +120,7 @@ At bedtime, Danny washed his own feet and put on two matching socks.
 
 He looked down at them.
 
-“Lucky,” he said. “Neither of my socks is a carrot.”
+“Mine match!” he said.
 
 Then he climbed into bed, pulled up his blanket, and let both his legs rest after a day of very important marching.
 

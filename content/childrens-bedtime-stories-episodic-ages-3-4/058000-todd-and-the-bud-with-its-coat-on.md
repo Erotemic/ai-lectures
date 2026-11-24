@@ -56,7 +56,7 @@ Todd imagined two sunflowers getting ready to go outside. One wore a big green c
 
 He looked down at his boots.
 
-"I have two shoes," he informed the plants. "You may borrow neither of them. They're very muddy."
+"You can't borrow my boots," he told the plants. "They're too muddy."
 
 The plants did not seem troubled by this.
 
@@ -102,7 +102,7 @@ Todd leaned forward from the dry path, hands behind his back.
 
 Todd looked at his own bright boots, then at the tiny hint of yellow.
 
-"I think it has found its shoes," he said.
+"It's going to be yellow, like my boots!" he said.
 
 He didn't try to help the petals along. He drew one thin yellow stroke on his little picture, then tucked both drawings into his bag.
 

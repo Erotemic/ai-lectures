@@ -88,7 +88,7 @@ Finally June cut it in two equal pieces, and the ladybug carried one in each sid
 
 “Now I have two rolls,” the ladybug said, rather amazed.
 
-“Two halves of one roll,” said the sparrow.
+“One for now and one for later,” said the sparrow.
 
 The ladybug considered this.
 

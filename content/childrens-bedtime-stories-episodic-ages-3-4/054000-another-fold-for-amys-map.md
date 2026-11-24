@@ -58,9 +58,9 @@ Todd looked toward the bakery.
 
 "That's where I saw a bear through my bread."
 
-"It was me," Ben said.
+"And I saw a frog!" Ben said.
 
-"I know. You had a scarf on."
+"In yellow boots!"
 
 Sue pointed at the shop clock.
 

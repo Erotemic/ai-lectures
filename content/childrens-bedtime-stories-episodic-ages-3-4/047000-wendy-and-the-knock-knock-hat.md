@@ -28,9 +28,9 @@ Tap, tap.
 
 "To come inside and have a biscuit."
 
-"It already lives here."
+"It can have one when we get home."
 
-"Then it has forgotten its address."
+"Did you hear that, hat?"
 
 They laughed and started toward Bell Hill. The wind grew calmer as they passed the halfway resting bench and walked down toward Blue Door Cottage.
 
@@ -74,13 +74,9 @@ Tap.
 
 Ben looked closely at the hat.
 
-"Is it very clever?"
+"Does it knock at your house too?"
 
-"Clever enough to know where biscuits live."
-
-"Where's that?"
-
-"At my house. It keeps asking to go home."
+"Yes. It keeps asking for biscuits."
 
 Grandma May welcomed them inside. Wendy set her hat on the bench beside her, with the ribbon safely out of the doorway.
 
