@@ -27,7 +27,7 @@ export function deploymentControls(catalog) {
       status.textContent=`${data.lectures} lectures · ${data.complete} with complete audio · ${data.partial} with partial audio · ${data.missing} without audio · ${data.recordings} recordings`;
       if(data.url) result.append(el("a",{href:data.url,download:"",text:`Download bundle (${bytes(data.bytes)})`}),
         el("p",{text:"Copy the ZIP to the new machine. Install the standalone reader, then restore into a new library directory and serve it without --repository:"}),
-        el("pre",{text:"python -m ailectures --library /path/to/new-library restore BUNDLE.zip\npython -m ailectures --library /path/to/new-library serve --installed-only --host 0.0.0.0 --port 8001"}));
+        el("pre",{text:"python -m ailectures --library /path/to/new-library restore BUNDLE.zip\npython -m ailectures --library /path/to/new-library serve --installed-only --host 0.0.0.0"}));
     } catch(error){status.textContent=error.message;}
     finally{preview.disabled=download.disabled=false;}
   }

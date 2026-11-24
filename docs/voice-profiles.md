@@ -89,8 +89,8 @@ available. Reference names and saved voices are shared by users of this server.
 Microphone access requires [HTTPS or localhost](https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices/getUserMedia).
 The upload option remains usable when visiting a household server over plain HTTP.
 
-On the computer running the server, use `http://localhost:8001/settings` or
-`http://127.0.0.1:8001/settings` to record over HTTP (adjust the port if needed).
+On the computer running the server, use `http://localhost:18701/settings` or
+`http://127.0.0.1:18701/settings` to record over HTTP (adjust the port if needed).
 `0.0.0.0` is a bind address and does not receive the browser's localhost exception.
 The recorder provides a direct localhost link when opened at that address.
 For another computer or phone, live browser recording needs HTTPS; over plain
@@ -105,9 +105,9 @@ Start both listeners from the same server command:
 make serve
 ```
 
-HTTP on port 8001 and HTTPS on port 8002 start by default. Both share the same
-app, catalog, generation coordinator, audio and named listener state. Existing
-HTTP links keep working. On another device, open `https://SERVER:8002/settings`,
+HTTP on port 18701 and HTTPS on port 18702 start by default. Both share the same
+app, catalog, generation coordinator, audio and named listener state.
+On another device, open `https://SERVER:18702/settings`,
 accept the self-signed certificate warning, and then grant microphone access.
 This flow has been checked in Chromium with a simulated microphone; certificate
 trust behavior can differ in other browsers.
@@ -123,7 +123,7 @@ The equivalent standalone reader command is:
 
 ```bash
 python -m ailectures --library library-data serve \
-  --host 0.0.0.0 --port 8001 --https-port 8002 \
+  --host 0.0.0.0 --https-port 18702 \
   --https-name 192.168.1.50 --https-name lecturebox.local
 ```
 
@@ -138,7 +138,7 @@ The reader's optional TOML configuration also supports:
 
 ```toml
 [https]
-port = 8002
+port = 18702
 names = ["lecturebox.local", "192.168.1.50"]
 # Optional: supply both instead of generating a self-signed certificate.
 # certfile = "certificates/server.pem"

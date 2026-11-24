@@ -46,7 +46,7 @@ optional production stack:
 python -m pip install /path/to/ai-lectures/ailectures
 python -m ailectures --library /srv/children-library restore children-library.zip
 python -m ailectures --library /srv/children-library serve --installed-only \
-  --playback-only --host 0.0.0.0 --port 8001
+  --playback-only --host 0.0.0.0
 ```
 
 `--installed-only` prevents automatic checkout discovery even if you launch from

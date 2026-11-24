@@ -42,8 +42,8 @@ TTS_FLAGS = $(if $(TTS_CONFIG),--tts-config $(call shell_quote,$(TTS_CONFIG))) \
             $(if $(TTS_INSTRUCTION),--instruction $(call shell_quote,$(TTS_INSTRUCTION))) \
             $(if $(TTS_REQUEST),--request-json $(call shell_quote,$(TTS_REQUEST))) \
             $(if $(TTS_SETTINGS),--tts-settings-json $(call shell_quote,$(TTS_SETTINGS)))
-PORT ?= 8001
-HTTPS_PORT ?= 8002
+PORT ?= 18701
+HTTPS_PORT ?= 18702
 HOST ?= 0.0.0.0
 PLAYBACK_ONLY ?= 0
 AUDIO_TTS_PROFILE ?=
@@ -75,7 +75,7 @@ help:
 	@echo '  list               list all presentations and transcript availability'
 	@echo '  serve              browse the audio lecture library and rendered presentations'
 	@echo '                     PLAYBACK_ONLY=1 serves existing audio with generation and cache clearing disabled'
-	@echo '                     HTTP defaults to 8001 and self-signed HTTPS to 8002; HTTPS_PORT= disables HTTPS; HTTPS_NAMES="IP hostname" adds certificate names'
+	@echo '                     HTTP defaults to 18701 and self-signed HTTPS to 18702; HTTPS_PORT= disables HTTPS; HTTPS_NAMES="IP hostname" adds certificate names'
 	@echo '                     AUDIO_TTS_PROFILE overrides reader default (public Breeze); AUDIO_TTS_ENDPOINT overrides its URL; TTS_CONFIG selects an ignored private profile config'
 	@echo '  operators          build the three accepted operator-foundation lectures'
 	@echo '  prerequisites      build the ordered prerequisite lectures and speech text'

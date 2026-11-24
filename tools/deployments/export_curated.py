@@ -30,9 +30,9 @@ Create the reader environment and install its bundled dependencies offline:
     python3 -m venv .reader-env
     .reader-env/bin/python -m pip install --no-index --find-links wheelhouse ailectures-reader
     .reader-env/bin/python -m ailectures --library ./library restore ./content.zip
-    .reader-env/bin/python -m ailectures --library ./library serve --installed-only --playback-only --port 8001
+    .reader-env/bin/python -m ailectures --library ./library serve --installed-only --playback-only --port 18701
 
-Open http://localhost:8001/ . Stop with Control-C. Next time, run only the last
+Open http://localhost:18701/ . Stop with Control-C. Next time, run only the last
 command. Restore is only for a new library directory. Installation needs Python;
 no TTS service, GPU, FFmpeg, internet access or production checkout is required.
 

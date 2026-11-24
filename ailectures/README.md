@@ -10,7 +10,7 @@ From a source checkout:
 python -m ailectures serve --repository .
 ```
 
-Open `http://127.0.0.1:8001/`. `make serve` selects the same library and explicitly
+Open `http://127.0.0.1:18701/`. `make serve` selects the same library and explicitly
 binds to the LAN, following this repository's existing serving convention.
 Original presentations remain available at `/presentations`. Old `/audio`
 bookmarks redirect into the library. Content-pack updates require no restart.

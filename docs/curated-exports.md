@@ -148,7 +148,7 @@ python3 verify_export.py .
 Then follow the included README. Installation uses `pip --no-index --find-links
 wheelhouse`; after Python is installed, the release supplies its own dependencies.
 The server starts in installed-only, playback-only mode at
-`http://localhost:8001/`. It needs no internet, source checkout, TTS service, GPU
+`http://localhost:18701/`. It needs no internet, source checkout, TTS service, GPU
 or FFmpeg. Stop with Control-C; restore runs only once into a new library folder.
 An installation can optionally add HTTPS alongside HTTP using the
 [HTTPS recording instructions](voice-profiles.md#http-and-https-together).

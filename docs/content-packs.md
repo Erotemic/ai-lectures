@@ -409,7 +409,7 @@ pack that is present.
 ```bash
 make serve
 # Equivalent, with an explicit LAN bind:
-python -m ailectures serve --repository . --host 0.0.0.0 --port 8001
+python -m ailectures serve --repository . --host 0.0.0.0
 ```
 
 `--library` is a global option before the command. Its default is `library-data/`,

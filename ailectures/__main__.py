@@ -35,7 +35,7 @@ def main(argv=None):
     serve.add_argument("--visual-root", type=Path, help="Directory containing separately stored illustrations")
     serve.add_argument("--poll-interval", type=float, default=2)
     serve.add_argument("--host", default="127.0.0.1")
-    serve.add_argument("--port", type=int, default=8001)
+    serve.add_argument("--port", type=int, default=18701, help="HTTP listener port (default: %(default)s)")
     serve.add_argument("--https-port", type=int, help="Add HTTPS on this port alongside HTTP; create a local self-signed certificate unless a pair is supplied")
     serve.add_argument("--ssl-certfile", type=Path)
     serve.add_argument("--ssl-keyfile", type=Path)

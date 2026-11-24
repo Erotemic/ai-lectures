@@ -15,7 +15,7 @@ class Element {
 const find = (root, predicate) => predicate(root) ? root : root.children?.map((child) => typeof child === "object" && find(child, predicate)).find(Boolean);
 const tick = () => new Promise((resolve) => setImmediate(resolve));
 
-function setup(getMedia, { secure = true, url = "http://0.0.0.0:8001/settings" } = {}) {
+function setup(getMedia, { secure = true, url = "http://0.0.0.0:18701/settings" } = {}) {
   globalThis.document = { createElement: (tag) => new Element(tag), body: new Element("body") };
   globalThis.window = new EventTarget();
   globalThis.MutationObserver = class { constructor(callback) { this.callback = callback; } observe() {} disconnect() {} };
@@ -136,7 +136,7 @@ test("an uploaded take remains usable on plain HTTP without requesting microphon
   try {
     assert.equal(Boolean(ui.record.disabled), false);
     await ui.record.onclick();
-    assert.equal(find(ui.root, (node) => node.tag === "a").href, "http://localhost:8001/settings#voice-profiles");
+    assert.equal(find(ui.root, (node) => node.tag === "a").href, "http://localhost:18701/settings#voice-profiles");
     const upload = find(ui.root, (node) => node.type === "file");
     upload.files = [Object.assign(new Blob(["synthetic upload"]), { name: "sample.wav" })];
     upload.onchange();

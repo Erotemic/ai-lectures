@@ -48,7 +48,7 @@ def test_local_certificate_is_reused_private_and_valid_for_declared_names(tmp_pa
 def test_bad_listener_options_fail_before_creating_certificate_or_server(tmp_path, monkeypatch):
     monkeypatch.chdir(tmp_path)
     root = tmp_path / 'library'
-    for args in (['--https-port', '8001'], ['--https-port', '-1'],
+    for args in (['--https-port', '18701'], ['--https-port', '-1'],
                  ['--ssl-certfile', 'missing'], ['--https-port', '8443', '--ssl-certfile', 'missing']):
         with pytest.raises(SystemExit) as error:
             main(['--library', str(root), 'serve', '--installed-only', *args])
@@ -68,7 +68,7 @@ def test_https_config_resolves_certificate_paths_and_cli_port_override(tmp_path,
     monkeypatch.setattr(serving, 'run_http_https', lambda app, **kwargs: calls.append(kwargs))
     main(['--library', str(tmp_path / 'reader'), 'serve', '--installed-only',
           '--config', str(config), '--https-port', '9443'])
-    assert calls == [dict(host='127.0.0.1', port=8001, https_port=9443, certfile=cert, keyfile=key)]
+    assert calls == [dict(host='127.0.0.1', port=18701, https_port=9443, certfile=cert, keyfile=key)]
 
 
 def test_http_https_serve_same_catalog_audio_and_state_with_one_lifespan(tmp_path):

@@ -21,18 +21,18 @@ From the repository root, with Python 3.11–3.13 and
 make serve
 ```
 
-Open <http://127.0.0.1:8001/>. `make serve` installs the serving dependencies and
-binds to the LAN; another device can use the server's address on port 8001.
-Use `make serve PORT=8011` to change the HTTP port, or `make serve HOST=127.0.0.1`
+Open <http://127.0.0.1:18701/>. `make serve` installs the serving dependencies and
+binds to the LAN. Another device can use the server's address on port 18701.
+Use `make serve PORT=18711` to change the HTTP port, or `make serve HOST=127.0.0.1`
 to bind only to this machine. Named listeners share progress and queues across
 devices without accounts or passwords; the LAN binding is intended for a
 trusted network.
 
-`make serve` starts HTTP on port 8001 and HTTPS on port 8002 by default. HTTPS
+`make serve` starts HTTP on port 18701 and HTTPS on port 18702 by default. HTTPS
 creates a persistent local self-signed certificate unless you supply one. Open
-`https://SERVER:8002/settings` for microphone recording from another device;
-existing HTTP links on port 8001 keep working. Set `HTTPS_PORT` to change the
-HTTPS port, or use `make serve HTTPS_PORT=` for HTTP only. See the
+`https://SERVER:18702/settings` for microphone recording from another device.
+Set `HTTPS_PORT` to change the HTTPS port, or use `make serve HTTPS_PORT=` for
+HTTP only. See the
 [HTTPS recording instructions](docs/voice-profiles.md#http-and-https-together).
 
 Browsing transcripts and playing prepared audio need no running AI model,

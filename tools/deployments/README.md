@@ -179,10 +179,10 @@ python3 -m venv .reader-env
 .reader-env/bin/python -m pip install ./ailectures_reader-0.1.0-py3-none-any.whl
 .reader-env/bin/python -m ailectures --library ./curated-library restore ./curated-library.zip
 .reader-env/bin/python -m ailectures --library ./curated-library serve \
-  --installed-only --playback-only --port 8001
+  --installed-only --playback-only --port 18701
 ```
 
-Open `http://localhost:8001/`. Stop the server with Control-C and rerun the last
+Open `http://localhost:18701/`. Stop the server with Control-C and rerun the last
 command next time; restore runs only once into a new directory. To listen from
 other devices on the same network, add `--host 0.0.0.0` and open the Mac's network
 address on those devices.
