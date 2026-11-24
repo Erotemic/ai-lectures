@@ -238,16 +238,41 @@
       "audit_status": "reference_recorded"
     }
   ],
-  "description": "Reconstructs cosmic history from galaxy redshifts, the microwave background, primordial nuclei, and statistical cosmology, distinguishing direct observations from model-dependent extrapolations.",
+  "description": "Reconstructs cosmic history from redshift, microwave-background structure, primordial nuclei, and clustering; distinguishes measurements from model-dependent inferences about dark matter, dark energy, the Hubble tension, and speculative earliest epochs.",
   "tags": [
-    "Cosmic History",
-    "Cosmology"
+    "Cosmic history",
+    "Observational cosmology",
+    "Cosmological redshift",
+    "Cosmic microwave background",
+    "Lambda-CDM",
+    "Big Bang nucleosynthesis",
+    "Lithium problem",
+    "Dark matter",
+    "Dark energy",
+    "Hubble tension",
+    "Baryon acoustic oscillations",
+    "DESI",
+    "Inflation",
+    "Cosmological alternatives",
+    "Model-dependent inference"
   ],
   "tag_paths": [
     [
       "Science",
       "Deep time",
       "Cosmic History"
+    ],
+    [
+      "Science",
+      "Deep time",
+      "Cosmology",
+      "Observational evidence"
+    ],
+    [
+      "Science",
+      "Deep time",
+      "Cosmology",
+      "Limits of extrapolation"
     ]
   ]
 }

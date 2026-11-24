@@ -63,7 +63,7 @@
     }
   ],
   "historical_claims": [],
-  "description": "Builds elementary number theory from divisibility, Euclid’s algorithm, greatest common divisors, Bézout witnesses, and unique prime factorization, emphasizing constructive proofs.",
+  "description": "Builds number theory from divisibility and the Euclidean algorithm to Bézout witnesses, Euclid’s lemma, unique prime factorization, and a proof that infinitely many primes exist.",
   "tag_paths": [
     [
       "Mathematics",
@@ -97,5 +97,15 @@
       "Can you compute a remainder after integer division?",
       "Can you explain why every common divisor of a and b also divides a minus b?"
     ]
-  }
+  },
+  "tags": [
+    "Divisibility",
+    "Greatest common divisor",
+    "Euclidean algorithm",
+    "Bezout's identity",
+    "Euclid's lemma",
+    "Prime factorization",
+    "Fundamental theorem of arithmetic",
+    "Infinitude of primes"
+  ]
 }
