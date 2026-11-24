@@ -48,7 +48,7 @@ Ben drew an orange lantern with silver spots. It leaned to one side.
 
 "Can lanterns read?" Kim asked.
 
-"Not even pretend ones, probably," Ben said. "But it might enjoy the picture."
+"I'll put it where the lantern can see the picture," Ben said.
 
 Amy drew a blue door and the apple tree beside it.
 
@@ -90,7 +90,7 @@ He held up his empty paws as if they were gripping the handles of a tiny wagon.
 
 He pushed the pretend wagon around the tree.
 
-"Clatter, clatter," he said softly.
+"Patter, patter," he said softly.
 
 "It has very quiet wheels," Kim observed.
 
@@ -108,7 +108,7 @@ When the deliveries were finished, Ben discovered that the basket was empty only
 
 "Our mail has traveled everywhere," he said, "without leaving the basket."
 
-"Very efficient," said Grandma May.
+"Shall we put them in an envelope?" said Grandma May.
 
 She opened a flat brown envelope and helped Ben tuck the cards inside.
 

@@ -62,11 +62,11 @@ Here the slender reeds brushed together and made a long whisper.
 
 "That wind sounds different," she said.
 
-"The wind isn't wearing the same leaves," Ben told her.
+"It's the reeds making that sound," Ben told her.
 
 Kim looked pleased with that answer.
 
-"And here it has reeds to brush against."
+"They're much thinner than the leaves on your tree."
 
 They listened again.
 
@@ -108,9 +108,9 @@ Kim drew tall, thin reeds beside it.
 
 Amy helped Ben make two little swirls in the air above them.
 
-"They don't have to be the same," Wendy said.
+"Which one goes shhh?" Wendy asked.
 
-"They aren't," replied Ben. "One looks like a curly potato."
+"This one, over the reeds," replied Ben.
 
 Grandma May wrote flutter under the tree and shhh under the reeds.
 

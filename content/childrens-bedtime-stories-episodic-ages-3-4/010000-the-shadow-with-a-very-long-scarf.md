@@ -18,7 +18,7 @@ At the resting bench, Amy and Ben were waiting with Grandma May. Kim sat nearby,
 
 "Welcome to our side of the hill," said Amy.
 
-"I'm very pleased to be here," said Wendy.
+"Hello!" said Wendy.
 
 Ben pointed to the bench.
 

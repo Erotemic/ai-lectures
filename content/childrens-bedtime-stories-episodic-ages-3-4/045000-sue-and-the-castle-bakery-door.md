@@ -36,9 +36,9 @@ She closed it.
 
 Flup.
 
-"A very polite door," Grandpa Ed said.
+"I like that noise," Grandpa Ed said.
 
-"It should be," Sue replied. "It's a castle."
+"Listen! It makes a different noise when I shut it," Sue replied.
 
 Amy came by with Grandma May when the rain had slowed to a soft patter. They followed the familiar orchard path and stopped at the cottage before the fenced old mill.
 
@@ -70,7 +70,7 @@ It was much too tall to fit through.
 
 "I am a round spoon. I only eat round biscuits."
 
-"Spoons don't eat biscuits," said Amy, and then she laughed at herself. "Not real ones, anyway."
+"We could bake you a round one," said Amy.
 
 The next customer was a folded napkin pretending to be a mountain.
 

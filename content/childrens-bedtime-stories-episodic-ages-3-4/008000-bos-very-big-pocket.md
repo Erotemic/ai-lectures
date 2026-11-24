@@ -58,7 +58,7 @@ They rested at the familiar bench. Ben sat down carefully, because the pocket ha
 
 "Your coat looks as if it ate breakfast," Kim observed.
 
-"It has excellent taste," said Ben.
+"It had a spoon for breakfast," said Ben.
 
 Beyond the hill, the grasses of Far Meadow were waving in the breeze.
 
@@ -102,7 +102,7 @@ Wendy examined the fish-shaped leaf.
 
 "This one looks like a fish," she said.
 
-"It is a leaf pretending to be a fish," Ben explained.
+"I thought you might like that one," Ben said.
 
 Amy picked up the folded napkin and made it into a little mountain.
 

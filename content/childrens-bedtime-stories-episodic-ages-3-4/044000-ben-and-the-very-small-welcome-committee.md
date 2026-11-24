@@ -104,7 +104,7 @@ Grandma May set out a few picture books to look through. When Ben was finished, 
 
 "What happened to the welcome committee?" Amy asked.
 
-"It retired," said Ben. "Excellent service."
+"It retired," said Ben. "The leaf kept blowing away."
 
 At the end of the afternoon, the door opened quietly for Sue and Grandpa Ed, and quietly again for Amy and Grandma May.
 

@@ -40,7 +40,7 @@ Wendy gasped.
 
 "It doesn't look like a sunflower yet," Ben said.
 
-"That's because it doesn't have a hat," Wendy replied.
+"I wonder if a little hat would fit it," Wendy replied.
 
 Ben was immediately interested.
 
@@ -102,9 +102,9 @@ She kept her hands beside her, not over the leaves.
 
 The shoot was green. The earth was dark. Sunlight lay across the back row.
 
-"It grew without my hat," she said.
+"It doesn't need a hat, does it?" she said.
 
-"Yes," said Grandma.
+"No," said Grandma.
 
 Wendy stood there a little longer.
 

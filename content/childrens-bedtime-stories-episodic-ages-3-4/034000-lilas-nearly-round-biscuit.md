@@ -22,7 +22,7 @@ And then she made a biscuit that looked like a very surprised potato.
 
 "Why Ben?" asked Aunt Kay.
 
-"He appreciates important potatoes."
+"He likes funny-shaped biscuits."
 
 They laughed.
 
@@ -68,7 +68,7 @@ She looked back at the biscuit.
 
 Wendy nodded.
 
-"That explains why it hasn't come inside for a biscuit."
+"Mine will fit on my plate."
 
 They made a second Moon biscuit.
 

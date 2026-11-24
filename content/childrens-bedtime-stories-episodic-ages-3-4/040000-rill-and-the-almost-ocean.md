@@ -18,11 +18,11 @@ Near the pond, they met Grandpa Ed and Sue, the young mouse who had moved into t
 
 Sue had heard about Todd's boots from Ben.
 
-"You have two!" she said.
+"Are those the boots Ben told me about?" she said.
 
 Todd looked down.
 
-"Most days, yes."
+"Yes. See the blue patch?"
 
 Sue laughed.
 
@@ -118,7 +118,7 @@ Todd looked at the water and considered.
 
 "Possibly someone who liked round things."
 
-Sue smiled. "Then I would like that person."
+Sue smiled. "I would have called it that too."
 
 They sat for a little while on the grassy rise where Aunt Pat liked to rest.
 

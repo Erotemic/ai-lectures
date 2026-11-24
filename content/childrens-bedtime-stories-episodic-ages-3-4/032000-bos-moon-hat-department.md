@@ -50,7 +50,7 @@ Ben made a third hat, with two flaps, a yellow pom-pom, and one long strip that 
 
 Grandma May picked it up.
 
-"Who might actually wear this?"
+"Would that one fit you?"
 
 Ben tried it on his own head.
 

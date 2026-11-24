@@ -62,7 +62,7 @@ He walked two steps.
 
 Sff. Sff.
 
-"My scarf is coming along too," he said.
+"It's my scarf!" he said.
 
 At Pebble Bridge, Kim was waiting with her violet pouch.
 
@@ -72,9 +72,9 @@ At Pebble Bridge, Kim was waiting with her violet pouch.
 
 Kim looked at its enormous drawn ears.
 
-"Does it know any good stories?"
+"Can you hear better with it on?"
 
-"Not yet," Ben replied. "We're taking it for a walk."
+"I don't know yet," Ben replied. "We're taking it for a walk."
 
 Grandma May stood beside them as they crossed the bridge.
 

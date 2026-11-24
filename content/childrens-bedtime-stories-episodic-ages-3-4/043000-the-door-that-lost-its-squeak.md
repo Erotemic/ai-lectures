@@ -76,7 +76,7 @@ Now the line was a picture of a sound that wasn't there.
 
 Grandma May looked at the folded map. "It was there when you drew it."
 
-"It certainly was," Ben said. "It woke up all my ears."
+"It certainly was," Ben said. "I could hear it from the Green!"
 
 Sue made a very small squeaky noise of her own.
 
