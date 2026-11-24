@@ -216,6 +216,7 @@ def main(argv=None):
             leases.enter_context(media_lock(args.library))
         if args.command == "serve":
             import uvicorn
+            from .serving import quiet_catalog_polls, run_http_https
             from .web import create_app
 
             config = {}
@@ -275,14 +276,14 @@ def main(argv=None):
                 legacy_factory=legacy_factory,
             )
             print(f"AI Lectures: http://{args.host}:{args.port}/", flush=True)
-            if https_port is None:
-                uvicorn.run(app, host=args.host, port=args.port)
-            else:
-                from .serving import run_http_https
-                print(f"AI Lectures: https://{args.host}:{https_port}/", flush=True)
-                if not args.ssl_certfile and not https.get("certfile"):
-                    print("Local self-signed HTTPS: accept the browser certificate warning, then allow microphone access.", flush=True)
-                run_http_https(app, host=args.host, port=args.port, https_port=https_port, certfile=certfile, keyfile=keyfile)
+            with quiet_catalog_polls():
+                if https_port is None:
+                    uvicorn.run(app, host=args.host, port=args.port)
+                else:
+                    print(f"AI Lectures: https://{args.host}:{https_port}/", flush=True)
+                    if not args.ssl_certfile and not https.get("certfile"):
+                        print("Local self-signed HTTPS: accept the browser certificate warning, then allow microphone access.", flush=True)
+                    run_http_https(app, host=args.host, port=args.port, https_port=https_port, certfile=certfile, keyfile=keyfile)
         elif args.command in {"voices", "queue"}:
             from .library import Library
             from .production import GenerationManager

@@ -127,8 +127,14 @@ main(sys.argv[2:])
             context = ssl.create_default_context(cafile=str(cert))
             with urlopen(https + '/api/library/catalog', context=context, timeout=3) as response:
                 assert response.read() == plain_catalog
+                catalog_tag = response.headers['ETag']
             assert trace.read_text() == 'start\n'
             for base in (http, https):
+                request = Request(base + '/api/library/catalog', headers={'If-None-Match': catalog_tag})
+                with pytest.raises(HTTPError) as error:
+                    urlopen(request, context=context, timeout=3)
+                with error.value as response:
+                    assert response.code == 304 and response.read() == b''
                 with urlopen(base + '/test-shared-state', context=context, timeout=3) as response:
                     assert json.load(response) == {'token': 'fixture'}
                 with urlopen(base + '/api/library/lectures/music:001000', context=context, timeout=3) as response:
@@ -138,6 +144,12 @@ main(sys.argv[2:])
                     assert response.status == 206 and response.read().startswith(b'RIFF')
                 with urlopen(base + '/library-assets/player.mjs', context=context, timeout=3) as response:
                     assert response.status == 200
+                    asset_tag = response.headers['ETag']
+                request = Request(base + '/library-assets/player.mjs', headers={'If-None-Match': asset_tag})
+                with pytest.raises(HTTPError) as error:
+                    urlopen(request, context=context, timeout=3)
+                with error.value as response:
+                    assert response.code == 304
             preview = json.dumps({'selection': {'packs': ['music']}, 'preview': True}).encode()
             for origin, expected in ((https, 200), (http, 403)):
                 request = Request(https + '/api/library/deployment', data=preview,
@@ -163,8 +175,13 @@ main(sys.argv[2:])
             except subprocess.TimeoutExpired:
                 process.kill()
                 process.wait()
-        assert process.returncode == 0, (tmp_path / 'server.log').read_text()
+        logs = (tmp_path / 'server.log').read_text()
+        assert process.returncode == 0, logs
         assert trace.read_text() == 'start\nstop\n'
+        assert logs.count('"GET /api/library/catalog HTTP/1.1" 200') >= 2
+        assert '"GET /api/library/catalog HTTP/1.1" 304' not in logs
+        assert logs.count('"GET /library-assets/player.mjs HTTP/1.1" 304') == 2
+        assert '"POST /api/library/deployment HTTP/1.1" 403' in logs
 
 
 def test_second_port_conflict_does_not_start_lifespan_or_leave_http_bound(tmp_path):

@@ -1,7 +1,8 @@
 """Serve HTTP and optional HTTPS from one app, event loop and lifespan."""
-from contextlib import ExitStack, nullcontext
+from contextlib import ExitStack, contextmanager, nullcontext
 import asyncio
 import ipaddress
+import logging
 from pathlib import Path
 import shutil
 import signal
@@ -10,6 +11,25 @@ import subprocess
 import tempfile
 
 from .core import digest
+
+
+@contextmanager
+def quiet_catalog_polls():
+    """Keep routine catalog revalidations out of the server access log."""
+    def keep_access_record(record):
+        args = record.args
+        if not isinstance(args, tuple) or len(args) != 5:
+            return True
+        _, method, path, _, status = args
+        return not (method == 'GET' and status == 304 and isinstance(path, str)
+                    and path.partition('?')[0] == '/api/library/catalog')
+
+    logger = logging.getLogger('uvicorn.access')
+    logger.addFilter(keep_access_record)
+    try:
+        yield
+    finally:
+        logger.removeFilter(keep_access_record)
 
 
 def certificate_files(root, host, *, certfile=None, keyfile=None, names=()):
