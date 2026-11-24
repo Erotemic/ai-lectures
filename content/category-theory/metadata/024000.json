@@ -43,7 +43,7 @@
       "audit_status": "reference_recorded"
     }
   ],
-  "description": "Explains fibrations, cartesian arrows, and the Grothendieck construction as tools for organizing categories indexed by changing contexts.",
+  "description": "Explains Grothendieck fibrations through slice categories, pullback reindexing, and the universal property of cartesian lifts. The Grothendieck construction assembles indexed categories into a total category, distinguishing vertical maps, pseudofunctor coherence, and the stricter substitution laws needed in dependent-type semantics.",
   "tag_paths": [
     [
       "Mathematics",
@@ -60,5 +60,17 @@
       "Category theory",
       "Contexts and substitution"
     ]
+  ],
+  "tags": [
+    "Slice categories",
+    "Reindexing",
+    "Pullbacks",
+    "Cartesian lifts",
+    "Indexed categories",
+    "Grothendieck construction",
+    "Vertical morphisms",
+    "Pseudofunctors",
+    "Category of elements",
+    "Comprehension categories"
   ]
 }

@@ -72,7 +72,7 @@
       "audit_status": "reference_recorded"
     }
   ],
-  "description": "Explains homotopy limits and derived pullbacks, showing how tracking paths and loops preserves information lost by ordinary set-level limits.",
+  "description": "Models homotopy pullbacks by pairs of points together with paths between their images. The pullback of a point with itself over a circle recovers its loop space and winding numbers; homotopy fibers, equalizers, coherent cones, and a circle-shaped homotopy pushout explain why ordinary limits can discard essential homotopy data.",
   "tag_paths": [
     [
       "Mathematics",
@@ -89,5 +89,17 @@
       "Category theory",
       "Limits and colimits"
     ]
+  ],
+  "tags": [
+    "Homotopy pullbacks",
+    "Path spaces",
+    "Loop spaces",
+    "Winding numbers",
+    "Homotopy fibers",
+    "Homotopy equalizers",
+    "Homotopy pushouts",
+    "Mapping spaces",
+    "Homotopy coherent cones",
+    "Fibration replacement"
   ]
 }

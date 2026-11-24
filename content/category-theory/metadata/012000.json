@@ -21,7 +21,7 @@
     }
   ],
   "historical_claims": [],
-  "description": "Relates category theory to constructive logic by treating propositions as subobjects, implication as an exponential structure, and quantifiers as adjoints.",
+  "description": "Uses subobjects and pullbacks to model predicates and substitution, exponentials to interpret implication, and left and right adjoints to inverse image to explain quantifiers. Subobject classifiers and a two-point Heyting algebra illustrate why categorical logic need not be classical.",
   "tag_paths": [
     [
       "Mathematics",
@@ -38,5 +38,16 @@
       "Category theory",
       "Internal logic"
     ]
+  ],
+  "tags": [
+    "Subobjects",
+    "Pullbacks",
+    "Cartesian closed categories",
+    "Currying",
+    "Subobject classifiers",
+    "Quantifier adjunctions",
+    "Heyting algebras",
+    "Intuitionistic logic",
+    "Excluded middle"
   ]
 }

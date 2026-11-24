@@ -53,7 +53,7 @@
       "audit_status": "reference_recorded"
     }
   ],
-  "description": "Introduces stacks as a framework for gluing objects while preserving automorphisms, using groupoids, principal bundles, and quotient constructions as examples.",
+  "description": "Introduces stacks as groupoid-valued gluing structures that preserve automorphisms as well as objects. Principal bundles over a circle, classifying stacks, and quotient stacks illustrate object and morphism descent, stabilizers, and why passing to isomorphism classes can lose information needed for gluing.",
   "tag_paths": [
     [
       "Mathematics",
@@ -70,5 +70,18 @@
       "Category theory",
       "Descent"
     ]
+  ],
+  "tags": [
+    "Groupoids",
+    "Principal bundles",
+    "Torsors",
+    "Automorphisms",
+    "Classifying stacks",
+    "Quotient stacks",
+    "Stabilizers",
+    "Pseudofunctors",
+    "Prestacks",
+    "Stackification",
+    "Effective descent"
   ]
 }

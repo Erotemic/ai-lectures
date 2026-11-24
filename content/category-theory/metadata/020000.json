@@ -32,7 +32,7 @@
       "audit_status": "reference_recorded"
     }
   ],
-  "description": "Extends the Yoneda perspective to enriched categories, showing how quantitative hom-objects, such as distances, recover an object through its relationships to others.",
+  "description": "Derives symmetric distance-profile embeddings and their asymmetric Lawvere-metric analogues using directed residuation. The enriched Yoneda lemma evaluates an arbitrary compatible presheaf by comparing it with a representable, recovering pairwise distance as a special case under the relevant enrichment hypotheses.",
   "tag_paths": [
     [
       "Mathematics",
@@ -49,5 +49,17 @@
       "Category theory",
       "Yoneda lemma"
     ]
+  ],
+  "tags": [
+    "Lawvere metric spaces",
+    "Kuratowski embedding",
+    "Distance profiles",
+    "Directed distances",
+    "Residuation",
+    "Representable presheaves",
+    "Enriched presheaves",
+    "Nonexpansive maps",
+    "Internal homs",
+    "Isometric embeddings"
   ]
 }

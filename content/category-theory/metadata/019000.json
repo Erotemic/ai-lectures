@@ -21,7 +21,7 @@
     }
   ],
   "historical_claims": [],
-  "description": "Introduces profunctors as generalized relations between categories, using coends to define their composition and connect ordinary relations with categorical structure.",
+  "description": "Introduces set-valued profunctors as relations with functorial witness sets. Coend composition identifies factorizations along middle-category arrows; finite examples compare discrete and non-discrete composition, and hom profunctors, co-Yoneda, representable profunctors, and coherent associativity explain their bicategory structure.",
   "tag_paths": [
     [
       "Mathematics",
@@ -38,5 +38,17 @@
       "Category theory",
       "Ends and coends"
     ]
+  ],
+  "tags": [
+    "Witness sets",
+    "Variance",
+    "Relational composition",
+    "Coend composition",
+    "Co-Yoneda lemma",
+    "Representable profunctors",
+    "Hom profunctors",
+    "Bicategories",
+    "Associators and unitors",
+    "Quotient sets"
   ]
 }

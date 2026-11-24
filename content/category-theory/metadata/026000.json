@@ -43,7 +43,7 @@
       "audit_status": "reference_recorded"
     }
   ],
-  "description": "Introduces 2-categories and bicategories, where morphisms have comparison morphisms of their own, and explains why coherence replaces strict equality of compositions.",
+  "description": "Builds strict 2-categories from functors and natural transformations with vertical and horizontal composition and interchange. Spans and profunctors motivate bicategorical associators, unitors, pentagon and triangle coherence; monoidal categories and biequivalence illustrate strictification before introducing higher-dimensional comparisons.",
   "tag_paths": [
     [
       "Mathematics",
@@ -60,5 +60,21 @@
       "Category theory",
       "Structured composition"
     ]
+  ],
+  "tags": [
+    "Strict 2-categories",
+    "Natural transformations",
+    "Vertical composition",
+    "Horizontal composition",
+    "Interchange law",
+    "Bicategories",
+    "Spans",
+    "Profunctors",
+    "Associators and unitors",
+    "Pentagon identity",
+    "Triangle identity",
+    "Biequivalence",
+    "Strictification",
+    "Monoidal categories"
   ]
 }

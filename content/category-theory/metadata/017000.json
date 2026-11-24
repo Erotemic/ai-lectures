@@ -32,7 +32,7 @@
       "audit_status": "reference_recorded"
     }
   ],
-  "description": "Explains left and right Kan extensions as universal methods for transporting or extending diagrams along functors, generalizing constructions such as colimits and adjoints.",
+  "description": "Develops left and right Kan extensions as adjoints to restriction, using pointwise colimits over arrows into a new index and limits over arrows out of it. Finite data diagrams illustrate comma categories, empty indexing cases, coend formulas, and the role of fully faithful inclusions.",
   "tag_paths": [
     [
       "Mathematics",
@@ -49,5 +49,16 @@
       "Category theory",
       "Universal properties"
     ]
+  ],
+  "tags": [
+    "Comma categories",
+    "Restriction functors",
+    "Adjunctions",
+    "Pointwise Kan extensions",
+    "Coproducts",
+    "Products",
+    "Coends",
+    "Fully faithful functors",
+    "Initial and terminal objects"
   ]
 }

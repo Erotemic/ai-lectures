@@ -56,7 +56,7 @@
       "audit_status": "reference_recorded"
     }
   ],
-  "description": "Develops operads for operations with many inputs, explaining substitution, associativity, and how topological operads encode families of composition laws.",
+  "description": "Develops operads through arities, rooted-tree substitution, and associative composition with units. Endomorphism, associative, commutative, and colored operads distinguish operations from their interpretations and symmetry from commutativity; little-disk operads illustrate how geometry organizes coherent families of multiplication laws.",
   "tag_paths": [
     [
       "Mathematics",
@@ -72,5 +72,20 @@
       "Category theory",
       "Structured composition"
     ]
+  ],
+  "tags": [
+    "Arity",
+    "Rooted trees",
+    "Endomorphism operads",
+    "Associative operads",
+    "Commutative operads",
+    "Symmetric operads",
+    "Nonsymmetric operads",
+    "Colored operads",
+    "Multicategories",
+    "Lawvere theories",
+    "Little disks operads",
+    "Operad algebras",
+    "Braid groups"
   ]
 }

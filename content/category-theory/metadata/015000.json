@@ -42,7 +42,7 @@
       "audit_status": "reference_recorded"
     }
   ],
-  "description": "Generalizes categories by enriching hom-sets into structured hom-objects, using distances and other quantitative relationships to reinterpret composition.",
+  "description": "Derives Lawvere metric spaces by enriching categories over extended nonnegative distances with reversed order and addition. Directed travel examples explain the triangle inequality, nonexpansive functors, shortest-path closure, and the distance-profile embedding for symmetric metrics, then contrast order and linear enrichment.",
   "tag_paths": [
     [
       "Mathematics",
@@ -59,5 +59,17 @@
       "Category theory",
       "Structured composition"
     ]
+  ],
+  "tags": [
+    "Lawvere metric spaces",
+    "Monoidal categories",
+    "Reversed order",
+    "Triangle inequality",
+    "Directed distances",
+    "Nonexpansive maps",
+    "Floyd–Warshall algorithm",
+    "Shortest paths",
+    "Distance profiles",
+    "Linear enrichment"
   ]
 }

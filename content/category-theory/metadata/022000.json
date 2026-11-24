@@ -33,7 +33,7 @@
       "audit_status": "reference_recorded"
     }
   ],
-  "description": "Introduces categorical semantics for dependent types using contexts, substitution, categories with families, and comprehension structures that describe types depending on values.",
+  "description": "Develops categories with families and comprehension from dependent set families, reindexing, and context extension via pullback. Dependent sums and products illustrate adjoints to substitution; the lecture explains Beck–Chevalley stability and why strict substitution and definitional equality require more than arbitrary isomorphic pullbacks.",
   "tag_paths": [
     [
       "Mathematics",
@@ -50,5 +50,17 @@
       "Category theory",
       "Contexts and substitution"
     ]
+  ],
+  "tags": [
+    "Categories with families",
+    "Comprehension categories",
+    "Context extension",
+    "Reindexing",
+    "Dependent sums",
+    "Dependent products",
+    "Beck–Chevalley condition",
+    "Display maps",
+    "Definitional equality",
+    "Propositional equality"
   ]
 }

@@ -43,7 +43,7 @@
       "audit_status": "reference_recorded"
     }
   ],
-  "description": "Interprets simply typed functional programs in cartesian closed categories, connecting types to objects, programs to morphisms, and substitution and function types to universal laws.",
+  "description": "Interprets pure simply typed lambda calculus in cartesian closed categories: contexts as products, abstraction as currying, application as evaluation, and substitution as composition. Beta and eta equations explain semantic soundness, while examples distinguish denotational equality from evaluation strategy and effectful computation.",
   "tag_paths": [
     [
       "Mathematics",
@@ -60,5 +60,18 @@
       "Category theory",
       "Programming semantics"
     ]
+  ],
+  "tags": [
+    "Cartesian closed categories",
+    "Simply typed lambda calculus",
+    "Currying",
+    "Exponential objects",
+    "Beta reduction",
+    "Eta equivalence",
+    "Curry–Howard correspondence",
+    "Substitution",
+    "Soundness",
+    "Denotational semantics",
+    "Computational effects"
   ]
 }

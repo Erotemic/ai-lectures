@@ -54,7 +54,7 @@
       "audit_status": "reference_recorded"
     }
   ],
-  "description": "Develops Beck’s monadicity criterion using comparison functors and reflection conditions, explaining when a category of structured objects can be reconstructed as algebras for a monad.",
+  "description": "Develops Beck’s monadicity criterion through comparison functors, conservativity, and coequalizers of pairs that split after applying the forgetful functor. A free-algebra presentation sketches the reconstruction proof and distinguishes creation of these coequalizers from existence and preservation, before introducing the dual comonadic picture.",
   "tag_paths": [
     [
       "Mathematics",
@@ -70,5 +70,17 @@
       "Category theory",
       "Descent"
     ]
+  ],
+  "tags": [
+    "Beck’s monadicity theorem",
+    "Comparison functors",
+    "Conservative functors",
+    "Split coequalizers",
+    "U-split pairs",
+    "Free-algebra presentations",
+    "Eilenberg–Moore algebras",
+    "List monad",
+    "Comonadicity",
+    "Free-forgetful adjunctions"
   ]
 }
