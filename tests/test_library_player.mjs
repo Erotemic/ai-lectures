@@ -32,6 +32,7 @@ const player=new Player({checkpoint:point=>checkpoints.push(point),message(){},n
 const recording={id:'recording',variant:'prepared',complete:true,pages:['First.','Second.'],segments:[{index:0,duration:10,url:'/first.wav'},{index:1,duration:20,url:'/second.wav'}]};
 const row={id:'track:001000',revision:'current',spoken_sha256:'spoken',title:'First lecture',recordings:[recording],origin:{release:'source'}};
 player.open(row,null,recording.id,'track:branch');
+assert.equal(player.revealed,false);
 audio.onloadedmetadata();player.started=true;audio.currentTime=4;
 player.open(row,null,recording.id,'track:survey');
 assert.equal(checkpoints.at(-1).course_id,'track:branch');
@@ -49,6 +50,15 @@ player.seekBy(15);assert.equal(player.index,1);audio.onloadedmetadata();
 assert.equal(audio.currentTime,13);assert.equal(audio.paused,true);
 player.seekBy(-15);assert.equal(player.index,0);audio.onloadedmetadata();
 assert.equal(audio.currentTime,8);
+const timeline=element('timeline');
+timeline.value='2000';
+timeline.oninput();
+assert.equal(element('elapsed').textContent,'0:06');
+player.update();
+assert.equal(timeline.value,'2000');
+timeline.onchange();
+assert.equal(audio.currentTime,6);
+assert.equal(audio.paused,true);
 // Selecting an unavailable passage while paused must clear the previous audio.
 player.recording={...recording,complete:false,segments:[recording.segments[0]]};
 player.seekBy(15);assert.equal(player.index,1);assert.equal(audio.src,undefined);
@@ -58,6 +68,7 @@ console.log('Final-block continuation, playback context and paused cross-block s
 // Both controls read the actual media state; a paused resume keeps its time.
 player.lectureController = {syncPlayback(){this.label=element('toggle-play').textContent;}};
 audio.paused=false; audio.onplay();
+assert.equal(player.revealed,true);
 assert.equal(element('toggle-play').textContent,'Pause');
 assert.equal(player.lectureController.label,'Pause');
 audio.pause();audio.onpause();

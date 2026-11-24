@@ -129,22 +129,25 @@ export class CatalogBrowser {
     });
     return el("div", { class: "subject-directory" }, jump, ...sections);
   }
-  historyItem(position) {
+  historyItem(position, compact = false) {
     const row = this.byId(position.lecture_id);
     const { course, index, next } = historyRoute(position, this.catalog().courses);
-    const item = row ? this.item(row, course?.id) : el("li", { class: "catalog-item" },
-      el("div", { class: "copy", text: position.lecture_id + " · Pack not installed · history retained" }));
+    const href = this.itemURL(position.lecture_id, course?.id);
+    const item = row && !compact ? this.item(row, course?.id) : el("li", { class: "catalog-item" },
+      el("div", { class: "copy" }, row ? this.link(row.title, href)
+        : position.lecture_id + " · Pack not installed · history retained"));
     item.classList.add("history-item");
     const copy = item.querySelector(".copy");
     const date = new Date(position.updated_at);
-    if (Number.isFinite(date.getTime())) copy.append(el("small", {}, "Last saved ",
+    if (!compact && Number.isFinite(date.getTime())) copy.append(el("small", {}, "Last saved ",
       el("time", { datetime: position.updated_at, text: date.toLocaleString(undefined, { dateStyle: "medium", timeStyle: "short" }) })));
     if (course) copy.append(el("small", {},
       this.link(course.series_title || course.title, this.courseLink(course)),
       ` · ${index + 1} of ${course.lectures.length}`));
     else if (position.course_id) copy.append(el("small", { text: "Previous listening track is no longer available." }));
     const actions = el("div", { class: "actions history-actions" });
-    if (row) actions.append(this.link(position.completed ? "Listen again" : "Resume lecture", this.itemURL(row.id, course?.id)));
+    if (row && row.kind !== "presentation")
+      actions.append(this.button(position.completed ? "Listen again" : "Resume", () => this.play(href), !position.completed));
     const nextRow = this.byId(next);
     if (nextRow) actions.append(this.link("Next: " + nextRow.title, this.itemURL(next, course.id)));
     else if (next) copy.append(el("small", { text: "Next lecture is not installed on this server." }));
@@ -167,7 +170,7 @@ export class CatalogBrowser {
       el(
         "ul",
         { class: "list" },
-        ...rows.map((p) => this.historyItem(p)),
+        ...rows.map((p) => this.historyItem(p, true)),
       ),
     );
   }
@@ -194,7 +197,7 @@ export class CatalogBrowser {
     );
     categories.value = initial("category");
     const topic = el("input", { type: "search", list: "browse-topic-tags", "aria-label": "Tag", placeholder: "Topic, place, author, or period", value: initial("tag") });
-    const topicOptions = el("datalist", { id: "browse-topic-tags" }, ...[...new Set(data.lectures.flatMap(tagLabels))].sort().map(tag => el("option", { value: tag })));
+    const topicOptions = el("datalist", { id: "browse-topic-tags" });
     const audiences = el(
       "select",
       { "aria-label": "Audience" },
@@ -233,6 +236,7 @@ export class CatalogBrowser {
     );
     sort.value = initial("sort");
     let limit = Number.isInteger(history.state?.browseLimit) ? Math.max(24, history.state.browseLimit) : 24;
+    let collectionLimit = history.state?.browseCollectionLimit || 12;
     const base = collectionsOnly ? "/collections" : "/";
     const results = el("div");
     const filters = el(
@@ -251,23 +255,17 @@ export class CatalogBrowser {
       ),
     );
     filters.open = Boolean(topic.value || audiences.value || audio.value || view.value || sort.value);
+    let topicsLoaded = false;
+    function loadTopics() {
+      if (!filters.open || topicsLoaded) return;
+      topicsLoaded = true;
+      topicOptions.append(...[...new Set(data.lectures.flatMap(tagLabels))].sort().map(tag => el("option", { value: tag })));
+    }
+    filters.addEventListener("toggle", loadTopics);
+    loadTopics();
     search.className = "library-search";
     main.replaceChildren(
-      heading,
-      el("p", {
-        class: "intro",
-        text: "Follow a guided route, explore a deep dive, or find a single lecture. Your place is saved as you listen.",
-      }),
-      el(
-        "div",
-        { class: "actions" },
-        this.link("Browse all categories", base + "?all=1"),
-        this.link("Listening history", "/listening"),
-        this.link("All lectures", "/lectures"),
-        this.link("References and reading", "/references"),
-      ),
-      search,
-      filters,
+      el("section", { class: "browse-header" }, heading, search, filters),
       results,
     );
     const update = () => {
@@ -284,13 +282,13 @@ export class CatalogBrowser {
         Object.entries(state).filter(([, value]) => value),
       );
       history.replaceState(
-        { ...history.state, browseLimit: limit },
+        { ...history.state, browseLimit: limit, browseCollectionLimit: collectionLimit },
         "",
         base + (params.size ? "?" + params : "") + location.hash,
       );
       heading.textContent =
         state.category ||
-        (collectionsOnly ? "Collections" : "What would you like to hear?");
+        (collectionsOnly ? "Collections" : "Browse the library");
       document.title = heading.textContent + " · AI Lectures";
       const available = (row) =>
         !state.audio ||
@@ -341,6 +339,7 @@ export class CatalogBrowser {
           this.button("Clear filters", () => {
             for (const input of [search, topic, categories, audiences, audio, view, sort]) input.value = "";
             limit = 24;
+            collectionLimit = 12;
             update();
           }),
         ));
@@ -398,15 +397,23 @@ export class CatalogBrowser {
             el(
               "div",
               { class: "grid" },
-              ...collections.map((c) => this.card(c, null, dateOrder(state.sort)?.axis)),
+          ...collections.slice(0, collectionLimit).map((c) => this.card(c, null, dateOrder(state.sort)?.axis)),
             ),
           );
-        results.append(collectionResults);
+        if (collections.length > collectionLimit) {
+          const more = this.button("Show more collections", () => {
+            collectionLimit += 24;
+            update();
+          });
+          more.classList.add("browse-results-more");
+          collectionResults.append(more);
+        }
+        if (!q) results.append(collectionResults);
         if (!collectionsOnly || q) {
           const section = el(
             "section",
             { class: "section" },
-            el("h2", { text: `${rows.length} items` }),
+            el("h2", { text: `${rows.length} ${rows.length === 1 ? "lecture" : "lectures"}` }),
             el(
               "ul",
               { class: "list" },
@@ -422,6 +429,7 @@ export class CatalogBrowser {
             );
           results.append(section);
         }
+        if (q && collections.length) results.append(collectionResults);
       }
       if (!data.lectures.length)
         results.append(
@@ -441,6 +449,7 @@ export class CatalogBrowser {
     for (const input of [search, topic, categories, audiences, audio, view, sort])
       input.addEventListener(input === search || input === topic ? "input" : "change", () => {
         limit = 24;
+        collectionLimit = 12;
         update();
       });
     update();

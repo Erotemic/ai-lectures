@@ -1,5 +1,6 @@
 """Read-only catalog reuse keeps navigation cheap without delaying source updates."""
 
+import gzip
 import json
 from pathlib import Path
 
@@ -84,6 +85,38 @@ def test_catalog_revalidation_and_one_snapshot_per_lecture_request(
         manuscript.write_text(manuscript.read_text().replace("octave", "fifth"))
         current = client.get("/api/library/catalog", headers={"If-None-Match": tag})
         assert current.status_code == 200 and current.headers["etag"] != tag
+
+
+def test_catalog_negotiates_and_revalidates_compressed_data(tmp_path, monkeypatch):
+    repo, manuscript = repository(tmp_path)
+    manuscript.write_text(manuscript.read_text().replace(
+        "# Intervals", "# Intervals\n\n" + "Listen for the change in pitch. " * 120
+    ))
+    compress = gzip.compress
+    calls = []
+
+    def counted(data, **kwargs):
+        calls.append(len(data))
+        return compress(data, **kwargs)
+
+    monkeypatch.setattr("ailectures.web.gzip.compress", counted)
+    with TestClient(create_app(tmp_path / "reader", repository=repo)) as client:
+        url = "/api/library/catalog"
+        identity = client.get(url, headers={"Accept-Encoding": "gzip;q=0, *;q=1"})
+        compressed = client.get(url, headers={"Accept-Encoding": "br, GZip; q=0.5"})
+        assert compressed.content == identity.content
+        assert "content-encoding" not in identity.headers
+        assert compressed.headers["content-encoding"] == "gzip"
+        assert compressed.headers["vary"] == "Accept-Encoding"
+        assert compressed.headers["etag"] == identity.headers["etag"]
+        assert int(compressed.headers["content-length"]) < len(identity.content)
+        assert client.get(url, headers={"Accept-Encoding": "gzip"}).content == identity.content
+        cached = client.get(url, headers={
+            "Accept-Encoding": "gzip",
+            "If-None-Match": compressed.headers["etag"],
+        })
+        assert cached.status_code == 304 and cached.headers["vary"] == "Accept-Encoding"
+        assert calls == [len(identity.content)]
 
 
 def observe_parsing(monkeypatch):

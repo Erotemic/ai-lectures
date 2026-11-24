@@ -265,7 +265,7 @@ export class LectureAudio {
     this.audioSummary = el("summary", { text: "Audio blocks & generation" });
     this.advanced = el("details", { class: "audio-tools" },
       this.audioSummary,
-      this.stop, this.clearCache,
+      this.cache, this.stop, this.clearCache,
       this.generationQueueLink,
       el("div", { class: "filters" },
         el("label", { class: "check" }, this.continueBlocks, "Continue to next blocks"),
@@ -276,15 +276,15 @@ export class LectureAudio {
     );
     this.voiceLabelText = document.createTextNode("Voice for playback and generation");
     this.root.append(
-      el("label", {}, this.voiceLabelText, this.select),
-      this.more,
       el(
         "div",
-        { class: "actions" },
-        this.playButton, this.cache,
+        { class: "lecture-audio-main" },
+        this.playButton,
+        el("label", {}, this.voiceLabelText, this.select),
       ),
       this.generationNotice,
       this.status,
+      this.more,
       this.advanced,
     );
     this.select.onchange = () => this.choose();
@@ -382,6 +382,8 @@ export class LectureAudio {
         clearInterval(this.timer);
         return;
       }
+      if (!this.pending && (document.hidden || !this.root.isConnected ||
+          Date.now() - (this.lastPoll || 0) < 10000)) return;
       this.poll().catch((error) => this.showError(error));
     }, 1500);
   }
@@ -427,7 +429,7 @@ export class LectureAudio {
     }
     // Reading or choosing a voice in another lecture is a preview. Take over
     // the persistent player only after an explicit playback action.
-    if (this.player.row && this.player.row.id !== this.row.id && !activate) {
+    if (this.player.row && this.player.row.id !== this.row.id && this.player.revealed !== false && !activate) {
       this.resume ||= this.progress;
       this.target = resumeTarget(this.row, this.resume, this.pages);
       this.onChange?.();
@@ -474,6 +476,7 @@ export class LectureAudio {
     this.checkGenerationHealth();
   }
   render() {
+    this.jobsSignature = JSON.stringify(this.jobs);
     this.voiceOptions();
     const canGenerate = Boolean(this.data.tools_available && this.choice?.profile && this.choice.available !== false);
     const savedProfiles = this.data.schema === "voice-profiles-v1";
@@ -535,14 +538,14 @@ export class LectureAudio {
     this.stop.disabled =
       !["queued", "running"].includes(job?.state) || this.stopping.has(job?.id);
     this.select.disabled = !this.choices.length || this.clearing;
-    this.more.hidden = !this.choices.length;
+    this.more.hidden = this.choices.length < 2;
     this.status.textContent = this.pending
       ? `Waiting for block ${this.pending.index + 1} in ${this.choice.label}. Playback will start when it is ready.${job?.error ? " · " + job.error : ""}`
       : job
         ? `${job.state} · ${states.filter((state) => state === "ready").length}/${states.length} audio blocks ready${job.error ? " · " + job.error : ""}`
         : this.initialError ||
           (this.choice?.recording_id
-            ? "Play uses the selected voice."
+            ? ""
             : this.choice?.profile
               ? this.data.tools_available
                 ? "Press Play to generate and listen in this voice. Completed blocks are reused."
@@ -694,9 +697,10 @@ export class LectureAudio {
   }
   syncPlayback() {
     const owns = this.player.lectureController === this;
-    this.playButton.textContent = owns && this.pending ? "Cancel playback"
+    const label = owns && this.pending ? "Cancel playback"
       : owns && !this.player.audio.paused ? "Pause"
       : (owns ? (this.player.started || this.player.resumeAvailable) : this.progress) ? "Resume" : "Play";
+    if (this.playButton.textContent !== label) this.playButton.textContent = label;
   }
   togglePlayback() {
     if (this.player.lectureController === this) this.player.toggle();
@@ -742,7 +746,10 @@ export class LectureAudio {
       this.pages.length,
       this.continueBlocks.checked ? this.ahead.value : 0,
     );
-    if (coversBlocks(this.inventory.job, blocks)) await this.poll();
+    if (coversBlocks(this.inventory.job, blocks)) {
+      this.render();
+      await this.poll();
+    }
     else await this.prepare(true);
   }
   queueAhead(index) {
@@ -832,15 +839,18 @@ export class LectureAudio {
   }
   async poll() {
     if (this.polling || this.clearing) return;
+    this.lastPoll = Date.now();
     this.checkGenerationHealth();
     this.polling = true;
     const epoch = this.epoch;
     try {
       const jobs = (await api(this.jobsURL())).jobs;
       if (epoch !== this.epoch || this.disposed) return;
+      const signature = JSON.stringify(jobs);
+      const changed = signature !== this.jobsSignature || this.queueError;
       this.jobs = jobs;
       this.queueError = null;
-      this.render();
+      if (changed) this.render();
       const { job } = this.inventory;
       const pending = this.pending;
       if (!pending || !job) return;

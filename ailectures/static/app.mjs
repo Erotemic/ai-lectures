@@ -1,14 +1,5 @@
-import { renderTopicGraph } from "./topic-graph.mjs";
-import { renderMetadataAudit } from "./metadata-audit.mjs";
-import { renderSettings } from "./settings.mjs";
-import { deploymentControls } from "./deployment.mjs";
-import { lectureTagPaths } from "./tag-browser.mjs";
 import { ReactionState, reactionControls, migrateReactions } from "./reactions.mjs";
-import { renderAllLectures } from "./all-lectures.mjs";
 import { creatorLine } from "./creators.mjs";
-import { renderStats } from "./stats.mjs";
-import { renderWordCloud } from "./word-cloud.mjs";
-import { ProductionPanel } from "./production.mjs";
 import {
   randomId,
   api,
@@ -21,18 +12,11 @@ import {
 } from "./api.mjs";
 import { Player } from "./player.mjs";
 import { ProgressSync, mergeSharedProgress } from "./progress.mjs";
-import { reviewFeedback } from "./feedback.mjs";
 import { ListeningQueue } from "./queue.mjs";
 import { transcriptBlocks, recordingTranscriptParts } from "./transcript.mjs";
-import { showStorage } from "./storage.mjs";
-import { referencesPage } from "./references.mjs";
 import { CatalogBrowser, revealAnchor } from "./browse.mjs";
-import { renderLearningMap } from "./learning-map.mjs";
-import { showSlideCompanions } from "./slide-companions.mjs";
 import { collectionReturnPath, owningTrack } from "./browse-model.mjs";
-import { LectureAudio } from "./lecture-audio.mjs";
 import { listeningCourse, followingLecture, precedingLecture } from "./playback-route.mjs";
-import { renderLearningPlan } from "./learning-plan.mjs";
 import { migrateLearningState } from "./learning-state.mjs";
 import { dateAxes, chronologyLine } from "./chronology.mjs";
 import { recentListening } from "./listening-history.mjs";
@@ -42,6 +26,19 @@ import {
   approximateLegacyPosition,
 } from "./legacy-progress.mjs";
 const $ = (id) => document.getElementById(id);
+const routeModules = new Map([
+  ["/lectures", () => import("./all-lectures.mjs")],
+  ["/word-cloud", () => import("./word-cloud.mjs")],
+  ["/stats", () => import("./stats.mjs")],
+  ["/feedback", () => import("./feedback.mjs")],
+  ["/references", () => import("./references.mjs")],
+  ["/learning-map", () => import("./learning-map.mjs")],
+  ["/learning-plan", () => import("./learning-plan.mjs")],
+  ["/topic-graph", () => import("./topic-graph.mjs")],
+  ["/metadata-audit", () => import("./metadata-audit.mjs")],
+  ["/settings", () => import("./settings.mjs")],
+  ["/production", () => import("./production.mjs")],
+]);
 let catalog = { lectures: [], courses: [], packs: [] },
   profile = getStored("listener", ""),
   progress = {},
@@ -52,6 +49,7 @@ let playingQueueEntry = null;
 let renderToken = 0;
 let navigationToken = 0;
 let lectureAudio = null;
+let renderedLectureURL = null;
 let lectureIndex = new Map(),
   catalogTag = null;
 const device = getStored("device") || randomId();
@@ -287,10 +285,8 @@ async function updatePlaybackRoute() {
   const alreadyHere = location.pathname === new URL(returnHref, location.origin).pathname
     && (!viewedRelease || viewedRelease === row.origin.release)
     && lectureAudio?.row.revision === row.revision;
-  returnLink.setAttribute("aria-disabled", String(alreadyHere));
-  returnLink.title = alreadyHere ? "You are viewing the playing lecture" : "Open the playing lecture without interrupting playback";
-  if (alreadyHere) { returnLink.removeAttribute("href"); returnLink.tabIndex = -1; }
-  else { returnLink.href = returnHref; returnLink.removeAttribute("tabindex"); }
+  returnLink.hidden = alreadyHere;
+  returnLink.href = returnHref;
   const track = $("playing-track");
   track.hidden = !course;
   track.textContent = course ? `${course.title} · ${index + 1} / ${course.lectures.length}` : "";
@@ -329,23 +325,25 @@ async function updatePlaybackRoute() {
 const optionsToggle = $("toggle-player-options");
 function showPlayerOptions(open) {
   $("player-options").hidden = !open;
+  $("player").classList.toggle("player-expanded", open);
   optionsToggle.setAttribute("aria-expanded", String(open));
   optionsToggle.textContent = open ? "Less" : "More";
+  optionsToggle.setAttribute("aria-label", open ? "Less — close playback controls" : "More playback controls");
 }
 optionsToggle.onclick = () => showPlayerOptions($("player-options").hidden);
 const menuToggle = $("toggle-library-menu");
 function showLibraryMenu(open) {
   menuToggle.setAttribute("aria-expanded", String(open));
-  document.querySelector("header").classList.toggle("menu-open", open);
+  $("library-menu").hidden = !open;
 }
 menuToggle.onclick = () => showLibraryMenu(menuToggle.getAttribute("aria-expanded") !== "true");
 document.addEventListener("keydown", (event) => {
-  if (event.key !== "Escape") return;
-  if (!$("player-options").hidden) { showPlayerOptions(false); optionsToggle.focus(); }
-  else if (menuToggle.getAttribute("aria-expanded") === "true") { showLibraryMenu(false); menuToggle.focus(); }
+  if (event.key !== "Escape" || document.querySelector("dialog[open]")) return;
+  if (!$("library-menu").hidden) { showLibraryMenu(false); menuToggle.focus(); }
+  else if (!$("player-options").hidden) { showPlayerOptions(false); optionsToggle.focus(); }
 });
-new ResizeObserver(() => {
-  document.documentElement.style.setProperty("--player-height", $("player").getBoundingClientRect().height + "px");
+new ResizeObserver(([entry]) => {
+  document.documentElement.style.setProperty("--player-height", (entry.borderBoxSize?.[0]?.blockSize ?? $("player").offsetHeight) + "px");
 }).observe($("player"));
 async function loadListeners() {
   const data = await api("/api/listeners");
@@ -376,7 +374,7 @@ async function loadListeners() {
   $("progress-conflict").hidden = true;
   progress = getStored("progress:" + contextKey(), {});
   reactions = new ReactionState(profile);
-  await reactions.load();
+  const reactionLoad = reactions.load();
   if (profile) {
     const remote = await api("/api/listeners/" + profile + "/progress");
     const pending = getStored("pending:" + profile, []);
@@ -388,6 +386,7 @@ async function loadListeners() {
     persistProgress();
     await flushProgress();
   }
+  await reactionLoad;
 }
 async function selectListener(id) {
   player.save();
@@ -416,12 +415,7 @@ $("listener-form").onsubmit = async (event) => {
     message(e.message);
   }
 };
-const production = new ProductionPanel({
-  catalog: () => catalog,
-  link,
-  button,
-  message,
-});
+let production;
 const browser = new CatalogBrowser({
   catalog: () => catalog,
   progress: () => progress,
@@ -433,20 +427,21 @@ const browser = new CatalogBrowser({
   badge,
   courseLink,
   lectureLink,
+  play: (href) => navigate(href, true),
   enqueue: enqueueEntries,
 });
 const browse = (collectionsOnly = false) =>
   browser.browse($("main"), collectionsOnly);
 const coursePage = (id) => browser.collection($("main"), id);
-async function lecturePage(id, autoplay = false, historical = null) {
-  const token = ++renderToken;
+async function lecturePage(id, autoplay = false, historical = null, token = ++renderToken) {
   $("main").replaceChildren(
     title(byId(id)?.title || "Loading lecture…"),
     description("Loading lecture…"),
   );
-  const latest =
-    historical ||
-    (await api("/api/library/lectures/" + encodeURIComponent(id)));
+  const [latest, { LectureAudio }] = await Promise.all([
+    historical || api("/api/library/lectures/" + encodeURIComponent(id)),
+    import("./lecture-audio.mjs"),
+  ]);
   const row =
     !historical && player.row?.id === id && !player.audio.paused
       ? player.row
@@ -487,9 +482,16 @@ async function lecturePage(id, autoplay = false, historical = null) {
   const track = owningTrack(row, catalog.courses);
   const returnTo = collectionReturnPath(new URLSearchParams(location.search).get("return"), course?.id, location.origin)
     || (course ? courseLink(course) : "/");
+  const details = el("div", {},
+    el("p", { class: "lecture-track muted" }, track ? "Track: " : "Content pack: ",
+      link(track?.title || catalog.packs.find(pack => pack.id === row.namespace)?.title || row.namespace,
+        track ? courseLink(track) : "/lectures?" + new URLSearchParams({ pack: row.namespace }))),
+    topicLinks(row.tags, link, 8),
+  );
+  const about = el("details", { class: "lecture-about" }, el("summary", { text: "About this lecture" }));
   const top = el(
     "div",
-    {},
+    { class: "lecture-header" },
     returnTo.split(/[?#]/)[0] === "/stats" ? link("← Content stats", returnTo)
       : returnTo.split(/[?#]/)[0] === "/topic-graph" ? link("← Topic graph", returnTo)
       : returnTo.split(/[?#]/)[0] === "/metadata-audit" ? link("← Metadata review", returnTo)
@@ -497,31 +499,16 @@ async function lecturePage(id, autoplay = false, historical = null) {
       : course ? link("← " + course.title, returnTo) : link("Library", "/"),
     title(row.title),
     creatorLine(row, link),
-    el("p", {class:"lecture-track muted"}, track ? "Track: " : "Content pack: ",
-      link(track?.title || catalog.packs.find(pack=>pack.id===row.namespace)?.title || row.namespace,
-        track ? courseLink(track) : "/lectures?"+new URLSearchParams({pack:row.namespace}))),
-    row.description ? description(row.description) : null,
-    topicLinks(row.tags, link, 8),
-    lectureTagPaths(row, link),
-    el(
-      "div",
-      { class: "actions" },
-      button("Add to listening queue", () =>
-        listeningQueue.add(id, currentCourse),
-      ),
-      el("span", {
-        class: "muted",
-        text: `${row.words.toLocaleString()} words · approximately ${row.estimated_minutes} minutes`,
-      }),
-    ),
+    el("p", { class: "lecture-length muted", text: `About ${row.estimated_minutes} min · ${row.words.toLocaleString()} words` }),
   );
+  if (row.description) details.prepend(description(row.description));
   if (row.chronology) {
     const dates = el("div", { class: "lecture-dates" });
     for (const axis of Object.keys(dateAxes)) if (row.chronology[axis]) {
       dates.append(chronologyLine(row, axis));
       if (row.chronology[axis].note) dates.append(el("p", { class: "muted", text: row.chronology[axis].note }));
     }
-    top.append(dates);
+    details.append(dates);
   }
   const otherRoutes = catalog.courses.filter(
     (candidate) =>
@@ -531,7 +518,7 @@ async function lecturePage(id, autoplay = false, historical = null) {
       candidate.lectures.includes(id),
   );
   if (otherRoutes.length)
-    top.append(
+    details.append(
       el(
         "details",
         { class: "section" },
@@ -605,13 +592,16 @@ async function lecturePage(id, autoplay = false, historical = null) {
         }),
       ),
     );
-  top.append(audio.root);
-  if (row.deck && catalog.legacy) top.append(el("p", {}, el("a", {
+  top.append(audio.root, el("div", { class: "lecture-actions actions" },
+    el("a", { href: "#lecture-transcript", text: "Read transcript" }),
+    button("Add to listening queue", () => listeningQueue.add(id, audio.course)),
+  ));
+  if (row.deck && catalog.legacy) details.append(el("p", {}, el("a", {
     href: "/presentations?deck=" + encodeURIComponent(row.deck), text: "Open slides and handouts", target: "_blank", rel: "noopener",
   })));
 
   if (row.companions?.length)
-    top.append(
+    details.append(
       el(
         "section",
         {},
@@ -637,32 +627,51 @@ async function lecturePage(id, autoplay = false, historical = null) {
         ),
       ),
     );
-  if (catalog.capabilities?.slide_companions || row.companions?.some(item => item.role === "prepared" && item.media_type === "text/html"))
-    showSlideCompanions(top, row, { message });
+  let loadingDetails = false;
+  about.addEventListener("toggle", async () => {
+    if (!about.open || loadingDetails) return;
+    loadingDetails = true;
+    try {
+      const hasSlides = catalog.capabilities?.slide_companions ||
+        row.companions?.some(item => item.role === "prepared" && item.media_type === "text/html");
+      const [tags, slides] = await Promise.all([
+        row.tag_paths?.length && import("./tag-browser.mjs"),
+        hasSlides && import("./slide-companions.mjs"),
+      ]);
+      if (!about.isConnected) return;
+      if (tags) details.append(tags.lectureTagPaths(row, link));
+      if (slides) slides.showSlideCompanions(details, row, { message });
+    } catch (error) {
+      loadingDetails = false;
+      if (token === renderToken) message(error.message);
+    }
+  });
   const text = el("section", {
     class: "transcript",
-    "aria-label": "Lecture transcript",
+    "aria-labelledby": "lecture-transcript",
   });
+  const transcriptHeading = el("h2", { id: "lecture-transcript", tabindex: "-1", text: "Transcript" });
+  let renderedTranscript;
   refreshTranscript = () => {
-    text.replaceChildren();
+    const recording = player.row?.id === row.id && player.row.revision === row.revision
+      ? player.recording : null;
+    const toolsAvailable = Boolean(recording && audio.data?.tools_available);
+    if (renderedTranscript?.recording === recording && renderedTranscript.toolsAvailable === toolsAvailable)
+      return;
+    renderedTranscript = { recording, toolsAvailable };
+    text.replaceChildren(transcriptHeading);
     delete text.dataset.recording;
     delete text.dataset.lecture;
-    if (
-      player.row?.id === row.id &&
-      player.row.revision === row.revision &&
-      player.recording
-    ) {
+    if (recording) {
       text.dataset.lecture = row.id;
-      text.dataset.recording = player.recording.id;
-      player.recording.pages.forEach((page, index) => {
+      text.dataset.recording = recording.id;
+      const available = new Set(recording.segments.map((segment) => segment.index));
+      recording.pages.forEach((_, index) => {
         const node = el("section", {
           class: "passage" + (player.index === index ? " active" : ""),
           "data-index": index,
         });
-        const available = player.recording.segments.some(
-          (s) => s.index === index,
-        );
-        const parts = recordingTranscriptParts(row, player.recording, index);
+        const parts = recordingTranscriptParts(row, recording, index);
         parts.forEach((part, partIndex) => {
           const heading =
             part.kind === "heading"
@@ -690,7 +699,7 @@ async function lecturePage(id, autoplay = false, historical = null) {
               part.kind === "heading"
                 ? "Listen from heading: " + sentence.trim()
                 : `Listen from sentence ${sentenceIndex + 1} in passage ${index + 1}`,
-            "aria-disabled": !available && !audio.data.tools_available,
+            "aria-disabled": !available.has(index) && !toolsAvailable,
             text: sentence.slice(0, sentence.length - trailing.length),
             onclick: seek,
             onkeydown: (event) => {
@@ -819,6 +828,8 @@ async function lecturePage(id, autoplay = false, historical = null) {
     if (tools.open !== previousOpen) store("lecture-sidebar-open", tools.open);
     previousOpen = tools.open;
   });
+  about.append(details);
+  top.append(about);
   $("main").replaceChildren(top, layout);
   player.update();
   if (autoplay) {
@@ -1058,7 +1069,7 @@ function listeningPage() {
     ),
   );
 }
-function packsPage() {
+function packsPage(deploymentControls, showStorage) {
   const main = $("main");
   main.replaceChildren(
     title("Content packs"),
@@ -1197,17 +1208,25 @@ function packExportControls(pack) {
     el("label", { class: "check" }, includeAudio, "Include prepared audio"), download, status,
   );
 }
-async function navigate(path, autoplay = false) {
+async function navigate(path, autoplay = false, focusSelector = null) {
   showLibraryMenu(false);
   const token = ++navigationToken;
   history.replaceState({ ...history.state, scroll: window.scrollY }, "");
   history.pushState({}, "", path);
-  await render(autoplay);
+  const rendering = render(autoplay);
+  const control = focusSelector && document.querySelector(focusSelector);
+  if (control) {
+    window.scrollTo(0, 0);
+    control.focus({ preventScroll: true });
+  }
+  await rendering;
   if (token !== navigationToken) return;
-  $("main").focus({ preventScroll: true });
+  if (!control) $("main").focus({ preventScroll: true });
   if (!revealAnchor()) window.scrollTo(0, 0);
 }
 document.addEventListener("click", (event) => {
+  if (!$("library-menu").hidden && !event.target.closest("#library-menu, #toggle-library-menu"))
+    showLibraryMenu(false);
   const a = event.target.closest("a[data-nav]");
   if (a?.getAttribute("aria-disabled") === "true") { event.preventDefault(); return; }
   if (
@@ -1223,7 +1242,12 @@ document.addEventListener("click", (event) => {
   navigate(a.getAttribute("href"));
 });
 window.addEventListener("popstate", async (event) => {
+  showLibraryMenu(false);
   const token = ++navigationToken;
+  if (renderedLectureURL === location.pathname + location.search) {
+    if (!revealAnchor()) window.scrollTo(0, event.state?.scroll || 0);
+    return;
+  }
   await render();
   if (token !== navigationToken) return;
   $("main").focus({ preventScroll: true });
@@ -1242,9 +1266,12 @@ window.addEventListener("scroll", () => {
       history.replaceState({ ...history.state, scroll: window.scrollY }, "");
   });
 }, { passive: true });
-async function findLibrary() {
-  await navigate("/?all=1");
-  document.querySelector(".library-search")?.focus();
+function findLibrary() {
+  const query = new URLSearchParams(location.search);
+  const search = location.pathname === "/" && [...query.keys()].every((key) => key === "q")
+    && document.querySelector("main .library-search");
+  if (search) search.focus();
+  else return navigate("/", false, ".library-search");
 }
 $("find-library").addEventListener("click", findLibrary);
 document.addEventListener("keydown", (event) => {
@@ -1260,18 +1287,24 @@ document.addEventListener("keydown", (event) => {
   }
 });
 async function render(autoplay = false) {
-  renderToken++;
-  updatePlaybackRoute();
+  const token = ++renderToken;
+  const path = location.pathname;
+  renderedLectureURL = null;
   message("");
-  for (const a of document.querySelectorAll("header nav a"))
-    a.setAttribute(
-      "aria-current",
-      a.getAttribute("href") === location.pathname ||
-      (a.getAttribute("href") === "/collections" && /^\/(collections|courses|lectures)\//.test(location.pathname)) ? "page" : "false",
-    );
+  for (const a of document.querySelectorAll(".site-header nav a")) {
+    const href = a.getAttribute("href");
+    let current = href === path ? "page" : "false";
+    if (href === "/collections" && /^\/(collections|courses)(\/|$)/.test(path) && href !== path)
+      current = "location";
+    if (href === "/lectures" && path.startsWith("/lectures/"))
+      current = "location";
+    a.setAttribute("aria-current", current);
+  }
   try {
-    const path = location.pathname;
-    if (path === "/lectures") renderAllLectures($("main"), catalog, { item: (row, axis) => browser.item(row, null, axis), link, reactions });
+    const load = routeModules.get(path);
+    const view = load && await load();
+    if (token !== renderToken) return;
+    if (path === "/lectures") view.renderAllLectures($("main"), catalog, { item: (row, axis) => browser.item(row, null, axis), link, reactions });
     else if (["/courses", "/collections"].includes(path)) browse(true);
     else if (path.startsWith("/courses/") || path.startsWith("/collections/"))
       coursePage(
@@ -1283,38 +1316,49 @@ async function render(autoplay = false) {
       await lecturePage(
         path.slice(10).split("/").map(decodeURIComponent).join(":"),
         autoplay,
+        null,
+        token,
       );
     else if (path === "/listening") listeningPage();
-    else if (path === "/packs") packsPage();
-    else if (path === "/word-cloud") renderWordCloud($("main"), catalog, { link });
-    else if (path === "/stats") renderStats($("main"), catalog, { link, refresh: async () => {
+    else if (path === "/packs") {
+      const [{ deploymentControls }, { showStorage }] = await Promise.all([import("./deployment.mjs"), import("./storage.mjs")]);
+      if (token !== renderToken) return;
+      packsPage(deploymentControls, showStorage);
+    }
+    else if (path === "/word-cloud") view.renderWordCloud($("main"), catalog, { link });
+    else if (path === "/stats") view.renderStats($("main"), catalog, { link, refresh: async () => {
       try { await refresh(true); if (location.pathname === "/stats") await render(); }
       catch (error) { message(error.message); }
     } });
     else if (path === "/feedback")
-      await reviewFeedback($("main"), catalog.lectures);
-    else if (path === "/references") await referencesPage($("main"), catalog);
-    else if (path === "/learning-map") await renderLearningMap($("main"), { link, navigate });
-    else if (path === "/learning-plan") await renderLearningPlan($("main"), {
+      await view.reviewFeedback($("main"), catalog.lectures);
+    else if (path === "/references") await view.referencesPage($("main"), catalog);
+    else if (path === "/learning-map") await view.renderLearningMap($("main"), { link, navigate });
+    else if (path === "/learning-plan") await view.renderLearningPlan($("main"), {
       link, profile, message,
       enqueue: enqueueEntries,
     });
-    else if (path === "/topic-graph") renderTopicGraph($("main"), catalog);
-    else if (path === "/metadata-audit") await renderMetadataAudit($("main"));
-    else if (path === "/settings") await renderSettings($("main"), { message, player });
-    else if (path === "/production") await production.render($("main"));
+    else if (path === "/topic-graph") view.renderTopicGraph($("main"), catalog);
+    else if (path === "/metadata-audit") await view.renderMetadataAudit($("main"));
+    else if (path === "/settings") await view.renderSettings($("main"), { message, player });
+    else if (path === "/production") {
+      production ||= new view.ProductionPanel({ catalog: () => catalog, link, button, message });
+      await production.render($("main"));
+    }
     else browse();
+    if (token !== renderToken) return;
+    if (path.startsWith("/lectures/")) renderedLectureURL = path + location.search;
     document.title = ($("main").querySelector("h1")?.textContent || "Library") + " · AI Lectures";
     await updatePlaybackRoute();
   } catch (e) {
-    message(e.message);
+    if (token === renderToken) message(e.message);
   }
 }
 async function refresh(force = false) {
   const response = await fetch(
     "/api/library/catalog" + (force ? "?refresh=1" : ""),
     {
-      cache: "no-store",
+      cache: force || catalogTag ? "no-store" : "no-cache",
       headers: !force && catalogTag ? { "If-None-Match": catalogTag } : {},
     },
   );
@@ -1333,18 +1377,21 @@ async function refresh(force = false) {
 }
 async function init() {
   const results = await Promise.allSettled([refresh(), loadListeners()]);
+  await render();
   for (const result of results)
     if (result.status === "rejected") message(result.reason.message);
-  await render();
   if (location.hash) revealAnchor();
-  setInterval(async () => {
+  let polling = false;
+  async function poll() {
+    if (polling || document.hidden) return;
+    polling = true;
     try {
       const changed = await refresh();
+      const path = location.pathname;
       if (
         changed &&
-        !location.pathname.startsWith("/lectures/") &&
-        location.pathname != "/feedback" &&
-        location.pathname != "/production"
+        (["/", "/lectures", "/listening", "/stats", "/topic-graph"].includes(path) ||
+          /^\/(collections|courses)(\/|$)/.test(path))
       ) {
         const token = navigationToken;
         const destination = location.href;
@@ -1364,7 +1411,7 @@ async function init() {
         window.scrollTo(0, scroll);
       } else if (
         changed &&
-        location.pathname.startsWith("/lectures/") &&
+        path.startsWith("/lectures/") &&
         player.row
       ) {
         const current = byId(player.row.id);
@@ -1373,8 +1420,8 @@ async function init() {
             "An updated lecture is available. Current playback and feedback retain their revision; reopen the lecture after pausing to load the update.",
           );
       }
-      await production.showJobs();
-      await production.refreshHealth();
+      await production?.showJobs();
+      await production?.refreshHealth();
       if ($("listening-queue"))
         await listeningQueue.render($("listening-queue"));
       if (playingQueueEntry) await updatePlaybackRoute();
@@ -1397,7 +1444,9 @@ async function init() {
           }
         }
       }
-    } catch {}
-  }, 4000);
+    } catch {} finally { polling = false; }
+  }
+  setInterval(poll, 4000);
+  document.addEventListener("visibilitychange", poll);
 }
 init();

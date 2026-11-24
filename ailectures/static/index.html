@@ -9,34 +9,38 @@
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
-    <header>
-      <a class="brand" href="/" data-nav
-        >AI Lectures<span>A library for listening and learning</span></a
-      >
-      <button id="find-library" type="button" aria-label="Search library (Control or Command K)">Search <kbd>⌘ / Ctrl K</kbd></button>
-      <button id="toggle-library-menu" type="button" aria-controls="library-menu" aria-expanded="false">Menu</button>
-      <div id="library-menu">
-      <nav aria-label="Library navigation">
-        <a href="/" data-nav>Library</a
-        ><a href="/lectures" data-nav>All lectures</a
-        ><a href="/collections" data-nav>Collections</a
-        ><a href="/topic-graph" data-nav>Topic graph</a
-        ><a href="/learning-map" data-nav>Learning map</a
-        ><a href="/learning-plan" data-nav>Study plan</a
-        ><a href="/listening" data-nav>History</a
-        ><a href="/packs" data-nav>Packs</a
-        ><a href="/production" data-nav>Production</a
-        ><a href="/stats" data-nav>Stats</a
-        ><a href="/word-cloud" data-nav>Word cloud</a
-        ><a href="/metadata-audit" data-nav>Metadata review</a
-        ><a href="/settings" data-nav>Settings</a>
-      </nav>
-      <div class="listener">
-        <label for="listener">Listener</label
-        ><select id="listener">
-          <option value="">This device</option></select
-        ><button id="add-listener" type="button">Add listener</button>
-      </div>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="/" data-nav>AI Lectures</a>
+        <nav class="primary-nav" aria-label="Library">
+          <a href="/" data-nav>Library</a>
+          <a href="/collections" data-nav>Collections</a>
+          <a href="/lectures" data-nav>Lectures</a>
+          <a href="/listening" data-nav>History</a>
+        </nav>
+        <div class="header-actions">
+          <button id="find-library" type="button" aria-keyshortcuts="Control+K Meta+K">Search <kbd>⌘ / Ctrl K</kbd></button>
+          <button id="toggle-library-menu" type="button" aria-controls="library-menu" aria-expanded="false">Menu</button>
+        </div>
+        <div id="library-menu" hidden>
+          <div class="listener">
+            <label for="listener">Listener</label>
+            <select id="listener"><option value="">This device</option></select>
+            <button id="add-listener" type="button">Add listener</button>
+          </div>
+          <nav aria-label="Library tools">
+            <a href="/learning-map" data-nav>Learning map</a>
+            <a href="/learning-plan" data-nav>Study plan</a>
+            <a href="/references" data-nav>Further reading</a>
+            <a href="/topic-graph" data-nav>Topic graph</a>
+            <a href="/stats" data-nav>Stats</a>
+            <a href="/word-cloud" data-nav>Word cloud</a>
+            <a href="/packs" data-nav>Packs</a>
+            <a href="/production" data-nav>Production</a>
+            <a href="/metadata-audit" data-nav>Metadata review</a>
+            <a href="/settings" data-nav>Settings</a>
+          </nav>
+        </div>
       </div>
     </header>
     <dialog id="listener-dialog">
@@ -70,33 +74,29 @@
       <noscript>Enable JavaScript to browse and play this library.</noscript>
     </main>
     <footer id="player" hidden aria-label="Persistent lecture player">
-      <div class="player-heading">
-        <a id="playing-title" href="/" data-nav></a
-        ><a id="playing-track" href="/" data-nav hidden></a>
+      <div class="player-bar">
+        <div class="player-heading">
+          <a id="playing-title" href="/" data-nav></a>
+          <a id="playing-track" href="/" data-nav hidden></a>
+        </div>
+        <div class="player-controls">
+          <button id="toggle-play" class="primary" type="button">Play</button>
+          <button id="next-lecture" type="button" disabled>Next</button>
+          <button id="toggle-player-options" type="button" aria-label="Playback controls" aria-controls="player-options player-timeline" aria-expanded="false">More</button>
+        </div>
+        <div id="player-timeline" class="timeline">
+          <span id="elapsed">0:00</span>
+          <input id="timeline" type="range" min="0" max="10000" value="0" aria-label="Seek through lecture" />
+          <span id="duration">0:00</span>
+        </div>
       </div>
-      <div class="timeline">
-        <span id="elapsed">0:00</span
-        ><input
-          id="timeline"
-          type="range"
-          min="0"
-          max="10000"
-          value="0"
-          aria-label="Seek through lecture"
-        /><span id="duration">0:00</span>
-      </div>
-      <div class="player-controls">
-        <button id="skip-back" type="button" aria-label="Back 15 seconds">−15</button>
-        <button id="toggle-play" class="primary" type="button">Play</button>
-        <button id="skip-forward" type="button" aria-label="Forward 15 seconds">+15</button>
-        <button id="previous-lecture" type="button" disabled>Previous</button>
-        <button id="next-lecture" type="button" disabled>Next</button>
-        <button id="toggle-player-options" type="button" aria-controls="player-options" aria-expanded="false">More</button>
-      </div>
-      <div class="player-links"><a id="return-to-lecture" role="link" href="/" data-nav>Return to lecture</a><p id="up-next" class="muted"></p></div>
       <div id="player-options" hidden>
-        <p id="playing-note" class="muted"></p>
-        <audio id="audio" controls preload="metadata"></audio>
+        <div class="actions player-transport">
+          <button id="previous-lecture" type="button" disabled>Previous</button>
+          <button id="skip-back" type="button" aria-label="Back 15 seconds">−15 s</button>
+          <button id="skip-forward" type="button" aria-label="Forward 15 seconds">+15 s</button>
+        </div>
+        <div class="player-links"><a id="return-to-lecture" href="/" data-nav>Return to lecture</a><p id="up-next" class="muted"></p></div>
         <div class="filters">
           <label>Playback speed<select id="playback-rate" aria-label="Playback speed">
             <option value="0.75">0.75×</option>
@@ -109,7 +109,11 @@
           <label>Playing track<select id="playing-course" aria-label="Playing track"></select></label>
         </div>
         <label class="check"><input id="continue-course" type="checkbox" checked />Automatically play the next lecture</label>
-        <p class="muted player-hint">Follows the playing track, or your listening queue when started there. Generation and single-block controls are on the lecture page.</p>
+        <details class="player-media">
+          <summary>Current audio block</summary>
+          <p id="playing-note" class="muted"></p>
+          <audio id="audio" controls preload="metadata"></audio>
+        </details>
       </div>
     </footer>
     <script>

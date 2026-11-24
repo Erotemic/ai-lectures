@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import asyncio
+import gzip
 import json
 import re
 import sqlite3
@@ -37,6 +38,22 @@ from .discovery import discovery_fields
 from .descriptions import description_fields
 
 STATIC = Path(__file__).with_name("static")
+
+
+def accepts_gzip(header):
+    encodings = {}
+    for entry in header.lower().split(","):
+        name, *parameters = entry.split(";")
+        quality = 1.0
+        for parameter in parameters:
+            key, _, value = parameter.strip().partition("=")
+            if key == "q":
+                try:
+                    quality = float(value)
+                except ValueError:
+                    quality = 0
+        encodings[name.strip()] = 0 < quality <= 1
+    return encodings.get("gzip", encodings.get("*", False))
 
 
 class LazyLegacy:
@@ -223,17 +240,26 @@ def create_app(
         snapshot = library.snapshot(
             refresh=request.query_params.get("refresh") == "1", copy=False
         )
-        key = (snapshot["generation"], tuple(snapshot["errors"]))
+        key = (snapshot["generation"], tuple(snapshot["errors"]), assets.version)
         etag = 'W/"' + digest(key) + '"'
+        headers = {"Cache-Control": "no-cache", "ETag": etag, "Vary": "Accept-Encoding"}
         if request.headers.get("if-none-match") == etag:
-            return Response(
-                status_code=304, headers={"Cache-Control": "no-cache", "ETag": etag}
-            )
+            return Response(status_code=304, headers=headers)
         with catalog_lock:
             if catalog_cache.get("key") != key:
-                catalog_cache["response"] = catalog_response(snapshot, etag)
+                catalog_cache["response"] = catalog_response(snapshot, headers)
+                catalog_cache.pop("gzip", None)
                 catalog_cache["key"] = key
-            return catalog_cache["response"]
+            response = catalog_cache["response"]
+            if len(response.body) < 1024 or not accepts_gzip(request.headers.get("accept-encoding", "")):
+                return response
+            if "gzip" not in catalog_cache:
+                catalog_cache["gzip"] = Response(
+                    gzip.compress(response.body, compresslevel=3, mtime=0),
+                    media_type="application/json",
+                    headers={**headers, "Content-Encoding": "gzip"},
+                )
+            return catalog_cache["gzip"]
 
     async def word_cloud(request):
         from .word_cloud import cloud_data, render_svg
@@ -279,7 +305,7 @@ def create_app(
         )
         return JSONResponse(result)
 
-    def catalog_response(snapshot, etag):
+    def catalog_response(snapshot, headers):
         collections = []
         for course in snapshot["courses"].values():
             organization = collection_metadata(course, course["id"].split(":")[0])
@@ -316,7 +342,7 @@ def create_app(
                 "capabilities": {"learning_map": True, "learning_plan": True, "pack_export": True,
                                  "slide_companions": library.repository is not None or slide_companion_service is not None},
             },
-            headers={"Cache-Control": "no-cache", "ETag": etag},
+            headers=headers,
         )
 
     def storage(request):

@@ -34,7 +34,7 @@ export function renderAllLectures(main, catalog, { item, link, reactions }) {
   const dateState = select("Date coverage", [["", "All date states"], ["dated", "Dated only"], ["undated", "Without dates"]], params.get("date"));
   const dateFilter = el("label", {}, "Date coverage", dateState);
   const coverage = el("p", { class: "muted date-coverage", role: "status" });
-  const tags = el("datalist", { id: "all-lecture-tags" }, ...[...new Set(lectures.flatMap(tagLabels))].sort().map(value => el("option", { value })));
+  const tags = el("datalist", { id: "all-lecture-tags" });
   const tag = el("input", { type: "search", list: "all-lecture-tags", "aria-label": "Tag",
     placeholder: "Topic, place, author, or period", value: params.get("tag") || "" });
   const count = el("p", { class: "muted", role: "status", "aria-live": "polite" });
@@ -43,13 +43,27 @@ export function renderAllLectures(main, catalog, { item, link, reactions }) {
   const showAll = el("button", { type: "button" });
   let limit = params.get("show") === "all" ? Math.max(initialLectureLimit(view.value), total)
     : Number.isSafeInteger(history.state?.allLecturesLimit) ? Math.max(initialLectureLimit(view.value), history.state.allLecturesLimit) : initialLectureLimit(view.value);
+  const hasFilters = [category, pack, tag, audio, personal, dateState].some(control => control.value) || sort.value !== "title";
+  const filters = el("details", { class: "browsing-options",
+    open: history.state?.inventoryFiltersOpen ?? (hasFilters || !matchMedia("(max-width: 760px)").matches) },
+    el("summary", { text: "Filter and sort" }),
+    el("div", { class: "filters" }, el("label", {}, "Category", category), el("label", {}, "Content pack", pack),
+      el("label", {}, "Tag", tag, tags), el("label", {}, "Audio", audio), el("label", {}, "Your feedback", personal), el("label", {}, "Order", sort), dateFilter));
+  let tagsLoaded = false;
+  function loadTags() {
+    if (!filters.open || tagsLoaded) return;
+    tagsLoaded = true;
+    tags.append(...[...new Set(lectures.flatMap(tagLabels))].sort().map(value => el("option", { value })));
+  }
+  filters.addEventListener("toggle", () => {
+    if (!filters.isConnected) return;
+    history.replaceState({ ...history.state, inventoryFiltersOpen: filters.open }, "");
+    loadTags();
+  });
   main.replaceChildren(el("div", { class: "inventory-heading" }, el("h1", { text: "All lectures" }),
     el("p", {}, link("Browse collections", "/collections"), " · ", link("Content stats", "/stats"))),
     query,
-    el("details", { class: "browsing-options", open: true },
-      el("summary", { text: "Filter and sort" }),
-      el("div", { class: "filters" }, el("label", {}, "Category", category), el("label", {}, "Content pack", pack),
-        el("label", {}, "Tag", tag, tags), el("label", {}, "Audio", audio), el("label", {}, "Your feedback", personal), el("label", {}, "Order", sort), dateFilter)),
+    filters,
     el("div", { class: "actions all-lectures-status" }, count, el("label", { class: "inventory-view" }, "View", view), showAll, clear), coverage, results);
   function update() {
     const filters = { q: query.value.trim(), category: category.value, pack: pack.value, tag: tag.value.trim(), audio: audio.value, personal: personal.value, sort: sort.value, date: dateOrder(sort.value) ? dateState.value : "" };

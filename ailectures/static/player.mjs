@@ -8,11 +8,24 @@ import {
   sentenceAtWord,
 } from "./transcript.mjs";
 export function pageDurations(recording) {
+  const measured = new Map(recording.segments.map((segment) => [segment.index, segment.duration]));
   return recording.pages.map(
-    (page, index) =>
-      recording.segments.find((s) => s.index === index)?.duration ??
-      (page.split(/\s+/).length / 145) * 60,
+    (page, index) => measured.get(index) ?? (page.split(/\s+/).length / 145) * 60,
   );
+}
+const recordingTimelines = new WeakMap();
+function timelineFor(recording) {
+  if (!recordingTimelines.has(recording)) {
+    const durations = pageDurations(recording);
+    let total = 0;
+    const starts = durations.map((duration) => {
+      const start = total;
+      total += duration;
+      return start;
+    });
+    recordingTimelines.set(recording, { durations, starts, total });
+  }
+  return recordingTimelines.get(recording);
 }
 export function locateTime(durations, seconds) {
   let index = 0;
@@ -33,6 +46,7 @@ export class Player {
     this.recording = null;
     this.ready = false;
     this.started = false;
+    this.revealed = false;
     this.index = 0;
     this.lastSave = 0;
     this.loadToken = 0;
@@ -46,6 +60,7 @@ export class Player {
     };
     this.audio.onplay = () => {
       this.started = true;
+      this.reveal();
       this.syncControls();
       this.onBlockPlay?.(this.index);
     };
@@ -75,21 +90,33 @@ export class Player {
         this.play(this.index + 1, 0);
       } else if (document.getElementById("continue-course").checked) this.next({ automatic: true });
     };
-    document.getElementById("timeline").onchange = (event) => {
+    const timeline = document.getElementById("timeline");
+    const preview = () => (Number(timeline.value) / 10000) * timelineFor(this.recording).total;
+    timeline.oninput = () => {
       if (!this.recording) return;
-      const d = pageDurations(this.recording);
-      const p = locateTime(
-        d,
-        (Number(event.target.value) / 10000) * d.reduce((a, b) => a + b, 0),
-      );
-      this.play(p.index, p.seconds);
+      this.scrubbing = true;
+      this.showElapsed(preview());
+    };
+    timeline.onchange = () => {
+      this.scrubbing = false;
+      if (this.recording) this.seekTo(preview());
+    };
+    timeline.onpointercancel = timeline.onblur = () => {
+      this.scrubbing = false;
+      this.update();
     };
     window.addEventListener("pagehide", () => this.save());
   }
+  reveal() {
+    this.revealed = true;
+    document.getElementById("player").hidden = false;
+  }
   syncControls() {
     const waiting = Boolean(this.lectureController?.pending);
-    document.getElementById("toggle-play").textContent = waiting
+    const control = document.getElementById("toggle-play");
+    const label = waiting
       ? "Cancel playback" : this.audio.paused ? (this.started || this.resumeAvailable ? "Resume" : "Play") : "Pause";
+    if (control.textContent !== label) control.textContent = label;
     this.lectureController?.syncPlayback?.();
   }
   toggle() {
@@ -134,7 +161,7 @@ export class Player {
           row.recordings[0] ||
           null;
     this.index = 0;
-    document.getElementById("player").hidden = false;
+    this.scrubbing = false;
     document.getElementById("playing-title").textContent = row.title;
     document.getElementById("playing-title").href = lectureURL(row.id);
     if (this.recording) {
@@ -206,7 +233,6 @@ export class Player {
         Math.max(0, this.audio.duration - 0.05),
       );
       if (autoplay) this.audio.play().catch((e) => this.playbackError(e));
-      this.blockCache.prefetch(this.recording,this.index);
       this.update();
     };
     const use = (url) => {
@@ -241,14 +267,24 @@ export class Player {
   }
   seekBy(seconds) {
     if (!this.recording) return;
-    const durations = pageDurations(this.recording);
-    const elapsed = durations.slice(0, this.index).reduce((a, b) => a + b, 0) +
+    const { starts } = timelineFor(this.recording);
+    const elapsed = (starts[this.index] || 0) +
       (this.audio.currentTime || 0);
-    const target = locateTime(durations, Math.max(0, elapsed + seconds));
+    this.seekTo(elapsed + seconds);
+  }
+  seekTo(seconds) {
+    if (!this.recording) return;
+    const target = locateTime(timelineFor(this.recording).durations, Math.max(0, seconds));
+    if (target.index === this.index && this.ready) {
+      this.audio.currentTime = Math.min(target.seconds, this.audio.duration);
+      this.update();
+      return;
+    }
     if (this.audio.paused) this.load(target.index, target.seconds, false);
     else this.play(target.index, target.seconds);
   }
   play(index = this.index, seconds = null) {
+    if (this.row) this.reveal();
     if (
       !this.recording?.segments.some((s) => s.index === index) &&
       this.requestMissing
@@ -266,47 +302,60 @@ export class Player {
       this.audio.play().catch((e) => this.playbackError(e));
     } else this.load(index, seconds || 0, true);
   }
+  showElapsed(seconds) {
+    const label = document.getElementById("elapsed");
+    const value = clock(seconds);
+    if (label.textContent !== value) label.textContent = value;
+  }
+  updateTimeline(elapsed, total) {
+    const value = total ? Math.max(0, Math.min(10000, Math.round((elapsed / total) * 10000))) : 0;
+    document.getElementById("timeline").value = String(value);
+    if (this.displayedTime !== value) {
+      document.getElementById("player").style?.setProperty("--playback-progress", `${value / 100}%`);
+      this.displayedTime = value;
+    }
+  }
   update() {
     this.syncControls();
-    if (!this.recording) return;
-    const durations = pageDurations(this.recording);
-    const elapsed =
-      durations.slice(0, this.index).reduce((a, b) => a + b, 0) +
-      (this.audio.currentTime || 0);
-    const total = durations.reduce((a, b) => a + b, 0);
-    document.getElementById("elapsed").textContent = clock(elapsed);
-    document.getElementById("duration").textContent =
-      (!this.recording.complete ? "~ " : "") + clock(total);
-    document.getElementById("timeline").value = String(
-      total ? (elapsed / total) * 10000 : 0,
-    );
+    if (!this.recording) {
+      this.updateTimeline(0, 0);
+      return;
+    }
+    const { starts, total } = timelineFor(this.recording);
+    const elapsed = (starts[this.index] || 0) + (this.audio.currentTime || 0);
+    const duration = document.getElementById("duration");
+    const durationText = (!this.recording.complete ? "~ " : "") + clock(total);
+    if (duration.textContent !== durationText) duration.textContent = durationText;
+    if (!this.scrubbing) {
+      this.showElapsed(elapsed);
+      this.updateTimeline(elapsed, total);
+    }
     const root = document.querySelector(".transcript[data-recording]");
     if (
       root?.dataset.recording === this.recording.id &&
       root.dataset.lecture === this.row.id
     ) {
-      const segment = this.recording.segments.find(
-        (s) => s.index === this.index,
-      );
-      const active = sentenceAtWord(
-        pageSpeechSegments(this.row, this.recording, this.index),
-        wordAtTime(
-          this.recording.pages[this.index],
-          segment,
-          this.audio.currentTime || 0,
-        ),
-      );
-      for (const passage of root.querySelectorAll(".passage")) {
-        const current = Number(passage.dataset.index) === this.index;
-        passage.classList.toggle("active", current);
-        for (const sentence of passage.querySelectorAll(".speech-segment")) {
-          const selected =
-            current && Number(sentence.dataset.sentence) === active;
-          sentence.classList.toggle("active", selected);
-          if (selected) sentence.setAttribute("aria-current", "true");
-          else sentence.removeAttribute("aria-current");
-        }
+      const { index } = this;
+      if (this.activePassage?.parentElement !== root || this.highlightIndex !== index) {
+        this.activePassage?.classList.remove("active");
+        this.activePassage = root.querySelector(`.passage[data-index="${index}"]`);
+        this.activePassage?.classList.add("active");
+        this.highlightIndex = index;
+        this.highlightSegments = pageSpeechSegments(this.row, this.recording, index);
       }
+      if (!this.activePassage) return;
+      const segment = this.recording.segments.find((s) => s.index === index);
+      const active = sentenceAtWord(
+        this.highlightSegments,
+        wordAtTime(this.recording.pages[index], segment, this.audio.currentTime || 0),
+      );
+      if (this.activeSentence?.parentElement?.closest(".passage") === this.activePassage &&
+          Number(this.activeSentence.dataset.sentence) === active) return;
+      this.activeSentence?.classList.remove("active");
+      this.activeSentence?.removeAttribute("aria-current");
+      this.activeSentence = this.activePassage.querySelector(`.speech-segment[data-sentence="${active}"]`);
+      this.activeSentence?.classList.add("active");
+      this.activeSentence?.setAttribute("aria-current", "true");
     }
   }
   playbackError(error) {
