@@ -1,19 +1,18 @@
 # Repo-backed audio lecture reader
 
-This describes the compatibility reader at `/audio`. `make serve` now opens the
-unified library at `/`; see the [content pack guide](content-packs.md) for live
-pack updates, portable recordings, listener profiles, and revision-aware feedback.
+This describes the original standalone audio reader. `make serve` opens the
+current library, where `/audio` bookmarks redirect to their library destinations.
+See the [content pack guide](content-packs.md) for the current tools.
 
 ## Run on the LAN
 
 ```bash
-cd /home/joncrall/code/aiq-dkps-formalization/visualizations
-make serve
+uv run --extra serve python -m dkvis.presentation serve
 ```
 
 Open `http://127.0.0.1:8001/audio` on the server or
 `http://<toothbrush-LAN-IP>:8001/audio` from a phone or another computer.
-`make serve PORT=8002` changes the listener port if 8001 is occupied.
+`--port 8002` changes the listener port if 8001 is occupied.
 The server binds `0.0.0.0` on the LAN; do not expose this unauthenticated
 service to the public Internet.
 

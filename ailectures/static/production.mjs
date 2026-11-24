@@ -33,6 +33,8 @@ export class ProductionPanel {
     Object.assign(this, options);
     this.cancelling = new Set();
     this.cancelErrors = new Map();
+    this.cancellingAll = false;
+    this.bulkStatus = "";
     this.historyOpen = false;
     this.historyLimit = 20;
     this.expandedHistory = new Set();
@@ -42,6 +44,7 @@ export class ProductionPanel {
   }
   async render(target) {
     const main = el("section");
+    const setup = el("div");
     this.root = main;
     target.replaceChildren(main);
     main.replaceChildren(
@@ -49,16 +52,14 @@ export class ProductionPanel {
       description(
         "Prepared recordings play independently of TTS. Generate missing recordings when a configured backend is available.",
       ),
+      setup,
+      el("section", { id: "jobs", class: "section" }),
     );
-    if (this.catalog().legacy)
-      main.append(el("details", { class: "compatibility-tools" },
-        el("summary", { text: "Compatibility tools" }),
-        this.link("Open original audio tools", "/audio"),
-      ));
-    const profiles = await api("/api/library/production");
+    const loadingJobs = this.showJobs().catch((error) => this.message(error.message));
+    const profiles = await api("/api/library/production?probe=0");
     if (!main.isConnected) return;
     if (!profiles.profiles.length) {
-      main.append(
+      setup.append(
         el("div", {
           class: "notice",
           text:
@@ -66,8 +67,7 @@ export class ProductionPanel {
             "No TTS connection is configured in this installation. Installed audio and transcripts remain available.",
         }),
       );
-      main.append(el("section", { id: "jobs", class: "section" }));
-      await this.showJobs();
+      await loadingJobs;
       return;
     }
     const scope = el(
@@ -162,7 +162,7 @@ export class ProductionPanel {
       maxlength: "80",
     });
     const registerMessage = el("p", { role: "status" });
-    main.append(...[
+    setup.append(...[
       form,
       profiles.schema === "voice-profiles-v1" ? el("a", { href: "/settings#voice-profiles", "data-nav": "", text: "Create or edit a voice profile" }) : this.button("Refresh available voices", () =>
         narrator.loadVoices(true, narrator.settings().voice),
@@ -199,16 +199,15 @@ export class ProductionPanel {
         }),
         registerMessage,
       ),
-      el("section", { id: "jobs", class: "section" }),
     ].filter(Boolean));
     if (!profiles.tools_available)
-      main.append(
+      setup.append(
         el("p", {
           class: "notice",
           text: "Generation needs the production installation and FFmpeg tools. Playback remains available.",
         }),
       );
-    await this.showJobs();
+    await loadingJobs;
     if (location.hash === "#jobs")
       $("jobs")?.scrollIntoView({ block: "start" });
   }
@@ -303,7 +302,7 @@ export class ProductionPanel {
         ? el("button", {
             type: "button",
             "data-cancel-job": id,
-            disabled: this.cancelling.has(id),
+            disabled: this.cancellingAll || this.cancelling.has(id),
             text: this.cancelling.has(id)
               ? "Stopping…"
               : "Cancel this lecture's generation",
@@ -360,10 +359,20 @@ export class ProductionPanel {
     const { active, attention, history } = partitionJobs(jobs);
     target.replaceChildren(
       el("h2", { text: "Preparation jobs" }),
-      el("p", {
-        class: "muted",
-        text: `${active.length} active · ${attention.length} need attention · ${history.length} finished`,
-      }),
+      el("div", { class: "actions" },
+        el("p", {
+          class: "muted",
+          text: `${active.length} active · ${attention.length} need attention · ${history.length} finished`,
+        }),
+        active.length ? el("button", {
+          type: "button",
+          "data-cancel-all": "",
+          disabled: this.cancellingAll,
+          text: this.cancellingAll ? "Cancelling preparations…" : "Cancel all preparation jobs",
+          onclick: () => this.cancelAll(),
+        }) : null,
+      ),
+      el("p", { role: "status", "data-cancel-status": "", text: this.bulkStatus }),
       active.length
         ? el(
             "div",
@@ -421,23 +430,53 @@ export class ProductionPanel {
       jobs,
       [...this.cancelling],
       [...this.cancelErrors],
+      this.cancellingAll,
     ]);
     if (this.jobsTarget === target && this.jobsSignature === signature) return;
     this.drawJobs(target, jobs);
     this.jobsTarget = target;
     this.jobsSignature = signature;
   }
+  setBulkStatus(text) {
+    this.bulkStatus = text;
+    const status = this.root?.querySelector("[data-cancel-status]");
+    if (status) status.textContent = text;
+  }
+  syncCancellationControls() {
+    const bulk = this.root?.querySelector("[data-cancel-all]");
+    if (bulk) {
+      bulk.disabled = this.cancellingAll;
+      bulk.textContent = this.cancellingAll ? "Cancelling preparations…" : "Cancel all preparation jobs";
+    }
+    for (const button of this.root?.querySelectorAll("[data-cancel-job]") || []) {
+      const stopping = this.cancelling.has(button.dataset.cancelJob);
+      button.disabled = this.cancellingAll || stopping;
+      button.textContent = stopping ? "Stopping…" : "Cancel this lecture's generation";
+    }
+  }
+  async cancelAll() {
+    if (this.cancellingAll || !globalThis.confirm("Cancel all queued and running preparation jobs? Completed recordings and cached audio will be kept.")) return;
+    this.cancellingAll = true;
+    this.syncCancellationControls();
+    this.setBulkStatus("Cancelling queued and running preparations…");
+    try {
+      const { cancelled } = await api("/api/library/production/jobs", { method: "DELETE" });
+      this.setBulkStatus(cancelled
+        ? `${cancelled} ${cancelled === 1 ? "preparation" : "preparations"} cancelled.`
+        : "No queued or running preparations to cancel.");
+    } catch (error) {
+      this.setBulkStatus("Could not cancel preparations: " + error.message);
+    } finally {
+      this.cancellingAll = false;
+      this.syncCancellationControls();
+      await this.showJobs().catch((error) => this.message(error.message));
+    }
+  }
   async cancelJob(id) {
-    if (this.cancelling.has(id)) return;
+    if (this.cancellingAll || this.cancelling.has(id)) return;
     this.cancelling.add(id);
     this.cancelErrors.delete(id);
-    for (const button of this.root?.querySelectorAll("[data-cancel-job]") ||
-      []) {
-      if (button.dataset.cancelJob === id) {
-        button.disabled = true;
-        button.textContent = "Stopping…";
-      }
-    }
+    this.syncCancellationControls();
     try {
       await api("/api/library/production/jobs/" + id, { method: "DELETE" });
     } catch (error) {
@@ -445,6 +484,7 @@ export class ProductionPanel {
       this.message(error.message);
     } finally {
       this.cancelling.delete(id);
+      this.syncCancellationControls();
       await this.showJobs();
     }
   }

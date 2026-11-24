@@ -229,8 +229,8 @@ establishes learning benefits for this library.
 The project began with Davis–Kahan mathematics and its formalization. The
 Narrated Manim/VTK lectures, Lean companions, and the slide/video pipeline remain available;
 they are one part of a broader library. Original presentations are at
-`/presentations`, the compatibility audio reader is at `/audio`, and the older
-curriculum graph is at `/learning-paths`.
+`/presentations`, and the original curriculum graph is at `/learning-paths`.
+Old `/audio` bookmarks redirect into the library.
 
 <a id="browse-and-watch-rendered-material"></a>
 

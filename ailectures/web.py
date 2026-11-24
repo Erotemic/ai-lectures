@@ -57,7 +57,7 @@ def accepts_gzip(header):
 
 
 class LazyLegacy:
-    """Load the old presentation/reader app only when one of its URLs is opened."""
+    """Load the presentation viewer when a compatibility URL is opened."""
 
     def __init__(self, factory, disabled=lambda: False):
         self.disabled = disabled
@@ -67,6 +67,11 @@ class LazyLegacy:
         self.lock = asyncio.Lock()
 
     async def __call__(self, scope, receive, send):
+        if scope.get("path", "").startswith("/api/audio-"):
+            await JSONResponse({"error": "Use the library's Production tools"}, status_code=404)(
+                scope, receive, send
+            )
+            return
         if self.disabled():
             await JSONResponse(
                 {"error": "Compatibility production is disabled in playback-only mode"},
@@ -125,6 +130,7 @@ def create_app(
         else None
     )
     producer = generation_manager
+    producer_lock = threading.Lock()
     slide_service = slide_companion_service
     assets = LibraryAssets(directory=STATIC)
     catalog_cache = {}
@@ -142,17 +148,18 @@ def create_app(
 
     def configured_production():
         nonlocal producer
-        if producer is None:
-            from .production import GenerationManager
+        with producer_lock:
+            if producer is None:
+                from .production import GenerationManager
 
-            producer = GenerationManager(
-                library,
-                config=tts_config,
-                repository=repository,
-                profile=tts_profile,
-                endpoint=tts_endpoint,
-            )
-        return producer
+                producer = GenerationManager(
+                    library,
+                    config=tts_config,
+                    repository=repository,
+                    profile=tts_profile,
+                    endpoint=tts_endpoint,
+                )
+            return producer
 
     def slides():
         nonlocal slide_service
@@ -174,6 +181,23 @@ def create_app(
 
     async def favicon(request):
         return RedirectResponse("/library-assets/favicon.svg")
+
+    def audio_bookmark(request):
+        track = request.query_params.get("track")
+        lecture_id = request.query_params.get("lecture")
+        if not track and not lecture_id:
+            return RedirectResponse("/")
+        track = track or "g2"
+        snapshot = library.snapshot(copy=False)
+        course = f"{track}:main"
+        if lecture_id and f"{track}:{lecture_id}" in snapshot["lectures"]:
+            path = f"/lectures/{quote(track, safe='')}/{quote(lecture_id, safe='')}"
+            if course in snapshot["courses"]:
+                path += "?course=" + quote(course, safe="")
+            return RedirectResponse(path)
+        if course in snapshot["courses"]:
+            return RedirectResponse("/collections/" + quote(course, safe=""))
+        return RedirectResponse("/")
 
     def annotate(row, *, summary=False):
         words = len(row["transcript"].split())
@@ -1220,6 +1244,10 @@ def create_app(
             {"jobs": production().list(qualified(lecture_id) if lecture_id else None)}
         )
 
+    def cancel_jobs(request):
+        require_local_action(request)
+        return JSONResponse(production().cancel_all())
+
     async def retry_job(request):
         return JSONResponse(
             await run_in_threadpool(production().retry, request.path_params["job_id"]),
@@ -1320,6 +1348,7 @@ def create_app(
     ]
     routes += [
         Route("/favicon.ico", favicon),
+        Route("/audio", audio_bookmark),
         Route("/api/library/catalog", catalog),
         Route("/api/library/word-cloud", word_cloud),
         Route("/api/library/word-cloud/find", word_cloud_find),
@@ -1391,6 +1420,7 @@ def create_app(
         ),
         Route("/api/library/production/prepare", prepare, methods=["POST"]),
         Route("/api/library/production/jobs", jobs),
+        Route("/api/library/production/jobs", cancel_jobs, methods=["DELETE"]),
         Route(
             "/api/library/production/jobs/{job_id}/playback",
             production_playback,

@@ -62,7 +62,7 @@ const message = (text) => {
 const link = (text, href) =>
   el("a", {
     href,
-    ...(["/presentations", "/audio", "/learning-paths"].some((prefix) =>
+    ...(["/presentations", "/learning-paths"].some((prefix) =>
       href.startsWith(prefix),
     )
       ? {}

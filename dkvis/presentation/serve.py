@@ -113,7 +113,8 @@ def chapters_for(root, media):
 def create_app(directory=ROOT/'renders', *, feedback_directory=None,
                audio_source_directory=None, audio_cache_directory=None,
                audio_tts_endpoint=None, audio_tts_profile=None, audio_tts_config=None,
-               audio_library=None, slide_library=None, audio_voice_store=None):
+               audio_library=None, slide_library=None, audio_voice_store=None,
+               audio_reader=True):
     root = Path(directory).resolve()
     if not root.is_dir():
         if root == (ROOT/'renders').resolve():
@@ -121,7 +122,6 @@ def create_app(directory=ROOT/'renders', *, feedback_directory=None,
         else:
             raise ValueError(f'Render directory does not exist: {root}')
 
-    from dkvis.presentation.audio_library import AudioLectureHub, AUDIO_PAGE
     from dkvis.presentation.course_graph import build_course_graph, connections
     from dkvis.presentation.companion_slides import CompanionSlideLibrary
     companions = slide_library or CompanionSlideLibrary()
@@ -136,12 +136,16 @@ def create_app(directory=ROOT/'renders', *, feedback_directory=None,
     for node_id, node in course_graph['nodes'].items():
         node['companion_slides'] = slides_by_node[node_id]
     COURSE_GRAPH_PAGE = Path(__file__).with_name('course_graph.html')
-    speech_library = audio_library or AudioLectureHub(
-        sources=audio_source_directory or ROOT/'content' / 'g2',
-        cache=audio_cache_directory or ROOT/'audio-cache',
-        endpoint=audio_tts_endpoint, profile=audio_tts_profile, config=audio_tts_config,
-        voice_store=audio_voice_store,
-    )
+    speech_library = None
+    if audio_reader:
+        from dkvis.presentation.audio_library import AudioLectureHub
+
+        speech_library = audio_library or AudioLectureHub(
+            sources=audio_source_directory or ROOT/'content' / 'g2',
+            cache=audio_cache_directory or ROOT/'audio-cache',
+            endpoint=audio_tts_endpoint, profile=audio_tts_profile, config=audio_tts_config,
+            voice_store=audio_voice_store,
+        )
 
     # Viewer feedback is authored data, not a disposable render/cache artifact.
     feedback_root = Path(feedback_directory).resolve() if feedback_directory else root.parent/'feedback'
@@ -216,7 +220,7 @@ def create_app(directory=ROOT/'renders', *, feedback_directory=None,
         text = payload.get('text')
         if not isinstance(text, str) or not text.strip() or len(text) > 10000:
             raise HTTPException(400, 'Enter feedback between 1 and 10,000 characters.')
-        if payload.get('kind') == 'tts_audio':
+        if payload.get('kind') == 'tts_audio' and audio_reader:
             record = audio_feedback_record(payload, text.strip())
         else:
             if payload.get('kind') is not None:
@@ -405,6 +409,8 @@ def create_app(directory=ROOT/'renders', *, feedback_directory=None,
         return JSONResponse(course_graph, headers={'Cache-Control': 'no-store'})
 
     async def audio_home(request):
+        from dkvis.presentation.audio_library import AUDIO_PAGE
+
         return FileResponse(AUDIO_PAGE, headers={'Cache-Control': 'no-cache'})
 
     async def audio_catalog(request):
@@ -698,39 +704,44 @@ def create_app(directory=ROOT/'renders', *, feedback_directory=None,
         try:
             yield
         finally:
-            speech_library.close()
+            if speech_library is not None:
+                speech_library.close()
 
-    app = Starlette(routes=[
-        Route('/', index), Route('/audio', audio_home),
+    routes = [
+        Route('/', index),
         Route('/learning-paths', learning_paths), Route('/api/course-graph', course_graph_api),
         Route('/api/slide-decks', slide_catalog),
         Route('/api/slide-decks/{deck_id}', slide_status),
         Route('/api/slide-decks/{deck_id}/build', slide_build, methods=['POST']),
         Route('/api/slide-decks/{deck_id}/download', slide_download),
         Route('/slide-decks/{deck_id}', slide_html),
-        Route('/api/audio-lectures', audio_catalog),
-        Route('/api/audio-tracks', audio_tracks),
-        Route('/api/audio-voices', audio_voices),
-        Route('/api/audio-voices/register', audio_register_voice, methods=['POST']),
-        Route('/api/audio-profiles', audio_profiles),
-        Route('/api/audio-health', audio_health),
-        Route('/api/audio-generation/inventory', audio_inventory),
-        Route('/api/audio-generation/catalog', audio_cache_catalog),
-        Route('/api/audio-generation/prepare', audio_prepare_lecture, methods=['POST']),
-        Route('/api/audio-generation/cancel', audio_cancel_generation, methods=['POST']),
-        Route('/api/audio-lectures/{lecture_id}', audio_lecture),
-        Route('/api/audio-lectures/{lecture_id}/transcript.txt', audio_plain_transcript),
-        Route('/api/audio-lectures/{lecture_id}/pages/{page:int}', audio_page_status),
-        Route('/api/audio-lectures/{lecture_id}/pages/{page:int}/render', audio_page_render, methods=['POST']),
-        Route('/api/audio-lectures/{lecture_id}/pages/{page:int}/audio', audio_page_file),
         Route('/api/catalog', catalog), Route('/api/chapters', chapters),
         Route('/api/media', media_detail), Route('/api/captions', captions),
         Route('/api/transcript', transcript), Route('/api/source-transcript', source_transcript),
         Route('/api/learning-resources', learning_companion),
         Route('/api/feedback', feedback, methods=['POST']),
         Mount('/files', StaticFiles(directory=root, html=True), name='files'),
-    ], lifespan=lifespan)
-    return app
+    ]
+    if audio_reader:
+        routes.extend([
+            Route('/audio', audio_home),
+            Route('/api/audio-lectures', audio_catalog),
+            Route('/api/audio-tracks', audio_tracks),
+            Route('/api/audio-voices', audio_voices),
+            Route('/api/audio-voices/register', audio_register_voice, methods=['POST']),
+            Route('/api/audio-profiles', audio_profiles),
+            Route('/api/audio-health', audio_health),
+            Route('/api/audio-generation/inventory', audio_inventory),
+            Route('/api/audio-generation/catalog', audio_cache_catalog),
+            Route('/api/audio-generation/prepare', audio_prepare_lecture, methods=['POST']),
+            Route('/api/audio-generation/cancel', audio_cancel_generation, methods=['POST']),
+            Route('/api/audio-lectures/{lecture_id}', audio_lecture),
+            Route('/api/audio-lectures/{lecture_id}/transcript.txt', audio_plain_transcript),
+            Route('/api/audio-lectures/{lecture_id}/pages/{page:int}', audio_page_status),
+            Route('/api/audio-lectures/{lecture_id}/pages/{page:int}/render', audio_page_render, methods=['POST']),
+            Route('/api/audio-lectures/{lecture_id}/pages/{page:int}/audio', audio_page_file),
+        ])
+    return Starlette(routes=routes, lifespan=lifespan)
 
 
 def main(argv=None):

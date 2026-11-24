@@ -394,8 +394,8 @@ main {
 .topic-link { padding: 0.6rem 1rem; border-bottom: 1px solid var(--line); font-size: 0.85rem; }
 .deep-dive-routes { margin-bottom: 1.4rem; }
 .deep-dive-routes > summary { cursor: pointer; color: var(--accent); font-weight: 600; margin-bottom: 0.8rem; }
-.pack-export, .compatibility-tools { margin-top: 1rem; }
-.pack-export > summary, .compatibility-tools > summary { cursor: pointer; color: var(--accent); }
+.pack-export { margin-top: 1rem; }
+.pack-export > summary { cursor: pointer; color: var(--accent); }
 .pack-export > p { margin-top: 0.6rem; }
 .pack-export button { margin: 0.7rem 0; }
 .pack-export small { display: block; }
@@ -479,6 +479,9 @@ main {
 .audio-block.error, .audio-block.cancelled { color: var(--error); }
 .generation-item { border-top: 1px solid var(--line); padding: 0.7rem 0; }
 .job-history-entry { border-top: 1px solid var(--line); padding: 0.75rem 0; }
+#jobs > .actions { margin-bottom: .75rem; }
+#jobs > .actions > p { margin: 0; }
+[data-cancel-status]:empty { display: none; }
 .job-history-entry > summary { cursor: pointer; overflow-wrap: anywhere; }
 .job-history-entry > summary .muted,
 .job-history-entry > summary time { display: block; font-size: 0.9rem; }

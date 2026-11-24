@@ -876,8 +876,6 @@ class GenerationManager:
             base_recording=None,
             voice_profile=saved,
         )
-        if start:
-            self._request_blocks(job, record["requested_blocks"])
         return job
 
     def clear_saved_cache(self, lecture_id, profile_id, *, revision, profile_revision):
@@ -1467,8 +1465,6 @@ class GenerationManager:
                 "speed": settings.speed,
             },
         )
-        if start:
-            self._request_blocks(job, record["requested_blocks"])
         return job
 
     @staticmethod
@@ -1791,19 +1787,31 @@ class GenerationManager:
             for record in self.jobs.claim(
                 self.owner, limit=self.max_active_jobs, lease_seconds=self.lease_seconds
             ):
+                job_id = record["id"]
+                if record["state"] != "running" or record["owner"] != self.owner:
+                    continue
                 try:
                     if self.config is None and self.repository is None:
                         raise ValueError(
                             "Configure a TTS connection to resume this preparation"
                         )
-                    self._jobs[record["id"]] = self._open(record)
+                    job = self._open(record)
+                    self._jobs[job_id] = job
+                    current = self.jobs.get(job_id)
+                    if current["state"] != "running" or current["owner"] != self.owner:
+                        job["engine"].close()
+                        del self._jobs[job_id]
+                        continue
+                    self._request_blocks(job, current["requested_blocks"])
                     if self._heartbeat_thread is None:
                         self._heartbeat_thread = threading.Thread(
                             target=self._heartbeat, daemon=True
                         )
                         self._heartbeat_thread.start()
                 except (ImportError, OSError, ValueError, KeyError) as exc:
-                    self.jobs.fail(record["id"], self.owner, str(exc), retry=False)
+                    self.jobs.fail(job_id, self.owner, str(exc), retry=False)
+                    if live := self._jobs.pop(job_id, None):
+                        live["engine"].close()
 
     def status(self, job_id):
         self.tick()
@@ -1979,6 +1987,16 @@ class GenerationManager:
             job["engine"].cancel("000000", job["settings"])
         # tick owns cleanup and refreshes final cached-block counts.
         return {"id": job_id, "state": state}
+
+    def cancel_all(self):
+        # Commit before signalling workers. A concurrent coordinator can finish
+        # inspecting or staging files, but it can no longer publish these jobs.
+        active = self._jobs.copy()
+        ids = self.jobs.cancel_all()
+        for job_id in ids:
+            if job := active.get(job_id):
+                job["engine"].cancel("000000", job["settings"])
+        return {"cancelled": len(ids)}
 
     def close(self):
         with self._lock:

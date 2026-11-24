@@ -2,10 +2,8 @@
 
 The library now has one server for source browsing, prepared audio, and optional
 remote TTS. Start it from the repository with `make serve`, then open `/`.
-The old audio reader is at `/audio`; original presentations are at
-`/presentations`, including preserved `/?deck=...` bookmarks. Those compatibility
-surfaces load only when opened. Existing render commands and scene order remain
-unchanged.
+Old `/audio` bookmarks redirect into the library. Original presentations are at
+`/presentations`, including preserved `/?deck=...` bookmarks.
 
 The implementation is in `ailectures/`. All active audio source packs live in `content/<namespace>/`. The older
 `draft-stages/tts-*` directories have been migrated; incoming older ZIPs remain

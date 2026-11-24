@@ -12,9 +12,9 @@ python -m ailectures serve --repository .
 
 Open `http://127.0.0.1:8001/`. `make serve` selects the same library and explicitly
 binds to the LAN, following this repository's existing serving convention.
-Original presentation bookmarks and `/audio` remain available through a lazily
-loaded compatibility app. Content-pack updates require no restart. Changes to
-server code require restarting the process.
+Original presentations remain available at `/presentations`. Old `/audio`
+bookmarks redirect into the library. Content-pack updates require no restart.
+Changes to server code require restarting the process.
 
 Library is the starting point for browsing collections by category. Lectures
 lists individual items, and History keeps recent listening and the queue.
@@ -28,6 +28,8 @@ is available. **Cache whole lecture** is under **Audio blocks & generation**.
 Older recordings remain playable. Select a current profile to generate new
 audio. The reader distinguishes
 missing audio for the selected profile revision from available older recordings.
+In Production, **Cancel all preparation jobs** stops queued and running jobs.
+Cached audio stays available when you retry.
 
 For repeatable bulk generation, `python -m ailectures voices` lists saved
 rendering profiles. `python -m ailectures queue --selection FILE --saved-profile

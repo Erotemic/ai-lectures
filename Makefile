@@ -73,7 +73,7 @@ help:
 	@echo; echo 'Targets:'
 	@echo '  tts-experiment     compare original/previous/composite references with phrase-aligned visuals'
 	@echo '  list               list all presentations and transcript availability'
-	@echo '  serve              browse the indexed audio lecture library at /audio plus existing renders'
+	@echo '  serve              browse the audio lecture library and rendered presentations'
 	@echo '                     PLAYBACK_ONLY=1 serves existing audio with generation and cache clearing disabled'
 	@echo '                     HTTP defaults to 8001 and self-signed HTTPS to 8002; HTTPS_PORT= disables HTTPS; HTTPS_NAMES="IP hostname" adds certificate names'
 	@echo '                     AUDIO_TTS_PROFILE overrides reader default (public Breeze); AUDIO_TTS_ENDPOINT overrides its URL; TTS_CONFIG selects an ignored private profile config'

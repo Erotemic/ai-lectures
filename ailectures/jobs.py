@@ -335,6 +335,21 @@ class JobStore:
                 (time.time(), job_id),
             )
 
+    def cancel_all(self):
+        """Cancel the active queue in one transaction without reading job payloads."""
+        with self.connect() as db:
+            db.execute("BEGIN IMMEDIATE")
+            ids = [
+                row["id"]
+                for row in db.execute("SELECT id FROM jobs WHERE state IN ('queued','running')")
+            ]
+            db.execute(
+                "UPDATE jobs SET state='cancelled',owner=NULL,lease_until=NULL,updated_at=?"
+                " WHERE state IN ('queued','running')",
+                (time.time(),),
+            )
+        return ids
+
     def retain_cancelled_inventory(self, job_id, inventory):
         """Refresh stopped-block counts without changing a retried job's state."""
         with self.connect() as db:
