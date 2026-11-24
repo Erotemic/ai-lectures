@@ -74,7 +74,7 @@ A small breeze came by and asked why he was tilted.
 
 Puff explained about the pockets.
 
-The breeze thought the collection sounded splendid, but wondered whether every treasure had to travel in a pocket forever.
+The breeze asked if Puff could find somewhere to put a few of his treasures so he wouldn't have to carry them all.
 
 Puff looked at his things.
 

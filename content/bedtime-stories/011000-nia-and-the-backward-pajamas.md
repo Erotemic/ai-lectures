@@ -122,7 +122,7 @@ And the little yellow moons on Lisa's pajamas shone quietly under the bedside la
 
 Before Grandma turned the page, Lisa whispered that tomorrow she might wear her socks on the wrong feet.
 
-Grandma said socks could probably manage that.
+Grandma asked how Lisa would know which sock went on which foot.
 
 Then they began to read.
 

@@ -110,7 +110,7 @@ Just soft blue blanket all around.
 
 Grandma looked at the little bear tucked into its pretend bed.
 
-She said the sea seemed to have a comfortable place to rest.
+She said the bear looked cozy there.
 
 Lisa looked toward her own bed.
 

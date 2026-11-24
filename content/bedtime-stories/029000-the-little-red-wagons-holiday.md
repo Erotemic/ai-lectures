@@ -44,7 +44,7 @@ And beyond the apple tree was the vegetable patch, where Grandpa grew beans.
 
 “That is a very long journey,” said Grandpa, looking at the whole garden.
 
-Lisa agreed. It was almost as far as lunchtime.
+Lisa agreed. She said they had better pack a snack.
 
 They packed the wagon carefully.
 

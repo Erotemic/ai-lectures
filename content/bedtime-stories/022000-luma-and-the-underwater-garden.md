@@ -78,7 +78,7 @@ She looked at the rising bubbles.
 
 She thought for a moment.
 
-Then she asked whether a garden had to stay still.
+Then she asked why the bubbles couldn't float through the garden instead.
 
 Abby had never thought about that.
 

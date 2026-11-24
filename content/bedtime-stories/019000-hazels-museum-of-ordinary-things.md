@@ -122,7 +122,7 @@ There was a long stretch of ordinary grass.
 
 "What can I buy?" he asked.
 
-"Nothing," Kate said. "But you may look at everything."
+"You don't need any money," Kate said. "Go and see if you can find something you like."
 
 That was an excellent price, Sam thought.
 

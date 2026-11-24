@@ -126,7 +126,7 @@ So she tucked the dish-towel flag into the sock and laid it on the cushion.
 
 A tiny moon parcel.
 
-Grandma told her that was a very thoughtful delivery.
+Grandma said the moon now had a flag of its own.
 
 Lisa waved at the pretend moon and climbed back into the box.
 

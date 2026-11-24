@@ -56,7 +56,7 @@ Soon they met Kate the hedgehog.
 
 Kate was polishing a smooth, round stone.
 
-She asked whether the parade had a special occasion.
+She asked what the parade was for.
 
 Sam thought for a moment.
 
