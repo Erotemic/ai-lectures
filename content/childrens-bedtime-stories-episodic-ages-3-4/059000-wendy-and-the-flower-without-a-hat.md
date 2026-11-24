@@ -76,9 +76,9 @@ They sat on the dry stones beside the garden and watched the flower moving gentl
 
 "Without a hat," Ben added.
 
-"Maybe bees are allowed."
+"What would a bee's hat look like?" Wendy asked.
 
-"Maybe bees have tiny hats that we can't see."
+"It would have to be tiny," said Ben.
 
 Wendy imagined a bee wearing a hat no wider than a grain of rice. It would need a very small hat shop, and perhaps a very patient hat maker.
 

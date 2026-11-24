@@ -38,10 +38,6 @@ Sue counted the words with one finger.
 
 "I thought it might say PLEASE SEND SANDWICHES," she said.
 
-"That would be for the bakery," Ben replied.
-
-"My cardboard bakery can send paper sandwiches. The real bakery could send bread sandwiches."
-
 "Look, they drew the library window!" Amy said.
 
 She opened her map. The new western fold-out showed the green bus route through the road beyond Far Meadow to Market Street. There was the little clock, the bakery, the pigeon bench, the flower stall, and the broad library window. She pointed to the window on the map and then to the window on the bookmark.
@@ -72,13 +68,9 @@ The library bookmark stayed loose inside the front cover, safe but not stuck to 
 
 Ben shook his head.
 
-"No. It was the book's trip, not one of the sounds I drew."
+"No. All six pages are full."
 
-"The bus already has its own sound," Todd said.
-
-"And it never wrote it down," Sue added. "Very careless bus."
-
-Grandpa Ed laughed. "It has other jobs."
+"I can still make the bus noise," Todd said. "Psssh!"
 
 The friends walked behind the Story House with their grown-ups to look at the garden. The first sunflower was still open. The second held a fat bud with yellow just showing, as it had the day before. The radish row was empty after its earlier harvest, and the sign was in its easy-to-read place beside the dry path.
 

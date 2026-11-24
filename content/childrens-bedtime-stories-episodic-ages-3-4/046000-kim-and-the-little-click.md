@@ -46,7 +46,7 @@ Kim looked at it. She had heard about Grandpa Ed repairing the hinge, but she ha
 
 Todd looked at his boots. "I could lend it a shup."
 
-"Then it could go click-shup!" Kim said.
+"I like it quiet," Kim said.
 
 They went inside to look at the garden picture on the low shelf. The little plants in the garden behind the house had more leaves than they had when the picture was made.
 
@@ -100,7 +100,7 @@ Nothing.
 
 "Oh," Todd said. "They only practice outdoors."
 
-Kim laughed so hard that she had to sit for a moment on the low bench.
+Kim giggled.
 
 After a little while, she and Todd walked home with their grown-ups. At Pebble Bridge they parted, Kim toward Round Pond and Todd along the dry path to Reed Meadow.
 

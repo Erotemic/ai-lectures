@@ -28,9 +28,9 @@ Amy blinked.
 
 Ben arrived wearing his red scarf. He carried the blue Book of Little Sounds, which already held two pages of drawings.
 
-"Did it come from a bump?" Ben asked.
+"Did you see what made it?" Ben asked.
 
-"I didn't see a bump," Kim replied.
+"No, I only heard it," Kim replied.
 
 Grandma May had agreed to accompany the friends along the familiar path, past Pebble Bridge and Round Pond to the reed-lined meadow.
 

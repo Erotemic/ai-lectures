@@ -34,7 +34,7 @@ Amy looked at her yellow map. On the paper, the garden was still only a square w
 
 "You can't water paper," Ben pointed out.
 
-Grandma May laughed. "That's true. And the plants have been doing their growing for a long time."
+Grandma May said, "You could draw how tall they are now."
 
 Amy looked toward the front row. There were no big radish leaves there anymore, only tidy soil and the old picture label with its red radish drawing.
 

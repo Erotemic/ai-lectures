@@ -62,7 +62,7 @@ Sue drew a circle in her notebook. She gave it a long arm and a short arm. Then 
 
 "Mine can hold its minutes," she said.
 
-"What will you put in them?" asked Aunt Kay.
+"What else could it keep in its pockets?" asked Aunt Kay.
 
 Sue looked around the flower stall.
 
@@ -86,7 +86,7 @@ Sue checked the drawing in her notebook. The long arm of her pretend clock reach
 
 "Very different," said Wendy. "I like its pockets."
 
-Grandpa Ed looked at the big clock above the awning. "The shop clock is useful for knowing when to catch our bus. I wonder what time your bakery closes."
+Grandpa Ed looked at the big clock above the awning. "We'll have to check that clock before we catch our bus. What time does your bakery close?"
 
 Sue thought of her cardboard castle bakery at home, standing beside the round window. It had a flap door, a WINDOW ORDERS sign, and a paper beetle inside.
 
