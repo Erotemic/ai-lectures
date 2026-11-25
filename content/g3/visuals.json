@@ -1,15 +1,109 @@
 {
   "equations": {
+    "trial-residual": {
+      "mathml": "<math><mi>R</mi><mo>=</mo><mover><mi>A</mi><mo>^</mo></mover><msub><mi>E</mi><mn>0</mn></msub><mo>−</mo><msub><mi>E</mi><mn>0</mn></msub><msub><mi>A</mi><mn>0</mn></msub></math>",
+      "caption": "On the domain of A₀."
+    },
+    "exact-projection": {
+      "mathml": "<math><msub><mi>P</mi><mi>exact</mi></msub><mo>=</mo><msub><mi>F</mi><mn>0</mn></msub><msup><msub><mi>F</mi><mn>0</mn></msub><mo>∗</mo></msup></math>"
+    },
+    "angle-operator": {
+      "mathml": "<math><mrow><mi>sin</mi><mo>\u2061</mo><mtext>\u2009</mtext><msub><mi>Θ</mi><mn>0</mn></msub></mrow><mo>=</mo><msqrt><mi>I</mi><mo>−</mo><msup><msub><mi>E</mi><mn>0</mn></msub><mo>∗</mo></msup><msub><mi>P</mi><mi>exact</mi></msub><msub><mi>E</mi><mn>0</mn></msub></msqrt></math>"
+    },
+    "interval-gap": {
+      "mathml": "<math><mrow><mi>σ</mi><mo>\u2061</mo><mrow><mo>(</mo><msub><mi>Λ</mi><mn>1</mn></msub><mo>)</mo></mrow></mrow><mo>∩</mo><mrow><mo>(</mo><mi>β</mi><mo>−</mo><mi>δ</mi><mo>,</mo><mi>α</mi><mo>+</mo><mi>δ</mi><mo>)</mo></mrow><mo>=</mo><mi>∅</mi></math>",
+      "caption": "Interval case with σ(A₀) ⊆ [β, α]."
+    },
     "sine-theta-bound": {
       "mathml": "<math><mi>δ</mi><mo>\u2062</mo><mi>N</mi><mo>\u2061</mo><mrow><mo>(</mo><mi>sin</mi><mo>\u2061</mo><mtext>\u2009</mtext><msub><mi>Θ</mi><mn>0</mn></msub><mo>)</mo></mrow><mo>≤</mo><mi>N</mi><mo>\u2061</mo><mrow><mo>(</mo><mi>R</mi><mo>)</mo></mrow></math>"
+    },
+    "sylvester-equation": {
+      "mathml": "<math><msub><mi>Λ</mi><mn>1</mn></msub><mi>X</mi><mo>−</mo><mi>X</mi><msub><mi>A</mi><mn>0</mn></msub><mo>=</mo><msup><msub><mi>F</mi><mn>1</mn></msub><mo>∗</mo></msup><mi>R</mi></math>",
+      "caption": "To form X, apply E₀, then the adjoint of F₁. The identity holds on the domain of A₀."
+    },
+    "sylvester-estimate": {
+      "mathml": "<math><mi>δ</mi><mo>\u2062</mo><mrow><mi>N</mi><mo>\u2061</mo><mrow><mo>(</mo><mi>X</mi><mo>)</mo></mrow></mrow><mo>≤</mo><mrow><mi>N</mi><mo>\u2061</mo><mrow><mo>(</mo><msup><msub><mi>F</mi><mn>1</mn></msub><mo>∗</mo></msup><mi>R</mi><mo>)</mo></mrow></mrow></math>"
+    },
+    "residual-contraction": {
+      "mathml": "<math><mrow><mi>N</mi><mo>\u2061</mo><mrow><mo>(</mo><msup><msub><mi>F</mi><mn>1</mn></msub><mo>∗</mo></msup><mi>R</mi><mo>)</mo></mrow></mrow><mo>≤</mo><mrow><mi>N</mi><mo>\u2061</mo><mrow><mo>(</mo><mi>R</mi><mo>)</mo></mrow></mrow></math>"
+    },
+    "modulus-and-sine": {
+      "mathml": "<math><mrow><mo>|</mo><mi>X</mi><mo>|</mo></mrow><mo>=</mo><msqrt><msup><mi>X</mi><mo>∗</mo></msup><mi>X</mi></msqrt><mo>=</mo><mrow><mi>sin</mi><mo>\u2061</mo><mtext>\u2009</mtext><msub><mi>Θ</mi><mn>0</mn></msub></mrow></math>"
+    },
+    "planar-equality": {
+      "mathml": "<math><mrow><mo>‖</mo><mi>R</mi><mo>‖</mo></mrow><mo>=</mo><mi>δ</mi><mo>\u2062</mo><mrow><mi>sin</mi><mo>\u2061</mo><mtext>\u2009</mtext><mi>θ</mi></mrow></math>"
+    },
+    "operator-norm-bound": {
+      "mathml": "<math><mrow><mo>‖</mo><mrow><mi>sin</mi><mo>\u2061</mo><mtext>\u2009</mtext><msub><mi>Θ</mi><mn>0</mn></msub></mrow><mo>‖</mo></mrow><mo>≤</mo><mfrac><mrow><mo>‖</mo><mi>R</mi><mo>‖</mo></mrow><mi>δ</mi></mfrac></math>"
+    },
+    "perturbation-residual": {
+      "mathml": "<math><mover><mi>A</mi><mo>^</mo></mover><mo>=</mo><mi>A</mi><mo>+</mo><mi>H</mi><mo>,</mo><mtext>\u2002</mtext><mi>R</mi><mo>=</mo><mi>H</mi><msub><mi>E</mi><mn>0</mn></msub></math>"
+    },
+    "actual-separation": {
+      "mathml": "<math><mi>δ</mi><mo>=</mo><mn>3</mn><mo>−</mo><mrow><msub><mi>λ</mi><mi>min</mi></msub><mo>\u2061</mo><mrow><mo>(</mo><mover><mi>A</mi><mo>^</mo></mover><mo>)</mo></mrow></mrow><mo>≈</mo><mn>3.081</mn></math>"
+    },
+    "certified-separation": {
+      "mathml": "<math><mi>δ</mi><mo>≥</mo><mi>g</mi><mo>−</mo><mrow><mo>‖</mo><mi>H</mi><mo>‖</mo></mrow><mo>=</mo><mn>3</mn><mo>−</mo><mn>0.5</mn><mo>=</mo><mn>2.5</mn></math>"
     }
   },
   "lectures": {
     "020000": {
       "inline": [
         {
+          "equation": "trial-residual",
+          "after": "on the domain of A zero. That is the residual."
+        },
+        {
+          "equation": "exact-projection",
+          "after": "P exact is its projection, F zero F zero star."
+        },
+        {
+          "equation": "angle-operator",
+          "after": "are the sines of the angles from the trial subspace toward the exact wanted subspace."
+        },
+        {
+          "equation": "interval-gap",
+          "after": "Or A zero is at most b and Lambda one is at least b plus delta."
+        },
+        {
           "equation": "sine-theta-bound",
           "after": "then delta times N of the sine of Theta zero is at most N of R."
+        },
+        {
+          "equation": "sylvester-equation",
+          "after": "and observe that the result is bounded in z."
+        },
+        {
+          "equation": "sylvester-estimate",
+          "after": "and then extended to N by Ky Fan dominance."
+        },
+        {
+          "equation": "residual-contraction",
+          "after": "so N of F one star R is at most N of R."
+        },
+        {
+          "equation": "modulus-and-sine",
+          "after": "N of X equals N of the sine of Theta zero."
+        },
+        {
+          "equation": "planar-equality",
+          "after": "give equality simultaneously in every unitarily invariant norm."
+        },
+        {
+          "equation": "operator-norm-bound",
+          "after": "no trial vector is perpendicular to the exact wanted subspace."
+        },
+        {
+          "equation": "perturbation-residual",
+          "after": "the theorem gives delta times N of the sine at most N of H."
+        },
+        {
+          "equation": "actual-separation",
+          "after": "The true value is zero point one six zero."
+        },
+        {
+          "equation": "certified-separation",
+          "after": "only the second goes into the theorem."
         }
       ]
     }
