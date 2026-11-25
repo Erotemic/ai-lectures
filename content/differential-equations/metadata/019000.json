@@ -271,7 +271,7 @@
       }
     ]
   },
-  "description": "Develops Hamiltonian flows and symplectic structure, then asks how numerical discretization can preserve variational and geometric properties of the underlying dynamics.",
+  "description": "Develops Hamiltonian flow, symplectic and volume preservation, variational wave equations, and Noether conservation identities. Compares midpoint, Verlet, and discrete multisymplectic action methods, distinguishing geometric invariants from exact energy or phase accuracy. A final moving-mesh section derives relative fluxes and the geometric conservation law.",
   "tag_paths": [
     [
       "Mathematics",
@@ -287,6 +287,38 @@
       "Mathematics",
       "Differential equations",
       "Hamiltonian systems"
+    ],
+    [
+      "Mathematics",
+      "Differential equations",
+      "Variational integrators"
+    ],
+    [
+      "Mathematics",
+      "Differential equations",
+      "Moving-boundary PDEs"
+    ],
+    [
+      "Mathematics",
+      "Differential equations",
+      "Geometric conservation law"
     ]
+  ],
+  "tags": [
+    "Hamilton equations",
+    "Liouville theorem",
+    "Symplectic form",
+    "Euler–Lagrange equations",
+    "Noether theorem",
+    "Implicit midpoint rule",
+    "Störmer–Verlet",
+    "Backward error analysis",
+    "Modified Hamiltonian",
+    "Multisymplectic conservation law",
+    "Discrete action",
+    "CFL condition",
+    "Arbitrary Lagrangian–Eulerian methods",
+    "Free-stream preservation",
+    "Moving-mesh relative fluxes"
   ]
 }

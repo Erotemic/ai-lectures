@@ -41,7 +41,7 @@
       "Find the period and fundamental angular frequency, and distinguish them from harmonics."
     ]
   },
-  "description": "Derives Fourier-series coefficients from trigonometric orthogonality, then reconstructs periodic signals from harmonic components, including the approximation of a square wave.",
+  "description": "Derives Fourier coefficients by trigonometric orthogonality, using symmetry and normalization to calculate square- and triangular-wave harmonics. Compares the two coefficient-decay rates and explains why time shifts change phase, leaving convergence questions for the next lecture.",
   "tag_paths": [
     [
       "Mathematics",
@@ -58,5 +58,15 @@
       "Differential equations",
       "Orthogonality"
     ]
+  ],
+  "tags": [
+    "Square waves",
+    "Triangular waves",
+    "Even and odd symmetry",
+    "Half-wave symmetry",
+    "Coefficient decay",
+    "Fundamental angular frequency",
+    "Fourier phase",
+    "Coefficient normalization"
   ]
 }

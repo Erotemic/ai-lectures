@@ -102,7 +102,7 @@
       }
     ]
   },
-  "description": "Introduces initial-value problems through separable and linear scalar equations, using existence and uniqueness ideas to explain what a proposed solution means.",
+  "description": "Introduces scalar initial-value problems using rate laws, direction fields, and Euler steps. Phase lines, logistic growth, and Lyapunov stability explain qualitative behavior; separation and integrating factors construct solutions while respecting equilibria, uniqueness, and maximal solution intervals.",
   "tag_paths": [
     [
       "Mathematics",
@@ -118,6 +118,34 @@
       "Mathematics",
       "Differential equations",
       "Existence and uniqueness"
+    ],
+    [
+      "Mathematics",
+      "Differential equations",
+      "Phase lines"
+    ],
+    [
+      "Mathematics",
+      "Differential equations",
+      "First-order linear equations"
+    ],
+    [
+      "Mathematics",
+      "Differential equations",
+      "Stability"
     ]
+  ],
+  "tags": [
+    "Direction fields",
+    "Euler method",
+    "Logistic equation",
+    "Lyapunov stability",
+    "Asymptotic stability",
+    "Linearization",
+    "Lipschitz continuity",
+    "Grönwall inequality",
+    "Finite-time blow-up",
+    "Maximal solution intervals",
+    "Integrating factors"
   ]
 }

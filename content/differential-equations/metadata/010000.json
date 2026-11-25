@@ -178,7 +178,7 @@
       }
     ]
   },
-  "description": "Compares transport, heat, and wave equations through propagation, smoothing, and energy estimates rather than treating all PDE evolution alike.",
+  "description": "Compares transport, heat, and wave equations through characteristics, Fourier-mode smoothing, boundary conditions, and finite propagation. Develops weak boundary-value formulations in Sobolev spaces, energy minimization and Lax–Milgram existence, then uses Poincaré inequalities to derive conditional nonlinear reaction–diffusion contraction estimates.",
   "tag_paths": [
     [
       "Mathematics",
@@ -194,6 +194,41 @@
       "Mathematics",
       "Differential equations",
       "Diffusion"
+    ],
+    [
+      "Mathematics",
+      "Differential equations",
+      "Wave equations"
+    ],
+    [
+      "Mathematics",
+      "Differential equations",
+      "Weak formulations"
+    ],
+    [
+      "Mathematics",
+      "Differential equations",
+      "Energy estimates"
     ]
+  ],
+  "tags": [
+    "Characteristics",
+    "Fick law",
+    "Heat equation",
+    "Fourier modes",
+    "Dirichlet boundary conditions",
+    "Neumann boundary conditions",
+    "Weak derivatives",
+    "Sobolev spaces",
+    "Poincaré inequality",
+    "Coercivity",
+    "Lax–Milgram theorem",
+    "Galerkin orthogonality",
+    "Finite elements",
+    "d’Alembert formula",
+    "Finite propagation speed",
+    "Domains of dependence",
+    "One-sided Lipschitz condition",
+    "Grönwall inequality"
   ]
 }

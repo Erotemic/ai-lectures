@@ -53,7 +53,7 @@
       "Distinguish initial transients from periodic particular responses."
     ]
   },
-  "description": "Solves first-order linear systems under periodic forcing, deriving the steady frequency response and separating transients from sustained oscillations.",
+  "description": "Solves a square-wave-driven first-order equation both by matching its piecewise exponential response and by responding to individual Fourier harmonics. Derives low-pass attenuation and phase lag, checks agreement of the periodic solutions, and separates the attracting periodic response from the initial-condition transient.",
   "tag_paths": [
     [
       "Mathematics",
@@ -70,5 +70,17 @@
       "Differential equations",
       "Periodic forcing"
     ]
+  ],
+  "tags": [
+    "Square-wave forcing",
+    "Piecewise exponential solutions",
+    "Half-wave antisymmetry",
+    "Low-pass filtering",
+    "Phase lag",
+    "Attracting periodic solutions",
+    "Uniform convergence",
+    "Absolute convergence",
+    "Superposition",
+    "Infinite-series identity"
   ]
 }

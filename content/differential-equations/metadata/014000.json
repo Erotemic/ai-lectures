@@ -148,7 +148,7 @@
       }
     ]
   },
-  "description": "Explains how reaction and diffusion produce unstable modes, spatial patterns, and traveling fronts, with linearization as a diagnostic tool.",
+  "description": "Derives the two-species Turing instability test and distinguishes a growing linear mode from a final nonlinear pattern. Boundary-adapted eigenfunction expansions connect heat decay and wave oscillation to spectral Galerkin methods; moving-coordinate phase portraits explain Fisher–KPP fronts, bistable speed balance, and speed selection.",
   "tag_paths": [
     [
       "Mathematics",
@@ -164,6 +164,31 @@
       "Mathematics",
       "Differential equations",
       "Pattern formation"
+    ],
+    [
+      "Mathematics",
+      "Differential equations",
+      "Spectral methods"
+    ],
+    [
+      "Mathematics",
+      "Differential equations",
+      "Traveling waves"
     ]
+  ],
+  "tags": [
+    "Turing instability",
+    "Trace–determinant test",
+    "Diffusion-driven instability",
+    "Spatial Fourier modes",
+    "Eigenfunction expansions",
+    "Separation of variables",
+    "Spectral Galerkin methods",
+    "Gibbs phenomenon",
+    "Heteroclinic orbits",
+    "Fisher–KPP equation",
+    "Minimal wave speed",
+    "Bistable fronts",
+    "Homoclinic orbits"
   ]
 }

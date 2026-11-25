@@ -94,7 +94,7 @@
       }
     ]
   },
-  "description": "Uses phase portraits and bifurcations to explain qualitative changes in nonlinear dynamics and the numerical difficulties caused by stiffness.",
+  "description": "Uses pendulum phase portraits, conserved energy, and Lyapunov functions to distinguish stability from attraction. Saddle-node, transcritical, pitchfork, and Hopf normal forms explain qualitative changes; a fast–slow model compares explicit and implicit stability restrictions, stiffness, and singular perturbations.",
   "tag_paths": [
     [
       "Mathematics",
@@ -110,6 +110,33 @@
       "Mathematics",
       "Differential equations",
       "Phase portraits"
+    ],
+    [
+      "Mathematics",
+      "Differential equations",
+      "Bifurcations"
+    ],
+    [
+      "Mathematics",
+      "Differential equations",
+      "Numerical stiffness"
     ]
+  ],
+  "tags": [
+    "Nonlinear pendulum",
+    "Separatrices",
+    "Libration and rotation",
+    "Lyapunov functions",
+    "Saddle-node bifurcation",
+    "Transcritical bifurcation",
+    "Pitchfork bifurcation",
+    "Hopf bifurcation",
+    "Limit cycles",
+    "Explicit Euler",
+    "Backward Euler",
+    "A-stability",
+    "L-stability",
+    "Singular perturbations",
+    "Slow manifolds"
   ]
 }

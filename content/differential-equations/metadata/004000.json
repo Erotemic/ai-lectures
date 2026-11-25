@@ -94,7 +94,7 @@
       }
     ]
   },
-  "description": "Connects second-order oscillation and forced response to linear systems, eigenvalues, and the interpretation of resonance.",
+  "description": "Derives free and forced oscillator responses, damping regimes, and resonance from characteristic roots and energy identities. Matrix exponentials solve constant-coefficient systems, including defective and non-normal cases; variation of constants and causal Green kernels connect forcing to time- and frequency-domain response.",
   "tag_paths": [
     [
       "Mathematics",
@@ -109,6 +109,37 @@
       "Mathematics",
       "Differential equations",
       "Linear systems"
+    ],
+    [
+      "Mathematics",
+      "Differential equations",
+      "Oscillation"
+    ],
+    [
+      "Mathematics",
+      "Differential equations",
+      "Forced linear systems"
+    ],
+    [
+      "Mathematics",
+      "Differential equations",
+      "Matrix exponentials"
     ]
+  ],
+  "tags": [
+    "Harmonic oscillator",
+    "Damping",
+    "Resonance",
+    "Characteristic roots",
+    "Mechanical energy",
+    "Matrix exponential",
+    "Jordan blocks",
+    "Non-normal transient growth",
+    "Variation of constants",
+    "Duhamel principle",
+    "Green functions",
+    "Impulse response",
+    "Frequency response",
+    "Superposition"
   ]
 }

@@ -41,7 +41,7 @@
       "Check the large-s limit against a signal's right-hand initial value."
     ]
   },
-  "description": "Constructs the Laplace transform as an integral, derives its differentiation rule, and uses transformed initial-value problems to solve time-domain equations.",
+  "description": "Builds the one-sided Laplace transform directly from its weighted improper integral, deriving exponential, polynomial, sine, and cosine transform pairs. Explains complex-frequency convergence half-planes, differentiation with respect to the transform variable, and the large-s initial-value check, preparing for the derivative rule and ODE solutions in the next lecture.",
   "tag_paths": [
     [
       "Mathematics",
@@ -58,5 +58,15 @@
       "Differential equations",
       "Transform pairs"
     ]
+  ],
+  "tags": [
+    "One-sided Laplace transform",
+    "Improper integrals",
+    "Exponential signals",
+    "Polynomial signals",
+    "Complex frequency",
+    "Differentiation under the integral",
+    "Integration by parts",
+    "Initial-value limit"
   ]
 }
