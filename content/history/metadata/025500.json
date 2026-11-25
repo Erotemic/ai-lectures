@@ -276,7 +276,9 @@
     }
   ],
   "places": [
-    "Chapel Hill"
+    "Chapel Hill",
+    "Columbia University",
+    "Buenos Aires"
   ],
   "tags": [
     "History of science and mathematics",
@@ -311,9 +313,24 @@
     "Eigenspace perturbation",
     "Travel cost method",
     "Public utility pricing",
-    "Hotelling’s location model"
+    "Hotelling’s location model",
+    "Hotelling’s rule",
+    "Exhaustible resources",
+    "F distribution",
+    "Student’s t-test",
+    "Sampling distributions",
+    "Confidence region coverage",
+    "Uncorrelated versus independent",
+    "Power iteration",
+    "Principal angles",
+    "Nash equilibrium",
+    "Covariance estimation",
+    "Regularization",
+    "Holdout validation",
+    "Abraham Wald",
+    "Statistical Research Group"
   ],
-  "description": "Explores Hotelling’s wartime and postwar work, economics and the building of mathematical statistics at Chapel Hill. Develops multivariate mean testing, principal components and canonical correlation, including sample overfitting, and examines spatial competition and the economics of public resources.",
+  "description": "Explores Hotelling’s wartime and postwar work and the building of mathematical statistics at Chapel Hill. Develops multivariate mean testing, principal components and canonical correlation, including forced sample correlations and eigengap sensitivity; examines fixed-price location competition, resource scarcity rents and the valuation of public goods.",
   "tag_paths": [
     [
       "History",
@@ -350,6 +367,23 @@
     [
       "Economics",
       "Spatial competition"
+    ],
+    [
+      "Economics",
+      "Resource economics",
+      "Exhaustible resources"
+    ],
+    [
+      "Mathematics",
+      "Statistics",
+      "Hypothesis testing",
+      "Multivariate tests"
+    ],
+    [
+      "Mathematics",
+      "Statistics",
+      "Multivariate statistics",
+      "Sampling uncertainty"
     ]
   ],
   "chronology": {

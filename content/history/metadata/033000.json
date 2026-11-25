@@ -495,9 +495,23 @@
     "Language implementation",
     "Software validation",
     "Backward compatibility",
-    "Signal propagation"
+    "Signal propagation",
+    "Compiler correctness",
+    "Formal semantics",
+    "Linkers and loaders",
+    "UNIVAC",
+    "Howard Aiken",
+    "CODASYL",
+    "Loop invariants",
+    "Input and output contracts",
+    "Rounding error",
+    "Decimal arithmetic",
+    "Interoperability",
+    "Software maintenance",
+    "Abstraction",
+    "Debugging"
   ],
-  "description": "Follows Grace Hopper from algebraic irreducibility criteria and mathematical teaching into wartime computing, reusable routines, automatic programming and language standardization. Examines mathematical certificates, data representations, interfaces and how programmers make computations portable, precise and usable by other people.",
+  "description": "Follows Grace Hopper from algebraic irreducibility criteria and mathematical teaching into wartime computing, reusable routines, automatic programming and language standardization. Examines mathematical certificates, compiler translation, data representations, program contracts and invariants, and the preservation of specified behavior across machines and generations.",
   "tag_paths": [
     [
       "History",
@@ -531,6 +545,21 @@
     [
       "Computer Science",
       "Computing history"
+    ],
+    [
+      "Computer Science",
+      "Programming languages",
+      "Program semantics"
+    ],
+    [
+      "Computer Science",
+      "Software engineering",
+      "Software correctness"
+    ],
+    [
+      "Computer Science",
+      "Software engineering",
+      "Interoperability"
     ]
   ],
   "chronology": {
@@ -546,6 +575,7 @@
     "New York City, United States",
     "New Haven, Connecticut",
     "Cambridge, Massachusetts",
-    "Arlington, Virginia"
+    "Arlington, Virginia",
+    "Northampton, Massachusetts"
   ]
 }
