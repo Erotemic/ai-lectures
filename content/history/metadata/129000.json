@@ -357,30 +357,26 @@
     "History of science and mathematics",
     "Biography",
     "David Blackwell",
-    "Probability",
-    "Mathematical statistics",
+    "Markov chains",
     "Rao–Blackwell theorem",
     "Conditional expectation",
     "Sufficient statistics",
     "Unbiased estimation",
     "Variance reduction",
     "Statistical decision theory",
-    "Blackwell ordering",
     "Comparison of experiments",
-    "Statistical experiments",
-    "Game theory",
+    "Blackwell informativeness",
+    "Blackwell approachability",
     "Repeated games",
-    "Blackwell approachability theorem",
     "Vector payoffs",
-    "Regret",
-    "Online learning",
     "Dynamic programming",
-    "Value functions",
-    "Racial discrimination in academia",
-    "C. R. Rao",
-    "M. A. Girshick"
+    "Markov decision processes",
+    "Discounted rewards",
+    "Blackwell optimality",
+    "Operations research",
+    "Racial segregation in academia"
   ],
-  "description": "Follows David Blackwell through racial barriers in American academia and the mathematics of statistical decisions. Explains Rao–Blackwell estimation, sufficient statistics, comparisons of experiments by randomization, approachability in repeated games and recursive decisions through dynamic programming.",
+  "description": "Follows David Blackwell through racial barriers in American academia and his work on probability, Rao–Blackwell estimation, comparison of statistical experiments, repeated-game approachability, and discounted dynamic programming, including policies that remain optimal as the discount factor approaches one under suitable conditions.",
   "tag_paths": [
     [
       "History",
@@ -390,31 +386,35 @@
     ],
     [
       "Mathematics",
+      "Probability",
+      "Markov chains"
+    ],
+    [
+      "Mathematics",
       "Statistics",
-      "Statistical estimation",
+      "Decision theory"
+    ],
+    [
+      "Mathematics",
+      "Statistics",
       "Rao–Blackwell theorem"
-    ],
-    [
-      "Mathematics",
-      "Statistics",
-      "Statistical decision theory",
-      "Comparison of experiments"
-    ],
-    [
-      "Mathematics",
-      "Game theory",
-      "Repeated games",
-      "Approachability"
     ],
     [
       "Mathematics",
       "Optimization",
       "Dynamic programming"
+    ],
+    [
+      "Mathematics",
+      "Game theory",
+      "Repeated games"
     ]
   ],
   "places": [
     "Centralia, Illinois",
     "Washington, D.C.",
-    "Berkeley, California"
+    "Berkeley, California",
+    "Baton Rouge, Louisiana",
+    "Atlanta, Georgia"
   ]
 }

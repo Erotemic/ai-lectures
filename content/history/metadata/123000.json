@@ -250,27 +250,23 @@
     "Operations research",
     "Linear programming",
     "Simplex method",
-    "Convex polyhedra",
-    "Feasible region",
+    "Feasible regions",
     "Linear objectives",
     "Basic feasible solutions",
     "Degeneracy",
+    "Unboundedness",
     "Pivot rules",
     "Linear programming duality",
     "Shadow prices",
     "Sensitivity analysis",
     "Integer programming",
     "Traveling salesman problem",
-    "Cutting planes",
+    "Cutting-plane methods",
     "Worst-case complexity",
-    "Interior-point methods",
     "Dantzig–Wolfe decomposition",
-    "Column generation",
-    "Resource allocation",
-    "Statistical inference",
-    "Optimization modeling"
+    "Resource allocation"
   ],
-  "description": "Follows George Dantzig from wartime statistical control to the simplex method and operations research. A worked production model explains feasible regions, linear objectives, duality and shadow prices; later sections distinguish practical simplex performance from worst-case complexity and examine cutting planes and Dantzig–Wolfe decomposition.",
+  "description": "Follows George Dantzig from wartime Air Forces planning to RAND and university research, explaining linear programming through feasible regions, simplex pivots, duality and shadow prices. Connects the method to sensitivity analysis, discrete optimization, practical versus worst-case performance, and large-scale decomposition.",
   "tag_paths": [
     [
       "History",
@@ -281,14 +277,17 @@
     [
       "Mathematics",
       "Optimization",
-      "Linear programming",
-      "Simplex method"
+      "Linear programming"
     ],
     [
       "Mathematics",
       "Optimization",
-      "Linear programming",
       "Duality"
+    ],
+    [
+      "Mathematics",
+      "Optimization",
+      "Simplex method"
     ],
     [
       "Mathematics",
@@ -296,9 +295,9 @@
       "Integer programming"
     ],
     [
-      "Computer science",
-      "Algorithms",
-      "Combinatorial optimization"
+      "Mathematics",
+      "Optimization",
+      "Decomposition"
     ]
   ],
   "chronology": {
