@@ -29,6 +29,13 @@
       "source_ids": [
         "rtk-early-editions"
       ]
+    },
+    "period": {
+      "start": 208,
+      "label": "208 CE · historical Battle of Red Cliffs",
+      "basis": "historical_event_anchor",
+      "approximate": false,
+      "note": "The historical battle is explicitly dated; the surrounding narrative includes invented episodes and cannot be dated from this anchor alone."
     }
   },
   "creators": [
@@ -58,7 +65,12 @@
     "Borrowing arrows",
     "Huarong Road",
     "Literary attribution",
-    "Coalition rivalry"
+    "Coalition rivalry",
+    "Naval warfare",
+    "Environmental constraints",
+    "Political deliberation",
+    "Huang Gai’s loyalty",
+    "Historical attribution"
   ],
   "description": "Recounts the novel's Red Cliffs alliance, court debates, rival advisers and elaborate deceptions, distinguishing literary stratagems from the historical battle and examining the coalition's survival, competing obligations and unresolved territorial rivalry.",
   "tag_paths": [
@@ -81,10 +93,18 @@
       "History",
       "Asian history",
       "Late Han"
+    ],
+    [
+      "History",
+      "Military history",
+      "Naval history"
     ]
   ],
   "places": [
     "China",
     "Yangtze River, China"
+  ],
+  "periods": [
+    "Late Han dynasty"
   ]
 }

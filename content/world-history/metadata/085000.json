@@ -40,10 +40,19 @@
       "source_ids": [
         "shah-early-ms"
       ]
+    },
+    "period": {
+      "start": 531,
+      "label": "531–579 CE · reign of Khosrow I",
+      "basis": "historical_reign",
+      "approximate": false,
+      "note": "Explicitly dated historical reign; not the date of the entire Mazdak tradition, wisdom tales or composition of the Shahnameh.",
+      "end": 579
     }
   },
   "places": [
-    "India"
+    "India",
+    "Iran"
   ],
   "creators": [
     {
@@ -71,7 +80,13 @@
     "Ibn al-Muqaffa",
     "Chess",
     "Literary transmission",
-    "Hostile source bias"
+    "Hostile source bias",
+    "Land survey",
+    "Backgammon",
+    "Tax assessment",
+    "Royal petitioners",
+    "Political use of ideals",
+    "Fable transmission"
   ],
   "description": "Examines Mazdak's contested reform tradition, Kavad and Khosrow Anushirvan's royal justice, taxation and counsel, then Borzuya's search for Indian wisdom and the transmission of fables, distinguishing political history from ideals of good government.",
   "tag_paths": [
@@ -94,6 +109,14 @@
       "Literature",
       "Literary themes",
       "Justice and governance"
+    ],
+    [
+      "History",
+      "Economic history",
+      "Taxation"
     ]
+  ],
+  "periods": [
+    "Sasanian Empire"
   ]
 }

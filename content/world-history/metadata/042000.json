@@ -33,7 +33,8 @@
     }
   ],
   "periods": [
-    "Bronze Age"
+    "Bronze Age",
+    "Late Bronze Age"
   ],
   "description": "Uses the Uluburun shipwreck's copper, tin, glass, resin, hull and other finds to reconstruct Late Bronze Age exchange, explaining underwater excavation, dating, provenance testing and conservation while separating material origins from the ship's uncertain itinerary.",
   "tags": [
@@ -55,7 +56,11 @@
     "Trade networks",
     "Waterlogged wood",
     "Conservation",
-    "Artifact documentation"
+    "Artifact documentation",
+    "Tree-ring dating",
+    "Geological source ambiguity",
+    "Underwater stratigraphy",
+    "George Bass"
   ],
   "tag_paths": [
     [
@@ -77,6 +82,11 @@
       "History",
       "Economic history",
       "Trade networks"
+    ],
+    [
+      "History",
+      "Archaeology",
+      "Chronometric dating"
     ]
   ],
   "places": [
@@ -85,5 +95,14 @@
     "Cape Gelidonya, Turkey",
     "Eastern Mediterranean",
     "Aegean Sea"
-  ]
+  ],
+  "chronology": {
+    "period": {
+      "start": -1320,
+      "label": "c. 1320 BCE · estimated shipwreck date",
+      "basis": "approximate_shipwreck_date",
+      "approximate": true,
+      "note": "The spoken lecture places the wreck around 1320 BCE with uncertainty; this is not the date of every cargo object or a reconstructed itinerary."
+    }
+  }
 }

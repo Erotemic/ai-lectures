@@ -29,6 +29,13 @@
       "source_ids": [
         "rtk-early-editions"
       ]
+    },
+    "period": {
+      "start": 234,
+      "label": "234 CE · final campaign and death of Zhuge Liang",
+      "basis": "historical_event_anchor",
+      "approximate": false,
+      "note": "Dates the historical Wuzhang Plains campaign and death, not all the preceding campaigns or legendary ritual episodes."
     }
   },
   "creators": [
@@ -55,7 +62,12 @@
     "Public duty",
     "Political succession",
     "Institutional continuity",
-    "Literary afterlife"
+    "Literary afterlife",
+    "Wooden ox and flowing horse",
+    "Gendered martial honor",
+    "Defensive restraint",
+    "Logistical technology",
+    "Legendary ritual"
   ],
   "description": "Traces Zhuge Liang's later Northern Expeditions, logistical constraints and contest with Sima Yi through his death at Wuzhang Plains, examining the limits of strategic ingenuity, public duty and the need for institutional succession.",
   "tag_paths": [
@@ -78,11 +90,19 @@
       "History",
       "Asian history",
       "Three Kingdoms"
+    ],
+    [
+      "History",
+      "Military history",
+      "Military logistics"
     ]
   ],
   "places": [
     "China",
     "Wei River, China",
     "Wuzhang Plains, China"
+  ],
+  "periods": [
+    "Three Kingdoms period"
   ]
 }
