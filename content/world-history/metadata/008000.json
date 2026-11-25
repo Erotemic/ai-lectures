@@ -26,7 +26,10 @@
   ],
   "places": [
     "Uruk",
-    "Mesopotamia"
+    "Mesopotamia",
+    "Kish",
+    "Tigris",
+    "Euphrates"
   ],
   "periods": [
     "Ancient world",
@@ -40,9 +43,38 @@
   ],
   "tags": [
     "Literature",
-    "Ancient Literature"
+    "Ancient Literature",
+    "Gilgamesh",
+    "Bilgames",
+    "Enkidu",
+    "Gilgamesh and Aga",
+    "Gilgamesh and Huwawa",
+    "Gilgamesh and Enkidu and the Netherworld",
+    "Bull of Heaven",
+    "Death of Gilgamesh",
+    "Sumerian literature",
+    "Akkadian literature",
+    "Ancient Mesopotamian literature",
+    "Kish",
+    "Aga",
+    "Huwawa",
+    "Inanna",
+    "Utu",
+    "Enlil",
+    "Enki",
+    "Political assemblies",
+    "Kingship",
+    "Reciprocity",
+    "Cedar timber",
+    "Funerary offerings",
+    "Underworld",
+    "Mortality",
+    "Manuscript variants",
+    "Cuneiform",
+    "Scribal education",
+    "Textual recomposition"
   ],
-  "description": "Explores older Sumerian tales of Gilgamesh beyond the familiar composite epic, including political counsel, the Cedar Forest, Inanna’s tree and the underworld, with attention to divergent ancient manuscripts.",
+  "description": "Explores five independent Sumerian Bilgames compositions: Gilgamesh and Aga, Gilgamesh and Huwawa, Gilgamesh and Enkidu and the Netherworld, the Bull of Heaven, and the Death of Gilgamesh. Compares political counsel, the pursuit of fame, obligations to the dead and the changing role of Enkidu with the later Akkadian epic, explaining what divergent and fragmentary manuscripts allow readers to reconstruct.",
   "chronology": {
     "setting": {
       "start": -2700,
@@ -53,12 +85,59 @@
       "source_ids": [
         "gilgamesh-met"
       ]
+    },
+    "witness": {
+      "start": -2000,
+      "end": -1001,
+      "basis": "manuscript_copies",
+      "approximate": true,
+      "label": "Early 2nd millennium BCE · surviving Sumerian copies",
+      "note": "008000 explains that many surviving Sumerian literary witnesses date to the early second millennium BCE, not to the age of the legendary king or the initial creation of each tale. Numeric bounds deliberately retain whole-millennium precision.",
+      "source_ids": [
+        "lit-gilgamesh-aga",
+        "lit-gilgamesh-huwawa",
+        "lit-gilgamesh-underworld",
+        "lit-gilgamesh-death"
+      ]
     }
   },
   "tag_paths": [
     [
       "Literature",
       "World literature"
+    ],
+    [
+      "Literature",
+      "World literature",
+      "Mesopotamian literature",
+      "Sumerian literature"
+    ],
+    [
+      "Literature",
+      "World literature",
+      "Mesopotamian literature",
+      "Epic of Gilgamesh"
+    ],
+    [
+      "Literature",
+      "Literary studies",
+      "Textual transmission"
+    ],
+    [
+      "Religion",
+      "Mythology",
+      "Mesopotamian mythology"
+    ],
+    [
+      "Religion",
+      "Death and afterlife",
+      "Funerary rites"
+    ],
+    [
+      "History",
+      "Ancient history",
+      "Mesopotamia",
+      "Kingship"
     ]
   ]
 }
