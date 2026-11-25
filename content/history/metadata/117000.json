@@ -229,15 +229,41 @@
     "History of science and mathematics",
     "Biography",
     "Benoît Mandelbrot",
-    "Mathematics"
+    "Mathematics",
+    "Fractal geometry",
+    "Fractal dimension",
+    "Hausdorff dimension",
+    "Heavy-tailed distributions",
+    "Cotton prices",
+    "Koch snowflake",
+    "Complex dynamics",
+    "Mandelbrot set",
+    "Julia sets",
+    "Computer visualization",
+    "Escape-time rendering"
   ],
-  "description": "Traces Benoît Mandelbrot’s migrations and research across mathematics, finance, and IBM, explaining fractal dimension, coastlines, Julia sets, and the public impact of computer images.",
+  "description": "Traces Benoît Mandelbrot’s migrations and research across mathematics, finance and IBM, explaining scale-dependent coastline measurement, fractal dimension, heavy-tailed market fluctuations and complex iteration. Distinguishes the insights and limitations of computer-generated fractal images.",
   "tag_paths": [
     [
       "History",
       "History of science",
       "Scientific biography",
       "Benoît Mandelbrot"
+    ],
+    [
+      "Mathematics",
+      "Geometry",
+      "Fractal geometry"
+    ],
+    [
+      "Mathematics",
+      "Probability",
+      "Heavy-tailed distributions"
+    ],
+    [
+      "Mathematics",
+      "Dynamical systems",
+      "Complex dynamics"
     ]
   ],
   "chronology": {
@@ -254,6 +280,7 @@
   },
   "places": [
     "Paris",
-    "New York"
+    "New York",
+    "Warsaw, Poland"
   ]
 }

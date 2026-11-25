@@ -294,15 +294,53 @@
     "History of science and mathematics",
     "Biography",
     "Claude Shannon",
-    "Computing history"
+    "Computing history",
+    "Information theory",
+    "Boolean algebra",
+    "Switching circuits",
+    "Shannon entropy",
+    "Lossless compression",
+    "Channel capacity",
+    "Noisy-channel coding theorem",
+    "Cryptography",
+    "Perfect secrecy",
+    "One-time pad",
+    "Bell Labs",
+    "Theseus maze",
+    "Analog computing"
   ],
-  "description": "Follows Claude Shannon from relay circuits to information theory at Bell Labs, explaining his treatment of noise and communication alongside his inventive private projects.",
+  "description": "Follows Claude Shannon from Boolean relay circuits to information theory at Bell Labs. Explains source entropy, lossless compression, channel capacity and asymptotically reliable transmission, distinguishing theoretical limits from explicit codes; also covers perfect secrecy and his experimental machines.",
   "tag_paths": [
     [
       "History",
       "History of science",
       "Scientific biography",
       "Claude Shannon"
+    ],
+    [
+      "Mathematics",
+      "Information theory",
+      "Entropy"
+    ],
+    [
+      "Mathematics",
+      "Information theory",
+      "Channel capacity"
+    ],
+    [
+      "Mathematics",
+      "Information theory",
+      "Lossless compression"
+    ],
+    [
+      "Technology",
+      "Computing",
+      "Cryptography"
+    ],
+    [
+      "Technology",
+      "Computing",
+      "Switching circuits"
     ]
   ],
   "chronology": {
@@ -317,6 +355,8 @@
   "places": [
     "Michigan, United States",
     "Cambridge, Massachusetts",
-    "New York, United States"
+    "New York, United States",
+    "Petoskey, Michigan",
+    "Gaylord, Michigan"
   ]
 }
