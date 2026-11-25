@@ -353,11 +353,44 @@
   ],
   "notes": "Paragraph-level evidence ledger after the narration. 23 claims and 14 indexed sources. Access scopes are qualified; interpretive synthesis is authorship, not historical testimony. No lecture duration target.",
   "places": [
-    "Egypt"
+    "Egypt",
+    "Paris, France",
+    "Germany",
+    "Shandong, China",
+    "Jiaozhou Bay, China",
+    "Beijing, China",
+    "China",
+    "Japan",
+    "Korea",
+    "Vietnam",
+    "Middle East",
+    "Africa",
+    "Pacific"
   ],
-  "description": "Analyzes the post-1918 peace settlement through Versailles, League mandates, Shandong, and petitions from colonized peoples, asking whose claims to self-determination prevailed.",
+  "description": "Examines the 1919 Paris settlement through Versailles reparations and League mandates, distinguishing legal responsibility and trusteeship from sovereignty. Compares Shandong and the May Fourth protests, Korean independence demands, the Vietnamese petition, Egyptian organizing, and the Pan-African Congress to show whose claims went unanswered.",
   "tags": [
-    "Peace Settlements and Self Determination"
+    "Peace Settlements and Self Determination",
+    "Paris Peace Conference",
+    "Treaty of Versailles",
+    "Reparations",
+    "Article 231",
+    "League of Nations",
+    "Article 22",
+    "Mandate system",
+    "Self-determination",
+    "Treaty of Lausanne",
+    "Shandong question",
+    "Jiaozhou Bay",
+    "May Fourth Movement",
+    "March First Movement",
+    "Korean Declaration of Independence",
+    "Nguyen Ai Quoc",
+    "Vietnamese petition of 1919",
+    "Wafd",
+    "Egyptian Revolution of 1919",
+    "Pan-African Congress",
+    "W. E. B. Du Bois",
+    "International Labour Organization"
   ],
   "tag_paths": [
     [
@@ -365,6 +398,43 @@
       "World history",
       "Modern history",
       "Peace Settlements And Self Determination"
+    ],
+    [
+      "History",
+      "World history",
+      "Modern history",
+      "Peace Settlements And Self Determination",
+      "Paris peace settlement"
+    ],
+    [
+      "History",
+      "World history",
+      "Modern history",
+      "Peace Settlements And Self Determination",
+      "League mandates"
+    ],
+    [
+      "History",
+      "World history",
+      "Modern history",
+      "Peace Settlements And Self Determination",
+      "Anticolonial self-determination"
     ]
-  ]
+  ],
+  "chronology": {
+    "context": {
+      "start": 1919,
+      "label": "1919 CE · Paris peace settlement and independence claims",
+      "basis": "historical_context",
+      "approximate": false,
+      "note": "Dates the principal conference and the contemporaneous claims, not every treaty or subsequent consequence; the narration also identifies Lausanne in 1923.",
+      "source_ids": [
+        "wwi-peace-sharp",
+        "wwi-mayfourth",
+        "wwi-korea1919",
+        "wwi-lansing",
+        "wwi-panafrican"
+      ]
+    }
+  }
 }

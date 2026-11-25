@@ -356,10 +356,27 @@
     }
   ],
   "notes": "Paragraph-level evidence ledger after the narration. 22 claims and 16 indexed sources. Access scopes are qualified; interpretive synthesis is authorship, not historical testimony. No lecture duration target.",
-  "description": "Explains the aftermath of World War I through demobilization, war debts, women’s labor, uneven economic recovery, and influenza outbreaks in India and Samoa.",
+  "description": "Examines wartime mobilization and its unequal aftermath through war finance, inflation, women’s labor and suffrage, colonial veterans, and the 1918–19 influenza pandemic. Compares mortality estimates in British India with the quarantine failure and colonial inquiry in Samoa, and follows demobilization grievances at Taranto.",
   "tags": [
     "Wartime Societies and Pandemic",
-    "Public health"
+    "Public health",
+    "Mass mobilization",
+    "Wartime labor",
+    "War finance",
+    "Liberty Bonds",
+    "Inflation and purchasing power",
+    "Women’s wartime employment",
+    "Representation of the People Act 1918",
+    "Unequal suffrage",
+    "1918 influenza pandemic",
+    "Excess mortality estimation",
+    "British India influenza",
+    "Samoan Epidemic Commission",
+    "Colonial quarantine",
+    "Demobilization",
+    "British West Indies Regiment",
+    "Taranto revolt",
+    "Colonial accountability"
   ],
   "tag_paths": [
     [
@@ -367,6 +384,56 @@
       "World history",
       "Modern history",
       "Wartime Societies And Pandemic"
+    ],
+    [
+      "History",
+      "World history",
+      "Modern history",
+      "Wartime Societies And Pandemic",
+      "War finance and mobilization"
+    ],
+    [
+      "History",
+      "World history",
+      "Modern history",
+      "Wartime Societies And Pandemic",
+      "1918 influenza pandemic"
+    ],
+    [
+      "History",
+      "World history",
+      "Modern history",
+      "Wartime Societies And Pandemic",
+      "Demobilization and colonial veterans"
     ]
-  ]
+  ],
+  "places": [
+    "United States",
+    "Britain",
+    "British India",
+    "India",
+    "Western Samoa",
+    "Apia, Samoa",
+    "Upolu, Samoa",
+    "Savaiʻi, Samoa",
+    "New Zealand",
+    "Taranto, Italy",
+    "Caribbean"
+  ],
+  "chronology": {
+    "period": {
+      "start": 1918,
+      "label": "1918–1919 CE · Armistice, influenza and demobilization",
+      "basis": "historical_coverage",
+      "approximate": false,
+      "note": "Principal dated aftermath and pandemic sequence, not the bounds of the earlier wartime mobilization background.",
+      "source_ids": [
+        "wwi-flu-waves",
+        "wwi-flu-samoa",
+        "wwi-nam-bwir",
+        "wwi-brit-franchise"
+      ],
+      "end": 1919
+    }
+  }
 }

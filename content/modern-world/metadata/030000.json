@@ -376,11 +376,40 @@
   ],
   "notes": "Paragraph-level evidence ledger after the narration. 24 claims and 15 indexed sources. Access scopes are qualified; interpretive synthesis is authorship, not historical testimony. No lecture duration target.",
   "places": [
-    "Egypt"
+    "Egypt",
+    "Winnipeg, Canada",
+    "Canada",
+    "Washington, D.C., United States",
+    "Britain",
+    "India",
+    "Amritsar, India",
+    "Taranto, Italy",
+    "Caribbean"
   ],
   "description": "Traces mass politics after World War I through the Winnipeg strike, international labor standards, suffrage disputes, Egyptian protests, Indian noncooperation, and Caribbean veterans.",
   "tags": [
-    "Postwar Mass Politics"
+    "Postwar Mass Politics",
+    "Mass politics",
+    "Collective bargaining",
+    "Winnipeg General Strike",
+    "Bloody Saturday",
+    "International Labour Organization",
+    "International Labour Conference",
+    "Tripartite representation",
+    "Hours of Work Convention",
+    "Eight-hour day",
+    "Ratification and enforcement",
+    "Representation of the People Act 1918",
+    "Women’s suffrage",
+    "Wafd",
+    "Egyptian Revolution of 1919",
+    "Women’s anticolonial activism",
+    "Rowlatt Acts",
+    "Amritsar",
+    "Non-cooperation movement",
+    "British West Indies Regiment",
+    "Taranto revolt",
+    "Imperial citizenship"
   ],
   "tag_paths": [
     [
@@ -388,6 +417,44 @@
       "World history",
       "Modern history",
       "Postwar Mass Politics"
+    ],
+    [
+      "History",
+      "World history",
+      "Modern history",
+      "Postwar Mass Politics",
+      "Labor movements and international standards"
+    ],
+    [
+      "History",
+      "World history",
+      "Modern history",
+      "Postwar Mass Politics",
+      "Suffrage and political representation"
+    ],
+    [
+      "History",
+      "World history",
+      "Modern history",
+      "Postwar Mass Politics",
+      "Anticolonial mass politics"
     ]
-  ]
+  ],
+  "chronology": {
+    "period": {
+      "start": 1918,
+      "label": "1918–1920 CE · Postwar mass politics",
+      "basis": "historical_coverage",
+      "approximate": false,
+      "note": "The main dated reform, strikes, conferences and campaigns; the lecture also notes earlier organizing and later legacies.",
+      "source_ids": [
+        "wwi-brit-franchise",
+        "wwi-win-archive",
+        "wwi-ilo-conf",
+        "wwi-india-gordon",
+        "wwi-nam-bwir"
+      ],
+      "end": 1920
+    }
+  }
 }
