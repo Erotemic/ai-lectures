@@ -341,6 +341,18 @@ main {
   border-radius: 8px;
 }
 .reading-visual figcaption { color: var(--muted); font: .85rem/1.5 system-ui, sans-serif; margin-top: .4rem; }
+.reading-visual.reading-equation {
+  width: fit-content;
+  max-width: 100%;
+  padding: .6rem 1.1rem;
+  overflow-x: auto;
+  white-space: normal;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  text-align: center;
+}
+.reading-equation math { font-size: clamp(1.2rem, 4vw, 1.55rem); }
 .section-visual { padding-inline: 1rem; }
 .section-visual .reading-visual { max-width: 24rem; }
 .transcript .reading-visual { margin-inline: auto; }

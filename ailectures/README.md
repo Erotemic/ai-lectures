@@ -61,8 +61,12 @@ text, and optional `caption`. The `sections` object maps stable section keys
 from `track.json` to image IDs. A local lecture ID in `lectures` can set a
 different `cover` or add `inline` placements with an `image` ID and an
 `after` field containing a unique passage from the spoken transcript.
-An inline illustration appears after the corresponding paragraph or spoken
-sentence. The spoken text and audio timing stay separate from the placement.
+An inline figure appears after the corresponding paragraph or spoken sentence.
+For a display equation, declare an ID in `equations` with `mathml` containing
+a `<math>` element with presentation markup. The inline placement uses
+`equation` in place of `image`, with the same `after` anchor. The reader renders
+equations directly from the pack metadata. The spoken text and audio timing
+stay separate from the placement.
 
 The reader caches small WebP display copies under `library-data/build-cache/visuals`
 when Pillow is available. The repository's `serve` extra includes Pillow.

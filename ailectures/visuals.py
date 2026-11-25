@@ -1,4 +1,4 @@
-"""Optional visual placements backed by a separate local asset directory."""
+"""Optional image and equation placements in the lecture reader."""
 
 from __future__ import annotations
 
@@ -9,11 +9,45 @@ from pathlib import Path
 import re
 import tempfile
 import threading
+from xml.etree import ElementTree
 
 from .core import contained, file_digest, name, read_json, relative
 
 DISPLAY_SIZES = (480, 960)
 MEDIA_TYPES = {"PNG": "image/png", "JPEG": "image/jpeg", "WEBP": "image/webp"}
+MATHML = "http://www.w3.org/1998/Math/MathML"
+MATH_TAGS = {
+    "math", "mrow", "mi", "mn", "mo", "mtext", "msub", "msup", "msubsup",
+    "mfrac", "msqrt", "mroot", "munder", "mover", "munderover",
+}
+
+
+def equation_figure(figure):
+    markup = figure["mathml"]
+    if not isinstance(markup, str) or "<!" in markup:
+        raise ValueError("An equation needs presentation MathML")
+    try:
+        equation = ElementTree.fromstring(markup)
+    except ElementTree.ParseError as exc:
+        raise ValueError("Invalid equation MathML") from exc
+    # Packs are portable inputs. Allow only presentation nodes so their markup
+    # never carries external references, embedded HTML, or active attributes.
+    for node in equation.iter():
+        node.tag = node.tag.removeprefix(f"{{{MATHML}}}")
+        allowed_attrs = node is equation and node.attrib == {"display": "block"}
+        if node.tag not in MATH_TAGS or (node.attrib and not allowed_attrs):
+            raise ValueError("Unsupported MathML element or attribute")
+    if equation.tag != "math" or not len(equation):
+        raise ValueError("An equation needs a nonempty math element")
+    equation.set("xmlns", MATHML)
+    equation.set("display", "block")
+    try:
+        result = {"mathml": ElementTree.tostring(equation, encoding="unicode")}
+    except RecursionError as exc:
+        raise ValueError("Equation MathML is nested too deeply") from exc
+    if isinstance(figure.get("caption"), str) and figure["caption"].strip():
+        result["caption"] = figure["caption"].strip()
+    return result
 
 
 def transcript_placement(transcript, after):
@@ -35,9 +69,10 @@ def apply_visuals(path, lectures, courses, issue):
         plan = read_json(path)
         sections = plan.get("sections", {})
         placements = plan.get("lectures", {})
-        images = plan["images"]
-        if not all(isinstance(part, dict) for part in (images, sections, placements)):
-            raise ValueError("images, sections and lectures must be objects")
+        images = plan.get("images", {})
+        equations = plan.get("equations", {})
+        if not all(isinstance(part, dict) for part in (images, equations, sections, placements)):
+            raise ValueError("images, equations, sections and lectures must be objects")
     except (OSError, AttributeError, TypeError, ValueError, KeyError) as exc:
         issue(f"{path.name}: {exc}")
         return
@@ -77,9 +112,15 @@ def apply_visuals(path, lectures, courses, issue):
             entries = []
         for placement in entries:
             try:
+                if ("image" in placement) == ("equation" in placement):
+                    raise ValueError("An inline placement needs one image or equation")
+                figure = (
+                    equation_figure(equations[name(placement["equation"])])
+                    if "equation" in placement else reference(placement["image"])
+                )
                 inline.append({
                     "after_word": transcript_placement(row["transcript"], placement["after"]),
-                    "figure": reference(placement["image"]),
+                    "figure": figure,
                 })
             except (AttributeError, TypeError, ValueError, KeyError) as exc:
                 issue(f"{path.name}, lecture {local_id}: {exc}")
@@ -225,6 +266,11 @@ class VisualStore:
             return None
 
     def describe(self, figure):
+        if isinstance(figure, dict) and "mathml" in figure:
+            try:
+                return equation_figure(figure)
+            except ValueError:
+                return None
         relative_path = figure_path(figure)
         asset = self._asset(relative_path) if relative_path else None
         if not asset:

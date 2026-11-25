@@ -674,8 +674,10 @@ async function lecturePage(id, autoplay = false, token = ++renderToken) {
     const addVisuals = (parent, spoken) => {
       if (figureIndex === inline.length) return;
       wordOffset += words(spoken);
-      while (figureIndex < inline.length && inline[figureIndex].after_word <= wordOffset)
-        parent.append(visualFigure(inline[figureIndex++].figure));
+      while (figureIndex < inline.length && inline[figureIndex].after_word <= wordOffset) {
+        const figure = visualFigure(inline[figureIndex++].figure);
+        if (figure) parent.append(figure);
+      }
     };
     if (recording) {
       text.dataset.lecture = row.id;
